@@ -5,6 +5,7 @@
 # 这个脚本由 cron 上午9点，下午6点 定期执行 MAC OS
 # crontab -e -l -r 
 # man crontab 
+# 0 9,18 * * * ~/DEV/Personal/How-to-Make-Money/daily_log/update_my_github.sh
 
 
 pushd ~/DEV/Personal/How-to-Make-Money 
