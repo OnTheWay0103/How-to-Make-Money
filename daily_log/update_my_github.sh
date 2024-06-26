@@ -8,6 +8,8 @@
 # 0 9,18 * * * ~/DEV/Personal/How-to-Make-Money/daily_log/update_my_github.sh
 
 
+#更新github， 把更新推上去
+
 pushd ~/DEV/Personal/How-to-Make-Money 
 	git pull \
 	&& git add -A \
@@ -30,4 +32,3 @@ popd
 
 
 
-#更新github， 把更新推上去
