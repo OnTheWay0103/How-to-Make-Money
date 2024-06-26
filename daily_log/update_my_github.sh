@@ -8,9 +8,9 @@
 
 
 pushd ~/DEV/Personal/How-to-Make-Money 
-	git pull 
-	&& git add -A
-	&& git ci -m "auto commit update file"
+	git pull \
+	&& git add -A \
+	&& git ci -m "auto commit update file" \
 	&& git push
 popd 
 
