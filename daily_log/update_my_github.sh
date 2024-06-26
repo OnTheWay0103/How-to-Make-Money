@@ -31,6 +31,10 @@ popd
 
 
 
+# MAC 提醒， 运行不了，后面再找时间看吧
+# osascript ~/DEV/Personal/How-to-Make-Money/daily_log/reminder_script.applescript "Meeting with client" "Wed Jun 26 17:00:00 CST 2024" "Submit project report" "Wed Jun 26 18:00:00 CST 2024"
+
+
 
 
 
