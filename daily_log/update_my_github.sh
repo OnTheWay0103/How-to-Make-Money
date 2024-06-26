@@ -13,7 +13,7 @@
 pushd ~/DEV/Personal/How-to-Make-Money 
 	git pull \
 	&& git add -A \
-	&& git ci -m "auto commit update file" \
+	&& git ci -m "auto commit update file:""$(date)" \
 	&& git push
 popd 
 
@@ -28,6 +28,8 @@ pushd ~
 	    echo "log written to $log_file"
 	fi
 popd 
+
+
 
 
 
