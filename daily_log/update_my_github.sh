@@ -7,7 +7,11 @@
 # man crontab 
 
 
-pushd ~/DEV/Personal/How-to-Make-Money && git pull 
+pushd ~/DEV/Personal/How-to-Make-Money 
+	git pull 
+	&& git add -A
+	&& git ci -m "auto commit update file"
+	&& git push
 popd 
 
 pushd ~
