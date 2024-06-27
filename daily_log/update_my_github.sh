@@ -1,6 +1,11 @@
 #!/bin/bash
 
 
+# 每次都在这个事情上花不少时间。。。。
+# MAC 定时任务和提醒功能：
+
+
+
 #同步github /Users/zhaoq0103/DEV/Personal/How-to-Make-Money/daily_log/update_my_github.sh
 # 这个脚本由 cron 上午9点，下午6点 定期执行 MAC OS
 # crontab -e -l -r 
