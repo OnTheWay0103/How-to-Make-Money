@@ -16,10 +16,10 @@
 #更新github， 把更新推上去
 
 pushd ~/DEV/Personal/How-to-Make-Money 
-	git pull \
-	&& git add -A \
-	&& git ci -m "auto commit update file:""$(date)" \
-	&& git push
+	git pull
+	git add -A 
+	git ci -m "auto commit update file:""$(date)" 
+	git push
 popd 
 
 pushd ~
