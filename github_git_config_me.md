@@ -115,7 +115,7 @@ git config --global core.quotepath false
 
 # 不同级别的配置
 # --system, --global, --local
-git config --global --list
+git config --global --list  #列出全局配置 
 git config --global --unset user.name
 git config --global --unset user.email
 
