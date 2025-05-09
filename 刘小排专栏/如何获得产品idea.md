@@ -14,4 +14,22 @@
 
 搜索关键词：
 	找准一个关键词，便是一个伟大事业的开端
+	(少数人的想要是噪音，稳定的高搜索量是真正的需求)
+	(关键词研究值得投入)
 	如：veed.io 网页版的剪映
+	搜索词 - 搜索量 - 核心用户 - 产品价值 - 竞争对手 - 开发难易
+
+相关工具：
+	关键词工具：
+		KeywordsEverywhere(需要付费，有浏览大插件)
+		Google keyword Planer（免费，需要注册Google Ads)
+		keywordtool.io  (数据也是来自Google Ads)
+	SEO工具： 
+		Ahrefs (贵)
+		SEMRush
+		UberSuggest
+		SimilarWeb分析流量来源
+	联想词工具：
+		KeywordSea.com
+		toucibao.com
+		AlsoAsked.com(免费+付费)
