@@ -1,4 +1,4 @@
-如何获得产品idea
+如何获得产品ideagit 
 
 
 高成功率的产品：
@@ -21,7 +21,7 @@
 
 相关工具：
 	关键词工具：
-		KeywordsEverywhere(需要付费，有浏览大插件)
+		KeywordsEverywhere(需要付费，有浏览器插件)
 		Google keyword Planer（免费，需要注册Google Ads)
 		keywordtool.io  (数据也是来自Google Ads)
 	SEO工具： 
