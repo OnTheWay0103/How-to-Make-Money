@@ -21,3 +21,12 @@ AI+Web
 		1.5 收款 建议招行电汇 搜索 China Merchants Bank Adsense,查找教程
 	2. 付费定阅，推广分成，捐赠等
 		收款渠道：LemonSqueezy, Stripe(用公司注册比较好)
+
+
+上站实践：
+	1. 使用 模板直接发布 网站 （可以在github上找模板或者在 vercel.com 上找模板）可以先随意找几个模板试一下流程
+	2. 在 vercel.com 选好模板，deploy,然后关联vercel和github的账号（如已关联，跳过关联步骤）
+	3. 在 https://supabase.com 创建数据库
+	4. 在 https://www.astria.ai  创建密钥
+	5. 部署成功后，再上线域名等，修改DNS等
+	6. 网站优化和推广
