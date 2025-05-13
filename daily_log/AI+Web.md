@@ -30,3 +30,8 @@ AI+Web
 	4. 在 https://www.astria.ai  创建密钥
 	5. 部署成功后，再上线域名等，修改DNS等
 	6. 网站优化和推广
+	7. 其他：（免费域名 Dot.tk, https://www.infinityfree.com/  vercel.com也会生成一个免费域名，cloudflare.com， https://pages.github.com/ 等）
+	
+支付相关：
+	收单：creem.io 收单平台（可以收全球信用卡和Paypal支付，用境内银行卡人民币结算)
+	支付：MasterCard, Visa
