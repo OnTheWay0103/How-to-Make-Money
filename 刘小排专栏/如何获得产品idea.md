@@ -22,13 +22,15 @@
 相关工具：
 	关键词工具：
 		KeywordsEverywhere(需要付费，有浏览器插件)
-		Google keyword Planer（免费，需要注册Google Ads)
+		Google keyword Planer（免费，需要注册Google Ads ，我注册了一个 zhaoq0607@gmail.com)
+			https://ads.google.com/home/tools/keyword-planner/
 		keywordtool.io  (数据也是来自Google Ads)
 	SEO工具： 
 		Ahrefs (贵)
 		SEMRush
 		UberSuggest
 		SimilarWeb分析流量来源
+		AnswerThePublic 长尾词
 	联想词工具：
 		KeywordSea.com
 		toucibao.com
