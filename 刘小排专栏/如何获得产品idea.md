@@ -22,7 +22,7 @@
 相关工具：
 	关键词工具：
 		KeywordsEverywhere(需要付费，有浏览器插件)
-		Google keyword Planer（免费，需要注册Google Ads ，我注册了一个 zhaoq0607@gmail.com)
+		Google keyword Planer（免费，需要注册Google Ads ，我注册了一个 zhaoq0607@gmail.com 支付环节没成功，zhaoq6161@gmail.com成功了)
 			https://ads.google.com/home/tools/keyword-planner/
 		keywordtool.io  (数据也是来自Google Ads)
 	SEO工具： 

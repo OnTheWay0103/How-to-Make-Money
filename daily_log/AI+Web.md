@@ -4,9 +4,9 @@ AI+Web
 
 
 图片类的网站如何找到需求并实现：
-	1. toolfy.ai 查看榜单
-	2. SEMRush等工具导出网站关键词
-	3. 使用关键词工具调研，找到值得做的需求并实现
+	1. 查看榜单（推荐工具：toolify.ai）
+	2. 使用工具导出网站关键词（推荐工具：Google keyword Planer,SEMRush等）
+	3. 使用关键词工具调研，找到值得做的需求并实现(./利用关键词工具...找到值得做的需求.md)
 	4. 使用 https://vercel.com 练习上站 https://supabase.com (DB) https://www.astria.ai (API KEY)
 	5. 网站优化和推广 （发外链）（可以用 ahrefs 工具查看竞品的发外链目标地）
 	6. 重复 1~5 步骤
