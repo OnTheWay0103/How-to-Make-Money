@@ -6,9 +6,9 @@ AI+Web
 图片类的网站如何找到需求并实现：
 	1. 查看榜单（推荐工具：toolify.ai）
 	2. 使用工具导出网站关键词（推荐工具：Google keyword Planer,SEMRush等）
-	3. 使用关键词工具调研，找到值得做的需求并实现(./利用关键词工具...找到值得做的需求.md)
-	4. 使用 https://vercel.com 练习上站 https://supabase.com (DB) https://www.astria.ai (API KEY)
-	5. 网站优化和推广 （发外链）（可以用 ahrefs 工具查看竞品的发外链目标地）
+	3. 使用关键词工具调研，找到值得做的需求(./利用关键词工具...找到值得做的需求.md)
+	4. 实现需求：使用 https://vercel.com 练习上站 https://supabase.com (DB) https://www.astria.ai (API KEY)
+	5. 网站优化和推广 （发外链）（可以用 ahrefs 工具查看竞品的发外链目标地）- 如何发外链？
 	6. 重复 1~5 步骤
 	
 补充说明：（联盟广告与其他盈利方式）
@@ -30,7 +30,12 @@ AI+Web
 	4. 在 https://www.astria.ai  创建密钥
 	5. 部署成功后，再上线域名等，修改DNS等
 	6. 网站优化和推广
-	7. 其他：（免费域名 Dot.tk, https://www.infinityfree.com/  vercel.com也会生成一个免费域名，cloudflare.com， https://pages.github.com/ 等）
+	7. 其他：（免费域名 Dot.tk, https://www.infinityfree.com/  vercel.com也会生成一个免费域名，还有cloudflare.com， https://pages.github.com/ 等）
+
+变现方式：
+	1. 会员订阅
+	2. Google Ads广告
+	3. 
 	
 支付相关：
 	收单：creem.io 收单平台（可以收全球信用卡和Paypal支付，用境内银行卡人民币结算)
