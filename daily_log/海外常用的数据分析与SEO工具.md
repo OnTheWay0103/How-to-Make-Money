@@ -9,13 +9,13 @@
    • 链接：https://analytics.google.com   
 
 
-2. SEMrush  
+2. SEMrush  （付费工具）
    • 功能：关键词研究、竞品广告分析、外链挖掘  
 
    • 链接：https://www.semrush.com   
 
 
-3. Ahrefs  
+3. Ahrefs  （付费工具）
    • 功能：反向链接分析、关键词排名追踪、内容竞品研究  
 
    • 链接：https://ahrefs.com   
@@ -48,7 +48,7 @@
    • 链接：https://www.screamingfrog.co.uk   
 
 
-3. Ubersuggest  
+3. Ubersuggest  (免费)
    • 功能：长尾关键词挖掘、SEO难度评估  
 
    • 链接：https://app.neilpatel.com   
