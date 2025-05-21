@@ -1,8 +1,9 @@
 AI+Web
 
-找到需求，满足需求
+总纲：
+	找到需求，满足需求
 
-
+一。
 图片类的网站如何找到需求并实现：
 	1. 查看榜单（推荐工具：toolify.ai）
 	2. 使用工具导出网站关键词（推荐工具：Google keyword Planer,SEMRush等）
@@ -11,17 +12,6 @@ AI+Web
 	5. 网站优化和推广 （发外链）（可以用 ahrefs 工具查看竞品的发外链目标地）- 如何发外链？
 	6. 重复 1~5 步骤
 	
-补充说明：（联盟广告与其他盈利方式）
-	1. 如何开通 https://adsense.com https://www.google.com/adsense/  Google AdSense (几个条件：网站有价值，UV>500,AGE>18)
-		1.1 注册账号
-		1.2 添加并验证网站 （国家地区根据人在的位置选择就可以），获取广告代码
-		1.3 关联网站
-		1.4 实名认证（>100$ google才会付款) 需要接收google的一个pin码
-			也可以后台申请线上实名认证 https://support.google.com/adsense/workflow/11033519
-		1.5 收款 建议招行电汇 搜索 China Merchants Bank Adsense,查找教程
-	2. 付费定阅，推广分成，捐赠等
-		收款渠道：LemonSqueezy, Stripe(用公司注册比较好)
-
 
 上站实践：
 	1. 使用 模板直接发布 网站 （可以在github上找模板或者在 vercel.com 上找模板）可以先随意找几个模板试一下流程
@@ -32,11 +22,28 @@ AI+Web
 	6. 网站优化和推广
 	7. 其他：（免费域名 Dot.tk, https://www.infinityfree.com/  vercel.com也会生成一个免费域名，还有cloudflare.com， https://pages.github.com/ 等）
 
-变现方式：
-	1. 会员订阅
-	2. Google Ads广告
-	3. 
-	
-支付相关：
-	收单：creem.io 收单平台（可以收全球信用卡和Paypal支付，用境内银行卡人民币结算)
-	支付：MasterCard, Visa
+
+盈利方式：
+ # Google Ads广告：
+
+	1. 联盟广告： 
+	   如何开通 https://adsense.com https://www.google.com/adsense/  Google AdSense (几个条件：网站有价值，UV>500,AGE>18)
+		1.1 注册账号
+		1.2 添加并验证网站 （国家地区根据人在的位置选择就可以），获取广告代码
+		1.3 关联网站
+		1.4 实名认证（>100$ google才会付款) 需要接收google的一个pin码
+			也可以后台申请线上实名认证 https://support.google.com/adsense/workflow/11033519
+		1.5 收款 建议招行电汇 搜索 China Merchants Bank Adsense,查找教程
+ # 付费定阅，推广分成，捐赠等
+ # 支付相关：
+	1. 收款渠道：LemonSqueezy, Stripe(用公司注册比较好)，推荐使用 creem.io 收单平台（可以收全球信用卡和Paypal支付，用境内银行卡人民币结算)
+	2. 支付方式：MasterCard, Visa
+
+
+在线工具站：
+	1. Google keyword Planer ： 
+	2. SEMRush：
+	3. toolify.ai ：
+	4. vercel ：https://vercel.com
+
+二。H5游戏聚合网站
