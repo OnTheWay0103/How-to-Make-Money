@@ -1,9 +1,9 @@
 # AI+Web
 
-总纲：
+## 总纲：
 	找到需求，满足需求
 
-一。图片类的网站如何找到需求并实现：
+### 一。图片类的网站如何找到需求并实现：
 	1. 查看榜单（推荐工具：toolify.ai）
 	2. 使用工具导出网站关键词（推荐工具：Google keyword Planer,SEMRush等）
 	3. 使用关键词工具调研，找到值得做的需求(./利用关键词工具...找到值得做的需求.md)
@@ -12,7 +12,7 @@
 	6. 重复 1~5 步骤
 	
 
-上站实践：
+### 上站实践：
 	1. 使用 模板直接发布 网站 （可以在github上找模板或者在 vercel.com 上找模板）可以先随意找几个模板试一下流程
 	2. 在 vercel.com 选好模板，deploy,然后关联vercel和github的账号（如已关联，跳过关联步骤）
 	3. 在 https://supabase.com 创建数据库
@@ -22,8 +22,8 @@
 	7. 其他：（免费域名 Dot.tk, https://www.infinityfree.com/  vercel.com也会生成一个免费域名，还有cloudflare.com， https://pages.github.com/ 等）
 
 
-盈利方式：
- # Google Ads广告：
+### 盈利方式：
+ #### Google Ads广告：
 
 	1. 联盟广告： 
 	   如何开通 https://adsense.com https://www.google.com/adsense/  Google AdSense (几个条件：网站有价值，UV>500,AGE>18)
@@ -33,13 +33,11 @@
 		1.4 实名认证（>100$ google才会付款) 需要接收google的一个pin码
 			也可以后台申请线上实名认证 https://support.google.com/adsense/workflow/11033519
 		1.5 收款 建议招行电汇 搜索 China Merchants Bank Adsense,查找教程
- # 付费定阅，推广分成，捐赠等
- # 支付相关：
-	1. 收款渠道：LemonSqueezy, Stripe(用公司注册比较好)，推荐使用 creem.io 收单平台（可以收全球信用卡和Paypal支付，用境内银行卡人民币结算)
-	2. 支付方式：MasterCard, Visa
+ #### 付费定阅，推广分成，捐赠等
+ 
 
 
-二。H5游戏聚合网站
+## 二。H5游戏聚合网站
 	使用IFrame把H5游戏聚合到一起，靠广告等收入
 	可以到github上找开源的H5小游戏
 	1. 在spaceship.com上注册域名，支持支付宝付款，然后在Cloudflare.com上托管（先用免费套餐）
@@ -65,6 +63,11 @@
 		4.1 SEO : 高质量内容，站点地图等
 		4.2 推广与流量获取：做媒体宣传内容，与一些站长建立合作关系，获得外部链接
 		4.3 数据分析与调整：Google Analytics, GSC监控，定期更新
+
+
+ ## 支付相关：
+	1. 收款渠道：LemonSqueezy, Stripe(用公司注册比较好)，推荐使用 creem.io 收单平台（可以收全球信用卡和Paypal支付，用境内银行卡人民币结算)
+	2. 支付方式：MasterCard, Visa
 
 
 ![我的二维码，欢迎加好友共同进步！](./my_qrcode.png)
