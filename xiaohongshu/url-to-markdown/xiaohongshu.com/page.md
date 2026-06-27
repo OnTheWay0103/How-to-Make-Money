@@ -1,0 +1,87 @@
+---
+url: https://www.xiaohongshu.com/search_result?keyword=心理测试
+title: "心理测试 - 小红书搜索"
+coverImage: "//picasso-static.xiaohongshu.com/fe-platform/e6214e4fbfae2cf14d634d4296916e8a5eaefdf4.png"
+captured_at: "2026-06-27T01:05:01.676Z"
+---
+
+# 心理测试 - 小红书搜索
+
+![](data:image/png;base64,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) 可用
+
+小红书
+
+或
+
+微信
+
+扫码
+
+小红书如何扫码
+
+手机号登录
+
+[《用户协议》](https://agree.xiaohongshu.com/h5/terms/ZXXY20220331001/-1) [《隐私政策》](https://agree.xiaohongshu.com/h5/terms/ZXXY20220509001/-1) [《儿童/青少年个人信息保护规则》](https://oa.xiaohongshu.com/h5/terms/ZXXY20220516001/-1)
+
+新用户可直接登录
+
+[![](data:image/png;base64,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)](https://www.xiaohongshu.com/explore?channel_type=web_search_result_notes)
+- [首页](https://www.xiaohongshu.com/explore?channel_id=homefeed_recommend)
+
+- [点点ai](https://www.xiaohongshu.com/ai_chat?from=sidebar)
+
+- [RED](https://www.xiaohongshu.com/red_video)
+
+- [直播](https://www.xiaohongshu.com/livelist?channel_id=&channel_type=web_search_result_notes)
+
+- [发布](https://creator.xiaohongshu.com/publish/publish?source=official)
+
+- [通知](https://www.xiaohongshu.com/search_result?keyword=%E5%BF%83%E7%90%86%E6%B5%8B%E8%AF%95&type=51# "通知")
+
+我
+
+[沪ICP备13030189号](https://beian.miit.gov.cn/ "小红书_沪ICP备") | [营业执照](https://fe-video-qc.xhscdn.com/fe-platform/5581076bd6b6af2e0e943abb024ad0e16f2ebff6.pdf "小红书_营业执照") | [2024沪公网安备31010102002533号](https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010102002533 "小红书_沪公网安备") | [增值电信业务经营许可证：沪B2-20150021](https://fe-video-qc.xhscdn.com/fe-platform-file/104101b831hhkkll23u0678gtks7tu70004en2n231udpe "小红书_网文") | [医疗器械网络交易服务第三方平台备案：(沪)网械平台备字\[2019\]第00006号](https://fe-video-qc.xhscdn.com/fe-platform/410dce57bc12a6d7e5808060e47644fbe46f68ff.pdf "小红书_医疗器械网络交易服务") | [互联网药品信息服务资格证书：(沪)-经营性-2023-0144](https://fe-video-qc.xhscdn.com/fe-platform/f37a08cacc088061beb38329c387c32fc48fc6fe.pdf "小红书_互联网药品信息服务") | [违法不良信息举报电话：4006676810](https://www.shjbzx.cn/ "小红书_上海市互联网举报中心") | [上海市互联网举报中心](https://www.shjbzx.cn/ "小红书_上海市互联网举报中心") | [网上有害信息举报专区](https://www.12377.cn/ "网上有害信息举报专区") | [自营经营者信息](https://dc.xhscdn.com/06c2adb0-b353-11e9-9d0c-7be9ff8961c1/%E8%87%AA%E8%90%A5%E7%BB%8F%E8%90%A5%E8%80%85%E4%BF%A1%E6%81%AF%E5%85%AC%E7%A4%BA.pdf "小红书_沪公网安备") | [网络文化经营许可证：沪网文(2024)1344-086号](https://fe-video-qc.xhscdn.com/fe-platform/7970f6e8b70aedc995ba273d04b6b6751abcd63c.pdf "小红书_网络文化经营许可") | [个性化推荐算法 网信算备310101216601302230019号](https://beian.cac.gov.cn/api/static/fileUpload/principalOrithm/additional/user_c015445c-80ac-45f7-94d7-3871e961b1fe_d4425f3b-7f35-45af-b8d4-badd4424d6d5.pdf)
+
+© 2014-2026
+
+行吟信息科技（上海）有限公司
+
+地址：上海市黄浦区马当路388号C座
+
+电话：9501-3888
+
+更多
+
+关于我们
+
+[沪ICP备13030189号](https://beian.miit.gov.cn/ "小红书_沪ICP备") | [营业执照](https://fe-video-qc.xhscdn.com/fe-platform/5581076bd6b6af2e0e943abb024ad0e16f2ebff6.pdf "小红书_营业执照") | [2024沪公网安备31010102002533号](https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010102002533 "小红书_沪公网安备") | [增值电信业务经营许可证：沪B2-20150021](https://fe-video-qc.xhscdn.com/fe-platform-file/104101b831hhkkll23u0678gtks7tu70004en2n231udpe "小红书_网文") | [医疗器械网络交易服务第三方平台备案：(沪)网械平台备字\[2019\]第00006号](https://fe-video-qc.xhscdn.com/fe-platform/410dce57bc12a6d7e5808060e47644fbe46f68ff.pdf "小红书_医疗器械网络交易服务") | [互联网药品信息服务资格证书：(沪)-经营性-2023-0144](https://fe-video-qc.xhscdn.com/fe-platform/f37a08cacc088061beb38329c387c32fc48fc6fe.pdf "小红书_互联网药品信息服务") | [违法不良信息举报电话：4006676810](https://www.shjbzx.cn/ "小红书_上海市互联网举报中心") | [上海市互联网举报中心](https://www.shjbzx.cn/ "小红书_上海市互联网举报中心") | [网上有害信息举报专区](https://www.12377.cn/ "网上有害信息举报专区") | [自营经营者信息](https://dc.xhscdn.com/06c2adb0-b353-11e9-9d0c-7be9ff8961c1/%E8%87%AA%E8%90%A5%E7%BB%8F%E8%90%A5%E8%80%85%E4%BF%A1%E6%81%AF%E5%85%AC%E7%A4%BA.pdf "小红书_沪公网安备") | [网络文化经营许可证：沪网文(2024)1344-086号](https://fe-video-qc.xhscdn.com/fe-platform/7970f6e8b70aedc995ba273d04b6b6751abcd63c.pdf "小红书_网络文化经营许可") | [个性化推荐算法 网信算备310101216601302230019号](https://beian.cac.gov.cn/api/static/fileUpload/principalOrithm/additional/user_c015445c-80ac-45f7-94d7-3871e961b1fe_d4425f3b-7f35-45af-b8d4-badd4424d6d5.pdf)
+
+© 2014-2026
+
+行吟信息科技（上海）有限公司
+
+地址：上海市黄浦区马当路388号C座
+
+电话：9501-3888
+
+全部
+
+图文
+
+视频
+
+用户
+
+筛选
+
+[首页](https://www.xiaohongshu.com/explore?channel_id=homefeed_recommend)
+
+[点点](https://www.xiaohongshu.com/ai_chat?channel_id=&channel_type=web_search_result_notes)
+
+[直播](https://www.xiaohongshu.com/livelist?channel_id=&channel_type=web_search_result_notes)
+
+[发布](https://creator.xiaohongshu.com/publish/publish?source=official)
+
+- [通知](https://www.xiaohongshu.com/search_result?keyword=%E5%BF%83%E7%90%86%E6%B5%8B%E8%AF%95&type=51# "通知")
+
+我
