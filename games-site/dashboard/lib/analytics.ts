@@ -7,8 +7,9 @@ const PROPERTIES: { name: string; propertyId: string }[] = [
   { name: 'WitchSpire Wiki', propertyId: 'properties/568849855' },
 ];
 
-// For reference: G-VJWN6CZ5PM → property ID is numeric (568849855).
-// You can find the numeric ID in GA Admin → Property Settings → Property ID.
+// GA4 Property: G-VJWN6CZ5PM (WitchSpire Wiki)
+// Numeric ID: 568849855 (find in GA Admin → Property Settings → Property ID)
+// Service Account: dashboard-ga-reader@midyear-psyche-501006-c0.iam.gserviceaccount.com
 
 // ---------------------------------------------------------------------------
 // Types
