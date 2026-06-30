@@ -1,7 +1,7 @@
 import { BetaAnalyticsDataClient } from '@google-analytics/data';
 
 // ---------------------------------------------------------------------------
-// Properties to monitor — add new GA4 measurement IDs here as sites go live.
+// Properties to monitor — add new GA4 measurement IDs as new sites go live.
 // ---------------------------------------------------------------------------
 const PROPERTIES: { name: string; propertyId: string }[] = [
   { name: 'WitchSpire Wiki', propertyId: 'properties/568849855' },
