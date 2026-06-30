@@ -32,17 +32,58 @@ export async function GET() {
       });
 
       // Quick smoke test: run a minimal report
-      const [resp] = await client.runReport({
-        property: 'properties/568849855',
-        dateRanges: [{ startDate: '7daysAgo', endDate: 'today' }],
-        metrics: [{ name: 'screenPageViews' }],
-        limit: 1,
-      });
+      const resp = await client
+        .runReport({
+          property: 'properties/568849855',
+          dateRanges: [{ startDate: '7daysAgo', endDate: 'today' }],
+          metrics: [{ name: 'screenPageViews' }],
+          limit: 1,
+        })
+        .catch((e: Error) => ({ _error: e }));
 
-      results.apiResult = 'OK';
-      results.apiSample = {
-        rowCount: resp.rowCount,
-        firstRow: resp.rows?.[0]?.metricValues?.[0]?.value ?? 'empty',
+      if ('_error' in resp) {
+        results.apiError = {
+          propertyTried: '568849855',
+          message: resp._error.message,
+          code: (resp._error as { code?: number }).code,
+        };
+      } else {
+        results.apiResult = 'OK';
+        results.apiSample = {
+          rowCount: resp[0].rowCount,
+          firstRow: resp[0].rows?.[0]?.metricValues?.[0]?.value ?? 'empty',
+        };
+      }
+    }
+
+    // 3a: List accessible GA4 accounts (Admin API)
+    try {
+      const { AnalyticsAdminServiceClient } = await import(
+        '@google-analytics/admin'
+      );
+      const email = process.env.GA_CLIENT_EMAIL;
+      const key = process.env.GA_PRIVATE_KEY?.replace(/\\n/g, '\n');
+
+      if (email && key) {
+        const adminClient = new AnalyticsAdminServiceClient({
+          credentials: { client_email: email, private_key: key },
+        });
+
+        const [accounts] = await adminClient.listAccountSummaries();
+        results.accessibleAccounts = accounts.map((a) => ({
+          account: a.account ?? a.name,
+          displayName: a.displayName,
+          properties: (a.propertySummaries ?? []).map((p) => ({
+            property: p.property ?? p.name,
+            displayName: p.displayName,
+          })),
+        }));
+      }
+    } catch (err: unknown) {
+      const e = err as Error;
+      results.adminApiError = {
+        message: e.message,
+        code: (e as { code?: number }).code,
       };
     }
   } catch (err: unknown) {
