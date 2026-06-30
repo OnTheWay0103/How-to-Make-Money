@@ -1,20 +1,12 @@
 import { BetaAnalyticsDataClient } from '@google-analytics/data';
-
-// ---------------------------------------------------------------------------
-// Properties to monitor — add new GA4 measurement IDs as new sites go live.
-// ---------------------------------------------------------------------------
-const PROPERTIES: { name: string; propertyId: string }[] = [
-  { name: 'WitchSpire Wiki', propertyId: 'properties/543617553' },
-];
-
-// GA4 Property: G-VJWN6CZ5PM (WitchSpire Wiki)
-// Numeric ID: 543617553 (find in GA Admin → Property Settings → Property ID)
-// Service Account: dashboard-ga-reader@midyear-psyche-501006-c0.iam.gserviceaccount.com
+import { SITES, type SiteConfig } from './sites';
 
 // ---------------------------------------------------------------------------
 // Types
 // ---------------------------------------------------------------------------
-export interface DashboardData {
+
+export interface SiteData {
+  site: SiteConfig;
   totals: {
     pageViews: number;
     pageViewsChange: number;
@@ -27,6 +19,16 @@ export interface DashboardData {
   };
   dailyTrend: { date: string; pageViews: number; sessions: number }[];
   topPages: { path: string; views: number; change: number }[];
+}
+
+export interface DashboardData {
+  sites: SiteData[];
+  totals: {
+    pageViews: number;
+    users: number;
+    sessions: number;
+    avgEngagement: number;
+  };
 }
 
 // ---------------------------------------------------------------------------
@@ -56,78 +58,79 @@ function getClient(): BetaAnalyticsDataClient {
 // ---------------------------------------------------------------------------
 // Helpers
 // ---------------------------------------------------------------------------
-function daysAgo(n: number): string {
-  const d = new Date();
-  d.setDate(d.getDate() - n);
-  return d.toISOString().split('T')[0];
+
+function pctChange(curr: number, prev: number): number {
+  return prev > 0 ? Math.round(((curr - prev) / prev) * 100) : 0;
+}
+
+function propertyPath(id: string): string {
+  return `properties/${id}`;
 }
 
 // ---------------------------------------------------------------------------
-// Fetchers
+// Fetchers — unchanged, operate on a single property
 // ---------------------------------------------------------------------------
 
-async function fetchTotals(propertyId: string): Promise<{
-  pageViews: number;
-  users: number;
-  sessions: number;
-  avgEngagement: number;
-}> {
+async function fetchTotals(
+  propertyId: string,
+): Promise<SiteData['totals']> {
   const client = getClient();
-  const [resp] = await client.runReport({
-    property: propertyId,
-    dateRanges: [{ startDate: '30daysAgo', endDate: 'today' }],
-    metrics: [
-      { name: 'screenPageViews' },
-      { name: 'totalUsers' },
-      { name: 'sessions' },
-      { name: 'averageSessionDuration' },
-    ],
-  });
+  const property = propertyPath(propertyId);
 
-  const row = resp.rows?.[0];
+  const [[current], [previous]] = await Promise.all([
+    client.runReport({
+      property,
+      dateRanges: [{ startDate: '30daysAgo', endDate: 'today' }],
+      metrics: [
+        { name: 'screenPageViews' },
+        { name: 'totalUsers' },
+        { name: 'sessions' },
+        { name: 'averageSessionDuration' },
+      ],
+    }),
+    client.runReport({
+      property,
+      dateRanges: [{ startDate: '60daysAgo', endDate: '31daysAgo' }],
+      metrics: [
+        { name: 'screenPageViews' },
+        { name: 'totalUsers' },
+        { name: 'sessions' },
+        { name: 'averageSessionDuration' },
+      ],
+    }),
+  ]);
+
+  const row = current.rows?.[0];
+  const prevRow = previous.rows?.[0];
+
+  const pageViews = parseInt(row?.metricValues?.[0]?.value ?? '0', 10);
+  const users = parseInt(row?.metricValues?.[1]?.value ?? '0', 10);
+  const sessions = parseInt(row?.metricValues?.[2]?.value ?? '0', 10);
+  const avgEngagement = parseFloat(row?.metricValues?.[3]?.value ?? '0');
+
+  const prevPV = parseInt(prevRow?.metricValues?.[0]?.value ?? '0', 10);
+  const prevUsers = parseInt(prevRow?.metricValues?.[1]?.value ?? '0', 10);
+  const prevSessions = parseInt(prevRow?.metricValues?.[2]?.value ?? '0', 10);
+  const prevEng = parseFloat(prevRow?.metricValues?.[3]?.value ?? '0');
+
   return {
-    pageViews: parseInt(row?.metricValues?.[0]?.value ?? '0', 10),
-    users: parseInt(row?.metricValues?.[1]?.value ?? '0', 10),
-    sessions: parseInt(row?.metricValues?.[2]?.value ?? '0', 10),
-    avgEngagement: parseFloat(row?.metricValues?.[3]?.value ?? '0'),
-  };
-}
-
-async function fetchPreviousTotals(propertyId: string): Promise<{
-  pageViews: number;
-  users: number;
-  sessions: number;
-  avgEngagement: number;
-}> {
-  const client = getClient();
-  const [resp] = await client.runReport({
-    property: propertyId,
-    dateRanges: [
-      { startDate: '60daysAgo', endDate: '31daysAgo' },
-    ],
-    metrics: [
-      { name: 'screenPageViews' },
-      { name: 'totalUsers' },
-      { name: 'sessions' },
-      { name: 'averageSessionDuration' },
-    ],
-  });
-
-  const row = resp.rows?.[0];
-  return {
-    pageViews: parseInt(row?.metricValues?.[0]?.value ?? '0', 10),
-    users: parseInt(row?.metricValues?.[1]?.value ?? '0', 10),
-    sessions: parseInt(row?.metricValues?.[2]?.value ?? '0', 10),
-    avgEngagement: parseFloat(row?.metricValues?.[3]?.value ?? '0'),
+    pageViews,
+    pageViewsChange: pctChange(pageViews, prevPV),
+    users,
+    usersChange: pctChange(users, prevUsers),
+    sessions,
+    sessionsChange: pctChange(sessions, prevSessions),
+    avgEngagement,
+    avgEngagementChange: pctChange(avgEngagement, prevEng),
   };
 }
 
 async function fetchDailyTrend(
   propertyId: string,
-): Promise<{ date: string; pageViews: number; sessions: number }[]> {
+): Promise<SiteData['dailyTrend']> {
   const client = getClient();
   const [resp] = await client.runReport({
-    property: propertyId,
+    property: propertyPath(propertyId),
     dateRanges: [{ startDate: '30daysAgo', endDate: 'today' }],
     dimensions: [{ name: 'date' }],
     metrics: [{ name: 'screenPageViews' }, { name: 'sessions' }],
@@ -146,12 +149,13 @@ async function fetchDailyTrend(
 
 async function fetchTopPages(
   propertyId: string,
-): Promise<{ path: string; views: number; change: number }[]> {
+): Promise<SiteData['topPages']> {
   const client = getClient();
+  const property = propertyPath(propertyId);
 
   const [current, previous] = await Promise.all([
     client.runReport({
-      property: propertyId,
+      property,
       dateRanges: [{ startDate: '30daysAgo', endDate: 'today' }],
       dimensions: [{ name: 'pagePath' }],
       metrics: [{ name: 'screenPageViews' }],
@@ -159,7 +163,7 @@ async function fetchTopPages(
       limit: 10,
     }),
     client.runReport({
-      property: propertyId,
+      property,
       dateRanges: [{ startDate: '60daysAgo', endDate: '31daysAgo' }],
       dimensions: [{ name: 'pagePath' }],
       metrics: [{ name: 'screenPageViews' }],
@@ -184,37 +188,48 @@ async function fetchTopPages(
 }
 
 // ---------------------------------------------------------------------------
-// Public API — aggregate across all properties
+// Per-site fetcher
 // ---------------------------------------------------------------------------
+
+async function fetchSiteData(site: SiteConfig): Promise<SiteData | null> {
+  try {
+    const [totals, dailyTrend, topPages] = await Promise.all([
+      fetchTotals(site.propertyId),
+      fetchDailyTrend(site.propertyId),
+      fetchTopPages(site.propertyId),
+    ]);
+    return { site, totals, dailyTrend, topPages };
+  } catch {
+    // Silently skip sites that fail (e.g., SA not yet authorized)
+    return null;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Public API — aggregate across all sites
+// ---------------------------------------------------------------------------
+
 export async function fetchDashboardData(): Promise<DashboardData> {
-  const primary = PROPERTIES[0]?.propertyId;
-  if (!primary) throw new Error('No GA4 properties configured.');
+  const activeSites = SITES.filter(
+    (s) => s.propertyId && s.propertyId !== 'REPLACE_WITH_PROPERTY_ID',
+  );
 
-  const [totals, previous, dailyTrend, topPages] = await Promise.all([
-    fetchTotals(primary),
-    fetchPreviousTotals(primary),
-    fetchDailyTrend(primary),
-    fetchTopPages(primary),
-  ]);
+  const results = await Promise.all(activeSites.map(fetchSiteData));
+  const sites = results.filter((s): s is SiteData => s !== null);
 
-  const pctChange = (curr: number, prev: number): number =>
-    prev > 0 ? Math.round(((curr - prev) / prev) * 100) : 0;
-
-  return {
-    totals: {
-      pageViews: totals.pageViews,
-      pageViewsChange: pctChange(totals.pageViews, previous.pageViews),
-      users: totals.users,
-      usersChange: pctChange(totals.users, previous.users),
-      sessions: totals.sessions,
-      sessionsChange: pctChange(totals.sessions, previous.sessions),
-      avgEngagement: totals.avgEngagement,
-      avgEngagementChange: pctChange(
-        totals.avgEngagement,
-        previous.avgEngagement,
-      ),
-    },
-    dailyTrend,
-    topPages,
+  // Aggregate totals
+  const totals = {
+    pageViews: sites.reduce((sum, s) => sum + s.totals.pageViews, 0),
+    users: sites.reduce((sum, s) => sum + s.totals.users, 0),
+    sessions: sites.reduce((sum, s) => sum + s.totals.sessions, 0),
+    avgEngagement: 0,
   };
+
+  if (sites.length > 0) {
+    totals.avgEngagement = Math.round(
+      sites.reduce((sum, s) => sum + s.totals.avgEngagement, 0) / sites.length,
+    );
+  }
+
+  return { sites, totals };
 }
