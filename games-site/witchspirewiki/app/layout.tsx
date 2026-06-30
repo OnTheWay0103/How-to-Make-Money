@@ -5,6 +5,7 @@ import { defaultViewport } from '@/lib/seo-config';
 import { defaultMetadata as dm } from '@/lib/metadata';
 import { websiteSchema } from '@/lib/schema';
 import JsonLd from '@/components/JsonLd';
+import GoogleAnalytics from '@/components/GoogleAnalytics';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
@@ -34,6 +35,7 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col bg-[#0f0f23] text-gray-200">
         <JsonLd data={websiteSchema()} />
+        <GoogleAnalytics />
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
