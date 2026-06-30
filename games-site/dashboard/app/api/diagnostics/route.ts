@@ -71,10 +71,10 @@ export async function GET() {
 
         const [accounts] = await adminClient.listAccountSummaries();
         results.accessibleAccounts = accounts.map((a) => ({
-          account: a.account ?? a.name,
+          account: a.account ?? (a as { name?: string }).name,
           displayName: a.displayName,
-          properties: (a.propertySummaries ?? []).map((p) => ({
-            property: p.property ?? p.name,
+          propertySummaries: (a.propertySummaries ?? []).map((p) => ({
+            property: p.property,
             displayName: p.displayName,
           })),
         }));
