@@ -4,11 +4,11 @@ import { BetaAnalyticsDataClient } from '@google-analytics/data';
 // Properties to monitor — add new GA4 measurement IDs as new sites go live.
 // ---------------------------------------------------------------------------
 const PROPERTIES: { name: string; propertyId: string }[] = [
-  { name: 'WitchSpire Wiki', propertyId: 'properties/568849855' },
+  { name: 'WitchSpire Wiki', propertyId: 'properties/543617553' },
 ];
 
 // GA4 Property: G-VJWN6CZ5PM (WitchSpire Wiki)
-// Numeric ID: 568849855 (find in GA Admin → Property Settings → Property ID)
+// Numeric ID: 543617553 (find in GA Admin → Property Settings → Property ID)
 // Service Account: dashboard-ga-reader@midyear-psyche-501006-c0.iam.gserviceaccount.com
 
 // ---------------------------------------------------------------------------

@@ -34,7 +34,7 @@ export async function GET() {
       // Quick smoke test: run a minimal report
       const resp = await client
         .runReport({
-          property: 'properties/568849855',
+          property: 'properties/543617553',
           dateRanges: [{ startDate: '7daysAgo', endDate: 'today' }],
           metrics: [{ name: 'screenPageViews' }],
           limit: 1,
@@ -43,7 +43,7 @@ export async function GET() {
 
       if ('_error' in resp) {
         results.apiError = {
-          propertyTried: '568849855',
+          propertyTried: '543617553',
           message: resp._error.message,
           code: (resp._error as { code?: number }).code,
         };
