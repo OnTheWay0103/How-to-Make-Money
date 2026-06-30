@@ -9,6 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@google-analytics/admin": "^16",
     "@google-analytics/data": "^4",
     "next": "^16.2.9",
     "react": "19.2.4",
