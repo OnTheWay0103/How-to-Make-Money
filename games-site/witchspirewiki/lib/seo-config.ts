@@ -33,7 +33,7 @@ export const SITE_CONFIG = {
     'Unofficial Witchspire wiki and guide hub — classes, familiars, dungeons, bosses, crafting and beginner guide for the Envar Games co-op survival RPG.',
 
   /** Canonical base URL (trailing slash omitted). */
-  url: 'https://witchspire.wiki',
+  url: 'https://witchspirewiki.vercel.app',
 
   /** Default Open Graph / Twitter card image (relative to url). */
   ogImage: '/icon.png',
