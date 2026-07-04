@@ -18,8 +18,8 @@ export const SITES: SiteConfig[] = [
     gaId: 'G-VJWN6CZ5PM',
   },
   {
-    name: 'New Site',
-    propertyId: 'REPLACE_WITH_PROPERTY_ID',
-    gaId: 'G-GD02WF4LSB',
+    name: 'Mistfall Hunter Wiki',
+    propertyId: '544188205',
+    gaId: 'G-PHHQH61FLC',
   },
 ];
