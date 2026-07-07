@@ -1,0 +1,42 @@
+# ============================================================
+# 自动化部署：职业路径决策测试
+# 触发条件：xiaohongshu/career-path-test/ 目录下文件有变更
+# ============================================================
+# 新增项目模板（复制本文件，改下面 5 个值）：
+#   name:              Deploy <项目名>
+#   paths:             'xiaohongshu/<子目录>/**'
+#   cd:                xiaohongshu/<子目录>
+#   -n:                edgeone项目名
+#   EDGEONE_API_TOKEN: 同一个 secret 所有项目共用
+# ============================================================
+name: Deploy Career Path Quiz
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'xiaohongshu/career-path-test/**'
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install & Build
+        working-directory: xiaohongshu/career-path-test
+        run: npm install && npm run build
+
+      - name: Deploy to EdgeOne
+        working-directory: xiaohongshu/career-path-test
+        run: |
+          npx edgeone makers deploy ./dist \
+            -n career-path-quiz \
+            -t ${{ secrets.EDGEONE_API_TOKEN }} \
+            -e production
