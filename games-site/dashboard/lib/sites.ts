@@ -22,4 +22,9 @@ export const SITES: SiteConfig[] = [
     propertyId: '544188205',
     gaId: 'G-PHHQH61FLC',
   },
+  {
+    name: 'Aincrad Wiki',
+    propertyId: 'REPLACE_WITH_PROPERTY_ID',
+    gaId: 'G-REPLACE_WITH_GA_ID',
+  },
 ];
