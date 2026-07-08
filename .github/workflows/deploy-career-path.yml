@@ -1,15 +1,13 @@
 # ============================================================
-# 自动化部署：职业路径决策测试
-# 触发条件：xiaohongshu/career-path-test/ 目录下文件有变更
+# CI：职业路径决策测试
+# EdgeOne Git 集成自动部署，这里只做构建验证 + path filter
 # ============================================================
-# 新增项目模板（复制本文件，改下面 5 个值）：
-#   name:              Deploy <项目名>
+# 新增项目模板（复制本文件，改下面值）：
+#   name:              CI <项目名>
 #   paths:             'xiaohongshu/<子目录>/**'
-#   cd:                xiaohongshu/<子目录>
-#   -n:                edgeone项目名
-#   EDGEONE_API_TOKEN: 同一个 secret 所有项目共用
+#   working-directory:  xiaohongshu/<子目录>
 # ============================================================
-name: Deploy Career Path Quiz
+name: CI Career Path Quiz
 
 on:
   push:
@@ -19,7 +17,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
 
     steps:
@@ -33,17 +31,11 @@ jobs:
         working-directory: xiaohongshu/career-path-test
         run: npm install && npm run build
 
-      - name: Deploy to EdgeOne
-        working-directory: xiaohongshu/career-path-test
-        env:
-          EDGEONE_API_TOKEN: ${{ secrets.EDGEONE_API_TOKEN }}
+      - name: Verify build output
         run: |
-          if [ -z "$EDGEONE_API_TOKEN" ]; then
-            echo "❌ EDGEONE_API_TOKEN is empty! Check GitHub secret name."
+          if [ -f xiaohongshu/career-path-test/dist/index.html ]; then
+            echo "✅ Build OK — EdgeOne will auto-deploy from Git"
+          else
+            echo "❌ dist/index.html not found!"
             exit 1
           fi
-          echo "✅ Token found (length: ${#EDGEONE_API_TOKEN})"
-          npx edgeone makers deploy ./dist \
-            -n career-path-quiz \
-            -t "$EDGEONE_API_TOKEN" \
-            -e production
