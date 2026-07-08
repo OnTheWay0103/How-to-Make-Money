@@ -35,8 +35,15 @@ jobs:
 
       - name: Deploy to EdgeOne
         working-directory: xiaohongshu/career-path-test
+        env:
+          EDGEONE_API_TOKEN: ${{ secrets.EDGEONE_API_TOKEN }}
         run: |
+          if [ -z "$EDGEONE_API_TOKEN" ]; then
+            echo "❌ EDGEONE_API_TOKEN is empty! Check GitHub secret name."
+            exit 1
+          fi
+          echo "✅ Token found (length: ${#EDGEONE_API_TOKEN})"
           npx edgeone makers deploy ./dist \
             -n career-path-quiz \
-            -t ${{ secrets.EDGEONE_API_TOKEN }} \
+            -t "$EDGEONE_API_TOKEN" \
             -e production
