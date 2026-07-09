@@ -1,0 +1,36 @@
+# ============================================================
+# CI：婚姻情感诊断测试
+# EdgeOne Git 集成自动部署，这里只做构建验证 + path filter
+# ============================================================
+name: CI Relationship Test
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'xiaohongshu/relationship-test/**'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install & Build
+        working-directory: xiaohongshu/relationship-test
+        run: npm install && npm run build
+
+      - name: Verify build output
+        run: |
+          if [ -f xiaohongshu/relationship-test/dist/index.html ]; then
+            echo "✅ Build OK — EdgeOne will auto-deploy from Git"
+          else
+            echo "❌ dist/index.html not found!"
+            exit 1
+          fi
