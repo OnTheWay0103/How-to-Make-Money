@@ -1,8 +1,8 @@
 # ============================================================
-# CI：婚姻情感诊断测试
-# EdgeOne Git 集成自动部署，这里只做构建验证 + path filter
+# CI/CD：婚姻情感诊断测试
+# 构建 + CLI 部署到 EdgeOne（Upload 型项目）
 # ============================================================
-name: CI Relationship Test
+name: Deploy Relationship Test
 
 on:
   push:
@@ -12,7 +12,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -26,11 +26,11 @@ jobs:
         working-directory: xiaohongshu/relationship-test
         run: npm install && npm run build
 
-      - name: Verify build output
+      - name: Deploy to EdgeOne
+        working-directory: xiaohongshu/relationship-test
         run: |
-          if [ -f xiaohongshu/relationship-test/dist/index.html ]; then
-            echo "✅ Build OK — EdgeOne will auto-deploy from Git"
-          else
-            echo "❌ dist/index.html not found!"
-            exit 1
-          fi
+          npm install -g edgeone
+          edgeone makers deploy ./dist \
+            -n relationship-test-quiz \
+            -t ${{ secrets.EDGEONE_API_TOKEN }} \
+            -e production
