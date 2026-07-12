@@ -191,7 +191,7 @@ async function fetchTopPages(
 // Per-site fetcher
 // ---------------------------------------------------------------------------
 
-async function fetchSiteData(site: SiteConfig): Promise<SiteData | null> {
+async function fetchSiteData(site: SiteConfig): Promise<SiteData> {
   try {
     const [totals, dailyTrend, topPages] = await Promise.all([
       fetchTotals(site.propertyId),
@@ -199,9 +199,20 @@ async function fetchSiteData(site: SiteConfig): Promise<SiteData | null> {
       fetchTopPages(site.propertyId),
     ]);
     return { site, totals, dailyTrend, topPages };
-  } catch {
-    // Silently skip sites that fail (e.g., SA not yet authorized)
-    return null;
+  } catch (err) {
+    // Return zero-filled data on error so the site still appears in the dashboard
+    console.error(`[dashboard] Failed to fetch data for ${site.name} (${site.propertyId}):`, (err as Error).message);
+    return {
+      site,
+      totals: {
+        pageViews: 0, pageViewsChange: 0,
+        users: 0, usersChange: 0,
+        sessions: 0, sessionsChange: 0,
+        avgEngagement: 0, avgEngagementChange: 0,
+      },
+      dailyTrend: [],
+      topPages: [],
+    };
   }
 }
 
@@ -214,8 +225,7 @@ export async function fetchDashboardData(): Promise<DashboardData> {
     (s) => s.propertyId && s.propertyId !== 'REPLACE_WITH_PROPERTY_ID',
   );
 
-  const results = await Promise.all(activeSites.map(fetchSiteData));
-  const sites = results.filter((s): s is SiteData => s !== null);
+  const sites = await Promise.all(activeSites.map(fetchSiteData));
 
   // Aggregate totals
   const totals = {
