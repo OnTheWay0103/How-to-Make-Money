@@ -164,12 +164,29 @@ PYEOF
 
 #### 1.3.2 游戏发现：数据源
 
+**PC/主机：**
+
 | 来源 | 链接 | 用途 | 频率 |
 |------|------|------|------|
 | Steam 热门新游 | `store.steampowered.com/search/?filter=popularnew&sort_by=Released_DESC` | 找已上线的新游戏 | 每天 |
 | Steam 热门即将推出 | `store.steampowered.com/explore/upcoming/` | 愿望单最高的未上线游戏 | 每周 |
 | SteamDB | `steamdb.info/upcoming/` | 关注数、精确发售日 | 每周 |
 | Steam 新品节 | `steamnextfest.com` | 每年2/6/10月，几百款游戏集中放Demo | 活动期每天 |
+
+**手游：**
+
+| 来源 | 链接 | 用途 | 频率 |
+|------|------|------|------|
+| Google Play 新游 | `play.google.com/store/games` | 新上线手游 | 每周 |
+| r/gachagaming | `reddit.com/r/gachagaming` | 新游情报 + 玩家讨论 | 每天 |
+| Sensor Tower（免费层） | `sensortower.com` | 下载量/收入预估 | 按需 |
+
+**UGC 平台：**
+
+| 来源 | 链接 | 用途 | 频率 |
+|------|------|------|------|
+| Roblox 热门榜 | `roblox.com` → Discover → Popular | 找高并发子游戏 | 每周 |
+| Minecraft 社区 | Reddit/YouTube 热门 | 找新玩法/Mod趋势 | 按需 |
 
 #### 1.3.3 筛选流程（五条硬标准）
 
@@ -251,6 +268,85 @@ PYEOF
 | Mistfall Hunter | PvPvE Extraction | Next Fest #4最热试玩，无Wiki | 25篇，搜索词89条 ✅ |
 | Aincrad | 动作JRPG | 大IP粉丝基础，上线7天 | 20篇，搜索词107条 ✅ |
 | The Mound | 合作恐怖Extraction | 60万愿望单，无Wiki，上线前1天建站 | 11篇，搜索词46条 ✅ |
+
+#### 1.3.8 手游（Gacha / Mobile RPG）
+
+> Steam 不是唯一的数据源。手游攻略站是一个被忽视的富矿——英文手游攻略内容竞争远低于 PC/主机。
+
+**为什么手游值得单独考虑：**
+
+| 差异点 | PC/主机游戏 | 手游 |
+|--------|-----------|------|
+| 搜索词类型 | how to beat boss, best build | **tier list, codes, reroll, banner, team comp, should I pull** |
+| 更新频率 | 数月~数年一次 | **2-6 周一个版本** → 持续内容机会 |
+| 搜索量 | 集中在发售前后 | **持续稳定**，每版本更新都有新搜索 |
+| 竞争度 | Fandom/IGN 覆盖广 | **英文站竞争较低**（日文/中文攻略多，英文少） |
+| 玩家行为 | 搜索通关攻略 | **搜索抽卡决策、资源规划** |
+
+**手游专属高价值关键词：**
+
+| 关键词类型 | 示例 | 搜索意图 |
+|-----------|------|---------|
+| `tier list` | `{game} tier list 2026` | 角色/武器强度排行 |
+| `codes` / `redeem codes` | `{game} codes july 2026` | 兑换码（月活搜索） |
+| `reroll guide` | `{game} reroll guide` | 刷初始教程 |
+| `banner schedule` | `{game} next banner` | 卡池排期 |
+| `team comp` | `{game} best team` | 配队攻略 |
+| `should I pull` | `{game} should I pull {character}` | 抽卡建议 |
+| `farm guide` | `{game} how to farm currency` | 资源规划 |
+| `beginner guide` | `{game} beginner guide 2026` | 新手入坑 |
+
+**手游选品标准：**
+
+1. **有全球发行**（非仅日服/韩服/国服）→ 确保英文搜索量
+2. **Gacha + RPG 类型优先** → 角色多、Build多、版本更新频繁
+3. **6个月以上运营历史** → 搜索量已验证
+4. **英文Wiki缺失或不完整** → 内容缺口
+
+**典型案例**：Game8（日本最大攻略站）核心收入来源就是手游攻略——角色评测 + 首抽推荐 + 强度榜。
+
+**发现手游的数据源：**
+
+| 来源 | 链接 | 用途 |
+|------|------|------|
+| Google Play 新游 | `play.google.com/store/games` | 新上线手游 |
+| App Store 游戏榜 | `apps.apple.com` | iOS 端热门 |
+| Sensor Tower（免费层） | `sensortower.com` | 下载量/收入预估 |
+| r/gachagaming | `reddit.com/r/gachagaming` | 新游情报 + 玩家讨论 |
+
+#### 1.3.9 Roblox & 用户生成内容（UGC）平台
+
+> Roblox 不是一个游戏，是几百万个独立游戏的平台。每个热门 Roblox 子游戏都可以做一个独立的攻略站。
+
+**已验证的案例**：一个开发者用 Next.js + Cloudflare 搭建了 **13 个 Roblox 单游戏攻略站**，其中一个站 60 天做到 **日均 500+ 自然搜索访问**。核心发现：计算器/排行榜页面的 **CTR 比纯文字攻略高 3-5 倍**。
+
+**Roblox 子游戏的选品特征：**
+
+| 特征 | 说明 |
+|------|------|
+| 游戏类型 | 模拟器类（Simulator）、RNG 类（随机抽奖）、RPG 类最优 |
+| 搜索信号 | 玩家在 Reddit/Discord 频繁问 "how to get X"、"best strategy" |
+| 竞品情况 | Fandom Wiki 通常只有玩家自发维护，结构混乱、更新慢 |
+| 内容形式 | **计算器/效率榜 > Tier List > Codes > 纯文字攻略** |
+
+**Roblox 攻略站内容模式：**
+
+| 页面类型 | 示例 | 为什么有效 |
+|---------|------|-----------|
+| 兑换码 | Active Codes (Monthly) | 月活搜索，玩家必搜 |
+| 计算器 | DPS Calculator, Upgrade Cost Calculator | 游戏内信息不透明 → 强需求 |
+| 效率榜 | Best XP Farm, Best Money Method | 玩家天然想知道最优解 |
+| Tier List | Pet Tier List, Weapon Tier List | 高频搜索，竞争低 |
+| 地图/位置 | All NPC Locations, Secret Areas | 探索类游戏刚需 |
+
+**同样适用于**：
+- **Minecraft** 子领域（种子推荐、建造教程、Mod安装）
+- **Fortnite Creative** 模式（地图代码）
+
+**选品方法**：
+1. 打开 Roblox 官网 → 按玩家数排序 → 找 1000+ 并发在线的 RPG/模拟器类游戏
+2. 搜 `{游戏名} wiki` → 看是否有混乱的 Fandom Wiki（混乱 = 机会）
+3. 搜 `{游戏名} codes` → 看是否有专门页面在做（做了说明有搜索量）
 
 ### 1.4 定域名
 
