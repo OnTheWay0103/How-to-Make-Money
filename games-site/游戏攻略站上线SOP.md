@@ -19,8 +19,9 @@
 5. [Vercel 部署](#五vercel-部署)
 6. [Google Search Console 提交](#六google-search-console-提交)
 7. [发布后检查清单](#七发布后检查清单)
-8. [常见坑与排错](#八常见坑与排错)
-9. [附录：模板文件清单](#九附录模板文件清单)
+8. [Dashboard 数据看板](#八dashboard-数据看板)
+9. [常见坑与排错](#九常见坑与排错)
+10. [附录：模板文件清单](#十附录模板文件清单)
 
 ---
 
@@ -666,11 +667,138 @@ curl -s "https://your-site.vercel.app/robots.txt"
 - [ ] PageSpeed Insights 评分 > 80（移动端）
 - [ ] Lighthouse SEO 评分 = 100
 
+### 7.6 Dashboard 检查
+
+- [ ] 新站点已添加到 `dashboard/lib/sites.ts`
+- [ ] GA4 Property ID 已填入（数字格式，非 G- 格式）
+- [ ] Dashboard 部署后新站点在站点选择器中显示
+- [ ] 新站点即使显示零数据也能正常渲染（不会因 API 失败而隐藏）
+
 ---
 
-## 八、常见坑与排错
+## 八、Dashboard 数据看板
 
-### 8.1 Sitemap URL 不匹配
+> 统一查看所有站点的 GA4 流量数据。项目位于 `games-site/dashboard/`。
+
+### 9.1 架构说明
+
+Dashboard 是一个独立的 Next.js 应用，使用 GA4 Data API 拉取所有站点的流量数据：
+
+```
+dashboard/
+├── lib/
+│   ├── sites.ts        ← ★ 站点注册表（新站上线后在此添加）
+│   └── analytics.ts    ← GA4 Data API 查询逻辑
+├── app/
+│   ├── page.tsx        ← 主看板页面
+│   └── api/diagnostics/ ← 诊断接口
+└── components/          ← 图表、统计卡等 UI 组件
+```
+
+### 9.2 新站接入流程
+
+**Step 1：获取 GA4 数字 Property ID**
+
+1. 打开 [Google Analytics](https://analytics.google.com)
+2. 左下角 ⚙️ → 选择目标站点属性 → **Property Settings**
+3. 复制 **Property ID**（纯数字，如 `15242470783`，**不是** `G-XXXXXXXXXX`）
+
+**Step 2：注册到 Dashboard**
+
+编辑 `dashboard/lib/sites.ts`：
+
+```typescript
+export const SITES: SiteConfig[] = [
+  // ... 已有站点 ...
+  {
+    name: '新站点 Wiki',          // 显示名称
+    propertyId: '15242470783',    // ★ 数字 Property ID
+    gaId: 'G-LMNG7L3GHJ',        // Measurement ID（仅标注用）
+  },
+];
+```
+
+**Step 3：部署 Dashboard**
+
+```bash
+cd dashboard
+rm -rf .next .vercel
+npm run build
+npx vercel --prod --yes --token <TOKEN>
+```
+
+**Step 4：验证**
+
+打开 Dashboard URL，确认新站点出现在站点选择器中。新站可能显示零数据——这是正常的，GA4 需要时间积累数据。
+
+### 9.3 常见问题
+
+**问题：新站不显示在 Dashboard 中**
+
+| 原因 | 修复 |
+|------|------|
+| `propertyId` 填成了 `G-` 格式 | 改为纯数字 Property ID |
+| `fetchSiteData()` 抛异常返回 null | 已修复：现在返回零填充数据，不会隐藏站点 |
+| Dashboard 未重新部署 | `vercel --prod --yes` 重新部署 |
+| Vercel Root Directory 路径叠加 | 部署前用 API 临时清空 rootDirectory，部署后恢复（见 8.4） |
+
+**问题：GA4 service account 权限**
+
+一个 Google 账号只需在 **GA4 Account 级别**授权一次 service account（Viewer 权限），该账号下所有 Property 自动继承权限。不需要逐站添加。
+
+### 9.4 Dashboard 部署注意事项
+
+Dashboard 项目在 Vercel 的 Root Directory 应设为 `games-site/dashboard`（相对仓库根）。
+
+**CLI 部署时的路径叠加问题**：
+
+如果从 `dashboard/` 目录内执行 `vercel --prod`，Vercel 会把当前目录 + Root Directory 叠加，导致路径错误。
+
+**标准部署流程**：
+
+```bash
+TOKEN="<vercel-token>"
+PID="<dashboard-project-id>"
+
+# 1. 清空 rootDirectory（以当前目录为准）
+curl -s -X PATCH -H "Authorization: Bearer $TOKEN" \
+  -H "Content-Type: application/json" \
+  -d '{"rootDirectory":null}' \
+  "https://api.vercel.com/v9/projects/$PID" > /dev/null
+
+# 2. 从 dashboard 目录内部署
+cd dashboard
+rm -rf .vercel
+npx vercel --prod --yes --token "$TOKEN"
+
+# 3. 恢复 rootDirectory（供 Git 自动部署使用）
+curl -s -X PATCH -H "Authorization: Bearer $TOKEN" \
+  -H "Content-Type: application/json" \
+  -d '{"rootDirectory":"games-site/dashboard"}' \
+  "https://api.vercel.com/v9/projects/$PID" > /dev/null
+```
+
+### 9.5 代码要点
+
+`fetchSiteData()` 在 API 调用失败时**不返回 null**，而是返回零填充数据。这确保了即使 GA4 数据暂时不可用，站点仍出现在选择器中：
+
+```typescript
+} catch (err) {
+  console.error(`[dashboard] Failed for ${site.name}:`, ...);
+  return {
+    site,
+    totals: { pageViews: 0, users: 0, sessions: 0, avgEngagement: 0, ... },
+    dailyTrend: [],
+    topPages: [],
+  };
+}
+```
+
+---
+
+## 九、常见坑与排错
+
+### 9.1 Sitemap URL 不匹配
 
 **症状**：GSC 提交后显示「无法抓取」
 
@@ -686,7 +814,7 @@ url: 'https://witchspirewiki.vercel.app',
 ```
 修复后重新部署，再在 GSC 重新提交 sitemap。
 
-### 8.2 Vercel SSO 保护导致无法抓取
+### 9.2 Vercel SSO 保护导致无法抓取
 
 **症状**：访问部署 URL 被重定向到 Vercel 登录页
 
@@ -696,7 +824,7 @@ url: 'https://witchspirewiki.vercel.app',
 
 > 注意：`{project}.vercel.app` 的 production alias 一般是公开的，只有 hashed URL（如 `xxx-abc123.vercel.app`）可能有 SSO 保护。始终使用 production alias 的 URL 提交给 GSC。
 
-### 8.3 Root Directory 路径重复拼接
+### 9.3 Root Directory 路径重复拼接
 
 **症状**：部署报错 `The provided path "xxx/games-site/games-site/xxx" does not exist`
 
@@ -714,7 +842,7 @@ curl -X PATCH "https://api.vercel.com/v9/projects/{PROJECT_ID}" \
   -d '{"rootDirectory":"your-site-name"}'
 ```
 
-### 8.4 TypeScript/构建错误
+### 9.4 TypeScript/构建错误
 
 **症状**：`vercel --prod` 构建失败
 
@@ -724,7 +852,7 @@ curl -X PATCH "https://api.vercel.com/v9/projects/{PROJECT_ID}" \
 3. 检查 TypeScript 类型错误（`@ts-ignore` 不能滥用）
 4. 检查动态路由 `generateStaticParams` 返回的数据结构
 
-### 8.5 GSC 验证文件 404
+### 9.5 GSC 验证文件 404
 
 **症状**：点击验证后提示找不到验证文件
 
@@ -745,7 +873,7 @@ curl -sI "https://your-site.vercel.app/googleXXXX.html"
 
 ---
 
-## 九、附录：模板文件清单
+## 十、附录：模板文件清单
 
 基于 Witchspire Wiki 的 Next.js 模板项目，以下文件是每个新站点需要复用的基础框架：
 
