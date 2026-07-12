@@ -8,6 +8,7 @@
 ## 目录
 
 1. [前置准备](#一前置准备)
+   - [关键词调研与验证](#12-关键词调研与验证-)
 2. [项目初始化](#二项目初始化)
 3. [SEO 基础设施](#三seo-基础设施)
 4. [Google Analytics 配置](#四google-analytics-配置)
@@ -31,11 +32,118 @@
 | Google Analytics | 流量分析 | 免费 |
 | Google Search Console | SEO 收录 | 必做，否则 Google 不收录 |
 
-### 1.2 选游戏 → 定域名
+### 1.2 关键词调研与验证 🔑
+
+> **这是决定攻略站 SEO 成败的核心步骤。不做这一步 = 凭感觉写攻略 = 写了没人搜。**
+
+#### 1.2.1 方法原理
+
+Google 搜索框的**自动补全（Google Suggest）**反映的是真实用户在搜索的词。与其猜测"玩家会搜什么"，不如直接拉取 Google 的数据。
+
+**免费 API 端点**（无需付费、无需 API Key）：
+```
+https://suggestqueries.google.com/complete/search?client=chrome&q={关键词}
+```
+
+返回格式：`["查询词", ["建议1", "建议2", ...]]`
+
+#### 1.2.2 搜索前缀轮询法
+
+用多种前缀 + 游戏名轮询，覆盖不同类型的搜索意图：
+
+| 前缀 | 示例查询 | 捕获的搜索意图 |
+|------|---------|--------------|
+| `（空）` | `witcspire` | 基础搜索、平台、评测 |
+| `how to ` | `witcspire how to` | How-to 攻略类 |
+| `best ` | `witcspire best` | 最强/最佳/排行类 |
+| `guide ` | `witcspire guide` | 综合攻略类 |
+| `weapons ` | `witcspire weapons` | 武器/装备类 |
+| `beginner ` | `witcspire beginner` | 新手向 |
+| `build ` | `witcspire build` | Build/配装类 |
+| `solo ` | `witcspire solo` | 单人玩法 |
+| `co op ` | `witcspire co op` | 联机/合作 |
+| `tier list ` | `witcspire tier list` | 强度排行 |
+
+**一个游戏 × 10 种前缀 = 约 50-110 个真实搜索词**。
+
+#### 1.2.3 工具脚本
+
+项目下提供了抓取脚本：
+
+| 脚本 | 方式 | 适用场景 |
+|------|------|---------|
+| `harvest-curl.sh` | curl + HTTP 代理 | 需本地配置代理 |
+| `harvest-light.mjs` | Node.js https | 直连可用时 |
+| `harvest-keywords-browser.mjs` | Puppeteer 浏览器 | 模拟真实浏览器 |
+
+**推荐用法**（确保代理已开启）：
+```bash
+# 先开代理
+proxyon
+
+# 运行抓取（Python版，最稳定）
+python3 << 'PYEOF'
+import subprocess, json, os, time
+
+PROXY = "http://127.0.0.1:1087"  # 或 socks5h://127.0.0.1:1080
+PREFIXES = ["", "how to ", "best ", "guide ", "weapons ", "beginner ", "build ", "solo ", "co op ", "tier list "]
+
+# 对每个游戏抓取
+GAMES = [("游戏名", "game query")]
+for name, query in GAMES:
+    all_kw = set()
+    for prefix in PREFIXES:
+        r = subprocess.run(["curl", "-s", "--max-time", "30", "--proxy", PROXY,
+            f"https://suggestqueries.google.com/complete/search?client=chrome&q={prefix}{query}"],
+            capture_output=True, text=True, timeout=35)
+        data = json.loads(r.stdout)
+        for s in (data[1] if len(data) > 1 else []): all_kw.add(s)
+        time.sleep(4)  # 避免被 Google 限速
+    # 保存结果到 keyword-results/{name}.md
+    with open(f"keyword-results/{name}.md", "w") as f:
+        for kw in sorted(all_kw): f.write(f"- {kw}\n")
+    print(f"{name}: {len(all_kw)} keywords")
+PYEOF
+```
+
+#### 1.2.4 验证流程
+
+1. **抓取**：运行脚本，获取所有 Google Suggest 建议词
+2. **去噪**：手动剔除明显无关的词（如游戏名与其他内容撞车的词）
+3. **分类**：按搜索意图分类（How-to / Best / Weapons / Build / Beginner / Co-op…）
+4. **命中率检查**：逐一对比"我们已有的攻略"和"Google真实搜索词"
+5. **补缺口**：真实搜索词中有、但我们没覆盖的 → 新增攻略
+6. **不追**：明确无关或低价值词（如 `cheats`、混淆词）
+
+#### 1.2.5 实战案例
+
+2026-07-11 对四个站进行了关键词验证：
+
+| 站点 | 抓取词数 | 命中率 | 补充攻略 |
+|------|---------|--------|---------|
+| Witchspire | 88 | 核心词全覆盖，缺操作细节 | +2（Demo + Character Creation） |
+| Mistfall Hunter | 89 | Build词全覆盖，缺社交/设置 | +3（Multiplayer + Class Change + Settings） |
+| Aincrad | 107 | 覆盖率最高，缺Demo/Build排名 | +3（Demo + Build Tier List + EX-Mod Tier List） |
+| The Mound | 46 | 新游戏词量少，基础覆盖够用 | +1（Game Length + FAQ扩充） |
+
+**核心教训**：
+- 我们猜的关键词方向**大部分正确**（Build、Weapons、Beginner Guide 在所有游戏中都有搜索）
+- 但我们**遗漏了高频操作细节词**（如 `how to sprint`、`how to save`、`how to change class`）
+- **Demo 相关搜索**是意料之外的强需求（两个游戏都有大量 `demo` 搜索）
+- 新游戏（The Mound）词量少，但 `release date`/`price`/`crossplay` 等基础信息搜索集中
+
+#### 1.2.6 注意事项
+
+- **代理**：Google Suggest API 在中国大陆需通过代理访问，推荐 V2Ray（HTTP:1087 / SOCKS5:1080）
+- **限速**：Google 会对频繁请求限速，每次请求间隔 ≥ 4 秒；同一 IP 每分钟建议不超过 10 次
+- **SOCKS5 vs HTTP**：两个代理端口走同一出口 IP，Google 限速基于 IP 而非端口
+- **干扰词**：Google 可能会把相似名称的游戏混在一起（如 `witcspire` 和 `witchfire`），需手动清理
+
+### 1.3 选游戏 → 定域名
 
 ```
 决策流程：
-选定目标游戏 → 调研搜索量 → 确定域名 → 检查域名可用性
+关键词验证 → 搜索量确认 → 选定目标游戏 → 确定域名 → 检查域名可用性
 ```
 
 **域名建议**：
@@ -43,7 +151,7 @@
 - 备选：Vercel 免费域名 `{projectname}.vercel.app`（起步够用，后续再绑自定义域名）
 - 避免：与官方商标冲突太直接的域名
 
-### 1.3 内容准备
+### 1.4 内容准备
 
 在写代码之前，先准备好：
 - **至少 10 篇攻略文章**（Markdown 格式，放在 `content/guides/` 下）
@@ -518,6 +626,6 @@ curl -sI "https://your-site.vercel.app/google*.html"
 
 ---
 
-> **最后更新**：2026-07-04  
-> **基于实战**：Witchspire Wiki (`witchspirewiki.vercel.app`)  
+> **最后更新**：2026-07-12  
+> **基于实战**：Witchspire / Mistfall Hunter / Aincrad / The Mound 四个站点  
 > **维护**：每上线一个新站点，回来更新本文档中遇到的新的坑。
