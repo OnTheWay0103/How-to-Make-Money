@@ -27,4 +27,14 @@ export const SITES: SiteConfig[] = [
     propertyId: '544523266',
     gaId: 'G-109H13Q3KN',
   },
+  {
+    name: 'The Mound Wiki',
+    propertyId: '15238858433',
+    gaId: 'G-KDMF9VH9EZ',
+  },
+  {
+    name: 'SpiritVale Wiki',
+    propertyId: '15242470783',
+    gaId: 'G-LMNG7L3GHJ',
+  },
 ];
