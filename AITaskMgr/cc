@@ -13,6 +13,8 @@
 # 配置文件路径（与脚本同目录）
 SCRIPT_DIR="${0:A:h}"
 CONF_FILE="$SCRIPT_DIR/projects.conf"
+# monorepo 根目录（cc 在 AITaskMgr/ 下，上一级就是仓库根）
+MONOREPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 
 # --- 颜色 ---
 GREEN='\033[32m'
@@ -49,9 +51,10 @@ load_projects() {
         name="${name%% }"
         dir="${dir## }"
         dir="${dir%% }"
-        # 展开 ~ 和 $HOME
+        # 展开 ~、$HOME、$MONOREPO_ROOT
         dir="${dir/#\~/$HOME}"
         dir="${dir/\$HOME/$HOME}"
+        dir="${dir/\$MONOREPO_ROOT/$MONOREPO_ROOT}"
         PROJ_NAMES+=("$name")
         PROJ_DIRS+=("$dir")
     done < "$CONF_FILE"
