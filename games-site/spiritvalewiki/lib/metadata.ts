@@ -1,5 +1,5 @@
 /**
- * Next.js Metadata API helpers for Witchspire Wiki.
+ * Next.js Metadata API helpers for SpiritVale Wiki.
  *
  * Provides a single `generateGuideMetadata()` factory so every
  * guide page produces consistent <title>, meta description, OG
@@ -36,16 +36,14 @@ export const defaultMetadata: Metadata = {
   description: SITE_CONFIG.description,
 
   keywords: [
-    'SpiritVale: Omen of Cthulhu',
+    'SpiritVale',
     'SpiritVale wiki',
-    'SpiritVale: Omen of Cthulhu guide',
-    'SpiritVale: Omen of Cthulhu builds',
-    'SpiritVale: Omen of Cthulhu weapons',
-    'SpiritVale: Omen of Cthulhu beginner guide',
-    'SpiritVale: Omen of Cthulhu tips',
-    'SpiritVale: Omen of Cthulhu bosses',
-    'Sword Art Online',
-    'SAO game',
+    'SpiritVale guide',
+    'SpiritVale builds',
+    'SpiritVale classes',
+    'SpiritVale beginner guide',
+    'SpiritVale tips',
+    'SpiritVale bosses',
   ],
 
   authors: [{ name: SITE_CONFIG.name }],

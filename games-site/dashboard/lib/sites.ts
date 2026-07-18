@@ -37,4 +37,9 @@ export const SITES: SiteConfig[] = [
     propertyId: '15242470783',
     gaId: 'G-LMNG7L3GHJ',
   },
+  {
+    name: 'Skills & Raids Wiki',
+    propertyId: '15277928982',
+    gaId: 'G-393K5RDZ0B',
+  },
 ];

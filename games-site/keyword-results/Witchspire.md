@@ -1,25 +1,27 @@
 # Witchspire — Google Suggest Keywords
-> 88 unique keywords | 2026-07-11
+> 87 unique keywords | 2026-07-18
 
 - beginner witch
+- best witchspire build
+- best witchspire class
 - co op witch game
 - co-op opening hours
 - coop or co-op
+- how to build in witchspire
 - how to equip broom witchspire
 - how to farm witchspire
 - how to fly witchspire
 - how to garden witchspire
-- how to get broom witchspire
 - how to get elderwood in witchspire
 - how to get familiars witchspire
-- how to get silver witchspire
+- how to heal in witchfire
 - how to plant witchspire
 - how to play witchspire
+- how to play witchspire with friends
 - how to save witchspire
 - how to sprint in witchspire
-- how to tame in witchspire
 - how to teleport witchspire
-- how to use broom witchspire
+- how to use broom in witchfire
 - rank candy tier list
 - solo leveling which shadow
 - solo wisma
@@ -46,44 +48,41 @@
 - witchcraft builds
 - witchcraft solo playthrough
 - witches guide to escape
-- witchfire best build
-- witchfire best class
 - witchfire best starting familiar
 - witchfire best weapon
+- witchfire multiplayer
 - witchfire tier list
 - witchfire weapons
-- witchfire xbox
+- witchspire activate the bridge
+- witchspire beeswax
 - witchspire beginner guide
 - witchspire best base location
-- witchspire best companion
+- witchspire best broom
 - witchspire best coven
 - witchspire best familiar
+- witchspire best gear
 - witchspire best luminaries
 - witchspire best pet
 - witchspire best starter
 - witchspire best starter pet
-- witchspire best starter weapon
 - witchspire best starting class
 - witchspire best wand
 - witchspire build
+- witchspire build a hearth
 - witchspire build house
-- witchspire character creation
+- witchspire build ideas
 - witchspire co op
-- witchspire covens
-- witchspire demo
-- witchspire game
-- witchspire gameplay
+- witchspire discord
+- witchspire elements
+- witchspire fine wood
 - witchspire guide
-- witchspire price
-- witchspire ps5
+- witchspire potion of might
 - witchspire reddit
 - witchspire release date
 - witchspire review
+- witchspire silver
 - witchspire solo
-- witchspire steam
-- witchspire switch
-- witchspire switch 2
-- witchspire trailer
+- witchspire wiki
 - witchspring guide
 - witchspring r specialised equipment
 - witchspring weapons

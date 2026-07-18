@@ -411,14 +411,15 @@ rm -rf .vercel/              # 删除旧的 Vercel 关联
 
 | # | 文件 | 修改内容 |
 |---|------|----------|
-| 1 | `lib/seo-config.ts` | `name`、`description`、`url`、`ogImage` |
-| 2 | `lib/metadata.ts` | `keywords` 数组（改成新游戏的词） |
-| 3 | `lib/schema.ts` | `websiteSchema()` 中的站点名称和描述 |
-| 4 | `app/sitemap.ts` | 静态路由列表（如路由结构有变化） |
+| 1 | `lib/seo-config.ts` | `name`、`description`、`url`、`ogImage`、`googleAnalyticsId` |
+| 2 | `lib/metadata.ts` | `keywords` 数组（改成新游戏的词）；**JSDoc 注释**中的模板站点名 |
+| 3 | `lib/schema.ts` | `websiteSchema()` 中的站点名称和描述；**`videoGameSchema()` 中的游戏信息**；**JSDoc/注释**中的模板游戏名 |
+| 4 | `app/sitemap.ts` | 静态路由列表（如路由结构有变化）；`SITE_CONFIG.url` 引用正确 |
 | 5 | `app/robots.ts` | 一般不需要改，确认 sitemap URL 正确 |
 | 6 | `vercel.json` | `regions` 按目标用户选地区 |
 | 7 | `package.json` | `name` 字段 |
-| 8 | `.env.local` | `NEXT_PUBLIC_GA_MEASUREMENT_ID`（见第四章） |
+| 8 | `content/home-content.md` | **全文替换**为新游戏内容（见 ⚠️ 2.5 节） |
+| 9 | `.env.local` | `NEXT_PUBLIC_GA_MEASUREMENT_ID`（见第四章） |
 
 ### 2.3 创建内容
 
@@ -429,7 +430,35 @@ cp /path/to/your/articles/*.md content/guides/
 # 修改首页内容（app/page.tsx 或 content/home-content.md）
 ```
 
-### 2.4 本地验证
+### 2.5 ⚠️ 模板残留清理（最容易遗漏！）
+
+> **这是 5 站实战中踩坑最多的环节。模板复制后有很多"看起来不影响运行"但必须清理的残留。**
+
+**必须逐文件检查的残留清单**：
+
+| # | 文件 | 检查项 | 症状（不清理的后果） |
+|---|------|--------|---------------------|
+| 1 | `content/home-content.md` | title/description/keywords/正文所有链接 | 标题写着"Witchspire Wiki"，链接指向 witchspire 的 Steam |
+| 2 | `lib/metadata.ts` | JSDoc 注释（`@file`）、`keywords` 数组 | 注释写"Witchspire Wiki"，keywords 含"Sword Art Online" |
+| 3 | `lib/schema.ts` | `videoGameSchema()` 里的游戏名/发行商/价格；JS 注释 | 注释写"Describes Echoes of Aincrad" |
+| 4 | `lib/seo-config.ts` | `googleAnalyticsId` 是否为空字符串 | GA4 不生效，Dashboard 无数据 |
+| 5 | `app/page.tsx` | 硬编码的 FAQ / Featured Guides / Steam 链接 | 首页展示别的游戏的攻略链接 |
+| 6 | `app/faq/page.tsx` | 硬编码的 FAQ 内容 | FAQ 内容不符合新游戏 |
+| 7 | `app/tier-list/page.tsx` | 硬编码的 Tier List 数据 | 展示别的游戏的排名数据 |
+
+**实战教训**：The Mound Wiki 和 SpiritVale Wiki 上线 6 天后发现 `home-content.md` 完全没改，标题还是 "Witchspire Wiki — Complete Guide Hub"。
+
+**推荐方法**：复制模板后，全局搜索模板游戏名（如 `Witchspire`、`Envar Games`、`Aincrad`），确保新项目中零残留。
+
+```bash
+# 模板复制后立即执行
+cd new-site-name/
+grep -r "Witchspire" --include="*.ts" --include="*.tsx" --include="*.md" . | grep -v node_modules | grep -v .next
+grep -r "Aincrad\|SAO\|Sword Art" --include="*.ts" --include="*.tsx" --include="*.md" . | grep -v node_modules | grep -v .next
+# 应该返回空结果（或者只有你故意保留的引用）
+```
+
+### 2.6 本地验证
 
 ```bash
 # 构建验证
@@ -635,14 +664,30 @@ curl -s "https://your-site.vercel.app/robots.txt"
 
 每一项部署后必须逐条确认：
 
-### 7.1 功能检查
+### 7.1 文件完整性检查（⭐ 新增 — 最易遗漏）
+
+- [ ] `vercel.json` 存在且内容正确
+- [ ] `package.json` 存在且 `name` 字段已更新
+- [ ] `tsconfig.json` 存在
+- [ ] `public/icon.png` 存在（OG 分享图，512×512）
+- [ ] `public/google*.html` GSC 验证文件已放入（⚠️ 见 6.2 节）
+- [ ] `.gitignore` 存在
+
+### 7.2 模板残留检查（⭐ 新增 — 必须执行）
+
+- [ ] `grep` 搜索模板游戏名，确认零残留（见 2.5 节）
+- [ ] `lib/seo-config.ts` 中 `googleAnalyticsId` ≠ `''`
+- [ ] `lib/metadata.ts` 中 keywords 不含其他游戏的词
+- [ ] `lib/schema.ts` 中 `videoGameSchema()` 信息正确
+
+### 7.3 功能检查
 
 - [ ] 首页正常加载，无报错
 - [ ] 所有攻略页面可访问（逐个点击）
 - [ ] 移动端显示正常
 - [ ] 图片加载正常
 
-### 7.2 SEO 检查
+### 7.4 SEO 检查
 
 - [ ] `https://{domain}/sitemap.xml` 返回有效 XML（200），URL 前缀正确
 - [ ] `https://{domain}/robots.txt` 返回 `Allow: /`
@@ -651,27 +696,29 @@ curl -s "https://your-site.vercel.app/robots.txt"
 - [ ] Open Graph 标签完整（`og:title`, `og:description`, `og:image`）
 - [ ] 无 `<meta name="robots" content="noindex">` 残留
 
-### 7.3 GSC 检查
+### 7.5 GSC 检查
 
 - [ ] 所有权验证通过
 - [ ] Sitemap 已提交，状态为「成功」
 - [ ] 无安全/手动操作问题
 
-### 7.4 GA 检查
+### 7.6 GA 检查
 
 - [ ] GA4 实时报告能看到自己的访问
 - [ ] Measurement ID 正确（G- 开头）
 
-### 7.5 性能检查
+### 7.7 性能检查
 
 - [ ] PageSpeed Insights 评分 > 80（移动端）
 - [ ] Lighthouse SEO 评分 = 100
 
-### 7.6 Dashboard 检查
+### 7.8 Dashboard + 统计文档检查（⚠️ 不能只改代码）
 
-- [ ] 新站点已添加到 `dashboard/lib/sites.ts`
-- [ ] GA4 Property ID 已填入（数字格式，非 G- 格式）
-- [ ] Dashboard 部署后新站点在站点选择器中显示
+- [ ] 新站点已添加到 `dashboard/lib/sites.ts`（`propertyId` 是**纯数字**，不是 G- 格式）
+- [ ] GA4 Property ID 已填入（数字格式）
+- [ ] Dashboard 已重新部署（⚠️ 见 8.4 部署注意事项）
+- [ ] Dashboard 打开后新站点在站点选择器中显示
+- [ ] **`游戏站点统计.md` 已更新**（GA4 ID、创建/加入日期、备注、汇总数字）
 - [ ] 新站点即使显示零数据也能正常渲染（不会因 API 失败而隐藏）
 
 ---
@@ -680,7 +727,7 @@ curl -s "https://your-site.vercel.app/robots.txt"
 
 > 统一查看所有站点的 GA4 流量数据。项目位于 `games-site/dashboard/`。
 
-### 9.1 架构说明
+### 8.1 架构说明
 
 Dashboard 是一个独立的 Next.js 应用，使用 GA4 Data API 拉取所有站点的流量数据：
 
@@ -695,7 +742,7 @@ dashboard/
 └── components/          ← 图表、统计卡等 UI 组件
 ```
 
-### 9.2 新站接入流程
+### 8.2 新站接入流程
 
 **Step 1：获取 GA4 数字 Property ID**
 
@@ -731,7 +778,7 @@ npx vercel --prod --yes --token <TOKEN>
 
 打开 Dashboard URL，确认新站点出现在站点选择器中。新站可能显示零数据——这是正常的，GA4 需要时间积累数据。
 
-### 9.3 常见问题
+### 8.3 常见问题
 
 **问题：新站不显示在 Dashboard 中**
 
@@ -746,7 +793,7 @@ npx vercel --prod --yes --token <TOKEN>
 
 一个 Google 账号只需在 **GA4 Account 级别**授权一次 service account（Viewer 权限），该账号下所有 Property 自动继承权限。不需要逐站添加。
 
-### 9.4 Dashboard 部署注意事项
+### 8.4 Dashboard 部署注意事项
 
 Dashboard 项目在 Vercel 的 Root Directory 应设为 `games-site/dashboard`（相对仓库根）。
 
@@ -778,7 +825,7 @@ curl -s -X PATCH -H "Authorization: Bearer $TOKEN" \
   "https://api.vercel.com/v9/projects/$PID" > /dev/null
 ```
 
-### 9.5 代码要点
+### 8.5 代码要点
 
 `fetchSiteData()` 在 API 调用失败时**不返回 null**，而是返回零填充数据。这确保了即使 GA4 数据暂时不可用，站点仍出现在选择器中：
 
@@ -828,18 +875,35 @@ url: 'https://witchspirewiki.vercel.app',
 
 **症状**：部署报错 `The provided path "xxx/games-site/games-site/xxx" does not exist`
 
-**根因**：Vercel 项目 Root Directory 设置错误（路径从 repo 根起算，不是从 CWD 起算）
+**根因**：Vercel 项目 Root Directory 设置错误（路径从 repo 根起算，不是从 CWD 起算）。CLI 从当前目录起算 + 项目设置的 Root Directory 叠加。
+
+**实战案例**（Dashboard 部署失败）：
+```
+cwd: ~/DEV/.../games-site/dashboard/
+Root Directory (项目设置): games-site/dashboard
+→ CLI 计算: cwd + Root Directory = .../games-site/dashboard/games-site/dashboard ❌
+```
 
 **修复**：
 ```bash
-# 1. 获取 project ID
-vercel project inspect your-project-name
+TOKEN="<vercel-token>"
+PID="<project-id>"
 
-# 2. 通过 API 修正 Root Directory
-curl -X PATCH "https://api.vercel.com/v9/projects/{PROJECT_ID}" \
-  -H "Authorization: Bearer $(cat ~/Library/Application\ Support/com.vercel.cli/auth.json | jq -r .token)" \
+# 1. 临时清空 Root Directory
+curl -s -X PATCH -H "Authorization: Bearer $TOKEN" \
   -H "Content-Type: application/json" \
-  -d '{"rootDirectory":"your-site-name"}'
+  -d '{"rootDirectory":null}' \
+  "https://api.vercel.com/v9/projects/$PID"
+
+# 2. 从项目目录内部署
+cd your-site && rm -rf .vercel
+vercel --prod --yes
+
+# 3. 恢复 Root Directory（供 Git 自动部署使用）
+curl -s -X PATCH -H "Authorization: Bearer $TOKEN" \
+  -H "Content-Type: application/json" \
+  -d '{"rootDirectory":"games-site/your-site"}' \
+  "https://api.vercel.com/v9/projects/$PID"
 ```
 
 ### 9.4 TypeScript/构建错误
@@ -870,6 +934,54 @@ curl -sI "https://your-site.vercel.app/googleXXXX.html"
 
 # 4. 文件名必须完全一致，包括大小写
 ```
+
+### 9.6 ⚠️ 模板复制后未清理残留
+
+**症状**：站点上线后发现 `home-content.md` 标题还是 "Witchspire Wiki"，metadata 默认关键词含 "Sword Art Online"
+
+**根因**：复制模板后只改了表面配置，没有逐文件 grep 残留的游戏名
+
+**实战**：The Mound Wiki 和 SpiritVale Wiki 上线 6 天后才发现此问题。虽然用户看不到（首页用硬编码），但代码库被污染。
+
+**修复**：见 2.5 节的全局 grep 命令。
+
+### 9.7 ⚠️ 忘记放入 GSC 验证文件
+
+**症状**：GSC 验证时找不到文件，要重新部署一次
+
+**根因**：Skills & Raids Wiki 的 `public/` 目录是空的，GSC 验证文件 (`google*.html`) 没放进去
+
+**预防**：创建新站点时，直接复制验证文件到 `public/`：
+```bash
+cp ../../witchspirewiki/public/google12f8715471cef7b7.html public/
+```
+
+### 9.8 ⚠️ GA4 未配置就部署
+
+**症状**：站点上线但 GA4 实时报告无数据，Dashboard 显示不出来
+
+**根因**：`seo-config.ts` 中 `googleAnalyticsId: ''`（空字符串），模板默认值没改
+
+**预防**：在 "发布后检查清单" GA 检查项中，确认 `googleAnalyticsId` 不是空字符串。
+
+### 9.9 ⚠️ 部署了但 Dashboard 和统计文档没更新
+
+**症状**：站点可访问、GA4 有数据，但 Dashboard 看板看不到新站
+
+**根因**：改了代码（`seo-config.ts`）和站点，但没有：
+1. 更新 `dashboard/lib/sites.ts`
+2. 重新部署 Dashboard
+3. 更新 `游戏站点统计.md`
+
+**预防**：见 7.8 节完整检查清单。这三件事必须**同一次上线**完成。
+
+### 9.10 ⚠️ 站点根本没部署
+
+**症状**：域名返回 404
+
+**根因**：Skills & Raids Wiki 创建了代码和内容，但从未执行 `vercel --prod`。Vercel 项目列表中不存在。
+
+**预防**：发布后检查清单第一项：`curl` 验证域名返回 200。
 
 ---
 
@@ -964,6 +1076,142 @@ curl -sI "https://your-site.vercel.app/google*.html"
 
 ---
 
-> **最后更新**：2026-07-12  
-> **基于实战**：Witchspire / Mistfall Hunter / Aincrad / The Mound 四个站点  
+## 附录 C：避坑指南 — 6站实战全量教训
+
+> 基于 Witchspire / Mistfall Hunter / Aincrad / The Mound / SpiritVale / Skills & Raids 六个站点的完整上线经历。
+> **每一个坑都踩过一遍。以下每一条都是真金白银换来的。**
+
+### C.1 文件层面：模板复制后必须清理的 7 个文件
+
+| # | 文件 | 常见遗漏 | 后果 |
+|---|------|---------|------|
+| 1 | `content/home-content.md` | 全文没改，标题还是模板游戏名 | 代码库污染（用户看不到但很脏） |
+| 2 | `lib/metadata.ts` | JSDoc 写 "Witchspire Wiki"；keywords 含 "Sword Art Online" | 搜索引擎看到错误关键词 |
+| 3 | `lib/schema.ts` | 注释写 "Describes Echoes of Aincrad"；`videoGameSchema()` 游戏信息错误 | JSON-LD 结构化数据错误 |
+| 4 | `lib/seo-config.ts` | `googleAnalyticsId: ''`（空字符串） | GA4 不工作 |
+| 5 | `app/page.tsx` | 硬编码 FAQ/Featured Guides/Steam 链接 → 别的游戏 | 首页内容错误 |
+| 6 | `app/faq/page.tsx` | 硬编码 FAQ | FAQ 不符合新游戏 |
+| 7 | `app/tier-list/page.tsx` | 硬编码 Tier List | 展示错误游戏排名 |
+
+**防御措施**：
+```bash
+# 每次复制模板后立即执行
+cd new-site/
+grep -rn "Witchspire\|Aincrad\|Envar\|SAO\|Sword Art" --include="*.ts" --include="*.tsx" --include="*.md" . | grep -v node_modules | grep -v .next
+# 预期输出：空。有任何输出 = 残留没清干净。
+```
+
+### C.2 部署层面：4 个必须存在的文件
+
+以下文件在新站点中**一个都不能少**：
+
+| 文件 | the mound | spiritvale | skills & raids | 后果 |
+|------|-----------|------------|----------------|------|
+| `vercel.json` | ❌ 缺失 | ❌ 缺失 | ❌ 缺失 | 部署配置不可控 |
+| `package.json` | ❌ 缺失 | ❌ 缺失 | ✅ | `npm install` 失败 |
+| `tsconfig.json` | ❌ 缺失 | ❌ 缺失 | ✅ | TypeScript 编译可能出错 |
+| `public/google*.html` | ✅ | ✅ | ❌ 缺失 | GSC 无法验证 |
+
+**教训**：复制模板时必须确保这些文件被复制。如果是从零创建（非复制模板），必须手动创建。
+
+### C.3 部署层面：站点根本没上线
+
+**症状**：域名返回 404
+
+**实战**：Skills & Raids Wiki 创建了目录、写了 10 篇攻略、配置了 SEO，但**从未执行 `vercel --prod`**。Vercel 项目列表中不存在。
+
+**检查方法**：
+```bash
+# 每一个新站部署后必须验证
+curl -sI "https://{site}.vercel.app" | head -1
+# 必须返回 HTTP/2 200，任何 3xx/4xx/5xx = 没上线
+```
+
+### C.4 运维层面：Dashboard 部署的路径陷阱
+
+**症状**：从 `dashboard/` 目录执行 `vercel --prod` 报路径错误
+
+**根因**：Dashboard 的 Vercel 项目 Root Directory 设为 `games-site/dashboard`（相对于 git 根），CLI 从 `dashboard/` 执行时会把 CWD + Root Directory 叠加。
+
+**标准操作**：见 9.3 节的三步法（清空 → 部署 → 恢复）。
+
+### C.5 运维层面：上线后必须同步更新的 3 个地方
+
+每次新站点上线，以下 **3 个地方要同时更新**，不能只改一个：
+
+1. **`{site}/lib/seo-config.ts`** → 填 `googleAnalyticsId`
+2. **`dashboard/lib/sites.ts`** → 添加站点条目（`propertyId` 用纯数字）
+3. **`游戏站点统计.md`** → 更新表格行 + 汇总数字
+
+只改 1+2 忘改 3 → 统计文档过时
+只改 1 忘改 2+3 → Dashboard 看不到新站
+
+### C.6 战略层面：游戏发售时间决定搜索流量
+
+| 站点 | 建站日期 | 游戏发售 | 建站时状态 | 30天流量 |
+|------|---------|---------|-----------|---------|
+| Witchspire | 6/30 | 6/10 | ✅ 已发售 20 天 | 40 PV |
+| Mistfall Hunter | 7/4 | **7/29** | ❌ 未发售（差 25 天） | 5 PV |
+| Aincrad | 7/7 | 7/10 | ⚠️ 发售前 3 天 | 6 PV |
+| The Mound | 7/11 | 7/15 | ⚠️ 发售前 4 天 | 0 PV |
+| SpiritVale | 7/12 | EA | ❓ 发售状态不明 | 0 PV |
+| Skills & Raids | 7/14 | **7/27** | ❌ 未发售（差 13 天） | 0 PV |
+
+**结论**：
+- **游戏没发售 = 没人搜索 = 建站白做**。搜索引擎流量来自真实用户的搜索需求，游戏没上线就没有玩家搜攻略。
+- 提前建站不是坏事（给 Google 时间收录），但要做好 **0 流量等几周** 的心理准备。
+- 理想窗口：游戏发售前 1-2 周建站，发售当天内容就位。
+
+### C.7 战略层面：游戏名关键词碰撞
+
+**症状**：关键词调研抓了 116 个词，但大量与其他游戏/产品混淆
+
+**实战**：SpiritVale 的关键词列表包含：
+- `spirit island solo` → Spirit Island 是另一个热门桌游
+- `spirit blossom valorant` → Valorant 皮肤
+- `spirit weapons valheim` → Valheim 游戏
+- `beginners guide stardew` → 星露谷物语
+
+**预防**：关键词调研后，手动剔除明显不属于目标游戏的词。如果噪声词占比 > 20%，考虑用更长尾的标题做区分（如 "SpiritVale MMORPG builds" 而非 "SpiritVale builds"）。
+
+### C.8 战略层面：Google 收录需要时间
+
+**时间线（实战数据）**：
+- Witchspire：6/30 建站 → 7/1 首次搜索出现 → 约 1 天开始收录
+- 后续站点：建站 1-2 周后用 `site:` 搜索仍无结果 → Google 对 vercel.app 子域名的收录速度慢于独立域名
+
+**建议**：
+- 建站后立即提交 GSC sitemap（加速收录）
+- 不要期望建站 1 周内就有搜索流量
+- 2-4 周是正常收录周期
+- 如果 4 周后 `site:` 搜索仍无结果 → 检查 robots.txt、sitemap、GSC 是否有错误
+
+### C.9 上线验证一句话清单
+
+每次新站上线，跑这 5 条命令验证：
+
+```bash
+SITE="your-site.vercel.app"
+
+# 1. 站点可访问
+curl -sI "https://$SITE" | head -1                    # 必须 200
+
+# 2. Sitemap 正常
+curl -s "https://$SITE/sitemap.xml" | head -5         # 有效 XML
+
+# 3. Robots 正确
+curl -s "https://$SITE/robots.txt"                     # Allow: /
+
+# 4. GSC 验证文件可访问
+curl -sI "https://$SITE/google12f8715471cef7b7.html"  # 必须 200
+
+# 5. 无模板残留
+grep -r "Witchspire" --include="*.ts" --include="*.tsx" --include="*.md" . | grep -v node_modules | grep -v .next
+# 预期输出：空
+```
+
+---
+
+> **最后更新**：2026-07-18  
+> **基于实战**：Witchspire / Mistfall Hunter / Aincrad / The Mound / SpiritVale / Skills & Raids 六个站点  
 > **维护**：每上线一个新站点，回来更新本文档中遇到的新的坑。

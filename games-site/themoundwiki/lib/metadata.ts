@@ -1,5 +1,5 @@
 /**
- * Next.js Metadata API helpers for Witchspire Wiki.
+ * Next.js Metadata API helpers for The Mound Wiki.
  *
  * Provides a single `generateGuideMetadata()` factory so every
  * guide page produces consistent <title>, meta description, OG
@@ -21,7 +21,7 @@ import { SITE_CONFIG } from './seo-config';
 /**
  * Catch‑all metadata applied to every page unless a page overrides it.
  *
- * - title uses a template so child pages produce `Page Name · Aincrad Wiki`
+ * - title uses a template so child pages produce `Page Name · The Mound Wiki`
  * - robots defaults to index,follow
  * - Open Graph and Twitter card are configured with the site logo
  */
@@ -44,8 +44,6 @@ export const defaultMetadata: Metadata = {
     'The Mound: Omen of Cthulhu beginner guide',
     'The Mound: Omen of Cthulhu tips',
     'The Mound: Omen of Cthulhu bosses',
-    'Sword Art Online',
-    'SAO game',
   ],
 
   authors: [{ name: SITE_CONFIG.name }],

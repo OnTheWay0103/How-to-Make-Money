@@ -1,5 +1,5 @@
-# The Mound — Google Suggest Keywords
-> 46 unique keywords | 2026-07-11
+# The Mound — Omen of Cthulhu — Google Suggest Keywords
+> 51 unique keywords | 2026-07-18
 
 - can you play the mound omen of cthulhu solo
 - charm of the undead
@@ -8,22 +8,26 @@
 - how long is the mound omen of cthulhu
 - how long is the mound omen of cthulhu demo
 - how many levels of bad omen are there
+- how many players is the mound omen of cthulhu
+- how much will the mound omen of cthulhu be
 - how much will the mound omen of cthulhu cost
+- is lizard falling on head a bad omen
+- is the mound omen of cthulhu demo co op
 - omenpath journey ck
 - soldier of the shade
 - soldier of the shade mousehunt
-- the mound omen of cthulhu beta
 - the mound omen of cthulhu characters
 - the mound omen of cthulhu co op
 - the mound omen of cthulhu couch co op
 - the mound omen of cthulhu crossplay
-- the mound omen of cthulhu deluxe edition
 - the mound omen of cthulhu demo
 - the mound omen of cthulhu game pass
 - the mound omen of cthulhu gameplay
 - the mound omen of cthulhu guide
-- the mound omen of cthulhu how many players
+- the mound omen of cthulhu how to block
+- the mound omen of cthulhu how to play
 - the mound omen of cthulhu local co op
+- the mound omen of cthulhu playstation 5 store
 - the mound omen of cthulhu price
 - the mound omen of cthulhu ps5
 - the mound omen of cthulhu ps5 release date
@@ -32,11 +36,12 @@
 - the mound omen of cthulhu review
 - the mound omen of cthulhu single player
 - the mound omen of cthulhu solo
-- the mound omen of cthulhu steam
 - the mound omen of cthulhu trailer
+- the mound omen of cthulhu trophy guide
+- the mound omen of cthulhu walkthrough
 - the mound omen of cthulhu weapons
+- the mound omen of cthulhu wiki
 - the mound omen of cthulhu xbox
-- the mound omen of cthulhu xbox release date
 - tier cthulhu
 - tier list myth gods of asgard
 - weapon description

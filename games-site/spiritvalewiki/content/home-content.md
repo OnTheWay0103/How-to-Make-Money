@@ -1,18 +1,18 @@
 ---
-title: "Witchspire Wiki — Complete Guide Hub"
-description: "The ultimate community wiki for Witchspire — the co-op survival RPG by Envar Games. Find Coven guides, boss strategies, familiar database, crafting recipes and more."
+title: "SpiritVale Wiki — Complete Guide Hub"
+description: "The ultimate community wiki for SpiritVale — the free-to-play class-based MMORPG. Find class guides, build strategies, boss walkthroughs, card system tips, crafting recipes and more."
 category: "Home"
-version: "0.1.1d"
-updated: "2026-06-29"
-keywords: ["Witchspire", "Witchspire wiki", "Witchspire guide", "Envar Games", "co-op survival RPG", "Steam early access"]
-related: ["beginner-guide", "best-coven-guide", "all-familiars-guide", "crafting-guide"]
+version: "EA"
+updated: "2026-07-12"
+keywords: ["SpiritVale", "SpiritVale wiki", "SpiritVale guide", "SpiritVale MMORPG", "class-based MMO", "free-to-play MMO"]
+related: ["beginner-guide", "classes-guide", "class-tier-list", "builds-guide"]
 ---
 
-# Witchspire Wiki — Complete Guide Hub
+# SpiritVale Wiki — Complete Guide Hub
 
-**Everything you need to master the co-op survival RPG by Envar Games.**
+**Everything you need to master the free-to-play class-based MMORPG.**
 
-Witchspire launched in Early Access on Steam on June 10, 2026. This wiki covers all core systems, strategies, and secrets for the current build (v0.1.1d). Whether you are a solo witch or running a 4-player coven, you will find practical, up-to-date information here.
+SpiritVale is currently in Early Access. This wiki covers all core systems, strategies, and secrets for the current EA build. Whether you are a solo player or running group content, you will find practical, up-to-date information here.
 
 ---
 
@@ -21,17 +21,14 @@ Witchspire launched in Early Access on Steam on June 10, 2026. This wiki covers 
 | Guide | Best For | Difficulty |
 |-------|----------|------------|
 | [Beginner Guide](/guides/beginner-guide) | First-time players | Starter |
-| [Best Coven Guide](/guides/best-coven-guide) | Character creation | Starter |
-| [All Familiars Guide](/guides/all-familiars-guide) | Creature collecting | Reference |
-| [Hearth Upgrade Guide](/guides/hearth-upgrade-guide) | Base building | Intermediate |
-| [Main Quest Walkthrough](/guides/main-quest-walkthrough) | Story progression | Intermediate |
-| [Crafting Guide](/guides/crafting-guide) | Gear progression | Intermediate |
-| [Luminary Skill Tree Guide](/guides/luminary-skill-tree-guide) | Build optimization | Advanced |
-| [Spellblade vs Wand Guide](/guides/spellblade-vs-wand-guide) | Weapon choice | Intermediate |
-| [Flight Unlock Guide](/guides/flight-unlock-guide) | Mobility unlock | Intermediate |
-| [Vyrs Region Guide](/guides/vyrs-region-guide) | Exploration | Starter |
-| [Al'uunian Golem Boss Guide](/guides/alunean-golem-boss-guide) | First boss | Intermediate |
-| [Co-op Multiplayer Guide](/guides/coop-multiplayer-guide) | Team play | Starter |
+| [Classes Guide](/guides/classes-guide) | Choosing your class | Starter |
+| [Class Tier List](/guides/class-tier-list) | Meta rankings | Starter |
+| [Builds Guide](/guides/builds-guide) | Endgame optimization | Intermediate |
+| [Leveling Guide](/guides/leveling-guide) | Fast 1-50 route | Intermediate |
+| [Cards Guide](/guides/cards-guide) | Power progression | Intermediate |
+| [Crafting Guide](/guides/crafting-guide) | Gear & materials | Intermediate |
+| [Boss Guide](/guides/boss-guide) | All 20+ bosses | Advanced |
+| [Solo Guide](/guides/solo-guide) | Playing alone | Intermediate |
 | [FAQ](/faq) | Quick answers | All |
 | [Tier List](/tier-list) | Meta analysis | Advanced |
 
@@ -39,46 +36,46 @@ Witchspire launched in Early Access on Steam on June 10, 2026. This wiki covers 
 
 ## Featured Guides
 
-### Coven Guide
-Pick your path. Six unique Coven classes, each with distinct weapon and magic combos. [Read the full guide →](/guides/best-coven-guide)
+### Classes Guide
+Pick your path. Seven base classes evolving into eight advanced classes — Knight, Warrior, Acolyte, Mage, Scout, Rogue, and Summoner. [Read the full guide →](/guides/classes-guide)
 
-### Familiar Database
-Catch, train, and evolve 25+ magical creatures across four rarity tiers. [Browse all Familiars →](/guides/all-familiars-guide)
+### Build Database
+Optimized builds for every advanced class — Paladin, Berserker, Archmage, Sniper, Priest, Shinobi, Necromancer, and Weaver. [Browse all builds →](/guides/builds-guide)
 
 ### Boss Strategies
-From the Al'uunian Golem to the Shudder Matriarch — learn attack patterns, safe spots, and loot tables. [View boss guides →](/guides/alunean-golem-boss-guide)
+From early dungeon bosses to endgame raid encounters — learn attack patterns, safe spots, and loot tables across 20+ bosses. [View boss guides →](/guides/boss-guide)
 
-### Crafting Recipes
-Workbenches, furnaces, alchemy circles, and garden plots. Everything you can craft and how to make it. [Full crafting guide →](/guides/crafting-guide)
+### Card System
+SpiritVale's primary power progression system. Slot cards into gear, combine for rarity upgrades, and farm efficiently. [Full card guide →](/guides/cards-guide)
 
 ---
 
-## What is Witchspire?
+## What is SpiritVale?
 
-Witchspire is an open-world, magic-based survival RPG built for 1-4 player co-op. Developed by Envar Games, it launched into Steam Early Access on June 10, 2026. You play as a fledgling witch exploring the fractured realms of Vyrs, Timberline Basin, Mira Isles, and the Shuddersands — collecting familiars, building your Hearth base, crafting gear, and hunting down powerful bosses.
+SpiritVale is a free-to-play, class-based MMORPG featuring seven base classes that evolve into eight advanced classes at Job Level 50. The game combines traditional MMO progression with a unique Card system for gear customization, Waystone fast travel, and a deep crafting economy.
 
-The game combines the resource loop of survival crafting with action-RPG combat. Your choice of Coven (class) defines your weapon (Spellblade or Wand) and your magic school (Lux, Crystal, Ethereal, Nature, Nox, or Astral).
+Key features include free class respecs, solo-friendly content, and extensive build customization through the Card slotting system. The game is currently in Early Access with regular content updates.
 
 ---
 
 ## Key Systems at a Glance
 
-- **6 Coven Classes** — Cloudpiercers, Starsmiths, Foretellers, Wildroots, Tomekeepers, Nightscribes
-- **25+ Familiars** — Common to Legendary rarity, each with unique combat and utility skills
-- **Hearth Base Building** — Upgradeable hub with crafting stations and Astral Projection mode
-- **Flight System** — Brooms + Flight Pillars for aerial traversal
-- **Luminary Skill Tree** — Permanent point allocation (no respec!)
-- **4 Major Regions** — Vyrs, Timberline Basin, Mira Isles, Shuddersands
-- **4 Bosses** — Al'uunian Golem, Shudder Matriarch, Lumi, Shudder
+- **7 Base Classes** — Knight, Warrior, Acolyte, Mage, Scout, Rogue, Summoner
+- **8 Advanced Classes** — Paladin, Berserker, Priest, Archmage, Sniper, Shinobi, Necromancer, Weaver
+- **Card System** — Slot cards into gear for stat bonuses; combine cards for rarity upgrades
+- **Waystone Fast Travel** — Activate obelisks across the map for permanent teleport points
+- **Free Respecs** — Waybinder NPC lets you reset all stats and skills at no cost
+- **Crafting Economy** — Gear crafting, refining, and player trading
+- **20+ Bosses** — Dungeon encounters through endgame raids
 
 ---
 
 ## Quick Start Links
 
-- [Join the official Steam Community](https://steamcommunity.com/app/witchspire)
-- [Report bugs on the Envar Games Discord](#)
-- [Check Steam for latest patch notes](https://store.steampowered.com/app/witchspire)
+- [Play Free on Steam](https://store.steampowered.com/app/spiritvale)
+- [Official Discord](#)
+- [Community Reddit](https://reddit.com/r/spiritvale)
 
 ---
 
-*This wiki is community-maintained and reflects game version v0.1.1d. Content may change as the game evolves through Early Access.*
+*This wiki is community-maintained and reflects the Early Access build. Content will be updated as the game evolves.*

@@ -1,18 +1,18 @@
 ---
-title: "Witchspire Wiki — Complete Guide Hub"
-description: "The ultimate community wiki for Witchspire — the co-op survival RPG by Envar Games. Find Coven guides, boss strategies, familiar database, crafting recipes and more."
+title: "The Mound Wiki — Complete Guide Hub"
+description: "The ultimate community wiki for The Mound: Omen of Cthulhu — the 1-4 player co-op extraction horror by ACE Team / NACON. Find weapons guides, enemy strategies, sanity system tips, contracts, extraction tactics and more."
 category: "Home"
-version: "0.1.1d"
-updated: "2026-06-29"
-keywords: ["Witchspire", "Witchspire wiki", "Witchspire guide", "Envar Games", "co-op survival RPG", "Steam early access"]
-related: ["beginner-guide", "best-coven-guide", "all-familiars-guide", "crafting-guide"]
+version: "1.0"
+updated: "2026-07-15"
+keywords: ["The Mound", "The Mound wiki", "The Mound Omen of Cthulhu", "ACE Team", "co-op horror extraction", "Lovecraftian game"]
+related: ["beginner-guide", "weapons-guide", "coop-strategy-guide", "extraction-guide"]
 ---
 
-# Witchspire Wiki — Complete Guide Hub
+# The Mound Wiki — Complete Guide Hub
 
-**Everything you need to master the co-op survival RPG by Envar Games.**
+**Everything you need to survive the Lovecraftian extraction horror by ACE Team / NACON.**
 
-Witchspire launched in Early Access on Steam on June 10, 2026. This wiki covers all core systems, strategies, and secrets for the current build (v0.1.1d). Whether you are a solo witch or running a 4-player coven, you will find practical, up-to-date information here.
+The Mound: Omen of Cthulhu launched on July 15, 2026 on Steam, PS5, and Xbox Series X|S. This wiki covers all core systems, strategies, and secrets for the launch build. Whether you are a solo conquistador or running a 4-player expedition, you will find practical, up-to-date information here.
 
 ---
 
@@ -21,64 +21,61 @@ Witchspire launched in Early Access on Steam on June 10, 2026. This wiki covers 
 | Guide | Best For | Difficulty |
 |-------|----------|------------|
 | [Beginner Guide](/guides/beginner-guide) | First-time players | Starter |
-| [Best Coven Guide](/guides/best-coven-guide) | Character creation | Starter |
-| [All Familiars Guide](/guides/all-familiars-guide) | Creature collecting | Reference |
-| [Hearth Upgrade Guide](/guides/hearth-upgrade-guide) | Base building | Intermediate |
-| [Main Quest Walkthrough](/guides/main-quest-walkthrough) | Story progression | Intermediate |
-| [Crafting Guide](/guides/crafting-guide) | Gear progression | Intermediate |
-| [Luminary Skill Tree Guide](/guides/luminary-skill-tree-guide) | Build optimization | Advanced |
-| [Spellblade vs Wand Guide](/guides/spellblade-vs-wand-guide) | Weapon choice | Intermediate |
-| [Flight Unlock Guide](/guides/flight-unlock-guide) | Mobility unlock | Intermediate |
-| [Vyrs Region Guide](/guides/vyrs-region-guide) | Exploration | Starter |
-| [Al'uunian Golem Boss Guide](/guides/alunean-golem-boss-guide) | First boss | Intermediate |
-| [Co-op Multiplayer Guide](/guides/coop-multiplayer-guide) | Team play | Starter |
+| [Weapons Guide](/guides/weapons-guide) | Loadout planning | Starter |
+| [Co-op Strategy Guide](/guides/coop-strategy-guide) | Team play | Starter |
+| [Extraction Guide](/guides/extraction-guide) | Surviving expeditions | Intermediate |
+| [Sanity Guide](/guides/sanity-guide) | Madness system | Intermediate |
+| [Enemy Guide](/guides/enemy-guide) | Combat tactics | Intermediate |
+| [Contracts Guide](/guides/contracts-guide) | Mission types | Intermediate |
+| [Controls & Settings Guide](/guides/controls-settings-guide) | PC/PS5/Xbox setup | Starter |
+| [Solo Guide](/guides/solo-guide) | Playing alone | Intermediate |
+| [Game Length Guide](/guides/game-length-guide) | Content overview | Starter |
 | [FAQ](/faq) | Quick answers | All |
-| [Tier List](/tier-list) | Meta analysis | Advanced |
 
 ---
 
 ## Featured Guides
 
-### Coven Guide
-Pick your path. Six unique Coven classes, each with distinct weapon and magic combos. [Read the full guide →](/guides/best-coven-guide)
+### Weapons Guide
+Master all 6 weapons — Crossbow, Flintlock Pistol, Matchlock Arquebus, and more. Best loadouts for every situation. [Read the full guide →](/guides/weapons-guide)
 
-### Familiar Database
-Catch, train, and evolve 25+ magical creatures across four rarity tiers. [Browse all Familiars →](/guides/all-familiars-guide)
+### Sanity System
+Understand the madness meter, hallucinations, and how to keep your crew sane in the New World. [Full sanity guide →](/guides/sanity-guide)
 
-### Boss Strategies
-From the Al'uunian Golem to the Shudder Matriarch — learn attack patterns, safe spots, and loot tables. [View boss guides →](/guides/alunean-golem-boss-guide)
+### Co-op Strategy
+Spatial Voice Chat, team composition, and communication tactics for 2-4 player squads. [View co-op guide →](/guides/coop-strategy-guide)
 
-### Crafting Recipes
-Workbenches, furnaces, alchemy circles, and garden plots. Everything you can craft and how to make it. [Full crafting guide →](/guides/crafting-guide)
+### Enemy Guide
+From forest creatures to Lovecraftian horrors — learn every enemy's attack patterns and weaknesses. [Browse enemies →](/guides/enemy-guide)
 
 ---
 
-## What is Witchspire?
+## What is The Mound: Omen of Cthulhu?
 
-Witchspire is an open-world, magic-based survival RPG built for 1-4 player co-op. Developed by Envar Games, it launched into Steam Early Access on June 10, 2026. You play as a fledgling witch exploring the fractured realms of Vyrs, Timberline Basin, Mira Isles, and the Shuddersands — collecting familiars, building your Hearth base, crafting gear, and hunting down powerful bosses.
+The Mound: Omen of Cthulhu is a 1-4 player cooperative PvE extraction horror game set in 1652 Chile, during the Spanish conquest era. Developed by ACE Team and published by NACON, it launched on July 15, 2026. You and your crew sail from the Galleon — your floating hub — into Lovecraftian wilderness, accept Contracts, explore hostile islands, and extract with loot before the forest consumes everything.
 
-The game combines the resource loop of survival crafting with action-RPG combat. Your choice of Coven (class) defines your weapon (Spellblade or Wand) and your magic school (Lux, Crystal, Ethereal, Nature, Nox, or Astral).
+The game combines extraction-shooter tension with psychological horror. Your Sanity meter is as important as your health bar — low sanity triggers hallucinations, fake chests, and false teammate voices. The forest is alive and reacts to noise, light, and violence.
 
 ---
 
 ## Key Systems at a Glance
 
-- **6 Coven Classes** — Cloudpiercers, Starsmiths, Foretellers, Wildroots, Tomekeepers, Nightscribes
-- **25+ Familiars** — Common to Legendary rarity, each with unique combat and utility skills
-- **Hearth Base Building** — Upgradeable hub with crafting stations and Astral Projection mode
-- **Flight System** — Brooms + Flight Pillars for aerial traversal
-- **Luminary Skill Tree** — Permanent point allocation (no respec!)
-- **4 Major Regions** — Vyrs, Timberline Basin, Mira Isles, Shuddersands
-- **4 Bosses** — Al'uunian Golem, Shudder Matriarch, Lumi, Shudder
+- **6 Weapons** — Crossbow, Flintlock Pistol, Matchlock Arquebus, Oil Lamp, Medallion, Healing Salves
+- **Sanity System** — Hallucinations, spatial voice distortion, sanity-restoring items
+- **Contract Board** — Mission types with varying objectives, difficulty, and risk levels
+- **Extraction Loop** — Deploy → Loot → Survive → Extract (lose everything if you fail)
+- **Spatial Voice Chat** — Distance and direction affect how clearly teammates can hear you
+- **Hidden Timer** — The forest "wakes up" over time, increasing enemy spawns
+- **4-Player Co-op** — Full campaign playable solo or with up to 3 friends
 
 ---
 
 ## Quick Start Links
 
-- [Join the official Steam Community](https://steamcommunity.com/app/witchspire)
-- [Report bugs on the Envar Games Discord](#)
-- [Check Steam for latest patch notes](https://store.steampowered.com/app/witchspire)
+- [The Mound: Omen of Cthulhu on Steam](https://store.steampowered.com/app/themound)
+- [Official NACON website](https://www.nacon.com)
+- [ACE Team developer page](https://www.aceteam.cl)
 
 ---
 
-*This wiki is community-maintained and reflects game version v0.1.1d. Content may change as the game evolves through Early Access.*
+*This wiki is community-maintained and reflects the launch version (1.0). Content will be updated as patches and updates are released.*
