@@ -1,0 +1,113 @@
+{
+  "builds": [
+    {
+      "game": "Witchspire",
+      "date": "2026-06-29",
+      "genre": "Co-op Survival RPG",
+      "template": "fresh build (first site)",
+      "guides": 20,
+      "keywords": 88,
+      "score": 16,
+      "issues": ["首次建站，模板从零搭建"],
+      "lessons": ["RPG 类 Tier List + Build 搜索量最高", "Co-op 攻略不可缺"],
+      "fixes_applied": []
+    },
+    {
+      "game": "Mistfall Hunter",
+      "date": "2026-07-01",
+      "genre": "PvPvE Extraction ARPG",
+      "template": "witchspirewiki derivative",
+      "guides": 25,
+      "keywords": 89,
+      "score": 17,
+      "issues": ["Root Directory 配置导致部署失败"],
+      "lessons": ["Extraction 类游戏 Build 攻略搜索量极高", "PvPvE 需要 solo + team 分开写"],
+      "fixes_applied": ["Root Directory 通过 API 修复"]
+    },
+    {
+      "game": "Echoes of Aincrad",
+      "date": "2026-07-07",
+      "genre": "Action JRPG",
+      "template": "witchspirewiki derivative",
+      "guides": 20,
+      "keywords": 107,
+      "score": 16,
+      "issues": ["GSC 验证文件延迟"],
+      "lessons": ["大 IP 游戏 Co-op 搜索量很高", "Demo 攻略意外热门"],
+      "fixes_applied": []
+    },
+    {
+      "game": "The Mound: Omen of Cthulhu",
+      "date": "2026-07-14",
+      "genre": "Co-op Horror Extraction",
+      "template": "aincradwiki",
+      "guides": 14,
+      "keywords": 46,
+      "score": 14,
+      "issues": ["Root Directory 导致部署失败", "模板残留严重（Aincrad 内容未清理）"],
+      "lessons": ["上线前 1 天建站关键词少，上线后逐渐增长", "模板复制后必须做残留清理"],
+      "fixes_applied": ["API 修复 Root Directory", "sed 批量替换模板残留"]
+    },
+    {
+      "game": "SpiritVale",
+      "date": "2026-07-12",
+      "genre": "MMORPG",
+      "template": "themoundwiki（最干净模板）",
+      "guides": 13,
+      "keywords": 116,
+      "score": 18,
+      "issues": ["Dashboard 新增站点不显示（fetchSiteData 返回 null）"],
+      "lessons": ["MMORPG 关键词极多（116）", "fetchSiteData 不能用 null，应返回零填充数据", "Free-to-Play 游戏搜索量高于付费游戏"],
+      "fixes_applied": ["修复 fetchSiteData 返回零填充数据"]
+    },
+    {
+      "game": "Skills & Raids",
+      "date": "2026-07-15",
+      "genre": "Party-based Extraction RPG",
+      "template": "themoundwiki",
+      "guides": 13,
+      "keywords": 20,
+      "score": 12,
+      "issues": ["游戏名太通用导致关键词噪声率 ~60%", "单人开发者，游戏体量不确定"],
+      "lessons": ["通用名称的游戏需要更长尾的标题策略", "单人开发游戏搜索量上限低"],
+      "fixes_applied": []
+    }
+  ],
+  "knownIssues": [
+    {
+      "id": "root-directory-double-path",
+      "description": "Vercel 项目 Root Directory 与 CLI cwd 叠加导致部署 404",
+      "fix": "部署前 API 清空 rootDirectory，部署后恢复",
+      "frequency": 5
+    },
+    {
+      "id": "null-site-filter",
+      "description": "Dashboard fetchSiteData 返回 null 导致新站点不显示",
+      "fix": "返回零填充数据而非 null",
+      "status": "fixed",
+      "frequency": 1
+    },
+    {
+      "id": "template-residual",
+      "description": "模板复制后 Header/Footer/Metadata 残留原站名称",
+      "fix": "sed 批量替换 + 手动检查",
+      "frequency": 3
+    },
+    {
+      "id": "npm-install-slow",
+      "description": "npm install 耗时 10-20 分钟",
+      "fix": "后台运行，不阻塞其他操作",
+      "frequency": 6
+    }
+  ],
+  "bestTemplates": {
+    "cleanest": "themoundwiki",
+    "note": "themoundwiki 是最干净的模板，残留最少。aincradwiki 和 witchspirewiki 残留较多，不推荐作为模板。"
+  },
+  "genreInsights": {
+    "MMORPG": { "avgKeywords": 116, "topGuides": ["tier list", "classes", "leveling"] },
+    "Extraction": { "avgKeywords": 52, "topGuides": ["builds", "weapons", "extraction"] },
+    "RPG": { "avgKeywords": 88, "topGuides": ["builds", "beginner", "weapons"] },
+    "Horror": { "avgKeywords": 46, "topGuides": ["guide", "co-op", "weapons"] }
+  }
+}

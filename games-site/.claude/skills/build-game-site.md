@@ -1,264 +1,290 @@
 ---
 name: build-game-site
-description: 按 SOP 全流程自动化新建游戏攻略站。输入游戏名，自动完成评估→关键词收割→建站→部署→Dashboard 接管。
+description: L2 半自主 Agent — 按 SOP 全流程自动化新建游戏攻略站。自动评估→关键词→建站→部署→Dashboard。含自动纠错和构建记忆。
 arguments:
   - name: gameName
-    description: 目标游戏的 Steam 搜索名（如 "SpiritVale"、"Mistfall Hunter"）
+    description: 目标游戏的 Steam 搜索名（如 "SpiritVale"）
     required: true
 ---
 
-# Build Game Site Agent
+# Build Game Site — L2 Semi-Autonomous Agent
 
-> 基于 `游戏攻略站上线SOP.md` 的自动化执行版本。
-> 触发方式：`/build-game-site "游戏名"`
-
----
-
-## 前置检查
-
-在开始之前，先检查游戏是否已经建过站：
-
-```
-搜索 games-site/ 目录下是否存在包含游戏名的子目录
-如果存在 → 告知用户已有站点，询问是否要扩充内容
-如果不存在 → 继续
-```
+> 能力级别：L2 半自主（固定 Pipeline + 动态纠错 + 会话记忆 + 长期历史）
 
 ---
 
-## Phase 1: 评估（串行执行）
+## Agent Loop：入口
 
-### 1.1 快速 Wiki 覆盖检查
+### 第一步：读取历史记忆
+
+在开始任何操作之前，先读取长期记忆文件：
+
+```
+Read games-site/.agent/build-history.json（如果不存在，跳过）
+```
+
+从历史中提取：
+- 之前同类型游戏的成功经验
+- 踩过的坑（issues 字段）
+- 如果有同名游戏的历史记录，直接复用当时的 decisions
+
+### 第二步：确定项目名
+
+将游戏名转换为项目目录名：
+```
+{gameName} → 小写 + 去特殊字符 + 加 wiki 后缀
+例：SpiritVale → spiritvalewiki
+```
+
+检查 games-site/ 下是否已存在同名目录，存在则提示用户。
+
+---
+
+## Phase 1: 评估
+
+### 1.1 Wiki 覆盖检查
 
 ```
 WebSearch "{gameName} wiki"
-WebSearch "{gameName} fandom"
-如果搜索结果显示已有独立 Wiki 站 → 不推荐建站
-如果搜索结果只有零散攻略/新闻 → 继续
+WebSearch "{gameName} fandom guide"
 ```
 
-### 1.2 搜索趋势验证
+### 1.2 搜索趋势 + 游戏信息
 
 ```
-WebSearch "{gameName} Steam release date review"
-从搜索结果中提取：
-- 开发商规模（大厂/中型/独立）
-- 发售时间
-- Steam 评价
-- 游戏类型（RPG/动作/生存/合作…）
+WebSearch "{gameName} Steam release date gameplay review"
 ```
 
-### 1.3 决策输出
+从结果中提取：开发商、发售日、游戏类型、Steam 评价
 
-按 SOP 1.3 的四维评分，输出简洁评估：
+### 1.3 四维打分
 
-```
-| 维度 | 评分 | 说明 |
+| 维度 | 权重 | 评分 |
 |------|------|------|
-| 搜索需求结构 | X/5 | 有 how to / best build / tier list / guide 类搜索吗 |
-| 生命周期 | X/5 | 新发售(5)/稳定期(4-3)/过气(1) |
-| 内容可扩展性 | X/5 | 有职业/Boss/装备/更新系统吗 |
-| 竞争结构 | X/5 | Wiki 覆盖情况 |
+| 搜索需求结构 | ⭐5 | 有 how to / best / tier list / guide 类搜索吗？ |
+| 生命周期 | ⭐4 | 新发售(5) / 稳定期(3-4) / 过气(1) |
+| 内容可扩展性 | ⭐4 | 有职业/Boss/装备/更新系统？能拆出多少篇？ |
+| 竞争结构 | ⭐3 | Wiki 覆盖情况 |
 
-总评：X/20
-≥ 15 → 推荐建站 | 10-14 → 可做但不优先 | < 10 → 不推荐
+### 1.4 评估层：自动决策
+
+```
+总评 ≥ 15 → 推荐，自动进入 Phase 2（不等待确认）
+总评 10-14 → 展示评估，等待用户确认
+总评 < 10 → 报告不推荐理由，终止
 ```
 
-**停止点**：输出评估后，询问用户是否继续。
+**停止点**：总评 10-14 时需要用户确认。
 
 ---
 
-## Phase 2: 关键词收割（串行执行）
+## Phase 2: 关键词收割
 
-### 2.1 收割
-
-用 10 个前缀轮询 Google Suggest API（通过代理）：
+### 2.1 代理检查
 
 ```
-确认代理可用：curl --max-time 5 --proxy http://127.0.0.1:1087 https://www.google.com
+curl --max-time 5 --proxy http://127.0.0.1:1087 https://www.google.com
+不通 → 提示 proxyon
+```
 
-如果代理不通 → 提示用户开启代理（proxyon）
-如果代理通过 → 执行收割脚本
+### 2.2 执行收割
 
+10 个前缀轮询，间隔 4 秒：
+
+```
 PREFIXES = ("", "how to ", "best ", "guide ", "weapons ", "beginner ", "build ", "solo ", "co op ", "tier list ")
-对每个 prefix 执行：
-  curl -s --max-time 30 --proxy http://127.0.0.1:1087 \
-    "https://suggestqueries.google.com/complete/search?client=chrome&q={prefix}{gameName}"
-  间隔 4 秒
 ```
 
-### 2.2 保存与分类
+### 2.3 评估层：自动检查收割质量
 
-将结果去重排序，分类保存到 `keyword-results/{GameName}.md`。
+```
+检查项：
+□ 收割词数 ≥ 20？ → 通过
+□ 收割词数 5-19？ → 部分成功，补一轮重试
+□ 收割词数 < 5？ → 代理可能限速，等 60s 重试
+□ 收割词中是否包含游戏名？ → 不包含可能是名称太通用，标记警告
+```
 
-### 2.3 关键词摘要
+自动重试最多 2 次。全部失败则降级为 WebSearch 间接获取。
 
-输出 Top 10 高频搜索词，按类别简要统计（how-to X 条 / best X 条 / guide X 条…）。
+### 2.4 保存
 
-**停止点**：输出关键词摘要后，询问用户是否继续建站。
+保存到 `keyword-results/{GameName}.md`，分类统计。
+
+**停止点**：收割词数 > 50 时自动继续；≤ 50 时展示结果等待确认。
 
 ---
 
 ## Phase 3: 并行建站
 
-> 此阶段所有子任务同时启动，用 `TaskCreate` 跟踪进度。
+> 启动前先读取历史记忆，找同类型游戏的成功模板
 
-### 子 Agent A：项目初始化
+### 3.1 子 Agent 启动
 
-```
-1. 复制 themoundwiki 模板到 games-site/{gamename}wiki/
-2. 清理旧内容：rm -rf content/guides/*.md .vercel/ node_modules/
-3. 更新配置文件：
-   - lib/seo-config.ts → 改 name/description/url
-   - package.json → 改 name
-   - lib/schema.ts → 改 VideoGame schema
-   - 用 sed 批量替换 Header/Footer/Metadata 中的游戏名
-4. 创建首页 app/page.tsx → 游戏名 + 特色攻略卡片 + FAQ
-5. 创建 FAQ 页 app/faq/page.tsx
-6. 创建 Tier List 页 app/tier-list/page.tsx
-7. 更新 Guides Hub 页 app/guides/page.tsx
-8. 启动 npm install（后台运行）
-```
-
-### 子 Agent B：撰写 10 篇首发攻略
+同时启动 4 个子 Agent：
 
 ```
-基于 Phase 2 关键词收割结果，撰写以下 10 篇：
-1. beginner-guide.md — 新手入门
-2. weapons-guide.md — 武器/装备指南
-3. classes-guide.md — 职业/角色指南
-4. builds-guide.md — Build 推荐
-5. tier-list.md — 强度排行
-6. bosses-guide.md — Boss 攻略
-7. crafting-guide.md — 制作系统
-8. solo-guide.md — 单人指南
-9. co-op-guide.md — 联机指南
-10. faq.md — 常见问题
-
-每篇要求：
-- Frontmatter：title/description/category/version/updated/keywords/related
-- 英文 500-1200 字
-- 结构化表格+列表
-- 每篇末尾 3-5 个内链
-- 版本标注
+Agent A: 项目初始化 + 配置
+Agent B: 写 10 篇攻略（基于 Phase 2 关键词）
+Agent C: 模板残留清理
+Agent D: SEO 验证
 ```
 
-### 子 Agent C：模板残留清理检查
+每个子 Agent 执行前，从历史记忆中提取：
+- "上次这个类型的游戏建站，有什么问题？"
+- "上次哪个模板最稳定？"
+
+### 3.2 评估层：自动检查 + 修复
+
+全部子 Agent 完成后，执行评估：
 
 ```
-在项目初始化和内容创建完成后执行：
-
-1. Header.tsx — 检查站点名称是否为 {gamename} Wiki
-2. Footer.tsx — 检查版权信息是否包含游戏名
-3. app/faq/page.tsx — 检查 FAQ 内容是否为 {gamename} 相关
-4. app/guides/page.tsx — 检查描述和标题
-5. app/tier-list/page.tsx — 检查 Tier List 内容
-6. lib/metadata.ts — 检查 keywords 数组
-7. content/home-content.md — 检查首页文案
-8. content/guides/*.md — 检查是否所有文章 frontmatter 都正确
-
-如果发现残留，用 sed 或 Edit 批量替换。
+检查项：
+□ npm run build 通过？
+□ 攻略文件数 ≥ 10？
+□ 每篇攻略都有 frontmatter？（title/description/keywords/related）
+□ Header/Footer 中没有残留的模板站名称？
+□ metadata.ts keywords 数组已更新？
+□ sitemap.ts 中的 URL 已更新？
+□ 无空文件（文件大小 > 100 字节）？
 ```
 
-### 子 Agent D：SEO 验证
+任何检查不通过 → 自动修复 → 重新评估。修复失败 → 输出具体问题列表，等待用户介入。
 
+### 3.3 工作记忆更新
+
+在上下文中记录：
 ```
-在项目初始化和内容创建完成后执行：
-
-1. 检查 sitemap.ts → SITE_CONFIG.url 是否正确
-2. 检查 robots.ts → sitemap URL 是否正确
-3. 检查 metadata.ts → 默认 title/description/keywords
-4. 检查 layout.tsx → Header + Footer + JsonLd + GA 组件是否都引入
-5. 检查 guides/[slug]/page.tsx → canonical URL 生成逻辑
+本 Phase 使用的模板：{template_name}
+本 Phase 写的攻略数：{count}
+本 Phase 遇到并修复的问题：[列表]
 ```
 
 ---
 
-## Phase 4: 构建与部署（串行执行）
+## Phase 4: 构建与部署
 
 ### 4.1 构建验证
 
 ```
-cd {project} && npm run build
-如果构建失败 → 修复错误后重试
-如果构建成功 → 继续
+npm run build → 检查输出
+失败 → 分析错误日志 → 自动修复 → 重新构建
+3 次失败 → 停止，输出错误日志
 ```
 
 ### 4.2 Vercel 部署
 
 ```
-cd {project} && rm -rf .vercel && npx vercel --prod --yes --token $TOKEN
+npx vercel --prod --yes --token {TOKEN}
+失败 → 检查 Token 是否过期 → 提示用户
 ```
 
 ### 4.3 GA4 + GSC
 
 ```
-1. 复制 GSC 验证文件：cp 其他站/public/google12f8715471cef7b7.html {project}/public/
-2. 更新 GoogleAnalytics.tsx → GA4 ID（询问用户提供，或使用已有配置）
-3. 重新构建 + 部署
+复制 GSC 验证文件 → 更新 GA4 ID → 重新部署
 ```
 
 ### 4.4 部署验证
 
 ```
-curl 检查：
-- 首页 https://{project}.vercel.app → 200
-- sitemap → 200 + 有效 XML
-- robots.txt → 200
-- GSC 验证文件 → 200
+检查首页 → sitemap → robots.txt → GSC 验证文件
 ```
 
-**停止点**：部署完成后，输出站点信息摘要，询问是否继续收尾工作。
+### 4.5 评估层
+
+```
+□ 首页返回 200？
+□ sitemap.xml 可访问且 URL 正确？
+□ robots.txt 指向正确 sitemap？
+□ 无明显的模板残留（检查首页 HTML 是否包含正确游戏名）？
+```
 
 ---
 
-## Phase 5: 收尾（串行执行）
+## Phase 5: 收尾
 
-### 5.1 更新 Dashboard
+### 5.1 Dashboard 更新
 
-```
-编辑 dashboard/lib/sites.ts，在 SITES 数组中添加：
-{
-  name: '{GameName} Wiki',
-  propertyId: 'REPLACE_ME',  // 询问用户提供
-  gaId: 'G-XXXXXXXXXX',       // 询问用户提供
-}
-重新部署 Dashboard
-```
+编辑 `dashboard/lib/sites.ts`，添加新站点。提醒用户提供 GA4 Property ID。
 
 ### 5.2 Git 提交
 
 ```
-cd /Users/admin/How-to-Make-Money
-git add games-site/{project} games-site/keyword-results/{GameName}.md
-git add games-site/dashboard/lib/sites.ts  # 如果更新了 Dashboard
-git commit -m "feat: {GameName} Wiki — 10 guides + keywords + deployed"
-git push
+git add → git commit → git push
 ```
 
-### 5.3 输出收尾清单
+### 5.3 长期记忆写入
+
+创建/更新 `.agent/build-history.json`：
+
+```json
+{
+  "game": "{GameName}",
+  "date": "今天日期",
+  "genre": "{游戏类型}",
+  "template": "{使用的模板}",
+  "guides": {攻略数},
+  "keywords": {关键词数},
+  "score": {四维总分},
+  "decisions": {
+    "auto_continue_phase2": true,
+    "auto_continue_phase3": false
+  },
+  "issues": ["本构建中遇到的问题"],
+  "lessons": ["本构建中学到的经验"],
+  "fixes_applied": ["自动修复了哪些问题"]
+}
+```
+
+### 5.4 收尾清单
 
 ```
-✅ {GameName} Wiki 已上线
+✅ {GameName} Wiki 已上线 — https://{project}.vercel.app
 
-后续需你手动完成：
-1. GSC：添加 https://{project}.vercel.app → HTML 文件验证 → 提交 sitemap
-2. GA4：创建新的 GA4 媒体资源 → 获取 Measurement ID 和 Property ID
-3. Dashboard：把 Property ID 填入 dashboard/lib/sites.ts
-4. 定期：每周一检查 GSC 数据，关注展现量变化
+需用户手动完成：
+1. GSC：添加属性 → HTML 验证 → 提交 sitemap
+2. GA4：获取 Property ID → 填入 dashboard/lib/sites.ts
+3. Dashboard：重新部署到 Vercel
 ```
 
 ---
 
-## 错误处理
+## 自动决策规则（升级核心）
 
-| 场景 | 处理方式 |
+本 Agent 在以下场景**自动决策、不等待用户**：
+
+| 条件 | 自动行为 |
 |------|---------|
-| 代理不通 | 提示用户执行 `proxyon` |
-| npm install 超时 | 重试最多 3 次，每次间隔 60s |
-| Vercel Token 过期 | 提示用户重新提供 Token |
-| 构建失败 | 分析错误日志，修复后重试 |
-| Google Suggest 全部超时 | 改用 WebSearch 间接获取关键词 |
-| 游戏名包含特殊字符 | 目录名只保留字母数字连字符 |
-| 子 Agent 超时 | 改用主 Agent 直接执行该任务 |
-| 模板残留 | 执行子 Agent C 的完整检查流程 |
+| 四维评分 ≥ 15 | 跳过确认，直接进入 Phase 2 |
+| 关键词 ≥ 50 个 | 跳过确认，直接进入 Phase 3 |
+| 构建失败 | 自动分析 + 修复，最多 3 次 |
+| frontmatter 缺失 | 自动补全 |
+| 模板残留检测到 | 自动替换 |
+| 收割词 < 5（代理问题） | 自动等待 60s 重试 |
+
+**需要用户确认的场景**：
+
+| 条件 | 原因 |
+|------|------|
+| 评分 10-14 | 可做可不做，需用户决策 |
+| 评分 < 10 | 不推荐，终止 |
+| 关键词 < 50 | 搜索需求弱，需确认 |
+| Vercel Token 过期 | 需要用户操作 |
+| 构建 3 次自动修复失败 | 需要人工介入 |
+| GA4 Property ID | 需要用户提供 |
+
+---
+
+## 错误处理矩阵
+
+| 错误 | 自动修复策略 | 最大重试 |
+|------|------------|---------|
+| 代理不通 | 提示 proxyon | — |
+| npm install 超时 | 等 60s 重试 | 3 次 |
+| Google Suggest 超时 | 换 SOCKS5 代理 | 2 次 |
+| 构建失败 | 分析日志 → 修复文件 | 3 次 |
+| Token 过期 | 提示用户 | — |
+| 部署路径叠加 | API 清 rootDirectory → 重试 | 1 次 |
+| 子 Agent 超时 | 主 Agent 直接执行 | — |
+| 收割词太少 | 降级 WebSearch | 1 次 |
