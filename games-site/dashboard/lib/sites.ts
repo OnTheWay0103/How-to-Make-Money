@@ -42,4 +42,9 @@ export const SITES: SiteConfig[] = [
     propertyId: '15277928982',
     gaId: 'G-393K5RDZ0B',
   },
+  {
+    name: 'MineGeon Wiki',
+    propertyId: 'REPLACE_WITH_PROPERTY_ID',
+    gaId: 'G-PLACEHOLDER',
+  },
 ];
