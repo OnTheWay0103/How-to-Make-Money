@@ -541,7 +541,52 @@ vercel env add NEXT_PUBLIC_GA_MEASUREMENT_ID production
 
 ---
 
-## 五、Vercel 部署
+## 五、发布流程：GitHub → Vercel
+
+> ⚠️ **这是强制双流程，两步都不能跳过。本地 build 通过 ≠ 线上部署成功。**
+
+### 发布两步走
+
+```
+Step 1: Git Commit + Push
+  → 代码保存到 GitHub 服务器
+  → 生成历史记录，可回溯
+
+Step 2: Vercel 部署
+  → 代码推送到 Vercel 生产环境
+  → 网站更新为用户可见的最新版本
+```
+
+**为什么两步都必须做：**
+
+| 只做一步的后果 | |
+|------|------|
+| 只 push 不部署 | 代码在 GitHub 上，但网站没更新。用户看不到新内容 |
+| 只部署不 push | 网站更新了，但代码没保存。`git reset --hard` 会**永久丢失**所有本地改动 |
+
+**真实踩坑记录**：Dinoblade Wiki 建站后只部署了 Vercel，但 git push 因冲突失败。后续 `git reset --hard` 导致整个项目文件丢失，需重建。
+
+**正确流程（不可省略任何一步）**：
+
+```bash
+# Step 1: 提交到 GitHub（必须）
+git add games-site/{new-project}
+git commit -m "feat: {description}"
+git push
+
+# Step 2: 部署到 Vercel（必须）
+cd {new-project}
+vercel --prod --yes
+```
+
+**验证清单**：
+
+- [ ] `git log --oneline -3` 显示最新 commit
+- [ ] `git push` 返回成功（无 rejected 错误）
+- [ ] Vercel 部署返回 `Aliased https://{project}.vercel.app`
+- [ ] 浏览器访问首页返回 200
+
+---
 
 ### 5.1 首次部署
 
