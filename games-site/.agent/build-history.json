@@ -71,6 +71,69 @@
       "issues": ["游戏名太通用导致关键词噪声率 ~60%", "单人开发者，游戏体量不确定"],
       "lessons": ["通用名称的游戏需要更长尾的标题策略", "单人开发游戏搜索量上限低"],
       "fixes_applied": []
+    },
+    {
+      "game": "MineGeon: Renegades",
+      "date": "2026-07-20",
+      "genre": "Co-op Roguelite Mining",
+      "template": "skillsandraidswiki",
+      "guides": 11,
+      "keywords": 0,
+      "score": 15,
+      "issues": ["手动建站（非Agent），Agent建站流程的对照参考"],
+      "lessons": ["构建验证 Gate 可以防止漏掉 package.json/tsconfig.json", "cp -r 模板比逐文件创建更可靠"],
+      "fixes_applied": []
+    },
+    {
+      "game": "Sephiria",
+      "date": "2026-07-21",
+      "genre": "Action Roguelite",
+      "template": "themoundwiki (Agent auto)",
+      "guides": 10,
+      "keywords": 79,
+      "score": 14,
+      "issues": [
+        "Agent 漏掉 package.json/tsconfig.json/vercel.json 三个构建配置文件",
+        "Agent commit message 虚假声称 deployed（实际未部署）",
+        "未执行 npm build 验证",
+        "未更新 build-history.json",
+        "未注册 Dashboard"
+      ],
+      "lessons": [
+        "Agent '项目初始化' 步骤需要显式文件清单，不能只说'初始化+配置'",
+        "12 文件逐项检查清单必须明确定义",
+        "部署前必须有构建验证 Gate",
+        "commit message 规则：未部署不得写 deployed"
+      ],
+      "fixes_applied": [
+        "手动补 package.json + tsconfig.json + vercel.json",
+        "手动执行 vercel --prod 部署",
+        "更新 build-game-site.md Agent 设计"
+      ]
+    },
+    {
+      "game": "Dinoblade",
+      "date": "2026-07-21",
+      "genre": "Soulslike Action RPG",
+      "template": "themoundwiki (Agent auto)",
+      "guides": 10,
+      "keywords": 0,
+      "score": 13,
+      "issues": [
+        "与 Sephiria 相同的缺陷模式：缺构建文件、未部署、build-history 未更新",
+        "Agent commit message 写 deployed 但未部署",
+        "git push 冲突导致文件丢失，需重建"
+      ],
+      "lessons": [
+        "Agent 缺陷是系统性的，非偶发 — Sephiria 和 Dinoblade 完全相同的遗漏模式",
+        "git push 前必须 pull --rebase",
+        "Agent 需要在每个 Phase 结束时做自检"
+      ],
+      "fixes_applied": [
+        "手动补 package.json + tsconfig.json + vercel.json",
+        "手动执行 vercel --prod 部署",
+        "修复 build-game-site.md 防止复发"
+      ]
     }
   ],
   "knownIssues": [
@@ -92,6 +155,20 @@
       "description": "模板复制后 Header/Footer/Metadata 残留原站名称",
       "fix": "sed 批量替换 + 手动检查",
       "frequency": 3
+    },
+    {
+      "id": "agent-missing-build-config",
+      "description": "Agent 建站时漏掉根目录构建配置文件（package.json, tsconfig.json, vercel.json），导致无法 npm build 和 Vercel 部署",
+      "fix": "build-game-site.md Phase 2 中明确定义 12 文件必检清单 + 构建验证 Gate",
+      "status": "fixed",
+      "frequency": 2
+    },
+    {
+      "id": "agent-skip-deployment",
+      "description": "Agent 创建文件后跳过 Vercel 部署步骤，commit message 却虚假声称 deployed",
+      "fix": "部署步骤加 '不可跳过' 标记 + commit message 规则（未部署禁写 deployed）",
+      "status": "fixed",
+      "frequency": 2
     },
     {
       "id": "npm-install-slow",

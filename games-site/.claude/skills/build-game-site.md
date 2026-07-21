@@ -207,21 +207,137 @@ AI 自主决定：
 
 ```
 Agent A: 写 {N} 篇攻略（按内容优先级排序）
-Agent B: 项目初始化 + 配置
+Agent B: 项目初始化 + 配置（见下方文件清单）
 Agent C: 页面内容（首页/FAQ/TierList）+ 残留清理
 ```
 
-完成后执行 **12 文件逐项检查**。
+#### Agent B 项目初始化 — 必建文件清单
 
-### 部署 + 收尾（强制两步）
+> ⚠️ 以下 **12 个文件** 缺一不可。Agent B 必须逐个确认存在。
+
+**根目录（3 个构建配置文件）**：
+
+| # | 文件 | 来源 | 说明 |
+|---|------|------|------|
+| 1 | `package.json` | 从模板复制，改 `name` 字段 | npm 依赖 + 构建脚本 |
+| 2 | `tsconfig.json` | 从模板复制 | TypeScript 编译配置 |
+| 3 | `vercel.json` | 从模板复制 | Vercel 部署配置（regions/headers） |
+
+**lib/ 目录（4 个配置/工具文件）**：
+
+| # | 文件 | 说明 |
+|---|------|------|
+| 4 | `lib/seo-config.ts` | 站点名、URL、GA ID |
+| 5 | `lib/metadata.ts` | 全局 SEO metadata |
+| 6 | `lib/schema.ts` | JSON-LD 结构化数据（VideoGame/FAQ/Article） |
+| 7 | `lib/guides.ts` | 指南加载器（frontmatter 解析） |
+
+**app/ 目录（5 个核心页面文件）**：
+
+| # | 文件 | 说明 |
+|---|------|------|
+| 8 | `app/layout.tsx` | 根布局，引用 Header/Footer/GA |
+| 9 | `app/page.tsx` | 首页（featured guides + FAQ） |
+| 10 | `app/faq/page.tsx` | FAQ 专用页 |
+| 11 | `app/tier-list/page.tsx` | Tier List 专用页 |
+| 12 | `app/robots.ts` | robots.txt（指向 sitemap） |
+
+**其余文件**（也必需但不能漏）：
+
+| 类型 | 文件 |
+|------|------|
+| 组件 | `components/Header.tsx`, `Footer.tsx`, `GoogleAnalytics.tsx`, `GuideCard.tsx`, `GuideLayout.tsx`, `JsonLd.tsx`, `ReactMarkdown.tsx`, `RelatedGuides.tsx`, `TableOfContents.tsx`, `VersionBadge.tsx`, `FAQ.tsx` |
+| 配置 | `next.config.ts`, `postcss.config.mjs`, `eslint.config.mjs`, `.gitignore` |
+| 内容 | `content/home-content.md` + `content/guides/*.md`（{N} 篇攻略） |
+| 页面 | `app/sitemap.ts`, `app/guides/page.tsx`, `app/guides/[slug]/page.tsx`, `app/globals.css` |
+
+#### 12 文件逐项检查清单
+
+> ⚠️ 建站完成后、提交前，必须逐项确认以下 12 项。任何一项不通过 = 不能提交。
 
 ```
-1. Vercel Token 预检
-2. npm build → 部署 Vercel
-3. git add → commit → push
-4. 更新 build-history.json
-5. 输出用户待办清单
+[ ] 1. package.json 存在且 name 字段正确（非模板残留名）
+[ ] 2. tsconfig.json 存在
+[ ] 3. vercel.json 存在
+[ ] 4. lib/seo-config.ts url 为正确的域名（https://{name}wiki.vercel.app）
+[ ] 5. lib/seo-config.ts googleAnalyticsId 已设置（非 "REPLACE_ME" 则警告）
+[ ] 6. lib/schema.ts videoGameSchema 中游戏名/Steam URL/开发者正确
+[ ] 7. components/Header.tsx 站点名正确（非模板残留 "SpiritVale Wiki"）
+[ ] 8. components/Footer.tsx 版权文字正确
+[ ] 9. app/page.tsx FEATURED_GUIDES 和 FAQ_ITEMS 为当前游戏内容
+[ ] 10. app/faq/page.tsx FAQ 内容为当前游戏（非模板残留）
+[ ] 11. app/tier-list/page.tsx 内容为当前游戏
+[ ] 12. content/home-content.md 存在且描述当前游戏
 ```
+
+**残留检查补充**（grep 扫描）：
+```bash
+grep -r "SpiritVale\|Witchspire\|mistfall\|aincrad\|The Mound\|Skills & Raids" {project}/ --include="*.tsx" --include="*.ts" | grep -v node_modules
+```
+任何匹配 = 残留未清理。
+
+---
+
+### 构建验证 Gate（提交前强制）
+
+> ⚠️ **不通过此 Gate 不得提交。** 本地 build 通过是部署的前提。
+
+```bash
+cd {project}
+npm install        # 必须成功
+npm run build      # 必须成功，exit code 0
+```
+
+**build 输出中必须看到**：
+- `✓ Compiled successfully`
+- 所有页面路由（`/`, `/faq`, `/guides`, `/guides/[slug]`, `/tier-list`, `/sitemap.xml`, `/robots.txt`）
+- `Route (app)` 表格中无 Error 标记
+
+**如果 build 失败**：
+1. 读取错误信息
+2. 自动修复（最多 3 次）
+3. 3 次仍失败 → 停止，报告用户具体错误
+
+### 部署 + 收尾（强制步骤，不可跳过）
+
+> ⚠️ **以下每一步都必须执行，且上一步成功后才能进入下一步。**
+> **禁止行为**：写完文件就 commit、commit message 写 "deployed" 但未实际部署。
+
+```
+Step 1: Git Commit + Push（必须）
+  git add {project}/
+  git commit -m "feat({name}wiki): {description}"
+  git push
+  验证：git log --oneline -1 确认 commit 存在
+
+Step 2: Vercel 部署（必须）
+  cd {project}
+  vercel --prod --yes
+  验证：输出中看到 "Aliased https://{name}wiki.vercel.app"
+
+Step 3: 验证部署（必须）
+  确认部署输出中 readyState = "READY"
+  确认 alias 指向正确的 {name}wiki.vercel.app
+
+Step 4: 更新 build-history.json（必须）
+  追加 build 记录到 games-site/.agent/build-history.json
+  包含：game, date, genre, template, guides, keywords, score, issues, lessons
+
+Step 5: Dashboard 注册（必须）
+  编辑 games-site/dashboard/lib/sites.ts
+  添加新站点的 SiteConfig（name, propertyId, gaId）
+  GA ID 未创建时用 "G-PLACEHOLDER" 占位
+
+Step 6: 输出用户待办清单
+  - [ ] 创建 GA4 Property → 更新 seo-config.ts 中的 googleAnalyticsId
+  - [ ] GSC 提交 sitemap（Vercel 部署后自动生效）
+  - [ ] 更新 Dashboard GA4 Property ID
+```
+
+**Commit Message 规则**：
+- 实际部署成功 → 写 `deployed`
+- 未部署 → 写 `scaffold` 或 `init`，**禁止**写 `deployed`
+- 示例：`feat(sephiriawiki): scaffold site — 10 guides, vercel pending`
 
 ---
 
