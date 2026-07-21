@@ -9,19 +9,36 @@
     <key>ProgramArguments</key>
     <array>
         <string>/bin/zsh</string>
-        <string>/Users/zhaoq0103/DEV/Personal/How-to-Make-Money/AITaskMgr/auto-build-site.sh</string>
+        <string>/Users/zhaoq0103/DEV/Personal/How-to-Make-Money/games-site/auto-build-site.sh</string>
     </array>
 
-    <!-- 每周二上午 10:00 运行（Steam 周榜在这天更新） -->
+    <!--
+      每天运行两次，以美国东部时间 (ET = UTC-4 夏令时) 为准：
+
+      🌅 Morning run: 10 AM ET  = 14:00 UTC = 22:00 China
+         覆盖美国用户早间搜索高峰 + Steam 日间内容更新
+
+      🌙 Evening run: 7 PM ET   = 23:00 UTC = 07:00 China (次日)
+         覆盖美国晚间游戏高峰（下班/放学后打游戏、搜攻略）
+    -->
+
     <key>StartCalendarInterval</key>
-    <dict>
-        <key>Weekday</key>
-        <integer>3</integer>  <!-- 1=周日, 2=周一, 3=周二 -->
-        <key>Hour</key>
-        <integer>10</integer>
-        <key>Minute</key>
-        <integer>0</integer>
-    </dict>
+    <array>
+        <!-- Morning: 每天 22:07 (北京时间) = 10:07 AM ET -->
+        <dict>
+            <key>Hour</key>
+            <integer>22</integer>
+            <key>Minute</key>
+            <integer>7</integer>
+        </dict>
+        <!-- Evening: 每天 07:07 (北京时间) = 7:07 PM ET -->
+        <dict>
+            <key>Hour</key>
+            <integer>7</integer>
+            <key>Minute</key>
+            <integer>7</integer>
+        </dict>
+    </array>
 
     <!-- 日志 -->
     <key>StandardOutPath</key>
@@ -40,7 +57,6 @@
         <string>en_US.UTF-8</string>
     </dict>
 
-    <!-- 如果 Mac 在休眠，醒来后补跑 -->
     <key>RunAtLoad</key>
     <false/>
 </dict>

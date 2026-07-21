@@ -14,8 +14,10 @@
 set -euo pipefail
 
 # --- 配置 ---
-MONOREPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-PROJECT_DIR="$MONOREPO_ROOT/games-site"
+# 脚本位于 games-site/ 目录下
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+PROJECT_DIR="$SCRIPT_DIR"
+MONOREPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 LOG_DIR="$HOME/Library/Logs/auto-build-site"
 LOG_FILE="$LOG_DIR/$(date +%Y-%m-%d_%H%M%S).log"
 DRY_RUN=false
