@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.games-site.auto-build-site</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/zsh</string>
+        <string>/Users/zhaoq0103/DEV/Personal/How-to-Make-Money/AITaskMgr/auto-build-site.sh</string>
+    </array>
+
+    <!-- 每周二上午 10:00 运行（Steam 周榜在这天更新） -->
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Weekday</key>
+        <integer>3</integer>  <!-- 1=周日, 2=周一, 3=周二 -->
+        <key>Hour</key>
+        <integer>10</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
+
+    <!-- 日志 -->
+    <key>StandardOutPath</key>
+    <string>/Users/zhaoq0103/Library/Logs/auto-build-site/stdout.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/zhaoq0103/Library/Logs/auto-build-site/stderr.log</string>
+
+    <!-- 环境变量 -->
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>HOME</key>
+        <string>/Users/zhaoq0103</string>
+        <key>PATH</key>
+        <string>/Users/zhaoq0103/.nvm/versions/node/v24.4.0/bin:/usr/local/bin:/usr/bin:/bin</string>
+        <key>LANG</key>
+        <string>en_US.UTF-8</string>
+    </dict>
+
+    <!-- 如果 Mac 在休眠，醒来后补跑 -->
+    <key>RunAtLoad</key>
+    <false/>
+</dict>
+</plist>
