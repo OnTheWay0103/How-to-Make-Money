@@ -86,10 +86,10 @@ log ""
 # --- 运行 Agent ---
 if [ "$DRY_RUN" = true ]; then
     log "🔍 运行游戏发现（仅搜索评估）..."
-    CLAUDE_PROMPT="/discover-games"
+    CLAUDE_PROMPT="Use the discover-games skill. Search for trending Steam games, check Wiki coverage, score candidates, output a discovery report. Do NOT build any sites."
 else
     log "🤖 运行全自动建站 Agent..."
-    CLAUDE_PROMPT="/build-game-site"
+    CLAUDE_PROMPT="Use the build-game-site skill in fully autonomous mode. Discover trending games, auto-select the highest-scoring candidate (score >= 15), evaluate, harvest keywords, build a complete wiki site with 10+ guides, deploy to Vercel, commit and push. Do not ask for confirmation."
 fi
 
 log "执行: claude -p '$CLAUDE_PROMPT' --permission-mode bypassPermissions"

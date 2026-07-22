@@ -52,7 +52,7 @@
         <key>HOME</key>
         <string>/Users/zhaoq0103</string>
         <key>PATH</key>
-        <string>/Users/zhaoq0103/.nvm/versions/node/v24.4.0/bin:/usr/local/bin:/usr/bin:/bin</string>
+        <string>/Users/zhaoq0103/.local/bin:/Users/zhaoq0103/.nvm/versions/node/v24.4.0/bin:/usr/local/bin:/usr/bin:/bin</string>
         <key>LANG</key>
         <string>en_US.UTF-8</string>
     </dict>
