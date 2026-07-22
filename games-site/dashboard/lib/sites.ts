@@ -47,4 +47,9 @@ export const SITES: SiteConfig[] = [
     propertyId: 'REPLACE_WITH_PROPERTY_ID',
     gaId: 'G-PLACEHOLDER',
   },
+  {
+    name: 'Echoes of Mystralia Wiki',
+    propertyId: 'REPLACE_WITH_PROPERTY_ID',
+    gaId: 'G-PLACEHOLDER',
+  },
 ];
