@@ -67,4 +67,9 @@ export const SITES: SiteConfig[] = [
     propertyId: 'PLACEHOLDER',
     gaId: 'G-PLACEHOLDER',
   },
+  {
+    name: 'Grain Rot Wiki',
+    propertyId: 'PLACEHOLDER',
+    gaId: 'G-PLACEHOLDER',
+  },
 ];
