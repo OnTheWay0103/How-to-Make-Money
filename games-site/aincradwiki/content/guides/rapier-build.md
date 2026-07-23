@@ -1,7 +1,7 @@
 ---
-title: 'Rapier Build Guide — Best Dexterity Critical Setup'
-description: 'Complete Rapier build guide for Echoes of Aincrad. Best Sword Skills, stat allocation, EX-Mods, parry timing tips, and solo boss strategies for the meta weapon.'
-keywords: ['rapier build', 'rapier guide', 'dexterity build', 'critical build', 'parry guide']
+title: 'Rapier Build Guide — Best Dexterity Critical Setup for Echoes of Aincrad'
+description: 'Complete Rapier build guide for Echoes of Aincrad. Best Sword Skills, stat allocation, and EX-Mods for the Dexterity Critical build. Master parry timing today.'
+keywords: ['rapier build', 'rapier guide', 'dexterity build', 'critical build', 'parry guide', 'rapier build guide', 'echoes of aincrad rapier', 'dex build', 'rapier stats', 'rapier sword skills', 'rapier ex mods', 'parry timing']
 category: Builds
 version: '1.0'
 updated: '2026-07-23'
@@ -9,13 +9,16 @@ related:
   - weapons-guide
   - builds-guide
   - bosses-guide
+  - leveling-guide
+  - ex-mod-guide
+  - beginner-guide
 ---
 
-## Why Play Rapier?
+## Why Play Rapier in Echoes of Aincrad?
 
-Rapier is the **highest DPS weapon** in Echoes of Aincrad when mastered. It combines long reach, fast attacks, and a parry counter system that creates massive damage windows. In the right hands, no other weapon matches its solo potential.
+A Rapier build in Echoes of Aincrad is the highest DPS Dexterity Critical weapon setup. This guide covers the best Sword Skills, stat allocation, EX-Mods, and parry timing for dominating solo and group content with the meta Rapier playstyle.
 
-## Core Mechanics
+## Rapier Core Mechanics & Parry System
 
 ### Parry Counter
 
@@ -34,7 +37,7 @@ Your bread-and-butter attack chain. Fast, long reach, builds combo meter.
 
 Multi-hit Sword Skill. Use during counter windows for maximum damage. Each hit can crit independently, making it devastating with high Dexterity.
 
-## Best Sword Skills
+## Best Rapier Sword Skills for Dexterity Builds
 
 | Skill | Type | When to Use |
 |-------|------|------------|
@@ -43,7 +46,7 @@ Multi-hit Sword Skill. Use during counter windows for maximum damage. Each hit c
 | **Guillotine** | Finisher | When enemy is below 30% HP |
 | **Piercing Ray** | Ranged poke | Safe damage, kite enemies |
 
-## Stat Priority
+## Rapier Stat Priority for Critical Builds
 
 | Stat | Investment | Why |
 |------|-----------|-----|
@@ -53,7 +56,7 @@ Multi-hit Sword Skill. Use during counter windows for maximum damage. Each hit c
 
 **Do not invest in Strength.** Rapier scales almost entirely with Dexterity.
 
-## Best EX-Mods
+## Best EX-Mods for Rapier Builds
 
 | Priority | EX-Mod | Effect |
 |----------|--------|--------|
@@ -62,9 +65,9 @@ Multi-hit Sword Skill. Use during counter windows for maximum damage. Each hit c
 | 3 | Reduced Stamina Cost | -20% SP consumption |
 | 4 | Attack Speed Up | +12% attack speed |
 
-**God roll EX-Mod set**: Crit Rate + Counter Damage + Stamina Cost + Attack Speed.
+**God roll EX-Mod set**: Crit Rate + Counter Damage + Stamina Cost + Attack Speed. Visit the [EX-Mod Guide](/guides/ex-mod-guide/) for crafting recipes.
 
-## Parry Timing Guide
+## Rapier Parry Timing Guide for Beginners
 
 ### Visual Cue
 The blue flash appears about 0.3 seconds before the attack lands. Press parry when you see it — not before, not after.
@@ -82,11 +85,11 @@ The blue flash appears about 0.3 seconds before the attack lands. Press parry wh
 ### Practice Routine
 1. Go to Floor 1 Forest
 2. Find a lone goblin
-3. Do not attack — only parry
+3. Do not attack — [only parry](/guides/leveling-guide/)
 4. Parry 10 times in a row without taking damage
 5. Now add attacks after each parry
 
-## Solo Boss Strategy
+## Rapier Solo Boss Strategy for Echoes of Aincrad
 
 The Rapier excels in 1v1 boss fights:
 
@@ -103,7 +106,7 @@ The Rapier excels in 1v1 boss fights:
 - **Learn the sound cue** — the blue flash has an accompanying audio ping. Use it.
 - **Star Splash has end lag** — do not use it if you might need to parry immediately after
 
-## Recommended Rapiers by Stage
+## Recommended Rapiers by Stage for Leveling
 
 Choosing the right rapier for your progression level matters more than raw stats. Each stage unlocks weapon tiers with distinct advantages.
 
@@ -117,7 +120,7 @@ Choosing the right rapier for your progression level matters more than raw stats
 
 **Upgrade tip**: Invest upgrade stones into Crystal Needle first — it carries you through mid-game and the crit rate bonus scales with your Dexterity investment.
 
-## Advanced Parry Techniques
+## Advanced Rapier Parry Techniques for Pros
 
 Mastering parry timing is the floor. These advanced techniques separate good rapier users from great ones.
 
@@ -150,7 +153,7 @@ A mind-game technique for PvP and aggressive humanoid enemies:
 
 If you miss a parry and are locked in recovery frames, a well-timed dodge cancels the recovery. The window is tight (0.2 seconds), but it saves you from eating a full combo. Spam dodge backward immediately after a missed parry.
 
-## Common Mistakes
+## Common Rapier Build Mistakes to Avoid
 
 Avoid these pitfalls that hold rapier players back.
 
@@ -209,4 +212,12 @@ Yes, but your role shifts. In solo play, you are the main DPS. In a party, the R
 - Star Splash becomes safer in group content because the boss's attention is split
 - Do not try to parry every attack in a group. You will pull aggro and get flattened
 
-Rapier groups well with Axe (tank) and Bow (ranged DPS) builds. Avoid pairing with another Rapier — two glass cannons without a tank struggle in higher floors.
+Rapier groups well with Axe (tank) and Bow (ranged DPS) builds. Avoid pairing with another Rapier — two glass cannons without a tank struggle in higher floors. See the [best builds guide](/guides/builds-guide/) for party composition tips.
+
+### What are the best EX-Mods for a Rapier build in Echoes of Aincrad?
+
+The best EX-Mods for a Rapier build are, in order of priority: Improved Critical Rate (+12% crit chance), Counter Damage Up (+20% damage during counter windows), Reduced Stamina Cost (-20% SP consumption), and Attack Speed Up (+12% attack speed). The god roll set combines all four, maximizing your damage output during parry counter windows while ensuring you have enough stamina to execute the full rotation. Check the [EX-Mod Guide](/guides/ex-mod-guide/) for detailed crafting information.
+
+### How do I practice parry timing for Rapier in Echoes of Aincrad?
+
+Start by finding a lone goblin on Floor 1 Forest. Do not attack — only parry. Your goal is 10 consecutive parries without taking damage. Once consistent, add a single Linear thrust after each successful parry. Progress to Dire Wolves (watch the leap animation), then Violet Fencers for tighter windows. The key visual cue is the blue flash appearing about 0.3 seconds before the attack lands — press parry when you see it, not before or after. Also learn the audio ping that accompanies the blue flash, as it helps in chaotic multi-enemy fights where visual cues are harder to track.

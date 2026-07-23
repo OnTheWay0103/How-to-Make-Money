@@ -1,7 +1,7 @@
 ---
-title: 'Greatsword Build Guide — Best Heavy Strength Setup'
-description: 'Complete Greatsword build guide for Echoes of Aincrad. Best Sword Skills, charge attack combos, stat allocation, EX-Mods, and AoE farming strategies.'
-keywords: ['greatsword build', 'greatsword guide', 'strength build', 'heavy build', 'charge attack']
+title: 'Greatsword Build Guide — Best Heavy Strength Setup for Echoes of Aincrad'
+description: 'Greatsword build guide for Echoes of Aincrad. Best Sword Skills, charge attack combos, and EX-Mods for the Heavy Strength build. Master AoE farming strategies.'
+keywords: ['greatsword build', 'greatsword guide', 'strength build', 'heavy build', 'charge attack', 'greatsword build guide', 'echoes of aincrad greatsword', 'strength build guide', 'greatsword stats', 'greatsword sword skills', 'greatsword ex mods', 'greatsword farming']
 category: Builds
 version: '1.0'
 updated: '2026-07-23'
@@ -9,13 +9,16 @@ related:
   - weapons-guide
   - builds-guide
   - leveling-guide
+  - bosses-guide
+  - ex-mod-guide
+  - beginner-guide
 ---
 
-## Why Play Greatsword?
+## Why Play Greatsword in Echoes of Aincrad?
 
-Greatsword is the **hardest-hitting weapon** in Echoes of Aincrad. Each swing is a commitment — but a single charged attack can end a fight. If you enjoy big numbers, patient combat, and devastating finishers, this is your weapon.
+A Greatsword build in Echoes of Aincrad is the hardest-hitting Heavy Strength weapon setup. This guide covers the best Sword Skills, charge attack combos, stat allocation, and EX-Mods for dominating with massive damage and AoE farming strategies.
 
-## Core Mechanics
+## Greatsword Core Mechanics & Charge Attack System
 
 ### Charge Attack
 
@@ -38,7 +41,7 @@ Heavy overhead slam. Highest single-hit damage in the game. Use against staggere
 
 Unlike shield weapons, Greatsword users dodge-roll instead of blocking. This is less safe but more mobile — use it to reposition for charge attacks.
 
-## Best Sword Skills
+## Best Greatsword Sword Skills for Strength Builds
 
 | Skill | Type | When to Use |
 |-------|------|------------|
@@ -47,7 +50,7 @@ Unlike shield weapons, Greatsword users dodge-roll instead of blocking. This is 
 | **Helm Breaker** | Gap closer | Close distance on ranged enemies |
 | **Earth Splitter** | Line AoE | Enemies in a row, corridor fights |
 
-## Stat Priority
+## Greatsword Stat Priority for Heavy Builds
 
 | Stat | Investment | Why |
 |------|-----------|-----|
@@ -57,7 +60,7 @@ Unlike shield weapons, Greatsword users dodge-roll instead of blocking. This is 
 
 **Do not invest in Dexterity.** Greatsword scales with Strength and has low base crit rate.
 
-## Best EX-Mods
+## Best EX-Mods for Greatsword Builds
 
 | Priority | EX-Mod | Effect |
 |----------|--------|--------|
@@ -66,9 +69,9 @@ Unlike shield weapons, Greatsword users dodge-roll instead of blocking. This is 
 | 3 | HP Recovery on Kill | Heal 8% HP per kill |
 | 4 | Stamina Recovery Up | +20% SP regen |
 
-**God roll EX-Mod set**: Charge Attack + Guard Break + HP on Kill + Stamina Recovery.
+**God roll EX-Mod set**: Charge Attack + Guard Break + HP on Kill + Stamina Recovery. Visit the [EX-Mod Guide](/guides/ex-mod-guide/) for crafting recipes.
 
-## Combat Flow
+## Greatsword Combat Flow for PvE Content
 
 ### Vs. Mobs (Farming)
 Charge attack → walk into pack → release → Cyclone to clean up survivors. HP Recovery on Kill keeps you topped off.
@@ -83,9 +86,9 @@ Charge attack → walk into pack → release → Cyclone to clean up survivors. 
 ### Vs. Fast Enemies (Goblins, Wolves)
 Do NOT charge. Use light attacks instead. Charge only when they are staggered or recovering from an attack.
 
-## Farming Strategy
+## Greatsword Farming Strategy for XP and Materials
 
-Greatsword is one of the best farming weapons thanks to AoE:
+Greatsword is one of the best farming weapons thanks to AoE — see the [Leveling Guide](/guides/leveling-guide/) for optimal XP routes:
 
 1. Find a mob-dense area (Floor 1 Forest goblin camp is ideal)
 2. Run in circles to group enemies together
@@ -111,7 +114,7 @@ Greatsword is one of the best farming weapons thanks to AoE:
 - **Do not charge against fast enemies** — you will get hit every time
 - **Weapon weight matters** — Greatsword is heavy. You cannot cancel animations. Commit to each swing.
 
-## Common Mistakes
+## Common Greatsword Build Mistakes to Avoid
 
 ### Over-Committing to Charges
 
@@ -137,7 +140,7 @@ EX-Mods are slotted to gear, not your character. When you upgrade to a new Great
 
 **Fix**: Every time you equip a new weapon, open the EX-Mod menu and slot your mods before heading out.
 
-## Gear Progression
+## Greatsword Gear Progression Guide by Stage
 
 | Stage | Recommended Greatsword | Floor / Source | Key Stat |
 |-------|----------------------|----------------|----------|
@@ -150,7 +153,7 @@ EX-Mods are slotted to gear, not your character. When you upgrade to a new Great
 
 **Upgrade Priority**: Weapon first, then EX-Mod slots, then armor. A fully upgraded Oni Splitter beats a base Titan's Edge every time.
 
-## Build Variants
+## Greatsword Build Variants for Every Playstyle
 
 ### Full DPS Greatsword (Glass Cannon)
 
@@ -198,4 +201,8 @@ Stagger buildup per hit depends on the enemy's stagger threshold and your Guard 
 
 ### Is Greatsword good for solo leveling?
 
-Greatsword is one of the best solo leveling weapons in the game. The AoE on charge attacks and Cyclone lets you clear mob packs faster than any single-target weapon. With HP Recovery on Kill, you effectively have infinite sustain. The only downside is boss fights take a bit longer since some bosses have few punish windows. Stick to the Tanky Greatsword variant while leveling and you will rarely die.
+Greatsword is one of the best solo leveling weapons in the game. The AoE on charge attacks and Cyclone lets you clear mob packs faster than any single-target weapon. With HP Recovery on Kill, you effectively have infinite sustain. The only downside is boss fights take a bit longer since some bosses have few punish windows. Stick to the [Tanky Greatsword variant](#tanky-greatsword-heavy-bruiser) while leveling and you will rarely die.
+
+### What are the best EX-Mods for a Greatsword build in Echoes of Aincrad?
+
+The best EX-Mods for a Greatsword build are, in order: Improved Charge Attack (+20% charge damage), Guard Break Up (+20% stagger buildup), HP Recovery on Kill (heal 8% HP per kill), and Stamina Recovery Up (+20% SP regen). The god roll set combines all four for maximum damage and sustain. Guard Break Up is mandatory for progressing past mid-game floors, as shielded enemies will bounce your attacks without it. HP Recovery on Kill enables infinite farming sessions without healing items. Check the [EX-Mod Guide](/guides/ex-mod-guide/) for detailed crafting information.

@@ -1,7 +1,7 @@
 ---
-title: 'Cardinal Rank & Progression System Guide'
-description: 'Deep dive into Echoes of Aincrad cardinal rank and progression. How Growth Points work, stat allocation strategy, and how to manage enemy scaling efficiently.'
-keywords: ['cardinal rank', 'progression guide', 'growth points', 'stat guide', 'enemy scaling']
+title: 'Progression Guide — Cardinal Rank System & Enemy Scaling for Echoes of Aincrad'
+description: 'Master the Cardinal Rank system in Echoes of Aincrad. Growth Points, stat allocation, and enemy scaling management explained. Complete progression guide.'
+keywords: ['cardinal rank', 'progression guide', 'growth points', 'stat guide', 'enemy scaling', 'echoes of aincrad progression', 'stat allocation', 'cardinal rank guide', 'enemy scaling guide', 'growth point guide', 'how to progress', 'stat priority']
 category: Progression
 version: '1.0'
 updated: '2026-07-23'
@@ -9,13 +9,16 @@ related:
   - beginner-guide
   - leveling-guide
   - builds-guide
+  - bosses-guide
+  - ex-mod-guide
+  - weapons-guide
 ---
 
-## Understanding Cardinal Rank
+## Understanding Cardinal Rank & Progression System
 
-Cardinal Rank is Echoes of Aincrad's global difficulty system. Think of it as the game's way of tracking your progress and adjusting the world accordingly.
+The Cardinal Rank system in Echoes of Aincrad is the game's global difficulty tracker that adjusts enemy scaling based on your progression. This guide explains how it works, how to manage Growth Points, and the best stat allocation strategy to stay ahead of enemy scaling.
 
-### How It Increases
+### How Cardinal Rank Increases
 
 Cardinal Rank goes up when you:
 - Complete main quest objectives
@@ -23,7 +26,7 @@ Cardinal Rank goes up when you:
 - Defeat floor bosses
 
 It does NOT increase from:
-- Killing normal enemies (farming is safe!)
+- Killing normal enemies ([farming is safe!](/guides/leveling-guide/))
 - Side quests
 - Exploration within already-discovered areas
 
@@ -37,7 +40,7 @@ It does NOT increase from:
 | Monster drops | Higher rarity materials, more Gyldenblood |
 | Smithy recipes | New EX-Mod options unlock |
 
-## Growth Points System
+## Growth Points System & Stat Allocation Guide
 
 Growth Points (GP) are earned by leveling up (defeating monsters). They are the core character progression mechanic.
 
@@ -62,7 +65,7 @@ For most builds, follow this investment ratio:
 
 Adjust based on your weapon and comfort level.
 
-## Managing Enemy Scaling
+## Managing Enemy Scaling & Cardinal Rank Progression
 
 ### The Scaling Problem
 
@@ -82,7 +85,7 @@ After every Cardinal Rank increase, run this checklist:
 
 If you notice enemies taking significantly more hits to kill after a rank-up, **stop advancing the main quest**. Farm your current area until you feel powerful again. Cardinal Rank only increases from main quests and discoveries — farming is always safe.
 
-## Progression Milestones
+## Cardinal Rank Progression Milestones for Echoes of Aincrad
 
 | Milestone | Cardinal Rank | Expected Stat Total | Weapon Rarity |
 |-----------|--------------|--------------------|---------------|
@@ -99,7 +102,7 @@ If you notice enemies taking significantly more hits to kill after a rank-up, **
 - **Farm before ranking up**, not after — enemies are weaker at your current rank
 - **Mind is a trap stat** — invest only if your build specifically relies on Support Skills
 - **Weapon upgrades > stat points** — a +3 weapon is worth more than 5 extra Strength
-- **You cannot respec** — use the first few levels to experiment, then commit to a build
+- **You cannot respec** — use the first few levels to experiment, then commit to a [build](/guides/builds-guide/)
 
 ## Common Mistakes
 
@@ -123,9 +126,9 @@ Partners are not just cosmetic. Their Support Skills directly affect your combat
 
 ### Rushing Floor Bosses
 
-Floor bosses scale with Cardinal Rank, and a boss that is manageable at Rank 4 can become lethal at Rank 5 if you advanced the main quest too quickly. Always complete the Rank-Up Routine before attempting a boss.
+Floor bosses scale with Cardinal Rank, and a boss that is manageable at Rank 4 can become lethal at Rank 5 if you advanced the main quest too quickly. Always complete the Rank-Up Routine before attempting a boss. Check the [Bosses Guide](/guides/bosses-guide/) for detailed boss strategies.
 
-## Partner Progression by Cardinal Rank
+## Partner Progression by Cardinal Rank Level
 
 Partners gain access to new abilities and skill slots as your Cardinal Rank increases. The table below outlines when new options become available.
 
@@ -144,7 +147,7 @@ Partners gain access to new abilities and skill slots as your Cardinal Rank incr
 - **Partner gear matters.** A well-equipped partner contributes more than raw stat points. Upgrade their weapon and accessory at the Smithy.
 - **Don't neglect partner levels.** If your partner falls behind your Cardinal Rank, their Support Skills will underperform. Farm alongside them to keep their level current.
 
-## Early Game vs Mid Game vs Late Game
+## Progression Strategy by Game Stage: Early vs Mid vs Late Game
 
 Progression strategy shifts significantly across the game's three phases.
 
@@ -191,6 +194,10 @@ Death in Echoes of Aincrad carries consequences but is not game-ending. You will
 ### How does co-op scaling work with Cardinal Rank?
 
 When playing in a party, enemy scaling uses the highest Cardinal Rank among the group. If you are Rank 3 and your friend is Rank 5, enemies scale to Rank 5. This means lower-ranked players can access higher-tier loot early, but they will take significantly more damage. For efficient farming, party members should be within 1-2 Ranks of each other. Partner Support Skills that affect the whole party (such as Spirit Link) become much more valuable in co-op.
+
+### What is the 40-30-30 rule for stat allocation in Echoes of Aincrad?
+
+The 40-30-30 rule is the recommended stat allocation ratio for most builds: 40% in your primary damage stat (Strength or Dexterity), 30% in Vitality for survivability, and 30% in Endurance for stamina management. This balance ensures you deal sufficient damage while having enough HP and SP to survive extended fights. Adjust this ratio based on your weapon choice and playstyle — Rapier builds may lean heavier into Dexterity, while Greatsword builds might need more Vitality to survive charge attack windows.
 
 ### Should I level multiple weapons or focus on one?
 
