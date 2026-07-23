@@ -248,6 +248,7 @@ Agent C: 页面内容（首页/FAQ/TierList）+ 残留清理
 |------|------|
 | 组件 | `components/Header.tsx`, `Footer.tsx`, `GoogleAnalytics.tsx`, `GuideCard.tsx`, `GuideLayout.tsx`, `JsonLd.tsx`, `ReactMarkdown.tsx`, `RelatedGuides.tsx`, `TableOfContents.tsx`, `VersionBadge.tsx`, `FAQ.tsx` |
 | 配置 | `next.config.ts`, `postcss.config.mjs`, `eslint.config.mjs`, `.gitignore` |
+| 静态资源 | `public/google12f8715471cef7b7.html`（GSC 验证文件，从任意已部署站点复制） |
 | 内容 | `content/home-content.md` + `content/guides/*.md`（{N} 篇攻略） |
 | 页面 | `app/sitemap.ts`, `app/guides/page.tsx`, `app/guides/[slug]/page.tsx`, `app/globals.css` |
 
