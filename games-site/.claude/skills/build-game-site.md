@@ -328,10 +328,20 @@ Step 5: Dashboard 注册（必须）
   添加新站点的 SiteConfig（name, propertyId, gaId）
   GA ID 未创建时用 "G-PLACEHOLDER" 占位
 
-Step 6: 输出用户待办清单
+Step 6: 更新站点统计文档（必须）
+  编辑 games-site/游戏站点统计.md
+  更新内容：
+  - 站点总览表：新增一行，填写攻略数、域名、GA4 ID、Vercel/GSC/Dashboard 状态
+  - SOP 步骤完成情况表：新增一行，标记各步骤 ✅/❌/⏳
+  - 待处理事项：如有新的 P0/P1 事项，更新对应小节
+  - 汇总数字：总站点数、总攻略数、各项完成数
+  - 上线日历：如游戏有明确上线日，添加到第五节
+
+Step 7: 输出用户待办清单
   - [ ] 创建 GA4 Property → 更新 seo-config.ts 中的 googleAnalyticsId
   - [ ] GSC 提交 sitemap（Vercel 部署后自动生效）
   - [ ] 更新 Dashboard GA4 Property ID
+  - [ ] 确认 游戏站点统计.md 已更新
 ```
 
 **Commit Message 规则**：
