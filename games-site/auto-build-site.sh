@@ -98,12 +98,21 @@ log ""
 # 执行 Claude Code（非交互模式）
 # timeout: 30 分钟（足够 Agent 完成搜索+评估+建站+部署全流程）
 cd "$PROJECT_DIR"
+
+# 使用临时文件捕获 exit code，避免 PIPESTATUS 在 pipefail 下未定义
+TMP_OUT=$(mktemp)
+trap "rm -f $TMP_OUT" EXIT
+
+set +e  # 暂时关闭 errexit，手动捕获退出码
 claude -p "$CLAUDE_PROMPT" \
     --permission-mode bypassPermissions \
     --output-format text \
-    2>&1 | tee -a "$LOG_FILE"
+    > "$TMP_OUT" 2>&1
+EXIT_CODE=$?
+set -e  # 恢复 errexit
 
-EXIT_CODE=${PIPESTATUS[0]}
+# 输出到日志
+cat "$TMP_OUT" | tee -a "$LOG_FILE"
 
 log ""
 log "========== 执行完成 =========="
