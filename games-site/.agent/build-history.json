@@ -134,6 +134,26 @@
         "手动执行 vercel --prod 部署",
         "修复 build-game-site.md 防止复发"
       ]
+    },
+    {
+      "game": "Tears of Metal",
+      "date": "2026-07-23",
+      "genre": "Action Roguelike, Co-op",
+      "template": "themoundwiki (Agent auto, skill-driven)",
+      "guides": 11,
+      "keywords": 55,
+      "score": 19.5,
+      "issues": [
+        "npm install 需要重做（模板复制的 node_modules 损坏）",
+        "git push 冲突需要 pull --rebase"
+      ],
+      "lessons": [
+        "19.5/20 分游戏：EA 刚上线 1 天 + 92% 好评 + 无 Wiki + 深系统 = 完美候选",
+        "模板复制后 node_modules 不能直接复用，必须 rm -rf 重装",
+        "12 文件检查清单 + 构建验证 Gate + 残留扫描全部通过后才可提交",
+        "Google Suggest API 无代理时用 WebSearch 编译关键词可行（55 词）"
+      ],
+      "fixes_applied": []
     }
   ],
   "knownIssues": [

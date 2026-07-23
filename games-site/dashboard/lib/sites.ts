@@ -62,4 +62,9 @@ export const SITES: SiteConfig[] = [
     propertyId: '15307144004',
     gaId: 'G-16X86K2J44',
   },
+  {
+    name: 'Tears of Metal Wiki',
+    propertyId: 'PLACEHOLDER',
+    gaId: 'G-PLACEHOLDER',
+  },
 ];
