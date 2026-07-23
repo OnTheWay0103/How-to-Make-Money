@@ -4,7 +4,7 @@ description: 'Complete Greatsword build guide for Echoes of Aincrad. Best Sword 
 keywords: ['greatsword build', 'greatsword guide', 'strength build', 'heavy build', 'charge attack']
 category: Builds
 version: '1.0'
-updated: '2026-07-07'
+updated: '2026-07-23'
 related:
   - weapons-guide
   - builds-guide
@@ -110,3 +110,92 @@ Greatsword is one of the best farming weapons thanks to AoE:
 - **Dodge roll has i-frames** — use them to roll through attacks, not away from them
 - **Do not charge against fast enemies** — you will get hit every time
 - **Weapon weight matters** — Greatsword is heavy. You cannot cancel animations. Commit to each swing.
+
+## Common Mistakes
+
+### Over-Committing to Charges
+
+The #1 killer of Greatsword players is charging at the wrong time. A full charge leaves you locked in animation for nearly two seconds. If you start a charge while the enemy is already winding up an attack, you will eat the hit and likely get staggered out of your charge.
+
+**Fix**: Only begin charging when the enemy has already committed to a recovery animation or is clearly out of range.
+
+### Ignoring Vitality
+
+New Greatsword players often go 100% Strength for the biggest numbers. This works on paper and fails in practice. You will trade hits — the weapon demands it. Without Vitality, one or two stray hits send you to the respawn point.
+
+**Fix**: Stick to the 50/25/25 split (Str/Vit/End). Respeccing is cheap; dying at the boss door is not.
+
+### Spinning in Tight Spaces
+
+Cyclone is amazing in the open, but its long animation locks you in place. Using it in narrow corridors or near ledges gets you hit by attacks you could have dodged, or worse — knocks you off an edge.
+
+**Fix**: Use Earth Splitter in hallways. Save Cyclone for open areas with 3+ enemies surrounding you.
+
+### Forgetting to Re-apply EX-Mods After Gear Swap
+
+EX-Mods are slotted to gear, not your character. When you upgrade to a new Greatsword, your old EX-Mods stay on the old weapon. Players frequently arrive at a boss fight wondering why their HP recovery and charge damage bonuses aren't working.
+
+**Fix**: Every time you equip a new weapon, open the EX-Mod menu and slot your mods before heading out.
+
+## Gear Progression
+
+| Stage | Recommended Greatsword | Floor / Source | Key Stat |
+|-------|----------------------|----------------|----------|
+| Early (F1-F5) | Iron Greatsword | Floor 1 Blacksmith (200 Col) | Base damage, low weight |
+| Mid-Early (F5-F10) | Bone Cleaver | Floor 6 Goblin Camp Drop | +8% charge damage |
+| Mid (F10-F20) | Oni Splitter | Floor 12 Boss Drop (Rare) | +12% charge damage, +5 Str |
+| Mid-Late (F20-F35) | Titan's Edge | Floor 22 Quest Reward | +15% charge damage, +8 Str, -10% weight penalty |
+| Late (F35-F50) | Executioner's Blade | Floor 38 Rare Mob Drop | +20% charge damage, +12 Str, +5% AoE radius |
+| Endgame (F50+) | Caliburn | Floor 50 Raid Drop (Legendary) | +25% charge damage, +15 Str, +10% AoE, built-in Guard Break Up |
+
+**Upgrade Priority**: Weapon first, then EX-Mod slots, then armor. A fully upgraded Oni Splitter beats a base Titan's Edge every time.
+
+## Build Variants
+
+### Full DPS Greatsword (Glass Cannon)
+
+**Stats**: 70% Strength, 15% Vitality, 15% Endurance
+**EX-Mods**: Improved Charge Attack, Guard Break Up, Critical Damage Up, ATK Up on Kill
+**Playstyle**: You kill everything in one or two hits — or you die trying. Dodge perfectly. Charge only during guaranteed openings. Pair with Light Armor for faster stamina regen. Best for players who know every boss moveset by heart.
+**Risk**: High. One mistake and you are down.
+
+### Tanky Greatsword (Heavy Bruiser)
+
+**Stats**: 35% Strength, 40% Vitality, 25% Endurance
+**EX-Mods**: Improved Charge Attack, Guard Break Up, HP Recovery on Kill, Damage Reduction on Hit
+**Playstyle**: You trade blows and win the war of attrition. Charge attacks still hit hard, but you can afford to eat a hit or two. Pair with Heavy Armor and a Vitality-boosting accessory. Slower but far more forgiving.
+**Risk**: Low. You lose some one-shot potential but gain the ability to face-tank most non-boss enemies.
+
+### Hybrid Support (Party Buffer)
+
+**Stats**: 40% Strength, 25% Vitality, 35% Endurance
+**EX-Mods**: Guard Break Up, Stagger Extension, Party ATK Up, Stamina Recovery Up
+**Playstyle**: Not recommended for solo play. Built for boss raids — you spam heavy attacks to stagger the boss while your party DPSes. Stagger Extension keeps the boss locked down longer. Your damage is secondary; your role is opening the window.
+**Risk**: Medium. Relies on team coordination. Poor in solo content.
+
+### Which Variant Should You Pick?
+
+| If you... | Pick... |
+|-----------|---------|
+| Know every boss pattern and want max damage | Full DPS |
+| Are learning the weapon or play solo | Tanky Greatsword |
+| Raid with a regular group | Hybrid Support |
+| Want to farm materials efficiently | Tanky Greatsword (with HP Recovery EX-Mod) |
+
+## FAQ
+
+### Does Greatsword work for PvP?
+
+Yes, but it is high-risk, high-reward. In PvP, players dodge more predictably than mobs, making charged attacks harder to land. Use Helm Breaker to close distance and Earth Splitter to zone opponents. The key is predicting roll directions — charge toward where they will roll, not where they are. Light attack pressure is more important in PvP than in PvE. Most top-tier PvP Greatsword players run the Tanky Bruiser variant with 40% Vitality to survive burst combos from dagger and rapier users.
+
+### Should I use a shield with Greatsword?
+
+Greatsword is a two-handed weapon class. You cannot equip a shield while wielding a Greatsword — the weapon takes both hands. Some new players mistake the "Heavy Weapon" tag for "Sword and Shield." If you want a blocking playstyle, check the Sword and Board or Greatshield guides instead.
+
+### Why does my charge attack sometimes not stagger enemies?
+
+Stagger buildup per hit depends on the enemy's stagger threshold and your Guard Break stat. Tougher enemies (Elites, Field Bosses, Raid Bosses) have stagger resistance that reduces buildup by 30-60%. If your charge attack is not staggering, you need one or more of: higher Guard Break Up EX-Mod rank, the Stagger Extension EX-Mod, or a weapon with innate stagger bonus (Titan's Edge and above have this). Against Raid Bosses, expect to land 3-4 charged hits before they stagger regardless of your gear.
+
+### Is Greatsword good for solo leveling?
+
+Greatsword is one of the best solo leveling weapons in the game. The AoE on charge attacks and Cyclone lets you clear mob packs faster than any single-target weapon. With HP Recovery on Kill, you effectively have infinite sustain. The only downside is boss fights take a bit longer since some bosses have few punish windows. Stick to the Tanky Greatsword variant while leveling and you will rarely die.
