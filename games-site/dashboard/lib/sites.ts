@@ -44,12 +44,22 @@ export const SITES: SiteConfig[] = [
   },
   {
     name: 'MineGeon Wiki',
-    propertyId: 'REPLACE_WITH_PROPERTY_ID',
-    gaId: 'G-PLACEHOLDER',
+    propertyId: '15306883268',
+    gaId: 'G-GWZ0DR4S01',
+  },
+  {
+    name: 'Sephiria Wiki',
+    propertyId: '15307058733',
+    gaId: 'G-JP8PP1V90D',
+  },
+  {
+    name: 'DinoBlade Wiki',
+    propertyId: '15307117321',
+    gaId: 'G-E6FDYLD3S2',
   },
   {
     name: 'Echoes of Mystralia Wiki',
-    propertyId: 'REPLACE_WITH_PROPERTY_ID',
-    gaId: 'G-PLACEHOLDER',
+    propertyId: '15307144004',
+    gaId: 'G-16X86K2J44',
   },
 ];
