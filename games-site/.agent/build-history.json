@@ -154,6 +154,27 @@
         "Google Suggest API 无代理时用 WebSearch 编译关键词可行（55 词）"
       ],
       "fixes_applied": []
+    },
+    {
+      "game": "DragonSword: Awakening",
+      "date": "2026-07-24",
+      "genre": "Anime Open-World Action RPG",
+      "template": "themoundwiki (Agent auto, 2-agent parallel)",
+      "guides": 12,
+      "keywords": 62,
+      "score": 19,
+      "issues": [
+        "Google Suggest API 无代理，WebSearch 编译关键词",
+        "Phantom Tower 初始候选被驳回（零搜索需求数据），改用 DragonSword"
+      ],
+      "lessons": [
+        "19/20 分游戏：发售 2 天 + 85% 好评 + 无 Wiki + 19 英雄 = 优质候选",
+        "游戏发现 Phase 0 需要两轮筛选：第一轮广度搜索，第二轮验证搜索需求",
+        "候选游戏必须验证实际搜索需求（Google Suggest/WebSearch 有关键词才算合格）",
+        "双 Agent 并行（配置 + 内容）比单 Agent 快 ~40%",
+        "12 文件检查清单 + 构建验证 Gate + 残留扫描 = 零遗漏上线"
+      ],
+      "fixes_applied": []
     }
   ],
   "knownIssues": [

@@ -72,4 +72,9 @@ export const SITES: SiteConfig[] = [
     propertyId: 'PLACEHOLDER',
     gaId: 'G-PLACEHOLDER',
   },
+  {
+    name: 'DragonSword Wiki',
+    propertyId: 'PLACEHOLDER',
+    gaId: 'G-PLACEHOLDER',
+  },
 ];
