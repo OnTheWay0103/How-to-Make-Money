@@ -77,4 +77,9 @@ export const SITES: SiteConfig[] = [
     propertyId: 'PLACEHOLDER',
     gaId: 'G-PLACEHOLDER',
   },
+  {
+    name: 'Dwarf Delve Wiki',
+    propertyId: 'PLACEHOLDER',
+    gaId: 'G-PLACEHOLDER',
+  },
 ];
