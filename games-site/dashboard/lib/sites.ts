@@ -87,4 +87,9 @@ export const SITES: SiteConfig[] = [
     propertyId: '15332897937',
     gaId: 'G-G4GPXYJW7C',
   },
+  {
+    name: 'Taival Wiki',
+    propertyId: 'G-PLACEHOLDER',
+    gaId: 'G-PLACEHOLDER',
+  },
 ];

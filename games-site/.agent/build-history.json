@@ -1,6 +1,25 @@
 {
   "builds": [
     {
+      "game": "Taival",
+      "date": "2026-07-27",
+      "genre": "Co-op Adventure RPG",
+      "template": "themoundwiki (Agent auto, skill-driven)",
+      "guides": 12,
+      "keywords": 45,
+      "score": 15,
+      "issues": [
+        "Vercel project link was stale (themoundwiki) — required .vercel cleanup and relink"
+      ],
+      "lessons": [
+        "15/20 games hit auto-continue threshold — Phase 0 discovery found it without human input",
+        "Co-op RPG with unique companion mechanic = good search differentiation",
+        "Template .vercel/project.json must be cleaned before deploying to new project",
+        "12-file checklist + build gate + residual scan = zero-miss deployment"
+      ],
+      "fixes_applied": []
+    },
+    {
       "game": "Witchspire",
       "date": "2026-06-29",
       "genre": "Co-op Survival RPG",
