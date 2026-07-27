@@ -269,6 +269,15 @@ Agent C: 页面内容（首页/FAQ/TierList）+ 残留清理
 [ ] 10. app/faq/page.tsx FAQ 内容为当前游戏（非模板残留）
 [ ] 11. app/tier-list/page.tsx 内容为当前游戏
 [ ] 12. content/home-content.md 存在且描述当前游戏
+[ ] 13. components/GoogleAnalytics.tsx 从 SITE_CONFIG.googleAnalyticsId 读取（禁止 env var + hardcoded fallback）
+```
+
+**GA4 组件防错检查（⭐ 新增 — 2026-07-27 血泪教训）**：
+
+```bash
+# 检查 GoogleAnalytics 组件是否从 SITE_CONFIG 读取 GA ID
+grep "SITE_CONFIG" {project}/components/GoogleAnalytics.tsx
+# 必须返回 match。如果组件中有 process.env 或硬编码 G- 字符串 → 模板残留，必须修复！
 ```
 
 **残留检查补充**（grep 扫描）：
