@@ -64,27 +64,27 @@ export const SITES: SiteConfig[] = [
   },
   {
     name: 'Tears of Metal Wiki',
-    propertyId: 'PLACEHOLDER',
-    gaId: 'G-PLACEHOLDER',
+    propertyId: '15332781936',
+    gaId: 'G-YDQ050PFB4',
   },
   {
     name: 'Grain Rot Wiki',
-    propertyId: 'PLACEHOLDER',
-    gaId: 'G-PLACEHOLDER',
+    propertyId: '15332799210',
+    gaId: 'G-KFV2F7XT4J',
   },
   {
     name: 'DragonSword Wiki',
-    propertyId: 'PLACEHOLDER',
-    gaId: 'G-PLACEHOLDER',
+    propertyId: '15332654487',
+    gaId: 'G-709FGNFQEM',
   },
   {
     name: 'Dwarf Delve Wiki',
-    propertyId: 'PLACEHOLDER',
-    gaId: 'G-PLACEHOLDER',
+    propertyId: '15332718314',
+    gaId: 'G-6PG5B1FMPG',
   },
   {
     name: 'Lunarium Wiki',
-    propertyId: 'PLACEHOLDER',
-    gaId: 'G-PLACEHOLDER',
+    propertyId: '15332897937',
+    gaId: 'G-G4GPXYJW7C',
   },
 ];
