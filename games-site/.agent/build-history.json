@@ -1,6 +1,27 @@
 {
   "builds": [
     {
+      "game": "Graphite",
+      "date": "2026-07-29",
+      "genre": "Pen-and-Ink Tactical Roguelike RPG",
+      "template": "themoundwiki (Agent auto, skill-driven)",
+      "guides": 11,
+      "keywords": 65,
+      "score": 15,
+      "issues": [
+        "Game name 'Graphite' is too generic — 65 keywords harvested but noise rate ~50% (graphite material/pencil/golf shaft matches)",
+        "Google Suggest API returned mostly irrelevant suggestions for the word 'graphite'"
+      ],
+      "lessons": [
+        "15/20 game: 7 heroes × unlimited artifact stacking + Break system + 4-act campaign = deep guide potential",
+        "Zero wiki competition confirmed — no Fandom, no Fextralife, no guide sites",
+        "Tactical roguelike RPGs have strong search intent — players actively search for builds/strategies",
+        "Generic game names need manual keyword curation rather than Google Suggest alone",
+        "12-file checklist + build gate + residual scan = zero-miss deployment"
+      ],
+      "fixes_applied": []
+    },
+    {
       "game": "The Relic: First Guardian",
       "date": "2026-07-28",
       "genre": "Korean Dark-Fantasy Soulslike Action RPG",

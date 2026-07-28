@@ -102,4 +102,9 @@ export const SITES: SiteConfig[] = [
     propertyId: 'G-PLACEHOLDER',
     gaId: 'G-PLACEHOLDER',
   },
+  {
+    name: 'Graphite Wiki',
+    propertyId: 'G-PLACEHOLDER',
+    gaId: 'G-PLACEHOLDER',
+  },
 ];
