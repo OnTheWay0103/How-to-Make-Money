@@ -97,4 +97,9 @@ export const SITES: SiteConfig[] = [
     propertyId: 'G-PLACEHOLDER',
     gaId: 'G-PLACEHOLDER',
   },
+  {
+    name: "The Relic: First Guardian Wiki",
+    propertyId: 'G-PLACEHOLDER',
+    gaId: 'G-PLACEHOLDER',
+  },
 ];

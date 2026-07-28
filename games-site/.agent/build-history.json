@@ -1,6 +1,26 @@
 {
   "builds": [
     {
+      "game": "The Relic: First Guardian",
+      "date": "2026-07-28",
+      "genre": "Korean Dark-Fantasy Soulslike Action RPG",
+      "template": "themoundwiki (Agent auto, skill-driven)",
+      "guides": 11,
+      "keywords": 44,
+      "score": 18,
+      "issues": [
+        "Pre-launch game (releases July 31) — 0 search traffic expected initially",
+        "Google Suggest API unavailable without proxy — used WebFetch to harvest keywords (44 words)"
+      ],
+      "lessons": [
+        "18/20 game: 5 weapons × 12 trees + 70 bosses + 70 runes = 150+ guide potential",
+        "Zero wiki competition confirmed (no Fextralife, no Fandom, no Reddit guides)",
+        "Soulslike games have excellent search long-tail — players search boss guides for years",
+        "12-file checklist + build gate + residual scan = zero-miss deployment"
+      ],
+      "fixes_applied": []
+    },
+    {
       "game": "Taival",
       "date": "2026-07-27",
       "genre": "Co-op Adventure RPG",
