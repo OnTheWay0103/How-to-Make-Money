@@ -1,0 +1,83 @@
+---
+title: "The Relic: First Guardian Wiki — Complete Guide Hub"
+description: "The ultimate community wiki for The Relic: First Guardian — the Korean dark-fantasy soulslike action RPG by Project Cloud Games / Perp Games. Master 5 weapon families, 70+ bosses, rune system, artifacts, and more."
+category: "Home"
+version: "1.0"
+updated: "2026-07-31"
+keywords: ["The Relic: First Guardian", "The Relic: First Guardian wiki", "The Relic First Guardian guide", "Project Cloud Games", "soulslike action RPG", "Korean dark fantasy"]
+related: ["beginner-guide", "weapons-guide", "builds-guide", "boss-guide", "runes-guide"]
+---
+
+# The Relic: First Guardian Wiki — Complete Guide Hub
+
+**The ultimate resource for mastering The Relic: First Guardian — launching July 31, 2026 on Steam and PS5.**
+
+Set in the ruined world of Arsiltus, The Relic: First Guardian is a Korean dark-fantasy soulslike action RPG developed by Project Cloud Games and published by Perp Games. As the last First Guardian, you must recover shattered relic fragments, master 5 weapon families with 12 skill trees each, collect 70+ memory runes, and defeat 70+ tragic bosses to seal the encroaching Void.
+
+---
+
+## Quick Navigation
+
+| Guide | Best For | Difficulty |
+|-------|----------|------------|
+| [Beginner Guide](/guides/beginner-guide) | First-time players | Starter |
+| [Weapons Guide](/guides/weapons-guide) | Choosing your weapon | Starter |
+| [Best Builds Guide](/guides/builds-guide) | Build optimization | Intermediate |
+| [Boss Guide](/guides/boss-guide) | Boss strategies | Intermediate |
+| [Runes & Memory Fragments](/guides/runes-guide) | Rune collection | Intermediate |
+| [Artifacts Guide](/guides/artifacts-guide) | Equipment system | Intermediate |
+| [Combat Guide](/guides/combat-guide) | Mechanics deep dive | Starter |
+| [Tier List](/guides/tier-list) | Weapon rankings | Starter |
+| [Walkthrough](/guides/walkthrough) | Story progression | Intermediate |
+| [Controls & Settings](/guides/controls-settings-guide) | PC/PS5 setup | Starter |
+| [FAQ](/faq) | Quick answers | All |
+
+---
+
+## Featured Guides
+
+### Weapons Guide
+Master all 5 weapon families — Sword & Shield, Dual Daggers, Sword, Two-Handed Weapon, and Staff — each with 12 exclusive skill trees. [Read the full guide →](/guides/weapons-guide)
+
+### Boss Guide
+Strategies for defeating 70+ unique bosses. Learn attack patterns, weaknesses, and the tragic lore behind each encounter. [Browse bosses →](/guides/boss-guide)
+
+### Best Builds Guide
+Top-tier builds for every weapon family. Combine runes, artifacts, and skill trees for maximum damage. [View builds →](/guides/builds-guide)
+
+### Runes & Memory Fragments
+All 70+ memory fragment effects explained — passive bonuses that reshape your skills and combat style. [Full rune catalog →](/guides/runes-guide)
+
+---
+
+## What is The Relic: First Guardian?
+
+The Relic: First Guardian is a hardcore soulslike action RPG developed by South Korean studio Project Cloud Games and published by Perp Games. It launches on **July 31, 2026** for **PC (Steam)** and **PlayStation 5**, with Xbox Series X|S and Nintendo Switch 2 versions planned for later in 2026.
+
+The game is set in **Arsiltus**, a once-prosperous land reduced to wasteland after an ancient relic shattered and unleashed the creeping Void blight. You play as the **First Guardian**, the world's last hope, tasked with recovering scattered relic fragments and sealing the void before all is consumed.
+
+The game blends **dark fantasy with Korean folklore**, featuring quests inspired by traditional Korean tales told through environmental storytelling.
+
+---
+
+## Key Systems at a Glance
+
+- **5 Weapon Families** — Sword & Shield, Dual Daggers, Sword, Two-Handed Weapon, Staff — each with 12 dedicated skill trees
+- **No Traditional Levels** — Character growth driven by collecting 70+ memory fragments (runes) with unique passive effects
+- **Stamina-Only Defense** — Attacks cost zero stamina; stamina is reserved for dodging and blocking
+- **70+ Unique Bosses** — Each with a tragic backstory, former humans transformed by curses
+- **Artifact System** — 3 categories (main boss, mini-boss, exploration); every weapon and armor piece is unique
+- **Semi-Open World** — Exploration rewards hidden weapons, artifact slots, and side quests
+- **Skill Cooldowns** — Skills use cooldown timers instead of resource pools
+
+---
+
+## Quick Start Links
+
+- [The Relic: First Guardian on Steam](https://store.steampowered.com/app/2827820/The_Relic_First_Guardian/)
+- [Project Cloud Games official](https://www.projectcloudgames.com)
+- [Perp Games publisher](https://perpgames.com)
+
+---
+
+*This wiki is community-maintained and reflects the launch version (1.0). Content will be updated as patches and updates are released.*
