@@ -1,6 +1,6 @@
 ---
 title: "Co-op Multiplayer Guide: Tips for 2-4 Player Groups"
-description: "Master Taival co-op with this complete guide. Online, local split-screen, and mixed mode setups. Group voting, party composition, and coordinated Henki strategies."
+description: "Master Taival co-op — online, local split-screen, and mixed mode. Group voting, party composition, and coordinated Henki strategies for 2-4 players."
 category: "Co-op"
 updated: "2026-07-27"
 ---
