@@ -1,6 +1,26 @@
 {
   "builds": [
     {
+      "game": "Bonehold",
+      "date": "2026-07-30",
+      "genre": "Roguelike Dungeon Crawler ARPG",
+      "template": "themoundwiki (Agent auto, skill-driven)",
+      "guides": 10,
+      "keywords": 40,
+      "score": 17,
+      "issues": [
+        "WebSearch-compiled game knowledge (no Google Suggest API available without proxy)",
+        "App/guides/page.tsx had 2 The Mound residuals — caught and fixed by residue scan"
+      ],
+      "lessons": [
+        "17/20 game: released 2 days ago (July 28) + 7 classes + zero wiki = perfect timing",
+        "Roguelike ARPG with charge combat and item prefixes = excellent build guide potential",
+        "88% positive on Steam, 98 achievements = deep game with player engagement",
+        "12-file checklist + build gate + residual scan = zero-miss deployment"
+      ],
+      "fixes_applied": []
+    },
+    {
       "game": "Shift At Midnight",
       "date": "2026-07-29",
       "genre": "Co-op Horror Detective",
