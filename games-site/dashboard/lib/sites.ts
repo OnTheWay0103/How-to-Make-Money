@@ -107,4 +107,9 @@ export const SITES: SiteConfig[] = [
     propertyId: 'G-PLACEHOLDER',
     gaId: 'G-PLACEHOLDER',
   },
+  {
+    name: 'Shift At Midnight Wiki',
+    propertyId: 'G-PLACEHOLDER',
+    gaId: 'G-PLACEHOLDER',
+  },
 ];

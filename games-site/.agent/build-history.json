@@ -1,6 +1,26 @@
 {
   "builds": [
     {
+      "game": "Shift At Midnight",
+      "date": "2026-07-29",
+      "genre": "Co-op Horror Detective",
+      "template": "themoundwiki (Agent auto, skill-driven)",
+      "guides": 12,
+      "keywords": 0,
+      "score": 18,
+      "issues": [
+        "WebSearch-compiled game knowledge (no Google Suggest API available)",
+        "Template residue in guides/page.tsx and metadata.ts caught and fixed by residue scan"
+      ],
+      "lessons": [
+        "18/20 game: 37K concurrent, 90% positive, viral co-op horror = massive search demand",
+        "No dedicated wiki — content scattered across VGtimes/TheGamer/Destructoid only",
+        "Co-op horror detective unique blend = diverse guide topics (doppelganger, entity, co-op, money, endings)",
+        "12-file checklist + build gate + residue scan = zero-miss deployment"
+      ],
+      "fixes_applied": []
+    },
+    {
       "game": "Graphite",
       "date": "2026-07-29",
       "genre": "Pen-and-Ink Tactical Roguelike RPG",
