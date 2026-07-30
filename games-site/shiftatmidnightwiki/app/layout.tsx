@@ -34,6 +34,12 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-[#0f0f23] text-gray-200">
+        {/* Google AdSense */}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7211682665758448"
+          crossOrigin="anonymous"
+        />
         <JsonLd data={websiteSchema()} />
         <GoogleAnalytics />
         <Header />
