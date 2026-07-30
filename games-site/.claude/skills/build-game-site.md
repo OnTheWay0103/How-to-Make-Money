@@ -232,7 +232,7 @@ Agent C: 页面内容（首页/FAQ/TierList）+ 残留清理
 | 6 | `lib/schema.ts` | JSON-LD 结构化数据（VideoGame/FAQ/Article） |
 | 7 | `lib/guides.ts` | 指南加载器（frontmatter 解析） |
 
-**app/ 目录（5 个核心页面文件）**：
+**app/ 目录（9 个核心页面文件）**：
 
 | # | 文件 | 说明 |
 |---|------|------|
@@ -241,6 +241,16 @@ Agent C: 页面内容（首页/FAQ/TierList）+ 残留清理
 | 10 | `app/faq/page.tsx` | FAQ 专用页 |
 | 11 | `app/tier-list/page.tsx` | Tier List 专用页 |
 | 12 | `app/robots.ts` | robots.txt（指向 sitemap） |
+| 12a | `app/privacy/page.tsx` | ⚠️ AdSense 必需 — 隐私政策 |
+| 12b | `app/terms/page.tsx` | ⚠️ AdSense 必需 — 服务条款 |
+| 12c | `app/about/page.tsx` | ⚠️ AdSense 必需 — 关于我们 |
+| 12d | `app/contact/page.tsx` | ⚠️ AdSense 必需 — 联系方式 |
+
+**AdSense 合规页面**（⭐ 新增 — 没有这 4 页 = AdSense 必拒）：
+- 从任意已部署站点复制 `app/privacy/`, `app/terms/`, `app/about/`, `app/contact/`
+- 用 sed 替换站点名、游戏名、域名、发行商
+- 联系邮箱统一使用 `zhaoq8278@gmail.com`
+- Footer 必须包含 Privacy Policy 和 Terms of Service 链接
 
 **其余文件**（也必需但不能漏）：
 
@@ -270,6 +280,11 @@ Agent C: 页面内容（首页/FAQ/TierList）+ 残留清理
 [ ] 11. app/tier-list/page.tsx 内容为当前游戏
 [ ] 12. content/home-content.md 存在且描述当前游戏
 [ ] 13. components/GoogleAnalytics.tsx 从 SITE_CONFIG.googleAnalyticsId 读取（禁止 env var + hardcoded fallback）
+[ ] 14. app/privacy/page.tsx 存在且站点名/域名/邮箱正确
+[ ] 15. app/terms/page.tsx 存在且站点名/域名正确
+[ ] 16. app/about/page.tsx 存在且非官方粉丝站声明正确
+[ ] 17. app/contact/page.tsx 存在且邮箱为 zhaoq8278@gmail.com
+[ ] 18. components/Footer.tsx 包含 Privacy Policy 和 Terms of Service 链接
 ```
 
 **GA4 组件防错检查（⭐ 新增 — 2026-07-27 血泪教训）**：
@@ -353,6 +368,7 @@ Step 7: 输出用户待办清单
   - [ ] GSC 提交 sitemap（Vercel 部署后自动生效）
   - [ ] 更新 Dashboard GA4 Property ID
   - [ ] 确认 游戏站点统计.md 已更新
+  - [ ] 确认 AdSense 合规页面（privacy/terms/about/contact）已部署且邮箱为 zhaoq8278@gmail.com
 ```
 
 **Commit Message 规则**：
