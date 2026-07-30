@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Privacy Policy',
-  description: 'Privacy Policy for Vahrin's Call Wiki — how we collect, use, and protect your data.',
+  description: 'Privacy Policy for Vahrins Call Wiki — how we collect, use, and protect your data.',
 };
 
 export default function PrivacyPage() {
@@ -13,7 +13,7 @@ export default function PrivacyPage() {
 
       <h2>1. Introduction</h2>
       <p>
-        Vahrin's Call Wiki ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you visit our website at <strong>vahrinscallwiki.vercel.app</strong>.
+        Vahrins Call Wiki ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you visit our website at <strong>vahrinscallwiki.vercel.app</strong>.
       </p>
 
       <h2>2. Information We Collect</h2>

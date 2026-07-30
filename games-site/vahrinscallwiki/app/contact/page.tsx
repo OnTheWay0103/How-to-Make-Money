@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Contact Us',
-  description: 'Contact Vahrin's Call Wiki — get in touch for questions, corrections, or feedback.',
+  description: 'Contact Vahrins Call Wiki — get in touch for questions, corrections, or feedback.',
 };
 
 export default function ContactPage() {

@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Terms of Service',
-  description: 'Terms of Service for Vahrin's Call Wiki — conditions for using our website.',
+  description: 'Terms of Service for Vahrins Call Wiki — conditions for using our website.',
 };
 
 export default function TermsPage() {
@@ -13,12 +13,12 @@ export default function TermsPage() {
 
       <h2>1. Acceptance of Terms</h2>
       <p>
-        By accessing and using Vahrin's Call Wiki (<strong>vahrinscallwiki.vercel.app</strong>), you agree to be bound by these Terms of Service. If you do not agree, please do not use our website.
+        By accessing and using Vahrins Call Wiki (<strong>vahrinscallwiki.vercel.app</strong>), you agree to be bound by these Terms of Service. If you do not agree, please do not use our website.
       </p>
 
       <h2>2. Description of Service</h2>
       <p>
-        Vahrin's Call Wiki is an unofficial fan-made guide and wiki website for the video game "Vahrin's Call." We provide game guides, tips, strategies, and related information. We are not affiliated with, endorsed by, or connected to the game's developers or publishers.
+        Vahrins Call Wiki is an unofficial fan-made guide and wiki website for the video game "Vahrins Call." We provide game guides, tips, strategies, and related information. We are not affiliated with, endorsed by, or connected to the game's developers or publishers.
       </p>
 
       <h2>3. Intellectual Property</h2>
@@ -42,7 +42,7 @@ export default function TermsPage() {
 
       <h2>6. Limitation of Liability</h2>
       <p>
-        Vahrin's Call Wiki and its operators shall not be liable for any damages arising from the use or inability to use this website. This includes, but is not limited to, direct, indirect, incidental, or consequential damages.
+        Vahrins Call Wiki and its operators shall not be liable for any damages arising from the use or inability to use this website. This includes, but is not limited to, direct, indirect, incidental, or consequential damages.
       </p>
 
       <h2>7. Third-Party Links & Advertisements</h2>

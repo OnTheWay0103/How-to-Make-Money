@@ -21,7 +21,7 @@ export default function Footer() {
         <div className="flex flex-col items-center gap-4">
           {/* Copyright */}
           <p className="text-sm text-gray-500 text-center">
-            &copy; 2026 Vahrin's Call Wiki. Unofficial fan wiki. Vahrin's Call is a trademark of Titan Roc.
+            &copy; 2026 Vahrins Call Wiki. Unofficial fan wiki. Vahrins Call is a trademark of Titan Roc.
           </p>
 
           {/* Nav Links */}
