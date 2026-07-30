@@ -30,6 +30,10 @@ const STATIC_ROUTES: StaticRoute[] = [
   { path: '/guides', priority: 0.8 },
   { path: '/faq', priority: 0.8 },
   { path: '/tier-list', priority: 0.8 },
+  { path: '/about', priority: 0.5 },
+  { path: '/privacy', priority: 0.3 },
+  { path: '/terms', priority: 0.3 },
+  { path: '/contact', priority: 0.3 },
 ];
 
 /* ─── Dynamic guide routes ───────────────────────────────────── */
