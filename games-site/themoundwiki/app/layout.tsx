@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from 'next';
+import Script from 'next/script';
 import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
 import { defaultViewport } from '@/lib/seo-config';
@@ -34,6 +35,12 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-[#0f0f23] text-gray-200">
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7211682665758448"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
         <JsonLd data={websiteSchema()} />
         <GoogleAnalytics />
         <Header />
