@@ -89,28 +89,28 @@ export const SITES: SiteConfig[] = [
   },
   {
     name: 'Taival Wiki',
-    propertyId: 'G-PLACEHOLDER',
-    gaId: 'G-PLACEHOLDER',
+    propertyId: '15349747340',
+    gaId: 'G-6EBSLPDH5P',
   },
   {
     name: "Vahrin's Call Wiki",
-    propertyId: 'G-PLACEHOLDER',
-    gaId: 'G-PLACEHOLDER',
+    propertyId: '15349517775',
+    gaId: 'G-0NTT5WMLGF',
   },
   {
     name: "The Relic: First Guardian Wiki",
-    propertyId: 'G-PLACEHOLDER',
-    gaId: 'G-PLACEHOLDER',
+    propertyId: '15349815857',
+    gaId: 'G-JEEKBP66NL',
   },
   {
     name: 'Graphite Wiki',
-    propertyId: 'G-PLACEHOLDER',
-    gaId: 'G-PLACEHOLDER',
+    propertyId: '15349774694',
+    gaId: 'G-1K2RZYN021',
   },
   {
     name: 'Shift At Midnight Wiki',
-    propertyId: 'G-PLACEHOLDER',
-    gaId: 'G-PLACEHOLDER',
+    propertyId: '15349839772',
+    gaId: 'G-M8577QD2NQ',
   },
   {
     name: 'Bonehold Wiki',
