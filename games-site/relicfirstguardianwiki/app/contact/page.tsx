@@ -15,7 +15,7 @@ export default function ContactPage() {
 
       <h2>Email</h2>
       <p>
-        You can contact us at: <a href="mailto:contact@relicfirstguardianwiki.vercel.app">contact@relicfirstguardianwiki.vercel.app</a>
+        You can contact us at: <a href="mailto:zhaoq8278@gmail.com">zhaoq8278@gmail.com</a>
       </p>
       <p className="text-gray-400 text-sm">
         Please note this is a forwarding address. We aim to respond within 2-3 business days.
