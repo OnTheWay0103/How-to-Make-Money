@@ -535,9 +535,30 @@ vercel env add NEXT_PUBLIC_GA_MEASUREMENT_ID production
 
 验证：部署后打开站点，在 GA4 后台 → 报告 → 实时，应能看到自己的访问。
 
-### 4.3 GA Data API（可选，仅数据看板需要）
+### 4.3 Dashboard 服务账号授权（⚠️ 每次建站必做）
 
-如果不需要通过 API 拉取数据做看板，跳过此步骤。详见 `Vercel + Google Analytics 网站发布指南.md` 第四部分。
+> **不做这一步 = Dashboard 永远看不到新站数据。** GA4 会正常采集，但 Dashboard 的 API 读不到。
+
+#### 原理
+
+Dashboard 通过 Google 服务账号调用 GA4 Data API 拉取数据。服务账号**不会自动获得**新 GA4 Property 的权限——每次创建 GA4 Property 后，必须手动授权。
+
+#### 操作步骤（每个新站 1 分钟）
+
+1. 打开 [Google Analytics Admin](https://analytics.google.com/analytics/web/)
+2. 左下角 ⚙️ 管理 → 选择新站的 **GA4 媒体资源**
+3. 点击 **媒体资源访问管理**（Property Access Management）
+4. 点击右上角 **+** → **添加用户**
+5. 输入服务账号邮箱：
+   ```
+   dashboard-ga-reader@midyear-psyche-501006-c0.iam.gserviceaccount.com
+   ```
+6. 角色选择 **"查看者"（Viewer）** — 只读权限即可
+7. 点击 **添加**
+
+#### 验证
+
+添加后等 2-3 分钟，访问 `https://dashboard-pied-six-31.vercel.app/api/diagnostics`，确认新站的 Property ID 出现在 `accessibleAccounts` 列表中。
 
 ---
 
@@ -751,6 +772,7 @@ curl -s "https://your-site.vercel.app/robots.txt"
 
 - [ ] GA4 实时报告能看到自己的访问
 - [ ] Measurement ID 正确（G- 开头）
+- [ ] ⚠️ **服务账号已授权**（见 4.3 节）— 否则 Dashboard 永远看不到数据
 
 ### 7.7 性能检查
 

@@ -349,6 +349,7 @@ Step 6: 更新站点统计文档（必须）
 
 Step 7: 输出用户待办清单
   - [ ] 创建 GA4 Property → 更新 seo-config.ts 中的 googleAnalyticsId
+  - [ ] ⚠️ GA4 服务账号授权（dashboard-ga-reader@midyear-psyche-501006-c0.iam.gserviceaccount.com 加为 Viewer）
   - [ ] GSC 提交 sitemap（Vercel 部署后自动生效）
   - [ ] 更新 Dashboard GA4 Property ID
   - [ ] 确认 游戏站点统计.md 已更新
