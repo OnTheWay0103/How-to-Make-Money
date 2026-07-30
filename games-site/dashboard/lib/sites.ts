@@ -114,7 +114,7 @@ export const SITES: SiteConfig[] = [
   },
   {
     name: 'Bonehold Wiki',
-    propertyId: 'G-PLACEHOLDER',
-    gaId: 'G-PLACEHOLDER',
+    propertyId: '15349793188',
+    gaId: 'G-FETT7T07F7',
   },
 ];
