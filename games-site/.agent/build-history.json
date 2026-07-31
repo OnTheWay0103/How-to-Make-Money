@@ -1,6 +1,29 @@
 {
   "builds": [
     {
+      "game": "Expeditions: Samurai",
+      "date": "2026-08-01",
+      "genre": "Party-Based Tactical CRPG (Sengoku Japan)",
+      "template": "themoundwiki (Agent auto, skill-driven)",
+      "guides": 12,
+      "keywords": 25,
+      "score": 20,
+      "issues": [
+        "Pre-launch game (EA Aug 7) — guides based on official confirms + series precedent, gameplay details to be verified post-launch",
+        "Village management not in EA launch build (arrives during EA) — guide covers confirmed info + roadmap only",
+        "Class names and 3 of 8 companion names unconfirmed — guides honestly mark them TBD",
+        "First build hit a transient exit-code-1 on back-to-back npm builds (.next cache race) — clean rebuild passed exit 0"
+      ],
+      "lessons": [
+        "20/20 game: series pedigree (1.3M+ sales, Expeditions Rome/Viking/Conquistador) + EA in 6 days + ZERO wiki competition + CRPG guide demand = perfect candidate",
+        "CRPG guide structure confirmed: builds, classes, companions, romance, stealth, combat, weapons, co-op, walkthrough, tips all verified real search terms",
+        "Pre-launch guides must separate confirmed facts from series-precedent expectations — no fabrication, mark TBD items honestly",
+        "12-file checklist + build gate + residue scan = zero-miss deployment (only 1 residual comment fixed)",
+        "Deploy verify needs re-check after edge-cache propagation — first curl can return stale transitional response"
+      ],
+      "fixes_applied": []
+    },
+    {
       "game": "Go-Go Town!",
       "date": "2026-08-01",
       "genre": "Co-op City Builder / Management Sim",

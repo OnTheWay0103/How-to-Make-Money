@@ -137,4 +137,9 @@ export const SITES: SiteConfig[] = [
     propertyId: '',
     gaId: 'G-PLACEHOLDER',
   },
+  {
+    name: 'Expeditions: Samurai Wiki',
+    propertyId: '',
+    gaId: 'G-PLACEHOLDER',
+  },
 ];

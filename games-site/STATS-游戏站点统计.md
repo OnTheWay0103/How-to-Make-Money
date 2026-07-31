@@ -1,6 +1,6 @@
 # 游戏攻略站 — 站点统计
 
-> 最后更新：2026-08-01 | 25 站 · ~454 篇攻略
+> 最后更新：2026-08-01 | 26 站 · ~466 篇攻略
 
 ---
 
@@ -33,6 +33,7 @@
 | 23 | Phantom Tower 🆕 | 7/30 | 10 | phantomtowerwiki.vercel.app | ✅ | ❌ | 🟡 | GA4 待创建 |
 | 24 | Ardent Wilds 🆕 | 7/31 | 12 | ardentwildswiki.vercel.app | ✅ | ❌ | 🟡 | GA4 待创建 |
 | 25 | Go-Go Town! 🆕 | 8/01 | 10 | gotownwiki.vercel.app | ✅ | ❌ | 🟡 | 7/16 1.0 上线，93% 好评，GA4 待创建 |
+| 26 | Expeditions: Samurai 🆕 | 8/01 | 12 | expeditionssamuraiwiki.vercel.app | ✅ | ❌ | 🟡 | **20/20 最高分**，8/7 EA 上线，GA4 待创建 |
 
 ---
 
@@ -65,6 +66,7 @@
 | 23 | Phantom Tower | 7/30 | ✅ | ❌ | ✅ | ❌ | ✅ | 🟡 | ✅ | ✅ |
 | 24 | Ardent Wilds | 7/31 | ✅ | ✅ | ✅ | ❌ | ✅ | 🟡 | ✅ | ✅ |
 | 25 | Go-Go Town! | 8/01 | ✅ | ✅ 25 | ✅ | ❌ | ✅ | 🟡 | ✅ | ✅ |
+| 26 | Expeditions: Samurai | 8/01 | ✅ | ✅ 25 | ✅ | ❌ | ✅ | 🟡 | ✅ | ✅ |
 
 ---
 
@@ -78,13 +80,14 @@
 
 | 事项 | 涉及站点 | 操作 |
 |------|---------|------|
-| **创建 GA4** | Taival, Vahrin's Call, The Relic, Graphite, Shift At Midnight, **Moonlight Peaks**, **Phantom Tower**, **Ardent Wilds**, **Go-Go Town!** | GA4 后台创建，发我 Measurement ID |
-| **GSC 验证** | 10 站 🟡 (Taival, Vahrin's, Relic, Graphite, Shift At Midnight, Moonlight Peaks, **Bonehold**, **Phantom Tower**, **Ardent Wilds**, **Go-Go Town!**) | GSC 后台添加资源+验证 |
+| **创建 GA4** | Taival, Vahrin's Call, The Relic, Graphite, Shift At Midnight, **Moonlight Peaks**, **Phantom Tower**, **Ardent Wilds**, **Go-Go Town!**, **Expeditions: Samurai** | GA4 后台创建，发我 Measurement ID |
+| **GSC 验证** | 11 站 🟡 (Taival, Vahrin's, Relic, Graphite, Shift At Midnight, Moonlight Peaks, **Bonehold**, **Phantom Tower**, **Ardent Wilds**, **Go-Go Town!**, **Expeditions: Samurai**) | GSC 后台添加资源+验证 |
 
 ### 🟢 P2 — 上线日跟进
 
 | 游戏 | 日期 | 站点 | 需做 |
 |------|------|------|------|
+| **Expeditions: Samurai** | 8/7 | expeditionssamuraiwiki | EA 上线（Act One），20/20 最高分候选 |
 | Grain Rot | 8/7 | grainrotwiki | 200k wishlist |
 | Mystralia | 8/11 | mystraliawiki | EA 上线 |
 
@@ -94,15 +97,15 @@
 
 | 指标 | 数值 |
 |------|:--:|
-| **总站点数** | 25 |
-| **总攻略数** | ~454 |
-| **Vercel 部署** | 25/25 ✅ |
-| **GA4 配置** | 16/25 ✅ |
-| **Dashboard 注册** | 25/25 ✅ |
-| **GSC 文件部署** | 25/25 ✅ |
-| **GSC 已验证** | 15/25 |
-| **GitHub 自动部署** | 1/25 |
-| **待创建 GA4** | 9 (Taival, Vahrin's Call, The Relic, Graphite, Shift At Midnight, Moonlight Peaks, Phantom Tower, Ardent Wilds, Go-Go Town!) |
+| **总站点数** | 26 |
+| **总攻略数** | ~466 |
+| **Vercel 部署** | 26/26 ✅ |
+| **GA4 配置** | 16/26 ✅ |
+| **Dashboard 注册** | 26/26 ✅ |
+| **GSC 文件部署** | 26/26 ✅ |
+| **GSC 已验证** | 15/26 |
+| **GitHub 自动部署** | 1/26 |
+| **待创建 GA4** | 10 (Taival, Vahrin's Call, The Relic, Graphite, Shift At Midnight, Moonlight Peaks, Phantom Tower, Ardent Wilds, Go-Go Town!, Expeditions: Samurai) |
 
 ---
 
@@ -136,6 +139,7 @@
 ✅ 7/31  Sephiria 1.0
 ✅ 7/31  The Relic
 ✅ 7/16  Go-Go Town! 1.0（8/1 建站）
+🔜 8/7   Expeditions: Samurai EA（8/1 建站，20/20）
 🔜 8/7   Grain Rot
 🔜 8/11  Mystralia EA
 ```
