@@ -31,9 +31,18 @@ WebSearch "{gameName} wiki fandom guide"
 
 ## Step 4: 输出报告
 
-保存到 `keyword-results/discovery-{YYYY-MM-DD}.md`。
+保存到 `.agent/candidate-pool.md`（覆盖候选清单部分）和 `keyword-results/discovery-{YYYY-MM-DD}.md`（详细报告）。
 
-格式：
+**候选池格式** (`.agent/candidate-pool.md`):
+
+```
+| # | 游戏 | 类型 | 评分 | 上线日 | Wiki | 发现日 | 状态 |
+|---|------|------|:--:|------|:--:|------|------|
+| 1 | Game A | RPG | 17 | 8/15 | ❌无 | 7/31 | 待评估 |
+| 2 | Game B | Survival | 15 | 已上线 | ❌无 | 7/31 | 待评估 |
+```
+
+**详细报告格式** (`keyword-results/discovery-{date}.md`):
 
 ```
 # 游戏发现报告 — {日期}
