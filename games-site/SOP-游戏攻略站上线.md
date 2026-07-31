@@ -73,43 +73,18 @@ https://suggestqueries.google.com/complete/search?client=chrome&q={关键词}
 
 #### 1.2.3 工具脚本
 
-项目下提供了抓取脚本：
+项目下提供了两种关键词收割方式：
 
-| 脚本 | 方式 | 适用场景 |
-|------|------|---------|
-| `harvest-curl.sh` | curl + HTTP 代理 | 需本地配置代理 |
-| `harvest-light.mjs` | Node.js https | 直连可用时 |
-| `harvest-keywords-browser.mjs` | Puppeteer 浏览器 | 模拟真实浏览器 |
+| 方式 | 适用场景 |
+|------|---------|
+| **Agent 自动收割** | 推荐 — 调用 `/harvest-keywords` Skill，自动去噪分类 |
+| `docs/archive/harvest-curl.sh` | 备用手动脚本 — curl + HTTP 代理 |
 
-**推荐用法**（确保代理已开启）：
-```bash
-# 先开代理
-proxyon
-
-# 运行抓取（Python版，最稳定）
-python3 << 'PYEOF'
-import subprocess, json, os, time
-
-PROXY = "http://127.0.0.1:1087"  # 或 socks5h://127.0.0.1:1080
-PREFIXES = ["", "how to ", "best ", "guide ", "weapons ", "beginner ", "build ", "solo ", "co op ", "tier list "]
-
-# 对每个游戏抓取
-GAMES = [("游戏名", "game query")]
-for name, query in GAMES:
-    all_kw = set()
-    for prefix in PREFIXES:
-        r = subprocess.run(["curl", "-s", "--max-time", "30", "--proxy", PROXY,
-            f"https://suggestqueries.google.com/complete/search?client=chrome&q={prefix}{query}"],
-            capture_output=True, text=True, timeout=35)
-        data = json.loads(r.stdout)
-        for s in (data[1] if len(data) > 1 else []): all_kw.add(s)
-        time.sleep(4)  # 避免被 Google 限速
-    # 保存结果到 keyword-results/{name}.md
-    with open(f"keyword-results/{name}.md", "w") as f:
-        for kw in sorted(all_kw): f.write(f"- {kw}\n")
-    print(f"{name}: {len(all_kw)} keywords")
-PYEOF
+**Agent 方式**（推荐）：
 ```
+/harvest-keywords "GameName"
+```
+Agent 会自动调用 Google Suggest API，去噪、分类、保存到 `keyword-results/{GameName}.md`。
 
 #### 1.2.4 验证流程
 
