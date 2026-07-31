@@ -13,14 +13,15 @@ description: PV 监控 Agent — 读取 Dashboard 数据，分析各站 PV，标
 
 ### Step 1: 读取 Dashboard 数据
 
-访问诊断 API 获取各站数据：
+访问诊断 API 获取各站 PV 数据：
 ```
 GET https://dashboard-pied-six-31.vercel.app/api/diagnostics
+→ 读取 sitePV 数组: [{ name, propertyId, pageViews, users }]
 ```
 
 检查：
 - `apiResult` = "OK" → 数据正常
-- `accessibleAccounts` → 确认所有站点可访问
+- `sitePV` → 每个站点的 pageViews 和 users
 
 ### Step 2: 读取统计文档
 
