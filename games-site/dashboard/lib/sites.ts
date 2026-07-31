@@ -132,4 +132,9 @@ export const SITES: SiteConfig[] = [
     propertyId: '',
     gaId: 'G-PLACEHOLDER',
   },
+  {
+    name: 'Go-Go Town! Wiki',
+    propertyId: '',
+    gaId: 'G-PLACEHOLDER',
+  },
 ];

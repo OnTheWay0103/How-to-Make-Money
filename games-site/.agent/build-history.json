@@ -1,6 +1,28 @@
 {
   "builds": [
     {
+      "game": "Go-Go Town!",
+      "date": "2026-08-01",
+      "genre": "Co-op City Builder / Management Sim",
+      "template": "themoundwiki (Coordinator Branch B auto-build, skill-driven)",
+      "guides": 10,
+      "keywords": 25,
+      "score": 15,
+      "issues": [
+        "WebSearch-compiled game knowledge (no Google Suggest API without proxy)",
+        "Official community wiki (gogotown.wiki.gg) exists but is early-stage — no independent wiki site, competition scored low",
+        "G-PLACEHOLDER GA ID — GA4 property not yet created"
+      ],
+      "lessons": [
+        "15/20 game: 1.0 launched July 16 + 93% Very Positive (2200+ reviews) + Steam Deck Verified = solid city-builder candidate",
+        "City builders have distinct keyword structure vs RPG/soulslike: layout, build order, money, automation, tourists — all verified real search terms",
+        "Cozy/management sims have no combat guide demand — content shifts to production chains, worker AI, and economy",
+        "Genre insights from build-history didn't cover city builders — added Cozy/Management pattern to guide planning",
+        "12-file checklist + build gate + residue scan = zero-miss deployment (18/18 checklist items passed, build exit 0, deploy verified 200)"
+      ],
+      "fixes_applied": []
+    },
+    {
       "game": "Moonlight Peaks",
       "date": "2026-07-31",
       "genre": "Cozy Vampire Farming Life Sim",
@@ -421,6 +443,15 @@
         "co-op",
         "weapons"
       ]
+    },
+    "City Builder": {
+      "avgKeywords": 25,
+      "topGuides": [
+        "layout",
+        "money",
+        "automation"
+      ],
+      "note": "Go-Go Town! (8/1) — 无战斗类攻略，内容侧重生产链、工人 AI、经济与游客满意度"
     }
   }
 }

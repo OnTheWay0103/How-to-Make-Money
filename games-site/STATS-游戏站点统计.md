@@ -1,6 +1,6 @@
 # 游戏攻略站 — 站点统计
 
-> 最后更新：2026-07-31 | 24 站 · ~425 篇攻略
+> 最后更新：2026-08-01 | 25 站 · ~454 篇攻略
 
 ---
 
@@ -11,15 +11,15 @@
 | 1 | Witchspire | 6/29 | 29 | witchspirewiki.vercel.app | ✅ | ✅ | ✅ | 唯一 GitHub 自动部署 |
 | 2 | Mistfall Hunter | 7/01 | 33 | mistfallhunterwiki.vercel.app | ✅ | ✅ | ✅ | 已上线 |
 | 3 | Aincrad | 7/07 | 29 | aincradwiki.vercel.app | ✅ | ✅ | ✅ | |
-| 4 | The Mound | 7/14 | 20 | themoundwiki.vercel.app | ✅ | ✅ | ✅ | |
-| 5 | SpiritVale | 7/12 | 19 | spiritvalewiki.vercel.app | ✅ | ✅ | ✅ | |
+| 4 | The Mound | 7/14 | 24 | themoundwiki.vercel.app | ✅ | ✅ | ✅ | |
+| 5 | SpiritVale | 7/12 | 24 | spiritvalewiki.vercel.app | ✅ | ✅ | ✅ | |
 | 6 | Skills & Raids | 7/15 | 19 | skillsandraidswiki.vercel.app | ✅ | ✅ | ✅ | 7/27 游戏上线 |
 | 7 | MineGeon | 7/20 | 20 | minegeonwiki.vercel.app | ✅ | ✅ | ✅ | 7/28 游戏上线 |
 | 8 | Sephiria | 7/21 | 27 | sephiriawiki.vercel.app | ✅ | ✅ | ✅ | **7/31 1.0 上线** |
 | 9 | DinoBlade | 7/21 | 19 | dinobladewiki.vercel.app | ✅ | ✅ | ✅ | |
-| 10 | Mystralia | 7/22 | 17 | mystraliawiki.vercel.app | ✅ | ✅ | ✅ | 8/11 EA |
+| 10 | Mystralia | 7/22 | 24 | mystraliawiki.vercel.app | ✅ | ✅ | ✅ | 8/11 EA |
 | 11 | Tears of Metal | 7/23 | 13 | tearsofmetalwiki.vercel.app | ✅ | ✅ | ✅ | 7/22 游戏上线 |
-| 12 | Grain Rot | 7/24 | 15 | grainrotwiki.vercel.app | ✅ | ✅ | ✅ | 8/7 游戏上线 |
+| 12 | Grain Rot | 7/24 | 23 | grainrotwiki.vercel.app | ✅ | ✅ | ✅ | 8/7 游戏上线 |
 | 13 | DragonSword | 7/25 | 15 | dragonswordwiki.vercel.app | ✅ | ✅ | ✅ | 7/22 游戏上线 |
 | 14 | Dwarf Delve | 7/26 | 18 | dwarfdelvewiki.vercel.app | ✅ | ✅ | ✅ | |
 | 15 | Lunarium | 7/26 | 18 | lunariumwiki.vercel.app | ✅ | ✅ | ✅ | |
@@ -32,6 +32,7 @@
 | 22 | Bonehold 🆕 | 7/30 | 10 | boneholdwiki.vercel.app | ✅ | ✅ | 🟡 | GA4 已配置，GSC 待验证 |
 | 23 | Phantom Tower 🆕 | 7/30 | 10 | phantomtowerwiki.vercel.app | ✅ | ❌ | 🟡 | GA4 待创建 |
 | 24 | Ardent Wilds 🆕 | 7/31 | 12 | ardentwildswiki.vercel.app | ✅ | ❌ | 🟡 | GA4 待创建 |
+| 25 | Go-Go Town! 🆕 | 8/01 | 10 | gotownwiki.vercel.app | ✅ | ❌ | 🟡 | 7/16 1.0 上线，93% 好评，GA4 待创建 |
 
 ---
 
@@ -63,6 +64,7 @@
 | 22 | Bonehold | 7/30 | ✅ | ❌ | ✅ | ✅ | ✅ | 🟡 | ✅ | ✅ |
 | 23 | Phantom Tower | 7/30 | ✅ | ❌ | ✅ | ❌ | ✅ | 🟡 | ✅ | ✅ |
 | 24 | Ardent Wilds | 7/31 | ✅ | ✅ | ✅ | ❌ | ✅ | 🟡 | ✅ | ✅ |
+| 25 | Go-Go Town! | 8/01 | ✅ | ✅ 25 | ✅ | ❌ | ✅ | 🟡 | ✅ | ✅ |
 
 ---
 
@@ -76,8 +78,8 @@
 
 | 事项 | 涉及站点 | 操作 |
 |------|---------|------|
-| **创建 GA4** | Taival, Vahrin's Call, The Relic, Graphite, Shift At Midnight, **Moonlight Peaks**, **Phantom Tower**, **Ardent Wilds** | GA4 后台创建，发我 Measurement ID |
-| **GSC 验证** | 9 站 🟡 (Taival, Vahrin's, Relic, Graphite, Shift At Midnight, Moonlight Peaks, **Bonehold**, **Phantom Tower**, **Ardent Wilds**) | GSC 后台添加资源+验证 |
+| **创建 GA4** | Taival, Vahrin's Call, The Relic, Graphite, Shift At Midnight, **Moonlight Peaks**, **Phantom Tower**, **Ardent Wilds**, **Go-Go Town!** | GA4 后台创建，发我 Measurement ID |
+| **GSC 验证** | 10 站 🟡 (Taival, Vahrin's, Relic, Graphite, Shift At Midnight, Moonlight Peaks, **Bonehold**, **Phantom Tower**, **Ardent Wilds**, **Go-Go Town!**) | GSC 后台添加资源+验证 |
 
 ### 🟢 P2 — 上线日跟进
 
@@ -92,15 +94,15 @@
 
 | 指标 | 数值 |
 |------|:--:|
-| **总站点数** | 24 |
-| **总攻略数** | ~425 |
-| **Vercel 部署** | 24/24 ✅ |
-| **GA4 配置** | 16/24 ✅ |
-| **Dashboard 注册** | 24/24 ✅ |
-| **GSC 文件部署** | 24/24 ✅ |
-| **GSC 已验证** | 15/24 |
-| **GitHub 自动部署** | 1/24 |
-| **待创建 GA4** | 8 (Taival, Vahrin's Call, The Relic, Graphite, Shift At Midnight, Moonlight Peaks, Phantom Tower, Ardent Wilds) |
+| **总站点数** | 25 |
+| **总攻略数** | ~454 |
+| **Vercel 部署** | 25/25 ✅ |
+| **GA4 配置** | 16/25 ✅ |
+| **Dashboard 注册** | 25/25 ✅ |
+| **GSC 文件部署** | 25/25 ✅ |
+| **GSC 已验证** | 15/25 |
+| **GitHub 自动部署** | 1/25 |
+| **待创建 GA4** | 9 (Taival, Vahrin's Call, The Relic, Graphite, Shift At Midnight, Moonlight Peaks, Phantom Tower, Ardent Wilds, Go-Go Town!) |
 
 ---
 
@@ -133,6 +135,7 @@
 ✅ 7/28  MineGeon: Renegades
 ✅ 7/31  Sephiria 1.0
 ✅ 7/31  The Relic
+✅ 7/16  Go-Go Town! 1.0（8/1 建站）
 🔜 8/7   Grain Rot
 🔜 8/11  Mystralia EA
 ```
