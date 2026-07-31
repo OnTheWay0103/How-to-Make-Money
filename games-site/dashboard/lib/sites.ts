@@ -117,4 +117,9 @@ export const SITES: SiteConfig[] = [
     propertyId: '547702399',
     gaId: 'G-FETT7T07F7',
   },
+  {
+    name: 'Moonlight Peaks Wiki',
+    propertyId: '',
+    gaId: 'G-PLACEHOLDER',
+  },
 ];

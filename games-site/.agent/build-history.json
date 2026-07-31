@@ -1,6 +1,28 @@
 {
   "builds": [
     {
+      "game": "Moonlight Peaks",
+      "date": "2026-07-31",
+      "genre": "Cozy Vampire Farming Life Sim",
+      "template": "themoundwiki (Coordinator auto, skill-driven)",
+      "guides": 12,
+      "keywords": 20,
+      "score": 17,
+      "issues": [
+        "WebSearch-compiled game knowledge (no Google Suggest API without proxy)",
+        "Order Automatica (0 reviews) and Stoneguard (~121 copies) candidates rejected for insufficient player base",
+        "Fandom wiki exists for Moonlight Peaks but is early-stage placeholder — scored competition 3/5"
+      ],
+      "lessons": [
+        "17/20 game: 200K+ copies in 3 weeks + 89% Very Positive + farming-sim keyword structure = strongest candidate found",
+        "Farming/life sims have Stardew-style guide demand: romance, gifts, potions, quests, crops all verified real search terms",
+        "200K+ player base with only scattered guides = no competition problem despite early-stage Fandom",
+        "12-file checklist + build gate + residual scan = zero-miss deployment again",
+        "Candidate pool empty -> full discovery cycle produced 5 candidates; only 1 passed the 15 threshold"
+      ],
+      "fixes_applied": []
+    },
+    {
       "game": "Bonehold",
       "date": "2026-07-30",
       "genre": "Roguelike Dungeon Crawler ARPG",
@@ -108,8 +130,13 @@
       "guides": 20,
       "keywords": 88,
       "score": 16,
-      "issues": ["首次建站，模板从零搭建"],
-      "lessons": ["RPG 类 Tier List + Build 搜索量最高", "Co-op 攻略不可缺"],
+      "issues": [
+        "首次建站，模板从零搭建"
+      ],
+      "lessons": [
+        "RPG 类 Tier List + Build 搜索量最高",
+        "Co-op 攻略不可缺"
+      ],
       "fixes_applied": []
     },
     {
@@ -120,9 +147,16 @@
       "guides": 25,
       "keywords": 89,
       "score": 17,
-      "issues": ["Root Directory 配置导致部署失败"],
-      "lessons": ["Extraction 类游戏 Build 攻略搜索量极高", "PvPvE 需要 solo + team 分开写"],
-      "fixes_applied": ["Root Directory 通过 API 修复"]
+      "issues": [
+        "Root Directory 配置导致部署失败"
+      ],
+      "lessons": [
+        "Extraction 类游戏 Build 攻略搜索量极高",
+        "PvPvE 需要 solo + team 分开写"
+      ],
+      "fixes_applied": [
+        "Root Directory 通过 API 修复"
+      ]
     },
     {
       "game": "Echoes of Aincrad",
@@ -132,8 +166,13 @@
       "guides": 20,
       "keywords": 107,
       "score": 16,
-      "issues": ["GSC 验证文件延迟"],
-      "lessons": ["大 IP 游戏 Co-op 搜索量很高", "Demo 攻略意外热门"],
+      "issues": [
+        "GSC 验证文件延迟"
+      ],
+      "lessons": [
+        "大 IP 游戏 Co-op 搜索量很高",
+        "Demo 攻略意外热门"
+      ],
       "fixes_applied": []
     },
     {
@@ -144,9 +183,18 @@
       "guides": 14,
       "keywords": 46,
       "score": 14,
-      "issues": ["Root Directory 导致部署失败", "模板残留严重（Aincrad 内容未清理）"],
-      "lessons": ["上线前 1 天建站关键词少，上线后逐渐增长", "模板复制后必须做残留清理"],
-      "fixes_applied": ["API 修复 Root Directory", "sed 批量替换模板残留"]
+      "issues": [
+        "Root Directory 导致部署失败",
+        "模板残留严重（Aincrad 内容未清理）"
+      ],
+      "lessons": [
+        "上线前 1 天建站关键词少，上线后逐渐增长",
+        "模板复制后必须做残留清理"
+      ],
+      "fixes_applied": [
+        "API 修复 Root Directory",
+        "sed 批量替换模板残留"
+      ]
     },
     {
       "game": "SpiritVale",
@@ -156,9 +204,17 @@
       "guides": 13,
       "keywords": 116,
       "score": 18,
-      "issues": ["Dashboard 新增站点不显示（fetchSiteData 返回 null）"],
-      "lessons": ["MMORPG 关键词极多（116）", "fetchSiteData 不能用 null，应返回零填充数据", "Free-to-Play 游戏搜索量高于付费游戏"],
-      "fixes_applied": ["修复 fetchSiteData 返回零填充数据"]
+      "issues": [
+        "Dashboard 新增站点不显示（fetchSiteData 返回 null）"
+      ],
+      "lessons": [
+        "MMORPG 关键词极多（116）",
+        "fetchSiteData 不能用 null，应返回零填充数据",
+        "Free-to-Play 游戏搜索量高于付费游戏"
+      ],
+      "fixes_applied": [
+        "修复 fetchSiteData 返回零填充数据"
+      ]
     },
     {
       "game": "Skills & Raids",
@@ -168,8 +224,14 @@
       "guides": 13,
       "keywords": 20,
       "score": 12,
-      "issues": ["游戏名太通用导致关键词噪声率 ~60%", "单人开发者，游戏体量不确定"],
-      "lessons": ["通用名称的游戏需要更长尾的标题策略", "单人开发游戏搜索量上限低"],
+      "issues": [
+        "游戏名太通用导致关键词噪声率 ~60%",
+        "单人开发者，游戏体量不确定"
+      ],
+      "lessons": [
+        "通用名称的游戏需要更长尾的标题策略",
+        "单人开发游戏搜索量上限低"
+      ],
       "fixes_applied": []
     },
     {
@@ -180,8 +242,13 @@
       "guides": 11,
       "keywords": 0,
       "score": 15,
-      "issues": ["手动建站（非Agent），Agent建站流程的对照参考"],
-      "lessons": ["构建验证 Gate 可以防止漏掉 package.json/tsconfig.json", "cp -r 模板比逐文件创建更可靠"],
+      "issues": [
+        "手动建站（非Agent），Agent建站流程的对照参考"
+      ],
+      "lessons": [
+        "构建验证 Gate 可以防止漏掉 package.json/tsconfig.json",
+        "cp -r 模板比逐文件创建更可靠"
+      ],
       "fixes_applied": []
     },
     {
@@ -323,9 +390,37 @@
     "note": "themoundwiki 是最干净的模板，残留最少。aincradwiki 和 witchspirewiki 残留较多，不推荐作为模板。"
   },
   "genreInsights": {
-    "MMORPG": { "avgKeywords": 116, "topGuides": ["tier list", "classes", "leveling"] },
-    "Extraction": { "avgKeywords": 52, "topGuides": ["builds", "weapons", "extraction"] },
-    "RPG": { "avgKeywords": 88, "topGuides": ["builds", "beginner", "weapons"] },
-    "Horror": { "avgKeywords": 46, "topGuides": ["guide", "co-op", "weapons"] }
+    "MMORPG": {
+      "avgKeywords": 116,
+      "topGuides": [
+        "tier list",
+        "classes",
+        "leveling"
+      ]
+    },
+    "Extraction": {
+      "avgKeywords": 52,
+      "topGuides": [
+        "builds",
+        "weapons",
+        "extraction"
+      ]
+    },
+    "RPG": {
+      "avgKeywords": 88,
+      "topGuides": [
+        "builds",
+        "beginner",
+        "weapons"
+      ]
+    },
+    "Horror": {
+      "avgKeywords": 46,
+      "topGuides": [
+        "guide",
+        "co-op",
+        "weapons"
+      ]
+    }
   }
 }

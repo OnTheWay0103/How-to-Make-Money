@@ -1,6 +1,6 @@
 # 游戏攻略站 — 站点统计
 
-> 最后更新：2026-07-29 | 20 站 · ~332 篇攻略
+> 最后更新：2026-07-31 | 21 站 · ~344 篇攻略
 
 ---
 
@@ -28,6 +28,7 @@
 | 18 | The Relic 🆕 | 7/28 | 11 | relicfirstguardianwiki.vercel.app | ✅ | ❌ | 🟡 | 7/31 游戏上线，GA4 待创建 |
 | 19 | Graphite 🆕 | 7/29 | 11 | graphitewiki.vercel.app | ✅ | ❌ | 🟡 | 7/27 游戏上线，GA4 待创建 |
 | 20 | Shift At Midnight 🆕 | 7/29 | 12 | shiftatmidnightwiki.vercel.app | ✅ | ❌ | 🟡 | 7/22 游戏上线，GA4 待创建 |
+| 21 | Moonlight Peaks 🆕 | 7/31 | 12 | moonlightpeakswiki.vercel.app | ✅ | ❌ | 🟡 | 7/7 游戏上线，20万销量，GA4 待创建 |
 
 ---
 
@@ -55,6 +56,7 @@
 | 18 | The Relic | 7/28 | ✅ | ✅ 44 | ✅ | ❌ | ✅ | 🟡 | ✅ | ✅ |
 | 19 | Graphite | 7/29 | ✅ | ✅ 65 | ✅ | ❌ | ✅ | 🟡 | ✅ | ✅ |
 | 20 | Shift At Midnight | 7/29 | ✅ | ❌ WebSearch | ✅ | ❌ | ✅ | 🟡 | ✅ | ✅ |
+| 21 | Moonlight Peaks | 7/31 | ✅ | ✅ WebSearch | ✅ | ❌ | ⏳ | 🟡 | ✅ | ✅ |
 
 ---
 
@@ -68,8 +70,8 @@
 
 | 事项 | 涉及站点 | 操作 |
 |------|---------|------|
-| **创建 GA4** | Taival, Vahrin's Call, The Relic, Graphite, Shift At Midnight | GA4 后台创建，发我 Measurement ID |
-| **GSC 验证** | 5 站 🟡 (Taival, Vahrin's, Relic, Graphite, Shift At Midnight) | GSC 后台添加资源+验证 |
+| **创建 GA4** | Taival, Vahrin's Call, The Relic, Graphite, Shift At Midnight, **Moonlight Peaks** | GA4 后台创建，发我 Measurement ID |
+| **GSC 验证** | 6 站 🟡 (Taival, Vahrin's, Relic, Graphite, Shift At Midnight, Moonlight Peaks) | GSC 后台添加资源+验证 |
 | **关键词收割** | MineGeon, DinoBlade, Dwarf Delve, Lunarium | 4 站缺关键词，需补跑 harvest |
 
 ### 🟢 P2 — 上线日跟进
@@ -87,15 +89,15 @@
 
 | 指标 | 数值 |
 |------|:--:|
-| **总站点数** | 20 |
-| **总攻略数** | ~332 |
-| **Vercel 部署** | 20/20 ✅ |
-| **GA4 配置** | 15/20 ✅ |
-| **Dashboard 注册** | 20/20 ✅ |
-| **GSC 文件部署** | 20/20 ✅ |
-| **GSC 已验证** | 15/20 |
-| **GitHub 自动部署** | 1/20 |
-| **待创建 GA4** | 5 (Taival, Vahrin's Call, The Relic, Graphite, Shift At Midnight) |
+| **总站点数** | 21 |
+| **总攻略数** | ~344 |
+| **Vercel 部署** | 21/21 ✅ |
+| **GA4 配置** | 15/21 ✅ |
+| **Dashboard 注册** | 21/21 ✅ |
+| **GSC 文件部署** | 21/21 ✅ |
+| **GSC 已验证** | 15/21 |
+| **GitHub 自动部署** | 1/21 |
+| **待创建 GA4** | 6 (Taival, Vahrin's Call, The Relic, Graphite, Shift At Midnight, Moonlight Peaks) |
 
 ---
 

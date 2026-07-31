@@ -7,13 +7,17 @@
 
 | # | 游戏 | 类型 | 评分 | 上线日 | Wiki | 发现日 | 状态 |
 |---|------|------|:--:|------|:--:|------|------|
-| — | — | — | — | — | — | — | 待侦察 Agent 填充 |
+| 1 | Go-Go Town! | Co-op City Builder | 15 | 7/16 1.0 | ❌ 无独立Wiki | 7/31 | 待建站（备选） |
+| 2 | Twisted Tower | FPS Horror Adventure | 14 | 8/18 | ❌ 无 | 7/31 | 观望（等待临近发售） |
+| 3 | FEED IT | PSX-Style Horror | 12 | 8/17 | ❌ 无 | 7/31 | 观望（wishlist 偏低） |
+| 4 | Stoneguard | Horde Survival EA | 11 | 7/30 | ❌ 无 | 7/31 | 低分（仅 ~121 销量） |
+| 5 | Order Automatica | Tactical Roguelite | 11 | 7/27 | ❌ 无 | 7/31 | 低分（0 评测 319 关注） |
 
 ## 已建站（从候选池移除）
 
 | 游戏 | 评分 | 建站日 | 站点 |
 |------|:--:|------|------|
-| — | — | — | — |
+| Moonlight Peaks | 17 | 7/31 | moonlightpeakswiki |
 
 ---
 
