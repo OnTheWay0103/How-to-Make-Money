@@ -103,5 +103,51 @@ export async function GET() {
     ),
   };
 
+  // 4. Per-site PV summary (for monitor Agent)
+  try {
+    const { SITES } = await import('@/lib/sites');
+    const { BetaAnalyticsDataClient } = await import('@google-analytics/data');
+    const email = process.env.GA_CLIENT_EMAIL;
+    const key = process.env.GA_PRIVATE_KEY?.replace(/\\n/g, '\n');
+
+    if (email && key) {
+      const client = new BetaAnalyticsDataClient({
+        credentials: { client_email: email, private_key: key },
+      });
+
+      const pvData: Record<string, unknown>[] = [];
+      for (const site of SITES) {
+        try {
+          const [resp] = await client.runReport({
+            property: `properties/${site.propertyId}`,
+            dateRanges: [{ startDate: '30daysAgo', endDate: 'today' }],
+            metrics: [
+              { name: 'screenPageViews' },
+              { name: 'totalUsers' },
+            ],
+          });
+          const row = resp.rows?.[0];
+          pvData.push({
+            name: site.name,
+            propertyId: site.propertyId,
+            pageViews: parseInt(row?.metricValues?.[0]?.value ?? '0', 10),
+            users: parseInt(row?.metricValues?.[1]?.value ?? '0', 10),
+          });
+        } catch {
+          pvData.push({
+            name: site.name,
+            propertyId: site.propertyId,
+            pageViews: 0,
+            users: 0,
+            error: 'fetch_failed',
+          });
+        }
+      }
+      results.sitePV = pvData;
+    }
+  } catch (err: unknown) {
+    results.pvError = (err as Error).message;
+  }
+
   return NextResponse.json(results, { status: 200 });
 }
