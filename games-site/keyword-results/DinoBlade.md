@@ -1,98 +1,97 @@
-# DinoBlade — Google Suggest 关键词
+# DinoBlade — Google Suggest Keywords
+> 70 unique keywords | 2026-07-31
+> 类型: 恐龙主题 Soulslike（Spinosaurus 持剑） | Team Spino LLC | Steam 2026-07-23 上线 $19.99，Demo 好评如潮
 
-> 采集日期: 2026-07-29
-> 前缀数: 12
+## How-to / Guide (21)
+- dinoblade guide
+- dinoblade how to play
+- dinoblade walkthrough
+- dinoblade how to parry
+- dinoblade parry guide
+- dinoblade combat guide
+- dinoblade how to heal
+- dinoblade how to dodge
+- dinoblade how to get xp fast
+- dinoblade leveling guide
+- dinoblade how to unlock soul arts
+- dinoblade boss guide
+- dinoblade how to beat kira the exile
+- dinoblade how to beat kasei the tyrant
+- dinoblade endings guide
+- dinoblade how to get all endings
+- dinoblade new game plus guide
+- dinoblade boss rush guide
+- dinoblade speedrun tips
+- dinoblade challenge runs
+- dinoblade achievements guide
 
-## 前缀: ``
+## Best / Top / Tier (9)
+- dinoblade tier list
+- dinoblade weapon tier list
+- dinoblade best weapon
+- dinoblade best weapons
+- dinoblade best build
+- dinoblade best builds
+- dinoblade best soul arts
+- dinoblade best skills
+- dinoblade best charm
 
-- dinoblade steam
+## Weapons / Gear (8)
+- dinoblade weapons
+- dinoblade all weapons
+- dinoblade greatsword build
+- dinoblade how to upgrade weapons
+- dinoblade ex mod
+- dinoblade hidden weapons
+- dinoblade best gear
+- dinoblade weapon ranking
+
+## Beginner / Tips (6)
+- dinoblade beginner guide
+- dinoblade tips
+- dinoblade tips and tricks
+- dinoblade getting started
+- dinoblade first expedition
+- dinoblade stat allocation
+
+## Dinosaurs / Enemies (7)
+- dinoblade all dinosaurs
+- dinoblade dinosaurs guide
+- dinoblade dino types
+- dinoblade dinosaur weaknesses
+- dinoblade all bosses
+- dinoblade raptor guide
+- dinoblade ankylosaurus
+
+## Solo / Co-op (5)
+- dinoblade multiplayer
+- dinoblade co op
+- dinoblade pvp
+- dinoblade invasion
+- dinoblade solo
+
+## Review / Worth (8)
 - dinoblade release date
-- dinoblade ps5
+- dinoblade review
 - dinoblade price
-- dinoblade game
-- dinoblade youtooz
-- dinoblade xbox
-- dinoblade trailer
+- dinoblade steam
 - dinoblade demo
-- dinoblade console
-- dinoblade release date ps5
+- dinoblade how long to beat
 - dinoblade reddit
 - dinoblade gameplay
-- dinoblade platforms
-- dinoblade review
 
-## 前缀: `how to `
+## Other (6)
+- dinoblade lore
+- dinoblade secrets
+- dinoblade save stones
+- dinoblade soul arts
+- dinoblade wiki
+- dinoblade trainer
 
-- how to play dinoblade
-- how to heal in dinoblade
-- how to parry in dinoblade
-- how to craft diamond sword
-- how to get dinoblade game
-- dinoblade where to get
-- dinoblade release date
+## Notes（质量说明）
 
-## 前缀: `guide `
-
-- dinoblade guide
-- dinoblade recap
-- dinoblade dragon
-- dinoblade how to play
-
-## 前缀: `beginner `
-
-- dinoblade dragon
-- dinoblade how to play
-- dinoblade release date
-- dinoblade beta
-- beginner luck singapore
-
-## 前缀: `weapons `
-
-- dinoblade weapons
-- weapon dbs
-- weapon breaks
-- weapon disc wheel
-- diablos dual blade
-- weapon damage calculator d2
-
-## 前缀: `build `
-
-- best build for black diablos bow
-- build divide trial deck
-- dinoblade release date
-- dino build
-- dinoblade update
-
-## 前缀: `solo `
-
-- solo levelling diamonds
-- solo bengawan
-- solomon boneyard skills
-- solo levelling die
-
-## 前缀: `co op `
-
-- dinoblade co op
-- coop or co-op
-- what are the co-op opening hours
-- co op golden cross opening times
-- combine dino robot 2
-- dinoblade release date
-
-## 前缀: `tier list `
-
-- dinosaur tier list
-- dynamite tier list
-- tier list mobile legends adventure 2023
-- diablo immortal job tier list
-- tier list mobile legends s31
-
-## 前缀: `all `
-
-- dinoblade all dinosaurs
-- dinoblade all bosses
-- dinoblade all weapons
-- dinoblade all finishers
-- dinoblade
-- dinoblade all animations
-
+- **采集方式**: 2026-07-29 原始 Suggest dump 清洗 + 2026-07-31 WebSearch 验证编译（无代理/API）
+- **已剔除干扰词**: "beginner luck singapore"、"diablos dual blade"、"weapon damage calculator d2"（怪物猎人/命运2 词）、"dynamite tier list"、"solo levelling diamonds" 等无关节词
+- **信号判断**: 游戏 7/23 上线、Demo 好评如潮，已出现真实攻略需求（2upskill/gamerblurb/xmodhub 均有攻略文）；parry/posture 机制词与 "all dinosaurs"、"all bosses" 结构词是独有长尾
+- **真实验证词**: "how to parry in dinoblade"、"how to heal in dinoblade"、"dinoblade all dinosaurs"、"dinoblade all bosses"、"dinoblade all weapons" 均来自原始 suggest dump，属高置信词
+- **联机词存疑**: 官方定位单机，但原始 dump 有 "dinoblade co op" 且站点已有 multiplayer/pvp 攻略，保留低置信标记

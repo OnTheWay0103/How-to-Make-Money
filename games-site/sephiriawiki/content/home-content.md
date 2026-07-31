@@ -1,18 +1,18 @@
 ---
-title: "The Mound Wiki — Complete Guide Hub"
-description: "The ultimate community wiki for The Mound: Omen of Cthulhu — the 1-4 player co-op extraction horror by ACE Team / NACON. Find weapons guides, enemy strategies, sanity system tips, contracts, extraction tactics and more."
+title: "Sephiria Wiki — Complete Guide Hub"
+description: "The ultimate community wiki for Sephiria — the pixel-art action roguelite by Sephiria Studio. Climb the Tower of Sephiria with 8 weapons, 200+ relics, and 1-4 player co-op. Find weapon tier lists, boss strategies, build guides, secret rooms, and more."
 category: "Home"
 version: "1.0"
-updated: "2026-07-15"
-keywords: ["The Mound", "The Mound wiki", "The Mound Omen of Cthulhu", "ACE Team", "co-op horror extraction", "Lovecraftian game"]
-related: ["beginner-guide", "weapons-guide", "coop-strategy-guide", "extraction-guide"]
+updated: "2026-07-31"
+keywords: ["Sephiria", "Sephiria wiki", "Sephiria guide", "Sephiria 1.0", "Sephiria roguelite", "Sephiria weapons", "Sephiria bosses", "Sephiria builds"]
+related: ["beginner-guide", "full-release-guide", "weapons-tier-list", "boss-guide", "builds-guide"]
 ---
 
-# The Mound Wiki — Complete Guide Hub
+# Sephiria Wiki — Complete Guide Hub
 
-**Everything you need to survive the Lovecraftian extraction horror by ACE Team / NACON.**
+**Everything you need to climb the Tower of Sephiria — now updated for the 1.0 full release.**
 
-The Mound: Omen of Cthulhu launched on July 15, 2026 on Steam, PS5, and Xbox Series X|S. This wiki covers all core systems, strategies, and secrets for the launch build. Whether you are a solo conquistador or running a 4-player expedition, you will find practical, up-to-date information here.
+Sephiria 1.0 launched on **July 31, 2026** on Steam with a 94% positive rating. The full release adds Chapter 7 (The Astral Vault), two new weapons (Greatsword and Tome), a reworked Hard Mode, Infinite Mode, and 50+ new relics. This wiki covers all core systems, strategies, and secrets for the launch build — for solo climbers and 4-player co-op teams alike.
 
 ---
 
@@ -21,61 +21,69 @@ The Mound: Omen of Cthulhu launched on July 15, 2026 on Steam, PS5, and Xbox Ser
 | Guide | Best For | Difficulty |
 |-------|----------|------------|
 | [Beginner Guide](/guides/beginner-guide) | First-time players | Starter |
-| [Weapons Guide](/guides/weapons-guide) | Loadout planning | Starter |
-| [Co-op Strategy Guide](/guides/coop-strategy-guide) | Team play | Starter |
-| [Extraction Guide](/guides/extraction-guide) | Surviving expeditions | Intermediate |
-| [Sanity Guide](/guides/sanity-guide) | Madness system | Intermediate |
-| [Enemy Guide](/guides/enemy-guide) | Combat tactics | Intermediate |
-| [Contracts Guide](/guides/contracts-guide) | Mission types | Intermediate |
-| [Controls & Settings Guide](/guides/controls-settings-guide) | PC/PS5/Xbox setup | Starter |
-| [Solo Guide](/guides/solo-guide) | Playing alone | Intermediate |
-| [Game Length Guide](/guides/game-length-guide) | Content overview | Starter |
+| [Full Release Guide](/guides/full-release-guide) | What's new in 1.0 | Starter |
+| [Weapons Guide](/guides/weapons-guide) | All 8 weapons & upgrades | Starter |
+| [Weapons Tier List](/guides/weapons-tier-list) | 1.0 meta rankings | Intermediate |
+| [Builds Guide](/guides/builds-guide) | Weapon & relic synergies | Intermediate |
+| [Relics Guide](/guides/relics-guide) | 200+ relic catalog | Intermediate |
+| [Boss Guide](/guides/boss-guide) | All 12+ boss strategies | Intermediate |
+| [Chapter Guide](/guides/chapter-guide) | All 7 chapters | Intermediate |
+| [Co-op Guide](/guides/coop-guide) | Team play | Intermediate |
+| [Hard Mode Guide](/guides/hard-mode-guide) | Corruption & armored enemies | Advanced |
+| [Endgame Guide](/guides/endgame-guide) | Post-game progression | Advanced |
+| [Secret Rooms Guide](/guides/secret-rooms-guide) | Hidden content | Intermediate |
+| [Artifacts Guide](/guides/artifacts-guide) | 1.0 permanent items | Advanced |
+| [Talents Guide](/guides/talents-guide) | 1.0 talent trees | Intermediate |
+| [Game Length Guide](/guides/game-length-guide) | How long to beat | Starter |
+| [Costumes Guide](/guides/costumes-guide) | Cosmetics & unlocks | Starter |
 | [FAQ](/faq) | Quick answers | All |
 
 ---
 
 ## Featured Guides
 
-### Weapons Guide
-Master all 6 weapons — Crossbow, Flintlock Pistol, Matchlock Arquebus, and more. Best loadouts for every situation. [Read the full guide →](/guides/weapons-guide)
+### Full Release Guide
+Sephiria 1.0 is live! Chapter 7, Greatsword & Tome weapons, Hard Mode rework, Infinite Mode, and every quality-of-life improvement in one place. [Read the launch guide →](/guides/full-release-guide)
 
-### Sanity System
-Understand the madness meter, hallucinations, and how to keep your crew sane in the New World. [Full sanity guide →](/guides/sanity-guide)
+### Weapons Tier List
+All 8 weapons ranked after the 1.0 balance patch — where the Greatsword and Tome land, and the best weapon for your playstyle. [View the tier list →](/guides/weapons-tier-list)
 
-### Co-op Strategy
-Spatial Voice Chat, team composition, and communication tactics for 2-4 player squads. [View co-op guide →](/guides/coop-strategy-guide)
+### Endgame Guide
+Hard Mode → Infinite Mode → artifacts and masteries. The complete post-launch progression ladder. [Plan your endgame →](/guides/endgame-guide)
 
-### Enemy Guide
-From forest creatures to Lovecraftian horrors — learn every enemy's attack patterns and weaknesses. [Browse enemies →](/guides/enemy-guide)
+### Secret Rooms
+Cracked walls, hidden doors, music notes, and star-alignment puzzles — how to find every hidden room in all 7 chapters. [Find the secrets →](/guides/secret-rooms-guide)
 
 ---
 
-## What is The Mound: Omen of Cthulhu?
+## What is Sephiria?
 
-The Mound: Omen of Cthulhu is a 1-4 player cooperative PvE extraction horror game set in 1652 Chile, during the Spanish conquest era. Developed by ACE Team and published by NACON, it launched on July 15, 2026. You and your crew sail from the Galleon — your floating hub — into Lovecraftian wilderness, accept Contracts, explore hostile islands, and extract with loot before the forest consumes everything.
+Sephiria is a **pixel-art action roguelite** developed by Sephiria Studio, a 4-person independent team. You play as a rabbit warrior climbing the endless **Tower of Sephiria** through 7 procedurally-arranged chapters against 12+ bosses. The game supports **1-4 player online co-op** and launched at 1.0 on July 31, 2026 after 7 months of Early Access.
 
-The game combines extraction-shooter tension with psychological horror. Your Sanity meter is as important as your health bar — low sanity triggers hallucinations, fake chests, and false teammate voices. The forest is alive and reacts to noise, light, and violence.
+Each run is a fresh climb: choose from 8 weapons, collect relics, socket inscriptions, defeat the chapter boss, and die or reach the top. Death is part of the loop — permanent progression (talents, inscriptions, artifacts, weapon mastery) makes every run count.
 
 ---
 
 ## Key Systems at a Glance
 
-- **6 Weapons** — Crossbow, Flintlock Pistol, Matchlock Arquebus, Oil Lamp, Medallion, Healing Salves
-- **Sanity System** — Hallucinations, spatial voice distortion, sanity-restoring items
-- **Contract Board** — Mission types with varying objectives, difficulty, and risk levels
-- **Extraction Loop** — Deploy → Loot → Survive → Extract (lose everything if you fail)
-- **Spatial Voice Chat** — Distance and direction affect how clearly teammates can hear you
-- **Hidden Timer** — The forest "wakes up" over time, increasing enemy spawns
-- **4-Player Co-op** — Full campaign playable solo or with up to 3 friends
+- **8 Weapons** — Sword, Bow, Staff, Spear, Fist, Scythe, Greatsword & Tome (50+ upgrades each)
+- **7 Chapters** — From the Rooted Depths to the Astral Vault (1.0)
+- **200+ Relics** — Including new cursed, set, and class-specific relics
+- **Talents & Artifacts** — New 1.0 permanent progression systems
+- **Hard Mode** — Corruption System, armored enemies, new boss phases
+- **Infinite Mode** — Endless leaderboard climb after Hard Mode
+- **1-4 Player Co-op** — Full campaign playable solo or with friends
+- **94% Positive** — Overwhelmingly positive Steam rating
 
 ---
 
 ## Quick Start Links
 
-- [The Mound: Omen of Cthulhu on Steam](https://store.steampowered.com/app/themound)
-- [Official NACON website](https://www.nacon.com)
-- [ACE Team developer page](https://www.aceteam.cl)
+- [Sephiria on Steam](https://store.steampowered.com/)
+- [Sephiria Studio on Twitter/X](https://twitter.com/SephiriaStudio)
+- [r/SephiriaGame](https://www.reddit.com/r/SephiriaGame/) — Community hub
+- [Official Discord](https://discord.com/) — Linked on the Steam store page
 
 ---
 
-*This wiki is community-maintained and reflects the launch version (1.0). Content will be updated as patches and updates are released.*
+*This wiki is community-maintained and reflects the full release (1.0). Content will be updated as patches and updates are released.*

@@ -13,12 +13,12 @@ const FEATURED_GUIDES = [
 ];
 
 const FAQ_ITEMS = [
-  { question: 'What is Sephiria?', answer: 'Sephiria is a pixel-art action roguelite developed by Sephiria Studio (a 4-person independent team). You play as a rabbit warrior climbing the Tower of Sephiria through 6 chapters with 6 weapons and 150+ relics. It supports 1-4 player co-op and has a 94% positive rating on Steam. The 1.0 launches July 31, 2026.' },
+  { question: 'What is Sephiria?', answer: 'Sephiria is a pixel-art action roguelite developed by Sephiria Studio (a 4-person independent team). You play as a rabbit warrior climbing the Tower of Sephiria through 7 chapters with 8 weapons and 200+ relics. It supports 1-4 player co-op and has a 94% positive rating on Steam. Sephiria 1.0 launched on July 31, 2026.' },
   { question: 'Is it single-player or multiplayer?', answer: 'Both. You can play solo or in online co-op with up to 4 players. Enemy health and damage scale with player count, so solo is balanced and fully viable.' },
-  { question: 'How many weapons are there?', answer: '6 weapon types: Sword, Bow, Staff, Spear, Fist (Gauntlets), and Scythe. Each weapon has 50+ upgrade options and unique mastery perks.' },
-  { question: 'What are relics and inscriptions?', answer: 'Relics are per-run passive items (150+ total). Inscriptions are permanent socketable bonuses that persist between runs — like runes that permanently upgrade your character.' },
-  { question: 'How many chapters and bosses?', answer: '6 chapters with 10+ boss encounters (6 mandatory, 4+ secret). The final boss is Sephiria, the Tower Heart.' },
-  { question: 'What makes Sephiria different from other roguelites?', answer: 'The combo-driven combat with 6 highly distinct weapons, the permanent Inscription progression system, 150+ relics with deep synergies, and 4-player co-op in a charming pixel-art world.' },
+  { question: 'How many weapons are there?', answer: '8 weapon types: Sword, Bow, Staff, Spear, Fist (Gauntlets), Scythe, plus the 1.0 additions Greatsword and Tome. Each weapon has 50+ upgrade options and unique mastery perks.' },
+  { question: 'What are relics and inscriptions?', answer: 'Relics are per-run passive items (200+ at 1.0). Inscriptions are permanent socketable bonuses that persist between runs — like runes that permanently upgrade your character. The 1.0 launch adds Talents and Artifacts as new permanent progression systems.' },
+  { question: 'How many chapters and bosses?', answer: '7 chapters with 12+ boss encounters. The 1.0 climax takes you to the Astral Vault, where the Astral Guardian and the Rabbit Goddess await.' },
+  { question: 'What makes Sephiria different from other roguelites?', answer: 'The combo-driven combat with 8 highly distinct weapons, the permanent Inscription, Talent, and Artifact progression systems, 200+ relics with deep synergies, and 4-player co-op in a charming pixel-art world.' },
 ];
 
 export default function Home() {
@@ -34,10 +34,10 @@ export default function Home() {
         <p className="text-lg text-gray-400 max-w-xl mx-auto mb-2">
           Complete guide hub for the pixel-art action roguelite by Sephiria Studio.
         </p>
-        <p className="text-sm text-gray-600 mb-8">1.0 Launching July 31, 2026 — PC, Steam</p>
+        <p className="text-sm text-gray-600 mb-8">1.0 Now Live — PC, Steam</p>
         <div className="flex items-center justify-center gap-4">
           <a href="https://store.steampowered.com/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-purple-600 hover:bg-purple-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors text-sm">
-            Wishlist on Steam
+            Buy on Steam
           </a>
           <Link href="/guides/beginner-guide" className="inline-flex items-center gap-2 border border-gray-600 hover:border-purple-500 text-gray-300 hover:text-purple-400 px-6 py-3 rounded-lg transition-colors text-sm">
             Start with Beginner Guide →
@@ -61,12 +61,12 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           <div className="bg-[#1a0a2e] rounded-lg border border-[#2a1a4e] p-5 text-center">
             <div className="text-3xl mb-2">⚔️</div>
-            <h3 className="text-white font-semibold mb-1">6 Weapons</h3>
-            <p className="text-gray-400 text-sm">Sword, Bow, Staff, Spear, Fist, Scythe — each with 50+ upgrades</p>
+            <h3 className="text-white font-semibold mb-1">8 Weapons</h3>
+            <p className="text-gray-400 text-sm">Sword, Bow, Staff, Spear, Fist, Scythe, Greatsword & Tome — each with 50+ upgrades</p>
           </div>
           <div className="bg-[#1a0a2e] rounded-lg border border-[#2a1a4e] p-5 text-center">
             <div className="text-3xl mb-2">💎</div>
-            <h3 className="text-white font-semibold mb-1">150+ Relics</h3>
+            <h3 className="text-white font-semibold mb-1">200+ Relics</h3>
             <p className="text-gray-400 text-sm">Deep relic synergies that transform your build each run</p>
           </div>
           <div className="bg-[#1a0a2e] rounded-lg border border-[#2a1a4e] p-5 text-center">
@@ -76,8 +76,8 @@ export default function Home() {
           </div>
           <div className="bg-[#1a0a2e] rounded-lg border border-[#2a1a4e] p-5 text-center">
             <div className="text-3xl mb-2">🏛️</div>
-            <h3 className="text-white font-semibold mb-1">6 Chapters</h3>
-            <p className="text-gray-400 text-sm">From the Rooted Depths to the Apex Sanctuary — 10+ bosses</p>
+            <h3 className="text-white font-semibold mb-1">7 Chapters</h3>
+            <p className="text-gray-400 text-sm">From the Rooted Depths to the Astral Vault — 12+ bosses</p>
           </div>
           <div className="bg-[#1a0a2e] rounded-lg border border-[#2a1a4e] p-5 text-center">
             <div className="text-3xl mb-2">🔮</div>

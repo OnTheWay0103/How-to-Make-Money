@@ -1,6 +1,6 @@
 # 游戏攻略站 — 站点统计
 
-> 最后更新：2026-07-31 | 21 站 · ~344 篇攻略
+> 最后更新：2026-07-31 | 24 站 · ~425 篇攻略
 
 ---
 
@@ -15,7 +15,7 @@
 | 5 | SpiritVale | 7/12 | 19 | spiritvalewiki.vercel.app | ✅ | ✅ | ✅ | |
 | 6 | Skills & Raids | 7/15 | 19 | skillsandraidswiki.vercel.app | ✅ | ✅ | ✅ | 7/27 游戏上线 |
 | 7 | MineGeon | 7/20 | 20 | minegeonwiki.vercel.app | ✅ | ✅ | ✅ | 7/28 游戏上线 |
-| 8 | Sephiria | 7/21 | 16 | sephiriawiki.vercel.app | ✅ | ✅ | ✅ | **7/31 1.0** |
+| 8 | Sephiria | 7/21 | 27 | sephiriawiki.vercel.app | ✅ | ✅ | ✅ | **7/31 1.0 上线** |
 | 9 | DinoBlade | 7/21 | 19 | dinobladewiki.vercel.app | ✅ | ✅ | ✅ | |
 | 10 | Mystralia | 7/22 | 17 | mystraliawiki.vercel.app | ✅ | ✅ | ✅ | 8/11 EA |
 | 11 | Tears of Metal | 7/23 | 13 | tearsofmetalwiki.vercel.app | ✅ | ✅ | ✅ | 7/22 游戏上线 |
@@ -25,10 +25,13 @@
 | 15 | Lunarium | 7/26 | 18 | lunariumwiki.vercel.app | ✅ | ✅ | ✅ | |
 | 16 | Taival 🆕 | 7/27 | 15 | taivalwiki.vercel.app | ✅ | ❌ | 🟡 | GA4 待创建 |
 | 17 | Vahrin's Call 🆕 | 7/28 | 10 | vahrinscallwiki.vercel.app | ✅ | ❌ | 🟡 | 7/27 游戏上线，GA4 待创建 |
-| 18 | The Relic 🆕 | 7/28 | 11 | relicfirstguardianwiki.vercel.app | ✅ | ❌ | 🟡 | 7/31 游戏上线，GA4 待创建 |
+| 18 | The Relic 🆕 | 7/28 | 22 | relicfirstguardianwiki.vercel.app | ✅ | ❌ | 🟡 | 7/31 已上线，GA4 待创建 |
 | 19 | Graphite 🆕 | 7/29 | 11 | graphitewiki.vercel.app | ✅ | ❌ | 🟡 | 7/27 游戏上线，GA4 待创建 |
 | 20 | Shift At Midnight 🆕 | 7/29 | 12 | shiftatmidnightwiki.vercel.app | ✅ | ❌ | 🟡 | 7/22 游戏上线，GA4 待创建 |
 | 21 | Moonlight Peaks 🆕 | 7/31 | 12 | moonlightpeakswiki.vercel.app | ✅ | ❌ | 🟡 | 7/7 游戏上线，20万销量，GA4 待创建 |
+| 22 | Bonehold 🆕 | 7/30 | 10 | boneholdwiki.vercel.app | ✅ | ✅ | 🟡 | GA4 已配置，GSC 待验证 |
+| 23 | Phantom Tower 🆕 | 7/30 | 10 | phantomtowerwiki.vercel.app | ✅ | ❌ | 🟡 | GA4 待创建 |
+| 24 | Ardent Wilds 🆕 | 7/31 | 12 | ardentwildswiki.vercel.app | ✅ | ❌ | 🟡 | GA4 待创建 |
 
 ---
 
@@ -42,21 +45,24 @@
 | 4 | The Mound | 7/14 | ✅ | ✅ 46 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | 5 | SpiritVale | 7/12 | ✅ | ✅ 116 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | 6 | Skills & Raids | 7/15 | ✅ | ✅ 20 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| 7 | MineGeon | 7/20 | ✅ | ✅ 补 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 7 | MineGeon | 7/20 | ✅ | ✅ 70 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | 8 | Sephiria | 7/21 | ✅ | ✅ 79 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| 9 | DinoBlade | 7/21 | ✅ | ✅ 补 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 9 | DinoBlade | 7/21 | ✅ | ✅ 70 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | 10 | Mystralia | 7/22 | ✅ | ✅ 37 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | 11 | Tears of Metal | 7/23 | ✅ | ✅ 55 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | 12 | Grain Rot | 7/24 | ✅ | ✅ 62 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | 13 | DragonSword | 7/25 | ✅ | ✅ 62 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| 14 | Dwarf Delve | 7/26 | ✅ | ✅ 补 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| 15 | Lunarium | 7/26 | ✅ | ✅ 补 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 14 | Dwarf Delve | 7/26 | ✅ | ✅ 60 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 15 | Lunarium | 7/26 | ✅ | ✅ 63 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | 16 | Taival | 7/27 | ✅ | ✅ | ✅ | ❌ | ✅ | 🟡 | ✅ | ✅ |
 | 17 | Vahrin's Call | 7/28 | ✅ | ✅ 68 | ✅ | ❌ | ✅ | 🟡 | ✅ | ✅ |
 | 18 | The Relic | 7/28 | ✅ | ✅ 44 | ✅ | ❌ | ✅ | 🟡 | ✅ | ✅ |
 | 19 | Graphite | 7/29 | ✅ | ✅ 65 | ✅ | ❌ | ✅ | 🟡 | ✅ | ✅ |
 | 20 | Shift At Midnight | 7/29 | ✅ | ❌ WebSearch | ✅ | ❌ | ✅ | 🟡 | ✅ | ✅ |
 | 21 | Moonlight Peaks | 7/31 | ✅ | ✅ WebSearch | ✅ | ❌ | ⏳ | 🟡 | ✅ | ✅ |
+| 22 | Bonehold | 7/30 | ✅ | ❌ | ✅ | ✅ | ✅ | 🟡 | ✅ | ✅ |
+| 23 | Phantom Tower | 7/30 | ✅ | ❌ | ✅ | ❌ | ✅ | 🟡 | ✅ | ✅ |
+| 24 | Ardent Wilds | 7/31 | ✅ | ✅ | ✅ | ❌ | ✅ | 🟡 | ✅ | ✅ |
 
 ---
 
@@ -70,16 +76,13 @@
 
 | 事项 | 涉及站点 | 操作 |
 |------|---------|------|
-| **创建 GA4** | Taival, Vahrin's Call, The Relic, Graphite, Shift At Midnight, **Moonlight Peaks** | GA4 后台创建，发我 Measurement ID |
-| **GSC 验证** | 6 站 🟡 (Taival, Vahrin's, Relic, Graphite, Shift At Midnight, Moonlight Peaks) | GSC 后台添加资源+验证 |
-| **关键词收割** | MineGeon, DinoBlade, Dwarf Delve, Lunarium | 4 站缺关键词，需补跑 harvest |
+| **创建 GA4** | Taival, Vahrin's Call, The Relic, Graphite, Shift At Midnight, **Moonlight Peaks**, **Phantom Tower**, **Ardent Wilds** | GA4 后台创建，发我 Measurement ID |
+| **GSC 验证** | 9 站 🟡 (Taival, Vahrin's, Relic, Graphite, Shift At Midnight, Moonlight Peaks, **Bonehold**, **Phantom Tower**, **Ardent Wilds**) | GSC 后台添加资源+验证 |
 
 ### 🟢 P2 — 上线日跟进
 
 | 游戏 | 日期 | 站点 | 需做 |
 |------|------|------|------|
-| Sephiria | **7/31** | sephiriawiki | 1.0 上线，更新攻略 |
-| The Relic | **7/31** | relicfirstguardianwiki | 韩国魂系，70+Boss |
 | Grain Rot | 8/7 | grainrotwiki | 200k wishlist |
 | Mystralia | 8/11 | mystraliawiki | EA 上线 |
 
@@ -89,15 +92,15 @@
 
 | 指标 | 数值 |
 |------|:--:|
-| **总站点数** | 21 |
-| **总攻略数** | ~344 |
-| **Vercel 部署** | 21/21 ✅ |
-| **GA4 配置** | 15/21 ✅ |
-| **Dashboard 注册** | 21/21 ✅ |
-| **GSC 文件部署** | 21/21 ✅ |
-| **GSC 已验证** | 15/21 |
-| **GitHub 自动部署** | 1/21 |
-| **待创建 GA4** | 6 (Taival, Vahrin's Call, The Relic, Graphite, Shift At Midnight, Moonlight Peaks) |
+| **总站点数** | 24 |
+| **总攻略数** | ~425 |
+| **Vercel 部署** | 24/24 ✅ |
+| **GA4 配置** | 16/24 ✅ |
+| **Dashboard 注册** | 24/24 ✅ |
+| **GSC 文件部署** | 24/24 ✅ |
+| **GSC 已验证** | 15/24 |
+| **GitHub 自动部署** | 1/24 |
+| **待创建 GA4** | 8 (Taival, Vahrin's Call, The Relic, Graphite, Shift At Midnight, Moonlight Peaks, Phantom Tower, Ardent Wilds) |
 
 ---
 
@@ -128,7 +131,8 @@
 ✅ 7/22  Tears of Metal EA
 ✅ 7/27  Skills & Raids / Vahrin's Call / Graphite
 ✅ 7/28  MineGeon: Renegades
-🔜 7/31  Sephiria 1.0 / The Relic
+✅ 7/31  Sephiria 1.0
+✅ 7/31  The Relic
 🔜 8/7   Grain Rot
 🔜 8/11  Mystralia EA
 ```

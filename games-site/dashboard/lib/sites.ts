@@ -122,4 +122,14 @@ export const SITES: SiteConfig[] = [
     propertyId: '',
     gaId: 'G-PLACEHOLDER',
   },
+  {
+    name: 'Phantom Tower Wiki',
+    propertyId: '',
+    gaId: 'G-PLACEHOLDER',
+  },
+  {
+    name: 'Ardent Wilds Wiki',
+    propertyId: '',
+    gaId: 'G-PLACEHOLDER',
+  },
 ];
