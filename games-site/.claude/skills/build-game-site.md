@@ -354,7 +354,7 @@ Step 5: Dashboard 注册（必须）
   GA ID 未创建时用 "G-PLACEHOLDER" 占位
 
 Step 6: 更新站点统计文档（必须）
-  编辑 games-site/游戏站点统计.md
+  编辑 games-site/STATS-游戏站点统计.md
   更新内容：
   - 站点总览表：新增一行，填写攻略数、域名、GA4 ID、Vercel/GSC/Dashboard 状态
   - SOP 步骤完成情况表：新增一行，标记各步骤 ✅/❌/⏳
@@ -367,7 +367,7 @@ Step 7: 输出用户待办清单
   - [ ] ⚠️ GA4 服务账号授权（dashboard-ga-reader@midyear-psyche-501006-c0.iam.gserviceaccount.com 加为 Viewer）
   - [ ] GSC 提交 sitemap（Vercel 部署后自动生效）
   - [ ] 更新 Dashboard GA4 Property ID
-  - [ ] 确认 游戏站点统计.md 已更新
+  - [ ] 确认 STATS-游戏站点统计.md 已更新
   - [ ] 确认 AdSense 合规页面（privacy/terms/about/contact）已部署且邮箱为 zhaoq8278@gmail.com
 ```
 

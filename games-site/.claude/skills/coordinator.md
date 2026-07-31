@@ -35,7 +35,7 @@ description: 🧠 主管 Agent — 每天定时运行，读取状态、调度子
 
 ```
 1. git pull (同步最新代码)
-2. 读取 游戏站点统计.md (了解各站状态)
+2. 读取 STATS-游戏站点统计.md (了解各站状态)
 3. 调用 monitor-performance Agent → 获取 PV 分级 + 内容建议
 4. 读取 .agent/candidate-pool.md → 检查候选池
 ```
@@ -88,7 +88,7 @@ description: 🧠 主管 Agent — 每天定时运行，读取状态、调度子
 ### Phase 3: 汇总
 
 ```
-1. 更新 游戏站点统计.md (如有变更)
+1. 更新 STATS-游戏站点统计.md (如有变更)
 2. 输出本轮摘要:
    - 本轮做了什么
    - 各子 Agent 执行结果

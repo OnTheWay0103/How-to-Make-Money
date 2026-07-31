@@ -785,7 +785,7 @@ curl -s "https://your-site.vercel.app/robots.txt"
 - [ ] GA4 Property ID 已填入（数字格式）
 - [ ] Dashboard 已重新部署（⚠️ 见 8.4 部署注意事项）
 - [ ] Dashboard 打开后新站点在站点选择器中显示
-- [ ] **`游戏站点统计.md` 已更新**（GA4 ID、创建/加入日期、备注、汇总数字）
+- [ ] **`STATS-游戏站点统计.md` 已更新**（GA4 ID、创建/加入日期、备注、汇总数字）
 - [ ] 新站点即使显示零数据也能正常渲染（不会因 API 失败而隐藏）
 
 ---
@@ -1038,7 +1038,7 @@ cp ../../witchspirewiki/public/google12f8715471cef7b7.html public/
 **根因**：改了代码（`seo-config.ts`）和站点，但没有：
 1. 更新 `dashboard/lib/sites.ts`
 2. 重新部署 Dashboard
-3. 更新 `游戏站点统计.md`
+3. 更新 `STATS-游戏站点统计.md`
 
 **预防**：见 7.8 节完整检查清单。这三件事必须**同一次上线**完成。
 
@@ -1208,7 +1208,7 @@ curl -sI "https://{site}.vercel.app" | head -1
 
 1. **`{site}/lib/seo-config.ts`** → 填 `googleAnalyticsId`
 2. **`dashboard/lib/sites.ts`** → 添加站点条目（`propertyId` 用纯数字）
-3. **`游戏站点统计.md`** → 更新表格行 + 汇总数字
+3. **`STATS-游戏站点统计.md`** → 更新表格行 + 汇总数字
 
 只改 1+2 忘改 3 → 统计文档过时
 只改 1 忘改 2+3 → Dashboard 看不到新站

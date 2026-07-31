@@ -24,7 +24,7 @@ GET https://dashboard-pied-six-31.vercel.app/api/diagnostics
 
 ### Step 2: 读取统计文档
 
-读取 `游戏站点统计.md`，获取：
+读取 `STATS-游戏站点统计.md`，获取：
 - 各站攻略数
 - 各站上线日期
 - 当前重点标记

@@ -52,7 +52,7 @@ Agent 之间通过共享文件系统通信，不需要进程间通信：
 
 | 文件 | 写入方 | 读取方 |
 |------|------|------|
-| `游戏站点统计.md` | 主管 / 建站 / 监控 | 全部 Agent |
+| `STATS-游戏站点统计.md` | 主管 / 建站 / 监控 | 全部 Agent |
 | `.agent/build-history.json` | 建站 / 主管 | 主管 / 监控 |
 | `keyword-results/*.md` | 关键词 Agent | 建站 Agent |
 | `.agent/candidate-pool.md` | 侦察 Agent | 主管 |
@@ -115,7 +115,7 @@ Cleanup Gate (收尾):
 
 ```
 1. git pull 同步最新代码
-2. 读取 游戏站点统计.md → 了解各站状态
+2. 读取 STATS-游戏站点统计.md → 了解各站状态
 3. 调用监控 Agent → 获取 PV 排名和重点标记
 4. 读取 .agent/candidate-pool.md → 检查候选池
 
