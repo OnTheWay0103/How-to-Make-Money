@@ -119,27 +119,27 @@ export const SITES: SiteConfig[] = [
   },
   {
     name: 'Moonlight Peaks Wiki',
-    propertyId: '',
-    gaId: 'G-PLACEHOLDER',
+    propertyId: '548063476',
+    gaId: 'G-Q2T75BBQN6',
   },
   {
     name: 'Phantom Tower Wiki',
-    propertyId: '',
-    gaId: 'G-PLACEHOLDER',
+    propertyId: '548062479',
+    gaId: 'G-D2LXC98S3C',
   },
   {
     name: 'Ardent Wilds Wiki',
-    propertyId: '',
-    gaId: 'G-PLACEHOLDER',
+    propertyId: '548067951',
+    gaId: 'G-16S551280V',
   },
   {
     name: 'Go-Go Town! Wiki',
-    propertyId: '',
-    gaId: 'G-PLACEHOLDER',
+    propertyId: '548062566',
+    gaId: 'G-BLSQ0N9M26',
   },
   {
     name: 'Expeditions: Samurai Wiki',
-    propertyId: '',
-    gaId: 'G-PLACEHOLDER',
+    propertyId: '548062969',
+    gaId: 'G-D09S2186H2',
   },
 ];

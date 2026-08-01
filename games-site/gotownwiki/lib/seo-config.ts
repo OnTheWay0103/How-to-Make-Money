@@ -13,6 +13,6 @@ export const SITE_CONFIG = {
   ogImage: '/icon.png',
   locale: 'en_US',
   twitterHandle: '',
-  googleAnalyticsId: 'G-PLACEHOLDER',
+  googleAnalyticsId: 'G-BLSQ0N9M26',
   googleAdsenseId: '',
 } as const;
