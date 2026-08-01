@@ -1,6 +1,6 @@
 # 游戏攻略站 — 站点统计
 
-> 最后更新：2026-08-01 | 26 站 · 610 篇攻略
+> 最后更新：2026-08-01 | 26 站 · 625 篇攻略
 
 ---
 
@@ -18,7 +18,7 @@
 | 8 | Sephiria | 7/21 | 32 | sephiriawiki.vercel.app | ✅ | ✅ | ✅ | **7/31 1.0 上线**；8/1 内容配比规则 +2（Build 原型速查表、Boss 推进表） |
 | 9 | DinoBlade | 7/21 | 23 | dinobladewiki.vercel.app | ✅ | ✅ | ✅ | |
 | 10 | Mystralia | 7/22 | 24 | mystraliawiki.vercel.app | ✅ | ✅ | ✅ | 8/11 EA |
-| 11 | Tears of Metal | 7/23 | 20 | tearsofmetalwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 反馈驱动 +3 新 +2 纠错（英雄名校准） |
+| 11 | Tears of Metal | 7/23 | 26 | tearsofmetalwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 反馈驱动 +3 新 +2 纠错（英雄名校准）；8/1 内容配比 +5（Wallace/Brienne/Ruadh 独立 Build 页、Corruption 机制、装备指南）+ 修复旧英雄/Boss 名残留（Vanguard→Wallace 等） |
 | 12 | Grain Rot | 7/24 | 23 | grainrotwiki.vercel.app | ✅ | ✅ | ✅ | 8/7 游戏上线 |
 | 13 | DragonSword | 7/25 | 19 | dragonswordwiki.vercel.app | ✅ | ✅ | ✅ | 7/22 游戏上线 |
 | 14 | Dwarf Delve | 7/26 | 22 | dwarfdelvewiki.vercel.app | ✅ | ✅ | ✅ | |
@@ -33,7 +33,7 @@
 | 23 | Phantom Tower 🆕 | 7/30 | 11 | phantomtowerwiki.vercel.app | ✅ | ❌ | 🟡 | GA4 待创建 |
 | 24 | Ardent Wilds 🆕 | 7/31 | 13 | ardentwildswiki.vercel.app | ✅ | ❌ | 🟡 | GA4 待创建 |
 | 25 | Go-Go Town! 🆕 | 8/01 | 10 | gotownwiki.vercel.app | ✅ | ❌ | 🟡 | 7/16 1.0 上线，93% 好评，GA4 待创建 |
-| 26 | Expeditions: Samurai 🆕 | 8/01 | 12 | expeditionssamuraiwiki.vercel.app | ✅ | ❌ | 🟡 | **20/20 最高分**，8/7 EA 上线，GA4 待创建 |
+| 26 | Expeditions: Samurai 🆕 | 8/01 | 21 | expeditionssamuraiwiki.vercel.app | ✅ | ❌ | 🟡 | **20/20 最高分**，8/7 EA 上线；8/1 内容配比 +8（外交/制作/世界地图/Tora-Hime/Antje/难度/配置要求/战国历史），GA4 待创建 |
 
 ---
 
@@ -98,7 +98,7 @@
 | 指标 | 数值 |
 |------|:--:|
 | **总站点数** | 26 |
-| **总攻略数** | 600 |
+| **总攻略数** | 625 |
 | **Vercel 部署** | 26/26 ✅ |
 | **GA4 配置** | 16/26 ✅ |
 | **Dashboard 注册** | 26/26 ✅ |

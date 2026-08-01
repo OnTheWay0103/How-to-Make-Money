@@ -5,10 +5,10 @@ import GuideCard from '@/components/GuideCard';
 
 const FEATURED_GUIDES = [
   { title: 'Beginner Guide', description: 'Getting started with Tears of Metal — heroes, combat, and your first expedition.', slug: 'beginner-guide', category: 'Beginner', updated: '2026-07-22' },
-  { title: 'Best Builds', description: 'Top builds for Vanguard, Berserker, and Marksman — physical, elemental, and emblem synergy.', slug: 'best-builds', category: 'Builds', updated: '2026-07-22' },
+  { title: 'Best Builds', description: 'Top builds for Wallace, Brienne, and Ruadh Stonecrusher — physical, elemental, and stagger loadouts.', slug: 'best-builds', category: 'Builds', updated: '2026-08-01' },
   { title: 'Heroes Tier List', description: 'All 3 heroes ranked — strengths, weaknesses, and best use cases for solo and co-op.', slug: 'heroes-tier-list', category: 'Heroes', updated: '2026-07-22' },
   { title: 'Village Upgrade Guide', description: 'Optimal upgrade priority for Armory, Recruitment Tent, Smithy, and more.', slug: 'village-upgrade-guide', category: 'Progression', updated: '2026-07-22' },
-  { title: 'Boss Guide', description: 'Complete walkthrough for all 3 act bosses — Ironclad Commander, Excavation Juggernaut, and Corrupted Warlord.', slug: 'boss-guide', category: 'Bosses', updated: '2026-07-22' },
+  { title: 'Boss Guide', description: 'Complete walkthrough for every act boss — Gilles the Hog, Iseult the Banshee, and more.', slug: 'boss-guide', category: 'Bosses', updated: '2026-08-01' },
   { title: 'Emblem & Artifact Guide', description: 'All 18 emblems explained, best combinations, and artifact synergy strategies.', slug: 'emblem-artifact-guide', category: 'Mechanics', updated: '2026-07-22' },
 ];
 
@@ -16,12 +16,12 @@ const FAQ_ITEMS = [
   { question: 'What is Tears of Metal?', answer: 'Tears of Metal is a Scottish action roguelike hack-and-slash developed by Paper Cult. Build a village, forge weapons, collect emblems, and fight through procedurally generated expeditions in solo or 4-player co-op. Early Access launched July 22, 2026 on Steam for $24.99.' },
   { question: 'Is Tears of Metal free?', answer: 'No. Tears of Metal costs $24.99 on Steam. There is no free-to-play version or microtransaction system.' },
   { question: 'Is it on console?', answer: 'Currently Tears of Metal is PC-only via Steam. Console releases have not been announced.' },
-  { question: 'Can I play solo?', answer: 'Yes. All 3 heroes (Vanguard, Berserker, Marksman) are viable solo. The Vanguard is especially recommended for new solo players due to its shield and survivability.' },
+  { question: 'Can I play solo?', answer: 'Yes. All 3 heroes (Wallace, Brienne, Ruadh Stonecrusher) are viable solo. Wallace is especially recommended for new solo players thanks to his forgiving block/parry timing and survivability.' },
   { question: 'How does co-op work?', answer: 'Up to 4 players can team up in online co-op. Progression is shared between party members — village upgrades apply to all. There is no local/couch co-op.' },
   { question: 'How long is the game?', answer: 'A full run through all 3 acts takes 8-15 hours depending on difficulty and exploration. Village upgrades carry over between runs, so replay value is high.' },
   { question: 'Does progress save?', answer: 'Village upgrades are permanent across all runs. Expedition progress (hero level, items, artifacts) resets each run — this is a roguelike.' },
   { question: 'When is full release?', answer: 'Tears of Metal launched in Early Access on July 22, 2026. A full release date has not been announced yet.' },
-  { question: 'What heroes are available?', answer: 'There are 3 heroes at launch: Vanguard (tank/defense, best for beginners), Berserker (highest DPS, fragile), and Marksman (ranged damage, essential in co-op).' },
+  { question: 'What heroes are available?', answer: 'There are 3 heroes at launch: Wallace (longsword all-rounder, best for beginners), Brienne (unarmed, fastest attacks, high skill ceiling), and Ruadh Stonecrusher (giant hammer, highest stagger and single-hit damage).' },
   { question: 'What are emblems?', answer: 'Emblems are passive modifiers you equip to customize your hero\'s playstyle. There are 18 emblems covering physical builds, elemental damage, support, and defensive strategies.' },
   { question: 'Can I respec my village upgrades?', answer: 'Currently there is no respec system for village upgrades. Choose wisely or plan your upgrade path with the village upgrade guide.' },
   { question: 'Is there crossplay?', answer: 'Crossplay is not applicable since the game is currently PC-only. Steam users can play together regardless of region.' },

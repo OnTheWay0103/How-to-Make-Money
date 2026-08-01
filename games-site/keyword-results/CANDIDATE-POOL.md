@@ -9,7 +9,7 @@
 |---|------|-------|---------|-------|--------|-----------|---------|-------------|-------|
 | 1 | **Expeditions: Samurai** | CRPG / 回合制战棋 / 组队 RPG / 双人 Co-op | 2026-08-07 (EA) | **20/20** | 5 | 5 | 5 | 5 | Campfire Cabal（前 Logic Artists，~30人）+ THQ Nordic。8 名可攻略同伴、潜行三支柱、村庄管理、系列作累计销量 130 万。**全网无任何 Fandom/社区 wiki**，仅有新闻稿。EA 先发 Act One（~8h），1.0 约 2027 初，共 4 幕 ~60h。CRPG 指南需求极强（builds/companions/endings）。 |
 | 2 | **Delverium** | Co-op 生存沙盒 / 地牢探索 | 2026-09-22 (EA) | **19/20** | 5 | 4 | 5 | 5 | 80k wishlists，1-8 人在线 + 4 人分屏。Terraria/星露谷式需求（配方/biome/NPC/地牢/boss）。**无任何 wiki**。⚠️ 工作室仅 2-4 人（Sagestone Games，夫妻团队），不符合 20-100 人标准 — 但此前 Moonlight Peaks（20万销量）同为小团队，可接受。 |
-| 3 | **Pass the Fear** | Co-op Roguelite 弹幕射击 | 2026-07-22 已上线 | **16/20** | 4 | 4 | 4 | 4 | PlayMud Studio（Warm Snow 血统）+ Paras Games。Steam 77% 好评（1.9K 评测）、峰值 8.4K 在线、$18.99。170+ 遗物 / 30+ 武器模组 / 22 张塔罗 / 5 章 + Chaos Battle Scars 难度系统 = 大量 build 关键词。**无 wiki**。已上线 10 天，抢早期流量窗口。 |
+| 3 | **Pass the Fear** | Co-op Roguelite 弹幕射击 | 2026-07-22 已上线 | ~~16/20~~ **12/20** ⬇️ | 4 | 4 | 4 | ~~4~~ **1** | PlayMud Studio（Warm Snow 血统）+ Paras Games。Steam 77% 好评（1.9K 评测）、峰值 8.4K 在线、$18.99。170+ 遗物 / 30+ 武器模组 / 22 张塔罗 / 5 章 + Chaos Battle Scars。⚠️ **8/1 深度调研降级**：发现 passthefear.wiki 已存在（含 build planner 工具、全武器/遗物/塔罗文档），竞品分从 4→1。关键词仅 18 个（游戏太新）。待 2-4 周后重新评估。 |
 | 4 | **Mortal Shell II** | Souls-like 动作 RPG | 2026-08-20 | **16/20** | 5 | 5 | 5 | 1 | Cold Symmetry（~25人）+ Playstack。Beta 下载 50 万+，需求爆棚。8 个 Shell、60+ 地牢、武器深度升级 = 内容充足。⚠️ 竞争激烈：IGN 中心页、PCGamingWiki、Ludo.guide 19 节完整指南、GameRant、另有开源社区 wiki（github.com/shi0318/MortalShell2）已抢先。Souls-like SEO 是大厂必争地。 |
 
 ## Watchlist (score 12-15)

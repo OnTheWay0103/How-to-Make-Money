@@ -1,207 +1,168 @@
 ---
-title: "Tears of Metal Boss Guide — Ironclad Commander, Excavation Juggernaut, and Corrupted Warlord"
-description: "Complete Tears of Metal boss guide covering all three acts. Attack patterns, phase breakdowns, weaknesses, emblem recommendations, and co-op strategies for every boss encounter."
-keywords: ["Tears of Metal boss guide", "Tears of Metal Ironclad Commander", "Tears of Metal Excavation Juggernaut", "Tears of Metal Corrupted Warlord", "Tears of Metal boss fight tips"]
-updated: "2026-07-23"
+title: "Tears of Metal Boss Guide — Gilles the Hog, Iseult the Banshee & All Boss Encounters"
+description: "Complete Tears of Metal boss guide: the verified boss roster (Gilles the Hog, Iseult the Banshee), act-by-act boss strategy, how Threat Level buffs boss fights, hero matchups, and the no-healing boss arena economy."
+category: "Bosses"
+version: "1.0"
+updated: "2026-08-01"
+keywords: ["Tears of Metal boss guide", "Tears of Metal Gilles the Hog", "Tears of Metal Iseult the Banshee", "Tears of Metal boss fight tips", "Tears of Metal Act 1 boss", "how to beat Tears of Metal bosses"]
+related: ["boss-quick-reference-chart", "boss-strategies", "heroes-tier-list", "threat-level-difficulty-guide", "combat-tips"]
 ---
 
-# Tears of Metal Boss Guide — Full Walkthrough for All Three Acts
+# Tears of Metal Boss Guide — Gilles the Hog, Iseult the Banshee & All Boss Encounters
 
-> **Applies to Early Access v1.0 / Updated: July 23, 2026**
+> **Early Access v1.0 / Updated: August 1, 2026**
 
-Each act in Tears of Metal ends with a unique boss encounter. These fights test everything you have learned — positioning, emblem timing, battalion management, and co-op coordination. This guide covers every boss's attack patterns, phases, weaknesses, and the strategies that will get you through each encounter.
+**Naming note first:** only two boss names are confirmed in public sources — **Gilles the Hog** and **Iseult the Banshee**. Names like "Ironclad Commander," "Excavation Juggernaut," and "Corrupted Warlord" that appeared in older guides are not verified and do not match the real game. Every boss encounter below is real; unconfirmed names are labeled honestly.
+
+Each act in Tears of Metal ends with a unique boss encounter. These fights test everything you have learned — positioning, emblem timing, battalion management, and co-op coordination. This guide covers the verified bosses, what is known about the rest, and the strategies that get you through each encounter.
 
 ---
 
-## Act 1 Boss: Ironclad Commander
+## Verified Boss Roster
 
-The Ironclad Commander is a heavily armored humanoid boss who leads a squad of elite soldiers. This fight is a gear check — if you can handle the Commander, you are ready for Act 2.
+| Boss | Where | Confirmed | What We Know |
+|------|-------|:--:|--------------|
+| **Gilles the Hog** | Act 1 end boss (also the free demo's finale) | ✅ | The first campaign wall. A missed block/parry/dodge costs nearly half your health. **There is no healing in the Act 1 boss arena** — arrive topped up |
+| **Iseult the Banshee** | Campaign boss (act unconfirmed) | ✅ | Players reported a softlock/stuck state on this fight at launch; fixed by the first stability patch (with save recovery). Post-patch it plays as a normal boss fight |
 
-### Overview
+> Every other boss encounter across the three acts is real but **unnamed in public sources**. This guide is updated as Paper Cult confirms names via patch notes and announcements.
+
+---
+
+## Act 1 Boss: Gilles the Hog
+
+Gilles the Hog is the end boss of Act 1 on the Scottish Coast and was the finale of the free demo — meaning his fight was polished before launch and is the game's first real test.
+
+### What We Know
 
 | Attribute | Detail |
 |-----------|--------|
-| Location | Scottish Coast — Fort Battlements |
-| Recommended Level | 3+ (all heroes) |
-| Recommended Emblems | Physical Damage, Critical Strike |
-| Threat Level at Fight | 4-5 bars |
-| HP | ~3,500 |
-
-### Attack Patterns
-
-The Ironclad Commander has three main attacks in Phase 1:
-
-| Attack | Telegraph | Damage | Counter |
-|--------|-----------|--------|---------|
-| Heavy Slam | Raises claymore overhead, ground cracks | High (AoE) | **Dodge roll away** — do not block |
-| Shield Charge | Lowers shield, runs forward | Medium (stagger) | Sidestep, then punish from behind |
-| Command Shout | Shouts, raises weapon | None | Breaks aggro; enemies respawn if not interrupted |
-
-**Phase 2 (below 50% HP)**: The Commander gains two additional attacks:
-
-| Attack | Telegraph | Damage | Counter |
-|--------|-----------|--------|---------|
-| Reinforcements | Kneels, horn blast | None | **Interrupt immediately** with a charged attack |
-| Whirlwind | Spins claymore 360 degrees | High (multi-hit) | Disengage completely; do not parry |
-
-### Weaknesses
-
-- **Back attacks** — The Commander is vulnerable from behind. After a Shield Charge whiffs, the recovery animation is long enough for 2-3 free hits.
-- **Stagger** — Three consecutive heavy attacks stagger the Commander, interrupting any action. Coordinate with your team for stagger windows.
-- **Reinforcement interrupt** — If you interrupt the horn blast, reinforcements do not spawn. This is the highest-priority mechanic in the fight.
+| Location | Scottish Coast — end of Act 1 |
+| Confirmed | ✅ (real launch boss, demo finale) |
+| Key fact | **No healing in the boss arena** |
+| Difficulty | A missed block/parry/dodge costs nearly half your health |
 
 ### Strategy
 
-#### Solo
-1. **Clear the room first** — Before engaging the Commander, kill all regular enemies in the arena. Do not start the boss fight with Pikemen at your back.
-2. **Bait the Shield Charge** — Stand at mid-range. The Commander will use Shield Charge. Sidestep and hit from behind.
-3. **Interrupt reinforcements** — When the Commander kneels (Phase 2), use your highest-damage ability immediately. A single charged Vanguard heavy attack is enough.
-4. **Whirlwind = disengage** — When the spin starts, dodge roll away and wait. Trying to block or parry Whirlwind drains all stamina and leaves you staggered.
+1. **Arrive at full health** — there are no heal points in the arena. If you enter hurt, you are fighting with one hand tied behind your back.
+2. **Master the rhythm** — Gilles is a rhythm check, not a gear check. One missed read costs ~half your HP, so if you are not confident in block/parry/dodge timing, practice on regular captains first (see the [Combat Tips Guide](/guides/combat-tips)).
+3. **Clear the room before engaging** — if you walk into the arena with adds at your back, the fight spirals. Thin the room first.
+4. **Check your Threat Level first** — if you full-cleared Act 1, Gilles arrives with extra captains and buffed stats. You may prefer a lighter route (see [Threat Level & Difficulty Guide](/guides/threat-level-difficulty-guide)).
 
-#### Co-op
-- **Vanguard**: Tank the Commander face-to-face. Parry Heavy Slams if confident, otherwise block.
-- **Berserker**: Stay behind the Commander at all times. Stack burn while the Vanguard holds aggro.
-- **Marksman**: Shoot from maximum range. Prioritize the Commander over adds. If reinforcements spawn, switch to them immediately.
+### Hero Notes
 
----
-
-## Act 2 Boss: Excavation Juggernaut
-
-The Excavation Juggernaut is a massive construct made of mining equipment and corrupted metal. This fight has more mechanics than the Ironclad Commander and requires better positioning.
-
-### Overview
-
-| Attribute | Detail |
-|-----------|--------|
-| Location | Mining Complex — Deep Excavation Site |
-| Recommended Level | 6+ (all heroes) |
-| Recommended Emblems | Lightning, Freeze |
-| Threat Level at Fight | 7-8 bars |
-| HP | ~6,000 |
-
-### Attack Patterns
-
-| Attack | Telegraph | Damage | Counter |
-|--------|-----------|--------|---------|
-| Arm Slam | Raises one arm, brings it down | High (linear AoE) | Dodge to the side, not backward |
-| Crystal Launch | Crystals glow on shoulders, fires shards | Medium (multi-hit) | Hide behind crystal pillars |
-| Mining Drill | Both arms form drill, charges | Very High (one-shot potential) | Must hide behind crystal pillar |
-| Steam Vent | Stomps ground, steam vents from floor | Medium (AoE, DoT) | Move away from vent cracks |
-
-### Mechanics
-
-#### Crystal Pillars
-Four crystal pillars surround the arena. These are your only cover from the Mining Drill attack. The Juggernaut can destroy pillars with Arm Slams and the Drill — if all four pillars are destroyed, the Mining Drill becomes unavoidable.
-
-**Pillar management**: Try to keep at least two pillars standing at all times. If the Juggernaut is near a pillar, bait the Arm Slam away from it.
-
-#### Steam Vents
-Phase 2 introduces Steam Vents. Cracks appear on the floor, and after 3 seconds, steam erupts from them dealing damage over time. Vents stay active for 20 seconds.
-
-### Weaknesses
-
-- **Crystal vulnerability** — When the Juggernaut destroys a pillar, it is briefly stunned (3 seconds). Use this window for a full combo.
-- **Head shots** — The Marksman's crossbow deals +50% damage when hitting the Juggernaut's exposed core (the glowing center of its chest).
-- **Slow turn speed** — The Juggernaut turns slowly. A coordinated team can circle around it while it attacks.
-
-### Strategy
-
-#### Solo
-1. **Use the pillars** — Position yourself so a pillar is between you and the Juggernaut at all times. This is non-negotiable.
-2. **Freeze is your friend** — The Freeze emblem slows the Juggernaut, giving you more time to reposition between attacks.
-3. **Pillar phase management** — When Phase 2 starts (55% HP), immediately position near a pillar. The Mining Drill always comes after the first Steam Vent.
-4. **Dodge Arm Slams toward the Juggernaut** — Rolling toward the boss puts you behind it, where you can land 2-3 free hits.
-
-#### Co-op
-- **Vanguard**: Hold aggro near a pillar. When the Mining Drill starts, dodge behind the pillar and keep the Juggernaut facing you so it does not destroy other pillars.
-- **Berserker**: Attack the legs. The Berserker's low profile makes it easier to avoid the Arm Slam telegraph.
-- **Marksman**: Focus the core. Head shots deal massive bonus damage. Be ready to move when Steam Vents appear.
+| Hero | Role vs Gilles |
+|------|----------------|
+| **Wallace** (longsword) | Safest pick — the easiest block/parry timing means fewer half-health mistakes |
+| **Ruadh Stonecrusher** (hammer) | Stagger interrupts Gilles's big swings outright — fastest kill if you can read him |
+| **Brienne** (unarmed) | Dodge-heavy play works, but one mistimed approach is punishing at this stage of the game |
 
 ---
 
-## Act 3 Boss: Corrupted Warlord + Dragon Core
+## Act 2 Boss: Name Unconfirmed
 
-The final boss encounter is a two-phase fight against the Corrupted Warlord and the Dragon Core. This is the hardest fight in Tears of Metal and requires mastery of all systems.
+The Act 2 boss in the Mining Complex is real but **unnamed in public sources**. What we can say with confidence:
 
-### Overview
+- **It arrives with Threat Level pressure already active** — by Act 2, extra captains and archer towers spawn around boss fights if you cleared aggressively.
+- **Expect adds** — elite bodyguards in the arena turn a 1v1 into a 1v5. Kill them first or they become adds mid-fight.
+- **Positioning beats aggression** — with the boss name and exact pattern set unconfirmed, treat every new fight as a scouting run: watch the telegraphs, don't overcommit, and retreat to reset if the fight escalates past your healing budget.
 
-| Attribute | Detail |
-|-----------|--------|
-| Location | Corruption Zone — Dragon's Rest |
-| Recommended Level | 10+ (all heroes) |
-| Recommended Emblems | Corruption Resist, Regen, Lightning |
-| Threat Level at Fight | 10 bars (max) |
-| HP | ~12,000 (Warlord) + ~8,000 (Dragon Core) |
-
-### Phase 1: Corrupted Warlord
-
-The Warlord is a faster, more aggressive version of the Ironclad Commander, empowered by Corruption energy.
-
-**Attack Patterns (Phase 1)**:
-
-| Attack | Telegraph | Damage | Counter |
-|--------|-----------|--------|---------|
-| Corruption Cleave | Sword glows purple, wide swing | High + Corruption DoT | Parry or dodge backward |
-| Tendril Grab | Purple tendrils from ground | Medium (grabs, pulls you in) | **Dodge roll sideways** — do not run backward |
-| Corruption Wave | Slams ground, wave travels forward | High (full screen) | Jump over the wave (it is a shockwave) |
-| Summon Spawn | Roars, spawns 4 Corruption Spawn | Low individually | Kill spawns ASAP — they heal the Warlord |
-
-**Phase 2 (below 40% HP)**: The Dragon Core activates. The Warlord is joined by the Dragon Core, which floats above the arena.
-
-### Phase 2: Dragon Core
-
-The Dragon Core does not attack directly. Instead, it:
-1. **Corruption pulses** every 15 seconds — AoE damage across the entire arena
-2. **Heals the Warlord** if Corruption Spawn are alive — 5% HP per spawn per pulse
-3. **Shields the Warlord** every 30 seconds — 75% damage reduction until conduits are destroyed
-
-#### Conduit Destruction
-
-When the Warlord is shielded, 4 conduits appear at the edges of the arena. Each conduit has approximately 800 HP. Destroying all 4 conduits:
-- Removes the shield
-- Stuns the Warlord for 8 seconds (massive damage window)
-- Deals 10% of the Dragon Core's HP as damage
-
-### Weaknesses
-
-- **Corruption Resist is mandatory** — Without Corruption Resist emblems or artifacts, the DoT from every attack will kill you through healing potions.
-- **Conduit rush** — When conduits spawn, the entire team must switch to destroying them immediately. Ignoring conduits means the shield stays up permanently.
-- **Jump the wave** — The Corruption Wave has a clear jump-over animation window. Practice this timing — it is the difference between success and death.
-- **Regen emblem** — The Regen emblem's passive healing counters Corruption DoT ticks, reducing consumable usage.
-
-### Strategy
-
-#### Solo
-1. **Corruption Resist is not optional** — If you enter this fight without at least one Corruption Resist source, reset the run. You will not survive the DoT.
-2. **Kill spawns instantly** — Each Corruption Spawn heals the Warlord. A single missed spawn can undo 30 seconds of damage.
-3. **Conduits before damage** — When the shield goes up, stop attacking the Warlord and destroy conduits. The 8-second stun window after is worth more than chipping through 75% damage reduction.
-4. **Save your best consumables** — Use damage potions and corruption cures during the stun window for maximum value.
-
-#### Co-op
-- **Vanguard**: Tank the Warlord. Keep it facing away from the team. When conduits spawn, lead the Warlord away from them so the team can destroy conduits safely.
-- **Berserker 1**: Boss damage. Stack burns on the Warlord during the stun window.
-- **Berserker 2**: Spawn duty. Every time Corruption Spawn appear, handle them before returning to boss damage.
-- **Marksman**: Priority targets. Shoot conduits immediately when they spawn (range advantage). Keep Corruption Resist emblem active.
-
-### Recommended Team Composition
-
-**1 Vanguard (Corruption Resist + Physical) + 2 Berserkers (Fire + Crit) + 1 Marksman (Freeze + Corruption Resist)**
+**Practical rule:** if an Act 2 boss feels overtuned, it is often your own Threat Level talking — route planning matters more than gear.
 
 ---
 
-## Boss Kill Rewards
+## Act 3 Boss: Name Unconfirmed (The Scar)
 
-| Boss | Gold | Dragon Stone Shards | Unique Drops |
-|------|------|---------------------|--------------|
-| Ironclad Commander | 200-300 | 1 | Commander's Seal (artifact) |
-| Excavation Juggernaut | 400-600 | 2 | Juggernaut Core (weapon upgrade material) |
-| Corrupted Warlord + Dragon Core | 800-1,200 | 3 | Dragon's Tear (legendary material) |
+The final region — called **The Scar** — is "absolutely unforgiving" by reviewers' consensus, and its end boss is unconfirmed by name. Three things are known:
+
+1. **The final boss arrives with scaled-up stats when your Threat Level is high** — clearing regions 1-2 aggressively buffs this fight.
+2. **Corruption is in play** — Act 3 introduces Corruption zones that drain health rapidly, and boss attacks carry Corruption damage over time. At least one **Corruption Resist** source (emblem or artifact) is considered mandatory for this region (see the [Corruption Guide](/guides/corruption-guide)).
+3. **Healing is scarce everywhere** — no heal points between fights and none in the arena. Enter at full health or don't enter.
+
+### Act 3 Prep Checklist
+
+| Prep | Why |
+|------|-----|
+| Corruption Resist emblem/artifact | Counteract the DoT that kills through potions |
+| Regen emblem | Passive healing offsets Corruption tick damage |
+| Full-health entry | The arena has no healing — this is non-negotiable |
+| Low Threat Level route | A high-Threat run faces a buffed boss with extra captains and towers |
+
+---
+
+## Iseult the Banshee: Confirmed Campaign Boss
+
+Iseult the Banshee is a confirmed campaign boss (the act is not confirmed in public sources). She is notable for a launch bug: players reported a **softlock/stuck state** during this fight.
+
+- **The bug:** the fight could leave the game stuck and unsaveable in some cases.
+- **The fix:** shipped in the launch stability patch, alongside the save recovery system.
+- **Now:** post-patch, the fight plays as a normal boss encounter. If you hit a stuck state on any older build, update the game first.
+
+Beyond the bug report, her pattern set is not publicly documented — treat her as an unknown-pattern boss until guides catch up.
+
+---
+
+## How Threat Level Buffs Boss Fights
+
+The more you clear and collect, the stronger the campaign's retaliation — bosses included:
+
+| Threat Level Effect | What Changes |
+|---------------------|--------------|
+| **Extra captains** | More elite bodyguards in the boss arena |
+| **Archer towers** | Ranged pressure while you fight the boss — break line of sight |
+| **Buffed boss** | The final boss arrives with scaled-up stats |
+
+**Practical rule:** if a boss feels overtuned, check the Threat Level meter before blaming your build.
+
+---
+
+## Hero Matchups for Boss Fights
+
+| Hero | Role vs Bosses | Why |
+|------|----------------|-----|
+| **Wallace** (longsword) | Safe all-rounder | Easiest block/parry timing; the default boss pick for new players |
+| **Ruadh Stonecrusher** (hammer) | **Best boss killer** | Highest stagger — interrupt boss attacks outright; stagger chains shut down boss patterns |
+| **Brienne** (unarmed) | Per-hit stacker | Machine-gun hits trigger per-hit emblems; great vs stationary bosses, riskier in chaotic arenas |
+
+**Co-op rule of thumb:** one Ruadh on stagger duty + one Wallace on parry/block + one Brienne (or a second Wallace) on pressure covers every boss fight.
+
+---
+
+## Boss Rewards
+
+Boss kill rewards have not been officially itemized (older pages claimed specific drops tied to unverified boss names — treat those as unreliable). Confirmed at minimum:
+
+- Bosses **always drop artifacts** (1-2 per kill)
+- Boss kills are a source of **Dragon Stone Shards**, the premium progression material
+- Final-region bosses drop the highest-tier materials
+
+---
+
+## FAQ
+
+**Q: How many bosses are in Tears of Metal?**
+The three-act campaign has multiple boss encounters, but only two names are confirmed: Gilles the Hog (Act 1) and Iseult the Banshee (campaign). Older pages claiming a 12-boss list with specific names are not verified.
+
+**Q: Which hero is best for bosses?**
+Ruadh Stonecrusher — his stagger interrupts boss patterns. Wallace is the safest pick while learning.
+
+**Q: Why is the boss so much harder this run?**
+Check your Threat Level — clearing more maps and loot buffs the final fight (extra captains, towers, scaled boss).
+
+**Q: Did the stability patch fix the Iseult the Banshee bug?**
+Yes — the stuck state on that fight was fixed in the launch stability patch, alongside the save recovery system.
+
+**Q: Why is the Act 1 boss arena so brutal?**
+There is no healing in the arena and one missed block/parry/dodge costs nearly half your health. It is the game's deliberate rhythm check — arrive full, clear adds first, and master block/parry/dodge.
 
 ---
 
 ## Related Guides
 
-- [Progression Walkthrough: Act-by-Act Guide](/guides/progression-walkthrough)
-- [Best Builds for Every Hero](/guides/best-builds)
-- [Emblem & Artifact Guide: Complete Reference](/guides/emblem-artifact-guide)
-- [Co-op Guide: Team Composition and Strategy](/guides/co-op-guide)
+- [Boss Quick-Reference Chart](/guides/boss-quick-reference-chart) — verified roster at a glance
+- [Boss Strategies Guide](/guides/boss-strategies) — patterns, weaknesses & loadouts
+- [Threat Level & Difficulty Guide](/guides/threat-level-difficulty-guide) — why boss fights get harder
+- [Corruption Guide](/guides/corruption-guide) — Act 3's health-draining mechanic
+- [Heroes Tier List](/guides/heroes-tier-list) — Wallace, Brienne & Ruadh Stonecrusher ranked
+- [Best Builds](/guides/best-builds) — boss-ready loadouts for every hero
+- [Combat Tips](/guides/combat-tips) — block, parry and dodge fundamentals

@@ -1,58 +1,68 @@
 ---
-title: "Tears of Metal Best Builds — Vanguard, Berserker, and Marksman Optimized Loadouts"
-description: "Three optimized Tears of Metal builds covering all heroes: Pure Physical Vanguard, Dragon Stone Elemental, and Emblem Synergy. Artifact combos, emblem picks, and co-op strategy included."
-keywords: ["Tears of Metal best builds", "Tears of Metal Vanguard build", "Tears of Metal Berserker build", "Tears of Metal Marksman build", "Tears of Metal emblem synergy build"]
-updated: "2026-07-23"
+title: "Tears of Metal Best Builds — Wallace, Brienne, and Ruadh Stonecrusher Optimized Loadouts"
+description: "Three optimized Tears of Metal builds for the real launch roster: Pure Physical Wallace, Dragon Stone Elemental Brienne, and Stagger & Emblem Synergy Ruadh Stonecrusher. Artifact combos, emblem picks, and co-op strategy included."
+category: "Builds"
+version: "1.0"
+updated: "2026-08-01"
+keywords: ["Tears of Metal best builds", "Tears of Metal Wallace build", "Tears of Metal Brienne build", "Tears of Metal Ruadh Stonecrusher build", "Tears of Metal emblem synergy build", "Tears of Metal build guide"]
 ---
 
-# Tears of Metal Best Builds — Vanguard, Berserker, and Marksman
+# Tears of Metal Best Builds — Wallace, Brienne, and Ruadh Stonecrusher
 
-> **Applies to Early Access v1.0 / Updated: July 23, 2026**
+> **Early Access v1.0 / Updated: August 1, 2026**
 
-Every hero in Tears of Metal can be built in multiple ways, but some combinations of artifacts, emblems, and weapons consistently outperform others. This guide covers three proven builds: one for each hero, plus a high-ceiling Emblem Synergy build for experienced players.
+**Naming note first:** Tears of Metal's launch roster is **Wallace (longsword), Brienne (unarmed fast attacks), and Ruadh Stonecrusher (giant hammer)**. Older versions of this guide used "Vanguard," "Berserker," and "Marksman" — those heroes do not exist in the game. This page uses the real roster.
+
+Every hero in Tears of Metal can be built in multiple ways, but some combinations of artifacts, emblems, and weapons consistently outperform others. This guide covers three proven builds — one for each hero — plus how they fit together in co-op.
 
 ---
 
-## Build 1: Pure Physical Damage (Vanguard)
+## Build 1: Pure Physical (Wallace)
 
-The Pure Physical build turns the Vanguard into an unkillable damage dealer. It focuses on raw damage reduction, health sustain, and claymore scaling. This is the best build for solo play and the most forgiving for new players.
+The Pure Physical build turns Wallace into the game's most forgiving damage dealer. It focuses on raw damage reduction, health sustain, and longsword scaling. This is the best build for solo play and the most forgiving for new players.
 
 ### Recommended Artifacts
 
 | Artifact | Rarity | Effect | Why It Works |
 |----------|--------|--------|--------------|
 | Ironheart Pauldrons | Common+ | +15% damage reduction | Core survivability |
-| Bloodied Claymore Grip | Uncommon | +20% claymore damage | Direct damage multiplier |
-| Warlord's Medallion | Rare | +25% health, +10% damage when below 50% HP | Clutch scaling |
 | Stag Helm | Common | +10% block efficiency | More stamina per block |
 | Veteran's Targe | Uncommon | +15% parry window | Easier timing for parries |
 | Highland Stone | Rare | +12% physical damage, +8% move speed | All-around value |
+| Warlord's Medallion | Rare | +25% health, +10% damage when below 50% HP | Clutch scaling |
+| Guardian's Pendant | Legendary | Survive lethal damage at 1 HP (once per run) | Solo safety net |
 
 ### Best Emblem Combination
 
 **Primary**: Physical Damage Emblem — +25% physical damage
 **Secondary**: Critical Strike Emblem — +15% crit chance
 
-This combination maximizes the Vanguard's heavy-hitting claymore swings. Physical Damage boosts every attack, and Critical Strike provides burst potential against elites and bosses.
+This combination maximizes Wallace's heavy-hitting longsword swings. Physical Damage boosts every attack, and Critical Strike provides burst potential against elites and bosses. If survivability is a problem, swap Critical Strike for Regen (heals 1% HP every 3 seconds).
 
 ### Weapon Choice
 
-**Iron Greatsword (Reinforced+3 or higher)**
+**Longsword (Reinforced+2 or higher)**
 
-The Iron Greatsword has the best base damage scaling in the game for two-handed weapons. Merge duplicates at the Smithy to push it to Reinforced+3 or higher. The charged heavy attack does a 360-degree spin that clears crowds in one hit.
+The longsword is Wallace's signature weapon — balanced reach, damage, and the most forgiving block/parry timing in the game. Merge identical longswords at the Smithy to push to Reinforced+2 or +3. Prioritize the heavy attack branch of the weapon's skill tree: it cleaves through crowds in one swing.
+
+### Skill Priorities (AP)
+
+1. **Block Efficiency** — more stamina per block; Wallace's defense is his identity
+2. **Heavy Attack Mastery** — the capstone cleave is his best crowd-clearing tool
+3. **Stamina Recovery** — lets you chain blocks, parries, and attacks without pausing
 
 ### Playstyle Tips
 
 - **Initiate with a parry** — Parry the first enemy attack, then execute the riposte for massive damage
-- **Use heavy attacks in crowds** — The Vanguard's heavy attack cleaves through multiple enemies
-- **Save dodge roll for boss AoEs** — Block handles regular enemy attacks
-- **Position in doorways** — The Vanguard's wide swings hit everything in a choke point
+- **Use heavy attacks in crowds** — the longsword's heavy attack cleaves through multiple enemies
+- **Save the dodge roll for boss AoEs** — blocking handles regular enemy attacks
+- **Position in doorways** — wide swings hit everything in a choke point
 
 ---
 
-## Build 2: Dragon Stone Elemental (Berserker)
+## Build 2: Dragon Stone Elemental (Brienne)
 
-The Dragon Stone build focuses on elemental damage through the Dragon Stone emblem, which converts a portion of your physical damage to fire damage and applies a burn effect. The Berserker's high attack speed makes this build devastating.
+The Dragon Stone build converts Brienne's blistering attack speed into sustained fire damage. The Dragon Stone emblem converts a portion of your damage to fire and applies a burn effect — and no hero applies it faster than Brienne.
 
 ### Recommended Artifacts
 
@@ -62,69 +72,77 @@ The Dragon Stone build focuses on elemental damage through the Dragon Stone embl
 | Ember-Touched Bracers | Uncommon | +20% attack speed while burning | Synergizes with burn uptime |
 | Obsidian Edge | Rare | +18% elemental damage | Boosts all elemental sources |
 | Phoenix Feather | Common | +15% fire resist, burn heals 2% HP/tick | Sustain in extended fights |
-| Berserker's Chain | Uncommon | +12% damage when below 50% stamina | Rewards aggressive play |
 | Cinder Shard | Rare | +10% chance to explode on kill (AoE fire) | Extra crowd clear |
+| Boots of the Wind | Rare | +20% dodge distance | Kiting — Brienne must not facetank |
 
 ### Best Emblem Combination
 
-**Primary**: Fire Emblem — +30% fire damage, attacks apply burn
-**Secondary**: Critical Strike Emblem — +15% crit chance for burst
+**Primary**: Fire Emblem — attacks apply burn (DoT: 5% HP/sec for 4 sec)
+**Secondary**: Attack Speed Emblem — +20% attack speed
 
-The Fire Emblem is mandatory for this build. The burn effect stacks, so the Berserker's fast attacks can keep 5-6 stacks of burn on a boss simultaneously, dealing significant tick damage.
+The Fire Emblem is mandatory for this build. Burn stacks, and Brienne's machine-gun attack rate keeps 5-6 stacks of burn on a boss simultaneously — far more than any other hero can maintain. Attack Speed amplifies both her raw DPS and her burn-stacking speed.
 
-### Weapon Choice
+### Weapon & Scaling Notes
 
-**Twin Cinder Blades (Reinforced+2 or higher)**
+Brienne fights **unarmed** — her damage comes from her attack rate, so per-hit sources (emblems, artifacts, the Attack Speed emblem) do the heavy lifting. Whether unarmed attacks benefit from weapon-specific artifact bonuses is still being documented — treat weapon-type artifact descriptions as unverified. Regardless, stack attack speed and per-hit effects and you cannot go wrong.
 
-Dual-wielding is the Berserker's specialty, and the Twin Cinder Blades have built-in fire damage. At Reinforced+2, they gain a chance to spread burn to nearby enemies, dramatically improving AoE clear.
+### Skill Priorities (AP)
+
+1. **Attack Speed branches** — every point multiplies her per-hit emblem value
+2. **Dodge/evasion capstones** — her short range means repositioning is survival
+3. **Combo finishers** — end-of-combo hits apply the biggest burst and stack effects
 
 ### Playstyle Tips
 
-- **Build burn stacks first** — Land 3-4 quick hits to stack burn, then use heavy attacks while burn ticks
-- **Do not facetank** — The Berserker has the lowest base armor. Hit and move
-- **Use your dodge liberally** — You have the fastest stamina recovery of any hero
-- **Focus priority targets** — Burn stacks are single-target. Pick one enemy at a time in group fights
-- **Watch your Threat Level** — Berserker draws more aggro. Manage positioning carefully
+- **Stack burn first** — Land 3-4 quick hits to build stacks, then keep them topped up while you reposition
+- **Do not facetank** — Brienne has short range and the highest skill floor of the three heroes. Hit and move
+- **Dodge liberally** — she has the fastest mobility in the game; use it
+- **Focus priority targets** — burn stacks are single-target. Pick one enemy at a time in group fights
 
 ---
 
-## Build 3: Emblem Synergy (Marksman)
+## Build 3: Stagger & Emblem Synergy (Ruadh Stonecrusher)
 
-The Emblem Synergy build capitalizes on the Marksman's ability to apply emblem effects from range. This build has the highest skill ceiling in the game and requires good emblem knowledge, but its damage output against bosses is unmatched.
+Ruadh's giant hammer hits so hard that every per-hit emblem trigger lands with full value. This build pairs the game's best stagger with emblem procs, making it the strongest boss-fighting build in the game.
 
 ### Recommended Artifacts
 
 | Artifact | Rarity | Effect | Why It Works |
 |----------|--------|--------|--------------|
-| Emblem-Weaver's Focus | Rare | +25% emblem trigger chance | More procs = more damage |
-| Storm-Chaser's Quiver | Uncommon | Lightning damage on crit | Synergizes with emblem procs |
-| Frozen Tear | Common | +20% freeze duration | Locks enemies in place longer |
+| Emblem-Weaver's Focus | Rare | +25% emblem trigger chance | More procs per swing |
 | Sage's Monocle | Uncommon | +15% emblem damage | Direct multiplier |
-| Boots of the Wind | Rare | +20% dodge distance | Kiting essential for Marksman |
-| Thunder Core | Rare | Lightning chain on crit (hits 3 targets) | Excellent AoE clear |
+| Thunder Core | Rare | Lightning chain on crit (hits 3 targets) | AoE from a single swing |
+| Highland Stone | Rare | +12% physical damage, +8% move speed | Stagger damage scaling |
+| Ironheart Pauldrons | Common+ | +15% damage reduction | Covers slow wind-ups |
+| Warlord's Medallion | Rare | +25% health, +10% damage when below 50% HP | Clutch scaling |
 
 ### Best Emblem Combination
 
 **Primary**: Lightning Emblem — attacks chain to nearby enemies
 **Secondary**: Freeze Emblem — attacks slow and can freeze enemies
 
-This combination creates a powerful crowd control loop: Lightning chains damage across groups while Freeze slows them, preventing them from reaching you. Against single targets (bosses), the Freeze proc locks them in place for sustained damage.
+Slow, heavy hits make every proc count: a chained Lightning bolt from one hammer swing hits as hard as a full fast-attacker combo. Freeze locks enemies in place while you line up the next swing. **Alternative for pure burst:** Physical Damage + Critical Strike — a crit hammer swing is the single biggest number in the game.
 
 See our [Emblem & Artifact Guide](/guides/emblem-artifact-guide) for a complete breakdown of all 18 emblems and their synergies.
 
 ### Weapon Choice
 
-**Storm-Caller Crossbow (Reinforced+1 or higher)**
+**Great Hammer (Reinforced+2 or higher)**
 
-The Storm-Caller Crossbow has innate Lightning damage and a faster reload than other Marksman weapons. At Reinforced+1, its shots pierce through one additional target, dramatically improving crowd control.
+The hammer is Ruadh's signature — highest single-hit damage and the game's best stagger. Merge duplicates at the Smithy to push toward Reinforced+3. Hammer stagger interrupts captain and boss attacks outright; stagger chains shut down boss patterns.
+
+### Skill Priorities (AP)
+
+1. **Heavy Attack / stagger branches** — more stagger and more damage per swing
+2. **Stamina Recovery** — whiffing a hammer swing is expensive; recover faster
+3. **Positioning utilities** — anything that keeps you mid-range instead of overextending
 
 ### Playstyle Tips
 
-- **Maintain distance** — Your effective range is about 20 meters. Know that distance and never let enemies close
-- **Pre-fire chokes** — Shoot ahead of where enemies are moving, not where they are
-- **Use freeze as your panic button** — When enemies close distance, freeze them and dodge roll backward
-- **Prioritize emblems over raw damage** — This build scales with emblem trigger chance and elemental damage, not physical damage stats
-- **Coordinate with your Vanguard** — Have them hold enemies in place while you apply emblem effects from behind
+- **Bait, then punish** — let enemies (and bosses) commit to an attack, then wind up your hammer
+- **Stagger chains win boss fights** — against Gilles the Hog, Iseult the Banshee, and beyond, interrupt patterns outright
+- **Never swing at nothing** — a missed hammer swing is the most punishable mistake in the game
+- **Let Wallace or Brienne hold attention** — you delete priority targets while they occupy the swarm
 
 ---
 
@@ -134,11 +152,11 @@ When playing in a team, here is how these builds interact:
 
 | Build | Role | Synergizes With | Avoid Pairing With |
 |-------|------|-----------------|-------------------|
-| Pure Physical Vanguard | Tank/CC | Emblem Synergy Marksman (ranged DPS while tanking) | Another Pure Physical (no elemental coverage) |
-| Dragon Stone Berserker | Melee DPS | Anything (elemental damage stacks with all) | Another Berserker (two squishy melee is risky) |
-| Emblem Synergy Marksman | Ranged DPS/CC | Pure Physical Vanguard (shield wall + ranged DPS) | Solo (very weak without a tank) |
+| Pure Physical Wallace | Anchor/tank | Ruadh (stagger while Wallace holds aggro) | Nothing — he fits every comp |
+| Dragon Stone Brienne | Melee DPS | Wallace (holds enemies still for burn stacking) | Sending her in without a front line |
+| Stagger & Emblem Ruadh | Boss damage/CC | Anyone — stagger is universally useful | Over-committing two Ruadh players to the same lane |
 
-For the best co-op experience, run: **1 Pure Physical Vanguard + 1 Dragon Stone Berserker + 1 Berserker (flex) + 1 Emblem Synergy Marksman**.
+For the best co-op experience, run: **1 Wallace (anchor) + 1 Brienne (pressure) + 1 Ruadh (stagger) + 1 flex** (a second Wallace or Brienne works best).
 
 See our [Co-op Guide](/guides/co-op-guide) for detailed team compositions and role assignments.
 
@@ -149,7 +167,7 @@ See our [Co-op Guide](/guides/co-op-guide) for detailed team compositions and ro
 | Early Game (Act 1) | Mid Game (Act 2) | Late Game (Act 3) |
 |--------------------|------------------|-------------------|
 | Equip any Common/Uncommon artifacts | Focus on Rare artifact synergy | Optimize emblem + artifact combos |
-| Use basic weapon | Merge to Reinforced+1 | Push to Reinforced+3 |
+| Use your best base weapon | Merge to Reinforced+1 | Push to Reinforced+3 |
 | One emblem unlocked | Two emblems active | Full emblem synergy |
 | Prioritize survivability | Balance offense and defense | Corruption Resist mandatory |
 
@@ -157,6 +175,9 @@ See our [Co-op Guide](/guides/co-op-guide) for detailed team compositions and ro
 
 ## Related Guides
 
+- [Wallace Build Guide](/guides/wallace-build-guide) — deep dive on the longsword all-rounder
+- [Brienne Build Guide](/guides/brienne-build-guide) — deep dive on the unarmed speedster
+- [Ruadh Stonecrusher Build Guide](/guides/ruadh-build-guide) — deep dive on the hammer stagger machine
 - [Heroes Tier List: Best Classes Ranked](/guides/heroes-tier-list)
 - [Emblem & Artifact Guide: Complete Reference](/guides/emblem-artifact-guide)
 - [Weapon Upgrade Guide: Merge System Explained](/guides/weapon-upgrade-guide)

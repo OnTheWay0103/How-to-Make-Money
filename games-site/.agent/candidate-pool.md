@@ -8,7 +8,7 @@
 | # | 游戏 | 类型 | 评分 | 上线日 | Wiki | 发现日 | 状态 |
 |---|------|------|:--:|------|:--:|------|------|
 | 1 | **Delverium** | Co-op 生存沙盒 | **19** | 9/22 EA | ❌ 无 | 8/1 | 待建站（80k wishlist） |
-| 3 | **Pass the Fear** | Co-op Roguelite 弹幕 | **16** | 7/22 已上线 | ❌ 无 | 8/1 | 待建站（77%好评 1.9K评测） |
+| 3 | **Pass the Fear** | Co-op Roguelite 弹幕 | ~~16~~ **12** | 7/22 已上线 | ⚠️ 已有 wiki | 8/1 | ⚠️ 降级 — 8/1 深度调研发现 passthefear.wiki 已存在（含 build planner），关键词仅 18 个 |
 | 4 | Mortal Shell II | Souls-like ARPG | 16 | 8/20 | ⚠️ 竞争激烈 | 8/1 | 观望（IGN/Ludo.guide/社区Wiki已存在） |
 | 5 | Good Heavens! | Co-op 生存建造 RPG | 15 | 8月 EA | ❌ 无 | 8/1 | 观望（EA日期模糊，热度低） |
 | 6 | Twisted Tower | FPS Horror Adventure | 14 | 8/18 | ❌ 无 | 7/31 | 观望（等待临近发售） |
