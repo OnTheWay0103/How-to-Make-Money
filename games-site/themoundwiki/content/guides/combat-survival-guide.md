@@ -3,14 +3,14 @@ title: "The Mound Combat & Survival Guide — Blocking, Parrying & Staying Alive
 description: "Master The Mound: Omen of Cthulhu combat and survival. Complete breakdown of blocking, parry mechanics, enemy attack patterns, Sanity management, and how to survive any encounter."
 category: "Guides"
 version: "1.0"
-updated: "2026-07-18"
+updated: "2026-08-01"
 keywords: ["The Mound Omen of Cthulhu how to block", "The Mound Omen of Cthulhu combat guide", "The Mound survival tips", "The Mound combat mechanics", "The Mound how to survive"]
 related: ["weapons-guide", "enemy-guide", "sanity-guide", "coop-strategy-guide", "extraction-guide"]
 ---
 
 # The Mound: Omen of Cthulhu — Combat & Survival Mechanics Guide
 
-> **Launch Version / Updated: July 18, 2026**
+> **Launch Version / Updated: August 1, 2026**
 
 Combat in The Mound is slow, deliberate, and punishing. Victory comes from understanding the mechanics — blocking, parrying, Sanity management, and positioning — not reflexes alone. This guide breaks down every system so you can survive any encounter.
 
@@ -41,6 +41,8 @@ Blocking reduces damage but does not eliminate it. The reduction depends on your
 | Matchlock (melee block) | 50% |
 | Crossbow (melee block) | 40% |
 | Oil Lamp | 30% |
+
+**Patch 1.02 update (late July 2026):** Block was added to the game as a new combat input in **Patch 1.02** — the launch build had no defensive input at all, which was the most common combat complaint. If you are returning after launch week, this is the new ability: hold the Block input to enter the guard stance described above. The mechanics in this section (1s guard stance, 15% Stamina per absorbed hit, weapon-dependent damage reduction) reflect the 1.02 version. See the [Patch Notes](/guides/updates-patch-notes) for the full changelog.
 
 **Important:** Blocking does NOT work against projectiles, AoE attacks, or Sanity-based damage. Against the High Priest's shadow bolt, dodge — do not block.
 
@@ -147,6 +149,55 @@ Always carry 2 Bandages + 1 Salve minimum. Squad medics should carry 3 Salves + 
 | Oil Lamp | Crowd control | Leech Swarms, darkness | Not a primary weapon |
 
 **Safest loadout:** Crossbow + Machete (works in all weather, silent). **Most aggressive:** Matchlock + Oil Lamp (clear weather only).
+
+---
+
+## Why Combat Feels Hard (and How to Stop Dying)
+
+Combat in The Mound is famously punishing — reviews and players describe it as feeling more like luck than skill, especially at launch when no defensive input existed. Since Patch 1.02 added Block, the difficulty is now largely beatable with the right mindset. Here is the honest breakdown of why you are dying, and what to change.
+
+### 1. Positioning — The First Cause of Death
+
+Most deaths happen before a single swing: fighting in open ground where enemies can flank, or near water where your dodge i-frames shrink. The fix is boring and effective:
+
+- **Fight at chokepoints** — doorways, fallen trees, narrow paths. One enemy can block the rest
+- **Never fight in deep water** — no i-frames there, and Leech Swarms spawn
+- **Backpedal toward an escape route**, not into a corner
+- If you are surrounded, don't trade hits — disengage and reset. The [Extraction Guide](/guides/extraction-guide) covers when to just leave
+
+### 2. Stamina Discipline
+
+Every attack, block, dodge, and sprint costs Stamina, and Stamina starvation is the #2 death cause. The rule is simple: **never drop below 30% in combat**. That reserve is your emergency block or dodge. If you are mid-fight and under half, stop attacking and reposition — recovery is faster than death.
+
+### 3. Enemy Speed — You Can't Outrun Them
+
+Enemies are faster than the player, and sprinting away with your back turned gets you grabbed. This is by design: the game wants you to *stand and fight* or *fight while retreating through terrain*, not to kite.
+
+- Don't sprint away — use the dodge roll to create distance through a chokepoint
+- Break line of sight around trees to reset pursuit
+- Oil Lamp fire barriers stop pursuit for 4–5 seconds — the best escape tool in the game
+
+### 4. Melee Whiffs — Why Your Swings Miss
+
+The melee swings are slower than they look and attacks have travel time. "The hit connected but did nothing" is usually one of:
+
+| Mistake | Fix |
+|---------|-----|
+| Swinging before the enemy's tell completes | Attack **after** the enemy's windup, into their recovery |
+| Swinging at max range | Stand at melee range — mid-range is the whiff zone |
+| Swinging while the enemy is mid-dash/lunge | Wait for the lunge to land, then punish |
+| Chasing a moving target | Hold position and let them come to you |
+
+Melee in The Mound is a *counter* game: wait for the enemy's attack, then hit them during recovery. Block (1.02) makes this loop safe — block the first hit of a combo, punish the end.
+
+### 5. Mindset: Death Is Cheap, Progress Is Permanent
+
+The single most important reframe: **dying costs you the run, not the account.** Your personal level, tokens, and permanent store unlocks are banked before you deploy — see the [Progression Guide](/guides/progression-system-guide). A wipe sets you back 30–60 minutes of one run, and nothing else.
+
+- Every death teaches a pattern — treat each expedition as a scouting run
+- If a contract is too hard, you aren't under-leveled, you're under-supplied: bring more Salves, better loadout (see the [Weapons Guide](/guides/weapons-guide))
+- Sanity below 40% is usually the real killer — hallucinations create fake threats and fake escapes. Manage it first ([Sanity Guide](/guides/sanity-guide))
+- And if combat still feels unfair after 1.02: Block + parry + dodge is now the full toolkit it was missing. Use all three.
 
 ---
 

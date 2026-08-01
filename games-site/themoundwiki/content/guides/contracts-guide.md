@@ -3,14 +3,14 @@ title: "The Mound Contracts Guide — Mission Types and Rewards"
 description: "Complete guide to The Mound contract system: all mission types, reward tables, how to pick the right contract, and Ox Cart management strategy."
 category: "Guides"
 version: "1.0"
-updated: "2026-07-14"
+updated: "2026-08-01"
 keywords: ["themound contracts", "themound missions", "ox cart themound", "themound contract rewards", "themound expedition types"]
 related: ["extraction-guide", "coop-strategy-guide", "beginner-guide"]
 ---
 
 # The Mound Contracts Guide — Mission Types and Rewards
 
-> Launch Version / Updated: July 14, 2026
+> Launch Version / Updated: August 1, 2026
 
 Contracts are the backbone of every expedition in **The Mound: Omen of Cthulhu**. Before you set sail from the Galleon, you choose a Contract from the board. This determines your objective, the difficulty, the map layout, and the reward tier.
 
@@ -25,6 +25,35 @@ Contracts are the backbone of every expedition in **The Mound: Omen of Cthulhu**
 | **Shared Progress** | Story progress is shared across the entire team |
 | **Personal Rank** | Each player maintains their own rank and unlocks |
 | **Risk vs Reward** | Higher difficulty = better loot and more progression experience |
+
+---
+
+## Difficulty Scaling — Contracts Follow the Host
+
+One of the most important and least explained rules: **contract difficulty scales with the HOST's personal level**, not the team average and not a per-player choice. When a squad opens the Contract Board, the difficulty bracket is set by whoever is hosting the game.
+
+| Situation | What Happens |
+|-----------|--------------|
+| High-level player hosts | All contracts present at high difficulty — even the "Easy" options scale up |
+| Low-level player hosts | Contracts scale to their level — genuinely easier maps |
+| Mixed-level squad | Difficulty matches the host, which may be brutal for the low-level player or trivial for the high-level one |
+| Solo play | Difficulty always matches your own level (no surprise) |
+
+### Why This Matters for Playing with Newcomers
+
+If you are a high-level player trying to introduce a friend to the game, hosting the lobby yourself means **you cannot open an easy map for them** — the board will only show contracts at your difficulty. This is a common complaint from veterans bringing new players, and it is working as designed, not a bug.
+
+### Workarounds for Playing with Newcomers
+
+| Workaround | How It Works | Best For |
+|------------|--------------|----------|
+| **Let the low-level player host** | The newcomer creates the lobby and hosts — contracts scale to their level, and the whole squad plays an easier map | Bringing one or two new players; the standard fix |
+| **Host a Reconnaissance or Easy Salvage contract as the newcomer's host** | These types are the most forgiving at any difficulty bracket | Learning the map and the basics |
+| **Hand the controller/keyboard to the newcomer for the contract selection** | If you must host, let the new player pick the contract so they choose something comfortable | Quick sessions, but difficulty still scales to you |
+| **Play on the newcomer's profile progression** | If the new player has already played a few runs, their own host difficulty is already moderate | Newcomers who have completed a handful of expeditions |
+| **Squads of mixed levels: expect higher difficulty, bring more heals** | When a high-level player hosts, everyone should bring extra Salves and treat the run as a harder contract than labeled | Short sessions where hosting is fixed |
+
+**Bottom line:** for teaching sessions, always have the new player host. The contract board's difficulty follows them, and your high-level character still contributes gear, knowledge, and firepower — just with maps scaled to their level.
 
 ---
 
@@ -148,7 +177,7 @@ The Ox Cart is one of the most valuable tools in the game, but it is frequently 
 - **Read the contract details.** Some contracts specify weather conditions or enemy types — plan your loadout accordingly.
 - **Story contracts are time-limited in some cases.** If a Story contract warns about urgency, prioritize it.
 - **Reputation unlocks Galleon upgrades.** Do not skip Rescue contracts entirely — the long-term payoff is significant.
-- **Check teammate rank.** If you are the highest-ranked player, consider taking easier contracts to help your team gear up.
+- **Let the lowest-ranked player host.** Contract difficulty scales with the host's level, so a new player hosting keeps the maps beatable — the opposite of the old assumption that the strongest player should lead. See the Difficulty Scaling section above.
 
 ---
 

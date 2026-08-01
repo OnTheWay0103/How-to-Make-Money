@@ -1,22 +1,51 @@
 ---
 title: "The Mound Update Log and Patch Notes — Version History and Changes"
-description: "Complete update history and patch notes for The Mound: Omen of Cthulhu. Every content update, balance change, bug fix, and new feature from launch through the latest version, with developer commentary and community impact analysis."
+description: "Complete update history and patch notes for The Mound: Omen of Cthulhu. Every content update, balance change, bug fix, and new feature from launch through version 1.02 — including the Block ability and progress recovery tool — with developer commentary and community impact analysis."
 category: "Guides"
 version: "1.0"
-updated: "2026-07-23"
+updated: "2026-08-01"
 keywords: ["themound patch notes", "themound update history", "themound version log", "themound changelog", "themound latest update", "themound 1.0 patch", "themound developer updates"]
 related: ["faq-content", "game-length-guide", "controls-settings-guide", "coop-strategy-guide"]
 ---
 
 # Update Log and Patch Notes — Version History and Changes
 
-> Launch Version / Updated: July 23, 2026
+> Launch Version / Updated: August 1, 2026
 
 This page tracks all official updates, patches, and hotfixes for **The Mound: Omen of Cthulhu**. Patch notes are compiled from official developer announcements and community-verified changes. Bookmark this page to stay current with gameplay changes that affect your strategies.
 
 ---
 
-## Current Version: 1.0.1
+## Current Version: 1.02
+
+**Released:** Late July 2026
+**Patch Size:** ~1.5 GB
+
+### New Features
+
+- **Block Ability (new combat input)** — The most-requested post-launch addition, shipped in 1.02. Hold the Block input to enter a brief (~1s) guard stance that reduces incoming melee damage. Damage reduction depends on your weapon (Machete 60%, Matchlock 50%, Crossbow 40%, Oil Lamp 30%) and each absorbed hit costs 15% Stamina. Block does **not** work against projectiles, AoE, or Sanity-based damage — dodge those instead. Full mechanics in the [Combat & Survival Guide](/guides/combat-survival-guide)
+- **Progress Recovery Tool (all platforms)** — An achievement/trophy-based tool that rebuilds your personal level, permanent store unlocks, and cosmetics if your save is lost or corrupted. Step-by-step usage in the [Progress Loss & Save Recovery Guide](/guides/progress-save-recovery-guide)
+- **PS5 progress loss fix** — Dedicated fix for the PS5 progress-loss scenario reported since launch
+
+### Performance & Stability
+
+- **Ultra preset performance fix** — The Ultra preset no longer loads incorrectly, fixing the disproportionately bad high-end performance players reported at launch
+- **Duplicate same-class enemy spawn fix** — Enemies of the same class no longer spawn stacked in the same location
+
+### Bug Fixes
+
+- Fixed Saints not loading during expeditions
+- Fixed solo runs sometimes starting without a weapon
+- Fixed progress-loss cases on all platforms via the new recovery tool
+- Additional stability fixes for crashes during long expeditions
+
+### Community Impact
+
+Patch 1.02 answers the two biggest launch complaints head-on: combat agency (Block) and progress safety (the recovery tool). Combined with 1.0.1's balance changes, the game is materially closer to the experience players expected at launch. See the [Progression Guide](/guides/progression-system-guide) for how the permanent progression loop works with tokens and store unlocks.
+
+---
+
+## Version 1.0.1 — Balance & Bug Fix Patch
 
 **Released:** July 20, 2026
 **Patch Size:** ~1.2 GB
@@ -125,7 +154,7 @@ The development team has shared the following planned updates:
 
 | Update | Expected Timeline | Content |
 |--------|-------------------|---------|
-| Patch 1.0.2 | August 2026 | Matchmaking improvements, PS4 performance, balance tuning |
+| Patch 1.02 | **Shipped — late July 2026** | Block ability, progress recovery tool, PS5 progress fix, Ultra preset fix, enemy spawn fix |
 | Content Update 1 | September 2026 | New map (The Lighthouse), 2 new enemy types, 5 new contracts |
 | Seasonal Event 1 | October 2026 | Halloween-themed limited-time event with exclusive rewards |
 | Content Update 2 | December 2026 | New boss encounter, new weapon type (throwing knives), perk expansion |
@@ -156,6 +185,7 @@ The development team has shared the following planned updates:
 
 | Version | Date | Type |
 |---------|------|------|
+| 1.02 | Late July 2026 | Block Ability + Progress Recovery + Performance Fixes |
 | 1.0.1 | July 20, 2026 | Balance + Bug Fix |
 | 1.0.0 | July 14, 2026 | Launch |
 | 0.8.0 | May 2026 | Beta |
@@ -168,3 +198,5 @@ The development team has shared the following planned updates:
 - [Game Length Guide: How Long to Beat](/guides/game-length-guide)
 - [Controls and Settings Guide](/guides/controls-settings-guide)
 - [Co-op Strategy Guide: Team Play Tips](/guides/coop-strategy-guide)
+- [Progress Loss & Save Recovery Guide](/guides/progress-save-recovery-guide)
+- [Performance & FPS Fix Guide](/guides/performance-fps-fix-guide)

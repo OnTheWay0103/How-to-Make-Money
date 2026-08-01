@@ -1,6 +1,6 @@
 # 游戏攻略站 — 站点统计
 
-> 最后更新：2026-08-01 | 26 站 · ~466 篇攻略
+> 最后更新：2026-08-01 | 26 站 · ~469 篇攻略
 
 ---
 
@@ -11,7 +11,7 @@
 | 1 | Witchspire | 6/29 | 29 | witchspirewiki.vercel.app | ✅ | ✅ | ✅ | 唯一 GitHub 自动部署 |
 | 2 | Mistfall Hunter | 7/01 | 33 | mistfallhunterwiki.vercel.app | ✅ | ✅ | ✅ | 已上线 |
 | 3 | Aincrad | 7/07 | 29 | aincradwiki.vercel.app | ✅ | ✅ | ✅ | |
-| 4 | The Mound | 7/14 | 24 | themoundwiki.vercel.app | ✅ | ✅ | ✅ | |
+| 4 | The Mound | 7/14 | 41 | themoundwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 反馈驱动扩容 +3 攻略 |
 | 5 | SpiritVale | 7/12 | 24 | spiritvalewiki.vercel.app | ✅ | ✅ | ✅ | |
 | 6 | Skills & Raids | 7/15 | 19 | skillsandraidswiki.vercel.app | ✅ | ✅ | ✅ | 7/27 游戏上线 |
 | 7 | MineGeon | 7/20 | 20 | minegeonwiki.vercel.app | ✅ | ✅ | ✅ | 7/28 游戏上线 |
@@ -98,7 +98,7 @@
 | 指标 | 数值 |
 |------|:--:|
 | **总站点数** | 26 |
-| **总攻略数** | ~466 |
+| **总攻略数** | ~469 |
 | **Vercel 部署** | 26/26 ✅ |
 | **GA4 配置** | 16/26 ✅ |
 | **Dashboard 注册** | 26/26 ✅ |

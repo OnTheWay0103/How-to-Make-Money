@@ -387,6 +387,31 @@
         "12 文件检查清单 + 构建验证 Gate + 残留扫描 = 零遗漏上线"
       ],
       "fixes_applied": []
+    },
+    {
+      "game": "The Mound",
+      "date": "2026-08-01",
+      "genre": "Co-op Horror Extraction",
+      "template": "themoundwiki (Builder agent, feedback-driven expansion)",
+      "mode": "expand (feedback-driven)",
+      "guidesAdded": 3,
+      "guides": 41,
+      "deployed": true,
+      "issues": [
+        "First vercel --prod deploy hit the known root-directory-double-path error (project Root Directory 'games-site/themoundwiki' + CLI cwd) — cleared rootDirectory via API, deployed, restored it",
+        "Guide length creep: performance/progress drafts exceeded the 6-9K target (13.4K/10.5K) — trimmed to ~10-12K to stay near existing guide range (max 11.4K)",
+        "Stats doc was stale (Mound listed 24 guides vs 38 actual) — corrected to 41 with this expansion"
+      ],
+      "lessons": [
+        "Feedback-driven expansion pattern works: 3 highest-demand gaps (performance fixes, progress recovery, progression/meta) were all zero-coverage before this build",
+        "Patch 1.02 content (Block ability, achievement/trophy-based progress recovery tool, PS5 fix) is high-search-intent '差评救援' material — patch notes, crossplay, contracts and combat guides all updated to 1.02 state",
+        "Crossplay guide rewritten honestly: PC<->Xbox confirmed, PS5 inconsistent — reconcile existing 'full crossplay' claims rather than repeating them",
+        "Contract difficulty follows HOST level — new section in contracts-guide resolves the 'can't open easy maps for newbies' complaint",
+        "Build exit 0, residue scan clean, deploy verified: homepage 200, sitemap contains all 3 new slugs, all guide pages 200"
+      ],
+      "fixes_applied": [
+        "rootDirectory cleared via API before deploy and restored after (documented knownIssue root-directory-double-path)"
+      ]
     }
   ],
   "knownIssues": [
