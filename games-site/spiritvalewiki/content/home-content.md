@@ -29,6 +29,9 @@ SpiritVale is currently in Early Access. This wiki covers all core systems, stra
 | [Crafting Guide](/guides/crafting-guide) | Gear & materials | Intermediate |
 | [Boss Guide](/guides/boss-guide) | All 20+ bosses | Advanced |
 | [Solo Guide](/guides/solo-guide) | Playing alone | Intermediate |
+| [Solo Play & Party Finding](/guides/solo-party-guide) | Honest solo limits + LFG | Intermediate |
+| [Connection & Server Guide](/guides/connection-server-guide) | Lag, rollbacks, server choice | Fixes |
+| [Update & Patch Notes](/guides/updates-patch-notes) | 0.30.0, Auction Hall status | All |
 | [FAQ](/faq) | Quick answers | All |
 | [Tier List](/tier-list) | Meta analysis | Advanced |
 

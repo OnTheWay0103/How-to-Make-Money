@@ -10,7 +10,7 @@ related: ["beginner-guide", "classes-guide", "class-tier-list", "cards-guide"]
 
 # SpiritVale FAQ — 15 Most Common Questions
 
-**SpiritVale EA / Updated: July 12, 2026**
+**SpiritVale EA / Updated: August 1, 2026** — this FAQ was corrected against the live game; earlier versions contained pre-launch inaccuracies (free-to-play, no auction house, a "Sniper" class, a solo-can-clear-everything claim). The answers below reflect the real 7/15+ build.
 
 Quick answers to the most frequently asked questions about SpiritVale Early Access.
 
@@ -18,7 +18,7 @@ Quick answers to the most frequently asked questions about SpiritVale Early Acce
 
 ## 1. Is SpiritVale free to play?
 
-Yes. SpiritVale is a free-to-play MMORPG available on Steam Early Access. There is no purchase cost. The game offers cosmetic microtransactions (costumes, mount skins, name change tickets) in the in-game shop. There are no pay-to-win items — all gameplay-affecting items (XP boosters, potions) can be crafted or purchased from other players with in-game gold.
+**No — SpiritVale is buy-to-play**: $14.99 on Steam Early Access (the free demo that existed before launch has been closed). The in-game shop is cosmetics-only — no pay-to-win items. The developer has committed that the full-release price will not increase.
 
 ---
 
@@ -50,7 +50,7 @@ No. Your base class (Knight, Warrior, Acolyte, Mage, Scout, Rogue, or Summoner) 
 
 ## 5. How many classes are there?
 
-7 base classes and 8 advanced classes (15 total). Gunslinger is a special advanced class that any base class can unlock at Job Level 50.
+7 base classes and 8 advanced classes (15 total): Priest (Acolyte), Wizard (Mage), Necromancer (Summoner), Paladin (Knight), Berserker (Warrior), **Gunslinger (Scout's advanced class — the old "Sniper" name from early guides is wrong)**, Shinobi (Rogue), and **Weaver (the special advanced class)**. See the [Classes Guide](/guides/classes-guide) for the correct tree.
 
 ---
 
@@ -73,39 +73,47 @@ Cards are equippable items that slot into your gear (weapon, armor, accessories)
 
 ## 8. How does trading work?
 
-SpiritVale uses a **stall (vendor) system** rather than an auction house. Players set up stalls in designated town squares (Vale's Rest, Ironforge Outpost, Silvertide Harbor). You browse nearby stalls to find items and prices. There is a 5% transaction tax on all stall sales.
+SpiritVale **does have an Auction Hall** — a global player marketplace that the developers call "one of the most important features of our game." Two important current facts:
+
+- The Auction Hall **has been shut down for long stretches since launch** (bot/RMT abuse + it was one of the biggest lag sources) and is **being rebuilt, not just restarted** — no reopen date yet.
+- **Vending stalls returned with patch 0.30.0** — you can buy/sell through player stalls and direct trade right now. There is a transaction tax on stall sales.
+- **Bots are a known problem** — report them via the official Discord's Bot Hunter Program.
+
+Current status is tracked on the [Trading & Market Guide](/guides/trading-market-guide) and [Patch Notes](/guides/updates-patch-notes).
 
 ---
 
 ## 9. Will my progress be wiped when Early Access ends?
 
-The developers have stated that **no progress wipe is planned** for the full release. Characters, items, and levels earned during Early Access will carry forward. This is subject to change only in the case of critical bug fixes, and the developers have committed to announcing any wipe at least 30 days in advance.
+**No.** After the launch-week rollback incidents, the developers made a firm public promise (July 22 announcement): **no further wipes or rollbacks**, including during the Auction Hall rework — player data will be preserved into full release.
 
 ---
 
 ## 10. Can I play solo, or do I need a party?
 
-You can play solo through all content, including the world boss (at higher levels with good gear). However, group play is faster for leveling and more efficient for farming. The game is designed to accommodate both playstyles. See the [Solo Guide](/guides/solo-guide) for solo strategies.
+**Partially — and honestly: solo gets hard.** You can solo most of the early and mid game (1–50), but maps shrink as you level, world bosses require teams, and late content effectively needs a party. Early guides claimed solo can clear everything — the community consensus says otherwise. Best solo class: **Paladin**. Grouping is easy to arrange via Discord and channel chat. See the [Solo Play & Party Finding Guide](/guides/solo-party-guide) for the full breakdown.
 
 ---
 
 ## 11. What are the best classes for beginners?
 
-- **Knight → Paladin** — Safest, tankiest, easiest to gear
-- **Scout → Sniper** — Ranged safety, simple rotation
-- **Mage → Wizard** — Fast leveling, good for earning gold
+- **Knight → Paladin** — Safest, tankiest, easiest to gear, and the community's #1 solo class
+- **Warrior → Berserker** — Easiest raw damage, forgiving
+- **Summoner → Necromancer** — Strong solo sustain via pets ("extremely OP" in the current meta)
 
-Avoid Rogue → Shinobi and Summoner → Necromancer for your first character.
+Note: Scout's advanced class is **Gunslinger** — not "Sniper" as some early guides claimed.
 
 ---
 
 ## 12. How do I get better gear?
 
-1. **Main quests** — Reward blue-rarity gear at milestone levels
-2. **Crafting** — Best way to get reliable endgame gear
-3. **Boss drops** — Each boss has unique equipment drops
-4. **Player stalls** — Buy from other players
-5. **Refinement** — Upgrade existing gear at the Blacksmith's Anvil
+There is **no main quest line** in SpiritVale — gear comes from grinding and the systems below:
+
+1. **Monster drops** — farm zones for their drop tables (see the [Farming Guide](/guides/farming-resource-guide))
+2. **Crafting** — reliable endgame gear path
+3. **Boss drops** — each boss has unique equipment drops (boss summons drop at ~0.3%; bank them for max level)
+4. **Player stalls / direct trade** — buy from other players (Auction Hall is down for rework)
+5. **Refinement** — upgrade existing gear at the Blacksmith's Anvil; skip enhancing low-level gear
 
 ---
 
@@ -123,7 +131,7 @@ Avoid Rogue → Shinobi and Summoner → Necromancer for your first character.
 
 ## 14. Is there an auction house?
 
-No. SpiritVale uses a stall-based trading system. Players set up physical vendor stalls in town plazas. To find items, visit major towns and browse the stalls. The developers have stated they prefer this system to encourage player interaction.
+**Yes — the Auction Hall exists**, but it is currently **down for a rebuild** (shut down due to bot/RMT abuse and performance problems after launch). **Correction note:** an earlier version of this FAQ said "no auction house" — that was wrong; the game launched with a global AH, and vending stalls are the temporary alternative while it's reworked. See the [Trading & Market Guide](/guides/trading-market-guide) for live status.
 
 ---
 
@@ -138,6 +146,18 @@ Patch notes are posted on the Steam Community page and the official Discord.
 
 ---
 
+## 16. Known Issues & Workarounds (EA)
+
+| Issue | Status | Workaround |
+|-------|--------|------------|
+| Server lag / disconnects / jitter | Improving, not gone | Pick the NA server (free transfer); wired connection; see the [Connection & Server Guide](/guides/connection-server-guide) |
+| Progress rollback | Acknowledged; no more wipes promised (7/22) | Bank valuables; report to Discord if suspected |
+| Movement stops responding (WASD/click) | Known bug | Dodge roll temporarily restores input |
+| Desync / soft-lock | Known | Relog from character select |
+| Crowded/empty maps (no mobs) | Known EA issue | Channel-hop or change play hours |
+
+---
+
 ## Still Have Questions?
 
 Check our other guides for more detailed information, or join the community Discord to ask experienced players.
@@ -146,7 +166,9 @@ Check our other guides for more detailed information, or join the community Disc
 
 ## Related Guides
 
-- [Beginner Guide](/guides/beginner-guide) — Getting started
+- [Beginner Guide](/guides/beginner-guide) — The real first hours (no fake main quest)
+- [Connection & Server Guide](/guides/connection-server-guide) — Lag, rollbacks and server choice
+- [Solo Play & Party Finding](/guides/solo-party-guide) — Playing without a fixed group
 - [Classes Guide](/guides/classes-guide) — All class details
 - [Class Tier List](/guides/class-tier-list) — Class rankings
 - [Cards Guide](/guides/cards-guide) — Card system explained

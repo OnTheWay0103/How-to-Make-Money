@@ -1,18 +1,18 @@
 ---
 title: "SpiritVale Class Tier List — PvE & PvP Rankings (EA 2026)"
-description: "Comprehensive SpiritVale class tier list for both PvE and PvP. Find out which advanced classes are S-tier for farming, bossing, and arena combat in Early Access."
+description: "SpiritVale class tier list for Early Access: community consensus rankings for farming, bossing, PvP and solo (Paladin #1 solo, Summoner and Warrior S-tier). Corrected class names — Scout advances to Gunslinger, not Sniper; Weaver is the special class."
 category: "Guides"
 version: "EA"
-updated: "2026-07-12"
-keywords: ["SpiritVale tier list", "SpiritVale best class", "SpiritVale PvE tier list", "SpiritVale PvP tier list", "SpiritVale class ranking"]
-related: ["classes-guide", "beginner-guide", "builds-guide", "solo-guide"]
+updated: "2026-08-01"
+keywords: ["SpiritVale tier list", "SpiritVale best class", "SpiritVale best dps class", "SpiritVale class ranking", "SpiritVale gunslinger", "SpiritVale weaver"]
+related: ["classes-guide", "beginner-guide", "builds-guide", "solo-party-guide"]
 ---
 
 # SpiritVale Class Tier List — PvE & PvP Rankings
 
-**SpiritVale EA / Updated: July 12, 2026**
+**SpiritVale EA / Updated: August 1, 2026**
 
-Current tier rankings based on Early Access performance. These reflect general consensus from the community and our testing at endgame. PvE and PvP rankings are listed separately because performance differs significantly.
+Community-consensus rankings for the current EA patch (sources: 2UpSkill, LagoFast, Power Up Gaming and player consensus). **Two corrections first:** Scout's advanced class is **Gunslinger** — the "Sniper" name from early guides doesn't exist — and the special advanced class is **Weaver**, not Gunslinger. And the biggest warning: **EA balance changes weekly** — treat this as a snapshot, not gospel.
 
 ---
 
@@ -22,74 +22,62 @@ Current tier rankings based on Early Access performance. These reflect general c
 |------|---------|
 | **S** | Top-tier — excels in its role with no major weaknesses |
 | **A** | Strong — performs well but has minor drawbacks |
-| **B** | Viable — functional but outclassed by higher tiers in endgame content |
+| **B** | Viable — functional but outclassed at endgame |
 
 ---
 
-## PvE Tier List (Farming, Bossing, Dungeons)
+## PvE / PvM Tier List (Farming, Bossing, Grinding)
 
 | Tier | Class | Strengths | Weaknesses |
 |------|-------|-----------|------------|
-| **S** | Paladin | Near-immortal, party utility, easy gearing | Low damage output |
-| **S** | Wizard | Best AoE clearing, fast farming | Fragile, mana hungry |
-| **S** | Sniper | Highest single-target DPS, safe range | Weak AoE, positional dependent |
-| **A** | Berserker | High burst damage, self-sustain | Low defense, requires good gear |
-| **A** | Priest | Mandatory for parties, great buffs | Poor solo clear speed |
-| **A** | Shinobi | Excellent mobility, high burst | Steep learning curve |
-| **B** | Necromancer | Pet tanking, good sustain | Pets buggy in some boss fights |
-| **B** | Gunslinger | Unique playstyle, strong kiting | Gear scarce, ammo cost |
-| **B** | Base classes | Simpler play, lower ceiling | Outclassed by advanced at 50 |
+| **S** | **Summoner** | "Extremely OP" per community consensus — pets tank and deal damage; outstanding solo sustain | Pet management complexity |
+| **S** | **Warrior** | Top-tier raw damage, easiest to gear for DPS | Fewer utility tools |
+| **S** | **Paladin** | Near-immortal, party utility, the #1 solo class (STR/VIT + Steel Heart) | Lower damage output |
+| **A** | **Wizard** | Best AoE clearing, fast farming | Fragile, mana hungry |
+| **A** | **Berserker** | High burst, self-sustain, easiest high-damage pick | Needs decent gear |
+| **A** | **Shinobi** | Excellent mobility, fastest clear speed | Steep learning curve |
+| **B** | **Necromancer** | Pet tanking, good sustain | Outclassed by Summoner's raw power in current meta |
+| **B** | **Gunslinger** | Unique playstyle, strong kiting (Scout's advanced class) | Ammo/gear scarcity |
+| **C** | **Priest / Acolyte path** | Mandatory in parties | **Bottom for solo** — pure support value |
 
 ---
 
-## PvP Tier List (Arena, Open World)
+## PvP Tier List (Arena, Guild Wars)
 
 | Tier | Class | Strengths | Weaknesses |
 |------|-------|-----------|------------|
-| **S** | Shinobi | Stealth one-shot combos, uncatchable | Falls off in prolonged fights |
-| **S** | Priest | Healing, debuff removal, stalling | Low damage, team-dependent |
-| **A** | Sniper | Long-range pressure, trap utility | Weak when rushed |
+| **S** | Shinobi | Stealth burst combos, uncatchable | Falls off in prolonged fights |
+| **S** | Wizard | Zone control, AoE pressure | Vulnerable to stealth |
 | **A** | Paladin | Crowd control, team protection | Kited easily |
-| **A** | Wizard | Zone control, AoE pressure | Vulnerable to stealth |
-| **B** | Berserker | High pressure, gap closers | Predictable, easy to CC |
-| **B** | Gunslinger | Strong kiting, poke damage | Ammo management, lower burst |
-| **B** | Necromancer | Pet pressure, confuse effects | Pets die fast in PvP |
+| **A** | Gunslinger | Strong kiting, poke damage | Ammo management, lower burst |
+| **A** | Berserker | High pressure, gap closers | Predictable, easy to CC |
+| **B** | Priest | Healing, debuff removal | Team-dependent |
+| **B** | Necromancer | Pet pressure | Pets die fast vs players |
 
 ---
 
-## Recommended Classes for New Players
+## Best Classes for New Players
 
 | Priority | Class | Reason |
 |----------|-------|--------|
-| 1st | Knight → Paladin | Tanky, cheap gear, always wanted in parties |
-| 2nd | Scout → Sniper | Ranged safety, simple rotation, top boss DPS |
-| 3rd | Mage → Wizard | Fast leveling, great AoE farming for gold |
+| 1st | **Knight → Paladin** | Tanky, cheap gear, always wanted in parties, best solo class |
+| 2nd | **Warrior → Berserker** | Easiest raw damage; forgiving to learn |
+| 3rd | **Mage → Wizard** | Fast leveling, great AoE farming |
 
-Avoid Shinobi and Necromancer as your first character — both require deep game knowledge and specific gear to perform well.
-
----
-
-## Class Counters in PvP
-
-- **Sniper beats** Wizard, Necromancer (ranged advantage)
-- **Shinobi beats** Sniper, Gunslinger (stealth gap close)
-- **Paladin beats** Berserker (defense vs. burst)
-- **Priest beats** Shinobi (heal through burst, remove debuffs)
-- **Wizard beats** Paladin (magic damage bypasses physical defense)
+Avoid Acolyte-path classes as your first character — their value is party support, and solo play is the roughest road (see the [Solo & Party Guide](/guides/solo-party-guide)).
 
 ---
 
-## Important Notes
+## The "Don't Copy Beta Homework" Warning
 
-- Tier lists are based on the current Early Access build. Balance patches will shift rankings.
-- A B-tier class played by an experienced player often outperforms an S-tier class played by a novice.
-- The best class for you is the one whose playstyle you enjoy — all classes can clear all content.
+SpiritVale rebalances aggressively — guides written during the demo/early EA are already outdated (including this site's older lists, which contained the wrong "Sniper" name). When you see a build, check its date and the current patch. The [Update & Patch Notes](/guides/updates-patch-notes) page tracks balance changes.
 
 ---
 
 ## Related Guides
 
-- [Classes Guide](/guides/classes-guide) — Full class details
+- [Classes Guide](/guides/classes-guide) — Full class details (corrected names)
 - [Builds Guide](/guides/builds-guide) — Recommended builds
 - [Beginner Guide](/guides/beginner-guide) — Starting out
-- [Solo Guide](/guides/solo-guide) — Best solo classes
+- [Solo Play & Party Finding](/guides/solo-party-guide) — Best solo classes + LFG
+- [Update & Patch Notes](/guides/updates-patch-notes) — Weekly balance changes
