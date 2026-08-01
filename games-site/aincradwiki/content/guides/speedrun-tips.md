@@ -142,9 +142,9 @@ For floors 6-10, the optimal speed kill is the **Burn Phase**: ignore defensive 
 Only carry these consumables during a speedrun:
 
 1. **Full Heal Potions** (Col: 500 each) — buy 10 before Floor 2, restock before Floor 5
-2. **Attack Elixir** (Gyldenblood: 200 each) — one per boss from Floor 3 onwards
+2. **Attack Elixir** (Col: 200 each) — one per boss from Floor 3 onwards
 3. **Fire Paper** (Col: 300) — apply before Bishop Halvard and Iron Colossus
-4. **SP Regenerator** (Gyldenblood: 500) — one per major zone
+4. **SP Regenerator** (Col: 500) — one per major zone
 
 Sell everything else. Weight capacity matters for dodge speed in speedruns — every kilogram reduces your dodge distance by approximately 1%.
 
