@@ -4,16 +4,20 @@ description: 'Complete solo play guide for Mistfall Hunter. Best classes, strate
 keywords: ['solo guide', 'solo play', 'solo extraction', 'playing alone', 'solo tips', 'solo strategies']
 category: Strategy
 version: '1.0'
-updated: '2026-07-04'
+updated: '2026-08-01'
 related:
   - beginner-guide
   - extraction-guide
   - shadowstrix-build-guide
+  - server-regions-ping-guide
+  - patch-notes
 ---
 
 ## Is Solo Play Viable?
 
-**Yes.** Mistfall Hunter fully supports solo play, but it plays differently from squad play. You are always at a numerical disadvantage — 1v3 is possible but very difficult. The key is playing smart, not playing hard.
+**Yes, with one major post-launch caveat.** Mistfall Hunter fully supports solo play — but since the July 30, 2026 release, **only the first map (Weavereach) is available to solo players**. The second map is trio-only: solo and duo players literally cannot queue into it. There is also **no Duo queue** — matchmaking is Solo or Trio, nothing in between.
+
+This lockout is the game's biggest design controversy right now (players call it "discrimination against solo players", and the beta had promised shared maps). If you are a solo player: you can still play the entire first map, extract, and progress your character — you just cannot access map two until you form a 3-person party. Everything else in this guide still applies to your solo queue experience.
 
 ## Best Classes for Solo
 
@@ -39,6 +43,21 @@ The #1 difference between solo and squad play is **risk tolerance**:
 | Late in raid, mist closing | Push through contested zones | Find the safest path, even if longer |
 
 **Solo rule #1**: An extracted green item is worth more than a purple item in your death bag.
+
+### Solo Ratings After the July 30 Launch Balance
+
+The 1.0 build rebalanced every class, and the day-one hotfix buffed Withered Knight again. The solo table above was written for the beta; the post-launch reality:
+
+| Class | Post-Launch Solo Rating | Why |
+|-------|:--:|-----|
+| **Shadowstrix** | S | Still the best solo class — stealth remains unchanged by the rebalance |
+| **Withered Knight** | A (was B) | Day-one buffs (Charged Dash, Lance Combo) make it a stronger 1v3 brawler |
+| **Mercenary** | A | Block economy improved slightly in 1.0 |
+| **Blackarrow** | B (was C) | 1.0 buffed headshot consistency; still weak in close quarters |
+| **Sorcerer** | B (was A) | 1.0 nerfed Glacial Blink charges from 3 to 2 — escape tool gutted |
+| **Seer** | D | Unchanged — do not play Seer solo |
+
+See the [Tier List Guide](/guides/tier-list-guide) for the full meta discussion.
 
 ## Solo Strategy by Phase
 
@@ -130,6 +149,15 @@ Everyone goes broke sometimes. Recovery plan:
 2. Sell excess green items to the Shop
 3. Use Gyldenblood to upgrade Warehouse (more slots = more gear can be stored)
 4. After 3 successful extractions, return to standard runs
+
+## The Trio-Only Map — What Solo Players Can Do
+
+The second map is locked to Trio queue at launch (July 30, 2026), and there is no Duo queue. If you want the second map's loot and bosses, your options:
+
+1. **Use the in-game LFG chat** — the global chat is active post-launch; "anyone need a third for map 2" fills quickly during EU/US peak hours.
+2. **Keep your trio tight** — a trio of solos beats a trio of randoms. Add good teammates from extraction-friendly runs; the game's social features (recent players, friend invites) work cross-platform.
+3. **Accept the solo loop** — map one has everything you need to progress your camp, stash, and character. The second map is endgame loot territory, not a requirement for the daily loop.
+4. **Watch for updates** — the map lockout is the game's loudest criticism and the developers have acknowledged solo-player feedback. If a change comes, we will update this page within 48 hours (tracked on the [Patch Notes](/guides/patch-notes) page).
 
 ## Quick Solo Tips
 

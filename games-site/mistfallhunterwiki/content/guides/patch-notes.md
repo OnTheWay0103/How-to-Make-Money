@@ -3,14 +3,15 @@ title: 'Patch Notes — Update History and Balance Changes'
 description: 'Complete patch notes and update history for Mistfall Hunter. Every patch, balance change, new content addition, bug fix, and gameplay adjustment from playtest through the latest version.'
 keywords: ['patch notes', 'update history', 'changelog', 'balance changes', 'game updates', 'mistfall hunter update', 'version history']
 category: Guides
-version: 'Playtest'
-updated: '2026-07-27'
+version: '1.0'
+updated: '2026-08-01'
 related:
   - developer-roadmap
   - season-guide
   - beginner-mistakes
   - weapons-guide
   - combat-mechanics-guide
+  - server-regions-ping-guide
 ---
 
 ## Patch Notes Overview
@@ -19,7 +20,56 @@ This page tracks all official updates, patches, and balance changes for Mistfall
 
 ---
 
-## Current Version: Playtest Build 0.7.2
+## Current Version: Release 1.0 + Day-One Hotfix
+
+**Release 1.0 launched July 30, 2026** on Steam / PS5 / Xbox Series X|S (also day-one on Xbox Game Pass). All playtest builds (0.6.x–0.7.x) are obsolete — the 1.0 build **rebalanced every class**, so any tier list, build, or guide written before July 30 is out of date.
+
+### What Changed in 1.0 (vs. Playtest 0.7.2)
+
+| Area | Change |
+|------|--------|
+| **All classes** | Full rebalance of every class — talents, cooldowns, and base stats differ from the playtest. Beta meta is invalid |
+| **Matchmaking** | Solo and Trio queues only (no Duo queue); second map is trio-only |
+| **Servers** | Launch regions: US / DE / BR / SG / CN. No dedicated EU or OCE region — see the [Server Regions & Ping Fix Guide](/guides/server-regions-ping-guide) |
+| **Season 1** | Live at launch — Withered Knight gains a new Polearm + Shield weapon stance |
+| **Price** | $24.99 standard / $39.99 Deluxe (launch -10%); free with Game Pass |
+
+### Day-One Hotfix (July 30, 2026)
+
+Released within hours of launch to address the worst launch issues:
+
+| Type | Detail |
+|------|--------|
+| **Balance** | Withered Knight buffed further — Charged Dash, Thrust, Lance Combo and block stamina costs all improved (see table below) |
+| **Fix** | Soul of Return no longer consumed twice when entering/exiting the spirit tree |
+| **Fix** | Sorcerer tutorial key prompts fixed (some languages) |
+| **Fix** | Console players can now reconnect after disconnect mid-raid |
+| **Fix** | Item splitting issues resolved |
+| **Fix** | Multiple crash fixes (Windows / Xbox-PC) |
+| **Fix** | PS5 deck display and execution animation audio fixes |
+| **Fix** | Gamepad input handling improvements |
+
+#### Withered Knight Hotfix Balance Table
+
+| Ability | Before | After |
+|---------|--------|-------|
+| Charged Dash | ~65 base damage | ~75 base damage |
+| Thrust | Shorter range | Longer range + faster recovery |
+| Lance Combo | 3 hits | 4 hits, higher stagger |
+| Block stamina cost | 6/s | 5/s |
+
+The buff caused a community backlash ("the best class got even better") — see the [Tier List Guide](/guides/tier-list-guide) for the current meta discussion.
+
+### Known Issues (as of August 1, 2026)
+
+- **No OCE server, no dedicated EU server** — EU players report 120–180ms; officially acknowledged, no ETA
+- **Rubber banding / desync** in peak hours on all regions — server-side, acknowledged
+- **PC reconnect after disconnect** still not fully fixed (console was fixed in the hotfix)
+- **Second map locked for solo players** (trio-only queue) — design decision, widely criticized
+
+---
+
+## Playtest Build 0.7.2
 
 **Released:** July 20, 2026
 **Patch Size:** ~600 MB
@@ -181,6 +231,7 @@ Camp upgrades are persistent account-wide improvements that affect all character
 
 | Version | Release Date | Key Changes |
 |---------|-------------|-------------|
+| 1.0 + Hotfix | July 30, 2026 | **Full release** — all-class rebalance, Season 1, day-one hotfix (Withered Knight buff, Soul of Return fix, console reconnect) |
 | 0.7.2 | July 20, 2026 | Ashen Wastes map, War Scythe, balance patch |
 | 0.7.1 | July 4, 2026 | Crossplay, balance patch, QoL improvements |
 | 0.7.0 | June 20, 2026 | Sorcerer class, Camp Upgrades, Legendary gear |

@@ -1,18 +1,18 @@
 ---
-title: "Witchspire Wiki — Complete Guide Hub"
-description: "The ultimate community wiki for Witchspire — the co-op survival RPG by Envar Games. Find Coven guides, boss strategies, familiar database, crafting recipes and more."
+title: "Mistfall Hunter Wiki — Complete Guide Hub"
+description: "The ultimate community wiki for Mistfall Hunter — the dark fantasy PvPvE extraction ARPG by Bellring Games. Find class guides, extraction tactics, build guides, season content, server info and more."
 category: "Home"
-version: "0.1.1d"
-updated: "2026-06-29"
-keywords: ["Witchspire", "Witchspire wiki", "Witchspire guide", "Envar Games", "co-op survival RPG", "Steam early access"]
-related: ["beginner-guide", "best-coven-guide", "all-familiars-guide", "crafting-guide"]
+version: "1.0"
+updated: "2026-08-01"
+keywords: ["Mistfall Hunter", "Mistfall Hunter wiki", "Mistfall Hunter guide", "extraction ARPG", "PvPvE game", "Bellring Games"]
+related: ["beginner-guide", "classes-guide", "extraction-guide", "tier-list-guide"]
 ---
 
-# Witchspire Wiki — Complete Guide Hub
+# Mistfall Hunter Wiki — Complete Guide Hub
 
-**Everything you need to master the co-op survival RPG by Envar Games.**
+**Everything you need to descend into the mist and extract with your life.**
 
-Witchspire launched in Early Access on Steam on June 10, 2026. This wiki covers all core systems, strategies, and secrets for the current build (v0.1.1d). Whether you are a solo witch or running a 4-player coven, you will find practical, up-to-date information here.
+Mistfall Hunter is a dark fantasy PvPvE extraction ARPG by Bellring Games / Skystone Games, released July 30, 2026 on Steam, PS5, and Xbox Series X|S (day-one on Game Pass). You play a Gyldhunter descending into mist-shrouded ruins to scavenge Gyldenblood and gear — but if you die, you lose what you carry. Six classes, three-per-party, and a world where every extract is a gamble.
 
 ---
 
@@ -20,65 +20,62 @@ Witchspire launched in Early Access on Steam on June 10, 2026. This wiki covers 
 
 | Guide | Best For | Difficulty |
 |-------|----------|------------|
-| [Beginner Guide](/guides/beginner-guide) | First-time players | Starter |
-| [Best Coven Guide](/guides/best-coven-guide) | Character creation | Starter |
-| [All Familiars Guide](/guides/all-familiars-guide) | Creature collecting | Reference |
-| [Hearth Upgrade Guide](/guides/hearth-upgrade-guide) | Base building | Intermediate |
-| [Main Quest Walkthrough](/guides/main-quest-walkthrough) | Story progression | Intermediate |
-| [Crafting Guide](/guides/crafting-guide) | Gear progression | Intermediate |
-| [Luminary Skill Tree Guide](/guides/luminary-skill-tree-guide) | Build optimization | Advanced |
-| [Spellblade vs Wand Guide](/guides/spellblade-vs-wand-guide) | Weapon choice | Intermediate |
-| [Flight Unlock Guide](/guides/flight-unlock-guide) | Mobility unlock | Intermediate |
-| [Vyrs Region Guide](/guides/vyrs-region-guide) | Exploration | Starter |
-| [Al'uunian Golem Boss Guide](/guides/alunean-golem-boss-guide) | First boss | Intermediate |
-| [Co-op Multiplayer Guide](/guides/coop-multiplayer-guide) | Team play | Starter |
+| [Beginner Guide](/guides/beginner-guide) | First extraction | Starter |
+| [Classes Guide](/guides/classes-guide) | All 6 classes | Starter |
+| [Class Tier List](/guides/tier-list-guide) | 1.0 meta rankings | Intermediate |
+| [Extraction Guide](/guides/extraction-guide) | The Returner Woodling loop | Intermediate |
+| [Solo Play Guide](/guides/solo-play-guide) | Solo queue reality | Intermediate |
+| [Camp Upgrades Guide](/guides/camp-upgrades-guide) | What to build first | Intermediate |
+| [Weapons Guide](/guides/weapons-guide) | Loadouts & gear | Starter |
+| [Economy Guide](/guides/economy-guide) | Gold, shop & trading | Intermediate |
+| [Server Regions & Ping Fix](/guides/server-regions-ping-guide) | Lag, queue & regions | Fixes |
+| [Patch Notes](/guides/patch-notes) | 1.0 + hotfix history | All |
+| [Season Guide](/guides/season-guide) | Season 1 content | Intermediate |
+| [Crossplay Guide](/guides/crossplay-guide) | Steam / Xbox / Game Pass | Starter |
 | [FAQ](/faq) | Quick answers | All |
-| [Tier List](/tier-list) | Meta analysis | Advanced |
 
 ---
 
 ## Featured Guides
 
-### Coven Guide
-Pick your path. Six unique Coven classes, each with distinct weapon and magic combos. [Read the full guide →](/guides/best-coven-guide)
+### Classes Guide
+Six classes at launch: Mercenary (sword & shield tank), Sorcerer (ranged glass-cannon), Blackarrow (precision archer), Shadowstrix (stealth assassin), Seer (team support), and Withered Knight (greatsword counter-fighter). [Read the full guide →](/guides/classes-guide)
 
-### Familiar Database
-Catch, train, and evolve 25+ magical creatures across four rarity tiers. [Browse all Familiars →](/guides/all-familiars-guide)
+### Extraction Loop
+Master the extraction loop — find the Returner Woodling, secure the Soul of Return, survive the mist, and escape with your loot. [Full extraction guide →](/guides/extraction-guide)
 
-### Boss Strategies
-From the Al'uunian Golem to the Shudder Matriarch — learn attack patterns, safe spots, and loot tables. [View boss guides →](/guides/alunean-golem-boss-guide)
+### Server Guide
+No OCE server, EU players at 120–180ms, stuck-at-queue fixes, and what's client-side vs server-side. [Server regions & ping fix →](/guides/server-regions-ping-guide)
 
-### Crafting Recipes
-Workbenches, furnaces, alchemy circles, and garden plots. Everything you can craft and how to make it. [Full crafting guide →](/guides/crafting-guide)
+### Patch Notes
+Full 1.0 release notes and the day-one hotfix (Withered Knight buffs, Soul of Return fix, console reconnect). [View patch notes →](/guides/patch-notes)
 
 ---
 
-## What is Witchspire?
+## What is Mistfall Hunter?
 
-Witchspire is an open-world, magic-based survival RPG built for 1-4 player co-op. Developed by Envar Games, it launched into Steam Early Access on June 10, 2026. You play as a fledgling witch exploring the fractured realms of Vyrs, Timberline Basin, Mira Isles, and the Shuddersands — collecting familiars, building your Hearth base, crafting gear, and hunting down powerful bosses.
+Mistfall Hunter is a dark fantasy PvPvE extraction ARPG launching July 30, 2026 on Steam, PS5, and Xbox Series X|S (day-one on Game Pass). You play a Gyldhunter descending into mist-shrouded ruins to scavenge Gyldenblood and gear — but if you die, you lose everything you carry. Solo or in 3-player squads, each ~20-minute run is a risk-reward gamble: extract with loot, or lose it all in the mist.
 
-The game combines the resource loop of survival crafting with action-RPG combat. Your choice of Coven (class) defines your weapon (Spellblade or Wand) and your magic school (Lux, Crystal, Ethereal, Nature, Nox, or Astral).
+Six classes each lock a weapon stance, talent tree, and gem-slot build — from the tanky Mercenary to the stealthy Shadowstrix. Note: at launch, the second map is **trio-only** and there is no Duo queue — see the [Solo Play Guide](/guides/solo-play-guide) for what that means for you.
 
 ---
 
 ## Key Systems at a Glance
 
-- **6 Coven Classes** — Cloudpiercers, Starsmiths, Foretellers, Wildroots, Tomekeepers, Nightscribes
-- **25+ Familiars** — Common to Legendary rarity, each with unique combat and utility skills
-- **Hearth Base Building** — Upgradeable hub with crafting stations and Astral Projection mode
-- **Flight System** — Brooms + Flight Pillars for aerial traversal
-- **Luminary Skill Tree** — Permanent point allocation (no respec!)
-- **4 Major Regions** — Vyrs, Timberline Basin, Mira Isles, Shuddersands
-- **4 Bosses** — Al'uunian Golem, Shudder Matriarch, Lumi, Shudder
+- **6 Classes** — Mercenary, Sorcerer, Blackarrow, Shadowstrix, Seer, Withered Knight
+- **Extraction Loop** — Explore → Loot → Kill the Returner Woodling → Extract (die = lose carried gear)
+- **Camp Progression** — Persistent upgrades (Goddess Statue, Gyldenblod Pool, Warehouse, Tavern)
+- **Season 1** — Live at launch with new content and rewards
+- **Solo or 3-Player Squads** — No Duo queue; second map trio-only
+- **Crossplay** — Steam / PS5 / Xbox / Game Pass day-one
 
 ---
 
 ## Quick Start Links
 
-- [Join the official Steam Community](https://steamcommunity.com/app/witchspire)
-- [Report bugs on the Envar Games Discord](#)
-- [Check Steam for latest patch notes](https://store.steampowered.com/app/witchspire)
+- [Mistfall Hunter on Steam](https://store.steampowered.com/app/3282300)
+- [Official Bellring Games site](https://www.bellringgames.com)
 
 ---
 
-*This wiki is community-maintained and reflects game version v0.1.1d. Content may change as the game evolves through Early Access.*
+*This wiki is community-maintained and reflects the July 30, 2026 release + day-one hotfix. Content is updated within 48 hours of each patch.*
