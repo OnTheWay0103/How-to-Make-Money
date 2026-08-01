@@ -21,7 +21,7 @@ Everything you stock before a boss run or farm session in one table — healing 
 | Consumable | Effect / Use | Where You Get It |
 |------------|--------------|------------------|
 | **Healing Potion** | Restores HP; stock up before boss fights | Daily quest rewards (e.g., the Herb Collection quest pays +3 Healing Potion) |
-| **Standard Healing Items** | General healing stock — 10x recommended for the Crimson Canyon boss, 12–20 for the Floor 3 entry run | Purchasable / stocked before runs |
+| **Standard Healing Items** | General healing stock — 10x recommended for the Crimson Canyon boss, 12–20 for the Floor 3 entry run | Recommended stock for boss runs (see Floor 3 prep & Speedrun Tips) |
 | **Full Heal Potion** | Full heal — 3x recommended in speed-run loadouts | Item stock (see Speedrun Tips) |
 | **Light Resistance Potion** | 5x recommended for the Corrupted Fae Lord fight — use them to stay mobile through Phase 1 | Crafted from **Glimmerberries + Nectar** (Floor 3) |
 | **Attack Elixir** | Temporary attack buff — one per boss from Floor 3 onward | Item stock (see Speedrun Tips) |
