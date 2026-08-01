@@ -1,6 +1,6 @@
 # 游戏攻略站 — 站点统计
 
-> 最后更新：2026-08-01 | 26 站 · 600 篇攻略
+> 最后更新：2026-08-01 | 26 站 · 608 篇攻略
 
 ---
 
@@ -9,13 +9,13 @@
 | # | 站点 | 上线日 | 攻略 | 域名 | Vercel | GA4 | GSC | 备注 |
 |---|------|:--:|:--:|------|:--:|:--:|:--:|------|
 | 1 | Witchspire | 6/29 | 44 | witchspirewiki.vercel.app | ✅ | ✅ | ✅ | 8/1 反馈驱动 +3 新 +4 纠错（精灵机制/联机/PvP 造假清理） |
-| 2 | Mistfall Hunter | 7/01 | 46 | mistfallhunterwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 反馈驱动 +1 新（服务器）+2 更新至 1.0 |
-| 3 | Aincrad | 7/07 | 41 | aincradwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 纠错：PvP/联机虚构页重写为诚实页 |
-| 4 | The Mound | 7/14 | 41 | themoundwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 反馈驱动扩容 +3 攻略 |
-| 5 | SpiritVale | 7/12 | 41 | spiritvalewiki.vercel.app | ✅ | ✅ | ✅ | 8/1 反馈驱动 +3 新 +3 纠错（F2P/拍卖行/Sniper） |
+| 2 | Mistfall Hunter | 7/01 | 47 | mistfallhunterwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 内容配比规则 +1 Boss/Mist Lord 速查表 |
+| 3 | Aincrad | 7/07 | 43 | aincradwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 内容配比规则 +2（Golden Gate Boss、武器锻造配方表） |
+| 4 | The Mound | 7/14 | 43 | themoundwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 内容配比规则 +2 速查表；**Tier List 页武器名纠错**（虚构 Rapier/Dagger 等 → 真实 Matchlock/Crossbow/Machete 等） |
+| 5 | SpiritVale | 7/12 | 42 | spiritvalewiki.vercel.app | ✅ | ✅ | ✅ | 8/1 内容配比规则 +1 世界 Boss 速查表（Echoing Spire） |
 | 6 | Skills & Raids | 7/15 | 19 | skillsandraidswiki.vercel.app | ✅ | ✅ | ✅ | 7/27 游戏上线 |
 | 7 | MineGeon | 7/20 | 20 | minegeonwiki.vercel.app | ✅ | ✅ | ✅ | 7/28 游戏上线 |
-| 8 | Sephiria | 7/21 | 30 | sephiriawiki.vercel.app | ✅ | ✅ | ✅ | **7/31 1.0 上线**；8/1 1.0 纠错 +2 新 +3 重写（虚构内容清理） |
+| 8 | Sephiria | 7/21 | 32 | sephiriawiki.vercel.app | ✅ | ✅ | ✅ | **7/31 1.0 上线**；8/1 内容配比规则 +2（Build 原型速查表、Boss 推进表） |
 | 9 | DinoBlade | 7/21 | 23 | dinobladewiki.vercel.app | ✅ | ✅ | ✅ | |
 | 10 | Mystralia | 7/22 | 24 | mystraliawiki.vercel.app | ✅ | ✅ | ✅ | 8/11 EA |
 | 11 | Tears of Metal | 7/23 | 20 | tearsofmetalwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 反馈驱动 +3 新 +2 纠错（英雄名校准） |
