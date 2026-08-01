@@ -1,78 +1,93 @@
 ---
-title: "Weapons Tier List — All 8 Weapons Ranked for 1.0"
-description: "Every Sephiria weapon ranked S to C tier after the 1.0 balance patch. Best weapon for beginners, highest DPS weapon, and where the new Greatsword and Tome land in the meta."
+title: "Sephiria Weapons Tier List (1.0) — Real 6 Weapons After the Balance Patch"
+description: "The real Sephiria weapon tier list for 1.0: 6 weapons (Sword & Shield, Greatsword, Dagger, Katana, Crossbow, Staff) ranked after the launch balance patch. Ice/storm dominance, fire/corrosion buffs, and the best 1.0 weapons explained — corrected against the actual game."
 category: "Weapons"
 version: "1.0"
-updated: "2026-07-31"
-keywords: [Sephiria weapons tier list, best weapon Sephiria, Sephiria best weapon, weapon ranking, S-tier weapon, Greatsword, Tome]
-related: [weapons-guide, builds-guide, beginner-guide, relics-guide, full-release-guide]
+updated: "2026-08-01"
+keywords: ["sephiria best weapon", "sephiria weapons tier list", "sephiria best build 1.0", "sephiria how many weapons", "sephiria weapon guide", "sephiria staff build"]
+related: ["weapons-guide", "builds-guide", "best-relic-combos", "full-release-guide", "chapter-6-final-boss-guide"]
 ---
 
-## The 1.0 Weapon Meta
+# Sephiria Weapons Tier List (1.0) — Real 6 Weapons After the Balance Patch
 
-Sephiria 1.0 ships with **8 weapons**, adding the Greatsword and Tome to the original six. The 1.0 balance patch lightly tuned the old roster (Bow's piercing damage was already reigned in during Early Access Update 5) and the two newcomers were tuned slightly hot to make launch exciting. This tier list reflects the day-one meta — expect small movements after the 1.0.1 balance pass.
+**Sephiria 1.0 / Updated: August 1, 2026**
 
-## Full Tier Ranking
+**First, the correction:** Sephiria has **6 weapons, not 8**. Guides listing a "Tome" as a weapon — or a roster of Fists, Spears, Scythes and Bows — do not match the game. The real roster: **Sword & Shield, Greatsword, Dagger, Katana, Crossbow, and Staff** — each with upgrade lines, totaling **200+ weapon upgrades** in 1.0.
 
-| Tier | Weapons | Verdict |
-|---|---|---|
-| **S** | Greatsword, Tome | Build-defining power, both new |
-| **A** | Fist (Gauntlets), Staff | Excellent in skilled hands |
-| **B** | Sword, Bow, Spear | Reliable, but outclassed |
-| **C** | Scythe | Viable, but slow payoff |
+This tier list reflects the **1.0 balance patch** (which specifically reworked ice and storm items and gave fire/corrosion attention). Ranks are for a mid-to-endgame build with the right artifact/tablet support.
 
-## S-Tier
+---
 
-### Greatsword
-The highest raw DPS in the game once you learn charge timing. The 20% stagger chance interrupts boss attacks that other weapons must dodge, and the charged AoE slam clears entire rooms. Its slow swing speed is punishing for beginners, but the mastery line ("Unbroken" at Mastery 30 reduces charge time by 40%) turns it into a monster.
+## The Six Weapons at a Glance
 
-### Tome
-The spell-weave mechanic makes it the most versatile weapon in the game — fire for AoE, ice for crowd control, lightning for single-target burst. Homing projectiles mean near-perfect accuracy, and the Arcane upgrades keep mana sustainable. Slightly lower ceiling than the Greatsword, but far safer and stronger in co-op.
+| Weapon | Style | Difficulty | Best For |
+|--------|-------|:--:|----------|
+| **Sword & Shield** | Balanced melee | Easy | New players; all-round clears |
+| **Greatsword** | Heavy melee | Medium | Raw damage, stagger chains |
+| **Dagger** | Fast melee | Hard | Burst, crit fishing, mobility |
+| **Katana** | Mid melee | Medium | Combo flow, counterplay |
+| **Crossbow** | Ranged | Easy-Medium | Safe poke, single-target |
+| **Staff** | Ranged magic | Medium | AoE, element synergy |
 
-## A-Tier
+---
 
-### Fist (Gauntlets)
-The fastest weapon in the game with the highest sustained single-target DPS. The Phantom path's i-frame extension makes aggressive play safer than it looks. Fragile if you mistime dodges, and terrible against Armored enemies (Hard Mode) — that keeps it out of S.
+## Tier List (1.0 Balance Patch)
 
-### Staff
-Still the best pure AoE and elemental control option. The Frost path trivializes the 1.0 Gravity Wells in Chapter 7. Falls off slightly in late Hard Mode where fire immunity becomes common.
+| Tier | Weapon | Why |
+|:--:|-------|-----|
+| **S** | **Staff** | The element-synergy king — ice/storm artifact builds (the meta the EA era is remembered for) still live here, and 1.0 added the **Firelighter** and **Solis Missio** lines that give fire a real answer. Highest ceiling with the right tablets |
+| **S** | **Sword & Shield** | The most consistent weapon in 1.0 — new +4 lines and balanced stats make it the "no bad matchup" pick. The community's default recommendation |
+| **A** | **Crossbow** | The +4 upgrade line turned it into strong sustained DPS; the safest pick for Hard Mode, where positioning matters |
+| **A** | **Greatsword** | **Thor Greatsword S3G** and **Red Snake Crusher** are standout 1.0 weapons; heavy stagger makes boss fights mechanical |
+| **B** | **Katana** | Good combo flow, but its power is skill-gated — the 1.0 patch didn't change its core items much |
+| **B** | **Dagger** | The new +4 line helps, but burst builds still rely on relics the balance patch touched; high ceiling, inconsistent floor |
 
-## B-Tier
+---
 
-### Sword
-The jack of all trades. No weakness, no standout strength — the 1.0 patch didn't change it, and the meta moved past it. Still the best weapon to learn the game with.
+## What the 1.0 Balance Patch Actually Did
 
-### Bow
-Ranged safety and strong kiting, but the old piercing exploit nerf and the Tome's arrival have stolen its identity. In co-op it's a great support damage dealer; solo it's outclassed by the Tome.
+| Item/Line | Change | Meta impact |
+|-----------|--------|-------------|
+| Glacial Blade, Eternal Winter, Frozen Egg | Ice family rebalanced | Ice remains strong but no longer a free win |
+| Thor Greatsword S3G, Red Snake Crusher | New/updated greatsword weapons | Greatsword moved to A-tier |
+| Firelighter, Solis Missio | Fire lines strengthened | Fire is now viable — the "fire is dead" EA-era take is outdated |
+| Dagger +4, Crossbow +4, Staff +4 | New upgrade lines | All three gained a real endgame path |
 
-### Spear
-Great reach and the best defensive playstyle, but the lowest damage ceiling of any weapon. In Hard Mode the Phalanx path's team aura makes it the best co-op pick in the game — underrated in squads, weak solo.
+**The honest 1.0 conclusion:** ice/storm builds are no longer the only answer (that was the EA-era complaint — "few builds actually good"), and fire/corrosion players have real options now. But **artifact/tablet support still decides more than the weapon itself** — pick the weapon whose element matches the tablets you have (see [Best Relic Combos](/guides/best-relic-combos)).
 
-## C-Tier
+---
 
-### Scythe
-The life-steal and execute mechanics are fun, but the slow swings make it the hardest weapon to play at high difficulty. The Void path is strong in Gauntlet-style packed rooms. Pick it because you love it, not because it's optimal.
+## Best Starting Weapons (1.0)
 
-## Best Weapon by Playstyle
+| For | Pick | Why |
+|-----|------|-----|
+| First-time players | **Sword & Shield** | Forgiving, consistent, every upgrade line is useful |
+| Co-op teams | **Staff** | AoE + element coverage helps the whole party |
+| Hard Mode | **Crossbow** | Safe distance beats the lifesteal modifiers |
+| Boss rushing | **Greatsword** | Stagger chains shut down boss patterns |
 
-| You want to... | Pick |
-|---|---|
-| Win easily as a beginner | Sword or Spear |
-| Highest damage possible | Greatsword (solo) / Tome (co-op) |
-| Play safely at range | Tome |
-| Speedrun / speed clear | Fist (Gauntlets) |
-| Support teammates | Spear (Phalanx) |
-| Meme / room-clearing fun | Scythe |
+---
 
-## 1.0 Synergy Notes
+## FAQ
 
-- **Greatsword + Set relics** — The "Juggernaut" set (damage reduction per enemy hit) covers the Greatsword's one weakness.
-- **Tome + Echo Orb** — 25% chance to cast twice applies to spell-weave casts. Arguably the strongest single synergy in the game.
-- **Fist + Glass Cannon relic** — Peak risk/reward. One mistake ends the run.
+**Q: How many weapons are in Sephiria?**
+Six: Sword & Shield, Greatsword, Dagger, Katana, Crossbow, Staff. There is no 7th or 8th weapon — earlier "8 weapons" claims (including a Tome) were incorrect.
+
+**Q: Is ice still the best element?**
+Ice/storm is still strong but was rebalanced in 1.0; fire and corrosion now have competitive builds (Firelighter, Solis Missio lines).
+
+**Q: Which weapon is best for the final boss?**
+Greatsword (stagger) or Crossbow (safe range) are the community picks for Chapter 6. Full tactics: [Chapter 6 & Final Boss Guide](/guides/chapter-6-final-boss-guide).
+
+**Q: Does the tier list change with patches?**
+Yes — Sephiria had 58 EA updates and hotfixes fast (1.0.21 shipped same-day). We version-stamp this page and update it after balance patches (see [Update Roadmap](/guides/updates-roadmap)).
+
+---
 
 ## Related Guides
 
-- [Weapons Guide](/guides/weapons-guide) — Full stats, upgrade trees, and mastery perks for all 8 weapons
-- [Builds Guide](/guides/builds-guide) — Optimal relic and inscription combos per weapon
-- [Beginner's Guide](/guides/beginner-guide) — Weapon recommendations for first-time players
-- [Full Release Guide](/guides/full-release-guide) — Everything added in the 1.0 launch
+- [Weapons Guide](/guides/weapons-guide) — full upgrade trees per weapon
+- [Builds Guide](/guides/builds-guide) — what pairs with what in 1.0
+- [Best Relic Combos](/guides/best-relic-combos) — artifact/tablet synergy
+- [Chapter 6 & Final Boss Guide](/guides/chapter-6-final-boss-guide) — endgame fights
+- [Full Release Guide](/guides/full-release-guide) — everything 1.0 added

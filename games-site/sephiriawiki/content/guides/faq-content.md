@@ -10,11 +10,11 @@ related: [beginner-guide, weapons-guide, coop-guide, solo-guide]
 
 ## 1. What is Sephiria?
 
-Sephiria is a **pixel-art action roguelite** developed by Sephiria Studio (a 4-person independent team). You play as a rabbit warrior climbing the Tower of Sephiria, fighting through procedurally-arranged rooms across 6 chapters with 6 weapons and 150+ relics. It supports 1-4 player co-op and has a 94% positive rating on Steam.
+Sephiria is a **pixel-art action roguelite** developed by **TEAM HORAY** — the Korean studio behind Dungreed (an earlier studio name circulating in some guides is incorrect). You play a rabbit warrior defending your village and climbing the cursed tower, fighting through procedurally-arranged rooms across **6 chapters** with **6 weapons** and ~300 artifacts. It supports 1–4 player online co-op and carries a **Very Positive** Steam rating (97% in EA, held into the 1.0 launch).
 
 ## 2. When is the 1.0 full release?
 
-The full 1.0 launch is **July 31, 2026**. The game has been in Early Access for over 1 year.
+The full **1.0 launched July 31, 2026** (same-day hotfix 1.0.21). Early Access ran **April 2025 → July 2026 — 484 days and 58 updates** — and your EA save carries over (official July 9 announcement; see the [Full Release Guide](/guides/full-release-guide)).
 
 ## 3. Is it single-player or multiplayer?
 
@@ -22,7 +22,7 @@ The full 1.0 launch is **July 31, 2026**. The game has been in Early Access for 
 
 ## 4. How many weapons are there?
 
-There are **6 weapon types**: Sword, Bow, Staff, Spear, Fist (Gauntlets), and Scythe. Each weapon has **50+ upgrade options** and unique mastery perks that unlock as you use it.
+There are **6 weapons**: **Sword & Shield, Greatsword, Dagger, Katana, Crossbow, and Staff** (some guides list a "Tome" or a Bow/Spear/Fist/Scythe roster — those don't exist in the game). Each weapon branch has upgrade lines; 1.0 expanded them to **200+ weapon upgrades total**, including new +4 lines for Dagger, Crossbow, and Staff.
 
 ## 5. What are relics?
 
@@ -46,7 +46,7 @@ A full run through all 6 chapters takes approximately **45-90 minutes**, dependi
 
 ## 9. Which weapon should I start with?
 
-The **Sword** is the most beginner-friendly weapon — balanced stats, forgiving combos, and a reliable block. The **Spear** is also a great choice for its long reach and safe playstyle.
+**Sword & Shield** is the most beginner-friendly weapon — balanced stats, forgiving combos, and a reliable block. **Staff** is also a strong start for its safe range and element synergy (the current S-tier weapon family). See the [Weapons Tier List](/guides/weapons-tier-list) for the full 1.0 rankings.
 
 ## 10. How does co-op revive work?
 

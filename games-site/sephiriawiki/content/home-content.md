@@ -27,7 +27,9 @@ Sephiria 1.0 launched on **July 31, 2026** on Steam with a 94% positive rating. 
 | [Builds Guide](/guides/builds-guide) | Weapon & relic synergies | Intermediate |
 | [Relics Guide](/guides/relics-guide) | 200+ relic catalog | Intermediate |
 | [Boss Guide](/guides/boss-guide) | All 12+ boss strategies | Intermediate |
-| [Chapter Guide](/guides/chapter-guide) | All 7 chapters | Intermediate |
+| [Chapter Guide](/guides/chapter-guide) | All 6 chapters | Intermediate |
+| [Chapter 6 & Final Boss Guide](/guides/chapter-6-final-boss-guide) | The ending content | Advanced |
+| [Multiplayer & Connection Fixes](/guides/multiplayer-connection-fix-guide) | Co-op ping/desync fixes | Fixes |
 | [Co-op Guide](/guides/coop-guide) | Team play | Intermediate |
 | [Hard Mode Guide](/guides/hard-mode-guide) | Corruption & armored enemies | Advanced |
 | [Endgame Guide](/guides/endgame-guide) | Post-game progression | Advanced |
