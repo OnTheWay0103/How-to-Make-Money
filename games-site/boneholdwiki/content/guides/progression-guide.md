@@ -1,163 +1,105 @@
 ---
-title: 'Bonehold Progression Guide — Unlockables and Meta-Progression'
-description: 'Complete Bonehold progression guide covering meta-progression system, how to unlock all 3 hidden classes, permanent upgrades, Steam achievements roadmap, and optimal unlock order for new players.'
-keywords: ['Bonehold progression guide', 'Bonehold unlock classes', 'Bonehold hidden classes', 'Bonehold meta-progression', 'Bonehold achievements']
-updated: '2026-07-30'
+title: 'Bonehold Progression Guide — How Runs Build on Each Other'
+description: 'Bonehold progression guide — how the roguelike structure works, the 7 classes (4 confirmed), what death really costs, and the 98-achievement roadmap. Honest about what carries over and what does not.'
+category: 'Progression'
+version: '1.0'
+updated: '2026-08-01'
+keywords: ['Bonehold progression guide', 'Bonehold roguelike', 'Bonehold unlock classes', 'Bonehold achievements', 'Bonehold meta progression']
+related: ['beginner-guide', 'classes-guide', 'endgame-guide', 'achievements-guide']
 ---
 
-# Bonehold Progression Guide — Unlockables and Meta-Progression
+# Bonehold Progression Guide — How Runs Build on Each Other
 
-Bonehold is a roguelike at heart, which means every death is progress. The meta-progression system ensures that even failed runs make your character stronger for the next attempt. This guide covers everything that carries over between runs, the three hidden unlockable classes, the permanent upgrade system, and the optimal unlock order for new players.
+Bonehold is a roguelike at heart: you descend through a procedurally generated fortress, collect loot, and die — then you start again. Understanding exactly what carries over between runs is the key to efficient progression, so this guide starts with the honesty that most guides skip: **much of Bonehold's progression system is not yet officially documented.**
 
-## Meta-Progression System — What Carries Over
+## The Confirmed Progression Picture
 
-Understanding what persists between runs is the key to efficient progression. Bonehold's meta-progression is divided into three categories.
+Here is what official sources and launch reviews confirm:
 
-### Permanent (Never Resets)
+- **Runs are self-contained.** Bonehold has **no checkpoint or save system** — when you die, the run is over, and your current gear and progress are gone. This is confirmed by launch reviews, which list it as a criticism.
+- **There are 7 classes.** Confirmed by the Steam page. Only 4 are named: **Knight, Barbarian, Scorcher, Spellblade**.
+- **There are 98 Steam achievements.** Confirmed by the Steam page, and Steam tracks them globally across all your runs.
+- **Procedural loot drives progression.** Every run generates new weapons, spells, and armor with prefixes — your in-run power comes from what drops, not from a character sheet that grows over time.
+- **Your real progression is knowledge.** Enemy patterns, room templates, trap layouts, charge timing, and prefix evaluation all carry over in your head. This is the actual meta-progression of a roguelike.
 
-- **Unlocked classes** — Once you unlock a class, it is available for every future run regardless of death
-- **Permanent stat upgrades** — Health, damage, charge speed, loot quality purchased with meta-currency
-- **Achievement progress** — 98 achievements tracked globally across all runs
-- **Legendary item discoveries** — The first time you find a legendary item, it is recorded in your codex (but you cannot craft or summon it)
+## What Is NOT Confirmed (and What to Ignore)
 
-### Persist With Conditions
+Several guides claim specific progression systems that **no official source confirms**:
 
-- **Gold earned during runs** — Converted to meta-currency (Bone Fragments) at the end of each run. The deeper you go, the higher the conversion multiplier (floor 1 = 1x, floor 5 = 3x, floor 10 = 5x)
-- **Class-specific unlock progress** — Some hidden class requirements track cumulative actions across runs (see below)
+- **A "meta-progression" system with permanent upgrades** (health, damage, loot quality) purchased between runs — **unconfirmed**. No official source describes a between-run upgrade hub.
+- **Meta-currencies** like "Bone Fragments" or "Bone Altar" upgrade shops — **invented** by guides, not found in any official material.
+- **Unlockable "hidden classes"** with specific unlock conditions (beating bosses, achievement milestones, etc.) — **unconfirmed**. Whether classes 5-7 are locked at start is not officially documented.
+- **Named achievement lists** — the 98 achievements' names and requirements are **not published**; any list you see is speculation.
+- **Gold/currency systems, merchants, and shrines** — no official documentation exists for the game's economy, if it has one.
 
-### Reset Every Run
+The honest bottom line: **no official source confirms any persistent progression system beyond Steam's own achievement tracking.** If the game does have meta-progression, the developer has not documented it yet.
 
-- All equipped weapons, armor, and items
-- Spell scrolls and their charges
-- Gold found during the run (converted to Bone Fragments at death or victory)
-- Floor progress
-- Any temporary buffs or shrine blessings
+## How to Progress Anyway — The Real Loop
 
-## Permanent Upgrade System
+Even without confirmed meta-progression, the game's design gives you a clear progression loop:
 
-The between-run hub is called the **Bone Altar**. You spend Bone Fragments (meta-currency) on permanent upgrades that apply to every class on every run.
+### 1. Learn the Combat Core
 
-### Upgrade Tiers and Costs
+- Charge attacks are the damage system — learn tap/partial/full charge discipline.
+- Dodges and parries are the survival system — reviews confirm they are the rewarded defensive tools.
+- Traps and chokepoints are the positioning system — the fortress's cramped corridors reward baiting enemies into doorways.
 
-| Upgrade | Max Level | Level 1 Cost | Total Cost | Effect Per Level |
-|---------|-----------|--------------|------------|------------------|
-| Vitality | 10 | 100 | 5,500 | +10 max HP |
-| Strength | 10 | 100 | 5,500 | +3% base damage |
-| Alacrity | 8 | 200 | 3,600 | +5% charge speed |
-| Fortune | 8 | 200 | 3,600 | +5% loot quality |
-| Resilience | 5 | 500 | 2,500 | +10% debuff resistance |
-| Guile | 5 | 500 | 2,500 | +1 dodge i-frame |
+### 2. Expand Your Knowledge Floor by Floor
 
-**Total Bone Fragments to max everything:** Approximately 23,200
+- Early deaths teach enemy patterns and trap layouts. Every floor you reach is knowledge you keep.
+- When you die on a new floor, the next run arrives knowing what that floor's enemies do.
+- Deep runs generate more knowledge per death than early ones — the fastest "progression" is pushing past your current best, dying, and learning.
 
-**Upgrade priority for new players:**
+### 3. Learn the Loot Language
 
-1. **Vitality (level 5)** — The first 50 bonus HP dramatically improves survival on floors 1-3. Stop at level 5 (costs 1,500 total) before diversifying.
-2. **Strength (level 5)** — Reducing the number of charge attacks needed to kill basic enemies means less time exposed to damage.
-3. **Alacrity (level 3)** — Faster charge speed makes the combat system feel much more responsive. The first 15% is noticeable.
-4. **Fortune (level 3)** — Better loot means better prefixes, better scrolls, and more consistent runs.
-5. **Resilience (level 1)** — The first level removes almost all floor trap slow effects.
-6. **Guile (level 1)** — One extra i-frame is worth more than you think. It turns many attacks from "will hit you" to "just barely dodgeable."
-7. **Max Vitality and Strength** — After the spread upgrades, dump fragments into these two until they hit level 10.
+- Prefixes are the build engine — learning to read them quickly (what each effect does, what combos with what) is a skill that persists.
+- Legendary items are the jackpots — when one drops, you learn how to build around it.
+- Reworking your loadout between rooms (a habit confirmed in reviews) is the skill that turns random loot into consistent runs.
 
-**Estimated runs to max:** At an average of 300 Bone Fragments per successful run (floor 5+), reaching max upgrades takes roughly 75-80 successful runs. Focus on getting to floor 5 consistently before worrying about full max.
+### 4. Rotate Through Classes
 
-## How to Unlock the 3 Hidden Classes
+- Play the 4 confirmed classes to learn their strengths and the build directions they favor.
+- Class-based achievements are the most likely pattern for part of the 98 — variety is progress even if the list is unknown.
+- Hybridization is confirmed as intended — every class teaches you combos usable on every other class.
 
-Bonehold's 4 starting classes (Knight, Barbarian, Scorcher, Spellblade) are available immediately. The 3 hidden classes require specific milestone completions and are the primary meta-progression goal.
+## The 98 Achievements — The Only Confirmed Long-Term Goal
 
-### Class 5: Death Knight (Unlockable)
+Steam's 98 achievements are the one confirmed persistent progression system. Even without the list, you can progress toward it efficiently:
 
-**How to unlock:** Defeat the floor 5 boss (Lich Commander) with any class. The unlock is permanent and applies retroactively across runs.
+1. **Play all 7 classes.** Covers class-based achievements.
+2. **Complete runs with each class.** The universal roguelike completion pattern.
+3. **Hunt legendaries.** Loot achievements, if any exist, will need them.
+4. **Play long and consistently.** Kill-count and cumulative achievements come from hours played.
+5. **Verify any list before trusting it.** The real list will surface from the community or developer soon after launch.
 
-**Playstyle:** The Death Knight is a heavy armor, medium-speed class that combines Knight-like defenses with dark magic. Its charge attacks apply Life Drain (heal for 15% of damage dealt), and it starts each run with a Curse scroll.
+See our [Achievements Guide](/guides/achievements-guide) for the full honest breakdown.
 
-**Why unlock it:** The Death Knight is widely considered the best class for deep runs (floor 8+). Its self-healing passive sustains through long floors where healing items are scarce. If you struggle to survive past floor 6, unlock Death Knight as soon as possible.
+## Progression Milestones — Realistic Expectations
 
-**Difficulty to unlock:** Medium. The Lich Commander is the first major skill check in Bonehold. It has three phases with AoE attacks and skeleton summons. Learn the fight with your best class and bring a Blink scroll.
+These milestones are based on the game's confirmed difficulty curve and roguelike conventions (not official data):
 
-### Class 6: Shadow Dancer (Unlockable)
+| Milestone | What It Takes |
+|-----------|---------------|
+| Survive floor 1 | A few runs to learn the basics |
+| Beat the first boss | 3-10 runs — the game's first skill check |
+| Reach mid-dungeon | 10-30 runs — requires charge discipline and defense habits |
+| Consistent deep runs | 30-60 runs — the endgame skill |
+| Clear with all classes | Dozens of hours and full build mastery |
 
-**How to unlock:** Complete 50 total enemy kills using dodge rolls (cumulative across all runs). The dodge must pass through an enemy attack (i-frame evasion counts; simply rolling away does not). Progress is tracked in the Codex menu.
+Every milestone is met with the same tool: knowledge from previous deaths. The game's reviews confirm the loop is satisfying even when slow — "compact but confident," with replay value that keeps runs fresh.
 
-**Playstyle:** The Shadow Dancer is a light armor, high-mobility class that rewards aggressive dodging. Every successful i-frame dodge triggers a shadow clone that attacks the enemy for 30% of your weapon damage. The clone duration scales with charge level.
+## The Unlock Question, Answered Honestly
 
-**Why unlock it:** The Shadow Dancer has the highest skill ceiling of any class. In the hands of an experienced player, it out-damages every other class while remaining nearly untouchable. Its charge attack is a forward blink that can pass through enemies.
+**Do classes unlock through progression?** Unconfirmed. The Steam page names 7 classes and does not say 3 are locked. Some guides claim specific unlock requirements (beating specific bosses, collecting specific items) — those are invented. Assume all 7 are available at character select; if some are locked, the game itself will tell you.
 
-**Difficulty to unlock:** Easy to medium (grindy). You do not need to beat any boss — just dodge through 50 attacks. Practice on floor 1 archers. The unlock typically takes 5-8 focused runs.
+**Is there permanent character progression?** Unconfirmed. No official source describes it. Plan around the confirmed reality: each run is a fresh start, and your progress lives in your knowledge and in Steam achievements.
 
-### Class 7: Void Weaver (Unlockable)
+## Final Verdict
 
-**How to unlock:** Collect 3 specific legendary items across any number of runs. The legendary items required are random each run, but they belong to a specific set — you will know you found one when its description reads "A fragment of the Void." Collect all three and the Void Weaver unlocks permanently.
+Bonehold's progression is the purest form of the roguelike loop: runs are self-contained, death is final, and the only certain persistent systems are your knowledge and the 98 Steam achievements. Claims of meta-progression, unlockable classes, and upgrade shops are unverified as of early August 2026.
 
-**Playstyle:** The Void Weaver is a fragile, high-damage caster that replaces charge attacks with spell casting. Instead of a weapon, it uses a Void Catalyst that fires homing projectiles. Its class ability doubles the charges on all spell scrolls (scrolls of any rarity get +1 max charge).
-
-**Why unlock it:** The Void Weaver changes the game fundamentally. It is the only class that does not use charge attacks, making it ideal for players who prefer spell-focused gameplay. With double scroll charges, it can sustain magic output longer than any other class.
-
-**Difficulty to unlock:** Hard. Finding 3 specific legendary items requires deep runs (floor 5+ with high Fortune stat) and luck. Plan for 15-25 runs after you have Fortune at level 5+.
-
-## Optimal Class Unlock Order for New Players
-
-Following a structured unlock path accelerates your progression significantly.
-
-**Phase 1 (Runs 1-10): Starting Class Mastery**
-
-- Play Knight for 5 runs to learn enemy patterns and boss mechanics (forgiving HP pool means more learning per run)
-- Switch to Barbarian for 3 runs to experience the aggressive playstyle
-- Attempt Scorcher or Spellblade for 2 runs to see what magic classes feel like
-- Spend all Bone Fragments on Vitality (level 3 minimum by run 10)
-
-**Phase 2 (Runs 11-25): Unlock Death Knight**
-
-- Focus on reaching floor 5 boss. Study the Lich Commander's three phases.
-- Purchase Alacrity to level 3 for faster charge windows during the fight.
-- Bring a heal scroll and a Blink scroll to the boss fight.
-- Once unlocked, play Death Knight for 5-10 runs. This class will carry you through the mid-game.
-
-**Phase 3 (Runs 26-40): Unlock Shadow Dancer**
-
-- Actively practice i-frame dodging against floor 1 archers.
-- Aim for 3-5 dodge-throughs per run. The 50 total will accumulate naturally.
-- Invest Fortune to level 3+ to improve loot quality for Phase 4.
-- By run 40, Shadow Dancer should be unlocked even without focused grinding.
-
-**Phase 4 (Runs 41+): Unlock Void Weaver**
-
-- Max Fortune to level 5+ to increase legendary drop rates.
-- Run Death Knight or your strongest class to reach floor 5+ consistently.
-- Each deep run has roughly a 15-20% chance of finding at least one Void fragment.
-- Expect the final class to unlock around run 60-70.
-
-## Steam Achievements Overview
-
-Bonehold ships with 98 Steam achievements, making it a completionist's dream.
-
-**Major milestone achievements:**
-
-- **"First Descent"** — Complete your first run (die on any floor). Almost guaranteed on run 1.
-- **"Bone Breaker"** — Defeat the floor 1 boss. Achievable within your first 5 runs.
-- **"Lich Slayer"** — Defeat the floor 5 boss (Lich Commander). Unlocks Death Knight.
-- **"Shadow Walker"** — Unlock the Shadow Dancer class.
-- **"Void Seeker"** — Unlock the Void Weaver class.
-- **"Fortress Cleared"** — Defeat the final boss on floor 10. Completion of a full run.
-- **"Immortal"** — Complete a full run without dying (any class). Much harder than it sounds.
-- **"Class Mastery (x7)"** — Defeat the final boss with each of the 7 classes. Seven separate achievements.
-- **"Legend Collector"** — Discover all legendary items. Requires 30+ legendary finds across runs.
-- **"Perfectionist"** — Earn all 98 achievements. Expect 150-200 hours.
-
-## Progression Milestones Checklist
-
-| Milestone | Target | Typical Run Count |
-|-----------|--------|-------------------|
-| Defeat floor 1 boss | Learn basic combat | Run 3-5 |
-| Reach floor 5 | Consistent mid-game | Run 10-15 |
-| Unlock Death Knight | Class 5 | Run 15-25 |
-| Defeat floor 10 boss | First clear | Run 25-40 |
-| Unlock Shadow Dancer | Class 6 | Run 30-40 |
-| Unlock Void Weaver | Class 7 | Run 60-70 |
-| Max all upgrades | Full meta-progression | Run 75-80 |
-| All achievements | 100% completion | 150-200 hours |
+The practical path: learn the combat core, push one floor deeper each run, learn the loot language, rotate classes, and let the achievements come. That is the progression — and reviews suggest it is a good one.
 
 ---
 
-**Progressing through the game?** Check our [Combat Guide](/guides/combat-guide) to improve your survival skills, or the [Endgame Guide](/guides/endgame-guide) to start legendary farming after your first full clear.
+**Start the climb.** See our [Beginner Guide](/guides/beginner-guide) for your first runs, or the [Endgame Guide](/guides/endgame-guide) for what lies beyond your first clear.

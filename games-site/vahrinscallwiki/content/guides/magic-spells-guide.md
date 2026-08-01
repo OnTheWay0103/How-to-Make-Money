@@ -1,168 +1,83 @@
 ---
-title: 'Magic & Spells Complete Guide — Fire, Ice, Earth, Alteration in Vahrin\'s Call'
-description: 'Every spell and magic school in Vahrin\'s Call explained. Fire, Ice, Earth, and Alteration magic — damage scaling, crowd control, mana management, and best spells for each build.'
-keywords: ['vahrins call magic guide', 'vahrins call spells', 'vahrins call fire magic', 'vahrins call ice magic', 'vahrins call earth magic', 'vahrins call alteration magic']
-updated: '2026-07-27'
+title: 'Magic & Spells Guide — How Spells Are Learned and Upgraded in Vahrin\'s Call'
+description: 'How magic spells work in Vahrin\'s Call: Spell Mastery use-based upgrading, Skill Books, spell customisation (damage, range, casting speed), and the honest status of the official spell list.'
+category: 'Guides'
+version: '1.0'
+updated: '2026-08-01'
+keywords: ['vahrins call magic guide', 'vahrins call spells', 'vahrins call spell mastery', 'vahrins call how to learn spells', 'vahrins call spell list']
+related: ['magic-guide', 'skill-book-locations', 'combat-guide', 'attributes-stats-guide']
 ---
 
-# Magic & Spells Complete Guide
+# Magic & Spells Guide — How Spells Work
 
-Magic in Vahrin's Call is divided into **four schools**: Fire, Ice, Earth, and Alteration. Each scales with Intelligence and has distinct combat roles. You can mix schools freely — a Fire + Ice mage is just as viable as a pure Fire specialist.
+**Correction first**: this guide previously listed specific spells (Firebolt, Frost Touch, Pebble, Meteor, etc.) with mana costs and locations. **No official spell list exists.** Those spell names were invented and have been removed. Here is what is actually known about spells in Vahrin's Call, from official sources and launch evidence.
 
----
+## How Spells Are Learned
 
-## Magic Basics
+Two confirmed paths exist:
 
-### How Spells Work
-- Spells consume **mana** on cast
-- Mana regenerates slowly out of combat and faster with potions
-- Spell damage scales with **Intelligence**
-- Casting speed is fixed — cannot be improved by attributes
-- Spells can be cast while moving (no root animation)
+### 1. Starting and Practicing
 
-### Unlocking Spells
-- **Basic spells**: Available from the start (minor Firebolt, Frost Touch, Pebble, Detect Magic)
-- **Advanced spells**: Found in **Skill Books** hidden throughout the world
-- **Master spells**: Reward from specific side quests and hidden bosses
+Basic spellcasting is part of the game's core systems — magic is available early, and the developers describe the intended playstyle as freely combining melee, bows, and magic. There is no confirmed class-gate or trainer requirement: the classless system lets any character cast.
 
----
+### 2. Skill Books
 
-## Fire Magic — Pure Damage
+Developer updates confirm **Skill Books are scattered through the world and are needed for full upgrades** of abilities. This applies to magic as well as weapons — books are the route to stronger or new spell options that practice alone won't unlock. Our [Skill Book Locations Guide](/guides/skill-book-locations) covers what is known about finding them.
 
-**Role**: Offensive powerhouse. Highest DPS of any magic school.
-**Status Effect**: Burning (DoT, 5% of max HP per second for 3 seconds)
+## How Spells Get Stronger — Spell Mastery
 
-### Spell List
+The most important confirmed mechanic: **spells upgrade through use** (the "Spell Mastery" system, announced in Titan Roc's 2024 development updates). Unlike a traditional RPG where you buy or find new ranks of a spell:
 
-| Spell | Mana | Effect | Unlock |
-|-------|------|--------|--------|
-| **Firebolt** | 15 | Basic fire projectile | Starting spell |
-| **Flame Wave** | 30 | Cone AoE in front of caster | Skill Book: Barathrum Forest |
-| **Fireball** | 45 | Explosive AoE projectile | Skill Book: Vahrin Catacombs |
-| **Meteor** | 80 | Massive AoE, long cast time | Quest: "Heart of the Forge" |
-| **Flame Imbue** | 25 | Adds fire damage to weapon for 60s | Starting spell |
+- Cast a spell regularly and it improves over time.
+- Your magic skill grows the same way weapon skills do — use-based, Elder Scrolls-style.
 
-### Best For
-- Boss fights (maximize DPS during vulnerability windows)
-- Clearing groups of weak enemies
-- Spellsword builds (Flame Imbue on weapons)
+This is a genuinely player-friendly system: your signature spell gets stronger because you love it, not because the game tells you to switch.
 
-### Tips
-- Always open with Fireball, then use Firebolt while it's on cooldown
-- Meteor has a 3-second cast time — use only when enemies are CC'd
-- Flame Imbue + melee weapon = budget spellsword build
+## Spell Customisation
 
----
+Confirmed by the developers: spells can be customised by raising spell attributes — **damage, range, and casting speed**. Customisation is the way you tune a spell to your build once mastery has raised its base power.
 
-## Ice Magic — Crowd Control
+## The Official Spell List Status
 
-**Role**: Battlefield control. Slows, freezes, and immobilizes enemies.
-**Status Effect**: Chill (slow 30%) → Frozen (immobilized, +50% damage from next hit)
+As of the 1.0 launch (July 27, 2026), **no official list of spells has been published** — not on the Steam page, not in the FAQ, and not in any launch material we have found. This means:
 
-### Spell List
+- Any online "complete spell list" is fan-made and unreliable.
+- We only know for certain that **fire** and **ice** magic exist (the developers discuss fireballs, ice magic, and the fire/ice combination question), with **water** strongly implied.
+- Other elements or schools are unconfirmed.
 
-| Spell | Mana | Effect | Unlock |
-|-------|------|--------|--------|
-| **Frost Touch** | 10 | Melee-range chill | Starting spell |
-| **Ice Shard** | 20 | Projectile with slow | Starting spell |
-| **Frost Spear** | 35 | Piercing projectile, high slow | Skill Book: Frozen District |
-| **Blizzard** | 60 | Persistent AoE slow zone | Skill Book: Temple Ruins |
-| **Frost Armor** | 30 | Damage reduction buff, chills melee attackers | Skill Book: Merchant Quarter |
+We will add a verified spell list here the moment one exists — official documentation, or player-verified evidence with screenshots.
 
-### Best For
-- Kiting-based builds (Archer Mage)
-- Controlling fast enemies
-- Setting up burst combos (Freeze → Fireball = massive damage)
+## What Spells Cannot Do
 
-### Tips
-- Freeze an enemy, then hit with a charged Greatsword attack for the +50% shatter bonus
-- Blizzard is excellent for boss arenas — drop it and fight inside the zone
-- Frost Armor is underrated — it passively chills anything that hits you
+Titan Roc has confirmed the following limits — valuable to know before you plan a build:
 
----
+| Claim | Confirmed status |
+|-------|-------------------|
+| Spells can trigger things like traps | ✅ Confirmed |
+| Spells set the environment on fire | ❌ Confirmed NOT possible |
+| Water spells create mud / interact with terrain | ❌ Confirmed NOT possible |
+| Fire + ice spell combination | ❌ Confirmed not planned (possible in a sequel) |
+| Day/night or weather affects spells | ❌ Confirmed cosmetic only |
 
-## Earth Magic — Defense & Damage Over Time
+## Practical Advice
 
-**Role**: Defensive magic with attrition damage.
-**Status Effect**: Entangled (rooted in place, can still attack)
+1. **Pick a spell and practice it.** With Spell Mastery, consistency is the power curve.
+2. **Hunt Skill Books early.** Books gate the full upgrade path — exploration is a spellcaster's investment.
+3. **Tune with customisation, not replacement.** Damage/range/casting speed let one spell fit many playstyles.
+4. **Watch stamina.** Reviews confirm stamina limits prolonged magic use, so plan casts around your rhythm.
+5. **Experiment with trap synergy.** Using spells to trigger traps is the one confirmed spell-combo interaction.
 
-### Spell List
+## Unconfirmed Details We're Tracking
 
-| Spell | Mana | Effect | Unlock |
-|-------|------|--------|--------|
-| **Pebble** | 5 | Tiny projectile (meme spell) | Starting spell |
-| **Stone Spikes** | 25 | Ground AoE, entangles | Skill Book: Quarry Depths |
-| **Earth Shield** | 35 | Absorbs 30% of incoming damage for 20s | Skill Book: Old Vahrin Walls |
-| **Tremor** | 50 | AoE knockback + damage | Skill Book: Underground Passage |
-| **Petrify** | 70 | Single-target stun (bosses: slow instead) | Quest: "Stone and Bone" |
+- Full spell list and names
+- Number of magic schools/elements
+- Mana costs, pools, and regeneration
+- Cast times and cooldowns
+- Magic implements (staves, wands) — existence unconfirmed
+- Spell-specific status effects
 
-### Best For
-- Defensive hybrids (Spellshield Vanguard)
-- Surviving difficult boss fights
-- Area denial in tight corridors
+## Next Steps
 
-### Tips
-- Earth Shield + melee build = budget tank. Combine with heavy armor for 50%+ damage reduction
-- Stone Spikes is excellent for blocking doorways and chokepoints
-- Petrify is the only hard-CC that works on mini-bosses (slows main bosses)
-
----
-
-## Alteration Magic — Utility & Enhancement
-
-**Role**: Buffs, debuffs, and utility. No direct damage.
-**Status Effect**: Varies by spell
-
-### Spell List
-
-| Spell | Mana | Effect | Unlock |
-|-------|------|--------|--------|
-| **Detect Magic** | 10 | Reveals hidden items and Skill Books within 30m | Starting spell |
-| **Elemental Weapon** | 30 | Adds chosen element to weapon for 90s | Skill Book: Mage Guild Ruins |
-| **Arcane Ward** | 40 | Magic damage absorption shield | Skill Book: Grand Library |
-| **Haste** | 50 | +30% movement and attack speed for 15s | Quest: "Race Against Time" |
-| **Telekinesis** | 20 | Pulls distant items and triggers switches | Skill Book: Observatory |
-
-### Best For
-- Every build — Alteration has no attribute requirement to be useful
-- Exploration (Detect Magic is essential for finding Skill Books)
-- Hybrid builds that buff physical weapons with elemental damage
-
-### Tips
-- **Always have Detect Magic active** in new areas. You'll miss dozens of Skill Books without it
-- Haste is the best boss-killing buff in the game — use it during DPS windows
-- Telekinesis can pull items through walls and bars — many secrets require it
-
----
-
-## Mana Management
-
-### Mana Pool
-- Base mana: 100
-- +5 per Intelligence point
-- Mana regen: 5/sec out of combat, 2/sec in combat
-
-### Mana Potions
-| Potion | Mana Restored | Recipe |
-|--------|--------------|--------|
-| Minor Mana Tonic | 30 | Azure Moss + Water |
-| Mana Tonic | 60 | Azure Moss + Spring Water |
-| Greater Mana Tonic | 100 | Azure Moss ×2 + Crystal Dust + Spring Water |
-
-### Mana Efficiency Tips
-1. **Don't overheal your mana** — potions can over-restore and waste the excess
-2. **Weave basic attacks** between spells to let mana regen tick
-3. **Focus on one magic school** — spreading across all four dilutes your damage per mana
-4. **Intelligence gear** that adds "+max mana" is more valuable than flat damage early game
-
----
-
-## Magic Build Synergies
-
-| Build | Primary Magic | Secondary Magic | Strategy |
-|-------|--------------|-----------------|----------|
-| Pure Mage | Fire | Ice | Fireball burst → Frost Spear to control survivors |
-| Archer Mage | Ice | Fire | Frost Spear slow → Flame Imbued arrows |
-| Spellsword | Fire | Earth | Flame Imbue weapon + Earth Shield defense |
-| Alchemist | Alteration | Any | Haste + damage potions + Elemental Weapon |
-| Defensive | Earth | Ice | Earth Shield + Frost Armor + Blizzard zone |
+- [Magic Guide](/guides/magic-guide) — the confirmed magic systems overview.
+- [Combat Guide](/guides/combat-guide) — casting within the real-time combat loop.
+- [Skill Book Locations Guide](/guides/skill-book-locations) — how to find the books that upgrade spells.

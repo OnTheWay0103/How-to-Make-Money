@@ -65,13 +65,6 @@ export function videoGameSchema(): Record<string, unknown> {
       '@type': 'Organization',
       name: 'Pixel Jackal',
     },
-    offers: {
-      '@type': 'Offer',
-      price: '14.99',
-      priceCurrency: 'USD',
-      availability: 'https://schema.org/InStock',
-      url: 'https://store.steampowered.com/app/3497800/Bonehold/',
-    },
     datePublished: '2026-07-28',
     platform: 'Steam',
   };

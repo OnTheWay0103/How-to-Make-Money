@@ -1,181 +1,101 @@
 ---
-title: "Character Builds Guide — Stat Allocation, Skills & Specializations"
-description: "Complete character builds guide for DragonSword: Awakening. Cover stat allocation, skill trees, weapon specializations, and optimal builds for berserker, spellblade, paladin, and ranger playstyles."
-category: "Guides"
-version: "1.0"
-updated: "2026-07-29"
-keywords: ["DragonSword builds", "character builds", "stat allocation", "skill trees", "berserker build", "spellblade build", "paladin build", "ranger build"]
-related: ["dungeon-raids", "gear-progression", "beginner-guide", "combat-guide", "hero-builds-guide"]
+title: 'Character Builds Guide — Hero Kits, Roles & Team Building'
+description: 'How character builds work in DragonSword: Awakening — fixed hero kits, combat roles (breaker, ailment DPS, support), team composition rules, and gear direction. No invented stat points.'
+category: 'Builds'
+version: '1.0'
+updated: '2026-08-01'
+keywords: ['dragonsword awakening builds', 'dragonsword awakening character builds', 'dragonsword awakening best build', 'dragonsword awakening roles', 'dragonsword awakening team building', 'dragonsword awakening how to build heroes']
+related: ['tier-list', 'hero-builds-guide', 'combat-guide', 'equipment-guide', 'team-compositions']
 ---
 
 ## Character Builds in DragonSword: Awakening
 
-DragonSword: Awakening offers deep character customization through its stat system, skill trees, and weapon specializations. While any hero can equip any weapon, specializing in a specific playstyle dramatically improves your effectiveness. This guide covers the four primary build archetypes and how to optimize each one.
+Important correction up front: **there are no stat points, no skill trees, and no stat allocation** in DragonSword: Awakening — at least none have been confirmed by HOUND13 or documented by the community. Every hero has a fixed kit, so a "build" in this game means three things:
 
-Before diving into builds, understand that your stat allocation defines your role, while skill trees define your abilities. The two systems work together.
+1. **Which heroes you bring** (your party of three)
+2. **How their status ailments and Signal Skills chain together**
+3. **Which gear you earn for them** (see the [Equipment Guide](/guides/equipment-guide))
 
-## Stat System Overview
+This guide covers the combat roles that exist among the confirmed heroes and how to build effective parties around them.
 
-You earn stat points every level (3 per level from 1-50, then 2 per level from 51-100). Stat points can be freely reset at any rest point for a small gold fee.
+## The Three Combat Roles
 
-| Stat | Primary Effect | Secondary Effect | Best For |
-|------|---------------|-----------------|----------|
-| Strength | Physical damage +0.5% per point | Carry weight +1 per point | Berserker, Paladin |
-| Agility | Attack speed +0.3% per point | Dodge distance +1% per point | Ranger, Dual-wield builds |
-| Intelligence | Magic damage +0.5% per point | SP regen +0.2/sec per 5 points | Spellblade, Mage builds |
-| Vitality | Max HP +15 per point | Defense +0.2 per point | All builds (baseline) |
-| Endurance | Stamina +5 per point | Stamina regen +0.5/sec per point | All builds |
-| Spirit | SP +3 per point | Healing received +1% per point | Paladin, Support builds |
-| Luck | Crit chance +0.1% per point | Drop rate +0.5% per point | Farming builds, Rangers |
+Based on confirmed hero reveals, launch heroes fill these roles:
 
-## The Four Primary Builds
+### 1. Frontline Breaker
 
-### 1. Berserker (Strength Melee)
+The job: break enemy **Super Armor** (the white bar under an enemy's health) so the team can unleash finisher prompts and stagger elites.
 
-The Berserker is a high-damage, high-risk melee build that focuses on overwhelming enemies with raw power. Best for players who enjoy aggressive, up-close combat.
+| Hero | What Confirmed |
+|------|----------------|
+| **Castella** | Elf assault vanguard with **Break** and **Stun** — the confirmed stand-out for Super Armor breaking |
+| **Lute** | Greatsword all-rounder with **Stun** and secondary **Knockdown**; also heals allies |
 
-**Stat Priority**: Strength > Vitality > Endurance > Luck
+### 2. Ailment DPS
 
-**Recommended Stat Allocation (level 100)**:
-- Strength: 120 points (+60% physical damage)
-- Vitality: 60 points (+900 HP, +12 defense)
-- Endurance: 40 points (+200 stamina, +20 stam/sec regen)
-- Luck: 30 points (+3% crit chance)
-- Remaining: Agility/Spirit as needed
+The job: stack a status ailment on the target so Signal Skills trigger. Each DPS hero specializes in one or two ailments.
 
-**Weapon Specialization**: Greatswords, Axes, Hammers
+| Hero | Confirmed Ailments | Notes |
+|------|--------------------|-------|
+| **Theresia** | **Bleed**, **Stun** | Organa Order heretic inquisitor, twin sacred maces — widely cited as a top damage dealer |
+| **Aria** | **Burn**, **Airborne** | Bomb-using firepower specialist — ranged combat, not a healer |
+| **Ornette** | **Electrocution (Shock)**, secondary **Knockdown** | Saintess of the Dawn, scythe-wielder |
+| **Kalien** | **Stun** (fire-flavored) | Spiritist of the Red Fox Mercenary Corps who commands the fire fox spirit Sur |
 
-**Core Skills**:
-- **Power Strike** (Max) — Charged attack deals 300% weapon damage
-- **War Cry** (Max) — Increases damage by 20% for 15 seconds
-- **Execute** (Max) — Deals 500% damage to enemies below 30% HP
-- **Frenzy** (3/5) — Attack speed increases as HP decreases
-- **Armor Break** (Max) — Reduces enemy defense by 30% on hit
+### 3. Support / Utility
 
-**Optimal Skill Tree Path**:
-1. Rush Power Strike (level 10 requirement)
-2. Max War Cry for the damage buff
-3. Invest in Frenzy for sustained fights
-4. Take Execute as your finisher
-5. Fill remaining points into Armor Break and passive HP bonuses
+Support in this game means healing and status coverage. Confirmed support is limited so far:
 
-**Recommended Heroes**: Lute, Castella (with damage gear), Garr
+- **Lute** — his kit includes ally healing, which makes him the closest thing to a confirmed support-capable hero among the launch roster.
+- Several other heroes (Cerese of the Magic Knight Order, Reina of the 8th Knight Order, Kalsion the king) have kits that remain **unrevealed** — do not trust any source that describes their abilities in detail yet.
 
-### 2. Spellblade (Intelligence Melee Hybrid)
+## Build Rules That Are Actually Confirmed
 
-The Spellblade combines melee combat with magic damage, weaving spells between sword strikes. Excels at applying status effects and crowd control.
+Because the combo system is driven by ailment stacking, these team-building rules come directly from how the mechanics work:
 
-**Stat Priority**: Intelligence > Agility > Vitality > Spirit
+1. **Mono-stacking is efficient.** Teams focused on one or two matching status effects fill the debuff meter fastest. A team with three completely different ailments builds the gauge too slowly.
+2. **Two matching + one breaker.** The community-recommended pattern is two heroes sharing a main effect plus a third hero good at breaking frames and Super Armor.
+3. **Avoid three identical ailments.** If all three heroes apply the same ailment, you lose the ability to chain — hero A's skill leads into hero B's Signal Skill, which prepares the enemy for hero C. You want a sequence, not a pile.
+4. **Stun enables everything.** Stun appears across at least four confirmed heroes (Lute, Castella, Kalien, Theresia), which makes lock-down teams easy to assemble from day one.
 
-**Recommended Stat Allocation (level 100)**:
-- Intelligence: 110 points (+55% magic damage, +4.4 SP/sec regen)
-- Agility: 50 points (+15% attack speed)
-- Vitality: 40 points (+600 HP)
-- Spirit: 30 points (+90 SP, +30% healing received)
-- Remaining: Endurance as needed
+For concrete lineups built on these rules, see the [Team Compositions Guide](/guides/team-compositions).
 
-**Weapon Specialization**: Longswords, Rapiers, Staves
+## Archetype Examples (Confirmed Kits Only)
 
-**Core Skills**:
-- **Elemental Blade** (Max) — Infuses weapon with chosen element for 20 seconds
-- **Magic Burst** (Max) — AoE magic damage around the player
-- **Enchant Weapon** (Max) — Adds magic damage scaling to basic attacks
-- **Elemental Shield** (3/5) — Damage reduction based on active element
-- **Chain Cast** (Max) — Next spell cast within 3 seconds of a melee hit costs 50% less SP
+### The Bleed Chain Build
 
-**Optimal Skill Tree Path**:
-1. Unlock Elemental Blade first — it enables your entire build
-2. Max Enchant Weapon for consistent DPS
-3. Take Magic Burst for AoE clearing
-4. Invest in Chain Cast for SP efficiency
-5. Add Elemental Shield for survivability
+- **Theresia** (Bleed + Stun) + **Lute** (Stun + Knockdown) + **Castella** (Break + Stun)
+- Theresia stacks Bleed, Lute and Castella provide Stun windows and Super Armor breaks, and every switch keeps the target under an ailment for Signal Skill triggers.
+- This is the most commonly recommended early-game party among players.
 
-**Recommended Heroes**: Aria, Freya, Mirei
+### The Aerial / Burn Build
 
-### 3. Paladin (Strength-Spirit Hybrid Tank)
+- **Aria** (Burn + Airborne) + a second burner/launcher (TBD — no second confirmed Burn hero at launch) + **Castella**
+- Aria's Airborne sets up juggle chains; her Burn keeps damage over time ticking. Until more Burn heroes are confirmed, this archetype is incomplete — marked **TBD**.
 
-The Paladin is a defensive support build that protects allies while dealing respectable damage. Essential for dungeon raids and boss fights.
+### The Stun-Lock Build
 
-**Stat Priority**: Strength > Vitality > Spirit > Endurance
+- **Castella** (Break + Stun) + **Theresia** (Bleed + Stun) + **Lute** (Stun + Knockdown)
+- Three confirmed Stun users means the target almost never acts. Great for learning bosses, at the cost of raw ailment variety.
 
-**Recommended Stat Allocation (level 100)**:
-- Strength: 80 points (+40% physical damage)
-- Vitality: 80 points (+1200 HP, +16 defense)
-- Spirit: 50 points (+150 SP, +50% healing received)
-- Endurance: 30 points (+150 stamina)
-- Remaining: Luck as needed
+## What Gear Direction Means
 
-**Weapon Specialization**: Swords and Shields, Maces, Spears
+With no stat points, gear is the only numeric layer. Confirmed gear concepts:
 
-**Core Skills**:
-- **Divine Shield** (Max) — Blocks all damage for 5 seconds, taunts enemies
-- **Holy Strike** (Max) — Deals holy damage and heals nearby allies for 20% of damage dealt
-- **Guardian's Aura** (Max) — Increases defense of all party members by 15%
-- **Revitalize** (Max) — Heals target ally for 40% of their max HP
-- **Taunt** (Max) — Forces enemies to attack you for 6 seconds
+- **Equipment and weapons** drop from quests, exploration, and dungeons.
+- **Karma gear** is a distinct high-end tier mentioned by players, obtainable through endgame sources — exact sources and effects are **unconfirmed** (see the [Equipment Guide](/guides/equipment-guide)).
+- **Relics** exist as a gear category, but no official relic set names or bonuses have been documented.
 
-**Optimal Skill Tree Path**:
-1. Max Divine Shield — your main survival tool
-2. Max Guardian's Aura for group content
-3. Invest in Holy Strike for self-sustain
-4. Max Revitalize for emergency healing
-5. Fill with Taunt for aggro management
+Upgrade specifics (enhancement levels, success rates, materials) are **unconfirmed** — this wiki will not publish invented numbers.
 
-**Recommended Heroes**: Castella, Lute (tank build), Siegfried
+## Builds to Avoid (Unconfirmed Claims)
 
-### 4. Ranger (Agility Ranged DPS)
+Be careful of guides (including older drafts of this one) that claim:
 
-The Ranger is a ranged damage dealer that focuses on critical hits and mobility. Excels at single-target damage and kiting.
+- Stat point allocation or skill trees — **do not exist in confirmed material**
+- Detailed builds for heroes like Eileen, Astria, Sion, Alex, Tarte, or Dana — **these heroes are not confirmed in the launch roster** (Dana is a companion of Kalien, not confirmed playable; the others have no official confirmation)
+- Class systems like Berserker, Paladin, Ranger, or Spellblade — **this game has heroes, not classes**
 
-**Stat Priority**: Agility > Luck > Strength > Endurance
+## Bottom Line
 
-**Recommended Stat Allocation (level 100)**:
-- Agility: 110 points (+33% attack speed, +110% dodge distance)
-- Luck: 60 points (+6% crit chance)
-- Strength: 40 points (+20% physical damage)
-- Endurance: 30 points (+150 stamina)
-- Remaining: Vitality as needed
-
-**Weapon Specialization**: Bows, Crossbows, Throwing Weapons
-
-**Core Skills**:
-- **Precise Shot** (Max) — Guaranteed crit, 300% damage
-- **Multi-shot** (Max) — Fires 5 arrows in a spread
-- **Shadow Step** (Max) — Teleports backward 10 meters, leaves decoy
-- **Ranger's Mark** (Max) — Marked target takes 25% more damage from all sources
-- **Rain of Arrows** (3/5) — AoE arrow barrage over target area
-
-**Optimal Skill Tree Path**:
-1. Max Precise Shot for burst damage
-2. Max Ranger's Mark to boost your damage
-3. Invest in Multi-shot for crowd damage
-4. Take Shadow Step for survival
-5. Fill with Rain of Arrows for area denial
-
-**Recommended Heroes**: Aria (bow build), Freya, Nidhogg
-
-## Build Comparison Table
-
-| Build | DPS | Survivability | Group Utility | Difficulty | Best Content |
-|-------|-----|--------------|--------------|------------|-------------|
-| Berserker | S | D | D | Medium | Solo play, DPS races |
-| Spellblade | A | B | C | Hard | Dungeons, PvP |
-| Paladin | B | S | S | Easy | Raids, Boss fights |
-| Ranger | A | B | B | Medium | Solo, Farming, PvP |
-
-## Respeccing and Experimentation
-
-Do not be afraid to experiment with different builds. Respeccing costs only 500 gold at any town rest point — a trivial amount in the late game. We recommend:
-
-1. **Level 1-30**: Put most points into Vitality and Endurance. You need survivability while learning the game.
-2. **Level 30-60**: Gradually shift into your chosen build. By level 50, commit to a primary stat.
-3. **Level 60-100**: Specialize hard. A focused build outperforms a hybrid build at this stage.
-4. **Endgame (100+)**: Fine-tune your stat distribution for specific content. Boss fights may need more Vitality, while farming needs more Luck.
-
-### Related Guides
-
-- [Dungeon Raids Guide](/guides/dungeon-raids)
-- [Gear Progression Guide](/guides/gear-progression)
-- [Beginner Guide](/guides/beginner-guide)
-- [Combat Guide](/guides/combat-guide)
-- [Hero Builds Guide](/guides/hero-builds-guide)
+Build in DragonSword: Awakening = choose heroes with complementary ailments, chain their Signal Skills, and gear them through gameplay. Start with the confirmed trio — Lute, Castella, and Aria — then pivot toward a mono-stacked ailment team like the Bleed Chain as you unlock Theresia. For per-hero recommendations, check the [Hero Builds Guide](/guides/hero-builds-guide) and the [Tier List](/guides/tier-list).

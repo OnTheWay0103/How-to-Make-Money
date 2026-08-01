@@ -18,7 +18,7 @@ Automation starts with **Townies**. Tourists with a "+" above their head move in
 
 ## Step 2: Zone Clocks — Production Automation
 
-The four production zones each have a **zone clock** (farm, fishery, forest, mine). Unlock the relevant tech, hire workers at the clock, and they will automate resource production inside their zone:
+The four production zones each have a **timeclock** (farm, fishery, forest, mine — community guides often call them "zone clocks"). Unlock the relevant tech, hire workers at the timeclock, and they will automate resource production inside their zone:
 
 - **Farm** — plant, water, and harvest crops; feed animals for milk and eggs
 - **Fishery** — fish at marked spots and run crab pots
@@ -27,9 +27,9 @@ The four production zones each have a **zone clock** (farm, fishery, forest, min
 
 Each zone needs its own **storage and tools inside the zone boundary** — workers won't fetch tools dropped outside, and full storage stops production.
 
-## Step 3: The Logistics Building — Courier Automation
+## Step 3: The Courier Building — Courier Automation
 
-The **Logistics building** is the backbone of a self-running town. Assign residents as **couriers**, and they deliver materials to shops, food trucks, and construction sites automatically. Build it as soon as it unlocks — without couriers you are the courier.
+The **Courier Building** (community guides often call it the "logistics building") is the backbone of a self-running town. Assign residents as **couriers**, and they deliver materials to shops, food trucks, and construction sites automatically. Build it as soon as it unlocks — without couriers you are the courier.
 
 Courier tips:
 
@@ -40,7 +40,7 @@ Courier tips:
 ## Step 4: Commerce and Sanitation
 
 - **Shopkeepers, artisans, and hot dog sellers** run your shops so you never touch a counter again.
-- **Sanitation Bureau workers** empty trash bins, clean purple stains, and repair damaged equipment.
+- **Sanitation workers** empty trash bins and clean purple floor grime; **maintenance workers** (hired at the Maintenance Office) repair damaged equipment and, since 1.0, collect items left on the ground outside zones and store them in Lost and Found.
 - **Stalls and vending machines** need no staff at all — stock them manually (or let couriers auto-restock food trucks) and tourists buy on their own.
 
 ## Common Automation Problems and Fixes
@@ -48,7 +48,7 @@ Courier tips:
 **"My workers are idle and nothing is happening."** Working through this checklist fixes 90% of cases:
 
 1. **Tools outside the zone** — move tools inside the zone boundary.
-2. **No seeds** — farm workers stop replanting when seed inventory hits zero. Collect seeds from the purple flowers left of the farm (they refresh daily) or buy seed packs from the Import app.
+2. **No seeds** — farm workers stop replanting when seed inventory hits zero. Seed sources vary: community guides report flower patches near the farm and seed packs available for import, but the exact spawns and availability have changed across patches — check your zone and the import options in-game.
 3. **Full storage** — workers stop when storage trays are full. Add storage or more sales points (vending machines are the best sink).
 4. **Storage not locked** — press I on a storage box, select a product, press L to lock it, and workers will deposit that item there automatically.
 5. **Stuck equipment** — if a machine or worker is stuck, delete and rebuild the building (or the courier station if the courier's vehicle is stuck).

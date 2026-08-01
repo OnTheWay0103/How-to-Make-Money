@@ -1,149 +1,76 @@
 ---
-title: 'Attributes & Stats Guide — How to Build Your Character in Vahrin\'s Call'
-description: 'Complete guide to all 5 attributes in Vahrin\'s Call: Strength, Agility, Intelligence, Constitution, and Focus. Priority allocation tips, soft caps, and how to respec for free.'
-keywords: ['vahrins call attributes guide', 'vahrins call stats guide', 'vahrins call how to respec', 'vahrins call attribute priority', 'vahrins call character build']
-updated: '2026-07-27'
+title: 'Attributes & Stats Guide — What We Know About Vahrin\'s Call Stats'
+description: 'Everything confirmed about attributes, stats, and character progression in Vahrin\'s Call: the classless skill-use system, spell customization, stamina, and what is still unconfirmed.'
+category: 'Guides'
+version: '1.0'
+updated: '2026-08-01'
+keywords: ['vahrins call attributes guide', 'vahrins call stats guide', 'vahrins call character progression', 'vahrins call skill system', 'vahrins call leveling']
+related: ['beginner-guide', 'best-builds-guide', 'magic-guide', 'combat-guide']
 ---
 
-# Attributes & Stats Guide
+# Attributes & Stats Guide — What We Know
 
-Vahrin's Call has **five core attributes** that define your character's capabilities. Understanding how they interact is essential — there are no classes to guide your choices, so every point matters.
+**Important correction, first**: earlier versions of this guide listed five named attributes (Strength, Agility, Intelligence, Constitution, Focus) with exact percentage bonuses. **None of that is confirmed.** Titan Roc has not published an official attribute list, and no launch material names the game's stats. If you see specific attribute names and numbers elsewhere, treat them as community guesswork. This guide covers what is actually confirmed about stats and progression in Vahrin's Call.
 
----
+## The Confirmed Progression Model
 
-## Attribute Overview
+### Classless, Use-Based Skills
 
-### Strength
-**Governs**: Heavy weapon damage (greatswords, hammers, axes), blocking effectiveness, equipment load capacity
+The official FAQ describes an "entirely classless character progression system." The developers model it on the classless skill system of The Elder Scrolls (Oblivion/Skyrim), which means:
 
-**Every point of Strength gives**:
-- +2% heavy weapon damage
-- +1% block stability
-- +0.5 equipment load capacity
+- **Skills improve through use.** Swing swords and your sword skill grows; cast spells and your spell skill grows; brew potions and your alchemy skill grows.
+- **No class locks you in.** You can "adapt, alter or completely switch playstyles" at any point in the game.
+- **Skill Books are required for full upgrades.** Developer updates confirm books scattered through the world unlock or upgrade abilities that use alone won't give you.
 
-**Who should invest**: Any melee build using two-handed or heavy weapons. Spellsword hybrids need moderate Strength.
+### Spell Mastery
 
-**Soft cap**: Diminishing returns begin at 40 Strength. The community recommends stopping at 50 unless you're a pure heavy warrior.
+A **"Spell Mastery"** system was announced in 2024 development updates: spells upgrade through use, in line with the rest of the skill system.
 
----
+### Spell Customisation
 
-### Agility
-**Governs**: Movement speed, attack speed, dodge efficiency, ranged weapon damage (bows), dual wield effectiveness
+Titan Roc has confirmed that spells can be customised by increasing spell attributes including **damage, range, and casting speed**. The full extent of the customisation system is not documented publicly — mark anything beyond these three attributes as unconfirmed.
 
-**Every point of Agility gives**:
-- +1.5% attack speed
-- +1% dodge invulnerability frames
-- +2% bow/crossbow damage
-- +0.3% movement speed
+### Stamina and Mana
 
-**Who should invest**: Rangers, dual wield builds, trap specialists who need to reposition quickly. Every build benefits from 10-15 points for basic mobility.
+- A **stamina system** exists and limits prolonged magic use, per launch reviews.
+- Mana pools and regeneration rates have **not** been officially documented. Numbers found online are unverified.
 
-**Soft cap**: Diminishing returns begin at 35. Dodge i-frames cap at 50 Agility (0.5 seconds of invulnerability).
+## What Is NOT Confirmed
 
----
+To save you from misinformation:
 
-### Intelligence
-**Governs**: Spell power, mana pool size, elemental damage (fire, ice, earth), alchemy buff potency
+| Claim seen online | Status |
+|-------------------|--------|
+| Five attributes: Strength/Agility/Intelligence/Constitution/Focus | **Not confirmed — invented** |
+| Per-point percentage bonuses (e.g., +2% damage per point) | **Not confirmed — invented** |
+| Soft caps at specific values (40, 45, 50...) | **Not confirmed — invented** |
+| Free respec via "Mentor NPCs" | **Not confirmed** (switching playstyles is confirmed, but the exact mechanism is not) |
+| Amnesia Elixir required for late-game respec | **Not confirmed — invented** |
+| Level cap of 50 | **Not confirmed** |
 
-**Every point of Intelligence gives**:
-- +2.5% spell damage
-- +5 maximum mana
-- +1% elemental status effect buildup
-- +1% alchemy buff duration
+## What This Means for Building Your Character
 
-**Who should invest**: Mages, spellswords, alchemy-focused builds. Even pure melee builds may want 10-15 Intelligence for basic utility spells.
+Without an official stat list, the practical advice is:
 
-**Soft cap**: Spell damage scaling softens at 45. Mana pool has no cap but diminishing returns on regen begin at 40.
+1. **Play what you enjoy.** Since skills grow through use and playstyles are fully switchable, your build is defined by what you do, not by a point-allocation screen. There is no way to permanently ruin a character.
+2. **Let use guide your focus.** The game rewards consistency: using one weapon or school of magic develops it, while constantly switching means slower progress in each. That said, the game explicitly encourages hybrids — the developers' own examples include "a nimble-footed archer flinging fireballs between arrows" and "an axe-wielding whirlwind of death."
+3. **Find Skill Books.** Books are the gate to full upgrades, so exploration is a stat investment of its own.
+4. **Watch the stamina bar in combat.** Stamina limits magic use, so pacing is part of any build.
 
----
+## What We Still Need to Confirm
 
-### Constitution
-**Governs**: Maximum health, stagger resistance, passive health regeneration, poison/disease resistance
+As the wiki grows, we will add confirmed data as it becomes available:
 
-**Every point of Constitution gives**:
-- +8 maximum HP
-- +1% stagger resistance
-- +0.1 HP/sec passive regeneration
-- +1% status resistance
+- Official attribute or stat names (if any)
+- Leveling curve and XP requirements
+- Skill tree / perk structure details
+- Spell customisation limits
+- Whether any stats affect loot, traps, or alchemy potency
 
-**Who should invest**: **EVERYONE**. This is the most universally important attribute. Enemy damage scaling assumes you're investing in Constitution. A character with base Constitution will get one-shot by mid-game enemies.
+If you have played the game and verified something with screenshots, that is exactly the kind of source we build from — everything in this wiki is checked against official statements and verifiable gameplay.
 
-**Soft cap**: 30 is the minimum for comfortable play. 40-50 is recommended for melee builds. Over 60 has severe diminishing returns.
+## Next Steps
 
----
-
-### Focus (Utility)
-**Governs**: Trap efficiency, alchemy potency, critical hit chance, loot quality
-
-**Every point of Focus gives**:
-- +2% trap damage and duration
-- +2% potion effectiveness
-- +0.5% critical hit chance
-- +1% rare loot drop rate
-
-**Who should invest**: Trap specialists, alchemists, hybrid builds. Even non-crafting builds benefit from 15-20 points for the critical hit bonus.
-
-**Soft cap**: Critical chance from Focus caps at 15% bonus (30 Focus). Trap/alchemy benefits scale linearly — no cap.
-
----
-
-## Attribute Allocation by Build
-
-| Build | STR | AGI | INT | CON | FOC |
-|-------|-----|-----|-----|-----|-----|
-| Spellshield Vanguard | 50 | 10 | 20 | 40 | 10 |
-| Archer Mage | 5 | 40 | 40 | 15 | 10 |
-| Tactical Shadowstalker | 5 | 40 | 5 | 20 | 40 |
-| Magic-Alchemy | 5 | 10 | 45 | 25 | 35 |
-| Whirlwind Alchemist | 50 | 5 | 20 | 40 | 15 |
-| Pure Mage | 5 | 10 | 50 | 30 | 15 |
-| Pure Warrior | 50 | 15 | 5 | 45 | 10 |
-
-*Values represent endgame targets (~level 50). Adjust proportions for your level.*
-
----
-
-## How to Respec
-
-One of Vahrin's Call's most player-friendly features: **respeccing is free**.
-
-### Where to Respec
-Visit any **Mentor NPC** in major settlements. They're marked on the town map with a book icon.
-
-### What You Can Reset
-- **Attributes only**: Redistribute all Character Points
-- **Perks only**: Reset all Perk Points and learned abilities
-- **Full respec**: Reset everything
-
-### Respec Strategy
-- **Early game (levels 1-15)**: Experiment freely. Respec costs nothing.
-- **Mid game (levels 16-35)**: You should have settled on a direction. Respec only if you find a game-changing Skill Book.
-- **Late game (levels 36+)**: Full respecs may require an **Amnesia Elixir** (craftable: Moonpetal ×3 + Crystal Dust ×2 + Purified Water) alongside gold.
-
-### Important: Check Your Inventory First
-Before respeccing from a Strength build to an Intelligence build, make sure you own appropriate gear. Switching from heavy armor greatswords to cloth robes without having robes in your inventory is a bad time.
-
----
-
-## Character Points vs. Perk Points
-
-Remember: these are **two separate systems**.
-
-- **Character Points** come from leveling, quests, and bosses → spent on **attributes**
-- **Perk Points** come from using weapons and skills → spent on **abilities**
-
-A level 30 character might have 150 Character Points (for attributes) and 60 Perk Points (for abilities). Don't confuse them.
-
----
-
-## Leveling Guide
-
-| Level Range | Priority | Notes |
-|-------------|----------|-------|
-| 1-10 | Constitution to 20 | Survival first — you can't deal damage when dead |
-| 11-20 | Primary stat to 25 | Start specializing in your main damage attribute |
-| 21-30 | Primary stat to 35, Constitution to 30 | Balance offense and defense |
-| 31-40 | Primary stat to 45 | Push toward soft caps |
-| 41-50 | Secondary stat + round out Constitution | Fill gaps in your build |
-
-**Exception**: Pure mages should prioritize Intelligence earlier (level 10+) because mana pool size gates which spells you can cast.
+- See [Best Builds Guide](/guides/best-builds-guide) for confirmed build directions.
+- The [Combat Guide](/guides/combat-guide) covers the confirmed combat systems (stamina, parry-free defensive play, trap deployment).
+- [Magic Guide](/guides/magic-guide) explains the confirmed magic systems.

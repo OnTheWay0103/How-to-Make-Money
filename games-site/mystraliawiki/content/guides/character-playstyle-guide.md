@@ -1,123 +1,88 @@
 ---
-title: 'Character & Playstyle Guide — Choosing Your Build in Echoes of Mystralia'
-description: 'No classes in Echoes of Mystralia — your build IS your class. Learn the best playstyle archetypes, starting spell loadouts, Relic and Lotus priorities for every build type.'
-keywords: ['echoes of mystralia build guide', 'echoes of mystralia best build', 'echoes of mystralia character guide', 'echoes of mystralia playstyle', 'mystralia best class']
+title: 'Character & Playstyle Guide — Mazarim, the Watcher'
+description: 'In Echoes of Mystralia your build IS your class — Mazarim the Watcher has no classes. What\'s confirmed about character identity, and how to plan a playstyle before Early Access.'
+category: 'Builds'
+version: 'Pre-release'
 updated: '2026-08-01'
+keywords: ['echoes of mystralia build guide', 'echoes of mystralia best build', 'echoes of mystralia character guide', 'echoes of mystralia playstyle', 'echoes of mystralia watcher']
+related: ['best-spell-builds', 'spell-crafting-guide', 'spell-combos', 'tier-list', 'beginner-guide']
 ---
 
-# Character & Playstyle Guide — Choosing Your Build
+# Character & Playstyle Guide — Mazarim, the Watcher
 
-Echoes of Mystralia doesn't have classes — and that's the point. You play as **Mazarim, a Watcher**, the only playable character, and your "class" is whatever you build at the spellcrafting grid. With 12 spell forms, 3 elements, 110 Memories, and 30+ Relics at launch, almost every strong build fits one of a handful of archetypes. This guide breaks down how to choose yours.
+Echoes of Mystralia has no character classes — and that appears to be the point. You play as **Mazarim, a Watcher**, and your "class" is whatever spell loadout you craft. This guide covers what's confirmed about character identity, how the roguelite loop defines playstyles, and how to plan a build direction before Early Access launches on **August 11, 2026**.
+
+> **Pre-release note:** Archetype names, "meta" rankings, and detailed build recipes are **TBD** until the game is playable. This guide describes the confirmed framework and honest expectations.
+
+## What's Confirmed About Your Character
+
+- **You play Mazarim, a Watcher** — the only playable character announced
+- Watchers are sworn to protect the **Cycle of Memories** and the **World's Memory** from the **Rift**
+- Mazarim fights **Rift-spawned foes** and "**Shadows of the Past**," and confronts **primordial Guardians**
+- It is a **single-player** game — no co-op or multiplayer has been announced
+- Between runs, Mazarim returns to the **Azimuth Temple** hub, where you can upgrade permanent skills, unlock new combat options, and build relationships with **fellow Watchers** (aiding characters in the hub, not playable party members)
 
 ## How "Character Creation" Works in Mystralia
 
-There's no stat allocation screen or character select. Instead, your identity is built from four layers:
+There is no character creator, stat allocation screen, or class select. Your identity is built from the confirmed systems:
 
-1. **Spell loadout** — the 4–5 spells you carry into a run
-2. **Memory crafting** — how each spell is modified on the grid
-3. **Relics** — 6 passive items that define the run
-4. **Lotus upgrades** — permanent stats that tilt your power curve
+1. **Spell loadout** — the spells you carry into a run, crafted from Memories
+2. **Memory crafting** — how Memories are reordered and combined to shape each spell
+3. **Spell forms** — 12 base templates at Early Access (4 in the demo)
+4. **Permanent hub upgrades** — progress at the Azimuth Temple between runs
 
-You can save multiple named loadouts at the Azimuth Temple and swap between runs — so "choosing your class" is really choosing your first loadout, and experimenting is free.
+Because the spellcrafting space is described as **"millions of possible combinations,"** two players can play the same character completely differently. That is the entire design thesis: *your build is your class.*
 
-## The Build Archetypes
+## Build Archetypes — What to Expect (TBD)
 
-### ⚡ Storm Weaver — The Speed Clearer
+The developer has showcased three spell directions in trailers and the demo — **lightning bolts, freezing tornadoes, and fire vortices** — which suggest broad archetype families. Honest expectations, each unconfirmed:
 
-Best for: fast farming, Memory Shard generation, players who want runs over in minutes.
+### The Damage Racer
+- **Direction:** Maximize burst and sustained damage for Guardian fights
+- **Signs to look for:** high single-target spell forms, damage-focused Memories
+- **Best for:** players who want fast boss kills
 
-| Layer | Choice |
-|-------|--------|
-| Spells | Arc (centerpiece) + Wave + Bolt |
-| Element | Lightning |
-| Memories | Chain, Hasten, Charge, Amplify |
-| Relics | Storm Shard, Scholar's Scroll, Timekeeper's Hourglass |
-| Lotus | Arcana → Memory Capacity → Memory Attunement |
+### The Controller
+- **Direction:** Crowd control — freezing tornadoes and similar zone effects
+- **Signs to look for:** area denial, slow/freeze behavior in crafted spells
+- **Best for:** players who value safety and methodical clears
 
-Lightning chains between groups, and Hasten stacks make Arc nearly instant-cast. This is the meta farming build — if your goal is resources, it's the template.
+### The Clear-Speed Farmer
+- **Direction:** Fast, wide damage for collecting Memories quickly
+- **Signs to look for:** chain effects (lightning showcase), area spells
+- **Best for:** players who want to accelerate their permanent progression
 
-### ❄️ Blizzard King — The Control Tank
+### The Survivor
+- **Direction:** Defense-first crafting to outlast hard content
+- **Signs to look for:** defensive Memory options and defensive hub upgrades (details TBD)
+- **Best for:** learning new regions and bosses
 
-Best for: survivability, boss fights, first-time region clears.
+Treat these as starting hypotheses, not a meta. Balance is unannounced, and the developer has already changed systems once between demo and EA.
 
-| Layer | Choice |
-|-------|--------|
-| Spells | Nova (defensive core) + Wall + Shard |
-| Element | Ice |
-| Memories | Expand, Persist, Chill, Barrier, Leech |
-| Relics | Frost Core, Ironwood Bark, Crystal Aegis |
-| Lotus | Vitality → Resilience → Arcana |
+## Choosing Your Starting Direction
 
-Freeze is the best status effect in the game — it stops enemies completely and enables shatter combos. Nova with Barrier + Leech makes you nearly unkillable, and Ice Wall blocks Guardian charges. The most forgiving archetype for new regions.
+New to the game? The demo is the place to decide:
 
-### 🔥 Inferno Machine — The DPS Race
+1. **Play the demo's 4 spells** — feel which of them suits your reflexes
+2. **Experiment with the 50 Memories** — push one spell in offense, then defense, and feel the difference
+3. **Complete the 4 fight challenges** — they expose whether you prefer speed, control, or survival
+4. **Decide a preference, not a plan** — your demo save transfers, so what you learn follows you into Early Access
 
-Best for: raw damage, melting elites and Guardians, experienced players.
+**A practical rule:** plan to keep **one spell per element** (fire, ice, lightning) in your early loadouts until the game's real match-ups are understood. Coverage beats specialization while you're learning.
 
-| Layer | Choice |
-|-------|--------|
-| Spells | Vortex (centerpiece) + Nova + Lance |
-| Element | Fire |
-| Memories | Amplify, Ignite, Burst, Multishot |
-| Relics | Ember Stone, Berserker's Totem, Vampiric Sigil |
-| Lotus | Arcana → Attunement → Vitality |
+## Can You Change Your Build?
 
-Fire has the highest raw damage in the game. Vortex is the highest sustained DPS form, and its persistent AoE benefits from every damage Memory. Berserker's Totem (+30% damage, +15% damage taken) is greedy — run Vampiric Sigil to heal through the risk.
+Yes — in two confirmed ways:
 
-### 🌪️ Tempest God — The Hybrid Endgame
+- **Between runs:** the Azimuth Temple is where loadouts are tuned and permanent skills are upgraded; nothing about the crafting system locks you in
+- **Within a run:** you collect new Memories as you play; how you spend them on crafting is your call at every step
 
-Best for: endgame, all-region versatility, players who've mastered crafting.
-
-| Layer | Choice |
-|-------|--------|
-| Spells | One of each element, hybrid-crafted |
-| Element | All three |
-| Memories | Opposite-slot hybrids (Steam Burst, Plasma Storm, Frost Storm) |
-| Relics | Elemental Conduit, Spellweaver's Charm, Manawell Crystal |
-| Lotus | Arcana → Memory Capacity → Spell Form Mastery |
-
-Elemental Conduit rewards using all three elements (+50% damage per unique element recently used), and hybrid spells from opposite Memory slots (Fire + Ice = Steam Burst, Fire + Lightning = Plasma Storm) cover every enemy weakness. The hardest archetype to build, and the strongest overall.
-
-### 🎯 Arc Sniper — The Specialist
-
-Best for: single-target boss melting, players who like precision.
-
-| Layer | Choice |
-|-------|--------|
-| Spells | Lance (centerpiece) + Bolt + Mine |
-| Element | Fire or Lightning |
-| Memories | Amplify, Multishot, Focus, Pierce |
-| Relics | Archmage's Focus, Ember Stone / Storm Shard |
-| Lotus | Arcana → Memory Capacity |
-
-Lance is the highest single-target burst; Amplify + Multishot + Ignite turns it into a boss-killing window. Archmage's Focus (+40% spell damage above 80% mana) demands mana management — pair with Manawell Crystal.
-
-## Choosing Your Starting Loadout
-
-New to the game? Start with the **Blizzard King** template — survivability teaches enemy patterns better than damage does. Once you understand the grid, switch to **Storm Weaver** for farming and **Inferno Machine** for Guardian kills, with hybrid **Tempest God** as your endgame target.
-
-**Element counter rule** (for all archetypes): fire beats ice enemies, ice beats lightning, lightning beats fire. Build at least one spell per element so you're never soft-locked in a region.
-
-## Lotus Priorities by Archetype
-
-| Archetype | First 4 Lotus Upgrades |
-|-----------|------------------------|
-| Storm Weaver | Arcana → Memory Capacity → Memory Attunement → Alacrity |
-| Blizzard King | Vitality → Resilience → Arcana → Memory Capacity |
-| Inferno Machine | Arcana → Attunement → Memory Capacity → Vitality |
-| Tempest God | Arcana → Memory Capacity → Relic Slots → Elemental Affinity |
-| Arc Sniper | Arcana → Memory Capacity → Spell Form Mastery → Attunement |
-
-Universal rule: **Memory Capacity and Relic Slots are never wasted** — an extra slot is stronger than a stat tier at every point in the game.
-
-## Can I Switch Builds Mid-EA?
-
-Yes — and you should. Save a loadout per archetype at the Temple and swap between runs (or at shrine rest points mid-run). The best Mystralia players don't commit to one class — they understand the system and rebuild constantly.
+Experimentation is free. The expensive mistake would be ignoring the crafting system and playing with default spells — the game's entire design rewards building your own.
 
 ## Related Guides
 
-- [Spell Crafting Guide](/guides/spell-crafting-guide) — the grid system every build rests on
-- [Best Spell Builds](/guides/best-spell-builds) — step-by-step build recipes
-- [Relics Guide](/guides/relics-guide) — every Relic and its best builds
-- [Lotus Progression Guide](/guides/lotus-progression-guide) — permanent upgrade strategies
-- [Tier List](/guides/tier-list) — current meta rankings
+- [Best Spell Builds](/guides/best-spell-builds) — planning loadouts before launch
+- [Spell Crafting Guide](/guides/spell-crafting-guide) — the system every build rests on
+- [Spell Combos Guide](/guides/spell-combos) — how Memory arrangement shapes spells
+- [Tier List](/guides/tier-list) — why rankings are TBD until launch
+- [Beginner Guide](/guides/beginner-guide) — first steps in the demo

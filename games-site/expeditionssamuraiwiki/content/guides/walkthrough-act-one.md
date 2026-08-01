@@ -14,15 +14,15 @@ related: ["beginner-guide", "companions-guide", "tips-and-tricks"]
 
 Act One is the entire Early Access launch content of Expeditions: Samurai — roughly **8 hours** of quests with full voice acting, taking your crew from a shipwrecked arrival to a place in the politics of Japan's final civil war. This walkthrough covers the confirmed story structure, the choices that define Act One, and how to get the most out of the launch build.
 
-## Act One Structure: The Confirmed Arc
+## Act One Structure: What's Confirmed, What's Expected
 
-Official materials confirm the following beats:
+Only the opening beat is fully confirmed by official materials; the rest is the expected arc shape based on official framing (marked **expected** below):
 
-1. **The Arrival** — The battered Dutch frigate *De Albatros* reaches Japan. You are the newly elected leader of a motley privateer crew, with injuries, low supplies, and no allies.
-2. **The First Alliances** — Establish a foothold in Japan. Meet the local powers of the civil war era and decide who you can work with.
-3. **The Companions** — Recruit your crew's companions across the world map (8 total; expect the five named ones — Antje, Johan, Tora-Hime, Étienne Durand, Piet Ruisch — early).
-4. **The Power Base** — Rise in the service of a faction — most prominently Tokugawa Ieyasu's cause — toward the rank that matters for the full game.
-5. **The Road to Sekigahara** — Act One's climax builds toward the Battle of Sekigahara (October 21, 1600 historically), the battle that ends the Sengoku era. Your choices "can alter the political landscape of Japan and alter the fate of powerful warlords."
+1. **The Arrival (confirmed)** — The battered Dutch frigate *De Albatros* reaches Japan in 1600. You are the newly elected leader of a motley privateer crew, with injuries, low supplies, and no allies.
+2. **The First Alliances (expected)** — Establish a foothold in Japan. Meet the local powers of the civil war era and decide who you can work with.
+3. **The Companions (expected)** — Recruit companions across the world map (8 total; expect the five named ones — Antje, Johan, Tora-Hime, Étienne Durand, Piet Ruisch — early).
+4. **The Power Base (expected)** — Rise in the service of a faction toward the rank that matters for the full game.
+5. **The Road to Sekigahara (expected)** — The game is set in 1600, the year the real Battle of Sekigahara (October 21, 1600) ended the Sengoku era, so Act One is widely expected to build toward it — but the Act One ending has not been officially described. What is confirmed: your choices "can alter the political landscape of Japan and alter the fate of powerful warlords."
 
 ## The World Map: Your Act One Playground
 
@@ -32,7 +32,9 @@ Act One is built on the world map structure: **45+ levels and 100+ events/encoun
 - **Events are replayable resources.** World map events generate supplies, materials, and companion moments.
 - **Rotate destinations.** Different regions of the map offer different encounter types — stealth grounds, diplomatic hotspots, and battlefields.
 
-## Phase-by-Phase Walkthrough
+## An Act One Game Plan (Expected Shape — Not Confirmed Quest Steps)
+
+> Honest note: the specific quest order, mission locations, and hour breakdowns below are **not confirmed** — no walkthrough of Act One exists yet (the game is pre-launch). This section is a preparation framework built from the confirmed systems (world map structure, three pillars, companion recruitment) so you know what to prioritize when the launch build lands on August 7. We'll replace it with a real step-by-step walkthrough within days of Early Access.
 
 ### Phase 1: Survival (First 1-2 Hours)
 
@@ -47,7 +49,7 @@ Act One is built on the world map structure: **45+ levels and 100+ events/encoun
 
 **Goal:** Make your first alliances and start recruiting.
 
-- Complete the first companion recruitment quests. Prioritize **Étienne** (diplomacy) and **Antje** (stealth) — they unlock the full pillar toolkit.
+- Complete the first companion recruitment quests. Having a diplomat (**Étienne**) and a burglar (**Antje**) in your active four early makes the stealth and diplomacy pillars fully available in any given situation.
 - Start companion loyalty quests early — they compound.
 - Pick a faction direction. Every major dialogue choice here has a "can alter the political landscape" flag on it.
 
@@ -56,14 +58,14 @@ Act One is built on the world map structure: **45+ levels and 100+ events/encoun
 **Goal:** Build your standing.
 
 - Tackle the mid-Act main quests and the hardest optional encounters.
-- Craft your first custom gear — the mid-Act crafting tier is where loadouts come alive.
+- Custom gear crafting timing is **TBD** — official materials describe crafting as part of the full release, so if the EA build includes it, mid-Act is when you'll have the materials; if not, invest in strong looted and purchased gear instead.
 - Make the Act's defining choices. Keep saves at chapter boundaries — Expeditions games are famous for consequences that only surface hours later.
 
 ### Phase 4: The Climax (Hours 6-8)
 
 **Goal:** Reach the Act One ending.
 
-- Expect a climactic sequence tied to the Sekigahara road.
+- Expect a climactic sequence tied to the Sekigahara road — that's the era's defining battle and the game's setting year (1600), but the specific shape of the Act One ending is TBD until launch.
 - Your faction choice and loyalty standings determine who stands with you at the end.
 - The ending sets up Act Two (arriving in the story update) and the village management / Hatamoto thread of the full release.
 
@@ -88,7 +90,7 @@ Some content is deliberately out of reach in Early Access:
 
 - [ ] All 8 companions recruited (5 named, 3 revealed at launch)
 - [ ] All companion personal quests started
-- [ ] At least one crafted custom weapon
+- [ ] At least one custom weapon crafted (if the EA build includes crafting — otherwise, a strong upgraded loadout)
 - [ ] Both a stealth success and a diplomacy success on major encounters
 - [ ] Faction allegiance chosen deliberately
 - [ ] Saves kept at chapter boundaries

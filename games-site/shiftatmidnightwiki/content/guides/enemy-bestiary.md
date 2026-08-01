@@ -1,166 +1,117 @@
 ---
-title: "Shift At Midnight Enemy Guide: All Monsters & How to Defeat Them"
-description: "Complete enemy bestiary for Shift At Midnight. All monsters including Doppelgangers, The Entity, Phantom, Gnome, Demon, The Dentist, and how to defeat each one."
+title: "Shift At Midnight Enemy Guide: All Monsters & How to Deal With Them"
+description: "Complete enemy bestiary for Shift At Midnight. Doppelgangers, The Entity, The Dentist, Demented, Norbert the Gnome, and the threats that are still undocumented."
 category: "Guides"
 version: "1.0"
-updated: "2026-07-29"
-keywords: ["shift at midnight all enemies", "shift at midnight monster types", "enemy guide shift at midnight", "phantom gnome demon shift at midnight", "shift at midnight dentist"]
-related: ["entity-survival-guide", "doppelganger-guide", "weapons-guide"]
+updated: '2026-08-01'
+keywords: ["shift at midnight all enemies", "shift at midnight monster types", "enemy guide shift at midnight", "shift at midnight doppelganger list", "shift at midnight dentist", "shift at midnight demented"]
+related: ["entity-survival-guide", "doppelganger-guide", "weapons-guide", "dentist-guide"]
 ---
 
 ## Shift At Midnight Enemy Bestiary
 
-The gas station at the edge of nowhere attracts more than just sleepy truckers. In *Shift At Midnight*, you face a rotating cast of monsters that escalate in aggression as the 13-night campaign progresses. Knowing which threat you are dealing with -- and how to counter it -- is the difference between surviving the shift and becoming another missing person case.
+The gas station at the edge of Midnight Town attracts more than sleepy truckers. In *Shift At Midnight*, you face a rotating cast of threats that escalate as the 13-shift campaign progresses. Knowing which threat you're dealing with — and how to counter it — is the difference between surviving the shift and becoming another missing person case.
 
-This guide covers every monster in the game, from the common Doppelganger to the terrifying Dentist.
+A note on honesty: the full enemy roster is still being documented by the community. This bestiary covers the **confirmed** threats. If you see a guide listing exotic enemies with health bars and drop tables, treat the details as unverified.
 
 ## Enemy Overview Table
 
-| Monster | Threat Level | HP | Behavior | Weakness | Loot / Reward |
-|---------|-------------|----|----------|----------|---------------|
-| Doppelganger (Normal) | Low | 60 | Mimics customers, fails ID check | NET Database cross-reference | $5 -- $15 cash |
-| Doppelganger (Aggressive) | Medium | 100 | Lunges after short detection window | Aggressive means suspicious -- trust the NET Database | $15 -- $25 cash |
-| Doppelganger (Silent) | High | 80 | Does not speak, mimics body language | Microphone detection still works; watch for no voice audio | $20 cash + Tape |
-| The Entity | Extreme | 750 | Giant black spider-like creature, hunts during specific events | Bright light, bear traps, door barricades | N/A (survival only) |
-| Phantom | Medium | 50 | Invisible stalker, attacks from behind | Bear traps (the only way to stop it) | Phantom Ash (crafting) |
-| Gnome | High | 200 | Stationary, rapidly escalates | Destroy immediately on sight | Gnome Key (unlocks storage room) |
-| Demon | Very High | 300 | Possesses objects, chases players | Special box (banishment ritual) | Demon Core (sell for $50) |
-| The Dentist | Boss | 1000 | 8ft serial killer, final encounter | Shotgun + Flamethrower, group coordination | Story progression |
-| Shrieking Doll | Medium | 40 | Screams when spotted, attracts Entity | Kill silently (melee only, no guns) | Doll Eye (sells for $10) |
-| Demented | High | 120 | Weeping angel type -- moves when not observed | Do not look away; use bear traps to immobilize | Demented Tooth (crafting) |
-| Marionette | Very High | 180 | Controls nearby objects to attack | Destroy the main puppet string (weak point on ceiling) | Marionette String (sell for $15) |
+| Threat | Category | How to Handle | Status |
+|--------|----------|---------------|--------|
+| Doppelganger | Infiltrator | Screen at the register; shoot before payment | Confirmed |
+| The Entity | Hunter | Barricade, trap, hide, stay quiet | Confirmed |
+| The Dentist | Stalker | Identify early, run, don't look back | Confirmed |
+| Demented | Stalker | Keep it in view — it freezes while watched | Confirmed (community) |
+| Norbert the Gnome | Pranker | Do NOT shoot; ignore him | Confirmed |
+| The bear | Infiltrator | Fake on Shift 7 — treat like a doppelganger | Confirmed |
+| Thieves | Human threat | Shooting beats chasing (Shift 7) | Confirmed |
+| Self-doppelgangers | Infiltrator | Shift 12 special — your own face attacks | Confirmed |
+| The Swarm | Infiltrator | Shift 13 — all types at once | Confirmed |
 
 ## Doppelgangers
 
-Doppelgangers are the most common threat you will face during your shift. These shapeshifting creatures disguise themselves as human customers and attempt to blend in. You identify them at the register using the **NET Database** -- each customer gets cross-referenced with 5 questions.
+Doppelgangers are the most common threat. These shapeshifting creatures disguise themselves as human customers and attempt to complete a purchase. You identify them at the register using the **NET Database** and the question system (up to 5 questions per customer).
 
-### Normal Doppelganger
+The rule: **kill a confirmed doppelganger before it completes its purchase.** If a fake pays, the store locks down for a **60-second alert** and the creature returns later in a more monstrous form.
 
-The standard variant. It will try to act human but its answers in the NET Database will not match its mock ID. If you fail the check and let it into the store, it drops its disguise and attacks. A brick or baseball bat handles it in 2-3 hits.
+### Doppelganger Variants (Confirmed)
 
-### Aggressive Doppelganger
+| Variant | Where You Meet It |
+|---------|-------------------|
+| Standard fakes | Every shift — each shift has its own list of names (see the [Story Walkthrough](/guides/story-walkthrough)) |
+| The Driver | Recurring fake slot from Shift 4 onward — expect a fake Driver most shifts |
+| Name-trap fakes | Shift 7's first "Louisa Mari" is fake (the second is real); Shift 11's first "Andal Khan" is real (the second is fake) |
+| The bear | A fake on Shift 7 |
+| Self-doppelgangers | Doppelgangers of *you* attack near the end of Shift 12 |
+| The Swarm | Shift 13 — all types at once |
 
-This variant skips the subtle approach. If you take too long at the register or make it suspicious, it lunges immediately. The key sign: **it starts tapping the counter or repeating phrases**. Flag it in the NET Database before it reaches the attack threshold.
+### How to Spot Them
 
-### Silent Doppelganger
+Full detail in the [Doppelganger Guide](/guides/doppelganger-guide). The summary: cross-reference the ID and the NET database (occupation, appearance, birth date, expiration), ask verifiable questions, and look for stacked contradictions. Tells live in the face, the hands, body language, behavior, and audio.
 
-The most dangerous doppelganger variant. It does not speak at all, mimicking body language instead of voice. Your **microphone detection** picks up nothing, which is itself a red flag. If playing with proximity voice chat, the absence of any audio cue is the tell. Use the NET Database to confirm, then sound the alarm immediately.
+### The Norbert Exception
+
+One "fake" is not what it seems: **Norbert the Gnome**. His scan fails with "Fake ID. Scan Unsuccessful." but he is a harmless prankster — shooting him escalates his pranks, including a lemonade stand that poisons you. See the [Norbert guide](/guides/norbert-the-gnome-guide).
 
 ## The Entity
 
-The Entity is a **giant black spider-like creature** that serves as the game's roaming predator. It does not appear every night -- specific events trigger its arrival: excessive noise, failing too many doppelganger checks, or blood moon events in Nights 9-12.
+The end-of-shift hunter. After the last customer, the entity attacks; a completed fake purchase also triggers a 60-second lock-up alert and a return in monster form.
 
-### Entity Behavior
+### Entity Behavior (Confirmed)
 
-- Patrols the gas station interior and exterior
-- Attracted to sound (microphone detection works against you here)
-- Can break through wooden barricades in 3 hits
-- Does not enter well-lit areas immediately
-- Kills in one hit if it catches you
+- Attacks at the end of every shift
+- Its **patience bar** doubles as health and timer — community guides describe it this way
+- **Tracks audio** — open-microphone noise draws it to you
+- Can be **gunned down with everything it spawns** once your Arsenal is stocked (the speedrun tactic)
+- Blood Moon nights: guaranteed entity activity plus more doppelganger customers
 
 ### Entity Survival Strategy
 
-1. **Keep lights on** -- the Entity avoids bright areas; replace burnt-out bulbs immediately
-2. **Use bear traps** -- place them in doorways the Entity patrols; 2 traps stop it temporarily
-3. **Barricade doors** with wooden boards to slow it down
-4. **Stay quiet** on proximity voice chat -- the Entity can hear you
-5. **Hide in the back room** or storage closet when it passes
-6. **Never fight it directly** -- it has 750 HP and hits instantly kill
+1. **Kill fakes before payment** — skips the 60-second alert
+2. **Barricade the three doors** with planks
+3. **Lay traps** (bought from the store computer) in its path
+4. **Hide** — ventilation shafts work but only temporarily; you get dragged out if you stay too long
+5. **Stay quiet** — push-to-talk discipline
 
-## Phantom
+## The Dentist
 
-The Phantom is an invisible stalker that attaches itself to a player and attacks from behind. You cannot see it directly, but you can hear its breathing and footsteps.
+A tall, severely emaciated serial killer who removes his victims' jaws — **completely separate from the doppelganger system**. He is not in the NET database, cannot be scanned or questioned, and community guides report **no confirmed kill method**. Normal tactics (barricades, traps, weapons) are useless against him; only reaction speed and running matter.
 
-### How to Defeat the Phantom
+- First becomes a factor around **Shift 7**; community walkthroughs describe upgraded weapons driving him and the entity off that night
+- Encounters are reported **after hours**; he is introduced via in-game news and computer notices
+- **Escape rule**: one glance to confirm, run, don't stop, don't look back
+- In the Shift 13 finale, a stranger kills the Dentist in a cutscene — and then himself
 
-The only reliable way to stop a Phantom is the **bear trap**. Place a trap in a narrow hallway or doorway and bait it to chase you through. Once trapped, the Phantom becomes visible and vulnerable for 10 seconds. Hit it with a sledgehammer or shotgun to finish it.
-
-## Gnome
-
-The Gnome looks like an innocent garden gnome. It is not. If you see a gnome, **destroy it immediately**. Letting a Gnome sit for more than 30 seconds triggers an escalation sequence:
-
-- 0-30 seconds: Gnome is stationary, harmless
-- 30-60 seconds: Gnome begins moving slowly toward players
-- 60-90 seconds: Gnome attacks with moderate damage
-- 90+ seconds: Gnome calls additional enemies, creating a dangerous swarm
-
-Destroying a Gnome drops a **Gnome Key**, which unlocks the storage room containing bonus supplies.
-
-## Demon
-
-The Demon is a possession-based entity that takes control of objects -- shelves, registers, even mops. It chases players through the store.
-
-### How to Banish the Demon
-
-The Demon cannot be killed with weapons. You need the **special box**, found in the back office during a demon event. The box performs a banishment ritual:
-
-1. Acquire the special box from the back office
-2. Place it in the center of the store
-3. Lure the Demon near the box
-4. Activate the box -- 5-second channel, do not move
-5. The Demon is banished and drops a **Demon Core** worth $50
-
-## The Dentist (Final Boss)
-
-The Dentist is the main antagonist of *Shift At Midnight*. This **8-foot-tall serial killer** in a blood-stained dental coat appears on Night 13 for the final encounter. He is the most dangerous enemy in the game with 1000 HP.
-
-### The Final Encounter
-
-- The Dentist breaks through the front doors at approximately 3:00 AM in-game time
-- He moves slowly but cannot be stopped by barricades
-- His attacks deal 80% of your health in one hit
-- He has two phases: Phase 1 (walking), Phase 2 (enraged, faster)
-
-### Best Weapons Against The Dentist
-
-| Weapon | Effectiveness | Notes |
-|--------|---------------|-------|
-| Shotgun | High | Best damage per shot; aim for the head |
-| Flamethrower | High | Slows his movement, deals DOT |
-| Sledgehammer | Medium | Good if out of ammo; slow swing speed |
-| SMG | Low-Medium | Burns through ammo quickly |
-| Pistol | Low | Only use if nothing else available |
-
-## Shrieking Doll
-
-These possessed dolls scream when spotted, which attracts the Entity to your location. **Kill them silently** -- use a melee weapon only. Guns alert the Entity immediately. A single brick or bat swing destroys them.
+Full survival routine in the [Dentist Guide](/guides/dentist-guide).
 
 ## Demented
 
-The Demented function like weeping angels from classic horror. They move when you are not looking at them. If you blink or turn around, they get closer. They attack if they reach you.
+Community guides reference the **Demented** as a weeping-angel-style threat: it **freezes while you keep it in view** — you survive by watching it. It's frequently cited as the mechanical opposite of the Dentist (which punishes looking back during a chase).
 
-### Countering the Demented
+Details beyond that (appearance, exact behavior windows, spawn schedule) are **not publicly documented** — treat specifics elsewhere as unconfirmed.
 
-- **Never look away** once you spot one
-- Back away slowly while maintaining eye contact
-- Place a bear trap directly in its path
-- The trap immobilizes it, allowing you to turn and attack
-- The Demented Tooth drop is used in crafting
+## Norbert the Gnome
 
-## Marionette
+Not an enemy — a prankster. Appears from around Shift 2 (confirmed reappearances at Shift 6 and Shift 9, including a motorbike entrance). Prank list: bike rides through the store, cars parked outside, disguising as a customer via the Anomaly Lens, and a **lemonade stand whose drink poisons you**. Correct response: ignore him, don't drink the lemonade. Full guide: [Norbert the Gnome](/guides/norbert-the-gnome-guide).
 
-The Marionette controls nearby objects -- brooms, boxes, tools -- to attack players. The puppet itself hangs from the ceiling, and its weak point is the **main puppet string**.
+## Thieves
 
-### Defeating the Marionette
+On **Shift 7**, thieves try to skip payment — community walkthroughs report that **shooting beats chasing** them. Treat them as a human problem with a gun solution.
 
-Look up to spot the string connection point on the ceiling. Shoot it with any gun (preferably a pistol or SMG for accuracy). One hit severs the string and destroys the Marionette instantly.
+## Monsters From Escaped Doppelgangers
 
-## Kill Achievement Conditions
+When a doppelganger completes its purchase, it returns in a **more grotesque, aggressive form** for the lock-up phase. The monster roster beyond this general rule is not publicly documented — expect forms and spawn behavior to vary by shift and random generation.
 
-| Achievement | Condition | Requirement |
-|-------------|-----------|-------------|
-| "Night Shift Exterminator" | Kill 50 Doppelgangers | Any difficulty |
-| "Gnome Annihilator" | Destroy 10 Gnomes | Before they escalate |
-| "Entity Survivor" | Survive 5 Entity encounters | Do not die |
-| "Phantom Trapper" | Trap 10 Phantoms | Using bear traps |
-| "Dentist Defeated" | Defeat The Dentist | Complete Night 13 on any difficulty |
-| "Silent But Deadly" | Kill 20 enemies with melee only | No guns used |
+## Undocumented Threats (Honest Note)
+
+The following enemies appear in some third-party guides but have **no reliable public confirmation**: Phantom, Demon, Marionette, Shrieking Doll, and "aggressive" or "silent" doppelganger sub-types with stat blocks. Until the community or developers document them with consistent detail, treat those entries as speculative — this bestiary intentionally excludes them.
 
 ## Final Tips
 
-- Always carry at least one **bear trap** after Night 4 -- it counters Phantom, Demented, and slows the Entity
-- The **NET Database** is your best early warning system; do not skip checks on any customer
-- **Stock the back room** with weapons and traps before Night 9 -- the game escalates significantly
-- In co-op, assign one player as the designated "monster handler" while others manage store tasks
+- **Screen everything at the register** — the NET Database is your best early warning system; don't skip checks on any customer
+- **The Driver slot is a pattern** — expect a fake Driver most shifts from Shift 4
+- **Kill before payment** — it skips the 60-second alert and the monster form entirely
+- **Norbert is the exception** — a failed scan alone is not a kill order
+- **In co-op**, assign one player as the designated "threat caller" while others manage store tasks
 
 Knowing your enemies is the first step to surviving the night at Shift At Midnight. Check our [entity survival guide](/guides/entity-survival-guide) and [weapons guide](/guides/weapons-guide) for deeper strategy on specific threats.

@@ -1,18 +1,18 @@
 ---
-title: "Skills & Raids Extraction Guide — How to Survive Every Raid"
-description: "Master the extraction loop in Skills & Raids. Map strategies, when to fight vs flee, boss patterns, loot tiers, and securing your haul."
+title: "Skills & Raids Extraction Guide — How to Survive Every Run"
+description: "Master the extraction loop in Skills & Raids. Risk and reward on the map, the safe pocket, field healing, bag management, and when to head back."
 category: "Guides"
-version: "Open Beta"
-updated: "2026-07-14"
-keywords: ["Skills & Raids extraction guide", "Skills & Raids how to extract", "Skills & Raids raid guide", "Skills & Raids boss tips", "Skills & Raids loot"]
-related: ["beginner-guide", "builds-guide", "maps-guide", "enemies-guide"]
+version: "1.0"
+updated: "2026-08-01"
+keywords: ["Skills & Raids extraction guide", "Skills & Raids how to extract", "Skills & Raids run guide", "Skills & Raids survival tips", "Skills & Raids loot"]
+related: ["beginner-guide", "builds-guide", "maps-guide", "raid-progression-guide"]
 ---
 
-# Skills & Raids Extraction Guide — How to Survive Every Raid
+# Skills & Raids Extraction Guide — How to Survive Every Run
 
-**Skills & Raids Open Beta / Updated: July 14, 2026**
+**Skills & Raids 1.0 / Updated: August 1, 2026**
 
-Extraction is what separates Skills & Raids from standard RPGs. This guide teaches you the decision-making that turns wipes into successful extractions.
+Extraction is the heart of Skills & Raids. Every run is a bet: push deeper for better resources, and risk losing everything that isn't safely banked. This guide covers the confirmed extraction mechanics — and the decision-making that separates runs that pay off from runs that end in disaster.
 
 ---
 
@@ -20,103 +20,98 @@ Extraction is what separates Skills & Raids from standard RPGs. This guide teach
 
 **Rule #1: If you're asking "should I extract?" — the answer is YES.**
 
-Greed is the #1 cause of wipes. More raids × smaller hauls > one big wipe.
+What makes this game punishing is also what makes it interesting: on a **failed run, anything not kept in a safe pocket is lost forever** (confirmed in Steam Next Fest demo coverage). The whole loop is about banking value:
 
-### Risk Assessment Checklist
+- Enemies drop **valuable resources**.
+- You **extract** those resources back to the hub.
+- Extracted resources are used to **craft equipment and skills** or to **complete quests**.
 
-Before every fight, ask:
-1. Is my team above 60% HP?
-2. Do I have healing consumables left?
-3. Is the extraction point within 3 turns of movement?
-4. Do I know this enemy's attack patterns?
-
-If **NO** to any of them → avoid the fight.
+More successful small hauls always beat one greedy deep run that ends in a wipe.
 
 ---
 
-## When to Fight vs When to Flee
+## Confirmed Mechanics to Use
 
-### FIGHT When:
-- Enemy group is 3 or fewer
-- You have skill cooldowns ready
-- The enemy drops materials you specifically need
-- You're above 70% team HP
+The Steam page and demo coverage confirm these tools — use all of them:
 
-### FLEE When:
-- Boss fight with <50% HP remaining
-- 4+ enemy group and no AoE skills ready
-- You hear the "reinforcement alarm" (more enemies incoming)
-- Inventory is 80%+ full — just extract!
+### The Safe Pocket
+Between the start of the run and the end, there is a way to keep items safe (confirmed: "anything not left in a safe pocket is lost forever"). **Bank early.** Every resource you can secure in the safe pocket is protected from a bad fight further in.
 
----
+### Field Healing
+The game offers ways to **heal heroes in the field** (confirmed in demo coverage). If a fight goes badly, heal before pushing on — a half-HP party is one unlucky encounter from a wipe.
 
-## Extraction Point Strategy
+### Sending Items Back
+When bags get full, the game offers a way to **send items back** (confirmed). Use it the moment you have high-value resources — don't carry risk in your bags when you don't have to.
 
-Extraction points (green circles on the map) are your lifeline.
-
-### Golden Rules:
-1. **Clear the area around the extraction point FIRST.** Enemies near the point will rush when you start extracting.
-2. **Extraction takes 2 full turns.** Your team is vulnerable during this time.
-3. **Don't wait at the extraction point.** Enemies path toward it. Approach only when ready to leave.
-4. **Know all extraction points before entering.** Some close after boss kills or time limits.
+### The Map's Risk-Reward Choices
+Navigating the map "constantly forces risk-versus-reward decisions" (confirmed in demo coverage). The game will present you with choices about which path to take — longer safe routes vs. shorter dangerous ones, deeper areas with better loot vs. shallow areas you've already cleared. Decide with the extraction mindset: what do you gain, and what are you risking?
 
 ---
 
-## Boss Fight Extraction Flow
+## When to Push vs. When to Pull Back
 
-```
-Enter Raid → Clear Trash → Scout Boss Room → 
-IF ready: Fight Boss → Loot → Extract
-IF not ready: Extract with trash loot → Come back stronger
-```
+### PUSH When:
+- You have a **quest target** ahead (target objectives, resource collection — these are your progression).
+- Bags are less than half full and no high-value items are at risk.
+- The party is at full or near-full HP with healing available.
+- You know the enemy composition ahead and can beat it.
 
-### Boss Preparation Checklist
-- [ ] All skills off cooldown
-- [ ] Tank has Shield Wall ready
-- [ ] Healer has at least 1 big heal + 1 group heal
-- [ ] 2+ healing consumables
-- [ ] Extraction point is clear of enemies
-
-**After boss kill:** Loot immediately, check team HP, and head to extraction. Do NOT explore further — post-boss ambushes are real.
+### PULL BACK When:
+- Bags contain high-value resources you haven't banked.
+- The party is below half HP or the healer (Owlivia) is in danger.
+- You're approaching an unknown area with a damaged party.
+- The enemy composition looks like the "two healers + tank" teams that demo reviewers found nearly unbeatable — unless your build has the burst to break through.
 
 ---
 
-## Loot Priority System
+## Bag Management
 
-Inventory space is limited (~12 slots). Prioritize:
+Inventory space is limited, and full bags are a trap — they force you to choose between old loot and new loot in the middle of a fight zone.
 
-| Priority | Item Type | Why |
-|----------|-----------|-----|
-| 🔴 Must Take | Legendary/Epic skills | Irreplaceable |
-| 🔴 Must Take | Rare crafting materials | Required for best gear |
-| 🟡 Take If Space | Uncommon skills | Sell or scrap for crafting |
-| 🟡 Take If Space | Healing consumables | Saves future raids |
-| ⚪ Drop First | Common skills | Replaceable, low value |
-| ⚪ Drop First | Basic materials | Farmable in any raid |
+- **Priority by rarity:** Legendary > Epic > Rare > Uncommon > Common (rarity tiers confirmed). Keep the highest-rarity items; Common resources are usually farmable anywhere.
+- **Skills over materials:** enemy skill drops are build pieces — they're worth more than raw materials you can farm again.
+- **Send it back:** use the item-send mechanic the moment you have a full bag of value.
+- **Plan extraction by weight:** if a quest needs specific resources, make sure you're extracting those — quest completion is your progression.
 
 ---
 
-## Recovery From a Partial Wipe
+## Boss-Style Encounters
 
-If 1-2 teammates die but 1 survives near extraction:
+The game's combat areas include encounters with "unique skill mechanics" (confirmed on the Steam page), including strong enemy teams and, per the demo coverage, enemy healers and tanks. Before a difficult encounter:
 
-1. **Check survivor's HP and skills** — can they reach extraction?
-2. **Use consumables immediately** — no point saving them for dead teammates
-3. **Ignore loot on the ground** — survival > loot
-4. **Path around enemies** — use longer routes to avoid fights
-5. **Extracting with 1 survivor saves their gear and skills.** Dead teammates lose equipped items.
-
----
-
-## Map-Specific Extraction Tips
-
-| Raid Zone | Difficulty | Extraction Quirk |
-|-----------|------------|------------------|
-| Foothills | Easy | 3 extraction points, always open |
-| Timberland | Medium | 2 points, 1 closes after boss kill |
-| Sunken Ruins | Hard | 1 point, guarded by elite enemy |
-| Crystal Depths | Very Hard | Timed extraction — 20 turn limit |
+1. Bank everything valuable in the safe pocket first.
+2. Top up party HP (field healing) and check cooldowns.
+3. Pause and read the enemy's statuses — status effects heavily influence every encounter.
+4. Decide before engaging: can this build kill through their healing? If not, take another path.
 
 ---
 
-**Next:** Learn every skill in the game with the [Skills Guide](/guides/skills-guide).
+## After a Successful Extraction
+
+Between runs:
+
+1. **Craft gear and skills** from extracted resources (crafting is confirmed).
+2. **Complete quests** — unlocks new equipment and skills.
+3. **Rebuild the loadout** — with new skills available, tweak one slot.
+4. **Review what failed** in the last run — extraction games reward learning, not grinding the same mistake.
+
+---
+
+## Common Extraction Mistakes
+
+| Mistake | Why It Hurts | Fix |
+|---------|-------------|-----|
+| Carrying everything until the end | One bad fight loses it all | Bank in the safe pocket early |
+| Pushing deep with a half-dead party | Any fight can now wipe you | Field-heal before pushing |
+| Full bags, no plan | Forced drop choices mid-zone | Send items back when bags get full |
+| Ignoring map choices | You take unnecessary risk | Read the risk-reward tradeoffs |
+| Never questing | Progression stalls | Build runs around active quests |
+
+---
+
+## Next Steps
+
+- [Beginner Guide](/guides/beginner-guide) — the full getting-started walkthrough.
+- [Loot Guide](/guides/loot-guide) — what to prioritize carrying out.
+- [Maps Guide](/guides/maps-guide) — what we know about the biomes.
+- [Raid Progression Guide](/guides/raid-progression-guide) — how quests drive progression.

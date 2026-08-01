@@ -1,189 +1,103 @@
 ---
 title: "Shift At Midnight Weapons Guide: All Weapons, Tools & Best Loadouts"
-description: "Complete weapons and tools guide for Shift At Midnight. All 7 weapons, 6 traps/tools with stats, prices, best loadouts per role, and shop terminal buying guide."
+description: "Complete weapons and tools guide for Shift At Midnight. The gun, the Emergency Weapons Arsenal, traps, planks, mop, flashlight, and the loadouts community guides recommend."
 category: "Guides"
 version: "1.0"
-updated: "2026-07-29"
-keywords: ["shift at midnight weapons", "best weapons shift at midnight", "shift at midnight tools", "shift at midnight shop terminal", "shift at midnight loadout"]
-related: ["enemy-bestiary", "entity-survival-guide", "money-guide"]
+updated: '2026-08-01'
+keywords: ["shift at midnight weapons", "best weapons shift at midnight", "shift at midnight tools", "shift at midnight shop terminal", "shift at midnight loadout", "shift at midnight emergency arsenal"]
+related: ["enemy-bestiary", "entity-survival-guide", "money-guide", "survival-strategies"]
 ---
 
 ## Shift At Midnight Weapons & Tools Guide
 
-Surviving the night shift at the gas station requires more than just vigilance at the register. When a Doppelganger drops its disguise or The Entity begins its patrol, the wrong weapon can cost you your life. This guide covers every weapon and tool in *Shift At Midnight*, their stats, prices, and the best loadout for each co-op role.
+Surviving the night shift at the gas station requires more than vigilance at the register. When a doppelganger drops its disguise or the entity begins its end-of-shift attack, what you're carrying decides the night. This guide covers every weapon and tool the community has confirmed, plus the loadouts that work — and it's honest about what hasn't been documented yet.
 
-## All Weapons -- Stats & Use Cases
+**A note on stats**: the community has not published reliable damage numbers, prices, or ammo counts for most equipment. This guide describes what's confirmed (what each item does and when you get it) and flags everything else as unverified.
 
-*Shift At Midnight* features 7 weapons, ranging from makeshift melee to high-caliber firearms. You purchase them from the **Shop Terminal** using your daily earnings.
+## Confirmed Weapons
 
-### Weapon Comparison Table
+### The Gun (Pistol)
 
-| Weapon | Damage | Range | Price (Shop Terminal) | Best Against | Ammo Type |
-|--------|--------|-------|-----------------------|--------------|-----------|
-| Brick | 15 | Melee | Free (found in stockroom) | Doppelgangers, Shrieking Dolls | None |
-| Baseball Bat | 25 | Melee | $12 | Gnomes, Normal Doppelgangers | None |
-| Sledgehammer | 50 | Melee (slow) | $25 | Phantoms, Demented, Demons (post-banish) | None |
-| Pistol | 30 | Medium | $18 | Silent Doppelgangers, Marionette strings | 9mm |
-| SMG | 18 | Medium | $35 | Swarms, aggressive Doppelgangers | SMG Rounds |
-| Shotgun | 75 | Short | $50 | Entity (temporary repel), The Dentist | Shells |
-| Flamethrower | 40 (DOT) | Short | $80 | Entity, The Dentist, Gnomes (instant kill) | Fuel |
+The campaign's workhorse. Confirmed facts:
 
-### Brick
+- **Picked up early on Shift 1** — walkthroughs advise grabbing it as soon as possible and keeping it from then on
+- It's the **main weapon throughout the campaign**
+- Capable of killing the entity and everything it spawns once the shift's survival phase starts (the speedrun tactic)
+- **Killing doppelgangers before payment** with it skips the 60-second lock-up alert entirely
 
-The brick is the ultimate backup weapon because it costs nothing and is always available. You find bricks scattered around the gas station exterior. It takes 4 hits to kill a normal Doppelganger and does not attract The Entity when used indoors. **Always keep one in your inventory** for emergencies when you run out of ammo.
+### The Emergency Weapons Arsenal
 
-### Baseball Bat
+The store's weapon shop, confirmed facts:
 
-The baseball bat is your first real upgrade from the brick. Purchased from the Shop Terminal for $12, it kills normal Doppelgangers in 2 hits and Gnomes in 3. The bat has a wide swing arc, making it effective against groups of Shrieking Dolls. It does not alert The Entity.
+- Weapons are **bought from the store computer before the night begins**
+- The Arsenal is **unreliable during blood-rain nights** (first around Shift 5) — walkthroughs say the pistol must suffice on those shifts
+- **Upgraded weapons are recommended before Shift 7** (the Dentist's arrival) and **again before Shift 9** (the late-campaign escalation)
 
-### Sledgehammer
+**Practical rule**: check the Arsenal's availability at the start of every shift, and don't plan a fight strategy around Arsenal weapons on blood-rain nights.
 
-The sledgehammer is the strongest melee weapon in the game. It deals 50 damage per hit but has a slow swing speed -- roughly 1.5 seconds per attack. Use it for:
+## Melee Weapons — Unconfirmed
 
-- **Phantoms**: One sledgehammer hit finishes a trapped Phantom
-- **Demented**: Two hits after immobilization
-- **Demons**: Heavy damage after banishment ritual
-- **Barricade destruction**: (Accidental; be careful not to break your own boards)
+You may see references to a brick or baseball bat as melee options. The community has **not confirmed** a melee weapon tier list, damage values, or prices for Shift At Midnight. Until reliable documentation exists, assume the gun is your weapon and treat melee claims elsewhere as unverified.
 
-### Pistol
+## Confirmed Tools
 
-The pistol is your cheapest ranged option at $18 from the Shop Terminal. It holds 12 rounds and deals 30 damage per shot. The pistol is excellent for:
+Tools in Shift At Midnight are less about combat stats and more about the loop: cleanup, preparation, and survival.
 
-- Taking out **Marionette strings** with precision (one shot)
-- Finishing **Silent Doppelgangers** before they close distance
-- **Wounding enemies** from a distance without wasting expensive SMG ammo
+| Tool | Confirmed Use | When It Matters |
+|------|---------------|-----------------|
+| **Mop** | Clean blood; clears the Shift 9 roach bonus | Every shift (cleanup routine); Shift 9 specifically |
+| **Trash bags** | Bag limbs, dump them outside | Every shift (cleanup routine); Shift 6's forest cleanup |
+| **Flashlight** | Dark areas and outdoor tasks | Shift 6 forest limb cleanup; outdoor tasks |
+| **Traps** | Slow or stop the entity and its spawns | End-of-shift attack; the 60-second lock-up alert |
+| **Planks / Wood boards** | Barricade the three doors | End-of-shift attack |
+| **Cola bottles** | Lure enemies with noise (community-reported) | Survival phase |
 
-Ammo costs $5 per 12-round box from the Shop Terminal. Stock up before Nights 9-12.
+## The Store Computer (Shop Terminal)
 
-### SMG
+The store computer handles your purchases. Confirmed facts:
 
-The SMG trades damage per bullet for rate of fire. It holds 30 rounds and fires in 3-round bursts. At $35, it is the middle ground between the pistol and shotgun. Best uses:
+- **Traps are bought from the computer** — community walkthroughs advise buying and scattering them in advance for later nights
+- **Weapons (the Arsenal) are bought from the computer** before the night begins
+- Check it at the start of every shift along with the noticeboard
 
-- **Aggressive Doppelganger swarms** during Blood Moon events
-- **Suppressing fire** while a teammate repairs barricades
-- **Quickly destroying multiple Gnomes** in a tight area
+Prices, stock rotation, and unlock conditions are **not publicly documented** — don't trust specific dollar figures from other guides.
 
-Downside: ammo burns fast. A full mag empties in 3 seconds of sustained fire.
+## Recommended Loadouts
 
-### Shotgun
+Since prices and stats aren't documented, loadouts here are role-based guidance rather than shopping lists.
 
-The shotgun is the best anti-boss weapon in the game. Priced at $50, it deals 75 damage per shot at close range. Its spread means you need to be within 10 feet for full damage. Critical use cases:
+### Register Clerk Loadout
 
-- **The Dentist** (final boss): 14 shots to kill with headshots
-- **The Entity**: Temporarily drives it back (it retreats for 15 seconds)
-- **Phantoms**: One-shot kill when trapped
-- **Demented**: One-shot kill at close range
+- **Gun** — for kill-before-payment on confirmed fakes
+- **Traps** — one near the counter as a failsafe
+- **Planks** — staged for the end-of-shift barricade
 
-Ammo is expensive at $8 per 6-shell box. Save shotgun shells for critical threats only.
+### Stocker Loadout
 
-### Flamethrower
+- **Gun** — exterior threats and the delivery phase
+- **Planks** — the barricade job is yours
+- **Flashlight** — outdoor runs (pumps, forest tasks)
 
-The flamethrower is the most expensive weapon at $80 but also the most versatile against high-tier threats. It deals 40 damage per tick with a 5-second burn damage-over-time effect. The fuel tank holds 100 units, and each refill costs $15.
+### Floater Loadout
 
-The flamethrower is ideal for:
+- **Gun** — threat response anywhere in the store
+- **Traps** — placed at chokepoints and around the pumps
+- **Cola bottles** — lure-and-maneuver options (community-reported use)
 
-- **The Entity**: The burn damage slows it and forces retreat faster than any other weapon
-- **The Dentist**: Slows his movement in Phase 2
-- **Gnomes**: Instant kill, no escalation risk
-- **Swarm control**: Wide area of effect covers doorways
+## Spending Priorities
 
-## All Tools & Traps
+Money rules are covered in the [Money Guide](/guides/money-guide), but the spending order the community converges on:
 
-Beyond weapons, tools are essential for controlling the gas station environment and surviving supernatural threats.
-
-### Tool Comparison Table
-
-| Tool | Price | Effect | Duration | Restock |
-|------|-------|--------|----------|---------|
-| Bear Trap | $10 | Immobilizes enemies for 10 seconds | Single use | Every night |
-| Motion Alarm | $6 | Alerts you when an enemy enters a zone | Until triggered | Every 3 nights |
-| Tripwire | $4 | Stuns enemies for 3 seconds | Single use | Every night |
-| Electrical Trap | $15 | Deals 40 damage + 5-second stun | Single use | Every 2 nights |
-| Wooden Boards | $5 (3-pack) | Barricades doors/windows (3 hits to break) | Per board | Every night |
-| Hose | $8 | Extinguishes fires, cleans blood stains | Unlimited | Infinite |
-
-### Bear Trap
-
-The single most important tool in the game. Always carry one after Night 4. Bear traps immobilize most enemies for 10 seconds, making them vulnerable to attacks. Critical uses:
-
-- Blocking Entity patrol paths
-- Trapping Phantoms (the only reliable way to stop them)
-- Immobilizing Demented enemies
-- Creating safe zones near the register
-
-### Motion Alarm
-
-Place motion alarms in hallways and near the back room. They emit a loud beep when an enemy enters the detection zone. Essential for solo players and for the Janitor role monitoring cameras.
-
-### Tripwire
-
-Tripwires are cheap at $4 each and stun enemies for 3 seconds. Use them in doorways as an early-warning system. Less effective than bear traps but much more affordable early in the game.
-
-### Electrical Trap
-
-The electrical trap combines damage (40 HP) with a 5-second stun. Place it in high-traffic areas. It costs $15 and restocks every 2 nights, so use it sparingly.
-
-### Wooden Boards
-
-Wooden boards are your primary defense against The Entity and aggressive enemies. Three hits from an enemy destroy a board. Key strategies:
-
-- **Board up the front doors** before Night 9
-- **Reinforce the back room** as a fallback position
-- **Leave one window unboarded** as a distraction path
-
-### Hose
-
-The hose is free after purchase and never runs out. Use it to clean blood stains quickly during urgent tasks and to extinguish small fires. A clean store earns the Janitor bonus commission.
-
-## Best Loadouts by Role
-
-### Lead Clerk Loadout ($60 budget)
-
-| Slot | Item | Cost |
-|------|------|------|
-| Weapon | Pistol + 2 ammo boxes | $28 |
-| Weapon | Baseball Bat (backup) | $12 |
-| Tool | Bear Trap (x2) | $20 |
-| Utility | Motion Alarm | $6 |
-
-The Lead Clerk manages the register and ID checks. You need a ranged weapon for quick threat elimination without leaving the counter. The pistol covers distant threats; the baseball bat handles anything that gets close.
-
-### Stocker Loadout ($75 budget)
-
-| Slot | Item | Cost |
-|------|------|------|
-| Weapon | Sledgehammer | $25 |
-| Weapon | SMG + 2 ammo boxes | $50 |
-| Tool | Bear Trap (x2) | $20 |
-| Tool | Tripwire (x3) | $12 |
-
-The Stocker covers the most ground and encounters threats in the aisles. The sledgehammer handles heavy enemies; the SMG deals with swarms. Tripwires in the stockroom provide advance warning while you organize deliveries.
-
-### Janitor Loadout ($65 budget)
-
-| Weapon | Shotgun | $50 |
-| Weapon | Brick (free) | $0 |
-| Tool | Bear Trap (x2) | $20 |
-| Tool | Motion Alarm (x2) | $12 |
-
-The Janitor monitors cameras and handles cleanup. The shotgun ensures you can handle anything that gets past the others. Motion alarms at key camera blind spots provide full store coverage.
-
-## Shop Terminal Buying Guide
-
-The Shop Terminal is accessible from Night 2 onward. Here is your buying priority by night phase:
-
-| Phase | Nights | Priority Purchase | Budget |
-|-------|--------|-------------------|--------|
-| Phase 1 | 1-4 | Baseball Bat, Bear Traps | $30/night max |
-| Phase 2 | 5-8 | Pistol + Ammo, Wooden Boards | $50/night max |
-| Phase 3 | 9-12 | Shotgun, Electrical Traps | $80/night max |
-| Phase 4 | 13 | Flamethrower, full ammo restock | All remaining funds |
+1. **Traps first** — they make the survival phase survivable, and they're buyable early
+2. **Arsenal upgrades before Shift 7** — the Dentist arrives and upgraded weapons drive him and the entity off
+3. **Upgrade again before Shift 9** — the campaign's late escalation demands better gear
+4. **Keep store and personal money separate** — supplies come from store money; personal cash belongs to the True Ending's $250 check
 
 ## Pro Tips
 
-- **Never buy the flamethrower before Night 10** -- fuel is expensive and you will not face threats that justify it
-- **Share tools in co-op** -- the Lead Clerk does not need bear traps if the Stocker carries them
-- **Ammo conservation**: A normal Doppelganger dies to 2 baseball bat swings. Do not waste pistol ammo on weak enemies
-- **The Shop Terminal prices do not change** -- there is no inflation mechanic, so buy what you need when you need it
+- **Never rely on the Arsenal during blood rain** — the pistol must carry those shifts
+- **Kill before payment** — every fake you shoot before it pays skips a 60-second lock-up alert
+- **Scatter traps in advance** — buying them early and placing them around the store beats placing them under pressure
+- **The gun is always worth having** — from Shift 1, keep it on you; it's the confirmed workhorse of the whole campaign
 
 For more detailed enemy-specific tactics, see our [enemy bestiary guide](/guides/enemy-bestiary) and [entity survival guide](/guides/entity-survival-guide).

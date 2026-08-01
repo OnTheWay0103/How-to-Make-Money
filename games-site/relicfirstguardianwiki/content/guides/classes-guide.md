@@ -1,110 +1,104 @@
 ---
 title: "Classes & Archetypes — How to Choose Your Playstyle"
-description: "Are there classes in The Relic: First Guardian? How the 5 weapon archetypes replace traditional classes, role breakdown (tank, DPS, mage), and which starting archetype fits your playstyle."
+description: "Are there classes in The Relic: First Guardian? No — the 5 weapon families replace traditional classes. How each archetype plays, which fits your style, and honest notes on unconfirmed details."
 category: "Guides"
 version: "1.0"
-updated: "2026-07-31"
+updated: "2026-08-01"
 keywords: ["relic first guardian classes", "relic first guardian best class", "relic first guardian archetypes", "relic first guardian playstyles", "relic first guardian best starting weapon"]
 related: ["beginner-guide", "weapons-guide", "builds-guide", "tier-list"]
 ---
 
 # Classes & Archetypes — How to Choose Your Playstyle
 
-**The Relic: First Guardian has no formal classes.** There is no character creator, no class selection screen, and no stat allocation — your "class" is defined entirely by which of the 5 weapon families you wield, which skill trees you invest in, and which runes you equip. The good news: this makes your class completely fluid. You can play a tank in one area and a mage in the next, all on the same character.
+**The Relic: First Guardian has no formal classes.** There is no class selection screen and no stat allocation — official material describes the game's class system as its **12 skill trees (two per weapon family)**, which you blend into a unique class. Your "class" is defined by:
 
-This guide maps the 5 weapon families to classic class roles so you can pick the archetype that matches your playstyle.
+1. **Which weapon family you wield** (5 families — see the [Weapons Guide](/guides/weapons-guide))
+2. **Which skills you buy** with Relic Energy in those trees
+3. **Which relics you equip** (over 70 unique passive fragments)
+
+The good news: this makes your class **completely fluid**. You can play defensively in one region and aggressively in the next, all on the same character.
 
 ---
 
 ## The 5 Archetypes at a Glance
 
-| Archetype | Classic Class | Weapon Family | Role |
-|-----------|---------------|---------------|------|
-| The Guardian | Tank / Paladin | Sword & Shield | Block, counter, never die |
-| The Assassin | Rogue / Bleed DPS | Dual Daggers | Fast burst, status effects |
-| The Duelist | Fighter / Spellblade | Sword | Balanced, parry mastery |
-| The Juggernaut | Berserker | Two-Handed Weapon | Massive burst, stagger lock |
-| The Arcanist | Mage | Staff | Ranged damage, elemental control |
+| Archetype | Classic Class | Weapon Family | Role (confirmed playstyle) |
+|-----------|---------------|---------------|------------------------------|
+| The Guardian | Tank / Paladin | Sword & Shield | Block, parry, survive |
+| The Assassin | Rogue / Burst DPS | Dagger (dual blades) | Fast, aggressive, burst |
+| The Duelist | Fighter / Spellblade | Longsword | Balanced, parry mastery |
+| The Juggernaut | Berserker | Two-Handed | Heavy damage, big swings |
+| The Arcanist | Mage | Battle Staff | Skill-heavy, ranged pressure |
 
 ---
 
 ## Choosing by Playstyle
 
 ### I want to be unkillable → Guardian (Sword & Shield)
-Blocking costs zero stamina, the Iron Wall skill tree grants guard counters and stability, and runes like Fortification and the Sentinel turn you into a wall. The most forgiving archetype in the game, and the one recommended for your first soulslike.
+The only family with a **native block**, and the game's parry system pairs perfectly with the shield. The most forgiving archetype — recommended for your first soulslike. Buy HP/stamina nodes early with Relic Energy.
 
-### I want maximum damage → Assassin (Dual Daggers)
-The highest DPS ceiling in the game: fastest attacks, lowest stamina costs (15 for a Quick Step vs 25 for a dodge), bleed stacking, and 2.5x backstab damage. Fragile and demanding — you must learn enemy patterns perfectly.
+### I want maximum speed and burst → Assassin (Dagger / Dual Blades)
+The fastest family, built for aggressive burst play. It matches the game's zero-stamina-attacks economy perfectly — but short range and no block mean mistakes are punished hard.
 
-### I want a balanced challenge → Duelist (Sword)
-Excellent mobility, a wide parry window (14 frames), and the momentum system rewards sustained aggression. The most skill-expressive archetype — good for players with soulslike experience who want to learn the game's mechanics deeply.
+### I want a balanced challenge → Duelist (Longsword)
+The versatile middle ground. Parry-focused without the shield's safety, faster than two-handed without the dagger's fragility. A great second playthrough pick.
 
 ### I want big, satisfying hits → Juggernaut (Two-Handed)
-300% charged heavies, hyper armor that trades through enemy attacks, and the best stagger potential in the game (3x posture damage). Slow but devastating — bosses get stun-locked by alternating charges.
+Slow, heavy, devastating. Preview coverage noted heavy-feeling slow attacks as the trade-off. Best for players who enjoy deliberate, high-damage combat.
 
-### I want to fight from range → Arcanist (Staff)
-The only native ranged option. Elemental damage, AoE control, and safe boss damage. Weak early game — you need runes to scale — but a powerhouse once built, and the easiest archetype for learning boss patterns from a distance.
+### I want to fight with skills → Arcanist (Battle Staff)
+The mage-like family — reviews describe it as the "skill-spamming" weapon, built around the cooldown-skill system. Needs **relic support** to scale: staff starts weaker until you collect the right fragments.
 
 ---
 
 ## Can You Change Your Class?
 
-**Yes — freely and instantly.** Unlike traditional classes, there is no respec cost and no lock-in:
+**Yes — freely and with no respec cost** (confirmed design):
 
-- **Weapons** are swappable at any time (equip two families and switch mid-combat with D-Pad Left/Right)
-- **Runes** can be re-equipped at any Brazier of Reflection — experiment freely
-- **Artifacts** are interchangeable gear pieces
-- **Skill trees** unlock per weapon, so returning to a previous weapon keeps its progress
+- **Weapons** are swapped outside combat; each family keeps its own skill tree progress.
+- **Relics** are freely swappable — official material is explicit that you adapt your build to each boss.
+- **Skills** are bought per weapon tree, so returning to a weapon keeps its progress.
 
-The only lasting commitment is relic upgrades, which boost base stats and benefit every archetype equally.
+The game actively encourages experimenting with all five archetypes on one character.
 
 ---
 
-## Best Class Recommendations
+## Best Archetype Recommendations
 
 | Player Profile | Recommended Archetype | Why |
 |----------------|----------------------|-----|
-| First-time soulslike player | Guardian (Sword & Shield) | Block saves you while you learn patterns |
-| Soulslike veteran | Assassin or Duelist | Fast, technical, rewarding |
-| Wants easy boss kills | Arcanist (Staff) | Safe ranged damage; check weaknesses first |
-| Wants big numbers | Juggernaut (Two-Handed) | Highest single-hit damage in the game |
-| Plays co-op | Guardian + anything | Tank the boss while your partner DPSes |
+| First-time soulslike player | Guardian (Sword & Shield) | Block and parry cover learning mistakes |
+| Soulslike veteran | Assassin or Arcanist | Fast play; skill-heavy play |
+| Wants safe damage | Arcanist (Staff) | Ranged pressure (after relic support) |
+| Wants big numbers | Juggernaut (Two-Handed) | Highest per-hit damage |
+| Plays solo (everyone) | Guardian + anything | The game is single-player only; survivability matters most |
 
----
-
-## Class-Equivalent Builds
-
-Each archetype has a signature build documented in the [Best Builds Guide](/guides/builds-guide):
-
-| Archetype | Build Name | Core Combo |
-|-----------|-----------|------------|
-| Guardian | The Immortal Guardian | Guardian's Resolve + Shield Counter + Bulwark |
-| Assassin | The Crimson Dancer | Bloodletter + Shadow Step + Assassin's Mark |
-| Duelist | The Blade Master | Blade Dancer + Iaijutsu + Parry Master |
-| Juggernaut | The Juggernaut | Colossus Strike + Unstoppable + Earthshatter |
-| Arcanist | The Arcane Weaver | Elemental Attunement + Arcane Barrage + Rune of Power |
+**Note**: there is no co-op in The Relic: First Guardian — every archetype is a solo choice. See the [Co-Op guide](/guides/co-op-guide).
 
 ---
 
 ## Common Questions
 
 **Q: Is there a "best class"?**
-A: No — all 5 archetypes can clear every boss in the game. The [Tier List](/guides/tier-list) ranks optimization ceilings, not viability. Play what feels right.
+A: No — all five archetypes are described as viable. The [Tier List](/guides/tier-list) covers early community impressions, but verified ranking data does not exist yet.
 
 **Q: Which class is best for beginners?**
-A: The Guardian. Sword & Shield is the only archetype with a native block, and blocking costs no stamina — the single biggest safety net in the game.
+A: The **Guardian** (Sword & Shield) — the only family with a native block, and parry is the game's most forgiving defensive tool.
 
 **Q: Can I play all classes on one character?**
-A: Yes — and you should. With no respec costs, the game actively encourages trying all 5 archetypes. Exploration hands out weapons for every family early on.
+A: **Yes** — and the game encourages it. No respec cost; weapons, relics, and skills are all flexible.
 
-**Q: Does my starting weapon choice lock me in?**
-A: No. The weapon you pick at the Hollow Refuge stands is just your opener — all 5 families are findable or purchasable within the first 2-3 hours.
+**Q: Does my starting weapon lock me in?**
+A: No. Your first weapon is just your opener — all five families are found through exploration (every weapon is unique and hand-placed).
+
+**Q: Are skill trees per weapon or per character?**
+A: Per weapon — 12 trees total, two per family. Progress in one family's trees stays with that family.
 
 ---
 
 ### Related Guides
 
 - [Beginner Guide](/guides/beginner-guide) — Choosing your first weapon, step by step
-- [Weapons Guide](/guides/weapons-guide) — Movesets and skill trees for all 5 families
-- [Best Builds Guide](/guides/builds-guide) — Signature builds for every archetype
-- [Weapon Tier List](/guides/tier-list) — S/A/B/C rankings and beginner picks
+- [Weapons Guide](/guides/weapons-guide) — The 5 families and the 12 skill trees
+- [Best Builds Guide](/guides/builds-guide) — Archetype builds with honest sourcing
+- [Weapon Tier List](/guides/tier-list) — Early impressions and rankings caveats

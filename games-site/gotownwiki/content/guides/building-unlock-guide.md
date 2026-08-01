@@ -24,13 +24,15 @@ Three progression paths feed into buildings:
 
 These come from early story progression and need no purchases:
 
-- **Industrial Entry** — pickaxe (mining), brick kiln (stone → bricks), mine lamp, chainsaw (logging), sawbench (wood → planks), small storage crate (16 slots)
+- **Industrial Entry** — pickaxe (mining), brick kiln (stone → bricks), mine lamp, chainsaw (logging), sawbench (wood → planks), small storage crate
 
-## Starter Purchases (15 Blue Coins)
+## Starter EGO Bundles
 
-- **New Town** — small house (houses 2 residents), small shops (takeout/fast food, craft corner, book corner, hat shop)
-- **Basic City Appearance** (10 EGO) — town benches, explorer statue, water pipes (these generate EGO over time)
-- **Basic Municipal** (5 EGO) — garbage disposal, trash bins, bubble box (cleaning)
+The first EGO Tech bundles (exact costs vary — the 1.0 update revamped the tech tree, so older guides' exact prices are out of date):
+
+- **New Town** — small house, small shops (takeout/fast food, craft corner, book corner, hat shop)
+- **Basic City Appearance** — town benches, explorer statue, water pipes (decor that generates EGO over time)
+- **Basic Municipal** — garbage disposal, trash bins, bubble box (cleaning)
 
 ## Shop Sizes and Types
 
@@ -78,11 +80,11 @@ Landmarks are expensive — build them once your supply chains can keep them sto
 
 ## Where to Spend EGO First
 
-Priority order used by experienced players:
+Priority order used by experienced players (prices not listed — the 1.0 tech tree rework changed costs):
 
-1. **New Town** (15 EGO) — housing + first shops
-2. **Basic Municipal** (5 EGO) — trash bins keep tourists happy
-3. **Automation unlocks** — zone clocks, logistics, sanitation workers
+1. **New Town** — housing + first shops
+2. **Basic Municipal** — trash bins keep tourists happy
+3. **Automation unlocks** — timeclocks, courier building, sanitation workers
 4. **Landmarks** — once the economy is stable
 
 ## Key Takeaway

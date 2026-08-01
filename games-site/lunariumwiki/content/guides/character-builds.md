@@ -1,117 +1,146 @@
 ---
-title: "Character Builds Guide — Class Archetypes & Stat Optimization"
-description: "Complete character builds guide for Lunarium covering all class archetypes, stat distributions, skill tree paths, equipment synergies, and recommended builds for solo and group play."
-category: "Guides"
+title: "Lunarium Builds Guide — Ave Playstyles & Lune Support Setups"
+description: "How builds actually work in Lunarium. There are no classes — builds come from Ave's skill tree, embroidery passives, cloaks, and how you use Lune. Real build directions with confirmed mechanics."
+category: "Builds"
 version: "1.0"
-updated: "2026-07-29"
-keywords: ["lunarium character builds", "class archetypes", "stat distribution", "skill tree guide", "best builds lunarium", "solo builds", "group play builds"]
-related: ["exploration-guide", "boss-mechanics", "skill-tree-guide", "equipment-guide"]
+updated: "2026-08-01"
+keywords:
+  - Lunarium best build
+  - Lunarium character builds
+  - Lunarium ave build
+  - Lunarium lune build
+  - Lunarium embroidery build
+related:
+  - ave-build-guide
+  - lune-guide
+  - skill-tree-guide
+  - equipment-guide
+  - combat-guide
 ---
 
-## Lunarium Character Builds Guide
+# Lunarium Builds Guide — Ave Playstyles & Lune Support Setups
 
-Lunarium offers six distinct class archetypes, each with deep customization through stat allocation, skill tree progression, and equipment loadouts. Whether you are venturing into the Whispering Woods alone or tackling the Sunken Catacombs with a full party, the right build can mean the difference between triumph and a respawn at the nearest Moonstone. This guide covers everything you need to craft powerful, synergistic character builds.
+**Lunarium 1.0 / Updated: August 1, 2026**
 
-## Class Archetypes Overview
+A common question about Lunarium is "what's the best class?" — and the honest answer is that **Lunarium has no classes**. You always play as **Ave** (the swordmaster) with **Lune** (the Starfarer) as your AI companion. "Builds" in Lunarium are the combination of:
 
-Each class in Lunarium excels in a specific combat role, but the flexibility of the skill tree system allows for hybrid builds that blur traditional lines.
+1. **Ave's skill tree** — sword techniques and combat skills
+2. **Embroidery** — charm-like passive enhancements
+3. **Cloaks** — each with a unique appearance and ability effects
+4. **How you use Lune** — her skill tree and her arrow/interrupt utility
 
-| Class | Primary Role | Core Stat | Difficulty |
-|-------|-------------|-----------|------------|
-| **Knight** | Tank / Frontline | Endurance | Easy |
-| **Pyromancer** | Ranged DPS / Crowd Control | Intelligence | Medium |
-| **Ranger** | Physical DPS / Trapper | Dexterity | Medium |
-| **Cleric** | Healer / Support | Spirit | Easy |
-| **Rogue** | Burst Damage / Stealth | Agility | Hard |
-| **Druid** | Hybrid Caster / Shapeshifter | Wisdom | Hard |
+Because of this, guides that describe "Knight / Pyromancer / Rogue classes", stat allocation, or level-based classes are **wrong** — that is not how the game works. The keywords "lunarium pyromancer build" and "lunarium rogue build" refer to *playstyles* you can approximate with embroidery and cloaks, not actual classes.
 
-## Stat Distributions
+---
 
-Every level grants you 5 stat points. Where you invest them defines your combat effectiveness.
+## 1. What Actually Defines a Build
 
-### Knight Stat Priorities
+| System | Role | Confirmed? |
+|--------|------|------------|
+| **Ave's skill tree** | Sword techniques (unlocked through combat/exploration; powered up by collecting "threads of hope") | Yes (Steam page + press) |
+| **Lune's skill tree** | Suppressive magic support | Yes (Steam page + press) |
+| **Embroidery** | Passive enhancements — "charms" that support different combat styles | Yes (Steam page + walkthroughs) |
+| **Cloaks** | Appearance + ability effects (offense, defense, utility) | Yes (Steam page + press) |
+| **Weapon upgrades** | Upgraded at the Temple with gathered resources | Yes (press coverage) |
+| Stats / stat points / classes | Do not exist | Confirmed absent |
 
-The Knight is your frontline anchor. Endurance is the primary stat, increasing HP and block efficiency. Invest 3 points per level into Endurance, 1 into Strength for damage, and 1 into Vitality for additional survivability. A well-built Knight at level 30 should have at least 60 Endurance, 25 Strength, and 20 Vitality. This configuration allows you to absorb boss mechanics while maintaining enough threat generation to hold aggro.
+### The "threads of hope" resource
+The Steam page states that players collect **"threads of hope"** throughout the journey to **boost strength and learn new skills and magic**. The skill trees develop **through combat and exploration** — so grinding out a zone is the intended way to grow your build, not leveling.
 
-### Pyromancer Stat Priorities
+> A harvested keyword, "lunarium how to get animus", likely refers to a resource or unlock in the game — **as of this writing no reliable source confirms what Animus is or how to get it.** See the [Ability Unlock Guide](/guides/ability-unlock-guide) for what's known.
 
-Pyromancers live and die by their mana pool and spell power. Intelligence is the overwhelming priority, with 4 points per level going into it and 1 into Vitality for survival. At level 30, aim for 80 Intelligence and 15 Vitality. The scaling on fire spells at high Intelligence levels is exponential rather than linear, making this the most punishing stat commitment in the game.
+---
 
-### Hybrid Stat Options
+## 2. Ave's Build Directions
 
-- **Dexterity + Intelligence** — A Ranger-Pyromancer hybrid using magical arrows, effective in group content where flexibility is valued over raw output
-- **Strength + Spirit** — A Paladin-style Knight-Cleric hybrid, trading some tankiness for party healing capability
-- **Agility + Wisdom** — A Rogue-Druid hybrid focusing on shapeshifting stealth attacks, excellent for solo exploration
+Based on confirmed mechanics, Ave's builds fall into three practical directions. (Exact skill names and numbers are unconfirmed — official skill lists have not been published.)
 
-## Skill Tree Paths
+### Direction A: The Parry Specialist
+**Focus:** parry windows, counter damage, stagger exploitation.
 
-Each class has three skill tree branches. You earn skill points every other level, so planning ahead is essential.
+- **Why it works:** parrying staggers bosses and is the game's most powerful defensive tool; several bosses (Sentinel Colossus, Lilia) are built around parry windows.
+- **Embroidery/cloak targets:** anything that widens parry timing, boosts counter damage, or rewards perfect parries (exact items unconfirmed).
+- **Playstyle:** stand your ground, parry everything parry-able, dodge the red flashes, punish the stagger.
+- **Best against:** bosses with clear telegraphed combos — Sentinel Colossus, Fintan, Lilia, Enid.
+- **Weakness:** fights with heavy red-flash pressure and enemies with odd timing.
 
-### Knight Skill Trees
+### Direction B: The Aggressive Dancer
+**Focus:** dodge fluidity, sustained pressure, mobility.
 
-| Tree Branch | Focus | Key Skills |
-|-------------|-------|------------|
-| **Iron Wall** | Defense, aggro generation | Shield Bash, Taunt, Fortress Stance |
-| **Vanguard** | Offensive tanking, gap closers | Charging Strike, Blade Storm, War Cry |
-| **Oathbound** | Party support, auras | Guardian Aura, Rally, Sacred Ground |
+- **Why it works:** dodge is your only answer to red-flash attacks; aggressive play keeps Lune's arrow and stagger pressure up.
+- **Embroidery/cloak targets:** dodge distance, attack speed, on-hit effects (exact items unconfirmed).
+- **Playstyle:** keep moving, weave in attacks between enemy swings, use the Blade of Rutila (post-Cyanstone) to interrupt the dangerous red-flash moves instead of fleeing.
+- **Best against:** evasive bosses like the Red Dancer and multi-enemy fights.
+- **Weakness:** fragile if you mistime — the game punishes greed.
 
-### Pyromancer Skill Trees
+### Direction C: The Resonance Commander
+**Focus:** the shared Resonance gauge, coordinated Ave + Lune output.
 
-| Tree Branch | Focus | Key Skills |
-|-------------|-------|------------|
-| **Inferno** | Direct damage, DoT effects | Fireball, Combustion, Infernal Eruption |
-| **Wildfire** | AoE, area denial | Ring of Fire, Wildfire Spread, Heat Wave |
-| **Emberweave** | Mana management, buffs | Ember Shield, Mana Surge, Phoenix Rebirth |
+- **Why it works:** Resonance is the shared resource — Astral Shards raise the resonance cap, and Lune's attacks feed it. Community reviews confirm Lune "builds enemy stagger meters via Resonance Points" while fighting alongside Ave.
+- **Embroidery/cloak targets:** resonance gain, Lune damage, coordinated-attack bonuses (exact items unconfirmed).
+- **Playstyle:** keep the two of you in sync — let Lune soften enemies, finish with coordinated blows, and save Resonance for boss phases.
+- **Best against:** bosses where sustained pressure matters more than one-shot windows.
 
-For a level 50 endgame Pyromancer, the optimal split is 30 points in Inferno, 15 in Wildfire, and 5 in Emberweave. This maximizes single-target boss damage while retaining wave-clear capability.
+> **Honest caveat:** we cannot give you exact "S-tier skill" names or precise embroidery stats yet. The specific names, numbers, and locations of build-defining items are not documented by reliable sources at this time. We will update this page as the community verifies them.
 
-## Equipment Synergies
+---
 
-Equipment set bonuses are central to endgame build optimization. The key synergy interactions are:
+## 3. Lune's Role in Your Build
 
-- **Cinderplate Armor Set** (+3 bonus: fire damage ignites enemies) — Essential for Pyromancer Inferno builds, turns every spell into a potential burn application
-- **Moonstone Guardian Set** (+3 bonus: block restores 5% HP) — Best-in-slot for Knight tanks, providing passive sustain during prolonged engagements
-- **Shadowstride Set** (+3 bonus: critical hits grant brief invisibility) — Rogue-only set that enables the stealth-crit loop
+Lune is an AI companion, but she is not passive — her confirmed abilities shape every build:
 
-Weapon enchantments should complement your stat focus. Intelligence-based builds benefit from mana-leech enchants, while Strength builds should prioritize armor-penetration or life-steal.
+| Ability (confirmed) | Effect |
+|---------------------|--------|
+| **Light arrows** | Destroy Nihilus orbs; stagger enemies |
+| **Interrupts** | Can stop certain boss attacks (Shadow of Firleaves shockwave, Fintan's wide-area attack) |
+| **Combat support** | Fights alongside Ave; builds enemy stagger via Resonance (per reviews) |
+| **Puzzle support** | Solves environmental obstacles (gates of light, bells, etc.) |
+| **Healing** | Reviews confirm she heals Ave in combat |
 
-## Recommended Builds
+### Lune Build Priorities (unconfirmed specifics)
+- Her skill tree contains **suppressive magic** upgrades (Steam page). Common-sense priorities: support/healing upgrades first if you struggle to survive; damage/stagger upgrades if you want faster kills.
+- D-pad commands let you direct her attention (per press coverage) — in boss fights, point her at the boss so her arrow is ready for interrupts.
 
-### Solo Knight: The Unstoppable Force
+---
 
-- **Stats**: 60 Endurance, 30 Strength, 20 Vitality
-- **Skill Tree**: 25 Iron Wall, 20 Vanguard, 5 Oathbound
-- **Equipment**: Moonstone Guardian Set, Tower Shield, One-Handed Mace
-- **Playstyle**: Use Shield Bash to open encounters, generating high aggro. Cycle between Fortress Stance for defense and Charging Strike for mobility. The self-sustain from Moonstone set allows you to clear most solo content without a healer.
+## 4. Builds for Common Playstyles (Keyword-Guided)
 
-### Group Pyromancer: The Inferno Cannon
+Players searching for specific archetypes should think of them this way:
 
-- **Stats**: 80 Intelligence, 15 Vitality
-- **Skill Tree**: 30 Inferno, 15 Wildfire, 5 Emberweave
-- **Equipment**: Cinderplate Armor Set, Tome of Embers, Ember Ring
-- **Playstyle**: Position behind the Knight and unleash Fireball rotations. Use Ring of Fire to control enemy approach paths. Save Infernal Eruption for trash pack pulls. In boss fights, maintain Combustion DoT uptime and use Mana Surge on cooldown.
+| Search Term | Reality in Lunarium |
+|-------------|---------------------|
+| "swordmaster build" | That's just Ave — parry-focused is the default identity |
+| "pyromancer build" | No fire mage exists; closest is a Resonance-focused build maximizing Lune's offensive magic |
+| "rogue build" | No stealth class exists; closest is the mobile Aggressive Dancer direction |
+| "tank build" | No tank role; heavy defense comes from defensive embroidery/cloaks (unconfirmed specifics) |
+| "best class" | No classes — the question is which Ave direction + which Lune support fits you |
 
-### Solo Rogue: The Shadow Blade
+---
 
-- **Stats**: 50 Agility, 35 Dexterity, 10 Vitality
-- **Skill Tree**: 30 Shadow Dance, 15 Blade Mastery, 5 Alchemy
-- **Equipment**: Shadowstride Set, Dual Daggers, Smoke Bomb Pouch
-- **Playstyle**: Open from stealth with backstab for massive critical damage. Use Smoke Bomb to reset combat if aggroed. The Shadowstride crit-invis loop allows you to chain backstabs on unaware enemies. Avoid direct confrontation — this build crumples if caught in the open.
+## 5. Build Progression Advice
 
-## Leveling Progression Tips
+1. **Early (Firleaves):** learn the parry; spend early skill unlocks on anything that widens parry timing or improves dodge — the Longhorn Troll and Shadow of Firleaves will test both.
+2. **Mid (Cyanstone):** rush the **Blade of Rutila** — it's not a build choice, it's a core tool. Then build around the direction you enjoy.
+3. **Late (White Reef Isles → Paradise):** your build should now be defined by embroidery and cloak combos; the final boss (Enid) is a parry + Rutila check more than a stats check.
 
-- **Levels 1-15**: Focus on core stat allocation. Do not spread points thin. Knights should rush Iron Wall to unlock Taunt by level 8.
-- **Levels 16-30**: Begin investing in your secondary tree branch. This is where hybrid identity forms.
-- **Levels 31-50**: Optimize your build. Respec options are available at Moonstone Shrines, but they cost increasing amounts of gold.
+### Respec
+Respeccing skill points **is not confirmed** in Lunarium — no reliable source documents a respec feature. If you're worried, spread early points conservatively.
 
-## Group Composition Synergies
+---
 
-In coordinated group play, certain build combinations create powerful synergies:
+## 6. Build Myths to Ignore
 
-1. **Knight (Tank) + Cleric (Healer)** — The classic frontline. The Cleric's Sacred Ground aura doubles the Knight's HP regen.
-2. **Pyromancer (DPS) + Druid (Debuffer)** — Druids can apply Brittle status, increasing fire damage taken by 30%.
-3. **Ranger (DPS) + Rogue (Utility)** — Rangers mark targets, granting Rogues bonus critical hit chance.
+- ❌ "Choose a class at the start" — no classes exist.
+- ❌ "Put points into Strength/Intelligence" — no stat allocation exists.
+- ❌ "Lunarium has 6 classes with skill trees per class" — false; two characters, two skill trees.
+- ❌ "S-tier gear sets per class" — gear is cloaks + embroidery + weapons, not class sets.
 
-The most effective four-person group composition is Knight, Cleric, Pyromancer, and Rogue. This setup handles all content types efficiently.
+---
 
-For detailed breakdowns of enemy mechanics, see the [Boss Mechanics Guide](/guides/boss-mechanics). For equipment farming locations, consult the [Exploration Guide](/guides/exploration-guide).
+## Related Guides
+
+- [Ave Build Guide](/guides/ave-build-guide) — Ave-focused build directions
+- [Lune Guide](/guides/lune-guide) — Lune's abilities and how to use her
+- [Skill Tree Guide](/guides/skill-tree-guide) — the two skill trees
+- [Equipment Guide](/guides/equipment-guide) — cloaks, embroidery, weapons
+- [Combat Guide](/guides/combat-guide) — parry, dodge, and Resonance fundamentals

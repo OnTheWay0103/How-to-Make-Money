@@ -1,163 +1,73 @@
 ---
-title: "Base Building Guide — Location, Defenses & Room Functionality"
-description: "Complete base building guide for Grain Rot. Cover base location selection, wall and defense construction, resource stockpiling, room functionality, and upgrade priorities."
-category: "Guides"
-version: "1.0"
-updated: "2026-07-29"
-keywords: ["Grain Rot base building", "base location", "defense construction", "resource stockpiling", "room functionality", "upgrade priorities", "base guide"]
-related: ["survival-tips", "enemy-types", "beginner-guide", "outpost-upgrade-guide", "crafting-resources-guide"]
+title: 'Base Building Guide — The Outpost Explained'
+description: 'What "base building" means in Grain Rot: the persistent Outpost hub between extraction runs. Confirmed features — rebuilding, interactive furniture, stat upgrades, rescued survivors — and what is still TBD before launch.'
+category: 'Guides'
+version: 'Pre-release'
+updated: '2026-08-01'
+keywords: ['grain rot base building', 'grain rot outpost', 'grain rot base guide', 'grain rot building', 'grain rot outpost upgrades']
+related: ['outpost-upgrade-guide', 'beginner-guide', 'crafting-resources-guide', 'game-mechanics-systems-guide', 'co-op-guide']
 ---
 
-## Base Building in Grain Rot
+# Base Building Guide — The Outpost Explained
 
-Your base is your lifeline in Grain Rot. It provides shelter from the Rot, safety from the Corrupted, and a place to craft, store resources, and recover. A well-built base can mean the difference between thriving and barely surviving.
+Grain Rot is an extraction game, which means your "base" works differently than in an open-world survival game. You don't chop wood on the surface, raise walls, or defend a camp from nightly raids. Your base is the **Outpost** — a persistent hub you return to between runs, where everything you extracted is spent on permanent upgrades. This guide explains what "base building" actually means in Grain Rot and what is confirmed about it.
 
-This guide covers everything you need to know about building and upgrading your base.
+## The First Thing to Know: No Open-World Building
 
-## Choosing a Base Location
+Correction to a common misconception: Grain Rot's confirmed feature set includes **no free-form base construction**. The official feature list says:
 
-Your base location determines everything else about your survival strategy.
+- "Persistent Outpost rebuilding and progression"
 
-### Location Criteria
+There is no confirmed mechanic for placing walls, doors, moats, or turrets in the world. The Steam page's "Building / Base Building" tags refer to the Outpost hub and the game's building-themed crafting (the "tactical carpentry with interactive furniture" feature). Any guide describing open-world base construction — wall placement, perimeter defense, base raids — is describing a different game.
 
-| Factor | Ideal | Acceptable | Avoid |
-|--------|-------|-----------|-------|
-| Water Source | Within 30 seconds | Within 2 minutes | No water source nearby |
-| High Ground | Hilltop or raised plateau | Slight elevation | Low-lying area (flood/rot risk) |
-| Resource Proximity | Near forest + rock outcrop | Near one resource | No resources nearby |
-| Enemy Spawn Density | Low (edge of biome) | Medium | High (near corruption nodes) |
-| Visibility | Clear sightlines to 100m | Partial cover | Dense fog zone |
-| Expansion Space | Flat area 20x20+ blocks | 15x15 blocks | Less than 10x10 blocks |
+## What the Outpost Actually Is
 
-### Top Base Locations by Biome
+Confirmed facts from the official Steam page:
 
-| Biome | Best Location | Why |
-|-------|--------------|-----|
-| Meadows | Hilltop near central stream | Water, visibility, low enemy density |
-| Forest | Clearing near the Giant Tree | Natural defense, abundant wood |
-| Rotlands | Cliff edge overlooking the Rot | High ground keeps rot pools away |
-| Coastline | Peninsula with narrow approach | Water on 3 sides, easy to defend |
-| Ruins | Repurposed existing structure | Pre-built walls, historical materials |
+- The Outpost is **persistent** — it exists between runs and grows as you play.
+- "Everything you haul back rebuilds your Outpost."
+- It improves "your chances for the next run" — Outpost progress directly powers your in-run capabilities.
+- It unlocks **interactive furniture** — the "tactical carpentry" loop extends to your hub.
+- It provides **stat upgrades** — permanent character or vessel improvements.
+- It houses **rescued survivors** — "rescue survivors trapped in the Deep Layers" is an official feature, and the Steam copy confirms survivors are an Outpost unlock.
 
-## Base Structures
+## How Base Building Fits the Game Loop
 
-### Structure Types and Costs
+The Outpost sits at the end of every extraction loop:
 
-| Structure | Materials | HP | Craft Time | Purpose |
-|-----------|-----------|----|-----------|---------|
-| Wooden Wall | 8 Wood | 300 | 10 seconds | Basic perimeter |
-| Reinforced Wall | 6 Wood + 4 Scrap Metal | 600 | 30 seconds | Strong perimeter |
-| Stone Wall | 8 Stone | 800 | 20 seconds | Fire-resistant wall |
-| Metal Wall | 6 Scrap Metal + 2 Iron | 1000 | 45 seconds | Best defense wall |
-| Wooden Door | 4 Wood | 200 | 5 seconds | Basic entrance |
-| Metal Door | 4 Scrap Metal + 2 Iron | 600 | 20 seconds | Secure entrance |
-| Watchtower | 12 Wood + 4 Nails | 500 | 60 seconds | Elevated view, sniper position |
-| Bed | 4 Wood + 2 Cloth | — | 15 seconds | Sleep, save point |
-| Workbench | 6 Wood + 2 Iron | — | 30 seconds | Crafting station |
-| Campfire | 4 Wood + 2 Stone | — | 10 seconds | Cooking, warmth, light |
-| Storage Chest | 6 Wood + 2 Iron | 100 | 20 seconds | Resource storage (20 slots) |
-| Reinforced Chest | 4 Scrap Metal + 3 Iron | 300 | 40 seconds | Secure storage (30 slots) |
-| Water Collector | 4 Wood + 2 Cloth | 50 | 30 seconds | Rainwater collection |
-| Medical Station | 6 Scrap Metal + 4 Cloth | — | 60 seconds | Heal faster, cure diseases |
-| Radio Tower | 12 Scrap Metal + 6 Iron + 4 Wire | 400 | 120 seconds | Communication, call supplies |
+```
+Descend → Scavenge → Fight or flee → Extract → Rebuild the Outpost → Go deeper
+```
 
-## Room Functionality
+- **Every run funds the base.** Loot you extract converts into Outpost progression. Loot you lose to a full team wipe is gone.
+- **The base makes future runs easier.** Upgrades, furniture, and survivors compound: better stats, better tools, more options.
+- **The base is shared in co-op.** The Outpost is a team project — everyone's extractions contribute (exact sharing rules are TBD).
 
-A well-organized base assigns specific rooms for specific purposes. Each room type provides bonuses when properly constructed.
+## What the Demo Confirms
 
-### Room Types
+The demo (free on Steam since June 12, 2026) includes **upgradeable Outpost rooms** — confirmed by the publisher's demo announcement. So you can already experience the loop: extract loot, return to the Outpost, spend it on room upgrades, and see the effect on your next run. That said, the specific rooms, upgrade costs, and level caps are not officially documented, and **demo progression will almost certainly reset** for the full game (carry-over has not been officially confirmed — treat it as not carrying over).
 
-- **Bedroom** — Contains a bed. Bonus: +50% sanity recovery while sleeping. Requires 4 walls, door, light source.
-- **Workshop** — Contains a workbench. Bonus: -20% crafting time. Requires 4 walls, good lighting.
-- **Kitchen** — Contains a campfire and food storage. Bonus: +50% food restoration. Requires ventilation (window or chimney).
-- **Infirmary** — Contains a medical station. Bonus: +100% healing speed, disease cure chance. Requires clean environment (no rot exposure).
-- **Armory** — Contains weapon racks. Bonus: +10% weapon durability. Requires secure door.
-- **Storage Room** — Contains chests. Bonus: +50% storage space per chest. Requires organized layout.
-- **Lookout Post** — Elevated position. Bonus: Detect enemies from further away. Requires watchtower structure.
+## What We Know About Spending Priorities (Honestly)
 
-## Defense Construction
+Because the developers have not published upgrade costs or a room list, no one can give you a verified "optimal upgrade order" before August 7. What the confirmed mechanics do tell us:
 
-### Perimeter Defense
+1. **Construct unlocks are the top priority.** The demo's 20+ unlockable constructs are your weapons and tools; more options = more solutions in-run.
+2. **Stat upgrades compound.** The Steam page confirms stat upgrades exist; anything that improves survival (durability, capacity) is worth gold.
+3. **Survivors are long-term investments.** "Rescue survivors trapped in the Deep Layers" suggests they're gated behind progression — and worth chasing when you can.
+4. **Cosmetics are last.** "Questionable cosmetics" are fun, but they don't extract loot for you.
 
-Your first priority is a secure perimeter wall. Follow these guidelines:
+We will publish a verified upgrade order the moment the full game is out.
 
-- **Double-layer walls** for critical sections. If the outer wall falls, the inner wall holds.
-- **Angled corners** instead of 90-degree corners. Angled walls are harder for enemies to climb.
-- **Moats** — Dig a 2-block deep, 2-block wide trench around your wall. Enemies that fall in are easy targets.
-- **Barbed wire** — Place on top of walls. Damages enemies that try to climb over.
+## Common Mistakes (Pre-Release Edition)
 
-### Trap Placement
+- **Assuming demo progress carries over.** Plan for a fresh start on August 7.
+- **Spending everything on cosmetics.** Confirmed feature, but it doesn't improve runs.
+- **Skipping the Outpost between runs.** Persistent progression is the whole point — a run you extract from is a run that made your team permanently stronger.
+- **Wiping with loot still in your bags.** "If everyone breaks, your loot is lost" — extraction is the only way to bank progress.
 
-| Trap | Materials | Damage | Effect | Best Location |
-|------|-----------|--------|--------|--------------|
-| Spike Pit | 4 Wood + 2 Iron | 40 | Instant damage | Moat bottom, approach paths |
-| Tripwire Alarm | 2 Wire + 1 Bell | 0 | Alerts you to enemies | Perimeter gates, blind spots |
-| Bear Trap | 6 Iron | 60 + immobilize | Holds enemy for 5 seconds | Hidden near walls |
-| Flame Thrower | 8 Scrap Metal + 4 Oil | 30/sec | AoE fire damage | Gate approach, narrow corridors |
-| Explosive Barrel | 2 Scrap Metal + 1 Gunpowder | 120 | AoE explosion | Grouped enemy positions |
+## Related Guides
 
-## Upgrade Priorities
-
-### Phase 1: First Night (Day 1)
-
-- Build a 4x4 shelter (4 walls, 1 door, 1 roof)
-- Place a bed and campfire inside
-- Build a basic workbench
-- Secure the door (lock it at night)
-
-### Phase 2: First Week (Days 2-7)
-
-- Expand to 8x8 perimeter wall (wooden)
-- Build 2 storage chests
-- Add a water collector
-- Construct a watchtower
-- Place 3-4 spike pits around the perimeter
-
-### Phase 3: Established Base (Days 8-30)
-
-- Upgrade walls to reinforced or stone
-- Build separate rooms (bedroom, workshop, kitchen, storage)
-- Install metal door at main entrance
-- Build a medical station
-- Set up tripwire alarms at all approach paths
-
-### Phase 4: Fortress (Days 30+)
-
-- Full double-layer metal walls
-- All room types (bedroom, workshop, kitchen, infirmary, armory, storage, lookout)
-- Automated defenses (flame throwers, explosive traps)
-- Radio tower for supply drops
-- Backup generator for power-independent lighting
-
-## Resource Stockpiling
-
-Maintain these minimum stockpile levels at all times:
-
-| Resource | Minimum | Ideal | Use Case |
-|----------|---------|-------|----------|
-| Wood | 100 | 300 | Construction, fuel |
-| Stone | 50 | 150 | Wall upgrades, tools |
-| Scrap Metal | 30 | 100 | Repairs, metal items |
-| Food | 20 portions | 50 portions | Sustenance |
-| Clean Water | 10 bottles | 30 bottles | Hydration |
-| Medkits | 3 | 10 | Emergency healing |
-| Bandages | 10 | 20 | Wound treatment |
-| Blue Herbs | 5 | 15 | Sanity recovery |
-| Ammunition | 50 rounds | 200 rounds | Defense |
-
-### Common Base Building Mistakes
-
-- **Building too large too fast** — A big base is hard to defend. Expand gradually.
-- **Single entrance** — Always have at least two exits. If one is blocked, use the other.
-- **No internal lighting** — Darkness in your base drains sanity. Light every room.
-- **Storing everything in one chest** — If that chest is destroyed, you lose everything. Distribute resources.
-- **Building on rot-contaminated ground** — Rot spreads upward. Clear the area before building.
-- **Ignoring roof defense** — Some enemies can climb or fly. Roof traps are essential in later stages.
-
-### Related Guides
-
-- [Survival Tips Guide](/guides/survival-tips)
-- [Enemy Types Guide](/guides/enemy-types)
-- [Beginner Guide](/guides/beginner-guide)
-- [Outpost Upgrade Guide](/guides/outpost-upgrade-guide)
-- [Crafting Resources Guide](/guides/crafting-resources-guide)
+- [Outpost Upgrade Guide](/guides/outpost-upgrade-guide) — progression priorities and what upgrades to chase
+- [Crafting & Resources Guide](/guides/crafting-resources-guide) — what to haul back and what to grind
+- [Game Mechanics & Systems Guide](/guides/game-mechanics-systems-guide) — how the Outpost fits every other system
+- [Co-op Guide](/guides/co-op-guide) — sharing the base with friends

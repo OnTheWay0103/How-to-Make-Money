@@ -1,165 +1,80 @@
 ---
-title: "Fishing Guide: Complete Tips for Reeling in Every Fish in Taival"
-description: "Complete fishing guide for Taival. Learn fishing mechanics, rod upgrades, bait types, fish locations by biome, rare legendary catches, and the best fishing spots for every type of fish."
+title: "Fishing Guide: What We Know About Fishing in Taival"
+description: "Fishing guide for Taival (Early Access). Fishing is a confirmed profession — what we know for sure, how fishing fits the dual progression system, and which details are still unconfirmed."
 category: "Exploration"
-updated: "2026-07-27"
+updated: "2026-08-01"
 ---
 
-# Fishing Guide: Complete Tips for Reeling in Every Fish in Taival
+# Fishing Guide: What We Know About Fishing in Taival
 
-> Early Access Version / Updated: July 27, 2026
+> Early Access Version / Updated: August 1, 2026
 
-Fishing in Taival is more than a relaxing side activity — it is a reliable source of rare materials, cooking ingredients, and even unique Henki form upgrades. This guide covers everything from your first cast to landing legendary fish.
+Fishing is one of the few activities the developer names explicitly: the Steam page says you can "level up fishing" as part of your character's progression. This guide covers what is confirmed about fishing, how it fits Taival's systems, and what is still unknown.
 
----
-
-## 1. Getting Started with Fishing
-
-### Requirements
-
-| Requirement | How to Unlock |
-|-------------|---------------|
-| **Fishing Rod** | Craft at any Workbench (5 Wood + 3 Fiber) or buy from the Riverside Trader for 200 Gold |
-| **Bait** | Dig in soft soil for Worms, or buy from any general merchant |
-| **Fishing Skill** | Automatically unlocked after crafting your first rod |
-
-### Basic Mechanics
-
-| Mechanic | Description |
-|----------|-------------|
-| **Cast** | Aim at a body of water and press the interact button. Cast distance depends on rod quality. |
-| **Bite** | Watch for the float to dip underwater. A small circle appears — tap when the circle overlaps the bite indicator. |
-| **Reel** | Hold the reel button. A tension bar appears — keep the needle in the green zone. If it enters the red zone, the line breaks. |
-| **Land** | Once the tension bar is depleted, the fish is caught. Press interact to collect. |
+**Honesty note:** an earlier version of this page described named fishing rods (Bamboo, Fiberglass, Carbon Fiber, Enchanted), exact bait recipes, and a list of 16 named fish with gold prices and locations (River Carp, Void Eel, Leviathan's Shadow...). **None of that was real.** No fishing gear, bait, or fish list has been published by the developer. This page has been corrected to reflect only confirmed information.
 
 ---
 
-## 2. Fishing Rod Tiers
+## What Is Confirmed About Fishing
 
-| Tier | Rod Name | Materials Required | Cast Distance | Tension Bonus | Best For |
-|------|----------|--------------------|---------------|---------------|----------|
-| 1 | **Bamboo Rod** | 5 Wood + 3 Fiber | Short (10m) | None | Starting out |
-| 2 | **Fiberglass Rod** | 8 Refined Wood + 4 Silk | Medium (20m) | +10% green zone | Freshwater biomes |
-| 3 | **Carbon Fiber Rod** | 5 Iron Ingot + 3 Crystal Shard | Long (35m) | +25% green zone | Deep water / rare fish |
-| 4 | **Enchanted Rod** | 3 Mythril + 2 Spirit Essence | Extreme (50m) | +40% green zone | Legendary fish |
+| Fact | Source |
+|------|--------|
+| Fishing exists as a character activity | Steam page: players can "level up fishing" |
+| Fishing is a profession-style activity | Steam page lists professions & crafting as an Early Access system |
+| Fishing feeds into the dual progression | The character track includes "combat skills" and hobbies like fishing, while the Henki track handles forms and mounts |
+| Fish serve a purpose beyond relaxation | The taming system involves learning what creatures eat — community reports and store copy indicate creatures accept offered food, which makes fish a plausible taming bribe (unconfirmed) |
+| Water exists across the world | The four realms include highlands and forests with rivers and lakes; aquatic creature forms are community-reported |
 
-### Rod Upgrade Path
-
-| From → To | Recipe | Station |
-|-----------|--------|---------|
-| Bamboo → Fiberglass | 8 Refined Wood + 4 Silk + 500 Gold | Workbench (level 2) |
-| Fiberglass → Carbon Fiber | 5 Iron Ingot + 3 Crystal Shard + 1,500 Gold | Workbench (level 3) |
-| Carbon Fiber → Enchanted | 3 Mythril + 2 Spirit Essence + 5,000 Gold | Enchantment Altar |
-|-----------|--------|---------|
-| Bamboo → Fiberglass | 8 Refined Wood + 4 Silk + 500 Gold | Workbench (level 2) |
-| Fiberglass → Carbon Fiber | 5 Iron Ingot + 3 Crystal Shard + 1,500 Gold | Workbench (level 3) |
-| Carbon Fiber → Enchanted | 3 Mythril + 2 Spirit Essence + 5,000 Gold | Enchantment Altar |
+That is the confirmed core: **fishing is a real, levelable profession in Taival's Early Access build.**
 
 ---
 
-## 3. Bait Types & Their Effects
+## How Fishing Fits Taival's Systems
 
-| Bait | How to Get | Effect | Best For |
-|------|------------|--------|----------|
-| **Common Worm** | Dig in soil | Common fish | Starting areas |
-| **Glow Worm** | Glowing Mushroom + Worm | Night fish | Cave Lakes |
-| **Crystal Shrimp** | Crystal Shards at Cooking Station | Rare fish | Deep water |
-| **Honey Paste** | 3 Honeycomb + 1 Berry | Large fish | Forest Ponds |
-| **Spirit Bait** | 2 Spirit Essence + 1 Mythril | Legendary fish only | Legendary spots |
+### Dual Progression
 
-### Bait Duration
+Fishing sits on the **character** progression track, not the Henki track:
 
-| Bait | Casts |
-|------|-------|
-| Common Worm | Unlimited |
-| Glow Worm | 15 |
-| Crystal Shrimp | 10 |
-| Honey Paste | 8 |
-| Spirit Bait | 5 |
+- **Character:** abilities, combat skills, professions — including fishing
+- **Henki:** creature forms, mount abilities, companion customization
 
----
+Leveling fishing is a way to grow your character, which means it feeds into whatever character skills and professions unlock as you level.
 
-## 4. Fish by Biome
+### Fishing and the Henki
 
-### Meadow River (Starting Area)
+Fish are a food item — and the taming system is built around food. The confirmed taming loop is: study a creature, learn its preferred food, and feed it to unlock its form. Fish and other catches are therefore a natural part of your taming kit. Exact fish-based taming recipes are unconfirmed.
 
-| Fish | Rarity | Bait Preference | Sell Price | Use |
-|------|--------|-----------------|------------|-----|
-| River Carp | Common | Worm | 15 Gold | Basic cooking ingredient |
-| Golden Bream | Common | Worm | 25 Gold | Cooking + small HP restore |
-| Meadow Trout | Uncommon | Glow Worm | 45 Gold | Better cooking recipe |
-| Sunfish | Uncommon | Worm (deep cast) | 60 Gold | Quest item |
+### Fishing and Cooking
 
-### Forest Ponds
-
-| Fish | Rarity | Bait Preference | Sell Price | Use |
-|------|--------|-----------------|------------|-----|
-| Forest Perch | Common | Worm | 20 Gold | Basic cooking |
-| Honey Carp | Uncommon | Honey Paste | 55 Gold | Sweet Honey Fish recipe |
-| Shadow Pike | Rare | Glow Worm (night only) | 120 Gold | Speed boost food |
-| Ancient Catfish | Very Rare | Crystal Shrimp | 250 Gold | Henki form unlock ingredient |
-
-### Crystal Lakes (Underground)
-
-| Fish | Rarity | Bait Preference | Sell Price | Use |
-|------|--------|-----------------|------------|-----|
-| Crystal Minnow | Common | Worm | 30 Gold | Glow effect food |
-| Luminous Guppy | Uncommon | Glow Worm | 80 Gold | Light source (10 minutes) |
-| Prism Bass | Rare | Crystal Shrimp | 200 Gold | Crafting component for gear |
-| Void Eel | Very Rare | Spirit Bait | 500 Gold | Legendary cooking recipe |
-
-### Coastline (End-Game Biome)
-
-| Fish | Rarity | Bait Preference | Sell Price | Use |
-|------|--------|-----------------|------------|-----|
-| Tide Crab | Common | Worm | 35 Gold | Basic seafood recipe |
-| Silver Mackerel | Uncommon | Crystal Shrimp | 100 Gold | Trade good |
-| Storm Tuna | Rare | Honey Paste | 350 Gold | Stamina buff food |
-| Leviathan's Shadow | Legendary | Spirit Bait | 1,500 Gold | Best-in-slot food |
+Cooking/consumables are part of the confirmed professions & crafting system. Caught fish would logically feed into cooked meals (the cozy-gaming pattern this game follows), but no official recipes are published. Unconfirmed.
 
 ---
 
-## 5. Legendary Fish Locations
+## Practical Fishing Tips (Based on Confirmed Systems)
 
-There are 4 legendary fish in Taival, each requiring specific conditions.
-
-| Fish | Location | Time | Weather | Required Rod | Bait |
-|------|----------|------|---------|--------------|------|
-| **Ancient Catfish** | Forest Ponds — deep center pool | Night only (22:00 - 04:00) | Any | Fiberglass+ | Crystal Shrimp |
-| **Void Eel** | Crystal Lakes — deepest underwater cave | Anytime | Any | Carbon Fiber+ | Spirit Bait |
-| **Storm Tuna** | Coastline — during storms only | Anytime | Thunderstorm | Carbon Fiber+ | Honey Paste |
-| **Leviathan's Shadow** | Coastline — extreme deep, boat required | Night only (00:00 - 03:00) | Clear sky | Enchanted Rod | Spirit Bait |
-
-### Leviathan's Shadow — Detailed Strategy
-
-Requirements: rent a boat (5,000 Gold at Port), sail to the deep sea coordinates ("???"), arrive between midnight and 3:00 AM, use Enchanted Rod with Spirit Bait. The Leviathan requires 4 successful tension battles — it will escape if you fail even one. Reward: 1,500 Gold, "Deep Fisherman" title, Leviathan Scale.
+1. **Level it early.** Since the developer explicitly calls out fishing as a levelable skill, it is a safe early-game investment for solo players looking for a calm side activity.
+2. **Stock your taming supplies.** Keep caught fish and other food types in inventory — creatures have preferred foods, and being ready to feed any creature you meet speeds up form unlocks.
+3. **Fishing is a co-op-friendly activity.** In a 4-player party, a designated fisher keeps the group supplied with food while others quest — professions are per-player, so one fisher benefits the whole group.
+4. **Explore waterways.** The handcrafted world includes highlands and forests with water; the developer's "secrets" promise means water-side locations may hide content (unconfirmed).
 
 ---
 
-## 6. Fishing Skill Progression
+## What Is Not Confirmed (TBD)
 
-| Level | XP | Unlock |
-|-------|-----|--------|
-| 1 | 0 | Basic cast, worm bait |
-| 2 | 200 | Glow Worm recipe |
-| 3 | 500 | Fiberglass Rod recipe |
-| 4 | 1,000 | Crystal Shrimp recipe |
-| 5 | 2,000 | Carbon Fiber Rod recipe |
-| 6 | 3,500 | Honey Paste recipe |
-| 7 | 5,500 | Spirit Bait recipe |
-| 8 | 8,000 | Enchanted Rod recipe |
-| 9 | 12,000 | Legendary fish tracking |
-| 10 | 18,000 | +50% tension bar passive |
+- Fishing rods, their tiers, and upgrade recipes
+- Bait types and how to obtain them
+- The fish list — species, rarity, locations, prices
+- Fishing minigame mechanics (casting, reeling, tension bars)
+- Whether fishing unlocks Henki forms or aquatic traversal
+- Water-biome content, boats, or coastal zones (the confirmed realms do not include a coastline)
 
-### XP Farming
-
-At Crystal Lakes with Crystal Shrimp (150 XP per Prism Bass). At level 5+, switch to Coastline for Storm Tuna (350 XP).
+Community sources are already documenting fishing in the live build, and this page will be updated with verified specifics as they become confirmed.
 
 ---
 
-## Related Guides
+### Related Guides
 
-- [Biomes & Exploration Guide](/guides/biomes-exploration-guide) — Navigate to all fishing locations
-- [Crafting & Professions Guide](/guides/crafting-professions-guide) — Craft fishing rods and bait
-- [Henki Companion Guide](/guides/henki-companion-guide) — Fish-based Henki form upgrades
-- [Housing & Base Building Guide](/guides/housing-base-building) — Build a fishing dock at your home
+- [Crafting & Professions Guide](/guides/crafting-professions-guide) — Fishing as a profession
+- [Henki Companion Guide](/guides/henki-companion-guide) — Taming with food
+- [Biomes & Exploration Guide](/guides/biomes-exploration-guide) — Waterways in the four realms
+- [Skill Trees & Progression Guide](/guides/skill-trees-guide) — Character progression track

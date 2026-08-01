@@ -1,138 +1,146 @@
 ---
-title: "Lunarium Ave Build Guide — Best Swordmaster Builds"
-description: "Complete Ave build guide for Lunarium. Best skill tree paths, weapon choices, charm combinations, and playstyle strategies for the swordmaster."
+title: "Lunarium Ave Build Guide — Swordmaster Build Directions"
+description: "Ave build guide for Lunarium. How to build the swordmaster: parry-focused, aggressive, and resonance-driven playstyles, plus embroidery, cloaks, and the Blade of Rutila."
 category: "Builds"
 version: "1.0"
-updated: "2026-07-25"
-keywords: ["Lunarium Ave build", "Lunarium best build Ave", "Lunarium swordmaster build", "Lunarium Ave skills", "Lunarium Ave equipment"]
-related: ["combat-guide", "skill-tree-guide", "equipment-guide", "lune-guide"]
+updated: "2026-08-01"
+keywords:
+  - Lunarium ave build
+  - Lunarium best build ave
+  - Lunarium swordmaster build
+  - Lunarium ave skills
+  - Lunarium ave equipment
+related:
+  - character-builds
+  - skill-tree-guide
+  - equipment-guide
+  - combat-guide
+  - lune-guide
 ---
 
-# Lunarium Ave Build Guide — Best Swordmaster Builds
+# Lunarium Ave Build Guide — Swordmaster Build Directions
 
-**Lunarium 1.0 / Updated: July 25, 2026**
+**Lunarium 1.0 / Updated: August 1, 2026**
 
-Ave is the player-controlled protagonist of Lunarium — a light-armored swordmaster who relies on precise parries and quick footwork. This guide covers the best builds, skill priorities, and equipment choices.
+Ave is the player-controlled protagonist of Lunarium — a light-armored swordmaster who relies on precise parries, quick dodges, and the support of her Starfarer companion Lune. She has no classes, no stat allocation, and no "specializations" to pick: your Ave build is defined by your **skill tree choices, embroidery passives, cloak, and playstyle**.
 
----
-
-## 1. Build Overview
-
-Ave has three primary build directions:
-
-| Build | Focus | Playstyle | Difficulty |
-|-------|-------|-----------|------------|
-| **Parry Specialist** | Parry window, counter damage | Reactive — parry everything, punish hard | Hard |
-| **Blade Dancer** | Attack speed, dodge, combos | Aggressive — constant pressure, never stop moving | Medium |
-| **Resonance Knight** | RP generation, coordinated attacks | Hybrid — build RP fast, spend on nukes | Easy |
-
----
-
-## 2. Parry Specialist Build
-
-**Best for:** Players who love parry-based combat. High risk, extreme reward.
-
-### Skill Tree Priorities
-| Skill | Priority | Reason |
-|-------|----------|--------|
-| Parry Mastery | ★★★★★ | +25% parry window — essential |
-| Riposte | ★★★★★ | Counter-attacks deal 2x damage after parry |
-| Iron Guard | ★★★★ | Reduces partial parry damage to 30% |
-| Deflect | ★★★★ | Parried projectiles reflect back at enemies |
-| Counter Stance | ★★★ | Hold block after parry for auto-riposte |
-
-### Best Equipment
-| Slot | Item | Effect |
-|------|------|--------|
-| Weapon | Precision Blade | +15% parry window |
-| Armor | Light Plate | Balance of defense and mobility |
-| Charm 1 | Parry Stone | +10 RP on perfect parry |
-| Charm 2 | Counterweight | Riposte hits twice |
-| Cloak | Featherweave | +10% dodge distance |
-
-### Playstyle
-- Wait for enemy attacks rather than initiating
-- Perfect parry → Riposte → reposition
-- Save Resonance for emergency heals
-- Weakness: enemies with few parry-able attacks
+This guide covers the confirmed mechanics behind building Ave. Specific skill names, embroidery effects, and exact numbers are **unconfirmed** (no reliable source has published full item lists yet) — where we can't verify, we say so.
 
 ---
 
-## 3. Blade Dancer Build
+## 1. What Ave Can Do (Confirmed)
 
-**Best for:** Aggressive players who prefer constant offense.
+| Ability | Confirmed Details |
+|---------|--------------------|
+| **Light sword attacks** | Basic melee — the backbone of everything |
+| **Heavy attacks** | Confirmed as a concept via boss fights (heavy stagger focus) |
+| **Parry** | The signature mechanic: negates damage, staggers enemies |
+| **Dodge** | Short-distance roll with i-frames; the answer to red-flash attacks. Note: dodge distance was a common launch complaint — position carefully |
+| **Block** | Blocking exists; a failed/partial parry behaves like a block |
+| **Blade of Rutila** (unlocked after Lilia) | Interrupts red-flashing attacks with heavy stagger damage — effectively a "get-out-of-red-flash" card |
+| **Resonance skills** | Ave + Lune share the Resonance gauge; Astral Shards raise its cap |
 
-### Skill Tree Priorities
-| Skill | Priority | Reason |
-|-------|----------|--------|
-| Quickening | ★★★★★ | +20% attack speed after dodge |
-| Dance of Blades | ★★★★★ | 5-hit combo finisher deals bonus damage |
-| Shadow Step | ★★★★ | Dodge costs 5 less stamina |
-| Flurry | ★★★★ | Light attacks chain 20% faster |
-| Momentum | ★★★ | Consecutive hits deal increasing damage |
-
-### Best Equipment
-| Slot | Item | Effect |
-|------|------|--------|
-| Weapon | Twin Fangs | Dual-wield, +30% attack speed |
-| Armor | Shadow Garb | Lowest defense, highest mobility |
-| Charm 1 | Wind Dancer | Dodge distance +25% |
-| Charm 2 | Bloodlust | Heal 2% HP per kill |
-| Cloak | Assassin's Wrap | First hit on unaware enemies crits |
-
-### Playstyle
-- Never stop attacking — dodge cancel between combos
-- Weave in heavy attacks when enemy is staggered
-- Use Shadow Step to circle behind enemies
-- Weakness: extremely fragile, 2-3 hits can kill you
+> There is no dual-wielding, no bows, no magic for Ave — she is a swordmaster, and that's the whole kit.
 
 ---
 
-## 4. Resonance Knight Build
+## 2. The Three Build Directions
 
-**Best for:** Beginners and players who want a balanced experience.
+### Direction 1: Parry Specialist (Recommended First Playthrough)
 
-### Skill Tree Priorities
-| Skill | Priority | Reason |
-|-------|----------|--------|
-| Resonance Flow | ★★★★★ | +30% RP generation |
-| Shared Strength | ★★★★★ | Lune's spells deal +25% damage |
-| Bond of Stars | ★★★★ | Resonance skills cost 10 less RP |
-| Guardian's Call | ★★★★ | Lune auto-heals Ave below 30% HP |
-| United Front | ★★★ | Both characters take 15% less damage |
+**Identity:** punish every parry-able attack, win through counter windows.
 
-### Best Equipment
-| Slot | Item | Effect |
-|------|------|--------|
-| Weapon | Harmony Blade | RP gain on hit +5 |
-| Armor | Knight's Cuirass | Highest defense |
-| Charm 1 | Resonance Crystal | +25 max RP |
-| Charm 2 | Guardian Charm | Lune takes 20% less damage |
-| Cloak | Starlight Mantle | RP skills heal 5% HP |
+| Aspect | Guidance |
+|--------|----------|
+| Skill tree focus | Anything improving parry timing, counter damage, or stagger building (exact skills unconfirmed) |
+| Embroidery focus | Parry/counter-related passives (names unconfirmed) |
+| Cloak focus | A cloak supporting counter play (specifics unconfirmed) |
+| Playstyle | Wait for the telegraph → parry → punish the stagger → reset. Dodge only the red flashes |
 
-### Playstyle
-- Fight alongside Lune — stay close for RP generation bonuses
-- Use Resonance Strike frequently (low cost with Bond of Stars)
-- Save Starfarer's Light (100 RP) for boss phases
-- Weakness: lower personal damage output
+**Works best against:** telegraphed combo bosses — Longhorn Troll, Sentinel Colossus, Fintan, Lilia, Enid.
+
+**Watch out for:** fights with heavy red-flash pressure (Lilia Phase 2, Enid Phase 2) — parry-only thinking will get you hit.
+
+### Direction 2: Aggressive Dancer
+
+**Identity:** never stop moving, punish every opening, outmaneuver instead of out-block.
+
+| Aspect | Guidance |
+|--------|----------|
+| Skill tree focus | Attack-speed, dodge, and chain-combat skills (exact names unconfirmed) |
+| Embroidery focus | Mobility and on-hit passives (names unconfirmed) |
+| Cloak focus | A mobility/utility cloak (specifics unconfirmed) |
+| Playstyle | Weave 1-2 hits between enemy attacks, dodge through red flashes, use the Blade of Rutila to interrupt instead of fleeing |
+
+**Works best against:** evasive bosses (Red Dancer) and multi-enemy fights where standing still is death.
+
+**Watch out for:** the game punishes greed; aggressive players should reserve dodge for actual red flashes, not repositioning.
+
+### Direction 3: Resonance Commander
+
+**Identity:** play Ave and Lune as one unit — generate Resonance, spend it at the right moment.
+
+| Aspect | Guidance |
+|--------|----------|
+| Skill tree focus | Resonance gain, shared skills, Lune synergy (exact names unconfirmed) |
+| Embroidery focus | Resonance generation / coordinated-attack passives (names unconfirmed) |
+| Cloak focus | Utility cloaks that boost the duo (specifics unconfirmed) |
+| Playstyle | Let Lune's arrows build stagger and clear orbs; keep pressure so the gauge fills; spend Resonance on boss phases |
+
+**Why it's real:** reviews confirm Lune "builds enemy stagger meters via Resonance Points" while fighting alongside Ave — the shared gauge is a documented system.
+
+**Works best against:** sustained fights (Hauler Colossus, the Sea Monster) where steady pressure wins.
 
 ---
 
-## 5. Stat Priority by Build
+## 3. Priority Order by Progression Stage
 
-| Stat | Parry Specialist | Blade Dancer | Resonance Knight |
-|------|-----------------|-------------|------------------|
-| Strength | ★★★★ | ★★★★★ | ★★★ |
-| Dexterity | ★★★★★ | ★★★★★ | ★★★ |
-| Vitality | ★★★ | ★★ | ★★★★ |
-| Spirit | ★★ | ★★ | ★★★★★ |
-| Luck | ★★★ | ★★★★ | ★★ |
+| Stage | Priority |
+|-------|----------|
+| **Firleaves (start)** | Learn parry timing; spend first skill unlocks on parry/dodge quality. Don't hoard — combat and exploration drive skill growth |
+| **Cyanstone** | Obtain the **Blade of Rutila** as soon as you beat Lilia — it changes how you play every boss after. Collect the **Astral Shards** (resonance cap) and the **embroidery blueprint** near the first bench |
+| **White Reef Isles** | Your embroidery/cloak loadout should now define your direction; the island's fights (Sea Monster, Ryuu) reward mobility |
+| **Paradise (finale)** | Enid is a parry + Blade of Rutila check — practice both in the Dreampath first |
+
+---
+
+## 4. Equipment for Ave (Confirmed Systems)
+
+### Cloaks
+Cloaks are real and confirmed: each cloak has **both a unique appearance and ability effects** (offense, defense, or utility). The **Wayfarer's Cloak** is received in Starfall Village after the Firleaves bosses.
+
+> Specific cloak names and effects beyond the Wayfarer's Cloak are unconfirmed. **Note:** the "Stagnant Cloak" referenced in walkthroughs is a *location* in Paradise, not a wearable item.
+
+### Embroidery
+- Works like charms — **passive enhancements** that support different combat styles.
+- Swapping a single embroidery can turn a tanky Ave into a burst build (per reviews).
+- Blueprints/patterns are collectible — the first confirmed one is near the first bench in Cyanstone.
+
+### Weapons
+- Ave uses swords; the **Blade of Rutila** is a skill (not a weapon), obtained from Lilia.
+- Weapons can be **upgraded at the Temple** using resources gathered during the adventure (press-confirmed). Upgrade numbers are unconfirmed.
+
+### What does NOT exist for Ave
+- ❌ No armor sets with set bonuses
+- ❌ No socket gems / enchantment system (as of confirmed info)
+- ❌ No classes, no stat points, no level-based talent trees
+
+---
+
+## 5. Common Ave Mistakes
+
+1. **Parrying red flashes** — red = dodge. Every boss punishes this hard.
+2. **Ignoring Lune's arrow** — she clears Nihilus orbs and staggers; fights designed around her (Sea Monster, Fintan) stall without her.
+3. **Saving the Blade of Rutila forever** — post-Cyanstone it's your best interrupt; use it on the boss's scariest red-flash move.
+4. **Not exploring for Astral Shards** — a bigger Resonance cap is a direct power gain.
+5. **Trusting "S-tier build" lists** — no verified tier data exists yet; play what fits you.
 
 ---
 
 ## Related Guides
 
-- [Skill Tree Guide — All Skills & Best Upgrades](/guides/skill-tree-guide)
-- [Combat Guide — Parry, Dodge & Resonance](/guides/combat-guide)
-- [Equipment Guide — Weapons, Armor & Charms](/guides/equipment-guide)
-- [Lune Guide — Starfarer Abilities](/guides/lune-guide)
+- [Character Builds Guide](/guides/character-builds) — how builds work overall (no classes!)
+- [Skill Tree Guide](/guides/skill-tree-guide) — Ave and Lune's skill trees
+- [Equipment Guide](/guides/equipment-guide) — cloaks, embroidery, weapons, upgrades
+- [Combat Guide](/guides/combat-guide) — parry, dodge, Resonance fundamentals
+- [Lune Guide](/guides/lune-guide) — making the most of your companion

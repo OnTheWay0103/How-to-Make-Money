@@ -21,7 +21,7 @@ Tourists arrive by **train every day** — which is why the train station is the
 Tourist satisfaction is driven by several systems:
 
 - **Decor** — benches, statues, streetlights, trees, and planters all raise happiness. More decor = happier tourists = more EGO.
-- **Cleanliness** — tourists litter constantly. Trash bins, trash disposal stations, bubble machines, and a Sanitation Bureau with hired workers keep satisfaction from decaying.
+- **Cleanliness** — tourists litter constantly. Trash bins, dumpsters, bubble machines, and a hired sanitation crew keep satisfaction from decaying.
 - **Food and shopping** — tourists expect somewhere to eat and buy. Star-rated food and shopping systems tier recipes; items that are "too fancy or too cheap" draw complaints, so match your menus to what visitors can afford.
 - **Amenities** — rest benches, entertainment, and beautiful scenery all matter. Interactive decor like spring riders and drinking fountains boosts engagement.
 - **Entertainment** — theatres, landmarks, and attractions raise the ceiling on what your town can support.

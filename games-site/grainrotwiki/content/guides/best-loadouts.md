@@ -1,119 +1,74 @@
 ---
-title: 'Best Loadouts Guide — Optimal Vessel & Weapon Combinations in Grain Rot'
-description: 'Discover the best loadouts in Grain Rot. Complete vessel-tier rankings, optimal weapon-tool combinations, and recommended setups for solo play, co-op groups, and boss farming runs.'
-keywords: ['grain rot best loadouts', 'grain rot best vessels', 'grain rot weapons tier list', 'grain rot optimal build', 'grain rot meta']
-updated: '2026-07-27'
+title: 'Best Loadouts Guide — Vessels, Constructs & Pre-Release Reality Check'
+description: 'Grain Rot loadouts in the pre-release period: what is confirmed about vessels and constructs, why tier lists are impossible before launch, and how to build effective loadouts once the demo unlocks them.'
+category: 'Guides'
+version: 'Pre-release'
+updated: '2026-08-01'
+keywords: ['grain rot best loadouts', 'grain rot best vessels', 'grain rot constructs', 'grain rot optimal build', 'grain rot loadout', 'grain rot meta']
+related: ['best-vessels-guide', 'weapons-tools-guide', 'demo-guide', 'solo-guide', 'co-op-guide']
 ---
 
-# Best Loadouts Guide — Optimal Vessel & Weapon Combinations
+# Best Loadouts Guide — Vessels, Constructs & Pre-Release Reality Check
 
-A successful Grain Rot run starts at the loadout screen. Choosing the right vessel, weapon, and tool combination for your goal can mean the difference between a record extraction and a lost run. This guide breaks down the best loadouts for every scenario.
+Let's be straight with you: as of this writing (pre-launch, August 2026), **there is no verified "best loadout" for Grain Rot**. The game launches August 7, and no officially documented list of vessel names, weapon stats, or unlock costs exists yet. Any guide that ranks named vessels like "Obsidian Golem" or "Crystal Weaver" against each other is inventing data. This guide gives you what's real: the confirmed loadout framework, how the demo unlocks it, and the principles that will let you find the best loadout *yourself* on day one.
 
-## Vessel Tier Rankings
+## What a Loadout Is (Confirmed)
 
-| Tier | Vessel | Strengths | Weaknesses |
-|------|--------|-----------|------------|
-| **S** | Obsidian Golem | Highest durability, poison immunity, slow immune | Expensive materials, low speed |
-| **S** | Crystal Weaver | Double loot, high gold find, bonus crafting yield | Low HP, cannot wear heavy armor |
-| **A** | Wicker Knight (max tier) | Excellent all-rounder, balanced stats | No standout special ability |
-| **A** | Shadow Vessel | Invisibility, trap immunity, fast movement | Very low HP, resource-intensive to craft |
-| **B** | Wicker Knight (base) | Cheap to replace, decent combat stats | Outclassed by max-tier version |
-| **B** | Hollow Vessel | High speed, large inventory | Low durability, breaks easily |
-| **C** | Straw Effigy | Cheapest vessel, fast crafting | Breaks in 2-3 hits, low carry capacity |
+Your loadout is built from the two confirmed load-bearing systems:
 
-## Best Weapon & Tool Combinations
+1. **Vessels** — the wooden bodies your Spark inhabits. Confirmed: they come in different types ("possess and swap between fragile wooden vessels"), with different properties, and you can swap between them. They "splinter, collapse, and catch fire."
+2. **Constructs** — the demo contains **20+ unlockable constructs** (confirmed by the publisher). The official feature list confirms "tactical carpentry with interactive furniture," and the Steam description confirms tools exist beyond fists ("smash furniture for resources or feed them into the Grinder for gold").
 
-### Loadout 1: Solo Gold Farmer
-**Best for:** Quick resource runs, low-risk farming
+## The Confirmed Loadout Principles
 
-| Slot | Item | Why |
-|------|------|-----|
-| **Vessel** | Crystal Weaver | Double loot from breakables |
-| **Weapon** | Crossbow with explosive bolts | Safe ranged damage, AoE clear |
-| **Tool 1** | Lockpick Set | Opens locked doors for bonus loot |
-| **Tool 2** | Grinder (portable) | Process raw materials mid-run |
-| **Tool 3** | Speed Serum | Escape from overwhelming situations |
+### 1. Durability Is Your First Stat
 
-**Strategy:** Rush breakable objects in The Shallows and Warrens. Use the portable grinder to convert materials to gold on-the-go. Extract by the 12-minute mark.
+Your vessel is fragile by design. A loadout that ignores survivability is a loadout that loses loot. When evaluating any vessel, ask: *how long can this body keep me in the run?*
 
-### Loadout 2: Co-op Boss Hunting
-**Best for:** Group runs targeting bosses in The Depths and Rot-Hollow
+### 2. Speed Pays Off Twice
 
-| Slot | Item | Why |
-|------|------|-----|
-| **Vessel** | Obsidian Golem (Tank) | Frontline durability |
-| **Weapon** | Great Cleaver | High single-target damage |
-| **Tool 1** | Healing Salve (x3) | Sustain through boss phases |
-| **Tool 2** | Barricade Kit | Create choke points during adds phase |
-| **Tool 3** | Rally Banner | Party-wide damage buff |
+Faster movement means faster scavenging and faster extraction. The extraction loop is time-limited by your own risk tolerance and corruption — speed is the stat that buys you options.
 
-**Strategy:** Tank draws aggro while damage dealers flank. Use barricades to control boss arena space. Rally Banner at phase transitions for burst damage.
+### 3. Abilities Should Match Your Run Type
 
-### Loadout 3: Speed Extraction Challenge
-**Best for:** Completing the game loop in under 10 minutes
+Vessel abilities exist (confirmed: vessels have "different abilities" per official copy). Before committing to a vessel, decide your run's goal:
 
-| Slot | Item | Why |
-|------|------|-----|
-| **Vessel** | Hollow Vessel | Fast movement, large inventory for quick grabs |
-| **Weapon** | Dagger (poisoned) | Fast attack speed, DOT damage |
-| **Tool 1** | Map Fragment | Reveals elevator location immediately |
-| **Tool 2** | Smoke Bomb | Blind enemies and break line of sight |
-| **Tool 3** | Adrenaline Shot | Temporary speed boost |
+| Run Type | What the Vessel Needs |
+|----------|----------------------|
+| First descent / learning | Durability, simple abilities |
+| Deep loot run | Corruption management, survivability |
+| Speed extraction | Speed, carry capacity |
+| Co-op chaos | Whatever covers your team role |
 
-**Strategy:** Skip combat entirely. Use the map fragment to locate the elevator immediately. Grab only high-value items on the direct path. Extract within 7-8 minutes.
+### 4. Constructs Cover What Your Vessel Can't
 
-### Loadout 4: Hard Mode Progression
-**Best for:** New Hard Mode players building their footing
+Weapons and tools exist to cover weaknesses: a fragile fast vessel wants ranged options; a tanky slow vessel wants utility. Since construct names and stats aren't documented yet, evaluate each unlock you find on two axes: **does it solve a problem you have, and does it cost more than it's worth to unlock?**
 
-| Slot | Item | Why |
-|------|------|-----|
-| **Vessel** | Wicker Knight (max tier) | Reliable all-rounder for unpredictable Hard Mode |
-| **Weapon** | War Hammer | Stun-lock dangerous enemies, armor break |
-| **Tool 1** | Greater Healing Salve | Critical sustain in longer fights |
-| **Tool 2** | Reinforced Lockpick Set | Opens advanced locked doors |
-| **Tool 3** | Floodlight | Extended illumination in darkness zones |
+## Building Loadouts in the Demo
 
-**Strategy:** Play cautiously. Clear rooms methodically rather than rushing. The Wicker Knight's balanced stats let you adapt to any Hard Mode situation.
+The demo is your loadout laboratory:
 
-## Tool Synergy Guide
+- 20+ unlockable constructs — try every unlock path you can afford.
+- 3 biomes and 9 enemy types — enough variety to test durability, speed, and ability choices under pressure.
+- Upgradeable Outpost rooms — see how unlocks change your next run.
 
-Certain tool combinations create powerful synergies:
+**Note:** demo progress is not expected to carry over to the full game (unconfirmed, but plan for a reset). Everything you learn — not everything you unlock — is what transfers.
 
-| Tool Combo | Synergy Effect | Best Used By |
-|------------|---------------|--------------|
-| **Lockpick Set + Map Fragment** | Reveal loot rooms + plan fastest route | Solo speed runners |
-| **Barricade Kit + Rally Banner** | Control enemy pathing + boost damage in kill zone | Co-op boss teams |
-| **Grinder + Magnet** | Process materials from distance + attract nearby gold | Crystal Weaver farmers |
-| **Smoke Bomb + Adrenaline Shot** | Disengage from any fight instantly | Hollow Vessel speed runners |
+## Anti-Tier-List Rules
 
-## Loadout Decision Flowchart
+Until verified data exists, treat these as your defense against misinformation:
 
-```
-What is your goal?
-├── Fast gold farming → Loadout 1 (Crystal Weaver)
-├── Boss farming
-│   ├── Solo → Wicker Knight with War Hammer
-│   └── Co-op → Loadout 2 (Obsidian Golem tank)
-├── Speed extraction → Loadout 3 (Hollow Vessel)
-└── Hard Mode
-    ├── First attempts → Loadout 4 (Wicker Knight)
-    └── Experienced → Obsidian Golem or Shadow Vessel
-```
+1. **Ignore named tier lists.** No verified vessel or weapon names are public. A "tier list" with named items is fabricated.
+2. **Weight sources by proximity to the developers.** The Steam page and publisher announcements are facts; community speculation is a hypothesis.
+3. **Test, don't trust.** The demo gives you a real sandbox — a loadout you've tested beats a loadout you've read about.
+4. **Meta changes at launch anyway.** The full game adds content and the economy rebalances; day-one meta will be rewritten in week one.
 
-## Vessel Upgrade Priority
+## The Honest "Best Loadouts" Right Now
 
-Invest your resources in this order for the best return:
+Since specifics are TBD, here is the confirmed-best approach as of today:
 
-1. **Wicker Knight → max tier** (cheapest impactful upgrade)
-2. **Obsidian Golem** (enables Hard Mode boss farming)
-3. **Crystal Weaver** (doubles farming efficiency)
-4. **Shadow Vessel** (luxury for speed runs)
+- **For learning the game:** the demo's default setup — a starter vessel, whatever construct you unlock first, and heavy use of the Grinder. Learn the sound-and-movement model before you optimize.
+- **For co-op:** one durable player who leads, one fast player who scouts, and everyone carries a tool for the extraction. Roles are emergent, not prescribed.
+- **For solo:** prioritize survival over greed — a quieter, more defensive loadout, because no one can pick up your loot if you break.
 
----
-
-## Related Guides
-
-- [Best Vessels Guide](/guides/best-vessels-guide) — Full vessel unlock requirements and upgrade costs
-- [Weapons & Tools Guide](/guides/weapons-tools-guide) — Complete weapon stats and tool effects
-- [Crafting & Resources Guide](/guides/crafting-resources-guide) — How to craft every item in these loadouts
-- [Co-op Guide](/guides/co-op-guide) — Team coordination and role assignment
+We will replace this page with verified vessel and construct rankings the moment post-launch data makes them possible. Until then, the [vessel guide](/guides/best-vessels-guide), [weapons & tools guide](/guides/weapons-tools-guide), and [demo guide](/guides/demo-guide) have everything else that's confirmed.

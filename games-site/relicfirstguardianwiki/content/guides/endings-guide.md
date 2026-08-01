@@ -1,111 +1,102 @@
 ---
-title: "All Endings & How to Unlock Them"
-description: "All endings in The Relic: First Guardian and how to unlock each one. Main ending, the secret Arsiltus Reborn ending, memory fragment requirements, missable conditions, and NG+ endings."
+title: "Endings — How Many Endings Are There? (Unconfirmed at Launch)"
+description: "How many endings does The Relic: First Guardian have? The honest answer: the ending structure is unconfirmed at launch. What the story premise tells us, and how to avoid fabricated ending guides."
 category: "Guides"
 version: "1.0"
-updated: "2026-07-31"
-keywords: ["relic first guardian endings", "relic first guardian how many endings", "relic first guardian secret ending", "relic first guardian true ending", "relic first guardian new game plus"]
-related: ["walkthrough", "secret-areas", "game-length-guide", "all-bosses-list"]
+updated: "2026-08-01"
+keywords: ["relic first guardian endings", "relic first guardian how many endings", "relic first guardian secret ending", "relic first guardian true ending", "relic first guardian story ending"]
+related: ["walkthrough", "all-bosses-list", "trophy-guide", "game-length-guide"]
 ---
 
-# All Endings & How to Unlock Them
+# Endings — How Many Endings Are There?
 
-The Relic: First Guardian has **3 endings in the launch build**: the main ending on the critical path, a secret ending tied to the memory fragment collection, and a third "hidden" ending discovered through lore completion. This guide explains each ending's requirements, what is missable, and how New Game Plus changes the picture. **Spoiler warning: this guide contains endgame story details.**
+**Honest answer: the ending structure of The Relic: First Guardian is unconfirmed at launch (August 2026).** The game shipped on July 31, 2026, and no verified source documents the number of endings, their names, or their unlock conditions. This guide explains what the confirmed story premise implies, why circulating "ending guides" are unreliable, and how to approach the endgame without spoilers.
 
----
-
-## How Many Endings Are There?
-
-| # | Ending | Type | Difficulty |
-|---|--------|------|:----------:|
-| 1 | The Seal | Main — critical path | Easy |
-| 2 | Arsiltus Reborn | Secret — collection | Hard |
-| 3 | The Truth | Hidden — lore completion | Very Hard |
-
-The developers confirmed "at least 2-3 endings" in pre-launch interviews, and the launch build confirms all three above. The secret ending is the "true ending" in the narrative sense — it resolves the story of the shattered relic completely.
+**Spoiler warning**: this guide discusses the game's confirmed story premise — not its resolution.
 
 ---
 
-## Ending 1: The Seal (Main Ending)
+## The Confirmed Story Premise (Not Spoilers)
 
-**Requirements**: Complete the critical path — recover all 4 Fragment of the First Relic pieces, defeat the Void-Touched Guardian and The Forgotten King, then defeat the final boss in the late-game region.
+From official material, the arc of the game is confirmed:
 
-**What happens**: The First Guardian sacrifices the collected relic fragments to seal the Void, restoring balance to Arsiltus at the cost of their own power. The world survives, but the memory of the First Guardian fades into legend.
+- Arsiltus was destroyed when the **great Relic shattered**, and the land is being **swallowed by a Void**.
+- You play the **last Guardian**, collecting **relic fragments imbued with the memories and emotions of the dead**.
+- The narrative resolves around the Guardian's relationship with the shattered relic and the Void.
 
-**How to get**: No special conditions. This is the ending you receive by default if you play through the main story without completing the secret-ending requirements.
-
----
-
-## Ending 2: Arsiltus Reborn (Secret Ending)
-
-**Requirements**:
-- Collect **all 24 Memory Fragments** scattered across Arsiltus (the complete set unlocks the "Arsiltus Reborn" ending trigger)
-- Collect **all 12 Journal Pages** for the "The Truth" lore entry
-- Complete the "Relic Collector" side quest (20 artifacts)
-- Reach the final boss with all conditions above met
-
-**What happens**: With the complete memory of Arsiltus restored, the First Guardian refuses the simple seal — instead rewriting the relic's power to renew the land itself. The Void is expelled rather than sealed, and the world begins to heal. This is widely considered the true ending.
-
-**Where the fragments are**: Memory Fragments come primarily from secret areas and optional bosses — see the [Secret Areas guide](/guides/secret-areas) for the full hunting ground. Journal Pages are found in hidden caches across every region.
+Beyond this, the ending structure is **unknown**. Pre-launch coverage described the game's tragic themes (bosses as cursed former humans) but did not confirm a multi-ending structure.
 
 ---
 
-## Ending 3: The Truth (Hidden Ending)
+## What Is NOT Confirmed (And Why You Should Not Trust It)
 
-**Requirements**:
-- All 12 Journal Pages (the "The Truth" lore entry)
-- All 24 Memory Fragments
-- All 5 Void Seals collected and the Void Walker defeated
-- Every boss defeated (all 70+)
+Multiple guides published before and just after launch claim specific endings — for example:
 
-**What happens**: The Truth ending reveals the deeper narrative — the origin of the First Guardian and the true nature of the Void — and plays a unique final scene after the credits. It shares its trigger point with Arsiltus Reborn but requires the complete boss roster.
+- "The game has 3 endings: The Seal, Arsiltus Reborn, and The Truth"
+- "Collect 24 Memory Fragments and 12 Journal Pages to unlock the secret ending"
+- "NG+ endings with remixed bosses"
 
----
+**None of this is confirmed.** Here is why it is almost certainly invented:
 
-## Missable Ending Requirements — Read Carefully
+| Claim | Problem |
+|-------|---------|
+| Named endings with unlock requirements | No verified source; invented names |
+| Exact collectible counts (24 fragments, 12 pages) | Fabricated; the only confirmed counts are "70+ relic fragments" total |
+| NG+ ending content | NG+ itself is unconfirmed |
+| "Chronicle Complete" trophy tied to endings | Trophy list is unverified — see the [Trophy Guide](/guides/trophy-guide) |
 
-- **Catacomb fragments**: The secret catacomb boss in the Cathedral of the Hungry drops the Rune of Vampirism and its linked Memory Fragment. Defeating The Starving Saint first **permanently locks you out** — clear the catacombs before the Saint.
-- **Void Seals**: All 5 Void Seals must be collected before the endgame. They are scattered across early regions — see the [Secret Areas guide](/guides/secret-areas) for exact locations.
-- **Journal Pages**: Several pages sit in areas that become hostile after story events. Collect as you go; do not plan to return.
-
----
-
-## Recommended Ending Route
-
-1. **Playthrough 1**: Collect all 24 Memory Fragments, all 12 Journal Pages, and all 5 Void Seals as you progress. Before the final boss, back up your save. 
-2. **First watch**: The Seal (default ending) — no requirement to change anything.
-3. **Then reload**: Complete any remaining collection requirements, then fight the final boss again for Arsiltus Reborn and The Truth.
-4. **Playthrough 2 (NG+)**: NG+ lets you re-watch endings with remixed bosses and unlocks the NG+ exclusive superbosses — needed for the all-bosses conditions anyway.
+A reliable rule: any ending guide that assigns exact numbers or named endings this soon after launch is speculative. The real structure will be documented by the community in the coming weeks.
 
 ---
 
-## New Game Plus & Endings
+## What the Confirmed Systems Suggest About Endings
 
-- NG+ does not change the ending requirements, but **remixed story bosses** mean the ending triggers reset
-- NG+ exclusive superbosses drop Primeval Crystals needed for relic tier 10 (a Gold trophy) — so the completionist route naturally includes a second run
-- Ending choices are recorded in the gallery menu after first viewing; you do not need to see every ending on a single save
+Without verified information, we can reason from confirmed design facts — clearly labeled as inference, not fact:
+
+### Collection Likely Matters
+The game's central mechanic is **collecting relic fragments imbued with memories**. It is reasonable to expect the game to *check* your collection somewhere near the end — but this is inference. The confirmed count is **over 70 fragments**, not a smaller "ending set."
+
+### Bosses Are the Narrative
+With **70-80 Brutals** who carry tragic backstories, the game's "ending" experience includes the roster's lore. Defeating bosses reveals their tales — how much of that matters for the ending is unknown.
+
+### Events (Side Quests) May Play a Role
+The confirmed "Events" system (NPC/environment-driven side quests) is the game's main delivery of story outside the critical path. Whether event completion affects the ending is unconfirmed.
 
 ---
 
-## Ending FAQ
+## How to Approach the Endgame Safely
 
-**Q: Can I see all endings in one playthrough?**
-A: Yes, with save backups before the final boss. The conditions are all collectible in a single run; only the final choice branches.
+If you care about endings but want to avoid being locked out:
 
-**Q: Is Arsiltus Reborn the true ending?**
-A: Yes — it is the only ending that resolves the memory fragment storyline completely, and it is the one required for the Chronicle Complete trophy.
+1. **Play the confirmed loop** — clear events and explore hidden paths in every region as you go (the game rewards exploration with secrets and relics).
+2. **Collect everything anyway** — relics, potion shards, and unique gear are power regardless of endings. You lose nothing by being thorough.
+3. **Keep a backup save before the final boss** — if the game does have multiple endings, a pre-final save is the cheapest insurance. (Save backups on PS5 require cloud/copy management; Steam has no cloud-restore rollback, so consider manual copies.)
+4. **Check verified sources before the credits** — by the time you reach the endgame, the community will likely have documented the real structure.
 
-**Q: Do endings affect NG+?**
-A: NG+ difficulty and content are the same regardless of which ending you saw.
+---
 
-**Q: Are any endings locked behind co-op?**
-A: No. All endings are completable solo.
+## Common Questions
+
+**Q: How many endings does The Relic: First Guardian have?**
+A: **Unconfirmed.** No verified source at launch. Guides claiming 2 or 3 specific endings are not reliable.
+
+**Q: Is there a "true ending"?**
+A: Unknown. No confirmed information exists.
+
+**Q: Are endings missable?**
+A: Unknown. The game does hide content behind exploration, but no verified missable-ending list exists.
+
+**Q: Do I need to collect all relics for the best ending?**
+A: Unknown. The game's design makes collection valuable regardless, but no confirmed requirement exists.
+
+**Q: Does the ending affect New Game Plus?**
+A: NG+ itself is unconfirmed, so nothing can be said about ending interactions.
 
 ---
 
 ### Related Guides
 
-- [Walkthrough](/guides/walkthrough) — Critical path to the ending
-- [Secret Areas](/guides/secret-areas) — Memory Fragments, Journal Pages, and Void Seals
-- [All Bosses List](/guides/all-bosses-list) — The 70+ boss roster for The Truth ending
-- [Game Length Guide](/guides/game-length-guide) — NG+ and post-game content overview
+- [Walkthrough](/guides/walkthrough) — The confirmed story structure and world
+- [All Bosses List](/guides/all-bosses-list) — The 70-80 Brutals and their stories
+- [Trophy Guide](/guides/trophy-guide) — Why "all endings" trophy claims are unverified
+- [Game Length Guide](/guides/game-length-guide) — Completionist expectations (unconfirmed)

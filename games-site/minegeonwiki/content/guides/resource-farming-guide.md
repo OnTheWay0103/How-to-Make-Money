@@ -1,85 +1,94 @@
 ---
-title: 'Resource Farming Guide — Best Routes & Methods in MineGeon'
-description: 'Optimize your resource farming in MineGeon: Renegades. Best farming routes per biome, which ores to prioritize, pickaxe optimization, and maximum yield strategies.'
-keywords: ['minegeon resource farming', 'minegeon farming guide', 'minegeon best ore routes', 'minegeon material farming', 'minegeon resource grind']
+title: 'Resource Farming Guide — Efficient Mineral Runs in MineGeon: Renegades'
+description: 'Optimize your resource farming in MineGeon: Renegades. How to run efficient mineral expeditions — extraction discipline, depth planning, co-op split farming, and what to prioritize.'
+keywords: ['minegeon renegades resource farming', 'minegeon farming guide', 'minegeon renegades best farming route', 'minegeon material farming', 'minegeon resource grind', 'minegeon renegades how to get ores']
 category: Mining
 version: '1.0'
-updated: '2026-07-29'
+updated: '2026-08-01'
 related:
   - mining-guide
-  - crafting-guide
+  - extraction-guide
   - beginner-guide
+  - solo-strategy-guide
 ---
 
 ## Farming Efficiency Overview
 
-Resource farming is the backbone of progression in MineGeon: Renegades. Efficient farming means more upgrades, better gear, and faster progression. This guide covers optimized farming routes and strategies.
+Resource farming is the backbone of progression in MineGeon: Renegades — every ship upgrade, every Renegade attribute point, every permanent unlock is funded by extracted minerals. Efficient farming is less about "routes" (minegeons are procedurally generated, so fixed routes don't exist) and more about **run discipline**: extract more often, lose less, go deeper only when it's safe.
 
-## Pre-Farming Checklist
+> **Accuracy note:** older guides promised exact per-run yields ("80-120 Iron per run") and fixed routes through named biomes. Both are fabricated: minegeons are procedurally generated each run, ore names are unpublished, and no official yield figures exist. This guide gives the confirmed strategy layer instead.
 
-Before heading into the mines for a farming run:
+## The Farming Mindset
 
-- [ ] **Crystal Pickaxe or better** — Auto-collect radius saves significant time
-- [ ] **Inventory cleared** — Start with empty bags for maximum haul
-- [ ] **2× Pickaxe durability** — Bring a spare so you never stop mining
-- [ ] **Movement speed gear** — Faster movement = more nodes per run
-- [ ] **Stability meter extensions** — More time underground = more resources
+### Extraction is the scoreboard
+A farming run's success is measured by one number: **minerals banked**. Not minerals found, not depth reached — banked. Two runs of equal length, one ending in death and one in extraction, differ by 100% of their value.
 
-## Best Farming Routes by Biome
+### Depth is a dial, not a destination
+Deeper = richer minerals, always. But the risk curve climbs faster than most players expect. The efficient farmer asks "is this depth safe for me right now?" before every push.
 
-### Iron & Copper (Biome 1: Shallow Mines)
-- **Route**: Spawn → left wall → center chamber → right wall → extract
-- **Yield**: ~80-120 Iron, ~60-80 Copper per run
-- **Time**: 15-20 minutes
-- **Danger**: Low — good for relaxed farming
-- **Tip**: The center chamber has the highest ore density
+## Pre-Expedition Checklist
 
-### Silver & Herbs (Biome 2: Fungal Caverns)
-- **Route**: Spawn → mushroom grove → underground lake → extract
-- **Yield**: ~40-60 Silver, ~20 Glowcaps per run
-- **Time**: 20-25 minutes
-- **Danger**: Medium — bring antidotes for poison
-- **Tip**: Glowcaps near the underground lake respawn faster
+- [ ] **Bank spent first** — invest your minerals before the next run; unspent minerals earn nothing
+- [ ] **Know your goal** — farming run (pure minerals), boss run, or exploration run (lore/new biome). Mixing goals wastes both
+- [ ] **Gadget loadout matches the goal** — combat drones for solo mining safety, grenades for escape pressure, shields for deep runs
+- [ ] **Co-op roles assigned** — who mines, who guards, who carries (see below)
 
-### Gold & Obsidian (Biome 3: Magma Chambers)
-- **Route**: Spawn → lava river banks → crystal formations → extract
-- **Yield**: ~20-30 Gold, ~5-10 Obsidian per run
-- **Time**: 25-30 minutes
-- **Danger**: High — fire resistance potions recommended
-- **Tip**: Obsidian nodes glow orange — scan the minimap for them
+## Efficient Farming Patterns
 
-### Crystal & Diamonds (Biome 4-6)
-- **These are high-risk farming runs** — only attempt with endgame gear
-- Bring Mythril Pickaxe for double yield chance
-- Target specific nodes and extract immediately after finding them
-- Don't fight bosses during farming runs
+### 1. The Two-Pass Run
+- **Pass one:** descend carefully, mine what's safe, extract early with a modest haul
+- **Pass two (same session, upgraded):** now with banked upgrades, push deeper and take more risk
+- This is the compounding loop made explicit — each successful pass funds the next.
 
-## Pickaxe Optimization
+### 2. The Depth Ladder
+- Farm the depth you can clear at 100% success
+- When one level is trivial, step one depth down — not two
+- The ladder approach avoids the classic "died at the new biome, lost everything" pattern
 
-| Pickaxe | Farm Speed | Best For |
-|---------|:--:|------|
-| Iron | 1× | Early game Iron/Copper |
-| Silver | 2× | Biome 1-2 farming |
-| Gold | 3× | Biome 3 farming, rare ore detection |
-| Crystal | 4× | **Best for farming** — auto-collect saves ~30% time |
-| Mythril | 5× | Endgame farming, double yield on legendary ores |
+### 3. The Boss Bypass
+- During farming runs, skip the biome boss unless the run's goal is the boss
+- A dead farming run earns nothing; a boss attempt is its own run type
 
-**Upgrade to Crystal Pickaxe ASAP** — the auto-collect radius is the single biggest efficiency boost.
+### 4. The Break Point Rule
+- Set a mental "extract now" trigger before you descend: a threshold of damage taken, a rare find, or a time limit
+- When the trigger hits, extract — no bargaining with yourself
 
 ## Co-op Farming Strategy
 
-Split the team for maximum coverage:
-- **Player 1**: Mines left side of the biome
-- **Player 2**: Mines right side
-- **Player 3** (optional): Clears enemies and marks rare nodes
+Co-op changes farming math in your favor:
 
-Co-op yields are shared equally, so all players benefit from efficient farming.
+- **Split roles, not players.** One mines while another guards — then swap. Two miners with no guard is how co-op farming runs die.
+- **Split the map with a voice call.** Both cover different wings, call out rich veins, and meet for extraction.
+- **The escape buddy rule.** The team that extracts together banks together — never leave a teammate behind on a farming run unless they insist and the haul justifies it.
+- **Teams can hit deeper safely.** With roles covered, a duo or trio can farm depths that would be reckless solo. Use that, but remember the death penalty applies per player.
 
 ## What to Farm When
 
-| Game Stage | Priority Resources | Why |
-|------------|-------------------|-----|
-| Early (Biome 1-2) | Iron, Copper, Coal | Basic tools, base upgrades |
-| Mid (Biome 3-4) | Silver, Gold, Crystal | Mid-tier weapons, pickaxe upgrades |
-| Late (Biome 5-6) | Obsidian, Mythril, Diamond | Endgame gear, max upgrades |
-| Always | Healing Herbs | Never have enough potions |
+| Game Stage | Farming Focus | Why |
+|------------|---------------|-----|
+| Early | Any extraction, any depth | The first upgrades compound hardest |
+| Mid | The deepest biome you can clear safely | Richer minerals per minute of risk |
+| Late | Boss runs + deep biomes | Legendary gear and endgame minerals |
+| Always | Extraction discipline | The rule that never stops applying |
+
+## Common Farming Mistakes
+
+1. **Route-following.** Fixed "best routes" don't exist in procedurally generated minegeons — adapt to the map you get.
+2. **Greed streaks.** One more vein, one more room, one more depth — each one is a bet, and the house always wins eventually.
+3. **Fighting bosses on farming runs.** Bosses are run-ending risks, not farming yields.
+4. **Farming without a bank.** If your minerals from last run are still unspent, you're farming in the red.
+5. **Trusting yield tables.** No official yields exist. Anyone quoting exact ore numbers per run is guessing or inventing.
+
+## The Efficiency Formula
+
+The whole farming strategy fits in one line:
+
+**Bank more per run + die less often = exponential progression.**
+
+Everything in this guide — depth ladders, break points, co-op roles, two-pass runs — is a way to push that formula. Master it and the depths of PAIMO open up.
+
+## Next Steps
+
+- [Mining Guide](/guides/mining-guide) — the mineral system in depth
+- [Extraction Guide](/guides/extraction-guide) — risk/reward decisions
+- [Solo Strategy Guide](/guides/solo-strategy-guide) — solo farming patterns

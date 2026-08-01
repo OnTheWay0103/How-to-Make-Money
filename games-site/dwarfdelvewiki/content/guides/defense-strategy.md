@@ -1,136 +1,106 @@
 ---
-title: "Defense Strategy Guide — Fortifications, Traps & Wave Defense"
-description: "Complete defense strategy guide for Dwarf Delve. Cover base fortification, trap placement, defense towers, enemy wave types, and team coordination for holding the line."
+title: "Defense Strategy Guide — Surviving the Mine's Threats in Dwarf Delve"
+description: "Defense strategy for Dwarf Delve — not turrets and walls, but the real defenses: collapse management with support beams, trap awareness, darkness, loot protection, and knowing when to extract."
 category: "Guides"
 version: "1.0"
-updated: "2026-07-29"
-keywords: ["Dwarf Delve defense", "base fortification", "trap placement", "defense towers", "enemy waves", "team coordination", "holding the line"]
-related: ["mining-guide", "rare-ores", "crafting-guide", "beginner-guide", "coop-guide"]
+updated: "2026-08-01"
+keywords: ["Dwarf Delve defense", "Dwarf Delve survival", "Dwarf Delve collapse", "Dwarf Delve traps", "Dwarf Delve tips"]
+related: ["mining-guide", "rare-ores", "crafting-guide", "beginner-guide", "extraction-guide"]
 ---
 
-## Defense in Dwarf Delve
+## Defense in Dwarf Delve: The Honest Version
 
-Surviving in Dwarf Delve is not just about digging deeper — it is about protecting what you have built. Enemy waves spawn periodically, and without proper defenses, your base will be overrun. This guide covers everything you need to build an impregnable fortress.
+Let's clear the air first: Dwarf Delve is **not** a base-defense game. It has no walls to build underground, no turrets, no enemy waves, no towers — and any guide that describes tesla coils, cannon turrets, or "holding the line" is describing a game that doesn't exist. Dwarf Delve is a first-person extraction roguelite: the mine resets every run, and your "base" is the dwarven quarters on the surface, which is for customization, not defense.
 
-## Defense Fundamentals
+So what does "defense" mean in this game? It means **protecting your life and your loot from the mine's confirmed threats**:
 
-### The Threat System
+1. **Tunnel collapse** — the main confirmed hazard; the mine falls apart as you dig
+2. **Long-forgotten traps** — confirmed in the official description
+3. **Darkness** — confirmed to hide "unseen dangers" and secrets
+4. **Greed** — the confirmed meta-threat; the game's official pitch warns that going too deep costs you your life "or worse, your loot"
 
-Enemies are drawn to three things in order of priority:
+This guide covers defensive strategy for those four threats. Everything here is based on confirmed mechanics or safe general practice — nothing invented.
 
-1. **Player activity** — Mining, crafting, and moving generate noise that attracts enemies
-2. **Light sources** — Torches, floodlights, and furnaces emit light that enemies can see from a distance
-3. **Structures** — Chests, beds, and workbenches are high-priority targets for enemy AI
+## Defense Layer 1: Collapse Management (The #1 Threat)
 
-### Defense Layers
+The official pitch is explicit: the mine collapses from the moment your run starts, and the elevator leaves on a schedule. Collapse defense is the core survival skill.
 
-An effective defense uses multiple layers:
+### The Support Beam Doctrine
 
-- **Layer 1 — Detection**: Scouting tunnels and alarm systems that give you advance warning
-- **Layer 2 — Denial**: Moats, pitfalls, and terrain manipulation that slow enemy approaches
-- **Layer 3 — Attrition**: Traps that damage and weaken enemies before they reach your walls
-- **Layer 4 — Fortification**: Walls, gates, and defensive structures that block enemy entry
-- **Layer 5 — Elimination**: Defense towers, turrets, and player weapons that kill enemies
+Support beams are the confirmed counter to collapse. Defense principles:
 
-## Defense Structures
+- **Beams are insurance, not repairs** — place them before the creaking starts, not during the ceiling-fall
+- **Protect the route, not just the mine** — your escape path back to the elevator matters most. A beam in the wrong tunnel is a wasted beam
+- **Carry spare capacity** — leave with more beams than you think you need; the way back always costs more than the way down
+- **Chokepoints first** — narrow passages and elevator approaches are where you can't afford a collapse
 
-| Structure | Materials | Cost (Iron Equivalent) | Damage | Health | Special |
-|-----------|-----------|----------------------|--------|--------|---------|
-| Wooden Wall | 10 Wood | 5 | — | 500 | Cheap, low durability |
-| Stone Wall | 20 Stone | 10 | — | 1500 | Moderate cost, good durability |
-| Reinforced Wall | 10 Stone + 5 Iron | 20 | — | 3500 | Expensive, very durable |
-| Dwarven Gate | 20 Iron + 10 Gold | 50 | — | 8000 | Main entrance, can be locked |
-| Spike Trap | 5 Iron | 10 | 30/sec | 200 | Basic damage trap |
-| Flame Vent | 5 Iron + 3 Coal | 15 | 50/sec (AoE) | 150 | Burns enemies in a cone |
-| Blade Launcher | 8 Iron + 2 Silver | 20 | 75/hit | 250 | Launches spinning blades |
-| Arrow Turret | 10 Wood + 5 Iron | 15 | 20/shot | 400 | Automated ranged defense |
-| Cannon Turret | 20 Iron + 10 Gold + 5 Coal | 55 | 150/shot (AoE) | 600 | Heavy artillery, slow fire rate |
-| Tesla Coil | 10 Gold + 5 Mithril + 5 Void Crystal | 80 | 60/sec (chain) | 350 | Lightning chains to 3 targets |
-| Palladium Shield | 15 Adamantite + 5 Orichalcum | 120 | — | 10000 | Invulnerable wall (20 sec active) |
+### The Retreat Threshold
 
-## Trap Placement Strategies
+Community practice (honestly labeled as such — no official numbers exist) is to treat the first creaking warning as the signal to head back. Every warning after that is the mine telling you to leave. Death in Dwarf Delve isn't the only failure — losing a full inventory to a collapse when the elevator was two rooms away is the more common tragedy.
 
-### Kill Corridors
+## Defense Layer 2: Trap Awareness
 
-A narrow corridor lined with traps that enemies must pass through to reach your base.
+"Long-forgotten traps" are confirmed. The mines are old dwarven works, and their owners didn't leave welcome mats.
 
-**Design Principles**:
-- 2 blocks wide (enemies cannot pass each other, slowing their advance)
-- Alternate trap types (spikes + flame vents for best coverage)
-- Arrow turrets at the ends firing down the corridor
-- Floodlights to prevent enemies from spawning inside the corridor
+- **Don't sprint into unexplored rooms** — traps exist precisely where you can't see them
+- **Light first, then move** — flares are confirmed to uncover "secrets hidden in the shadows"; throw before you walk
+- **Watch the floor and walls** — in voxel-style games (Dwarf Delve's visuals are frequently compared to Minecraft), trap tell-tales are usually visual
+- **Respect the terrain** — ledges, pits, and unstable rock are terrain hazards; one wrong boot is the game's own warning about death
 
-### Bait Rooms
+## Defense Layer 3: Light Discipline
 
-A small room filled with valuable items (chests, workbenches) that attracts enemies into a trap-filled kill zone.
+Darkness is confirmed as a hiding place for dangers. Your lantern is "the most basic" light tool, and flares and floodlights are the confirmed upgrades.
 
-**Design Principles**:
-- Place the bait room away from your main base
-- Line the approach with blade launchers and spike traps
-- Use stone walls (enemies will path toward the bait through your traps)
-- Keep a fallback position in case enemies break through
+- **Your lantern is your shield** — keep its upgrade current; more light is the confirmed "cast away shadows" upgrade path
+- **Flares are recon** — throw them ahead, not at your feet
+- **Floodlights anchor zones** — if you're mining a rich area for a while, light the whole zone
+- **Mark the way home** — a dark return route is how loot dies
 
-### The Checkerboard Pattern
+## Defense Layer 4: Loot Protection
 
-Place traps in a checkerboard pattern across wide approach areas. This ensures that no matter how enemies path, some will hit traps.
+The game's own slogan — "One wrong boot could cost you your life — or worse, your loot!" — puts loot protection at the center of the design.
 
-## Enemy Wave Types
+### Loot Triage
 
-| Wave Type | Enemies | Spawn Condition | Recommended Defense |
-|-----------|---------|----------------|-------------------|
- | Infestation | Swarmers (small, fast, low HP) | Random, triggered by depth | Spike traps, arrow turrets, AoE weapons |
-| Breach | Diggers (medium, tunnel through walls) | Mining activity threshold | Reinforced walls, vibration sensors |
-| Siege | Brutes + Siege Beasts (large, high HP) | Depth 100+, structure count high | Cannon turrets, flame vents, kiting |
-| Horde | Mixed types, large numbers | 50+ in-game days survived | Full layered defense, all turrets active |
-| Boss Wave | Named boss + minions | Depth milestones (100, 200, 300, Core) | Dedicated boss arena, coordinated team |
-| Infiltration | Phantoms (phase through walls) | Random, late game | Tesla coils, light-based defenses, player patrols |
+When things go wrong, protect value in this order (general extraction logic — the exact value hierarchy of ores is unpublished):
 
-## Base Fortification Guide
+1. **Relics** — confirmed unique: unlock perks and quarters decorations; likely irreplaceable
+2. **Treasures** — high-value finds
+3. **Heavy ores** — valuable but replaceable; this is what minecarts exist to save
+4. **Common ore** — easy to find again
 
-### Building Your First Defenses
+### The Cart Defense
 
-**Early Game (Depth 0-50)**:
+The confirmed minecart system is also a defense tool: a rail line back to the elevator converts minutes of exposed hauling into one safe ride. "Shift and store those heavy ores" is the official description — use the system to shorten your time in the danger zone.
 
-Your first priority is a secure entrance. Build a single wooden door with spike traps on both sides. Place torches in a 20-block radius around your base entrance to reduce enemy spawns. A single arrow turret covering the approach is sufficient for the first few waves.
+### The Extraction Decision
 
-**Mid Game (Depth 50-150)**:
+The strongest defense is knowing when to leave. Early reviews of the game note it "needs work" on onboarding, but the loop itself is solid: extract often, bank gains, upgrade, go deeper next time. A modest haul on the surface beats a legendary haul in a collapsed tunnel.
 
-Upgrade to stone walls and a dwarven gate. Build a kill corridor at least 10 blocks long with alternating spike traps and flame vents. Place 2-3 arrow turrets at the entrance to your main base. Establish a perimeter patrol route with floodlights.
+## Defense Layer 5: The Unknown
 
-**Late Game (Depth 150-300)**:
+"Unseen dangers" is the official description of what else waits below. The Steam tags include Horror, and community players report hostile encounters — but **no enemy roster is officially confirmed**. Defensive posture until the community documents the threat list:
 
-Full reinforced wall perimeter. Multiple kill corridors with blade launchers and cannon turrets. Tesla coils covering critical junctions. Dedicated boss arena with retractable walls. Redundant defense layers (if one falls, the next layer activates).
-
-**Endgame (Depth 300+, Core)**:
-
-Everything maxed out. Automatic repair systems. Orbital strike beacons (endgame tech). Palladium shields on all critical structures. Multiple fallback positions with pre-built defenses. Full automation via Void Crystals and advanced machinery.
-
-## Team Coordination
-
-### Role Assignment
-
-| Role | Responsibilities | Recommended Gear |
-|------|-----------------|-----------------|
-| Defender | Hold the main entrance, repair walls, activate defenses | Heavy armor, shield, repair hammer |
-| Sniper | Ranged damage on priority targets | Crossbow or rifle, high-ground position |
-| Trapper | Maintain and reload traps, build emergency defenses | Light armor, trap materials, quick tools |
-| Scout | Monitor approach tunnels, call out wave composition | Light armor, speed potions, flares |
-| Engineer | Repair turrets, manage power, build mid-wave | Toolbelt, spare parts, energy cells |
-
-### Communication Tips
-
-- Call out wave composition as soon as you see it. "Swarmers from the east tunnel" gives your team 5-10 seconds to prepare.
-- Designate a fallback rally point. When the first line falls, everyone regroups at the rally point.
-- Assign trap reloading rotations. Traps are useless when empty.
-- Save ultimate abilities and high-damage items for boss waves. Do not waste them on standard infestations.
+- Keep combat on your terms (the Battlemallet is your only confirmed weapon — swing it where you have room to retreat)
+- Don't fight with your back to a hazard
+- Learn by watching first: if something kills you, that's data, not failure
 
 ## Common Defense Mistakes
 
-- **Tunnel vision** — Defending only one entrance while enemies break through another
-- **Over-reliance on walls** — Walls delay enemies but do not kill them. Always pair walls with traps.
-- **Neglecting vertical defense** — Some enemies can climb or fly. Ceiling traps and elevated turrets are essential.
-- **Inadequate lighting** — Dark areas near your base become enemy spawn points. Floodlight everything.
-- **No fallback plan** — Every base should have at least one fallback position. When the main gate falls, where do you go?
+- **Defending the way down, not the way up** — beams and marks belong on the extraction route
+- **Full inventory, empty route** — carrying a fortune through an unmarked, unlit, unbraced tunnel
+- **Ignoring warnings** — creaking, dust, and instability are the mine telling you to leave
+- **Chasing value into danger** — the deeper you dig, "the richer the haul but the farther you are from safety" (official premise)
+- **No lighting plan** — darkness is a confirmed hazard; light is a confirmed tool
+
+## Defense Checklist
+
+- [ ] Pre-craft support beams; place them on the return route early
+- [ ] Flares in inventory for every dark corner
+- [ ] Lantern upgraded (darkness defense)
+- [ ] Route marked back to the elevator
+- [ ] Loot priority decided before descent
+- [ ] Retreat threshold set in your head before you descend
 
 ### Related Guides
 
@@ -138,4 +108,4 @@ Everything maxed out. Automatic repair systems. Orbital strike beacons (endgame 
 - [Rare Ores Guide](/guides/rare-ores)
 - [Crafting Guide](/guides/crafting-guide)
 - [Beginner Guide](/guides/beginner-guide)
-- [Co-op Guide](/guides/coop-guide)
+- [Extraction Guide](/guides/extraction-guide)

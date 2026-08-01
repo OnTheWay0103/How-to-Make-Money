@@ -1,163 +1,117 @@
 ---
-title: "Boss Guide — How to Beat Every Major Boss"
-description: "Complete boss guide for The Relic: First Guardian. Attack patterns, parry timing, weakness strategies, and recommended weapon matchups for 8 early and mid-game bosses."
+title: "Boss Guide — How to Fight the Brutals (General Strategies)"
+description: "How to beat bosses in The Relic: First Guardian. General Brutal-fighting principles: parry-gate vs unblockable fights, relic swapping, stamina-for-defense economy, and build adaptation — with confirmed facts only."
 category: "Guides"
 version: "1.0"
-updated: "2026-07-28"
-keywords: ["relic first guardian bosses", "relic first guardian boss guide", "how to beat relic first guardian bosses", "relic first guardian boss strategies", "relic first guardian boss weaknesses"]
-related: ["combat-guide", "weapons-guide", "builds-guide"]
+updated: "2026-08-01"
+keywords: ["relic first guardian bosses", "relic first guardian boss guide", "how to beat relic first guardian bosses", "relic first guardian boss strategies", "relic first guardian brutals", "relic first guardian how to beat"]
+related: ["all-bosses-list", "boss-strategies", "combat-guide", "builds-guide"]
 ---
 
-# Boss Guide — How to Beat Every Major Boss
+# Boss Guide — How to Fight the Brutals
 
-The Relic: First Guardian features 70+ unique bosses, each with a tragic backstory — former humans transformed into monsters through starvation, curses, and the encroaching Void. Every boss has distinct attack patterns, weaknesses, and tells.
-
----
-
-## General Boss Combat Principles
-
-- **Stamina is for defense only** — Attacking costs zero stamina. Save your bar exclusively for dodging and blocking.
-- **Learn the tells** — Every boss attack has a visual or audio telegraph. Watch the boss, not your character.
-- **Parry windows are generous** — Unlike some soulslikes, The Relic: First Guardian gives reasonable parry timing. Practice on early bosses.
-- **Rune loadout matters** — Swap runes before boss fights. A damage-type-specific resistance rune can trivialize certain encounters.
-- **No penalty for dying** — You keep all collected runes and artifacts on death.
+The Relic: First Guardian is a boss-centric soulslike: **70-80 Brutal fights**, most optional, each with a tragic story. At launch (August 2026) the community has confirmed the game's *general* boss-fighting rules, while per-boss pattern guides are still being documented. This guide covers the confirmed principles that apply to every Brutal. Use it with the [Boss Strategies guide](/guides/boss-strategies) for the advanced split between parry-gate and dodge-gate fights.
 
 ---
 
-## 1. The Withered Gatekeeper — Tutorial Boss
+## The Confirmed Rules of Every Boss Fight
 
-**Location**: Ruined Outpost | **Difficulty**: ★☆☆☆☆
+These mechanics are confirmed by official descriptions and launch reviews, and they apply across the entire roster:
 
-**Attack Patterns**:
-- **Overhead Slam** — 2-second windup, crashes down. Dodge sideways.
-- **Sweeping Strike** — Horizontal slash covering 180°. Dodge backward or parry.
-- **Void Pulse** (50% HP) — AoE shockwave. Run away when purple glow appears.
+### 1. Stamina Is for Defense Only
 
-**Strategy**: Practice parrying here — every attack is slow. Sword & Shield is most forgiving.
+Attacks cost **zero stamina** in this game. Stamina is reserved for dodging, blocking, and parrying. In a boss fight this means:
 
-**Rewards**: Rune of Fortification
+- **Never stop attacking when you are safe** — offense costs nothing.
+- **Guard your stamina bar like a health bar** — every dodge and parry drains it, and being caught empty against a boss combo is usually fatal.
+- Exact costs are **unconfirmed** — ignore guides that quote precise per-action stamina numbers.
 
----
+### 2. Every Boss Is a Parry-Gate or Dodge-Gate Fight
 
-## 2. Corrupted Sentinel — First Real Challenge
+This is the most important confirmed design rule. Official material and launch reviews describe two boss archetypes:
 
-**Location**: Forsaken Garrison | **Difficulty**: ★★☆☆☆
+| Archetype | How to Win | Failure Mode |
+|-----------|-----------|--------------|
+| **Dodge-gate** | Boss uses **unblockable attacks** — blocking/parrying does not work; you must dodge | Trying to block or parry the unblockable → heavy damage |
+| **Parry-gate** | Boss must be broken with **repeated parries** to open an attack window | Not committing to the parry chain → boss never opens up |
 
-**Attack Patterns**:
-- **Three-Hit Combo** — Slash → thrust → slam. Dodge left, right, backward.
-- **Shield Bash** — Quick forward charge. Parry or dodge sideways.
-- **Corrupted Beam** — Tracking void beam at range. Sprint perpendicular.
-- **Enrage (25% HP)** — Combos become 5-hit chains. Play defensively.
+One launch review noted parry-gate bosses can require **up to 15 consecutive parries** to break guard — so patience and rhythm are core skills. Identify which type you are fighting in the first 30 seconds, then commit to the right defensive tool.
 
-**Strategy**: Stay close — the melee combos are easier than the ranged beam. Parry the shield bash. During enrage, switch to hit-and-run: 1-2 hits then dodge.
+### 3. Enemies Rarely Stagger — So Do Not Wait for It
 
-**Best Weapons**: Sword & Shield (safe), Dual Daggers (burst damage).
+Unlike many soulslikes, regular enemies and many bosses **rarely stagger** and have **no visible stagger bar**. You cannot count on stun-locking a Brutal with a few heavy hits. Openings are created by **parries** and by **dodging through combos**, not by stagger fishing. Adjust your expectations: boss fights are marathons of small openings.
 
-**Rewards**: Rune of Retribution, Sentinel's Helm (artifact).
+### 4. Builds Are Meant to Be Swapped per Fight
 
----
+The game's design — freely swappable relics, unique gear, 12 skill trees — exists so you can rebuild between bosses. Preparation beats persistence:
 
-## 3. Husk of the Betrayer — First Major Boss
+- Equip relics that fit the fight (some fragments reshape skills, buff weapons, or improve survivability).
+- If a boss walls you, change your loadout before grinding the same attempt again.
+- This is the game's stated intended loop: "No single strategy works for all" bosses.
 
-**Location**: Ruins of Elara | **Difficulty**: ★★★☆☆
+### 5. Boss Rewards Are Progression
 
-**Attack Patterns**:
-- **Phase 1 (100%-60% HP)**: Lunge Strike, Spinning Slash, Void Step (teleport behind you)
-- **Phase 2 (60%-0% HP)**: Void Clones (2 shadow copies), Clone Explosion, 7-hit Desperation Slash
-
-**Strategy**: Parry the Lunge Strike. When Void Step triggers, count "one" then dodge forward. In Phase 2, kill clones quickly — bait them near the boss before they explode for free damage.
-
-**Best Weapons**: Sword (balanced), Two-Handed (stagger boss out of clone summons).
-
-**Rewards**: Rune of Evasion, Betrayer's Blade Shard (key item).
+Brutals drop **powerful special items and upgrades essential for progression** — plus **Relic Energy**, the currency for buying weapon skills. Fighting bosses is not optional side content; it is the main way you grow stronger.
 
 ---
 
-## 4. The Starving Saint — Phase-Change Boss
+## A General Boss-Fight Loop
 
-**Location**: Cathedral of the Hungry | **Difficulty**: ★★★☆☆
+Until per-boss guides are documented, follow this loop for every Brutal:
 
-**Attack Patterns**:
-- **Phase 1 (Saint Form)**: Healing Hymn (interrupt with heavy attack), Tears of Light (rain projectiles), Gentle Touch (grab, 70% HP damage)
-- **Phase 2 (Corrupted Form, 40% HP)**: Void Scream (AoE, hide behind pillars), Ravenous Lunge (dodge sideways at last moment)
-
-**Strategy**: NEVER let her finish Healing Hymn. Save heavy attacks for interrupts. In Phase 2, always keep a pillar between you. Void Scream one-shots without cover.
-
-**Best Weapons**: Two-Handed (interrupt heals), Staff (damage from behind cover).
-
-**Rewards**: Rune of Preservation, Saint's Tear (artifact).
+1. **Scout the arena** — note pillars, elevation, and hazards before engaging. (Arena design rewards positioning.)
+2. **Identify the gate type** — throw a probe attack; if your block/parry is punished, it is a dodge-gate fight.
+3. **Learn one combo at a time** — the roster's variety means no two bosses play alike; die deliberately to catalog moves.
+4. **Spend your stamina only on the correct defense** — dodge unblockables, parry parryable chains, never panic-roll.
+5. **Attack only during real openings** — since enemies rarely stagger, one or two hits per opening is the sustainable rhythm.
+6. **Swap relics and gear between attempts** — adapt the build, not just the timing.
+7. **Heal smart** — potion capacity is limited until you collect Shards of Esser (see the [Upgrade System guide](/guides/upgrade-system)); heal during guaranteed-safe windows only.
 
 ---
 
-## 5. Drakhan, the Ashen General — Add-Management Fight
+## What Not to Do (Unconfirmed Claims to Ignore)
 
-**Location**: Scorched Battlefield | **Difficulty**: ★★★★☆
-
-**Attack Patterns**: Flame Wave (jump over or dodge through), summons 3 Ash Soldiers, General's Command (buffs soldiers +50% damage), Meteor Strike (tracking delayed AoE).
-
-**Strategy**: Ash soldiers must die immediately. Use AoE attacks to clear groups. When Meteor Strike winds up, sprint — don't dodge — to conserve stamina. Kill Drakhan before the third wave of soldiers.
-
-**Best Weapons**: Two-Handed (AoE), Staff (ranged add management).
-
-**Rewards**: Rune of Devastation, Ashen General's Pauldron.
+- **"Bosses have recommended levels"** — the game has no levels; any level-based advice is fabricated.
+- **"Boss X is weak to elemental Y (+40% damage)"** — no elemental weakness system is confirmed.
+- **"Chain-stagger the boss with heavy attacks"** — enemies rarely stagger; this strategy is unconfirmed.
+- **"Use the 'X' rune, dropped by boss Y"** — specific rune drop tables are not documented.
+- **"Summon a friend"** — there is no co-op; see the [Co-Op guide](/guides/co-op-guide).
 
 ---
 
-## 6. The Weeping Twins — Dual Boss
+## Preparing for a Brutal: Checklist
 
-**Location**: Twin Lakes | **Difficulty**: ★★★★☆
-
-**Attack Patterns**: Twin Strike (both attack from opposite sides), linked health pool, enrage when one dies (+50% speed/damage), Drowning Grasp (AoE floor hazard).
-
-**Strategy**: Damage them equally! Bring both to ~20% HP, then burst one down and immediately finish the other. Kill the weeping sister (creates slow field) first.
-
-**Best Weapons**: Dual Daggers (single-target burst), Sword (two-target management).
-
-**Rewards**: Rune of Swiftness, Twins' Locket (artifact).
+- [ ] Relic loadout tuned to the fight (swappable anytime)
+- [ ] Weapons forged at the blacksmith to a decent level
+- [ ] Potion capacity expanded with Shards of Esser where found
+- [ ] Skill tree nodes bought with Relic Energy (HP/stamina nodes first)
+- [ ] Identified whether the fight is parry-gate or dodge-gate
+- [ ] Arena scouted for cover and hazards
 
 ---
 
-## 7. Void-Touched Guardian — Story Boss
+## Common Questions
 
-**Location**: Shattered Relic Chamber | **Difficulty**: ★★★★☆
+**Q: What is the first boss?**
+A: The game's opening boss is **unconfirmed by name** — guides naming a "tutorial boss" are speculative. The opening region is a ruined/burning area per the game's confirmed region list.
 
-**Attack Patterns**: Mirror Match (uses your weapon family), Relic Beam (hide behind central relic), Guardian's Resolve (regens 5% HP/sec at 30%), Void Eruption (floor hazards).
+**Q: How do I beat a boss that blocks everything?**
+A: If parries are being deflected, it is a **dodge-gate** fight: learn the unblockable tells and dodge through them, attacking in the recovery windows.
 
-**Strategy**: Switch to a weapon you're unfamiliar with before the fight, then swap back after the cutscene. Relic Beam can be baited into the central relic to stagger. Save all skill cooldowns for the healing phase.
+**Q: A boss ignores my attacks — what now?**
+A: You are likely fighting a **parry-gate** boss. Commit to the parry chain (reviews report chains of up to 15 parries) until its guard breaks and the window opens.
 
-**Best Weapons**: Staff (AI handles range poorly), Dual Daggers (burst DPS for healing phase).
+**Q: Are bosses too hard?**
+A: Reviews are split — some critics found fights engaging, others described damage-sponge bosses and technical problems (freezing bosses, camera issues, frame drops). The game's difficulty is real, but so are its build-adaptation tools.
 
-**Rewards**: Rune of the Arcanist, Fragment of the First Relic (story key item).
-
----
-
-## 8. The Forgotten King — Mid-Game Finale
-
-**Location**: Throne of Ashes | **Difficulty**: ★★★★★
-
-**Attack Patterns**:
-- Phase 1: Sword phase with royal guard summons
-- Phase 2 (70% HP): Adds scepter magic + melee mixups
-- Phase 3 (40% HP): All attacks Void-infused, 50% faster
-- Desperation (10% HP): Continuous attack wave — MUST be parried
-
-**Strategy**: Phase 1 — kill guards immediately. Phase 2 — dodge projectiles, watch for melee follow-ups. Phase 3 — learn the faster rhythm. Desperation wave requires perfect parries — blocking breaks stamina, dodging impossible. Save full stamina for this moment.
-
-**Best Weapons**: Sword & Shield (survival), Sword (parry mastery).
-
-**Rewards**: Rune of the Void, King's Shattered Crown (legendary artifact).
+**Q: Do I lose progress when I die?**
+A: **Unconfirmed** — no reliable source documents the death penalty. Soulslikes commonly have some loss on death, but treat specific claims as unverified until documented.
 
 ---
 
-## Boss Combat Tips Summary
+### Related Guides
 
-1. **Learn parry timing on early bosses** — most important skill.
-2. **Manage stamina carefully** — dodge only when necessary.
-3. **Swap runes per boss** — match resistances to boss damage types.
-4. **Use the environment** — pillars, hazards, and cover exist in most arenas.
-5. **Don't get greedy** — 1-2 hits per opening. Boss fights are marathons.
-6. **Explore first** — a good artifact from exploration can make a boss fight much easier.
-
----
-
-*Boss strategies will be expanded post-launch as the community discovers optimal tactics for all 70+ bosses.*
+- [All Bosses List](/guides/all-bosses-list) — The 70-80 Brutal roster, confirmed vs unconfirmed
+- [Boss Strategies](/guides/boss-strategies) — Parry chains, unblockable tells, and build swapping
+- [Combat Guide](/guides/combat-guide) — The stamina economy and parry system in depth
+- [Best Builds Guide](/guides/builds-guide) — Loadouts to adapt per fight

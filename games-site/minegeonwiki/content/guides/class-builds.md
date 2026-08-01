@@ -1,199 +1,108 @@
 ---
-title: "Class Builds Guide — Optimal Builds for Tank, Gunslinger & Engineer"
-description: "Complete class builds guide for MineGeon: Renegades. Learn optimal builds for Tank, Gunslinger, and Engineer classes, including skill tree paths, recommended equipment, and synergies."
-category: "Guides"
-version: "1.0"
-updated: "2026-07-29"
-keywords: ["MineGeon class builds", "MineGeon Tank build", "MineGeon Gunslinger build", "MineGeon Engineer build", "MineGeon skill tree", "MineGeon best builds"]
-related: ["beginner-guide", "coop-multiplayer-guide", "faq"]
+title: 'Class Builds Guide — Role Builds for Marshall, Trevor & Ari'
+description: 'Class builds guide for MineGeon: Renegades. Learn role-based build strategies for Marshall the Tank, Trevor the Gunslinger, and Ari the Engineer — gadgets, weapons, ultimates, and team synergies.'
+category: Guides
+version: '1.0'
+updated: '2026-08-01'
+keywords: ['minegeon renegades tank build', 'minegeon renegades gunslinger build', 'minegeon renegades engineer build', 'minegeon best build', 'minegeon renegades build guide', 'minegeon renegades best class for solo']
+related: ['classes-guide', 'gadgets-guide', 'coop-multiplayer-guide', 'tier-list']
 ---
 
 ## Class Builds Guide — MineGeon: Renegades
 
-MineGeon: Renegades features three distinct classes, each with multiple viable build paths. Your class choice and build decisions determine your playstyle, effectiveness in combat, and ability to survive the mines. This guide covers optimal builds for the Tank, Gunslinger, and Engineer, including skill tree paths, recommended equipment, and synergies.
+MineGeon: Renegades is a roguelite, which means your build is partly chosen and partly found. You pick a Renegade (Marshall, Trevor, or Ari), then the run hands you weapons, gadgets, and upgrades that you combine into a build as you level. Because the minegeons are procedurally generated, the best builders are the ones who adapt — but the role you commit to stays in your control.
 
-### Class Overview
+> **Accuracy note:** Kickstone Studio has confirmed three classes with unique stats and ultimate abilities, plus 150+ gadgets (grenades, energy shields, combat drones), multiple weapons, and legendary weapons of the "Ancient Ones." Exact ability names, skill trees, and item stats have not been published. This guide gives role-based strategies built on confirmed systems, not invented skill trees or item stats.
 
-| Class | Role | Difficulty | Health | Damage | Utility | Best For |
-|-------|------|------------|--------|--------|---------|----------|
-| Tank | Melee frontline / Damage absorber | Easy | Very High | Medium | Low | Beginners, solo play, co-op anchor |
-| Gunslinger | Ranged DPS / Burst damage | Medium | Low | Very High | Medium | Experienced players, boss killing |
-| Engineer | Utility / Area control / Turret DPS | Hard | Medium | High | Very High | Tactical players, team support |
+## The Three Roles
 
-### Tank Builds
+| Role | Renegade | Job in the Team | Core Loop |
+|------|----------|-----------------|-----------|
+| Frontline | Marshall (Tank) | Absorb pressure, hold enemy attention, protect teammates | Move in, survive, make space |
+| Damage | Trevor (Gunslinger) | Highest damage output, kill priority targets | Keep range, shoot, dodge |
+| Utility | Ari (Engineer) | Flexible support, gadget use, covering teammates | Adapt, control space, assist |
 
-The Tank is the most forgiving class with the highest survivability. Tanks excel at drawing enemy attention, absorbing damage, and controlling enemy positioning.
+## Marshall Builds (Tank)
 
-#### Build Archetype: Iron Wall (Maximum Survivability)
+### Build Archetype: The Anchor (Co-op / Bosses)
+Focus: survivability and holding enemy attention so your team can mine and deal damage.
 
-The Iron Wall build focuses on pure damage reduction and aggro generation. This is the recommended build for beginners and for players who want to anchor their team.
+- **Core loop:** be the frontmost Renegade. Let enemies commit to you while Trevor and Ari handle damage and mining.
+- **Gadgets to look for:** energy shields (defensive), anything that slows or interrupts swarms.
+- **Stat priorities (unconfirmed specifics):** survivability upgrades first — your damage matters less than your uptime.
+- **Ultimate:** save your ultimate for boss arenas and swarm moments, not random rooms.
+- **Best team:** with Trevor (damage) or Ari (support).
 
-- **Skill Tree Path:**
-  - **Core (Mandatory):** Shield Slam (primary aggro), Fortify (self-defense buff), Iron Stance (passive damage reduction)
-  - **Priority 1:** Unbreakable (+25% max HP), Taunting Roar (AoE aggro), Reinforced Armor (flat damage reduction)
-  - **Priority 2:** Counterstrike (damage reflection), Grit (status resistance), Second Wind (heal at low HP)
-  - **Optional:** Rally (team defense buff), Charge (mobility + stun)
+### Build Archetype: The Lone Prospector (Solo)
+Focus: extraction consistency. As the most forgiving class, Marshall is a great solo main.
 
-- **Stat Priority:** Defense > Max HP > Block Chance > Status Resistance > Taunt Effectiveness
+- **Core loop:** mine until danger spikes, extract, bank minerals, upgrade attributes.
+- **Gadgets to look for:** combat drones (they shoot while you mine), grenades for escape pressure.
+- **Key habit:** never mine in the middle of an open room — use walls and chokepoints so you can only be approached from one direction.
 
-- **Recommended Equipment:**
-  - Weapon: Tower Shield + War Hammer (max block value)
-  - Armor Set: Bulwark Set (bonus defense and HP)
-  - Accessories: Guardian Ring (increased aggro generation), Vitality Amulet (% HP increase)
-  - Consumables: Iron Skin Potion, Regeneration Salve
+## Trevor Builds (Gunslinger)
 
-- **Synergies:**
-  - + Gunslinger: Tank holds aggro while Gunslinger deals damage from range
-  - + Engineer: Tank clusters enemies for Engineer's AoE turrets
-  - + Another Tank: Double aggro generation for extremely dangerous fights
+### Build Archetype: The Boss Melter (Co-op)
+Focus: single-target damage on biome bosses and elite enemies.
 
-#### Build Archetype: Battle Tank (Offensive Hybrid)
+- **Core loop:** stay at range, focus high-value targets, let Marshall hold the frontline.
+- **Gadgets to look for:** anything that keeps distance (shields, crowd control) — your survivability comes from gadgets, not stats.
+- **Ultimate:** boss arenas. A saved ultimate for the biome boss is worth more than a cleared room.
+- **Positioning rule:** in a bullet-hell game, damage windows are the moments you are NOT dodging. Learn enemy patterns, then find the safe windows to unload.
 
-Sacrifices some survivability for respectable melee damage:
+### Build Archetype: The Harvester (Solo)
+Focus: fast clear times and quick extractions.
 
-- **Skill Tree Path:**
-  - **Core:** Shield Slam, Power Strike (melee damage), Fortify
-  - **Priority 1:** Crushing Blow (% HP damage), Aggressive Stance (damage stance), Charge
-  - **Priority 2:** Unbreakable, Counterstrike, Second Wind
+- **Core loop:** clear rooms efficiently, mine the valuable veins, extract early.
+- **Gadgets to look for:** offensive gadgets that clear swarms so you can mine in peace.
+- **Key habit:** leave yourself an escape route — know which direction the exit is before you commit to a room.
 
-- **Stat Priority:** Attack > Defense > Max HP > Crit Rate > Block Chance
+## Ari Builds (Engineer)
 
-- **Recommended Equipment:**
-  - Weapon: War Hammer + Spiked Shield (damage on block)
-  - Armor Set: Vanguard Set (attack + defense hybrid)
-  - Accessories: Strength Ring, Onslaught Amulet
+### Build Archetype: The Quartermaster (Co-op)
+Focus: team support and area control.
 
-### Gunslinger Builds
+- **Core loop:** cover the team — control space with gadgets, cover miners, keep the extraction path clear.
+- **Gadgets to look for:** combat drones and area-denial gadgets (grenades) to guard choke points.
+- **Ultimate:** hold it for emergencies — teammate pressure moments and boss phases.
+- **Best team:** with Marshall + Trevor, the balanced trio.
 
-The Gunslinger is a high-damage, low-survivability class that rewards positioning and mechanical skill. Gunslingers deal the highest single-target damage in the game.
+### Build Archetype: The Adaptable Soloist (Solo)
+Focus: flexibility run to run.
 
-#### Build Archetype: Precision Shooter (Critical Hit Focus)
+- **Core loop:** read the run — if the minegeon hands you offensive gear, play aggressive; if it hands you defensive gear, play safe and deep.
+- **Gadgets to look for:** one defensive and one offensive option whenever possible.
+- **Key habit:** Ari rewards game knowledge — the better you know enemy patterns and gadget utility, the more the balanced class shines.
 
-Maximum critical damage output:
+## How Builds Actually Work (Confirmed Systems)
 
-- **Skill Tree Path:**
-  - **Core (Mandatory):** Quick Shot (primary attack), Deadshot (crit steroid), Evasive Roll (mobility)
-  - **Priority 1:** Critical Eye (+crit rate), Lethal Precision (+crit damage on weak points), Sniper Stance (damage multiplier from range)
-  - **Priority 2:** Ricochet (AoE clear), Deadeye (guaranteed crit on cooldown), Adrenaline (speed boost)
-  - **Optional:** Smoke Screen (defensive), Tracking Shot (homing projectiles)
+1. **Leveling unlocks gear.** Leveling up unlocks gadgets, and weapons are equippable — the deeper your run goes and the more you level, the more options you have.
+2. **Weapons + gadgets + ultimates = builds.** Kickstone Studio describes the combination of gadgets, weapons, and ultimate abilities as the core build system, with synergies between them.
+3. **Permanent upgrades shape the baseline.** Minerals traded for upgrades to the ship and each Renegade's attributes raise your baseline between runs — over time your "weak" runs are stronger than your early "good" runs.
+4. **Monoliths choose the route.** Ancient monoliths let the team vote on the descent path. Route choice determines which hazards and opportunities you meet, so treat it as part of your build decision.
 
-- **Stat Priority:** Crit Rate > Crit Damage > Attack > Range > Speed
+## Team Synergy Strategies
 
-- **Recommended Equipment:**
-  - Weapon: Long Barrel Revolver (high crit multiplier) or Precision Rifle (range bonus)
-  - Armor Set: Sharpshooter Set (crit rate + crit damage)
-  - Accessories: Lucky Charm (crit rate), Eagle Eye Amulet (range + accuracy)
+### The Classic Trio (Marshall + Trevor + Ari)
+The most balanced composition: Marshall holds the line, Trevor melts priority targets, Ari covers support and flexibility. Strong in every biome type.
 
-- **Synergies:**
-  - + Tank: Tank provides safe positioning for uninterrupted DPS
-  - + Engineer: Engineer's slowing mines keep enemies in your crit range
-  - + Another Gunslinger: Double ranged DPS for quick boss kills
+### The Escort (Marshall + Trevor)
+The safest duo. Marshall tanks, Trevor kills. Good for boss pushes with two players.
 
-#### Build Archetype: Run and Gun (Mobility Focus)
+### The Field Crew (Trevor + Ari)
+High damage with utility. Fragile without Marshall — requires good communication and strong dodging from both players.
 
-Trades some damage for survivability through movement:
+## Build Optimization Tips
 
-- **Skill Tree Path:**
-  - **Core:** Quick Shot, Evasive Roll, Adrenaline
-  - **Priority 1:** Gun Fu (damage after dodge), Rapid Fire (fast attack speed), Smoke Screen
-  - **Priority 2:** Ricochet, Deadshot, Critical Eye
-
-- **Stat Priority:** Speed > Attack > Crit Rate > Evasion > Range
-
-- **Recommended Equipment:**
-  - Weapon: Dual Wield Pistols (fast attack speed)
-  - Armor Set: Windrunner Set (speed + evasion)
-
-### Engineer Builds
-
-The Engineer is the most versatile class with access to turrets, mines, buffs, and debuffs. Engineers require tactical positioning and foresight to play effectively.
-
-#### Build Archetype: Turret Master (Area Control)
-
-Maximum turret damage and coverage:
-
-- **Skill Tree Path:**
-  - **Core (Mandatory):** Turret Deployment (primary), Repair (turret healing), Overclock (turret DPS buff)
-  - **Priority 1:** Double Turret (two turrets), Turret Armor (turret HP), Turret Range (increased coverage)
-  - **Priority 2:** Explosive Turret (AoE damage), Healing Turret (ally healing), Turret Link (shared HP)
-  - **Optional:** Mines, Shield Generator, Resource Drone
-
-- **Stat Priority:** Turret Damage > Turret HP > Resource Regen > Defense > Speed
-
-- **Recommended Equipment:**
-  - Weapon: Wrench (melee, can repair turrets) or Rivet Gun (ranged)
-  - Armor Set: Machinist Set (turret bonuses)
-  - Accessories: Gear Ring (turret attack speed), Power Cell (turret duration)
-
-- **Synergies:**
-  - + Tank: Tank holds enemies near turret kill zones
-  - + Gunslinger: Engineers control space, Gunslingers clean up survivors
-  - + Another Engineer: Double turrets create overlapping fire zones
-
-#### Build Archetype: Demolition Expert (Explosive Damage)
-
-Focuses on mines and explosives for burst damage:
-
-- **Skill Tree Path:**
-  - **Core:** Proximity Mine, Sticky Grenade, Turret Deployment (backup)
-  - **Priority 1:** Minefield (multiple mines), Cluster Grenade (split explosives), Detonate (remote explosion)
-  - **Priority 2:** Slow Mine (crowd control), Fire Mine (damage over time), Turret
-
-- **Stat Priority:** Explosive Damage > Area of Effect > Resource Regen > Speed
-
-- **Recommended Equipment:**
-  - Weapon: Grenade Launcher
-  - Armor Set: Demolition Set (explosive radius + damage)
-
-### Skill Tree Progression Path
-
-| Level | Skill Points | Tank Priority | Gunslinger Priority | Engineer Priority |
-|-------|-------------|---------------|---------------------|-------------------|
-| 1-5 | 5 | Shield Slam, Fortify | Quick Shot, Deadshot | Turret Deployment, Repair |
-| 6-10 | 10 | Unbreakable, Iron Stance | Critical Eye, Evasive Roll | Overclock, Turret Armor |
-| 11-15 | 15 | Taunting Roar, Reinforced Armor | Lethal Precision, Sniper Stance | Double Turret, Turret Range |
-| 16-20 | 20 | Counterstrike, Grit, Second Wind | Ricochet, Deadeye, Adrenaline | Explosive Turret, Healing Turret |
-| 21-25 | 25 | Rally, Charge, Battle Tank options | Smoke Screen, Tracking Shot | Mines, Shield Generator |
-| 26-30 | 30 | Capstone: Unbreakable Wall | Capstone: Perfect Shot | Capstone: Master Engineer |
-
-### Co-op Synergy Strategies
-
-#### The Classic Trio (Tank + Gunslinger + Engineer)
-
-The most balanced and reliable team composition:
-
-- **Tank:** Holds aggro, clusters enemies, provides defensive buffs
-- **Gunslinger:** Focuses down high-priority targets, provides ranged burst
-- **Engineer:** Controls space with turrets, provides healing and utility
-- **Strength:** Works in any biome, handles all enemy types
-- **Weakness:** No redundancy if one player goes down
-
-#### The Tank Wall (Tank + Tank + Gunslinger)
-
-Maximum survivability for extremely dangerous content:
-
-- **Double aggro control** means enemies never target the Gunslinger
-- **Slower clear speed** but much safer
-- **Best for:** Boss fights, Deep Core biome
-
-#### The Turret Fortress (Engineer + Engineer + Tank)
-
-Unmatched area control:
-
-- **4-6 turrets** overlapping creates a kill zone that melts approaching enemies
-- **Sacrifices** burst damage for sustained area denial
-- **Best for:** Defend objectives, chokepoint biomes
-
-### Build Optimization Tips
-
-1. **One primary, one backup.** Focus on one build archetype but keep equipment for a backup. Biome conditions may demand a different approach.
-2. **Synergize with your team.** The best build is one that complements your teammates. A solo DPS build is useless if the party lacks a tank.
-3. **Adapt to the biome.** The Shallow Mines favor Gunslingers. The Deep Core favors Tanks and Engineers. Adjust your build to match.
-4. **Upgrade your equipment.** A build is only as good as the gear supporting it. Invest upgrade resources into your primary weapon first.
-5. **Test in low-stakes runs.** Try new builds on early biomes before risking them in the Deep Core.
+1. **Commit to a role, not a fixed loadout.** Roguelite randomness means you adapt within your role instead of chasing one perfect item set.
+2. **Mine with an exit plan.** Every node you mine is a commitment — check the room before you start.
+3. **Save ultimates for the biome boss.** Boss fights are the run's biggest risk; a saved ultimate flips those fights.
+4. **Invest permanent upgrades in one Renegade early.** Concentrated upgrades make your main class noticeably stronger faster than spreading thin.
+5. **Watch the community meta.** The game launched in July 2026 and the meta is being discovered live — check the official Discord and patch notes as builds evolve.
 
 ### Related Guides
 
-- [Beginner Guide](/guides/beginner-guide) — Getting started with MineGeon
-- [Co-op & Multiplayer Guide](/guides/coop-multiplayer-guide) — Team up effectively
-- [FAQ](/guides/faq) — Frequently asked questions
+- [Classes Guide](/guides/classes-guide) — class-by-class breakdown
+- [Gadgets Guide](/guides/gadgets-guide) — gadgets and ultimates in detail
+- [Co-op & Multiplayer Guide](/guides/coop-multiplayer-guide) — teaming up effectively
+- [Tier List](/guides/tier-list) — honest launch-window class comparison

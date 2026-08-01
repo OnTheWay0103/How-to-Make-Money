@@ -1,152 +1,118 @@
 ---
 title: "Controls & Settings Guide — PC & PS5 Setup"
-description: "Complete controls and settings guide for The Relic: First Guardian. Default PC keyboard/mouse bindings, PS5 DualSense controls, recommended settings for performance and accessibility."
+description: "Controls and settings guide for The Relic: First Guardian. Official PC system requirements, launch-state performance, settings advice for stutter and frame drops, and honest notes on unconfirmed keybinds."
 category: "Guides"
 version: "1.0"
-updated: "2026-07-28"
+updated: "2026-08-01"
 keywords: ["relic first guardian controls", "relic first guardian settings", "relic first guardian keybinds", "relic first guardian PS5 controls", "relic first guardian PC controls", "relic first guardian best settings"]
-related: ["beginner-guide", "combat-guide"]
+related: ["beginner-guide", "combat-guide", "steam-pc-performance-guide", "release-date-platforms"]
 ---
 
 # Controls & Settings Guide — PC & PS5 Setup
 
-Optimize your control setup and settings for the best experience in The Relic: First Guardian. This guide covers default bindings for both PC and PS5, recommended adjustments, and performance settings.
+This guide covers the **official system requirements** for PC, the **confirmed launch-state performance situation**, and settings advice that actually helps. **Honest note**: default keybindings and in-game settings are **not yet verified at launch** (August 2026) — the game released July 31, 2026, and the exact binding tables circulating online are unconfirmed. Use this guide for the confirmed facts and general best practices, and check the in-game options menu for the true defaults.
 
 ---
 
-## PC Controls (Keyboard & Mouse)
+## PC (Steam) — Official System Requirements
 
-### Movement & Camera
+**Minimum (1080p / low / 30 FPS):**
+- OS: Windows 10 64-bit
+- CPU: Intel Core i5-8400 / AMD Ryzen 5 2600
+- RAM: 12 GB
+- GPU: NVIDIA GTX 1060 (6 GB) / AMD RX 580 (8 GB)
+- Storage: 50 GB SSD (SSD required)
+- Upscaling: DLSS / FSR 2 supported
 
-| Action | Default Key |
-|--------|------------|
-| Move Forward | W |
-| Move Backward | S |
-| Strafe Left | A |
-| Strafe Right | D |
-| Sprint (hold) | Left Shift |
-| Jump | Space |
-| Camera Control | Mouse Movement |
-| Lock-On Target | Middle Mouse Button |
-| Switch Target (locked on) | Mouse Wheel |
+**Recommended (1080p / high / 60 FPS):**
+- OS: Windows 11 64-bit
+- CPU: Intel Core i7-9700K / AMD Ryzen 7 3700X
+- RAM: 16 GB
+- GPU: NVIDIA RTX 2070 (8 GB) / AMD RX 5700 XT (8 GB)
+- Storage: 50 GB SSD (plus ~10 GB for updates)
 
-### Combat
-
-| Action | Default Key |
-|--------|------------|
-| Light Attack | Left Mouse Button |
-| Heavy Attack (hold) | Right Mouse Button |
-| Block / Parry | Left Ctrl |
-| Dodge / Roll | Alt |
-| Skill 1 | Q |
-| Skill 2 | E |
-| Skill 3 | R |
-| Skill 4 | F |
-| Use Item | X |
-| Interact | F |
-
-### Menu & System
-
-| Action | Default Key |
-|--------|------------|
-| Inventory / Equipment | Tab |
-| Map | M |
-| Quest Log | J |
-| Pause Menu | Escape |
-| Quick Item Slot 1-4 | 1, 2, 3, 4 |
-
-### Recommended PC Keybind Changes
-
-The default bindings can be awkward. Consider these adjustments:
-- **Dodge/Roll**: Change from Alt to **Side Mouse Button** or **Space** (and move Jump to Ctrl)
-- **Block/Parry**: Change from Ctrl to **Right Mouse Button** (move Heavy Attack to Side Mouse Button)
-- **Lock-On**: Change from Middle Mouse to **Tab**
-- **Skills**: Consider Z, X, C, V instead of Q, E, R, F (keeps movement fingers free)
+**Interpretation**: the game is GPU-light and CPU-demanding relative to most current titles — an older 8-core CPU and a mid-range GPU from the RTX 20-series era are the target baseline.
 
 ---
 
-## PS5 Controls (DualSense)
+## Launch-State Performance (Confirmed by Reviews)
 
-| Action | Button |
-|--------|--------|
-| Light Attack | R1 |
-| Heavy Attack | R2 |
-| Block / Parry | L1 |
-| Dodge / Roll | Circle (O) |
-| Sprint (hold) | L3 (click left stick) |
-| Jump | Cross (X) |
-| Lock-On Target | R3 (click right stick) |
-| Skill 1 | Square (□) |
-| Skill 2 | Triangle (△) |
-| Skill 3 | L1 + Square |
-| Skill 4 | L1 + Triangle |
-| Use Item | D-Pad Up |
-| Interact | D-Pad Down |
-| Map | Touchpad |
-| Pause Menu | Options |
+Reviews consistently document the following at launch:
 
-### DualSense Features
-- **Adaptive Triggers**: Light/heavy attack have distinct resistance on R1/R2
-- **Haptic Feedback**: Parry impacts, boss roars, and Void pulses have unique vibration patterns
-- **Controller Speaker**: Rune pickup and quest update sounds play through controller
+- **Framerate drops** — as low as ~15 FPS in some boss fights (IGN)
+- **Janky camera and lock-on** — camera control and target switching misbehave in encounters
+- **Bugs** — bosses freezing, failing to spawn, hitbox inconsistencies
+- **Sluggish controls** — input can feel heavy, especially on slower weapon families
+
+These are **the game's biggest complaint** across all reviews, positive and negative alike. Patches may improve matters — watch the Steam news/PS5 update notes.
 
 ---
 
-## Recommended Settings
+## Settings Advice (General Best Practices)
 
-### Display Settings
+Until the exact options menu is verified, these are safe defaults for soulslike games with reported stutter:
 
-| Setting | Recommended | Notes |
-|---------|-------------|-------|
-| Resolution | Native (1920×1080 or 2560×1440) | Match your monitor |
-| VSync | Off | Use G-Sync/FreeSync if available |
-| Frame Rate Cap | 60 FPS | Game targets 60 FPS on most hardware |
-| Field of View | Default (80) | Can be increased to 90 for wider view |
-| Motion Blur | Off | Disable for clearer combat visibility |
-| Camera Shake | 50% | Reduce for less disorientation |
+### Performance First
+1. **Update GPU drivers** — launch-week drivers from NVIDIA/AMD are usually available.
+2. **Enable DLSS or FSR 2** (supported per Steam specs) if framerate dips — both are confirmed supported.
+3. **Lower shadow quality and post-processing** first — the usual suspects for FPS loss; keep texture quality high (loads to VRAM, costs little FPS).
+4. **Cap at 30 FPS if needed** — for a parry-based combat game, a stable 30 beats fluctuating 40-60.
+5. **Install on SSD** — the official requirements demand an SSD; load times after death are the biggest quality-of-life factor.
 
-### Graphics Settings (PC)
+### Camera & Comfort
+- **Reduce camera sensitivity slightly** if the janky camera feels worse than you are used to.
+- **Turn off motion blur** if present — recommended for combat readability.
+- **Check for an off-screen attack indicator** — if the accessibility menu includes visual attack cues, enable them (unconfirmed; check in-game).
 
-| Setting | Recommended | Notes |
-|---------|-------------|-------|
-| Texture Quality | High | Most important for visual clarity |
-| Shadow Quality | Medium | Good balance of visuals and performance |
-| Anti-Aliasing | TAA | Temporal AA recommended |
-| Ambient Occlusion | On | Adds depth to environments |
-| Reflections | Low | Minor visual impact, significant performance cost |
-| Post-Processing | Medium | Affects bloom, color grading |
-
-### Performance Targets
-
-Based on preview data, recommended specs for 60 FPS at 1080p:
-- **GPU**: GTX 1660 Super or better
-- **CPU**: Intel i7-8700K / Ryzen 5 1600X or better
-- **RAM**: 16 GB
-- **Storage**: SSD recommended for load times
+### Input Setup
+- **Controller on PC**: a wired controller is recommended — Bluetooth latency can hurt parry timing, and this game is parry-centric.
+- **Keyboard & mouse**: remap dodge to an easy thumb/finger reach — dodging is your #1 defensive input, and the default may not suit you. Exact defaults are unverified; customize to comfort.
 
 ---
 
-## Accessibility Options
+## PS5 Notes
 
-| Setting | Options |
-|---------|---------|
-| Subtitles | Off / On / Large Text |
-| Color Blind Mode | Off / Protanopia / Deuteranopia / Tritanopia |
-| Controller Remapping | Full remapping supported |
-| Hold vs Toggle | Sprint, Block, and Lock-On can be toggled |
-| Camera Sensitivity | Separate X/Y axis adjustment |
-| Audio Cues | Visual indicators for off-screen attacks (toggleable) |
+- Native PS5 release; DualSense features (adaptive triggers, haptics) are **plausible but unconfirmed** — do not rely on claims of specific trigger/haptic behaviors.
+- Performance modes (60 FPS vs quality) are **unconfirmed** — reviews report framerate issues, so do not assume a stable performance mode exists yet.
 
 ---
 
-## Pre-Launch Optimization Tips
+## Confirmed Controls Concepts (Design-Level)
 
-1. **Install on SSD** — Soulslike games benefit significantly from fast load times after deaths.
-2. **Close background apps** — The game is reported to be CPU-intensive during boss fights.
-3. **Update GPU drivers** — Day-1 drivers expected for the July 31 launch.
-4. **Disable Discord overlay** — Overlays can cause stuttering in Unreal Engine games.
-5. **Use a wired controller on PC** — Bluetooth latency can affect parry timing.
+While exact bindings are unverified, the confirmed control *design* is:
+
+| Action | Confirmed Concept |
+|--------|-------------------|
+| Light / heavy attacks | Free — cost zero stamina |
+| Dodge / block / parry | Defense actions — spend stamina |
+| Skills | Cooldown-based; bound to skill slots |
+| Relic / gear swapping | Between fights — the intended adaptation loop |
+| Interact | Standard contextual prompt |
 
 ---
 
-*Settings and controls verified against pre-launch previews. Will be updated with launch-day patch notes.*
+## Common Questions
+
+**Q: What are the default keybinds?**
+A: **Unverified** at launch. Check the in-game options menu; do not trust tables on third-party sites.
+
+**Q: Does the game run well on my PC?**
+A: Compare your hardware to the official specs above. Note that reviews report framerate drops even on capable hardware — expect some rough spots.
+
+**Q: Is DLSS supported?**
+A: **Yes** — the Steam listing confirms DLSS and FSR 2 support.
+
+**Q: Does PS5 have 60 FPS mode?**
+A: **Unconfirmed.** Reviews report frame drops on consoles; no verified mode breakdown exists.
+
+**Q: Will performance improve?**
+A: Likely over time via patches — the launch build has known issues. See the [PC Performance guide](/guides/steam-pc-performance-guide).
+
+---
+
+### Related Guides
+
+- [Beginner Guide](/guides/beginner-guide) — What to know before you play
+- [Combat Guide](/guides/combat-guide) — The inputs that matter (parry, dodge, skills)
+- [PC Performance Guide](/guides/steam-pc-performance-guide) — Fixes for stutter and FPS drops
+- [Release Date & Platforms](/guides/release-date-platforms) — Editions, price, and specs

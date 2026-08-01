@@ -1,100 +1,107 @@
 ---
-title: 'Secrets Guide — Hidden Content, Easter Eggs & Unlockables in Lunarium'
-description: 'Discover all secrets in Lunarium. Hidden bosses, secret areas, easter eggs, unlockable characters, and rare items you might miss.'
-keywords: ['lunarium secrets', 'lunarium hidden content', 'lunarium easter eggs', 'lunarium secret bosses', 'lunarium unlockables']
+title: 'Secrets Guide — Hidden Content, Chests & Optional Bosses in Lunarium'
+description: 'The verified secrets of Lunarium: hidden chests, the embroidery blueprint, Astral Shards, the optional Rearguard Warrior, and the Dreampath butterfly. Plus a warning about fake secret guides.'
+keywords:
+  - lunarium secrets
+  - lunarium hidden content
+  - lunarium secret chests
+  - lunarium optional boss
+  - lunarium collectibles
 category: Secrets
 version: '1.0'
-updated: '2026-07-29'
+updated: '2026-08-01'
 related:
+  - exploration-guide
+  - castle-walkthrough
   - boss-guide
-  - endings-guide
-  - equipment-guide
+  - endgame-content
 ---
 
-## Secret Content Overview
+## Lunarium Secrets Guide — Hidden Content, Chests & Optional Bosses
 
-Lunarium hides substantial content behind secrets — optional bosses, hidden areas, unlockable characters, and rare equipment. This guide catalogs everything discovered so far.
+**Lunarium 1.0 / Updated: August 1, 2026**
 
-## Secret Bosses
+This guide was previously published with invented secrets — hidden bosses like the "Lunar Warden" and "Eclipse Knight", a Konami-code developer room, unlockable characters, and a moon-rabbit chase. **None of that exists.** Lunarium does have real secrets — here are the ones verified by community walkthroughs of the released game, and nothing more.
 
-### Lunar Warden
-- **Location**: Archipelago — hidden cave behind the waterfall in Zone 3
-- **Unlock**: Defeat all 3 Archipelago mini-bosses, then interact with the moon shrine at midnight (in-game time)
-- **Difficulty**: Harder than any main-story boss
-- **Reward**: Warden's Oath (legendary accessory — +15% damage under moonlight)
+## A Warning About Fake Secret Guides
 
-### Eclipse Knight
-- **Location**: Castle — secret throne room behind the illusory wall in the Great Hall
-- **Unlock**: Collect all 5 Eclipse Fragments scattered across the Castle region
-- **Difficulty**: Very Hard — has a second phase at 50% HP
-- **Reward**: Eclipse Armor Set (best Ave armor in the game)
+Lunarium's recent release has attracted a wave of AI-generated "secrets" content. Red flags:
 
-### Forgotten One
-- **Location**: Forest Depths — bottom of the bottomless well (requires Gravity Well skill)
-- **Unlock**: Drop down the well with full HP and a Light Source equipped
-- **Difficulty**: Extreme — considered the hardest boss in the game
-- **Reward**: Forgotten Grimoire (unlocks hidden skill tree)
+- Named secret bosses with no walkthrough/video evidence (e.g., "Eclipse Knight")
+- "Unlockable characters" — you always play Ave with Lune; no other characters exist
+- Konami codes / developer rooms / easter-egg items with item names
+- Exact percentages ("1% drop chance Moon Tear")
 
-## Hidden Areas
+If a guide lists these, it's fabricated.
 
-### Moonlight Garden
-- **Access**: Behind the moon door in Forest Zone 2
-- **Requirement**: Moonlight Key (dropped by Forest boss on NG+)
-- **Content**: Unique crafting materials, rare herbs, peaceful atmosphere
-- **Secret**: Meditate at the central fountain for a permanent +5% XP buff
+## Verified Secrets & Hidden Content
 
-### Crystal Cavern
-- **Access**: Break the cracked wall in Castle Basement with a fully charged heavy attack
-- **Requirement**: Heavy weapon (Greatsword, War Hammer)
-- **Content**: Crystal ore nodes (best crafting material), Crystal Golem mini-boss
-- **Secret**: Collect all 7 colored crystals for the Prismatic Amulet
+### 1. Embroidery Blueprint (First Confirmed Chest)
 
-### The Observatory
-- **Access**: Reach the top of the Castle's tallest tower (parkour challenge)
-- **Requirement**: Phase Shift or high mobility build
-- **Content**: Star Chart (shows all collectible locations on the map)
-- **Secret**: Align the telescope during a full moon for a unique cutscene
+- **Location:** Cyanstone, in the room **to the left of the first resting bench**.
+- **Contents:** an **embroidery blueprint** — expands the charm-like passive crafting at the Sanctuary Loom.
+- **Status:** explicitly documented in the Into Indie Games walkthrough.
 
-## Easter Eggs
+### 2. Astral Shards (Resonance Cap)
 
-### Developer Room
-- **Location**: Behind the credits screen — input the Konami Code during the ending credits
-- **Content**: Developer messages, concept art gallery, joke weapons
-- **Reward**: Dev Hammer (meme weapon — deals 1 damage but has infinite knockback)
+- **Location:** scattered around Cyanstone.
+- **Effect:** each one **raises the resonance cap** — the maximum of the shared Resonance gauge.
+- **Status:** confirmed; exact count/locations unconfirmed.
 
-### Moon Rabbit
-- **Location**: Randomly appears in any zone during a full moon (in-game)
-- **Behavior**: Runs away when approached
-- **Reward**: If you chase it through 3 zones without losing sight of it, it drops the Rabbit's Foot (permanent +10% crit chance)
+### 3. Optional Boss: Rearguard Warrior
 
-### The Visitor
-- **Location**: Very rarely appears at campfires in late-game zones
-- **Identity**: A mysterious NPC who tells cryptic lore
-- **Reward**: Speaking to them 5 times unlocks a secret ending variant
+- **Location:** Cyanstone outskirts, **south of the village**.
+- **Type:** colossus infected by Nihilus.
+- **Mechanic:** a Nihilus core appears during some attacks — shoot it to interrupt.
+- **Status:** confirmed optional boss; drops unconfirmed.
 
-## Unlockable Characters
+### 4. The Dreampath Butterfly
 
-| Character | How to Unlock |
-|-----------|--------------|
-| **Shade** | Complete the game on any difficulty |
-| **Luna (True Form)** | Defeat Eclipse Knight on Hard difficulty |
-| **The Warden** | Defeat Lunar Warden without taking damage |
+- **Where:** Paradise, after freeing **Doro** in the Dreampath.
+- **Effect:** a butterfly that **permanently protects you from the Dreampath** hazards.
+- **Status:** confirmed — a real "secret reward" for completing the dream sequence.
 
-## Rare Items & Where to Find Them
+### 5. The Dreamsingers' Hidden Laboratory
 
-| Item | Location | Effect |
-|------|----------|--------|
-| Moon Tear | Drop from any boss (1% chance) | Respec all skill points |
-| Eclipse Shard | Eclipse Knight drop | Craft Eclipse weapons |
-| Star Fragment | Shooting star event (random, night only) | +1 to all stats permanently |
-| Phoenix Feather | Revive from death once | Auto-revive with 50% HP |
-| Void Essence | Forgotten One drop | Unlock hidden skill: Void Slash |
+- **Where:** White Reef Isles — a cliffside path at **Harbor Edge** leads to the Dreamsingers' hidden base.
+- **Contents:** a bell-and-lever puzzle sequence, a prison lift puzzle, and the path to the Volcano Crab and Dreamsinger Priestess fights.
+- **Status:** confirmed; not strictly "secret" (it's main-story), but easy to get lost in.
 
-## Secret Ending Requirements
+### 6. The Risen Longhorn Troll (Scripted Rematch)
 
-To unlock the **True Ending**:
-1. Defeat all 3 secret bosses
-2. Collect all 7 colored crystals
-3. Speak to The Visitor 5 times
-4. Defeat the final boss during a full moon
-5. Choose "Refuse" at the final choice
+- **Where:** Firleaves opening.
+- **Detail:** after the first defeat the troll rises again, consumed by darkness, with Nihilus orbs — a scripted surprise most players don't expect on a first run.
+- **Status:** confirmed.
+
+### 7. Story-Gated Side Routes (Community Reported)
+
+Community walkthroughs note that several side paths (e.g., in the White Reef Isles' water-gate areas) only open after story events — **specific locations unconfirmed**. Revisit regions after major story beats.
+
+## Honest Answers to Common Secret Questions
+
+### Are there hidden/super bosses?
+Only one optional boss is confirmed (**Rearguard Warrior**). Claims of harder-than-final-boss secret bosses are unverified.
+
+### Can I unlock other characters?
+**No.** Ave is the playable character; Lune is the AI companion. No unlockable characters exist.
+
+### Is there a secret ending?
+**No reliable evidence.** Official materials confirm **two endings** — no third/secret ending is documented. See the [Endings Guide](/guides/endings-guide).
+
+### Are there easter eggs?
+Community walkthroughs don't document any (no developer rooms, no references). Unconfirmed either way — but treat any named easter egg as suspect.
+
+## Secrets Checklist
+
+- [ ] Embroidery blueprint (Cyanstone, first bench, left room)
+- [ ] Astral Shards (Cyanstone — all found)
+- [ ] Rearguard Warrior defeated (optional boss)
+- [ ] Doro freed + Dreampath butterfly (Paradise)
+- [ ] Both endings seen (see [Endings Guide](/guides/endings-guide))
+
+## Related Guides
+
+- [Exploration Guide](/guides/exploration-guide) — where to look for hidden content
+- [Cyanstone Walkthrough](/guides/castle-walkthrough) — blueprint, shards, optional boss context
+- [Boss Guide — All Bosses](/guides/boss-guide) — the real boss roster
+- [Endgame Content Guide](/guides/endgame-content) — post-credits cleanup

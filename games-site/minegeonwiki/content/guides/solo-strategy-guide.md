@@ -1,120 +1,103 @@
 ---
 title: 'Solo Strategy Guide — Surviving Deep Runs Alone in MineGeon: Renegades'
-description: 'Complete solo strategy guide for MineGeon: Renegades. Learn optimal class picks, resource prioritization, extraction timing, and combat tactics for successful solo mining expeditions.'
+description: 'Complete solo strategy guide for MineGeon: Renegades. Best solo Renegade picks, mining and extraction discipline, route planning, and combat tactics for solo expeditions.'
 category: Solo
 version: '1.0'
-updated: '2026-07-27'
-keywords: ['minegeon solo guide', 'minegeon solo strategy', 'minegeon solo class', 'minegeon deep runs', 'minegeon extraction tips']
+updated: '2026-08-01'
+keywords: ['minegeon renegades solo', 'minegeon renegades solo guide', 'minegeon solo strategy', 'minegeon renegades best class for solo', 'minegeon deep runs', 'minegeon renegades solo class']
 related:
   - classes-guide
   - mining-guide
+  - extraction-guide
   - progression-guide
-  - combat-guide
 ---
 
 ## Solo Strategy Guide — Surviving Deep Runs Alone in MineGeon: Renegades
 
-Playing MineGeon: Renegades solo is a completely different experience from co-op. With no teammates to revive you, share aggro, or split resources, every decision carries more weight. This guide covers optimal class choices, resource management, route planning, and extraction strategies tailored to solo players.
+Playing MineGeon: Renegades solo is a different game from co-op. There are no teammates to share enemy attention, cover your back while you mine, or help you decide when to leave. Every choice — every vein, every room, every depth — is entirely on you. The good news: the game is fully designed for solo play, and the solo skill set (extraction discipline, pattern reading, efficient mining) is the skill set that carries over to every other mode.
 
-### 1. Best Solo Classes
+> **Accuracy note:** the game has exactly three classes — Marshall (Tank), Trevor (Gunslinger), and Ari (Engineer). Guides listing additional solo classes like "Scout," "Berserker," or "Medic" are fabricated. This guide uses the real roster.
 
-Choosing the right class dramatically impacts your solo success rate. Self-sufficiency is the highest priority.
+## Best Solo Renegades
 
-| Class | Solo Viability | Key Strength | Key Weakness |
-|-------|---------------|--------------|--------------|
-| Engineer | S-tier | Turrets provide cover fire while mining | Low mobility |
-| Gunslinger | S-tier | Kite enemies while dealing consistent damage | Ammo management |
-| Tank | A-tier | High survivability, forgiving of mistakes | Slow clear speed |
-| Scout | A-tier | Fast extraction, easy resource routing | Weak in prolonged fights |
-| Berserker | B-tier | High burst damage | Low defense, risky |
-| Medic | B-tier | Self-healing | Low damage output |
+All three classes are solo-viable — the choice is about your playstyle:
 
-**Top Pick:** Engineer is widely considered the best solo class. Deploy turrets to clear nearby threats while you focus on mining. Prioritize the Sentry Turret and Repair Drone upgrades.
+| Renegade | Solo Viability | Key Strength | Key Weakness |
+|----------|---------------|--------------|--------------|
+| **Marshall** | Best for learning | Resilience forgives mistakes — ideal while you learn patterns | Slower clear times than Trevor |
+| **Trevor** | Best in skilled hands | Highest damage, fastest clears if you dodge well | Punishing — a few hits end the run |
+| **Ari** | Most adaptable | Balanced stats fit any run's gadget/weapon luck | Rewards game knowledge to maximize |
 
-### 2. Resource Priority for Solo Runs
+**Top pick for most players: Marshall.** Extraction consistency is the solo game's whole ballgame, and Marshall's resilience directly buys consistency. Move to Trevor once dodging is second nature.
 
-Solo players cannot afford to carry unnecessary items. Every inventory slot must earn its place.
+## Solo Fundamentals
 
-| Priority | Item | Why |
-|----------|------|-----|
-| 1 | Core Crystals | Primary progression resource |
-| 2 | Food (stack of 5+) | Health regeneration between fights |
-| 3 | Repair Kits (x2) | Fix pickaxe and weapon mid-run |
-| 4 | Healing Salves (x3) | Emergency burst healing |
-| 5 | Upgrade Materials | Titanium, Ancient Alloy |
-| 6 | Bomb (x1–2) | Quick escape through walls |
-| 7 | Rare Gems | High sell value for economy |
+### 1. Extraction discipline is the entire strategy
+Solo, there is no one to bail you out. The solo player's rules:
+- **Bank early.** A solo run's success is minerals banked, not depth reached
+- **Set a leave trigger before descending** (damage taken, rare find, time) and honor it
+- **Never negotiate with yourself on the way out** — that's how hauls die
 
-**Inventory Rule:** Never carry more than 3 types of common ore. Loot quality over quantity. A single Ancient Alloy is worth more than a full inventory of Iron.
+### 2. Mine with an exit plan
+Before you commit to a node:
+- **Check the room.** Enemies love ambushing busy miners
+- **Know your escape.** Which direction is back up? In a panic, hesitation is fatal
+- **Use chokepoints.** Mine from positions where enemies can only approach from one side
 
-### 3. Route Planning for Solos
+### 3. Gadgets carry the solo game
+The 150+ gadgets (grenades, energy shields, combat drones) are force multipliers for solo players:
+- **Combat drones** — shoot while you mine, the closest thing to a teammate
+- **Energy shields** — survive the burst that would otherwise end the run
+- **Grenades** — clear pressure and create escape windows
+Gadget choice is a bigger skill factor solo than in co-op — experiment and find what saves you.
 
-### 3.1 Best Biome Routes
+### 4. Read the run, don't script it
+Minegeons are procedurally generated and monolith choices shape the route. The strong solo player adapts: defensive gadget luck means push deeper; offensive weapon luck means farm fast and bank. Commit to a role, adapt the details.
 
-| Biome | Difficulty | Solo Rating | Best Loot | Recommended Depth |
-|-------|-----------|-------------|-----------|------------------|
-| Crystal Caverns | Easy | S-tier | Core Crystals, Gems | Levels 1–15 |
-| Magma Tunnels | Medium | A-tier | Titanium, Fire Gems | Levels 10–25 |
-| Abyssal Depths | Hard | B-tier | Ancient Alloy, Void Crystals | Levels 20–35 |
-| Forgotten City | Very Hard | C-tier | Unique Artifacts | Levels 30+ |
+## Solo Route Planning
 
-### 3.2 Optimal Run Structure
+| Depth Zone | Solo Strategy |
+|------------|---------------|
+| First biome | Learn the loop; extract early and often |
+| Mid biomes | Push only when your current depth is trivial — one step at a time |
+| Deep biomes | Goal-based runs only: known objective, known loadout, bank first |
 
-1. **Phase 1 (0–10 min):** Stay in Crystal Caverns. Gather Core Crystals and basic upgrades. Avoid combat unless cornered.
-2. **Phase 2 (10–20 min):** If geared, descend to Magma Tunnels. Prioritize Titanium nodes. Set up a forward camp with a Healing Station.
-3. **Phase 3 (20–30 min):** Push toward extraction or abort early if health drops below 40%. This is the highest-risk phase.
-4. **Extraction (30+ min):** Return to surface immediately. Do not push for one more node.
+### The Solo Run Structure
+1. **Bank** any leftover minerals (spend before descending)
+2. **Goal check** — farming, boss, or exploration? One goal per run
+3. **Descend to the depth you control**, mine efficiently, use gadgets
+4. **Extract at your trigger**, no exceptions
+5. **Repeat** — each banked run funds the next, deeper one
 
-### 4. Solo Combat Tactics
+## Solo Combat Tactics
 
-### 4.1 Enemy Priority Table
+- **Movement first.** Bullet-hell fundamentals: keep moving, learn patterns, then act
+- **Kite when outnumbered.** Run past the swarm, turn, shoot, repeat — never fight surrounded
+- **Fight at chokepoints.** Narrow geometry turns a swarm into a line
+- **Skip fights that aren't worth it.** Elites guarding modest ore are a solo trap
+- **Know your damage windows.** Every enemy pattern has safe moments — those are when you mine and shoot
 
-| Enemy | Threat Level | Solo Strategy |
-|-------|-------------|---------------|
-| Cave Crawler | Low | Ignore unless blocking your path |
-| Crystal Golem | Medium | Kite while mining. Do not stand still to trade blows. |
-| Magma Worm | High | Use bombs to create distance. Fire-resistant armor recommended. |
-| Shadow Stalker | Very High | Sprint to lit areas. These enemies only spawn in darkness. |
-| Boss Entity | Extreme | Skip unless you have maxed gear and full consumables |
+## Solo Progression Milestones
 
-### 4.2 Kiting Fundamentals
+| Milestone | What It Proves |
+|-----------|----------------|
+| First extraction | You understand the loop |
+| First biome boss clear | Your build and dodging pass the gate |
+| Consistent mid-biome farming | Extraction discipline under pressure |
+| Deep biome clears | Full mastery of solo risk management |
+| 49 achievements solo | The completionist long game |
 
-- **Attack while moving backward.** MineGeon allows full movement during melee attacks. Use this to maintain distance.
-- **Use terrain chokepoints.** Position yourself in narrow tunnels where enemies cannot surround you.
-- **Place turrets (Engineer) before engaging.** Let turrets tank aggro while you mine or reposition.
-- **Bomb escape route.** Always keep a bomb ready to break through walls and create a quick escape path.
+## Common Solo Mistakes
 
-### 5. Extraction Strategy
+1. **Greed.** The solo death penalty is total — one bad bet wipes the haul
+2. **Mining in open rooms.** Position yourself so you can't be surrounded
+3. **Ignoring gadgets.** Solo is where gadgets matter most
+4. **Fighting everything.** Running is a strategy, not a surrender
+5. **No leave trigger.** Decide when to extract before you descend, not mid-run
 
-Extraction is the most dangerous moment of any solo run. The extraction point has a 10-second channel that cannot be interrupted by movement but can be canceled by taking damage.
+## Next Steps
 
-### 5.1 Extraction Tips
-
-- **Clear the extraction zone before starting the channel.** Kill or bait all nearby enemies away.
-- **Build a barricade.** Use the terrain tool to block entrances to your extraction room.
-- **Save a Smoke Bomb for extraction.** Deploying smoke reduces enemy aggro range by 80% for 8 seconds.
-- **Extract early, not late.** A run with 60% of potential loot extracted successfully is better than a 100% loot run that ends in death.
-
-### 6. Solo Progression Milestones
-
-| Milestone | Goal | Gear Check |
-|-----------|------|------------|
-| First Solo Extract | Extract from Crystal Caverns | Starter pickaxe, 1 turret |
-| 10 Successful Runs | Reach Magma Tunnels consistently | Iron pickaxe, Sentry Turret |
-| Deep Run (Level 25) | Extract from Abyssal Depths | Titanium pickaxe, full armor |
-| Elite Solo | Extract from Forgotten City | Ancient Alloy gear, all upgrades |
-| Speed Solo | Extract from Crystal Caverns in under 10 min | Max movement upgrades |
-
-### 7. Common Solo Mistakes
-
-- **Hoarding resources.** Use healing items early. A full inventory is useless if you die.
-- **Ignoring light sources.** Darkness spawns Shadow Stalkers. Always carry spare torches or a lantern.
-- **Over-mining.** One extra swing at a node can trigger a cave-in or spawn an ambush. Know when to stop.
-- **No escape route.** Always mine in a way that leaves a clear path to retreat. Never dead-end yourself.
-
-### Related Guides
-
-- [Classes Guide](/guides/classes-guide) — Detailed class stats and upgrade paths
-- [Mining Guide](/guides/mining-guide) — Efficient mining techniques and node types
-- [Progression Guide](/guides/progression-guide) — Long-term upgrade roadmap
-- [Combat Guide](/guides/combat-guide) — Enemy behaviors and combat mechanics
+- [Classes Guide](/guides/classes-guide) — picking your solo main
+- [Extraction Guide](/guides/extraction-guide) — the risk/reward loop in depth
+- [Mining Guide](/guides/mining-guide) — efficient mineral gathering
+- [Progression Guide](/guides/progression-guide) — the solo long game

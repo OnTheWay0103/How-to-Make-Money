@@ -1,114 +1,121 @@
 ---
 title: 'Best Gear & Equipment Guide: Every Tool Ranked in Dwarf Delve'
-description: 'Complete Dwarf Delve equipment guide — Battlemallet upgrades, lanterns, flares, floodlights, support beams, ladders, and platforms ranked. Best gear upgrade order for new and experienced players.'
+description: 'Complete Dwarf Delve equipment guide — Battlemallet, lanterns, flares, floodlights, support beams, ladders, rails, and gear hooks ranked by priority. Best gear upgrade order for new and experienced players.'
 keywords: ['dwarf delve gear', 'dwarf delve equipment', 'dwarf delve battlemallet', 'dwarf delve lantern', 'dwarf delve best tools']
 category: Gear
 version: '1.0'
-updated: '2026-07-25'
-related: ['perks-skills-guide', 'crafting-guide', 'beginner-guide']
+updated: '2026-08-01'
+related: ['perks-skills-guide', 'crafting-guide', 'beginner-guide', 'mining-guide']
 ---
 
 ## Your Tools Are Your Lifeline
 
-In Dwarf Delve, your equipment determines how deep you can go and how much you can bring back. Every piece of gear can be upgraded between runs using resources you extract. This guide ranks every tool and equipment type, with recommended upgrade priorities.
+In Dwarf Delve, your equipment determines how deep you can go and how much you can bring back. The official feature list confirms: **"Every piece of gear can be upgraded and customized to your playstyle."** That's the good news. The honest caveat: as of August 2026, the developer has not published the exact upgrade trees, costs, or tier names — so this guide ranks gear by its confirmed role in the game loop and gives you a safe priority order, without inventing numbers.
 
-## Battlemallet — S-Tier (Upgrade First)
+## The Confirmed Gear List
+
+Officially confirmed tools and equipment in Dwarf Delve:
+
+| Tool | Confirmed Role | Source |
+|------|----------------|--------|
+| **Battlemallet** | Primary tool for mining AND combat ("your trusty Battlemallet") | Steam description |
+| **Lantern** | "The most basic" tool for navigating darkness | Steam description |
+| **Flares** | Throwable light that uncovers secrets in the shadows | Steam description |
+| **Floodlights** | Portable upgraded lighting (mentioned as an upgrade path) | Steam description |
+| **Support beams** | Stabilize tunnels against collapse ("sturdy beams and platforms") | Steam description |
+| **Ladders** | Vertical access | Steam description |
+| **Minecart rails** | "Shift and store those heavy ores" | Steam description |
+| **Gear hooks** | "Attach tools to gear hooks to free up your hands whilst you strike the earth" | Steam description |
+
+That's the whole official roster. Tools that appear in other guides — pickaxes, crossbows, turrets, armor sets — are not part of the confirmed game.
+
+## Tier Rankings (By Confirmed Role, Not Invented Stats)
+
+### S-Tier: Battlemallet — Upgrade First
 
 Your Battlemallet is used for **everything**: mining, combat, and breaking obstacles. It's the one tool you cannot go without.
 
-### Upgrade Path
-| Level | Upgrade | Cost | Effect |
-|-------|---------|------|--------|
-| 1 | Reinforced Handle | 20 Iron | +15% swing speed |
-| 2 | Tempered Head | 10 Silver | +25% mining damage |
-| 3 | Spiked Grip | 5 Gold | +20% combat damage |
-| 4 | Dwarven Steel | 15 Silver + 5 Gold | +30% to both mining and combat |
-| 5 | Runic Enchantment | 1 Relic | Special ability: chance to find bonus gems on swing |
+**Why it's first:** The game's confirmed perk themes include "hit harder" and "move faster," and the Battlemallet is explicitly described as upgradable. Mining speed and combat damage both flow through this one item, so its upgrade improves every minute of every run.
 
-**Recommended**: Upgrade to Level 3 as your first priority. The combined mining speed and combat damage dramatically improves run efficiency.
+**What we don't know:** The actual upgrade steps and material costs. Don't trust any guide that lists specific upgrade levels with exact costs — that data hasn't been published.
 
-## Lantern — S-Tier (Upgrade Second)
+### S-Tier: Lantern — Upgrade Second
 
-Your lantern is your primary light source. In darkness, enemies are more aggressive and hidden hazards are invisible.
+Your lantern is your primary light source. The official description calls it "the most basic" tool for navigating darkness — and the game's own pitch promises you can "cast away shadows with a portable floodlight" as an upgrade path.
 
-### Upgrade Path
-| Level | Upgrade | Cost | Effect |
-|-------|---------|------|--------|
-| 1 | Oil Reservoir | 10 Copper | +30% battery life |
-| 2 | Reflective Housing | 15 Copper + 5 Iron | +40% light radius |
-| 3 | Dual Wick | 10 Silver | Lights two directions simultaneously |
-| 4 | Enchanted Crystal | 5 Gold + 5 Gems | Reveals hidden chambers within light radius |
-| 5 | Eternal Flame | 2 Relics | Battery never runs out |
+**Why it's second:** Darkness hides "unseen dangers and long-forgotten traps." More light = fewer surprise deaths = more successful extractions.
 
-**Recommended**: Rush Level 2 for the light radius increase. Level 4 is worth saving for — revealing hidden chambers is a game-changer.
+**What we don't know:** Whether the lantern runs on battery, oil, or something else; the community is still investigating.
 
-## Support Beams — A-Tier
+### A-Tier: Support Beams
 
-Support beams prevent tunnel collapses. Without them, deep mining runs end in disaster.
+Support beams prevent tunnel collapses — the confirmed #1 cause of losing your loot. The official description confirms crafting "support items like sturdy beams and platforms."
 
-| Level | Upgrade | Cost | Effect |
-|-------|---------|------|--------|
-| 1 | Treated Wood | 10 Iron + 5 Coal | Beams last 20% longer |
-| 2 | Iron Brackets | 15 Iron | Beams reinforce 30% more area |
-| 3 | Dwarven Architecture | 10 Silver | Can carry +3 more beams per run |
-| 4 | Auto-Stabilizers | 10 Gold | Beams auto-deploy when collapse is imminent |
+**Priority logic:** Beams are cheap insurance. Craft them when tunnels creak, place them at choke points, and always keep a few in reserve for the way back.
 
-## Flares — A-Tier
+### A-Tier: Flares
 
-Flares provide temporary light and can be thrown into distant areas. Essential for scouting and combat.
+Flares provide throwable light and "uncover secrets hidden in the shadows." They're scouting tools and safety markers.
 
-| Level | Upgrade | Cost | Effect |
-|-------|---------|------|--------|
-| 1 | Brighter Powder | 5 Copper | +50% brightness |
-| 2 | Extended Burn | 10 Copper | +40% duration |
-| 3 | Sticky Resin | 5 Silver | Flares stick to walls and enemies |
-| 4 | Flashbang Upgrade | 10 Silver + 5 Gems | Flares briefly stun nearby enemies |
+**Priority logic:** Cheaper and faster than floodlights for marking your return route. Underrated in early-game guides that focus on big gear.
 
-## Floodlights — B-Tier
+### B-Tier: Floodlights
 
-Floodlights provide stationary, long-lasting illumination. Best used to secure mining zones.
+Floodlights are the confirmed upgrade beyond the lantern ("cast away shadows with a portable floodlight"). Stationary, long-lasting illumination — best for securing a mining zone.
 
-| Level | Upgrade | Cost | Effect |
-|-------|---------|------|--------|
-| 1 | Wide Lens | 5 Iron + 5 Copper | +50% coverage area |
-| 2 | Long-Life Battery | 10 Copper | +100% duration |
-| 3 | Chaining Cable | 10 Silver | Connect multiple floodlights to one power source |
+**Priority logic:** Worth the upgrade once you're regularly mining deep areas where the lantern isn't enough.
 
-## Ladders & Platforms — B-Tier
+### B-Tier: Ladders
 
-These tools help you reach elevated areas and cross gaps that would otherwise be impassable.
+Ladders give vertical access — reach elevated veins, escape pits, and shortcut between levels.
 
-| Level | Upgrade | Cost | Effect |
-|-------|---------|------|--------|
-| 1 | Extended Ladder | 5 Iron | Ladders reach 30% higher |
-| 2 | Reinforced Platform | 10 Iron | Platforms support minecarts |
-| 3 | Quick-Deploy | 5 Silver | Deploy ladders 50% faster |
+**Priority logic:** Situational but run-saving when you need it. Never descend deep without the ability to climb.
+
+### B-Tier: Rails & Minecarts
+
+Rails and minecarts exist to "shift and store those heavy ores for you." They're logistics, not combat gear — but for heavy hauls, they're the difference between a full extraction and a half-full one.
+
+### C-Tier: Gear Hooks
+
+"Attach tools to gear hooks to free up your hands whilst you strike the earth." Confirmed and useful, but it's a QoL feature — upgrade it when everything else is done.
 
 ## Optimal Upgrade Order
 
-### For New Players (Runs 1-10)
-1. Battlemallet Level 2 — Faster mining = faster everything
-2. Lantern Level 2 — See more, die less
-3. Support Beams Level 1 — Basic collapse protection
-4. Battlemallet Level 3 — Combat damage boost
-5. Flares Level 1 — Better scouting
+### For New Players (First ~10 Runs)
+
+1. **Battlemallet** — faster mining = faster everything
+2. **Lantern** — see more, die less
+3. **Support beams** — basic collapse protection
+4. **Flares** — better scouting
 
 ### For Mid-Game (Runs 10-30)
-1. Lantern Level 4 — Hidden chamber detection
-2. Battlemallet Level 4 — Maximum efficiency
-3. Support Beams Level 3 — Carry more beams
-4. Flares Level 3 — Sticky flares for combat
+
+1. **Battlemallet** — keep pushing its damage/speed
+2. **Floodlight upgrade** — "cast away shadows"
+3. **Support beam capacity** — more beams = deeper runs
+4. **Gear hooks** — QoL for multi-tool runs
 
 ### For End-Game (Runs 30+)
-1. Battlemallet Level 5 — Runic enchantment
-2. Lantern Level 5 — Eternal flame
-3. Support Beams Level 4 — Auto-stabilize
-4. Floodlights Level 3 — Chain lighting for The Abyss
 
-## Equipment Synergies
+1. **Max everything you use** — every confirmed piece of gear is upgradable "to your playstyle"
+2. **Rails & minecarts** — endgame farming is about hauling heavy ore out of the deep
+3. **Carry capacity** — the confirmed "carry more loot" theme compounds with cart logistics
 
-- **Lantern Level 4 + Battlemallet Level 5**: Reveal hidden chambers, then use the Runic bonus to mine bonus gems from them
-- **Support Beams Level 4 + Ladders Level 3**: Auto-deploying beams protect you while you quick-deploy ladders for vertical exploration
-- **Floodlights Level 3 + Flares Level 4**: Floodlight a mining zone, then throw flashbang flares to stun enemies drawn to the light
+## Equipment Synergies (Confirmed Mechanics Only)
+
+- **Battlemallet + lantern**: mine faster, see better — the two upgrades that improve every run
+- **Support beams + extraction**: beams on your return route keep your escape path stable
+- **Rails + heavy ores**: the official feature list confirms carts are for heavy ore — build rail toward the elevator, not away from it
+- **Flares + secrets**: confirmed to uncover secrets hidden in the shadows — throw them into dark corners before you enter
+
+## Honest FAQ
+
+**What's the best weapon in Dwarf Delve?** The Battlemallet is the only confirmed weapon. Guides that rank crossbows, flamethrowers, or war pickaxes are describing games that don't exist yet.
+
+**How many upgrade levels does each tool have?** Unpublished. Any specific level lists are speculation.
+
+**Is there armor?** Not confirmed. The confirmed gear roster is tools and equipment, not armor sets.
+
+**Where can I see real upgrade data?** The developer is active in the Steam community and Discord. Official announcements will be reflected here as soon as they land.
 
 Your gear is your legacy. Upgrade wisely, Delveling.

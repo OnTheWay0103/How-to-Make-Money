@@ -1,131 +1,125 @@
 ---
-title: 'Release Date, Demo & FAQ — Everything We Know About Dwarf Delve'
-description: 'Dwarf Delve release date, demo info, price, platforms, system requirements, developer updates, and frequently asked questions. Everything we know about the upcoming extraction roguelite.'
-keywords: ['dwarf delve release date', 'dwarf delve demo', 'dwarf delve steam', 'dwarf delve price', 'dwarf delve platforms', 'dwarf delve FAQ']
+title: 'Dwarf Delve Release Date, Price, Demo & FAQ — Verified Facts'
+description: 'Dwarf Delve release date (July 27, 2026), price ($12.99), demo, platforms, system requirements, reviews, achievements, and FAQs — verified against the Steam page and press coverage.'
+keywords: ['dwarf delve release date', 'dwarf delve demo', 'dwarf delve steam', 'dwarf delve price', 'dwarf delve system requirements', 'dwarf delve FAQ']
 category: Info
 version: '1.0'
-updated: '2026-07-25'
-related: ['beginner-guide', 'meta-progression-guide']
+updated: '2026-08-01'
+related: ['beginner-guide', 'meta-progression-guide', 'is-dwarf-delve-worth-it', 'achievements-guide']
 ---
 
 ## Release Information
 
-**Dwarf Delve launches on July 27, 2026, on Steam for PC.**
+**Dwarf Delve released on July 27, 2026, on Steam for PC.**
 
-Developed by solo developer **Gloom Box** (Dante Knoxx) and published by **indie.io**, Dwarf Delve is a first-person extraction roguelite where you descend into procedurally generated mines as a Delveling dwarf.
+Developed by solo developer **Gloom Box** (Dante Knoxx, London) and published by **indie.io**, Dwarf Delve is a first-person extraction roguelite where you descend into procedurally generated mines as a Delveling dwarf.
 
-## Quick Facts
+## Quick Facts (Verified)
 
 | Detail | Info |
 |--------|------|
 | **Game** | Dwarf Delve |
-| **Developer** | Gloom Box (Dante Knoxx) — Solo Developer |
-| **Publisher** | indie.io |
-| **Platform** | PC (Steam) |
+| **Developer / Publisher** | Gloom Box (published via indie.io) |
+| **Platforms** | Steam; also listed on Epic Games Store and GOG |
 | **Release Date** | July 27, 2026 |
-| **Genre** | First-Person Extraction Roguelite |
-| **Players** | Single-player |
-| **Price** | TBA (estimated $14.99-$19.99 USD) |
-| **Demo** | Available now on Steam (free) |
+| **Genre** | First-Person Extraction Roguelite (tags: Action Roguelike, Dungeon Crawler, Looter Shooter, Voxel, Horror) |
+| **Players** | Single-player only |
+| **Price** | $12.99 USD; 20% launch discount ($10.39) through August 10, 2026 |
+| **Demo** | Free demo available on Steam |
+| **Achievements** | 21 Steam achievements, Steam Trading Cards, Steam Cloud, Family Sharing |
+| **Language** | English only |
 | **Steam App ID** | 2237320 |
 | **Steam URL** | https://store.steampowered.com/app/2237320/Dwarf_Delve/ |
 
-## Is There a Demo?
+## What Is the Game?
 
-**Yes!** A free demo is available now on Steam. The demo includes:
-- Full core gameplay loop (descend, mine, craft, extract)
-- Access to Upper Mines and Crystal Caverns biomes
-- Basic Battlemallet, lantern, and flare upgrades
-- First few perks in each skill tree
-- Quarters customization preview
+A first-person extraction roguelite in which a new "Delveling" explores randomly generated mines with a Battlemallet, gathering ores and relics while dodging long-forgotten traps. The mine collapses from the moment a run starts, and the elevator leaves on a schedule — anything not extracted is lost. Between runs you refine ores at your dwarven home, trade resources for coin, buy perks and skills (move faster, hit harder, carry more loot), upgrade and customize gear, and decorate your quarters.
 
-The demo is an excellent way to learn the basics before committing to the full game. Progress from the demo may or may not carry over to the full release — the developer has not confirmed either way.
+The official pitch ends with: "One wrong boot could cost you your life — or worse, your loot!"
+
+## Demo & Launch Bonus
+
+- **Demo**: A free demo is available on Steam. **Whether demo progress carries over to the full game is unconfirmed** — the developer has not stated either way.
+- **Day-one launch bonus**: Early players received a lamp furnishing plus 1,000 Gild (the in-game currency).
 
 ## What's the Price?
 
-The exact price has not been announced. Based on similar indie roguelite games from indie.io and the solo-developer scope:
-- **Expected**: $14.99 - $19.99 USD
-- A launch discount (10-15%) is likely during the first week
+- **Full price**: $12.99 USD
+- **Launch discount**: 20% off ($10.39) through August 10, 2026
+- **DLC**: A Dwarf Delve Soundtrack DLC is available; a Deluxe bundle (game + soundtrack) exists. No other DLC or microtransaction announcements exist as of August 2026.
 
-## System Requirements
+## System Requirements (Official)
 
-While official specs haven't been published, based on the voxel/Minecraft-inspired art style and demo performance:
+### Minimum
+- **OS**: Windows 7 64-bit (Steam Client supports Windows 10+ as of January 2024)
+- **CPU**: Intel Core i5 3rd generation
+- **RAM**: 6 GB
+- **GPU**: NVIDIA GTX 660 / AMD Radeon HD 7870
+- **DirectX**: Version 11
+- **Storage**: 3 GB
+- **Other**: Broadband internet connection
 
-### Estimated Minimum
-- **OS**: Windows 10 (64-bit)
-- **CPU**: Intel Core i3 or AMD equivalent
+### Recommended
+- **OS**: Windows 10 64-bit
+- **CPU**: Intel Core i5 7th generation
 - **RAM**: 8 GB
-- **GPU**: NVIDIA GTX 750 Ti or equivalent
-- **Storage**: ~2 GB
+- **GPU**: NVIDIA GTX 970 / AMD Radeon R9 290
+- **DirectX**: Version 11
+- **Storage**: 3 GB
 
-### Estimated Recommended
-- **OS**: Windows 10/11 (64-bit)
-- **CPU**: Intel Core i5 or AMD equivalent
-- **RAM**: 16 GB
-- **GPU**: NVIDIA GTX 1060 or equivalent
-- **Storage**: ~2 GB
-
-The block-based visual style means Dwarf Delve should run well on modest hardware — a benefit of the Minecraft-inspired aesthetic.
-
-## Will There Be Consoles?
-
-Console versions (PlayStation, Xbox, Nintendo Switch) have not been confirmed. As a solo developer project, the initial focus is entirely on the PC Steam release. Console ports may be considered based on the PC version's success.
+The voxel-based visuals (frequently compared to Minecraft) mean the game runs on modest hardware.
 
 ## Is There Multiplayer or Co-op?
 
-Dwarf Delve is a **single-player** experience. Co-op multiplayer has not been announced. The game's core loop — one dwarf against the mountain — is designed around solo risk-versus-reward decision making.
+**No.** Dwarf Delve is single-player only — confirmed by the Steam store listing (Single-player feature, no multiplayer tags). There is no co-op, no multiplayer, and no official announcement of any. If you came looking for "Dwarf Delve co-op," the honest answer is that the feature does not exist at launch. The developer has not announced plans for it; treat any roadmap claims about co-op as unconfirmed.
 
-However, the developer has mentioned on social media that co-op is "the most requested feature" and may be considered for a post-launch update if the game sells well enough to justify the development time.
+## Reviews & Reception
 
-## What's the Gameplay Like?
+- **Current status**: Mostly Negative — 32% positive of ~25 reviews (early August 2026)
+- **The common thread**: players like the foundations (the loop, the art, the premise) but report quality-of-life issues and rough onboarding — the game "needs work"
+- **Context**: the review sample is tiny and the game is new. The developer has publicly committed to a multi-year content roadmap and is responding to community feedback
+- Press described it as "a launch to watch evolve rather than a finished product"
 
-Dwarf Delve has been described as "Minecraft meets Spelunky" — you explore procedurally generated, destructible mines, gather resources, craft survival tools, and extract before the tunnels collapse. Key features:
+See our [Is Dwarf Delve Worth It?](/guides/is-dwarf-delve-worth-it) guide for the full honest assessment.
 
-- **Destructible environments** — Mine through anything
-- **Procedural generation** — Every mine layout is unique
-- **Risk vs. reward extraction** — Push deeper for better loot, risk losing everything
-- **Equipment upgrades** — Permanent upgrades between runs
-- **Perk system** — Three skill trees (Might, Resilience, Fortune)
-- **Crafting on-the-fly** — Craft beams, flares, ladders, and more underground
-- **Minecart rail building** — Build transport networks for efficient resource hauling
-- **Quarters customization** — Decorate and upgrade your dwarven home
-- **Six unique biomes** — From crystal caverns to the Abyssal Rift
-- **Boss encounters** — The Buried King guards the deepest treasures
+## Achievements
 
-## Developer Background
+The game ships with **21 Steam achievements**. Four have been named in official materials: **"Greenbeard," "Pack Mule," "D.I.Y," and "Legend."** The full list is unpublished — see our [Achievements Guide](/guides/achievements-guide) for what we know.
 
-Dwarf Delve is developed by **Dante Knoxx** under the studio name **Gloom Box**. This is a solo developer project — one person handling design, programming, art, and sound. indie.io is handling publishing, marketing, and community management.
+## Gameplay Details: Confirmed vs. Unconfirmed
 
-The developer is active on the Steam community forums and Discord, regularly responding to player feedback from the demo.
+### Confirmed
+- Procedurally generated mines ("No two mines will ever be the same!")
+- Collapsing mines; scheduled elevator; loot lost if not extracted
+- Tools: Battlemallet, lantern, flares, floodlights, support beams, ladders, minecart rails, gear hooks
+- Gear upgrading and customization ("every piece of gear can be upgraded and customized to your playstyle")
+- Perks and skills bought with coin; themes: move faster, hit harder, carry more loot
+- Quarters customization (carpets, furnishings, wall art); some furnishings may have gameplay effects
+- Ore refining at home; trading resources for coin
 
-## Post-Launch Plans
-
-The developer has shared a rough roadmap:
-
-- **Launch Week**: Bug fixes and stability patches
-- **Month 1**: Balance adjustments based on player data
-- **Month 2-3**: New biome (possibly a "Sky Mines" floating island theme)
-- **Month 4-6**: Community-requested features (co-op being the top ask)
-- **Long-term**: Mod support, seasonal events
+### Unconfirmed (no official information)
+- Specific ore, enemy, and boss names; biome names; perk names and prices; upgrade costs; run length; difficulty options; controller support; offline play; pause functionality; demo progress carryover; respec options
 
 ## Frequently Asked Questions
 
-**Can I play offline?** Yes. Dwarf Delve is fully playable offline. No internet connection is required after the initial download.
+**Is Dwarf Delve a roguelike?** It's a roguelite: runs are randomized and death loses the run's loot, but permanent upgrades (perks, skills, gear) carry over between runs.
 
-**Is there permadeath?** Yes — for each run. If you die in the mines, you lose everything you gathered during that descent. However, all permanent upgrades (perks, equipment levels, quarters) are never lost.
+**Is there permadeath?** Per-run only. If you die in the mine, everything from that descent is lost — but your permanent upgrades and quarters are not.
 
-**How long is a typical run?** A safe run to the Upper or Middle Mines takes 15-25 minutes. Deep Mine and Abyss runs can take 30-60 minutes. You can pause anytime in single-player.
+**How long is a typical run?** No official data. Community reports are scarce and unverified.
 
-**Does the game have controller support?** The demo includes partial controller support. Full controller support is expected at launch or shortly after.
+**Does the game have controller support?** Unconfirmed — no official statement.
 
-**Will there be microtransactions?** No. Dwarf Delve is a premium game with a single purchase price. No battle passes, no loot boxes, no in-game shop.
+**Can I play offline?** Unconfirmed — no official statement.
 
-**How do I report bugs?** Use the Steam Community forums or the official Discord server. As a solo dev project, the developer reads and responds to community feedback directly.
+**Will there be co-op?** Not at launch, and no official announcement of any plans.
+
+**How do I report bugs?** Use the Steam Community forums or the official Discord (linked from the Steam page). The solo developer reads and responds to community feedback directly.
 
 ## Stay Updated
 
 - **Steam Page**: [store.steampowered.com/app/2237320/Dwarf_Delve/](https://store.steampowered.com/app/2237320/Dwarf_Delve/)
 - **Steam Community**: Discussions and announcements
-- **Discord**: Official indie.io Discord server (link on Steam page)
+- **Discord**: Official community server (link on Steam page)
 
-The mines open on July 27. See you at the elevator, Delveling.
+The mines opened on July 27. See you at the elevator, Delveling.

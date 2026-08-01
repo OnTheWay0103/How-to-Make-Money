@@ -1,118 +1,86 @@
 ---
-title: 'Crafting & Resources Guide — Farming & Materials in Grain Rot'
-description: 'Complete crafting and resource guide for Grain Rot. Learn every resource type, where to farm them, the Grinder economy, barricade crafting, and how to maximize your loot per run.'
+title: 'Crafting & Resources Guide — Loot, Gold & Materials in Grain Rot'
+description: 'Grain Rot crafting and resources explained honestly: confirmed systems — smashing furniture, Grinders for gold, the extraction economy, Outpost spending — and what remains TBD before launch.'
+category: 'Guides'
+version: 'Pre-release'
+updated: '2026-08-01'
 keywords: ['grain rot crafting', 'grain rot resources', 'grain rot farming', 'grain rot materials', 'grain rot grinder', 'grain rot loot']
-updated: '2026-07-24'
+related: ['base-building', 'outpost-upgrade-guide', 'extraction-guide', 'demo-guide', 'game-mechanics-systems-guide']
 ---
 
-# Crafting & Resources Guide — Farming & Materials
+# Crafting & Resources Guide — Loot, Gold & Materials in Grain Rot
 
-Everything in Grain Rot runs on resources. You smash furniture for wood, feed items into Grinders for gold, and extract rare materials for Outpost upgrades. This guide covers every resource type, where to find them, and how to maximize your haul per run.
+Everything in Grain Rot runs on what you haul out of the ruins. This guide covers the confirmed resource systems — furniture smashing, the Grinder, and the extraction economy — and honestly separates confirmed mechanics from still-unconfirmed details.
 
-## Resource Types
+## The Confirmed Resource Loop
 
-### Basic Resources
+Official Steam copy, quoted directly:
 
-| Resource | Primary Source | Used For | Stack Size |
-|----------|---------------|----------|------------|
-| **Wood** | Smashing wooden furniture, crates, barrels | Workshop upgrades, barricade construction | 50 |
-| **Gold** | Grinders, chests, enemy drops | All Outpost upgrades, construct purchases | 999 |
-| **Herbs** | Glowing plants in The Shallows and Warrens | Alchemy upgrades, consumable crafting | 20 |
+- "Rip out furniture, and scavenge for loot before the Corrupted close in."
+- "Smash furniture for resources **or feed them into the Grinder for gold**."
+- "If everyone breaks, your loot is lost."
+- "Everything you haul back rebuilds your Outpost."
 
-### Advanced Resources
+That's the whole economy in four lines: **scavenge → convert → extract → spend at the Outpost**. Nothing is earned until it's extracted.
 
-| Resource | Primary Source | Used For | Stack Size | Depth Required |
-|----------|---------------|----------|------------|---------------|
-| **Iron** | Metal furniture, reinforced chests, Grain Hulk drops | Forge upgrades, advanced constructs | 30 | The Warrens+ |
-| **Crystal** | Crystal formations in The Warrens, rare chests | High-tier Forge and Workshop upgrades | 15 | The Warrens+ |
-| **Obsidian** | Blackened nodes in The Depths, boss drops | Endgame Forge upgrades, legendary constructs | 10 | The Depths+ |
-| **Essence** | Rot-corrupted containers, Screamer drops | Alchemy Lv.3, cosmetic upgrades, rare constructs | 5 | The Depths+ |
+## The Two Confirmed Resource Paths
 
-## The Grinder Economy
+### 1. Furniture Smashing
 
-The Grinder is a core mechanic — feed unwanted items into it for gold. Understanding what to grind vs. what to keep is essential.
+Furniture is the ruins' raw material. "Tactical carpentry with interactive furniture" is an official feature — smashing isn't just looting, it's the game's signature action.
 
-### Always Grind
-- Common furniture pieces (low wood value, not worth carrying)
-- Duplicate constructs (you can only use one per run)
-- Broken vessels (can't be repaired)
-- Low-tier cosmetic duplicates
+**What we know:** smashing yields resources; it's loud; it's central to the loop.
 
-### Never Grind
-- Rare constructs (worth more as unlocks than gold)
-- Crystal and Obsidian (rarer than gold)
-- Essence (extremely rare, used for top-tier upgrades)
-- Unique cosmetics (one-time drops)
-- Survivor rescue items (required to unlock NPCs)
+**What's TBD:** specific furniture types and their yields, whether some furniture is interactive (usable rather than breakable — the "carpentry" feature hints yes), and whether furniture differs by depth.
 
-### Grinder Efficiency
-- **Portable Grinder** (Workshop Lv.4): Deploy anywhere, saves the walk back
-- **Grinder's Friend vessel**: +30% gold from all Grinder transactions
-- **Gold per floor scales**: Layer 1 = ~50 gold, Layer 5 = ~200 gold per Grinder use
+### 2. The Grinder
 
-## Furniture Smashing Guide
+The Grinder is a confirmed machine that converts items into gold. It exists to solve the classic extraction problem: **value per inventory slot**.
 
-Furniture is everywhere in the ruins. Smashing it yields wood — but different furniture gives different amounts.
+**What we know:** feed items in, get gold out. Gold is compact and stackable.
 
-| Furniture Type | Wood Yield | Smash Time | Locations |
-|---------------|-----------|------------|-----------|
-| Small Crate | 3-5 | 1 hit | All biomes |
-| Wooden Chair | 2-3 | 1 hit | The Shallows |
-| Table | 5-8 | 2 hits | The Shallows, Warrens |
-| Barrel | 4-6 | 1 hit (explosive!) | All biomes |
-| Bookshelf | 8-12 | 3 hits | The Warrens, Depths |
-| Reinforced Chest | 10-15 + loot | 4 hits | The Warrens, Depths |
-| Ornate Cabinet | 5-10 + rare loot | 2 hits | The Depths |
-| Rusted Machinery | 15-25 Iron | 5 hits | The Depths |
+**What's TBD:** where Grinders spawn, whether a portable version exists, and the exact conversion rates.
 
-**Pro tip**: The Reinforced Mallet destroys any furniture in 1 hit, regardless of type. It's the single biggest efficiency increase in the game.
+## The Extraction Economy
 
-## Farming Routes
+The rules that make resources matter:
 
-### Wood Farming (Early Game)
-**Location**: The Shallows, full clear
-**Expected yield**: 150-250 wood per run
-**Strategy**: Smash everything. Bring Reinforced Hauler for extra capacity. Extract after Layer 2.
+- **Nothing counts until you extract.** Loot in your bag is loot at risk.
+- **One player can save it all.** Since loot is only lost when *everyone* breaks, protecting one extraction runner protects the whole haul.
+- **Deeper = richer.** The game's pitch is "Go deeper. Extract more." — depth pays, but the Rot and the Corrupted charge the difference.
+- **The Outpost is the sink.** Every resource you extract funds permanent progression: interactive furniture, stat upgrades, rescued survivors, and upgradeable Outpost rooms (confirmed by the demo).
 
-### Iron Farming (Mid Game)
-**Location**: The Warrens, target metal furniture rooms
-**Expected yield**: 40-80 iron per run
-**Strategy**: Skip wood-only rooms. Prioritize Grain Hulk kills (guaranteed iron drop). Bring Splinter-Bow for safe ranged kills.
+## Resource Management Principles
 
-### Crystal & Obsidian Farming (Late Game)
-**Location**: The Depths, crystal node rooms
-**Expected yield**: 15-30 crystal, 5-10 obsidian per run
-**Strategy**: Speed run to Layer 5, clear crystal rooms, extract immediately. Do NOT linger — The Depths will kill greedy teams.
+Precise resource names and values are unverified before launch, but the confirmed mechanics dictate the strategy:
 
-### Gold Farming (All Stages)
-**Location**: Any biome, Grinder-heavy rooms
-**Expected yield**: 500-2000 gold per run
-**Strategy**: Bring Grinder's Friend vessel. Collect everything, Grind everything, extract when full.
+### 1. Convert Aggressively
 
-## Resource Priority for Upgrades
+If the Grinder is available, gold is almost always better than raw junk. Gold is compact; wood and scrap fill your limited inventory. Convert what you don't need, carry what's valuable.
 
-If you're resource-constrained, prioritize in this order:
+### 2. Value Per Slot Decides Everything
 
-1. **Wood** → Workshop upgrades (essential)
-2. **Iron** → Forge Lv.1-2 (Reinforced Mallet, Splinter-Bow)
-3. **Gold** → Everything (but you'll naturally accumulate it)
-4. **Crystal** → Forge Lv.3+ and Workshop Lv.3 (Ironbark Guardian, Loot Magnet)
-5. **Herbs** → Alchemy Lv.1 (Healing Salve — get this early, then herb priority drops)
-6. **Essence** → Alchemy Lv.3 (Rot Purge Flask — essential for deep runs)
-7. **Obsidian** → Endgame Forge (Ember-Kissed Vessel — luxury upgrade)
+Your vessel's carry capacity is a hard limit. Before picking anything up, ask: *is this worth a slot?* High-value rare items beat piles of common materials.
 
-## Inventory Management
+### 3. The Bag Is Not the Bank
 
-Your carry capacity is limited. Here's how to maximize value per slot:
+The only bank is the Outpost, and you only bank what you extract. When in doubt, head to the elevator with a partial load — a small confirmed profit beats a large hypothetical one.
 
-| Item | Value per Slot | Priority |
-|------|---------------|----------|
-| Essence | Priceless | Always keep |
-| Obsidian | Very High | Always keep |
-| Crystal | High | Keep |
-| Iron | Medium | Keep if targeting Forge upgrades |
-| Gold (from Grinder) | N/A | Gold doesn't use inventory — always worth it |
-| Wood | Low | Drop if you need space for higher-tier resources |
-| Common Constructs | Situational | Keep if new unlock, Grind if duplicate |
+### 4. Repairing vs. Replacing
 
-**Decision flow**: Is it rare (Essence/Obsidian/Crystal)? Keep. Is it a new construct unlock? Keep. Everything else? Grind it.
+Vessels break and can be replaced mid-run — your Spark can possess another vessel. Resources spent defending a doomed body are wasted; resources spent extracting a live one are profit.
+
+## What to Expect at Launch
+
+After August 7 we'll publish the verified resource list: exact materials, drop sources, Grinder rates, and Outpost costs. Until then:
+
+- **The demo is the reference.** It contains the full core economy: 3 biomes of loot, 9 enemy types, 20+ constructs, and upgradeable Outpost rooms.
+- **Don't plan around demo prices.** Demo tuning is typically friendlier than the full game; expect real launch costs to run higher.
+- **Ignore detailed loot tables** circulating pre-launch — they're speculation until confirmed.
+
+## Related Guides
+
+- [Base Building Guide](/guides/base-building) — what the Outpost actually is
+- [Outpost Upgrade Guide](/guides/outpost-upgrade-guide) — where your resources should go
+- [Extraction Guide](/guides/extraction-guide) — how to bank your haul
+- [Game Mechanics & Systems Guide](/guides/game-mechanics-systems-guide) — how the economy fits the other systems

@@ -1,175 +1,92 @@
 ---
-title: 'How to Unlock All Heroes in Graphite — Complete Hero Unlock Guide'
-description: 'Complete guide on how to unlock all 7 heroes in Graphite. Learn the Bond/Friendship system, camp ability usage, friendship thresholds, which heroes unlock in which acts, and the fastest unlock strategies.'
-keywords: ['Graphite unlock heroes', 'Graphite how to unlock', 'Graphite Bond system', 'Graphite Friendship system', 'Graphite unlock Monk', 'Graphite unlock Bard', 'Graphite unlock Rogue', 'Graphite unlock Mage', 'Graphite unlock Tamer', 'Graphite unlock Hunter']
+title: 'How to Unlock Heroes in Graphite — What We Know and Don\'t Know'
+description: 'Graphite hero unlocks explained honestly: 7 heroes in the full game, 4 in the demo, the confirmed Knight and Mage, friendship between characters, and what is still unconfirmed about unlock methods.'
+keywords: ['Graphite unlock heroes', 'Graphite how to unlock', 'Graphite friendship system', 'Graphite hero roster', 'Graphite Knight unlock', 'Graphite Mage unlock', 'Graphite heroes']
 category: Guides
 version: '1.0'
-updated: '2026-07-29'
+updated: '2026-08-01'
 related:
+  - heroes-guide
+  - character-guide
+  - beginner-guide
   - tips-tricks
-  - tier-list
-  - walkthrough-guide
-  - tarot-events-guide
+  - graphite-demo-guide
 ---
 
-## How the Bond/Friendship System Works
+## How Hero Unlocking Works — What We Know
 
-Graphite does not let you pick your party from a character select screen. You unlock new heroes through the **Bond/Friendship system** — a relationship mechanic between your current heroes.
+Graphite has **seven playable heroes**, and you will not start with all of them. The confirmed facts about the roster:
 
-**Core rules**:
-- Every hero has a hidden Friendship score with every other hero in your party (initially 0).
-- Friendship increases when heroes fight together, use camp abilities together, or share tarot events.
-- When a hero reaches a specific Friendship threshold with an eligible hero, that hero becomes available for recruitment.
-- Unlocked heroes join your roster permanently for the current playthrough.
-- Friendship does NOT reset between acts — progress carries forward.
+- The full game contains **7 heroes**, each with a unique personality, backstory, and playstyle
+- The free **Graphite: Act 1** demo contains **4 heroes**
+- Only two heroes are confirmed by name: **The Knight** (shield-based, exploits the Break system, significant damage) and **The Mage** (offensive spells plus defensive support)
+- **Your starting hero choice changes the story** — different heroes experience different events
+- The game is intended to be played with **all characters** to see the full narrative
 
-**Friendship gain sources**:
+The exact unlock system is **partially unconfirmed**. What we can say with confidence is limited.
 
-| Activity | Friendship Gained | Notes |
-|----------|------------------|-------|
-| Camp Ability use (standard) | +3-5 per use | Most reliable method |
-| Camp Ability use (Monk's Meditation) | +7 per use | Best in the game |
-| Shared combat victory | +1-2 per fight | Passive, slow |
-| Tarot bonding event | +5-10 per event | Random, valuable |
-| Shared camp rest | +1-2 per rest | Minor but steady |
-| Defeating a boss together | +3-5 per boss | Significant spike |
+## The Friendship System — Confirmed in Existence
 
----
+Graphite includes a **friendship system** between characters — the demo's Steam listing confirms "friendship levels up to 1" between characters in the demo build. The Scribe's mission to the heroes is to "grow stronger and **gather allies**," so recruiting heroes as you progress is a core part of the design.
 
-## Hero Unlock Requirements by Act
+What is **not confirmed**:
 
-### Act 1 Unlockable Heroes
+- How friendship is gained (combat together, events, camp activities — all unconfirmed)
+- How friendship interacts with unlocking (thresholds, requirements — unconfirmed)
+- Which heroes unlock in which act (unconfirmed)
+- Any specific names for unlock mechanics (a "Bond system," "Friendship points," etc. — unconfirmed terms)
 
-| Hero | Friendship Threshold | Required Partner | Fastest Method |
-|------|---------------------|-----------------|----------------|
-| Warrior | Always available | None | Starting hero |
-| Rogue | Friendship 20 | Warrior | 2-3 camp cycles |
-| Hunter | Friendship 15 | Warrior or Rogue | 1-2 camp cycles |
-| Monk | Friendship 15 | Any starting hero | 1-2 camp cycles |
+**Important:** guides that quote specific friendship thresholds (e.g., "Friendship 15 unlocks the Monk") are not sourced. No such numbers have been officially published. Treat them as fabricated.
 
-**Act 1 priority order**: Unlock Hunter first (lowest threshold, immediate value), then Monk (most impactful hero), then Rogue.
+## Confirmed Heroes
 
-### Act 2 Unlockable Heroes
+### The Knight
 
-| Hero | Friendship Threshold | Required Partner | Fastest Method |
-|------|---------------------|-----------------|----------------|
-| Bard | Friendship 25 | Two different heroes | 3-4 camp cycles |
-| Mage | Friendship 30 | A hero who has completed a Bond event | 4-5 camp cycles |
-| Tamer | Friendship 25 | Hunter | 3-4 camp cycles |
+- Shield-based combat built around the **Break system** (depleting enemy Poise cancels their actions)
+- Deals significant damage despite the defensive kit
+- Expected to be the most forgiving starter — durability forgives mistakes while teaching the core mechanic
 
-**Act 2 priority order**: Unlock Bard first (S-tier artifact synergy), then Tamer (requires Hunter — unlock Hunter in Act 1), then Mage (highest threshold, save for last).
+### The Mage
 
----
+- Offensive spells with a support side — boosts allies' defenses
+- Flexible: primary damage that can pivot to protection
+- Pairs naturally with the Knight's frontline
 
-## Fastest Unlock Strategies
+### The Other Five
 
-### Strategy 1: Camp Ability Spam (Recommended)
+Names, abilities, and unlock conditions are **TBD** — not revealed in any public coverage at the time of writing. This section will be updated as official information appears.
 
-This is the fastest method by a wide margin.
+## How to Approach Unlocks (Honest Guidance)
 
-**Step-by-step**:
-1. Ensure the required partner hero is in your active party (the hero the target needs Friendship with).
-2. Find a camp site on the map.
-3. Enter the camp. This does NOT advance the day.
-4. Use ALL available Camp Uses on the target hero. Each use grants +3-5 Friendship.
-5. Rest (advances one day).
-6. If you have not reached the threshold, find another camp and repeat.
+Since the specifics are unconfirmed, here is what you can reasonably do based on the confirmed systems:
 
-**Expected results**: 2-3 camp cycles unlock any Act 1 hero. 4-5 camp cycles unlock any Act 2 hero.
-
-**Pro tip**: Camp Uses are a resource tied to your party. Using a Camp Ability consumes one Camp Use. Each camp visit starts with 2-3 Camp Uses depending on your party size. Larger parties get more Camp Uses per camp visit.
-
-### Strategy 2: The Monk Shortcut
-
-If you unlock the Monk early (the recommended approach), the Monk has a unique camp ability: **Meditation**.
-
-- Meditation grants +7 Friendship per use instead of the standard +3-5.
-- With Meditation, you unlock any Act 1 hero in **1 camp cycle** (3 uses x 7 = 21 Friendship).
-- You unlock any Act 2 hero in **2-3 camp cycles** instead of 4-5.
-
-**This is the single fastest unlock strategy in the game.** Prioritize unlocking the Monk first, then use the Monk to unlock everyone else.
-
-### Strategy 3: Bond Event Targeting
-
-The adventure deck occasionally draws **Bond Events** — special tarot cards that grant large Friendship boosts.
-
-- "The Bonding Ritual" grants +15 Friendship to two heroes of your choice.
-- "Shared History" grants +10 Friendship between heroes who fought the last boss together.
-- "The Festival" grants +5 Friendship to every hero in your party.
-
-**How to force Bond Events**: Bond Events are part of the "Social" category in the tarot deck. If you skip combat encounters and rest frequently, the deck cycles faster toward social events. This is useful in Act 2 when the threshold for unlocking Bard (25 Friendship) requires more work than Act 1 thresholds.
-
----
-
-## Friendship Threshold Reference
-
-| Friendship | Unlocks | Notes |
-|------------|---------|-------|
-| 0-5 | Friendship 5 status | Basic interactions unlocked |
-| 5-10 | Friendship 10 status | Unlocks unique dialogue |
-| 15 | Hunter, Monk unlock | Lowest unlock threshold |
-| 20 | Rogue unlock | Moderate threshold |
-| 25 | Bard, Tamer unlock | Requires dedicated effort |
-| 30 | Mage unlock | Highest standard threshold |
-| 50 | Bonded status achieved | Unique artifact and dialogue |
-| 100 | Maximum Friendship | No further gains possible |
-
----
+1. **Play the demo.** The Act 1 demo includes 4 of the 7 heroes. See which of the four are available to you — the roster you can pick from is the roster the demo lets you unlock or start with.
+2. **Vary your starting hero across runs.** Starting heroes change story events. Even if the unlock system is opaque, switching starters is the confirmed way to see different content.
+3. **Expect recruiting to be a core loop.** The Scribe's mission explicitly includes "gathering allies" — hero acquisition is a campaign goal, not a side feature.
+4. **Build friendships by playing together.** Friendship between characters is confirmed to exist. Using characters together across fights and events is the most reasonable hypothesis for raising it — but treat this as an expectation, not a confirmed mechanic.
+5. **Wait for release for real numbers.** The full game launches July 27, 2026. Until then, no unlock guide can be accurate.
 
 ## Common Mistakes to Avoid
 
-**Mistake 1: Spreading Friendship too thin**
-Using camp abilities on different heroes each visit slows down all unlocks. **Focus on one hero at a time** until they unlock, then move to the next.
-
-**Mistake 2: Forgetting to bring the required partner**
-You cannot build Friendship between two heroes unless they are both in your active party. Before a camp visit, check who you need to unlock and ensure the required partner hero is in the party.
-
-**Mistake 3: Ignoring camp sites**
-Every camp site visit grants 2-3 Camp Uses. If you skip a camp site, you lose those potential Friendship gains. **Always stop at camp sites**, even if your party is at full HP.
-
-**Mistake 4: Unlocking heroes too late**
-Each hero adds to your combat options and tarot event pool. If you reach Act 3 with only 3-4 heroes, you are severely limiting your potential. Aim to have 5-6 heroes by the start of Act 3.
-
-**Mistake 5: Not using the Monk's Meditation**
-If you have the Monk, using their Meditation on the target hero is strictly better than using a standard camp ability. There is no downside — Meditation does not cost extra resources.
-
----
-
-## Recommended Unlock Order
-
-| Phase | Unlock Target | Why This Order |
-|-------|---------------|----------------|
-| Act 1, Days 1-5 | Hunter (Friendship 15) | Lowest threshold, adds ranged damage |
-| Act 1, Days 5-10 | Monk (Friendship 15) | S-tier Break engine, unlocks Meditation |
-| Act 1, Days 10-15 | Rogue (Friendship 20) | S-tier DPS, uses Monk to unlock faster |
-| Act 2, Days 16-22 | Bard (Friendship 25) | S-tier artifact synergy |
-| Act 2, Days 22-28 | Tamer (Friendship 25 + Hunter) | Flexible specialist |
-| Act 2, Days 28-30 | Mage (Friendship 30) | Situational but useful |
-
-**Total**: 5-6 unlocked heroes by the end of Act 2. This gives you maximum flexibility for the harder Acts 3 and 4.
-
----
-
-## What Happens After Unlocking?
-
-Once a hero is unlocked:
-- They join your roster and can be added to the active party at camp sites or resting zones.
-- They start at a base level appropriate to the current act (not Level 1).
-- They have no pre-existing Friendship with other heroes — you must build that from scratch.
-- They come with a basic artifact loadout (1 Common artifact). Equip better artifacts from your collection.
-
-Unlocked heroes persist in your roster for the entire playthrough. If a hero dies in combat (if permadeath is enabled — see the [FAQ](/guides/faq-content) for difficulty settings), you can recruit them again if you reach the Friendship threshold in a new run.
-
----
+- **Trusting named unlock thresholds** — no official numbers exist; any guide quoting them is unsourced
+- **Assuming all 7 heroes are in the demo** — the demo has 4; the full game has 7
+- **Assuming hero names beyond Knight and Mage are real** — the other heroes are unnamed in official coverage
+- **Assuming unlocks carry between demo and full game** — demo progress carryover is unconfirmed
 
 ## Quick Reference
 
-| Hero | Act Available | Threshold | Required Partner | Best Method |
-|------|---------------|-----------|------------------|-------------|
-| Warrior | Always | Starting | None | Always available |
-| Hunter | Act 1 | Friendship 15 | Warrior or Rogue | 1-2 camp cycles |
-| Monk | Act 1 | Friendship 15 | Any hero | 1 camp cycle (use Meditation) |
-| Rogue | Act 1 | Friendship 20 | Warrior | 2-3 camp cycles |
-| Bard | Act 2 | Friendship 25 | Two different heroes | 2-3 camp cycles with Monk |
-| Tamer | Act 2 | Friendship 25 | Hunter | 2-3 camp cycles with Monk |
-| Mage | Act 2 | Friendship 30 | Hero with Bond event | 3-4 camp cycles with Monk |
+| Hero | Status | Notes |
+|------|--------|-------|
+| The Knight | Confirmed (demo) | Shield + Break; recommended starter |
+| The Mage | Confirmed (demo) | Spells + defensive support |
+| 2 other demo heroes | Unconfirmed | In the demo, unnamed in coverage |
+| 3 full-game-only heroes | Unconfirmed | Names and unlocks TBD |
+| Full roster | 7 heroes | Confirmed count |
+
+## Related Guides
+
+- [Heroes Guide — All 7 Heroes Breakdown](/guides/heroes-guide)
+- [Character Guide — Playable Heroes](/guides/character-guide)
+- [Beginner Guide — First Run Tips](/guides/beginner-guide)
+- [Advanced Tips & Tricks](/guides/tips-tricks)
+- [Graphite Demo Guide](/guides/graphite-demo-guide)

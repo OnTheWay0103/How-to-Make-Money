@@ -3,14 +3,16 @@ title: "Crafting Mastery Guide — Stations, Materials & Advanced Recipes"
 description: "Complete crafting mastery guide for Taival covering the crafting station system, material types, recipe tiers, special crafting effects, and how to unlock advanced recipes."
 category: "Guides"
 version: "1.0"
-updated: "2026-07-29"
+updated: "2026-08-01"
 keywords: ["taival crafting", "crafting stations", "materials guide", "recipe tiers", "special crafting effects", "advanced recipes", "henki crafting"]
-related: ["exploration-tips", "world-bosses", "equipment-guide"]
+related: ["exploration-tips", "world-bosses", "crafting-professions-guide"]
 ---
 
 ## Taival Crafting Mastery Guide
 
 Crafting in Taival is a deep system that grows alongside your adventure. From basic bandages to legendary equipment imbued with elemental effects, mastering the crafting stations and understanding material properties is essential for surviving the untamed wilderness. Your Henki companion also plays a role in crafting, as certain forms allow access to rare materials and unique recipe stations.
+
+**Accuracy note (August 2026):** professions & crafting are confirmed Early Access systems, and the Henki's forms do open up the world (and its materials). However, the station list, recipes, materials, and economy details below are community speculation from launch — the developer has not published crafting documentation. Reviewers (e.g., Gamerant) also note Taival deliberately de-emphasizes the classic gear-crafting loop in favor of Henki progression — set expectations accordingly. Treat all specifics below as unconfirmed (TBD).
 
 ## Crafting Station System
 
@@ -31,14 +33,16 @@ Each station has a quality level that improves as you craft more items. Higher s
 
 Materials are organized into categories, each with multiple tiers. Higher-tier versions of materials are found in more dangerous zones.
 
-| Material Category | Tier 1 Sources | Tier 2 Sources | Tier 3 Sources |
-|-------------------|----------------|----------------|----------------|
-| **Wood** | Whispering Woods | Ironwood Forest | Petrfied Grove |
-| **Ore** | Rocky Expanse | Iron Vein Caverns | Crystal Depths |
-| **Herbs** | Meadowlands | Sunken Marsh | Sky Gardens |
-| **Hides** | Deer, Rabbits | Wolves, Bears | Mythical Beasts |
-| **Gems** | Riverbeds | Mountain Caves | Volcanic Core |
-| **Essence** | Defeated enemies | Boss drops | World Boss drops |
+| Material Category | Early Sources | Mid Sources | Late Sources |
+|-------------------|----------------|-------------|-------------|
+| **Wood** | Highlands (community-reported) | Forests | Mountains / ruins (reported) |
+| **Ore** | Highlands caves (reported) | Mountains | Ruins (reported) |
+| **Herbs** | Highlands meadows (reported) | Forests | Mountains (reported) |
+| **Hides** | Small wildlife (reported) | Larger beasts | Rare creatures (reported) |
+| **Gems** | Riverbeds (reported) | Mountain caves (reported) | Deep ruins (reported) |
+| **Essence** | Tamed/absorbed creatures | Rare creatures | Boss encounters (reported) |
+
+**Note:** the region names (Meadowlands, Ironwood Forest, Sunken Marsh, etc.) used by earlier versions of this guide were invented — the game's confirmed realms are the highlands, forests, mountains, and ancient ruins. Material tiers and locations remain unconfirmed (TBD).
 
 ### Gathering Efficiency Tips
 

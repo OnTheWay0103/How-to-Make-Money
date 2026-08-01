@@ -1,218 +1,99 @@
 ---
-title: 'Endgame Guide — Tower of Trials, Raids & More'
-description: 'Complete DragonSword: Awakening endgame guide covering Tower of Trials, Raids, Hunts, World Bosses, and the upcoming Rift System. Everything to do after the story.'
+title: 'Endgame Guide — Tower of Trials, Raids, World Bosses & More'
+description: 'Everything confirmed about DragonSword: Awakening endgame — Tower of Trials, 3-player raids, World Bosses, Hunts, the upcoming Rift System, and honest TBD markers for undocumented details.'
 keywords: ['endgame guide', 'tower of trials', 'raids', 'world boss', 'hunts', 'rift system', 'endgame content']
-updated: '2026-07-24'
+updated: '2026-08-01'
 ---
 
 ## DragonSword: Awakening Endgame Guide
 
-Once you complete the main story and reach Mercenary Rank S, a wealth of **endgame content** opens up. This guide covers every activity available at launch, what rewards to expect, and how to progress efficiently in the post-game.
+After the main story, DragonSword: Awakening opens into a structured endgame of repeatable activities. The confirmed systems are the **Tower of Trials, Raids, World Bosses, and Hunts**, with the **Rift System** announced for post-launch. This guide covers what is confirmed about each — and is explicit about what the community has not yet documented.
+
+## The Confirmed Endgame Activities
+
+| Activity | Confirmed Facts | Details Status |
+|----------|-----------------|----------------|
+| **Tower of Trials** | Floor-based gauntlet, confirmed by player reports | Specifics TBD |
+| **World Bosses** | Open-world bosses on a rotation, farmed for materials/gear | Roster TBD |
+| **Raids** | Up to 3-player co-op endgame encounters | Mechanics TBD |
+| **Hunts** | Re-fight story bosses at higher difficulty | Tiers TBD |
+| **Rift System** | Announced post-launch feature | Not released |
 
 ## Tower of Trials
 
-The **Tower of Trials** is a solo (or 1-3 player) gauntlet of 25 floors. Each floor has unique enemies, modifiers, and a boss at the end.
+The Tower of Trials is the community's most-cited vertical challenge — a gauntlet of floors with rising difficulty and endgame rewards, frequently mentioned alongside **Karma gear** as a reward source.
 
-### How It Works
+**Confirmed:** the Tower exists and is a primary endgame activity.
 
-- Floors are sequential — you must clear each floor to unlock the next
-- Dying sends you back to the start of the current floor
-- Checkpoints every 5 floors
-- Weekly reset on Monday at 00:00 UTC
-- Rewards include Karma gear, Legendary crafting materials, and exclusive cosmetics
+**Unconfirmed (TBD):**
 
-### Floor Progression
+- Floor count ("25 floors" is claimed but not verified)
+- Whether it is solo-only or supports co-op
+- Floor modifiers and mechanics
+- Weekly reset rules
+- Exact reward tables
 
-| Floors | Recommended Level | Notable Rewards |
-|--------|-------------------|-----------------|
-| 1-5 | 20-25 | Rare gear, upgrade materials |
-| 6-10 | 25-30 | Epic gear, first Karma weapon token |
-| 11-15 | 30-35 | Epic/Legendary gear, relic set completion box |
-| 16-20 | 35-40 | Legendary gear, Karma gear tokens |
-| 21-25 | 40-45 | Karma gear, Origin relic set piece |
-
-### Floor Modifiers
-
-Starting at Floor 11, each floor has a **modifier** that changes the rules:
-
-- **Soul Leech** — Healing reduced by 50%
-- **Overcharge** — Enemies deal 2x damage but take 2x damage
-- **Frostbite** — SP regeneration slowed by 50%
-- **Darkness** — Reduced visibility, enemies are invisible until they attack
-- **Time Warp** — Clear within 5 minutes or fail
-
-### Tower Tips
-
-- **Build for the modifier** — Swap relics and equipment before entering
-- **Soul Leech floors**: Bring Aria for her cleanse
-- **Overcharge floors**: Go full glass cannon — kill them before they kill you
-- **Frostbite floors**: Equip SP regeneration relics
-- **Bring multiple heroes** — if you die, you can continue with a different hero
-
-### Weekly Priority
-
-Clear floors 1-15 every week for the guaranteed legendary reward. Push higher floors if you have time.
+**Community advice that holds regardless:** climb as high as your Mercenary Rank and gear allow, and treat Tower rewards as a major progression lever. Details will be added here as they are verified.
 
 ## Raids
 
-**Raids** are 1-3 player multi-phase boss encounters. They are harder than story bosses but do not require a full party to attempt.
+Raids are **3-player cooperative boss encounters** — the game's biggest multiplayer content. HOUND13 confirms co-op for up to 3 players in Raid, host-based and without regional restrictions.
 
-### Launch Raids
+**Unconfirmed:** raid names, boss rosters, mechanics, and loot. No verified source has published them — treat any list of raid names as speculation. Full coverage in the [Raids Guide](/guides/dungeon-raids).
 
-| Raid | Level Req | Phases | Mechanics |
-|------|-----------|--------|-----------|
-| **Void Construct** | 30 | 3 | Destroy power cores, survive arena collapse, DPS check phase |
-| **Titan's Fall** | 35 | 4 | Climb a giant, destroy weak points, mount sequence |
-| **Nightmare Court** | 40 | 5 | Fight corrupted heroes, handle unique mechanics per phase |
-| **Abyss Walker** | 45 | 5 | Darkness mechanic, phase-specific strategies |
+## World Bosses
 
-### Void Construct Details
+World Bosses are confirmed open-world endgame bosses with a **rotation schedule**, farmed in co-op for materials, gear, and (per player reports) familiar-related content.
 
-The easiest raid and a good starting point:
-- **Phase 1**: Destroy 3 power cores while dodging laser attacks
-- **Phase 2**: Survive the collapsing arena (platforming phase)
-- **Phase 3**: Burn the boss before the enrage timer
+**Unconfirmed:** individual boss names, locations, spawn timers, and drop tables. Earlier drafts of this wiki published World Boss names — those were **not verified and have been removed**.
 
-**Recommended team**: Theresia + Reina + Aria
-
-### Titan's Fall Details
-
-A unique raid where you climb a living giant:
-- **Phase 1**: Fight through leg guardians
-- **Phase 2**: Climb the giant while dodging its hands
-- **Phase 3**: Destroy chest weak point
-- **Phase 4**: Mount sequence — control the giant's fall
-
-**Recommended team**: Reina (mobility) + Kalsion (damage) + Lute (flex)
-
-### Nightmare Court Details
-
-The hardest raid available at launch. You fight corrupted versions of story heroes:
-- **Phase 1**: Corrupted Lute (fast combos)
-- **Phase 2**: Corrupted Theresia (Bleed stacks on your party)
-- **Phase 3**: Corrupted Kalsion (tanky, stun-resistant)
-- **Phase 4**: Corrupted Aria + adds (heals must be interrupted)
-- **Phase 5**: All four at once
-
-**Recommended team**: Full S-tier, max gear. Interrupt priority: Aria > Theresia > Lute > Kalsion.
-
-### Raid Rewards
-
-- **First clear per week**: Guaranteed legendary drop
-- **Repeat clears**: Epic gear, crafting materials
-- **Speed clear bonus**: Faster times get bonus loot boxes
-- **No-death bonus**: Extra rewards for flawless runs
+**Farming pattern (community-confirmed):** check the rotation, form a co-op party, repeat kills. See the [Boss Guide](/guides/boss-guide).
 
 ## Hunts
 
-**Hunts** let you re-fight story bosses at higher difficulty tiers (I through V). Each tier increases boss HP, damage, and speed while adding new attack patterns.
+Hunts let you **re-fight story bosses at higher difficulty tiers**. The confirmed story boss roster (Orc Warrior, Furcas, Grassland Lesser Dragon, Barduk, Lich, Ursula) forms the huntable set.
 
-### Hunt Benefits
+**Unconfirmed:** the number of difficulty tiers, XP and material values, and leaderboard claims.
 
-- **Best XP farm** for levels 30-40
-- **Materials** for Karma weapon crafting
-- **Practice** for boss mechanics without story consequences
-- **Leaderboards** — fastest clears are tracked per week
+**Why Hunts matter:** they are the community's recommended way to learn boss patterns without story consequences and a cited source of crafting materials.
 
-### Best Hunts for Materials
+## Karma Gear
 
-| Boss | Drops | Best for |
-|------|-------|----------|
-| Grassland Lesser Dragon | Dragon Scales (weapon crafting) | Weapon upgrades |
-| Barduk | Dragon Heart (Karma gear material) | Endgame gear |
-| Lich | Soul Fragments (relic upgrades) | Relic progression |
-| Ursula | Divine Shards (Origin gear) | Ultimate gear |
+**Karma gear** is the confirmed endgame gear tier, associated with World Bosses and the Tower of Trials.
 
-Farm Ursula (Hunt III) for the best endgame materials. A single Divine Shard sells for significant gold on the player market.
+**Unconfirmed:** exact drop sources, effects, and upgrade paths. See the [Equipment Guide](/guides/equipment-guide) and [Gear Progression Guide](/guides/gear-progression).
 
-## World Boss Rotation (Endgame)
+## The Rift System (Upcoming)
 
-World Bosses remain relevant in endgame for familiar farming and Karma gear materials.
+The **Rift System** is announced for post-launch — beyond that, nothing is verified. Claims about procedurally generated floors, leaderboards, or multiplayer scaling are **player speculation**. This guide will document the Rift when HOUND13 publishes details.
 
-### Endgame World Boss Priority
+## Endgame Progression Path (Confirmed Structure)
 
-1. **Andras** (Abyss Gate) — Best loot, Abyssal Phantom familiar, best Karma weapon upgrades
-2. **Barpedin** (Sky Fortress) — Skyforged Golem, tank gear
-3. **Lavanis** (Volcanic Core) — Lava Hound familiar, fire gear
-4. **Octavia** (Coral Reef) — Coral Drake familiar, underwater gear
-
-### Farming Route
-
-1. Check daily rotation
-2. Form a party via Party Finder
-3. Farm 5-10 kills
-4. Repeat daily until you have the materials you need
-
-## Rift System (Upcoming)
-
-The **Rift System** is a post-launch feature announced for the first major content update. While not available at launch, here is what we know:
-
-- **Infinite dungeon** — Procedurally generated floors
-- **Scaling difficulty** — Enemies scale to your level
-- **Leaderboards** — Ranked by depth reached
-- **Exclusive rewards** — Rift-exclusive cosmetics and gear
-- **Solo or co-op** — Play with up to 3 players
-
-Expected to arrive in Patch 1.2 (September 2026).
-
-## Endgame Gear Progression
-
-### Endgame Gear Path
-
-1. **Farm Relic Dungeons** for your first 4-piece relic set
-2. **Kill World Bosses** for Karma weapon tokens
-3. **Clear Tower of Trials** weekly for legendary drops
-4. **Complete Raids** for exclusive gear
-5. **Farm Origin Dragons** for Origin relic sets
-
-### Optimal Endgame Build Goal
-
-| Slot | Target |
-|------|--------|
-| Weapon | Karma Weapon (from World Boss / Tower) |
-| Armor | Legendary set (Tower of Trials / Raids) |
-| Accessories | Origin Relic set (Origin Dragons) |
-| Relics | 4-piece set (Relic Dungeon) + 2-piece (Origin Dragon) |
-
-## Endgame Daily/Weekly Routine
-
-### Daily (30-45 minutes)
-- 3x Bonus dungeon runs
-- World Boss (1-3 kills)
-- Check Black Market for rare materials
-
-### Weekly (2-3 hours)
-- Tower of Trials clear (as high as possible)
-- Each raid once (for first-clear bonus)
-- Hunts at highest difficulty you can clear
-- Weeklies reset Monday
-
-### Optional
-- Familiar farming
-- Exploration completion
-- Achievement hunting
-- Hero collection completion
+1. **Clear the story** — endgame activities unlock after the main quest line (see the [Walkthrough](/guides/walkthrough))
+2. **Push Mercenary Ranks** — promotions gate content unlocks (see the [Leveling Guide](/guides/leveling-guide))
+3. **Farm World Bosses** — the daily rotation is the community-standard loop
+4. **Climb the Tower of Trials** — the vertical challenge and Karma gear source
+5. **Run Hunts** — materials and boss practice
+6. **Raid with friends** — the 3-player co-op capstone
+7. **Collect familiars** — including the free Abyssal Direwolf DLC (see the [Familiars Guide](/guides/familiars-guide))
 
 ## Endgame Team Recommendations
 
-### For General Endgame
+The confirmed endgame-viable core:
 
-**Lute** (Flex) + **Theresia** (DPS) + **Aria** (Heal)
+- **Bleed Chain:** Theresia (Bleed/Stun) + Lute (Stun/Knockdown/heal) + Castella (Break/Stun) — the community-standard all-around team
+- **Stun-Lock:** Castella + Theresia + Lute — control-heavy for learning hard fights
+- **Ranged Pressure:** Aria (Burn/Airborne) slots in where distance helps
 
-This team handles most content. Swap Aria for a DPS if you are over-leveled.
+More lineups in the [Team Compositions Guide](/guides/team-compositions).
 
-### For Tower of Trials (High Floors)
+## Common Endgame Mistakes
 
-**Kalsion** (Survival) + **Theresia** (Bleed) + **Reina** (Aerial)
+1. **Farming the wrong rotation** — always check which World Boss is active before committing time
+2. **Skipping Hunts** — boss practice and materials come cheap here
+3. **Trusting unverified gear tables** — specific relic names, drop rates, and floor rewards are mostly unconfirmed; this guide will publish them when verified
+4. **Soloing raids unnecessarily** — raids are built for up to 3 players; a full party stacks ailments faster
 
-Kalsion tanks, Theresia applies constant damage, Reina provides burst.
+## Bottom Line
 
-### For Raids
-
-Check the specific raid mechanics and adjust. **Nightmare Court** benefits from a support-heavy team (Lute + Astria + Theresia). **Titan's Fall** benefits from mobility (Reina + Charlotte + Lute).
-
-### For Origin Dragons
-
-Origin Dragon fights require specific counters. **Vaeldris** (Fire) needs Frost resist gear. **Frostmaw** (Ice) needs Aria's cleanse. **Void** (Dark) needs maximum DPS.
-
-Looking for detailed builds? Check the [Hero Builds Guide](/guides/hero-builds-guide) for specific equipment setups.
+The endgame is: Tower of Trials + World Bosses + Hunts + 3-player Raids + Karma gear, with the Rift System coming later. The systems are confirmed; the numbers are not. This guide will be updated as the community verifies specifics. For the daily-loop angle, see the [Endgame Content Guide](/guides/endgame-content); for gear, the [Equipment Guide](/guides/equipment-guide).

@@ -1,99 +1,119 @@
 ---
-title: 'Crafting Mastery: Advanced Recipes, Enchantments & Rare Materials in Dwarf Delve'
-description: 'Master advanced crafting in Dwarf Delve. Learn about item tiers, enchantment recipes, rare material combinations, and end-game crafting strategies for permanent upgrades beneath the surface.'
-keywords: ['dwarf delve crafting mastery', 'dwarf delve advanced crafting', 'dwarf delve enchantments', 'dwarf delve rare materials', 'dwarf delve item tiers']
+title: 'Crafting Mastery: Refining, Upgrading & Advanced Strategy in Dwarf Delve'
+description: 'Master advanced crafting in Dwarf Delve — the confirmed systems: ore refining, gear upgrading, minecart logistics, and quarters customization. What real mastery looks like, with invented enchantment systems flagged honestly.'
+keywords: ['dwarf delve crafting mastery', 'dwarf delve advanced crafting', 'dwarf delve upgrades', 'dwarf delve rare materials', 'dwarf delve endgame crafting']
 category: Crafting
 version: '1.0'
-updated: '2026-07-27'
-related: ['crafting-guide', 'best-gear-equipment-guide', 'mining-strategies-guide', 'extraction-guide']
+updated: '2026-08-01'
+related: ['crafting-guide', 'best-gear-equipment-guide', 'mining-strategies-guide', 'extraction-guide', 'meta-progression-guide']
 ---
 
 ## Beyond Basic Crafting
 
-Every Delveling learns to craft support beams and flares within their first few descents. But the deeper tunnels demand more. This guide covers mastery-level crafting — rare material refinement, gear enchantments, permanent upgrades, and the recipes that separate veteran miners from the lost.
+Every Delveling learns to craft support beams and flares within their first few descents. Mastery in Dwarf Delve means something specific and confirmed: **getting more value out of the game's upgrade economy** — refining ores, upgrading gear, and hauling heavy loot out reliably.
 
-## Item Tiers & Material Quality
+A warning before we start: several guides on the web describe "crafting mastery" with enchantment altars, smelting stations, runes, and legendary material tiers. **None of that is confirmed.** The official materials confirm a much leaner system — which is exactly what this guide covers.
 
-Not all materials are equal. As you descend deeper, you encounter higher-grade ores and components that unlock superior recipes.
+## The Confirmed Advanced Systems
 
-| Tier | Material Examples | Depth Requirement | Crafting Yield |
-|------|-------------------|-------------------|----------------|
-| **Common** | Wood Scraps, Iron Ore, Coal | 0-50m | Basic beams, low-duration flares |
-| **Uncommon** | Copper, Cloth, Resin | 50-120m | Reinforced structures, floodlights |
-| **Rare** | Silver, Gold, Crystal Shards | 120-200m | Dwarven Pillars, advanced tools |
-| **Epic** | Mythril, Obsidian, Ancient Ore | 200-300m | Enchanted gear, permanent upgrades |
-| **Legendary** | Pure Mythril, Void Crystals | 300m+ | Artifact-tier equipment, runes |
+### 1. Ore Refining (Confirmed)
 
-### Material Refinement
+The official description: after extraction, "refine ores back at your Dwarven home." Raw ore becomes usable value between runs.
 
-Raw ores can be refined at specific crafting stations scattered through the mines:
+**Mastery angle:** extract consistently. Refinement happens at home, which means **unrefined ore in a dead Delveling's pocket is worth nothing** — the entire mastery game is about turning mining time into successful extractions.
 
-- **Smelting Station** — Turns raw ore into bars (2 ore = 1 bar). Bars are required for all advanced recipes.
-- **Gem Cutter** — Polishes raw crystals into socketable gems. Found near Crystal Caverns.
-- **Enchantment Altar** — Infuses gear with magical properties. Unlocked after defeating the first Abyssal boss.
+### 2. Trading Resources for Coin (Confirmed)
 
-## Enchantment Recipes
+"Trade resources for coin" is the official economy. Coin buys perks, skills, and upgrades.
 
-Enchantments apply permanent modifiers to your gear. Each enchantment consumes materials and must be applied at an Enchantment Altar.
+**Mastery angle:** learn which resources are worth coin and which are worth keeping. The official description mentions "treasures, and long-lost relics" alongside ores — relics in particular are described as unlocking unique perks and quarters decorations, so they're likely worth more kept than sold. Exact coin values are unpublished.
 
-| Enchantment | Effect | Materials Required | Altar Depth |
-|-------------|--------|--------------------|-------------|
-| **Hardened Edge** | +15% melee damage | 4 Mythril Bars + 2 Obsidian | 200m+ |
-| **Void Ward** | +25% corruption resistance | 3 Void Crystals + 5 Silver Bars | 250m+ |
-| **Lode Sense** | Reveals nearby ore veins on map | 2 Gold Bars + 4 Crystal Shards | 150m+ |
-| **Sturdy Frame** | +30% support beam durability | 4 Iron Bars + 2 Resin | 100m+ |
-| **Ember Core** | Floodlights last 50% longer | 3 Sulfur + 2 Coal + 1 Obsidian | 180m+ |
+### 3. Gear Upgrades & Customization (Confirmed)
 
-### Enchantment Priority by Playstyle
+"Every piece of gear can be upgraded and customized to your playstyle." Gear upgrading between runs is the game's confirmed endgame sink.
 
-- **Combat-focused**: Hardened Edge > Void Ward > Sturdy Frame
-- **Mining-focused**: Lode Sense > Sturdy Frame > Ember Core
-- **Balanced**: Hardened Edge > Lode Sense > Sturdy Frame
+**Mastery angle:** specialize, don't spray. The confirmed customization themes are "hit harder," "move faster," and "carry more loot." Pick the theme that matches your run style:
 
-## Rare Material Locations
+| Playstyle | Confirmed Theme to Prioritize |
+|-----------|-------------------------------|
+| Miner | Carry more loot |
+| Fighter | Hit harder |
+| Scout / raider | Move faster |
 
-Some materials only appear in specific biomes or under specific conditions.
+### 4. Minecart Logistics (Confirmed)
 
-| Material | Biome | Spawn Condition | Best Depth |
-|----------|-------|-----------------|------------|
-| **Void Crystal** | Abyssal Rift | After defeating The Buried King | 300m+ |
-| **Pure Mythril** | Lava Core | Extremely rare, near lava falls | 240-280m |
-| **Ancient Ore** | Sunken Tunnels | Inside flooded chambers | 180-220m |
-| **Phoenix Feather** | Fungal Deeps | Rare spawn beside giant mushrooms | 130-170m |
-| **Starlight Gem** | Crystal Caverns | Crystal cluster event | 80-120m |
+"Place rail and construct networks of minecarts to shift and store those heavy ores for you." The cart system is the confirmed way to scale up hauling.
 
-## Permanent Base Upgrades
+**Mastery angle:** rails pay for themselves when you find heavy ore deep in the mine. Build toward the elevator, not away from it.
 
-Certain crafted items can be brought back to your hub for permanent upgrades:
+### 5. Quarters Customization (Confirmed)
 
-| Upgrade | Crafting Recipe | Effect |
-|---------|----------------|--------|
-| **Reinforced Locker** | 10 Iron Bars + 4 Silver Bars | +6 inventory slots on all future runs |
-| **Deep Lantern** | 2 Gold Bars + 3 Crystal Shards + 1 Ember Core | Starting area always illuminated |
-| **Tunnel Map** | 8 Resin + 4 Silver Bars + 1 Lode Sense enchant | Reveals first 50m of every descent |
-| **Repair Station** | 12 Iron Bars + 6 Copper Bars + 2 Sturdy Frame enchants | Gear repairs 20% faster between runs |
+Your dwarven quarters are the confirmed hub: "Everything from carpets to furnishings to wall art!" The official press materials add that some furnishings "may have gameplay consequences beyond cosmetics."
 
-## Advanced Crafting Tips
+**Mastery angle:** pay attention to what you place. If a decoration does something mechanical, it's the kind of detail the game doesn't explain loudly. Community testing will reveal which furnishings matter.
 
-### Recipe Combinations
-Some advanced recipes require crafted items as components rather than raw materials:
+## What "Rare Materials" Means Today
 
-- **Reinforced Floodlight** = Floodlight + Sturdy Frame enchant + 2 Iron Bars
-- **Explosive Charge** = 4 Sulfur + 2 Coal + 1 Cloth (clears blocked tunnels instantly)
-- **Mithril Pickaxe** = 3 Mythril Bars + 1 Hardened Edge enchant (breaks rare ore in one hit)
+The official materials confirm ores, treasures, and relics. Specific rare-material names are **not confirmed** — the widely-circulated list of mithril, adamantite, void crystals, and similar comes from web speculation, not the developer.
 
-### Efficiency Strategy for Deep Runs
+What is safe to say:
 
-1. Bring a **Smelting Kit** (crafted from 2 Copper + 1 Cloth) to refine ore on-the-go.
-2. Prioritize **Gold and Crystal** early — they enable mid-game upgrades that speed up later runs.
-3. Save **Void Crystals and Pure Mythril** for end-game enchantments — do not waste them on temporary gear.
-4. Craft a **Dwarven Compass** (2 Silver Bars + 1 Crystal Shard) before attempting Abyssal Rift descents — it prevents disorientation in the void.
+| Category | Confirmed? | Practical Use |
+|----------|-----------|---------------|
+| Common ores | Yes (generic) | Refined for coin, upgrades |
+| Heavy ores | Yes (generic) | Shift and store via minecarts — the confirmed reason rails exist |
+| Treasures | Yes (generic) | High-value finds |
+| Relics | Yes ("long-lost relics") | Unlock unique perks and quarters decorations |
+| Named ores (mithril etc.) | No | Treat as unconfirmed until official sources name them |
 
----
+## Advanced Crafting Strategy (Confirmed Systems Only)
+
+### Strategy 1: The Two-Phase Run
+
+Phase A (mines): mine and craft supports, ladders, flares — spend materials on survival.
+Phase B (surface): refine, trade for coin, upgrade the Battlemallet first, reinvest.
+
+The confirmed loop is extract → refine → upgrade → descend. Your skill at executing it faster than the mine collapses is the entire mastery curve.
+
+### Strategy 2: Upgrade Sequencing
+
+- **Battlemallet first** — it's the only confirmed tool for both mining and combat; its upgrade benefits every run
+- **Lantern second** — darkness hides "unseen dangers and long-forgotten traps"
+- **Carry capacity** — the confirmed "carry more loot" theme compounds with minecart hauling
+- **Movement** — the confirmed "move faster" theme is safety and efficiency
+
+### Strategy 3: Bank Relics
+
+Relics are the confirmed endgame prize. They unlock perks and quarters decorations and are described as "long-lost" — treat them as the highest-priority item in any run. A run with a relic in hand should become an extraction run immediately.
+
+### Strategy 4: Scale Hauls With Carts
+
+The minecart system is the confirmed answer to heavy ores. A rail line from a rich deposit back to the elevator converts deep-mining time into extracted value. Stack this with carry-capacity upgrades for compounding returns.
+
+## Crafting Systems That Are NOT in the Game (Yet)
+
+- **Enchantment altars** — not confirmed
+- **Smelting stations in the mine** — not confirmed
+- **Runes / enchantment recipes** — not confirmed
+- **Material tier lists (Common → Legendary)** — not confirmed
+- **Permanent base upgrades crafted from rare materials** — not confirmed
+- **Named legendary weapons (Forgehammer, Inferno Blade, etc.)** — not confirmed
+
+The developer has a multi-year roadmap and the game will grow, but as of August 2026 these systems do not exist in official materials. Guides presenting them as fact are fabricating content.
+
+## Mastery Checklist
+
+- [ ] Extract consistently (refinement happens at home, not in the grave)
+- [ ] Upgrade Battlemallet before anything else
+- [ ] Build rails when the haul gets heavy
+- [ ] Bank relics — extract the moment you find one
+- [ ] Customize toward one theme: hit harder, move faster, or carry more
+- [ ] Decorate quarters and watch for functional furnishings
 
 ## Related Guides
 
 - [Basic Crafting Guide](/guides/crafting-guide) — Crafting fundamentals every beginner needs
-- [Best Gear & Equipment Guide](/guides/best-gear-equipment-guide) — Top-tier item recommendations
-- [Mining Strategies Guide](/guides/mining-strategies-guide) — Efficient resource extraction techniques
+- [Best Gear & Equipment Guide](/guides/best-gear-equipment-guide) — Upgrade priorities
+- [Mining Strategies Guide](/guides/mining-strategies-guide) — Efficient resource extraction
 - [Extraction Guide](/guides/extraction-guide) — Escape alive with your hard-earned materials
+- [Meta-Progression Guide](/guides/meta-progression-guide) — The full carry-over economy

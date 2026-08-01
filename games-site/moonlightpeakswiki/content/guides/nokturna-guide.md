@@ -3,72 +3,77 @@ title: "Moonlight Peaks Nokturna Guide — Card Game Explained & Deck Tips"
 description: "Everything about Nokturna, Moonlight Peaks' in-game card game: how to play, the 67-card collection, where to find opponents, and deck-building tips that win matches."
 category: "Guides"
 version: "1.0"
-updated: "2026-07-31"
+updated: "2026-08-01"
 keywords: ["moonlight peaks nokturna", "moonlight peaks card game", "moonlight peaks nokturna guide", "moonlight peaks deck"]
 related: ["characters-guide", "money-guide", "beginner-guide"]
 ---
 
 # Moonlight Peaks — Nokturna Guide: Card Game Explained
 
-> Launch Version / Updated: July 31, 2026
+> Launch Version / Updated: August 1, 2026
 
-Nokturna is Moonlight Peaks' **deep in-game card game** — a full collectible card battler hiding inside a cozy farming sim. It's played against the residents of town, it's a genuine side-hobby with its own collection ( **67 cards** in total), and it's a legitimately good way to earn coins and reputation. This guide covers how the game works, where to find it, and the deck-building fundamentals that win matches.
+Nokturna is Moonlight Peaks' **deep in-game card game** — a collectible card battler hiding inside a cozy farming sim, invented by the seer **Dragan**. It's played against the residents of town, it has its own **67-card** collection, and it's a legitimately good way to earn coins and reputation. This guide covers how the game works, where to find it, and the deck-building fundamentals that win matches.
 
 ## What Is Nokturna?
 
-- A **card game played against town residents**, one of the most fleshed-out mini-games in any life sim.
-- A **67-card collection** to find, earn, and trade — completionists have a real project here.
+- A **card game played against town residents**, one of the most fleshed-out mini-games in any life sim — invented in-universe by **Dragan of the Khazan family**.
+- A **67-card collection** to earn — completionists have a real project here, and collecting them all unlocks the **"Nokturna Master"** achievement.
 - A **night-appropriate hobby**: matches happen in town venues during the night hours, exactly when everything else in Moonlight Peaks happens.
-- A **money and relationship tool**: wins pay out, and card-savvy residents appreciate opponents who take the game seriously.
+- A **money and relationship tool**: wins pay out, and each opponent gives you new cards when beaten.
 
-**Pro tip:** don't treat Nokturna as a distraction — it's one of the best-designed systems in the game, and the people who play it at every skill level report it as a genuine highlight. It also quietly earns you coins that cost zero stamina, which makes it the perfect end-of-night activity when your bar is empty.
+**Pro tip:** don't treat Nokturna as a distraction — it's one of the best-designed systems in the game, and it quietly earns you coins that cost zero stamina, which makes it the perfect end-of-night activity when your bar is empty.
 
 ## How to Play
 
-The core loop is a standard card-duel structure, so if you've played any collectible card game, the fundamentals carry over:
+Nokturna is a **points duel**, not a life-point game — there is no resource/mana system and nothing gets "reduced to zero." The actual rules:
 
 | Element | What it is |
 |---------|-----------|
-| **Deck** | Your hand of cards, built from your collection |
-| **Resources** | Cards cost resources to play — manage your curve every turn |
-| **Win condition** | Reduce your opponent's side to zero before they do the same to you |
-| **Turn flow** | Play cards, use their effects, pass — pace matters as much as card quality |
+| **Match** | **3 rounds** — first player to win **2 rounds** wins the match (a tied round is a draw) |
+| **Round** | Each round has **3 turns**; at the end, whoever has **more points** wins the round |
+| **Hand** | Each player starts each round with a **hand of 5 cards**, drawn from their deck |
+| **Turn** | Play one card — the number at the top of the card is added to your points |
+| **Decks** | A deck holds **20 cards**, with a **maximum of 2 copies** of the same card, and its total point value is capped at **60** |
+| **Ability cards** | Marked with a **diamond** at the bottom — they add their value *and* trigger an effect (flip cards, draw, persist, and more) |
 
-Specific card effects vary by card — some Nokturna cards are straightforward power plays, others have effects that combo with each other. The **67-card collection** is broad enough that every archetype has support.
+**How to start:** talk to **Dragan** (often at the Nokturna spot near the Midnight Market for the first half of most nights) and choose the **"Invite"** option in dialogue. He'll teach you the game and give you the **Starter Deck**. Not every resident plays, but Dragan and Death are solid practice opponents.
 
-**Pro tip:** read the card text before you build around it. Nokturna's deepest wins come from **synergy**, not single-card power — a mid-strength card that combos beats a strong card that does nothing for your plan.
+**Pro tip:** read the card text before you build around it. Nokturna's deepest wins come from **synergy**, not single-card power — a mid-strength ability card that combos beats a strong plain card that does nothing for your plan.
 
 ## Where to Find Nokturna
 
-- **Opponents are all over town.** Residents who play Nokturna will have the game in their dialogue or activity rotation — chat to everyone and you'll find challengers.
-- **The Broken Lamp Inn** is a reliable hub for card activity — it's also the quest meeting spot for the Crest Garden chain, so you'll be there anyway.
+- **Opponents are all over town.** Residents who play Nokturna have the game in their dialogue — select **"Invite"** to challenge them. **Dragan** is the classic starting opponent, near the **Midnight Market** for the first half of most nights.
+- **Each opponent rewards specific cards.** Beating a resident gives you *their* cards — Evan drops Vampire and Plant cards, Tae drops Aquatic and Location cards, Ludo drops Werewolf and Animal cards, Luna drops Plant and Animal cards, and the **Dragon** opponent drops Spell cards.
 - **New opponents unlock with new areas.** After **"A Bridge Too Far"** opens the south map, the new residents there bring new decks, new difficulty, and new rewards.
-- **The collection grows through matches** — winning (and sometimes just playing) adds cards to your collection on the way to the full **67**.
+- **The collection grows through matches** — winning against specific characters adds cards on the way to the full **67**. You can even earn **two copies** of the same card from one opponent (defeating Death gives two Twilights).
 
-**Pro tip:** challenge every new character you meet at least once. Players report that some of the best cards in the collection come from opponents you'd never expect — the quietest resident can hold the strongest deck.
+**Pro tip:** challenge every new character you meet at least once — the cards they hold are tied to who they are. If you want Vampire cards, beat Evan; if you want Aquatic cards, beat Tae.
 
 ## Finding Opponents: A Quick Map
 
 | Location | Who you'll face | Notes |
 |----------|-----------------|-------|
-| **The Broken Lamp Inn** | Regulars and travelers | The most reliable card hub in town |
-| **Town residents** | Your favorite NPCs | Everyone with a card habit has their own deck and personality |
+| **Near the Midnight Market** | **Dragan** | The inventor — your first opponent and teacher |
+| **Town residents** | Your favorite NPCs | Evan, Tae, Ludo, Luna, Noel, Winston, Elvira and more each hold themed card pools |
 | **South map** (after "A Bridge Too Far") | New residents, tougher decks | Bigger challenge, bigger rewards |
+| **Special opponents** | **Death, Pumpkin Head, the Dragon** | Signature opponents with signature cards (Death, Sun God, Time Loop, and more) |
 | **Festivals** | Seasonal challengers | Limited-time opponents, limited-time prizes |
 
 **Pro tip:** if a night's quests take you to a new area, spend one match there before leaving. New zones introduce opponents you won't find anywhere else, and the collection to 67 cards is faster with fresh challengers on the list.
 
 ## Card Types and Collection Strategy
 
-While exact card stats vary across the **67 cards**, the collection breaks into a few recognizable roles:
+The **67 cards** break into thematic families, and each family has its own keyword mechanics:
 
-| Card type | Role | Deck advice |
-|-----------|------|-------------|
-| **Power cards** | Strong plays with high resource costs | A few finishers, never a deck full of them |
-| **Utility/effect cards** | Abilities that manipulate the board or your resources | The combo glue — read the text, pair effects |
-| **Cheap filler** | Low-cost plays that keep your curve alive | The backbone of a consistent deck |
+| Card family | Examples | Keyword notes |
+|-----------|-------------|---------------|
+| **Vampire / Werewolf / Aquatic / Plant** | Vampire Lord, Alpha Wolf, Siren, Gobbler | The main point-scoring families, with faction-flavored effects |
+| **Deity** | Death, Sun God, Moon Goddess | The rarest cards — won from signature opponents (Death, Pumpkin Head, the Moon Goddess) |
+| **Location / Item / Spell** | Graveyard, Scythe, Time Loop | Support cards that modify the board — items and spells typically cost 0 points |
+| **Ability cards** | Diamond-marked (Almanac, Starfish, Loyal Wolf) | Add their value *and* trigger an effect |
+| **Keywords** | **Persist**, **Elusive** | Persist = survives/continues its ongoing effect; Elusive = can't be flipped |
 
-**Collection strategy:** the 67 cards are earned through matches and opponents, so completion is a *play* goal, not a *purchase* goal. Keep a list of opponents you haven't beaten — the cards follow the wins.
+**Collection strategy:** cards are earned by **defeating specific opponents** — completion is a *play* goal, not a *purchase* goal. Keep a list of opponents you haven't beaten; the cards follow the wins. Many cards are only available from one opponent, so the collection doubles as a "who haven't I challenged yet" checklist.
 
 **Pro tip:** when you open a new card, compare it against your current deck's weakest card before adding it. Players who add every new card end up with decks that draw their worst cards first.
 
@@ -76,19 +81,20 @@ While exact card stats vary across the **67 cards**, the collection breaks into 
 
 | Tip | Why it works |
 |-----|--------------|
-| **Watch your resource curve** | A deck full of expensive cards loses to tempo; build a smooth curve of cheap and mid-cost plays |
-| **Synergy over stats** | Cards that reference each other outperform raw numbers |
-| **Keep your deck tight** | Playing every card you own dilutes your draws — build the best 15–20, not all 67 |
-| **Tech against opponents** | Residents have signature decks; adjust when you face the same opponent twice |
-| **Balance offense and defense** | All-power no-answer decks collapse the turn you fall behind |
+| **Respect the deck limits** | Exactly **20 cards**, **max 2 copies** of any card, and a total **60-point cap** — every card must earn its place |
+| **Keep your total under the cap** | The 60-point limit means you can't just stack 6-point cards; plan a mix of cheap support and finishers |
+| **Synergy over stats** | Cards that reference each other (Full Moon + Werewolves, Deep Sea + Aquatics) outperform raw numbers |
+| **Mind the flips** | Effects that **flip** opponent cards are the game's biggest swing — abilities with flip effects (Vampire Lord, Red Jester, Time Loop) win rounds |
+| **Tech against opponents** | Residents have signature decks and themes; adjust when you face the same opponent twice |
+| **Read the keywords** | Elusive cards can't be flipped; Persist cards keep working — these change which card you want on the table, not just how many points it adds |
 
-**Pro tip:** the single most common beginner mistake in Nokturna is **jamming every card into one deck**. The 67-card collection is a pool, not a mandate — your deck should be the strongest slice of it, tuned to one plan.
+**Pro tip:** the single most common beginner mistake in Nokturna is **jamming every card into one deck**. The 67-card collection is a pool, not a mandate — your deck should be the strongest 20-card slice of it, tuned to one plan and under the 60-point cap.
 
 ## Difficulty and Scaling
 
 Nokturna's challenge curve mirrors the town's:
 
-- **Early opponents** play simple decks — learn the turn flow and resource basics against them.
+- **Early opponents** play simple decks — learn the turn flow and point-tracking against them.
 - **Mid-game opponents** (often found on the south map after the bridge quest) build actual combos — this is where deck construction starts to matter.
 - **Top opponents** test your whole collection — you'll want a tuned 15–20 card deck, not your first draft.
 
@@ -108,10 +114,10 @@ Nokturna's challenge curve mirrors the town's:
 **67 cards** in total — the full collection is a completionist goal, and cards are earned through matches and opponents.
 
 **Do I need to be good at card games?**
-No — the fundamentals are simple (resource curve, synergy, win condition), and the opponents scale from casual to competitive as you progress.
+No — the fundamentals are simple (place a card, add its points, watch the ability effects), and the opponents scale from casual to competitive as you progress. Dragan teaches you with the "Test" option if you want a run-through.
 
 **Where do I find opponents?**
-Residents around town, with **The Broken Lamp Inn** as a reliable hub. New areas (south map after the bridge quest) add new players and decks.
+Residents around town — start with **Dragan** near the Midnight Market. New areas (south map after the bridge quest) add new players and decks, and signature opponents (Death, Pumpkin Head, the Dragon) hold the rarest cards.
 
 **Is Nokturna worth it for money?**
 Yes — it's zero-stamina income and pairs perfectly with the end of a night. Not the biggest earner in the game, but the cheapest.

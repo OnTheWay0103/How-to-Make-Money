@@ -6,21 +6,22 @@ export const metadata: Metadata = {
 };
 
 const OVERALL_TIERS = [
-  { tier: 'S', heroes: ['Theresia', 'Lute', 'Reina', 'Ornette', 'Kalsion'], note: 'Best in class — Theresia for bleed/stun flexibility, Lute for beginner-friendly all-rounder, Reina for aerial dominance, Ornette for crit DPS, Kalsion for melee power' },
-  { tier: 'A', heroes: ['Charlotte', 'Roxy', 'Aria', 'Dana', 'Kalien', 'Eileen', 'Astria', 'Sion'], note: 'Strong with conditions — Charlotte stealth assassin, Roxy ranged bleed, Aria explosive DPS, Dana summoner support, Kalien fire mage, Eileen halberd support, Astria crossbow sniper, Sion relic caster' },
-  { tier: 'B', heroes: ['Alex', 'Tarte', 'Cerese'], note: 'Situational — Alex too defensive, Tarte needs orb setup, Cerese only shines in frost teams' },
+  { tier: 'S', heroes: ['Theresia', 'Castella'], note: 'Theresia — confirmed Bleed + Stun kit, the strongest ailment pair in the early meta. Castella — the only confirmed Break user; Super Armor breaking is essential for every boss fight.' },
+  { tier: 'A', heroes: ['Lute', 'Aria'], note: 'Lute — confirmed Stun, Knockdown and the only confirmed ally heals; flexible in every team. Aria — confirmed Burn + Airborne ranged firepower specialist.' },
+  { tier: 'B', heroes: ['Ornette', 'Kalien'], note: 'Ornette — confirmed Electrocution (Shock) + Knockdown; a distinct third ailment type, still being evaluated by the community. Kalien — confirmed Stun specialist commanding the fire fox Sur.' },
+  { tier: 'TBD', heroes: ['Cerese', 'Reina', 'Kalsion', 'Charlotte', 'Roxy'], note: 'Confirmed in the 19-hero roster but kits are not officially detailed yet — we will not rank claims we cannot verify. Note: heroes like Eileen, Astria, Sion, Alex, Tarte, and Dana have no official confirmation as playable.' },
 ];
 
 const BEGINNER_TIERS = [
-  { tier: 'Best', heroes: ['Lute', 'Castella', 'Aria'], note: 'Your starting trio — Lute heals and stuns, Castella controls crowds, Aria deals explosive ranged damage. All obtained in the first hour.' },
-  { tier: 'Good', heroes: ['Theresia', 'Roxy', 'Dana'], note: 'Easy to learn, high payoff. Theresia is arguably the strongest hero overall. Roxy is the easiest ranged DPS. Dana\'s golem provides extra survivability.' },
-  { tier: 'Complex', heroes: ['Kalien', 'Charlotte', 'Sion'], note: 'High skill ceiling but punishing if you don\'t master their mechanics. Save these for after you\'ve learned the basics.' },
+  { tier: 'Best', heroes: ['Lute', 'Castella', 'Aria'], note: 'Your confirmed starting trio — Lute heals and stuns, Castella breaks Super Armor, Aria deals Burn + Airborne damage at range. Covers every role in the first hour.' },
+  { tier: 'Good', heroes: ['Theresia'], note: 'Unlocked through story progression — Bleed + Stun makes her the community consensus best hero. Build the Bleed Chain team (Theresia + Lute + Castella) as soon as you have her.' },
+  { tier: 'Complex', heroes: ['Kalien', 'Ornette'], note: 'Distinct playstyles — Kalien commands the fire fox Sur, Ornette wields a scythe with Electrocution. Solid once mastered, but the Stun/Bleed core is easier to learn.' },
 ];
 
 const BOSS_TIERS = [
-  { tier: 'S', heroes: ['Theresia', 'Ornette', 'Reina'], note: 'Theresia switches between bleed and stun on demand. Ornette\'s +30% crit buff melts bosses. Reina\'s aerial combos bypass ground defenses.' },
-  { tier: 'A', heroes: ['Kalsion', 'Dana', 'Eileen'], note: 'Kalsion breaks super armor fast. Dana\'s golem tanks and applies frost. Eileen buffs the whole team with her battle banner.' },
-  { tier: 'B', heroes: ['Roxy', 'Astria', 'Aria'], note: 'Ranged DPS is solid but squishy — needs a tank to draw aggro' },
+  { tier: 'S', heroes: ['Theresia', 'Castella'], note: 'Theresia stacks Bleed over time while Stun locks bosses down. Castella\'s Break drains the Super Armor bar and opens finisher prompts — the confirmed boss-breaking role.' },
+  { tier: 'A', heroes: ['Lute', 'Aria'], note: 'Lute\'s confirmed ally heals sustain long boss fights and his Stun feeds the chain. Aria applies Burn at range and launches bosses with Airborne.' },
+  { tier: 'B', heroes: ['Ornette', 'Kalien'], note: 'Ornette brings Shock interrupts; Kalien adds Stun density. Viable in specific compositions — full boss-fight rankings are still being documented.' },
 ];
 
 export default function TierListPage() {

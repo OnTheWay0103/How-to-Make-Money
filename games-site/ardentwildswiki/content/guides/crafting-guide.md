@@ -1,155 +1,115 @@
 ---
 title: 'Complete Crafting Guide — All Recipes & Materials in Ardent Wilds'
-description: 'Every crafting recipe, material location, and workstation in Ardent Wilds. From basic tools to legendary gear — master the complete crafting system including smelting, alchemy, cooking, and artifact crafting.'
+description: 'Everything confirmed about crafting in Ardent Wilds — crafting stations, materials, smelting, cooking, elixir brewing, and how the craft-vs-loot gear loop works. No invented recipes; honest guidance for a pre-release game.'
+category: 'Guides'
+version: '1.0'
+updated: '2026-08-01'
 keywords: ['ardent wilds crafting', 'ardent wilds recipes', 'ardent wilds materials', 'ardent wilds workstation', 'ardent wilds how to craft']
-updated: '2026-07-31'
+related:
+  - 'beginner-guide'
+  - 'base-building-guide'
+  - 'farming-cooking-guide'
+  - 'advanced-guide'
 ---
 
 # Complete Crafting Guide — All Recipes & Materials
 
-Crafting is the backbone of survival in Ardent Wilds. This guide covers every workstation, material tier, and recipe category available in the demo build. Understanding the crafting pipeline will save you hours of trial and error.
+Crafting is the backbone of survival in Ardent Wilds — a confirmed core pillar of the game. The developers describe it directly: you gather materials from the world to **construct and upgrade bases** and to **craft powerful armor and weapons at specialized crafting stations**, plus **growing crops, cooking delicious meals, and brewing powerful elixirs**.
 
-## Workstation Overview
+**Read this before anything else:** the game is pre-release (demo July 30, 2026; full game TBA), and **no official recipe list has been published**. Every "complete recipe list" you will find online for Ardent Wilds is fabricated or outdated — including the exact costs and ratios that appeared in earlier versions of this guide. We removed those. This guide covers the confirmed crafting systems and how to approach them, without inventing numbers.
 
-Each workstation unlocks a specific category of recipes. You will need all of them:
+## The Confirmed Crafting Systems
 
-| Workstation | Materials to Build | Unlocks |
-|-------------|-------------------|---------|
-| **Workbench** | 10 Wood + 5 Stone | Basic tools, weapons, building components |
-| **Furnace** | 20 Stone + 5 Coal | Smelting ores into ingots |
-| **Alchemy Station** | 15 Stone + 10 Fiber + 3 Crystal | Potions, elixirs, explosives |
-| **Cooking Station** | 10 Wood + 8 Stone | Cooked meals with buffs |
-| **Arcane Workbench** | 25 Crystal + 10 Gold Ingot + 5 Eldran Shard | Legendary-tier gear, artifact upgrades |
-| **Loom** | 15 Wood + 10 Fiber | Armor, bags, decorative cloth items |
+1. **Crafting stations** — "specialized crafting stations" are where you craft armor and weapons. Different stations for different categories is the described design
+2. **Material gathering** — materials come from the world: gathering on the surface and mining in caves and underground mines
+3. **Base construction** — materials build and upgrade bases, including furniture and decorations for your home
+4. **Farming** — growing crops is confirmed
+5. **Cooking** — cooking delicious meals is confirmed; meals support combat (buff food)
+6. **Elixir brewing** — brewing powerful elixirs is confirmed; elixirs aid combat
+7. **Loot-based gear** — some of the best gear is found, not crafted: powerful armor and weapons can be looted from defeated enemies
 
-**Build order priority:** Workbench → Furnace → Cooking Station → Alchemy Station → Loom → Arcane Workbench
+## Crafting Stations — What We Know
 
-## Material Tiers and Locations
+The exact station roster and build costs are unconfirmed. The pattern from the confirmed description: different recipe categories live at different stations. Expect to acquire and place:
 
-### Tier 1 — Basic Materials
+- A **basic crafting station** for tools and building pieces (the first station you build)
+- **Smelting** for ore processing (a furnace-like station is the genre standard; specifics unconfirmed)
+- A **cooking station** for meals
+- A **brewing station** for elixirs and potions
+- **Advanced stations** for high-tier gear — gated by materials from deep exploration
 
-| Material | Where to Find | Used For |
-|----------|--------------|----------|
-| **Wood** | Trees (any biome) | Building, basic tools, fuel |
-| **Stone** | Ground deposits, cliffs | Building, furnaces, basic tools |
-| **Fiber** | Bushes, tall grass | Rope, cloth, basic armor |
-| **Flint** | Riverbeds, gravel patches | Fire-starting, basic weapons |
+**Build order advice:** workstation → smelting → cooking/brewing is the sensible sequence: tools first, then ore processing, then consumables. Your actual progression will be guided by the recipe tree in-game.
 
-### Tier 2 — Intermediate Materials
+## Materials — What We Know
 
-| Material | Where to Find | Used For |
-|----------|--------------|----------|
-| **Copper Ore** | Hills, shallow caves | Copper Ingots → tools, weapons, wiring |
-| **Iron Ore** | Deep caves, mountain biomes | Iron Ingots → advanced tools, reinforced walls |
-| **Coal** | Cave walls, dark stone deposits | Furnace fuel, torches, explosives |
-| **Hardwood** | Ancient trees (deep forest biomes) | Advanced building, quality furniture |
+Confirmed material families from the official description: **gathered surface materials** (wood, stone, plant fibers — exact names unconfirmed), **mined ores** (from caves and mines), **rare materials** (found in dangerous deep places — "rare materials" is the developer's own phrase), and **looted materials** from enemies.
 
-### Tier 3 — Advanced Materials
+The specific material list and tier order are **TBD**. General expectations (true of the genre, not confirmed for Ardent Wilds specifically):
 
-| Material | Where to Find | Used For |
-|----------|--------------|----------|
-| **Gold Ore** | River deposits, deep caves | Gold Ingots → Arcane Workbench, decoration |
-| **Crystal** | Crystal caves, Spire ruins | Alchemy, Arcane Workbench, artifact crafting |
-| **Obsidian** | Volcanic biomes | Highest-tier tools, legendary weapons |
-| **Ancient Wood** | Restored Spire areas | Arcane-tier furniture, special building pieces |
+- Early materials: wood, stone, fibers
+- Mid materials: ores you smelt into metals
+- Late materials: rare finds from deep caves, mines, and high-difficulty zones
 
-### Tier 4 — Legendary Materials
+**Honest guidance:** when you find a material you do not recognize, hold onto a few units — you will likely need it the moment you unlock the next tier. Never sell or drop unknown materials.
 
-| Material | Where to Find | Used For |
-|----------|--------------|----------|
-| **Eldran Shards** | Boss drops, corrupted zones | Arcane Workbench, artifact upgrades |
-| **Primal Essence** | Yorgoroth encounters, deep Eldran zones | Ultimate gear crafting |
+## The Crafting Pipeline
 
-## Smelting Guide
+The confirmed loop, end to end:
 
-The Furnace converts raw ores into usable ingots. Ratios:
+1. **Gather** on the surface and mine underground
+2. **Process** raw materials at stations (smelting, milling, etc.)
+3. **Craft** tools, weapons, armor, and building pieces at stations
+4. **Consume** meals and elixirs to support exploration and combat
+5. **Build** bases, outposts, and furniture with building materials
+6. **Loot** — and remember some of the best gear drops from enemies, so crafting is not the only path
 
-| Input | Output | Time | Fuel |
-|-------|--------|------|------|
-| 3 Copper Ore | 1 Copper Ingot | 30s | 1 Coal |
-| 3 Iron Ore | 1 Iron Ingot | 45s | 1 Coal |
-| 5 Gold Ore | 1 Gold Ingot | 60s | 1 Coal |
-| 2 Obsidian | 1 Obsidian Bar | 90s | 2 Coal |
+**Pipeline tips:**
 
-**Efficiency tip:** Build multiple Furnaces and process ores in parallel. Smelting is the primary bottleneck in mid-game progression.
+- **Start long jobs before exploring.** If smelting takes time, queue it, then leave — come back to finished materials
+- **Parallel stations.** Multiple smelting/cooking stations running at once shorten the long poles dramatically
+- **Always process in the field.** Carry raw materials; process them when you return so chests never overflow with ore
 
-## Alchemy Recipes
+## Cooking
 
-The Alchemy Station produces consumables that provide temporary buffs:
+Cooking is a confirmed system with a combat role: "cooking delicious meals" that aid combat. What is unconfirmed: the recipe list, ingredient names, and buff effects.
 
-| Potion | Ingredients | Effect | Duration |
-|--------|------------|--------|----------|
-| **Health Elixir** | 3 Fiber + 1 Crystal + Water | Restores 50 HP instantly | Instant |
-| **Stamina Draught** | 2 Fiber + 1 Copper Ingot + Water | +30% stamina regen | 10 min |
-| **Fire Resistance Potion** | 3 Crystal + 1 Obsidian + Water | 50% fire damage reduction | 15 min |
-| **Night Vision Elixir** | 2 Crystal + 1 Eldran Shard + Water | See clearly in darkness | 20 min |
-| **Strength Tonic** | 2 Iron Ingot + 3 Fiber + Water | +25% melee damage | 10 min |
-| **Explosive Flask** | 5 Coal + 2 Iron Ingot + 1 Crystal | Thrown explosive (200 dmg) | Instant |
+**What to expect (genre-standard, unconfirmed for Ardent Wilds):** raw food sustains, cooked food is better, and specialty meals grant temporary combat buffs. Cook in batches — meals are consumables you will go through faster than you expect.
 
-## Cooking Recipes
+## Elixir Brewing
 
-Cooked meals provide longer-lasting buffs than potions. Always eat before major expeditions:
+"Brewing powerful elixirs" that aid in battle — confirmed. Elixirs are your consumable combat support: healing, buffs, and hazard protection are the genre-standard uses (unconfirmed specifics).
 
-| Meal | Ingredients | Buff |
-|------|------------|------|
-| **Roasted Meat** | 2 Raw Meat + Campfire | +20% max HP (30 min) |
-| **Hearty Stew** | 2 Raw Meat + 3 Vegetables + Cooking Station | +30% max HP, +15% stamina (45 min) |
-| **Explorer's Ration** | 1 Roasted Meat + 2 Mushrooms + 1 Bread | +20% movement speed (30 min) |
-| **Warrior's Feast** | 3 Raw Meat + 2 Potatoes + Spices | +25% damage, +20% max HP (45 min) |
-| **Eldran-Resistant Meal** | 2 Raw Meat + 1 Crystal + 1 Eldran Shard | 20% damage reduction vs Eldran (30 min) |
+**Brewing advice:**
 
-## Weapon & Tool Crafting
+- **Brew before you need it.** An elixir brewed at base is worth more than the same elixir wished-for mid-fight
+- **Stock for bosses.** Boss preparation (see the [Boss Guide](/guides/boss-guide)) starts with a full shelf of elixirs
+- **Ingredients matter — keep everything.** Brewing ingredients are usually plants and rare finds; they are exactly the materials beginners throw away
 
-### Tools
+## Farming
 
-| Tool | Materials | Workstation | Effect |
-|------|-----------|-------------|--------|
-| Wooden Pickaxe | 5 Wood + 3 Stone | Workbench | Mine stone, basic ores |
-| Copper Pickaxe | 3 Copper Ingot + 5 Wood | Workbench | Mine iron, gold |
-| Iron Pickaxe | 3 Iron Ingot + 5 Hardwood | Workbench | Mine obsidian, crystals |
-| Wooden Axe | 5 Wood + 3 Stone | Workbench | Chop basic trees |
-| Copper Axe | 3 Copper Ingot + 5 Wood | Workbench | Chop hardwood |
-| Iron Axe | 3 Iron Ingot + 5 Hardwood | Workbench | Chop ancient trees |
+Farming is confirmed and covered in depth in the [Farming & Cooking Guide](/guides/farming-cooking-guide). The short version: set up crops near water, harvest on a rhythm, and feed everything into cooking and brewing.
 
-### Weapons
+## Loot vs Craft
 
-| Weapon | Materials | Type | Base Damage |
-|--------|-----------|------|-------------|
-| Stone Sword | 5 Stone + 3 Wood | Melee | 15 |
-| Copper Sword | 3 Copper Ingot + 5 Wood | Melee | 25 |
-| Iron Sword | 3 Iron Ingot + 5 Hardwood | Melee | 40 |
-| Wooden Bow | 5 Wood + 3 Fiber | Ranged | 12 |
-| Copper Bow | 3 Copper Ingot + 5 Fiber | Ranged | 22 |
-| Iron Bow | 3 Iron Ingot + 5 Fiber + 2 Crystal | Ranged | 35 |
-| Fire Staff | 5 Wood + 3 Crystal | Magic | 20 (+burn) |
-| Ice Staff | 5 Wood + 3 Crystal + Tome of Ice | Magic | 18 (+freeze) |
+Confirmed design: some of the best gear comes from **looted enemies** rather than the crafting bench. Practical implications:
 
-## Building Materials
-
-| Structure | Materials | HP | Special |
-|-----------|-----------|----|---------|
-| Wooden Wall | 8 Wood | 200 | Basic defense |
-| Stone Wall | 8 Stone | 600 | 3x wood durability |
-| Reinforced Wall | 8 Stone + 2 Iron Ingot | 1500 | Endgame defense |
-| Wooden Door | 5 Wood + 2 Fiber | 150 | Auto-close |
-| Iron Door | 5 Iron Ingot + 2 Fiber | 500 | Lockable |
-| Wooden Floor | 4 Wood | 100 | Foundation |
-| Stone Floor | 4 Stone | 300 | Fireproof |
-
-## Artifact Crafting (Arcane Workbench)
-
-The Arcane Workbench lets you upgrade Rare Artifacts and craft legendary-tier items:
-
-- **Artifact Upgrade** — Combine an artifact + Eldran Shards to increase its tier
-- **Artifact Infusion** — Combine two artifacts to merge their effects (risky — can destroy both)
-- **Legendary Crafting** — Craft unique weapons and gear using Primal Essence
-
-**Warning:** Artifact Infusion has a success rate that scales with your restored Spire count. Each active Spire adds ~5% success chance. Attempting infusion with fewer than 5 Spires restored is not recommended.
+- **Do not sink everything into crafting** if a farmable boss or elite drops better gear — try the loot path before committing to expensive recipe chains
+- **Crafting is still essential** for tools, building, and consumables — loot fills the gear niche, not the utility niche
+- **Artifacts are loot-only.** Rare artifacts unlock unique abilities (confirmed) and are found, not crafted — exploration and boss hunting is how you get them
 
 ## Crafting Efficiency Tips
 
-1. **Automate smelting** — Always have Furnaces running while you explore
-2. **Organize storage** — Dedicate chests to specific material types (ores, fibers, food, etc.)
-3. **Cook in bulk** — Food buffs stack duration when you eat multiple, so cook batches
-4. **Pre-craft building materials** — Keep a stack of walls, floors, and doors ready for rapid base expansion
-5. **Mark resource nodes on your map** — The in-game map supports custom markers. Tag every rich resource deposit you find
+1. **Organize storage** — dedicate chests to material types (ores, fibers, food, building materials). A tidy base crafts twice as fast
+2. **Cook and brew in bulk** — consumables are the most-replenished inventory category; batch production saves constant trips to the station
+3. **Pre-craft building materials** — keep a stack of walls, floors, and doors ready for rapid base expansion
+4. **Keep unknown materials** — never discard materials you cannot identify yet
+5. **Check loot before long crafting chains** — a dropped weapon may save you an hour of smelting
+
+## What Is Still Unknown (TBD)
+
+- The full recipe list and all costs (no official list exists)
+- Material names, tiers, and spawn rules
+- Station names and build requirements
+- Smelting ratios, cooking buffs, elixir effects and durations
+
+This guide will be updated the moment official recipe information is published — check back after future playtests and at full release.

@@ -2,34 +2,33 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Class Tier List',
-  description: 'Bonehold class tier list — best class rankings for beginners, solo play, and deep dungeon runs. S-tier to C-tier rankings for all 7 classes at launch (July 2026).',
+  description: 'Bonehold class tier list — rankings for the 4 confirmed classes (Knight, Barbarian, Scorcher, Spellblade) for beginners and deep runs. The other 3 of 7 classes are unconfirmed.',
 };
 
 const OVERALL_TIERS = [
-  { tier: 'S', classes: ['Spellblade', 'Scorcher'], note: 'Highest ceiling — Spellblade hybridizes with everything, Scorcher AoE clears rooms effortlessly' },
-  { tier: 'A', classes: ['Knight', 'Barbarian'], note: 'Reliable and forgiving — Knight tanks anything, Barbarian melts bosses with rage stacks' },
-  { tier: 'B', classes: ['Unlockable Class 2', 'Unlockable Class 1'], note: 'Strong in specific builds but require more game knowledge to pilot effectively' },
-  { tier: 'C', classes: ['Unlockable Class 3'], note: 'Niche playstyle — high skill floor, rewarding when mastered but punishing for new players' },
+  { tier: 'S', classes: ['Spellblade', 'Scorcher'], note: 'Highest ceiling — Spellblade hybridizes with everything, Scorcher AoE clears rooms' },
+  { tier: 'A', classes: ['Knight', 'Barbarian'], note: 'Reliable and forgiving — Knight is the most defensive class, Barbarian the most aggressive' },
+  { tier: '?', classes: ['Unconfirmed (3 classes)'], note: 'Only 4 of Bonehold\'s 7 classes are officially named. The other 3 are unconfirmed — no official names, mechanics, or unlock conditions exist yet. Do not trust speculative rankings of them.' },
 ];
 
 const BEGINNER_TIERS = [
   { tier: 'Best', classes: ['Knight'], note: 'Tanky, simple charge combos, blocking saves you from mistakes. The most forgiving class.' },
   { tier: 'Good', classes: ['Barbarian', 'Spellblade'], note: 'Barbarian teaches aggression timing. Spellblade introduces spell/melee weaving.' },
-  { tier: 'Avoid', classes: ['Scorcher', 'Unlockable Classes'], note: 'Scorcher is fragile and requires positioning mastery. Unlockable classes demand deep game knowledge.' },
+  { tier: 'Avoid', classes: ['Scorcher'], note: 'Scorcher is fragile and requires positioning mastery. Save it for after you know enemy patterns.' },
 ];
 
 const DEEP_RUN_TIERS = [
   { tier: 'S', classes: ['Spellblade', 'Scorcher'], note: 'Spellblade\'s versatility shines on deep floors. Scorcher\'s AoE handles high-density enemy rooms.' },
-  { tier: 'A', classes: ['Barbarian', 'Unlockable Class 2'], note: 'Barbarian rage scaling becomes monstrous with deep-run item synergies.' },
-  { tier: 'B', classes: ['Knight', 'Unlockable Class 1'], note: 'Knight stays alive but kills slowly on deep floors — survivable but inefficient.' },
-  { tier: 'C', classes: ['Unlockable Class 3'], note: 'Requires specific legendary prefixes to compete deep — inconsistent without the right drops.' },
+  { tier: 'A', classes: ['Barbarian'], note: 'Barbarian high damage output clears rooms fast — deep runs reward speed and sustain.' },
+  { tier: 'B', classes: ['Knight'], note: 'Knight stays alive but kills slowly on deep floors — survivable but inefficient.' },
+  { tier: '?', classes: ['Unconfirmed (3 classes)'], note: 'Rankings for the 3 unnamed classes would be pure speculation — only 4 of 7 classes are officially confirmed.' },
 ];
 
 export default function TierListPage() {
   return (
     <div className="max-w-3xl mx-auto px-4 py-12">
       <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">Class Tier List</h1>
-      <p className="text-gray-400 mb-2">Bonehold class rankings for launch (July 28, 2026). Based on early access and demo data.</p>
+      <p className="text-gray-400 mb-2">Bonehold class rankings for launch (July 28, 2026). Only 4 of the 7 classes are officially named — rankings cover those 4 only.</p>
       <div className="inline-flex items-center gap-1 text-xs font-medium px-2 py-0.5 rounded bg-amber-900/30 text-amber-400 border border-amber-800/50 mb-8">Launch version — subject to balance patches</div>
 
       {[{ title: 'Overall Rankings', tiers: OVERALL_TIERS }, { title: 'Best Classes for Beginners', tiers: BEGINNER_TIERS }, { title: 'Deep Dungeon Rankings', tiers: DEEP_RUN_TIERS }].map((section) => (

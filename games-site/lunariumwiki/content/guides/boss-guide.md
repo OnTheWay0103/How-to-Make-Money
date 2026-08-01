@@ -1,184 +1,199 @@
 ---
 title: "Lunarium Boss Guide — All Bosses & Strategies"
-description: "Complete boss guide for Lunarium. Every boss encounter with attack patterns, parry windows, recommended builds, phase strategies, and rewards."
+description: "Every confirmed boss in Lunarium, in encounter order — Longhorn Troll, Shadow of Firleaves, Sentinel Colossus, Red Dancer, Fintan, Hauler Colossus, Roan, Lilia, the Sea Monster, Volcano Crab, Dreamsinger Priestess, Ryuu, Shadow in the Dream, Elmo, and final boss Enid."
 category: "Bosses"
 version: "1.0"
-updated: "2026-07-25"
-keywords: ["Lunarium boss guide", "Lunarium all bosses", "Lunarium boss strategies", "Lunarium how to beat", "Lunarium boss rewards"]
-related: ["combat-guide", "ave-build-guide", "forest-walkthrough", "castle-walkthrough"]
+updated: "2026-08-01"
+keywords:
+  - Lunarium boss guide
+  - Lunarium all bosses
+  - Lunarium how to beat Lilia
+  - Lunarium final boss Enid
+  - Lunarium boss strategies
+related:
+  - boss-mechanics
+  - castle-walkthrough
+  - lilia-boss-guide
+  - white-reef-isles-walkthrough
+  - archipelago-walkthrough
 ---
 
 # Lunarium Boss Guide — All Bosses & Strategies
 
-**Lunarium 1.0 / Updated: July 25, 2026**
+**Lunarium 1.0 / Updated: August 1, 2026**
 
-Every major boss in Lunarium, broken down with attack patterns, strategies, recommended builds, and rewards. Bosses are listed in the order you encounter them.
+This guide covers every major boss confirmed in Lunarium, in the order you encounter them. All boss information is sourced from community walkthroughs of the released game (July 2026). Where a detail is not yet confirmed, it is marked as such — this game was only released recently, and no fully verified official source exists yet.
 
----
-
-## 1. Corrupted Stag (Forest — Tutorial Boss)
-
-| Attribute | Detail |
-|-----------|--------|
-| **Location** | Forest Entrance |
-| **HP** | ~800 |
-| **Phases** | 1 |
-| **Parry Window** | Generous (tutorial boss) |
-| **Difficulty** | ★☆☆☆☆ |
-
-### Attack Patterns
-| Attack | Tell | Response |
-|--------|------|----------|
-| Antler Charge | Lowers head, paws ground | Dodge sideways |
-| Stomp | Raises front legs | Dodge backward |
-| Vine Whip | Green glow on antlers | Parry (easy timing) |
-
-### Strategy
-This is the tutorial boss. Focus on learning parry timing — the vine whip is designed to be parried. Don't worry about dying; Lune will auto-heal you.
-
-### Rewards
-- Stag Antler Charm (+5% parry window)
-- 200 Stardust
+**Core rules that apply to nearly every boss:**
+- **Parry** attacks with a white flash/telegraph — parrying staggers the boss and builds Resonance.
+- **Dodge** attacks with a **red flash** — they cannot be parried.
+- **Lune's arrow** destroys Nihilus orbs and can interrupt/stop several boss attacks.
+- The **Blade of Rutila** (obtained from Lilia's fight in Cyanstone) interrupts red-flashing attacks with heavy stagger damage — your most important boss tool from Cyanstone onward.
 
 ---
 
-## 2. Warden of the Grove (Forest Depths — End of Forest)
+## Boss Roster (Confirmed)
 
-| Attribute | Detail |
-|-----------|--------|
-| **Location** | Forest Depths — Ancient Grove |
-| **HP** | ~2,500 |
-| **Phases** | 2 |
-| **Parry Window** | Standard |
-| **Difficulty** | ★★★☆☆ |
-
-### Phase 1 (100% - 60% HP)
-| Attack | Tell | Response |
-|--------|------|----------|
-| Root Slam | Raises root-arm, 1s delay | Parry or dodge |
-| Spore Cloud | Body glows green, 2s charge | Run away (AoE poison) |
-| Vine Grab | Vines emerge from ground under Ave | Dodge when ground rumbles |
-
-### Phase 2 (60% - 0% HP)
-At 60% HP, the Warden enrages — adds two new attacks:
-| Attack | Tell | Response |
-|--------|------|----------|
-| Frenzied Swipes | 4-hit combo, white flashes | Parry chain (4 parries needed) |
-| Thorn Barrage | Spins, shoots thorns in all directions | Block or dodge through |
-
-### Strategy
-- Phase 1: Parry Root Slam, dodge Spore Cloud, punish after each attack
-- Phase 2: Save Resonance for healing. The Frenzied Swipes combo is hard — block the first hit if you're unsure
-- **Recommended Build:** Resonance Knight (safe) or Parry Specialist (fast)
-
-### Rewards
-- Grovekeeper's Charm (+15% nature resistance)
-- Rare Weapon: Verdant Blade
-- 800 Stardust
+| # | Boss | Region | Mandatory? | Notable Drops |
+|---|------|--------|------------|----------------|
+| 1 | **Longhorn Troll** | Firleaves | Yes | — |
+| 2 | **Vine Fungi** | Firleaves | Yes (mini-boss) | — |
+| 3 | **Shadow of Firleaves** | Firleaves | Yes | Echoes of Yore |
+| 4 | **Rearguard Warrior** | Cyanstone | Optional | Unconfirmed |
+| 5 | **Sentinel Colossus — Tower Shield** | Cyanstone | Yes | Soul of the Created |
+| 6 | **Red Dancer** | Cyanstone | Yes | Soul of the Created |
+| 7 | **Fintan** | Cyanstone | Yes | Soul of the Created |
+| 8 | **Hauler Colossus — Heavy** | Cyanstone | Yes | Soul of the Created |
+| 9 | **Mysterious Visitor (Roan)** | Cyanstone | Yes | — |
+| 10 | **Lilia** | Cyanstone | Yes | Lilia's Stellar Core, Blade of Rutila |
+| 11 | **Sea Monster** | White Reef Isles | Yes (ship fight) | Key for the Shipyard gate |
+| 12 | **Volcano Crab** | White Reef Isles | Yes | — |
+| 13 | **Dreamsinger Priestess** | White Reef Isles | Yes | Messenger's Key |
+| 14 | **Witch of the Abyss (Ryuu)** | White Reef Isles | Yes | Passage to Paradise |
+| 15 | **Roan (Rematch)** | Paradise | Yes | — |
+| 16 | **Shadow in the Dream** | Paradise (Dreampath) | Yes | Doro's Stellar Core, Dreampath butterfly |
+| 17 | **Elmo** | Paradise | Yes | — |
+| 18 | **Enid** | Paradise (Paradise of Yore) | Yes (final) | — |
 
 ---
 
-## 3. Armored Golem (Castle — Gatekeeper)
+## Firleaves Bosses (Region 1)
 
-| Attribute | Detail |
-|-----------|--------|
-| **Location** | Dilapidated Castle — Main Gate |
-| **HP** | ~4,000 |
-| **Phases** | 1 |
-| **Parry Window** | Short |
-| **Difficulty** | ★★★★☆ |
+### 1. Longhorn Troll — the First Boss
+The opening boss, fought in the Firleaves mountains.
 
-### Attack Patterns
-| Attack | Tell | Response |
-|--------|------|----------|
-| Fist Slam | Raises right arm, 0.5s delay | Dodge (unblockable — red flash) |
-| Sweeping Strike | Horizontal arm sweep | Jump or dodge backward |
-| Ground Pound | Jumps, crashes down | Dodge away (AoE shockwave) |
-| Laser Beam | Chest core glows, 2s charge | Run perpendicular to beam |
+- **Phase 1:** two swipes into a smash attack. Parry the swipes; the smash is also parry-able at this stage.
+- **Below 40% HP:** starts **glowing red** before some attacks — these cannot be parried, dodge them.
+- **Scripted rematch:** after defeat, it is consumed by darkness and rises again. Lune's light arrows destroy the Nihilus orbs that appear and stagger the boss — use this window to finish it.
 
-### Strategy
-The Golem has **no parry-able attacks** — this fight tests your dodging. Focus on:
-1. Baiting the Fist Slam → dodge → 3-hit combo on the arm
-2. When core glows (Laser Beam), run to its back for 5s of free damage
-3. **Recommended Build:** Blade Dancer (mobility is everything here)
+### 2. Vine Fungi
+A plant consumed by Nihilus (Firleaves).
 
-### Rewards
-- Golem Core Charm (+10% damage to armored enemies)
-- Rare Armor: Ironheart Plate
-- 1,200 Stardust
+- Occasional swings and a **red-flash smash** (dodge it).
+- **Summons small plants that shoot spikes** — destroy them quickly, they're the real threat.
+
+### 3. Shadow of Firleaves
+The region's second major boss.
+
+- **Phase 1:** glows red and pukes Nihilus on the ground (stay out of the puddles), summons ground spikes, and can surround itself with spikes when pressured.
+- **Phase 2 (below ~40% HP):** an **eye appears on its forehead**; it charges an area-wide shockwave — dodge it or **interrupt with Lune's arrow**.
+- **Drops: Echoes of Yore.**
 
 ---
 
-## 4. Corrupted Priestess (Castle — Chapel)
+## Cyanstone Bosses (Region 2)
 
-| Attribute | Detail |
-|-----------|--------|
-| **Location** | Dilapidated Castle — Chapel |
-| **HP** | ~3,500 |
-| **Phases** | 3 |
-| **Parry Window** | Standard |
-| **Difficulty** | ★★★★☆ |
+### 4. Rearguard Warrior (Optional)
+A colossus infected by Nihilus, south of the village.
 
-### Phase 1 (100% - 70%)
-| Attack | Tell | Response |
-|--------|------|----------|
-| Light Orb | Staff glows, shoots homing orb | Parry the orb (deflect back) |
-| Staff Strike | Melee swing | Parry |
+- A **Nihilus core appears during some attacks** — shoot it to interrupt them.
 
-### Phase 2 (70% - 30%)
-Adds:
-| Attack | Tell | Response |
-|--------|------|----------|
-| Shadow Clones | Splits into 3 (1 real, 2 fake) | Hit each to find the real one |
-| Dark Nova | Channeled AoE, 3s charge | Interrupt with heavy attack |
+### 5. Sentinel Colossus — Tower Shield (Gate Boss)
+- **Blocking:** attacks on its shield are deflected → counter shield bash → delayed dash. Both are parry-able.
+- After being staggered/knocked down, it performs **one final attack** on recovery.
+- **Red glow = ground smash AoE** — dodge.
+- **Drops: Soul of the Created.**
 
-### Phase 3 (30% - 0%)
-Berserk mode — all attacks faster, more aggressive:
-- Light Orbs now come in pairs (parry both!)
-- Shadow Clones are now 5 instead of 3
-- **Save Resonance for this phase** — Starfarer's Light can skip most of it
+### 6. Red Dancer
+- Very evasive; easy to parry/dodge once you know her.
+- **Lune's arrow keeps her stagger bar from draining** when you can't land hits.
+- **At 40% HP:** she disappears, the lights go out, and she summons **four lesser colossus dancers** — stagger and defeat each; the fight then resumes and ends.
+- **Drops: Soul of the Created.**
 
-### Rewards
-- Priestess Tear Charm (+20% healing received)
-- Legendary Weapon: Celestial Edge
-- 2,000 Stardust
+### 7. Fintan
+Colossus knight on horseback with a halberd — the horse also tackles and kicks.
+
+- **Red glow:** throws the halberd into the ground, then jumps and smashes — dodge.
+- **Phase 2:** a **Nihilus Core appears on its back** — after the smash, shoot it to interrupt a wide-area attack.
+- Reckless charges can be stopped with an arrow.
+- **Drops: Soul of the Created.**
+
+### 8. Hauler Colossus — Heavy
+- **Takes almost no damage** — the fight is about **staggering it twice**. Don't try to DPS it down.
+- **Red glow:** throws itself on the ground (small AoE); in Phase 2 the red glow drops **rocks from above** — keep moving.
+- **Drops: Soul of the Created.**
+
+### 9. Mysterious Visitor (Roan)
+A breather boss with a cane: three-hit combo into a thrust, a red-flash thrust (dodge), and projectiles. Easier than the Sentinel fights.
+
+### 10. Lilia — First Two-Health-Bar Boss
+Lune's Starfarer friend, fully consumed by Nihilus. The hardest fight of the region and a major skill check.
+
+- **Feint opener:** first swing is a feint, second is real.
+- **Unparriable (red-flash):** thrust, Nihilus ground AoE, projectile spam, spear slam.
+- **Deflects:** when she deflects your attack, she **always follows with a two-hit combo** — parry both hits.
+- **Phase 2:** more aggressive; can **trap you in Nihilus thorns** while preparing an explosion — **shoot the Nihilus core with an arrow** to escape.
+- **Finisher:** after beating her health bars, use the **Blade of Rutila** to finish her off.
+- **Drops: Lilia's Stellar Core + the permanent Blade of Rutila skill.**
+
+👉 Full breakdown: [How to Beat Lilia](/guides/lilia-boss-guide)
 
 ---
 
-## 5. Star-Eater (Archipelago — Final Boss)
+## White Reef Isles Bosses (Region 3)
 
-| Attribute | Detail |
-|-----------|--------|
-| **Location** | Archipelago — Abyss of Stars |
-| **HP** | ~8,000 |
-| **Phases** | 4 |
-| **Parry Window** | Very short (except phase 3) |
-| **Difficulty** | ★★★★★ |
+### 11. Sea Monster (Ship Fight)
+Attacks the ship as you sail. **You cannot attack it directly at first.**
 
-### Strategy Summary
-The Star-Eater is the final boss. Detailed strategy:
+- Dodge its attacks; when it **smashes a fin on the deck, strike the fin** to damage it.
+- Dodge the projectiles it shoots at the ship.
+- Survive until one of its eyes turns into a **Nihilus Core** — it then rests its fin on the deck: attack.
+- **Drops a key** that unlocks a locked gate in the Shipyard.
 
-**Phase 1 — Void Claws:** Learn the claw swipe pattern (3 hits, parry all). Punish after the third.
+### 12. Volcano Crab
+- **Phase 1:** slow, easy-to-avoid attacks; jumps twice to attack with its pincers.
+- **Phase 2 (after the first health bar):** it **divides the arena into three parts** — move with the sections.
 
-**Phase 2 — Starfall:** Boss flies up, rains stars. Run to the edge of the arena; the center takes the most hits.
+### 13. Dreamsinger Priestess
+Fought in her dream after drinking the liquid from her chamber.
 
-**Phase 3 — Desperation:** Boss is exhausted — **every attack is parry-able**. This is your damage window. Spend ALL Resonance.
+- She fights alongside an **aggressive puppet**.
+- **Focus the priestess first** — she has low HP and goes down quickly.
+- If you kill the puppet first, it **resurrects after the priestess falls**.
+- The puppet has huge HP but easy-to-avoid attacks.
+- **Drops: the Messenger's Key.**
 
-**Phase 4 — Final Stand:** Boss uses all previous attacks at increased speed. Use Moon's Embrace (Lune ultimate) to survive the initial onslaught, then finish with Starfarer's Wrath.
+### 14. Witch of the Abyss (Ryuu)
+A Starfarer fight — the price of passage to Paradise.
 
-### Best Build
-Resonance Knight with maxed Healing Light on Lune. This is an endurance fight.
+- **Primarily projectile attacks.**
+- **Below 40% HP:** second phase — the arena changes and projectiles intensify. They're fast but don't individually hit hard; the danger is being overwhelmed. Keep moving.
+- After defeat, Ryuu keeps her promise and takes you to Paradise.
 
-### Rewards
-- Star Core (Key Item — determines ending)
-- Legendary Charm: Heart of the Star
-- Achievement: "Star-Eater"
+---
+
+## Paradise Bosses (Region 4 — Finale)
+
+### 15. Roan (Rematch)
+Two phases: the second phase adds a **scythe** and makes Roan faster and stronger.
+
+### 16. Shadow in the Dream
+Dreampath mid-boss, before freeing Doro — a stronger version of the Firleaves opening boss family. Parry the parry-able attacks, dodge the red flashes, and use the Blade of Rutila on its heaviest moves. Frees Doro and grants her Stellar Core plus a butterfly that permanently protects you from the Dreampath.
+
+### 17. Elmo
+Scroll-user with a shield that must be **broken by staggering him once**. Dodge the scroll projectiles, build stagger, punish.
+
+### 18. Enid — Final Boss
+The entity behind the Nihilus corruption, fought in Paradise of Yore.
+
+- **Phase 1:** parry her deflection/thrust attacks; when she **smashes her sword into the ground, use the Blade of Rutila to stagger her**.
+- **Phase 2:** faster and more aggressive; she may **teleport into a rift** before grabbing you or unleashing rapid slashes.
+- After victory: ending cutscene, then an option to resume from the last bench for post-game cleanup.
+
+---
+
+## Optional & Post-Game Boss Notes
+
+- The only confirmed **optional** boss is the **Rearguard Warrior** (Cyanstone outskirts).
+- Community reports of secret/hidden bosses (beyond the main roster above) are **unconfirmed** — no reliable source has documented any as of this writing. Be skeptical of guides listing "hidden" bosses with no video or walkthrough backing.
+- Post-credits there is no confirmed new-game-plus content; resuming from the bench is the confirmed way to finish optional content.
 
 ---
 
 ## Related Guides
 
-- [Combat Guide — Parry, Dodge & Resonance](/guides/combat-guide)
-- [Forest Walkthrough](/guides/forest-walkthrough)
-- [Castle Walkthrough](/guides/castle-walkthrough)
-- [Archipelago Walkthrough](/guides/archipelago-walkthrough)
+- [Boss Mechanics Guide](/guides/boss-mechanics) — stagger bars, red flashes, Nihilus cores explained
+- [How to Beat Lilia](/guides/lilia-boss-guide) — the region-2 skill check in depth
+- [Cyanstone Walkthrough](/guides/castle-walkthrough) — Souls of the Created progression
+- [White Reef Isles Walkthrough](/guides/white-reef-isles-walkthrough) — ship fight and island bosses
+- [Paradise Walkthrough](/guides/archipelago-walkthrough) — the finale and Enid

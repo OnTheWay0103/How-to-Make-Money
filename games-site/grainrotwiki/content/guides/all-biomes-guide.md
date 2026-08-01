@@ -1,139 +1,62 @@
 ---
 title: 'All Biomes Guide — Every Underground Layer in Grain Rot'
-description: 'Complete biome guide for Grain Rot. Explore all 3 demo biomes (The Shallows, The Warrens, The Depths) plus leaked full-game layers. Loot tables, enemy spawns, hazards, and secrets for every underground zone.'
-keywords: ['grain rot biomes', 'grain rot underground layers', 'grain rot map', 'grain rot levels', 'grain rot areas']
-updated: '2026-07-24'
+description: 'What we know about Grain Rot biomes before launch: the 3 demo underground biomes, the Deep Layers, procedural shifting ruins, and which layer details are confirmed versus still TBD.'
+category: 'Guides'
+version: 'Pre-release'
+updated: '2026-08-01'
+keywords: ['grain rot biomes', 'grain rot underground layers', 'grain rot map', 'grain rot levels', 'grain rot demo biomes', 'grain rot deep layers']
+related: ['demo-guide', 'beginner-guide', 'extraction-guide', 'all-enemies-guide', 'game-mechanics-systems-guide']
 ---
 
-# All Biomes Guide — Every Underground Layer
+# All Biomes Guide — Every Underground Layer in Grain Rot
 
-The underground ruins of Grain Rot are divided into distinct **biomes** — procedurally generated zones with unique visual themes, enemy types, loot tables, and environmental hazards. Understanding each biome is essential for planning your descent. This guide covers every known biome.
+Grain Rot is a horror co-op extraction builder set in a scorched wasteland where "everything burns." The action takes place in **procedurally shifting underground ruins** reached by a cursed elevator. Before the full game launches on **August 7, 2026**, here is exactly what is confirmed about the game's biomes and layers — and what is still unconfirmed.
 
-## How Biomes Work
+## What Is Confirmed About the Ruins
 
-- **Procedural generation**: Each biome is procedurally assembled from hand-crafted room templates, so no two runs are identical
-- **Progressive depth**: Biomes appear in a fixed order as you descend
-- **Escalating difficulty**: Deeper biomes have tougher enemies, better loot, and harsher corruption
-- **Biome transitions**: Moving between biomes requires descending through transition zones (staircases, chutes, collapsed floors)
+These facts come directly from the official Steam page and the publisher's press materials:
 
-## Demo Biomes (Available Now)
+- You "ride a cursed elevator into shifting underground ruins with your crew."
+- The ruins are **procedurally generated** and shift between runs — the official feature list calls out "procedurally shifting underground dungeons."
+- The demo, released June 12, 2026, contains **3 underground biomes**.
+- The deeper you go, the worse the Rot becomes. The official description warns that in "the Deep Layers," bodies warp, voices distort, and emotes degrade.
+- Depth is the game's core risk-reward lever: the official copy literally says "Go deeper. Extract more."
+- Runs have no fixed map: because generation is procedural, every descent is different, though room templates repeat between seeds.
 
-### Biome 1: The Shallows
+## The 3 Demo Biomes
 
-| Attribute | Detail |
-|-----------|--------|
-| **Depth** | Layers 1-2 |
-| **Visual Theme** | Abandoned grain storage — towering silos, wooden catwalks, dust-filled air |
-| **Light Level** | Moderate — scattered lanterns and cracks of surface light |
-| **Hazards** | Collapsing floors, splinter traps |
-| **Corruption Rate** | Very slow |
+The demo's 3 underground biomes are confirmed to exist, and the names used by players to describe them (widely shared in community coverage) are: **The Shallows**, **The Warrens**, and **The Depths**.
 
-**Enemy Spawns**:
-- Splintered Stalker (common)
-- Husk Drone (common, swarms)
-- Grain Hulk (uncommon)
+⚠️ **Important — names are unverified.** Those three names appear in community and fan coverage, but the developers have not published an official biome list with names as of this writing. Treat them as community shorthand. The confirmed facts are:
 
-**Loot Table**:
-- Wood (abundant)
-- Basic constructs
-- Low-tier gold
-- Herbs (uncommon)
+| Fact | Status |
+|------|--------|
+| 3 underground biomes in the demo | ✅ Confirmed |
+| Biomes appear in a fixed order as you descend | ❓ Unconfirmed — likely, not stated |
+| Biome names (Shallows / Warrens / Depths) | ❓ Community coverage only |
+| Specific layer numbers per biome | ❓ Unconfirmed |
+| Biome-specific loot tables | ❓ Unconfirmed |
+| Biome-specific enemy rosters | ❓ Unconfirmed |
 
-**Strategy**: The Shallows is your "safe" zone. Full clear every room, smash all furniture for wood, and build up your basic resources. Even experienced players often clear The Shallows fully before descending — the risk/reward ratio is extremely favorable.
+## The Deep Layers
 
-**Secrets**:
-- Look for a cracked wall behind the largest silo — break it to find the Alchemist survivor
-- Some rooms have false floors — fall through to find hidden loot caches
+The one named zone in official copy is **the Deep Layers** — deeper floors where the Rot is strongest. Confirmed details:
 
-### Biome 2: The Warrens
+- The Deep Layers are "filled with Corrupted vessels, reacting to sound, movement, and each other."
+- "Rescue survivors trapped in the Deep Layers" is an official feature.
+- The full game's deepest content (and any layer cap) is unknown before launch.
 
-| Attribute | Detail |
-|-----------|--------|
-| **Depth** | Layers 3-4 |
-| **Visual Theme** | Twisted root tunnels — narrow passages, root-choked chambers, dripping ichor |
-| **Light Level** | Low — bioluminescent fungi provide dim illumination |
-| **Hazards** | Rot puddles (corruption on contact), collapsing tunnels, root snares |
-| **Corruption Rate** | Moderate |
+## What Actually Changes as You Descend
 
-**Enemy Spawns**:
-- Rot Weeper (common, ambush)
-- Timber Wretch (common)
-- Char Husk (uncommon)
+Even without an official biome list, the confirmed mechanics tell you what depth does:
 
-**Loot Table**:
-- Iron (common)
-- Uncommon constructs
-- Medium gold
-- Crystal (uncommon)
-- Essence (rare)
+1. **Corruption builds faster deeper down** — "The deeper you go, the worse the Rot becomes." Corrupted state warps your body, distorts your voice, and degrades your emotes.
+2. **Enemy density and threat increase** — the Corrupted are concentrated in the Deep Layers.
+3. **Loot value increases** — the extraction economy only makes sense if deeper floors pay better: "Go deeper. Extract more."
+4. **The extraction cost rises** — more distance from the elevator means a longer, riskier extraction, and if everyone's vessel breaks, "your loot is lost."
 
-**Strategy**: The Warrens demand caution. Check corners before entering rooms — Rot Weepers love ambush spots. Keep moving to avoid Timber Wretch surface attacks. If you hear rumbling beneath you, sprint. Target farming here: Iron and Crystal are essential for mid-game Outpost upgrades.
+## How to Use This Guide After Launch
 
-**Secrets**:
-- A hidden root tunnel behind a waterfall of ichor leads to the Cartographer survivor
-- Rot puddles sometimes hide underwater loot — high risk, high reward
+The plan for this page is simple: on August 7, the moment the full game is out, we will replace every "TBD" row above with verified biome names, layer counts, loot tables, and hazard details drawn from in-game testing. In the meantime, the honest state of knowledge is: **3 demo biomes exist, depth scales danger and reward, and every specific name or number is unverified.**
 
-### Biome 3: The Depths
-
-| Attribute | Detail |
-|-----------|--------|
-| **Depth** | Layers 5-6 |
-| **Visual Theme** | Ancient buried city — stone architecture consumed by Rot, cathedral-like chambers, ossified wood |
-| **Light Level** | Very low — bioluminescence fading, bring light sources |
-| **Hazards** | Collapsing ceilings, Rot geysers, fossilized spike traps |
-| **Corruption Rate** | Fast |
-
-**Enemy Spawns**:
-- Warped Screamer (uncommon, extreme threat)
-- Rot-Sworn Knight (uncommon)
-- Flesh-Grafted Abomination (rare, miniboss)
-
-**Loot Table**:
-- Obsidian (common)
-- Rare constructs
-- High gold
-- Unique cosmetics
-- Legendary vessel fragments (very rare)
-
-**Strategy**: The Depths is where runs are made or broken. Move fast, fight only when necessary, and extract as soon as you have valuable loot. Warped Screamers are the #1 run-ender — designate a Screamer hunter who kills them before they can scream. Rot-Sworn Knights require flanking — never fight them head-on.
-
-**Secrets**:
-- The Tinkerer survivor is trapped in the boss arena — defeat the Flesh-Grafted Abomination to rescue them
-- A hidden ossuary contains a guaranteed rare construct — but is guarded by two Rot-Sworn Knights
-
-## Full Game Biomes (August 7, 2026)
-
-Based on trailers, developer interviews, and datamined information, the full game will include additional biomes:
-
-### Biome 4: The Rot-Hollow (CONFIRMED)
-
-| Attribute | Detail |
-|-----------|--------|
-| **Depth** | Layers 7-8 |
-| **Visual Theme** | Living Rot — walls of pulsing organic matter, veins of corruption, the Rot itself is alive here |
-| **Special Mechanic** | The walls attack — Rot tendrils grab passing players |
-
-### Biome 5: The First Elevator (SPECULATED)
-
-| Attribute | Detail |
-|-----------|--------|
-| **Depth** | Layers 9-10 |
-| **Visual Theme** | The origin of the cursed elevator system — mechanical ruins mixed with ancient wood |
-| **Special Mechanic** | Elevator puzzles — activate ancient machinery to progress |
-
-### Biome 6: The Heart (TEASED)
-
-| Attribute | Detail |
-|-----------|--------|
-| **Depth** | Layer 11+ |
-| **Visual Theme** | The source of the Rot — a massive, beating heart of corrupted wood |
-| **Special Mechanic** | Final boss arena — the Echo of the First Spark |
-
-## Biome Strategy Cheat Sheet
-
-| Biome | Stay or Go? | Farm For | Biggest Threat | Extraction Threshold |
-|-------|-------------|----------|---------------|---------------------|
-| The Shallows | Full clear | Wood, basic gold | Overconfidence | N/A (rarely die here) |
-| The Warrens | Targeted clear | Iron, Crystal | Rot Weeper ambush | 2+ players below 50% durability |
-| The Depths | Speed run | Obsidian, rares | Warped Screamer | Any Screamer sighting |
-| Rot-Hollow | Boss only | Legendaries | Wall tendrils + enemies | After boss kill immediately |
+The demo is the best source of truth available right now — see our [demo guide](/guides/demo-guide) for what it contains. If you want the big picture before your first descent, start with the [beginner guide](/guides/beginner-guide).

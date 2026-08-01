@@ -2,14 +2,16 @@
 title: "Co-op Multiplayer Guide: Tips for 2-4 Player Groups"
 description: "Master Taival co-op — online, local split-screen, and mixed mode. Group voting, party composition, and coordinated Henki strategies for 2-4 players."
 category: "Co-op"
-updated: "2026-07-27"
+updated: "2026-08-01"
 ---
 
 # Co-op Multiplayer Guide: Tips for 2-4 Player Groups
 
-> Early Access Version / Updated: July 27, 2026
+> Early Access Version / Updated: August 1, 2026
 
 Taival is built from the ground up for cooperative play. Developed by Bonobo Software as a game designed for friends to share on a couch or across the internet, it supports up to 4 players with a unique hybrid system that lets you mix local split-screen and online players in the same session. This guide covers co-op modes, the group voting system, party composition, Henki form coordination, and strategies for every group size.
+
+**Accuracy note (August 2026):** the core features here — online co-op, local split-screen, mixed local + online sessions, Remote Play Together, per-player characters/companions/skill trees, and group dialogue voting — are confirmed by official materials. Smaller details (vote anonymity, tie-break rules, host-disconnect behavior, split-screen layouts) are community reports and unconfirmed (TBD).
 
 ---
 

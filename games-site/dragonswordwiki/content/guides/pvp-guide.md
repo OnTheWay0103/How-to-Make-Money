@@ -1,178 +1,76 @@
 ---
-title: "PvP Guide — Arena Rankings, Builds & Combat Tactics"
-description: "Master Dragonsword's PvP arenas — ranking system, class builds, arena layouts, combat tactics, and how to climb the leaderboards efficiently."
-category: "PvP"
-version: 1.0
-updated: "2026-07-27"
-keywords: [pvp guide, dragonsword pvp, arena guide, pvp builds, pvp classes, pvp rankings, 1v1 guide, 3v3 guide, battleground, leaderboard]
-related: [skill-tree-guide, quest-guide, ../class-guide, ../best-gear]
+title: 'Is There PvP in DragonSword: Awakening? Co-op & Multiplayer Guide'
+description: 'DragonSword: Awakening has no PvP at launch. Learn the real multiplayer options — 2-player Battle co-op, 3-player Raids, host-based lobbies — and how to play with friends.'
+category: 'Multiplayer'
+version: '1.0'
+updated: '2026-08-01'
+keywords: ['dragonsword awakening pvp', 'dragonsword awakening multiplayer', 'dragonsword awakening co-op', 'dragonsword awakening 2 player', 'dragonsword awakening raids', 'play dragonsword with friends']
+related: ['beginner-guide', 'combat-guide', 'endgame-guide', 'boss-guide', 'dungeon-raids']
 ---
 
-# PvP Guide — Arena Rankings, Builds & Combat Tactics
+# Is There PvP in DragonSword: Awakening? Co-op & Multiplayer Guide
 
-Dragonsword's PvP system features **three arena formats** — 1v1 Duel, 3v3 Team Arena, and 10v10 Battleground. Each has its own ranking system, map pool, and build requirements. This guide covers everything you need to climb from Bronze to Legend rank.
+**Short answer: no.** DragonSword: Awakening shipped without any PvP mode — no duels, no arenas, no battlegrounds, and no player-versus-player leaderboards. HOUND13 built the game as a single-player open-world action RPG with optional cooperative play, and no PvP content has been announced. This guide explains what multiplayer actually exists in the game and how to make the most of it.
 
----
+## No PvP at Launch
 
-## PvP Formats Overview
+If you came to DragonSword: Awakening looking for competitive play, you will not find it. There is no PvP mode in the July 2026 release:
 
-| Format | Team Size | Map Size | Match Duration | Rating Impact |
-|---|---|---|---|---|
-| **Duel (1v1)** | Solo | Small | 5 min | ±15–25 rating |
-| **Team Arena (3v3)** | Premade / Solo Queue | Medium | 10 min | ±20–30 rating |
-| **Battleground (10v10)** | Large Group | Large | 20 min | ±10–15 rating |
+- No 1v1 duels
+- No team arenas or battlegrounds
+- No PvP rating or ranked ladder
+- No PvP-exclusive gear or rewards
 
----
+The developer's stated direction is a fully cooperative experience. All progression — heroes, gear, and content — is PvE-focused, which fits the game's buy-to-play, no-microtransaction design. If PvP is ever added, it would come as a post-launch update, but as of August 2026 nothing has been confirmed.
 
-## Ranking System
+## The Real Multiplayer: Co-op
 
-Dragonsword uses a **6-tier ranking system** with rating-based progression.
+What the game *does* have is online cooperative play. According to the Steam store page, co-op supports **up to 2 players in Battle** and **up to 3 players in Raid**. Sessions are host-based, and there are no regional restrictions on who you can invite.
 
-| Rank | Rating Range | Requirement | Rewards |
-|---|---|---|---|
-| **Bronze** | 0–999 | None | 1× PvP Token per win |
-| **Silver** | 1000–1499 | 10 wins in Bronze | 2× PvP Tokens, Basic Gear Box |
-| **Gold** | 1500–1999 | 25 total wins | 3× PvP Tokens, Advanced Gear Box |
-| **Platinum** | 2000–2499 | Gold rank + 60% win rate | 5× PvP Tokens, Epic Gear Box |
-| **Diamond** | 2500–2999 | Platinum + 100 wins | 8× PvP Tokens, Exclusive Weapon Skin |
-| **Legend** | 3000+ | Top 500 players | 15× PvP Tokens, Legendary Mount, Title |
+### Battle Co-op (2 Players)
 
-> **Rating decay:** Players above 2000 rating lose 10 rating per day if inactive. Log in at least once every 48 hours to maintain your rank.
+Battle co-op lets a second player join your session for combat. The exact scope of Battle mode — whether it covers open-world exploration, story fights, World Bosses, or all three — has not been fully documented yet, so treat this as an area where specifics are still TBD.
 
----
+### Raid Co-op (3 Players)
 
-## Best PvP Classes by Format
+Raids support up to three players, making them the most substantial cooperative content in the game. Raids are endgame boss encounters (see the [Endgame Guide](/guides/endgame-guide) and [Dungeon Raids Guide](/guides/dungeon-raids) for what is known about them).
 
-### 1v1 Duel Tier List
+### How Co-op Works
 
-| Tier | Class | Strengths | Weaknesses |
-|---|---|---|---|
-| **S** | Shadow Blade | High burst, stealth, gap closers | Squishy, low sustain |
-| **S** | Frost Mage | Range, CC, kiting | Weak in melee range |
-| **A** | Paladin | Sustain, anti-CC, defensive CDs | Low damage output |
-| **A** | Berserker | High HP, damage reduction | Predictable, kiteable |
-| **B** | Ranger | Range, traps, mobility | Dies in melee range |
-| **B** | Cleric | Healing, dispel | Low burst, long fights |
-| **C** | Engineer | Turrets, utility | Telegraphed, low mobility |
+Confirmed details are limited to what the store page states: sessions are **host-based** (the host invites others, likely via the in-game friend/invite system), and there are **no regional restrictions**. Open questions we have not seen answered publicly:
 
-### 3v3 Team Arena Tier List
+- How the tag-team system works when two or three players are in the same fight (each player controlling their own party of three is plausible but unconfirmed)
+- Whether story progression carries for non-host players
+- Whether co-op is available from the start or unlocked at a specific point
+- How loot and rewards are distributed
 
-| Tier | Class | Role | Synergies |
-|---|---|---|---|
-| **S** | Paladin | Support/Tank | Shadow Blade, Frost Mage |
-| **S** | Shadow Blade | Burst DPS | Paladin, Cleric |
-| **A** | Frost Mage | Control | Paladin, Berserker |
-| **A** | Cleric | Healer | Paladin, any DPS |
-| **B** | Berserker | Frontline | Cleric, Frost Mage |
-| **B** | Ranger | Ranged DPS | Paladin, Cleric |
-| **C** | Engineer | Zone Control | Frost Mage |
+Until these are confirmed, we are marking them as **unconfirmed** rather than guessing.
 
-### 10v10 Battleground Tier List
+## Tips for Playing Co-op
 
-| Tier | Class | Role |
-|---|---|---|
-| **S** | Cleric | Group healing, mass dispel |
-| **S** | Frost Mage | AoE CC, zone denial |
-| **A** | Paladin | Flag carrier, point defender |
-| **A** | Ranger | Sniper, point harassment |
-| **B** | Berserker | Frontline brawler |
-| **B** | Shadow Blade | Flanker, backline assassin |
-| **C** | Engineer | Siege, point defense |
+Even with limited public documentation, these recommendations follow from how the game's combat is designed:
 
----
+1. **Bring complementary status ailments.** The combat system rewards teams that stack matching ailments (see the [Combat Guide](/guides/combat-guide)). If two players both bring heroes that apply Bleed or Stun, Signal Skill chains will trigger far more often.
+2. **Coordinate the breaker role.** Super Armor breaking opens enemies up for finisher prompts. Make sure at least one player has a hero with strong Break or Stun coverage, like **Castella** or **Theresia**.
+3. **Don't double up on identical kits.** Three heroes with the exact same ailment can waste stacks. Diversity across your six (or nine) heroes gives you more ways to extend combos.
+4. **Use the free Abyssal Direwolf familiar.** If you have the free Abyssal Direwolf DLC installed, the movement speed benefit helps you keep up with each other while exploring (see the [Familiars Guide](/guides/familiars-guide)).
 
-## Top 3 Meta Builds
+## Frequently Asked Questions
 
-### Build 1: Shadow Blade Burst (1v1 / 3v3)
+**Will PvP ever be added to DragonSword: Awakening?**
+Nothing has been announced. HOUND13's roadmap confirms new heroes (Ryza, Jerome, Veronica, Logan) and DLC plans for the second half of 2026, but no PvP modes.
 
-| Slot | Item | Stat Priority |
-|---|---|---|
-| Weapon | Duelist's Fang (dagger) | Crit Damage > Attack Speed |
-| Armor | Assassin's Leathers | Movement Speed > Evasion |
-| Amulet | Prowler's Charm | +15% Crit Chance |
-| Ring | Band of Shadows | +20% Backstab Damage |
-| Trinket | Shadow Veil | Stealth on demand (45s CD) |
+**Can I play the whole game co-op?**
+Not confirmed. The main story is single-player; co-op is confirmed for Battle and Raid content. Whether story missions can be played together has not been officially detailed.
 
-**Rotation:** Open from stealth → Backstab → Dagger Storm → Evade → Backstab → Shadow Veil (reset).
+**Is there cross-play with console versions?**
+PlayStation and Nintendo versions are in development, but cross-play between Steam and consoles has not been announced.
 
-**Counter:** Frost Mage with Ice Barrier and Reveal skill.
+**Do I need an internet connection to play solo?**
+The game's online features require a connection for co-op, but this is an area we have not seen official documentation on. We will update this guide when the developer publishes system details.
 
-### Build 2: Frost Mage Control (All Formats)
+## Verdict
 
-| Slot | Item | Stat Priority |
-|---|---|---|
-| Weapon | Glacial Staff | Ice Damage > Cast Speed |
-| Armor | Robe of Winter | Cooldown > Mana Regen |
-| Amulet | Amulet of Hypothermia | +20% Chill Duration |
-| Ring | Ring of Frost | Blizzard radius +30% |
-| Trinket | Time Crystal | Reset one ability CD (90s CD) |
+If you want competitive multiplayer, DragonSword: Awakening is not the game for you — at least not yet. If you want a polished single-player action RPG that you can occasionally share with friends through Battle and Raid co-op, it delivers that. The lack of PvP is one of the most commonly cited criticisms in Steam reviews, so it is a real consideration before you buy.
 
-**Rotation:** Ice Lance → Frost Nova → Blizzard → blink back → Ice Barrier → repeat.
-
-**Counter:** Shadow Blade with Shadow Step to gap close through barriers.
-
-### Build 3: Paladin Support (3v3 / Battleground)
-
-| Slot | Item | Stat Priority |
-|---|---|---|
-| Weapon | Vindicator's Mace | Healing Power > Defense |
-| Armor | Guardian Plate | Armor > All Resist |
-| Amulet | Martyr's Chain | +20% Healing Received |
-| Ring | Seal of Brotherhood | Aura radius +40% |
-| Trinket | Divine Intervention | AoE immunity 4s (120s CD) |
-
-**Rotation:** Prot Aura → Heal → Heal → Cleanse → (if CD) → Holy Shield → repeat.
-
----
-
-## Arena Map Guide
-
-| Map Name | Format | Key Features | Best Strategy |
-|---|---|---|---|
-| **The Colosseum** | 1v1, 3v3 | Flat, circular, pillars | Pillar LoS to reset; bait around pillars |
-| **Frozen Temple** | 3v3 | Elevation, narrow corridors | Hold high ground; force chokepoints |
-| **Burning Bridge** | 1v1 | Long narrow bridge | Ranged classes dominate; melee must close fast |
-| **Grand Library** | 3v3 | Multiple levels, bookshelves | Line-of-sight play; Frost Mage ambush corners |
-| **Scorched Valley** | 10v10 | Open field, two bases | Capture mid control point; flank with Shadow Blade |
-| **Iron Fortress** | 10v10 | Siege-style, walls | Paladin + Cleric hold the gate; Rangers on walls |
-
----
-
-## Combat Tactics
-
-### 1v1 Tips
-- **Bait cooldowns** — Make the opponent use their big ability early, then punish the cooldown window.
-- **Use pillar LoS** — If you're losing a trade, break line of sight. Forcing a reset wastes their cooldowns.
-- **Track trinkets** — Most classes have a defensive trinket on 90–120s CD. Note when it's used and push immediately.
-
-### 3v3 Tips
-- **Focus fire** — Call targets. Three players hitting one target kills faster than split damage.
-- **Peel for your healer** — A Cleric at 50% HP is a dead Cleric. Use CC to keep enemies off your support.
-- **Coordinate CDs** — Don't stack defensive cooldowns. Use one at a time to cover the full enemy burst window.
-
-### 10v10 Tips
-- **Stick in pairs** — Solo players get picked. Always move with at least one teammate.
-- **Capture mid first** — The middle control point in Scorched Valley gives a team-wide 10% damage buff.
-- **Don't chase** — Overextending for a kill often loses the objective. Kill what you can and regroup.
-
----
-
-## Rating Climbing Strategy
-
-| Current Rank | Recommended Format | Goal |
-|---|---|---|
-| Bronze → Silver | 1v1 Duel | Learn class mechanics |
-| Silver → Gold | 1v1 + 3v3 | Practice team coordination |
-| Gold → Platinum | 3v3 Team Arena | Master a single build and role |
-| Platinum+ | 3v3 (premade) | Team synergy and counter-picks |
-| Diamond+ | All formats | Consistency and meta adaptation |
-
----
-
-## Related Guides
-
-- [Skill Tree Guide](/dragonsword-wiki/guides/skill-tree-guide) — Optimise your PvP skill tree for every class and format.
-- [Quest Guide](/dragonsword-wiki/guides/quest-guide) — PvP-related quests that unlock arenas and gear.
-- [Class Guide](/dragonsword-wiki/guides/class-guide) — Deep dive into each class's PvP toolkit.
-- [Best Gear Guide](/dragonsword-wiki/guides/best-gear) — PvP-specific gear sets and how to obtain them.
-- [Battleground Guide](/dragonsword-wiki/guides/battleground-guide) — Detailed 10v10 objective strategies.
+For the fundamentals before you jump into co-op, start with the [Beginner Guide](/guides/beginner-guide), then learn the [combat system](/guides/combat-guide) so you can carry your weight in raids.

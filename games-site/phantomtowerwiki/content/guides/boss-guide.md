@@ -1,188 +1,79 @@
 ---
-title: 'Phantom Tower Boss Guide — All Boss Strategies and Attack Patterns'
-description: 'Master every boss in Phantom Tower with our complete boss strategy guide. Covers attack patterns, dodge timing, elemental weaknesses, and specific tactics for all floor bosses from Floor 10 to Floor 100.'
-keywords: ['Phantom Tower boss guide', 'Phantom Tower bosses', 'Phantom Tower boss strategies', 'Phantom Tower Warden', 'Phantom Tower final boss', 'Phantom Tower boss tips']
-updated: '2026-07-30'
+title: 'Phantom Tower Boss Guide — Strategies and Preparation'
+description: 'Phantom Tower boss guide — what is officially known about bosses, Boss Unique Weapons, general boss-fight strategy, preparation tips, and what to expect from boss encounters in Early Access.'
+category: 'Guides'
+version: 'Early Access'
+updated: '2026-08-01'
+keywords: ['Phantom Tower boss guide', 'Phantom Tower bosses', 'Phantom Tower boss strategies', 'Phantom Tower Boss Unique Weapons', 'Phantom Tower boss tips', 'Phantom Tower how to beat bosses']
+related:
+  - combat-guide
+  - elements-guide
+  - progression-guide
+  - weapons-guide
 ---
 
-# Phantom Tower Boss Guide — All Boss Strategies and Attack Patterns
+# Phantom Tower Boss Guide — Strategies and Preparation
 
-Phantom Tower features a boss every 10 floors, each guarding the path upward. These set-piece encounters test your mastery of elemental combat, positioning, and build optimization. This guide covers every boss, their attack patterns, elemental weaknesses, and proven kill strategies.
+Bosses are a confirmed part of Phantom Tower: press materials describe "unique monsters and challenging bosses" guarding the climb, the Steam version adds **Boss Unique Weapons** (weapons only bosses can drop), and the official Early Access roadmap promises new bosses over time. That is the confirmed record — and notably, the developer has **not published boss names, counts, floor placements, or attack patterns**.
 
-## General Boss Tips
+This guide is honest about that gap. It covers everything officially known about bosses, general boss-fight strategy that applies no matter what the arena throws at you, and what to do with the inevitable Early Access absence of pattern guides.
 
-**Before every boss fight:**
-- Repair all gear at the Blacksmith
-- Stock at least 3 health potions
-- Pre-load your best elemental status effect before entering the arena
-- Swap to defensive Tower Blessings if available
+## What Is Officially Known About Bosses
 
-**During the fight:**
-- **Do not be greedy.** The number one cause of boss deaths is squeezing in extra attacks. Observe → dodge → punish → repeat.
-- **Watch for the tell.** Every boss attack has a 0.5-1.5 second visual wind-up. Learn these tells.
-- **Save element swaps.** Do not burn your swap cooldown on random attacks. Save it for boss enrage phases.
-- **Use the arena.** Many boss rooms have pillars, ledges, and environmental hazards.
+| Fact | Source |
+|------|--------|
+| Bosses exist and guard the climb | Official press materials ("unique monsters and challenging bosses") |
+| Steam bosses drop exclusive weapons | Official Steam page — Boss Unique Weapons |
+| New bosses are planned | Official Steam Early Access roadmap |
+| Boss names, count, floors, patterns | **Not published — TBD** |
 
----
+That last row is the important one. Any guide that names specific bosses ("The Warden," "Twin Sentinels," and so on), assigns them to floors, or lists their attack patterns is inventing them. The official wiki is expected to fill these gaps; until it does, treat every named-boss guide as unverified.
 
-## Floor 10: The Warden
+## General Boss Preparation
 
-**Type:** Humanoid Knight
-**Elemental Weakness:** IGNIS (Fire)
-**Difficulty:** ★★☆☆☆ — First major skill check
+Preparation is where you can reliably gain an edge, because it depends on confirmed systems:
 
-### Attack Patterns
+1. **Forge and upgrade before you climb.** The Blacksmith is the confirmed gear system — "Forge your equipment, develop your combat style" is the official line. Walk into a boss with your best-forged gear, not your spare.
+2. **Bring your Soulbinder stats.** Permanent stats locked onto gear (the confirmed Soulbinder system) are the difference between a close fight and a stomp — and they survive your losses.
+3. **Bank progress first.** Climb Mode's official description lets you collect materials, resources, and equipment "to bring back outside." Cash out before a serious boss attempt so a wipe costs you nothing you kept.
+4. **Learn the floor before the boss.** The rooms leading to a boss are part of its fight — they teach you the enemy mix you will face alongside it.
 
-| Attack | Tell | Dodge |
-|--------|------|-------|
-| **Overhead Slam** | Raises weapon above head, pauses 1.5s | Dodge sideways at 1.2s |
-| **Shield Charge** | Lowers shoulder, runs in straight line | Dodge perpendicular |
-| **Sweeping Slash** | Weapon glows white, sweeps 180° | Dodge backward (only safe direction) |
-| **Summon Guards** (50% HP) | Slams shield into ground | Kill adds quickly, they buff Warden |
-| **Enrage** (25% HP) | Red aura, attacks 30% faster | Swap to AQUA, freeze between attacks |
+## Boss Fight Strategy (Pattern-Agnostic)
 
-### Strategy
+Without published pattern data, strategy comes down to fundamentals that work in every action game:
 
-**Phase 1 (100%-50%):** Play conservative. The Warden's attacks are all well-telegraphed. Use IGNIS for damage, dodge the slam and charge, punish after each. Do not get hit by the sweeping slash — it applies a defense debuff.
+**1. Observe before committing.** Spend the first 30 seconds of any boss fight dodging and watching. Every boss has a rhythm; you learn it faster by surviving than by swinging.
 
-**Phase 2 (50%-25%):** When guards spawn, immediately swap to VENTI. Use Cyclone or Firestorm to AoE both guards down. The Warden is passive during the summon animation — this is your best DPS window.
+**2. Dodge through, not away.** Boss attacks have forward momentum. Rolling past the attack positions you behind the boss for free hits while it recovers.
 
-**Phase 3 (25%-0%):** Enrage. The Warden attacks 30% faster with shorter tells. Swap to AQUA. Use Deep Freeze (AQUA + AQUA) to freeze him between attack cycles. Only attack during freeze windows. Do not trade hits.
+**3. Keep a reaction in reserve.** Element swapping is the confirmed combat core — and the officially named reactions map perfectly onto boss fights. Freeze (AQUA-based) immobilizes, Shockwaves (VENTI-based) reach across the arena, and Erode (TERRA-based) chains through anything the boss summons. Keep one swap available for the boss's dangerous phase instead of burning it on filler.
 
-**Recommended floor level before attempting:** Weapon level 8+, 3+ Tower Blessings
+**4. Do not be greedy.** The number one boss-death cause in every hack-and-slash: one extra attack. Hit your window, then leave.
 
----
+**5. Use the whole arena.** Boss rooms are rooms — geometry exists to be used. Re-position across the arena rather than fighting the boss in the corner you entered.
 
-## Floor 20: The Twin Sentinels
+## When Bosses Add Adds
 
-**Type:** Dual Constructs (Fire + Ice)
-**Elemental Weakness:** Each Sentinel is weak to the opposite element (Fire Sentinel → AQUA, Ice Sentinel → IGNIS)
-**Difficulty:** ★★★☆☆
+The official materials do not detail summons, but swarm phases are the universal pattern in roguelike bosses — plan for them:
 
-### Attack Patterns
+- **Control the crowd first.** A freeze reaction or chain reaction (Erode) deals with summoned minions while keeping the boss in range
+- **Keep moving.** Minions plus a boss punishes stationary play above everything else
+- **Let the room work.** If summons funnel through one entry point, stand where they must pass the boss to reach you
 
-The Twin Sentinels share a health bar but attack independently. You must manage two threat zones simultaneously.
+## Boss Unique Weapons — The Reward
 
-| Attack | Sentinel | Tell | Dodge |
-|--------|----------|------|-------|
-| **Fire Breath** | Fire Sentinel | Head tilts back, flames build | Dodge sideways, lingering fire on ground |
-| **Ice Beam** | Ice Sentinel | Crystals form, beam sweeps | Run perpendicular to beam direction |
-| **Slam Combo** | Both | Simultaneous ground slam | Time dodge between two slam waves (0.8s apart) |
-| **Elemental Link** (30% HP) | Both | Energy beam connects them | Break line of sight using pillars |
+The Steam version's Boss Unique Weapons are the confirmed chase items: weapons that only bosses can drop. What to do with them when they land:
 
-### Strategy
+- **They justify farming.** A boss with a unique drop is worth re-climbing for — it is the game's only confirmed source of exclusive gear
+- **Build around them.** The official description frames forging and gear as "your combat style" — a boss weapon that matches your element and class is a build anchor
+- **They are not everything.** Your forged, upgraded, Soulbound gear will outperform an un-upgraded exotic drop. The unique weapon is the starting point; the Blacksmith is the finish
 
-**Key insight:** Kill the Fire Sentinel first. Its fire breath leaves lingering ground effects that restrict your movement. Once the Fire Sentinel is down, the Ice Sentinel alone is manageable.
+## The Early Access Situation
 
-**Element swapping is critical:** Use IGNIS on the Ice Sentinel, AQUA on the Fire Sentinel. You will be swapping almost constantly. Elementalist and Mystic excel here; melee-only classes struggle.
+Boss guides are thin because the game is new. The honest approach in Early Access:
 
-**At 30% HP:** The Sentinels link with an energy beam. Standing in the beam deals massive damage. Use arena pillars to break line of sight. Kill the lower-HP Sentinel first to break the link.
+- **Use general strategy, not pattern charts.** The fundamentals above work against any boss
+- **Expect the wiki to evolve.** The official wiki is live and the roadmap promises new bosses — pattern data will arrive
+- **Report what you learn.** If you beat a boss, you know more about it than any guide currently does
 
----
-
-## Floor 30: Arachnia, The Broodmother
-
-**Type:** Giant Spider
-**Elemental Weakness:** IGNIS (Fire)
-**Difficulty:** ★★★☆☆
-
-### Attack Patterns
-
-| Attack | Tell | Dodge |
-|--------|------|-------|
-| **Web Shot** | Abdomen lifts, spinneret glows | Dodge sideways |
-| **Poison Spit** | Green glow in mouth | Dodge sideways, avoid puddle (lingers 5s) |
-| **Leg Sweep** | Two front legs raise | Dodge backward (360° sweep) |
-| **Spiderling Swarm** (every 25% HP) | Retreats to ceiling | Swap to VENTI, AoE the wave of spiderlings |
-| **Pounce** | Crouches, legs tense | Dodge at the last moment (0.5s before impact) |
-
-### Strategy
-
-Arachnia's poison puddles are the real threat. They persist for 5 seconds and deal heavy damage over time. **Never stand in a puddle.** If the arena gets too full of puddles, bait Arachnia to a clean area.
-
-**Spiderling waves** spawn every 25% HP. They are individually weak but swarm you. One VENTI + IGNIS Firestorm clears them instantly. If you do not have VENTI available, switch to a weapon with wide arcs (Greatsword, Greataxe).
-
-**Pounce telegraph:** Unlike other bosses, the pounce tell is subtle. Watch the legs — they tense for exactly 1 second before the pounce. Dodge too early and she adjusts mid-air.
-
----
-
-## Floor 50: The Corrupted Elemental
-
-**Type:** Elemental Abomination (all 4 elements)
-**Elemental Weakness:** Rotates every 20 seconds (watch its color)
-**Difficulty:** ★★★★☆
-
-### Attack Patterns
-
-The Corrupted Elemental cycles through all four elements, changing color to match its current attunement:
-
-| Color | Element | Attack | Counter |
-|-------|---------|--------|---------|
-| Red | IGNIS | Fireballs (3-shot spread) | Dodge between gaps |
-| Blue | AQUA | Freezing beam (tracks you) | Run perpendicular, do not stop |
-| Green | TERRA | Ground spikes (AoE rings) | Stand in gaps between rings |
-| Yellow | VENTI | Tornado (pulls you in) | Run away from tornado |
-
-**At 20% HP:** The Elemental cycles all four elements in rapid succession (10s each). This is the hardest phase of any mid-game boss.
-
-### Strategy
-
-**Match your element to its weakness.** When it is Red (IGNIS), use AQUA. When Blue (AQUA), use IGNIS. TERRA vs VENTI and vice versa. The Elementalist hard-counters this boss; other classes must pick their moments carefully.
-
-**Save your ultimate blessings** for the 20% rapid-cycle phase. This is where most runs end. Freeze (AQUA+AQUA) during the VENTI phase to create a safe DPS window.
-
----
-
-## Floor 75: The Forgotten King
-
-**Type:** Undead Monarch
-**Elemental Weakness:** AQUA (Water) and VENTI (Wind)
-**Difficulty:** ★★★★☆
-
-The Forgotten King is a three-phase fight with no checkpoints. You must execute all three phases perfectly.
-
-**Phase 1 — Skeletal Court:** The King summons skeleton knights that must be killed. The King is immune during this phase. Clear adds, then DPS the King during his recovery animation.
-
-**Phase 2 — Soul Rend:** The King drains your HP from range. You cannot dodge this attack — you must burst him down faster than he drains you. Save your highest-damage elemental reactions for this phase. IGNIS + TERRA (Magma Eruption) is optimal.
-
-**Phase 3 — Desperation:** At 15% HP, the King gains lifesteal on all attacks. **Do not get hit.** Any damage you take heals him. Use AQUA freeze chains and VENTI mobility to stay completely safe while chipping him down.
-
----
-
-## Floor 100: The Phantom — Final Boss
-
-**Type:** Tower Manifestation
-**Elemental Weakness:** None (resists all equally)
-**Difficulty:** ★★★★★
-
-The final boss. The Phantom is the tower itself given form — a swirling mass of all four elements and raw tower energy.
-
-### Attack Patterns (4 phases, no checkpoints)
-
-**Phase 1 — Elemental Barrage (100%-75%):** The Phantom cycles through all four elemental attacks randomly. Treat it like the Corrupted Elemental fight but faster. Stay mobile.
-
-**Phase 2 — Blessing Theft (75%-50%):** The Phantom steals one of your Tower Blessings and uses it against you. **Bring at least 4 blessings so you can afford to lose one.** Kill it quickly — the stolen blessing grows stronger over time.
-
-**Phase 3 — Floor Recreation (50%-25%):** The Phantom recreates mini versions of previous boss fights. You will face phantom clones of the Warden, Arachnia, and the Forgotten King simultaneously. Focus the Warden clone first (it buffs the others). Then Arachnia. Then the King.
-
-**Phase 4 — Tower Core (25%-0%):** The Phantom exposes its core. All your damage is tripled during this phase — but the Phantom's attacks are also tripled. This is a pure DPS race. **Use every cooldown, every blessing synergy, every elemental reaction you have.** There is no next phase to save anything for.
-
-### Pre-Fight Checklist
-
-- Weapon level 70+ (preferably 90+)
-- All 3+4 (Mystic) Tower Blessing slots filled
-- At least 5 health potions
-- Soulbinder stats optimized on all equipped gear
-- Backup weapon (in case of durability loss mid-fight)
-
-### Victory Strategy
-
-The Phantom tests everything you have learned. There is no single trick to beating it — you need solid fundamentals in positioning, elemental reactions, blessing management, and DPS optimization.
-
-**If you wipe:** This is expected. Most players take 5-10 attempts. Each attempt teaches you more about the Phantom's patterns. Focus on surviving longer each time rather than expecting to win immediately.
-
-**Once you beat the Phantom:** Congratulations! You have conquered Phantom Tower. Now try it on a higher difficulty tier, with a different class, or push your Survival Mode record.
-
----
-
-**Ready for the climb?** Study [elemental reactions](/guides/elements-guide) for boss-specific combos, or optimize your [build](/guides/best-builds) for boss killing.
+**Next steps:** Master the fight fundamentals in the [Combat Guide](/guides/combat-guide), and see how reactions carry boss fights in the [Elements Guide](/guides/elements-guide).

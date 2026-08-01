@@ -1,116 +1,95 @@
 ---
-title: "Resource Management Guide — Stamina, Health, Energy & Inventory"
-description: "Complete resource management guide for Skills & Raids. Learn how to manage stamina, health, mana and energy, consumables, and inventory space during extraction runs for maximum efficiency."
+title: "Resource Management Guide — Cooldowns, Resources & Inventory"
+description: "Resource management guide for Skills & Raids. Managing ability cooldowns and resource pools in real-time combat, inventory space, and the safe pocket."
 category: "Guides"
 version: "1.0"
-updated: "2026-07-29"
-keywords: ["Skills & Raids resource management", "Skills & Raids stamina", "Skills & Raids inventory management", "Skills & Raids consumables", "Skills & Raids extraction tips", "Skills & Raids energy management"]
-related: ["character-builds", "boss-mechanics", "extraction-guide", "beginner-guide"]
+updated: "2026-08-01"
+keywords: ["Skills & Raids resource management", "Skills & Raids cooldowns", "Skills & Raids inventory management", "Skills & Raids extraction tips", "Skills & Raids run tips"]
+related: ["character-guide", "boss-mechanics", "extraction-guide", "beginner-guide"]
 ---
 
 ## Resource Management Guide — Skills & Raids
 
-Resource management is the skill that separates experienced players from beginners in Skills & Raids. Running out of stamina at a critical moment, wasting healing items, or filling your inventory with junk can end a promising extraction run. This guide covers how to manage every resource type effectively.
+Resource management in Skills & Raids is confirmed at the combat level — the game is described as "ability-driven combat" built around "managing skill rotations, cooldowns, and resources" — and at the run level, where inventory space and the safe pocket decide what you keep. This guide covers both levels. (One warning up front: systems like stamina and sanity are **not confirmed** for this game — guides that describe sprinting, dodge rolls, and sanity meters are describing a different game.)
 
-### Core Resources
+### Combat Resources: Cooldowns and Pools
 
-Skills & Raids uses four primary resources that require active management during extraction runs:
+Every ability costs resources and has a cooldown (confirmed by the game's own combat description). The management problem:
 
-| Resource | What It Does | Maximum (base) | Recovery Method | Penalty When Empty |
-|----------|-------------|----------------|-----------------|-------------------|
-| Stamina | Used for movement actions, sprinting, dodging | 100 | Slow passive regen, consumables | Cannot sprint or dodge |
-| Health | Your survival metric | Varies by build | Passive regen (slow), healing consumables, support skills | Death |
-| Mana / Energy | Used for skill activation | Varies by build | Passive regen, resource consumables | Cannot use skills |
-| Sanity | Resistance to extraction zone effects | 100 | Sanity restoratives, campfires | Hallucinations, extraction failure risk |
+| Resource | What You Manage | Penalty for Failure |
+|----------|-----------------|---------------------|
+| **Ability cooldowns** | When each of your two abilities is available | Bad rotations, missed windows |
+| **Resource pools** (mana/energy — exact name unconfirmed) | How much each ability costs | Empty pool = no abilities mid-fight |
 
-### Stamina Management
+**Rules for combat resource management:**
 
-Stamina is the most frequently mismanaged resource. Here is how to optimize it:
+1. **Never spend your last resource on a non-essential ability.** Keep enough in reserve for the healer's emergency heal.
+2. **Rotate around cooldowns.** With two abilities per hero, the rotation is: use the payoff when the setup is off cooldown; use the sustain when pressure is up.
+3. **Fight length is a resource.** Long fights drain everything — the loadout should end fights before resources run dry. If you're running dry mid-fight, the build needs damage or sustain changes.
+4. **Pause to count.** Pause mid-fight (confirmed mechanic) and check cooldowns and pools before every decision.
 
-- **Sprint only when necessary.** Sprinting consumes 3 stamina per second. Walking costs nothing. Only sprint when enemies are actively pursuing you or when crossing dangerous open ground.
-- **Dodge selectively.** Each dodge roll costs 15 stamina. Use it to avoid telegraphed attacks, not for general movement. Learning enemy attack tells will save you thousands of stamina over time.
-- **Use terrain to reduce stamina cost.** Moving downhill costs less stamina than moving uphill. Path around inclines when possible.
-- **Stamina recovery consumables.** Carry at least two Stamina Potions (restores 40 stamina over 5 seconds). Use them before boss fights, not during.
-- **Rest at campfires.** Campfires found in raid zones restore all stamina in 3 seconds. Always clear the area around a campfire before using it.
+### The Party as a Resource Budget
 
-### Health Management
+Think of party HP as a shared budget:
 
-Keeping your health above critical thresholds is essential:
+- **Shelldon's HP** is the budget — he spends it so the others don't.
+- **Owlivia's heals** are the income — she converts her resources into party HP.
+- **Clawrk's damage** is the revenue — he ends fights that would outspend the budget.
 
-- **The 60% rule.** Always keep your health above 60% when exploring. Below 60%, one unlucky hit from an elite enemy can put you in lethal range. Heal early, heal often.
-- **Healing efficiency.** Basic Healing Salves restore 30% health over 8 seconds. Using them at 80% health wastes 10% of the heal. Using them at 20% health risks dying during the heal window. Ideal usage is at 50-60% health.
-- **Stack healing over time.** Multiple HoT effects from different sources stack. A Healing Salve (8-second HoT) combined with a Support's Regeneration skill (12-second HoT) keeps you safe during extended fights.
-- **Bleed and poison priority.** Status effects that deal damage over time are the number one cause of unexpected deaths. Always carry Antidote and Bandage consumables to remove these effects immediately.
+**Rule:** if two heroes are consistently low, the budget is unbalanced — either Shelldon isn't mitigating enough, or fights last too long.
 
-### Mana and Energy Management
+### Inventory: The Run-Level Resource
 
-Running out of resources mid-combat means you cannot use your best skills:
+Inventory space is limited (exact capacity unconfirmed), and anything not in the **safe pocket** is lost on a failed run (confirmed).
 
-- **Basic attacks generate resources.** Most classes generate 3-5 mana/energy per basic attack. Weave basic attacks between skill uses to maintain resource levels.
-- **Resource potions have a cooldown.** Mana Potions share a 30-second cooldown with other consumables. Time your usage carefully.
-- **Passive regeneration is slow.** Base mana regen is 2 per second out of combat and 0.5 per second in combat. Do not rely on passive regen during fights.
-- **Support skills that restore resources.** If you play with a Support, ask them to equip resource-restoration skills. A single "Rejuvenate" cast restores 30% of your mana pool.
+**Inventory rules:**
 
-### Consumable Management
+1. **Bank early.** Get high-value items into the safe pocket as soon as possible.
+2. **Send items back when bags fill up** (confirmed mechanic) — don't carry risk.
+3. **Skills beat materials.** Enemy skill drops are permanent value; materials are inputs.
+4. **Drop Common first.** When forced to choose, Common materials are the most replaceable.
+5. **Plan for quests.** Resource-collection quests need specific materials — know what you're carrying for.
 
-Carrying the right consumables and using them at the right time is critical:
+### The Field-Healing Resource
 
-| Consumable | Effect | When to Use | Priority |
-|------------|--------|-------------|----------|
-| Basic Healing Salve | Restores 30% HP over 8 seconds | Between fights, below 60% HP | Essential |
-| Advanced Healing Salve | Restores 50% HP over 6 seconds | During boss fights, below 40% HP | Essential |
-| Stamina Potion | Restores 40 stamina over 5 seconds | Before boss fights, during escape | High |
-| Mana Potion | Restores 35 mana/energy instantly | Before skill rotation, during DPS phase | High |
-| Antidote | Removes poison and bleed effects | Immediately when status is applied | Medium |
-| Sanity Restorative | Restores 25 Sanity | Before extraction, after sanity-draining events | Medium |
-| Scroll of Protection | 30% damage reduction for 20 seconds | Boss enrage phases, emergency situations | Low |
-| Scroll of Power | 20% damage increase for 25 seconds | DPS burn phases | Low |
+The game offers ways to **heal heroes in the field** (confirmed in demo coverage). Field healing converts run time into party HP:
 
-### Inventory Space Management
+- Use it after fights, before pushing deeper.
+- Never push into a new area at half HP with field healing available.
+- A "full HP, full resources" party is the correct state to attempt hard encounters.
 
-Inventory space is limited. Every slot is valuable:
+### Extraction-Specific Resource Rules
 
-- **Item tiers by value.** Prioritize Rare (blue) and above items. Common (white) items are rarely worth carrying. Uncommon (green) items are worth carrying only if you have empty slots.
-- **Stack limits.** Most resources stack to 20. Materials stack to 50. Gear does not stack at all. Plan your inventory around this.
-- **The 70% rule.** When your inventory reaches 70% capacity, start heading toward extraction. Greed is the leading cause of failed extractions.
-- **Item value per slot.** If you must choose between items, calculate value per slot. A single Rare crafting material (fills 1 slot, worth 500g) is better than 5 Common materials (fills 5 slots, worth 100g total).
-- **Drop items strategically.** If you find better loot but are full, drop the lowest-value item. Do not leave high-value items behind.
+| Phase | Rule |
+|-------|------|
+| Before a hard fight | Bank everything, top off HP, check cooldowns |
+| During a fight | Pause and budget: can you finish this fight within resources? |
+| After the fight | Field-heal, check bags, decide: extract or push? |
+| Before extraction | Nothing valuable left unbanked |
 
-### Extraction-Specific Resource Management
+### Resource Cycling (The Pro Technique)
 
-| Resource | Pre-Extraction | During Extraction | Post-Extraction |
-|----------|---------------|-------------------|-----------------|
-| Stamina | Should be 80%+ | Save for dodging extraction zone enemies | N/A (back to base) |
-| Health | Should be 90%+ | Use instant heals if needed | Not damaged at base |
-| Mana/Energy | Should be 50%+ | Conserve for extraction zone defense | Fully restored at base |
-| Sanity | Should be 75%+ | Use Sanity Restorative if below 50% | Slowly restored at base |
-| Inventory | Check before extraction run | Do not pick up new items | Sort at base |
+1. Enter a run with a plan (which quests, which resources).
+2. Bank early and often.
+3. Send items back when bags fill.
+4. Extract the moment the plan is complete.
+5. Between runs: craft, complete quests, rebuild.
 
-### Advanced Resource Strategy: Resource Cycling
-
-Resource cycling is an advanced technique used by top players:
-
-1. Enter a raid with full resources
-2. Use consumables liberally to complete objectives quickly
-3. Before extracting, use any remaining consumables (they do not carry between raids)
-4. Extract with full inventory of valuable items
-5. Craft new consumables at base for the next run
-
-This approach maximizes the value of every consumable by ensuring nothing is wasted. Many players hoard consumables "for the right moment" and never use them — resource cycling eliminates this waste.
+The player who treats every run as a completed plan extracts more value than the player who pushes for "one more room."
 
 ### Common Resource Mistakes
 
-| Mistake | Why It Hurts | The Fix |
-|---------|-------------|---------|
-| Hoarding consumables | They sit unused in your stash | Use them every run |
-| Ignoring stamina | Cannot escape bad situations | Always keep stamina at 30%+ |
-| Filling inventory with junk | Miss rare item pickups | Pick up only Uncommon+ items |
-| Not using campfires | Slow passive recovery wastes time | Clear and use every campfire |
-| Delaying healing | Die with potions unused | Heal at 60%, not 20% |
+| Mistake | Why It Hurts | Fix |
+|---------|-------------|-----|
+| Emptying resource pools early | Nothing left for the emergency heal | Keep a reserve |
+| Carrying everything to the end | One bad fight loses it all | Bank early |
+| Ignoring field healing | Half-HP parties die in new areas | Heal before pushing |
+| Long fights | Resource drain + status stacking | Fix the build, not the fight |
+| Following stamina/sanity guides | Those systems aren't in the game | Manage cooldowns, pools, and inventory |
 
 ### Related Guides
 
-- [Character Builds Guide](/guides/character-builds) — Builds that affect resource pools
-- [Boss Mechanics Guide](/guides/boss-mechanics) — Boss patterns that drain resources
-- [Extraction Guide](/guides/extraction-guide) — How to extract with your loot
-- [Beginner Guide](/guides/beginner-guide) — Getting started in Skills & Raids
+- [Character Guide](/guides/character-guide) — each hero's resource role
+- [Combat Mechanics Guide](/guides/boss-mechanics) — real-time combat, cooldowns, statuses
+- [Extraction Guide](/guides/extraction-guide) — the run loop and safe pocket
+- [Beginner Guide](/guides/beginner-guide) — getting started

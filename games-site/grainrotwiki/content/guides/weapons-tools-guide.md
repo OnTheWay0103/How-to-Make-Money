@@ -1,96 +1,84 @@
 ---
-title: 'Weapons & Tools Guide — All Unlockable Weapons in Grain Rot'
-description: 'Complete weapons and tools guide for Grain Rot. Every unlockable weapon, utility, and tool — stats, unlock requirements, best use cases, and which constructs to prioritize.'
-keywords: ['grain rot weapons', 'grain rot tools', 'grain rot constructs list', 'grain rot weapon guide', 'grain rot best weapons']
-updated: '2026-07-24'
+title: 'Weapons & Tools Guide — All Constructs in Grain Rot (Confirmed Facts)'
+description: 'Grain Rot weapons and tools explained honestly: the confirmed construct system (20+ in the demo), the Grinder, tactical carpentry, and how to evaluate every unlock — with names and stats marked TBD.'
+category: 'Guides'
+version: 'Pre-release'
+updated: '2026-08-01'
+keywords: ['grain rot weapons', 'grain rot tools', 'grain rot constructs list', 'grain rot weapon guide', 'grain rot best weapons', 'grain rot grinder']
+related: ['best-loadouts', 'best-vessels-guide', 'crafting-resources-guide', 'demo-guide', 'stealth-sound-guide']
 ---
 
-# Weapons & Tools Guide — All Unlockable Weapons
+# Weapons & Tools Guide — All Constructs in Grain Rot (Confirmed Facts)
 
-Your wooden vessel isn't much on its own — a basic punch and a dropkick won't get you far against the Corrupted. **Constructs** are your real arsenal: weapons, tools, and utilities you unlock in the Outpost and bring into runs. This guide covers every known construct and how to use them.
+Your vessel has basic capabilities on its own — you can smash furniture, dropkick enemies (confirmed!), and interact with the world. But the real arsenal is **constructs**: weapons, tools, and utilities you unlock and bring into runs. This guide covers everything confirmed about constructs — and honestly flags what isn't known yet.
 
-## Weapon Types
+## The Construct System (Confirmed)
 
-### Melee Weapons
+From the publisher's demo announcement and the official Steam page:
 
-| Weapon | Damage | Speed | Range | Special | Unlock |
-|--------|--------|-------|-------|---------|--------|
-| **Rusty Blade** | Low | Fast | Short | None | Default |
-| **Reinforced Mallet** | High | Slow | Medium | Destroys furniture in 1 hit | Forge Lv.1 |
-| **Splintered Axe** | Medium | Medium | Medium | +30% damage to barricades | Forge Lv.2 |
-| **Rot-Cleaver** | High | Slow | Medium | Applies corruption on hit (PvP only) | Alchemy Lv.3 |
+- **The demo contains 20+ unlockable constructs** — the full game will have more.
+- Constructs are **unlocked via progression** (the Outpost) and brought into runs.
+- They cover the roles you'd expect: the demo announcement groups them as **weapons, utilities, and wardrobe/cosmetic upgrades**.
+- **"Tactical carpentry with interactive furniture"** is an official feature — furniture isn't just loot; it's part of the building/utility gameplay.
+- **The Grinder** is confirmed: a machine that converts items into gold.
 
-**Best melee weapon**: Reinforced Mallet for general use (furniture destruction = more loot per minute). Rot-Cleaver for PvP/trolling scenarios.
+**What's TBD:** every construct name, stat, unlock cost, and slot limit. The names and numbers circulating online ("Splinter-Bow," "Barricade Kit," "Reinforced Mallet," etc.) are unverified — some appear in community coverage, none are officially documented. This page will become a full database on launch day.
 
-### Ranged Weapons
+## The Confirmed Tools (The Grinder Family)
 
-| Weapon | Damage | Ammo | Special | Unlock |
-|--------|--------|------|---------|--------|
-| **Splinter-Bow** | Medium | 3 arrows (reloadable) | Silent — does not alert enemies | Forge Lv.2 |
-| **Fire Bomb** | High (AoE) | 1 use | Area denial, destroys barricades | Alchemy Lv.1 |
-| **Crystal Shard Launcher** | High | 5 shards | Pierces through multiple enemies | Forge Lv.4 |
-| **Rot Dart Tube** | Low | 8 darts | Applies minor corruption to enemies | Alchemy Lv.2 |
+The one construct class with official documentation is the **Grinder**:
 
-**Best ranged weapon**: Splinter-Bow is the workhorse — silent, reliable, and available early. Crystal Shard Launcher is endgame but devastating against swarms.
+- Feed items into it, get gold out. Confirmed by official copy: "Smash furniture for resources or feed them into the Grinder for gold."
+- Grinders solve the game's core inventory problem: gold is compact, junk isn't.
+- Where Grinders spawn, whether portable versions exist, and the conversion rates are TBD.
 
-## Utility Constructs
+## Evaluating Weapons & Tools (No Stats Needed)
 
-### Exploration Tools
+Until verified data exists, evaluate every construct you encounter on these axes:
 
-| Utility | Uses | Effect | Unlock |
-|---------|------|--------|--------|
-| **Spark Beacon** | 1 per run | Marks extraction point on all players' HUD for the entire run | Workshop Lv.2 |
-| **Grappling Hook** | 5 per run | Pull yourself to ledges or pull small items toward you | Workshop Lv.4 |
-| **Noise Maker** | 3 per run | Thrown device that attracts all nearby enemies to its location | Workshop Lv.1 |
-| **Glowshroom Lantern** | Infinite | Provides light in dark biomes (The Depths and below) | Default |
+| Axis | Question | Why It Matters |
+|------|----------|----------------|
+| **Purpose** | Does it solve a problem I have? | Damage, distance, conversion, distraction, escape |
+| **Noise** | Is it loud? | The Corrupted react to sound — silent tools are premium |
+| **Cost** | What does unlocking it cost? | Opportunity cost against other unlocks |
+| **Stack** | Does it work with my vessel? | Fragile vessel wants distance; slow vessel wants speed |
+| **Run value** | How often will I actually use it? | A tool you never bring is an unlock you didn't need |
 
-### Defensive Tools
+## Weapon & Tool Archetypes to Expect
 
-| Utility | Uses | Effect | Unlock |
-|---------|------|--------|--------|
-| **Barricade Kit** | 3 per run | Deploy a destructible barricade that blocks enemy movement | Default |
-| **Healing Salve** | 2 per run | Restores 30% vessel durability over 5 seconds | Alchemy Lv.1 |
-| **Rot Purge Flask** | 1 per run | Removes 50% of current corruption instantly | Alchemy Lv.3 |
-| **Reinforced Plating** | 1 per run | +50% vessel durability for the current floor | Forge Lv.3 |
+These are *likely categories* based on the game's confirmed mechanics — clearly speculative:
 
-### Loot Tools
+- **Melee smashing tools** — furniture destruction is the game's core verb; expect tools that speed it up.
+- **Ranged options** — the Corrupted and other vessels exist at distance; some ranged tool is near-certain.
+- **Distraction devices** — the sound model begs for noise-makers; use them to pull patrols.
+- **Utility/carry tools** — the extraction economy rewards capacity and conversion.
+- **Corruption tools** — the Rot is the soft timer; anything that manages it would fit the design.
 
-| Utility | Uses | Effect | Unlock |
-|---------|------|--------|--------|
-| **Loot Magnet** | Passive | Auto-collects resources within a small radius | Workshop Lv.3 |
-| **Portable Grinder** | 2 per run | Deploy a temporary Grinder anywhere | Workshop Lv.4 |
-| **Treasure Sniffer** | 3 per run | Reveals the location of the nearest rare loot container | Survivor: Cartographer |
+Treat the above as hypotheses, not facts.
 
-## Construct Loadout Slots
+## The Cosmetics Category
 
-You have limited construct slots. As you upgrade your Outpost, you unlock more:
+"Questionable cosmetics" are a confirmed feature (along with hats in demo coverage). Cosmetics:
 
-| Workshop Level | Construct Slots | Weapon Slots | Utility Slots |
-|---------------|----------------|--------------|---------------|
-| Default | 2 | 1 | 1 |
-| Lv.1 | 3 | 1 | 2 |
-| Lv.2 | 4 | 2 | 2 |
-| Lv.3 | 5 | 2 | 3 |
-| Lv.4 | 6 | 3 | 3 |
+- Have **no gameplay impact** (as far as is confirmed).
+- Are the game's long-term collectible chase.
+- **Should not be your early spending priority** — constructs and stats fund survival; cosmetics fund vibes.
 
-## Recommended Loadouts
+## Construct Strategy (Pre-Launch)
 
-### Beginner Loadout (Workshop Default)
-- **Weapon**: Rusty Blade
-- **Utilities**: Barricade Kit, Healing Salve
-- **Strategy**: Learn the basics. Barricade for defense, heal when damaged.
+1. **Play the demo, unlock everything.** The 20+ constructs are free to explore. Try every unlock you can afford — personal testing beats any pre-launch list.
+2. **Prioritize by problem, not by hype.** The best construct for you is the one that fixes your specific failure: dying to enemies, overfilling your bag, or losing the route.
+3. **Silence is power.** With the confirmed sound model, quiet tools are likely to punch above their stat weight.
+4. **Don't trust named tier lists.** No verified construct names exist. Any list ranking named items is fabricated.
 
-### Balanced Loadout (Workshop Lv.2)
-- **Weapons**: Reinforced Mallet, Splinter-Bow
-- **Utilities**: Barricade Kit, Healing Salve, Spark Beacon
-- **Strategy**: General-purpose. Melee for furniture, bow for silent kills, beacon for navigation.
+## After Launch
 
-### Combat Loadout (Forge Lv.3+)
-- **Weapons**: Reinforced Mallet, Splinter-Bow, Fire Bomb
-- **Utilities**: Barricade Kit, Healing Salve, Reinforced Plating
-- **Strategy**: Boss runs and deep dives. Maximum survivability and damage.
+On August 7 this page becomes a verified weapons & tools database: names, stats, unlock requirements, and use cases for every construct. Until then, the demo is your laboratory and the confirmed principles above are your guide.
 
-### Loot Loadout (Workshop Lv.3+)
-- **Weapons**: Splinter-Bow
-- **Utilities**: Loot Magnet, Barricade Kit, Noise Maker, Spark Beacon, Treasure Sniffer
-- **Strategy**: Avoid combat, maximize loot collection. Use Noise Makers to redirect enemies away from valuable rooms.
+## Related Guides
+
+- [Best Loadouts Guide](/guides/best-loadouts) — how to combine tools into loadouts
+- [Best Vessels Guide](/guides/best-vessels-guide) — the other half of every build
+- [Crafting & Resources Guide](/guides/crafting-resources-guide) — the Grinder economy
+- [Demo Guide](/guides/demo-guide) — where to test the 20+ constructs today
+- [Stealth & Sound Guide](/guides/stealth-sound-guide) — why silence matters

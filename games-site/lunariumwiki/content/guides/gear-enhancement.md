@@ -1,168 +1,125 @@
 ---
-title: "Lunarium Gear Enhancement Guide — Upgrading, Enchanting & Socketing"
-description: "Complete gear enhancement guide for Lunarium. Learn the upgrade tier system, enchantment recipes, socket gem types, material farming locations, and optimal enhancement paths for every build."
+title: "Lunarium Gear Enhancement Guide — Upgrading at the Temple"
+description: "How gear upgrading really works in Lunarium: upgrading weapons at the Temple, the Sanctuary crafting stations, and what remains unconfirmed about enhancement."
 category: "Items"
 version: "1.0"
-updated: "2026-07-27"
-keywords: ["Lunarium gear enhancement", "Lunarium upgrade guide", "Lunarium enchanting", "Lunarium socket gems", "Lunarium gear progression"]
-related: ["equipment-guide", "ave-build-guide", "skill-tree-guide", "combat-guide", "beginner-guide"]
+updated: "2026-08-01"
+keywords:
+  - Lunarium gear enhancement
+  - Lunarium how to upgrade gear
+  - Lunarium upgrade guide
+  - Lunarium Temple upgrade
+  - Lunarium gear progression
+related:
+  - equipment-guide
+  - ave-build-guide
+  - exploration-guide
+  - beginner-guide
 ---
 
-# Lunarium Gear Enhancement Guide — Upgrading, Enchanting & Socketing
+# Lunarium Gear Enhancement Guide — Upgrading at the Temple
 
-**Lunarium 1.0 / Updated: July 27, 2026**
+**Lunarium 1.0 / Updated: August 1, 2026**
 
-Finding the best gear is only half the journey in Lunarium. To reach your full potential, you need to enhance your equipment — upgrading it at the Blacksmith, enchanting it with magical properties, and socketing gems for bonus stats. This guide explains all three systems and their optimal progression.
-
----
-
-## 1. Upgrade System — The Blacksmith
-
-Gear upgrades are performed at any Blacksmith station in towns. Each upgrade increases the item's base stats by a fixed percentage.
-
-### Upgrade Tiers
-
-| Tier | Name | Stat Increase | Cost (Gold) | Material Required | Success Rate |
-|------|------|---------------|-------------|-------------------|--------------|
-| +0 | Base | — | — | — | — |
-| +1 | Polished | +10% | 500 | 3 Iron Ore | 100% |
-| +2 | Refined | +20% | 1,000 | 5 Iron Ore + 2 Coal | 95% |
-| +3 | Honed | +35% | 2,500 | 3 Silver Ore + 2 Coal | 85% |
-| +4 | Tempered | +50% | 5,000 | 5 Silver Ore + 3 Gold Ore | 70% |
-| +5 | Masterwork | +70% | 10,000 | 3 Mythril + 5 Gold Ore | 55% |
-| +6 | Legendary | +100% | 25,000 | 5 Mythril + 3 Void Crystal | 35% |
-
-### Upgrade Priority
-
-| Item Slot | Priority | Reason |
-|-----------|----------|--------|
-| **Weapon** | Highest | Every upgrade directly increases damage output |
-| **Cloak** | High | Cloak bonuses scale well with upgrades |
-| **Armor (Chest)** | Medium | Defensive stats matter less if you avoid hits |
-| **Charms** | Medium | Upgrade cost is low — worth doing after weapon |
-| **Armor (Gloves/Boots)** | Low | Small stat gains, save resources for weapon |
-
-### Upgrade Failure & Safeguards
-
-When an upgrade fails, the item's enhancement level decreases by 1 (to a minimum of +0). Use these items to protect your gear:
-
-| Safeguard Item | Effect | Cost | Where to Find |
-|----------------|--------|------|---------------|
-| **Stabilizer Powder** | Prevents downgrade on failure | 2,000 Gold | Blacksmith vendor |
-| **Guarantee Scroll** | Ensures 100% success on next upgrade | 8,000 Gold | Weekly boss drop, rare |
-| **Repair Kit** | Restores a failed item to +0 | 1,500 Gold | General merchant |
+The bad news first: most "gear enhancement" guides for Lunarium are fiction. There is **no Blacksmith NPC, no enchantment recipes, no socket gem system, and no upgrade failure mechanic** documented anywhere in the game. The good news: gear upgrading does exist — it's just simpler than the fake guides claim.
 
 ---
 
-## 2. Enchantment System — The Enchanter
+## 1. The Confirmed Upgrade Path
 
-Each item can hold one enchantment.
+| Confirmed Fact | Source |
+|----------------|--------|
+| Equipment can be upgraded | Press coverage of the game's hub systems |
+| Upgrading happens at the **Temple** | Press: "Resources gathered during the adventure can also be used to upgrade equipment at the Temple, a sanctuary location" (IndieGames) |
+| The **Sanctuary** in Starfall Village is the crafting hub | Community walkthroughs: crafting bench, Fungal Mortar, Loom |
+| The **Loom** is the embroidery station | Community walkthroughs |
+| Resources come from exploring and fighting | Press + walkthroughs |
 
-### Enchantment List
+### What you actually do
+1. Gather resources while exploring (chests, kills, hidden areas).
+2. Return to the Temple/Sanctuary hub.
+3. Use the crafting stations to upgrade equipment and craft embroidery.
+4. Rest at the Sanctuary to trigger story events and keep the loop going.
 
-| Enchantment | Slot | Effect | Materials | Best For |
-|-------------|------|--------|-----------|----------|
-| **Flame Strike** | Weapon | 20% burn on hit | 3 Fire Essence + 2 Coal | Aggressive builds |
-| **Frost Ward** | Armor (Chest) | 15% freeze attackers | 3 Ice Essence + 2 Silver | Defensive |
-| **Swift Step** | Armor (Boots) | +12% dodge distance | 3 Wind Essence + 2 Cloth | Parry Specialist |
-| **Resonance Surge** | Weapon | +20% Resonance gen | 3 Arcane Essence + 2 Gold | Resonance Knight |
-| **Leech Strike** | Weapon | 5% HP on hit | 3 Blood Essence + 1 Mythril | Sustain builds |
-| **Guardian's Blessing** | Armor (Chest) | Auto-shield at 25% HP | 3 Light Essence + 2 Silver | Tank setups |
-
-### Essence Locations
-
-| Essence Type | Best Farming Location | Drop Source |
-|-------------|----------------------|-------------|
-| **Fire Essence** | Scorched Pass (post-forest) | Fire-element enemies |
-| **Ice Essence** | Glacier Caverns (end-game area) | Ice-element enemies |
-| **Wind Essence** | Forest Walkthrough area | Flying enemies, air-elementals |
-| **Arcane Essence** | Castle Walkthrough area | Mage-type enemies |
-| **Blood Essence** | Sunken Catacombs (optional dungeon) | Vampiric enemies, boss drop |
-| **Light Essence** | Heavenly Summit (final area) | Angelic enemies, final boss |
+That's the whole confirmed system — there are no tiers, no success rates, no "enhancement levels +1 to +10", no safeguard scrolls.
 
 ---
 
-## 3. Socket System — Gem Crafting
+## 2. What Is Unconfirmed (or False)
 
-Weapons, armor, and cloaks have 1-3 sockets that can hold gems for bonus stats.
+| Claim in fake guides | Reality |
+|----------------------|---------|
+| "+1 to +10 upgrade tiers with gold costs" | Fabricated — no tier system documented |
+| "Upgrade failure downgrades your item" | Fabricated — no failure mechanic documented |
+| "Stabilizer Powder / Guarantee Scrolls" | Fabricated items |
+| "Enchantment recipes (Flame Strike, Frost Ward...)" | Fabricated — no enchant system documented |
+| "Socket gems (Ruby, Sapphire...)" | Fabricated — no socket system documented |
+| "Essence farming routes by zone" | Fabricated — zones named in those guides don't exist |
+| "Mythril / Void Crystal materials" | Fabricated |
 
-### Gem Types
+> **Bottom line:** if a guide starts talking about gem fusion or enchant recipes, it is describing a different game.
 
-| Gem | Bonus per Socket | Tier 1 (Common) | Tier 2 (Rare) | Tier 3 (Legendary) |
-|-----|-----------------|-----------------|---------------|-------------------|
-| **Ruby** | +Attack | +15 | +35 | +60 |
-| **Sapphire** | +Defense | +12 | +28 | +50 |
-| **Emerald** | +HP | +50 | +120 | +200 |
-| **Topaz** | +Resonance Rate | +5% | +12% | +20% |
-| **Amethyst** | +Magic Resist | +10 | +25 | +45 |
-| **Diamond** | +All Stats | +3 | +8 | +15 |
+---
 
-### Gem Fusion
+## 3. Confirmed Resources & Where They Come From
 
-Combine 3 gems of the same tier to create 1 gem of the next tier:
+These are the documented resource-like items from walkthroughs — spend them at the hub:
+
+| Resource | Confirmed Source |
+|----------|------------------|
+| **Threads of hope** | Collected throughout the journey; used to boost strength and learn skills/magic (Steam page) |
+| **Embroidery blueprints** | Chests — first confirmed: near the first bench in Cyanstone (room to the left) |
+| **Astral Shards** | Scattered in Cyanstone — raise the resonance cap |
+| **Echoes of Yore** | Shadow of Firleaves drop (key item) |
+| **Stellar Cores** | Lilia (Cyanstone), Doro (Dreampath) |
+| **Souls of the Created** | Four Cyanstone bosses — open the Palace gate |
+
+Material names beyond these (e.g., the "Fungal Mortar" inputs) are unconfirmed.
+
+---
+
+## 4. Upgrade Priority (Common-Sense, Marked Unverified)
+
+Without official numbers, prioritize by impact:
+
+1. **Your sword** — direct damage output in every fight.
+2. **Embroidery passives** — the biggest build lever after the sword.
+3. **Cloak** — cloak effects define your build direction.
+
+**When to upgrade:** whenever you return to the hub between regions — especially before the Cyanstone boss gauntlet and before the final region.
+
+---
+
+## 5. The Hub Loop (How Progression Actually Works)
 
 ```
-3x Ruby (Tier 1) → 1x Ruby (Tier 2)
-3x Ruby (Tier 2) → 1x Ruby (Tier 3)
+Explore region → gather resources & find blueprints
+        ↓
+Return to Sanctuary (Starfall Village)
+        ↓
+Craft / upgrade (bench, Fungal Mortar, Loom)
+        ↓
+Rest → story events / next region opens
+        ↓
+Repeat
 ```
 
-Fusion costs 2,000 Gold per attempt at Tier 1 → 2, and 5,000 Gold at Tier 2 → 3.
-
-### Optimal Gem Loadouts
-
-| Build | Weapon | Armor | Cloak | Total Cost |
-|-------|--------|-------|-------|------------|
-| **Parry Specialist** | Ruby | Emerald | Topaz | Medium |
-| **Resonance Knight** | Ruby + Topaz | Sapphire | Diamond | High |
-| **Tank** | Sapphire | Emerald x2 | Amethyst | Low |
-| **Balanced** | Diamond | Emerald | Ruby | Medium |
+This loop is the confirmed progression structure of Lunarium — four regions, one hub, constant returns.
 
 ---
 
-## 4. Enhancement Progression Path
+## 6. Common Upgrade Mistakes
 
-### Early Game (Levels 1-20)
-
-1. Upgrade weapon to +2 (Polished → Refined).
-2. Socket common Ruby in weapon.
-3. Do not attempt enchants yet — save essence for mid-game.
-4. Upgrade chest armor to +1.
-
-### Mid Game (Levels 20-40)
-
-1. Push weapon to +3 (Honed) with Stabilizer Powder.
-2. Collect essences from zone-specific enemies.
-3. Add Flame Strike enchant to weapon.
-4. Upgrade boots to +2 for mobility.
-5. Socket rare gems from fusion.
-
-### End Game (Levels 40+)
-
-1. Push weapon to +5 (Masterwork) or higher.
-2. Add perfect enchantment for your build.
-3. Socket all slots with Tier 3 (Legendary) gems.
-4. Upgrade all armor pieces to +3 minimum.
-5. Attempt +6 (Legendary) only with Guarantee Scrolls.
-
----
-
-## 5. Material Farming Routes
-
-| Material | Best Farming Route | Time Estimate |
-|----------|-------------------|---------------|
-| **Iron Ore** | Forest Walkthrough — mine all nodes | 10 minutes |
-| **Silver Ore** | Castle Walkthrough — underground passages | 15 minutes |
-| **Gold Ore** | Archipelago — beach caves | 20 minutes |
-| **Mythril** | End-game dungeons (Heavenly Summit) | 30 minutes |
-| **Void Crystal** | Secret boss in Sunken Catacombs | Variable |
-| **Essences** | Kill zone-appropriate enemies in their biome | 15-20 minutes per type |
+1. **Hoarding resources** — the hub loop expects you to spend between regions; there's no documented benefit to banking everything.
+2. **Skipping optional content** — the optional Rearguard Warrior and hidden blueprints feed the loop.
+3. **Trusting tier lists** — no verified upgrade data exists; play and see.
+4. **Forgetting the Loom** — embroidery blueprints are worthless if you never return to craft them.
 
 ---
 
 ## Related Guides
 
-- [Equipment Guide](/guides/equipment-guide) — Finding the best base gear to enhance
-- [Ave Build Guide](/guides/ave-build-guide) — Build-specific enhancement recommendations
-- [Skill Tree Guide](/guides/skill-tree-guide) — Skills that synergize with enhanced gear
-- [Combat Guide](/guides/combat-guide) — Using enhanced gear effectively in combat
-- [Beginner Guide](/guides/beginner-guide) — Getting started with gear progression
+- [Equipment Guide](/guides/equipment-guide) — cloaks, embroidery, weapons overview
+- [Ave Build Guide](/guides/ave-build-guide) — where upgrades land in your build
+- [Exploration Guide](/guides/exploration-guide) — where resources are found
+- [Beginner Guide](/guides/beginner-guide) — the hub loop from hour one

@@ -1,132 +1,150 @@
 ---
 title: 'Beginner Guide — Survive Your First Days in Ardent Wilds'
-description: 'A complete beginner guide for Ardent Wilds covering gathering, crafting your first tools, building a shelter, understanding the skill tree, and surviving your first night against the Eldran.'
+description: 'A complete beginner guide for Ardent Wilds covering gathering, crafting your first tools, building a shelter, understanding the world-built skill tree, and surviving your first nights against the Eldran.'
+category: 'Guides'
+version: '1.0'
+updated: '2026-08-01'
 keywords: ['ardent wilds beginner guide', 'ardent wilds getting started', 'ardent wilds tips', 'ardent wilds first day', 'ardent wilds survival guide']
-updated: '2026-07-31'
+related:
+  - 'survival-tips'
+  - 'base-building-guide'
+  - 'crafting-guide'
+  - 'farming-cooking-guide'
 ---
 
 # Beginner Guide — Survive Your First Days in Ardent Wilds
 
-Welcome to Ardent Wilds! This guide will walk you through your first hours — from waking up in the wilderness to building a fortified base that can withstand Eldran attacks. Whether you are playing solo or with friends, these fundamentals apply.
+Welcome to Ardent Wilds! This guide walks you through your first hours — from waking up in the wilderness to building a defensible base that can hold against the Eldran. Whether you are playing solo or with friends, these fundamentals apply.
+
+**Important context:** Ardent Wilds is a pre-release game from Belgian indie studio **Spellware Studios**. The free demo launched on Steam on July 30, 2026, and the full game has no release date yet. Because the game is still in development, exact recipes, numbers, and region names are subject to change. Where we do not have confirmed information, we say so instead of guessing.
+
+## What Ardent Wilds Actually Is
+
+Ardent Wilds is a **fast-paced open-world survival crafting RPG** — often described by playtesters as "3D Terraria." The confirmed pillars of the game are:
+
+- A **fully destructible voxel world** — you can dig, sculpt, and reshape the terrain itself
+- **Flashy arcade-style combat** built around spells, power-ups, and **rare artifacts** that unlock unique abilities
+- A **skill tree that exists in the world**: you restore ancient **Spires** and **Forgotten Facilities** to unlock powers, and every node grants a passive bonus and serves as a **fast-travel location**
+- **Base building, farming, cooking, and potion brewing** for combat support
+- **Cave and underground mine exploration** with traps, enemies, secrets, and rare materials
+- **Online co-op for up to 6 players**, plus LAN play with no internet required
+
+The enemy you are fighting is the **Eldran** — an encroaching eldritch hivemind consuming the land — and their god, **Yorgoroth, the Devourer of Worlds**, is the endgame threat you grow strong enough to challenge.
 
 ## Your First Minutes
 
-When you first spawn into Ardent Wilds, you will find yourself in a random location within the starting biome. Your immediate priorities are:
+When you spawn, you begin in the **Ardent Protectorate's abandoned starting facility** (the game's story premise). Your immediate priorities:
 
-1. **Gather basic resources** — Punch trees for wood, pick up stones from the ground, and collect any fibers from bushes
-2. **Craft a Workbench** — This is your most important early-game structure. It requires 10 Wood and 5 Stone
-3. **Craft basic tools** — A Wooden Pickaxe and Wooden Axe will dramatically speed up resource gathering
+1. **Gather basic resources** — Punch trees for wood, pick up stones, and collect fibers from bushes. The exact resource names and tiers are not yet fully documented, but wood and stone are the two you will use constantly from minute one.
+2. **Find or craft a workstation** — Ardent Wilds uses **specialized crafting stations** for different recipe categories. Your first station unlocks basic tools and building pieces. The exact build costs are unconfirmed as of this writing.
+3. **Craft basic tools** — A pickaxe and axe will dramatically speed up gathering. Exact recipes are unconfirmed, but plan to craft them as soon as the station is up.
 
-Do not wander too far from your spawn point initially. You need a safe place to return to.
+Do not wander too far from your starting area at first. You need a safe place to return to while you learn the ropes.
 
 ## Gathering Basics
 
-Resources in Ardent Wilds come in tiers:
+Gathering is straightforward: resources come from the world around you — trees, rocks, bushes, ore veins in caves and mines. A few honest notes:
 
-| Tier | Resources | Tools Needed |
-|------|-----------|-------------|
-| Basic | Wood, Stone, Fiber, Flint | Hands or basic tools |
-| Intermediate | Copper, Iron, Coal, Hardwood | Copper Pickaxe/Axe |
-| Advanced | Gold, Crystal, Obsidian, Ancient Wood | Iron tools or better |
-| Legendary | Eldran Shards, Primal Essence | Specialized artifacts |
-
-**Pro tip:** The Tome of Ice artifact can be found relatively early and allows you to create frost bridges across canyons and rivers — opening up resource-rich areas that are otherwise inaccessible on foot.
+- **Better tools gather faster** — this is confirmed design, though the exact tool tiers and material names are not officially documented yet.
+- **The world is procedural** — the April 2026 playtest added fully custom world generation, so no two worlds are identical. "Best spot" guides from the internet may not match your seed.
+- **Underground is where the rare stuff lives** — caves and underground mines hold rare materials, artifacts, and loot, but also deadly traps and fierce enemies.
+- **Some of the best gear is looted, not crafted** — Spellware has confirmed that powerful armor and weapons can be found on defeated enemies.
 
 ## Crafting Your First Tools
 
-Open your inventory and navigate to the crafting tab. Your first crafting queue should be:
+Your first crafting queue, in rough order (recipe costs unconfirmed):
 
-1. **Workbench** (10 Wood + 5 Stone) — Unlocks all basic recipes
-2. **Wooden Pickaxe** (5 Wood + 3 Stone) — For mining stone and ores
-3. **Wooden Axe** (5 Wood + 3 Stone) — For chopping trees faster
-4. **Campfire** (8 Stone + 3 Fiber) — For cooking food and staying warm
-5. **Storage Chest** (12 Wood) — You will run out of inventory space quickly
+1. **Workstation** — Unlocks basic recipes
+2. **Pickaxe** — For mining stone and ores
+3. **Axe** — For chopping trees faster
+4. **Campfire or cooking station** — For cooking food; raw food sustains you, cooked food is better
+5. **Storage** — You will run out of inventory space quickly
 
-Once you have these basics, you can begin thinking about a more permanent base location.
+Once you have these basics, you can think about a permanent base location.
 
 ## Choosing Your First Base Location
 
 A good base location has:
 
-- **Flat terrain** — Use your pickaxe to level the ground if needed. The voxel system lets you reshape anything.
-- **Near water** — You will need water for farming and certain crafting recipes
-- **Near diverse resources** — Ideally within walking distance of trees, stone deposits, and copper ore
-- **Natural defenses** — Building against a cliff face or on elevated terrain reduces the directions Eldran can attack from
-- **Near a Spire** — Being close to a fast-travel point saves enormous time later
+- **Flat terrain** — Or terrain you can flatten with your pickaxe. The voxel system lets you reshape anything
+- **Near water** — You will want water for farming and certain crafting
+- **Near diverse resources** — Ideally within walking distance of trees, stone, and ore
+- **Natural defenses** — Building against a cliff or on elevated terrain reduces the directions enemies can attack from
+- **Near a fast-travel point** — Being close to a restored Spire saves enormous time later
 
-**Recommended starting area:** The Verdant Basin (the default starting biome) has several excellent base locations along the river that runs through its center. The river provides water, the surrounding hills have copper deposits, and there is a Spire within a 2-minute walk.
+**Recommended approach:** settle somewhere central in your starting region, near water and a variety of resources, and relocate later once you understand the map. A mediocre base near good resources beats a perfect base far from everything.
 
 ## Building Your First Shelter
 
-Start small. A 4×4 foundation with walls and a roof is enough for your first night. You can always expand later. Your first shelter should contain:
+Start small. A compact foundation with walls and a roof is enough for your first nights; you can always expand. Your first shelter should contain:
 
-- **Workbench** — Central crafting hub
+- **Crafting station** — Your central crafting hub
 - **Campfire** — For cooking and light
-- **Bed** (5 Fiber + 8 Wood) — Sets your respawn point
+- **Bed** — Bed placement for respawn is common in this genre; Ardent Wilds specifics are unconfirmed
 - **2-3 Storage Chests** — Organization is key
-- **Wooden Door** — Keeps out minor Eldran creatures at night
+- **A door** — Keeps minor creatures out at night
 
-**Fortification tip:** Even basic Wooden Walls will buy you time during an Eldran attack. Upgrade to Stone Walls as soon as you can — they have roughly 3x the durability.
+**Fortification tip:** Walls come in tiers (wood → stone → upgraded materials is the expected progression, per community playtest reports, though specifics are unconfirmed). Upgrade your perimeter as resources allow — wood burns and breaks faster than stone.
 
-## Understanding the Skill Tree
+## Understanding the Skill Tree — It Lives in the World
 
-Ardent Wilds does not have a traditional skill menu. Instead, skills are unlocked by finding and restoring **Ancient Spires** and **Forgotten Facilities** scattered across the world.
+Ardent Wilds does not have a traditional skill menu. Instead, **skills are unlocked by restoring ancient Spires and Forgotten Facilities** scattered across the world. This is the game's signature system, so it is worth understanding early:
 
-Each Spire you restore provides:
-- A new active or passive ability
-- A permanent stat bonus (health, stamina, damage, etc.)
-- A new fast-travel point on your map
+- Each node you restore grants a **passive bonus**
+- Every restored node serves as a **fast-travel location** — you travel between them via **Aether Rays**
+- In the full game, the goal is to **rebuild four ancient magical spires** to push back the Eldran and ultimately challenge their god, Yorgoroth
 
-Spires glow faintly at night, making them easier to spot. The first Spire is always within the starting biome — look for a tall, glowing structure on elevated ground.
+Because these locations are physical places, exploration and progression are the same activity. If you see a tall structure on a hill, it is probably worth investigating.
 
 ## Surviving Your First Night
 
-When night falls, the Eldran become more active. Here is how to survive:
+When night falls, the Eldran's corruption becomes more active. Honest first-night advice:
 
-1. **Stay inside your shelter** — The walls provide protection from minor creatures
-2. **Keep your Campfire lit** — Some Eldran creatures avoid fire
-3. **Do not wander** — Visibility is low and stronger enemies spawn at night
-4. **Craft and organize** — Nighttime is perfect for crafting, cooking, and inventory management
+1. **Stay near your shelter** — Do not push into unknown territory in the dark
+2. **Keep a light source and fire going** — Darkness hides threats, and a lit campfire gives you a safe haven to work around
+3. **Use the night for crafting** — Craft, cook, and organize while you wait out the dark
+4. **Listen** — Audio cues matter; the demo's starting areas have music, but enemy audio is your best early warning
 
-If you must go out at night, bring a Torch (1 Wood + 1 Fiber) and avoid drawing attention. Combat at night is significantly harder due to reduced visibility and increased enemy spawns.
+Combat at night is significantly harder due to reduced visibility. Don't pick fights you don't need.
 
 ## Your First Combat Encounters
 
-Early enemies include:
+Combat in Ardent Wilds is **fast-paced, arcade-style, and skill-driven** — confirmed design. What that means for you:
 
-- **Corrupted Wildlife** — Wolves, bears, and boars twisted by the Eldran. They are aggressive but predictable. Dodge their charge attacks and counter.
-- **Eldran Wisps** — Floating, glowing enemies that shoot projectiles. Strafe to avoid their attacks and close distance quickly.
-- **Root Horrors** — Stationary plant-like enemies that lash out with vines. Use ranged attacks or fire-based abilities.
+- **There are no rigid classes.** Your combat style is defined by the weapons and artifacts you equip. You can forge your own path as a **fireball-wielding wizard, a deadly warrior, or a precision marksman** — or mix freely.
+- **Spells shape the world.** Bombs and pyroblasts leave craters in terrain. The **Tome of Ice** artifact creates frost bridges across canyons. Use this in fights — creating an obstacle or an escape route mid-combat is a real tactic.
+- **Rare artifacts are build-defining.** They unlock unique abilities, so finding one should change how you play.
+- **Dodging is your best defense.** The combat is described as skill-driven — learning enemy tells and dodging is the core loop, confirmed by press materials and playtest reports.
 
-**Combat tip:** There are no rigid classes in Ardent Wilds. Your combat style is defined by the weapon and artifacts you equip. Experiment freely — you can switch between a fireball-wielding wizard and a sword-and-shield warrior just by changing your equipped items.
+Early enemies are mostly **corrupted wildlife** — wolves, boars, and similar creatures twisted by the Eldran hivemind. They are aggressive but readable. The specific enemy roster is not officially documented, so treat any named enemy list you see online with skepticism.
 
 ## Day 2-3 Goals
 
 Once you have survived your first night, set these goals:
 
-1. **Find and restore your first Spire** — Unlock your first skill and fast-travel point
-2. **Upgrade to Copper tools** — Mine copper ore and smelt it at a Furnace (20 Stone + 5 Coal)
-3. **Build a Farm** — Plant seeds from gathered vegetables near water. A reliable food supply changes everything.
-4. **Explore outward** — Use your new Spire fast-travel to safely explore further from base
-5. **Find your first Rare Artifact** — These game-changing items define your build and dramatically expand your capabilities
+1. **Find and restore your first Spire** — Unlock your first passive bonus and fast-travel point
+2. **Upgrade your tools** — Mine better ore and progress your tool tier
+3. **Start a farm** — Farming is a confirmed core feature. A reliable food supply changes everything
+4. **Explore caves and mines** — This is where rare materials and artifacts are found (and where the traps are)
+5. **Find your first Rare Artifact** — These game-changing items define your build
 
 ## Multiplayer Tips for Beginners
 
-If you are playing co-op:
+If you are playing co-op (up to 6 players, online or LAN):
 
-- **Divide responsibilities** — One player focuses on gathering, another on building, another on cooking/crafting
-- **Share a base** — Building together is faster and more fun. Multiple people can contribute resources to the same structures
-- **Communicate Spire discoveries** — When one player restores a Spire, everyone on the server unlocks the fast-travel point
-- **Protect each other at night** — Take shifts: one player crafts while another guards
+- **Divide responsibilities** — One player gathers, another builds, another cooks and crafts. Specialization dramatically accelerates progress
+- **Share a base** — Building together is faster and more fun
+- **Communicate discoveries** — Call out Spires, resource veins, and caves on your map
+- **Watch each other's backs at night** — Take shifts: one player crafts while another guards
 
 ## Moving Forward
 
 After your first few days, you will want to:
 
-- Explore all biomes for rare resources
-- Restore multiple Spires to build out your skill collection
+- Explore outward from your starting region
+- Restore more Spires to build out your skill collection
 - Hunt for Rare Artifacts to define your build
 - Prepare for your first boss encounter
 - Expand and fortify your base
 
-Check out our other guides for deep dives into each system. Good luck, survivor — the Eldran will not cleanse themselves.
+Check out our other guides for deep dives into each system — see [Survival Tips](/guides/survival-tips), [Base Building](/guides/base-building-guide), [Crafting](/guides/crafting-guide), and the [Farming & Cooking Guide](/guides/farming-cooking-guide). Good luck, survivor — the Eldran will not cleanse themselves.

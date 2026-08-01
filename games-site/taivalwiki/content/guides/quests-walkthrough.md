@@ -1,239 +1,114 @@
 ---
-title: "Main Quests Story Walkthrough: Complete Campaign Guide"
-description: "Complete walkthrough for Taival's main questline. All story decisions, group voting outcomes, side quest categories, missable content, and rewards explained."
+title: "Quests & Story Walkthrough: Confirmed Questline Guide"
+description: "Taival quest walkthrough based on confirmed facts. The last Henki, the shattered Heartstone, the farmer's stolen barrel, the goblin dispute, the barbarian camp beast, and insect pest control — with group voting explained."
 category: "Quests"
-updated: "2026-07-27"
+updated: "2026-08-01"
 ---
 
-# Taival — Main Quests Story Walkthrough
+# Taival — Quests & Story Walkthrough
 
-> Early Access Version / Updated: July 27, 2026
+> Early Access Version / Updated: August 1, 2026
 
-The story of Taival begins when you and your party stumble upon the last Henki — a shapeshifting creature that once maintained the balance of the world. Together, you must recover fragments of its lost heritage and restore the shattered Heartstone before the world falls into chaos.
+The story of Taival begins when you find the last Henki — a shapeshifting creature that once kept the world of Taival in balance. Someone destroyed the Henki's Heartstone, shattering its heritage. Your journey: discover who destroyed the Heartstone, restore it, and return your companion home.
 
-This walkthrough covers the main questline, all major story decisions, side quest categories, and everything you can miss if you rush through the campaign.
-
----
-
-## Story Overview
-
-| Act | Setting | Key Objective | Length |
-|-----|---------|---------------|--------|
-| **Act 1: The Shattered Heart** | Highlands | Discover the Henki, learn about the Heartstone, complete starter quests | 3–5 hours |
-| **Act 2: Essence of the Wild** | Forests & Mountains | Absorb key Henki forms, confront the source of corruption | 5–8 hours |
-| **Act 3: Echoes of the Past** | Ruins & Settlements | Recover ancient Heartstone fragments, face the final threat | 4–6 hours |
-
-**Note:** Taival is in Early Access, and the main questline will be extended in future updates. The current campaign provides a complete story arc with a satisfying conclusion that sets up future content.
+**Honesty note:** Earlier versions of this page listed a detailed act-by-act walkthrough with named quests, skill point rewards, and gold amounts. Most of that detail was invented — Bonobo Software has not published a full quest list, and quest names/rewards in Early Access are largely undocumented. This page now covers the quests we can confirm from official sources, explains the systems that govern them, and marks everything else as unconfirmed.
 
 ---
 
-## Act 1: The Shattered Heart
+## The Confirmed Story Premise
 
-### Quest 1.1 — The Last Henki
+From the official Steam description, this is the story you will play:
 
-**Starting Location:** Starting village, elders' hut
-**Recommended Level:** Any (starter quest)
-**Rewards:** First skill point, basic crafting kit, Traveler Henki form unlocked
+1. You find the **last Henki** — a shape-shifter "keeping the world of Taival in balance."
+2. Someone has **destroyed the Henki's Heartstone**, shattering its heritage.
+3. You set out to **discover who destroyed the Heartstone**, **restore it**, and **return the Henki home**.
 
-You arrive at the starting village and learn that strange events have been disturbing the land. An elder sends you to investigate a glowing light in the nearby highlands.
-
-**Walkthrough:**
-1. Follow the glowing trail east from the village (marked on your compass).
-2. Encounter the Henki for the first time — it is weak and injured. A short cutscene plays.
-3. Defeat 2 roaming beasts that attack during the cutscene.
-4. Escort the Henki back to the village elder.
-5. The elder explains the Heartstone legend and tasks you with finding the first fragment.
-
-**Group Voting Note:** No vote in this quest — it is a linear introduction.
-
-### Quest 1.2 — The Farmer's Plight
-
-**Starting Location:** Village farmstead (north of the village)
-**Rewards:** 2 skill points, Cooking recipe: Hearty Stew, 100 gold
-
-A farmer has lost a barrel of plants overnight and needs help finding the culprit.
-
-**Walkthrough:**
-1. Inspect the barrel for clues — examine the gnaw marks and tracks.
-2. Follow the tracks northwest to a small burrow.
-3. Discover the culprit is a rodent — not a thief.
-4. Report back to the farmer.
-
-**Key Story Decision (Group Vote):**
-
-| Option | Outcome |
-|--------|---------|
-| **Tell the farmer it was a rodent** | Farmer laughs, thanks you, gives full reward. Quest ends peacefully. |
-| **Blame a villager** | Farmer confronts the villager. A small fight breaks out. You lose reputation with the village but gain 50 extra gold from the conflict. |
-| **Demand payment before revealing answer** | Farmer begrudgingly pays extra. You gain 150 gold total but lose some reputation. |
-
-**Best Choice:** Tell the truth. The reputation gain unlocks better shop prices and additional side quests later.
-
-### Quest 1.3 — The Missing Patrol
-
-**Starting Location:** Village notice board
-**Rewards:** 3 skill points, Iron weapon blueprint, 200 gold
-
-A group of scouts sent to investigate the eastern highlands has not returned.
-
-**Walkthrough:**
-1. Travel east through the highlands to the scout camp.
-2. Find the scout camp abandoned — follow claw marks northeast.
-3. Enter a cave system (first dungeon-like area).
-4. Defeat a territorial beast blocking the cave's inner chamber.
-5. Rescue the surviving scout and escort them back.
-
-**Group Voting:** At the cave entrance, the group votes on how to proceed:
-
-| Option | Outcome |
-|--------|---------|
-| **Enter through the main entrance** | More enemies but straightforward path. Recommended for first playthrough. |
-| **Find a side entrance** | Requires Shadow Stalker form (if unlocked). Fewer enemies but puzzle-heavy. Extra loot inside. |
-| **Wait for scouts to come out** | Long wait (5 minutes). Scouts do not come out. You wasted time and the village loses reputation. |
-
-**Best Choice:** Enter through the main entrance on your first playthrough. Choose the side entrance on subsequent playthroughs or if you have the Shadow Stalker form unlocked.
+The Heartstone restoration is the main quest spine. Every confirmed quest in the game sits somewhere along that journey.
 
 ---
 
-## Act 2: Essence of the Wild
+## Confirmed Quests
 
-### Quest 2.1 — The Forest's Secret
+The Steam page names four quests specifically. These are the only quests we can confirm as real:
 
-**Starting Location:** Village elder, after completing Act 1
-**Rewards:** Shadow Stalker essence unlock, 3 skill points, forest camp access
+| Quest | Type | Confirmed Details |
+|-------|------|-------------------|
+| **The Farmer's Stolen Barrel** | Cozy investigation | A farmer lost a barrel of plants overnight. The culprit turns out to be a **rodent** — not a thief. |
+| **The Goblin House Dispute** | Cozy / settlement | Two goblins argue over **house ownership**. You help settle the dispute. |
+| **The Barbarian Camp Beast** | Combat | You **fight a beast at a barbarian camp**. The camp is community-reported in the forest–highlands border region. |
+| **Insect Pest Control** | Combat | Giant insect infestations need dealing with — confirmed as pest control activity. |
 
-The Henki senses a powerful essence in the eastern forests. You must venture into the dense woodland and absorb it.
-
-**Walkthrough:**
-1. Enter the forest biome from the highlands' eastern border.
-2. Navigate through the forest using your Henki's guidance (follow the blue glow).
-3. Defeat a Shadow Prowler in the central grove to absorb its essence.
-4. Unlock the Shadow Stalker Henki form.
-5. A mysterious figure appears in a vision — the first hint at the Heartstone's true origin.
-
-**Group Voting:** The vision presents a riddle. Your group votes on its meaning:
-
-| Option | Outcome |
-|--------|---------|
-| **The Heartstone was shattered by an external force** | Unlocks a lore page cache in the mountains later |
-| **The Heartstone was shattered from within** | Unlocks a different lore cache in the ruins |
-| **The Henki itself caused the shattering** | Henki reacts negatively — its starting bond level decreases slightly |
-
-**Best Choice:** Choose "external force" for the most straightforward lore experience and the mountain cache (which is accessible earlier).
-
-### Quest 2.2 — The Barbarian Encampment
-
-**Starting Location:** Forest camp NPC
-**Rewards:** 4 skill points, Boulder Beast essence, 300 gold
-
-A barbarian camp in the forest-highlands border has been attacking travelers. The village requests your help.
-
-**Walkthrough:**
-1. Approach the barbarian camp from the south (stealthier approach).
-2. Options: negotiate, fight, or sneak through.
-3. If fighting: defeat the camp leader (medium-difficulty boss encounter).
-4. Recover stolen goods from the camp storage.
-5. Return the goods to the village.
-
-**Key Decision:** The barbarian leader offers a deal:
-
-| Option | Outcome |
-|--------|---------|
-| **Accept the deal** | Barbarians stop attacking. You gain a trading partner. Lose out on the boss loot. |
-| **Refuse and fight** | Defeat the leader. Get the boss loot + 500 gold total. Barbarians are eliminated permanently. |
-
-**Best Choice:** Accept the deal if you want access to barbarian-exclusive crafting materials. Fight if you want immediate gold and gear.
+**What this tells us about quest design:** the official description promises "quests of varying lengths, both cozy and combat-focused." Expect the pattern — small-town problems (the farmer, the goblins) mixed with dangerous open-world problems (the barbarian camp, giant insects).
 
 ---
 
-## Act 3: Echoes of the Past
+## Quest Systems
 
-### Quest 3.1 — The Heartstone Fragment
+### Group Quest Dialogue & Voting
 
-**Starting Location:** Triggered automatically after completing all Act 2 quests
-**Rewards:** 5 skill points, Ancient Essence x2, lore completion entry
+This is Taival's signature quest feature, and it is confirmed:
 
-The Henki has located the first major Heartstone fragment in the ruins biome.
+- In co-op, **all players follow the same dialogue** for pivotal story decisions.
+- Every player can **suggest dialogue options with their cursor** — you can see each other's cursors and suggested choices.
+- The group **votes** on the outcome.
+- The majority decision determines how the story branches.
 
-**Walkthrough:**
-1. Enter the ruins biome and locate the Heartstone temple.
-2. Solve three ancient puzzles to open the inner sanctum.
-3. Each puzzle requires a different Henki form (Guardian, Glimmer Moth, Shadow Stalker).
-4. Defeat the temple guardian (see the Boss Guide for the full strategy).
-5. Recover the Heartstone fragment.
-6. Learn the truth: the Heartstone was shattered deliberately to prevent a greater evil from escaping.
+**Implications for walkthroughs:** because outcomes are group-voted, your "walkthrough" is different every run. Discuss choices with your party before confirming — some branches reportedly gate different rewards and later quest availability (unconfirmed specifics, but voting itself is official).
 
-### Quest 3.2 — The Final Resolution
+### Side Quests
 
-**Starting Location:** After recovering the Heartstone fragment
-**Rewards:** 6 skill points, Legendary weapon blueprint, "Heartstone Restorer" title
+Beyond the main questline, the confirmed side-quest categories are:
 
-With the fragment recovered, you must decide what to do with the Heartstone's power.
+- **Cozy investigations** — like the farmer's barrel; mysteries to solve in settlements.
+- **Dispute settlements** — like the goblin housing argument; community problems to resolve.
+- **Combat encounters** — like the barbarian camp and insect pest control; fight-based tasks in the open world.
+- **Exploration tasks** — the game rewards exploring the four realms; hidden secrets are an official selling point.
 
-**Final Story Decision (Group Vote):**
+### Random Encounters
 
-| Option | Outcome |
-|--------|---------|
-| **Restore the Heartstone completely** | Standard ending. The world is balanced. Henki is restored to full power. Credits roll. |
-| **Use the fragment to seal the greater evil** | Alternate ending. The Heartstone is not fully restored, but the greater threat is contained. Opens a post-game area. |
-| **Keep the fragment for yourself** | The Henki leaves you. You gain a powerful item but lose your companion permanently. New Game Plus is locked. |
-
-**Best Choice:** Restore the Heartstone for the complete story experience on your first playthrough. Choose the seal ending on a second playthrough to access the post-game area.
+The official description also promises "random loot, sudden bosses, and unexpected challenges" — meaning not everything is a tracked quest. Some of the best content in the game happens unscripted while you travel between quests.
 
 ---
 
-## Side Quest Categories
+## Where Quests Take You
 
-Beyond the main questline, Taival offers many side quests. These are the main categories:
+Questing naturally carries you across the four confirmed realms:
 
-### Community Tasks
-
-Help villagers with everyday problems. Typically short (5–15 minutes).
-
-| Examples | Rewards |
-|----------|---------|
-| Fetch a lost item, deliver a package, help repair a building, settle disputes | Skill points, gold, reputation, crafting recipes |
-
-### Combat Encounters
-
-Defeat specific enemies or clear out locations.
-
-| Examples | Rewards |
-|----------|---------|
-| Clear a beast den, defeat a named creature, defend a settlement from attack | Henki essences, rare weapons, skill points |
-
-### Exploration Objectives
-
-Discover locations, map territories, find lore pages.
-
-| Examples | Rewards |
-|----------|---------|
-| Map the entire forest, find all ancient shrines, collect lore page sets | Skill points, permanent stat boosts, cosmetic items |
-
-### Henki Challenges
-
-Prove your companion's abilities in specific trials.
-
-| Examples | Rewards |
-|----------|---------|
-| Complete a traversal course in Cliff Strider form, defeat enemies using only Guardian form | Form upgrades, exclusive Henki traits |
+| Realm | Confirmed | Quest Type You'll Find |
+|-------|-----------|------------------------|
+| **Rolling highlands** | Yes | Starter quests, cozy investigations, early taming |
+| **Dense forests** | Yes | Settlement disputes, insect problems, forest secrets |
+| **Mountains** | Yes | Travel-through region, harder combat encounters |
+| **Ancient ruins** | Yes | Endgame-leaning quests, Heartstone-related content (community reports) |
 
 ---
 
-## Missable Content
+## What Is Not Confirmed (TBD)
 
-| Missable | Quest/Area | How to Miss | How to Get It |
-|----------|------------|-------------|---------------|
-| Barbarian Trading Recipes | Act 2 — Barbarian Camp | Killing the camp leader | Accept the deal instead |
-| Lore Page Set: "The First Keeper" | Act 1 — Cave | Leaving the cave without exploring the side passage | Look for a crack in the cave wall before exiting |
-| Shadow Stalker Secondary Ability | Forest — Hollow Tree | Not finding the hollow tree entrance | Check tree stumps with glowing marks |
-| Post-Game Area | Final Decision | Choosing to restore the Heartstone instead of sealing | Choose the seal ending |
+Please treat the following as open questions, not facts:
+
+- **Quest names** — the four confirmed quests above have no official titles; the names shown here are descriptive.
+- **Quest givers and NPC names** — no named NPCs are published.
+- **Exact rewards** — no official reward tables. "Skill points" and currency rewards are plausible (skill trees and professions are confirmed systems) but amounts are unknown.
+- **Quest order and act structure** — the main questline is confirmed to be incomplete in Early Access ("the world and story are not yet finished" per the developer).
+- **Ending / final quest** — the Heartstone's restoration and the identity of its destroyer are the core mysteries; the ending is not published.
+- **Missable content** — any claim about missable quests or exclusive branches is unverified.
+
+---
+
+## Practical Questing Tips
+
+1. **Take the cozy quests seriously.** The farmer-and-rodent quest is explicitly marketed as fun — investigations involve finding clues (gnaw marks, tracks) and are great early content for solo players.
+2. **Bring a combat form for combat quests.** The barbarian camp beast and insect pest control involve fighting — keep a hulking beast (tank) or cunning predator (burst) form unlocked and practiced.
+3. **Use the group voting to explore branches.** With a 4-player party you can deliberately re-roll story branches on repeat playthroughs — the vote system makes different outcomes easy to experience.
+4. **Explore between quests.** "Sudden bosses" and random loot are official features — the fastest way to find them is to wander.
+5. **Expect the story to continue.** Early Access is planned to last 6–12 months, and the main questline will be extended with more biomes and quests. Save judgments about the story's ending until 1.0.
 
 ---
 
 ### Related Guides
 
-- [Biomes & Exploration Guide](/guides/biomes-exploration-guide) — Navigate each biome during questing
-- [Skill Trees & Progression Guide](/guides/skill-trees-guide) — Best skills to invest in during story progression
-- [Boss Encounters Guide](/guides/boss-guide) — Strategies for all story bosses
-- [Henki Dungeons Guide](/guides/henki-dungeons-guide) — Unlock quest-exclusive form upgrades
+- [Lore & Story Guide](/guides/lore-and-story-guide) — The Henki, the Heartstone, and the world of Taival
+- [Biomes & Exploration Guide](/guides/biomes-exploration-guide) — Navigate the four realms while questing
+- [Boss Encounters Guide](/guides/boss-guide) — The barbarian camp beast and other fights
+- [Co-op Multiplayer Guide](/guides/coop-multiplayer-guide) — Group voting and quest coordination

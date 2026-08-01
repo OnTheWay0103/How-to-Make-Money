@@ -2,14 +2,16 @@
 title: "Henki Companion Guide: All Forms, Abilities & How to Unlock"
 description: "Master the Henki companion in Taival. Learn to tame creatures, unlock all form archetypes, and use Henki traits and rare variants effectively."
 category: "Companions"
-updated: "2026-07-27"
+updated: "2026-08-01"
 ---
 
 # Henki Companion Guide: All Forms, Abilities & How to Unlock
 
-> Early Access Version / Updated: July 27, 2026
+> Early Access Version / Updated: August 1, 2026
 
-The Henki is the defining feature of Taival — a shapeshifting companion that absorbs the essence of creatures to unlock new forms. Without your Henki, traversing the four biomes, surviving combat encounters, and solving environmental puzzles would be nearly impossible. This guide explains everything you need to know about your Henki companion, from the taming process to every form archetype, Henki traits, rare variants, and advanced swapping strategies.
+The Henki is the defining feature of Taival — a shapeshifting companion that absorbs the essence of creatures to unlock new forms. Without your Henki, traversing the four realms, surviving combat encounters, and solving environmental puzzles would be nearly impossible. This guide explains everything you need to know about your Henki companion, from the taming process to every form archetype, Henki traits, rare variants, and advanced swapping strategies.
+
+**Naming note (August 2026):** official materials confirm the form archetypes — "a hulking beast that absorbs damage, a swift mount that scales cliffsides, a cunning predator that strikes from the shadows" — plus community-reported snail (wall-climbing) and bird glider forms. The archetype names used in this guide (Tank Beast, Stealth Predator, etc.) are descriptive community labels; official in-game form names are not yet documented. The traits Leech, Jump Pad, and Pack Mule are confirmed as examples of the trait system; other traits listed below are community reports and unconfirmed (TBD).
 
 ---
 
@@ -45,14 +47,14 @@ After the feeding completes, the creature's form is permanently unlocked in your
 
 Henki forms fall into several broad archetypes. Each archetype serves a different purpose in combat, traversal, or utility.
 
-### Tank Beast
-A large, heavily armored form designed to absorb damage. Tank beasts have high health pools and taunt abilities that draw enemy aggression away from you. Use this form when facing tough enemies or when you need to protect squishier party members in co-op. Tank beasts often have the Leech trait, healing you while they sustain damage.
+### Hulking Beast (Tank)
+The confirmed tank archetype — official copy describes "a hulking beast that absorbs damage." Community reports describe high health pools and aggro-drawing behavior, making it the natural front-line form for tough enemies and protecting squishier party members in co-op. Tank forms often pair with the Leech trait, healing you while your companion deals damage.
 
 ### Swift Mount
 Forms with the mountable trait allow you to ride your Henki for faster travel across the open world. Swift mounts excel at covering ground, scaling cliffsides, and traversing rough terrain. Some mounts have special movement abilities like double jumps or short dashes. Unlocking a mount form is a top early-game priority.
 
-### Stealth Predator
-A cunning form built for silent takedowns and ambushes. Stealth predators have abilities that let you move without alerting enemies, deal bonus damage from behind, and see creature heat signatures through foliage. This form is invaluable for hunting rare creatures and bypassing dangerous encounters.
+### Cunning Predator (Stealth)
+The confirmed stealth archetype — official copy describes "a cunning predator that strikes from the shadows." Community reports describe silent movement, ambush takedowns, and bonus damage from behind. This form is invaluable for hunting rare creatures (including golden and purple variants) and bypassing dangerous encounters.
 
 ### Glider (Bird Forms)
 Bird forms let you grab your Henki's legs and soar through the air. Gliding is the best way to descend from mountains, cross large gaps, and scout biomes from above. Gliders are essential for reaching hidden areas and are one of the most satisfying traversal forms in the game.
@@ -60,8 +62,8 @@ Bird forms let you grab your Henki's legs and soar through the air. Gliding is t
 ### Pack Mule
 A utility form that expands your carrying capacity. Pack mules can carry additional items, resources, and loot beyond your normal inventory limit. In co-op, one player dedicating their Henki to pack mule duty keeps the group well-supplied on extended expeditions. Pack mule forms often have the Pack Mule trait for maximum storage.
 
-### Base Healer
-Your starting Henki form is a support-oriented shape with healing and revival abilities. The base healer form can restore your health over time, cleanse status effects, and revive you if you fall in combat. This form is always available and does not require taming. Keep it in your rotation for emergencies.
+### Base Healer (community-reported)
+Your starting Henki is community-reported to be support-oriented, with healing and revival abilities — but the exact starting form is not officially documented (TBD). Keep it in your rotation for emergencies; if the reported healing and revival abilities hold up, it is your infinite sustain button.
 
 ---
 
@@ -69,14 +71,14 @@ Your starting Henki form is a support-oriented shape with healing and revival ab
 
 Every form has a unique Henki Trait that sets it apart from other forms. No two forms are identical. Here are the key traits to look for:
 
-| Trait | Effect | Best For |
-|-------|--------|----------|
-| **Leech** | Henki heals you for a percentage of damage it deals | Tank beasts, aggressive forms |
-| **Jump Pad** | Henki can launch you to higher ground or across gaps | Exploration, puzzle-solving |
-| **Pack Mule** | Increases total carrying capacity significantly | Resource gathering, long expeditions |
-| **Thorns** | Reflects a portion of incoming damage back at attackers | Defensive playstyles |
-| **Regeneration** | Henki slowly regenerates health while out of combat | Solo play, sustainable exploration |
-| **Vampiric** | Henki heals itself for a percentage of damage dealt | Extended fights without healing |
+| Trait | Effect | Best For | Confirmed? |
+|-------|--------|----------|-----------|
+| **Leech** | Henki heals you for a percentage of damage it deals | Tank beasts, aggressive forms | Confirmed example |
+| **Jump Pad** | Henki can launch you to higher ground or across gaps | Exploration, puzzle-solving | Confirmed example |
+| **Pack Mule** | Increases total carrying capacity significantly | Resource gathering, long expeditions | Confirmed example |
+| **Thorns** | Reflects a portion of incoming damage back at attackers | Defensive playstyles | Community report (TBD) |
+| **Regeneration** | Henki slowly regenerates health while out of combat | Solo play, sustainable exploration | Community report (TBD) |
+| **Vampiric** | Henki heals itself for a percentage of damage dealt | Extended fights without healing | Community report (TBD) |
 
 Henki traits are fixed per form — you cannot change or upgrade them. Choosing the right form for the situation means choosing the right trait.
 

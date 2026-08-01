@@ -1,143 +1,126 @@
 ---
-title: "Lunarium Equipment Guide — Weapons, Armor & Charms"
-description: "Complete equipment guide for Lunarium. All weapon types, armor sets, Embroidery Charms, cloak system, and best gear combinations for every build."
+title: "Lunarium Equipment Guide — Cloaks, Embroidery & Weapons"
+description: "How equipment works in Lunarium: cloaks with unique effects, embroidery charm-like passives, sword weapons, and upgrading at the Temple. What's confirmed and what's not."
 category: "Items"
 version: "1.0"
-updated: "2026-07-25"
-keywords: ["Lunarium equipment guide", "Lunarium best weapons", "Lunarium armor", "Lunarium charms", "Lunarium cloak", "Lunarium gear"]
-related: ["ave-build-guide", "lune-guide", "skill-tree-guide", "combat-guide"]
+updated: "2026-08-01"
+keywords:
+  - Lunarium equipment guide
+  - Lunarium best cloak
+  - Lunarium embroidery
+  - Lunarium charms
+  - Lunarium best equipment
+related:
+  - ave-build-guide
+  - character-builds
+  - gear-enhancement
+  - secrets-guide
+  - combat-guide
 ---
 
-# Lunarium Equipment Guide — Weapons, Armor & Charms
+# Lunarium Equipment Guide — Cloaks, Embroidery & Weapons
 
-**Lunarium 1.0 / Updated: July 25, 2026**
+**Lunarium 1.0 / Updated: August 1, 2026**
 
-Gear progression in Lunarium comes from four systems: weapons, armor, Embroidery Charms, and cloaks. This guide covers them all.
+Lunarium's equipment systems are simpler than they look in most guides — and different from what many fake guides claim. There are **no armor sets, no socket gems, and no enchantment system** documented in the game. Real equipment in Lunarium is:
 
----
+1. **Cloaks** — wearable items with appearance + ability effects
+2. **Embroidery** — charm-like passive enhancements
+3. **Weapons (swords)** — Ave's blade, upgradeable at the Temple
+4. **Key items** — Echoes of Yore, Stellar Cores, Souls of the Created, the Blade of Rutila
 
-## 1. Weapons
-
-Ave wields various sword types, each suited to different builds:
-
-### Sword Types
-| Type | Speed | Damage | Parry Window | Best Build |
-|------|-------|--------|-------------|------------|
-| **Longsword** | Medium | Medium | Standard | All-rounder |
-| **Precision Blade** | Fast | Low | +15% | Parry Specialist |
-| **Twin Fangs** | Very Fast | Very Low | -10% | Blade Dancer |
-| **Harmony Blade** | Medium | Medium | Standard | Resonance Knight |
-| **Greatsword** | Slow | High | -5% | Heavy DPS |
-| **Celestial Edge** | Fast | High | +5% | Legendary (all builds) |
-
-### Weapon Upgrade System
-Weapons can be upgraded at the Temple Forge:
-| Upgrade Level | Stardust Cost | Effect |
-|--------------|---------------|--------|
-| +1 to +3 | 100 / 200 / 400 | +10% base damage per level |
-| +4 to +6 | 800 / 1,500 / 3,000 | +15% base damage per level |
-| +7 to +10 | 5,000 / 8,000 / 12,000 / 20,000 | +20% base damage + bonus effect |
+This guide covers each confirmed system and flags what remains unconfirmed.
 
 ---
 
-## 2. Armor Sets
+## 1. Cloaks
 
-### Light Armor
-| Set | Defense | Weight | Special Effect |
-|-----|---------|--------|----------------|
-| Shadow Garb | 20 | Light | +15% dodge i-frames |
-| Wanderer's Garb | 30 | Light | +10% movement speed |
-| Featherweave Set | 35 | Light | Silent footsteps (enemies detect slower) |
+**Confirmed:** cloaks exist and are a major build lever. Each cloak provides **both a unique appearance and ability effects** — offense, defense, or utility oriented (Steam page + press coverage). Choosing a cloak to match your fighting style is part of the intended build loop.
 
-### Medium Armor
-| Set | Defense | Weight | Special Effect |
-|-----|---------|--------|----------------|
-| Light Plate | 55 | Medium | Balanced — no penalties |
-| Knight's Cuirass | 70 | Medium | -5% dodge distance, +20% defense |
-| Temple Guard Set | 60 | Medium | +10% healing effectiveness |
+**Confirmed example:**
+- **Wayfarer's Cloak** — received in **Starfall Village** after the Firleaves bosses.
 
-### Heavy Armor
-| Set | Defense | Weight | Special Effect |
-|-----|---------|--------|----------------|
-| Ironheart Plate | 100 | Heavy | -15% dodge distance, +30% defense |
-| Golem Shell | 130 | Heavy | Cannot dodge, but blocking is 50% stronger |
-| Starforged Armor | 110 | Heavy | +25% defense, no dodge penalty (Legendary) |
+**Confirmed non-example (beware):**
+- The **"Stagnant Cloak"** mentioned in walkthroughs of the final region is a **location/building in Paradise** (where you meet Elmo) — not a wearable cloak. Guides that list it as an item are wrong.
+
+**Unconfirmed:** all other cloak names, effects, and locations. "Best cloak" tier lists circulating are not backed by verified sources.
 
 ---
 
-## 3. Embroidery Charms
+## 2. Embroidery (Charm-Like Passives)
 
-Charms are your **passive bonus system**. You start with 2 slots, unlock up to 5.
+**Confirmed:** embroidery works like charms — each piece carries a **different passive power** that supports a different combat style (Steam page). Reviews note that **swapping a single embroidery can dramatically change a build** — e.g., turning a slow, tanky Ave into a glass-cannon burst setup (bestof.games review).
 
-### Charm Rarity
-| Rarity | Color | Drop Source |
-|--------|-------|------------|
-| Common | Gray | Regular enemies, chests |
-| Rare | Blue | Elite enemies, hidden areas |
-| Epic | Purple | Bosses, Temple crafting |
-| Legendary | Gold | Final boss, secret quests |
+**Confirmed acquisition detail:**
+- An **embroidery blueprint** is found in a **chest near the first resting bench in Cyanstone**, in the room to the left of the bench.
 
-### Best Charms by Build
-| Charm | Effect | Best For |
-|-------|--------|----------|
-| Parry Stone | +10 RP on perfect parry | Parry Specialist |
-| Counterweight | Riposte hits twice | Parry Specialist |
-| Wind Dancer | Dodge distance +25% | Blade Dancer |
-| Bloodlust | Heal 2% HP per kill | Blade Dancer |
-| Resonance Crystal | +25 max RP | Resonance Knight |
-| Guardian Charm | Lune takes -20% damage | Resonance Knight |
-| Heart of the Star | All stats +10% | All builds (Legendary) |
+**Confirmed hub connection:**
+- The **Loom** in Lune's Sanctuary (Starfall Village) is the crafting station connected to embroidery.
 
-### Crafting Charms
-At the Temple Loom, you can craft charms using materials:
-1. Collect **Starlight Thread** from bosses and rare enemies
-2. Choose a base charm type (offensive / defensive / utility)
-3. Add up to 2 modifiers (costs additional materials)
-4. Results vary — experiment with combinations
+**Unconfirmed:** rarity tiers, slot counts, exact names/effects, and most blueprint locations.
+
+> **Search note:** the keyword "lunarium charms" describes the embroidery system — there is no separate "charms" inventory documented.
 
 ---
 
-## 4. Cloak System
+## 3. Weapons
 
-Cloaks provide mobility and utility bonuses:
+**Confirmed:**
+- Ave uses **swords**; her kit is melee-only (no bows, no magic weapons).
+- The **Blade of Rutila** — obtained from finishing off Lilia — is a **skill**, not a sword you equip. It lets you interrupt red-flashing attacks with heavy stagger damage.
+- Weapons can be **upgraded at the Temple** using resources gathered during the adventure (press-confirmed).
 
-| Cloak | Effect | Location |
-|-------|--------|----------|
-| Traveler's Wrap | +5% movement speed | Starting equipment |
-| Featherweave Cloak | +10% dodge distance | Forest hidden area |
-| Assassin's Wrap | First hit crits unaware enemies | Castle treasury |
-| Starlight Mantle | RP skills heal 5% HP | Archipelago quest reward |
-| Void Shroud | +20% damage during night/underground | Secret boss drop |
+**Unconfirmed:** weapon names/rarities beyond the Rutila, upgrade costs/stat curves, and any "best sword" rankings.
 
 ---
 
-## 5. Best Equipment Combinations
+## 4. Key Items (Progression Equipment)
 
-### Early Game (Levels 1-15)
-| Slot | Item |
-|------|------|
-| Weapon | Longsword +3 |
-| Armor | Light Plate |
-| Charm 1 | Parry Stone |
-| Charm 2 | Whatever drops first |
-| Cloak | Traveler's Wrap |
+These are confirmed progression items that function like equipment in a broad sense:
 
-### Mid Game (Levels 15-30)
-| Slot | Parry Spec | Blade Dancer | Resonance Knight |
-|------|-----------|-------------|------------------|
-| Weapon | Precision Blade +6 | Twin Fangs +6 | Harmony Blade +6 |
-| Armor | Light Plate | Shadow Garb | Knight's Cuirass |
-| Charms | Parry Stone + Counterweight | Wind Dancer + Bloodlust | Resonance Crystal + Guardian |
-| Cloak | Featherweave | Assassin's Wrap | Starlight Mantle |
+| Item | Where From | What It Does |
+|------|------------|--------------|
+| **Echoes of Yore** | Shadow of Firleaves drop | Key item (exact use unconfirmed) |
+| **Souls of the Created** | Cyanstone bosses (Sentinel, Red Dancer, Fintan, Hauler) | 4 needed to open the Palace gate |
+| **Lilia's Stellar Core** | Defeating Lilia | Key item from the region's climax |
+| **Doro's Stellar Core** | Freeing Doro in the Dreampath | Key item |
+| **Astral Shards** | Scattered in Cyanstone | Raise the resonance cap |
+| **Butterfly (Dreampath)** | After freeing Doro | Permanently protects you from the Dreampath |
+| **Shipyard key** | Sea Monster drop | Unlocks a locked gate in the Shipyard |
+| **Messenger's Key** | Dreamsinger Priestess drop | Accesses Pale Tear Village's abode / final bell path |
 
-### Endgame (Level 30+)
-Build around your Legendary drops. The Celestial Edge (sword) and Starforged Armor work for any build.
+---
+
+## 5. What Does NOT Exist (Fake Content to Ignore)
+
+| Claim in some guides | Reality |
+|----------------------|---------|
+| Armor sets with set bonuses | Not documented — Ave has no armor inventory |
+| Socket gems / gem fusion | Not documented |
+| Enchantment system (Fire Strike, etc.) | Not documented |
+| "Weapon types: greatsword, twin daggers, bow" | Ave uses swords only |
+| "Legendary Celestial Edge sword" | Not documented anywhere reliable |
+| Charm crafting with "Starlight Thread" | Fabricated |
+| "Golem Shell armor that can't dodge" | Fabricated |
+
+> **Honest policy:** Lunarium's item database is not publicly documented yet. Any guide with confident tables of armor sets, gem tiers, or enchant recipes is inventing them. We list only what walkthroughs and press actually support.
+
+---
+
+## 6. Equipment Priority Advice
+
+1. **Get the Wayfarer's Cloak** early (Starfall Village) — it's your first confirmed equipment.
+2. **Hunt embroidery blueprints** — they're your main passive-power progression; the Cyanstone bench chest is the first confirmed one.
+3. **Upgrade your sword at the Temple** whenever resources allow (confirmed system).
+4. **Never skip Astral Shards** — resonance cap is the game's mana economy.
+5. **Reach Lilia as soon as you can handle her** — the Blade of Rutila is the single most important "equipment" in the game.
 
 ---
 
 ## Related Guides
 
-- [Ave Build Guide](/guides/ave-build-guide)
-- [Skill Tree Guide](/guides/skill-tree-guide)
-- [Lune Guide](/guides/lune-guide)
-- [Boss Guide](/guides/boss-guide)
+- [Ave Build Guide](/guides/ave-build-guide) — how equipment feeds builds
+- [Character Builds Guide](/guides/character-builds) — the full build picture
+- [Gear Enhancement Guide](/guides/gear-enhancement) — upgrading at the Temple
+- [Secrets Guide](/guides/secrets-guide) — hidden chests and blueprints
+- [Combat Guide](/guides/combat-guide) — using your kit effectively

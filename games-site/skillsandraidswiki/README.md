@@ -1,6 +1,6 @@
 # Skills & Raids Wiki
 
-Unofficial wiki and guide hub for **Skills & Raids**, the team-based extraction RPG by Lootsurvivor. Built with Next.js 16 + Vercel.
+Unofficial wiki and guide hub for **Skills & Raids**, the party-based extraction RPG by solo developer Eddie H. Hinestroza. Built with Next.js 16 + Vercel.
 
 ## Site
 

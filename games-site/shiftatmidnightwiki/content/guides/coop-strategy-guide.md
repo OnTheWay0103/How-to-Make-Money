@@ -1,101 +1,88 @@
 ---
 title: "Shift At Midnight Co-Op Strategy Guide: Best Roles & Team Tactics"
-description: "Co-op strategy guide for Shift At Midnight. Best team roles (Lead Clerk, Stocker, Janitor), proximity chat tips, task coordination, and discuss-before-shooting protocol."
+description: "Co-op strategy guide for Shift At Midnight. How 3-player teams work, role division, proximity chat tactics, the discuss-before-shooting protocol, and 2-player adaptations."
 category: "Guides"
 version: "1.0"
-updated: "2026-07-29"
-keywords: ["shift at midnight co-op guide", "shift at midnight multiplayer", "team roles shift at midnight", "co-op tips shift at midnight", "shift at midnight best roles"]
+updated: '2026-08-01'
+keywords: ["shift at midnight co-op guide", "shift at midnight multiplayer", "team roles shift at midnight", "co-op tips shift at midnight", "shift at midnight how to play with friends", "shift at midnight 3 players"]
 related: ["beginner-guide", "entity-survival-guide", "solo-guide"]
 ---
 
 ## Co-Op at the Gas Station
 
-Shift At midnight shines brightest in co-op. With support for 1-3 players and a 13-night story campaign, coordinating with teammates dramatically improves your survival odds. The game assigns three distinct roles, each with unique responsibilities that must overlap and interlock for the store to survive the night.
+Shift At Midnight shines brightest with friends. The game supports **1-3 players in online co-op** (private sessions via Steam invites), with **proximity voice chat** built in, plus **PC-Xbox cross-platform play** and character customization. With a 13-shift campaign and randomly generated shifts, coordinating with teammates dramatically improves your odds.
 
-This guide covers role breakdowns, communication strategies, proximity voice chat tactics, and how to adapt between 2-player and 3-player teams.
+There are no official "classes" — the role split below is what the community has converged on. Assign roles to match your group's strengths.
+
+This guide covers role division, communication strategy, the discuss-before-shooting protocol, and how to adapt between 2-player and 3-player teams.
 
 ---
 
-## The Three Roles
+## The Three Community Roles
 
-### 1. Lead Clerk (The Face)
+### 1. Register Clerk (The Face)
 
-**Primary duties**: Man the register, process ID checks, screen customers, operate the NET Database.
+**Duties**: Man the counter, process transactions, scan IDs, run the NET Database, ask the screening questions.
 
-The Lead Clerk is the most stressful role. You are the first line of defense against doppelganger infiltration. Every customer who walks through the door passes through your register.
+This is the most stressful role. Every customer who walks through the door passes through your register, and doppelgangers live or die on your calls.
 
 **Key responsibilities**:
 - Process all customer transactions
-- Execute the **5-Question System** for every suspicious customer
-- Cross-reference IDs using the **NET Database** at the Shop Terminal
-- Operate the **Emotion Detector** when unlocked (Night 5+)
+- Execute the question screening (up to 5 questions per customer)
+- Cross-reference IDs using the NET Database at the store computer
 - Call out suspicious customers to teammates
-- Hit the **panic button** when identification fails
+- Kill confirmed doppelgangers **before** payment completes
 
-**Best loadout**: Pistol (for quick draws on exposed doppelgangers), Bear Trap (place near register as a failsafe), Motion Alarm (alert you if something approaches from behind).
-
-**Communication priority**: "Customer at register matches — safe." / "Customer ID is red — need backup at register."
-
----
+**Communication priority**: "Name on ID doesn't match the database" — describe *what's wrong*, not just "that guy's sus."
 
 ### 2. Stocker (The Muscle)
 
-**Primary duties**: Handle deliveries, restock shelves, manage the back room, secure the perimeter.
+**Duties**: Handle deliveries, restock shelves, manage the back room, prep defenses.
 
-The Stocker keeps the store running and the team supplied. While the Lead Clerk handles customers, the Stocker ensures shelves stay full, tools are distributed, and threats from the back room are neutralized.
-
-**Key responsibilities**:
-- Open delivery crates and stock shelves
-- Meet **stock quota** before the timer expires
-- Scavenge for tools, weapons, and items in the back room and storage areas
-- Patrol the exterior perimeter for Entity activity
-- Handle **urgent tasks** (forest meat runs, cockroach extermination)
-- Support the Lead Clerk during doppelganger combat
-
-**Best loadout**: Sledgehammer (best for breaking crates and doppelganger skulls), Shotgun (for exterior threats), Tripwire (set on back room entrances).
-
-**Communication priority**: "Stock quota is 80% — five minutes left." / "I hear something in the back room." / "Going outside for the forest task — cover me."
-
----
-
-### 3. Janitor (The Eyes)
-
-**Primary duties**: Clean the store, monitor security cameras, kill vermin, provide overwatch.
-
-The Janitor role is often underestimated but is critical for early warning. The security camera system provides the best view of Entity approach patterns and doppelganger movements.
+The Stocker keeps the store running while the Clerk keeps it safe.
 
 **Key responsibilities**:
-- Clean stains throughout the store ($0.10 per stain)
-- Kill cockroaches and mice before they multiply
-- Monitor **security cameras** from the back office
-- Watch for Entity approach warnings on camera feeds
-- Alert teammates to suspicious behavior in blind spots
-- Place and maintain traps around the store
-- Man the **Electrical Trap** and **Motion Alarm** systems
+- Open delivery boxes and stock shelves to meet the stock quota (community reports cite 15+ items on front shelves)
+- Leave the garage door open for the delivery truck
+- Set up barricades and traps before the end-of-shift attack
+- Handle cleaning (mop blood, bag limbs, dump them outside)
+- Support the Clerk during doppelganger combat
 
-**Best loadout**: Bear Traps (3+ for camera-blind spots), Baseball Bat (for quick vermin kills), Wooden Boards (for emergency barricades).
+**Communication priority**: "Stock quota not met yet" / "I hear something in the back room" / "Boards are up."
 
-**Communication priority**: "Entity approaching from the east — 30 seconds out." / "Doppelganger in aisle 3 — you missed it." / "Back door is clear."
+### 3. Floater (The Eyes)
+
+**Duties**: Move between the register, the stockroom, the pumps, and the perimeter, watching for tells and covering gaps.
+
+The Floater is the most flexible role — and the most important in a 3-player team, because no single area of the store is ever fully covered.
+
+**Key responsibilities**:
+- Watch customers in line and outside (pump duty from Shift 4)
+- Cover the register during the Clerk's NET database runs
+- Patrol for environmental tells (noticeboard news, odd vehicles)
+- Handle the bus check at shift end
+- Place and maintain traps
+
+**Communication priority**: "Driver seat is occupied — do not board" / "Customer at the pump matches no vehicle."
 
 ---
 
 ## Role Synergy Table
 
-| Task | Lead Clerk | Stocker | Janitor |
-|------|-----------|---------|---------|
-| Customer screening | Primary | Support (watch entrance) | Support (cameras) |
+| Task | Clerk | Stocker | Floater |
+|------|-------|---------|---------|
+| Customer screening | Primary | Support (watch entrance) | Support (queue, pumps) |
 | Stock quota | Ignore | Primary | Support |
-| Entity detection | Low | Medium | Primary |
+| Barricades & traps | Register area | Primary | Exterior |
 | Doppelganger combat | Primary | Support | Support |
-| Trap management | Register area | Exterior | Interior |
-| Urgent tasks | Never leave register | Best for forest runs | Best for interior tasks |
 | NET Database | Primary | Occasional backup | Occasional backup |
+| Bus check | — | — | Primary |
 
 ---
 
 ## Proximity Voice Chat Strategy
 
-Shift At Midnight uses **proximity voice chat** — your voice gets quieter the farther you are from teammates. Critically, **The Entity can hear you through your microphone**. This creates a unique communication challenge.
+Shift At Midnight uses **proximity voice chat** — your voice gets quieter the farther you are from teammates. Critically, multiple community guides report that **the entity (and the Dentist) can pick up open-microphone noise**, so sound discipline is a real survival mechanic.
 
 ### Communication Categories
 
@@ -103,23 +90,22 @@ Shift At Midnight uses **proximity voice chat** — your voice gets quieter the 
 |----------|------------|----------|
 | Same room | Normal speech | Fast coordination, callouts |
 | Adjacent room | Raised voice | Medium urgency messages |
-| Far away | Shouting | Emergency only — attracts Entity |
-| During hunt | **Absolute silence** | Push-to-talk off, mute mic |
+| Far away | Shouting | Emergency only — may attract attention |
+| During a hunt | **Absolute silence** | Push-to-talk off, mute mic |
 
 ### The Discuss-Before-Shooting Protocol
 
-This is the most important rule in co-op play: **never shoot a suspected doppelganger without confirmation from at least one teammate**.
+This is the most important rule in co-op play: **never shoot a suspected doppelganger without confirmation from at least one teammate.**
 
 **The protocol**:
-1. Lead Clerk flags a suspicious customer
-2. Lead Clerk announces: "I have a possible — name is [X]"
-3. Janitor checks the camera for visual tells
-4. Stocker moves toward the register (tactical position)
-5. Lead Clerk runs the NET Database check
-6. **Consensus required**: Two of three teammates must agree before engagement
-7. Only then does the designated combat role attack
+1. Clerk flags a suspicious customer and names the specific discrepancy ("listed job doesn't match")
+2. Floater checks the customer from a second angle (queue, window, reflection)
+3. Stocker moves toward the register (tactical position)
+4. Clerk runs the NET Database check
+5. **Consensus required**: two of three teammates must agree before engagement
+6. Only then does the combat role attack — **before payment completes**
 
-**Why this matters**: Friendly fire is very real. Shooting a real customer triggers a huge sanity penalty and can cost you your daily bonus. In the worst case, it can fail a key story mission.
+**Why this matters**: friendly fire is very real. Shooting a real customer over a misread costs you the sale, the store's trust, and possibly the shift's money goal. The stacked-clues rule applies to teams too: one odd answer is not a kill order.
 
 ---
 
@@ -127,23 +113,21 @@ This is the most important rule in co-op play: **never shoot a suspected doppelg
 
 ### 3-Player Team (Optimal)
 
-Full roles as described above. This is the ideal configuration. Every role is filled, every base covered.
-
-**Recommended strategy**: Lead Clerk stays glued to the register. Stocker handles all exterior and stock work. Janitor maintains traps and cameras. Rotate roles every 4 nights to keep skills fresh and avoid fatigue.
+Full roles as described above. **Recommended strategy**: the Clerk stays glued to the register, the Stocker handles stock and defenses, and the Floater covers the gaps. Rotate roles every few nights to keep skills fresh.
 
 ### 2-Player Team
 
 You must combine roles. Two effective configurations:
 
 **Configuration A — Clerk + Porter**
-- Player 1: Lead Clerk (register + NET Database)
-- Player 2: Porter (Stocker + Janitor duties combined)
-- The Porter must split time between stock duties and camera checks
-- Trade off on urgent tasks — the Porter handles outdoor tasks while Clerk handles interior
+- Player 1: Register Clerk (register + NET Database)
+- Player 2: Porter (Stocker + Floater duties combined)
+- The Porter splits time between stock duties, pump checks, and the perimeter
+- Trade off on urgent tasks — the Porter handles outdoor work while the Clerk holds the counter
 
 **Configuration B — Shared Duty**
-- Both players take turns at the register (10-minute shifts)
-- Off-register player handles stock, cleaning, and cameras
+- Both players take turns at the register (e.g., 10-minute shifts)
+- Off-register player handles stock, cleaning, and traps
 - Faster but more chaotic — communication becomes critical
 - Best for experienced players
 
@@ -151,47 +135,35 @@ You must combine roles. Two effective configurations:
 
 ## Advanced Co-Op Tactics
 
-### Trap Grid
-
-Coordinate trap placement to create overlapping kill zones:
-
-- **Janitor** places Bear Traps at choke points (hallways, aisle ends)
-- **Stocker** places Tripwire at exterior entry points
-- **Lead Clerk** keeps a Motion Alarm within reach of the register
-- **All three** place Electrical Traps in a triangle pattern covering the main sales floor
-
 ### The Entity Takedown
 
-When The Entity spawns during a hunt:
-1. **Janitor** spots it on cameras first — calls direction and distance
-2. **Stocker** moves toward the Entity's expected path with Tripwires
-3. **Lead Clerk** stays at the register only if customers are present — otherwise, evacuates to the back room
-4. **Everyone** stops talking (microphone detection is lethal)
-5. Execute the barricade plan from the [Entity Survival Guide](/guides/entity-survival-guide)
+When the end-of-shift entity attack begins (or a 60-second lock-up alert fires after a fake completes its purchase):
 
-### Urgent Task Coordination
+1. **Floater** calls the entry point and direction
+2. **Stocker** finishes barricading the three doors with planks and lays traps in the path
+3. **Clerk** joins the defense — the register is done for the night
+4. **Everyone stops talking** (audio tracking)
+5. Execute the barricade-and-hide plan from the [Entity Survival Guide](/guides/entity-survival-guide)
 
-The **60-second forest meat run** ($30 bonus) is always a team effort:
+### The Dentist Protocol
 
-- **Stocker** goes into the forest (best survival odds)
-- **Janitor** monitors the forest entrance on camera
-- **Lead Clerk** holds position at the register
-- Janitor calls out Entity movements — Stocker adjusts route
+If the Dentist appears (see the [Dentist Guide](/guides/dentist-guide)): one callout — "Dentist, run" — then silence. Do not crowd narrow corridors, and do not stop for a caught teammate. No rescue is reliable.
+
+### Shift-End Bus Coordination
+
+From Shift 5, the final bus matters. Assign one player to check the driver's seat: **empty = safe; driver in the seat = doppelganger — don't board.** This one habit saves teams from one of the fastest monsters in the game.
 
 ---
 
-## Role Rotation Schedule
+## Common Co-Op Mistakes
 
-To keep your team sharp, rotate roles on this schedule:
+| Mistake | The Fix |
+|---------|---------|
+| Voting to shoot on one clue | Stack two or three contradictions before pulling the trigger |
+| Everyone at the register | Split: counter, stock, float |
+| Loud callouts during hunts | Push-to-talk discipline; silence during entity phases |
+| Letting fakes pay | Hold the sale until consensus; kill before payment |
+| Boarding the wrong bus | Assign a bus-check player at shift end |
+| Ignoring the stock quota | A team that fails quota eats the punishment — assign the Stocker role seriously |
 
-| Night Range | Lead Clerk | Stocker | Janitor |
-|-------------|-----------|---------|---------|
-| 1-3 | Player A | Player B | Player C |
-| 4-6 | Player B | Player C | Player A |
-| 7-9 | Player C | Player A | Player B |
-| 10-12 | Player A | Player C | Player B |
-| 13 (Final) | Strongest player | Set by team vote | Set by team vote |
-
-This ensures every player understands every role, making the team more adaptable when someone goes down.
-
-Start with the [Beginner Guide](/guides/beginner-guide) if anyone on your team is new, and review [The Entity Survival Guide](/guides/entity-survival-guide) before tackling harder co-op nights.
+Start with the [Beginner Guide](/guides/beginner-guide) if anyone on your team is new, and review [The Entity Survival Guide](/guides/entity-survival-guide) before tackling harder co-op nights. Playing alone? The [Solo Guide](/guides/solo-guide) covers the triage mindset solo players need.

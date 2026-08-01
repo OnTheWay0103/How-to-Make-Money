@@ -2,12 +2,12 @@
 title: "Getting Started in Taival: Complete Beginner's Guide"
 description: "New to Taival? Learn the first steps, Henki companion basics, early game priorities, and essential tips for surviving this co-op adventure RPG."
 category: "Beginner"
-updated: "2026-07-27"
+updated: "2026-08-01"
 ---
 
 # Getting Started in Taival: Complete Beginner's Guide
 
-> Early Access Version / Updated: July 27, 2026
+> Early Access Version / Updated: August 1, 2026
 
 Welcome to Taival, a handcrafted co-op adventure RPG developed by Bonobo Software and published by Level Up Gaming. Taival means "journey" in Finnish, and that is exactly what awaits — a sprawling open world filled with mysterious creatures, ancient ruins, and a shapeshifting companion called a Henki at the center of everything.
 
@@ -41,14 +41,14 @@ The Henki is the heart of Taival. It is an ancient shapeshifting creature that h
 
 - **Taming is the unlocking mechanic.** To unlock a new form, you must study a creature in the wild, learn its preferred food, and offer that food while your Henki observes.
 - **Forms are swappable at any time.** You can switch between unlocked forms from the companion menu, allowing you to adapt to different situations on the fly.
-- **The base form is a healer.** Your starting Henki form can heal you and even revive you if you fall in combat. Do not underestimate it.
+- **The starting form is support-oriented.** Community reports describe the starting Henki as a support companion with healing and revival abilities, but the exact starting form is not officially documented — treat specifics as unconfirmed (TBD).
 - **Traits make every form unique.** Each form has a unique Henki Trait — such as Leech (heals you when the companion deals damage), Jump Pad (launches you to higher ground), or Pack Mule (carries extra loot).
 
 ---
 
 ## Basic Controls
 
-Taival supports keyboard and mouse, controller, and split-screen input. Here are the essential controls:
+Taival supports keyboard and mouse, controller, and split-screen input. Here are the essential controls as reported by the community in the Early Access build — exact bindings may differ from your version, and many controls are remappable:
 
 | Action | Keyboard & Mouse | Controller |
 |--------|-----------------|------------|

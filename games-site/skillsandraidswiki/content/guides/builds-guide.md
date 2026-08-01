@@ -1,117 +1,124 @@
 ---
-title: "Skills & Raids Builds Guide — Best Team Compositions"
-description: "Best team builds and skill combinations for Skills & Raids. Tank-DPS-Support comps, double DPS setups, solo builds, and synergy-optimized loadouts."
+title: "Skills & Raids Builds Guide — Team & Ability Setups"
+description: "Best build setups for Skills & Raids. How to build around your fixed party of Shelldon (tank), Clawrk (DPS) and Owlivia (healer), ability combinations, and synergy priorities."
 category: "Builds"
-version: "Open Beta"
-updated: "2026-07-14"
-keywords: ["Skills & Raids builds", "Skills & Raids team composition", "Skills & Raids best comps", "Skills & Raids skill combos", "Skills & Raids synergy"]
-related: ["tier-list", "skills-guide", "extraction-guide", "beginner-guide"]
+version: "1.0"
+updated: "2026-08-01"
+keywords: ["Skills & Raids builds", "Skills & Raids build guide", "Skills & Raids best build", "Skills & Raids skill combos", "Skills & Raids synergy", "Skills & Raids loadout"]
+related: ["character-guide", "best-skills-builds", "skills-guide", "beginner-guide"]
 ---
 
-# Skills & Raids Builds Guide — Best Team Compositions
+# Skills & Raids Builds Guide — Team & Ability Setups
 
-**Skills & Raids Open Beta / Updated: July 14, 2026**
+**Skills & Raids 1.0 / Updated: August 1, 2026**
 
-Your team composition and skill synergy determine whether you extract or wipe. This guide covers proven builds for every stage of the game.
-
----
-
-## Build 1: The Standard (Tank + DPS + Healer)
-
-**Difficulty:** Easy | **Extraction Rate:** ~85% | **Best For:** New players, all content
-
-### Tank (Protection)
-| Slot | Skill | Rarity | Purpose |
-|------|-------|--------|---------|
-| 1 | Shield Wall | Uncommon+ | Absorb damage for 2 turns |
-| 2 | Taunt | Uncommon+ | Force enemies to target tank |
-| 3 | Fortify | Common+ | Passive defense buff |
-
-### DPS (Offense)
-| Slot | Skill | Rarity | Purpose |
-|------|-------|--------|---------|
-| 1 | Power Strike | Rare+ | High single-target damage |
-| 2 | Armor Break | Rare+ | Reduce enemy defense |
-| 3 | Execute | Uncommon+ | Bonus damage to low HP enemies |
-
-### Healer (Restoration)
-| Slot | Skill | Rarity | Purpose |
-|------|-------|--------|---------|
-| 1 | Holy Light | Uncommon+ | Single-target big heal |
-| 2 | Group Mend | Rare+ | Team-wide heal over time |
-| 3 | Cleanse | Rare+ | Remove debuffs from team |
-
-**Synergy Chain:** Taunt → Armor Break → Power Strike → (enemy attacks tank) → Shield Wall → Holy Light = **Full combo, 2.5× damage amplification.**
+Skills & Raids is a build-crafting game: enemies drop their own skills, you combine those skills into powerful synergies, and the loadout you bring into each run decides whether you extract or lose everything. This guide explains how builds actually work in this game — what is confirmed, what is unconfirmed, and how to approach building your party without relying on invented skill lists.
 
 ---
 
-## Build 2: Double DPS Speed Clear
+## 1. The Build Framework (What Is Confirmed)
 
-**Difficulty:** Medium | **Extraction Rate:** ~70% | **Best For:** Farming known raids
+Before any specific loadout advice, know the confirmed building blocks:
 
-| Role | Skill 1 | Skill 2 | Skill 3 |
-|------|---------|---------|---------|
-| DPS 1 (Burst) | Power Strike | Critical Edge | Berserk |
-| DPS 2 (Debuff) | Armor Break | Weaken | Mark Target |
-| Healer | Holy Light | Group Mend | Haste |
+- **Fixed party of three heroes:** Shelldon (turtle tank), Clawrk (tiger DPS), Owlivia (owl healer). You never swap heroes — you build on top of their roles.
+- **Two abilities per character** (six abilities total per run).
+- **Skills come from enemy drops, quest unlocks, and crafting.** The full game has 30 skills; the demo has 15.
+- **Combining skills creates synergies** that change how combat plays out — the developer's official pitch for the game.
+- **Gear uses five rarities:** Common, Uncommon, Rare, Epic, Legendary. Skill rarity tiers match this system (exact differences unconfirmed).
+- **Builds can be changed between runs** — skills are equipped at the hub, so experimentation is free.
 
-**Strategy:** DPS 2 debuffs → DPS 1 bursts → Healer keeps pace. Kill enemies before they get 3+ attacks off.
-
----
-
-## Build 3: The Turtle (Tank + Tank + Healer)
-
-**Difficulty:** Easy | **Extraction Rate:** ~95% | **Best For:** Learning new boss mechanics
-
-| Role | Focus | Key Skill |
-|------|-------|-----------|
-| Tank 1 | Shield / Defense | Shield Wall + Fortify |
-| Tank 2 | Control / Debuff | Taunt + Weaken |
-| Healer | Pure Healing | Holy Light + Group Mend + Cleanse |
-
-**Strategy:** Outlast everything. Low damage but near-immortal. Perfect for first-time boss attempts — learn all mechanics without wiping.
+The names and exact effects of the full 30-skill roster are **not publicly documented yet**, so this guide gives you a build *framework* you can apply as you collect skills, rather than a fake list of best-in-slot abilities.
 
 ---
 
-## Build 4: Solo Extraction
+## 2. Build Around the Fixed Trio
 
-**Difficulty:** Hard | **Extraction Rate:** ~55% | **Best For:** Challenge runs, solo farming
+Since your heroes are fixed, every build is a variation on one template:
 
-| Slot | Skill | Rarity | Purpose |
-|------|-------|--------|---------|
-| 1 | Life Steal | Rare+ | Heal on damage dealt |
-| 2 | Power Strike | Rare+ | Your only damage source |
-| 3 | Fortify / Evasion | Uncommon+ | Survivability |
+| Hero | Role | What Their Loadout Should Provide |
+|------|------|-----------------------------------|
+| Shelldon | Tank | Survival: mitigation, self-healing, threat/aggro effects, defensive statuses |
+| Clawrk | DPS | Damage: burst, damage-over-time, armor shredding, finishers |
+| Owlivia | Healer | Sustain: direct heals, heal-over-time, cleanse, protective buffs |
 
-**Strategy:** Kill the weakest enemy first, Life Steal keeps you alive, extract after 2-3 fights. **Do not fight bosses solo without Legendary skills.**
+**Why this always works:** the tank keeps enemies off the squishier party members, the DPS kills threats before they accumulate, and the healer converts the fight into a battle of attrition you can win. Nearly every confirmed game mechanic — status effects, rotations, cooldowns — amplifies this core.
 
----
-
-## Skill Synergy Combos
-
-The game's hidden depth is skill synergy. Skills with matching **Synergy Tags** create combo effects:
-
-| Skill A | Skill B | Combo Effect |
-|---------|---------|--------------|
-| Shield Wall | Holy Light | Shielded allies receive 2× healing |
-| Armor Break | Power Strike | Ignore 50% of remaining armor |
-| Taunt | Counter Stance | Tank retaliates on every hit |
-| Mark Target | Critical Edge | Guaranteed critical hit |
-| Group Mend | Fortify | Heal + defense buff in one turn |
-
-**Pro tip:** Build your team around 2-3 synergy combos, not just individual skill power. A team with 3 active synergies outperforms one with random Epic skills.
+**Build priorities in order:**
+1. Keep Owlivia alive (a dead healer is the most common run-ender).
+2. Keep Shelldon able to absorb damage (so the healer can keep up).
+3. Give Clawrk a damage rotation that actually kills things (so fights end before resources run out).
 
 ---
 
-## Build Progression Path
+## 3. Synergy-First Building
 
-| Stage | Raids Completed | Target Comp | Skill Rarity |
-|-------|----------------|-------------|--------------|
-| Beginner | 0-10 | The Standard | Common/Uncommon |
-| Intermediate | 10-30 | Double DPS Speed | Uncommon/Rare |
-| Advanced | 30-50 | Custom Synergy | Rare/Epic |
-| Endgame | 50+ | Synergy-Optimized | Epic/Legendary |
+The game's central build idea is **synergy**: multiple skills combining into something stronger than the sum of their parts. Until the skill list is documented, use these rules of thumb:
+
+- **Pair skills that share a theme.** Two burn/poison skills, two shield skills, two heal-over-time skills — same-theme abilities are the most likely candidates for synergy (this is how the demo's design reads, though exact pairing rules are unconfirmed).
+- **Chain effects.** One ability that debuffs (e.g., reduces enemy defense or applies a status) followed by an ability that benefits from that debuff is the classic synergy shape. Build rotations around "setup ability → payoff ability."
+- **Don't double up the same role.** Six abilities spread across three roles beats three roles of double-stacked same-type abilities — a second pure damage ability on Owlivia is worth less than a shield for the team.
+- **Read the descriptions.** The pause mechanic exists precisely so you can read what skills and statuses do mid-fight. Use it to learn which of your skills interact.
 
 ---
 
-**Next:** Learn how to actually survive raids in our [Extraction Guide](/guides/extraction-guide).
+## 4. Build Templates (Generic, Confirmed-Safe)
+
+These templates use only role descriptions — apply them to whatever specific skills you own:
+
+### The Standard (Balanced)
+- **Shelldon:** mitigation ability + defensive/aggro ability
+- **Clawrk:** strong single-target damage + a debuff or finisher
+- **Owlivia:** direct heal + heal-over-time or cleanse
+
+**Best for:** learning new areas, first attempts at quest targets. The most forgiving build because every role is covered twice over (defense, damage, sustain).
+
+### The Sustain Fortress (Heavy Healing)
+- **Shelldon:** self-heal/mitigation ×2
+- **Clawrk:** damage + lifesteal/self-sustain if available
+- **Owlivia:** heal-over-time + big heal
+
+**Best for:** long, deep runs where attrition is the danger. Slow fights, but you outlast most enemy compositions. Note: against enemy teams that also heal, fights can stall into infinite loops — a known demo-era issue — so pair sustain with enough damage to break enemy healers.
+
+### The Burn Rush (Aggressive)
+- **Shelldon:** mitigation + debuff application
+- **Clawrk:** damage ×2 (burst + damage-over-time)
+- **Owlivia:** heal + buff/utility
+
+**Best for:** short runs, farming resources, quests with kill targets. Fights end fast, but every bad roll costs more — keep an eye on the healer's mana/resource pool.
+
+### The Quest Flex
+Swap abilities to whatever the active quests require — especially quests that demand "using specific abilities." The unlock rewards (equipment and skills) are worth more than any single run's haul.
+
+---
+
+## 5. How to Evaluate a Build
+
+Without a documented tier list, judge every loadout by four questions:
+
+1. **Can the party survive a fight where everything goes wrong?** (Healer protected? Tank can absorb?)
+2. **Can Clawrk kill before resources run out?** (Cooldowns + resource costs are real.)
+3. **Do any two abilities obviously interact?** (Synergy is the point of the game.)
+4. **Does it match active quests?** (Quest rewards are your progression.)
+
+If a run fails, change one ability — not the whole build — and compare. With free re-equipping between runs, iterating is cheap.
+
+---
+
+## 6. Common Build Mistakes
+
+| Mistake | Why It Hurts | Fix |
+|---------|-------------|-----|
+| All-damage Clawrk, no survival | One bad enemy team ends the run | Keep at least one defensive or self-sustain ability in the party |
+| Neglecting Owlivia's survivability | Dead healer = stalled fight or wipe | Shield/buff her or keep enemies off her |
+| Ignoring synergy possibilities | You leave free power on the table | Read descriptions, test pairings |
+| Never rotating for quests | You stall progression | Build around quest requirements |
+| Copying "meta builds" from unverified sources | The 30-skill list isn't documented; most lists are fabricated | Verify against in-game skill cards before trusting |
+
+---
+
+## Next Steps
+
+- [Character Guide](/guides/character-guide) — role-specific detail on Shelldon, Clawrk, and Owlivia.
+- [Best Skills & Builds Guide](/guides/best-skills-builds) — build optimization framework.
+- [Skills Guide](/guides/skills-guide) — the ability system explained.
+- [Beginner Guide](/guides/beginner-guide) — getting started.

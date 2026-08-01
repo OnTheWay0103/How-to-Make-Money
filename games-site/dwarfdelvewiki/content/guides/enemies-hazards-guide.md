@@ -1,105 +1,104 @@
 ---
-title: 'All Enemies & Hazards Guide: Every Danger in Dwarf Delve'
-description: 'Complete Dwarf Delve enemy and hazard guide. Every hostile creature type, attack patterns, weaknesses, and environmental dangers including tunnel collapses, gas pockets, lava, and flooding.'
-keywords: ['dwarf delve enemies', 'dwarf delve hazards', 'dwarf delve monsters', 'dwarf delve dangers', 'dwarf delve combat']
+title: 'Enemies & Hazards Guide: Every Confirmed Danger in Dwarf Delve'
+description: 'Dwarf Delve enemies and hazards, honestly documented — the confirmed threats are collapse, long-forgotten traps, and darkness. No official enemy roster exists; hostile creatures are unconfirmed. How to survive what IS confirmed.'
+keywords: ['dwarf delve enemies', 'dwarf delve hazards', 'dwarf delve dangers', 'dwarf delve traps', 'dwarf delve combat']
 category: Enemies
 version: '1.0'
-updated: '2026-07-25'
-related: ['beginner-guide', 'extraction-guide', 'tips-and-tricks']
+updated: '2026-08-01'
+related: ['beginner-guide', 'extraction-guide', 'tips-and-tricks', 'defense-strategy']
 ---
 
-## What Lurks in the Deep
+## What Lurks in the Deep: The Honest Catalog
 
-The mines of Dwarf Delve are not empty. Hostile creatures and environmental hazards stand between you and your fortune. This guide catalogs every known enemy and danger type, with strategies for dealing with each one.
+Dwarf Delve is a new game (launched July 27, 2026), and its official materials are unusually quiet about what you'll fight. Here's the truth, stated plainly:
 
-## Enemy Types
+- **No enemy is officially confirmed.** The Steam page mentions "unseen dangers and long-forgotten traps" — that's the entire official threat list.
+- **Named enemies on other sites are invented.** Rock Borers, Gloom Crawlers, Shadow Wraiths, Ore Guardians, "The Buried King" — none of these appear in official materials. Guides that list them with attack patterns and weaknesses are fabricating content.
+- **The confirmed threats are environmental.** Collapse, traps, and darkness are the game's real, documented dangers.
+- **Horror is an official Steam tag**, and community players do report hostile encounters — but details are unverified. This guide will be updated the moment a real enemy roster is documented.
 
-### Rock Borers
-**Depth**: Upper & Middle Mines
-**Threat**: Low
-**Attack Pattern**: Burrows through walls, emerges behind you. Lunges with sharp mandibles.
+## Confirmed Hazards
 
-**Strategy**: Listen for the scratching sound of burrowing. When you hear it, turn around and back against a solid wall. Two Battlemallet swings kill a Rock Borer. Their tunnels sometimes lead to hidden resource pockets.
+### 1. Tunnel Collapse (The #1 Confirmed Killer)
 
-### Gloom Crawlers
-**Depth**: Middle Mines
-**Threat**: Medium
-**Attack Pattern**: Drops from ceiling, grabs the player briefly, deals damage over time.
+The mine collapses from the moment your run starts. The official pitch: "the deeper you dig, the richer the haul but the farther you are from safety."
 
-**Strategy**: Always glance upward in caverns. A floodlight on the ceiling reveals Crawlers before they drop. If grabbed, swing your Battlemallet — one hit forces them to release.
+**Warning signs:** creaking, instability, falling dust — the game communicates instability through audio and visual cues (the developer's own description warns that "one wrong boot could cost you your life").
 
-### Ore Guardians
-**Depth**: Middle & Deep Mines
-**Threat**: Medium-High
-**Attack Pattern**: Stationary near large mineral deposits. Awakens when you mine nearby ore. Charges in a straight line, then swings in an arc.
+**Defense:**
+- Place support beams before warnings, not after
+- Beam your return route, not just your mining face
+- When instability starts, the run is over — extract
 
-**Strategy**: Mine around the deposit first to create maneuvering room. Bait the charge, dodge sideways, then counter-attack during the recovery animation. They drop bonus ore when killed.
+### 2. Long-Forgotten Traps
 
-### Shadow Wraiths
-**Depth**: Deep Mines
-**Threat**: High
-**Attack Pattern**: Invisible in darkness. Revealed by light. Attacks in rapid multi-hit combos when close. Retreats into shadows to heal.
+Traps are confirmed by name in the official description. Old dwarven mines are dangerous even when they aren't collapsing.
 
-**Strategy**: Light is your weapon. Keep your lantern fully charged in Deep Mines. Deploy floodlights to create permanent light zones. A Wraith forced into light cannot heal and takes +25% damage.
+**Defense:**
+- Light first, then move — flares are confirmed to "uncover secrets hidden in the shadows"
+- Don't sprint into unexplored chambers
+- Learn the visual tell-tales: in voxel-style games, traps leave visual clues in the terrain
 
-### Lava Spitters
-**Depth**: Deep Mines (near lava)
-**Threat**: High
-**Attack Pattern**: Ranged attack — spits molten rock that creates damaging pools on the ground. Keeps distance.
+### 3. Darkness
 
-**Strategy**: Close the gap quickly — Spitters are weak in melee. Use platforms to avoid ground hazards. Bring a Sticky Flare to mark them; they try to hide behind rock formations.
+Darkness is a confirmed danger layer. Your lantern is "the most basic" tool for navigating it, and the official description frames light as how you find secrets and avoid what's hidden.
 
-### The Buried King (Boss)
-**Depth**: The Abyss
-**Threat**: Extreme
-**Attack Pattern**: Massive construct guardian found guarding legendary relics. Three phases: (1) summons Rock Borers and Gloom Crawlers, (2) swings massive stone arms in wide arcs, (3) collapses the entire chamber, forcing a timed escape.
+**Defense:**
+- Keep the lantern upgrade current
+- Carry flares; throw them ahead into dark space
+- Floodlights for zones you'll work for a while
+- Mark your route home — the dark return trip is where runs die
 
-**Strategy**: This is the game's current endgame encounter. Bring fully upgraded Battlemallet, Phoenix Heart perk, and 10+ support beams. Phase 1 — clear adds quickly. Phase 2 — dodge toward the boss (not away) to avoid the wide arcs. Phase 3 — grab the relic and run. Do not fight during the collapse.
+### 4. Greed (The Meta-Hazard)
 
-## Environmental Hazards
+Officially, the game is designed around greed as a hazard: "One wrong boot could cost you your life — or worse, your loot!" The deepest hazard in Dwarf Delve is the decision to go one more room deeper.
 
-### Tunnel Collapse
-**Threat**: Extreme (most common cause of death)
-**Warning Signs**: Creaking sounds → dust falling → cracking → screen shake
+**Defense:** set a retreat threshold before you descend and respect it. A modest extraction beats a spectacular corpse.
 
-Support beams prevent collapses. Place them early and often. The Collapse Survivor and Phoenix Heart perks provide insurance.
+## Enemies: What Community Players Report (Unconfirmed)
 
-### Gas Pockets
-**Threat**: Medium
-**Warning Signs**: Hissing sound, shimmering air, your Delveling coughing
+Community discussion (Steam forums, Discord, review comments) suggests the mines are not empty, but the reports are anecdotal and unverified as of August 2026. Nothing about enemy appearance, names, behavior, or loot is reliable yet. Treat any "enemy guide" that names creatures as speculative until verified.
 
-Gas pockets explode if you mine near them with metal tools or bring a lantern too close. Use flares thrown from a safe distance to ignite them safely from afar. The explosion clears the area and sometimes reveals hidden passages.
+The honest framework for combat-ready play:
 
-### Lava Flows
-**Threat**: High
-**Warning Signs**: Orange glow on walls, heat distortion, cracking sounds from below
+- **The Battlemallet is your only confirmed weapon** — it serves as both mining tool and combat tool
+- **Positioning is survival** — the game's own warnings emphasize footing and mistakes ("one wrong boot")
+- **Light is safety** — whatever the darkness hides, light is the confirmed counter
+- **Retreat is a strategy** — not every threat needs engaging; extraction is victory
 
-Instant death if you fall in. Use platforms to cross. Mine around lava zones — the surrounding rock often contains rare heat-formed gems. Do not fight near lava if you can avoid it.
+## Combat Best Practices (Based on Confirmed Systems)
 
-### Flooded Tunnels
-**Threat**: Medium
-**Warning Signs**: Water dripping sounds, wet walls reflecting lantern light
+1. **Fight in lit areas** — darkness is a confirmed hazard layer; light is the confirmed tool
+2. **Create space** — the Battlemallet is a melee tool; you need room to swing and retreat
+3. **Don't fight with your back to a hazard** — lava-free advice: collapses and traps don't care about your fight
+4. **Know when to run** — extraction roguelites reward survival, not heroics
+5. **Learn by dying once** — each death is information; the game is young and documentation is thin
 
-You can hold your breath for a limited time underwater (increased by the Deep Breath perk). Flooded tunnels often connect to otherwise unreachable areas. Leave a floodlight or flare at the entrance so you can find your way back.
+## How This Guide Will Be Updated
 
-### Cave-Ins (Rockfall)
-**Threat**: Medium
-**Warning Signs**: Loose rocks on the ground, cracked ceiling (look up with lantern)
+The moment any of the following happens, this page gets real enemy data:
 
-Different from tunnel collapse — cave-ins are localized and triggered by specific actions (mining a support block, heavy combat). They block paths rather than kill. Carry a ladder at all times to bypass rockfall barriers.
+1. The developer publishes enemy information (Steam news, roadmap, Discord)
+2. Verified community consensus documents enemy types (multiple independent confirmations)
+3. Patches add enemy content
 
-## Enemy Spawn Mechanics
+Until then, this guide stays honest: **the confirmed dangers are collapse, traps, darkness, and greed — and no official enemy roster exists.**
 
-Enemies spawn based on:
-- **Depth** — Deeper zones spawn more dangerous creatures
-- **Darkness** — Pitch-dark areas spawn Wraiths; lit areas don't
-- **Noise** — Aggressive mining and combat attracts nearby enemies
-- **Time** — Longer runs increase spawn rates. The game wants you to extract
+## Quick Reference: Confirmed vs. Unconfirmed
 
-## Combat Best Practices Summary
+| Threat | Confirmed? | Official Source |
+|--------|-----------|-----------------|
+| Tunnel collapse | Yes | Official description ("collapsing mines") |
+| Long-forgotten traps | Yes | Official description |
+| Darkness / unseen dangers | Yes | Official description |
+| Greed / overextension | Yes | Official pitch ("or worse, your loot!") |
+| Named enemies | No | — |
+| Boss encounters | No | — |
+| Enemy attack patterns | No | — |
 
-1. **Light is life** — Always fight in lit areas
-2. **Create space** — Mining a small arena before engaging large enemies gives you room to dodge
-3. **One at a time** — Use flares to pull individual enemies rather than fighting groups
-4. **Know when to run** — Not every enemy needs to die. Sometimes the smarter play is to mine around them
-5. **The environment is your ally** — Lure enemies into gas pockets, or bait them into lava zones for instant kills
+## Related Guides
+
+- [Beginner Guide](/guides/beginner-guide) — First descent survival
+- [Extraction Guide](/guides/extraction-guide) — Escaping the confirmed threats
+- [Tips & Tricks](/guides/tips-and-tricks) — Community practice, honestly labeled
+- [Defense Strategy](/guides/defense-strategy) — Surviving the mine's threats

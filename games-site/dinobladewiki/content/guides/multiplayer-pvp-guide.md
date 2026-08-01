@@ -1,85 +1,65 @@
 ---
-title: 'Multiplayer & PvP Guide — Co-op & Competitive Play in Dinoblade'
-description: 'Complete multiplayer guide for Dinoblade. How co-op works, PvP modes, how to play with friends, invasion mechanics, and best multiplayer builds.'
-keywords: ['dinoblade multiplayer', 'dinoblade pvp', 'dinoblade co op', 'dinoblade invasion', 'dinoblade play with friends', 'dinoblade online']
+title: 'Dinoblade Multiplayer Status — Single-Player Only (Co-op & PvP FAQ)'
+description: 'Is Dinoblade multiplayer? Verified answer: no — Dinoblade is single-player only, with no co-op or PvP. What the summons system actually is, and how to play with friends (you can\'t).'
+keywords:
+  - dinoblade multiplayer
+  - dinoblade co op
+  - dinoblade pvp
+  - dinoblade invasion
+  - dinoblade play with friends
+  - dinoblade single player
 category: Multiplayer
 version: '1.0'
-updated: '2026-07-29'
+updated: '2026-08-01'
 related:
+  - faq-content
   - beginner-guide
-  - builds-guide
-  - weapons-guide
+  - boss-rush-guide
 ---
 
-## Multiplayer Overview
+## Dinoblade Multiplayer Status — Single-Player Only
 
-Dinoblade features both cooperative and competitive multiplayer. You can team up with friends to hunt dinosaurs or invade other players' worlds for PvP combat.
+**Short answer: Dinoblade has no multiplayer.** It is a confirmed **single-player** game. There is no co-op, no PvP, no invasions, and no online play of any kind. This is stated in the game's official positioning and echoed across launch coverage — any guide claiming co-op sessions, invasion mechanics, or PvP builds for Dinoblade is fabricating content.
 
-## How to Play Co-op
+## Why "dinoblade co op" and "dinoblade pvp" Get Searched
 
-### Hosting a Co-op Session
-1. From the main menu, select **"Online Play"**
-2. Choose **"Host Game"** — this makes you the host
-3. Set privacy: **Friends Only** or **Open**
-4. Share the session code with friends
-5. Up to **3 players** can join your world
+The game *looks* multiplayer-friendly: you play a dinosaur in a world of weapon-wielding creatures, and the game's **Summoning system** lets you call defeated bosses into battle. It's easy to misread that as co-op — but:
 
-### Joining a Friend
-1. Select **"Online Play"** → **"Join Game"**
-2. Enter the session code from the host
-3. Choose your character and loadout
-4. Ready up — host starts when all players are ready
+- **Summons are AI-controlled.** Defeated bosses fight alongside you as AI allies (e.g., the Axe summon boosts your stamina recovery). They are not other players.
+- **There is no "Online Play" menu.** The campaign, Boss Rush mode, and all content are single-player.
+- **No session codes, no invites, no matchmaking.** None of it exists in the game.
 
-### Co-op Scaling
-Enemies scale based on player count:
-- **2 Players**: Enemies have +50% HP, +20% damage
-- **3 Players**: Enemies have +100% HP, +40% damage
-- Loot quality improves with more players
+## What You CAN Do
 
-## PvP: Invasions
+### 1. Play the Full Single-Player Campaign
 
-Dinoblade features a unique invasion system where players can enter each other's worlds for PvP combat.
+The complete game — the cavern, the northern paths, the mountain caves, all three bosses — is a solo experience designed around the parry-and-Resolve loop. See the [Beginner Guide](/guides/beginner-guide).
 
-### How Invasions Work
-1. Use the **"Invade"** option at any bonfire
-2. You'll be matched with a player in a similar-level area
-3. Objective: Defeat the host player
-4. Host's objective: Survive or defeat the invader
-5. Winner receives unique PvP rewards
+### 2. Use the Summoning System
 
-### Invasion Rules
-- Invaders cannot use healing items (balanced by higher base stats)
-- Host can summon co-op allies for help
-- Dinosaurs in the world attack BOTH players
-- Invasion timer: 10 minutes — if time runs out, invader is sent home
+After defeating Kira the Exile you unlock Summoning: defeated bosses can be summoned as AI allies. The **Axe summon boosts stamina recovery** — the most useful confirmed summon effect. Builds that lean on summons are the closest thing to "co-op play" in Dinoblade.
 
-### PvP Rewards
-- **Win as Invader**: Dragon Scale (currency for exclusive PvP gear)
-- **Win as Host**: Invader's Ear (trade for rare upgrade materials)
-- Win streaks grant bonus rewards
+### 3. Compete Indirectly via Boss Rush
 
-## Best Multiplayer Builds
+**Boss Rush mode** (unlocked after the final boss) is the game's gauntlet. There's no leaderboard documented yet, but it gives you a measurable goal: beat your own best clear. Speedrunners and challenge runners treat it as the competitive venue. See the [Boss Rush Guide](/guides/boss-rush-guide).
 
-### Co-op DPS
-- **Dual Blades + Status** — Stack poison/bleed while tank holds aggro
-- **Longbow + Elemental** — Safe damage from distance
+### 4. Compare Runs in the Community
 
-### Co-op Tank
-- **Greatsword + Defense** — Pull aggro, hyper armor through attacks
-- **Sword & Shield + Taunt** — Draw enemy attention, block for team
+The competitive scene is the community: speedrun times, no-hit runs, and Boss Rush clears are shared in the Steam Community hub and on speedrun communities. If you want "multiplayer," that's where Dinoblade's competitive play lives.
 
-### PvP Invader
-- **Spear + Mobility** — Poke from range, hard to catch
-- **Crossbow + Burst** — High burst damage, good against healing hosts
+## Common Misinformation to Ignore
 
-### PvP Host Defender
-- **Greatsword + Poise** — Trade hits favorably with hyper armor
-- **War Axe + Stagger** — Stun-lock invaders, prevent them from escaping
+| Claim | Reality |
+|-------|---------|
+| "Up to 2-player co-op" | Not in the game |
+| "Invade other players' worlds" | No invasion system exists |
+| "PvP rewards and gear" | No PvP mode exists |
+| "Session codes to play with friends" | No online sessions exist |
+| "Enemy scaling for 2–3 players" | No multiplayer to scale |
 
-## Multiplayer Tips
+## Related Guides
 
-1. **Communicate target priority** — Focus fire on one dinosaur at a time
-2. **Share healing items** — Drop extras for teammates who are low
-3. **Don't split up in boss arenas** — Stay within revive range
-4. **Use the environment** — Knock dinosaurs off cliffs, into traps
-5. **In PvP, use dinosaurs** — Kite the invader into aggressive wild dinos
+- [FAQ](/guides/faq-content) — Verified answers to common questions
+- [Beginner Guide](/guides/beginner-guide) — The single-player core loop
+- [Boss Rush Guide](/guides/boss-rush-guide) — The confirmed endgame gauntlet
+- [Soul Arts Guide](/guides/soul-arts-guide) — The summon-adjacent progression system

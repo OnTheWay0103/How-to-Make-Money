@@ -1,192 +1,93 @@
 ---
-title: "Survival Tips Guide — Sanity, Food, Shelter & Day/Night Cycle"
-description: "Complete survival tips guide for Grain Rot. Learn food and water management, sanity system mechanics, shelter building, disease prevention, and day/night cycle strategies."
-category: "Guides"
-version: "1.0"
-updated: "2026-07-29"
-keywords: ["Grain Rot survival", "survival tips", "sanity system", "food management", "water management", "shelter building", "day night cycle", "disease prevention"]
-related: ["base-building", "enemy-types", "beginner-guide", "all-biomes-guide", "tips-and-tricks"]
+title: 'Survival Tips Guide — Vessel Durability, Corruption & the Extraction Loop'
+description: 'Real survival tips for Grain Rot: durability management, corruption discipline, the extraction economy, sound discipline, and co-op survival — the confirmed systems that keep your Spark alive.'
+category: 'Guides'
+version: 'Pre-release'
+updated: '2026-08-01'
+keywords: ['grain rot survival', 'survival tips', 'grain rot corruption', 'grain rot durability', 'grain rot how to survive', 'grain rot tips']
+related: ['tips-and-tricks', 'beginner-guide', 'game-mechanics-systems-guide', 'extraction-guide', 'stealth-sound-guide']
 ---
 
-## Surviving in Grain Rot
+# Survival Tips Guide — Vessel Durability, Corruption & the Extraction Loop
 
-Grain Rot is a survival horror game where the environment is as dangerous as the creatures that inhabit it. Between managing your hunger, thirst, sanity, health, and exposure, there is always something trying to kill you. This guide covers the core survival mechanics and strategies to keep your Spark alive.
+A correction first: older versions of this guide described survival stats that don't exist in Grain Rot — hunger, thirst, sanity, diseases, and a day/night cycle. **None of those are in the game's confirmed feature set.** Grain Rot is an extraction game: you don't manage a character's calories; you manage a **vessel's durability, your corruption level, and your extraction discipline.** This guide covers the survival skills that actually matter.
 
-## Core Survival Stats
+## What "Survival" Means in Grain Rot
 
-Your character has five primary survival stats. Letting any of them reach zero will severely hinder or kill you.
+The confirmed survival model has four pillars:
 
-### Stat Overview Table
+1. **Vessel durability** — your wooden body "splinters, collapses, and catches fire." When it breaks, your Spark escapes and must find a new vessel "before you fade out completely."
+2. **Corruption** — the Rot builds with depth and time. "Bodies warp. Voices distort. Emotes become…worse."
+3. **The extraction economy** — survival isn't about staying alive; it's about **getting loot out**. "If everyone breaks, your loot is lost."
+4. **Sound discipline** — the Corrupted "react to sound, movement, and each other." Surviving means not being noticed.
 
-| Stat | Max Value | Depletion Rate | Effect at 0 | Best Way to Restore |
-|------|-----------|---------------|-------------|---------------------|
-| Health | 100 (base) | Damage only | Death | Medkits, bandages, sleep |
-| Hunger | 100 | 1 per 90 seconds | -1 HP per 5 seconds | Cooked food, rations |
-| Thirst | 100 | 1 per 60 seconds | -1 HP per 3 seconds | Clean water, purified rainwater |
-| Sanity | 100 | Varies (see below) | Hallucinations, damage | Rest, light sources, sanity herbs |
-| Stamina | 100 | Using actions | Cannot sprint or dodge | Rest, food, stamina drinks |
+## Pillar 1: Durability Management
 
-### Health Management
+Your vessel is your only body in a run. Practical rules:
 
-Health is your most important stat. Once it reaches zero, you die and lose all unextracted loot.
+- **Treat damage as a clock.** Every hit brings you closer to the fade window. A heavily damaged vessel is a reason to extract, not to push deeper.
+- **Fire is the special hazard.** Vessels "catch fire" in a wasteland "where everything burns." Avoid flame hazards — burning bodies degrade fast.
+- **Have a fallback plan.** Since your Spark can possess another vessel, know where spare bodies might be — but never rely on finding one.
+- **Don't die with loot.** The vessel is replaceable; the haul isn't.
 
-**Ways to lose health**:
-- Enemy attacks (most common)
-- Environmental damage (rot pools, toxic gas)
-- Starvation (hunger at 0)
-- Dehydration (thirst at 0)
-- Sanity breaks (sanity at 0 causes damage-over-time)
+## Pillar 2: Corruption Discipline
 
-**Ways to restore health**:
-- **Bandages** — Restore 15 HP. Crafted from 2 Cloth. Slow application (3 seconds).
-- **Medkits** — Restore 50 HP. Found in medical crates. Fast application (1 second).
-- **Sleep** — Restore 5 HP per hour of sleep. Requires a bed in a safe shelter.
-- **Herbal Poultice** — Restore 5 HP per second for 10 seconds. Crafted from 3 Medicinal Herbs.
+Corruption is the game's soft timer:
 
-### Hunger and Thirst
+- **It scales with depth.** "The deeper you go, the worse the Rot becomes."
+- **It's visible and audible.** A corrupted player is a liability the whole team can see.
+- **It compounds mistakes.** A warped body is harder to control, quieter to fail with.
 
-You need to eat and drink regularly. Starvation and dehydration are silent killers.
+**Survival rule:** set a corruption threshold before descending and honor it. When your body is visibly degrading, the run's profit curve has already bent downward — extract.
 
-**Food Tiers**:
+## Pillar 3: Extraction Discipline
 
-| Food Type | Hunger Restored | Spoils After | Source |
-|-----------|---------------|-------------|--------|
-| Rotten Food | 5 | Already spoiled | Looted from containers |
-| Canned Food | 25 | Never | Looted from kitchens |
-| Cooked Meat | 40 | 2 days | Hunting + campfire |
-| Prepared Meal | 60 | 1 day | Recipe cooking |
-| Preserved Rations | 35 | 30 days | Crafted from salt + meat |
+The single biggest survival skill is knowing when the run is over:
 
-**Water Sources**:
+- **Extract with something rather than die with everything.** This is the game's core lesson.
+- **The elevator is the only bank.** Nothing you carry is yours until you're out.
+- **One survivor saves the haul.** In co-op, protect the player carrying the most value — if everyone else breaks, they can still bank the run.
+- **Greed is the #1 killer.** "Just one more room" is how full bags become lost bags.
 
-| Water Source | Thirst Restored | Risk | Purification Needed |
-|-------------|---------------|------|-------------------|
-| Rainwater | 20 | Low | No (if collected in clean container) |
-| Stream Water | 25 | Medium | Boil for 5 minutes |
-| Pond Water | 20 | High | Boil for 10 minutes or use purification tablets |
-| Rot Water | 0 | Extreme | Cannot be purified (toxic) |
-| Clean Water Bottle | 30 | None | No (pre-purified) |
+## Pillar 4: Sound Discipline
 
-**Pro Tip**: Always carry at least 2 clean water bottles and 3 food items when leaving your base. Running out of supplies mid-expedition is a common cause of death.
+- **Walk in unknown territory.** Sprinting is a beacon.
+- **Smash furniture in cleared rooms only.** It's your income, and it's loud.
+- **Fights recruit.** Enemies react to each other — one fight can pull the floor. Fight only when you must.
+- **Use distractions.** Create noise elsewhere, take the path, leave.
 
-## Sanity System
+## Co-op Survival
 
-Sanity is Grain Rot's most unique survival mechanic. It represents your character's mental state as they endure the horrors of the Rot.
+- **Designate a Keeper.** The most durable player carries the best loot; their job is extraction.
+- **Call your state.** Announce damage and corruption levels so the team can adjust.
+- **Don't all break.** Spread the team's risk so one bad room doesn't end the haul.
+- **Embrace the chaos, carefully.** Dropkicks and griefing are confirmed features — fun when controlled, run-ending when not.
 
-### Sanity Loss Sources
+## The Demo as Survival Training
 
-| Activity | Sanity Loss | Notes |
-|----------|------------|-------|
-| Darkness exposure | -2 per minute | No light source within 5 blocks |
-| Seeing a Corrupted | -5 per encounter | First sight each encounter |
-| Killing a Corrupted | -10 per kill | The violence takes a toll |
-| Being in the Rot | -5 per minute | Thick rot exposure |
-| Nighttime (outdoors) | -3 per minute | 22:00 - 06:00 in-game time |
-| Eating rotten food | -15 | Immediate loss |
-| Reading cursed documents | -20 to -50 | Random, item-dependent |
-| Finding a dead ally | -25 | Significant loss |
+The free demo is live and includes the full survival loop. Use it to practice:
 
-### Sanity Restoration Sources
+1. Walking instead of sprinting until you feel the noise difference.
+2. Extracting early, repeatedly — build the habit before it matters.
+3. Reading corruption: feel how depth changes your body, voice, and emotes.
+4. The Keeper rhythm in co-op.
 
-| Activity | Sanity Restored | Requirements |
-|----------|---------------|-------------|
-| Resting in shelter | +5 per hour | Bed, shelter, light source |
-| Meditating | +15 per session | Quiet area, no enemies nearby |
-| Using Sanity Herbs | +25 | 3 Blue Herbs |
-| Listening to music (radio) | +5 per minute | Functional radio, batteries |
-| Being in sunlight | +3 per minute | 06:00 - 18:00, outdoors |
-| Reading a normal book | +15 | Book item |
-| Talking to survivor NPC | +10 | NPC must be rescued |
+**Demo progress won't carry over** (not confirmed, but plan for it) — the skill does.
 
-### Low Sanity Effects
+## The Survival Checklist
 
-| Sanity Level | Effects |
-|-------------|---------|
-| 70-100 | Normal. No penalties. |
-| 40-69 | Slight screen distortion. Occasional phantom sounds. |
-| 20-39 | Frequent hallucinations (fake enemies, fake items). Reduced accuracy. |
-| 10-19 | Constant hallucinations. Screen distortion severe. Take 1 damage per minute. |
-| 0-9 | Complete sanity break. Take 5 damage per second. Enemies move faster. Cannot interact with items. |
+Before every descent:
 
-**Sanity Management Tips**:
-- Always carry a light source. Darkness is the largest passive sanity drain.
-- Build a shelter before nightfall. Being outside at night drains sanity quickly.
-- Do not kill every enemy you see. Sneaking past Corrupted preserves sanity.
-- Keep a stock of Blue Herbs for emergency sanity recovery.
-- The "Steady Mind" perk (unlocked at Outpost level 3) reduces all sanity loss by 25%.
+- [ ] Do I know the way back to the elevator?
+- [ ] Do I know my corruption threshold — and my team's?
+- [ ] Who is the Keeper, and what are they carrying?
+- [ ] What's my plan if a vessel breaks mid-run?
+- [ ] When is this run over — really?
 
-## Shelter Building
+## Related Guides
 
-Shelters are essential for surviving the night and restoring sanity. A basic shelter can be built anywhere, but a well-equipped base is far superior.
-
-### Minimum Viable Shelter
-
-- 4 walls (any material)
-- 1 door
-- 1 bed (for sleeping)
-- 1 light source (lantern or torch)
-- 1 campfire (for cooking and warmth)
-
-### Shelter Location Tips
-
-- Build near a clean water source (stream or well)
-- Avoid low-lying areas (rot pools accumulate there)
-- Build on high ground for better visibility
-- Stay within 5 minutes of a supply cache
-- Mark your shelter location on the map — it is easy to get lost
-
-## Disease Prevention
-
-The Rot causes several diseases that can cripple your run.
-
-| Disease | Cause | Effects | Cure |
-|---------|-------|--------|------|
-| Rot Sickness | Exposure to rot pools | -20% max HP, -50% stamina regen | Antirot Serum (rare) |
-| Food Poisoning | Eating spoiled food | -2 HP per minute, vomiting | Antidote, rest |
-| Infection | Untreated wounds | Wounds worsen over time, -1 HP per 5 min | Medkit, antiseptic |
-| Parasites | Drinking unpurified water | Hunger drains 3x faster | Anti-parasitic medicine |
-
-**Prevention Tips**:
-- Boil all water before drinking
-- Cook meat thoroughly (well-done, not rare)
-- Treat wounds immediately with bandages
-- Wear protective gear when entering rot-contaminated areas
-- Wash your hands at clean water sources after handling corpses
-
-## Day/Night Cycle Strategies
-
-Grain Rot follows a 24-hour day/night cycle. Each cycle lasts 45 minutes in real time.
-
-### Daytime (06:00 - 18:00) — Exploration Phase
-
-- **Visibility**: High. Enemies are less aggressive and fewer patrol.
-- **Recommended Activities**: Scavenging, exploration, hunting, resource gathering.
-- **Sanity**: Slowly regenerates in sunlight (+3 per minute).
-- **Best Use**: Cover as much ground as possible. Stockpile resources for the night.
-
-### Nighttime (18:00 - 06:00) — Survival Phase
-
-- **Visibility**: Low (unless you have a light source).
-- **Enemy Activity**: Corrupted are more aggressive and spawn in greater numbers.
-- **Sanity**: Drains slowly (-3 per minute outdoors, -1 per minute indoors without light).
-- **Recommended Activities**: Stay in shelter, craft items, sleep, read, plan next day's route.
-
-### Optimal Daily Schedule
-
-| Time | Activity | Notes |
-|------|----------|-------|
-| 06:00 - 07:00 | Wake up, eat breakfast, prepare gear | Restores hunger, plan the day |
-| 07:00 - 12:00 | Primary expedition (scavenge/hunt) | Best visibility, most productive hours |
-| 12:00 - 13:00 | Lunch break, rest | Restore stamina, light meal |
-| 13:00 - 17:00 | Secondary expedition or base building | Second wind, continue progress |
-| 17:00 - 18:00 | Return to shelter | Do not get caught outside at night |
-| 18:00 - 21:00 | Dinner, crafting, gear maintenance | Cook food, repair tools |
-| 21:00 - 06:00 | Sleep or night activities if prepared | Sleep restores HP and sanity |
-
-### Related Guides
-
-- [Base Building Guide](/guides/base-building)
-- [Enemy Types Guide](/guides/enemy-types)
-- [Beginner Guide](/guides/beginner-guide)
-- [All Biomes Guide](/guides/all-biomes-guide)
-- [Tips and Tricks Guide](/guides/tips-and-tricks)
+- [Tips & Tricks](/guides/tips-and-tricks) — 10 essential tips for new players
+- [Beginner Guide](/guides/beginner-guide) — the full first-run walkthrough
+- [Game Mechanics & Systems Guide](/guides/game-mechanics-systems-guide) — how the systems work
+- [Extraction Guide](/guides/extraction-guide) — the survival skill that matters most
+- [Stealth & Sound Guide](/guides/stealth-sound-guide) — avoiding the threats you can't outfight

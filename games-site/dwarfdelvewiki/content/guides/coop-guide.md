@@ -1,91 +1,82 @@
 ---
-title: 'Co-op Guide — How to Play Dwarf Delve With Friends'
-description: 'Complete co-op guide for Dwarf Delve. How to host and join games, best team compositions, communication tips, shared resources, and co-op boss strategies.'
-keywords: ['dwarf delve co op', 'dwarf delve multiplayer', 'dwarf delve play with friends', 'dwarf delve co op guide', 'dwarf delve team']
+title: 'Is Dwarf Delve Co-op or Multiplayer? The Honest Answer'
+description: 'Dwarf Delve is single-player only — confirmed by the Steam listing. This guide covers the multiplayer question, why co-op rumors spread, and how to get the most out of the game solo.'
+keywords: ['dwarf delve co op', 'dwarf delve multiplayer', 'dwarf delve play with friends', 'dwarf delve single player', 'dwarf delve co op guide']
 category: Multiplayer
 version: '1.0'
-updated: '2026-07-29'
+updated: '2026-08-01'
 related:
   - beginner-guide
   - solo-guide
-  - boss-farming
+  - release-date-faq
 ---
 
-## Co-op Overview
+## The Short Answer
 
-Dwarf Delve supports **up to 4 players** in online co-op. Team up with friends to mine deeper, fight tougher enemies, and extract more loot than you could alone.
+**No. Dwarf Delve does not have co-op or multiplayer — it is single-player only.**
 
-## How to Play With Friends
+This is confirmed by the official Steam listing: the game lists **Single-player** as its only gameplay feature, carries no multiplayer tags, and no multiplayer feature has ever been announced. Dwarf Delve is a one-dwarf extraction roguelite by design.
 
-### Hosting
-1. Select **"Expedition"** from the main menu
-2. Choose **"Host Game"**
-3. Set lobby to **Friends Only**
-4. Share the **lobby code** (6 characters) with your friends
-5. Select your loadout and ready up
+If you searched "Dwarf Delve co-op" or "Dwarf Delve multiplayer," you're not alone — those are popular search terms for this game. But the honest answer is that the feature doesn't exist, and any guide that explains "how to host a lobby" or "best co-op team comps" is fabricating content.
 
-### Joining
-1. Select **"Expedition"** → **"Join Game"**
-2. Enter the lobby code from the host
-3. Choose your dwarf and gear
-4. Ready up — expedition starts when all players are ready
+## Why Do Co-op Rumors Spread?
 
-## Best Team Roles
+A few honest reasons the multiplayer question keeps coming up:
 
-### The Miner (Gatherer)
-- **Focus**: Mining efficiency, resource detection
-- **Perks**: Pack Mule, Ore Sense, Fast Hands
-- **Gear**: Best pickaxe available, light armor for speed
-- **Job**: Mine everything, mark rare nodes for the team
+1. **The genre association** — extraction games (Tarkov, ARC Raiders) are usually multiplayer. Dwarf Delve is a PvE extraction game with no PvP and no multiplayer.
+2. **Name collisions** — "Dwarf Delve" search terms collide with other dwarf games and mining co-op games, dragging co-op queries into this game's results.
+3. **Fabricated guides** — low-quality guide sites invent co-op sections to capture search traffic. The keyword research behind this wiki flagged "dwarf delve co op" as low-confidence precisely because no release information mentions multiplayer.
 
-### The Guard (Combat)
-- **Focus**: Enemy clearing, boss damage
-- **Perks**: Heavy Hitter, Berserker, Iron Skin
-- **Gear**: Best weapon, heavy armor, damage accessories
-- **Job**: Clear enemies around the miner, tank bosses
+## What the Game Actually Offers
 
-### The Scout (Exploration)
-- **Focus**: Map exploration, danger detection
-- **Perks**: Night Vision, Fleet Footed, Danger Sense
-- **Gear**: Ranged weapon, medium armor, mobility accessories
-- **Job**: Scout ahead, mark threats and treasures on the map
+Instead of co-op, Dwarf Delve offers these confirmed single-player features:
 
-### The Engineer (Support)
-- **Focus**: Traps, healing, utility
-- **Perks**: Medic, Trap Master, Resourceful
-- **Gear**: Crossbow, medium armor, healing items
-- **Job**: Set defensive perimeters, revive downed teammates
+| Feature | Confirmed? | Notes |
+|---------|-----------|-------|
+| Single-player | Yes | The only gameplay mode |
+| 21 Steam Achievements | Yes | Includes "Greenbeard," "Pack Mule," "D.I.Y," "Legend" |
+| Steam Trading Cards | Yes | Steam store feature list |
+| Steam Cloud saves | Yes | Steam store feature list |
+| Family Sharing | Yes | Steam store feature list |
+| Co-op / multiplayer | No | Not listed, not announced |
+| PvP | No | PvE extraction only |
 
-## Team Compositions
+## What "Playing Together" Looks Like Today
 
-| Combo | Players | Playstyle |
-|-------|:--:|------|
-| Miner + Guard | 2 | Classic duo — one mines, one protects |
-| Guard + Scout + Engineer | 3 | Combat-focused, fast clears |
-| Miner + Guard + Scout + Engineer | 4 | Full team — optimal for deep biomes |
+If you and a friend want to play Dwarf Delve, the honest options are limited:
 
-## Co-op Tips
+- **Share the experience, not the session** — the game has no party system, so friends play separate runs and compare hauls
+- **Community discussions** — the official Discord (linked from the Steam page) is where players share runs, screenshots, and strategies
+- **Watch each other** — Steam's built-in features (Friends, Broadcasting where available) let friends watch solo runs
 
-### Communication
-- Use the **ping system** (middle mouse button) to mark ores, enemies, and threats
-- Call out Elite and Boss enemies before engaging
-- Share your inventory space — tell the miner if you have room for hauling
+None of these are multiplayer gameplay. They're the social layer around a single-player game.
 
-### Resource Sharing
-- Extracted minerals are **shared equally** among all players
-- Equipment drops are **first-come, first-served** — communicate before grabbing
-- Healing items should be shared with whoever needs them most
+## Could Co-op Arrive Later?
 
-### Reviving
-- Downed players have a **60-second timer**
-- Hold interact for 3 seconds to revive
-- Guard should cover the reviver
-- Revived players return with 25% HP
+**Unconfirmed.** The developer (solo dev Dante Knoxx of Gloom Box) has publicly committed to a multi-year content roadmap, and co-op is a common post-launch request for extraction games — but there is **no official statement** about co-op plans. Any guide claiming "co-op is coming in Month 4" is inventing a roadmap.
 
-## Co-op Boss Strategy
+This guide will be updated the moment the developer announces anything about multiplayer.
 
-1. **Designate roles before the fight** — Who tanks? Who DPS? Who handles adds?
-2. **Stagger revives** — Never all try to revive at once
-3. **Engineer sets traps before pull** — Creates a safe zone to retreat to
-4. **Focus fire weak points** — Coordinate burst damage
-5. **Share healing** — Call out when you need a heal and when you have extras
+## What to Play Instead of Co-op Dwarf Delve
+
+If you specifically want the dwarf-mining-extraction experience with friends, Dwarf Delve isn't it — but its official description points to nearby options in spirit:
+
+- **Deep Rock Galactic** — the classic four-dwarf co-op mining game (no relation to Dwarf Delve)
+- **Minecraft** — the voxel visuals Dwarf Delve is repeatedly compared to
+- **Core Keeper** — mining + co-op, more base-building focused
+
+For the solo extraction loop itself, Dwarf Delve at $12.99 (or $10.39 during the launch discount through August 10, 2026) is the real deal.
+
+## Solo Player FAQ
+
+**Is Dwarf Delve worth playing alone?** It's designed for it — solo is the only mode. See our [Solo Guide](/guides/solo-guide) and [Is It Worth It?](/guides/is-dwarf-delve-worth-it) guides for the honest assessment.
+
+**Does single-player mean it's easy?** No — the game's threats (collapse, traps, darkness) don't scale down; they're balanced for one player. Early reviews (Mostly Negative, ~25 reviews) call the game rough around the edges but with solid foundations.
+
+**Is there an offline mode?** Unconfirmed — no official statement.
+
+**Can I share my runs with friends?** Yes — Steam Cloud, screenshots, and community sharing all work; the game just isn't playable together.
+
+## Bottom Line
+
+Dwarf Delve is a **single-player** extraction roguelite. The co-op guides online are fiction; the game's real strengths are its confirmed loop — descend, mine, extract, upgrade — all for one Delveling. If that's what you're after, the game is genuinely built for it.

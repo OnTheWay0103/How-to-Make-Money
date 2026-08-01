@@ -1,180 +1,88 @@
 ---
-title: 'Best Builds Guide — Top 5 Character Builds in Vahrin\'s Call'
-description: 'Complete breakdown of the 5 best builds in Vahrin\'s Call: Spellshield Vanguard, Tactical Shadowstalker, Whirlwind Alchemist, Archer Mage Hybrid, and Magic-Alchemy Hybrid.'
-keywords: ['vahrins call best build', 'vahrins call build guide', 'vahrins call spellshield vanguard', 'vahrins call archer mage', 'vahrins call hybrid build']
-updated: '2026-07-27'
+title: 'Best Builds Guide — Confirmed Playstyle Directions in Vahrin\'s Call'
+description: 'Build advice for Vahrin\'s Call based on confirmed systems: the classless skill system, developer-endorsed archetypes, and practical combinations of weapons, magic, traps, and alchemy.'
+category: 'Guides'
+version: '1.0'
+updated: '2026-08-01'
+keywords: ['vahrins call best build', 'vahrins call build guide', 'vahrins call classless build', 'vahrins call archer mage', 'vahrins call hybrid build']
+related: ['attributes-stats-guide', 'weapons-guide', 'magic-guide', 'combat-guide']
 ---
 
-# Best Builds Guide — Top 5 Character Builds
+# Best Builds Guide — Confirmed Playstyle Directions
 
-The classless system in Vahrin's Call means there are **dozens of viable build combinations**. After extensive testing, these five builds stand out for their power, consistency, and fun factor across the full game.
+**Correction first**: earlier versions of this guide presented five named builds (Spellshield Vanguard, Archer Mage, Tactical Shadowstalker, etc.) with specific attribute allocations. Those names and numbers were **not confirmed** and have been removed. Vahrin's Call has no official builds — but it does have confirmed systems, developer-endorsed archetypes, and a classless progression model that make some directions genuinely better supported than others. This guide explains the directions that work.
 
----
+## The Ground Rules (Confirmed)
 
-## 1. Spellshield Vanguard (S-Tier)
+1. **No classes.** The game is entirely classless — you combine melee weapons, bows, magic, alchemy, and traps freely.
+2. **Skills grow through use.** Whatever you practice gets better (weapons and spells both; spells via the confirmed "Spell Mastery" system).
+3. **You can switch playstyles at any point.** The official FAQ says you can "adapt, alter or completely switch playstyles" at any time — no build is permanent.
+4. **Skill Books are required for full upgrades.** Exploration feeds every build.
+5. **Stamina limits magic.** Any build that wants heavy spellcasting must manage the stamina system.
 
-**Playstyle**: Tanky melee with elemental counter-attacks
-**Difficulty**: Easy
-**Best for**: Beginners and players who enjoy being in the thick of combat
+## The Developers' Own Archetypes
 
-### Attribute Priority
-| Attribute | Investment | Reasoning |
-|-----------|-----------|-----------|
-| Strength | **Primary (50%)** | Greatsword/shield damage and blocking |
-| Constitution | **Secondary (30%)** | Survivability — you're always in melee range |
-| Intelligence | **Tertiary (20%)** | Enables elemental counter-spells after blocking |
+Titan Roc has used exactly two examples of the classless freedom their game enables. Treat them as the intended design targets:
 
-### Key Skills
-- Shield Bash → Elemental Riposte combo
-- Fortify Stance (passive: reduced stagger while blocking)
-- Fire Imbue (adds fire damage to weapon after a successful block)
+- **"A nimble-footed archer flinging fireballs between arrows"** — ranged weapon + magic hybrid.
+- **"An axe-wielding whirlwind of death"** — heavy melee aggression.
 
-### Gear Priority
-- Heavy armor with Strength bonuses
-- Greatsword with stagger damage
-- Shield with elemental resistance
+Both are hybrids. The developers clearly intend magic to be woven into every playstyle, not segregated into a "mage" role.
 
-### Why It's S-Tier
-Incredible survivability with enough damage to clear all content. The block → counter-spell loop handles both physical and magical threats. Forgiving for new players while remaining effective in endgame.
+## Build Directions That Work with Confirmed Systems
 
----
+### 1. Ranged + Magic ("Archer-Mage")
 
-## 2. Archer Mage Hybrid (S-Tier)
+- **What it does**: bows for sustained damage, magic for burst and utility.
+- **Why it works**: both systems are confirmed; bow range keeps you out of khraiax swarm range; spell customisation lets you tune spells (damage/range/casting speed) for hit-and-run.
+- **Watch out**: stamina limits prolonged magic use — alternate arrows and spells rather than chaining spells.
 
-**Playstyle**: Ranged DPS with magical crowd control
-**Difficulty**: Medium
-**Best for**: Players who want consistent, safe damage from start to finish
+### 2. Heavy Melee ("Whirlwind")
 
-### Attribute Priority
-| Attribute | Investment | Reasoning |
-|-----------|-----------|-----------|
-| Finesse (Agility) | **Primary (40%)** | Bow damage, attack speed, movement |
-| Intelligence | **Primary (40%)** | Spell damage and mana pool |
-| Constitution | **Secondary (10%)** | Enough to survive stray hits |
-| Agility | **Tertiary (10%)** | Dodge efficiency and sprint speed |
+- **What it does**: big melee weapons, aggressive pressure.
+- **Why it works**: the developers' own example; backstabs work on human enemies for significant damage; blocking is confirmed functional, giving melee a defensive floor.
+- **Watch out**: combat feel is deliberate and "heavy" — reviewers warn attacks take commitment and enemies may not visibly stagger.
 
-### Combat Rotation
-1. Activate **Flame Imbue** on bow
-2. **Piercing Shot** (armor-penetrating arrow)
-3. **Fireball** while enemies close distance
-4. **Frost Spear** to slow approaching enemies
-5. Reposition with bow attacks
-6. **Earth Shield** if enemies reach melee range
+### 3. Trap-and-Alchemy Specialist
 
-### Gear Priority
-| Slot | Priority Stat |
-|------|--------------|
-| Bow | Critical Chance, Physical Damage |
-| Helmet | Intelligence, Mana |
-| Chest | Finesse, Stamina Recovery |
-| Gloves | Attack Speed |
-| Boots | Movement Speed |
-| Rings | Mana Regeneration, Critical Damage |
+- **What it does**: battlefield control through traps plus offensive potions.
+- **Why it works**: traps deploy while moving (confirmed rework) and can be triggered by spells (confirmed); throwing potions at enemies is a confirmed alchemy perk. This is the most unique build the game officially supports.
+- **Watch out**: traps and potions require crafting investment — the alchemy skill must be leveled for the throwing perk.
 
-### Why It's S-Tier
-Consistent performance throughout the entire game. Frost magic's slow effect makes kiting trivial. Ranged safety + magical burst damage covers every encounter type. No hard counters.
+### 4. Spell-Trapper Hybrid
 
----
+- **What it does**: magic that activates your own trap fields.
+- **Why it works**: the confirmed "spells can trigger things like traps" interaction is a real combo the devs designed in.
+- **Watch out**: spells don't interact with the environment beyond this — no fire/ice combos, no terrain effects.
 
-## 3. Tactical Shadowstalker (A-Tier)
+### 5. Pure One-System Focus
 
-**Playstyle**: Trap-based battlefield control with precision ranged damage
-**Difficulty**: Hard
-**Best for**: Tactical players who prefer planning over reflexes
+- **What it does**: master a single weapon or school.
+- **Why it works**: use-based progression rewards consistency; Spell Mastery makes a practiced spell stronger over time. Specialists progress fastest.
+- **Watch out**: khraiax swarms punish one-dimensional tactics; keep at least a basic secondary option.
 
-### Attribute Priority
-| Attribute | Investment | Reasoning |
-|-----------|-----------|-----------|
-| Agility | **Primary (45%)** | Ranged damage, movement, dodge |
-| Focus | **Secondary (35%)** | Trap efficiency and critical bonuses |
-| Constitution | **Tertiary (20%)** | Survival when positioning fails |
+## Building a Character, Step by Step
 
-### Key Skills
-- Tripwire Trap (knocks down charging enemies)
-- Poison Arrow (DoT + slow)
-- Explosive Trap (AoE damage)
-- Shadow Step (short-range teleport for repositioning)
+Since there are no official stats or skill trees to allocate, a "build" in Vahrin's Call is a habit, not a spreadsheet:
 
-### Combat Flow
-1. Scout the area before engaging
-2. Place 2-3 traps at choke points
-3. Initiate with Poison Arrow from range
-4. Kite enemies through your trap field
-5. Explosive Trap to finish groups
-6. Shadow Step to escape if surrounded
+1. **Choose a primary damage system** (melee, bow, or magic) — this is what you will practice most.
+2. **Add one secondary system** that covers your primary's weakness:
+   - Melee primary → magic for ranged pressure, or traps for crowd control.
+   - Bow primary → magic burst, or alchemy for area denial.
+   - Magic primary → melee for stamina-free damage, or traps for defense.
+3. **Hunt Skill Books for both systems** — full upgrades are book-gated.
+4. **Play for a few hours, then reassess.** Switching is free; the game is designed for it.
+5. **Let the stamina bar shape your rhythm.** If you keep running dry, shift weight toward the system that costs you less.
 
-### Why A-Tier
-Unmatched battlefield control, but heavily dependent on preparation. Ambush encounters are dangerous. Higher skill floor than other builds.
+## What NOT to Chase
 
----
+- **Any "S-tier build" list online** — there is no official tier list, and launch reviews indicate acceptable, not extreme, weapon balance.
+- **Elemental weakness builds** — no official weakness/resistance data exists.
+- **Environment-combo builds** — no tree-burning, no water-mud, no fire-ice fusions. Confirmed impossible.
 
-## 4. Magic-Alchemy Hybrid (A-Tier)
+## Next Steps
 
-**Playstyle**: Preparation-heavy spellcaster with potion-enhanced burst
-**Difficulty**: Hard
-**Best for**: Players who enjoy deep crafting and tactical preparation
-
-### Attribute Priority
-| Attribute | Investment | Reasoning |
-|-----------|-----------|-----------|
-| Intelligence | **Primary (45%)** | Spell damage, mana pool |
-| Focus | **Secondary (30%)** | Alchemy potency, critical bonuses |
-| Constitution | **Tertiary (25%)** | Survival during casting animations |
-
-### Combat Rotation
-1. **Throw Alchemical Vial** (reduce enemy resistances)
-2. **Ice/Earth Crowd Control** (freeze or immobilize)
-3. **Drink Damage Potion** (temporary Intelligence boost)
-4. **Strongest Offensive Spell** (maximized by debuff + buff)
-5. **Clean up** with enchanted weapon
-6. **Recover** with mana potion
-
-### Key Alchemy Recipes
-- **Fire Resistance Potion**: Firebell + Ember Root
-- **Intelligence Elixir**: Moonpetal + Crystal Dust
-- **Healing Draught**: Bloodleaf + Purified Water
-- **Mana Tonic**: Azure Moss + Spring Water
-
-### Why A-Tier
-Highest burst damage potential in the game when fully prepared. The debuff → buff → nuke combo deletes bosses. But resource-intensive and vulnerable when unprepared.
-
----
-
-## 5. Whirlwind Alchemist (B-Tier)
-
-**Playstyle**: Aggressive melee with self-buffing alchemy
-**Difficulty**: Medium
-**Best for**: Aggressive players who want massive physical burst damage
-
-### Attribute Priority
-| Attribute | Investment | Reasoning |
-|-----------|-----------|-----------|
-| Strength | **Primary (50%)** | Greatsword damage |
-| Constitution | **Secondary (30%)** | Melee survival |
-| Intelligence | **Tertiary (20%)** | Enhances alchemical buff potency |
-
-### Combat Flow
-1. Drink **Strength Elixir** and **Stoneskin Potion** before combat
-2. Charge in with greatsword
-3. Use **Whirlwind** (AoE spin attack) on groups
-4. **Heavy Slam** for single-target burst
-5. Re-apply buffs between encounters
-
-### Why B-Tier
-Massive area damage and satisfying gameplay, but requires constant alchemy preparation. Running out of potions mid-dungeon leaves you underpowered. Risky against bosses with long invulnerability phases.
-
----
-
-## Build Comparison
-
-| Build | Survivability | Damage | Difficulty | Prep Needed |
-|-------|--------------|--------|------------|-------------|
-| Spellshield Vanguard | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | Easy | Low |
-| Archer Mage | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | Medium | Low |
-| Tactical Shadowstalker | ⭐⭐⭐ | ⭐⭐⭐⭐ | Hard | Medium |
-| Magic-Alchemy | ⭐⭐ | ⭐⭐⭐⭐⭐ | Hard | High |
-| Whirlwind Alchemist | ⭐⭐⭐ | ⭐⭐⭐⭐ | Medium | High |
-
-## How to Respec
-
-Visit any **Mentor NPC** in major settlements to respec for free. You can reset attributes, perks, or both. This means you can try all five builds on one character — experiment freely!
+- [Attributes & Stats Guide](/guides/attributes-stats-guide) — what is confirmed about stats and progression.
+- [Weapons Guide](/guides/weapons-guide) — confirmed weapon styles.
+- [Magic Guide](/guides/magic-guide) — confirmed spell systems and customisation.
+- [Combat Guide](/guides/combat-guide) — stamina, traps, and thrown potions in practice.

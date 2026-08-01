@@ -1,182 +1,125 @@
 ---
-title: "Upgrade System — Relic Enhancement, Materials, and Optimal Paths"
-description: "Complete upgrade system guide for Relic: First Guardian. Relic upgrade tiers, material farming routes, stat bonuses at each level, and optimal upgrade paths for every build."
+title: "Upgrade System — Blacksmith Forging, Shards & Relic Slots"
+description: "How upgrading works in The Relic: First Guardian. Blacksmith weapon upgrades, Shards of Awakening relic slots, Shards of Esser potion capacity, and how Relic Energy buys skills — with honest unconfirmed notes."
 category: "Guides"
 version: "1.0"
-updated: "2026-07-29"
-keywords: ["relic first guardian upgrade system", "relic first guardian relic upgrades", "relic first guardian material farming", "relic first guardian upgrade tiers", "relic first guardian upgrade materials"]
-related: ["runes-guide", "weapons-guide", "builds-guide", "combat-guide"]
+updated: "2026-08-01"
+keywords: ["relic first guardian upgrade system", "relic first guardian blacksmith", "relic first guardian upgrades", "relic first guardian shards of awakening", "relic first guardian shards of esser", "relic first guardian weapon upgrade", "relic first guardian relic slots"]
+related: ["runes-guide", "weapons-guide", "beginner-guide", "builds-guide"]
 ---
 
-# Upgrade System — Relic Enhancement, Materials, and Optimal Paths
+# Upgrade System — Blacksmith Forging, Shards & Relic Slots
 
-The upgrade system in Relic: First Guardian centers around enhancing the First Relic — the ancient artifact bound to your character. Unlike traditional equipment upgrades, relic enhancement directly improves your core stats, unlocks new rune slots, and provides passive bonuses that scale with your progression. This guide breaks down every aspect of the system.
-
----
-
-## How Relic Enhancement Works
-
-The First Relic has 10 upgrade tiers, each requiring specific materials and a gold cost. Upgrading the relic increases your base stats and, at key thresholds, unlocks additional rune slots or passive abilities.
-
-### Upgrade Benefits
-
-| Tier | Materials Required | Gold Cost | Stat Bonus | Special Unlock |
-|------|-------------------|-----------|------------|----------------|
-| 1 | 3 Void Shards | 500 | +5% HP | Rune Slot +1 |
-| 2 | 5 Void Shards | 1,000 | +5% Stamina Regen | — |
-| 3 | 8 Void Shards + 2 Ember Dust | 2,000 | +8% Physical Defense | — |
-| 4 | 12 Void Shards + 4 Ember Dust | 3,500 | +10% All Elemental Resist | Rune Slot +1 |
-| 5 | 18 Void Shards + 6 Ember Dust + 1 Core Fragment | 5,000 | +10% Attack Damage | Skill Cooldown Reduction |
-| 6 | 25 Void Shards + 10 Ember Dust + 2 Core Fragments | 7,500 | +15% Max Stamina | — |
-| 7 | 35 Void Shards + 15 Ember Dust + 3 Core Fragments + 1 Radiant Essence | 10,000 | +12% Critical Hit Damage | Rune Slot +1 |
-| 8 | 50 Void Shards + 20 Ember Dust + 5 Core Fragments + 2 Radiant Essence | 15,000 | +20% Healing Efficacy | — |
-| 9 | 70 Void Shards + 30 Ember Dust + 8 Core Fragments + 3 Radiant Essence + 1 Primeval Crystal | 25,000 | +15% All Stats | Legendary Rune Unlock |
-| 10 | 100 Void Shards + 50 Ember Dust + 12 Core Fragments + 5 Radiant Essence + 3 Primeval Crystals | 50,000 | +25% All Stats | Relic Awakening (Unique Passive) |
+There is **no XP and no levels** in The Relic: First Guardian — so "upgrading" your character works differently than in most soulslikes. Growth comes from four separate systems: **forging equipment at the blacksmith**, **unlocking relic slots with Shards of Awakening**, **raising potion capacity with Shards of Esser**, and **buying skills with Relic Energy**. This guide explains each one, what is confirmed at launch (August 2026), and what is still being documented.
 
 ---
 
-## Material Sources
+## System 1: Forging Unique Equipment at the Blacksmith
 
-### Void Shards (Common)
+Every weapon and armor piece in the game is **unique — there are no duplicate drops**. Each item has its own history and stats, and some powerful items carry **Drawbacks** (for example, losing stamina or gaining a weakness) that you must weigh before equipping them.
 
-The most basic upgrade material, used at every tier. Void Shards are dropped by most enemies and found throughout Arsiltus.
+Because items are one-of-a-kind, the blacksmith is how you keep a favorite weapon relevant for the whole game:
 
-**Best farming locations**:
-- Ashen Fields — Early game, 2-3 shards per clear
-- Whispering Woods — 5-8 shards per run, respawning enemies
-- Sunken Citadel — 10-15 shards per run, fastest farm
-- Soul Sanctum — 15-20 shards per run, best late-game farm
+- **What you upgrade**: individual weapons and armor pieces, not "slots" or a generic weapon class.
+- **What it costs**: currencies and materials gathered from the world. One launch review noted that upgrades consume two item types — on the order of 5 of one material and 10 of another per upgrade level — but **exact costs are not yet confirmed** and likely vary by item.
+- **Why it matters**: since there are no duplicate drops, you cannot farm a "better version" of your weapon. Forging is the only way to push its damage upward.
 
-**Average drop rate**: 60% from standard enemies, 100% from mini-bosses
-
-### Ember Dust (Uncommon)
-
-Required from tier 3 onward. Ember Dust is obtained by dismantling weapons and armor at a Blacksmith station.
-
-**Best farming locations**:
-- Ruins of Elara — 2-3 dust from weapon racks
-- Scorched Battlefield — 4-6 dust, lootable from corps
-- Twin Lakes — 3-5 dust, breakable containers
-- Any Blacksmith — Dismantle unwanted gear (3 Common = 1 Dust)
-
-**Alternative method**: Purchase from traveling merchants for 200 gold each (limited stock of 5 per merchant cycle).
-
-### Core Fragments (Rare)
-
-Required from tier 5 onward. Core Fragments drop from elite enemies and mini-bosses.
-
-**Best farming locations**:
-- Drowned Pilgrim (Underground Reservoir boss) — 1 guaranteed per kill
-- Ash Soldiers at Scorched Battlefield — 15% drop rate
-- Void Crystal formations in Shattered Plains — Mineable, 20% yield
-- Weekly challenge boss — 2 guaranteed per completion
-
-### Radiant Essence (Very Rare)
-
-Required from tier 7 onward. Radiant Essence is obtained from major bosses and hidden caches.
-
-**Best farming locations**:
-- Elder Wyrm (Dragon's Rest) — 1 guaranteed per kill
-- Soul Reaper (Soul Sanctum) — 1 guaranteed per kill
-- Secret boss The Void Walker — 2 guaranteed per kill
-- Legendary chests in NG+ — 20% chance per chest
-
-### Primeval Crystal (Legendary)
-
-Required from tier 9 onward. Primeval Crystals are the rarest upgrade material in the game.
-
-**Sources**:
-- The Forgotten King (Throne of Ashes) — 1 guaranteed on first kill
-- NG+ exclusive boss fights — 1 per boss
-- Complete all 12 Memory Fragment collections — 1 reward
-- Secret boss in the Void Realm — 2 per kill (repeatable)
+**Unconfirmed at launch**: the maximum upgrade level per item, whether forging adds new passives at certain thresholds, and whether materials are shared across all items. These details are still being documented by the community.
 
 ---
 
-## Optimal Upgrade Paths
+## System 2: Shards of Awakening — Unlocking Relic Slots
 
-### For Survival Builds
+The core of your power is your **Relic** — the collection of fragments (also called runes or memory fragments) that grant passive effects. More equipped fragments means more power, and relic slots are gated behind exploration:
 
-Prioritize tiers that grant defensive bonuses and healing efficacy:
+- **Shards of Awakening** are found through exploration across the world.
+- Bring them to **Elisa** — the woman who awakens you at the start of the game — at any **camp**.
+- Each Shard unlocks **a new Relic slot**, letting you equip more fragments.
 
-1. **Tier 1 immediately** — Extra rune slot is essential
-2. **Tier 3** — Physical defense helps against early-mid game threats
-3. **Tier 4** — Elemental resist + another rune slot
-4. **Tier 8** — Healing efficacy boost significantly extends survivability
-5. **Tier 10** — Relic Awakening provides a unique defensive passive
+There are **over 70 unique relic fragments** in the game, so slot unlocks are a major power source. Because relics are freely swappable, expanding your slots gives you far more build flexibility than any single fragment.
 
-### For Damage Builds
-
-Focus on offensive stat bonuses and critical damage:
-
-1. **Tier 1 immediately** — Extra rune slot for damage runes
-2. **Tier 5** — Attack damage + skill cooldown reduction
-3. **Tier 7** — Critical hit damage + rune slot
-4. **Tier 9** — All stats boost + legendary rune access
-5. **Tier 10** — Relic Awakening for damage-oriented passive
-
-### For Hybrid Builds
-
-Balance between survival and offense:
-
-1. **Tier 1** — Rune slot (universal value)
-2. **Tier 4** — All elemental resist + rune slot
-3. **Tier 5** — Attack damage (needed by mid-game)
-4. **Tier 7** — Critical damage + rune slot
-5. **Tier 10** — Max out for the awakening bonus
+**Confirmed**: Shards of Awakening + Elisa at camps = new relic slots. **Unconfirmed**: the starting number of slots, the total number of slots, and exactly how many shards exist per playthrough.
 
 ---
 
-## Material Farming Efficiency
+## System 3: Shards of Esser — Potion Capacity
 
-To minimize grinding time, use this priority list:
+Healing is limited and precious, so expanding your potion supply is one of the highest-value upgrades in the game:
 
-1. **Daily reset areas**: Whispering Woods and Sunken Citadel reset daily. Clear both for Void Shards.
-2. **Boss loops**: Run the Drowned Pilgrim and Elder Wyrm loops for Core Fragments and Radiant Essence.
-3. **Dismantle everything**: Convert all unwanted gear to Ember Dust at Blacksmiths.
-4. **Merchant check**: Visit traveling merchants every cycle for limited-stock Ember Dust.
-5. **NG+ preparation**: Stockpile Void Shards before entering NG+ — they become the gate resource for fast upgrades.
+- You start with **3 health potions**.
+- **Shards of Esser** are found in temples, sitting **on altars** — for example, in areas like the **Faded Mist Forest**.
+- Each shard **increases your health potion capacity**, giving you more healing per excursion.
 
----
+**Confirmed**: start with 3 potions; Shards of Esser on temple altars raise capacity. **Unconfirmed**: the total number of shards and the maximum capacity.
 
-## Special Upgrade Effects
-
-### Rune Slot Unlocks
-
-Tiers 1, 4, and 7 each grant an additional rune slot. This is the single most impactful upgrade benefit because rune combinations create synergies that far exceed raw stat bonuses.
-
-### Relic Awakening (Tier 10)
-
-Upon reaching tier 10, the relic grants a unique passive based on your playstyle:
-- **Aggressive play**: "Void Hunger" — Killing enemies restores 5% HP and 5% stamina
-- **Defensive play**: "Guardian's Bulwark" — Taking damage grants a 10% damage reduction stack (max 3)
-- **Balanced play**: "Echo of the First" — Using a skill has a 20% chance to instantly reset its cooldown
-
-The awakening passive is chosen based on your combat statistics at the moment of upgrade. It cannot be changed later.
+**Practical tip**: if you are dying to attrition — running dry on potions before a boss — hunting temple altars is a better investment than grinding for gear. More potions directly translate into more attempts per run.
 
 ---
 
-## Upgrade Cost Reduction Tips
+## System 4: Relic Energy — Buying Skills in Weapon Skill Trees
 
-1. **Material drop rate buffs**: Equip the "Fortune's Favor" rune to increase rare material drops by 15%.
-2. **Co-op material sharing**: In co-op mode, materials dropped are shared among all party members within range.
-3. **Sale events**: Certain in-game events (announced via the world message system) double material drop rates for 24 hours.
-4. **Blacksmith discounts**: Completing the Blacksmith's side quest chain reduces gold costs by 10% permanently.
+Skills are the other half of your combat power, and they are bought, not learned by leveling:
+
+- **Relic Energy** is earned by defeating **Brutals** (the game's 70+ boss encounters) and by finding **Ancient Relic Blessings** in the world.
+- Spend it in the **weapon skill trees** — each of the 5 weapon families has its own tree, and there are **12 skill trees total (two per weapon family)**.
+- Crucially, skill tree nodes are not just offensive: some nodes **increase Health Points or Stamina**, and others **buff specific Relics**.
+
+**Why this matters for upgrading**: the fastest way to raise your health pool early on is buying HP nodes in a weapon skill tree — not finding gear. Plan your Relic Energy spending around the stats your current build lacks.
+
+**Unconfirmed**: node costs per tree, whether Respec exists, and how much total Relic Energy a playthrough grants.
 
 ---
 
-## Common Upgrade Mistakes
+## What Does NOT Exist (Correcting Misinformation)
 
-- **Rushing tier 10 without building material stockpile**: You need 100 Void Shards alone. Farm them gradually.
-- **Neglecting tier 4**: The elemental resist bonus and extra rune slot are massive power spikes. Do not skip directly to tier 5.
-- **Selling rare materials for gold**: Primeval Crystals and Radiant Essence are not obtainable from vendors. Never sell them.
-- **Ignoring dismantle**: Passing up common weapons and armor means missing out on Ember Dust. Dismantle everything.
+Several upgrade claims circulating online are **not supported by the launch build**:
+
+| Claim | Reality |
+|-------|---------|
+| "The First Relic has 10 upgrade tiers with a material table" | **Unconfirmed** — no reliable source describes a 10-tier relic upgrade track. The confirmed systems are forging, shard-based unlocks, and skill purchases. |
+| "Relic tier 10 grants Relic Awakening passives" | **Unconfirmed** — no such mechanic has been documented in the shipped game. |
+| "Rune Vessels guarded by mini-bosses unlock slots" | **Not confirmed** — slot unlocks are tied to Shards of Awakening + Elisa at camps. |
+| "Materials convert 3 Common = 1 Ember Dust at blacksmiths" | **Unconfirmed** — dismantling as a material source has not been verified. |
+| "Daily-reset farming areas" | **Unconfirmed** — no source confirms daily-reset zones. |
+
+Treat any exact material table, tier list, or dismantling recipe without a verified in-game source as speculation until confirmed.
+
+---
+
+## Upgrade Priority for New Players
+
+Based on what is confirmed, this is a sensible early-game order:
+
+1. **Buy HP and stamina nodes in your starting weapon's skill tree** — the most direct survivability increase (Relic Energy).
+2. **Hunt temple altars for Shards of Esser** — more potions smooths every subsequent fight.
+3. **Explore for Shards of Awakening** and return to **Elisa at camps** to unlock relic slots — slot count gates your build depth.
+4. **Forge your favorite unique weapon at the blacksmith** — since items never drop twice, upgrading what you have beats hoping for a replacement.
+5. **Swap relics per boss** — with slots unlocked, adapting your loadout to each Brutal is the highest-ROI habit in the game.
+
+---
+
+## Common Questions
+
+**Q: Can I upgrade my character's level?**
+A: No — there are no levels or XP. Power comes from relics, relic slots, skills, and forged equipment.
+
+**Q: Where is the blacksmith?**
+A: Blacksmiths are tied to the world's camps. Exact camp locations and blacksmith availability are **unconfirmed** — expect one at the main hub area early on.
+
+**Q: Do upgraded weapons carry into late game?**
+A: Likely yes — the design intent (unique items, no duplicates) is that your chosen weapon grows with you. The maximum forge level is unconfirmed.
+
+**Q: What if I waste materials on the wrong weapon?**
+A: Because every item is unique, wasted materials hurt. Check the [Weapons Guide](/guides/weapons-guide) and [Tier List](/guides/tier-list) before committing to a forge target.
+
+**Q: Is there a respec option?**
+A: Unconfirmed. Skills are bought with Relic Energy and no official respec mechanic has been announced.
 
 ---
 
 ### Related Guides
 
-- [Runes & Memory Fragments Guide](/guides/runes-guide) — Full catalog of rune effects
-- [Weapons Guide](/guides/weapons-guide) — All 5 weapon families and skill trees
-- [Best Builds Guide](/guides/builds-guide) — Optimized builds for every playstyle
-- [Combat Guide](/guides/combat-guide) — Stamina management and advanced techniques
+- [Runes & Relics Guide](/guides/runes-guide) — The 70+ passive fragments that slots unlock
+- [Weapons Guide](/guides/weapons-guide) — The unique weapons you will be forging
+- [Beginner Guide](/guides/beginner-guide) — First-hours priorities for upgrades
+- [Best Builds Guide](/guides/builds-guide) — What to spend Relic Energy on per build

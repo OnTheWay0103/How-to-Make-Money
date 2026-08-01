@@ -21,7 +21,7 @@ export default function Footer() {
         <div className="flex flex-col items-center gap-4">
           {/* Copyright */}
           <p className="text-sm text-gray-500 text-center">
-            &copy; 2026 MineGeon Wiki. Unofficial fan wiki. MineGeon: Renegades is a trademark of WTF Studios.
+            &copy; 2026 MineGeon Wiki. Unofficial fan wiki, not affiliated with Kickstone Studio. MineGeon: Renegades is a trademark of its respective owners.
           </p>
 
           {/* Nav Links */}

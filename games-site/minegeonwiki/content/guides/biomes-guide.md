@@ -1,199 +1,78 @@
 ---
 title: 'Biomes Guide — All 6 Biomes & What to Find in MineGeon: Renegades'
-description: 'Complete biomes guide for MineGeon: Renegades. All 6 biomes with enemy types, resources, boss locations, difficulty progression, and what to prepare before entering each biome.'
-keywords: ['minegeon biomes', 'minegeon all biomes', 'minegeon biome guide', 'minegeon areas', 'minegeon levels', 'minegeon biome progression']
+description: 'Complete biomes guide for MineGeon: Renegades. All six hand-crafted biomes of PAIMO, procedural minegeons, environmental hazards, boss encounters, and how biome depth drives risk and reward.'
+keywords: ['minegeon renegades biomes', 'minegeon all biomes', 'minegeon biome guide', 'minegeon renegades areas', 'minegeon biome progression', 'minegeon renegades all biomes']
 category: Biomes
 version: '1.0'
-updated: '2026-07-20'
+updated: '2026-08-01'
 related:
   - beginner-guide
-  - mining-guide
   - boss-guide
+  - enemy-guide
+  - demo-guide
 ---
 
 ## Biome Overview
 
-MineGeon: Renegades features **6 distinct biomes**, each deeper and more dangerous than the last. Every biome has unique enemies, resources, environmental hazards, and a boss encounter. This guide covers what to expect and how to prepare.
+MineGeon: Renegades features **six hand-crafted biomes** on the planet PAIMO, explored through procedurally generated dungeons the developer calls **"minegeons."** Each biome brings different scenery, environmental hazards, forgotten technology, and lore fragments — and **every biome culminates in a boss battle** against a formidable ancient entity.
+
+> **Accuracy note:** the six-biome count and the boss-per-biome structure are confirmed in official materials. Biome names, specific enemies, and hazard details had not been officially published by early August 2026. Any guide naming biomes (e.g., "Fungal Caverns" or "Magma Chambers") is using community or fabricated labels — treat those as unverified. The free demo covers the first biome, so that one is documented by players.
 
 ## Biome Progression
 
-| # | Biome | Depth | Difficulty | Key Resources | Boss |
-|---|-------|-------|-----------|---------------|------|
-| 1 | Shallow Mines | 0-50m | ⭐ | Iron, Copper, Coal | Crystal Crawler Queen |
-| 2 | Fungal Caverns | 50-150m | ⭐⭐ | Iron, Silver, Herbs | Sporemother |
-| 3 | Magma Chambers | 150-300m | ⭐⭐⭐ | Gold, Obsidian, Coal | Magma Construct |
-| 4 | Crystal Mines | 300-500m | ⭐⭐⭐⭐ | Crystal, Gold, Gems | Gem Guardian |
-| 5 | Abandoned Mineshaft | 500-800m | ⭐⭐⭐⭐⭐ | Obsidian, Mythril | Drill Dozer |
-| 6 | The Deep Core | 800m+ | ⭐⭐⭐⭐⭐⭐ | Mythril, Diamond | Core Entity |
+| Depth | What Changes | What to Expect |
+|-------|--------------|----------------|
+| First biome (demo) | Starter experience | Tutorial-level hazards, first chapter of the story, easier swarms |
+| Mid biomes | Difficulty ramp | Tougher enemies, richer minerals, more environmental hazards |
+| Deep biomes | Endgame | Most valuable minerals, strongest enemies, lore payoff |
 
-## Biome 1: The Shallow Mines
+The confirmed progression rule: **the deeper you descend, the greater the rewards — and the risks.** Each biome is a step up in both.
 
-### Overview
-The starting area and your introduction to MineGeon. Relatively safe with basic enemies and resources.
+## What Every Biome Has (Confirmed)
 
-### Enemies
-- **Crawlers** — Basic melee bugs. Easy to dodge and kill.
-- **Spitters** — Ranged enemies that shoot projectiles. Strafe to avoid.
-- **Burrowers** — Pop out of the ground. Watch for ground particles.
+Based on the official game description, every biome shares these features:
 
-### Resources
-- Iron Ore (abundant)
-- Copper Ore (abundant)
-- Coal (common)
+- **Unique scenery and atmosphere** — the six biomes are deliberately distinct to keep descents fresh
+- **Environmental hazards** — the developer explicitly mentions hazards as a per-biome challenge
+- **Forgotten technology** — ancient PAIMO machinery tied to the planet's secrets
+- **Lore fragments** — story pieces that reveal what happened on PAIMO
+- **A boss battle at the end** — each biome culminates in a boss fight against an ancient entity
+- **Enemy variety** — "from minor creatures to towering bosses," including the Scavengers faction
 
-### Environmental Hazards
-- **Loose Rocks** — Falling debris when mining near ceilings
-- **Gas Pockets** — Small poison clouds, low damage
+## The First Biome (Demo)
 
-### Preparation
-- No special gear needed — this is the starting biome
-- Bring 2-3 healing items for the boss
+The demo (Demo 2.0) lets players explore the **first of the six biomes**, solo or with up to two friends. It includes:
 
-## Biome 2: The Fungal Caverns
+- The first chapter of the story
+- Base and character upgrades
+- Biome-transforming enhancements (a mechanic that changes how the biome behaves on future runs)
 
-### Overview
-A damp, mushroom-filled cave system. Introduces poison mechanics and more aggressive enemies.
+If you have played the demo, you know the first biome well — the full game's later biomes escalate from there.
 
-### Enemies
-- **Fungal Crawlers** — Poison-infused Crawlers. Deal DoT on hit.
-- **Spore Bats** — Flying enemies. Harder to hit, use ranged weapons.
-- **Myconid Warriors** — Tough melee fighters with a shield block.
+## How to Prepare for a New Biome
 
-### Resources
-- Iron Ore (common)
-- Silver Ore (uncommon)
-- Glowcaps (herb, used in potions)
-- Toxic Gland (enemy drop, poison crafts)
+Since biome specifics are still being documented, prepare from confirmed signals:
 
-### Environmental Hazards
-- **Poison Spores** — Mushrooms release toxic clouds when disturbed
-- **Sticky Webs** — Slow movement in certain areas
-
-### Preparation
-- Bring poison resistance potions if available
-- Fire weapons are especially effective here
-- At least 3-4 healing items
-
-## Biome 3: The Magma Chambers
-
-### Overview
-A volcanic region with lava flows and heat-based hazards. The difficulty spikes here.
-
-### Enemies
-- **Magma Crawlers** — Leave burning trails. Don't walk through fire.
-- **Fire Imps** — Fast, ranged fireball attacks. Prioritize killing them.
-- **Lava Golems** — Large, slow, massive damage. Kite them.
-
-### Resources
-- Gold Ore (uncommon)
-- Obsidian (rare, near lava pools)
-- Coal (abundant)
-- Fire Crystal (rare, boss drop area)
-
-### Environmental Hazards
-- **Lava Pools** — Instant massive damage if you fall in
-- **Heat Vents** — Periodic fire eruptions. Time your movement.
-- **Burning Ground** — Some areas are permanently on fire
-
-### Preparation
-- **Bring fire resistance gear** — This biome is punishing without it
-- Ice weapons provide a damage bonus
-- At least 5 healing items
-- Tank's Fortify is invaluable here
-
-## Biome 4: The Crystal Mines
-
-### Overview
-A beautiful but deadly crystal cavern. Reflective surfaces and light-based hazards create unique challenges.
-
-### Enemies
-- **Crystal Golems** — Reflective armor reduces damage. Break the crystals first.
-- **Light Wisps** — Fast, hard-to-hit enemies that deal energy damage.
-- **Gem Hoppers** — Jumping enemies that explode on death. Kill at range.
-
-### Resources
-- Crystal (uncommon)
-- Gold Ore (uncommon)
-- Gem Fragments (rare)
-- Pure Crystal (rare, boss area)
-
-### Environmental Hazards
-- **Refraction Beams** — Light beams bounce off crystals, creating hazard zones
-- **Shatter Zones** — Breaking crystals creates damaging shrapnel
-- **Crystal Growth** — New crystals can block paths. Mine through them.
-
-### Preparation
-- Crystal Pickaxe is very helpful here (auto-collect)
-- Energy resistance gear helps against Light Wisps
-- At least 5-6 healing items
-- Ranged weapons preferred — many enemies explode on death
-
-## Biome 5: The Abandoned Mineshaft
-
-### Overview
-An old, collapsed mining operation. Environmental storytelling and the hardest non-boss enemies in the game.
-
-### Enemies
-- **Foreman** (Elite Mini-Boss) — Random spawn, drops rare loot
-- **Miner Ghosts** — Phasing enemies that pass through walls
-- **Cave Trolls** — Massive HP, slow but devastating attacks
-- **Elite Miners** — Heavily armed humanoid enemies
-
-### Resources
-- Obsidian (uncommon)
-- Mythril (rare — your first source!)
-- Ancient Relics (rare, high value)
-- Foreman's Key (mini-boss drop)
-
-### Environmental Hazards
-- **Cave-ins** — Sections can collapse randomly. Listen for audio cues.
-- **Unstable Ground** — Walking causes rocks to fall from above
-- **Dark Zones** — Torch required. Enemies are harder to see.
-
-### Preparation
-- **Bring your best gear** — This biome is no joke
-- Mythril detection (Gold Pickaxe or better) is essential
-- At least 8 healing items
-- Full party recommended for co-op
-- Bring a Torch or light source for dark zones
-
-## Biome 6: The Deep Core
-
-### Overview
-The deepest point of the mines. The ultimate challenge with the best rewards. The Core Entity awaits.
-
-### Enemies
-- All previous enemy types, buffed
-- **Core Guardians** — Elite enemies unique to this biome
-- **Void Horrors** — Eldritch enemies, high damage, unpredictable patterns
-
-### Resources
-- Mythril (uncommon)
-- Diamond (rare — the best material in the game)
-- Core Fragment (boss drops)
-- Void Essence (ultra-rare crafting material)
-
-### Environmental Hazards
-- **Gravity Anomalies** — Altered gravity in some rooms
-- **Void Tears** — Damage over time if you stand near them
-- **Reality Shifts** — Room layout can change mid-run
-
-### Preparation
-- **Maximum preparation required** — best gear, full consumables, full party
-- Diamond-tier equipment strongly recommended
-- At least 10+ healing items
-- All passive buffs from Trophy Room should be active
-- This is the endgame — treat it with respect
+1. **Expect a difficulty step.** The progression promise is that each biome is harder — arrive with upgrades banked, not spent.
+2. **Bring your best loadout.** Weapons, gadgets, and ultimates matter more as hazards multiply.
+3. **Learn the hazards before you farm.** Spend one run per new biome exploring safely and extracting early, rather than risking a big haul blind.
+4. **Co-op helps.** More eyes mean faster hazard recognition — but remember enemy pressure scales with the team too.
+5. **Watch the monolith votes.** The ancient monoliths let the team choose the descent path; path choice decides which hazards you meet next.
 
 ## Biome Transition Tips
 
-### When to Move to the Next Biome
-- You can consistently clear the current biome without dying
-- You have gear appropriate for the next tier
-- You have the recommended healing items
-- For co-op: your whole team feels ready
+### When to Move Deeper
+- You extract consistently from the current biome without close calls
+- Your permanent upgrades are current — spending minerals before pushing deeper is usually right
+- You have a plan for the boss (the boss is the biome's gatekeeper)
 
-### Skipping Biomes
-- You can attempt deeper biomes early, but it's risky
-- The stability meter drains faster in deeper biomes
-- Enemies will have skull icons if they vastly outlevel you
+### When to Stay
+- You are still dying in the current biome — the next one is harder, not a shortcut
+- Your haul per run is small — better to farm the current biome's depths than die in the next one
+- Your team is uncoordinated — co-op chaos gets punished at higher depths
+
+## Next Steps
+
+- [Boss Guide](/guides/boss-guide) — every biome ends in a boss fight
+- [Enemy Guide](/guides/enemy-guide) — the Scavengers and creatures of PAIMO
+- [Demo Guide](/guides/demo-guide) — what the free demo covers

@@ -1,142 +1,84 @@
 ---
-title: 'Phantom Tower Tower Blessings Guide — All 47 Blessings Ranked and Explained'
-description: 'Complete Phantom Tower Tower Blessings guide. All 47 blessings tier-ranked with effects, synergy combinations, class recommendations, and how to build run-defining blessing loadouts.'
-keywords: ['Phantom Tower blessings', 'Phantom Tower Tower Blessings', 'Phantom Tower best blessings', 'Phantom Tower blessing tier list', 'Phantom Tower blessing synergies']
-updated: '2026-07-30'
+title: 'Phantom Tower Tower Blessings Guide — All 47 Blessings Explained'
+description: 'Complete Phantom Tower Tower Blessings guide — what blessings are, the two officially named blessings (Artemis Dive and Chain Quake), how to find them, and strategy for building blessing loadouts.'
+category: 'Guides'
+version: 'Early Access'
+updated: '2026-08-01'
+keywords: ['Phantom Tower blessings', 'Phantom Tower Tower Blessings', 'Phantom Tower best blessings', 'Phantom Tower Artemis Dive', 'Phantom Tower Chain Quake', 'Phantom Tower blessing guide']
+related:
+  - best-builds
+  - combat-guide
+  - advanced-strategies
+  - elements-guide
 ---
 
-# Phantom Tower Tower Blessings Guide — All 47 Blessings Ranked and Explained
+# Phantom Tower Tower Blessings Guide — All 47 Blessings Explained
 
-Tower Blessings are Phantom Tower's signature roguelike mechanic — 47 game-changing abilities hidden across tower floors that dramatically reshape every run. Finding and combining the right blessings is the difference between dying on floor 40 and conquering floor 100. This guide covers every blessing category, top-tier rankings, and powerful synergies.
+Tower Blessings are Phantom Tower's roguelike modifier system — the official Steam page calls them "powerful abilities hidden across its floors," and there are **47 of them**. They are the run-to-run spice of the game: one blessing can reshape how you fight, and a good combination is the difference between dying mid-tower and conquering it.
 
-## Blessing Basics
+Here is the honest state of the record: the count (47) and the concept are official, but the developer has **only named two blessings publicly**. This guide covers what is confirmed, the two known blessings in detail, and strategy that works even while the other 45 remain undocumented.
 
-**How to find blessings:**
-- Hidden in rooms — check corners, behind pillars, inside breakable objects
-- Boss drops — every 10th floor boss drops a guaranteed blessing
-- Secret rooms — roughly 15% of floors have hidden rooms with bonus blessings
-- Elite enemies — rare chance to drop blessings
+## What We Know Officially
 
-**Blessing slots:**
-- Most classes: 3 slots
-- Mystic class: 4 slots (passive bonus)
-- You can replace blessings at shrines (rare rooms, ~5% chance per floor)
+| Fact | Source |
+|------|--------|
+| 47 Tower Blessings exist | Official press materials |
+| They are "powerful abilities hidden across its floors" | Official Steam page |
+| They reshape runs | Official press materials ("run-shaping modifiers") |
+| **Artemis Dive** — evasion summons tracking arrows | Official press materials |
+| **Chain Quake** — shockwaves chain between enemies | Official press materials |
+| Full list of 47 names and effects | **Not published — TBD** |
 
-## Blessing Categories
+That last row is the honest gap. Any guide that presents a tier list of dozens of named blessings, assigns them rarities, or lists drop rates is inventing the specifics. The official wiki is expected to publish the full list; until then, the two confirmed blessings below are the only ones you can plan around.
 
-Blessings fall into five categories based on their primary effect:
+## Artemis Dive — The Confirmed Dodge Blessing
 
-| Category | Color | Focus | Count |
-|----------|-------|-------|-------|
-| **Offensive** | Red | Damage, attack speed, crit | 13 |
-| **Defensive** | Blue | HP, defense, healing, shields | 11 |
-| **Elemental** | Multi | Element-specific bonuses | 10 |
-| **Utility** | Yellow | Speed, dodge, cooldown | 8 |
-| **Special** | Purple | Unique game-changing effects | 5 |
+**Official description:** evasion summons tracking arrows.
 
-## S-Tier Blessings (Must-Pick)
+Artemis Dive turns a defensive action — dodging — into an offensive one. The design is direct and powerful:
 
-These blessings are powerful enough to build your entire run around:
+- **It rewards what you already do.** In a hack-and-slash, you dodge constantly. Artemis Dive pays you for every dodge with tracking arrows
+- **Tracking means accuracy.** The arrows seek targets, so the blessing works even in chaotic, multi-enemy rooms
+- **Best in mobile playstyles.** Classes that reposition and dodge through attacks (the confirmed Assassin's identity, for example) extract maximum value
 
-| Blessing | Category | Effect | Best Classes |
-|----------|----------|--------|--------------|
-| **Artemis Descent** | Special | Arrows hunt highest-HP enemy on every dodge | Blade Dancer, Ranger |
-| **Elemental Mastery** | Elemental | +40% elemental reaction damage | Elementalist, all classes |
-| **Reaction Amplifier** | Special | Elemental reactions trigger twice | Elementalist, Mystic |
-| **Chain Quake** | Offensive | Damage ripples between nearby enemies | All melee classes |
-| **Earthen Fortress** | Defensive | 50% damage reduction for 5s on TERRA swap | Guardian, all tank builds |
+**Strategy:** with Artemis Dive, stop treating dodges as reactive escapes and start treating them as part of your damage rotation. Dodge through attacks deliberately — you avoid the hit and the arrows deal with whoever was in front of you.
 
-**Artemis Descent** is arguably the best blessing in the game. It turns your dodge — a defensive action — into an offensive tool. On Blade Dancer, this blessing alone adds ~30% to your total damage output.
+## Chain Quake — The Confirmed Spread Blessing
 
-## A-Tier Blessings (Strong Picks)
+**Official description:** shockwaves chain between enemies.
 
-| Blessing | Category | Effect |
-|----------|----------|--------|
-| **Stone Skin** | Defensive | Permanent 25% damage reduction |
-| **Vitality Boon** | Defensive | +50% max HP |
-| **Berserker's Fury** | Offensive | +5% damage per 10% missing HP |
-| **Life Leech** | Defensive | 5% lifesteal on all attacks |
-| **Fire Affinity** | Elemental | +25% IGNIS damage |
-| **Wind Step** | Utility | +30% dodge distance |
-| **Quick Recovery** | Utility | Dodge cooldown reduced by 40% |
-| **Eagle Eye** | Offensive | +50% critical chance at max range |
-| **Arcane Surge** | Utility | Element swap cooldown reduced by 50% |
-| **Prismatic Shield** | Defensive | Gain shield when triggering any elemental reaction |
+Chain Quake spreads damage: your shockwaves leap from enemy to enemy. Where Artemis Dive rewards evasion, Chain Quake rewards density.
 
-## B-Tier Blessings (Situational)
+- **It amplifies the VENTI identity.** Shockwaves are one of the three officially named reactions — "damage that traverses entire rooms" — and Chain Quake chains them across targets
+- **Best in crowds.** Rooms with multiple enemies multiply its value; single-target boss arenas dampen it
+- **Pairs with reactions and AoE weapons.** Anything that spreads damage makes Chain Quake chain further
 
-| Blessing | Category | Effect | When to Pick |
-|----------|----------|--------|--------------|
-| **Assassin's Mark** | Offensive | First stealth hit deals 4x | Rogue only |
-| **Last Stand** | Defensive | Survive one fatal hit (60s CD) | Berserker, risky builds |
-| **Shadow Step** | Utility | 2s invisibility on kill | Rogue, Blade Dancer |
-| **Piercing Shot** | Offensive | Projectiles pass through enemies | Ranger |
-| **Aqua Affinity** | Elemental | +25% AQUA damage | Mystic |
-| **Terra Affinity** | Elemental | +25% TERRA damage | Guardian |
-| **Venti Affinity** | Elemental | +25% VENTI damage | Blade Dancer, Ranger, Rogue |
-| **Regeneration** | Defensive | 2% HP/sec passive regen | Guardian, Survival Mode |
-| **Deep Freeze** | Elemental | AQUA+AQUA freezes for 3s | All classes |
+**Strategy:** in dense rooms, prioritize shockwave reactions and positioning that lines enemies up — Chain Quake turns one good hit into a room-clearing cascade.
 
-## C-Tier Blessings (Niche)
+## The Other 45 Blessings — What to Do
 
-| Blessing | Effect | Issue |
-|----------|--------|-------|
-| **Gold Magnet** | Auto-collect gold | QoL, no combat benefit |
-| **Treasure Sense** | Detect hidden rooms | Only useful if you can survive |
-| **Potion Master** | Potions heal 25% more | Outscaled by Life Leech |
-| **Spike Skin** | Reflect 10% damage | Too low to matter |
+With 45 blessings unnamed, smart play in Early Access follows principles instead of lists:
 
-## Top 5 Blessing Synergies
+**1. Discover deliberately.** Blessings are hidden across floors — search rooms, check corners, and take the scenic route through the tower. Every undiscovered blessing you find is knowledge no guide can give you yet.
 
-### 1. Artemis Descent + Chain Quake + Wind Step
-**The Dodge God combo.** Every dodge launches seeking arrows (Artemis). Every hit from those arrows chains to nearby enemies (Chain Quake). Extra dodge distance (Wind Step) lets you reposition while dealing damage. This combo clears rooms while you are untouchable.
+**2. Evaluate by trigger, not by name.** When you find a blessing, ask what action triggers it and what it amplifies. A blessing that triggers from evasion, hits, or element swaps is reliable; a blessing with a narrow condition is a gamble.
 
-### 2. Elemental Mastery + Reaction Amplifier + Arcane Surge
-**The Reaction Storm combo.** Reactions deal 40% more damage and trigger twice. Swap cooldown is halved so you can cycle elements almost instantly. On Elementalist, this is the highest DPS blessing loadout in the game.
+**3. Two confirmed synergies to build toward.** Artemis Dive pairs naturally with mobile, dodge-heavy play. Chain Quake pairs with shockwave reactions and crowd fights. Both reward flexible, active combat — the game's confirmed core loop.
 
-### 3. Stone Skin + Vitality Boon + Earthen Fortress + Regeneration
-**The Immortal combo.** 25% permanent DR + 50% more HP + 50% DR on TERRA swap + passive regen. Effective HP pool exceeds 300% of base. On Guardian, you can face-tank the final boss.
+**4. Adapt to what you find.** Roguelike logic: the run offers you a loadout, and the best players build around what appears. With 45 undocumented blessings, flexibility is not a fallback — it is the strategy.
 
-### 4. Berserker's Fury + Life Leech + Last Stand
-**The Edge of Death combo.** Massive damage at low HP, sustained by lifesteal, with a safety net. The quintessential Berserker setup — stay at 30% HP for +35% damage while Life Leech keeps you alive.
+## Blessing Strategy by Mode
 
-### 5. Assassin's Mark + Shadow Step + Wind Step
-**The Ghost combo.** First hit from stealth = 4x damage. Kills grant invisibility for repositioning. Wind Step closes distance. On Rogue, this one-shots elites and skips entire rooms.
+**Climb Mode (progress carries over):** blessings that make you consistent — reliable triggers, survivability, damage that works in any room. Since progress persists, the goal is reaching more floors, not taking risks.
 
-## Blessing Strategy by Game Mode
+**Survival Mode (infinite hordes, every defeat final):** survival first. In endless content, control and survivability blessings out-value raw damage — a freeze-style control effect or a defensive trigger keeps you alive when the wave count climbs.
 
-### Climb Mode (Progression)
-- **Priority:** 1 Defensive → 1 Offensive → 1 Utility or Elemental
-- **Reason:** You need survivability for first-time clears, damage for boss checks, and utility for consistency
-- **Example:** Stone Skin → Chain Quake → Wind Step
+## Blessing Rarity and Acquisition — TBD
 
-### Survival Mode (Endless)
-- **Priority:** 2 Defensive → 1 Offensive (with sustain)
-- **Reason:** Infinite waves punish glass cannon builds. You must survive first, kill second
-- **Example:** Vitality Boon + Regeneration → Life Leech
+Common guide claims — rarity tiers, drop rates, blessing slots per class, shrine locations, re-roll mechanics — have **no official source**. Treat all of them as unverified. The confirmed acquisition facts are just two: there are 47 blessings, and they are hidden across the tower's floors.
 
-### Speed Farming (Repeat Clears)
-- **Priority:** 2 Offensive → 1 Utility
-- **Reason:** You already know the content. Clear fast, not safe
-- **Example:** Chain Quake + Fire Affinity → Wind Step
+## Bottom Line
 
-## Re-Rolling Blessings
+The Tower Blessing system is real, it is central, and it is 45/47 undocumented. Play the confirmed knowledge: search every floor, build around Artemis Dive and Chain Quake when you find them, and let the other 45 teach you their names the hard way — by finding them yourself.
 
-The Mystic is the only class that can re-roll blessings at shrines. For all other classes:
-
-- **If a blessing does not fit your build:** Replace it at the next shrine
-- **If you have not found a shrine by floor 30:** Consider adapting your build to your current blessings rather than holding out
-- **Never skip a blessing:** Even a C-tier blessing is better than an empty slot
-
-## Blessing Rarity
-
-| Rarity | Drop Rate | Slots |
-|--------|-----------|-------|
-| Common | 50% | Most rooms, basic enemies |
-| Uncommon | 30% | Elite enemies, post-floor-30 rooms |
-| Rare | 15% | Boss drops, secret rooms |
-| Legendary | 5% | Floor 80+ bosses, special conditions |
-
-Legendary blessings (Artemis Descent, Reaction Amplifier, Earthen Fortress) are run-defining. If you find one, build around it — even if it means changing your planned class or element.
-
-**Next steps:** Pair your blessings with the right [build](/guides/best-builds) and learn to apply them in [combat](/guides/combat-guide).
+**Next steps:** See how blessings anchor builds in the [Best Builds Guide](/guides/best-builds), and learn to trigger them in combat in the [Combat Guide](/guides/combat-guide).

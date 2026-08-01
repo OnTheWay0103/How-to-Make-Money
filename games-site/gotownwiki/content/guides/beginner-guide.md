@@ -20,7 +20,7 @@ Everything in Go-Go Town! revolves around one cycle: **run the town → attract 
 
 Your first money-maker is the shop where the Townie **Baldo** works. Gather materials (rocks, lumber) from around town and stock the shop so tourists can buy things. You can assign Baldo to work the shop, or craft items yourself by facing the machine and pressing F.
 
-Your starting backpack only has 8 slots, so use the **truck** (parked on the road between the forest and the mine) to haul materials in bulk — it holds 48 slots and makes early runs dramatically faster. Remember that the truck can only drive on roads, not on brick or tile surfaces.
+Your starting backpack is small, so use the **truck** (parked on the road between the forest and the mine) to haul materials in bulk — it carries far more than your backpack and makes early runs dramatically faster. Remember that the truck can only drive on roads, not on brick or tile surfaces.
 
 ## Step 2: Build the Train Station Early
 
@@ -28,7 +28,7 @@ The **train station** is the single most important building in the early game. T
 
 ## Step 3: Raise Your EGO with Decor
 
-Decorations make tourists happy, and happy tourists generate **EGO** — the blue-coin currency you spend in the Ego Tech app on the phone to unlock new buildings, tools (jackhammer, chainsaw), and automation features. Once you have a little money, drop benches, statues, streetlights, and trees around the town square. Decor is also one of the fastest ways to push your town to the next rank.
+Decorations make tourists happy, and happy tourists generate **EGO** — the currency you spend in the Ego Tech app on the phone to unlock new buildings, tools (jackhammer, chainsaw), and automation features. Once you have a little money, drop benches, statues, streetlights, and trees around the town square. Decor is also one of the fastest ways to push your town to the next rank.
 
 ## Step 4: Open a Second Shop
 
@@ -55,7 +55,7 @@ Boss will call with challenges — objectives that unlock new content and let yo
 ## Common First-Hour Mistakes
 
 1. **Overproducing rice** — plant only what your shops need. One rice paddy is usually plenty; rice overflows quickly and full worker backpacks stop production.
-2. **Forgetting trash bins** — tourists litter, and trash lowers satisfaction. Place trash bins in high-traffic areas and build a Sanitation Bureau when it unlocks.
+2. **Forgetting trash bins** — tourists litter, and trash lowers satisfaction. Place trash bins in high-traffic areas and hire sanitation workers once they unlock.
 3. **Fighting the couriers for work** — if you place materials before your courier does, the AI can get confused and drop items on the ground. Let workers do their job.
 4. **Blocking roads** — keep roads clear for delivery vehicles. If couriers can't drive, they run on foot and the whole supply chain slows down.
 

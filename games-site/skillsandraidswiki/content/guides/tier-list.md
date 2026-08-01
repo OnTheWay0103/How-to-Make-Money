@@ -1,102 +1,126 @@
 ---
-title: "Skills & Raids Tier List — Best Skills & Builds Ranked"
-description: "Complete Skills & Raids tier list ranking every skill type, team role, and build archetype from S-Tier to C-Tier. Updated for Open Beta."
+title: "Skills & Raids Tier List — Roles & Rarity Priorities"
+description: "Honest tier list for Skills & Raids. Role priorities for Shelldon, Clawrk, and Owlivia, rarity guidance, and how to evaluate skills until the full roster is documented."
 category: "Tier List"
-version: "Open Beta"
-updated: "2026-07-14"
+version: "1.0"
+updated: "2026-08-01"
 keywords: ["Skills & Raids tier list", "Skills & Raids best skills", "Skills & Raids rankings", "Skills & Raids best builds", "Skills & Raids meta"]
-related: ["builds-guide", "skills-guide", "beginner-guide"]
+related: ["builds-guide", "skills-guide", "beginner-guide", "best-skills-builds"]
 ---
 
-# Skills & Raids Tier List — Best Skills & Builds Ranked
+# Skills & Raids Tier List — Roles & Rarity Priorities
 
-**Skills & Raids Open Beta / Updated: July 14, 2026**
+**Skills & Raids 1.0 / Updated: August 1, 2026**
 
-This tier list ranks skill types, team roles, and build archetypes based on extraction success rate, versatility, and synergy potential.
-
----
-
-## Skill Type Tier List
-
-### S-Tier — Dominant, fits any team
-
-| Skill Type | Why S-Tier | Best Rarity |
-|------------|-----------|-------------|
-| Shield / Barrier | Prevents one-shots, enables risky plays | Epic+ |
-| Multi-Target Heal | Saves entire team in boss fights | Rare+ |
-| Armor Break | Amplifies all team damage by 30-50% | Rare+ |
-
-### A-Tier — Strong, consistent value
-
-| Skill Type | Why A-Tier | Best Rarity |
-|------------|-----------|-------------|
-| Single-Target Burst | Deletes priority enemies quickly | Rare+ |
-| Taunt / Aggro Draw | Protects squishy DPS and Support | Uncommon+ |
-| Cleanse (Debuff Removal) | Counters boss mechanics | Rare+ |
-| DoT (Damage over Time) | Efficient damage per skill use | Uncommon+ |
-
-### B-Tier — Situational but viable
-
-| Skill Type | Why B-Tier | When to Use |
-|------------|-----------|-------------|
-| AoE Damage | Great for trash clears, weak vs bosses | Multi-enemy raids |
-| Speed / Haste | Buffs turn order but low impact alone | Paired with burst DPS |
-| Life Steal | Self-sustain for solo runs | Solo extraction |
-| Stun / CC | Locks down enemies but bosses resist | Elite enemy fights |
-
-### C-Tier — Niche use only
-
-| Skill Type | Why C-Tier | Limitation |
-|------------|-----------|------------|
-| Gold Find | No combat value | Only for farming runs |
-| Item Detection | Useful but not combat-relevant | Scouting runs only |
-| Pure Stat Buffs | Outclassed by active skills | Avoid unless no alternative |
+**An honest preface:** a real skill-by-skill tier list for Skills & Raids cannot exist yet — the full 30-skill roster is not publicly documented, and skill names circulating online are largely fabricated. What *can* be ranked is what the game itself confirms: roles, rarity tiers, and skill functions. That's what this tier list ranks. When the community documents the full roster, a name-level tier list can follow.
 
 ---
 
-## Team Role Tier List
+## Role Tier List (Confirmed by Design)
 
-| Tier | Role | Reasoning |
-|------|------|-----------|
-| S | **Tank (Shield/Protection)** | Mandatory for consistent extraction. Prevents wipes. |
-| S | **Healer (Restoration)** | Second most important role. No healer = no boss fights. |
-| A | **Burst DPS** | Deletes threats fast but vulnerable without tank. |
-| A | **Debuffer (Armor Break/Weaken)** | Multiplies team damage, underrated by new players. |
-| B | **DoT DPS** | Efficient but slower clears = more danger turns. |
-| B | **Buffer (Haste/Strength)** | Good but needs strong DPS to capitalize. |
-| C | **CC Specialist** | Boss immunity limits usefulness in hard content. |
+These roles are fixed by the game's party design — Shelldon is always the tank, Clawrk always the DPS, Owlivia always the healer. What varies is the priority you give each role in your build.
+
+| Tier | Role | Why |
+|------|------|-----|
+| S | **Healer (Owlivia)** | The most run-defining role. A dead healer ends runs; demo reviewers documented fights stalling into infinite loops when the last healer falls or faces an enemy healer. |
+| S | **Tank (Shelldon)** | The party's damage buffer. A solid tank lets the healer keep up and the DPS work. |
+| A | **DPS (Clawrk)** | Ends fights before resources run out — but the game's difficulty spikes (enemy healer+tank teams) mean damage alone doesn't carry runs. |
+| B | **Utility (cleanse, buffs, debuffs)** | Run-saving in the right situation; dead weight if your collection is small. |
+
+**Practical takeaway:** in a six-slot loadout, roughly half your slots should serve survival (heal, mitigation, sustain, cleanse) and half should end fights (damage, debuffs, finishers).
+
+---
+
+## Skill Function Tier List (Verified Against Confirmed Mechanics)
+
+Ranked by how well each function serves the game's confirmed mechanics: real-time rotations, cooldowns, resources, status effects, and synergy.
+
+### S-Tier Functions
+
+| Function | Why S-Tier |
+|----------|-----------|
+| Direct healing | Keeps runs alive; every run needs it |
+| Mitigation / shielding | Turns the tank into an actual tank |
+| Debuff application | The most reliable synergy enabler; feeds damage rotations |
+
+### A-Tier Functions
+
+| Function | Why A-Tier |
+|----------|-----------|
+| Burst damage | Ends fights and kills enemy healers before they matter |
+| Heal-over-time / sustain | Wins attrition fights and protects through multi-enemy pressure |
+| Cleanse / status removal | Status effects heavily influence every encounter — removal is a counter |
+
+### B-Tier Functions
+
+| Function | Why B-Tier | When to Use |
+|----------|-----------|-------------|
+| Damage over time | Grinds through healing, but slow | Against healer teams and tanky enemies |
+| Threat / aggro control | Great for the tank, useless elsewhere | Shelldon's second slot |
+| Protective buffs / shields | Strong but situational | Pre-boss or pre-big-fight windows |
+
+### C-Tier Functions
+
+| Function | Why C-Tier | Limitation |
+|----------|-----------|------------|
+| Pure stat-buff abilities | Usually outclassed by active effects | Only if you have nothing better |
+| Specialized quest-fodder abilities | Only valuable for quest completion | Still worth carrying while the quest is active |
+
+---
+
+## Rarity Tier List (Confirmed Tiers, Unconfirmed Differences)
+
+Gear and skills use five confirmed rarity tiers — Common, Uncommon, Rare, Epic, Legendary. What is NOT confirmed: exact stat multipliers, drop rates, or whether higher rarities change skill behavior.
+
+| Rarity | Practical Use |
+|--------|---------------|
+| Common | The baseline — early game is built on it |
+| Uncommon | The early-mid game workhorse |
+| Rare | Strong mid-game tier |
+| Epic | High-tier; treat as a build-around |
+| Legendary | The best tier; center your build on it if you own one |
+
+**The real rarity rule:** effect utility beats rarity color. A Common ability that fits your quest and synergy beats a Rare ability that doesn't. Don't discard good Common skills just because the color is plain.
 
 ---
 
 ## Build Archetype Tier List
 
-### S-Tier: Balanced Extraction (Tank + Healer + DPS)
-The gold standard. Highest extraction success rate. Works in every raid zone.
+Ranked by consistency with confirmed mechanics (survival-first, synergy-driven):
 
-### A-Tier: Double DPS + Support
-Faster clears, higher risk. Excels in raids you've already mastered. Bring extra consumables.
-
-### A-Tier: Tank + Tank + Healer (Turtle)
-Very safe but very slow. Use for learning new boss mechanics.
-
-### B-Tier: Triple DPS (Speed Run)
-Fastest clears but zero safety net. Only for farming easy raids with Legendary skills.
-
-### C-Tier: Solo Extraction
-Viable with Life Steal builds but slower and riskier than team play.
+| Tier | Archetype | Why |
+|------|-----------|-----|
+| S | **Balanced (tank + damage + heal, two-deep)** | The confirmed-safe template; covers every mechanic the game describes |
+| A | **Sustain-heavy (Grinder)** | Excellent for deep runs; weak only against enemy healing (stall risk) |
+| A | **Debuff Rush** | The best answer to the game's documented difficulty spikes |
+| B | **Protection-heavy (Fortress)** | Very safe, but slow fights cost resources |
+| C | **All-damage** | Kills fast, dies faster — no confirmed mechanic protects you from a bad roll |
 
 ---
 
-## Rarity Priority: When to Upgrade
+## How to Tier Your Own Skills (Until the Roster Is Documented)
 
-| Rarity | When to Equip | Scrap If... |
-|--------|--------------|-------------|
-| Common (White) | Always — your baseline | You have Uncommon+ replacement |
-| Uncommon (Green) | Equip immediately | Skill doesn't fit your comp |
-| Rare (Blue) | Build around it | Conflicts with existing synergies |
-| Epic (Purple) | Always equip, always build around | Practically never |
-| Legendary (Orange) | Center your entire team around it | Never scrap |
+1. **Read the card.** Cooldown, resource cost, status effects — note them all (use pause in combat).
+2. **Test in isolation.** One new ability per run.
+3. **Watch for pairs.** Two abilities that clearly feed each other → tier the *pair* up.
+4. **Quest weight.** Skills demanded by active quests are temporarily S-tier, because quest rewards are progression.
 
 ---
 
-**Next:** Check the [Builds Guide](/guides/builds-guide) for specific team compositions based on these rankings.
+## What Would Move This List
+
+- Full 30-skill roster documentation (names and effects).
+- Confirmed synergy trigger rules.
+- Confirmed rarity multipliers and drop rates.
+- Confirmed gear enhancement/upgrade systems.
+
+As the community documents the game, this page will be updated with real names and numbers. Until then, treat any tier list that names specific skills as unverified.
+
+---
+
+## Next Steps
+
+- [Builds Guide](/guides/builds-guide) — the build framework.
+- [Best Skills & Builds Guide](/guides/best-skills-builds) — optimization guidance.
+- [Skills Guide](/guides/skills-guide) — the ability system explained.
+- [Beginner Guide](/guides/beginner-guide) — getting started.

@@ -1,181 +1,122 @@
 ---
-title: 'Hero Tier List — Best Characters Ranked (July 2026)'
-description: 'Our DragonSword: Awakening hero tier list ranks all 19 characters from S to B tier. Find the best heroes, top team compositions, and which characters to prioritize.'
-keywords: ['tier list', 'best heroes', 'hero ranking', 'character tier list', 'strongest characters']
-updated: '2026-07-24'
+title: 'Hero Tier List — Early-Meta Rankings (August 2026)'
+description: 'DragonSword: Awakening hero tier list based on confirmed kits and early player reports. S to C tiers for confirmed heroes, plus an honest TBD list for heroes whose kits are unrevealed.'
+keywords: ['tier list', 'best heroes', 'hero ranking', 'character tier list', 'strongest characters', 'best starting hero']
+updated: '2026-08-01'
 ---
 
-## DragonSword: Awakening Hero Tier List (July 2026)
+## DragonSword: Awakening Hero Tier List (August 2026)
 
-With 19 heroes available at launch and no gacha to worry about, knowing which characters to invest in first can save you hours of grinding. This DragonSword: Awakening **tier list** ranks every hero based on their performance in story content, World Bosses, and the Tower of Trials.
+With 19 heroes at launch and no gacha, knowing who to invest in first saves real time. This tier list ranks the heroes whose kits are **confirmed by official reveals**, using community early-meta reports. Heroes whose kits are still unrevealed are listed separately as TBD — we will not rank claims we cannot verify.
 
-Tier rankings consider damage output, utility, survivability, team synergy, and Signal Skill effectiveness.
+**Important:** the game is weeks old. This is an early-meta list, not settled fact. Numbers in the game are still being theory-crafted, and post-launch balance patches are already rolling out.
 
-## S-Tier Heroes
+## S-Tier — Strongest Confirmed Heroes
 
-These are the **strongest characters** in the current meta. Prioritize these if you have them unlocked.
+### Theresia (Bleed + Stun, twin sacred maces)
 
-### Theresia (Bleed/Stun Hybrid)
+The most widely praised hero in early player reports. Her confirmed kit — **Bleed** plus **Stun** — is the best ailment combination in the game: Bleed sustains damage over time while Stun locks enemies for Signal Skill chains.
 
-Theresia is widely considered the best DPS hero in the game. Her kit revolves around applying **Bleed** and **Stun** status effects simultaneously, creating devastating combos.
+- **Strengths:** two top-tier ailments in one kit; fits every recommended team composition
+- **Best team role:** primary ailment DPS
+- **Synergy:** pairs with any Stun or Bleed user — Lute (Stun/Knockdown) or Castella (Break/Stun)
+- **Getting her:** unlocked through story progression (method details TBD — see the [Hero Unlock Guide](/guides/hero-unlock-guide))
 
-- **Strengths**: Highest sustained DPS in the game, excellent at breaking Super Armor, Bleed stacks ignore defense
-- **Signal Skill**: "Blood Moon" — massive AoE that deals Bleed damage over 10 seconds
-- **Best team role**: Primary DPS
-- **Synergy**: Pairs well with Roxy (bleed amplification) and Kalsion (stun extension)
+### Castella (Break + Stun, assault vanguard)
 
-### Lute (All-Rounder Support)
+The confirmed **Super Armor breaker**. Break is the only confirmed ailment that directly targets the Super Armor system, and breaking armor opens the finisher prompts that end fights fast.
 
-The protagonist is no slouch. Lute's versatility makes him invaluable in any team composition.
+- **Strengths:** unique Break coverage; frontline role; Stun on top
+- **Best team role:** breaker / frontline
+- **Synergy:** enables everyone — the team's Signal Skills land during the windows she opens
 
-- **Strengths**: Balanced stats, party-wide buffs, half-dragon transformation provides a massive power spike
-- **Signal Skill**: "Dragon's Roar" — party-wide attack buff + damage to all enemies
-- **Best team role**: Flex — can DPS, support, or off-tank
-- **Synergy**: Works with everyone
+## A-Tier — Excellent Confirmed Heroes
 
-### Reina (Aerial Specialist)
+### Lute (Stun + Knockdown, greatsword, ally heals)
 
-Reina dominates the aerial combat meta with her unique float mechanic.
+The protagonist is a genuine all-rounder: confirmed **Stun**, secondary **Knockdown**, and the only confirmed **ally healing** in the launch roster.
 
-- **Strengths**: Best air combos in the game, impossible to hit once airborne, fastest Signal Gauge build-up
-- **Signal Skill**: "Heaven's Judgment" — massive single-target damage from above
-- **Best team role**: Secondary DPS / Assassin
-- **Synergy**: Needs a tank (Castella or Kalsion) to draw aggro while she sets up air combos
+- **Strengths:** heal + Stun in one kit; beginner-friendly; flexible in any composition
+- **Best team role:** flex / support-DPS
+- **Synergy:** works with everyone — heal coverage and Stun coverage are always useful
 
-### Ornette (Crit DPS)
+### Aria (Burn + Airborne, bomb-ranged)
 
-Ornette is the crit damage queen. When her passive procs, she melts health bars.
+Confirmed firepower specialist. **Burn** applies damage over time and **Airborne** sets up juggle chains — the only confirmed ranged hero with two distinct damage ailments.
 
-- **Strengths**: Highest burst potential, critical hits refund skill cooldowns, excellent against bosses
-- **Signal Skill**: "Piercing Star" — guaranteed crit, ignores 50% defense
-- **Best team role**: Burst DPS
-- **Synergy**: Requires Dana for crit rate buff
+- **Strengths:** safe ranged combat; Burn pressure; Airborne setup
+- **Best team role:** ranged ailment DPS
+- **Synergy:** Airborne chains pair well with any hero that can extend air combos
 
-### Kalsion (Melee Powerhouse)
+## B-Tier — Confirmed but Narrower
 
-Kalsion is a relentless melee fighter who excels at locking down single targets.
+### Ornette (Electrocution/Shock + Knockdown, scythe)
 
-- **Strengths**: Highest single-target damage, numerous Stun abilities, self-sustaining with lifesteal
-- **Signal Skill**: "Brutal Impact" — 8-hit combo that leaves enemies stunned for 4 seconds
-- **Best team role**: Main Tank / DPS hybrid
-- **Synergy**: Combo extenders like Reina or Charlotte work well after his stuns
+Confirmed kit: **Electrocution** (Shock) plus secondary **Knockdown**. Early reports are mixed — Shock's interrupt value is real, but the meta is still figuring out where she fits compared to the Bleed/Stun core.
 
-## A-Tier Heroes
+- **Strengths:** third distinct ailment type in the roster; scythe range
+- **Best team role:** ailment DPS / flex
+- **Synergy:** brings Electrocution variety to a Stun/Bleed core
 
-Solid choices that excel in specific situations. Build these if they complement your S-tier carries.
+### Kalien (Stun, fire fox spirit Sur)
 
-### Charlotte (Stealth Assassin)
+Confirmed **Stun** specialist and spiritist of the Red Fox Mercenary Corps. Her kit centers on commanding the fire fox Sur — a unique summon-style mechanic.
 
-Charlotte vanishes from enemy sight and delivers devastating backstab damage.
+- **Strengths:** confirmed Stun; summon-style playstyle variety
+- **Best team role:** Stun support / second ailment layer
+- **Synergy:** stacks Stun with Lute, Castella, or Theresia
 
-- **Strengths**: Invisibility mechanics, guaranteed crits from behind, high mobility
-- **Weakness**: Squishy — one mistake and she is down
-- **Best team role**: Flanker / Assassin
+## Unranked — Kits Not Yet Revealed (TBD)
 
-### Roxy (Ranged Bleed)
+These heroes are confirmed to exist in the 19-hero roster, but their kits and roles have not been officially detailed as of August 2026. Any tier list that ranks them in detail is speculating:
 
-Roxy applies Bleed from range and controls the battlefield with traps.
+- **Cerese** — Orbis Magic Knight Order commander (kit unrevealed)
+- **Reina** — Orbis Royal Castle 8th Knight Order captain (kit unrevealed)
+- **Kalsion** — king of the Orbis Royal Castle (kit unrevealed)
+- **Charlotte** — revealed June 2026 with a previewed combat kit (details limited)
+- **Roxy** — bow user (details limited)
 
-- **Strengths**: Safe ranged DPS, excellent AoE Bleed application, zone control
-- **Weakness**: Weak against mobile bosses that ignore traps
-- **Best team role**: Ranged DPS
+Also unconfirmed as playable in the launch roster: **Johnny** (Lute's companion), **Dana** (Kalien's companion — one wiki card lists her as a playable ice alchemist with golem Chako, but the main roster marks her unconfirmed), and **Othello** (pre-launch material, unfinished model). Heroes named Eileen, Astria, Sion, Alex, and Tarte in other guides have **no official confirmation** — treat those guides as unreliable.
 
-### Aria (Healer)
+## Post-Launch Heroes (Confirmed Roadmap)
 
-The best pure healer in the game. Essential for difficult content.
+Four free heroes are confirmed for the second half of 2026. Their kits are officially described:
 
-- **Strengths**: Best healing output, cleanse mechanic, party-wide defense buff
-- **Weakness**: Low personal damage
-- **Best team role**: Healer / Support
+- **Ryza** — Shock specialist; throws her spear and teleports to it
+- **Jerome** — Knockdown specialist; small stature, massive greatsword, three-stage grab
+- **Veronica** — bare-handed combat + gun; Stun primary
+- **Logan** — tank with a massive shield who protects allies
 
-### Dana (Summoner Support)
+Early tier positions: Ryza (Shock) and Veronica (Stun) both fit existing meta structures; Jerome and Logan are more specialized. Full rankings will follow their release.
 
-Dana summons minions that tank, deal damage, and provide buffs.
+## Best Team Compositions (Early Meta)
 
-- **Strengths**: Excellent aggro management, versatile summon types, crit rate aura
-- **Weakness**: Summons have limited duration, positioning dependent
-- **Best team role**: Support / Off-tank
+### General Progression (Best for Story)
 
-### Kalien (Ice Mage)
+**Lute + Castella + Aria** — the confirmed starting trio. Stun + Break + Burn/Airborne covers every early-game situation, and you cannot miss these three.
 
-Kalien controls the battlefield with Frost effects, slowing and freezing enemies.
+### Bleed Chain (Best for Bosses)
 
-- **Strengths**: Excellent crowd control, Frost status amplifies party damage
-- **Weakness**: Long cooldowns, weak against Frost-immune bosses
-- **Best team role**: Crowd control
+**Theresia + Lute + Castella** — Theresia stacks Bleed, Lute heals and stuns, Castella breaks Super Armor. The most recommended early-meta team.
 
-### Eileen (Fire Mage)
+### Stun-Lock (Best for Learning Hard Content)
 
-Eileen is the Burn specialist with powerful AoE damage over time.
+**Castella + Theresia + Lute** — three confirmed Stun sources keep bosses locked down while you learn patterns.
 
-- **Strengths**: Best AoE clear in the game, Burn stacks deal heavy damage
-- **Weakness**: Single-target damage is mediocre
-- **Best team role**: Wave clear / AoE DPS
-
-### Astria (Buffer)
-
-Astria provides the strongest party-wide buffs but contributes little personal damage.
-
-- **Strengths**: Attack speed buff, damage reduction field, SP regeneration
-- **Weakness**: Requires a strong team to support
-- **Best team role**: Dedicated buffer
-
-### Sion (Balanced Fighter)
-
-Sion is a jack-of-all-trades with no major weaknesses but no standout strengths.
-
-- **Strengths**: Decent damage, decent survivability, easy to play
-- **Weakness**: Outclassed by S-tier options in every category
-- **Best team role**: Flex / Backup
-
-## B-Tier Heroes
-
-Niche picks that are outclassed by higher-tier options. Use them if you enjoy their playstyle, but consider replacing them for difficult content.
-
-| Hero | Role | Issue |
-|------|------|-------|
-| **Alex** | Brawler | Slow animations, poor Super Armor break |
-| **Tarte** | Shield Tank | Too passive, low damage contribution |
-| **Cerese** | Poison Mage | Poison is weak compared to Bleed and Burn |
-
-## Best Team Compositions
-
-### All-Rounder Team (Best for Story)
-
-**Lute** (Flex) + **Theresia** (DPS) + **Aria** (Healer)
-
-Covers all roles. Use this for general progression.
-
-### Speed Farm Team (Best for Grinding)
-
-**Eileen** (AoE) + **Reina** (Mop-up) + **Astria** (Speed Buff)
-
-Clear mob packs in seconds. Great for farming materials.
-
-### Boss Killer Team (Best for World Bosses)
-
-**Ornette** (Burst) + **Kalsion** (Stun Lock) + **Dana** (Crit Buff)
-
-Maximum single-target damage. Theresia can replace Ornette for sustained fights.
-
-### Survival Team (Best for Hard Content)
-
-**Kalsion** (Tank) + **Aria** (Heals) + **Theresia** (DPS)
-
-Never die, but fights take longer. Use this for content you are under-leveled for.
+For more lineups and the reasoning behind them, see the [Team Compositions Guide](/guides/team-compositions).
 
 ## Frequently Asked Questions
 
-**Who is the best DPS in DragonSword: Awakening?**
-Theresia is the best overall DPS. Ornette has higher burst potential but is less consistent.
+**Who is the best DPS?**
+Theresia is the community consensus — Bleed + Stun is simply the strongest confirmed ailment pair.
 
 **Is Lute worth using late game?**
-Absolutely. Lute's half-dragon transformation and party buffs keep him relevant through endgame content.
+Yes. Confirmed ally healing keeps him relevant in every phase of the game.
 
-**Should I invest in B-tier heroes?**
-Only if you enjoy their playstyle. The gap between S and B tiers is significant in Tower of Trials and Raids.
+**Is there PvP in this game?**
+No — this tier list is PvE-only, and there is no PvP at launch ([see the multiplayer guide](/guides/pvp-guide)).
 
-**Does this tier list apply to PvP?**
-There is no PvP in DragonSword: Awakening at launch. This tier list is for PvE content only.
+**Does this tier list apply to all content?**
+The S/A/B ordering holds for story and bosses; Tower of Trials and Raid specifics are still being documented.
 
-For detailed builds on each hero, check the [Hero Builds Guide](/guides/hero-builds-guide).
+For detailed builds on each confirmed hero, check the [Hero Builds Guide](/guides/hero-builds-guide).

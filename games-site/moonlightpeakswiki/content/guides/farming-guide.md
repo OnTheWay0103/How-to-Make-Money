@@ -3,14 +3,14 @@ title: "Moonlight Peaks Farming Guide — Crops, Moonlight Mechanics & Blood Gra
 description: "How farming works in Moonlight Peaks: night-only crops, moonlight growth mechanics, Blood Grapes and Blood Wine, watering and harvest timing, stamina costs, and the best crops to grow."
 category: "Guides"
 version: "1.0"
-updated: "2026-07-31"
+updated: "2026-08-01"
 keywords: ["moonlight peaks farming", "moonlight peaks crops", "moonlight peaks blood grapes", "moonlight peaks best crops"]
 related: ["beginner-guide", "potions-guide", "money-guide"]
 ---
 
 # Moonlight Peaks — Farming Guide: Crops & Moonlight Mechanics
 
-> Launch Version / Updated: July 31, 2026
+> Launch Version / Updated: August 1, 2026
 
 Farming in Moonlight Peaks is the game's foundation — and it runs on a rule no other farming sim teaches you: **crops grow under moonlight, not sunlight**. Every seed you plant grows during the night hours, and because you're returned to your coffin at sunrise, the night IS your growing season. This guide covers the core mechanics, **Blood Grapes**, mystical crops, watering, harvest timing, and which crops are actually worth your stamina.
 
@@ -36,41 +36,53 @@ Farming in Moonlight Peaks is the game's foundation — and it runs on a rule no
 
 ## Blood Grapes and Blood Wine
 
-**Blood Grapes** are your introduction to the whole system, handed to you by **Orlock** as the opening quest chain:
+**Blood Grapes** are your introduction to the whole system — **Orlock's Wine Scheme** quest hands you your first Blood Grape seeds and a shovel on Spring 1, Year 1:
 
 | Step | Task | Detail |
 |------|------|--------|
-| 1 | Accept Orlock's quest | Grows and wine are the goal |
-| 2 | Plant **Blood Grapes** | Your first night crop |
-| 3 | Water through the growth cycle | Grapes take several nights to mature |
+| 1 | Accept Orlock's Wine Scheme | Grow grapes, make wine |
+| 2 | Plant **Blood Grapes** | Spring/Summer crop; seeds are 20 Coins at Luna's Seed Stall in Moonlit Pines |
+| 3 | Water through the growth cycle | Grapes mature in **5 nights**, then **regrow every 4 nights** — a multi-harvest crop |
 | 4 | Harvest | Collect the grape bunches |
-| 5 | Process into **Blood Wine** | Takes time, like juice and wine |
-| 6 | Deliver to Orlock | Quest complete |
+| 5 | Process into **Blood Grape Wine** | Put grapes in a **Keg** (crafted from 10 Wood) |
+| 6 | Deliver wine to Orlock | Quest complete |
 
-**Pro tip:** Blood Grapes are a two-for-one crop — they complete the story quest, and the resulting **Blood Wine** sells well and is a loved gift for **Noel, Orlock, and Samael** (Mana Wine is a separate, stronger favorite for Noel). Never sell raw grapes when you have processing capacity; the wine is worth the wait.
+**Pro tip:** raw Blood Grapes sell for only **5 Coins** — never sell them unprocessed. The wine sells for **360 Coins** (390 for one-star quality), which makes grapes one of the best early money-makers. **White Grapes** work identically (same 20 Coins / 5+4 nights) and their wine sells for even more: **460 Coins** (490 one-star). Wine is also a loved gift for **Orlock and Samael**, and **Mana Wine** is a favorite of Noel's.
 
 ## Mystical Crops and the Moonlight Bonus
 
-Beyond mundane vegetables, Moonlight Peaks offers **mystical crops** — plants that lean into the game's supernatural theme. What we know about how they work:
+Beyond mundane vegetables, Moonlight Peaks offers **magic crops** — seeds that lean into the game's supernatural theme. What we know about how they work:
 
-- Mystical crops are grown **under moonlight** like everything else, but several have **moon-phase or night-progression gimmicks** — they're worth growing for the potion and gift economies, not just for sale.
-- **Moonlight Flowers** (blue and purple variants) are gatherable/growable favorites — **Purple Moonlight Flower** is loved by **Aras and Sabrina**, and **Blue Moonlight Flower** is loved by **Aras**.
-- **Amour, Hold-Me-Close, and Muse Nut** are foraged and grown ingredients that feed directly into the **Love Potion** recipe (see the Potions Guide).
+- **Magic seeds are watered with the Aquaflux Spell** instead of a watering can. Because the spell costs **mana** (your pool is small — reported max 3), keep magic plots small.
+- The payoff is big: **Nightshade** and **Skunktail** sell for **180 Coins** and **Gobbler** for **550 Coins** — far above mundane crops.
+- **Moonlight Flowers** (blue and purple variants) are a real flower family — **Purple Moonlight Flower** is a loved gift for **Aras**, **Blue Moonlight Flower** for **Aras and Ridge** (gift lists are community-compiled; confirm with the relationship page).
+- **Amour, Hold-Me-Close, and Muse Nut** feed directly into the **Love Potion** recipe — Hold-Me-Close is a rare magical plant (matures in **13 days**), and **Suffrain** (a regular autumn crop, 7 days) becomes **Suffrain Powder** (see the Potions Guide).
 
-**Pro tip:** when a crop's description mentions moonlight, assume it cares about which night it's planted. If you're playing a moonlight-sensitive crop, plant at dusk, not pre-dawn — you get the full night cycle plus the day tick before the next dusk.
+**Pro tip:** magic plots are a mid-game income spike, not an early-game habit. Until your mana pool grows, spend your mana on quests and keep magic fields to a few tiles.
 
 ## Best Crops (by Value per Stamina)
 
-Based on early-game experience and community reports, this is the rough value ladder — treat prices as approximations until you've verified your own market:
+Prices below are from community-compiled seed charts (seed cost → raw sell price, growth in nights). Treat anything unmarked as verified-by-players rather than official:
 
-| Crop | Why it's good | Best use |
-|------|---------------|----------|
-| **Blood Grapes** | Quest item, processes into Blood Wine, loved-gift adjacent | Quest + wine + gifts |
-| **Mystical flowers** (Moonlight Flowers, Azaleas) | Gifts for Aras, Sabrina, Ridge; no processing needed | Gifting economy |
-| **Potion ingredients** (Amour, Hold-Me-Close, Muse Nut) | Feed the **Love Potion (2200 Coins)** chain | Potions > raw sale |
-| **Everyday vegetables** | Cheap, fast, reliable early income | Sell or cook early-game |
+| Crop | Season | Seed / Sell | Growth | Best use |
+|------|--------|-------------|--------|----------|
+| **Carrot** | Spring | 80 / 160 | — | Best direct-profit Spring crop |
+| **Skunktail** | Summer | 80 / 180 | — | Best direct-profit Summer crop |
+| **Pumpkin** | Autumn | 90 / 220 | — | Best direct-profit Autumn crop |
+| **Blood Grapes** | Spring–Summer | 20 / 5 | 5n, regrow 4n | Keg → **Blood Grape Wine 360 Coins** |
+| **White Grapes** | Spring–Summer | 20 / 10 | 5n, regrow 4n | Keg → **White Grape Wine 460 Coins** |
+| **Raspberry** | Spring–Summer | 20 / 6 | 7n, regrow 2n | Multi-harvest income |
+| **Strawberry** | Spring–Summer | 30 / — | 7n, regrow 3n | Yields 3 berries per harvest |
+| **Onion** | All seasons | 10 / 40 | 4n | Cheap reliable early income |
+| **Eggplant** | Spring | 40 / 90 | — | Solid spring seller |
+| **Cruelcumber** | Spring | 30 / 40 | — | Spring filler crop |
+| **Blueberry** | Spring + Winter | 20 / — | 9n, regrow 3n | Winter multi-harvest option |
+| **Cranberry** | Autumn–Winter | — | multi-harvest | Same processing strategy as grapes |
+| **Wily Wheat, Blood Tomato, Lava Pepper** | Various | 30/60, 20/15, 30/8 | — | Ingredient crops — process or cook before selling |
 
-**Pro tip:** raw produce is the *worst* way to monetize a crop. Processed (wine) and potion-chain crops multiply your coins several times over. Early on, grow a small variety for cooking and gifts, then pivot your field space to grapes and potion ingredients once the cauldron is online.
+**Magic crops** (Aquaflux Spell): **Nightshade** 180 Coins, **Skunktail** 180 Coins, **Gobbler** 550 Coins — mana-limited, plant sparingly.
+
+**Pro tip:** raw produce is the *worst* way to monetize a crop. Processed (Keg wine, Mill, Jam Maker) and potion-chain crops multiply your coins several times over. There are **53 seeds** in the game and **crops wither when the season changes**, so plant seasonally and pivot your field space to grapes and potion ingredients once the cauldron is online.
 
 ## Stamina Management for Farmers
 

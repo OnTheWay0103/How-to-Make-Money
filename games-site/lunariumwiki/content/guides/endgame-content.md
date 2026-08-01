@@ -1,65 +1,111 @@
 ---
-title: "Lunarium Endgame Content Guide — Post-Game Raids, Bosses & Farming"
-description: "Complete endgame content guide for Lunarium. Learn what unlocks after the story, post-game raid bosses, endgame gear enhancement, weekly rotations, and the most efficient farming routes."
+title: "Lunarium Endgame Guide — Post-Credits Content (Honest)"
+description: "What actually happens after you beat Lunarium: resuming from the last bench, optional bosses, collectibles, and whether New Game Plus exists. No raids, no weekly rotations — the honest endgame."
 category: "Guides"
 version: "1.0"
-updated: "2026-07-31"
-keywords: ["Lunarium endgame", "Lunarium post-game content", "Lunarium endgame bosses", "Lunarium raid guide", "Lunarium endgame farming", "Lunarium gear enhancement endgame"]
-related: ["boss-mechanics", "gear-enhancement", "daily-weekly-guide", "character-builds", "equipment-guide"]
+updated: "2026-08-01"
+keywords:
+  - Lunarium endgame
+  - Lunarium post-game content
+  - Lunarium after ending
+  - Lunarium new game plus
+  - Lunarium 100 percent
+related:
+  - endings-guide
+  - boss-guide
+  - daily-weekly-guide
+  - secrets-guide
+  - exploration-guide
 ---
 
-## Endgame Content Guide — Post-Game Raids, Bosses & Farming
+# Lunarium Endgame Guide — Post-Credits Content (Honest)
 
-Beating the final story boss in Lunarium unlocks the real game: post-game raids, reforged boss fights, and the gear chase that carries into the weekly reset. This guide maps everything that opens up after the credits roll and how to approach each piece of endgame content.
+**Lunarium 1.0 / Updated: August 1, 2026**
 
-### What Unlocks After the Story
+"Endgame" in Lunarium is not raids, dungeons, or weekly rotations — **none of those exist**. Lunarium is a ~12-hour single-player ARPG with a compact endgame: finish the story, then clean up what you missed. This guide explains what's real.
 
-| Unlock | Requirement | What It Provides |
-|--------|-------------|------------------|
-| Post-Game Raids | Complete final story chapter | 4 raid bosses with endgame loot |
-| Reforged Bosses | Reach level 60 | Remixed boss phases, +10% drop rates |
-| Weekly Boss Rotation | Post-story + level 55 | Rotating boss with exclusive materials |
-| Enhanced Gear Tiers | Gear Enhancement level 10+ | Unlocks tier 6-8 gear enhancement |
-| Nightmare Dungeons | Post-story, solo-clear each raid once | Challenge variants with unique drops |
+---
 
-### Post-Game Raid Bosses
+## 1. What Happens When You Beat the Game
 
-1. **Veilwarden (Corridor of Echoes):** Two-phase fight; the second phase mirrors your party's last attack — space out cooldowns.
-2. **Ashen Primarch (Sunken Keep):** Burns gear durability on contact. Bring repair kits or slot anti-burn sockets.
-3. **Moonlit Revenant (Lunar Sanctum):** Gains attack speed as its health drops. Save burst for the final 20%.
-4. **The Hollow Court (Endgame Gate):** Three mini-bosses fight in sequence, each dropping a Court Key needed for the final chest.
+After defeating **Enid** (the final boss) in Paradise of Yore:
 
-### Endgame Gear Enhancement
+1. The **ending cutscene** plays.
+2. The game ends — **with the option to resume from the last bench**.
 
-- **Tier 6-8 unlocks:** Enhancement levels 10, 14, and 18 each unlock a new tier; tier 8 gear requires materials from the Hollow Court.
-- **Socket priority:** Defense gems on armor, attack speed gems on weapons, and a single luck gem in your helmet slot for farming runs.
-- **Material farming route:** Run the Sunken Keep boss, then the Lunar Sanctum, then the weekly rotation boss — this covers every enhancement material type in one loop.
-- **Enhancement risk:** Failures at tier 7+ drop your enhancement level by 1. Use Protection Stones from the weekly rotation before attempting level 16+.
+That resume option is the entire post-game entry point. There is no "chapter select" and no post-game zone documented.
 
-### Weekly Routine at Endgame
+---
 
-1. Clear the weekly rotation boss for exclusive materials.
-2. Run each post-game raid once for the first-clear bonuses.
-3. Spend remaining time farming Nightmare Dungeons for gear bases.
-4. Bank enhancement materials until the weekly reset — drop rates reset favors saving.
+## 2. The Real Post-Game To-Do List
 
-### Nightmare Dungeon Notes
+### Optional Bosses
+| Boss | Location | Note |
+|------|----------|------|
+| **Rearguard Warrior** | Cyanstone outskirts (south of the village) | The only confirmed optional boss |
 
-- **Scaling:** Nightmare variants scale to your average gear tier, so bring a full set of your best equipment before queueing.
-- **Unique drops:** Nightmare bosses drop base gear with pre-socketed slots — the only way to get three-socket weapons outside the raid.
-- **Group size:** Nightmare content scales for solo, duo, and squad. Solo clears grant the same first-clear bonus as group clears.
-- **Failure penalty:** Dying in a Nightmare dungeon consumes one of your daily resurrection charges; spend charges only on the final boss attempt.
+### Collectibles (Confirmed)
+| Item | Location |
+|------|----------|
+| **Embroidery blueprints** | Chests — first confirmed: room left of Cyanstone's first bench |
+| **Astral Shards** | Scattered around Cyanstone (raise resonance cap) |
+| **Echoes of Yore** | Shadow of Firleaves drop (key item) |
+| **Stellar Cores** | Lilia (Cyanstone), Doro (Dreampath) |
 
-### Common Endgame Mistakes
+Community walkthroughs suggest more hidden chests and secrets exist than are documented — details **unconfirmed** (see the [Secrets Guide](/guides/secrets-guide)).
 
-1. **Enhancing before raiding:** Enhancement materials spent on pre-raid gear are wasted — raid gear starts at higher base tiers.
-2. **Ignoring the weekly rotation:** The rotation boss's exclusive materials gate tier 7+ enhancement. Missing a week delays your build by a week.
-3. **Skipping socket planning:** Re-socketing costs gems and gold. Plan your sockets from the first raid drop onward.
+### The Second Ending
+Lunarium has **two distinct endings** (press-confirmed). If you've seen one, replaying to reach the other is the main "endgame goal" — though the exact requirements for each ending are **unconfirmed** as of this writing. See the [Endings Guide](/guides/endings-guide).
 
-### Related Guides
+---
 
-- [Boss Mechanics Guide](/guides/boss-mechanics) — Attack patterns and phase transitions for every boss
-- [Gear Enhancement Guide](/guides/gear-enhancement) — Upgrade tiers, enchanting, and sockets
-- [Daily & Weekly Guide](/guides/daily-weekly-guide) — Reset schedules and routine content
-- [Character Builds Guide](/guides/character-builds) — Builds tuned for endgame content
-- [Equipment Guide](/guides/equipment-guide) — Full equipment catalog and stat priorities
+## 3. New Game Plus — The Honest Answer
+
+| Question | Answer |
+|----------|--------|
+| Does Lunarium have New Game Plus? | **Unconfirmed.** No official source has announced NG+ |
+| Do you carry gear into a new run? | Unconfirmed |
+| Do enemies get harder in a second run? | Unconfirmed |
+
+Any guide claiming "NG+ unlocks with carried-over charms and harder enemies" is **inventing content**. If NG+ exists or is announced, we'll update this page immediately.
+
+---
+
+## 4. What Does NOT Exist (Fake Endgame Content)
+
+| Claim in fake guides | Reality |
+|----------------------|---------|
+| "Post-game raids (Veilwarden, Ashen Primarch...)" | **Does not exist** — no raids in Lunarium |
+| "Reforged bosses at level 60" | **Does not exist** — no levels |
+| "Nightmare dungeons" | **Does not exist** |
+| "Weekly rotation bosses" | **Does not exist** (see [Daily & Weekly](/guides/daily-weekly-guide)) |
+| "Tier 6-8 gear enhancement" | **Does not exist** |
+| "Group-size scaling for squads" | **Does not exist** — no multiplayer |
+
+---
+
+## 5. How Long Is the Full Game?
+
+| Metric | Estimate | Confidence |
+|--------|----------|------------|
+| First playthrough | ~12 hours | Press-reported (multiple reviews) |
+| Full completion (both endings + optional content) | ~20 hours | Community estimate — unconfirmed |
+
+---
+
+## 6. Endgame Tips
+
+1. **Resume and hunt** — the resume-from-bench option exists precisely for cleanup; use it.
+2. **Fight the Rearguard Warrior** — the one optional boss is a fun check of everything Cyanstone taught you.
+3. **Watch for the second ending** — if press materials are right ("two memorable endings"), there's a reason to replay; we just don't know the triggers yet.
+4. **Don't trust "raid" guides** — any Lunarium guide selling raids or group content is fake. Report it, and check back here for the verified version.
+
+---
+
+## Related Guides
+
+- [Endings Guide](/guides/endings-guide) — the two endings, what's confirmed
+- [Boss Guide — All Bosses](/guides/boss-guide) — Enid and the full roster
+- [Daily & Weekly Guide](/guides/daily-weekly-guide) — why there's no routine grind
+- [Secrets Guide](/guides/secrets-guide) — hidden content to find post-game
+- [Exploration Guide](/guides/exploration-guide) — where to spend cleanup time

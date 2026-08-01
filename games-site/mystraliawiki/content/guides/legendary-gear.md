@@ -1,124 +1,65 @@
 ---
-title: "Legendary Gear Guide — Locations, Stats & Crafting"
-description: "Complete guide to Mystralia's legendary gear — where to find every legendary item, their stats, set bonuses, and the legendary crafting system explained."
-category: "Equipment"
-version: 1.0
-updated: "2026-07-27"
-keywords: [legendary gear, legendary items, mystralia legendaries, best gear, legendary weapons, legendary armor, set bonuses, crafting legendaries]
-related: [secret-areas, challenge-mode, ../build-planner, ../world-map]
+title: 'Legendary Gear — Items, Equipment & Power in Echoes of Mystralia'
+description: 'Does Echoes of Mystralia have legendary gear? The honest answer: no equipment system has been announced. Here\'s what power progression really looks like — Memories and spellcrafting.'
+category: 'Systems'
+version: 'Pre-release'
+updated: '2026-08-01'
+keywords: ['echoes of mystralia legendary gear', 'echoes of mystralia items', 'echoes of mystralia equipment', 'echoes of mystralia best gear', 'mystralia gear guide']
+related: ['memories-guide', 'spell-crafting-guide', 'endgame-guide', 'relics-guide']
 ---
 
-# Legendary Gear Guide — Locations, Stats & Crafting
+# Legendary Gear — Items, Equipment & Power in Echoes of Mystralia
 
-Legendary gear is the pinnacle of power in Mystralia. There are **18 legendary items** in total — 6 weapons, 6 armor pieces, 3 amulets, and 3 rings. Each has unique stats, set bonuses, and can be upgraded through the **Catalyst Crafting System** at the Arcane Forge.
+Does Echoes of Mystralia have legendary gear — weapons, armor, rings, amulets? **No such system has been announced.** Echoes of Mystralia is a **spellcrafting ARPG roguelite**: the loadout system is spells, and spells are built from **Memories**. Earlier versions of this guide described 18 legendary items with stats, set bonuses, and crafting — **that entire catalog was fabricated** and has been removed.
 
----
+> **Pre-release note:** Echoes of Mystralia enters Steam Early Access on **August 11, 2026**. Anything marked **TBD** is not confirmed by Borealys Games.
 
-## Legendary Categories
+## What Power Progression Actually Is (Confirmed)
 
-| Category | Total Items | Rarity Colour | Max Upgrade Level | Special Mechanic |
-|---|---|---|---|---|
-| **Weapons** | 6 | Orange | +10 | Unique weapon skill |
-| **Armor** | 6 | Orange | +8 | Set bonus (2/4/6 pieces) |
-| **Amulets** | 3 | Orange | +5 | Passive effect |
-| **Rings** | 3 | Orange | +5 | Passive effect |
+The confirmed progression systems are:
 
----
+1. **Memories** — harvested from enemies; the raw material of all spellcrafting
+2. **Spellcrafting** — reorder and combine Memories to forge and customize spells; "millions of possible combinations"
+3. **Spell forms** — 12 base templates at Early Access (4 in the demo)
+4. **Permanent hub upgrades** — at the Azimuth Temple between runs
 
-## Legendary Weapon Table
+There is no announced equipment layer on top of this. "Gearing up" in Echoes of Mystralia means **crafting better spells and expanding your Memory collection** — not equipping loot.
 
-| Weapon | Location | Stats | Unique Skill |
-|---|---|---|---|
-| **Primeval Catalyst** | Secret Area: Echo of the First Mage | +50–70 Base Damage, +2 All Skills | *Catalyst* — Converts 30% of damage to a random element |
-| **Soul Reaper** | World Boss: Lich King (Ravendale) | +40–60 Base Damage, +15% Lifesteal | *Soul Drain* — Heals for 50% of damage dealt for 8s |
-| **Stormbringer** | World Boss: Storm Titan (Skyreach Peaks) | +45–65 Base Damage, +25% Lightning Damage | *Thunderclap* — AoE lightning stun (3s cooldown) |
-| **Frostfang** | Dungeon: Glacial Vault (final chest) | +35–55 Base Damage, +30% Ice Damage | *Permafrost Strike* — Freezes target for 2s |
-| **Inferno Edge** | Crafted (see crafting section) | +55–75 Base Damage, +20% Fire Damage | *Flame Dash* — Dash forward leaving a fire trail |
-| **Voidpiercer** | PvP Rank Reward (Rank 5+) | +60–80 Base Damage, Ignores 30% Armor | *Void Shot* — Ranged attack that pierces enemies |
+## What "Legendary" Could Mean (TBD)
 
----
+Players looking for a gear chase will likely find equivalents — but every one of these is unconfirmed:
 
-## Legendary Armor Table
+| Familiar gear concept | Likely equivalent | Status |
+|-----------------------|-------------------|--------|
+| Rare weapon | Rare Memories with strong effects | **TBD** |
+| Set bonuses | Crafting synergies between Memory arrangements | **TBD** |
+| Item level | Memory rarity/strength tiers | **TBD** |
+| Gearing progression | Hub skill upgrades + Memory collection | ✅ Confirmed conceptually |
+| Legendary drops | Guardian rewards | **TBD** (first-kill rewards not itemized) |
 
-| Armor | Piece | Location | Stats |
-|---|---|---|---|
-| **Stormcaller's Mantle** | Chest | Secret Area: Storm's Eye | +25% Lightning Damage, Immune to Slow |
-| **Tidecaller's Boots** | Boots | Secret Area: Whispering Grotto | +20 Movement Speed, +15% Dodge, Water Breathing |
-| **Shadow Warden's Helm** | Helmet | Dungeon: Underdark Vault (boss drop) | +20% Crit Damage, +10% Evasion |
-| **Gauntlets of Might** | Gloves | World Boss: Earth Golem (Stone Valley) | +15% Melee Damage, +10% Attack Speed |
-| **Phoenix Spaulders** | Shoulders | Crafted (Ember Essence ×10, 10,000 gold) | Revive once per 10 min with 30% HP |
-| **Titan's Greaves** | Legs | Crafted (Titan Hide ×5, 7,500 gold) | +30% Knockback Resistance, +15% Armor |
+Borealys has confirmed the game will have **3 Guardians, 110 Memories, and 12 spell forms** at launch — those numbers are where "legendary" content lives, but nothing has been itemized.
 
----
+## How to Plan Your "Gear" Path Pre-Launch
 
-## Legendary Amulets & Rings
+1. **Treat Memories as your loot** — every run harvests your power growth
+2. **Treat crafting as your gearing** — the skill of combining Memories is the entire chase
+3. **Treat Guardians as your raid bosses** — 3 at launch, one per region
+4. **Treat the hub as your vendor** — permanent upgrades are the confirmed power sink
 
-### Amulets
+## What to Verify at Launch
 
-| Amulet | Location | Effect |
-|---|---|---|
-| **Hourglass of Eternity** | Secret Area: Chronos Vault | +25% Cooldown Reduction, +10% All Skills |
-| **Amulet of Sovereignty** | Main Story Reward (Chapter 8) | +15% All Resistances, +5% Max HP per resistance type |
-| **Eye of the Watcher** | Dungeon: Arcane Observatory (puzzle reward) | Reveals enemy weaknesses automatically, +10% damage to weak targets |
+When Early Access goes live, check for:
 
-### Rings
+- Memory rarity tiers and their effects (**TBD**)
+- Any item-adjacent systems Borealys added that weren't announced (**TBD**)
+- Guardian reward tables (**TBD**)
+- Cosmetics or collection systems (**TBD**)
 
-| Ring | Location | Effect |
-|---|---|---|
-| **Band of Endless Mana** | Crafted (Elemental Core ×5, 8,000 gold) | Mana regen +300%, skills cost 50% less |
-| **Ring of the Beast** | World Boss: Alpha Werewolf (Silent Woods) | +20% Physical Damage, +10% Movement Speed |
-| **Seal of the Guardian** | Dungeon: Guardian's Trial (no-damage completion) | Absorb a fatal hit every 90s, +10% Armor |
-
----
-
-## Set Bonuses
-
-Equipping multiple legendary armor pieces grants set bonuses:
-
-| Pieces Equipped | Bonus |
-|---|---|
-| **2 pieces** | +10% All Elemental Damage |
-| **4 pieces** | +20% All Elemental Damage, -15% Incoming Damage |
-| **6 pieces** | **Elemental Overload** — Every 10th hit deals triple damage of your highest element |
-
-The best general-purpose legendary armor set is **Stormcaller's Mantle + Titan's Greaves + Gauntlets of Might + Shadow Warden's Helm**. This gives you the 2-piece and 4-piece bonuses with a balance of offense and defense.
-
----
-
-## Catalyst Crafting System
-
-Legendary items can be upgraded at the **Arcane Forge** (available after Chapter 6). The system uses:
-
-- **Catalysts** — Dropped by world bosses and found in secret areas
-- **Essence Shards** — Salvaged from unwanted legendary items (1 per item)
-- **Gold** — Scaling cost per upgrade level
-
-**Upgrade Cost Table:**
-
-| Upgrade Level | Catalysts Required | Essence Shards | Gold Cost |
-|---|---|---|---|
-| +1 to +3 | 1 per level | 2 per level | 2,000 |
-| +4 to +6 | 2 per level | 4 per level | 5,000 |
-| +7 to +8 | 3 per level | 6 per level | 10,000 |
-| +9 to +10 | 5 per level | 8 per level | 20,000 |
-
-> **Tip:** The **Primeval Catalyst** weapon is the best base to invest in early because it can be crafted into any weapon type. Upgrade it to +6 before focusing on other legendaries.
-
----
-
-## Legendary Farming Route
-
-1. **Clear all secret areas** (see [Secret Areas Guide](/mystralia-wiki/guides/secret-areas)) — 6 legendaries are locked behind exploration puzzles.
-2. **Kill world bosses** on rotation — Each boss respawns every 2 hours. Farm Storm Titan and Lich King daily.
-3. **Run Glacial Vault and Underdark Vault** — These two dungeons have legendary drops in their final chests. Reset by leaving and re-entering.
-4. **Craft the rest** — Inferno Edge, Phoenix Spaulders, Titan's Greaves, and Band of Endless Mana are all crafted from farmable materials.
-
----
+This guide will document real findings. Until then, treat any pre-launch "legendary weapon location" list as fiction — there is no official source for it.
 
 ## Related Guides
 
-- [Secret Areas Guide](/mystralia-wiki/guides/secret-areas) — Where to find secret-zone exclusive legendaries.
-- [Challenge Mode Guide](/mystralia-wiki/guides/challenge-mode) — Test your legendary gear in the hardest content.
-- [Build Planner](/mystralia-wiki/guides/build-planner) — Optimise your build around specific legendary items.
-- [World Map](/mystralia-wiki/guides/world-map) — Interactive map with legendary drop locations marked.
-- [Exploration Tips](/mystralia-wiki/guides/exploration-tips) — Efficient routes for farming legendary materials.
+- [Memories Guide](/guides/memories-guide) — the confirmed power resource
+- [Spell Crafting Guide](/guides/spell-crafting-guide) — how Memory power becomes spell power
+- [Endgame Guide](/guides/endgame-guide) — what the long-term chase actually is
+- [Relics Guide](/guides/relics-guide) — the honest state of "item" systems

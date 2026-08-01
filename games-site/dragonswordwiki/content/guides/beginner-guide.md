@@ -1,130 +1,102 @@
 ---
 title: 'Beginner Guide — Getting Started in DragonSword: Awakening'
-description: 'New to DragonSword: Awakening? This beginner guide covers first hours, controls, tag-team combat, party selection, and tips to master this buy-to-play action RPG.'
-keywords: ['beginner guide', 'getting started', 'tips and tricks', 'how to play', 'new player guide']
-updated: '2026-07-24'
+description: 'New to DragonSword: Awakening? This beginner guide covers the first hours, the tag-team combat loop, your starting trio, Mercenary Ranks, and tips to master this buy-to-play action RPG.'
+keywords: ['beginner guide', 'getting started', 'tips and tricks', 'how to play', 'new player guide', 'best starting hero']
+updated: '2026-08-01'
 ---
 
 ## Welcome to DragonSword: Awakening
 
-DragonSword: Awakening is a buy-to-play anime open-world action RPG developed by Hound13, released on July 22, 2026, for $29.99 on Steam. With 19 unique heroes, a tag-team combat system, and no gacha mechanics, it offers a refreshing take on the genre. This beginner guide walks you through your first hours so you can hit the ground running.
+DragonSword: Awakening is a buy-to-play anime open-world action RPG developed by South Korean studio **HOUND13**, released on July 22, 2026 for **$29.99** on Steam (Deluxe Edition $44.98). It features **19 playable heroes**, a tag-team combat system built on status ailments and Signal Skills, and — uniquely for the genre — **no gacha and no microtransactions**. Every hero and item is earned through gameplay.
 
-Steam reviews currently sit at 85% Very Positive, and for good reason — the combat is fluid, the world is gorgeous (powered by Unreal Engine 5), and every hero is earnable through gameplay alone.
+The game sits at **"Very Positive"** on Steam (~90% positive across 1,600+ English reviews) and sold over 200,000 copies in its first two weeks. Sales aside, it earned that reputation: the combat is fluid, the world runs on Unreal Engine 5, and the buy-to-play model means you never hit a paywall.
 
-## First Steps: The Prologue
+## The Story Setup
 
-Your journey begins with a brief tutorial sequence that introduces the core mechanics. You control **Lute**, the protagonist, as you face your first enemy encounter.
+You play as **Lute**, a young boy who stumbles into the life of a mercenary alongside **Johnny** (a fellow mercenary) and **Castella** (an Elf). The continent of **Orbis** is threatened by a dragon that has awakened after 60 years of slumber — and the party must trace the footsteps of the **six Heroes of Old** who once defeated it. You start the game with the prologue tutorial, which introduces combat and your first boss: an **Orc Warrior**.
 
-### Basic Controls
+## Choosing Your Starting Party
 
-Master these controls from the start:
+The opening hour gives you the starting trio — **Lute, Castella, and Aria**:
 
-- **Left Click** — Light attack (builds combo meter)
-- **Q** — Combo skill (contextual, changes based on equipped hero)
-- **E** — Area-of-effect skill
-- **R** — Signal Skill activation (tag-team super move)
-- **Shift** — Dodge roll (invincibility frames included)
-- **Space** — Jump (essential for aerial combat)
-- **Tab** — Swap active hero (core mechanic)
-- **1, 2, 3** — Familiar summon shortcuts
+| Hero | Confirmed Kit | Role |
+|------|---------------|------|
+| **Lute** | Stun, Knockdown, greatsword, **ally heals** | All-rounder / support-DPS |
+| **Castella** | **Break**, Stun — assault vanguard | Frontline breaker |
+| **Aria** | **Burn**, Airborne, bombs/ranged | Ranged firepower specialist |
 
-Practice the basic combo string: Left Click x3 -> Q -> E -> Tab (swap) -> continue. This is your bread and butter for the entire game.
+**Correction for players reading older guides:** Aria is *not* a healer — she is a bomb-using firepower specialist. Lute is the one with healing. The trio still covers all the bases: Castella breaks Super Armor, Aria applies damage over time at range, and Lute heals and stuns.
 
-## Choosing Your First Party
+## The Tag-Team Combat Loop
 
-After the prologue, you unlock your starting trio. You initially get **Lute**, **Castella**, and **Aria** as your first three heroes. This is an excellent starting party that covers all roles:
+DragonSword: Awakening's signature mechanic is the **Switching Signals** system — "heroes weave in and out of battle in endless combo chains." The loop is:
 
-| Hero | Role | Why Pick Them |
-|------|------|---------------|
-| **Lute** | All-rounder / Support | Balanced stats, good for learning mechanics, half-dragon transformation later |
-| **Castella** | Tank / Breaker | High defense, shield skills, excellent at breaking enemy Super Armor |
-| **Aria** | Healer / Ranged | Best starting healer, keeps your party alive during tough fights |
+1. **Apply** — hit enemies with Active Skills to stack Status Ailments (Bleed, Stun, Burn, Break, Airborne...)
+2. **Extend** — chain skills and juggle enemies in the air
+3. **Finish** — when the prompt appears, switch to a benched hero to trigger their **Signal Skill** — the biggest single-hit damage in the game
 
-Stick with this trio through the early game. They complement each other perfectly and give you a taste of each combat role.
+There is no ultimate skill bar; the switch trigger replaces it.
 
-## Understanding the Tag-Team System
+**Golden rules for beginners:**
 
-The **tag-team system** is DragonSword: Awakening's signature mechanic. You control one hero at a time while two others wait in reserve. Here is how it works:
+- **Swap often.** Sticking to one hero stalls the loop. Two to three combos per hero keeps the chain alive.
+- **Stack matching ailments.** A team of Lute + Castella + Aria focuses on Stun + Break + Burn — three different effects, which builds stacks slower than a mono-stack team. As you unlock Theresia (Bleed + Stun), the classic **Bleed Chain** team (Theresia + Lute + Castella) becomes the strongest confirmed core.
+- **Break the white bar.** Elites and bosses have a white Super Armor bar under their health. Break it with heavy attacks and Break skills (Castella) to open finisher prompts.
 
-- **Active hero** — The character you directly control
-- **Reserve heroes** — Off-battle, slowly regenerate HP and SP
-- **Swapping** — Press Tab to swap instantly. This is not just for switching characters — it also cancels current animations and can dodge incoming attacks
-- **Tag bonuses** — Certain hero combinations grant passive bonuses when swapped
+Full details in the [Combat Guide](/guides/combat-guide).
 
-**Golden rule**: Swap frequently. Do not stick with one hero. Each swap brings fresh skills, fills the Signal Gauge, and keeps pressure on enemies. A good rhythm is 2-3 combos per hero before swapping.
+## Controls
+
+**No verified keyboard layout has been published.** Earlier drafts of this wiki published key bindings that were never confirmed — they have been removed. The game supports controllers, and the tutorial teaches the real inputs in the first minutes. If you play on keyboard and mouse, check the in-game settings screen for the current bindings.
 
 ## The Mercenary Rank System
 
-Your overall progression is tracked through **Mercenary Ranks**, starting at F and going up to S. Each rank has a promotion quest. Key things to know:
+Your overall progression is tracked through **Mercenary Ranks**, and each promotion requires completing a **promotion quest** — solo challenges that test your mastery of the combat systems. Rank-ups unlock new abilities, gear access, and content.
 
-- Rank increases unlock new abilities, gear slots, and content
-- Promotion quests are solo challenges that test your mastery
-- Higher ranks improve Signal Skill effectiveness
-- Your Mercenary Rank affects which World Bosses you can challenge
+**What is confirmed:** the rank system and promotion quests exist; ranks are your main progression gate.
+**What is unconfirmed:** the exact rank names (F through S has been claimed), the number of ranks, and what each unlocks. We will publish the ladder when it is verified.
 
-Early goal: Reach Mercenary Rank D by the end of Chapter 2.
+## Cooking and Crafting
 
-## Essential Beginner Tips
+**Cooking is a confirmed side activity** — the game's official description lists cooking alongside solving residents' problems, treasure hunting, and dungeon exploration. Gather ingredients while exploring and cook meals at campfires.
 
-### 1. Break Armor First
+**Unconfirmed:** the specific buffs and percentages of each recipe. Guides that list "Warrior's Stew +15% XP" are speculating.
 
-Every enemy has a **Super Armor** bar (white bar below health). When full, they cannot be staggered and take reduced damage. Your priority in every fight is to break this bar using heavy attacks and break skills (Castella's shield bash is excellent for this).
+## Exploration Pays
 
-Once the bar breaks:
-- The enemy is stunned for several seconds
-- All damage is amplified
-- You can launch them into the air for aerial combos
+The open world of Orbis is the game's other half. The official description confirms:
 
-### 2. Use Aerial Combos
+- **Treasure hunting** — hidden caches across the world
+- **Dungeon exploration** — hidden caves, ruins, and underwater areas
+- **Side activities** — solving local residents' problems
 
-DragonSword: Awakening rewards aggressive play. After launching an enemy (by breaking their armor or using a launch skill), jump after them and continue your combo in the air. Aerial combos deal bonus damage and build the Signal Gauge faster.
-
-Basic air combo: Launch -> Space (jump) -> Left Click x3 -> Q -> E -> slam back to ground.
-
-### 3. Cook and Craft
-
-Don't ignore the cooking and crafting systems. Early game recipes provide:
-- HP regeneration over time
-- Damage buffs (10-15% for 30 minutes)
-- Elemental resistance
-- XP bonuses
-
-Gather ingredients from exploration and cooking from campfires found in towns.
-
-### 4. Explore Everything
-
-DragonSword: Awakening rewards thorough exploration. Hidden areas contain:
-- **Goddess Statues** — Permanent stat upgrades
-- **Secret dungeons** — Exclusive gear and materials
-- **Cooking ingredients** — Rare recipes
-- **Lore fragments** — Story context and world-building
-
-### 5. Upgrade Gear Early
-
-The blacksmith in the first town offers basic weapon and armor upgrades. Invest gold here early. Even a +2 weapon makes a noticeable difference against early story bosses.
+Explore everything between story beats; gear and materials come from the world as much as from quests. "Goddess Statues" with permanent stat upgrades are **not confirmed** and have been removed from this guide.
 
 ## Common Beginner Mistakes
 
 | Mistake | The Fix |
 |---------|---------|
-| Ignoring tag swaps | Swap every 2-3 combos to build Signal Gauge |
-| Face-tanking attacks | Learn enemy tells and dodge — invincibility frames are generous |
-| Hoarding resources | Spend gold on upgrades — gear falls off quickly if neglected |
-| Skipping side quests | Side quests unlock heroes, skills, and gear |
-| Forgetting to heal | Aria exists — swap to her and use her heal skill frequently |
+| Ignoring tag swaps | Swap every 2-3 combos to keep Signal Skill triggers coming |
+| Face-tanking attacks | The dodge is generous — learn enemy tells |
+| Chasing unverified gear advice | Only trust sources that confirm their numbers |
+| Skipping side content | Cooking ingredients, treasures, and hero recruitment live in side content |
+| Forgetting Lute heals | Lute is your healer — swap to him when HP runs low |
 
 ## What to Do in Your First Session
 
-1. Complete the prologue tutorial
-2. Unlock Lute, Castella, and Aria
-3. Explore the first town and talk to every NPC
-4. Complete 2-3 side quests before the first story boss
-5. Visit the blacksmith for basic upgrades
-6. Cook at least one meal for the damage buff
-7. Save at a Goddess Statue (acts as checkpoint)
+1. Complete the prologue tutorial (first boss: Orc Warrior)
+2. Learn the switch loop — the tutorial introduces it early
+3. Get to know the starting trio: Lute, Castella, Aria
+4. Explore the first town and talk to every NPC — side quests are the game's texture
+5. Try cooking at the first campfire
+6. Push the story until your first Mercenary Rank promotion
 
 ## Is DragonSword: Awakening New Player Friendly?
 
-Yes. The game has a gentle learning curve. The tutorial covers all basics, the starting party is forgiving, and there is no penalty for trying different heroes. The buy-to-play model (no gacha, no pay-to-win) means you never hit a paywall. If you have played action RPGs before, you will feel at home within 30 minutes.
+Yes. The tutorial teaches the core loop, the starting trio covers every role, and the no-gacha design means nothing is missable behind a paywall. The demo on Steam (save data does not carry over to the full game) is a good way to try the combat before buying — note that the demo runs on Steam Deck but with some technical issues reported.
 
-Ready to dive deeper? Check the [Hero Tier List](/guides/tier-list) to plan your party, or the [Combat Guide](/guides/combat-guide) to master advanced mechanics.
+## What About Multiplayer?
+
+The main story is single-player. Co-op exists for **Battle (up to 2 players)** and **Raids (up to 3 players)**, host-based and without regional restrictions. There is **no PvP** — see the [Co-op & Multiplayer Guide](/guides/pvp-guide).
+
+Ready to go deeper? Check the [Hero Tier List](/guides/tier-list) to plan your party, the [Combat Guide](/guides/combat-guide) for advanced mechanics, or the [Walkthrough](/guides/walkthrough) for the story path.

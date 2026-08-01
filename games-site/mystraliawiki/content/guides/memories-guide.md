@@ -1,211 +1,73 @@
 ---
-title: 'All 110 Memories Guide — Locations, Effects & Farming'
-description: 'Complete catalog of all 110 Memories in Echoes of Mystralia — where to find each Memory, what it does, rarity tiers, and the best farming strategies for rare Memories.'
-keywords: ['echoes of mystralia memories guide', 'echoes of mystralia all memories', 'mystralia memory locations', 'echoes of mystralia memory farming']
-updated: '2026-07-22'
+title: 'Memories Guide — The 110 Memory Economy, Confirmed Facts'
+description: 'Everything confirmed about Memories in Echoes of Mystralia — how you harvest them, the 50 demo Memories vs 110 at Early Access, how crafting works, and what stays TBD.'
+category: 'Systems'
+version: 'Pre-release'
+updated: '2026-08-01'
+keywords: ['echoes of mystralia memories guide', 'echoes of mystralia memories', 'mystralia memory farming', 'echoes of mystralia memory system', 'echoes of mystralia spell crafting']
+related: ['spell-crafting-guide', 'best-spell-builds', 'beginner-guide', 'ea-roadmap-guide']
 ---
 
-# All 110 Memories Guide — Locations, Effects & Farming
+# Memories Guide — The 110 Memory Economy, Confirmed Facts
 
-Memories are the spell modifiers that make Echoes of Mystralia's crafting system tick. This guide catalogs all 110 Memories available at Early Access launch.
+**Memories are the heart of Echoes of Mystralia.** They are the resource harvested from enemies, the raw material of the game's signature spellcrafting system, and the core of every build. This guide covers everything confirmed about Memories — and honestly marks the many details the developer hasn't yet published.
 
-## Memory System Overview
+> **Pre-release note:** Echoes of Mystralia enters Steam Early Access on **August 11, 2026**. Individual Memory names, effects, and drop systems are **TBD** — earlier catalog-style lists of Memory effects on this wiki were fabricated and removed.
 
-### How to Get Memories
+## What's Confirmed
 
-| Source | Drop Rate | Rarity Pool |
-|--------|----------|-------------|
-| Common enemies | 15–25% | Common, Uncommon |
-| Elite enemies | 40–60% | Common, Uncommon, Rare |
-| Mini-bosses | 80% | Uncommon, Rare |
-| Guardian bosses | 100% | Rare, Legendary (first kill guaranteed) |
-| Chests (golden) | 30% | Common, Uncommon, Rare |
-| Azimuth Temple vendor | Purchase | Rotating stock of Rare tier |
+- **Enemies drop Memories** — harvesting them from defeated foes is the confirmed acquisition method
+- **Memories forge spells** — you use them to forge and customize spells
+- **Memories are reordered and combined** — arrangement matters; the same components can become very different spells
+- **The combination space is "millions"** — Borealys' own description
+- **50 Memories in the demo** — the playable sandbox today
+- **110 Memories at Early Access launch** — the confirmed launch pool
+- **Showcased spell examples** — lightning bolts, freezing tornadoes, and fire vortices demonstrate what Memory crafting can produce
+- **Demo save transfers** — your Memory collection and crafting knowledge follow you into Early Access (what exactly transfers beyond "save data" is **TBD**)
 
-### Memory Rarity Tiers
+## The Demo Memory Sandbox
 
-| Tier | Color | Effect Strength | Drop Sources |
-|------|-------|----------------|-------------|
-| **Common** | Gray | Base effect | Any enemy |
-| **Uncommon** | Green | 1.5x base effect | Elites and above |
-| **Rare** | Blue | 2x base effect + bonus | Mini-bosses, golden chests |
-| **Legendary** | Gold | 3x base effect + unique perk | Guardian first kills, rare drops |
+The demo's 50 Memories are the only real testing ground available. Practical experiments:
 
----
+1. **Collect from every enemy type** — the demo's roster drops Memories; observe which enemies reward what
+2. **Build one spell, many ways** — same Memories, different arrangements; feel the difference
+3. **Push one element, then mix** — fire, ice, and lightning loadouts teach the element layer
+4. **Use the 4 fight challenges** — repeatable encounters are the ideal Memory lab
 
-## Offensive Memories (40 total)
+Everything learned transfers: the crafting *skill* is the real acquisition, and your demo save carries forward.
 
-### Amplify Series
-Increases base spell damage.
+## What's TBD About Memories
 
-| Memory | Rarity | Effect | Farm Location |
-|--------|--------|--------|---------------|
-| Amplify I | Common | +10% spell damage | Ash Forest — any enemy |
-| Amplify II | Uncommon | +20% spell damage | Ash Forest — elites |
-| Amplify III | Rare | +35% spell damage | Frozen Depths — mini-bosses |
-| Amplify IV | Legendary | +50% spell damage + 10% execute below 20% HP | Therakan (first kill) |
+Honest unknowns — none confirmed by Borealys:
 
-### Chain Series
-Adds or enhances chain-jump between enemies.
+- **Individual Memory names and effects** — no official Memory list exists
+- **Rarity tiers** (if any) — unannounced
+- **Drop rates** — unannounced
+- **Where specific Memories drop** — unannounced
+- **How Memory arrangement maps to spell behavior** — the general principle is confirmed, the mechanics are not
+- **Element properties on Memories** — the element trio is confirmed; how Memories carry elements is TBD
+- **Currency costs** — the demo currency (Echo Fragments) resets at launch; no launch economy is announced
 
-| Memory | Rarity | Effect | Farm Location |
-|--------|--------|--------|---------------|
-| Chain I | Common | +1 chain jump | Ash Forest — lightning specters |
-| Chain II | Uncommon | +2 chain jumps | Stormspire — common enemies |
-| Chain III | Rare | +3 chain jumps + 30% chain damage | Stormspire — elites |
-| Chain IV | Legendary | +4 chain jumps + chains arc back to original target | Stormspire Guardian |
+## Farming Strategy Pre-Launch (Framework)
 
-### Burst Series
-Adds explosion on spell impact.
+Until drop systems are mapped, apply the standard roguelite farming logic:
 
-| Memory | Rarity | Effect |
-|--------|--------|--------|
-| Burst I | Common | Small AoE on impact (2m) |
-| Burst II | Uncommon | Medium AoE (4m) |
-| Burst III | Rare | Large AoE (6m) + knockback |
-| Burst IV | Legendary | Massive AoE (8m) + stun |
+1. **Kill everything** — every enemy is a Memory opportunity
+2. **Clear elites carefully** — tougher enemies likely reward better (expected, not confirmed)
+3. **Replay fight challenges** — repeatable, safe, and skill-building
+4. **Diversify early** — you don't know which Memories matter yet; sample widely
+5. **Keep crafting notes** — you'll be the first to map the system at launch; your notes have value
 
-### Multishot Series
-Splits projectiles into multiple copies.
+## What We'll Document After Launch
 
-| Memory | Rarity | Effect |
-|--------|--------|--------|
-| Multishot I | Common | +1 projectile, 70% damage each |
-| Multishot II | Uncommon | +2 projectiles, 75% damage each |
-| Multishot III | Rare | +3 projectiles, 80% damage each |
-| Multishot IV | Legendary | +4 projectiles, full damage each |
-
-*(Additional Offensive Memories: Pierce, Ricochet, Seeking, Focus, Execute, Overload, Sunder, Rupture — 28 more variants across similar rarity tiers)*
-
----
-
-## Defensive Memories (25 total)
-
-### Barrier Series
-Grants a temporary shield on spell cast.
-
-| Memory | Rarity | Effect |
-|--------|--------|--------|
-| Barrier I | Common | 5% max HP shield for 3s |
-| Barrier II | Uncommon | 10% max HP shield for 4s |
-| Barrier III | Rare | 15% max HP shield for 5s + thorns damage |
-| Barrier IV | Legendary | 25% max HP shield for 6s + reflects projectiles |
-
-### Leech Series
-Restores health on spell hit.
-
-| Memory | Rarity | Effect |
-|--------|--------|--------|
-| Leech I | Common | 2% damage dealt as healing |
-| Leech II | Uncommon | 4% damage dealt as healing |
-| Leech III | Rare | 6% damage dealt as healing + overheal becomes shield |
-| Leech IV | Legendary | 10% damage dealt as healing + applies to nearby allies |
-
-### Phase Series
-Adds brief invulnerability to cast animation.
-
-| Memory | Rarity | Effect |
-|--------|--------|--------|
-| Phase I | Common | 0.2s invulnerability on cast |
-| Phase II | Uncommon | 0.4s invulnerability |
-| Phase III | Rare | 0.6s invulnerability + cleanses debuffs |
-| Phase IV | Legendary | 1.0s invulnerability + reflects damage during frames |
-
-### Additional Defensive Memories
-- **Fortify**: Reduces damage taken while casting
-- **Absorb**: Converts a portion of damage taken to mana
-- **Rebound**: Heals when dropping below 30% HP (cooldown)
-- **Ward**: Reduces elemental damage taken
-- **Resilience**: Reduces duration of negative status effects
-
----
-
-## Utility Memories (25 total)
-
-### Expand Series
-Increases area of effect size.
-
-| Memory | Rarity | Effect |
-|--------|--------|--------|
-| Expand I | Common | +15% AoE size |
-| Expand II | Uncommon | +30% AoE size |
-| Expand III | Rare | +50% AoE size |
-| Expand IV | Legendary | +75% AoE size + enemies at edge take bonus damage |
-
-### Hasten Series
-Reduces cast time and cooldown.
-
-| Memory | Rarity | Effect |
-|--------|--------|--------|
-| Hasten I | Common | 10% faster cast + cooldown |
-| Hasten II | Uncommon | 20% faster |
-| Hasten III | Rare | 35% faster |
-| Hasten IV | Legendary | 50% faster + resets cooldown on kill (10s ICD) |
-
-### Persist Series
-Extends duration of AoE and zone spells.
-
-| Memory | Rarity | Effect |
-|--------|--------|--------|
-| Persist I | Common | +2s duration |
-| Persist II | Uncommon | +4s duration |
-| Persist III | Rare | +6s duration + recast at half duration |
-| Persist IV | Legendary | +10s duration + zone grows over time |
-
-### Additional Utility Memories
-- **Attract**: Pulls enemies toward spell impact point
-- **Repel**: Pushes enemies away from spell impact
-- **Echo**: Spell casts a second time at 50% power after a delay
-- **Siphon**: Restores mana on kill
-- **Alacrity**: Movement speed boost on spell cast
-- **Clarity**: Reduces mana cost
-
----
-
-## Elemental Conversion Memories (20 total)
-
-| Memory Family | Element | Effect |
-|--------------|---------|--------|
-| **Ignite I–V** | Fire | Converts 20–100% of spell damage to fire + burn chance |
-| **Chill I–V** | Ice | Converts 20–100% of spell damage to ice + freeze chance |
-| **Charge I–V** | Lightning | Converts 20–100% of spell damage to lightning + chain chance |
-| **Hybrid I–V** | Dual-element | Splits damage between two elements (various combos) |
-
----
-
-## Memory Farming Guide
-
-### Best Farming Locations
-
-| Location | Best For | Method |
-|----------|----------|--------|
-| **Ash Forest — Elite Loop** | Common/Uncommon Memories | Clear elite packs, reset at Temple |
-| **Frozen Depths — Mini-boss Alley** | Rare Memories | Run the mini-boss corridor (3 mini-bosses in sequence) |
-| **Stormspire — Endless Mode** | All rarities | Survive as long as possible in the endless arena |
-| **Guardian Re-fights** | Legendary Memories | Re-challenge Guardians (unlocked after first clear) |
-
-### Farming Efficiency Tips
-
-1. **Use Storm Weaver build** — fastest clear speed for memory farming
-2. **Target elites, skip commons** — commons have poor drop rates
-3. **Golden chests reset per run** — always open them
-4. **Check Temple vendor every run** — rotating stock includes rare Memories
-5. **Run difficulty affects drop rate** — higher difficulties increase rare drop chance
-6. **First Guardian kill of the day** — guaranteed Legendary Memory
-
-### Memory Drop Rate by Difficulty
-
-| Difficulty | Common | Uncommon | Rare | Legendary |
-|-----------|--------|----------|------|-----------|
-| Normal | 20% | 10% | 3% | 0.5% |
-| Hard | 25% | 15% | 6% | 1% |
-| Expert | 30% | 20% | 10% | 2% |
-| Master | 35% | 25% | 15% | 4% |
-
----
+- The full 110-Memory catalog with verified effects (**TBD**)
+- Drop locations and farming routes (**TBD**)
+- Crafting recipes and strong combinations (**TBD**)
+- Rarity and tier systems (**TBD**)
 
 ## Related Guides
 
-- [Spell Crafting Guide](/guides/spell-crafting-guide) — how to use Memories in your builds
-- [Best Spell Builds](/guides/best-spell-builds) — which Memories to prioritize
-- [Boss Guide](/guides/boss-guide) — which Memories drop from each Guardian
+- [Spell Crafting Guide](/guides/spell-crafting-guide) — how Memories become spells
+- [Best Spell Builds](/guides/best-spell-builds) — planning around the Memory economy
+- [Beginner Guide](/guides/beginner-guide) — first steps in the demo sandbox
+- [EA Roadmap Guide](/guides/ea-roadmap-guide) — the 110-Memory launch scope

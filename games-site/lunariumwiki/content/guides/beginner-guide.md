@@ -1,127 +1,131 @@
 ---
 title: "Lunarium Beginner Guide — Getting Started"
-description: "Complete beginner guide for Lunarium. Learn controls, combat basics, character introduction, first hour walkthrough, and essential tips for new players."
+description: "Complete beginner guide for Lunarium. What the game is, controls, parry and dodge basics, the first hour in Firleaves, Lune's support, and tips for new players."
 category: "Beginner"
 version: "1.0"
-updated: "2026-07-25"
-keywords: ["Lunarium beginner guide", "Lunarium getting started", "Lunarium tips", "Lunarium first hour", "Lunarium new player guide"]
-related: ["combat-guide", "ave-build-guide", "skill-tree-guide", "equipment-guide"]
+updated: "2026-08-01"
+keywords:
+  - Lunarium beginner guide
+  - Lunarium getting started
+  - Lunarium tips
+  - Lunarium first hour
+  - Lunarium new player guide
+related:
+  - combat-guide
+  - forest-walkthrough
+  - ave-build-guide
+  - character-builds
+  - faq
 ---
 
 # Lunarium Beginner Guide — Getting Started
 
-**Lunarium 1.0 / Updated: July 25, 2026**
+**Lunarium 1.0 / Updated: August 1, 2026**
 
-Welcome to Lunarium, the hand-drawn isometric action RPG from Lunarium Game Studio. This guide covers everything you need to know for your first hour — from meeting Ave and Lune to mastering the basics of combat and exploration.
+Welcome to Lunarium, the hand-drawn isometric action RPG from Lunarium Game Studio. You play **Ave**, a light-armored swordmaster, on a journey with **Lune**, a mysterious Starfarer, to stop the spread of a corrupting darkness called **Nihilus**. This guide covers what you need for the first hour: what the game is, how combat works, and what to do first.
+
+> Note: an earlier version of this guide described a "Forest → Temple" opening with different landmarks. The verified opening takes place in the **Firleaves mountains** — this version is corrected.
 
 ---
 
-## 1. Meet Your Characters
+## 1. What Kind of Game Is Lunarium?
 
-Lunarium follows two heroines on a quest to save a dying world:
+- **Genre:** isometric action RPG with Souls-like ("Souls-lite") combat — parry-focused, similar in feel to Sekiro's parry combat.
+- **Perspective:** 45-degree isometric view, hand-drawn art (a common point of praise in reviews).
+- **Structure:** four connected regions (Firleaves → Cyanstone → White Reef Isles → Paradise), roughly **12 hours** for a first playthrough (press-reported).
+- **Difficulty:** a hardcore parry-based combat experience. An **Easy Mode** was added at launch based on player feedback.
+- **Single-player only** — Lune is an AI companion; there is no co-op or multiplayer.
+
+## 2. Meet Your Characters
 
 | Character | Role | Combat Style |
 |-----------|------|-------------|
-| **Ave** | Swordmaster (Player-Controlled) | Light armor, precise parries, quick dodges, melee damage |
-| **Lune** | Starfarer (AI Companion) | Sorceress, ranged support, Resonance generator, healing |
+| **Ave** | Playable protagonist | Swordmaster: precise parries, quick dodges, melee damage |
+| **Lune** | AI companion | Starfarer: light arrows, support magic, healing, interrupts |
 
-You **control Ave directly** in combat. Lune fights alongside you as an AI companion — she'll attack enemies, generate Resonance Points, and support you automatically.
+**You control Ave directly.** Lune fights alongside you automatically — her light arrows destroy Nihilus orbs, stagger enemies, and interrupt certain boss attacks. You can direct her attention with D-pad commands (press-confirmed), and both characters have skill trees.
 
----
+## 3. Basic Controls
 
-## 2. Basic Controls
+| Action | Input (typical) |
+|--------|-----------------|
+| Light attacks | Mouse left-click / light attack button (controller) |
+| Heavy attacks | Mouse right-click / heavy attack button |
+| Block / Parry | Block button — time it just before an enemy attack lands |
+| Dodge | Dodge button + direction — grants i-frames |
+| Interact | Interact button |
+| Direct Lune | D-pad commands |
 
-| Action | Input |
-|--------|-------|
-| Light Attack | Left Click / Square |
-| Heavy Attack | Right Click / Triangle |
-| Parry | Block (L1 / LB) — time it just before an enemy attack |
-| Dodge | Circle / B — direction + dodge for i-frames |
-| Lock-On | R3 / Right Stick Press |
-| Use Resonance Skill | R2 / RT (when Resonance gauge is full) |
-| Interact | X / A |
+> **Note:** exact keybindings vary by control scheme; check the in-game options. Reviews note that **controller play is generally more comfortable** than keyboard/mouse in this game — if you have one, use it.
 
----
+## 4. Combat Fundamentals
 
-## 3. Combat Fundamentals
+### The Parry (Lunarium's Signature Mechanic)
+A well-timed parry:
+- Negates the incoming damage
+- **Staggers** the enemy — opening a counter-attack window
+- Builds the shared **Resonance** gauge
 
-### Parry System
-Lunarium's combat revolves around **parries**. A well-timed parry:
-- Negates all incoming damage
-- Staggers the enemy briefly
-- Builds Resonance Points
-- Opens a counter-attack window
+**Timing tip:** watch for the enemy's wind-up, then press block just before the attack connects.
 
-**Timing tip:** Watch for the white flash on enemy weapons — parry immediately after you see it.
+### The Dodge
+Dodging provides invincibility frames and is your only answer to **red-flash attacks** — attacks that flash red **cannot be parried**. Common launch complaint: the dodge distance is short, so position carefully rather than dodging through everything.
 
-### Dodge Mechanics
-Dodging provides invincibility frames (i-frames) but costs stamina. Use dodges to:
-- Escape unblockable attacks (red flash indicators)
-- Reposition behind enemies
-- Create space to heal
+### Red Flash Rule
+| Flash | Meaning | Response |
+|-------|---------|----------|
+| White/normal telegraph | Parry-able | Parry |
+| Red flash | Unparriable | Dodge |
 
-### Resonance Points
-Resonance Points are the **shared resource** between Ave and Lune. You generate RP by:
-- Landing successful parries
-- Chaining combos with Lune
-- Defeating enemies
+### Resonance (the Shared Gauge)
+- Resonance is a shared resource between Ave and Lune, generated through successful combat (parries, coordinated fighting).
+- **Astral Shards** found in Cyanstone **raise the resonance cap** — the gauge's maximum.
+- Reviews confirm Lune uses Resonance to build enemy stagger meters in fights.
+- Exact generation rates and spending options are **unconfirmed** — no official numbers are published yet.
 
-Spend RP on:
-- **Resonance Strike** — powerful coordinated attack with Lune
-- **Resonance Heal** — emergency healing
-- **Resonance Break** — instantly stagger any enemy
+### Nihilus Orbs & Cores
+Enemies protected by floating **Nihilus orbs** take reduced damage until **Lune's arrow** destroys the orb. Cores on enemies/bosses can be shot for interrupts, and core-blocked paths must be shot to open. If something seems unkillable — shoot the orb.
 
----
+## 5. Your First Hour (Firleaves)
 
-## 4. First Hour Walkthrough
+The verified opening:
 
-### Forest Entrance (0-15 min)
-You begin in the **Forest region**, the tutorial area. Follow the glowing star trails — they lead to your first encounters:
+1. **Begin in the Firleaves mountains.** Fight the first corrupted creatures — basic swings and the first parries.
+2. **Meet Lune** — she joins you in the mountains and becomes your combat partner.
+3. **Learn the parry/dodge basics** against the region's early enemies.
+4. **Defeat the Longhorn Troll** — your first boss: two swipes into a smash, parry the swipes; below 40% HP it glows red before attacks (dodge those). After its first defeat it rises again, consumed by darkness — **Lune's arrows destroy the Nihilus orbs** in this scripted rematch; stagger and finish it.
+5. **Defeat the Shadow of Firleaves** — the region's second boss (Nihilus puddles, ground spikes, a Phase 2 shockwave you can interrupt with Lune's arrow). Drops **Echoes of Yore**.
+6. **Reach Starfall Village** — receive the **Wayfarer's Cloak** and set up **Lune's Sanctuary** (crafting bench, Fungal Mortar, Loom). This is your hub for the whole game.
 
-1. Defeat the three tutorial Parasites (basic attack only — no parry needed yet)
-2. Meet Lune at the Starfall Clearing (cutscene)
-3. Learn parry basics at the Training Stone
-4. Defeat the Corrupted Stag (first mini-boss — use parries)
+### First-Hour Priorities
+1. **Learn parry timing** — everything else follows.
+2. **Keep Lune alive and aimed at enemies** — her arrow is core utility, not decoration.
+3. **Rest at benches** — they're your save points; resting restores you and respawns enemies.
+4. **Explore side paths** — hidden chests (e.g., the embroidery blueprint in Cyanstone later) hold real power.
 
-### Temple Grounds (15-45 min)
-After clearing the Forest entrance, reach the **Temple**:
+## 6. Common Beginner Mistakes
 
-1. Activate the Temple Waypoint (bench save point)
-2. Speak with the Temple Keeper (unlocks skill tree)
-3. Choose your first skill upgrade — **recommend: Parry Mastery** (+15% parry window)
-4. Explore the Temple Grounds for loot chests (check behind waterfalls)
-5. Craft your first Embroidery Charm at the Loom
+- **Parrying red flashes** — red = dodge. Every boss will punish this.
+- **Ignoring Lune's arrows** — orb-protected enemies and core-blocked paths stall without her.
+- **Rushing through regions** — the game rewards the hub loop: explore, gather, craft at the Sanctuary, upgrade at the Temple, then move on.
+- **Trusting "class" guides** — Lunarium has no classes; builds come from skill trees, embroidery, and cloaks (see the [Character Builds Guide](/guides/character-builds)).
+- **Playing keyboard-only if it feels bad** — reviews report controller is the better experience.
 
-### Forest Depths (45-60 min)
-Push into the deeper Forest:
+## 7. Quick Facts
 
-1. Defeat the Wandering Wisps (ranged enemies — dodge then close distance)
-2. Find the Abandoned Shrine (hidden area with rare charm)
-3. Reach the Forest Edge bonfire (checkpoint before first major boss)
-
----
-
-## 5. Early Game Priorities
-
-1. **Unlock Parry Mastery** — bigger parry window makes everything easier
-2. **Equip your first Charm** — even common charms provide meaningful bonuses
-3. **Activate every Waypoint** — fast travel saves hours of backtracking
-4. **Learn enemy patterns** — every enemy has a tell before attacking
-
----
-
-## 6. Common Mistakes
-
-- **Mistake: Button mashing.** Lunarium punishes greedy attacks. Parry first, attack second.
-- **Mistake: Ignoring Lune.** She's AI-controlled but you can direct her with the D-pad commands.
-- **Mistake: Hoarding Resonance.** Use RP as soon as the gauge is full — there's no bonus for saving it.
-- **Mistake: Skipping charms.** Embroidery Charms are your primary passive power progression.
-
----
+| Fact | Detail |
+|------|--------|
+| Release | July 29, 2026 (Steam, PC) |
+| Price | $17.99 (10% launch discount was active at release) |
+| Length | ~12 hours main story (press-reported) |
+| Difficulty | Parry-focused; Easy Mode added at launch |
+| Multiplayer | None (single-player) |
+| Endings | Two (press-confirmed; requirements unconfirmed) |
 
 ## Related Guides
 
-- [Combat Guide — Parry, Dodge & Resonance](/guides/combat-guide)
-- [Ave Build Guide](/guides/ave-build-guide)
-- [Skill Tree Guide](/guides/skill-tree-guide)
-- [Equipment Guide — Weapons, Armor & Charms](/guides/equipment-guide)
+- [Combat Guide](/guides/combat-guide) — parry, dodge, and Resonance in depth
+- [Firleaves Walkthrough](/guides/forest-walkthrough) — your first region, step by step
+- [Ave Build Guide](/guides/ave-build-guide) — build directions for the swordmaster
+- [Character Builds Guide](/guides/character-builds) — how builds work (no classes)
+- [FAQ](/guides/faq) — quick questions answered

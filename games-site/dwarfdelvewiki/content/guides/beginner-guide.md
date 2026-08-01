@@ -4,104 +4,99 @@ description: 'Complete beginner guide for Dwarf Delve — learn the core extract
 keywords: ['dwarf delve beginner guide', 'dwarf delve getting started', 'dwarf delve tips', 'dwarf delve how to play']
 category: Beginner
 version: '1.0'
-updated: '2026-07-25'
+updated: '2026-08-01'
 related: ['mining-strategies-guide', 'extraction-guide', 'crafting-guide']
 ---
 
 ## Welcome to the Mines, Delveling
 
-Dwarf Delve is a first-person extraction roguelite where you play as a freshly promoted Delveling — a dwarf whose job is to descend into procedurally generated mines, gather as much treasure as possible, and get out before the tunnels collapse. The game launches on Steam on **July 27, 2026**, from solo developer Gloom Box and publisher indie.io.
+Dwarf Delve is a first-person extraction roguelite where you play as a freshly promoted **Delveling** — a dwarf sent by the Coalition of Dwarves to descend into procedurally generated mines, gather ores, treasures, and relics, and get out before the tunnels collapse. The game launched on Steam on **July 27, 2026** at $12.99, developed by solo developer Gloom Box and published by indie.io.
 
-This beginner guide covers everything you need to survive your first few descents.
+This beginner guide covers everything you need to survive your first few descents, based on what is officially confirmed about the game. Dwarf Delve is new — most specific mechanics are still being discovered, so where the community is unsure, this guide says so.
 
 ## The Core Gameplay Loop
 
 Dwarf Delve follows a risk-versus-reward extraction loop:
 
-1. **Descend** — Take the elevator down into a procedurally generated mine
-2. **Explore & Mine** — Break through rock, collect ores and relics, and navigate deeper
-3. **Fight & Survive** — Use your Battlemallet against hostile creatures and environmental hazards
+1. **Descend** — Take the elevator down into a procedurally generated mine. No two mines are ever the same
+2. **Explore & Mine** — Break through rock with your Battlemallet, collect ores and relics, and navigate deeper
+3. **Survive** — Watch for long-forgotten traps, unseen dangers, and the collapse itself
 4. **Craft Supports** — Build beams, ladders, and platforms to stabilize tunnels and reach new areas
-5. **Extract** — Get back to the elevator before the mine collapses. If you die underground, you lose everything you gathered that run
+5. **Extract** — Get back to the elevator before the mine collapses. The elevator leaves on a schedule whether you are on it or not, and anything not extracted is lost
 
-Between runs, you spend your extracted resources on permanent upgrades, new gear, and base customization.
+Between runs, you refine extracted ores back at your dwarven home, trade resources for coin, and spend that coin on permanent perks, skills, and gear upgrades.
 
 ## Your First Descent: Step by Step
 
 ### Step 1: Prepare at the Surface
 
-Before descending, check your available gear at the equipment rack. Your starting loadout includes:
-- **Battlemallet** — Your primary tool for mining AND combat
-- **Basic Lantern** — Lights up the darkness around you
-- **3 Flares** — Throw to light up distant areas temporarily
-- **5 Support Beams** — Place to reinforce unstable tunnels
-
-You can upgrade each of these between runs as you progress.
+Before descending, check what you have at your disposal. Your Battlemallet is your constant companion — it is your tool for mining **and** combat. You will also have a lantern (the most basic tool for navigating darkness), and you can craft flares, support beams, and other gear along the way. The exact starting inventory is not officially documented, so expect to learn by doing.
 
 ### Step 2: Take the Elevator Down
 
-The elevator is your lifeline. Remember its location — you must return to it to extract. Each descent starts at a random depth, and the mine layout is procedurally generated every run.
+The elevator is your lifeline. The mine collapses progressively from the moment your run starts, and the elevator leaves on a schedule — remember the way back, because the elevator will not wait for you.
 
 ### Step 3: Start Mining
 
-Swing your Battlemallet at rock walls to break through. Different rock types contain different resources:
-- **Brown stone** — Common ores like iron and copper
-- **Shimmering veins** — Valuable gems and rare metals
-- **Dark rock** — May contain relics but also dangers
-- **Crumbling walls** — Easy to break but may trigger collapses
+Swing your Battlemallet at rock to break through. Different depths of the mine hold different resources — officially the game only confirms that you gather **ores, treasures, and long-lost relics**, with rarer finds deeper down. The official materials do not name specific ore types yet, so treat any specific ore names you see in community posts as unconfirmed.
 
 ### Step 4: Watch Your Surroundings
 
-Pay attention to environmental cues:
-- **Creaking sounds** — Tunnel is becoming unstable; place support beams
-- **Glowing eyes in darkness** — Hostile creatures nearby
-- **Flickering lantern light** — Your lantern battery is running low
-- **Dust falling from ceiling** — Imminent collapse risk
+The official warning for new Delvelings: *"One wrong boot could cost you your life — or worse, your loot!"* Pay attention to the mine itself:
+
+- **Creaking and instability** — the tunnels are collapsing; place support beams and start moving toward the elevator
+- **Darkness** — your lantern lights the way; unseen dangers hide in the shadows
+- **Traps** — the mines are full of long-forgotten traps, so don't sprint blindly into unexplored areas
 
 ### Step 5: Know When to Leave
 
-The most important skill in Dwarf Delve is knowing when to extract. Greed is the number one killer of new Delvelings. If your inventory is comfortably full and the tunnels are becoming unstable, head back to the elevator.
+The most important skill in Dwarf Delve is knowing when to extract. Greed is the number one killer of new Delvelings. If your inventory is full and the tunnels are becoming unstable, head back to the elevator. The deeper you dig, the richer the haul — but the farther you are from safety.
 
 ## Combat Basics
 
-Your Battlemallet serves double duty as both mining tool and weapon. Combat tips for beginners:
+Your Battlemallet serves double duty as both mining tool and weapon. What the official materials confirm:
 
-- **Swing timing matters** — Time your swings carefully; whiffing leaves you vulnerable
-- **Back away while fighting** — Kite enemies toward areas you've already stabilized
-- **Use flares strategically** — Throwing a flare can reveal hidden enemies and give you a moment to assess
-- **Don't fight everything** — Sometimes it's smarter to mine around enemies than engage them
-- **Light is armor** — Enemies are more aggressive in total darkness. Keep your lantern charged
+- **It is your primary tool** — upgraded Battlemallet makes you hit harder and mine faster
+- **Positioning matters** — the game warns that one wrong boot can cost your life; don't fight with your back to a hazard
+- **Light is safety** — lanterns and flares illuminate the path ahead and uncover secrets hidden in the shadows
+
+No official enemy roster has been published, so combat guidance beyond these basics is still community speculation. Play cautiously until you learn what lurks below.
 
 ## Resource Management for New Players
 
-In your first few runs, prioritize these resources:
-1. **Iron Ore** — Most common, used for basic upgrades
-2. **Copper** — Used for lantern and flare upgrades
-3. **Gold Nuggets** — High value, prioritize extracting these safely
-4. **Relics** — Rare finds that unlock unique perks and decorations
+Because everything you gather is lost if you don't extract, treat every run as a series of small decisions:
+
+1. **Ores** — the backbone of progression; refined at home for coin
+2. **Treasures & relics** — rare finds that unlock unique perks and quarters decorations; high priority to bank
+3. **Heavy ores** — minecart rails exist precisely to "shift and store those heavy ores"; don't drag a full inventory of rock back on foot
 
 ## First 5 Runs: What to Focus On
 
 - **Run 1** — Just extract. Learn the controls and the feel of mining. Even a small haul is a win
 - **Run 2** — Try going one level deeper. Test placing support beams when the tunnel creaks
-- **Run 3** — Experiment with the minecart rails if you find tracks
-- **Run 4** — Focus on combat practice. Engage enemies deliberately to learn their patterns
-- **Run 5** — Push for a relic. Go deeper than before, but remember: get out alive
+- **Run 3** — Experiment with crafting flares and ladders, and watch for trap patterns
+- **Run 4** — Focus on your extraction route. Plan your path back to the elevator before you explore far
+- **Run 5** — Push for a relic or treasure. Go deeper than before, but remember: get out alive
 
 ## Early Upgrade Priorities
 
-After your first successful extractions, invest resources in:
-1. **Lantern upgrade** — More light means safer descents
-2. **Battlemallet damage** — Makes both mining and combat faster
-3. **Carrying capacity** — More loot per successful run
-4. **Support beam count** — More beams = deeper, safer runs
+After your first successful extractions, the official description confirms that "every piece of gear can be upgraded and customized to your playstyle." Exact upgrade trees and costs are not yet documented, but the priorities below follow from how the game works:
+
+1. **Battlemallet** — more mining speed and combat damage improves every run
+2. **Lantern** — more light means safer descents and fewer hidden surprises
+3. **Carry capacity** — the game confirms you can upgrade to "carry more loot"
+4. **Support beam count** — more beams = deeper, safer runs
 
 ## Common Beginner Mistakes
 
-- **Going too deep too fast** — You don't need to hit the bottom on your first run
-- **Ignoring creaking sounds** — Tunnel collapses are the #1 cause of death for new players
-- **Not using flares** — They're free to use and reveal hidden dangers
-- **Fighting everything** — Resources spent on combat means less time for mining
-- **Forgetting the elevator location** — Memorize landmarks on your way down
+- **Going too deep too fast** — you don't need to hit the bottom on your first run
+- **Ignoring creaking sounds** — tunnel collapses are the #1 confirmed cause of losing your loot
+- **Not using flares** — light reveals secrets and hidden dangers
+- **Exploring without a route back** — remember where the elevator is
+- **Assuming the elevator waits** — it leaves on a schedule, with or without you
+
+## What the Community Doesn't Know Yet
+
+Dwarf Delve launched on July 27, 2026 and is still being explored. As of early August 2026 there is no officially published list of ore types, enemy types, bosses, perk names, or upgrade costs. Early Steam reviews are **Mostly Negative** (32% positive from a small sample of ~25 reviews) — the common thread is a solid foundation that needs quality-of-life polish, and the developer is actively responding to feedback. Expect this guide and its companions to be updated as the community learns more.
 
 The mines are dangerous, but fortune favors the bold. Good luck, Delveling!

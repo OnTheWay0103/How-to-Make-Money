@@ -12,7 +12,7 @@ related: ["combat-guide", "beginner-guide", "coop-multiplayer-guide"]
 
 > Early Access Build (Act One) / Updated: August 1, 2026
 
-Stealth is the biggest new system in Expeditions: Samurai — a full third pillar alongside diplomacy and violence, and the first time the series has had one. The developers recruited **veterans of the Hitman series** to build the enemy AI, which tells you exactly how much depth to expect. This guide breaks down everything officially confirmed about the system and how to make it your party's deadliest weapon.
+Stealth is the biggest new system in Expeditions: Samurai — a full third pillar alongside diplomacy and violence, and the first time the series has had one. Press coverage has credited **veterans of the Hitman series** with work on the stealth AI — a detail we're marking **TBD** until official materials confirm it, though it tells you how much depth to expect. This guide breaks down everything officially confirmed about the system and how to make it your party's deadliest weapon.
 
 ## The Stealth Loop: Setup Beats Everything
 
@@ -31,8 +31,8 @@ That last step is the point: **the pre-combat setup phase is where battles are w
 
 Officially confirmed tools of the trade:
 
-- **Firecrackers** — Throw one to distract guards, drawing them off patrol routes and away from your approach.
-- **Smoke bombs** — Conceal movement and break enemy lines of sight for escapes and repositioning.
+- **Firecrackers** — Officially confirmed: throw one to lure guards away from patrol routes, slip past sentries, or set up silent takedowns.
+- **Smoke bombs** — Conceal movement and break enemy lines of sight for escapes and repositioning (**TBD**: previews have described smoke-type tools, but official materials have only confirmed firecrackers by name — the full gadget roster arrives with the launch build).
 - **Silent takedowns** — Remove sentries one by one to thin enemy lines before full-scale battle.
 - **Dynamic combat initiation** — You control exactly how (and whether) combat begins — including avoiding combat entirely in many situations.
 - **Party splitting** — The system is built around splitting the party; solo characters are viable at stealth tasks.
@@ -83,7 +83,7 @@ Stealth is not a "win button" — it's a multiplier. The best runs in Expedition
 
 - [ ] Scout the level's sightlines before engaging anything
 - [ ] Identify isolated sentries for takedowns
-- [ ] Carry at least one firecracker and one smoke bomb per stealth character
+- [ ] Carry at least one firecracker per stealth character (plus a smoke-type escape tool if the launch build has one)
 - [ ] Agree on the opener before triggering combat (especially in co-op)
 - [ ] Have a fallback plan — where do you retreat if the ambush fails?
 

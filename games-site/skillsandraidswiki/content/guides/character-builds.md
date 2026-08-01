@@ -1,152 +1,150 @@
 ---
-title: "Character Builds Guide — Archetypes, Skill Trees & Gear Synergies"
-description: "Complete character builds guide for Skills & Raids. Learn the main build archetypes including DPS, Tank, Support, and Hybrid, with skill tree recommendations, stat priorities, and gear synergies."
+title: "Skills & Raids Character Builds Guide — Roles & Loadout Synergies"
+description: "Character builds guide for Skills & Raids. How to build Shelldon the tank, Clawrk the DPS, and Owlivia the healer — role priorities, gear synergies, and loadout philosophy."
 category: "Guides"
 version: "1.0"
-updated: "2026-07-29"
-keywords: ["Skills & Raids builds", "Skills & Raids character builds", "Skills & Raids DPS build", "Skills & Raids tank build", "Skills & Raids support build", "Skills & Raids hybrid build", "Skills & Raids skill tree"]
-related: ["resource-management", "boss-mechanics", "beginner-guide", "skills-guide"]
+updated: "2026-08-01"
+keywords: ["Skills & Raids builds", "Skills & Raids character builds", "Skills & Raids Shelldon build", "Skills & Raids Clawrk build", "Skills & Raids Owlivia build", "Skills & Raids tank build"]
+related: ["character-guide", "beginner-builds", "builds-guide", "skills-guide", "beginner-guide"]
 ---
 
 ## Character Builds Guide — Skills & Raids
 
-Building your character effectively is the foundation of success in Skills & Raids. With five skill rarity tiers, multiple gear slots, and deep class customization, the number of possible builds is vast. This guide breaks down the main build archetypes, skill tree recommendations, stat priorities, and gear synergies to help you create a powerful character.
+Building your characters is the core loop of Skills & Raids: your fixed party of three animal heroes, each with two ability slots, grows stronger as you collect skills from enemies, complete quests, and craft gear. There are no character classes to choose and no skill trees — the build game here is *which six abilities* you bring and *how they synergize*. This guide covers each hero's build philosophy, gear priorities, and how the trio works as one machine.
 
-### Build Archetypes Overview
+### The Three Heroes (Confirmed)
 
-Every character in Skills & Raids fits into one of four broad archetypes. Your choice depends on your role in the party and the content you are tackling.
+| Hero | Animal | Role | Build Focus |
+|------|--------|------|-------------|
+| Shelldon | Turtle | Tank | Mitigation, threat, survivability |
+| Clawrk | Tiger | DPS | Damage, debuffs, finishing fights |
+| Owlivia | Owl | Healer | Sustain, cleanse, protection |
 
-| Archetype | Primary Role | Key Stats | Best Skills | Difficulty to Play |
-|-----------|-------------|-----------|-------------|-------------------|
-| DPS | Damage dealer | Attack, Crit Rate, Crit Damage, Penetration | Offense, Amplification | Medium |
-| Tank | Damage absorption | Defense, HP, Block, Taunt | Protection, Fortification | Easy |
-| Support | Healing and buffing | Healing Power, Speed, Resource Regen | Restoration, Augmentation | Medium |
-| Hybrid | Flexible role | Balanced stats, Versatility | Combination of 2+ skill types | Hard |
+(Note: early press coverage sometimes spells the healer "Wolivia"; Steam Next Fest demo coverage uses Owlivia, an owl healer.)
 
-### DPS Builds
+### Build Philosophy: Two Slots, One Identity
 
-#### Pure Physical DPS
+Each hero has **two ability slots** — that's the entire loadout. This creates the game's central design tension: every hero is defined by a *pair* of abilities. Building well means:
 
-Focuses on raw attack damage and critical strikes:
+1. **Each pair must cover its role's two jobs.** Shelldon needs survival + something (threat, debuff, or more survival). Owlivia needs direct healing + something (HoT, cleanse, or buff). Clawrk needs damage + something (debuff, DoT, or finisher).
+2. **Pairs must talk to each other across the party.** Synergy is the developer's stated build mechanic: combining skills creates powerful synergies. A debuff on Clawrk that feeds a damage ability is worth more than two unrelated strong abilities.
+3. **Keep the healer alive.** Every build decision downstream of Owlivia's survival is wasted if she dies.
 
-- **Stat Priority:** Attack > Crit Rate > Crit Damage > Penetration > Speed
-- **Skill Tree Focus:** Offense tree — Invest in "Power Strike," "Critical Eye," and "Deep Wounds"
-- **Gear Priority:** Weapons with high base attack, accessories with crit stats, armor with attack speed
-- **Best Skills:** Power Strike (core), Execute (finisher), Rally (self-buff), Flurry (multi-hit)
-- **Synergy:** Pairs well with Support characters that provide attack buffs. A Tank with Taunt keeps enemies off you.
+### Shelldon (Tank) Builds
 
-#### Magic DPS
+#### Standard Shield Turtle
 
-Focuses on elemental damage and area effects:
+The default tank build — maximum time-buying.
 
-- **Stat Priority:** Magic Attack > Penetration > Crit Rate > Resource Regen > Speed
-- **Skill Tree Focus:** Amplification tree — Invest in "Arcane Bolt," "Elemental Exposure," and "Chain Reaction"
-- **Gear Priority:** Staves and tomes with magic attack, penetration accessories, mana regen armor
-- **Best Skills:** Arcane Bolt (core), Firestorm (AoE), Frost Armor (defensive), Mana Surge (resource)
-- **Synergy:** Best with a Tank that groups enemies for your AoE. Support with resource regeneration helps sustain.
+- **Slot 1:** Mitigation / shield ability (reduce or absorb incoming damage)
+- **Slot 2:** Threat or aggro ability (draw enemy attacks onto the shell)
+- **Gear priority:** Defense and HP bonuses; shields if they exist as gear in your current build
+- **Playstyle:** Open with threat, keep mitigation rolling, never let the party take hits that you can take instead.
 
-### Tank Builds
+#### Self-Reliant Tank
 
-#### Shield Tank
+For runs where Owlivia needs to focus on Clawrk.
 
-The standard damage sponge build:
+- **Slot 1:** Mitigation
+- **Slot 2:** Self-heal / self-sustain
+- **Gear priority:** Defense plus any regeneration effects
+- **Playstyle:** You're the party's second healer. Let Owlivia top up Clawrk while Shelldon sustains himself.
 
-- **Stat Priority:** Defense > HP > Block > Taunt Effectiveness > Status Resistance
-- **Skill Tree Focus:** Protection tree — Invest in "Shield Wall," "Fortress Stance," and "Taunting Blow"
-- **Gear Priority:** Tower shields, heavy armor with defense %, HP accessories
-- **Best Skills:** Shield Wall (core), Provoke (taunt), Iron Will (defensive buff), Counterstrike (retaliation)
-- **Synergy:** Essential for any party. A Shield Tank + Pure Healer Support is the safest core.
+#### Debuff Tank
 
-#### Evasion Tank
+The aggressive tank — turns the front line into a synergy engine.
 
-Riskier but higher threat generation:
+- **Slot 1:** Mitigation
+- **Slot 2:** Debuff application (lower defense, weaken, or status application)
+- **Gear priority:** Defense with a bit of accuracy/effect chance for the debuff
+- **Playstyle:** Every enemy Shelldon debuffs becomes a target Clawrk can shred. This is the best tank setup for breaking strong enemy teams — the debuff feeds Clawrk's damage rotation.
 
-- **Stat Priority:** Evasion > Speed > Defense > HP > Counter Chance
-- **Skill Tree Focus:** Protection tree + Speed — Invest in "Swift Guard," "Riposte," and "Elusive Step"
-- **Gear Priority:** Light armor with evasion, speed boots, counter-attack accessories
-- **Best Skills:** Elusive Step (core), Swift Guard, Riposte (counter), Provoke (taunt)
-- **Synergy:** Works best with a Healer that has strong single-target heals, as health spikes are more frequent.
+### Clawrk (DPS) Builds
 
-### Support Builds
+#### Pure Burst
 
-#### Pure Healer
+The classic damage dealer.
 
-Maximum healing output:
+- **Slot 1:** High single-target burst ability
+- **Slot 2:** Finisher / execute-style ability or second damage ability
+- **Gear priority:** Damage, crit-style stats, penetration
+- **Playstyle:** Burn the most dangerous enemy first — enemy healers and supports die before they matter.
 
-- **Stat Priority:** Healing Power > Speed > Resource Regen > HP > Defense
-- **Skill Tree Focus:** Restoration tree — Invest in "Holy Light," "Regeneration," and "Cleanse"
-- **Gear Priority:** Healing staves, mana regen armor, speed accessories
-- **Best Skills:** Holy Light (core), Regeneration (HoT), Cleanse (debuff removal), Divine Shield (protection)
-- **Synergy:** Complements every party. Critical in boss fights with heavy damage phases.
+#### Debuff Engine
 
-#### Buffer Support
+The synergy-first DPS.
 
-Focuses on party-wide enhancements:
+- **Slot 1:** Debuff / setup ability
+- **Slot 2:** Payoff damage ability that benefits from the debuff
+- **Gear priority:** Damage plus effect chance
+- **Playstyle:** Setup → payoff rotation every fight. This is the build that makes "combining skills creates synergies" real on the field.
 
-- **Stat Priority:** Buff Duration > Speed > Resource Regen > Healing Power
-- **Skill Tree Focus:** Augmentation tree — Invest in "Empower," "Haste," and "Fortify"
-- **Gear Priority:** Buff duration armor, resource regeneration accessories, speed boots
-- **Best Skills:** Empower (attack buff), Haste (speed buff), Fortify (defense buff), Rejuvenate (resource restore)
-- **Synergy:** Pairs well with DPS-heavy parties. The party's damage output increases by 30-40% with full buffs active.
+#### DoT Grinder
 
-### Hybrid Builds
+For killing through healing.
 
-#### Battle Mage (DPS + Support)
+- **Slot 1:** Damage-over-time ability
+- **Slot 2:** Burst or secondary DoT
+- **Gear priority:** Damage; anything that lengthens or amplifies status effects
+- **Playstyle:** Stack DoTs and out-damage enemy healing. The counter to the "two healers + tank" enemy teams that demo reviewers found nearly unbeatable.
 
-- **Stat Priority:** Magic Attack > Healing Power > Speed > Resource Regen
-- **Skill Tree Focus:** Amplification + Restoration — split investment
-- **Best Skills:** Arcane Bolt, Holy Light, Mana Surge, Empower
-- **Playstyle:** Deals damage while providing off-healing and buffs. Fills a flex role in parties.
+### Owlivia (Healer) Builds
 
-#### Paladin (Tank + Support)
+#### Classic Medic
 
-- **Stat Priority:** Defense > Healing Power > HP > Block
-- **Skill Tree Focus:** Protection + Restoration — split investment
-- **Best Skills:** Shield Wall, Holy Light, Provoke, Fortify
-- **Playstyle:** Absorbs damage while sustaining through self-healing. Excellent for solo play.
+- **Slot 1:** Direct heal
+- **Slot 2:** Heal-over-time / regen
+- **Gear priority:** Healing-power bonuses
+- **Playstyle:** Direct heal at half HP, HoT rolling at all times. Simple, reliable, boring — that's good.
 
-#### Spellblade (DPS + Tank)
+#### Status Doctor
 
-- **Stat Priority:** Attack > Defense > Speed > Crit Rate
-- **Skill Tree Focus:** Offense + Protection — split investment
-- **Best Skills:** Power Strike, Shield Wall, Flurry, Iron Will
-- **Playstyle:** Frontline damage dealer with moderate survivability. High risk, high reward.
+For status-heavy areas.
 
-### Skill Tree Recommendations
+- **Slot 1:** Direct heal
+- **Slot 2:** Cleanse / status removal
+- **Gear priority:** Healing power plus any cleanse amplification
+- **Playstyle:** Watch party status icons (use pause to read them); cleanse immediately on tanks and DPS. Status effects "heavily influence the outcome of each encounter" per the official description — this build is the direct answer.
 
-| Character Level | Skill Points Available | Recommended Allocation |
-|-----------------|----------------------|----------------------|
-| 1-10 | 10 points | Focus on one primary tree (8 pts) + secondary tree (2 pts) |
-| 11-20 | 20 points | Primary tree capstone (12 pts), secondary tree foundation (8 pts) |
-| 21-30 | 30 points | Primary tree (18 pts), secondary tree (12 pts) |
-| 31-40 | 40 points | Primary tree (24 pts), secondary tree (16 pts), begin tertiary |
-| 41-50 | 50 points | Specialize: 25/15/10 split across three trees |
+#### Protector
 
-### Gear Synergies
+The healer who also keeps the party standing.
 
-Your gear choices should amplify your build's strengths:
+- **Slot 1:** Direct heal
+- **Slot 2:** Protective buff / shield for the party
+- **Gear priority:** Healing power, buff duration
+- **Playstyle:** Pre-buff before dangerous fights, heal through the aftermath. Especially valuable in the late-game content where enemy teams hit hard and fast.
 
-| Gear Slot | DPS Priority | Tank Priority | Support Priority |
-|-----------|-------------|---------------|------------------|
-| Weapon | High base attack | High block value | High healing power |
-| Helmet | Crit rate % | HP % | Resource regen |
-| Chest | Attack % | Defense % | Speed % |
-| Gloves | Crit damage | Taunt effectiveness | Buff duration |
-| Boots | Speed | Evasion | Speed |
-| Accessory 1 | Penetration | Status resistance | Resource regen |
-| Accessory 2 | Crit rate | Block % | Healing power |
+### Team-Level Synergy (The Real Build)
 
-### Build Crafting Tips
+Because the party is fixed, the actual "build" of Skills & Raids is the **six-slot team composition**. Strong confirmed-safe team patterns:
 
-1. **Match skills to gear.** If your gear provides penetration, pick skills that benefit from penetrating enemy defenses.
-2. **One primary, two secondary.** A focused build outperforms a jack-of-all-trades. Pick one primary role and two supportive roles.
-3. **Consider your party.** Build around your team's needs, not just your preferences. A party with two DPS needs a Tank more than a third DPS.
-4. **Test before committing.** Use the Training Ground to test skill rotations before spending skill points on upgrades.
-5. **Respeccing is free.** Do not be afraid to experiment. The respec cost is zero, so try different combinations freely.
+| Pattern | Shelldon | Clawrk | Owlivia | Best For |
+|---------|----------|--------|---------|----------|
+| Standard | Mitigation + Threat | Burst + Debuff | Heal + HoT | Learning, general quests |
+| Grinder | Mitigation + Self-heal | DoT + DoT | Heal + HoT | Long runs, attrition |
+| Debuff Rush | Mitigation + Debuff | Debuff + Burst | Heal + Cleanse | Breaking strong enemy teams |
+| Fortress | Mitigation + Self-heal | Burst + Debuff | Heal + Shield | Deep runs, high risk |
+
+### Gear Synergy Rules
+
+The exact gear system details (slots, enhancement) are **unconfirmed** — the Steam page confirms gear exists, uses the five rarity tiers, and is crafted from extracted resources. Confirmed-safe gear rules:
+
+1. **Match gear to the hero's role.** Defense gear on Shelldon, damage gear on Clawrk, healing gear on Owlivia.
+2. **Rarity matters but effect matters more.** A Common ability that fits the build beats a Rare that doesn't.
+3. **Craft conservatively until documented.** Exact crafting costs are unconfirmed; spend resources on core slots (heal, mitigation, damage) first.
+
+### What Is NOT Confirmed (Don't Trust Guides That Claim Otherwise)
+
+- No skill trees or leveling system is confirmed — progression is quest-driven.
+- No per-hero class system — roles are set by the heroes themselves.
+- The 30-skill full roster is undocumented; skill *names* in any guide are unverified unless you can match them in-game.
+- No enhancement/upgrade system is confirmed beyond crafting gear and skills.
 
 ### Related Guides
 
-- [Resource Management Guide](/guides/resource-management) — Manage stamina, health, and consumables
-- [Boss Mechanics Guide](/guides/boss-mechanics) — Learn boss patterns to optimize your build
-- [Skills Guide](/guides/skills-guide) — Complete skill system breakdown
-- [Beginner Guide](/guides/beginner-guide) — Getting started in Skills & Raids
+- [Character Guide](/guides/character-guide) — who the three heroes are and what coverage says about them
+- [Beginner Builds Guide](/guides/beginner-builds) — starter loadouts for each hero
+- [Builds Guide](/guides/builds-guide) — the build framework
+- [Best Skills & Builds Guide](/guides/best-skills-builds) — build optimization and upgrade priority
+- [Beginner Guide](/guides/beginner-guide) — getting started

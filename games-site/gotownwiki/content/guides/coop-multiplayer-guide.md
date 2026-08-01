@@ -17,7 +17,7 @@ Go-Go Town! markets its multiplayer as **"Chaotic Co-Op"** — team up with anot
 - **PC (Steam)** — up to **4 players** in online co-op and local split-screen, plus Steam Remote Play Together
 - **Nintendo Switch / Switch 2** — **1–2 players** locally and online (the Switch 2 Edition adds 1080p/60fps and improved visuals)
 
-PC split-screen uses a vertical orientation, so each player gets a top-and-bottom view of the town.
+PC split-screen layout details vary by version and display — some players report a vertical (top-and-bottom) split.
 
 ## How Co-op Works
 
@@ -27,10 +27,11 @@ Co-op gameplay includes timed challenges plus the relaxed activities (fishing, t
 
 ## Setting Up a Session
 
-- **Online co-op** — invite friends through your platform's friend system. Steam players can use standard invites or **Remote Play Together** to bring players who don't own the game.
-- **Local split-screen** — plug in controllers; the Steam version supports full controller play for 2–4 players on one machine.
+- **Online co-op** — the host opens the in-game phone's **Friends app** and invites Steam friends, or shares an **invite code** so friends can jump straight in. Any combination of up to 4 online or local split-screen players can share one town.
+- **Local split-screen** — Player 1 opens the phone's Friends app and presses Invite; Player 2 presses a button on a connected controller to join. The Steam version supports full controller play for 2–4 players on one machine.
+- **Steam Remote Play Together** — the host streams the game, so invited friends don't need to own it. Note: only one keyboard and mouse is supported — extra players need controllers.
 
-Steam Cloud syncs your town between sessions, and co-op towns are saved on the host's account.
+The host assigns invited players roles (**Vice-Mayor, Townie, or Tourist**) with customizable permissions, and co-op towns are saved on the host's account. If a player leaves mid-session, they drop a duffle bag with their gear that anyone can collect or move.
 
 ## Division of Labor: The Best Co-op Strategies
 

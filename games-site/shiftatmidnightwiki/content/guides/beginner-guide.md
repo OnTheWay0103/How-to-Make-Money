@@ -1,137 +1,128 @@
 ---
 title: "Shift At Midnight Beginner Guide: How to Survive Your First Shift"
-description: "Complete beginner guide for Shift At Midnight. Learn how to survive your first shift with controls, HUD, register, emails, stock quotas, and doppelganger encounters."
+description: "Complete beginner guide for Shift At Midnight. Learn how to survive your first shift with controls, the register, the NET database, stock quotas, and doppelganger encounters."
 category: "Guides"
 version: "1.0"
-updated: "2026-07-29"
+updated: '2026-08-01'
 keywords: ["shift at midnight beginner guide", "first shift tips", "how to play shift at midnight", "shift at midnight getting started", "shift at midnight tutorial"]
 related: ["doppelganger-guide", "coop-strategy-guide", "entity-survival-guide"]
 ---
 
 ## Welcome to Your First Shift
 
-Shift At Midnight is a viral co-op horror detective game by Fiddlesticks Games, released July 22, 2026 on Steam and Xbox Game Pass. With 37,000+ concurrent players at peak and a "Very Positive" (90%) rating, it puts you in the shoes of a night-shift worker at a 1990s gas station who must stock shelves, serve customers, and — most critically — identify shapeshifting doppelgangers hiding among real people.
+Shift At Midnight is a co-op horror detective game by solo Australian developer **Bun Muen**, published by **Kwalee**, released **July 22, 2026** on Steam and Xbox Game Pass. It holds a "Very Positive" (~90%) rating on Steam. You work the graveyard shift at a rural 1993 American convenience store and gas station in Midnight Town: stock shelves, serve customers, and — most critically — identify **doppelgangers** hiding among real people before they complete their purchase.
 
-This beginner guide covers everything you need to survive your first shift, from controls and HUD basics to your first doppelganger encounter.
+This beginner guide covers everything you need to survive your first shift, from controls to your first doppelganger encounter.
 
 ---
 
 ## Basic Controls
 
-Get familiar with these controls before your first night:
+Get familiar with these controls before your first night. Community-documented defaults are:
 
 | Action | PC Key | Description |
 |--------|--------|-------------|
 | Move | WASD | Standard movement |
-| Interact | E | Use register, open doors, grab items |
-| Sprint | Shift | Run (drains stamina) |
-| Crouch | Ctrl | Move quietly, hide in lockers |
-| Flashlight | F | Essential in dark areas |
-| Melee Attack | Left Click | Swing brick or bat |
-| Aim | Right Click | Aim ranged weapons |
-| Inventory | Tab | Check items and tools |
-| Quick Use | 1-4 | Hotkey tools and weapons |
-| Microphone | V | Push-to-talk (Entity can hear you) |
-| Pause Menu | Esc | Settings, save, quit |
+| Look / Interact | Mouse | Look around; click to interact with prompts |
+| Interact | E | Use the register, open doors, grab items |
+| Jump | Space | Jump over low obstacles |
+| Crouch | Left Ctrl | Move quietly, use hiding spots |
+| Drop item | G | Put down held items |
+| Reload | R | Reload your firearm |
+| Pause Menu | Esc | Settings, controls, quit |
 
-**Pro tip**: The microphone detection system is not a gimmick — if you make noise through your mic, The Entity can detect your location. Use push-to-talk (V) and stay silent during hunts.
+Push-to-talk / mute options are important: multiple community guides report that the entity and the Dentist can pick up open-microphone noise, so setting your mic to push-to-talk (or muting it during hunts) is strongly recommended.
 
 ---
 
-## Understanding the HUD
+## Understanding the Interface
 
-Your Heads-Up Display communicates critical information at a glance:
+Public documentation of the full HUD is thin, so treat specifics as unconfirmed. The verified interface elements are:
 
-- **Sanity Meter** (top-left, green crescent) — Decreases when near doppelgangers or during Entity hunts. Low sanity causes screen distortion and auditory hallucinations. Restore it by staying in lit areas or using sanity-restoring items.
-- **Stamina Bar** (below sanity) — Drains when sprinting. Regenerates when walking. Depleted stamina prevents sprint.
-- **Inventory Slots** (bottom-center) — Your equipped items, weapons, and tools. Max 6 slots.
-- **Register Total** (top-right during register duty) — Shows current cash earned and daily quota progress.
-- **Customer Queue** (register HUD) — Number of customers waiting. Manage this to avoid rush.
-- **Stock Quota Timer** — Remaining time to complete restocking requirements.
+- **The register** — your primary workstation. You scan each customer's purchases and scan or inspect their **ID**. The register also runs the **question prompts** for screening.
+- **The customer queue** — customers line up at the counter; serving them promptly keeps the shift moving.
+- **The NET Database** — accessed from the store's computer terminal. Search names and ID details to cross-reference a customer's story.
+- **The noticeboard** — read it at the start of every shift. Objectives are listed here, and community guides note it can also disprove customer stories (for example, a customer claims to work at a diner the paper says burned down).
+- **The Shop Terminal** — the store computer where you buy traps and weapons for the Emergency Arsenal before the shift's threats appear.
 
 ---
 
 ## Your First Night: Step-by-Step
 
-### 1. Clock In and Set Up
+### 1. Clock In and Read the Noticeboard
 
-Your first shift starts at midnight. Approach the register, press E to clock in, and the shift briefing plays automatically. Pay attention to the manager's instructions — they hint at store-specific hazards.
+Your shift starts with the store's routine. Read the noticeboard for the shift's objectives — confirmed examples include cleaning up the previous night's mess and meeting a nightly money goal.
 
-### 2. Check Your Email Terminal
+### 2. Clean Up and Prep
 
-The **Shop Terminal** in the back office is your command center. Check emails from management and colleagues — they often contain important warnings:
-- Supplier delivery notes (what stock to expect)
-- "Customer complaint" reports (flagged suspicious behavior)
-- Anonymous tips about strange activity
+A confirmed early routine from the campaign's first shifts:
+
+- **Grab the mop** and clean the blood in the next room
+- **Bag any limbs** in trash bags and dump them outside
+- **Leave the garage door open** for the delivery truck
+- **Stock shelves** from the delivery boxes
+
+Restocking matters: the store enforces a **stock quota** — community guides mention a minimum of **15 items on the front shelves** — and a **nightly money goal** you're expected to hit or face consequences.
 
 ### 3. Understand the Register
 
-The cash register is your primary workstation. Key functions:
+The cash register is where the detective game happens:
 
-- **Ring up items** — Scan each customer's purchases
-- **5-Question System** — Ask customers questions while ringing them up (critical for doppelganger ID)
-- **ID Check Prompt** — When the customer appears suspicious, the register prompts you to verify their ID
-- **Cash Drawer** — Counts daily earnings. You earn $10 base salary plus 10% commission on sales
+- **Scan purchases** — ring up each customer's items
+- **Scan their ID** — compare the ID photo, name, birth date, and expiration against the person in front of you
+- **Ask questions** — you get a limited pool of questions per customer (reported as up to **5**); use them to cross-check what their ID and the database say
+- **Cross-reference the NET Database** — check whether the person is listed, whether their occupation and appearance match, and whether their details contradict their story
 
-### 4. Stock Shelves
+### 4. Serve Doppelgangers Correctly
 
-Between customers, restock shelves from delivery crates. The stock quota system requires you to:
+The core rule every guide agrees on: **kill a confirmed doppelganger before it completes its purchase.** If a fake finishes paying, the store locks down for a **60-second alert** and the creature returns later in a more monstrous form. Shooting before payment skips the alert entirely.
 
-- Check the delivery manifest at the Shop Terminal
-- Open crates in the back room
-- Carry boxes to designated shelf locations
-- Stock items before the timer expires
+### 5. Survive the End-of-Shift Phase
 
-Failing the stock quota reduces your shift bonus and increases customer impatience (making ID checks harder).
+After the last customer, the night ends with an **entity attack**. Expect to:
 
-### 5. Handle Urgent Tasks
+- **Barricade the three doors** with planks
+- **Lay traps** in the path of the attack
+- **Hide** — ventilation shafts work but only temporarily; if you stay too long you get dragged out
+- **Stay quiet** — community guides report the entity tracks audio
 
-During each shift, urgent tasks appear. These are time-limited and optional but highly rewarding:
+### 6. Catch the Bus
 
-| Task | Time Limit | Reward |
-|------|-----------|--------|
-| Kill cockroaches | Varies | $0.50 per roach |
-| Kill mice | Varies | $1.00 per mouse |
-| Clean store stains | Varies | $0.10 per stain |
-| Collect meat in forest | 60 seconds | Up to $30 bonus |
-
-The **forest meat collection** is the most dangerous urgent task — it requires going outside into the dark, where Entity activity is highest. Bring a flashlight and be ready to run.
+At the end of the shift you leave by bus. From **Shift 5** onward, boarding matters: **an empty driver's seat means the bus is safe; a driver sitting in it is a doppelganger**, and boarding that bus introduces one of the fastest monsters in the game.
 
 ---
 
 ## Your First Doppelganger Encounter
 
-The defining moment of your first shift will be your first doppelganger encounter. Here is what to expect:
+**Warning signs** (from community guides):
 
-**Warning signs**:
-- A customer's name does not match their ID
-- Their appearance briefly flickers or glitches
-- They ask unusual questions ("What year is this?")
-- Their purchase doesn't make sense (buying only single items in odd quantities)
-- The door opens but nobody walks in
+- ID photo does not match the person (eyes, hair, expression, age)
+- Name, date of birth, or expiration details contradict the NET database
+- Their stated occupation doesn't match their story or the database
+- Subtle appearance flaws: scars on the wrong side, mismatched features
+- Unnatural behavior: standing perfectly still, not blinking, rehearsed answers that collapse when re-asked
 
 **What to do**:
-1. Press E to begin ringing them up
-2. Use the register's **5-Question System** to ask screening questions
-3. Cross-reference their answers with the **NET Database** (accessible from the Shop Terminal)
-4. If suspicious, hit the panic button under the counter
-5. If confirmed as a doppelganger, use a weapon or call for backup
 
-**Survival rule**: When in doubt, hit the panic button. A false alarm is better than a confirmed kill.
+1. Start ringing them up and scan the ID
+2. Ask screening questions — budget them, and focus on anything the ID and database can verify
+3. Cross-reference the NET Database — two or three stacked contradictions (wrong job + mismatched ID + odd behavior) are a much stronger signal than any single clue
+4. If confirmed: **shoot before payment completes**
+
+**Survival rule**: never act on a single clue. Players regularly shoot innocent people over one misread birth date. Stack your evidence first.
 
 ---
 
 ## Making Money on Your First Shift
 
-Your income comes from multiple sources:
+Verified money facts (community-reported):
 
-- **$10 daily salary** — Guaranteed per shift
-- **10% commission** — On all sales you process
-- **Prize wheel tokens** — Random bonuses
-- **Living rats** — $3 each (catch and sell)
-- **Cleaning revenue** — $0.10 per stain cleaned
+- The store enforces a **nightly money goal** and a **stock quota (15+ items on front shelves)** — meeting them avoids punishment
+- The campaign introduces a **rat bonus task** on Shift 4 — throwing rats in the trash before the next customer pays steady income
+- **Keep store money and personal funds separate** — the True Ending checks your *personal* cash
+- Starting around Shift 10, you learn the pet needs **$250 surgery** — saving that in personal cash before the finale matters for the ending
 
-**First shift goal**: Save at least $50 by the end of Night 3. This is the minimum runway for buying tools and weapons like the Brick ($5) or Baseball Bat ($20).
+Specific dollar amounts for salary, commission, and side tasks vary across community reports and are **not confirmed** — treat any precise figure you see elsewhere as unverified.
 
 ---
 
@@ -139,11 +130,12 @@ Your income comes from multiple sources:
 
 | Mistake | The Fix |
 |---------|---------|
-| Ignoring the Shop Terminal | Check emails every shift — they contain vital warnings |
-| Skipping ID checks | Not asking questions lets doppelgangers slip through |
-| Hoarding cash | Spend $20 on a Baseball Bat by Night 2 — it saves lives |
-| Ignoring the forest task | The 60-second meat run is risky but the $30 bonus is worth it |
-| Talking during quiet moments | The Entity hears your microphone — stay silent |
-| Failing stock quotas | Prioritize stock between customer rushes |
+| Not reading the noticeboard | It lists objectives and can disprove customer stories |
+| Skipping ID checks | Not verifying lets doppelgangers slip through |
+| Acting on one clue | Two or three stacked contradictions confirm a fake — one odd answer doesn't |
+| Letting fakes pay | Kill before payment or eat the 60-second lock-up alert |
+| Boarding the wrong bus | From Shift 5, a bus with a driver in the seat is a trap |
+| Talking during hunts | Community reports say the entity tracks audio — stay silent |
+| Mixing store and personal money | Keep the funds separate; the ending checks personal cash |
 
 Ready to identify impostors like a pro? Read the [Doppelganger Guide](/guides/doppelganger-guide) for the complete ID system. For team play, check the [Co-Op Strategy Guide](/guides/coop-strategy-guide).

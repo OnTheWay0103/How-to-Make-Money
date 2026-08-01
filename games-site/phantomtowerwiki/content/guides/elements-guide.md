@@ -1,149 +1,90 @@
 ---
-title: 'Phantom Tower Elements Guide — Elemental System & All 16 Reactions'
-description: 'Master Phantom Tower elemental combat — IGNIS, AQUA, TERRA, VENTI explained with all 16 elemental reactions, swap strategies, combo chains, and best element pairings for every class.'
-keywords: ['Phantom Tower elements', 'Phantom Tower elemental reactions', 'Phantom Tower IGNIS', 'Phantom Tower AQUA', 'Phantom Tower TERRA', 'Phantom Tower VENTI', 'Phantom Tower elemental combos']
-updated: '2026-07-30'
+title: 'Phantom Tower Elements Guide — Elemental System & Reactions'
+description: 'Master Phantom Tower elemental combat — the four elements IGNIS, AQUA, TERRA, VENTI, mid-fight element swapping, the 16 elemental reactions, and the three officially named reactions: Freeze, Erode, and Shockwaves.'
+category: 'Guides'
+version: 'Early Access'
+updated: '2026-08-01'
+keywords: ['Phantom Tower elements', 'Phantom Tower elemental reactions', 'Phantom Tower IGNIS', 'Phantom Tower AQUA', 'Phantom Tower TERRA', 'Phantom Tower VENTI', 'Phantom Tower element swapping']
+related:
+  - combat-guide
+  - beginner-guide
+  - best-builds
+  - blessings-guide
 ---
 
-# Phantom Tower Elements Guide — Elemental System & All 16 Reactions
+# Phantom Tower Elements Guide — Elemental System & Reactions
 
-Phantom Tower's elemental system is what separates it from other roguelike action RPGs. Four elements can be swapped mid-combat to trigger 16 unique reactions, adding a layer of tactical depth beyond simple hack-and-slash. This guide breaks down every element, every reaction, and how to build devastating elemental combos.
+Phantom Tower's elemental system is what separates it from other hack-and-slash roguelikes. Most action games let you pick one damage type and stick with it; Phantom Tower gives you four elements and asks you to switch between them **mid-fight** to trigger reactions. It is a genuinely different combat loop — part reaction shooter, part combo fighter. This guide covers the four elements, the 16 reactions, and the honest truth about what has and has not been officially published.
 
 ## The Four Elements
 
-### IGNIS — Fire Element (Red)
+The four elements are officially confirmed, Latin-named, and thematically straightforward:
 
-**Specialty:** Damage over time, AoE explosions, raw DPS
-**Status Effect:** Burning — deals 5% max HP per second for 3 seconds
-**Best Against:** Groups of enemies, bosses with large hitboxes
-**Classes with Affinity:** Warrior, Berserker
+| Element | Meaning |
+|---------|---------|
+| **IGNIS** | Fire |
+| **AQUA** | Water |
+| **TERRA** | Earth |
+| **VENTI** | Wind |
 
-IGNIS is your go-to damage element. If you want things to die faster, use fire. The burn DoT stacks with each hit, making fast weapons particularly effective with IGNIS.
+Each class has an **elemental affinity** (per the official description), and the elements combine through the reaction system. What has not been officially published: element colors, exact per-element status effects, damage numbers, and which classes align with which elements. Guides that assign colors and status percentages to each element are extrapolating.
 
-### AQUA — Water Element (Blue)
+## Mid-Fight Element Swapping — The Core Mechanic
 
-**Specialty:** Freezing, crowd control, sustain, healing
-**Status Effect:** Chilled — slows enemy movement and attack speed by 40%
-**Best Against:** Fast enemies, boss enrage phases, Survival Mode
-**Classes with Affinity:** Mystic
+The signature mechanic, straight from the official description: players **swap elements in real time** to trigger the reaction the current situation demands.
 
-AQUA is the defensive element. Freezing enemies mid-combo gives you breathing room, and the Chill status effect makes fast bosses manageable. AQUA also provides the only innate healing in the game.
+Why that matters:
 
-### TERRA — Earth Element (Green)
+- **There is no "one correct element."** The design pushes you to adapt mid-combat — freeze the charging pack, then swap to burn the frozen targets
+- **Reactions, not raw damage, are the tool.** The press materials describe combat where the reaction you trigger matters as much as the attack that carries it
+- **Every class can do it.** Elemental affinity nudges you toward a home element, but swapping is universal
 
-**Specialty:** Defense, shields, debuff spreading, erosion
-**Status Effect:** Erode — corrosive effect that jumps to nearby enemies when target dies
-**Best Against:** Dense enemy rooms, tank builds, Survival Mode waves
-**Classes with Affinity:** Guardian
+**Beginner pattern:** apply one element's effect, then swap to a second element to trigger a reaction. The first element sets up, the second detonates. That two-beat rhythm — set up, detonate — is the entire system in miniature.
 
-TERRA is the tank's element. It grants damage reduction, generates shields, and its Erode status effect spreads like a plague through enemy groups — perfect for room clearing.
+## The 16 Elemental Reactions — Confirmed vs. Unpublished
 
-### VENTI — Wind Element (Yellow)
+The game has **16 elemental reactions** — that count is official. The official press materials describe the system's flavor: freezing packs solid, spreading corrosion that chains between enemies, chaining shockwaves across rooms.
 
-**Specialty:** Speed, mobility, chain attacks, evasion
-**Status Effect:** Gale — increases attack speed and movement speed by 20%
-**Best Against:** Kiting strategies, dodge-intensive fights, boss speed phases
-**Classes with Affinity:** Blade Dancer, Ranger, Rogue
+Only three reactions have been officially named:
 
-VENTI is the mobility element. The Gale buff makes everything faster — attacks, movement, dodge recovery. Chain attacks let VENTI damage jump between enemies, making it excellent for multi-target fights.
+| Reaction | Official Description | Element |
+|----------|----------------------|---------|
+| **Freeze** | Immobilizes enemies | AQUA-based |
+| **Erode** | Corruption from fallen enemies that spreads and chains across groups | TERRA-based |
+| **Shockwaves** | Damage that traverses entire rooms | VENTI-based |
 
-## All 16 Elemental Reactions
+The other 13 reactions are **not yet officially documented**. Any guide presenting a full 16-reaction table with names like "Steam Burst," "Magma Eruption," or "Cyclone" is inventing those names. They may exist in the game — the count is real — but the official record does not name them, so treat those tables as unverified.
 
-Elemental reactions trigger when you swap elements mid-attack. The first element sets up the status, and the second element triggers the reaction. Here is every combination:
+## Reaction Strategy with Confirmed Knowledge
 
-### IGNIS (Fire) Combinations
+You can plan around the three confirmed reactions right now:
 
-| Combo | Reaction | Effect | Best Use |
-|-------|----------|--------|----------|
-| IGNIS + IGNIS | **Inferno** | Double burn damage, AoE fire explosion | Boss DPS phases |
-| IGNIS + AQUA | **Steam Burst** | AoE damage + blind nearby enemies (3s) | Escaping surrounded situations |
-| IGNIS + TERRA | **Magma Eruption** | High single-target damage + armor shred | Boss killing, elite enemies |
-| IGNIS + VENTI | **Firestorm** | Chain fire damage between all nearby enemies | Room clearing, dense mob groups |
+**Freeze is your control tool.** The official description says it immobilizes enemies — plural. When a pack of enemies is about to overwhelm you, freeze is the response. It is the safest reaction in the game for new players because it converts a dangerous moment into a free damage window.
 
-### AQUA (Water) Combinations
+**Erode is your room-clear tool.** Erode spreads from fallen enemies and chains across groups. That means it rewards kills: drop one enemy, and the corruption does the rest of the room's work. Focus the weakest enemy first in dense rooms and let Erode propagate.
 
-| Combo | Reaction | Effect | Best Use |
-|-------|----------|--------|----------|
-| AQUA + IGNIS | **Scald** | Medium damage + defense debuff | Weakening tough enemies |
-| AQUA + AQUA | **Deep Freeze** | Full freeze (3s) + shatter damage on hit | Boss enrage phases, dangerous elites |
-| AQUA + TERRA | **Quagmire** | AoE slow (60%) + Erode spread | Controlling large enemy groups |
-| AQUA + VENTI | **Frost Storm** | AoE freeze + slow in a wide area | Survival Mode wave control |
+**Shockwaves are your reach tool.** Damage that traverses entire rooms lets you punish enemies you are not even standing next to. Kite a group into a line, then trigger a shockwave down the room.
 
-### TERRA (Earth) Combinations
+**Everything else is exploration.** With 13 reactions unnamed, the best early-game practice is deliberately testing pairs of elements. Swap IGNIS into AQUA, TERRA into VENTI, and so on — you are discovering reactions the official record has not named yet, and every one you find is an advantage no guide can give you.
 
-| Combo | Reaction | Effect | Best Use |
-|-------|----------|--------|----------|
-| TERRA + IGNIS | **Volcanic Shield** | Damage shield + burn aura | Tanking while dealing damage |
-| TERRA + AQUA | **Petrify** | Stun (2s) + defense down | Setup for burst damage |
-| TERRA + TERRA | **Earthen Fortress** | Massive damage reduction (50%, 5s) | Boss ultimate attacks, Survival Mode |
-| TERRA + VENTI | **Sandstorm** | AoE blind + damage over time | Disabling ranged enemies |
+## Element Pairings by Class — TBD
 
-### VENTI (Wind) Combinations
+Class-to-element affinity tables exist in several guides, but the official materials do not publish them. What is confirmed:
 
-| Combo | Reaction | Effect | Best Use |
-|-------|----------|--------|----------|
-| VENTI + IGNIS | **Thermal Updraft** | Launch enemies airborne + burn | Isolating dangerous enemies |
-| VENTI + AQUA | **Hailstorm** | Rapid shard damage + chill | Sustained DPS with CC |
-| VENTI + TERRA | **Dust Devil** | Pull enemies together + slow | Grouping enemies for AoE |
-| VENTI + VENTI | **Cyclone** | Massive AoE pull + damage | Ultimate room clearing |
+- Every class has an elemental affinity — the official description says so
+- Four of eight classes are confirmed (Warrior, Mage, Archer, Assassin), and their affinities are **not** published
+- The mobile version's Necromancer exists separately from the Steam roster
 
-## Elemental Combos for Every Situation
-
-### Boss Killing Combo: IGNIS → TERRA → IGNIS
-```
-1. Start with IGNIS to apply burn
-2. Swap to TERRA for Magma Eruption (armor shred + high damage)
-3. Swap back to IGNIS for Inferno (double burn on shredded target)
-```
-This is the highest single-target damage rotation. Use it during boss DPS windows.
-
-### Room Clearing Combo: VENTI → IGNIS → VENTI
-```
-1. Start with VENTI for Gale (speed boost)
-2. Swap to IGNIS for Firestorm (chain damage)
-3. Swap back to VENTI for Cyclone (pull survivors + finish)
-```
-Clears rooms faster than any other combo. Ideal for speed runs.
-
-### Survival Combo: TERRA → AQUA → TERRA
-```
-1. Start with TERRA for Earthen Fortress (50% DR)
-2. Swap to AQUA for Quagmire (AoE 60% slow)
-3. Swap back to TERRA for Erode spreading
-```
-The safest combo. You are nearly unkillable while this is active.
-
-### Speedrun Combo: VENTI → VENTI → IGNIS
-```
-1. Gale buff for movement speed
-2. Cyclone to pull all enemies into a pile
-3. Instant Firestorm to delete the pile
-```
-Maximum efficiency for farming floors quickly.
-
-## Element Pairings by Class
-
-| Class | Primary | Secondary | Notes |
-|-------|---------|-----------|-------|
-| Warrior | IGNIS | TERRA | IGNIS for damage, TERRA for when you need defense |
-| Elementalist | All Four | — | Rotate based on situation; mastery of all 16 reactions required |
-| Blade Dancer | VENTI | IGNIS | VENTI for dodge synergy, IGNIS for burst windows |
-| Berserker | IGNIS | VENTI | IGNIS for rage-boosted burns, VENTI for gap closing |
-| Ranger | VENTI | AQUA | VENTI for speed kiting, AQUA for freezing chasers |
-| Guardian | TERRA | AQUA | TERRA for defense, AQUA for sustain |
-| Mystic | AQUA | TERRA | AQUA for support, TERRA for survivability |
-| Rogue | VENTI | IGNIS | VENTI for mobility, IGNIS for backstab burst |
+Until the developer publishes the affinity table, the honest approach: try each element on your main class and use the one whose reactions you trigger most naturally.
 
 ## Advanced Elemental Tips
 
-**1. Pre-load elements before boss fights.** Apply your first element's status effect before the boss arena — the timer starts when you enter, and having burn/chill already applied saves precious seconds.
+**1. Swap as a reflex, not a plan.** The game's combat is built around mid-fight swapping — if you only swap when you remember to, you are fighting the design. Make the two-beat rhythm (set up, detonate) your default loop.
 
-**2. Elemental affinity matters.** Classes with elemental affinity deal 25% more damage and apply status effects 50% faster with their affinity element. Build around your affinity.
+**2. Watch for reaction synergy with blessings.** The two officially named Tower Blessings both interact with the broader combat loop — Artemis Dive (evasion summons tracking arrows) and Chain Quake (shockwaves chain between enemies). A VENTI-based playstyle plus Chain Quake is a confirmed-adjacent synergy worth building toward.
 
-**3. Reaction immunity windows.** During a reaction animation (roughly 0.5 seconds), you are briefly invincible. Skilled players use reaction swaps to dodge through undodgeable attacks.
+**3. Test pairs in easy rooms.** Early floors are the lab. Before a boss, deliberately trigger as many different reaction pairs as you can — the knowledge pays off in the fight.
 
-**4. Reaction stacking.** You can have two status effects active simultaneously. Apply IGNIS burn, then swap to TERRA for Erode — both will tick independently.
+**4. Ignore "elemental weakness" tables for now.** With affinities unpublished, guides claiming specific boss weaknesses are guesses. Play the fight, not the chart.
 
-**5. Elemental crystals are valuable.** Elemental crystals (dropped by elite enemies) let you forge elemental-infused weapons that always apply a specific element regardless of your current attunement. Save these for boss-killing weapons.
-
-**Next steps:** Pair this knowledge with our [Best Builds Guide](/guides/best-builds) for complete build strategies, or read the [Tower Blessings Guide](/guides/blessings-guide) to learn which blessings amplify elemental damage.
+**Next steps:** Combine elements with movement in the [Combat Guide](/guides/combat-guide), or see how reactions fit into builds in the [Best Builds Guide](/guides/best-builds).

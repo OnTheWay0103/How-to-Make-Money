@@ -72,7 +72,7 @@ export function videoGameSchema(): Record<string, unknown> {
     },
     offers: {
       '@type': 'Offer',
-      price: '19.99',
+      price: '15.99',
       priceCurrency: 'USD',
       availability: 'https://schema.org/InStock',
       url: 'https://store.steampowered.com/app/3152750/Taival/',

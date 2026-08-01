@@ -1,140 +1,117 @@
 ---
-title: "Lunarium Combat Guide — Parry, Dodge & Resonance System"
-description: "Master Lunarium's combat system. Complete guide to parry timing, dodge mechanics, Resonance Points, coordinated attacks, and advanced combat techniques."
+title: "Lunarium Combat Guide — Parry, Dodge, Resonance & Lune"
+description: "Master Lunarium's combat: parry timing, dodge mechanics, red-flash unparriable attacks, the stagger bar, Resonance gauge, and Lune's arrow interrupts. Verified mechanics, honest unknowns."
 category: "Combat"
 version: "1.0"
-updated: "2026-07-25"
-keywords: ["Lunarium combat guide", "Lunarium parry", "Lunarium dodge", "Lunarium Resonance Points", "Lunarium how to parry", "Lunarium combat tips"]
-related: ["beginner-guide", "ave-build-guide", "boss-guide", "lune-guide"]
+updated: "2026-08-01"
+keywords:
+  - Lunarium combat guide
+  - Lunarium how to parry
+  - Lunarium parry guide
+  - Lunarium dodge
+  - Lunarium combat tips
+related:
+  - beginner-guide
+  - boss-mechanics
+  - ave-build-guide
+  - lune-guide
+  - boss-guide
 ---
 
-# Lunarium Combat Guide — Parry, Dodge & Resonance System
+# Lunarium Combat Guide — Parry, Dodge, Resonance & Lune
 
-**Lunarium 1.0 / Updated: July 25, 2026**
+**Lunarium 1.0 / Updated: August 1, 2026**
 
-Lunarium's combat is built around three core mechanics: parrying, dodging, and the Resonance Points system. This guide explains how each works and how to combine them for maximum effectiveness.
+Lunarium's combat is built around a small set of mechanics: **parrying**, **dodging**, the **stagger bar**, and the shared **Resonance** gauge with **Lune** as your combat partner. This guide explains what's verified and marks what isn't.
+
+> **Correction note:** an earlier version of this guide invented specific numbers (RP costs, dodge stamina values, named Resonance skills like "Resonance Strike"). Those numbers are not published anywhere reliable and have been removed. We only present mechanics confirmed by walkthroughs and press coverage.
 
 ---
 
 ## 1. The Parry System
 
-### How Parrying Works
-A successful parry occurs when you press Block (L1/LB) within a short window before an enemy attack lands. The timing window depends on your equipped skills and charms.
+### How It Works
+Press block within a short window before an enemy attack lands:
+- **Successful parry:** negates the damage, **staggers** the enemy, opens a counter window.
+- **Failed/early parry:** behaves like a block — reduced or partial damage, no stagger.
 
-| Parry Result | Effect |
-|-------------|--------|
-| **Perfect Parry** | Zero damage, enemy staggered, +30 Resonance, counter window |
-| **Partial Parry** | Reduced damage (70% block), no stagger, +10 Resonance |
-| **Missed Parry** | Full damage taken, stamina penalty |
-
-### Reading Enemy Attacks
-Every enemy has a **tell** before attacking:
-
-| Indicator | Meaning | Response |
+### The Red Flash Rule
+| Attack cue | Meaning | Response |
 |-----------|---------|----------|
-| White flash on weapon | Parry-able attack incoming | Parry immediately after flash |
-| Red flash / glow | Unblockable attack | Dodge — cannot be parried |
-| Enemy pauses / inhales | Heavy attack charging | Prepare to dodge or perfect parry |
-| Multiple quick flashes | Combo attack incoming | Parry first hit, dodge the rest |
+| Normal telegraph / white flash | Parry-able | **Parry** |
+| **Red flash / red glow** | **Unparriable** | **Dodge only** |
 
-### Parry Windows by Enemy Type
+Confirmed red-flash examples: Longhorn Troll's enrage attacks (below 40% HP), Lilia's thrust/Nihilus AoE/projectile spam/spear slam, Sentinel Colossus' ground smash, Fintan's jump smash, Hauler Colossus' self-slam.
 
-| Enemy Size | Parry Window | Strategy |
-|-----------|-------------|----------|
-| Small (Wisps, Sprites) | Very short (~0.15s) | Block preemptively, less risk |
-| Medium (Knights, Corrupted) | Standard (~0.25s) | React to flash, standard timing |
-| Large (Bosses) | Generous (~0.35s) | Watch weapon, not body |
-| Giant (Guardians) | Variable | Learn per-boss pattern |
-
----
+### Parry Tips
+- Learn tells per enemy — bosses mix parry-able and red-flash hits in the same combo (Lilia's feint opener is the exam).
+- Don't spam block — a red flash punishes it, and mistimed blocks leave you open.
+- The **Blade of Rutila** (earned from Lilia) is the one tool that works *against* red-flash attacks — it interrupts them with heavy stagger damage.
 
 ## 2. Dodge Mechanics
 
-### Dodge Types
+- Dodge grants **i-frames** and is the only defense against red-flash attacks.
+- **Dodge distance is short** — a common launch complaint. Position early; don't rely on dodging through attacks.
+- Use dodge to: escape red flashes, reposition for Lune's line of fire, create space to heal.
 
-| Dodge | Input | Stamina Cost | I-Frames | Use Case |
-|-------|-------|-------------|----------|----------|
-| Quick Dodge | Tap Circle/B | 15 | 8 frames | Repositioning |
-| Combat Roll | Direction + Circle/B | 25 | 12 frames | Escaping combos |
-| Perfect Dodge | Dodge just before hit | 20 | 16 frames | Counter-attack bonus |
+**When to dodge vs. parry:** parry the white-flash attacks, dodge the red-flash attacks. In crowds, dodge more and parry only what you read clearly.
 
-### When to Dodge vs. Parry
+## 3. The Stagger Bar
 
-| Situation | Use | Reason |
-|-----------|-----|--------|
-| White flash attack | Parry | Builds RP, staggers enemy |
-| Red flash attack | Dodge | Cannot be parried |
-| Multiple enemies | Dodge | Parrying in a crowd is risky |
-| Low health | Dodge | Safer than risking a missed parry |
-| Boss AoE | Dodge | Parry doesn't work on AoE |
+Bosses and elites have a **stagger bar**:
 
----
+- Fill it with parries, pressure, and **Lune's arrows** (arrows stagger and hold the bar against draining).
+- When full, the enemy staggers — a long free-damage window.
+- **Stagger wins fights:** the Hauler Colossus is won by staggering it twice; Elmo's shield breaks on one stagger.
 
-## 3. Resonance Points System
+Exact bar values and decay rates are **unconfirmed**.
 
-### Generating Resonance
-Resonance Points (RP) are the shared resource between Ave and Lune. They fill a gauge with a maximum of 100 RP.
+## 4. The Resonance Gauge (Shared Resource)
 
-| Action | RP Generated |
-|--------|-------------|
-| Perfect Parry | +30 |
-| Partial Parry | +10 |
-| Lune lands a spell | +5 |
-| Defeat an enemy | +15 |
-| Break an enemy's guard | +25 |
-| Take damage | +3 |
+**Verified facts:**
+- Resonance is a **shared gauge** between Ave and Lune, built through combat.
+- Reviews confirm Lune **builds enemy stagger meters via Resonance Points** while fighting alongside Ave.
+- **Astral Shards** (found in Cyanstone) **raise the resonance cap**.
+- Resonance powers coordinated Ave + Lune output — community walkthroughs describe spending Resonance for burst moments in boss fights.
 
-### Spending Resonance
+**Unconfirmed:** exact generation rates, cap values, and the names/costs of Resonance-spending skills. Guides quoting "+30 Resonance per parry" or "Resonance Strike (50 RP)" are inventing numbers — treat them as fiction until verified.
 
-| Resonance Skill | RP Cost | Effect |
-|----------------|---------|--------|
-| **Resonance Strike** | 50 | Ave and Lune perform a coordinated attack (high damage) |
-| **Resonance Heal** | 40 | Restore 30% HP for both characters |
-| **Resonance Break** | 75 | Instantly stagger any enemy + damage vulnerability |
-| **Starfarer's Light** | 100 | Lune channels a massive AoE attack (boss killer) |
+**Practical advice:** because the exact economy is unpublished, don't hoard — if the gauge is full, spend it; if you're not sure how, keep it full for burst moments and watch what happens.
 
-### Resonance Strategy
-- **Vs. regular enemies:** Build RP with parries, spend on Resonance Strike for quick clears
-- **Vs. elites:** Save for Resonance Break to skip difficult phases
-- **Vs. bosses:** Alternate between Resonance Heal (survival) and Starfarer's Light (damage)
-- **Exploration:** Keep RP above 40 for emergency healing
+## 5. Nihilus Orbs & Cores (Combat-Relevant)
 
----
+| Form | Effect | Counter |
+|------|--------|---------|
+| **Nihilus orb** (floating) | Protects enemies — they take reduced damage | Lune's arrow destroys it |
+| **Nihilus core** (on enemy/boss) | Reinforces attacks or grants a phase (Fintan P2, Sea Monster eye) | Shoot it with an arrow — often interrupts an attack |
+| **Core-blocked paths** | Paths blocked by corruption | Shoot the core to clear the path |
 
-## 4. Advanced Techniques
+**Rule of thumb:** anything that takes no damage has an orb or core. Find it, shoot it, win.
 
-### Parry Chaining
-Some enemies attack in 2-4 hit combos. You can parry each hit individually:
-1. Parry first hit → brief pause → second hit incoming
-2. Do NOT attack between parries — wait for the full combo
-3. After the final parry, the enemy is exhausted (long stagger window)
+## 6. Lune in Combat
 
-### Dodge Canceling
-You can cancel the recovery frames of light attacks with a dodge. This allows:
-- Attack → dodge before enemy counter-attack
-- Attack string → dodge → attack string (infinite pressure)
+- **AI-controlled** — she fights, heals, and fires arrows automatically; D-pad commands direct her attention.
+- **Keep her line of fire clear** — fights designed around her arrow (Longhorn Troll rematch, Shadow of Firleaves shockwave, Fintan, Sea Monster, Lilia's thorn trap) stall if she can't see the target.
+- She is **not optional** — combat, exploration, and puzzles all assume her presence.
 
-### Resonance Banking
-When your RP gauge is full, further parries **do not** generate RP. Spend RP proactively — a full gauge is wasted potential.
+## 7. Advanced Patterns (Community-Verified)
 
----
+1. **Parry chaining:** some bosses attack in 2-4 hit combos — parry each hit; don't attack between parries; the final parry opens the long punish window.
+2. **Interrupt management:** identify each boss's interruptible move (usually telegraphed by a red glow or charge) and keep Lune's arrow / the Blade of Rutila for it.
+3. **Phase-change discipline:** bosses get faster and red-heavier in phase 2 — expect to dodge more and parry less (Lilia, Enid, Roan's rematch).
+4. **Pacing:** the game punishes greedy attacks — parry first, attack second.
 
-## 5. Combat Tips by Enemy Type
+## 8. Combat Myths to Ignore
 
-| Enemy Type | Strategy |
-|-----------|----------|
-| **Melee enemies** | Parry → counter-attack. Easiest to parry. |
-| **Ranged enemies** | Dodge projectiles while closing distance, then parry melee |
-| **Shield enemies** | Heavy attacks break guard, then parry the counter |
-| **Fast enemies** | Block instead of parrying — safer |
-| **Caster enemies** | Prioritize killing them first, interrupt spells with heavy attacks |
-| **Bosses** | Learn patterns in phase 1, spend RP aggressively in later phases |
-
----
+- ❌ "Perfect parry gives +30 Resonance" — unverified numbers.
+- ❌ "Dodge costs stamina" — no stamina system is documented.
+- ❌ "Parry reflects projectiles" — not documented.
+- ❌ "You can play Lune" — she is AI-controlled.
 
 ## Related Guides
 
-- [Beginner Guide](/guides/beginner-guide)
-- [Ave Build Guide](/guides/ave-build-guide)
-- [Boss Guide — All Bosses & Strategies](/guides/boss-guide)
-- [Lune Guide — Starfarer Abilities](/guides/lune-guide)
+- [Beginner Guide](/guides/beginner-guide) — first-hour combat basics
+- [Boss Mechanics Guide](/guides/boss-mechanics) — how fights work mechanically
+- [Ave Build Guide](/guides/ave-build-guide) — turning mechanics into a build
+- [Lune Guide](/guides/lune-guide) — your combat partner in depth
+- [Boss Guide — All Bosses](/guides/boss-guide) — putting it together

@@ -1,200 +1,87 @@
 ---
-title: 'All Weapons Guide — Types, Best Picks & Combat Styles in Vahrin\'s Call'
-description: 'Every weapon type in Vahrin\'s Call ranked and explained: Greatswords, Sword & Shield, Dual Wield, Hammers, Bows, and Magic. Best-in-slot recommendations for every build.'
-keywords: ['vahrins call weapons guide', 'vahrins call best weapons', 'vahrins call greatsword', 'vahrins call bow', 'vahrins call dual wield', 'vahrins call weapon tier list']
-updated: '2026-07-27'
+title: 'Weapons Guide — Confirmed Weapon Types & How Progression Works in Vahrin\'s Call'
+description: 'What is confirmed about weapons in Vahrin\'s Call: melee, bows, and magic implements, use-based skill growth, Skill Books, and an honest list of what has not been officially confirmed.'
+category: 'Guides'
+version: '1.0'
+updated: '2026-08-01'
+keywords: ['vahrins call weapons guide', 'vahrins call best weapons', 'vahrins call bows', 'vahrins call melee weapons', 'vahrins call weapon skills']
+related: ['combat-guide', 'magic-guide', 'best-builds-guide', 'skill-book-locations']
 ---
 
-# All Weapons Guide — Types, Best Picks & Combat Styles
+# Weapons Guide — Confirmed Types & Progression
 
-Vahrin's Call features **six weapon categories** plus four magic schools. Since there are no class restrictions, you can equip anything — but specializing in 1-2 weapon types is always stronger than spreading thin.
+**Correction first**: earlier versions of this guide listed six weapon categories (greatsword, sword & shield, dual wield, hammer, bow, magic) with named skills and rarity tiers. Most of that is **not confirmed**. Titan Roc has not published an official weapon list, skill list, or rarity chart. This guide covers what is confirmed, and clearly marks the rest.
 
----
+## Confirmed Weapons and Fighting Styles
 
-## Weapon Proficiency System
+Official materials (Steam page, FAQ, developer updates) and launch reviews confirm the following fighting styles exist:
 
-Using a weapon type consistently builds **proficiency**, which unlocks:
-- **Perk Points** for that weapon's skill tree
-- **Damage bonus** (up to +25% at max proficiency)
-- **Unique abilities** (e.g., Greatsword's "Cleave" unlocks at proficiency level 5)
+| Style | Confirmed By | Notes |
+|-------|-------------|-------|
+| **Melee weapons** (swords, axes, and similar) | Steam/FAQ description; dev examples; reviews | The devs' own build examples include "an axe-wielding whirlwind of death" and "a nimble-footed archer flinging fireballs between arrows" |
+| **Bows (ranged)** | Dev examples; reviews | Archery is explicitly part of the game's pitch |
+| **Magic** (spells and implements) | Steam page; dev Q&A | See our [Magic Guide](/guides/magic-guide) |
+| **Traps** | Developer updates | Traps are a combat tool, not a weapon slot |
+| **Thrown potions** | March 2026 dev update | Offensive alchemy, unlocked via alchemy skill + perk |
 
-Switching weapon types frequently resets your proficiency gain rate. **Pick early, commit early.**
+There is **no confirmed official list** of weapon categories (no published greatsword/hammer/dagger taxonomy), and no confirmed two-handing, dual-wielding, or blocking-specific weapon rules. Launch reviews do confirm **blocking works** broadly, and that combat mixes "quick melee strikes with elemental magic."
 
----
+## How Weapon Progression Works
 
-## Greatsword
+### Use-Based Skill Growth
 
-**Attribute**: Strength
-**Style**: Slow, massive damage, high stagger, wide arcs
+Like every skill in Vahrin's Call, weapon skills grow **through use** — the classless system is modeled on The Elder Scrolls' skill system. The more you fight with a weapon type, the better you become with it.
 
-### Strengths
-- Highest per-hit damage of any weapon type
-- Wide sweeping attacks hit multiple enemies
-- High stagger — can interrupt enemy attacks
-- Charged heavy attack penetrates armor
+### Skill Books Unlock Full Upgrades
 
-### Weaknesses
-- Slowest swing speed — leaves you vulnerable during animations
-- High stamina cost per swing
-- Poor against fast, nimble enemies
+Official developer updates confirm that **Skill Books scattered through the world are needed for full upgrades** of abilities. The practical consequence: if you want every option for your weapon, you must explore — books are not bought or earned purely through leveling.
 
-### Best Skills
-- **Cleave** (level 5): Horizontal arc hits all enemies in front
-- **Heavy Slam** (level 10): Overhead smash with 2× stagger
-- **Whirlwind** (level 20): 360° spin attack
+### No Class Restrictions
 
-### Who Should Use
-Spellshield Vanguard, Whirlwind Alchemist, Pure Warrior builds.
+Because the game is classless, any character can equip and use any weapon. The only limit is your own skill progression. The developers explicitly encourage switching: you can "adapt, alter or completely switch playstyles" at any point.
 
----
+## Honest Answers to Common Questions
 
-## Sword & Shield
+**What is the best weapon in Vahrin's Call?**
 
-**Attribute**: Strength (damage) + Constitution (blocking)
-**Style**: Balanced offense and defense
+There is no confirmed tier list — and launch reviews describe the weapon balance as acceptable rather than skewed. Steam's "Mixed" reviews criticize combat feel, not weapon imbalance. Choose what fits your playstyle; with the classless system you can always switch.
 
-### Strengths
-- Blocking negates significant damage
-- Fast attack speed compared to other Strength weapons
-- Shield Bash creates openings
-- Most forgiving weapon for learning enemy patterns
+**Are there legendary/rare weapon tiers?**
 
-### Weaknesses
-- Lower damage per hit than Greatsword or Hammer
-- Blocking consumes stamina — can't turtle forever
-- Shorter reach than two-handed weapons
+**Unconfirmed.** No rarity system (common/green/blue/purple/gold) has been officially documented. Treat any rarity chart you see online with skepticism.
 
-### Best Skills
-- **Shield Bash** (level 5): Quick stun opener
-- **Elemental Riposte** (level 10): After a perfect block, counter with elemental damage
-- **Fortify Stance** (level 20): Reduced stamina cost while blocking
+**Do weapons have unique skills or combos?**
 
-### Who Should Use
-Spellshield Vanguard, defensive hybrids. Best weapon for learning the game.
+**Unconfirmed.** Specific named weapon skills (e.g., "Cleave," "Whirlwind") have never been officially confirmed. What is confirmed: skills improve through use, and Skill Books are needed for full upgrades.
 
----
+**Does magic count as a weapon?**
 
-## Dual Wield
+Not in the traditional sense — but magic implements and spells are a full fighting style of their own, customisable via **spell damage, range, and casting speed** attributes (confirmed by the developers). See the [Magic Guide](/guides/magic-guide).
 
-**Attribute**: Agility (primary), Strength (secondary)
-**Style**: Fast attacks, high DPS, low per-hit damage
+## Recommended Experimentation Plan
 
-### Strengths
-- Highest attack speed — applies status effects quickly
-- Best DPS against single targets when uninterrupted
-- Flashy combos with unique dual-wield animations
-- Low stamina cost per swing
+Because nothing is officially documented, the most reliable way to find "your" weapon is trial:
 
-### Weaknesses
-- Shortest reach — must be in melee range
-- Low per-hit damage struggles against armored enemies
-- No block — dodge or die
-- Interruptible — getting hit mid-combo resets your damage
+1. **First 2–3 hours**: try each style once — a melee weapon, a bow, and magic. The classless system rewards this; nothing is wasted.
+2. **Watch the stamina bar**: stamina limits magic use, so melee and magic play at different rhythms.
+3. **Pick one primary style** for deeper skill growth — use-based progression means consistency pays off.
+4. **Hunt Skill Books for your chosen style** — see [Skill Book Locations Guide](/guides/skill-book-locations) for what we know about where books appear.
+5. **Switch freely later** — you are never locked in.
 
-### Best Skills
-- **Flurry** (level 5): Rapid 5-hit combo
-- **Cross Slash** (level 10): X-shaped attack with bleed chance
-- **Shadow Dance** (level 20): Increased dodge i-frames while dual wielding
+## Unconfirmed Details to Watch For
 
-### Who Should Use
-Agility-focused builds, status effect appliers. High risk, high reward.
+We will update this guide as information is verified. Specifically still missing:
 
----
+- Official weapon category list
+- Weapon skill trees or named abilities
+- Rarity / loot tiers
+- Equipment load, two-handing, and dual-wield mechanics
+- Whether daggers, spears, staves, or other specific weapon types exist
 
-## Hammer
+If you can confirm any of these in-game, this guide gets better with your evidence.
 
-**Attribute**: Strength
-**Style**: Highest stagger, slowest speed, armor-crushing
+## Next Steps
 
-### Strengths
-- Best stagger in the game — stun-locks most enemies
-- Ignores 30% of enemy armor by default
-- Charged attacks are uninterruptible
-- Destroys enemy shields and blocking
-
-### Weaknesses
-- Slowest swing speed of all weapons
-- Very high stamina cost
-- Missed swings have long recovery animations
-- Poor against fast, flying, or teleporting enemies
-
-### Best Skills
-- **Armor Break** (level 5): Next attack ignores 60% armor
-- **Seismic Slam** (level 10): AoE ground pound, knocks down nearby enemies
-- **Unstoppable** (level 20): Charged attacks cannot be interrupted by any attack
-
-### Who Should Use
-Pure Strength builds. Best against heavily armored bosses and shield-bearing enemies.
-
----
-
-## Bow
-
-**Attribute**: Agility
-**Style**: Ranged, safe, consistent damage
-
-### Strengths
-- Safest weapon — damage from distance
-- Headshots deal 2× damage
-- Elemental arrows (craftable) add versatility
-- Excellent for pulling single enemies from groups
-
-### Weaknesses
-- Low damage without Agility investment
-- Ammo management (arrows are consumable)
-- Vulnerable if enemies close distance
-- Slower kill speed than optimized melee
-
-### Best Skills
-- **Piercing Shot** (level 5): Arrow penetrates armor and multiple enemies
-- **Rain of Arrows** (level 10): AoE arrow volley
-- **Eagle Eye** (level 20): Slows time while aiming
-
-### Who Should Use
-Rangers, Archer Mages, Tactical Shadowstalkers. Essential for hybrid ranged/magic builds.
-
----
-
-## Magic (Fire, Ice, Earth, Alteration)
-
-**Attribute**: Intelligence
-**Style**: Ranged elemental damage + utility
-
-See the [Magic & Spells Guide](/guides/magic-spells-guide) for a complete breakdown.
-
-### Quick Comparison
-
-| School | Role | Best For |
-|--------|------|----------|
-| **Fire** | Pure damage | Boss killing, burst DPS |
-| **Ice** | Crowd control | Slowing enemies, kiting |
-| **Earth** | Defense + DoT | Survivability, attrition |
-| **Alteration** | Utility + buffs | Weapon enhancement, resistances |
-
----
-
-## Weapon Progression
-
-Weapons scale with your proficiency level (1-50). Higher proficiency = more damage + access to better skills. You can find **legendary weapons** throughout the world that have unique effects beyond standard scaling.
-
-### Rarity Tiers
-- **Common** (white): Standard scaling
-- **Uncommon** (green): +1 bonus stat
-- **Rare** (blue): +2 bonus stats, unique appearance
-- **Epic** (purple): +3 bonus stats, unique effect
-- **Legendary** (gold): Unique named weapon with game-changing effect
-
----
-
-## Recommended Pairings
-
-| Primary | Secondary | Why It Works |
-|---------|-----------|-------------|
-| Greatsword | Fire Magic | Melee clears groups, fire nukes bosses |
-| Bow | Ice Magic | Slow with ice, snipe safely |
-| Sword & Shield | Earth Magic | Block → Earth counter for defensive loop |
-| Dual Wield | Alteration | Buff weapons with elemental damage |
-| Hammer | Fire Magic | Stagger-lock → charged fire spell |
-| Bow | Alchemy | Apply poison/burn arrows from safety |
-
-**Golden Rule**: Pick one physical weapon + one magic school. Two physical weapons or two magic schools dilutes your proficiency gains.
+- [Combat Guide](/guides/combat-guide) — how weapon attacks, blocking, and stamina work.
+- [Best Builds Guide](/guides/best-builds-guide) — confirmed build directions for weapon + magic combinations.
+- [Skill Book Locations Guide](/guides/skill-book-locations) — everything confirmed about book hunting.

@@ -1,86 +1,102 @@
 ---
 title: "Tips & Tricks — 20 Essential Tips for New Players"
-description: "20 essential tips and tricks for The Relic: First Guardian. Stamina management, rune economy, relic upgrade priorities, boss preparation, exploration secrets, and the biggest mistakes to avoid."
+description: "20 essential tips for The Relic: First Guardian. Stamina economy, relic collection, Relic Energy spending, boss preparation, exploration, and honest advice for the launch build."
 category: "Guides"
 version: "1.0"
-updated: "2026-07-31"
+updated: "2026-08-01"
 keywords: ["relic first guardian tips", "relic first guardian tips and tricks", "relic first guardian advice", "relic first guardian mistakes to avoid", "relic first guardian pro tips", "relic first guardian secrets"]
 related: ["beginner-guide", "combat-guide", "runes-guide", "upgrade-system"]
 ---
 
 # Tips & Tricks — 20 Essential Tips for New Players
 
-The Relic: First Guardian is brutal by design — 70+ bosses, no traditional levels, and a stamina economy that punishes panic. These 20 tips cover the mistakes that kill new players most often, gathered into five categories. If you have not started yet, read the [Beginner Guide](/guides/beginner-guide) first for the opening hours; this list is the habits you should build from hour one.
+The Relic: First Guardian is demanding — 70-80 Brutal boss fights, no levels, and a stamina economy that punishes panic. These 20 tips are grounded in **confirmed mechanics** (stamina-for-defense, cooldown skills, relics, unique gear) rather than invented specifics. If you have not started yet, read the [Beginner Guide](/guides/beginner-guide) first.
 
 ---
 
 ## Combat Tips
 
-**1. Attack constantly — your attacks cost zero stamina.** The single biggest adjustment from other soulslikes. Stamina is reserved exclusively for defense, so there is never a reason to hold back on offense. Swing freely and save your bar for dodges and blocks.
+**1. Attack constantly — attacks cost zero stamina.** This is the game's signature rule and the biggest adjustment from other soulslikes. Offense is free; your stamina bar exists only for dodging, blocking, and parrying.
 
-**2. Never let stamina drop below 20.** A single dodge costs 25 stamina. If you drain your bar, every mistake becomes fatal. When you dip below the threshold, back off and wait for regen.
+**2. Treat stamina like a health bar.** Every dodge and parry drains it. Engage bosses only with a healthy bar, and back off to recover when you dip low.
 
-**3. Learn to parry early, not late.** The Withered Gatekeeper's attacks are slow and telegraphed — the perfect teacher. A successful parry refunds 15 stamina and opens a riposte dealing 3x damage. Watch the enemy's weapon hand, not their body.
+**3. Learn to parry early.** The timing window is **generous** (confirmed by launch reviews), and parries stagger enemies. Practice on slow, telegraphed attacks in the opening areas.
 
-**4. Dodge into attacks, not away from them.** Your i-frames let you pass through hitboxes. Dodging sideways or into a swing keeps you in range for a counterattack; dodging backward simply resets the fight.
+**4. Identify each boss's gate type fast.** Some fights are **parry-gate** (break guard with chains of up to 15 parries); others are **dodge-gate** (unblockable attacks that ignore blocking). Wasting stamina on the wrong defense is the top cause of boss deaths. See the [Boss Strategies guide](/guides/boss-strategies).
 
-**5. Open every boss fight with your longest-cooldown skill.** Skills run on cooldown timers, not resources. Casting your 30-second ultimate first means it recharges during the fight instead of sitting unused.
+**5. Never block or parry unblockables.** When a tell reads "heavier" than the combo's other hits, dodge it. Confirmed: unblockable attacks exist and only the dodge answers them.
 
-**6. Use two weapon families.** Equip a ranged Staff or a stagger-heavy Two-Handed weapon in your second slot. Switching mid-combo (D-Pad Left/Right) lets you chip at range, then close for burst.
+**6. Use skills on cooldown.** Skills run on timers, not mana — an unused skill is wasted DPS. Open fights by firing your long-cooldown skills so they recharge mid-fight.
+
+**7. Do not fish for staggers.** Enemies **rarely stagger** and have no visible stagger bar. Openings come from parries and dodging through combos, not stun-locks.
 
 ---
 
 ## Progression Tips
 
-**7. Unlock rune slots before anything else.** Rune slots are the strongest progression in the game — relic upgrade tiers 1, 4, and 7 each grant one, and optional Rune Vessels grant more. A single extra slot beats almost any stat bonus.
+**8. Buy HP and stamina nodes early.** Skill trees (12 total, two per weapon family) are bought with **Relic Energy** — and some nodes raise health and stamina directly. It is the cheapest survivability in the game.
 
-**8. Upgrade the relic to tier 1 immediately.** 3 Void Shards and 500 gold for an extra rune slot is the best trade in the entire game. Delay tier 2+ until you identify your build.
+**9. Expand relic slots as soon as possible.** Find **Shards of Awakening** and bring them to **Elisa** at any **camp** — every new slot makes your build more adaptive, which is the game's core survival strategy.
 
-**9. Do optional bosses before story bosses.** The runes, artifacts, and crafting materials from optional encounters trivialize mandatory fights. The game's difficulty is your reward for exploration.
+**10. Hunt temple altars for Shards of Esser.** You start with **3 potions**; Shards of Esser (found on altars, e.g., in the **Faded Mist Forest**) raise your potion capacity. More potions = more attempts per run.
 
-**10. Explore an area fully before moving on.** Unique weapons and artifacts are hand-placed, never random. If you see a suspicious ledge, a waterfall, or a slightly discolored wall, there is almost always something there.
+**11. Explore everything before a boss.** Hidden paths hold relics, uniques, and secret Brutals. The game's difficulty curve assumes you looted — a well-explored player is effectively playing on an easier mode.
 
-**11. Talk to every NPC twice.** Many quest givers reveal hidden quests or item locations only in a second conversation. The "Mourning Widow" quest in Hollow Refuge is the classic example — its second dialogue unlocks an early artifact.
+**12. Clear "Events" as you find them.** Events (the game's side quests, from NPCs or the environment) reward valuable gear that the critical path does not offer.
 
 ---
 
 ## Economy & Upgrade Tips
 
-**12. Dismantle everything.** Unwanted weapons and armor convert to Ember Dust at any Blacksmith (3 Common = 1 Dust). Selling gear for gold is almost always the worse deal — Ember Dust gates relic tiers 3-10.
+**13. Keep every unique item.** Every weapon and armor piece appears **once** — no duplicates, no re-drops. Selling or discarding a unique is permanent.
 
-**13. Never sell rare materials.** Primeval Crystals and Radiant Essence are not purchasable from any vendor. Hoard every one.
+**14. Check Drawbacks before equipping.** Some powerful items carry Drawbacks (e.g., stamina loss or a weakness). A "free" stat boost often has a tax — decide consciously, especially for stamina-taxing gear.
 
-**14. Farm the daily reset areas.** Whispering Woods and the Sunken Citadel reset daily. A single clear of each covers your Void Shard needs for early relic tiers.
+**15. Forge selectively.** Blacksmith upgrades use materials and currency (exact costs unconfirmed). Since items never re-drop, commit to weapons you intend to keep.
 
-**15. Don't hoard consumables.** Healing Salves are cheap and plentiful. Carry a full stack into every boss arena — dying with consumables in your inventory is the most common waste in the game.
+**16. Do not trust material tables yet.** Guides claiming exact upgrade costs, dismantling recipes, or "daily reset" farming zones are **unconfirmed**. Verify costs in-game before spending.
 
 ---
 
-## Exploration Tips
+## Exploration & Story Tips
 
-**16. Rest at every new Brazier of Reflection.** They function as fast travel points, and the game does not autosave mid-dungeon. A death before resting can cost you 30 minutes of progress.
+**17. Read letters, murals, and item text.** The game tells its story through the environment — reading is both lore and discovery (notes hint at what is nearby).
 
-**17. Check behind waterfalls.** Three separate secret areas in the game hide behind waterfalls, starting with the Fragment of Vigor rune in the Ashen Fields — the best early rune in the game.
+**18. Return to cleared areas.** The world changes as you progress (bosses open new states). Revisits are a low-risk habit — checking costs nothing.
 
-**18. Return to cleared areas.** Several secrets only unlock after defeating the zone's boss — the Starving Saint's Cellar and the Twin Lakes Grotto both require returning post-boss.
+**19. Check temple altars and off-path ledges.** Confirmed systems (potion shards, relic shards, uniques) live in exactly these spots.
 
-**19. Listen for audio cues.** Secret areas have distinct ambient audio — faint humming or dripping that differs from the surrounding zone. Slow down and listen when the sound changes.
-
-**20. Read everything.** Journal pages and note fragments hint at secret locations, and piecing together lore collectibles unlocks bonus rewards — including the trigger for the secret ending.
+**20. Be skeptical of other guides.** The launch is days old: guides naming bosses, runes, artifacts, levels, or co-op are largely speculative or fabricated. Verify anything specific in-game before building around it.
 
 ---
 
 ## The Three Biggest Mistakes to Avoid
 
-- **Selling your starting weapon artifacts.** Several are used in crafting recipes later in the game.
-- **Rushing the Cathedral catacombs after the Saint.** The secret catacomb boss is permanently missable if you defeat the Starving Saint first.
-- **Ignoring elemental weaknesses.** Matching your weapon and runes to a boss's weakness increases damage by 40%. Always check the [Boss Strategies guide](/guides/boss-strategies) before a major fight.
+- **Panic-dodging against unblockables** — stamina wasted on the wrong defense ends fights.
+- **Skipping exploration** — uniques and relic shards are hand-placed; the world is the progression.
+- **Trusting "leveled" guides** — there are no levels; any guide assigning them is not credible.
+
+---
+
+## Common Questions
+
+**Q: What should I do first?**
+A: Learn the parry, buy HP nodes, collect potion shards, and explore your starting region fully.
+
+**Q: Is there an "easy mode"?**
+A: **No confirmed difficulty options.** The real difficulty reducers are defensive play, exploration, and relic adaptation. See the [Difficulty Guide](/guides/difficulty-guide).
+
+**Q: Can I play with a friend to make it easier?**
+A: No — the game is **single-player only**. See the [Co-Op guide](/guides/co-op-guide).
+
+**Q: What is the single best tip?**
+A: Swap your relic loadout before every boss — it is the game's designed prep loop and its biggest difficulty lever.
 
 ---
 
 ### Related Guides
 
-- [Beginner Guide](/guides/beginner-guide) — First 5 hours, step by step
-- [Combat Guide](/guides/combat-guide) — Stamina, parry timing, and advanced techniques
-- [Runes & Memory Fragments Guide](/guides/runes-guide) — Full catalog of rune effects
-- [Upgrade System Guide](/guides/upgrade-system) — Relic enhancement and material farming
+- [Beginner Guide](/guides/beginner-guide) — First hours, step by step
+- [Combat Guide](/guides/combat-guide) — Stamina, parry timing, and the combat economy
+- [Runes & Relics Guide](/guides/runes-guide) — The fragment system
+- [Upgrade System](/guides/upgrade-system) — Slots, shards, and forging

@@ -1,201 +1,85 @@
 ---
-title: 'Alchemy & Crafting Guide — All Recipes, Materials & Farming in Vahrin\'s Call'
-description: 'Complete alchemy and crafting guide for Vahrin\'s Call. All potion recipes, rare crafting material locations, farming routes, and how to maximize alchemy for combat.'
-keywords: ['vahrins call alchemy guide', 'vahrins call crafting guide', 'vahrins call alchemy recipes', 'vahrins call potions', 'vahrins call rare materials', 'vahrins call farming guide']
-updated: '2026-07-27'
+title: 'Alchemy & Crafting Guide — Confirmed Systems in Vahrin\'s Call'
+description: 'What is confirmed about alchemy and crafting in Vahrin\'s Call: throwing potions at enemies, trap deployment while moving, alchemy ingredients, and honest notes on unconfirmed recipes.'
+category: 'Guides'
+version: '1.0'
+updated: '2026-08-01'
+keywords: ['vahrins call alchemy guide', 'vahrins call crafting guide', 'vahrins call potions', 'vahrins call traps', 'vahrins call alchemy recipes']
+related: ['combat-guide', 'best-builds-guide', 'farming-resource-guide', 'gear-enhancement']
 ---
 
-# Alchemy & Crafting Guide
+# Alchemy & Crafting Guide — Confirmed Systems
 
-Alchemy in Vahrin's Call is **not a side activity** — it's a core combat system. Potions, traps, and crafted consumables can make the difference between a smooth boss kill and a tenth attempt.
+**Correction first**: earlier versions of this guide listed specific ingredients (Bloodleaf, Azure Moss, Moonpetal...) and exact potion recipes with effects. **No official recipe list exists** — those names and recipes were invented and have been removed. What remains is the genuinely interesting confirmed news: alchemy in Vahrin's Call is a real combat system, not a menu side-quest.
 
----
+## Confirmed: Alchemy Is a Core System
 
-## Alchemy Basics
+Alchemy is one of the game's main systems, listed alongside weapons, magic, trap-making, and the classless skill system. Crafting is meant to feed directly into combat.
 
-### How to Craft
-1. Find or buy **alchemy ingredients**
-2. Visit any **Alchemy Station** (found in settlements and camps)
-3. Combine ingredients following recipes
-4. Higher **Focus** attribute = more potent potions
+## The Big One: Throwing Potions
 
-### Ingredient Rarity
-| Rarity | Color | Source |
-|--------|-------|--------|
-| Common | White | Ground pickups, basic merchants |
-| Uncommon | Green | Specific biomes, mid-tier merchants |
-| Rare | Blue | Hidden areas, bosses, rare merchant stock |
-| Epic | Purple | Hidden bosses, endgame areas, quest rewards |
+The March 2026 developer update added a major alchemy mechanic:
 
-### Focus Scaling
-Every point of Focus increases:
-- Potion effectiveness: +2%
-- Potion duration: +1%
-- Trap damage: +2%
+- By **leveling up your alchemy skills** and obtaining a **specific perk**, you can **throw potions at enemies — or at yourself**.
+- This makes alchemy **viable offensively**, not just for healing and buffs.
+- The developers explicitly describe this as opening up more experimentation.
 
-At 30 Focus, your potions are **60% stronger** than base. This is why the Magic-Alchemy build invests heavily in Focus.
+Practical implications:
 
----
+- Potions are ranged weapons once you have the perk.
+- Self-throwing is confirmed — you can apply your own buffs/heals at a distance of one arm's throw.
+- Alchemy becomes a third "school" alongside weapons and magic for hybrid builds.
 
-## All Potion Recipes
+## Confirmed: Alchemy Ingredients
 
-### Healing Potions
+The Steam page lists **alchemy ingredients** among the systems you can utilise, alongside weapons, armour, abilities, and traps. Specific ingredient names, spawn locations, and recipes are **not officially documented** — anything listed online is unverified.
 
-| Potion | Ingredients | Effect |
-|--------|------------|--------|
-| Minor Healing Draught | Bloodleaf + Purified Water | Restore 20% HP |
-| Healing Draught | Bloodleaf ×2 + Purified Water | Restore 35% HP |
-| Greater Healing Draught | Bloodleaf ×3 + Moonpetal + Spring Water | Restore 50% HP |
-| Elixir of Regeneration | Bloodleaf ×2 + Moonpetal ×2 + Crystal Dust | 5% HP/sec for 10s |
+## Confirmed: Trap Making
 
-### Mana Potions
+Traps are the other crafting pillar, and the developers reworked them for launch:
 
-| Potion | Ingredients | Effect |
-|--------|------------|--------|
-| Minor Mana Tonic | Azure Moss + Purified Water | Restore 30 mana |
-| Mana Tonic | Azure Moss + Spring Water | Restore 60 mana |
-| Greater Mana Tonic | Azure Moss ×2 + Crystal Dust + Spring Water | Restore 100 mana |
-| Mana Font Elixir | Azure Moss ×3 + Moonpetal + Crystal Dust | +50% mana regen for 30s |
+- **Traps deploy while moving** — the old placement locked your character in a 1.15-second kneeling animation; the new system uses a short upper-body animation of **just under one second** while you keep moving.
+- This makes traps **viable mid-combat**, not just pre-combat prep.
+- Trap types, recipes, and stats are **not officially documented**.
 
-### Combat Buffs
+### Confirmed Synergy: Magic Triggers Traps
 
-| Potion | Ingredients | Effect |
-|--------|------------|--------|
-| Strength Elixir | Ember Root + Bloodleaf | +20% physical damage for 60s |
-| Intelligence Elixir | Moonpetal + Crystal Dust | +20% spell damage for 60s |
-| Stoneskin Potion | Earth Shard + Bloodleaf | +30% damage reduction for 45s |
-| Haste Potion | Wind Thistle + Spring Water | +20% movement and attack speed for 30s |
-| Resistance Tonic | Element-specific + Purified Water | +40% resistance to one element for 60s |
+The developers have confirmed that **some magic spells can be used to trigger things like traps**. That means:
 
-### Offensive Consumables
+1. Lay a trap field.
+2. Back off.
+3. Detonate or trigger it remotely with a spell.
 
-| Item | Ingredients | Effect |
-|------|------------|--------|
-| Fire Bomb | Ember Root ×2 + Volatile Oil | AoE fire explosion |
-| Frost Bomb | Frost Petal ×2 + Volatile Oil | AoE ice slow + damage |
-| Poison Vial | Nightshade ×2 + Volatile Oil | Poison cloud, DoT |
-| Alchemical Debuffer | Nightshade + Frost Petal + Moonpetal | Reduces all enemy resistances by 30% |
+This is one of the few fully confirmed "combos" in the game.
 
-### Utility
+## What Is NOT Confirmed
 
-| Potion | Ingredients | Effect |
-|--------|------------|--------|
-| Purification Draught | Purified Water ×2 + Bloodleaf | Cures poison and disease |
-| Night Eye | Azure Moss + Moonpetal | See in dark areas for 120s |
-| Amnesia Elixir | Moonpetal ×3 + Crystal Dust ×2 + Spring Water | Required for late-game respec |
+| Claim seen online | Status |
+|-------------------|--------|
+| Specific ingredient names (Bloodleaf, Azure Moss, etc.) | **Not confirmed — invented** |
+| Specific recipes with effects and costs | **Not confirmed — invented** |
+| Alchemy stations / workbenches | **Not confirmed** |
+| Trap types and trap stats | **Not confirmed** |
+| Focus attribute scaling potion potency | **Not confirmed — invented** |
+| Potion rarity tiers | **Not confirmed — invented** |
 
----
+## Practical Alchemy Advice
 
-## Rare Crafting Materials — Locations
+1. **Invest in the alchemy skill early.** The potion-throwing perk requires leveled alchemy — the sooner you start, the sooner you can throw.
+2. **Use potions offensively.** Healing is fine; throwing damage and debuff potions at enemies is the confirmed game-changer.
+3. **Craft traps as you travel.** Since traps deploy while moving, a stock of traps is always useful — drop them while kiting.
+4. **Pair magic with traps.** The confirmed spell-triggers-traps interaction gives you a ranged detonator.
+5. **Explore for ingredients.** With no published spawn lists, exploration is the only reliable source — check everything, and revisit areas (the map is non-linear and rewards backtracking).
 
-### Bloodleaf
-- **Source**: Drops from humanoid enemies, ground plants in forests
-- **Best farm**: Barathrum Forest — check near tree stumps
-- **Rarity**: Common
+## What We're Tracking
 
-### Azure Moss
-- **Source**: Cave walls, underground areas
-- **Best farm**: Vahrin Catacombs, Quarry Depths
-- **Rarity**: Common
+- Official recipe lists (if published)
+- Ingredient names and locations (verified in-game)
+- Trap types and damage
+- How the alchemy skill levels and what perks exist
 
-### Moonpetal
-- **Source**: Glowing flowers that only bloom at night
-- **Best farm**: Old Vahrin Walls (night only), Temple Ruins
-- **Rarity**: Uncommon
+## Next Steps
 
-### Ember Root
-- **Source**: Near lava, fire-damaged areas, drops from fire-based enemies
-- **Best farm**: Smoldering Quarter, Forge District
-- **Rarity**: Uncommon
-
-### Crystal Dust
-- **Source**: Crystal formations in caves, drops from crystal golems
-- **Best farm**: Crystal Cavern (hidden area in Quarry Depths)
-- **Rarity**: Rare
-
-### Frost Petal
-- **Source**: Frozen areas, cold climate zones
-- **Best farm**: Frozen District (mid-game area)
-- **Rarity**: Uncommon
-
-### Volatile Oil
-- **Source**: Drops from mechanical enemies, alchemy vendors
-- **Best farm**: Buy from merchants (cheaper than farming)
-- **Rarity**: Uncommon
-
-### Wind Thistle
-- **Source**: High altitude areas, rooftops, cliff edges
-- **Best farm**: Observatory, Upper Vahrin rooftops
-- **Rarity**: Rare
-
-### Nightshade
-- **Source**: Dark areas, graveyards, drops from undead
-- **Best farm**: Temple Ruins (undead enemy dense area)
-- **Rarity**: Rare
-
-### Earth Shard
-- **Source**: Rock monsters, mining nodes
-- **Best farm**: Quarry Depths — mineable nodes respawn
-- **Rarity**: Uncommon
-
----
-
-## Trap Crafting
-
-Traps are crafted at Alchemy Stations and scale with **Focus**.
-
-### Trap Types
-
-| Trap | Ingredients | Effect |
-|------|------------|--------|
-| Snap Trap | Iron ×2 + Spring | Physical damage, stops small enemies |
-| Tripwire Trap | Wire ×2 + Spike | Knocks down charging enemies |
-| Fire Trap | Ember Root + Volatile Oil + Iron | AoE fire on trigger |
-| Frost Trap | Frost Petal + Volatile Oil + Iron | AoE slow field on trigger |
-| Poison Trap | Nightshade + Volatile Oil + Iron | Poison cloud on trigger |
-| Explosive Trap | Volatile Oil ×2 + Crystal Dust + Iron | Large AoE explosion |
-
-### Trap Strategy
-- Place traps **before** combat starts — you can't place them while being attacked
-- Traps persist until triggered or you leave the area
-- Maximum 5 active traps at once
-- Traps don't trigger on you — walk through your own trap field safely
-
----
-
-## Best Farming Route: Barathrum Forest Loop
-
-The most efficient early-game farming route:
-
-1. Start at Barathrum Forest entrance
-2. Check cliff edges for **Wind Thistle**
-3. Clear the ruined camp (3-5 humanoid enemies → Bloodleaf + Volatile Oil)
-4. Search tree stumps for **Bloodleaf** (3-6 nodes)
-5. Enter the small cave for **Azure Moss** and **Earth Shard** (mining nodes)
-6. Check merchant inventory on your way back to town
-
-**Yield per run**: 8-12 Bloodleaf, 4-6 Azure Moss, 2-4 Earth Shard, 1-2 Wind Thistle, 200-400 gold from enemy drops
-
----
-
-## Merchant Inventory Tips
-
-- Vendor inventories **rotate every in-game day**
-- Check every merchant after each main quest — new items unlock with story progression
-- **Volatile Oil** and **Spring Water** are cheaper from merchants than farming
-- The alchemist in Vahrin's Merchant Quarter has the best potion ingredient stock
-- Rare materials (Crystal Dust, Nightshade, Wind Thistle) occasionally appear in merchant inventories — buy them immediately
-
----
-
-## Alchemy in Combat
-
-The Magic-Alchemy Hybrid build rotation:
-
-1. **Pre-combat**: Drink Stoneskin + Damage Elixir + apply Elemental Weapon
-2. **Opening**: Throw Alchemical Debuffer at the strongest enemy
-3. **Burst window**: Drink Haste Potion → strongest offensive spells
-4. **Sustain**: Healing Draught as needed, Mana Tonic when mana drops below 30%
-5. **Emergency**: Frost Bomb for breathing room, then heal
-
-The difference between a prepared alchemist and an unprepared one is night and day. **Preparation wins fights.**
+- [Combat Guide](/guides/combat-guide) — throwing potions and trap deployment in the combat loop.
+- [Best Builds Guide](/guides/best-builds-guide) — trap-and-alchemy build directions.
+- [Farming & Resource Guide](/guides/farming-resource-guide) — confirmed ways to gather materials and gold.

@@ -1,217 +1,88 @@
 ---
 title: 'Phantom Tower Classes Guide — All 8 Classes Explained'
-description: 'Complete Phantom Tower classes guide covering all 8 classes — Warrior, Elementalist, Blade Dancer, Berserker, Ranger, Guardian, Mystic, and Rogue. Strengths, weaknesses, elemental affinities, and playstyle recommendations.'
-keywords: ['Phantom Tower classes', 'Phantom Tower best class', 'Phantom Tower Warrior build', 'Phantom Tower Elementalist', 'Phantom Tower Blade Dancer', 'Phantom Tower class tier list']
-updated: '2026-07-30'
+description: 'Complete Phantom Tower classes guide — the confirmed class roster (Warrior, Mage, Archer, Assassin), the unannounced launch classes, mobile-exclusive Necromancer, and how to pick your first class.'
+category: 'Guides'
+version: 'Early Access'
+updated: '2026-08-01'
+keywords: ['Phantom Tower classes', 'Phantom Tower best class', 'Phantom Tower Warrior', 'Phantom Tower Mage', 'Phantom Tower Archer', 'Phantom Tower Assassin', 'Phantom Tower starting class']
+related:
+  - beginner-guide
+  - elements-guide
+  - best-builds
+  - soulbinder-guide
 ---
 
 # Phantom Tower Classes Guide — All 8 Classes Explained
 
-Phantom Tower features 8 unique classes, each with distinct abilities, combat styles, and elemental affinities. Your class choice defines your approach to combat, which Tower Blessings you prioritize, and how you handle different enemy types. This guide covers every class in detail.
+Phantom Tower launches with **8 playable classes**, each with its own unique skills, elemental affinity, and combat identity, according to the official press materials. Here is the honest situation: the developer has only officially named four of the eight classes so far, so this guide covers what is confirmed, what is known about each confirmed class, and exactly where the gaps are.
 
-## Class Overview Table
+## Confirmed Class Roster
 
-| Class | Role | Difficulty | Element | Playstyle |
-|-------|------|-----------|---------|-----------|
-| **Warrior** | Balanced | ★☆☆☆☆ | IGNIS | All-rounder melee |
-| **Elementalist** | Caster | ★★★★★ | All Four | Elemental reaction master |
-| **Blade Dancer** | Assassin | ★★★★☆ | VENTI | Dodge-based melee DPS |
-| **Berserker** | Bruiser | ★★★☆☆ | IGNIS | Aggressive high-risk DPS |
-| **Ranger** | Ranged | ★★☆☆☆ | VENTI | Safe ranged DPS |
-| **Guardian** | Tank | ★★☆☆☆ | TERRA | Defensive tank |
-| **Mystic** | Support | ★★★★☆ | AQUA | Blessing/support specialist |
-| **Rogue** | Assassin | ★★★★★ | VENTI | Glass cannon melee |
+| Class | Confirmed Details | Status |
+|-------|-------------------|--------|
+| **Warrior** | The game's starting class; melee fighter | Confirmed |
+| **Mage** | Spell-focused caster (per official store materials) | Confirmed |
+| **Archer** | Ranged attacker (per official store materials) | Confirmed |
+| **Assassin** | "Shadow Specialist" — high mobility, high lethality, uses Shadow Clones for synchronized strikes | Confirmed (new class, per official press release) |
+| **4 more classes** | Not yet named | Unannounced (TBD) |
 
-## 1. Warrior — The All-Rounder
+The four unnamed classes are **not** announced as anything specific — names like "Elementalist," "Berserker," or "Rogue" circulating in some guides and tier lists are community inventions, not official information. The same goes for class tier lists: with no official stats published, any ranking you find is speculation.
 
-**Element:** IGNIS (Fire)
-**Difficulty:** ★☆☆☆☆ (Beginner-friendly)
-**Role:** Balanced front-line fighter
+## 1. Warrior — The Starting Class
 
-The Warrior is the most forgiving class in Phantom Tower and the best recommendation for new players. With balanced stats, decent HP, and straightforward combos, the Warrior lets you learn enemy patterns without being punished for every mistake.
+**Status:** Confirmed (official starting class)
 
-**Strengths:**
-- High base HP and defense — survives mistakes that kill lighter classes
-- Compatible with all weapon types — experiment freely
-- Strong charged attack that benefits from IGNIS' damage-over-time
-- Excellent at triggering IGNIS-based reactions (Magma Eruption, Firestorm)
+The Warrior is the class you begin the game with. It is a melee fighter, and the official materials describe the core loop in Warrior terms: "you begin as a warrior" climbing the tower in search of wealth, fame, or power.
 
-**Weaknesses:**
-- Lower speed than VENTI-based classes
-- No innate healing or sustain mechanics
-- Damage ceiling is lower than specialized DPS classes
+Why it suits beginners:
+- **It is the intended entry point.** The game teaches its mechanics around the Warrior's baseline combat.
+- **Melee fundamentals transfer.** Dodge timing, element swapping, and boss pattern recognition are the same skills every class needs.
+- **Element affinity is flexible.** Every class has an elemental affinity per the official description, but which elements pair with the Warrior has not been published — which means you are free to experiment with all four until the details land.
 
-**Best Blessings:** Stone Skin, Vitality Boon, Fire Affinity
-**Recommended Weapons:** Sword + Shield, Greatsword
+**Recommended for:** First-time players, anyone learning the game's combat systems.
 
-## 2. Elementalist — The Reaction Master
+## 2. Mage — The Caster
 
-**Element:** All Four (IGNIS, AQUA, TERRA, VENTI)
-**Difficulty:** ★★★★★ (Expert)
-**Role:** Elemental reaction specialist
+**Status:** Confirmed (official starter-pack class on the mobile release)
 
-The Elementalist is the highest-ceiling class in Phantom Tower. Unlike other classes locked to one element, the Elementalist can seamlessly weave between all four, triggering every possible elemental reaction. Mastering this class requires knowing all 16 reactions and when to use each.
+The Mage is one of the game's confirmed spellcasting classes. Official materials describe it as a class with a distinct elemental identity, and its playstyle revolves around ranged magical attacks and the elemental reaction system — a natural fit for players who want to live inside the swap-and-react combat design.
 
-**Strengths:**
-- Access to all 16 elemental reactions
-- Highest theoretical damage output in the game
-- Unmatched versatility — adapt to any enemy type on the fly
-- Can exploit elemental weaknesses that other classes cannot
+**Recommended for:** Players who enjoy elemental combat, ranged casting, and reaction-heavy play.
 
-**Weaknesses:**
-- Fragile — lowest HP pool among all classes
-- Extremely high skill floor — ineffective without reaction knowledge
-- Requires constant element swapping, which demands high APM
-- Relies heavily on finding the right Tower Blessings
+## 3. Archer — The Ranged Specialist
 
-**Best Blessings:** Elemental Mastery, Reaction Amplifier, Arcane Surge
-**Recommended Weapons:** Staff, Tome
+**Status:** Confirmed (official starter-pack class on the mobile release)
 
-## 3. Blade Dancer — The Dodge Specialist
+The Archer is the game's confirmed ranged class. Keeping distance and controlling space are its defining traits — attacks from range let you read enemy patterns before they reach you, which makes the Archer a strong pick for learning boss fights safely.
 
-**Element:** VENTI (Wind)
-**Difficulty:** ★★★★☆ (Advanced)
-**Role:** Mobile melee DPS
+**Recommended for:** Players who prefer kiting, safe damage, and observing fights from a distance.
 
-The Blade Dancer is Phantom Tower's premier dodge-based class. Every successful dodge powers up the next attack, creating a rhythmic flow of avoid → punish → avoid → punish. The class synergizes perfectly with VENTI's speed and chain-attack mechanics.
+## 4. Assassin — The Shadow Specialist
 
-**Strengths:**
-- Extreme mobility — fastest base movement speed
-- Dodge-offensive mechanic rewards skilled play
-- Excellent synergy with Artemis Descent blessing
-- Can dodge through attacks that other classes must block
+**Status:** Confirmed (new class, per official press release)
 
-**Weaknesses:**
-- Staggered by any hit — one mistake disrupts your flow
-- Low base damage without dodge stacks
-- Struggles against AoE attacks that are hard to dodge
-- Requires memorizing every enemy attack pattern
+The Assassin was announced as the game's newest class, described by the developer as a high-mobility, high-lethality "Shadow Specialist" that uses **Shadow Clones** for synchronized strikes. It is the flashiest confirmed class in the roster: repositioning tools, burst damage, and clone-based tricks point to a demanding, combo-oriented playstyle.
 
-**Best Blessings:** Artemis Descent, Wind Step, Quick Recovery, Chain Quake
-**Recommended Weapons:** Dual Daggers, Katana
+**Recommended for:** Experienced action-game players who like speed and burst damage. Less recommended as a first class — there is no official difficulty data, but mobility-focused classes usually reward players who already know the game's patterns.
 
-## 4. Berserker — The High-Risk Bruiser
+## Unannounced Classes (TBD)
 
-**Element:** IGNIS (Fire)
-**Difficulty:** ★★★☆☆ (Intermediate)
-**Role:** Aggressive melee DPS
+Four launch classes remain unnamed. What we know:
 
-The Berserker thrives on the edge of death. As HP decreases, damage increases — creating a high-risk, high-reward playstyle. The Berserker's rage mechanic stacks damage on consecutive hits, making this class excellent at melting bosses when played aggressively.
+- They exist — the count of 8 is official
+- Each has its own skills, elemental affinity, and combat identity (per the official description)
+- The mobile version's roster is separate and already includes the **Necromancer** (collects souls from defeated enemies to summon allies once enough are gathered) — that class has not been confirmed for Steam
 
-**Strengths:**
-- Massive damage scaling at low HP
-- Rage stacks give exponential damage growth during long fights
-- Excellent boss killer — ramps faster than any other class
-- IGNIS DoT synergizes with rage-charged attacks
-
-**Weaknesses:**
-- Low-HP playstyle is inherently risky
-- No defensive tools — relies entirely on dodging
-- Struggles in Survival Mode where sustain is critical
-- Weak early game before rage ramps up
-
-**Best Blessings:** Life Leech, Berserker's Fury, Fire Affinity
-**Recommended Weapons:** Greataxe, Dual Axes
-
-## 5. Ranger — The Safe Ranged DPS
-
-**Element:** VENTI (Wind)
-**Difficulty:** ★★☆☆☆ (Beginner-friendly)
-**Role:** Ranged DPS and kiting specialist
-
-The Ranger is the safest class in Phantom Tower. Attacking from range lets you observe enemy patterns without being in immediate danger. Paired with VENTI's mobility, the Ranger can kite enemies indefinitely.
-
-**Strengths:**
-- Safest playstyle — attack from distance
-- Excellent at kiting melee enemies
-- VENTI element boosts projectile speed and chain attacks
-- Great for learning boss patterns before trying melee classes
-
-**Weaknesses:**
-- Lower damage than melee DPS classes
-- Struggles in small rooms with limited kiting space
-- Weak against fast enemies that close distance quickly
-- Ammo/resource management limits sustained DPS
-
-**Best Blessings:** Eagle Eye, Wind Step, Chain Quake
-**Recommended Weapons:** Bow, Crossbow
-
-## 6. Guardian — The Immovable Tank
-
-**Element:** TERRA (Earth)
-**Difficulty:** ★★☆☆☆ (Beginner-friendly)
-**Role:** Defensive tank
-
-The Guardian is the tank class of Phantom Tower. With heavy armor, a massive HP pool, and TERRA's defensive bonuses, the Guardian excels at outlasting enemies rather than out-damaging them. This class shines brightest in Survival Mode.
-
-**Strengths:**
-- Highest HP and defense in the game
-- TERRA element provides shields and damage reduction
-- Blocking negates most boss attacks entirely
-- Scales incredibly well with defensive Tower Blessings
-
-**Weaknesses:**
-- Lowest damage output — fights take longer
-- Slow movement speed — hard to dodge fast attacks
-- Limited offensive options — rely on chip damage
-- Boring for players who prefer aggressive playstyles
-
-**Best Blessings:** Stone Skin, Vitality Boon, Terra Ward, Regeneration
-**Recommended Weapons:** Sword + Shield, Tower Shield
-
-## 7. Mystic — The Blessing Specialist
-
-**Element:** AQUA (Water)
-**Difficulty:** ★★★★☆ (Advanced)
-**Role:** Support and blessing manipulator
-
-The Mystic is Phantom Tower's most unique class. Instead of raw combat power, the Mystic manipulates Tower Blessings — gaining extra blessing slots, longer blessing durations, and the ability to re-roll blessings mid-run.
-
-**Strengths:**
-- Extra Tower Blessing slot (4 instead of 3)
-- Can re-roll undesirable blessings
-- AQUA element provides healing and crowd control
-- High skill ceiling with perfect blessing combinations
-
-**Weaknesses:**
-- Lowest base combat stats — relies entirely on blessings
-- Weak early floors before blessings are found
-- RNG-dependent — bad blessing rolls hurt more than other classes
-- Requires deep blessing knowledge to pilot effectively
-
-**Best Blessings:** Any and all — the Mystic makes everything work better
-**Recommended Weapons:** Staff, Wand
-
-## 8. Rogue — The Glass Cannon
-
-**Element:** VENTI (Wind)
-**Difficulty:** ★★★★★ (Expert)
-**Role:** Stealth burst assassin
-
-The Rogue is Phantom Tower's highest-risk, highest-reward class. With the lowest HP but the highest burst damage potential, the Rogue rewards perfect positioning and punishes every mistake. Not recommended for beginners.
-
-**Strengths:**
-- Highest burst damage in the game
-- Backstab mechanic deals 3x damage from behind
-- Stealth abilities let you reposition mid-combat
-- Can skip certain enemy encounters entirely
-
-**Weaknesses:**
-- Lowest HP — dies in 1-2 hits on later floors
-- Requires flawless positioning and enemy pattern knowledge
-- Backstab is hard to execute against fast bosses
-- Struggles in open arenas with no cover
-
-**Best Blessings:** Shadow Step, Assassin's Mark, Wind Step
-**Recommended Weapons:** Dual Daggers, Claw Weapons
+Until the developer names them, treat the roster as 8 classes: 4 confirmed, 4 TBD.
 
 ## Which Class Should You Pick?
 
-**If you are new to Phantom Tower:** Warrior or Ranger
-**If you want to master elemental reactions:** Elementalist
-**If you enjoy fast, rhythmic combat:** Blade Dancer
-**If you love high-risk, high-reward:** Berserker or Rogue
-**If you prefer defensive play:** Guardian
-**If you enjoy build experimentation:** Mystic
+**If you are new to Phantom Tower:** Warrior — it is the official starting class, and the game is built around learning it.
 
-**Next steps:** Choose your class, then read our [Best Builds Guide](/guides/best-builds) for optimal synergies, or the [Elements Guide](/guides/elements-guide) to master elemental reactions.
+**If you enjoy ranged combat:** Archer or Mage.
+
+**If you love fast, aggressive play:** Assassin.
+
+**If you want to plan ahead:** do not over-invest in any class-specific guides until the official wiki publishes the class details — the four unnamed classes might change what "best" means.
+
+**Next steps:** Pair your class with the right element play in our [Elements Guide](/guides/elements-guide), then see how permanent gear stats shape your build in the [Soulbinder Guide](/guides/soulbinder-guide).

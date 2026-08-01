@@ -1,146 +1,74 @@
 ---
-title: "Dinoblade New Game Plus Guide — What Carries Over and What Changes"
-description: "Everything you need to know about New Game Plus in Dinoblade. Learn what items and upgrades carry over, how enemy scaling works, and which build paths are most effective in NG+."
+title: "Dinoblade New Game Plus — Status Unconfirmed (What We Know)"
+description: "Is there New Game+ in Dinoblade? Official status: unconfirmed. What is confirmed about replayability — Boss Rush, challenge runs, and the campaign loop."
 category: "Endgame"
 version: "1.0"
-updated: "2026-07-27"
+updated: "2026-08-01"
 keywords:
   - Dinoblade NG+
   - Dinoblade New Game Plus
   - Dinoblade endgame
-  - Dinoblade difficulty scaling
-  - Dinoblade replay guide
+  - Dinoblade replayability
+  - Dinoblade boss rush
 related:
+  - boss-rush-guide
   - endings-guide
-  - boss-guide
-  - builds-guide
-  - weapons-guide
+  - challenge-runs
   - speedrun-guide
 ---
 
-# Dinoblade New Game Plus Guide — What Carries Over and What Changes
+# Dinoblade New Game Plus — Status Unconfirmed (What We Know)
 
-New Game Plus in Dinoblade unlocks after defeating the final boss and viewing at least one ending. NG+ is not a simple stat bump — it introduces new enemy patterns, altered boss movesets, and exclusive rewards that are inaccessible in a standard playthrough.
+**The direct answer: New Game+ is NOT confirmed for Dinoblade.** As of August 2026, no official source (Steam page, developer announcements, or verified launch coverage) documents a New Game+ mode. This guide explains what that means, what *is* confirmed about the post-game, and how to extend the game regardless.
 
----
+## Why "Dinoblade NG+" Gets Searched
 
-## 1. Unlocking New Game Plus
+"dinoblade new game plus guide" is a popular search term — the game is a Soulslike, and NG+ is the genre's standard endgame. But popularity isn't confirmation:
 
-### 1.1 Requirements
+- The Steam store page does not list NG+ among features.
+- No verified walkthrough or coverage mentions NG+.
+- Any guide describing "NG+ enemy multipliers," "NG+ exclusive weapons," or "NG+ boss movesets" for Dinoblade is **invented**.
 
-| Requirement | Details |
-|-------------|---------|
-| Base Game Completion | Defeat the final boss in any ending |
-| Minimum Level | Level 40+ recommended (level 50 for comfortable play) |
-| Save File | NG+ creates a new save slot. Your original file remains intact. |
-| Difficulty | NG+ always starts at NG+ difficulty — no difficulty selection screen |
+**Bottom line:** plan for a single playthrough experience. If Team Spino adds NG+ in a patch (as many Soulslikes do post-launch), this guide will be updated.
 
-### 1.2 What Carries Over
+## What IS Confirmed for Post-Game
 
-| Carries Over | Does NOT Carry Over |
-|-------------|---------------------|
-| All weapons and upgrades | Key items (story gates, unique quest items) |
-| Armor and accessories | Dinosaur eggs (must be re-collected) |
-| Consumables and materials | Map progress and fast travel points |
-| Skill points and unlocked abilities | NPC quest progress |
-| Gold and upgrade materials | Lore tablets and collectible notes |
-| All unlocked active skills | |
+### Boss Rush Mode
 
+The one confirmed endgame feature: defeating the final boss (**Kasei the Tyrant**) unlocks **Boss Rush** — a continuous gauntlet of boss fights. This is the game's official replay venue. See the [Boss Rush Guide](/guides/boss-rush-guide).
 
-## 2. Difficulty Changes in NG+
+### The Campaign Loop Itself
 
-### 2.1 Enemy Stat Scaling
+Dinoblade's progression is worth replaying on its own:
 
-| Enemy Type | HP Multiplier | Damage Multiplier | New Moves |
-|-----------|--------------|-------------------|-----------|
-| Minor Raptors | 1.8x | 1.5x | Flanking attack pattern |
-| Standard Dinosaurs | 2.0x | 1.8x | Enrage mechanic below 30% HP |
-| Elite Variants | 2.5x | 2.2x | AoE stomp attack |
-| Bosses | 3.0x | 2.5x | Phase 2 movesets from 50% HP |
+- **Adjustable attributes before boss fights** — a fresh run can be tuned differently per boss.
+- **Soul Arts bought with Boss SP** — a second playthrough can commit to a completely different Soul Art set (all five confirmed arts: Meteor Slice, Meteor Dash, Alpha Roar, Meteor Zone, Survival Instinct).
+- **Summoning** — a second run can lean on boss summons (the Axe summon's stamina boost) from the moment it unlocks.
 
-### 2.2 New Enemy Behaviors
+### Community Extensions
 
-NG+ introduces aggressive AI changes that require new strategies:
+- **Challenge runs** — no-hit runs, parry-only runs, no-heal runs (see the [Challenge Runs Guide](/guides/challenge-runs)).
+- **Speedrunning** — the three-boss campaign is route-friendly (see the [Speedrun Guide](/guides/speedrun-guide)).
+- **Achievement hunting** — the game ships 29 Steam achievements (see the [Achievements Guide](/guides/achievements-guide)).
 
-- **Raptor Packs:** Flank from both sides instead of charging head-on. Use wide sweep attacks or crowd control.
-- **Armored Dinosaurs:** Gain a temporary shell that blocks all frontal damage. You must reposition to their flanks or rear.
-- **Flying Enemies:** New dive-bomb attack that cannot be parried — only dodge-roll.
-- **Bosses:** Every boss gains at least one new phase transition move that must be learned through observation.
+## What Carries Between Playthroughs
 
----
+**Unconfirmed.** With no documented NG+ mode, there's also no documented carry-over list. What's known:
 
-## 3. NG+ Exclusive Content
+- Your **save** is a normal single-run save.
+- **Boss Rush** unlocks per save once the final boss is down.
+- Nothing about carrying gear, stats, or unlocks into a second cycle has been officially described.
 
-### 3.1 New Weapons and Armor
+## How to Plan Your Endgame
 
-| Item | Type | Location | Stat Difference vs Base |
-|------|------|----------|------------------------|
-| Obsidian Greatsword | Weapon | NG+ exclusive vendor (first zone) | +40 base damage, +15% crit |
-| Fossil Plate Armor | Chest | Drop from first NG+ boss | +30% physical defense |
-| Primal Amulet | Accessory | Hidden NG+ area | +20% all elemental resist |
-| Ancestral Spear | Weapon | NG+ final boss drop | Best-in-slot for Dexterity builds |
-
-### 3.2 NG+ Boss Rewards
-
-| Boss | Base Game Reward | NG+ Additional Reward |
-|------|-----------------|----------------------|
-| T-Rex Tyrant | T-Rex Fang (key item) | T-Rex Soul Core (crafting material for Obsidian weapon) |
-| Raptor Queen | Raptor Claw (weapon) | Raptor Crown (helm cosmetic + stat bonus) |
-| Spiked Titan | Spiked Shell (armor) | Titan Heart (permanent HP upgrade item) |
-| Ancient Apex | Ending trigger | Apex Scale (accessory for ultimate NG+ weapon) |
-
----
-
-## 4. Recommended NG+ Build Paths
-
-Not every build from the base game translates well to NG+. Enemy HP scaling makes sustained damage more valuable than burst.
-
-### 4.1 Build Rankings for NG+
-
-| Build | Base Game Viability | NG+ Viability | Notes |
-|-------|-------------------|---------------|-------|
-| Colossus (Strength) | S-tier | A-tier | Slower kill speed, but survivability is king |
-| Blade Dancer (Dexterity) | S-tier | S-tier | Evasion and constant DPS scale well with enemy HP |
-| Wardancer (Hybrid) | B-tier | A-tier | Better in NG+ due to sustain from magic mix |
-| Primordial (Magic) | A-tier | B-tier | Mana management becomes a problem in extended fights |
-
-### 4.2 Recommended Stat Allocation
-
-| Stat | Base Game Priority | NG+ Priority | Why |
-|------|-------------------|-------------|-----|
-| Vigor | Medium | High | Enemy damage output is significantly higher |
-| Endurance | Medium | High | Longer fights require more stamina management |
-| Strength/Dex | High | Medium | Weapon upgrades matter more than base stats |
-| Magic | Low | Medium | Useful for elemental weaknesses on new enemies |
-
----
-
-## 5. Progression Milestones
-
-| Milestone | Recommended Level | Objective |
-|-----------|------------------|-----------|
-| First Zone Clear | 45+ | Re-obtain basic gear and upgrade materials |
-| First NG+ Boss | 50 | Unlock Obsidian weapon vendor |
-| Mid-Game Clear | 55 | Collect Primal Amulet |
-| Final Boss Attempt | 60+ | Fully upgraded Obsidian weapon recommended |
-| NG+ Completion | 60–65 | Apex Scale drop, prepare for potential NG++ |
-
----
-
-## 6. Common NG+ Pitfalls
-
-- **Using base game strategies blindly.** Enemy attack patterns change — observe before committing to your usual approach.
-- **Skipping early zones.** Even though you know the layout, early zones drop critical upgrade materials you will need.
-- **Ignoring new equipment.** The Obsidian Greatsword from the first NG+ vendor outperforms most fully upgraded base-game weapons.
-- **Over-leveling one stat.** Balanced stat allocation is more important in NG+ than min-maxing.
-- **Not farming upgrade materials.** NG+ weapon upgrade costs are higher. Farm early zones thoroughly before pushing bosses.
-
----
+1. **Beat Kasei the Tyrant** — this unlocks Boss Rush, the confirmed endgame.
+2. **Spend your Boss SP deliberately** — if you want to see all five Soul Arts, that's the replay driver.
+3. **Set a Boss Rush target** — clean clears, then faster clears.
+4. **Watch official channels** — Team Spino's announcements and the Steam store page are where an NG+ patch would be announced. This guide will be updated when it's confirmed.
 
 ## Related Guides
 
-- [Endings Guide](/guides/endings-guide) — All available endings and unlock conditions
-- [Boss Guide](/guides/boss-guide) — Base game boss strategies (foundation for NG+ fights)
-- [Builds Guide](/guides/builds-guide) — Full build recommendations for all playstyles
-- [Weapons Guide](/guides/weapons-guide) — Weapon stats, upgrade paths, and best-in-slot choices
-- [Speedrun Guide](/guides/speedrun-guide) — Optimized routing for fast NG+ completion
+- [Boss Rush Guide](/guides/boss-rush-guide) — The confirmed endgame gauntlet
+- [Endings Guide](/guides/endings-guide) — The confirmed campaign structure
+- [Challenge Runs Guide](/guides/challenge-runs) — Self-imposed replay formats
+- [Speedrun Guide](/guides/speedrun-guide) — Fast-clear routing

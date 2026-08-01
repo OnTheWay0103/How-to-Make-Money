@@ -1,178 +1,97 @@
 ---
 title: 'Graphite Tarot Deck and Events Guide — How the Adventure Deck Works'
-description: 'Complete guide to the tarot deck and events in Graphite. How the adventure deck works, event types, branching choices and consequences, how party composition affects event draws, and key events that grant powerful artifacts.'
-keywords: ['Graphite tarot events', 'Graphite adventure deck', 'Graphite tarot guide', 'Graphite event choices', 'Graphite best events', 'Graphite artifact events', 'Graphite party composition events', 'Graphite tarot cards']
+description: 'How the tarot-inspired adventure deck works in Graphite: branching narrated events, choices shaped by party composition, items, and prior decisions — plus honest notes on what is still unconfirmed.'
+keywords: ['Graphite tarot events', 'Graphite adventure deck', 'Graphite tarot guide', 'Graphite event choices', 'Graphite best events', 'Graphite deck guide']
 category: Guides
 version: '1.0'
-updated: '2026-07-29'
+updated: '2026-08-01'
 related:
   - walkthrough-guide
   - tips-tricks
-  - how-to-unlock-heroes
-  - tier-list
+  - beginner-guide
+  - graphite-demo-guide
 ---
 
 ## How the Adventure Deck Works
 
-The adventure deck is Graphite's event system. It functions similarly to a deck of tarot cards that you **draw from as you progress through each act**. Each card represents an encounter, a challenge, or a reward waiting on the path ahead.
+The adventure deck is Graphite's event system, and it is one of the game's confirmed signature mechanics: a **tarot-inspired deck of event cards** drawn as you progress through the campaign.
 
-**Core mechanics**:
-- The deck contains approximately 25-30 cards per act.
-- You draw 1-3 cards per day (depending on your exploration choices).
-- The deck reshuffles at the start of each act.
-- Cards are **not random** in the traditional sense — they are drawn from a seeded pool that responds to your party composition and recent decisions.
-- Skipping a card (by resting or taking a direct path) sends it to the bottom of the deck — it may reappear later.
+**Confirmed core mechanics**:
 
-**Deck categories**:
-| Category | Frequency | Purpose |
-|----------|-----------|---------|
-| Combat | High (~40%) | Fights with rewards |
-| Social | Medium (~25%) | Bond events, NPC encounters |
-| Exploration | Medium (~25%) | Location discoveries, artifact finds |
-| Boss | Low (~10%) | Story progression, act boss access |
+- The deck presents **illustrated, narrated events** — each card is a scene, not a stat sheet
+- Events offer **branching, choose-your-own-adventure style choices**
+- Outcomes are **shaped by your party composition, your items, and your prior decisions** — the same card can play out differently on different runs
+- The deck is part of the roguelike run structure: draws happen as you progress through an act
+- The free **Graphite: Act 1** demo includes **15 hand-drawn adventure events** — the only confirmed event pool size
 
----
+**Unconfirmed specifics**: how many cards exist in the full game, how draws are weighted, whether events repeat within a run, and any rules for skipping or rerolling cards. Treat any guide that quotes card counts, percentages, or event categories as unsourced.
 
-## Event Types and What to Expect
+## What Events Do
 
-### Combat Events
+Events serve three confirmed functions:
 
-**Standard combat**: Fight 1-2 enemy groups. Rewards: gold, Friendship, and a Common artifact.
-**Elite combat**: Fight an elite enemy variant. Rewards: Uncommon+ artifact, bonus Friendship.
-**The Gauntlet**: 5 consecutive fights. Rewards: Legendary artifact on completion. Appears once per playthrough (usually Act 3).
-**The Ambush**: You are forced into a fight with no preparation (all heroes start with reduced Break meter). Rewards: Increased gold and an Uncommon artifact.
+1. **Narrative**: the deck is where the story lives — branching choices, character moments, and consequences
+2. **Choice**: your decisions shape outcomes, and those outcomes remember earlier decisions ("prior decisions" influence later events — confirmed)
+3. **Rewards**: events feed your run's progression — artifacts, friendship, and other resources flow through the deck
 
-### Social Events
+The deck is the campaign's answer to a fixed chapter list: instead of a scripted sequence, the story arrives through illustrated, branching scenes shaped by who you brought and what you chose before.
 
-**The Bonding Ritual**: +15 Friendship between two heroes of your choice. Extremely valuable for hero unlocks.
-**The Wandering Merchant**: Buy artifacts for gold. Act 1 merchants sell Uncommon artifacts. Later acts may offer Rare artifacts.
-**The Festival**: +5 Friendship to all party members. Small but free bonus that costs nothing.
-**The Negotiation**: Party must have a Bard to access the peaceful resolution. Rewards: Rare artifact without combat.
-**Shared History**: +10 Friendship between heroes who fought the last boss together.
+## Party Composition and the Deck
 
-### Exploration Events
+One of the most interesting confirmed features: **the deck responds to your party**. Coverage explicitly describes branching choices "influenced by your party," and the developers list party-responsive choices among the game's unique mechanics.
 
-**The Locked Chest**: Requires Rogue or Tamer for the best outcome (extra loot). Without them, the chest is a trap that damages a hero.
-**The Mysterious Altar**: Requires Monk or Mage to access the "Purify" option, which grants a permanent stat boost. Without them, you get a single-use consumable.
-**The Buried Vault**: Requires a Hunter. Contains 3 Rare artifacts. Skip if you lack a Hunter.
-**The Beast's Den**: Requires a Tamer. Potentially recruit a temporary pet for 5 days.
-**The Hunt**: Requires a Hunter. Double the event's reward.
-**The Mystic Forge**: Upgrade one Common artifact to Uncommon. No party requirement. Always take this event.
-**The Resonance Chamber**: Obtains one Resonance artifact (Power, Speed, or Guard). Appears once per playthrough. High priority.
+What this means in practice:
 
-### Boss Events
+- Who you bring changes which choices are available or meaningful
+- Different heroes on the same card can face different options
+- Running the same event with a different party is a confirmed way to see different content
 
-**Act Boss**: The major story boss at the end of each act. Always present in the deck.
-**Mini-Boss**: Optional powerful enemy. Rewards: Rare+ artifact.
-**The Shadow Council** (Act 3 event): Group fight against 3 mini-bosses. Unique event that replaces the standard act boss pattern.
+The exact response rules are **unconfirmed** — no official documentation of how party composition changes draws or options has been published.
 
----
+## How Prior Decisions Matter
 
-## How Party Composition Affects Event Draws
+Choices carry weight across the run — and across runs. Confirmed design points:
 
-This is the most important hidden system in the adventure deck. **Your party composition directly influences which cards appear in your draws**.
+- **Prior decisions** within a run shape later event options
+- The game is a roguelike with narrative continuity: hero stories "cross and accumulate" across runs, so earlier runs can inform later ones
+- Your starting hero changes story events, so the same act with a different hero is a different experience
 
-**The rules**:
-- The deck biases toward events that your party **can handle**. If you have a Hunter, "The Hunt" appears more frequently.
-- The deck biases against events your party **cannot handle**. If you have no Rogue or Tamer, "The Locked Chest" appears less often.
-- **Hybrid parties** (at least one hero from each category) see the widest variety of events.
+The takeaway: treat event choices as real decisions, not cosmetic flavor. Remember what you chose and what happened — the game does.
 
-**Practical implications**:
-1. **A 6-hero party (one of each) draws the best events**. You want diversity, not duplication.
-2. **Missing certain heroes locks you out of specific events**. A party with no Hunter will never see "The Buried Vault" or "The Hunt."
-3. **The Monk does not unlock any special events but makes combat events easier** due to Break-charge.
+## Event Choice Strategy
 
-**Party-event compatibility table**:
+Since specific events are unconfirmed, strategy lives at the level of how the system is designed to be played:
 
-| Event | Enabling Hero | Without Enabler |
-|-------|---------------|-----------------|
-| The Locked Chest | Rogue or Tamer | Trap (damages hero) |
-| The Mysterious Altar | Monk or Mage | Consumable only |
-| The Buried Vault | Hunter | Event does not appear |
-| The Hunt | Hunter | Half reward |
-| The Beast's Den | Tamer | Event does not appear |
-| The Negotiation | Bard | Forced combat |
-| The Bonding Ritual | None (always available) | — |
-| The Gauntlet | None (always available) | — |
+1. **Engage the deck.** Events are the confirmed source of items, friendship, and story. Skipping them means skipping the game's content engine.
+2. **Read the card before choosing.** Events are narrated scenes — the choice text is the information. Choose like it's a story decision, because consequences follow.
+3. **Bring a party that fits the choice.** Party composition influences the deck — if you want certain outcomes, bring the heroes that make those outcomes possible.
+4. **Remember your decisions.** Prior decisions shape later events. If a choice felt consequential, expect it to be.
+5. **Replay with different parties.** The demo's 15 events are designed to be replayed: different heroes, different items, different outcomes. That's the roguelike loop working as intended.
 
----
+## What's Unconfirmed — Avoid These Claims
 
-## Key Events That Grant Powerful Artifacts
+- **Named events** (e.g., "The Bonding Ritual," "The Gauntlet," "The Mystic Forge") — no event names have been officially confirmed
+- **Event categories and frequencies** — unconfirmed
+- **Reward tables** (e.g., "elite combat drops Uncommon+ artifacts") — unconfirmed
+- **Deck manipulation rules** (card cycling, seeding, skip mechanics) — unconfirmed
+- **Rarity systems** (Common/Uncommon/Rare/Legendary artifacts) — no official confirmation of artifact rarities
 
-### The Resonance Chamber
+If a guide names specific events and their rewards, it is writing fiction — none of that content is sourced.
 
-**When it appears**: Once per playthrough, typically in Act 2 or Act 3.
-**What it does**: Grants one Resonance artifact of your choice.
-**Why it matters**: Collecting all three Resonance artifacts (Power, Speed, Guard) on the same hero triggers the "Resonance Trinity" bonus — +15% all stats + secondary effects. This is the strongest artifact combination in the game.
-**Recommendation**: Always take this event. Even one Resonance artifact is decent. All three are game-breaking.
+## Demo Practice Plan
 
-### The Mystic Forge
+The Act 1 demo is the perfect training ground for the deck:
 
-**When it appears**: 1-2 times per playthrough.
-**What it does**: Choose one Common artifact to upgrade to Uncommon.
-**Why it matters**: Many Common artifacts have powerful effects that scale poorly with rarity. Upgrading a key Common artifact (like "Break Booster" or "Flow State") can transform your combat performance.
-**Recommendation**: Use this on a Common artifact that directly supports your team's Break strategy. Do not upgrade a stat-stick Common artifact.
+- **15 events** are available to experience and re-experience
+- **4 heroes** mean multiple party compositions for the same events
+- **~30-minute runs** mean you can see how decisions pay off — and how they don't — quickly
+- **50 artifacts** give the reward side of the deck real variety to explore
 
-### The Gauntlet
+Try the same event with different heroes and different item stacks. That experiment is the fastest way to learn how the deck really works before the full game's July 27 release.
 
-**When it appears**: Once per playthrough, usually Act 3.
-**What it does**: 5 consecutive fights. Final reward is always a Legendary artifact.
-**Why it matters**: Legendary artifacts are the most powerful items in Graphite. This is the only guaranteed Legendary in the game (other Legendaries are random drops from elite enemies and bosses).
-**Recommendation**: Do this event even if your party is not at full HP. Bring consumable heals. The Legendary artifact is worth the risk.
+## Related Guides
 
-### The Ascended Artifact (Act 4 only)
-
-**When it appears**: Once in Act 4, usually Days 50-55.
-**What it does**: Guaranteed Legendary artifact tailored to your party's strongest hero.
-**Why it matters**: A targeted Legendary artifact is better than a random one. The game analyzes your hero stats and artifact loadout to determine which bonus would benefit you most.
-**Recommendation**: This is the last major power spike before the final boss. Always take it.
-
-### The Forgotten Archive (Act 2)
-
-**When it appears**: Days 19-22 of Act 2.
-**What it does**: Choice between +3 permanent party damage or a Legendary artifact chest.
-**Why it matters**: The Legendary artifact chest is almost always the better choice. A single Legendary artifact provides more value than +3 damage across an entire run.
-**Recommendation**: Take the Legendary chest unless you already have 3+ Legendary artifacts (unlikely at this point in the game).
-
----
-
-## Event Choice Decision Tree
-
-When faced with a tarot event choice, use this priority system:
-
-1. **Does the event grant a guaranteed artifact?** If yes, take it (high priority).
-2. **Is the event a combat with "Bonus Rewards" tag?** If yes, take it (good value).
-3. **Is your party missing the enabling hero for the event?** If the event needs a hero you lack, skip it.
-4. **Is the event a Bond/Friendship event?** If you are still unlocking heroes, take it.
-5. **Is the event a Camp site?** Always take camp sites.
-6. **Is the event a standard combat?** Take it only if you need the artifact/gold.
-
----
-
-## Deck Manipulation Tips
-
-**Cycling the deck**: If you rest without exploring (skip action), the deck advances without drawing a new card. Use this to reach specific events faster.
-
-**Drawing more cards per day**: Moving to a new zone draws 1 card. Taking a combat event draws 1-2 additional cards. Aggressive play draws the deck faster, giving you access to high-value events sooner.
-
-**Missed events**: If you skip an event (by resting or taking a different path), the card goes to the bottom of the deck. It is not gone permanently — it may reappear in 3-5 draws. However, if you are deep into an act, the deck may run out before the event reshuffles back to the top.
-
-**Party swapping mid-act**: Changing your party composition at a camp site **does not retroactively affect cards already in your draw hand**. The deck updates after the current hand is resolved. Swap parties early in an act for maximum benefit.
-
----
-
-## Quick Reference: Best Event Outcomes
-
-| Event | Best Outcome | Requires |
-|-------|-------------|----------|
-| The Locked Chest | Rare artifact + gold | Rogue or Tamer |
-| The Mysterious Altar | Permanent stat boost | Monk or Mage |
-| The Buried Vault | 3 Rare artifacts | Hunter |
-| The Negotiation | Rare artifact, no fight | Bard |
-| The Hunt | Double rewards | Hunter |
-| The Beast's Den | Temporary pet (5 days) | Tamer |
-| The Gauntlet | Legendary artifact | Patience (5 fights) |
-| The Resonance Chamber | Resonance artifact | None |
-| The Mystic Forge | Common → Uncommon upgrade | None |
-| The Forgotten Archive | Legendary chest | Reach Act 2 |
-| The Ascended Artifact | Targeted Legendary | Reach Act 4 |
+- [Campaign Walkthrough Guide](/guides/walkthrough-guide)
+- [Advanced Tips & Tricks](/guides/tips-tricks)
+- [Beginner Guide — First Run Tips](/guides/beginner-guide)
+- [Graphite Demo Guide — Act 1](/guides/graphite-demo-guide)

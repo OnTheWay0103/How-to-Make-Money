@@ -1,165 +1,61 @@
 ---
-title: 'Relics Guide — Best Relics, Effects & Synergies'
-description: 'Complete Echoes of Mystralia Relics guide — every Relic cataloged with effects, rarity, location, and the best Relic combinations for each spell build.'
-keywords: ['echoes of mystralia relics guide', 'echoes of mystralia best relics', 'mystralia relic effects', 'echoes of mystralia relic locations']
-updated: '2026-07-22'
+title: 'Relics & Passive Bonuses — The Honest State of Item Systems'
+description: 'Are there Relics in Echoes of Mystralia? No official source says so. Here\'s what\'s confirmed about passive power, run currencies, and what remains TBD at Early Access.'
+category: 'Systems'
+version: 'Pre-release'
+updated: '2026-08-01'
+keywords: ['echoes of mystralia relics', 'echoes of mystralia passive items', 'echoes of mystralia items guide', 'mystralia relic guide', 'echoes of mystralia power systems']
+related: ['memories-guide', 'legendary-gear', 'spell-crafting-guide', 'endgame-guide']
 ---
 
-# Relics Guide — Best Relics, Effects & Synergies
+# Relics & Passive Bonuses — The Honest State of Item Systems
 
-Relics are passive items that provide permanent bonuses throughout a run. Unlike Memories (which modify individual spells), Relics affect your character globally. Finding the right Relics for your build is crucial for pushing higher difficulties.
+Are there "Relics" in Echoes of Mystralia? The honest answer: **no official source — press releases, the Steam page, developer statements — mentions any Relic or equipment system.** Earlier versions of this guide cataloged dozens of Relics with effects, rarities, and farming routes; **that content was fabricated and has been removed.**
 
-## Relic System Overview
+> **Pre-release note:** Echoes of Mystralia enters Steam Early Access on **August 11, 2026**. Anything marked **TBD** has not been confirmed by Borealys Games.
 
-- **15 Relics** in the free demo
-- **30+ Relics** at Early Access launch (August 11, 2026)
-- Relics are found in chests, dropped by elites, or purchased at shrines
-- You can equip up to **6 Relics** simultaneously (upgradable via Lotus)
-- Relic effects stack multiplicatively with spell effects
+## What's Confirmed About Power Systems
 
-### Relic Rarity Tiers
+The systems Borealys has actually announced:
 
-| Tier | Color | Power Level | Primary Sources |
-|------|-------|-------------|-----------------|
-| Common | Gray | Baseline | Small chests, common enemies |
-| Uncommon | Green | 1.5x | Medium chests, elites |
-| Rare | Blue | 2.5x + synergy bonus | Golden chests, mini-bosses |
-| Legendary | Gold | 4x + unique effect | Guardian bosses, secret areas |
+1. **Memories** — the resource harvested from enemies; the raw material of spellcrafting
+2. **Spellcrafting** — forge and customize spells by reordering and combining Memories; "millions of possible combinations"
+3. **Spell forms** — 12 at Early Access, 4 in the demo
+4. **Permanent hub upgrades** — at the Azimuth Temple between runs
+5. **Echo Fragments** — the demo's currency, which **resets at launch**
 
----
+There is no announced passive-item layer on top of these. If you read "Relic tier list" content elsewhere pre-launch, it is speculative fiction — no official Relic exists to rank.
 
-## All Known Relics (Demo + Confirmed EA)
+## Where "Relic-Like" Power Could Live (TBD)
 
-### Offensive Relics
+Players drawn to passive items will likely find the equivalent in confirmed systems:
 
-| Relic | Rarity | Effect | Best Builds |
-|-------|--------|--------|-------------|
-| **Ember Stone** | Common | +15% fire damage | Inferno Machine, Frostfire |
-| **Frost Core** | Common | +15% ice damage | Blizzard King |
-| **Storm Shard** | Common | +15% lightning damage | Storm Weaver |
-| **Spellweaver's Charm** | Uncommon | +25% spell damage, -10% cast speed | Tempest God |
-| **Archmage's Focus** | Rare | +40% spell damage when above 80% mana | Arc Sniper |
-| **Berserker's Totem** | Rare | +30% damage, +15% damage taken | Inferno Machine |
-| **Elemental Conduit** | Legendary | +50% damage for each unique element used recently | Tempest God |
-| **Memory Nexus** | Legendary | +20% damage per equipped Legendary Memory | Endgame builds |
+| Passive-item concept | Likely home | Status |
+|----------------------|-------------|--------|
+| Permanent passive bonuses | Azimuth Temple permanent skills | ✅ Confirmed conceptually |
+| Run-scoped passive boosts | Memory arrangements on your spells | **TBD** |
+| Currency economy | Launch currencies (Echo Fragments reset) | **TBD** |
+| Collection chase | The 110-Memory pool | ✅ Confirmed conceptually |
 
-### Defensive Relics
+None of these are named or specified. The developer has confirmed the *shapes* of these systems without confirming any item layer.
 
-| Relic | Rarity | Effect | Best Builds |
-|-------|--------|--------|-------------|
-| **Guardian's Pendant** | Common | +10% max HP | All builds |
-| **Ironwood Bark** | Uncommon | +20% armor | Blizzard King |
-| **Phasewalker's Cloak** | Rare | 15% chance to avoid all damage from a hit | All builds |
-| **Vampiric Sigil** | Rare | 5% of spell damage as healing | Inferno Machine |
-| **Crystal Aegis** | Legendary | Gain a shield equal to 30% max HP at start of each combat | Blizzard King |
-| **Phoenix Feather** | Legendary | Once per run: revive with 50% HP on death | All hardcore runs |
+## How to Prepare (Honest Framework)
 
-### Utility Relics
+1. **Master Memories** — whatever passive power exists, Memory crafting is the confirmed core
+2. **Expect to be wrong** — pre-launch planning is hypothesis; test everything in the first week of EA
+3. **Try the demo's 4 fight challenges** — they teach the resource economy loop
+4. **Watch official channels** — Borealys' Steam news and Discord are the only reliable sources
 
-| Relic | Rarity | Effect | Best Builds |
-|-------|--------|--------|-------------|
-| **Traveler's Boots** | Common | +10% movement speed | Speed farmers |
-| **Scholar's Scroll** | Uncommon | +20% Memory drop rate | Farming builds |
-| **Alchemist's Vial** | Uncommon | Potions heal 30% more | Learning/new players |
-| **Treasure Map** | Rare | Reveals all chests on the minimap | Exploration |
-| **Manawell Crystal** | Rare | +25% max mana, +5 mana/sec regen | Spell-heavy builds |
-| **Timekeeper's Hourglass** | Rare | +25% cooldown reduction | All casting builds |
-| **Merchant's Favor** | Rare | 30% discount at shrine vendors | Economy |
-| **Atlas Stone** | Legendary | +2 maximum Relic slots | All builds |
-| **Eternal Lotus** | Legendary | Lotus upgrades cost 25% less | Progression |
+## What We'll Document After Launch
 
----
-
-## Best Relic Combinations Per Build
-
-### Tempest God (All-Element)
-```
-1. Elemental Conduit (Legendary) — core synergy
-2. Spellweaver's Charm (Uncommon) — raw damage
-3. Timekeeper's Hourglass (Rare) — cooldown reduction
-4. Manawell Crystal (Rare) — mana sustain
-5. Phasewalker's Cloak (Rare) — survivability
-6. Atlas Stone (Legendary) — flex slot
-```
-
-### Inferno Machine (Boss Killer)
-```
-1. Ember Stone (Common) — fire amplification
-2. Berserker's Totem (Rare) — maximum DPS
-3. Archmage's Focus (Rare) — mana management
-4. Vampiric Sigil (Rare) — sustain
-5. Timekeeper's Hourglass (Rare) — CDR
-6. Phoenix Feather (Legendary) — safety net
-```
-
-### Blizzard King (Tank)
-```
-1. Frost Core (Common) — ice amplification
-2. Ironwood Bark (Uncommon) — tankiness
-3. Crystal Aegis (Legendary) — shield
-4. Guardian's Pendant (Common) — HP
-5. Phasewalker's Cloak (Rare) — avoidance
-6. Phoenix Feather (Legendary) — backup
-```
-
-### Storm Weaver (Speed Farm)
-```
-1. Storm Shard (Common) — lightning damage
-2. Spellweaver's Charm (Uncommon) — damage
-3. Traveler's Boots (Common) — speed
-4. Scholar's Scroll (Uncommon) — more Memories
-5. Treasure Map (Rare) — efficient chest routing
-6. Timekeeper's Hourglass (Rare) — CDR
-```
-
----
-
-## Relic Farming Strategy
-
-### Best Relic Sources
-
-| Source | Relic Quality | Reliability |
-|--------|-------------|-------------|
-| Golden chests (Ash Forest) | Common–Rare | High — 2–3 per run |
-| Elite enemy drops | Common–Rare | Medium — RNG dependent |
-| Guardian boss drops | Rare–Legendary | Guaranteed — once per kill |
-| Shrine vendors | Uncommon–Rare | Medium — requires gold |
-| Secret rooms | Rare–Legendary | Low — rare spawn |
-| Lotus milestone rewards | Legendary | Guaranteed — once per milestone |
-
-### Relic Farming Route (Ash Forest)
-
-The most efficient early-game Relic farm:
-
-1. Start run → check Temple vendor (buy if good Relic)
-2. Clear first 3 elite packs → check for Relic drops
-3. Open all golden chests (2 guaranteed per Ash Forest run)
-4. Check secret room spawn (north wall after second elite pack — breakable)
-5. Kill Therakan → guaranteed Rare+ Relic
-6. Repeat
-
-Estimated yield: 3–6 Relics per 30-minute run on Normal difficulty.
-
----
-
-## Relic Synergies with Memories
-
-Relics and Memories interact in powerful ways:
-
-| Relic | Best Memory Synergy | Combined Effect |
-|-------|-------------------|-----------------|
-| Ember Stone | Ignite IV (Legendary) | Double-dips fire damage — spell + burn |
-| Timekeeper's Hourglass | Hasten IV (Legendary) | Near-instant cast times |
-| Vampiric Sigil | Leech IV (Legendary) | Massive sustain — offensive healing |
-| Crystal Aegis | Barrier IV (Legendary) | Double shield — nearly unkillable |
-| Manawell Crystal | Siphon (any tier) | Infinite mana sustain |
-
-**Pro tip:** Always match your Relics to your Memories, not just your spells. A Relic that amplifies your primary Memory modifier is worth more than one that boosts a secondary spell effect.
-
----
+- Any confirmed item/passive systems with real names and effects (**TBD**)
+- Verified rarity tiers and acquisition (**TBD**)
+- Currencies of the launch economy (**TBD**)
+- Synergies between Memories and any other systems (**TBD**)
 
 ## Related Guides
 
-- [Memories Guide](/guides/memories-guide) — complete Memory catalog
-- [Best Spell Builds](/guides/best-spell-builds) — which Relics to pair with each build
-- [Lotus Progression Guide](/guides/lotus-progression-guide) — unlock more Relic slots
+- [Memories Guide](/guides/memories-guide) — the confirmed resource system
+- [Legendary Gear Guide](/guides/legendary-gear) — the honest state of "gear" content
+- [Spell Crafting Guide](/guides/spell-crafting-guide) — where run power really lives
+- [Endgame Guide](/guides/endgame-guide) — what the long-term chase looks like

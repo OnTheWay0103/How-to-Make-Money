@@ -1,10 +1,10 @@
 ---
-title: 'Upgrades Guide — Prioritize Your Base and Gear Upgrades in MineGeon: Renegades'
-description: 'Complete upgrades guide for MineGeon: Renegades. Learn which base improvements to unlock first, how gear tiers work, and the most efficient upgrade path from early game to deep runs.'
+title: 'Upgrades Guide — What to Upgrade First in MineGeon: Renegades'
+description: 'Complete upgrades guide for MineGeon: Renegades. The confirmed upgrade systems — permanent ship upgrades, Renegade attribute upgrades, and leveling unlocks — and the best upgrade order from early game to deep runs.'
 category: Upgrades
 version: '1.0'
-updated: '2026-07-27'
-keywords: ['minegeon upgrades guide', 'minegeon base upgrades', 'minegeon gear upgrades', 'minegeon upgrade priority', 'minegeon progression tips']
+updated: '2026-08-01'
+keywords: ['minegeon renegades upgrades guide', 'minegeon upgrades', 'minegeon gear upgrades', 'minegeon upgrade priority', 'minegeon renegades progression tips', 'minegeon renegades upgrade guide']
 related:
   - progression-guide
   - classes-guide
@@ -12,133 +12,85 @@ related:
   - crafting-guide
 ---
 
-## Upgrades Guide — Prioritize Your Base and Gear Upgrades in MineGeon: Renegades
+## Upgrades Guide — Prioritize Your Upgrades in MineGeon: Renegades
 
-MineGeon: Renegades features a deep upgrade system that spans both your base camp and your personal gear. Spending resources wisely is the difference between breezing through depth 30 and hitting a hard wall at depth 15. This guide lays out the optimal upgrade order for both progression tracks.
+MineGeon: Renegades is a roguelite, which means two upgrade tracks run at once: **within a run** (weapons, gadgets, ultimates found while descending) and **between runs** (permanent upgrades bought with minerals). Spending the permanent track wisely is what separates players who plateau at the first biome from players who reach the depths.
 
-### 1. Base Camp Upgrades
+> **Accuracy note:** this guide describes the confirmed upgrade systems. Exact costs, upgrade tiers, and perk names were not published by early August 2026 — treat specific numbers on other sites as unverified.
 
-Your base camp is the hub between runs. Upgrades here provide permanent benefits that apply to every expedition.
+## The Three Confirmed Upgrade Systems
 
-### 1.1 Upgrade Categories
+| System | Track | What It Does |
+|--------|-------|--------------|
+| **Ship upgrades** | Permanent (minerals) | Upgrades the spaceship, your hub between runs |
+| **Renegade attributes** | Permanent (minerals) | Enhances each class's stats permanently |
+| **Leveling unlocks** | Per-run (XP) | Leveling unlocks gadgets, weapons, and ultimates |
 
-| Category | Focus | Max Level | Total Cost |
-|----------|-------|-----------|------------|
-| Workbench | Gear crafting and upgrades | 5 | 15,000 Gold |
-| Healing Station | Post-run health recovery | 3 | 6,000 Gold |
-| Storage | Inventory capacity | 5 | 12,000 Gold |
-| Forge | Tool crafting and repair | 4 | 10,000 Gold |
-| Laboratory | Consumable crafting | 3 | 8,000 Gold |
-| Radar | Map reveal and resource scanning | 3 | 7,500 Gold |
+## 1. Ship Upgrades
 
-### 1.2 Priority Upgrade Path
+Your ship is the meta-progression backbone: minerals you extract can be traded for permanent ship upgrades that apply to every expedition.
 
-| Priority | Upgrade | Level | Cost | Why |
-|----------|---------|-------|------|-----|
-| 1 | Workbench | Level 2 | 3,000 Gold | Unlocks iron tools — essential for magma biomes |
-| 2 | Storage | Level 2 | 3,000 Gold | +20 inventory slots for longer runs |
-| 3 | Forge | Level 2 | 2,500 Gold | Reduce repair costs by 30% |
-| 4 | Healing Station | Level 2 | 2,000 Gold | Recover 100% HP between runs |
-| 5 | Workbench | Level 3 | 5,000 Gold | Unlocks titanium gear |
-| 6 | Laboratory | Level 2 | 3,000 Gold | Craft advanced healing salves |
-| 7 | Radar | Level 2 | 3,000 Gold | Reveal valuable nodes on map |
-| 8 | Storage | Level 3 | 4,000 Gold | +40 inventory slots |
-| 9 | Forge | Level 3 | 4,000 Gold | Unlock self-repair modules |
-| 10 | Workbench | Level 4 | 7,000 Gold | Unlocks ancient alloy gear |
+**Priority reasoning:** ship upgrades are the highest-value investment because they benefit every class and every future run. A ship upgrade bought once is working for you forever.
 
-**Key Insight:** Rush Workbench to Level 3 before investing in other categories past Level 2. Better gear unlocks more efficient farming, which funds everything else.
+## 2. Renegade Attribute Upgrades
 
-### 2. Gear Upgrade Tiers
+Each Renegade — Marshall, Trevor, Ari — has attributes you can enhance permanently. Because upgrades are per-class, the efficient pattern is:
 
-### 2.1 Tool (Pickaxe) Progression
+- **Pick a main class early** and invest there first
+- **Diversify later**, when your main is strong enough to farm minerals comfortably
+- **Match investment to playstyle:** Marshall benefits most from survivability, Trevor from damage, Ari from balanced investment (exact stats unpublished)
 
-| Tier | Material | Mining Power | Unlock Condition | Best Use |
-|------|----------|-------------|------------------|----------|
-| 1 | Stone | 1 | Starter | Crystal Caverns only |
-| 2 | Copper | 2 | Workbench Level 1 | Early game, basic nodes |
-| 3 | Iron | 4 | Workbench Level 2 | Magma Tunnels, titanium nodes |
-| 4 | Titanium | 7 | Workbench Level 3 | Abyssal Depths, all nodes |
-| 5 | Ancient Alloy | 10 | Workbench Level 4 | Forgotten City, boss nodes |
+## 3. Leveling Unlocks
 
-### 2.2 Weapon Progression
+During a run, leveling unlocks the gear that makes deeper descents possible:
 
-| Tier | Base Damage | Special Effect | Unlock Material |
-|------|------------|---------------|-----------------|
-| Copper Blade | 10 | None | Copper x10 |
-| Iron Sword | 18 | +5% crit chance | Iron x15 |
-| Titanium Greatsword | 30 | +10% crit damage | Titanium x20 |
-| Alloy Hammer | 45 | Stagger on hit | Ancient Alloy x10 |
-| Void Reaper | 60 | +15% lifesteal | Ancient Alloy x15 + Void Crystal x5 |
+- **Gadgets** — 150+ in the full game (grenades, energy shields, combat drones)
+- **Weapons** — including legendary weapons and the weapons of the Ancient Ones
+- **Ultimate abilities** — each Renegade's signature power
 
-### 2.3 Armor Progression
+This is the track where runs differentiate themselves: two runs of the same class can play completely differently based on what unlocks and appears.
 
-| Tier | Defense | Set Bonus (2 pieces) | Set Bonus (4 pieces) |
-|------|---------|---------------------|---------------------|
-| Copper | 5 | +10 HP | Mining speed +10% |
-| Iron | 12 | +25 HP | Fire resistance +20% |
-| Titanium | 22 | +50 HP | Damage reduction +10% |
-| Alloy | 35 | +80 HP | Lifesteal +5% |
+## Recommended Upgrade Order
 
-### 3. Upgrade Material Farming
+### Early Game (first several runs)
+1. **Bank your first few extractions** — the goal is minerals in the bank, not depth records
+2. **Ship upgrades first** — the compounding foundation
+3. **Then your main Renegade's attributes** — specialization beats spreading thin
+4. **Spend nothing on cosmetics yet** — decorations come after the functional track
 
-### 3.1 Material Sources
+### Mid Game (consistent extraction)
+5. **Push the first biome boss** with banked minerals and a chosen loadout
+6. **Diversify attributes** once your main class is comfortable
+7. **Start a second class** if you want co-op flexibility (roles matter in teams)
 
-| Material | Primary Source | Secondary Source | Best Depth |
-|----------|---------------|-----------------|------------|
-| Copper | Crystal Caverns | Vendor (cheap) | 1–5 |
-| Iron | Crystal Caverns (deep) | Magma Tunnels | 8–15 |
-| Titanium | Magma Tunnels | Abyssal Depths (veins) | 15–25 |
-| Ancient Alloy | Abyssal Depths | Forgotten City (rare) | 25–35 |
-| Void Crystal | Forgotten City | Boss drops | 35+ |
+### Late Game
+8. **Max the ship track** (community-documented max levels were still being confirmed as of early August 2026)
+9. **Chase legendary and Ancient Ones gear** in deep biomes
+10. **Target the 49 Steam achievements** for the completionist layer
 
-### 3.2 Farming Routes by Material
+## Upgrade Material Rules (the part everyone gets wrong)
 
-- **Early Iron:** Levels 8–12 in Crystal Caverns. Follow the underground river — iron veins cluster near water.
-- **Mid Titanium:** Levels 16–20 in Magma Tunnels. Look for glowing red walls. Avoid the center rooms where Magma Worms spawn.
-- **Late Alloy:** Levels 26–30 in Abyssal Depths. Mining nodes guarded by elite Crystal Golems. Clear the room first, then mine.
+- **Minerals only count once extracted.** Carried minerals are lost on death — always.
+- **There is no confirmed crafting.** No smelting, no anvils, no recipe trees. Ignore guides claiming otherwise.
+- **Run gear is temporary.** Weapons and gadgets found in a run serve that run (and its unlocks); the permanent track is where real power accumulates.
 
-### 4. Consumable Upgrades
+## Common Upgrade Mistakes
 
-The Laboratory unlocks consumables that significantly boost run efficiency.
+1. **Hoarding minerals "for the perfect run."** Bank them as permanent upgrades — unspent minerals buy nothing while you're dead.
+2. **Upgrading all three Renegades evenly.** Spread thin means no class is strong enough for deeper biomes.
+3. **Buying cosmetics before upgrades.** The 200+ ship decorations are tempting, but they don't make runs safer.
+4. **Fighting bosses with a full haul.** The repeatable thing is the boss, not your minerals.
+5. **Trusting exact numbers.** With costs unpublished, any guide with precise gold/ore tables for upgrades is inventing them.
 
-| Consumable | Effect | Unlock Requirement | Crafting Cost |
-|-----------|--------|-------------------|---------------|
-| Healing Salve | Restore 30 HP | Laboratory Level 1 | Herbs x3 |
-| Advanced Salve | Restore 60 HP over 10 seconds | Laboratory Level 2 | Herbs x5 + Crystal Shard |
-| Strength Tonic | +25% damage for 5 minutes | Laboratory Level 2 | Titanium x2 + Crystal Shard |
-| Swift Elixir | +30% move speed for 5 minutes | Laboratory Level 3 | Alloy x1 + Void Crystal |
-| Smoke Bomb | Reduce aggro range 80% for 8 seconds | Laboratory Level 3 | Alloy x1 + Herbs x5 |
+## Upgrade Order Cheat Sheet
 
-### 5. Upgrade Cost Summary Table
+1. Extract consistently → 2. Ship upgrades → 3. Main Renegade attributes → 4. Push biome boss → 5. Diversify → 6. Deep biomes and legendary gear → 7. Achievements and maxed tracks
 
-| Upgrade Path | Total Gold Cost | Total Material Cost | Hours to Complete |
-|-------------|----------------|-------------------|-------------------|
-| Base Camp (all) | 48,500 Gold | Various | 15–20 hours |
-| Tools (max) | 25,000 Gold | 150 ore | 8–12 hours |
-| Weapons (max) | 30,000 Gold | 100 ore + boss drops | 10–15 hours |
-| Armor (max) | 35,000 Gold | 200 ore | 12–18 hours |
-| Consumables (unlock all) | 8,000 Gold | 50 herbs | 3–5 hours |
-
-### 6. Upgrade Order Cheat Sheet
-
-Follow this exact sequence for the fastest power progression:
-
-1. Workbench Level 2 (Iron tools) → 3,000 Gold
-2. Storage Level 2 → 3,000 Gold
-3. Iron Sword + Iron Armor set → 45 Iron ore
-4. Forge Level 2 → 2,500 Gold
-5. Healing Station Level 2 → 2,000 Gold
-6. Laboratory Level 2 → 3,000 Gold
-7. Workbench Level 3 (Titanium tools) → 5,000 Gold
-8. Titanium Greatsword + Titanium Armor set → 80 Titanium ore
-9. Storage Level 3 → 4,000 Gold
-10. Workbench Level 4 (Alloy gear) → 7,000 Gold
-
-At this point, you are ready for deep runs into the Abyssal Depths and Forgotten City.
+That sequence, in that order, is the fastest path to deep runs.
 
 ### Related Guides
 
-- [Progression Guide](/guides/progression-guide) — Full long-term progression roadmap
-- [Classes Guide](/guides/classes-guide) — Best class to pair with specific upgrades
-- [Mining Guide](/guides/mining-guide) — Efficient ore farming by biome
-- [Crafting Guide](/guides/crafting-guide) — Advanced crafting recipes and material conversion
+- [Progression Guide](/guides/progression-guide) — full long-term roadmap
+- [Minerals & Economy Guide](/guides/crafting-guide) — how the mineral economy works
+- [Mining Guide](/guides/mining-guide) — gathering minerals efficiently
+- [Classes Guide](/guides/classes-guide) — which Renegade to invest in

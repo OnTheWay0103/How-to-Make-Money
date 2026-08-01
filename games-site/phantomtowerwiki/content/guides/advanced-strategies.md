@@ -1,62 +1,93 @@
 ---
-title: "Phantom Tower Advanced Strategies Guide — High-Run Tactics & Synergies"
-description: "Advanced strategies guide for Phantom Tower. Learn blessing loadout synergy, class-specific run routes, elemental matchup rules, elite floor tactics, Survival Mode depth, and legendary farming."
-category: "Guides"
-version: "1.0"
-updated: "2026-07-31"
-keywords: ["Phantom Tower advanced strategies", "Phantom Tower blessing synergies", "Phantom Tower high run tactics", "Phantom Tower elemental matchups", "Phantom Tower Survival Mode", "Phantom Tower legendary farming"]
-related: ["blessings-guide", "classes-guide", "progression-guide", "combat-guide", "best-builds"]
+title: 'Phantom Tower Advanced Strategies Guide — High-Run Tactics & Synergies'
+description: "Advanced Phantom Tower strategies — blessing loadout synergy, class-specific run routes, elemental matchup rules, Survival Mode depth, and boss-exclusive gear farming, built on confirmed mechanics."
+category: 'Guides'
+version: 'Early Access'
+updated: '2026-08-01'
+keywords: ['Phantom Tower advanced strategies', 'Phantom Tower high run tactics', 'Phantom Tower blessing synergies', 'Phantom Tower Survival Mode', 'Phantom Tower farming', 'Phantom Tower deep runs']
+related:
+  - blessings-guide
+  - combat-guide
+  - progression-guide
+  - soulbinder-guide
 ---
 
-## Advanced Strategies Guide — High-Run Tactics & Synergies
+# Phantom Tower Advanced Strategies Guide — High-Run Tactics & Synergies
 
-Phantom Tower runs are won or lost in the first three floors: blessings chosen early define the whole climb. Advanced play is about building a blessing loadout with synergy, respecting elemental matchups, and knowing exactly when to push into elite floors. This guide covers the tactics that carry runs past floor 20.
+Phantom Tower runs are won by two things: how well you use the confirmed systems — element swapping, reactions, blessings, forging, the Soulbinder — and how honestly you treat the parts of the game the developer has not documented yet. This guide covers the advanced tactics that carry runs past the mid-tower, built on official facts and clearly marked where speculation begins.
 
-### Blessing Loadout Synergy
+## The Advanced Framework
 
-| Core Blessing | Synergy Blessings | Best Class | Result |
-|---------------|-------------------|------------|--------|
-| Elemental Overload | Chain Reaction, Mana Font | Elementalist | Infinite spell loops |
-| Bloodlust | Adrenaline, Reaper's Mark | Berserker | Sustain + burst |
-| Guardian's Aegis | Stone Skin, Retribution | Guardian | Unkillable tank |
-| Shadowstep | Lethal Intent, Backstab | Rogue | One-shot elites |
+The deep-game skills in Phantom Tower all reduce to one idea: **make every run compound.** Climb Mode officially lets you bring materials, resources, and equipment out of the tower; the Soulbinder permanently locks stats onto gear; blessings reshape each run. Advanced play strings those three confirmed systems together across many runs instead of optimizing a single one.
 
-1. **Pick a family early:** Commit to one blessing family by floor 3. Mixed loadouts dilute every trigger.
-2. **Rarity over quantity:** Two rare blessings of the same family beat four common ones from different families.
-3. **The pivot:** If your core blessing never appears by floor 5, pivot to the family that keeps appearing — a full common set beats a broken rare plan.
+## Blessing Loadout Strategy
 
-### Class-Specific Routes
+Of the 47 officially counted Tower Blessings, only two are named — **Artemis Dive** (evasion summons tracking arrows) and **Chain Quake** (shockwaves chain between enemies). Advanced blessing play works within that honest limit:
 
-| Class | Early Floors | Mid Floors | Late Floors |
-|-------|--------------|------------|-------------|
-| Warrior | Damage blessings | Armor + damage | Sustain + AoE |
-| Elementalist | Mana blessings | Spell power | Cooldown reduction |
-| Blade Dancer | Attack speed | Crit chain | Evasion + counter |
-| Mystic | Summon blessings | Pet scaling | Pet + heal |
+**1. Build around triggers, not names.** Evaluate each blessing you find by its trigger. Triggers you control — dodging, swapping elements, hitting enemies — are reliable; narrow conditions are gambles. Artemis Dive is the confirmed model: it fires on an action every player does constantly.
 
-### Elemental Matchup Rules
+**2. Confirmable synergy: evasion + arrows.** Artemis Dive's confirmed effect makes dodge-heavy play into a damage rotation. Combine it with reactions that reward mobility (VENTI-based Shockwaves) and the build runs itself.
 
-- **Fire beats Nature, Nature beats Water, Water beats Fire** — the core triangle.
-- **Dark and Light counter everything** but cost 2x blessing points; use only as the second damage type.
-- **Elemental elites:** Elites with a shield element take 50% less damage from their element. Check shields before bursting.
-- **Floor theme rotation:** Floors rotate elemental themes every 5 floors — carry a two-element loadout, not one.
+**3. Confirmable synergy: chains + crowds.** Chain Quake chains shockwaves between enemies. In dense rooms, pair it with Erode (the confirmed chain-spreading corruption) — two chain effects on the same swarm is how rooms die fast.
 
-### Elite & Legendary Floor Tactics
+**4. Adapt or die.** With 45 unnamed blessings, a rigid build plan is a losing plan. The advanced skill is pivoting your loadout around what the run offers instead of forcing what you planned.
 
-1. **Elite floors pay:** Elite floors offer double blessing picks but triple enemy density. Clear them when your sustain is intact, skip when low.
-2. **Legendary farming:** Legendary blessings drop from elite floor bosses at higher rates on floors 11-15. Route your farming there.
-3. **The pit trap:** Save your strongest consumable for the legendary floor — it's the run's only guaranteed rare drop.
+## Class-Specific Run Routes
 
-### Survival Mode Depth
+Four of eight launch classes are confirmed: **Warrior** (starting class, melee generalist), **Mage** (caster), **Archer** (ranged), and **Assassin** (high-mobility "Shadow Specialist" with Shadow Clones). Advanced routing follows their confirmed identities:
 
-- **Floor 30+ pacing:** Survival Mode stops offering healing at floor 30. Switch to sustain blessings before then.
-- **Wave grouping:** Cluster enemies with knockback, then AoE — wave grouping beats raw DPS past floor 25.
-- **Rotation strategy:** Rotate class picks between survival attempts; blessing pools are class-weighted.
+**Warrior — the consistency route.** The starting class is a melee generalist: climb steady, forge steadily, Soulbind early. Warrior runs are about banking confirmed progression — bring gear out, upgrade, repeat.
 
-### Related Guides
+**Mage — the reaction route.** The confirmed caster lives in the reaction table. Route Mage runs through rooms with dense enemy packs and save swaps for multi-target reactions. Mastery of all 16 reactions (13 still unnamed) is the Mage skill ceiling.
 
-- [Blessings Guide](/guides/blessings-guide) — All 47 blessings ranked and explained
-- [Classes Guide](/guides/classes-guide) — All 8 classes and playstyles
-- [Progression Guide](/guides/progression-guide) — Meta-progression and endgame unlocks
-- [Combat Guide](/guides/combat-guide) — Core combat mechanics
-- [Best Builds Guide](/guides/best-builds) — Build archetypes for every class
+**Archer — the observation route.** Ranged play reads fights from a distance — the safest way to learn new enemy types and boss arenas. Route Archer runs through unfamiliar content first; the pattern knowledge transfers to every other class.
+
+**Assassin — the risk route.** High mobility, high lethality, Shadow Clones for synchronized strikes — the confirmed Shadow Specialist. Assassin runs are for speed: clean floors fast, and use the mobility advantage on floors you already know.
+
+## Elemental Matchup Rules
+
+The official record confirms four elements, mid-fight swapping, and 16 reactions — with only Freeze, Erode, and Shockwaves named. Advanced matchup play:
+
+- **Match the situation, not the boss.** The official design is explicit: swap to trigger the reaction the situation demands. Freeze (AQUA-based) answers speed; Erode (TERRA-based) answers crowds; Shockwaves (VENTI-based) answer distance
+- **Elemental weakness tables are unverified.** No official weakness chart exists. Play the fight, not the chart
+- **Affinities are real but unpublished.** Every class has an elemental affinity per the official description; which element each class favors is TBD. Experiment per class
+
+## Elite and Hidden Content Tactics
+
+The developer has not documented elite floors, secret rooms, or hidden encounters. Advanced play in that vacuum means:
+
+- **Search exhaustively.** Blessings are officially "hidden across its floors" — thorough room search is a confirmed value, not paranoia
+- **Treat unconfirmed systems as unverified.** Claims about secret rooms, shrines, or elite drops have no official source. Enjoy finding things out yourself; do not plan around other guides' inventions
+
+## Survival Mode Depth
+
+Survival Mode is confirmed as infinite hordes, chosen equipment, and final-permanently defeats. Advanced Survival play:
+
+- **Build for the hundredth wave, not the tenth.** Sustain and control — freeze reactions, chain effects, defensive blessings — out-last burst damage as waves scale
+- **Bring your known gear.** Loadout is chosen up front: your most-forged, best-understood equipment beats theoretical synergies
+- **Whether Soulbinder stats apply here is unconfirmed.** Plan Survival runs assuming a fresh slate; if bound stats do carry over, that is a bonus
+
+## Endgame Farming — The Confirmed Loop
+
+Advanced endgame farming uses only confirmed systems:
+
+1. **Climb and bank.** Bring materials, resources, and equipment out of the tower — the confirmed Climb Mode loop
+2. **Forge at the Blacksmith.** Turn materials into gear — the confirmed crafting hub
+3. **Soulbind toward level 99.** Push one stat on one piece to the official ceiling
+4. **Farm bosses for Boss Unique Weapons.** Steam bosses drop exclusive weapons — the confirmed chase item
+5. **Re-test in Survival Mode.** Permadeath is the honest benchmark for whether your build is actually good
+
+## What Not to Trust
+
+A short list of common guide claims with no official source:
+
+- Named boss rosters and attack patterns — unconfirmed
+- Full 16-reaction tables — only 3 reactions are officially named
+- 40+ named blessings with tier lists — only 2 are officially named
+- Weapon type lists (specific names for the six types) — count confirmed, names unpublished
+- Rarity, drop-rate, and stat tables — unpublished
+- New Game+ tiers and console release dates — not in the official record
+
+**The advanced mindset:** Early Access rewards players who separate confirmed knowledge from speculation. Build on the systems — elements, reactions, blessings, forging, Soulbinder, two modes — and let your own runs fill in what the wiki has not published yet.
+
+**Next steps:** Deepen your blessing play in the [Blessings Guide](/guides/blessings-guide), and see the endgame loop in the [Progression Guide](/guides/progression-guide).

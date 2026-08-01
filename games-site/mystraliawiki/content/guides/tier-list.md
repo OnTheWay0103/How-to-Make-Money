@@ -1,142 +1,83 @@
 ---
-title: 'Tier List — Best Spells, Memories & Relics Ranked'
-description: 'Echoes of Mystralia tier list ranking the best spell forms, Memories, Relics, and elemental combinations from S-Tier to C-Tier. Optimize your build with our definitive rankings.'
-keywords: ['echoes of mystralia tier list', 'echoes of mystralia best spells', 'mystralia memory tier list', 'echoes of mystralia relic tier list']
-updated: '2026-07-22'
+title: 'Tier List — The Honest Pre-Launch State of Rankings'
+description: 'Can an Echoes of Mystralia tier list exist before launch? No. Here\'s why pre-release rankings are fiction, the confirmed systems worth evaluating, and how to build a real tier list at EA.'
+category: 'Builds'
+version: 'Pre-release'
+updated: '2026-08-01'
+keywords: ['echoes of mystralia tier list', 'echoes of mystralia best spells', 'mystralia memory tier list', 'echoes of mystralia best build', 'echoes of mystralia meta']
+related: ['best-spell-builds', 'spell-crafting-guide', 'memories-guide', 'character-playstyle-guide', 'faq']
 ---
 
-# Tier List — Best Spells, Memories & Relics Ranked
+# Tier List — The Honest Pre-Launch State of Rankings
 
-This tier list ranks every major system in Echoes of Mystralia from S-Tier (meta-defining) to C-Tier (situational). Updated for the Early Access launch.
+Everyone searches for a tier list. The honest answer for Echoes of Mystralia: **no legitimate tier list can exist before Early Access launches on August 11, 2026.** Borealys Games has not published damage numbers, Memory effects, or balance data — and the demo's 4-spell, 50-Memory sandbox is not the full game. Earlier versions of this guide ranked spell forms, Memories, and "Relics" from S to C tier; **those rankings were fabricated** — they ranked systems and effects that have never been confirmed.
 
-## Spell Form Tier List
+> **Pre-release note:** This guide explains the confirmed systems worth ranking and how to build a real tier list once the game is playable.
 
-### S-Tier — Meta Defining
+## Why Pre-Launch Tier Lists Are Fiction
 
-| Spell Form | Reason |
-|-----------|--------|
-| **Vortex** | Highest sustained DPS in the game. Persistent AoE that benefits from every damage Memory type. Scales incredibly well with Persist and Expand. |
-| **Arc** | Best clear speed. Chains naturally with Lightning element, and Hasten makes it nearly instant-cast. Essential for speed farming. |
+1. **No confirmed data** — Memory effects, form behaviors, and element mechanics are unannounced
+2. **The developer has already changed systems** — progression changed between demo and EA; balance will too
+3. **The "meta" needs a playerbase** — rankings emerge from thousands of runs of real data, not anticipation
+4. **Roguelites rebalance constantly** — even a day-one tier list will be outdated by the first patch
 
-### A-Tier — Excellent
+Any "S-tier" claims before launch are speculation dressed as authority.
 
-| Spell Form | Reason |
-|-----------|--------|
-| **Nova** | Best defensive spell. Point-blank AoE with Barrier + Leech makes you nearly unkillable. Essential for Blizzard King builds. |
-| **Wall** | Unmatched zone control. Ice Wall blocks boss charge attacks and shockwaves. Persist Memory makes it last an entire phase. |
-| **Lance** | Highest single-target burst. The boss-killer spell. Amplify + Multishot + Ignite = massive damage windows. |
+## What's Actually Worth Knowing (Confirmed Systems)
 
-### B-Tier — Solid
+These are the confirmed axes of the future meta:
 
-| Spell Form | Reason |
-|-----------|--------|
-| **Bolt** | Reliable and fast. Good early-game option but outscaled by Vortex/Arc later. |
-| **Shard** | Strong with Ice element. Pierce effect is valuable against lined-up enemies. |
-| **Wave** | Good cone clear. Excels with Lightning element but narrower than Arc. |
+| System | Confirmed scope | What will be ranked |
+|--------|-----------------|---------------------|
+| **Spell forms** | 12 at launch (4 in demo) | Which forms perform best per role |
+| **Memories** | 110 at launch (50 in demo) | Which Memories are strongest, rarest, most versatile |
+| **Elements** | Fire, ice, lightning | Element match-ups and hybrids |
+| **Hub progression** | Permanent upgrades at the Azimuth Temple | Optimal upgrade orders |
+| **Guardians** | 3 at launch (Therakan confirmed) | Best builds per boss |
 
-### C-Tier — Situational
+## How to Build (and Judge) a Real Tier List
 
-| Spell Form | Reason |
-|-----------|--------|
-| **Mine** | Setup-reliant. High damage potential but requires enemies to walk into them. |
-| **Orb** | Passive damage is too low. Good as a support spell but not a primary. |
-| **Barrage** | Spread is too wide. Inconsistent damage unless enemies are at point-blank range. |
-| **Rift** | Mobility is nice but doesn't contribute damage. Utility-only spell. |
+When Early Access goes live, a genuine tier list needs:
 
----
+### 1. Defined Contexts
+A spell can be S-tier for boss killing and C-tier for farming. Every ranking must state its context:
+- Single-target boss DPS
+- Pack/area clear
+- Survival and control
+- Farming efficiency
 
-## Element Tier List
+### 2. Verified Data
+Only rank what has been tested. If a Memory's effect isn't confirmed in-game, it can't be ranked.
 
-| Tier | Element | Reason |
-|------|---------|--------|
-| **S** | Ice ❄️ | Freeze is the best status effect. It stops enemies completely, enables shatter combos, and provides massive survivability. The best all-around element. |
-| **A** | Lightning ⚡ | Best clear speed. Chain effect clears groups faster than anything. Falls off slightly against solo bosses. |
-| **B** | Fire 🔥 | Highest raw damage but DoT-based. Too slow for speed farming. Excels against ice enemies specifically. |
+### 3. Population-Scale Samples
+Individual impressions skew. Real tier lists aggregate many players' results — community spreadsheets, speedrun data, and cleared-run statistics.
 
-**Note:** All three elements have their place. The meta builds use all three (Tempest God) for maximum versatility.
+### 4. Version Numbers
+Balance patches change everything. A tier list without a game version is stale on arrival.
 
----
+## What to Do Instead, Today
 
-## Memory Tier List
+1. **Play the demo** — the 4 base spells and 50 Memories are real; feel them yourself
+2. **Develop your own preferences** — pre-meta, your taste is the only data you need
+3. **Prepare to test** — plan experiments for the first EA week (see the [Best Spell Builds guide](/guides/best-spell-builds))
+4. **Ignore "leaked" rankings** — there is no source for them
 
-### S-Tier Memories
+## After Launch: What We'll Rank
 
-| Memory | Type | Reason |
-|--------|------|--------|
-| **Amplify IV** | Offensive | +50% spell damage. No build is complete without it. |
-| **Chain IV** | Offensive | Turns any spell into a room-clearer. Arc-back effect doubles boss damage. |
-| **Persist IV** | Utility | +10s duration with growth effect. Makes Vortex and Wall game-breaking. |
-| **Hasten IV** | Utility | 50% CDR + cooldown reset on kill. Near-infinite spell casting. |
+Once the launch build is verified, this guide will document real, sourced rankings for:
 
-### A-Tier Memories
+- Spell forms per context (**TBD**)
+- Memory value tiers (**TBD**)
+- Element match-ups (**TBD**)
+- Hub upgrade priorities (**TBD**)
+- Guardian difficulty and counters (**TBD**)
 
-| Memory | Type | Reason |
-|--------|------|--------|
-| **Barrier IV** | Defensive | 25% HP shield that reflects projectiles. Best survivability Memory. |
-| **Leech IV** | Defensive | 10% lifesteal + ally healing. Turns damage into sustain. |
-| **Burst IV** | Offensive | 8m AoE + stun. Best add-clear Memory. |
-| **Multishot IV** | Offensive | 4 extra projectiles at full damage. Massive multiplier for single-target spells. |
-| **Expand IV** | Utility | 75% AoE increase + edge bonus damage. Transforms Vortex and Nova. |
-
-### B-Tier Memories
-
-| Memory | Type | Reason |
-|--------|------|--------|
-| Ignite IV | Conversion | Strong but only for fire builds. Niche compared to all-element options. |
-| Chill IV | Conversion | Same as Ignite — excellent in ice builds, niche otherwise. |
-| Charge IV | Conversion | Best conversion Memory for clear speed builds. |
-| Phase IV | Defensive | 1s invulnerability is powerful but high-skill requirement. |
-
----
-
-## Relic Tier List
-
-### S-Tier Relics
-
-| Relic | Reason |
-|-------|--------|
-| **Elemental Conduit** | +50% damage per unique element used. The Tempest God enabler. |
-| **Atlas Stone** | +2 Relic slots. More Relics = more power. Always optimal. |
-| **Eternal Lotus** | 25% cheaper Lotus upgrades. Accelerates all progression. |
-| **Phoenix Feather** | Second life. Saves otherwise-dead runs. |
-
-### A-Tier Relics
-
-| Relic | Reason |
-|-------|--------|
-| **Crystal Aegis** | 30% HP shield per combat. Massive survivability. |
-| **Timekeeper's Hourglass** | 25% CDR. More spells = more damage. |
-| **Memory Nexus** | +20% damage per Legendary Memory. Endgame scaling. |
-| **Manawell Crystal** | Mana pool + regen. Enables spam-heavy builds. |
-
-### B-Tier Relics
-
-| Relic | Reason |
-|-------|--------|
-| Archmage's Focus | High damage but conditional (80%+ mana). |
-| Berserker's Totem | Damage at the cost of survivability. |
-| Phasewalker's Cloak | RNG-based defense. Inconsistent. |
-| Treasure Map | Quality of life but no combat power. |
-
----
-
-## Build Tier List (Overall)
-
-| Tier | Build | Strengths | Weaknesses |
-|------|-------|----------|-----------|
-| **S** | Tempest God | Best at everything | Hardest to gear |
-| **S** | Inferno Machine | Best boss DPS | Squishy |
-| **S** | Blizzard King | Best survivability | Slow clears |
-| **A** | Storm Weaver | Best farming speed | Squishy |
-| **A** | Frostfire Hybrid | Best learner build | Jack of all trades |
-| **B** | Arc Sniper | Safe playstyle | Low DPS |
-| **B** | Volcano Core | Good AoE | Fire-locked |
-
----
+Every entry will cite in-game verification and note the game version.
 
 ## Related Guides
 
-- [Best Spell Builds](/guides/best-spell-builds) — detailed loadouts for each tier
-- [Spell Crafting Guide](/guides/spell-crafting-guide) — understand the fundamentals
-- [Memories Guide](/guides/memories-guide) — complete Memory catalog
-- [Relics Guide](/guides/relics-guide) — complete Relic catalog
+- [Best Spell Builds](/guides/best-spell-builds) — planning builds without a meta
+- [Spell Crafting Guide](/guides/spell-crafting-guide) — the systems tier lists must cover
+- [Memories Guide](/guides/memories-guide) — the 110-Memory pool
+- [Character & Playstyle Guide](/guides/character-playstyle-guide) — archetypes before rankings
+- [FAQ](/guides/faq) — honest answers to common questions

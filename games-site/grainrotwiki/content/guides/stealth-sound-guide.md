@@ -1,69 +1,70 @@
 ---
 title: 'Stealth & Sound Guide — How to Avoid Combat in Grain Rot'
-description: 'Master stealth in Grain Rot. Learn the noise economy, enemy sound detection, silent weapons, distraction tools, and when to fight vs flee — the complete avoidance guide.'
-keywords: ['grain rot stealth', 'grain rot sound guide', 'grain rot stealth tips', 'grain rot avoid combat', 'grain rot noise mechanics']
+description: 'Master stealth in Grain Rot: the confirmed sound, movement, and mutual-awareness model of the Corrupted, noise discipline, distraction tactics, and when to fight vs flee.'
+category: 'Guides'
+version: 'Pre-release'
 updated: '2026-08-01'
+keywords: ['grain rot stealth', 'grain rot sound guide', 'grain rot stealth tips', 'grain rot avoid combat', 'grain rot noise mechanics']
+related: ['solo-guide', 'tips-and-tricks', 'all-enemies-guide', 'enemy-types', 'beginner-guide']
 ---
 
 # Stealth & Sound Guide — How to Avoid Combat in Grain Rot
 
-Grain Rot is a horror extraction game where the best fights are the ones you never have. Every enemy in the underground ruins reacts to **sound and movement** — and to each other. A player who masters the noise economy can loot rooms the Corrupted are guarding, extract richer, and survive runs that would wipe a trigger-happy squad. This guide breaks down how stealth actually works.
+Grain Rot is a horror extraction game where the best fights are the ones you never have. The official description of the Corrupted — "reacting to **sound, movement, and each other**" — is the entire stealth system in one sentence. A player who masters the noise economy can loot rooms the Corrupted are guarding, extract richer, and survive runs that would wipe a trigger-happy squad.
 
 ## The Noise Economy
 
-Every action in Grain Rot generates noise, and noise is the currency of danger.
+Every action you take has an auditory footprint. The confirmed model means noise is the currency of danger. Exact loudness values are unverified, but the mechanics dictate the hierarchy:
 
-| Action | Noise Level | Attention Drawn |
-|--------|-------------|-----------------|
-| Standing still | None | None |
-| Walking | Low | Minimal — safe in most rooms |
-| Interacting with objects | Low | Slight — looting is usually safe if enemies are far |
-| Sprinting | High | Attracts enemies from adjacent rooms |
-| Smashing furniture | High | Echoes through nearby rooms |
-| Combat | Very high | Pulls enemies from surprising distances |
-| Elevator timer | Maximum | Converges every nearby enemy on the extraction point |
+| Action | Likely Noise | What to Do |
+|--------|-------------|------------|
+| Standing still | None | The default state for scouting |
+| Walking | Low | Standard movement in unknown territory |
+| Interacting / looting | Low | Usually safe at distance |
+| Sprinting | High | Only in confirmed-clear zones or emergencies |
+| Smashing furniture | High | It's your income — do it deliberately, in cleared rooms |
+| Combat | Very high | Assumes the floor hears it |
+| Spark possession | Unknown | Do it out of sight if possible |
 
-**The core rule**: sprint and smash only in rooms you've already confirmed are clear. In unknown territory, walk.
+**The core rule:** sprint and smash only in spaces you've confirmed are clear. In unknown territory, walk.
 
-## How Enemies Detect You
+## How the Corrupted Detect You
 
-Corrupted vessels have limited senses, and understanding them is the entire stealth game:
+Three confirmed senses, in order of importance:
 
-- **Sound** is the primary sense. Noises travel through rooms and corridors; walls dampen but don't silence.
-- **Movement** matters at close range — enemies track motion, so breaking line of sight matters more than crouching.
-- **They hear each other**: when one enemy reacts, nearby enemies investigate the *same sound source*. You can bait groups away — or accidentally summon a horde by fighting in the wrong room.
-- **Visual distortion from corruption** (30%+) makes your footsteps louder and increases detection range. Stealth degrades as your body warps.
+1. **Sound** — the primary trigger. Noise travels; walls dampen but don't necessarily silence.
+2. **Movement** — close-range tracking of motion.
+3. **Each other** — the multiplier. When one Corrupted reacts, others investigate the same disturbance.
 
-## The Silent Arsenal
+The third point is the one most players underestimate: **your stealth is broken as a chain reaction, not a single detection.** One loud fight can pull enemies from every adjacent room. One quiet mistake, caught by one enemy, becomes a floor-wide hunt.
 
-Not all tools are created equal when it comes to noise:
+## Stealth Tactics
 
-- **Splinter-Bow** — the only silent weapon in the early game. Kills don't alert enemies, making it the foundation of every stealth build. Unlock at Forge Lv.2 and never look back.
-- **Rot Dart Tube** (Alchemy Lv.2) — applies corruption at range and is quiet enough for careful use.
-- **Noise Maker** (Workshop Lv.1) — the single best distraction tool. Throw it into an empty room; every nearby enemy investigates it, leaving their patrol routes empty.
-- **Grappling Hook** (Workshop Lv.4) — lets you pull items to you from cover, avoiding the noise of walking into a guarded room.
-- **Shadow Vessel** — invisibility turns the stealth game into a walking simulator. The ultimate silent playstyle enabler, though its very low HP punishes mistakes.
+### 1. The Distraction Redirect
 
-## Core Stealth Tactics
+- Identify a room with good loot and a guarding enemy.
+- Create a disturbance in an *adjacent* area (a thrown item, a Grinder if one exists nearby).
+- Wait for the guard to investigate.
+- Loot the vacated room and leave before the patrol returns.
 
-### 1. The Noise Maker Redirect
+This is the highest-value tactic in the game — it turns the enemy's own mutual-awareness system against them.
 
-1. Identify a room with high-value loot and a guarding enemy.
-2. Throw a Noise Maker into an *adjacent empty room*.
-3. Wait for the guard to investigate (they path toward the sound).
-4. Loot the vacated room, then leave before the guard returns.
+### 2. The Wait-Out
 
-### 2. The Grinder Ambush
+- Learn patrol behavior as you play (patterns are unverified officially, but observing beats assuming).
+- Find a corner, wait for the patrol to pass, move through the gap.
+- Patient play is faster than fighting, because fights pull *more* fights.
 
-Activate a Grinder in a cleared room, then hide. The grinding noise attracts nearby enemies — ambush them as they enter, or slip past them while they're distracted. Works especially well with a Noise Maker for extra pull.
+### 3. The Bait-and-Go
 
-### 3. The Doorway Funnel (Team Stealth)
+- If enemies block your route, create noise somewhere else, then take the now-open path.
+- Works solo and co-op; in co-op, one player can bait while the rest move — with the bait player rejoining quietly.
 
-In co-op, position the squad so any pursuing enemy must enter through a single doorway. The Vanguard blocks it while the Striker kills through the choke — no chasing, no noise scatter.
+### 4. The Cleared-Room Rhythm
 
-### 4. Wait-Out Patrols
-
-Learn patrol patterns. Many Corrupted follow fixed routes between rooms; wait at a corner for the patrol to pass, then move through the gap. Patient play is faster than fighting, because fights pull *more* fights.
+- Clear a room of threats first, *then* smash and loot it.
+- Convert junk to gold at Grinders in cleared rooms.
+- The rhythm is: secure → loot → move. Never loot where you haven't secured.
 
 ## When to Fight vs When to Flee
 
@@ -72,35 +73,44 @@ Stealth isn't pacifism — some fights are unavoidable or profitable. Use this d
 ```
 Do I need to be here?
 ├── No → Walk away. Best play in the game.
-├── Yes → Can I loot around it?
-│   ├── Yes → Noise Maker / wait-out patrol
-│   └── No → Can I kill it silently?
-│       ├── Yes (Splinter-Bow) → Kill it
+├── Yes → Can I avoid it?
+│   ├── Yes → Distract / wait-out / reroute
+│   └── No → Can I win quietly?
+│       ├── Yes → Kill fast, leave fast
 │       └── No → Can I outrun it?
 │           ├── Yes → Sprint past, break line of sight
-│           └── No → Fight, but in a room with escape routes
+│           └── No → Fight — but in a room with exits
 ```
 
-**Combat tipping points**: always fight a Warped Screamer — its scream summons reinforcements, so it must be interrupted and killed immediately. Never fight a Grain Hulk in a corridor; lure it to open space or bypass it entirely.
+**Combat tipping point:** if an enemy is already alerting the floor, the stealth game is over for that area — either commit to clearing it or leave the area entirely.
 
-## Stealth Loadout
+## The Corruption-Stealth Link
 
-| Slot | Item | Why |
-|------|------|-----|
-| **Vessel** | Shadow Vessel (late) / Hollow Vessel (early) | Invisibility / speed to escape mistakes |
-| **Weapon** | Splinter-Bow | Silent kills |
-| **Tool 1** | Noise Maker | The core distraction |
-| **Tool 2** | Spark Beacon | Know the escape route at all times |
-| **Tool 3** | Portable Grinder | Convert loot without lingering in hot zones |
+Corruption is the stealth killer. As the Rot builds:
 
-## Corruption & Stealth
+- Your body warps — you become visibly compromised.
+- Your voice distorts — audible to enemies and allies.
+- Your emotes degrade — your communication tools rot.
 
-Stealth and corruption are directly linked: the deeper you go, the faster corruption builds, and the more it hurts your stealth. At 50%+ corruption, detection range increases — a stealth run past 75% is nearly impossible. If you're deep and warped, abandon subtlety and sprint for the elevator: stealth's job is done.
+Deeper runs mean faster corruption, which means stealth degrades exactly when the stakes are highest. **A warped vessel should treat every extra room as a risk multiplier.** If you're deep and degraded, the smart play is abandonment of subtlety and a sprint for the elevator — stealth's job is done.
+
+## Headphones Are Not Optional
+
+The sound model is the game's spine. Play with headphones:
+
+- Audio cues are your earliest warning system.
+- Directional audio tells you where threats are *before* they see you.
+- Your own actions' sound profile is something you can feel — you'll learn when you've been loud.
+
+## Stealth in Co-op
+
+- **Stealth scales badly with squad size.** Four players make four noise sources. If the team wants silence, designate one player to make the loot calls and hold everyone else's trigger fingers.
+- **The Keeper moves quietly.** The player carrying the haul should never be the one smashing furniture.
+- **One loud player ruins the run.** Agree on the noise rules before descending.
 
 ## Related Guides
 
 - [Solo Guide](/guides/solo-guide) — stealth is the solo player's core skill
-- [Tips & Tricks](/guides/tips-and-tricks) — 10 essential tips including noise discipline
-- [Weapons & Tools Guide](/guides/weapons-tools-guide) — full silent arsenal stats
-- [Best Loadouts Guide](/guides/best-loadouts) — stealth-optimized loadouts
-- [All Enemies Guide](/guides/all-enemies-guide) — every enemy's detection behavior
+- [Tips & Tricks](/guides/tips-and-tricks) — essential survival tips including noise discipline
+- [All Enemies Guide](/guides/all-enemies-guide) — the Corrupted, confirmed facts
+- [Enemy Types Guide](/guides/enemy-types) — the detection model and combat strategy

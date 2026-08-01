@@ -1,138 +1,107 @@
 ---
-title: 'Classes Guide — All Classes & Best Picks in MineGeon: Renegades'
-description: 'Complete class guide for MineGeon: Renegades. Breakdown of Tank, DPS Gunslinger, and Engineer — abilities, playstyles, strengths, weaknesses, and which class to pick.'
-keywords: ['minegeon classes', 'minegeon class guide', 'minegeon best class', 'minegeon tank', 'minegeon gunslinger', 'minegeon engineer', 'minegeon class tier list']
+title: 'Classes Guide — Marshall, Trevor & Ari Explained in MineGeon: Renegades'
+description: 'Complete class guide for MineGeon: Renegades. Breakdown of the three playable Renegades — Marshall the Tank, Trevor the Gunslinger, and Ari the Engineer — roles, stats, ultimates, and which class to pick.'
+keywords: ['minegeon renegades classes', 'minegeon class guide', 'minegeon renegades best class', 'minegeon tank', 'minegeon gunslinger', 'minegeon engineer', 'minegeon renegades how to unlock classes']
 category: Classes
 version: '1.0'
-updated: '2026-07-20'
+updated: '2026-08-01'
 related:
   - beginner-guide
-  - weapons-guide
+  - class-builds
   - tier-list
+  - gadgets-guide
 ---
 
 ## All Classes in MineGeon: Renegades
 
-MineGeon: Renegades features **3 distinct classes**, each with unique abilities, weapons, and playstyles. This guide breaks down every class to help you choose the right one.
+MineGeon: Renegades features **3 playable Renegades** — the full game's roster as confirmed by Kickstone Studio and the Steam store page. Each Renegade has unique stats and its own **ultimate ability**. This guide breaks down what we know about each class and how to pick the right one.
 
 ## Class Comparison Table
 
-| Class | Role | Difficulty | HP | Speed | Range | Best For |
-|-------|------|-----------|-----|-------|-------|----------|
-| Tank | Frontline / Defense | Easy | ⭐⭐⭐⭐⭐ | ⭐⭐ | Melee | Beginners, Solo play |
-| DPS Gunslinger | Damage Dealer | Medium | ⭐⭐⭐ | ⭐⭐⭐⭐ | Long | Boss killing, Co-op DPS |
-| Engineer | Support / Utility | Hard | ⭐⭐ | ⭐⭐⭐ | Mixed | Co-op support, Trap setups |
+| Renegade | Role | Difficulty | Strengths | Best For |
+|----------|------|-----------|-----------|----------|
+| **Marshall** | Tank | Easy | High resilience, forgiving of mistakes | Beginners, solo play, co-op frontline |
+| **Trevor** | DPS Gunslinger | Medium | High damage output, ranged | Boss fights, experienced players |
+| **Ari** | Engineer | Medium-Hard | Balanced stats, gadget synergy | Co-op, flexible playstyles |
 
-## Tank — The Frontline Bruiser
+> **Accuracy note:** the developer describes Marshall as "the resilient Tank," Trevor as "the deadly DPS Gunslinger," and Ari as "the balanced Engineer." Exact stats, ability names, and ultimate details had not been published by early August 2026 — treat the specifics in this guide as community-informed expectations, not confirmed numbers.
 
-### Overview
-The Tank is the most durable class in MineGeon, built to absorb damage and control crowds. With high HP and defensive abilities, the Tank excels at holding the line while teammates deal damage.
-
-### Core Abilities
-- **Shield Bash** — Dash forward with your shield, stunning enemies in a cone
-- **Fortify** — Gain temporary damage reduction and immunity to knockback
-- **Ground Slam** — AoE attack that damages and slows nearby enemies
-- **Taunt** — Force enemies to attack you for a short duration
-
-### Playstyle
-- **Aggressive frontliner** — Get in enemies' faces and control the battlefield
-- **High survivability** — Can make mistakes without dying
-- **Team anchor** — In co-op, the Tank creates space for Gunslinger and Engineer
-
-### Strengths
-- Highest HP and defense in the game
-- Excellent crowd control
-- Very forgiving for new players
-- Essential for high-difficulty boss fights
-
-### Weaknesses
-- Lowest mobility — can struggle against fast enemies
-- Lower damage output than Gunslinger
-- Melee-only means you must be close to deal damage
-
-### Best Builds
-- **Full Tank** — Maximize HP and defense. Unkillable but slow kills.
-- **Bruiser** — Balance defense and attack. Good for solo play.
-- **CC Specialist** — Focus on stun duration and AoE size. Best for co-op.
-
-## DPS Gunslinger — The Ranged Damage Dealer
+## Marshall — The Resilient Tank
 
 ### Overview
-The Gunslinger is all about dealing massive damage from a safe distance. High mobility and precision-based abilities make this class deadly in the right hands.
-
-### Core Abilities
-- **Quick Draw** — Fire a rapid burst of shots at the nearest enemy
-- **Roll** — Quick dodge with invincibility frames
-- **Deadeye** — Enter focus mode; next shot deals critical damage
-- **Ricochet** — Bullets bounce between nearby enemies
+Marshall is the frontline class. His role is to absorb damage and hold enemy attention so teammates can mine and deal damage safely. In a bullet-hell game where most classes die in a few hits, Marshall's resilience is a huge quality-of-life advantage for new players.
 
 ### Playstyle
-- **Hit and run** — Deal damage, reposition, repeat
-- **Positioning is everything** — Stay at optimal range to maximize damage
-- **Boss killer** — Highest single-target DPS in the game
+- **Frontline pressure** — get between enemies and your teammates
+- **Learning-friendly** — survivable mistakes teach you enemy patterns without ending runs
+- **Co-op anchor** — in a full team, Marshall creates space for Trevor and Ari
 
 ### Strengths
-- Highest damage output
-- Excellent mobility and dodge capability
-- Safe ranged playstyle
-- Scales well with skill
+- The most forgiving class in the game
+- Excellent choice for solo players learning the extraction loop
+- Essential anchor for co-op teams on boss fights
 
 ### Weaknesses
-- Low HP — 2-3 hits can be fatal
-- Requires good aim and positioning
-- Struggles when surrounded
-- Ammo management adds complexity
+- Lower damage output than Trevor
+- May struggle to reach fast or flying enemies without support gadgets
+- The game is a bullet-hell shooter — resilience helps, but you still must dodge
 
-### Best Builds
-- **Crit Build** — Maximize critical hit chance and damage. Boss melter.
-- **Speed Build** — Focus on attack speed and mobility. Clears rooms fast.
-- **Elemental Build** — Add fire/ice/lightning damage to shots. Good for crowd control.
-
-## Engineer — The Tactical Support
+## Trevor — The Deadly DPS Gunslinger
 
 ### Overview
-The Engineer uses turrets, traps, and gadgets to control the battlefield. The most complex class but offers unique utility that no other class can provide.
-
-### Core Abilities
-- **Deploy Turret** — Place an automated turret that fires at enemies
-- **Shock Trap** — Set a trap that stuns enemies who walk over it
-- **Supply Drop** — Call in a crate with ammo and health
-- **Overload** — Supercharge all active turrets for increased fire rate
+Trevor is the damage class. Described as "deadly" by the developer, Trevor focuses on ranged damage output — the class you pick to melt bosses and clear rooms fast.
 
 ### Playstyle
-- **Setup and control** — Prepare the battlefield before engaging
-- **Resource management** — Turrets and traps cost materials to deploy
-- **Team support** — Supply Drop benefits the whole team in co-op
+- **Ranged damage** — keep distance, deal damage, reposition
+- **High risk, high reward** — more damage usually means less survivability; in a bullet-hell game that means dodging well is mandatory
+- **Boss killer** — when a biome boss appears, Trevor is usually the primary damage source
 
 ### Strengths
-- Unique utility that no other class has
-- Turrets provide passive damage while you mine or reposition
-- Supply Drop is invaluable in long runs
-- High skill ceiling with trap combos
+- Highest confirmed damage role in the roster
+- Scales with player skill — great dodging means great clear times
+- Best pick for players who want fast runs and big damage numbers
 
 ### Weaknesses
-- Lowest HP — extremely fragile
-- Weak without turrets set up (caught off-guard = dead)
-- Complex resource management
-- Steep learning curve
+- Fragile — mistakes are punished heavily
+- Requires strong positioning and movement
+- Harder to play effectively before you learn enemy patterns
 
-### Best Builds
-- **Turret Spam** — Maximize turret count and fire rate. Cover the room in bullets.
-- **Trapper** — Focus on trap damage and duration. Kite enemies through kill zones.
-- **Support** — Prioritize Supply Drop cooldown and healing efficiency. Best for co-op.
+## Ari — The Balanced Engineer
+
+### Overview
+Ari is the balanced class — a mix of offense and support that leans into the game's gadget system. In a game where gadgets (grenades, energy shields, combat drones, and 150+ more) are a core build system, Ari is positioned as the class that gets the most out of them.
+
+### Playstyle
+- **Flexible** — adapts to whatever the run offers
+- **Gadget synergy** — pairs naturally with area-control and support gadgets
+- **Team support** — a valuable teammate in co-op for covering teammates' backs
+
+### Strengths
+- Well-rounded — no major weakness in any phase of a run
+- Strong co-op pick
+- Great for players who like experimenting with gadget builds
+
+### Weaknesses
+- Jack-of-all-trades trade-off: rarely the best at any single job
+- Rewards game knowledge — gadget choices matter more than raw stats
 
 ## Which Class Should You Pick?
 
+### For Beginners
+Start with **Marshall**. His resilience covers for early mistakes while you learn enemy patterns, bullet patterns, and extraction timing. Move to Trevor once you are comfortable dodging.
+
 ### For Solo Players
-1. **Tank** (easiest solo) — Survivable, consistent, reliable
-2. **Gunslinger** (skilled solo) — Fast clears if you can dodge well
-3. **Engineer** (hardest solo) — Requires setup time; tough against fast enemies
+All three are viable solo. **Marshall** is the safest, **Trevor** the fastest in skilled hands, and **Ari** the most adaptable. If you want consistent successful extractions, start with Marshall.
 
 ### For Co-op
-- **Best team comp:** Tank (frontline) + Gunslinger (DPS) + Engineer (support)
-- **Duo comps:** Tank + Gunslinger (balanced) or Gunslinger + Engineer (high damage but fragile)
+- **Best all-around team:** Marshall (frontline) + Trevor (damage) + Ari (support/flexibility)
+- **Duo comps:** Marshall + Trevor (safe and deadly) or Trevor + Ari (damage with utility)
 
-### For Beginners
-- **Start with Tank** to learn enemy patterns and game mechanics
-- Move to Gunslinger once you're comfortable with dodging
-- Try Engineer last — it requires the most game knowledge
+### Is there a class unlock system?
+Based on everything published so far, all three Renegades are **selectable from the start** — there is no unlock requirement for any class. "How to unlock classes" is a common search, but as of early August 2026 no class is locked behind progression. Permanent upgrades apply to each Renegade's attributes, which is where long-term class investment happens.
+
+## Next Steps
+
+- [Class Builds Guide](/guides/class-builds) — role-based build strategies for each Renegade
+- [Tier List](/guides/tier-list) — honest launch-window class comparison
+- [Gadgets Guide](/guides/gadgets-guide) — how gadgets and ultimates shape each class's playstyle

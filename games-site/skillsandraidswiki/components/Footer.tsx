@@ -21,7 +21,7 @@ export default function Footer() {
         <div className="flex flex-col items-center gap-4">
           {/* Copyright */}
           <p className="text-sm text-gray-500 text-center">
-            &copy; 2026 Skills The Mound Wikiamp; Raids Wiki. Unofficial fan wiki. Skills The Mound: Omen of Cthulhuamp; Raids is a trademark of Lootsurvivor.
+            &copy; 2026 Skills &amp; Raids Wiki. Unofficial fan wiki. Skills &amp; Raids is developed and published by Eddie H. Hinestroza.
           </p>
 
           {/* Nav Links */}

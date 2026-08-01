@@ -1,67 +1,99 @@
 ---
-title: "MineGeon Endgame Builds Guide — Best Late-Game Loadouts & Synergies"
-description: "Complete endgame builds guide for MineGeon: Renegades. Learn the best late-game loadouts for every class, trap synergies, gear tier priorities, and score-attack optimized setups."
-category: "Guides"
-version: "1.0"
-updated: "2026-07-31"
-keywords: ["MineGeon endgame builds", "MineGeon late-game loadouts", "MineGeon best builds", "MineGeon Renegades build guide", "MineGeon trap synergy", "MineGeon score attack build"]
-related: ["class-builds", "trap-guide", "progression-guide", "weapons-guide", "score-attack"]
+title: 'Endgame Guide — Deep Runs & Late-Game Strategy in MineGeon: Renegades'
+description: 'Endgame guide for MineGeon: Renegades. What the endgame actually looks like — deep biome runs, all six biome bosses, legendary and Ancient Ones gear, maxed permanent tracks, and the 49 achievements.'
+category: Guides
+version: '1.0'
+updated: '2026-08-01'
+keywords: ['minegeon endgame', 'minegeon renegades late-game', 'minegeon renegades best builds', 'minegeon renegades build guide', 'minegeon deep runs', 'minegeon renegades endgame guide']
+related: ['class-builds', 'progression-guide', 'boss-guide', 'weapons-guide', 'achievements-guide']
 ---
 
-## Endgame Builds Guide — Best Late-Game Loadouts
+## Endgame Guide — What the Endgame Actually Is
 
-Once you clear the mid-game threshold in MineGeon: Renegades, raw mining speed stops being enough. Endgame runs demand builds that combine gear tiers, class abilities, and trap systems into a single loop: mine fast, defend faster, and score bigger. This guide covers the three proven endgame build archetypes and how to tune each one.
+MineGeon: Renegades is a roguelite, so "endgame" is a progression state, not a separate mode: you've cleared the early biomes, your permanent upgrades are rolling, and the remaining challenge is the depths of PAIMO — all six biome bosses, the deepest minerals, and the full build catalog.
 
-### The Three Endgame Archetypes
+> **Accuracy note:** the game launched July 30, 2026, and the true endgame meta is being discovered live. Guides promising definitive late-game loadouts with named items ("Lifesteal Gem," "Adrenaline Injector," "Combo Charm") are invented — those items don't appear in official material. This guide covers the confirmed endgame structure and the strategy principles that will hold as the meta develops.
 
-| Archetype | Core Loop | Best Class | Difficulty |
-|-----------|-----------|------------|------------|
-| Trap Engine | Lay traps, lure waves, collect | Engineer | Easy |
-| Berserker Miner | High-risk deep mining with lifesteal | Miner / Bruiser | Medium |
-| Speed Scorer | Fast clears with combo multipliers | Scout / Renegade | Hard |
+## The Confirmed Endgame Systems
 
-### Trap Engine (Engineer)
+| System | Endgame Role |
+|--------|--------------|
+| **Six biome bosses** | The spine of the endgame — one per biome, each harder than the last |
+| **Legendary weapons & Ancient Ones weapons** | The chase items of deep runs |
+| **150+ gadget catalog** | The build variety engine — endgame is about catalog coverage |
+| **Permanent upgrades** | Ship + Renegade attributes — the compounding foundation |
+| **49 Steam achievements** | The completionist layer |
+| **Ship customization** | 200+ decorations — the cosmetic endgame |
 
-1. **Core items:** Turret Module, Spike Field, Proximity Mine, and the Reinforced Plating upgrade.
-2. **Loop:** Lay Spike Fields at choke points, drop a Turret Module behind them, and mine the room while traps clear incoming waves.
-3. **Scaling:** Every trap damage upgrade multiplies all traps — prioritize trap damage over personal weapon damage.
-4. **Endgame variant:** Double Turret Module + Oil Slick combo converts the floor into a kill zone that handles elite waves alone.
+## Endgame Playstyles (Role Archetypes)
 
-### Berserker Miner
+Without a published item catalog, build your endgame around confirmed roles:
 
-- **Core items:** Heavy Pickaxe (Tier 5+), Lifesteal Gem, Adrenaline Injector.
-- **Loop:** Push to the deepest ore veins available, trading chip damage for massive yield, and heal back from gem procs.
-- **Key synergy:** Lifesteal Gem + Adrenaline Injector means the more you mine, the more you heal — sustain scales with greed.
-- **Watchout:** Elite ore veins drain durability twice as fast. Bring a repair kit or an Ore Specialist perk.
+### 1. The Deep Prospector
+- **Goal:** the deepest biomes' minerals
+- **Loop:** bank first, descend with full loadout, extract at the trigger
+- **Key discipline:** the deeper the biome, the more expensive the death — extraction discipline is the endgame skill
 
-### Speed Scorer (Score Attack Optimized)
+### 2. The Boss Breaker
+- **Goal:** clear all six biome bosses
+- **Loop:** dedicated boss runs — bank, gear up, fight
+- **Key discipline:** every boss is a gate; treat each as a campaign
 
-| Item | Role in the Combo Chain |
-|------|-------------------------|
-| Light Pickaxe (Tier 4+) | Fastest swing speed, keeps combo alive |
-| Combo Charm | Extends the combo window by 2 seconds |
-| Spark Bracers | +15% speed for 5 seconds after each ore break |
-| Mob-freeze Trap | Stops waves mid-charge, no score penalty |
+### 3. The Archaeologist (Lore Endgame)
+- **Goal:** the story of PAIMO
+- **Loop:** explore, collect lore fragments, fight the ancient entities
+- **Key discipline:** the Ancient Ones gear and the final biome hold the story's payoff
 
-The speed scorer never stops moving: break ore in lines, snap to the next vein, and let the Combo Charm carry your multiplier into the thousands.
+### 4. The Completionist
+- **Goal:** 49 achievements, full catalogs, maxed tracks
+- **Loop:** goal-based runs — one achievement cluster per session
+- **Key discipline:** don't trust invented achievement tables (see the [Achievements Guide](/guides/achievements-guide))
 
-### Upgrade Priority by Archetype
+## Endgame Upgrade Priorities
 
-1. **Trap Engine:** Trap Damage → Trap Capacity → Cooldown Reduction → Armor.
-2. **Berserker Miner:** Pickaxe Tier → Lifesteal → Durability → Movement Speed.
-3. **Speed Scorer:** Swing Speed → Combo Window → Move Speed → Pickaxe Tier.
+1. **Ship track maxed** — the meta foundation, benefits every class
+2. **Main Renegade maxed** — your deepest-run class first
+3. **Second class** — co-op flexibility (the trio needs all three roles)
+4. **Catalog coverage** — gadgets and weapons unlock through leveling; chase the families that fit your role
 
-### Common Endgame Mistakes
+## Deep-Run Strategy
 
-1. **Splitting upgrades across archetypes:** A pickaxe upgraded for mining speed plus trap capacity upgrades means neither loop works. Commit to one archetype per run.
-2. **Ignoring elite waves:** Elites ignore 40% of trap damage without the Engineer's armor-shred upgrade — always slot it before deep runs.
-3. **Overstacking combo in Score Attack:** The combo multiplier resets on any damage taken; Speed Scorer players should favor safe vein lines over risky detours.
-4. **Skipping repair kits:** Deep runs drain durability on both weapons and traps. One repair kit per 10 floors is the minimum.
+### Before the deep run
+- Bank everything. Deep runs begin with an empty pocket
+- Full loadout: the best weapon the run offers, gadgets for every situation, ultimate ready
+- One goal per run — deep farming, boss, or exploration
+
+### During the deep run
+- **Depth is earned, not claimed.** Clear each level's patterns before pushing further
+- **The Scavengers get stronger.** The faction's resistance escalates with depth — deep runs are contested territory
+- **Hazards multiply.** Environmental hazards are per-biome; the deep biomes' hazards are the game's hardest
+- **Monolith votes matter.** Route choice steers which hazards and loot you meet — deep runs are route-planning exercises
+
+### The deep extraction
+The endgame's signature moment: a full haul, deep in PAIMO, everything on the line. The rules:
+1. The trigger was set before descent — honor it
+2. The extraction route was scouted on the way down — follow it
+3. Gadgets are for the extraction — shield and grenade the exit
+4. In co-op, the team protects the biggest haul — everyone extracts or no one does
+
+## Common Endgame Mistakes
+
+1. **Fighting the final bosses with full hauls.** The boss is repeatable, the haul isn't — the rule that got you here never stops
+2. **Chasing "meta builds" from unverified lists.** Until the community documents real items, role-fit beats invented loadouts
+3. **Ignoring the extraction trigger.** Endgame deaths are expensive deaths
+4. **Soloing everything.** Co-op is the game's designed mode — endgame teams extract deeper
+5. **Burning out on fake completion targets.** 49 achievements is the real number; ignore invented totals
+
+## The Endgame Loop
+
+**Bank → upgrade → descend deeper → boss → repeat, until PAIMO has no depths left.**
+
+That's the whole game at its highest level. The systems change (more gadgets, stronger bosses, richer minerals), but the loop and its discipline stay identical to your first run — which is exactly how a good roguelite works.
 
 ### Related Guides
 
-- [Class Builds Guide](/guides/class-builds) — Class-specific ability breakdowns and early builds
-- [Trap Guide](/guides/trap-guide) — Every trap type, damage values, and placement
-- [Progression Guide](/guides/progression-guide) — Stage-by-stage roadmap into endgame
-- [Weapons Guide](/guides/weapons-guide) — All weapons and upgrade paths
-- [Score Attack Guide](/guides/score-attack) — Scoring multipliers and leaderboard strategy
+- [Class Builds Guide](/guides/class-builds) — role-based build archetypes
+- [Progression Guide](/guides/progression-guide) — the road to endgame
+- [Boss Guide](/guides/boss-guide) — the biome gates
+- [Weapons Guide](/guides/weapons-guide) — legendary and Ancient Ones gear
+- [Achievements Guide](/guides/achievements-guide) — the completionist endgame

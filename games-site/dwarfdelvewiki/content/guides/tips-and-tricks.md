@@ -1,84 +1,87 @@
 ---
-title: 'Tips & Tricks: 25 Things I Wish I Knew Before Playing Dwarf Delve'
-description: 'Expert Dwarf Delve tips and tricks. Hidden mechanics, time-saving techniques, combat shortcuts, mining secrets, and quality-of-life tricks that experienced players wish they knew from the start.'
+title: 'Tips & Tricks: What We Actually Know About Dwarf Delve'
+description: 'Honest Dwarf Delve tips and tricks. Every tip grounded in confirmed mechanics — extraction discipline, collapse survival, light management, rail hauling, and upgrade priorities. No invented secrets.'
 keywords: ['dwarf delve tips', 'dwarf delve tricks', 'dwarf delve tips and tricks', 'dwarf delve secrets', 'dwarf delve hidden mechanics']
 category: Tips
 version: '1.0'
-updated: '2026-07-25'
+updated: '2026-08-01'
 related: ['beginner-guide', 'mining-strategies-guide', 'extraction-guide']
 ---
 
-## Tips, Tricks & Hidden Mechanics
+## Tips, Tricks & Confirmed Mechanics
 
-After countless hours in the mines, these are the things that separate struggling Delvelings from legendary prospectors. Learn these early and save yourself the pain of discovering them the hard way.
+Dwarf Delve is new, and much of what circulates as "hidden mechanics" is invented. These are tips you can trust — each one is grounded in confirmed systems or safe general practice. No invented numbers, no fake secrets, no fabricated features.
 
-## Mining & Resource Tips
+## Extraction & Survival Tips
 
-**1. Corner mining is faster than face mining.** Mine at the corner where two blocks meet — you damage both simultaneously with each swing.
+**1. The elevator is on a schedule.** This is the game's official premise: the elevator leaves whether you're on it or not. Plan every run around the return trip, not the descent.
 
-**2. Crouch-mining reduces knockback.** If you're mining on a narrow ledge, crouch before swinging to avoid being pushed backward.
+**2. Everything not extracted is lost.** Officially confirmed. The death that hurts most in Dwarf Delve isn't losing health — it's losing a full inventory in a collapsing tunnel.
 
-**3. Ore glows brighter at full health.** The shimmer on mineral veins intensifies when you haven't taken damage recently. Heal before hunting for veins to make them easier to spot.
+**3. Greed is the designed killer.** The official slogan — "One wrong boot could cost you your life — or worse, your loot!" — is the game telling you its own lesson: set a retreat threshold and honor it.
 
-**4. Stone has a use.** Don't completely ignore stone — you can craft it into throwing rocks that distract enemies. Cheap and effective.
+**4. The deeper you dig, the richer the haul — and the farther you are from safety.** The game's own premise. Depth is a budget; spend it deliberately.
 
-**5. Minecart rails reveal the grid.** Place a single rail segment to see the grid alignment — useful for precise platform placement.
+## Mining Tips
 
-## Combat Tips
+**5. The Battlemallet is the only tool you need.** It's confirmed for both mining and combat. There are no pickaxes in Dwarf Delve — ignore any tip that assumes one.
 
-**6. The Battlemallet backswing hits behind you.** When you swing, the backswing has a smaller hitbox that damages enemies behind you. Useful for Rock Borers.
+**6. Mine in sweeps, not single tunnels.** Procedural mines ("No two mines will ever be the same!") hide value in every direction. Coverage beats one deep hole.
 
-**7. Flares blind Gloom Crawlers.** A flare thrown directly at a ceiling Crawler causes it to drop without grabbing you — free damage window.
+**7. Follow veins.** In voxel-style games, ore veins typically continue beyond what you first see. Follow them to their ends before moving on.
 
-**8. Ore Guardians fight each other.** If two Guardians are near each other, bait one into charging and dodge — it'll hit the other Guardian, and they'll fight. Clean up the survivor.
+**8. Refine at home, not in the field.** Ore refining happens at your dwarven home — confirmed. Unrefined ore in a dead Delveling's pocket is worth nothing.
 
-**9. Jump-attacks deal +50% damage.** Jump before swinging your Battlemallet for bonus damage. Costs more stamina but ends fights faster.
+## Crafting & Gear Tips
 
-**10. Enemies can't open doors.** If you find a door structure in the mines, close it behind you to block pursuers. Enemies can break doors eventually, but it buys you time.
+**9. Pre-craft supports before they're needed.** Support beams are the confirmed counter to collapse. Place them before the creaking starts, and always keep beams for the return route.
 
-## Survival Tips
+**10. Upgrade the Battlemallet first.** It's mining speed AND combat damage in one confirmed upgrade — the best early investment in the game.
 
-**11. Support beams stack.** Placing multiple beams in the same area multiplies the stability bonus. For Abyss runs, stack 2-3 beams at key junctions.
+**11. Light is a defense tool.** Lantern, flares, floodlights — all confirmed. Darkness hides "unseen dangers and long-forgotten traps"; light is the confirmed counter.
 
-**12. The elevator has a bell.** Ring the elevator bell (look for the rope near the shaft entrance) to call it if it's somehow moved. This is a hidden mechanic the tutorial doesn't teach.
+**12. Flares are breadcrumbs.** They're throwable light that uncovers hidden secrets — use them to mark your path back to the elevator.
 
-**13. Standing still regenerates lantern battery faster.** If your lantern is dying, find a safe corner, stop moving, and the battery trickle-charges at double speed.
+**13. Rails exist for heavy ore.** The official feature list says carts "shift and store those heavy ores for you." When the haul is heavy and the elevator is far, build rail.
 
-**14. Water extinguishes lava temporarily.** If you're trapped by lava, look for water sources. Throwing water (from flooded tunnel buckets) creates temporary safe paths across lava.
+**14. Gear hooks free your hands.** Confirmed feature: "Attach tools to gear hooks to free up your hands whilst you strike the earth." Multi-tool runs get easier.
 
-**15. Listen to your Delveling's voice lines.** The character's barks are not just flavor — they're gameplay cues. "Feels unstable here" means place a beam NOW. "I hear something" means enemies are nearby.
+## Meta-Progression Tips
 
-## Efficiency Tips
+**15. Trade resources for coin, coin buys power.** Perks, skills, and upgrades — all confirmed purchases. The loop (extract → refine → trade → upgrade) is the whole growth engine.
 
-**16. Quick-drop inventory with Ctrl+Click.** Instead of dragging items to drop them, Ctrl+Click instantly drops the item at your feet. Life-saving during escape sequences.
+**16. Carry more loot is the compounding theme.** More per run → more upgrades → deeper runs. It's the confirmed theme that multiplies everything else.
 
-**17. Pre-craft before descending.** You can craft items before getting on the elevator. Always pre-craft 3-5 support beams and 2-3 flares before starting a run.
+**17. Bank relics.** "Long-lost relics" unlock unique perks and quarters decorations — confirmed. A relic in hand should end the run's exploration.
 
-**18. The surface has free resources.** Explore around the elevator entrance before descending — there are always a few free wood scraps and iron chunks scattered nearby.
+**18. Decorate your quarters and watch.** "Everything from carpets to furnishings to wall art!" — and press materials confirm some furnishings "may have gameplay consequences beyond cosmetics."
 
-**19. Esc cancels minecart riding.** If you're on a minecart heading toward danger, press Esc to bail out. You'll take minor damage but avoid a fatal collision.
+## Community Claims to Be Skeptical Of
 
-**20. Mark chambers with specific flare colors.** Use basic flares for explored areas, bright flares for resource-rich zones, and sticky flares for danger zones. Color-coding your exploration improves decision-making.
+**19. No official enemy roster exists.** Guides naming Rock Borers, Gloom Crawlers, or "The Buried King" are inventing content. The official threat list: collapse, traps, darkness, unseen dangers.
 
-## Hidden Mechanics
+**20. No official ore names exist.** "Mithril" and friends come from search data and speculation, not the game. Ore names are unconfirmed as of August 2026.
 
-**21. The "Perfect Extraction" bonus.** If you extract with full health and no collapse warnings triggered during the run, you get a 15% coin bonus. Worth pursuing on safe, shallow runs.
+**21. No co-op exists.** The game is single-player only — confirmed by the Steam listing. "Dwarf Delve co-op" tips are describing a different game.
 
-**22. Relic fragments attract each other.** If you're holding 3+ relic fragments in your inventory, the remaining fragments in the mine emit a faint chime when you're within 20 meters. This hidden mechanic makes fragment hunting dramatically easier once you have a few.
+**22. No perk names exist.** "Phoenix Heart," "Midas Touch," "Lone Wolf" — all fabricated. The confirmed perk themes are: move faster, hit harder, carry more loot.
 
-**23. Your quarters have secrets.** Interact with objects in your quarters between runs — some decorations have hidden interactions that provide small boosts (e.g., the fireplace gives you a warmth buff for your next run).
+## The Honest 5 That Matter Most
 
-**24. The time of day matters.** Certain relics only appear during specific in-game time windows. The Eternal Ember relic, for example, only spawns during the "deep night" cycle. Check the surface clock before descending.
-
-**25. You can kill The Buried King without triggering Phase 3.** If you deal enough damage during Phase 2 (requires full Runic Battlemallet + Berserker Rage), you skip the collapse phase entirely. This is the mark of a true master Delveling.
+1. **Extract on schedule** — the elevator doesn't wait
+2. **Beam the return route** — collapse kills more runs than anything
+3. **Upgrade the Battlemallet** — one upgrade, two jobs
+4. **Bank relics immediately** — the confirmed endgame prize
+5. **Skepticism is a skill** — the game is five days old; verified data beats flashy guides
 
 ## Quick Reference: What to Bring Every Run
 
-| Depth | Beams | Flares | Floodlights | Rails |
-|-------|-------|--------|-------------|-------|
-| Upper Mines | 3 | 2 | 0 | 0 |
-| Middle Mines | 5 | 3 | 1 | 10 |
-| Deep Mines | 8 | 4 | 2 | 20 |
-| The Abyss | 12+ | 5+ | 3+ | 30+ |
+| Run Type | Beams | Flares | Notes |
+|----------|-------|--------|-------|
+| Shallow learning run | Carry what you can | 1-2 | Focus on the loop |
+| Mid depth | Prioritize | 2-3 | Mark the route home |
+| Deep run | As many as possible | 3+ | Hard extraction trigger set |
 
-Remember: the mines reward preparation. A Delveling who crafts before descending is a Delveling who extracts with a full cart.
+(Exact starting inventories and craft costs are unpublished — adjust to what you have.)
+
+Remember: the mines reward preparation. A Delveling who extracts consistently is a Delveling who outpaces the collapse.

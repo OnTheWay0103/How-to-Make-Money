@@ -13,7 +13,7 @@ const FEATURED_GUIDES = [
 ];
 
 const FAQ_ITEMS = [
-  { question: 'What is Taival?', answer: 'Taival ("journey" in Finnish) is a 1-4 player co-op adventure RPG developed by Bonobo Software and published by Level Up Gaming. Set in a hand-crafted voxel world, you explore seamless biomes with a shapeshifting Henki companion. It launched in Steam Early Access on July 15, 2026 for $19.99.' },
+  { question: 'What is Taival?', answer: 'Taival ("journey" in Finnish) is a 1-4 player co-op adventure RPG developed by Bonobo Software and published by Level Up Gaming. Set in a hand-crafted voxel world, you explore seamless biomes with a shapeshifting Henki companion. It launched in Steam Early Access on July 14–15, 2026 at ¥77 (~US$16).' },
   { question: 'Is it single-player or co-op?', answer: 'Both! You can play solo or in co-op with up to 4 players. Co-op supports online play, local split-screen, or mixed (local + online together). The game is designed for cooperative exploration from the start.' },
   { question: 'What is a Henki companion?', answer: 'The Henki is your shapeshifting companion — the last of its kind with no fixed form. It can absorb creature essences to transform into different forms: combat beasts, swift mounts, stealth predators, gliders, and more. Each form has unique traits and abilities.' },
   { question: 'How do group story decisions work?', answer: 'Major quest choices use a group voting system where all players participate. Everyone can suggest options with their cursor, and the majority vote determines the outcome. This means your story can branch differently each playthrough.' },

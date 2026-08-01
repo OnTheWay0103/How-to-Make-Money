@@ -1,13 +1,22 @@
 ---
 title: 'Base Building Guide — Best Locations, Defense & Design in Ardent Wilds'
 description: 'Complete base building guide for Ardent Wilds. Best locations to build, how to fortify against Eldran attacks, furniture and decoration, resource optimization, and advanced base designs for solo and co-op teams.'
+category: 'Guides'
+version: '1.0'
+updated: '2026-08-01'
 keywords: ['ardent wilds base building', 'ardent wilds best base location', 'ardent wilds base defense', 'ardent wilds building guide', 'ardent wilds fortification']
-updated: '2026-07-31'
+related:
+  - 'beginner-guide'
+  - 'advanced-guide'
+  - 'crafting-guide'
+  - 'farming-cooking-guide'
 ---
 
 # Base Building Guide — Best Locations, Defense & Design
 
-Your base is your sanctuary in Ardent Wilds. A well-placed, well-fortified base means the difference between thriving and barely surviving. This guide covers location selection, defensive strategies, room layouts, and advanced designs.
+Your base is your sanctuary in Ardent Wilds. A well-placed, well-fortified base is the difference between thriving and barely surviving. This guide covers location selection, defensive strategy, room layouts, and advanced designs.
+
+**Context first:** Spellware Studios has confirmed base building as a core pillar — you construct and upgrade bases with gathered materials, place furniture and decorations, and the world itself is fully destructible voxel terrain. The April 2026 playtest brought major base-building improvements and new building pieces. Because the game is still pre-release, exact costs, HP values, and structural tiers are unconfirmed — we mark them as such rather than invent numbers.
 
 ## Choosing the Perfect Location
 
@@ -19,129 +28,110 @@ Rate potential sites on these factors:
 
 | Factor | Weight | What to Look For |
 |--------|--------|-----------------|
-| **Flat terrain** | Critical | Enough space for a 10×10 foundation minimum |
-| **Water access** | Critical | River, lake, or pond within 50 meters |
-| **Resource proximity** | High | Trees, stone, copper within 100 meters |
-| **Defensive position** | High | Elevated, natural barriers on 1-2 sides |
-| **Spire proximity** | Medium | A fast-travel Spire within 200 meters |
-| **Biome diversity** | Medium | Near the border of 2+ biomes for varied resources |
+| **Flat terrain** | Critical | Enough space for your planned footprint — or terrain you can flatten with the voxel tools |
+| **Water access** | Critical | River, lake, or pond within easy walking distance |
+| **Resource proximity** | High | Trees, stone, and ore within walking distance |
+| **Defensive position** | High | Elevated, or natural barriers (cliffs, water) on 1-2 sides |
+| **Fast-travel proximity** | Medium | A restored Spire within a short trip |
+| **Biome diversity** | Medium | Near the border of different regions for varied resources |
 
-### Top 5 Base Locations (Demo Build)
+### Good Location Archetypes
 
-| # | Location | Pros | Cons |
-|---|----------|------|------|
-| 1 | **Verdant Basin River Bend** | Flat, water access, near starting Spire, abundant wood/stone | Popular — may conflict on multiplayer servers |
-| 2 | **Cliffside Overlook** | Natural defense on 3 sides, amazing views, near iron deposits | Far from water, requires rope bridges |
-| 3 | **Crystal Cave Entrance** | Direct crystal access, natural shelter, close to ore veins | Limited sunlight for farming, Eldran spawns nearby |
-| 4 | **Mountain Plateau** | 360° visibility, easy to defend, near obsidian | Hard to reach before Grappling Hook, windy (slows building) |
-| 5 | **River Delta Island** | Water on all sides (natural moat), abundant fish | Limited space, flooding risk during storms |
+These are site archetypes, not named locations — the world is procedurally generated, so the same kind of spot appears in most seeds:
+
+1. **River Bend** — Flat, water access, near starting resources. The classic choice. Can be popular on multiplayer servers.
+2. **Cliffside Overlook** — Natural defense on 2-3 sides, views, usually near ore. Often far from water.
+3. **Cave Entrance** — Direct access to underground resources, natural shelter. Limited sunlight for farming, and underground enemies spawn nearby.
+4. **Mountain Plateau** — Excellent visibility, easy to defend, near high-altitude resources. Hard to reach early and inconvenient to expand.
+5. **Delta or Island** — Water on multiple sides acts as a natural moat. Limited space.
 
 ## Base Layout — The Core Design
 
-A well-organized base has distinct zones. Here is the recommended layout:
+A well-organized base has distinct zones:
 
 ### Zone 1: Crafting Hub (Center)
 
-```
-┌──────────────────────────┐
-│  Furnace  Furnace  Furnace│
-│                           │
-│  Workbench    Alchemy     │
-│                           │
-│  Storage Wall (6 chests)  │
-└──────────────────────────┘
-```
-
-Keep all workstations within 3 tiles of each other — you will run between them constantly.
+Place all workstations close together — you will run between them constantly. Furnaces (or whatever smelting stations the build offers), your main crafting station, and bulk storage should form one compact cluster.
 
 ### Zone 2: Living Quarters
 
-- Bed (respawn point — protect this at all costs)
-- Cooking Station
+- Bed and respawn point (protect this at all costs)
+- Cooking area
 - Food storage chests
-- Decorative items (increase "comfort" which boosts rested XP bonus)
+- Furniture and decorations — Spellware confirms you can create a "fantasy home" with furniture and decorations, so make it yours
 
 ### Zone 3: Farm
 
-- Minimum 5×5 tilled soil
-- Adjacent to water source
-- Plant crops in rows by type
-- Build a fence — Eldran creatures will eat your crops
+- Tilled soil or planters near a water source (farming is confirmed, exact setup is build-dependent)
+- Plant crops in rows by type so harvesting is quick
+- Consider a fence or enclosed plot — wildlife and corrupted creatures can damage crops in survival games; specifics in Ardent Wilds are unconfirmed
 
 ### Zone 4: Defense Perimeter
 
 - Walls on all exposed sides
-- One main gate (with Iron Door when possible)
-- Elevated platforms for ranged combat
-- Auto-Turrets (late-game)
+- One main gate
+- Elevated positions for ranged combat
+- A second wall line for when the first breaks
 
 ## Defense and Fortification
 
 ### Wall Progression
 
-| Wall Type | HP | Material Cost (per tile) | Special |
-|-----------|-----|--------------------------|---------|
-| Wooden Wall | 200 | 8 Wood | Burns — do not place near Campfires |
-| Stone Wall | 600 | 8 Stone | Fireproof |
-| Reinforced Wall | 1,500 | 8 Stone + 2 Iron Ingot | Best general defense |
-| Eldran Wall | 3,000 | 8 Stone + 1 Eldran Shard | Reduces Eldran damage by 30% |
+Expect a tiered progression (wood → stone → upgraded materials). The April 2026 playtest added **new building pieces**, so the available tiers are expanding. Two honest notes:
+
+- **Wood burns.** Keep fire sources away from wooden structures.
+- **Stone is slower to break.** Upgrading your perimeter walls is one of the best investments in the game — whether the exact HP numbers are 3x or 2x or something else, the principle holds.
 
 ### Defensive Structures
 
-- **Spike Traps** (5 Wood + 3 Flint) — Place outside walls. Deal 50 damage to enemies that walk over them. Degrade with use.
-- **Watchtower** (20 Wood + 10 Stone) — 3-tile-high platform. Ranged attacks from elevation deal +25% damage.
-- **Auto-Turret** (10 Iron Ingot + 5 Crystal + Auto-Turret Schematic) — Automatically attacks Eldran within 15 tiles. Requires ammunition.
-- **Moat** (dug using pickaxe + filled with water) — Slows ground enemies by 50%. Must be at least 2 tiles wide to be effective.
+The exact defensive structure roster (spike traps, turrets, watchtowers, and similar) is **unconfirmed** — treat any specific build cost you see online as provisional. The principles that transfer regardless:
+
+- **Layers beat thickness.** A broken outer wall with a solid inner line buys more time than one massive wall.
+- **Elevation wins.** Ranged defenders on platforms can shoot over walls while melee enemies chew on them.
+- **Deny approach routes.** Funnels, pits, and obstacles that slow enemies concentrate your firepower. With the voxel dig tool, you can shape approach paths yourself.
 
 ### Eldran Attack Patterns
 
-Eldran attacks intensify as you progress. Here is what to expect:
+Confirmed: the Eldran are an aggressive hivemind, and the game has difficult PvE challenges. Unconfirmed: specific attack triggers, wave compositions, and schedules. Sensible preparation:
 
-| Threat Level | Trigger | Attack Composition | Recommended Defense |
-|-------------|---------|-------------------|---------------------|
-| **Minor** | Nightfall (every night) | 3-5 Corrupted Wildlife | Wooden Walls + spike traps |
-| **Moderate** | After restoring 3+ Spires | 8-12 enemies including Wisps | Stone Walls + Watchtower |
-| **Major** | After defeating first boss | 15-20 enemies including Root Horrors | Reinforced Walls + 2 Watchtowers |
-| **Siege** | After restoring 7+ Spires | 25+ enemies, Elite spawns | Eldran Walls + Auto-Turrets + full perimeter |
+- Expect pressure to increase as you progress (restore more Spires, defeat bosses, explore deeper)
+- Expect attacks at night, when visibility favors the enemy
+- Keep a defensible structure ready at all times — do not live in an open camp after the early game
 
-**Critical tip:** Enemies always attack from the direction of the nearest Eldran-corrupted zone. Build your strongest defenses facing that direction.
+**Critical tip:** enemies tend to come from the direction of the nearest corrupted or dangerous zone. Build your strongest defenses facing that direction — but never leave a side completely open.
 
 ## Advanced Base Designs
 
 ### The Compound (Solo)
 
-A 12×12 walled area with all zones inside. Simple, effective, easy to defend solo. Build on flat terrain and expand outward as needed.
+A walled area with all zones inside. Simple, effective, easy to defend solo. Build on flat terrain and expand outward as needed.
 
 ### The Split Base (Co-op)
 
-Two connected bases ~50 tiles apart, linked by a tunnel or bridge. Each player manages their own crafting and living space, but shares a central farm and defense perimeter. Reduces resource competition.
+Two connected bases a short distance apart, linked by a tunnel or bridge. Each player manages their own crafting and living space, but shares a central farm and defense perimeter. Reduces resource competition.
 
 ### The Mountain Fortress
 
-Carve your base directly into a mountain using the voxel destruction system. Pros: Nearly indestructible walls (the mountain itself), temperature stable. Cons: Cannot expand easily, limited farming space, dark (requires constant lighting).
+Carve your base directly into a mountain using the voxel destruction system. Pros: the terrain itself is your wall. Cons: cannot expand easily, limited farming space, dark (requires constant lighting).
 
-### The Sky Platform
+### The Elevated Base
 
-Build on elevated terrain and extend platforms outward with the Tome of Ice for bridges. Flying enemies become the primary threat, but ground-based Eldran cannot reach you at all. Requires advanced building materials and a Glider Cape for safe access.
+Build on elevated terrain and extend platforms. Ground-based enemies cannot reach you at all — the trade-off is that ranged and flying threats become your primary problem, and access requires either bridges (the Tome of Ice artifact creates frost bridges, a confirmed feature) or creative engineering.
 
 ## Farming and Sustainability
 
-A sustainable base produces more than it consumes:
+A sustainable base produces more than it consumes. Spellware confirms **growing crops, cooking delicious meals, and brewing powerful elixirs** as core systems.
 
-| Crop | Growth Time | Yield | Special |
-|------|------------|-------|---------|
-| **Wheat** | 2 days | 2-3 per plant | Makes Bread (staple food) |
-| **Potatoes** | 3 days | 2-4 per plant | High satiety, used in stews |
-| **Herbs** | 1 day | 1-2 per plant | Alchemy ingredient |
-| **Mushrooms** | 2 days (dark only) | 3-5 per log | Grows on specially placed logs |
-| **Berry Bushes** | 3 days | 4-6 per bush | Eaten raw or brewed into juice |
-
-Build a Greenhouse Module (20 Wood + 10 Crystal + Greenhouse Module Blueprint) to double crop growth speed.
+- **Crop types and growth times are unconfirmed** — expect a mix of staple crops, vegetables, and herbs, but do not trust specific numbers from any source yet
+- **Water access matters** for farming — hence the scorecard
+- **Cook what you grow** — cooked food is better than raw, and meals provide combat-relevant buffs (confirmed concept)
+- **Brew elixirs for combat** — potion brewing is a confirmed pillar, use it to prepare for bosses
 
 ## Base Building Quick Tips
 
 1. **Always build more storage than you think you need.** You will fill it.
-2. **Keep a "bug-out chest"** with backup tools, weapons, food, and healing potions near your bed — for when you die and need to re-equip fast.
-3. **Light everything.** Torches are cheap. Darkness spawns Eldran inside your base.
-4. **Test your defenses.** Trigger a minor Eldran attack early (stand outside at night) to find weak points before a major siege exposes them.
+2. **Keep a "bug-out chest"** with backup tools, weapons, food, and potions near your bed — for when you die and need to re-equip fast.
+3. **Light everything.** Torches are cheap and darkness hides threats.
+4. **Test your defenses.** Stand outside your walls at night and see where enemies first reach you — then fix that spot before a real assault.
 5. **In co-op, assign a "base manager."** One player handles building, farming, and crafting while others explore — this specialization dramatically accelerates progress.
+6. **Keep your respawn point sacred.** If your bed area gets overrun, you lose the ability to respawn near your base. Never let the base fall without a fight.

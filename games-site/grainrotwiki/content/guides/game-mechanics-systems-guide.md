@@ -1,95 +1,96 @@
 ---
 title: 'Game Mechanics & Systems Guide — How Grain Rot Really Works'
-description: 'Complete Grain Rot mechanics guide. Understand vessel possession, the corruption system, sound-based enemy AI, durability, extraction economy, and Outpost meta-progression explained.'
-keywords: ['grain rot mechanics', 'grain rot systems guide', 'grain rot corruption system', 'grain rot how to play', 'grain rot vessel system', 'grain rot explained']
+description: 'The confirmed Grain Rot systems explained: vessel possession, the Rot and corruption, sound-based enemy AI, the extraction economy, and Outpost meta-progression — with unverified details clearly marked.'
+category: 'Guides'
+version: 'Pre-release'
 updated: '2026-08-01'
+keywords: ['grain rot mechanics', 'grain rot systems guide', 'grain rot corruption system', 'grain rot how to play', 'grain rot vessel system', 'grain rot explained']
+related: ['beginner-guide', 'tips-and-tricks', 'extraction-guide', 'base-building', 'crafting-resources-guide']
 ---
 
 # Game Mechanics & Systems Guide — How Grain Rot Really Works
 
-Grain Rot is more than a co-op extraction shooter — it's a web of interlocking systems: possession, corruption, sound, durability, and a persistent economy. New players who understand how these systems interact will survive longer, extract richer, and have a far easier time when the full game launches on **August 7, 2026**. This guide explains each core system in depth.
+Grain Rot is a horror co-op extraction builder where several systems interlock: possession, corruption, sound, the extraction economy, and a persistent hub. This guide explains each system using only confirmed facts, with everything still unverified clearly flagged.
 
 ## The Vessel Possession System
 
-You don't have a health bar in the traditional sense. You are a **Living Spark** — an intangible soul — inhabiting a wooden vessel.
+You don't have a traditional health bar. You are a **Living Spark** — an intangible soul — inhabiting a wooden vessel.
 
-- **Vessels are bodies**: durability, speed, carry capacity, and abilities all belong to your vessel, not your Spark.
-- **When a vessel breaks**, your Spark escapes. You become a floating spirit, able to guide allies through darkness until you possess a new vessel.
-- **Possession is instant** — grab any available vessel to re-enter the fight, though only unlocked vessel types are available in the Outpost between runs.
-- **Vessels are flammable**: fire hazards, Fire Bombs, and environmental flames can ignite your body. Burning vessels take accelerated durability damage, so never stand in flame.
+Confirmed from the Steam page:
 
-**Key takeaway**: death is a setback, not an end. The real loss is unextracted loot, not your body. Because of this, aggressive play is riskier than it looks — every broken vessel wastes time you could be looting.
+- **Vessels are bodies**: fragile wooden vessels that "splinter, collapse, and catch fire."
+- **When a vessel breaks, the Spark escapes.** You stay in the run as a Spark, search for another host, and "force your way back in before you fade out completely" — there's a window, and it closes.
+- **Possession and swapping are core features**: "possess and swap between fragile wooden vessels."
+- **Vessels have different abilities** — body choice is build choice.
+- **Vessels are flammable.** The setting is a scorched wasteland "where everything burns"; fire is a real threat to every body in the game.
 
-## The Corruption System
+**Key takeaway**: death is a setback, not an end — but the fade timer means a broken body can still end your run if you can't find a new vessel in time. The real loss is unextracted loot.
 
-Corruption builds as you descend and spend time below the surface. It's the game's central risk-reward mechanic.
+## The Rot & Corruption System
 
-| Corruption Level | Effects |
-|-----------------|---------|
-| Below 30% | Safe — no effects |
-| 30–50% | Minor visual distortion, slightly louder footsteps |
-| 50–75% | Voice distortion, reduced visibility, enemies detect you more easily |
-| 75–90% | Severe distortion, friendly fire enabled, uncontrollable emotes |
-| 90%+ | Near-blind, constant enemy attraction, vessel degradation |
+Corruption is the game's central risk-reward throttle:
 
-Corruption also feeds back into the horror loop: as it builds, **your voice chat distorts**, your emotes degrade into grotesque animations, and your body visibly warps. Other players hear and see your corruption level — it's a social cue as much as a stat.
+- **It scales with depth.** "The deeper you go, the worse the Rot becomes."
+- **It changes your body and voice.** "Bodies warp. Voices distort. Emotes become…worse."
+- **It's visible and audible to others.** Your corruption is a social signal — your team hears and sees your state.
+- **The Corrupted are corrupted vessels.** The Rot's corruption is the game's origin story and its hazard system in one.
 
-**Managing corruption**: Rot Purge Flasks remove half your corruption instantly. Use them at the 50% and 75% thresholds — waiting until 90% means you're already attracting enemies. Deeper biomes accumulate corruption faster, which is the game's way of saying "extract before it's too late."
+**What's TBD:** the specific corruption thresholds, cleansing items, and whether corruption can be reversed in-run. Older guides quoted precise percentages and "Rot Purge Flask" mechanics — none of that is verified.
 
 ## Sound & Enemy AI
 
-The Corrupted don't have perfect vision. They rely on **sound and movement** — and they react to each other.
+The official description of the Corrupted: "reacting to **sound, movement, and each other**."
 
-- **Sprinting is loud.** Walking keeps you mostly quiet.
-- **Smashing furniture echoes** through adjacent rooms and draws attention.
-- **Combat is the loudest player action** — enemies arrive from surprising distances.
-- **Enemies aggro each other**: start a fight in one room and nearby enemies path toward the noise, which you can use to bait groups into traps — or accidentally summon a horde.
-- **The elevator timer** is the loudest sound in the game. Enemies converge on the extraction point during the final hold, which is why barricades are essential.
+- **Sound** — noise is the primary trigger. Loud actions draw attention.
+- **Movement** — close-range tracking of motion.
+- **Each other** — enemies chain-react; when one is alarmed, others investigate.
 
-Headphones are strongly recommended — each enemy type has a distinct audio cue (creaking wood, scuttling, deep groaning) that functions as your earliest warning system.
+**What's TBD:** exactly how loud each action is and how far noise travels. The principle is confirmed; the numbers aren't.
 
-## Durability, Carry Capacity & the Extraction Economy
+## The Extraction Economy
 
-Every run is an exercise in resource math:
+- **Scavenge**: smash furniture for resources, or feed items into the **Grinder** for gold. Both confirmed.
+- **Extract**: "Make it back alive." Only extracted loot counts.
+- **Risk**: "If everyone breaks, your loot is lost."
+- **Reward**: "Go deeper. Extract more."
 
-1. **Smash furniture** for construction materials, or **feed items into the Grinder** to convert them to gold.
-2. **Gold doesn't take inventory space** — wood does. Convert aggressively.
-3. **Carry capacity** limits what you can extract. Outpost upgrades that increase capacity are among the most valuable in the game.
-4. **The 60-second elevator hold** is the extraction skill check: barricade chokepoints, fight off the converging horde, and protect the player carrying the best loot.
-5. **If all vessels are destroyed, the entire haul is lost.** One player can save the run by extracting while teammates distract.
-
-The deeper you go, the better the loot tables — and the faster corruption builds. The golden rule: **extract with something rather than die with everything.**
-
-## Dungeon Modifiers & Procedural Shifts
-
-Runs are procedurally generated, and modifiers change the rules:
-
-- Room templates repeat, so learn to recognize layouts even as seeds change.
-- Modifiers (from the demo's dungeon modifier system) alter enemy density, loot generosity, corruption rate, and hazard placement.
-- Some modifiers favor stealth (reduced enemy vision, deadlier combat), others favor speed (compressed timers, richer loot).
-
-Read the modifier list before descending — a "high loot, high corruption" modifier changes your extraction threshold, not just your excitement level.
+**The golden rule**: extract with something rather than die with everything.
 
 ## Outpost Meta-Progression
 
-Everything you extract funds your **Outpost**, the persistent hub between runs:
+The Outpost is the persistent hub between runs:
 
-- **Workshop** — unlocks construct slots (weapons, utilities)
-- **Forge** — unlocks weapons and upgrades
-- **Alchemy** — unlocks consumables and corruption tools
-- **Training Ground** — permanent stat upgrades
-- **Rescued Survivors** — services, vendors, and new unlock paths
+- **"Everything you haul back rebuilds your Outpost."**
+- Confirmed unlocks: **interactive furniture**, **stat upgrades**, and **rescued survivors**.
+- The demo confirms **upgradeable Outpost rooms**.
 
-Upgrade costs rise with each level, so early focus matters. Most players agree: Workshop Lv.1 → Forge Lv.1 (for the Reinforced Mallet) is the strongest opening sequence in the game.
+**What's TBD:** room names, upgrade costs, level caps, and survivor identities. Any guide with specific upgrade tables pre-launch is speculative.
 
-## The Friendly Fire Paradox
+## The Chaos System
 
-Grain Rot deliberately embraces chaos: you can kick teammates' Sparks out of their vessels, block them into monster corridors, or put them in crossfire. In co-op, this is half the fun — but in serious runs, it's a risk to manage. Corruption at 75%+ *enables* friendly fire, so a heavily corrupted teammate is a danger to the whole squad, not just themselves.
+Grain Rot is unusual in making chaos an official feature:
+
+- **Dropkicks**: dropkick enemies — or "'accidentally' launch your ally's Spark out of their vessel."
+- **Griefing**: "Block them in a monster-infested corridor or get stuck in the crossfire."
+- **Physics**: "co-op extraction horror with physics-driven chaos."
+- **Cursed emotes**: "rage-bait your friends with cursed emotes" — and emotes degrade with corruption.
+
+The game is designed to be played *with* friends who can also ruin you. Teams that embrace the chaos in safe moments and suppress it in dangerous ones get the best of both.
+
+## How the Systems Interlock
+
+```
+Possession (your body) → Corruption (depth clock) → Sound (threat model)
+        ↓                        ↓                        ↓
+   Extraction economy ←———— Survival ←———— The Outpost (meta)
+```
+
+Every system feeds another: deeper descents earn more for the Outpost but build corruption faster; corrupted bodies make noise mistakes more likely; extraction failure loses everything at once. Understanding the interlock is the whole game.
 
 ## Related Guides
 
-- [Beginner Guide](/guides/beginner-guide) — step-by-step first-run walkthrough
-- [Tips & Tricks](/guides/tips-and-tricks) — 10 essential survival tips
+- [Beginner Guide](/guides/beginner-guide) — step-by-step first runs
+- [Tips & Tricks](/guides/tips-and-tricks) — survival tips for new Sparks
 - [Extraction Guide](/guides/extraction-guide) — mastering the extract loop
-- [Outpost Upgrade Guide](/guides/outpost-upgrade-guide) — what to upgrade first
-- [Weapons & Tools Guide](/guides/weapons-tools-guide) — every construct explained
+- [Base Building Guide](/guides/base-building) — the Outpost explained
+- [Crafting & Resources Guide](/guides/crafting-resources-guide) — the economy in depth

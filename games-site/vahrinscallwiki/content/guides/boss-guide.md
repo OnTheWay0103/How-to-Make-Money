@@ -1,213 +1,84 @@
 ---
-title: 'Boss Guide — All Major Bosses & How to Beat Them in Vahrin\'s Call'
-description: 'Complete boss guide for Vahrin\'s Call. Every major boss with strategies, attack patterns, weaknesses, recommended builds, and rewards for all story and optional bosses.'
-keywords: ['vahrins call boss guide', 'vahrins call bosses', 'vahrins call boss strategies', 'vahrins call hidden bosses', 'vahrins call boss weaknesses']
-updated: '2026-07-27'
+title: 'Boss Guide — What\'s Confirmed About Boss Fights in Vahrin\'s Call'
+description: 'Everything confirmed about boss fights in Vahrin\'s Call: pattern-recognition design, the threat beneath the city, and practical preparation using confirmed systems. No invented boss names.'
+category: 'Guides'
+version: '1.0'
+updated: '2026-08-01'
+keywords: ['vahrins call boss guide', 'vahrins call bosses', 'vahrins call boss fights', 'vahrins call final boss', 'vahrins call boss tips']
+related: ['combat-guide', 'quest-walkthrough', 'enemies-bestiary-guide', 'alchemy-crafting-guide']
 ---
 
-# Boss Guide — All Major Bosses & How to Beat Them
+# Boss Guide — What's Confirmed
 
-Vahrin's Call features challenging boss encounters that test your build, preparation, and combat mastery. Each boss has distinct attack patterns, elemental weaknesses, and recommended strategies.
+**Correction first**: earlier versions of this guide described specific bosses ("Khraiax Hivelord," "Captain Theron," "Archmagister Valdris," "Khraiax Queen") with health bars, phases, and weaknesses. **Those bosses are invented.** No official boss list exists, and no launch material names a single boss. This guide covers what is actually confirmed about boss fights — which is more useful than fake health percentages.
 
----
+## What Is Confirmed About Boss Fights
 
-## Boss Combat Basics
+### Boss Fights Emphasize Pattern Recognition
 
-### Reading Enemy Tells
-Every boss attack has a **visual wind-up**:
-- **Glowing weapon** = heavy attack incoming (dodge, don't block)
-- **Crouching/shifting stance** = charge attack (side dodge)
-- **Raising arms/weapon overhead** = AoE slam (roll away)
-- **Eyes glowing** = magic/ranged attack (strafe or block)
+Launch reviews are consistent: **boss fights in Vahrin's Call reward pattern recognition**. The design language of the game — deliberate, committed actions and wind-up telegraphs — carries into boss encounters. Expect to:
 
-### Universal Tips
-1. **Learn the pattern first.** Spend your first attempt just dodging — don't attack. Memorize the rhythm.
-2. **Use the environment.** Pillars block projectiles. Ledges enable plunging attacks. Tight corridors funnel enemies.
-3. **Elemental weaknesses matter.** A fire-vulnerable boss takes 2× damage from fire — matching elements doubles your effective DPS.
-4. **Traps work on bosses.** Most are not immune. A Frost Trap can create a critical opening.
-5. **Haste Potion is the boss killer.** Pop it during DPS windows for maximum damage.
+- Learn attack sequences by observation.
+- Dodge on precise timing (khraiax-style swarms demand this in regular combat; bosses escalate it).
+- Punish recovery windows after telegraphed attacks.
 
----
+### The Ultimate Threat Is Beneath the City
 
-## Story Bosses
+Official lore: while the khraiax were being defeated, **"a far greater danger rose from beneath the city's streets."** The story's endgame threat is underground — expect the true endgame boss encounters to connect to whatever that danger is. This is the only boss-related fact we can state with confidence.
 
-### 1. Khraiax Hivelord — Tutorial Boss
+### Blocking Works Against Bosses
 
-| Attribute | Detail |
-|-----------|--------|
-| **Location** | Vahrin Outskirts (unmissable — tutorial) |
-| **HP** | Low |
-| **Weakness** | Fire (+50% damage) |
-| **Resistance** | Poison (immune) |
-| **Difficulty** | ★☆☆☆☆ |
+Reviews confirm **blocking is functional** — timing your guard is a viable defensive tool in the game generally, which includes heavier enemies. Pair it with dodge timing for a complete defensive kit.
 
-**Attack Patterns**:
-- **Claw Swipe** (2-hit combo): Block or dodge sideways
-- **Acid Spit** (ranged): Strafe — it's a slow projectile
-- **Summon Drones** (at 50% HP): Kill drones first, they heal the boss
+## Preparation That Works with Confirmed Systems
 
-**Strategy**: This is the tutorial boss. Use Firebolt or Flame Imbued weapon. Dodge the acid, ignore the drones if you can burst the boss down quickly.
+Since we cannot tell you a specific boss's weaknesses, here is how to prepare for any boss fight using confirmed mechanics:
 
-**Rewards**: First Perk Points, progression unlock.
+### 1. Stamina Discipline
 
----
+A **stamina system limits prolonged magic use**. In a boss fight, draining your stamina on offense means you cannot dodge or block — the boss will punish it. Budget stamina for defense first, offense second.
 
-### 2. Captain Theron — First Major Boss
+### 2. Traps Before and During the Fight
 
-| Attribute | Detail |
-|-----------|--------|
-| **Location** | Vahrin Garrison (end of first zone) |
-| **HP** | Medium |
-| **Weakness** | Ice (+30% damage, slows his attacks) |
-| **Resistance** | Fire (former ally — fire-resistant armor) |
-| **Difficulty** | ★★☆☆☆ |
+Traps **deploy while moving** (confirmed March 2026 rework — a short upper-body animation instead of the old kneel-lock). Lay a trap field in the arena before the fight starts, and drop traps while repositioning mid-fight. Confirmed synergy: **spells can trigger traps**, so you can detonate your own field from range.
 
-**Attack Patterns**:
-- **Sword Combo** (3-hit): Block first two, dodge the third (unblockable)
-- **Shield Charge**: Runs at you with shield raised — dodge sideways
-- **Commander's Call** (at 66% and 33% HP): Summons 2 soldiers
-- **Enrage** (at 25% HP): Attacks faster, new leaping slam attack
+### 3. Thrown Potions
 
-**Strategy**: 
-- Phase 1: Bait the 3-hit combo, punish after the third swing
-- Phase 2 (summon phase): Kill soldiers immediately — they buff Theron's damage
-- Phase 3 (enrage): Play defensively. His new leap attack has a long recovery — punish it
-- **Best build**: Spellshield Vanguard — block the sword combos, shield bash during recovery
+With the alchemy skill + perk, you can **throw potions at enemies or yourself** — offensive potions give any build a ranged option for boss phases where melee is punished.
 
-**Rewards**: Captain's Signet (ring, +10 Strength), story progression.
+### 4. Spell Customisation
 
----
+Before a boss fight, tune your spells — confirmed customisation levers are **damage, range, and casting speed**. For boss fights, casting speed lets you weave spells between dodges; range lets you fight from safety.
 
-### 3. The Burrower — Underground Horror
+### 5. A Secondary Damage System
 
-| Attribute | Detail |
-|-----------|--------|
-| **Location** | Vahrin Catacombs |
-| **HP** | High |
-| **Weakness** | Fire (+50%), Ice (slows burrow speed) |
-| **Resistance** | Earth (immune) |
-| **Difficulty** | ★★★☆☆ |
+Because **skills grow through use**, don't arrive at a boss with only one practiced system. If the boss punishes melee, a bow or magic fallback keeps you productive. Hybrid play is the developers' intended design ("a nimble-footed archer flinging fireballs between arrows").
 
-**Attack Patterns**:
-- **Burrow** (disappears underground): Watch for dust particles — they show movement
-- **Emerge Attack** (from below): Roll when you see dust beneath your feet
-- **Tentacle Swipe** (180° arc): Jump over it or roll through
-- **Toxic Cloud** (at 50% HP): Stationary AoE — move out immediately
-- **Desperation** (at 15% HP): Constant burrowing, faster emerges
+### 6. Realistic Combat Expectations
 
-**Strategy**:
-- This is a **mobility check** boss. Agility under 15 will make this fight miserable
-- Fire spells burn it while burrowed (DoT continues underground)
-- Frost spells slow its burrow speed — easier to track
-- When it emerges, burst with your strongest attacks
-- **Best build**: Archer Mage — stay at range, fire DoT + ice slow
+Boss fights inherit the game's general combat feel: attacks have commitment, and **enemies may not visibly stagger when hit** (the most common Steam-review criticism). A boss that doesn't flinch is normal — track your damage by the health bar, not by reactions.
 
-**Rewards**: Burrower's Fang (crafting material for Epic weapon).
+## Community-Reported Guidance (Marked Unconfirmed)
 
----
+Some launch discussion threads share general advice that is plausible but **not officially confirmed**:
 
-### 4. Archmagister Valdris — Mid-Game Magic Duel
+- Boss fights reportedly involve **multiple phases** with new attack patterns per phase (consistent with pattern-recognition design, unverified).
+- Fire options are reportedly effective against khraiax swarms (elemental balance data is unconfirmed).
+- Some players report boss arenas contain **environmental objects usable as cover** (unverified — the game does feature environmental puzzles generally).
 
-| Attribute | Detail |
-|-----------|--------|
-| **Location** | Grand Library |
-| **HP** | Medium |
-| **Weakness** | None — adapts to last element used |
-| **Resistance** | Adapts — gains 40% resistance to last element hit with |
-| **Difficulty** | ★★★★☆ |
+Treat these as rumors until verified.
 
-**Attack Patterns**:
-- **Elemental Barrage** (rotates Fire → Ice → Earth): Dodge each projectile
-- **Arcane Storm** (AoE): Room-wide damage over time — stand behind pillars
-- **Mana Drain** (grab): If caught, drains 50% of your mana. Dodge backward twice
-- **Summon Tome** (at 75%, 50%, 25%): Animated book adds — kill quickly
-- **Ultimate: Elemental Chaos** (at 10% HP): Rapid-fire all three elements
+## What Is NOT Confirmed
 
-**Strategy**:
-- **Rotate damage types**: Hit with Fire → switch to Ice → switch to Earth → repeat. This prevents him from adapting to one element
-- Physical damage is consistent — he can't adapt to swords
-- Hide behind pillars during Arcane Storm
-- Tome adds must die immediately — they buff his spell power
-- **Best build**: Spellsword (physical + alternating magic) or Archer (pure physical, no adaptation)
+- Any boss names, locations, or rewards
+- Boss health values, phases, or enrage mechanics
+- Elemental weaknesses or resistances
+- Number of bosses in the game
+- Whether a tutorial boss exists
 
-**Rewards**: Archmagister's Grimoire (off-hand, +15 Intelligence, +20 max mana).
+## Next Steps
 
----
-
-### 5. Khraiax Queen — Final Boss
-
-| Attribute | Detail |
-|-----------|--------|
-| **Location** | The Depths (beneath Vahrin) |
-| **HP** | Very High (3 phases) |
-| **Weakness** | Fire (phase 1), Ice (phase 2), Earth (phase 3) |
-| **Resistance** | Adapts per phase |
-| **Difficulty** | ★★★★★ |
-
-**Attack Patterns — Phase 1 (100%-66%)**:
-- **Claw Swipe** → **Tail Sweep** combo
-- **Egg Sac** (spawns 4 drones every 30s): Destroy sac immediately
-- **Acid Rain** (room-wide): Find the marked safe zones
-
-**Phase 2 (66%-33%)**:
-- Gains **Flight** — melee builds need ranged options
-- **Dive Bomb**: Marked AoE on ground, roll out
-- **Sonic Scream**: Cone attack, stuns if hit — block or side dodge
-- **Summon Swarm**: 8 small khraiax — AoE them down
-
-**Phase 3 (33%-0%)**:
-- **Enrage**: All attacks faster, new "Desperate Flurry" (8-hit combo)
-- **Collapsing Arena**: Floor sections break away — stay mobile
-- **Final Stand**: At 5% HP, charges a one-shot attack. **Burst or die.**
-
-**Strategy**:
-- **Phase 1**: Stay close, punish after claw+tail combo. Destroy egg sacs immediately.
-- **Phase 2**: Ranged phase — swap to bow or magic. Dodge dive bombs.
-- **Phase 3**: All-out. Pop Haste Potion + damage elixir. The collapsing floor limits the arena — don't get cornered.
-- **Final Stand**: The queen's charged attack has a 6-second wind-up. This is your final DPS check. If you can't kill 5% HP in 6 seconds, your build is underpowered.
-- **Best build**: Archer Mage (ranged for phase 2, sustained DPS for phase 3)
-
-**Rewards**: Queen's Essence (legendary crafting material), ending unlocked, New Game+ prompt.
-
----
-
-## Optional Hidden Bosses
-
-### Obsidian Golem — Hidden Boss
-| Attribute | Detail |
-|-----------|--------|
-| **Location** | Crystal Cavern (hidden area in Quarry Depths) |
-| **Weakness** | Ice (+40%) |
-| **Resistance** | Fire (immune), Physical (50% resist) |
-| **Reward** | Obsidian Core (crafts legendary armor) |
-
-### Fallen Mercenary — Hidden Boss
-| Attribute | Detail |
-|-----------|--------|
-| **Location** | Old Vahrin Walls (night only) |
-| **Weakness** | Fire (+30%) |
-| **Resistance** | Ice (immune — already dead) |
-| **Reward** | Mercenary's Blade (legendary greatsword) |
-
-### The Librarian — Hidden Boss
-| Attribute | Detail |
-|-----------|--------|
-| **Location** | Grand Library (secret room behind illusory wall) |
-| **Weakness** | Physical (+50%) |
-| **Resistance** | All magic (90% resist) |
-| **Reward** | Forbidden Tome (unlocks secret Alteration spell) |
-
----
-
-## Boss Difficulty Summary
-
-| Boss | Difficulty | Build Check | Key Mechanic |
-|------|-----------|-------------|-------------|
-| Khraiax Hivelord | ★☆☆☆☆ | None | Tutorial |
-| Captain Theron | ★★☆☆☆ | Block/Dodge | Add management |
-| The Burrower | ★★★☆☆ | Mobility (Agility) | Tracking burrowed movement |
-| Archmagister Valdris | ★★★★☆ | Element rotation | Adaptation immunity |
-| Khraiax Queen | ★★★★★ | All systems | 3-phase endurance |
-| Obsidian Golem | ★★★☆☆ | Magic damage | Physical resist |
-| Fallen Mercenary | ★★★☆☆ | Fire damage | Night-only spawn |
-| The Librarian | ★★★★☆ | Physical damage | Magic immune |
+- [Combat Guide](/guides/combat-guide) — the confirmed combat fundamentals bosses test.
+- [Enemies & Bestiary Guide](/guides/enemies-bestiary-guide) — the confirmed enemy roster.
+- [Alchemy & Crafting Guide](/guides/alchemy-crafting-guide) — potion-throwing and trap preparation.
+- [Quest Walkthrough](/guides/quest-walkthrough) — the story context for the threat beneath the city.

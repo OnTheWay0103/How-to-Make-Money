@@ -1,109 +1,73 @@
 ---
-title: 'Crafting Guide — Recipes, Materials & Best Items to Craft in MineGeon'
-description: 'Complete crafting guide for MineGeon: Renegades. All crafting recipes, material requirements, best items to craft first, crafting station upgrades, and efficient crafting strategies.'
-keywords: ['minegeon crafting', 'minegeon crafting guide', 'minegeon recipes', 'minegeon how to craft', 'minegeon best items to craft', 'minegeon crafting recipes']
+title: 'Minerals & Economy Guide — How Upgrades Work in MineGeon: Renegades'
+description: 'Minerals and economy guide for MineGeon: Renegades. How the mineral economy works — trade minerals for permanent upgrades, ship upgrades, Renegade attributes, and unlock progression. No fabricated recipes.'
+keywords: ['minegeon renegades upgrade guide', 'minegeon crafting', 'minegeon minerals', 'minegeon renegades how to get ores', 'minegeon renegades economy', 'minegeon renegades permanent upgrades']
 category: Crafting
 version: '1.0'
-updated: '2026-07-20'
+updated: '2026-08-01'
 related:
+  - upgrades-guide
+  - extraction-guide
   - mining-guide
-  - base-building-guide
-  - weapons-guide
+  - progression-guide
 ---
 
-## Crafting System Overview
+## Crafting? What the Game Actually Offers
 
-Crafting is how you turn mined resources into usable gear, consumables, and base items in MineGeon: Renegades. Everything from your pickaxe to boss-killing weapons comes from the crafting system.
+If you searched for a MineGeon: Renegades crafting guide, you may have found lists of "recipes," "furnaces," and "workbenches." **None of that is confirmed in the real game.** Kickstone Studio has never described a crafting system with stations and recipes. What the game actually has is a **mineral economy**: you extract minerals, and you trade them for permanent progression.
 
-## Crafting Stations
+> **Accuracy note:** this guide replaces earlier speculation. Confirmed systems: minerals → permanent upgrades (ship + Renegade attributes), leveling → unlocked gadgets/weapons/ultimates, ship customization via the Galactic Express PC. Everything else (smelting, anvils, recipe lists) is unconfirmed or fabricated — ignore guides that promise exact recipe tables.
 
-| Station | Unlocked | What It Crafts |
-|---------|----------|---------------|
-| **Workbench** | Start | Weapons, tools, armor, basic items |
-| **Furnace** | Start | Smelts ores into ingots |
-| **Alchemy Station** | Base Upgrade | Potions, bombs, special consumables |
-| **Anvil** | Base Upgrade | Weapon/armor upgrades and enhancements |
+## The Mineral Economy (Confirmed)
 
-## Best Items to Craft First
+The economy has four confirmed parts:
 
-### Priority 1: Survival Essentials
-1. **Iron Pickaxe** — Doubles mining speed. Craft immediately.
-2. **Healing Salve** ×10 — Your most-used consumable. Always keep stocked.
-3. **Basic Armor** (class-appropriate) — Reduces damage by 15-20%.
+| Part | What It Is | Confirmed? |
+|------|-----------|-----------|
+| Mining | Mine minerals from PAIMO's procedurally generated minegeons | ✅ |
+| Extraction | Minerals are only yours once they reach the ship | ✅ |
+| Death penalty | Minerals you carry are lost for good if you die | ✅ |
+| Trade-in | Minerals trade for permanent upgrades | ✅ |
 
-### Priority 2: Combat Readiness
-4. **Iron Weapon** (your class's best) — Major damage upgrade over starter.
-5. **Ammunition** — Stockpile 100+ rounds of your primary ammo type.
-6. **Antidote** ×5 — Essential for Biome 2+ poison enemies.
+### The rules
+1. **Minerals are the run currency.** Deeper = more valuable minerals = more dangerous descents.
+2. **Only extracted minerals count.** The ship is the bank; the minegeon is the casino.
+3. **Permanent upgrades are the sink.** Two confirmed sinks: the spaceship and each Renegade's attributes. Both persist forever.
 
-### Priority 3: Quality of Life
-7. **Storage Upgrade** — More inventory space per run.
-8. **Torch** — Essential for dark biomes (5+).
-9. **Grappling Hook** — Faster vertical movement in deep mines.
+## What Upgrades Exist (Confirmed)
 
-## Crafting Recipes
+### 1. Ship upgrades (permanent)
+The spaceship — your hub between runs — can be upgraded permanently with minerals. This is the game's meta-progression backbone. (Don't confuse it with ship *customization*: the Galactic Express PC sells 200+ cosmetic decorations separately.)
 
-### Pickaxes
-| Item | Materials | Effect |
-|------|-----------|--------|
-| Iron Pickaxe | Iron Ingot ×5, Wood ×3 | 2× mining speed |
-| Silver Pickaxe | Silver Ingot ×8, Iron Ingot ×5 | 3× speed, rare ore visibility |
-| Gold Pickaxe | Gold Ingot ×10, Silver Ingot ×5 | 4× speed, minimap ore pings |
-| Crystal Pickaxe | Crystal ×8, Gold Ingot ×5 | 5× speed, auto-collect radius |
-| Mythril Pickaxe | Mythril Ingot ×5, Crystal ×10 | 6× speed, double yield chance |
+### 2. Renegade attribute upgrades (permanent)
+Each of the three Renegades — Marshall, Trevor, Ari — has attributes you can enhance permanently. Investment is per-class, so specializing in one class compounds fastest.
 
-### Weapons (Sample — Full list in Weapons Guide)
-| Item | Materials | Damage |
-|------|-----------|--------|
-| Iron War Hammer | Iron Ingot ×8, Wood ×5 | 45 |
-| Iron Revolver | Iron Ingot ×6, Copper Wire ×3 | 35 |
-| Silver Rifle | Silver Ingot ×8, Iron Ingot ×5 | 55 |
-| Gold Shotgun | Gold Ingot ×10, Silver Ingot ×5 | 80 |
+### 3. Leveling unlocks (run progression)
+Leveling up during runs unlocks **gadgets** (150+ in the full game: grenades, energy shields, combat drones), **weapons** (including legendary weapons and the weapons of the Ancient Ones), and **ultimate abilities**. This is the in-run progression layer.
 
-### Armor
-| Item | Materials | Defense |
-|------|-----------|---------|
-| Iron Plate | Iron Ingot ×6 | +15 DEF |
-| Silver Reinforced | Silver Ingot ×8, Iron Ingot ×4 | +25 DEF |
-| Gold Plated | Gold Ingot ×10, Silver ×5 | +35 DEF |
-| Obsidian Shell | Obsidian ×8, Gold ×5 | +50 DEF |
-| Mythril Armor | Mythril ×5, Crystal ×5 | +75 DEF |
+## How to Spend Minerals Wisely
 
-### Consumables (Alchemy Station)
-| Item | Materials | Effect |
-|------|-----------|--------|
-| Healing Salve | Herb ×2, Water ×1 | Restore 25% HP |
-| Greater Healing | Herb ×5, Crystal Water ×1 | Restore 50% HP |
-| Antidote | Glowcap ×2, Water ×1 | Cure poison |
-| Fire Resist Potion | Frost Herb ×3, Water ×1 | 50% fire resist, 5 min |
-| Bomb | Coal ×3, Iron ×2 | AoE explosion, 100 damage |
-| Supply Beacon | Gold ×5, Crystal ×2 | Calls Supply Drop anywhere |
+Without exact prices (unpublished), the strategy is about order, not amounts:
 
-## Material Processing
+1. **Ship upgrades first.** They benefit every class and every future run — the highest-value first investment.
+2. **Then your main Renegade's attributes.** Specialize before you diversify; a strong main class extracts more minerals per run, funding everything else.
+3. **Weapons and gadgets come from leveling, not the shop.** Spend minerals on the permanent track; let runs provide the temporary gear.
+4. **Cosmetics last.** 200+ decorations are real and fun, but they are the last line item for players optimizing progression.
 
-### Smelting (Furnace)
-| Input | Output | Time | Fuel |
-|-------|--------|------|------|
-| Iron Ore ×3 | Iron Ingot ×1 | 30s | Coal ×1 |
-| Silver Ore ×3 | Silver Ingot ×1 | 45s | Coal ×1 |
-| Gold Ore ×3 | Gold Ingot ×1 | 60s | Coal ×2 |
-| Crystal ×1 | Polished Crystal ×1 | 90s | Coal ×3 |
-| Obsidian ×2 | Obsidian Plate ×1 | 120s | Coal ×3 |
-| Mythril Ore ×2 | Mythril Ingot ×1 | 180s | Coal ×5 |
+## Common Economy Mistakes
 
-## Crafting Efficiency Tips
+1. **Extracting nothing.** Hanging onto minerals for the "perfect" run is how players go multiple runs with zero banked progress.
+2. **Risking big hauls on bosses.** The boss is repeatable; your haul isn't. Bank, then fight.
+3. **Spreading attribute upgrades thin.** Investing across all three Renegades early slows every one of them down.
+4. **Trusting recipe lists.** There are no confirmed recipes. If a "crafting guide" gives you exact material counts, it is fiction.
+5. **Ignoring the death rule.** It is the single most important sentence in the game: *if you die, the minerals you are carrying are lost for good.*
 
-### Time Management
-- **Batch craft** — Queue up multiple items before a run; don't craft one at a time
-- **Smelt while you craft** — Start smelting ores, then craft other items while furnace runs
-- **Stockpile basics** — Always have 50+ Iron Ingots ready
+## What the Community Is Documenting
 
-### Resource Efficiency
-- Don't craft items you'll replace in 1-2 runs (skip Silver weapons, go Iron → Gold)
-- Save rare materials (Crystal+) for items you'll use long-term
-- It's cheaper to upgrade than craft new — upgrade your Iron weapon rather than crafting Silver
+As of early August 2026, players are documenting: actual gadget and weapon catalogs, upgrade costs, and whether any trading/vendor system exists beyond the confirmed permanent upgrades. We will update this guide when the community confirms the full economy.
 
-### Co-op Crafting
-- Split crafting responsibilities — one player focuses weapons, another consumables
-- Pool rare materials for the player who benefits most
-- Engineer should always have priority on Crystal and Copper (gadgets need both)
+## Next Steps
+
+- [Upgrades Guide](/guides/upgrades-guide) — what to prioritize first
+- [Extraction Guide](/guides/extraction-guide) — the risk/reward loop
+- [Mining Guide](/guides/mining-guide) — how to gather minerals efficiently

@@ -1,158 +1,84 @@
 ---
-title: 'Phantom Tower Weapons Guide — All Weapon Types, Gear & Soulbinder System'
-description: 'Master Phantom Tower weapons and gear — all 6 weapon types, 128 weapons, 200+ gear pieces, Soulbinder stat locking, forging, legendary items, and class weapon pairings explained.'
-keywords: ['Phantom Tower weapons', 'Phantom Tower gear', 'Phantom Tower Soulbinder', 'Phantom Tower forging', 'Phantom Tower legendary weapons', 'Phantom Tower best weapons']
-updated: '2026-07-30'
+title: 'Phantom Tower Weapons Guide — Gear, Forging & the Soulbinder System'
+description: 'Master Phantom Tower weapons and gear — 128 weapons across six types, 200+ equipment pieces, Blacksmith forging, the Soulbinder stat-locking system, and Boss Unique Weapons.'
+category: 'Guides'
+version: 'Early Access'
+updated: '2026-08-01'
+keywords: ['Phantom Tower weapons', 'Phantom Tower gear', 'Phantom Tower Soulbinder', 'Phantom Tower forging', 'Phantom Tower Blacksmith', 'Phantom Tower Boss Unique Weapons', 'Phantom Tower best weapons']
+related:
+  - soulbinder-guide
+  - best-builds
+  - progression-guide
+  - elements-guide
 ---
 
-# Phantom Tower Weapons Guide — All Weapon Types, Gear & Soulbinder System
+# Phantom Tower Weapons Guide — Gear, Forging & the Soulbinder System
 
-Phantom Tower features 128 weapons across 6 types, 200+ gear pieces, and the deep Soulbinder system for permanent stat customization. Your weapon and gear choices define your build as much as your class. This guide covers everything.
+Phantom Tower's official content numbers for gear are unusually precise: **128 weapons across six weapon types**, **200+ equipment pieces** overall, and a deep **Soulbinder** system for permanent stat customization. What is less precise is the public record on the details — the six weapon types have been counted but not fully named, and most in-game stats are unpublished. This guide covers what is confirmed, what we know from official store materials, and how to think about gear in Early Access without relying on invented numbers.
 
-## The Six Weapon Types
+## The Confirmed Numbers
 
-### 1. Sword + Shield (Balanced)
-- **Speed:** Medium
-- **Range:** Melee
-- **Defense:** High (blocking)
-- **Best Classes:** Warrior, Guardian
-- **Special Trait:** Block negates 100% of frontal damage
+- **128 weapons** in the game
+- **Six weapon types** — the count is official, but the developer has not published the complete type list. Coverage of the game references families such as bows, rods, and daggers, but treat the full six-type breakdown as TBD until the official wiki publishes it
+- **200+ equipment pieces** including weapons, armor, and artifacts
+- **Boss Unique Weapons** — the Steam version adds weapons that can only be dropped by bosses, per official materials
+- **60+ enemy types** to harvest materials from
 
-The most versatile weapon class. Decent damage, built-in defense via blocking, and compatible with almost every class. Sword + Shield is the recommended setup for learning new content.
+Any guide that lists "Sword + Shield," "Greatsword," "Katana," or similar weapon categories as the game's official six types is filling in the blanks itself. There is no published source for that list yet.
 
-### 2. Greatsword / Greataxe (Heavy)
-- **Speed:** Slow
-- **Range:** Melee (wide arcs)
-- **Defense:** None
-- **Best Classes:** Warrior, Berserker
-- **Special Trait:** Charged attacks hit in 180-degree arcs
+## What Gear Does
 
-Slow but devastating. Each swing cleaves multiple enemies. The Berserker's rage mechanic multiplies Greatsword damage to absurd levels. Pairs best with IGNIS element for maximizing charged attack burn damage.
+Three official facts anchor the whole gear system:
 
-### 3. Dual Daggers / Claws (Fast)
-- **Speed:** Very Fast
-- **Range:** Melee (short)
-- **Defense:** None
-- **Best Classes:** Blade Dancer, Rogue
-- **Special Trait:** Backstab deals 3x damage
+1. **You collect gear while climbing.** Climb Mode's official description says you explore the tower "collecting materials, resources, and equipment to bring back outside" — gear you bring out is yours to keep.
+2. **The Blacksmith forges gear.** Materials harvested from fallen monsters are used to forge new equipment — weapons, armor, and artifacts. The official tagline is direct: "Forge your equipment, develop your combat style."
+3. **The Soulbinder makes stats permanent.** You can permanently lock desired stats onto equipment, and specific stats can be developed up to level 99. This is the system that turns gear from a per-run resource into a long-term investment.
 
-The fastest weapon class. High attack speed means more status effect applications and faster reaction triggers. Low per-hit damage compensated by hitting 3-4 times in the time a Greatsword swings once.
+## The Forging Loop
 
-### 4. Bow / Crossbow (Ranged)
-- **Speed:** Medium-Fast
-- **Range:** Long
-- **Defense:** None
-- **Best Classes:** Ranger
-- **Special Trait:** Critical hits at maximum range
+The practical gear loop every run feeds:
 
-The safest weapon class. Attack from outside enemy threat range. Piercing arrows can hit multiple enemies in a line. Crossbow fires faster for close-range emergencies.
+1. **Kill monsters, collect materials.** Every enemy type drops something, and 60+ types means a wide material pool.
+2. **Return to the Blacksmith.** Use harvested materials to forge gear you actually want — don't just forge whatever is cheapest.
+3. **Upgrade the pieces you keep.** The official description frames upgrading as part of "developing your combat style."
+4. **Soulbind the stats that define your build.** Permanent stats are the endgame of the system — one stat pushed to level 99 is the officially described ceiling.
 
-### 5. Staff / Tome (Magic)
-- **Speed:** Varies
-- **Range:** Medium-Long
-- **Defense:** None
-- **Best Classes:** Elementalist, Mystic
-- **Special Trait:** Reduces element swap cooldown
-
-Magic weapons enhance elemental abilities. The Staff is slower but hits harder. The Tome is faster with lower damage but reduces element swap cooldown by 30% — essential for Elementalist builds.
-
-### 6. Katana (Precision)
-- **Speed:** Fast
-- **Range:** Melee (medium)
-- **Defense:** None
-- **Best Classes:** Blade Dancer
-- **Special Trait:** Animation cancels on dodge
-
-A precision weapon for skilled players. The Katana allows dodge animation canceling — you can dodge mid-swing without completing the attack animation. This creates the Blade Dancer's signature rhythmic combat flow.
-
-## Weapon Rarity and Stats
-
-| Rarity | Color | Stat Range | Drop Location |
-|--------|-------|-----------|---------------|
-| Common | White | Level 1-10 | Floors 1-20 |
-| Uncommon | Green | Level 1-30 | Floors 5-40 |
-| Rare | Blue | Level 5-50 | Floors 20-70 |
-| Epic | Purple | Level 20-75 | Floors 40-100 |
-| Legendary | Gold | Level 50-99 | Boss drops, secret rooms |
-
-**Rule of thumb:** A higher-level Common weapon beats a lower-level Epic. Prioritize weapon level over rarity while climbing. Switch to rarity hunting once you reach endgame (floor 80+).
+**Early Access note:** Exact forging costs, material rarities, and upgrade caps have not been published. Numbers you see in other guides are unverified — plan around the systems, not the tables.
 
 ## The Soulbinder System — Permanent Stat Locking
 
-The Soulbinder is Phantom Tower's meta-progression system for gear. It lets you permanently improve equipment across runs.
+The Soulbinder is Phantom Tower's meta-progression system for gear, and it deserves its own detailed treatment (see our [Soulbinder Guide](/guides/soulbinder-guide)). The official description in brief:
 
-**How it works:**
-1. Visit the Blacksmith between floors
-2. Select a gear piece and choose a stat to lock
-3. That stat is now permanent on that specific gear piece
-4. Continue upgrading the stat — push it all the way to level 99
-5. Locked stats persist even if you die
+**How it works (confirmed):**
+- You lock a stat onto a piece of equipment
+- That stat is now permanent on that piece
+- Specific stats can be developed up to level 99
 
-**Best stats to Soulbind first:**
-- **Weapons:** Attack Power > Elemental Damage > Attack Speed
-- **Armor:** Defense > Max HP > Elemental Resistance
-- **Accessories:** Critical Hit Chance > Critical Damage > Cooldown Reduction
+**How to use it well (strategy, not official):**
+- **Commit to one piece at a time.** Spreading binds across five pieces produces five mediocre stats instead of one strong one
+- **Bind stats that outlive builds.** A versatile weapon or armor any class can use keeps your investment relevant if you switch classes
+- **Weapon stats first.** Damage stats on your main weapon are the highest-value bind for most players, though official stat lists have not been published
 
-**Soulbinder strategy:**
-- Bind stats on gear pieces you use across multiple builds first (e.g., a Sword + Shield used by both Warrior and Guardian)
-- Focus on one piece at a time rather than spreading bindings thin
-- A single level-99 weapon with perfect Soulbinder stats can carry any class
+## Rarity and Progression — What We Actually Know
 
-## Forging — Crafting Your Arsenal
+Many Phantom Tower gear guides publish rarity tables (Common/Uncommon/Rare/Epic/Legendary with color codes and floor ranges), legendary weapon lists, and drop rates. **None of that has been officially published.** The only confirmed rarity-adjacent facts are:
 
-The Blacksmith forges new weapons using materials collected during runs:
+- There are 128 weapons and 200+ gear pieces — the scale is real
+- Bosses drop unique gear — **Boss Unique Weapons** are exclusive boss drops on Steam
+- Gear comes from forging with monster materials and from loot during climbs
 
-| Material | Source | Used For |
-|----------|--------|----------|
-| Iron Ore | Common enemy drops | Basic weapons (Common-Uncommon) |
-| Mythril | Elite enemies, floor 30+ | Advanced weapons (Rare-Epic) |
-| Elemental Crystals | Elemental enemies | Element-infused weapons |
-| Boss Essence | Floor bosses | Legendary weapon forging |
-| Gold | All sources | Forging fees, upgrading |
+Until the official wiki publishes rarity tiers and item lists, treat rarity and drop-rate tables elsewhere as speculation. The safe strategic principle: **a weapon you can forge, upgrade, and Soulbind reliably is better than any one-off drop.**
 
-**Forging priorities for new players:**
-1. Forge your class's best weapon type first (e.g., Katana for Blade Dancer)
-2. Upgrade it to level 10 before forging a second weapon
-3. Save Boss Essences — they are rare and needed for legendary crafts
+## Gear Strategy for New Players
 
-## Gear Slots and What to Prioritize
+1. **Use the Blacksmith from the start.** Forging is the confirmed core of gear progression — ignoring it means climbing with worse gear than you could have.
+2. **Bring gear out of the tower.** Climb Mode explicitly rewards banking your finds. Cash out when you have a good haul instead of risking it all for one more floor.
+3. **Save rare materials for gear you keep.** Since materials feed forging, spend them on pieces that match your class and playstyle rather than whatever is new.
+4. **Soulbind early, commit late.** Lock stats once you own a weapon you can see yourself using for many floors — then push one stat toward the level-99 ceiling.
+5. **Respect boss exclusives.** Boss Unique Weapons are the game's chase items per the official description. When a boss finally drops one, it is worth building around.
 
-| Slot | Stat Priority |
-|------|---------------|
-| **Weapon** | Attack Power > Elemental Damage |
-| **Helmet** | Max HP > Defense |
-| **Chest Armor** | Defense > Elemental Resistance |
-| **Gloves** | Attack Speed > Critical Chance |
-| **Boots** | Movement Speed > Dodge Distance |
-| **Ring 1** | Critical Damage > Attack Power |
-| **Ring 2** | Cooldown Reduction > Elemental Damage |
-| **Amulet** | Blessing Effectiveness > All Stats |
+## Class and Weapon Pairings — TBD
 
-**Golden rule for gearing:** Weapon > Chest Armor > Rings > Everything else. A good weapon and chest piece carry runs.
+Class-specific weapon recommendations are common in other guides, but with four of eight classes unnamed and weapon types unpublished, no confirmed pairing table exists. The honest advice: the Warrior is the starting class and a melee generalist by design, the Mage and Archer are caster/ranged respectively, and the Assassin is high-mobility — match your weapons to those confirmed identities and experiment.
 
-## Legendary Weapons — The Chase Items
-
-Legendary weapons have unique effects that can reshape entire builds. Notable legendaries reported by the community:
-
-- **Infernal Edge (Greatsword)** — Each kill increases fire damage by 1% for the rest of the run (uncapped). Pairs with Survival Mode for infinite scaling.
-- **Frostbite (Katana)** — Dodge creates a freezing shockwave. The ultimate Blade Dancer weapon.
-- **Stormcaller (Bow)** — Arrows summon lightning strikes. Turns Ranger into an AoE class.
-- **Titan's Bulwark (Tower Shield)** — Blocking reflects 50% damage back. Guardian becomes an offensive threat.
-- **Prismatic Staff (Staff)** — Reduces element swap cooldown to zero. The Elementalist's holy grail.
-
-Legendary items are extremely rare (estimated 0.5% drop rate from floor 80+ bosses). Do not plan builds around specific legendaries — treat them as joyful surprises.
-
-## Class Weapon Pairings
-
-| Class | Best Weapon | Alternative | Avoid |
-|-------|-------------|-------------|-------|
-| Warrior | Sword + Shield | Greatsword | Daggers (too short range) |
-| Elementalist | Staff | Tome | Greataxe (no magic scaling) |
-| Blade Dancer | Katana | Dual Daggers | Shield (blocks dodge flow) |
-| Berserker | Greataxe | Dual Axes | Bow (no rage synergy) |
-| Ranger | Longbow | Crossbow | Any melee weapon |
-| Guardian | Tower Shield | Sword + Shield | Daggers (no block) |
-| Mystic | Tome | Staff | Greataxe (no blessing synergy) |
-| Rogue | Dual Daggers | Claws | Shield (lose backstab) |
-
-**Next steps:** Learn boss-specific weapon strategies in our [Boss Guide](/guides/boss-guide), or master combat mechanics in the [Combat Guide](/guides/combat-guide).
+**Next steps:** Learn how permanent stats shape your build in the [Soulbinder Guide](/guides/soulbinder-guide), or study build archetypes in the [Best Builds Guide](/guides/best-builds).

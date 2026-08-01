@@ -1,206 +1,182 @@
 ---
 title: 'Modding Guide — Lua API & Community Mods in Ardent Wilds'
-description: 'Complete modding guide for Ardent Wilds. How the Lua API works, how to install and create mods, where to find community mods, scripting basics, and what is possible with the full game script access.'
+description: 'Complete modding guide for Ardent Wilds. Confirmed facts about the Lua API, what can be modded, how to install community mods, and scripting basics for a game that ships all its content scripts with the game.'
+category: 'Guides'
+version: '1.0'
+updated: '2026-08-01'
 keywords: ['ardent wilds modding', 'ardent wilds mods', 'ardent wilds lua api', 'ardent wilds custom content', 'ardent wilds steam workshop']
-updated: '2026-07-31'
+related:
+  - 'advanced-guide'
+  - 'demo-guide'
+  - 'combat-guide'
+  - 'crafting-guide'
 ---
 
 # Modding Guide — Lua API & Community Mods
 
-Ardent Wilds ships with full modding support — all game scripts are written in Lua and are accessible to players. This guide covers everything from installing your first mod to writing your own.
+Ardent Wilds ships with **extensive modding support** — this is confirmed developer design, described on the official Steam page: "all game objects, creatures, abilities and combat effects are programmable using our Lua API," and **all existing content scripts are included with the game** for players to read and modify.
 
-## Modding Philosophy
+That is a big deal: the entire game is scriptable, and the source of the game's logic ships in the install folder. This guide covers the confirmed modding facts, what can be modded, and how to get started — without inventing API documentation that does not exist yet.
 
-Spellware Studios designed Ardent Wilds to be moddable from the ground up. Key design decisions:
+**Honesty note:** the game is pre-release (demo July 30, 2026; full game TBA), and **no official Lua API documentation has been published**. Any online guide that shows exact API function names or code samples (including earlier versions of this one) is unverified. Official documentation may change before full release. Everything below that is not explicitly confirmed is marked as such.
 
-- **All game logic is in Lua** — Not compiled into the engine. You can read and modify how anything works.
-- **Scripts ship with the game** — Located in the `Ardent Wilds/scripts/` directory. Open them in any text editor.
-- **No encryption or obfuscation** — The developers want you to tinker.
-- **Steam Workshop support** — Planned for the full release. The demo uses manual installation.
+## Confirmed Modding Facts
+
+From the official Steam page:
+
+1. **Lua API** — the game exposes a Lua scripting API
+2. **Everything is programmable** — "all game objects, creatures, abilities and combat effects"
+3. **Scripts ship with the game** — all existing content scripts are included for players to modify
+4. **Read the vanilla scripts to learn** — because the game's own content is written in this API, the installed scripts are the best (and currently only) reference documentation
 
 ## What Can Be Modded?
 
-Nearly everything. Here is what the Lua API exposes:
+Directly from the confirmed wording — "all game objects, creatures, abilities and combat effects":
 
-| System | Modifiable? | Examples |
-|--------|------------|----------|
-| **Items** | ✅ | Add new weapons, tools, artifacts, consumables |
-| **Recipes** | ✅ | Change crafting requirements, add new recipes |
-| **Enemies** | ✅ | Modify enemy stats, add new enemy types, change AI behavior |
-| **Terrain Generation** | ✅ | Custom biome generators, new terrain features |
-| **UI** | ✅ | Custom HUD elements, inventory modifications |
-| **Game Rules** | ✅ | Death penalties, difficulty scaling, day/night cycle |
-| **Quests** | ✅ (full game) | Add custom quests, storylines, NPCs |
-| **Multiplayer** | ✅ | Custom game modes, PvP rulesets |
-| **Graphics** | ⚠️ Partial | Shaders and post-processing are in the engine, but all visual data (textures, models) is replaceable |
+| System | Confirmed? | Notes |
+|--------|-----------|-------|
+| **Items / game objects** | ✅ | All objects are programmable |
+| **Creatures** | ✅ | Enemy and creature behavior |
+| **Abilities** | ✅ | Player and creature abilities |
+| **Combat effects** | ✅ | Damage, effects, combat interactions |
+| **Other systems** (UI, world gen, quests, multiplayer) | Unconfirmed | Plausible, but not stated by the developers |
 
-## Installing Mods (Demo Build)
+## Where to Find the Scripts
 
-Since the demo does not have Steam Workshop support yet, mods are installed manually:
+The game is **Windows-only** (per the current Steam listing). The scripts live in the game's install directory — for a standard Steam install, that is inside:
+
+`C:\Program Files (x86)\Steam\steamapps\common\Ardent Wilds\` (exact subfolder names are build-dependent)
+
+Look for a folder containing `.lua` files and open them in any text editor. If the demo build includes the scripts folder (unconfirmed — check your install), the same applies to the demo directory.
+
+## Reading the Vanilla Scripts
+
+The shipped scripts are the developer-written reference implementation. To learn the API:
+
+1. **Open the game's own content files first** — read how items, creatures, and abilities are defined in vanilla
+2. **Find the patterns** — the object registration pattern you see repeated in vanilla files is the pattern to copy for your own content
+3. **Copy, don't invent** — the safest first mod is a modified copy of an existing item or creature, changed in small ways
+4. **Check the patch notes** — the April 2026 playtest added new items and abilities; those additions show the API in action
+
+**Do not trust third-party API references.** Until Spellware publishes official documentation, the shipped scripts are the only authoritative reference — and they are authoritative by definition, because they are the real code.
+
+## Installing Mods (Current Builds)
+
+Steam Workshop support is **unconfirmed** — do not assume it exists yet. Until official distribution is announced, mods are shared and installed manually:
 
 1. Download the mod files (usually a `.zip` or a collection of `.lua` files)
-2. Navigate to your Ardent Wilds demo directory:
-   - **Windows:** `C:\Program Files (x86)\Steam\steamapps\common\Ardent Wilds Demo\`
-   - **Mac:** `~/Library/Application Support/Steam/steamapps/common/Ardent Wilds Demo/`
-   - **Linux:** `~/.steam/steam/steamapps/common/Ardent Wilds Demo/`
-3. Place mod files in the `mods/` folder (create it if it does not exist)
-4. Launch the game — mods are loaded automatically
-5. Check the main menu → Mods to see loaded mods and resolve conflicts
+2. Find the mod folder in your Ardent Wilds install (if none exists, community guides will document the expected location — check the game's folder structure first)
+3. Place mod files there
+4. Launch the game and see if the content loads
+5. **Back up your save files before installing mods** — always
 
-**Important:** Mods modify game behavior. Playing on a vanilla server with mods enabled may cause compatibility issues. Disable mods before joining unmodded multiplayer sessions.
+**Important:** mods change game behavior. Play with mods in your own worlds; disable them before joining unmodded multiplayer sessions to avoid compatibility issues (standard practice; exact behavior in Ardent Wilds is unconfirmed).
 
 ## Creating Your First Mod
 
-### Project Structure
+Since official API docs are not published, the honest workflow is:
 
-A basic mod requires at minimum:
+### Step 1 — Find a Vanilla Template
 
-```
-MyMod/
-├── mod.json          # Mod metadata
-├── init.lua          # Entry point (runs when mod loads)
-└── scripts/          # Your custom Lua scripts
-    └── items.lua     # Example: custom items
-```
+Open the shipped scripts and find an item or creature definition close to what you want to create. This is your template.
 
-### mod.json
+### Step 2 — Modify It
 
-```json
-{
-  "name": "My First Mod",
-  "version": "1.0.0",
-  "author": "YourName",
-  "description": "Adds a legendary sword that shoots lightning.",
-  "game_version": "demo-2026-07",
-  "dependencies": []
-}
-```
+Change values: names, damage, descriptions, effects. Keep the structure identical to the original. The fastest way to learn what each field does is to change it and see what happens in-game.
 
-### init.lua — Basic Item Mod
+### Step 3 — Test in Single-Player
+
+Test your mod in a single-player world before touching multiplayer. Multiplayer mod bugs can crash sessions — and crash other people's fun.
+
+### Step 4 — Iterate
+
+- Change one thing at a time so you know which change caused which effect
+- Read more vanilla scripts when you hit a wall — the pattern you need is almost certainly in the game already
+- Keep a changelog — it helps you and anyone who plays your mod
+
+### Example (Illustrative, Not Official API)
+
+The exact API is unconfirmed, but a well-designed item system usually looks something like this — **this is not official documentation**, just an illustration of the pattern you will find in the vanilla scripts:
 
 ```lua
--- Register a custom sword
+-- Typical pattern: a table describing the object, registered with the game
 local sword = {
-  id = "lightning_blade",
-  name = "Lightning Blade",
-  description = "A legendary sword that calls lightning from the sky.",
+  name = "My Custom Sword",
   type = "weapon",
-  slot = "mainhand",
-  damage = 45,
-  damage_type = "lightning",
-  attack_speed = 1.2,
-  tier = 4,
-  recipe = {
-    { item = "iron_ingot", count = 5 },
-    { item = "crystal", count = 3 },
-    { item = "eldran_shard", count = 1 }
-  },
-  special_effect = "on_hit_chain_lightning"
+  damage = 10,
 }
-
--- Register the item
-game.register_item(sword)
-
--- Add chain lightning effect
-game.on_event("weapon_hit", function(event)
-  if event.weapon.id == "lightning_blade" then
-    -- Find nearest 3 enemies and chain lightning
-    local targets = game.find_nearby_enemies(event.target, 10, 3)
-    for i, enemy in ipairs(targets) do
-      game.deal_damage(enemy, event.damage * 0.4, "lightning")
-      game.spawn_effect("lightning_bolt", enemy.position)
-    end
-  end
-end)
+-- The registration call name comes from the vanilla scripts
+-- game.register(sword)  -- <-- exact function name: check the shipped scripts
 ```
 
-### Common API Functions
-
-| Function | Description |
-|----------|-------------|
-| `game.register_item(table)` | Add a new item to the game |
-| `game.register_recipe(table)` | Add a new crafting recipe |
-| `game.register_enemy(table)` | Add a new enemy type |
-| `game.on_event(event, callback)` | Hook into game events |
-| `game.find_nearby_enemies(pos, range, count)` | Get nearby enemies |
-| `game.deal_damage(target, amount, type)` | Deal damage to an entity |
-| `game.spawn_effect(effect_id, position)` | Play a visual effect |
-| `game.broadcast_message(text)` | Send chat message to all players |
+Read the real scripts, copy their exact patterns, and you will be writing working mods before the official docs exist.
 
 ## Popular Mod Ideas (Community Wishlist)
 
-Based on community discussion during the demo period, these are the most-requested mod types:
+Based on community discussion during the demo period, the most-requested mod types:
 
 ### Quality of Life
-- **Bigger Inventory** — Double inventory slots
-- **Auto-Sort Chests** — One-click chest organization
-- **Mini-Map** — Persistent minimap overlay
-- **Death Coordinates** — Show death location on map
-- **Craft from Chests** — Workstations pull from nearby storage
+- Bigger inventory
+- Auto-sort chests
+- Mini-map
+- Death location markers
+- Craft-from-chests (workstations pull from nearby storage)
 
 ### Gameplay Changes
-- **Solo Scaling** — Reduce enemy HP for solo players
-- **Keep Inventory on Death** — Soulslike death rules instead of full drop
-- **Faster Smelting** — Reduce Furnace processing time
-- **Increased Artifact Slots** — Equip 5 artifacts instead of 3
-- **No Building Costs** — Creative mode for base designers
+- Solo difficulty scaling
+- Keep inventory on death
+- Faster smelting
+- More artifact slots
+- Creative mode for builders
 
 ### Content Additions
-- **New Weapons** — Community-designed weapon types (scythes, whips, fist weapons)
-- **New Biomes** — Custom terrain generators (desert, swamp, floating islands)
-- **New Bosses** — Player-designed boss encounters
-- **Magic Expansion** — More spells, elements, and magic artifacts
-- **Technology Mod** — Add tech-based items alongside magic (guns, machines, vehicles)
+- New weapons
+- New creatures and bosses
+- Magic expansion (more spells and artifacts)
+- New world content
 
 ### Total Conversions
-- **PvP Arena Mode** — Turn the game into a competitive arena fighter
-- **Tower Defense Mode** — Defend a central base against waves
-- **Hardcore Survival** — Permadeath, no map, realistic hunger/thirst
-- **Zombie Apocalypse** — Replace Eldran with zombies, modern weapons
+- Hardcore survival rules
+- Tower-defense-style modes
+- Custom enemy themes
+
+**Honest note:** whether each of these is technically possible depends on how much of each system the Lua API exposes — and that is not fully documented yet. "All game objects, creatures, abilities and combat effects" is a wide door; the community will map its edges during the demo and early-access period.
 
 ## Mod Compatibility and Conflicts
 
-When two mods modify the same thing, the last one loaded wins. To manage conflicts:
+Until official mod tooling exists, conflict management is manual:
 
-1. Check the Mods menu in-game — it shows conflicts with yellow warning icons
-2. Rename mod folders to control load order (mods load alphabetically)
-3. Some mod authors include compatibility patches for popular mod combinations
-4. When in doubt, disable all mods and enable them one at a time
+1. **One mod at a time when debugging** — if something breaks, isolate the cause
+2. **Know the load order** — if two mods edit the same file, the behavior depends on how the game loads them (unconfirmed); document and test
+3. **Ask the community** — modders will share what works; follow their reports
 
 ## Sharing Your Mods
 
-During the demo period, share mods through:
+Until official distribution is announced, share through:
 
-1. **Steam Community Hub** — Post in the modding subforum
-2. **Discord** — The Spellware Studios Discord has a #modding channel
-3. **GitHub** — Host your mod source code (recommended for version control)
-4. **Nexus Mods** — Traditional mod hosting site (some creators already have pages)
+1. **Steam Community Hub** — forum posts with download links
+2. **Discord communities** — modding channels for the game
+3. **GitHub** — host your source (recommended for version control and collaboration)
+4. **Traditional mod hosting sites** — if the game's community adopts any
 
-When the full game releases, Steam Workshop will become the primary distribution method.
+When official distribution (Workshop or otherwise) launches, it will presumably become the primary channel — unconfirmed until announced.
 
 ## Modding Best Practices
 
-1. **Back up your saves** — Mods can corrupt save files. Copy your save folder before installing major mods
-2. **Document your mod** — A `README.md` helps users understand what your mod does
-3. **Version your mod** — Update the `mod.json` version when you release changes
-4. **Test in single-player first** — Multiplayer mod bugs can crash the server
-5. **Respect the community** — Do not redistribute others' mods without permission
-6. **Keep it balanced** — Overpowered mods are fun for 5 minutes, balanced mods are fun for 50 hours
+1. **Back up your saves** — mods can corrupt save files; copy your save folder before installing major mods
+2. **Document your mod** — a README helps users understand what your mod does
+3. **Version your mod** — track releases so players can roll back
+4. **Test in single-player first** — multiplayer mod bugs can crash the server
+5. **Respect the community** — do not redistribute others' mods without permission
+6. **Keep it balanced** — overpowered mods are fun for five minutes; balanced mods are fun for fifty hours
+7. **Report upstream** — if a bug is actually a game bug, report it through official channels; the game is pre-release and the developers are actively fixing builds
 
-## Official Modding Resources
+## What Is Still Unknown (TBD)
 
-- **Lua API Documentation:** Included in the game files at `docs/lua_api.html`
-- **Example Mods:** The game ships with 3 example mods in `mods/examples/`
-- **Script Source:** All vanilla scripts are in `scripts/` — read them to understand how systems work
-- **Community Wiki:** The [Ardent Wilds Modding Wiki](https://ardentwildswiki.vercel.app) will host community-contributed documentation
+- Official Lua API documentation (not yet published)
+- Steam Workshop support and timing
+- Whether the demo build exposes the modding API
+- How mods load, conflict, and distribute in the final game
+- How much of the engine (graphics, UI, world generation) is scriptable
 
-## The Future of Ardent Wilds Modding
-
-Spellware Studios has stated that modding is a core pillar of their long-term vision:
-
-- **Steam Workshop** at full launch
-- **Expanded Lua API** with more hooks and events
-- **Modding contests** — community-voted best mods featured on the store page
-- **Official mod pack** — curated collection of the best community mods, bundled as optional DLC (free)
-
-The message is clear: if the community wants it, it can be modded in.
+This guide will be updated as official documentation and patch notes confirm details. Until then: read the shipped scripts — they are the real documentation.

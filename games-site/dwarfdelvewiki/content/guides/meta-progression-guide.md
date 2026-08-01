@@ -1,127 +1,114 @@
 ---
 title: 'Meta-Progression & Upgrades Guide: What Carries Over Between Runs in Dwarf Delve'
-description: 'Complete Dwarf Delve meta-progression guide. What carries over between runs, quarters customization, equipment persistence, relic unlocks, and how to build permanent power through the upgrade system.'
+description: 'Complete Dwarf Delve meta-progression guide. What carries over between runs, the quarters, coin economy, gear upgrades, and perks — confirmed systems only, with honest notes on unpublished details.'
 keywords: ['dwarf delve meta progression', 'dwarf delve upgrades', 'dwarf delve quarters', 'dwarf delve between runs', 'dwarf delve progression']
 category: Progression
 version: '1.0'
-updated: '2026-07-25'
-related: ['perks-skills-guide', 'best-gear-equipment-guide', 'beginner-guide']
+updated: '2026-08-01'
+related: ['perks-skills-guide', 'best-gear-equipment-guide', 'beginner-guide', 'crafting-mastery']
 ---
 
 ## What Carries Over Between Runs
 
-Dwarf Delve is a roguelite — every descent is a fresh run, but your progress between runs accumulates. Understanding what persists and what resets is crucial for efficient progression.
+Dwarf Delve is a roguelite — every descent is a fresh run, but your progress between runs accumulates. What's confirmed about the carry-over economy, straight from official materials:
 
-### Permanent (Carries Over)
-- Unlocked perks in all three skill trees
-- Equipment upgrades (Battlemallet, lantern, etc.)
-- Quarters decorations and customization
-- Relic collection (displayed in your quarters)
-- Total coins earned
-- Unlocked crafting recipes
+### Confirmed: Carries Over Between Runs
+- **Refined ores** — you "refine ores back at your Dwarven home" after extraction
+- **Coin** — you "trade resources for coin"; coin is the meta-currency
+- **Perks and skills** — bought with coin, permanent ("buy new perks and skills" — official)
+- **Gear upgrades** — "every piece of gear can be upgraded and customized to your playstyle" (official)
+- **Quarters customization** — carpets, furnishings, wall art; your home persists between runs
+- **Relics** — "long-lost relics" unlock unique perks and quarters decorations; they're your collection to keep
 
-### Per-Run (Resets Each Descent)
-- Inventory (all gathered resources)
-- Mine layout (procedurally generated)
-- Enemy spawns
-- Tunnel stability
-- Flare and support beam count (resets to your upgraded maximum)
+### Confirmed: Resets Each Descent
+- **Run loot** — anything not extracted is lost
+- **The mine itself** — procedurally generated; "no two mines will ever be the same!"
+- **Run inventory** — what you carry down is what you have
 
-## The Meta-Progression Loop
+## The Meta-Progression Loop (Confirmed)
 
 ```
-Descend → Gather Resources → Extract (or die) → Spend at Surface → Repeat Stronger
+Descend → Gather Resources → Extract (or die) → Refine at Home
+        → Trade for Coin → Buy Perks, Skills & Upgrades → Repeat Stronger
 ```
 
-Each successful extraction makes the next run easier because your upgraded gear and perks are permanent.
+Each successful extraction makes the next run easier because your upgrades are permanent. This loop is the entire confirmed meta-game — and it's the whole game's endgame for now.
 
-## Quarters Customization
+## Quarters: Your Home Between Runs (Confirmed)
 
-Your dwarven quarters are your home base between runs — and a major meta-progression system.
+Your dwarven quarters are confirmed as the meta-progression hub:
 
-### Unlockable Quarters Areas
-| Area | Unlock Cost | Function |
-|------|-------------|----------|
-| **Equipment Rack** | Free (starter) | View, swap, and upgrade gear |
-| **Perk Shrine** | Free (starter) | Purchase and view perks |
-| **Trophy Wall** | 100 Coins | Display collected relics |
-| **Crafting Bench** | 50 Coins | Unlock permanent crafting recipes |
-| **Map Table** | 200 Coins | Reveals mine depth overview before descending |
-| **Training Dummy** | 150 Coins | Practice combat timing between runs |
-| **Garden** | 300 Coins | Grow resources passively between runs |
+- **Customizable**: "Everything from carpets to furnishings to wall art!"
+- **May have mechanical depth**: press materials state some furnishings "may have gameplay consequences beyond cosmetics"
+- **Relics are displayed**: quarters decorations are one of the confirmed relic uses
 
-### Decorations (Purely Cosmetic)
-- Wall art, carpets, furniture, statues, lighting fixtures
-- Unlocked by finding rare relics or purchasing with coins
-- Some decorations have small gameplay bonuses (e.g., a lucky statue gives +1% relic find chance)
+What's NOT confirmed: quarters room unlocks, upgrade costs, or any specific furniture effects. Guides listing "Trophy Wall — 100 Coins" or "Garden — 300 Coins" are inventing prices.
 
-## Relic Collection System
+## The Coin Economy (Partially Confirmed)
 
-Relics are rare, one-time finds in the mines. They serve two purposes:
+### Confirmed
+- Resources are **traded for coin** (official)
+- Coin buys **perks and skills** (official)
+- Coin buys **gear upgrades and customization** (official)
+- The launch bonus gave players **1,000 Gild** — Gild is the game's currency name (official, via the launch bonus announcement)
 
-1. **Display** — Each relic is placed in your quarters' Trophy Wall
-2. **Perk Unlocks** — Some relics unlock unique perks not available in the standard trees
+### Not Confirmed
+- Individual resource-to-coin values (any "ore = X coins" table is fabricated)
+- Perk and skill prices
+- Upgrade costs
+- Whether Gild and "coin" are the same thing (the launch bonus calls the currency Gild; the description calls it coin — likely the same, unconfirmed)
 
-### Known Relic Types
-| Relic | Depth Found | Unlocks |
-|-------|-------------|---------|
-| **Ancestor's Pendant** | Middle Mines+ | +5% chance to find bonus relics |
-| **Heart of the Mountain** | Deep Mines+ | Phoenix Heart becomes available at Resilience T2 instead of T3 |
-| **Gilded Pickaxe Head** | Upper Mines+ | Mine Sweeper perk efficiency +10% |
-| **Miner's Lost Journal** | Any depth | Reveals one hidden chamber location per run |
-| **Eternal Ember** | The Abyss | Lantern upgrade cost reduced by 30% |
+## Perks & Skills: The Confirmed Framework
 
-## Coin Economy
+The official description confirms the themes: perks and skills let you **"move faster, hit harder, carry more loot."** That's the entire published perk design — three confirmed themes, no confirmed names.
 
-Coins are the primary meta-currency, earned by selling extracted resources:
+### What This Means for Spending
+1. **Carry more loot** — compounds with the minecart system; more loot per run = faster progression
+2. **Hit harder** — faster mining and combat clears
+3. **Move faster** — efficiency and safety
 
-| Resource | Coin Value |
-|----------|------------|
-| Stone | 1 coin |
-| Iron Ore | 3 coins |
-| Copper | 4 coins |
-| Coal | 2 coins |
-| Silver | 8 coins |
-| Gold Nugget | 20 coins |
-| Gems | 15-50 coins (varies by type) |
-| Relic Fragment | 25 coins (but don't sell — combine them!) |
-| Mythril Ore | 100 coins |
+Any guide that lists named perks with prices (Might tree, Resilience tree, "Phoenix Heart," "Pack Mule" — note: Pack Mule IS a confirmed Steam achievement name, but not a confirmed perk) is speculating. The official perk roster has not been published.
 
-### Coin Spending Priority
-1. Perks (permanent power)
-2. Equipment upgrades (immediate run benefit)
-3. Quarters areas (unlock new systems)
-4. Decorations (cosmetic — lowest priority)
+## Gear Upgrades: The Confirmed System
 
-## Crafting Recipe Unlocks
+"Every piece of gear can be upgraded and customized to your playstyle" — the one-line contract for the upgrade system. Confirmed upgrade themes include tools (Battlemallet, lantern), lighting ("cast away shadows with a portable floodlight"), and capacity.
 
-New crafting recipes unlock permanently through:
-- Reaching new depth zones (milestone unlocks)
-- Finding rare materials for the first time
-- Purchasing from the Crafting Bench in your quarters
-- Certain relics
+**What's not confirmed:** upgrade tiers, costs, and effects. Prioritize by role instead (see the Best Gear guide): Battlemallet first, then lantern, then capacity.
 
-Once unlocked, a recipe is available in all future runs.
+## Relics: The Endgame Chase (Confirmed)
 
-## Progression Milestones
+- Relics are "long-lost" finds in the mines
+- They unlock **unique perks** and **quarters decorations** (official)
+- They are the highest-priority item to extract with
 
-| Milestone | What Unlocks | Recommended Prep |
-|-----------|-------------|-----------------|
-| First extraction | Equipment Rack upgrades | None — just extract! |
-| 5 successful extractions | Tier 2 perks available | Battlemallet L2, Lantern L2 |
-| Reach Middle Mines | Basic rail crafting | Support Beams L2 |
-| First relic found | Trophy Wall, relic perks | Lantern L3 for chamber detection |
-| 10 successful extractions | Tier 3 perks available | Battlemallet L3, Phoenix Heart |
-| Reach Deep Mines | Advanced rail, floodlights | Phoenix Heart, Support Beams L3 |
-| Reach The Abyss | Legendary recipes | Full L4+ equipment, Phoenix Heart mandatory |
-| Defeat The Buried King | Endgame quarters expansion | Maxed Battlemallet, all T3 perks |
+## Progression Milestones: Honest Guidance
 
-## Early Game Progression Strategy (Runs 1-10)
+Without official unlock gates, milestones follow from the confirmed loop:
 
-1. Focus on consistent extraction over deep runs — even small hauls build momentum
-2. Rush Efficient Miner and Pack Mule perks
-3. Upgrade Lantern to Level 2 before Battlemallet Level 3
-4. Buy Perk Shrine and Crafting Bench quarters upgrades
-5. Don't sell relic fragments — hold until you have 5 to combine
+| Stage | Confirmed Goal | Preparation |
+|-------|---------------|-------------|
+| First extraction | Bank the run's ore; learn the loop | Nothing — just extract |
+| First upgrades | Refine ore, buy first perk/upgrade | A few successful runs |
+| First relic | Find and extract a relic | Upgraded Battlemallet and lantern |
+| Loop mastery | Deep runs with heavy ore carts | Carry capacity + rail building |
+| Endgame | Maxed themes: hit harder, move faster, carry more | Everything above, run after run |
+
+## Early Game Progression Strategy
+
+1. **Extract consistently** — even small hauls fund the loop; a dead Delveling banks nothing
+2. **Refine everything** — ore in the vault is value; ore in the mine is potential
+3. **Spend on themes, not guesses** — carry capacity first, then speed/damage
+4. **Upgrade the Battlemallet early** — it's mining + combat in one upgrade
+5. **Decorate and watch** — if any furnishing does something mechanical, community testing will find it
+
+## Honest FAQ
+
+**Is there a respec?** Unconfirmed — no official statement exists.
+
+**Do I lose perks if I die?** No — perks, skills, and gear upgrades are permanent between runs (confirmed framework).
+
+**Can I lose quarters decorations?** Not confirmed either way; the quarters is your persistent home.
+
+**What's the fastest way to progress?** Consistent extraction. The loop rewards finishing runs over heroic ones.
 
 Your Delveling grows stronger with every descent. The mines may be infinite, but so is your potential.

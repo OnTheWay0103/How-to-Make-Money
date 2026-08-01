@@ -1,16 +1,16 @@
 ---
 title: "Moonlight Peaks Mining Guide — Cave of Echoes, Copper & Furnaces"
-description: "Moonlight Peaks mining guide: how to unlock the Cave of Echoes, mine Copper Ore from brown-tinted rocks, smelt Copper Bars (4 ore + 1 charcoal) in a furnace, and everything copper is used for."
+description: "Moonlight Peaks mining guide: how to unlock the Cave of Echoes, mine Copper Ore from ore rocks, smelt Copper Bars (4 ore + 1 charcoal) in a furnace, and everything copper is used for."
 category: "Guides"
 version: "1.0"
-updated: "2026-07-31"
+updated: "2026-08-01"
 keywords: ["moonlight peaks mining", "moonlight peaks copper", "moonlight peaks cave of echoes", "moonlight peaks furnace"]
 related: ["quests-guide", "farming-guide", "money-guide"]
 ---
 
 # Moonlight Peaks — Mining Guide: Cave of Echoes, Copper & Furnaces
 
-> Launch Version / Updated: July 31, 2026
+> Launch Version / Updated: August 1, 2026
 
 Mining in Moonlight Peaks is how you feed the game's crafting backbone. Everything from tools to quest progression runs through **Copper Ore** and the smelted **Copper Bar** — including a story quest that literally demands one. This guide covers unlocking the **Cave of Echoes**, finding copper, smelting bars, and what to spend them on.
 
@@ -18,9 +18,9 @@ Mining in Moonlight Peaks is how you feed the game's crafting backbone. Everythi
 
 The first mine isn't available at the start of the game. Here's the unlock path:
 
-1. **Complete "A Bridge Too Far"** — talk to **Fiona Webb at Moonlit Pines** and lift the curse on the bridge.
-2. The bridge unlocks the **south map** (Misty Shores, Moonlight Tower, Ambrosia Graveyard, Ambrosia Mansion).
-3. The quest **reopens the estate** that contains the mine entrance — the **Cave of Echoes**.
+1. **Complete "A Bridge Too Far"** — Orlock apologizes to Fiona, and the three witches (Noel, Luna, Sabrina) lift the curse on the bridge.
+2. The bridge unlocks the **south map** — **Misty Shores**, plus the Ambrosia Graveyard, Ambrosia Estate/Mansion, and Moonlight Tower.
+3. The **Cave of Echoes** mine entrance sits in the **southwest corner of Misty Shores** (the left side of the beach).
 
 | Unlock step | Result |
 |-------------|--------|
@@ -32,17 +32,17 @@ The first mine isn't available at the start of the game. Here's the unlock path:
 
 ## What You're Mining For: Copper Ore
 
-- **Copper Ore** comes from **brown-tinted rocks**.
+- **Copper Ore** comes from **ore rocks** — the copper-tinted deposits found in the mine.
 - Mine them with a **pickaxe**.
-- Brown-tinted rocks are **commonly found in mines** — the Cave of Echoes is the reliable source, though scattered brown rocks can also show up elsewhere in the world.
-- Not every rock is a copper rock: look for the **brown tint** specifically. Grey and dark rocks yield different materials or nothing.
+- The **Cave of Echoes** is the reliable source; large ore clusters can drop **up to 6 ore** per node.
+- Not every rock is an ore rock — plain stone yields stone, so learn to tell the ore-bearing deposits apart.
 
 | Rock type | Yield |
 |-----------|-------|
-| **Brown-tinted rock** | **Copper Ore** (with a pickaxe) |
+| **Ore-bearing rocks** (copper-tinted) | **Copper Ore** (with a pickaxe) |
 | Other rocks | Various materials / stone |
 
-**Pro tip:** carry a pickaxe on every mine trip, and don't waste stamina swinging at every rock — the brown-tinted ones are your copper income, and mining is stamina-hungry in the early game.
+**Pro tip:** carry a pickaxe on every mine trip, and don't waste stamina swinging at every rock — the ore-bearing deposits are your copper income, and mining is stamina-hungry in the early game.
 
 ## Smelting Copper Bars
 
@@ -52,7 +52,7 @@ Copper Ore alone isn't what crafting wants — you need **Copper Bars**, and tha
 |--------|-------------|--------|
 | **Copper Bar** | **4 Copper Ore + 1 Charcoal** | 1 Copper Bar |
 
-1. Gather **4 Copper Ore** from brown-tinted rocks.
+1. Gather **4 Copper Ore** from ore rocks.
 2. Source **1 Charcoal**.
 3. Put both in a **furnace**.
 4. Wait for the smelt to finish — bars take time in the furnace, so start smelts early in the night and collect before dawn.
@@ -82,7 +82,7 @@ Copper is the headline, but the Cave of Echoes pays out in other ways too:
 | **Rarer node finds** | Deeper cave areas hold better materials — progression rewards exploration |
 | **Cave loot** | Chests and deposits can hold crafting materials that skip whole production steps |
 
-**Pro tip:** mine with a goal, not a mood. If you need bars for the Yabbis quest, sweep the copper rocks on the accessible floors and leave. If you're upgrading tools, go deeper — the good material is past the first floor's brown-tinted rocks.
+**Pro tip:** mine with a goal, not a mood. If you need bars for the Yabbis quest, sweep the copper ore rocks on the accessible floors and leave. If you're upgrading tools, go deeper — the good material is past the first floors.
 
 ## The Copper Economy
 
@@ -108,7 +108,7 @@ Copper Ore (brown rocks) → furnace (4 Ore + 1 Charcoal) → Copper Bar
 ## Stamina and Mining Tips
 
 - **Mining is stamina-heavy.** A full mine run can drain most of your early-game bar — bring cooked food.
-- **Prioritize copper rocks.** In a new mine level, clear the brown-tinted rocks first; they're your actual income.
+- **Prioritize copper ore rocks.** In a new mine level, clear the ore-bearing deposits first; they're your actual income.
 - **Don't ignore other nodes entirely** — non-copper materials feed the furnace (Charcoal) and crafting, but copper is the reason you're down there.
 - **Exit before dawn.** You get returned to your coffin at sunrise regardless, so time your runs to finish at the mouth of the cave, not mid-shift.
 
@@ -120,7 +120,7 @@ Copper Ore (brown rocks) → furnace (4 Ore + 1 Charcoal) → Copper Bar
 After **"A Bridge Too Far"** reopens the estate containing the **Cave of Echoes** entrance. Before that, your only rocks are what you find in the overworld.
 
 **Where do I find Copper Ore?**
-**Brown-tinted rocks** mined with a **pickaxe**, commonly in mines — the Cave of Echoes is the main source.
+**Ore rocks** mined with a **pickaxe** inside the **Cave of Echoes** (southwest corner of Misty Shores). Large clusters can drop up to 6 ore.
 
 **How do I make a Copper Bar?**
 **4 Copper Ore + 1 Charcoal** in a **furnace**.

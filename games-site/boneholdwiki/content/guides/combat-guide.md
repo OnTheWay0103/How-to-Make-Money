@@ -1,156 +1,159 @@
 ---
 title: 'Bonehold Combat Guide — Advanced Tactics for Survival'
-description: 'Master Bonehold combat with advanced tactics — dodge timing, blocking vs parrying, trap manipulation, chokepoint baiting, crowd control, and deep-floor survival strategies.'
+description: 'Master Bonehold combat with advanced tactics — dodge timing, blocking vs parrying, trap manipulation, chokepoint baiting, crowd control, and deep-run survival strategies.'
+category: 'Combat'
+version: '1.0'
+updated: '2026-08-01'
 keywords: ['Bonehold combat guide', 'Bonehold advanced tactics', 'Bonehold dodge timing', 'Bonehold parry guide', 'Bonehold survival tips']
-updated: '2026-07-30'
+related: ['beginner-guide', 'weapons-guide', 'boss-guide', 'tips-and-tricks']
 ---
 
 # Bonehold Combat Guide — Advanced Tactics for Survival
 
-Charge timing and enemy knowledge will only take you so far in Bonehold. To survive past floor 5 and consistently reach the end boss, you need to master the game's deeper combat systems. This guide covers advanced tactics — dodge i-frames, parry windows, environmental traps, chokepoint abuse, and resource management through long dungeon runs.
+Charge timing and enemy knowledge will only take you so far in Bonehold. To survive deep runs and consistently reach the end of the dungeon, you need to master the game's combat systems. This guide covers the confirmed combat toolkit — dodging, blocking, parrying, traps, and chokepoints — and the tactics that turn those tools into survival.
 
-## Dodge Timing and Invincibility Frames
+**Honesty note:** launch reviews confirm the combat *framework* (charge attacks, dodge, block, parry, traps, chokepoints) but do not document exact numbers like invincibility-frame counts, stamina costs, or damage reductions. Where this guide gives advice rather than numbers, it is based on the confirmed framework. Treat specific numbers found in other guides as unverified.
 
-Bonehold's dodge roll grants roughly 12 invincibility frames (i-frames) depending on your class. The Knight and Barbarian get a standard 12-frame window (about 0.2 seconds at 60 FPS). Lighter classes and unlockable agility-focused classes may get 2-3 extra frames.
+## Dodge Timing — The Foundation
 
-**How to use i-frames effectively:**
+Bonehold's dodge roll is your most important defensive tool, and reviews confirm that well-timed dodges are one of the most rewarding mechanics in the game.
 
-- Dodge **into** attacks, not away from them. Rolling through a skeleton's swing uses your i-frames to cover the dangerous moment and puts you behind the enemy for a punish.
-- Learn attack wind-ups by sound. Every enemy has a distinct audio cue before swinging. The skeleton commander grunts before its overhead slam — dodge on the sound, not the visual.
-- Do not panic roll. Rolling too early wastes your i-frames and leaves you vulnerable during recovery. Wait until the attack animation passes the halfway point.
-- Vertical attacks (overhead slams, stomps) have longer active hitboxes — delay your dodge slightly compared to horizontal sweeps.
+**How to use dodges effectively:**
 
-**Pro tip:** The i-frame window starts on frame 1-2 of the roll animation, not when the roll visually begins. There is a subtle character crouch before the roll that is purely visual. Practice against floor 1 archers to internalize the timing.
+- **Dodge into attacks, not away from them.** Rolling through an enemy's swing puts you behind them for a punish instead of keeping you in their follow-up range. This is the single highest-leverage habit in the game.
+- **Learn wind-ups by animation and sound.** Every enemy has a tell before swinging. Dodging on the tell — not on the visual of the attack landing — is what separates comfortable clears from death spirals.
+- **Do not panic roll.** Rolling too early leaves you vulnerable while the enemy is still swinging. Wait until the attack is committed.
+- **Vertical attacks (overhead slams, stomps) have a longer effective hit window** than horizontal sweeps — delay your dodge slightly against them.
+
+*Exact invincibility-frame counts are unconfirmed. Assume the roll covers a short window around the start of the animation and practice against the first floor's enemies to internalize it.*
 
 ## Blocking vs Parrying — When to Use Which
 
-Bonehold has two defensive options available to most classes, and choosing the right one in each situation is critical.
+Bonehold has two defensive options available to most classes: blocking (hold a button, reduce damage) and parrying (time a block just before impact for a stagger). Both are confirmed by reviews, which describe parries and rolls as the game's most satisfying defensive tools.
 
 **Blocking:**
 
-- Reduces incoming damage by 50-80% depending on your shield or weapon block stat
-- Costs no stamina (unlike dodge)
-- Staggers you if the attack breaks your guard threshold
-- Best against fast, multi-hit combos (skeleton flurries, trap volleys)
+- Reduces incoming damage while held — great against fast, multi-hit combos where dodging everything is impractical.
+- Costs no movement commitment — you can block from a stationary position.
+- Gets you staggered or guard-broken if the attack is heavy or the assault is relentless. Blocking everything is not a strategy.
 
 **Parrying:**
 
-- Costs stamina (about 15-20% of your bar)
-- Completely negates damage and staggers the enemy for 2-3 seconds
-- Creates a guaranteed full-charge window
-- Only works on melee attacks — cannot parry projectiles or AoE
-- High risk — mistiming a parry means eating full damage
+- Negates the attack entirely and staggers the enemy, creating a guaranteed full-charge window.
+- The highest-value defensive exchange in the game — reviews describe landing parries as "glorious."
+- High risk: mistimed parries usually mean eating the full attack.
 
 **Decision chart:**
 
 | Situation | Use |
 |-----------|-----|
-| Enemy winding up a slow heavy attack | Parry — the timing is easy and the punish window is huge |
-| Three skeletons swinging at once | Block — you cannot parry multiple attacks, and blocking prevents stunlock |
-| Boss overhead slam | Parry (if confident) or dodge (safer) |
-| Arrow volley from archers | Dodge — projectiles cannot be parried |
-| You are below 30% HP | Dodge — a failed parry kills you |
-| Trap room with pressure plates | Block — traps are unpredictable and parry does not work on them |
+| Enemy winding up a slow, telegraphed heavy attack | Parry — the timing is readable and the punish is huge |
+| Three enemies swinging at once | Block or dodge — parry covers one attack, not three |
+| Boss big attack | Dodge (safe) or parry (if you know the timing) |
+| Projectiles coming in | Dodge — projectiles are generally not parryable |
+| You are low on health | Dodge — a failed parry kills you |
+| Unsure of an enemy's timing | Block once to learn the rhythm, then decide |
 
 ## Trap Manipulation
 
-Environmental traps appear on every floor after floor 2, and smart players use them against enemies. Traps include floor spikes, ceiling pendulums, poison vents, and explosive barrels.
+Traps are a confirmed part of Bonehold's design — reviews describe them as hazards that "make you think twice," and even reviewers admit to dying to them. The skill is making traps work for you.
 
-**Key trap manipulation techniques:**
+**Key trap techniques:**
 
-- Lure enemies onto pressure-plate spike traps by standing on the far side of the trap. The enemy pathfinds through the hazard while you stay clear.
-- Explosive barrels deal friendly fire damage. Kite a group of enemies next to a barrel, then hit it with a quick attack or fire spell. The explosion hits everything nearby.
-- Pendulum traps have fixed swing patterns. Stand just outside the arc, bait enemies into the path, and watch them get knocked down. A knocked-down enemy is a free full-charge target.
-- Poison vents activate on a timer (about 5 seconds active, 3 seconds cooldown). Learn room patterns — you can position yourself behind a vent and let enemies walk through the cloud to reach you.
+- **Lure enemies through hazards.** Enemy pathfinding generally does not avoid traps. Standing on the far side of a trap and letting the enemy walk through it is free damage.
+- **Use traps to create openings.** An enemy staggered or knocked down by a hazard is a free full-charge target.
+- **Remember trap locations.** Rooms in a run stay as you left them. If a trap nearly killed you on the way in, it will do the same to enemies — and to you again if you forget it.
+- **Never rush a trapped room.** The game's pacing is deliberately slow because traps and charge attacks demand patience. Sprinting through a trap corridor is how runs end.
 
-**Trap priority:** If a room has both explosive barrels and spike traps, save the barrels for emergency crowd control. Spikes are reusable; barrels are one-use.
+*Specific trap types (spike floors, pendulums, vents, barrels) are unconfirmed in detail — the confirmed fact is that traps exist, are deadly, and are worth using against enemies.*
 
 ## Chokepoint Baiting
 
-Procedurally generated rooms spawn enemies in set locations, but you control engagement timing. Chokepoint baiting is the single most effective survival tactic in Bonehold.
+Chokepoint baiting is the single most effective survival tactic in Bonehold, and it is **confirmed by reviews**: the recommended playstyle is "baiting enemies into chokepoints" in the fortress's cramped corridors.
 
 **How to bait chokepoints:**
 
 1. Enter a room and immediately backpedal to the doorway or corridor you came from.
 2. Enemies that aggroed will funnel through the narrow opening.
 3. Fight them one or two at a time as they pass through the chokepoint.
-4. Use a wide-sweep charge attack (level 2-3) when 3+ enemies cluster in the doorway.
+4. Use a wide-sweep charge attack when 3+ enemies cluster in the doorway.
 
-**Why it works:** Bonehold's enemy AI shares a common behavior — once aggroed, enemies path directly toward you and do not spread out to flank. A doorway restricts their pathfinding to a single file line, effectively neutralizing numerical disadvantage.
+**Why it works:** the fortress's narrow architecture funnels enemies into single file, neutralizing numerical advantage. This is the confirmed core of Bonehold's "spatial thinking over twitch skill" design — reviews praise this exact approach.
 
-**Caveat:** Some rooms have ranged enemies that will not chase through doors. If you see archers or casters, either rush them first or use line-of-sight breaks (pillars, corners) instead of doorways.
+**Caveat:** ranged enemies will not always chase through doors. If you see archers or casters holding back, break line of sight with pillars or corners, or rush them first.
 
 ## Spatial Awareness in Procedural Rooms
 
-Procedural generation means you cannot memorize room layouts, but you can recognize room templates and adapt quickly.
+Procedural generation means you cannot memorize layouts, but you can recognize room shapes and adapt quickly.
 
-**Room template categories:**
+**Room shape categories (general patterns, unconfirmed specifics):**
 
-- **Open halls** — Large rectangular rooms. Best for kiting and ranged combat. Watch for ambush enemies that drop from ceiling grates.
-- **Split chambers** — Columns, pillars, or wall segments divide the room. Use pillars to break line-of-sight with ranged enemies. Peek corners to pull single enemies.
-- **Bridge rooms** — Narrow pathways over pits or lava. Extremely dangerous — one knockback ends your run. Full-clear ranged enemies before crossing.
-- **Treasure vaults** — Small rooms with gold chests. Always trapped. Enter cautiously and check for pressure plates before looting.
-- **Shrine rooms** — Safe rooms with a healing fountain or blessing altar. No enemies spawn. Mark these in your mental map — they are the only guaranteed safe zones.
+- **Open halls** — Best for kiting and ranged play. Watch for ambushes from side passages.
+- **Columned chambers** — Use pillars to break line of sight with ranged enemies and to pull single enemies around corners.
+- **Narrow bridge-like passages** — Extremely dangerous; one knockback can end a run. Clear ranged threats before crossing.
+- **Treasure rooms** — Loot is usually guarded or trapped. Enter cautiously and expect a fight.
+- **Safe rooms** — Some rooms appear to be rest spaces (no enemies). If you find one, use it to recover before the next fight.
+
+The deeper you go, the more you should trust these patterns over raw reflexes.
 
 ## Crowd Control Strategies
 
-Once you face rooms with 5+ enemies (common after floor 3), crowd control becomes essential. Bonehold has no dedicated CC skills for most classes, so you rely on positioning, weapon effects, and timing.
+Once you face rooms with 5+ enemies, crowd control becomes essential. Since most classes have no dedicated CC skills, you rely on positioning, weapon effects, and timing.
 
 **Effective crowd control techniques:**
 
-- **Knockback sweeps:** Two-handed weapons and Barbarian rage attacks can stagger multiple enemies. Use level 2 charges to create space.
-- **Elemental slows:** Ice prefix weapons apply a chill effect that slows enemy movement by 30%. Kite chilled enemies while killing their faster companions.
-- **Single-target elimination:** Pop a damage scroll or use a full charge on the highest-threat enemy first (caster > archer > shielded melee > basic melee). Reducing enemy count is the best CC.
-- **Corner hugging:** Press into a corner so enemies approach from only one direction. This limits the attack angles you need to watch.
+- **Charge attacks with knockback or area effects** create space when a group closes in. Two-handed weapons and area effects are best for this.
+- **Elemental slow effects** (if you find a prefix that slows) let you kite chilled enemies while killing their faster companions.
+- **Single-target elimination** — kill the highest-threat enemy first (caster/archer > melee). Reducing enemy count is the best CC.
+- **Corner hugging** — press into a corner so enemies approach from only one direction, limiting the angles you must watch.
 
 ## Managing Multiple Enemy Types Simultaneously
 
-The most common cause of death past floor 3 is mixing enemy types — a shielded skeleton advancing slowly while archers fire from the back and a caster AoEs the ground. You must triage.
+The most common cause of death in mixed rooms is losing track of threat order. Triage:
 
-**Enemy priority system:**
-
-1. **Casters** — Highest threat. Their AoEs deal damage over time and cover large areas. Kill first, no exceptions.
-2. **Archers** — Second priority. Their arrows interrupt charge attacks and chip your health. Close distance or use a chokepoint to block line-of-sight.
-3. **Shielded melee** — Slow, tanky, but manageable. They raise their shield against frontal attacks. Dodge around them or use a spell to hit from behind.
-4. **Basic melee** — Lowest priority. Kite them while handling higher threats. Only engage when the room is under control.
+1. **Casters** — Highest threat. Their area effects cover large spaces and punish static play. Kill first.
+2. **Archers** — Second priority. Their arrows interrupt charge attacks and chip your health. Break line of sight or close distance.
+3. **Shielded melee** — Slow and tanky but manageable. Attack from angles a shield does not cover.
+4. **Basic melee** — Lowest priority. Kite them while handling higher threats.
 
 ## Healing and Resource Management
 
-In long runs spanning 6+ floors, health and stamina management determine whether you reach the end boss.
+In long runs, health and stamina management determine whether you reach the boss.
 
 **Health management rules:**
 
-- Do not use healing items above 70% HP. Save them for emergencies.
-- Shrines heal 40% of missing HP. If you are above 60%, skip the shrine and save it for after the next room.
-- Vampiric prefix weapons (heal on hit) sustain through mob-heavy floors. Swap to a damage prefix for boss fights.
-- If you have no healing items before a boss room, back out and farm the previous floor's optional rooms.
+- Do not spend healing items when you are comfortably healthy — save them for emergencies and boss fights.
+- Use natural recovery points (if the game offers any — safe rooms, drops) before resorting to consumables.
+- Sustainability items and effects (healing on hit or similar prefixes) shine on long floors; consider swapping them for damage options before boss fights.
+- If you are low on health before a boss door, consider clearing a safer earlier room for drops instead of entering a boss fight gimped.
 
 **Stamina management:**
 
-- Stamina regenerates faster when you stand still (about 2x speed). After clearing a room, stand still for 3-4 seconds before entering the next.
-- Never enter a boss fight below 70% stamina. A perfect boss phase can require 3-4 consecutive dodges.
-- Overcharge attacks (level 4+) drain 30-40% stamina. Reserve them for confirmed punish windows only.
+- Stamina is the resource behind dodges and charges. Never enter a boss fight low on stamina — you need it to escape the first punish combo.
+- Reserve heavy-charge attacks for confirmed safe windows. Overcommitting stamina to damage is how players die.
+- After clearing a room, stand still and let your stamina recover before opening the next door.
+
+*Exact stamina costs and regen rates are unconfirmed — the principle (stamina is survival) is not.*
 
 ## Combat Differences Between Early and Deep Floors
 
-The game changes fundamentally past floor 5. Early-floor tactics stop working.
+The game changes fundamentally as you descend. Early-floor tactics stop working.
 
-| Aspect | Floors 1-3 | Floors 4-7 | Floors 8+ |
-|--------|-----------|-----------|-----------|
-| Enemy count | 2-4 per room | 4-7 per room | 6-10 per room |
-| Attack speed | Slow, telegraphed | Moderate, mix-ups | Fast, chain combos |
-| Traps | None or basic | Moderate, mixed | Dense, overlapping |
-| Healing frequency | Generous | Scarce | Almost none |
-| Spacing needed | Generous | Tight | Critical |
-| Fail tolerance | High | Low | None |
+| Aspect | Early Floors | Deep Floors |
+|--------|-------------|-------------|
+| Enemy count | Small groups | Larger groups, mixed types |
+| Attack speed | Slow, telegraphed | Faster, chained combos |
+| Traps | Basic | Denser, overlapping |
+| Healing availability | Generous | Scarce |
+| Fail tolerance | High | None |
 
 **Deep-floor adjustments:**
 
-- Parrying becomes mandatory past floor 8. Blocking will stagger you from chain combos, leading to stunlock death.
-- Always keep a mobility scroll (blink, speed boost) for emergency repositioning.
-- Full-clearing every room becomes optional on deep floors. Skip rooms that look dangerous — the loot is rarely worth the death risk.
-- Memorize shrine locations. On deep floors, they are your only reliable healing source.
+- Parrying becomes more important — blocking gets you staggered by chain combos.
+- Keep a mobility option (dodge discipline, and mobility spells if you find them) for emergency repositioning.
+- Full-clearing every room becomes optional. Skip rooms that look dangerous — the loot is rarely worth the death risk.
+- The deeper you go with good gear, the more one mistake costs. Slow down and play the chokepoints.
 
 ---
 
-**Ready to take your combat further?** Check our [Spells Guide](/guides/spells-guide) to learn how spell scrolls complement combat, or the [Endgame Guide](/guides/endgame-guide) for deep-floor legendary farming strategies.
+**Ready to take your combat further?** Check our [Spells Guide](/guides/spells-guide) to learn how magic complements combat, or the [Boss Guide](/guides/boss-guide) for boss-specific strategy.

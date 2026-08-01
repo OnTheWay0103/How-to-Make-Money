@@ -1,92 +1,85 @@
 ---
-title: 'Mining Guide — Best Ores, Tools & Strategies in MineGeon: Renegades'
-description: 'Complete mining guide for MineGeon: Renegades. Best ores to mine, pickaxe upgrades, mining strategies by biome, and how to maximize resource yield per run.'
-keywords: ['minegeon mining guide', 'minegeon ores', 'minegeon best pickaxe', 'minegeon how to mine', 'minegeon resources', 'minegeon mining tips']
+title: 'Mining Guide — How Mining, Minerals & Deep Runs Work in MineGeon: Renegades'
+description: 'Complete mining guide for MineGeon: Renegades. How the mineral system works, why deeper runs pay more, extraction risk, and how to maximize what you bank per run.'
+keywords: ['minegeon renegades mining guide', 'minegeon renegades how to mine', 'minegeon ores', 'minegeon renegades how to get ores', 'minegeon renegades resources', 'minegeon mining tips']
 category: Mining
 version: '1.0'
-updated: '2026-07-20'
+updated: '2026-08-01'
 related:
   - beginner-guide
-  - crafting-guide
-  - base-building-guide
+  - extraction-guide
+  - resource-farming-guide
+  - progression-guide
 ---
 
 ## Mining Basics
 
-Mining is the core activity in MineGeon: Renegades — everything you build, craft, and upgrade comes from ores you extract. Mastering efficient mining is the difference between scraping by and thriving.
+Mining is the core activity in MineGeon: Renegades — everything you build, upgrade, and unlock flows from the minerals you extract from PAIMO. The game's whole identity is the loop of **descending to mine, and escaping with your haul**.
 
-## All Ore Types & Where to Find Them
+The developer's description is clear about the economics: PAIMO is filled with rare, valuable minerals; the deeper you go, the greater the rewards — and the risks. Minerals can be traded for permanent upgrades, but **if you die, the minerals you are carrying are lost for good**.
 
-| Ore | Rarity | Best Biomes | Used For | Base Value |
-|-----|--------|-------------|----------|------------|
-| **Coal** | Common | 1, 2, 3 | Fuel, basic crafting | Low |
-| **Copper** | Common | 1, 2 | Wiring, Engineer gadgets | Low |
-| **Iron** | Common | 1, 2, 3 | Basic tools, weapons, armor | Medium |
-| **Silver** | Uncommon | 2, 3, 4 | Mid-tier weapons, decorations | Medium |
-| **Gold** | Uncommon | 3, 4 | Advanced crafting, trading | High |
-| **Crystal** | Rare | 4, 5 | High-tier weapons, energy | Very High |
-| **Obsidian** | Rare | 3, 5 | Armor plating, Tank gear | Very High |
-| **Mythril** | Legendary | 5, 6 | Ultimate weapons and armor | Maximum |
-| **Diamond** | Legendary | 6 | Best-in-slot everything | Maximum |
-| **Core Fragment** | Boss Drop | Boss rooms | Ultimate upgrades | Priceless |
+## How the Mineral System Works
 
-## Pickaxe Tiers & Upgrades
+### Confirmed mechanics
 
-### Pickaxe Progression
-1. **Wooden Pickaxe** (Starter) — Slow, low durability. Replace ASAP.
-2. **Iron Pickaxe** — 2x speed, moderate durability. Your first upgrade target.
-3. **Silver Pickaxe** — 3x speed, good durability. Unlocks rare ore visibility.
-4. **Gold Pickaxe** — 4x speed, high durability. Highlights rare ores on minimap.
-5. **Crystal Pickaxe** — 5x speed, very high durability. Auto-collects within small radius.
-6. **Mythril Pickaxe** — 6x speed, maximum durability. Chance to double ore yield.
+- **Minerals are the run currency.** You mine them from deposits in the procedurally generated minegeons.
+- **Depth = value.** Deeper descents yield more valuable minerals. The risk curve mirrors the reward curve.
+- **Death = total loss of what you carry.** This single rule drives every decision in the game: when to push, when to retreat, when to call the run done.
+- **Minerals bank to permanent progression.** What you extract can be traded for permanent upgrades — to the ship, and to each Renegade's attributes.
+- **No bank, no carry-over of in-run loot.** The only thing that matters is what makes it back to the ship.
 
-### Which Pickaxe to Prioritize
-- **Early game:** Rush Iron Pickaxe (cheap, massive upgrade)
-- **Mid game:** Gold Pickaxe for rare ore detection
-- **Late game:** Mythril Pickaxe for doubled yields on legendary ores
+### Unconfirmed (honest note)
 
-## Mining Strategies by Biome
+Specific ore names, rarity tiers, node types, and mining tool tiers had not been published by early August 2026. Community wikis will fill this in as players document the game — until then, treat any "ore table" you see online as unverified.
 
-### Biomes 1-2: Stockpile Basics
-- Focus on Iron and Copper — you'll need hundreds of each
-- Don't ignore Coal — you need it for base furnace upgrades
-- Strategy: Mine everything, extract when inventory is 80% full
+## The Depth vs. Safety Decision
 
-### Biomes 3-4: Target Rare Ores
-- Start looking for Silver, Gold, and Crystal nodes
-- Use the minimap ore pings (unlocked with Gold Pickaxe)
-- Strategy: Skip common ores, prioritize rare nodes, extract when you have 3+ rare stacks
+Every run is a series of choices between two competing goals:
 
-### Biomes 5-6: Legendary Hunting
-- Obsidian and Mythril are your targets
-- These biomes are dangerous — don't get greedy
-- Strategy: Go in with a specific ore target, extract immediately after finding it
-- Bring your best combat gear — enemies hit hard here
+| Push deeper | Or extract early |
+|-------------|------------------|
+| Richer minerals | Bank what you have |
+| Better long-term upgrades | Zero risk of losing it |
+| New biomes, new gear | Steady, compounding progress |
+
+### When to push
+- You are playing safely and have full control of the current depth
+- You have the gear/gadgets to handle what the next depth throws at you
+- Your team (if co-op) is coordinated and communicating
+
+### When to extract
+- You have a meaningful haul and you are wounded or low on consumables
+- The run has already delivered its main prize (a rare mineral, a boss kill, a legendary weapon)
+- You have been greedy twice already — the third time is usually the death
+
+The golden rule of MineGeon: **a successful extraction with half the potential loot beats a death with all of it.**
 
 ## Mining Efficiency Tips
 
-### Maximize Yield Per Run
-1. **Always bring a spare pickaxe** — Running out of durability mid-run is devastating
-2. **Clear enemies near ore nodes first** — Mining leaves you vulnerable
-3. **Use the minimap** — Ore pings save time wandering
-4. **Prioritize by value** — A stack of Gold is worth more than 3 stacks of Iron
-5. **Know when to leave** — If you find a Diamond, extract immediately
+### Maximize What You Bank
+1. **Mine with an exit plan.** Check the room before committing to a node — enemies love to ambush busy miners.
+2. **Prioritize by value per risk.** A rich vein behind an elite enemy is only worth it if you can clear the enemy safely.
+3. **Clear the room first.** A safe room mines faster than a room you're fighting in.
+4. **Use chokepoints.** Mine from positions where enemies can only approach from one direction.
+5. **Know your escape.** Before you go deep, know which way leads back up — in a panic, hesitation is fatal.
 
 ### Mining in Co-op
-- Split up to cover more ground (stay within minimap range)
-- Tank clears enemies while Engineer mines
-- Share rare ore locations via ping system
-- One player with mythril pickaxe should mine the legendary nodes (double yield)
+- **Designate a miner and a bodyguard.** One Renegade mines while another covers — then swap.
+- **Call out rich veins.** The ping/voice callout on a rare mineral lets the team decide together whether it's worth the risk.
+- **Don't split so far you can't help each other.** The death penalty applies per-player; a teammate who dies loses their own haul.
 
-## Ore Storage & Management
+## Where the Minerals Go
 
-### Base Storage Tips
-- Upgrade storage capacity early — running out of space is frustrating
-- Organize by tier: basics (Iron/Copper/Coal), mid (Silver/Gold), rare (Crystal+)
-- Keep at least 50 of each basic ore for emergency crafting
-- Sell excess common ores — you don't need 500 Iron
+Extracted minerals feed three confirmed sinks:
 
-### What to Keep vs. Sell
-- **Always keep:** Crystal, Obsidian, Mythril, Diamond, Core Fragments
-- **Keep a stock:** Iron, Copper, Coal (50-100 each)
-- **Sell excess:** Anything over 200 of basics
+1. **Ship upgrades** — permanent upgrades for the spaceship (your hub between runs)
+2. **Renegade attribute upgrades** — permanent stat investment per class
+3. **Gadget/weapon/ultimate unlocks via leveling** — leveling during runs unlocks the gear that makes deeper runs possible
+
+Spending on these three first is the compounding path: each upgrade makes the next run safer, which funds the next upgrade. Cosmetic ship decorations (200+ items on the Galactic Express PC) are a fun fourth sink — but only after the functional upgrades.
+
+## Next Steps
+
+- [Extraction Guide](/guides/extraction-guide) — the risk/reward loop in depth
+- [Resource Farming Guide](/guides/resource-farming-guide) — efficient mineral runs
+- [Progression Guide](/guides/progression-guide) — how mining feeds the long game

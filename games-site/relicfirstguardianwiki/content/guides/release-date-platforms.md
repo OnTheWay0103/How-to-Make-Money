@@ -1,16 +1,16 @@
 ---
 title: "Release Date, Platforms & Editions — Everything You Need to Know"
-description: "The Relic: First Guardian release date, platforms, editions, price, and pre-order details. Launched July 31, 2026 on Steam and PS5 — Xbox and Switch 2 versions arriving later in 2026."
+description: "The Relic: First Guardian release date, platforms, price, and editions. Released July 31, 2026 on Steam and PS5 — Xbox Series X|S and Switch 2 versions arriving later in summer 2026."
 category: "Guides"
 version: "1.0"
-updated: "2026-07-31"
+updated: "2026-08-01"
 keywords: ["relic first guardian release date", "relic first guardian ps5", "relic first guardian steam", "relic first guardian price", "relic first guardian physical copy", "relic first guardian xbox", "relic first guardian pre order", "relic first guardian editions"]
-related: ["beginner-guide", "controls-settings-guide", "game-length-guide"]
+related: ["beginner-guide", "controls-settings-guide", "game-length-guide", "review-roundup"]
 ---
 
 # Release Date, Platforms & Editions — Everything You Need to Know
 
-**The Relic: First Guardian is out now.** The game launched on **July 31, 2026** for PC (Steam) and PlayStation 5, bringing the Korean dark-fantasy soulslike to players worldwide. This guide collects everything you need to know about platforms, editions, price, and where to buy — plus what is coming later this year.
+**The Relic: First Guardian is out now.** The game launched on **July 31, 2026** for PC (Steam) and PlayStation 5 — the Korean dark-fantasy soulslike from developer **Project Cloud Games** and publisher **Perp Games** is available to play. This guide collects everything confirmed about platforms, price, editions, and what is coming later in 2026.
 
 ---
 
@@ -18,75 +18,125 @@ related: ["beginner-guide", "controls-settings-guide", "game-length-guide"]
 
 | Platform | Release Date | Status |
 |----------|:------------:|--------|
-| PC (Steam) | July 31, 2026 | ✅ Launched |
-| PlayStation 5 | July 31, 2026 | ✅ Launched |
-| Xbox Series X|S | Late 2026 | 🔜 Announced |
-| Nintendo Switch 2 | Late 2026 | 🔜 Announced |
+| PC (Steam) | July 31, 2026 | ✅ Released |
+| PlayStation 5 | July 31, 2026 | ✅ Released |
+| Xbox Series X\|S | Later in summer 2026 | 🔜 Announced (date TBA) |
+| Nintendo Switch 2 | Later in summer 2026 | 🔜 Announced (date TBA) |
 
-The game is developed by **Project Cloud Games** (South Korea) and published by **Perp Games**. The simultaneous Steam/PS5 launch marks the series' debut; Xbox Series X|S and Nintendo Switch 2 versions are confirmed for later in 2026, with a specific date yet to be announced.
-
----
-
-## Price & Editions
-
-The base game is priced at **$39.99 / €39.99** across platforms — well below the usual $59.99-69.99 soulslike standard, and a strong value given 70+ bosses and 30-40 hours of main-story content ([Game Length guide](/guides/game-length-guide)).
-
-| Edition | Price | Contents |
-|---------|-------|----------|
-| **Standard** | $39.99 | Base game |
-| **Deluxe (digital)** | $49.99 | Base game + digital soundtrack + digital artbook + exclusive "Ashen Herald" armor skin |
-| **Collector's (physical)** | $89.99 | Deluxe content + steelbook case + art print set + 20 cm First Guardian figurine |
-
-**Physical copy**: Perp Games publishes physical editions for PS5 (Standard and Collector's). PC is digital-only via Steam. Physical stock varies heavily by region — check your local retailer for the Collector's edition, which is a limited run.
+**Developer**: Project Cloud Games (South Korea) — a small indie team (roughly 10-14 people).
+**Publisher**: Perp Games.
 
 ---
 
-## Pre-Order Bonuses
+## Price
 
-Pre-orders placed before July 31, 2026 received the **"Ember of Dawn" early rune** — a small stamina-recovery buff available from the opening hours. The rune is a convenience, not a power item: the same effect is outclassed by the in-game Fragment of Vigor within the first hour, so nothing was locked behind pre-ordering. Post-launch digital purchases do not include the bonus.
+The game is priced around **$49.99 / €49.99** (the PS5 listing is ~$49.99; **exact regional/PC pricing varies** and is not uniformly confirmed — check your local store page).
+
+There is **no confirmed free-to-play model** and no confirmed subscription offering. One promotional site briefly listed the game as temporarily free on Steam, but this conflicts with the standard paid release — verify directly on the Steam store before trusting any "free" claim.
 
 ---
 
-## Platform Performance
+## Editions & Pre-Order Content
+
+### Confirmed
+- **PS5 pre-order bonus**: the **"Night of the Unextinguished Flame"** pack — a **unique Relic**, **exclusive armor and weapons**, and a **new dungeon**. This is the one pre-order bonus confirmed in official material.
+
+### Unconfirmed
+- The existence and pricing of **Deluxe, Collector's, or physical editions** (steelbooks, figurines, artbooks) are **not confirmed** at launch. Guides listing specific editions and prices are speculative.
+
+**Physical copy**: Perp Games is a physical-publishing specialist, so physical availability for PS5 is plausible — but **specific SKUs, prices, and regional stock are unconfirmed**. Check your local retailer.
+
+---
+
+## Platform Performance (Confirmed Specs + Honest Launch-State Notes)
+
+### PC (Steam) — Official System Requirements
+
+**Minimum (1080p / low / 30 FPS):**
+- OS: Windows 10 64-bit
+- CPU: Intel Core i5-8400 / AMD Ryzen 5 2600
+- RAM: 12 GB
+- GPU: NVIDIA GTX 1060 (6 GB) / AMD RX 580 (8 GB)
+- Storage: 50 GB SSD (SSD required)
+- Supports DLSS / FSR 2
+
+**Recommended (1080p / high / 60 FPS):**
+- OS: Windows 11 64-bit
+- CPU: Intel Core i7-9700K / AMD Ryzen 7 3700X
+- RAM: 16 GB
+- GPU: NVIDIA RTX 2070 (8 GB) / AMD RX 5700 XT (8 GB)
+- Storage: 50 GB SSD (plus ~10 GB for updates)
 
 ### PlayStation 5
-- **Performance mode**: 60 FPS target at 1440p upscaled
-- **Quality mode**: 30 FPS with ray-traced lighting
-- Full DualSense support — adaptive triggers for attacks, haptic feedback for parries and boss roars, controller speaker for rune pickups ([Controls & Settings guide](/guides/controls-settings-guide))
+A native PS5 release. **Specific performance modes (resolution/60 FPS targets) are unconfirmed** — guides claiming "1440p/60 Performance mode" or "ray-traced Quality mode" are speculative.
 
-### PC (Steam)
-Recommended specs for 60 FPS at 1080p:
-- **GPU**: GTX 1660 Super or better
-- **CPU**: Intel i7-8700K / Ryzen 5 1600X or better
-- **RAM**: 16 GB
-- **Storage**: SSD strongly recommended — load times after death are the biggest quality-of-life factor
+### Launch-State Performance (Confirmed by Reviews)
+Reviews consistently report **technical issues across platforms**: framerate drops (as low as ~15 FPS in some fights per IGN), janky camera, lock-on problems, and bugs (bosses freezing or failing to spawn). Expect rough edges; check the [PC Performance guide](/guides/steam-pc-performance-guide) for mitigation.
 
 ---
 
-## Language & Region Notes
+## Languages
 
-As a Korean studio production, The Relic: First Guardian ships with **full Korean localization** — all voice, UI, and text — alongside English, Japanese, Chinese (Simplified/Traditional), French, German, Spanish, and Portuguese. Korean players can play in their native language from day one, and the Korean folklore-inspired questlines read best in Korean or English.
+Confirmed ship languages (per Steam listing): **English, French, German, Italian, Spanish, Korean** — with full audio support for several of them. Claims about Japanese, Chinese, or Portuguese localization are **unconfirmed**.
+
+---
+
+## Features at a Glance (Confirmed)
+
+| Feature | Status |
+|---------|--------|
+| Genre | Soulslike action RPG, Korean folklore-inspired dark fantasy |
+| Combat | Attacks cost zero stamina; stamina for defense; skills on cooldowns |
+| Progression | No levels — relics (70+ fragments), Relic Energy, unique gear |
+| Bosses | 70-80 "Brutals," most optional |
+| World | Semi-open, 6 connected regions |
+| Multiplayer | **None** — single-player only (see the [Co-Op guide](/guides/co-op-guide)) |
+| Difficulty options | **None confirmed** (see the [Difficulty Guide](/guides/difficulty-guide)) |
+
+---
+
+## Is It Worth Buying? (Review Summary)
+
+Reviews at launch are **sharply divided** — the game's combat and atmosphere earn praise, while its technical state earns condemnation:
+
+- **IGN: 4/10 ("Bad")** — "shoddy and broken throughout," though combat shows potential
+- **GamingBolt: "Good"** — atmospheric world and exploration
+- **Gamesurf: 7/10** — positive on the soulslike/RPG blend
+- **GameCritix**: positive — "an impressive debut"
+- **InvenGlobal**: "solid action RPG" — polarizing but fun
+- **Navigames: 44/100** — negative (exploration rewards, performance)
+
+**Consensus**: strong combat concept and world atmosphere; real technical problems (FPS, camera, bugs); grindy progression in places. Decide based on your tolerance for rough polish. Full breakdown: [Review Roundup](/guides/review-roundup).
 
 ---
 
 ## Where to Buy
 
 - [The Relic: First Guardian on Steam](https://store.steampowered.com/app/2827820/The_Relic_First_Guardian/)
-- [Project Cloud Games official site](https://www.projectcloudgames.com)
-- [Perp Games (publisher)](https://perpgames.com)
+- PlayStation Store (PS5)
+- Physical (PS5): check local retailers — SKUs unconfirmed
 
 ---
 
-## Is It Worth Buying?
+## Common Questions
 
-For soulslike veterans, the answer at launch is a confident yes:
+**Q: Is The Relic: First Guardian out?**
+A: **Yes** — released July 31, 2026 on Steam and PS5.
 
-- **70+ bosses** with distinct patterns — the largest pure-boss roster in the genre since Elden Ring
-- **$39.99 price point** — roughly half the cost of comparable titles
-- **No traditional levels** — build variety comes from 70+ runes and 5 weapon families, making the game deeper than its length suggests
-- **Co-op** at launch for the difficulty-averse ([Co-Op Guide](/guides/co-op-guide))
+**Q: When does the Xbox version come out?**
+A: Later in **summer 2026** — exact date TBA.
 
-The main caveat: the game does not have a difficulty slider, and the console versions' launch-day patch size is not yet confirmed. Check our [Difficulty Guide](/guides/difficulty-guide) if you are worried about the challenge.
+**Q: Is it on Nintendo Switch 2?**
+A: Announced for **later in summer 2026** — date TBA.
+
+**Q: How much does it cost?**
+A: Around **$49.99** (regional pricing varies).
+
+**Q: What was the pre-order bonus?**
+A: PS5 pre-orders included the **"Night of the Unextinguished Flame"** pack (unique Relic, exclusive armor/weapons, new dungeon).
+
+**Q: Does it have co-op?**
+A: **No** — single-player only.
 
 ---
 
@@ -94,5 +144,5 @@ The main caveat: the game does not have a difficulty slider, and the console ver
 
 - [Beginner Guide](/guides/beginner-guide) — Start your first playthrough right
 - [Controls & Settings Guide](/guides/controls-settings-guide) — PC/PS5 setup and performance tuning
-- [Game Length Guide](/guides/game-length-guide) — Hours of content and value assessment
-- [Difficulty Guide](/guides/difficulty-guide) — No easy mode? Here's what to do
+- [Game Length Guide](/guides/game-length-guide) — Honest content-volume expectations
+- [Review Roundup](/guides/review-roundup) — Critics on the launch build

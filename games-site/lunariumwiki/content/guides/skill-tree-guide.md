@@ -1,122 +1,118 @@
 ---
-title: "Lunarium Skill Tree Guide — All Skills & Best Upgrades"
-description: "Full skill tree breakdown for Lunarium. Complete list of Ave and Lune skills, best upgrade paths, priority rankings, and respec strategy."
+title: "Lunarium Skill Tree Guide — How Skills & Unlocks Work"
+description: "How skill trees work in Lunarium: Ave's sword techniques and Lune's suppressive magic, threads of hope, unlocking skills through combat and exploration, and honest advice on what is unconfirmed."
 category: "Progression"
 version: "1.0"
-updated: "2026-07-25"
-keywords: ["Lunarium skill tree", "Lunarium all skills", "Lunarium best upgrades", "Lunarium skill guide", "Lunarium respec"]
-related: ["ave-build-guide", "lune-guide", "beginner-guide", "combat-guide"]
+updated: "2026-08-01"
+keywords:
+  - Lunarium skill tree guide
+  - Lunarium how to unlock skills
+  - Lunarium threads of hope
+  - Lunarium skill tree
+  - Lunarium Ave skills
+related:
+  - ability-unlock-guide
+  - character-builds
+  - ave-build-guide
+  - lune-guide
+  - beginner-guide
 ---
 
-# Lunarium Skill Tree Guide — All Skills & Best Upgrades
+# Lunarium Skill Tree Guide — How Skills & Unlocks Work
 
-**Lunarium 1.0 / Updated: July 25, 2026**
+**Lunarium 1.0 / Updated: August 1, 2026**
 
-Both Ave and Lune have expansive skill trees that grow throughout the game. This guide catalogs every skill, recommends upgrade priorities, and explains how to respec.
-
----
-
-## 1. How Skill Trees Work
-
-- Skill Points are earned by **leveling up** and **finding Star Shrines** in the world
-- Each character has a **separate skill tree** with 3 branches
-- Skills can be **respecced** at any Temple save point (cost: Stardust, found throughout the world)
-- Maximum level: 50 per character
-
----
-
-## 2. Ave's Skill Tree
-
-### Branch 1: Sword Arts (Offense)
-| Skill | Effect | Levels | Priority |
-|-------|--------|--------|----------|
-| Heavy Slash | Charged heavy attack deals +15% dmg/level | 5 | ★★★ |
-| Flurry | Light attack chain speed +10%/level | 5 | ★★★★ |
-| Dance of Blades | 5-hit finisher deals bonus damage | 3 | ★★★★★ |
-| Execute | +30% damage to enemies below 20% HP | 3 | ★★★★ |
-| Blade Storm | Ultimate — spinning AoE for 4s (100 RP) | 1 | ★★★★★ |
-
-### Branch 2: Parry Arts (Defense)
-| Skill | Effect | Levels | Priority |
-|-------|--------|--------|----------|
-| Parry Mastery | Parry window +5%/level | 5 | ★★★★★ |
-| Riposte | Counter damage +20%/level | 5 | ★★★★★ |
-| Iron Guard | Partial parry damage reduction +10%/level | 3 | ★★★ |
-| Deflect | Reflect projectiles on parry | 1 | ★★★★ |
-| Perfect Counter | Perfect parries auto-riposte | 1 | ★★★★★ |
-
-### Branch 3: Resonance Arts (Hybrid)
-| Skill | Effect | Levels | Priority |
-|-------|--------|--------|----------|
-| Resonance Flow | RP generation +6%/level | 5 | ★★★★ |
-| Shared Strength | Lune damage +5%/level | 5 | ★★★ |
-| Bond of Stars | RP skill cost -2/level | 5 | ★★★★ |
-| United Front | Both characters take -3% damage/level | 5 | ★★★ |
-| Starfarer's Wrath | Ultimate — combined attack (100 RP) | 1 | ★★★★ |
+Lunarium has **two skill trees** — one for **Ave** (sword techniques) and one for **Lune** (suppressive magic). There are no classes, no branches named after archetypes, and no stat allocation. This guide explains what is confirmed about the skill system and what is not.
 
 ---
 
-## 3. Lune's Skill Tree
+## 1. The Confirmed Basics
 
-### Branch 1: Starfire (Offense)
-| Skill | Effect | Levels | Priority |
-|-------|--------|--------|----------|
-| Star Bolt II | Star Bolt damage +8%/level | 5 | ★★★ |
-| Starfall II | Starfall radius +6%/level | 5 | ★★★ |
-| Nova Burst II | Nova applies burn (2% HP/s for 3s) | 3 | ★★★★ |
-| Cosmic Rain | Ultimate — channeled star rain (100 RP) | 1 | ★★★★ |
-| Astral Fury | +15% spell crit chance | 3 | ★★★★★ |
+| Question | Confirmed Answer |
+|----------|------------------|
+| How many skill trees? | Two — one per character |
+| What does Ave's tree contain? | More powerful **sword techniques** (Steam page) |
+| What does Lune's tree contain? | **Suppressive magic** (Steam page) |
+| How do skills unlock? | The trees **develop through combat and exploration** (Steam page) |
+| What resource powers them? | **"Threads of hope"** collected throughout the journey are used to boost strength and learn new skills and magic (Steam page) |
+| Is there a level system? | No level/stat system is documented — growth is driven by play, not XP bars |
 
-### Branch 2: Moonlight (Support)
-| Skill | Effect | Levels | Priority |
-|-------|--------|--------|----------|
-| Lunar Veil II | Shield strength +10%/level | 5 | ★★★★ |
-| Healing Light | Targeted heal for 5%/level HP | 5 | ★★★★★ |
-| Purify | Remove debuffs (cooldown -2s/level) | 3 | ★★★★ |
-| Moon's Embrace | Ultimate — full heal + 3s invuln (100 RP) | 1 | ★★★★★ |
-| Starlight's Grace | All healing +5%/level | 5 | ★★★★ |
-
-### Branch 3: Constellation (Utility)
-| Skill | Effect | Levels | Priority |
-|-------|--------|--------|----------|
-| Celestial Bind II | Root duration +0.5s/level | 5 | ★★★ |
-| Gravity Well | Pull strength +10%/level | 3 | ★★★★ |
-| Starlight Shroud | Blind duration +0.5s/level | 3 | ★★★ |
-| Event Horizon | Ultimate — black hole pull + slow (100 RP) | 1 | ★★★★ |
-| Cosmic Ward | Lune AoE damage reduction +6%/level | 5 | ★★★ |
+### What "develop through combat and exploration" means in practice
+Community walkthroughs confirm you gain skills and items from both fighting (boss drops like the Blade of Rutila, Stellar Cores) and exploring (embroidery blueprints, Astral Shards). The practical takeaway: **play the game thoroughly and the trees fill themselves** — there is no "missed skill" trap documented so far.
 
 ---
 
-## 4. Best Early Game Upgrades (Levels 1-15)
+## 2. Confirmed Skill-Type Unlocks (Not Tree Nodes)
 
-| Order | Character | Skill | Reason |
-|-------|-----------|-------|--------|
-| 1 | Ave | Parry Mastery (Lv 3) | Bigger parry window = easier everything |
-| 2 | Lune | Healing Light (Lv 1) | Unlocks targeted healing |
-| 3 | Ave | Riposte (Lv 3) | Counter-attacks carry early game |
-| 4 | Lune | Lunar Veil II (Lv 2) | Stronger shields for boss fights |
-| 5 | Ave | Resonance Flow (Lv 2) | More RP = more Resonance skills |
+Several powerful "skills" are actually earned through story progression, not the tree:
+
+| Skill/Unlock | How You Get It | Confirmed? |
+|--------------|----------------|------------|
+| **Lune's light arrow** | Joins in Firleaves | Yes |
+| **Blade of Rutila** | Finish off Lilia after defeating her in Cyanstone — becomes a permanent interrupt skill | Yes |
+| **Dreampath butterfly** | Free Doro in the Dreampath — permanent protection from the dream world | Yes |
+| **Wayfarer's Cloak** | Received in Starfall Village | Yes |
 
 ---
 
-## 5. Respec Strategy
+## 3. What Is Unconfirmed (Be Skeptical)
 
-You can respec at any Temple save point using **Stardust**:
+- **Exact skill names** — no reliable source has published Ave's or Lune's full skill lists. Any guide listing "Parry Mastery +25%" or "Star Bolt II" is inventing specifics.
+- **Tree structure** — branches, tiers, prerequisites: undocumented.
+- **Respec** — no confirmed respec feature.
+- **"Animus"** — a harvested search keyword ("lunarium how to get animus") suggests an in-game resource/unlock, but no source confirms what it is. See the [Ability Unlock Guide](/guides/ability-unlock-guide).
 
-| Respec # | Cost | When to Use |
-|----------|------|------------|
-| 1st | Free | Try different builds early |
-| 2nd | 50 Stardust | Before a difficult boss |
-| 3rd | 150 Stardust | Mid-game build optimization |
-| 4th+ | 300 Stardust | Late-game min-maxing |
+> **Our policy:** we will not invent skill names. When verified lists appear, we'll update this page.
 
-**Tip:** Your first respec is free. Use it to try all three Ave builds (Parry Specialist, Blade Dancer, Resonance Knight) before committing.
+---
+
+## 4. Practical Skill Priority (Based on Confirmed Mechanics)
+
+Since exact nodes are unverified, here is priority advice built on confirmed combat systems:
+
+| Priority | Focus | Why |
+|----------|-------|-----|
+| 1 | **Parry-related skills** (Ave) | Parrying staggers and is the core defense — improving it helps every fight |
+| 2 | **Lune arrow/interrupt effectiveness** | Nihilus orbs and boss interrupts are mandatory mechanics from Firleaves onward |
+| 3 | **Stagger building** | Bosses like the Hauler Colossus and Elmo are won by stagger, not damage |
+| 4 | **Resonance / coordinated output** | The shared gauge and Astral Shard cap rewards resonance-focused picks |
+| 5 | **Mobility/dodge quality** | Red-flash attacks are dodge-only; mobility also answers the game's short dodge distance (a common launch complaint) |
+
+---
+
+## 5. How to Grow Skills Efficiently
+
+1. **Explore everything** — combat and exploration both feed the trees; hidden paths (core-blocked routes, locked gates) often contain resources.
+2. **Fight optional bosses** — the optional Rearguard Warrior in Cyanstone is a confirmed fight worth doing for practice and (likely) materials.
+3. **Collect the confirmed progression items:**
+   - **Astral Shards** (Cyanstone) — raise the resonance cap
+   - **Embroidery blueprints** (first one: chest near Cyanstone's first bench)
+   - **Echoes of Yore** (Shadow of Firleaves drop)
+   - **Stellar Cores** (Lilia, Doro)
+4. **Rest at benches and the Sanctuary** — story progression (and skill-related unlocks) trigger at rest points.
+
+---
+
+## 6. Answers to Common Questions
+
+### How do I unlock skills?
+Keep playing: skills develop through combat and exploration, and you collect **threads of hope** along the way to spend on new skills and magic. There is no documented "skill point shop" or NPC to visit — it's a natural progression system.
+
+### Can I respec my skill tree?
+**Unconfirmed.** No reliable source documents a respec feature as of this writing. If you must hedge, prioritize the confirmed mechanics above.
+
+### Is there a max level?
+No level system is documented. "Max level 50" claims in older guides are fabricated.
+
+### Does the tree change my ending?
+The **two endings** exist (press-confirmed), but no reliable source documents ending requirements. Claims that specific skill trees gate endings are unverified. See the [Endings Guide](/guides/endings-guide).
 
 ---
 
 ## Related Guides
 
-- [Ave Build Guide](/guides/ave-build-guide)
-- [Lune Guide — Starfarer Abilities](/guides/lune-guide)
-- [Equipment Guide — Weapons, Armor & Charms](/guides/equipment-guide)
-- [Beginner Guide](/guides/beginner-guide)
+- [Ability Unlock Guide](/guides/ability-unlock-guide) — how unlocks and resources actually work
+- [Character Builds Guide](/guides/character-builds) — builds with no classes
+- [Ave Build Guide](/guides/ave-build-guide) — Ave's build directions
+- [Lune Guide](/guides/lune-guide) — Lune's confirmed abilities
+- [Beginner Guide](/guides/beginner-guide) — first-hour skill priorities

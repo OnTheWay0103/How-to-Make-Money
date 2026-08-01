@@ -6,45 +6,45 @@ import GuideCard from '@/components/GuideCard';
 const FEATURED_GUIDES = [
   {
     title: 'Beginner Guide — Getting Started',
-    description: "New to Vahrin's Call? Master the classless progression system, early game priorities, attributes, and essential tips for your first 5 hours.",
+    description: "New to Vahrin's Call? The classless progression system, first-hour priorities, combat expectations, and what is — and isn't — confirmed about the game.",
     slug: 'beginner-guide',
     category: 'Beginner',
-    updated: '2026-07-27',
+    updated: '2026-08-01',
   },
   {
-    title: 'Best Builds Guide — Top 5 Character Builds',
-    description: 'Complete breakdown of the best builds: Spellshield Vanguard, Tactical Shadowstalker, Whirlwind Alchemist, Archer Mage, and Magic-Alchemy Hybrid.',
+    title: 'Best Builds Guide — Confirmed Directions',
+    description: 'Build advice grounded in confirmed systems: developer-endorsed archetypes and practical combinations of weapons, magic, traps, and alchemy.',
     slug: 'best-builds-guide',
     category: 'Builds',
-    updated: '2026-07-27',
+    updated: '2026-08-01',
   },
   {
     title: 'Attributes & Stats Guide',
-    description: 'How Strength, Agility, Intelligence, Constitution, and Focus work. Priority allocation, soft caps, and how to respec for free.',
+    description: 'What is confirmed about stats and progression: the use-based skill system, Spell Mastery, stamina, and which attribute claims are unverified.',
     slug: 'attributes-stats-guide',
     category: 'Mechanics',
-    updated: '2026-07-27',
+    updated: '2026-08-01',
   },
   {
-    title: 'All Weapons Guide — Types & Best Picks',
-    description: 'Greatswords, sword & shield, dual wielding, hammers, bows, and magic — every weapon type ranked with best-in-slot recommendations.',
+    title: 'All Weapons Guide — Confirmed Types',
+    description: 'Confirmed weapon styles — melee, bows, magic, traps, thrown potions — and how the use-based skill system progresses them.',
     slug: 'weapons-guide',
     category: 'Gear',
-    updated: '2026-07-27',
+    updated: '2026-08-01',
   },
   {
     title: 'Magic & Spells Complete Guide',
-    description: 'Fire, Ice, Earth, and Alteration magic explained. Every spell, damage scaling, crowd control tiers, and mana management tips.',
+    description: 'How spells are learned and upgraded: Spell Mastery, Skill Books, and customisation of damage, range, and casting speed.',
     slug: 'magic-spells-guide',
     category: 'Magic',
-    updated: '2026-07-27',
+    updated: '2026-08-01',
   },
   {
     title: 'Alchemy & Crafting Guide',
-    description: 'All alchemy recipes, potion effects, rare crafting materials, farming routes, and how to maximize alchemy for combat.',
+    description: 'The confirmed crafting systems: throwing potions at enemies, trap deployment while moving, and the alchemy skill path.',
     slug: 'alchemy-crafting-guide',
     category: 'Crafting',
-    updated: '2026-07-27',
+    updated: '2026-08-01',
   },
 ];
 
@@ -55,7 +55,7 @@ const FAQ_ITEMS = [
   },
   {
     question: "Is Vahrin's Call free to play?",
-    answer: "No. Vahrin's Call is a paid title priced at $34.99 USD on Steam, with a 10% launch discount available until August 3, 2026.",
+    answer: "No. Vahrin's Call is a paid title priced at $34.99 USD on Steam, with a 10% launch discount through early August 2026.",
   },
   {
     question: "Does Vahrin's Call have multiplayer or co-op?",
@@ -63,15 +63,15 @@ const FAQ_ITEMS = [
   },
   {
     question: "How does the classless system work?",
-    answer: "There are no preset classes. Your skills improve through use — swing a greatsword to get better with greatswords, cast fire magic to improve fire magic. Character Points improve base attributes, while Perk Points unlock passive bonuses and active abilities. You can respec for free at Mentor NPCs in settlements.",
+    answer: "There are no preset classes. Skills improve through use — practice a weapon or school of magic and it grows, Elder Scrolls-style. Skill Books scattered across the world are needed for full upgrades, and spells upgrade via the 'Spell Mastery' system. You can switch playstyles at any point, per the official FAQ.",
   },
   {
     question: "What are the best builds for beginners?",
-    answer: "The Spellshield Vanguard (Strength + Constitution) is the most forgiving for new players due to high survivability. The Archer Mage hybrid (Finesse + Intelligence) offers consistent performance from start to finish. Avoid spreading points too thin — specialization is key.",
+    answer: "There is no official tier list — any ranking online is invented. The developers' own examples point to hybrids: 'a nimble-footed archer flinging fireballs between arrows' and 'an axe-wielding whirlwind of death.' Since skills grow through use and nothing is permanent, pick a primary style you enjoy, add one secondary system, and commit. See the Best Builds Guide for details.",
   },
   {
     question: "How long is Vahrin's Call?",
-    answer: "The main story takes approximately 25-35 hours to complete. Completionist runs with all side quests, hidden bosses, and collectibles can extend to 50+ hours.",
+    answer: "The official FAQ says an average playthrough is 15-30 hours. Launch aggregate data shows about 22 hours average playtime, with roughly 20% of players exceeding 35 hours through side content.",
   },
 ];
 

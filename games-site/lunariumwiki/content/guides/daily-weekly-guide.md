@@ -1,164 +1,104 @@
 ---
-title: "Lunarium Daily & Weekly Guide — Routine Content and Rewards"
-description: "Optimize your daily and weekly routine in Lunarium. Complete daily quest guide, weekly boss rotation, reset schedules, reward tracking, and time-efficient activity planning for maximum progression."
+title: "Lunarium Progression Guide — No Dailies, No Weekly Resets (Honest Answer)"
+description: "Does Lunarium have daily quests, weekly bosses, or reset schedules? No — Lunarium is a single-player ARPG with no live-service systems. How progression actually works instead."
 category: "Progression"
 version: "1.0"
-updated: "2026-07-27"
-keywords: ["Lunarium daily guide", "Lunarium weekly guide", "Lunarium daily quests", "Lunarium weekly boss", "Lunarium reset schedule"]
-related: ["skill-tree-guide", "equipment-guide", "beginner-guide", "combat-guide", "boss-guide"]
+updated: "2026-08-01"
+keywords:
+  - Lunarium daily guide
+  - Lunarium weekly guide
+  - Lunarium daily quests
+  - Lunarium reset schedule
+  - Lunarium progression
+related:
+  - beginner-guide
+  - endgame-content
+  - gear-enhancement
+  - exploration-guide
 ---
 
-# Lunarium Daily & Weekly Guide — Routine Content and Rewards
+# Lunarium Progression Guide — No Dailies, No Weekly Resets
 
-**Lunarium 1.0 / Updated: July 27, 2026**
+**Short answer: Lunarium has no daily quests, no weekly bosses, no reset schedules, no server-time events, and no FOMO systems.** It is a single-player action RPG — progression is driven by *your* play, not by a calendar.
 
-Consistent daily and weekly activities are the backbone of progression in Lunarium. This guide breaks down every recurring activity, its rewards, reset timers, and the most time-efficient order to complete them.
-
----
-
-## 1. Reset Schedule
-
-| Activity | Reset Time (Server) | Reset Frequency |
-|----------|--------------------|-----------------|
-| Daily Quests | 04:00 UTC | Every 24 hours |
-| Weekly Bounties | Monday 04:00 UTC | Every 7 days |
-| Weekly Boss | Monday 04:00 UTC | Every 7 days |
-| Shop Refresh | 04:00 UTC | Every 24 hours |
-| Arena Season Rewards | Season end | Every 8 weeks |
-| Festival Events | Event-specific | Seasonal |
+This page replaces an earlier (incorrect) "Daily & Weekly Guide" on this site that described daily quest boards, weekly bounty rotations, and arena seasons — none of which exist in Lunarium. We published that before launch details were verified, and it was wrong. Here is the corrected version.
 
 ---
 
-## 2. Daily Activities
+## 1. The Facts (Confirmed)
 
-### Daily Quests
+| Claim in some guides | Reality |
+|----------------------|---------|
+| "Daily quests from a Quest Board" | **Does not exist** |
+| "Weekly boss rotation" | **Does not exist** |
+| "Weekly bounties" | **Does not exist** |
+| "Arena seasons / ranked rewards" | **Does not exist** (no PvP at all) |
+| "Daily shop refresh" | **Does not exist** |
+| "Reset at 04:00 UTC" | **Does not exist** |
 
-Each day, 3 daily quests become available from the Quest Board in any town.
-
-| Quest Type | Objective | Gold Reward | Material Reward | Time to Complete |
-|------------|-----------|-------------|-----------------|------------------|
-| **Hunt** | Kill 20 enemies in a specific zone | 1,000 | 5 random ore | 10-15 minutes |
-| **Gather** | Collect 15 of a specific resource | 800 | 3 random essence | 5-10 minutes |
-| **Dungeon** | Complete a specific dungeon | 2,000 | 1 upgrade material | 15-25 minutes |
-| **Exploration** | Discover 3 marked locations | 1,200 | Map fragment | 8-12 minutes |
-| **Boss** | Defeat a specific boss | 3,000 | 1 Guarantee Scroll fragment | 10-20 minutes |
-
-**Tip:** Stack quests in the same zone. If you have a Hunt quest and an Exploration quest in the same area, complete them together.
-
-### Optimal Daily Route (45 minutes)
-
-| Step | Activity | Time |
-|------|----------|------|
-| 1 | Check Quest Board — accept all 3 dailies | 2 min |
-| 2 | Complete the fastest quest first (Gather or Exploration) | 10 min |
-| 3 | Complete Hunt quest (choose zone overlapping with next step) | 12 min |
-| 4 | Complete Dungeon or Boss quest | 18 min |
-| 5 | Turn in all quests, check shop for limited items | 3 min |
-
-### Daily Shop Check
-
-The rotating shop inventory reset includes:
-
-| Item | Stock | Cost | Buy Priority |
-|------|-------|------|--------------|
-| **Stabilizer Powder** | 3 per day | 2,000 Gold | Always buy |
-| **Iron Ore (x10)** | 5 per day | 500 Gold | Buy if farming |
-| **Random Essence** | 2 per day | 1,500 Gold | Buy if missing that type |
-| **Health Potion (x5)** | 3 per day | 300 Gold | Buy for boss fights |
-| **Map Fragment** | 1 per day | 800 Gold | Buy for exploration quests |
+Lunarium is an offline-capable single-player game. There are no server resets because there is no server-side progression — your save is yours.
 
 ---
 
-## 3. Weekly Activities
+## 2. How Progression Actually Works
 
-### Weekly Bounties
+Lunarium's progression loop is:
 
-| Bounty | Objective | Reward | Difficulty |
-|--------|-----------|--------|------------|
-| **Zone Clear** | Kill 100 enemies in any single zone | 10,000 Gold, 10 random ore | Easy |
-| **Boss Rush** | Defeat 5 different bosses | 15,000 Gold, 1 Guarantee Scroll | Medium |
-| **Full Dungeon Run** | Complete all 3 main dungeons | 20,000 Gold, 3 Mythril | Hard |
-| **Arena Champion** | Win 10 PvP matches | 12,000 Gold, exclusive weapon paint | Medium |
-| **Collector** | Gather 100 of a single resource | 8,000 Gold, 5 essence | Easy |
-| **Perfectionist** | Complete any boss without taking damage | 25,000 Gold, 1 Void Crystal | Very Hard |
+```
+Explore a region (Firleaves → Cyanstone → White Reef Isles → Paradise)
+        ↓
+Fight bosses (18 confirmed, most mandatory)
+        ↓
+Gather resources (threads of hope, blueprints, Astral Shards, key items)
+        ↓
+Return to the Sanctuary hub (Starfall Village)
+        ↓
+Craft & upgrade (bench, Fungal Mortar, Loom) + upgrade at the Temple
+        ↓
+Rest at benches → story events, next region
+```
 
-**Weekly Bounty Priority:**
-1. Zone Clear — fast, easy, good gold.
-2. Collector — do this while completing Zone Clear.
-3. Boss Rush — requires multiple zones but rewards a Guarantee Scroll.
-4. Full Dungeon Run — best gold, do this if you have 60+ minutes.
-5. Arena Champion — only if you enjoy PvP. Not mandatory.
-6. Perfectionist — end-game challenge. Skip if you are still gearing up.
-
-### Weekly Boss Rotation
-
-| Week | Active Boss | Location | Notable Drops |
-|------|-------------|----------|---------------|
-| Week 1 | Forest Warden | Forest Walkthrough | Wind Essence, Guarantee Scroll fragment |
-| Week 2 | Castle Sentry | Castle Walkthrough | Arcane Essence, Silver Ore bundle |
-| Week 3 | Archipelago Leviathan | Archipelago | Blood Essence, Gold Ore bundle |
-| Week 4 | Heavenly Guardian | Heavenly Summit | Light Essence, Mythril |
-| Week 5 | All Previous | Rotating | Mixed rewards |
-| Week 6 | Shadow Council (secret) | Sunken Catacombs | Void Crystal, Legendary gem |
-
-Each weekly boss can be defeated once per week for full rewards. After the first kill, repeat kills grant reduced rewards (50% gold, no unique drops).
-
-### Weekly Boss Preparation Checklist
-
-- [ ] Stock up on 10+ Health Potions
-- [ ] Repair all gear to full durability
-- [ ] Bring the elemental weakness for this week's boss (see Boss Guide)
-- [ ] Party up if possible — solo is viable but slower
-- [ ] Clear inventory — you want space for boss drops
+Everything progresses at **your pace**. There is nothing you can "miss" by not playing on a schedule.
 
 ---
 
-## 4. Activity Time Efficiency
+## 3. What You CAN Do Repeatedly (The Real "Routine")
 
-| Activity | Gold per Hour | Progression Value | Fun Factor |
-|----------|---------------|-------------------|------------|
-| **Weekly Boss** | 25,000 | Critical (unique drops) | High |
-| **Full Dungeon Run** | 20,000 | High (Mythril) | High |
-| **Daily Quests** | 8,000 | Medium (essences) | Medium |
-| **Boss Rush** | 18,000 | High (Guarantee Scroll) | Medium |
-| **Farming (ores)** | 5,000 | Low (time better spent on dailies) | Low |
-| **Arena** | Variable | Low (unless pushing rank) | High |
-
-### Best Time Investment (Under 1 Hour)
-
-1. Weekly Boss (20 min) — best time-to-reward ratio.
-2. Daily Quests (30 min) — consistent progression.
-3. Skip weekly bounties until the weekend.
+| Activity | Purpose |
+|----------|---------|
+| Revisit regions | Collect missed blueprints/Astral Shards; optional fights (e.g., Rearguard Warrior) |
+| Re-fight bosses | Only via resuming after the ending / replaying — no boss-rush mode documented |
+| Farming resources | Enemies respawn when you rest at benches (standard Souls-like behavior — confirmed pattern in walkthroughs, exact respawn rules unconfirmed) |
+| Craft at the hub | Spend gathered resources between regions |
+| Post-credits cleanup | After the ending, resume from the last bench to finish optional content |
 
 ---
 
-## 5. Reward Tracking
+## 4. Frequently Searched "Routine" Questions
 
-### Weekly Resource Caps
+### "Is there an optimal daily route in Lunarium?"
+No. There are no daily activities. The only optimization is the obvious one: explore thoroughly, fight the optional boss, collect everything, and return to the hub when your resources are full.
 
-| Resource | Weekly Cap (earned) | Weekly Cap (purchased) |
-|----------|--------------------|----------------------|
-| **Guarantee Scrolls** | 3 (from bounties) | 2 (from vendor) |
-| **Mythril** | 15 (from dungeons) | 5 (from shop) |
-| **Void Crystals** | 2 (from weekly boss) | 1 (from shop, rare) |
-| **Essences (single type)** | 30 (from farming) | 10 (from daily shop) |
+### "Will Lunarium get live-service updates?"
+No live-service features (season passes, battle passes, daily login rewards) have been announced. The developer's model is a complete single-player game. Balance/content patches are possible, but don't expect a daily grind.
 
-### Milestone Rewards
+### "How long does a playthrough take?"
+Reviews report roughly **12 hours** for a first playthrough (Miami Herald / Gematsu coverage of the launch era), with full completion closer to **20 hours** (community estimates — unconfirmed). There's no weekly time commitment because there are no weekly activities.
 
-Completing all weekly activities for 4 consecutive weeks grants:
+---
 
-| Milestone | Reward |
-|-----------|--------|
-| 4-week streak | 1 Legendary gem (random type) |
-| 8-week streak | Exclusive "Veteran" title |
-| 12-week streak | Luminary Cloak (best-in-slot) |
+## 5. What to Do With "Free Time" in Lunarium
+
+- **Hunt the confirmed collectibles:** embroidery blueprints (first: Cyanstone's first-bench chest), Astral Shards, Echoes of Yore, Stellar Cores.
+- **Practice the hard fights:** Lilia, Ryuu, and Enid reward mastery far more than grinding.
+- **Try a different build direction:** embroidery/cloak swaps change playstyle dramatically (see [Character Builds](/guides/character-builds)).
+- **100% the regions:** no official completion checklist exists, but the four-region structure is compact enough to clear fully.
 
 ---
 
 ## Related Guides
 
-- [Skill Tree Guide](/guides/skill-tree-guide) — Spend your weekly essence rewards
-- [Equipment Guide](/guides/equipment-guide) — Gear to target with weekly boss drops
-- [Beginner Guide](/guides/beginner-guide) — Start your daily routine fresh
-- [Combat Guide](/guides/combat-guide) — Combat tips for weekly boss encounters
-- [Boss Guide](/guides/boss-guide) — All boss strategies and attack patterns
+- [Beginner Guide](/guides/beginner-guide) — how the loop starts
+- [Endgame Content Guide](/guides/endgame-content) — what's real after the credits
+- [Gear Enhancement Guide](/guides/gear-enhancement) — the hub upgrade loop
+- [Exploration Guide](/guides/exploration-guide) — where to spend your time

@@ -1,71 +1,79 @@
 ---
-title: "Vahrin's Call Endgame Content Guide — Post-Story Dungeons & Farming"
-description: "Complete endgame content guide for Vahrin's Call. Post-story dungeons, endgame gear enhancement, magic and alchemy combos, attribute respec strategy, resource farming routes, and the endgame boss."
+title: "Vahrin's Call Endgame Content Guide — What's Confirmed After the Story"
+description: "What is confirmed about endgame content in Vahrin's Call: game length, post-story exploration, announced free DLC, and an honest note that no endgame dungeons or new-game-plus have been officially documented."
 category: "Guides"
 version: "1.0"
-updated: "2026-07-31"
-keywords: ["Vahrin's Call endgame", "Vahrin's Call post-story", "Vahrin's Call endgame dungeons", "Vahrin's Call gear enhancement endgame", "Vahrin's Call farming routes", "Vahrin's Call endgame boss"]
-related: ["best-builds-guide", "gear-enhancement", "attributes-stats-guide", "magic-guide", "farming-resource-guide"]
+updated: "2026-08-01"
+keywords: ["Vahrin's Call endgame", "Vahrin's Call post-story", "Vahrin's Call content after story", "Vahrin's Call free DLC", "Vahrin's Call how long"]
+related: ["boss-guide", "quest-walkthrough", "farming-resource-guide", "gear-enhancement"]
 ---
 
-## Endgame Content Guide — Post-Story Dungeons & Farming
+# Endgame Content Guide — What's Confirmed After the Story
 
-After the final story quest, Vahrin's Call opens endgame dungeons, the enhancement grind, and the ultimate boss fight. This guide covers the post-story progression: which dungeons to run, how to push enhancement safely, and how to respec your attributes for endgame content.
+**Correction first**: earlier versions of this guide described "Ascendant Dungeons," a superboss called "The Herald," "Nightmare Portals," and enhancement tiers unlocked by story completion. **None of that is confirmed.** No official endgame content list exists. Here is what is actually confirmed about playing Vahrin's Call after the main story — and what the developers have said is coming.
 
-### Post-Story Unlocks
+## How Long Is the Game?
 
-| Unlock | Requirement | Content |
-|--------|-------------|---------|
-| Ascendant Dungeons | Finish the main quest | 3 new dungeons with elite modifiers |
-| Enhancement Tier 7+ | Story completion | Final gear enhancement tiers |
-| Attribute Respec | Free at endgame NPC | Rebuild attributes for endgame |
-| The Herald | Collect 5 Herald Shards | Optional superboss |
-| Nightmare Portals | Level cap + 3 Ascendant clears | Rotating challenge portals |
+- **15–30 hours** for an average playthrough (official FAQ).
+- Launch aggregate data (PlayPile) shows an average playtime of ~**22 hours**, with about **20% of players exceeding 35 hours** — those players are doing side content.
+- Completion rate sits near **45%** — under half of players finish the main story.
 
-### Ascendant Dungeons
+So the post-story experience matters to a committed minority, and side content is where the extra hours live.
 
-1. **Ascendant Crypt:** Undead elites with revive mechanics. Bring anti-revive skills or kill orders.
-2. **Ascendant Sanctum:** Magic-resistant enemies — physical builds shine here.
-3. **Ascendant Rift:** Hybrid enemies with elemental shields. Carry two damage types.
+## Confirmed Post-Story Content
 
-| Dungeon | Best Build | Exclusive Loot |
-|---------|-----------|----------------|
-| Ascendant Crypt | Spellshield Vanguard | Herald Shard, Crypt Sigil |
-| Ascendant Sanctum | Whirlwind Alchemist | Herald Shard, Sanctum Sigil |
-| Ascendant Rift | Archer-Mage Hybrid | Herald Shard, Rift Sigil |
+### The Story's Final Hook
 
-### Endgame Enhancement Strategy
+Official lore ends the khraiax story with: **"a far greater danger rose from beneath the city's streets."** Whatever the game's true endgame is, it connects to this underground threat. The story's climax resolves it — and it is the only confirmed "endgame boss-adjacent" fact.
 
-- **Tier 7+ risk:** Enhancement failures at tier 7+ can destroy the item. Always use protection materials above tier 7.
-- **Material routes:** Run Ascendant dungeons for sigils, then the Herald for enhancement stones — a full loop covers both materials.
-- **Slot priority:** Weapon first, then armor, then accessory. Weapon enhancement is the largest DPS jump per level.
-- **Set completion:** Finish a gear set before enhancing beyond +7 — set bonuses outscale raw enhancement.
+### The Hidden Side-Quest Area
 
-### Attribute Respec Strategy
+Reviews confirm there is a **"whole huge area" hidden behind a side quest** — an entire region-sized chunk of content that a player who only follows the main path never sees. This is effectively the game's real endgame zone: the biggest confirmed piece of optional content.
 
-1. **Endgame priorities:** Intelligence for casters, Strength for melee, Constitution for all builds at tier 7+ content.
-2. **The free respec:** The endgame NPC offers one free respec — spend it only after you've locked your final build.
-3. **Soft caps:** Strength and Intelligence soft-cap at 40; Focus soft-caps at 30. Never overshoot.
-4. **Balance rule:** Every build needs at least 20 Constitution before the Herald.
+### Exploration and Completionism
 
-### The Herald (Superboss)
+The non-linear, hand-crafted world rewards post-story completionism:
 
-- **Unlock:** Collect 5 Herald Shards — one per Ascendant dungeon completion, two from Nightmare Portals.
-- **Mechanics:** Three phases; phase two mirrors your last attack sequence (similar to late-game raid bosses).
-- **Rewards:** Herald's Crown (unique artifact), guaranteed enhancement stones, title unlock.
-- **Preparation:** Full +7 gear, maxed attributes, and both damage types covered.
+- Hidden treasures and collectibles (the developers adjusted collectibles pre-launch for better visibility — they are a designed part of the loop).
+- Bounty hunting (confirmed activity — the Vale is full of things to hunt for money).
+- Skill Books — the upgrade path you skipped by finishing fast.
 
-### Farming Route
+## Announced: Free DLC and Patches
 
-1. Clear the three Ascendant dungeons (Herald shards + sigils).
-2. Defeat the Herald weekly for enhancement stones.
-3. Run Nightmare Portals on rotation for unique materials.
-4. Bank sigils for set crafting between portals.
+The developers have publicly stated their post-launch plan (after Director Craig's statement addressing the "Mixed" launch reception):
 
-### Related Guides
+1. **Fix priorities first**: performance optimization across hardware, widescreen support, customizable shortcut-wheel keybindings for mouse/keyboard, and improved localization.
+2. **Then free DLC** — Titan Roc has committed to free DLC content after the fix pass, before any other projects.
 
-- [Best Builds Guide](/guides/best-builds-guide) — Top 5 character builds for endgame
-- [Gear Enhancement Guide](/guides/gear-enhancement) — Enchantments, materials, and risk
-- [Attributes & Stats Guide](/guides/attributes-stats-guide) — Allocation, soft caps, and respec
-- [Magic Guide](/guides/magic-guide) — Magic and alchemy systems
-- [Farming & Resource Guide](/guides/farming-resource-guide) — Resource routes and priorities
+No DLC content details have been announced. What is confirmed: the team read every review, acknowledges the criticism, and is shipping fixes before new content.
+
+## What Is NOT Confirmed (Treat Online Lists as Fiction)
+
+| Claim seen online | Status |
+|-------------------|--------|
+| "Ascendant Dungeons" with modifiers | **Not confirmed — invented** |
+| "The Herald" superboss and Herald Shards | **Not confirmed — invented** |
+| "Nightmare Portals" | **Not confirmed — invented** |
+| New Game Plus | **Not confirmed** |
+| Endgame enhancement tiers | **Not confirmed** |
+| A post-story attribute respec NPC | **Not confirmed** |
+
+## Practical Endgame Advice
+
+1. **Do the side quests.** The hidden area is the confirmed crown jewel of post-story content — find it before assuming you've seen the game.
+2. **Don't rush the final chapter.** With ~45% completion rate, many players stall late — finish the side paths before the finale for the best context.
+3. **Hunt collectibles and books.** With no confirmed NG+, your current save is your museum — grab everything while the world is fresh.
+4. **Wait out the fix patches for your second run.** Performance and keybinding fixes are confirmed in the pipeline; if you bounced off the "Mixed" launch experience, the first patch cycle is the moment to return.
+5. **Keep expectations honest.** There is no confirmed "endgame loop" — the post-story game is completionism, bounty hunting, and the hidden area, plus free DLC later.
+
+## What We're Tracking
+
+- Patch notes (performance, widescreen, keybindings — all confirmed as in progress)
+- Free DLC announcements
+- Any confirmed NG+ or repeatable endgame content
+
+## Next Steps
+
+- [Boss Guide](/guides/boss-guide) — the confirmed final threat beneath the city.
+- [Quest Walkthrough](/guides/quest-walkthrough) — the story structure and the hidden side-quest area.
+- [Farming & Resource Guide](/guides/farming-resource-guide) — bounty hunting and completionist income.

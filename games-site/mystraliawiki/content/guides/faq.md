@@ -1,43 +1,42 @@
 ---
 title: 'FAQ — Frequently Asked Questions'
-description: 'Answers to the most commonly asked questions about Echoes of Mystralia — release date, platforms, price, spell crafting, gameplay length, and more.'
-keywords: ['echoes of mystralia faq', 'echoes of mystralia questions', 'mystralia release date', 'echoes of mystralia price']
-updated: '2026-07-22'
+description: 'Answers to the most asked questions about Echoes of Mystralia — release date, platforms, price, demo save transfer, multiplayer, and the spell crafting system. Honest, verified answers.'
+category: 'Beginner'
+version: 'Pre-release'
+updated: '2026-08-01'
+keywords: ['echoes of mystralia faq', 'echoes of mystralia questions', 'echoes of mystralia release date', 'echoes of mystralia price', 'echoes of mystralia steam', 'echoes of mystralia multiplayer']
+related: ['beginner-guide', 'ea-launch-guide', 'ea-roadmap-guide', 'spell-crafting-guide']
 ---
 
 # FAQ — Frequently Asked Questions
+
+> **Pre-release note:** Echoes of Mystralia has not launched yet (Steam Early Access: **August 11, 2026**). Answers marked **TBD** are not yet confirmed by Borealys Games. This FAQ is updated from official announcements only.
 
 ## General Questions
 
 ### What is Echoes of Mystralia?
 
-Echoes of Mystralia is an action-heavy spellcrafting ARPG roguelite developed by Borealys Games, the studio behind Mages of Mystralia (2017). You play as Mazarim, a Watcher protecting the Cycle of Memories from a mysterious Rift. The game features a unique spell crafting system with millions of possible spell combinations.
+Echoes of Mystralia is a **spellcrafting ARPG roguelite** developed and published by **Borealys Games** (Montreal), the studio behind *Mages of Mystralia* (2017). You play as **Mazarim, a Watcher**, protecting the **Cycle of Memories** from a mysterious **Rift** that threatens to consume Mystralia. Its defining feature is **memory-based spell crafting** — harvest Memories from enemies, then reorder and combine them to create your own spells, with "millions of possible combinations."
 
 ### When is the release date?
 
-Echoes of Mystralia enters **Steam Early Access on August 11, 2026**. A free demo is available now on Steam featuring 4 spells, 50 Memories, 15 Relics, and the first region (Ash Forest).
+**Steam Early Access: August 11, 2026.** A free demo is available now (The Ash Forest region, 4 base spells, 4 fight challenges, 50 Memories, and the Therakan boss fight). A full-release date has **not been announced (TBD)**.
 
-### Will it come to consoles?
+### What platforms will it be on?
 
-The game is currently announced for **PC (Steam)** only. Console versions (PS5, Xbox Series X|S, Switch 2) have not been confirmed but may be considered after the full PC release.
+**PC via Steam first.** Additional platforms are expected to follow but have **not been confirmed (TBD)**.
 
 ### What is the price?
 
-Pricing has not been officially announced yet. Based on similar indie ARPG roguelites, expect a price in the **$15–$25 USD** range for Early Access. The demo is free.
+**Not announced (TBD).** The demo is free. Watch the Steam page for pricing news.
 
 ### Is there multiplayer or co-op?
 
-No. Echoes of Mystralia is a **single-player experience**. You control Mazarim alone throughout your runs. There is no co-op or multiplayer mode.
+**No multiplayer or co-op has been announced.** Echoes of Mystralia is a single-player game. (The hub features fellow Watchers, but as characters, not co-op partners.)
 
 ### How long is the game?
 
-| Content | Estimated Time |
-|---------|---------------|
-| Demo (Ash Forest only) | 2–4 hours |
-| Early Access (3 regions) | 15–25 hours for first clear |
-| All Memories collected | 40–60 hours |
-| All difficulties cleared | 80–100+ hours |
-| Full release content | TBD (more regions planned) |
+**No official playtime figures exist.** Based on the confirmed scope — 3 regions, 3 Guardians, 110 Memories, 12 spell forms — a multi-session Early Access experience is expected, but concrete hour counts are **TBD** (and the demo's ~50-Memory sandbox is not representative of full-run length).
 
 ---
 
@@ -45,47 +44,39 @@ No. Echoes of Mystralia is a **single-player experience**. You control Mazarim a
 
 ### How does spell crafting work?
 
-You start with 12 spell forms (base templates) and collect Memories from defeated enemies. Memories act as modifiers that you slot into a spell form's grid. The **positioning** of Memories determines the spell's output, and combining different elements creates hybrid effects.
+The confirmed fundamentals: defeated enemies drop **Memories**; you **forge and customize spells** from them by **reordering and combining**; the result is a spell loadout of your own design — from lightning bolts to freezing tornadoes and fire vortices. The full ruleset (form grids, Memory slots, hybrid effects) is **TBD** until launch; the demo teaches the basics with 4 spells and 50 Memories.
 
 ### How many spell combinations are possible?
 
-Borealys Games claims **millions of possible combinations**. With 12 spell forms × 3 elements × 110 Memories × variable grid positions × hybrid crafting, the combinatorial space is genuinely enormous.
+Borealys Games states **"millions of possible combinations."** The exact math is **TBD**, but the demo alone — 4 spells, 50 Memories, reorderable arrangements — demonstrates the combinatorial idea.
 
 ### Can I save my spell loadouts?
 
-Yes. You can save and name multiple spell loadouts at the Azimuth Temple. Switch between them between runs or at shrine rest points.
+Not officially confirmed (**TBD**). Between runs at the **Azimuth Temple** you prepare your next run, and the developer has confirmed permanent skill upgrades there; loadout-saving is expected but unannounced.
 
 ### What are the best spells for beginners?
 
-Start with **Fire Bolt** (damage), **Ice Shard** (control), and **Lightning Arc** (AoE clear). This trio covers all situations while you learn the crafting system. See the [Beginner Guide](/guides/beginner-guide) for more details.
+**TBD** — no legitimate tier list can exist before launch. The demo's 4 base spells each cover a different role; try all four and keep **one spell per element** (fire, ice, lightning) until real match-ups are discovered.
 
 ---
 
 ## Progression Questions
 
+### What carries over from the demo to Early Access?
+
+**Demo save data transfers to Early Access** (confirmed). One confirmed exception: **Echo Fragments, the demo currency, resets to zero** because progression systems changed. What else exactly transfers (Memories, spells, region progress) has not been itemized (**TBD**).
+
 ### Do I lose everything when I die?
 
-**No.** While each run starts fresh in terms of map layout and temporary buffs, you keep:
-- All collected Memories
-- All collected Relics (choose which to equip per run)
-- Lotus permanent upgrades
-- Unlocked spell forms
+As a roguelite, runs reset, but **permanent progression exists**: the Azimuth Temple hub provides permanent skill upgrades between runs (confirmed). What carries over after death within a run is **TBD** until launch — but the hub's existence confirms not everything is lost.
 
-You only lose the Relics you found during that specific run and any unspent Memory Shards from that run.
+### Is there a "Lotus" or similar progression tree?
 
-### What is the Lotus system?
+**TBD.** Permanent hub progression is confirmed, but no named progression system — including any "Lotus" — has been announced by Borealys. (Earlier wiki content describing a "Lotus" system was fabricated and removed.)
 
-The Lotus is the permanent progression system. Between runs at the Azimuth Temple, you spend Memory Shards to unlock permanent stat upgrades, more Memory slots per spell, more Relic slots, and various utility bonuses. See the [Lotus Progression Guide](/guides/lotus-progression-guide) for full details.
+### Are there "Relics" or equipment?
 
-### What carries over between runs?
-
-| Carries Over | Doesn't Carry Over |
-|-------------|-------------------|
-| Memories collection | Run-specific Relic finds |
-| Lotus upgrades | Current run's spell loadout (re-selectable) |
-| Unlocked spell forms | Map progress |
-| Relic collection (choose 6) | Temporary buffs from shrines |
-| Memory Shards (spendable) | Enemy kill counters |
+**TBD.** No equipment or Relic-style item system has been announced. Spells — crafted from Memories — are the confirmed loadout system. Don't trust pre-launch item lists.
 
 ---
 
@@ -93,27 +84,15 @@ The Lotus is the permanent progression system. Between runs at the Azimuth Templ
 
 ### What are the system requirements?
 
-**Minimum:**
-- OS: Windows 10 64-bit
-- CPU: Quad Core 2.4 GHz
-- RAM: 8 GB
-- GPU: GTX 1060 / RX 580
-- Storage: 10 GB
-
-**Recommended:**
-- OS: Windows 10 64-bit
-- CPU: Quad Core 2.4 GHz
-- RAM: 16 GB
-- GPU: RTX 2060 / RX 5600XT
-- Storage: 10 GB SSD
+**Not published (TBD).** The demo runs on Steam now, so your PC can be tested today — try the free demo before launch.
 
 ### Does it support Steam Deck?
 
-Not officially confirmed for Early Access, but the demo runs on Steam Deck. Full controller support is implemented. Expect playable performance at low-medium settings.
+**Not officially confirmed (TBD).** Test the free demo on your device.
 
 ### Is there controller support?
 
-Yes. Echoes of Mystralia has **full controller support** on Steam. The game is designed for both keyboard/mouse and controller play.
+**Not officially confirmed (TBD).** The demo is the best way to check what your setup supports.
 
 ---
 
@@ -121,27 +100,27 @@ Yes. Echoes of Mystralia has **full controller support** on Steam. The game is d
 
 ### How many regions are there?
 
-- **Demo**: 1 region (Ash Forest)
-- **Early Access (Aug 11, 2026)**: 3 regions (Ash Forest, Frozen Depths, Stormspire)
-- **Full release**: More regions planned
+- **Demo:** 1 region (The Ash Forest)
+- **Early Access (Aug 11, 2026):** 3 regions — the other two are **unnamed (TBD)**
+- **Full release:** additional regions expected during Early Access (**TBD**)
 
 ### How many bosses are there?
 
-- **Early Access**: 3 Guardians (one per region) + optional mini-bosses per region
-- **Full release**: Additional Guardians expected
+**3 Guardians at Early Access launch**, one per region. Only the first — **Therakan** — is named and playable (demo). The other two are **TBD**.
 
 ### Will there be more content after Early Access?
 
-Yes. Borealys Games has committed to adding more regions, Memories, spell forms, Relics, and Guardians throughout Early Access. The full release is expected later in 2026.
+**Yes — expected and communicated as a direction.** Borealys has committed to gameplay-focused updates throughout Early Access, and the game passed 175,000 Steam wishlists ahead of launch. Specific update contents and dates are **TBD**.
 
 ### Is the demo progress carried over to Early Access?
 
-This has not been confirmed by Borealys Games. Typically, demo progress does not carry over to Early Access, but the developer may provide a save transfer option. Check official announcements closer to August 11.
+**Yes — confirmed.** Demo save data transfers to Early Access; Echo Fragments reset by design. See the [EA Launch Guide](/guides/ea-launch-guide).
 
 ---
 
 ## Related Guides
 
 - [Beginner Guide](/guides/beginner-guide) — start here if you're new
-- [Spell Crafting Guide](/guides/spell-crafting-guide) — learn the core system
-- [Tier List](/guides/tier-list) — what's best in the current meta
+- [EA Launch Guide](/guides/ea-launch-guide) — the August 11 first-session checklist
+- [EA Roadmap Guide](/guides/ea-roadmap-guide) — launch scope and what follows
+- [Spell Crafting Guide](/guides/spell-crafting-guide) — the core system explained

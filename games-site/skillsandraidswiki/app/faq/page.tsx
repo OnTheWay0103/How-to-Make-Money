@@ -5,27 +5,24 @@ import FAQ from '@/components/FAQ';
 
 export const metadata: Metadata = {
   title: 'FAQ',
-  description: 'Frequently asked questions about SpiritVale — release date, price, co-op, solo, crossplay, game length, demo, and more.',
+  description: 'Frequently asked questions about Skills & Raids — release date, price, characters, extraction, combat, rarity tiers, and more.',
 };
 
 const FAQ_ITEMS = [
-  { question: 'What is SpiritVale?', answer: 'The Mound is a 1-4 player co-op PvE extraction horror game developed by SpiritVale Studio and published by NACON. Set in 1652 Chile, you play as conquistador treasure hunters descending into a cursed Lovecraftian jungle. It launches July 15, 2026 on PC (Steam), PS5, and Xbox Series X|S for $29.99.' },
-  { question: 'Is it single-player or co-op?', answer: 'Both. You can play solo with AI companions (or true solo) or in online co-op with up to 4 players. Contracts are balanced for co-op, so solo play is a greater challenge.' },
-  { question: 'Is there local co-op or couch co-op?', answer: 'No, The Mound does not support local/couch co-op. All multiplayer is online via Steam, PS5, and Xbox networks. Full crossplay is supported.' },
-  { question: 'How many players can play?', answer: 'Up to 4 players in online co-op. You can also play solo with AI companions.' },
-  { question: 'Do characters have classes?', answer: 'No. The four characters are purely cosmetic. Your role is defined entirely by the weapons and equipment you bring on each expedition — similar to Left 4 Dead.' },
-  { question: 'What is the Sanity system?', answer: 'As you venture deeper, each player experiences independent hallucinations — visual distortions, phantom sounds, fake treasure, teammates appearing as monsters. Proximity voice chat is essential for distinguishing reality from madness.' },
-  { question: 'Do guns work in the rain?', answer: 'No. Rain extinguishes matchlock and flintlock fuses. You must find shelter or rely on crossbows and melee weapons. Oil lamps also flicker in moisture.' },
-  { question: 'Is there crossplay?', answer: 'Yes. Full crossplay between PC (Steam), PS5, and Xbox Series X|S.' },
-  { question: 'How long is an expedition?', answer: 'Missions last approximately 20 minutes. A hidden timer governs the forest\'s awakening — the longer you stay, the more dangerous it becomes.' },
-  { question: 'How long is SpiritVale?', answer: 'The game launched on July 15, 2026 with approximately 15-20 hours of main content. A single expedition lasts roughly 20 minutes. The game will receive post-launch updates with additional content.' },
-  { question: 'What happens when you die?', answer: 'If not revived in time, your body is swallowed by the forest and reborn as a corrupted, AI-controlled version that hunts your surviving teammates.' },
-  { question: 'Are there microtransactions?', answer: 'No in-game microtransactions. The Standard Edition is $29.99. The Deluxe Edition ($39.99) includes the Fortune Hunters Character Pack with 2 additional characters.' },
-  { question: 'What are the PC system requirements?', answer: 'Minimum: i7-8700k / Ryzen 5 1600x, GTX 1660 SUPER 6GB / RX 5600 XT 6GB, 16GB RAM. Recommended: i7-11700k / Ryzen 5 5500, RTX 3070 8GB / RX 6750 XT 12GB, 16GB RAM.' },
-  { question: 'Is there a demo?', answer: 'Yes. A free demo is available on Steam. It lets you experience the core expedition loop before purchasing.' },
-  { question: 'How long is the demo?', answer: 'The free Steam demo includes a limited number of expeditions. A typical demo session lasts 20-30 minutes. Progress does not carry over to the full game.' },
-  { question: 'Can I play offline?', answer: 'The game requires an online connection for co-op play. Solo play may have different requirements — check official documentation at launch.' },
-  { question: 'Is there progression between expeditions?', answer: 'Yes. Story progression is shared across your team. Individual rank, unlocked areas, and logbook entries carry over to your personal save.' },
+  { question: 'What is Skills & Raids?', answer: 'Skills & Raids is a party-based extraction RPG by solo developer Eddie H. Hinestroza, released on Steam on July 27, 2026. You command a fixed party of three animal heroes — Shelldon (turtle tank), Clawrk (tiger DPS), and Owlivia (owl healer) — in real-time ability-driven combat. Fight, extract resources, and craft gear and skills between runs.' },
+  { question: 'Is it single-player?', answer: 'Yes. The game is strictly single-player — you control the full party yourself. There is no multiplayer, no co-op, and no PvP. Steam Cloud and Family Sharing are supported.' },
+  { question: 'Is there a demo?', answer: 'Yes. A free demo is available on Steam with 11 quests, 2 biomes, and 15 skills — a solid preview of the full game, which has 21+ quests, 5 biomes, and 30 skills.' },
+  { question: 'How does combat work?', answer: 'Combat is real-time and ability-driven: each hero equips two abilities, and you manage skill rotations, cooldowns, and resources while reacting to enemy mechanics. Status effects heavily influence every encounter, and a pause mechanic lets you read skill and status descriptions mid-fight. Positioning also matters.' },
+  { question: 'What are the characters?', answer: 'The three heroes are Shelldon (turtle, the team\'s tank), Clawrk (tiger, the team\'s DPS), and Owlivia (owl, the team\'s healer — spelled "Wolivia" in some early press coverage). They are the only playable characters.' },
+  { question: 'How does the extraction system work?', answer: 'Enemies drop valuable resources, and some even drop their own skills. What you extract is used to craft equipment and skills or to complete quests. On a failed run, anything not kept in a safe pocket is lost forever.' },
+  { question: 'What are the rarity tiers?', answer: 'Gear and skills come in five confirmed rarity tiers: Common, Uncommon, Rare, Epic, and Legendary.' },
+  { question: 'How do skill synergies work?', answer: 'The developer\'s pitch: combining multiple skills creates powerful synergies that change your approach to combat. The exact trigger rules are not publicly documented yet — the community is still mapping the 30-skill roster.' },
+  { question: 'How long is the game?', answer: 'Approximately 2-5 hours of content (per the Steam page): 21+ quests, 5 biomes, and 30 skills.' },
+  { question: 'How do I progress?', answer: 'Through quests — target objectives, resource collection, and using specific abilities — which unlock new equipment and skills, plus crafting from extracted resources. There are no character levels or skill trees.' },
+  { question: 'What are the PC system requirements?', answer: 'Windows 10 or newer (64-bit), Intel i3 4th gen or equivalent, 1 GB RAM, most dedicated GPUs, and 1 GB of storage. 12 languages are supported (interface and subtitles).' },
+  { question: 'What does it cost?', answer: 'It is a paid game on Steam — ¥42.00 with a launch 20% intro discount (¥33.60) until August 10, 2026. A Supporter Pack bundle (game + Official Artbook + Soundtrack) and separate Artbook/Soundtrack DLC are also available. Regional pricing varies.' },
+  { question: 'Are reviews good?', answer: 'At the time of writing the game holds a "Mixed" rating (67% positive of 37 reviews) on Steam — typical for a new solo-dev release, and reviews may shift as patches land.' },
+  { question: 'Can I play offline?', answer: 'Yes — the game is single-player with no online requirement for gameplay. Steam Cloud syncs your saves when online.' },
 ];
 
 export default function FAQPage() {
@@ -33,7 +30,7 @@ export default function FAQPage() {
     <div className="max-w-3xl mx-auto px-4 py-12">
       <JsonLd data={faqPageSchema(FAQ_ITEMS)} />
       <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">Frequently Asked Questions</h1>
-      <p className="text-gray-400 mb-8">Common questions about SpiritVale — gameplay, co-op, sanity, and more.</p>
+      <p className="text-gray-400 mb-8">Common questions about Skills & Raids — gameplay, characters, extraction, and more.</p>
       <FAQ items={FAQ_ITEMS} />
     </div>
   );

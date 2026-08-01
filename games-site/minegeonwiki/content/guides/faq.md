@@ -1,84 +1,100 @@
 ---
 title: 'FAQ — Frequently Asked Questions About MineGeon: Renegades'
-description: 'Frequently asked questions about MineGeon: Renegades. Release date, platforms, price, co-op support, cross-play, system requirements, game length, and more.'
-keywords: ['minegeon faq', 'minegeon questions', 'minegeon release date', 'minegeon platforms', 'minegeon co op', 'minegeon price', 'minegeon system requirements']
+description: 'Frequently asked questions about MineGeon: Renegades. Release date, developer, platforms, price, co-op support, classes, biomes, system requirements, game length, and more.'
+keywords: ['minegeon faq', 'minegeon renegades release date', 'minegeon renegades price', 'minegeon platforms', 'minegeon co op', 'minegeon renegades system requirements', 'minegeon renegades review']
 category: FAQ
 version: '1.0'
-updated: '2026-07-20'
+updated: '2026-08-01'
 related:
   - beginner-guide
+  - platforms-guide
+  - demo-guide
   - coop-multiplayer-guide
 ---
 
 ## General Questions
 
 ### When does MineGeon: Renegades release?
-MineGeon: Renegades releases on **July 28, 2026** on Steam.
-
-### Is MineGeon: Renegades free to play?
-Pricing has not been officially announced. Based on similar indie roguelites, expect a paid title in the **$15-$25 range**.
-
-### What platforms is MineGeon: Renegades on?
-At launch, MineGeon: Renegades is **PC only (Steam)**. Console and other platform releases have not been announced.
-
-### Is there cross-play?
-No. Since the game is Steam-only at launch, cross-play is not applicable. If console versions are released later, cross-play may be added.
+MineGeon: Renegades launched on **Steam on July 30, 2026** (the store page date). The release was delayed once from an earlier July 14 target — launch coverage from July 28 also exists, so expect "late July 2026" to be the safe answer.
 
 ### Who is developing MineGeon: Renegades?
-MineGeon: Renegades is developed by **WTF Studios**, the same team behind the original MineGeon.
+MineGeon: Renegades is developed and published by **Kickstone Studio**. (Some early articles and copied fan content credit "WTF Studios" — that is incorrect and appears to come from a misattribution. There is no known earlier "MineGeon" game by another studio.)
+
+### How much does MineGeon: Renegades cost?
+It is a paid title. The Steam store page listed a launch price of **¥77 with a 15% introductory discount (¥65.45)** that ended in early August 2026. USD/EUR prices were not published in our sources — check your local Steam page.
+
+### What platforms is MineGeon: Renegades on?
+**PC only (Steam)** at launch. No console releases have been announced.
+
+### Is there cross-play?
+No. The game is Steam-only, so cross-play is not applicable. Any future console versions would change this only if the developer adds it.
+
+### Is there a demo?
+Yes — **Demo 2.0** is free on Steam. It covers the first of the six biomes and the first chapter of the story. Demo reviews were "Very Positive" (82% of 75).
+
+### How are the reviews?
+The demo was "Very Positive" at the time of writing, while the full game's launch reviews were **"Mixed" (64% positive of ~50 reviews)**. Read both before judging — the full game adds five biomes and most of the content, but launch-window technical issues can affect review scores.
 
 ## Gameplay Questions
 
 ### Is MineGeon singleplayer or multiplayer?
-Both! MineGeon: Renegades supports **1-3 players**. You can play solo or team up with up to 2 friends in co-op.
+Both. **Solo or online co-op with up to two friends** (3 players total). Online-only co-op via Steam — no local co-op or split-screen.
 
 ### How many classes are there?
-There are **3 classes** at launch: Tank, DPS Gunslinger, and Engineer. Each has unique abilities and playstyles.
+Three: **Marshall** (resilient Tank), **Trevor** (deadly DPS Gunslinger), and **Ari** (balanced Engineer). Each has its own stats and ultimate ability. All three are selectable from the start — no unlock requirements have been announced.
 
 ### How many biomes are there?
-There are **6 biomes**, ranging from the beginner-friendly Shallow Mines to the extremely challenging Deep Core.
+**Six hand-crafted biomes** with procedurally generated "minegeons." Every biome ends in a boss battle. Biome names have not been officially published.
 
 ### How many bosses are there?
-There are **12+ bosses** across all biomes, including mini-bosses and the final Core Entity.
+One boss per biome — **six biome-ending boss battles** total (the "12+ bosses" figure circulating online is fabricated). Boss names and details were unpublished as of early August 2026.
 
 ### How long is the game?
-A single run typically takes **20-45 minutes** depending on how deep you go. Full completion (all biomes, bosses, and upgrades) can take **30-60+ hours** depending on skill level.
+No official figures exist. Runs are roguelite expeditions of variable length, and full completion includes six biomes, 150+ gadgets, permanent upgrade tracks, and 49 achievements. See our [How Long to Beat](/guides/how-long-to-beat) guide for an honest estimate.
+
+### What happens when you die?
+**You lose the minerals you are carrying — permanently.** That loss is the core risk/reward loop. Your ship, permanent upgrades, and long-term progression are never lost.
 
 ### Is there permanent progression?
-Yes! Resources you extract, base upgrades, crafted gear, and Trophy Room bonuses all persist between runs. Only items you're carrying are lost if you fail to extract.
+Yes. Extracted minerals trade for permanent ship upgrades and per-Renegade attribute upgrades, and leveling unlocks gadgets, weapons, and ultimates across runs.
 
 ### Can you lose everything?
-No. Your base, stored resources, crafted gear in storage, and upgrades are permanent. You only lose what you're carrying during a failed run (similar to extraction shooters).
+No. Only the minerals you are carrying during a run are at risk. The ship, upgrades, and unlock progress persist.
 
 ### Is there a story?
-MineGeon: Renegades has environmental storytelling and lore scattered throughout the mines, but it is primarily a gameplay-focused roguelite rather than a narrative-driven game.
+Yes. After a failed heist, your Renegades crew crash-lands near the dying planet PAIMO and descends into its depths seeking help — uncovering secrets that should have stayed buried. The demo covers the first chapter, with lore fragments scattered through the biomes.
 
 ## Technical Questions
 
 ### What are the system requirements?
-Official requirements will be announced closer to launch. Based on similar indie games, expect:
-- **Minimum:** Windows 10, Intel i5/AMD equivalent, 8GB RAM, GTX 960 or equivalent
-- **Recommended:** Windows 10/11, Intel i7/AMD equivalent, 16GB RAM, GTX 1060 or equivalent
+**Minimum:** Windows 10, 2.4 GHz CPU, 4 GB RAM, integrated GPU (1024 MB) or better, DirectX 10, broadband, 2 GB storage. **Recommended:** Windows 11, 3.2 GHz CPU, 8 GB RAM, GeForce GTX 480 / Radeon HD 5870 or better, DirectX 11, 2 GB storage. 1080p / 16:9 recommended.
 
 ### Does it support controllers?
-Yes! MineGeon: Renegades supports both **keyboard & mouse** and **controller** input. Controller is recommended for melee classes (Tank); keyboard & mouse is preferred for ranged classes (Gunslinger).
+**Not confirmed.** Controller support is not listed on the Steam feature list. Assume keyboard and mouse until verified.
 
 ### Is there Steam Deck support?
-Not officially confirmed at launch, but the game is expected to run on Steam Deck given its indie scope and controller support.
+Not confirmed — not listed on the store page.
 
 ### Does it require always-online?
-No. You can play **offline in solo mode**. Internet is only required for co-op multiplayer.
+Not officially confirmed. The Steam requirements list a broadband connection, so assume internet is needed even for solo play until the developer says otherwise.
 
 ## Progression Questions
 
 ### What's the best class for beginners?
-**Tank** is the most beginner-friendly. High HP and defense mean you can make mistakes without dying.
+**Marshall, the Tank** — resilient stats make early mistakes survivable. Trevor and Ari are both viable but reward game knowledge.
 
-### How do I upgrade my base?
-Extract resources from runs → smelt ores in the Furnace → craft upgrades at the Workbench → build new stations and decorations.
+### How do I upgrade?
+Extract minerals → trade them for permanent ship and Renegade attribute upgrades → level up during runs to unlock gadgets, weapons, and ultimates.
 
 ### Can I change my class?
-Yes! You can switch classes between runs at your base. Your progress and resources are shared across all classes.
+All three Renegades are available from the start. Permanent attribute upgrades are per-class, so switching is always possible — your main class just benefits most from concentrated investment.
 
-### What happens when the mine collapses?
-If you're still in the mine when the stability meter hits zero, you lose everything you gathered during that run. Always watch the stability meter and extract in time.
+### What's the best way to avoid losing minerals?
+Extract early, extract often, and never fight a boss with a full haul. The boss is repeatable — your minerals aren't.
+
+## Related Guides
+
+- [Beginner Guide](/guides/beginner-guide) — getting started
+- [Platforms Guide](/guides/platforms-guide) — platforms and system requirements
+- [Demo Guide](/guides/demo-guide) — the free demo
+- [How Long to Beat](/guides/how-long-to-beat) — content depth and playtime

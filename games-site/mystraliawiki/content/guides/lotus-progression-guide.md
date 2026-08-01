@@ -1,157 +1,68 @@
 ---
-title: 'Lotus Progression Guide — Permanent Upgrades & Milestones'
-description: 'Complete Echoes of Mystralia Lotus progression system guide — all permanent upgrades, milestone rewards, upgrade costs, and optimization strategies for faster progression.'
-keywords: ['echoes of mystralia lotus guide', 'echoes of mystralia progression', 'mystralia permanent upgrades', 'echoes of mystralia lotus system']
-updated: '2026-07-22'
+title: 'Permanent Progression Guide — Hub Upgrades & Meta Progress'
+description: 'How permanent progression works in Echoes of Mystralia — the Azimuth Temple hub, confirmed upgrade functions, and what\'s still unconfirmed about the system at Early Access.'
+category: 'Progression'
+version: 'Pre-release'
+updated: '2026-08-01'
+keywords: ['echoes of mystralia progression', 'echoes of mystralia permanent upgrades', 'mystralia hub upgrades', 'echoes of mystralia meta progression', 'echoes of mystralia azimuth temple']
+related: ['beginner-guide', 'ea-roadmap-guide', 'memories-guide', 'faq']
 ---
 
-# Lotus Progression Guide — Permanent Upgrades & Milestones
+# Permanent Progression Guide — Hub Upgrades & Meta Progress
 
-The **Lotus** is Echoes of Mystralia's permanent progression system. Accessed from the Azimuth Temple between runs, the Lotus ensures you grow stronger even after failed attempts. This guide covers every upgrade, milestone, and optimization strategy.
+Every roguelite needs a "meta" — progress that survives failed runs. In Echoes of Mystralia, that role belongs to the **Azimuth Temple hub**, and the developer has confirmed its core functions. What the system is officially *named*, and its full upgrade tree, is **TBD**. This guide separates the confirmed facts from the unconfirmed expectations.
 
-## What Is the Lotus?
+> **Pre-release note:** Earlier versions of this guide described a named "Lotus" progression system with specific upgrade costs and milestone rewards. **"Lotus" was never mentioned by Borealys Games** — that content was fabricated and removed. The hub's progression role, however, is confirmed.
 
-The Lotus is a skill-tree-like progression system where you spend resources earned during runs to unlock permanent character upgrades. Unlike Memories and Relics (which are run-specific), Lotus upgrades persist forever.
+## What's Confirmed
 
-**Location:** Azimuth Temple → Central chamber → Lotus pedestal
+Borealys Games has stated the Azimuth Temple is where you:
 
-## Upgrade Categories
+- **Upgrade permanent skills** — confirmed; upgrades persist across runs
+- **Unlock new combat options** — confirmed; progression unlocks ways to fight
+- **Build relationships with fellow Watchers** — confirmed; the hub has a character layer
+- **Prepare for the next run** — the hub is the run-preparation space
 
-### Core Stats (5 tiers each)
+The implication is standard roguelite meta-progression: even a failed run feeds the hub, and hub progress makes future runs easier. That much is safe to plan around.
 
-| Upgrade | Effect per Tier | Max Bonus | Priority |
-|---------|----------------|-----------|----------|
-| **Vitality** | +5% max HP per tier | +25% max HP | ★★★★☆ |
-| **Arcana** | +5% spell power per tier | +25% spell power | ★★★★★ |
-| **Attunement** | +5% max mana per tier | +25% max mana | ★★★☆☆ |
-| **Resilience** | +3% damage reduction per tier | +15% damage reduction | ★★★☆☆ |
-| **Alacrity** | +2% movement speed per tier | +10% movement speed | ★★☆☆☆ |
+## What's TBD (Not Confirmed)
 
-### Spell System (4 tiers each)
+| Question | Status |
+|----------|--------|
+| Official name of the progression system | **TBD** (not "Lotus" — that was invented) |
+| Upgrade categories and their effects | **TBD** |
+| Upgrade costs and currencies | **TBD** (Echo Fragments are demo-only and reset) |
+| Unlock conditions for combat options | **TBD** |
+| Whether upgrades include stats, slots, or both | **TBD** |
+| Milestone/one-time rewards | **TBD** |
 
-| Upgrade | Effect per Tier | Max Bonus | Priority |
-|---------|----------------|-----------|----------|
-| **Memory Capacity** | +1 Memory slot per spell | +4 slots per spell | ★★★★★ |
-| **Relic Slots** | +1 Relic slot | 6 total slots | ★★★★★ |
-| **Spell Form Mastery** | +5% damage with mastered forms | +20% per mastered form | ★★★★☆ |
-| **Elemental Affinity** | +3% elemental damage | +12% per element | ★★★☆☆ |
+## What the Demo Teaches About Meta Progression
 
-### Utility (3 tiers each)
+The demo doesn't confirm the full system, but it does confirm the *shape* of it:
 
-| Upgrade | Effect per Tier | Max Bonus | Priority |
-|---------|----------------|-----------|----------|
-| **Treasure Sense** | Reveal 1/2/3 nearby chests on minimap | 3 chests revealed | ★★☆☆☆ |
-| **Merchant Network** | 10/20/30% vendor discount | 30% discount | ★★☆☆☆ |
-| **Memory Attunement** | +5/10/15% rare Memory drop rate | +15% rare drop rate | ★★★★★ |
-| **Experience Bloom** | +5/10/15% resource gain | +15% resources | ★★★☆☆ |
+1. **Runs feed the hub** — every run harvests Memories and experience you carry between runs
+2. **The hub is where preparation happens** — loadouts and approach are set here
+3. **Progression is your answer to walls** — when a boss or region stops you, hub progress is the expected lever (demonstrated by the roguelite structure)
 
----
+## How to Approach Progression at Launch
 
-## Lotus Upgrade Costs
+When Early Access goes live on **August 11, 2026**, apply these principles:
 
-Costs increase with each tier. Resources are earned by defeating enemies and completing runs.
+1. **Spend early, spend often** — in roguelites, banked progression does nothing; invested progression does
+2. **Prioritize what stops you** — if you die to bosses, prefer defensive/survival upgrades; if you die to time, prefer clear speed
+3. **Watch the balance patches** — Borealys has already changed progression systems once (the Echo Fragments reset); expect tuning during EA
+4. **Don't over-specialize early** — before the systems are mapped, broad upgrades are safer than narrow ones
 
-| Tier | Resource Cost (Memory Shards) | Unlock Requirement |
-|------|------------------------------|-------------------|
-| Tier 1 | 100 | None |
-| Tier 2 | 250 | Reach Ash Forest boss |
-| Tier 3 | 500 | Defeat Therakan |
-| Tier 4 | 1,000 | Reach Frozen Depths |
-| Tier 5 (Core only) | 2,000 | Defeat Frozen Depths Guardian |
+## What We'll Document After Launch
 
-Estimated total to max all upgrades: **~15,000–20,000 Memory Shards**
-
----
-
-## Optimal Upgrade Order
-
-### Phase 1: Foundation (First 5 hours)
-```
-1. Memory Capacity Tier 1 → enables 3-Memory spells
-2. Arcana Tier 1 → immediate damage boost
-3. Relic Slots Tier 1 → 4th Relic slot
-4. Vitality Tier 1 → survivability
-```
-
-### Phase 2: Consistency (5–15 hours)
-```
-5. Memory Attunement Tier 1 → better Memory drops
-6. Arcana Tier 2 → more damage
-7. Memory Capacity Tier 2 → 4-Memory spells
-8. Spell Form Mastery Tier 1 → damage for mastered forms
-```
-
-### Phase 3: Power Spike (15–25 hours)
-```
-9. Relic Slots Tier 2 → 5th Relic slot
-10. Memory Capacity Tier 3 → 5-Memory spells
-11. Arcana Tier 3
-12. Attunement Tier 1 → mana pool
-
-```
-
-### Phase 4: Endgame (25+ hours)
-```
-13. Memory Attunement Tier 3 → max rare drop rate
-14. Relic Slots Tier 3 → 6th Relic slot
-15. Max Arcana, Vitality, Spell Form Mastery
-16. Remaining upgrades in any order
-```
-
----
-
-## Lotus Milestone Rewards
-
-Special one-time rewards at specific Lotus investment thresholds:
-
-| Total Upgrades Purchased | Reward |
-|--------------------------|--------|
-| 5 | Common Relic: Guardian's Pendant |
-| 10 | Uncommon Relic: Scholar's Scroll |
-| 15 | Rare Memory: Amplify III |
-| 20 | Rare Relic: Manawell Crystal |
-| 25 | Legendary Relic: Atlas Stone |
-| 30 | Legendary Memory: Elemental Conduit |
-| 35 | Unique spell form skin: Gold Arc |
-| 40 | Legendary Relic: Eternal Lotus |
-
----
-
-## Resource Farming for Lotus Upgrades
-
-### Best Memory Shard Sources
-
-| Activity | Shards per Hour | Difficulty |
-|----------|----------------|------------|
-| Ash Forest speed runs | ~200/hr | Normal |
-| Frozen Depths full clear | ~350/hr | Hard |
-| Stormspire endless mode (waves 1–20) | ~500/hr | Expert |
-| Guardian re-fights | ~150/kill | Variable |
-
-### Optimal Farming Strategy
-
-1. Use **Storm Weaver build** (fastest clear speed)
-2. Run Ash Forest on **Hard difficulty** (best time-to-reward ratio for early game)
-3. Equip **Scholar's Scroll** Relic (+20% Memory drop rate)
-4. Max **Memory Attunement** first among utility upgrades
-5. Don't skip elite packs — they're the most efficient Shard source per minute
-
----
-
-## Common Mistakes to Avoid
-
-| Mistake | Why It's Bad | What to Do Instead |
-|---------|-------------|-------------------|
-| Upgrading Alacrity early | Movement speed doesn't help you kill faster | Prioritize Arcana |
-| Ignoring Memory Attunement | Rare Memories are the biggest power spike | Get at least Tier 1 early |
-| Maxing one stat first | Diminishing returns on high tiers | Spread early upgrades for efficiency |
-| Skipping Relic Slots | An extra Relic is always better than a stat tier | Prioritize new slots |
-| Not farming after losses | Failed runs still earn Shards for Lotus | Always spend Shards before next run |
-
----
+- The real upgrade tree, with names and costs (TBD)
+- Optimal upgrade orders once balance is understood (TBD)
+- Which combat options unlock progression (TBD)
+- Currency systems beyond the reset Echo Fragments (TBD)
 
 ## Related Guides
 
-- [Beginner Guide](/guides/beginner-guide) — first steps before Lotus progression
-- [Relics Guide](/guides/relics-guide) — what to put in those Relic slots
-- [Memories Guide](/guides/memories-guide) — rare Memories worth farming for
+- [Beginner Guide](/guides/beginner-guide) — the core loop around the hub
+- [EA Roadmap Guide](/guides/ea-roadmap-guide) — what ships at Early Access
+- [Memories Guide](/guides/memories-guide) — the resource that feeds progression
+- [FAQ](/guides/faq) — honest answers on progression systems

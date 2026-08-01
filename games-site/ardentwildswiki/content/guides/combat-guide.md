@@ -1,157 +1,131 @@
 ---
 title: 'Combat Guide — Weapons, Artifacts, Builds & Abilities in Ardent Wilds'
-description: 'Master combat in Ardent Wilds — all weapon types, Rare Artifact abilities, best builds for every playstyle, elemental damage, combo strategies, and advanced combat techniques for solo and co-op.'
+description: 'Master combat in Ardent Wilds — confirmed combat systems, weapon and artifact mechanics, the classless build system, terrain-destroying spells, and advanced combat techniques for solo and co-op.'
+category: 'Guides'
+version: '1.0'
+updated: '2026-08-01'
 keywords: ['ardent wilds combat guide', 'ardent wilds weapons', 'ardent wilds best builds', 'ardent wilds artifacts', 'ardent wilds abilities']
-updated: '2026-07-31'
+related:
+  - 'character-builds'
+  - 'boss-guide'
+  - 'beginner-guide'
+  - 'survival-tips'
 ---
 
 # Combat Guide — Weapons, Artifacts, Builds & Abilities
 
-Ardent Wilds features fast-paced arcade combat with no rigid classes. Your fighting style is defined entirely by the weapons and Rare Artifacts you equip. This guide breaks down every combat option and the best builds for the demo.
+Ardent Wilds is built around **fast-paced, arcade-style, skill-driven combat** — that is the developer's own description. This guide breaks down the confirmed combat systems, the tools you have, and how to fight smart in a world where your spells reshape the battlefield.
 
-## No Classes — Build Your Own Playstyle
+**Honesty note:** the game is pre-release (demo July 30, 2026; full game TBA). Weapon lists, damage numbers, element tables, and exact artifact effects are unconfirmed — the internet is full of invented stat tables for this game. This guide sticks to confirmed mechanics and honest strategy.
 
-Unlike traditional RPGs, Ardent Wilds has no class selection screen. Instead, your "class" emerges from your gear choices:
+## Confirmed Combat Pillars
 
-- Equip a **Staff + Tome of Ice** = You are a frost mage
-- Equip a **Sword + Berserker Axe** = You are a melee damage dealer
-- Equip a **Bow + Stormcaller artifact** = You are a lightning archer
-- Mix and match freely — the system encourages experimentation
+These come straight from the official description and press materials:
 
-You can carry multiple weapon sets and swap between them mid-combat. Use this.
+1. **Arcade-style, skill-driven combat** — timing, dodging, and positioning matter more than numbers
+2. **Spells and power-ups** — combat is layered with abilities beyond basic attacks
+3. **Powerful rare artifacts** — artifacts unlock unique abilities and are the build-defining layer
+4. **Classless builds** — forge your own path as a fireball-wielding wizard, a deadly warrior, or a precision marksman
+5. **Terrain is part of the fight** — bombs and pyroblasts leave craters; the **Tome of Ice** creates frost bridges; the world is fully destructible voxels
+6. **Formidable bosses and difficult PvE challenges** — fights with unique patterns and multiple phases
+7. **Co-op up to 6 players** — teams can rotate, support, and overwhelm
 
-## Weapon Types
+## Weapons — What We Know
 
-### Melee Weapons
+The developers describe three broad combat directions, which map to weapon families:
 
-| Weapon | Speed | Range | Base Damage | Best For |
-|--------|-------|-------|-------------|----------|
-| **Sword** | Medium | Medium | 25-40 | Balanced all-rounder |
-| **Axe** | Slow | Medium | 35-55 | High single-target damage, breaking defenses |
-| **Dagger** | Very Fast | Short | 10-18 | Poison/burst builds, quick hit-and-run |
-| **Spear** | Medium | Long | 20-30 | Safe poking, keeping distance |
-| **Greatsword** | Very Slow | Long | 50-80 | Crowd control, staggering bosses |
+| Direction | Style | Playstyle |
+|-----------|-------|-----------|
+| **Warrior** | Melee weapons | Up close, aggressive, dodge-timed |
+| **Marksman** | Ranged weapons | Distance, precision, kiting |
+| **Wizard** | Magic weapons (staffs, wands, tomes) | Spells, AoE, terrain destruction |
 
-### Ranged Weapons
+The exact weapon catalog is unconfirmed, but the design pattern is clear: you will carry multiple weapons and swap between them based on situation — the classless system rewards it. **Do not trust weapon stat tables from unverified sources**; stats are still in flux during development.
 
-| Weapon | Speed | Range | Base Damage | Best For |
-|--------|-------|-------|-------------|----------|
-| **Bow** | Medium | Very Long | 12-35 | Safe DPS, pulling enemies, weak point targeting |
-| **Crossbow** | Slow | Very Long | 30-50 | High damage per shot, armor piercing |
-| **Throwing Knives** | Fast | Medium | 8-15 | Quick ranged pokes, applying debuffs |
+## Artifacts — The Build-Defining Layer
 
-### Magic Weapons
+Rare artifacts are the confirmed centerpiece of combat customization. Known facts:
 
-| Weapon | Speed | Range | Base Damage | Best For |
-|--------|-------|-------|-------------|----------|
-| **Fire Staff** | Medium | Long | 20 + burn | AoE damage, terrain destruction, DoT |
-| **Ice Staff** | Medium | Long | 18 + freeze | Crowd control, area denial, utility |
-| **Lightning Wand** | Fast | Medium | 15 + chain | Multi-target, stun chance |
-| **Void Scepter** | Slow | Long | 30 + Eldran bonus | Anti-Eldran specialist |
+- They **unlock unique abilities** — an artifact is not a stat stick; it changes what you can do
+- They are **rare and valuable** — found as loot in dangerous places (caves, mines, guarded locations, defeated enemies)
+- They define your build — a wizard with a fire artifact plays differently from a wizard with a utility artifact
 
-## Rare Artifacts — The Build Definers
+**Confirmed example — the Tome of Ice:** creates frost bridges across gaps, opening routes and repositioning options in combat. It is the one artifact the developers have named publicly; treat all other artifact names on the internet as unverified.
 
-Rare Artifacts are unique items that dramatically alter your combat capabilities. You can equip up to 3 at a time. Here are the most impactful ones in the demo:
+**Artifact strategy:**
 
-### S-Tier Artifacts
+1. **Build around what you find.** Let your artifact collection steer your playstyle — you cannot force drops
+2. **Swap for the fight.** If a boss punishes your current artifact setup, change it. Artifacts are items; use them like tools
+3. **Counters matter.** If a fight is going badly, the answer is often a different artifact, not more attempts
+4. **Share in co-op.** Artifacts one player does not need may define another player's build
 
-| Artifact | Effect | Best Paired With |
-|----------|--------|-----------------|
-| **Tome of Ice** | Creates frost bridges, freezes enemies on hit, adds Ice damage to all attacks | Any magic weapon, exploration builds |
-| **Pyroblast Core** | All fire attacks create explosions that destroy terrain and deal AoE damage | Fire Staff, any fire-enchanted weapon |
-| **Vampiric Blade** | 15% lifesteal on all melee attacks. Scales with max HP | Sword, Axe, Greatsword — any melee build |
+## Spells and Terrain Combat
 
-### A-Tier Artifacts
+Confirmed: spells interact with terrain, and terrain interacts with fights.
 
-| Artifact | Effect | Best Paired With |
-|----------|--------|-----------------|
-| **Stormcaller Bow** | Arrows chain lightning to 3 nearby enemies (40% damage) | Bow, Crossbow |
-| **Berserker Axe** | +8% damage per kill, stacks 10 times, resets on damage taken | Axe, Greatsword |
-| **Guardian Shield** | Blocks 100% damage from the front. Taunts nearby enemies in co-op | Any melee weapon + co-op |
+- **Bombs and pyroblasts leave craters** — you can destroy cover, create pits, and reshape the arena mid-fight
+- **The Tome of Ice creates frost bridges** — escape routes, high-ground access, and gap crossings
+- **The voxel world is fully destructible** — digging a pit, dropping a wall, or collapsing a path are all real tactics
 
-### B-Tier Artifacts
+**Terrain tactics that work:**
 
-| Artifact | Effect | Best Paired With |
-|----------|--------|-----------------|
-| **Venom Dagger** | Attacks apply stacking poison (5% weapon damage/sec, stacks 20x) | Dagger, Throwing Knives |
-| **Marksman Rifle** | Charged shots deal 3x damage to weak points (headshots) | Bow, Crossbow |
-| **Healing Staff** | Special ability: heal all nearby allies for 30% max HP (60s cooldown) | Any + co-op support role |
+1. **Funnel enemies.** Dig or blast a choke point and fight on your terms
+2. **Create escape routes.** A frost bridge or a hastily dug tunnel is a plan B when a fight goes bad
+3. **Deny enemy advantages.** If an enemy uses cover or high ground, remove it — your spells are demolition tools
+4. **Watch your own feet.** Craters, pits, and lava don't care which side you are on. Terrain cuts both ways
 
-## Best Builds (Demo Meta)
+## Elemental Combat
 
-### 1. The Pyromancer (S-Tier AoE)
+Fire and ice are confirmed present (pyroblasts, Tome of Ice). Lightning, void, and other elements are **unconfirmed** — treat element charts from unverified sources as speculative. Two confirmed-adjacent notes:
 
-- **Weapon:** Fire Staff
-- **Artifacts:** Pyroblast Core + Tome of Ice + flex slot
-- **Playstyle:** Set everything on fire. Pyroblast Core makes every fire attack explode, destroying terrain and hitting groups. Tome of Ice freezes stragglers. Switch to Ice Staff to create frost bridges for positioning, then switch back to Fire Staff for damage.
-- **Strengths:** Unmatched AoE, terrain control, excellent in Survival Mode
-- **Weaknesses:** High friendly fire risk in co-op, mana-hungry
+- **Fire destroys terrain** — pyroblast craters are a confirmed, real interaction. Fire is both damage and utility
+- **Ice is utility-heavy** — frost bridges are traversal and positioning, plus freezing enemy behavior is plausible given the Tome's effect (freeze specifics unconfirmed)
 
-### 2. The Berserker (S-Tier Single Target)
+## Movement and Defense
 
-- **Weapon:** Greatsword or Axe
-- **Artifacts:** Berserker Axe + Vampiric Blade + flex slot
-- **Playstyle:** Dive into groups, build kill streaks, sustain through lifesteal. At 10 Berserker stacks (+80% damage), you delete everything. Vampiric Blade keeps you alive between kills.
-- **Strengths:** Highest sustained single-target DPS, self-sustaining, melts bosses
-- **Weaknesses:** Falls off hard if you take damage and lose stacks, risky vs burst damage
+Confirmed design: the combat is skill-driven with a dodge/fast-movement feel — press materials explicitly mention **Dashes that zoom across the screen** as a discovered ability example.
 
-### 3. The Storm Archer (A-Tier Ranged)
+- **Dodging is a core skill.** Learning enemy tells and avoiding damage is the intended loop
+- **Mobility is a stat** in practice — speed, dashes, and positioning tools are combat power
+- **Exact dodge mechanics (i-frames, perfect dodges, stamina costs) are unconfirmed.** Playtest reports describe dodging with invulnerability windows, but the numbers are in flux
 
-- **Weapon:** Bow or Crossbow
-- **Artifacts:** Stormcaller Bow + Marksman Rifle + flex slot
-- **Playstyle:** Kite from range. Stormcaller Bow clears groups with chain lightning. Marksman Rifle deletes priority targets with charged weak-point shots.
-- **Strengths:** Safest playstyle, excellent for learning boss patterns
-- **Weaknesses:** Lower DPS than melee builds, struggles when cornered
+## Boss Combat Tips
 
-### 4. The Frost Tank (A-Tier Co-op)
+Bosses have **unique patterns and multiple phases** (confirmed). Practical approach:
 
-- **Weapon:** Sword + Ice Staff (swap)
-- **Artifacts:** Guardian Shield + Tome of Ice + Healing Staff
-- **Playstyle:** Draw aggro with Guardian Shield, freeze dangerous enemies with Tome of Ice procs, heal teammates with Healing Staff ability. The ultimate support build.
-- **Strengths:** Enables glass cannon teammates, near-unkillable with proper positioning
-- **Weaknesses:** Very low personal damage, dependent on teammates for clearing speed
+1. **Learn the patterns** — spend your first attempt dodging and observing, not winning
+2. **Use the environment** — craters, bridges, and reshaped terrain all count as advantages
+3. **Bring consumables** — food and elixirs exist to support combat (confirmed systems); a prepared player is a winning player
+4. **Eat and brew before the fight** — buffs from cooking and elixir brewing are confirmed combat support; start fights buffed
+5. **In co-op, rotate aggro** — the targeted player plays safe while others deal damage
 
-### 5. The Venomblade (B-Tier DoT)
+## Build Directions in Combat
 
-- **Weapon:** Dagger + Throwing Knives
-- **Artifacts:** Venom Dagger + flex + flex
-- **Playstyle:** Apply 20 poison stacks, then switch to ranged and let the DoT work. Re-apply as needed. Extremely safe but slower than direct damage builds.
-- **Strengths:** Very safe, consistent damage, effective vs slow bosses
-- **Weaknesses:** Low burst, weak vs fast enemies that clear poison quickly
+Three starting directions, all confirmed by the developer's own description:
 
-## Combat Mechanics Deep Dive
+- **The Fire Wizard:** AoE pressure, terrain destruction, positional control. Watch for friendly fire in co-op
+- **The Warrior:** front-line aggression built on dodge timing. Strong vs single targets, demanding on positioning
+- **The Marksman:** safe ranged damage, ideal for learning fights from a distance. Vulnerable when cornered
 
-### Elemental Damage Types
-
-| Element | Effect | Strong Vs | Weak Vs |
-|---------|--------|-----------|---------|
-| **Fire** | Burn (DoT), terrain destruction | Root Horrors, ice enemies | Water-based Eldran |
-| **Ice** | Freeze (stun), slow, bridges | Fire enemies, fast creatures | Bosses (reduced freeze duration) |
-| **Lightning** | Chain, stun (5% chance) | Flying enemies, Wisps | Grounded enemies |
-| **Void** | +50% damage vs Eldran | All Eldran types | Non-Eldran wildlife |
-
-### Dodge Mechanics
-
-- Dodge has invincibility frames (i-frames) — approximately 0.3 seconds
-- Dodge **through** attacks, not away from them
-- Perfect dodge (dodging at the last moment) triggers a brief slow-motion effect and grants +25% damage on your next attack
-- Stamina management is critical — never dodge until you are at zero stamina
-
-### Boss Combat Tips
-
-1. **Learn the patterns** — Every boss has 3-5 telegraphed attacks. Spend your first attempt just dodging and observing.
-2. **Use the environment** — Destructible terrain means you can create advantages. Blow up cover the boss uses. Create frost bridges to escape.
-3. **Bring potions** — Minimum 5 Health Elixirs and 2 Strength Tonics per boss attempt
-4. **Eat first** — Warrior's Feast buff (+25% damage, +20% HP) makes a massive difference
-5. **In co-op, rotate aggro** — When the boss targets one player, others deal free damage
+Mix and match freely — the classless system and free gear swapping mean your "class" is whatever you equipped this morning.
 
 ## Combat Progression
 
-Your combat power scales through four vectors:
+Your combat power scales through four confirmed vectors:
 
-1. **Better weapons** — Upgrade from Stone → Copper → Iron → Obsidian tier
-2. **More artifacts** — Find and equip all 3 artifact slots
-3. **Spire bonuses** — Each restored Spire grants permanent stat increases
-4. **Potions and food** — Temporary but powerful buffs
+1. **Better weapons and armor** — craft at specialized crafting stations, or loot from enemies
+2. **More artifacts** — find and equip powerful rare artifacts
+3. **Spire bonuses** — restoring Spires and forgotten facilities grants passive bonuses (the world-built skill tree)
+4. **Consumables** — food, elixirs, and potions stack the odds in your favor
 
-Do not neglect any of these. A player with Iron weapons + 3 artifacts + 5 Spires + buffs is roughly 5x more powerful than a fresh spawn with a Stone Sword.
+Do not neglect any of them. A player with strong gear, a good artifact kit, several Spire bonuses, and a full inventory of buffs is playing a completely different game from a fresh spawn.
+
+## What Is Still Unknown (TBD)
+
+- Complete weapon and artifact catalogs with stats
+- Element system and resistance tables
+- Exact dodge/iframes/stamina mechanics
+- Mana or resource systems for spells
+- PvP — the game is confirmed PvE/co-op; player-vs-player combat is not confirmed
+
+This guide will be updated as confirmed information becomes available.

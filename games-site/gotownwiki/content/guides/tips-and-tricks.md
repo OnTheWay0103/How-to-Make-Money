@@ -14,20 +14,20 @@ After thirty-plus hours in Go-Go Town!, the community has compiled a reliable se
 
 ## Movement and Transportation
 
-- **Find the skateboard** — hidden in a map corner, it's faster and more maneuverable than the truck, which gets stuck on trees. Use it for anything except bulk hauling.
+- **Buy the kickflip skateboard** — it's not hidden on the map; it's a purchasable vehicle (community reports say it was available through the Import shop in Early Access). It's faster and more maneuverable than the truck, which gets stuck on trees. Use it for anything except bulk hauling. Its current 1.0 availability is unconfirmed — check the vehicle shop when it unlocks.
 - **Use the truck for bulk, roads only** — the truck holds 48 slots (your backpack has 8), but it only drives on roads, not brick or tile surfaces. Plan truck routes on the road grid.
 - **Use fast travel** — critters, diggable treasures, and new fishing spots hide across all maps, including outer zones. Fast travel between them makes treasure sweeps viable.
-- **Add the minimap and clock via the Widgets App** — both make exploration and time management dramatically easier.
+- **Add the minimap and clock via a phone widget app** — community guides report a widgets app that adds these overlays; both make exploration and time management dramatically easier.
 
 ## Storage and Inventory
 
 - **Lock storage bins** — press I on a storage box, select a product, press L. Workers will deposit that item there automatically. This single habit fixes most sorting chaos.
-- **Seeds don't take backpack space** — they're key items, so carry every seed type you own.
-- **Watch slot counts** — wood, bricks, planks, and metal ingots take 2 backpack slots each. Load them in the truck, not your back.
+- **Seeds don't take backpack space** — they're key items, so carry every seed type you own (community-reported; exact slot rules may vary by patch).
+- **Watch slot counts** — processed materials like wood, bricks, planks, and metal ingots stack differently than raw goods. Load bulk materials in the truck, not your back.
 
 ## Worker and AI Troubleshooting
 
-- **Workers not working?** Check in order: tools inside the zone boundary, storage inside the zone, seeds available (purple flowers left of the farm refresh daily, or buy seed packs from the Import app), storage not full.
+- **Workers not working?** Check in order: tools inside the zone boundary, storage inside the zone, seeds available (seed sources vary by zone — community guides mention flower patches near the farm and seed packs for import; exact spawns are unconfirmed), storage not full.
 - **Don't fight the couriers** — if you place materials first, the AI may drop them on the ground. Let workers do their jobs.
 - **Stuck maintenance worker?** Unhire/rehire, or nudge gently with a vehicle.
 - **Workers only catching crabs?** Delete crab cages (or clear storage); delete fishing rods for the opposite behavior.
@@ -35,9 +35,9 @@ After thirty-plus hours in Go-Go Town!, the community has compiled a reliable se
 
 ## Maintenance and Cleanliness
 
-- **Purple stains damage buildings** — clean them with bubble machines or sanitation workers before they spread. Close the train station (R key) to pause tourists while you renovate.
+- **Purple floor grime damages nearby equipment** — clean it with bubble machines/guns or sanitation workers before it spreads. You can pause tourist arrivals at the train station while you renovate.
 - **Repair damaged items** by placing the required materials (wood, concrete, bricks) at the repair spot.
-- **Trash bins in high-traffic areas** are the cheapest satisfaction investment in the game.
+- **Trash bins in high-traffic areas** are the cheapest satisfaction investment in the game. Garbage bins cost coins and need permits; dumpsters hold far more garbage.
 
 ## Layout and Building
 
@@ -56,7 +56,7 @@ After thirty-plus hours in Go-Go Town!, the community has compiled a reliable se
 
 ## Quality-of-Life Gems
 
-- **Customize your character** at the makeover machine near spawn — free, instant, and fun.
+- **Customize your character before entering the game** — the 1.0 update moved character creation to the pre-game screen, so there's no in-game makeover machine anymore.
 - **Fishing in the forest junk area** unlocks decorations you can't buy from the Import shop.
 - **Fishing rod stuck?** Press Q to drop it — a known bug workaround.
 - **Language bug?** The "Prideful Sloth" localization issue is fixed by editing `options.txt` in `AppData\LocalLow\Prideful Sloth\Go-Go Town!` (later patched in-game).

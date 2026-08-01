@@ -1,77 +1,104 @@
 ---
 title: 'Grain Rot Launch Guide — What to Do First on August 7'
-description: 'Grain Rot launches August 7, 2026 — are you ready? Launch day guide with what changes from the demo, what to do in your first 24 hours, Outpost unlock order, and day-1 co-op planning.'
-keywords: ['grain rot release date', 'grain rot launch guide', 'grain rot august 7', 'grain rot full release', 'grain rot what to do first', 'grain rot what is new']
+description: 'Grain Rot launches August 7, 2026 on Steam. Launch-day guide with the confirmed facts: demo history, system requirements, languages, what to expect at launch, and your first 24 hours.'
+category: 'Guides'
+version: 'Pre-release'
 updated: '2026-08-01'
+keywords: ['grain rot release date', 'grain rot launch guide', 'grain rot august 7', 'grain rot full release', 'grain rot what to do first', 'grain rot launch day']
+related: ['release-date-faq', 'demo-guide', 'beginner-guide', 'player-count-guide', 'all-biomes-guide']
 ---
 
 # Grain Rot Launch Guide — What to Do First on August 7
 
-Grain Rot launches **August 7, 2026** on Steam as a full release — not Early Access — with nearly 200,000 wishlists and over 350,000 demo downloads behind it. If you played the demo, you have a head start on mechanics but not on progression: **demo progress does not carry over**. Everyone starts fresh. This guide covers exactly what to do in your first 24 hours.
+Grain Rot launches **August 7, 2026** on Steam — a full release, not Early Access. The game arrives with enormous momentum: roughly **200,000 wishlists** and more than **350,000 demo downloads** from the June Steam Next Fest demo. Here's everything confirmed about launch day, and the honest first-24-hours plan.
+
+## Confirmed Launch Facts
+
+| Fact | Detail |
+|------|--------|
+| **Release date** | August 7, 2026 |
+| **Platform** | PC via Steam |
+| **Release type** | Full release (not Early Access) |
+| **Developer** | Beck & Branch Games (two-person indie studio) |
+| **Publisher** | Neem Interactive |
+| **Modes** | Single-player + online co-op |
+| **Languages at launch** | 11 fully supported (English, German, Japanese, Korean, Portuguese-Brazil, Russian, Simplified Chinese, Ukrainian, French, Spanish-Latin America, Traditional Chinese) |
+| **Price** | Unannounced — check the Steam page on launch day |
+| **Consoles** | None confirmed — PC/Steam only at launch |
+
+**A note on the date:** nearly all sources confirm August 7; a small number of listings show August 6 or 8. The Steam page itself says August 7 — treat that as authoritative.
+
+## About the Demo (The Head Start)
+
+If you played the demo, you have a real head start — on *skill*, not progression:
+
+- The demo contains the full core loop: 3 underground biomes, 9 enemy types, 20+ unlockable constructs, upgradeable Outpost rooms, and dungeon modifiers.
+- **Demo progress is not expected to carry over.** The developers haven't published a carry-over statement, so plan for a fresh start.
+- Everything you learned — sound discipline, Grinder economy, extraction rhythm, co-op calls — transfers directly.
 
 ## Before Launch (Do This Now)
 
-1. **Update the game when it goes live** — launch-day builds often patch quickly; check for updates before your first session.
-2. **Agree on a squad** — Grain Rot is best with 1–4 players. Coordinate a launch-time lobby with friends *before* the release so you can descend together on day one.
-3. **Assign tentative roles** — Vanguard (tank/blocker), Scout (navigation), Striker (damage), Hauler (loot). Roles are soft in Grain Rot, but starting with a plan speeds up early extraction success.
-4. **Don't carry demo expectations for unlock costs** — the full game's Outpost upgrades cost more and take longer. The demo was tuned to be generous; the real economy is slower.
+1. **Wishlist and follow the Steam page.** You'll get a launch notification, and the page is where the price and patch notes will land.
+2. **Check your PC against the requirements** (below). The game needs broadband for online play.
+3. **Line up your crew.** Co-op is the center of gravity — agree on a launch window with friends.
+4. **Play the demo once more if you haven't recently.** A refresher on the mechanics makes day-one runs smoother.
 
-## What's New in the Full Release (vs the Demo)
+## System Requirements (Confirmed)
 
-| System | Demo | Full Release (Aug 7) |
-|--------|------|----------------------|
-| Biomes | 3 (Shallows, Warrens, Depths) | 4+ — including Rot-Hollow and beyond |
-| Bosses | 1 (Flesh-Grafted Abomination) | Multiple unique bosses |
-| Enemies | 9 types | More types with more complex AI |
-| Outpost | Workshop/Forge Lv.3, Alchemy Lv.2 | Lv.4 for all rooms |
-| Survivors | 2 (Alchemist, Cartographer) | 4 — the Tinkerer and Merchant join |
-| Constructs | 20+ | All constructs incl. legendary ones |
-| Vessels | Starter set | Endgame unlocks (Ember-Kissed Vessel, Spark Jumper) |
-| Story | Teaser only | Full story with two endings |
-| Corruption | Reduced rate | More aggressive — the demo was forgiving |
+**Minimum:**
+- OS: Windows 10 64-bit
+- CPU: Intel Core i5-4590 / AMD Ryzen 5 2600
+- RAM: 8 GB
+- GPU: NVIDIA GTX 970 / AMD Radeon R9 390
+- DirectX 11, broadband internet, 10 GB storage
+
+**Recommended:**
+- OS: Windows 10 64-bit
+- CPU: Intel Core i5-10600 / AMD Ryzen 5 3600
+- RAM: 8 GB
+- GPU: NVIDIA RTX 2060 / AMD Radeon RX 5700
+- DirectX 11, broadband internet, 10 GB storage
 
 ## Your First 24 Hours: The Plan
 
-### Hour 0–1: Foundation Runs
+### Hour 0: Descend
 
-- Complete 3–5 successful extractions from **The Shallows**. Success means extraction, not loot — build the habit.
-- **Unlock order**: Workshop Lv.1 → Forge Lv.1. The Reinforced Mallet (1-hit furniture smashing) is the single biggest time saver in the early game.
-- Spend gold on construct slots over cosmetics. Hats are fun; slots are survival.
+- Update the game, invite your crew, and take the elevator for the first time.
+- **Don't optimize — experience.** The first run is about feeling the confirmed systems: possession, sound, corruption, extraction.
 
-### Hour 1–3: Push The Warrens
+### Hour 1-2: Foundation Runs
 
-- Rescue **The Alchemist** (The Shallows secret alcove) and **The Cartographer** (The Warrens hidden tunnel) early — survivors unlock services and new tool paths.
-- Unlock the **Splinter-Bow** (Forge Lv.2) — it's the workhorse ranged weapon for the entire game.
-- Practice the 60-second elevator hold on every extraction. This is the skill that ends runs, and day one is when you should build it.
+- Complete 2-3 extractions, however small. **Consistency beats greed on day one.**
+- Learn what changed from the demo (expect tuning differences — the demo was more generous by design).
+- Find the Grinder rhythm: smash, convert, extract.
 
-### Hour 3–6: The Depths
+### Hour 2-6: Build the Outpost
 
-- First trip to The Depths should be short and deliberate: one objective, then extract. The corruption rate is higher in the full game — respect it.
-- Kill your first **Flesh-Grafted Abomination** in a group, or solo with a kiting strategy (ranged weapon, clear death spawns, never stop moving).
-- Unlock Alchemy Lv.1 for Healing Salves, then Lv.2 for the Rot Dart Tube when resources allow.
+- Spend extracted resources on the confirmed unlocks: constructs, stat upgrades, and Outpost rooms.
+- **Prioritize unlocks that improve runs** (tools, stats) over cosmetics — "questionable cosmetics" are confirmed, but they don't extract loot.
+- Rescue survivors when you reach them — "rescue survivors trapped in the Deep Layers" is official.
 
-### Hour 6–24: Build Your Economy
+### Hour 6-24: Go Deeper
 
-- Max Workshop Lv.3 and Forge Lv.3 to unlock all construct slots and the Crystal Shard Launcher.
-- Upgrade Training Ground stats — prioritize **carry capacity** and **stamina**.
-- Begin farming for the **Obsidian Golem** vessel (the endgame tank) and the **Crystal Weaver** (double loot) — these two unlock the strongest farming loops.
+- Push past demo depth. The Deep Layers are where the game's real rewards live.
+- **Extract with something.** "If everyone breaks, your loot is lost" — never risk a full wipe on day one.
+- Check the community hubs (Discord, Reddit) for verified post-launch data — and be skeptical of day-one "tier lists" that weren't possible pre-launch.
 
-## Day-1 Pitfalls to Avoid
+## Day-1 Pitfalls
 
-1. **Rushing Rot-Hollow unprepared** — biomes 4+ assume Lv.3 rooms and at least one elite vessel. A day-one team with base gear will wipe, and wipes cost the whole haul.
-2. **Greedy extraction timing** — the full game's corruption is faster. If your vessel is warping and the bag is 70% full, extract.
-3. **Splitting the squad** — day one is not the time for solo side-quests. Stick together until everyone knows the new biomes.
-4. **Ignoring barricades** — the elevator hold is the same as the demo: 60 seconds, enemies converging. Bring a Barricade Kit every run.
-5. **Spending on cosmetics early** — cosmetics are tempting and cheap, but early game every gold coin should fund rooms and vessels. Cosmetic Workshop can wait until the economy is stable.
+1. **Assuming demo progress carries over.** Plan for a reset.
+2. **Trusting pre-launch tier lists.** No verified vessel/weapon data exists; test and learn.
+3. **Going too deep too fast.** The Rot escalates with depth — respect the clock.
+4. **Splitting the squad.** Day one is chaos for everyone; stay together until the team knows the new content.
+5. **Ignoring the requirements.** A machine below minimum specs will struggle; check before launch, not during.
 
-## What About the Demo?
+## What About Post-Launch Content?
 
-The demo remains available after launch, and its content was a true slice of the final game — all 9 demo enemies return with their same core patterns, so demo veterans already know the combat basics. Treat the demo as your training ground: it's finished its job now, and the real run begins on August 7.
+The developers have not announced a roadmap, DLC, seasons, or live events. The confirmed launch package is the game itself. We'll update this page (and the rest of the wiki) with verified post-launch data as it appears.
 
 ## Related Guides
 
-- [Beginner Guide](/guides/beginner-guide) — the full first-run walkthrough
-- [Best Loadouts Guide](/guides/best-loadouts) — vessel and weapon tiers for launch
-- [All Biomes Guide](/guides/all-biomes-guide) — what to expect in each biome
-- [Endgame Survival Guide](/guides/endgame-survival) — deep-layer play after launch week
-- [Co-op Guide](/guides/co-op-guide) — squad roles and coordination
+- [Release Date FAQ](/guides/release-date-faq) — everything about the launch, platforms and price
+- [Demo Guide](/guides/demo-guide) — your head start, explained
+- [Beginner Guide](/guides/beginner-guide) — the first-run walkthrough
+- [Player Count Guide](/guides/player-count-guide) — squad size facts

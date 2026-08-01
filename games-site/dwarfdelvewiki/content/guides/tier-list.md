@@ -1,99 +1,101 @@
 ---
-title: 'Tier List — Best Gear, Perks & Builds in Dwarf Delve'
-description: 'Complete Dwarf Delve tier list. Best gear ranked, perk tier list, top builds for solo and co-op, and mining efficiency rankings.'
+title: 'Tier List & Upgrade Priority — Best Gear and Builds in Dwarf Delve'
+description: 'An honest Dwarf Delve tier list. No official weapon or perk roster exists yet, so this is a priority list for the confirmed systems: Battlemallet, lantern, capacity, rails — and how to rank claims you see elsewhere.'
 keywords: ['dwarf delve tier list', 'dwarf delve best gear', 'dwarf delve best perks', 'dwarf delve best builds', 'dwarf delve meta']
 category: Meta
 version: '1.0'
-updated: '2026-07-29'
+updated: '2026-08-01'
 related:
   - best-gear-equipment-guide
   - perks-skills-guide
   - beginner-guide
 ---
 
-## Dwarf Delve Tier List
+## Dwarf Delve Tier List: The Honest Version
 
-> Rankings based on overall effectiveness across solo and co-op play.
+The truth first: **a real tier list for Dwarf Delve doesn't exist yet.** There is no confirmed roster of weapons, perks, ores, or enemies to rank. The game launched on July 27, 2026, and its official materials confirm only a handful of systems. Every tier list you see naming pickaxes, crossbows, flamethrowers, and "Lone Wolf" perks is fabricated — those items are not in the confirmed game.
 
-## Pickaxe Tier List
+What this guide offers instead: a **priority list** for the systems that ARE confirmed, so you can spend your early coin and upgrades where they matter. When real meta data exists, this page becomes an actual tier list.
 
-| Tier | Pickaxe | Why |
-|:--:|------|------|
-| **S** | Mythril Pickaxe | Double yield + fastest mining. Endgame essential. |
-| **A** | Crystal Pickaxe | Auto-collect saves massive time. Best mid-game upgrade. |
-| **A** | Gold Pickaxe | Rare ore detection on minimap. Huge QoL. |
-| **B** | Silver Pickaxe | Solid upgrade from Iron. Good value for cost. |
-| **B** | Iron Pickaxe | Your first upgrade target. Huge jump from Wood. |
-| **C** | Wooden Pickaxe | Starter tool. Replace immediately. |
+## The Confirmed Roster (Everything That Can Be Ranked)
 
-## Weapon Tier List
+### Tools (All Confirmed)
 
-| Tier | Weapon | Best For |
-|:--:|------|------|
-| **S** | War Pickaxe | Combat + mining in one slot. Best solo weapon. |
-| **A** | Crossbow | Safe ranged damage. Essential for Scouts. |
-| **A** | War Hammer | Best stagger. Stuns elites in 2-3 hits. |
-| **B** | Throwing Axes | Good for pulling enemies. Low sustained DPS. |
-| **B** | Flamethrower | Clears swarms fast. Ammo-hungry. |
-| **C** | Basic Pickaxe | Mining only. Never fight with this. |
+| Tool | Confirmed Role | Priority Tier |
+|------|----------------|---------------|
+| **Battlemallet** | Mining + combat in one tool | S — upgrade first |
+| **Lantern** | Basic light; "cast away shadows" upgrade path | S — upgrade second |
+| **Support beams** | Collapse counter — the #1 confirmed killer | A |
+| **Flares** | Throwable light; uncover hidden secrets | A |
+| **Floodlights** | Portable area light | B |
+| **Ladders** | Vertical access | B |
+| **Minecart rails** | "Shift and store those heavy ores" | B (A for heavy hauls) |
+| **Gear hooks** | Free your hands while mining | C (QoL) |
 
-## Perk Tier List
+### Upgrade Themes (All Confirmed)
 
-### S-Tier (Must-Have)
-| Perk | Why |
-|------|-----|
-| **Lone Wolf** | +15% damage solo. Transformative for solo players. |
-| **Pack Mule** | +30% carry capacity. More loot per run = faster progression. |
-| **Iron Gut** | Less food/water drain. Less inventory space for supplies. |
+| Theme | Confirmed Effect | Priority |
+|-------|------------------|----------|
+| Carry more loot | More value per extraction | S — progression multiplier |
+| Hit harder | Faster mining AND combat | A — run-efficiency multiplier |
+| Move faster | Shorter exposure, safer extracts | A — safety multiplier |
 
-### A-Tier (Strong)
-| Perk | Why |
-|------|-----|
-| **Night Vision** | See in darkness. Essential for deep biomes. |
-| **Fast Hands** | +25% mining speed. Faster mining = more resources. |
-| **Danger Sense** | Alerts to nearby elites and bosses. Prevents ambushes. |
+## Priority List: How to Spend Early
 
-### B-Tier (Situational)
-| Perk | Why |
-|------|-----|
-| **Medic** | Faster revives in co-op. Useless solo. |
-| **Berserker** | Damage boost when low HP. High risk, high reward. |
-| **Trap Master** | Longer trap duration. Only for Engineer builds. |
+### Phase 1: Foundation (First Runs)
+1. **Battlemallet upgrade** — mining + combat in one spend
+2. **Lantern upgrade** — darkness is a confirmed hazard
+3. **Support beam capacity** — collapse insurance
+4. **Flares** — cheap scouting and marking
 
-### C-Tier (Skip)
-| Perk | Why |
-|------|-----|
-| **Gem Finder** | Slightly more gems. Marginally useful. |
-| **Torch Bearer** | Brighter torches. Outclassed by Night Vision. |
+### Phase 2: Efficiency (Mid Game)
+1. **Carry capacity** — the confirmed "carry more loot" theme
+2. **Battlemallet damage/speed** — keep pushing the everything-tool
+3. **Floodlights** — for deep mining zones
+4. **Rails** — when heavy ore appears in your runs
 
-## Best Builds
+### Phase 3: Endgame
+1. **Everything maxed** — "every piece of gear can be upgraded and customized to your playstyle"
+2. **Rail networks** — deep heavy-ore hauling
+3. **Quarters** — furnishings with confirmed "may have gameplay consequences"
 
-### Solo: "Lone Prospector"
-| Slot | Choice |
-|------|--------|
-| Weapon | War Pickaxe |
-| Armor | Heavy Plate |
-| Perk 1 | Lone Wolf |
-| Perk 2 | Pack Mule |
-| Perk 3 | Iron Gut |
-| Perk 4 | Night Vision |
+## Build Templates (Honest, System-Based)
 
-### Co-op Miner: "Resource King"
-| Slot | Choice |
-|------|--------|
-| Weapon | Crystal Pickaxe |
-| Armor | Light Armor (speed) |
-| Perk 1 | Pack Mule |
-| Perk 2 | Fast Hands |
-| Perk 3 | Ore Sense |
-| Perk 4 | Fleet Footed |
+Since no official perks exist, here are playstyle templates built on confirmed systems:
 
-### Co-op Guard: "Bulwark"
-| Slot | Choice |
-|------|--------|
-| Weapon | War Hammer |
-| Armor | Heavy Plate |
-| Perk 1 | Heavy Hitter |
-| Perk 2 | Iron Skin |
-| Perk 3 | Berserker |
-| Perk 4 | Danger Sense |
+### "The Prospector" (Progression)
+- Lead theme: carry more loot
+- Tools: Battlemallet, capacity upgrades, rails for heavy ore
+- Loop: sweep shallow-mid, haul with carts, extract consistently
+
+### "The Delver" (Depth)
+- Lead theme: hit harder + light
+- Tools: maxed Battlemallet, lantern/floodlights, beams
+- Loop: deep relic hunting with hard extraction triggers
+
+### "The Runner" (Speed)
+- Lead theme: move faster
+- Tools: light kit, flares for marking, minimum cargo
+- Loop: fast shallow-mid sweeps, high frequency
+
+## How to Rank Claims You See Online
+
+The Dwarf Delve meta is young and polluted with fabricated tier lists. Use this test:
+
+| Claim | Verdict |
+|-------|---------|
+| "Mythril pickaxe is S-tier" | Fabricated — no pickaxes in the game |
+| "Lone Wolf perk +15% damage" | Fabricated — no official perk names |
+| "Crossbow beats Battlemallet" | Fabricated — Battlemallet is the only confirmed weapon |
+| "Pack Mule is the best perk" | Confusion — Pack Mule is an achievement name, not a confirmed perk |
+| "Upgrade the Battlemallet first" | Sound — follows from confirmed systems |
+| "Carry capacity compounds with rails" | Sound — confirmed "carry more loot" + "shift and store heavy ores" |
+
+## When a Real Tier List Arrives
+
+This page converts into a genuine tier list when:
+1. The developer publishes weapon/perk/ore rosters
+2. Verified community testing produces consensus data
+3. Patches add new systems
+
+Until then, treat the priority list above as the reliable version: **Battlemallet → lantern → beams → capacity → rails.** It's built entirely from confirmed systems, and it will carry you through the game's early meta regardless of what the community discovers next.

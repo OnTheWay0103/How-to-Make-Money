@@ -1,161 +1,94 @@
 ---
-title: 'Phantom Tower Progression Guide — Unlockables, Meta-Progression, and Endgame'
-description: 'Complete Phantom Tower progression guide — meta-progression systems, class unlocks, Survival Mode strategies, New Game+ difficulty tiers, legendary farming, and achievement roadmap.'
-keywords: ['Phantom Tower progression guide', 'Phantom Tower meta-progression', 'Phantom Tower unlock classes', 'Phantom Tower Survival Mode', 'Phantom Tower New Game Plus', 'Phantom Tower achievements']
-updated: '2026-07-30'
+title: 'Phantom Tower Progression Guide — Meta-Progression and Endgame'
+description: 'Complete Phantom Tower progression guide — what persists between runs in Climb Mode, the Soulbinder, Survival Mode permadeath, Steam achievements, and the official Early Access roadmap.'
+category: 'Guides'
+version: 'Early Access'
+updated: '2026-08-01'
+keywords: ['Phantom Tower progression guide', 'Phantom Tower meta-progression', 'Phantom Tower Climb Mode', 'Phantom Tower Survival Mode', 'Phantom Tower achievements', 'Phantom Tower Early Access roadmap']
+related:
+  - soulbinder-guide
+  - weapons-guide
+  - boss-guide
+  - tips-and-tricks
 ---
 
-# Phantom Tower Progression Guide — Unlockables, Meta-Progression, and Endgame
+# Phantom Tower Progression Guide — Meta-Progression and Endgame
 
-Reaching floor 100 is only the beginning. Phantom Tower's meta-progression systems, unlockables, difficulty tiers, and Survival Mode offer dozens of additional hours of content. This guide covers everything after your first clear.
+Phantom Tower is a roguelike, which raises one question before anything else: what survives death? The answer is the game's meta-progression design — and it is more generous than most roguelikes. This guide covers the confirmed progression systems, the two game modes, the officially listed achievements, and the Early Access roadmap, all grounded in official sources.
 
-## Meta-Progression — What Persists Across Runs
+## What Persists Across Runs (Confirmed)
 
-Understanding what persists between runs is the key to efficient progression. Phantom Tower's meta-progression divides into three categories:
+The official Steam description of Climb Mode is the anchor: you explore the tower "collecting materials, resources, and equipment to bring back outside." Progress carries over between runs. On top of that, the official Soulbinder description confirms the deepest persistence layer:
 
-### Category 1: Always Persists (Death-Proof)
-- **Unlocked classes** — Once unlocked, available forever
-- **Soulbinder stats** — Locked stats on gear persist permanently
-- **Discovered Tower Blessings** — Added to your blessing pool for future runs
-- **Steam achievements** — Never reset
-- **Floor checkpoints** — Every 10 floors you reach become a new starting point
+**Confirmed permanent progression:**
+- **Materials, resources, and equipment brought out of the tower** — Climb Mode's official design
+- **Soulbinder stats** — permanently locked onto gear, developable up to level 99
+- **Classes** — 8 at launch, per official press materials
+- **Steam achievements** — 8 total are listed on the Steam page
 
-### Category 2: Partially Persists
-- **Forged weapons** — Persist in Climb Mode, reset in Survival Mode
-- **Gold** — Persists between Climb Mode runs, reset in Survival Mode
-- **Upgrade materials** — Persist in Climb Mode, reset in Survival Mode
+**Not officially detailed (TBD):**
+- Whether failed runs start from checkpoints (and at what floors)
+- Which specific currencies and materials persist
+- How the Soulbinder interacts with Survival Mode
 
-### Category 3: Never Persists
-- **Items collected during a run** — Lost on death
-- **Floor progress within a 10-floor segment** — Death sends you to your last checkpoint
-- **Temporary buffs and status effects** — Always reset
+## Climb Mode — The Main Campaign
 
-## Floor Checkpoint System
+Climb Mode is the core experience. Official facts:
 
-| Milestone | Unlock | Significance |
-|-----------|--------|--------------|
-| Floor 10 | Checkpoint 1 | Can now start runs from floor 10 |
-| Floor 20 | Checkpoint 2 | Unlock Twin Sentinels practice |
-| Floor 30 | Checkpoint 3 | Blacksmith unlocks forging |
-| Floor 50 | Checkpoint 5 | Shrine rooms appear |
-| Floor 70 | Class Unlock | 8th class becomes available |
-| Floor 100 | Final Clear | New Game+ unlocked |
+- **You climb the tower collecting materials, resources, and equipment** to bring back outside
+- **Progress carries over between runs** — the mode's defining feature
+- The tower is **100 floors** tall per the official mobile store description, and no one has reached the top — "many have tried; none have reached the summit" is the game's premise
 
-## Class Unlock Requirements
+The practical shape of Climb Mode progression: every run feeds the next. Materials become forged gear (the Blacksmith is the confirmed crafting hub), gear becomes Soulbound stats, and your climbing ceiling rises floor by floor.
 
-All 8 classes are available from the start on Steam. However, understanding their progression paths helps with planning:
+## Survival Mode — The Endless Endgame
 
-| Class | Best For | Progression Path |
-|-------|----------|-----------------|
-| Warrior | Learning the game | Clear floor 10 with Warrior → unlocks confidence for other classes |
-| Ranger | Safe exploration | Clear floor 20 with Ranger → learn all enemy patterns safely |
-| Guardian | Survival Mode | Clear floor 30 with Guardian → unlock forging for all classes |
-| Berserker | Boss farming | Clear floor 50 with Berserker → legendary farming build |
-| Mystic | Blessing mastery | Clear floor 50 with Mystic → learn all blessing synergies |
-| Blade Dancer | Speed farming | Clear floor 70 with Blade Dancer → fastest farm class |
-| Elementalist | High-difficulty clears | Master all 16 reactions first, then attempt floor 100 |
-| Rogue | Challenge runs | Clear with all other classes first |
+Survival Mode is the other official mode, and it is the opposite experience in one way and the same in another:
 
-**Recommended unlock order for new players:**
-1. Warrior (learn basics, reach floor 20)
-2. Ranger (learn all enemy patterns from safe distance, reach floor 30)
-3. Guardian (learn Survival Mode, unlock forging)
-4. Your preferred class for the floor 100 push
+- **Infinite hordes of monsters** — endless waves
+- **You choose your equipment** before entering
+- **Every defeat, however, is final** — true permadeath; no checkpoint, no carry-over
 
-## New Game+ (After Floor 100 Clear)
+**Progression in Survival Mode** is therefore run-based: your goal is surviving as long as possible, with leaderboard-style bragging rights the natural endgame. For material farming, note the official description lets you choose your loadout — bring your best-forged, Soulbound gear and test it against the endless waves. Whether Soulbinder stats carry into Survival Mode is unconfirmed; plan around permadeath either way.
 
-Clearing floor 100 unlocks New Game+ with three difficulty tiers:
+## Steam Achievements — The Official List
 
-| Tier | Enemy Stats | Drop Rates | Blessing Slots | Recommended Weapon Level |
-|------|------------|------------|---------------|-------------------------|
-| NG+ | +50% HP/Damage | +25% rare drops | 3 (4 Mystic) | 80+ |
-| NG++ | +100% HP/Damage | +50% rare drops | 3 (4 Mystic) | 95+ |
-| NG+++ | +200% HP/Damage | +100% rare drops | 4 (5 Mystic) | 99 (max) |
+The Steam page lists **8 achievements** (a small set, with more planned during Early Access). Four have been revealed by name:
 
-**New Game+ changes:**
-- Enemies have new attack patterns not seen in the base game
-- Bosses gain additional phases (Floor 10 Warden has 4 phases instead of 3)
-- Legendary blessing drop rate doubles
-- Exclusive NG+++ cosmetic rewards (character auras, weapon skins)
+| Achievement | Notes |
+|-------------|-------|
+| **The Artisan** | Name revealed; requirement not published |
+| **Sanctum conqueror** | Name revealed; requirement not published |
+| **Billionaire** | Name revealed; requirement not published |
+| **Grand Achiever** | Name revealed; requirement not published |
+| (4 more) | Names TBD |
 
-## Survival Mode — Infinite Endgame
+Note: older guides list achievement requirements and different names (for example, "Millionaire" instead of "Billionaire") — those are inaccurate. Requirements have not been published; the four names above are the only confirmed facts.
 
-Survival Mode is Phantom Tower's infinite horde mode with true permadeath:
+## The Early Access Roadmap — Official Plans
 
-**Rules:**
-- Choose a loadout and enter an arena
-- Face infinite waves of increasingly difficult enemies
-- Death is permanent — no checkpoints, no persistence
-- Leaderboards track your highest wave reached
+The Steam page lists the developer's announced plans for the Early Access period (the game entered Early Access July 13, 2026; a full-release date has not been announced):
 
-**Survival Mode Milestones:**
+- **New bosses** — more boss content planned
+- **Additional playable characters** — the 8-class launch roster will grow
+- **More diverse gear** — the 128-weapon / 200+ item pool will expand
+- **Possible multiplayer co-op** — under investigation, per the Steam page; not a commitment
+- **Localization** — AI-generated localization is being shipped for French, German, Spanish, Portuguese, Russian, Japanese, and Korean
 
-| Wave | Difficulty Spike | Reward |
-|------|-----------------|--------|
-| 10 | First elite enemies appear | Common material pack |
-| 25 | Two elites simultaneously | Uncommon material pack |
-| 50 | Boss enemies in waves | Rare material pack |
-| 75 | Multiple bosses simultaneously | Epic material pack |
-| 100 | All enemies are boss-tier | Legendary material pack |
-| 100+ | Endless scaling | Bragging rights |
+Claims about a specific 1.0 date, New Game+ tiers, or console releases are **not** in the official record — treat them as speculation.
 
-**Best classes for Survival Mode:**
-1. **Guardian** — The tank build is unkillable in Survival Mode. Earthen Fortress + Stone Skin + Vitality Boon + Regeneration can push past wave 100.
-2. **Elementalist** — Reaction Overload build clears waves faster than any other class. Best for speed-pushing milestones.
-3. **Mystic** — Extra blessing slot and re-roll ability provides the most consistent high-wave runs.
+## Endgame Goals After Your First Clears
 
-**Survival Mode farming strategy:**
-1. Reach wave 50 for rare materials (takes ~20 minutes with Guardian)
-2. Cash out (you can leave between waves with collected materials)
-3. Forge and upgrade gear with farmed materials
-4. Repeat until your Climb Mode gear is optimized
-5. Push for floor 100 in Climb Mode
+With the confirmed systems in mind, the sensible endgame loop:
 
-## Legendary Farming — Optimizing Your Gear
+1. **Maximize the permanent layer.** Push Soulbinder stats toward the level-99 ceiling on gear you actually use — the official meta-progression cap
+2. **Farm bosses for Boss Unique Weapons.** Steam bosses drop exclusive weapons, the game's confirmed chase items
+3. **Climb with intent.** 100 floors is the summit; each run should extend your confirmed best
+4. **Test builds in Survival Mode.** Permadeath is the truest build test — choose your equipment and see how far it goes
+5. **Keep an eye on the roadmap.** New bosses, classes, and gear will reshape the meta; check the Steam page for patch notes
 
-Once you have cleared floor 100, legendary farming becomes the primary endgame goal:
+## Bottom Line
 
-**Best legendary farming method:**
-1. Start from floor 80 checkpoint
-2. Speedrun floors 80-100 with a VENTI mobility build (Blade Dancer or Ranger)
-3. Boss drops at floor 90 and 100 have the highest legendary rates
-4. Full clear takes ~15 minutes with optimized gear
-5. Average 1 legendary per 3-4 full clears
+Phantom Tower's progression is built on a simple promise: **runs compound**. Materials come out of the tower, gear gets forged, stats get Soulbound, and the next climb starts stronger than the last — while Survival Mode waits as a permadeath proving ground. In Early Access, the roadmap promises more of everything that matters.
 
-**Soulbinder optimization for farming:**
-- Bind "Item Find" on your farming amulet (increases legendary drop rate)
-- Bind "Movement Speed" on your farming boots (faster clears = more drops/hour)
-- Use a dedicated farming loadout separate from your progression loadout
-
-## Steam Achievements Roadmap
-
-Phantom Tower has 8 Steam achievements (more planned during Early Access):
-
-| Achievement | Requirement | Difficulty |
-|-------------|-------------|-----------|
-| Sanctum Conqueror | Clear floor 50 | ★★☆☆☆ |
-| Millionaire | Accumulate 1,000,000 gold | ★★☆☆☆ |
-| The Collector | Own 100 unique weapons | ★★★☆☆ |
-| On Top of the Unknown | Clear floor 100 | ★★★★☆ |
-| (4 more TBD) | Full release achievements | — |
-
-**Achievement hunting order:**
-1. Millionaire (happens naturally while playing)
-2. Sanctum Conqueror (reach floor 50 with any class)
-3. The Collector (farm floors 1-30 with high movement speed)
-4. On Top of the Unknown (requires full build optimization)
-
-## Early Access Roadmap — What is Coming
-
-Horien Studio has announced the following for Phantom Tower's Early Access period (targeting full 1.0 release in H1 2027):
-
-| Planned Feature | Timeline | Impact |
-|----------------|---------|--------|
-| New bosses | Monthly updates | More floor bosses and optional superbosses |
-| Additional playable characters | Q4 2026 | Possibly 9th and 10th classes |
-| More gear and abilities | Ongoing | Expanded weapon pool and new blessings |
-| Multiplayer co-op | Under investigation | May fundamentally change the meta |
-| Enhanced visuals and UI | Throughout EA | Gradual polish improvements |
-| Console release | 1.0 launch | PlayStation, Xbox, Nintendo Switch |
-
-**Next steps:** Apply your progression knowledge with our [endgame tips](/guides/tips-and-tricks) or master [Survival Mode](/guides/combat-guide).
+**Next steps:** Make your gear permanent with the [Soulbinder Guide](/guides/soulbinder-guide), and learn boss-fight preparation in the [Boss Guide](/guides/boss-guide).

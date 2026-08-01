@@ -1,198 +1,94 @@
 ---
-title: "Skill Tree Guide — Best Builds for Every Class"
-description: "Complete skill tree guide for Dragonsword — optimal skill point allocation, passive priority, and advanced builds for every class and playstyle."
-category: "Builds"
-version: 1.0
-updated: "2026-07-27"
-keywords: [skill tree, skill tree guide, dragonsword skills, best builds, class builds, skill point allocation, passive skills, skill reset, talent tree]
-related: [pvp-guide, quest-guide, ../class-guide, ../best-gear]
+title: 'Hero Skills Explained — Active Skills, Signal Skills & Status Ailments'
+description: 'How hero skills work in DragonSword: Awakening — fixed skill kits per hero, Active Skills that apply status ailments, Signal Skills triggered by tag-team switching, and what is unconfirmed.'
+category: 'Builds'
+version: '1.0'
+updated: '2026-08-01'
+keywords: ['dragonsword awakening skills', 'dragonsword awakening signal skills', 'dragonsword awakening active skills', 'dragonsword awakening skill guide', 'dragonsword awakening how skills work', 'dragonsword awakening hero skills']
+related: ['combat-guide', 'character-builds', 'hero-builds-guide', 'tier-list', 'beginner-guide']
 ---
 
-# Skill Tree Guide — Best Builds for Every Class
+# Hero Skills Explained — Active Skills, Signal Skills & Status Ailments
 
-Dragonsword's skill tree system gives each class **100 skill points** to spend across three branches: Core, Combat, and Utility. How you allocate these points determines your role — DPS, tank, support, or hybrid. Each class has access to **6 unique passives** and **8 active skills**, with room to specialise into two of the three branches.
+There is **no skill tree** in DragonSword: Awakening — at least, none has been confirmed. Each of the 19 heroes ships with a fixed, hand-designed skill kit, and your "build" comes from choosing which heroes to bring, how you chain their skills, and what gear you earn. This guide explains the confirmed skill systems and marks everything else as unconfirmed.
 
----
+## No Skill Tree — Fixed Hero Kits
 
-## Overview of the Skill Tree System
+Unlike traditional RPGs with talent trees or stat allocation, DragonSword: Awakening gives every hero a unique, fixed kit. You do not spend skill points, and there is no respec system confirmed. What you *can* do:
 
-| Branch | Focus | Number of Nodes | Max Points per Node |
-|---|---|---|---|
-| **Core** | Primary damage / healing abilities | 8 active, 2 passive | 5 points per active, 3 per passive |
-| **Combat** | Secondary abilities, mobility, defensive | 6 active, 4 passive | 3 points per active, 5 per passive |
-| **Utility** | Buffs, debuffs, QoL improvements | 4 active, 6 passive | 2 points per active, 3 per passive |
+- Choose your party of three heroes (tag-team system)
+- Switch between them mid-combat to chain skills
+- Equip gear that modifies your performance (see the [Equipment Guide](/guides/equipment-guide))
 
-**Skill Points Earned:**
+If a skill tree or upgrade system exists in the full release, it has not been documented yet — this page will be updated the moment it is confirmed.
 
-| Level Range | Points per Level | Total |
-|---|---|---|
-| 1–20 | 1 point per level | 20 |
-| 21–40 | 2 points per level | 40 |
-| 41–60 | 3 points per level | 40 |
+## Active Skills and Status Ailments
 
-**Total: 100 skill points at level 60.**
+The foundation of every hero kit is a set of **Active Skills** that apply **Status Ailments** to enemies. Each hero specializes in one or two ailments, and the ailment is the key to the whole combat loop.
 
----
+Confirmed hero-to-ailment pairings (from official hero reveals):
 
-## Class Builds
+| Hero | Weapon / Style | Confirmed Ailments |
+|------|----------------|-------------------|
+| **Lute** | Greatsword all-rounder | Stun, Knockdown (secondary) |
+| **Castella** | Elf assault vanguard | Break, Stun |
+| **Aria** | Bomb-ranged firepower specialist | Burn, Airborne |
+| **Kalien** | Spiritist commanding fire fox Sur | Stun (fire-flavored) |
+| **Theresia** | Twin sacred maces | Bleed, Stun |
+| **Ornette** | Scythe-wielder | Electrocution (Shock), Knockdown (secondary) |
 
-### 1. Shadow Blade (DPS / Assassin)
+The remaining heroes' ailments are unrevealed as of August 2026 — including **Cerese, Reina, Kalsion, Charlotte, and Roxy**. We list these as **unconfirmed** rather than guessing.
 
-The highest single-target burst in the game. Focus on Core and Combat branches.
+### How Ailments Drive Combos
 
-| Skill | Branch | Points | Effect |
-|---|---|---|---|
-| Backstab | Core | 5/5 | +50% damage from behind |
-| Dagger Storm | Core | 5/5 | AoE slash, +10% damage per rank |
-| Shadow Step | Combat | 3/3 | Gap closer, +20% next attack damage |
-| Evade | Combat | 3/3 | 0.5s invulnerability, 15s CD |
-| Vanish | Combat | 3/3 | Exit combat, auto-crit next attack |
-| Silent Movement | Utility (Passive) | 3/3 | +15% movement speed while stealthed |
-| Lethal Precision | Core (Passive) | 2/2 | +25% crit damage |
-| Shadow's Embrace | Utility (Passive) | 2/2 | Reduce Vanish CD by 10s |
+1. Each time an Active Skill lands, it applies (or stacks) its status ailment on the target.
+2. A hidden ailment layer builds up on the enemy as stacks accumulate.
+3. When a benched hero has a trigger available, a prompt appears — switch to them to unleash their **Signal Skill**.
+4. The chain continues: your new active hero starts applying their own ailments, setting up the next switch.
 
-**Total: 26 points — leave 74 for your preferred secondary specialisation.**
+Teams that focus on one or two matching ailments fill the stack meter fastest — see the [Team Compositions Guide](/guides/team-compositions) for how to build around this.
 
-### 2. Frost Mage (Ranged / Control)
+## Signal Skills — The Payoff Move
 
-High AoE damage and crowd control. Core + Utility gives you perma-slow and max damage.
+**Signal Skills** are the biggest single-hit damage source in the game, and they replace the traditional ultimate skill bar entirely.
 
-| Skill | Branch | Points | Effect |
-|---|---|---|---|
-| Ice Lance | Core | 5/5 | Primary nuke, +30% damage to frozen targets |
-| Frost Nova | Core | 5/5 | AoE root, +1s duration per rank |
-| Blizzard | Core | 5/5 | AoE DoT, +15% slow per rank |
-| Ice Barrier | Combat | 3/3 | Shield absorbing 1,500 damage |
-| Blink | Combat | 2/3 | Teleport forward 15m |
-| Permafrost | Core (Passive) | 2/2 | Chill effects last 3s longer |
-| Mana Reserve | Utility (Passive) | 3/3 | +30% mana regen |
-| Elemental Mastery | Utility (Passive) | 2/2 | +10% all elemental damage |
+- **Trigger condition:** switch to another hero while the target is still under the previous hero's status ailment.
+- **The loop:** Apply (stack ailments) → Extend (chain Active Skills) → Finish (Signal Skill via switching).
+- **No ultimate gauge:** the game removes ultimate skill bars in favor of this QTE-style switching trigger. The prompt appears near the benched team members' faces.
+- Sometimes the active hero can trigger their own Signal Skill at the same time for even more damage.
 
-**Total: 27 points. Remaining points go into Combat for mobility.**
+HOUND13's Steam description calls this the **"Switching Signals"** system: *"Heroes weave in and out of battle in endless combo chains through Switching Signals."*
 
-### 3. Paladin (Tank / Support)
+### Signal Skill Facts Still Unconfirmed
 
-The best support class. Max Combat (defensive) and Utility (team buffs).
+- The exact number of ailment stacks required to trigger a Signal Skill
+- Whether individual Signal Skills have names (no official list exists yet)
+- Whether switching has a cooldown or is always available
+- Whether the incoming hero's switch-in has invulnerability frames
 
-| Skill | Branch | Points | Effect |
-|---|---|---|---|
-| Prot Aura | Core | 5/5 | Team damage reduction +15% |
-| Heal | Core | 5/5 | Single-target heal, +200 per rank |
-| Holy Shield | Combat | 3/3 | Block +30%, retaliate 10% damage |
-| Divine Intervention | Combat | 3/3 | AoE immunity, 4s duration |
-| Aegis of Faith | Core (Passive) | 2/2 | Prot Aura also heals 1% HP/3s |
-| Cleanse | Utility | 2/2 | Remove all debuffs from target |
-| Fortitude | Combat (Passive) | 3/5 | +15% max HP |
-| Guardian Angel | Utility (Passive) | 2/3 | Auto-revive once per 5 min |
+Everything above is **TBD** — we will not invent numbers.
 
-**Total: 25 points. Max Fortitude and Guardian Angel with remaining.**
+## Super Armor Breaking — A Second Skill System
 
-### 4. Berserker (Melee / Frontline)
+Alongside ailments, elites and bosses carry a **Super Armor** state — a white armor bar beneath their health bar. While it is full, the enemy ignores stagger and knockback.
 
-Sustained damage and survivability. Core + Combat for max uptime.
+- **Break the bar** with heavy attacks and break-type skills to drop the enemy's Super Armor.
+- Breaking it opens **special finisher prompts** — cinematic grabs, massive sword swings, and environmental throws.
+- **Stealth openings** exist too: sneaking up on sleeping or unaware monsters lets you open with an instant heavy-hitting skill.
 
-| Skill | Branch | Points | Effect |
-|---|---|---|---|
-| Rage Strike | Core | 5/5 | Damage scales with missing HP (+1% per 2% HP missing) |
-| War Cry | Core | 5/5 | AoE taunt, +20% damage for 8s |
-| Bloodrage | Combat | 3/3 | +50% attack speed, take 20% more damage |
-| Unstoppable | Combat | 3/3 | Immune to CC for 4s |
-| Iron Skin | Combat (Passive) | 3/5 | -10% incoming damage |
-| Second Wind | Utility (Passive) | 3/3 | Heal 20% HP when below 25% HP (90s CD) |
-| Berserker's Call | Core (Passive) | 2/2 | War Cry also heals for 10% max HP |
+Castella is the confirmed standout for Break coverage, and Stun-users (Lute, Theresia, Kalien) keep enemies locked during the vulnerable window.
 
-**Total: 24 points.**
+## What About Other Skill Systems?
 
-### 5. Ranger (Ranged / Mobility)
+| System | Status |
+|--------|--------|
+| Skill trees / talent points | **Unconfirmed** — no evidence in official material |
+| Stat allocation | **Unconfirmed** — heroes have fixed stats |
+| Skill upgrades / leveling | **Unconfirmed** — gear and ranks affect power instead |
+| PvP skills | Does not exist — no PvP at launch |
 
-Consistent ranged DPS with traps and kiting tools.
+If any of these ship in a future patch, this guide will be corrected immediately.
 
-| Skill | Branch | Points | Effect |
-|---|---|---|---|
-| Power Shot | Core | 5/5 | Charged shot, +40% damage at full charge |
-| Rain of Arrows | Core | 5/5 | AoE over 5s, +5% per rank |
-| Trap | Combat | 3/3 | Root for 3s, +25% damage to trapped targets |
-| Disengage | Combat | 3/3 | Leap backward, slow enemies 50% for 3s |
-| Fleet-Footed | Utility (Passive) | 3/3 | +20% movement speed |
-| Camouflage | Utility | 2/2 | Stealth for 10s, first shot +50% damage |
+## Putting It Together
 
-**Total: 21 points.**
-
-### 6. Cleric (Healer / Support)
-
-Pure healing and sustain. All points go into Core and Utility.
-
-| Skill | Branch | Points | Effect |
-|---|---|---|---|
-| Heal | Core | 5/5 | Single-target, +250 per rank |
-| Mass Heal | Core | 5/5 | AoE heal, +200 per rank |
-| Dispel | Utility | 2/2 | Remove all debuffs from target |
-| Shield of Faith | Combat | 3/3 | Absorb shield, +500 per rank |
-| Holy Ground | Core | 5/5 | AoE heal over time, 15s duration |
-| Sanctify | Utility (Passive) | 3/3 | +20% healing output |
-| Prayer of Resilience | Combat (Passive) | 3/5 | +10% all resistances in party |
-
-**Total: 26 points.**
-
-### 7. Engineer (Zone Control / Utility)
-
-Turrets, gadgets, and area denial. Core and Utility for maximum uptime.
-
-| Skill | Branch | Points | Effect |
-|---|---|---|---|
-| Turret | Core | 5/5 | Deploy turret, 2 turrets max |
-| Overcharge | Core | 5/5 | Turrets fire 50% faster for 10s |
-| Bomb | Combat | 3/3 | AoE, +15% per rank |
-| Shield Drone | Utility | 2/2 | Deploy drone, absorbs 3,000 damage |
-| Resourceful | Utility (Passive) | 3/3 | -20% cooldown on gadgets |
-| Scrap Master | Core (Passive) | 2/2 | Turrets have +30% HP |
-
-**Total: 20 points.**
-
----
-
-## Recommended Skill Point Allocation
-
-| Class | Core | Combat | Utility | Total |
-|---|---|---|---|---|
-| Shadow Blade | 12 | 9 | 5 | 26 |
-| Frost Mage | 12 | 5 | 10 | 27 |
-| Paladin | 12 | 9 | 4 | 25 |
-| Berserker | 12 | 9 | 3 | 24 |
-| Ranger | 10 | 6 | 5 | 21 |
-| Cleric | 15 | 6 | 5 | 26 |
-| Engineer | 7 | 3 | 10 | 20 |
-
-**Unspent points:** Keep 5–10 points unallocated for theory-crafting or to adjust for PvP vs. PvE content.
-
----
-
-## Skill Reset Options
-
-| Method | Cost | Restrictions |
-|---|---|---|
-| Skill Reset Tome | 5,000 gold | None — full reset at any NPC | 
-| Free Reset | — | One free reset per character (use wisely) |
-| Partial Reset Token | 500 gold/item | Resets one skill branch only |
-| Premium Reset Scroll | 100 Dragon Gems | Instant reset without NPC visit |
-
-> **Tip:** Use your free reset after hitting level 60. Don't waste it at lower levels.
-
----
-
-## Passive Skill Priority (All Classes)
-
-1. **Movement Speed passives** — Always the best value per point. Kiting, positioning, and dodging benefit every class.
-2. **Cooldown Reduction passives** — Equally universal. Faster abilities = more damage / healing / utility.
-3. **Mana / Energy Recovery** — Especially important for Clerics and Frost Mages who spam abilities.
-4. **Defensive passives** — 1–3 points here save you from oneshots in PvP and high-level PvE.
-
----
-
-## Related Guides
-
-- [PvP Guide](/dragonsword-wiki/guides/pvp-guide) — Apply these skill builds in arena combat.
-- [Quest Guide](/dragonsword-wiki/guides/quest-guide) — Quests that reward skill points and reset tomes.
-- [Class Guide](/dragonsword-wiki/guides/class-guide) — Deep dive into each class's mechanics and lore.
-- [Best Gear Guide](/dragonsword-wiki/guides/best-gear) — Gear that synergises with specific skill builds.
-- [PvE Build Guide](/dragonsword-wiki/guides/pve-build-guide) — Skill tree optimised for raid and dungeon content.
+The real "skill build" in DragonSword: Awakening is your **party composition and switch timing**. Master the Apply → Extend → Finish loop, keep your ailments focused, and time your switches when the prompt flashes. For hero-specific recommendations, see the [Hero Builds Guide](/guides/hero-builds-guide) and the [Tier List](/guides/tier-list); for the full combat breakdown, read the [Combat Guide](/guides/combat-guide).

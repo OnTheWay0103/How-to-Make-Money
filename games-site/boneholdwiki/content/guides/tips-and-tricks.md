@@ -1,154 +1,104 @@
 ---
 title: 'Bonehold Tips and Tricks — Advanced Mechanics and Hidden Systems'
-description: 'Advanced Bonehold tips and tricks covering hidden mechanics like charge cancelling, animation skipping, secret rooms, prefix identification, loot optimization, and class-specific advanced techniques.'
-keywords: ['Bonehold tips', 'Bonehold tricks', 'Bonehold hidden mechanics', 'Bonehold secret rooms', 'Bonehold advanced techniques']
-updated: '2026-07-30'
+description: 'Bonehold tips and tricks based on confirmed mechanics — charge discipline, prefix-driven pivoting, trap usage, chokepoint play, and how to tell real hidden mechanics from speculation.'
+category: 'Tips'
+version: '1.0'
+updated: '2026-08-01'
+keywords: ['Bonehold tips', 'Bonehold tricks', 'Bonehold hidden mechanics', 'Bonehold advanced techniques', 'Bonehold pro tips']
+related: ['combat-guide', 'beginner-guide', 'item-prefixes-guide', 'endgame-guide']
 ---
 
 # Bonehold Tips and Tricks — Advanced Mechanics and Hidden Systems
 
-Even after mastering the basics of charge combat and dungeon navigation, Bonehold has layers of hidden mechanics that separate good players from great ones. This guide collects the most impactful advanced tips — charge cancelling, animation skipping, secret room detection, loot optimization, and class-specific tech that the game never teaches you.
+Bonehold is a game with depth under the surface: the charge combat system, the prefix-driven loot, and the fortress's trap-filled corridors all reward knowledge over reflex. This guide collects the most impactful advanced tips — and, just as importantly, tells you which "hidden mechanics" floating around the internet are unverified.
 
-## Hidden Mechanics
+**Honesty note first:** Bonehold launched July 28, 2026, and no official mechanics compendium exists yet. Several guides (including older versions of this one) claim hidden systems like secret rooms, charge-cancelling, and trap invincibility frames — **none of those are confirmed by any official source**. This guide sticks to tips that follow from confirmed mechanics and marks speculation as speculation.
 
-### Charge Cancelling
+## Confirmed Knowledge Worth Its Weight in Gold
 
-The game does not tell you this, but you can cancel a charge attack mid-windup by dodging or blocking. This is critical for high-level play.
+These are the facts confirmed by the developer's description and launch reviews — the foundation every good tip builds on:
 
-**How to charge cancel:**
+1. **Charged attacks are the damage system.** A quick stab "won't cut it late-game." Learn to read safe windows and commit to charges.
+2. **Dodges and parries are the survival system.** Reviews describe well-timed parries and rolls as the game's most rewarding mechanics. Bosses and elites punish greed — the defensive toolkit is the offensive toolkit.
+3. **Traps are deadly and usable.** Traps "make you think twice." They can kill you — and they can kill enemies if you lure them through.
+4. **Chokepoints are your best friend.** The cramped fortress corridors support baiting enemies into doorways, which the reviews explicitly recommend.
+5. **Prefixes are the build engine.** Item prefixes "twist playstyles in unexpected ways," and legendary items are build-defining power spikes. Loot defines the run.
+6. **Hybridization is intended.** Cross-class builds (like the review's Death Knight-esque staff build) are a confirmed design pillar.
+7. **No checkpoints, no saves.** Death ends the run. Plan accordingly.
 
-1. Start holding your charge attack button.
-2. Before the attack releases, press dodge or block.
-3. Your character cancels the windup without triggering the attack.
-4. Stamina spent on the charge is partially refunded (about 50%).
+## Charge Discipline
 
-**When to use charge cancelling:**
+**The biggest skill in the game is not charging well — it is knowing when NOT to charge.**
 
-- Baiting enemy attacks — start a charge, cancel when the enemy winds up, then punish their recovery with a fresh charge
-- Avoiding overcommitment — if you start charging but see an archer aiming at you, cancel and reposition
-- Reset positioning — charge cancelling into a dodge roll is the fastest way to change direction
+- **Never start a charge while an enemy is winding up.** You will either cancel (wasting the window) or eat the hit.
+- **Charge only from safe positions:** after a parry, during enemy recovery, when enemies are clustered in a chokepoint.
+- **Quick attacks are a tool, not a fallback.** Interrupting an enemy attack with a fast swing is often worth more than any partial charge.
+- **Learn each weapon's charge feel.** Different weapon families charge at different paces (the slow-charging staff is a confirmed archetype). The weapon's rhythm is its identity.
 
-### Animation Skipping
+## Positioning Over Reflex
 
-Certain animations in Bonehold can be cancelled into other actions, saving precious frames.
+Bonehold's design — cramped corridors, traps, chokepoints — rewards spatial thinking "over pure twitch skill," per the developer's own framing.
 
-**Animation skip techniques:**
+- **Pull rooms backward.** Enter, backpedal to the doorway, fight enemies as they funnel through. This single habit prevents most deaths.
+- **Never stand in the middle of a room.** The middle is where archers, casters, and traps all have clear angles on you.
+- **Break line of sight.** Pillars and corners deny ranged enemies their shots. Peek corners to pull single enemies.
+- **Keep an escape path.** Before committing to a charge, know where your dodge will go.
 
-- **Charge attack → block cancel:** After your charge attack connects, tap block. This shaves about 0.3 seconds off the recovery animation. Works on most weapons.
-- **Roll → instant charge:** Dodge rolling ends with a brief stand-up animation. If you hold the charge button during the roll, your character starts charging immediately on standing up, skipping the weapon-ready animation.
-- **Item use cancel:** Using a healing item has a long drinking animation. Tap dodge after the heal number appears (about 0.5 seconds into the animation) to cancel the remaining drinking animation. You still get the full heal.
+## Making Traps Work for You
 
-### Trap Invincibility Frames
+- **Lure enemies through hazards.** Enemy pathfinding generally ignores traps. Position yourself on the far side so enemies walk through the hazard to reach you.
+- **Treat trap rooms as slow rooms.** The pacing is deliberately slow because traps punish rushing. Rush and die.
+- **Remember what you learned.** A trap layout that hurt you on the way in is a resource on the way out — if you remember it.
+- **Boss arenas may have hazards too.** Reviews note traps remain a threat even in serious fights. Scan the arena before engaging.
 
-Traps have their own hidden i-frame behavior:
+## The Prefix-Driven Pivot
 
-- **Spike traps:** After being hit by a spike trap, you have 1 second of invincibility to the same trap type. You can use this to intentionally trigger traps and run through spike fields safely. The invincibility does not apply to other trap types.
-- **Poison vents:** No invincibility — each tick of poison damage applies separately. Do not stand in poison.
-- **Explosive barrels:** Barrel explosions do not have friendly-fire invincibility. Hitting a barrel while standing close enough to take damage means you take full damage regardless.
+The confirmed heart of Bonehold's depth: **your build comes from the loot, not the class.**
 
-**Trap i-frame strategy:** On floors with dense spike trap patterns, intentionally trigger one spike, then sprint through the rest of the traps during your 1-second invincibility window. This saves health and stamina compared to carefully navigating around every trap.
+- **Check what dropped between rooms.** Reviews describe stopping mid-run to inspect new prefixes and rework the build. Make this a habit.
+- **A common item with the right prefix beats a rare item with the wrong one.** Evaluate behavior, not rarity labels.
+- **When a legendary drops, pivot.** Reviews describe legendaries as run-defining power spikes — rebuild around them even if it means changing how you play.
+- **Test weird items.** One reviewer explicitly picked up a strange crossbow prefix "just to see what chaos would follow." Runs are disposable; discovered combos are forever.
+- **Stack synergies, not random stats.** The Isaac-style comparisons tell you the game rewards effects that multiply each other. Ask "does this combo with what I already have?" before anything else.
 
-## Loot Optimization
+## Run Economics
 
-### When to Skip Rooms vs Full-Clear
+With no checkpoints, every run is a risk/reward calculation:
 
-Not every room is worth fighting through. Learn to identify room value at a glance.
+- **Health is currency.** A side room's chest guarded by a fight that costs you half your HP had better contain something great.
+- **Sustain beats damage on long floors.** Healing and recovery effects keep runs alive; damage prefixes do nothing for you dead.
+- **Deep runs generate more than wide runs.** A run that reaches deep floors earns more loot, kills, and knowledge than five runs that die early. Invest in getting deeper, not faster.
+- **Greed is the leading cause of death.** The final hit you should not take, the room you should have skipped, the boss charge you committed to — the game punishes exactly these. When in doubt, live to fight another room.
 
-| Room Feature | Recommended Action |
-|--------------|-------------------|
-| Gold chest visible on entry | Full-clear. Guaranteed loot. |
-| Elite enemy door icon (red glow) | Full-clear. High chance of scroll or rare item. |
-| Shrine symbol on door preview | Enter. Safe room with healing, may have free scroll. |
-| Trap-heavy with basic enemies | Skip, especially if low on healing items. |
-| Large open room with 6+ enemies | Skip unless you have an AoE scroll ready. |
-| Side corridor (dead-end branch) | Enter. Side rooms always have at least a small chest. |
-| Boss door visible | Only enter when ready — you cannot backtrack to boss. |
+## Separating Real "Hidden Mechanics" From Speculation
 
-**General rule:** Past floor 5, skip any room that would cost you more than 30% of your HP to clear. The loot from that room will not compensate for the lost health on the boss.
+The launch period has produced a flood of claimed hidden systems. Here is how to evaluate them:
 
-### Prefix Identification Without Picking Up
+| Claim Circulating Online | Status |
+|--------------------------|--------|
+| Charge attacks, dodges, blocks, parries | **Confirmed** — official and in reviews |
+| Item prefixes twist playstyles | **Confirmed** — official description |
+| Legendary items as power spikes | **Confirmed** — official and in reviews |
+| Traps and chokepoints as combat tools | **Confirmed** — in reviews |
+| Secret rooms hidden behind cracked walls | **Unconfirmed** — no official source |
+| Charge-cancelling with stamina refunds | **Unconfirmed** — no official source |
+| Animation-cancelling tricks | **Unconfirmed** — no official source |
+| Trap invincibility frames | **Unconfirmed** — no official source |
+| Meta-progression currencies and upgrade hubs | **Unconfirmed** — no official source |
+| Specific boss names and attack lists | **Unconfirmed** — no official source |
 
-Items on the ground show a colored name but not the prefix until you hover. However, the item's visual model can hint at its prefix.
+**The practical rule:** if a source claims specific names (prefixes, spells, bosses, achievements) or specific numbers (timings, percentages, drop rates) for a game that launched weeks ago, verify it against two independent sources before trusting it — and even then, prefer behavior-based advice over name-based claims.
 
-**Prefix visual tells:**
+## The Habits That Actually Win Runs
 
-- **Flaming** — Weapon glows orange/red. Easy to spot from across the room.
-- **Frozen** — Weapon has a blue-white frost overlay. Ice particles float around it.
-- **Vampiric** — Weapon has a dark red pulsing effect. Slightly harder to see.
-- **Chaos** — Weapon shimmers with random colors. Purple tint.
-- **Sturdy** — Armor has a thicker, bulkier model. No special glow.
-- **Quick** — Weapon model looks slightly smaller or sleeker. No particle effect.
+To close, the five habits that follow directly from confirmed mechanics:
 
-**Decision rule:** If you see a Flaming or Vampiric weapon on the ground and you do not have that prefix yet, prioritize reaching that item. If the room between you and it has too many enemies, weigh the item worth against the risk.
-
-## Secret Rooms
-
-Bonehold has hidden rooms across all floors. They appear in about 15% of dungeon layouts and contain high-value loot.
-
-**How to find secret rooms:**
-
-- **Cracked walls:** Look for wall segments that have visible cracks or a slightly different texture. Attacking a cracked wall (one full charge attack or two quick attacks) breaks it to reveal a secret room.
-- **Floor patterns:** Some rooms have a tile that is slightly discolored compared to surrounding tiles. Standing on it for 2 seconds opens a hidden hatch. Tiles are most common in shrine rooms and treasure vaults.
-- **Bookshelf rooms:** If you see a room with multiple bookshelves, one bookshelf can be interacted with (press interact key). It slides aside to reveal a passage.
-- **Boss room secrets:** The floor 5 boss arena has a hidden alcove behind the Lich Commander's throne. You must kite the boss away from the throne, then quickly interact with the throne to open the alcove during the fight.
-
-**Secret room loot table:** Gold chest (guaranteed), one random scroll (80% chance), one rare or legendary item (30% chance), Bone Fragments (100% — 50-100 fragments).
-
-## Economy Management — When to Buy vs Save
-
-Between-floor merchants offer weapons, scrolls, and consumables. Gold management is a core skill.
-
-**Merchant priority list:**
-
-1. **Heal scroll** (300-400 gold) — Always buy. No question.
-2. **Blink scroll** (400-500 gold) — Buy if you have 500+ gold and no Blink.
-3. **Ice Shield scroll** (350 gold) — Buy if facing a known boss floor.
-4. **Weapon with Vampiric or Quick prefix** (500-600 gold) — Only buy if your current weapon is common quality or lower.
-5. **Fortune Charm consumable** (200 gold) — Increases loot quality for the next floor. Buy if you have gold to spare and plan to full-clear the next floor.
-6. **Armor** — Never buy. Armor drops are plentiful and the merchant markup is too high.
-7. **Gold keys** (150 gold) — Buy only if you see a locked chest on the floor preview.
-
-**Save targets:** Always keep 200 gold in reserve for emergency healing at a shrine (some shrines offer paid healing for 200 gold if you already used the free heal).
-
-## Optimal Route Planning Through Procedural Floors
-
-Procedural generation means you cannot memorize routes, but you can follow a consistent decision framework.
-
-**Floor navigation priority:**
-
-1. **Shrine rooms first** — Identify any shrine rooms on the floor map (the door icon is different — a glowing symbol). Visit these early for healing and potential scrolls.
-2. **Dead-end branches** — These always contain a chest. Clear them before progressing toward the boss door.
-3. **Elite rooms** — Fight only if you are above 60% HP and have at least one healing scroll. If low on resources, skip.
-4. **Boss door** — Only approach after clearing all other rooms you intend to visit. The boss door locks you into the fight.
-
-**Pro tip:** The floor map reveals the general layout but hides room contents. If you see a long corridor with multiple branches, start with the farthest branch first. Enemies from closer branches will not aggro until you enter their room, so distance does not matter.
-
-## Class-Specific Advanced Techniques
-
-### Knight — Parry Chains
-
-The Knight's shield parry has a hidden property: a successful parry reduces the stamina cost of your next parry by 50% for 3 seconds. This enables parry chains against fast-attacking enemies.
-
-**Technique:** Parry first attack (costs 20% stamina) → immediately parry second attack (costs 10% stamina) → parry third attack (costs 5% stamina). Against skeleton commanders with 3-hit combos, you can parry the entire chain and leave the enemy staggered for a full 4 seconds.
-
-### Barbarian — Rage Extension
-
-Barbarian rage normally lasts 6 seconds and depletes faster when taking damage. However, landing a charge attack during rage extends the duration by 2 seconds per hit, up to a maximum of 12 seconds.
-
-**Technique:** Start your rage window with a full charge attack on a basic enemy to extend the timer to 8 seconds. Then fight toward the dangerous enemies. The extension means you can save rage for the biggest threats rather than popping it at the start of a room.
-
-### Scorcher — Spell Weaving
-
-The Scorcher's Ignite passive stacks up to 5 burn applications on enemies. Each application deals 5 damage per tick. Most players use charge attacks to apply Ignite and then wait for the burn to tick.
-
-**Technique:** Apply 3 Ignite stacks with quick charge attacks → cast Fireball (consumes 3 stacks for 3x damage) → apply 2 more Ignite stacks → Flame Wall (applies extra burn while you reposition). This weaving pattern triples your fire damage output compared to charge-attack-only play.
-
-### Spellblade — Combo Cancelling
-
-The Spellblade's passive (spells empower the next charge attack) has no cooldown. This means you can cast, attack, cast, attack in rapid succession.
-
-**Technique:** Cast a low-cooldown spell like Spark → immediately release a quick charge (level 0-1) to benefit from Empowered Blade → cast another spell → quick charge again. This combo cycle deals roughly 40% more DPS than standard charge attacks, at the cost of higher stamina usage. Use it on boss punish windows, not for trash mobs.
+1. **Pull every room to a chokepoint.** Corridors beat open spaces, every time.
+2. **Parry or dodge before you attack.** Defense creates the offense.
+3. **Read every prefix.** Thirty seconds of inspection beats five deaths of ignorance.
+4. **Follow the loot.** When the game hands you a build, play it — even if it is not "your" class fantasy.
+5. **Never be greedy.** The charge system, the traps, and the bosses all punish exactly one thing: extra hits.
 
 ---
 
-**Mastered these tricks?** Now apply them in the [Endgame Guide](/guides/endgame-guide) where deep-floor survival and legendary farming demand every advantage you have.
+**Ready to apply these habits for real?** See the [Endgame Guide](/guides/endgame-guide) for what deep-run play looks like, or the [Combat Guide](/guides/combat-guide) for the defensive toolkit in detail.

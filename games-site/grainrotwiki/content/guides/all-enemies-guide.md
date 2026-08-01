@@ -1,116 +1,55 @@
 ---
 title: 'All Enemies Guide — Every Corrupted Type in Grain Rot'
-description: 'Complete guide to all 9+ enemy types in Grain Rot across 3 biomes. Learn attack patterns, weaknesses, sound cues, and how to counter each Corrupted vessel in the underground ruins.'
-keywords: ['grain rot enemies', 'grain rot corrupted', 'grain rot enemy guide', 'grain rot all enemies', 'grain rot monster types']
-updated: '2026-07-24'
+description: 'Grain Rot enemies explained: the Corrupted are twisted vessels that react to sound, movement, and each other. The demo has 9 enemy types — here is what is confirmed and what is still TBD before launch.'
+category: 'Guides'
+version: 'Pre-release'
+updated: '2026-08-01'
+keywords: ['grain rot enemies', 'grain rot corrupted', 'grain rot enemy guide', 'grain rot all enemies', 'grain rot monsters', 'grain rot demo enemies']
+related: ['enemy-types', 'all-biomes-guide', 'stealth-sound-guide', 'demo-guide', 'beginner-guide']
 ---
 
 # All Enemies Guide — Every Corrupted Type in Grain Rot
 
-The underground ruins of Grain Rot are filled with **Corrupted** — wooden vessels twisted by the Rot into hostile entities. Understanding each enemy type is critical to survival. This guide covers every known enemy, their attack patterns, weaknesses, and counter strategies.
+The enemies of Grain Rot are the **Corrupted** — wooden vessels twisted by the Rot into hostile entities that hunt the ruins. This guide covers what is confirmed about them before the August 7 launch, the honest limits of what we know, and the combat principles that will apply no matter which specific enemy you meet.
 
-## How Enemies Work
+## What Is Confirmed About the Corrupted
 
-Corrupted enemies in Grain Rot operate on a few key principles:
+The official Steam description and feature list confirm:
 
-- **Sound Detection**: Loud actions (sprinting, smashing furniture, combat) attract nearby enemies
-- **Visual Tracking**: Some enemies track by line of sight; breaking line of sight confuses them
-- **Inter-Enemy Behavior**: Different Corrupted types may fight each other or swarm together
-- **Biome-Specific Spawns**: Certain enemies only appear in specific biomes
-- **Depth Scaling**: Deeper layers spawn tougher and more numerous enemies
+- **The Corrupted are corrupted vessels.** They are wooden bodies warped by the Rot — the same material your own vessel is made of, turned hostile.
+- **They react to sound, movement, and each other.** Exact wording from the developer: the Deep Layers are "filled with Corrupted vessels, reacting to sound, movement, and each other." This is the foundation of all Grain Rot combat and stealth.
+- **The demo contains 9 enemy types.** Confirmed by the publisher's demo announcement.
+- **They are the game's central threat.** Official copy: "Descend with your friends into shifting ruins, rip out furniture, and scavenge for loot before the Corrupted close in."
+- **You can fight or dropkick them.** "Dropkick enemies" is listed as a core mechanic, and physics-driven chaos is an official feature.
+- **The Rot is worse in the Deep Layers**, which implies tougher or more numerous Corrupted below.
 
-## Demo Enemies (9 Types Across 3 Biomes)
+## The 9 Demo Enemy Types — What We Don't Know Yet
 
-### Biome 1: The Shallows
+The demo's enemy count (9 types) is confirmed, but the individual enemy names, appearances, attack patterns, and behaviors are **not officially documented** by the developers as of this writing. You will find specific enemy names circulating in community coverage and fan wikis — treat those names and stats as unverified until launch, when this page will be updated with confirmed data.
 
-#### 1. Splintered Stalker
-- **Appearance**: Tall, spindly vessel with splintered limbs and a hunched posture
-- **Behavior**: Patrols slowly, sprints when it detects sound
-- **Attack Pattern**: Quick lunging strikes, retreats after each hit
-- **Weakness**: Slow to turn — circle-strafe to avoid lunges
-- **Sound Cue**: Creaking wood, like old floorboards
-- **Strategy**: Bait its lunge, dodge sideways, counter during recovery animation. Do not sprint near it.
+| Fact | Status |
+|------|--------|
+| 9 enemy types in the demo | ✅ Confirmed |
+| Enemies react to sound, movement, and each other | ✅ Confirmed |
+| Individual enemy names | ❓ Unconfirmed |
+| Attack patterns and weakness details | ❓ Unconfirmed |
+| Bosses or mini-bosses | ❓ Unconfirmed — no official statement |
+| Full-game enemy roster | ❓ Unconfirmed |
 
-#### 2. Husk Drone
-- **Appearance**: Low, crawling vessel with multiple splintered legs
-- **Behavior**: Swarms in groups of 3-5, surrounds targets
-- **Attack Pattern**: Short-range swarm attacks from all sides
-- **Weakness**: Low individual health — kill one quickly to break the surround
-- **Sound Cue**: Rapid scuttling, like beetles on wood
-- **Strategy**: Never stand still. Use sweeping attacks or barricades to funnel them into a line. Dropkick creates space.
+## Combat Principles That Hold Regardless
 
-#### 3. Grain Hulk
-- **Appearance**: Massive, barrel-shaped vessel reinforced with metal bands
-- **Behavior**: Slow patrol, charges when agitated
-- **Attack Pattern**: Devastating charge attack that destroys barricades; slow overhead slam
-- **Weakness**: Very slow recovery after charge — massive backstab window
-- **Sound Cue**: Deep groaning wood, heavy footsteps
-- **Strategy**: Dodge the charge, punish during recovery. Do NOT try to block — the charge destroys barricades.
+Because the confirmed detection model is **sound, movement, and cross-enemy awareness**, these principles will survive any roster changes:
 
-### Biome 2: The Warrens
+1. **Noise is the real enemy.** Sprinting, smashing furniture, and fighting draw attention. If the Corrupted hear you, more of them come.
+2. **Movement matters at close range.** Breaking line of sight and moving carefully reduces how much they see.
+3. **Enemies escalate each other.** When one Corrupted reacts, others investigate the same disturbance. A fight in one room can pull a horde from adjacent rooms — or you can use that to bait enemies away.
+4. **Your body is fragile.** You inhabit wooden vessels that "splinter, collapse, and catch fire." Any enemy hit matters; fights are costly even when you win.
+5. **Extraction is the win condition.** Enemies you don't fight are enemies that can't kill you. "Fight only when you must" is the correct default for most runs.
 
-#### 4. Rot Weeper
-- **Appearance**: Thin vessel leaking dark ichor, constantly dripping
-- **Behavior**: Hides in dark corners, ambushes passing players
-- **Attack Pattern**: Grapple attack that holds player in place; Rot puddles that apply corruption
-- **Weakness**: Fragile — dies in 2-3 hits once revealed
-- **Sound Cue**: Quiet dripping, occasional sob-like creak
-- **Strategy**: Check corners before entering rooms. Use ranged constructs to reveal them from distance. Step around Rot puddles.
+## The Corrupted vs You: The Same System
 
-#### 5. Timber Wretch
-- **Appearance**: Twisted, knot-covered vessel with root-like tendrils
-- **Behavior**: Burrows underground, surfaces under players
-- **Attack Pattern**: Surface eruption that launches players; root snare that immobilizes
-- **Weakness**: Exposed for 2 seconds after surfacing — free damage window
-- **Sound Cue**: Rumbling beneath the floorboards
-- **Strategy**: Keep moving. When you hear rumbling, sprint in a straight line. Attack immediately when it surfaces.
+A detail worth internalizing: the Corrupted are vessels, and so are you. Your vessel breaks and your Spark escapes to find another host — the game's possession mechanic works both ways in theme if not in mechanics. The Rot doesn't just make enemies; it changes *you* too, warping your body, voice, and emotes as corruption builds. Keeping your own corruption low is as important as keeping enemies dead.
 
-#### 6. Char Husk
-- **Appearance**: Blackened, smoldering vessel with glowing ember cracks
-- **Behavior**: Wanders slowly, ignites when attacked
-- **Attack Pattern**: Self-ignites into a fire aura that damages nearby players; fire projectile spit
-- **Weakness**: Water-based constructs extinguish the fire aura; vulnerable while not ignited
-- **Sound Cue**: Crackling embers, hissing steam
-- **Strategy**: Use ranged attacks. If it ignites, back off and wait for the aura to expire (about 8 seconds). Water constructs counter it hard.
+## After Launch
 
-### Biome 3: The Depths
-
-#### 7. Warped Screamer
-- **Appearance**: Distorted vessel with an impossibly wide, hollow mouth
-- **Behavior**: Stationary until triggered, then relentlessly pursues
-- **Attack Pattern**: Sonic scream that damages through walls and applies heavy corruption; disorienting visual effect
-- **Weakness**: Long wind-up before scream — interrupt with any attack
-- **Sound Cue**: Rising whine before scream, silence otherwise
-- **Strategy**: Highest priority target. Rush it down before it screams. If you hear the whine, find cover or interrupt immediately. In co-op, designate one player as the Screamer hunter.
-
-#### 8. Rot-Sworn Knight
-- **Appearance**: Armored vessel carrying a massive splintered blade
-- **Behavior**: Slow, deliberate advance; blocks frontal attacks
-- **Attack Pattern**: 3-hit combo (horizontal sweep, overhead slam, thrust); unblockable grab
-- **Weakness**: Slow turn speed — flank attacks completely bypass its block
-- **Sound Cue**: Dragging blade on stone, heavy metallic footsteps
-- **Strategy**: One player draws aggro from the front while others flank. The grab has a distinct tell (blade lowers, free hand extends) — dodge backward.
-
-#### 9. Flesh-Grafted Abomination
-- **Appearance**: Multiple vessels fused together into a shambling mass
-- **Behavior**: Wanders erratically, unpredictable pathing
-- **Attack Pattern**: Swipe attacks in wide arcs; spawns 2 Husk Drones on death
-- **Weakness**: Slow attack wind-up; vulnerable to fire constructs
-- **Sound Cue**: Multiple creaking sounds at once, wet splintering
-- **Strategy**: Keep distance, use ranged attacks. Clear surrounding Husk Drones before engaging. Be ready for the death spawn — have a teammate clean up the Husk Drones immediately.
-
-## Full Game Enemies (Unconfirmed, Based on Trailers)
-
-Additional enemy types teased for the full August 7 release:
-- **Rot-Bound Warden**: Appears to be a miniboss guarding extraction points
-- **Vessel-Eater**: Large enemy that can destroy your current vessel in one hit
-- **Echo of the First Spark**: Lore-heavy boss entity
-
-## General Combat Tips
-
-1. **Sound is your enemy**: Sprinting and smashing attract enemies from adjacent rooms. Move quietly when possible.
-2. **Barricades buy time**: Building a barricade in a doorway gives you 10-15 seconds to loot or escape.
-3. **Dropkick is underrated**: The dropkick staggers most enemies and creates breathing room. Use it.
-4. **Know when to run**: Not every fight is worth taking. If corruption is high or your vessel is damaged, extract.
-5. **Focus fire in co-op**: A single enemy dies 4x faster when all players attack it. Coordinate targets.
-6. **Learn the sound cues**: Each enemy has a distinct audio signature. Learn them and you'll never be surprised.
+On August 7 we will update this page with a verified enemy list: names, attack patterns, sound cues, and counters for every Corrupted type. Until then, the demo is the best way to build real knowledge — the demo's 9 enemy types will be in the full game, and the [demo guide](/guides/demo-guide) explains what you can learn from it. For avoidance tactics that work against the current confirmed detection model, see the [stealth & sound guide](/guides/stealth-sound-guide).

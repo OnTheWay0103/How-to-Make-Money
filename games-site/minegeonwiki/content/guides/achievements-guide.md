@@ -1,137 +1,76 @@
 ---
-title: 'Achievements Guide — Full Trophy List & How to Unlock All Achievements in MineGeon'
-description: 'Complete achievements guide for MineGeon: Renegades. All 42 achievements including hidden trophies, step-by-step unlock requirements, and 100% completion tips.'
-keywords: ['minegeon achievements', 'minegeon trophies', 'minegeon achievement guide', 'minegeon 100% completion', 'minegeon secret achievements', 'minegeon hidden trophies']
+title: 'Achievements Guide — How to Unlock Steam Achievements in MineGeon: Renegades'
+description: 'Achievements guide for MineGeon: Renegades. The game has 49 Steam achievements — how to track them, what they cover, and honest advice on unlocking them post-launch.'
+keywords: ['minegeon achievements', 'minegeon renegades achievements guide', 'minegeon achievements', 'minegeon 100% completion', 'minegeon renegades steam achievements', 'minegeon secret achievements']
 category: Achievements
 version: '1.0'
-updated: '2026-07-23'
+updated: '2026-08-01'
 related:
   - beginner-guide
+  - progression-guide
   - boss-guide
-  - crafting-guide
   - coop-multiplayer-guide
-  - mining-guide
 ---
 
 ## Achievement Overview
 
-MineGeon: Renegades features **42 achievements**: 35 standard and 7 hidden. Estimated 100% completion time is **40–60 hours**, depending on skill and co-op availability. Achievements span progression, combat, mining, base building, and co-op categories.
+MineGeon: Renegades ships with **49 Steam achievements**, per the official Steam feature list. That is the one confirmed number — and notably, the "42 achievements" lists circulating in early fan content are wrong.
 
-## Progression Achievements (13)
+> **Accuracy note:** the full achievement list (names, icons, unlock conditions, hidden achievements) had not been published by early August 2026. Any guide with a complete, named achievement table with exact requirements is fabricated. This guide tells you what is real and how to chase achievements the right way.
 
-Earned naturally as you progress.
+## What We Know (Confirmed)
 
-| Achievement | Requirement |
-|-------------|-------------|
-| Down the Hole | Complete your first successful extraction |
-| Well-Rounded | Reach 100m depth (Biome 3) |
-| Deep Diver | Reach 500m depth (Biome 5) |
-| Core Runner | Reach 800m+ depth (Biome 6) |
-| First of Many | Unlock your first base upgrade |
-| Home Sweet Mine | Unlock all base rooms |
-| Rich Miner | Smelt 1,000 ingots total |
-| Gem Hoarder | Collect 50 gems across all runs |
-| Class Act | Reach max level with one class |
-| Jack of All Trades | Reach level 10 with all 3 classes |
-| Extraction Expert | Extract successfully 50 times |
-| Full Load | Extract with full inventory 10 times |
-| Millionaire | Accumulate 1,000,000 gold total |
+| Fact | Source |
+|------|--------|
+| 49 achievements | Steam feature list |
+| Steam Cloud enabled | Steam feature list — achievements sync across devices |
+| Demo vs full game | Demo has a limited achievement set; the full 49 are in the full game |
+| Hidden achievements | Not confirmed — treat "secret achievement" claims as unverified |
 
-Most progression achievements unlock through normal play. **Jack of All Trades** and **Millionaire** are the grindiest — focus on efficient mining runs and cycle through classes early.
+## What the Achievements Likely Cover (Unconfirmed Categories)
 
-## Combat Achievements (10)
+Based on the game's confirmed systems, the 49 achievements almost certainly span (with community documentation pending):
 
-Focused on bosses and elite enemies.
+- **Progression** — first extraction, first biome boss, deeper biomes, permanent upgrades
+- **Mining & extraction** — minerals banked, extraction counts, deaths (possibly humorous ones)
+- **Combat** — boss kills, elite kills, Scavenger kills
+- **Classes** — playing each Renegade, using each ultimate
+- **Gadgets & weapons** — unlock counts, legendary weapons, Ancient Ones weapons
+- **Co-op** — completing runs with friends, visiting ships
+- **Ship customization** — decoration milestones
+- **Story & lore** — chapter completion, lore fragment collection
 
-| Achievement | Requirement |
-|-------------|-------------|
-| Bug Squasher | Defeat Crystal Crawler Queen (Biome 1) |
-| Fungus Among Us | Defeat Sporemother (Biome 2) |
-| Hot Stuff | Defeat Magma Construct (Biome 3) |
-| Shiny Hunter | Defeat Gem Guardian (Biome 4) |
-| Derailed | Defeat Drill Dozer (Biome 5) |
-| Heart of the Mine | Defeat Core Entity (Biome 6) |
-| Biome Complete | Defeat all 6 bosses |
-| Elite Hunter | Defeat 100 elite enemies |
-| No Damage Run | Beat a boss without taking damage |
-| One Man Army | Defeat 50 enemies in a single run |
+Treat every one of these as a prediction, not fact, until the community documents the real list.
 
-**No Damage Run** is easiest against the Crystal Crawler Queen — its pattern is slow and predictable. Save **One Man Army** for co-op, where enemy density scales.
+## How to Track Achievements
 
-## Mining & Resource Achievements (7)
+1. **Steam overlay** — the achievements list updates in real time; check your progress after each run
+2. **Steam Cloud** — progress is safe across machines
+3. **The official Discord** — the community's ongoing documentation of the real list will appear here first
+4. **Steam community guides** — post-launch, verified player-written guides will name real achievements; cross-check against the in-game list before trusting any table
 
-Resource gathering milestones.
+## Honest Achievement-Hunting Strategy
 
-| Achievement | Requirement |
-|-------------|-------------|
-| Pick King | Max tier pickaxe (requires Mythril from Deep Core) |
-| Ore Obsession | Mine 10,000 ore blocks (unlocks naturally) |
-| Compulsive Crafter | Craft 100 items at the Workbench |
-| Efficient Miner | Mine 100 ore in a single run |
-| Prospector | Find a rare gem vein (Crystal Mines biome) |
-| Full Arsenal | Craft every weapon type in one run |
-| Recycling Pro | Salvage 50 items at the Salvage Station |
+### The foundations (work regardless of the list)
+1. **Play the progression loop.** Extraction counts, minerals banked, and biome bosses are near-certain achievement targets — they are also the game's core content.
+2. **Play all three Renegades.** Class-specific achievements are a staple of this genre, and trying all three is good advice anyway.
+3. **Co-op with friends.** Multiplayer achievements are genre-standard; teaming up also makes the game easier.
+4. **Max the permanent tracks.** Maxed ship and attribute upgrades are a likely completion target and the game's endgame anyway.
+5. **Collect lore.** Lore fragments are an obvious achievement hook tied to the story.
 
-For **Efficient Miner**, equip a high-tier pickaxe and find dense ore clusters in the Shallow Mines — they have the highest ore density per block.
+### Avoid the traps
+- **Don't trust named achievement tables.** If a guide names achievements ("Down the Hole," "Millionaire," etc.) with exact requirements, it's invented — the real list isn't public.
+- **Don't grind toward fake milestones.** Early guides invented things like "reach 100m depth" and "1,000,000 gold" — none of that is verifiable.
+- **Do check patch notes.** Post-launch updates may add achievements (some games do), which changes completion counts.
 
-## Base Building Achievements (7)
+## 100% Completion Reality Check
 
-Progress your underground HQ.
+- **Realistic outlook:** with 49 achievements, 100% is a long game — it means clearing all six biome bosses, likely maxing the permanent tracks, and completing the co-op and collection sets.
+- **Unknowns:** hidden achievements, if any, extend the grind; the developer has not confirmed any.
+- **Time:** no official figures. Treat any "40-60 hours" claim as a guess — our [How Long to Beat](/guides/how-long-to-beat) guide explains why.
 
-| Achievement | Requirement |
-|-------------|-------------|
-| Interior Designer | Place 50 decorations |
-| Room to Grow | Unlock all 8 base rooms |
-| Cozy Corner | Fully decorate one room (15+ decorations) |
-| Base Boss | Upgrade all stations to max tier |
-| Storage King | Upgrade all chests to tier 3 |
-| Well Connected | Build a functional conveyor belt system |
-| Perfect Layout | Achieve maximum base efficiency rating |
+## Next Steps
 
-Decorations are cheap to craft in bulk, making **Interior Designer** and **Cozy Corner** easy to knock out early. **Perfect Layout** requires careful planning of station adjacency bonuses.
-
-## Co-op Achievements (5)
-
-Require multiplayer.
-
-| Achievement | Requirement |
-|-------------|-------------|
-| Mining Buddies | Complete a run with a friend |
-| Teamwork | Both players extract in co-op |
-| Duo Dynamo | Beat a boss in co-op without deaths |
-| Full House | Complete a run with 4 players |
-| Carry | Help a player below level 5 beat their first boss |
-
-If you don't have three friends available, the MineGeon Discord is a reliable place to find co-op partners for **Full House**.
-
-## Hidden Achievements (7)
-
-Not visible in the list until unlocked.
-
-| Achievement | Requirement |
-|-------------|-------------|
-| What's Down There? | Fall into a hidden pit in Fungal Caverns |
-| Lights Out | Survive 60 seconds in complete darkness |
-| Speed Demon | Complete a run in under 5 minutes |
-| Pacifist Run | Extract without killing any enemies |
-| The Floor is Lava | Stand on lava in Magma Chambers for 30s |
-| Echoes of the Past | Find the hidden lore room in Abandoned Mineshaft |
-| Pinata Party | Get hit by every hazard type in one run |
-
-**Speed Demon** and **Pacifist Run** require specific loadout planning. For **Pacifist Run**, equip the Stealth Boots and movement enhancers, then rush the extraction point.
-
-## 100% Completion Tips
-
-- **Cycle classes early** — Some achievements require specific class abilities. Don't main one class exclusively.
-- **Prioritize base upgrades** — A better base accelerates every other achievement.
-- **Save hidden achievements for last** — They require specific setups and biome access.
-- **Join the co-op community** — Multiplayer achievements are much easier with coordination.
-- **Track your progress** — Keep notes on remaining achievements to avoid wasted runs.
-
-## Related Guides
-
-- [Beginner Guide](/guides/beginner-guide) — Getting started basics
-- [Boss Guide](/guides/boss-guide) — Detailed boss strategies
-- [Crafting Guide](/guides/crafting-guide) — Item crafting for progression achievements
-- [Co-op Multiplayer Guide](/guides/coop-multiplayer-guide) — Multiplayer tips
-- [Mining Guide](/guides/mining-guide) — Efficient resource gathering
+- [Progression Guide](/guides/progression-guide) — the roadmap the achievements follow
+- [Boss Guide](/guides/boss-guide) — biome bosses, likely the biggest achievement cluster
+- [Co-op & Multiplayer Guide](/guides/coop-multiplayer-guide) — co-op achievements and teamwork

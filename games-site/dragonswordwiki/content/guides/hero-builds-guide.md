@@ -1,232 +1,147 @@
 ---
-title: 'Hero Builds Guide — Best Setups for Every Character'
-description: 'Complete DragonSword: Awakening hero builds guide with best equipment, relics, and team synergies for Theresia, Lute, Reina, Ornette, Kalsion, and all 19 characters.'
-keywords: ['hero builds', 'character builds', 'best build', 'Theresia build', 'Lute build', 'Reina build', 'hero guide', 'equipment setup']
-updated: '2026-07-24'
+title: 'Hero Builds Guide — Confirmed Kits, Roles & Team Setups'
+description: 'Hero builds for DragonSword: Awakening based on confirmed kits — Theresia, Lute, Castella, Aria, Ornette, Kalien, and the four post-launch heroes. Gear marked unconfirmed; no invented names.'
+keywords: ['hero builds', 'character builds', 'best build', 'Theresia build', 'Lute build', 'hero guide', 'equipment setup', 'Castella build']
+updated: '2026-08-01'
 ---
 
 ## DragonSword: Awakening Hero Builds Guide
 
-Every hero in DragonSword: Awakening has multiple viable build paths. This **hero builds guide** covers the recommended equipment, relic sets, and team compositions for the most popular characters. Use these as a starting point and adjust to your playstyle.
+A "build" in DragonSword: Awakening is **hero choice + ailment chaining + gear**, because heroes have fixed kits — there are no stat points or skill trees (see the [Character Builds Guide](/guides/character-builds)). This guide covers the confirmed kits, recommended roles, and team setups for every hero we have verified.
 
-## S-Tier Hero Builds
+**Accuracy note:** weapon names, relic sets, and "best-in-slot" lists published elsewhere (including earlier drafts of this guide) are **not verified**. HOUND13 has not published official gear tables, so this guide only recommends confirmed kits and honest gear direction.
 
-### Theresia — Bleed/Stun Hybrid
+## Theresia — Bleed/Stun DPS
 
-Theresia is the best DPS in the game. Her build focuses on stacking Bleed as fast as possible while mixing in Stuns for control.
+Confirmed kit: **Bleed + Stun**, twin sacred maces, Organa Order heretic inquisitor.
 
-**Weapon**: Bloodletter Set (Karma — from World Boss Andras)
-- Effect: Bleed stacks deal damage 20% faster
+**Role:** primary ailment DPS.
 
-**Relic Set**: 4-piece Crimson + 2-piece Berserker
-- Crimson boosts Bleed damage and increases max stacks
-- Berserker adds ATK% for the initial burst
+- Apply Bleed with her active skills, mix in Stun to lock the target, and chain Signal Skills on the stacked target
+- Bleed keeps damage ticking while your other heroes set up their own stacks
 
-**Accessories**: Crit Rate + Bleed Damage
+**Team setups:**
 
-**Stat Priority**: Bleed Damage > Crit Rate > ATK% > Attack Speed
+- **Bleed Chain:** Theresia + Lute + Castella — the most recommended early-meta team
+- **Stun-Lock:** Theresia + Castella + Lute — maximum control while learning fights
 
-**Team Synergy**:
-- With **Roxy**: Dual Bleed application, stacks cap faster
-- With **Kalsion**: Stun sets up free Bleed application windows
-- With **Dana**: Crit rate buff increases Bleed proc rate
+**Gear direction:** damage-focused equipment; exact weapon/relic names TBD.
 
-**Playstyle**: Apply Bleed stacks with light attacks, use Stun skills to lock enemies in place while Bleed ticks, refresh before stacks fall off.
+## Lute — All-Rounder with Ally Heals
 
-### Lute — All-Rounder Support
+Confirmed kit: **Stun**, secondary **Knockdown**, greatsword, and the only confirmed **ally healing** in the launch roster.
 
-Lute is the most flexible hero. This build maximizes his party support capabilities.
+**Role:** flex — support-DPS.
 
-**Weapon**: Dragonfang Blade (Chapter 3 story reward, later replaced by Karma weapon from Tower Floor 20)
-- Effect: Party ATK buff duration +3 seconds
+- Open fights with his Stun skills, heal allies when HP dips, and swap out to keep the Signal chain moving
+- The classic "point man" of your party; pairs with every composition
 
-**Relic Set**: 4-piece Sage + 2-piece Guardian
-- Sage reduces team SP costs
-- Guardian adds survivability
+**Team setups:** any team benefits — his heal covers mistakes and his Stun enables everyone else's Signal Skills.
 
-**Accessories**: Cooldown Reduction + SP Regeneration
+**Gear direction:** balanced — survival and damage both help; specifics TBD.
 
-**Stat Priority**: Cooldown Reduction > SP Regen > ATK% > DEF%
+## Castella — Frontline Breaker
 
-**Team Synergy**: Works with everyone. Lute fills gaps in any composition.
+Confirmed kit: **Break + Stun**, assault vanguard (Elf).
 
-**Playstyle**: Open fights with Lute's party buff, swap to DPS, swap back to Lute for emergencies. His half-dragon transformation turns him into a capable secondary DPS when needed.
+**Role:** Super Armor breaker.
 
-### Reina — Aerial Specialist
+- Use her Break skills to drain the white Super Armor bar, then capitalize on the finisher prompt window
+- Her Stun keeps elites locked during the vulnerable phase
 
-Reina's build maximizes air time and aerial damage.
+**Team setups:** mandatory in teams that want fast finisher windows — pairs with Theresia (Bleed), Lute (Stun), or Aria (Burn/Airborne).
 
-**Weapon**: Skybreaker Knuckles (Karma — Tower of Trials Floor 25)
-- Effect: Air combos build 50% more Signal Gauge
+**Gear direction:** survivability plus break-support; specifics TBD.
 
-**Relic Set**: 4-piece Wind Walker + 2-piece Assassin
-- Wind Walker extends dodge i-frames and increases attack speed
-- Assassin boosts crit damage from behind
+## Aria — Burn/Airborne Ranged DPS
 
-**Accessories**: Attack Speed + Aerial Damage
+Confirmed kit: **Burn + Airborne**, bomb-based ranged combat, firepower specialist.
 
-**Stat Priority**: Attack Speed > Aerial Damage > Crit Rate > Crit Damage
+**Role:** ranged ailment DPS.
 
-**Team Synergy**:
-- With **Kalsion**: His stuns set up easy launches
-- With **Charlotte**: Both benefit from attack speed buffs
+- Apply Burn at range, use Airborne to launch enemies, and follow up in the air or let teammates extend the juggle
+- The only confirmed ranged hero with two damage ailments
 
-**Playstyle**: Launch enemies, jump, execute full air combo, slam back down, repeat. Never touch the ground.
+**Team setups:** works with Stun-lock cores (she can safely apply Burn while enemies are locked) and any air-combo extenders.
 
-### Ornette — Crit DPS
+**Gear direction:** damage; specifics TBD.
 
-Ornette is all about critical hits. When she crits, everything procs.
+## Ornette — Electrocution/Shock DPS
 
-**Weapon**: Starlight Needle (Karma — Tower of Trials Floor 30)
-- Effect: Crits have 20% chance to refund cooldowns
+Confirmed kit: **Electrocution (Shock)** with secondary **Knockdown**, scythe, Saintess of the Dawn of the Organa Order.
 
-**Relic Set**: 4-piece Assassin + 2-piece Berserker
-- Assassin gives maximum crit rate and crit damage
-- Berserker adds raw ATK
+**Role:** ailment DPS — brings the roster's third distinct ailment type.
 
-**Accessories**: Crit Rate (cap) > Crit Damage > ATK%
+**Team setups:** slot her where you need Shock variety; early reports are still evaluating her power level, so rank her cautiously.
 
-**Stat Priority**: Crit Rate to 60% > Crit Damage > ATK%
+**Gear direction:** damage; specifics TBD.
 
-**Team Synergy**:
-- **Dana is mandatory** — her crit rate aura is the difference between good and broken Ornette
-- With **Astria**: Attack speed buff means more chances to crit
+## Kalien — Stun Spiritist
 
-**Playstyle**: Position behind enemies for guaranteed back crits. Use skills on cooldown — the refund mechanic means you often have no cooldowns to manage.
+Confirmed kit: **Stun** (fire-flavored), commands the fire fox spirit **Sur**, Red Fox Mercenary Corps.
 
-### Kalsion — Melee Powerhouse
+**Role:** Stun support / second ailment layer.
 
-Kalsion is a relentless damage dealer who also functions as a tank.
+- Her summon-style kit plays differently from the melee core — Sur handles the fire-flavored attacks while Kalien manages the fight
 
-**Weapon**: Colossus Buster (Karma — World Boss Karon)
-- Effect: Heavy attacks break 40% more Super Armor
+**Team setups:** stacks Stun with Lute, Castella, or Theresia for lock-down teams.
 
-**Relic Set**: 4-piece Berserker + 2-piece Guardian
-- Berserker maximizes damage output
-- Guardian provides the defense needed to stay in melee range
+**Gear direction:** TBD.
 
-**Accessories**: ATK% + Lifesteal
+## Unrevealed Heroes (TBD)
 
-**Stat Priority**: ATK% > Lifesteal > DEF% > HP%
+These heroes are confirmed in the roster but their kits are not officially detailed yet: **Cerese** (Magic Knight Order commander), **Reina** (8th Knight Order captain), **Kalsion** (king), **Charlotte** (kit previewed at reveal, details limited), **Roxy** (bow user). Builds for them will be added when their kits are verified.
 
-**Team Synergy**:
-- With **Aria**: Lifesteal + heals = virtually unkillable
-- With **Reina**: Stuns create launch opportunities
+## Post-Launch Heroes — Confirmed Kits
 
-**Playstyle**: Aggressive melee pressure. Break Super Armor, stun, repeat. Use lifesteal to stay topped up. Only swap out when Signal Gauge is full — then unleash and swap back.
+- **Ryza** — Shock specialist; throws her spear and teleports to it. Build around repositioning and Shock stacking.
+- **Jerome** — Knockdown specialist; small stature, massive greatsword, three-stage grab. Build around his grab punishes.
+- **Veronica** — bare-handed combat + gun; Stun primary. A hybrid-range Stun kit.
+- **Logan** — tank with massive shield who protects allies. The confirmed defensive role.
 
-## A-Tier Hero Builds
-
-### Charlotte — Stealth Assassin
-
-**Weapon**: Soul Reapers (Legendary — Tower of Trials Floor 18)
-**Relic Set**: 4-piece Assassin + 2-piece Wind Walker
-**Stat Priority**: Crit Damage > Stealth Damage > Attack Speed > Crit Rate
-
-**Playstyle**: Vanish, reposition behind enemy, burst combo, vanish again. Never stay visible long enough to take damage.
-
-### Roxy — Ranged Bleed
-
-**Weapon**: Venomstrike Longbow (Karma — World Boss Octavia)
-**Relic Set**: 4-piece Crimson + 2-piece Wind Walker
-**Stat Priority**: Bleed Damage > ATK% > Range > Attack Speed
-
-**Playstyle**: Lay traps, apply Bleed from range, kite enemies through your trap zones. Combo with Theresia for max Bleed stacks.
-
-### Aria — Healer
-
-**Weapon**: Seraphim Cane (Karma — World Boss Gallore)
-**Relic Set**: 4-piece Sage + 2-piece Guardian
-**Stat Priority**: Healing Power > Cooldown Reduction > SP Regen > DEF%
-
-**Playstyle**: Stay in the backline. Heal proactively (before damage happens, not after). Use cleanse for dangerous debuffs.
-
-### Dana — Summoner Support
-
-**Weapon**: Grimoire of Summoning (Legendary — World Boss Andras)
-**Relic Set**: 4-piece Sage + 2-piece Crimson (if supporting Theresia/Roxy)
-**Stat Priority**: Summon Duration > Crit Rate Aura > ATK%
-
-**Playstyle**: Summon the right minion for the situation (tank minion for aggro, DPS minion for damage), refresh summons, provide crit aura to your DPS carry.
-
-### Kalien — Ice Mage
-
-**Weapon**: Glacier's Heart (Karma — World Boss Frostmaw)
-**Relic Set**: 4-piece Frostbite + 2-piece Sage
-**Stat Priority**: Frost Duration > Frost Damage > Cooldown Reduction > SP Regen
-
-**Playstyle**: Freeze enemies, let your DPS pop the frozen target for bonus damage. Excellent crowd control for difficult adds.
-
-### Eileen — Fire Mage
-
-**Weapon**: Inferno's Core (Legendary — Tower of Trials Floor 22)
-**Relic Set**: 4-piece Inferno + 2-piece Berserker
-**Stat Priority**: Burn Damage > AoE Range > ATK% > Attack Speed
-
-**Playstyle**: Group enemies, apply Burn, watch them melt. Weak against single targets — swap to a DPS for boss fights.
+Full builds will follow each hero's release.
 
 ## Team Build Recommendations
 
 ### General Purpose Team
 
-| Role | Hero | Key Feature |
-|------|------|-------------|
-| Main DPS | **Theresia** | Bleed + Stun |
-| Flex | **Lute** | Buffs + Transformation |
-| Healer | **Aria** | Heals + Cleanse |
+| Role | Hero | Confirmed Feature |
+|------|------|-------------------|
+| Breaker | **Castella** | Break + Stun |
+| Ailment DPS | **Theresia** | Bleed + Stun |
+| Flex / Heal | **Lute** | Stun + Knockdown + ally heal |
 
-Best for: Story progression, general farming, learning content
+Best for: story progression and general farming. This is the strongest confirmed core.
 
-### Speed Clear Team
+### Ranged Pressure Team
 
-| Role | Hero | Key Feature |
-|------|------|-------------|
-| AoE Clear | **Eileen** | Burns everything |
-| Finisher | **Reina** | Aerial clean-up |
-| Buffer | **Astria** | Speed buff |
+| Role | Hero | Confirmed Feature |
+|------|------|-------------------|
+| Breaker | **Castella** | Break + Stun |
+| Ranged DPS | **Aria** | Burn + Airborne |
+| Support | **Lute** | Stun + heal |
 
-Best for: Farming mobs, clearing trash, material grinding
+Best for: fights where staying at range helps, and Airborne juggle chains.
 
-### Boss Killer Team
+### Stun-Lock Team
 
-| Role | Hero | Key Feature |
-|------|------|-------------|
-| Main DPS | **Ornette** | Crit burst |
-| Sub DPS | **Theresia** | Sustained Bleed |
-| Support | **Dana** | Crit aura |
+| Role | Hero | Confirmed Feature |
+|------|------|-------------------|
+| Stun | **Castella** | Break + Stun |
+| Stun + Bleed | **Theresia** | Bleed + Stun |
+| Stun + Heal | **Lute** | Stun + Knockdown + ally heal |
 
-Best for: World Bosses, Hunts, Raids
-
-### Survival Team
-
-| Role | Hero | Key Feature |
-|------|------|-------------|
-| Tank | **Kalsion** | Stuns + Lifesteal |
-| DPS | **Theresia** | Consistent damage |
-| Healer | **Aria** | Sustained healing |
-
-Best for: Under-leveled content, first attempts at hard bosses
+Best for: learning hard fights — the target barely acts.
 
 ## Quick Build Reference
 
-| Hero | Best Weapon | Best Relic Set | Primary Stat |
-|------|-------------|----------------|--------------|
-| Lute | Dragonfang Blade | 4 Sage + 2 Guardian | Cooldown Reduction |
-| Castella | Aegis of the North | 4 Guardian + 2 Berserker | DEF% |
-| Aria | Seraphim Cane | 4 Sage + 2 Guardian | Healing Power |
-| Theresia | Bloodletter Set | 4 Crimson + 2 Berserker | Bleed Damage |
-| Reina | Skybreaker Knuckles | 4 Wind Walker + 2 Assassin | Aerial Damage |
-| Ornette | Starlight Needle | 4 Assassin + 2 Berserker | Crit Rate |
-| Kalsion | Colossus Buster | 4 Berserker + 2 Guardian | ATK% |
-| Charlotte | Soul Reapers | 4 Assassin + 2 Wind Walker | Crit Damage |
-| Roxy | Venomstrike Longbow | 4 Crimson + 2 Wind Walker | Bleed Damage |
-| Dana | Grimoire of Summoning | 4 Sage + 2 Crimson | Summon Duration |
-| Kalien | Glacier's Heart | 4 Frostbite + 2 Sage | Frost Duration |
-| Eileen | Inferno's Core | 4 Inferno + 2 Berserker | Burn Damage |
-| Astria | Aether Lens | 4 Sage + 2 Guardian | Cooldown Reduction |
-| Sion | SkyPiercer | 4 Berserker + 2 Guardian | Balanced |
-| Alex | Brawler's Legacy | 4 Berserker + 2 Guardian | ATK% |
-| Tarte | Bastion's Gate | 4 Guardian + 2 Sage | DEF% |
-| Cerese | Toxic Fang | 4 Crimson + 2 Assassin | Poison Damage |
+| Hero | Confirmed Role | Ailments | Gear Status |
+|------|----------------|----------|-------------|
+| Theresia | Ailment DPS | Bleed, Stun | TBD |
+| Lute | Flex / Support | Stun, Knockdown | TBD |
+| Castella | Breaker | Break, Stun | TBD |
+| Aria | Ranged DPS | Burn, Airborne | TBD |
+| Ornette | Ailment DPS | Electrocution, Knockdown | TBD |
+| Kalien | Stun / Summon | Stun (fire) | TBD |
 
-For farming locations and upgrade paths for all this gear, see the [Equipment Guide](/guides/equipment-guide).
+For gear farming and upgrades once official tables exist, see the [Equipment Guide](/guides/equipment-guide). For who to prioritize, see the [Tier List](/guides/tier-list).

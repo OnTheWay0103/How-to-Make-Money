@@ -1,151 +1,80 @@
 ---
-title: "Skills & Raids Maps Guide — All Maps & Extraction Points"
-description: "Complete Skills & Raids maps guide. Every raid zone with enemy levels, boss locations, extraction points, loot tables, and hidden secrets."
+title: "Skills & Raids Maps Guide — Biomes and Combat Areas"
+description: "Maps guide for Skills & Raids. What we know about the 5 biomes, the 2 demo biomes, combat areas with unique skill mechanics, and how to navigate runs."
 category: "Maps"
-version: "Open Beta"
-updated: "2026-07-14"
-keywords: ["Skills & Raids maps", "Skills & Raids raid zones", "Skills & Raids extraction points", "Skills & Raids boss locations", "Skills & Raids secrets"]
-related: ["extraction-guide", "enemies-guide", "beginner-guide"]
+version: "1.0"
+updated: "2026-08-01"
+keywords: ["Skills & Raids maps", "Skills & Raids biomes", "Skills & Raids combat areas", "Skills & Raids run navigation", "Skills & Raids secrets"]
+related: ["extraction-guide", "enemies-guide", "beginner-guide", "raid-progression-guide"]
 ---
 
-# Skills & Raids Maps Guide — All Maps & Extraction Points
+# Skills & Raids Maps Guide — Biomes and Combat Areas
 
-**Skills & Raids Open Beta / Updated: July 14, 2026**
+**Skills & Raids 1.0 / Updated: August 1, 2026**
 
-Four raid zones with increasing difficulty. Each map has unique enemies, bosses, loot tables, and extraction mechanics.
-
----
-
-## Map 1: Foothills
-
-| Attribute | Detail |
-|-----------|--------|
-| Difficulty | ★☆☆☆☆ (Easy) |
-| Enemy Level | 1-3 |
-| Boss | Bandit Leader (Level 5) |
-| Extraction Points | 3 (North, East, South) |
-| Turns to Extract | 2 |
-| Boss Kill Reward | Uncommon weapon drop + 500 Gold |
-
-### Enemy Types
-- **Bandit Scout** (Level 1-2) — Low HP, low damage. Your tutorial enemy.
-- **Bandit Brute** (Level 2-3) — Medium HP, medium damage. Teaches blocking.
-- **Wild Wolf** (Level 2-3) — Fast, attacks twice. Teaches speed management.
-- **Bandit Leader (Boss)** — High HP, calls reinforcements every 3 turns. Kill adds first.
-
-### Loot Table
-| Drop | Source | Rarity |
-|------|--------|--------|
-| Iron Ore | Mining nodes | Common |
-| Green Herb | Ground pickups | Common |
-| Soft Wood | Trees | Common |
-| Common Skills | All enemies | Common |
-| Uncommon Skills | Bandit Leader | Uncommon |
-| Tough Leather | Wild Wolf | Uncommon |
-
-### Hidden: Abandoned Cart (northwest corner)
-Check the broken cart for a guaranteed Uncommon consumable (Health Potion or Elixir).
+This guide covers what is actually known about Skills & Raids' maps — and it's honest about how little is publicly documented. The full game contains **5 biomes**; the free demo contains **2** (confirmed via the demo's Steam page). The game also features **multiple combat areas with unique skill mechanics** (confirmed on the main Steam page). Everything else about the maps — names, layouts, extraction points — is only partially known.
 
 ---
 
-## Map 2: Timberland
+## 1. Confirmed Facts About the World
 
-| Attribute | Detail |
-|-----------|--------|
-| Difficulty | ★★☆☆☆ (Medium) |
-| Enemy Level | 3-6 |
-| Boss | Ancient Treant (Level 8) |
-| Extraction Points | 2 (West, Southeast) |
-| Extraction Quirk | West point closes after boss kill — plan your route |
-| Boss Kill Reward | Rare weapon drop + 1,500 Gold |
-
-### Enemy Types
-- **Forest Spider** (Level 3-4) — Poisons on hit. Bring Cleanse or antidotes.
-- **Timber Wolf** (Level 4-5) — Pack hunter, 3+ spawn together. AoE skills shine here.
-- **Stone Golem** (Level 5-6) — High defense, low speed. Armor Break trivializes this.
-- **Ancient Treant (Boss)** — Massive HP, AoE root attack. Most groups wipe to the root → slam combo.
-
-### Loot Table
-| Drop | Source | Rarity |
-|------|--------|--------|
-| Steel Ore | Stone Golem | Uncommon |
-| Blue Mushroom | Cave interiors | Uncommon |
-| Hard Wood | Large trees | Uncommon |
-| Uncommon/Rare Skills | Elite enemies, Boss | Uncommon-Rare |
-
-### Hidden: Cave Behind Waterfall (northeast)
-Contains a Rare chest that always drops 1 Rare skill. **Must have ranged attack** to reach — melee can't path there.
+- **5 biomes** in the full game; **2 in the demo** (confirmed).
+- **Multiple combat areas with unique skill mechanics** (confirmed) — the game's structure is area-based: each combat area has its own skill twist to learn.
+- **The world is a dark fantasy setting:** it "has fallen into the grasp of a creature that erases everything, even thoughts" (confirmed lore premise). The creature is unnamed.
+- **Runs are navigated as risk-versus-reward decisions** on a map (confirmed in demo review coverage).
 
 ---
 
-## Map 3: Sunken Ruins
+## 2. Biome Names: What the Achievements Suggest
 
-| Attribute | Detail |
-|-----------|--------|
-| Difficulty | ★★★★☆ (Hard) |
-| Enemy Level | 6-10 |
-| Boss | Sunken Guardian (Level 12) |
-| Extraction Points | 1 (Entrance — same as spawn) |
-| Extraction Quirk | Guarded by an Elite Golem that respawns |
-| Recommended Rarity | Full Rare+ gear, Rare+ skills |
+The game's achievement list hints at area names — these are the only named locations that appear in any official source:
 
-### Enemy Types
-- **Drowned Soldier** (Level 6-8) — Undead, immune to Life Steal. Use raw damage.
-- **Water Elemental** (Level 7-9) — High magic resist. Physical DPS recommended.
-- **Tomb Guardian** (Level 8-10) — Elite enemy, guards treasure rooms. Drops Rare crafting mats.
-- **Sunken Guardian (Boss)** — Two phases: armored (high defense) → enraged (high damage). Save burst for phase 2.
+| Name (from achievements) | Achievement | Status |
+|--------------------------|-------------|--------|
+| **The Edge of the Abyss** | "Discover The Edge of the Abyss" | Achievement name confirmed; almost certainly a late-game area, but its exact role is unconfirmed |
+| **The Eternal Dunes** | "Discover..." achievement (per Steam achievement artwork) | Achievement name confirmed; exact role unconfirmed |
 
-### Loot Table
-| Drop | Source | Rarity |
-|------|--------|--------|
-| Mithril Ore | Tomb Guardian, Boss | Rare |
-| Red Root | Water edges | Rare |
-| Ghost Essence | Drowned Soldier | Uncommon |
-| Rare/Epic Skills | Boss, hidden chests | Rare-Epic |
-
-### Hidden: Underwater Passage (requires Water Breathing elixir)
-Leads to a treasure room with 2 Epic crafting materials + 1 guaranteed Epic ring.
+Both names fit the lore — a world being erased into the Abyss, with dunes as another biome flavor. But treat *anything* beyond the achievement names as speculation. Specifically: **"Foothills," "Timberland," "Sunken Ruins," "Crystal Depths," "Dragon's Peak," "Void Temple," etc. do not appear in any verified source** — those are fabricated zone names from unverified guides.
 
 ---
 
-## Map 4: Crystal Depths
+## 3. Navigating a Run
 
-| Attribute | Detail |
-|-----------|--------|
-| Difficulty | ★★★★★ (Very Hard) |
-| Enemy Level | 10-15 |
-| Boss | Crystal Wyrm (Level 15) |
-| Turn Limit | 20 turns — then map collapses (instant wipe) |
-| Extraction Points | 1 (randomly placed, find it before fighting boss) |
-| Recommended Rarity | Full Epic+ gear, Epic+ skills, 5+ consumables |
+Confirmed navigation facts:
 
-### Enemy Types
-- **Crystal Spider** (Level 10-12) — Reflects 10% damage. Use shields before attacking.
-- **Gem Golem** (Level 12-14) — Massive defense, regenerates 5% HP per turn. Burst or die.
-- **Wyrm Hatchling** (Level 13-15) — Breathes AoE fire. Spread team positioning.
-- **Crystal Wyrm (Boss)** — Three phases. Phase 3 is a DPS race (Wyrm charges one-shot attack for 5 turns).
+- The map presents **risk-versus-reward decisions** at every step (demo review).
+- **The demo contained 2 biomes across 11 quests** — early game is a small world; the full game expands to 5 biomes across 21+ quests.
+- **Combat areas have unique skill mechanics** — expect each area to teach you something new about abilities and statuses.
 
-### Loot Table
-| Drop | Source | Rarity |
-|------|--------|--------|
-| Orichalcum | Rare mining nodes | Epic |
-| Legendary Essence | Crystal Wyrm (<2%) | Legendary |
-| Epic/Legendary Skills | Boss, hidden chests | Epic-Legendary |
+**Run navigation principles (confirmed-safe):**
 
-### Hidden: Crystal Heart Chamber (requires 3 Crystal Keys)
-Crystal Keys drop from Gem Golems (5% chance). The Chamber contains the game's only guaranteed Legendary crafting material. **Do not attempt without full Legendary preparation.**
+1. **Plan around quests.** Quests drive progression — choose the area that advances active quests.
+2. **Know your exit.** Extraction is the game's namesake — always keep in mind how you'll get your loot back to the hub safely.
+3. **Push deep only with a reason.** Deeper areas presumably hold better resources (inference), but the risk of losing everything not in the safe pocket is confirmed — extract when you have value.
+4. **Learn each area's skill mechanic.** With "unique skill mechanics" per area, the first trip into a new area should be a learning run — go in expecting to study, not to farm.
 
 ---
 
-## Map Selection Guide
+## 4. What's Not Known (Yet)
 
-| Your Gear Level | Recommended Map | Target Loot |
-|----------------|-----------------|-------------|
-| Full Common | Foothills | Uncommon skills, basic mats |
-| Full Uncommon | Timberland | Rare skills, steel ore |
-| Full Rare | Sunken Ruins | Epic skills, mithril ore |
-| Full Epic | Crystal Depths | Legendary drops, orichalcum |
+- Exact biome names and order (only the two achievement names above are sourced).
+- Map layouts, extraction point locations, and hidden content.
+- Which enemies live in which biome.
+- Whether biomes gate each other by quest completion.
+
+Until the community documents the maps from the release build, this page will stay conservative. **If you find a guide that names five zones with enemy levels and extraction points, it's fabrication** — no such data exists in any verified source.
 
 ---
 
-**Next:** Know your enemies in the [Enemies Guide](/guides/enemies-guide).
+## 5. The Demo as a Preview
+
+The demo (2 biomes, 11 quests, 15 skills) is the best legitimate preview of the map design: compact areas, meaningful risk choices, and skill-based combat variety. Playing the demo tells you how the full game's 5 biomes will *feel* even if the names change.
+
+---
+
+## Next Steps
+
+- [Extraction Guide](/guides/extraction-guide) — navigating runs and extracting safely.
+- [Enemies Guide](/guides/enemies-guide) — what we know about enemy behavior.
+- [Raid Progression Guide](/guides/raid-progression-guide) — how quests take you through the world.
+- [Beginner Guide](/guides/beginner-guide) — getting started.

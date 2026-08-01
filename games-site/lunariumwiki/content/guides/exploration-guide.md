@@ -1,112 +1,119 @@
 ---
-title: "Exploration Guide — Open World Regions & Hidden Treasures"
-description: "Complete exploration guide for Lunarium covering all open world regions, hidden areas, fast travel points, points of interest, treasure locations, and exploration rewards."
+title: "Exploration Guide — The Four Regions & Hidden Treasures"
+description: "How exploration works in Lunarium: the four real regions (Firleaves, Cyanstone, White Reef Isles, Paradise), benches, Nihilus-blocked paths, Astral Shards, embroidery blueprints, and where the secrets hide."
 category: "Guides"
 version: "1.0"
-updated: "2026-07-29"
-keywords: ["lunarium exploration", "open world regions", "hidden areas", "fast travel points", "treasure locations", "exploration rewards", "points of interest"]
-related: ["character-builds", "boss-mechanics", "equipment-guide"]
+updated: "2026-08-01"
+keywords:
+  - lunarium exploration
+  - lunarium regions
+  - lunarium hidden areas
+  - lunarium astral shards
+  - lunarium treasure locations
+related:
+  - forest-walkthrough
+  - castle-walkthrough
+  - white-reef-isles-walkthrough
+  - archipelago-walkthrough
+  - secrets-guide
 ---
 
-## Lunarium Exploration Guide
+# Exploration Guide — The Four Regions & Hidden Treasures
 
-The world of Lunarium is vast and rewards thorough exploration with rare equipment, skill tomes, and lore fragments that deepen your understanding of the fractured moon. With six major open world regions and numerous hidden areas, knowing where to look and what to expect can save you hours of aimless wandering. This guide covers every region, its dangers, and its treasures.
+**Lunarium 1.0 / Updated: August 1, 2026**
 
-## Region Overview
+Lunarium is not an open world and not a metroidvania — it's a **linear four-region ARPG with light exploration**. But "light" doesn't mean empty: the game hides meaningful upgrades (Astral Shards, embroidery blueprints, key items) in side rooms and optional paths, and the hub-return loop rewards thorough play.
 
-| Region | Recommended Level | Size | Fast Travel Points | Notable Loot |
-|--------|------------------|------|-------------------|--------------|
-| **Whispering Woods** | 1-10 | Medium | 3 | Novice Skill Tomes, Moonstone Shards |
-| **Sunken Catacombs** | 10-18 | Large | 4 | Undead Bane Weapons, Ancient Scrolls |
-| **Crimson Dunes** | 18-25 | Large | 5 | Fire Resist Gems, Sand Strider Boots |
-| **Frozen Spires** | 25-32 | Medium | 3 | Ice Enchanted Gear, Yeti Hide Armor |
-| **The Riftlands** | 32-40 | Very Large | 6 | Endgame Weapons, Rift Shards |
-| **Lunar Sanctum** | 40-50 | Small | 2 | Legendary Gear, Moonstone Fragments |
+This guide covers the real structure of the game and where to look for hidden content. An earlier version of this guide on this site described six invented zones (Whispering Woods, Sunken Catacombs, etc.) — those don't exist. This is the corrected version.
 
-## Whispering Woods (Levels 1-10)
+---
 
-The starting zone introduces exploration fundamentals. Three fast travel points connect the major sub-areas: Forest Crossing, Abandoned Mill, and Elder's Glade.
+## 1. The Real Map: Four Regions, One Hub
 
-### Points of Interest
+| Region | Order | Role | Confirmed Bosses |
+|--------|-------|------|------------------|
+| **Firleaves** | 1st | Opening mountains; tutorial + hub | Longhorn Troll, Vine Fungi, Shadow of Firleaves |
+| **Cyanstone** | 2nd | Lilia's corrupted region; boss gauntlet | Sentinel Colossus, Red Dancer, Fintan, Hauler, Roan, Lilia |
+| **White Reef Isles** | 3rd | Island mystery; lanterns + sea fights | Sea Monster, Volcano Crab, Dreamsinger Priestess, Ryuu |
+| **Paradise** | 4th | Finale; dream world | Roan (rematch), Shadow in the Dream, Elmo, Enid |
 
-- **Abandoned Mill**: Contains a hidden cellar accessible by breaking the south wall. Inside is a Novice Skill Tome and 200 gold.
-- **Elder's Glade**: The zone's heart features a Moonstone Shrine that provides a permanent 5% XP buff if you offer 10 Moonstone Shards.
-- **Fairy Ring**: A circle of glowing mushrooms east of Forest Crossing. Entering at night transports you to a hidden cavern with a rare pet egg.
-- **Bandit Camp**: Southeast corner. Clearing all bandits unlocks a chest containing the Bandit's Dagger, an early-game rogue weapon.
+**Hub:** Starfall Village (in Firleaves) — the Sanctuary with crafting bench, Fungal Mortar, and Loom. You return here between regions.
 
-### Hidden Area: Whispering Hollow
+---
 
-North of Elder's Glade, a waterfall conceals a cave entrance. Inside, you will find the Hollow Bark armor set and a lore tablet explaining the origin of the Moonstone. This area has no enemies but requires 30 Dexterity to navigate the collapsing platforms.
+## 2. Core Exploration Mechanics (Confirmed)
 
-## Sunken Catacombs (Levels 10-18)
+| Mechanic | How It Works |
+|----------|--------------|
+| **Benches** | Save points; resting restores HP and respawns regular enemies (Souls-like pattern) |
+| **Lune's arrow** | Destroys **Nihilus orbs** and shoots **Nihilus cores** — blocked paths and orb-protected enemies are cleared by her |
+| **Locked gates** | Key-item gates (e.g., 4 Souls of the Created → Palace gate; Shipyard key; Messenger's Key) |
+| **Story-gated progression** | Some paths open only after story events (e.g., resting at the Sanctuary after Cyanstone) |
+| **Hidden chests** | Confirmed to exist — e.g., the embroidery blueprint chest by Cyanstone's first bench |
 
-An underground necropolis with four fast travel points. The Catacombs are dense with undead enemies and trapped corridors.
+---
 
-### Points of Interest
+## 3. Confirmed Collectibles (Where to Look)
 
-- **King's Tomb**: The central burial chamber contains the Undead Bane Sword, which deals 50% bonus damage to undead enemies. The tomb is guarded by the Skeletal King mini-boss.
-- **Alchemist's Lab**: Hidden behind a bookshelf in the east wing. Contains three random potion recipes and an Ancient Scroll.
-- **The Pit**: A vertical descent with collapsing platforms at the south end. At the bottom, a chest containing the Gravewalker Boots (increased movement speed in dark areas).
+| Collectible | Confirmed Location(s) | Effect |
+|-------------|----------------------|--------|
+| **Embroidery blueprints** | Chest near the first resting bench in Cyanstone (room to the left) | Craft passive "charm-like" embroidery at the Loom |
+| **Astral Shards** | Scattered around Cyanstone | Raise the resonance cap |
+| **Echoes of Yore** | Shadow of Firleaves drop (Firleaves) | Key item (use unconfirmed) |
+| **Stellar Cores** | Lilia (Cyanstone), Doro (Dreampath) | Key items |
+| **Souls of the Created** | 4 Cyanstone bosses | Open the Palace gate |
+| **Wayfarer's Cloak** | Starfall Village | First confirmed cloak |
 
-### Hidden Area: Lost Archive
+> Community walkthroughs strongly suggest more chests and secrets exist (they note hidden rooms and loot along main routes), but no complete collectible checklist is verified yet. Treat any "complete guide with 47 collectibles" as unverified.
 
-Accessible by solving a three-lever puzzle in the central hall. The archive contains five Ancient Scrolls, one Legendary Skill Tome, and a fast travel point that connects directly to the Lunar Sanctum. This area is the single richest loot location in the mid-game.
+---
 
-## Crimson Dunes (Levels 18-25)
+## 4. Region-by-Region Exploration Notes
 
-A desert zone with shifting sand mechanics. The environment changes every in-game day, revealing and hiding paths.
+### Firleaves
+- Explore the mountains fully before the bosses — early resources matter.
+- The **Starfall Village** hub arrives after the Shadow of Firleaves; rest there to set up the Sanctuary.
 
-### Points of Interest
+### Cyanstone
+- **Look for Nihilus cores blocking side paths** — shooting them opens shortcuts and chest routes.
+- The **Astral Shards** are the region's signature pickups; a bigger Resonance cap pays off immediately.
+- The **embroidery blueprint** chest is the region's most important hidden find.
+- Optional: the **Rearguard Warrior** (south of the village) — the only confirmed optional boss.
 
-- **Oasis of Mirrors**: Reflects moonlight in a pattern that unlocks a hidden door at midnight. Inside, the Mirage Blade — a weapon that scales with Intelligence.
-- **Sand Strider Nest**: Home to aggressive Sand Striders. Killing the alpha drops the Sand Strider Boots, providing immunity to movement-slowing effects.
-- **Pyramid of Embers**: A dungeon with five floors. Each floor has a lever puzzle. Completing all five unlocks the Phoenix Ring, which grants one automatic revive per day.
+### White Reef Isles
+- **Gates of light** change the environment (raising water levels opens/closes paths) — revisiting areas after story events is expected.
+- The lighthouse → Pale Tear Village → Shipyard → Harbor Edge route involves several key-item locks (drawbridge, Shipyard gate, Messenger's Key, four bells).
+- The **Dreamsingers' hidden laboratory** is a large optional-ish sequence with levers and a prison lift puzzle — thorough exploration here is rewarded.
 
-### Hidden Area: Sunken Temple
+### Paradise
+- In the **Dreampath, follow the butterflies** — they mark safe ground.
+- After freeing Doro, the Dreampath is permanently safe (butterfly protection).
 
-During sandstorms (occurs every third in-game day), a temple emerges from the dunes at the zone's center. The temple contains fire-enchanted gear and the Ember Core, a crafting material required for legendary weapons. The temple is only accessible during the storm window.
+---
 
-## Frozen Spires (Levels 25-32)
+## 5. Exploration Tips
 
-A vertical mountain zone with extreme weather mechanics. Exposure builds over time and must be managed with fire sources or cold-resistant gear.
+1. **Let Lune clear cores early** — paths blocked by Nihilus are often the ones with loot.
+2. **Rest often, but deliberately** — resting respawns enemies (handy for farming) and resting at the Sanctuary triggers story beats.
+3. **Revisit after story events** — White Reef Isles' water gates and several doors are progression-gated.
+4. **Talk to everyone at Starfall Village** — hub NPCs (community reports) give direction and lore; specifics unconfirmed.
+5. **Mark anything you can't open** — key items (Souls of the Created, keys) unlock earlier gates later.
 
-### Points of Interest
+---
 
-- **Summit Peak**: The zone's highest point. Reaching it rewards the achievement "Sky Toucher" and unlocks a permanent stamina bonus.
-- **Yeti Cavern**: A cave system in the northeast. Contains Yeti Hide Armor pieces and the Frostbite enchantment recipe.
-- **Frozen Lake**: The ice surface hides treasure below. Smashing through at marked cracks reveals underwater chests containing Ice Enchanted weapons.
+## 6. Exploration Myths
 
-## The Riftlands (Levels 32-40)
+- ❌ "Six open-world regions with fast travel points" — four regions, no fast-travel web documented.
+- ❌ "Level-gated zones (levels 1-10, 10-18...)" — no level system exists.
+- ❌ "XP shrines / stat bonuses from lore fragments" — no such system documented.
+- ❌ "Treasure maps from enemies" — not documented.
 
-A shattered zone floating in lunar orbit, accessible only after completing the main story chapter "Broken Sky." The Riftlands has six fast travel points and is the largest zone in the game.
+---
 
-### Points of Interest
+## Related Guides
 
-- **Stargazer Observatory**: Contains a telescope that reveals hidden treasure locations across all other zones. Requires 40 Intelligence to operate.
-- **Rift Forge**: An endgame crafting station that can upgrade weapons to legendary tier. Requires Rift Shards as fuel.
-- **Floating Gardens**: A vertical maze of floating islands. Complete the traversal challenge to earn the Gravity Boots, enabling triple-jump.
-
-### Hidden Area: Null Zone
-
-The Riftlands' most dangerous secret. A pocket of absolute darkness inhabited by level 50 void creatures. Contains the Voidbringer set, the most powerful armor in the game. Bring light sources and a full party.
-
-## Lunar Sanctum (Levels 40-50)
-
-The endgame hub zone with direct access to the final boss. Two fast travel points connect the inner and outer rings.
-
-### Points of Interest
-
-- **Moonstone Vault**: Stores legendary gear. Opening each vault segment requires Moonstone Fragments found across all zones.
-- **Sanctum Archive**: Contains lore fragments that piece together the story of the fractured moon. Completing the archive unlocks the "Lunar Scholar" title.
-
-## Exploration Rewards Summary
-
-Exploration is rewarded through multiple systems:
-
-- **Map Completion**: Each region offers a completion bonus when you discover all points of interest. Rewards include skill points, gold, and region-specific titles.
-- **Lore Fragments**: Finding all lore fragments in a zone unlocks a permanent stat bonus. The Whispering Woods lore set grants +5 Spirit, for example.
-- **Treasure Maps**: Found randomly on enemies. Each treasure map leads to a buried cache containing rare crafting materials or equipment.
-
-For optimal exploration efficiency, equip items that increase movement speed and carry multiple light sources. The Rogue's Stealth ability is invaluable for navigating high-level zones before you are ready to fight their inhabitants.
-
-For combat strategies against zone bosses, see the [Boss Mechanics Guide](/guides/boss-mechanics). For build recommendations tailored to each region, check the [Character Builds Guide](/guides/character-builds).
+- [Firleaves Walkthrough](/guides/forest-walkthrough) — region 1
+- [Cyanstone Walkthrough](/guides/castle-walkthrough) — region 2 (Astral Shards, blueprint)
+- [White Reef Isles Walkthrough](/guides/white-reef-isles-walkthrough) — region 3
+- [Paradise Walkthrough](/guides/archipelago-walkthrough) — region 4
+- [Secrets Guide](/guides/secrets-guide) — hidden content catalog

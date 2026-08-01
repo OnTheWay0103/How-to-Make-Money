@@ -2,16 +2,18 @@
 title: "Skill Trees & Progression Guide: Character & Henki Growth"
 description: "Master Taival's dual progression system. Complete breakdown of character skill trees, Henki form mastery, profession skills, how to earn skill points, and the best early-game unlocks."
 category: "Progression"
-updated: "2026-07-27"
+updated: "2026-08-01"
 ---
 
 # Taival — Skill Trees & Progression Guide
 
-> Early Access Version / Updated: July 27, 2026
+> Early Access Version / Updated: August 1, 2026
 
 Taival features a dual progression system — your character levels independently from your Henki companion. Every skill point, essence absorption, and profession rank contributes to unlocking new abilities, traversal options, and combat efficiency. Understanding how both tracks work together is the difference between struggling through biomes and exploring them with confidence.
 
 This guide breaks down every progression system and tells you what to prioritize in the early game.
+
+**Accuracy note (August 2026):** the dual progression system — a character track (abilities, combat skills, professions like fishing) plus a Henki track (forms, mount abilities) — is confirmed by official materials, and in co-op each player has their own skill tree. The specific skill names, effects, percentages, mastery levels, and respec costs below are community speculation from Early Access and are unconfirmed (TBD) — treat them as a framework for verification, not official documentation.
 
 ---
 

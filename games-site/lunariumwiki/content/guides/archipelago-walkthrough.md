@@ -1,154 +1,154 @@
 ---
-title: "Lunarium Walkthrough — Archipelago & Dreamworld"
-description: "Complete walkthrough for the Archipelago and Dreamworld in Lunarium. All island locations, dream sequences, Star-Eater final boss strategy, and ending conditions."
+title: "Lunarium Walkthrough — Paradise (Final Region)"
+description: "Complete walkthrough for Paradise, the final region of Lunarium. The Dreampath, Roan's rematch, the Shadow in the Dream, Elmo, the final boss Enid, and what happens after the ending."
 category: "Walkthrough"
 version: "1.0"
-updated: "2026-07-25"
-keywords: ["Lunarium Archipelago walkthrough", "Lunarium Dreamworld", "Lunarium Star-Eater", "Lunarium final boss", "Lunarium ending guide"]
-related: ["castle-walkthrough", "boss-guide", "endings-guide", "forest-walkthrough"]
+updated: "2026-08-01"
+keywords:
+  - Lunarium walkthrough paradise
+  - Lunarium final region
+  - Lunarium Enid final boss
+  - Lunarium ending
+  - Lunarium Dreampath
+related:
+  - white-reef-isles-walkthrough
+  - castle-walkthrough
+  - boss-guide
+  - endings-guide
 ---
 
-# Lunarium Walkthrough — Archipelago & Dreamworld
+# Lunarium Walkthrough — Paradise (Final Region)
 
-**Lunarium 1.0 / Updated: July 25, 2026**
+**Lunarium 1.0 / Updated: August 1, 2026**
 
-The Archipelago is Lunarium's final region — a dreamlike chain of floating islands suspended above water, where the boundaries between reality and the Dreamworld blur.
+Paradise is the fourth and final region of Lunarium — the elusive destination that Ryuu, the Starfarer of the White Reef Isles, promises to take you to. The final act is built around saving Firleaves (and the world) from the Nihilus darkness, diving into the dream world, and confronting the entity behind the corruption.
 
----
-
-## 1. Arrival at the Archipelago
-
-### Walkthrough
-1. Step through the Chapel portal (cutscene)
-2. You arrive on the **Harbor Island** — the central hub of the Archipelago
-3. Activate the Harbor Waypoint
-4. Speak with the **Star Mariner** (NPC who ferries between islands)
-
-### Archipelago Structure
-The Archipelago consists of 5 main islands connected by boat travel:
-
-| Island | Theme | Key Content |
-|--------|-------|------------|
-| Harbor Island | Hub | Shop, Waypoint, Star Mariner |
-| Memory Island | Ave's past | Story sequences, Ave character development |
-| Starfall Island | Lune's origin | Lune backstory, Starfarer lore |
-| Void Island | Darkness | Hardest regular enemies, best loot |
-| Abyss of Stars | Final dungeon | Star-Eater boss, ending choice |
+Everything in this guide is sourced from community walkthroughs of the released game. Where details are not yet confirmed, they are marked as unconfirmed.
 
 ---
 
-## 2. Memory Island
+## 1. Arriving in Paradise
 
-### Walkthrough
-1. Take the Star Mariner's boat to Memory Island
-2. Explore the **Fragments of the Past** — interactive memory sequences
-3. Defeat the Memory Wraiths (ghostly versions of previous bosses)
-4. Reach the Memory Core
+After Ryuu defeats you to test your strength (see the [White Reef Isles walkthrough](/guides/white-reef-isles-walkthrough)), she keeps her word and guides Ave and Lune to Paradise. Key areas confirmed in community walkthroughs:
 
-### Key Story Choices
-| Choice | Location | Effect |
-|--------|----------|--------|
-| Forgive or Condemn | Memory Core | Affects Ave's character arc (cosmetic) |
-| Keep or Discard the Pendant | Abandoned House | Affects ending availability |
-
-### Collectibles
-| # | Item | Location |
-|---|------|----------|
-| 1 | Starlight Mantle Cloak | Memory Core treasure room |
-| 2 | Stardust x1,500 | Scattered across memory fragments |
-| 3 | Rare Charm: Guardian Charm | Defeat the Memory Wraiths |
+| Area | What Happens There |
+|------|--------------------|
+| **Stagnant Cloak** | A location/building in Paradise where you meet **Elmo**. Note: despite the name, this is NOT a wearable cloak item — it's an area. |
+| **Graveyard of Stars** | A mid-region area on the path to the Dreampath |
+| **Dreampath** | The dream world — where the game's central mystery is resolved |
+| **Paradise of Yore** | The endgame area where the final boss is fought |
 
 ---
 
-## 3. Starfall Island
+## 2. Roan's Rematch (Two Phases)
 
-### Walkthrough
-1. Boat to Starfall Island from Harbor Island
-2. Navigate the floating crystal platforms (some crumble — watch your step)
-3. Defeat the Celestial Guardians (2 elite enemies)
-4. Reach the Starfall Observatory
+Roan — the Mysterious Visitor you first met in Cyanstone — plays a major role in Paradise. Community walkthroughs describe a **two-phase rematch**:
 
-### Lune's Revelation
-At the Observatory, Lune's true nature as a Starfarer is revealed. This sequence:
-- Unlocks Lune's third skill tree branch (Constellation)
-- Grants the **Cosmic Rain** ultimate ability
-- Adds Starfall Island lore entries to your journal
+- **Phase 1:** similar cane fighting style to the Cyanstone encounter, but faster.
+- **Phase 2:** Roan **summons a scythe** and becomes notably faster and stronger.
 
-### Collectibles
-| # | Item | Location |
-|---|------|----------|
-| 4 | Stardust x2,000 | Observatory upper level |
-| 5 | Epic Charm: Resonance Crystal | Behind the Observatory (secret jump) |
-| 6 | Embroidery Thread x10 | Crystal cave beneath the island |
+After defeating Roan, they ask you to find **Doro** — leading you toward the Dreampath.
 
 ---
 
-## 4. Void Island
+## 3. The Dreampath
 
-### Walkthrough
-1. Boat to Void Island (unlocked after completing Memory + Starfall)
-2. This island is **permanently dark** — use Lune's light as a guide
-3. Enemies are the strongest in the game (Void Knights, Abyssal Horrors)
-4. Reach the Void Altar
+The Dreampath is the dream-world section of the finale:
 
-### Best Loot Location
-Void Island has the highest concentration of rare drops:
-- Void Knights drop Epic crafting materials (25% chance)
-- Hidden chest in the Abyssal Chasm contains **Void Shroud Cloak**
-- Two Elite mini-bosses (Void Champion, Abyssal Wyrm) drop Legendary materials
+- Enter through a **black gate**.
+- **Follow the butterflies** — they mark the safe spots; the dream world is dangerous outside them.
+- Fight through various **Nihilus-made enemies**.
 
-### Recommended Preparation
-- **Level:** 35+ (enemies are Level 40-45)
-- **Build:** Any fully-upgraded endgame build
-- **Charms:** Max out your charm slots before coming here
+### Mid-Boss: Shadow in the Dream
+| Attribute | Detail |
+|-----------|--------|
+| **Location** | Dreampath, before freeing Doro |
+| **Difficulty** | Hard |
+| **Relation** | Similar to the opening Nihilus boss in Firleaves, but stronger |
 
----
+- Treat it like "Shadow of Firleaves, powered up" — the same family of attacks (Nihilus puddles, spike summons, shockwaves), just faster and harder hitting.
+- Parry what you can, dodge the red-flash attacks, and use the Blade of Rutila (from Lilia's fight) to interrupt its heaviest moves.
 
-## 5. Abyss of Stars (Final Boss: Star-Eater)
-
-### Prerequisites
-- Both Memory Island and Starfall Island completed
-- Void Altar activated (defeat both Void Island mini-bosses)
-- Party level 40+
-
-### Walkthrough
-1. Activate the Void Altar (requires Star Core fragment from each island)
-2. Descend into the Abyss
-3. Navigate the floating platform gauntlet (enemies + platforming)
-4. Reach the Star-Eater's chamber
-
-### The Final Choice
-After defeating the Star-Eater, you're presented with a choice:
-
-| Choice | Effect |
-|--------|--------|
-| **Sacrifice the Star Core** | Ending A: The world is saved, but Lune returns to the stars |
-| **Keep the Star Core** | Ending B: Ave and Lune stay together, but the world begins dying again |
-| **Share the Star Core** (hidden) | True Ending: Requires max bond with Lune + both pendant choices |
-
-See the [Endings Guide](/guides/endings-guide) for detailed requirements.
-
-### Boss Strategy
-See the [Boss Guide](/guides/boss-guide) for the full Star-Eater strategy. This is the hardest fight in the game.
+### Rewards
+- **Doro's Stellar Core**
+- A **butterfly that permanently protects you from the Dreampath** — after this, the dream world's hazards no longer threaten you. This also confirms that Doro is freed as part of the story.
 
 ---
 
-## 6. 100% Completion Checklist — Archipelago
+## 4. Paradise of Yore — Elmo
 
-- [ ] Harbor Island Waypoint activated
-- [ ] Memory Island — all fragments explored
-- [ ] Starfall Island — Observatory reached
-- [ ] Void Island — both mini-bosses defeated
-- [ ] Void Shroud Cloak found
-- [ ] All 6 collectibles collected
-- [ ] Star-Eater defeated
-- [ ] Ending choice made
+Before the final confrontation, you fight **Elmo** in the Stagnant Cloak / Paradise of Yore area:
+
+| Attribute | Detail |
+|-----------|--------|
+| **Weapon** | Scrolls |
+| **Defense** | A shield that must be broken |
+
+- **Scroll attacks:** Elmo uses scrolls that fire projectiles — dodge through or around them.
+- **The shield:** Elmo's shield must be **broken by staggering him once**. Build his stagger bar with parries and pressure, then punish while he's staggered.
+
+---
+
+## 5. Final Boss: Enid
+
+**Enid** is the true final boss of Lunarium — the entity behind the Nihilus corruption.
+
+| Attribute | Detail |
+|-----------|--------|
+| **Location** | Paradise of Yore |
+| **Phases** | 2 |
+| **Difficulty** | Hardest fight in the game |
+
+### Phase 1
+- **Parry her deflection/thrust attacks** — this is a parry-check fight; the game expects you to have mastered the timing by now.
+- **Blade of Rutila:** when she **smashes her sword into the ground**, use the **Blade of Rutila to stagger her**. This is the intended use of the skill — interrupting her big moves with heavy stagger damage.
+
+### Phase 2
+- Enid becomes **faster and more aggressive**.
+- She may **teleport into a rift** before either **grabbing** you or unleashing **rapid slashes**.
+- Stay mobile, keep parrying the thrusts you can read, and keep the Blade of Rutila ready for her ground-sword smash.
+
+### After the Victory
+Defeating Enid plays the **ending cutscene** and the game ends — **with the option to resume from the last bench** to continue exploring, collecting, and fighting any optional bosses you missed.
+
+---
+
+## 6. The Ending(s)
+
+Lunarium's story "converges toward two distinct endings" per official press materials — this was confirmed across multiple sources (Gematsu, Niche Gamer, press releases).
+
+- **Two endings confirmed to exist.** Exactly what choices or conditions gate each ending has not been documented by community walkthroughs at the time of writing — the specifics are **unconfirmed (TBD)**.
+- Do not trust guides that name the endings, their choices, or "true ending" requirements — no reliable source has documented these yet. We will update this page as the community verifies them.
+- See our [Endings Guide](/guides/endings-guide) for everything currently known.
+
+---
+
+## 7. Post-Game (After the Credits)
+
+After the ending, resuming from the last bench lets you:
+
+- **Finish optional content** — the optional Rearguard Warrior in Cyanstone, any missed Astral Shards and embroidery blueprints.
+- **Hunt collectibles** — the only explicitly documented collectibles are Astral Shards, embroidery blueprints, and the Echoes of Yore drop, but community guides suggest more exist (details unconfirmed).
+- **New Game Plus is unconfirmed.** Official sources have not announced NG+ as of this writing — treat claims of NG+ (carried-over gear, harder enemy variants) with skepticism.
+
+---
+
+## 8. Paradise Checklist
+
+- [ ] Defeat Roan's rematch (both phases)
+- [ ] Cross the black gate into the Dreampath
+- [ ] Follow the butterflies to Doro
+- [ ] Defeat the Shadow in the Dream
+- [ ] Free Doro (get her Stellar Core + the Dreampath butterfly)
+- [ ] Defeat Elmo (break his shield via stagger)
+- [ ] Defeat Enid — final boss
+- [ ] Watch the ending, then resume from the last bench to finish optional content
 
 ---
 
 ## Related Guides
 
-- [Castle Walkthrough](/guides/castle-walkthrough)
-- [Boss Guide — All Bosses & Strategies](/guides/boss-guide)
-- [Endings Guide — How to Get Both Endings](/guides/endings-guide)
-- [Forest Walkthrough](/guides/forest-walkthrough)
+- [White Reef Isles Walkthrough](/guides/white-reef-isles-walkthrough) — the third region
+- [Cyanstone Walkthrough](/guides/castle-walkthrough) — the second region (Blade of Rutila unlock)
+- [Boss Guide — All Bosses](/guides/boss-guide) — Enid and every other boss in detail
+- [Endings Guide](/guides/endings-guide) — what's confirmed about the two endings

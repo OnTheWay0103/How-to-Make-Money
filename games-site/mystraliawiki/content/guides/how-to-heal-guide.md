@@ -1,103 +1,76 @@
 ---
-title: 'How to Heal & Survive — HP Recovery Guide for Echoes of Mystralia'
-description: 'How to heal in Echoes of Mystralia. Learn potions, Leech and Barrier Memories, Vampiric Sigil, Phoenix Feather, dodging and damage mitigation — every healing source ranked.'
-keywords: ['echoes of mystralia how to heal', 'echoes of mystralia healing', 'echoes of mystralia potions', 'mystralia how to restore hp', 'echoes of mystralia survive']
+title: 'How to Heal & Survive — HP Recovery in Echoes of Mystralia'
+description: 'How to heal and survive in Echoes of Mystralia — what\'s confirmed about HP recovery, demo-verified survival techniques, and what stays TBD until Early Access launches.'
+category: 'Combat'
+version: 'Pre-release'
 updated: '2026-08-01'
+keywords: ['echoes of mystralia how to heal', 'echoes of mystralia healing', 'echoes of mystralia survive', 'echoes of mystralia restore hp', 'echoes of mystralia tips', 'mystralia how to stay alive']
+related: ['beginner-guide', 'boss-guide', 'ash-forest-guide', 'spell-crafting-guide']
 ---
 
-# How to Heal & Survive — HP Recovery Guide
+# How to Heal & Survive — HP Recovery in Echoes of Mystralia
 
-Echoes of Mystralia is an action-heavy ARPG — enemies hit hard, and healing is a resource you manage, not a button you press. Between potions, Memory-based sustain, Relics, and Lotus stats, there are more healing tools than most players realize. This guide ranks every way to recover HP.
+"How do I heal in Echoes of Mystralia?" is one of the most-asked questions about the game — and the honest answer right now is that **Borealys Games has not published the game's healing mechanics.** Echoes of Mystralia enters Steam Early Access on **August 11, 2026**, and specific healing items, spells, or regeneration systems are **TBD**. What we can give you is: what's confirmed, demo-verified survival techniques that work today, and exactly what to test on day one.
 
-## Healing Sources, Ranked
+> **Pre-release note:** Earlier versions of this guide listed healing "Relics," "Leech Memories," and potion systems with specific percentages. **None of that was confirmed by Borealys and it has been removed.**
 
-| Method | Type | How It Works | Availability |
-|--------|------|--------------|--------------|
-| **Potions** | Active | Consumable that restores HP instantly | Dropped in runs, purchasable at shrines |
-| **Leech Memory** | Passive | Restores health on hit when slotted | Memory drops, any rarity |
-| **Vampiric Sigil** | Relic | 5% of spell damage returned as healing | Rare Relic drop |
-| **Barrier Memory** | Shield | Temporary shield on cast — prevents damage instead of healing it | Memory drops |
-| **Crystal Aegis** | Relic | Shield equal to 30% max HP at the start of every combat | Legendary Relic |
-| **Phoenix Feather** | Relic | Once per run: revive with 50% HP on death | Legendary Relic |
-| **Vitality (Lotus)** | Permanent | +5% max HP per tier, up to +25% | Temple, 100+ Memory Shards per tier |
-| **Shrines** | Active | Rest points where you can switch loadouts — some offer restoration | In runs, at set locations |
+## What's Confirmed About HP
 
-## 1. Potions — Your Baseline
+- Echoes of Mystralia is an **action-heavy** ARPG — the developers describe the game as action-heavy with real combat challenge
+- **Death is a core part of the loop**: runs end, you return to the **Azimuth Temple** hub, and permanent upgrades there make future runs easier
+- The hub is the confirmed "safe space" — between runs, health and resources reset with your run structure
+- **Dodging and positioning** are the fundamental survival skills, visible in all official gameplay footage and the demo
 
-Potions are the most direct healing in the game: quick, reliable, and always useful.
+In other words: healing systems are **TBD**, but the survival *foundation* is confirmed — avoid damage, and use the hub between runs.
 
-- **Where to get them**: enemy drops, chests, and shrine vendors.
-- **Alchemist's Vial** makes potions heal 30% more — the single best early-game survivability Relic while you learn enemy patterns.
-- **Potion discipline**: don't chug at 90% HP "just in case" — potions are limited; heal when the next hit would kill you.
+## Survival Techniques You Can Verify in the Demo (Today)
 
-## 2. Leech Memory — The Passive Sustain King
+The demo lets you practice the skills that will carry you through launch:
 
-The **Leech Memory** restores health on hit — the most flexible sustain tool in the game because it scales with your damage:
+### 1. Movement Is Your Primary Defense
 
-- **Best on**: fast-hitting or multi-projectile spells (Bolt with Multishot, Arc with Chain, Barrage).
-- **Best with**: fire builds that stack burn — damage-over-time ticks trigger leech repeatedly.
-- **Pair with Vampiric Sigil** for double sustain: leech on hit + spell damage conversion. Together they out-heal most enemy damage in the early and mid game.
+Every enemy attack in the demo can be avoided with movement. Learn the habit of **moving after casting** — the demo punishes standing still.
 
-## 3. Shields — Preventing Damage Is Healing
+### 2. Learn Attack Wind-Ups
 
-Damage that never lands doesn't need healing:
+Rift-spawned foes and Shadows of the Past telegraph their attacks. The demo's **4 fight challenges** are designed to drill exactly this: watch the tell, dodge, then punish.
 
-- **Barrier Memory** — grants a temporary shield on cast. Slot it on your primary spell so you're always shielded when it matters. The most defensive Memory in the game.
-- **Crystal Aegis** (Legendary) — a shield equal to 30% of max HP at the start of every combat. Essentially a second health bar for every encounter.
-- **Phase Memory** — adds invulnerability frames to the cast animation. Not healing, but the closest thing to a "dodge" that spellcrafting offers.
+### 3. Craft Defensively
 
-**Stacking note**: shields and HP heal together perfectly — Barrier absorbs the hit while potions restore the damage that gets through.
+The demo's 50 Memories let you experiment with defensive spell arrangements — bigger zones, longer-lasting effects, or control-focused ice spells. A spell that keeps enemies away from you heals as effectively as any potion.
 
-## 4. Vampiric Sigil — Sustain for Damage Builds
+### 4. Use the Fight Challenges as a Health Lab
 
-**Vampiric Sigil** converts 5% of spell damage into healing — the sustain option for DPS archetypes that refuse to sacrifice damage slots:
+The demo's repeatable challenges are the perfect place to test "how much can I survive with this loadout?" — free, fast, and zero risk to your run.
 
-- **Best on**: Inferno Machine (high raw damage) and Vortex builds (constant damage ticks).
-- **Why it's strong**: it requires no loadout commitment — one Relic slot replaces Leech and frees the Memory slot for damage.
-- **Pair with Berserker's Totem** (+30% damage, +15% damage taken) — the heal offsets the extra incoming damage.
+### 5. Respect the Boss Arena
 
-## 5. Phoenix Feather — The Emergency Button
+Therakan is the demo's health check. Players who reach him with full HP after a clean run do dramatically better than those who arrive damaged — treat the region's earlier fights as an HP economy.
 
-**Phoenix Feather** revives you once per run with 50% HP. It's the most impactful defensive Relic in the game:
+## What to Test at Launch (Healing Systems TBD)
 
-- **Use it for**: first Guardian kills, challenge mode attempts, hard difficulty pushes.
-- **It's a trap for farming runs**: in a routine Ash Forest clear, slot damage or shard-farming Relics instead — save the feather for content that can kill you.
-- **Milestone note**: you can also earn Guardian's Pendant (+10% max HP) from the Lotus milestone system — a cheaper, permanent defensive floor.
+When Early Access goes live, verify these in order:
 
-## 6. Lotus Vitality — The Permanent Solution
+1. **Pickups and potions** — do enemies or the environment drop healing items? (TBD)
+2. **Craftable healing** — can Memories produce healing or defensive spells? (TBD)
+3. **Hub restoration** — what happens to HP between runs at the Azimuth Temple? (Expected: full restoration; TBD)
+4. **Passive regeneration** — does out-of-combat recovery exist? (TBD)
+5. **Survival upgrades** — what permanent defensive skills does the hub offer? (TBD)
 
-Every source above is run-scoped. **Vitality** is the only healing stat that stays forever: +5% max HP per tier, up to +25% at tier 5.
+This guide will be updated with verified answers the moment the launch build is playable.
 
-- **Priority**: Vitality Tier 1 early (survivability floor), then Tier 2–3 before your first Stormspire attempt.
-- **The +25% max HP ceiling** makes every potion, Leech proc, and shield 25% more valuable.
-- For players who die often: Vitality before Arcana. Damage doesn't help when you're dead.
+## Surviving the First Week of Early Access
 
-## 7. Dodging — The Skill-Based Healer
+Until healing specifics are mapped, follow the survival framework that works in every action roguelite:
 
-Finally, the best healing is avoiding damage entirely:
-
-- Learn each enemy's wind-up — every attack is dodgeable.
-- Use **Rift** (teleport spell form with an elemental burst) as a panic escape.
-- **Hasten Memories** on your movement spells reduce the casting commitment that leaves you vulnerable.
-- Position around hazards and shrine rest points — know where your retreat is before you need it.
-
-## Building a Survivor Loadout
-
-If you want maximum survivability for a hard region or Guardian fight:
-
-| Layer | Choice |
-|-------|--------|
-| Spells | Nova (with Barrier + Leech) + Wall + Lance |
-| Element | Ice (freeze stops damage outright) |
-| Relics | Crystal Aegis, Vampiric Sigil, Phoenix Feather, Alchemist's Vial, Guardian's Pendant, Ironwood Bark |
-| Lotus | Vitality → Resilience → Arcana |
-
-That's the full **Blizzard King** tank template — see the [Character & Playstyle Guide](/guides/character-playstyle-guide) for details. Glass-cannon players can instead run Vampiric Sigil + Leech on a Vortex fire build — it heals enough to survive most content.
+1. **Prioritize not getting hit** over dealing damage — damage output means nothing when you're dead
+2. **Learn each region's enemy roster** before optimizing routes
+3. **Spend hub upgrades on survival first** if you're struggling — permanent defense beats temporary damage
+4. **Take breaks between attempts** — tilt is the real boss of pre-launch learning
 
 ## Related Guides
 
-- [Character & Playstyle Guide](/guides/character-playstyle-guide) — full build archetypes
-- [Spell Crafting Guide](/guides/spell-crafting-guide) — where Leech, Barrier, and Phase slot in
-- [Relics Guide](/guides/relics-guide) — every defensive Relic cataloged
-- [Lotus Progression Guide](/guides/lotus-progression-guide) — Vitality and the other permanent stats
-- [Boss Guide](/guides/boss-guide) — how to survive Guardian fights
+- [Beginner Guide](/guides/beginner-guide) — the core loop and demo basics
+- [Boss Guide](/guides/boss-guide) — surviving Therakan and the Guardians
+- [Ash Forest Guide](/guides/ash-forest-guide) — the demo region's combat school
+- [Spell Crafting Guide](/guides/spell-crafting-guide) — crafting defensively

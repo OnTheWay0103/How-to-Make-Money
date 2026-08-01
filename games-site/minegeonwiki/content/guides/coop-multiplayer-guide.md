@@ -1,44 +1,49 @@
 ---
-title: 'Co-op & Multiplayer Guide — How to Play With Friends in MineGeon'
-description: 'Complete co-op and multiplayer guide for MineGeon: Renegades. How to invite friends, host games, best team compositions, co-op strategies, and cross-play support info.'
-keywords: ['minegeon co op', 'minegeon multiplayer', 'minegeon how to play with friends', 'minegeon invite friends', 'minegeon co op guide', 'minegeon team comp']
+title: 'Co-op & Multiplayer Guide — How to Play With Friends in MineGeon: Renegades'
+description: 'Complete co-op and multiplayer guide for MineGeon: Renegades. How online co-op works for up to 3 players, how to invite friends, team compositions, and co-op strategies.'
+keywords: ['minegeon renegades co op', 'minegeon renegades multiplayer', 'minegeon renegades how to play with friends', 'minegeon renegades 3 player co op', 'minegeon co op guide', 'minegeon renegades online co op']
 category: Multiplayer
 version: '1.0'
-updated: '2026-07-20'
+updated: '2026-08-01'
 related:
   - beginner-guide
   - classes-guide
   - boss-guide
+  - gadgets-guide
 ---
 
 ## How Co-op Works in MineGeon: Renegades
 
-MineGeon: Renegades supports **1-3 player co-op**, allowing you to mine, fight, and build alongside friends. The game is designed to be fully playable solo, but co-op adds new strategic depth with class synergies and shared objectives.
+MineGeon: Renegades supports **solo play or online co-op with up to two friends** — 3 players total. The Steam page is explicit: "Descend solo or with up to two friends." Co-op is **online-only through Steam** — there is no local co-op, no split-screen, and no cross-play (the game is Steam-only at launch).
+
+> **Accuracy note:** specifics like lobby codes, revive timers, and enemy-scaling percentages in other guides are fabricated — the developer has published none of them. This guide covers the confirmed systems and the strategies that hold regardless of exact numbers.
+
+## The Confirmed Co-op Facts
+
+| Feature | Status |
+|---------|--------|
+| Solo play | ✅ Confirmed |
+| Online co-op, up to 2 friends (3 players) | ✅ Confirmed ("Descend solo or with up to two friends") |
+| Local co-op / split-screen | ❌ Not supported |
+| PvP | ❌ Not mentioned anywhere |
+| Cross-play | ❌ N/A — Steam-only at launch |
+| In-game chat | ✅ Confirmed (Steam: "Interactive Elements: In-game chat") |
+| Visit other players' ships | ✅ Confirmed (ship visiting feature) |
+| Enemy scaling details | ⚠️ Unconfirmed — scaling exists per genre norms, exact numbers unpublished |
 
 ## How to Play With Friends
 
-### Hosting a Game
-1. From the main menu, select **"Co-op"** (not "Solo Run")
-2. Choose **"Host Game"** to create a lobby
-3. Set your preferences:
-   - **Privacy:** Friends Only or Public
-   - **Biome:** Select starting biome (or random)
-   - **Difficulty:** Normal or Hard
-4. Your lobby code appears on screen — share it with friends
+### The basic flow
+1. Host a co-op session from the main menu
+2. Invite friends through Steam (the standard Steam invite flow — the game lists Steam Friends integration)
+3. Friends join your session
+4. Pick your Renegades and descend together
 
-### Joining a Friend's Game
-1. Select **"Co-op"** from the main menu
-2. Choose **"Join Game"**
-3. Enter the lobby code your friend shared
-4. Select your class and loadout
-5. Ready up — the host starts the run when everyone is ready
-
-### Steam Friends Integration
-If you're playing on Steam:
-1. Open Steam overlay (Shift+Tab) in-game
-2. Right-click a friend and select **"Join Game"**
-3. If they're in a public lobby, you'll join directly
-4. Alternatively, invite them via Steam to your lobby
+### If joining fails
+- **Check versions.** Both players need the same game version — update before playing
+- **Restart Steam.** The classic fix for invite/overlay hiccups
+- **Host on the better connection.** Online co-op quality follows the host's network
+- **Check the official Discord.** The studio's Discord is the best place for connection troubleshooting and finding teammates
 
 ## Best Team Compositions
 
@@ -46,63 +51,55 @@ If you're playing on Steam:
 
 | Combo | Strength | Playstyle |
 |-------|----------|-----------|
-| **Tank + Gunslinger** | Balanced | Tank tanks, Gunslinger melts from range. Classic MMO duo. |
-| **Tank + Engineer** | Defensive | Turrets + Tank holding the line. Slow but very safe. |
-| **Gunslinger + Engineer** | Glass Cannon | Massive damage but fragile. High risk, high reward. |
+| **Marshall + Trevor** | Safe and deadly | Marshall holds attention, Trevor melts targets |
+| **Marshall + Ari** | Defensive | Anchor plus flexible support — slow but very safe |
+| **Trevor + Ari** | Glass cannon | High damage with utility — fragile without an anchor |
 
 ### 3-Player (Full Team)
-**Tank + Gunslinger + Engineer** — The optimal setup:
-- Tank leads, holds aggro, controls crowds
-- Gunslinger focuses on priority targets and boss DPS
-- Engineer provides turret coverage, traps, and Supply Drops
+**Marshall + Trevor + Ari** — the confirmed roster is designed around this trio:
+- Marshall leads and holds enemy attention
+- Trevor focuses priority targets and boss damage
+- Ari covers support, gadgets, and flexibility
 
 ## Co-op Strategies
 
-### Communication Tips
-- **Ping system** — Use pings to mark ores, enemies, and threats (default: middle mouse button)
-- **Call out boss attacks** — Especially important for telegraphed AoEs
-- **Share resource needs** — Let teammates know what you're looking for
+### Communication
+- **Call out new enemy types.** First sightings are when teammates die — announce patterns
+- **Agree on extraction before it's urgent.** Decide the "we leave now" trigger early; panic decisions lose hauls
+- **Ping the loot.** Rich veins are team decisions, not solo grabs
 
 ### Resource Sharing
-- Extracted ores are **shared equally** among all players in the run
-- Boss drops go to the player who dealt the most damage (unless traded)
-- Decorations found are first-come-first-served
-- Gold is split evenly
+The published rules don't cover loot splitting in detail, but the game's own logic does: **minerals only count once extracted**, and every player's haul is their own risk. Practical team rules:
+- Bank before risky segments (bosses, new biomes)
+- One player can carry the team's best haul — protect them, don't compete with them
+- Co-op is about multiplying safe extraction, not splitting deaths
 
 ### Reviving Teammates
-- When a teammate goes down, they have a **60-second bleed-out timer**
-- Hold the interact key near them for 4 seconds to revive
-- Revived teammates return with 30% HP
-- Tank's Fortify ability can protect you while reviving
-- If all players go down, the run is over
+Revive mechanics are unconfirmed (no official revive-timer numbers), but the strategy layer is safe: **protect the reviver, don't all revive at once, and never revive into a swarm.** If the run is lost, the team that extracts together banks together.
 
 ### Co-op Boss Strategies
-- **Designate roles before the fight** — Who tanks, who DPS, who handles adds
-- **Stagger revives** — Don't all try to revive at once; one person covers
-- **Share healing** — Engineer's Supply Drop benefits everyone
-- **Focus fire** — Coordinate burst damage on boss weak points
+- **Roles before the pull:** attention-holder, damage, support
+- **Save ultimates for the boss.** Team ultimates stacked on a phase change end fights
+- **One escape voice.** Whoever calls the retreat decides — everyone else follows
 
-## Difficulty Scaling
+## Difficulty & Scaling
 
-Co-op doesn't mean easier — enemies scale with player count:
-
-| Players | Enemy HP | Enemy Damage | Enemy Count | Loot Quality |
-|---------|----------|-------------|-------------|--------------|
-| 1 | 100% | 100% | 100% | Normal |
-| 2 | 160% | 130% | 130% | 15% Better |
-| 3 | 210% | 160% | 160% | 30% Better |
-
-More players = harder enemies but also better loot. The 30% loot bonus at 3 players makes co-op worth it for farming.
-
-## Cross-Play
-
-At launch, MineGeon: Renegades is Steam-only (PC). Cross-play between Steam and other platforms is not currently supported. This may change post-launch.
+Enemy scaling with player count has not been officially quantified. What is confirmed: the game is designed for 1-3 players and played either way. Practical expectations:
+- More players = more attention to divide = safer mining and bosses
+- More players also means more targets for enemy swarms — don't assume teams are free wins
+- Watch patch notes and community data for actual scaling numbers
 
 ## Common Co-op Issues & Fixes
 
 | Issue | Fix |
 |-------|-----|
-| **Can't join friend** | Both players restart game. Verify you're on the same game version. |
-| **Lag / Desync** | Host should have the best internet connection. Close background downloads. |
-| **Lobby code not working** | Codes are case-sensitive and expire after 5 minutes. Get a fresh code. |
-| **Friend appears offline** | Check Steam friends settings. Restart Steam. |
+| Can't join friend | Restart both games; verify same version |
+| Lag / desync | Host should have the best connection; close background downloads |
+| Invite not working | Restart Steam; check Steam friends settings |
+| One player keeps dying | Rebalance roles — the guard job matters as much as the miner |
+
+## Next Steps
+
+- [Classes Guide](/guides/classes-guide) — building the right trio
+- [Boss Guide](/guides/boss-guide) — coordinated boss strategy
+- [Solo Strategy Guide](/guides/solo-strategy-guide) — the other way to play

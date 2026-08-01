@@ -1,209 +1,141 @@
 ---
-title: "Skills & Raids Best Team Compositions Guide — Top Party Setups"
-description: "Best team compositions for Skills & Raids raids. Learn the best starter team, role breakdowns, synergy-optimized party setups for every raid tier, and solo vs team strategy."
+title: "Skills & Raids Team Compositions Guide — Building Around the Trio"
+description: "Best team composition strategies for Skills & Raids. How the fixed party of Shelldon, Clawrk, and Owlivia works as a team, ability slot allocation, and synergy patterns."
 category: "Guides"
-version: "Open Beta"
-updated: "2026-07-18"
+version: "1.0"
+updated: "2026-08-01"
 keywords: ["Skills and Raids best team", "Skills and Raids raid best starter team", "Skills and Raids team comp", "Skills and Raids party setup", "Skills and Raids best team composition"]
-related: ["builds-guide", "beginner-guide", "raid-progression-guide", "best-skills-builds"]
+related: ["builds-guide", "beginner-guide", "character-guide", "best-skills-builds"]
 ---
 
-# Skills & Raids Best Team Compositions Guide — Top Party Setups
+# Skills & Raids Team Compositions Guide — Building Around the Trio
 
-**Skills & Raids Open Beta / Updated: July 18, 2026**
+**Skills & Raids 1.0 / Updated: August 1, 2026**
 
-Your team composition is the single most important factor in raid success. A well-balanced party with proper role coverage and skill synergy can clear content two tiers above your gear level. This guide covers every viable team composition, from your first starter team to advanced endgame party setups.
-
----
-
-## 1. Team Composition Fundamentals
-
-### The Four Pillars of a Raid Team
-
-Skills & Raids organizes combat around four distinct roles. Not every team needs all four, but every team needs at least three:
-
-| Role | Primary Function | Core Stats | Must-Have Skills |
-|------|-----------------|------------|-----------------|
-| Tank | Absorb damage, control aggro, CC enemies | Defense, HP, Block | Shield, Taunt, Fortify |
-| DPS | Deal damage, execute threats, burst bosses | Attack, Crit, Penetration | Power Strike, Critical Edge |
-| Support | Heal, buff, cleanse debuffs | Heal Power, Speed | Holy Light, Cleanse |
-| Controller | Debuff enemies, manipulate turn order | Speed, Accuracy | Weaken, Stun, Slow |
-
-**The golden rule:** Never enter a raid without a Tank and some form of healing. A party with those two roles covered can survive most mistakes.
-
-### Team Size and Slot Rules
-
-- Standard raids allow **3 team members**, each with **3 skill slots**
-- Some endgame raids allow **4 members** — designated as "Large Raids"
-- Solo mode uses **1 character** with **4 skill slots** (harder, but higher loot rewards)
+In most RPGs, "team composition" means choosing which characters to bring. In Skills & Raids, the team is fixed: **Shelldon (tank), Clawrk (DPS), and Owlivia (healer)** — three animal heroes you never swap out. That makes team composition a different game entirely: with six ability slots (two per hero), your composition *is* your loadout. This guide covers how the trio works as a unit, the confirmed composition patterns, and how to build the best team for what the run demands.
 
 ---
 
-## Best Starter Team for New Players
+## 1. The Fixed Party Is Your Foundation
 
-If you've just completed the tutorial, this is the team composition to build first. It works with Common (white) and Uncommon (green) skills and has the highest early-game survival rate.
+Every confirmed fact about the party:
 
-### The Balanced Trio (Tank + DPS + Support)
+- **Shelldon** — a turtle who serves as the team's tank.
+- **Clawrk** — a tiger who fills the DPS role.
+- **Owlivia** — an owl who is the team's healer (spelled "Wolivia" in some early coverage).
 
-**Extraction Rate:** ~85% | **Skill Rarity:** Common/Uncommon | **Difficulty:** Easy
+The party structure itself is a balanced composition — the developer's design gives you the classic triangle (tank/damage/heal) for free. Your composition decisions are therefore about *ability allocation*: which two abilities each hero carries, and how the six interact.
 
-| Role | Skill 1 | Skill 2 | Skill 3 | Purpose |
-|------|---------|---------|---------|---------|
-| **Tank** | Shield Wall (Common) | Taunt (Common) | Fortify (Common) | Absorb damage, control aggro |
-| **DPS** | Power Strike (Common) | Mark Target (Common) | Execute (Uncommon) | Focus damage, finish kills |
-| **Support** | Holy Light (Common) | Group Mend (Uncommon) | Buff (Common) | Keep team alive, boost stats |
+**The baseline team:** every composition below is a variation on the same three pillars:
 
-**Why this works:** The Tank uses Taunt to force aggro, then Shield Wall to survive hits. DPS marks priority targets while Support keeps HP topped up. This composition clears Foothills and Timberland consistently.
+1. **Shelldon buys time** (mitigation + threat or self-sustain).
+2. **Clawrk ends fights** (damage + debuff or finisher).
+3. **Owlivia converts damage taken into damage survived** (direct heal + HoT/cleanse/buff).
 
-**Starter synergy chain:** Taunt (Tank) → Mark Target (DPS) → Power Strike (DPS) = 2x damage on a taunted enemy. Holy Light heals the Tank as they take aggro.
-
-### How to Transition Out of the Starter Team
-
-| Milestone | Change to Make | Why |
-|-----------|---------------|-----|
-| After 5 raids | Upgrade Tank's Shield to Uncommon+ | Doubles shield duration |
-| After 10 raids | Swap Buff for Cleanse on Support | Bosses apply debuffs |
-| After 20 raids | Add Armor Break to DPS | Essential for higher-tier enemies |
-| After 30 raids | Consider Double DPS comp | Speed up farming runs |
+If your six abilities do those three jobs, your composition works. Everything else is optimization.
 
 ---
 
-## 2. Advanced Team Compositions
+## 2. Composition Patterns (Confirmed-Safe)
 
-### Double DPS Speed Clear
+### The Standard (Balanced)
 
-**Best for:** Farming known raids quickly | **Extraction Rate:** ~70% | **Difficulty:** Medium
+| Hero | Slot 1 | Slot 2 |
+|------|--------|--------|
+| Shelldon | Mitigation | Threat / aggro |
+| Clawrk | Burst damage | Debuff / DoT |
+| Owlivia | Direct heal | Heal-over-time |
 
-| Role | Skill 1 | Skill 2 | Skill 3 |
-|------|---------|---------|---------|
-| **Tank** | Shield Wall | Taunt | Counter Stance |
-| **DPS 1 (Burst)** | Power Strike | Critical Edge | Berserk |
-| **DPS 2 (Debuff)** | Armor Break | Weaken | Mark Target |
+**Best for:** learning new biomes, most quest types, first attempts. Every pillar is covered two-deep, and there's a natural rotation: Shelldon pulls, Clawrk debuffs then bursts, Owlivia sustains.
 
-**Strategy:** DPS 2 debuffs the target (Armor Break + Weaken), DPS 1 bursts with Critical Edge + Power Strike. The Tank holds aggro and retaliates with Counter Stance. This comp clears standard raid waves in 3-4 turns instead of 6-8.
+### The Grinder (Sustain-Heavy)
 
-**Risk factor:** Lower healing means you must end fights fast. If a fight goes past turn 5, extraction chance drops sharply.
+| Hero | Slot 1 | Slot 2 |
+|------|--------|--------|
+| Shelldon | Mitigation | Self-heal / sustain |
+| Clawrk | DoT | DoT / secondary damage |
+| Owlivia | Direct heal | Heal-over-time |
 
-### The Control Composition (Tank + Controller + Support)
+**Best for:** deep runs where you want to outlast everything. Slow fights, but the party barely loses HP between checkpoints. Weakness: if the enemy also heals, fights can stall into infinite loops (a known demo-era issue) — carry enough damage to break through.
 
-**Best for:** Boss encounters, high-difficulty raids | **Extraction Rate:** ~80% | **Difficulty:** Medium
+### The Debuff Rush (Synergy-Heavy)
 
-| Role | Skill 1 | Skill 2 | Skill 3 |
-|------|---------|---------|---------|
-| **Tank** | Shield Wall | Fortify | Taunt |
-| **Controller** | Stun | Slow | Weaken |
-| **Support** | Holy Light | Cleanse | Group Mend |
+| Hero | Slot 1 | Slot 2 |
+|------|--------|--------|
+| Shelldon | Mitigation | Debuff application |
+| Clawrk | Debuff / setup | Payoff burst damage |
+| Owlivia | Direct heal | Cleanse / status removal |
 
-**Strategy:** The Controller locks down the most dangerous enemy with Stun while applying Slow to reduce enemy turn frequency. This gives the Tank fewer simultaneous targets and the Support breathing room to heal. Excellent for learning new boss mechanics.
+**Best for:** breaking strong enemy teams — especially the "healer + tank" compositions that demo reviewers found nearly unbeatable. Stack debuffs, strip enemy defenses, burst the healers. Cleanse on Owlivia keeps the party unburdened by status effects.
 
-### The Turtle (Double Tank + Support)
+### The Fortress (Protection-Heavy)
 
-**Best for:** First-time boss attempts | **Extraction Rate:** ~95% | **Difficulty:** Easy
+| Hero | Slot 1 | Slot 2 |
+|------|--------|--------|
+| Shelldon | Mitigation | Self-heal |
+| Clawrk | Burst | Debuff |
+| Owlivia | Direct heal | Shield / protective buff |
 
-| Role | Skill 1 | Skill 2 | Skill 3 |
-|------|---------|---------|---------|
-| **Tank 1** | Shield Wall | Fortify | Taunt |
-| **Tank 2** | Taunt | Weaken | Counter Stance |
-| **Support** | Holy Light | Group Mend | Cleanse |
-
-**Strategy:** Extremely low damage output but nearly immortal. Tanks alternate taunts so no single character takes sustained damage. Use this comp to learn boss mechanics — survive for 10+ turns until you understand every attack pattern.
-
-### Glass Cannon (Double DPS + Buffer)
-
-**Best for:** Speedrunning low-tier raids | **Extraction Rate:** ~50% | **Difficulty:** Hard
-
-| Role | Skill 1 | Skill 2 | Skill 3 |
-|------|---------|---------|---------|
-| **DPS 1** | Power Strike | Critical Edge | Berserk |
-| **DPS 2** | Armor Break | Mark Target | Execute |
-| **Buffer** | Haste | Power Infusion | Fortify |
-
-**Strategy:** Kill everything before it attacks. The Buffer applies Haste (bonus turns) and Power Infusion (damage boost). Requires precise positioning and knowledge of enemy spawn points. One mistake usually means a wipe.
+**Best for:** high-risk quest targets and late-game areas. The party effectively has two tanks and two healers' worth of protection; mistakes are forgiven, fights are long.
 
 ---
 
-## 3. Raid-Specific Team Recommendations
+## 3. Synergy: The Real Composition Engine
 
-Different raids favor different compositions. Here is the recommended party setup for each raid tier:
+The developer's pitch is explicit: **combining multiple skills creates powerful synergies that change your approach to combat.** In a six-slot system, synergy *is* the composition. Rules of thumb:
 
-| Raid Zone | Best Team Comp | Key Requirement | Extraction Rate |
-|-----------|---------------|-----------------|-----------------|
-| Foothills | Balanced Trio | Any Tank + Heal | 90%+ |
-| Timberland | Balanced Trio (upgraded skills) | Cleanse for poison debuffs | 80% |
-| Dark Caverns | Control Composition | Stun for Shadow Wisp adds | 75% |
-| Dragon's Peak (Normal) | Double DPS Speed Clear | Fire resistance consumables | 65% |
-| Dragon's Peak (Hard) | The Turtle or Control | Legendary Tank skills | 50% |
-| Void Temple | Control Composition | High Accuracy on Controller | 45% |
+- **Build pairs, then teams.** First find two abilities that feed each other (setup → payoff, or two same-theme abilities). Then make sure the other four slots support the pair.
+- **Debuffs are the most reliable synergy enabler.** Almost every confirmed mechanic (status effects, rotations) supports "apply status, then capitalize."
+- **Cross-hero synergy beats same-hero synergy.** Since each hero only has two slots, pairings that span the party (Shelldon debuffs → Clawrk bursts) give you more room than stacking one hero.
+- **Test with the pause mechanic.** Mid-fight, pause and read how your skills' statuses interact — this is how you'll discover the game's real combo system before the community documents it.
 
 ---
 
-## 4. Solo vs Team Strategy
+## 4. Composition by Quest Type
 
-### Solo Extraction (Hard Mode)
+Quests are your progression, and they come in confirmed types — target objectives, resource collection, and using specific abilities:
 
-| Aspect | Solo | Team |
-|--------|------|------|
-| Team Members | 1 character | 3-4 characters |
-| Skill Slots | 4 per character | 3 per character (9 total) |
-| Loot Multiplier | 2x | 1x |
-| Difficulty | Very High | Standard |
-| Recommended For | Challenge runs, experienced players | All content |
+| Quest Type | Composition Lean | Why |
+|------------|-----------------|-----|
+| Target objectives (defeat X) | Debuff Rush | You need reliable kill power on demand |
+| Resource collection | Grinder or Standard | You need to survive deep and long enough to fill the bags |
+| Using specific abilities | Quest Flex (equip whatever the quest demands) | The reward is the point; optimize the run around it |
 
-**Solo must-have skills:**
-1. **Life Steal** (Rare+) — Heal for a percentage of damage dealt
-2. **Evasion** (Rare+) — Dodge incoming attacks
-3. **Power Strike** (Rare+) — Primary damage source
-4. **Fortify** or **Second Wind** — Emergency survival
-
-**Solo tip:** Never fight more than 2 enemy groups before extracting. The HP attrition is too severe without a dedicated healer.
-
-### When to Use Each Mode
-
-| Situation | Recommended Mode |
-|-----------|-----------------|
-| Learning a new raid | Team (Turtle comp) |
-| Farming materials | Team (Speed Clear) |
-| Primal farm | Solo (if skilled) or Team |
-| Boss farming | Team (Control comp) |
-| Challenge achievement | Solo |
+**Composition principle:** build for the quest, not for an abstract meta. A "worse" composition that completes a quest is better than a "better" composition that doesn't.
 
 ---
 
-## 5. Building Your Team Roster
+## 5. Solo vs Team: A Note on What's Real
 
-You should maintain 4-5 characters to cover different compositions. Here is the ideal roster progression:
-
-| Stage | Characters | Compositions Covered |
-|-------|-----------|---------------------|
-| Beginner (0-10 raids) | 3 | Balanced Trio |
-| Intermediate (10-30 raids) | 4 | Trio + Double DPS |
-| Advanced (30-50 raids) | 5 | All standard comps |
-| Endgame (50+ raids) | 6+ | All comps + specialized |
-
-**Cross-training tip:** Build characters with flexible skill sets. A Tank with one Offense skill can contribute damage in a pinch. A Support with one Control skill can help lockdown threats.
+Some guides online describe Skills & Raids as having "solo extraction" and "squad play," or even PvP and contested extraction points. **That is not this game.** Skills & Raids is **single-player**: you always control the same three heroes, there are no other players in your runs, and there is no player-versus-player content. The only "solo" question is whether you're comfortable commanding the whole party yourself — which is the entire game. Treat any guide mentioning other players, squads contesting bosses, or PvP as unreliable.
 
 ---
 
 ## 6. Common Composition Mistakes
 
-| Mistake | Why It Fails | The Fix |
-|---------|-------------|---------|
-| All DPS, no Tank | Every enemy attacks your squishy characters | Always include a Tank or Controller |
-| All Tank, no damage | Survive forever, kill nothing | At least one pure DPS character |
-| Ignoring skill rarity mix | All Common skills = stat deficit | Upgrade key skills per role |
-| No debuff removal | Boss DOT kills through healing | Bring Cleanse on Support |
-| Wrong comp for raid | Dark Caverns without Stun = wipe | Check raid weaknesses before deploying |
+| Mistake | Why It Hurts | Fix |
+|---------|-------------|-----|
+| Building three damage heroes | Owlivia can't heal, Shelldon can't absorb | Keep the roles; only the abilities flex |
+| Ignoring cleanse in status-heavy areas | Status effects "heavily influence each encounter" — unremoved, they kill you | Give Owlivia a cleanse slot |
+| No way to kill through healing | Late-game healer teams stall or wipe you | Keep burst or DoT pressure in the comp |
+| Copying fake meta comps from unverified guides | Skill names in most online guides are fabricated | Verify every ability against in-game cards |
+| Never changing the loadout | Quests require different abilities — and synergies are only found by experimenting | Rebuild between runs; it's free |
 
 ---
 
-## Composition Quick Reference
+## 7. How to Improve Your Composition Over Time
 
-| Comp Name | Team | Best For | Extraction Rate |
-|-----------|------|----------|-----------------|
-| Balanced Trio | Tank + DPS + Support | All content, new players | 85% |
-| Double DPS | Tank + 2x DPS | Farming, speed runs | 70% |
-| Control | Tank + Controller + Support | Bosses, hard modes | 80% |
-| Turtle | 2x Tank + Support | Learning, surviving | 95% |
-| Glass Cannon | 2x DPS + Buffer | Speedrunning | 50% |
+1. **Collect first.** Every enemy skill drop is a new building block — 30 skills exist in the full game.
+2. **Test one slot at a time.** Change a single ability per run and compare.
+3. **Chase pairs.** When you find a synergy, write it down (mentally or in your own notes) and build around it.
+4. **Revisit after quests.** New quests unlock new equipment and skills — your best team changes as your collection grows.
+5. **Share findings.** The community is still documenting the roster; your discoveries matter.
 
-**Next:** Learn the optimal progression path from your first raid to endgame in our [Raid Progression Guide](/guides/raid-progression-guide). For skill-specific recommendations, see our [Best Skills & Builds Guide](/guides/best-skills-builds).
+---
+
+## Next Steps
+
+- [Character Guide](/guides/character-guide) — the three heroes in depth.
+- [Builds Guide](/guides/builds-guide) — the build framework.
+- [Best Skills & Builds Guide](/guides/best-skills-builds) — optimization and upgrade priority.
+- [Beginner Guide](/guides/beginner-guide) — getting started.

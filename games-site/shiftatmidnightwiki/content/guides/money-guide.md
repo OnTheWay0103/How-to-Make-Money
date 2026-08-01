@@ -1,103 +1,97 @@
 ---
 title: "Shift At Midnight Money Guide: How to Earn $250 for the True Ending"
-description: "Complete money guide for Shift At Midnight. Earn $250 for the True Ending with salary, commission, prize wheel, urgent tasks, rats, cleaning, and store management tips."
+description: "Complete money guide for Shift At Midnight. Earn the $250 personal cash for the True Ending with fund separation, nightly money goals, stock quotas, and the bonus tasks that pay."
 category: "Guides"
 version: "1.0"
-updated: "2026-07-29"
-keywords: ["shift at midnight money guide", "earn $250 shift at midnight", "shift at midnight income tips", "prize wheel shift at midnight", "shift at midnight commission"]
-related: ["endings-guide", "beginner-guide", "weapons-guide"]
+updated: '2026-08-01'
+keywords: ["shift at midnight money guide", "earn $250 shift at midnight", "shift at midnight income tips", "shift at midnight true ending money", "shift at midnight pet surgery", "shift at midnight fund separation"]
+related: ["endings-guide", "beginner-guide", "weapons-guide", "story-walkthrough"]
 ---
 
 ## Shift At Midnight Money Guide: How to Earn $250 for the True Ending
 
-The True Ending in Shift At Midnight requires you to save **$250 or more** by Night 13 and **refuse to call Clyde**. That is a steep target when your base salary is only $10 per shift. This guide breaks down every income source in the game and shows you exactly how to hit that $250 threshold consistently.
+The True Ending in Shift At Midnight requires you to bank **$250 or more in personal cash** by the finale to pay for the pet's surgery — and to **keep store money and personal funds separate** while you do it. That second rule is the one most players miss, and it's why otherwise-capable runs fail at the final check.
 
-## Income Sources Breakdown
+This guide covers every confirmed money mechanic, the discipline of fund separation, and how to hit the $250 target consistently. Where exact figures are unconfirmed, this guide says so.
 
-Every dollar matters. Here is every income source available during a playthrough:
+## The Two-Account Rule (Most Important)
 
-| Income Source | Amount | Frequency | Notes |
-|---------------|--------|-----------|-------|
-| Daily Salary | $10 | Per night | Guaranteed base pay |
-| Commission | 10% of sales | Per customer | Most reliable income |
-| Prize Wheel Jackpot | $10 | Per token use | **Skip pet medications** for more tokens |
-| Living Rats | $3 each | Per delivery | Catch at dumpster, sell to Rat Trader |
-| Cockroach Kill + Clean | $0.20 | Per kill | Squash then mop the stain |
-| Cleaning Stains | $0.10 | Per stain | Mop up any mess around the store |
-| Urgent Task Bonus | Up to $30 | Per task | Time-limited bonus objectives |
+Community walkthroughs are unanimous: **store money and personal funds are separate accounts, and the ending check reads your personal account.**
 
-### Salary and Commission System
+- **Store money** pays for supplies: traps, planks, Arsenal weapons, and store upkeep
+- **Personal cash** is what you take home — and what the $250 surgery check counts
+- Mixing them (spending personal cash on store gear) is the most common reason runs fall short
 
-You earn **$10 per night** just for showing up. But the real money comes from the **10% commission** on every item you sell. A full shift serving 15-20 customers at an average $8-12 per purchase earns you roughly $12-24 in commission alone. Combined with the $10 salary, you walk away with **$22-34 per night** from core duties.
+**The habit**: at the start of every shift, decide which account pays for what. Store expenses come out of store money. Personal cash only leaves your pocket for the pet's bills.
 
-**Pro tip:** Stock high-value items on the shelves. Customers buy more when shelves are full, and the 10% commission applies to every purchase they make.
+## Confirmed Income and Targets
 
-### The Prize Wheel Loophole
+| Item | What's Confirmed |
+|------|------------------|
+| **Nightly money goal** | The store enforces a money goal each shift — hit it or face consequences |
+| **Stock quota** | At least **15 items on the front shelves** is the community-cited minimum |
+| **Pet medicine bill** | Shift 3 — a pet-related expense appears in the campaign |
+| **Rat bonus task** | Shift 4 — throw rats in the trash before the next customer for steady income |
+| **Roach bonus** | Shift 9 — cleared with the mop |
+| **$250 surgery check** | Revealed after Shift 10; the True Ending requires the personal cash by the finale |
 
-The prize wheel is one of the most undervalued income sources. You earn prize wheel tokens by **skipping optional pet medication purchases**. Each token gives you a spin, and landing the jackpot pays **$10**.
+**Exact figures that are NOT confirmed**: base salary per shift, sales commission percentages, and per-item prices. Different community reports give different numbers — treat any precise dollar figure you see elsewhere as unverified.
 
-Here is the math: If you skip pet meds twice per shift (saving ~$4), you earn 2 tokens. Even with average luck, 1 in 4 spins hits the jackpot. Over 13 nights, that is roughly **3-4 jackpots ($30-40) in bonus money** that most players leave on the table.
+## Income Strategy by Campaign Phase
 
-### Living Rats: Trash to Treasure
+### Shifts 1-4: Build the Routine
 
-Check the **dumpster behind the store** every shift. Living rats spawn there randomly. Catch one and sell it to the **Rat Trader** (who appears on certain nights) for **$3 each**. This is pure profit with zero effort cost — just a quick detour on your way inside.
+- Hit the nightly money goal every shift — it's the campaign's first discipline test
+- Keep the shelves stocked (15+ items) so the store keeps earning
+- Start the personal-cash habit early: even small amounts accumulate across 13 shifts
+- Shift 3's medicine bill and Shift 4's rat task are your first confirmed bonus sources
 
-### Cockroach and Cleaning Revenue
+### Shifts 5-8: Protect the Accounts
 
-Each **cockroach infestation** requires two actions: squashing the roach, then mopping the stain. This pays **$0.20 total** per cockroach. It does not sound like much, but a busy shift can have 15-20 roaches, adding **$3-4** to your nightly take. Regular spills and stains around the store pay **$0.10 per clean** — these add up across the shift.
+- From Shift 5, traps and Arsenal upgrades come from store money — plan purchases at the start of each shift
+- Blood-rain nights (Shift 5, later again) make the Arsenal unreliable — spend on traps and planks instead
+- Upgrade the Arsenal before Shift 7 (the Dentist arrives) — this is the confirmed reason to save store funds early
+- Keep personal cash untouched through this phase
 
-## Urgent Tasks: The Fastest Money
+### Shifts 9-12: The Final Push
 
-Urgent tasks are time-limited bonus objectives that pay **up to $30** each. Examples include:
+- Shift 9: mop up the roach bonus; upgrade weapons again (the campaign escalates)
+- Shift 10: the **$250 surgery requirement is revealed** — check your personal balance the moment it is
+- Shift 11: the walkthroughs say it plainly — **keep enough cash for surgery**
+- Shift 12: the sheriff's email offers to cover the surgery — **it's a bluff** (see the [Endings Guide](/guides/endings-guide)); decline
 
-- **Collect meat in the forest** — 60-second timer, up to $30 bonus
-- **Kill cockroaches** — pest control bonus
-- **Kill mice** — rodent elimination bonus
-- **Deep clean the store** — sanitation bonus
+### Shift 13: The Check
 
-**Strategy:** Drop everything when an urgent task appears. The bonus is worth more than 3-4 regular customers. Just be careful — the forest meat collection mission is dangerous because the **Entity can hear your microphone** if you speak.
+- Enter the finale with **$250+ in personal cash**
+- The post-shift screen confirms whether the surgery was paid
+- The ending is decided before the finale, not during it — screening and survival matter, but the money check is already set
 
-## Store Management Tips for Max Revenue
+## Spending Priorities (Store Money)
 
-### Stock Smart
+1. **Traps first** — they make the survival phase survivable, and they're buyable early
+2. **Arsenal upgrades before Shift 7** — the confirmed anti-Dentist prep
+3. **Upgrade again before Shift 9** — late-campaign escalation
+4. **Planks** — the three-door barricade needs them every shift
 
-Prioritize stocking **high-margin items** first:
-- Electronics and batteries — highest dollar value per shelf
-- Snacks and drinks — high volume, steady sales
-- Cleaning supplies — surprisingly good margins
+## Common Money Mistakes
 
-### Serve Doppelgangers First
+| Mistake | Why It Hurts | The Fix |
+|---------|-------------|---------|
+| Spending personal cash on store gear | The $250 check reads personal funds only | Two-account discipline from Shift 1 |
+| Ignoring the nightly money goal | Punished shifts compound across the campaign | Treat the goal as a minimum, not an option |
+| Understocking shelves | Store income dries up | Keep 15+ items on the front shelves |
+| Missing the Shift 10 reveal | You learn the $250 target too late to fix it | Check your personal balance every shift |
+| Calling Clyde "to be safe" | The email offer is a bluff | Decline the call |
 
-Doppelganger customers may be dangerous, but they **buy merchandise just like humans**. If you identify and serve them quickly, you earn the same commission without extra risk. The **NET Database** helps you cross-reference IDs to spot shapeshifters — use it on every customer.
+## Nightly Savings Tracking
 
-### Never Shoot Humans
-
-Friendly fire is expensive. If you shoot a human customer, the game **deducts $5 from your savings**. That is half your nightly salary gone in one trigger pull. Check the **emotion detector** carefully before engaging.
-
-### Skip Pet Medications
-
-Pet medications are optional purchases that cost roughly **$2 each**. Skipping them does not affect your ending — and each skip earns you a **prize wheel token** instead. Over 13 nights, skipping 2-3 pet med purchases per shift frees up significant money and generates bonus wheel spins.
-
-## Nightly Savings Target Table
-
-Use this table to track whether you are on pace for the True Ending:
-
-| Night | Minimum Saved | On Track For |
-|-------|---------------|--------------|
-| 1-3 | $60 | True Ending pace |
-| 4-6 | $120 | True Ending pace |
-| 7-9 | $180 | True Ending pace |
-| 10-12 | $230 | True Ending pace |
-| 13 | $250+ | True Ending unlocked |
-
-If you fall behind by Night 7, focus exclusively on **urgent tasks and prize wheel spins** to catch up. The Grave Decision ending ($250 but call Clyde) and Empty Home ending (under $250, no call) are fallbacks — but with this guide, you should hit $250 comfortably.
+There are no confirmed per-night savings targets — third-party tables that list exact dollar checkpoints are unverified. What *is* reliable: check your personal balance at the start of every shift, especially from Shift 10, and course-correct immediately if the trajectory misses $250.
 
 ## Final Tips
 
-- **Stack commission with salary** — these two alone cover most of your income
-- **Always check the dumpster** for living rats
-- **Do every urgent task** — they are the best hourly return in the game
-- **Skip pet meds** — tokens convert to cash through the prize wheel
-- **Never shoot humans** — $5 penalties destroy your savings
+- **Fund separation is the whole game** — the ending is a money-discipline test, not a combat test
+- **Do the confirmed bonus tasks** (Shift 4 rats, Shift 9 roaches) — they're free income
+- **Don't trust exact dollar figures** from other guides — the community hasn't confirmed salary or commission numbers
+- **Hit the quota and the money goal every shift** — a healthy store keeps store money separate from your savings
 
-Hit $250 by Night 13 and refuse to call Clyde. That is the path to the True Ending in Shift At Midnight.
+Bank $250 in personal cash by Shift 13 and refuse to call Clyde. That's the path to the True Ending in Shift At Midnight.

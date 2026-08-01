@@ -1,106 +1,102 @@
 ---
 title: "Skills & Raids FAQ — Frequently Asked Questions"
-description: "Frequently asked questions about Skills & Raids. Covers game basics, mechanics, development roadmap, and common player questions."
+description: "Frequently asked questions about Skills & Raids. Covers game basics, mechanics, price, platforms, and common player questions — all verified against official sources."
 category: "FAQ"
-version: "Open Beta"
-updated: "2026-07-14"
-keywords: ["Skills & Raids FAQ", "Skills & Raids questions", "Skills & Raids help", "Skills & Raids beginner questions"]
-related: ["beginner-guide", "extraction-guide", "builds-guide"]
+version: "1.0"
+updated: "2026-08-01"
+keywords: ["Skills & Raids FAQ", "Skills & Raids questions", "Skills & Raids help", "Skills & Raids beginner questions", "Skills & Raids release date"]
+related: ["beginner-guide", "extraction-guide", "builds-guide", "character-guide"]
 ---
 
 # Skills & Raids FAQ — Frequently Asked Questions
 
-**Skills & Raids Open Beta / Updated: July 14, 2026**
+**Skills & Raids 1.0 / Updated: August 1, 2026**
 
 ---
 
 ## Game Basics
 
 ### What is Skills & Raids?
-Skills & Raids is a team-based extraction RPG developed by solo developer Lootsurvivor. It blends tactical turn-based combat with high-stakes raid extraction — build a squad of 3, equip skills across 5 rarity tiers, fight through raid maps, and extract alive with your loot.
+Skills & Raids is a **party-based extraction RPG** by solo developer **Eddie H. Hinestroza**, released on Steam on **July 27, 2026**. You command a fixed party of three animal heroes — Shelldon (turtle tank), Clawrk (tiger DPS), and Owlivia (owl healer) — through run-based expeditions: fight in real-time ability-driven combat, extract resources, and craft gear and skills between runs. It's inspired by games like Darkest Dungeon, with auto-battler combat elements.
 
 ### Is Skills & Raids free to play?
-Yes. Skills & Raids is free-to-play on Steam. There are no pay-to-win mechanics — all content is accessible through gameplay.
+**No.** It's a paid game on Steam — ¥42.00, with a launch **20% intro discount (¥33.60)** that runs until **August 10, 2026**. A **free demo** is available (11 quests, 2 biomes, 15 skills). There's also a Supporter Pack bundle (game + Official Artbook + Soundtrack) and separate Artbook/Soundtrack DLC. (Prices listed in Steam's Chinese storefront; regional prices vary.)
 
 ### What platforms is it on?
-Currently **PC only (Steam)**. No console or mobile versions announced.
+**PC only (Windows 64-bit) via Steam.** Minimum specs: Windows 10 or newer, Intel i3 4th gen or equivalent, 1 GB RAM, most dedicated GPUs, 1 GB storage. Supports 12 languages (interface and subtitles). No console or mobile versions have been announced.
 
 ### Is there multiplayer?
-The game is currently single-player (you control a full team of 3). The developer has mentioned co-op as a potential future feature, but nothing confirmed.
+**No.** The game is strictly single-player — you control the full party yourself. There is no PvP, no co-op, and no online play (the game does support Steam Cloud and Family Sharing).
 
-### When is the full release?
-Open Beta launched in July 2026. The developer is actively updating the game based on player feedback. Full release date TBD.
+### When was it released?
+**July 27, 2026** — version 1.0. The game had a Steam Next Fest demo earlier in 2026. It was an official selection for the **Latin American Games Showcase 2026** and the **Game Effect Showcase 2026**.
 
 ---
 
 ## Gameplay Mechanics
 
-### How does extraction work?
-You deploy into a raid map, fight enemies and bosses for loot, and must reach an extraction point (green circle on the map) to keep your haul. Extraction takes 2 turns. If your team wipes, you lose most equipped items and all loot from that raid.
+### How does the extraction loop work?
+You take your party into a run, fight enemies, and collect **resources** — some enemies even **drop their own skills**. What you extract back is used to **craft equipment and skills** or to **complete quests**. On a **failed run, anything not kept in a safe pocket is lost forever**. The game lets you heal heroes in the field and send items back when bags get full.
 
-### What happens when I die?
-- **Full team wipe:** Lose all loot from that raid + some equipped items
-- **Partial wipe (1-2 deaths):** Surviving members can still extract. Dead members lose equipped items.
-- **Items in your stash (hub inventory) are NEVER lost.**
+### What is combat like?
+**Real-time, ability-driven combat.** Each hero equips **two abilities**; you manage skill rotations, cooldowns, and resources while reacting to enemy mechanics. **Status effects heavily influence every encounter**, and a **pause mechanic** lets you read skill and status descriptions mid-fight. Character positioning also matters.
 
-### Can I respec my skills?
-Yes. You can change equipped skills freely between raids at the hub. Experiment with different builds — there's no penalty for swapping skills.
-
-### What are skill rarities?
-Skills come in 5 rarities: Common (white), Uncommon (green), Rare (blue), Epic (purple), and Legendary (orange). Higher rarity = stronger effects and more synergy slots.
+### What are the rarity tiers?
+Gear and skills use **five confirmed rarity tiers: Common, Uncommon, Rare, Epic, and Legendary.**
 
 ### How does skill synergy work?
-When two skills with matching Synergy Tags are used consecutively, the second skill gets a power bonus: +25% for 1 matching tag, +50% for 2, +100% for 3. See the [Skills Guide](/guides/skills-guide) for details.
+The developer's official pitch: **combining multiple skills creates powerful synergies that change your approach to combat.** The exact trigger rules aren't publicly documented yet — the full game has 30 skills (15 in the demo), and the community is still mapping the system. Use the pause mechanic to read how your skills interact.
+
+### How long is the game?
+**2–5 hours of content** (per the Steam page): 21+ quests, 5 biomes, 30 skills.
 
 ---
 
 ## Progression
 
-### How long to beat the game?
-- **All 4 raid zones cleared:** ~30-50 hours
-- **Full Epic gear on all characters:** ~60-80 hours
-- **Legendary completionist:** 100+ hours
+### How do I progress in Skills & Raids?
+Through **quests** (target objectives, resource collection, using specific abilities) — completing them **unlocks new equipment and skills** — and through **crafting** gear and skills from extracted resources. There are **no character levels or skill trees**.
 
 ### What should I do first as a new player?
-1. Complete the Foothills raid 3-5 times to learn basics
-2. Build a balanced team (Tank + DPS + Healer)
-3. Craft your first set of Uncommon gear
-4. Attempt the Bandit Leader boss
-5. Move to Timberland when comfortable
+1. Play the free demo or start the early quests to learn the loop.
+2. Learn your party: Shelldon tanks, Clawrk damages, Owlivia heals.
+3. Use the pause mechanic constantly.
+4. Complete every quest you can — quests are progression.
+5. Extract early and often — don't lose everything to greed.
 
-See the [Beginner Guide](/guides/beginner-guide) for a full walkthrough.
+See the [Beginner Guide](/guides/beginner-guide) for the full walkthrough.
 
-### How do I get better gear?
-Three ways:
-1. **Loot** from enemies, bosses, and chests during raids
-2. **Craft** using materials extracted from raids
-3. **Boss drops** — each boss has a guaranteed weapon/armor drop on first kill
+### What are the three characters?
+**Shelldon** (turtle, the team's tank), **Clawrk** (tiger, the team's DPS), and **Owlivia** (owl, the team's healer — spelled "Wolivia" in some early press coverage). They're the only playable characters — the build game is about their abilities, not roster choice. See the [Character Guide](/guides/character-guide).
 
-### What's the best way to farm gold?
-Speed-run Foothills with a Double DPS team comp. Extract in ~5 minutes, sell all Common loot. Repeat. ~500-800 gold per run.
+### Is there a "best build"?
+Not yet — the full 30-skill roster isn't publicly documented, so no verified tier list exists. What's confirmed: cover all three roles, build synergies (setup → payoff), and keep survival power (heals, mitigation, cleanse) at least half your loadout. See the [Builds Guide](/guides/builds-guide).
 
 ---
 
 ## Technical
 
-### My game crashed and I lost raid progress. Can I recover?
-Raid progress is lost on crash/disconnect — this is by design (extraction genre). Always extract before closing the game.
+### My game crashed and I lost a run. Can I recover?
+Extraction games are designed to punish failed runs — anything not in the safe pocket is lost. There's no confirmed recovery system; the genre intent is that risk is real. Extract before quitting if you want to keep your haul.
 
 ### Are there regular updates?
-Yes. As a solo developer project in Open Beta, updates are frequent. Check the Steam page for patch notes.
+The developer (Eddie H. Hinestroza) is a solo developer who has been actively iterating through the demo era. Check the Steam page and community hub for patch notes — don't rely on third-party "event calendars."
 
 ### Where can I report bugs or give feedback?
-Use the Steam Community Hub for the game. The developer is active and responsive to player feedback.
+Use the **Steam Community Hub** for the game — the developer is responsive to feedback (demo-era issues like the healer-vs-healer infinite loop were community-reported).
 
 ### Does the game work on Steam Deck?
-The developer has not officially verified Steam Deck compatibility. Some players report it works with default settings, but expect minor UI scaling issues.
+**Unconfirmed.** Steam Deck support hasn't been announced. The game is Windows 64-bit only.
+
+### Are reviews good?
+At the time of writing the game holds a **"Mixed" rating (67% positive of 37 reviews)** on Steam — typical for a new solo-dev release, and reviews may shift as patches land.
 
 ---
 
 ## Still Have Questions?
 
 Check out our other guides:
-- [Beginner Guide](/guides/beginner-guide) — First steps
-- [Builds Guide](/guides/builds-guide) — Team compositions
-- [Extraction Guide](/guides/extraction-guide) — Raid survival
-- [Skills Guide](/guides/skills-guide) — Complete skill reference
+- [Beginner Guide](/guides/beginner-guide) — first steps
+- [Character Guide](/guides/character-guide) — your three heroes
+- [Builds Guide](/guides/builds-guide) — build framework
+- [Extraction Guide](/guides/extraction-guide) — run survival

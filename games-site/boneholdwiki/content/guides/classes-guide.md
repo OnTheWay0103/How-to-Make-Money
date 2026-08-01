@@ -1,115 +1,106 @@
 ---
 title: 'Bonehold Classes Guide - All 7 Classes Explained'
-description: 'Complete Bonehold classes guide covering all 7 classes including Knight, Barbarian, Scorcher, Spellblade, and 3 unlockable classes. Find your perfect playstyle.'
+description: 'Complete Bonehold classes guide covering all 7 classes. Only 4 are officially named — Knight, Barbarian, Scorcher, and Spellblade. The remaining 3 classes are unconfirmed as of the 2026 launch.'
+category: 'Classes'
+version: '1.0'
+updated: '2026-08-01'
 keywords: ['Bonehold classes', 'Bonehold best class', 'Bonehold Knight build', 'Bonehold Barbarian', 'Bonehold Spellblade', 'Bonehold Scorcher']
-updated: '2026-07-30'
+related: ['beginner-guide', 'best-builds', 'weapons-guide', 'combat-guide']
 ---
 
 # Bonehold Classes Guide - All 7 Classes Explained
 
-Bonehold offers 7 distinct classes, each with unique mechanics, weapon affinities, and playstyles. The first 4 are available from the start, while 3 more unlock through meta-progression. This Bonehold classes guide breaks down every class so you can choose the right one for your next run.
+Bonehold offers **7 distinct classes**, but here is an important honesty note up front: only **4 of them are officially named** on the game's Steam page — **Knight, Barbarian, Scorcher, and Spellblade**. The remaining three classes have no officially confirmed names, mechanics, or unlock conditions as of the July 28, 2026 launch. Any list you see naming the other three classes comes from speculation, not official sources.
 
-## Starting Classes
+This guide covers the 4 confirmed classes, what is known about the other 3, and how class identity actually works in Bonehold.
 
-These four classes are available as soon as you begin the game.
+## The 4 Confirmed Classes
 
-### Knight -- The Sturdy Frontline
+### Knight — The Sturdy Frontline
 
-The Knight is the most forgiving class in Bonehold and the best recommendation for new players. Equipped with heavy armor and a shield, the Knight can block most attacks that would stagger lighter classes.
+The Knight is the class most commonly recommended for new players, and the most defensively oriented of the confirmed classes.
 
-- **Playstyle:** Defensive, methodical. Block and parry openings, then punish with charge attacks.
-- **Strengths:** Highest survivability, easiest parry timing, access to shield-exclusive block skills.
-- **Weaknesses:** Lower mobility, slower charge speed, lower burst damage.
-- **Best weapon types:** One-handed swords, maces, any weapon usable with a shield.
-- **Recommended for beginners?** Yes -- the best starting class.
+- **Playstyle:** Defensive and methodical — block and parry openings, then punish with charge attacks.
+- **Strengths:** High survivability, shield-based defense, forgiving for learning enemy patterns.
+- **Weaknesses:** Lower mobility and burst damage than offense-first classes.
+- **Best weapon types:** One-handed swords and maces — with a shield where available.
+- **Recommended for beginners?** Yes — the most forgiving starting class.
 
-Knight players should prioritize Sturdy and Deflecting prefixes to maximize their tanking potential. Pair a fast one-handed sword with a shield for the best balance of offense and defense.
+**Note:** the Knight's exact stats, shield skills, and defensive numbers are not officially documented. The archetype (heavy defense, shield, block-oriented) is consistent with the game's confirmed block/parry combat system and community understanding, but treat specific claims elsewhere with caution.
 
-### Barbarian -- The Relentless Berserker
+### Barbarian — The Relentless Berserker
 
-The Barbarian trades defense for raw offensive power. The rage mechanic builds as you deal and take damage, unlocking empowered attacks at high rage thresholds.
+The Barbarian trades defense for raw offensive power, favoring big two-handed weapons and aggressive play.
 
-- **Playstyle:** Aggressive, high-risk. Stay in the fight to keep rage high.
-- **Strengths:** Highest sustained DPS, rage-based bonus effects, armor-breaking charge attacks.
-- **Weaknesses:** No shield, medium armor, rage resets if you stop fighting too long.
-- **Best weapon types:** Two-handed axes, two-handed hammers, greatswords.
-- **Recommended for beginners?** Yes, if you prefer aggressive play.
+- **Playstyle:** Aggressive, high-risk — stay in the fight and keep the pressure on.
+- **Strengths:** High sustained damage output, armor-breaking charge attacks, forgiving of positioning errors because enemies die quickly.
+- **Weaknesses:** No shield, lighter defense, fewer safety tools than the Knight.
+- **Best weapon types:** Two-handed axes and hammers, greatswords.
+- **Recommended for beginners?** Yes, if you prefer aggressive play and accept the risk.
 
-Barbarian gameplay revolves around managing your rage meter. Full rage unlocks a unique charge attack variant that cleaves through multiple enemies. The Vampiric prefix is excellent on Barbarians -- healing keeps your rage from dropping while you reposition.
+**Note:** the commonly repeated "rage mechanic" (a meter that builds as you fight and unlocks empowered attacks) is **unconfirmed** — no official source documents a rage system. Play the Barbarian as a straightforward high-damage bruiser until the class's real mechanics are documented.
 
-### Scorcher -- The Glass Cannon Mage
+### Scorcher — The Glass Cannon Mage
 
-The Scorcher wields pure fire magic, devastating groups of enemies but crumpling under pressure. This class demands strong positioning and enemy pattern knowledge.
+The Scorcher is the fire-magic class: ranged, AoE-focused, and fragile. The class name and its "Scorch"-style fire theme are confirmed; the exact spell kit is not officially documented.
 
-- **Playstyle:** Ranged, AoE-focused. Kite enemies and burn them down before they reach you.
-- **Strengths:** Best AoE damage, fire damage over time (DoT) effects, can attack from range.
-- **Weaknesses:** Extremely fragile, limited single-target burst, poor close-range options.
-- **Best weapon types:** Staves, spell scrolls with fire synergy.
-- **Recommended for beginners?** No. Learn enemy patterns with Knight or Barbarian first.
+- **Playstyle:** Ranged, AoE-focused — kite enemies and burn them down before they close distance.
+- **Strengths:** Strong area damage, fire damage over time, attacks from range.
+- **Weaknesses:** Fragile — a single mistake can end a run quickly.
+- **Best weapon types:** Staves (the game's slow-charging staff archetype is confirmed to exist).
+- **Recommended for beginners?** No. Learn enemy patterns with a defensive class first.
 
-Scorcher players should look for Flaming and Volatile prefixes. Spell scrolls that create zones of fire or apply burning stacks synergize powerfully with the class's passive fire damage bonuses.
+**Note:** specific Scorcher spells, fire passives, and "Ignite" mechanics are unconfirmed. The class is confirmed as fire-themed and magic-focused; the details are TBD.
 
-### Spellblade -- The Versatile Hybrid
+### Spellblade — The Versatile Hybrid
 
-The Spellblade blends sword combat with arcane magic, switching between melee and ranged attacks fluidly. This class rewards players who can manage two resource systems simultaneously.
+The Spellblade blends melee swordplay with magic, and is the clearest expression of Bonehold's confirmed hybridization design — the ability to mix magic and melee across builds.
 
-- **Playstyle:** Fluid, adaptive. Weave spells between sword strikes for maximum uptime.
-- **Strengths:** Excellent versatility, magic damage on melee hits, access to both weapon and spell scroll bonuses.
-- **Weaknesses:** Split stats can dilute scaling, requires active resource management, lower max health than pure melee classes.
-- **Best weapon types:** One-handed swords, staves (for spell-focused builds).
-- **Recommended for beginners?** Intermediate. Best after 5+ runs.
+- **Playstyle:** Fluid and adaptive — weave spells between sword strikes.
+- **Strengths:** Versatility; access to both weapon and spell effects; the best class for experimenting with hybrid builds.
+- **Weaknesses:** More systems to manage at once; split focus can mean less raw power than a specialist.
+- **Best weapon types:** One-handed swords paired with spell-focused secondaries.
+- **Recommended for beginners?** Intermediate — try it after a few runs.
 
-The Spellblade truly shines with Arcane and Echoing prefixes, which amplify the magic portion of your attacks. Spell scrolls that apply debuffs (Slow, Weaken) let you control engagements while your sword handles damage.
+**Note:** the specific "spell empowers next attack" passives attributed to the Spellblade are unconfirmed. Its hybrid melee/magic identity is confirmed; the exact mechanics are TBD.
 
-## Unlockable Classes
+## The 3 Unconfirmed Classes
 
-These three classes become available as you spend meta-progression currency and complete specific achievements. They are not available on your first run.
+Bonehold's Steam page confirms there are **7 classes in total**, but only the 4 above are named anywhere in official materials. As of early August 2026:
 
-### Shadowblade -- The Stealth Assassin
+- The names of classes 5-7 are **not officially confirmed**.
+- Whether they are unlocked from the start or require unlock conditions is **not confirmed**.
+- Any claims about "hidden classes," "unlockable classes," or specific unlock requirements (beating bosses, completing achievements, etc.) are **unverified speculation** and should be ignored until official documentation appears.
 
-Unlocked by defeating the floor 3 boss with the Spellblade. The Shadowblade excels at burst damage from stealth, eliminating priority targets before a fight properly begins.
+If you see a guide (including older versions of this one) naming classes like "Shadowblade," "Arcanist," "Warden," "Death Knight," "Shadow Dancer," or "Void Weaver," treat those names as **unverified** — they are not from official sources.
 
-- **Playstyle:** Hit-and-run. Enter stealth, position behind enemies, unleash massive backstab damage.
-- **Strengths:** Highest single-target burst, can skip difficult encounters, stealth bypasses traps.
-- **Weaknesses:** Fragile in direct combat, poor AoE, one mistake in positioning ends your run.
-- **Best weapon types:** Daggers, one-handed swords with speed prefixes.
-- **Unlock condition:** Defeat the floor 3 boss using Spellblade.
+**What this means for you:** assume you have 7 classes to choose from at character select. If some are locked behind conditions, the game itself will tell you when you start a run. Nothing about missing classes should change how you play the four confirmed ones.
 
-### Arcanist -- The Pure Mage
+## Cross-Class Hybridization — A Confirmed Core Mechanic
 
-Unlocked by collecting 10 different spell scrolls in a single run. The Arcanist is a pure arcane magic user with access to every spell school but no physical combat ability.
+One thing the developer's description and launch reviews both confirm: **Bonehold encourages hybridizing across class archetypes.** The seven classes provide clear starting archetypes, but the real buildcrafting fun comes from mixing them.
 
-- **Playstyle:** Tactical, resource-heavy. Cycle through spell schools for maximum effect.
-- **Strengths:** Access to all magic types, highest mana pool, can dual-cast scrolls for double effect.
-- **Weaknesses:** Zero melee capability, extremely low health, heavily dependent on scroll drops.
-- **Best weapon types:** Staves, magical foci (uncommon drop type).
-- **Unlock condition:** Collect 10 different spell scrolls in one run.
+Confirmed examples from launch coverage:
 
-### Warden -- The Nature Guardian
+- A **Death Knight-esque build** — combining Knight-style durability with necromantic/offensive magic — built around a **slow-charging staff**, described in reviews as "hilarious" and effective.
+- **Spells are usable beyond class boundaries** — reviewers describe magic combining with melee builds in ways the class system alone would not suggest.
+- **Item prefixes are the bridge** — a prefix that suits a different class's playstyle can still define your run, because builds are driven by loot as much as by class.
 
-Unlocked by surviving 50 trap activations across all runs. The Warden uses nature magic and defensive abilities to control the battlefield through thorn barriers, healing, and debuff cleansing.
+The takeaway: pick a class for its starting kit, but treat the class as a **starting point, not a cage**. When a drop or scroll suggests a different playstyle, the game rewards following it.
 
-- **Playstyle:** Control-oriented. Slow enemies, heal chip damage, create safe zones.
-- **Strengths:** Best sustain of any class, trap immunity after upgrade, excellent at clearing floors methodically.
-- **Weaknesses:** Low burst damage, fights take longer, limited offensive synergy.
-- **Best weapon types:** Maces, staves with defensive prefixes.
-- **Unlock condition:** Survive 50 trap activations total across all runs.
+## Which Class Should You Pick?
 
-## Cross-Class Hybridization
+For new players, the confirmed four classes rank like this for *starting out*:
 
-Bonehold allows limited cross-class hybridization through two mechanics:
+| Class | Difficulty to Learn | Starting Recommendation |
+|-------|--------------------|------------------------|
+| Knight | Easy | **Best first class** — survivable, forgiving |
+| Barbarian | Easy-Medium | Good aggressive alternative |
+| Spellblade | Medium | Try as a second or third class |
+| Scorcher | Hard | Learn the game first, then play it |
 
-1. **Spell scrolls are usable by any class.** A Barbarian can cast fire spells and a Scorcher can wield a two-handed axe. You just lose class-specific bonuses for off-type actions.
-2. **Neutral prefixes** like Quick, Sturdy, and Vampiric work well on every class. Building around universal prefixes lets you pivot your strategy based on what drops.
-
-**Popular hybrid strategies:**
-
-- **Battlemage (Knight + Arcanist):** Wear heavy armor but carry offensive scrolls for ranged options.
-- **Reaper (Barbarian + Shadowblade):** Build rage with a two-hander, then stealth for guaranteed crits.
-- **Elementalist (Spellblade + Scorcher):** Double down on elemental damage for melting bosses.
-
-The hybrid system means no two runs feel identical. Experiment freely -- Bonehold rewards adaptation over stubbornly sticking to one build plan.
+There is no confirmed "best class" — reviews describe the game's strength as its build variety, with every class being viable when played to its strengths. Pick the one whose fantasy you like, and let the drops refine your build from there.
 
 ---
 
-**Need help with your build?** See our [Best Builds Guide](/guides/best-builds) for top-tier synergies or the [Weapons Guide](/guides/weapons-guide) for charge attack optimization.
+**Ready to build around your class?** See our [Best Builds Guide](/guides/best-builds) for build principles, or the [Weapons Guide](/guides/weapons-guide) for weapon and charge mechanics.

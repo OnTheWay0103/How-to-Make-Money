@@ -1,109 +1,111 @@
 ---
-title: "Artifacts Guide — Equipment & Relic System Explained"
-description: "Complete artifacts guide for The Relic: First Guardian. All 3 artifact categories, best artifacts for each build, how to find hidden artifacts, artifact slot management."
+title: "Artifacts & Unique Equipment — One-of-a-Kind Gear Explained"
+description: "Artifacts and unique equipment in The Relic: First Guardian. Every weapon and armor piece is unique — no duplicate drops, item history, and Drawbacks. How the system works and what is unconfirmed."
 category: "Guides"
 version: "1.0"
-updated: "2026-07-28"
-keywords: ["relic first guardian artifacts", "relic first guardian equipment", "relic first guardian artifact guide", "best artifacts relic first guardian", "artifact locations relic first guardian"]
-related: ["builds-guide", "runes-guide", "weapons-guide"]
+updated: "2026-08-01"
+keywords: ["relic first guardian artifacts", "relic first guardian equipment", "relic first guardian unique items", "relic first guardian gear", "relic first guardian drawbacks", "relic first guardian armor"]
+related: ["builds-guide", "runes-guide", "weapons-guide", "upgrade-system"]
 ---
 
-# Artifacts Guide — Equipment & Relic System Explained
+# Artifacts & Unique Equipment — One-of-a-Kind Gear Explained
 
-Every weapon and armor piece in The Relic: First Guardian is a one-of-a-kind relic with its own history. There are no random loot drops or vendor trash — every artifact you find is unique and meaningful. Understanding the artifact system is essential for optimizing your build.
+One of The Relic: First Guardian's most distinctive systems is its equipment: **every weapon and armor piece in the world is unique**. There are **no random loot drops and no duplicate items** — each piece has its own history, its own story, and its own stats. Find a great weapon, and it is yours alone; lose it, and there is no second copy.
 
----
-
-## Artifact Categories
-
-Artifacts are divided into 3 categories based on their source:
-
-### 1. Main Boss Artifacts (Offensive Focus)
-Dropped by major story bosses. These are typically the most powerful artifacts with game-changing effects.
-
-**Notable examples**:
-- **Aegis of the Fallen King** (Gatekeeper) — Blocking reflects 10% damage
-- **Twin Fangs** (Weeping Twins) — Dual wield extra hit every 4th attack
-- **Giant's Grip** (Drakhan) — Two-handed charge time -40%
-- **Crown of Storms** (Void-Touched Guardian) — Lightning spells chain to 2 extra enemies
-- **King's Shattered Crown** (Forgotten King) — +30% damage, -20% max HP (high risk/reward)
-
-### 2. Mini-Boss Artifacts (Defensive Focus)
-Found by defeating optional mini-bosses throughout the world. Generally provide defensive or utility bonuses.
-
-**Notable examples**:
-- **Guardian's Pauldron** (Sentinel) — 20% auto-block below 30% HP
-- **Bloodsoaked Cloak** (Cathedral mini-boss) — Lifesteal from bleeding enemies
-- **Titan's Ring** (Battlefield mini-boss) — 15% stamina restore on kill
-- **Frostheart Talisman** (Twin Lakes mini-boss) — Freeze duration +50%
-
-### 3. Exploration Artifacts (Utility Focus)
-Hidden throughout the semi-open world. Reward thorough exploration with unique utility effects.
-
-**Notable examples**:
-- **Rune of the Explorer** — Reveals hidden items on minimap
-- **Shadowstep Boots** — Dash distance +30%
-- **Arcane Focus** — Spell range +30%
-- **Duelist's Charm** — Parry window +6 frames
+This guide covers the confirmed rules of the equipment system, the Drawbacks mechanic, and how it changes the way you build — with honest notes on what remains unconfirmed at launch (August 2026).
 
 ---
 
-## Artifact Slots & Management
+## The Confirmed Rules of Unique Equipment
 
-You start with 2 artifact slots and can unlock up to 5:
+### 1. No Duplicates, Ever
 
-| Slots | Unlock Method |
-|-------|---------------|
-| 2 (starting) | Available from game start |
-| 3rd | Defeat Husk of the Betrayer |
-| 4th | Find the hidden artifact altar in Cathedral catacombs |
-| 5th | Complete the "Relic Collector" side quest (collect 20 artifacts) |
+Official material is explicit: **every weapon and armor piece is unique**, and there are no duplicate drops. This has big consequences:
 
----
+- **Exploration is the loot system** — items are hand-placed in the world (including hidden paths and secret areas), not rolled from a loot table.
+- **No grinding for gear** — you cannot farm a "better version" of a weapon; what you find is what exists.
+- **Choice matters** — with one copy of each item, choosing *where to spend upgrade materials* is a real decision (see the [Upgrade System guide](/guides/upgrade-system)).
 
-## Best Artifact Combinations per Build
+### 2. Every Item Has a Story
 
-### Sword & Shield — The Immortal
-Aegis of the Fallen King + Guardian's Pauldron + Bulwark Ring
-*Maximum block synergy. Reflect damage, auto-block, and increased stability.*
+Each item is described as a unique artifact with its own history — official examples include a legendary knight's final blade and a shield embodying a family's vow. Reading item descriptions is part of the game's fragmented storytelling (letters, murals, item text).
 
-### Dual Daggers — The Crimson Dancer
-Twin Fangs + Bloodsoaked Cloak + Shadowstep Boots
-*Maximum mobility and bleed synergy. Extra hits, lifesteal from bleeding, extended dashes.*
+### 3. Drawbacks: Powerful Items Cost Something
 
-### Two-Handed — The Juggernaut
-Giant's Grip + Juggernaut Plate + Titan's Ring
-*Maximum burst and sustain. Faster charges, more HP, stamina on kills.*
-
-### Staff — The Archmage
-Crown of Storms + Arcane Focus + Frostheart Talisman
-*Maximum range and elemental crowd control. Chain lightning, extended range, longer freezes.*
-
-### Sword — The Blade Master
-Duelist's Charm + Blade of a Thousand Cuts + Sword Saint's Sash
-*Maximum parry and combo damage. Longer parry windows, burst damage, higher combo ceiling.*
+Some of the strongest items carry **Drawbacks** — confirmed official mechanic. Examples cited by official/preview material include losing stamina or gaining a weakness. Equipping a powerful artifact is therefore a **build decision**, not a pure upgrade: you may trade survivability for power.
 
 ---
 
-## Hidden Artifact Locations
+## How the System Shapes Builds
 
-| Artifact | Location | How to Find |
-|----------|----------|-------------|
-| Bulwark Ring | Ruined Outpost | Breakable wall behind first bonfire |
-| Shadowstep Boots | Forsaken Garrison | Rooftop chest, accessible via ladder puzzle |
-| Arcane Focus | Ruins of Elara | Behind illusory wall near Void Step tutorial area |
-| Juggernaut Plate | Scorched Battlefield | Defeat all 3 Ash Commander mini-bosses |
-| Sword Saint's Sash | Throne of Ashes | Jump puzzle in the throne room rafters |
+### Gear Complements Relics
+Your power comes from relics (passive fragments), skills (Relic Energy), and gear (unique equipment). Gear is the *fixed* part — since items are one-of-a-kind, builds are defined by *which* uniques you found and chose to equip.
 
----
+### Watch the Drawbacks
+Before equipping a powerful piece, read its Drawback:
+- Does it lose stamina? That hurts the game's defense economy (stamina is for dodging/blocking only — see the [Combat Guide](/guides/combat-guide)).
+- Does it grant a weakness? It may make a specific boss fight miserable.
+- Trade-offs are the point — the game wants you to manage them, not ignore them.
 
-## Artifact Strategy Tips
-
-1. **Synergy > raw power** — An artifact that synergizes with your runes beats a "stronger" artifact with no synergy.
-2. **Swap per encounter** — Boss artifacts with specific resistances can trivialize certain fights.
-3. **Explore everything** — The best artifacts are always hidden. Check behind every waterfall, breakable wall, and illusory surface.
-4. **Complete side quests** — Many artifacts are quest rewards, not drops.
+### Forge What You Love
+Since you cannot find a second copy, the **blacksmith** is the only way to improve a favorite weapon. If an item carries a Drawback you cannot live with, that may be the moment to switch — but if the Drawback fits your playstyle, forge it up and build around it.
 
 ---
 
-*All artifact names and effects based on pre-launch previews. Full catalog will be documented post-launch.*
+## What Is NOT Confirmed
+
+Specifics circulating online are largely unverified:
+
+| Claim | Status |
+|-------|--------|
+| "Every weapon and armor piece is unique" | **Confirmed** (official) |
+| "Some items have Drawbacks" | **Confirmed** (official) |
+| "Items have histories/stories" | **Confirmed** (official) |
+| Named artifacts (e.g., "Tide Ward," "Aegis of the Fallen King," "Duelist's Charm") | **Unconfirmed** — not in verified sources |
+| Artifact categories with slot counts | **Unconfirmed** |
+| "Artifact slots start at 2, unlock up to 5" | **Unconfirmed** |
+| Rarity tiers with colors (Common/Exceptional/Legendary/Relic) | **Unconfirmed** |
+| Specific hidden artifact locations | **Unconfirmed** |
+
+**Same rule as everywhere on this wiki**: if a guide names an artifact, gives exact effects, and lists a precise location, treat it as speculative until verified in-game.
+
+---
+
+## Practical Gear Advice (Confirmed-System-Based)
+
+1. **Explore before you buy/fight** — hand-placed uniques mean the world's hidden paths hold real power. See the [Secret Areas guide](/guides/secret-areas).
+2. **Read every item's story text** — lore delivery and sometimes gameplay hints live in descriptions.
+3. **Check Drawbacks before equipping** — a "free" stat boost often comes with a hidden tax; decide consciously.
+4. **Forge selectively** — upgrade materials are spent on unique items that never re-drop, so commit to weapons you intend to use for a long time.
+5. **Swap gear per boss like relics** — with relics swappable and gear unique, adapting your equipment to the fight is part of the intended prep loop.
+
+---
+
+## Common Questions
+
+**Q: Can I get duplicate weapons?**
+A: **No** — every weapon and armor piece in the world is unique; there are no duplicate drops.
+
+**Q: What are Drawbacks?**
+A: Negative effects on some powerful items — for example, losing stamina or gaining a weakness. They make strong gear a trade-off decision.
+
+**Q: How do I improve my gear?**
+A: At the **blacksmith**, using currencies and materials from the world. Exact upgrade costs are unconfirmed.
+
+**Q: Do artifacts have levels?**
+A: **No** — the game has no leveling system. Gear value comes from its unique stats, passives, and Drawbacks, plus blacksmith forging.
+
+**Q: Should I sell unwanted gear?**
+A: Unconfirmed — no verified economy info exists (selling, dismantling, or merchants). Until documented, hold on to uniques; they cannot be re-obtained.
+
+**Q: Are there armor sets?**
+A: Unconfirmed — the "set bonus" concept appears in speculative guides but has no verified source.
+
+---
+
+### Related Guides
+
+- [Builds Guide](/guides/builds-guide) — How gear, relics, and skills combine
+- [Upgrade System](/guides/upgrade-system) — Forging your unique items
+- [Weapons Guide](/guides/weapons-guide) — The unique weapons by family
+- [Secret Areas](/guides/secret-areas) — Where hand-placed uniques hide

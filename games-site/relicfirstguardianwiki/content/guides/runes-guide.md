@@ -1,138 +1,114 @@
 ---
-title: "Runes & Memory Fragments Guide — All Passive Effects"
-description: "Complete runes and memory fragments guide for The Relic: First Guardian. All 70+ passive effects explained, best runes for each weapon, rune farming locations, and combo strategies."
+title: "Runes & Relics Guide — The 70+ Passive Fragments"
+description: "Runes and relics in The Relic: First Guardian. Over 70 unique relic fragments with passive effects — what they do, how relic slots unlock, how to swap them, and honest notes on unconfirmed specifics."
 category: "Guides"
 version: "1.0"
-updated: "2026-07-28"
-keywords: ["relic first guardian runes", "memory fragments relic first guardian", "relic first guardian rune guide", "relic first guardian passive effects", "best runes relic first guardian", "rune farming relic first guardian"]
-related: ["builds-guide", "weapons-guide", "artifacts-guide"]
+updated: "2026-08-01"
+keywords: ["relic first guardian runes", "relic first guardian relics", "relic first guardian memory fragments", "relic first guardian rune guide", "relic first guardian relic fragments", "best relics relic first guardian"]
+related: ["builds-guide", "upgrade-system", "weapons-guide", "beginner-guide"]
 ---
 
-# Runes & Memory Fragments Guide — All Passive Effects
+# Runes & Relics Guide — The 70+ Passive Fragments
 
-Memory Fragments (Runes) are the core progression system in The Relic: First Guardian. With 70+ unique runes scattered across Arsiltus, your character's power comes entirely from collecting and combining these passive effects. This guide covers how the rune system works, the best runes for each playstyle, and where to find them.
+The Relic: First Guardian has **no traditional leveling system** — no XP, no stat points, no skill levels. Your character's power comes from one core system: **Relics** (also called **Runes** or **Memory Fragments** — all three terms refer to the same thing). Official material describes **over 70 unique fragments**, each imbued with the memories and emotions of the dead, each granting a **passive effect** that shapes how you play.
 
----
-
-## How Runes Work
-
-**No traditional leveling** — you don't gain XP, stat points, or skill points. Instead, every rune you find and equip directly modifies your character:
-
-- **Passive effects** — Always active once equipped
-- **Stackable** — Similar effects stack additively
-- **Swappable anytime** — Change runes at checkpoints or between areas
-- **Rune slots** — Start with 3 slots, unlock up to 8 through exploration
-- **Rune categories** — Offensive, Defensive, Utility, and Void (rare/legendary)
+This guide explains the confirmed mechanics of the relic system, how to unlock more slots, and how to use the system — while flagging the many unconfirmed details that circulate online.
 
 ---
 
-## Rune Slot Unlock Locations
+## What Relics Do (Confirmed)
 
-| Slots | How to Unlock |
-|-------|---------------|
-| 3 (starting) | Available from game start |
-| 4th | Defeat the Withered Gatekeeper |
-| 5th | Explore the Cathedral catacombs (hidden room) |
-| 6th | Complete the Twin Lakes puzzle |
-| 7th | Defeat the Void-Touched Guardian |
-| 8th | Collect all 4 Fragment of the First Relic pieces |
+Official descriptions confirm the following effects that relic fragments can provide:
 
----
+- **Reshape skills** — change how an unlocked skill behaves
+- **Alter combat tempo** — change your attack rhythm or stamina behavior
+- **Buff specific weapons** — amplify a weapon family or playstyle
+- **Improve survivability** — health, defense, sustain effects
+- **Reduce cooldowns** — skills run on cooldown timers, and fragments can shorten them
 
-## Best Runes by Category
-
-### Offensive Runes (Damage)
-
-| Rune | Effect | Best For |
-|------|--------|----------|
-| Rune of Devastation | Heavy attack damage +25% | Two-Handed builds |
-| Rune of Hemorrhage | Bleed tick damage +50% | Dual Daggers |
-| Rune of Precision | Critical hit damage +30% | Sword builds |
-| Rune of the Arcanist | Spell damage +20% | Staff builds |
-| Rune of Swiftness | Attack speed +15% | Daggers, Sword |
-| Rune of Momentum | Consecutive hits +5% damage (stacks 5x) | All melee |
-| Rune of Lethality | Critical hit chance +10% | Dagger, Sword |
-| Rune of Overwhelm | Stagger buildup +30% | Two-Handed |
-
-### Defensive Runes (Survival)
-
-| Rune | Effect | Best For |
-|------|--------|----------|
-| Rune of Fortification | Block stability +15% | Sword & Shield |
-| Rune of Evasion | Dodge i-frames +4 frames | All builds |
-| Rune of Fortitude | Damage reduction +10% while attacking | Two-Handed |
-| Rune of the Sentinel | Immune to stagger while blocking | Sword & Shield |
-| Rune of Preservation | -25% stamina cost for dodging | All builds |
-| Rune of Retribution | Counter attacks heal 5% HP | Sword & Shield |
-
-### Utility Runes (Quality of Life)
-
-| Rune | Effect | Best For |
-|------|--------|----------|
-| Rune of Patience | Stamina regen +20% while stationary | All builds |
-| Rune of Flow | Combo multiplier decays 50% slower | Sword builds |
-| Rune of Channeling | Spell cast speed +15% | Staff builds |
-| Rune of Adaptability | +10% all damage types | Hybrid builds |
-| Rune of the Explorer | Reveals hidden items on minimap | Exploration |
-
-### Void Runes (Rare/Legendary)
-
-| Rune | Effect | Location |
-|------|--------|----------|
-| Rune of the Void | +25% damage vs Void-corrupted enemies | Defeat Forgotten King |
-| Rune of Vampirism | 3% lifesteal on all attacks | Secret boss in Cathedral catacombs |
-| Rune of Immortality | Survive a fatal blow once per checkpoint (60 min cooldown) | Hidden chamber, Throne of Ashes |
-| Rune of Chaos | Randomly doubles or halves damage (50/50) | Exploration, Shattered Relic Chamber |
+The key word is **passive**: relics are always active once equipped, and they are designed to be **freely swapped** so you can adapt your build to each boss. Official material is explicit: the game expects you to change your relic loadout between encounters.
 
 ---
 
-## Best Rune Combinations per Weapon
+## The Relic Economy (Confirmed)
 
-### Sword & Shield — The Tank
-Fortification + Retribution + Sentinel + Fortitude + Preservation
-*Maximum survivability. You become nearly unkillable while blocking, and counter attacks sustain your HP.*
+Two confirmed mechanics fuel the system:
 
-### Dual Daggers — The Bleed Machine
-Hemorrhage + Swiftness + Lethality + Evasion + Adaptability
-*Maximum DPS with bleed-focused build. Stack Hemorrhage and Swiftness for rapid bleed application.*
+1. **Relic Energy** — earned by defeating **Brutals** (bosses) and finding **Ancient Relic Blessings** in the world. This currency buys **skills in weapon skill trees** — including nodes that increase Health Points or Stamina, and nodes that buff specific relics.
+2. **Shards of Awakening** — found through exploration; brought to **Elisa** (the woman who awakens you at the start) at any **camp** to unlock **new Relic slots**, letting you equip more fragments.
 
-### Two-Handed — The Destroyer
-Devastation + Momentum + Overwhelm + Fortitude + Patience
-*Maximum stagger and burst. Chain heavy attacks to build Momentum stacks while Fortitude protects you during animations.*
-
-### Staff — The Archmage
-Arcanist + Channeling + Elemental Fury + Preservation + Evasion
-*Maximum spell damage and casting speed. Preservation and Evasion keep you alive at range.*
-
-### Sword — The Duelist
-Precision + Flow + Riposte + Lethality + Evasion
-*Maximum parry and combo damage. Build and maintain high combo multipliers for devastating ripostes.*
+**Practical takeaway**: power = fragments equipped (slots) + fragments collected (choice) + skills bought (Relic Energy). All three are exploration/combat-driven, not XP-driven.
 
 ---
 
-## Rune Farming Locations
+## How to Use Relics Effectively
 
-| Area | Notable Runes | Notes |
-|------|--------------|-------|
-| Ruined Outpost | Fortification (Gatekeeper drop) | Guaranteed from tutorial boss |
-| Forsaken Garrison | Retribution, Evasion | Sentinel drops Retribution; exploration finds Evasion |
-| Ruins of Elara | Momentum | Hidden behind breakable wall near bonfire |
-| Cathedral of the Hungry | Preservation, Rune of Vampirism | Saint drops Preservation; secret catacomb boss for Vampirism |
-| Scorched Battlefield | Devastation, Fortitude | General drops Devastation; Fortitude in burned armory |
-| Twin Lakes | Swiftness | Weeping Twins drop |
-| Shattered Relic Chamber | Arcanist, Rune of Chaos | Guardian drops Arcanist; Chaos in hidden corner |
-| Throne of Ashes | Rune of the Void, Immortality | King drops Void; Immortality in post-boss hidden chamber |
+### 1. Specialize Around Your Weapon
+
+Each weapon family has its own playstyle (see the [Weapons Guide](/guides/weapons-guide)) — 12 skill trees total, two per family. Equip fragments that amplify what your weapon wants to do: buff its damage, shorten its skill cooldowns, or cover its weakness (e.g., survivability for fragile fast weapons).
+
+### 2. Swap Before Every Boss
+
+The design is explicit: "freely swap them to adapt your build to each boss." Before a Brutal fight:
+
+- Check what the fight demands (parry-gate vs dodge-gate — see the [Boss Strategies guide](/guides/boss-strategies))
+- Fit survivability fragments if you are dying
+- Fit cooldown/damage fragments if you are running out of steam
+
+### 3. Unlock Slots Early and Often
+
+Shards of Awakening → Elisa at camps → more slots. Because fragments are swappable, slots are a permanent force multiplier: more slots mean more adaptivity per fight, which is the game's core survival strategy.
+
+### 4. Spend Relic Energy on Health Early
+
+Skill tree nodes can raise HP and stamina directly. For new players, buying these before damage nodes is the single most reliable difficulty reducer in the game.
 
 ---
 
-## Rune Strategy Tips
+## What Is NOT Confirmed (Beware of Fabricated Rune Guides)
 
-1. **Specialize, don't generalize** — 4 runes supporting one playstyle beat 8 runes spread thin.
-2. **Swap before bosses** — Check boss damage type and equip resistance runes.
-3. **Prioritize slot unlocks** — An extra rune slot is worth more than any single rune.
-4. **Stack synergies** — Bleed runes + Bleed artifact = exponentially more damage.
-5. **Don't sleep on Utility** — Rune of the Explorer makes finding more runes and artifacts much easier.
+The relic system's broad strokes are confirmed, but almost every specific claim circulating online is **unverified**:
+
+| Claim | Status |
+|-------|--------|
+| "There are 70+ fragments" | **Confirmed** (official) |
+| "Fragments are freely swappable" | **Confirmed** (official) |
+| "Shards of Awakening unlock slots via Elisa at camps" | **Confirmed** (official/coverage) |
+| Named runes like "Fragment of Vigor," "Rune of Fortification," "Ember of Persistence" | **Unconfirmed** — not in any verified source |
+| Exact effects and percentages (e.g., "+15% stamina recovery") | **Unconfirmed** |
+| Specific drop locations for named runes | **Unconfirmed** |
+| "Rune slots start at 3, unlock up to 8" | **Unconfirmed** |
+| Rune categories (Offensive/Defensive/Utility/Void) | **Unconfirmed** |
+
+**Rule of thumb**: if a guide names a rune, gives it a percentage, and tells you exactly where it drops, treat it as speculative until verified in-game. The confirmed names in the system are **Relic Energy**, **Ancient Relic Blessings**, **Shards of Awakening**, and **Elisa** — everything else is being documented post-launch.
 
 ---
 
-*Rune locations and effects will be fully documented post-launch. This guide covers confirmed pre-launch information.*
+## Common Questions
+
+**Q: Are runes and relics the same thing?**
+A: **Yes** — "Relics," "Runes," and "Memory Fragments" are all used to describe the same collection of over 70 unique passive fragments.
+
+**Q: How do I get more relic slots?**
+A: Find **Shards of Awakening** through exploration and bring them to **Elisa** at any **camp**.
+
+**Q: Can I change relics mid-game?**
+A: **Yes** — fragments are freely swappable; the game's intended loop is adapting your loadout between fights.
+
+**Q: Do relics replace leveling?**
+A: **Yes** — there is no XP or leveling. Relics, relic slots, and skills bought with Relic Energy are the progression.
+
+**Q: What is Relic Energy for?**
+A: Buying skills in weapon skill trees — including HP/stamina nodes and relic-buffing nodes. Earned from defeating Brutals and finding Ancient Relic Blessings.
+
+**Q: Which relics are "best"?**
+A: **Unconfirmed** at launch — no verified tier data exists yet. Choose fragments that fit your weapon and the current boss.
+
+---
+
+### Related Guides
+
+- [Upgrade System](/guides/upgrade-system) — Slots, shards, and the full progression picture
+- [Best Builds Guide](/guides/builds-guide) — How relics fit into builds
+- [Weapons Guide](/guides/weapons-guide) — The 12 skill trees relics interact with
+- [Beginner Guide](/guides/beginner-guide) — Getting started with your first fragments

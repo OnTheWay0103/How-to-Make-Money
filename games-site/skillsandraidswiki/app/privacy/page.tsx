@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Privacy Policy',
-  description: 'Privacy Policy for Skills The Mound Wikiamp; Raids Wiki — how we collect, use, and protect your data.',
+  description: 'Privacy Policy for the Skills & Raids Wiki — how we collect, use, and protect your data.',
 };
 
 export default function PrivacyPage() {
@@ -13,7 +13,7 @@ export default function PrivacyPage() {
 
       <h2>1. Introduction</h2>
       <p>
-        Skills The Mound Wikiamp; Raids Wiki ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you visit our website at <strong>skillsandraidswiki.vercel.app</strong>.
+        The Skills &amp; Raids Wiki ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you visit our website at <strong>skillsandraidswiki.vercel.app</strong>.
       </p>
 
       <h2>2. Information We Collect</h2>

@@ -1,61 +1,98 @@
 ---
-title: "Dwarf Delve Endgame Raids Guide — Raid Bosses, Teams & Loot"
-description: "Complete endgame raids guide for Dwarf Delve. Learn every raid boss's mechanics, optimal team compositions, preparation requirements, and the exclusive loot tables only raid content provides."
+title: "Dwarf Delve Endgame Guide — What Endgame Actually Looks Like"
+description: "Dwarf Delve endgame explained honestly: no raids exist in the game. The real endgame is deep extraction runs, relic hunting, gear mastery, and the permanent upgrade economy. How to build an endgame-ready loop."
 category: "Guides"
 version: "1.0"
-updated: "2026-07-31"
-keywords: ["Dwarf Delve endgame raids", "Dwarf Delve raid bosses", "Dwarf Delve raid guide", "Dwarf Delve raid team comp", "Dwarf Delve raid loot", "Dwarf Delve endgame content"]
-related: ["boss-farming", "best-gear-equipment-guide", "extraction-guide", "mining-strategies-guide", "coop-guide"]
+updated: "2026-08-01"
+keywords: ["Dwarf Delve endgame", "Dwarf Delve endgame guide", "Dwarf Delve deep runs", "Dwarf Delve progression", "Dwarf Delve relic hunting"]
+related: ["boss-farming", "best-gear-equipment-guide", "extraction-guide", "mining-strategies-guide", "meta-progression-guide"]
 ---
 
-## Endgame Raids Guide — Raid Bosses, Teams & Loot
+## Endgame Guide — Raids Don't Exist (Yet)
 
-Raid content is where Dwarf Delve's endgame really lives. Unlike standard boss farming, raids are multi-stage expeditions with locked exits, environmental hazards, and bosses that demand coordinated teams. This guide covers every raid, the mechanics that end runs, and the loot worth risking your extraction for.
+First, the honest correction: **Dwarf Delve has no raid content.** Raids, raid bosses, locked-exit raids, raid loot tables — none of it is confirmed, and none of it appears in official materials. Guides describing "The Deep King's Court" or "Magma Foundry" raids are fiction.
 
-### Raid Overview
+What Dwarf Delve *does* have is a confirmed endgame shape: the meta-progression loop. "Endgame" in this game today means **running the loop at high efficiency** — deep descents, relic hunting, heavy ore hauling, and permanent upgrades compounding run over run. That's the endgame this guide covers.
 
-| Raid | Unlock | Depth Required | Recommended Team | Exclusive Loot |
-|------|--------|----------------|------------------|----------------|
-| The Deep King's Court | Level 30 | Floor 25+ | 2 players | Royal Ore, King's Crown schematic |
-| Magma Foundry | Level 35 | Floor 30+ | 3 players | Molten Core, Forgehammer schematic |
-| The Silent Vault | Level 40 | Floor 35+ | 4 players | Vault Relic, Runed Armor set |
-| The Shattered Halls | Level 45 | Floor 40+ | 4 players | Halls Shard, Mythic pickaxe plan |
+## What "Endgame" Means in Dwarf Delve
 
-### Key Raid Mechanics
+The confirmed progression architecture:
 
-1. **Locked exits:** Each raid boss gates the exit. You cannot extract until the boss dies — over-prepare or stay out.
-2. **Environmental phases:** The Foundry floods with lava at 50% boss HP; the Vault collapses columns at 30%. Positioning changes mid-fight are mandatory.
-3. **Durability drain:** Raid hazards deal armor-drain damage. Bring two repair kits per player on the Vault and Halls.
-4. **Shared aggro:** Raid bosses swap targets every 4 attacks. Tanks cannot hold aggro alone — everyone needs a defensive perk.
+```
+Descend → Mine ores & find relics → Extract → Refine ores → Trade for coin
+        → Buy perks & skills → Upgrade gear → Descend deeper
+```
 
-### Team Composition Guide
+Endgame = the point where your permanent upgrades (perks, skills, gear) make deep, fast, profitable runs the default. The developer (solo dev Dante Knoxx of Gloom Box) has committed to a multi-year content roadmap, so true endgame content may arrive later — but as of August 2026, the loop *is* the endgame.
 
-| Role | Perks Needed | Best Gear | Notes |
-|------|--------------|-----------|-------|
-| Tank | Damage Reduction, Taunt | Runed Armor set | Frontlines the Deep King and Magma Titan |
-| DPS | Crit Chance, Attack Speed | Mythic pickaxe / twin axes | Bursts during boss stun windows |
-| Support | Healing Aura, Debuff | Emerald gear set | Heals the party between hazard phases |
-| Utility | Speed, Trap Expertise | Assassin gear | Handles mechanics: switches, bombs, pillars |
+## The Endgame Loop, Optimized
 
-### Preparation Checklist
+### 1. Upgrade Sequencing (Confirmed Themes)
 
-1. Reach the recommended depth at least once before queuing — raid scaling uses your best floor.
-2. Bring a full repair kit per player plus one spare per player on the Vault/Halls.
-3. Stock healing consumables: 6 health potions and 3 antidotes minimum.
-4. Assign roles in the lobby: tank, DPS, support, utility. Unassigned teams wipe on the Deep King.
-5. Memorize the extraction route behind the boss arena before engaging.
+The official materials confirm three upgrade themes: **hit harder, move faster, carry more loot.**
 
-### Raid Loot Priorities
+| Endgame Goal | Confirmed Theme | Priority |
+|--------------|----------------|----------|
+| Profit per hour | Carry more loot | Highest — extraction value scales with capacity |
+| Speed | Move faster | High — run time is the real cost of every loop |
+| Depth | Hit harder | Medium — faster mining and combat clears |
+| Safety | Gear customization | Continuous — "every piece of gear can be upgraded and customized to your playstyle" |
 
-- **Royal Ore:** Core material for tier 6 gear enhancement — always pick it up first.
-- **Molten Core:** Required for the Forgehammer, the best fire-typed weapon.
-- **Vault Relic:** Grants a permanent +5% mining speed passive.
-- **Halls Shard:** Respec token material; worth more than raw gold.
+### 2. The Deep Run Pattern
+
+Endgame runs follow a confirmed-consistent pattern:
+
+1. **Descend fast** — you know the loop now; don't waste the early game
+2. **Go for relics** — "long-lost relics" are the confirmed endgame prize (unique perks + quarters decoration)
+3. **Rail the heavy ores** — minecarts are confirmed to "shift and store those heavy ores for you"; endgame is about hauling, not dribbling ore back one pocket at a time
+4. **Extract on schedule** — the elevator leaves whether you're on it or not; the collapse is permanent
+
+### 3. Relic Hunting as the Endgame Chase
+
+Relics are the only named high-value category in official materials. Endgame priorities:
+
+- **Bank every relic** — a relic in hand should end your run's exploration
+- **Relics unlock** unique perks and quarters decorations (confirmed)
+- **Relic hunting drives depth** — the game's own premise: deeper = richer haul, farther from safety
+
+### 4. Quarters as the Endgame Hub
+
+Your dwarven quarters are confirmed endgame infrastructure: "Everything from carpets to furnishings to wall art!" — and press materials add that some furnishings "may have gameplay consequences beyond cosmetics."
+
+Endgame angle: quarters customization isn't just cosmetic in the long run. Decorations with mechanical effects are the kind of detail community testing rewards.
+
+## Endgame Preparation Checklist
+
+- [ ] Battlemallet upgraded (mining + combat efficiency)
+- [ ] Lantern/floodlight upgrades (darkness defense)
+- [ ] Carry capacity upgraded (confirmed "carry more loot" theme)
+- [ ] Minecart rail plan (heavy ore logistics)
+- [ ] Perk/skill purchases aligned with your playstyle (confirmed: buy with coin from refined ore)
+- [ ] Quarters set up; watch for functional furnishings
+- [ ] Retreat threshold discipline — endgame players still extract
+
+## What Would Change This Guide
+
+This page updates when any of these happen:
+
+1. The developer announces raid or boss content (roadmap, Steam news)
+2. Verified community data documents named endgame encounters
+3. Reviews/patches add new systems (the game is at 32% positive on ~25 reviews as of early August 2026 — expect rapid changes; the developer is actively responding to feedback)
+
+## Honest FAQ
+
+**How long is Dwarf Delve's endgame?** No official data. Community reports of run lengths are scarce and unverified.
+
+**Is there anything to do after maxing upgrades?** As of August 2026, no confirmed content beyond the loop itself. The roadmap suggests growth over time.
+
+**Do I need a team for endgame?** No — Dwarf Delve is single-player only. There is no co-op or multiplayer (confirmed by the Steam store listing).
+
+**Is endgame worth it now?** Reviews (Mostly Negative, small sample) say the foundations are solid but rough around the edges. If you enjoy loop-based extraction games, the endgame is the loop running well; if you want structured raid content, wait for the roadmap to deliver.
 
 ### Related Guides
 
-- [Boss Farming Guide](/guides/boss-farming) — Standard boss routes and respawns
-- [Best Gear & Equipment Guide](/guides/best-gear-equipment-guide) — Gear needed before raiding
-- [Extraction Guide](/guides/extraction-guide) — Surviving the run back after raid bosses
-- [Mining Strategies Guide](/guides/mining-strategies-guide) — Maximizing loot during raid runs
-- [Co-op Guide](/guides/coop-guide) — Playing Dwarf Delve with friends
+- [Boss Farming Guide](/guides/boss-farming) — What we know about bosses (honestly: not much yet)
+- [Best Gear & Equipment Guide](/guides/best-gear-equipment-guide) — Gear needed for deep runs
+- [Extraction Guide](/guides/extraction-guide) — Surviving the run back
+- [Mining Strategies Guide](/guides/mining-strategies-guide) — Maximizing loot during runs
+- [Meta-Progression Guide](/guides/meta-progression-guide) — The carry-over economy

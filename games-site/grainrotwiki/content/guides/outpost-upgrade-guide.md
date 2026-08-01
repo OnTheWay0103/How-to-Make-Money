@@ -1,113 +1,91 @@
 ---
-title: 'Outpost Upgrade Guide — Base Building & Progression in Grain Rot'
-description: 'Complete Outpost upgrade guide for Grain Rot. Every room unlock requirement, interactive furniture, rescued survivor, stat upgrade, and the optimal upgrade order for maximum progression efficiency.'
+title: 'Outpost Upgrade Guide — Progression & What to Upgrade First'
+description: 'Grain Rot Outpost progression explained honestly: the confirmed hub systems — constructs, stat upgrades, rescued survivors, upgradeable rooms — and sensible upgrade priorities before verified data exists.'
+category: 'Guides'
+version: 'Pre-release'
+updated: '2026-08-01'
 keywords: ['grain rot outpost', 'grain rot base building', 'grain rot upgrades', 'grain rot progression', 'grain rot outpost guide']
-updated: '2026-07-24'
+related: ['base-building', 'crafting-resources-guide', 'beginner-guide', 'game-mechanics-systems-guide', 'co-op-guide']
 ---
 
-# Outpost Upgrade Guide — Base Building & Progression
+# Outpost Upgrade Guide — Progression & What to Upgrade First
 
-Your **Outpost** is your sanctuary between runs — a persistent base where you spend extracted resources to unlock new vessels, constructs, stat upgrades, and survivors. Upgrading efficiently is the key to tackling deeper layers. This guide covers every upgrade and the optimal unlock order.
+Your **Outpost** is the persistent hub between runs — the place where extracted loot becomes permanent power. This guide explains what is confirmed about Outpost progression and gives honest upgrade priorities, with a clear warning: **specific room names, upgrade costs, and unlock trees are not officially documented before launch.** Any guide with precise gold/wood costs and level tables is fabricating data.
 
-## Outpost Overview
+## What the Outpost Is (Confirmed)
 
-The Outpost is a hub area you return to between extraction runs. Resources and gold you extract are spent here to permanently improve your capabilities. Everything you unlock in the Outpost carries forward into future runs.
+From the official Steam page:
 
-## Outpost Rooms & Upgrades
+- "Everything you haul back rebuilds your Outpost."
+- It improves "your chances for the next run" — Outpost progression directly powers in-run capability.
+- Confirmed unlock categories: **interactive furniture**, **stat upgrades**, and **rescued survivors**.
+- The demo confirms **upgradeable Outpost rooms** — the hub has room-based progression.
 
-### 1. Workshop (Core Crafting)
+## The Confirmed Upgrade Categories
 
-The Workshop is where you unlock most constructs and vessel options.
+### 1. Constructs (Weapons, Tools & Utilities)
 
-| Level | Cost | Unlocks |
-|-------|------|---------|
-| **Lv.1** | 500 Gold, 50 Wood | Reinforced Hauler vessel, Grinder's Friend vessel, Noise Maker construct, Barricade Kit capacity +1 |
-| **Lv.2** | 1,200 Gold, 100 Wood, 20 Iron | Whisper-Wood Scout vessel, Spark Beacon construct, carry capacity +10% |
-| **Lv.3** | 2,500 Gold, 200 Wood, 50 Iron, 10 Crystal | Splinter-Skin Runner vessel, Loot Magnet construct, Barricade Kit capacity +1 |
-| **Lv.4** | 5,000 Gold, 400 Wood, 100 Iron, 25 Crystal | Spark Jumper vessel, Grappling Hook construct, carry capacity +15% (total +25%) |
+The demo contains **20+ unlockable constructs** — the game's arsenal. Construct unlocks are the most direct power: new options for combat, resource conversion, and escape.
 
-**Priority**: ⭐⭐⭐⭐⭐ — Upgrade this first.
+**Priority logic:** constructs solve in-run problems. Unlock broadly early (options), then deep (power).
 
-### 2. Forge (Weapons & Combat)
+### 2. Stat Upgrades
 
-The Forge unlocks weapons and combat-focused vessels.
+Confirmed to exist. Stat upgrades are permanent, run-agnostic power — they improve every descent from now on.
 
-| Level | Cost | Unlocks |
-|-------|------|---------|
-| **Lv.1** | 800 Gold, 50 Iron | Reinforced Mallet construct, Rusty Blade damage +20% |
-| **Lv.2** | 1,500 Gold, 100 Iron, 30 Crystal | Splinter-Bow construct, all melee damage +10% |
-| **Lv.3** | 3,000 Gold, 200 Iron, 60 Crystal, 10 Obsidian | Ironbark Guardian vessel, weapon durability +25% |
-| **Lv.4** | 6,000 Gold, 400 Iron, 120 Crystal, 25 Obsidian | Ember-Kissed Vessel, Fire Bomb damage +30% |
+**Priority logic:** stats compound. Anything that improves survival (durability, speed, carry capacity) pays every single run.
 
-**Priority**: ⭐⭐⭐⭐ — Upgrade after Workshop Lv.2.
+### 3. Rescued Survivors
 
-### 3. Alchemy (Consumables & Corruption)
+"Rescue survivors trapped in the Deep Layers" is official. Survivors are Outpost inhabitants — likely vendors or service providers (details TBD).
 
-The Alchemy room handles consumables and corruption resistance.
+**Priority logic:** survivors are gated behind depth, so they're naturally mid-to-late game. Worth chasing when you can reach them.
 
-| Level | Cost | Unlocks |
-|-------|------|---------|
-| **Lv.1** | 600 Gold, 30 Herbs | Healing Salve construct, Fire Bomb construct |
-| **Lv.2** | 1,200 Gold, 60 Herbs, 20 Crystal | Rot-Touched Vessel, consumable capacity +1 |
-| **Lv.3** | 2,500 Gold, 120 Herbs, 50 Crystal, 10 Essence | Rot Purge Flask construct, corruption resistance +15% |
+### 4. Interactive Furniture & Rooms
 
-**Priority**: ⭐⭐⭐ — Get Lv.1 early, then prioritize Workshop and Forge.
+"Tactical carpentry with interactive furniture" and "upgradeable Outpost rooms" are confirmed. The hub itself is a build space, not just a menu.
 
-### 4. Cosmetic Workshop (Vanity)
+**Priority logic:** room upgrades presumably gate other unlocks (constructs, stats, survivors). Expect to invest here constantly.
 
-Unlocks cosmetic options and the Shiny Showcase vessel.
+### 5. Cosmetics
 
-| Level | Cost | Unlocks |
-|-------|------|---------|
-| **Lv.1** | 300 Gold, 20 Wood | Basic hat options, vessel paint colors |
-| **Lv.2** | 800 Gold, 50 Wood, 20 Essence | Shiny Showcase vessel, rare cosmetic drops enabled |
+"Questionable cosmetics" — hats, paints, and looks. Confirmed to exist, zero gameplay impact.
 
-**Priority**: ⭐ — Purely cosmetic. Save for last.
+**Priority logic:** last. Fun, not functional.
 
-### 5. Survivor Quarters (NPCs)
+## Honest Upgrade Priorities
 
-Rescued survivors appear here and offer unique services.
+Without verified costs, the confirmed mechanics still dictate a sensible order:
 
-| Survivor | Rescue Location | Service |
-|----------|----------------|---------|
-| **The Cartographer** | Biome 2, hidden room | Reveals partial map at the start of each run |
-| **The Tinkerer** | Biome 3, boss arena | Repairs damaged constructs between runs (50% cost) |
-| **The Alchemist** | Biome 1, secret alcove | Free Rot Purge Flask at the start of each run |
-| **The Merchant** | Random encounter | Sells rare constructs for gold between runs |
+1. **Constructs that solve your biggest problems.** On day one, that's survivability and resource conversion.
+2. **Stat upgrades.** Permanent, run-agnostic, compounding.
+3. **Room upgrades.** They're the gate to everything else (per the demo's upgradeable rooms).
+4. **Survivors.** Deep-layer rewards with likely service value.
+5. **Cosmetics.** When the economy can afford it.
 
-**Priority**: ⭐⭐⭐⭐ — Rescue survivors as soon as you find them. The Cartographer and Alchemist are game-changers.
+The old version of this guide recommended a specific sequence — "Workshop Lv.1 → Forge Lv.1 → Alchemy Lv.1" — based on unverified room names and costs. Ignore any such sequence until verified post-launch data exists.
 
-## Stat Upgrades
+## Demo Progression: What to Expect
 
-Available at the Training Ground (unlocked after Workshop Lv.1):
+- The demo's Outpost is a **sample** of the system: upgradeable rooms, constructs to unlock, and a taste of the loop.
+- **Demo costs are not launch costs.** Demos are tuned to be generous; the full game will take longer.
+- **Demo progress will (almost certainly) not carry over.** Treat demo progression as practice.
 
-| Upgrade | Max Level | Cost Per Level | Effect |
-|---------|-----------|---------------|--------|
-| **Durability** | 10 | 200 → 2,000 Gold | +5% vessel HP per level |
-| **Speed** | 10 | 200 → 2,000 Gold | +3% movement speed per level |
-| **Carry Capacity** | 10 | 300 → 3,000 Gold | +8% carry weight per level |
-| **Corruption Resist** | 5 | 500 → 2,500 Gold | +5% corruption resistance per level |
+## Co-op and the Outpost
 
-## Optimal Upgrade Order
+The Outpost is a shared project in co-op: everyone's extractions feed the same hub (exact sharing rules TBD). Practical implications:
 
-### Phase 1: Early Game (Runs 1-10)
-1. Workshop Lv.1 → Unlock Reinforced Hauler
-2. Alchemy Lv.1 → Unlock Healing Salves
-3. Durability +2 → Survive longer
-4. Forge Lv.1 → Unlock Reinforced Mallet
-5. Carry Capacity +2 → Extract more loot per run
+- **Coordinate spending.** A team that spends in sync (all funding the same unlocks) progresses faster than one that splits gold across every option.
+- **Designate a plan.** Agree on the upgrade path before descending, so resources don't scatter.
+- **The Keeper banks for everyone.** Loot extracted is loot shared — protect the player carrying it.
 
-### Phase 2: Mid Game (Runs 10-30)
-6. Workshop Lv.2 → Whisper-Wood Scout + carry capacity
-7. Forge Lv.2 → Splinter-Bow
-8. Workshop Lv.3 → Loot Magnet
-9. Alchemy Lv.2 → Rot-Touched Vessel
-10. Speed +3 → Faster looting and escape
+## After Launch
 
-### Phase 3: Late Game (Runs 30+)
-11. Forge Lv.3 → Ironbark Guardian
-12. Alchemy Lv.3 → Rot Purge Flask
-13. Rescue all survivors
-14. Workshop Lv.4 → Spark Jumper + Grappling Hook
-15. Forge Lv.4 → Ember-Kissed Vessel
-16. Max all stat upgrades
+On August 7 we'll replace this framework with verified data: real room names, costs, unlock trees, and an evidence-based upgrade order. Until then, the honest priorities above are the best available strategy.
+
+## Related Guides
+
+- [Base Building Guide](/guides/base-building) — what the Outpost is and isn't
+- [Crafting & Resources Guide](/guides/crafting-resources-guide) — what to haul back and convert
+- [Beginner Guide](/guides/beginner-guide) — the loop the Outpost sits at the end of
+- [Game Mechanics & Systems Guide](/guides/game-mechanics-systems-guide) — how meta-progression fits

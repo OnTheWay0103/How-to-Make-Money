@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Contact Us',
-  description: 'Contact Skills The Mound Wikiamp; Raids Wiki — get in touch for questions, corrections, or feedback.',
+  description: 'Contact the Skills & Raids Wiki — get in touch for questions, corrections, or feedback.',
 };
 
 export default function ContactPage() {

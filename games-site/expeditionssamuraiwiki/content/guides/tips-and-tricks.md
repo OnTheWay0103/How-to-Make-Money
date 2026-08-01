@@ -27,7 +27,7 @@ The single biggest skill ceiling in the game is the **setup phase** — everythi
 
 Expeditions games are resource games wearing RPG clothes. In Act One, supplies are the real difficulty knob:
 
-- **Heal injuries early and often.** An untreated injury is a compounding debuff — and in a game where "keeping party members alive" is an explicit design pillar, injuries can end runs.
+- **Heal injuries early and often.** An untreated injury is a compounding debuff — and in a game where losing a party member can cost you their entire story, injuries can end runs.
 - **Steal and negotiate before buying.** Your diplomacy pillar earns discounts and freebies; your stealth pillar earns loot.
 - **Craft, don't hoard.** Materials do nothing sitting in storage — crafted gear is the Act One endgame.
 - **Tune the knobs honestly.** Combat and resource management difficulty are separate sliders. If resources stress you out, ease that slider and keep combat spicy — or vice versa.
@@ -51,7 +51,7 @@ Dialogue is confirmed to draw on character skills (and in co-op, **both characte
 
 ## Companion Management: Loyalty Is a Currency
 
-"Loyalty is worth more than gold" is the official tagline — spend it wisely:
+"Earn their trust and an ally becomes a friend — or something more" is the official trailer line — spend your trust wisely:
 
 - **Rotate companions through missions** to progress all 8 personal quests.
 - **Personal quests are time-sensitive to story chapters** in the series' tradition — don't leave them for the end of Act One.
@@ -63,17 +63,17 @@ Dialogue is confirmed to draw on character skills (and in co-op, **both characte
 - **Two weapon families minimum.** "Leverage weapon skills to tackle diverse enemy types" is the game telling you matchups are real — carry a secondary family.
 - **Weapon skills reward focus.** Mastery comes from use; your crafted gear should match your mastered families.
 - **Mobility beats armor.** In the simultaneous combat system, positioning is king — don't armor-tank your whole party.
-- **Grenades are a cheat code** for clustered enemies — craft them.
+- **Grenades are a cheat code** for clustered enemies — stock up when you find them.
 
 ## World Map Mastery
 
-- **45+ levels, 100+ events, quests in any order.** The map is your ally — you can never be hard-locked out of progress.
+- **45+ levels, 100+ events, quests in any order** (promised for the full release). The map is your ally — you can never be hard-locked out of progress.
 - **Events are supply engines.** Run easy events when your stores are low.
 - **The map is faction territory.** Where you go and who you help there shapes your political standing heading into Sekigahara.
 
 ## Difficulty: Use the Knobs
 
-The confirmed customization is one of the most underrated features: combat and resource management tune **independently**. Play the game you want:
+Difficulty customization is one of the most underrated features — press coverage describes combat and resource management tuning **independently** (exact options TBD at launch). Play the game you want:
 
 - **Story-forward players:** ease resource pressure, keep combat at a level that engages you.
 - **Tacticians:** crank combat, ease resources, focus purely on the battlefield.

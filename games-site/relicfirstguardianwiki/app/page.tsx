@@ -4,21 +4,21 @@ import JsonLd from '@/components/JsonLd';
 import GuideCard from '@/components/GuideCard';
 
 const FEATURED_GUIDES = [
-  { title: 'Beginner Guide — Getting Started', description: 'New to The Relic: First Guardian? Learn the basics — choose your first weapon, understand the rune system, and survive your first hours in Arsiltus.', slug: 'beginner-guide', category: 'Beginner', updated: '2026-07-28' },
-  { title: 'Weapons Guide — All 5 Families', description: 'Complete breakdown of Sword & Shield, Dual Daggers, Sword, Two-Handed, and Staff. Each with 12 skill trees — find your playstyle.', slug: 'weapons-guide', category: 'Weapons', updated: '2026-07-28' },
+  { title: 'Beginner Guide — Getting Started', description: 'New to The Relic: First Guardian? Learn the basics — choose your first weapon, understand the relic system, and survive your first hours in Arsiltus.', slug: 'beginner-guide', category: 'Beginner', updated: '2026-08-01' },
+  { title: 'Weapons Guide — All 5 Families', description: 'Complete breakdown of Sword & Shield, Longsword, Dagger, Two-Handed, and Battle Staff — and the 12 skill trees (two per family). Find your playstyle.', slug: 'weapons-guide', category: 'Weapons', updated: '2026-08-01' },
   { title: 'Best Builds — Top Builds for Every Weapon', description: 'Optimal rune combinations, artifact pairings, and skill tree synergies for maximum damage output across all 5 weapon families.', slug: 'builds-guide', category: 'Builds', updated: '2026-07-28' },
-  { title: 'Boss Guide — Strategies for Every Boss', description: 'Attack patterns, parry timing, and weapon matchups for 70+ unique bosses. Covers all early and mid-game encounters.', slug: 'boss-guide', category: 'Bosses', updated: '2026-07-28' },
-  { title: 'Runes & Memory Fragments Guide', description: 'All 70+ passive rune effects explained. Best runes for DPS, tank, and hybrid builds. Rune farming locations and combinations.', slug: 'runes-guide', category: 'Progression', updated: '2026-07-28' },
-  { title: 'Combat Guide — Mechanics Deep Dive', description: 'Stamina management, parry/dodge timing, skill cooldown optimization, and advanced combat techniques for soulslike veterans.', slug: 'combat-guide', category: 'Combat', updated: '2026-07-28' },
+  { title: 'Boss Guide — How to Fight the Brutals', description: 'The 70-80 Brutal boss fights, the parry-gate vs dodge-gate split, and the confirmed general strategies that win fights.', slug: 'boss-guide', category: 'Bosses', updated: '2026-08-01' },
+  { title: 'Runes & Relics Guide', description: 'The over-70 relic fragments that replace leveling. How relics work, slot unlocks via Shards of Awakening, and Relic Energy skills.', slug: 'runes-guide', category: 'Progression', updated: '2026-08-01' },
+  { title: 'Combat Guide — Mechanics Deep Dive', description: 'The confirmed combat economy: zero-stamina attacks, defense-only stamina, cooldown skills, and the generous parry window.', slug: 'combat-guide', category: 'Combat', updated: '2026-08-01' },
 ];
 
 const FAQ_ITEMS = [
-  { question: 'What is The Relic: First Guardian?', answer: 'The Relic: First Guardian is a Korean dark-fantasy soulslike action RPG developed by Project Cloud Games and published by Perp Games. Set in the ruined world of Arsiltus, you play as the last First Guardian tasked with recovering shattered relic fragments and sealing the encroaching Void. It launches July 31, 2026 on PC (Steam) and PS5 for $39.99.' },
-  { question: 'Is it single-player or multiplayer?', answer: 'The Relic: First Guardian is a single-player experience. There is no co-op or multiplayer mode — it is a traditional solo soulslike, focused on mastering combat and exploration alone.' },
-  { question: 'What are the weapon types?', answer: 'There are 5 weapon families: Sword & Shield (balanced defense), Dual Daggers (fast DPS), Sword (versatile), Two-Handed Weapon (heavy damage), and Staff (ranged magic). Each has 12 dedicated skill trees, allowing deep build customization.' },
-  { question: 'How does leveling work?', answer: 'There is no traditional leveling system. Character growth comes entirely from collecting memory fragments (runes) — 70+ unique passive effects that modify skills, combat behavior, and weapon performance. Every rune you find makes you stronger.' },
-  { question: 'How does stamina work?', answer: 'Attacks cost zero stamina. Stamina is reserved exclusively for dodging and blocking. Skills use cooldown timers rather than resource pools. This encourages aggressive play while maintaining defensive options.' },
-  { question: 'Is there a difficulty setting?', answer: 'The Relic: First Guardian is designed as a challenging soulslike experience. Early previews mention potential difficulty options, but the core experience is built around mastering combat mechanics, learning boss patterns, and strategic rune collection.' },
+  { question: 'What is The Relic: First Guardian?', answer: 'The Relic: First Guardian is a Korean dark-fantasy soulslike action RPG developed by Project Cloud Games and published by Perp Games. Set in the ruined world of Arsiltus, you play as the last Guardian tasked with recovering shattered relic fragments and sealing the encroaching Void. It released July 31, 2026 on PC (Steam) and PS5 for around $49.99.' },
+  { question: 'Is it single-player or multiplayer?', answer: 'The Relic: First Guardian is a single-player-only experience. There is no co-op or multiplayer mode — it is a traditional solo soulslike, focused on mastering combat and exploration alone.' },
+  { question: 'What are the weapon types?', answer: 'There are 5 weapon families: Sword & Shield (defensive), Longsword (balanced), Dagger / dual blades (fast), Two-Handed (heavy), and Battle Staff (skill-based). There are 12 skill trees total — two per weapon family — allowing deep build customization.' },
+  { question: 'How does leveling work?', answer: 'There is no traditional leveling system. Character growth comes entirely from collecting relic fragments (runes) — 70+ unique passive effects that modify skills, combat behavior, and weapon performance, plus Relic Energy used to buy skills in weapon skill trees.' },
+  { question: 'How does stamina work?', answer: 'Attacks cost zero stamina. Stamina is reserved exclusively for dodging, blocking, and parrying. Skills use cooldown timers rather than resource pools. This encourages aggressive play while maintaining defensive options.' },
+  { question: 'Is there a difficulty setting?', answer: 'No difficulty options are confirmed in the launch build. The challenge is managed through the game itself — exploring for relics, buying HP/stamina skill nodes, collecting potion shards, and adapting your build to each boss.' },
 ];
 
 export default function Home() {
@@ -34,10 +34,10 @@ export default function Home() {
         <p className="text-lg text-gray-400 max-w-xl mx-auto mb-2">
           Complete guide hub for the Korean dark-fantasy soulslike action RPG by Project Cloud Games.
         </p>
-        <p className="text-sm text-gray-600 mb-8">Launching July 31, 2026 — PC (Steam), PS5</p>
+        <p className="text-sm text-gray-600 mb-8">Released July 31, 2026 — PC (Steam), PS5</p>
         <div className="flex items-center justify-center gap-4">
           <a href="https://store.steampowered.com/app/2827820/The_Relic_First_Guardian/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-red-600 hover:bg-red-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors text-sm">
-            Wishlist on Steam
+            Buy on Steam
           </a>
           <Link href="/guides/beginner-guide" className="inline-flex items-center gap-2 border border-gray-600 hover:border-red-500 text-gray-300 hover:text-red-400 px-6 py-3 rounded-lg transition-colors text-sm">
             Start with Beginner Guide →

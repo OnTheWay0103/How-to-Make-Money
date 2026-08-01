@@ -2,16 +2,18 @@
 title: "Crafting & Professions Guide: All Materials, Recipes & Tips"
 description: "Complete Taival crafting and professions guide. Learn about profession types, material gathering, recipe unlocks, crafting stations, and best items to craft."
 category: "Crafting"
-updated: "2026-07-27"
+updated: "2026-08-01"
 ---
 
 # Crafting & Professions Guide: All Materials, Recipes & Tips
 
-> Early Access Version / Updated: July 27, 2026
+> Early Access Version / Updated: August 1, 2026
 
 Crafting and professions form the backbone of character progression in Taival. While your Henki handles shapeshifting and combat forms, your character levels up through hands-on activities — gathering resources, crafting equipment, and mastering professions. The crafting system in Taival is designed to complement exploration: the more biomes you discover, the more materials and recipes become available.
 
 This guide covers every profession type, how crafting works, where to find materials, and what to craft at each stage of the game.
+
+**Accuracy note (August 2026):** professions & crafting are confirmed Early Access systems, and fishing is explicitly named by the developer as a levelable skill. However, the specific stations, profession list, materials, and recipes below are community reports from launch and largely unconfirmed (TBD). Reviewers also note Taival deliberately downplays the traditional building/gear-crafting loop in favor of Henki progression — treat the details below as a roadmap for verification, not documentation.
 
 ---
 

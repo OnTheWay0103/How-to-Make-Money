@@ -1,155 +1,104 @@
 ---
-title: "Skills & Raids Solo Extraction Guide — Survive and Extract Alone"
-description: "Complete solo extraction guide for Skills & Raids. Learn loadout strategies, route planning, evasive combat tactics, and extraction point management for successful solo runs."
+title: "Skills & Raids Solo Play Guide — Commanding the Party Alone"
+description: "A complete guide to playing Skills & Raids solo. The game is single-player — this guide covers commanding Shelldon, Clawrk, and Owlivia, run planning, and survival tactics."
 category: "Guides"
-version: "Open Beta"
-updated: "2026-07-27"
-keywords: ["Skills & Raids solo extraction", "Skills & Raids extraction guide", "Skills & Raids solo loot", "Skills & Raids survival tips", "Skills & Raids solo build"]
-related: ["extraction-guide", "builds-guide", "skills-guide", "loot-guide", "beginner-guide"]
+version: "1.0"
+updated: "2026-08-01"
+keywords: ["Skills & Raids solo play", "Skills & Raids single player", "Skills & Raids run guide", "Skills & Raids survival tips", "Skills & Raids party command"]
+related: ["extraction-guide", "builds-guide", "skills-guide", "beginner-guide"]
 ---
 
-# Skills & Raids Solo Extraction Guide — Survive and Extract Alone
+# Skills & Raids Solo Play Guide — Commanding the Party Alone
 
-**Skills & Raids Open Beta / Updated: July 27, 2026**
+**Skills & Raids 1.0 / Updated: August 1, 2026**
 
-Solo extraction is the highest-risk, highest-reward playstyle in Skills & Raids. Without a team to cover your weaknesses, every decision matters. This guide covers loadout optimization, map navigation, engagement rules, and extraction strategies tailored for solo runners.
+**First, the correction most guides get wrong:** Skills & Raids is a **single-player game**. There is no multiplayer, no PvP, no "solo mode vs. squad mode," no contested extraction points, and no other players to camp or third-party you. "Solo" isn't a mode — it's the only way to play. You command the full party of three heroes (Shelldon the tank, Clawrk the DPS, Owlivia the healer) yourself, every run. That framing change matters, because the *skills* of good solo play here are command, planning, and risk management — not PvP awareness.
 
----
-
-## 1. Why Go Solo?
-
-Running extraction maps alone has distinct advantages and trade-offs.
-
-| Factor | Solo | Group Play |
-|--------|------|------------|
-| Loot Share | Keep 100% | Split among members |
-| Stealth | Excellent (one player only) | Poor (multiple footsteps, skills visible) |
-| Survivability | Low (no backup) | High (healing, covering fire) |
-| PvP Encounters | Avoid at all costs | Can fight back |
-| Extraction Speed | Fast (no coordination delays) | Slower (waiting for team) |
-
-**Best for:** Experienced players who prioritize loot volume over safety.
+This guide covers how to play the game well as its one and only player.
 
 ---
 
-## 2. Optimal Solo Loadout
+## 1. You Are the Whole Team
 
-### 2.1 Weapon Selection
+Because you control all three heroes, "team coordination" is really "your own planning." The advantage: perfect information, no communication lag. The cost: you must track everything yourself.
 
-| Weapon | Why It Works Solo | Recommended Skills |
-|--------|------------------|-------------------|
-| Dagger | High burst, fast disengage | Shadowstep, Backstab |
-| Bow | Safe range, kiting potential | Multi Shot, Trap Arrow |
-| Staff | AoE clear, zone control | Frost Nova, Teleport |
+**The three jobs you're doing simultaneously:**
 
-### 2.2 Consumables Checklist
+| Hero | Job | What You're Tracking |
+|------|-----|----------------------|
+| Shelldon | Tank | His mitigation uptime, aggro position, HP |
+| Clawrk | DPS | Ability cooldowns, resource pool, kill priority |
+| Owlivia | Healer | Party HP, status icons, her own safety |
 
-- **Healing Potions (x5 minimum):** Never enter without a full stack.
-- **Stealth Potion (x2):** Use to bypass dangerous chokepoints.
-- **Stamina Food:** Increases sprint duration for escape scenarios.
-- **Extraction Beacon:** One-use emergency extract point (rare but invaluable).
+**The practical fix for information overload:** use the pause mechanic. Combat is real-time, but pausing to read skill cooldowns, statuses, and descriptions is a confirmed feature — it exists precisely because you need to process the whole battle at your own speed.
 
 ---
 
-## 3. Map Navigation Strategy
+## 2. Run Planning (The Real "Solo Strategy")
 
-### 3.1 Route Planning
+Without other players, the interesting decisions are all in planning:
 
-Successful solo runs follow a predictable three-phase structure:
-
-| Phase | Objective | Time Budget | Danger Level |
-|-------|-----------|-------------|--------------|
-| 1 — Entry | Clear spawn area, loot nearby nodes | 0–5 min | Low |
-| 2 — Mid Zone | Push toward high-value loot rooms | 5–15 min | High |
-| 3 — Extraction | Move to extract point, avoid chokepoints | 15–20 min | Critical |
-
-### 3.2 Priority Loot Rooms
-
-Not all rooms are worth the risk. Target these for the best loot-to-danger ratio:
-
-| Room Type | Loot Value | Threat Level | Verdict |
-|-----------|-----------|-------------|---------|
-| Guard Barracks | Medium | Low | Safe, consistent |
-| Treasure Vault | Very High | Extreme | Skip without stealth items |
-| Supply Cache | High | Medium | Ideal solo target |
-| Boss Chamber | Variable | Extreme | Skip unless fully geared |
+1. **Check active quests first.** Quests (target objectives, resource collection, using specific abilities) are your progression — plan the run around them.
+2. **Review your collection.** Which two abilities does each hero carry this run? Does the loadout answer the quest's demands?
+3. **Pick the area.** With 5 biomes in the full game (2 in the demo), choose where the risk matches your party's power.
+4. **Set the extraction plan in advance.** Decide what "success" looks like before you deploy: quest complete? Specific resources banked? That stops mid-run greed.
 
 ---
 
-## 4. Engagement Rules for Solo Players
+## 3. Survival Tactics for the Lone Commander
 
-### 4.1 When to Fight
+### Protect Owlivia Above All
+The healer is the party's lifeline. Demo reviews documented two deadly scenarios:
+- A run where the only remaining character is a healer facing an enemy healer — an **infinite loop** of healing and weak swipes.
+- Enemy teams of two powerful healers plus a tank that were effectively **unbeatable** near the end of a run.
 
-- **Against monsters:** Fight only if the room is isolated and you confirm no other players are nearby.
-- **Against players:** Never initiate. Wait for them to engage a monster group, then extract while they are occupied.
-- **Boss encounters:** Skip entirely unless you have an extraction beacon placed nearby.
+**Tactical responses:** keep Owlivia positioned safely, field-heal her early, and always keep enough burst or damage-over-time pressure in the loadout to kill *through* enemy healing. Never let a run reach the point where your last hero is a lone healer.
 
-### 4.2 When to Run
+### Rotation Discipline
+With two abilities per hero, the discipline is simple: use the right ability at the right time. Setup abilities before payoff abilities (debuff → burst), keep mitigation rolling on Shelldon, and save the direct heal for when someone actually needs it.
 
-- **Third-party situation:** Two groups fighting nearby. Leave the zone immediately.
-- **Low health and no potions:** Do not push further. Head to extraction now.
-- **Extraction point campers:** Circle to the secondary extraction point or use stealth.
-
----
-
-## 5. Extraction Point Management
-
-Understanding extraction timing is critical for solo success.
-
-### 5.1 Extraction Point Types
-
-| Type | Location | Activation Time | Number Per Map | Safety Rating |
-|------|----------|----------------|----------------|---------------|
-| Primary | Marked on all maps | 10 seconds | 1 | Medium (expected) |
-| Secondary | Random spawn | 15 seconds | 1–2 | High (unexpected) |
-| Beacon | Player-placed | 5 seconds | Player limit | Very High |
-| Boss Room | After boss defeat | 20 seconds | 1 | Very Low |
-
-### 5.2 Extraction Timing Tips
-
-1. Never extract from the primary point at the 15-minute mark — that is when most players rotate toward it.
-2. Use secondary extraction points whenever possible. Most players only track the primary.
-3. If you hear fighting near the primary point, fall back and wait. Let them extract first, then take the next window.
-4. Save beacons for high-value runs where you have legendary loot on your character.
+### Bank Early, Push Carefully
+Anything not in the safe pocket is lost on a failed run (confirmed). Before any dangerous push: bank, heal in the field, then go.
 
 ---
 
-## 6. Solo Build Recommendations
+## 4. Builds That Suit the Solo Commander
 
-### 6.1 Stealth Runner Build
+Since you command everything, the best "solo" builds are the ones that reduce the amount of things you must react to:
 
-| Slot | Item | Skill | Purpose |
-|------|------|-------|---------|
-| Weapon | Dagger | Shadowstep | Quick engagement and escape |
-| Armor | Light Leather | Evasion | Reduced detection range |
-| Accessory | Camouflage Cloak | Stealth | Hide from player scouts |
+- **Sustain-heavy** (heal + HoT on Owlivia, self-sustain on Shelldon): forgives mistakes — the single-player king.
+- **Debuff Rush** (debuffs across Shelldon/Clawrk + burst): breaks the unbeatable healer+tank teams.
+- **Avoid all-damage** builds unless you're farming easy content — one bad roll and there's no safety net.
 
-### 6.2 Kite Farmer Build
-
-| Slot | Item | Skill | Purpose |
-|------|------|-------|---------|
-| Weapon | Bow | Multi Shot | Safe AoE clearing |
-| Armor | Medium Scale | Movement Speed | Kite mobs through chokepoints |
-| Accessory | Quiver of Wind | Trap | Slow pursuers |
+See the [Builds Guide](/guides/builds-guide) and [Character Guide](/guides/character-guide) for the full framework.
 
 ---
 
-## 7. Common Solo Mistakes
+## 5. Common Solo-Play Mistakes
 
-| Mistake | Why It Wipes Your Run | Fix |
-|---------|----------------------|-----|
-| Fighting every mob | Drains resources, attracts players | Run past non-essential packs |
-| Looting while visible | Easy sniper target | Close doors, use corners |
-| Late extraction | Campers are established | Leave by the 15-minute mark |
-| Full inventory greed | You die carrying everything | Extract when you have high-value items |
-| Ignoring sound cues | Footsteps, doors, skills all broadcast position | Use audio to track nearby players |
+| Mistake | Why It Hurts | Fix |
+|---------|-------------|-----|
+| Tunnel vision on Clawrk | Shelldon dies, Owlivia dies, run ends | Scan all three HP bars, not just the damage numbers |
+| Saving the heal "for emergencies" | People die with the heal off cooldown | Heal at half HP, not at 10% |
+| No plan before deploying | Mid-run greed takes over | Set success criteria before the run |
+| Ignoring the pause mechanic | You misjudge cooldowns and statuses in real time | Pause. Read. Decide. Unpause. |
+| Following "multiplayer meta" guides | Those describe a game that doesn't exist | This is single-player — plan accordingly |
+
+---
+
+## 6. The Mindset
+
+Skills & Raids is an unforgiving, run-based game in the spirit of Darkest Dungeon (per demo reviews), and its solo-dev pedigree means patches and balance changes come directly from feedback. Play it the way you'd play any good roguelike:
+
+- Each failed run is information, not a setback.
+- Every skill drop expands your build options.
+- Every quest completed makes the party stronger.
 
 ---
 
 ## Related Guides
 
-- [Extraction Guide](/guides/extraction-guide) — General extraction mechanics overview
-- [Builds Guide](/guides/builds-guide) — Full class builds for extraction
-- [Skills Guide](/guides/skills-guide) — Best skills for solo play
-- [Loot Guide](/guides/loot-guide) — What to prioritize looting
-- [Beginner Guide](/guides/beginner-guide) — Getting started with extraction basics
+- [Extraction Guide](/guides/extraction-guide) — the extraction loop and run survival
+- [Builds Guide](/guides/builds-guide) — build framework for the trio
+- [Character Guide](/guides/character-guide) — your three heroes in depth
+- [Beginner Guide](/guides/beginner-guide) — getting started

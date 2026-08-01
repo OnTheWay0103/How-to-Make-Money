@@ -1,86 +1,91 @@
 ---
-title: 'Tier List — Best Weapons, Builds & Dinosaurs in Dinoblade'
-description: 'Complete Dinoblade tier list. S-Tier to C-Tier rankings for all weapons, best builds for every playstyle, and which dinosaurs are hardest to fight.'
-keywords: ['dinoblade tier list', 'dinoblade best weapons', 'dinoblade best builds', 'dinoblade weapon ranking', 'dinoblade meta']
+title: 'Dinoblade Tier List — Soul Arts, Weapons & Dinosaurs (Verified Edition)'
+description: 'The honest Dinoblade tier list — ranked Soul Arts bought with Boss SP, confirmed weapons, and dinosaur difficulty, with clear notes on what is community opinion vs. verified.'
+keywords:
+  - dinoblade tier list
+  - dinoblade best soul arts
+  - dinoblade best weapon
+  - dinoblade weapon ranking
+  - dinoblade best build
+  - dinoblade meta
 category: Meta
 version: '1.0'
-updated: '2026-07-29'
+updated: '2026-08-01'
 related:
+  - soul-arts-guide
   - weapons-guide
   - builds-guide
   - boss-guide
 ---
 
-## Dinoblade Tier List
+## Dinoblade Tier List — Verified Edition
 
-> Based on the current meta as of July 2026. Rankings consider damage output, survivability, and versatility.
+Dinoblade launched July 23, 2026, and its meta is still forming. This tier list is built from **confirmed game systems** and clearly marks what is community opinion versus verified fact.
 
-## Weapon Tier List
+**Two rules for reading Dinoblade tier lists:**
 
-### S-Tier — Best in Class
-| Weapon | Type | Why S-Tier |
-|--------|------|-----------|
-| **Greatsword** | Heavy Slash | Highest damage per hit, hyper armor on charged attacks |
-| **Dual Blades** | Fast Slash | Best DPS in the game, perfect for status builds |
+1. **The parry is the meta.** Every build and every weapon in Dinoblade runs through the same loop: parry → fill Resolve → heavy finishing blow (or Instinct Counter on bosses). Tier lists change *how* you execute that loop, never the loop itself.
+2. **Ignore unsourced stats.** Any tier list printing base damage numbers, scaling grades, or "S-tier weapons" with names you can't verify is fabricated. The confirmed weapon set is small — see the [Weapons Guide](/guides/weapons-guide).
 
-### A-Tier — Strong Choices
-| Weapon | Type | Why A-Tier |
-|--------|------|-----------|
-| **Spear** | Pierce | Best range among melee, safe poking playstyle |
-| **War Axe** | Heavy Blunt | Excellent stagger potential, breaks dino armor fast |
-| **Longbow** | Ranged | Safest option, headshot bonus against large dinos |
+## Soul Arts Tier List (Confirmed Arts, Community-Ranked Effects)
 
-### B-Tier — Situational
-| Weapon | Type | Why B-Tier |
-|--------|------|-----------|
-| **Sword & Shield** | Balanced | Good for learning, outclassed by specialized weapons |
-| **Crossbow** | Ranged | Strong but slow reload, Longbow outclasses it |
-| **Club** | Blunt | Great stun but low range, hard against fast dinos |
+All five Soul Arts are bought with **Boss SP** after defeating Kira the Exile. Their exact effects are partially documented — the rankings below are **community consensus direction, not verified values**:
 
-### C-Tier — Niche
-| Weapon | Type | Why C-Tier |
-|--------|------|-----------|
-| **Throwing Knives** | Ranged | Low damage, best used only for status application |
-| **Fists** | Blunt | Meme tier — use only for challenge runs |
+| Tier | Soul Art | Reasoning |
+|------|----------|-----------|
+| **S** | **Meteor Dash** | Mobility tools carry every fight in this game — closing gaps and escaping pressure. Dash-type arts are the genre's safest "problem solver." |
+| **A** | **Survival Instinct** | Sustain arts reduce healing charge pressure — the hidden run-extender in boss gauntlets. |
+| **B** | **Alpha Roar** | Buffs reward confident play but do nothing when you're on the back foot. |
+| **B** | **Meteor Slice** | Damage is always useful, but Dinoblade's damage windows come from parries, not arts. |
+| **C** | **Meteor Zone** | Zone/area tools depend on the exact effect (still undocumented) — likely matchup-specific. |
 
-## Build Tier List
+**Buying order recommendation:** Meteor Dash first (mobility solves the most problems), then Survival Instinct or Alpha Roar depending on playstyle. Don't buy everything — Boss SP is finite per run. See the [Soul Arts Guide](/guides/soul-arts-guide).
 
-### S-Tier Builds
-- **Crit Greatsword** — Stack crit chance + crit damage. One-shot most medium dinos with charged attacks. Best boss killer.
-- **Status Dual Blades** — Apply poison + bleed simultaneously. Melts large HP pools. Best for Giganotosaurus.
+## Weapon Tier List (Confirmed Weapons Only)
 
-### A-Tier Builds
-- **Tank Spear** — High defense + safe poking. Near unkillable. Best for learning new bosses.
-- **Elemental Bow** — Fire/Ice arrows with elemental damage stacking. Flexible and safe.
+The confirmed arsenal is small and honest:
 
-### B-Tier Builds
-- **Parry Sword & Shield** — Counter-based build. Rewarding but requires perfect timing.
-- **Raw Damage Axe** — Full strength investment. Devastating when it hits, punished hard when it misses.
+| Tier | Weapon | Status |
+|------|--------|--------|
+| **S** | **The Greatsword** | Your confirmed primary — a colossal blade held in your Spinosaurus's jaws. Every guide, walkthrough, and official description centers on it. |
+| **A** | **The Flaming Sword** | The tutorial weapon you pick up at the start — confirmed as your opening tool. |
+| **B** | **Enemy weapons** (scythes, hammers, tridents) | Confirmed to exist in enemies' hands — but there is **no verified source** documenting them as obtainable player weapons. Treat "scythe build" claims as TBD. |
+| **C** | Kasei's greatsword (phase 2) | Confirmed in the final boss's hands; obtainability TBD. |
+
+**Everything else is TBD.** "Dual blades," "longbow," "crossbow," "war hammer," "claws," "spear" — none of these appear in verified Dinoblade coverage as player weapons as of August 2026. The [Weapons Guide](/guides/weapons-guide) tracks the confirmed list.
 
 ## Dinosaur Difficulty Tier List
 
-### S-Tier (Hardest)
-| Dinosaur | Why |
-|----------|-----|
-| Giganotosaurus | Faster than T-Rex, enrages, arena has hazards |
-| T-Rex | One-shot bite, massive HP, relentless aggression |
+Based on confirmed enemy types (see the [All Dinosaurs Guide](/guides/all-dinosaurs-guide)):
 
-### A-Tier (Very Hard)
-| Dinosaur | Why |
-|----------|-----|
-| Spinosaurus | Amphibious ambushes, hard to pin down |
-| Allosaurus | Relentless 3-hit combo, roar stun is dangerous |
+| Tier | Dinosaur | Why |
+|------|----------|-----|
+| **S** | **T-Rex** (the Ankylosaurus club fighter) | Massive damage, aggressive pressure, impossible to trade with. |
+| **A** | **Hammer-wielding dinosaurs** | Part 3 waves; reach + damage demand real parry skill. |
+| **B** | **Scythe/trident-wielding dinosaurs** | Reach weapons beat you in neutral — need fire-projectile spacing or dodge-throughs. |
+| **C** | **Raptor packs** | Individually trivial — the pack is the only threat. |
+| **D** | **The "larger enemy" (Part 1)** | Slow and telegraphed — pure parry practice. |
 
-### B-Tier (Moderate)
-| Dinosaur | Why |
-|----------|-----|
-| Triceratops | Predictable charge pattern, punishable |
-| Ankylosaurus | Slow, belly weak spot is exploitable |
-| Stegosaurus | Avoid the tail and it's manageable |
+## Build Tier List (Confirmed Frameworks)
 
-### C-Tier (Easy)
-| Dinosaur | Why |
-|----------|-----|
-| Raptors | Low HP, die to AoE |
-| Pterosaurs | Ground them and they're helpless |
-| Compies | Flee when leader dies |
+See the [Builds Guide](/guides/builds-guide) for full detail; the short version:
+
+| Tier | Framework | Why |
+|------|-----------|-----|
+| **S** | Parry-centric (Meteor Dash + Instinct Counter routing) | The game's confirmed core loop, maximized |
+| **A** | Defensive patient (Survival Instinct + block-first learning) | The most consistent way to clear bosses |
+| **B** | Spacing (Meteor Zone + charged fire projectiles) | Strong vs. reach weapons, weaker vs. bosses |
+| **C** | Ignore-the-parry builds | Playing Dinoblade without parrying is playing a worse game |
+
+## Meta Summary (July/August 2026)
+
+- **The parry is non-negotiable.** Perfect parries restore stamina and Resonance, fill Resolve bars, and trigger Instinct Counters. Everything else is garnish.
+- **Mobility > damage** for Soul Arts until the exact effects are documented.
+- **The confirmed weapon set is one greatsword plus the tutorial flame sword** — wait for verified weapon documentation before trusting any big tier table.
+
+## Related Guides
+
+- [Soul Arts Guide](/guides/soul-arts-guide) — The five confirmed arts and buying order
+- [Weapons Guide](/guides/weapons-guide) — The confirmed arsenal
+- [Builds Guide](/guides/builds-guide) — Playstyle frameworks
+- [Boss Guide](/guides/boss-guide) — What the meta must beat

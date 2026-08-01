@@ -1,154 +1,116 @@
 ---
-title: 'Graphite Campaign Walkthrough — Complete 4-Act Day-by-Day Guide'
-description: 'Complete campaign walkthrough for Graphite covering all 4 acts. Day-by-day strategy, tarot event choices, when to push story vs explore, and act-specific tips for the tactical roguelike RPG.'
-keywords: ['Graphite walkthrough', 'Graphite campaign guide', 'Graphite 4 acts', 'Graphite day by day', 'Graphite story guide', 'Graphite tarot events', 'Graphite act 1', 'Graphite act 2', 'Graphite act 3', 'Graphite act 4']
+title: 'Graphite Campaign Walkthrough — Run Structure and Act 1 Demo Walkthrough'
+description: 'How Graphite runs are structured, plus an honest Act 1 demo walkthrough: run flow, timeline combat, Break system, artifact stacking, and tarot event priorities. Full-game act structure is not yet confirmed.'
+keywords: ['Graphite walkthrough', 'Graphite campaign guide', 'Graphite act 1', 'Graphite demo walkthrough', 'Graphite run guide', 'Graphite how to play', 'Graphite tarot events']
 category: Guides
 version: '1.0'
-updated: '2026-07-29'
+updated: '2026-08-01'
 related:
-  - tier-list
+  - beginner-guide
+  - graphite-demo-guide
   - tips-tricks
-  - how-to-unlock-heroes
   - tarot-events-guide
+  - boss-guide
 ---
 
-## Overview
+## Overview — An Honest Walkthrough
 
-The Graphite campaign runs across **4 acts**, each lasting **15 in-game days**. You have exactly 60 days total to progress from Act 1 through the final Act 4 boss. Time is the scarcest resource — every day spent exploring, resting, or managing your party is a day you cannot replay. This walkthrough covers optimal day-by-day priorities, critical tarot event choices, and when to push the story versus when to explore for upgrades.
+Graphite is a pen-and-ink roguelike tactical RPG by RipRed, published by indie.io, launching July 27, 2026. This walkthrough covers the run structure that is confirmed and the playable content that exists: the free **Graphite: Act 1** demo. A day-by-day guide to the full campaign is **not possible yet** — the full act count, day structure, and campaign pacing have not been officially confirmed. Guides claiming "4 acts of 15 days" with named bosses are not sourced and should not be trusted.
 
-Each act ends with a major boss fight. Defeating the boss progresses the story and unlocks the next act. Your party carries over between acts, including all artifacts, bonds, and hero progression.
+What is confirmed about campaign structure:
 
----
+- The campaign is divided into **acts**, and the free demo covers the **entire first act** (~30 minutes per run)
+- Each act builds toward a **major confrontation**
+- The story's final threat is **Death**, and heroes gather strength and allies to face it
 
-## Act 1: The Awakening (Days 1-15)
+## How a Run Is Structured
 
-**Goal**: Establish your core party, unlock the Break combat system fully, and gather starting artifacts.
+Every run follows the same confirmed loop:
 
-### Days 1-3: Priority — Hero Acquisition
+1. **Choose a starting hero** — from 7 in the full game, 4 in the demo. Your choice changes story events and progression.
+2. **Progress through procedurally generated encounters** — enemies are randomly generated, get stronger over time, and can eventually use items.
+3. **Level up between battles** — spend points to upgrade chosen skills and steer your build.
+4. **Draw from the tarot adventure deck** — illustrated event cards present branching, narrated choices shaped by your party, items, and prior decisions.
+5. **Face the act's major confrontation** — then the run (or act) concludes.
 
-Your first three days should focus entirely on **unlocking your second and third heroes**. Start with whatever hero the game gives you (typically the Warrior). Spend your early adventure deck draws prioritizing Camp encounters — use camp abilities repeatedly to build Friendship with locked heroes (see our [How to Unlock All Heroes](/guides/how-to-unlock-heroes) guide for exact thresholds).
+## Act 1 Demo Walkthrough — Run Flow
 
-**Key decisions in Act 1**:
-- **Day 1 event — "The First Embers"**: Choose **Investigate the ruins** over Scout the perimeter. The ruins contain a guaranteed Common artifact that provides a significant early power spike.
-- **Day 5 event — "Wandering Merchant"**: Always buy from the merchant if you have the resources. Merchants in Act 1 sell Uncommon artifacts that will not appear again until Act 2.
-- **Day 8 event — "The Locked Chest"**: If your party has a Rogue or Tamer, pick them for the lockpicking check. Success grants a Rare artifact. Without them, the chest is a trap.
+The demo is the full first act, so a complete run looks like this:
 
-### Days 4-10: Exploration Phase
+### 1. Hero Selection
 
-Once you have 3 heroes, pivot to **exploration and artifact acquisition**. Prioritize locations that offer:
-- **Artifact nodes** (sparkling icons on the map) — these are your primary power source
-- **Combat encounters** with new enemy types — learn their Break patterns early
-- **Camp sites** — not just for healing but for continuing bond-building with locked heroes
+Pick your starter from the demo's 4 heroes. Of those, **The Knight** (shield-based, exploits Break, significant damage) and **The Mage** (offensive spells plus defensive support) are confirmed. The Knight is the recommended first pick — the shield teaches the Break system safely.
 
-**Act 1 boss tip**: The Act 1 boss (The Hollow Knight) has a 4-hit combo with a predictable **Break window after the third hit**. Stack a single artifact that grants bonus damage during Break windows and the fight becomes straightforward.
+### 2. Early Encounters — Learn the Timeline
 
-### Days 11-15: Boss Preparation
+Your first fights introduce the combat system: a shared timeline where every action has a duration and multiple units act simultaneously. Priorities:
 
-Stop exploring by Day 12 at the latest. Spend Days 13-15:
-- Camping to heal the party to full
-- Using any remaining Camp abilities to raise bonds
-- Identifying and purging low-value artifacts (you have unlimited stacking but managing bonusses still matters)
+- **Read the timeline before every action** — you can see enemy wind-ups coming
+- **Practice Break on heavy attacks** — depleting Poise cancels scheduled actions and pushes the enemy down the timeline
+- **Mind the symmetry** — enemies can Break you too
 
----
+### 3. Build Your Stack — Artifacts and Skills
 
-## Act 2: The Crossing (Days 16-30)
+Between fights:
 
-**Goal**: Expand to 5-6 heroes, unlock advanced artifact combos, and prepare for the difficult Act 2 boss.
+- **Spend skill points** after level-ups — committed builds outperform hoarded points
+- **Stack artifacts without limit** — duplicated effects compound; the demo offers 50 stackable artifacts
+- **Watch the arms race** — enemies pick up artifacts during encounters and scale, so dragging fights out is risky
 
-### Days 16-20: New Hero Integration
+### 4. The Tarot Adventure Deck
 
-Act 2 unlocks access to **Bard, Mage, and Tamer** (depending on which you have not yet unlocked). Spend the first 3-5 days of Act 2 filling your roster. A full 6-hero party gives you maximum flexibility for tarot event draws and combat positioning.
+The deck's 15 demo events are the narrative and loot engine. Practical notes:
 
-**Critical Act 2 event — "The Forgotten Archive" (Day 19-22 range)**:
-- This is the most important event in Act 2. It offers a choice between **+3 permanent party damage** or a **Legendary artifact chest**.
-- **Take the Legendary artifact chest**. A well-timed Legendary artifact transforms your entire run far more than +3 damage.
+- Choices are **branching** — illustrated, narrated, choose-your-own-adventure style
+- Outcomes respond to **party composition, items, and prior decisions** — the same card can play differently across runs
+- Event rewards feed directly into your artifact stack, so engaging events is usually the right call
 
-### Days 21-26: Deep Exploration
+### 5. The Act 1 Confrontation
 
-With a full party, push into the harder zones. Act 2 introduces:
-- **Elite enemies** with Break bars that require multi-hero coordination
-- **Tarot card modifiers** on enemy groups (these multiply rewards)
-- **Bond events** that trigger when two heroes reach Friendship 20+ simultaneously
+The act ends with its major fight. Prepare by:
 
-**Recommended artifact priority in Act 2**: Focus on artifact bonusses that trigger **on Break activation**. The Break system is the core of Graphite's combat (see our [Advanced Tips & Tricks](/guides/tips-tricks) guide for Break mastery techniques). Artifacts that grant extra actions on Break are S-tier.
+- Arriving with a committed build (skills spent, artifacts stacked deliberately)
+- Practicing Break timing on the fight's heavy actions
+- Bringing the artifact loadout you understand, not the one you hoarded
 
-### Days 27-30: Act 2 Boss
+## General Priorities for Any Run
 
-The Act 2 boss (The Tidecaller) has two phases. Phase 1 is a standard Break-rotations fight. Phase 2 introduces **environmental hazards** — avoid them while maintaining your Break cycle. This boss heavily punishes single-hero teams. A full party of 5-6 heroes with decent artifact synergy makes this manageable.
+These priorities follow from confirmed mechanics and apply in the demo and full game alike:
 
----
+1. **Learn before you win.** Runs are short (~30 minutes in the demo). Every failed run teaches an event outcome, enemy pattern, or Break window.
+2. **Stack with intent.** Unlimited stacking means commitment beats hoarding.
+3. **Interrupt what matters.** Break is for powerful attacks, summons, and buffs — spend it on those, not on filler.
+4. **Play the story angle.** Starting heroes change story events; different heroes mean different runs. The game intends you to play as everyone eventually.
+5. **Respect the scaling.** Enemies grow stronger over time and use items — long delays make fights harder.
 
-## Act 3: The Descent (Days 31-45)
+## What Comes After Act 1 (Unconfirmed)
 
-**Goal**: Optimize your artifact loadout for maximum synergy, unlock any remaining heroes, and push tarot events aggressively.
+The following are not confirmed and will be updated after release:
 
-### Days 31-35: Artifact Synergy Check
+- Total number of acts in the campaign
+- Which heroes unlock in later acts and how
+- Late-game event and encounter pools
+- Whether demo progress carries into the full game
 
-Act 3 is where **artifact stacking decisions matter most**. By now you likely have 10-20 artifacts. Take the first few days to:
-- Review your artifact bonusses for stacking opportunities (e.g., multiple "+Damage on Break" effects)
-- Visit the **Mystic Forge** encounter (tarot event) to upgrade a Common artifact to Uncommon
-- Purge artifact bonusses that do not fit your team's playstyle
+The full game launches **July 27, 2026** with all 7 heroes. Price and final system requirements are TBD.
 
-### Days 36-42: Aggressive Event Pushing
+## Quick Reference
 
-Act 3 has the highest density of **high-reward tarot events**. Recommended priority:
-1. **"The Gauntlet"** — a combat gauntlet of 5 consecutive fights. The final reward is always a Legendary artifact.
-2. **"The Bonding Ritual"** — instant Friendship +15 for two heroes of your choice. Ideal for finishing stubborn unlocks.
-3. **"The Buried Vault"** — opens only if your party has a Hunter. Contains 3 Rare artifacts. Skip if you lack a Hunter.
+| Stage | What Happens | Confirmed? |
+|-------|--------------|------------|
+| Hero selection | 7 heroes full game / 4 in demo | Yes |
+| Timeline combat | Shared timeline, action durations, simultaneous units | Yes |
+| Break system | Poise depletion cancels actions; symmetric | Yes |
+| Leveling | Level up, spend points on skills after battles | Yes |
+| Artifacts | Unlimited stacking; enemies acquire artifacts | Yes |
+| Tarot deck | Branching narrated events; party-responsive | Yes |
+| Act structure | Demo = Act 1; full act count | Partial |
+| Boss details | Names/patterns | No |
 
-### Days 43-45: Act 3 Boss
+## Related Guides
 
-The Act 3 boss (The Shadow Council) is a **group fight** — 3 mini-bosses at once. You need strong AoE capabilities. The Monk's Break AoE and the Mage's AoE artifact synergies shine here. Target the healer mini-boss first, then the DPS, then the tank.
-
----
-
-## Act 4: The Reckoning (Days 46-60)
-
-**Goal**: Reach the final boss with maximum firepower and survive a grueling final encounter.
-
-### Days 46-50: Final Prep
-
-Do not waste days. You have exactly 15 days to reach the final boss. Follow this sequence:
-1. **Day 46**: Take any high-reward combat encounter immediately.
-2. **Days 47-49**: Clear a path toward the act's map objective. Skip exploration nodes unless they promise Rare+ artifacts.
-3. **Day 50**: Camp. Ensure the entire party is healed and every hero has their Break ability ready.
-
-### Days 50-55: Key Act 4 Events
-
-Act 4 has two make-or-break events:
-- **"The Final Pact"** (Day 52-54): Offers to sacrifice one hero permanently for a massive party-wide buff. **Do not take this** unless you are desperate. The hero loss widens your tarot event pool negatively and reduces combat flexibility for the final boss.
-- **"The Ascended Artifact"** (variable): A guaranteed Legendary artifact tailored to your party's strongest hero. Always take it.
-
-### Days 55-58: Approach the Final Boss
-
-The path to the final boss has **2-3 mandatory combat encounters**. These are challenging but winnable with a full party. Do not camp before each one — you lose too many days. Instead, rely on consumable heals and camp abilities.
-
-### Days 59-60: The Final Boss
-
-The final boss (The Graphite Throne) has **3 phases**:
-
-**Phase 1** (60% HP+): Standard Break fight. Build break meter with normal attacks, then unload on Break windows. Save your hero ultimates for Phase 2.
-
-**Phase 2** (30-60% HP): Boss gains a shield that reduces all damage by 50%. You must **Break through the shield** using specific hero abilities (Monk's Break-charge and Mage's mana Break are best). Once the shield drops, the boss is vulnerable for 2 turns.
-
-**Phase 3** (Below 30% HP): The boss enters a frenzy — every 2 turns it uses an attack that can one-shot a hero. You must kill it in 3-4 Break cycles. Stack every damage artifact you have. Use your highest-damage hero's ultimate first to trigger the phase, then follow with every remaining ultimate.
-
----
-
-## General Day Management Tips
-
-- **Never skip a Camp encounter** in the adventure deck. Camps are the only reliable way to heal, build bonds, and unlock heroes.
-- **Day counting**: Each action spends one day. Moving to a new zone, taking a combat encounter, or visiting a tarot event all count. Only Camp actions (without moving) do not advance the day.
-- **Act transitions**: When you defeat an act boss, you get **2 free camp days** before the next act starts. Use these to heal and rebuild bonds.
-- **Difficulty scaling**: The game's difficulty rises significantly between Acts 2 and 3. If you are struggling in Act 2, do not push into Act 3 — spend extra days farming encounters.
-
----
-
-## Quick Reference: Act Flowchart
-
-| Act | Days | Goal | Boss | Key Events |
-|-----|------|------|------|------------|
-| 1 | 1-15 | Unlock 3 heroes | Hollow Knight | First Embers, Wandering Merchant |
-| 2 | 16-30 | Unlock 5-6 heroes | Tidecaller | Forgotten Archive |
-| 3 | 31-45 | Artifact optimization | Shadow Council | Gauntlet, Bonding Ritual |
-| 4 | 46-60 | Final boss push | Graphite Throne | Final Pact, Ascended Artifact |
+- [Beginner Guide — First Run Tips](/guides/beginner-guide)
+- [Graphite Demo Guide — Act 1](/guides/graphite-demo-guide)
+- [Advanced Tips & Tricks](/guides/tips-tricks)
+- [Tarot Deck & Events Guide](/guides/tarot-events-guide)
+- [Boss Strategy Guide](/guides/boss-guide)

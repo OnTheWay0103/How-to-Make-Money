@@ -3,25 +3,25 @@ title: "Moonlight Peaks Quest Guide — Story Walkthrough & Quest Chains"
 description: "Moonlight Peaks story walkthrough: A Bridge Too Far, Tension in the Crest Garden, A Croak and A Crest, Mend it with Magic, the Blood Grapes quest, and how every quest chain unlocks the south map and Death."
 category: "Guides"
 version: "1.0"
-updated: "2026-07-31"
+updated: "2026-08-01"
 keywords: ["moonlight peaks quest guide", "moonlight peaks a bridge too far", "moonlight peaks death quest", "moonlight peaks story walkthrough"]
 related: ["beginner-guide", "mining-guide", "characters-guide"]
 ---
 
 # Moonlight Peaks — Quest Guide: Story Walkthrough & Chains
 
-> Launch Version / Updated: July 31, 2026
+> Launch Version / Updated: August 1, 2026
 
-Moonlight Peaks' story is a chain of quests that unlock the town in layers — each major quest opens new areas, characters, and systems. This guide walks through the early and mid-game quests in order: the **Blood Grapes / Blood Wine** introduction, **"Mend it with Magic"**, **"A Bridge Too Far"**, and the **Crest Garden** quest line, plus how everything connects to **Death**.
+Moonlight Peaks' story is a chain of quests that unlock the town in layers — each major quest opens new areas, characters, and systems. This guide walks through the early and mid-game quests in order: **Orlock's Wine Scheme**, **"Mend it with Magic"**, **"A Bridge Too Far"**, and the **Crest Garden** quest line, plus how everything connects to **Death**.
 
 ## Quest Overview: How Everything Chains Together
 
 | Quest | Giver / Location | Unlocks |
 |-------|------------------|---------|
-| **Blood Grapes / Blood Wine** | **Orlock** (early game) | Farming intro, first income |
-| **Mend it with Magic** | **Viktor** delivers the cauldron → **Fiona** | Cauldron + potion brewing |
-| **A Bridge Too Far** | **Fiona Webb** at **Moonlit Pines** | South map: **Misty Shores, Moonlight Tower, Ambrosia Graveyard, Ambrosia Mansion** — and the prerequisite for finding **Death** |
-| **Tension in the Crest Garden / A Croak and A Crest** | Town residents, meeting at **The Broken Lamp Inn** | Crest Garden resolution, **Ambrosia Graveyard cutscene with Death** |
+| **Orlock's Wine Scheme** | **Orlock** (Spring 1, first quest) | Farming intro, first income — gives Blood Grape seeds + shovel |
+| **Mend it with Magic** | Cauldron arrives from your **mother** → **Fiona** repairs it | Cauldron + potion brewing |
+| **A Bridge Too Far** | Starts after Orlock's Wine Scheme (Day 11); **Orlock** → **Mina** → **Fiona** → the witches | South map: **Misty Shores, Moonlight Tower, Ambrosia Graveyard, Ambrosia Mansion** — and the path to **Death** |
+| **Tension in the Crest Garden / A Croak and A Crest** | Town residents, meeting at **The Broken Lamp** | Crest Garden resolution, **Ambrosia Graveyard cutscene with Death** |
 
 The two big chain reactions to remember:
 
@@ -30,94 +30,108 @@ The two big chain reactions to remember:
 
 **Pro tip:** treat "A Bridge Too Far" as your first major milestone. Almost everything good in the mid-game — better fishing at Misty Shores, the mine estate, Death himself — sits behind that bridge.
 
-## Early Game: Blood Grapes and Blood Wine (Orlock)
+## Early Game: Orlock's Wine Scheme
 
-Your farming tutorial comes from **Orlock**, who tasks you with a two-step production chain:
+Your farming tutorial comes from **Orlock**, the first resident you meet, who tasks you with a production chain the moment you arrive:
 
-1. **Grow Blood Grapes** — plant, water, and harvest on your farm (see the Farming Guide for the moonlight mechanics).
-2. **Make Blood Wine** — process your harvested grapes into wine.
-3. **Deliver the Blood Wine to Orlock** to complete the quest.
+1. **Accept Orlock's Wine Scheme** — he hands you **Blood Grape seeds and a shovel** on Spring 1 and asks you to brew him wine.
+2. **Grow Blood Grapes** — a Spring/Summer multi-harvest crop: **5 nights to mature, then regrows every 4 nights** (see the Farming Guide for the moonlight mechanics).
+3. **Make Blood Grape Wine** — process your harvested grapes in a **Keg** (crafted from 10 Wood).
+4. **Deliver the wine to Orlock** to complete the quest.
 
 | Step | Task |
 |------|------|
-| 1 | Receive quest from Orlock |
-| 2 | Plant and grow **Blood Grapes** |
-| 3 | Process grapes into **Blood Wine** |
+| 1 | Receive quest from Orlock (seeds + shovel) |
+| 2 | Plant and grow **Blood Grapes** (5 nights + regrowth) |
+| 3 | Process grapes into **Blood Grape Wine** (Keg) |
 | 4 | Deliver wine to Orlock |
 
-**Pro tip:** this quest is your first test of the night-only schedule — grapes grow under moonlight and you can't speed time by sleeping. Plant the moment you accept the quest so you're not waiting nights for the harvest.
+**Pro tip:** this quest is your first test of the night-only schedule — grapes grow on night ticks and you can't speed time by sleeping. Plant the moment you accept the quest so you're not waiting nights for the harvest, and don't sell raw grapes — the wine is the point (360 Coins per bottle).
 
 ## Mend it with Magic
 
-- **Viktor** delivers your **mother's broken cauldron** to you.
-- Bring **Fiona** (coven leader at **Moonlit Pines**) **2 Mana Essences**.
-- Fiona repairs the cauldron and teaches you the **cauldron blueprint** plus your first recipe, the **Alter Ego Elixir**.
+- Your **mother's broken cauldron** arrives at your front door; **Viktor** points out it broke during travel.
+- Bring **Fiona** (coven leader at **Moonlit Pines**) **2 Mana Essences** — crafted at the **Mana Extractor** (unlocked by helping **Sabrina**) from magical crops.
+- Fiona repairs the cauldron, and from then on you brew at home with **recipes purchased from Sabrina** at the Web of Wonders.
 
 This quest is technically optional but functionally mandatory — the cauldron is the backbone of the money and romance economies (see the Potions Guide for the full breakdown).
 
 ## A Bridge Too Far: Unlocking the South Map
 
-This is the quest that changes your world:
+This is the quest that changes your world. It starts around **Day 11** (roughly Spring 10, Year 1) once **Orlock's Wine Scheme** is complete:
 
-1. **Talk to Fiona Webb at Moonlit Pines.**
-2. She tasks you with **lifting a curse on the bridge**.
-3. Complete her requirements to break the curse.
-4. The bridge reopens, unlocking the **south map**:
-   - **Misty Shores** — fishing and coastal foraging
-   - **Moonlight Tower**
-   - **Ambrosia Graveyard** — story location
-   - **Ambrosia Mansion** — the estate, which also contains the entrance to the first mine, the **Cave of Echoes** (see the Mining Guide)
+1. **Cutscene:** after finishing the wine quest, leave your farm — Orlock admits a rude comment he made got his bridge to Misty Shores **cursed by Fiona**.
+2. **Talk to Orlock at The Broken Lamp** — choose "Talk about apologising." He agrees — if you **pay off his bar tab** first (through Samael, the tavern owner; reported at **350 Coins**, reimbursed later).
+3. **Wait one day** — Orlock needs to prepare his apology.
+4. **Mina visits your house** — she tells you Orlock is ready and **reimburses the bar tab**.
+5. **Head to Moonlit Pines** — the cutscene triggers on arrival. Orlock apologizes, but Fiona admits she cast the curse *incorrectly* and needs help from three witches: **Noel, Luna, and Sabrina**.
+6. **Recruit the witches** — track down and speak to each one.
+7. **The Cursed Bridge** — a cutscene takes you there, the witches lift the curse together, and the path opens permanently.
 
-**Critical:** "A Bridge Too Far" is the **prerequisite for finding Death**. Until the bridge is fixed and the south map is open, Death stays unfindable, which locks his entire romance and story content.
+The bridge unlocks the **south map**:
+- **Misty Shores** — coastal fishing and foraging
+- **Ambrosia Graveyard** — story location (Death's introduction)
+- **Ambrosia Estate/Mansion** — the estate
+- **Moonlight Tower**
+- **Cave of Echoes** — the first mine, in the **southwest corner of Misty Shores** (see the Mining Guide)
 
-**Pro tip:** when Fiona's requirement involves items (like processed bars or foraged goods), read her dialogue carefully — the quest is designed so that a first-time player needs to visit the new area at least once to complete it, which is how the game teaches you the south map's layout.
+**Critical:** the bridge quest is the **gate to the mid-game**. It unlocks Misty Shores, the mine, the Crest Garden quest line, and the Ambrosia Graveyard — the road to **Death's story introduction**.
+
+**Pro tip:** if the quest stalls, you've missed a step: finish Orlock's Wine Scheme first, talk to Orlock both outside and inside The Broken Lamp, pay the tab, and speak to *all three* witches. Missing any one link leaves the bridge cursed.
 
 ## Tension in the Crest Garden / A Croak and A Crest
 
 The Crest Garden quest is the game's first multi-step mystery, and it reads like a little whodunit:
 
 1. **The Logan Crest is missing** from the **Crest Garden**, located **northwest of Town Hall**.
-2. **Talk to Alina, Aras, and Dragan** — each gives you a piece of the puzzle.
-3. **Meet at The Broken Lamp Inn** — the whole group assembles there.
+2. **Talk to Alina, Aras, and Dragan** — each gives you a piece of the puzzle; Dragan points to the Howling Marshes.
+3. **Meet at The Broken Lamp** — the group assembles there (you may need to come back the next night).
 4. **Team up with Ludo and Saga** to **search the Howling Marshes**.
-5. **The trail ends at Yabbis the frog** — Yabbis has **swallowed the crest**.
-6. **Yabbis demands a Copper Bar** as the price of the crest.
-7. **Bring a Copper Bar** — craft it from **4 Copper Ore + 1 Charcoal in a furnace** (see the Mining Guide).
-8. **Return the crest** to the garden to complete the quest line.
-9. **Then head to the Ambrosia Graveyard** to trigger a **cutscene with Death**.
+5. **Plot twist:** Ludo knew where the crest was all along — Saga is furious and calls a meeting at **Town Hall**.
+6. **A Croak and A Crest:** the trail ends at **Yabbis the frog** (the frog with a special shop) — Yabbis has **swallowed the crest**.
+7. **Yabbis demands a fresh Copper Bar** as the price of the crest.
+8. **Bring a Copper Bar** — craft it from **4 Copper Ore + 1 Charcoal in a furnace** (see the Mining Guide).
+9. **Return the crest** to the garden to complete the quest line.
+10. **Then head into the Ambrosia Graveyard** (Misty Shores) to trigger the **cutscene with Death**.
 
 | Step | Location / Action |
 |------|-------------------|
 | 1 | Crest Garden (NW of Town Hall) — crest missing |
 | 2 | Talk to Alina, Aras, Dragan |
-| 3 | Meet at **The Broken Lamp Inn** |
+| 3 | Meet at **The Broken Lamp** |
 | 4 | Search the **Howling Marshes** with **Ludo and Saga** |
-| 5 | Find **Yabbis the frog** — crest swallowed |
-| 6 | Yabbis demands a **Copper Bar** |
-| 7 | Deliver the Copper Bar, get the crest |
-| 8 | Return crest → **Ambrosia Graveyard cutscene with Death** |
+| 5 | Town Hall meeting — Ludo knew all along |
+| 6 | Find **Yabbis the frog** — crest swallowed |
+| 7 | Yabbis demands a **fresh Copper Bar** |
+| 8 | Deliver the Copper Bar, get the crest |
+| 9 | Return crest → **Ambrosia Graveyard cutscene with Death** |
 
-**Pro tip:** the Copper Bar requirement is the game quietly teaching you the furnace. If you haven't touched mining yet, this is the nudge to go to the **Cave of Echoes**, mine **Copper Ore** from the brown-tinted rocks, and smelt your first bars. The chain deliberately funnels you through every major system once.
+**Pro tip:** the Copper Bar requirement is the game quietly teaching you the furnace. If you haven't touched mining yet, this is the nudge to go to the **Cave of Echoes**, mine **Copper Ore** from the ore rocks, and smelt your first bars. The chain deliberately funnels you through every major system once.
 
 ## Quest Chain Reference: Where Everything Leads
 
 ```
-Orlock: Blood Grapes → Blood Wine        (farming intro)
+Orlock: Wine Scheme (Blood Grapes → Blood Wine)   (farming intro)
         │
-Viktor/Fiona: Mend it with Magic         (cauldron intro)
+Mother/Fiona: Mend it with Magic                  (cauldron intro)
         │
-Fiona Webb: A Bridge Too Far ───────────→ South map: Misty Shores,
-        │                                   Moonlight Tower, Ambrosia
-        │                                   Graveyard, Ambrosia Mansion
+A Bridge Too Far ────────────────→ South map: Misty Shores,
+  (bar tab → Mina → Fiona →      Moonlight Tower, Ambrosia
+   Noel, Luna, Sabrina)          Graveyard, Ambrosia Mansion
         │
-        └──► Cave of Echoes mine entrance (reopened estate)
+        └──► Cave of Echoes mine entrance (SW corner of Misty Shores)
         │
 Crest Garden: Tension in the Crest Garden
-        └──► Yabbis the frog → Copper Bar → crest returned
-                └──► Ambrosia Graveyard cutscene → Death
+        └──► Howling Marshes → Town Hall → Yabbis the frog
+                └──► Copper Bar → crest returned
+                        └──► Ambrosia Graveyard cutscene → Death
 ```
 
-**Pro tip:** both major chains converge on the **Ambrosia Graveyard** — the bridge quest opens the graveyard, and the crest quest's payoff cutscene happens there. If you've done both and still haven't met Death, the next step is spending time in the graveyard area at night.
+**Pro tip:** both major chains converge on the **Ambrosia Graveyard** — the bridge quest opens the south map, and the crest quest's payoff cutscene happens there. Note that Death also keeps a house by the docks in the center of town and introduces himself early in the story (he gives you the Net for Soul Blobs) — sources differ on exactly when romance with him becomes available, so treat the graveyard cutscene as the safe trigger.
+
+## Beyond the Crest: Later Quests (Reported)
+
+The story continues past the Crest Garden chain. Community walkthroughs document quests involving **Ambrosia's Crest** and **Dracula's Crest**, gold-tier materials, and **Ludo's "A Curious Passage"** (which unlocks **Luna Bay** and, with the Museum, the road to Llemi's Pink Grove). Details are still being compiled — treat anything beyond the Crest Garden chain as unconfirmed until verified in-game.
 
 ## Quest Tips Summary
 

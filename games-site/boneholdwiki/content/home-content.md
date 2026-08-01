@@ -3,7 +3,7 @@ title: "Bonehold Wiki — Complete Guide Hub"
 description: "The ultimate community wiki for Bonehold — the 3D roguelike dungeon crawler ARPG by Pixel Jackal. Find class guides, build strategies, weapon breakdowns, boss tactics, and beginner tips."
 category: "Home"
 version: "1.0"
-updated: "2026-07-30"
+updated: "2026-08-01"
 keywords: ["Bonehold", "Bonehold wiki", "Bonehold guide", "Pixel Jackal", "roguelike dungeon crawler", "ARPG"]
 related: ["beginner-guide", "classes-guide", "weapons-guide", "boss-guide"]
 ---
@@ -27,9 +27,12 @@ Bonehold launched on July 28, 2026 on Steam. This wiki covers all core systems, 
 | [Boss Guide](/guides/boss-guide) | Beating champions | Intermediate |
 | [Combat Guide](/guides/combat-guide) | Advanced tactics | Intermediate |
 | [Spells Guide](/guides/spells-guide) | Spell scrolls & magic | Intermediate |
-| [Progression Guide](/guides/progression-guide) | Meta-progression | Starter |
-| [Tips & Tricks](/guides/tips-and-tricks) | Hidden mechanics | All |
-| [Endgame Guide](/guides/endgame-guide) | Legendary farming | Advanced |
+| [Progression Guide](/guides/progression-guide) | How runs build on each other | Starter |
+| [Tips & Tricks](/guides/tips-and-tricks) | Advanced tips | All |
+| [Endgame Guide](/guides/endgame-guide) | Legendary hunting | Advanced |
+| [Item Prefixes Guide](/guides/item-prefixes-guide) | Loot & prefixes | Intermediate |
+| [Achievements Guide](/guides/achievements-guide) | 98 achievements | All |
+| [Co-Op & Multiplayer Guide](/guides/coop-multiplayer-guide) | Multiplayer status | All |
 | [Tier List](/tier-list) | Class rankings | All |
 | [FAQ](/faq) | Quick answers | All |
 
@@ -41,7 +44,7 @@ Bonehold launched on July 28, 2026 on Steam. This wiki covers all core systems, 
 Learn the core loop — choose your class, master charge attacks, survive the fortress, and beat your first boss. [Read the full guide →](/guides/beginner-guide)
 
 ### Classes Guide
-Complete breakdown of all 7 classes — Knight, Barbarian, Scorcher, Spellblade, and three unlockable classes. Find your playstyle. [Full classes guide →](/guides/classes-guide)
+Complete breakdown of the classes — Knight, Barbarian, Scorcher, Spellblade are officially named; the other three of the 7 are unconfirmed. [Full classes guide →](/guides/classes-guide)
 
 ### Weapons & Charge Attacks
 Every weapon type explained, charge mechanic deep-dive, legendary items, and how prefixes transform ordinary gear. [Browse weapons →](/guides/weapons-guide)
@@ -61,14 +64,14 @@ The game combines fast-paced hack-and-slash combat with roguelike permadeath ten
 
 ## Key Systems at a Glance
 
-- **7 Classes** — Knight, Barbarian, Scorcher, Spellblade, +3 unlockable classes. Each has distinct abilities and playstyles.
+- **7 Classes** — Knight, Barbarian, Scorcher, Spellblade are officially named; the other 3 are unconfirmed at launch.
 - **Charge Combat** — Weapons use charge mechanics. Timing and positioning matter more than speed.
 - **Procedural Generation** — Dungeon layouts, loot, enemies, and traps are randomized every run.
-- **Item Prefixes** — Weapons and armor roll random prefixes that can transform playstyles.
-- **Legendary Items** — Ultra-rare drops with game-changing effects. Each one is a potential run-definer.
-- **Spell Scrolls** — Collectible spells that add magic abilities to any class build.
-- **Meta-Progression** — Unlock classes, earn achievements, and gain permanent upgrades between runs.
-- **98 Achievements** — Deep achievement system tracking mastery across all classes and content.
+- **Item Prefixes** — Weapons, spells, and armor roll random prefixes that can transform playstyles.
+- **Legendary Items** — Rare drops with game-changing effects. Each one is a potential run-definer.
+- **Spells** — Collectible spell loot that adds magic abilities to any class build.
+- **Single-Player** — No co-op or multiplayer; Windows only, no controller support at launch.
+- **98 Achievements** — Confirmed Steam achievement count (the list itself is not yet officially published).
 
 ---
 

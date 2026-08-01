@@ -1,133 +1,131 @@
 ---
-title: 'Crafting Guide: Beams, Platforms, Flares & More in Dwarf Delve'
-description: 'Complete Dwarf Delve crafting guide — support beams, ladders, platforms, flares, floodlights, and minecart rails. Crafting recipes, material costs, and when to craft each item underground.'
+title: 'Crafting Guide: Beams, Ladders, Flares & More in Dwarf Delve'
+description: 'Complete Dwarf Delve crafting guide — what crafting is officially confirmed (support beams, ladders, platforms, flares, floodlights, minecart rails), when to craft each item, and honest notes on unreleased recipes.'
 keywords: ['dwarf delve crafting', 'dwarf delve crafting guide', 'dwarf delve recipes', 'dwarf delve support beams', 'dwarf delve how to craft']
 category: Crafting
 version: '1.0'
-updated: '2026-07-25'
-related: ['best-gear-equipment-guide', 'minecart-rail-guide', 'beginner-guide']
+updated: '2026-08-01'
+related: ['best-gear-equipment-guide', 'minecart-rail-guide', 'beginner-guide', 'crafting-mastery']
 ---
 
 ## Crafting Underground
 
-In Dwarf Delve, crafting happens on-the-fly during your descent. You don't craft at a bench in your quarters — you craft in the mines, using materials you find around you. This means your crafting decisions directly affect your survival in real-time.
+In Dwarf Delve, crafting happens **on the fly during your descent**. The official description confirms you craft "support items like sturdy beams and platforms" in the mines, using materials you find as you go. This makes crafting decisions survival decisions — and it's one of the few crafting facts that is fully confirmed.
 
-## The Crafting Menu
+Everything below is split into two categories: **confirmed crafting** (in official materials) and **unconfirmed details** (recipe costs, exact materials, keybindings — none published as of August 2026).
 
-Access the crafting menu with **Tab** (default key binding). It shows all available recipes and the materials currently in your inventory. Crafted items appear immediately in your hands or hotbar.
+## Confirmed Craftable Items
+
+| Item | Confirmed Purpose | Source |
+|------|-------------------|--------|
+| **Support beams** | Stabilize tunnels; protect against collapse | Official description: "support items like sturdy beams" |
+| **Platforms** | Horizontal access; mentioned alongside beams | Official description: "sturdy beams and platforms" |
+| **Ladders** | Vertical access | Official description |
+| **Flares** | Throwable light; uncover secrets hidden in the shadows | Official description |
+| **Floodlights** | Portable upgraded lighting ("cast away shadows") | Official description |
+| **Minecart rails** | "Place rail and construct networks of minecarts to shift and store those heavy ores" | Official feature list |
+
+That is the complete confirmed craftable roster. Crafting recipes, material costs, and quantities are **not published** — any guide with specific recipe tables is filling in the blanks.
 
 ## Support Beams — Your #1 Craft
 
-Support beams stabilize tunnels and prevent collapses. They are the most important item you can craft.
+Support beams stabilize tunnels and prevent collapses. The collapse is the game's main confirmed threat, and beams are its confirmed counter.
 
-| Type | Materials | Stability | Duration |
-|------|-----------|-----------|---------|
-| **Wooden Beam** | 4 Wood Scraps | +15% | 3 minutes |
-| **Reinforced Beam** | 2 Wood Scraps + 2 Iron | +30% | 5 minutes |
-| **Steel Brace** | 4 Iron + 2 Coal | +50% | 8 minutes |
-| **Dwarven Pillar** | 2 Silver + 2 Iron + 2 Coal | +75% | Permanent |
+### When to Craft Beams (Strategy, Not Recipes)
 
-### When to Craft Beams
-- As soon as you hear creaking (the first warning sign)
-- Before entering large open caverns (higher collapse risk)
-- At choke points along your escape route back to the elevator
-- After a collapse warning has already triggered (place immediately)
+- **As soon as tunnels creak** — the game's warning signs are audio and visual; respond early
+- **Before entering large open areas** — open caverns are higher risk in extraction games generally
+- **At choke points on your escape route** — the way back matters more than the way down
+- **When you hear instability warnings** — place immediately, then move toward the elevator
 
 ### Beam Placement Strategy
-Place beams **before** you need them. A common mistake is waiting until the collapse warning — by then, placing beams costs precious seconds. Pre-place beams in areas you know you'll pass through on the way back.
 
-## Flares — Scouting & Combat
+Place beams **before** you need them. The common mistake is waiting until the collapse warning — by then, placing beams costs precious seconds. Pre-place beams in areas you know you'll pass through on the way back.
 
-Flares provide temporary light and can be thrown. Essential for scouting ahead and managing combat.
+## Flares — Scouting & Safety
 
-| Type | Materials | Duration | Effect |
-|------|-----------|----------|--------|
-| **Basic Flare** | 2 Coal + 1 Cloth | 30 seconds | Standard light |
-| **Bright Flare** | 3 Coal + 1 Sulfur | 45 seconds | +50% brightness |
-| **Sticky Flare** | 2 Coal + 1 Resin | 30 seconds | Sticks to surfaces and enemies |
-| **Flashbang Flare** | 3 Sulfur + 1 Coal | 15 seconds | Stuns enemies in light radius |
+Flares provide throwable light and are confirmed to "uncover secrets hidden in the shadows."
 
 ### When to Craft Flares
+
 - When entering a dark, unexplored area
-- Before engaging a group of enemies (throw to assess numbers)
-- When you hear enemy sounds but can't see them
-- At intersections to mark your path back to the elevator
+- Before descending into a pit or shaft — see what's below before you commit
+- When you hear sounds you can't see the source of
+- At intersections, to mark your path back to the elevator
+
+**Honest note:** flare variants (bright, sticky, flashbang) are not confirmed. Only "flares" appear in official materials.
 
 ## Ladders — Vertical Mobility
 
-Ladders let you climb up or down vertical shafts that would otherwise be impassable.
-
-| Type | Materials | Height | Durability |
-|------|-----------|--------|------------|
-| **Rope Ladder** | 3 Cloth + 2 Wood | 10m | Single use (retrievable) |
-| **Wooden Ladder** | 5 Wood Scraps | 15m | 3 uses |
-| **Iron Ladder** | 4 Iron + 2 Wood | 20m | Permanent |
+Ladders let you climb vertical shafts that would otherwise be impassable — confirmed in official materials.
 
 ### When to Craft Ladders
+
 - To reach elevated mineral veins
-- To create shortcuts between mine levels
+- To create shortcuts between levels
 - To escape pits or holes you've fallen into
-- To access hidden chambers above or below the main path
+- To access areas above or below the main path
 
 ## Platforms — Bridging & Positioning
 
-Platforms create temporary or permanent horizontal surfaces across gaps.
-
-| Type | Materials | Width | Durability |
-|------|-----------|-------|------------|
-| **Wooden Plank** | 3 Wood Scraps | 3m | Breaks after 2 minutes |
-| **Reinforced Platform** | 4 Iron + 3 Wood | 5m | Permanent |
-| **Minecart Platform** | 6 Iron + 4 Wood | 8m | Supports minecart rail |
+Platforms create horizontal surfaces across gaps, confirmed alongside beams.
 
 ### When to Craft Platforms
+
 - To cross gaps in the mine floor
-- To create elevated mining positions (safer from ground enemies)
+- To create elevated mining positions (safer from ground-level hazards)
 - To build rail bridges across chasms
-- To create safe platforms above lava or water
+- To create safe footing above hazards
 
 ## Floodlights — Area Illumination
 
-Floodlights provide stationary, long-lasting light for mining zones or escape routes.
+Floodlights provide stationary, long-lasting light. The official description frames them as the upgrade path for your lantern: "cast away shadows with a portable floodlight."
 
-| Type | Materials | Duration | Coverage |
-|------|-----------|----------|----------|
-| **Oil Lamp** | 2 Coal + 1 Cloth + 1 Iron | 5 minutes | Small area |
-| **Floodlight** | 4 Iron + 3 Coal + 2 Copper | 10 minutes | Medium area |
-| **Arc Light** | 2 Silver + 4 Copper + 2 Coal | 20 minutes | Large area |
+### When to Use Floodlights
 
-### When to Craft Floodlights
 - In large caverns where your lantern isn't enough
 - Along your planned escape route to the elevator
 - At resource-rich mining zones you'll spend time at
-- To create "safe zones" that discourage enemy spawns
+- At chokepoints where hazards hide in darkness
 
 ## Minecart Rails — Resource Transport
 
-Rails connect resource areas to the elevator and dramatically increase how much loot you can extract.
+Rails connect resource areas to the elevator and are confirmed to "shift and store those heavy ores for you."
 
-| Type | Materials | Length | Speed |
-|------|-----------|--------|-------|
-| **Basic Rail** | 2 Iron per segment | 5m per segment | Standard |
-| **Powered Rail** | 3 Iron + 1 Coal | 5m per segment | +50% speed |
-| **Cargo Rail** | 4 Iron + 2 Coal | 5m per segment | Carries 3x cargo |
+### When to Build Rails
 
-See the [Minecart & Rail Network Guide](/guides/minecart-rail-guide) for detailed rail strategy.
+- When you find a heavy ore deposit far from the elevator
+- When you're planning multiple trips to the same zone
+- When your carry capacity can't keep up with the haul
 
-## Crafting Material Sources
+See the [Minecart & Rail Network Guide](/guides/minecart-rail-guide) for rail strategy detail.
 
-| Material | Found In | Best Depth |
-|----------|----------|------------|
-| **Wood Scraps** | Support beam remnants, wooden structures | Upper/Middle |
-| **Iron Ore** | Brown stone veins | All depths |
-| **Copper** | Green-tinted veins | Upper/Middle |
-| **Coal** | Dark seams in rock | All depths |
-| **Sulfur** | Yellow deposits near lava | Deep Mines |
-| **Cloth** | Abandoned supply caches | All depths |
-| **Resin** | Sticky deposits on walls | Middle/Deep |
-| **Silver** | Bright white veins | Middle/Deep |
+## Crafting Materials: What's Confirmed
+
+The official materials don't name individual crafting materials. What can be said honestly:
+
+- **Ores** are mined with the Battlemallet and refined back at your dwarven home — refinement is confirmed
+- **Raw materials** come from the mines themselves; crafting happens in the field
+- No official material list exists yet — treat any "Wood Scraps", "Cloth", "Resin", "Sulfur" recipe tables as unconfirmed
 
 ## Crafting Priority During Runs
 
-At the start of a run: craft 2-3 support beams if you're low. During exploration: craft flares as needed for scouting. At resource-rich zones: craft a floodlight and minecart rails. On the way back: craft only emergency supports and flares — don't waste time.
+Until real recipes are published, these priorities are strategy, not recipe data:
 
-Your crafting menu is your survival toolkit. Use it.
+1. **Support beams first** — collapse protection is survival
+2. **Flares second** — light reveals secrets and marks routes
+3. **Ladders/platforms as needed** — access tools when you hit vertical barriers
+4. **Rails when the haul is heavy** — carts for heavy ores, confirmed
+5. **Floodlights for deep zones** — when you'll spend real time in one area
+
+## Honest FAQ
+
+**How do I open the crafting menu?** Not officially documented. Some players report a Tab keybinding, but this is unconfirmed — check your settings.
+
+**Can I craft before descending?** Unconfirmed. The official materials describe in-mine crafting, but pre-run prep isn't documented either way.
+
+**Are there advanced recipes, enchantments, or altars?** Not confirmed. Guides describing enchantment altars, smelting stations, or legendary recipes are speculative. The confirmed "advanced" system is gear upgrading between runs — "every piece of gear can be upgraded and customized to your playstyle."
+
+**Will recipes be added later?** The developer has committed to a multi-year content roadmap, so expect crafting to grow — but nothing specific is announced.
+
+Your crafting is your survival toolkit. Use it, and update your knowledge as the community documents the real recipes.

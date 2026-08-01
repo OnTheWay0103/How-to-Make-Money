@@ -1,147 +1,107 @@
 ---
-title: "Shift At Midnight Endings Guide: All 3 Endings & How to Get Them"
-description: "Complete endings guide for Shift At Midnight. How to unlock True Ending, Grave Decision, and Empty Home. Requirements, Sheriff Clyde's fate, pet survival, and step-by-step guide."
+title: "Shift At Midnight Endings Guide: How to Get the True Ending"
+description: "Complete endings guide for Shift At Midnight. How to unlock the True Ending, the $250 personal cash requirement, the pet surgery, Clyde's offer, and what is unconfirmed about other endings."
 category: "Guides"
 version: "1.0"
-updated: "2026-07-29"
-keywords: ["shift at midnight all endings", "shift at midnight true ending", "how to get endings shift at midnight", "shift at midnight ending guide", "shift at midnight story endings"]
-related: ["story-walkthrough", "money-guide", "achievements-guide"]
+updated: '2026-08-01'
+keywords: ["shift at midnight all endings", "shift at midnight true ending", "how to get endings shift at midnight", "shift at midnight ending guide", "shift at midnight pet surgery", "shift at midnight don't call clyde"]
+related: ["story-walkthrough", "money-guide", "achievements-guide", "faq-content"]
 ---
 
 ## Shift At Midnight Endings Guide
 
-*Shift At Midnight* features 3 distinct endings, each determined by two critical factors: how much money you have saved by Night 13 and whether you call Sheriff Clyde for help. Your choices across the 13-night campaign also affect smaller story outcomes, including the fate of the gas station cat.
+The ending of *Shift At Midnight* is decided in the campaign's final stretch by two confirmed factors: **how much personal cash you've saved** and **whether you call Clyde in the finale**. Community walkthroughs are consistent about the True Ending path. The wider ending structure is less publicly documented — this guide tells you what's confirmed, what the community has pieced together, and what is still unverified.
 
-This guide explains exactly how to unlock each ending, what the requirements are, and how your decisions ripple through the finale.
+## What's Confirmed About the Ending
 
-## Ending Overview
+Three facts are consistently reported across community guides:
 
-| Ending | Requirement | Clyde's Fate | Cat's Fate | Difficulty |
-|--------|-------------|-------------|------------|------------|
-| **True Ending** | $250+ saved + Do NOT call Clyde | Survives (retires) | Survives | Hard |
-| **Grave Decision** | Under $250 saved + Call Clyde | Dies fighting The Dentist | Survives if saved earlier | Medium |
-| **Empty Home** | Under $250 saved + Do NOT call Clyde | Missing (presumed dead) | May die based on earlier choices | Easy (but bleak) |
+1. **The True Ending requires $250+ in personal cash** by the finale — the money pays for the pet's surgery. The requirement is revealed after Shift 10.
+2. **You must keep store money and personal funds separate.** The ending check reads your *personal* account, and mixing the two is the most common way runs fail.
+3. **Do not call Clyde in the finale.** The sheriff's email (arriving around Shift 12) offers to cover the surgery — community walkthroughs call it **a bluff**. Declining the call is part of the True Ending.
 
-## Ending 1: True Ending (Best Ending)
+Success is confirmed after Shift 13 when the post-shift screen shows the surgery was paid for.
 
-### Requirements
+## The Finale (Shift 13)
 
-- **$250 or more saved** in your personal account by the end of Night 13
-- **Do NOT call Sheriff Clyde** during the final encounter
-- The gas station cat must be alive (acquired through a Night 6 event)
+The ending conditions play out in the final shift's cutscenes:
 
-### How It Unfolds
+1. Survive the **swarm of all doppelganger types**
+2. Shoot until the **Dentist cutscene** triggers
+3. **Run in the opposite direction** until the second cutscene catches you
+4. In that cutscene, a **stranger kills the Dentist — and then himself**
 
-When The Dentist breaks through the front doors on Night 13, you have three minutes before he reaches the back room. If you have saved $250+, the **back office safe** contains a cache of weapons and supplies -- including enough shotgun shells and bear traps to create a kill zone.
+The finale is cinematic rather than a boss fight with a health bar. What matters for the ending is what you did *before* Shift 13: the $250 check and the call decision.
 
-Without calling Clyde, he survives the night. The epilogue shows Clyde retiring from the sheriff's office, the cat curled up on the gas station counter, and your character finally leaving the town with enough money to start over.
+## The True Ending Checklist
 
-### Step-by-Step Path to True Ending
+- [ ] Track personal cash separately from store funds from Shift 1
+- [ ] Bank **$250+ in personal cash** before the finale (requirement revealed at Shift 10)
+- [ ] Skip spending personal funds on store supplies (traps, weapons, boards come from store money)
+- [ ] At Shift 12, read the sheriff's email — and remember it's a trap
+- [ ] In the finale, **do not call Clyde**
+- [ ] Watch the post-Shift 13 screen for the surgery confirmation
 
-1. **Nights 1-4**: Complete all urgent tasks. Focus on earning money. Do not skip the meat collection in the forest ($30 bonus)
-2. **Night 6**: Save the cat from the back room fire event. If you ignore it, the cat dies
-3. **Nights 5-8**: Invest in the Shop Terminal. Buy the shotgun and bear traps. Keep your daily spending under $10
-4. **Nights 9-12**: Prioritize prize wheel tokens. Save every dollar. Restock wooden boards for the final night
-5. **Night 12**: Ensure you have $250+. If below, sell unused items at the Shop Terminal
-6. **Night 13**: Do NOT call Clyde when the prompt appears. Use the safe weapons. Defeat The Dentist with your team
+## What About Other Endings?
 
-### True Ending Checklist
+Here is the honest picture: **the full ending list is not publicly documented.** Community guides confirm the True Ending path above. Beyond that:
 
-- [ ] Reach $250+ saved before Night 13
-- [ ] Save the cat on Night 6
-- [ ] Stock the back room with weapons by Night 12
-- [ ] Resist the call prompt on Night 13
-- [ ] Survive The Dentist encounter
+- Guides describe the finale diverging based on the $250 check and the call decision
+- Some community sources describe a harsher outcome when you call Clyde or fall short on cash — but the specific names, epilogues, and unlock rewards vary between reports and **are not confirmed**
+- Any guide that lists exact named endings with full epilogue summaries (you may see names like "Grave Decision" or "Empty Home" floating around) is drawing on community speculation, not official documentation
 
-## Ending 2: Grave Decision
+Treat those as unverified until the developers document the full ending tree.
 
-### Requirements
+## Sheriff Clyde: The Call Decision
 
-- **Under $250 saved** by the end of Night 13
-- **Call Sheriff Clyde** during the final encounter
+Clyde's role in the finale is confirmed:
 
-### How It Unfolds
+| Scenario | What Community Guides Report |
+|----------|------------------------------|
+| $250+ personal cash, don't call | True Ending — surgery paid, confirmed on the post-shift screen |
+| Short on cash | The $250 check fails — the most common run-killer |
+| Call Clyde | Reported to backfire — the email offer is described as a bluff |
 
-If your savings are below $250, the back office safe does not contain enough supplies to survive alone. Calling Clyde is the only viable option. The sheriff arrives mid-encounter armed with a shotgun and coordinates with your team.
+The safest reading: **the True Ending is a money discipline test, and the call prompt is a trap.** Don't call.
 
-**The cost of this ending**: Clyde dies fighting The Dentist. His sacrifice distracts the killer long enough for you and your co-op team to land the finishing blows. The epilogue shows a funeral scene with Clyde's hat on a grave marker and the town's sheriff position left unfilled.
+## The Pet Subplot
 
-### Grave Decision Consequences
+The pet's story runs through the whole campaign:
 
-- Clyde is **dead** in the ending -- no chance of survival
-- The cat survives **only if** you saved it on Night 6
-- Endless Mode unlocks with a somber soundtrack
-- You receive the "Clyde's Last Stand" achievement
+- **Shift 3**: pay the pet's **medicine bill**
+- **Shift 10**: the **$250 surgery** requirement is revealed
+- **Shift 11**: keep enough cash for surgery
+- **Shift 12**: the sheriff email offers to cover it (the bluff)
+- **Finale**: the $250 personal-cash check decides whether the surgery happens
 
-### When to Choose This Ending
+Community guides describe the pet as central to the True Ending's emotional payoff — this is the character the money actually goes to.
 
-Grave Decision is the "canonical" ending for players who have not optimized their money saving. It is also the better narrative experience for a first playthrough. The game's emotional weight is significantly higher with Clyde's sacrifice.
+## Money Guidance for the Ending
 
-## Ending 3: Empty Home
+For full income strategy, see the [Money Guide](/guides/money-guide). The short version:
 
-### Requirements
+- Keep store and personal funds separate from the start
+- Personal cash is the ending currency — spend from store money whenever possible
+- The stock quota (15+ items on front shelves) and the nightly money goal keep store income flowing without touching personal funds
 
-- **Under $250 saved** by the end of Night 13
-- **Do NOT call Sheriff Clyde** during the final encounter
+## Common Ending Mistakes
 
-### How It Unfolds
+| Mistake | Why It Hurts | The Fix |
+|---------|-------------|---------|
+| Mixing store and personal money | The check reads personal cash only | Two mental accounts from Shift 1 |
+| Spending personal cash on gear | Traps and boards come from store funds | Budget supplies from store income |
+| Calling Clyde "to be safe" | Community reports call it a bluff | Decline the call |
+| Ignoring the Shift 10 reveal | You learn the $250 target too late | Save personal cash from Shift 1 |
+| Trusting named third endings | Not publicly documented | Stick to the confirmed True Ending path |
 
-This is the worst ending. With insufficient supplies and no backup, you face The Dentist alone. Your character survives the encounter but at a heavy cost. The epilogue shows an empty, boarded-up gas station with no sign of Clyde. The cat's fate depends on earlier choices.
+## Summary
 
-### Empty Home Details by Cat's Fate
+| Question | Answer |
+|----------|--------|
+| True Ending requirement | $250+ personal cash for the pet's surgery |
+| Funds rule | Keep store money and personal funds separate |
+| The sheriff's email | A bluff — don't call Clyde in the finale |
+| Other endings | Not publicly documented — community speculation only |
+| Finale structure | Swarm → Dentist cutscene → stranger kills the Dentist |
 
-| If Cat Was... | Result |
-|---------------|--------|
-| Saved on Night 6 | The cat is shown waiting at the station alone |
-| Not saved | No sign of the cat either -- fully empty ending |
-
-### Why This Ending Exists
-
-Empty Home serves as the "punishment" ending for players who neglected both money management and social connections. It reinforces the game's core theme: in a town this isolated, you need either money or people to survive. Having neither leads to emptiness.
-
-## Sheriff Clyde's Fate Mechanics
-
-Clyde's survival is tied directly to your call decision and savings:
-
-| Scenario | Clyde Alive? | Condition |
-|----------|-------------|-----------|
-| $250+, no call | Yes (retires) | Best outcome |
-| $250+, call | No (dies) | Wastes resources; Clyde dies anyway |
-| Under $250, no call | Unknown (disappears) | Worst outcome |
-| Under $250, call | No (dies saving you) | Noble sacrifice |
-
-**Important**: Calling Clyde when you have $250+ is suboptimal. You waste the safe weapons *and* Clyde dies. Never call if you have enough savings.
-
-## Pet Survival Guide
-
-The gas station cat is not required for any ending, but its presence in the epilogue affects the emotional tone. Here is how to save it:
-
-1. **Night 6, approximately 1:30 AM**: Smoke appears from the back room
-2. You have 60 seconds to enter and grab the cat before the fire spreads
-3. Bring the hose to extinguish the fire after rescuing the cat
-4. The cat survives regardless of which ending you get
-
-If you fail Night 6's fire event, the cat is gone permanently.
-
-## Endless Mode Impact
-
-Each ending unlocks Endless Mode with a different starting condition:
-
-| Ending | Endless Mode Starting Bonus |
-|--------|----------------------------|
-| True Ending | Start with $100 extra, shotgun, 2 bear traps |
-| Grave Decision | Start with Clyde's shotgun (unique skin) |
-| Empty Home | No bonus -- empty store, no starting equipment |
-
-## Quick Decision Reference
-
-**Which ending should you aim for?**
-
-| Your Goal | Best Ending | Path |
-|-----------|-------------|------|
-| Best narrative experience | Grave Decision (1st playthrough) | Save loosely, call Clyde |
-| Completionist / achievement hunter | True Ending | Save aggressively, skip the call |
-| Speedrun / quick unlock | Empty Home | Spend freely, skip the call |
-| Emotional payoff | True Ending | Save the cat, save money, save Clyde |
-
-For a complete night-by-night breakdown of how to reach $250+, see our [money guide](/guides/money-guide). For the full story sequence, read the [story walkthrough](/guides/story-walkthrough).
+The True Ending is a discipline test, not a combat test: save the money, keep the accounts separate, and decline the call. For the full night-by-night path, see the [story walkthrough](/guides/story-walkthrough). For income strategy, read the [money guide](/guides/money-guide).

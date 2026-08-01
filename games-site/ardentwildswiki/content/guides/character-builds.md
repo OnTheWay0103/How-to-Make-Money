@@ -1,151 +1,114 @@
 ---
 title: 'Character Customization & Builds Guide — Create Your Survivor in Ardent Wilds'
-description: 'Complete character customization guide for Ardent Wilds. All appearance options, how the classless build system works, starting strategies for different playstyles, and how to respec your character.'
+description: 'Complete character customization guide for Ardent Wilds. Confirmed appearance options, how the classless build system works, starting strategies for different playstyles, and how to adapt your build on the fly.'
+category: 'Guides'
+version: '1.0'
+updated: '2026-08-01'
 keywords: ['ardent wilds character creation', 'ardent wilds customization', 'ardent wilds builds', 'ardent wilds playstyles', 'ardent wilds classes']
-updated: '2026-07-31'
+related:
+  - 'combat-guide'
+  - 'beginner-guide'
+  - 'skill-tree-guide'
+  - 'crafting-guide'
 ---
 
 # Character Customization & Builds Guide
 
-Ardent Wilds has no traditional class system. Instead, your character is defined by appearance customization at creation and by the weapons, artifacts, and Spire bonuses you choose throughout the game. This guide covers the full customization system and how to craft your ideal build.
+Ardent Wilds has **no traditional class system** — confirmed design. Instead, your character is defined by appearance customization at creation and by the weapons, artifacts, and Spire bonuses you choose as you play. This guide covers what is confirmed about customization and how to build around the classless system.
+
+**Honesty note:** the game is pre-release (demo July 30, 2026, full game TBA). Exact customization option counts, specific artifact names, and gear numbers are unconfirmed. Where we give examples, they are either developer-confirmed or clearly marked as community terms.
 
 ## Character Creation — Appearance
 
-When you first launch Ardent Wilds, you will create your character. The customization options in the demo include:
+Confirmed by the developers: "Customize your hero with a myriad of hair styles, beards, colors & other customization options." The April 2026 playtest also added a **new female player character model** — so both character models exist in the current builds.
 
-### Physical Appearance
+What is not confirmed: the exact number of options. Any "20+ hairstyles" style claim from online sources is unverified. Expect generous options — the developers have said "myriad" — but do not plan around specific menus.
 
-| Category | Options |
-|----------|---------|
-| **Hairstyles** | 20+ styles across multiple lengths and textures |
-| **Facial Hair** | 10+ beard and mustache options |
-| **Hair Color** | Full color picker (RGB + opacity) |
-| **Skin Tone** | 15+ presets with undertone adjustment |
-| **Eye Color** | Full color picker |
-| **Face Shape** | 8 presets with individual feature adjustment |
-| **Body Type** | 3 presets (lean, athletic, heavy) with height slider |
+## The Classless System — Confirmed
 
-### Clothing (Starting)
+This is the core innovation of Ardent Wilds: **there are no classes.** Your combat identity is an emergent property of your gear and progression choices. The developers describe forging your own path as a:
 
-Your starting outfit is purely cosmetic — armor will cover it as you gear up. Options include:
+- **Fireball-wielding wizard** — spell-focused, AoE, terrain-destroying firepower
+- **Deadly warrior** — melee combat, up close and personal
+- **Precision marksman** — ranged combat, careful aim
 
-- **Tunic** (various colors)
-- **Traveler's Garb** (hooded option)
-- **Survivor's Rags** (post-apocalyptic style)
-- **Adventurer's Coat** (long coat with belt)
+These are the three officially described directions, but the classless design means the real possibilities are a spectrum between them.
 
-**Note:** All appearance options are cosmetic only and do not affect gameplay. You can change your appearance later by interacting with a Mirror furniture item (crafted: 5 Wood + 1 Crystal).
+### The Layers of a Build
 
-## The Classless System
+| Layer | What It Does | Confirmed? |
+|-------|-------------|-----------|
+| **Weapon** | Defines your basic combat style (melee, ranged, magic) | Yes — multiple weapon types exist |
+| **Artifacts** | Rare items that unlock unique abilities — the build-defining layer | Yes — "powerful rare artifacts that unlock unique abilities" |
+| **Spells & power-ups** | Arcade-style abilities layered on top of weapons | Yes — "spells, power-ups" in official description |
+| **Spire bonuses** | Passives from the world-built skill tree (restore Spires and forgotten facilities) | Yes — every restored node grants a passive bonus |
+| **Armor & gear** | Stats and survivability from crafted or looted equipment | Yes — "craft powerful armor and weapons at specialized crafting stations"; best gear also looted from enemies |
 
-This is the core innovation of Ardent Wilds: there are no classes. Instead, your "class" is an emergent property of your gear choices.
+Because weapons and artifacts are items, **you can change your entire build** whenever you swap equipment — a core advantage of the classless design. If a boss counters your current setup, switch rather than bashing your head against a wall.
 
-### Defining Your Playstyle
+## Build Directions (Community Terms, Unconfirmed Details)
 
-Your combat identity comes from three layers:
+The three developer-described directions, expanded into practical playstyles. Artifact and ability names below are community terms — the confirmed mechanics are the archetypes, not the names:
 
-| Layer | Examples | How to Change |
-|-------|----------|--------------|
-| **Weapon Type** | Sword, Bow, Fire Staff, Dagger | Swap equipped weapon (instant) |
-| **Artifacts** | Tome of Ice, Pyroblast Core, Vampiric Blade | Equip/unequip from inventory (out of combat) |
-| **Spire Bonuses** | Fire Affinity, Shadow Step, Regeneration | Restore Spires (permanent once unlocked) |
+#### The Fire Wizard
 
-Because weapons and artifacts are swappable, you can change your entire build in seconds. This encourages experimentation — if a boss counters your current build, switch to a different one rather than bashing your head against a wall.
+- **Style:** AoE damage, burn pressure, and terrain destruction — pyroblasts and bombs leave craters in the world (confirmed behavior)
+- **Strong against:** groups, stationary targets, anything weak to fire (specifics unconfirmed)
+- **Watch out for:** friendly fire in co-op, and enemies that resist fire (resistance tables are unconfirmed)
+- **Signature confirmed tool:** the **Tome of Ice** artifact — creates frost bridges across gaps; pairs well with fire builds for mobility + damage
 
-### Build Archetypes (Emergent Classes)
+#### The Warrior
 
-While there are no official classes, the community has identified several emergent archetypes:
+- **Style:** high-risk, high-reward melee — dodge timing and positioning are everything
+- **Strong when:** you can stay in the fight; pairs with lifesteal-style sustain if such artifacts exist in the current build (unconfirmed)
+- **Watch out for:** swarms, bosses with wide AoE attacks
 
-#### The Pyromancer (Fire Mage)
+#### The Marksman
 
-- **Primary Weapon:** Fire Staff
-- **Core Artifact:** Pyroblast Core
-- **Key Spires:** Spire of Flame (#6)
-- **Playstyle:** AoE destruction, terrain manipulation, damage over time
-- **Skill Ceiling:** Medium — positioning matters, friendly fire in co-op
+- **Style:** safe ranged damage, kiting, and picking off priority targets
+- **Strong when:** learning boss patterns — you can observe from distance while dealing damage
+- **Watch out for:** cornered situations and fast closing enemies
 
-#### The Frost Warden (Ice Controller)
+#### Hybrids
 
-- **Primary Weapon:** Ice Staff + Sword
-- **Core Artifacts:** Tome of Ice, Guardian Shield
-- **Key Spires:** Spire of Frost (#7), Spire of Resilience (#4)
-- **Playstyle:** Crowd control, team support, area denial
-- **Skill Ceiling:** High — requires timing freezes and managing multiple enemies
-
-#### The Berserker (Melee DPS)
-
-- **Primary Weapon:** Greatsword or Axe
-- **Core Artifacts:** Berserker Axe, Vampiric Blade
-- **Key Spires:** Spire of the Hunt (#3), Spire of Vitality (#9)
-- **Playstyle:** High-risk high-reward, kill streaks, boss melting
-- **Skill Ceiling:** High — squishy without Vampiric Blade, requires perfect dodge timing
-
-#### The Storm Archer (Ranged DPS)
-
-- **Primary Weapon:** Bow or Crossbow
-- **Core Artifacts:** Stormcaller Bow, Marksman Rifle
-- **Key Spires:** Spire of Endurance (#2), Spire of Shadows (#8)
-- **Playstyle:** Safe distance, chain lightning, weak point targeting
-- **Skill Ceiling:** Low-Medium — most forgiving playstyle, good for beginners
-
-#### The Venomblade (DoT Specialist)
-
-- **Primary Weapon:** Dagger + Throwing Knives
-- **Core Artifacts:** Venom Dagger
-- **Key Spires:** Spire of the Hunt (#3), Spire of Alchemy (#5)
-- **Playstyle:** Hit-and-run, stacking poison, safe boss kills
-- **Skill Ceiling:** Medium — requires patience and poison management
-
-#### The Void Hunter (Anti-Eldran)
-
-- **Primary Weapon:** Void Scepter + Crossbow
-- **Core Artifacts:** Vampiric Blade, flex
-- **Key Spires:** Spire of the Void (#10) — the entire build revolves around this
-- **Playstyle:** Eldran-slaying specialist, essential for endgame
-- **Skill Ceiling:** Medium — only shines against Eldran, mediocre otherwise
-
-### Hybrid Builds
-
-The system truly shines when you hybridize. Some powerful combinations:
-
-- **Spellblade** (Sword + Fire Staff + Tome of Ice): Melee with freeze setup into fire burst combos
-- **Battle Medic** (Healing Staff + Sword + Guardian Shield): Off-healer that can also tank
-- **Trapper** (Bow + Venom Dagger + Tome of Ice): Freeze enemies, apply poison, finish from range
+The classless system shines when you combine: melee + frost utility, fire + ranged, or any other mix the artifact pool supports. There is no penalty for experimentation — the game's arcade design rewards it.
 
 ## Gear Progression Path
 
-Your character's power scales with gear tier:
+Confirmed shape, unconfirmed numbers: you progress through **material tiers** — gathering better ores and materials lets you craft better tools, weapons, and armor at specialized crafting stations. Expect early tiers (basic wood/stone gear) to give way to metal tiers as you explore deeper. The exact tier list and stats are **TBD** — the game is pre-release and the material list has not been officially published.
 
-| Tier | Weapon Damage | Armor Rating | Typical Spires | Typical Playtime |
-|------|--------------|--------------|----------------|-----------------|
-| **Stone/Wood** | 10-20 | 0-5 | 0-2 | 0-2 hours |
-| **Copper** | 20-30 | 5-15 | 2-4 | 2-6 hours |
-| **Iron** | 30-50 | 15-30 | 4-7 | 6-15 hours |
-| **Obsidian** (full game) | 50-80 | 30-50 | 7-10 | 15+ hours |
+Also confirmed: **some of the best gear comes from loot, not the crafting bench** — defeated enemies are a gear source you should not ignore.
 
-## Respeccing and Flexibility
+## Changing Your Build
 
-### Can You Respec?
+The classless design means respecs are mostly a non-issue:
 
-- **Spire bonuses:** Permanent. Cannot be undone. Choose your Spire order carefully.
-- **Weapons and Artifacts:** Fully swappable at any time (out of combat). No cost, no cooldown.
-- **Base location:** You can abandon and rebuild your base anywhere. Old structures remain unless dismantled.
+- **Weapons and artifacts:** swap freely by changing equipment. No classes, no permanent class commitments
+- **Spire bonuses:** permanent once restored (the world-built skill tree) — this is the one semi-permanent layer. Choose which Spires to restore deliberately, since passive bonuses accumulate
+- **Base location:** you can abandon and rebuild your base anywhere; old structures remain unless dismantled
 
-### Strategic Respeccing
+**Strategic swapping:** because gear swapping is free, the optimal approach is:
 
-Because artifact and weapon swapping is free, the optimal approach is:
+1. **Default build** — whatever you enjoy for general exploration
+2. **Boss build** — swap to counter each boss before the fight
+3. **Farming build** — equip gathering and utility items when doing resource runs
+4. **Travel build** — speed and mobility items for long-distance movement
 
-1. **Default build:** Whatever you enjoy for general exploration
-2. **Boss build:** Swap to boss-specific counters before each major fight
-3. **Farming build:** Swap to resource-gathering artifacts (efficiency bonuses) when doing dedicated farming runs
-4. **Travel build:** Equip Speed Boots + Glider Cape + Grappling Hook for fast map traversal
-
-Keep multiple artifact sets in labeled chests at your base and swap between them freely.
+Keep multiple gear sets in labeled chests at your base and swap freely. This is the classless system's superpower: every player can be every build, just not at the same time.
 
 ## Tips for Choosing Your First Build
 
-1. **Solo players:** Start with Storm Archer or Frost Warden — they are the most forgiving while you learn
-2. **Co-op players:** Have at least one Frost Warden (tank/CC) and one Berserker or Pyromancer (DPS)
-3. **Beginners to survival games:** Storm Archer lets you fight from safety while learning enemy patterns
-4. **Veterans of soulslikes:** Berserker rewards the aggressive, dodge-heavy playstyle you already know
-5. **Creative players:** Pyromancer + Tome of Ice gives you the most tools for terrain manipulation and creative problem-solving
+1. **Solo players:** start ranged or with strong self-sustain — the most forgiving while you learn
+2. **Co-op players:** specialize — have a frontline fighter and a support player, whatever forms those take in the current build
+3. **Beginners to survival games:** ranged lets you fight from safety while learning enemy patterns
+4. **Veterans of action games:** melee rewards the aggressive, dodge-heavy playstyle you already know
+5. **Experiment:** the arcade design, swappable gear, and free respec make Ardent Wilds the wrong game to commit to one build on day one
+
+## What Is Still Unknown (TBD)
+
+- Exact customization option lists and counts
+- The full artifact catalog and their effects (the Tome of Ice is confirmed by name)
+- Gear tier names, stats, and progression order
+- Whether appearance can be changed after character creation
+
+This guide will be updated as the full game approaches. Until then, build boldly — the game is designed for it.

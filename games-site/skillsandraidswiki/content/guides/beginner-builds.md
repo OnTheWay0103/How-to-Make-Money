@@ -1,156 +1,119 @@
 ---
 title: "Skills & Raids Beginner Builds — Best Loadouts for New Players"
-description: "Start strong with curated beginner builds for Skills & Raids. Tank, DPS, and support loadouts using only Common and Uncommon skills with detailed skill combos."
+description: "Start strong with curated beginner builds for Skills & Raids. Loadouts for Shelldon the tank, Clawrk the DPS, and Owlivia the healer using the skills you unlock early."
 category: "Guides"
-version: "Open Beta"
-updated: "2026-07-23"
-keywords: ["Skills & Raids beginner builds", "Skills & Raids loadouts", "Skills & Raids tank build", "Skills & Raids DPS build", "Skills & Raids support build"]
-related: ["beginner-guide", "builds-guide", "skills-guide", "tier-list"]
+version: "1.0"
+updated: "2026-08-01"
+keywords: ["Skills & Raids beginner builds", "Skills & Raids loadouts", "Skills & Raids tank build", "Skills & Raids DPS build", "Skills & Raids healer build"]
+related: ["beginner-guide", "builds-guide", "skills-guide", "character-guide"]
 ---
 
 # Skills & Raids Beginner Builds — Best Loadouts for New Players
 
-**Skills & Raids Open Beta / Updated: July 23, 2026**
+**Skills & Raids 1.0 / Updated: August 1, 2026**
 
-New to Skills & Raids and not sure which skills to equip? This guide provides three complete beginner builds — Tank, DPS, and Support — using only Common (white) and Uncommon (green) skills that you will unlock within your first few raids. Each build includes skill combos, stat priorities, and team roles.
-
----
-
-## 1. Building Fundamentals
-
-### Core Principles
-Before diving into specific builds, understand these basics:
-
-- **Skill slots:** Each character has 3 skill slots. Slot order matters — the first skill in the slot order is used first in auto-combat and determines initial positioning.
-- **Skill synergy:** Matching skills with the same synergy tag (listed on each skill card) activates combo effects that deal 40-60% bonus damage or provide enhanced healing.
-- **Stat scaling:** Every skill scales with one primary stat (STR, INT, DEX, or VIT). Check the skill card's stat scaling indicator before equipping.
-
-### General Stat Priority
-
-| Role | Primary Stat | Secondary Stat | Tertiary Stat |
-|------|-------------|---------------|---------------|
-| Tank | VIT (HP, Defense) | STR (Threat generation) | DEX (Parry chance) |
-| DPS | STR or INT (damage type) | Crit Rate | Crit Damage |
-| Support | INT (Healing power) | VIT (Survivability) | DEX (Cast speed) |
+New to Skills & Raids and not sure what to equip? This guide gives you three beginner loadouts — one for each of your heroes — built entirely on what is confirmed about the game: a fixed party (Shelldon the tank, Clawrk the DPS, Owlivia the healer), two abilities per character, and skills gained from enemy drops, quests, and crafting. You will unlock the exact abilities to fill these roles within your first few quests.
 
 ---
 
-## 2. Iron Wall Tank Build
+## 1. Loadout Fundamentals
 
-The Iron Wall is a defensive frontline build focused on drawing enemy aggro, reducing incoming damage, and controlling enemy positioning. This is the safest beginner build because mistakes are forgiving with high HP and damage reduction.
+Before the builds, the rules that hold for every loadout:
 
-### Skill Set
-
-| Slot | Skill | Rarity | Effect |
-|------|-------|--------|--------|
-| 1 | Shield Bash | Common | Single-target stun + high threat generation |
-| 2 | Fortify | Common | Self-buff: +30% defense for 3 turns (2-turn cooldown) |
-| 3 | Taunting Shout | Uncommon | AoE taunt all enemies + self-heal 15% max HP |
-
-### Synergy Combos
-- **Shield Bash → Fortify:** Shield Bash generates threat, then Fortify mitigates the retaliation damage. This is your standard rotation.
-- **Taunting Shout + Shield Bash:** Use Taunting Shout first to group enemy aggro, then Shield Bash the most dangerous target to lock it down.
-
-### Stat Priority
-VIT (20) > STR (12) > DEX (8)
-
-### Equipment Focus
-- **Armor:** Heavy Plate (highest defense, available from Foothills boss drops)
-- **Shield:** Any shield with +Threat Generation modifier
-- **Consumables:** Healing Potions x2, Defense Tonic x1
-
-### How to Play
-1. Open every encounter with Taunting Shout to establish aggro on all enemies
-2. Use Shield Bash on the highest-damage enemy to interrupt its attack
-3. Maintain Fortify during downtime — keep the buff active
-4. Let your DPS and Support do their jobs while you absorb damage
+- **Two abilities per character.** Six slots total for the party. There is no third slot — don't let guides that claim "3 skill slots" fool you.
+- **The demo is your curriculum.** The demo's 15 skills show the design of early-game abilities: simple heals, shields, damage abilities, and basic status effects.
+- **The roles are fixed.** Shelldon tanks, Clawrk damages, Owlivia heals. Build *within* those roles; you can't turn Clawrk into a healer.
+- **Synergy is the point.** Two abilities that feed each other beat two strong-but-unrelated ones.
 
 ---
 
-## 3. Ranged DPS Build — Arcane Archer
+## 2. Shelldon (Tank) — The Survival Loadout
 
-The Arcane Archer is a safe ranged damage build that deals consistent magic damage while staying at maximum distance from enemies.
+**Goal:** make the party's damage sponge actually sponge, so Owlivia can keep everyone topped up.
 
-### Skill Set
+| Slot | Function to Look For | Example (demo-era style) |
+|------|---------------------|--------------------------|
+| 1 | Mitigation / shield or defense buff | A shell-guard-style damage reduction or shield ability |
+| 2 | Self-sustain or threat control | Self-heal, or an ability that draws enemy attacks |
 
-| Slot | Skill | Rarity | Effect |
-|------|-------|--------|--------|
-| 1 | Magic Arrow | Common | Basic ranged attack, no cooldown, low mana cost |
-| 2 | Arcane Volley | Uncommon | AoE magic damage (3 targets), 15% mana cost for 3 turns |
-| 3 | Sniper Shot | Common | High single-target damage, +50% damage if target is above 50% HP |
+**How to play:** open fights with the threat/aggro ability if you have one, keep the mitigation up on cooldown, and only drop the self-sustain when Owlivia is busy. The tank's job is to buy time — every turn Shelldon absorbs is a turn Clawrk uses to kill things.
 
-### Synergy Combos
-- **Magic Arrow → Arcane Volley:** Weaken a single target first, then AoE to finish the group. The debuff from Magic Arrow increases Arcane Volley damage by 20%.
-- **Sniper Shot opener:** Start fights with Sniper Shot on the highest-HP enemy to take advantage of the +50% damage bonus.
-
-### Stat Priority
-INT (20) > Crit Rate (15) > DEX (10)
-
-### Equipment Focus
-- **Weapon:** Longbow or Magic Staff (whichever drops first — both scale with INT)
-- **Armor:** Light Armor (maintains mobility, avoids speed penalties)
-- **Consumables:** Mana Potions x3, Offense Tonic x1
-
-### How to Play
-1. Open with Sniper Shot on the toughest enemy for massive opening damage
-2. Use Magic Arrow for sustained damage while conserving mana
-3. Drop Arcane Volley when facing groups of 3+ enemies
-4. Stay behind the Tank at all times — never be the frontliner
+**Stat intuition:** favor defense and durability. If gear drops with defensive bonuses, they belong on Shelldon first.
 
 ---
 
-## 4. Restoration Support Build
+## 3. Clawrk (DPS) — The Damage Loadout
 
-The Restoration Support keeps the team alive with heals, cleanses, and buffs. This build requires awareness of team HP bars but is mechanically simple — its difficulty lies in positioning, not execution.
+**Goal:** end fights before resources run out.
 
-### Skill Set
+| Slot | Function to Look For | Example (demo-era style) |
+|------|---------------------|--------------------------|
+| 1 | Strong single-target damage | A claw-strike-style burst ability |
+| 2 | Debuff, damage-over-time, or finisher | A status-applying or execution-style ability |
 
-| Slot | Skill | Rarity | Effect |
-|------|-------|--------|--------|
-| 1 | Heal | Common | Single-target heal, 35% of your INT as HP, 2-turn cooldown |
-| 2 | Cleanse | Common | Remove all debuffs from one ally, 3-turn cooldown |
-| 3 | Blessing | Uncommon | Party buff: +15% damage and +10% defense for 2 turns |
+**How to play:** open with the debuff (if it sets up damage), then follow with the burst ability — the classic setup → payoff rotation. Against enemy healers, damage-over-time or repeated pressure is the only way to out-damage their healing. This is your main answer to the "unbeatable healer+tank enemy team" difficulty spike some demo players hit.
 
-### Synergy Combos
-- **Heal + Cleanse:** Against enemies that apply poison or burn, alternate between Heal and Cleanse to keep the Tank healthy and debuff-free.
-- **Blessing before boss phase:** Pre-cast Blessing 1 turn before a boss's damage phase to maximize the team's 2-turn window.
-
-### Stat Priority
-INT (20) > VIT (15) > DEX (8)
-
-### Equipment Focus
-- **Weapon:** Tome or Staff (+Healing Power modifier preferred)
-- **Armor:** Robe (low defense but high INT bonuses)
-- **Consumables:** Mana Potions x4 (healing is mana-intensive), Healing Salve x1
-
-### How to Play
-1. Keep Heal ready for emergencies — do not spam it. Wait until the Tank drops below 50% HP
-2. Watch for debuff icons (purple icons under HP bars) and use Cleanse immediately on the Tank
-3. Use Blessing proactively — right before combat, or before boss phases
-4. Position yourself at maximum heal range (indicated by a green circle around your target)
+**Stat intuition:** prioritize damage, crit-style bonuses, and penetration if the game offers them on gear.
 
 ---
 
-## 5. Team Composition with Beginner Builds
+## 4. Owlivia (Healer) — The Sustain Loadout
 
-The three builds above are designed to work together as a complete party:
+**Goal:** keep the party alive through everything the run throws at you. This is the most important loadout in the game.
 
-| Role | Build | Positioning |
-|------|-------|-------------|
-| Frontline | Iron Wall Tank | Closest to enemies |
-| Mid-line | Arcane Archer DPS | Mid-distance, behind Tank |
-| Back-line | Restoration Support | Maximum range |
+| Slot | Function to Look For | Example (demo-era style) |
+|------|---------------------|--------------------------|
+| 1 | Direct heal | A targeted heal with a reasonable cooldown |
+| 2 | Heal-over-time or cleanse/buff | Sustained recovery, status removal, or a protective buff |
 
-### Recommended Raid Order
-1. Farm Foothills until you have all Common skills for your chosen build (approximately 3-5 raids)
-2. Acquire at least one Uncommon skill (Taunting Shout, Arcane Volley, or Blessing) — all drop from the Foothills Bandit Leader
-3. Run Timberland with your full build to collect Uncommon replacements for remaining Common skills
-4. When all three members have full Uncommon skill sets, attempt the first world boss
+**How to play:** don't spam the direct heal — use it when someone drops to about half HP. Keep the heal-over-time or buff up during fights. Watch for status effects on your party (the pause menu lets you read them) and use cleanse-style abilities when they appear. **Do not let Owlivia die.** With the healer gone, most fights are unwinnable — demo reviews documented fights stalling into infinite loops when the last healer faces an enemy healer.
 
 ---
 
-## 6. Next Steps After Beginner Builds
+## 5. Putting It Together: The Starter Party Build
 
-Once you have mastered these basic builds and acquired a full set of Uncommon skills, you are ready for more advanced team compositions. The synergy between players becomes more important than individual skill rarity. Move on to specialized builds that focus on elemental damage, critical hit chains, and hybrid roles.
+| Hero | Slot 1 | Slot 2 | Purpose |
+|------|--------|--------|---------|
+| Shelldon | Mitigation | Self-sustain / threat | Buy time |
+| Clawrk | Burst damage | Debuff / DoT | End fights |
+| Owlivia | Direct heal | HoT / cleanse | Keep everyone alive |
 
-Ready to optimize further? Check the [Builds Guide](/guides/builds-guide) for advanced loadouts or the [Skills Guide](/guides/skills-guide) for a complete database of every skill in the game.
+**How to run it:**
+
+1. Let Shelldon take the hits; keep his mitigation up.
+2. Clawrk opens with debuff, then bursts the most dangerous enemy — kill enemy healers and supports first.
+3. Owlivia heals at half HP, keeps HoT rolling, cleanses when icons appear.
+4. Extract as soon as the quest target is done or the bags are comfortably full.
+
+**Why this works:** it's the balanced template — every role covered, two-deep — and it's the loadout most consistent with the demo's 15-skill design. As you collect more skills, upgrade one slot at a time (see the [Best Skills & Builds Guide](/guides/best-skills-builds) for upgrade priority).
+
+---
+
+## 6. First Loadout Milestones
+
+| Milestone | What to Do |
+|-----------|------------|
+| First quests | Run the starter template with whatever drops you get |
+| First enemy skill drop | Swap it in for one run to test (free to change between runs) |
+| Unlock a cleanse-style ability | Equip on Owlivia — status-heavy fights are coming |
+| Unlock a synergy pair | Once two of your abilities clearly feed each other, build around the pair |
+| Late game | Shift Clawrk toward burst + finisher to break healing enemy teams |
+
+---
+
+## 7. Mistakes That End Beginner Runs
+
+1. **Owlivia in the front.** Keep the healer protected — positioning matters.
+2. **Saving the big heal "for emergencies."** Use it at half HP, not at 10%.
+3. **Ignoring enemy skill drops.** Free build pieces are the game's generosity system — take them.
+4. **Overstaying for loot.** A failed run loses everything not in the safe pocket.
+5. **Ignoring quest requirements.** Quests that demand specific abilities are progression — rotate for them.
+
+---
+
+## Next Steps
+
+- [Beginner Guide](/guides/beginner-guide) — the full getting-started walkthrough.
+- [Character Guide](/guides/character-guide) — deep dive on each hero.
+- [Skills Guide](/guides/skills-guide) — how the ability system works.
+- [Builds Guide](/guides/builds-guide) — the build framework.

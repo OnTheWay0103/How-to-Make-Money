@@ -1,123 +1,84 @@
 ---
-title: 'Phantom Tower Combat Guide — Advanced Tactics and Survival Strategies'
-description: 'Master Phantom Tower combat with advanced tactics — dodge timing, elemental swap windows, crowd control, chokepoint manipulation, environmental hazards, and deep-floor survival strategies.'
+title: 'Phantom Tower Combat Guide — Tactics and Survival Strategies'
+description: 'Master Phantom Tower combat — dodge timing, positioning, crowd control, mid-fight element swapping, room-by-room tactics, and deep-floor survival strategies based on confirmed mechanics.'
+category: 'Guides'
+version: 'Early Access'
+updated: '2026-08-01'
 keywords: ['Phantom Tower combat guide', 'Phantom Tower advanced tactics', 'Phantom Tower dodge timing', 'Phantom Tower crowd control', 'Phantom Tower survival tips', 'Phantom Tower combat tips']
-updated: '2026-07-30'
+related:
+  - elements-guide
+  - boss-guide
+  - beginner-guide
+  - advanced-strategies
 ---
 
-# Phantom Tower Combat Guide — Advanced Tactics and Survival Strategies
+# Phantom Tower Combat Guide — Tactics and Survival Strategies
 
-Learning your class and element rotation will carry you through the first 30 floors. To reach floor 100, you need to master Phantom Tower's deeper combat systems — dodge i-frames, reaction immunity windows, crowd control, environmental manipulation, and resource management. This guide covers advanced tactics that the game never explicitly teaches.
+Phantom Tower is a hack-and-slash roguelike action RPG, which means two things: the fundamentals of good action combat — dodging, positioning, reading enemies — matter as much as your build, and every fight is one mistake away from ending your run. This guide covers the combat skills that carry runs, grounded in the game's confirmed mechanics and honest about what the developer has not published.
 
-## Dodge Mechanics — Beyond the Basics
+## The Confirmed Combat Framework
 
-Phantom Tower's dodge roll grants invincibility frames (i-frames) during the middle portion of the animation.
+Before tactics, the confirmed facts that shape every fight:
 
-| Class | i-Frames | Dodge Distance | Cooldown |
-|-------|----------|---------------|----------|
-| Warrior | 10 frames | Standard | 1.2s |
-| Elementalist | 8 frames | Short | 1.0s |
-| Blade Dancer | 14 frames | Long | 0.8s |
-| Berserker | 10 frames | Standard | 1.4s |
-| Ranger | 10 frames | Standard | 1.0s |
-| Guardian | 8 frames | Short | 1.5s |
-| Mystic | 10 frames | Standard | 1.2s |
-| Rogue | 12 frames | Long | 0.9s |
+- **Mid-fight element swapping.** You swap between IGNIS (fire), AQUA (water), TERRA (earth), and VENTI (wind) in real time to trigger one of 16 elemental reactions
+- **60+ enemy types.** The enemy roster is wide — new floors mean new attack patterns
+- **Powerful bosses** guard progress, and the Steam version adds Boss Unique Weapons
+- **Tower Blessings** are "powerful abilities hidden across its floors" — 47 total, discovered during climbs
+- **Two modes:** Climb Mode (progress carries over) and Survival Mode (infinite hordes, every defeat is final)
 
-**Blade Dancer has the best dodge in the game:** 14 i-frames, long distance, and the shortest cooldown at 0.8 seconds. The class is balanced around this — you are expected to dodge frequently, not occasionally.
+## Dodge and Positioning — The Fundamentals
 
-**Guardian has the worst dodge:** Only 8 i-frames, short distance, and a 1.5-second cooldown. The Guardian is designed to block, not dodge. Use your shield.
+Phantom Tower is a hack-and-slash, so iframes and dodge timing are part of the feel — but the developer has not published dodge data (frame counts, cooldowns, distances). Guides with precise dodge tables are inventing numbers. What matters is the skill, not the spreadsheet:
 
-**Key technique — Dodge into attacks, not away from them.** Enemy attacks have forward momentum. Dodging backward keeps you in the attack's travel path. Dodging forward (through the enemy) positions you behind them for free back-hits while the enemy finishes their animation facing the wrong direction.
+**1. Dodge through, not away.** Enemy attacks have forward momentum. Rolling backward keeps you in the attack's path; rolling past the enemy puts you behind them while they finish their animation.
 
-## Elemental Reaction Immunity Windows
+**2. Learn the tell before the telegraph.** Every enemy type in a 60+ roster has an attack rhythm. The first time you meet a type, spend the encounter dodging and watching — the second encounter is when you punish.
 
-This is Phantom Tower's most important hidden mechanic:
+**3. Position beats reaction.** Rooms have geometry for a reason. Standing where one enemy must walk past another to reach you is better than dodging two attacks at once.
 
-**During the 0.5-second reaction animation when swapping elements mid-attack, you are completely invincible.**
+**4. Do not panic-roll.** The classic action-game death: dodge used on nothing, then eaten by the real attack. Dodge in response to a committed enemy attack, not in anticipation of one.
 
-This means:
-- You can swap elements to dodge through attacks that are impossible to roll-dodge
-- You can stay aggressive during boss enrage phases by timing swaps to reaction immunity
-- Elementalist can chain swaps for near-continuous i-frame coverage
+## Element Swapping in Combat
 
-**Example:** The Warden's sweeping slash covers 180 degrees and cannot be dodged backward. Instead, swap IGNIS → TERRA as the slash reaches you. The Magma Eruption reaction's 0.5-second animation will carry you through the hit. You take zero damage and land with a damage buff active.
+Element swapping is the confirmed heart of the combat system — the official description calls out swapping elements "in real time" to trigger reactions. Three combat patterns use it directly:
 
-**Advanced technique:** Chain two swaps (e.g., IGNIS → TERRA → AQUA) for 1.0 seconds of total invincibility. This is the only way to survive certain boss ultimate attacks. Costs both swap charges but keeps you alive.
+**The setup-detonate rhythm.** Apply one element's effect, swap to a second, trigger a reaction. The officially named reactions give you the playbook: Freeze immobilizes enemies (control), Erode chains through groups from fallen enemies (clearing), Shockwaves traverse rooms (reach).
+
+**Swap under pressure.** When you are surrounded, a freeze reaction is the safest escape tool in the game — control the crowd, then reposition. Do not save swaps for "the right moment"; the right moment is usually the dangerous one.
+
+**Swap to adapt.** The official design is explicit: match the element to the situation. A room full of fast enemies wants freeze; a tight corridor of weak enemies wants a chain reaction; a boss arena wants whatever reaction you have mastered.
 
 ## Crowd Control — Managing Multiple Enemies
 
-Once rooms have 5+ enemies (common after floor 30), you cannot face-tank everything. Crowd control becomes essential.
+Once rooms get dense (and they will — 60+ enemy types means swarms), you cannot fight everything at once. The confirmed tool is the reaction system; the rest is universal roguelike craft:
 
-### Soft CC (No Resource Cost)
-- **Chokepoint baiting:** Stand in doorways. Enemies path single-file through the door. You fight one at a time instead of five.
-- **Environmental kiting:** Run circles around pillars and obstacles. Melee enemies must path around them; you chip them with ranged attacks.
-- **Corner pulling:** Aggro a group, run around a corner. Ranged enemies lose line of sight and must walk to you. Melee enemies arrive first and you kill them before ranged enemies catch up.
+- **Chokepoint baiting.** Stand in doorways and corridors. Enemies path single-file, and you fight one at a time instead of five
+- **Corner pulling.** Aggro a group, break line of sight, and the pack arrives in pieces instead of as a wall
+- **Priority targeting.** Ranged and buffing enemies first — they threaten you while you deal with the melee line. (The game's specific enemy roles are unconfirmed, but the principle holds for any action game)
+- **Reaction-first, always.** A freeze (AQUA-based) or chain reaction (TERRA-based Erode) does what three minutes of kiting cannot: it turns a swarm into a damage window
 
-### Hard CC (Element + Blessing Cost)
-- **AQUA + AQUA (Deep Freeze):** Full 3-second freeze. The best single-target CC. Use on the most dangerous enemy in a group.
-- **AQUA + VENTI (Frost Storm):** AoE freeze + slow. The best multi-target CC. Use when surrounded.
-- **VENTI + TERRA (Dust Devil):** Pull enemies into a tight cluster, then slow them. Setup for AoE burst.
-- **TERRA + AQUA (Quagmire):** 60% AoE slow. Excellent for kiting melee-heavy rooms.
+## Environmental Awareness
 
-### CC Priority List
-When facing a mixed group, disable enemies in this order:
-1. **Ranged enemies** (archers, mages) — They deal damage while you handle melee
-2. **Buffer/Healer enemies** — They make other enemies stronger
-3. **Fast melee enemies** — They close distance and interrupt your combos
-4. **Slow melee enemies** — Kite them last
-
-## Environmental Hazards
-
-Every arena has hazards you can use:
-
-| Hazard | Effect | How to Exploit |
-|--------|--------|---------------|
-| **Explosive Barrels** | Massive AoE fire damage | Bait enemies next to barrels, ignite with IGNIS |
-| **Crumbling Pillars** | Fall and deal crushing damage | Attack pillars twice to trigger collapse on enemies below |
-| **Spike Traps** | Bleed damage over time | Stand behind spike traps and let enemies walk into them |
-| **Lava/Fire Pits** | Constant fire damage | Push/pull enemies into pits with VENTI reactions |
-| **Ice Patches** | Slip and stagger | Freeze ground with AQUA, enemies slip when walking on it |
-
-**Advanced tip:** Environmental damage scales with floor level, not your weapon level. On floor 80+, an explosive barrel deals more damage than your fully charged Greataxe swing. Exploit environments heavily in late-game.
+There is no official documentation of arena hazards (explosive barrels, traps, and similar props), so treat specific hazard claims in other guides as unverified. What is safe to rely on: floors are hand-crafted rooms in a climbing game, and roguelike arenas consistently reward players who use the space — pillars for line of sight, ledges for repositioning, and wide rooms for kiting. Watch each new room before committing.
 
 ## Resource Management
 
-### Health Potions
-- **Do not use potions before floor bosses.** The Warden, Twin Sentinels, etc. are survivable with careful play. Save potions for the Corrupted Elemental (floor 50) and beyond.
-- **On floor 75+:** Use potions proactively at 50% HP, not reactively at 20%. Late-game enemy damage is high enough that 20% HP = death in one hit.
-- **Potions refill at camp (every 10 floors).** If you have potions remaining before a camp floor, you wasted them.
+The developer has not published a resource system (potions, durability, currencies), so this is universal roguelike practice rather than game-specific fact:
 
-### Element Swap Charges
-- **Never enter a room with zero swap charges.** Wait for cooldowns to reset before opening doors or aggroing enemies.
-- **Save one charge for emergencies.** Always keep at least one swap available for a reaction immunity window if you misjudge an enemy attack.
+- **Spend between runs, not during them.** Climb Mode's confirmed design lets you bring materials, resources, and equipment back outside the tower — bank progress when you have it
+- **Carry what the Blacksmith gives you.** Forging and upgrading are the confirmed gear loop; a forged weapon you know beats a mystery drop you do not
+- **Treat every run as an investment.** Even a failed climb feeds materials into forging and stats into the Soulbinder — the confirmed meta-progression system
 
-### Weapon Durability
-- Weapons lose durability on use. Durability hits zero = weapon breaks = you lose that weapon for the rest of the run.
-- **Carry a backup weapon.** In your inventory, always keep a secondary weapon at 70%+ of your main weapon's power.
-- **Repair at the Blacksmith every camp.** Even if durability is at 80%, repair it. The gold cost is minimal compared to losing a weapon mid-boss fight.
+## Survival Mode Combat
 
-## Speed Running Techniques
+Survival Mode is the endless-horde mode: infinite monsters, you choose your equipment, and "every defeat, however, is final." Combat there is a different sport:
 
-Once you have cleared floor 100 and are farming, optimize your clear speed:
+- **Sustain is strategy.** Permadeath runs are won by not dying — prioritize reactions and blessings that control crowds (freeze, chain effects) over raw damage
+- **Pick gear you trust.** With equipment chosen up front, your most-forged, best-known weapon is the right choice, not the flashiest one
+- **Wave management beats kill speed.** In infinite hordes, positioning and control determine how long you last far more than DPS
 
-1. **Skip non-essential rooms.** If a room has no blessing indicator (glowing blue light under the door), skip it.
-2. **VENTI + IGNIS (Firestorm) clears rooms fastest.** One swap deletes everything in a standard room.
-3. **Run past easy enemies.** Not every enemy must die. If the exit is visible and enemies are slow, run past them.
-4. **Boss skip shrines.** Rare shrines (floor 60+) let you skip the next boss entirely. Use them on bosses you struggle with.
+## The Mindset
 
-## Class-Specific Combat Tech
+Phantom Tower is a roguelike: you will die, and dying is the loop. The confirmed systems — bringing gear out of the tower, permanent Soulbinder stats, blessings discovered run to run — all reward persistence. Combat mastery is the multiplier on that progression: the same gear climbs twice as far in the hands of a player who dodges, positions, and swaps well.
 
-### Blade Dancer — Dodge Animation Cancel
-Cancel your attack animation with a dodge, then immediately attack again. This chains: Attack → Dodge (cancel) → Attack → Dodge (cancel). Against slow bosses, you can fit 4-5 attacks where other classes get 2.
-
-### Elementalist — Pre-Loaded Reaction
-Load two different status effects on two different enemies before combat. When combat starts, trigger reactions on both simultaneously by swapping to a third element. Requires precise timing but doubles your opening burst.
-
-### Guardian — Block-Cancel
-Blocking cancels your attack recovery animation. Attack → block immediately after the hit connects → attack again. This cancels roughly 0.3 seconds of recovery per swing. Over a boss fight, block-canceling adds up to 20-30% more attacks.
-
-### Rogue — Stealth Chain
-Shadow Step (2s stealth on kill) → position behind next enemy → Assassin's Mark (first hit from stealth = 4x) → kill → Shadow Step resets. Chain this indefinitely through rooms of enemies.
-
-**Next steps:** Apply these tactics with your chosen [build](/guides/best-builds) and prepare for [endgame content](/guides/progression-guide).
+**Next steps:** Apply your combat fundamentals to bosses in the [Boss Guide](/guides/boss-guide), or take the long view with the [Advanced Strategies Guide](/guides/advanced-strategies).

@@ -12,7 +12,7 @@ related: ["romance-guide", "beginner-guide", "best-builds-guide"]
 
 > Early Access Build (Act One) / Updated: August 1, 2026
 
-Eight companions. Eight stories. "Loyalty is worth more than gold," reads the official Companions trailer — and in Expeditions: Samurai, that is literal game design. Every companion has a **personal story, a dedicated quest chain, and a relationship with you** that can end as friendship, rivalry, or romance. This guide covers every companion officially named, the roles they fill, and how the loyalty system works.
+Eight companions. Eight stories. "Earn their trust and an ally becomes a friend — or something more," reads the official Companions trailer — and in Expeditions: Samurai, that is literal game design. Every companion has a **personal story, a dedicated quest chain, and a relationship with you** that can end as friendship, rivalry, or romance. This guide covers every companion officially named, the roles they fill, and how the loyalty system works.
 
 ## The Five Named Companions
 
@@ -58,7 +58,7 @@ The official line: companions "may not share the same values," but every one of 
 
 - **Your choices shape their loyalty.** How you treat each companion — in dialogue, in combat, and in the decisions you make as captain — moves their relationship toward friendship, rivalry, or romance.
 - **Each companion has a dedicated quest chain.** Completing them deepens loyalty and rewards you with personal payoff and story context.
-- **Loyalty has mechanical weight.** Companions who trust you are the ones "who stand beside you when it matters most" — expect loyalty to gate key story moments, endings, and possibly combat performance.
+- **Loyalty has mechanical weight.** Companions who trust you are the ones who stand with you when it matters — expect loyalty to gate key story moments, endings, and possibly combat performance (exact mechanics TBD at launch).
 - **Everyone can go either way.** A companion you alienate can become a lifelong rival — with real consequences in a game about civil war factions.
 
 ## Building Your Ideal Party
@@ -76,7 +76,7 @@ Rotate companions to progress their personal quests — loyalty quests are often
 
 ## Companion Mistakes to Avoid
 
-1. **Leaving someone out of every mission.** Their quest chains stall, and loyalty decays.
+1. **Leaving someone out of every mission.** Their quest chains stall, and you miss the story — and relationship — content they carry.
 2. **Ignoring rivalry flags.** Rivalry isn't just flavor — it can close off story routes and endings.
 3. **Skipping dialogue options.** The relationship system is fed by how you respond in conversations. Hear people out.
 4. **Forgetting they can die.** Expeditions games are unforgiving — a dead companion is a lost story. Protect your party.

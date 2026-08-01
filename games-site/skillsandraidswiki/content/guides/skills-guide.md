@@ -1,107 +1,111 @@
 ---
-title: "Skills & Raids Skills Guide — Complete Skill Database"
-description: "Complete guide to all skills in Skills & Raids across all 5 rarity tiers. Learn skill types, synergy tags, combo mechanics, and optimal setups."
+title: "Skills & Raids Skills Guide — Ability System Explained"
+description: "Complete guide to the skill system in Skills & Raids. How abilities work, two abilities per character, skill drops, the 5 rarity tiers, and how to build synergies."
 category: "Skills"
-version: "Open Beta"
-updated: "2026-07-14"
-keywords: ["Skills & Raids skills guide", "Skills & Raids all skills", "Skills & Raids skill types", "Skills & Raids skill synergy", "Skills & Raids skill combos"]
-related: ["tier-list", "builds-guide", "beginner-guide"]
+version: "1.0"
+updated: "2026-08-01"
+keywords: ["Skills & Raids skills guide", "Skills & Raids abilities", "Skills & Raids skill drops", "Skills & Raids skill rarity", "Skills & Raids skill combos", "Skills & Raids best skills"]
+related: ["character-guide", "best-skills-builds", "builds-guide", "beginner-guide"]
 ---
 
-# Skills & Raids Skills Guide — Complete Skill Database
+# Skills & Raids Skills Guide — The Ability System Explained
 
-**Skills & Raids Open Beta / Updated: July 14, 2026**
+**Skills & Raids 1.0 / Updated: August 1, 2026**
 
-Skills are the core of combat. Each character equips 3 skills, and the interaction between those skills — across your entire team — determines success or failure.
-
----
-
-## Skill Rarity System
-
-Skills drop from enemies, bosses, and chests in 5 rarity tiers:
-
-| Rarity | Color | Drop Source | Power Level | Synergy Slots |
-|--------|-------|-------------|-------------|---------------|
-| Common | White | All enemies | Base (1×) | 1 |
-| Uncommon | Green | Elite enemies, chests | 1.5× | 1 |
-| Rare | Blue | Bosses, rare chests | 2× | 2 |
-| Epic | Purple | Bosses (10% drop), legendary chests | 3× | 2 |
-| Legendary | Orange | Final boss only (<2% drop) | 5× | 3 |
-
-**Synergy Slots** determine how many other skills a skill can combo with. More slots = more combo potential.
+Skills are the heart of Skills & Raids — the game is literally built around them. Your heroes use abilities in real-time combat, enemies drop their own skills, and combining skills into builds is the main form of character progression. This guide explains everything that is publicly confirmed about the skill system, and clearly marks what is still unconfirmed.
 
 ---
 
-## Skill Categories
+## 1. The Core Rule: Two Abilities per Character
 
-### Offense Skills
+The single most important confirmed fact about the skill system: **each character equips two abilities** from the array of skills you have collected (confirmed in the GameGrin and IGN coverage of the Latin American Games Showcase 2026 reveal).
 
-| Skill | Effect | Rarity | Synergy Tags | Best Combo |
-|-------|--------|--------|--------------|------------|
-| Power Strike | 150% single-target damage | Common+ | [Strike] [Physical] | Armor Break → Power Strike |
-| Critical Edge | 200% damage, ignores 30% armor | Rare+ | [Critical] [Strike] | Mark Target → Critical Edge |
-| Berserk | +50% damage, -30% defense for 3 turns | Rare+ | [Enhance] [Risk] | Haste → Berserk |
-| Execute | 300% damage to enemies below 30% HP | Uncommon+ | [Strike] [Finisher] | Weaken → Execute |
-| Multi-Slash | 100% damage to 3 random enemies | Rare+ | [AoE] [Strike] | Armor Break → Multi-Slash |
+That means your whole party runs **six abilities total** — two for Shelldon, two for Clawrk, and two for Owlivia. Every build decision in the game is ultimately about which six abilities you bring into a run, and how they interact:
 
-### Defense Skills
-
-| Skill | Effect | Rarity | Synergy Tags | Best Combo |
-|-------|--------|--------|--------------|------------|
-| Shield Wall | Absorb 200% of tank's defense as HP for 2 turns | Uncommon+ | [Shield] [Protection] | Shield Wall → Holy Light |
-| Fortify | +40% defense, permanent until hit 3 times | Common+ | [Shield] [Endurance] | Group Mend → Fortify |
-| Evasion | 50% chance to dodge next 2 attacks | Rare+ | [Agility] [Risk] | Haste → Evasion |
-| Counter Stance | Retaliate for 75% damage when attacked | Rare+ | [Strike] [Reaction] | Taunt → Counter Stance |
-
-### Restoration Skills
-
-| Skill | Effect | Rarity | Synergy Tags | Best Combo |
-|-------|--------|--------|--------------|------------|
-| Holy Light | Heal 250% of healer's INT | Uncommon+ | [Heal] [Light] | Shield Wall → Holy Light |
-| Group Mend | Heal 120% to all allies over 3 turns | Rare+ | [Heal] [AoE] [Regen] | Fortify → Group Mend |
-| Cleanse | Remove all debuffs from one ally | Rare+ | [Heal] [Purify] | Use on tank after boss debuffs |
-| Life Steal | Heal for 30% of damage dealt | Rare+ | [Heal] [Strike] | Self-sustain for solo builds |
-| Revive | Bring back a fallen ally at 40% HP | Epic+ | [Heal] [Miracle] | Save for boss fights only |
-
-### Utility Skills
-
-| Skill | Effect | Rarity | Synergy Tags | Best Combo |
-|-------|--------|--------|--------------|------------|
-| Haste | +25% turn speed for 3 turns | Uncommon+ | [Enhance] [Speed] | Haste → Berserk → Power Strike |
-| Mark Target | Marked enemy takes +40% damage for 2 turns | Rare+ | [Debuff] [Tactical] | Mark Target → Critical Edge |
-| Weaken | -30% enemy attack and defense for 3 turns | Uncommon+ | [Debuff] [Tactical] | Weaken → Execute |
-| Taunt | Force all enemies to target tank for 2 turns | Uncommon+ | [Control] [Protection] | Taunt → Counter Stance |
-| Armor Break | -40% enemy defense for 3 turns | Rare+ | [Debuff] [Strike] | Armor Break → Power Strike |
+- **Rotations:** with only two abilities per hero, you manage cooldowns between just two skills per character — the decision is about *when* to use each, not juggling many.
+- **Synergy:** the official pitch states that combining multiple skills creates powerful synergies that change your approach to combat. With a small loadout, synergy between your six abilities matters more than individual power.
 
 ---
 
-## How Synergy Works
+## 2. Where Skills Come From
 
-When two skills with **matching Synergy Tags** are used in sequence (same turn or consecutive turns), the second skill gets a bonus:
+Confirmed sources of skills:
 
-| Match Type | Bonus |
-|------------|-------|
-| 1 matching tag | +25% effect |
-| 2 matching tags | +50% effect + bonus effect |
-| 3 matching tags (Legendary combo) | +100% effect + unique animation |
+- **Enemy skill drops.** The Steam page states enemies "may also drop their own skills." These dropped skills are the primary way your collection grows — each run is a chance to add a new ability to your arsenal.
+- **Quest rewards.** Completing quests (target objectives, resource collection, using specific abilities) unlocks new equipment and skills.
+- **Crafting.** The Steam page confirms extracted resources are used to "craft equipment and skills."
 
-### Example Synergy Chain
-
-```
-Turn 1: Armor Break [Debuff][Strike] → Enemy defense -40%
-Turn 2: Power Strike [Strike][Physical] → 1 matching tag [Strike]
-  Base: 150% damage → Synergy: 187.5% damage + ignores 40% armor
-```
+The full game has **30 skills total**; the free demo contains **15 skills** as a preview of the system.
 
 ---
 
-## Skill Building Philosophy
+## 3. Skill Rarity Tiers
 
-1. **Start with defense.** 1 tank + 1 healer before adding DPS.
-2. **Build combos, not collections.** 3 synergistic Common skills > 3 random Rare skills.
-3. **Cover all scenarios.** Heal, damage, defense, debuff — missing any of these creates a weak point.
-4. **Upgrade rarity strategically.** One Epic with 2 synergies beats two Rares with none.
+Gear and skills in Skills & Raids use the same **five rarity tiers** (confirmed on the Steam page):
+
+| Rarity | Color (per Steam tags & community) | Notes |
+|--------|-----------------------------------|-------|
+| Common | White | Baseline tier |
+| Uncommon | Green | Common early drop |
+| Rare | Blue | Mid-game tier |
+| Epic | Purple | High tier |
+| Legendary | Orange/Gold | Best tier |
+
+What is **not** publicly documented: the exact stat multipliers between tiers, drop rates, or whether rarity changes the *behavior* of a skill (e.g., bonus effects at higher rarity) or only its numbers. Treat any detailed rarity tables found elsewhere online with skepticism unless they match your in-game screenshots — mark these specifics as **unconfirmed** until the community documents them.
 
 ---
 
-**Next:** Learn to craft gear from your extracted loot in the [Crafting Guide](/guides/crafting-guide).
+## 4. Combat Behavior: What Is Confirmed
+
+The Steam page confirms these combat-relevant facts about skills:
+
+- **Real-time, ability-driven combat** — abilities are used in real time, not on a turn-by-turn grid.
+- **Cooldown management** — every skill has a cooldown you must track.
+- **Resource management** — abilities cost resources; running dry mid-fight is dangerous.
+- **Skill rotations** — the order in which you use abilities matters; rotations are an official part of the combat pitch.
+- **Status effects heavily influence each encounter** — skills apply and remove buffs/debuffs, and those statuses can swing fights.
+- **A pause mechanic** exists so you can read skill and status descriptions mid-fight. Use it.
+
+One thing the coverage also makes clear: combat includes **auto-battler elements** (described by GameGrin as similar to Super Auto Battle Pets) layered on top of Darkest Dungeon-style party management. Your ability assignment largely drives what your heroes do automatically — so loadout quality is your main lever.
+
+---
+
+## 5. Building Synergies — What We Know
+
+The developer's pitch explicitly ties builds to synergies: "combining multiple skills creates powerful synergies that change combat approach." What is **not** public:
+
+- How synergy is triggered (specific skill pairings? matching tags? order of use?)
+- Whether synergy bonuses are numeric (e.g., +% damage) or mechanical (e.g., new effects)
+
+The demo's 15 skills are the best available reference for how the system works until a community wiki documents all 30. Practical approach for now: **try combinations, and watch what happens.** The pause mechanic makes it easy to inspect skill and status descriptions to reverse-engineer how two skills interact.
+
+---
+
+## 6. Practical Skill Guidance
+
+Because the full 30-skill list is not publicly documented, concrete "best skills" rankings are **unconfirmed at this time**. What you *can* rely on:
+
+1. **Cover the three roles.** With a fixed party, your six ability slots should keep Shelldon tanky, Clawrk damaging, and Owlivia healing — then add synergy on top.
+2. **Rotate for quests.** Quests that require "using specific abilities" exist specifically to push you toward skills you might otherwise skip. Equip them, complete the quest, unlock the reward.
+3. **Take enemy skill drops.** A dropped skill is a free addition to your collection — the more skills you own, the more build combinations you can try.
+4. **Prioritize survival skills early.** Heals, shields, and defensive statuses from a healer-focused loadout keep runs alive longer than pure damage.
+5. **Experiment between runs.** Since skills are equipped between expeditions, swapping loadouts is free — test a new combination every run.
+
+---
+
+## 7. Unconfirmed Questions We're Tracking
+
+The community is still documenting these — check back later or contribute findings from your own runs:
+
+- The names and effects of all 30 full-game skills (15 demo skills are the confirmed subset).
+- Exact rarity drop rates and whether enemies in specific biomes drop specific skills.
+- Whether skills are tied to specific heroes or freely equippable by all three.
+- Whether skill upgrades exist (the demo only hints at limited craftable equipment; skill upgrading is unconfirmed).
+
+---
+
+## Next Steps
+
+- [Character Guide](/guides/character-guide) — who Shelldon, Clawrk, and Owlivia are, and what to equip them with.
+- [Best Skills & Builds Guide](/guides/best-skills-builds) — build framework and honest guidance without invented skill names.
+- [Beginner Guide](/guides/beginner-guide) — the full getting-started walkthrough.

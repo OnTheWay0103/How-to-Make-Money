@@ -1,113 +1,121 @@
 ---
 title: 'Beginner Guide — Getting Started in Echoes of Mystralia'
-description: 'Complete beginner guide covering spell crafting basics, Memories, Relics, Lotus progression, and what to prioritize in your first few hours of Echoes of Mystralia.'
-keywords: ['echoes of mystralia beginner guide', 'echoes of mystralia getting started', 'echoes of mystralia tips', 'mystralia new player guide']
-updated: '2026-07-22'
+description: 'Complete beginner guide to Echoes of Mystralia — what the spellcrafting ARPG roguelite is, how the Memory system works, what the demo includes, and how to prepare for Early Access.'
+category: 'Beginner'
+version: 'Pre-release'
+updated: '2026-08-01'
+keywords: ['echoes of mystralia beginner guide', 'echoes of mystralia getting started', 'echoes of mystralia tips', 'echoes of mystralia demo guide', 'mystralia new player guide', 'echoes of mystralia how to start']
+related: ['spell-crafting-guide', 'ea-launch-guide', 'faq', 'memories-guide', 'ash-forest-guide']
 ---
 
 # Beginner Guide — Getting Started in Echoes of Mystralia
 
-Welcome to **Echoes of Mystralia**, the spellcrafting ARPG roguelite from Borealys Games. This guide covers everything you need to know to survive your first runs and start building powerful spell combinations.
+Welcome to **Echoes of Mystralia**, the spellcrafting ARPG roguelite from Borealys Games, the studio behind the award-winning *Mages of Mystralia* (2017). This guide covers everything confirmed so far about the game, what you can actually learn from the free demo, and how to prepare for the **Steam Early Access launch on August 11, 2026**.
+
+> **Pre-release note:** Echoes of Mystralia has not launched yet. Facts below marked **TBD** are not yet confirmed by Borealys Games and will be updated after Early Access begins.
 
 ## What Is Echoes of Mystralia?
 
-You play as **Mazarim**, a Watcher tasked with protecting the **Cycle of Memories** from a mysterious Rift. Each run sends you through procedurally varied regions filled with enemies, culminating in a Guardian boss fight. Between runs, you return to the **Azimuth Temple** hub to upgrade your abilities.
+Echoes of Mystralia is a **spellcrafting action-RPG roguelite** set in the same world as *Mages of Mystralia*. You play as **Mazarim, a Watcher**, sworn to protect the **Cycle of Memories** — and the World's Memory itself — from a mysterious **Rift** that threatens to consume the land of Mystralia.
 
-The game's defining feature is the **spell crafting system** — combine fire, ice, and lightning elements with Memory modifiers to create millions of unique spell combinations.
+The key facts confirmed by Borealys Games:
 
-## Your First Run: Step-by-Step
+- **Developer / publisher:** Borealys Games (Montreal, Canada)
+- **Sequel to:** Mages of Mystralia (2017), whose "award-winning spellcrafting system" returns in evolved form
+- **Release:** Steam Early Access, **August 11, 2026** — a full release window has not been announced
+- **Platforms:** PC via Steam first; additional platforms are expected later but are not yet confirmed
+- **Wishlists:** the game passed **175,000 Steam wishlists** ahead of Early Access
 
-### 1. Choose Your Starting Spells
+### The Core Gameplay Loop
 
-At the beginning of each run, you'll select a spell loadout. For beginners, we recommend:
+Between runs you return to the **Azimuth Temple**, the game's hub. There you can upgrade permanent skills, unlock new combat options, and interact with fellow Watchers — guided by an ancient goddess figure. Each run sends you through regions of Mystralia fighting **Rift-spawned foes** and "**Shadows of the Past**," culminating in a boss fight against a massive **primordial Guardian**.
 
-- **Fire Bolt** (primary damage) — reliable single-target damage
-- **Ice Shard** (crowd control) — slows and freezes enemies
-- **Lightning Arc** (AoE clear) — chains between grouped enemies
+### The Memory Spellcrafting System
 
-You start with 4 core spells in the demo; the full Early Access launch (August 11, 2026) includes all 12 spell forms.
+The defining feature of the game is **memory-based spell crafting**:
 
-### 2. Understand the Spell Crafting System
+- You **harvest Memories from defeated enemies**
+- Memories are used to **forge and customize spells** — you reorder and combine them to create your own arcane skills
+- Borealys describes **"millions of possible combinations"** — from lightning bolts to freezing tornadoes and fire vortices
+- A single Memory's placement and combination can completely change how a spell behaves
 
-The spell crafting system works through three components:
+The demo contains **50 unique Memories** for experimentation; Early Access launches with **110**.
 
-| Component | Description |
-|-----------|-------------|
-| **Spell Forms** | Base templates (12 total at EA launch) that determine the spell's fundamental behavior |
-| **Elements** | Fire (damage over time), Ice (slow/freeze), Lightning (chain/area) |
-| **Memories** | Modifiers dropped by enemies that alter spell behavior, damage, and effects |
+## What the Demo Includes
 
-**The positioning of Memory components within a spell form determines the output.** Experiment with different arrangements to discover powerful synergies.
+A free demo has been on Steam since February 16, 2026, and it's the best way to learn the game. It contains:
 
-### 3. Collect Memories from Enemies
+| Content | Demo | Early Access (Aug 11) |
+|---------|------|----------------------|
+| Regions | 1 — **The Ash Forest** | **3 regions** (other two TBD) |
+| Bosses | 1 — **Therakan**, first primordial Guardian | **3 Guardians** (other two TBD) |
+| Spells | 4 base spells | **12 spell forms** |
+| Memories | **50** | **110** |
+| Fight challenges | 4 | TBD |
 
-Memories are the most important resource in the game. Every enemy you defeat has a chance to drop a Memory. Key points:
+**Your demo save transfers to Early Access**, though the demo currency (**Echo Fragments**) resets to zero at launch — Borealys changed progression systems between demo and EA, so don't hoard them.
 
-- **110 Memories** available at Early Access launch
-- Memories persist between runs — you keep what you collect
-- Each Memory modifies spells in a unique way (chain effects, AoE expansion, element conversion, projectile multiplication)
-- Higher-difficulty enemies drop rarer Memories
+## Your First Steps (Before Launch)
 
-**Tip:** Prioritize killing elite enemies and mini-bosses early — they have higher Memory drop rates.
+### 1. Play the Demo
 
-### 4. Find and Equip Relics
+The demo is the single best preparation. You will learn:
 
-Relics are passive items that provide permanent bonuses during a run:
+- The feel of the combat and dodging
+- How Memories drop from enemies and how crafting works
+- The Ash Forest layout, Therakan's arena, and the 4 fight challenges
+- What the Azimuth Temple hub looks like
 
-- **15 Relics** in the demo, more at EA launch
-- Relics stack with spell effects for powerful synergies
-- Examples: increased spell damage, reduced cooldowns, elemental amplification
-- Relics are found in chests, dropped by elites, or purchased from shrine vendors
+### 2. Understand the Three Layers of a Spell
 
-Build your Relic collection around your spell loadout for maximum effectiveness.
+Everything confirmed about spellcrafting fits into three layers:
 
-### 5. Progress Through the Lotus System
+| Layer | Role | Status |
+|-------|------|--------|
+| **Spell forms** | The base template of a spell (12 at EA launch) | Demo shows 4; full names/behaviors TBD |
+| **Elements** | Fire, ice, and lightning are the element trio shown so far | Exact interactions TBD |
+| **Memories** | Modifiers harvested from enemies, reordered to change spell output | 50 in demo, 110 at launch; effects TBD |
 
-The **Lotus** is the permanent progression system. Between runs at the Azimuth Temple:
+### 3. Collect Memories and Experiment
 
-- Spend resources to unlock permanent stat upgrades
-- Improve your base health, mana, and spell power
-- Unlock new spell form slots
-- Upgrade Memory capacity
+In the demo, kill enemies and collect their Memories, then try every combination you can. Because Memories are **reordered and combined** into spells, the same set of Memories can produce very different spells depending on arrangement — experimenting is the fastest way to learn the system before launch.
 
-The Lotus ensures you grow stronger even after failed runs.
+### 4. Beat Therakan
 
-## Region Overview
+Therakan is the first primordial Guardian and the demo's boss. Defeating him before August 11 means your first Early Access session can start on new content instead of relearning the fight. Fight-challenge completions in the demo also reward practice with high-pressure combat.
 
-At Early Access launch, there are **3 regions**:
+### 5. Don't Farm Echo Fragments
 
-| Region | Environment | Guardian Boss | Difficulty |
-|--------|------------|---------------|------------|
-| **Ash Forest** | Burning woodland | Therakan | Beginner |
-| **Frozen Depths** | Icy caverns | TBA | Intermediate |
-| **Stormspire** | Lightning-charged tower | TBA | Advanced |
+Echo Fragments are the demo currency and **they reset at Early Access launch**. Time spent grinding them in the final week is wasted — spend it learning the crafting system instead.
 
-The demo includes the full Ash Forest region with the Therakan boss fight.
+## What to Expect at Early Access Launch
 
-## 10 Essential Beginner Tips
+- **110 Memories, 12 spell forms, 3 regions, 3 Guardians** — the confirmed launch scope
+- **Two more regions** beyond the Ash Forest — names and themes not yet revealed (TBD)
+- **Two more Guardians** — identities and mechanics not yet revealed (TBD)
+- **New spell forms** beyond the demo's 4 — specifics TBD
+- **A progression reset of Echo Fragments** — by design, per the developer
 
-1. **Experiment with Memory placement** — moving a Memory to a different slot can completely change a spell's behavior
-2. **Match elements to enemy weaknesses** — fire beats ice enemies, ice beats lightning, lightning beats fire
-3. **Prioritize elite enemies** — they drop better Memories and Relics
-4. **Save your best spell loadout** — you can save and load spell configurations at the Temple
-5. **Don't skip chests** — Relics are primarily found in exploration chests
-6. **Learn boss patterns** — each Guardian has a fixed attack rotation; learn it and dodge accordingly
-7. **Invest in Lotus upgrades evenly** — don't over-specialize in one stat early
-8. **Use the environment** — some arenas have hazards you can use against enemies
-9. **Try the demo first** — it's free on Steam and covers the first region completely
-10. **Join the community** — check the Echoes of Mystralia subreddit and Discord for build discussions
+## 10 General Tips for New Players
 
-## Progression Roadmap
+1. **Play the demo first** — it's free on Steam and the save transfers
+2. **Experiment with Memory placement** — reordering Memories changes spells; try every arrangement
+3. **Harvest Memories from every enemy type** — higher-threat enemies generally reward more, but all enemies can drop Memories
+4. **Use the Azimuth Temple between runs** — permanent upgrades are where long-term power lives
+5. **Learn boss tells** — Therakan's fight challenges your pattern recognition; watch the wind-ups
+6. **Try all 4 demo spells** — the demo's base spells preview the form system that 12 forms will build on
+7. **Manage the run economy** — Echo Fragments won't transfer, but your skill and Memory knowledge will
+8. **Join the community** — Borealys is running a community-first Early Access with active Discord feedback
+9. **Read official sources for updates** — the Steam page and Borealys' channels announce new details before launch
+10. **Don't trust pre-release wikis that overclaim** — verify specifics against the demo and official announcements (this guide does)
 
-| Hours Played | What to Focus On |
-|-------------|-----------------|
-| 0–2 hours | Learn basic spell crafting, complete first Ash Forest run |
-| 2–5 hours | Collect core Memories, experiment with builds, beat Therakan |
-| 5–10 hours | Unlock all spell forms, build specialized loadouts for each region |
-| 10+ hours | Farm rare Memories, optimize Lotus upgrades, challenge higher difficulties |
+## What Comes Next
+
+Early Access launches with three regions and three Guardians, and Borealys has committed to a content-driven Early Access cycle — expect new regions, Memories, spell forms, and Guardians over time. The full release window is **TBD**.
 
 ## Next Steps
 
 - Read the [Spell Crafting Guide](/guides/spell-crafting-guide) for an in-depth breakdown of the crafting system
-- Check the [Best Spell Builds](/guides/best-spell-builds) for optimized loadouts
-- See the [Memories Guide](/guides/memories-guide) for a complete catalog of all 110 Memories
+- See the [EA Launch Guide](/guides/ea-launch-guide) for a first-session checklist
+- Check the [FAQ](/guides/faq) for quick answers on platforms, price, and multiplayer
+- Browse the [Memories Guide](/guides/memories-guide) for everything confirmed about Memory collection

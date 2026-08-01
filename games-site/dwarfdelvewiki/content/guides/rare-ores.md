@@ -1,154 +1,92 @@
 ---
-title: "Rare Ores Guide — Locations, Depths & Crafting Uses"
-description: "Complete rare ores guide for Dwarf Delve. Find every rare ore type, best mining depths, required tools, and what each rare ore is used for in advanced crafting."
+title: "Rare Ores Guide — Depth, Rarity & What's Actually Confirmed"
+description: "Rare ores in Dwarf Delve, honestly documented. The game confirms ores, treasures, and relics — but no ore names are published. How rarity works by depth, how to hunt rare finds, and which claims to ignore."
 category: "Guides"
 version: "1.0"
-updated: "2026-07-29"
-keywords: ["Dwarf Delve rare ores", "rare ore locations", "best mining depths", "rare ore tools", "rare ore uses", "crafting rare ores"]
-related: ["mining-guide", "defense-strategy", "crafting-guide", "beginner-guide", "extraction-guide"]
+updated: "2026-08-01"
+keywords: ["Dwarf Delve rare ores", "Dwarf Delve rare finds", "best mining depth", "Dwarf Delve mithril", "Dwarf Delve relics"]
+related: ["mining-guide", "mining-strategies-guide", "crafting-guide", "beginner-guide", "extraction-guide", "best-mining-depth"]
 ---
 
-## Rare Ores of Dwarf Delve
+## Rare Ores of Dwarf Delve: Start Here
 
-Beyond the common copper, iron, and coal that fuel your early game, Dwarf Delve hides precious rare ores deep within the earth. These ores are essential for advanced crafting, legendary equipment, and endgame progression. Finding them requires preparation, the right tools, and knowledge of where to look.
+The honest headline: **no specific rare ore is officially confirmed in Dwarf Delve.** The official materials describe the haul as "ores, treasures, and long-lost relics" — three reward categories with no names, no tiers, and no spawn rules published.
 
-This guide covers every rare ore, where to find them, how to extract them safely, and what they are used for.
+You will find guides claiming mithril, adamantite, orichalcum, void crystals, "star fragments," and "heartstone" — with depth tables, pickaxe requirements, and coin values. **None of that comes from the developer.** The keyword "mithril" shows up in Google Suggest data for Dwarf Delve, which is why fabricated guides include it, but that's search demand, not game data.
 
-## Understanding Rare Ore Spawning
+So this guide covers what's real: the confirmed rarity mechanics, how to hunt for rare finds, and how to evaluate ore claims you see elsewhere. The moment real ore data is documented, this page becomes the reference for it.
 
-Rare ores follow specific spawn rules:
+## What's Confirmed About Rarity
 
-- **Depth-Dependent** — Each rare ore has a minimum depth requirement. You will never find Mithril in the topsoil layer.
-- **Biome-Linked** — Certain underground biomes increase the spawn rate of specific rare ores.
-- **Vein Size Variance** — Rare ores appear in smaller veins (1-4 blocks) compared to common ores (4-12 blocks).
-- **Proximity to Hazards** — Many rare ores spawn near underground hazards (lava, poison gas, creature nests).
+### Confirmed: Three Reward Categories
+| Category | Confirmed Role | Rarity Signal |
+|----------|---------------|---------------|
+| **Ores** | Refined at home; traded for coin | The economy's backbone |
+| **Treasures** | High-value finds | Named separately from ores |
+| **Relics** | "Long-lost relics" unlock unique perks and quarters decorations | The endgame chase |
 
-## Rare Ore Table
+### Confirmed: Depth Scales Value
+The official premise: "the deeper you dig, the richer the haul." Rarity scales with depth — that's the game's own contract. No official units (meters, floors) exist; treat depth as a gradient, not a ruler.
 
-| Rare Ore | Min Depth | Optimal Depth | Required Pickaxe | Rarity | Spawn Biome | Market Value |
-|----------|-----------|--------------|-----------------|--------|-------------|-------------|
-| Silver | 30m | 50-100m | Iron or higher | Uncommon | Limestone caves | High |
-| Gold | 60m | 80-150m | Steel or higher | Uncommon | Granite tunnels | High |
-| Mithril | 80m | 120-200m | Steel or higher | Rare | Crystal caverns | Very High |
-| Sapphire | 100m | 150-250m | Mithril or higher | Rare | Deep aquifers | Very High |
-| Ruby | 150m | 200-300m | Mithril or higher | Rare | Magma chambers | Very High |
-| Emerald | 120m | 180-280m | Mithril or higher | Rare | Moss caverns, root systems | Very High |
-| Adamantite | 180m | 220-320m | Mithril or higher | Very Rare | Magma chambers, deep granite | Extremely High |
-| Orichalcum | 250m | 280-350m | Adamantite or higher | Very Rare | The Core approaches | Legendary |
-| Diamond | 200m | 250-350m | Mithril or higher | Very Rare | All deep biomes (very rare) | Legendary |
-| Void Crystal | 280m | 300-350m | Adamantite or higher | Extremely Rare | Void fissures, The Core | Legendary |
-| Star Fragment | 300m | 320-350m | Orichalcum | Mythic | The Core (rare spawn) | Priceless |
-| Heartstone | 330m | 340-350m | Orichalcum | Mythic | The Core (boss drop area) | Priceless |
-| Astralite | 350m+ | The Core | Orichalcum + enchantment | Mythic | The Core (deepest layer) | Unique |
+### Confirmed: Heavy Ores Are Special
+Minecart rails exist to "shift and store those heavy ores for you." Some ores are heavy — that's an official mechanic. Heavy ore is the confirmed cargo for the rail system, which implies it's worth transporting in bulk.
 
-## Detailed Locations and Extraction
+## How to Hunt Rare Finds (Strategy, Not Tables)
 
-### Silver
+### 1. Depth Is the Rarity Dial
+The confirmed model: reward value rises with depth. If you want rare finds, you must go deeper — and every meter down is a meter from safety. Rare-find hunting is a risk management game:
 
-Silver is the entry-level rare ore and your first step into rare material crafting.
+- Upgrade before you go deep — Battlemallet (mining speed), lantern (light), capacity (more value per trip)
+- Set a hard extraction trigger before descending: a relic, a full cart, or the first instability warning
+- The moment a rare find is in your hands, the run's objective is complete — extract
 
-**Location**: Silver spawns in limestone cave biomes, usually near underground water sources. Look for white-grey veins with a distinct metallic sheen.
+### 2. Relics Are the Highest-Value "Rare"
+Relics are the only reward category with confirmed exclusive uses (unique perks + quarters decorations). In loot triage, relics outrank everything — they're described as "long-lost," implying limited availability.
 
-**Extraction Tips**:
-- Use a pickaxe with the Fortune enchantment to maximize yield
-- Silver veins are often near gravel — watch for cave-ins
-- Bring extra torches; silver veins attract light-sensitive creatures
+### 3. Coverage Beats Tunnel Vision
+Procedural mines hide value anywhere. Sweep floors and follow veins rather than drilling one tunnel — rare finds are a coverage game.
 
-**Crafting Uses**:
-- Silver weapons (bonus damage to undead)
-- Light sources (ever-burning lanterns)
-- Conductive wiring for early automation
-- Alloy component for Mithril crafting
+### 4. Rail the Heavy Ore
+When you find a heavy deposit far from the elevator, rails are the confirmed answer. A cart of heavy ore extracted is a rare haul banked.
 
-### Mithril
+### 5. Bank, Don't Sell (When Unsure)
+Coin values are unpublished. If you don't know what something is worth, keep it — refined ore and relics are safer in your vault than in a shop.
 
-Mithril is the cornerstone of mid-game progression. Lightweight and strong, it is used in nearly all advanced crafts.
+## Claim Evaluation: What to Ignore
 
-**Location**: Crystal cavern biomes at mid depths. Mithril veins have a distinctive blue-white glow visible from 15 blocks away.
+When you see any of these, treat the source as unreliable:
 
-**Extraction Tips**:
-- Mithril veins are small (1-3 blocks). Listen for a high-pitched resonance when nearby.
-- Crystal caverns are highly populated with aggressive creatures. Clear the area before mining.
-- A Steel pickaxe is the minimum, but a Mithril pickaxe doubles your yield.
+- **Named ores** (mithril, adamantite, orichalcum, void crystal, heartstone, astralite, "star fragment") — no official names exist
+- **Depth tables with meters** — no official depth units exist
+- **Pickaxe requirements** — the game has no pickaxes; the Battlemallet is the mining tool
+- **Per-ore coin values** — unpublished
+- **Biome-linked spawns** — no biomes are officially named
+- **Ore enchantments or refining stations in the mine** — refinement happens at your dwarven home (confirmed); nothing else is
 
-**Crafting Uses**:
-- Mithril armor (lightweight, high defense)
-- Precision tools (higher quality crafts)
-- Tesla coil components
-- Mithril alloy (base for Adamantite crafting)
+## What Would Make This Guide Concrete
 
-### Orichalcum
+This page becomes a real rare-ores reference the moment any of these land:
 
-Orichalcum is one of the rarest ores in the game, necessary for the most powerful weapons and armor.
+1. Developer publishes ore information (Steam news, Discord, roadmap)
+2. Verified community documentation (multiple independent player confirmations) names ores
+3. Game patches add named materials
 
-**Location**: Found only at depths of 280m+, usually near lava pockets or void fissures. Orichalcum veins emit a deep purple glow.
+Until then, the accurate answer to "how do I get rare ores in Dwarf Delve?" is: **go deep, cover ground, bank relics, and extract consistently — the names and numbers will come with community documentation.**
 
-**Extraction Tips**:
-- You need at least an Adamantite pickaxe to mine Orichalcum
-- The area around Orichalcum veins is always dangerous — expect elite enemies
-- Bring fire resistance potions; veins often spawn near lava
-- Veins are single blocks (extremely rare to find two together)
+## Honest FAQ
 
-**Crafting Uses**:
-- Orichalcum weapons (highest damage in the game)
-- Orichalcum armor (best defense, heavy weight)
-- Void Crystal alloy components
-- Endgame machinery parts
+**Is mithril in Dwarf Delve?** Unconfirmed. It appears in search data, not official materials.
 
-### Void Crystal
+**What's the best depth for rare ores?** The confirmed answer: deeper is richer — and riskier. No official numbers exist. See our [Best Mining Depth guide](/guides/best-mining-depth) for the honest depth strategy.
 
-Void Crystals are essential for endgame technology and teleportation.
+**Do I need special tools to mine rare ores?** Unconfirmed. The Battlemallet is the only confirmed mining tool.
 
-**Location**: Near void fissures at depths of 300m+. Void fissures are visible as shimmering tears in the air.
-
-**Extraction Tips**:
-- Void Crystals require an Adamantite pickaxe minimum. An Orichalcum pickaxe increases yield by 1.
-- Void fissures have a pulling effect — do not stand too close.
-- Void creatures spawn near fissures. Kill them before mining.
-- Crystals respawn at the same fissure every 7 in-game days.
-
-**Crafting Uses**:
-- Teleportation pads
-- Advanced automation cores
-- Tesla coil upgrades
-- Void resistance equipment
-
-### Heartstone and Astralite
-
-The two rarest ores in the game, found only in The Core at depths exceeding 330m.
-
-**Heartstone Location**: Dropped by the Core Guardian boss (50% drop rate) or found as single-block veins in the boss arena.
-
-**Astralite Location**: The deepest ore in the game, found at 350m+ in The Core. Spawns as single blocks that pulse with starlight.
-
-**Crafting Uses**:
-- Heartstone: The Heart of the Mountain (ultimate defense structure), revival altars
-- Astralite: Astral weapons (bypass all armor), permanent stat upgrades
-
-## Mining Strategy by Progression Stage
-
-| Stage | Target Ore | Depth | Preparation |
-|-------|-----------|-------|-------------|
-| Early (Day 1-10) | Silver | 50m | Iron pickaxe, basic torches, food |
-| Early-Mid (Day 10-30) | Gold, Mithril | 100m | Steel pickaxe, armor, healing potions |
-| Mid (Day 30-60) | Sapphire, Ruby, Emerald | 200m | Mithril pickaxe, full armor, creature clear |
-| Late (Day 60-100) | Adamantite | 250m+ | Mithril/Adamantite pickaxe, fire resistance |
-| Late-End (Day 100-150) | Orichalcum, Diamond | 300m+ | Adamantite pickaxe, boss-ready gear |
-| Endgame (Day 150+) | Void Crystal, Heartstone, Astralite | 330m+ | Max gear, group coordination |
-
-## Selling Rare Ores
-
-If you need gold instead of crafting materials:
-
-- **Silver/Gold/Emerald** — Best sold to NPC vendors. Market price is stable.
-- **Mithril/Adamantite** — Sell to other players via trading post. Prices fluctuate with demand.
-- **Orichalcum/Void Crystal** — Keep these. Their crafting value far exceeds any sale price.
-- **Heartstone/Astralite** — Never sell these. They are used for unique, irreplaceable crafts.
+**Are rare ores sellable?** Ores are traded for coin — confirmed. Individual values are unpublished.
 
 ### Related Guides
 
 - [Mining Guide](/guides/mining-guide)
-- [Defense Strategy Guide](/guides/defense-strategy)
+- [Best Mining Depth](/guides/best-mining-depth)
+- [Mining Strategies Guide](/guides/mining-strategies-guide)
 - [Crafting Guide](/guides/crafting-guide)
-- [Beginner Guide](/guides/beginner-guide)
 - [Extraction Guide](/guides/extraction-guide)

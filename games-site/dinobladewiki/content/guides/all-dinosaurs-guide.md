@@ -1,117 +1,71 @@
 ---
-title: 'All Dinosaurs Guide — Every Dino Type & How to Beat Them in Dinoblade'
-description: 'Complete guide to all dinosaurs in Dinoblade. Every dino type, attack patterns, weaknesses, loot drops, and best strategies for beating each species.'
-keywords: ['dinoblade all dinosaurs', 'dinoblade dinosaurs guide', 'dinoblade dino types', 'dinoblade dinosaur weaknesses', 'dinoblade all bosses dinosaurs']
+title: 'All Dinosaurs Guide — Every Dino Type & How to Fight Them in Dinoblade'
+description: 'The confirmed dinosaur roster in Dinoblade — raptors, weapon-wielding dinos, the T-Rex that swings an Ankylosaurus, and honest notes on what is still undocumented.'
+keywords:
+  - dinoblade all dinosaurs
+  - dinoblade dinosaurs guide
+  - dinoblade dino types
+  - dinoblade dinosaur weaknesses
+  - dinoblade raptor guide
+  - dinoblade ankylosaurus
 category: Enemies
 version: '1.0'
-updated: '2026-07-29'
+updated: '2026-08-01'
 related:
   - boss-guide
-  - weapons-guide
+  - enemy-guide
   - beginner-guide
 ---
 
-## Dinosaur Types Overview
+# All Dinosaurs Guide — Every Dino Type & How to Fight Them in Dinoblade
 
-Dinoblade features a wide variety of dinosaur enemies, each with unique behaviors, attack patterns, and weaknesses. This guide catalogs every dinosaur species in the game.
+Dinoblade's hook is simple: a cataclysm turned every creature in the prehistoric world into a **bladed fighter**, and you play a young Spinosaurus gripping a colossal greatsword in its jaws. Rival dinosaurs — many of them armed — are the bulk of the game's enemies.
 
-## Small Dinosaurs
+**Honesty note:** the full species roster has not been officially published. The confirmed types below come from the playable demo, launch coverage, and walkthroughs of Parts 1–3. Anything not listed here should be treated as unconfirmed until the community completes the dino encyclopedia.
 
-### Raptors
-- **Biome**: All early-game areas
-- **Behavior**: Pack hunters, attack in groups of 3-5
-- **Attack Pattern**: Quick lunges, circling flanks
-- **Weakness**: Low HP individually — AoE attacks clear packs fast
-- **Loot**: Raptor Claw (crafting), Small Hide
+## Confirmed Enemy Dinosaurs
 
-### Compies (Compsognathus)
-- **Biome**: Forest and jungle areas
-- **Behavior**: Swarm in large numbers, flee when leader dies
-- **Attack Pattern**: Nipping bites, poison spit
-- **Weakness**: Fire damage, area attacks
-- **Loot**: Tiny Fang, Poison Gland
+### Raptors (the game's basic pack enemy)
 
-### Pterosaurs
-- **Biome**: Cliff and canyon areas
-- **Behavior**: Aerial harassment, dive-bomb attacks
-- **Attack Pattern**: Dive → scratch → fly up → repeat
-- **Weakness**: Ranged weapons, knock them down mid-dive
-- **Loot**: Wing Membrane, Hollow Bone
+- **Where:** the opening cavern and throughout Part 1.
+- **Behavior:** small, fast, and aggressive; they attack in groups.
+- **Fighting them:** their attacks are telegraphed and slow by boss standards — they are the game's intended parry practice. Parry to fill their Resolve bars, land the finishing blow, and move on. A single perfect parry restores stamina and Resonance, so you can clear packs without ever running dry.
+- **Loot:** unconfirmed drop tables — no official item data has been published.
 
-## Medium Dinosaurs
+### Weapon-Wielding Dinosaurs (scythe, hammer, and trident users)
 
-### Triceratops
-- **Biome**: Plains and grasslands
-- **Behavior**: Territorial, charges when provoked
-- **Attack Pattern**: Frontal charge → horn sweep → stomp
-- **Weakness**: Attacks from behind, leg strikes
-- **Loot**: Triceratops Horn, Thick Hide, Heavy Bone
+- **Where:** Part 2 (the northern paths) and Part 3 (the mountain caves).
+- **Behavior:** tougher dinosaurs armed with reach weapons — walkthroughs explicitly mention enemies carrying **scythes and hammers**, and coverage of the trailer shows dinos with tridents and other bladed weapons.
+- **Fighting them:** their reach beats yours in a straight trade. Close the distance and use charged heavy attacks — holding a heavy attack releases a **ranged fire projectile** (costs 5 Resonance plus stamina), which is effective against enemies holding reach weapons. In Part 3 you face waves of hammer-wielding dinosaurs, so use i-frame dodges to get through their wind-ups and punish the recovery.
 
-### Stegosaurus
-- **Biome**: Forest edges and valleys
-- **Behavior**: Defensive, uses tail as primary weapon
-- **Attack Pattern**: Tail swipe (180° arc) → thagomizer slam
-- **Weakness**: Head and neck, avoid the tail zone entirely
-- **Loot**: Stegosaurus Plate, Spiked Tail
+### T-Rex (Tyrannosaurus Rex) — the Ankylosaurus Club Fighter
 
-### Ankylosaurus
-- **Biome**: Rocky terrain and badlands
-- **Behavior**: Highly defensive, armored all around
-- **Attack Pattern**: Tail club slam (massive damage) → roll attack
-- **Weakness**: Belly (exposed when it rears up for tail slam)
-- **Loot**: Ankylosaur Club, Armored Scute
+- **Where:** later-game encounters; a T-Rex appears in the game's trailer wielding an **Ankylosaurus as a melee weapon**.
+- **Behavior:** massive, high-damage, and aggressive — an apex predator that uses its improvised club to punish anything in front of it.
+- **Fighting it:** do not trade hits. Stay mobile, watch for the club swing wind-ups, and parry what you can — Resolve fills faster against big telegraphed attacks. When its Resolve bar fills, land the heavy finishing blow.
 
-### Pachycephalosaurus
-- **Biome**: Hills and mountains
-- **Behavior**: Aggressive head-butter
-- **Attack Pattern**: Head ram → charge → head ram
-- **Weakness**: Slow turn radius — dodge sideways then punish
-- **Loot**: Thick Skull, Ram Horn
+### Smaller Dinosaurs and "Larger Enemies"
 
-## Large Dinosaurs
+- **Where:** Part 1 (the cavern).
+- **Behavior:** walkthroughs describe "groups of smaller dinosaurs and a larger enemy" as the standard Part 1 encounter rhythm.
+- **Fighting them:** clear the small ones first, then focus the larger enemy — parry its telegraphed attacks to build Resolve.
 
-### Allosaurus
-- **Biome**: Mid-game areas
-- **Behavior**: Apex predator, aggressive solo hunter
-- **Attack Pattern**: Bite combo (3 hits) → claw swipe → roar stun
-- **Weakness**: Long recovery after roar; punish during this window
-- **Loot**: Allosaurus Claw, Large Fang, Predator Hide
+## Unconfirmed Dinosaur Types (TBD)
 
-### Spinosaurus
-- **Biome**: Swamp and river areas
-- **Behavior**: Amphibious ambush predator
-- **Attack Pattern**: Water lunge → claw rake → tail sweep
-- **Weakness**: Slower on land; lure out of water before engaging
-- **Loot**: Spinosaurus Sail, Crocodilian Fang
+Many dinosaur names circulate online — compsognathus swarms, triceratops, stegosaurus, ankylosaurus, pachycephalosaurus, allosaurus, spinosaurus encounters, giganotosaurus secret bosses — but **none of these are confirmed in official material or verified walkthroughs as of August 2026**. Dinoblade does feature a T-Rex and (per trailer) an Ankylosaurus used as a weapon, but the full bestiary remains undocumented.
 
-### Brachiosaurus
-- **Biome**: Open plains (rare, non-aggressive unless attacked)
-- **Behavior**: Peaceful giant, devastating when provoked
-- **Attack Pattern**: Stomp (AoE) → neck sweep → tail whip
-- **Weight**: Worth fighting — drops massive amounts of rare materials
-- **Loot**: Titan Bone, Massive Hide, Ancient Fossil
+When more of the roster is verified, this guide will expand with attack patterns, weaknesses, and drops.
 
-## Boss-Class Dinosaurs
+## General Fighting Principles (Applies to Every Dino)
 
-### T-Rex (Tyrannosaurus Rex)
-- **Biome**: Boss arena (late game)
-- **Behavior**: Ultimate predator, devastating bite
-- **Attack Pattern**: Bite (instant kill on low HP) → roar → charge → tail sweep
-- **Strategy**: Stay behind its legs, punish during roar recovery
-- **Loot**: T-Rex Fang (legendary weapon material), Tyrant Hide
+1. **Parry is the primary tool.** Every enemy has a Resolve bar that fills with successful parries; a full bar enables a heavy finishing blow. Perfect parries also restore stamina and Resonance — the game is designed so defense feeds offense.
+2. **Unblockable attacks exist.** Some attacks cannot be parried and must be dodged with roll i-frames. When in doubt, block first to learn the pattern, then experiment with parrying.
+3. **Range matters.** Enemies with scythes, tridents, and hammers out-range your greatsword in neutral. Use the charged heavy's fire projectile or close in with a roll-through.
+4. **Death is forgiving.** You do not drop currency when you die, so treat every unfamiliar dino as a learning fight.
 
-### Giganotosaurus
-- **Biome**: Secret boss area
-- **Behavior**: Bigger and faster than T-Rex
-- **Attack Pattern**: Running bite → stomp chain → enrage at 30% HP
-- **Strategy**: Parry is essential; cannot be dodged reliably
-- **Loot**: Giga Heart, Crown of Teeth (ultimate accessory)
+## Related Guides
 
-## Dinosaur Weakness Chart
-
-| Type | Weak To | Resistant To |
-|------|---------|-------------|
-| Small (Raptors, Compies) | Fire, AoE | Pierce |
-| Armored (Ankylo, Stego) | Blunt, Electric | Slash, Pierce |
-| Large Predators | Slash, Bleed | Blunt, Fire |
-| Bosses | Varies by boss | All elements (reduced) |
+- [Enemy Guide](/guides/enemy-guide) — Enemy behavior patterns and tactics
+- [Boss Guide](/guides/boss-guide) — Kira the Exile, Axe, and Kasei the Tyrant
+- [Beginner Guide](/guides/beginner-guide) — Core combat and your first expedition
+- [Parry Guide](/guides/parry-guide) — Parry timing practice

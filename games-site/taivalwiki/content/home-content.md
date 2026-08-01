@@ -3,7 +3,7 @@ title: "Taival Wiki — Complete Guide Hub"
 description: "The ultimate community wiki for Taival — the 1-4 player co-op adventure RPG by Bonobo Software. Find Henki companion guides, crafting tips, biome exploration, boss strategies, and co-op tactics."
 category: "Home"
 version: "1.0"
-updated: "2026-07-27"
+updated: "2026-08-01"
 keywords: ["Taival", "Taival wiki", "Taival guide", "Bonobo Software", "co-op adventure RPG", "Henki companion", "voxel open world"]
 related: ["beginner-guide", "henki-companion-guide", "coop-multiplayer-guide", "crafting-professions-guide"]
 ---
@@ -53,7 +53,7 @@ All 4 biomes — highlands, forests, mountains, and ruins. Discover hidden secre
 
 ## What is Taival?
 
-Taival ("journey" in Finnish) is a 1-4 player cooperative adventure RPG set in a hand-crafted voxel-style open world. Developed by the Finnish indie studio Bonobo Software and published by Level Up Gaming, it launched in Steam Early Access on July 15, 2026 for $19.99.
+Taival ("journey" in Finnish) is a 1-4 player cooperative adventure RPG set in a hand-crafted voxel-style open world. Developed by the Finnish indie studio Bonobo Software and published by Level Up Gaming, it launched in Steam Early Access on July 14–15, 2026 at ¥77 (~US$16, with a 20% launch discount).
 
 The game's defining feature is your **Henki** — a shapeshifting companion with no fixed form that can absorb creature essences to transform into combat beasts, swift mounts, stealth predators, gliders, and more. You and your Henki grow in parallel through dual progression systems, unlocking new abilities and forms as you explore the world.
 

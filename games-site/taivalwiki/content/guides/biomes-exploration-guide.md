@@ -2,16 +2,18 @@
 title: "Biomes & World Exploration Guide: All Regions & Secrets"
 description: "Complete guide to Taival's four biomes — highlands, forests, mountains, and ruins/settlements. Best Henki forms, resource hotspots, secret locations, and traversal tips for each region."
 category: "Exploration"
-updated: "2026-07-27"
+updated: "2026-08-01"
 ---
 
 # Taival — Biomes & World Exploration Guide
 
-> Early Access Version / Updated: July 27, 2026
+> Early Access Version / Updated: August 1, 2026
 
 Taival's world is a handcrafted, voxel-style open world divided into four seamlessly connected biomes. Each region has its own ecosystem of creatures, resources, enemies, and secrets. Understanding what each biome offers — and which Henki forms serve you best there — is the key to efficient exploration and progression.
 
 This guide covers everything you need to navigate every corner of Taival.
+
+**Accuracy note (August 2026):** the four realms — highlands, forests, mountains, ruins — are confirmed by official materials. Specific form names (Traveler, Burrower, Shadow Stalker, etc.), resource names, and the "hidden secrets" described below are community reports from Early Access and are unconfirmed (TBD) — treat exact details accordingly.
 
 ---
 
@@ -35,7 +37,7 @@ The rolling highlands are where every player begins their journey. Gentle slopes
 - **Resources:** Abundant wood, stone, and wild berries. Basic crafting materials are everywhere.
 - **Creatures:** Passive wildlife (rabbits, deer) and low-level roaming beasts ideal for early essence absorption.
 - **Points of Interest:** Farmsteads with quest-givers, small caves with basic loot, the starting village where Heartstone lore is first revealed.
-- **Hidden Secrets:** A collapsed well behind the starting village leads to an underground chamber with an early Glimmer Moth essence fragment.
+- **Hidden Secrets:** Community reports mention hidden chambers and early essence fragments near the starting village — exact locations unconfirmed (TBD).
 
 ### Recommended Henki Forms
 
@@ -60,10 +62,10 @@ The forests wrap around the highlands' eastern border. Thick canopies block sunl
 
 ### What to Find
 
-- **Resources:** Rare wood types (Ironbark, Whisperwood), honey from wild hives, medicinal herbs, and mushrooms used in crafting potions.
+- **Resources:** Rare wood types (community-reported names like Ironbark and Whisperwood — unconfirmed), honey from wild hives, medicinal herbs, and mushrooms used in crafting potions.
 - **Creatures:** Insect swarms, plant-like ambush predators, and territorial forest beasts. Several early-game Henki essences are found here.
 - **Points of Interest:** Abandoned hunter camps, a hidden treehouse village, ancient groves with lore tablets.
-- **Hidden Secrets:** A hollow log near the central grove conceals an entrance to an underground root network with exclusive crafting recipes.
+- **Hidden Secrets:** Community reports mention underground root networks with exclusive crafting recipes in the forests — unconfirmed (TBD).
 
 ### Recommended Henki Forms
 
@@ -121,7 +123,7 @@ The ruins and settlements biome blends crumbling ancient architecture with activ
 - **Resources:** Relics (used for high-tier crafting), ancient essence gems, decorative building materials for player housing, and rare weapons.
 - **Creatures:** Guardian constructs (ancient automatons), barbarian camp inhabitants, domesticated animals in active settlements.
 - **Points of Interest:** Collapsed temples with puzzle doors, barbarian strongholds with boss encounters, active villages with questlines, underground catacombs.
-- **Hidden Secrets:** A submerged temple beneath the central lake requires the Water Strider form (unlocked in the forest) to access. Inside: a permanent health upgrade.
+- **Hidden Secrets:** Community reports mention a submerged temple beneath a lake, but no aquatic form is confirmed to exist in the Early Access build yet — unconfirmed (TBD).
 
 ### Recommended Henki Forms
 

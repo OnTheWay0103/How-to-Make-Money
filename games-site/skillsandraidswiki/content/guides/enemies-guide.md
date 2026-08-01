@@ -1,142 +1,107 @@
 ---
-title: "Skills & Raids Enemies Guide — All Enemy Types & Strategies"
-description: "Complete Skills & Raids enemy guide. Every enemy type with stats, attack patterns, weaknesses, and strategies. Boss mechanics explained."
+title: "Skills & Raids Enemies Guide — Enemy Behavior & Skill Drops"
+description: "Enemies guide for Skills & Raids. What is confirmed about enemy behavior, enemy skill drops, status effects, and how to counter the enemy teams that end runs."
 category: "Enemies"
-version: "Open Beta"
-updated: "2026-07-14"
-keywords: ["Skills & Raids enemies", "Skills & Raids boss guide", "Skills & Raids enemy types", "Skills & Raids combat tips", "Skills & Raids enemy weaknesses"]
-related: ["maps-guide", "extraction-guide", "builds-guide"]
+version: "1.0"
+updated: "2026-08-01"
+keywords: ["Skills & Raids enemies", "Skills & Raids enemy guide", "Skills & Raids enemy skill drops", "Skills & Raids combat tips", "Skills & Raids enemy teams"]
+related: ["maps-guide", "extraction-guide", "builds-guide", "skills-guide"]
 ---
 
-# Skills & Raids Enemies Guide — All Enemy Types & Strategies
+# Skills & Raids Enemies Guide — Enemy Behavior & Skill Drops
 
-**Skills & Raids Open Beta / Updated: July 14, 2026**
+**Skills & Raids 1.0 / Updated: August 1, 2026**
 
-Knowing enemy attack patterns is the difference between extraction and wipe. This guide covers every enemy type, their tells, and how to counter them.
-
----
-
-## Enemy Categories
-
-### Humanoid Enemies
-
-Fast, adaptable, often use skills similar to yours.
-
-| Enemy | Map | Dangerous Ability | Counter |
-|-------|-----|-------------------|---------|
-| Bandit Scout | Foothills | Calls for help (alerts nearby enemies) | Kill first, before other bandits |
-| Bandit Brute | Foothills | Heavy Swing (2-turn charge → big damage) | Shield Wall or kill before charge completes |
-| Drowned Soldier | Sunken Ruins | Undead Resilience (immune to Life Steal/Poison) | Raw physical damage, no DoT builds |
-
-### Beast Enemies
-
-High speed, pack tactics, physical damage dealers.
-
-| Enemy | Map | Dangerous Ability | Counter |
-|-------|-----|-------------------|---------|
-| Wild Wolf | Foothills | Pack Howl (buffs all wolves) | AoE to clear packs quickly |
-| Timber Wolf | Timberland | Alpha Strike (focuses lowest HP ally) | Taunt to redirect, shield the weak |
-| Forest Spider | Timberland | Venom Bite (poisons for 5 turns) | Cleanse immediately or bring antidotes |
-
-### Construct Enemies
-
-High defense, low speed, heavy hitters.
-
-| Enemy | Map | Dangerous Ability | Counter |
-|-------|-----|-------------------|---------|
-| Stone Golem | Timberland | Crush (ignores 50% defense) | Armor Break + burst before it attacks |
-| Gem Golem | Crystal Depths | Crystal Regen (heals 5%/turn) | Focus fire — never split DPS on Gem Golems |
-| Tomb Guardian | Sunken Ruins | Guardian's Oath (gains defense per dead ally) | Kill Guardian last |
-
-### Elemental Enemies
-
-Resistant to magic, vulnerable to physical.
-
-| Enemy | Map | Dangerous Ability | Counter |
-|-------|-----|-------------------|---------|
-| Water Elemental | Sunken Ruins | Drowning Grasp (stuns for 2 turns) | Physical DPS, Cleanse for stun |
-| Crystal Spider | Crystal Depths | Damage Reflection (10%) | Shield before attacking, heal after |
-| Wyrm Hatchling | Crystal Depths | Fire Breath (AoE, 3-turn cooldown) | Spread formation to avoid multi-hit |
+No verified enemy roster exists for Skills & Raids — the Steam page names no specific enemy types, and no reputable source has documented them. What *is* confirmed: enemies drop valuable resources, some enemies drop their own skills, enemy teams include healers and tanks, and status effects heavily influence every encounter. This guide works with those confirmed facts and flags the rest as unknown.
 
 ---
 
-## Boss Guide
+## 1. Confirmed Enemy Facts
 
-### Bandit Leader (Foothills — Level 5)
-
-| Phase | HP | Mechanics | Strategy |
-|-------|-----|-----------|----------|
-| 1 (100-50%) | Normal attacks | Calls reinforcements every 3 turns | Kill adds immediately |
-| 2 (50-0%) | Enrage — +30% damage | Stops calling reinforcements | Burst down, ignore defense |
-
-**Team Comp:** Any. This is the tutorial boss.
-**Key Skill:** Taunt to control adds.
+- **Enemies drop valuable resources** — the raw material of the crafting economy (confirmed, Steam page).
+- **Enemies may drop their own skills** — the game's signature mechanic: defeating enemies can give you their abilities as build pieces (confirmed, Steam page).
+- **Enemy teams include healers and tanks** (confirmed via Steam Next Fest demo review coverage).
+- **Status effects heavily influence the outcome of each encounter** (confirmed, Steam page) — expect enemy-applied debuffs, and counter them.
+- **Combat areas have unique skill mechanics** (confirmed) — enemy behavior likely shifts per area.
 
 ---
 
-### Ancient Treant (Timberland — Level 8)
+## 2. The Enemy Compositions That End Runs
 
-| Phase | HP | Mechanics | Strategy |
-|-------|-----|-----------|----------|
-| 1 (100-60%) | Root (AoE, stuns all for 1 turn) → Slam (heavy damage to rooted) | Cleanse root on healer FIRST, then heal |
-| 2 (60-0%) | Spawns 2 Saplings (mini-treants with low HP) | Kill saplings fast — they heal the Treant |
+The most valuable confirmed enemy knowledge comes from the demo review coverage:
 
-**Team Comp:** Tank + Healer + Physical DPS (Treant resists magic)
-**Key Skill:** Cleanse — mandatory for root removal. Without Cleanse, this boss is nearly impossible.
+### The Healer Wall (Infinite Loop Risk)
+If your party is reduced to a single healer (Owlivia) facing an enemy healer, the fight can **loop forever** — both healers sustain through each other's weak attacks. Demo reviewers documented this as a real failure state.
 
----
+**Counter:** never let the party get reduced to one hero, and keep enough damage pressure in the loadout that no fight can stall.
 
-### Sunken Guardian (Sunken Ruins — Level 12)
+### The Healer + Tank Team (Difficulty Spike)
+Late in a run, demo players hit enemy teams of **two strong healers plus a tank** that were effectively unbeatable with the build at hand.
 
-| Phase | HP | Mechanics | Strategy |
-|-------|-----|-----------|----------|
-| 1 (100-50%) | Armored Form — 70% damage reduction | Armor Break + Weaken to strip defense. Save burst for Phase 2. |
-| 2 (50-0%) | Enraged Form — +50% damage, -50% defense | Burst with everything. Shield Wall + Holy Light combo essential. |
-
-**Team Comp:** Tank + Healer + Debuffer DPS
-**Key Skill:** Armor Break — without it, Phase 1 takes forever and you run out of resources.
+**Counter:** burst damage or damage-over-time that can kill *through* healing, plus debuffs to strip the tank's defenses. If your current loadout can't break healing teams, take a different path — don't commit to a fight you know you lose.
 
 ---
 
-### Crystal Wyrm (Crystal Depths — Level 15)
+## 3. Reading Enemies in Combat
 
-| Phase | HP | Mechanics | Strategy |
-|-------|-----|-----------|----------|
-| 1 (100-70%) | Crystal Shards (AoE, medium damage) | Standard tank-and-spank. Spread team to avoid multi-hits. |
-| 2 (70-30%) | Summons 2 Gem Golems. Wyrm flies up (invulnerable) for 3 turns. | Kill Gem Golems FIRST. They heal if not focused. |
-| 3 (30-0%) | Cataclysm — 5-turn charge → party wipe if not killed | DPS race. Use ALL cooldowns. Armor Break → Mark Target → Critical Edge chain. |
+Since enemy attack patterns aren't documented, learn them the confirmed-safe way:
 
-**Team Comp:** Tank + Healer + Burst DPS (DoT builds will fail Phase 3)
-**Key Skill:** Mark Target + Critical Edge synergy — Phase 3 demands maximum single-target burst.
+1. **Pause and read.** The pause mechanic lets you read statuses mid-fight. Enemy buffs/debuffs are visible — read them and respond.
+2. **Watch for status applications.** If the enemy applies poison, burn, or similar effects, cleanse or out-heal them (Owlivia's job).
+3. **Prioritize enemy healers.** In any enemy team, the healer is the most dangerous enemy — it converts your damage into wasted time. Kill healers first.
+4. **Test safe first.** The first run into a new area should be a study run: learn what the enemies do before you carry valuable loot in.
 
 ---
 
-## Enemy Attack Pattern Recognition
+## 4. Enemy Skill Drops: Your Build Economy
 
-Every enemy has a **tell** before their dangerous ability:
+"Enemies may also drop their own skills" is the most important enemy fact in the game:
 
-| Tell | What's Coming | Response |
-|------|---------------|----------|
-| Enemy "takes a deep breath" | AoE attack next turn | Spread formation |
-| Enemy "focuses intently on [ally]" | Single-target nuke | Shield that ally |
-| Enemy "calls for reinforcements" | Adds spawning | AoE or kill caller |
-| Enemy "begins charging" | Charged heavy attack (2-turn warning) | Shield Wall OR kill before it fires |
-| Enemy "glows with [color]" | Elemental attack (red=fire, blue=ice, green=poison) | Element-appropriate defense |
-
-**Golden rule:** If you see a tell, spend that turn preparing. Don't greed for damage.
+- **Every enemy is a potential build piece.** Skills dropped by enemies are additions to your collection (30 skills exist in the full game).
+- **Skill drops beat resource drops.** A skill is permanent; resources get spent. Grab skills first when inventory is tight.
+- **Farming is real.** Re-running areas you can clear safely to farm skill drops is the confirmed-safe way to grow your options.
 
 ---
 
-## Enemy Priority System
+## 5. Enemy Priority Guide (Confirmed-Safe)
 
-In multi-enemy fights, kill in this order:
+Without a named roster, prioritize enemies by function:
 
-1. **Enemies that call reinforcements** (Bandit Scout, Alpha Wolf)
-2. **Enemies that heal/buff others** (Sapling, Support-type enemies)
-3. **Enemies with AoE attacks** (Wyrm Hatchling, Crystal Spider)
-4. **Heavy damage dealers** (Brute, Golem)
-5. **Tanky enemies** (Stone Golem, Tomb Guardian)
+| Enemy Type (function) | Priority | Why |
+|------------------------|----------|-----|
+| Enemy healers | Kill first | They negate your damage and can stall fights forever |
+| Enemy supports/buffers | Kill second | Buffed enemies out-damage your healing |
+| Enemy tanks | Kill last (or debuff first) | They absorb damage; strip defenses or ignore them |
+| Enemy DPS | Interrupt/manage | Kill pressure, but they're less dangerous than healers |
 
 ---
 
-**Next:** Have questions? Check the [FAQ](/guides/faq).
+## 6. What Is Not Known
+
+- Enemy names and designs (beyond the animal/creature setting implied by the lore).
+- Enemy HP/attack numbers, attack patterns, or elemental weaknesses.
+- Whether specific biomes contain specific enemy types.
+- Boss encounters — whether named bosses exist is unconfirmed (the game's structure is "combat areas with unique skill mechanics"; no named bosses appear in any verified source).
+
+**Warning:** guides that name enemies like "Bandit Leader" or "Crystal Wyrm" with attack patterns and HP values are fabricated — no such data exists in any verified source.
+
+---
+
+## 7. Counterplay Summary
+
+| Situation | Response |
+|-----------|----------|
+| Enemy healer present | Focus it first; keep burst or DoT pressure |
+| Enemy tank + healers | Debuff the tank, burst the healers, or avoid the fight |
+| Status effects on your party | Owlivia cleanses/heals; read statuses with pause |
+| Fight stalling (both sides healing) | Add damage, or retreat — a stalled fight wastes resources |
+| Unknown area | Study run first — no valuable loot until you know the enemies |
+
+---
+
+## Next Steps
+
+- [Maps Guide](/guides/maps-guide) — what we know about the biomes.
+- [Skills Guide](/guides/skills-guide) — enemy skill drops and the ability system.
+- [Builds Guide](/guides/builds-guide) — building to counter enemy teams.
+- [Extraction Guide](/guides/extraction-guide) — surviving encounters.

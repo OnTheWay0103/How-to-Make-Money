@@ -1,122 +1,75 @@
 ---
-title: 'Base Building Guide — Best Layout, Upgrades & Decorations in MineGeon'
-description: 'Complete base building guide for MineGeon: Renegades. Upgrade priorities, best base layouts, all 200+ decorations, storage optimization, and how to build an efficient underground HQ.'
-keywords: ['minegeon base building', 'minegeon base guide', 'minegeon best base layout', 'minegeon decorations', 'minegeon base upgrades', 'minegeon how to build base']
+title: 'Ship Guide — Customize the Galactic Express in MineGeon: Renegades'
+description: 'Ship and base guide for MineGeon: Renegades. The Galactic Express is your home between runs — customize it with 200+ decorations, visit other players ships, and learn the difference between customization and permanent upgrades.'
+keywords: ['minegeon renegades base building', 'minegeon renegades how to build base', 'minegeon renegades ship customization', 'minegeon decorations', 'minegeon renegades base guide', 'minegeon renegades best base layout']
 category: Base Building
 version: '1.0'
-updated: '2026-07-20'
+updated: '2026-08-01'
 related:
   - beginner-guide
-  - crafting-guide
-  - mining-guide
+  - upgrades-guide
+  - progression-guide
+  - coop-multiplayer-guide
 ---
 
-## Base Building Overview
+## The Ship Is Your Base
 
-Your base in MineGeon: Renegades is your underground headquarters — a fully customizable space where you craft, store resources, upgrade equipment, and show off your style with 200+ decorations. A well-designed base makes everything else in the game more efficient.
+In MineGeon: Renegades, there is no underground headquarters to build — **your home base is the spaceship**, the Galactic Express. It is where you return after every expedition, where permanent upgrades are applied, and where the game's customization system lives.
 
-## Core Base Stations
+> **Accuracy note:** the ship's identity and decoration system are confirmed on the official Steam page: the Galactic Express PC lets you buy over 200 items, decorations, and themed objects, and you can visit other Renegades' ships online. Earlier guides describing underground bases with workbenches, furnaces, and anvils are fabricated — the real game's "base building" is ship customization plus permanent upgrade spending.
 
-These are the functional buildings you need. Place them in a logical order for efficient workflow.
+## What the Galactic Express Offers (Confirmed)
 
-### 1. Workbench (Crafting Hub)
-Your most-used station. All gear, tools, and consumables are crafted here.
-- **Upgrade Priority:** ⭐⭐⭐⭐⭐ (Highest)
-- **Why:** Each upgrade tier unlocks better recipes
-- **Best location:** Center of your base, easy to access
+| Feature | What It Is |
+|---------|-----------|
+| **Ship interior customization** | Decorate your ship with 200+ items and themed objects |
+| **The Galactic Express PC** | The in-game terminal where customization purchases happen |
+| **Visiting other ships** | Visit other players' ships online to see their setups |
+| **Permanent upgrades** | Minerals trade for permanent ship upgrades (progression, not cosmetics) |
 
-### 2. Furnace (Smelting)
-Converts raw ores into usable ingots.
-- **Upgrade Priority:** ⭐⭐⭐⭐
-- **Why:** Faster smelting = faster gear progression
-- **Best location:** Near the Workbench for quick crafting loops
+## Ship Customization vs. Permanent Upgrades
 
-### 3. Storage Vault
-Holds all your extracted resources.
-- **Upgrade Priority:** ⭐⭐⭐⭐
-- **Why:** More space = fewer "inventory full" moments
-- **Best location:** Between entrance and Workbench
+Two separate systems share the ship — don't confuse them:
 
-### 4. Anvil (Gear Upgrades)
-Upgrade and enhance weapons and armor.
-- **Upgrade Priority:** ⭐⭐⭐
-- **Why:** Directly improves combat effectiveness
-- **Best location:** Near Workbench
+| | Cosmetic Customization | Permanent Upgrades |
+|--|------------------------|--------------------|
+| Cost | In-game currency via the Galactic Express PC | Extracted minerals |
+| Effect | Visual only — your ship's look and theme | Mechanical — ship systems improve permanently |
+| Persistence | Stays on your ship | Applies to all future runs |
 
-### 5. Alchemy Station
-Creates potions, bombs, and special consumables.
-- **Upgrade Priority:** ⭐⭐⭐
-- **Why:** Consumables can make or break hard runs
-- **Best location:** Near the exit for quick grab-before-run
+**Strategy:** buy decorations for fun, buy upgrades for power. If you are optimizing progression, permanent upgrades come first and cosmetics are the reward after.
 
-### 6. Garden (Passive Resources)
-Grows herbs and materials over time.
-- **Upgrade Priority:** ⭐⭐
-- **Why:** Passive income — plant and forget
-- **Best location:** Any quiet corner
+## Getting Decorations
 
-### 7. Trophy Room
-Display boss trophies for permanent stat bonuses.
-- **Upgrade Priority:** ⭐⭐
-- **Why:** Small but permanent buffs from each displayed trophy
-- **Best location:** Showcase area
+The confirmed sources of customization items:
 
-## Upgrade Priority Order
+- **Galactic Express PC purchases** — the primary shop for 200+ items, decorations, and themed objects
+- **Themed sets** — the store page highlights themed object collections to build cohesive looks
 
-1. **Workbench Tier 2** — Unlocks Iron-tier recipes
-2. **Storage Vault Tier 2** — Double your storage capacity
-3. **Furnace Tier 2** — 50% faster smelting
-4. **Workbench Tier 3** — Unlocks Silver/Gold recipes
-5. **Anvil Tier 2** — First gear enhancement slot
-6. **Storage Vault Tier 3** — Triple storage
-7. **Continue upgrading based on your needs**
+Specific item lists and prices are community-documented territory — as of early August 2026 no full catalog has been published.
 
-## Best Base Layout
+## Showing Off Your Ship
 
-### Efficient Layout (Speed-Focused)
-```
-[Entrance] → [Storage] → [Furnace] → [Workbench] → [Anvil]
-                                          ↓
-                                    [Alchemy] → [Exit]
-[Garden] (off to the side, visited between runs)
-[Trophy Room] (decorative area, away from workflow)
-```
+- **Visitors can see your ship.** The online visiting feature means your interior is your profile in co-op lobbies.
+- **Visit friends for inspiration.** Browsing other Renegades' ships is a great way to find themes you like.
+- **Match your class identity.** A Marshall's ship and a Trevor's ship can tell very different stories — that's the point of the system.
 
-This layout minimizes walking distance between your most-used stations.
+## Ship-Building Tips
 
-## Decorations (200+ Items)
+1. **Progress first, decorate after.** Decoration spending doesn't make you stronger. Upgrade, then spend leftovers on looks.
+2. **Pick a theme.** With 200+ items available, a coherent theme (scavenger bunker, clean sci-fi lab, war trophy hall) looks far better than random items.
+3. **Use the ship as a ritual.** Between-run routine — bank minerals, apply upgrades, tweak the ship — builds the habits that win deep runs.
+4. **Check the store for updates.** Post-launch patches may add new decoration sets; the official Discord is the place to watch for announcements.
 
-Decorations are purely cosmetic but are a major part of the game's charm. Categories include:
+## Common Mistakes
 
-- **Furniture** — Chairs, tables, beds, shelves
-- **Lighting** — Torches, lanterns, chandeliers, glow crystals
-- **Wall Decor** — Paintings, maps, banners, mounted trophies
-- **Flooring** — Rugs, tiles, pathways
-- **Statues** — Boss statues, class statues, decorative sculptures
-- **Plants** — Potted plants, vines, glowing mushrooms
-- **Trophies** — Boss heads, achievement plaques, rare items on display
+1. **Spending upgrade minerals on cosmetics.** Decoration items are their own currency sink — don't eat into upgrade funds.
+2. **Skipping permanent upgrades entirely.** A beautiful ship with no upgrades makes deep runs miserable.
+3. **Believing base-building guides.** Any guide telling you to place workbenches, furnaces, or anvils in an "underground base" is describing a game that doesn't exist. The ship is the base.
+4. **Forgetting visiting exists.** Co-op friends can see your ship — if you decorate, they'll see it.
 
-### How to Get Decorations
-- **Crafting** — Most basic decorations are crafted
-- **Boss Drops** — Each boss drops a unique trophy/decoration
-- **Extraction Finds** — Rare decorations found as loot in mines
-- **Achievement Rewards** — Special decorations for milestones
+## Next Steps
 
-## Base Building Tips
-
-### Efficiency Tips
-- Keep your crafting loop tight — Storage → Furnace → Workbench should be within a few steps
-- Place Alchemy Station near the exit so you can grab potions on the way out
-- Use torches/lighting to create clear pathways between stations
-- Don't over-decorate high-traffic areas — it can make navigation annoying
-
-### Co-op Base Building
-- Each player has their own base instance
-- You can visit friends' bases to see their layouts
-- Some decorations are tradeable between players
-- Get inspiration from the community for creative layouts
-
-### Common Mistakes
-- Spreading stations too far apart (wastes time between runs)
-- Ignoring Storage upgrades (constantly running out of space is frustrating)
-- Not leaving room for future stations (plan your layout with expansion in mind)
+- [Upgrades Guide](/guides/upgrades-guide) — the ship's mechanical upgrades
+- [Progression Guide](/guides/progression-guide) — how the ship fits the long game
+- [Co-op & Multiplayer Guide](/guides/coop-multiplayer-guide) — visiting friends' ships online

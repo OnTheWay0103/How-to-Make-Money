@@ -1,159 +1,94 @@
 ---
-title: 'Best Equipment & Relics Guide — Gear Progression'
-description: 'Complete DragonSword: Awakening equipment guide covering relic sets, Karma gear, weapons, upgrades, farming locations, and best-in-slot recommendations for every hero.'
+title: 'Equipment & Relics Guide — How Gear Works'
+description: 'DragonSword: Awakening equipment guide — fixed hero weapons, gear from quests and exploration, Karma gear as the endgame tier, relics, and honest upgrade advice. No invented names or numbers.'
 keywords: ['best equipment', 'relics guide', 'karma gear', 'weapon guide', 'best weapons', 'how to get gear', 'gear farming']
-updated: '2026-07-24'
+updated: '2026-08-01'
 ---
 
 ## DragonSword: Awakening Equipment Guide
 
-Gear is the foundation of your power in DragonSword: Awakening. With multiple equipment types, set bonuses, and upgrade paths, knowing what to farm and when can dramatically accelerate your progression. This **equipment guide** covers everything you need to know.
+Gear is how you grow in DragonSword: Awakening — and every piece of it is earned through gameplay, because the game has **no gacha and no microtransactions for power**. This guide covers what is confirmed about equipment, weapons, relics, and Karma gear, and marks the many unverified details as TBD.
 
-## Equipment Overview
+**Accuracy note:** earlier drafts of this guide (and many external guides) published weapon names, relic set names, slot layouts, and upgrade materials. None of that is verified by official sources and it has all been removed. This guide states only what is confirmed.
 
-Every hero has five equipment slots:
+## Equipment Overview — What Is Confirmed
 
-| Slot | What It Does | Source |
-|------|--------------|--------|
-| **Weapon** | Primary damage, determines skill set | Drops, quests, crafting |
-| **Armor** | Defense, HP bonus | Drops, quests, crafting |
-| **Accessory 1** | Stat bonuses, set effects | Dungeons, World Bosses |
-| **Accessory 2** | Stat bonuses, set effects | Dungeons, World Bosses |
-| **Relic** | Set bonuses, special effects | Relic Dungeons |
+- **Gear is earned in-game**: from story quests, side content, exploration, treasure hunting, dungeons, and endgame sources. The game's official description explicitly lists treasure hunting and dungeon exploration as core activities.
+- **Weapons are fixed to heroes**: you cannot equip a different weapon type — you find stronger versions of your hero's own weapon. (This is confirmed by the hero reveal structure: each hero has a signature weapon.)
+- **Gear slots exist**: heroes can equip weapons and equipment, with accessories/relics reported — the exact slot layout is **unconfirmed**.
 
-Equipment comes in five rarities: **Common** (white), **Uncommon** (green), **Rare** (blue), **Epic** (purple), and **Legendary** (orange).
+## Confirmed Hero Weapons
 
-## Weapon Types
+From official hero reveals:
 
-Every hero has a fixed weapon type. You cannot equip a hero with a different weapon — instead, you find stronger versions of their weapon type.
+| Hero | Confirmed Weapon |
+|------|------------------|
+| **Lute** | Greatsword |
+| **Theresia** | Twin sacred maces |
+| **Ornette** | Scythe |
+| **Aria** | Bombs / ranged throwables |
+| **Roxy** | Bow |
+| **Castella** | Frontline vanguard kit (Break/Stun) |
+| **Kalien** | Commands the fire fox spirit Sur |
 
-| Hero | Weapon Type | Best Weapon (Early) | Best Weapon (Endgame) |
-|------|-------------|---------------------|----------------------|
-| Lute | Sword | Iron Sword | Dragonfang Blade |
-| Castella | Shield + Mace | Steel Defender | Aegis of the North |
-| Aria | Staff | Willow Staff | Seraphim Cane |
-| Theresia | Dual Blades | Serrated Blades | Bloodletter Set |
-| Reina | Gauntlets | Iron Fists | Skybreaker Knuckles |
-| Ornette | Rapier | Silver Rapier | Starlight Needle |
-| Kalsion | Greatsword | Iron Greatsword | Colossus Buster |
-| Charlotte | Daggers | Shadow Blades | Soul Reapers |
-| Roxy | Bow | Hunting Bow | Venomstrike Longbow |
-| Dana | Tome | Arcane Tome | Grimoire of Summoning |
-| Kalien | Frost Staff | Frost Rod | Glacier's Heart |
-| Eileen | Fire Staff | Ember Wand | Inferno's Core |
-| Astria | Orb | Crystal Orb | Aether Lens |
-| Sion | Spear | Iron Spear | SkyPiercer |
-| Alex | Fists | Wrapped Knuckles | Brawler's Legacy |
-| Tarte | Tower Shield | Iron Wall | Bastion's Gate |
-| Cerese | Dagger (Poison) | Venom Dagger | Toxic Fang |
+Post-launch heroes add: **Ryza** (spear), **Jerome** (massive greatsword), **Veronica** (bare hands + gun), **Logan** (massive shield).
 
-## Relics System
+Named weapons like "Dragonfang Blade" or "Bloodletter Set" that appear in other guides are **not verified** and are not listed here.
 
-**Relics** are special equipment pieces that provide powerful set bonuses. They are obtained from Relic Dungeons, which unlock at Mercenary Rank D.
+## Karma Gear
 
-### Relic Sets
+**Karma gear** is the confirmed high-end equipment tier:
 
-| Set Name | 2-Piece Bonus | 4-Piece Bonus | Best For |
-|----------|---------------|---------------|----------|
-| **Berserker** | +15% ATK | +30% ATK for 10s after kill | Theresia, Kalsion |
-| **Guardian** | +20% DEF | +40% DEF, taunt on hit | Castella, Tarte |
-| **Sage** | +15% Skill Damage | -20% SP cost for skills | Aria, Astria |
-| **Wind Walker** | +10% Attack Speed | +25% Dodge invincibility frames | Reina, Charlotte |
-| **Crimson** | Bleed damage +20% | Bleed stacks up to 7 instead of 5 | Theresia, Roxy |
-| **Frostbite** | Frost duration +2s | Frozen enemies take +50% damage | Kalien |
-| **Inferno** | Burn damage +25% | Burn spreads to nearby enemies | Eileen |
-| **Assassin** | Crit rate +8% | Crit damage +40% behind enemies | Ornette, Charlotte |
+- Associated with **World Bosses and the Tower of Trials** (player-reported sources, not officially confirmed)
+- Described by players as having unique effects that change how skills work — no verified list of effects exists
 
-### Best Relic Dungeon Locations
+**Strategy:** Karma gear is the endgame target. Farm the confirmed endgame sources (see the [Endgame Guide](/guides/endgame-guide)) and prioritize your main DPS hero's weapon first — damage is the strongest lever in the game.
 
-- **Berserker Set** — Ruined Battlefield (Chapter 1 area, recommended level 15+)
-- **Guardian Set** — Fortress of Stone (Chapter 2 area, level 20+)
-- **Wind Walker Set** — Sky Ruins (Chapter 2 area, requires platforming)
-- **Crimson Set** — Blood Altar (Chapter 3 area, level 30+)
-- **Frostbite Set** — Frostpeak Hollow (Chapter 3 area, level 30+)
-- **Inferno Set** — Burning Sanctum secret dungeon (Chapter 3 area, level 35+)
-- **Assassin Set** — Shadow Labyrinth (endgame, level 40+)
+## Relics
 
-## Karma Equipment
+**Relics are a confirmed gear category** — players consistently reference relics and relic sets in endgame discussions.
 
-**Karma gear** is obtained from World Bosses and the Tower of Trials. It has unique effects that change how skills work.
+**Unconfirmed:** relic set names, set bonuses, and acquisition methods. Any guide that names specific sets (e.g. "Berserker," "Crimson," "Sage") is speculating — this wiki will publish verified relic data when it exists.
 
-### Notable Karma Weapons
+## Upgrade System
 
-| Weapon | Effect | Source |
-|--------|--------|--------|
-| **Bloodletter Set** (Theresia) | Bleed stacks deal damage 20% faster | World Boss Andras |
-| **Skybreaker Knuckles** (Reina) | Air combos build 50% more Signal Gauge | Tower of Trials Floor 25 |
-| **Colossus Buster** (Kalsion) | Heavy attacks break 40% more Super Armor | World Boss Karon |
-| **Seraphim Cane** (Aria) | Heal also grants a damage absorption shield | World Boss Gallore |
-| **Starlight Needle** (Ornette) | Crits have 20% chance to refund cooldowns | Tower of Trials Floor 30 |
+**Upgrades exist** — blacksmiths and equipment enhancement are referenced in player discussions, and upgrading gear before story bosses is common advice. The specific mechanics are **unconfirmed**: enhancement levels, success rates, materials, and failure penalties have not been verified.
 
-Karma gear is **legendary rarity only** and takes significant grinding to obtain. Prioritize your main DPS hero's Karma weapon first.
+**Sensible defaults that hold regardless of the numbers:**
 
-## Upgrade Priority
+1. **Weapon first** — direct damage is the biggest lever
+2. **Then relic/set bonuses** — set effects matter more than single-piece stats
+3. **Defense last** — you cannot lose a fight you win fast
 
-### General Upgrade Order
+## Where to Farm Gear (Confirmed Sources)
 
-1. **Weapon** — Always highest priority (direct damage increase)
-2. **Relic** — Set bonuses are massive power spikes
-3. **Accessories** — Secondary stats and set bonuses
-4. **Armor** — Defense matters less than damage in most content
+| Stage | Sources |
+|-------|---------|
+| Prologue – Chapter 1 | Main quests, first dungeons, exploration |
+| Chapters 2 – 3 | Story and side quests, hidden dungeons, treasure hunting |
+| Endgame | World Bosses, Tower of Trials, Hunts, 3-player raids |
 
-### Upgrade Materials
+## Systems That Do NOT Exist
 
-Equipment upgrades require:
-- **+1 to +3**: Basic Ores (common drops from any enemy)
-- **+4 to +6**: Refined Ores (dungeon bosses, mining nodes)
-- **+7 to +9**: Pure Ores (World Bosses, Tower of Trials)
-- **+10**: Origin Shards (Origin Dragons only)
+- **No gacha or paid gear** — all equipment is earned in-game
+- **No cash-shop upgrade items** — "protection scrolls from the cash shop" are invented
+- **No PvP gear** — there is no PvP at launch
+- **No 8-player raid gear** — raids are 3-player co-op
 
-Upgrade success rates decrease with each level. At +6 and above, failed upgrades can downgrade your equipment. Use **Stabilization Stones** (purchased from the Black Market in Skyspire City) to prevent downgrades.
+## Frequently Asked Questions
 
-## Farming Locations
+**How do I get the best weapons?**
+The best gear comes from endgame sources: World Bosses, the Tower of Trials, and raids. Exact drops are TBD.
 
-### Best Gear Farming by Level
+**Can I equip any weapon on any hero?**
+No — weapons are fixed per hero. You upgrade within your hero's weapon type.
 
-| Level Range | Best Farm | What Drops |
-|-------------|-----------|------------|
-| 1-10 | Story quests | Starting gear (green/blue) |
-| 10-20 | Chapter 1 dungeons | Rare weapons, armor |
-| 20-30 | Chapter 2 dungeons + Relic Dungeons | Epic gear, relic sets |
-| 30-40 | Chapter 3 dungeons + World Bosses | Epic/Legendary gear |
-| 40+ | Tower of Trials + Origin Dragons | Karma gear, Origin relics |
+**What are relics?**
+A confirmed gear category with set bonuses; exact names and effects are unconfirmed.
 
-### Repeatable Gear Sources
+**Is there a cash shop?**
+No. The game is buy-to-play with no microtransactions for power — cosmetic DLC exists separately.
 
-- **Daily Dungeon Runs** — Each dungeon has 3 daily clears for bonus loot
-- **World Boss Rotation** — Check which boss is active, farm for specific drops
-- **Tower of Trials** — Weekly reset, best source of legendary gear
-- **Hunts** — Re-fight story bosses for crafting materials
+## Bottom Line
 
-## Best-in-Slot Recommendations
-
-### For Top DPS Heroes
-
-**Theresia**: Berserker Relic (4-piece) + Crimson Relic (2-piece) + Bloodletter Set Weapon
-**Reina**: Wind Walker Relic (4-piece) + Assassin Relic (2-piece) + Skybreaker Knuckles
-**Ornette**: Assassin Relic (4-piece) + Crit rate accessories + Starlight Needle
-
-### For Support Heroes
-
-**Aria**: Sage Relic (4-piece) + Guardian Relic (2-piece) + Seraphim Cane
-**Astria**: Sage Relic (4-piece) + Cooldown accessories + High SP regeneration
-
-### For Tank Heroes
-
-**Kalsion**: Berserker Relic (4-piece) + Guardian (2-piece) + Colossus Buster
-**Castella**: Guardian Relic (4-piece) + Defense accessories + Highest defense shield
-
-## Gear Score and Progression
-
-Your **Gear Score** (average item level across all slots) determines which content you can access:
-
-- **Gear Score 100**: Ready for Chapter 2
-- **Gear Score 200**: Ready for Chapter 3
-- **Gear Score 300**: Ready for World Bosses
-- **Gear Score 400**: Ready for Tower of Trials
-- **Gear Score 500**: Ready for Origin Dragons
-
-Focus on upgrading your weapon first, then relics, and finally fill in the remaining slots. Check the [Leveling Guide](/guides/leveling-guide) for the fastest way to reach endgame gear.
+Equipment in DragonSword: Awakening is: quest and exploration drops → endgame sources → Karma gear. Weapons are fixed per hero, relics exist as a set-bonus category, and every number beyond that is still being documented. For the progression arc, see the [Gear Progression Guide](/guides/gear-progression); for hero-specific direction, the [Hero Builds Guide](/guides/hero-builds-guide).

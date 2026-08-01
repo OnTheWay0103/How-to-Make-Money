@@ -31,11 +31,11 @@ Practical consequences:
 
 ## Building Spacing: 3–4 Tiles
 
-Buildings can't be rotated — shops especially — so plan your layout left-to-right and remember the map has more vertical space than horizontal. Space buildings **3–4 tiles apart** rather than 1–2. Closer spacing works mechanically but blocks the camera view of entrances and details, and makes it hard to spot what's happening in high-traffic areas. Shops facing the road sell better because tourists can reach them.
+Large buildings have a fixed single orientation (shops especially — decorations can be rotated, but big structures can't), so plan your layout left-to-right and remember the map has more vertical space than horizontal. Space buildings a few tiles apart rather than cramming them together. Closer spacing works mechanically but blocks the camera view of entrances and details, and makes it hard to spot what's happening in high-traffic areas. Shops facing the road sell better because tourists can reach them.
 
 ## Trash Bins and Sanitation Coverage
 
-Tourists litter, and trash lowers satisfaction. Place **trash bins in high-traffic areas** — near the train station, food shops, and stalls. Build a **Sanitation Bureau** and hire 1–3 workers so trash disposal and street cleaning are automated. When purple stains appear on the ground (they damage nearby equipment), have bubble machines or sanitation workers clean them before repairs pile up.
+Tourists litter, and trash lowers satisfaction. Place **trash bins in high-traffic areas** — near the train station, food shops, and stalls. Hire a sanitation crew so trash disposal and street cleaning are automated. When purple floor grime appears (it damages nearby equipment), have bubble machines or sanitation workers clean it before repairs pile up.
 
 ## Tourist Zones: Cluster Around the Station
 

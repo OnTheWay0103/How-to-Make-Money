@@ -1,151 +1,73 @@
 ---
-title: "Story Walkthrough Guide — Chapters, Choices & True Ending"
-description: "Complete story walkthrough guide for Graphite covering all main story chapters, key choices, branching paths, hidden lore items, and how to unlock the True Ending."
+title: "Story Guide — The Notebook, The Scribe, and the Seven Heroes"
+description: "What we know about Graphite's story: the child's notebook setting, The Scribe, Death, the seven heroes, branching tarot deck choices, and how choices carry across runs. Chapter-by-chapter details are not yet confirmed."
 category: "Guides"
 version: "1.0"
-updated: "2026-07-29"
-keywords: ["graphite story walkthrough", "game chapters", "key choices", "branching paths", "hidden lore items", "true ending", "story guide"]
-related: ["character-guide", "weapons-list", "achievements-guide"]
+updated: "2026-08-01"
+keywords: ["graphite story", "graphite lore", "the scribe graphite", "death graphite", "graphite notebook setting", "graphite narrative guide", "graphite plot explained"]
+related: ["character-guide", "heroes-guide", "walkthrough-guide", "tarot-events-guide"]
 ---
 
-## Graphite Story Walkthrough Guide
+## Graphite Story Guide
 
-Graphite tells the story of four artists drawn to a mysterious gallery that exists between dimensions. The narrative unfolds across twelve chapters, with significant branching based on character choices and discovered lore. This walkthrough covers every chapter, key decision points, hidden items, and the path to the True Ending. Minor spoilers are unavoidable in a walkthrough of this nature.
+Graphite's premise is its most distinctive feature: the game takes place **inside a child's school notebook**. The heroes are pencil-drawn characters who do not know they are figments of a child's imagination, and the world they inhabit is made of paper and repurposed household junk — everyday objects stand in for monsters and treasure. The fantasy world quietly mirrors a contemporary school setting, and the two realms are connected in ways the heroes cannot see.
 
-## Chapter Overview
+This guide covers the story elements confirmed by official sources and launch coverage. Important caveat: a chapter-by-chapter walkthrough is **not yet possible** — no official chapter list or sequence of story beats beyond the Act 1 demo has been published, and the full act count is unconfirmed. Anything not sourced below is marked as such.
 
-| Chapter | Title | Recommended Characters | Major Choice Points | Hidden Items |
-|---------|-------|----------------------|---------------------|--------------|
-| 1 | **The Invitation** | Clara (forced) | Accept or decline the gallery owner's offer | 1 |
-| 2 | **Empty Frames** | Any | Which painting to enter first | 2 |
-| 3 | **The Sculptor's Garden** | Marcus | Help the statue or break it | 3 |
-| 4 | **Whispering Corridors** | Elena | Trust the voices or ignore them | 2 |
-| 5 | **The Color Well** | Dante | Mix the colors correctly or fail | 3 |
-| 6 | **Caged Melodies** | Elena | Free the singer or take her power | 2 |
-| 7 | **Canvas City** | Clara | Restore the city or paint a new one | 4 |
-| 8 | **Fractured Studio** | Any character | Which fragment of the artist's soul to confront | 3 |
-| 9 | **The Gallery's Heart** | All (rotating) | Several small choices affecting ending | 5 |
-| 10 | **Final Exhibition** | All (party) | Three major choices determining ending path | 2 |
-| 11 | **Epilogue: New Canvas** | Determined by ending | None | 1 |
-| 12 | **The Artist's Truth** | Clara (True Ending only) | None | 2 |
+## The Scribe — God of the Fantasy
 
-## Chapter 1: The Invitation
+A mysterious figure called **The Scribe** frames the entire narrative. Coverage describes the Scribe as the "God of the Fantasy" — the being who is writing the characters, assigning them purpose, and watching their stories unfold.
 
-The game opens with Clara receiving a mysterious invitation to the Vanishing Gallery. This introductory chapter establishes controls and basic mechanics.
+The Scribe tasks the game's **seven heroes** with growing stronger and gathering allies "before Death arrives." The narrative framing is unusual: the player, controlling the party, occupies a position analogous to the Scribe — making the choices that determine which heroes pursue which fates.
 
-### Key Choice
+A key reveal is that the Scribe is a **child** — the game's setting is a pen-and-paper campaign created by a kid processing grief and growing up, and the notebook world is that campaign made real. The dramatic irony of the whole story rests on this: characters who take an existential quest with full seriousness, while being doodles in a grieving child's notebook.
 
-When the gallery owner offers you the Sketch ability, you can **Accept** or **Decline**. Accepting is required to progress. Declining triggers a unique dialogue sequence but loops back to the same choice after 30 seconds.
+## Death — The Threat
 
-### Hidden Item
+**Death** is the overarching antagonist and the event the seven heroes are preparing to confront. The Scribe's mission — grow stronger, gather allies — exists entirely to prepare for Death's arrival.
 
-Check the mail table before leaving. A hidden sketch on the back of the invitation reveals the first lore fragment: "The gallery remembers every artist who enters."
+Beyond this, little has been confirmed about Death as a character: whether it is a boss to defeat, a recurring menace across acts, or something more abstract is **unconfirmed** at the time of writing. Treat any claims of specific Death fights or abilities as unverified.
 
-## Chapter 2: Empty Frames
+## The Seven Heroes
 
-Clara enters the gallery and finds four empty paintings. Each leads to a different character's introduction chapter.
+The story is built around seven playable heroes, each with a **unique personality, backstory, and playstyle**, and each with their own narrative arc:
 
-### Key Choice
+- **Your starting hero changes the story** — choosing a different hero alters story events and progression to fit that character's themes
+- The game is **intended to be played with all characters** to get the full picture of the narrative
+- Hero stories "cross and accumulate" across runs — events and relationships build on what happened before
 
-Choose which painting to enter first. This determines:
-- Which character joins your party first
-- The order of Chapters 3-6
-- Early dialogue variations
+Of the seven heroes, only two are confirmed by name in public coverage: **The Knight** (shield-based, exploits the Break system) and **The Mage** (offensive spells plus defensive support). The other five are **TBD** until official reveals.
 
-**Recommendation**: Enter the Garden painting first (Chapter 3). Marcus's strength makes subsequent exploration easier.
+## How the Story Unfolds
 
-### Hidden Items
+The confirmed story systems:
 
-- Check the gallery registry near the entrance for a note about the gallery's history
-- Examine the back of each empty frame — one has a hidden message written in pencil
+- **Tarot adventure deck**: the campaign's event system takes the form of a tarot-inspired deck of illustrated, narrated event cards. Each event presents branching, choose-your-own-adventure style choices, and the outcomes are shaped by your party, your items, and your prior decisions.
+- **Choices carry consequences across runs**: prior decisions influence later events — a choice you made in an earlier act, or even an earlier run, can change what a later event offers.
+- **Procedural encounters**: enemies and encounters are generated randomly, so the story beats arrive through the deck events rather than a fixed sequence of fights.
 
-## Chapter 3: The Sculptor's Garden
+The free **Graphite: Act 1** demo covers the first act of the campaign — the setup of the notebook world, the Scribe's mission, and the start of the heroes' journey. It includes 15 hand-drawn adventure events, which is a representative slice of how the deck-driven storytelling works.
 
-Marcus's introductory chapter. A garden of unfinished stone figures, each frozen mid-motion.
+## What We Don't Know Yet (TBD)
 
-### Key Choice
+To keep this guide honest, the following story details are **not confirmed**:
 
-At the garden's heart, you find a living statue pleading for release. You can **Help the statue** (requires solving a puzzle to free it) or **Break the statue** (direct approach using Marcus's strength).
+- Total number of acts and chapters in the full campaign
+- The identity and fate of the remaining five heroes
+- How Death is ultimately confronted (boss encounter, narrative resolution, or both)
+- How the contemporary school setting and the notebook fantasy world interact in later acts
+- Endings and branching endings — no official information exists
 
-**Help the statue**: Grants the "Gentle Hand" achievement. The statue later appears in Chapter 9 as an ally.
-**Break the statue**: Grants the "Brute Force" achievement. The statue's core becomes a permanent upgrade for Marcus.
+## Story-Based Advice for Players
 
-### Hidden Items
+- **Play every hero at least once.** The story is deliberately gated behind character choice; each run reveals a different perspective on the same events.
+- **Pay attention to event choices.** The tarot deck's branching outcomes are the main narrative engine — choices recur across runs with consequences.
+- **Try the demo before release.** The Act 1 demo gives the full narrative setup for free, and it is explicitly the first act of the real campaign, not a side story.
+- **Don't trust walkthroughs claiming chapter-by-chapter detail.** Until the full game is out, such content cannot be accurate.
 
-- Three hidden lore tablets describing the sculptor who created the garden
-- A broken chisel that serves as Marcus's first weapon upgrade
-- A seed that grows into a bridge in a later chapter
+## Related Guides
 
-## Chapter 4: Whispering Corridors
-
-Elena's introductory chapter. A maze of corridors filled with voices from the gallery's past.
-
-### Key Choice
-
-Throughout the maze, voices offer conflicting advice. You can **Trust the voices** (follow their guidance through the maze) or **Ignore them** (navigate by memorizing the layout).
-
-**Trust the voices**: Leads to a hidden room with Elena's Harmonic Bridge upgrade.
-**Ignore them**: Develops Elena's Empathic Echo ability faster.
-
-## Chapter 5: The Color Well
-
-Dante's introductory chapter. A bottomless well filled with liquid color.
-
-### Key Choice
-
-The well presents three color mixtures. You must **Mix the colors correctly** to create the required shade. Incorrect mixtures spawn color elementals that attack.
-
-- **First mixture**: Red + Blue = Purple (bridge material)
-- **Second mixture**: Yellow + Blue = Green (nature activation)
-- **Third mixture**: Red + Yellow + Blue = Black (void key)
-
-Mixing correctly on the first attempt grants the "Perfect Palette" achievement and unlocks the Color Bomb ability early.
-
-## Chapter 9: The Gallery's Heart
-
-The midpoint of the story where all four characters are together. Multiple small choices throughout this chapter accumulate toward the ending determination.
-
-### Choice Point 1: Gallery Archives
-
-When exploring the archives, you find records of the gallery's original artists. You can **Read the records** (gaining lore about the True Ending path) or **Destroy the records** (preventing future artists from being trapped).
-
-### Choice Point 2: The Tarnished Portrait
-
-A portrait of a forgotten artist. You can **Restore the portrait** (using Dante's painting) or **Leave it** (preserving its current state).
-
-## Chapter 10: Final Exhibition
-
-The climax. Three major choices determine your ending.
-
-### Major Choice 1: Gallery Owner's Fate
-
-When confronting the gallery owner, you can **Forgive** or **Condemn** them.
-
-### Major Choice 2: The Exhibition
-
-Choose which character's art is featured in the final exhibition. This determines the Epilogue chapter content.
-
-### Major Choice 3: Escape or Stay
-
-The final choice: **Escape the gallery** or **Stay to become its new curator**.
-
-## True Ending Requirements
-
-The True Ending requires specific conditions across the playthrough:
-
-1. **Accept** the gallery owner's offer in Chapter 1
-2. **Help the statue** in Chapter 3
-3. **Trust the voices** in Chapter 4
-4. **Mix all colors correctly** first try in Chapter 5
-5. **Free the singer** in Chapter 6 (do not take her power)
-6. **Restore** the tarnished portrait in Chapter 9
-7. **Read the archive records** in Chapter 9
-8. **Forgive** the gallery owner in Chapter 10
-9. **Choose Escape** in Chapter 10
-10. Collect all 30 hidden lore items across chapters
-
-### Chapter 12: The Artist's Truth
-
-Unlocked only when all True Ending requirements are met. Clara returns to the gallery alone and discovers the truth about the gallery's origin and her connection to it. This chapter adds 30 minutes of gameplay and reveals the story's central mystery.
-
-For character-specific puzzle solutions, see the [Character Guide](/guides/character-guide). For combat encounters and weapon requirements, check the [Weapons List Guide](/guides/weapons-list).
+- [Character Guide](/guides/character-guide) — the heroes and their playstyles
+- [All 7 Heroes Guide](/guides/heroes-guide) — roster breakdown
+- [Campaign Walkthrough Guide](/guides/walkthrough-guide) — run structure and Act 1 demo walkthrough
+- [Tarot Deck & Events Guide](/guides/tarot-events-guide) — the adventure deck explained

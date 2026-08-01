@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Terms of Service',
-  description: 'Terms of Service for Skills The Mound Wikiamp; Raids Wiki — conditions for using our website.',
+  description: 'Terms of Service for the Skills & Raids Wiki — conditions for using our website.',
 };
 
 export default function TermsPage() {
@@ -13,17 +13,17 @@ export default function TermsPage() {
 
       <h2>1. Acceptance of Terms</h2>
       <p>
-        By accessing and using Skills The Mound Wikiamp; Raids Wiki (<strong>skillsandraidswiki.vercel.app</strong>), you agree to be bound by these Terms of Service. If you do not agree, please do not use our website.
+        By accessing and using the Skills & Raids Wiki (<strong>skillsandraidswiki.vercel.app</strong>), you agree to be bound by these Terms of Service. If you do not agree, please do not use our website.
       </p>
 
       <h2>2. Description of Service</h2>
       <p>
-        Skills The Mound Wikiamp; Raids Wiki is an unofficial fan-made guide and wiki website for the video game "Skills The Mound: Omen of Cthulhuamp; Raids." We provide game guides, tips, strategies, and related information. We are not affiliated with, endorsed by, or connected to the game's developers or publishers.
+        The Skills & Raids Wiki is an unofficial fan-made guide and wiki website for the video game "Skills & Raids" on Steam. We provide game guides, tips, strategies, and related information. We are not affiliated with, endorsed by, or connected to the game's developer (Eddie H. Hinestroza) or publisher.
       </p>
 
       <h2>3. Intellectual Property</h2>
       <p>
-        All game-related names, images, trademarks, and content are the property of their respective owners (Lootsurvivor). Our original guide content, articles, and website design are protected by copyright. You may not reproduce, distribute, or create derivative works from our content without permission.
+        All game-related names, images, trademarks, and content are the property of their respective owners (Eddie H. Hinestroza / the Skills & Raids developer). Our original guide content, articles, and website design are protected by copyright. You may not reproduce, distribute, or create derivative works from our content without permission.
       </p>
 
       <h2>4. User Conduct</h2>
@@ -42,7 +42,7 @@ export default function TermsPage() {
 
       <h2>6. Limitation of Liability</h2>
       <p>
-        Skills The Mound Wikiamp; Raids Wiki and its operators shall not be liable for any damages arising from the use or inability to use this website. This includes, but is not limited to, direct, indirect, incidental, or consequential damages.
+        The Skills & Raids Wiki and its operators shall not be liable for any damages arising from the use or inability to use this website. This includes, but is not limited to, direct, indirect, incidental, or consequential damages.
       </p>
 
       <h2>7. Third-Party Links & Advertisements</h2>

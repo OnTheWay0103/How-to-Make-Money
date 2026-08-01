@@ -1,104 +1,106 @@
 ---
-title: "Exploration Tips Guide — Navigation & Hidden Secrets"
-description: "Complete exploration tips guide for Taival covering seamless open world navigation, hidden locations, Henki traversal abilities, secret discoveries, and co-op exploration strategies."
+title: "Exploration Tips Guide — The Four Realms & Hidden Secrets"
+description: "Taival exploration guide: navigate the four seamlessly connected realms (highlands, forests, mountains, ancient ruins), use Henki traversal forms, and find hidden secrets — with unconfirmed details marked."
 category: "Guides"
 version: "1.0"
-updated: "2026-07-29"
-keywords: ["taival exploration", "open world navigation", "hidden locations", "henki traversal", "secrets guide", "co-op exploration", "map tips"]
-related: ["crafting-mastery", "world-bosses", "equipment-guide"]
+updated: "2026-08-01"
+keywords: ["taival exploration", "taival realms", "taival open world navigation", "taival henki traversal", "taival hidden secrets", "taival four biomes", "taival exploration guide"]
+related: ["biomes-exploration-guide", "henki-companion-guide", "beginner-guide", "world-bosses", "rare-spawns"]
 ---
 
 ## Taival Exploration Tips Guide
 
-Taival's seamless open world is a sprawling wilderness filled with hidden caves, ancient ruins, and treacherous peaks. Unlike games that segment regions with loading screens, Taival streams everything in real time, meaning you can walk from the Meadowlands to the Frozen Tundra without interruption. This guide covers navigation strategies, Henki traversal abilities, and how to find every secret the world hides.
+Taival is a handcrafted, voxel-style open world made of **four seamlessly connected realms**: rolling highlands, dense forests, mountains, and ancient ruins. There are no loading screens between realms — you can walk from the highlands into the forest and on to the mountains without interruption. Exploration is the heart of the game, and this guide covers how to do it well.
 
-## Navigation Fundamentals
+**Honesty note:** an earlier version of this page described "six major biomes" with invented names (Meadowlands, Ironwood Forest, Sunken Marsh, Frozen Tundra, Crystal Depths, Sky Gardens) and specific named secrets. The game has **four** confirmed realms, and those region names are not official. This page has been corrected.
 
-The world of Taival is divided into six major biomes, each with distinct navigation challenges. Understanding the terrain is the first step to efficient exploration.
+## The Four Confirmed Realms
 
-| Biome | Terrain Type | Navigation Challenge | Recommended Mount |
-|-------|-------------|---------------------|-------------------|
-| **Meadowlands** | Rolling hills, rivers | Easy — open fields | Any |
-| **Ironwood Forest** | Dense vegetation, cliffs | Medium — easy to get lost | Henki Climbing Form |
-| **Sunken Marsh** | Swamps, deep water | Hard — slow movement | Henki Swimming Form |
-| **Frozen Tundra** | Snow, ice, crevasses | Medium — visibility issues | Henki Gliding Form |
-| **Crystal Depths** | Underground caves, lava | Hard — maze-like | Henki Digging Form |
-| **Sky Gardens** | Floating islands, wind tunnels | Very Hard — vertical traversal | Henki Flying Form |
+| Realm | Confirmed Details | Exploration Character |
+|-------|-------------------|-----------------------|
+| **Rolling highlands** | The starting region; gentle terrain | Easy, open terrain — good for learning traversal |
+| **Dense forests** | Thick woodland with unique inhabitants | Dense, vertical (canopies) — easy to get lost |
+| **Mountains** | High peaks and cliff terrain | Vertical — climbing forms matter |
+| **Ancient ruins** | Old structures "with secrets" per official copy | Puzzle-like, secret-heavy |
 
-## Henki Traversal Forms
+The Steam page confirms each realm has "distinct environments, inhabitants, and secrets" — the secrets are official, though the specifics are unconfirmed.
 
-Your Henki companion is not just a combat partner — its traversal forms are essential for reaching hidden areas. Each form unlocks unique movement capabilities.
+## Henki Traversal — Your Real Exploration Tool
 
-| Henki Form | Ability | Exploration Use |
-|------------|---------|-----------------|
-| **Climbing Form** | Scale sheer surfaces, cling to walls | Access cliffside caves, mountain peaks |
-| **Swimming Form** | Breathe underwater, swim at full speed | Explore submerged ruins, underwater caves |
-| **Gliding Form** | Slow fall, horizontal glide | Cross large gaps, descend safely |
-| **Digging Form** | Burrow underground, detect buried objects | Find hidden tunnels, uncover treasure |
-| **Flying Form** | Full flight for limited duration | Reach floating islands, scout from above |
-| **Tracking Form** | Highlight interactive objects, trails | Follow clues, find hidden quest items |
+Your Henki is the exploration system. Confirmed traversal capabilities:
 
-### Form Switching Strategy
+| Form | Confirmed Ability | Exploration Use |
+|------|-------------------|-----------------|
+| **Swift mount** | "Scales cliffsides" | Climbing cliffs, fast overland travel, reaching high ground |
+| **Large riding forms** | Reported as rideable (community-confirmed store copy: "swift mount that scales cliffsides"; riding reported) | Faster exploration across the open world |
+| **Giant snail form** | Community-reported: climbs vertical walls | Vertical climbing, escape routes |
+| **Bird / glider form** | Community-reported: grab the form's legs to glide | Descending from peaks, crossing gaps |
+| **Hulking beast** | "Absorbs damage" | Not traversal — but tanking ambushes while exploring |
+| **Cunning predator** | "Strikes from the shadows" | Sneaking past threats, hunting rare creatures |
 
-Switching between Henki forms in the field requires Focus, a resource that regenerates over time. Each form switch costs 20 Focus. Plan your route to minimize unnecessary switches. For a typical exploration session:
+Mount abilities are explicitly part of the Henki progression track (Steam page: unlock "mount abilities for faster exploration"), so expect movement upgrades to unlock as you progress.
 
-1. Start in **Tracking Form** to identify points of interest in the area
-2. Switch to the terrain-appropriate traversal form to reach marked locations
-3. Use **Digging Form** at any unusual terrain formations to check for buried secrets
-4. Switch to **Gliding Form** for descending from high points
+## Exploration Strategy by Realm
 
-## Finding Hidden Locations
+### Highlands (Start Here)
 
-Hidden locations in Taival are marked by environmental cues rather than map markers. Learn to recognize these signs.
+- **Best for:** learning taming, first forms, starter quests.
+- **Tip:** collect your first mount form early — the world is large and the swift mount "scales cliffsides," which the highlands' rolling terrain makes useful immediately.
 
-### Environmental Cues
+### Dense Forests
 
-- **Unusual rock formations** — A cluster of stones that looks intentionally placed often conceals a cave entrance
-- **Discolored foliage** — Plants that are a different color than their surroundings may hide a path or item
-- **Animal behavior** — Birds circling a specific area, or animals gathering at a particular spot, often indicate a water source or hidden cave
-- **Sound cues** — Distant waterfalls, unusual echoes, or music changes signal nearby secrets
-- **Light anomalies** — Glowing particles or shafts of light in unusual places mark points of interest
+- **Best for:** creature variety, settlement quests (the confirmed goblin dispute and insect pest control are forest-adjacent), taming more forms.
+- **Tip:** go vertical — canopies and trees suggest climb-based secrets (unconfirmed specifics).
 
-### Secret Types
+### Mountains
 
-- **Hidden Caves**: Usually behind waterfalls, under roots, or concealed by foliage. Mark them on your map immediately.
-- **Buried Caches**: Require Henki's Digging Form to unearth. Often contain rare materials or gold.
-- **Lore Stones**: Ancient standing stones that reveal story fragments when activated. Finding all lore stones in a biome unlocks a permanent stat bonus.
-- **Viewpoints**: Scenic locations that grant XP and reveal nearby points of interest on your map.
+- **Best for:** the game's most vertical exploration; the swift mount's cliff-scaling shines here.
+- **Tip:** unlock a climbing-capable form before committing to mountain routes.
+
+### Ancient Ruins
+
+- **Best for:** "secrets" content — official copy promises the ruins hold them.
+- **Tip:** explore slowly and carefully; community reports suggest puzzle-like reveals (unconfirmed).
+
+## Finding Hidden Secrets
+
+Official copy promises "hidden secrets and unknown treasures" across the realms. Practical methods:
+
+1. **Cover everything.** Seamless open world + no loading screens = nothing stops you from walking every path.
+2. **Use your forms.** Climbing (swift mount/snail), gliding (bird form), and riding open up vertical and fast routes others can't reach.
+3. **Do the cozy quests.** The farmer's stolen barrel and goblin dispute quests show the world rewards paying attention to its inhabitants.
+4. **Follow the creatures.** "Sudden bosses" and random encounters happen while exploring — creature hotspots are adventure hotspots.
+5. **Return to old areas.** The developer plans to expand content through Early Access; areas will change as patches ship.
 
 ## Co-op Exploration Strategies
 
-Exploring with a group in Taival opens additional possibilities. The following strategies maximize efficiency.
-
-### Splitting the Party
-
-In co-op, players can split up to cover more ground. Designate one player to remain in Tracking Form while others use traversal forms. The tracker calls out points of interest, and the group converges on the most promising locations. This reduces exploration time by up to 60% compared to group travel.
-
-### Shared Discoveries
-
-When any group member discovers a point of interest or hidden location, it is marked on every party member's map. Coordinate to cover different sections of each biome simultaneously.
-
-### Henki Form Coverage
-
-Ensure your group has access to all six Henki forms across the party. No single person needs all forms, but the group as a whole should cover every traversal type. A balanced group can access any secret without backtracking.
+- **Split up.** Each player takes a different quadrant of a realm; the world state is shared, so discoveries benefit everyone.
+- **Assign roles.** A player on a swift mount scouts routes; a player with a predator form hunts rare creatures; a support player keeps supplies.
+- **Vote together on story.** When exploration triggers a group dialogue decision, discuss as a party — all players vote on pivotal choices (confirmed system).
+- **Play hybrid.** Mix local split-screen and online players in one session (confirmed) — a couch player and online friends can explore simultaneously.
 
 ## Points of Interest Worth Seeking
 
-Some locations are particularly rewarding and worth going out of your way for.
-
-- **The Ancient Forge** (Ironwood Forest): A hidden forge that can upgrade gear one tier higher than standard forges. Requires Henki Digging Form to locate.
-- **Whispering Falls** (Meadowlands): A waterfall that, when activated with a specific Henki form, reveals a cave containing the Spirit Amulet (increases Focus regeneration by 50%).
-- **Sunken Cathedral** (Sunken Marsh): An underwater ruin accessible only with Henki Swimming Form. Contains the Tidal Blade and recipe scrolls for water-infused equipment.
-- **Sky Bridge** (Sky Gardens): A chain of floating islands that leads to the Storm Peak, where the Sky Crown (legendary headgear) awaits.
-- **Crystal Heart** (Crystal Depths): The deepest point in the game. Contains the Heartstone, a key item for the game's true ending.
+| Location Type | Confirmed? | Notes |
+|---------------|-----------|-------|
+| The four realms themselves | Yes | Highlands, forests, mountains, ruins |
+| Barbarian camp | Yes | A quest takes you to fight a beast there |
+| Settlements | Yes | Home to villagers and quests (farmer, goblins) |
+| Named landmarks (Ancient Forge, Sky Bridge, etc.) | **No** | Earlier names on this site were invented — do not trust them |
 
 ## Exploration Rewards
 
-The exploration reward system incentivizes thoroughness:
+Confirmed reward sources tied to exploration:
 
-- **Biome Completion**: 100% exploration of any biome rewards a unique cosmetic item and a skill point
-- **Lore Collection**: Each set of lore stones grants a permanent stat bonus (+5 to a stat per completed set)
-- **Treasure Hunter Achievements**: Finding 50, 100, and 200 hidden locations unlocks titles and cosmetic rewards
-- **Speed Exploration**: The "Pathfinder" achievement rewards players who discover all viewpoints within the first 10 hours of gameplay
+- **Creature essences** — absorbing essence unlocks new Henki forms (official)
+- **Random loot** — "random loot" drops during exploration (official)
+- **Quests** — exploration feeds the cozy investigation and combat quests (official)
+- **Companion dungeon access** — discovering dungeon entrances is exploration (confirmed feature, unconfirmed entrances)
 
-For information about crafting materials found during exploration, see the [Crafting Mastery Guide](/guides/crafting-mastery). For dangerous encounters in hidden areas, consult the [World Bosses Guide](/guides/world-bosses).
+## Related Guides
+
+- [Biomes & Exploration Guide](/guides/biomes-exploration-guide) — Realm-by-realm details
+- [Henki Companion Guide](/guides/henki-companion-guide) — Traversal forms and taming
+- [Beginner's Guide](/guides/beginner-guide) — First steps in the highlands
+- [World Bosses Guide](/guides/world-bosses) — Encounters you'll meet while exploring
+- [Rare Spawns Guide](/guides/rare-spawns) — Golden and purple variants

@@ -1,115 +1,102 @@
 ---
-title: 'Demo Guide — Complete Grain Rot Demo Content & Progression'
-description: 'Everything in the Grain Rot free demo — all 3 biomes, 9 enemies, 20+ constructs, Outpost upgrades, cosmetics, and how to progress as far as possible before the full game launches August 7.'
-keywords: ['grain rot demo', 'grain rot demo guide', 'grain rot demo content', 'grain rot demo progression', 'grain rot free demo']
-updated: '2026-07-24'
+title: 'Demo Guide — Complete Grain Rot Demo Content & What It Teaches'
+description: 'Everything confirmed about the free Grain Rot demo: 3 underground biomes, 9 enemy types, 20+ unlockable constructs, upgradeable Outpost rooms, dungeon modifiers — and what the demo teaches before the August 7 launch.'
+category: 'Guides'
+version: 'Pre-release'
+updated: '2026-08-01'
+keywords: ['grain rot demo', 'grain rot demo guide', 'grain rot demo content', 'grain rot demo progression', 'grain rot free demo', 'grain rot steam next fest']
+related: ['beginner-guide', 'release-date-faq', 'all-biomes-guide', 'all-enemies-guide', 'player-count-guide']
 ---
 
-# Demo Guide — Complete Demo Content & Progression
+# Demo Guide — Complete Grain Rot Demo Content & What It Teaches
 
-The Grain Rot free demo is available now on Steam and contains a surprising amount of content — far more than most "demos." With 3 biomes, 9 enemy types, and 20+ unlockables, you can easily spend 5-10 hours mastering everything the demo has to offer before the full game launches on August 7.
+The Grain Rot demo is free on Steam and live right now. Released **June 12, 2026**, it was one of the standout demos of the June Steam Next Fest — over **350,000 downloads**, one of the **Top 15 most-played demos** of the fest, and it helped push the game past **200,000 wishlists**. If you haven't played it yet, this guide tells you exactly what it contains, what it doesn't, and how to get the most out of it before the full game launches **August 7, 2026**.
 
-## What's in the Demo
+## What's in the Demo (Confirmed)
 
-### Biomes (3 of 3 Demo Biomes)
-- ✅ The Shallows (Layers 1-2)
-- ✅ The Warrens (Layers 3-4)
-- ✅ The Depths (Layers 5-6)
+The publisher's announcement confirms the demo contains:
 
-### Enemies (All 9 Demo Types)
-- Splintered Stalker, Husk Drone, Grain Hulk (The Shallows)
-- Rot Weeper, Timber Wretch, Char Husk (The Warrens)
-- Warped Screamer, Rot-Sworn Knight, Flesh-Grafted Abomination (The Depths)
+| Content | Confirmed Details |
+|---------|-------------------|
+| **3 underground biomes** | Procedurally shifting ruins — full-game art style and systems |
+| **9 enemy types** | The Corrupted, reacting to sound, movement, and each other |
+| **20+ unlockable constructs** | Weapons, tools, and utilities to unlock and test |
+| **Upgradeable Outpost rooms** | The base-building loop, demo-sized |
+| **Dungeon modifiers** | Run modifiers that change how each descent plays |
+| **Full co-op** | Play with friends exactly as in the full game |
+| **Vessels, cosmetics, hats** | Possessable bodies and "questionable cosmetics" |
 
-### Constructs (20+ Unlockable)
-- Weapons: Rusty Blade, Reinforced Mallet, Splinter-Bow, Splintered Axe
-- Utilities: Barricade Kit, Healing Salve, Noise Maker, Spark Beacon
-- Consumables: Fire Bomb, Rot Purge Flask
+**Language note:** the demo is English-only at this stage. The full game ships with 11 fully supported languages (English, German, Japanese, Korean, Portuguese-Brazil, Russian, Simplified Chinese, Ukrainian, French, Spanish-Latin America, Traditional Chinese).
 
-### Outpost Upgrades
-- Workshop Lv.1-3 (Lv.4 locked in demo)
-- Forge Lv.1-3 (Lv.4 locked in demo)
-- Alchemy Lv.1-2 (Lv.3 locked in demo)
-- Cosmetic Workshop Lv.1-2 (full access)
-- Training Ground stat upgrades (all available)
+## How Good Is the Demo?
 
-### Survivors
-- The Alchemist (The Shallows, secret alcove)
-- The Cartographer (The Warrens, hidden tunnel)
+- **Very Positive** on Steam (roughly 81% positive from several hundred reviews at the time of writing).
+- **2,078 peak concurrent players** — a strong number for an indie demo.
+- Players report 5-10+ hours of content when chasing all unlocks, though individual mileage varies.
 
-### Cosmetics
-- 5 hat options, 3 vessel paint colors
-- Additional cosmetics unlockable through rare drops
+## What the Demo Doesn't Have
 
-## What's NOT in the Demo
+Honest expectations for the demo:
 
-- Biomes 4+ (Rot-Hollow and beyond)
-- Bosses beyond the Flesh-Grafted Abomination
-- Workshop Lv.4, Forge Lv.4, Alchemy Lv.3
-- Survivors: The Tinkerer, The Merchant
-- Legendary constructs and vessels
-- The full story and both endings
-- Endgame vessel unlocks (Ember-Kissed Vessel, Spark Jumper)
+- **No confirmed final content beyond the demo scope** — biomes, enemies, and constructs beyond the demo numbers are unannounced.
+- **No confirmed endgame.** Deep Layers exist in the full game; demo depth is a sample.
+- **No price, consoles, or post-launch features** — the demo can't show what hasn't been announced.
 
-## Demo Progression Guide
+## Demo vs. Full Game: What Carries Over?
 
-### Goal 1: Learn the Basics (1-2 hours)
-- Complete 5 successful extractions from The Shallows
-- Unlock Workshop Lv.1 and Forge Lv.1
-- Rescue the Alchemist survivor
-- Craft a Healing Salve and use it in a run
+**Demo progress is not expected to carry over to the full game.** The developers have not published an explicit carry-over statement, so treat the demo as a standalone experience: your unlocks reset, but your skill doesn't. Plan for a fresh start on August 7.
 
-### Goal 2: Master the Warrens (2-4 hours)
-- Complete 5 successful extractions from The Warrens
-- Unlock Workshop Lv.2 and Forge Lv.2
-- Rescue the Cartographer survivor
-- Unlock and use the Splinter-Bow in a run
-- Kill one of every enemy type in The Warrens
+The demo's tuning also won't match launch: demo economies are typically more generous, and the full game will have more of everything. Your demo experience is a preview, not a save file.
 
-### Goal 3: Conquer the Depths (4-8 hours)
-- Complete 3 successful extractions from The Depths
-- Unlock Workshop Lv.3 and Forge Lv.3
-- Kill a Flesh-Grafted Abomination
-- Successfully extract with Obsidian
-- Max out at least one stat upgrade
+## How to Get the Most Out of the Demo
 
-### Goal 4: Completionist (8+ hours)
-- Unlock all available constructs
-- Upgrade all Outpost rooms to demo maximum
-- Complete a full 3-biome run (Shallows → Warrens → Depths → extract)
-- Find all secret rooms in all 3 biomes
-- Collect all available cosmetics
+### Goal 1: Learn the Confirmed Core Loop (First Hour)
 
-## Demo-Only Tips
+- Ride the elevator, smash furniture, find a Grinder, convert junk to gold.
+- Locate the extraction elevator early — route knowledge is survival.
+- Extract once with anything, just to see the Outpost loop: spend, upgrade, descend again.
 
-Since demo progress doesn't carry over to the full game, here's how to get the most value:
+### Goal 2: Build Sound Discipline (Hours 2-3)
 
-1. **Experiment with everything**: Try every vessel, every construct, every strategy. The demo is your training ground — failure costs nothing.
+The Corrupted react to sound, movement, and each other. Use the demo to learn:
 
-2. **Learn enemy patterns**: The 9 demo enemies will be in the full game. Mastering them now gives you a head start on August 7.
+- What actions are loud (smashing, sprinting, fighting) and how far noise travels.
+- How enemies chain-react — fight one, watch its friends arrive.
+- When to fight and when to ghost past.
 
-3. **Find your role**: If you plan to play co-op, try all four team roles (Vanguard, Scout, Striker, Hauler) to find your preference.
+### Goal 3: Test Vessels and Constructs (Hours 4+)
 
-4. **Practice extraction holds**: The 60-second elevator hold is the hardest mechanic. Practice it until you can do it in your sleep.
+The demo's 20+ constructs and multiple vessels are your loadout lab. Try everything — especially:
 
-5. **Map the biomes mentally**: While rooms are procedurally generated, room templates repeat. Learn to recognize them.
+- Durability differences between vessel types.
+- Which construct types solve which problems (damage, distance, resource conversion, distraction).
+- How corruption builds by depth and how it changes your body, voice, and emotes.
 
-6. **Don't burn out**: The full game has significantly more content. The demo is a taste — save your serious grinding for August 7.
+### Goal 4: Try Co-op (Whenever You Can)
 
-## Known Demo Differences from Full Game
+Co-op is the game's center of gravity. Bring friends or make them in the demo's community (the official Discord is linked from the Steam page). Learn the extraction-as-a-team rhythm: protect the loot carrier, call the elevator route, and never let everyone break at once.
 
-Based on developer statements:
-- **Corruption rate is reduced** in the demo (makes it more forgiving)
-- **Loot tables are adjusted** (more generous in demo to showcase content)
-- **Some enemy behaviors are simplified** (full game AI is more complex)
-- **Outpost upgrade costs are lower** in the demo (faster progression for testing)
-- **No boss enemies** beyond the Flesh-Grafted Abomination (full game has multiple unique bosses)
+## Demo FAQ
 
-## Transitioning to Full Game
+### Is the demo free?
+Yes — free on Steam (search "GRAIN ROT Demo").
 
-When the full game launches on August 7:
-- Your demo progress resets — everyone starts fresh
-- Expect Outpost upgrades to cost more and take longer
-- Corruption will be more aggressive
-- New biomes, enemies, and bosses await
-- Your skills and knowledge from the demo carry over — you'll have a significant head start over new players
+### Do I need friends to play it?
+No. Single-player is confirmed for the full game and works in the demo.
+
+### Will the demo remain available after launch?
+The demo is expected to remain on Steam after the game launches; exact delisting plans are unannounced.
+
+### Does the demo contain spoilers for the full game?
+The demo samples the same systems and setting. Specific full-game content (story, endgame, bosses) is not confirmed to appear in the demo.
+
+### Is the demo a good way to decide whether to buy?
+Yes — it's the exact core loop of the game, and it's free. If the demo clicks, the full game adds more of the same.
+
+## Related Guides
+
+- [Beginner Guide](/guides/beginner-guide) — your first runs, demo or full game
+- [Release Date FAQ](/guides/release-date-faq) — launch details, requirements, platforms
+- [All Biomes Guide](/guides/all-biomes-guide) — the 3 demo biomes explained
+- [All Enemies Guide](/guides/all-enemies-guide) — the 9 demo enemy types
+- [Player Count Guide](/guides/player-count-guide) — demo co-op details

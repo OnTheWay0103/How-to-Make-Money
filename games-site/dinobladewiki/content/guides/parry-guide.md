@@ -1,181 +1,117 @@
 ---
-title: "Dinoblade Parry Guide — Master Perfect Parry Timing"
-description: "Master parrying in Dinoblade. Frame data tables for every boss attack, perfect parry mechanics, riposte strategies, and practice drills to master the timing."
+title: "Dinoblade Parry Guide — Perfect Parry Timing & the Resolve Loop"
+description: "Master parrying in Dinoblade — the hold-and-release parry input, perfect parry rewards, Resolve bars, Instinct Counters, and practice drills."
 category: "Mechanics"
 version: "1.0"
-updated: "2026-07-19"
+updated: "2026-08-01"
 keywords:
   - Dinoblade parry
-  - perfect parry
-  - parry timing windows
-  - boss parry table
-  - riposte
-  - parry practice
+  - Dinoblade how to parry
+  - Dinoblade perfect parry
+  - Dinoblade parry guide
+  - Dinoblade parry timing
+  - Dinoblade Instinct Counter
 related:
   - boss-guide
   - beginner-guide
-  - controls-guide
-  - builds-guide
+  - combat-advanced-guide
+  - boss-rush-strategy
 ---
 
-# Dinoblade Parry Guide — Master Perfect Parry Timing
+# Dinoblade Parry Guide — Perfect Parry Timing & the Resolve Loop
 
-Parrying is one of the most rewarding mechanics in Dinoblade. A well-timed parry can turn a desperate boss fight into a decisive victory, opening enemies to devastating riposte attacks. But parrying requires precision — the window is tight, and the punishment for failure is severe.
+Parrying is the heart of Dinoblade. The game's parry system is frequently compared to Sekiro and Lies of P, and nearly every combat system in the game — stamina, Resonance, Resolve bars, Instinct Counters — runs through it. Master the parry and the game opens up; ignore it and every fight is an uphill battle.
 
-This guide breaks down exactly how parrying works, provides frame data for every parryable boss attack, and offers practice drills to help you master the timing.
+**Honesty note:** no official frame data (parry window lengths, i-frame counts) has been published. Any guide printing precise frame numbers for Dinoblade is unverified. The mechanics below are confirmed; the timing is something you learn by feel.
 
----
+## How Parrying Works (Confirmed)
 
-## How Parrying Works
+### The Input: Hold and Release
 
-### The Parry Mechanic
+Dinoblade's parry is not a separate button — it's the **block input with release timing**:
 
-When you press the parry button (default: L2/LT or right mouse button), your dinosaur raises a claw to deflect incoming attacks. The parry animation has three phases:
+1. **Hold the block input** to block (costs stamina while blocking).
+2. **Release it right before an incoming strike lands** to parry.
 
-| Phase | Duration | Description |
-|-------|----------|-------------|
-| Startup | 3 frames | Arm raises into parry position. No parry effect yet. |
-| Active Frames | 5 frames | The parry window. An enemy attack landing during this window triggers a successful parry. |
-| Recovery | 8 frames | Arm returns to rest. Cannot act during this time. If the parry failed, you are vulnerable. |
+Coverage describes it as "holding block and releasing it right before the incoming strike triggers the parry." The release timing is the skill — release too early and you're just dropping your guard; release too late and you take the hit.
 
-**Total animation duration:** 16 frames (~267ms at 60 FPS).
-**Effective window:** 5 frames (~83ms).
+### What a Perfect Parry Gives You
 
-### Perfect Parry vs Regular Block
+- **Deflects the attack** entirely.
+- **Restores stamina** — the parry is an economy tool, not just defense.
+- **Restores Resonance** — the blue bar under your health that powers special attacks and charged attacks.
 
-| Action | Effect |
-|--------|--------|
-| **Regular Block** (hold parry button) | Reduces damage by 60%, costs stamina per hit. No counterattack opportunity. |
-| **Parry** (tap parry button on impact) | Deflects the attack entirely, staggers the enemy. Enables riposte. |
-| **Perfect Parry** (parry within 2 frames of the attack landing) | Longer riposte window (1.5x-2x normal), bonus riposte damage (+25%). Staggers the enemy for longer. |
+This is the loop that makes Dinoblade rewarding: *perfect parries pay for offensive resources*. The more parries you land, the more you can spend.
 
-### Riposte Follow-Up
+### Blocking: The Backup Option
 
-After a successful parry:
+Holding block reduces or negates damage at a stamina cost. Blocking is the safe way to learn attack patterns; parrying is the reward for having learned them. A mistimed block (blocking too late) costs stamina too — with low stamina, a mistimed block can leave you unable to dodge or attack.
 
-1. The enemy is staggered for 1-3 seconds (varies by attack).
-2. Press the light attack button near the staggered enemy to perform a **riposte** — a special critical attack.
-3. Riposte damage is **3x** your normal light attack damage.
-4. After a perfect parry, the riposte window is extended, giving you time to reposition for a better-angle attack.
+## The Resolve Loop (Confirmed)
 
-### Parry Recovery Cancels
+Every enemy — regular or boss — has a **Resolve bar** (their posture/stagger meter):
 
-You can cancel the recovery frames of a successful parry by:
+1. **Parries fill the Resolve bar.**
+2. When it's full, you can land a **heavy finishing blow** on the enemy.
+3. **Against bosses:** when the boss's Resolve bar is full, perfectly parrying one of their attacks triggers the **Instinct Counter** — a powerful counterattack "clash" that deals massive damage.
 
-- **Rolling** immediately after the parry connects (consumes stamina but cancels recovery)
-- **Using a special skill** (requires Spirit, good for aggressive follow-ups)
-- **Riposting** (the riposte animation overwrites recovery automatically)
+The Instinct Counter is the single most important boss mechanic in the game — the game teaches it right before your first boss, Kira the Exile. **Wait for a real attack animation and time your parry; don't just spam block when the bar is full.**
 
-Failed parries cannot be cancelled. You must endure the full recovery animation.
+## What Cannot Be Parried (Confirmed)
 
----
+- **Unblockable attacks exist** and must be dodged with roll i-frames. Kasei's phase 2 kit (greatsword gap-closers, sword throws) is the confirmed example.
+- **Rule of thumb:** block an unfamiliar attack first to test it; if blocking fails, it's an unblockable — dodge it next time.
 
-## Boss Parry Timing Table
+## Parry Practice Plan
 
-This table shows every parryable boss attack with frame data, difficulty, and reward window. All values are at 60 FPS.
+### Step 1: Raptor Packs (the cavern, Part 1)
 
-### Kira the Exile
+The small raptor packs in the opening area have telegraphed, slow attacks — the game's intended parry training. Practice until you can:
 
-| Attack | Parry Window | Difficulty | Riposte Window | Notes |
-|--------|-------------|-----------|---------------|-------|
-| Leaping Bite | 8 frames | Medium | 2.0s | Best parry opportunity. Watch for the roar before the lunge. |
-| Claw Swipe Combo (3rd hit) | 10 frames | Easy | 1.5s | Block the first two swipes, parry the third. Safest parry in the fight. |
-| Tail Sweep | 6 frames | Hard | 1.0s | Short window. Parry when the tail passes her head during wind-up. |
-| Rage Leaping Bite (phase 2) | 6 frames | Hard | 1.5s | Faster than the normal version. Parry earlier than you think. |
+- Parry 10 attacks in a row without missing.
+- Clear a full pack using parries and finishing blows only.
 
-### Axe
+This builds the **release-timing reflex** the whole game runs on.
 
-| Attack | Parry Window | Difficulty | Riposte Window | Notes |
-|--------|-------------|-----------|---------------|-------|
-| Charge | 12 frames | Easy | 2.5s | Most generous parry window in the game. Practice here first. |
-| Ground Slam | 8 frames | Medium | 2.0s | Parry when both forelegs hit the ground. |
-| Club Tail (wind-up) | 6 frames | Hard | 1.5s | Tight window. Parry just before the club reaches its apex. |
+### Step 2: Hammer and Scythe Dinosaurs (Parts 2–3)
 
-### Kasei the Tyrant
+Their big, slow wind-ups are the intermediate step. Parrying hammer swings transfers directly to the boss Axe — his spinning combos end in the game's confirmed easy parry window.
 
-| Attack | Parry Window | Difficulty | Riposte Window | Notes |
-|--------|-------------|-----------|---------------|-------|
-| Bite Lunge | 5 frames | Very Hard | 1.5s | Extremely tight. Must parry during the first few frames of the mouth opening. |
-| Stomp | 8 frames | Medium | 1.0s | Parry when the foot is at its highest point, just before it descends. |
-| Tail Whip | 4 frames | Expert | 2.0s | The hardest parry in the game. 4 frames (~67ms). Only attempt if you're confident. |
-| Empowered Bite Lunge (phase 2) | 5 frames | Very Hard | 1.5s | Same timing as phase 1, but visual tells are harder to read. |
+### Step 3: Boss Practice
 
----
+| Boss | Practice Window |
+|------|-----------------|
+| Kira the Exile | His telegraphed three-hit combo; then the Instinct Counter on a full Resolve bar |
+| Axe | The **final swing of his spinning combo** — the confirmed easiest parry in the boss roster |
+| Kasei the Tyrant | Phase 2 jump slashes are parryable; dodge his gap-closers and sword throws |
 
-## Parry Timing by Weapon Type
+### Practice Tips
 
-The weapon your dinosaur carries affects parry timing. This is a unique mechanic in Dinoblade — heavier weapons in your jaws change your dinosaur's head position and attack angles, which subtly affects parry animations.
-
-| Weapon Type | Active Frame Start | Notes |
-|------------|-------------------|-------|
-| Greatsword | Frame 3-7 | Standard timing. The greatsword's weight delays startup slightly. |
-| Battle Axe | Frame 3-7 | Same as greatsword. |
-| War Hammer | Frame 4-8 | Slowest parry startup. Compensate by parrying 1 frame earlier than normal. |
-| Scythe | Frame 2-6 | Faster startup. Good for reaction parries. |
-| Spear | Frame 2-6 | Same as scythe. |
-| Claws | Frame 1-5 | Fastest parry startup. Most forgiving for quick reactions, but the short active window means precise timing. |
-| Shield (off-hand) | Frame 1-10 | Most forgiving parry window. 10 active frames. Recommended for learning. |
-
-**Shields** are a separate off-hand item found in the Ancient Forest. They cannot be used with two-handed weapons (Greatsword, War Hammer) but pair well with Spear, Claws, and Battle Axe. If you are struggling with parry timing, find a shield — the extra 5 active frames make a dramatic difference.
-
----
-
-## How to Practice Parrying
-
-### Step 1: Small Raptors (Jurassic Plains)
-
-The small raptors in the starting area have slow, telegraphed biting attacks. They are the perfect training dummies.
-
-- Approach a raptor and wait for it to attack.
-- Do not attack back. Focus entirely on parrying.
-- Practice until you can consistently parry 10 bites in a row.
-
-### Step 2: Fallen Warrior (Jurassic Plains Miniboss)
-
-The Fallen Warrior near the Plains Outpost has a 3-hit combo. This is an excellent intermediate practice target.
-
-- Let him start his combo.
-- Block the first two hits.
-- Parry the third hit.
-- Once consistent, try parrying all three hits (very difficult but excellent practice).
-
-### Step 3: Boss Parry Practice
-
-Once you are comfortable with basic parries, practice on boss attacks with generous windows:
-
-| Boss | Recommended Attack to Practice |
-|------|------------------------------|
-| Axe | Charge (12-frame window — easiest in the game) |
-| Kira the Exile | Claw Swipe Combo 3rd hit (10-frame window) |
-| Kasei the Tyrant | Stomp (8-frame window) |
-
-### Parry Practice Tips
-
-1. **Watch the enemy's body, not your own.** Your parry animation is always the same. Watch the enemy's wind-up to read timing.
-2. **Parry earlier than you think.** Most players parry too late because they react to the attack's impact rather than the wind-up telegraph.
-3. **Use audio cues.** Many attacks have distinct sound effects during the wind-up. Learn them — audio reaction is faster than visual reaction.
-4. **Never spam parry.** If you miss a parry, you cannot parry again for 16 frames (the recovery period). Spamming the button guarantees you'll be hit during recovery.
-5. **Practice without attacking.** Dedicate entire expeditions to parry-only practice. You'll learn more in 10 minutes of focused parry practice than in 2 hours of normal play.
-
----
+1. **Watch the enemy, not yourself.** Your parry release is always the same; the enemy's wind-up is what you're timing.
+2. **Release earlier than feels right.** Most players parry late because they react to impact instead of the wind-up.
+3. **Use blocking as a metronome.** Block a combo string first to learn its rhythm, then replace blocks with parries one hit at a time.
+4. **Never spam.** A missed parry means you're standing in front of an attack with your guard down — take the hit, reset, retry.
+5. **Death is free.** Dinoblade has no currency drop on death — every failed parry attempt is a lesson, not a setback.
 
 ## Common Parry Mistakes
 
 | Mistake | Why It Happens | Fix |
 |---------|---------------|-----|
-| Parrying too late | Reacting to the hit instead of the wind-up | Focus on the wind-up animation, not impact |
-| Spamming parry | Panic, trying to recover from a miss | Take the hit and reset. Spamming guarantees failure. |
-| Not riposting | Forgetting to follow up | The riposte prompt appears on screen — train yourself to press it reflexively |
-| Parrying unparryable attacks | Not knowing which attacks can be parried | Refer to boss tables above. Multi-hit and AoE attacks are usually unparryable. |
-| Parrying with shield, then switching | Different timing windows cause whiffs | Pick one parry style (shield or no shield) and stick with it for a session |
+| Releasing too late | Reacting to the impact instead of the wind-up | Time the release against the wind-up animation |
+| Releasing too early | Releasing when the enemy starts moving | Hold the guard a beat longer; release on the swing |
+| Spamming the release | Panic | Take the hit and reset — spamming guarantees a miss |
+| Parrying unblockables | Not testing attacks first | Block to test; dodge what can't be blocked |
+| Forgetting the Instinct Counter | Tunnel vision on survival | When the boss's Resolve bar is full, *wait for a real attack* and parry it |
 
----
+## The Parry in the Wider Game
 
-Launch Version / Updated: July 19, 2026
+- **Boss fights** are won by the Resolve → Instinct Counter loop — see the [Boss Guide](/guides/boss-guide).
+- **Boss Rush** rewards parry routing above all else — see the [Boss Rush Strategy Guide](/guides/boss-rush-strategy).
+- **Advanced play** — resource economy and the parry spiral — is covered in the [Advanced Combat Guide](/guides/combat-advanced-guide).
 
 ## Related Guides
 
-- [Boss Guide](/guides/boss-guide) — Full boss attack pattern breakdowns
-- [Beginner Guide](/guides/beginner-guide) — Core combat mechanics and first steps
-- [Controls Guide](/guides/controls-guide) — Button mapping and settings
-- [Builds Guide](/guides/builds-guide) — Builds optimized for parry-focused playstyles
+- [Boss Guide](/guides/boss-guide) — Boss parry windows and Instinct Counters
+- [Beginner Guide](/guides/beginner-guide) — The core combat loop
+- [Advanced Combat Guide](/guides/combat-advanced-guide) — Parry economy and Resonance
+- [Boss Rush Strategy Guide](/guides/boss-rush-strategy) — Parry routing for the gauntlet

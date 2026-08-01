@@ -1,215 +1,88 @@
 ---
-title: "Magic Guide — Schools, Spell Tiers, and Advanced Combinations"
-description: "Complete magic guide for Vahrin's Call. Fire, Ice, Earth, and Alteration schools explained — spell tiers, mana management, staff and wand synergies, and advanced spell combinations for every build."
-keywords: ["vahrins call magic guide", "vahrins call spell schools", "vahrins call mana management", "vahrins call staff wand synergy", "vahrins call spell combinations"]
-updated: "2026-07-29"
+title: "Magic Guide — Confirmed Spell Systems in Vahrin's Call"
+description: "Everything officially confirmed about magic in Vahrin's Call: spell customisation (damage, range, casting speed), Spell Mastery, the limits of elemental magic, and honest notes on what is unconfirmed."
+category: "Guides"
+version: "1.0"
+updated: "2026-08-01"
+keywords: ["vahrins call magic guide", "vahrins call spells", "vahrins call spell mastery", "vahrins call fire magic", "vahrins call spell customisation"]
+related: ["magic-spells-guide", "combat-guide", "best-builds-guide", "attributes-stats-guide"]
 ---
 
-# Magic Guide — Schools, Spell Tiers, and Advanced Combinations
+# Magic Guide — Confirmed Spell Systems
 
-Magic in Vahrin's Call offers extraordinary versatility. With four distinct schools, a tiered spell progression system, and powerful synergies between spells and implements, a well-built mage can handle any situation. This guide covers everything from mana management fundamentals to advanced spell combinations that define the late-game meta.
+**Correction first**: earlier versions of this guide described four magic schools (Fire, Ice, Earth, Alteration) with named spells, mana costs, and combo rotations. Most of that is **not confirmed**. Titan Roc has not published an official school list or spell list. This guide covers what the developers and launch reviews actually confirm about magic — and it is more interesting than a fake spell table.
 
----
+## Confirmed: Magic Is a Core System
 
-## The Four Magic Schools
+Magic is one of the game's main systems, listed alongside weapons, trap-making, alchemy, and the classless skill system in official materials. The developers' own build examples include "a nimble-footed archer flinging fireballs between arrows," so hybrid magic builds are explicitly supported.
 
-| School | Primary Role | Status Effect | Best For |
-|--------|-------------|--------------|----------|
-| Fire | Pure damage, burst DPS | Burning (DoT) | Boss fights, mob clearing |
-| Ice | Crowd control, zone control | Chill / Frozen | Kiting, setting up combos |
-| Earth | Defense, attrition | Entangled | Surviving, area denial |
-| Alteration | Utility, buffs | Varies | Every build |
+## Spell Customisation
 
----
+The developers have confirmed that **spells can be customised** by increasing spell attributes:
 
-## Spell Tier System
+- **Damage**
+- **Range**
+- **Casting speed**
 
-Spells in Vahrin's Call are divided into three tiers. Higher-tier spells have greater mana costs but significantly more powerful effects.
+The full extent of the customisation system is not documented — anything beyond these three attributes is unconfirmed.
 
-### Tier 1 — Basic Spells
+## Spell Mastery — Spells Upgrade Through Use
 
-Available from the start or found early. Low mana cost, reliable damage.
+Titan Roc announced a **"Spell Mastery"** system in their 2024 development updates: spells upgrade through use, consistent with the game's classless, use-based progression model. In practice this means:
 
-| School | Spell | Mana | Effect |
-|--------|-------|------|--------|
-| Fire | Firebolt | 15 | Basic fire projectile |
-| Ice | Frost Touch | 10 | Melee-range chill |
-| Earth | Pebble | 5 | Tiny projectile |
-| Alteration | Detect Magic | 10 | Reveals hidden items |
+- Cast a spell regularly and it grows stronger over time.
+- You don't need to find an upgraded "version" of a spell — practice is the path.
+- Combined with **Skill Books** (needed for full upgrades), this is the complete confirmed magic progression loop.
 
-### Tier 2 — Advanced Spells
+## The Limits of Magic (Confirmed by the Developers)
 
-Found in Skill Books throughout the world. Moderate mana cost, significant battlefield impact.
+Titan Roc has been unusually explicit about what magic does **not** do:
 
-| School | Spell | Mana | Effect | Skill Book Location |
-|--------|-------|------|--------|-------------------|
-| Fire | Flame Wave | 30 | Cone AoE | Barathrum Forest |
-| Fire | Fireball | 45 | Explosive AoE | Vahrin Catacombs |
-| Ice | Ice Shard | 20 | Piercing projectile | Starting area |
-| Ice | Frost Spear | 35 | High slow projectile | Frozen District |
-| Earth | Stone Spikes | 25 | Ground AoE, entangles | Quarry Depths |
-| Earth | Earth Shield | 35 | 30% damage absorption | Old Vahrin Walls |
-| Alteration | Elemental Weapon | 30 | Weapon buff (90s) | Mage Guild Ruins |
-| Alteration | Arcane Ward | 40 | Magic shield | Grand Library |
+1. **No environmental interaction.** Spells will not set trees on fire, and water spells will not create mud. This is a deliberate design decision.
+2. **No spell combination.** Combining fire and ice magic is not planned for this title — the developers say it is something they would consider for a sequel.
+3. **Day/night and weather are purely cosmetic.** They do not affect spells or combat in any way.
+4. **Spells can trigger traps.** Some magic spells can be used to trigger things like traps — a confirmed synergy worth experimenting with.
 
-### Tier 3 — Master Spells
+## Elemental Schools — What Is Confirmed
 
-Rewarded from difficult side quests and hidden bosses. High mana cost, encounter-defining effects.
+| Element | Status | Evidence |
+|---------|--------|----------|
+| **Fire** | Confirmed to exist | Dev Q&A discusses fireballs, "setting trees on fire," fire/ice combination |
+| **Ice** | Confirmed to exist | Dev Q&A discusses ice magic and fire/ice combinations |
+| **Water** | Strongly implied | Dev Q&A mentions "water spells creating mud" |
+| **Earth / Alteration / others** | **Unconfirmed** | No official mention found |
 
-| School | Spell | Mana | Effect | Acquisition |
-|--------|-------|------|--------|-------------|
-| Fire | Meteor | 80 | Massive AoE, long cast | Quest: "Heart of the Forge" |
-| Ice | Blizzard | 60 | Persistent AoE slow | Skill Book: Temple Ruins |
-| Earth | Petrify | 70 | Single-target stun | Quest: "Stone and Bone" |
-| Alteration | Haste | 50 | +30% speed for 15s | Quest: "Race Against Time" |
+Note that "fire + ice" being discussed as a *non-option* confirms both schools exist. Anything beyond that is TBD.
 
----
+## Stamina, Mana, and Casting Rhythm
 
-## Mana Management
+Launch reviews confirm two resource facts:
 
-Efficient mana management separates adequate mages from exceptional ones.
+- A **stamina system limits prolonged magic use** — you cannot spam spells indefinitely.
+- Casting is woven into real-time combat: reviews describe combat as "quick melee strikes **with elemental magic**," so magic is an integrated combat tool, not a menu-based system.
 
-### Mana Pool by Intelligence
+Mana pools, regeneration rates, and spell costs have **not** been officially documented. Any specific numbers online are unverified.
 
-| Intelligence | Max Mana | Combat Mana Regen | Out-of-Combat Regen |
-|-------------|----------|-------------------|---------------------|
-| 10 (base) | 150 | 2/sec | 5/sec |
-| 20 | 200 | 3/sec | 7/sec |
-| 30 | 250 | 4/sec | 9/sec |
-| 40 | 300 | 5/sec | 11/sec |
-| 50 | 350 | 6/sec | 13/sec |
-| 60 | 400 | 7/sec | 15/sec |
+## Practical Magic Advice (Based on Confirmed Systems)
 
-### Mana Potions
+1. **Practice to master.** With Spell Mastery, your spell grows with use — stick with a spell you like and it becomes stronger.
+2. **Customise deliberately.** Damage, range, and casting speed are your confirmed levers. Ranged builds want range; hybrid fighters want casting speed for weaving between melee swings.
+3. **Use magic to trigger traps.** The confirmed spell/trap synergy is underrated — place traps, then activate them from range with magic.
+4. **Manage stamina.** Prolonged spell casting drains you, so weave melee or movement between casts.
+5. **Don't plan around environmental combos.** No tree-burning, no water-mud, no fire-ice fusion. Builds that assume these won't work.
+6. **Combine with weapons.** "Archer flinging fireballs" and "axe-wielding whirlwind" are the developers' own examples of the intended hybrid play.
 
-- **Minor Mana Tonic**: Restores 30 mana. Recipe: Azure Moss + Water
-- **Mana Tonic**: Restores 60 mana. Recipe: Azure Moss + Spring Water
-- **Greater Mana Tonic**: Restores 100 mana. Recipe: Azure Moss ×2 + Crystal Dust + Spring Water
+## What Is NOT Confirmed
 
-### Mana Efficiency Strategies
+- An official magic school list (only fire and ice are certain)
+- Any named spells (Firebolt, Meteor, Blizzard, etc. — all invented)
+- Mana costs, mana pools, or regeneration numbers
+- Spell cooldowns or cast times
+- Whether staves/wands exist as implements
+- Status effects from elemental magic (burn, freeze, etc.)
 
-1. **Weave basic attacks** between spells to let mana regen tick. A Firebolt → sword swing → Firebolt rotation maintains higher DPS than spamming.
-2. **Use the right tier for the situation** — Tier 1 spells for trash mobs, Tier 2 for elites, Tier 3 for boss damage windows.
-3. **Pre-cast before combat** — Earth Shield and Arcane Ward last 20+ seconds. Cast them before engaging.
-4. **Intelligence breakpoints** — Reaching 30 Intelligence unlocks the ability to cast two Tier 3 spells before running out of mana. Prioritize this breakpoint.
+## Next Steps
 
----
-
-## Staff and Wand Synergies
-
-Your choice of implement significantly affects your spellcasting efficiency.
-
-### Staff
-
-The staff is the dedicated mage weapon. It provides:
-- **+20% spell damage** with all schools
-- **+15% mana regeneration** while equipped
-- **Slower cast speed** but more damage per cast
-
-**Best staff types**:
-- **Fire Staff**: +30% fire damage, +10% burning duration
-- **Ice Staff**: Chill effects last 50% longer, +10% freeze chance
-- **Earth Staff**: Earth Shield absorbs 15% more damage
-- **Arcane Staff**: +10% all spell damage, +20 mana
-
-### Wand
-
-The wand trades damage for speed and versatility:
-- **Faster cast speed** (30% faster than staff)
-- **Lower mana cost** per spell (15% reduction)
-- **Can be dual-wielded** with another wand or a shield
-
-**Best wand types**:
-- **Combat Wand**: +10% attack speed for spells, -10% cast time
-- **Focus Wand**: +20 mana, +5% critical spell chance
-- **Elemental Wand**: Allows swapping between two elements without cooldown
-
-### Dual Implement Combinations
-
-| Main Hand | Off Hand | Best For |
-|-----------|----------|----------|
-| Fire Staff | Focus Wand | Pure fire mage with mana sustain |
-| Ice Staff | Shield | Defensive ice mage with survivability |
-| Arcane Staff | Combat Wand | Hybrid caster with balanced stats |
-| Combat Wand | Elemental Wand | Fast-switching elemental mage |
-| Earth Staff | Focus Wand | Tank mage with high mana pool |
-
----
-
-## Advanced Spell Combinations
-
-These combinations create synergies that exceed the sum of their parts.
-
-### The Shatter Combo
-
-**Freeze → Heavy Damage**: Apply Chill (Frost Spear or Blizzard) until the target is Frozen, then hit with a fully charged Fireball or Meteor. Frozen targets take 50% bonus damage from the next hit.
-
-**Best for**: Boss fights, elite enemies
-**Mana cost**: 95 (Frost Spear + Fireball)
-**Expected damage**: 2.5x your normal rotation
-
-### The Zone Control Setup
-
-**Blizzard + Stone Spikes**: Drop Blizzard to create a persistent slow zone, then layer Stone Spikes inside it. Enemies are slowed by 60% and take continuous damage while trying to reach you.
-
-**Best for**: Kiting melee enemies, defending chokepoints
-**Mana cost**: 85 (Blizzard + Stone Spikes)
-**Duration**: 12 seconds of zone control
-
-### The Buff Stack
-
-**Earth Shield + Frost Armor + Arcane Ward + Haste**: Stack all four buffs for maximum combat effectiveness. Earth Shield and Arcane Ward provide layered damage absorption while Frost Armor defends against melee attackers and Haste improves mobility.
-
-**Best for**: Boss fights, difficult encounters
-**Mana cost**: 155 (all four spells)
-**Effective HP increase**: Approximately 3x your base survivability
-
-### The Spellsword Rotation
-
-**Elemental Weapon → Flame Imbue → melee attack loop**: Apply Elemental Weapon (choose Fire), then use Flame Imbue for additional fire damage on each hit. Weave in Firebolts between melee swings for ranged pressure.
-
-**Best for**: Spellsword builds
-**Mana cost**: 55 initial, then 15 per Firebolt
-**Sustained DPS**: Higher than pure magic or pure melee
-
----
-
-## School Specialization vs. Hybrid
-
-### Pure School Build
-
-Focusing entirely on one school maximizes its effectiveness:
-
-| School | Stat Priority | Implements | Strengths |
-|--------|--------------|------------|-----------|
-| Pure Fire | INT > CON > AGI | Fire Staff + Focus Wand | Highest DPS, best boss damage |
-| Pure Ice | INT > AGI > CON | Ice Staff + Combat Wand | Superior control, safe kiting |
-| Pure Earth | INT > CON > STR | Earth Staff + Shield | Unkillable, best survivability |
-| Pure Alteration | INT > FOC > CON | Arcane Staff + Elemental Wand | Most versatile, best support |
-
-### Hybrid Build
-
-Combining two schools covers more situations at the cost of specialization depth:
-
-- **Fire + Ice**: Control with Ice, burst with Fire. The most versatile offensive combination.
-- **Earth + Alteration**: Maximum survivability and utility. Excellent for support roles.
-- **Fire + Earth**: Offense and defense. The "battle mage" setup.
-- **Ice + Alteration**: Debuff-focused. Control the battlefield while supporting allies.
-
----
-
-## Equipment Recommendations
-
-- **Robe of the Arcanist** (+15% all spell damage, +30 mana) — Best-in-slot for pure mages
-- **Mage's Bracer** (-10% mana cost on Tier 2 spells) — Excellent for sustained combat
-- **Circlet of Focus** (+20 mana, +10% mana regen) — Essential for early game mana management
-- **Spellblade's Belt** (+15% elemental damage on imbued weapons) — Best for spellsword builds
-
----
-
-### Related Guides
-
-- [Attributes & Stats Guide](/guides/attributes-stats-guide) — Attribute allocation and soft caps
-- [Best Builds Guide](/guides/best-builds-guide) — Optimized builds for every playstyle
-- [Weapons Guide](/guides/weapons-guide) — All weapon types and skill synergies
-- [Alchemy & Crafting Guide](/guides/alchemy-crafting-guide) — Potion recipes and material farming
+- [Magic & Spells Guide](/guides/magic-spells-guide) — how spells are learned and upgraded.
+- [Combat Guide](/guides/combat-guide) — stamina and casting in real-time combat.
+- [Best Builds Guide](/guides/best-builds-guide) — confirmed hybrid directions.

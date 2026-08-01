@@ -1,159 +1,125 @@
 ---
-title: "Best Builds Guide — Top Builds for Every Weapon"
-description: "Best builds for all 5 weapon families in The Relic: First Guardian. Optimal rune combinations, artifact pairings, and skill tree synergies for maximum DPS, tank, and hybrid setups."
+title: "Best Builds Guide — Build Frameworks for Every Weapon"
+description: "Build guide for The Relic: First Guardian. How builds work without levels — relics, relic slots, Relic Energy skills, unique gear with Drawbacks — and honest build frameworks for all 5 weapon families."
 category: "Guides"
 version: "1.0"
-updated: "2026-07-28"
-keywords: ["relic first guardian builds", "best build relic first guardian", "relic first guardian build guide", "relic first guardian rune combinations", "relic first guardian artifact builds", "relic first guardian DPS build"]
+updated: "2026-08-01"
+keywords: ["relic first guardian builds", "best build relic first guardian", "relic first guardian build guide", "relic first guardian relic combinations", "relic first guardian DPS build", "relic first guardian tank build"]
 related: ["weapons-guide", "runes-guide", "artifacts-guide", "tier-list"]
 ---
 
-# Best Builds Guide — Top Builds for Every Weapon
+# Best Builds Guide — Build Frameworks for Every Weapon
 
-Building a powerful character in The Relic: First Guardian is all about synergy — combining the right weapon, skill tree selections, memory runes, and artifacts to create a cohesive combat style. Since there are no traditional levels or stat points, your build is defined entirely by your equipment and rune choices.
+Building a character in The Relic: First Guardian is about **synergy** — combining a weapon family, skill tree purchases, relic fragments, and unique gear into a cohesive combat style. Since there are **no levels or stat points**, your build is defined entirely by what you collect and equip.
 
----
-
-## How Builds Work in The Relic: First Guardian
-
-Unlike traditional RPGs where you allocate stat points, The Relic: First Guardian uses a modular build system:
-
-- **Weapon Family** — Determines your core moveset and available skill trees (12 per weapon)
-- **Memory Runes (70+)** — Passive effects that modify skill behavior, add damage types, or change combat tempo
-- **Artifacts (3 categories)** — Unique equipment pieces that provide stat boosts and special effects
-
-You can change your build at any time by swapping runes and artifacts. This encourages experimentation and adapting to specific boss encounters.
+**Honesty note**: at launch (August 2026), verified meta data does not exist yet. This guide gives you build **frameworks** built on confirmed mechanics — not named "best builds" with invented relic and artifact names. When the community documents real relic names and effects, this page will be updated with concrete loadouts.
 
 ---
 
-## Sword & Shield Build — The Immortal Guardian
+## How Builds Work (Confirmed)
 
-**Playstyle**: Defensive, counter-focused, high survivability
+- **Weapon Family** — determines moveset and gives you **two skill trees** to buy into (12 trees total across 5 families).
+- **Relics (Runes / Memory Fragments)** — over 70 unique passive fragments; effects can reshape skills, alter combat tempo, buff weapons, improve survivability, or reduce cooldowns. **Freely swappable.**
+- **Relic Slots** — expanded with **Shards of Awakening** (Elisa, camps). More slots = more fragments = more build depth.
+- **Skills** — bought with **Relic Energy** (from Brutals and Ancient Relic Blessings). Some nodes raise **HP or stamina**; others buff specific relics.
+- **Unique Gear** — every weapon/armor is one-of-a-kind; some pieces carry **Drawbacks** (stamina loss, a weakness). Forge your favorites at the **blacksmith**.
 
-### Recommended Skill Trees
-- **Guardian's Resolve** — Increases block stability and reduces stamina cost of blocking
-- **Shield Counter** — Riposte attacks after a perfect block deal 200% damage
-- **Bulwark** — Generate a temporary HP barrier on successful blocks
-
-### Best Runes
-| Rune | Effect | Priority |
-|------|--------|----------|
-| Rune of Fortification | +15% block stability | Essential |
-| Rune of Retribution | Counter attacks heal 5% HP | High |
-| Rune of the Sentinel | Immune to stagger while blocking | High |
-| Rune of Patience | Stamina regen +20% while stationary | Medium |
-
-### Best Artifacts
-- **Aegis of the Fallen King** (main boss) — Blocking reflects 10% damage back to attacker
-- **Bulwark Ring** (exploration) — +25% shield stability
-- **Guardian's Pauldron** (mini-boss) — 20% chance to auto-block when below 30% HP
+Because relics are swappable and gear is unique, builds are **flexible but personal**: you adapt to the fight, and you build around the uniques you found.
 
 ---
 
-## Dual Daggers Build — The Crimson Dancer
+## The 5 Build Frameworks
 
-**Playstyle**: Fast DPS, bleed stacking, high risk/reward
+### 1. The Guardian (Sword & Shield) — Defense-First
 
-### Recommended Skill Trees
-- **Bloodletter** — Attacks apply bleed stacks (up to 5, dealing 3% max HP per tick)
-- **Shadow Step** — Dash through enemies, dealing damage and gaining i-frames
-- **Assassin's Mark** — Back attacks deal +50% damage and guarantee critical hits
+**Confirmed synergy**: the family's native block + the game's generous parry = the safest framework in the game.
 
-### Best Runes
-| Rune | Effect | Priority |
-|------|--------|----------|
-| Rune of Hemorrhage | Bleed ticks deal +50% damage | Essential |
-| Rune of Swiftness | Attack speed +15% | High |
-| Rune of Evasion | Dodge i-frames +4 frames | High |
-| Rune of Lethality | Critical hit chance +10% | Medium |
+- **Skills**: buy block/parry-supporting nodes and **HP/stamina nodes** first.
+- **Relics**: prioritize survivability fragments (defense, sustain, stamina) and any that buff defensive play.
+- **Gear**: favor high-stability shields/armor; accept Drawbacks only if they do not tax stamina.
+- **When to use**: learning the game, parry-gate boss fights, any boss where you are dying fast.
 
-### Best Artifacts
-- **Twin Fangs** (main boss) — Dual wield attacks chain an extra hit every 4th attack
-- **Shadowstep Boots** (exploration) — Dash distance +30%
-- **Bloodsoaked Cloak** (mini-boss) — Bleeding enemies heal you for 2% of damage dealt
+### 2. The Assassin (Dagger / Dual Blades) — Speed & Burst
 
----
+**Confirmed synergy**: the fastest family + the game's zero-stamina-attacks economy = constant pressure.
 
-## Two-Handed Weapon Build — The Juggernaut
+- **Skills**: buy attack-speed and burst skills; consider cooldown-reduction nodes (skills are your finishers).
+- **Relics**: fragments that speed attacks, amplify your first hits, or shorten cooldowns; a survivability fragment covers the family's fragility.
+- **Gear**: low weight and mobility; skip Drawbacks that cost stamina (dodging is your only defense).
+- **When to use**: dodge-gate boss fights, humanoid enemies, players who know attack patterns.
 
-**Playstyle**: High burst damage, stagger locking, slow but devastating
+### 3. The Duelist (Longsword) — Balanced Parry Play
 
-### Recommended Skill Trees
-- **Colossus Strike** — Charged heavy attacks deal 300% damage and guarantee stagger
-- **Unstoppable** — Hyper armor during attack animations (cannot be interrupted)
-- **Earthshatter** — Ground slam AoE that staggers all nearby enemies
+**Confirmed synergy**: balanced stats + parry = the "learn the game" framework that still deals damage.
 
-### Best Runes
-| Rune | Effect | Priority |
-|------|--------|----------|
-| Rune of Devastation | Heavy attack damage +25% | Essential |
-| Rune of Momentum | Consecutive hits increase damage by 5% (stacks 5x) | High |
-| Rune of Fortitude | Damage reduction +10% while attacking | High |
-| Rune of Overwhelm | Stagger buildup +30% | Medium |
+- **Skills**: parry-tied skills and general damage nodes.
+- **Relics**: hybrid fragments — a mix of damage and survivability; cooldown reduction is strong here.
+- **Gear**: any unique that fits; this framework adapts to whatever you find.
+- **When to use**: first full playthrough, unknown bosses, all-round content.
 
-### Best Artifacts
-- **Giant's Grip** (main boss) — Two-handed weapon charge time reduced by 40%
-- **Juggernaut Plate** (exploration) — +20% maximum HP
-- **Titan's Ring** (mini-boss) — Killing an enemy restores 15% stamina
+### 4. The Juggernaut (Two-Handed) — Heavy Damage
 
----
+**Confirmed synergy**: big per-hit damage for players who trade deliberately.
 
-## Staff Build — The Arcane Weaver
+- **Skills**: heavy-attack and stagger-oriented nodes (though enemies rarely stagger — see below).
+- **Relics**: damage amplifiers and stamina recovery; **stamina management is critical** since your recovery windows are long.
+- **Gear**: heavy armors if Drawbacks allow; otherwise accept the speed trade-off.
+- **Caveat**: enemies **rarely stagger** — do not build around stun-locking; build around punishing openings.
+- **When to use**: players who love deliberate combat and big numbers.
 
-**Playstyle**: Ranged magic, elemental damage, crowd control
+### 5. The Arcanist (Battle Staff) — Skill-Heavy Casting
 
-### Recommended Skill Trees
-- **Elemental Attunement** — Switch between fire, ice, and lightning modes
-- **Arcane Barrage** — Rapid-fire magic missiles that home on targets
-- **Rune of Power** — Place a rune on the ground; standing in it boosts spell damage by 40%
+**Confirmed synergy**: the staff is described by reviews as the "skill-spamming" family — built for the cooldown system.
 
-### Best Runes
-| Rune | Effect | Priority |
-|------|--------|----------|
-| Rune of the Arcanist | Spell damage +20% | Essential |
-| Rune of Elemental Fury | Elemental status buildup +30% | High |
-| Rune of Channeling | Spell cast speed +15% | High |
-| Rune of Preservation | -25% stamina cost for dodging | Medium |
-
-### Best Artifacts
-- **Crown of Storms** (main boss) — Lightning spells chain to 2 additional enemies
-- **Arcane Focus** (exploration) — +30% spell range
-- **Frostheart Talisman** (mini-boss) — Ice spells freeze enemies 50% longer
+- **Skills**: buy as many skills as your Relic Energy allows; the staff wants options.
+- **Relics**: **cooldown-reduction fragments are the staff's most valuable relics** (confirmed effect type: relics can reduce cooldowns). Also prioritize damage fragments.
+- **Gear**: survivability uniques — the staff has no block, and previews note it needs relic support before it shines.
+- **When to use**: players who want ranged/skill-based play; mid-game onward once relics are collected.
 
 ---
 
-## Sword Build — The Blade Master
+## Universal Build Principles (Confirmed-System-Based)
 
-**Playstyle**: Versatile, balanced, high skill ceiling
-
-### Recommended Skill Trees
-- **Blade Dancer** — Flowing combo chains that build damage multiplier
-- **Iaijutsu** — Sheathe your sword, then unleash a devastating quick-draw slash
-- **Parry Master** — Perfect parries open enemies to critical ripostes
-
-### Best Runes
-| Rune | Effect | Priority |
-|------|--------|----------|
-| Rune of Precision | Critical hit damage +30% | Essential |
-| Rune of Flow | Combo multiplier decays 50% slower | High |
-| Rune of Riposte | Parry riposte damage +40% | High |
-| Rune of Adaptability | +10% all damage types | Medium |
-
-### Best Artifacts
-- **Blade of a Thousand Cuts** (main boss) — Every 10th hit deals 500% damage
-- **Duelist's Charm** (exploration) — Parry window +6 frames
-- **Sword Saint's Sash** (mini-boss) — Combo multiplier cap increased by 2
+1. **Buy HP and stamina nodes early in any build** — skill tree nodes raise these stats directly; it is the cheapest survivability in the game.
+2. **Expand relic slots before obsessing over individual relics** — slots are permanent adaptivity; every shard of awakening matters.
+3. **Adapt per fight** — relics are freely swappable; the game's intended loop is rebuilding between bosses.
+4. **Build around your uniques, not against them** — since items never re-drop, a Drawback you can live with is often better than an item you cannot find.
+5. **Do not trust named "meta" builds yet** — invented relic/artifact names circulate; verified loadouts come from in-game documentation, not pre-launch guides.
 
 ---
 
-## Build Crafting Tips
+## Build Checklist Before a Boss
 
-1. **Start with your weapon** — Your weapon determines your core playstyle. Build runes and artifacts around supporting that style.
-2. **Stack synergies** — If you're running a bleed build, equip ALL bleed-enhancing runes and artifacts. Half-investing is weaker than full commitment.
-3. **Adapt to bosses** — Some bosses resist bleed but are vulnerable to stagger. Don't be afraid to swap builds between encounters.
-4. **Explore thoroughly** — The best artifacts are hidden in optional areas. Thorough exploration rewards build diversity.
-5. **Experiment freely** — There's no cost to respeccing. Try every weapon family before committing.
+- [ ] Weapon forged to a decent level at the blacksmith
+- [ ] HP/stamina nodes bought with Relic Energy
+- [ ] Relic loadout swapped for the fight's archetype (parry-gate vs dodge-gate)
+- [ ] Potion capacity boosted with Shards of Esser where possible
+- [ ] Drawbacks on gear checked — none that kill your stamina economy
 
 ---
 
-*Builds will be updated as the meta develops post-launch. This guide reflects pre-launch analysis based on demo and preview data.*
+## Common Questions
+
+**Q: What is the best build in the game?**
+A: **Unconfirmed** at launch. All five frameworks are viable; pick by playstyle and adapt per fight.
+
+**Q: Can I change my build?**
+A: Yes — relics are freely swappable, weapons keep their tree progress, and there is no respec cost.
+
+**Q: Should I build for stagger?**
+A: Be careful — enemies **rarely stagger** and have no visible stagger bar. Parries create openings, not heavy attacks.
+
+**Q: What should I spend Relic Energy on first?**
+A: HP/stamina nodes, then skills for your weapon's identity, then cooldown/damage nodes.
+
+**Q: Are there build videos claiming "one-shot" setups?**
+A: Treat them skeptically — no verified launch-meta data exists. Verified builds require documented relic names and effects.
+
+---
+
+### Related Guides
+
+- [Weapons Guide](/guides/weapons-guide) — The families your build starts from
+- [Runes & Relics Guide](/guides/runes-guide) — The fragment system that defines builds
+- [Artifacts & Equipment Guide](/guides/artifacts-guide) — Uniques and Drawbacks
+- [Weapon Tier List](/guides/tier-list) — Early impressions (unconfirmed data)

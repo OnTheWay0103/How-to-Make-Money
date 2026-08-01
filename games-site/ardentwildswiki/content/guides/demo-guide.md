@@ -1,126 +1,137 @@
 ---
 title: 'Demo Guide — What is in the Ardent Wilds Free Demo'
-description: 'Everything you need to know about the Ardent Wilds free demo on Steam — what content is included, limitations, how to access co-op, system requirements, and tips to get the most out of the demo before the full release.'
+description: 'Everything you need to know about the Ardent Wilds free demo on Steam — what is confirmed about the demo content, system requirements, how to access it, and tips to get the most out of it before the full release.'
+category: 'Guides'
+version: '1.0'
+updated: '2026-08-01'
 keywords: ['ardent wilds demo', 'ardent wilds free demo', 'ardent wilds demo content', 'ardent wilds demo guide', 'ardent wilds steam demo']
-updated: '2026-07-31'
+related:
+  - 'beginner-guide'
+  - 'modding-guide'
+  - 'combat-guide'
+  - 'survival-tips'
 ---
 
 # Demo Guide — What is in the Ardent Wilds Free Demo
 
-The Ardent Wilds free demo launched on Steam on July 30, 2026. It gives players a substantial preview of the core gameplay systems. This guide covers exactly what is included, what the limitations are, and how to make the most of your time in the demo.
+The Ardent Wilds free demo launched on Steam on **July 30, 2026**, giving players a hands-on preview of the core gameplay systems. This guide covers what is confirmed about the demo, what is not, and how to get the most out of it.
 
-## Demo Content Overview
+**Honesty note:** Spellware Studios has not published a detailed demo feature list. Some claims you will see online — exact demo world size, "7 of 10 Spires," specific artifact counts, download sizes — are not confirmed. We mark the unknowns clearly rather than guess.
 
-The demo includes a generous slice of the full game:
+## What the Demo Is For
 
-### Playable Content
+The developers describe the demo as a substantial preview of the game's core pillars:
 
-| Feature | Included? | Details |
-|---------|-----------|---------|
-| **Verdant Basin biome** | ✅ Full | The complete starting biome, all resources and enemies |
-| **Crystal Caverns biome** | ✅ Full | Full underground biome access |
-| **Mountain Pass biome** | ✅ Partial | Lower and middle elevations; summit access requires Grappling Hook |
-| **Deep Forest biome** | ✅ Partial | Outer forest accessible; deep interior requires Night Vision |
-| **Eldran Wastes biome** | ❌ | Not in the demo |
-| **Spires** | ✅ 7 of 10 | Spires #1-7 are accessible; #8-10 are in locked content |
-| **Crafting** | ✅ Full | All crafting recipes up to Iron tier; Arcane Workbench limited |
-| **Base Building** | ✅ Full | All building pieces available, no size limit |
-| **Artifacts** | ✅ 12 of ~20 | All T2 and below artifacts; legendary artifacts excluded |
-| **Co-op** | ✅ Full | Online + LAN for up to 6 players |
-| **Modding** | ✅ Full | Lua API fully accessible |
+- **Action-packed, arcade-style combat** with spells, power-ups, and rare artifacts
+- **The world-built skill tree** — restoring ancient Spires and forgotten facilities to unlock passives and fast travel
+- **The fully destructible voxel world** — digging, sculpting, and terrain-destroying spells
+- **Base building, farming, cooking, and elixir brewing**
+- **Cave and underground mine exploration** with traps, enemies, and rare materials
 
-### Content NOT in the Demo
+These are the systems the demo showcases — the confirmed content description. Exactly how much of each system the demo includes (how many Spires, how much of the world, which recipes) is **unconfirmed**.
 
-- Eldran Wastes biome and Spires #8-10
-- Yorgoroth boss fight
-- Arcane Workbench legendary crafting
-- T3+ Artifacts (beyond what you find in accessible areas)
-- Obsidian-tier tools and weapons
-- Certain Forgotten Facilities only in inaccessible biomes
+## Confirmed Demo Facts
 
-## System Requirements (Demo)
+- **Released July 30, 2026** on Steam, free
+- Available from the [main Ardent Wilds Steam page](https://store.steampowered.com/app/2275010/Ardent_Wilds/) (Download Demo) or the [dedicated demo page](https://store.steampowered.com/app/5007130/Ardent_Wilds_Demo/)
+- **Windows only** — the game's minimum specs require Windows 10
+- It showcases the same core systems as the full game — this is a preview build, not a vertical slice teaser
 
-The demo has the same requirements as the planned full game:
+## System Requirements
 
-| | Minimum | Recommended |
-|---|---------|-------------|
-| **OS** | Windows 10 64-bit | Windows 10/11 64-bit |
-| **RAM** | 16 GB | 16 GB |
-| **Graphics** | OpenGL 4.6 capable | Dedicated GPU with 4GB+ VRAM |
-| **Storage** | 5 GB | 5 GB SSD |
-| **Network** | Broadband (for co-op) | Broadband |
+Confirmed minimum requirements (from the Steam listing):
 
-**Note:** The 16 GB RAM minimum is notable for an indie game. The voxel world simulation is memory-intensive. Systems with 8 GB RAM may experience performance issues.
+| | Minimum |
+|---|---------|
+| **OS** | Windows 10 (64-bit) |
+| **Processor** | 64-bit processor |
+| **RAM** | 16 GB |
+| **Graphics** | NVIDIA GTX 1060 / AMD RX 580 or better, OpenGL 4.6 |
+| **Storage** | 15 GB (per the current Steam listing) |
+| **Other** | Integrated graphics not supported |
+
+Notes:
+
+- **16 GB RAM is a hard floor** — the voxel world simulation is memory-intensive. 8 GB machines are not supported
+- **Integrated graphics are explicitly not supported** — a discrete GPU is required
+- The demo download size is unconfirmed; the store page's storage figure is the safer planning number
+- Requirements can change as development continues
 
 ## How to Access the Demo
 
 1. Go to the [Ardent Wilds Steam page](https://store.steampowered.com/app/2275010/Ardent_Wilds/)
-2. Look for the "Download Demo" button (usually on the right sidebar, below the wishlist button)
-3. Alternatively, visit the [dedicated demo page](https://store.steampowered.com/app/5007130/Ardent_Wilds_Demo/)
-4. Click "Download" — the demo is approximately 4 GB
+2. Click "Download Demo" (typically in the right-hand panel below the wishlist button)
+3. Alternatively, visit the [dedicated demo page](https://store.steampowered.com/app/5007130/Ardent_Wilds_Demo/) and download from there
 
-No Steam key, sign-up, or account linking required. Just download and play.
+No key, sign-up, or account linking required — just download and play.
 
-## Demo Limitations
+## What to Expect When You Start
 
-### Content Boundaries
+The demo drops you into the confirmed story setup: you awaken in an **abandoned ancient facility of the Ardent Protectorate**, where the Aetherium Nexus — the planet's defense core — lies dormant. The **Eldran**, an eldritch hivemind, are spreading corruption across the land, and your eventual goal is to rebuild the ancient spires and grow strong enough to challenge their god, **Yorgoroth, the Devourer of Worlds**.
 
-The demo world has invisible barriers at biome borders leading to inaccessible areas. You will see a message: "This land lies beyond the demo boundary — wait for the full release."
+In practice, your first demo session should be: gather basics → craft tools → build a shelter → find and restore your first Spire → experiment with combat and artifacts. The [Beginner Guide](/guides/beginner-guide) walks through the whole loop.
 
-### Progression Cap
+## Demo Content Boundaries — Unconfirmed
 
-Character and world progression is capped:
-- Max tool/weapon tier: Iron
-- Max Spires restorable: 7
-- Max Artifacts: 12 known in demo area
-- Base building: No size cap, but material tiers capped at Stone/Reinforced
+Any claim about exactly where the demo world ends is unverified. What you can reasonably expect from the confirmed design:
 
-### Save Transfer
+- The demo showcases the core loop, so expect a survivable starting region and access to **caves and underground mines** (confirmed game content)
+- The full game's endgame content — including the Yorgoroth fight — is very likely out of reach, since the full release is still TBA
+- Which Spires/facilities are restorable in the demo: **unconfirmed**
 
-**Unknown at this time.** Spellware Studios has not confirmed whether demo saves will carry over to the full game. Assume they will NOT carry over, and treat the demo as a learning experience. Do not invest dozens of hours into a demo base expecting to keep it.
+Plan your demo time around learning systems, not reaching an endgame that may not exist in the demo.
+
+## Save Transfer
+
+**Unknown.** Spellware Studios has not confirmed whether demo saves carry over to the full game. Assume they will **not** carry over, and treat the demo as a learning experience. Do not invest dozens of hours building a "forever base" in the demo.
 
 ## How to Get the Most Out of the Demo
 
-### Week 1 Priorities
+### Priorities
 
-1. **Try every weapon type** — Find the playstyle you enjoy most before the full game
-2. **Experiment with artifacts** — The demo has enough artifacts to try several distinct builds
-3. **Learn the Spire system** — Restore all 7 accessible Spires to understand skill progression
-4. **Build a base you are proud of** — Practice base design so you can build efficiently at full launch
-5. **Play co-op** — Test multiplayer with friends; figure out your team composition
+1. **Try every weapon direction** — wizard (fire spells), warrior (melee), marksman (ranged). Find the playstyle you enjoy most before the full game
+2. **Hunt artifacts** — rare artifacts unlock unique abilities; the demo is your chance to learn how build-defining they are
+3. **Learn the Spire system** — restoring Spires and facilities is the game's signature progression; practice reading the world for them
+4. **Build a base you are proud of** — practice base design so you can build efficiently at full launch
+5. **Play co-op** — test multiplayer with friends (up to 6 players; whether the demo build includes co-op is unconfirmed — check the demo page)
 
 ### Performance Testing
 
 The demo is an excellent opportunity to test performance on your system:
-- Build a large base (50+ pieces) and check FPS
-- Host a 6-player co-op session and monitor latency
-- Spam Pyroblast Core explosions in a dense forest — this is the most performance-intensive scenario
 
-If your system handles these stress tests, it will handle the full game.
+- Build a large base and watch FPS in dense areas
+- Run a co-op session and monitor latency
+- Trigger terrain destruction (pyroblasts, bombs) in a dense forest — voxel deformation is the most performance-intensive scenario
+
+If your system handles these stress tests, it should handle the full game.
 
 ### Bug Reporting
 
-As a pre-release demo, bugs are expected. Report them to help improve the full game:
-- Use the Steam Community Hub for the demo
-- Join the [Spellware Studios Discord](https://discord.gg/spellwarestudios) (if available)
-- Be specific: what you were doing, what happened, and if you can reproduce it
+As a pre-release demo, bugs are expected. The April 2026 playtest notes show the team actively fixing and improving builds — they read reports. Report through:
+
+- The **Steam Community Hub** for Ardent Wilds
+- Official Spellware Studios channels when they announce them
+
+Be specific: what you were doing, what happened, and whether you can reproduce it.
 
 ## Demo-Only Features
 
-Some features in the demo may not represent the final game:
+Some demo behaviors may not represent the final game:
 
-- **Resource abundance:** Demos often have increased resource spawns to let players experience more content faster
-- **Enemy difficulty:** May be tuned easier than the final game to avoid frustrating new players
-- **Artifact drop rates:** Likely increased so players can find and test more artifacts
+- **Resource abundance** — preview builds often tune resource spawns up so players experience more content faster (a common practice; unconfirmed for this demo)
+- **Enemy difficulty** — may be tuned more forgiving than the final game
+- **Artifact availability** — demo builds often make rare items more common so players can test them
+
+Treat demo balance as preview balance. If something feels easy in the demo, assume the full game is harder.
 
 ## Transitioning to the Full Game
 
 When the full game releases, here is your plan:
 
-1. **Start fresh** — Even if saves transfer, a fresh start with full knowledge is faster than continuing a demo save
-2. **Speedrun the early game** — You know the first 7 Spires, the best base locations, and the optimal crafting queue
-3. **Push into new content immediately** — The inaccessible biomes, Spires #8-10, and Yorgoroth await
-4. **Exploit your demo knowledge** — While new players are figuring out the skill tree, you are already speedrunning to Obsidian tier
+1. **Start fresh** — even if saves transfer, a fresh start with full knowledge is faster than continuing a demo save
+2. **Speedrun the early game** — you know the starting loop, the best base criteria, and the crafting pipeline
+3. **Push into new content immediately** — the full game's deeper regions, facilities, bosses, and the Yorgoroth fight await
+4. **Exploit your demo knowledge** — while new players are learning the skill tree, you already know how to read the world
 
 ## Frequently Asked Demo Questions
 
@@ -128,13 +139,13 @@ When the full game releases, here is your plan:
 A: Unconfirmed. Assume no. Treat the demo as a playground for learning and experimentation.
 
 **Q: Can I play the demo indefinitely?**
-A: Yes — there is no time limit. The demo remains available on Steam even after the full game releases.
+A: Demos on Steam generally remain playable after full release, but this is unconfirmed for Ardent Wilds specifically. Play it while you can.
 
-**Q: Is the demo representative of the final game quality?**
-A: Largely yes. Spellware Studios has stated the demo reflects the current development build. Some systems may change before launch.
+**Q: Is the demo representative of the final game?**
+A: It represents the current development build. Systems can change before launch — the April 2026 playtest notes show significant changes between builds.
 
 **Q: Can I mod the demo?**
-A: Yes. The Lua API is fully accessible in the demo. Community mods already exist on the Steam Workshop (demo section).
+A: The full game's Lua API modding support is confirmed, but whether the demo build exposes it is **unconfirmed**. Check the demo files and community pages.
 
-**Q: How many players can play the demo in co-op?**
-A: Up to 6, same as the planned full game. LAN and online both work.
+**Q: How many players can play co-op?**
+A: Up to 6 is the confirmed design for the game; whether the demo includes multiplayer is unconfirmed — check the demo's Steam page feature list.

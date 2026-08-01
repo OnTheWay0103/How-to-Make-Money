@@ -1,111 +1,104 @@
 ---
-title: 'Minecart & Rail Network Guide: Build Your Transport Empire in Dwarf Delve'
-description: 'Master the minecart and rail system in Dwarf Delve. Learn rail placement strategies, minecart types, efficient network design, cargo transport optimization, and how to build rail lines that maximize loot extraction.'
+title: 'Minecart & Rail Network Guide: Transport Your Heavy Ore in Dwarf Delve'
+description: 'Master the minecart and rail system in Dwarf Delve — confirmed to shift and store heavy ores. Rail strategy, when to build, route planning toward the elevator, and honest notes on unpublished rail mechanics.'
 keywords: ['dwarf delve minecart', 'dwarf delve rail', 'dwarf delve rail network', 'dwarf delve transport', 'dwarf delve minecart guide']
 category: Building
 version: '1.0'
-updated: '2026-07-25'
+updated: '2026-08-01'
 related: ['crafting-guide', 'mining-strategies-guide', 'extraction-guide']
 ---
 
-## The Minecart System
+## The Minecart System: What's Confirmed
 
-Minecarts and rail networks are Dwarf Delve's unique transport mechanic — they let you move heavy resources quickly from deep mining zones back to the elevator. A well-built rail network can triple your loot per run.
+The official Dwarf Delve feature list is explicit about rails and minecarts:
 
-## Rail Types & Costs
+> "Place rail and construct networks of minecarts to shift and store those heavy ores for you!"
 
-| Rail Type | Materials (per segment) | Speed | Special |
-|-----------|------------------------|-------|---------|
-| **Basic Rail** | 2 Iron Ore | Standard | None |
-| **Powered Rail** | 3 Iron + 1 Coal | +50% faster | Requires coal to power |
-| **Cargo Rail** | 4 Iron + 2 Coal | Standard | Holds 3x cargo |
-| **Booster Rail** | 2 Iron + 1 Silver | Burst acceleration | Gives speed boost on contact |
-| **Switch Rail** | 3 Iron + 1 Copper | Standard | Creates track intersections |
+That single sentence confirms three things:
+1. **Rails are placeable** — you build networks, not single tracks
+2. **Minecarts move heavy ores** — the system exists for bulk hauling
+3. **Minecarts store ores** — storage is a confirmed function, not just transport
 
-Each rail segment covers 5 meters of track. A full stack of 10 basic rails = 50 meters of track.
+Everything else about the system — cart types, capacities, speeds, powered rails, switches, booster mechanics — is **not published**. This guide covers confirmed strategy and honest practice, and flags what's unconfirmed.
 
-## Minecart Types
+## Why Rails Matter in Dwarf Delve
 
-| Minecart | Capacity | Speed | Special |
-|----------|----------|-------|---------|
-| **Handcart** | 10 slots | Slow | Manual push — no rails needed |
-| **Standard Minecart** | 20 slots | Medium | Requires rail tracks |
-| **Cargo Cart** | 40 slots | Slow | Requires cargo rails |
-| **Express Cart** | 15 slots | Fast | Requires powered rails |
-| **Armored Cart** | 25 slots | Medium | +50% damage resistance while riding |
+The game's economy is extraction-based: anything not extracted is lost, and the elevator leaves on a schedule. Heavy ores are precisely the cargo you don't want to hand-carry across a collapsing mine. The confirmed purpose of the rail network is to convert deep, heavy hauls into fast, safe extractions.
 
-## Building Your First Rail Network
+The value chain: deep deposit → rail line → cart full of heavy ore → elevator → refine at home → coin → upgrades. Rails are the confirmed answer to the "how do I get this much ore out in time?" question.
+
+## When to Build Rails
+
+### Build When:
+- **You find a heavy ore deposit far from the elevator** — this is the confirmed use case
+- **You're planning repeated trips** to the same zone
+- **Your carry capacity can't keep up** with the haul
+- **You want to shorten exposure** — less time hauling = less time in the danger zone
+
+### Skip When:
+- **Your goal is scouting or relic hunting** — light loadouts move faster
+- **The run is shallow** — walking distance is short
+- **You're low on ore for rail materials** — rails cost resources too
+- **Collapse warnings have started** — at that point, just run
+
+## Building Your First Rail Line: Strategy
+
+Since exact placement mechanics are unconfirmed, here's the confirmed-principle approach:
 
 ### Step 1: Survey the Route
-Before placing any rails, walk the path from the elevator to your target mining zone. Note:
-- Natural straightaways and curves
-- Gaps that need platforms
-- Dangerous areas you want the track to bypass
-- The shortest practical route (not necessarily the straightest)
+Walk the path from the elevator to your target deposit first. Note the shortcuts, the gaps, and the hazard zones. The shortest route isn't always the safest one.
 
-### Step 2: Place Platforms for Gaps
-Gaps in the mine floor must be bridged with platforms before rails can be placed. Use Minecart Platforms (6 Iron + 4 Wood) — they're the only platform type that supports rails.
+### Step 2: Build Toward the Elevator
+Build the line from your deposit **back toward the elevator**. A rail that doesn't reach the elevator is storage decoration.
 
-### Step 3: Lay Basic Rails
-Start with basic rails for the main route. Place them on the ground or platforms. Rails snap together automatically and can curve around corners. One rail segment = one click.
+### Step 3: Protect the Line
+The mine collapses — support beams and light matter along the line, not just at the deposit. An unlit, unbraced track through a collapsing tunnel is a trap you built yourself.
 
-### Step 4: Add Powered Rails for Uphill Sections
-If your route goes uphill, basic rails won't cut it — you need powered rails on inclines. Minecarts cannot climb steep grades without powered rail segments.
+### Step 4: Load and Ride
+Load the cart, ride or push it back, extract, and refine. The confirmed loop is "shift and store" — the cart should end its run at the elevator with your loot.
 
-### Step 5: Build Loading Stations
-At the mining zone end of your track, create a small flat area (the "station") where you can load your minecart. Place a floodlight here for visibility.
+## Network Design Patterns (Practice, Not Official)
 
-## Advanced Rail Network Design
+These patterns follow from the confirmed "network" framing — rails are placeable in networks, so plan accordingly:
 
-### The Hub-and-Spoke Pattern
-Build one main rail line from the elevator (the "hub") with branches ("spokes") to different resource zones. Use Switch Rails at intersections. This lets one rail network serve multiple mining areas.
+### The Elevator Line
+One line from the elevator to the best deposit in the run. Simple, cheap, and covers the confirmed use case. Best for most runs.
 
-### The Loop System
-For end-game runs, consider a loop track that goes from the elevator → mining zone → back to the elevator. This eliminates the need to turn the minecart around. Loops require more rails but save time on the return trip.
+### The Hub Pattern
+If a run has multiple rich zones, branch lines off a main trunk toward the elevator. Branch only where the ore density justifies the rail cost.
 
-### Emergency Escape Rails
-Keep a small stock of rails in your inventory for emergencies. If collapse is imminent, you can rapidly lay a few rail segments toward the elevator and ride them out — even a partial track is faster than running.
+### The Storage Spoke
+Use carts at the deposit as storage while you keep mining — the confirmed "store those heavy ores" function — then move the loaded cart out in one trip.
 
-## Cargo Transport Strategy
+## Cargo Strategy
 
-### Full Load Optimization
-A fully loaded Cargo Cart (40 slots) on a complete rail network is the most efficient way to extract resources. One good rail network + one Cargo Cart = the haul of 3-4 backpack-only runs.
+- **Heavy ores are the confirmed cargo** — prioritize them over light loot for cart transport
+- **Hand-carry light, cart-haul heavy** — pockets for gems and treasures, carts for ore
+- **A full cart at the elevator is a finished run** — when the cart's loaded, extract. Don't go back for one more load while the mine falls
 
-### The Cart Relay Method
-For very deep runs, set up relay stations:
-1. Fill a minecart at the deep mining zone
-2. Ride it halfway to the elevator
-3. Transfer cargo to a second cart (or return for more)
-4. Repeat until the deep zone is cleared
+## Rail Maintenance & Hazards (Unconfirmed Details)
 
-### Defensive Riding
-You can swing your Battlemallet while riding a minecart. Use this to clear enemies off the tracks without stopping. Powered rails + Express Cart + attacking while riding = the safest way to traverse enemy-dense zones.
+- Whether enemies or collapses can destroy rails is **unconfirmed** — no official statement
+- Whether carts move automatically or require pushing is **unconfirmed**
+- Rail material costs are **unpublished**
 
-## Rail Maintenance
+Community players will document these details; this guide will be updated with real mechanics as they're verified.
 
-- Enemies can damage rail segments. Carry spare rails to repair
-- Tunnel collapses destroy rails in the affected area
-- Booster Rails consume their charge after ~20 uses; keep spares
-- Switch Rails can be toggled by hitting them with your Battlemallet
+## Honest FAQ
+
+**What types of rails and carts exist?** Unpublished. No official rail or cart variants are confirmed.
+
+**Can I ride a minecart?** Unconfirmed — the official wording says carts "shift and store" ores; riding isn't mentioned.
+
+**Do carts work without rails?** Unconfirmed. The official wording ties carts to rails.
+
+**Is building rails worth it in every run?** No — rails cost materials and time. Build when the haul justifies it: heavy ore + distance = rails. Light runs don't need them.
 
 ## When NOT to Build Rails
 
-Rails are expensive and time-consuming to build. Skip the rail network when:
-- Your run goal is scouting, not resource extraction
-- You're in Upper Mines (walking distance is short)
-- You're low on iron (you need iron for rails!)
-- The mine layout is too vertical (rails work best on horizontal routes)
-- Collapse warning has already started (just run)
+- Your run goal is scouting or relic hunting
+- You're close to the elevator the whole run
+- You're low on ore (you need ore to build rails!)
+- The mine is already unstable — extract, don't build
 
-## Minecart vs. Backpack: What to Use When
-
-| Situation | Use |
-|-----------|-----|
-| Scouting a new depth | Backpack only |
-| Farming iron/copper | Backpack + handcart |
-| Farming gold/gems | Standard minecart |
-| Relic hunting in Deep Mines | Express cart (speed priority) |
-| Abyss resource runs | Cargo cart (capacity priority) |
-| Evacuation | Abandon the cart, sprint |
-
-A good minecart network is the mark of an experienced Delveling. Build smart, ride fast, and bring home the gold.
+A good rail network is the mark of an experienced Delveling — but the best rail network is the one that gets your heavy ore to the elevator before the mine gets you. Build smart, haul heavy, and bring home the gold.

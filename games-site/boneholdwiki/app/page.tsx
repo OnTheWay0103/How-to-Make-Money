@@ -4,21 +4,24 @@ import JsonLd from '@/components/JsonLd';
 import GuideCard from '@/components/GuideCard';
 
 const FEATURED_GUIDES = [
-  { title: 'Beginner Guide: First Descent into Bonehold', description: 'New to Bonehold? Master the core loop — choose your class, understand charge attacks, survive the fortress, and beat your first boss.', slug: 'beginner-guide', category: 'Beginner', updated: '2026-07-30' },
-  { title: 'All 7 Classes & Playstyles Guide', description: 'Complete breakdown of all seven classes — Knight, Barbarian, Scorcher, Spellblade, and three unlockable classes. Strengths, weaknesses, and playstyle recommendations.', slug: 'classes-guide', category: 'Classes', updated: '2026-07-30' },
-  { title: 'Best Builds & Synergies Guide', description: 'Optimal weapon and class synergies, prefix stacking strategies, and how to create run-defining builds with cross-class hybridization.', slug: 'best-builds', category: 'Builds', updated: '2026-07-30' },
-  { title: 'Weapons & Charge Attacks — Complete Guide', description: 'Every weapon type, charge mechanic deep-dive, legendary items, and how prefixes transform ordinary gear into run-defining tools.', slug: 'weapons-guide', category: 'Weapons', updated: '2026-07-30' },
-  { title: 'Boss Strategies — All Champions Guide', description: 'Attack patterns, punish windows, and positioning tips for every elite boss and champion in the Bonehold fortress.', slug: 'boss-guide', category: 'Bosses', updated: '2026-07-30' },
-  { title: 'Combat & Survival — Advanced Tactics', description: 'Master dodging, blocking, parrying, trap manipulation, chokepoint baiting, and spatial awareness to survive deeper dungeon floors.', slug: 'combat-guide', category: 'Combat', updated: '2026-07-30' },
+  { title: 'Beginner Guide: First Descent into Bonehold', description: 'New to Bonehold? Master the core loop — choose your class, understand charge attacks, survive the fortress, and beat your first boss.', slug: 'beginner-guide', category: 'Beginner', updated: '2026-08-01' },
+  { title: 'All 7 Classes & Playstyles Guide', description: 'Complete breakdown of the classes — Knight, Barbarian, Scorcher, and Spellblade are officially named; the other three are unconfirmed. Strengths, weaknesses, and playstyle advice.', slug: 'classes-guide', category: 'Classes', updated: '2026-08-01' },
+  { title: 'Best Builds & Synergies Guide', description: 'Build principles for prefix-driven synergy and cross-class hybridization — and the honest truth about which "best build" claims are unverified.', slug: 'best-builds', category: 'Builds', updated: '2026-08-01' },
+  { title: 'Weapons & Charge Attacks — Complete Guide', description: 'The confirmed charge mechanic, weapon categories, legendary items, and how prefixes transform ordinary gear into run-defining tools.', slug: 'weapons-guide', category: 'Weapons', updated: '2026-08-01' },
+  { title: 'Boss Strategies — Set-Piece Encounters', description: 'The confirmed boss strategy framework — patience, parries, punish windows, and why bosses punish greedy players.', slug: 'boss-guide', category: 'Bosses', updated: '2026-08-01' },
+  { title: 'Combat & Survival — Advanced Tactics', description: 'Master dodging, blocking, parrying, trap manipulation, chokepoint baiting, and spatial awareness to survive deeper dungeon floors.', slug: 'combat-guide', category: 'Combat', updated: '2026-08-01' },
+  { title: 'Item Prefixes & Loot Guide', description: 'How the confirmed prefix system works, when a drop is run-defining, and how to pivot your build around legendaries.', slug: 'item-prefixes-guide', category: 'Items', updated: '2026-08-01' },
+  { title: 'Achievements Guide — 98 Steam Achievements', description: 'What is confirmed about the 98-achievement list and how to approach completion in a run-based roguelike.', slug: 'achievements-guide', category: 'Achievements', updated: '2026-08-01' },
+  { title: 'Co-Op & Multiplayer Status', description: 'Is Bonehold multiplayer? No — the honest answer, plus platforms, Steam Deck status, and what that means for you.', slug: 'coop-multiplayer-guide', category: 'Multiplayer', updated: '2026-08-01' },
 ];
 
 const FAQ_ITEMS = [
   { question: 'What is Bonehold?', answer: 'Bonehold is a 3D roguelike dungeon crawler ARPG developed by Pixel Jackal, released July 28, 2026 on Steam. You choose from 7 unique classes, collect procedurally generated weapons and spells, and fight through an ancient necromantic fortress filled with skeletons, ghosts, and magical abominations.' },
   { question: 'Is Bonehold single-player or multiplayer?', answer: 'Bonehold is a single-player game. There is no co-op or multiplayer mode. The entire experience is designed around solo dungeon delving.' },
-  { question: 'How many classes are there in Bonehold?', answer: 'There are 7 unique classes: Knight, Barbarian, Scorcher, Spellblade, and three unlockable classes. Each class has distinct abilities and playstyles, and you can hybridize by mixing gear across classes.' },
+  { question: 'How many classes are there in Bonehold?', answer: 'There are 7 unique classes, but only 4 are officially named: Knight, Barbarian, Scorcher, and Spellblade. The other three are unconfirmed as of launch. Hybridization — mixing gear and magic across class styles — is a confirmed core design pillar.' },
   { question: 'What is the combat like?', answer: 'Combat is hack-and-slash ARPG style with a heavy emphasis on charge attacks. Most weapons use a charge mechanic — timing and positioning are critical. Combat also includes dodging, blocking, parrying, and using environmental traps to your advantage.' },
   { question: 'Are dungeons randomly generated?', answer: 'Yes. Dungeon layouts, weapons, armor, spells, and loot are all procedurally generated. Each run is unique, with different room arrangements, enemy placements, and item drops.' },
-  { question: 'What happens when you die?', answer: 'Death is permanent for that run — you lose all items collected during that descent. However, meta-progression (unlocked classes, achievements, and some permanent upgrades) carries over between runs.' },
+  { question: 'What happens when you die?', answer: 'Death is permanent for that run — you lose all items collected during that descent, and there is no checkpoint or save system. Steam achievements track globally. Claims that permanent meta-progression upgrades carry over between runs are not confirmed by any official source.' },
 ];
 
 export default function Home() {

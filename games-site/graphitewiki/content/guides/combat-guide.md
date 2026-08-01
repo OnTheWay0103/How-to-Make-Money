@@ -1,10 +1,10 @@
 ---
 title: 'Combat & Break System Guide — Timeline Tactics and Turn Manipulation'
-description: 'Master Graphite timeline-based combat. Learn action durations, Break/poise mechanics, how to interrupt enemy turns, positioning strategies, turn order manipulation, and how symmetrical Break rules apply to your party.'
-keywords: ['Graphite combat guide', 'Graphite Break system', 'Graphite timeline combat', 'Graphite turn order', 'Graphite how to interrupt', 'Graphite positioning guide', 'Graphite poise mechanics']
+description: 'Master Graphite timeline-based combat. Learn action durations, the Break system (Poise depletion), how to interrupt enemy turns, and how the symmetric Break rules apply to your own party.'
+keywords: ['Graphite combat guide', 'Graphite Break system', 'Graphite timeline combat', 'Graphite turn order', 'Graphite how to interrupt', 'Graphite poise mechanics']
 category: Combat
 version: '1.0'
-updated: '2026-07-29'
+updated: '2026-08-01'
 related:
   - heroes-guide
   - builds-artifacts-guide
@@ -14,16 +14,16 @@ related:
 
 ## Timeline Combat Overview
 
-Every encounter in Graphite plays out on a shared timeline. Each combatant — hero or enemy — has an action queued with a visible duration measured in ticks. The timeline shows exactly when every action will resolve, who is acting next, and how much Break damage each action will deal.
+Every encounter in Graphite plays out on a **shared timeline**. Each combatant — hero or enemy — has actions with visible durations, and the timeline shows when every action will resolve. Coverage compares the system to classic active-time-battle designs and to tactical RPGs like Star Renegades: **multiple units act simultaneously**, and when you act matters as much as what you do.
 
-The tactical depth comes from the fact that you see the enemy's plan before it happens. A skeleton winding up a heavy strike in 5 ticks gives you 5 ticks to respond — if you can land a Break before then, you cancel the attack entirely.
+The tactical depth comes from the fact that you see the enemy's plan before it happens. An enemy winding up a heavy attack gives you time to respond — if you can land a Break before it resolves, you cancel the attack entirely.
 
 ### Core Concepts
 
-- **Tick**: The base unit of time in combat. One tick per combatant is processed each round
-- **Action Duration**: Every action takes a fixed number of ticks to complete. Quick actions (2-3 ticks) trade power for speed. Heavy actions (5-8 ticks) hit hard but leave you vulnerable
-- **Timeline Queue**: All queued actions display left to right on the timeline bar. The leftmost action resolves first
-- **Initiative**: Determines which side acts first at the start of combat. Higher initiative = earlier position on the initial timeline
+- **Timeline**: one shared flow of time; every action is positioned within it
+- **Action Duration**: every action takes time to complete. Short actions are quick and hard to interrupt; long actions hit harder but leave you exposed
+- **Action Choice**: each turn you choose between attacking, defending, and using the Break system
+- **Simultaneity**: multiple units act at the same time, so timing overlaps matter
 
 ## The Break System
 
@@ -31,111 +31,82 @@ Break is Graphite's core combat mechanic — a timing-based interrupt system tha
 
 ### How Break Works
 
-Every action has a Break value. When a Breaker action lands on an enemy whose current action is in progress, it checks against the enemy's Poise:
+Every combatant has **Poise** (an action gauge):
 
-- **Break Value > Enemy Poise**: The enemy's action is cancelled, they are pushed to the end of the timeline, and they take bonus damage
-- **Break Value <= Enemy Poise**: The action lands but the enemy continues their current action unaffected
-- **Poise Break Thresholds**: Enemies have a visible poise bar that shows how much Break damage they can absorb before being interrupted
+- **Breaking** depletes the target's Poise
+- When Poise reaches **zero**, the target's scheduled action is **cancelled and their turn is pushed down the timeline**
+- Break is described in official coverage as a tool to interrupt a **powerful attack, summon, or buff**
 
-### Types of Break Damage
+### Break Types and Values — Unconfirmed
 
-| Break Type | Source | Effect When Successful |
-|-----------|--------|----------------------|
-| Physical Break | Warrior, Monk, Rogue | Pushes enemy 3 slots back on timeline |
-| Arcane Break | Mage | Pushes enemy 5 slots back + slows next action |
-| Precision Break | Hunter, Rogue | Deals bonus damage equal to 50% of attack power |
-| Sonic Break | Bard | Pushes ALL enemies 1 slot back |
-| Dual Break | Tamer (beast + hero) | Two separate Break checks on the same target |
+Specific numbers (how much Poise each ability drains, how far a Break pushes a target down the timeline, per-hero Break styles) have **not been officially confirmed**. The confirmed design philosophy is a single universal rule — deplete Poise to zero, cancel the action — applied to everyone. Details like "Physical Break pushes 3 slots" or "Arcane Break pushes 5 slots" are unsourced.
 
-### Break Defense
+### The Symmetric Design
 
-Your heroes can be Broken too. Each hero has a Poise stat that determines how much Break damage they can resist:
+The most important confirmed feature of Break is **symmetry**: the same rules apply to you and the enemy.
 
-- **Poise regen**: Poise recovers fully between combat encounters
-- **Poise damage**: Being hit while performing an action deals Poise damage even if you do not get Broken
-- **Broken state**: A Broken hero is stunned for 2 ticks, loses their queued action, and takes 30% more damage until their next turn
-- **Break resistance gear**: Group artifacts like Iron Will and Crystal Shield increase your party's Break defense
-
-### The Symmetrical Design
-
-One of Graphite's most important design features is symmetry: the same Break rules apply to you and the enemy. This means:
-
-- If you queue a 6-tick spell, the enemy can interrupt you with a well-timed Break
+- If you queue a long-duration spell, the enemy can interrupt you with a well-timed Break
 - If the enemy queues a powerful charge attack, you can interrupt it with your own Break
-- Faster actions (2-3 ticks) are harder for enemies to interrupt because the window is smaller
-- Heavy actions are gambling — massive payoff if they land, catastrophic if interrupted
+- Short, fast actions are harder to interrupt because the window is smaller
+- Long actions are a gamble — big payoff if they land, catastrophic if interrupted
 
-This symmetry rewards players who read the timeline and punish those who autopilot through combat.
+This symmetry rewards players who read the timeline and punishes those who autopilot through combat.
+
+### Protecting Your Own Poise
+
+Because Break works against you, defending matters:
+
+- **Defend actions** exist as a confirmed choice alongside attacking and Breaking
+- Keeping your heroes' actions short reduces the window enemies have to Break them
+- The Mage's confirmed defensive support (boosting allies' defenses) is one of the few named tools for protecting the party
+
+## Reading the Timeline
+
+Timeline reading is the skill everything else builds on:
+
+- **Check what's queued first**: who acts next, on both sides
+- **Spot heavy actions**: long-duration enemy actions are your Break targets — powerful attacks, summons, buffs
+- **Count the window**: how much time before the enemy action resolves determines whether you can interrupt it, defend, or must reposition
+- **Watch overlapping turns**: with simultaneous units, two enemies acting at once may need different responses — Break the more dangerous one
 
 ## Positioning
 
-Positioning determines who can target whom and how much damage is dealt. Graphite uses a lane-based positioning system with front, middle, and back rows.
-
-### Row Effects
-
-- **Front Row**: Melee range. Heroes here deal full damage with melee attacks but take 20% more damage from all sources
-- **Middle Row**: Versatile range. Can target both front and back rows. No damage bonus or penalty
-- **Back Row**: Safe range. Ranged attacks only. Heroes here take 15% less damage but deal 10% less damage with melee attacks
-
-### Positioning Tips
-
-- Keep your Warrior in the front row at all times — their taunt is most effective there
-- Place Mage and Bard in the back row where they are harder to reach
-- Rogue and Monk benefit from starting in the middle row so they can move forward when needed
-- Tamer can position the beast in the front row while the Tamer stays at range
-- Enemies with gap closers can reach your back row — watch for these on the enemy timeline
+Positioning exists in Graphite combat (heroes have melee and ranged identities — the Knight is frontline, the Mage operates at range), and moving matters in fights. However, **the exact positioning rules are unconfirmed**: no official details on rows, lanes, movement costs, or distance mechanics have been published. Keep melee heroes close to the fight and spellcasters protected — beyond that, specifics are TBD.
 
 ## Turn Order Manipulation
 
-Beyond the Break system, several abilities and artifacts let you directly manipulate the timeline.
+Timeline manipulation is part of the confirmed design: the game is built on time management, and abilities that affect action timing exist in some form. What is **not confirmed**:
 
-### Speed Manipulation
+- The names of any specific speed/slow/delay abilities
+- Which heroes have them
+- Whether they are abilities, artifacts, or both
 
-- **Action Speed**: Reduces the tick duration of your actions. A speed-buffed hero acts more frequently
-- **Slow**: Increases enemy action duration. Slowed enemies take longer to reach their turn
-- **Delay**: Pushes a specific enemy back on the timeline without dealing damage
-
-### Priority Actions
-
-Some actions have "Priority" status — they bypass the queue and resolve immediately. These are rare and powerful:
-
-- Bard's Emergency Encore (saves a Broken ally from stun)
-- Mage's Arcane Shield (instant party-wide Break protection)
-- Rogue's Shadowstep (instant reposition to any row)
-
-### Timeline Reading Tips
-
-- Count ticks to the enemy's next action — if it is a heavy attack (6+ ticks), you have time to interrupt it
-- If two enemies are acting at the same tick, prioritize Breaking the one with the AoE icon
-- Save high-Break abilities for obvious enemy wind-up animations
-- Do not queue a long action if an enemy with high Break damage is acting before you
+Until official information appears, plan around the confirmed tools: short actions, Break interrupts, and defensive actions.
 
 ## Advanced Combat Techniques
 
-### The Double Break
+Without official details, "advanced techniques" need to be reframed around confirmed mechanics:
 
-Coordinate two heroes to Break the same target in succession. The first Break pushes the enemy back and deals bonus damage. If the second Break lands within 2 ticks, it deals additional bonus damage. This is the strongest single-target burst in the game.
+### The Break Trade
 
-Best performed by: Monk (setup) + Rogue (execution), or Warrior (setup) + Mage (execution)
+The confirmed core loop: commit to an action, watch the timeline, and trade your actions against the enemy's. Every fight is a sequence of trades — your Break cancels their heavy attack, their Break cancels your spell. The winner reads the timeline better.
 
-### The Timeline Reset
+### Hyper-Specialized Builds
 
-Mage's ultimate ability resets the battlefield timeline to its starting order. Use this when the enemy has multiple fast actions queued back-to-back. The reset clears all queued actions and both sides start fresh.
+Progression is confirmed to support **hyper-specialization**: level up, spend points on chosen skills, and stack duplicates of a supporting artifact to amplify one skill. A combat build focused on one powerful action, protected by short filler actions, is a confirmed-valid strategy.
 
-Save this for Act 3-4 bosses who stack multiple fast minions alongside themselves.
+### The Arms Race
 
-### Kiting the Timeline
-
-If you cannot Break an enemy because their Poise is too high, focus on action speed manipulation instead. Bard's slow songs reduce enemy action speed, effectively giving your party more turns before the enemy acts again.
+Enemies **acquire artifacts during encounters** and scale alongside you. Long fights get harder as the enemy picks up items — efficiency matters. Finish fights before the other side's stacks accumulate.
 
 ## Combat Flow Checklist
 
-1. Open: Assess the timeline — who acts first, what actions are queued
-2. Priority: Break any enemy heavy attacks (5+ ticks) if possible
-3. Position: Adjust rows based on enemy targeting
-4. Execute: Commit to your damage rotation during safe windows
-5. Reassess: After each round, check the new timeline for threats
-6. Emergency: Use priority actions if a hero is about to be Broken
+1. **Open**: Assess the timeline — who acts first, what's queued on both sides
+2. **Priority**: Identify heavy enemy actions (powerful attacks, summons, buffs) worth Breaking
+3. **Position**: Keep fragile heroes protected; put durable heroes in the way
+4. **Execute**: Commit to your build's actions during safe windows
+5. **Reassess**: After each exchange, check the new timeline for threats
+6. **Protect**: Keep your own actions short when enemies are threatening Breaks
 
 ## Related Guides
 

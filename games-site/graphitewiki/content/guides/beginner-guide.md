@@ -1,98 +1,108 @@
 ---
 title: 'Beginner Guide — How to Start Your First Run in Graphite'
-description: 'New to Graphite? Learn the first run basics, hero selection tips, day management, timeline combat, Break system, artifacts, camp upgrades, and early game priorities to survive the 4-act campaign.'
+description: 'New to Graphite? Learn the first run basics: hero selection, the timeline combat system, the Break system, artifact stacking, tarot deck events, and what actually carries between runs.'
 keywords: ['Graphite beginner guide', 'how to play Graphite', 'Graphite first run', 'Graphite tips', 'Graphite getting started', 'Graphite roguelike guide']
 category: Beginner
 version: '1.0'
-updated: '2026-07-29'
+updated: '2026-08-01'
 related:
   - heroes-guide
   - combat-guide
   - builds-artifacts-guide
   - boss-guide
+  - graphite-demo-guide
 ---
 
 ## What is Graphite?
 
-Graphite is a pen-and-ink tactical roguelike RPG by RipRed/indie.io, released July 27, 2026 on Steam. You lead a party of heroes through a 4-act campaign against encroaching darkness, managing your days carefully between combat encounters, camp rests, and tarot deck events that shape each run. Every decision matters — from which heroes you Bond with to which artifacts you stack — because the enemies are collecting power right alongside you.
+Graphite is a pen-and-ink tactical roguelike RPG by RipRed, published by indie.io, released July 27, 2026 on Steam. You lead a party of pencil-drawn heroes through acts of a campaign against encroaching darkness: the mysterious **Scribe** has tasked seven heroes with growing stronger and gathering allies before **Death** arrives. The heroes don't know they are figments of a child's imagination, and the world is made of paper and repurposed household junk.
+
+A free demo, **Graphite: Act 1**, covers the entire first act — about 30 minutes per run — with 4 of the 7 heroes, 50 stackable artifacts, and 15 adventure events. This guide covers what any first run needs: hero choice, the timeline combat, the Break system, artifacts, and the tarot deck.
 
 ## Choosing Your First Hero
 
-You start each run by selecting a primary hero from your roster. As you progress, you unlock additional party members through the Bond system, eventually fielding a full squad.
+You start each run by selecting a starting hero from your roster. The full game has 7 heroes; the demo has 4. Only two are confirmed by name in public coverage — treat other names as unconfirmed.
 
-### Best Starter Heroes
+**The Knight** — The most forgiving choice for new players. The Knight fights with a shield, takes advantage of the **Break system** (the game's core combat mechanic), and deals significant damage. You make fewer mistakes with a Knight because the shield forgives them.
 
-**Warrior** — The most forgiving choice for new players. High durability, straightforward damage, and a taunt ability that lets you control enemy targeting. You make fewer positioning mistakes with a Warrior because you can survive them.
+**The Mage** — The confirmed offensive alternative. The Mage casts offensive spells and also boosts allies' defenses. Great for players who prefer ranged offense, but the caster kit leaves less room for error than the Knight's shield.
 
-**Mage** — Good if you prefer ranged combat and area damage. The Mage deals consistent damage from the back row but requires you to learn positioning early since she folds under pressure.
+Your starting hero choice also changes story events and progression — the game intends you to play as all 7 heroes eventually to see the full story.
 
-**Bard** — Surprisingly strong for beginners who want to understand the Break system. The Bard's buffs and debuffs give you direct feedback on how timeline manipulation works.
+## Run Structure
 
-Avoid Rogue and Tamer for your first run — Rogue requires precise Break timing for stealth windows, and Tamer's pet management adds complexity before you understand the core loop.
+Every run follows the same loop:
 
-## Day Management
+1. **Pick a starting hero**
+2. **Fight procedurally generated encounters** — enemies are randomly generated, get stronger over time, and can eventually use items
+3. **Level up between battles** — spend points to upgrade chosen skills, steering your build
+4. **Draw from the tarot adventure deck** — branching, narrated event cards shaped by your party, items, and prior decisions
+5. **Face the act's major confrontation** — then the run wraps up
 
-Graphite structures each act as a sequence of days. Each day you choose an activity:
-
-- **Travel** — Move toward the act's boss node on the map
-- **Scout** — Reveal adjacent nodes, find events, and sometimes discover artifacts
-- **Rest** — Full party heal at camp, but advance the calendar
-- **Forage** — Gather camp supplies and consumables
-- **Merchant** — Visit a trading post to buy artifacts and items
-
-Your core priority every run is balancing progress toward the boss against your party's health and artifact strength. Pushing too fast leaves you underpowered. Resting too much lets the enemy's artifact stacks grow out of control.
-
-### Early Game Priority Checklist
-
-1. **Complete your first 2-3 fights** to earn starting gold and basic artifacts
-2. **Visit a Merchant** before your first boss node to fill artifact gaps
-3. **Build Bonds** with at least one additional hero before Act 1's boss
-4. **Never skip Scout** on the turn before an unknown boss node — information wins runs
-5. **Rest only when two or more heroes are below 50% HP** — otherwise push forward
+The demo runs about 30 minutes per attempt, which makes it a fast learning loop: fail, learn, restart, go further.
 
 ## The Timeline Combat System
 
-Combat in Graphite uses a visible timeline. Every action — yours and the enemy's — has a duration measured in ticks. A basic attack might take 3 ticks to execute, while a powerful spell might take 6 ticks.
+Combat in Graphite uses a **shared timeline**. Every action — yours and the enemy's — has a duration, and the timeline shows when each queued action will resolve. Multiple units act simultaneously; when you act matters as much as what you do.
 
-The timeline shows exactly when every action will land. This is the core tactical puzzle: you see the enemy winding up a heavy attack in 4 ticks, and you must decide whether to interrupt it, shield through it, or reposition before it connects.
+This is the core tactical puzzle: you see the enemy winding up a heavy attack, and you must decide whether to interrupt it, defend against it, or reposition before it connects.
 
 ### First Combat Tips
 
 - Always check the timeline before selecting an action
-- Shorter duration attacks let you act more frequently but deal less damage
-- Longer duration attacks are more powerful but leave you vulnerable to interruption
-- Position matters — melee heroes take more damage when surrounded
+- Shorter-duration actions let you act more often; longer ones hit harder but leave you exposed
+- The enemy's next actions are visible — plan around them instead of reacting to them
+- Watch for enemy units picking up artifacts mid-fight — their power climbs as fights go on
 
-## Camp System
+## The Break System
 
-Between combat days, your party sets up camp. This is where you:
+Break is the mechanic everything else orbits around:
 
-- **Heal** — Spend camp supplies to restore HP after tough fights
-- **Cook** — Turn foraged ingredients into buff-providing meals
-- **Equip Artifacts** — Assign newly found artifacts to the right heroes
-- **Raise Bonds** — Camp conversations increase Bond levels between heroes
-- **Tarot Reading** — Draw from your tarot deck for permanent run modifiers
+- Every combatant has **Poise** (an action gauge)
+- **Breaking** depletes Poise; at zero, the target's scheduled action is **cancelled and pushed down the timeline** — this interrupts powerful attacks, summons, and buffs
+- The system is **fully symmetric**: enemies can Break your heroes the same way
 
-Camp management is deceptively important. A well-executed camp phase can turn a losing run around. Prioritize cooking meals that grant Break resistance — it keeps your timeline intact when enemies try to disrupt you.
+This symmetry rewards players who read the timeline and punishes those who autopilot. The Knight's shield kit is built around exploiting Break — which makes him the natural first teacher of the system.
+
+## Artifacts — Stack Without Limit
+
+Artifacts are passive items, and there is **no cap** on stacking:
+
+- Duplicated artifacts amplify — stacking the same item increases its effect
+- The game explicitly supports hyper-specialized builds: one skill loaded with many copies of a supporting artifact
+- **Enemies acquire artifacts too** — opponents scale alongside your power
+
+Early game priority: stack deliberately, in one direction, instead of holding a grab-bag of single items. Unequipped artifacts contribute nothing.
+
+## The Tarot Adventure Deck
+
+Between fights, the tarot-inspired adventure deck presents illustrated, narrated event cards with branching, choose-your-own-adventure style choices. Key facts:
+
+- Outcomes are shaped by **your party, your items, and your prior decisions** — the same card can play differently on different runs
+- The demo includes 15 hand-drawn events
+- Event rewards feed directly into your artifact stack and friendship levels
+
+The deck is the game's main source of choice and consequence — engage events, read the choices, and remember what worked.
 
 ## First Run Goals
 
-Your very first run should focus on learning, not winning. Set these goals:
+Your very first run should focus on learning, not winning:
 
-1. Reach the Act 1 boss and see its mechanics
-2. Unlock at least one additional hero through Bonding
-3. Experiment with different artifact stacks to see what they do
-4. Die and restart — Graphite expects you to fail several runs before your first victory
+1. Reach the Act 1 confrontation and see what it tests
+2. Learn Break timing on heavy enemy actions
+3. Experiment with artifact stacking — one focused stack, one balanced loadout
+4. Try a second hero and see how the story changes
 
-Each death teaches you something. The tarot deck changes between runs, the artifact pool shifts, and your growing knowledge of Break timing will carry you further each time.
+Each run teaches you something. The deck changes between runs, the artifact pool shifts, and your growing knowledge of Break timing carries you further each time.
 
 ## Common Beginner Mistakes
 
-- **Overstacking one artifact type** — Enemies scale partially based on your artifact power. A balanced stack is often stronger than going all-in on one effect.
-- **Ignoring camp cooking** — Meals provide 2-3 day buffs that dramatically affect Break resistance and damage output.
-- **Skipping Scout days** — Walking blind into a boss with unknown mechanics is the fastest way to lose a run.
-- **Neglecting the Bard** — Even if you prefer damage dealers, the Bard's timeline manipulation is invaluable for controlling Break windows.
-- **Holding artifacts in inventory** — Equip artifacts immediately. Unequipped artifacts contribute nothing to your power curve.
+- **Holding artifacts unstacked** — commit to a direction; duplicates compound
+- **Ignoring the timeline** — the whole combat system rewards reading ahead
+- **Hoarding skill points** — spend them; committed builds outperform unspent ones
+- **Dragging fights out** — enemies pick up artifacts and scale; long fights get harder, not easier
+- **Skipping event cards** — the tarot deck is where choices, items, and story converge
+- **Trusting unsourced guide specifics** — act counts, boss names, unlock thresholds, and playtime figures are unconfirmed until the full game; this guide keeps those marked as unknown
 
 ## Related Guides
 
@@ -100,3 +110,4 @@ Each death teaches you something. The tarot deck changes between runs, the artif
 - [Combat & Break System Guide](/guides/combat-guide)
 - [Best Builds & Artifacts Guide](/guides/builds-artifacts-guide)
 - [Boss Strategy Guide](/guides/boss-guide)
+- [Graphite Demo Guide — Act 1](/guides/graphite-demo-guide)

@@ -1,213 +1,88 @@
 ---
-title: "Dinoblade Builds Guide — Strength, Dexterity, and Hybrid"
-description: "Four Dinoblade builds: Colossus, Blade Dancer, Wardancer, and Primordial. Stat allocations, gear recommendations, playstyles, and special skill thresholds."
+title: "Dinoblade Builds Guide — Soul Arts, Stats & Playstyles"
+description: "Builds in Dinoblade are driven by Soul Arts bought with Boss SP. What's confirmed about stats and leveling, the five confirmed Soul Arts, and how to pick a playstyle."
 category: "Builds"
 version: "1.0"
-updated: "2026-07-19"
+updated: "2026-08-01"
 keywords:
   - Dinoblade builds
-  - strength build
-  - dexterity build
-  - hybrid build
-  - spirit build
-  - stat allocation
-  - best weapons
+  - Dinoblade best build
+  - Dinoblade best soul arts
+  - Dinoblade stat allocation
+  - Dinoblade best skills
+  - Dinoblade soul arts
 related:
+  - soul-arts-guide
   - weapons-guide
   - boss-guide
-  - parry-guide
   - beginner-guide
 ---
 
-# Dinoblade Builds Guide — Strength, Dexterity, and Hybrid
+# Dinoblade Builds Guide — Soul Arts, Stats & Playstyles
 
-Choosing the right build in Dinoblade determines not just your damage output but your entire playstyle — from how many hits you can take to which special skills you can use. This guide covers four optimized builds for different playstyles, with full stat tables, gear recommendations, and tactical advice.
+Builds in Dinoblade are driven by two confirmed systems: **attributes you can adjust** (and that level up over time) and **Soul Arts** purchased with **Boss SP** earned from boss victories. This guide covers what's confirmed about both, and how to approach build direction honestly.
 
----
+**Honesty note:** the game's stat names, soft caps, and attribute formulas are not officially documented. Any guide printing "Strength 30, Dexterity 45" tables is unconfirmed — treat stat specifics as TBD.
 
-## Build Overview
+## What Is Confirmed About Stats & Leveling
 
-| Build | Primary Stats | Best Weapons | Playstyle Difficulty |
-|-------|--------------|-------------|-------------------|
-| Colossus (Strength) | STR, VIT, END | Greatsword, War Hammer | Easy to learn |
-| Blade Dancer (Dexterity) | DEX, END, VIT | Claws, Scythe | Medium |
-| Wardancer (Hybrid) | DEX, SPI, END | Spear, Scythe | Hard |
-| Primordial (Hybrid) | STR, SPI, VIT | Battle Axe | Medium-Hard |
+- **Souls/SP are collected from enemies** — including hidden SP pickups tucked between rocks, inside a giant skull, and along the main path (Part 2).
+- **Leveling is partly automatic** — the game deliberately keeps you focused on combat rather than menu grinding.
+- **You can adjust your character's attributes before boss fights** — confirmed in walkthrough coverage. This makes attribute management a per-boss decision, not a permanent commitment.
+- **Defeating bosses grants Boss SP**, which is spent on Soul Arts (see below).
 
----
+## The Five Confirmed Soul Arts
 
-## Special Skill Stat Thresholds
+All five are bought with Boss SP after defeating Kira the Exile:
 
-Before choosing a build, note the minimum stat requirements for each special skill:
+| Soul Art | Confirmed Detail |
+|----------|------------------|
+| **Meteor Slice** | Melee-oriented art; the game's coverage names it among the core Soul Arts. Exact damage and cost TBD. |
+| **Meteor Dash** | Mobility art — gap-closing/dash tool. Exact effect TBD. |
+| **Alpha Roar** | Buff-style art. Exact buff values TBD. |
+| **Meteor Zone** | Area/zone tool. Exact effect TBD. |
+| **Survival Instinct** | Sustain-oriented art. Exact effect TBD. |
 
-| Special Skill | Minimum Stat | Weapon | Effect |
-|--------------|-------------|--------|--------|
-| Meteor Slice | 20 STR | Greatsword | AoE ground slam |
-| Whirlwind Spin | 16 STR | Battle Axe | Spinning AoE attack |
-| Earth Shatter | 22 STR | War Hammer | Shockwave projectile |
-| Reaping Sweep | 16 DEX | Scythe | 360-degree bleed slash |
-| Impaling Charge | 18 DEX | Spear | Long-range piercing thrust |
-| Rending Strike | 20 DEX | Claws | Double-damage cross-slash |
-| Alpha Roar | 18 SPI | Any | Buffs attack power for 15s |
-| Boss Soul Summon | 22 SPI | Any (consumes soul charge) | Summons a boss for 20s |
+**Spending advice (community-verified practice):** don't unlock everything immediately. Pick an Art that solves a problem in your playstyle — mobility, crowd control, or sustain — then test each Art on regular enemies first and learn its Resonance cost, range, and animation length. A reliable, slightly weaker ability beats a flashy one that leaves you vulnerable. Full detail in the [Soul Arts Guide](/guides/soul-arts-guide).
 
----
+## Playstyle Frameworks (Confirmed Tools Only)
 
-## Build 1: Colossus (Strength)
+### The Aggressive Parry-User
 
-The Colossus is a heavy-hitting tank that crushes enemies through raw power and high survivability. Best for new players and anyone who likes trading blows.
+- **Core loop:** perfect parries restore stamina and Resonance, filling enemy Resolve bars for heavy finishing blows and Instinct Counters.
+- **Best arts:** Alpha Roar or Meteor Slice — buffs and damage that reward staying in the pocket.
+- **Fits:** players who enjoy Sekiro-style deflection.
 
-### Stat Allocation (Target Level 80)
+### The Patient Defensive Player
 
-| Stat | Points | Reasoning |
-|------|--------|-----------|
-| Vitality | 25 | High HP lets you survive mistakes and trade hits with bosses |
-| Endurance | 15 | Enough stamina for 2 heavy attacks + a roll |
-| Strength | 30 | Maximum damage with heavy weapons, unlocks all Strength special skills |
-| Dexterity | 10 | Minimum for weapon requirements |
-| Spirit | 8 | Base level — special skills are backup, not primary |
+- **Core loop:** block first, learn patterns, then parry the safe windows; dodge unblockables with i-frames.
+- **Best arts:** Survival Instinct or Meteor Dash — sustain and escape.
+- **Fits:** players who prefer learning fights before committing.
 
-### Recommended Gear
+### The Spacing Player
 
-| Slot | Item | Location |
-|------|------|----------|
-| Weapon | Greatsword or War Hammer | Jurassic Plains / Ancient Forest |
-| Armor Set | Ancient Guardian | Chests in Jurassic Plains and Ancient Forest |
-| Ex-Mod | Weighted Core (+30% stagger) | Ex-Mod Forge (Volcanic Wastes) |
-| Talisman | Colossus Fang (+10% physical damage) | Ancient Forest hidden chest |
+- **Core loop:** charged heavy attacks launch a **ranged fire projectile** (5 Resonance + stamina) — strong against scythe, trident, and hammer enemies that out-range you in neutral.
+- **Best arts:** Meteor Zone or Meteor Dash — area control and repositioning.
+- **Fits:** players who like controlling distance against reach-weapon enemies.
 
-### Playstyle
+## Attribute Spending Priorities (General Advice, TBD Details)
 
-- Tank hits and trade damage. Your high HP and heavy armor make this viable.
-- Use charged heavy attacks to stagger enemies, then riposte.
-- Reserve Meteor Slice / Earth Shatter for groups or when you need breathing room.
-- **Dodge less, block more.** Your high Endurance gives you the stamina to block.
-- Against bosses: focus on parrying their heavy attacks for riposte opportunities.
+Since the exact stat formulas are undocumented, spend by feel with these guidelines:
 
-**Strengths:** Highest survivability, easiest playstyle, excellent against armored enemies.
-**Weaknesses:** Slow, vulnerable to fast enemies and status effects, low mobility.
+1. **Survivability first for new players** — more health per boss attempt means more pattern-learning time.
+2. **Adjust attributes per boss** — the game lets you re-tune before major fights; there's no reason to commit to one spread permanently.
+3. **Resonance-related investment** — since Soul Arts run on Resonance and parries restore it, invest in whatever improves Resonance uptime once you've settled on an art.
 
----
+## Common Build Mistakes
 
-## Build 2: Blade Dancer (Dexterity)
-
-The Blade Dancer is a fast, evasive fighter that uses rapid attacks and bleed buildup to shred enemies. High skill ceiling but devastating damage.
-
-### Stat Allocation (Target Level 80)
-
-| Stat | Points | Reasoning |
-|------|--------|-----------|
-| Vitality | 15 | Enough to survive a few hits — you're not supposed to get hit |
-| Endurance | 20 | High stamina for extended attack chains and multiple dodges |
-| Strength | 10 | Minimum for weapon requirements |
-| Dexterity | 30 | Maximum damage with light weapons, unlocks all Dexterity special skills |
-| Spirit | 12 | Enough for occasional Alpha Roar or utility skills |
-
-### Recommended Gear
-
-| Slot | Item | Location |
-|------|------|----------|
-| Weapon | Claws or Scythe | Jurassic Plains / Ancient Forest |
-| Armor Set | Featherscale | Ancient Forest treetop area |
-| Ex-Mod | Serrated Teeth (+50% bleed buildup) | Ex-Mod Forge (Volcanic Wastes) |
-| Talisman | Wind Serpent Talisman (+10% attack speed) | Ancient Forest secret area |
-
-### Playstyle
-
-- Stay mobile. Use your high stamina to chain dodges and attacks.
-- Build bleed stacks with light attack combos, then use Rending Strike or Reaping Sweep to proc the bleed burst.
-- **Never trade hits.** You have low HP and armor. Hit, dodge, repeat.
-- Use rolling attacks frequently — they have good speed and coverage.
-- Against bosses: learn their patterns and dodge through attacks using i-frames. Look for openings of 2-3 hits maximum.
-
-**Strengths:** Highest DPS potential, excellent mobility, bleed ignores physical resistance.
-**Weaknesses:** Low survivability, struggles against armored enemies, requires precise timing.
-
----
-
-## Build 3: Wardancer (Dexterity/Spirit Hybrid)
-
-The Wardancer blends fast melee combat with frequent special skill usage. This hybrid build focuses on mobility, utility, and tactical skill use.
-
-### Stat Allocation (Target Level 80)
-
-| Stat | Points | Reasoning |
-|------|--------|-----------|
-| Vitality | 18 | Moderate HP for a hybrid playstyle |
-| Endurance | 16 | Balanced stamina for attacking and dodging |
-| Strength | 10 | Minimum for weapon requirements |
-| Dexterity | 22 | Unlocks Impaling Charge, solid damage with Spear and Scythe |
-| Spirit | 22 | Unlocks Boss Soul Summon, good special skill uptime |
-
-### Recommended Gear
-
-| Slot | Item | Location |
-|------|------|----------|
-| Weapon | Spear or Scythe | Jurassic Plains / Ancient Forest |
-| Armor Set | Crystal Weaver | Crystal Caverns |
-| Ex-Mod | Soulbound (+15% special skill damage) | Ex-Mod Forge (Volcanic Wastes) |
-| Talisman | Spirit Conduit (+20% Spirit recovery) | Crystal Caverns hidden passage |
-
-### Playstyle
-
-- Use Impaling Charge to close distance and pierce through enemy lines.
-- Weave special skills between light attack combos. Your high Spirit means fast cooldowns.
-- Save your Boss Soul Summon for boss fights or tough miniboss encounters.
-- Spear's long reach lets you attack from safe distances.
-- Against bosses: use Impaling Charge to create space, then reposition. Boss Soul Summon when the boss enters phase 2 for a 2v1 advantage.
-
-**Strengths:** High versatility, excellent in co-op, strong boss DPS with summons.
-**Weaknesses:** Jack of all trades, master of none — lower raw damage than pure builds.
-
----
-
-## Build 4: Primordial (Strength/Spirit Hybrid)
-
-The Primordial combines heavy weapons with the Alpha Roar buff skill, creating a self-buffing powerhouse that delivers devastating burst damage.
-
-### Stat Allocation (Target Level 80)
-
-| Stat | Points | Reasoning |
-|------|--------|-----------|
-| Vitality | 20 | Good HP for a front-line fighter |
-| Endurance | 14 | Enough stamina for 1-2 heavy attacks + dodge |
-| Strength | 24 | Unlocks Earth Shatter and most heavy weapon requirements |
-| Dexterity | 8 | Minimum — no Dexterity weapons |
-| Spirit | 22 | Unlocks Alpha Roar and Boss Soul Summon |
-
-### Recommended Gear
-
-| Slot | Item | Location |
-|------|------|----------|
-| Weapon | Battle Axe | Ancient Forest |
-| Armor Set | Volcanic | Volcanic Wastes |
-| Ex-Mod | Tempered Edge (+20% damage) | Ex-Mod Forge (Volcanic Wastes) |
-| Talisman | Roar of the Ancients (+5s Alpha Roar duration) | Volcanic Wastes boss room |
-
-### Playstyle
-
-- Activate Alpha Roar at the start of every fight. For 15 seconds, all attacks deal 25% more damage.
-- Use heavy attacks while Alpha Roar is active for maximum burst damage.
-- When Alpha Roar expires, play defensively until the cooldown ends (15 seconds at 22 Spirit).
-- Use Whirlwind Spin for crowd control or Earth Shatter if you've switched to War Hammer.
-- Against bosses: pop Alpha Roar before engaging, unleash Whirlwind Spin, then retreat. Repeat on cooldown.
-
-**Strengths:** Excellent burst damage, self-sufficient with buffs, good survivability.
-**Weaknesses:** Dependent on cooldown management, weaker during downtime, low Dexterity limits weapon options.
-
----
-
-## Respeccing
-
-If you want to change your build, you can respec at the **Statue of Rebirth** in the Ancient Forest. The first respec costs 5,000 XP. Each subsequent respec costs an additional 2,500 XP (capped at 20,000 XP).
-
----
-
-Launch Version / Updated: July 19, 2026
+1. **Buying every Soul Art "just in case."** Boss SP is finite per run — a focused art solves problems; a scattered collection solves none.
+2. **Ignoring the Resolve loop.** No stat investment replaces the parry → Resolve → Instinct Counter loop. Builds optimize the loop; they don't replace it.
+3. **Sleeping on summons.** Defeating bosses lets you summon them; the Axe summon boosts stamina recovery. Summons are a build component, not a flavor feature.
+4. **Copying stat tables from unverified guides.** Numbers that look precise (soft caps, point-by-point spreads) are fabricated for Dinoblade until officially documented.
 
 ## Related Guides
 
-- [Weapons Guide](/guides/weapons-guide) — Detailed weapon stats and Ex-Mod upgrades
-- [Boss Guide](/guides/boss-guide) — Boss strategies that complement each build
-- [Parry Guide](/guides/parry-guide) — Parry timing for every enemy type
-- [Beginner Guide](/guides/beginner-guide) — Core mechanics and first steps
+- [Soul Arts Guide](/guides/soul-arts-guide) — How to unlock and use Soul Arts
+- [Weapons Guide](/guides/weapons-guide) — Confirmed weapons and playstyle fit
+- [Boss Guide](/guides/boss-guide) — What each boss demands from your build
+- [Beginner Guide](/guides/beginner-guide) — Core combat loop

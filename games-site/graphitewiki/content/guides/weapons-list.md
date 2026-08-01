@@ -1,125 +1,87 @@
 ---
-title: "Weapons List Guide — All Weapons, Stats & Upgrade Paths"
-description: "Complete weapons list guide for Graphite covering all weapons in the game, their stats, special effects, upgrade paths, and best use cases for each character."
+title: "Gear & Artifacts Guide — No Weapon System, What Equipment Exists Instead"
+description: "Graphite has no weapon system — power comes from stackable artifacts and skill upgrades. Here is what we know about the real equipment mechanics: unlimited artifact stacking, enemies that pick up artifacts, and run customization."
 category: "Guides"
 version: "1.0"
-updated: "2026-07-29"
-keywords: ["graphite weapons list", "all weapons", "weapon stats", "special effects", "upgrade paths", "best weapons", "graphite weapon guide"]
-related: ["character-guide", "story-walkthrough", "achievements-guide"]
+updated: "2026-08-01"
+keywords: ["graphite artifacts", "graphite gear", "graphite equipment", "graphite artifact stacking", "graphite item guide", "graphite what items exist", "graphite builds"]
+related: ["builds-artifacts-guide", "combat-guide", "heroes-guide", "character-guide"]
 ---
 
-## Graphite Weapons List Guide
+## Graphite Gear & Artifacts Guide
 
-Weapons in Graphite are artistic tools repurposed for both creation and combat. Each character has access to two weapon slots and can swap between them freely during gameplay. While Graphite is primarily a puzzle-adventure game, combat encounters become increasingly frequent in later chapters, making weapon knowledge essential for progression. This guide covers every weapon, its stats, upgrade paths, and optimal usage.
+First, a correction that matters: **Graphite has no weapon system.** Combat is driven by hero abilities, and character power comes from **artifacts** (passive items) and **skill upgrades** — not from equipping swords or bows. Any guide that lists "weapons" for Graphite is describing content that does not exist in the game. This page covers the equipment-adjacent systems that actually do exist, based on confirmed information.
 
-## Weapon Categories
+## The Artifact System
 
-Weapons in Graphite fall into three categories based on their artistic origin.
+Artifacts are passive items that modify your heroes' performance. The defining features of the system, confirmed across Steam listing, press coverage, and previews:
 
-| Category | Damage Type | Best For | Characters |
-|----------|-------------|----------|------------|
-| **Drawing Tools** (Pencil, Charcoal, Ink Brush) | Physical, piercing | Precision combat, weak points | Clara, Dante |
-| **Sculpting Tools** (Chisel, Hammer, Wire) | Physical, blunt | Stagger, breakable objects | Marcus |
-| **Sound Instruments** (Flute, Violin, Bell) | Magical, area-of-effect | Crowd control, enemy groups | Elena |
+### Unlimited Stacking
 
-## Weapon Stats Explained
+- There is **no cap** on artifact stacking — you can stack artifacts without limit
+- Stacking multiples of the same artifact **increases the effect** — duplicated items amplify
+- The system explicitly supports **both balanced and hyper-specialized builds**: one skill loaded with many duplicates of the same artifact is a viable strategy
+- The demo contains **50 stackable artifacts** to experiment with
 
-Every weapon has five core stats:
+The strategic consequence is that "what do I stack?" replaces "what do I equip?" — your loadout is a pile of items whose compounding effects define your build.
 
-- **Damage**: Base damage per hit. Scales with character stats.
-- **Speed**: Attack speed rating. Higher is faster.
-- **Reach**: Attack range. Higher values mean more distance.
-- **Stagger**: Chance to interrupt enemy actions. Higher is more reliable.
-- **Durability**: Number of hits before the weapon needs repair at a Gallery Workbench.
+### Enemies Collect Artifacts Too
 
-## Complete Weapon List
+The game's signature twist: **enemies acquire artifacts during encounters and scale alongside you**. Opponents pick up artifacts just like your party does, and their power climbs with time. Reviewers describe this as an arms race — the game counters power creep by handing the same tools to the other side.
 
-### Drawing Tools
+Practical implications:
 
-| Weapon | Damage | Speed | Reach | Stagger | Durability | Special Effect | Acquired |
-|--------|--------|-------|-------|---------|------------|----------------|----------|
-| **Basic Pencil** | 5 | Fast | Short | 5% | 100 | None | Starting (Clara) |
-| **Sharpened Charcoal** | 8 | Fast | Short | 10% | 80 | Ember Strike: 10% chance to burn | Chapter 2 |
-| **Red Ink Brush** | 6 | Medium | Medium | 15% | 120 | Bloodletting: enemies leave ink trails | Chapter 5 |
-| **Silver Quill** | 12 | Slow | Long | 20% | 90 | Precision: double damage to weak points | Chapter 7 |
-| **Master's Pencil** | 15 | Fast | Medium | 25% | 150 | Sketch Combo: third hit creates a platform | Chapter 9 |
+- Long encounters can get harder as the fight goes on — enemies that survive pick up more items
+- Dragging out a fight is a losing strategy against scaled enemies
+- Coverage describes enemy scaling as "get stronger over time," so delaying confrontations may make them harder
 
-### Sculpting Tools
+### Individual vs. Group Artifacts
 
-| Weapon | Damage | Speed | Reach | Stagger | Durability | Special Effect | Acquired |
-|--------|--------|-------|-------|---------|------------|----------------|----------|
-| **Stone Chisel** | 10 | Slow | Short | 30% | 150 | Shatter: destroys fragile objects | Starting (Marcus) |
-| **Iron Hammer** | 18 | Very Slow | Short | 50% | 200 | Stagger Lock: guaranteed stagger on hit | Chapter 3 |
-| **Sculptor's Wire** | 7 | Fast | Medium | 15% | 100 | Bind: slows enemies hit | Chapter 3 (hidden) |
-| **Marble Mallet** | 22 | Slow | Medium | 60% | 250 | Quake: hits create a small shockwave | Chapter 8 |
-| **Titan Chisel** | 28 | Slow | Medium | 70% | 300 | Sunder: breaks any breakable object in one hit | Chapter 9 |
+Some coverage separates artifacts into individual and party-wide effects, and it is reasonable to expect both types. However, the exact division, naming, and rules are **unconfirmed** — no official documentation of artifact categories has been published at the time of writing.
 
-### Sound Instruments
+## Skill Upgrades — the Other Half of Power
 
-| Weapon | Damage | Speed | Reach | Stagger | Durability | Special Effect | Acquired |
-|--------|--------|-------|-------|---------|------------|----------------|----------|
-| **Bamboo Flute** | 4 | Fast | Long | 5% | 80 | Resonant: reveals hidden objects in radius | Starting (Elena) |
-| **Copper Bell** | 8 | Slow | Long | 25% | 120 | Deafening: stuns enemies in area | Chapter 4 |
-| **War Horn** | 12 | Very Slow | Very Long | 40% | 150 | Rally: buffs nearby allies' damage by 10% | Chapter 6 |
-| **Silver Violin** | 14 | Medium | Long | 20% | 100 | Lullaby: puts weak enemies to sleep | Chapter 6 (optional) |
-| **Crystal Harp** | 18 | Medium | Very Long | 30% | 180 | Resonance Cascade: chains damage between enemies | Chapter 9 |
+Artifacts are not the only progression path:
 
-### Unique Weapons
+- After each battle you **level up**
+- You **spend points to upgrade chosen skills**, directing your build as the run develops
+- Skills and artifacts combine — hyper-specialization means committing to one skill and stacking supporting items for it
 
-| Weapon | Damage | Speed | Reach | Stagger | Durability | Special Effect | Acquired |
-|--------|--------|-------|-------|---------|------------|----------------|----------|
-| **Eternal Pencil** (Clara) | 20 | Fast | Medium | 30% | Infinite | Unlimited Durability, Master Sketch boost | True Ending Chapter 12 |
-| **World Chisel** (Marcus) | 35 | Slow | Medium | 80% | 500 | Shape Landscape: can reshape combat arenas | All lore items collected |
-| **Harmony Bell** (Elena) | 15 | Medium | Very Long | 35% | 200 | Perfect Resonance: solves all sound puzzles instantly | Free the singer in Chapter 6 |
+The confirmed intent is that builds accumulate complexity without bound: leveling, skills, and items all stack freely.
 
-## Upgrade Paths
+## Run Customization
 
-Weapons can be upgraded at Gallery Workbenches found throughout the game. Each upgrade requires specific materials and increases the weapon's stats.
+The game includes run-level customization options that function like an equipment menu at run start:
 
-### Upgrade Materials
+- You can **adjust challenges, starting gear, and difficulty** before a run
+- Starting gear and level can be modified — coverage notes you can change starting gear/level to jump directly into late-game content
+- This means pre-set loadouts are possible: start a run with the artifact loadout you want instead of earning everything from scratch
 
-- **Graphite Dust**: Common material, found in every chapter. Used for basic upgrades.
-- **Paint Pigment**: Uncommon material, found in Color-themed chapters. Used for mid-tier upgrades.
-- **Stone Fragment**: Found in Sculpture Garden and later chapters. Used for weapon reinforcements.
-- **Music Note Page**: Found in Sound-themed areas. Used for instrument upgrades.
-- **Essence of Art**: Rare material, found in Chapter 9 and Chapter 10. Used for final upgrades.
+The exact options available and their unlock conditions are **unconfirmed** — only the existence of the customization is documented.
 
-### Upgrade Tiers
+## What Confirmed Items and Effects Exist
 
-| Tier | Damage Bonus | Speed Bonus | Durability Bonus | Material Cost |
-|------|-------------|-------------|------------------|---------------|
-| +1 | +10% | +5% | +10% | 5 Graphite Dust |
-| +2 | +20% | +10% | +20% | 10 Graphite Dust, 3 Paint Pigment |
-| +3 | +35% | +15% | +30% | 15 Graphite Dust, 5 Paint Pigment, 3 Stone Fragment |
-| +4 | +50% | +20% | +50% | 20 Graphite Dust, 8 Paint Pigment, 5 Stone Fragment, 3 Music Note Page |
-| +5 (Max) | +75% | +25% | +75% | 25 Graphite Dust, 10 Paint Pigment, 8 Stone Fragment, 5 Music Note Page, 1 Essence of Art |
+No individual artifact names have been officially confirmed in public coverage. The only officially documented artifact-related facts are:
 
-## Best Weapon Combinations by Character
+- The demo's artifact pool contains **50 stackable artifacts**
+- Artifacts stack without limit and duplicate effects
+- Enemies can acquire artifacts
 
-### Clara — Best Loadout
+Specific artifact names, rarities, and effects are **TBD** until the full release or official reveals. Be skeptical of any list of named Graphite artifacts — none are sourced.
 
-- **Primary**: Master's Pencil (damage + utility)
-- **Secondary**: Silver Quill (precision for boss weak points)
-- **Strategy**: Use Master's Pencil for standard encounters. Switch to Silver Quill when bosses present weak point opportunities.
+## How to Build Your Loadout (Honest Advice)
 
-### Marcus — Best Loadout
+Given what is confirmed, here is what you can act on now:
 
-- **Primary**: Titan Chisel (maximum damage per hit)
-- **Secondary**: Iron Hammer (high stagger for crowd control)
-- **Strategy**: Open with Iron Hammer to stagger enemies, then switch to Titan Chisel for finishing blows.
+1. **Stack deliberately.** With no cap, the question is not "equip or not" but "which effect compounds best with my skills?" Pick one direction and commit.
+2. **Hyper-specialization is real.** Duplicating one artifact that amplifies a chosen skill is confirmed-valid design — try it in the demo's 50-artifact pool.
+3. **Mind the arms race.** Enemies scaling with artifact power means a runaway loadout can backfire in long fights. Balance offense against survivability.
+4. **Use run customization.** Pre-setting starting gear/difficulty lets you practice specific builds — useful in the demo.
+5. **Trust the demo.** All 50 demo artifacts are yours to experiment with, and runs are short — testing is the fastest way to learn the system.
 
-### Elena — Best Loadout
+## Related Guides
 
-- **Primary**: Crystal Harp (resonance cascade for group damage)
-- **Secondary**: Copper Bell (stun for emergency control)
-- **Strategy**: Use Crystal Harp for damage and Copper Bell for interrupting dangerous enemy attacks.
-
-## Weapon Farming Tips
-
-- **Graphite Dust**: Break every pencil and charcoal stick you find in the environment. They respawn after leaving and re-entering an area.
-- **Paint Pigment**: Mix colors at the Color Well in Chapter 5. Each successful mixture yields 3 Paint Pigment.
-- **Stone Fragment**: Destroy statues in Chapter 3. The large statues yield 2-3 fragments each.
-- **Music Note Page**: Complete Elena's optional Sound Maze puzzles. Each completed puzzle rewards 2 Music Note Pages.
-- **Essence of Art**: Drops from the final boss in Chapter 10. Only one per playthrough.
-
-For character-specific strategies using these weapons, see the [Character Guide](/guides/character-guide). For story progression tips including when to prioritize weapon upgrades, consult the [Story Walkthrough Guide](/guides/story-walkthrough).
+- [Best Builds & Artifacts Guide](/guides/builds-artifacts-guide) — stacking strategy and archetypes
+- [Combat & Break System Guide](/guides/combat-guide) — how combat power is spent
+- [All 7 Heroes Guide](/guides/heroes-guide) — which heroes use artifacts best
+- [Character Guide](/guides/character-guide) — hero playstyles

@@ -59,19 +59,19 @@ Because actions can be interrupted, your sequencing is a decision:
 
 ### Know When to Disengage
 
-Not every fight must be won. Expeditions: Samurai is a resource game — if a fight is going badly, smoke bombs and repositioning let you break contact and live to fight another day. Retreating with your party intact is a victory.
+Not every fight must be won. Expeditions: Samurai is a resource game — if a fight is going badly, firecracker distractions, cover, and repositioning let you break contact and live to fight another day (smoke-type escape tools are TBD until the launch build's gadget roster is revealed). Retreating with your party intact is a victory.
 
 ## Combat in Co-op
 
 Two-player co-op adds simultaneous coordination to the battlefield:
 
-- **Real-time combined abilities** — the official materials mention "devastating combos" from coordinated abilities.
+- **Real-time combined abilities** — official materials describe coordinating combat maneuvers in real time, "combining abilities for devastating combos."
 - **Split control** — each captain controls half the party, letting you set up double-sided pincers in a single turn.
 - **Synchronized openers** — one player's firecracker pulls enemies into the other player's ambush.
 
 ## Difficulty Settings: Tune the Battlefield
 
-Combat difficulty is **customizable independently** from resource management. If you want a tactical sandbox, set combat to the challenge you enjoy while keeping resource pressure as high or low as you like. Don't be proud — the game is designed to be tuned.
+Press coverage has described combat and resource-management difficulty as separately adjustable (**TBD** — exact difficulty options are unconfirmed until the launch build ships). If you want a tactical sandbox, tune combat to the challenge you enjoy while keeping resource pressure as high or low as you like — the game appears designed to be tuned. We'll update this section with the confirmed settings on launch day.
 
 ## The Combat Checklist
 

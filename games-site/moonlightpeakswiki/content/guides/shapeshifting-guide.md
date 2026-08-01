@@ -3,16 +3,16 @@ title: "Moonlight Peaks Shapeshifting Guide — Bat, Hellkitten & All Forms"
 description: "Shapeshifting in Moonlight Peaks explained: how to unlock forms like the bat and hellkitten, what each form is for (speed, access, exploration), and the mana and stamina costs to watch."
 category: "Guides"
 version: "1.0"
-updated: "2026-07-31"
+updated: "2026-08-01"
 keywords: ["moonlight peaks shapeshift", "moonlight peaks bat form", "moonlight peaks hellkitten", "moonlight peaks forms"]
 related: ["beginner-guide", "quests-guide", "characters-guide"]
 ---
 
 # Moonlight Peaks — Shapeshifting Guide: Bat, Hellkitten & All Forms
 
-> Launch Version / Updated: July 31, 2026
+> Launch Version / Updated: August 1, 2026
 
-You're a vampire's child in a town full of supernaturals — of course you can change shape. **Shapeshifting** is Moonlight Peaks' movement and access toolkit: the **bat** form is your fast-travel wings, the **hellkitten** is your small-access form, and the system has more forms to unlock as you progress. This guide covers how shapeshifting works, what each form is for, and how to manage the **mana costs** that gate it.
+You're a vampire's child in a town full of supernaturals — of course you can change shape. **Shapeshifting** is Moonlight Peaks' movement and access toolkit: the **bat** form is your fast-travel wings, the **hellkitten** is your small-access form (and your starter pet's species), and the **mermaid** form lets you reach water-gated areas. This guide covers how shapeshifting works, what each form is for, and how to manage the **mana costs** that gate it.
 
 ## How Shapeshifting Works
 
@@ -28,10 +28,11 @@ You're a vampire's child in a town full of supernaturals — of course you can c
 | Form | What it's for | Cost profile |
 |------|---------------|--------------|
 | **Bat** | **Speed and travel** — cover ground across town and the south map in a fraction of the time | Mana per shift / per duration; your most-used form |
-| **Hellkitten** | **Small access** — squeeze into gaps, reach hidden spots, scout tight spaces | Mana; cheap per shift, valuable in exploration |
-| **Other forms** | More forms unlock through story and spell progression | Various |
+| **Hellkitten** | **Speed + cheap digging** — runs faster on the ground and digs for lower energy; also lets you **talk to animals** and understand their needs | Mana; cheap per shift, valuable in exploration and barn care |
+| **Mermaid** | **Water access** — swim to otherwise inaccessible areas (islands, coves, underwater spots) | Mana; unlocks the water-gated parts of the map |
+| **Other forms** | More forms unlock through story and spell progression (reported; details still being documented) | Various |
 
-**Pro tip:** the bat is the form you'll live in once you've built some mana headroom. The difference between walking Moonlight Peaks' map and flying it is the difference between a productive night and a travel-heavy night.
+**Pro tip:** the bat is the form you'll live in once you've built some mana headroom. The difference between walking Moonlight Peaks' map and flying it is the difference between a productive night and a travel-heavy night. Keep the hellkitten in mind for farm chores — transformed, you can read what your animals actually need.
 
 ## Bat Form: Your Nightly Wings
 
@@ -41,17 +42,23 @@ You're a vampire's child in a town full of supernaturals — of course you can c
 
 **Pro tip:** plan flights like trips — one shift from A to B, land, do the thing, one shift home. Players who toggle bat form on and off for every minor repositioning end the night out of mana with nothing to show for it.
 
-## Hellkitten Form: Small Access
+## Hellkitten Form: Speed and Farmwork
 
-- **The access form** — where the bat gets you there fast, the hellkitten gets you *in*.
-- Use it to reach **hidden nooks, tight gaps, and out-of-the-way forage and dig spots** that walking and flying forms can't reach.
-- Its low per-shift cost makes it the best form for **exploration sessions** where you're checking the map methodically.
+- The hellkitten isn't just your starter pet's species — it's your **ground form**: faster running and **cheaper-energy digging**.
+- While transformed, you can **talk to animals** and understand their needs, which replaces petting for the day and gives you farm advice.
+- Its low per-shift cost makes it the best form for **exploration sessions** and farm chores.
 
-**Pro tip:** when you're hunting the spiral dig spots left by fed **Rabbiculas** (see the Potions Guide — they're your **Luck Dust** source), switch to hellkitten for the search phase. The small form sees the ground-level tells that the bat form misses from above.
+**Pro tip:** when you're hunting the spiral dig spots left by fed **Rabbiculas** (see the Potions Guide — they're your **Luck Dust** source), the hellkitten's cheap digging pays for itself. The form is also the fastest way to keep a big barn happy — every animal's needs become readable.
+
+## Mermaid Form: Water Access
+
+- The **mermaid form** unlocks the parts of the map that water-gated — swim to islands, coves, and other inaccessible areas.
+- It's the form that turns exploration into a map-completion project.
+- Like every shift, it costs mana — budget your form changes so you can swim *back*.
 
 ## Other Forms
 
-The full form list unlocks through **story and spell progression** — and the game keeps adding to the fantasy of being Dracula's child with each one. Community reports describe the later forms as a mix of movement, utility, and pure personality, though the bat and hellkitten remain the two forms you'll use daily.
+The full form list unlocks through **story and spell progression** — and the game keeps adding to the fantasy of being Dracula's child with each one. Community reports describe the later forms as a mix of movement, utility, and pure personality, though the bat, hellkitten, and mermaid are the three forms you'll use daily.
 
 **Pro tip:** treat forms as a progression reward to *look forward to*, not a checklist. The early-game advice stands: **don't waste mana on shapeshifting all night** — the forms get more useful as your mana pool grows, so the system genuinely gets better the longer you play.
 
@@ -60,10 +67,11 @@ The full form list unlocks through **story and spell progression** — and the g
 | Form | Unlock timing | Primary use | Mana profile |
 |------|---------------|-------------|--------------|
 | **Bat** | Early (spell system) | Fast travel across town and the south map | The form you'll drain the most mana with |
-| **Hellkitten** | Early-mid | Small-access exploration, dig-spot hunting | Cheap per shift, ideal for long searches |
-| **Later forms** | Story progression | Utility and personality | Varies — check each unlock's description |
+| **Hellkitten** | Early-mid (cat transformation quest) | Ground speed, cheap digging, animal care | Cheap per shift, ideal for long work sessions |
+| **Mermaid** | Mid-game | Swimming to water-gated areas | Moderate — budget the return trip |
+| **Later forms** | Story progression | Utility and personality (reported) | Varies — check each unlock's description |
 
-**Pro tip:** think of forms as a three-layer toolkit — bat for distance, hellkitten for detail, later forms for specific gimmicks. Most nights only need the first two.
+**Pro tip:** think of forms as a three-layer toolkit — bat for distance, hellkitten for work and animal care, mermaid for water access, later forms for specific gimmicks. Most nights only need the first two.
 
 ## Shapeshifting and the Night Schedule
 
@@ -104,7 +112,7 @@ The night clock shapes how you use your forms:
 Bat form arrives early through the **spell system** — it's the first major form most players get. Later forms follow story progression.
 
 **What is the hellkitten for?**
-**Small access** — reaching hidden nooks and ground-level dig spots that other forms can't reach. It's the exploration form.
+**Speed and farmwork** — faster running, cheaper-energy digging, and the ability to talk to animals and understand their needs. It's the workhorse ground form.
 
 **Does shapeshifting cost stamina?**
 No — it costs **mana**. Keep Mana-restoring items (Mana Coffee, Mana Chocolate) on hand to sustain long flight nights.

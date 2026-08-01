@@ -12,7 +12,7 @@ related: ["best-builds-guide", "beginner-guide", "combat-guide"]
 
 > Early Access Build (Act One) / Updated: August 1, 2026
 
-At character creation you build **Captain Flynn** — the surname is fixed, but your **first name, appearance, and class** are yours. Official materials confirm **four classes** are available, and that your choice "will decide your approach to combat." The full class names, ability trees, and stat lines will be revealed with the Early Access launch on **August 7, 2026** — this guide lays out everything officially confirmed plus how class selection works across the Expeditions series, so you can plan your first character now.
+At character creation you build **Captain Flynn** — the surname is fixed, but your **first name, appearance, and class** are yours. Official materials confirm **four classes** are available, and that your choice decides your approach to combat. The full class names, ability trees, and stat lines will be revealed with the Early Access launch on **August 7, 2026** — this guide lays out everything officially confirmed plus how class selection works across the Expeditions series, so you can plan your first character now.
 
 ## What We Know About the Four Classes
 

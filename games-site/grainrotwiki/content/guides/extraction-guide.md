@@ -1,135 +1,88 @@
 ---
 title: 'Extraction Guide — How to Extract Successfully in Grain Rot'
-description: 'Master the extraction loop in Grain Rot. Learn when to push deeper, when to bail, how to protect your loot, elevator timer management, and extraction strategies for maximum profit.'
+description: 'Master the extraction loop in Grain Rot: when to push deeper, when to bail, protecting the haul, elevator strategy, and the confirmed rules of successful extraction.'
+category: 'Guides'
+version: 'Pre-release'
+updated: '2026-08-01'
 keywords: ['grain rot extraction', 'grain rot how to extract', 'grain rot extraction guide', 'grain rot elevator', 'grain rot survive']
-updated: '2026-07-24'
+related: ['beginner-guide', 'co-op-guide', 'endgame-survival', 'game-mechanics-systems-guide', 'demo-guide']
 ---
 
-# Extraction Guide — How to Extract Successfully
+# Extraction Guide — How to Extract Successfully in Grain Rot
 
-Extraction is the make-or-break moment in every Grain Rot run. You can spend 20 minutes looting the most valuable treasures in the ruins, but if you don't make it back to the elevator, you lose everything. This guide teaches you how to extract consistently and profitably.
+Extraction is the make-or-break moment of every Grain Rot run. You can spend twenty minutes stuffing your vessel with the finest loot in the ruins — but if the team breaks before reaching the elevator, all of it is lost. This guide covers the confirmed extraction rules and the strategy that follows.
 
-## The Extraction Loop
+## The Confirmed Extraction Rules
 
-```
-Descend → Explore → Loot → Decide: Go Deeper or Extract?
-```
+From the official Steam page:
 
-Every run is a series of decisions. Each floor deeper has better loot — and worse danger. The core skill in Grain Rot is knowing **when to stop**.
+- **The elevator is the way in and the way out.** You "ride a cursed elevator into shifting underground ruins."
+- **Extraction is the win condition.** Official copy: "Make it back alive, then rebuild the Outpost to better your chances for the next run."
+- **Loot is lost only when everyone breaks.** "If everyone breaks, your loot is lost" — the inverse is the game's most important rule: **if even one player extracts, the run was a success** (at least for the extraction).
+- **The deeper you go, the more you risk and the more you stand to gain.** "Go deeper. Extract more."
 
-## Understanding the Elevator
+**What's TBD:** the specific elevator mechanics — call timers, extraction holds, countdowns, and "fuel" — are not officially documented. Older guides described a 60-second hold with converging enemies; that's plausible but unverified. What is verified is the rule above: extraction is only complete when you're out.
 
-### Elevator Basics
-- The elevator is your entry and exit point
-- It remains on the floor where you left it
-- You must return to it to extract
-- The elevator has a **call timer** — activate it and survive until it arrives
+## When to Extract: The Decision Framework
 
-### Elevator Timer
-When you activate the elevator:
-- A **60-second countdown** begins
-- Enemies in the area become **aggressive** — they know you're leaving
-- All players must be in the extraction zone when the timer hits zero
-- If anyone is outside, **nobody extracts**
+### The Golden Rule
 
-### Extraction Zone
-The area around the elevator becomes an extraction zone when the timer is active. Stay inside the glowing boundary. Enemies can enter this zone — you must hold it.
+**Extract with something rather than die with everything.** Every run is a series of small decisions, and the tiebreaker is always the same: unextracted loot is not loot.
 
-## When to Extract
+### Bail Triggers (Framework, Not Verified Numbers)
 
-### Green Light (Safe to Extract)
-- All players are at 50%+ vessel durability
-- Corruption is below 50% on all players
-- Bags are full or nearly full
-- You've found at least one high-value item
-- The team is low on Healing Salves
+- **Your vessel is heavily damaged.** A body that "splinters" is one bad room away from breaking.
+- **Corruption is high.** "The deeper you go, the worse the Rot becomes" — a warped vessel is a liability.
+- **The team is down a body or two.** Fewer vessels = fewer options.
+- **The route back is getting dangerous.** Extraction distance is risk; every floor you've descended has to be climbed back.
+- **You already have something worth keeping.** The marginal value of one more room rarely beats the certainty of what's in your bag.
 
-### Yellow Light (Consider Extracting)
-- One player is below 30% durability
-- Corruption above 75% on any player
-- 2+ Warped Screamers have been spotted
-- You've used all Barricade Kits
-- You just got a rare construct — extract to bank it
+### Pushing Deeper: When It's Worth It
 
-### Red Light (EXTRACT NOW)
-- Two or more players are at critical durability
-- A Flesh-Grafted Abomination is in the area
-- Corruption above 90% on multiple players
-- You have less than 3 minutes of elevator fuel remaining
-- Someone just used the last Rot Purge Flask
+- **When you're fresh** — full durability, low corruption, and the elevator route is known.
+- **When the team is in agreement.** One player wanting to leave while another wants to push is how wipes happen. Decide as a crew.
+- **When the reward is real.** Deep layers pay better (confirmed principle); push when the specific target justifies the depth.
 
-## Deep Run Strategy
+## The Elevator Mindset
 
-### Layer 1-2 (Shallows)
-- **Risk**: Low
-- **Loot Quality**: Common materials, basic constructs
-- **Strategy**: Full clear. Smash everything. Build up basic resources.
-- **When to advance**: All players at 80%+ durability, bags not full
+### Know the Way Back
 
-### Layer 3-4 (Warrens)
-- **Risk**: Medium
-- **Loot Quality**: Uncommon constructs, better gold drops, rare materials
-- **Strategy**: Targeted looting. Skip low-value rooms. Watch for Rot Weepers.
-- **When to advance**: All players at 60%+ durability, at least 2 Rot Purge Flasks in team
+From the moment you exit the elevator, your first task is understanding the return path. The ruins are procedurally shifting — note landmarks, door patterns, and the floor's structure as you go. Players who can't find the elevator die with full bags.
 
-### Layer 5-6 (Depths)
-- **Risk**: High
-- **Loot Quality**: Rare constructs, maximum gold, unique cosmetics
-- **Strategy**: Speed is everything. Hit high-value targets only. Stay together.
-- **When to extract**: After finding 1-2 rare items, extract immediately
+### The Route Is a Resource
 
-### Layer 7+
-- **Risk**: Extreme
-- **Loot Quality**: Legendary constructs, exclusive vessels, boss drops
-- **Strategy**: Boss-run specific. Only attempt with optimized team and full consumables.
-- **When to extract**: Immediately after the boss kill or if anyone drops below 50% durability
+- **Don't over-explore the wrong direction.** Each branch explored is distance you'll have to re-cover.
+- **Mark your mental map as you go.** The way down is the way up; if you're not sure you can find the way back, you're too deep.
 
-## The 60-Second Hold
+### Extraction Is a Team Event
 
-When you activate the elevator, follow this protocol:
+In co-op:
 
-**0-15 seconds**: 
-- Vanguard deploys all remaining Barricade Kits at choke points
-- Hauler distributes any remaining Healing Salves
-- Scout checks for approaching enemies
+- **Designate the Keeper.** One player (ideally the most durable) carries the highest-value loot. Their job is extraction, not heroics.
+- **One survivor is a win.** If the team is doomed, everyone covers the Keeper while they run. Their Spark extracts; the haul banks.
+- **Never extract-and-abandon by accident.** Decide together when the run is over. A team that splits on the call loses the shared haul.
 
-**15-45 seconds**:
-- Defend the zone
-- Vanguard holds the main approach
-- Striker eliminates priority targets (Screamers first)
-- Scout watches for flanking enemies
+## Common Extraction Mistakes
 
-**45-60 seconds**:
-- Everyone converges on the elevator center
-- Do NOT chase enemies — let them come to you
-- Hauler does a final inventory check
-- At 5 seconds, stop attacking and position for extraction
+1. **"Just one more room."** The most dangerous sentence in extraction gaming. The last room is always where the Corrupted live.
+2. **Losing the route.** Not knowing the way back to the elevator turns a 30-second sprint into a maze.
+3. **Everyone carrying the same value.** Split the haul so a single broken vessel doesn't cost the run.
+4. **Fighting on the way out.** The exit is a race, not a cleanup. Kill only what blocks you.
+5. **Ignoring the corruption clock.** The longer the run, the worse your bodies get — extraction is also a race against the Rot.
 
-## Extraction Tips
+## Extraction Training (Pre-Launch)
 
-### Pre-Extraction Checklist
-- [ ] All players know the route back to the elevator
-- [ ] At least one Barricade Kit remaining for the hold
-- [ ] Corruption manageable on all players
-- [ ] High-value items identified (don't accidentally Grind them)
-- [ ] Elevator fuel sufficient for the trip back
+The demo is live and includes the full loop — descend, scavenge, extract, rebuild. Practice:
 
-### Common Extraction Mistakes
+- **Extraction under pressure**: full bag, damaged vessel, enemies closing.
+- **Route memory**: can you retrace your path without a map?
+- **Team extraction**: the Keeper-and-cover rhythm with friends.
 
-1. **"Just one more room"** — the most dangerous four words in Grain Rot. Greed kills.
-2. **Activating the elevator too early** — make sure all players are nearby first
-3. **Chasing enemies during the hold** — you don't need to kill everything, just survive 60 seconds
-4. **Forgetting the route back** — always note landmarks on the way down
-5. **Not sharing Rot Purge Flasks** — a fully corrupted teammate is a team wipe risk
-6. **Splitting up during extraction** — all extract or none extract
+What you learn in the demo transfers to the full game on August 7 — even though your demo unlocks will (almost certainly) not.
 
-### Advanced: Fake Extraction
+## Related Guides
 
-A high-risk, high-reward tactic for experienced teams:
-1. Clear the area around the elevator
-2. Send the Hauler to activate the elevator while the team hides
-3. The elevator timer draws all nearby enemies to the extraction zone
-4. The team ambushes the converging enemies for maximum kills
-5. Extract with the timer's last seconds
-
-This is extremely dangerous — only attempt with full consumables and an Ironbark Guardian.
+- [Beginner Guide](/guides/beginner-guide) — the full first-run walkthrough
+- [Co-op Guide](/guides/co-op-guide) — team extraction strategy
+- [Endgame Survival Guide](/guides/endgame-survival) — deep-run risk math
+- [Game Mechanics & Systems Guide](/guides/game-mechanics-systems-guide) — how extraction fits the systems

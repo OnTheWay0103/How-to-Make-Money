@@ -1,96 +1,70 @@
 ---
 title: 'Beginner Guide — Getting Started in Vahrin\'s Call'
-description: 'A complete beginner guide for Vahrin\'s Call covering the classless progression system, attributes, early game priorities, combat tips, and the first 5 hours of gameplay.'
+description: 'A complete beginner guide for Vahrin\'s Call covering the classless progression system, first-hour priorities, combat expectations, and what is — and is not — confirmed about the game at launch.'
+category: 'Guides'
+version: '1.0'
+updated: '2026-08-01'
 keywords: ['vahrins call beginner guide', 'vahrins call getting started', 'vahrins call tips', 'vahrins call starter guide', 'vahrins call first hours']
-updated: '2026-07-27'
+related: ['combat-guide', 'attributes-stats-guide', 'quest-walkthrough', 'multiplayer-coop-guide']
 ---
 
 # Beginner Guide — Getting Started in Vahrin's Call
 
-Welcome to **Vahrin's Call**, the classless action-RPG from Titan Roc. This guide covers everything you need to know for your first 5 hours — from character creation to your first major encounters.
+Welcome to **Forsaken Realms: Vahrin's Call**, the classless action-RPG from Titan Roc. You are a lone mercenary arriving in the war-torn city of Vahrin, seeking to liberate it from the insect-like **khraiax** — and claim your fair share of gold and riches along the way. The game launched on **July 27, 2026** on Steam (PC) as a full, premium release — it is not an Early Access title — priced at $34.99 / £27.99 / €29.99, with Xbox and PlayStation versions planned for later.
+
+This guide covers what we know for certain from official sources and launch-era reviews. Where details have not been confirmed, we say so plainly instead of guessing.
 
 ## What Makes Vahrin's Call Different
 
-Vahrin's Call has **no preset classes**. There's no "warrior," "mage," or "rogue" — your character becomes what you play. Swing a greatsword and you get better with greatswords. Cast fire magic and your fire proficiency grows. This "practice makes perfect" system is the game's defining feature.
+Vahrin's Call uses an **entirely classless character progression system**. There are no preset classes like "warrior" or "mage" — instead, you freely combine melee weapons, bows, magic, alchemy, and traps into your own playstyle, and you can "adapt, alter or completely switch playstyles" at any point (per the official FAQ). The developers cite The Elder Scrolls' classless skill system as an inspiration.
+
+Two confirmed progression mechanics define the system:
+
+- **Skills improve through use.** Using a weapon or school of magic gradually improves your skill with it — the "practice makes perfect" model made famous by Skyrim and Morrowind.
+- **Skill Books are scattered through the world.** Official developer updates confirm that books found in the world are needed for full upgrades of your abilities. Leveling alone is not enough.
+
+Titan Roc also confirmed a **"Spell Mastery" system** for upgrading spells through use (announced in 2024 development updates), so the same use-based logic applies to magic.
+
+## What to Expect in Your First Hours
+
+Launch reviews paint a consistent picture of the opening hours:
+
+- **The tutorial is minimal.** Quest tracking is designed like Morrowind — a minimal HUD with no automatic trackers — though quest markers can be enabled if you prefer them.
+- **Combat takes getting used to.** Multiple reviewers describe combat as "muddy" or "sluggish" — enemies don't always stagger or visibly react to hits, and movement animations have weight. This is a deliberate style choice (the devs cite Fable, The Elder Scrolls, Gothic, and Kingdoms of Amalur as inspirations) but it is the most common criticism in Steam reviews.
+- **Boss fights reward pattern recognition.** Dodge khraiax swarms, learn the wind-ups, and time your attacks between enemy combos.
+- **Exploration is the game's strongest feature.** Reviewers consistently praise the hand-crafted, semi-open world: dense forests, lived-in towns, dungeons, environmental puzzles, and hidden treasures. Loot everything and poke into every corner.
 
 ## Character Creation
 
-At the start, you create a mercenary arriving in Vahrin. The creation screen offers cosmetic options only — **no starting class selection**. Everyone begins with equal baseline stats and a basic weapon set. Your first few hours determine your direction.
+Character creation offers a **large array of character creation options** (confirmed by the developers). The protagonist is a blank-slate, mostly silent mercenary — the rest of the game is fully voiced by real voice actors.
 
-## The Five Core Attributes
+## The Core Loop
 
-| Attribute | What It Does | Priority For |
-|-----------|-------------|--------------|
-| **Strength** | Heavy weapon damage, blocking power, equipment load | Greatsword, hammer, shield builds |
-| **Agility** | Attack speed, movement, dodge efficiency, ranged damage | Bow, dual wield, trap builds |
-| **Intelligence** | Spell power, mana pool, elemental damage | Pure mage, spellsword builds |
-| **Constitution** | Health, survivability, stagger resistance | ALL builds — invest early |
-| **Focus (Utility)** | Trap efficiency, alchemy potency, critical bonuses | Hybrid and support builds |
+The confirmed core loop is:
 
-**Golden Rule**: Invest in Constitution early. Enemy scaling assumes you have enough HP to survive 2-3 hits. A glass cannon with 0 Constitution investment will get one-shot by mid-game enemies.
+**Explore semi-open zones → complete quests (main and side) → fight khraiax, bandits, and beasts → collect loot, gold, and Skill Books → improve skills through use → return to town, craft potions and traps → push deeper into the city and the danger beneath it.**
 
-## Your First Hour — What to Do
+The main questline follows a "receive assignment → kill the baddie" structure across chapters (the most common criticism of the story pacing). Side quests, by contrast, are surprisingly fleshed out — one early side quest chain reportedly hides a "whole huge area" behind it.
 
-### 1. Complete the Tutorial
-The opening sequence teaches basic movement, combat, and interaction. Pay attention to the combat tutorials — parrying and dodging are **not optional** in this game.
+## Practical First-Hour Tips
 
-### 2. Try Every Weapon Type
-Before committing to a build, spend 30 minutes experimenting:
-- **Greatsword**: Slow, massive damage, high stagger
-- **Sword & Shield**: Balanced, blocking reduces damage significantly
-- **Dual Wield**: Fast attacks, lower per-hit damage, high DPS
-- **Hammer**: Highest stagger, slowest swing speed
-- **Bow**: Ranged, safe, benefits from Agility
-- **Magic (Fire/Ice/Earth)**: Ranged elemental damage, mana-dependent
+1. **Experiment with everything.** The classless system and the ability to switch playstyles at any point mean there is no wrong start. Try melee, bows, and magic in the first hour.
+2. **Expect a slower pace.** Combat is deliberate and stamina-gated — magic use in particular is limited by a stamina system, so manage your resources.
+3. **Enable quest markers if the minimal HUD frustrates you.** Quest markers are optional; the default Morrowind-style tracking has no trackers.
+4. **Sneak attacks exist but are finicky.** You can sneak up on human enemies for a significant backstab, but reviewers note there is no prompt for sneak attacks and you must manually equip your melee weapon. Don't rely on stealth.
+5. **Save and explore freely.** The map is non-linear and you will backtrack a lot — dense with lore and hidden treasures.
+6. **Watch your performance settings.** Several players report performance drops when loading the overworld; the developers have publicly committed to optimization patches.
 
-### 3. Visit the First Mentor NPC
-In the first settlement, find the Mentor NPC (marked on your map). They offer **free respecs** — you can reset all attribute and perk points anytime. This means experimentation has zero long-term cost.
+## Post-Launch Reality Check
 
-### 4. Loot Everything
-Vahrin's Call rewards exploration. Every crate, barrel, and corpse may contain:
-- Crafting materials
-- Alchemy ingredients
-- Gold
-- Skill Books (the most valuable find)
-
-## The Two Progression Systems
-
-### Character Points
-Earned from leveling up, quests, exploration, and bosses. Spent on base attributes (Strength, Agility, etc.).
-
-### Perk Points
-Earned by **using** specific weapons and skills repeatedly. Unlock passive bonuses and active abilities. Using a weapon type consistently accelerates perk progression — constantly switching weapons slows you down.
-
-## Essential Early Game Tips
-
-1. **Don't try to master everything.** The #1 beginner mistake is spreading points across all attributes. Specialize in 1-2 weapon types and their primary attribute.
-
-2. **Explore relentlessly.** Skill Books are hidden throughout the world and unlock new abilities. Leveling alone isn't enough — many powerful abilities require finding their Skill Book first.
-
-3. **Craft potions early.** Alchemy provides healing, mana restoration, and buffs. Even 2-3 points in Focus makes a noticeable difference.
-
-4. **Check merchant inventories.** They rotate stock and occasionally sell rare crafting materials you'd otherwise farm for hours.
-
-5. **Use traps.** Trap Making is not a side activity — it's battlefield control. A well-placed trap before combat can trivialize difficult encounters.
-
-6. **Save often.** The game doesn't auto-save before every encounter. Manual save before entering new areas.
-
-7. **Read enemy tells.** Every enemy attack has a visual wind-up. Learn to recognize them for parry and dodge timing.
-
-## Your First Build Direction
-
-After experimenting, choose one of these directions:
-
-- **Heavy Warrior (Strength + Constitution)**: Greatsword or Hammer. Simple, forgiving, high survivability. Best for beginners.
-- **Ranger/Trapper (Agility + Focus + Constitution)**: Bow + Traps. Safe ranged playstyle with battlefield control.
-- **Pure Mage (Intelligence + Constitution)**: Fire/Ice/Earth magic. High damage, mana management required.
-- **Spellsword (Strength + Intelligence + Constitution)**: Enchanted melee + offensive magic. Versatile but stat-hungry.
+- Steam reviews are **"Mixed"** (around 300 reviews at launch). Praise centers on exploration, world design, and build flexibility; criticism targets performance, the UI, and stiff combat.
+- Director **Craig** (Titan Roc) has publicly acknowledged the mixed reception and announced priorities: **performance optimization, widescreen support, customizable shortcut-wheel keybindings for mouse/keyboard, and improved localization**. Free DLC work will follow once fixes ship.
+- Average playtime reported by aggregators is around **22 hours**, with about 20% of players exceeding 35 hours through side content.
 
 ## What's Next
 
-Once you've settled on a direction:
-- Read our [Best Builds Guide](/guides/best-builds-guide) for optimized builds
-- Check the [Attributes & Stats Guide](/guides/attributes-stats-guide) for detailed stat breakpoints
-- See [Weapons Guide](/guides/weapons-guide) for weapon-specific strategies
+- Read our [Combat Guide](/guides/combat-guide) for how the real combat systems work.
+- See the [Attributes & Stats Guide](/guides/attributes-stats-guide) for what we know about character stats.
+- Check [Multiplayer & Co-op Status](/guides/multiplayer-coop-guide) if you came looking for co-op — the short version is that co-op was cut and the game is single-player only.
 
-Welcome to Vahrin, mercenary. The city needs you.
+Welcome to Vahrin, mercenary. The city — and whatever lurks beneath it — awaits.

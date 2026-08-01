@@ -1,257 +1,120 @@
 ---
-title: "Boss Tactics — Every Boss Encounter, Attack Patterns, and Phase Strategies"
-description: "Complete boss tactics guide for Shift at Midnight. Every boss encounter detailed with attack patterns, environmental interactions, recommended weapons, phase strategies, health values, and weaknesses."
+title: "Shift At Midnight Major Encounters: Set-Piece Threats & How to Handle Them"
+description: "Every major set-piece encounter in Shift At Midnight and how to handle it — the end-of-shift entity attack, the 60-second lock-up alert, generator sabotage, blood rain, the Dentist, self-doppelgangers, and the finale."
 category: "Guides"
 version: "1.0"
-updated: "2026-07-29"
-keywords: ["shift at midnight boss tactics", "shift at midnight boss guide", "shift at midnight the dentist", "shift at midnight demon boss", "shift at midnight enemy weaknesses"]
+updated: '2026-08-01'
+keywords: ["shift at midnight major encounters", "shift at midnight entity attack", "shift at midnight 60 second alert", "shift at midnight blood rain", "shift at midnight finale", "shift at midnight self doppelgangers"]
 related: ["enemy-bestiary", "weapons-guide", "survival-strategies", "entity-survival-guide"]
 ---
 
-## Boss Tactics — Every Boss Encounter, Attack Patterns, and Phase Strategies
+## Major Encounters — Set-Piece Threats & How to Handle Them
 
-While Shift at Midnight is primarily a survival horror game about identifying doppelgangers and managing store operations, it features several boss-tier encounters that require dedicated strategies. These encounters escalate throughout the 13-night campaign, culminating in the final confrontation with The Dentist. This guide covers every major boss encounter with detailed tactics.
+A note before anything else: **Shift At Midnight has no traditional boss fights.** The game's big moments are set-piece encounters — scripted events and escalation phases that test your preparation, your screening, and your survival loop rather than your DPS. If you see a guide describing bosses with health bars, attack patterns, and phase transitions, it's inventing mechanics the community has not confirmed.
 
----
+This guide covers every major encounter the community *has* confirmed and the tactics that work against each one.
 
-## Boss Overview Table
+## Encounter Overview Table
 
-| Boss | Night | Health | Weakness | Key Mechanic | Recommended Weapons |
-|------|-------|--------|----------|-------------|-------------------|
-| The Gnome (Escalated) | 3+ | 200 | Destroy within 30s | Escalation timer | Bat, Sledgehammer |
-| Phantom Stalker | 4+ | 50 | Bear traps | Invisibility | Sledgehammer (trapped) |
-| Doppelganger Swarm | 6-8 | 60 each | AoE damage | Spawn waves | SMG, Shotgun |
-| The Demon | 5+ | 300 | Banishment ritual | Object possession | Special box (required) |
-| The Entity | 7+ | 750 | Bright light, traps | Roaming predator | Avoidance (not combat) |
-| The Dentist (Phase 1) | 13 | 1000 | Shotgun, flamethrower | Slow approach | Shotgun, Flamethrower |
-| The Dentist (Phase 2) | 13 | Enraged | Fire, coordinated fire | Speed increase | Flamethrower, SMG |
-| The Marionette | 8+ | 180 | Puppet string (weak point) | Object control | Pistol (precise aim) |
-| Shrieking Doll Cluster | 5+ | 40 each | Silent kill | Entity attraction | Melee only |
+| Encounter | When | Core Skill Tested | Recommended Approach |
+|-----------|------|-------------------|----------------------|
+| End-of-shift entity attack | Every shift, after the last customer | Preparation | Barricade, trap, hide, stay quiet |
+| 60-second lock-up alert | When a fake completes a purchase | Speed | Kill-before-payment prevents it; otherwise trap and fight |
+| Generator sabotage | Shift 2 | Situation awareness | Check the generator armed; shoot the doppelganger back inside |
+| Blood rain | Shift 5 and later | Arsenal fallback | Expect the Arsenal to be unreliable; the pistol must suffice |
+| The Dentist arrival | From Shift 7 | Prepared gear | Upgraded weapons drive him and the entity off |
+| Thieves skipping payment | Shift 7 | Decisiveness | Shooting beats chasing |
+| Self-doppelgangers | Shift 12 | Screening under pressure | Treat them like any fake; don't freeze on your own face |
+| The swarm + finale | Shift 13 | Everything at once | Survive, follow the cutscene triggers |
 
----
+## 1. The End-of-Shift Entity Attack (Every Night)
 
-## Boss Encounters in Detail
+The confirmed finale of every shift: after the last customer, the entity attacks.
 
-### The Gnome (Escalated)
+**The routine**:
+1. Kill fakes before payment all shift — every fake that pays adds a 60-second alert on top of this fight
+2. **Barricade the three doors** with planks
+3. **Lay traps** in the entity's path (bought from the store computer beforehand)
+4. **Stay quiet** — the entity tracks audio; push-to-talk discipline wins
+5. Fight or hide: with a stocked Arsenal you can gun the entity and everything it spawns down (the confirmed speedrun tactic); early on, hide — vents are temporary, so keep moving
 
-The Gnome appears as an innocent garden gnome in random locations around the store. It is harmless for 30 seconds, then escalates through four stages.
+## 2. The 60-Second Lock-Up Alert
 
-**Health**: 200 (after escalation)
-**Weakness**: Destroying before escalation (instant kill at stage 1)
+Triggered when a doppelganger completes its purchase. The creature returns in monster form and the store locks down.
 
-**Escalation stages**:
-| Stage | Time | Behavior | Threat Level |
-|-------|------|----------|-------------|
-| 1 (Dormant) | 0-30s | Stationary, harmless | None |
-| 2 (Active) | 30-60s | Slow movement toward players | Low |
-| 3 (Aggressive) | 60-90s | Attacks with moderate damage | Medium |
-| 4 (Swarm Caller) | 90s+ | Calls additional enemies | High |
+**The routine**:
+1. Use the alert window to **lay traps** (walkthroughs suggest the garage and near the desk)
+2. Get into position
+3. Finish the entity and its spawns with the gun
 
-**Strategy**: Always destroy the Gnome immediately upon spotting it. A baseball bat kills it in 3 hits at stage 1. If it reaches stage 4, use a shotgun for quick elimination and retreat to a safe zone until the called enemies are dealt with.
+**Prevention beats cure**: shooting a confirmed fake *before* payment skips the alert entirely. Teams that screen well rarely see this encounter.
 
-**Rewards**: Gnome Key (unlocks storage room with bonus supplies)
+## 3. Generator Sabotage (Shift 2)
 
-### Phantom Stalker
+The campaign's first scripted threat: the generator is sabotaged.
 
-The Phantom is an invisible stalker that attaches to a single player and attacks from behind. It is triggered by spending too much time in dark areas.
+**The routine**: check the generator **armed**, then **shoot the doppelganger waiting back inside**. The event is a two-beat trap — the sabotage is the distraction, the doppelganger is the real threat.
 
-**Health**: 50
-**Weakness**: Bear traps (only way to reveal it)
+## 4. Blood Rain Nights (Shift 5 and Later)
 
-**Attack patterns**:
-- **Stalking phase**: Follows the target player invisibly. Audible breathing and footsteps.
-- **Attack phase**: Becomes briefly visible, lunges for 40 damage.
-- **Retreat phase**: After successful attack, fades and resets stalking.
+Blood rain is a scripted weather event (first at Shift 5, recurring later — community walkthroughs cite it again around Shift 10).
 
-**Strategy**:
-1. When you hear phantom breathing, move to a narrow hallway or doorway
-2. Place a bear trap in the path
-3. Wait near the trap — the Phantom will path through it
-4. Once trapped (10 seconds of visibility), hit with sledgehammer (1 hit kill)
-5. Collect Phantom Ash (crafting material)
+**The critical rule**: the **Emergency Weapons Arsenal is unreliable during blood rain**. Weapons bought from the store computer can't be counted on mid-fight, so:
 
-**Environmental interaction**: The Phantom cannot cross motion alarm beams. Place alarms in a grid pattern to create safe zones.
+- Plan the shift around the **pistol** (picked up on Shift 1, always reliable)
+- Buy and place traps *before* the shift
+- Don't build your survival plan around Arsenal weapons on rain nights
 
-**Rewards**: Phantom Ash (used for special ammo crafting)
+## 5. The Dentist Arrival (Shift 7)
 
-### Doppelganger Swarm
+The Dentist — the tall, jawless serial killer separate from the doppelganger system — becomes a factor from around Shift 7. Community walkthroughs describe the Shift 7 encounter: he arrives, and **upgraded weapons drive him and the entity off**.
 
-A special event that triggers on Nights 6-8. Multiple doppelgangers drop their disguises simultaneously and attack.
+**The rules**:
+- Stock **upgraded weapons before Shift 7** — this is the confirmed reason for the mid-campaign Arsenal upgrade
+- If an after-hours encounter catches you unprepared, the escape routine applies: one glance, run, don't look back, stay quiet
+- He cannot be killed — there is no confirmed kill method (see the [Dentist Guide](/guides/dentist-guide))
 
-**Health**: 60 per doppelganger
-**Weakness**: Area-of-effect damage, SMG
+## 6. Thieves Skipping Payment (Shift 7)
 
-**Spawn pattern**:
-| Wave | Number of Doppelgangers | Spawn Location | Interval |
-|------|------------------------|----------------|----------|
-| 1 | 3 | Front entrance | 0:00 |
-| 2 | 4 | Stockroom | 0:30 |
-| 3 | 5 | Both sides | 1:00 |
-| 4 | 6 | All entrances | 1:30 |
+A human threat on Shift 7: thieves try to skip payment.
 
-**Strategy**:
-1. Immediately retreat to the back office (only one entrance to defend)
-2. Place bear traps at the office door before the swarm starts
-3. Use SMG for sustained fire — the swarm is a battle of attrition
-4. Save shotgun for when they breach the office
-5. Melee the stragglers to conserve ammo
+**The routine**: **shooting beats chasing.** Don't chase them through the store — put them down and return to the register.
 
-**Environmental interaction**: Flipping the store lights off and on briefly stuns all doppelgangers in the area (3-second stun).
+## 7. Self-Doppelgangers (Shift 12)
 
-**Rewards**: $5-25 per doppelganger kill, cumulative
+Near the end of Shift 12, doppelgangers of *you* attack.
 
-### The Demon
+**The routine**: treat them exactly like any other fake — the same tells, the same kill-before-payment rule. The psychological trick is the point of the encounter; the mechanical answer doesn't change. Screen normally all shift, and don't hesitate when your own face is the one being flagged.
 
-The Demon is a possession-based entity encountered from Night 5 onward. It possesses objects and chases players.
+## 8. The Swarm and the Finale (Shift 13)
 
-**Health**: 300 (not damageable by normal weapons)
-**Weakness**: Banishment ritual (special box required)
-**Required item**: Ritual Box (spawns in back office during Demon event)
+The final shift throws a **swarm of all doppelganger types** at you, ending in cutscenes.
 
-**Attack patterns**:
-- **Object possession**: Possesses shelves, registers, tools — throws them at players
-- **Chase phase**: Abandons objects, chases target player directly
-- **Environmental manipulation**: Turns lights off, locks doors
+**The routine**:
+1. Survive the swarm — screening, traps, and barricades all matter at once
+2. Shoot until the **Dentist cutscene** triggers
+3. **Run in the opposite direction** until the second cutscene catches you
+4. A stranger kills the Dentist — and then himself — in the finale cutscene
 
-**Banishment ritual steps**:
-1. Acquire the Ritual Box from the back office (spawns on a desk)
-2. Place the Ritual Box in the center of the main store area
-3. Lure the Demon near the box (stay within 10 meters of the box)
-4. Activate the box — 5-second channel, your character cannot move
-5. The Demon is banished and drops a Demon Core
+There is no health bar to drain. The finale rewards players who entered Shift 13 with their store intact and their personal cash where it needs to be for the ending check.
 
-**Critical notes**:
-- Teammates must protect the channeling player during the 5-second ritual
-- If the channel is interrupted, the Demon enrages (+50% speed for 30 seconds)
-- The Ritual Box can be used only once per Demon encounter
+## Preparation Checklist (Before Any Big Night)
 
-**Rewards**: Demon Core (sell for $50)
+- [ ] Arsenal stocked and checked (remember: unreliable during blood rain)
+- [ ] Planks for the three-door barricade
+- [ ] Traps bought from the store computer and scattered in advance
+- [ ] Gun in hand (Shift 1 pickup, carried forever)
+- [ ] Noticeboard read — it lists the shift's objectives and can disprove customer stories
+- [ ] Personal cash tracked separately from store funds (True Ending discipline)
+- [ ] Mic on push-to-talk (entity and Dentist both track audio)
 
-### The Entity
+## The Pattern Behind All Encounters
 
-The Entity is a giant spider-like creature that roams the gas station. It cannot be killed, only avoided or temporarily repelled.
-
-**Health**: 750 (effectively unkillable — not recommended to fight)
-**Weakness**: Bright light, bear traps (temporary repel)
-
-**Entity behavior**:
-| State | Behavior | Duration |
-|-------|----------|----------|
-| Patrolling | Slow walk through store | Variable |
-| Alerted | Moves toward sound source | Until source investigated |
-| Chasing | Fast pursuit of spotted player | Until line of sight broken |
-| Repelled | Retreats from bright light or trap | 15-30 seconds |
-
-**Survival strategy**:
-1. **Prevention**: Keep lights on, minimize noise, maintain above 40% sanity
-2. **Detection**: Motion alarms provide early warning of Entity patrol routes
-3. **Hiding**: Lockers and back office are safe zones (Entity cannot enter lockers)
-4. **Repelling**: Shotgun blast drives it back for 15 seconds; bear traps immobilize for 10 seconds
-5. **Escape**: If chased, break line of sight and hide in a locker
-
-**Environmental interaction**: The Entity cannot enter rooms with working lights. If a room goes dark (burnt-out bulb or Demon interference), the Entity can enter.
-
-### The Marionette
-
-A ceiling-hanging puppet that controls nearby objects to attack players. Appears from Night 8 onward.
-
-**Health**: 180
-**Weakness**: Main puppet string (ceiling weak point)
-
-**Attack patterns**:
-- **Object throw**: Launches nearby items at players (15 damage each)
-- **Shelf crash**: Drops a shelf in a targeted area (40 damage)
-- **String grab**: Attempts to pull a player toward it (30 damage + stun)
-
-**Strategy**:
-1. Look up to locate the puppet string connection point on the ceiling
-2. Shoot the string with any gun — one hit severs it
-3. The Marionette is destroyed instantly when the string is severed
-4. If you cannot find the string, clear all throwable objects from the area first
-
-**Best weapon**: Pistol (precise aim, minimal ammo waste)
-**Alternative**: SMG burst fire at the ceiling (less precise but faster)
-
-**Rewards**: Marionette String (sell for $15)
-
-### The Dentist (Final Boss)
-
-The Dentist is the main antagonist of Shift at Midnight, appearing on Night 13. This 8-foot-tall serial killer in a blood-stained dental coat is the most dangerous encounter in the game.
-
-**Health**: 1000 (Phase 1) + Enraged (Phase 2)
-**Weaknesses**: Shotgun (high burst), Flamethrower (slows movement)
-
-**Phase 1: The Approach (100%-50% HP)**
-
-The Dentist breaks through the front doors at approximately 3:00 AM in-game time.
-
-**Attack patterns**:
-| Attack | Damage | Tell | Counter |
-|--------|--------|------|---------|
-| Overhead Smash | 80% HP | Raises arm overhead | Dodge sideways |
-| Wide Sweep | 60% HP | Spins body | Duck under or dodge backward |
-| Charge | 50% HP + stun | Lowers shoulder | Dodge sideways (tight timing) |
-| Grab | Instant kill | Reaches with both hands | Must be interrupted by teammate |
-
-**Strategy**:
-- Use the store layout for cover — the aisles block the Charge attack
-- Shotgun at close range deals maximum damage (75 per shot, ~14 shots to phase)
-- Flamethrower slows his movement by 30%, making dodge timing easier
-- Two players should attack while one handles adds (gnomes and dolls spawn during this phase)
-
-**Phase 2: Enraged (50%-0% HP)**
-
-At 50% HP, The Dentist roars and enters Phase 2. His speed increases by 50% and he gains new attacks.
-
-**Attack patterns**:
-- **Rapid strikes**: Two-hit combo, 60% HP each
-- **Leaping slam**: Covers 15 meters, AoE damage (70% HP)
-- **Dental chair summon**: Spawns hazard zones on the floor
-
-**Strategy**:
-1. Transition to kiting — the back office is too small for Phase 2
-2. Lead him through the store, using the gas pumps as obstacles
-3. Flamethrower is critical here — the burn damage over time keeps working while you dodge
-4. If he summons a dental chair hazard, immediately move to a different aisle
-5. Save stun for the grab attack — a bear trap or electrical trap can interrupt it
-
-**Environmental interaction**: Luring The Dentist near the gas pumps and shooting them creates an explosion that deals 200 damage. However, this also damages players in range and destroys nearby supplies. Use as a last resort.
-
-**Rewards**: Story progression, completion of Night 13
-
----
-
-## Boss Encounter Preparation Checklist
-
-Before a known boss encounter, run through this checklist:
-
-- [ ] Weapon fully repaired and loaded
-- [ ] At least 2 healing items in inventory
-- [ ] Sanity above 70%
-- [ ] Bear traps placed at arena entrances
-- [ ] Motion alarms active for early warning
-- [ ] Teammate roles assigned (damage, support, add control)
-- [ ] Escape route identified
-- [ ] Backup weapon in inventory slot
-
----
-
-## Phase Transition Awareness
-
-Bosses with multiple phases share a common behavior pattern:
-
-1. **Phase transition is signaled** by a specific animation, roar, or flash
-2. **The boss is vulnerable** during the transition animation (2-3 seconds of free damage)
-3. **Phase transition resets aggro** — if the boss was chasing you, it picks a new target
-4. **Phase 2 attacks are always faster** than Phase 1
-
-The 2-3 second vulnerability during phase transition is your best damage window. Save your highest-damage weapon or ability for this moment.
-
----
+Every confirmed set-piece in Shift At Midnight tests the same loop: **read the room (noticeboard and computer), screen the customers, kill before payment, prepare the barricades, go quiet for the hunt.** There is no encounter in the confirmed set that can't be won with that loop executed well.
 
 ### Related Guides
 
-- [Enemy Bestiary](/guides/enemy-bestiary) — All monsters and how to defeat them
-- [Weapons Guide](/guides/weapons-guide) — All weapons, tools, and best loadouts
-- [Survival Strategies Guide](/guides/survival-strategies) — Core mechanics and resource management
-- [Entity Survival Guide](/guides/entity-survival-guide) — How to survive Entity encounters
+- [Enemy Bestiary](/guides/enemy-bestiary) — All confirmed monsters and how to deal with them
+- [Weapons Guide](/guides/weapons-guide) — The gun, the Arsenal, traps, and tools
+- [Survival Strategies Guide](/guides/survival-strategies) — The core loop and preparation
+- [Entity Survival Guide](/guides/entity-survival-guide) — How to survive the end-of-shift hunt

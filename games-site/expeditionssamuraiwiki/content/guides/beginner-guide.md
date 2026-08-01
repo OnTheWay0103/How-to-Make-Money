@@ -16,7 +16,7 @@ Welcome to Sengoku-era Japan, Captain. **Expeditions: Samurai** — the party-ba
 
 ## Your Starting Situation
 
-You are **Captain Flynn** — surname fixed, first name and appearance yours to choose. In an alternate history, you are an English privateer on a mission from Queen Elizabeth whose battered Dutch frigate, **De Albatros**, arrives in Japan in 1600 AD, weeks before the **Battle of Sekigahara** decides the fate of the nation. You beat the real-life navigator William Adams to Japan and become the first Protestant to set foot there — a fact with real consequences for the story.
+You are **Captain Flynn** — surname fixed, first name and appearance yours to choose. In an alternate history, you are the newly elected leader of a motley crew of privateers whose battered Dutch frigate, **De Albatros**, arrives in Japan in the year 1600 — the climax of the Sengoku civil war, in the same year the real **Battle of Sekigahara** (October 21, 1600) would decide the nation's fate. You beat the real-life navigator William Adams to Japan and take his place as the first European samurai — a fact with real consequences for the story.
 
 Your crew is small, injured, and short on supplies. What you do next is up to you: sneak, talk, or fight your way into the politics of a dying warlord era.
 
@@ -36,7 +36,7 @@ A typical session looks like this:
 
 | Stage | What you do |
 |-------|-------------|
-| **World map** | Pick your next destination from 45+ levels and 100+ events/encounters — quests can be tackled in any order |
+| **World map** | Pick your next destination — the full release promises 45+ levels and 100+ events/encounters, with quests tackleable in any order |
 | **Exploration** | Move in real time, scout with stealth, find loot and optional events |
 | **Engagement** | Resolve encounters via stealth, dialogue, or turn-based combat |
 | **Aftermath** | Tend injuries, craft gear, level up skills, manage resources |
@@ -62,7 +62,7 @@ Expeditions games are famous for punishing careless leaders. Keep an eye on:
 
 - **Injuries** — A wounded companion fights worse and can die permanently if ignored. Tend injuries early and often.
 - **Supplies** — Food, medicine, and ammunition are finite. Stealing or negotiating them beats buying them.
-- **Loadouts** — Experiment with the East-meets-West arsenal: flintlocks, cutlasses, and grenades alongside katanas, naginatas, and longbows. Craft custom gear to fit each companion's role.
+- **Loadouts** — Experiment with the East-meets-West arsenal: flintlocks, cutlasses, and grenades alongside katanas, naginatas, and longbows. Custom gear crafting is confirmed for the full release — whether the EA build includes it is TBD, so plan your early loadouts around loot and purchases.
 
 ## Beginner Mistakes to Avoid
 
@@ -70,7 +70,7 @@ Expeditions games are famous for punishing careless leaders. Keep an eye on:
 2. **Ignoring injuries.** An untreated injury compounds into a permanent debuff. Rest and heal between missions.
 3. **Putting all points into one pillar.** A party that can only fight gets out-talked and out-sneaked.
 4. **Skipping companion quests.** Every companion quest chain rewards loyalty, gear, and often unlocks better endings.
-5. **Forgetting your difficulty knobs.** Combat and resource management difficulty are customizable separately — tune them to your skill level rather than suffering.
+5. **Forgetting your difficulty knobs.** Press coverage describes combat and resource-management difficulty as separately adjustable (exact settings TBD at launch) — tune them to your skill level rather than suffering.
 
 ## What's Coming After Act One
 

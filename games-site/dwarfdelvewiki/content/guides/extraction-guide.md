@@ -1,134 +1,118 @@
 ---
 title: 'Extraction Guide: How to Escape Alive in Dwarf Delve'
-description: 'Master the extraction phase in Dwarf Delve. Learn when to push deeper versus extract, how to handle collapsing tunnels, elevator timing, protecting your loot, and survival strategies for every depth zone.'
+description: 'Master the extraction phase in Dwarf Delve. When to push deeper versus extract, how to handle the collapsing mine, the scheduled elevator, protecting your loot, and honest survival guidance for every depth.'
 keywords: ['dwarf delve extraction', 'dwarf delve how to extract', 'dwarf delve elevator', 'dwarf delve survive collapse', 'dwarf delve escape']
 category: Extraction
 version: '1.0'
-updated: '2026-07-25'
-related: ['beginner-guide', 'mining-strategies-guide', 'tips-and-tricks']
+updated: '2026-08-01'
+related: ['beginner-guide', 'mining-strategies-guide', 'tips-and-tricks', 'defense-strategy']
 ---
 
 ## Extraction: The Moment of Truth
 
-Every run in Dwarf Delve ends the same way — at the elevator. Whether you extract with a fortune or die with nothing depends on the decisions you make in the final minutes of each descent. This guide covers the extraction phase in detail and teaches you how to get out alive, consistently.
+Every run in Dwarf Delve ends the same way — at the elevator. What's confirmed about extraction is simple and brutal:
 
-## The Extraction Loop
+- You descend via elevator into a procedurally generated mine
+- **The mine collapses from the moment your run starts** (official premise)
+- **The elevator leaves on a schedule — whether you're on it or not** (official premise)
+- **Anything not extracted is lost** (official premise)
+- If you die in the mine, the run's loot is gone
 
-1. You descend via elevator into the mine
-2. The elevator stays at its arrival point — it does not follow you
-3. You must **return to the elevator** to extract
-4. Getting into the elevator triggers the extraction sequence
-5. If you die before reaching the elevator, you lose everything from that run
+That's the whole confirmed contract. The rest of extraction is skill, and this guide teaches it — honestly, without inventing numbers that don't exist in the game yet.
 
-There are no checkpoints underground. Death is permanent for that run's gathered resources.
+## The Extraction Loop (Confirmed)
+
+1. Descend via elevator
+2. Mine, explore, gather
+3. Return to the elevator
+4. Extract — anything left behind or lost on death is gone
+5. Refine ores at home, trade for coin, upgrade, descend again
+
+There are no checkpoints underground. There is no save-scumming a run. The elevator is the only door out.
 
 ## The Decision: Push vs. Extract
 
-This is the single most important decision in Dwarf Delve. Every descent, you'll face this choice multiple times. Here's a framework for making it:
+The single most important decision in Dwarf Delve, every single run. Since no official numbers exist for inventory percentage, stability, or run timing, here is the honest decision framework:
 
 ### Push Deeper When:
-- Inventory is less than 50% full
-- You have 5+ support beams remaining
-- Lantern battery above 50%
-- Tunnels are stable (no creaking, no dust)
-- You're in Upper or Middle Mines (lower risk zones)
-- You haven't found a relic yet this run
+- Your inventory has clear room
+- The tunnels are stable (no creaking, no falling dust)
+- You haven't found a relic or treasure yet this run
+- You know exactly where the elevator is and how long the return takes
+- You still have support beams and light to spare
 
 ### Extract Now When:
-- Inventory is 80%+ full with valuable items
-- You found a relic (bank the win)
-- Support beams are at 2 or fewer
-- Lantern battery below 25%
-- Tunnels are creaking frequently
-- You hear the collapse warning sound
-- You're in Deep Mines or The Abyss
+- Your inventory is meaningfully full of valuable finds
+- You found a relic — bank the win (relics are the confirmed endgame prize)
+- Tunnels are creaking or unstable
+- You're low on light or support beams
+- The return trip is longer than you'd like — the mine doesn't get safer
+- You have no plan for what's deeper
 
-### The 50% Rule
-A good rule of thumb: when your inventory hits 50% full, start thinking about extraction. At 75%, actively head toward the elevator. At 90%, you should already be on your way back.
+### The Community Rule of Thumb
+Extraction players (and this is practice, not official data) generally treat the first instability warning as the signal to start heading back. The game's own slogan supports the bias: "One wrong boot could cost you your life — or worse, your loot!"
 
-## Tunnel Collapse Mechanics
+## Tunnel Collapse Mechanics (Confirmed + Community Observation)
 
-Tunnel collapses are the leading cause of death in Dwarf Delve. Here's how they work:
+### Confirmed
+- The mine collapses progressively during the run
+- Depth = distance from safety = more collapse exposure ("the deeper you dig, the richer the haul but the farther you are from safety")
+- Support beams are the confirmed counter; craft "sturdy beams and platforms" as you go
 
-### Warning Signs (Phase 1)
-- Occasional creaking sounds
-- Small dust particles falling from the ceiling
-- Subtle screen shake
+### Community-Observed Warning Signs (Unconfirmed Details)
+Players consistently report audio and visual warnings — creaking sounds, falling dust, screen shake — escalating until sections collapse. The exact warning cadence is unconfirmed, but the response is universal:
 
-**Action**: Place support beams and consider heading back.
-
-### Imminent Collapse (Phase 2)
-- Loud cracking sounds
-- Large rocks falling
-- Screen shaking noticeably
-- Your Delveling comments on the instability
-
-**Action**: Drop everything and run toward the elevator. Place beams as you go.
-
-### Active Collapse (Phase 3)
-- Tunnel ceiling coming down
-- Rocks blocking paths behind you
-- Health ticking down if you're in the collapse zone
-- Screen heavily shaking
-
-**Action**: Sprint. Do not stop for resources. If you have Collapse Survivor perk, it triggers here.
+**On first warning:** place beams if needed, start heading back.
+**On second warning:** run. Don't stop for resources.
+**If the collapse starts:** sprint. A full inventory at the elevator beats a legendary haul in a sealed tunnel.
 
 ## Elevator Strategy
 
 ### Before You Descend
-- Note the elevator's location relative to landmarks
-- Consider building a rail line from promising areas back to the elevator
+- Check your loadout: beams, flares, lantern charge
+- Decide your depth budget for this run before the elevator doors open
 
 ### During Your Run
-- Periodically check your mental map: "Can I get back to the elevator from here?"
-- If you've gone very deep, start the return journey earlier than you think you need to
-- Mark your path with flares or floodlights for easy backtracking
+- Keep a mental map: "Can I get back to the elevator from here?"
+- Mark your path — flares are confirmed to uncover secrets and light the way; use them as breadcrumbs
+- Build rails for heavy hauls — minecarts are confirmed to "shift and store those heavy ores for you"
 
 ### At the Elevator
-- The extraction sequence takes about 8 seconds to complete
-- You are **vulnerable** during extraction — enemies can still attack you
-- Clear the elevator area of enemies before initiating extraction
-- Place a support beam near the elevator for the final wait
+- Clear the area of hazards before extracting — the extraction moment is when runs get greedy and die
+- Get on the elevator. It leaves on a schedule, with or without you
 
 ## Lost Loot Prevention
 
-The pain of losing everything is real. Here's how to minimize risk:
-
 ### The Two-Trip Strategy
-If you find an amazing haul but are worried about collapse: extract with what you have, upgrade your gear, then return to the same depth on the next run. Resources regenerate, but dead Delvelings don't.
+Found an amazing haul but worried about the state of the mine? Extract with what you have, upgrade, then return on the next run. Mines are procedural and fresh every run — the loot comes back; the dead Delveling doesn't.
 
-### Loot Triage
-When collapse is imminent and you're running for the elevator:
-1. Keep relics (irreplaceable)
-2. Keep gold and gems (high value per slot)
-3. Drop common ores (easy to find again)
-4. Drop stone (abundant, low value)
+### Loot Triage (General Extraction Logic)
+When running for the elevator:
+1. Keep relics (confirmed unique: perks + quarters decorations)
+2. Keep treasures (high value)
+3. Keep heavy ores if a cart is available — that's what rails are for
+4. Drop common ore if you must — it's everywhere
 
-### Emergency Extraction
-If you absolutely cannot reach the elevator, you have one last option: find a secondary shaft. Some deeper levels have emergency escape tunnels, but they only extract you — they don't save your loot. It's better than dying, but only barely.
+### The Cart Escape
+A rail line from a rich deposit to the elevator is the confirmed way to make extraction fast and safe. The cart system exists to "shift and store those heavy ores" — use it to shorten your time in the danger zone.
 
-## Zone-Specific Extraction Tips
+## Depth-Specific Extraction Tips
 
-### Upper Mines
-- Easiest extraction. The elevator is usually close and collapse risk is low
-- Push your luck here — it's the safest place to learn
+Since no official zone names or depth units exist, here's the honest version by risk band:
 
-### Middle Depths
-- Start extracting at 70% inventory. Collapse risk increases noticeably
-- The walk back takes 2-3 minutes. Plan accordingly
+### Shallow Runs
+Easiest extraction. The elevator is close and collapse exposure is low. This is where you learn the loop — push your luck here, safely.
 
-### Deep Mines
-- Start the return journey at 50% inventory
-- Collapse warnings are frequent. Trust them
-- Bring floodlights to mark your return path
+### Mid Runs
+Start your return earlier than you think you need to. The walk back takes time, and the mine accumulates damage the whole run.
 
-### The Abyss
-- Extract the moment you find anything valuable
-- Collapse is almost constant. You're fighting the mountain itself
-- Phoenix Heart perk is almost mandatory for Abyss runs
+### Deep Runs
+The game's premise is explicit: deeper = richer but farther from safety. Set a hard extraction trigger before you descend (a relic, a full cart, or the first instability warning — whichever comes first) and honor it.
 
 ## The Mental Game
 
-Greed is the real enemy in Dwarf Delve. The game is designed to tempt you — that shimmering gold vein just a little deeper, that relic chamber you can almost reach. Every death in Dwarf Delve is a lesson. Learn from each one.
+Greed is the real enemy in Dwarf Delve. The game is designed to tempt you — that shimmering vein just a little deeper, that chamber you can almost reach. The official marketing makes it the core mechanic: "One wrong boot could cost you your life — or worse, your loot!"
 
-Remember: a modest haul that makes it to the surface is worth infinitely more than a legendary treasure left on a dead Delveling's body.
+Every death is a lesson. Every successful extraction is a banked upgrade. The players who extract consistently are the players who outpace the mine.
+
+Remember: a modest haul that makes it to the surface is worth infinitely more than a legendary treasure on a dead Delveling's body.

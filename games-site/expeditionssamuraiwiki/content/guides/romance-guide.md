@@ -28,7 +28,7 @@ Every companion can be steered down any of the three tracks. The same companion 
 
 From the official materials and series precedent, romance follows these rules:
 
-1. **Earn trust first.** Companions only open up to people they trust. Complete their personal quest chains — "you'll be able to uncover their story if you earn their trust."
+1. **Earn trust first.** Companions only open up to people they trust — "earn their trust and an ally becomes a friend — or something more," as the official trailer puts it. Complete their personal quest chains.
 2. **Be consistent.** The relationship meter is shaped by every interaction. Flirty dialogue followed by dismissive choices sabotages progress.
 3. **Play their personal quests.** Each companion's dedicated quest chain is the backbone of their story — and of your relationship. Never skip them.
 4. **Respect their values.** The trailer emphasizes that "they may not share the same values" — companions respond to choices that align with their worldview.

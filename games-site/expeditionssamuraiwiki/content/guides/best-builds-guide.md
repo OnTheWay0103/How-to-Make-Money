@@ -20,7 +20,7 @@ Every build in Expeditions: Samurai leans on one (or more) of the three pillars:
 
 | Pillar | Core fantasy | Key stats/gear | Best companions |
 |--------|-------------|----------------|-----------------|
-| **Stealth** | Open every fight on your terms | Agility/movement, silence, gadgets (firecrackers, smoke bombs) | Antje |
+| **Stealth** | Open every fight on your terms | Agility/movement, silence, gadgets (firecrackers confirmed; smoke tools TBD) | Antje |
 | **Diplomacy** | Win without fighting | Social skills, dialogue bonuses, reputation | Étienne Durand |
 | **Steel** | Overwhelm with force | Damage, armor, weapon skills | Johan, Piet Ruisch |
 
@@ -31,7 +31,7 @@ Pure builds are viable; hybrid builds are *stronger*. A stealth opener followed 
 ### 1. The Shadow Captain (Stealth-first)
 
 - **Class pick:** the stealth-leaning class at creation
-- **Build:** movement and ambush bonuses first; gadget proficiency (firecrackers, smoke) early; silent takedown upgrades as soon as available
+- **Build:** movement and ambush bonuses first; gadget proficiency (firecrackers confirmed, smoke tools TBD) early; silent takedown upgrades as soon as available
 - **Playstyle:** split the party, scout with your Captain, position everyone, open combat with a surprise attack
 - **Why it works:** combat is "cerebral" and rewards setup. A surprise attack opener is the single biggest advantage available in the game.
 
@@ -68,7 +68,7 @@ Regardless of archetype, follow this order through Act One:
 2. **One pillar to 70%.** Commit to your primary pillar first. Jack-of-all-trades builds underperform in Expeditions.
 3. **Weapon skills over utility.** Skill lines that boost your chosen weapons beat generic utility early; the game's "weapon skills" system rewards focus.
 4. **Companion synergy at every level.** Your build is four characters, not one. Level companions into roles that complement your Captain's pillar.
-5. **Crafting after Act One's midpoint.** By mid-Act-One you'll have recipes and resources for custom gear — invest then, not before.
+5. **Crafting when it ships.** Official materials describe custom gear crafting as part of the full release — if it's not in the EA build, invest in strong looted and purchased gear instead.
 
 ## Common Build Mistakes
 

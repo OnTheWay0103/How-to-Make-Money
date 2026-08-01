@@ -1,151 +1,72 @@
 ---
-title: "Quest Walkthrough — Main Questline, Side Quests, and Hidden Triggers"
-description: "Complete quest walkthrough for Vahrin's Call. Main questline progression, key side quests, branching choices, faction reputation requirements, hidden quest triggers, and recommended levels for every chapter."
-keywords: ["vahrins call quest walkthrough", "vahrins call main quest", "vahrins call side quests", "vahrins call faction reputation", "vahrins call hidden quests"]
-updated: "2026-07-29"
+title: "Quest Walkthrough — What's Confirmed About Quests in Vahrin's Call"
+description: "Everything confirmed about quests in Vahrin's Call: the main quest structure, fleshed-out side quests, branching choices that shift factions, Morrowind-style tracking, and honest notes on what is unconfirmed."
+category: "Guides"
+version: "1.0"
+updated: "2026-08-01"
+keywords: ["vahrins call quest walkthrough", "vahrins call main quest", "vahrins call side quests", "vahrins call quest guide", "vahrins call story"]
+related: ["beginner-guide", "boss-guide", "zones-areas-guide", "endgame-content"]
 ---
 
-# Quest Walkthrough — Main Questline, Side Quests, and Hidden Triggers
+# Quest Walkthrough — What's Confirmed
 
-Vahrin's Call features a sprawling quest system with branching storylines, faction reputation mechanics, and dozens of hidden quests that are easy to miss. This walkthrough covers the main questline progression, the most important side quests, and the hidden triggers that unlock optional content.
+**Correction first**: earlier versions of this guide described an 8-chapter main questline with named chapters ("The Arrival," "The Missing Caravan"...), named quests, and specific rewards. **None of those names are confirmed.** Titan Roc has not published a quest list, and we will not invent one. What we do have is reliable information from official materials and launch reviews about how quests work in Vahrin's Call.
 
----
+## The Story Setup (Confirmed)
 
-## Main Questline Overview
+You play **a lone mercenary seeking to liberate the war-torn city of Vahrin** while claiming your fair share of gold and riches. The city was overwhelmed by the **khraiax** — grotesque, insect-like creatures. The king of Vahrin was killed, along with thousands of soldiers from the Free Cities, who marched to aid the city under the banner of the **Combined Order**. And according to official lore: while the khraiax were being defeated, **"a far greater danger rose from beneath the city's streets."**
 
-The main story is divided into 8 chapters. Each chapter has a recommended level range and key objectives.
+That last line is the story's big hook — the khraiax are the visible enemy; something worse is coming from below.
 
-| Chapter | Title | Recommended Level | Main Objective | Key Reward |
-|---------|-------|-------------------|---------------|------------|
-| 1 | The Arrival | 1-5 | Reach Vahrin City | Starter gear set |
-| 2 | The Missing Caravan | 5-10 | Investigate the Eastern Road | Skill Book: Ice Shard |
-| 3 | The Underground | 10-15 | Clear the Catacombs | Attribute Point bonus |
-| 4 | The Mage Guild Crisis | 15-20 | Rescue the Guild Master | Spell: Fireball |
-| 5 | The Fractured Alliance | 20-28 | Broker peace between factions | Faction reputation boost |
-| 6 | The Ancient Seal | 28-35 | Activate the three seals | Legendary weapon choice |
-| 7 | The Void Incursion | 35-42 | Repel the void invasion | Full legendary armor set |
-| 8 | The Final Reckoning | 42-50 | Face the Void Tyrant | Game completion rewards |
+## The Main Quest Structure (Confirmed by Reviews)
 
----
+Launch reviews describe the main questline consistently:
 
-## Chapter-by-Chapter Breakdown
+- The story progresses through **multiple chapters**.
+- The chapter formula is **"receive an assignment → go kill the baddie"** — reviewers call it repetitive, and it is the most common story criticism.
+- The **world and side content** carry the experience: reviews praise "rich lore," "emotional choices," and a hidden area "the size of a whole huge area" tucked behind a side quest.
+- The protagonist is **silent and a blank slate** — everything around you is fully voiced by real voice actors.
 
-### Chapter 1: The Arrival (Levels 1-5)
+## Quest Systems That Are Confirmed
 
-You arrive in Vahrin City as a new mercenary. The opening quests are straightforward tutorials designed to teach combat, exploration, and interaction systems.
+### Branching Choices and Faction Shifts
 
-**Key quests**:
-- "Welcome to Vahrin" — Report to the Mercenary Guild (200 gold, basic weapon)
-- "Your First Contract" — Clear rats from the cellar (Minor XP, potion recipe)
-- "Meet the Mentor" — Find the Mentor NPC and learn about respeccing (free respec token)
+Reviews confirm **branching quests and morally ambiguous choices** that **shift factions**. Your decisions have consequences for how factions view you, which in turn affects later quest options. No specific faction names (beyond the lore's Combined Order) or reputation numbers are confirmed.
 
-**Hidden quest**: Talk to the homeless man behind the tavern three times. He asks for 50 gold. Give it to him, then visit him the next day. He reveals a hidden stash containing 200 gold and a Skill Book: Pebble Mastery (upgrades Pebble to deal real damage).
+### Morrowind-Style Quest Tracking
 
-### Chapter 2: The Missing Caravan (Levels 5-10)
+The quest UI deliberately offers a **minimal HUD with no trackers by default** — a Morrowind-style approach that pushes you to read quest text and follow directions. **Quest markers can be enabled** as an accessibility option.
 
-The first major quest chain. A supply caravan disappeared on the Eastern Road. This chapter introduces outdoor exploration and your first real combat challenges.
+### Side Quests Outshine the Main Path
 
-**Quest chain**:
-1. "Caravan's Last Known Position" — Investigate the ambush site
-2. "Survivor's Trail" — Follow tracks to the bandit camp
-3. "Bandit Lord's Demands" — Negotiate or fight (choice affects Chapter 5)
-4. "Return to Vahrin" — Escort surviving merchants home
+Multiple reviewers call the side quests "surprisingly fleshed out." Side quests reward exploration — and at least one side quest chain reportedly opens a huge hidden area. For completionists, side content is where the game's length and best moments live.
 
-**Branching choice**: In "Bandit Lord's Demands," you can:
-- **Fight** the bandits — Immediate XP and loot, but negative reputation with the Outlaw faction
-- **Negotiate** — Pay 500 gold for safe passage, positive reputation with Outlaws, unlocks a side quest chain in Chapter 5
+## Practical Questing Advice
 
-**Hidden quest**: After completing the chapter, return to the ambush site and search the riverbank. A submerged chest contains the "Lost Caravan Ledger," which starts the quest "Missing Ledger" — rewards 800 gold and faction rep.
+1. **Enable quest markers if you need them.** The minimal-HUD default is a design choice, not a feature you must endure.
+2. **Do side quests as you go.** The main path is the game's weakest stretch; side quests are where the world opens up.
+3. **Keep choices consistent.** If you want a faction to trust you, your morally grey decisions stack up — flip-flopping can close doors.
+4. **Read quest text.** With no trackers, the quest log text is your map.
+5. **Backtrack willingly.** The map is non-linear and quests send you back through earlier areas — treat it as an exploration opportunity.
+6. **Hunt the hidden area.** The "whole huge area hidden behind a side quest" is reportedly one of the game's best zones. Explore every side quest thread.
 
-### Chapter 3: The Underground (Levels 10-15)
+## What Is NOT Confirmed
 
-The Catacombs beneath Vahrin City hold ancient secrets and a growing threat.
+- Chapter count and chapter names
+- Any quest names or quest-giver names
+- Recommended levels per quest
+- Reward tables (gold amounts, item drops)
+- Faction names and reputation mechanics beyond lore references
+- Whether there is a "true ending" or multiple endings
 
-**Key quests**:
-- "Descent into Darkness" — Enter the Catacombs
-- "The Warden's Request" — Clear three sealed chambers
-- "Ancient Evil" — Boss fight: The Warden's Corruption
-- "Light in the Dark" — Activate the Catacombs' central beacon
+We will build a real walkthrough here as soon as verified quest data exists — official documentation, or community-verified contributions.
 
-**Faction reputation**: Completing "The Warden's Request" gives +300 reputation with the City Watch faction. This is the earliest opportunity to build City Watch reputation, which unlocks premium gear discounts in Chapter 5.
+## Story Tones to Expect
 
-**Hidden quest**: After defeating the Warden's Corruption, examine the altar behind the boss arena. Use Detect Magic to reveal a hidden switch. It opens a passage to the "Sunken Shrine" — an optional area with a legendary ring.
+Reviews describe the game as **dark fantasy with grim imagery** and a dense, lore-heavy world — many proper nouns and background context that can feel opaque early. There is **no in-game codex** to catch you up (a noted gap). If the lore feels overwhelming, the soundtrack — widely praised as a standout, swinging between wonder and dread — will carry you through it.
 
-### Chapter 4: The Mage Guild Crisis (Levels 15-20)
+## Next Steps
 
-The Mage Guild is under attack from within. This chapter introduces advanced magic enemies and complex multi-stage quests.
-
-**Quest chain**:
-1. "Guild in Flames" — Respond to the attack on the Mage Guild
-2. "Traitor's Trail" — Investigate three suspects
-3. "The Betrayer Revealed" — Confront the traitor
-4. "Guild Master's Rescue" — The final confrontation
-
-**Branching choice**: When identifying the traitor, you can:
-- **Accuse the correct person** — Standard completion, max Guild reputation
-- **Accuse the wrong person** — Guild reputation loss, but unlocks a unique quest chain with the actual traitor (dark magic rewards)
-
-**Hidden quest**: Read all five books in the Guild Library. The fifth book triggers a secret dialog with the ghost of a former Guild Master, granting the spell "Arcane Insight" — permanently reveals hidden items on your minimap.
-
----
-
-## Key Side Quests
-
-These side quests are missable if you progress too far in the main story.
-
-| Quest Name | Location | Level | Trigger Condition | Reward |
-|------------|----------|-------|-------------------|--------|
-| "The Lost Flute" | Barathrum Forest | 8-12 | Talk to musician in Vahrin tavern | Unique instrument weapon |
-| "Stone and Bone" | Quarry Depths | 14-18 | Find the petrified miner's note | Spell: Petrify |
-| "Race Against Time" | Grand Library | 18-22 | Read the "Haste" scroll on the second floor | Spell: Haste |
-| "Heart of the Forge" | Iron District | 22-28 | Talk to blacksmith after Chapter 5 | Spell: Meteor |
-| "The Mourning Widow" | Residential District | 10-15 | Visit the widow's house at night | Rune of Sorrow |
-| "Ghosts of the Past" | Old Vahrin Walls | 25-30 | Complete Chapter 6 first | Legendary amulet |
-
----
-
-## Faction Reputation Requirements
-
-| Faction | Key Benefits | Maximum Rank | How to Raise |
-|---------|-------------|-------------|-------------|
-| City Watch | Gear discounts, access to armory | 5000 rep | Complete crime-related quests, report bandits |
-| Mage Guild | Spell discounts, Skill Book access | 5000 rep | Complete magic quests, donate artifacts |
-| Outlaw Faction | Unique weapons, black market access | 3000 rep | Complete illegal quests, smuggle goods |
-| Merchant's Guild | Gold bonuses, rare materials | 3000 rep | Complete trade quests, sell goods at profit |
-| The Order (hidden) | Legendary armor set, secret ending | 1000 rep | Complete all hidden quests, collect lore items |
-
----
-
-## Hidden Quest Trigger Conditions
-
-1. **"The Forgotten Temple"** — Requires 50+ Intelligence and reading specific lore books. Grants a unique staff.
-2. **"The Collector"** — Visit every merchant in the game at least once. Grants access to a secret shop.
-3. **"Echoes of the Past"** — Complete all 8 main chapters without using the respec feature. Unlocks NG+ exclusive questline.
-4. **"The Void Touched"** — Die 50+ times (cumulative across all playthroughs). Triggers a special NPC who offers power in exchange for a permanent debuff.
-5. **"The Alchemist's Legacy"** — Craft 100+ potions. Unlocks the Philosopher's Stone quest chain.
-
----
-
-## Recommended Leveling Path
-
-For the smoothest experience, follow this quest order:
-
-1. All Chapter 1 quests (levels 1-5)
-2. Side quests in Vahrin City before Chapter 2 (levels 5-8)
-3. Chapter 2 main quest (levels 5-10)
-4. "The Lost Flute" side quest (levels 8-12)
-5. Chapter 3 main quest + "Stone and Bone" (levels 10-18)
-6. Chapter 4 main quest + "Race Against Time" (levels 15-22)
-7. All remaining side quests (levels 18-28)
-8. Chapters 5-6 main quest (levels 20-35)
-9. "Heart of the Forge" + "Ghosts of the Past" (levels 22-30)
-10. Chapters 7-8 main quest (levels 35-50)
-
----
-
-### Related Guides
-
-- [Attributes & Stats Guide](/guides/attributes-stats-guide) — Attribute allocation and soft caps
-- [Best Builds Guide](/guides/best-builds-guide) — Optimized builds for every playstyle
-- [Magic & Spells Guide](/guides/magic-spells-guide) — Complete spell catalog and synergies
-- [Alchemy & Crafting Guide](/guides/alchemy-crafting-guide) — Potion recipes and material farming
+- [Boss Guide](/guides/boss-guide) — what's confirmed about boss fights and pattern recognition.
+- [Zones & Areas Guide](/guides/zones-areas-guide) — the Vale of Vahrin's confirmed regions.
+- [Endgame Content Guide](/guides/endgame-content) — post-story play and the planned free DLC.

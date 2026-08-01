@@ -1,95 +1,89 @@
 ---
-title: 'Underground Biomes: Rare Zones, Sub-Biomes & Special Encounters in Dwarf Delve'
-description: 'Explore rare underground biomes, hidden sub-biomes, and special encounter zones in Dwarf Delve. Learn biome-specific loot tables, environmental hazards, and secrets at extreme depths.'
-keywords: ['dwarf delve underground biomes', 'dwarf delve rare zones', 'dwarf delve sub-biomes', 'dwarf delve hidden areas', 'dwarf delve deep mines']
+title: 'Underground Biomes & Sub-Zones: What's Real in Dwarf Delve'
+description: 'Underground biomes and sub-zones in Dwarf Delve, honestly documented. No biomes are officially named — this guide covers procedural variety, depth bands, unconfirmed community reports, and what "secrets" really means.'
+keywords: ['dwarf delve underground biomes', 'dwarf delve rare zones', 'dwarf delve hidden areas', 'dwarf delve secrets', 'dwarf delve deep mines']
 category: Biomes
 version: '1.0'
-updated: '2026-07-27'
+updated: '2026-08-01'
 related: ['biomes-guide', 'enemies-hazards-guide', 'mining-strategies-guide', 'extraction-guide']
 ---
 
-## Beyond the Known Biomes
+## Underground Biomes: The Honest Picture
 
-The six main biomes of Dwarf Delve are just the beginning. At extreme depths and through secret entrances, you can discover rare sub-biomes, dynamic encounter zones, and hidden areas that contain the game's most valuable resources and deadliest challenges. This guide covers everything beyond the standard biome map.
+If you've seen guides describing Dwarf Delve's "sub-biomes" — Fossil Beds, Geode Chambers, Spore Groves, Echoing Voids, with event cycles and connection types — here's the truth: **none of that is confirmed.** No biomes, sub-biomes, or special zones are named anywhere in official materials. The game's underground is officially described as procedurally generated mines, full stop.
 
-## Sub-Biomes
+This guide covers what's real about the underground: how procedural generation shapes variety, the confirmed depth gradient, honest notes on community reports, and what "secrets hidden in the shadows" actually means.
 
-Sub-biomes are smaller zones that generate within or between main biomes. They are not guaranteed on every run, which makes them highly sought after.
+## What's Confirmed About the Underground
 
-| Sub-Biome | Parent Biome | Depth Range | Rarity | Key Resource |
-|-----------|-------------|-------------|--------|--------------|
-| **Fossil Beds** | Sedimentary Tunnels | 30-60m | Uncommon | Ancient Bones (crafting component) |
-| **Geode Chamber** | Crystal Caverns | 70-90m | Rare | Pure Starlight (enchantment fuel) |
-| **Spore Grove** | Fungal Deeps | 120-150m | Uncommon | Luminescent Spores (floodlight upgrade) |
-| **Magma Falls** | Lava Core | 200-230m | Rare | Forge-Stone (legendary crafting material) |
-| **Sunken Vault** | Sunken Tunnels | 170-200m | Very Rare | Drowned Relics (unique equipment) |
-| **Echoing Void** | Abyssal Rift | 320m+ | Extremely Rare | Echo Shards (respec currency) |
+### 1. Procedural Generation (Confirmed)
+"No two mines will ever be the same!" — the official headline feature. Every run generates a new mine. There is no fixed map, no static layout, and therefore no fixed "zone map" to learn.
 
-### How to Find Sub-Biomes
+### 2. The Depth Gradient (Confirmed)
+"The deeper you dig, the richer the haul but the farther you are from safety." The only confirmed "zone" structure is depth: reward and risk both rise as you descend. No official depth units exist — treat depth as a gradient.
 
-Sub-biomes typically spawn with specific visual cues:
+### 3. Dangers & Secrets (Confirmed by Name)
+The official description: the mines hide "unseen dangers and long-forgotten traps," and flares "uncover secrets hidden in the shadows." That's the official definition of "secrets" — things hidden in darkness, revealed by light.
 
-- **Fossil Beds** — Look for bone fragments embedded in tunnel walls. Follow the trail of increasingly dense fossil deposits.
-- **Geode Chamber** — Enter through a crack in a Crystal Cavern wall that emits a faint pulsing light. The crack is often hidden behind crystal formations.
-- **Spore Grove** — Giant mushroom caps visible from adjacent tunnels. The air turns hazy green as you approach.
-- **Magma Falls** — Listen for the sound of falling lava (a rumbling waterfall noise distinct from standard lava crackling).
-- **Sunken Vault** — Submerged doorway at the bottom of a flooded shaft. Requires reinforced breathing equipment.
-- **Echoing Void** — A dead-end tunnel that, when you stand at its end, plays a faint whisper. Mine the back wall.
+## Community Reports (Unconfirmed)
 
-## Special Encounter Zones
+Early players report visual variety between runs — sections that feel like classic shaft works, sections with glowing formations, wet passages, and heat. These are anecdotal and unverified. It's reasonable to expect procedural variation in a voxel-style game, but no one has documented rules for how or when environments change.
 
-These are unique areas that trigger under specific conditions rather than spawning naturally.
+If you encounter unusual underground features, here's the honest framework for interpreting them:
 
-| Zone | Trigger Condition | Duration | Rewards |
-|------|-------------------|----------|---------|
-| **Collapse Zone** | Mining too aggressively in unstable rock | 2 minutes before collapse | Exposed rare ore veins |
-| **Infestation Nest** | Killing 10+ Rock Borers in one area | Until nest destroyed | Borer Queen loot, rare gems |
-| **Lost Cache** | Finding a dwarven skeleton with a map | One-time | Pre-set loot table, guaranteed silver |
-| **Shrine of the Deep** | Offering 5 valuable items at a statue | Permanent buff for run | +20% mining speed, +10% loot quality |
+- **It's procedural** — variety is the confirmed design intent
+- **It's not named** — no official names exist; community names are unofficial
+- **It's not documented** — treat anything you find as new data, not established fact
 
-### Collapse Zone Strategy
+## What "Sub-Zones and Secrets" Actually Means Today
 
-When you trigger a Collapse Zone, you have exactly 2 minutes before the ceiling falls. During this window, rare ore veins become visible that are normally hidden. Follow these steps:
+The honest translation of the keyword demand:
 
-1. Mark your escape route immediately with a flare.
-2. Mine the exposed veins in order of value: Mythril > Silver > Gold.
-3. Extract 10 seconds before the collapse timer hits zero — the collapse also opens a shortcut to the surface.
+| Keyword | Honest Answer |
+|---------|---------------|
+| Underground biomes | No official biomes; procedural mines with a depth gradient |
+| Rare zones | No confirmed zones; depth is the only confirmed rarity dial |
+| Hidden areas | Unconfirmed; "secrets hidden in the shadows" is the official phrase — bring light |
+| Deep mines | Confirmed concept: deeper = richer + farther from safety |
+| Secrets | Confirmed: secrets exist and are uncovered by light — details unpublished |
 
-## Biome Event Cycles
+## How to Explore the Unknown Underground
 
-Some biomes experience event cycles that change their behavior over time.
+Since the underground is procedural and undocumented, exploration strategy is robustness:
 
-| Biome | Event | Cycle Length | Effect |
-|-------|-------|-------------|--------|
-| **Sedimentary Tunnels** | Cave-In Storm | Every 10 minutes | Random tunnel collapses, exposed deep ore |
-| **Fungal Deeps** | Spore Bloom | Every 15 minutes | Reduced visibility, aggressive spore enemies, triple resin spawns |
-| **Lava Core** | Eruption | Every 20 minutes | Rising lava level, exposed obsidian deposits |
-| **Abyssal Rift** | Void Pulse | Every 25 minutes | All enemies empowered, legendary loot chance doubled |
+### 1. Light Everything
+"Secrets hidden in the shadows" — the confirmed counter is light. Flares and floodlights are exploration tools, not luxuries.
 
-### Timing Your Descent
+### 2. Mark Your Route
+No fixed layouts means no memorized maps. Flares as breadcrumbs, rails as highways — your own markers are the only map that matters.
 
-Plan your run around these cycles. For example, entering the Fungal Deeps just before a Spore Bloom lets you gather resin efficiently if you have a gas mask. Entering the Lava Core during an Eruption is dangerous but offers obsidian deposits that are otherwise inaccessible.
+### 3. Depth in Stages
+Descend in stages: learn this run's underground character early, then decide how deep to push. The confirmed trade-off (richer haul vs. distance from safety) is the whole strategic game.
 
-## Biome Connection Types
+### 4. Document What You Find
+The community needs verified data. If you find something unusual, report it to the official Discord — that's how this guide's "Unconfirmed" sections become "Confirmed."
 
-Understanding how biomes connect helps you navigate more efficiently.
+## Claim Evaluation: What to Ignore
 
-| Connection Type | Description | Example |
-|----------------|-------------|---------|
-| **Shaft** | Vertical drop (requires ladder or rope) | Sedimentary Tunnels → Crystal Caverns |
-| **Flooded Passage** | Underwater tunnel (requires breathing item) | Crystal Caverns → Sunken Tunnels |
-| **Lava Bridge** | Crossing over lava (requires heat resistance) | Fungal Deeps → Lava Core |
-| **Rift Gate** | Magical portal (requires key item) | Sunken Tunnels → Abyssal Rift |
+- Named sub-biomes with depth ranges — fabricated
+- "Biome event cycles" (eruptions, spore blooms) — fabricated
+- "Biome connection types" (rift gates, lava bridges) — fabricated
+- Named rare materials tied to zones — fabricated
+- Loot tables per zone — fabricated
 
-### Optimal Pathing
+None of these appear in official materials. The game is small and new; sources with this level of invented detail are unreliable.
 
-The fastest route to the Abyssal Rift: Sedimentary Tunnels → Crystal Caverns (Shaft) → Sunken Tunnels (Flooded Passage) → Abyssal Rift (Rift Gate). This route avoids the Fungal Deeps and Lava Core, saving time if your goal is end-game loot.
+## What Would Change This Guide
 
----
+1. Developer publishes zone/biome information (Steam news, Discord, roadmap)
+2. Verified community documentation (multiple independent confirmations) names environments
+3. Patches add environmental content
+
+Until then, this page stays honest: **procedural mines, depth as the only confirmed gradient, secrets behind shadows, and no official zone names.**
 
 ## Related Guides
 
-- [Main Biomes Guide](/guides/biomes-guide) — Complete overview of all six standard biomes
-- [Enemies & Hazards Guide](/guides/enemies-hazards-guide) — Threats you will face in each zone
-- [Mining Strategies Guide](/guides/mining-strategies-guide) — Efficient resource extraction by biome
+- [Main Biomes Guide](/guides/biomes-guide) — The complete honest biome picture
+- [Enemies & Hazards Guide](/guides/enemies-hazards-guide) — Confirmed dangers of the deep
+- [Mining Strategies Guide](/guides/mining-strategies-guide) — Efficient extraction by depth
 - [Extraction Guide](/guides/extraction-guide) — Safely escaping from any depth

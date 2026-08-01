@@ -1,128 +1,97 @@
 ---
 title: "Shift At Midnight Entity Survival Guide: How to Survive Every Hunt"
-description: "Complete entity survival guide for Shift At Midnight. Learn what triggers Entity attacks, barricade strategies, trap placement, hiding spots, and microphone detection."
+description: "Complete entity survival guide for Shift At Midnight. Learn what triggers entity attacks, the lock-up alert, barricade strategies, trap placement, hiding spots, and audio discipline."
 category: "Guides"
 version: "1.0"
-updated: "2026-07-29"
-keywords: ["shift at midnight entity guide", "survive entity attack", "hunt survival shift at midnight", "barricade guide shift at midnight", "hide from entity shift at midnight"]
-related: ["doppelganger-guide", "enemy-bestiary", "weapons-guide"]
+updated: '2026-08-01'
+keywords: ["shift at midnight entity guide", "survive entity attack", "hunt survival shift at midnight", "barricade guide shift at midnight", "hide from entity shift at midnight", "shift at midnight 60 second alert"]
+related: ["doppelganger-guide", "enemy-bestiary", "weapons-guide", "story-walkthrough"]
 ---
 
 ## The Entity: Understanding Your Predator
 
-The Entity is a giant, black spider-like creature and the most dangerous threat in Shift At Midnight. Unlike doppelgangers that infiltrate through deception, The Entity hunts through pure predation. It does not talk, it does not bargain, and it does not stop until the hunt timer expires — or you do.
+Every night at the gas station ends the same way: after the last customer leaves, **the entity attacks**. This is the survival phase of Shift At Midnight — the moment the business simulation stops and the horror game begins. The entity is the game's roaming predator: it hunts during the end-of-shift phase, and it also shows up for the **60-second lock-up alert** whenever a doppelganger completes its purchase.
 
-This guide covers Entity attack triggers, barricade strategies, trap placement, hiding spots, microphone detection mechanics, and the sanity system during hunts.
+Community guides agree on the core truth: **you cannot out-tank the entity — you out-prepare it.** This guide covers attack triggers, barricades, traps, hiding, and the audio discipline that keeps you alive.
 
 ---
 
 ## What Triggers Entity Attacks
 
-The Entity does not attack randomly. Certain actions increase your threat level and trigger hunt events:
+| Trigger | What Happens |
+|---------|--------------|
+| **End of shift** | After the last customer, the entity attacks every night — treat it as the shift's finale, not a random event |
+| **Completed fake purchase** | If a doppelganger finishes paying, a **60-second lock-up alert** fires and it returns in monster form |
+| **Blood Moon nights** | Community guides report guaranteed entity activity plus more doppelganger customers |
 
-| Trigger | Risk Level | How to Avoid |
-|---------|-----------|--------------|
-| Excessive noise (game) | High | Do not run, slam doors, or fire weapons unnecessarily |
-| Microphone noise | Very High | **Real-world mic detection** — The Entity hears you through your actual microphone |
-| Failed doppelganger ID | Medium | Letting a doppelganger through alerts the Entity to your store |
-| Stock quota failure | Low-Medium | Missing quota increases Entity interest in the store |
-| Blood Moon event | Guaranteed | The Entity hunts regardless of your actions during Blood Moon nights |
-| Night progression | Increasing | Entity attacks become more frequent after Night 7 |
-| Multiple panics | Medium | Using the panic button too often draws Entity attention |
+### The 60-Second Lock-Up Alert
 
-### The Countdown Warning System
+When a fake completes its purchase:
 
-Before an Entity attack, the game gives you a **countdown warning**:
+1. The store locks down — you have roughly **60 seconds** of alert time
+2. The creature returns in a more grotesque, aggressive form
+3. Use the alert window to **lay traps** (community walkthroughs suggest the garage and near the desk) and get into position
+4. Then finish the entity with your gun
 
-1. **First warning**: Lights flicker for 3-5 seconds
-2. **Second warning**: Your sanity meter visibly pulses and drains
-3. **Third warning**: A low rumbling sound builds
-4. **Hunt begins**: The screen desaturates and you hear a distinct screech
+**The pro move**: kill the doppelganger **before** it pays — it skips the alert entirely. This single habit saves more nights than any other.
 
-You have approximately **8-12 seconds** from the first flicker to the hunt start. Use this window wisely.
+---
+
+## The Patience Bar (Health and Timer)
+
+Community guides describe the entity's **patience bar** as doubling as its health and its timer. What that means in practice:
+
+- The bar depletes as you survive and as you damage it
+- When it empties, the hunt ends
+- Community walkthroughs show the entity can be **gunned down along with everything it spawns** — the speedrun tactic is to fight rather than hide once you have a stocked Arsenal
 
 ---
 
 ## Barricade Strategies
 
-When The Entity arrives, solid barricades are your first line of defense. **Wooden Boards** can be nailed across doors and windows to slow its entry.
+**Planks** are your primary barrier. Community guides consistently describe barricading **the three doors** with planks when the attack begins.
 
-### Door Barricade Priority
+### Barricade Priority
 
-1. **Front entrance** — The Entity's preferred entry point. Reinforce with 3 boards minimum.
-2. **Back room door** — Your escape route. Must remain passable — board only 1 layer.
-3. **Storage room door** — Secondary entry. 2 boards minimum.
-4. **Windows** — Board all windows. The Entity can break through unboarded windows instantly.
+1. **The three doors** — board them first; this is the confirmed barricade target
+2. **Entry paths** — funnel the entity through prepared chokepoints where your traps sit
+3. **Never board yourself into a corner** — always keep one escape route open
 
-### Barricade Timing
-
-- **Pre-hunt**: Board the front entrance and windows during quiet periods
-- **During countdown**: Add boards to the back room and storage room (you have 8-12 seconds)
-- **Do not board yourself into a corner**: Always leave one escape route open
-
-### Barricade Checklist
-
-| Location | Minimum Boards | Time to Install | Notes |
-|----------|---------------|-----------------|-------|
-| Front door | 3 boards | 6 seconds | Highest priority |
-| Back room door | 1 board | 2 seconds | Keep escape route open |
-| Storage room door | 2 boards | 4 seconds | Secondary entry point |
-| Each window | 2 boards | 4 seconds | Every unboarded window is a weakness |
-| Office door | 0-1 board | 2 seconds | Last resort hiding spot |
+Exact board counts and install timings are **not publicly documented** — don't trust specific numbers you see elsewhere. The reliable pattern is: board the doors early, keep an exit, and lay traps in the path.
 
 ---
 
 ## Trap Placement
 
-Traps are your second line of defense. When placed correctly, they can slow, damage, or deter The Entity.
+Traps are bought **from the store computer** and placed around the store in advance. What's confirmed:
 
-### Trap Types and Best Locations
+- Traps slow or stop the entity and its spawns, buying you time
+- Community walkthroughs recommend **scattering traps in advance for later nights** (buy them from the shop computer as soon as you can afford them)
+- During the 60-second alert, use the window to lay traps in the garage and near the desk
 
-| Trap | Effect | Best Placement | Quantity Needed |
-|------|--------|---------------|-----------------|
-| **Bear Trap** | Immobilizes Entity for 3-4 seconds | Directly in front of doorways | 2-3 |
-| **Motion Alarm** | Alerts you when Entity enters a zone | Foyer, back room entrance, camera blind spots | 3-4 |
-| **Tripwire** | Slows Entity and triggers noise | Hallways, between shelves, narrow paths | 4-6 |
-| **Electrical Trap** | Deals damage and stuns Entity | In puddles or near the register area | 2-3 |
-
-### The Kill Box Strategy
-
-For experienced teams, create a **kill box** — a single hallway or room with overlapping traps:
-
-1. Place a Motion Alarm at the entrance
-2. Lay Tripwire across the floor (3 wires minimum)
-3. Place Bear Traps at the midpoint and exit
-4. Activate an Electrical Trap at the end
-5. Lure The Entity through — it takes damage at every stage
-
-### Trap Maintenance During Hunts
-
-- Bear Traps trigger once and must be reset manually
-- Electrical Traps have a cooldown of approximately 30 seconds
-- Tripwire stays active until broken by Entity passage
-- Motion Alarms are single-use — replace after each hunt
+Specific trap types, damage values, and stun timings are **not publicly documented** — treat any precise stat table elsewhere as unverified.
 
 ---
 
 ## Hiding Spots
 
-When barricades and traps fail, hiding is your last resort. Shift At Midnight offers several hiding locations:
+When barricades and traps fail, hide.
 
-| Hiding Spot | Capacity | Detection Risk | Best When |
-|-------------|----------|---------------|-----------|
-| **Locker** (back room) | 1 player | Low | Entity is far away |
-| **Vent** (storage room) | 1 player | Medium | Entity is nearby |
-| **Under counter** (register area) | 2 players | High | No other option |
-| **Back office desk** | 1 player | Low | Office door is boarded |
-| **Bathroom stall** | 2 players | Very High | Absolute last resort |
+- **Ventilation shafts** are the confirmed hiding option — with a catch: hiding is **temporary only**. If you stay too long, you get **dragged out**.
+- Back-room **lockers** are reported as another hiding spot (the campaign walkthroughs advise hiding in backroom lockers if walls break during the final shift's attack).
+- Hiding wins you time, not the fight — keep moving through the survival phase when you can.
 
-### Hiding Rules
+---
 
-- **Stop moving** — The Entity detects movement through walls
-- **Stop talking** — Microphone detection is active during hunts. Mute your mic.
-- **Hold your breath** — The game uses a breath-holding mechanic. Press and hold E to hold breath. You have about 15 seconds before you must exhale.
-- **Do not look directly at The Entity** — Sustained eye contact increases detection chance.
-- **Stay hidden until the music changes** — The hunt ends when the chase music fades. Wait an additional 5 seconds before emerging.
+## Audio Discipline
+
+This is the most consistently reported entity mechanic: **the entity tracks audio.**
+
+- **Open-microphone noise works against you** — speech, and possibly in-game noise like running and slamming doors, draws it to you
+- **Set your mic to push-to-talk** (or mute it) before the hunt phase
+- **In co-op, absolute silence during hunts** — one callout before the phase, nothing after
+
+This applies to the Dentist too — see the [Dentist Guide](/guides/dentist-guide) for that encounter's rules.
 
 ---
 
@@ -130,70 +99,36 @@ When barricades and traps fail, hiding is your last resort. Shift At Midnight of
 
 | Factor | Fighting | Hiding |
 |--------|----------|--------|
-| Required gear | Shotgun, SMG, or Flamethrower | None |
-| Risk level | Very High | Medium |
-| Reward | Entity injured (fewer attacks) | Survival only |
-| Best for | Night 1-4 (weaker Entity) | Night 5+ (aggressive Entity) |
-| Team size | 2-3 players | 1-3 players |
-| Ammo cost | 10-30 rounds per hunt | 0 |
+| Required gear | Gun or Arsenal weapons, bought beforehand on the computer | None |
+| Risk level | High | Medium |
+| Reward | Hunt ends faster; kills the entity and its spawns (confirmed speedrun tactic) | Survival only |
+| Best for | Late campaign with a stocked Arsenal | Early nights, empty Arsenal |
 
-**Our recommendation**: Hide on Night 1-3 until you understand Entity behavior. Start fighting on Night 4-5 once you have decent weapons. On Night 7+, only fight if you have a Flamethrower and at least one teammate covering you.
+**Our recommendation**: early on, hide — the Arsenal is empty and the speedrun guides note the Arsenal is **unreliable during blood-rain nights** (first encountered around Shift 5), so the gun must suffice. From mid-campaign, buy traps and weapons in advance and fight when you can.
 
 ---
 
-## Sanity System During Hunts
+## Blood Moon Nights
 
-The Entity's presence drains your sanity rapidly. Understanding sanity mechanics during hunts is critical:
+Community guides confirm **Blood Moon** events: guaranteed entity activity and more doppelganger customers than usual. Prepare for a Blood Moon shift like a siege:
 
-- **Sanity drain rate**: Approximately 10% per 5 seconds near The Entity
-- **Low sanity effects** (below 30%): Screen distortion, phantom footsteps, false Entity sound cues
-- **Critical sanity** (below 15%): Hallucinations of Entity limbs in peripheral vision, increased hide detection
-- **Zero sanity**: You step out of hiding automatically and scream, guaranteeing discovery
-
-### Sanity Management During Hunts
-
-- **Stay in lit areas** before the hunt starts — max light reduces initial sanity drain
-- **Use sanity-restoring items** during the countdown window (not during the hunt itself)
-- **Hide with teammates** — being near another player slows sanity drain by 25%
-- **Flashlight off** while hiding — a flashlight beam can be seen through walls
-
----
-
-## Blood Moon Extra Threats
-
-Blood Moon events occur randomly after Night 5 (guaranteed on Night 8). During a Blood Moon:
-
-- **Entity attacks are guaranteed**, not random
-- **Sanity drains 2x faster**
-- **Barricades break 50% faster**
-- **Traps have a 50% chance to fail on activation**
-- **Hiding spots are less effective** — The Entity searches more thoroughly
-- **Additional monsters spawn**: Gnomes appear inside the store and destroy barricades
-
-### Blood Moon Survival Plan
-
-1. Stock extra Wooden Boards (minimum 10) before the shift
-2. Place double the normal trap coverage
-3. Assign one player as dedicated board repair
-4. Kill Gnomes immediately — they shred barricades in seconds
-5. Keep the Flamethrower ready — it is the only weapon that hurts the Blood Moon Entity
-6. Stay together — splitting up during a Blood Moon is a death sentence
+1. Stock planks and traps from the store computer **before** the shift starts
+2. Expect more fakes at the register — screening workload goes up
+3. Budget the survival phase: more spawns mean a longer fight
+4. If it's a blood-rain night (Shift 5, and again later), expect the Arsenal to be unreliable — community walkthroughs say the pistol must carry you
 
 ---
 
 ## Final Survival Checklist
 
-Before every shift, especially Night 7+:
+Before every shift, especially mid-campaign and later:
 
-- [ ] Wooden Boards stocked (8+ planks)
-- [ ] Bear Traps set at doorways
-- [ ] Motion Alarms placed in blind spots
-- [ ] Tripwire laid in all narrow corridors
-- [ ] Ammo checked (30+ rounds minimum)
-- [ ] Sanity items in inventory
-- [ ] Hiding spots identified and accessible
+- [ ] Planks available for barricading the three doors
+- [ ] Traps bought from the store computer and scattered in advance
+- [ ] Gun in hand (pick it up early on Shift 1)
 - [ ] Microphone set to push-to-talk
-- [ ] Escape route confirmed unblocked
-- [ ] Team communication plan discussed
+- [ ] Escape route mentally mapped (never board yourself in)
+- [ ] Hiding spots identified (vents are temporary — know your limit)
+- [ ] Team plan agreed (co-op: who boards, who traps, who watches)
 
-Mastering Entity survival takes practice, but these strategies will keep you alive long enough to see all three endings. Learn the monster types in the [Enemy Bestiary](/guides/enemy-bestiary) or refine your weapon choices with the [Weapons Guide](/guides/weapons-guide).
+Mastering entity survival takes practice, but the formula is simple: prepare before the shift, screen the fakes, kill before payment, board the doors, lay the traps, and go quiet when the hunt begins. Learn the monster types in the [Enemy Bestiary](/guides/enemy-bestiary) or refine your weapon choices with the [Weapons Guide](/guides/weapons-guide).

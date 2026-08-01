@@ -2,16 +2,18 @@
 title: "Best Henki Forms Tier List: S to C Rank"
 description: "Complete Henki forms tier list for Taival. Every form ranked from S to C with combat and traversal ratings, use cases, and party synergy tips."
 category: "Tier List"
-updated: "2026-07-27"
+updated: "2026-08-01"
 ---
 
 # Best Henki Forms Tier List: S to C Rank
 
-> Early Access Version / Updated: July 27, 2026
+> Early Access Version / Updated: August 1, 2026
 
 Not all Henki forms are created equal. Some dominate combat encounters, others excel at traversal, and a few occupy very specific niches. This tier list ranks every form archetype based on combat effectiveness, traversal utility, and overall versatility in both solo and co-op play. Use this guide to prioritize which forms to tame first and which ones to keep in your active rotation.
 
 **Tier rankings reflect the Early Access build and will evolve as Bonobo Software adds new forms and balance patches.**
+
+**Naming note (August 2026):** official materials confirm the form archetypes — "a hulking beast that absorbs damage, a swift mount that scales cliffsides, a cunning predator that strikes from the shadows" — plus community-reported snail (wall-climbing) and bird glider forms. The names used in this guide (Tank Beast, Stealth Predator, etc.) are descriptive community labels; official in-game form names are not yet documented. Rankings are community judgment based on the Early Access build, not official stats — treat them as guidance, not data.
 
 ---
 

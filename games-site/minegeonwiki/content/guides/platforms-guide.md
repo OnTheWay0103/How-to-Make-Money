@@ -1,10 +1,10 @@
 ---
-title: 'Platforms Guide — PS5, Switch, Xbox & PC Release Info for MineGeon'
-description: 'Which platforms is MineGeon: Renegades on? Release dates for PC (Steam), PS5, Nintendo Switch, and Xbox. Cross-play support and platform differences.'
-keywords: ['minegeon renegades ps5', 'minegeon switch', 'minegeon xbox', 'minegeon platforms', 'minegeon console release', 'minegeon steam deck']
+title: 'Platforms Guide — PC, Steam Deck & Console Status for MineGeon: Renegades'
+description: 'Which platforms is MineGeon: Renegades on? PC (Steam) release, real system requirements, Steam features, Steam Deck status, and console release plans.'
+keywords: ['minegeon renegades ps5', 'minegeon renegades switch', 'minegeon renegades xbox', 'minegeon platforms', 'minegeon renegades system requirements', 'minegeon steam deck']
 category: Info
 version: '1.0'
-updated: '2026-07-29'
+updated: '2026-08-01'
 related:
   - faq
   - demo-guide
@@ -13,72 +13,79 @@ related:
 
 ## Platform Availability
 
-MineGeon: Renegades launched on **July 28, 2026**. Here's the platform status:
+MineGeon: Renegades launched on **Steam (PC) in July 2026** and is, as of early August 2026, **Steam-only**. No console versions have been announced — ignore sources claiming confirmed PS5, Switch, or Xbox ports.
 
-| Platform | Status | Release Date | Notes |
-|----------|:--:|------|------|
-| **PC (Steam)** | ✅ Available | July 28, 2026 | Primary platform |
-| **PS5** | 🔜 Planned | TBA | Console port in development |
-| **Nintendo Switch** | 🔜 Planned | TBA | Post-launch |
-| **Xbox Series X/S** | 🔜 Planned | TBA | Console port in development |
-| **Steam Deck** | ✅ Playable | July 28, 2026 | Not officially verified but runs well |
+| Platform | Status | Notes |
+|----------|:--:|------|
+| **PC (Steam)** | ✅ Available | Released July 30, 2026 (per the store page) |
+| **PS5** | ❌ Not announced | Search interest exists; no official word |
+| **Nintendo Switch** | ❌ Not announced | No official word |
+| **Xbox Series X/S** | ❌ Not announced | No official word |
+| **Steam Deck** | ⚠️ Unverified | Not listed on the store page; no official verification |
 
-## PC (Steam) — Primary Platform
+## PC (Steam) — The Only Platform
 
-### System Requirements
+### System Requirements (official, from the Steam page)
 
 **Minimum:**
-- OS: Windows 10 64-bit
-- CPU: Intel Core i5-8400 / AMD Ryzen 5 2600
-- RAM: 8 GB
-- GPU: NVIDIA GTX 960 / AMD Radeon R9 280
-- Storage: 5 GB
+- OS: Windows 10
+- CPU: 2.4 GHz processor
+- RAM: 4 GB
+- GPU: Integrated GPU or better (1024 MB)
+- DirectX: Version 10
+- Storage: 2 GB
+- Other: Broadband internet connection
 
 **Recommended:**
-- OS: Windows 10/11 64-bit
-- CPU: Intel Core i7-9700 / AMD Ryzen 5 3600
-- RAM: 16 GB
-- GPU: NVIDIA GTX 1060 / AMD Radeon RX 580
-- Storage: 5 GB SSD
+- OS: Windows 11
+- CPU: 3.2 GHz processor
+- RAM: 8 GB
+- GPU: GeForce GTX 480 / Radeon HD 5870 or better
+- DirectX: Version 11
+- Storage: 2 GB
+- Other: Broadband internet connection; 1080p / 16:9 recommended
 
-### Steam Features
-- Full controller support (Xbox, PlayStation, Switch Pro)
-- Steam Cloud saves
-- Steam Achievements
-- Steam Friends integration for co-op
-- Remote Play Together
+### Steam Features (official)
+
+- Single-player and online co-op (up to 2 friends)
+- **49 Steam Achievements**
+- Steam Cloud
+- Family Sharing
+- In-game chat (listed as "Interactive Elements")
+
+Notably absent from the official feature list: **controller support** and **Remote Play Together** are not listed. Assume keyboard and mouse until verified.
 
 ## Steam Deck
 
-MineGeon: Renegades runs well on Steam Deck despite not being officially verified:
-- **Performance**: 40-60 FPS on medium settings
-- **Controls**: Full controller support works out of the box
-- **Battery**: ~2-3 hours of gameplay
-- **Text size**: UI is readable on the 7" screen
+**Not officially confirmed.** The store page does not list Steam Deck compatibility, and controller support is not listed either. Deck owners should expect to verify manually — and note the game's top-down twin-stick design means input matters more than graphics power. We will update this guide if the developer confirms Deck support.
 
-## Console Ports (Coming Soon)
+## Console Ports
 
-WTF Studios has confirmed console ports are in development. Key details:
+There are **no announced console versions**. The PS5/Switch/Xbox search interest is real (people are asking), but the developer has published nothing. When console ports are announced, expect this guide to be updated first.
 
-- **PS5**: Targeting native 4K/60 FPS with DualSense haptic feedback
-- **Xbox Series X/S**: Smart Delivery support, Xbox Play Anywhere planned
-- **Nintendo Switch**: Portable-focused build, targeting 30 FPS docked/handheld
+## Cross-Play & Cross-Progression
 
-No release dates have been announced for console versions. The developer stated they want to ensure the PC version is stable before launching on consoles.
+- **PC ↔ PC:** co-op between Steam players works (that's the game's co-op)
+- **PC ↔ Console:** N/A — no console versions exist
+- **Cross-progression:** N/A at launch
 
-## Cross-Play
-
-- **PC ↔ PC**: Full cross-play between Steam players ✅
-- **PC ↔ Console**: Cross-play planned when console versions launch
-- **Cross-Progression**: Not yet confirmed
-
-All co-op is currently Steam-only.
+All co-op is Steam-only. There is no platform matrix to worry about yet.
 
 ## Which Platform Should You Get?
 
-| If you... | Get it on... |
-|-----------|-------------|
-| Want it now | PC (Steam) |
-| Prefer console | Wait for PS5/Xbox announcement |
-| Play on the go | Steam Deck or wait for Switch |
-| Want to play with friends | PC — only platform with confirmed co-op at launch |
+| If you... | The answer |
+|-----------|------------|
+| Want to play now | PC (Steam) — it's the only option |
+| Prefer console | Wait for announcements that may never come |
+| Play on Steam Deck | Hold off until Deck support is verified |
+| Want to play with friends | PC — Steam co-op, up to 2 friends |
+
+## Steam Page Accuracy Note
+
+If you see a Steam app ID like `3344910` referenced for MineGeon: Renegades on other sites, that is an error — the correct store page is `app/3227240` (the demo is `app/4224830`). Wrong app IDs are a common sign of copied, unverified content.
+
+## Next Steps
+
+- [FAQ](/guides/faq) — price, release, and requirements answers
+- [Demo Guide](/guides/demo-guide) — try before you buy
+- [Co-op & Multiplayer Guide](/guides/coop-multiplayer-guide) — Steam co-op details

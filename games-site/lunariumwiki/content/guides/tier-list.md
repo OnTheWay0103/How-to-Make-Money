@@ -1,95 +1,100 @@
 ---
-title: 'Tier List — Best Classes, Skills & Equipment in Lunarium'
-description: 'Complete Lunarium tier list. S-Tier to C-Tier rankings for classes, skills, gear, and best builds for PvE, PvP, and co-op play.'
-keywords: ['lunarium tier list', 'lunarium best class', 'lunarium best skills', 'lunarium best equipment', 'lunarium meta']
+title: 'Lunarium Tier List — Builds, Cloaks & Embroidery (Honest Rankings)'
+description: 'An honest Lunarium tier list: no classes exist, so rankings cover build directions, cloaks, and embroidery instead. What is confirmed, what is opinion, and which tier lists to ignore.'
+keywords:
+  - lunarium tier list
+  - lunarium best build
+  - lunarium best cloak
+  - lunarium best skills
+  - lunarium best equipment
 category: Meta
 version: '1.0'
-updated: '2026-07-29'
+updated: '2026-08-01'
 related:
-  - skill-tree-guide
+  - character-builds
   - equipment-guide
-  - build-guide
+  - skill-tree-guide
+  - boss-guide
 ---
 
-## Lunarium Tier List
+## Lunarium Tier List — Builds, Cloaks & Embroidery (Honest Rankings)
 
-> Rankings reflect the current meta. Individual skill can overcome tier gaps.
+**Lunarium 1.0 / Updated: August 1, 2026**
 
-## Class Tier List
+There are two things you need to know before reading any Lunarium tier list:
 
-### PvE (Solo)
-| Tier | Class | Why |
-|:--:|------|-----|
-| **S** | Ave | Self-sustain + high defense. Easiest solo clears. |
-| **A** | Lune | Highest damage but fragile. Requires good dodging. |
-| **B** | Hybrid builds | Versatile but don't excel at anything. |
+1. **Lunarium has no classes.** An earlier version of this page (and many others online) ranked "classes" — Knight, Pyromancer, Rogue, etc. Those don't exist. You play Ave; Lune is your AI companion.
+2. **No verified item database exists yet.** Any "tier list" that confidently ranks specific swords, armor sets, or skills by name is inventing them. The game is too new for verified item data.
 
-### PvE (Co-op)
-| Tier | Class | Why |
-|:--:|------|-----|
-| **S** | Lune | Maximized DPS with tank support. Boss killer. |
-| **S** | Ave | Essential tank. Every good team needs one. |
-| **A** | Support builds | Valuable but can be replaced by items. |
+So this page ranks what we can actually reason about — **build directions, and the systems** (cloaks, embroidery) that matter — with honest confidence levels.
 
-### PvP
-| Tier | Class | Why |
-|:--:|------|-----|
-| **S** | Ave (Brawler) | High HP + CC. Hard to kill, easy to catch opponents. |
-| **A** | Lune (Assassin) | Burst damage. Wins fast or dies fast. |
-| **B** | Ranged builds | Kiting is strong but vulnerable if caught. |
+## How to Read These Rankings
 
-## Skill Tier List
+| Confidence | Meaning |
+|------------|---------|
+| **Verified** | Backed by walkthroughs/press of the released game |
+| **Community consensus** | Widely reported but not officially confirmed |
+| **Opinion** | Our reasoning from confirmed mechanics — take with salt |
 
-### S-Tier Skills
-| Skill | Class | Why |
-|------|-------|-----|
-| **Lunar Slash** | Lune | Highest damage multiplier. Scales insanely with crit. |
-| **Moonlight Barrier** | Ave | Full damage immunity for 3 seconds. Boss fight essential. |
-| **Celestial Storm** | Lune | AoE that clears entire rooms. Best farming skill. |
+## Build Direction Tier List
 
-### A-Tier Skills
-| Skill | Class | Why |
-|------|-------|-----|
-| **Starlight Heal** | Any | Reliable healing. Always useful. |
-| **Gravity Well** | Any | Groups enemies for AoE combos. Great utility. |
-| **Phase Shift** | Lune | Short teleport with i-frames. Best mobility skill. |
+There are no "best classes" — but there are build directions, and one of them is genuinely easier for most players:
 
-### B-Tier Skills
-| Skill | Class | Why |
-|------|-------|-----|
-| **Crescent Wave** | Ave | Good AoE but long animation lock. |
-| **Shadow Step** | Any | Stealth is niche. Good for PvP, meh for PvE. |
-| **Meteor** | Lune | High damage but slow cast. Easy to interrupt. |
+| Tier | Direction | Why | Confidence |
+|:--:|------|-----|------------|
+| **S** | **Parry Specialist** | Parrying staggers bosses, negates damage, and is the intended path through most confirmed boss designs (Sentinel Colossus, Lilia, Enid). The game's own design leans on it | Community consensus |
+| **A** | **Resonance Commander** | The shared Resonance gauge is confirmed; Astral Shards make it scalable; Lune's stagger-building makes it strong in sustained fights | Community consensus |
+| **A** | **Aggressive Dancer** | Dodge-based play answers red-flash attacks and evasive bosses (Red Dancer, Ryuu); slightly higher skill floor | Opinion |
+| **B** | Hybrid/undecided | Fine on normal difficulty; harder in the gauntlet regions | Opinion |
 
-### C-Tier Skills
-| Skill | Class | Why |
-|------|-------|-----|
-| **Lunar Blessing** | Any | Minor stat buff. Outclassed by gear. |
-| **Star Shards** | Any | Low damage, inconsistent hits. |
+**Bottom line:** learn parry. The game's hardest fights reward it disproportionately.
 
-## Equipment Tier List
+## System Tier List (What to Invest In)
 
-### Weapons
-| Tier | Weapon | For |
-|:--:|------|-----|
-| **S** | Moonshard Blade | Lune — best crit weapon |
-| **S** | Eclipse Greatsword | Ave — best raw damage |
-| **A** | Starlight Staff | Hybrid — best for skill builds |
-| **A** | Crescent Bow | Safe ranged option |
-| **B** | Standard weapons | Fine for leveling |
+Ranking the progression systems by confirmed impact:
 
-### Armor Sets
-| Tier | Set | For |
-|:--:|------|-----|
-| **S** | Full Moon Set | Ave — max defense |
-| **S** | New Moon Set | Lune — max damage |
-| **A** | Half Moon Set | Balanced — good for learning |
-| **B** | Crafted sets | Good until you farm boss sets |
+| Tier | System | Why | Confidence |
+|:--:|------|-----|------------|
+| **S** | **Blade of Rutila** (post-Cyanstone) | Interrupts red-flash attacks — the only tool that works on unparriable moves; mandatory for Enid | Verified |
+| **S** | **Embroidery** | Charm-like passives; swapping one changes your whole build; blueprint-hunting is the collectible loop | Verified |
+| **A** | **Cloaks** | Appearance + ability effects; Wayfarer's Cloak is your first confirmed piece | Verified |
+| **A** | **Astral Shards** (resonance cap) | Direct economy upgrade | Verified |
+| **B** | **Weapon upgrades (Temple)** | Confirmed to exist; exact impact unquantified | Verified (exists) / unquantified |
+| **C** | **Lune's skill tree** | Confirmed to exist; specifics unpublished | Verified (exists) / unknown |
 
-## Best Builds Summary
+## "Best Cloak" & "Best Embroidery" — Honest Answer
 
-| Build | Class | Weapon | Armor | Skills |
-|-------|-------|--------|-------|--------|
-| Boss Killer | Lune | Moonshard Blade | New Moon | Lunar Slash, Phase Shift, Celestial Storm |
-| Unkillable | Ave | Eclipse Greatsword | Full Moon | Moonlight Barrier, Starlight Heal, Gravity Well |
-| PvP Duelist | Ave | Eclipse Greatsword | Half Moon | Moonlight Barrier, Gravity Well, Shadow Step |
+- **Best cloak:** the only confirmed named cloak is the **Wayfarer's Cloak** (Starfall Village). Everything else is unconfirmed. Pick cloaks by the ability effect that matches your direction — "best" lists online are guesses.
+- **Best embroidery:** unconfirmed. The confirmed blueprint (Cyanstone first-bench chest) is a start, but the full item pool isn't documented.
+- **Warning:** the "Stagnant Cloak" seen in walkthroughs is a **location** in Paradise, not an item.
+
+## "Best Skills" — Honest Answer
+
+- Exact skill names/effects are **unpublished**. Priority-by-mechanics (see the [Skill Tree Guide](/guides/skill-tree-guide)): parry quality → Lune arrow/interrupts → stagger building → resonance → mobility.
+- Any page ranking named skills ("Lunar Slash S-tier" etc.) is fabricating them.
+
+## Tier List Myths
+
+- ❌ Class tiers (Knight/Pyromancer/Rogue...) — no classes
+- ❌ Named weapon tiers ("Moonshard Blade", "Eclipse Greatsword") — not documented
+- ❌ "PvP tier lists" — no PvP (see [PvP page](/guides/pvp-strategy))
+- ❌ "Co-op tier lists" — no co-op (see [Co-op page](/guides/coop-guide))
+
+## What's Worth Tiering Right Now
+
+Until verified data arrives, the only honest "tier list" is about **where to spend your time**:
+
+| Activity | Value | Confidence |
+|----------|-------|------------|
+| Learning the parry | Game-changing | Verified |
+| Getting the Blade of Rutila early (post-Lilia) | Game-changing | Verified |
+| Hunting blueprints + Astral Shards | High | Verified |
+| Farming materials pre-Cyanstone | Medium | Opinion |
+| Trusting online "S-tier build" lists | Negative value | Verified (they're fake) |
+
+## Related Guides
+
+- [Character Builds Guide](/guides/character-builds) — how builds work (no classes)
+- [Equipment Guide](/guides/equipment-guide) — cloaks, embroidery, weapons
+- [Skill Tree Guide](/guides/skill-tree-guide) — skill priorities
+- [Boss Guide — All Bosses](/guides/boss-guide) — what actually needs tiering

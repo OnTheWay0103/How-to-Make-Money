@@ -1,100 +1,75 @@
 ---
-title: 'Tier List — Best Classes, Weapons & Builds in MineGeon: Renegades'
-description: 'Complete tier list for MineGeon: Renegades. Best classes ranked, weapon tier list, best build rankings for solo and co-op, and meta analysis for July 2026 launch.'
-keywords: ['minegeon tier list', 'minegeon best class', 'minegeon class tier list', 'minegeon weapon tier list', 'minegeon best build', 'minegeon meta']
+title: 'Tier List — Class Comparison at Launch in MineGeon: Renegades'
+description: 'Honest tier list for MineGeon: Renegades at launch. Compare Marshall, Trevor, and Ari for solo and co-op play — what we know, what we don't, and why weapon tier lists online are unreliable.'
+keywords: ['minegeon renegades tier list', 'minegeon renegades best class', 'minegeon class tier list', 'minegeon renegades weapon tier list', 'minegeon renegades best build', 'minegeon renegades meta']
 category: Tier List
 version: '1.0'
-updated: '2026-07-20'
+updated: '2026-08-01'
 related:
   - classes-guide
+  - class-builds
   - weapons-guide
   - boss-guide
 ---
 
-## MineGeon: Renegades Tier List (Launch Meta)
+## MineGeon: Renegades Tier List (Launch Window)
 
-> **Disclaimer:** This tier list is based on pre-release gameplay information and will be updated post-launch as the meta develops. Last updated: July 20, 2026.
+> **Honesty disclaimer, first:** the game launched July 30, 2026, and the full meta — weapon stats, gadget balance, boss difficulties — is still being discovered by players. Any launch-window tier list with precise S/A/B/C rankings of named weapons is either guesswork or fabrication. This tier list ranks what is *confirmable*: the three classes and their role-fit, based on official descriptions. We will rebuild this page with real data as the community documents the game.
 
 ## Class Tier List (Solo)
 
-| Tier | Class | Rating | Notes |
-|------|-------|--------|-------|
-| **S** | Gunslinger | Best solo class | Highest DPS + mobility = fast clears. Can avoid damage entirely with good play. |
-| **A** | Tank | Very reliable | Unkillable but slower clears. Best for learning and consistency. |
-| **B** | Engineer | Situational | Excellent in co-op, struggles solo against fast enemies without setup time. |
+| Tier | Renegade | Rating | Reasoning |
+|------|----------|--------|-----------|
+| **A** | Marshall (Tank) | Best for most players | The extraction loop punishes deaths; resilience is the solo game's best stat. Slower clears, but clears happen |
+| **A** | Trevor (Gunslinger) | Best in skilled hands | Highest damage potential, fastest clear times — but every mistake is punished. Tier rises with player skill |
+| **B** | Ari (Engineer) | Most adaptable | Balanced stats fit any run's randomness, but no standout strength for the solo game's core risk loop |
 
-### Solo Tier List Reasoning
-- **Gunslinger S-tier** — The ability to deal damage from range while staying mobile is unmatched for solo play. High skill ceiling means it scales with player improvement.
-- **Tank A-tier** — Undeniably safe and consistent, but slower clear times mean more stability drain and less loot per run. Best for new players.
-- **Engineer B-tier solo** — Turrets are powerful, but the setup time is punishing when you're alone. Fast enemies close the gap before you're ready.
+### Solo Reasoning
+- **Marshall is the safe S-adjacent pick** — "best class" for solo is a consistency question, and the death penalty makes consistency king
+- **Trevor scales with skill** — the ceiling is highest, the floor is lowest
+- **Ari is a knowledge pick** — once the gadget meta is documented, Ari's tier may rise
 
 ## Class Tier List (Co-op)
 
-| Tier | Class | Rating | Notes |
-|------|-------|--------|-------|
-| **S** | Engineer | Best co-op class | Turrets + Supply Drop make Engineer essential in a team. Setup time isn't an issue with a Tank. |
-| **S** | Tank | Essential | Every good team needs a Tank. Aggro control enables both DPS and Engineer. |
-| **A** | Gunslinger | Strong DPS | Still excellent, but slightly less essential than Tank/Engineer synergy. |
+| Tier | Renegade | Rating | Reasoning |
+|------|----------|--------|-----------|
+| **S** | Marshall (Tank) | Essential | Someone must hold enemy attention so teammates mine and damage safely |
+| **A** | Trevor (Gunslinger) | Strong | The damage role; boss fights need him |
+| **A** | Ari (Engineer) | Strong | Flexibility covers whatever the run and team need |
 
-### Co-op Tier List Reasoning
-- **Engineer S-tier in co-op** — Having a Tank to protect you while setting up transforms Engineer from "struggling" to "carrying." Supply Drop benefits the entire team.
-- **Tank S-tier in co-op** — A team without a Tank is fragile. Tank enables the Engineer and gives Gunslinger safe angles.
-- **Gunslinger A-tier in co-op** — Still top-tier damage, but a team of Tank + Engineer can function without one. A team of Gunslinger + Engineer without Tank struggles.
+### Co-op Reasoning
+- **The trio is designed to work together** — the three classes are the full roster, and the best comp is all three
+- **No class is "bad"** — with only three classes, tiers are about role-fit, not viability
 
-## Weapon Tier List
+## Weapon Tier Lists: Why to Be Skeptical
 
-### Melee Weapons
-| Tier | Weapon | Best On | Why |
-|------|--------|---------|-----|
-| **S** | War Hammer | Tank | AoE + crowd control + solid damage. The complete package. |
-| **A** | Battle Axe | Tank | Bleed is excellent against bosses. Slightly less AoE than Hammer. |
-| **A** | Power Fist | Tank | Highest single-hit damage but requires timing mastery. |
-| **B** | Wrench | Engineer | Niche. Good for turret builds but low combat potential. |
+The most-searched term for this game is a weapon tier list. Here's the problem:
 
-### Ranged Weapons
-| Tier | Weapon | Best On | Why |
-|------|--------|---------|-----|
-| **S** | Revolver | Gunslinger | Headshot bonus is the highest single-target DPS in the game. |
-| **A** | Rifle | Gunslinger | Safest option. Long range = less damage taken. |
-| **A** | Shotgun | Gunslinger | Devastates at close range. Risky but rewarding. |
-| **B** | Dual Pistols | Gunslinger | Great for crowds, falls off against bosses. |
-| **B** | SMG | Gunslinger | Ammo-hungry. Better options exist. |
+- **No official weapon catalog exists yet.** Names, stats, and rarity tiers are unpublished
+- **Launch-window weapon lists are invented.** Guides naming "War Hammer," "Tesla Coil Gun," "Revolver," etc., with damage numbers are fiction — those weapons do not appear in any official material
+- **The real chase items are confirmed generically:** legendary weapons and the weapons of the Ancient Ones. That's the honest ceiling of what we know
 
-### Special Weapons
-| Tier | Weapon | Best On | Why |
-|------|--------|---------|-----|
-| **S** | Tesla Coil Gun | Engineer | Chain lightning clears rooms. Best special weapon. |
-| **A** | Grenade Launcher | Engineer | Excellent area denial. Combos with traps. |
-| **B** | Flame Thrower | All | Fun but outclassed. DoT is too slow against fast enemies. |
-| **C** | Ice Blaster | All | Utility-focused. Freeze is nice but damage is lacking. |
+When a verified catalog is documented (official Discord, community wikis, patch notes), we'll publish a real weapon tier list here.
 
-## Best Solo Build (Gunslinger)
+## What Actually Determines "Best" Right Now
 
-### "Deadeye" Boss Killer
-- **Class:** Gunslinger
-- **Weapon:** Revolver (+5 with headshot refund)
-- **Armor:** Gold Plated (balance of defense and mobility)
-- **Key Abilities:** Deadeye (maxed), Quick Draw, Roll
-- **Playstyle:** Maintain range, headshot everything, use Roll to dodge. Deadeye on cooldown for bosses.
-- **Strengths:** Bosses melt. Safe laning phase.
-- **Weaknesses:** Requires good aim. Punishing if you miss headshots.
+1. **Role fit over raw power.** A "legendary" weapon that doesn't fit your class is worse than a common one that does
+2. **Gadget synergy.** Weapons, gadgets, and ultimates are a combined system — tier lists that ignore gadgets are incomplete
+3. **Your skill floor.** For most players, consistency (Marshall) beats ceiling (Trevor)
+4. **Team composition.** In co-op, what the team needs matters more than individual tiers
 
-## Best Co-op Build (Team Synergy)
+## The Honest Meta Snapshot
 
-### Tank: "Unbreakable Wall"
-- **Weapon:** War Hammer (+5 shockwave)
-- **Armor:** Obsidian Shell
-- **Key Abilities:** Fortify (maxed), Taunt, Ground Slam
-- **Role:** Hold aggro, control crowds, never die
+| Question | Honest Answer |
+|----------|---------------|
+| Best class overall? | Marshall — resilience wins in a game that punishes death |
+| Best solo class? | Marshall (safe) / Trevor (fast, skilled) |
+| Best co-op class? | Marshall — the anchor role |
+| Best weapon? | Unpublished — no verified catalog exists |
+| Best build? | Role-fit builds; see our Class Builds guide |
 
-### Engineer: "Turret Commander"
-- **Weapon:** Wrench (+5 turret heal)
-- **Armor:** Crystal-weave (energy boost)
-- **Key Abilities:** Deploy Turret (maxed), Supply Drop, Overload
-- **Role:** Set up kill zones, keep team supplied, turret DPS
+## Next Steps
 
-### Gunslinger: "Cleanup Crew"
-- **Weapon:** Rifle (+5 pierce)
-- **Armor:** Gold Plated
-- **Key Abilities:** Deadeye, Ricochet (maxed), Roll
-- **Role:** Kill priority targets, consistent boss DPS
+- [Classes Guide](/guides/classes-guide) — the three classes in detail
+- [Class Builds Guide](/guides/class-builds) — role-based build strategies
+- [Weapons Guide](/guides/weapons-guide) — what's confirmed about the arsenal

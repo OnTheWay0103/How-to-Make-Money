@@ -1,65 +1,92 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Weapon Tier List',
-  description: 'SpiritVale weapon tier list — best weapon rankings for solo, DPS, and beginner play. S-tier to C-tier rankings for all 6 weapon types.',
+  title: 'Tier List',
+  description: 'Skills & Raids tier list — role priorities, rarity guidance, and how to evaluate skills until the full 30-skill roster is documented.',
 };
 
-const WEAPON_TIERS = [
-  { tier: 'S', weapons: ['Rapier', 'Dagger'], note: 'Highest DPS ceiling — Rapier for counters, Dagger for crit burst' },
-  { tier: 'A', weapons: ['Sword & Shield'], note: 'Best for beginners — balanced offense/defense, forgiving' },
-  { tier: 'B', weapons: ['Greatsword', 'Two-Handed Axe'], note: 'High burst damage but slow — great for farming mobs' },
-  { tier: 'C', weapons: ['Mace'], note: 'Specialized for stagger/break — strong vs shields, situational otherwise' },
+const ROLE_TIERS = [
+  { tier: 'S', role: 'Healer (Owlivia)', note: 'The most run-defining role — a dead healer ends runs. Demo-era reviews documented fights stalling into infinite loops without her.' },
+  { tier: 'S', role: 'Tank (Shelldon)', note: 'The party\'s damage buffer — turns reaction time into recoverable mistakes.' },
+  { tier: 'A', role: 'DPS (Clawrk)', note: 'Ends fights before resources run out. The counter to the enemy healer teams that end runs.' },
+  { tier: 'B', role: 'Utility (cleanse, buffs, debuffs)', note: 'Run-saving in the right situation, dead weight if your collection is small.' },
 ];
 
-const SOLO_TIERS = [
-  { tier: 'S', weapons: ['Rapier'], note: 'Counter windows create openings that trivialize solo fights' },
-  { tier: 'A', weapons: ['Sword & Shield', 'Dagger'], note: 'S&S survives anything. Dagger kills fast but fragile.' },
-  { tier: 'B', weapons: ['Greatsword', 'Two-Handed Axe'], note: 'Good AoE farming but punished by fast enemies' },
-  { tier: 'C', weapons: ['Mace'], note: 'Stagger less useful with no teammates to capitalize' },
+const FUNCTION_TIERS = [
+  { tier: 'S', function: 'Direct healing / Mitigation / Debuff application', note: 'Keep runs alive, make the tank a tank, and enable synergy. The confirmed combat pillars.' },
+  { tier: 'A', function: 'Burst damage / Heal-over-time / Cleanse', note: 'Ends fights, wins attrition, and counters the status effects that heavily influence every encounter.' },
+  { tier: 'B', function: 'Damage over time / Threat control / Protective buffs', note: 'Strong situational tools — DoT beats enemy healers, threat protects the party.' },
+  { tier: 'C', function: 'Pure stat buffs / Quest-fodder abilities', note: 'Outclassed by active effects — but still worth carrying while a quest demands them.' },
 ];
 
-const BEGINNER_TIERS = [
-  { tier: 'Best', weapons: ['Sword & Shield'], note: 'Tanky, simple combos, block saves you from mistakes' },
-  { tier: 'Good', weapons: ['Rapier', 'Greatsword'], note: 'Rapier teaches counters. Greatsword teaches patience.' },
-  { tier: 'Avoid', weapons: ['Dagger', 'Two-Handed Axe', 'Mace'], note: 'Fragile or require matchup knowledge' },
+const RARITY_TIERS = [
+  { rarity: 'Common', use: 'The baseline — early game is built on it' },
+  { rarity: 'Uncommon', use: 'The early-mid game workhorse' },
+  { rarity: 'Rare', use: 'Strong mid-game tier' },
+  { rarity: 'Epic', use: 'High tier — treat as a build-around' },
+  { rarity: 'Legendary', use: 'The best tier — center your build on it if you own one' },
 ];
 
 export default function TierListPage() {
   return (
     <div className="max-w-3xl mx-auto px-4 py-12">
-      <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">Weapon Tier List</h1>
-      <p className="text-gray-400 mb-2">SpiritVale weapon rankings for launch (July 10, 2026). Based on demo data.</p>
-      <div className="inline-flex items-center gap-1 text-xs font-medium px-2 py-0.5 rounded bg-amber-900/30 text-amber-400 border border-amber-800/50 mb-8">Pre-launch — subject to balance changes</div>
+      <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">Tier List</h1>
+      <p className="text-gray-400 mb-2">Roles, skill functions, and rarity priorities for Skills &amp; Raids (released July 27, 2026).</p>
+      <div className="inline-flex items-center gap-1 text-xs font-medium px-2 py-0.5 rounded bg-amber-900/30 text-amber-400 border border-amber-800/50 mb-8">Honest ranking — the full 30-skill roster is not publicly documented yet</div>
 
-      {[{ title: 'Overall Rankings', tiers: WEAPON_TIERS }, { title: 'Solo Play Rankings', tiers: SOLO_TIERS }, { title: 'Beginner Recommendations', tiers: BEGINNER_TIERS }].map((section) => (
-        <section key={section.title} className="mb-12">
-          <h2 className="text-2xl font-bold text-white mb-6">{section.title}</h2>
-          {section.tiers.map((row) => (
-            <div key={row.tier} className="flex gap-4 mb-3 items-start">
-              <span className={`shrink-0 w-10 h-10 rounded-lg flex items-center justify-center text-lg font-bold ${
-                row.tier === 'S' || row.tier === 'Best' ? 'bg-amber-500/20 text-amber-400' :
-                row.tier === 'A' || row.tier === 'Good' ? 'bg-green-500/20 text-green-400' :
-                row.tier === 'B' ? 'bg-blue-500/20 text-blue-400' : 'bg-gray-500/20 text-gray-400'
-              }`}>{row.tier}</span>
-              <div>
-                <div className="flex flex-wrap gap-1.5 mb-1">
-                  {row.weapons.map((w) => (
-                    <span key={w} className="text-sm font-medium text-white bg-[#1a1a3e] px-3 py-1 rounded border border-[#2a2a5e]">{w}</span>
-                  ))}
-                </div>
-                <p className="text-xs text-gray-500">{row.note}</p>
-              </div>
+      <section className="mb-12">
+        <h2 className="text-2xl font-bold text-white mb-6">Role Rankings</h2>
+        {ROLE_TIERS.map((row) => (
+          <div key={row.role} className="flex gap-4 mb-3 items-start">
+            <span className={`shrink-0 w-10 h-10 rounded-lg flex items-center justify-center text-lg font-bold ${
+              row.tier === 'S' ? 'bg-amber-500/20 text-amber-400' :
+              row.tier === 'A' ? 'bg-green-500/20 text-green-400' : 'bg-blue-500/20 text-blue-400'
+            }`}>{row.tier}</span>
+            <div>
+              <div className="text-sm font-medium text-white">{row.role}</div>
+              <p className="text-xs text-gray-500">{row.note}</p>
+            </div>
+          </div>
+        ))}
+      </section>
+
+      <section className="mb-12">
+        <h2 className="text-2xl font-bold text-white mb-6">Skill Function Rankings</h2>
+        {FUNCTION_TIERS.map((row) => (
+          <div key={row.function} className="flex gap-4 mb-3 items-start">
+            <span className={`shrink-0 w-10 h-10 rounded-lg flex items-center justify-center text-lg font-bold ${
+              row.tier === 'S' ? 'bg-amber-500/20 text-amber-400' :
+              row.tier === 'A' ? 'bg-green-500/20 text-green-400' :
+              row.tier === 'B' ? 'bg-blue-500/20 text-blue-400' : 'bg-gray-500/20 text-gray-400'
+            }`}>{row.tier}</span>
+            <div>
+              <div className="text-sm font-medium text-white">{row.function}</div>
+              <p className="text-xs text-gray-500">{row.note}</p>
+            </div>
+          </div>
+        ))}
+      </section>
+
+      <section className="mb-12">
+        <h2 className="text-2xl font-bold text-white mb-6">Rarity Priorities</h2>
+        <div className="space-y-2">
+          {RARITY_TIERS.map((row) => (
+            <div key={row.rarity} className="flex gap-4 items-start bg-[#1a1a3e] border border-[#2a2a5e] rounded-lg px-4 py-3">
+              <div className="text-sm font-medium text-white shrink-0 w-24">{row.rarity}</div>
+              <p className="text-xs text-gray-400">{row.use}</p>
             </div>
           ))}
-        </section>
-      ))}
+        </div>
+      </section>
 
       <div className="bg-[#1a1a3e] border border-[#2a2a5e] rounded-lg p-5">
-        <h3 className="text-white font-semibold mb-2">A Note on Tier Lists</h3>
+        <h3 className="text-white font-semibold mb-2">Why This Tier List Has No Skill Names</h3>
         <p className="text-gray-400 text-sm leading-relaxed">
-          SpiritVale launches July 10, 2026. All six weapons are viable — weapon mastery
-          and EX-Mod optimization matter more than tier rankings. Pick the playstyle you enjoy most.
+          Skills &amp; Raids contains 30 skills (15 in the demo), but the full roster is not publicly
+          documented — so a genuine skill-by-skill tier list cannot exist yet, and skill names circulating
+          online are largely fabricated. What we can rank honestly is what the game itself confirms: fixed
+          roles, skill functions, and the five rarity tiers. As the community documents the roster, this
+          page will be updated with real names and numbers. See the <a className="text-amber-400 hover:text-amber-300" href="/guides/tier-list">full tier list guide</a> for details.
         </p>
       </div>
     </div>

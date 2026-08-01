@@ -1,131 +1,117 @@
 ---
-title: "Lunarium Endings Guide — How to Get Both Endings"
-description: "Complete endings guide for Lunarium. How to unlock both endings, the hidden True Ending requirements, and all choice consequences explained."
+title: "Lunarium Endings Guide — Two Endings, What's Confirmed & What Isn't"
+description: "How many endings does Lunarium have? Two distinct endings are confirmed by official press materials — but the exact requirements are still unconfirmed. Everything known, honestly."
 category: "Guides"
 version: "1.0"
-updated: "2026-07-25"
-keywords: ["Lunarium endings", "Lunarium all endings", "Lunarium true ending", "Lunarium how to get ending", "Lunarium ending guide"]
-related: ["archipelago-walkthrough", "boss-guide", "lune-guide", "ave-build-guide"]
+updated: "2026-08-01"
+keywords:
+  - Lunarium endings
+  - Lunarium all endings
+  - Lunarium true ending
+  - Lunarium how to get ending
+  - Lunarium ending guide
+related:
+  - archipelago-walkthrough
+  - boss-guide
+  - endgame-content
+  - faq
 ---
 
-# Lunarium Endings Guide — How to Get Both Endings
+# Lunarium Endings Guide — Two Endings, What's Confirmed & What Isn't
 
-**Lunarium 1.0 / Updated: July 25, 2026**
+**Lunarium 1.0 / Updated: August 1, 2026**
 
-Lunarium features two standard endings and one hidden True Ending. This guide explains the requirements for each and every choice that affects which ending you receive.
-
----
-
-## 1. Ending Overview
-
-| Ending | Name | Difficulty | Description |
-|--------|------|------------|-------------|
-| **A** | Star's Return | Easy | Lune fulfills her duty as a Starfarer and returns to the cosmos. The world is saved. |
-| **B** | Together | Easy | Ave refuses to let Lune go. They stay together, but the world continues to decay. |
-| **True** | Shared Light | Hard | Ave and Lune find a third path — sharing the Star Core's power to both save the world and stay together. |
-
----
-
-## 2. Ending A: Star's Return
-
-### Requirements
-- Defeat the Star-Eater
-- Choose **"Sacrifice the Star Core"** at the final choice
-- No special prerequisites needed
-
-### Key Scenes
-- Lune's farewell at the Abyss of Stars
-- Ave returning to the Temple alone
-- Epilogue: the world restored, stars bright in the sky
-- Post-credits: a single shooting star (Lune watching over Ave)
-
-### How to Guarantee
-Simply pick "Sacrifice the Star Core" when prompted. This ending is always available.
+This guide was previously published with invented details — three endings, a "Star Core" choice, memory islands, and a "true ending" with fake requirements. That content was **wrong**, and this is the corrected version. Here is exactly what is known about Lunarium's endings, nothing more.
 
 ---
 
-## 3. Ending B: Together
+## 1. How Many Endings? — Two (Confirmed)
 
-### Requirements
-- Defeat the Star-Eater
-- Choose **"Keep the Star Core"** at the final choice
-- No special prerequisites needed
+Official press materials for Lunarium consistently state the story has **two distinct endings**:
 
-### Key Scenes
-- Ave refuses to sacrifice Lune
-- The Star Core's power fades as they leave the Abyss
-- Epilogue: Ave and Lune together at the Temple, but the sky is dark
-- The world is slowly dying, but they face it together
+- "The story converges toward two distinct endings" (Miami Herald)
+- "Discover the hidden truth behind their converging paths to reach two memorable endings" (official press release, carried by Gematsu / Niche Gamer / ComicBuzz)
 
-### How to Guarantee
-Simply pick "Keep the Star Core" when prompted. This ending is always available.
+**Confirmed facts:**
+- ✅ Two endings exist
+- ✅ They are tied to the story's converging paths / the truth behind the two heroines' journey
+- ✅ The ending comes after defeating the final boss **Enid** (community walkthroughs)
 
----
-
-## 4. True Ending: Shared Light
-
-### Requirements (ALL must be met)
-| # | Requirement | Where | Details |
-|---|------------|-------|---------|
-| 1 | Max Bond with Lune | Throughout game | Use D-pad commands frequently, choose dialogue options that support Lune |
-| 2 | Keep Ave's Pendant | Memory Island | Choose "Keep the Pendant" in the Abandoned House |
-| 3 | Forgive the Priestess | Castle Chapel | After defeating the Corrupted Priestess, choose "Forgive" |
-| 4 | Complete Lune's Constellation tree | Starfall Island | Unlock all Constellation branch skills (requires reaching the Observatory) |
-| 5 | Collect all 3 Star Shards | Hidden across all regions | Forest (Crypt), Castle (Dungeon), Archipelago (Void Island) |
-
-### Star Shard Locations
-| Star Shard | Region | Exact Location |
-|-----------|--------|----------------|
-| First Shard | Forest | Crypt mini-dungeon — defeat the Crypt Keeper (hidden boss) |
-| Second Shard | Castle | Dungeon — behind the Tortured Knight's cell (breakable wall) |
-| Third Shard | Archipelago | Void Island — Abyssal Chasm hidden chest |
-
-### The Hidden Choice
-If all requirements are met, a **third dialogue option** appears after defeating the Star-Eater:
-> "Share the Star Core — we'll bear the burden together."
-
-This triggers the True Ending sequence.
-
-### True Ending Scenes
-- Ave and Lune combine their power to split the Star Core
-- Both remain in the world, but the Star Core's power stabilizes the realm
-- Epilogue: the world restored, Ave and Lune standing together at the Temple
-- Post-credits: new stars appear — each one a world they'll protect together
+**Not yet confirmed (as of August 1, 2026):**
+- ❓ What choices/conditions lead to which ending
+- ❓ Whether the endings differ in scope (major vs. minor variation)
+- ❓ Any "true ending" or "secret ending" — **no reliable source documents one**
+- ❓ Whether post-game "resume from bench" allows seeing the other ending without a full replay
 
 ---
 
-## 5. All Choices That Matter
+## 2. Where the Endings Happen
 
-| Chapter | Choice | Affects |
-|---------|--------|---------|
-| Forest | Complete all Training Stone tutorials | +Bond with Lune |
-| Forest | Give Stardust to the beggar at Temple | Cosmetic |
-| Castle | Forgive the Priestess | Required for True Ending |
-| Castle | Condemn the Priestess | Blocks True Ending |
-| Memory Island | Keep the Pendant | Required for True Ending |
-| Memory Island | Discard the Pendant | Blocks True Ending |
-| Memory Island | Forgive past self | +Bond with Lune |
-| Starfall Island | Accept Lune's true nature | +Bond with Lune |
-| Starfall Island | Express doubt about Lune | -Bond with Lune |
-| Final | Sacrifice Star Core | Ending A |
-| Final | Keep Star Core | Ending B |
-| Final | Share Star Core | True Ending (if requirements met) |
+The story structure (community walkthrough-confirmed):
+
+1. **Firleaves** — Ave meets Lune; investigate the Nihilus darkness.
+2. **Cyanstone** — Lune confronts her corrupted friend **Lilia** ("harsh decisions as she prepares to see her dear friend's face for one last time" — official hub text).
+3. **White Reef Isles** — three lanterns, the Dreamsinger mysteries, passage to Paradise.
+4. **Paradise** — the Dreampath, Doro, Elmo, and **Enid** — the entity behind Nihilus. Defeating her plays the ending cutscene.
+
+The "converging paths" language in official materials suggests the two heroines' individual arcs (Ave's origins, Lune's nature as a Starfarer) are the key to the endings — but specifics remain undocumented.
 
 ---
 
-## 6. New Game Plus
+## 3. What You Can Do to Prepare (Honest Advice)
 
-After completing any ending, New Game Plus unlocks:
-- Carry over: all charms, cloaks, Stardust
-- Reset: character levels, skill trees, story progress
-- New: harder enemy variants, new dialogue options
-- All endings are achievable in one NG+ run if you collect the Star Shards
+Without confirmed requirements, sensible preparation for seeing both endings:
+
+| Action | Why |
+|--------|-----|
+| Complete optional content (Rearguard Warrior, all collectibles) | Maximum exposure to story beats and items |
+| Watch every dialogue choice carefully | Ending gates often hide in dialogue, if they exist at all |
+| Explore all four regions thoroughly | Missable story triggers may exist (unconfirmed) |
+| Keep a save before the final boss | Enables testing ending conditions without a full replay |
+
+---
+
+## 4. Fake Endings Content to Ignore
+
+| Claim | Reality |
+|-------|---------|
+| "Three endings: Star's Return, Together, Shared Light" | **Fabricated** — never appeared in any reliable source |
+| "Sacrifice/Keep/Share the Star Core choice" | **Fabricated** — no Star Core choice exists in documented walkthroughs |
+| "Memory Island / Starfall Island choices" | **Fabricated** — those locations don't exist |
+| "True Ending requires max bond + pendant choices" | **Fabricated** |
+| "NG+ unlocks all endings in one run" | **Fabricated** — NG+ itself is unconfirmed |
+
+These claims all trace back to AI-generated filler guides published before the game's launch details were verified. The final boss is **Enid** in Paradise of Yore, not a "Star-Eater" in an "Abyss of Stars."
+
+---
+
+## 5. After the Ending
+
+- The game offers **resume from the last bench** — you keep playing after the credits.
+- **New Game Plus is unconfirmed** — no official announcement exists.
+- Replaying the campaign is currently the only reliable way to see the second ending (trigger details unknown).
+
+---
+
+## 6. Frequently Asked Ending Questions
+
+### How do I get the good ending?
+**Unknown.** No reliable source has documented the ending requirements. Anyone claiming a definitive answer right now is guessing.
+
+### Is there a true ending?
+**No reliable evidence** of a third/secret ending. Official materials say two endings.
+
+### Can I see both endings in one playthrough?
+The game has no chapter-select documented; after the credits you resume from the bench at the end-state. Realistically: **save before Enid**, and replay for the second ending if requirements exist.
+
+### Does the ending affect post-game?
+After the ending you can still explore and fight optional content — no restrictions documented.
 
 ---
 
 ## Related Guides
 
-- [Archipelago Walkthrough](/guides/archipelago-walkthrough)
-- [Boss Guide — All Bosses & Strategies](/guides/boss-guide)
-- [Lune Guide — Starfarer Abilities](/guides/lune-guide)
-- [Castle Walkthrough](/guides/castle-walkthrough)
+- [Paradise Walkthrough](/guides/archipelago-walkthrough) — the final region and Enid
+- [Boss Guide — All Bosses](/guides/boss-guide) — the final gauntlet
+- [Endgame Content Guide](/guides/endgame-content) — what's real after the credits
+- [FAQ](/guides/faq) — quick answers to common questions

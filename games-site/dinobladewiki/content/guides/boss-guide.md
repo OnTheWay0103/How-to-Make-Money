@@ -1,185 +1,116 @@
 ---
-title: "Dinoblade Boss Guide — All Boss Strategies and Patterns"
-description: "Defeat every Dinoblade boss with attack pattern breakdowns, parry timing tables, elemental weaknesses, and strategies for Kira, Axe, and Kasei the Tyrant."
+title: "Dinoblade Boss Guide — Kira the Exile, Axe, and Kasei the Tyrant"
+description: "Verified boss strategies for Dinoblade's three main bosses — attack patterns, parry windows, Instinct Counter timing, and what each boss teaches you."
 category: "Bosses"
 version: "1.0"
-updated: "2026-07-19"
+updated: "2026-08-01"
 keywords:
   - Dinoblade bosses
   - Kira the Exile
-  - Axe ankylosaur
+  - Axe boss
   - Kasei the Tyrant
+  - how to beat kira the exile
+  - how to beat kasei the tyrant
   - boss patterns
-  - parry timing
-  - elemental weaknesses
 related:
   - parry-guide
-  - builds-guide
-  - weapons-guide
-  - secrets-guide
+  - beginner-guide
+  - soul-arts-guide
+  - boss-rush-guide
 ---
 
-# Dinoblade Boss Guide — All Boss Strategies and Patterns
+# Dinoblade Boss Guide — Kira the Exile, Axe, and Kasei the Tyrant
 
-Dinoblade's bosses are formidable prehistoric predators, each with unique movesets, phases, and elemental weaknesses. This guide breaks down every boss encounter with attack pattern tables, parry windows, and recommended loadouts so you can hunt them efficiently.
+Dinoblade's campaign has three main bosses, each ruling one part of the world. Every boss follows the game's core **posture-and-parry logic** — Resolve bars, Instinct Counters, and phase transitions — so the same fundamentals apply to all three.
 
----
-
-## 1. Kira the Exile
-
-**Location:** Jurassic Plains — Exile's Nest
-**Weakness:** Heavy weapons (stagger)
-**Resistance:** Bleed
-**Recommended Level:** 15-20
-
-Kira is a raptor-like dinosaur, fast and aggressive. She uses hit-and-run tactics and becomes significantly more dangerous in phase 2.
-
-### Phase 1 Attack Patterns
-
-| Attack | Description | Parryable? | Dodge Direction |
-|--------|-------------|-----------|----------------|
-| Claw Swipe (1-3 hit combo) | Three quick swipes in succession | 3rd hit only | Backwards or sideways |
-| Tail Sweep | Wide 180-degree sweep behind | Yes | Roll through toward Kira |
-| Leaping Bite | Lunges forward with jaws open | Yes | Sideways, then punish |
-| Kick | Short-range push kick, interrupts combos | No | Backwards |
-
-### Phase 2 (Rage Mode at 50% HP)
-
-Kira's scales flash red and she gains new attacks:
-
-| Attack | Description | Parryable? | Notes |
-|--------|-------------|-----------|-------|
-| Shadow Clone | Creates a clone that attacks 1 second after the real attack | No | Focus on the real Kira — the clone deals less damage |
-| Rage Leaping Bite | Faster leaping bite with extended range | Yes (tight) | Parry window is 6 frames instead of 8 |
-| Frenzy Combo | 5-hit rapid attack chain | Last hit only | Block the first 4, parry the last |
-
-### Strategy
-
-- **Use a Greatsword or War Hammer.** Kira staggers after 3 heavy attacks, giving you a free riposte.
-- **Dodge her leaping bite sideways**, then punish with 1-2 light attacks. Do not overcommit.
-- **In phase 2, watch for the shadow clone.** When Kira pauses and flickers, roll immediately — the clone attack is coming.
-- **Parry her claw swipe combo.** Block the first two swipes and parry the third. This is the safest parry window.
-- **Rewards:** Kira's Soul (unlocks Boss Soul Summon), Exile Claw (crafting material), 2,500 XP.
+**Honesty note:** the details below come from verified walkthroughs and launch coverage. Where specifics are unconfirmed, they're marked TBD. Treat any guide claiming exact boss HP, damage numbers, or "phase 2 at X% HP" for unverified fights with suspicion.
 
 ---
 
-## 2. Axe
+## Boss Rules That Apply to Every Fight
 
-**Location:** Ancient Forest — Grove of Stone
-**Weakness:** Lightning damage
-**Resistance:** Physical damage (armored hide)
-**Recommended Level:** 25-30
-
-Axe is a colossal ankylosaur with a bone-crushing club tail. Slow but devastating, this fight tests your patience and positioning.
-
-### Phase 1 Attack Patterns
-
-| Attack | Description | Parryable? | Dodge Direction |
-|--------|-------------|-----------|----------------|
-| Club Tail Sweep | Wide swing covering 270 degrees in front | Yes | Roll behind Axe |
-| Ground Slam | Stomps forelegs, creating shockwave | Yes | Jump or roll through |
-| Charge | Lowers head and charges forward | Yes | Sideways (tight window) |
-| Tail Smash | Overhead club slam, high damage | No | Roll sideways |
-
-### Phase 2 (Armored at 40% HP)
-
-Axe's hide hardens, reducing physical damage by 40%. New attacks:
-
-| Attack | Description | Parryable? | Notes |
-|--------|-------------|-----------|-------|
-| AoE Shockwave | Stomps ground, 3 expanding rings | No | Jump each ring or roll through |
-| Armored Charge | Faster charge with armor, cannot be staggered during | No (block instead) | Use lightning-enhanced weapon |
-| Tail Slam Combo | Two tail slams in quick succession | No | Dodge both, then attack |
-
-### Strategy
-
-- **Equip lightning damage.** Lightning-infused weapons or consumable lightning resins deal 1.5x damage to Axe. The [Weapons Guide](/guides/weapons-guide) lists which weapons can be infused.
-- **Stay behind Axe.** Most of his attacks hit in front or to the sides. His rear is safe except for the tail sweeps.
-- **Parry the Charge.** This has a generous 12-frame parry window — the easiest parry in the fight. Use it to close distance and land a riposte.
-- **In phase 2, sprint away when he stomps.** The AoE shockwaves are easier to outrun than to dodge.
-- **Punish the Ground Slam.** After a failed ground slam, Axe is stunned for 2 seconds. Use a charged heavy attack.
-- **Rewards:** Axe's Soul (unlocks second Boss Soul Summon), Sturdy Tail Shard (Ex-Mod material), 4,000 XP.
+1. **Fill the Resolve bar with parries.** Every boss has a Resolve bar. Successful parries fill it; when it's full, you land a heavy finishing blow.
+2. **Instinct Counter is the damage key.** When a boss's Resolve bar is full, a perfectly timed parry on their attack triggers a powerful counterattack "clash" that deals massive damage. This is *the* boss mechanic — the game teaches it explicitly before your first boss. Wait for a real attack animation and time your parry; do not spam block when the bar is full.
+3. **Unblockable attacks must be dodged.** Not everything can be parried — boss coverage confirms unblockable attacks exist.
+4. **Perfect parries restore stamina and Resonance**, so an aggressive parry game keeps your resources topped up across a long fight.
+5. **Bosses have phase transitions** and higher Resolve pools than regular enemies.
 
 ---
 
-## 3. Kasei the Tyrant
+## Boss 1: Kira the Exile (Part 1 — the cavern)
 
-**Location:** Volcanic Wastes — Tyrant's Caldera
-**Weakness:** Ice damage
-**Resistance:** Fire damage
-**Recommended Level:** 40-50
+Kira is the first main boss, fought at the end of the opening cavern. He is the game's teaching fight: his telegraphed moveset is designed to make you practice the Instinct Counter.
 
-Kasei is the final boss — a massive Tyrannosaurus Rex with devastating fire attacks and three distinct phases. This is the ultimate test of everything you've learned.
+**Confirmed attack patterns:**
 
-### Phase 1 Attack Patterns
+- **Three-hit combo** — telegraphed and punishable; parry timing is learnable across the three swings.
+- **Charging attacks** — Kira charges into a ground explosion. Dodge or parry the approach, then punish.
 
-| Attack | Description | Parryable? | Dodge Direction |
-|--------|-------------|-----------|----------------|
-| Bite Lunge | Quick forward bite with extended reach | Yes (very tight) | Sideways |
-| Stomp | Lifts leg and slams down | Yes | Roll toward Kasei's other leg |
-| Tail Whip | 360-degree tail spin | Yes (expert timing) | Jump or roll through |
-| Head Swing | Side-to-side head sweep, hits twice | No | Back up |
+**Strategy:**
 
-### Phase 2 (Fire Awakening at 65% HP)
+- Do not rush the fight. Block his combo strings first, learn the rhythm, then start parrying.
+- When his Resolve bar is full, wait for a real attack and perfect-parry it — this triggers the Instinct Counter and deals far more damage than anything else you have.
+- Use i-frames for his charge; the ground explosion has a wider hitbox than it looks.
 
-Kasei breathes fire and calls meteors:
+**Rewards (confirmed):** defeating Kira unlocks the **Summoning system** and access to **Soul Arts upgrades** purchased with **Boss SP** (earned from boss victories).
 
-| Attack | Description | Parryable? | Notes |
-|--------|-------------|-----------|-------|
-| Fire Breath | Wide cone of fire, 3-second duration | No | Sprint sideways, do not roll through |
-| Meteor Call | Summons fire meteors from the sky, 5 strikes | No | Watch shadows, dodge each impact |
-| Fire Stomp | Stomp that leaves burning ground for 8 seconds | No | Avoid the fire pools |
-| Bite Lunge (empowered) | Faster bite with fire damage | Yes (very tight) | Same timing as phase 1 |
+## Boss 2: Axe (Part 2 — the northern paths)
 
-### Phase 3 (Enrage at 30% HP)
+Axe is a melee-focused boss fought after the northern paths section.
 
-Kasei enters a frenzy. Everything is faster and harder.
+**Confirmed attack patterns:**
 
-| Attack | Description | Parryable? | Notes |
-|--------|-------------|-----------|-------|
-| Grab Bite | Lunges and grabs, massive damage | No (run away) | One of the deadliest attacks — sprint backward when you see the tell |
-| Enrage Combo | Bite + Head Swing + Tail Whip in rapid succession | Tail Whip only | Block or dodge the first two, parry the whip |
-| Rage Meteor | 8 meteors instead of 5, faster descent | No | Requires precise dodging |
-| Fire Breath (extended) | 5-second cone that tracks your movement | No | Sprint perpendicular to Kasei |
+- **Spinning combos** — multi-hit spins with wide arcs.
+- **Diagonal slashes** — fast, angled strikes.
+- **Jumping attacks** with AoE on landing.
 
-### Strategy
+**Strategy:**
 
-- **Equip ice damage.** Ice weapons or ice resins deal 1.5x damage to Kasei. The Volcanic Hammer (see [Secrets Guide](/guides/secrets-guide)) can be infused with ice for excellent results.
-- **Wear fire-resistant armor.** The Volcanic Armor set (found in Volcanic Wastes) provides 60% fire resistance. Without it, the fire breath can one-shot you.
-- **Phase 1 is a patience game.** Only attack after his Bite Lunge or Stomp. Two light attacks, then back off. Never stand in front of his mouth.
-- **Phase 2: control the battlefield.** When Kasei summons meteors, keep moving. When he breathes fire, sprint perpendicular. Use the openings after Fire Breath to land 2-3 heavy attacks.
-- **Phase 3: survival first.** The Grab Bite has a clear tell — Kasei rears back and roars. Sprint away the moment you see this. Use Boss Soul Summons (see below) to create breathing room.
-- **Parry the Tail Whip in phase 3** for a 2-second riposte window — your best damage opportunity in this phase.
-- **Rewards:** Kasei's Soul (final Boss Soul Summon), Tyrant's Heart (legendary Ex-Mod material), 10,000 XP, Dinoblade achievement "Tyrant Slayer."
+- **The final swing of his spinning combo is the easiest attack to parry** — verified in walkthrough coverage. Wait for the last hit of the spin, parry it, and take your riposte/finishing blow.
+- Dodge his heavy strikes and jumping attacks (dodge the landing AoE rather than standing in it).
+- Punish the openings after his whiffed heavy attacks.
 
----
+**Rewards (confirmed):** absorbing Axe's soul unlocks the path forward. The **Axe summon** (available after defeating him) boosts your stamina recovery — one of the most useful summons in the game.
 
-## Optional Secret Boss: The Forgotten One
+## Boss 3: Kasei the Tyrant (Part 3 — the mountain caves)
 
-**Location:** Crystal Caverns — Depths Below (requires key dropped by a hidden miniboss)
-**Weakness:** All elements (no resistance)
-**Recommended Level:** 50+
+Kasei is the final boss, fought in the mountain caves. He has **two phases**.
 
-The Forgotten One is an enormous spinosaurid wreathed in crystal. Defeating it rewards the **Soul Reaper** scythe — one of the best weapons in the game. See the [Secrets Guide](/guides/secrets-guide) for how to access this fight.
+**Phase 1 (confirmed):** fire-based attacks, sweeping tail strikes, charges, and powerful slam attacks.
+
+**Phase 2 (confirmed):** when his health drops **below one-third**, he switches to a **massive greatsword** and gains fast gap-closing attacks, sword throws, and heavy melee combos. His jump slashes in phase 2 are **parryable**.
+
+**Strategy:**
+
+- **Stay close to Kasei's side** — his frontal fire attacks and tail sweeps are the dangerous tools; positioning at his flank avoids much of the kit.
+- **Dodge his unblockable attacks** (phase 2 gap-closers and sword throws) with roll i-frames — do not try to parry everything in phase 2.
+- **Parry when opportunities arise** — his phase 2 jump slashes are the confirmed parry windows.
+- **Punish his openings** — after sword throws and missed gap-closers, Kasei is vulnerable.
+
+**Note:** some coverage describes the finale as the paired fight "**Axe and Kasei the Tyrant**" — if the final encounter pairs them, apply both fights' lessons and prioritize the aggressive Kasei while kiting Axe. Exact fight structure TBD.
+
+**Rewards (confirmed):** defeating Kasei unlocks **Boss Rush mode** and completes the campaign. Defeated bosses can be summoned going forward.
 
 ---
 
-## Recommended Boss Order
+## Boss Order Summary
 
-1. **Kira the Exile** (Jurassic Plains) — Level 15-20
-2. **Axe** (Ancient Forest) — Level 25-30
-3. **The Forgotten One** (Crystal Caverns, optional) — Level 50+
-4. **Kasei the Tyrant** (Volcanic Wastes) — Level 40-50
+| # | Boss | Part | Key Lesson |
+|---|------|------|-----------|
+| 1 | Kira the Exile | Cavern | Instinct Counter timing |
+| 2 | Axe | Northern paths | Parry the final swing of the spin |
+| 3 | Kasei the Tyrant | Mountain caves | Two phases; parry jump slashes, dodge the rest |
 
-Note that the optional secret boss is actually harder than Kasei. We recommend facing Kasei first, then tackling The Forgotten One as post-game content.
+## Pre-Boss Checklist
 
----
-
-Launch Version / Updated: July 19, 2026
+1. **Refill healing charges** at the last Save Stone before the boss arena.
+2. **Adjust your attributes** — the game lets you tune your character's attributes before boss fights.
+3. **Spend Boss SP** on a Soul Art that matches the fight (see the [Soul Arts Guide](/guides/soul-arts-guide)).
+4. **Warm up your parry** on regular enemies before the fog door.
 
 ## Related Guides
 
-- [Parry Guide](/guides/parry-guide) — Frame data for every boss parry window
-- [Builds Guide](/guides/builds-guide) — Optimal stat allocations for boss hunting
-- [Weapons Guide](/guides/weapons-guide) — Best weapons for each boss weakness
-- [Secrets Guide](/guides/secrets-guide) — How to find the secret boss and hidden weapons
+- [Parry Guide](/guides/parry-guide) — Perfect parry timing and the Resolve loop
+- [Beginner Guide](/guides/beginner-guide) — Core combat basics
+- [Soul Arts Guide](/guides/soul-arts-guide) — What Boss SP buys
+- [Boss Rush Guide](/guides/boss-rush-guide) — The mode unlocked after Kasei

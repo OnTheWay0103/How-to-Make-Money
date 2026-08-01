@@ -1,179 +1,96 @@
 ---
-title: "Dinoblade Combat Advanced Guide — Frame Data, Stamina Management, and Mechanics"
-description: "Advanced combat mechanics for Dinoblade players. Master frame data analysis, stamina economy, animation canceling, status effect stacking, and perfect parry timing against every enemy type."
+title: "Dinoblade Advanced Combat Guide — Parry Economy, Resonance & Instinct Counters"
+description: "Take Dinoblade combat deeper — the parry-and-Resolve economy, Resonance management, Instinct Counter routing, and unblockable discipline."
 category: "Advanced"
 version: "1.0"
-updated: "2026-07-27"
+updated: "2026-08-01"
 keywords:
   - Dinoblade advanced combat
-  - Dinoblade frame data
-  - Dinoblade stamina management
   - Dinoblade parry timing
+  - Dinoblade Resonance
   - Dinoblade combat mechanics
+  - Dinoblade Instinct Counter
 related:
   - parry-guide
-  - weapons-guide
+  - soul-arts-guide
   - builds-guide
   - boss-guide
-  - controls-guide
 ---
 
-# Dinoblade Combat Advanced Guide — Frame Data, Stamina Management, and Mechanics
+# Dinoblade Advanced Combat Guide — Parry Economy, Resonance & Instinct Counters
 
-This guide is for players who have beaten Dinoblade at least once and want to master the combat system at a deeper level. It covers frame data, stamina economy, animation canceling, status effect interactions, and advanced parry timing against every enemy type.
+This guide is for players who have beaten Dinoblade's campaign and want to play the combat system at a deeper level. Dinoblade is not a frame-data game — its depth comes from **resource economy**: parries that restore what attacks spend, and a Resolve loop that converts defense into massive damage windows.
 
----
+**Honesty note:** no official frame data (parry window lengths, i-frame counts, poise values) has been published for Dinoblade. Any guide printing frame tables is unverified. What follows is built on confirmed mechanics from the tutorial, walkthroughs, and launch coverage.
 
-## 1. Stamina Management
+## 1. The Resource Economy
 
-Stamina is the single most important resource in Dinoblade combat. Running out of stamina even once in a boss fight is often fatal.
+Dinoblade runs on two resources:
 
-### 1.1 Stamina Costs by Action
+- **Stamina** — spent on attacking, blocking, dodging, and sprinting. Exhausted stamina means no defense.
+- **Resonance** — the blue bar under your health that powers special attacks (Soul Arts) and charged attacks.
 
-| Action | Stamina Cost | Base Recovery Delay |
-|--------|-------------|---------------------|
-| Light Attack | 8 | 0.3s |
-| Heavy Attack | 25 | 0.8s |
-| Dodge Roll | 15 | 0.2s |
-| Sprint | 10/sec | 1.0s after stopping |
-| Parry (success) | 10 | 0.0s (instant recover) |
-| Parry (fail) | 30 | 1.5s (stagger state) |
-| Jump Attack | 20 | 0.5s |
-| Block | 5/sec hit | — |
+**The economy loop (confirmed):**
 
-### 1.2 Stamina Breakpoint Strategy
+1. **Perfect parries restore stamina and Resonance.** This is the game's engine: the better your parry timing, the more you can spend on offense.
+2. **Charged heavy attacks** launch a ranged fire projectile that costs **5 Resonance plus stamina** — a strong ranged option against scythe, trident, and hammer enemies, but a real Resonance expense. Use it when enemies are recovering or at distance, not mid-pressure.
+3. **Blocking** costs stamina per hit. A mistimed block (blocking too late) also costs stamina — and with low stamina, a mistimed block can leave you unable to dodge or attack.
 
-- **Always keep 20 stamina in reserve.** This is the minimum needed for an emergency dodge roll + one light attack.
-- **Recover stamina during boss attack wind-ups.** Bosses telegraph heavily. Use the 1–2 second window to lower your weapon and recover.
-- **Equip the Featherlight Boots** for +15% stamina recovery speed. This is the highest-impact accessory for advanced play.
-- **Never heavy attack at low stamina.** A heavy attack leaves you with 0 stamina for 0.8 seconds after recovery — long enough for most bosses to punish.
+**Advanced takeaway:** the fight isn't about your HP bar — it's about stamina and Resonance uptime. The player who lands perfect parries out-trades the player with more stats every time.
 
----
+## 2. The Resolve Loop
 
-## 2. Frame Data Reference
+Every enemy has a **Resolve bar** (their posture/stagger meter):
 
-Frame data refers to the number of animation frames (at 60 FPS) each combat action takes. Understanding frame data allows precise trade optimization.
+1. Parries fill the Resolve bar.
+2. When it's full, you land a **heavy finishing blow**.
+3. **Against bosses:** a full Resolve bar plus a perfectly timed parry on a real attack triggers the **Instinct Counter** — a powerful counterattack "clash" that deals massive damage.
 
-### 2.1 Weapon Frame Data
+**Advanced routing:** don't parry indiscriminately. Route your parries to fill the bar, then *save your next parry for the boss's real attack* when the bar is full — the Instinct Counter is the highest-value window in the game. Parrying weak attacks with a full bar wastes the mechanic. This is taught before Kira the Exile and it's the skill that separates clean boss runs from slogs.
 
-| Weapon Type | Startup Frames | Active Frames | Recovery Frames | Total Duration |
-|-------------|---------------|---------------|-----------------|----------------|
-| Dagger (Light) | 4 | 3 | 6 | 13f |
-| Dagger (Heavy) | 8 | 5 | 12 | 25f |
-| Sword (Light) | 6 | 4 | 8 | 18f |
-| Sword (Heavy) | 12 | 6 | 14 | 32f |
-| Greatsword (Light) | 10 | 6 | 12 | 28f |
-| Greatsword (Heavy) | 18 | 8 | 20 | 46f |
-| Spear (Light) | 7 | 5 | 10 | 22f |
-| Spear (Heavy) | 14 | 7 | 16 | 37f |
+## 3. Unblockable Discipline
 
-### 2.2 Key Frame Thresholds
+- **Some attacks cannot be parried** — coverage confirms unblockable attacks exist, and Kasei's phase 2 (greatsword gap-closers, sword throws) is the biggest example.
+- **Unblockables must be dodged** with roll i-frames.
+- **Advanced takeaway:** learn which attacks in each fight are unblockable *before* the fight matters — a single failed parry attempt on an unblockable is a death sentence in Boss Rush. Block the pattern once to test, then commit.
 
-- **Parry window:** 6 active frames at the start of the parry animation. This window does not change with weapon type.
-- **Dodge i-frames:** 10 frames of invincibility on a successful dodge roll. The last 3 frames have no i-frames — this is the "roll catch" window.
-- **Poise breakpoint:** 50+ poise allows you to attack through small enemy attacks without staggering.
-- **Recovery cancel window:** You can cancel recovery frames into a dodge roll starting at frame 60% of total recovery.
+## 4. Advanced Techniques (Confirmed Mechanics)
 
----
+### Parry Into Resource Spiral
 
-## 3. Animation Canceling
+Perfect parry → stamina + Resonance restored → spend Resonance on a charged fire projectile or Soul Art → the art or projectile forces an enemy recovery → parry again. This spiral is the game's highest-damage loop, and it works on every enemy with telegraphed attacks.
 
-Advanced combat relies on canceling recovery frames into more advantageous actions.
+### Finishing Blow Chaining
 
-### 3.1 Cancel Techniques
+On regular enemies, fill the Resolve bar, land the finishing blow, and immediately switch target. With pack enemies (raptors, hammer dinos), you can chain finishing blows across a group — the game's answer to crowd control.
 
-| Technique | Input | Use Case |
-|-----------|-------|----------|
-| Roll Cancel | Attack → Dodge Roll (during recovery) | Cancel slow weapon recovery into quick reposition |
-| Parry Cancel | Attack → Parry (during active frames) | Abort a whiffed attack into defensive stance |
-| Sprint Cancel | Attack → Sprint (after hit connects) | Hit-and-run tactics, avoid trading |
-| Jump Cancel | Attack → Jump (during recovery) | Situational, useful for aerial follow-ups |
+### Instinct Counter Windows
 
-### 3.2 When to Cancel
+The counter triggers on a *real attack animation* — don't spam block when the bar is full. Wait for the boss's committed swing, parry it, and the clash fires. Kira's three-hit combo, Axe's spin final swing, and Kasei's phase 2 jump slashes are the confirmed practice windows.
 
-- **Against slow enemies:** Use Sprint Cancel after Greatsword heavy attacks. Hit, sprint out, repeat.
-- **Against fast enemies (Raptor packs):** Roll Cancel after 2 light attacks. Never attempt a third hit.
-- **Against bosses:** Parry Cancel is the safest option. Attack once, be ready to parry the counter-attack.
+### Spacing With the Fire Projectile
 
----
+The charged heavy's projectile (5 Resonance) lets you fight reach weapons (scythes, tridents, hammers) on your terms: kite, fire, and punish the enemy's whiffed swing. It's also the only confirmed ranged tool, so learning its travel time matters for Part 2's enemy density.
 
-## 4. Status Effect System
+## 5. Death and Risk (Confirmed)
 
-Dinoblade has 5 status effects that can be stacked on enemies for bonus damage.
+- **You do not drop currency when you die.** Dinoblade's death penalty is deliberately forgiving (the "Soulslite" design).
+- **Advanced takeaway:** risk is free. Use deaths as pattern-learning runs — attack the boss aggressively once, read the responses, then plan the clean run. There is no penalty loop discouraging experimentation.
 
-### 4.1 Status Effects
+## 6. Matchup Notes (Confirmed)
 
-| Status | Build Method | Max Stacks | Effect at Max | Best Weapon |
-|--------|-------------|------------|---------------|-------------|
-| Bleed | Fast attacks (daggers, swords) | 5 | 15% max HP damage over 3 seconds | Dagger |
-| Fire | Fire-infused weapons | 3 | 5% max HP damage per second + reduced enemy attack | Torch Spear |
-| Frost | Frost-infused weapons | 4 | Enemy slow (-30% move speed) | Ice Sword |
-| Poison | Poison arrows, venom blade | 4 | 3% max HP per second for 10 seconds | Venom Dagger |
-| Stagger | Heavy attacks (Greatsword, Hammer) | 3 | Enemy falls down for 2 seconds | Greatsword |
-
-### 4.2 Optimal Effect Combinations
-
-- **Bleed + Poison (Dagger build):** Stack both DoTs for maximum sustained damage on bosses.
-- **Fire + Stagger (Greatsword build):** Fire reduces enemy attack while stagger gives you damage windows.
-- **Frost + Bleed (Sword build):** Slow enemies down while bleed deals damage. Excellent for kiting.
-- **Pure Stagger (Co-op):** One player stacks stagger while others deal raw damage.
-
----
-
-## 5. Advanced Parry Timing by Enemy Type
-
-Base Parry timings differ by enemy type. These reference values will help you land perfect parries consistently.
-
-### 5.1 Parry Windows by Enemy
-
-| Enemy Type | Attack Anticipation | Parry Timing | Window Tightness |
-|-----------|--------------------|-------------|------------------|
-| Raptor (bite) | 0.5s | Press parry 0.3s after telegraph | Forgiving |
-| Raptor (flank) | 0.8s | Press parry when raptor turns sideways | Moderate |
-| Armored Dino (charge) | 1.2s | Press parry 0.2s before impact | Tight |
-| Flying Enemy (dive) | 0.4s | Press parry immediately on screech audio cue | Very Tight |
-| Boss (basic) | 0.7–1.5s | Varies per boss — learn individual timing | Variable |
-| Boss (NG+ new move) | 0.3–0.6s | Visual cue only — audio cue is delayed | Extreme |
-
-### 5.2 Audio Cue Priority
-
-Some attacks can only be parried reliably using audio cues:
-
-1. **Screech attacks** (flying enemies): The screech sound plays exactly 0.4s before impact — parry on the sound.
-2. **Charge attacks** (armored enemies): The footstep rhythm quickens 0.3s before the final lunge — parry on the quickened step.
-3. **Boss roar AoE:** The roar audio peaks at the moment the hitbox becomes active. Parry during the peak.
-
----
-
-## 6. Build-Specific Combat Loops
-
-### 6.1 Precision Dagger Loop
-
-**Weapon:** Venom Dagger. **Style:** Hit-and-run DoT stacking.
-
-1. Open with Poison Blade (skill) to apply poison.
-2. Light attack twice to build bleed stacks.
-3. Roll Cancel to disengage.
-4. Wait 2 seconds for stamina recovery.
-5. Repeat until poison/bleed fall off.
-
-**Result:** 5 Bleed + 4 Poison stacks = 18% max HP per 10 seconds passively. Safe against all enemy types.
-
-### 6.2 Heavy Stagger Loop
-
-**Weapon:** Greatsword (Fire infusion). **Style:** Burst and punish.
-
-1. Heavy attack (Fire infusion builds stagger).
-2. If stagger procs, follow with charged heavy for massive damage.
-3. If no stagger, Sprint Cancel out. Wait for next opening.
-4. On second stagger proc, enemy falls. Use jumping heavy attack.
-
----
+| Matchup | Confirmed Notes |
+|---------|-----------------|
+| Raptor packs | Parry-chain finishing blows across the pack; AoE via charged heavies |
+| Scythe/hammer dinos | Out-range you — fire projectiles or dodge-throughs |
+| Kira | Telegraphed 3-hit combo; the Instinct Counter teaching fight |
+| Axe | Parry the final swing of the spinning combo; dodge jumping attacks' landing AoE |
+| Kasei (phase 1) | Fire attacks, tail sweeps, charges, slams — stay at his side |
+| Kasei (phase 2) | Greatsword kit; dodge unblockables, parry jump slashes |
 
 ## Related Guides
 
-- [Parry Guide](/guides/parry-guide) — Complete parry mechanics and practice routines
-- [Weapons Guide](/guides/weapons-guide) — Full weapon stats, upgrade paths, and infusion effects
-- [Builds Guide](/guides/builds-guide) — Optimized builds for every playstyle
-- [Boss Guide](/guides/boss-guide) — Boss attack patterns and parry windows
-- [Controls Guide](/guides/controls-guide) — Controller and keyboard bindings for advanced techniques
+- [Parry Guide](/guides/parry-guide) — Parry mechanics and practice drills
+- [Soul Arts Guide](/guides/soul-arts-guide) — What Resonance powers
+- [Builds Guide](/guides/builds-guide) — Playstyles built on the economy
+- [Boss Guide](/guides/boss-guide) — Boss-specific routing

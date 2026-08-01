@@ -4,21 +4,21 @@ import JsonLd from '@/components/JsonLd';
 import GuideCard from '@/components/GuideCard';
 
 const FEATURED_GUIDES = [
-  { title: 'Beginner Guide — Getting Started', description: 'New to DragonSword: Awakening? Learn the basics — tag-team combat, hero unlocks, familiars, and essential tips for your first 5 hours.', slug: 'beginner-guide', category: 'Beginner', updated: '2026-07-24' },
-  { title: 'Hero Tier List — Best Characters Ranked', description: 'Complete S to B-tier ranking of all 19 heroes. Theresia, Lute, Reina — who to invest in and why.', slug: 'tier-list', category: 'Tier List', updated: '2026-07-24' },
-  { title: 'How to Unlock All 19 Heroes', description: 'Every hero recruitment method — main story, side quests, hidden exploration, and secret dungeons. No gacha required.', slug: 'hero-unlock-guide', category: 'Heroes', updated: '2026-07-24' },
-  { title: 'Combat Guide — Signal Skills & Tag Team', description: 'Master the tag-team system: Signal Skills, status ailments, air combos, super armor breaking, and advanced combo chains.', slug: 'combat-guide', category: 'Combat', updated: '2026-07-24' },
-  { title: 'Boss Guide — All Story & World Bosses', description: 'Every boss fight strategy: Grassland Lesser Dragon, Barduk, Ursula, and all 9 World Bosses. Attack patterns and counters.', slug: 'boss-guide', category: 'Bosses', updated: '2026-07-24' },
-  { title: 'Best Equipment & Relics Guide', description: 'How gearing works: Relics, Karma equipment, weapon types, and the best loadouts for every hero role.', slug: 'equipment-guide', category: 'Equipment', updated: '2026-07-24' },
+  { title: 'Beginner Guide — Getting Started', description: 'New to DragonSword: Awakening? Learn the tag-team combat loop, your starting trio, Mercenary Ranks, and honest tips for the first hours.', slug: 'beginner-guide', category: 'Beginner', updated: '2026-08-01' },
+  { title: 'Hero Tier List — Best Characters Ranked', description: 'Early-meta hero rankings based on confirmed kits — Theresia, Castella, Lute, Aria, and the honest TBD list for unrevealed heroes.', slug: 'tier-list', category: 'Tier List', updated: '2026-08-01' },
+  { title: 'How to Unlock All 19 Heroes', description: 'No gacha, ever — the starting trio, confirmed roster, story unlocks, and the four confirmed post-launch free heroes.', slug: 'hero-unlock-guide', category: 'Heroes', updated: '2026-08-01' },
+  { title: 'Combat Guide — Signal Skills & Tag Team', description: 'Master the tag-team system: Signal Skills triggered by switching, confirmed status ailments, and Super Armor breaking.', slug: 'combat-guide', category: 'Combat', updated: '2026-08-01' },
+  { title: 'Boss Guide — Story, World & Origin Bosses', description: 'Verified boss roster: Orc Warrior, Furcas, Grassland Lesser Dragon, Barduk, Lich, Ursula — plus World Boss and Origin Dragon systems.', slug: 'boss-guide', category: 'Bosses', updated: '2026-08-01' },
+  { title: 'Best Equipment & Relics Guide', description: 'How gearing works: fixed hero weapons, Karma gear, relics, and honest upgrade direction with no invented numbers.', slug: 'equipment-guide', category: 'Equipment', updated: '2026-08-01' },
 ];
 
 const FAQ_ITEMS = [
-  { question: 'What is DragonSword: Awakening?', answer: 'DragonSword: Awakening is a buy-to-play anime open-world action RPG developed by Hound13 (former Dragon Nest producer). Set on the continent of Orbis, you lead a party of heroes to defeat a reawakened dragon. It launched July 22, 2026 on Steam for $29.99.' },
-  { question: 'Is it free-to-play or buy-to-play?', answer: 'Buy-to-play — $29.99 once, no gacha, no microtransactions beyond cosmetic DLC. All 19 heroes are unlocked through gameplay (story, side quests, exploration). Four more free heroes are coming post-launch.' },
-  { question: 'How many playable characters are there?', answer: '19 heroes at launch, each with unique weapons, abilities, and playstyles. You control a party of 3 and can swap between them mid-combat. Four additional heroes will be added for free in post-launch updates.' },
-  { question: 'How does the combat system work?', answer: 'Real-time tag-team combat built around Status Ailments and Signal Skills. Stack status effects (Bleed, Stun, Airborne, etc.) on enemies to trigger cinematic Signal Skill attacks from your benched heroes. No ultimate abilities — the Signal Skill loop replaces them.' },
-  { question: 'What are Familiars?', answer: 'Magical creatures that serve as mounts and provide passive bonuses. About 30 are available at launch — two-thirds are earnable in-game through exploration, world bosses, and cooking. They do not occupy party slots.' },
-  { question: 'Is there co-op multiplayer?', answer: 'Yes — optional co-op for exploration and raids with up to 3 players via invitation codes. The main story is single-player, but endgame raids support multiplayer.' },
+  { question: 'What is DragonSword: Awakening?', answer: 'DragonSword: Awakening is a buy-to-play anime open-world action RPG developed by South Korean studio HOUND13. Set on the continent of Orbis, you lead a party of heroes to defeat a dragon reawakened after 60 years. It launched July 22, 2026 on Steam for $29.99.' },
+  { question: 'Is it free-to-play or buy-to-play?', answer: 'Buy-to-play — $29.99 once ($44.98 Deluxe Edition), no gacha, no microtransactions for power. All 19 heroes are unlocked through gameplay. Four more free heroes are coming post-launch.' },
+  { question: 'How many playable characters are there?', answer: '19 heroes at launch, each with unique weapons, abilities, and playstyles. You control a party of 3 and can swap between them mid-combat. Four additional heroes (Ryza, Jerome, Veronica, Logan) will be added for free in the second half of 2026.' },
+  { question: 'How does the combat system work?', answer: 'Real-time tag-team combat built around Status Ailments and Signal Skills. Stack confirmed ailments (Stun, Break, Bleed, Burn, Airborne, Electrocution, Knockdown) on enemies, then switch heroes under the ailment state to trigger Signal Skills — there are no ultimate bars.' },
+  { question: 'What are Familiars?', answer: 'Collectible companion creatures. The Abyssal Direwolf is confirmed as a free DLC familiar. System details (count, mounting, combat role) are still unconfirmed and will be documented as they are verified.' },
+  { question: 'Is there co-op multiplayer?', answer: 'Yes — co-op for Battle (up to 2 players) and Raid (up to 3 players), host-based with no regional restrictions. The main story is single-player. There is no PvP at launch.' },
 ];
 
 export default function Home() {

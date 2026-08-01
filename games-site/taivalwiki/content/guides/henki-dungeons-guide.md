@@ -2,16 +2,18 @@
 title: "Henki Dungeons Guide: Solo Companion Challenges"
 description: "Everything you need to know about Henki Dungeons in Taival. How to access them, control your Henki solo, puzzle mechanics, combat challenges, and the exclusive rewards for completing each one."
 category: "Dungeons"
-updated: "2026-07-27"
+updated: "2026-08-01"
 ---
 
 # Taival — Henki Dungeons Guide
 
-> Early Access Version / Updated: July 27, 2027
+> Early Access Version / Updated: August 1, 2026
 
 Henki Dungeons are one of Taival's most unique features — self-contained challenge areas where you temporarily take direct control of your Henki companion instead of your character. These dungeons test your mastery of each Henki form through combat encounters, traversal puzzles, and environmental challenges.
 
 Completing Henki Dungeons unlocks exclusive form upgrades, new traits, and permanent bonuses that carry over to the main game.
+
+**Accuracy note (August 2026):** companion dungeons — challenges where you take direct control of your Henki — are a confirmed feature (retailer/store copy confirms "companion dungeons" where you control your Henki). The specific dungeon list, names, controls, bond penalties, and rewards below are community reports from Early Access and are unconfirmed (TBD).
 
 ---
 

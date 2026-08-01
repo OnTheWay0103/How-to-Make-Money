@@ -1,121 +1,104 @@
 ---
 title: 'Beginner Guide — Getting Started in Grain Rot'
-description: 'Complete beginner guide for Grain Rot. Learn the core loop — possess vessels, scavenge loot, fight Corrupted, upgrade your Outpost, and extract alive. Everything a new Spark needs to survive the first hour.'
+description: 'Beginner guide for Grain Rot. Learn the confirmed core loop — possess vessels, scavenge loot, fight Corrupted, rebuild the Outpost, and extract alive — with honest pre-release tips for new Sparks.'
+category: 'Guides'
+version: 'Pre-release'
+updated: '2026-08-01'
 keywords: ['grain rot beginner guide', 'grain rot getting started', 'grain rot tips', 'grain rot how to play', 'grain rot tutorial']
-updated: '2026-07-24'
+related: ['all-enemies-guide', 'co-op-guide', 'extraction-guide', 'demo-guide', 'game-mechanics-systems-guide']
 ---
 
 # Beginner Guide — Getting Started in Grain Rot
 
-Welcome to Grain Rot, the horror co-op extraction builder where you play as a **Living Spark** — a fragment of soul possessing fragile wooden vessels in a world consumed by rot. This guide covers everything you need to survive your first few runs.
+Welcome to Grain Rot, the horror co-op extraction builder where you play as a **Living Spark** — a fragment of soul inhabiting fragile wooden vessels in a scorched wasteland where everything burns. This guide covers everything confirmed about the game so you can start your first runs the right way. The game launches **August 7, 2026**; a free demo is available now on Steam.
 
 ## What Is Grain Rot?
 
-You and up to 3 friends descend via a cursed elevator into **procedurally shifting underground ruins**. Your goal: scavenge as much loot as possible, fight or avoid the Corrupted, and **extract alive** before the Rot closes in. Between runs, you rebuild your **Outpost** — unlocking new vessels, constructs, upgrades, and rescued survivors.
+You descend via a **cursed elevator** into procedurally shifting underground ruins. Your goal: scavenge as much loot as possible, fight or avoid the **Corrupted**, and **make it back alive**. Between runs, you rebuild your **Outpost** — unlocking new vessels, constructs, stat upgrades, and rescued survivors.
 
-If you die? Your Spark escapes the broken vessel. Death is just a "change of scenery" — but you lose all unextracted loot.
+Death is not the end: when your vessel breaks, your Spark escapes and can possess a new vessel. But if every member of your team breaks, everything you were carrying is lost forever.
 
 ## The Core Loop
 
 ```
-Descend → Scavenge → Fight/Survive → Extract → Upgrade Outpost → Repeat
+Descend → Scavenge → Fight/Survive → Extract → Rebuild the Outpost → Repeat
 ```
 
-1. **Descend**: Take the cursed elevator down into the ruins. Each run, the map is procedurally generated.
-2. **Scavenge**: Smash furniture for resources, feed items into the Grinder for gold, loot everything you can carry.
-3. **Fight or Flee**: Corrupted vessels roam the halls. Fight them, build barricades, or run.
-4. **Extract**: Reach the elevator before the timer runs out. If everyone dies, all loot is lost.
-5. **Upgrade**: Spend resources at your Outpost to unlock new vessels, constructs, and permanent stat boosts.
+1. **Descend**: Ride the cursed elevator down into the ruins. Each run, the ruins shift and are procedurally generated.
+2. **Scavenge**: Smash furniture for resources, or feed items into the **Grinder** for gold — both are confirmed mechanics. Loot everything you can carry.
+3. **Fight or flee**: Corrupted vessels roam the halls. They react to sound, movement, and each other — fight, outmaneuver, or run.
+4. **Extract**: Return to the elevator. If everyone's vessel breaks before extraction, the loot is lost.
+5. **Rebuild**: Spend extracted resources at your Outpost to unlock permanent upgrades for the next run.
 
 ## Your First Run: Step by Step
 
-### Step 1: Choose Your Starting Vessel
+### Step 1: Understand Your Body
 
-You begin each run possessing a basic wooden vessel. As you unlock more in the Outpost, you'll have better starting options with unique abilities. Your starting vessel can:
-- Sprint (limited stamina)
-- Attack with basic melee
-- Interact with objects (smash, carry, grind)
-- Dropkick enemies and objects
+You are a **Living Spark** inside a wooden vessel. Vessels are fragile — they "splinter, collapse, and catch fire." Your vessel has durability, speed, and (for some vessels) unique abilities. When it breaks, your Spark escapes and searches for another host in the same run; force your way back in before you fade out completely.
 
-### Step 2: Explore the First Biome
+### Step 2: Explore with Sound Discipline
 
-The ruins are divided into **biomes** — distinct underground zones with different visual themes, enemy types, and loot tables. The demo features 3 biomes; the full game will have more.
+The Corrupted react to **sound, movement, and each other**. From the moment you descend:
 
-Start by exploring your immediate area. Look for:
-- **Furniture**: Smash for construction materials
-- **Chests & Containers**: Contain gold, weapons, utilities
-- **Grinders**: Feed unwanted items for gold
-- **The Elevator**: Your extraction point — remember where it is!
+- Walk in unknown territory. Sprinting is risky until you know what's nearby.
+- Smash furniture deliberately, in rooms you've already checked — noise carries.
+- When you hear or see one enemy react, expect others to investigate the same disturbance.
 
-### Step 3: Manage Your Resources
+### Step 3: Scavenge Everything
 
-Resources are everything in Grain Rot. You need:
-- **Construction Materials** (from smashing furniture): Used to build barricades and upgrade the Outpost
-- **Gold** (from Grinders and loot): Used to unlock constructs and cosmetics
-- **Weapons & Utilities**: Found in chests or crafted — give you combat options beyond punching
+Two confirmed resource paths:
 
-### Step 4: Deal with Corrupted Enemies
+- **Smash furniture** — "rip out furniture, and scavenge for loot" is the core verb of the game.
+- **Grinders** — feed unwanted items "into the Grinder for gold." Gold is compact; hoarding low-value junk is a newbie trap.
 
-You'll encounter **Corrupted** — other wooden vessels twisted by the Rot. They react to:
-- **Sound**: Running or smashing draws attention
-- **Movement**: Some enemies track by sight
-- **Each Other**: Enemies can fight among themselves
+### Step 4: Deal with the Corrupted
 
-**Early game combat tips:**
-- Strike first for a stun advantage
-- Use the environment — push enemies into hazards
-- Build barricades to block corridors
-- If overwhelmed, RUN. Sprinting is valid strategy.
+The Corrupted are vessels twisted by the Rot. Confirmed behaviors: they react to sound, movement, and each other. General principles that hold before the full roster is documented:
+
+- **Strike with friends** — co-op means numbers on your side.
+- **Dropkick** — confirmed mechanic; useful for creating space from enemies (or 'accidentally' launching allies).
+- **Know when to run** — extraction games punish unnecessary fights.
 
 ### Step 5: Know When to Extract
 
-The deeper you go, the better the loot — and the worse the Rot. Watch for:
-- **Rot Level**: Your body warps, vision distorts, emotes degrade
-- **Enemy Density**: More Corrupted spawn as you descend
-- **Elevator Timer**: Don't get greedy — a full bag means nothing if you die
+The deeper you go, the better the loot — and the worse the Rot:
 
-**Golden rule**: Extract with *something* rather than die with *everything*.
+- **Corruption builds with depth.** Bodies warp, voices distort, emotes degrade.
+- **Enemy pressure rises** in the Deep Layers.
+- **Extraction banks your progress.** A full bag means nothing if everyone breaks.
 
-## Progression Systems
+**Golden rule**: extract with something rather than die with everything.
 
-### Outpost Upgrades
+## Progression Systems (Confirmed)
 
-Between runs, spend resources at your Outpost to unlock:
-- **New Vessels**: Different wooden bodies with unique stats and abilities
-- **Constructs**: Special tools, weapons, and utilities you can bring into runs
-- **Stat Upgrades**: Permanent health, stamina, and carry capacity increases
-- **Rescued Survivors**: NPCs who provide services and new unlock options
+### The Outpost
 
-### Vessel System
+Between runs, spend what you extracted to rebuild and upgrade your Outpost. Confirmed unlocks: **interactive furniture**, **stat upgrades**, and **rescued survivors**. The demo confirms **upgradeable Outpost rooms**.
 
-When your current vessel is destroyed, your Spark escapes and can possess a new one. Different vessels have:
-- **Durability**: How much damage they can take before breaking
-- **Speed**: Movement and sprint efficiency
-- **Abilities**: Unique skills like enhanced smashing, quieter movement, or fire resistance
+### The Vessel System
+
+- You possess fragile wooden vessels with different properties.
+- When a vessel breaks, your Spark persists and can possess another — "possess and swap between fragile wooden vessels" is an official feature.
+- Some vessels are flammable; fire is a hazard for everyone.
 
 ### Body Corruption
 
-The Rot doesn't just affect enemies — it changes *you*. As corruption builds:
-- Your vessel's appearance warps
-- Voice chat becomes distorted
-- Emotes degrade into grotesque animations
-- At extreme levels, friendly fire becomes easier
-
-Managing corruption is a core strategic element, especially on deeper runs.
+"The deeper you go, the worse the Rot becomes. Bodies warp. Voices distort. Emotes become…worse." Corruption is a central risk-reward system: the same depth that offers the best loot also degrades your vessel, your voice, and your social tools.
 
 ## Quick Tips for Beginners
 
-1. **Stick together in co-op** — a lone Spark is easy prey
-2. **Learn enemy sound cues** — each Corrupted type makes distinct noises
-3. **Prioritize Outpost upgrades that increase carry capacity** — more loot per extract
-4. **Use the Grinder often** — gold is more compact than furniture
-5. **Map the elevator location first** — always know your escape route
-6. **Experiment with different vessels** — each has strengths for different playstyles
-7. **The demo is great practice** — play it before launch to learn the basics
+1. **Play the demo first.** It's free, it's live now, and it contains the core loop: 3 underground biomes, 9 enemy types, 20+ unlockable constructs, and upgradeable Outpost rooms.
+2. **Stick together in co-op** — a lone vessel is an easier target.
+3. **Learn the sound game** — the Corrupted react to noise; the game's audio is your earliest warning system.
+4. **Grind smart** — convert low-value items to gold; it's the most compact form of wealth.
+5. **Always know the way back** — the elevator is your lifeline; note landmarks on the way down.
+6. **Extract early, extract often** — consistent extractions build the Outpost faster than one greedy deep run.
 
 ## What's Next?
 
 Now that you understand the basics, dive deeper:
-- [All Enemies Guide](/guides/all-enemies-guide) — learn every Corrupted type
-- [Co-op Guide](/guides/co-op-guide) — team strategies for 2-4 players
-- [Extraction Guide](/guides/extraction-guide) — master the extraction loop
+
+- [All Enemies Guide](/guides/all-enemies-guide) — what's confirmed about the Corrupted
+- [Co-op Guide](/guides/co-op-guide) — team strategies for up to 4 players
+- [Extraction Guide](/guides/extraction-guide) — mastering the extraction loop
+- [Demo Guide](/guides/demo-guide) — what the free demo contains

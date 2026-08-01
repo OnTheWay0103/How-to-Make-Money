@@ -1,157 +1,87 @@
 ---
-title: 'Biomes & Mine Types Guide: Every Environment in Dwarf Delve'
-description: 'Explore every biome and mine type in Dwarf Delve. Crystal Caverns, Fungal Deeps, Lava Core, Abyssal Rift — resource types, enemy spawns, and unique mechanics for each underground environment.'
+title: 'Biomes & Mine Types Guide: What's Confirmed About Dwarf Delve Environments'
+description: 'What we know about biomes and mine environments in Dwarf Delve — procedural generation confirmed, named biomes not. Depth-based risk and reward, environmental variety, and honest notes on community speculation.'
 keywords: ['dwarf delve biomes', 'dwarf delve mine types', 'dwarf delve environments', 'dwarf delve zones', 'dwarf delve underground']
 category: Biomes
 version: '1.0'
-updated: '2026-07-25'
-related: ['mining-strategies-guide', 'enemies-hazards-guide', 'extraction-guide']
+updated: '2026-08-01'
+related: ['mining-strategies-guide', 'enemies-hazards-guide', 'extraction-guide', 'underground-biomes']
 ---
 
-## The World Below
+## The World Below: What's Confirmed
 
-The mines of Dwarf Delve are not uniform — they're split into distinct biomes, each with unique visual styles, resources, enemies, and mechanics. Knowing what to expect in each biome helps you prepare the right equipment and strategy.
+Every guide wants to tell you the six named biomes of Dwarf Delve — the Crystal Caverns, the Fungal Deeps, the Lava Core, and so on. Here's the honest version: **no named biomes are officially confirmed.** The Steam page and official materials describe the underground as procedurally generated mines, full stop. Named biome lists circulating on the web are community invention, not game data.
 
-## Biome Overview
+What **is** confirmed about the underground:
 
-| Biome | Depth Range | Theme | Primary Resources | Key Danger |
-|-------|-------------|-------|-------------------|------------|
-| **Sedimentary Tunnels** | 0-50m | Classic mine shafts | Iron, Copper, Coal | Rock Borers |
-| **Crystal Caverns** | 50-100m | Glowing crystals | Gems, Silver, Crystal Shards | Gloom Crawlers |
-| **Fungal Deeps** | 100-180m | Bioluminescent fungi | Resin, Rare Herbs, Gold | Gas Pockets |
-| **Lava Core** | 180-250m | Volcanic tunnels | Mythril (trace), Sulfur, Obsidian | Lava Spitters, Lava Flows |
-| **Sunken Tunnels** | 150-250m | Flooded passageways | Ancient Ore, Pearls | Flooding, Drowning |
-| **Abyssal Rift** | 300m+ | Eldritch void-mineral | Legendary Relics, Pure Mythril | The Buried King, Wraiths |
+- **"No two mines will ever be the same!"** — procedural generation is the official headline feature
+- **Depth equals reward and risk** — the game's own pitch: "the deeper you dig, the richer the haul but the farther you are from safety"
+- **Mines collapse over time** — the elevator leaves on a schedule; the environment itself is the main antagonist
+- **Unseen dangers and long-forgotten traps** — official description, with no further detail
+- **Darkness is a hazard** — lanterns, flares, and floodlights exist to "uncover secrets hidden in the shadows"
 
-## Sedimentary Tunnels (0-50m)
+That's the complete official picture of the underground. Everything more specific is unconfirmed.
 
-The biome every Delveling knows best. These are classic dwarven mine shafts with wooden support structures, rail remnants, and predictable layouts.
+## Depth as the Only Confirmed "Biome"
 
-### Visual Style
-Brown and gray stone, wooden support beams (often broken), iron rail tracks, lantern hooks on walls.
+In practice, the closest thing to biomes in Dwarf Delve is depth. The confirmed risk-reward gradient:
 
-### Resources
-- **Abundant**: Iron Ore, Copper, Coal
-- **Uncommon**: Silver traces
-- **Rare**: Small gems
+| Depth Band | What's Confirmed | Honest Caveat |
+|-----------|------------------|---------------|
+| Shallow | Close to the elevator, low collapse exposure, modest finds | No official depth units published |
+| Mid | Richer finds, more hazards | Community observations only |
+| Deep | "The richer the haul" — official premise | Farther from safety, higher collapse risk |
 
-### Enemies
-- Rock Borers (common)
-- Occasional Gloom Crawlers near deeper sections
+No official meters, floors, or level numbers exist. Community "depth tables" with precise ranges are speculation — treat them as rough impressions.
 
-### Strategy
-This is your training ground. Learn mining patterns, test combat timing, and experiment with rail building here. The low risk means you can focus on fundamentals. Don't spend too long here once you've mastered the basics — the real wealth is deeper.
+## Environmental Variety: Community Observation (Unconfirmed)
 
-## Crystal Caverns (50-100m)
+Early players report visual variety between runs — some mines feel like classic dwarven shaft works, others feature unusual crystal formations, strange growths, or heat-filled passages. These reports are plausible but **not confirmed** by any official source, and there's no confirmed rule for when or how environments change.
 
-A stunning transition from mundane rock to glittering crystal formations. The walls shimmer with embedded gems, and the ambient light is higher than other zones.
+If you want to treat community observation as a working hypothesis, the reported patterns are:
 
-### Visual Style
-Purple and blue crystal formations, reflective surfaces, natural light from glowing crystals, cathedral-like open chambers.
+- **Classic shaft sections** — timber, rails, standard rock; the "default" look
+- **Glowing mineral sections** — shimmering walls; reported to attract attention, good or bad
+- **Wet or flooded passages** — reported in deeper areas
+- **Hot sections** — glowing rock and heat effects; reported deepest
 
-### Resources
-- **Abundant**: Gems (Ruby, Sapphire, Emerald), Crystal Shards
-- **Common**: Silver, Iron
-- **Rare**: Large gem clusters
+None of these have official names, spawn rules, or loot tables. We will not invent any.
 
-### Enemies
-- Gloom Crawlers (camouflage against crystal walls)
-- Ore Guardians (protecting large gem deposits)
+## How to Prepare for an Unknown Environment
 
-### Unique Mechanic: Crystal Resonance
-Mining crystals creates a chime that reverberates through the cavern. This sound attracts Ore Guardians from nearby chambers. Mine crystals quickly, then move — or fight the Guardian that comes to investigate.
+Because every run can look different, preparation is about robustness, not biome-specific loadouts:
 
-### Strategy
-Crystal Caverns are where your economy takes off. Focus on gems here — they sell for substantially more than ore from the Sedimentary Tunnels. Bring Bright Flares to maximize visibility in the large open chambers. Listen for Ore Guardian footsteps after mining crystals.
+1. **Light is universal** — lantern, flares, floodlights. Every environment gets easier with light
+2. **Support beams are universal** — collapse is confirmed everywhere
+3. **Mark your route** — procedural mines mean no memorized maps; flares and rails are your landmarks
+4. **Go in stages** — descend a little, learn the local character of this run's mine, then decide how deep to push
+5. **Extract early in unfamiliar territory** — "unseen dangers" are scariest when you can't predict them
 
-## Fungal Deeps (100-180m)
+## Biome-Specific Claims to Ignore
 
-A complete visual shift into a bioluminescent underworld. Towering mushrooms replace rock formations, and the air is thick with spores.
+When you see these in other guides, treat them as fabricated:
 
-### Visual Style
-Giant glowing mushrooms in greens and blues, spore particles floating in air, soft natural light, organic tunnel walls covered in mycelium.
+- Named biomes (Crystal Caverns, Fungal Deeps, Lava Core, Sunken Tunnels, Abyssal Rift, "The Core") — not confirmed
+- Per-biome resource tables — not confirmed
+- Per-biome enemy rosters — not confirmed
+- Biome "unique mechanics" (heat meters, breath meters, sanity pressure) — not confirmed
+- Biome event cycles (eruptions, spore blooms) — not confirmed
 
-### Resources
-- **Abundant**: Resin (sticky deposits on mushroom stalks), Rare Herbs
-- **Common**: Gold deposits near mushroom roots
-- **Rare**: Spore Clusters (high alchemical value)
+None of these appear in official materials. Dwarf Delve is a small indie game that launched on July 27, 2026; any source that describes its biomes in this much invented detail should not be trusted.
 
-### Enemies
-- Spore Walkers (fungal-infested creatures, slow but poisonous)
-- Gas Pockets (environmental hazard, not an enemy)
+## What Would Actually Change This Guide
 
-### Unique Mechanic: Spore Clouds
-Disturbing large mushrooms releases spore clouds that obscure vision and deal minor poison damage over time. They also attract Spore Walkers. Don't mine recklessly — be deliberate about which mushrooms you disturb.
+The guide gets its first update when any of these happen:
 
-### Strategy
-Resin is the key resource here — it's required for Sticky Flares and advanced crafting recipes. Clear gas pockets by throwing flares before entering an area (gas + fire = safe zone). The poison from Spore Walkers stacks, so bring healing and don't let fights drag on.
+1. The developer publishes biome or zone information (Steam news, Discord, roadmap)
+2. A verified community source (e.g., widely-consensus-tested wiki data) documents environmental types
+3. Steam achievements or trading cards reveal environmental names
 
-## Lava Core (180-250m)
+Until then, this page stays honest: **procedural mines, depth-based risk, no confirmed biomes.**
 
-The temperature rises dramatically as you approach the planet's volcanic heart. Rivers of lava illuminate the tunnels in ominous orange.
+## Related Guides
 
-### Visual Style
-Black volcanic rock, glowing orange lava rivers, heat distortion effects, ash particles, obsidian formations.
-
-### Resources
-- **Abundant**: Sulfur, Obsidian
-- **Common**: Trace Mythril (first access point)
-- **Rare**: Heat-forged Gems (unique to this biome)
-
-### Enemies
-- Lava Spitters (ranged, highly dangerous)
-- Fire Elementals (rare, immune to flares)
-
-### Unique Mechanic: Heat Management
-Your Delveling has an invisible heat meter in this biome. Standing near lava or in open volcanic chambers builds heat. At maximum heat, you take continuous damage and your lantern battery drains faster. Cool down by moving to higher ground, entering water pockets, or consuming rare herbs from the Fungal Deeps.
-
-### Strategy
-Your first few Lava Core runs should focus on learning heat management, not maximizing loot. Bring platforms — you'll need them to cross lava safely. Mine obsidian from a distance (it sometimes releases lava when broken). The trace Mythril here is worth the risk, but don't get greedy.
-
-## Sunken Tunnels (150-250m)
-
-These flooded passageways intersect with other biomes, creating hybrid zones where water meets rock, crystal, or lava.
-
-### Visual Style
-Partially flooded tunnels, underwater crystal formations, air pockets in ceilings, bioluminescent aquatic life, corroded metal structures.
-
-### Resources
-- **Abundant**: Ancient Ore (water-eroded, unique properties)
-- **Common**: Pearls (inside giant clams)
-- **Rare**: Sunken Relics (water-themed relics)
-
-### Enemies
-- Eel Wraiths (underwater only, fast and shocking)
-- Drowned Delvelings (hostile ghosts of failed miners)
-
-### Unique Mechanic: Breath Management
-You have a breath meter while underwater. The Deep Breath perk adds valuable extra seconds. Look for air pockets in ceilings — they're marked by shimmering on the water surface above.
-
-### Strategy
-Sunken Tunnels are high-risk, high-reward. The Ancient Ore and Pearls are valuable, but drowning deaths are common. Bring ladders to quickly reach air pockets. Never enter water with less than 50% health — Eel Wraiths can finish you before you surface.
-
-## Abyssal Rift (300m+)
-
-The deepest known biome. The rock itself seems alive here, pulsing with an otherworldly energy. This is endgame territory.
-
-### Visual Style
-Obsidian-black stone with glowing purple veins, floating crystal platforms, zero natural light, reality-distorting visual effects, colossal ancient structures.
-
-### Resources
-- **Abundant**: Pure Mythril (endgame upgrade material)
-- **Common**: Legendary Relics
-- **Rare**: Void Shards (purpose unknown — community still theorizing)
-
-### Enemies
-- Shadow Wraiths (everywhere, constant threat)
-- The Buried King (boss encounter)
-
-### Unique Mechanic: Sanity Pressure
-The Abyss applies constant psychological pressure. Your screen gains subtle distortion effects, audio gets layered with whispers, and your Delveling's voice lines become increasingly panicked. This is purely atmospheric but brilliantly effective at making you want to leave — which is exactly what you should do once you have what you came for.
-
-### Strategy
-The Abyss demands full preparation. Maxed lantern, maxed Battlemallet, Phoenix Heart perk, 12+ support beams, and 3+ floodlights minimum. Get in, find the relic, and get out. The longer you stay, the more likely you are to die. The Abyss does not respect courage — it punishes it.
-
-## Biome Transitions
-
-Biomes don't have hard borders. Transition zones blend elements of both neighboring biomes, creating unique hybrid areas. A Fungal-Crystal transition, for example, might have mushroom-covered crystal formations with both Crystal Resonance and Spore Cloud mechanics. These zones are rare and often contain unique resources not found in pure biomes.
+- [Mining Strategies Guide](/guides/mining-strategies-guide) — Resource gathering by depth
+- [Enemies & Hazards Guide](/guides/enemies-hazards-guide) — Confirmed dangers of the deep
+- [Extraction Guide](/guides/extraction-guide) — Getting back to the elevator from any depth
+- [Underground Biomes](/guides/underground-biomes) — Sub-zones and secrets (all unconfirmed, honestly labeled)

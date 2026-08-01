@@ -60,7 +60,7 @@ The timing skill expression here is real — mistimed takedowns trigger the alar
 ## Co-op Combat Tactics
 
 - **Pincer openers.** Two captains control two flanks — set up the surprise attack from both sides and the enemy can't respond to both.
-- **Combo abilities.** Official materials mention "real-time combined abilities" for "devastating combos" — coordinate your ability timing, don't just play two solo games side by side.
+- **Combo abilities.** Official materials describe coordinating combat maneuvers in real time, "combining abilities for devastating combos" — coordinate your ability timing, don't just play two solo games side by side.
 - **Trade aggro.** One twin tanks the pressure while the other flanks — then swap.
 
 ## Romance Competition: The Co-op Twist
@@ -80,6 +80,8 @@ Because all 8 companions are romanceable and co-op dialogue is shared, competing
 **Does co-op lock the other pillars?** No — both players can use stealth, diplomacy, or combat as the situation demands.
 
 **Is there more than 2-player co-op?** No — the series-first co-op is exactly 2 players.
+
+**Is co-op available on Early Access launch day?** TBD. The Steam page's Early Access notes list the co-op mode among features being added during Early Access, and the official launch-features list (combat, exploration, stealth, world map) doesn't mention it — it may arrive with one of the first content updates. See the [Early Access Guide](/guides/early-access-guide) for the roadmap details.
 
 ## Co-op Mistakes to Avoid
 

@@ -1,138 +1,101 @@
 ---
-title: 'Boss Farming Guide: Efficient Boss Routes & Loot Tables in Dwarf Delve'
-description: 'Complete boss farming guide for Dwarf Delve. Learn all boss locations, spawn conditions, loot tables, efficient farming routes, and preparation strategies for every boss encounter.'
-keywords: ['dwarf delve boss farming', 'dwarf delve boss guide', 'dwarf delve boss loot', 'dwarf delve boss routes', 'dwarf delve boss strategies']
+title: 'Boss Farming in Dwarf Delve: What We Know & The Farming Loop'
+description: 'Dwarf Delve boss farming guide — the honest picture: no boss roster is officially confirmed yet, so this guide covers the confirmed farming loop, farming routes that work, and what to expect when boss content is documented.'
+keywords: ['dwarf delve boss farming', 'dwarf delve boss guide', 'dwarf delve farming', 'dwarf delve loot', 'dwarf delve endgame']
 category: Bosses
 version: '1.0'
-updated: '2026-07-27'
-related: ['best-gear-equipment-guide', 'mining-strategies-guide', 'extraction-guide', 'perks-skills-guide']
+updated: '2026-08-01'
+related: ['best-gear-equipment-guide', 'mining-strategies-guide', 'extraction-guide', 'perks-skills-guide', 'endgame-raids']
 ---
 
-## Bosses of the Deep
+## Bosses of the Deep: The Honest Picture
 
-Dwarf Delve features several major boss encounters. Each boss guards unique loot and requires specific preparation to defeat efficiently. This guide covers every boss, their arenas, loot tables, and the fastest farming routes.
+Before anything else, the truth: **no bosses are officially confirmed in Dwarf Delve as of August 2026.** The Steam page, official announcements, and press coverage describe the game's threats as "unseen dangers and long-forgotten traps" and the collapsing mine itself — they name no boss encounters, arenas, or loot tables. Every named "boss" you see listed on other sites (Rock Borer Queens, Buried Kings, and similar) is invented speculation, not game fact.
 
-## Boss Overview
+That doesn't mean there is nothing to farm. This guide covers the farming loop that **is** confirmed, how to run it efficiently, and what to do when official boss information eventually arrives. This page will be updated the moment real boss content is documented.
 
-| Boss | Biome | Depth | Recommended Gear | Difficulty |
-|------|-------|-------|------------------|------------|
-| **Rock Borer Queen** | Sedimentary Tunnels | 45m | Iron tools, any weapon | Easy |
-| **Gloom Crawler Matriarch** | Crystal Caverns | 85m | Reinforced beams, silver weapon | Medium |
-| **Warden of the Spores** | Fungal Deeps | 155m | Gas mask, fire weapon | Medium |
-| **Core Sentinel** | Lava Core | 220m | Heat armor, obsidian weapon | Hard |
-| **Drowned Leviathan** | Sunken Tunnels | 195m | Breathing gear, lightning weapon | Hard |
-| **The Buried King** | Abyssal Rift | 310m | Full legendary gear, void resistance | Very Hard |
+## The Confirmed Farming Loop
 
-## Loot Tables
+Dwarf Delve is an extraction roguelite, and its entire economy farms one loop:
 
-Each boss drops a unique set of items. Some items are guaranteed, while others have a variable drop rate.
+```
+Descend → Mine ores & find relics → Extract → Refine ores → Trade for coin → Buy perks, skills & gear upgrades → Descend again
+```
 
-### Rock Borer Queen
+Farming in this game is **run farming**, not boss farming. You farm by completing successful extractions, because everything not extracted is lost. The three confirmed farmable resource types are:
 
-| Item | Type | Drop Rate | Use |
-|------|------|-----------|-----|
-| Borer Carapace | Crafting Material | 100% | Light armor crafting |
-| Queen Mandible | Weapon Component | 75% | Piercing weapon upgrade |
-| Rare Gem Pouch | Consumable | 50% | 3-5 random gems |
-| Borer Queen Egg | Pet Item | 10% | Summons a pet Rock Borer |
+| Resource | Confirmed Role | Farming Priority |
+|----------|---------------|------------------|
+| **Ores** | Refined at home, traded for coin | Always — the backbone of progression |
+| **Treasures** | High-value finds | Bank them; high value per slot |
+| **Relics** | "Long-lost relics" unlock unique perks and quarters decorations | Highest priority — unique, possibly irreplaceable |
 
-### Gloom Crawler Matriarch
+## Efficient Farming Routes (Run-Based)
 
-| Item | Type | Drop Rate | Use |
-|------|------|-----------|-----|
-| Gloom Silk | Crafting Material | 100% | Darkvision armor |
-| Matriarch Eye | Enchantment Fuel | 80% | Night vision enchantment |
-| Silver Vein Map | Utility | 40% | Reveals all silver on next run |
-| Shadow Cloak Blueprint | Recipe | 15% | Craft permanent stealth gear |
-
-### Warden of the Spores
-
-| Item | Type | Drop Rate | Use |
-|------|------|-----------|-----|
-| Spore Heart | Crafting Material | 100% | Healing consumable crafting |
-| Spore Bloom Essence | Enchantment Fuel | 70% | Regeneration enchantment |
-| Fungal Growth Formula | Recipe | 35% | Farm resin at your hub |
-| Phoenix Feather | Rare Material | 10% | Prestige crafting component |
-
-### Core Sentinel
-
-| Item | Type | Drop Rate | Use |
-|------|------|-----------|-----|
-| Sentinel Core | Crafting Material | 100% | Heat resistance gear |
-| Obsidian Shard | Weapon Component | 85% | Craft obsidian weapon |
-| Lava Core Map | Utility | 45% | Reveals all forge-stone on next run |
-| Inferno Blade Blueprint | Recipe | 12% | Legendary fire weapon |
-
-### Drowned Leviathan
-
-| Item | Type | Drop Rate | Use |
-|------|------|-----------|-----|
-| Leviathan Scale | Crafting Material | 100% | Breathing gear upgrade |
-| Ancient Pearl | Enchantment Fuel | 75% | Water breathing enchantment |
-| Sunken Key | Utility | 40% | Opens Sunken Vault sub-biome |
-| Tidal Greaves Blueprint | Recipe | 12% | Legendary movement speed boots |
-
-### The Buried King
-
-| Item | Type | Drop Rate | Use |
-|------|------|-----------|-----|
-| Void Crown | Crafting Material | 100% | Ultimate armor crafting |
-| Echo Shard | Currency | 90% | Respec skill tree |
-| Pure Mythril Ingot | Legendary Material | 60% | Prestige crafting |
-| King's Blade Blueprint | Recipe | 8% | Best-in-slot weapon |
-
-## Efficient Farming Routes
+Since every mine is procedurally generated, "routes" are strategies, not fixed paths. These are the confirmed-consistent farming patterns:
 
 ### Route 1: New Player Farming (Early Game)
-**Target:** Rock Borer Queen
 
-1. Descend to 45m in Sedimentary Tunnels.
-2. Mine 10+ iron ore along the way for beam materials.
-3. Locate the queen's nest (identifiable by webbed tunnel entrances).
-4. Craft 2 reinforced beams before engaging.
-5. After kill, extract immediately — the nest collapses.
+**Goal:** Consistent extractions, small safe hauls.
 
-**Time:** 8-12 minutes per run
-**Profit:** ~150 gold value per hour
+1. Descend on the first or second elevator stop
+2. Mine a defined area close to the elevator, never losing sight of your return path
+3. Craft support beams as soon as tunnels creak
+4. Extract with whatever you have — even a modest haul funds your first upgrades
 
-### Route 2: Mid-Game Rotation
-**Target:** Gloom Crawler Matriarch + Warden of the Spores
+**Why it works:** Early reviews (Mostly Negative, but from a very small sample of ~25) consistently note the game's foundations are solid but its onboarding is rough. New players should bank easy coin before attempting depth.
 
-1. Descend to Crystal Caverns (85m), kill Matriarch.
-2. Drop to Fungal Deeps (155m) through the connecting shaft.
-3. Kill Warden of the Spores.
-4. Extract from Fungal Deeps elevator.
+### Route 2: Relic Hunting (Mid Game)
 
-**Time:** 20-30 minutes per run
-**Profit:** ~400 gold value per hour
+**Goal:** Find relics — the confirmed high-value endgame chase.
 
-### Route 3: End-Game Speed Run
-**Target:** Core Sentinel + Drowned Leviathan + The Buried King
+1. Upgrade your Battlemallet and lantern first (faster mining, more light)
+2. Push deeper each run, marking your path with flares
+3. Don't stop to mine every wall — relics are found by exploring, not strip-mining
+4. The moment you find a relic, extract. Relics are the run's win condition
 
-1. Take optimal path: Crystal Caverns → Sunken Tunnels → Abyssal Rift.
-2. Kill Leviathan in Sunken Tunnels (195m).
-3. Enter Lava Core via connecting passage, kill Sentinel (220m).
-4. Descend to Abyssal Rift, kill The Buried King (310m).
-5. Use Rift Gate exit for fastest extraction.
+**Why it works:** Relics are the only explicitly named reward category ("gather ores, treasures, and long-lost relics"), and the official description confirms they unlock perks and quarters decoration.
 
-**Time:** 45-60 minutes per run
-**Profit:** ~1,200 gold value per hour
+### Route 3: End-Game Farming (Deep Runs)
 
-## Preparation Checklist
+**Goal:** Maximize coin per hour through deep, fast extractions.
 
-Before any boss run, ensure you have:
+1. Upgrade carry capacity (confirmed: "carry more loot") and Battlemallet damage
+2. Lay rails and minecarts to "shift and store those heavy ores" — heavy ore is exactly what the cart system exists for
+3. Do a deep loop: descend fast, fill carts, ride them back, extract
+4. Refine and reinvest — the meta-progression loop is confirmed permanent
 
-- **Reinforced Beams** (at least 4) — boss arenas often need stabilization
-- **Healing Consumables** (at least 3) — crafted from Resin at any crafting station
-- **Biome-Appropriate Gear** — check the Boss Overview table above
-- **Extraction Plan** — know the nearest elevator to the boss arena
-- **Loot Priority** — decide which items you are farming before you descend
+**Why it works:** The official feature list confirms the cart system, the upgrade system, and the "hit harder / move faster / carry more" perk themes. Efficient loop execution is the whole endgame right now.
+
+## What to Expect From Boss Content
+
+The developer (Gloom Box, solo dev Dante Knoxx) has publicly committed to a multi-year content roadmap, and reviews describe the launch as "one to watch evolve rather than a finished product." Boss encounters are not confirmed to exist, but several honest observations:
+
+- The Steam tags include **Horror** and **Dungeon Crawler**, which suggest hostile encounters of some kind — but no official confirmation exists
+- The keyword data shows real search demand for "dwarf delve boss" and "dwarf delve boss farming" — this guide will be expanded with real boss data the moment it exists
+- Until then, treat any boss guide that lists named bosses with loot tables as unreliable
+
+## Preparation Checklist (Applies to Every Run)
+
+- **Support beams** — craft before you hear creaking, not after
+- **Light** — lantern, flares, and floodlights all confirmed; darkness hides dangers
+- **Extraction plan** — know the elevator's location and your route back
+- **Loot priority** — decide what you're farming before you descend, and extract when you have it
+
+## FAQ
+
+**Is there a boss in Dwarf Delve?** No boss has been officially confirmed. The confirmed threats are tunnel collapse, traps, darkness, and "unseen dangers."
+
+**What should I farm instead of bosses?** Ores, treasures, and relics — the confirmed farming loop of extraction runs.
+
+**When will boss guides have real information?** As soon as the developer or a verified community source documents boss content. This guide will be updated to match.
 
 ---
 
 ## Related Guides
 
-- [Best Gear & Equipment Guide](/guides/best-gear-equipment-guide) — Recommended gear for each boss
-- [Mining Strategies Guide](/guides/mining-strategies-guide) — Resource gathering during boss runs
-- [Extraction Guide](/guides/extraction-guide) — Escaping with boss loot intact
-- [Perks & Skills Guide](/guides/perks-skills-guide) — Best skill builds for boss fights
+- [Best Gear & Equipment Guide](/guides/best-gear-equipment-guide) — Upgrade priorities for farming runs
+- [Mining Strategies Guide](/guides/mining-strategies-guide) — Resource gathering during runs
+- [Extraction Guide](/guides/extraction-guide) — Escaping with your loot intact
+- [Perks & Skills Guide](/guides/perks-skills-guide) — Spending coin wisely
+- [Endgame Guide](/guides/endgame-raids) — What "endgame" means in Dwarf Delve today

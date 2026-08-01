@@ -2,16 +2,18 @@
 title: "Player Housing & Base Building Guide"
 description: "Complete guide to player housing in Taival. How to place and upgrade homes, best housing locations per biome, co-op shared housing, decorating, and all housing benefits."
 category: "Building"
-updated: "2026-07-27"
+updated: "2026-08-01"
 ---
 
 # Taival — Player Housing & Base Building Guide
 
-> Early Access Version / Updated: July 27, 2026
+> Early Access Version / Updated: August 1, 2026
 
 After your first few hours in Taival, you will unlock the ability to place a player home. Housing is more than a cosmetic feature — it provides crafting stations, storage, rest bonuses, and a shared space for your co-op party to gather between adventures.
 
 This guide covers everything you need to build, upgrade, and optimize your home base.
+
+**Accuracy note (August 2026):** upgradeable player homes placed in the world are confirmed (retailer copy confirms "upgradable homes"). The plot costs, upgrade tiers, storage slots, rest bonuses, and decoration effects below are community speculation from Early Access and are unconfirmed (TBD). Reviewers also describe Taival as deliberately downplaying traditional building systems in favor of co-op adventure and Henki progression — keep expectations modest.
 
 ---
 

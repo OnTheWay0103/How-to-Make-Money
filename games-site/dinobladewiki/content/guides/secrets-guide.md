@@ -1,171 +1,79 @@
 ---
-title: "Dinoblade Secrets Guide — Hidden Weapons, Bosses, and Areas"
-description: "Discover every hidden secret in Dinoblade — from the Fossil Greatsword behind a waterfall to the secret boss Ancient One in Crystal Caverns and all 12 Lore Tablets."
+title: "Dinoblade Secrets Guide — Confirmed Hidden Content & What's TBD"
+description: "The confirmed secrets of Dinoblade — hidden SP pickups, legendary weapons, and boss summons — with honest notes on what hidden content is still undocumented."
 category: "Secrets"
 version: "1.0"
-updated: "2026-07-19"
+updated: "2026-08-01"
 keywords:
   - Dinoblade secrets
-  - hidden weapons
-  - secret boss
-  - optional areas
-  - fossil greatsword
-  - soul reaper
-  - collectibles
+  - Dinoblade hidden weapons
+  - Dinoblade legendary weapons
+  - Dinoblade secret boss
+  - Dinoblade hidden areas
 related:
-  - weapons-guide
+  - achievements-guide
   - boss-guide
-  - demo-guide
-  - builds-guide
+  - all-dinosaurs-guide
+  - weapons-guide
 ---
 
-# Dinoblade Secrets Guide — Hidden Weapons, Bosses, and Areas
+# Dinoblade Secrets Guide — Confirmed Hidden Content & What's TBD
 
-Dinoblade is packed with secrets tucked into every corner of its prehistoric world. Beyond the main story path lie hidden weapons that rival or surpass the best crafted gear, a secret boss tougher than anything in the base campaign, entire optional areas with rare upgrade materials, and a lore-collecting quest that changes the game's ending. This guide covers every secret discovered so far.
+Dinoblade rewards exploration — the game's coverage confirms hidden pickups and legendary gear exist. This guide tracks what's **verified** and stays honest about the many "secrets" that circulate online without sources.
 
----
+## Confirmed Hidden Content
 
-## Hidden Weapons
+### Hidden SP Pickups (Part 2)
 
-Three weapons are completely missable if you do not explore off the beaten path. Each has unique properties that make them viable (or dominant) in different builds.
+Verified walkthrough coverage documents **hidden SP pickups** in the northern paths (Part 2), tucked in three notable spots:
 
-### Fossil Greatsword
+1. **Between rocks** — off the main path, easy to miss.
+2. **Inside the giant skull** — the skull is a landmark on the northern paths; check inside it.
+3. **Along the main path** — one sits in plain sight but reads as scenery. Sweep the path edges.
 
-| Property | Details |
-|----------|---------|
-| **Location** | Jurassic Plains, northwest corner behind a waterfall |
-| **How to reach** | Destroy the cracked wall behind the waterfall. Requires a Heavy Attack or any charged weapon strike. |
-| **Base Damage** | 135 |
-| **Scaling** | B Strength |
-| **Special Effect** | Applies **Fossilized** debuff (slows enemy movement and attack speed by 20% for 6 seconds) |
-| **Weight** | 14.0 |
+SP is the game's leveling currency (leveling is partly automatic, and you can adjust attributes before boss fights), so these pickups are meaningful progression.
 
-The Fossil Greatsword is an excellent early-to-mid-game find if you explore the Jurassic Plains thoroughly. Its Fossilized debuff is especially potent against fast enemies like Kira the Exile and the raptor packs in the Ancient Forest. The slow effect stacks with gear that boosts status buildup.
+### Legendary Weapons (Confirmed to Exist, Locations TBD)
 
-**Build recommendation:** Pair with high Strength (30+) and the Alpha Roar skill for heavy stagger damage. The slow debuff lets you land charged Heavy Attacks more reliably.
+Official coverage states you can "hunt down legendary weapons to change how your Spinosaurus plays." That confirms the weapons exist — but **no verified source has documented their names or locations** as of August 2026. Any guide listing "Fossil Greatsword behind a waterfall" or "Volcanic Hammer in a magma chamber" is unverified fan content until locations are documented.
 
-### Volcanic Hammer
+### Boss Summons (Confirmed)
 
-| Property | Details |
-|----------|---------|
-| **Location** | Volcanic Wastes, magma chamber |
-| **How to reach** | Navigate the collapsing bridge sequence near the magma chamber entrance. Sprint between platforms — the last section requires a well-timed dodge roll. |
-| **Base Damage** | 150 |
-| **Scaling** | S Strength |
-| **Special Effect** | Adds fire damage (30 flat fire, plus 10% of base damage as fire) |
-| **Weight** | 18.0 |
+Defeating bosses lets you summon them in combat — the **Axe summon boosts stamina recovery**, per verified coverage. If you're a completionist, that's the confirmed "hidden" combat layer: every boss kill adds a summon tool.
 
-The Volcanic Hammer is the hardest-hitting weapon in the game by raw damage numbers. Its S rank Strength scaling means every point in Strength past 40 continues to give excellent returns. The innate fire damage lets it bypass certain enemy resistances and deals bonus damage to enemies weak to fire (common in Crystal Caverns).
+### Boss Rush (Confirmed)
 
-**Build recommendation:** Pure Strength (50+), low Dexterity. Pair with a light secondary weapon (Claws) for fast enemies. Use Earth Shatter (War Hammer special skill) for AoE crowd control.
+After the final boss, **Boss Rush mode** unlocks — the game's confirmed secret-ish endgame. See the [Boss Rush Guide](/guides/boss-rush-guide).
 
-### Soul Reaper
+## Unconfirmed "Secrets" to Treat as TBD
 
-| Property | Details |
-|----------|---------|
-| **Location** | Dropped by the secret boss **Ancient One** in Crystal Caverns |
-| **Base Damage** | 110 |
-| **Scaling** | A Dexterity |
-| **Special Effect** | Life steal on kill — restores 5% of max HP per kill |
-| **Weight** | 8.0 |
+A lot of "secret" content circulates online for Dinoblade. None of the following is verified:
 
-The Soul Reaper is a scythe variant with the fastest attack speed in its class and a life-steal effect that dramatically reduces your reliance on Estus flasks during exploration. Its A Dexterity scaling rewards high-DEX builds, and the low weight lets you fast-roll even with medium armor.
+- **Secret/optional bosses** beyond the three main bosses (Kira, Axe, Kasei) — TBD.
+- **Named hidden weapons** with stats — TBD.
+- **Collectible lore items** (tablets, fossils, eggs) — TBD.
+- **Hidden ending requirements** — the ending system itself is undocumented (see the [Endings Guide](/guides/endings-guide)).
+- **Secret areas** with specific names and contents — TBD.
 
-**Build recommendation:** Dexterity (40+) with enough Endurance for stamina management. The Reaping Sweep special skill (wide horizontal arc) pairs beautifully with the life-steal effect when clearing groups.
+## Exploration Strategy (Works With What's Confirmed)
 
----
+1. **Sweep the main path edges** — the Part 2 pickups show the game hides SP in plain sight; habitually check path edges, rock clusters, and landmark interiors (skulls, hollow logs, dead ends).
+2. **Visit landmarks** — the giant skull is confirmed to hide SP; treat every unique landmark as a possible secret container.
+3. **Explore before bosses** — attribute adjustment happens before boss fights, and the SP from hidden pickups funds it.
+4. **Don't fear death** — no currency drop means exploration is risk-free; check every corner.
+5. **Revisit areas after bosses** — if legendary weapons or secrets require keys or boss souls, revisiting is the natural time to find them.
 
-## Secret Boss: The Ancient One
+## What to Ignore Online
 
-The Ancient One is an optional super-boss hidden in the Crystal Caverns. It is the hardest fight in the game and should not be attempted before level 40.
+- Guides with precise secret-boss stats (HP, weaknesses, drops) — unsourced.
+- Guides naming hidden weapons with damage numbers — unsourced.
+- Guides narrating "true ending" item quests — unsourced (see the [Endings Guide](/guides/endings-guide)).
 
-### How to Unlock
-
-You must collect **3 Ancient Tablets**, one from each major biome:
-
-| Tablet | Biome | Location |
-|--------|-------|----------|
-| Tablet of Beginnings | Jurassic Plains | Inside **The Nest** hidden area, on an altar |
-| Tablet of Growth | Ancient Forest | In the **Forgotten Temple**, past the illusory wall |
-| Tablet of Ruin | Volcanic Wastes | Behind the boss arena in **Magma Forge** |
-
-Once all three tablets are in your inventory, a hidden passage opens in the Crystal Caverns central chamber, revealing the boss arena.
-
-### Boss Overview
-
-| Aspect | Details |
-|--------|---------|
-| **Name** | The Ancient One |
-| **Appearance** | Giant prehistoric mantis, translucent carapace, glowing eyes |
-| **Health** | 12,000 HP (NG) / 18,000 HP (NG+) |
-| **Weakness** | Fire (takes 30% more damage) |
-| **Resistances** | Slash (50% reduction), Poison (immune) |
-| **Key Moves** | Scythe claw sweep, pounce with grab, crystal shard volley, enrage (phase 2) |
-
-### Rewards
-
-- **Soul Reaper** — guaranteed drop (scythe with life steal)
-- **Ancient Soul** — boss soul usable for **Boss Soul Summoning**; summons a giant mantis that performs a multi-hit claw combo
-- **"Primeval" Achievement** — Steam achievement
-
----
-
-## Hidden Areas
-
-### The Nest
-
-- **Location:** Jurassic Plains, follow the river east from the first Roost until you see a fallen tree bridging a gap
-- **Contents:** Rare upgrade materials (Sharpening Stones, Fortified Bones), Ancient Tablet of Beginnings, 1 Lore Tablet
-- **Enemies:** A pack of 6 Raptors including one Alpha
-
-### Forgotten Temple
-
-- **Location:** Ancient Forest, behind an illusory wall (the wall is marked by a faint shimmer visible when you stand still for 3 seconds)
-- **Contents:** Lore Tablet #1, a unique armor set (Forest Warden set), and a Roost for fast travel
-- **Enemies:** 2 Thornback Ankylosaurs and a miniboss (Vine Guardian)
-
-### Magma Forge
-
-- **Location:** Volcanic Wastes, behind the boss arena (Kasei's arena); the path is hidden to the right after the boss fog gate
-- **Contents:** Allows unique weapon upgrades not available from standard blacksmiths — including fire infusion and the Eternal Flame enchantment
-- **Enemies:** None (safe area)
-
----
-
-## Collectibles: Lore Tablets
-
-12 Lore Tablets are hidden across all biomes. Collecting all of them unlocks the game's **true ending** with an extended cutscene and an additional post-credits scene that hints at a sequel.
-
-| Tablet | Biome | Location Hint |
-|--------|-------|--------------|
-| #1 | Ancient Forest | Forgotten Temple, on the central altar |
-| #2 | Ancient Forest | Behind a waterfall in the eastern grove |
-| #3 | Ancient Forest | On a collapsed pillar near the mid-boss arena |
-| #4 | Jurassic Plains | The Nest, on a skeleton |
-| #5 | Jurassic Plains | Atop a rock pillar reachable by a series of jumps |
-| #6 | Jurassic Plains | In a small cave behind the starting area |
-| #7 | Volcanic Wastes | On a ledge accessible after the collapsing bridge |
-| #8 | Volcanic Wastes | Behind a breakable wall in the lower magma tunnels |
-| #9 | Volcanic Wastes | On the roof of the central structure (requires jumping from a nearby slope) |
-| #10 | Crystal Caverns | In a side tunnel near the entrance |
-| #11 | Crystal Caverns | On a crystal platform high above the main chamber |
-| #12 | Crystal Caverns | In the Ancient One's boss arena, after the fight |
-
----
-
-## Pro Tips for Completionists
-
-1. **Visit The Nest early** — The Fossil Greatsword is accessible during the demo and makes short work of Kira the Exile.
-2. **Collect tablets before Crystal Caverns** — You cannot return to earlier biomes permanently after a certain story point, so gather tablets as you go.
-3. **Use the Magma Forge after beating Kasei** — The forge's strongest upgrades require materials only dropped by the final boss.
-4. **Bring fire damage to the Ancient One** — The Volcanic Hammer or any fire-infused weapon cuts the fight time nearly in half.
-5. **Read every Lore Tablet immediately** — They autosave to your journal, but reading them in order tells a compelling side story about the ancient dinosaur civilization.
-
-Launch Version / Updated: July 19, 2026
+**This guide updates as verified content surfaces** — check back as the community documents the full game.
 
 ## Related Guides
 
-- [Dinoblade Weapons Guide](/guides/weapons-guide) — Complete weapon stats and upgrade paths
-- [Dinoblade Boss Guide](/guides/boss-guide) — Every boss strategy and weakness
-- [Dinoblade Demo Guide](/guides/demo-guide) — What to do before launch day
-- [Dinoblade Builds Guide](/guides/builds-guide) — Optimized stat allocations
+- [Achievements Guide](/guides/achievements-guide) — The 29 confirmed achievements
+- [Boss Guide](/guides/boss-guide) — The three main bosses
+- [All Dinosaurs Guide](/guides/all-dinosaurs-guide) — The confirmed roster
+- [Weapons Guide](/guides/weapons-guide) — Confirmed weapons

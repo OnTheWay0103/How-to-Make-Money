@@ -2,14 +2,16 @@
 title: "Combat System & Weapons Guide: Battle Tactics"
 description: "Master Taival's combat system with this guide covering weapon types, Henki combat assist, enemy types, dodge/block mechanics, combos, and co-op tactics."
 category: "Combat"
-updated: "2026-07-27"
+updated: "2026-08-01"
 ---
 
 # Combat System & Weapons Guide: Battle Tactics
 
-> Early Access Version / Updated: July 27, 2026
+> Early Access Version / Updated: August 1, 2026
 
 Combat in Taival blends real-time action with Henki companion synergy. While the game leans into cozy exploration, the combat system has genuine depth — multiple weapon types, a dodge and block system, combo chains, and Henki abilities that can turn the tide of battle. This guide covers everything you need to know about fighting in Taival, from basic mechanics to advanced co-op tactics.
+
+**Accuracy note (August 2026):** official materials confirm the core systems — "different weapon types" with skill trees, combat skills, enemy and boss fights, and the Henki's combat forms (hulking beast, cunning predator). The specific weapon categories, enemy names, percentages, and cooldowns below are community reports from the Early Access build and are unconfirmed (TBD) — treat exact numbers as placeholders until verified in-game.
 
 ---
 
@@ -27,6 +29,8 @@ Before diving into weapons and strategies, here is how the core combat system wo
 ## Weapon Types
 
 Taival features multiple weapon types, each with distinct attack patterns, reach, speed, and special abilities. You can carry up to two weapons at a time and switch between them during combat.
+
+**Note:** the specific categories below (swords, spears, axes, bows, staves, shields) are community reports from the Early Access build — the developer has only confirmed "different weapon types" backed by skill trees. The category list and the "two weapons" carry limit are unconfirmed (TBD).
 
 ### Swords
 Balanced weapons with moderate speed and damage. Swords have versatile movesets — light attacks are fast and chain into combos, while heavy attacks break enemy guards.
@@ -95,27 +99,19 @@ Mastering the timing of your Henki's ability is essential for harder fights. A w
 
 ## Enemy Types
 
-Taival's four biomes are home to distinct enemy types with unique behaviors.
+Taival's four realms are home to distinct creatures, and the store copy invites you to "slay foes from cute to gnarly." These are the enemy types that are **confirmed** to exist in the Early Access build:
 
-### Highlands Enemies (Beginner)
-- **Wild Canines** — Fast, aggressive, low health. Easy to stagger. Best handled with sword combos or bow headshots.
-- **Grazing Herbivores** — Passive unless provoked. Not dangerous but can summon predators if you attack them.
-- **Bandits** — Humanoid enemies with basic weapons. They dodge occasionally and can parry. Use heavy attacks to break their guard.
+### Confirmed Enemy Types
 
-### Forests Enemies (Intermediate)
-- **Forest Spiders** — Cling to ceilings and drop on unsuspecting players. Weak to fire (staff fire infusion). Their attacks apply a slow debuff.
-- **Corrupted Boars** — Charge attacks with high stagger. Dodge sideways (not backward) to avoid the charge. Vulnerable after they miss.
-- **Thorn Vines** — Stationary enemies that grab you if you get too close. Free the grab by mashing the interact button or having a teammate attack the vine.
+| Enemy Type | Confirmed By | Notes |
+|------------|--------------|-------|
+| **Wildlife and beasts** | Store copy ("cute to gnarly"), creature-based gameplay | The taming system means many creatures are better befriended than fought — consider taming before attacking |
+| **Giant insects** | Steam page: "insect pest control" is a quest activity | Swarm-style encounters; community reports describe large insect clusters in forest and settlement areas |
+| **Barbarian camp fighters** | Steam page: "fighting a beast at a barbarian camp" | The camp is community-reported at the forest–highlands border; the fight includes a beast-quality enemy |
+| **Random-encounter bosses** | Steam page: "sudden bosses" | Open-world boss encounters with random loot; spawn rules undocumented |
+| **Goblins** | Steam page: a goblin house-ownership dispute quest | Goblin NPCs exist in settlements; whether they fight is unconfirmed |
 
-### Mountains Enemies (Hard)
-- **Stone Golems** — Massive health pools and high armor. Almost immune to light attacks. Use axes or spears with the Armor Break special. Attack the glowing crystal on their back for critical damage.
-- **Mountain Harpies** — Flying enemies that swoop down for hit-and-run attacks. Ranged weapons (bows or staves) are most effective. They retreat to high ledges when low on health.
-- **Ice Wraiths** — Spectral enemies that phase in and out of visibility. They are vulnerable only when attacking. Watch for the shimmer before they strike, then dodge and counter.
-
-### Ruins Enemies (Endgame)
-- **Ancient Guardians** — Constructs with complex attack patterns. They have a shield phase where they block all frontal damage. Use flanking tactics or shield-breaking abilities.
-- **Cursed Spirits** — Apply a stacking curse debuff that reduces your maximum health. The Base Healer form's status cleanse is essential here.
-- **Boss Variants** — Each biome has a major boss with unique mechanics. Boss fights require coordinated form swapping and communication in co-op.
+**Unconfirmed:** any named enemy species (Wild Canines, Forest Spiders, Stone Golems, Ice Wraiths, and similar lists circulating online) are not documented by the developer — treat specific enemy names, health values, and elemental weaknesses as community speculation (TBD).
 
 ---
 

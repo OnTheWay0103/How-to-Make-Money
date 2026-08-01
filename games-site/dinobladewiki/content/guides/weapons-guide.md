@@ -1,165 +1,88 @@
 ---
-title: "Dinoblade Weapons Guide — Complete Arsenal Breakdown"
-description: "Every weapon in Dinoblade analyzed — greatsword, battle axe, war hammer, scythe, spear, claws. Stats tables, movesets, hidden weapons, and Ex-Mod upgrades."
+title: "Dinoblade Weapons Guide — The Confirmed Arsenal"
+description: "The confirmed weapons of Dinoblade — the greatsword in your Spinosaurus's jaws, the flaming tutorial sword, and enemy weapons — with honest notes on undocumented gear."
 category: "Weapons"
 version: "1.0"
-updated: "2026-07-19"
+updated: "2026-08-01"
 keywords:
   - Dinoblade weapons
-  - weapon types
-  - greatsword
-  - battle axe
-  - war hammer
-  - scythe
-  - spear
-  - claws
-  - hidden weapons
-  - Ex-Mod
+  - Dinoblade best weapon
+  - Dinoblade all weapons
+  - Dinoblade greatsword
+  - Dinoblade legendary weapons
+  - Dinoblade Ex Mod
 related:
   - builds-guide
   - secrets-guide
   - boss-guide
-  - beginner-guide
+  - tier-list
 ---
 
-# Dinoblade Weapons Guide — Complete Arsenal Breakdown
+# Dinoblade Weapons Guide — The Confirmed Arsenal
 
-In Dinoblade, your weapons are held in your dinosaur's jaws — a unique twist on the Soulslike formula that affects movesets, reach, and attack angles. Each of the six base weapon types offers distinct tradeoffs in damage, speed, reach, and stamina consumption.
+Dinoblade's weapons are held in your dinosaur's jaws — a young Spinosaurus biting down on a colossal blade. That single fact defines the game's combat identity. This guide covers the **confirmed** arsenal and stays honest about what isn't documented.
 
-This guide covers every weapon type, their special skills, hidden weapons, and the Ex-Mod upgrade system.
+**Honesty note:** no official weapon list with stats has been published as of August 2026. Any guide printing base damage numbers, scaling grades, or a "6 weapon types" table is unverified. This guide tracks what verified coverage confirms.
 
----
+## The Confirmed Weapons
 
-## Weapon Stats Overview
+### The Greatsword (Your Primary)
 
-All values are baseline (unupgraded). Damage scales with the primary stat shown.
+- **Confirmed:** your signature weapon — a colossal greatsword gripped in your Spinosaurus's jaws. It's the centerpiece of the game's marketing, official description, and every walkthrough.
+- **Playstyle:** heavy, wide-arc swings. The game's combat is built around it — parry, Resolve, and Instinct Counter all assume the greatsword kit.
+- **Moveset details:** light and heavy attack combos are confirmed (the tutorial covers them); exact frame data and stamina costs are undocumented.
 
-| Weapon Type | Base Damage | Speed | Reach | Stamina Cost | Primary Stat | Special Skill |
-|------------|------------|-------|-------|-------------|-------------|---------------|
-| Greatsword | 140 | Very Slow | Long | 30 | Strength | Meteor Slice |
-| Battle Axe | 110 | Medium | Medium | 22 | Strength | Whirlwind Spin |
-| War Hammer | 160 | Slowest | Medium | 35 | Strength | Earth Shatter |
-| Scythe | 85 | Medium | Long | 18 | Dexterity | Reaping Sweep |
-| Spear | 75 | Fast | Very Long | 14 | Dexterity | Impaling Charge |
-| Claws | 50 | Fastest | Short | 10 | Dexterity | Rending Strike |
+### The Flaming Sword (Tutorial Weapon)
 
----
+- **Confirmed:** you pick up the game's flaming sword at the very start — the tutorial item that teaches blocking, parrying, light/heavy combos, sprinting, dodging, lock-on, healing charges, and charge attacks.
+- **Playstyle:** the opening tool; it's the sword from the game's most famous trailer moment (a dinosaur parrying the meteor).
 
-## Weapon Type Breakdown
+### Enemy Weapons (In the World)
 
-### Greatsword
+- **Confirmed:** rival dinosaurs carry **scythes, tridents, and hammers** — walkthroughs document scythe- and hammer-wielding enemies, and the trailer shows trident-style weapons.
+- **Status:** whether these are obtainable player weapons is **TBD** — no verified source documents them in your hands.
 
-The greatsword is a colossal blade wielded in the dinosaur's jaws, swung in wide arcs that cleave through multiple enemies.
+### Kasei's Greatsword
 
-- **Moveset:** Horizontal sweeps on light attacks, overhead slams on heavy attacks, spinning slash on rolling attack.
-- **Strengths:** High damage per hit, excellent crowd control, can hit multiple enemies at once.
-- **Weaknesses:** Very slow recovery after attacks, high stamina cost, leaves you vulnerable.
-- **Ideal Build:** Colossus build — high Strength and Vitality. See the [Builds Guide](/guides/builds-guide).
-- **Special Skill — Meteor Slice:** Leaps into the air and slams the greatsword into the ground, creating an AoE shockwave. Requires 20 Strength. Deals 3x base damage in a radius.
+- **Confirmed:** Kasei the Tyrant switches to a massive greatsword in phase 2 of the final fight.
+- **Status:** obtainability TBD.
 
-### Battle Axe
+## Legendary Weapons (Confirmed to Exist, Unlisted)
 
-A versatile one-handed axe with a balanced moveset. The battle axe is the most forgiving weapon for new players.
+Official coverage states you can "hunt down legendary weapons to change how your Spinosaurus plays." That confirms:
 
-- **Moveset:** Diagonal slashes on light attacks, vertical chops on heavy attacks, kick on neutral heavy.
-- **Strengths:** High stagger potential, good speed-to-damage ratio, versatile moveset.
-- **Weaknesses:** No outstanding strength in any category — a jack of all trades.
-- **Ideal Build:** Primordial build — Strength/Spirit hybrid.
-- **Special Skill — Whirlwind Spin:** Spin the axe overhead for 2 seconds, hitting all nearby enemies. Hold the button to extend duration (costs more stamina). Requires 16 Strength.
+- Legendary weapons exist.
+- They meaningfully change playstyle.
+- Their names, locations, and effects are **undocumented** as of August 2026.
 
-### War Hammer
+Any guide naming "Fossil Greatsword," "Volcanic Hammer," "Soul Reaper," or similar with stats is **unverified fan content** — see the [Secrets Guide](/guides/secrets-guide) for what's confirmed.
 
-The slowest weapon type, but the most devastating against armored foes. The war hammer's weight crushes through guard and staggers almost everything.
+## The "Ex Mod" Question
 
-- **Moveset:** Overhead smashes on light attacks, lunging slams on heavy attacks.
-- **Strengths:** Highest stagger in the game, bonus damage vs. armored enemies (1.3x), destroys enemy guard in 2 hits.
-- **Weaknesses:** Extremely slow, leaves you vulnerable for 1-2 seconds after each swing, massive stamina cost.
-- **Ideal Build:** Colossus build (Strength-focused).
-- **Special Skill — Earth Shatter:** Slams the hammer into the ground, sending a shockwave forward. Deals heavy damage to armored enemies. Requires 22 Strength.
+"dinoblade ex mod" is a widely searched term, but **no verified source documents an Ex-Mod system** (modifiers, forges, or upgrade tiers) as of August 2026. Treat Ex-Mod descriptions in other guides as speculative until the community verifies the mechanic. When documentation surfaces, this guide will cover it.
 
-### Scythe
+## How Weapon Choice Actually Works (Confirmed Systems)
 
-A graceful curved blade with wide arcs and a unique ability to inflict bleed buildup. The scythe rewards precision and spacing.
+Since the confirmed weapon set is small, playstyle differences come from the systems *around* the weapon:
 
-- **Moveset:** Horizontal sweeps on light attacks (great for crowds), piercing thrust on heavy attacks, spinning slash on rolling attack.
-- **Strengths:** Wide attack arcs, bleed buildup (procs at 5 hits, deals 15% of max HP), long reach.
-- **Weaknesses:** Lower base damage, bleed is less effective against bosses.
-- **Ideal Build:** Blade Dancer (Dexterity) or Wardancer (Dexterity/Spirit hybrid).
-- **Special Skill — Reaping Sweep:** A wide spinning slash that hits all enemies in a 360-degree radius. Builds 3 bleed stacks instantly. Requires 16 Dexterity.
+| System | How It Affects Playstyle |
+|--------|--------------------------|
+| **Parry timing** | The hold-block-and-release parry is your offensive engine — see the [Parry Guide](/guides/parry-guide) |
+| **Resolve / finishing blows** | Every kill path runs through Resolve bars, regardless of weapon |
+| **Charged heavy attacks** | Fire a ranged projectile (5 Resonance + stamina) — the confirmed ranged tool against reach weapons |
+| **Soul Arts** | Bought with Boss SP; five confirmed arts (Meteor Slice, Meteor Dash, Alpha Roar, Meteor Zone, Survival Instinct) — see the [Soul Arts Guide](/guides/soul-arts-guide) |
+| **Boss summons** | Defeated bosses fight alongside you; the Axe summon boosts stamina recovery |
+| **Legendary weapons** | Confirmed to change how your Spinosaurus plays — details TBD |
 
-### Spear
+## Weapon-Specific Practice
 
-The longest-reaching weapon, held horizontally in the dinosaur's jaws and used for precise thrusting attacks.
-
-- **Moveset:** Forward thrusts on light attacks (excellent reach), sweeping slash on heavy attack, lunging thrust on running attack.
-- **Strengths:** Longest reach in the game, fastest recovery, can attack from behind allies/other players in co-op.
-- **Weaknesses:** Low damage per hit, poor crowd control, no stagger power.
-- **Ideal Build:** Wardancer build (Dexterity/Spirit hybrid).
-- **Special Skill — Impaling Charge:** A long-range lunging thrust that pierces through multiple enemies. Deals bonus damage based on distance traveled. Requires 18 Dexterity.
-
-### Claws
-
-The fastest weapon type, dual-wielded on each side of the dinosaur's jaws. Claws are all about speed, pressure, and bleed.
-
-- **Moveset:** Rapid slashes on light attacks (4-6 hit combos), cross-slash on heavy attack, leaping slash on jumping attack.
-- **Strengths:** Fastest attack speed, lowest stamina cost, fastest bleed buildup (procs at 4 hits).
-- **Weaknesses:** Shortest reach, low damage per hit, cannot stagger most enemies.
-- **Ideal Build:** Blade Dancer build (high Dexterity).
-- **Special Skill — Rending Strike:** A powerful cross-slash that deals double damage and applies 2 bleed stacks instantly. Requires 20 Dexterity.
-
----
-
-## Hidden Weapons
-
-These unique weapons are discovered through exploration and defeating optional bosses. See the [Secrets Guide](/guides/secrets-guide) for detailed locations.
-
-| Weapon | Type | Location | Special Effect |
-|--------|------|----------|---------------|
-| **Fossil Greatsword** | Greatsword | Jurassic Plains (secret cave) | +15% damage vs. boss enemies |
-| **Volcanic Hammer** | War Hammer | Volcanic Wastes (lava-veiled passage) | +25% fire damage, can be infused with ice |
-| **Soul Reaper** | Scythe | Crystal Caverns (defeat The Forgotten One) | Harvests souls from kills, +20% special skill damage |
-
----
-
-## Ex-Mod Upgrade System
-
-Ex-Mod (Extra Modification) is an endgame upgrade system that lets you modify your weapons beyond standard reinforcement. Ex-Mods change how a weapon functions.
-
-### How It Works
-
-1. Take any fully upgraded weapon (+10) to the Ex-Mod Forge, found in the Volcanic Wastes.
-2. Spend Ex-Mod materials (dropped by bosses and rare enemies) to apply a modification.
-3. Each weapon can hold one Ex-Mod at a time. Applying a new one overwrites the old.
-
-### Ex-Mod Types
-
-| Modification | Effect | Best For |
-|-------------|--------|----------|
-| **Tempered Edge** | +20% damage, +10% stamina cost | Greatsword, Battle Axe |
-| **Weighted Core** | +30% stagger, -10% attack speed | War Hammer, Greatsword |
-| **Lightweight Frame** | -20% stamina cost, -10% damage | Claws, Spear |
-| **Serrated Teeth** | +50% bleed buildup | Scythe, Claws |
-| **Elemental Infusion** | Adds 30% elemental damage (fire/ice/lightning) | Any weapon (match to boss weakness) |
-| **Soulbound** | +15% special skill damage, special skills cost 25% less Spirit | Spear, Scythe |
-
-### Ex-Mod Material Sources
-
-| Material | Source |
-|----------|--------|
-| Ancient Bone Shard | Common drop from large enemies, found in chests |
-| Sturdy Tail Shard | Axe (boss drop) |
-| Exile Claw | Kira the Exile (boss drop) |
-| Tyrant's Heart | Kasei the Tyrant (boss drop) |
-| Crystal Essence | Crystal Caverns rare enemies |
-| Forgotten Core | The Forgotten One (secret boss drop) |
-
----
-
-Launch Version / Updated: July 19, 2026
+1. **Greatsword:** practice the charged-heavy fire projectile — its 5-Resonance cost is the biggest economic decision in the toolkit.
+2. **Flaming sword:** the tutorial covers the full toolkit; replay the opening until the release-parry timing is reflexive.
+3. **vs. enemy scythes/hammers:** you can't out-range them in neutral — use the fire projectile or dodge-throughs (see the [Enemy Guide](/guides/enemy-guide)).
 
 ## Related Guides
 
-- [Builds Guide](/guides/builds-guide) — Optimal stat allocations for each weapon type
-- [Secrets Guide](/guides/secrets-guide) — Hidden weapon locations and secret boss guide
-- [Boss Guide](/guides/boss-guide) — Boss weaknesses and strategies
-- [Beginner Guide](/guides/beginner-guide) — First steps and core mechanics
+- [Builds Guide](/guides/builds-guide) — Playstyle frameworks around the confirmed arsenal
+- [Secrets Guide](/guides/secrets-guide) — Legendary weapon status
+- [Boss Guide](/guides/boss-guide) — What your weapon must beat
+- [Tier List](/guides/tier-list) — The verified ranking edition

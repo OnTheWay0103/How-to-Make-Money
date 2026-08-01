@@ -20,7 +20,7 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 shrink-0">
             <span className="text-2xl font-bold text-amber-400 tracking-tight">
-              SpiritVale Wiki
+              Skills &amp; Raids Wiki
             </span>
             <span className="hidden sm:inline-block text-[10px] uppercase tracking-widest text-gray-500 border border-gray-700 rounded px-1.5 py-0.5 leading-none">
               Unofficial fan wiki

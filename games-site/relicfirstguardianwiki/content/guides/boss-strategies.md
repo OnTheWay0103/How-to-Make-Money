@@ -1,154 +1,133 @@
 ---
-title: "Boss Strategies — Advanced Tactics for Every Major Boss"
-description: "Advanced boss strategies for Relic: First Guardian. Attack patterns, phase transitions, elemental weaknesses, dodge timings, recommended gear, and reward tables for all major encounters."
+title: "Boss Strategies — Parry Chains, Unblockable Tells & Build Swapping"
+description: "Advanced boss strategies for The Relic: First Guardian. Parry-gate vs dodge-gate Brutals, up-to-15-hit parry chains, unblockable tells, relic loadout swapping, and honest notes on what is unconfirmed."
 category: "Guides"
 version: "1.0"
-updated: "2026-07-29"
-keywords: ["relic first guardian boss strategies", "relic first guardian advanced boss tactics", "relic first guardian elemental weaknesses", "relic first guardian phase transitions", "relic first guardian dodge timings"]
-related: ["boss-guide", "combat-guide", "weapons-guide", "builds-guide"]
+updated: "2026-08-01"
+keywords: ["relic first guardian boss strategies", "relic first guardian advanced boss tactics", "relic first guardian parry boss", "relic first guardian unblockable attacks", "relic first guardian dodge timing", "relic first guardian build swapping"]
+related: ["boss-guide", "combat-guide", "all-bosses-list", "builds-guide"]
 ---
 
-# Boss Strategies — Advanced Tactics for Every Major Boss
+# Boss Strategies — Parry Chains, Unblockable Tells & Build Swapping
 
-Mastering boss encounters in Relic: First Guardian requires more than just learning attack patterns. Each major boss has unique phase transitions, elemental vulnerabilities, and gear thresholds that can dramatically shift the difficulty curve. This guide provides advanced strategies for the game's most challenging encounters.
-
----
-
-## Elemental Weakness System
-
-Every boss in Relic: First Guardian has an elemental affinity and corresponding weaknesses. Exploiting these weaknesses increases your damage output by 40% and can stagger bosses out of dangerous attack sequences.
-
-| Element | Status Effect | Strong Against | Weak Against |
-|---------|--------------|----------------|--------------|
-| Fire | Burning (DoT) | Void, Ice-aligned bosses | Water, Corrupted bosses |
-| Ice | Slow, Freeze | Fire, Beast bosses | Heavy Armor bosses |
-| Lightning | Stun, Chain | Mechanical, Construct bosses | Swift, Mobile bosses |
-| Dark | Life Steal Block | Holy, Light-aligned bosses | Pure Void bosses |
-| Holy | Bonus vs Corrupted | Corrupted, Undead bosses | Void-Touched bosses |
-
-**Key insight**: Most bosses have a primary and secondary elemental weakness. For example, the Forgotten King is weak to Holy (primary) and Lightning (secondary). Equipping runes that match both weaknesses yields the best results.
+The Relic: First Guardian's 70-80 **Brutal** boss fights follow two confirmed archetypes: fights you win by **parrying** and fights you win by **dodging**. This guide covers the advanced tactics that apply to both — the parry chain system, unblockable attack tells, and the build-swapping loop the game is designed around. At launch (August 2026), per-boss guides are still being written; the principles below are confirmed by official materials and launch reviews.
 
 ---
 
-## Major Boss Reference Table
+## The Two Boss Archetypes: Parry-Gate and Dodge-Gate
 
-| Boss | Location | Recommended Level | Weakness | Key Mechanic | Reward |
-|------|----------|-------------------|----------|--------------|--------|
-| The Hollow Knight | Ruined Chapel | 5-8 | Lightning | Clone phase at 50% HP | Rune of Persistence |
-| Commander Vex | Sunken Citadel | 12-15 | Holy | Shield matrix summon | Vex's Crest (artifact) |
-| The Drowned Matron | Underground Reservoir | 18-22 | Lightning | Tidal wave AoE | Tide Ward artifact |
-| Elder Wyrm | Dragon's Rest | 25-30 | Ice | Flight phase (ranged only) | Wyrm Scale (crafting) |
-| Soul Reaper | Soul Sanctum | 30-35 | Holy | Soul tether mechanic | Reaper's Scythe (weapon) |
-| The Corrupted Colossus | Shattered Plains | 35-40 | Lightning | Armor break phase | Colossus Core (rune) |
+Official descriptions and launch reviews agree on how bosses are designed:
 
----
+| Archetype | Confirmed Facts | Strategy |
+|-----------|-----------------|----------|
+| **Parry-gate** | Guard must be broken with **repeated parries**; reviews report chains of **up to 15 parries** before an attack window opens | Commit to the rhythm; count the chain; never break early |
+| **Dodge-gate** | Boss uses **unblockable attacks** — blocking and parrying fail | Learn the tells; dodge through; punish recovery |
 
-## Phase Transition Strategies
-
-### Two-Phase Bosses
-
-Most bosses follow a 100%-0% HP structure with a single phase transition around 40-50% HP. The transition is signaled by a specific animation — a roar, a flash, or a ground slam. Use this window to heal, reapply rune effects, or reposition.
-
-**The Drowned Matron** is a textbook two-phase fight:
-- **Phase 1 (100%-40%)**: Melee attacks with occasional water jets. Stay close to bait melee combos.
-- **Phase 2 (40%-0%)**: Tidal wave AoE and summoned water elementals. Move to high ground platforms when the water level rises.
-- **Transition tell**: She sinks into the water and emerges with a glowing core. You have 4 seconds to heal.
-
-### Three-Phase Bosses
-
-Elite bosses have three distinct phases, each adding new mechanics:
-
-**The Corrupted Colossus**:
-- **Phase 1 (100%-65%)**: Slow sweeping attacks. Easy to dodge. Aim for the leg joints.
-- **Phase 2 (65%-30%)**: Armor shatters, revealing a lightning-weak core. Attack speed increases by 40%. Use lightning-infused weapons.
-- **Phase 3 (30%-0%)**: Desperation mode. Constant AoE pulses. Must stay within melee range to avoid orbital beam attack.
-
-### Multi-Stage Bosses
-
-The most complex encounters have 4+ phases with environmental changes:
-
-**Elder Wyrm**:
-- **Ground Phase**: Melee attacks and tail sweep. Standard dodge patterns.
-- **Flight Phase**: Only head is vulnerable. Requires ranged weapons or staff.
-- **Enrage Phase (20% HP)**: Both ground and flight attacks simultaneously. Use the central pillar for cover.
-- **Execution Phase (5% HP)**: Scripted sequence. Follow the on-screen prompts for a cinematic finish.
+**How to identify a fight fast**: attempt a parry early. If your parry connects and builds toward a stagger, it is a parry-gate fight. If parrying gets you hit or does nothing, it is a dodge-gate fight — switch to dodging immediately. Wasting stamina on the wrong defense is the #1 cause of early deaths.
 
 ---
 
-## Dodge Timing Reference
+## Parry-Gate Tactics: Breaking Guard, Then Bursting
 
-Mastering dodge timing is essential for consistent boss clears. Here are the critical dodge windows for major bosses:
+### The Parry Chain
 
-| Boss Attack | Windup Duration | Dodge Direction | Consequence of Miss |
-|-------------|-----------------|-----------------|---------------------|
-| Hollow Knight - Overhead Slam | 1.2s | Right | 60% HP damage |
-| Commander Vex - Shield Charge | 0.8s | Left | Knockback + stun |
-| Drowned Matron - Tidal Wave | 2.5s | Jump (not dodge) | 80% HP damage |
-| Elder Wyrm - Tail Sweep | 1.0s | Backward | Knockdown + follow-up |
-| Soul Reaper - Soul Tether | 1.8s | Toward (dodge through) | 100% HP (instant kill) |
-| Corrupted Colossus - Ground Pound | 2.0s | Side (twice) | 70% HP + stagger |
+For parry-gate bosses, the fight is a two-phase loop:
 
-**Advanced dodge tip**: The game grants 12 invulnerability frames on a standard dodge (at 60 FPS). Learning the exact timing of each attack lets you dodge *into* attacks safely and maintain aggressive positioning.
+1. **Chain phase** — land consecutive parries to fill the boss's guard meter. Reviews confirm chains can run **up to 15 parries long**. Each parry must be deliberate: parry the attack that is coming, not a rhythm you assume.
+2. **Window phase** — once the guard breaks, the boss is staggered and open. This is your damage window — use your highest-damage skills, since skills run on cooldowns, not resources.
 
----
+### Parry Chain Tips
 
-## Recommended Gear by Boss Tier
+- **Watch the weapon, not the body** — tells are read off the attacking limb.
+- **Parry the last hit of a chain** — some combos only leave a gap at the end; mid-chain parries are for building the meter.
+- **Never parry an unblockable** — in mixed fights, bosses can weave unblockable hits into combos. If a tell looks "heavier" than the rest of the chain, dodge it.
+- **Preserve stamina for the chain** — every failed parry costs stamina; treat the meter as chain ammo.
 
-### Early Game Bosses (Levels 5-15)
+### Generous Windows
 
-Prioritize weapons with Lightning or Holy damage. The Sword & Shield with a Lightning Rune is the safest setup for learning boss patterns.
-
-- **Weapon**: Sword & Shield (Iron Wall tree)
-- **Runes**: Fragment of Vigor, Ember of Persistence
-- **Armor**: Any set with 30+ physical defense
-- **Consumables**: 3 Healing Salves minimum
-
-### Mid Game Bosses (Levels 18-30)
-
-Elemental weaknesses become critical. Carry two weapons with different elements to adapt during phase transitions.
-
-- **Weapon**: Sword (Flamebrand or Frost Warden) + Staff backup
-- **Runes**: Shard of Clarity, Iron Bulwark
-- **Armor**: Set matching your primary element's resistance
-- **Consumables**: Healing Salves + Stamina Tonic
-
-### Late Game Bosses (Levels 30+)
-
-Bosses at this tier require optimized builds. Phase transitions are faster and more punishing.
-
-- **Weapon**: Any Legendary-tier weapon matching boss weakness
-- **Runes**: Full combat-focused loadout with elemental resistance
-- **Armor**: Legendary set with max upgrades
-- **Consumables**: Full inventory of healing, stamina, and elemental buffs
+Launch reviews agree the parry timing window is **generous** compared to many soulslikes. If you are new to parrying, The Relic is a good place to learn it — the window is forgiving, and successful parries stagger enemies hard.
 
 ---
 
-## Advanced Tips
+## Dodge-Gate Tactics: Unblockable Tells
 
-1. **Parry priority**: Not all attacks should be parried. Some attacks have follow-ups that punish parry attempts. Learn which attacks end a combo.
-2. **Stamina breakpoints**: Against fast bosses, never let stamina drop below 30. You need two consecutive dodges to escape some combos.
-3. **Environment first**: Every boss arena has environmental elements — pillars for cover, elevated platforms, or hazards. Identify them before engaging.
-4. **Rune swapping mid-fight**: Some boss arenas have Braziers of Reflection. Use them to swap runes between phases if a boss changes damage type.
-5. **Cooldown rotation**: Track your skill cooldowns. Entering a phase transition with all skills on cooldown is a common cause of death.
+Some Brutals use attacks that **cannot be blocked or parried** — the game forces you to dodge. Confirmed facts:
+
+- Unblockable attacks are a designed part of the roster, not a bug.
+- The only defense is the dodge (stamina-gated — see the [Combat Guide](/guides/combat-guide)).
+- Precise tell animations are **unconfirmed per boss**, but general soulslike tells (windup, glow, audio cue, weapon reposition) apply — learn each boss's individual tell in the first attempts.
+
+### Dodge Discipline
+
+1. **Dodge through, not away** — dodging into an attack's recovery keeps you in range for the punish.
+2. **One dodge per attack** — panic-rolling drains the stamina you need for the next unblockable.
+3. **Track your stamina mid-combo** — against dodge-gate bosses, stamina is life. Never enter a combo at low stamina.
+4. **Punish recovery, not windup** — the safest damage is after the attack resolves.
 
 ---
 
-## Boss Weakness Exploitation Priority
+## Build Swapping: The Game's Intended Boss Loop
 
-When preparing for a boss, follow this checklist:
+The Relic: First Guardian is explicitly designed around adapting your build **between** boss fights. This is confirmed by official material ("No single strategy works for all" — the game encourages constantly adjusting builds):
 
-1. Identify the boss's primary and secondary elemental weaknesses
-2. Equip weapons and runes matching those elements
-3. Equip armor with resistance against the boss's damage type
-4. Stock consumables that counter the boss's status effects
-5. Identify environmental advantages in the arena
-6. Learn the phase transition tells before engaging
+- **Relics (fragments)**: over 70 unique passive fragments, freely swappable. Some reshape skills, alter combat tempo, buff specific weapons, or improve survivability. For a boss, equip the fragments that fit its archetype.
+- **Weapons**: 5 families, each with its own skill tree (12 trees total, 2 per family). If a boss punishes slow weapons, switch families.
+- **Gear**: every item is unique, and some carry Drawbacks — swapping gear per fight is expected, not min-maxing.
+
+**Practical loop**: attempt → identify archetype → swap relics/weapons → retry. This loop is more effective than grinding the same loadout.
+
+---
+
+## The Unconfirmed Zone (Read Before Trusting Any Guide)
+
+At launch, the following are **not confirmed** — guides that state them confidently are speculative:
+
+- Per-boss attack pattern breakdowns with exact windup timings (e.g., "1.2s windup, dodge right")
+- A confirmed elemental weakness system with damage multipliers
+- "Phase transition" percentages (e.g., "phase 2 at 60% HP") for specific bosses
+- Boss drop tables with named relics or artifacts
+- NG+ boss remixes or superbosses
+- Any co-op-based boss tactics (there is no co-op)
+
+**How to use this guide**: apply the confirmed archetype logic above to any boss you meet. When the community documents specific fights, updated per-boss sections will replace this general framework.
+
+---
+
+## Advanced Tips Checklist
+
+1. Identify parry-gate vs dodge-gate in the first 30 seconds
+2. For parry-gate: commit to the full chain (up to 15 parries), then burst with skills
+3. For dodge-gate: learn the unblockable tells; dodge through; punish recovery
+4. Never waste stamina on the wrong defense
+5. Swap relic loadouts between attempts — it is the intended loop
+6. Keep potion count high by hunting Shards of Esser (temple altars)
+7. Use the arena — cover and elevation matter in most fights
+8. Ignore "levels" and unconfirmed element tables; they are fabricated
+
+---
+
+## Common Questions
+
+**Q: What are "unblockable attacks"?**
+A: Attacks that ignore block and parry — your only defense is dodging. They are a confirmed core mechanic of the game's boss design.
+
+**Q: How many parries does it take to break a boss's guard?**
+A: Reviews report **up to 15 consecutive parries** for some bosses. Exact values per boss are unconfirmed.
+
+**Q: Should I parry everything?**
+A: No. Parry-gate bosses reward parries; dodge-gate bosses punish them. Identify the archetype first.
+
+**Q: Do elemental weaknesses matter against bosses?**
+A: **Unconfirmed** — no verified elemental weakness system has been documented at launch.
+
+**Q: Can I change my build mid-fight?**
+A: Relics are swappable at rest points; mid-fight swapping is unconfirmed. Between fights, everything is changeable.
 
 ---
 
 ### Related Guides
 
-- [Boss Guide — How to Beat Every Major Boss](/guides/boss-guide) — Full boss encounter walkthroughs
-- [Combat Guide](/guides/combat-guide) — Stamina management, parry timing, and advanced techniques
-- [Weapons Guide](/guides/weapons-guide) — All 5 weapon families and skill trees
-- [Best Builds Guide](/guides/builds-guide) — Optimized builds for every playstyle
+- [Boss Guide](/guides/boss-guide) — General Brutal-fighting principles
+- [Combat Guide](/guides/combat-guide) — The parry and stamina systems in depth
+- [All Bosses List](/guides/all-bosses-list) — The roster: confirmed vs unconfirmed
+- [Best Builds Guide](/guides/builds-guide) — Loadouts to swap between fights

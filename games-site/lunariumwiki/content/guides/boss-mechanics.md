@@ -1,149 +1,160 @@
 ---
-title: "Boss Mechanics Guide — Attack Patterns & Phase Strategies"
-description: "Complete boss mechanics guide for Lunarium covering every major boss's attack patterns, phase transitions, weak points, recommended strategies, and loot drops."
-category: "Guides"
+title: "Lunarium Boss Mechanics Guide — Parry, Stagger, Nihilus & Red Flashes"
+description: "How Lunarium boss fights actually work: parry-able vs. red-flash attacks, the stagger bar, Nihilus cores and orbs, Lune's arrow interrupts, the Blade of Rutila, and two-health-bar fights."
+category: "Bosses"
 version: "1.0"
-updated: "2026-07-29"
-keywords: ["lunarium boss guide", "boss mechanics", "attack patterns", "phase transitions", "weak points", "boss strategies", "loot drops"]
-related: ["character-builds", "exploration-guide", "equipment-guide"]
+updated: "2026-08-01"
+keywords:
+  - Lunarium boss mechanics
+  - Lunarium stagger bar
+  - Lunarium parry red flash
+  - Lunarium Nihilus core
+  - Lunarium Blade of Rutila
+related:
+  - boss-guide
+  - combat-guide
+  - castle-walkthrough
+  - lilia-boss-guide
 ---
 
-## Lunarium Boss Mechanics Guide
+# Lunarium Boss Mechanics Guide — Parry, Stagger, Nihilus & Red Flashes
 
-Boss encounters in Lunarium are multi-phase battles that test your build's viability and your mechanical execution. Each boss has distinct attack patterns, phase transitions triggered by health thresholds, and exploitable weak points. This guide breaks down every major boss encounter to help you prepare.
+**Lunarium 1.0 / Updated: August 1, 2026**
 
-## Boss Overview
+Lunarium's boss fights are built on a small set of mechanics that repeat and combine across the entire game. Once you understand these systems, every boss in the game becomes a matter of pattern recognition rather than raw stats. This guide explains each core mechanic, how they combine in boss fights, and what is still unconfirmed.
 
-| Boss | Location | Phase Count | Recommended Level | Notable Drops |
-|------|----------|-------------|------------------|---------------|
-| **Elder Treant** | Whispering Woods | 2 | 8 | Treant Heart, Living Bark Armor |
-| **Skeletal King** | Sunken Catacombs | 3 | 16 | Undead Bane Sword, King's Crown |
-| **Sand Wyrm** | Crimson Dunes | 2 | 22 | Wyrm Scale, Sand Strider Boots Recipe |
-| **Frost Guardian** | Frozen Spires | 3 | 30 | Frost Core, Guardian Shard |
-| **Rift Lord** | The Riftlands | 4 | 38 | Rift Blade, Lord's Mantle |
-| **Lunar Sentinel** | Lunar Sanctum | 5 | 48 | Sentinel Gear, Moonstone Fragment |
-
-## Elder Treant
-
-The first major boss, encountered in the heart of Whispering Woods. This encounter teaches basic boss mechanics like attack telegraphed wind-ups and phase transitions.
-
-### Phase 1 (100%-50% HP)
-
-Attack patterns in Phase 1:
-- **Root Slam**: Treant raises both arms and slams the ground, creating a shockwave. Dodge roll through the wave to avoid damage.
-- **Vine Whip**: A sweeping attack covering a 180-degree arc in front of the boss. Blockable with a shield.
-- **Acorn Volley**: Treant launches burst of acorns that track the player. Run laterally to avoid tracking.
-
-**Weak Point**: The glowing knot on the Treant's lower trunk. Attacks here deal 25% bonus damage.
-
-### Phase 2 (50%-0% HP)
-
-Triggered when health drops below 50%. The boss roots itself and gains new attacks:
-- **Solar Beam**: A concentrated light beam from the canopy that sweeps across the arena. Stay behind the boss.
-- **Healing Roots**: Adds spawn that heal the Treant. Kill them immediately.
-- **Ground Pound**: Three consecutive AoE slams with increasing radius. Move away between each slam.
-
-**Strategy**: Save your ultimate abilities for Phase 2. The Solar Beam telegraph gives you a 2-second window to reposition behind the boss. Coordinate add-clearing responsibilities in group play.
-
-## Skeletal King
-
-The Sunken Catacombs' final guardian. This three-phase boss emphasizes positioning and add management.
-
-### Phase 1 (100%-70% HP)
-
-- **Bone Lance**: The King throws a spear that impales the target, dealing damage over time. The Cleric must cleanse this.
-- **Shield Wall**: Raises a bone barrier that absorbs damage. Stop attacking and reposition during this.
-- **Summon Skeletons**: Four skeleton adds spawn. Clear them before resuming DPS on the boss.
-
-### Phase 2 (70%-30% HP)
-
-- **Soul Drain**: A channeled ability that drains HP from all players. Interrupt with any hard CC ability.
-- **Bone Storm**: The King spins, creating a whirlwind of bone fragments. Ranged characters can attack from outside the radius.
-- **Grave Pit**: Opens fissures in the ground. Standing in them deals damage over time.
-
-### Phase 3 (30%-0% HP)
-
-- **Undead Fury**: Attack speed increases by 50%. The boss becomes more aggressive but takes 20% more damage.
-- **Soul Bomb**: A massive AoE centered on the boss. All players must reach the safe zone at the arena edge.
-- **Final Stand**: At 10% HP, the King becomes immune to CC and gains a damage aura. Burn through this phase as fast as possible.
-
-## Sand Wyrm
-
-A desert boss that burrows and surfaces unpredictably. Learning its movement patterns is essential.
-
-### Phase 1 (100%-60% HP)
-
-- **Burrow**: The Wyrm submerges and surfaces at a random location. Watch for sand ripples showing its path.
-- **Sand Breath**: A cone attack that applies a stacking slow debuff. Avoid by staying behind the boss.
-- **Tail Whip**: A rear attack with knockback. Melee DPS should attack from the sides to avoid this.
-
-### Phase 2 (60%-0% HP)
-
-- **Sandstorm**: Reduces visibility and applies constant damage-over-time. The boss becomes more aggressive.
-- **Quicksand Pool**: Creates zones that pull players in. Stay mobile and avoid kiting through the same area.
-- **Enrage Timer**: At 8 minutes, the Wyrm enrages and deals 100% bonus damage. If you reach this point, your DPS is insufficient.
-
-## Frost Guardian
-
-A frozen construct defending the Frozen Spires' summit. Freeze resistance is strongly recommended.
-
-### Phase 1 (100%-65% HP)
-
-- **Ice Shard**: Launches projectiles that leave freezing puddles. Space out to avoid overlapping puddles.
-- **Freezing Aura**: A pulsing aura that builds freeze stacks. Break line of sight to reset stacks.
-- **Slam**: A forward slam that creates a shockwave of ice crystals.
-
-### Phase 2 (65%-30% HP)
-
-- **Avalanche**: Calls ice chunks from the ceiling. The safe zone is marked by blue circles on the ground.
-- **Frost Armor**: Gains a damage reduction shield. Destroy it by dealing fire damage.
-- **Blizzard**: Arena-wide damage over time. Group up for Cleric healing efficiency.
-
-### Phase 3 (30%-0% HP)
-
-- **Shatter**: Deals damage equal to the number of freeze stacks on each player. Keep stacks low.
-- **Frozen Core**: The Guardian's core becomes exposed. All attacks deal critical damage during this window.
-- **Final Crash**: A massive AoE that requires the entire party to stack behind the ice pillar in the arena center.
-
-## Rift Lord
-
-The penultimate boss, found in The Riftlands. Four phases test every aspect of your build.
-
-### Phase 1 (100%-75% HP)
-
-- **Rift Bolt**: Standard ranged attack, dodgeable.
-- **Void Grasp**: Tethers to a random player, pulling them toward the boss. Break the tether by moving away.
-- **Reality Fracture**: Spawns AoE zones that persist for 30 seconds. Plan your arena positioning carefully.
-
-### Phase 2 (75%-50% HP)
-
-- **Dimension Slash**: Wide-area cleave applying a Bleed effect.
-- **Portal Phase**: Teleports around the arena, leaving afterimages that also attack. Track the real boss by its shadow length.
-- **Gravity Well**: Pulls all players to the center. Spread out immediately after the pull ends.
-
-### Phase 3 (50%-25% HP)
-
-- **Rift Storm**: Continuous AoE damage. Interrupt the channel to stop it early.
-- **Clone**: Creates a mirror copy of a random player. The clone has 50% of that player's stats. Kill it quickly.
-- **Null Zone**: Areas that suppress all healing effects. Avoid them.
-
-### Phase 4 (25%-0% HP)
-
-- **Reality Collapse**: All previous mechanics overlap. The boss cycles through them faster.
-- **Enrage**: If the boss reaches enrage, it wipes the party. Phase 4 requires maximum DPS focus.
-
-## Lunar Sentinel
-
-The final boss of Lunarium. Five phases require mastery of every mechanic learned throughout the game. This encounter demands a level 48+ party with optimized gear.
-
-### Core Mechanics Summary
-
-- Phase 1 focuses on positioning and light mechanics
-- Phase 2 introduces lunar phases that affect available abilities
-- Phase 3 requires platforming under pressure
-- Phase 4 is a gauntlet of previous boss mechanics
-- Phase 5 is a pure DPS check with limited safe zones
+Everything here is sourced from community walkthroughs of the released game. Where a number or detail is not verified, it is marked unconfirmed.
 
 ---
 
-For class-specific strategies against each boss, see the [Character Builds Guide](/guides/character-builds). For information on loot locations and farming routes, consult the [Exploration Guide](/guides/exploration-guide).
+## 1. The Parry / Dodge Divide
+
+The single most important concept in Lunarium combat — for bosses and regular enemies alike:
+
+| Attack Type | Visual Cue | Response |
+|-------------|-----------|----------|
+| **Parry-able attack** | Normal telegraph (wind-up, flash on weapon) | Press block just before it lands → negate damage, stagger the enemy |
+| **Unparriable attack** | **Red flash / red glow** | Dodge only — parrying does not work |
+
+### Confirmed boss examples
+- **Longhorn Troll:** below 40% HP it "glows red before some attacks" — those are dodge-only.
+- **Lilia:** multiple red-flashing attacks (thrust, Nihilus ground AoE, projectile spam, spear slam) — all dodge-only.
+- **Sentinel Colossus:** red glow means a ground smash AoE — dodge.
+- **Fintan / Hauler Colossus:** red glow telegraphs jump smashes and slam attacks.
+
+### Practical implications
+- Against bosses, never spam parry blindly — a red flash punishes it.
+- Keep an eye on the glow color during combos: a boss can mix parry-able and red-flash hits in the same sequence (Lilia's feint opener is the first real test of this).
+
+---
+
+## 2. The Stagger Bar
+
+Bosses (and elites) in Lunarium have a **stagger bar** that fills as you pressure them. When it fills, the boss staggers — a long window to deal free damage.
+
+### What builds stagger (confirmed)
+- **Successful parries** — the primary source.
+- **Lune's light arrows** — they stagger enemies and keep a boss's stagger bar from draining when you can't land hits yourself (explicitly called out for the Red Dancer fight).
+- **The Blade of Rutila** (post-Cyanstone) — deals heavy stagger damage and interrupts red-flashing attacks.
+
+### Confirmed stagger-dependent fights
+- **Hauler Colossus — Heavy:** takes almost no normal damage. The fight is won by **staggering it twice**.
+- **Elmo:** his shield is **broken by staggering him once**.
+- **Red Dancer:** the fight is a stagger-management exercise — Lune's arrow keeps the bar from draining.
+
+> The exact numbers behind the stagger bar (how much each parry fills it, decay rate, etc.) are **unconfirmed** — no reliable source has quantified them yet.
+
+---
+
+## 3. Nihilus Cores & Orbs
+
+Nihilus corruption manifests as floating **orbs** and **cores** that protect what they touch:
+
+| Form | Where You See It | What To Do |
+|------|------------------|------------|
+| **Nihilus orbs** (floating) | Protecting enemies; the Longhorn Troll's scripted rematch | **Lune's light arrows destroy them** |
+| **Nihilus cores** (on enemies/bosses) | Enemies with cores on their backs take reduced damage; Fintan Phase 2; the Sea Monster's eye; Lilia's thorn trap | **Shoot with Lune's arrow** — often interrupts an attack as a bonus |
+| **Core-blocked paths** | Cyanstone (and elsewhere): paths blocked by corruption | Shoot the core to clear the path |
+
+### Confirmed examples
+- **Fintan:** Phase 2 core on its back — shoot it after the smash to interrupt a wide-area attack; also stops its reckless charge.
+- **Rearguard Warrior (optional):** core appears during some attacks — destroying it interrupts them.
+- **Sea Monster:** its eye turns into a Nihilus Core — that's the moment it rests its fin on the deck, your damage window.
+- **Lilia:** when she traps you in Nihilus thorns before an explosion, **shoot the core with an arrow to escape**.
+
+---
+
+## 4. Lune's Arrow — Your Interrupt Tool
+
+Lune is an AI companion, but her arrow is a strategic resource in boss fights. Confirmed uses:
+
+1. **Destroy Nihilus orbs/cores** (see above).
+2. **Interrupt boss attacks** — the Shadow of Firleaves' Phase 2 shockwave and Fintan's wide-area attack are explicitly interruptible by arrow.
+3. **Maintain stagger pressure** — the Red Dancer fight.
+
+Because Lune is AI-controlled, her arrow fires when she can. In fights that demand precise interrupts, keep enemies/bosses where Lune has a clear line of fire, and don't put yourself between Lune and the target.
+
+---
+
+## 5. The Blade of Rutila
+
+Obtained by finishing off **Lilia** in Cyanstone, the Blade of Rutila becomes a **permanent skill**:
+
+- **Interrupts enemies during red-flashing unparriable attacks** — the one tool that works on red-flash moves.
+- Deals **heavy stagger damage**.
+- The final boss (**Enid**) is explicitly designed around it: when she smashes her sword into the ground, the Blade of Rutila is the intended counter.
+
+**Practical rule:** from Cyanstone onward, save the Blade of Rutila for the boss's most dangerous red-flash attack — the payoff is a stagger window and skipped damage.
+
+---
+
+## 6. Two Health Bars & Phase Changes
+
+Several bosses have health-bar mechanics beyond a simple HP pool:
+
+| Boss | Mechanic |
+|------|----------|
+| **Lilia** | **First boss with two health bars.** Depleting the first bar triggers Phase 2: more aggressive, Nihilus thorn traps, etc. |
+| **Volcano Crab** | After the first health bar, it divides the arena into three parts. |
+| **Shadow of Firleaves** | Below ~40% HP: eye appears on forehead, new shockwave attack, more aggression. |
+| **Longhorn Troll** | Below 40%: red-glow attacks added. Plus a full scripted rematch after the first death. |
+| **Roan (rematch)** | Phase 2: scythe, faster and stronger. |
+| **Enid** | Phase 2: faster, teleport rifts, grab/rapid-slash attacks. |
+
+### General phase-change rules (community consensus)
+- **Phase 2 almost always adds speed and red-flash attacks** — expect to dodge more, parry less.
+- **Health-bar transitions are often preceded by a pause or an attack** (e.g., Lilia's thorn trap after the bar break) — don't greed damage during the transition.
+
+---
+
+## 7. Fight-Specific Advice (Quick Reference)
+
+| Situation | Advice |
+|-----------|--------|
+| Boss blocking (Sentinel Colossus) | Don't attack the shield — wait for the bash/dash and parry them |
+| Boss evasive (Red Dancer) | Let Lune's arrow hold the stagger bar; punish openings |
+| Boss near-invulnerable (Hauler) | Stop DPSing — play for stagger only |
+| Boss with core on back (Fintan) | Prioritize shooting the core after its big attacks |
+| Boss with two bars (Lilia) | Expect a new threat at the bar break; save the Rutila finisher |
+| Ship fight (Sea Monster) | You can't fight directly — dodge, hit the fin when it lands |
+| Final boss (Enid) | Parry the thrusts, Rutila the ground-sword smash, survive Phase 2 |
+
+---
+
+## 8. What Is Still Unconfirmed
+
+- Exact stagger-bar values and decay rates
+- Whether bosses have hidden enrage timers
+- Any secret/hidden bosses beyond the confirmed roster (see [Boss Guide](/guides/boss-guide))
+- Boss HP values, damage numbers, and drop tables
+
+Treat any guide that quotes precise boss HP, "phases at exactly 40%/50%", or named hidden bosses without a walkthrough/video source as unverified.
+
+---
+
+## Related Guides
+
+- [Boss Guide — All Bosses](/guides/boss-guide) — the full roster in order
+- [Combat Guide](/guides/combat-guide) — parry, dodge, and Resonance basics
+- [How to Beat Lilia](/guides/lilia-boss-guide) — the two-bar skill check in depth
+- [Cyanstone Walkthrough](/guides/castle-walkthrough) — where most of these mechanics are introduced

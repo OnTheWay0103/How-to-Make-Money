@@ -1,120 +1,123 @@
 ---
-title: "All Bosses List — Every One of the 70+ Bosses"
-description: "Complete list of all 70+ bosses in The Relic: First Guardian. Every story boss, optional mini-boss, and secret boss organized by region, with difficulty ratings, levels, and rewards."
+title: "All Bosses — The 70+ Brutals, Confirmed & Unconfirmed"
+description: "How many bosses are in The Relic: First Guardian? Official materials cite 70-80 'Brutal' boss fights, most optional. What is confirmed about the roster, the one confirmed boss (Blood-Stained Shield Branko), and what is still unconfirmed."
 category: "Guides"
 version: "1.0"
-updated: "2026-07-31"
-keywords: ["relic first guardian all bosses", "relic first guardian bosses list", "relic first guardian how many bosses", "relic first guardian boss order", "relic first guardian optional bosses", "relic first guardian secret bosses"]
+updated: "2026-08-01"
+keywords: ["relic first guardian all bosses", "relic first guardian bosses list", "relic first guardian how many bosses", "relic first guardian brutals", "relic first guardian optional bosses", "relic first guardian boss order"]
 related: ["boss-guide", "boss-strategies", "walkthrough", "secret-areas"]
 ---
 
-# All Bosses List — Every One of the 70+ Bosses
+# All Bosses — The 70+ Brutals, Confirmed & Unconfirmed
 
-The Relic: First Guardian's biggest selling point is its staggering boss roster — **70+ unique encounters**, each a former human twisted by starvation, curses, or the encroaching Void. This guide is the definitive index: every confirmed boss, organized by type and region, with difficulty ratings, levels, and rewards. Boss-specific attack patterns live in the [Boss Guide](/guides/boss-guide) and [Boss Strategies](/guides/boss-strategies).
+The Relic: First Guardian's biggest selling point is its boss roster. Official materials describe **70 to 80 boss fights** — the game calls them **Brutals** — each with a tragic backstory: former humans twisted into monsters by starvation or curses, many of whom have forgotten their own names. Defeating a Brutal lays a troubled soul to rest and reveals its tale.
 
----
-
-## Boss Breakdown at a Glance
-
-| Category | Count | Examples |
-|----------|:-----:|----------|
-| Story Bosses | 8 | Withered Gatekeeper → Forgotten King |
-| Optional Mini-Bosses | 15+ | Hollow Knight, Drowned Pilgrim, Ash Commanders |
-| Secret & Late-Game Bosses | 10+ | Elder Wyrm, Soul Reaper, The Void Walker |
-| Remaining Regional Encounters | 35+ | Scattered across late-game regions and NG+ |
-| **Total** | **70+** | All confirmed at launch |
+This guide is an honest index of what we know about the roster at launch (August 2026), what is confirmed by name, and what remains unconfirmed. Because the game launched on July 31, 2026, community documentation of all 70+ encounters is still in progress.
 
 ---
 
-## Story Bosses (8) — In Order
+## What Is Confirmed About the Roster
 
-These are mandatory and appear on the critical path. See the [Walkthrough](/guides/walkthrough) for full progression detail.
-
-| # | Boss | Location | Difficulty | Reward |
-|---|------|----------|:----------:|--------|
-| 1 | Withered Gatekeeper | Ruined Outpost | ★☆☆☆☆ | Rune of Fortification |
-| 2 | Corrupted Sentinel | Forsaken Garrison | ★★☆☆☆ | Rune of Retribution, Sentinel's Helm |
-| 3 | Husk of the Betrayer | Ruins of Elara | ★★★☆☆ | Rune of Evasion, Betrayer's Blade Shard |
-| 4 | The Starving Saint | Cathedral of the Hungry | ★★★☆☆ | Rune of Preservation, Saint's Tear |
-| 5 | Drakhan, the Ashen General | Scorched Battlefield | ★★★★☆ | Rune of Devastation, Ashen General's Pauldron |
-| 6 | The Weeping Twins | Twin Lakes | ★★★★☆ | Rune of Swiftness, Twins' Locket |
-| 7 | Void-Touched Guardian | Shattered Relic Chamber | ★★★★☆ | Rune of the Arcanist, Fragment of the First Relic |
-| 8 | The Forgotten King | Throne of Ashes | ★★★★★ | Rune of the Void, King's Shattered Crown |
+| Fact | Detail |
+|------|--------|
+| Total boss count | **70-80** (official materials vary between "over 70" and "up to 80") |
+| Official name for bosses | **Brutals** |
+| Mandatory (story) bosses | A minority — most Brutals are **optional** |
+| Lore | Each has a tragic backstory; many are former humans who forgot their names |
+| Rewards | Powerful **special items and upgrades** essential for progression |
+| Design variety | Some use **unblockable attacks** (forcing dodges); others must be broken with **repeated parries** |
+| Named example | **"Blood-Stained Shield" Branko** — the one boss name confirmed in official/preview material |
+| Strategy | No single build wins; the game expects you to swap relics and gear between fights |
 
 ---
 
-## Optional & Secret Bosses — Confirmed Encounters
+## The One Confirmed Boss: "Blood-Stained Shield" Branko
 
-These are the named optional bosses confirmed at launch. They are entirely skippable but drop some of the best gear in the game.
+Of the 70-80 Brutals, exactly one name has been confirmed in official preview material: **"Blood-Stained Shield" Branko**. Like the rest of the roster, Branko's backstory is tragic — a defender whose shield became stained through some awful loss.
 
-| Boss | Region | Recommended Level | Unique Rewards |
-|------|--------|:-----------------:|----------------|
-| The Hollow Knight | Ruined Chapel | 5-8 | Ember of Persistence rune |
-| Elara Gravekeeper | Ruins of Elara | 8-12 | Titan's Ring artifact |
-| Drowned Pilgrim | Underground Reservoir | 12-18 | Tide Ward artifact |
-| 3× Ash Commanders | Scorched Battlefield | 20-25 | Juggernaut Plate (all three) |
-| Secret Catacomb Boss | Cathedral of the Hungry | 18-22 | Rune of Vampirism |
-| Commander Vex | Sunken Citadel | 12-15 | Vex's Crest artifact |
-| The Drowned Matron | Underground Reservoir (depths) | 18-22 | Tide Ward upgrade |
-| The Collector | Memory Vault | 30+ | Legacy rune set |
-| Elder Wyrm | Dragon's Rest | 25-30 | Wyrm Scale (crafting) |
-| Soul Reaper | Soul Sanctum | 30-35 | Reaper's Scythe weapon |
-| The Corrupted Colossus | Shattered Plains | 35-40 | Colossus Core rune |
-| Forgotten Guardian | Eternal Spring | 35+ | Guardian's Halberd, Wyrm Scale ×3 |
-| The Void Walker | Void Walker's Sanctum | 45+ | Void Walker armor set, Primeval Crystal ×2 |
-
-**Tip**: All optional bosses scale to your level when you first enter their area. There is no penalty for fighting them late — rewards stay identical.
+**What we do NOT know about Branko**: his arena, his moveset, his recommended build, or where he falls in the game's order. Any guide claiming detailed Branko attack patterns is speculation. Once the community documents his fight, this page will be updated.
 
 ---
 
-## The Remaining 35+ Regional Bosses
+## What Is NOT Confirmed (And What That Means)
 
-Beyond the confirmed encounters above, the remaining bosses in the 70+ roster populate the late-game regions opened after the Throne of Ashes, plus NG+. These include:
+A huge number of boss names, locations, and "levels" circulate on the internet — including many AI-generated and speculative lists. **None of the following have been confirmed at launch:**
 
-- **Sunken Citadel depths** — Void-touched knights and abyssal creatures guarding rune vessels
-- **Soul Sanctum** — Spectral wardens; several are required for the "Relic Collector" quest chain
-- **Shattered Plains** — Colossus-class enemies, including a trio of corrupted giants
-- **Dragon's Rest** — Draconic apex predators with flight phases
-- **NG+ exclusive superbosses** — Remixed versions of story bosses plus new encounters locked behind New Game Plus
+- A fixed "story boss order" with 8 mandatory bosses
+- Specific boss names such as "Withered Gatekeeper," "Forgotten King," "Hollow Knight," "Elder Wyrm," or similar fan-listed names
+- Boss "recommended levels" (the game has **no levels** — this alone marks a guide as unreliable)
+- NG+ exclusive bosses or "remixed" story bosses
+- Exact drop tables for named bosses
 
-**Note on launch-day coverage**: The full 70+ catalog is being mapped by the community now that the game is live. This list will be expanded with confirmed encounter names and strategies as they are documented.
+**How to spot a fake boss list**: if it assigns levels, lists weapon-specific "phases," or claims to document all 70 bosses with detailed patterns within days of release, treat it as unverified. This guide deliberately does not invent names we cannot confirm.
 
 ---
 
-## Recommended Boss Order
+## Boss Categories That ARE Confirmed
 
-1. **Ruined Outpost** → Forsaken Garrison → Ruins of Elara (Chapters 1-2)
-2. **Cathedral of the Hungry** — clear the catacomb secret boss BEFORE the Saint; it is permanently missable afterward
-3. **Scorched Battlefield** → Twin Lakes → Shattered Relic Chamber
-4. **Throne of Ashes (Forgotten King)** — mid-game finale
-5. **Optional gauntlet** — Sunken Citadel, Dragon's Rest, Soul Sanctum, Shattered Plains in any order
-6. **Void Walker's Sanctum** — requires all 5 Void Seals; hardest content in the base game
+While individual names are mostly unconfirmed, official descriptions confirm the roster's shape:
+
+### Story (Critical Path) Brutals
+A subset of the roster sits on the critical path — the game is a soulslike, and progress requires defeating specific bosses to unlock new regions. The exact count and order are **unconfirmed**.
+
+### Optional Brutals
+Most bosses are **optional**. The semi-open world hides them in hidden paths and secret areas — exploring rewards you with extra encounters, rare relics, and unique equipment. See the [Secret Areas guide](/guides/secret-areas).
+
+### Parry-Gate vs Dodge-Gate Bosses
+Confirmed design split:
+- Some bosses have **unblockable attacks** — parrying or blocking fails; you must dodge.
+- Others require **repeated parries to break their guard** — one launch review noted parry chains of up to 15 hits before an attack window opens.
+
+Knowing which type you are fighting is more useful than any boss name. See the [Boss Strategies guide](/guides/boss-strategies).
 
 ---
 
 ## Why Kill Optional Bosses?
 
-- **Artifact slots**: The 4th and 5th artifact slots require optional content
-- **Rune slots**: Rune Vessels guarded by mini-bosses unlock extra slots
-- **Crafting materials**: Wyrm Scales and Primeval Crystals come almost exclusively from optional bosses
-- **Endings**: The secret ending requires memory fragments that only drop from optional encounters
-- **"Relic Collector" quest**: Collecting 20 artifacts (many boss drops) completes the 5th artifact slot quest
+Brutal rewards are essential to progression, per official descriptions:
+
+1. **Powerful special items** — boss drops are unique (every item in the game is unique), so a boss reward can define a build.
+2. **Upgrades** — boss victories grant upgrades the rest of the world does not offer.
+3. **Relic Energy** — defeating Brutals is a primary source of Relic Energy, the currency for buying skills in weapon skill trees.
+4. **Lore** — each defeat reveals the boss's tragedy, which is the game's storytelling backbone.
 
 ---
 
-## Boss Hunting Tips
+## Boss Hunting Tips (Confirmed Mechanics)
 
-1. **Swap runes per boss** — resistance runes matching the boss's damage type are the single biggest difficulty multiplier
-2. **Carry two weapons** — most bosses have a primary and secondary elemental weakness; being able to switch mid-fight doubles your options
-3. **Do optional content before story bosses** — rune slots and artifacts from optional bosses make mandatory fights dramatically easier
-4. **Track your kills** — the boss kill counter in the pause menu helps you verify you haven't missed regional encounters
-5. **Use the environment** — every arena has pillars, platforms, or hazards; identify them before engaging
+1. **Swap your relic loadout per boss** — the game is explicitly designed around adapting builds between fights; a resistance or effect that shines in one arena may be dead weight in the next.
+2. **Identify parry-gate vs dodge-gate fights** — if blocking does nothing, stop blocking; if parries stagger, commit to the chain.
+3. **Explore before fighting** — optional areas hold relics, potion capacity shards, and gear that directly translate into easier boss fights.
+4. **Watch for unblockable tells** — unblockable attacks force dodging; learning the tell is mandatory for that encounter type.
+5. **Do not trust "levels"** — there are no levels in this game. Guides that assign them are not credible.
+
+---
+
+## Common Questions
+
+**Q: How many bosses does The Relic: First Guardian have?**
+A: Official materials say **70-80** (sources vary). Most are optional Brutals.
+
+**Q: What are bosses called in the game?**
+A: **Brutals** — the game's official term for its boss enemies.
+
+**Q: Are bosses mandatory to finish the game?**
+A: A minority. You must defeat the bosses on the critical path; the majority of the roster is optional content.
+
+**Q: Is "Blood-Stained Shield" Branko a real boss?**
+A: Yes — the only boss name confirmed in official preview material so far.
+
+**Q: Do bosses have levels?**
+A: No — The Relic: First Guardian has no leveling system at all.
+
+**Q: Will this list be updated?**
+A: Yes — as the community documents the roster post-launch, confirmed names and strategies will replace the unconfirmed sections.
 
 ---
 
 ### Related Guides
 
-- [Boss Guide](/guides/boss-guide) — Attack patterns and strategies for major bosses
-- [Boss Strategies](/guides/boss-strategies) — Elemental weaknesses and phase-transition tactics
-- [Walkthrough](/guides/walkthrough) — Critical path and boss order
-- [Secret Areas](/guides/secret-areas) — Where optional and secret bosses are hidden
+- [Boss Guide](/guides/boss-guide) — General Brutal-fighting principles and the confirmed parry/dodge split
+- [Boss Strategies](/guides/boss-strategies) — Advanced tactics: parry chains, unblockable tells, build swapping
+- [Walkthrough](/guides/walkthrough) — The critical path and confirmed world structure
+- [Secret Areas](/guides/secret-areas) — Where optional Brutals hide

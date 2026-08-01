@@ -3,158 +3,133 @@ title: "Shift At Midnight FAQ: Common Questions Answered"
 description: "Frequently asked questions about Shift At Midnight. Price, platforms, co-op, solo play, endings, Endless Mode, crossplay, system requirements, Xbox Game Pass, and more."
 category: "Guides"
 version: "1.0"
-updated: "2026-07-29"
-keywords: ["shift at midnight FAQ", "shift at midnight price", "shift at midnight crossplay", "shift at midnight game pass", "shift at midnight steam"]
-related: ["beginner-guide", "endings-guide", "coop-strategy-guide"]
+updated: '2026-08-01'
+keywords: ["shift at midnight FAQ", "shift at midnight price", "shift at midnight crossplay", "shift at midnight game pass", "shift at midnight steam", "shift at midnight system requirements"]
+related: ["beginner-guide", "endings-guide", "coop-strategy-guide", "endless-mode-guide"]
 ---
 
 ## Shift At Midnight FAQ: Common Questions Answered
 
-Shift At Midnight launched on **July 22, 2026** and quickly went viral with over **37,000 concurrent players** and a **"Very Positive" (90%)** rating on Steam. If you are just starting out or considering the game, here are answers to the most common questions.
+Shift At Midnight launched on **July 22, 2026** to a "Very Positive" (~90%) rating on Steam, and its free demo holds an "Overwhelmingly Positive" rating from thousands of reviews. It went viral after streamers like CaseOh and Markiplier played the demo. If you're just starting out or considering the game, here are the most common questions — answered with confirmed facts.
 
 ---
 
 ### What is Shift At Midnight?
 
-Shift At Midnight is a **1-3 player co-op horror detective game** developed by **Fiddlesticks Games**. You work the night shift at a 1990s gas station, stocking shelves, serving customers, and — most importantly — identifying **shapeshifting creatures known as doppelgangers** that disguise themselves as human customers. The game features proximity voice chat, a sanity system, creature combat, and a branching narrative with 3 distinct endings.
+Shift At Midnight is a **1-3 player co-op horror detective game** developed by solo Australian indie developer **Bun Muen** and published by **Kwalee**. You work the graveyard shift at a rural 1993 American convenience store and gas station: stocking shelves, serving customers, and identifying **doppelgangers** disguised as human customers. Let one complete its purchase and it returns as a monster — the shift then turns into survival horror.
 
 ---
 
 ### Is Shift At Midnight co-op only?
 
-No. While the game supports **1-3 player co-op**, you can play entirely solo. Playing alone is harder — you handle every role yourself — but all income is yours to keep. See the [Solo Guide](/guides/solo-guide) for detailed tips.
+No. The game supports **1-3 players in online co-op** (private sessions via Steam invites) and is **fully playable solo**. Playing alone is harder — you handle every role yourself — but you keep all the income and there's no coordination risk. See the [Solo Guide](/guides/solo-guide) for tips.
 
 ---
 
 ### How long is the campaign?
 
-The main story campaign spans **13 nights**, with each shift lasting roughly **20-40 minutes** depending on how many customers arrive and what events trigger. A full playthrough takes approximately **6-8 hours**. Replay value comes from the 3 different endings, varied doppelganger encounters, and achievement hunting.
+The main story campaign spans **13 shifts** at the same gas station, with randomly generated shifts making each run different. Community walkthroughs treat a full playthrough as a multi-session commitment; exact per-shift durations are **not publicly documented** (treat hour estimates elsewhere as unverified).
 
 ---
 
 ### How many endings are there?
 
-Shift At Midnight has **3 endings**:
-
-| Ending | Requirement | Outcome |
-|--------|-------------|---------|
-| **True Ending** | $250+ saved, do not call Clyde | Best resolution |
-| **Grave Decision** | Call Clyde (any savings) | Mid-tier ending |
-| **Empty Home** | Under $250 saved, do not call Clyde | Worst ending |
-
-Your choice of whether to **call Clyde on Night 13** and your total **savings** determine which ending you get. See the [Endings Guide](/guides/endings-guide) for full details.
+The **True Ending** is confirmed: bank **$250+ in personal cash** for the pet's surgery and **don't call Clyde** in the finale (the sheriff's email offer is a bluff). The full ending tree beyond that is **not publicly documented** — any guide naming exactly three endings with detailed epilogues is drawing on community speculation. See the [Endings Guide](/guides/endings-guide).
 
 ---
 
 ### Is there Endless Mode?
 
-As of the launch version (v1.0), Shift At Midnight does **not** have a dedicated Endless Mode. The main campaign is the core experience. The developers at Fiddlesticks Games have not announced post-launch content plans yet, but given the game's viral success (37,000+ concurrent peak), additional modes are widely expected in future updates.
+**Yes — in beta.** Endless Mode is currently in beta, and a **major free update planned for Q4 2026** will fully release it with **new customers, weapons, traps, and monsters**. The beta's access method is not clearly documented — check the Steam announcements for current instructions. See the [Endless Mode Guide](/guides/endless-mode-guide).
 
 ---
 
 ### Does Shift At Midnight have crossplay?
 
-**Yes.** Shift At Midnight supports full **crossplay between Steam and Xbox**. You can play with friends regardless of platform. The game uses Fiddlesticks Games' own account system for cross-platform friends and invites.
+**Yes.** The game supports **cross-platform play between PC (Steam) and Xbox** — you can play with friends regardless of platform.
 
 ---
 
 ### What is the price and where can I buy it?
 
-Shift At Midnight is available for **$12.99** on Steam. It is also included with **Xbox Game Pass** (Console and PC) at no additional cost. The Steam version is currently offered at a **32% launch discount**, bringing the price down further during the promotional period.
+Shift At Midnight is **$9.99** on Steam (roughly 38 RMB in China), with a **10% launch discount until July 29** at release. It is also included with **Xbox Game Pass** (console, PC, and cloud) at no additional cost. Steam bundles are available with other horror titles such as *Escape the Backrooms* and *Phasmophobia*.
 
 ---
 
 ### Do I need a microphone?
 
-No, but it helps. The game features **proximity voice chat**, which is useful for co-op coordination. However, there is a catch: **the Entity can hear you through your microphone**. Speaking during Entity encounters attracts the creature. Many solo players prefer to play with their mic muted. A push-to-talk setup is recommended for co-op play.
+No, but it helps. The game features **proximity voice chat**, which is useful for co-op coordination. The catch (reported by multiple community guides): **the entity and the Dentist can pick up open-microphone noise**. A push-to-talk setup, or muting during hunts, is strongly recommended.
 
 ---
 
 ### Can I play Shift At Midnight solo?
 
-**Yes.** The game is fully playable solo with no AI companions. You handle all roles — cashier, stocker, janitor, and monster hunter — by yourself. Solo play is more challenging but offers the benefit of keeping **100% of the income**. Read the [Solo Guide](/guides/solo-guide) for in-depth strategies.
+**Yes.** The game is fully playable solo with no AI companions. You handle all roles — register, stocking, cleaning, and survival — yourself. Solo play is more challenging but keeps 100% of the income and removes coordination risk.
 
 ---
 
 ### What is the NET Database?
 
-The **NET Database** is your primary tool for identifying doppelgangers. When a customer presents their ID, you can cross-reference it in the database by asking **5 specific questions**:
-
-1. Does the photo match the customer's appearance?
-2. Is the purchase history consistent with their profile?
-3. Are there any behavior flags in the system?
-4. Does the emotion detector show normal readings?
-5. Do cross-references match known patterns?
-
-Suspicious answers mean the customer is likely a doppelganger. False accusations cost you money, so check carefully.
+The **NET Database** is your primary tool for identifying doppelgangers, accessed from the store computer. When a customer presents an ID, you cross-reference it: check whether the person is **listed as alive**, then compare **occupation, appearance, date of birth, and expiration date** against their story. Community guides advise treating the database as ground truth: hunt for contradictions between what the database says, what the customer says, and what you see. Two or three stacked contradictions confirm a fake.
 
 ---
 
 ### Can you refund the game on Steam?
 
-Standard Steam refund policy applies. If you have played for **less than 2 hours** and purchased **within 14 days**, you can request a refund. The campaign is roughly 6-8 hours, so the 2-hour window is enough to decide if the gameplay loop is for you.
+Standard Steam refund policy applies: refunds within **2 hours of playtime** and **14 days of purchase**. The game supports Chinese (Simplified & Traditional) among its languages.
 
 ---
 
 ### What are the system requirements for PC?
 
-Fiddlesticks Games has not published official minimum and recommended specs yet, but based on the game's visual style (1990s gas station with limited environments), the requirements are modest:
+The confirmed **minimum** requirements:
 
-| Component | Expected Minimum |
-|-----------|-----------------|
+| Component | Minimum |
+|-----------|---------|
 | **OS** | Windows 10 64-bit |
-| **CPU** | Intel Core i5-7500 / AMD Ryzen 3 3300X |
-| **RAM** | 8 GB |
-| **GPU** | NVIDIA GTX 960 / AMD Radeon R9 380 |
-| **Storage** | 10 GB available space |
+| **CPU** | Intel Core i3-2100 / AMD FX-4300 |
+| **RAM** | 4 GB |
+| **GPU** | NVIDIA GTX 750 Ti / AMD Radeon R7 260X (2 GB VRAM) |
 | **Network** | Broadband internet connection (for co-op) |
 
-Xbox Series X|S players can run the game at full quality with no spec concerns.
+Recommended specs are **not yet published** — don't trust third-party "recommended" tables.
 
 ---
 
 ### Is Shift At Midnight on Xbox Game Pass?
 
-**Yes.** Shift At Midnight is available on **Xbox Game Pass for Console and PC** from day one (July 22, 2026). Game Pass subscribers can play the full game at no additional cost. This is likely a major factor in the game's rapid viral growth, as millions of subscribers gained immediate access.
+**Yes.** Shift At Midnight is available on **Xbox Game Pass for console, PC, and cloud** from day one (July 22, 2026).
 
 ---
 
 ### Is there a physical edition?
 
-There has been **no announcement** of a physical retail edition. The game is currently digital-only on Steam and Xbox. Given its indie scale and $12.99 price point, a physical release is unlikely unless Fiddlesticks Games partners with a publisher for a limited run.
+There has been **no announcement** of a physical retail edition. The game is currently digital-only on Steam and Xbox.
 
 ---
 
 ### Are there difficulty settings?
 
-Shift At Midnight does not have traditional difficulty settings. The challenge scales naturally through the **13-night campaign** — later nights introduce stronger enemies, more frequent doppelgangers, and harder Entity encounters. Playing co-op effectively reduces difficulty by dividing responsibilities.
+The game's challenge scales through the **13-shift campaign** — later shifts introduce heavier customer flow, more fakes, and harder survival phases. Playing co-op effectively reduces difficulty by dividing responsibilities.
 
 ---
 
-### What is the prize wheel and how do I use it?
+### I can't connect to my friends' lobby. Help?
 
-The **prize wheel** is located in the staff area of the gas station. You earn **tokens** for the wheel by **skipping optional pet medication purchases**. Each spin costs 1 token. The jackpot pays **$10**, and there are smaller cash prizes. It is one of the best ways to boost your savings toward the $250 True Ending target. See the [Money Guide](/guides/money-guide) for the full breakdown.
+The developers released a temporary **"network-issues-patch" branch** (access code: `networkissues`) for players experiencing lobby connection issues. If you struggle to join friends, try that branch.
 
 ---
 
 ### Will there be updates or DLC?
 
-Fiddlesticks Games has not announced specific post-launch plans. However, given the game's **37,000+ concurrent player peak** and overwhelmingly positive reception, the developers are likely working on content updates. Community wishlist items include an Endless Mode, additional monster types, new weapons, and expanded store customization options.
+The confirmed roadmap: a **major free update in Q4 2026** that fully releases Endless Mode and adds **new customers, weapons, traps, and monsters**. Nothing beyond that has been officially announced — treat any claims about other DLC as speculation.
 
 ---
 
-### What are the 3 co-op roles?
+### What are the co-op roles?
 
-When playing with a full team of 3, each player takes one of three roles:
-
-| Role | Responsibilities |
-|------|------------------|
-| **Lead Clerk** | Register operations, ID checks, doppelganger identification |
-| **Stocker** | Receiving deliveries, stocking shelves, inventory management |
-| **Janitor** | Cleaning spills, camera monitoring, pest control |
-
-With 2 players, roles are flexible. Solo players handle everything.
+The game has **no official classes**. Community guides converge on a three-way split — **register clerk** (counter, ID checks, database), **stocker** (deliveries, restocking, defenses), and **floater** (queues, pumps, perimeter, bus check) — but it's a strategy, not a game system. With 2 players, combine roles; solo players handle everything.
 
 ---
 
-*Still have questions? Check the [Beginner Guide](/guides/beginner-guide) for a full overview of the game's systems, or visit the [Steam Community Hub](https://steamcommunity.com/app/shiftatmidnight) for player discussions.*
+*Still have questions? Check the [Beginner Guide](/guides/beginner-guide) for a full overview of the game's systems, the [Endless Mode Guide](/guides/endless-mode-guide) for the beta and roadmap, or visit the Steam Community Hub for player discussions.*

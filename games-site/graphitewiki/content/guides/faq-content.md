@@ -1,201 +1,105 @@
 ---
 title: 'Graphite FAQ — Frequently Asked Questions About the Tactical Roguelike RPG'
-description: 'Frequently asked questions about Graphite. How long to beat, permadeath explained, save system, difficulty settings, progress carryover, artifact mechanics, best hero for beginners, and system requirements for the tactical roguelike RPG.'
-keywords: ['Graphite FAQ', 'Graphite how long to beat', 'Graphite permadeath', 'Graphite save system', 'Graphite difficulty settings', 'Graphite progress carry over', 'Graphite artifacts', 'Graphite best beginner hero', 'Graphite system requirements', 'Graphite Steam']
+description: 'Frequently asked questions about Graphite. Release date, the free Act 1 demo, how long runs take, permadeath, difficulty settings, progress carryover, artifacts, best hero for beginners, and system requirements — with unconfirmed items marked honestly.'
+keywords: ['Graphite FAQ', 'Graphite release date', 'Graphite demo', 'Graphite how long to beat', 'Graphite difficulty settings', 'Graphite progress carry over', 'Graphite artifacts', 'Graphite best beginner hero', 'Graphite system requirements', 'Graphite Steam']
 category: Guides
 version: '1.0'
-updated: '2026-07-29'
+updated: '2026-08-01'
 related:
-  - walkthrough-guide
-  - tier-list
+  - beginner-guide
+  - graphite-demo-guide
   - tips-tricks
   - how-to-unlock-heroes
   - tarot-events-guide
 ---
 
+## When Does Graphite Release, and What Does It Cost?
+
+Graphite launches **July 27, 2026** on Steam for PC (Windows), developed by Colombian studio RipRed and published by indie.io. It is RipRed's debut commercial release and is built in Unreal Engine.
+
+**Price: not yet announced.** Check the Steam page for the current listing. Nothing about pricing has been confirmed at the time of writing.
+
+## Is There a Demo?
+
+Yes. **Graphite: Act 1** is a free demo live on Steam now (store app 3307810). It covers the **entire first act** of the campaign — roughly **30 minutes per run**. Per the Steam store page, the demo includes 4 playable heroes, 50 stackable artifacts, 15 hand-drawn adventure events, and friendship levels up to 1 between characters.
+
+The demo is the full first act of the real campaign, not a separate side story. Whether demo progress carries into the full game is **unconfirmed**.
+
 ## How Long Does It Take to Beat Graphite?
 
-A single playthrough of the full 4-act campaign takes approximately **15-20 hours** on a first run. This assumes you explore thoroughly, unlock all 7 heroes, and engage with most tarot events.
-
-**Playthrough time by scenario**:
-- **Speed run** (experienced player, optimized path): 8-10 hours
-- **First playthrough** (learning mechanics, exploring): 15-20 hours
-- **Completionist run** (all artifacts, max Friendship, all events): 25-30 hours
-- **100% achievements**: 50-80 hours (requires multiple playthroughs due to branching choices)
-
-The 60-day time limit (15 days per act) creates a natural pacing constraint, but most players will never run out of time on Normal difficulty. The time limit primarily prevents infinite grinding.
-
----
+**No confirmed playtime exists** — the full game is unreleased. The only concrete data point is the demo: a run of Act 1 takes about 30 minutes. Any specific full-game playtime figures (e.g., "15-20 hours") circulating online are unsourced and should not be trusted.
 
 ## Is There Permadeath?
 
-Yes, but with important caveats.
+Graphite is a roguelike, so **run-based resets are expected**: a run that ends (party wipe or act failure) restarts you at the beginning. The game uses roguelite meta-progression — artifacts, events, and unlockables persist across runs in some form, which is confirmed.
 
-**Graphite offers two permadeath modes**:
-
-**Standard Mode (default)**:
-- If a hero dies in combat, they are removed from your party for the remainder of the act.
-- They return at the start of the next act with their Friendship and artifacts intact.
-- The act continues with your remaining heroes. If your entire party wipes, the act is lost and you restart from the act's beginning.
-- **Recommended for first-time players**.
-
-**Ironman Mode (unlocked after first playthrough)**:
-- If a hero dies, they are **permanently gone** for the entire playthrough. All Friendship progress with that hero is lost.
-- If your entire party wipes, the **entire run** ends and you restart from Act 1.
-- All artifacts and Friendship progress are lost.
-- **Recommended for experienced players seeking a challenge**.
-
-You can change between Standard and Ironman mode at the start of each act. You cannot change mid-act.
-
----
+However, the specifics are **unconfirmed**: whether there are separate permadeath modes, whether individual hero deaths are permanent within a run, and exactly what resets between runs have not been officially detailed.
 
 ## How Does Saving Work?
 
-Graphite uses an **act-based save system**:
-
-- The game auto-saves at the start of each day.
-- You can manually save at camp sites.
-- There is **no mid-combat saving**. You must finish or retreat from combat before the game saves.
-- You have **one save slot per playthrough** on Standard difficulty. Ironman mode locks you to one save with no manual reloads.
-- Previous acts' saves are overwritten as you progress. You cannot reload an Act 1 save after reaching Act 2.
-
-**Tips for save management**:
-- Manual save BEFORE a major tarot event if you want to explore different outcomes.
-- Save before each act boss.
-- If you play on Standard mode, you can intentionally lose a boss fight and reload your last save. This is not possible in Ironman mode.
-
----
+**Unconfirmed.** No official information about the save system (auto-save, manual saves, save slots, mid-run save points) has been published. The demo's short runs suggest a low-stakes structure, but treat any detailed save-system claims as unsourced.
 
 ## What Difficulty Settings Are Available?
 
-Graphite offers **4 difficulty levels**:
+The game **does** include difficulty-related run customization — this is confirmed. Coverage of the systems notes you can **adjust challenges, starting gear, and difficulty** before a run, and can even change starting gear/level to jump into late-game content.
 
-| Difficulty | Description | Best For |
-|------------|-------------|----------|
-| Story | Enemies deal 50% damage, player Break meter builds 25% faster | Narrative-focused players, beginners to tactical games |
-| Normal | Default experience, balanced combat | First playthrough, standard experience |
-| Hard | Enemies deal 25% more damage, Break windows are 1 turn shorter | Experienced tactical players |
-| Nightmare | Enemies deal 50% more damage, Break windows are 2 turns shorter, permadeath permanently enabled | Challenge seekers, repeat playthroughs |
-
-You can change difficulty **only at the start of a new playthrough**. Mid-run difficulty changes are not supported.
-
-**Recommended progression**: Normal for first playthrough, Hard for second, Nightmare for achievement hunting.
-
----
+The specifics are **unconfirmed**: how many difficulty levels exist, what each changes, and when they unlock have not been officially detailed. Any guide listing named difficulties with percentage modifiers is unsourced.
 
 ## Does Progress Carry Over Between Runs?
 
-Partially. Graphite uses a **meta-progression system**:
+**Partially — this is confirmed in general, unconfirmed in detail.** Graphite is a roguelite: artifacts, events, and unlockables carry across runs in some form, and enemies scale alongside your power. The story also responds to prior decisions — choices from earlier runs can influence later events.
 
-**What carries over between runs**:
-- **Unlocked heroes** remain available from the start of future runs.
-- **Achievements** progress is account-wide.
-- **Game knowledge** (tarot event outcomes, boss patterns, artifact combos).
-
-**What does NOT carry over**:
-- Artifacts collected during a run.
-- Friendship levels between heroes.
-- Camp ability upgrades.
-- Act progression.
-- Hero levels (heroes start at Act 1 base level each new run).
-
-This is a standard roguelike progression model. Each run is a fresh start for power, but your knowledge and unlock progress persist.
-
----
+Exactly which unlocks persist, how hero progression works between runs, and what resets are **unconfirmed** until the full release.
 
 ## How Do I Get More Artifacts?
 
-Artifacts are the primary power progression in Graphite. Here are the main sources:
+Artifacts are the game's primary power system, and the confirmed facts are:
 
-**Reliable sources** (appear every playthrough):
-- **Combat encounters**: Every fight rewards at least one Common artifact.
-- **Tarot events**: The best source of Rare+ artifacts.
-- **Act bosses**: Each boss drops an Uncommon+ artifact.
-- **The Wandering Merchant**: Buy artifacts with gold (appears in every act).
+- **Unlimited stacking** — no cap on how many artifacts you can hold or stack
+- **Duplicates amplify** — stacking the same artifact increases its effect
+- **Enemies acquire artifacts too** — opponents pick them up during encounters and scale alongside you
+- The demo contains **50 stackable artifacts**
 
-**Rare artifact sources**:
-- **The Gauntlet event**: Legendary artifact reward (Act 3).
-- **Elite encounters**: Higher artifact rarity chance.
-- **The Forgotten Archive**: Legendary chest (Act 2).
-- **The Ascended Artifact**: Targeted Legendary (Act 4).
-
-**Efficiency tips**:
-- Prioritize tarot events over standard combat encounters.
-- Save gold for the Wandering Merchant rather than spending on consumables.
-- The Mystic Forge event can upgrade a Common artifact to Uncommon — use it on a key artifact, not a filler one.
-
-See the [Tarot Events Guide](/guides/tarot-events-guide) for detailed event strategies and our [Advanced Tips & Tricks](/guides/tips-tricks) for artifact stacking optimization.
-
----
+Specific acquisition sources (merchants, events, drops, elite fights) are **unconfirmed** — the game's event deck is the confirmed source of items and choices, but no detailed source list exists.
 
 ## Which Hero Is Best for Beginners?
 
-**The Warrior is the best hero for beginners.** The Warrior starts unlocked, has the highest base survivability, straightforward abilities, and works well with any team composition. You cannot make a wrong decision with the Warrior — just equip them, put them on the frontline, and focus on learning the Break system.
+**The Knight** is the safest confirmed choice. The Knight uses a shield to exploit the **Break system** (depleting enemy Poise to cancel their actions) and deals significant damage — a defensive kit that forgives early mistakes while teaching the game's core mechanic. **The Mage** (offensive spells plus defensive support) is the confirmed alternative for players who prefer offense.
 
-**Recommended beginner unlock path**:
-1. Start with **Warrior**.
-2. Unlock **Hunter** first (Friendship 15, takes 1-2 camp cycles).
-3. Unlock **Monk** second (Friendship 15, takes 1-2 camp cycles with Meditation).
-4. Unlock **Rogue** third (Friendship 20 with Warrior).
-5. By this point, you have a strong 4-hero team that covers all core roles.
+Of the 7 heroes, only these two are confirmed by name; the others are unconfirmed. A full "best hero" assessment is therefore **not possible yet**.
 
-Do not worry about optimizing tier lists on your first run. The game is balanced so that any hero can complete a playthrough on Normal difficulty. The [Hero Tier List](/guides/tier-list) is more relevant for Hard and Nightmare difficulties.
+## Are There Achievements?
 
----
-
-## How Do I Get the 60 Achievements?
-
-Graphite's achievements are divided into several categories:
-
-- **Story achievements** (~15): Completing acts, defeating bosses. Earned naturally through playthroughs.
-- **Hero achievements** (~14): Unlock each hero, reach Friendship 50 with each hero, complete Bond events.
-- **Combat achievements** (~10): Kill specific enemy types, achieve certain Break combos, finish bosses within time limits.
-- **Artifact achievements** (~8): Collect all Resonance artifacts, upgrade through the Mystic Forge, equip a full Legendary loadout.
-- **Exploration achievements** (~8): Complete all tarot event types, visit all zone types, reach certain map milestones.
-- **Challenge achievements** (~5): Complete the game on Hard, complete on Nightmare, complete in Ironman mode, speed run under 10 hours.
-
-Achievements are account-wide and tracked across all playthroughs.
-
----
+**Unconfirmed.** Steam achievements likely exist (most Steam games have them), but no achievement list or count has been confirmed. Any guide quoting a specific number of achievements is unsourced.
 
 ## What Are the System Requirements?
 
-**Minimum requirements**:
-- **OS**: Windows 10 64-bit
-- **Processor**: Intel Core i5-7400 or AMD Ryzen 3 1200
-- **Memory**: 8 GB RAM
-- **Graphics**: NVIDIA GeForce GTX 960 or AMD Radeon RX 560
-- **DirectX**: Version 11
-- **Storage**: 8 GB available space
+The minimum requirements listed for the **demo** are modest (from the Steam listing):
 
-**Recommended requirements**:
-- **OS**: Windows 10/11 64-bit
-- **Processor**: Intel Core i7-8700 or AMD Ryzen 5 3600
-- **Memory**: 16 GB RAM
-- **Graphics**: NVIDIA GeForce GTX 1660 or AMD Radeon RX 580
-- **DirectX**: Version 12
-- **Storage**: 8 GB SSD
+- **OS**: Windows 10
+- **Processor**: 2.0 GHz
+- **Memory**: 2 GB RAM
+- **Graphics**: 2 GB
+- **Storage**: 1 GB
 
-Graphite runs on both controller and mouse-and-keyboard. The game also supports Steam Deck (verified as of launch).
-
----
+The full game's requirements have **not been separately confirmed** — expect the full-game listing to be the authoritative source. Note that some launch-day player reviews report performance issues on older hardware, so modest-spec machines may want to try the demo first.
 
 ## Other Common Questions
 
-### Can I have duplicate heroes in my party?
-No. Each hero is unique. You cannot have two Warriors or two Rogues in the same party.
-
 ### Is there multiplayer or co-op?
-No. Graphite is a single-player experience with no multiplayer or co-op features. The "1-4 players" in some marketing refers to the 4-act campaign structure, not multiplayer.
+No — Graphite is a confirmed **single-player** game.
 
-### Can I change my party composition mid-act?
-Yes. You can swap heroes in and out of your active party at camp sites and rest zones. Heroes not in the active party do not gain Friendship or experience.
+### Does it support Steam Deck?
+**Unconfirmed.** No official statement about Steam Deck support has been found.
 
-### What happens if I run out of days in an act?
-If the 15-day timer expires before you defeat the act boss, the run ends. You restart from the act's beginning with reduced starting resources. This penalty makes the time limit meaningful but not run-ending.
+### Can I play on other platforms?
+The Steam release is PC (Windows). One preview mentions the game being "planned" for mobile as well, but this is unconfirmed and nothing has been announced officially.
 
 ### Is the game fully released or early access?
-Graphite was fully released on July 27, 2026 on Steam by RipRed/indie.io. The launch version (1.0) includes all 4 acts, 7 heroes, and 60 achievements.
+Full release on July 27, 2026 — not early access. The demo is a separate free listing.
 
-### Does the game have a New Game Plus mode?
-Yes. After completing the campaign once, New Game Plus unlocks, allowing you to start with bonus resources and carry over certain meta-progression bonuses.
+### Does the game have New Game Plus?
+**Unconfirmed.** No official information exists about NG+ or post-campaign modes.
+
+### What is the game about?
+A pen-and-ink roguelike RPG set inside a child's school notebook. The Scribe tasks seven pencil-drawn heroes with gathering strength and allies before **Death** arrives — and the heroes don't know they're figments of a child's imagination. See the [Story Guide](/guides/story-walkthrough) for details.

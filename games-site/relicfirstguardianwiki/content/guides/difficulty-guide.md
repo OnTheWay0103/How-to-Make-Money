@@ -1,102 +1,106 @@
 ---
-title: "Difficulty Settings & Easy Mode — Explained"
-description: "Does The Relic: First Guardian have difficulty settings or an easy mode? Complete breakdown of difficulty options, what makes the game hard, and 10 ways to make it easier."
+title: "Difficulty Settings & Easy Mode — The Honest Answer"
+description: "Does The Relic: First Guardian have difficulty settings or an easy mode? The honest answer: no difficulty options are confirmed. How the game is hard, and the confirmed tools that lower the challenge."
 category: "Guides"
 version: "1.0"
-updated: "2026-07-31"
+updated: "2026-08-01"
 keywords: ["relic first guardian difficulty settings", "relic first guardian easy mode", "relic first guardian difficulty", "is relic first guardian hard", "relic first guardian too hard"]
 related: ["beginner-guide", "co-op-guide", "builds-guide", "combat-guide"]
 ---
 
-# Difficulty Settings & Easy Mode — Explained
+# Difficulty Settings & Easy Mode — The Honest Answer
 
-**Short answer: The Relic: First Guardian has no difficulty settings and no easy mode in the launch build (1.0).** There is no difficulty slider in the options menu, and the developers have stated the challenge is core to the experience. The good news: the game is *designed* around self-selecting difficulty — through build choice, exploration, and co-op, you can effectively lower the challenge as much as you want. This guide explains how.
+**Short answer: The Relic: First Guardian has no confirmed difficulty settings or easy mode.** No verified source — official material or launch reviews — documents a difficulty slider, difficulty options, or an easy mode in the launch build (1.0, released July 31, 2026). The game is designed as a challenging solo soulslike.
+
+**The good news**: the game is also designed around **self-selecting difficulty** — through build choice, exploration, and the relic system, you can meaningfully lower the challenge without a settings menu. This guide covers why the game feels hard, and the confirmed tools that make it easier.
 
 ---
 
-## Why the Game Feels Hard
+## Why the Game Feels Hard (Confirmed Design)
 
-Three systems combine to create the challenge:
-
-1. **No traditional levels** — You cannot out-grind enemies with raw stats. Power comes from collecting runes, which rewards exploration over repetition.
-2. **Stamina-only defense** — Attacks cost zero stamina, so the game constantly encourages aggression — and punishes panic dodges hard (25 stamina per roll).
-3. **70+ bosses** — The roster is deep, and several mid-game fights (The Starving Saint, The Forgotten King) demand genuine pattern mastery.
+1. **No traditional levels** — you cannot out-grind enemies with raw stats. Power comes from relics, skills, and gear — which rewards exploration and adaptation, not repetition.
+2. **Stamina-only defense** — attacks are free, but every dodge/block/parry spends stamina. Misusing your defense bar is punished hard.
+3. **70-80 Brutal bosses** — a huge roster of unique boss fights, many optional, each with its own gimmick (parry-gate vs dodge-gate).
+4. **Aggressive enemies** — reviews note enemies are aggressive and rarely stagger, with no visible stagger bar.
+5. **No co-op** — the game is single-player only; there is no partner to cover mistakes (see the [Co-Op guide](/guides/co-op-guide)).
 
 None of this is insurmountable — but the game will not lower the bar for you. It provides tools to raise yourself instead.
 
 ---
 
-## The Built-In "Easy Mode" Tools
+## The Confirmed "Difficulty Reducers"
 
-### 1. Summon a Co-Op Partner (easiest option)
-Co-op is effectively the game's easy mode. Bosses gain ~40% HP, but split aggro means you only need to learn half the fight. See the [Co-Op Guide](/guides/co-op-guide) for how to summon. Unlocks after the tutorial boss.
+### 1. Over-Explore Before Bosses
+The most powerful lever in the game. Exploration yields relics, relic slots (Shards of Awakening), potion capacity (Shards of Esser), and unique gear. The difficulty curve assumes you looted — a thorough player is effectively on a lower difficulty.
 
-### 2. Sword & Shield + Iron Wall
-The most forgiving loadout in the game: blocking costs zero stamina and the Iron Wall skill tree's guard counter deals reliable damage. You can beat every boss in the game while barely dodging. Recommended for your first playthrough if you are worried about difficulty.
+### 2. Buy HP and Stamina Nodes Early
+Skill trees (12 total, two per weapon family) are bought with **Relic Energy**, and some nodes **directly raise Health Points and Stamina**. Spending your early energy on survivability is the cheapest difficulty reduction available.
 
-### 3. The Ember of Persistence Rune
-Dropped by the Hollow Knight mini-boss (Ruined Chapel, ~90 minutes in), this rune revives you with 30% health when killed, once per checkpoint rest. It effectively doubles your attempts on any boss.
+### 3. Expand Relic Slots
+**Shards of Awakening → Elisa at camps → new relic slots.** More slots mean you can equip more passive fragments — including survivability fragments — and adapt per fight.
 
-### 4. Over-Explore Before Bosses
-Rune slots, artifacts, and relic upgrades are the real leveling. Completing optional content before a story boss is worth more than ten hours of grinding: the 4th and 5th artifact slots, relic tiers 1-4, and an extra rune slot all come from optional content.
+### 4. Play Sword & Shield
+The only family with a **native block**, plus the game's confirmed **generous parry window**. It is the most forgiving framework in the game. See the [Weapons Guide](/guides/weapons-guide).
 
-### 5. Elemental Weaknesses
-Every boss has a weakness. Matching weapon and runes to it increases damage by 40% and can stagger bosses out of dangerous sequences — this single change is worth more than any build optimization. Check the [Boss Strategies guide](/guides/boss-strategies) before every major fight.
+### 5. Swap Relics per Boss
+Official material is explicit: relics are freely swappable so you can adapt your build to each boss. A loadout tuned to the fight is the game's intended difficulty system.
 
-### 6. Dodge-Friendly Runes
-Rune of Evasion (+4 i-frames), Rune of Preservation (-25% dodge stamina cost), and the Fragment of Vigor (+15% stamina recovery) stack into a dramatically more forgiving combat experience. All three are available in the first two regions.
+### 6. Hunt Shards of Esser
+Starting with **3 potions** is tight. Temple altars (e.g., in the **Faded Mist Forest**) hold Shards of Esser that raise potion capacity — directly more healing per fight.
 
-### 7. Accessibility Settings
-The settings menu includes reduced camera shake, subtitles, color-blind modes, and a toggleable visual indicator for off-screen enemy attacks — the last one effectively neutralizes the game's most common unfair-feeling death. See the [Controls & Settings guide](/guides/controls-settings-guide).
-
----
-
-## The 10 Ways to Make the Game Easier — Checklist
-
-1. Summon a co-op partner
-2. Play Sword & Shield with the Iron Wall tree
-3. Equip Ember of Persistence before every boss
-4. Clear all optional content in the region first
-5. Match elemental weaknesses
-6. Equip Evasion + Preservation runes
-7. Turn on the off-screen attack indicator
-8. Carry a full stack of Healing Salves into every fight
-9. Use two weapon families — ranged chip damage from Staff trivializes half the roster
-10. Take breaks — the game punishes tilt more than most
+### 7. Learn the Parry
+The parry window is **generous** (confirmed by multiple reviews), and parries stagger enemies. For parry-gate bosses, the chain (up to ~15 parries) is the fight's solution. See the [Combat Guide](/guides/combat-guide).
 
 ---
 
-## Making the Game Harder (Optional)
+## What Does NOT Work (Fabricated Advice to Ignore)
 
-- **New Game Plus** — scaled difficulty with remixed bosses and NG+ exclusive superbosses
-- **No-rest runs** — never rest at a Brazier of Reflection
-- **Low-rune runs** — limit yourself to the starting 3 rune slots
-- **Challenge runs** — unupgraded weapons, no co-op, no consumables
+| Claim | Reality |
+|-------|---------|
+| "Use co-op as easy mode" | **No co-op exists** — single-player only |
+| "Difficulty options in settings" | **Unconfirmed** — no verified difficulty settings |
+| "Bosses scale +40% HP in co-op" | Fabricated (no co-op) |
+| "Ember of Persistence rune revives you" | Unconfirmed — named runes are not verified |
+| "Elemental weaknesses +40% damage" | Unconfirmed |
+| "NG+ remixed bosses" | NG+ itself is unconfirmed |
 
 ---
 
-## Difficulty FAQ
+## Making It Harder (Optional)
 
-**Q: Does the game have difficulty settings?**
-A: No — no slider, no easy/normal/hard selection in the 1.0 build. The developers intend challenge to be addressed through gameplay tools, not menus.
+The game is already demanding, but challenge runs are possible within confirmed systems:
+
+- **No-rest runs** — avoid resting/camp usage entirely (checkpoint strategy).
+- **Low-relic runs** — never expand relic slots; play with the starting slots only.
+- **No-forge runs** — never upgrade weapons at the blacksmith.
+- **Fixed-build runs** — commit to one weapon family and never swap relics.
+
+These are self-imposed — no in-game settings change the difficulty.
+
+---
+
+## Common Questions
+
+**Q: Does The Relic: First Guardian have difficulty settings?**
+A: **Unconfirmed.** No verified difficulty slider or options exist in launch coverage. Assume the challenge is fixed until documented otherwise.
 
 **Q: Is there an easy mode?**
-A: No dedicated easy mode, but co-op summoning plus the defensive loadout described above functionally replaces one. A friend covers your mistakes; Sword & Shield covers the rest.
+A: **No confirmed easy mode.** The real difficulty reducers are defensive builds, exploration, relic adaptation, and potion shards.
 
-**Q: Does difficulty scale in co-op?**
-A: Yes — bosses gain roughly +40% HP and +20% damage per additional player. Two players fighting one boss is still easier than one player alone.
+**Q: Is the game hard?**
+A: Yes — by design. Reviews describe a demanding solo soulslike with aggressive enemies; opinions split on whether the challenge is fair (see the [Review Roundup](/guides/review-roundup)).
 
-**Q: Can I lower difficulty mid-game?**
-A: There is no setting to change. You can, however, change your build freely at any time — runes, artifacts, and weapons are all swappable with no cost, so a struggling build can always be rebuilt into a defensive one.
+**Q: What is the biggest difficulty wall?**
+A: Per reviews, boss fights generally — including technical rough edges (camera, frame drops) that add frustration. No specific boss is verified as the hardest.
 
-**Q: Which boss is the biggest difficulty wall?**
-A: Most players hit their first wall at The Starving Saint (Chapter 3) and their second at The Forgotten King. Both are covered in detail in the [Boss Guide](/guides/boss-guide).
+**Q: Can I make it easier mid-game?**
+A: Yes — without a difficulty menu: explore more, buy HP/stamina nodes, swap relics, collect potion shards, and forge your gear.
 
 ---
 
 ### Related Guides
 
-- [Beginner Guide](/guides/beginner-guide) — First 5 hours and starting loadout
-- [Co-Op Guide](/guides/co-op-guide) — Summoning and party strategies
-- [Best Builds Guide](/guides/builds-guide) — Defensive builds that trivialize bosses
-- [Combat Guide](/guides/combat-guide) — Stamina management and parry timing
+- [Beginner Guide](/guides/beginner-guide) — The first-hours path to survivability
+- [Co-Op Guide](/guides/co-op-guide) — Why "play with friends" is not an option
+- [Builds Guide](/guides/builds-guide) — Defensive build frameworks
+- [Combat Guide](/guides/combat-guide) — Parry and stamina mastery

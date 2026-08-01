@@ -31,7 +31,7 @@ The mine supplies construction materials and gems:
 - **Jackhammer** → **stone**, **metal**, and **gems**
 - **Brick kiln** → stone into **bricks**, metal into **ingots**
 - **Assembly machine** → bricks into **concrete**, ingots into **metal beams**
-- **Magic extractor** (place on purple-smoking holes) → **raw magic**, refined into **mana** (barbershop) 
+- **Magic extractor** (place on purple-smoking holes) → **raw magic energy**, refined into **refined magic energy** (supplies the barbershop)
 - **Gem crusher** → gems into **gem powder**, which becomes **glass**
 
 ### Farming
@@ -89,4 +89,4 @@ The chain fails silently at any broken link — if shops sit empty, check storag
 
 ## Recipe Price Guide
 
-Most items sell in the 10–15 coin range, so **volume matters more than margin**. Popcorn sells for 15 coins at market stands and has one of the fastest chains (corn → roaster), which is why endgame players convert farms into popcorn factories. Check the community recipe lists for exact prices, but plan for volume: a stocked stall with cheap goods usually beats an empty shop with fancy ones.
+Most basic items sell for small coin amounts — check each item's price in the shop menu or the community recipe tables, but expect **volume to matter more than margin**. Popcorn (corn → roaster) has one of the fastest chains in the game, which is why endgame players convert farms into popcorn factories — community guides report it as a top per-item earner, though exact prices vary. A stocked stall with cheap goods usually beats an empty shop with fancy ones.

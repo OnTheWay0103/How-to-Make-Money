@@ -18,7 +18,7 @@ const FAQ_ITEMS = [
   {
     question: "Is Vahrin's Call free to play?",
     answer:
-      "No. Vahrin's Call is a paid title priced at $34.99 USD on Steam, with a 10% launch discount available until August 3, 2026. There is no free-to-play tier or demo.",
+      "No. Vahrin's Call is a paid title priced at $34.99 USD on Steam, with a 10% launch discount through early August 2026. There is no free-to-play tier or demo.",
   },
   {
     question: "Does Vahrin's Call have multiplayer or co-op?",
@@ -28,7 +28,7 @@ const FAQ_ITEMS = [
   {
     question: "How does the classless system work?",
     answer:
-      "The game has no preset classes. Your character improves through use — swing a greatsword to increase greatsword proficiency, cast fire magic to improve fire magic. Character Points improve base attributes (Strength, Agility, Intelligence, Constitution, Focus), while Perk Points unlock passive bonuses and active abilities. You can respec for free at Mentor NPCs in settlements.",
+      "The game has no preset classes. Your character improves through use — the Elder Scrolls-style model where practicing a skill increases it. Skills are upgraded to full power through Skill Books scattered across the world, and spells upgrade through the 'Spell Mastery' system. Titan Roc has not published an official attribute or perk-point list; any specific stat names online are unverified.",
   },
   {
     question: "Is there crossplay or console release?",
@@ -38,22 +38,22 @@ const FAQ_ITEMS = [
   {
     question: "What are the system requirements?",
     answer:
-      "Minimum: Windows 10/11 64-bit, Intel i5-12400F / AMD Ryzen 5 5600, 8 GB RAM, GTX 1080 / RX 6600 (8 GB), DirectX 12, 20 GB storage. Recommended: Intel i5-13600K / AMD Ryzen 5 7600X, 16 GB RAM, RTX 2070 / RX 5700 XT (8 GB), 20 GB SSD storage.",
+      "Minimum: Windows 10/11 64-bit, 8 GB RAM, GTX 1080 / RX 6600 minimum GPU, roughly 12-20 GB of storage. Recommended: 16 GB RAM. Full official requirements were published closer to release on the Steam store page.",
   },
   {
     question: "Can I respec my character?",
     answer:
-      "Yes! Respeccing is completely free and available at Mentor NPCs in major settlements (marked on the town map). You can reset attributes, perks, or both. Late-game respecs may also require an Amnesia Elixir alongside gold. Don't be afraid to experiment.",
+      "The official FAQ confirms you can 'adapt, alter or completely switch playstyles' at any point — no build is permanent. The exact respec mechanism (NPCs, items, or menus) has not been officially detailed, so specific claims about 'Mentor NPCs' or respec items are unverified.",
   },
   {
-    question: "What are the five attributes?",
+    question: "What are the game's attributes?",
     answer:
-      "Strength (heavy weapon damage, blocking, equipment load), Agility (attack speed, movement, dodging, ranged damage), Intelligence (spell power, mana pool, elemental damage), Constitution (health, survivability, stagger resistance), and Focus/Utility (trap efficiency, alchemy, critical bonuses).",
+      "There is no officially published attribute list. Titan Roc has confirmed spells can be customised via damage, range, and casting speed, and that a stamina system limits prolonged magic use — but named stats like 'Strength' or 'Intelligence' have never been officially confirmed. Treat any five-attribute breakdown online as unverified.",
   },
   {
     question: "How long is the game?",
     answer:
-      "The main story takes approximately 25-35 hours to complete. Full completion including all side quests, hidden bosses, skill book collection, and exploration can extend to 50+ hours. The world is handcrafted rather than enormous, packed with secrets.",
+      "The official FAQ says an average playthrough is 15-30 hours, varying with difficulty and how completionist you are. Launch aggregate data shows an average playtime of about 22 hours, with around 20% of players exceeding 35 hours through side content.",
   },
   {
     question: "Does the game use generative AI?",
@@ -68,12 +68,12 @@ const FAQ_ITEMS = [
   {
     question: "Is there New Game Plus?",
     answer:
-      "There is no New Game Plus mode at launch. Titan Roc has not yet announced whether NG+ will be added in future updates.",
+      "Unconfirmed. Titan Roc has never announced a New Game Plus mode — treat any online claims about NG+ or post-story replay modes as unverified.",
   },
   {
     question: "How do I report bugs or give feedback?",
     answer:
-      "The best ways are: the Steam Community forums for Forsaken Realms: Vahrin's Call, the official Titan Roc Discord server, or the in-game feedback tool (if available).",
+      "The confirmed route is the Steam Community forums for Forsaken Realms: Vahrin's Call. Titan Roc's director has publicly stated the team reads every review and is prioritizing fixes (performance, widescreen support, keybinding customisation, localization) before free DLC.",
   },
 ];
 
