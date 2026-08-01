@@ -32,6 +32,10 @@ Witchspire launched in Early Access on Steam on June 10, 2026. This wiki covers 
 | [Vyrs Region Guide](/guides/vyrs-region-guide) | Exploration | Starter |
 | [Al'uunian Golem Boss Guide](/guides/alunean-golem-boss-guide) | First boss | Intermediate |
 | [Co-op Multiplayer Guide](/guides/coop-multiplayer-guide) | Team play | Starter |
+| [Familiar Taming Guide](/guides/familiar-taming-guide) | How to catch familiars | Starter |
+| [All Familiars Guide](/guides/all-familiars-guide) | Familiar database | Reference |
+| [Co-op Troubleshooting Guide](/guides/coop-troubleshooting-guide) | Fix connection issues | Fixes |
+| [Patch Notes & Roadmap](/guides/patch-notes-updates) | 0.1.4 & what's next | All |
 | [FAQ](/faq) | Quick answers | All |
 | [Tier List](/tier-list) | Meta analysis | Advanced |
 

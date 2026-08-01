@@ -1,120 +1,137 @@
 ---
 title: "Witchspire All Familiars Guide — Full Database"
-description: "Complete database of all 25+ Familiars in Witchspire. Rarity, element, location, capture mechanics, and the best early-game familiars to catch first."
+description: "Complete database of the 30+ Familiars in Witchspire. Rarity, element, location, the real bonding mechanics (kill, spirit lingers, hold F), starter choices, and which familiars run which crafting stations."
 category: "Guides"
-version: "0.1.1d"
-updated: "2026-06-29"
-keywords: ["Witchspire familiars", "Witchspire familiar list", "Witchspire pet guide", "Witchspire capture", "best familiars Witchspire", "familiar locations"]
-related: ["best-coven-guide", "tier-list", "beginner-guide", "vyrs-region-guide"]
+version: "0.1.4"
+updated: "2026-08-01"
+keywords: ["witchspire familiars", "witchspire familiar list", "witchspire familiar locations", "witchspire pet guide", "best familiars witchspire", "witchspire familiar database"]
+related: ["familiar-taming-guide", "best-coven-guide", "beginner-guide", "vyrs-region-guide", "patch-notes-updates"]
 ---
 
 # All Familiars Guide — Full Database
 
-> **Applies to EA v0.1.1d / Updated: June 29, 2026**
+> **Applies to EA v0.1.4 / Updated: August 1, 2026**
 
-Familiars are catchable magical creatures that fight alongside you, gather materials, and assist in crafting. There are 25+ familiars across 4 rarity tiers. This guide lists every familiar, where to find it, and which ones are worth your time.
+Familiars are magical creatures you bond with by **killing them and holding F on their lingering spirit** — see the [Familiar Taming Guide](/guides/familiar-taming-guide) for the full mechanic. This page is the master database: every known familiar, its element, where it spawns, and the crafting stations it powers. There are **30+ familiars** across 4 rarity tiers (Common → Rare → Epic → Legendary), plus Celestial/"Shifty" recolor variants.
 
----
-
-## Capture Mechanics
-
-To catch a familiar:
-1. **Weaken it** — reduce its HP to below 30%. Do not kill it.
-2. **Equip a Capture Orb** — crafted at the Workbench (10 Stone + 5 Nectar)
-3. **Throw the orb** — aim at the weakened familiar and press Q
-4. **Succeed or fail** — higher rarity = lower capture chance. Epic+ may require Advanced Capture Orbs (unlocked at Hearth Tier 3).
-
-**Pro tip**: Sproutlings and Emberpuffs have a base 80% capture rate at 30% HP. Legendaries have a 5% base rate — bring multiple orbs.
+> **Note on naming:** this is Early Access and creature names vary between community sources and patches. Where a familiar is known by multiple names, we list them. If you spot a new one, it belongs here.
 
 ---
 
-## Familiar List by Rarity
+## Starter Familiars
 
-### Common Familiars
-
-| Familiar | Element | Location | Role | Capture Rate |
-|----------|---------|----------|------|-------------|
-| Emberpuff | Lux | Vyrs Meadows | Ranged DPS | 80% |
-| Sproutling | Nature | Vyrs Forests | Tank / Gatherer | 80% |
-| Pebbleback | Crystal | Vyrs Caves | Melee Tank | 75% |
-| Pufffin | Nox | Vyrs Swamp | DoT / Poison | 75% |
-
-### Rare Familiars
-
-| Familiar | Element | Location | Role | Capture Rate |
-|----------|---------|----------|------|-------------|
-| Glimmerwing | Lux | Timberline Basin | Healer | 50% |
-| Thornback | Nature | Timberline Basin | Tank / Reflect | 50% |
-| Frostweaver | Crystal | Timberline Basin | CC / Slows | 45% |
-| Vaporshade | Nox | Timberline Basin | Stealth / DoT | 45% |
-| Driftmote | Ethereal | Vyrs (night only) | Utility / Teleport | 50% |
-| Quickquill | Astral | Timberline Basin | Speed Buffer | 45% |
-
-### Epic Familiars
-
-| Familiar | Element | Location | Role | Capture Rate |
-|----------|---------|----------|------|-------------|
-| Sunspire | Lux | Mira Isles | AoE Burst DPS | 20% |
-| Deeproot | Nature | Mira Isles | Mega Tank / Heal | 20% |
-| Geode Guardian | Crystal | Shuddersands | Shield / CC | 15% |
-| Withermaw | Nox | Shuddersands | Poison AoE | 15% |
-| Stormgazer | Ethereal | Mira Isles (storm) | Ranged Magic DPS | 15% |
-| Voidling | Astral | Shuddersands (night) | Crit Buffer | 15% |
-
-### Legendary Familiars
-
-| Familiar | Element | Location | Role | Capture Rate |
-|----------|---------|----------|------|-------------|
-| Luxwing | Lux | Flight Pillar Summon | AoE Heal + Buff | 5% (requires Quest) |
-| Elder Treant | Nature | Timberline Basin Boss Spawn | Full Tank | 5% |
-| Crystal Wyrm | Crystal | Mira Isles Boss Spawn | AoE CC + Damage | 3% |
-| Nightshade Wraith | Nox | Shuddersands Night Event | Insane DoT | 3% |
-| Ethereal Phoenix | Ethereal | Secret Event | Revive / Rebirth | 2% |
-| Astral Dragon | Astral | Endgame Raid | Highest DPS | 2% |
+| Familiar | Element | Where | Notes |
+|----------|---------|-------|-------|
+| Quol | Ethereal | Starter pick (also wild) | Community default pick; melee-friendly |
+| Locto | Lux | Starter pick (also wild) | Fire damage, melee-friendly |
+| Bril | Crystal | Starter pick (also wild) | Ice; wand-friendly |
+| Fien | Nox | Starter pick; Timberline Basin at night | Dark; wand-friendly |
 
 ---
 
-## Best Early-Game Familiars (Levels 1-10)
+## Familiar Database by Region
 
-| Rank | Familiar | Why |
-|------|----------|-----|
-| 1 | Sproutling | Tanks hits, gathers wood/fiber for you |
-| 2 | Emberpuff | Ranged attacks, great vs. early bosses |
-| 3 | Pebbleback | High HP, taunt ability keeps aggro off you |
-| 4 | Pufffin | Poison stacking = strong boss DPS |
+### Vyrs (starting island)
 
-Catch a Sproutling and an Emberpuff. Use Sproutling to tank while you deal damage. This duo can carry you through the Al'uunian Golem fight.
+| Familiar | Element | Location | Crafting Role |
+|----------|---------|----------|---------------|
+| Rockling | Nature | Starting area; Rockling Breeding Village | — |
+| Taileaf | Nature | Left of starting area | — |
+
+### Mira Isles
+
+| Familiar | Element | Location | Crafting Role |
+|----------|---------|----------|---------------|
+| Chirili (a.k.a. Chirli) | Lux | Chirili Crater | Furnace |
+| Charling | Lux | Chirili Crater; north of Flight Pillar | Cooker |
+| Loija | Lux | North of Flight Pillar | — |
+| Lamloof (a.k.a. Lambloof) | Nature | South of Flight Pillar; The Trampling Grounds | Spinner |
+| Granloof | Nature | South of Flight Pillar; The Trampling Grounds | Windmill |
+| Treetop | Lux | Second Root; Savannah (Shuddersands) | Forester's Hut |
+| Taileaf | Nature | Mira Isles | — |
+
+### Timberline Basin
+
+| Familiar | Element | Location | Crafting Role |
+|----------|---------|----------|---------------|
+| Xilvant | Nox | Common across the region | Witchcraft Circle |
+| Shardling | Crystal | Shard Caverns (beneath the region) | Spinner |
+| Lety | Nature | Outside Al'uunian Tower | Sawmill |
+| Bompus | Astral | Beaches | Miner's Cabin |
+| Detrox | Astral | Near Al'uunian Ruins | Miner's Cabin |
+| Fien | Nox | Night spawns | — |
+
+### Shuddersands (desert)
+
+| Familiar | Element | Location | Crafting Role |
+|----------|---------|----------|---------------|
+| Shudder | Nox | Glimmering Dunes | Witchcraft Circle |
+| Cindle | — | Savannah | Stove |
+| Treetop | Lux | Savannah | Forester's Hut |
+| Traxio | — | Desert | Furnace |
+
+### Night / Special Spawns
+
+| Familiar | Element | Location | Crafting Role |
+|----------|---------|----------|---------------|
+| Pheomina | Nature | Outside Witchspire Tower, night only | — |
+| Gwaraofeerinax | — | Third island | Cauldron |
+| Specra | — | Beach routes (farm Carapace on the way) | — |
 
 ---
 
-## Familiar Abilities Overview
+## Crafting Station Cheat Sheet
 
-Each familiar has 3 ability slots:
-- **Passive** (always active) — stat buffs or auto-gathering
-- **Active 1** (Q) — combat ability, bound to your hotbar
-- **Active 2** (E) — utility ability (heal, shield, buff)
+Familiars aren't just combat pets — several stations require (or are sped up by) specific familiars. If a station shows a locked familiar slot, this table is what you need:
 
-Higher rarity familiars have additional passive bonuses. Legendaries have 2 passives.
+| Station | Required / Speed-up Familiar | Where to find it |
+|---------|------------------------------|------------------|
+| Cooker | Charling | Chirili Crater / north of Flight Pillar |
+| Witchcraft Circle | Xilvant, Shudder | Timberline Basin / Shuddersands |
+| Cauldron | Gwaraofeerinax | Third island |
+| Furnace | Chirli, Traxio | Chirili Crater / desert |
+| Sawmill | Lety | Outside Al'uunian Tower |
+| Spinner | Lamloof, Shardling | Trampling Grounds / Shard Caverns |
+| Windmill | Granloof | Trampling Grounds |
+| Forester's Hut | Treetop | Second Root / Savannah |
+| Miner's Cabin | Bompus, Detrox | Timberline Basin beaches / ruins |
 
 ---
 
-## Familiar Leveling
+## Bonding Difficulty by Rarity
 
-| Level | Unlock |
-|-------|--------|
-| 1-5 | Basic attacks + Passive |
-| 5 | Active 1 unlocked |
-| 10 | Active 2 unlocked |
-| 15 | Passive upgraded |
-| 20 | Ultimate ability (Legendaries only) |
+| Rarity | Base linger chance | Recommended approach |
+|--------|:--:|---------------------|
+| Common | High | Bond freely, no incense |
+| Rare | Medium | Bond freely; incense only if re-rolling gets tedious |
+| Epic | Low | **Use incense** — save Simple/Potent for these |
+| Legendary | Very low | **Stack everything**: Shimmering Incense + Spirit Charmer + Luck + Foretellers (+40% bonding rate) |
+| Celestial / Shifty | Same as base tier | Recolor variants — same bonding rules |
 
-Level your familiar by keeping it summoned during combat and gathering. XP is shared based on familiar participation.
+Remember the community rule: **a bonded Common beats an unbonded Legendary.** Bond what you can; upgrade your roster as incense and Spirit Charmer nodes come online.
+
+---
+
+## Frequently Asked Questions
+
+**Q: How many familiars can I equip?**
+Three slots; one active in combat (press C to cycle). Equip/swap at a Hearth via the Tab menu.
+
+**Q: Do familiars level up?**
+Familiars support your build with passives and crafting roles; the deep leveling/progression system is still EA-shaped. The "A Touch of Magic" update (Familiar Wheel) is the developer's planned overhaul — see the [Patch Notes & Roadmap](/guides/patch-notes-updates).
+
+**Q: Can I find every familiar in the wild, including the starters?**
+Yes. All four starters spawn in the world (Fien at night in Timberline Basin; the others on their home islands).
+
+**Q: What is the best familiar in the game?**
+There is no single answer at 0.1.4 — meta coverage is thin and patch-flavored. The current community picks: Rockling (early value), Quol (starter versatility), and Xilvant (crafting utility). Check the [Tier List](/tier-list) for rankings as they develop.
 
 ---
 
 ## Related Guides
 
-- [Tier List: Best Familiars Ranked](/tier-list)
-- [Beginner Guide: First 5 Hours](/guides/beginner-guide)
-- [Vyrs Region Guide: Where to Find Early Resources](/guides/vyrs-region-guide)
-- [Crafting Guide: Capture Orb Recipe](/guides/crafting-guide)
+- [Familiar Taming Guide — Mechanics, Incense & First Targets](/guides/familiar-taming-guide)
+- [Tier List — Best Familiars & Covenings](/tier-list)
+- [Best Coven Guide](/guides/best-coven-guide) — Foretellers' +40% bonding rate explained
+- [Vyrs Region Guide](/guides/vyrs-region-guide) — early familiar hunting grounds
+- [Patch Notes & Roadmap](/guides/patch-notes-updates) — 0.1.4 changes and the Familiar Wheel coming in "A Touch of Magic"

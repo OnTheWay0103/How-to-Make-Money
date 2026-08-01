@@ -1,16 +1,16 @@
 ---
 title: "Witchspire Co-op Multiplayer Guide — Invite Friends and Progress Together"
-description: "Complete multiplayer guide for Witchspire. How to invite friends, co-op progression sharing, session hosting, player limits, and solo vs co-op comparison for EA v0.1.1d."
+description: "Complete multiplayer guide for Witchspire. How to invite friends (Steam friends list — there is no session code system), co-op progression sharing, hosting, player limits, and solo vs co-op comparison for EA v0.1.4."
 category: "Guides"
-version: "0.1.1d"
-updated: "2026-07-11"
+version: "0.1.4"
+updated: "2026-08-01"
 keywords: ["Witchspire multiplayer", "Witchspire co-op", "Witchspire invite friends", "Witchspire session hosting", "Witchspire progression sharing", "Witchspire 4 player"]
-related: ["beginner-guide", "main-quest-walkthrough", "best-coven-guide", "hearth-upgrade-guide"]
+related: ["beginner-guide", "main-quest-walkthrough", "best-coven-guide", "hearth-upgrade-guide", "coop-troubleshooting-guide"]
 ---
 
 # Co-op Multiplayer Guide — Playing With Friends
 
-> **Applies to EA v0.1.1d / Updated: July 11, 2026**
+> **Applies to EA v0.1.4 / Updated: August 1, 2026**
 
 Witchspire is built for co-op. While you can absolutely play solo, the game shines when you and your friends explore Vyrs, build a shared Hearth, and take down bosses together. This guide covers everything you need to know about multiplayer — from inviting friends to progression sharing and session limits.
 
@@ -22,37 +22,35 @@ Witchspire uses a **host-based session model**. One player hosts the world, and 
 
 | Feature | Details |
 |---------|---------|
-| Model | Host-based (peer-to-peer) |
-| Max Players | 4 (confirmed), up to 6 via mods |
-| Cross-region | Same-region only (no region locking) |
-| Voice Chat | In-game push-to-talk (default: V) |
-| Save System | Host saves; guests keep inventories and Luminary points on disconnect |
+| Model | Host-based (peer-to-peer) — the host's machine is the server |
+| Max Players | 4 (confirmed) |
+| Cross-region | Possible, but hosted in the host's region — cross-continent play desyncs |
+| Invite Flow | **Steam friends list only** — no in-game lobby, no session codes (see below) |
+| Version Rule | All players must be on the **same game version/branch** (since 0.1.1b) |
+| Save System | Host saves; guests keep inventories, familiars and Luminary points on disconnect |
 | Anti-Cheat | None (non-competitive PvE) |
 
 ---
 
 ## How to Invite Friends
 
-### Step 1: Host a Session
-1. Launch Witchspire and load your save
-2. Open the **Social Menu** (default: `O`)
-3. Click **"Host Session"** — this turns your world into a joinable lobby
-4. Optionally set a **session password** in the lobby settings
-5. Your **Session Code** (6-character alphanumeric) appears at the top of the Social Menu
+> **Important correction:** Witchspire does **not** have an in-game "Social menu," session codes, or a lobby browser. Joining is done through **Steam** — this is how it actually works:
 
-### Step 2: Join a Session
-1. Open the **Social Menu** (`O`) from the main menu or in-game
-2. Click **"Join Session"**
-3. Enter the host's **Session Code**
-4. Wait for the host to accept your join request
+### Step 1: Become Steam Friends
+Both players must be **Steam friends** with each other (Steam overlay → Add Friend, or right-click the player in Recent Players).
 
-### Step 3: Accepting Players
-- The host sees incoming join requests in the Social Menu
-- Accept or decline each request
-- Players spawn at the host's **Hearth flag** location
-- If the Hearth flag is in a dangerous area, the host should move it to a safe spot before inviting guests
+### Step 2: Host Opens Their World
+The host launches Witchspire and loads their world. The world is **hosted on the host's machine** — no separate "host session" step exists.
 
-**Pro tip**: Use Discord or Steam Voice for clearer communication. The in-game voice works but has no noise suppression.
+### Step 3: Host Invites From the Steam Friends List
+The host opens the **Steam friends list** (Shift+Tab overlay or Steam desktop), right-clicks the friend, and selects **"Invite to Game."**
+
+### Step 4: Friend Accepts
+The friend accepts the invite (they should have Witchspire running or it will launch), and loads into the host's world.
+
+**If the invite fails or never arrives:** check game versions match (mismatched versions are the #1 cause), check the host's NAT/connection, and restart both games. See the [Co-op Troubleshooting Guide](/guides/coop-troubleshooting-guide) for the full fix list.
+
+**Pro tip**: Use Discord or Steam Voice for clearer communication. Guests spawn at the host's **Hearth flag** location — move it to a safe spot before inviting if it sits in a dangerous area.
 
 ---
 
@@ -162,14 +160,19 @@ Witchspire uses a **host-based session model**. One player hosts the world, and 
 
 ---
 
-## Known Multiplayer Issues (EA v0.1.1d)
+## Known Multiplayer Issues (EA v0.1.4)
 
 | Issue | Workaround |
 |-------|------------|
 | Guest disconnects during loading screen | Host re-invites, guest re-joins |
-| Desync on broom flight | Guest remounts broom |
+| Can't join at all | Version mismatch (most common), strict NAT, weak host — see the troubleshooting guide |
+| Chests look empty to teammates | Server-side chests — one player's open empties it for everyone; coordinate |
+| Character "missing" in friend's world | Characters are bound to the world they were created in — you join as a guest |
+| Desync on broom flight | Guest remounts broom; desync fixes are on the developer's QoL list |
 | Hearth flag not visible to guests | Guest re-joins session |
 | Quest markers misaligned | Guest reloads area (leave and return) |
+
+For anything beyond these quick workarounds — host requirements, version rules, chest/character rules, and desync status — see the **[Co-op Troubleshooting Guide](/guides/coop-troubleshooting-guide)**.
 
 ---
 
@@ -179,3 +182,4 @@ Witchspire uses a **host-based session model**. One player hosts the world, and 
 - [Best Coven Guide: Which Class Should You Pick?](/guides/best-coven-guide)
 - [Main Quest Walkthrough: Acts I-III](/guides/main-quest-walkthrough)
 - [Hearth Upgrade Guide: All Tiers and Materials](/guides/hearth-upgrade-guide)
+- [Co-op Troubleshooting Guide](/guides/coop-troubleshooting-guide)
