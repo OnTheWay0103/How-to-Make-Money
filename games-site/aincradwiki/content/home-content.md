@@ -1,18 +1,18 @@
 ---
-title: "Witchspire Wiki — Complete Guide Hub"
-description: "The ultimate community wiki for Witchspire — the co-op survival RPG by Envar Games. Find Coven guides, boss strategies, familiar database, crafting recipes and more."
+title: "Echoes of Aincrad Wiki — Complete Guide Hub"
+description: "The ultimate community wiki for Echoes of Aincrad — the single-player action JRPG set in the SAO universe by Game Studio Inc. / Bandai Namco. Find weapon guides, build strategies, EX-Mod crafting, partner optimization, floor walkthroughs and more."
 category: "Home"
-version: "0.1.1d"
-updated: "2026-06-29"
-keywords: ["Witchspire", "Witchspire wiki", "Witchspire guide", "Envar Games", "co-op survival RPG", "Steam early access"]
-related: ["beginner-guide", "best-coven-guide", "all-familiars-guide", "crafting-guide"]
+version: "1.0"
+updated: "2026-08-01"
+keywords: ["Echoes of Aincrad", "Echoes of Aincrad wiki", "Aincrad guide", "SAO game", "Sword Art Online", "action JRPG"]
+related: ["beginner-guide", "weapons-guide", "builds-guide", "ex-mod-guide"]
 ---
 
-# Witchspire Wiki — Complete Guide Hub
+# Echoes of Aincrad Wiki — Complete Guide Hub
 
-**Everything you need to master the co-op survival RPG by Envar Games.**
+**Everything you need to survive the death game — single-player only.**
 
-Witchspire launched in Early Access on Steam on June 10, 2026. This wiki covers all core systems, strategies, and secrets for the current build (v0.1.1d). Whether you are a solo witch or running a 4-player coven, you will find practical, up-to-date information here.
+Echoes of Aincrad is a single-player action JRPG set in the Sword Art Online universe, developed by Game Studio Inc. and published by Bandai Namco Entertainment. It launched July 9–10, 2026 on PS5, Xbox Series X|S, and PC (Steam). You create your own beta tester avatar and fight through the first two floors of Aincrad — mastering six weapons-as-classes, crafting EX-Mods, and fighting alongside your AI partner. Note: **the game has no multiplayer or PvP** — see the [Multiplayer Status](/guides/multiplayer-coop-guide) page.
 
 ---
 
@@ -21,64 +21,62 @@ Witchspire launched in Early Access on Steam on June 10, 2026. This wiki covers 
 | Guide | Best For | Difficulty |
 |-------|----------|------------|
 | [Beginner Guide](/guides/beginner-guide) | First-time players | Starter |
-| [Best Coven Guide](/guides/best-coven-guide) | Character creation | Starter |
-| [All Familiars Guide](/guides/all-familiars-guide) | Creature collecting | Reference |
-| [Hearth Upgrade Guide](/guides/hearth-upgrade-guide) | Base building | Intermediate |
-| [Main Quest Walkthrough](/guides/main-quest-walkthrough) | Story progression | Intermediate |
-| [Crafting Guide](/guides/crafting-guide) | Gear progression | Intermediate |
-| [Luminary Skill Tree Guide](/guides/luminary-skill-tree-guide) | Build optimization | Advanced |
-| [Spellblade vs Wand Guide](/guides/spellblade-vs-wand-guide) | Weapon choice | Intermediate |
-| [Flight Unlock Guide](/guides/flight-unlock-guide) | Mobility unlock | Intermediate |
-| [Vyrs Region Guide](/guides/vyrs-region-guide) | Exploration | Starter |
-| [Al'uunian Golem Boss Guide](/guides/alunean-golem-boss-guide) | First boss | Intermediate |
-| [Co-op Multiplayer Guide](/guides/coop-multiplayer-guide) | Team play | Starter |
+| [Weapons Guide](/guides/weapons-guide) | All 6 weapons & classes | Starter |
+| [Builds Guide](/guides/builds-guide) | Best builds & stats | Intermediate |
+| [Leveling Guide](/guides/leveling-guide) | Fast XP & farming routes | Intermediate |
+| [EX-Mod Guide](/guides/ex-mod-guide) | Weapon crafting & mods | Advanced |
+| [Partner Guide](/guides/partner-guide) | AI companion setup | Intermediate |
+| [Bosses Guide](/guides/bosses-guide) | All floor bosses | Advanced |
+| [Floor Guide](/guides/floor-guide) | Floor-by-floor walkthrough | Intermediate |
+| [Hidden Mechanics](/guides/hidden-mechanics) | Deep systems | Advanced |
+| [Boss Rush Mode](/guides/boss-rush-mode) | Endgame gauntlet | Advanced |
+| [PvP Status](/guides/pvp-duel-guide) | Is there PvP? (No) | All |
+| [Multiplayer Status](/guides/multiplayer-coop-guide) | Is it co-op? (No) | All |
+| [Update & Patch Notes](/guides/update-patch-notes) | Real version history | All |
 | [FAQ](/faq) | Quick answers | All |
-| [Tier List](/tier-list) | Meta analysis | Advanced |
 
 ---
 
 ## Featured Guides
 
-### Coven Guide
-Pick your path. Six unique Coven classes, each with distinct weapon and magic combos. [Read the full guide →](/guides/best-coven-guide)
+### Weapons Guide
+Six weapon types, each functioning as a distinct class: Sword & Shield, Two-Handed Axe, Dagger, Rapier, Greatsword, and Mace. There are no spellcasters — your weapon is your class. [Read the full guide →](/guides/weapons-guide)
 
-### Familiar Database
-Catch, train, and evolve 25+ magical creatures across four rarity tiers. [Browse all Familiars →](/guides/all-familiars-guide)
+### EX-Mod Crafting
+Master the Smithy system. Combine weapons, transfer EX-Mods, farm materials, and craft the best modifiers for your build. [Full EX-Mod guide →](/guides/ex-mod-guide)
 
-### Boss Strategies
-From the Al'uunian Golem to the Shudder Matriarch — learn attack patterns, safe spots, and loot tables. [View boss guides →](/guides/alunean-golem-boss-guide)
+### Partner System
+Your AI partner has its own fighting style, Combination Skills, and Support Skills. Building them well is half the battle. [View partner guide →](/guides/partner-guide)
 
-### Crafting Recipes
-Workbenches, furnaces, alchemy circles, and garden plots. Everything you can craft and how to make it. [Full crafting guide →](/guides/crafting-guide)
+### Boss Rush
+The endgame gauntlet — fight waves of bosses to prove your build. [Browse Boss Rush →](/guides/boss-rush-mode)
 
 ---
 
-## What is Witchspire?
+## What is Echoes of Aincrad?
 
-Witchspire is an open-world, magic-based survival RPG built for 1-4 player co-op. Developed by Envar Games, it launched into Steam Early Access on June 10, 2026. You play as a fledgling witch exploring the fractured realms of Vyrs, Timberline Basin, Mira Isles, and the Shuddersands — collecting familiars, building your Hearth base, crafting gear, and hunting down powerful bosses.
+Echoes of Aincrad is a single-player action JRPG set in the Sword Art Online universe, developed by Game Studio Inc. and published by Bandai Namco Entertainment. Launched July 10, 2026 (JP July 9) on PS5, Xbox Series X|S, and PC. You play as an early beta tester in the SAO death game — creating your own avatar, fighting through the first two floors of Aincrad, and experiencing the opening of the world's most famous death game from a new perspective.
 
-The game combines the resource loop of survival crafting with action-RPG combat. Your choice of Coven (class) defines your weapon (Spellblade or Wand) and your magic school (Lux, Crystal, Ethereal, Nature, Nox, or Astral).
+The game combines action combat (six weapons with unique Sword Skills) with RPG progression (Cardinal Rank, Growth Points, stats) and a companion system (AI partners with Combination Skills). The free demo's save data carries into the full game.
 
 ---
 
 ## Key Systems at a Glance
 
-- **6 Coven Classes** — Cloudpiercers, Starsmiths, Foretellers, Wildroots, Tomekeepers, Nightscribes
-- **25+ Familiars** — Common to Legendary rarity, each with unique combat and utility skills
-- **Hearth Base Building** — Upgradeable hub with crafting stations and Astral Projection mode
-- **Flight System** — Brooms + Flight Pillars for aerial traversal
-- **Luminary Skill Tree** — Permanent point allocation (no respec!)
-- **4 Major Regions** — Vyrs, Timberline Basin, Mira Isles, Shuddersands
-- **4 Bosses** — Al'uunian Golem, Shudder Matriarch, Lumi, Shudder
+- **6 Weapons = 6 Classes** — Sword & Shield, Two-Handed Axe, Dagger, Rapier, Greatsword, Mace (no spellcasters)
+- **Single-Player Only** — AI partners instead of co-op; no PvP (see [Multiplayer Status](/guides/multiplayer-coop-guide))
+- **EX-Mod Crafting** — weapon modifier system at the Smithy
+- **Cardinal System** — rank, growth points, and stats
+- **2 Floors at Launch** — Floor 1 & 2 with expansion DLC announced for end of 2026
+- **Partner System** — AI companion with Combination & Support Skills
 
 ---
 
 ## Quick Start Links
 
-- [Join the official Steam Community](https://steamcommunity.com/app/witchspire)
-- [Report bugs on the Envar Games Discord](#)
-- [Check Steam for latest patch notes](https://store.steampowered.com/app/witchspire)
+- [Echoes of Aincrad on Steam](https://store.steampowered.com)
+- [Official Bandai Namco site](https://www.bandainamcoent.com)
 
 ---
 
-*This wiki is community-maintained and reflects game version v0.1.1d. Content may change as the game evolves through Early Access.*
+*This wiki is community-maintained and reflects version 1.0.4. Content will be updated as patches and the Expansion DLC are announced.*

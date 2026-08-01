@@ -1,66 +1,70 @@
 ---
-title: 'PvP & Duel Guide — Best Builds & Strategy in Echoes of Aincrad'
-description: 'Complete PvP guide for Echoes of Aincrad. How duels work, best PvP builds, combat strategies, Switch mechanics in PvP, and ranking system.'
-keywords: ['echoes of aincrad pvp', 'aincrad duel guide', 'echoes of aincrad pvp build', 'aincrad best pvp build', 'echoes of aincrad pvp strategy']
-category: PvP
+title: 'Is There PvP in Echoes of Aincrad? — Duel Status & Single-Player Reality'
+description: 'Does Echoes of Aincrad have PvP or duels? No — it is a single-player action JRPG. No online play, no ranked duels, no arenas. An earlier version of this page described a nonexistent PvP arena; this page is the correction, plus what the real game offers instead.'
+keywords: ['echoes of aincrad pvp', 'aincrad duel guide', 'is echoes of aincrad multiplayer', 'aincrad pvp', 'echoes of aincrad online', 'aincrad single player']
+category: Guides
 version: '1.0'
-updated: '2026-07-30'
+updated: '2026-08-01'
 related:
-  - builds-guide
+  - multiplayer-coop-guide
+  - beginner-guide
+  - partner-guide
   - combat-system-guide
   - weapons-guide
 ---
 
-## PvP Overview
+# Is There PvP in Echoes of Aincrad? — Duel Status & Single-Player Reality
 
-Echoes of Aincrad features a competitive PvP arena where players duel using their story-mode characters. Build optimization and Switch timing define the meta.
+**Echoes of Aincrad / Updated: August 1, 2026**
 
-## PvP Modes
+**Short answer: no.** Echoes of Aincrad is a **single-player-only action JRPG**. There is **no PvP, no duels, no arenas, no online matchmaking, and no multiplayer of any kind** — confirmed by the official launch materials and every review.
 
-### 1v1 Duels
-- Ranked and casual matches
-- Best-of-3 format
-- MMR-based matchmaking
-- Seasonal rankings with rewards
+**Why this page exists:** an earlier version of this page described a PvP arena with ranked duels, MMR and seasonal rewards. That content **does not exist in the game**. If you searched "Aincrad PvP," you deserve the straight answer — and then the real game's version of "builds vs other players," which is the [partner system](/guides/partner-guide) and boss challenges.
 
-### Team Arena (3v3)
-- Rotating objectives
-- Team composition matters
-- Communication is key
+---
 
-## Best PvP Builds
+## The Straight Facts
 
-### S-Tier: Rapier Counter Build
-- **Weapon**: Rapier (max speed)
-- **Strategy**: Bait attacks, counter for massive damage
-- **Switch**: Dual-Wield for finisher
-- **Weakness**: Predictable if you always counter
+| Question | Answer |
+|----------|--------|
+| Is there PvP? | **No** — no player-versus-player of any kind |
+| Is there co-op? | **No** — single-player only (see the [Multiplayer Status page](/guides/multiplayer-coop-guide)) |
+| What about the arena/boss rush? | **Boss Rush** is a single-player challenge mode, not PvP — see the [Boss Rush Guide](/guides/boss-rush-mode) |
+| "Switch" mechanics? | The **Switch/Combination system** is your **AI partner** exchanging attacks — not a PvP tech |
+| Future plans? | The announced **Expansion DLC** (end of 2026) has no multiplayer content confirmed |
 
-### A-Tier: Dual-Wield Rushdown
-- **Weapon**: Dual-Wield (max crit)
-- **Strategy**: Relentless aggression, overwhelm with speed
-- **Switch**: Greatsword for guard break
-- **Weakness**: Stamina management
+The closest the game comes to "competitive" is chasing S-rank boss clears, EX-Mod optimization, and speedrun-level play (see [Speedrun Tips](/guides/speedrun-tips)).
 
-### A-Tier: Greatsword Punisher
-- **Weapon**: Greatsword (max damage)
-- **Strategy**: Read opponent, punish with single heavy hits
-- **Switch**: Rapier for quick pokes
-- **Weakness**: Slow, can be kited
+---
 
-## PvP Switch Mechanics
+## What the Real Game Offers Instead
 
-The Switch system is the key to PvP mastery:
-- Switch mid-combo to extend pressure
-- Switch defensively to recover from disadvantage
-- Switch canceling (advanced tech) to bait opponents
+- **Six weapons as classes** (Sword & Shield, Two-Handed Axe, Dagger, Rapier, Greatsword, Mace) — mastering all six is the real "build variety" (see the [Weapons Guide](/guides/weapons-guide)).
+- **AI partners** — your partner has its own fighting style, Combination Skills and Support Skills (see the [Partner Guide](/guides/partner-guide)).
+- **Boss Rush** — the endgame gauntlet that scratches the "prove your build" itch (see the [Boss Rush Guide](/guides/boss-rush-mode)).
+- **EX-Mod crafting** — min-maxing weapon modifiers is the long-term progression loop (see the [EX-Mod Guide](/guides/ex-mod-guide)).
 
-## Ranking System
+---
 
-| Rank | Requirement | Seasonal Reward |
-|------|-------------|----------------|
-| Bronze | Place in 10 matches | Participation title |
-| Silver | Top 50% | Silver weapon skin |
-| Gold | Top 20% | Gold weapon skin + emote |
-| Platinum | Top 5% | Exclusive armor set |
-| Diamond | Top 1% | Legendary title + mount |
+## FAQ
+
+**Q: Can I fight my friends?**
+No. There is no friendly PvP, no local versus, no online duels. It's a single-player game, period.
+
+**Q: I saw a "duel" mentioned online. Real?**
+No — misreported content. Reviews and official materials confirm zero multiplayer features.
+
+**Q: Will the Expansion DLC add multiplayer?**
+Nothing announced. The expansion (end of 2026) is expected to add story/floors content; treat any multiplayer claim as unconfirmed until Bandai Namco announces it.
+
+**Q: Is there any competitive content at all?**
+Boss Rush S-rank runs and speedrunning are the community's competitive outlets.
+
+---
+
+## Related Guides
+
+- [Multiplayer Status](/guides/multiplayer-coop-guide) — the full single-player confirmation
+- [Partner Guide](/guides/partner-guide) — the AI partner system that replaces "co-op"
+- [Boss Rush Guide](/guides/boss-rush-mode) — the real endgame challenge
+- [Builds Guide](/guides/builds-guide) — six-weapon build variety

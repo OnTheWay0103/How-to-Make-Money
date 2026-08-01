@@ -1,10 +1,10 @@
 ---
-title: 'Update & Patch Notes — Version History and Changelog'
-description: 'Complete update history and patch notes for Echoes of Aincrad. Every version update, balance changes, new content additions, bug fixes, and developer patch notes from launch through the latest update.'
-keywords: ['patch notes', 'update history', 'version history', 'changelog', 'update log', 'game updates', 'balance changes']
+title: 'Update & Patch Notes — Real Version History for Echoes of Aincrad'
+description: 'The real patch history for Echoes of Aincrad (launched July 9-10, 2026): day-one patch 1.0.3 (combat overhaul), 1.0.4 bugfixes (July 16), and the Expansion DLC roadmap for late 2026. Corrected — an earlier version of this page contained unverified versions and content.'
+keywords: ['echoes of aincrad patch notes', 'aincrad update history', 'aincrad 1.0.3', 'aincrad 1.0.4', 'echoes of aincrad dlc', 'aincrad changelog']
 category: Guides
 version: '1.0'
-updated: '2026-07-27'
+updated: '2026-08-01'
 related:
   - hidden-mechanics
   - game-modes-guide
@@ -15,139 +15,73 @@ related:
 
 ## Patch Notes Overview
 
-This page tracks all official updates, patches, and hotfixes for Echoes of Aincrad. Patch notes are compiled from official developer announcements and community-verified changes. Bookmark this page to stay current with gameplay changes that affect your strategies.
+This page tracks official updates and patch notes for Echoes of Aincrad, compiled from Bandai Namco / Game Studio Inc. announcements and verified community reports. **Correction note:** an earlier version of this page listed versions (1.1.0, "Floors 11–12", a July 25 release) that do not appear in any official source — those were unverified. The real launch and patch history is below.
 
 ---
 
-## Current Version: 1.1.0
+## Current Version: 1.0.4
 
-**Released:** July 25, 2026
-**Patch Size:** ~800 MB
+**Released:** July 16, 2026
 
-### New Content
+The current public build. The game launched **July 9 (Japan) / July 10 (global) 2026** on PS5, Xbox Series X|S, and PC (Steam) at $69.99 (Deluxe $89.99).
 
-- **Boss Rush Mode** — Endgame gauntlet mode unlocked after Floor 10 (see our [Boss Rush Guide](/aincrad/content/guides/boss-rush-mode) for details)
-- **Floor 11-12 Expansion** — Two new floors: The Clockwork Labyrinth (Floor 11) and The Sky Gazebo (Floor 12)
-  - Floor 11 features gear-based puzzles and a new Construct enemy type
-  - Floor 12 is an outdoor zone with wind mechanics that affect projectile Sword Skills
-- **New Weapon EX-Mod: "Lifesteal"** — Available as a rare drop from Boss Rush Wave 4+. Recovers 5% of damage dealt as HP.
+### Patch 1.0.4 — Bugfix Pass (July 16)
 
-### Balance Changes
+The second post-launch patch, focused on bug fixes:
 
-| Change | Before | After | Impact |
-|--------|--------|-------|--------|
-| Greatsword charged attack speed | 2.0s wind-up | 1.6s wind-up | Greatsword DPS increased ~15% |
-| Dagger throw damage scaling | 50% of base | 65% of base | Ranged Dagger more viable |
-| Mace Shield Bash stun duration | 2.0s | 1.5s | Small nerf to Mace lockdown |
-| Two-Handed Axe stamina cost | 25 per swing | 20 per swing | Axe stamina management improved |
-| Parry window (Hard mode) | 0.15s | 0.20s | Hard mode parry slightly more forgiving |
-| Partner revive speed | 8s | 6s | Co-op quality of life improvement |
+- Combat/stability fixes following the day-one overhaul (see 1.0.3 below)
+- Various quest and progression bug fixes reported in the launch week
+- Performance fixes across platforms
 
-### Bug Fixes
-
-- Fixed a bug where the Floor 5 boss could become invisible during phase transitions
-- Fixed EX-Mod "Stamina Reduction" not applying correctly to Two-Handed Axe Spin Attack
-- Fixed a softlock when opening Inventory during the Floor 7 boss cutscene
-- Fixed rapier thrust hitbox extending 0.5m beyond the visual model
-- Fixed text display error in Sword Skill tooltips for Japanese language setting
-- Fixed crash on loading save files created on a different display resolution
-- Fixed partner AI getting stuck on geometry in Floor 4 dungeon stairs
-- Fixed gold duplication exploit involving the Trade interface
+*(Full official changelog detail is thin — we update this page within 48 hours of any official patch announcement.)*
 
 ---
 
-## Version 1.0.3
+## Patch 1.0.3 — Day-One Patch (Combat Overhaul)
 
-**Released:** July 14, 2026
-**Patch Size:** 350 MB
+**Released:** July 10, 2026 (day one)
 
-### Changes
+The most significant patch to date: a **combat overhaul** shipped with launch:
 
-| Type | Detail |
+- **Combat system reworked** — Sword Skill timing, hit feedback, and enemy behavior adjusted from the review/build state
+- Aimed at the launch-window criticism of "weightless" combat and inconsistent boss difficulty
+- Included general stability fixes
+
+This patch is why early reviews and the current build differ — if you read a pre-launch preview's combat complaints, note that 1.0.3 already addressed part of them.
+
+---
+
+## Launch & The Roadmap
+
+| Item | Status |
 |------|--------|
-| Balance | Sword & Shield block stamina cost reduced from 8 to 6 per hit |
-| Balance | Dagger crit rate cap increased from 50% to 55% |
-| Balance | All floor boss HP reduced by 8% (Story mode) |
-| Fix | Fixed infinite combo exploit using Sword Skill cancel |
-| Fix | Fixed audio desync during Floor 3 boss fight |
-| Fix | Fixed save corruption when quitting during auto-save icon display |
-| Quality of Life | Added "Restore Defaults" option to Control Settings |
-| Quality of Life | Increased inventory sorting speed by 40% |
+| Release | July 9 (JP) / July 10 (global) 2026 — PS5, Xbox Series X|S, Steam |
+| Content at launch | Two floors, 6 weapon classes, partner system, demo save carryover |
+| **Expansion DLC** | **Announced for end of 2026** — expected story/floors content; no multiplayer has been announced |
+
+**Reception context (why patch tracking matters here):** Echoes of Aincrad launched to **Mixed reception** — Metacritic user score ~5.8/10, critic aggregate ~52 ("passable action RPG" — IGN; "squandered potential" — Push Square; "strongest SAO game yet" — PCMag). The top criticisms: a 2–5 hour prologue with fetch-quest padding, an empty two-floor world, and a $69.99 price with the Death Game Mode paywalled in the $89.99 Deluxe. See the [FAQ](/faq) for the buy/no-buy breakdown.
 
 ---
 
-## Version 1.0.2
+## FAQ
 
-**Released:** July 5, 2026
-**Patch Size:** 200 MB
+**Q: Is there really a 1.1.0 with Floors 11–12?**
+No — that version and content came from an unverified source and does not exist in official records. The current build is 1.0.4.
 
-### Changes
+**Q: When is the DLC coming?**
+Expansion DLC is announced for **end of 2026**. No date, price, or feature list beyond "expansion content" yet.
 
-| Type | Detail |
-|------|--------|
-| New Feature | Added FOV slider to Display Settings (range: 70-110) |
-| Balance | Reduced Floor 1-3 enemy density by 15% for smoother early game |
-| Balance | Increased Uncanny gear drop rate from 5% to 8% |
-| Fix | Fixed Floor 6 elevator not activating after boss kill |
-| Fix | Fixed multiplayer connection timeout for players in Asia-Pacific region |
-| Fix | Fixed Rapid Fire Sword Skill dealing 50% less damage than tooltip value |
-| Fix | Fixed achievements not triggering for certain quest completions |
-| Performance | Optimized texture streaming on Floor 2 (Crystal Caverns) |
+**Q: Is there multiplayer?**
+No — single-player only (see [Multiplayer Status](/guides/multiplayer-coop-guide)).
+
+**Q: Does my demo save carry over?**
+Yes — demo save data carries into the full game on the same platform.
 
 ---
-
-## Version 1.0.1
-
-**Released:** June 28, 2026
-**Patch Size:** 150 MB
-
-| Type | Detail |
-|------|--------|
-| Balance | Partner healing AI improved — now heals when you drop below 50% HP |
-| Balance | Reduced Floor 5 boss projectile hitbox by 20% |
-| Fix | Fixed crash when using certain Sword Skills near walls |
-| Fix | Fixed text overlap in Korean language UI |
-| Fix | Fixed minor graphical artifacts in Floor 9 skybox |
-| Quality of Life | Keybinding reset now requires confirmation |
-
----
-
-## Version 1.0.0 — Launch
-
-**Released:** June 22, 2026
-
-The launch version of Echoes of Aincrad includes:
-
-- 10 floors of content (Floors 1-10)
-- 6 weapon types with unique Sword Skills
-- 4 game modes (Story, Normal, Hard, Death Game)
-- AI Partner system
-- Full EX-Mod system
-- Complete achievement list
-- Multiplayer co-op support
-
-### Known Issues at Launch
-
-- Occasional frame drops in Floor 9 during heavy particle effects (addressed in 1.0.2)
-- Partner AI may fail to navigate certain tight corridors (partially fixed in 1.0.1)
-- Some EX-Mod descriptions display incorrect values (UI-only issue, mechanics correct)
-
----
-
-## Version History Summary
-
-| Version | Release Date | Key Changes |
-|---------|-------------|-------------|
-| 1.1.0 | July 25, 2026 | Boss Rush Mode, Floors 11-12, Lifesteal EX-Mod |
-| 1.0.3 | July 14, 2026 | Balance tuning, save corruption fix |
-| 1.0.2 | July 5, 2026 | FOV slider, early game balance, crash fixes |
-| 1.0.1 | June 28, 2026 | Partner AI improvement, boss tweaks |
-| 1.0.0 | June 22, 2026 | Launch version |
 
 ## Related Guides
 
-- [Hidden Mechanics Guide](/aincrad/content/guides/hidden-mechanics)
-- [Boss Rush Mode Guide](/aincrad/content/guides/boss-rush-mode)
-- [Game Modes Guide](/aincrad/content/guides/game-modes-guide)
-- [EX-Mod Guide](/aincrad/content/guides/ex-mod-guide)
-- [Tips and Tricks](/aincrad/content/guides/tips-and-tricks)
+- [Hidden Mechanics](/guides/hidden-mechanics) — the deeper systems
+- [Game Modes](/guides/game-modes-guide) — what modes exist at launch
+- [Bosses Guide](/guides/bosses-guide) — current boss roster
+- [EX-Mod Guide](/guides/ex-mod-guide) — the long-term loop

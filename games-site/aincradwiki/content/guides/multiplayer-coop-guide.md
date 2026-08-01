@@ -1,59 +1,85 @@
 ---
-title: 'Multiplayer & Co-op Guide — How to Play Echoes of Aincrad With Friends'
-description: 'Complete multiplayer guide for Echoes of Aincrad. How co-op works, how many players, how to invite friends, co-op boss strategies, and multiplayer rewards.'
-keywords: ['echoes of aincrad multiplayer', 'aincrad co op', 'echoes of aincrad how to play with friends', 'aincrad multiplayer guide', 'echoes of aincrad co op guide']
-category: Multiplayer
+title: 'Echoes of Aincrad Multiplayer Status — Is It Co-op? (Single-Player Only)'
+description: 'Is Echoes of Aincrad multiplayer or co-op? No — it is a single-player-only action JRPG. No co-op, no rooms, no online play. An earlier version of this page described nonexistent co-op modes; this is the correction and the partner system that actually plays alongside you.'
+keywords: ['echoes of aincrad multiplayer', 'aincrad co op', 'is echoes of aincrad multiplayer', 'echoes of aincrad how to play with friends', 'aincrad multiplayer guide', 'aincrad single player']
+category: Guides
 version: '1.0'
-updated: '2026-07-30'
+updated: '2026-08-01'
 related:
+  - pvp-duel-guide
   - beginner-guide
+  - partner-guide
+  - partner-optimization
   - boss-rush-mode
-  - builds-guide
 ---
 
-## Multiplayer Overview
+# Echoes of Aincrad Multiplayer Status — Is It Co-op? (Single-Player Only)
 
-Echoes of Aincrad features both solo and multiplayer content. While the main story is single-player, co-op and PvP modes offer extensive multiplayer experiences.
+**Echoes of Aincrad / Updated: August 1, 2026**
 
-## Co-op Modes
+**Short answer: no.** Echoes of Aincrad is **single-player only**. There is **no co-op, no multiplayer menu, no rooms, no online play** — the game is a solo action JRPG by design, and both the official materials and reviews confirm this.
 
-### Boss Rush Co-op
-- **Players**: Up to 4
-- **Content**: Fight waves of bosses together
-- **Rewards**: Shared boss drops, co-op exclusive materials
-- **Scaling**: Boss HP scales with player count
+**Why this page exists:** an earlier version described co-op Boss Rush, dungeon rooms, and room IDs. None of that exists. If you're deciding whether you can play this with friends, the honest answer is: **you can't** — but the game's [partner system](/guides/partner-guide) gives you an AI companion with its own fighting style, Combination Skills, and Support Skills that fills a similar "someone has my back" role.
 
-### Dungeon Co-op
-- **Players**: 2-3
-- **Content**: Explore randomly generated dungeons
-- **Rewards**: Dungeon-specific gear, rare crafting materials
+---
 
-### How to Play With Friends
-1. Open the **Multiplayer Menu** (default: Escape → Multiplayer)
-2. Select **"Create Room"** or **"Join Room"**
-3. Share the **Room ID** with friends
-4. Select your character and ready up
-5. Host starts the session
+## The Straight Facts
 
-## Multiplayer Character Synergy
+| Question | Answer |
+|----------|--------|
+| Is there co-op? | **No** — single-player only |
+| Is there online play? | **No** — no matchmaking, no lobbies, no multiplayer menu |
+| How do I play with friends? | You can't — but you can compare progress, share builds, and race S-rank clears |
+| "Boss Rush co-op"? | Boss Rush is **single-player** — see the [Boss Rush Guide](/guides/boss-rush-mode) |
+| Demo save? | Yes — demo save data carries into the full game (single-player, same platform) |
 
-| Role | Best Characters | Function |
-|------|----------------|----------|
-| Tank | Shield Build Kirito | Draw aggro, block attacks |
-| DPS | Dual-Wield / Rapier | Maximum damage output |
-| Support | Mage Build | Buffs, ranged damage, AoE |
+**The design reasoning:** Echoes of Aincrad recreates the SAO death game as a *lonely* experience — your partner and the floors are the game. The community's biggest single complaint about this decision is that SAO fans expected an MMO; it is not one.
 
-## Co-op Boss Strategy
+---
 
-1. **Tank initiates** — Shield user goes first and holds aggro
-2. **DPS focuses weak points** — Coordinate burst on boss stagger
-3. **Support heals and buffs** — Keep tank alive during enrage phases
-4. **Revive priority** — Tank first, then DPS, then support
+## The Partner System — Your "Co-op" Replacement
 
-## Multiplayer Rewards
+Since there's no multiplayer, your combat companion is the **partner system**:
 
-| Activity | Rewards |
-|----------|---------|
-| Boss Rush Clear | Boss materials, rare accessories |
-| S-Rank Clear | Legendary crafting components |
-| Co-op Milestones | Exclusive titles, weapon skins |
+- Your **AI partner** has its own fighting style, stats, and gear
+- **Combination Skills** — coordinated attacks you trigger with your partner
+- **Support Skills** — partner buffs/heals during fights
+- Partner choice and optimization is a real build layer: see the [Partner Guide](/guides/partner-guide) and [Partner Optimization](/guides/partner-optimization)
+
+Think of partner selection as the closest thing to team composition the game offers.
+
+---
+
+## What Single-Player Content Exists
+
+- **6 weapons as classes** — Sword & Shield, Two-Handed Axe, Dagger, Rapier, Greatsword, Mace — master all six on one character (see the [Weapons Guide](/guides/weapons-guide))
+- **Two floors at launch** (more via the expansion) — see the [Floor Guide](/guides/floor-guide)
+- **Boss Rush mode** — the endgame gauntlet (see the [Boss Rush Guide](/guides/boss-rush-mode))
+- **EX-Mod crafting** — the long-term min-max loop (see the [EX-Mod Guide](/guides/ex-mod-guide))
+- **Expansion DLC** — announced for end of 2026; multiplayer has not been announced
+
+---
+
+## FAQ
+
+**Q: Can I play Echoes of Aincrad with friends?**
+No. It is single-player only. There is no co-op or online mode of any kind.
+
+**Q: I saw guides about "co-op boss rush" — real?**
+No — those guides (including an earlier version of this one) described content that doesn't exist. The game has no multiplayer features.
+
+**Q: Is there any way to play together?**
+No. The community shares builds, routes and speedrun times instead — see [Speedrun Tips](/guides/speedrun-tips).
+
+**Q: Will the Expansion DLC add multiplayer?**
+Nothing announced. The expansion (end of 2026) is expected to add story/floors; treat multiplayer claims as unconfirmed.
+
+---
+
+## Related Guides
+
+- [PvP & Duel Status](/guides/pvp-duel-guide) — the other half of the "multiplayer?" question
+- [Partner Guide](/guides/partner-guide) — your AI companion
+- [Partner Optimization](/guides/partner-optimization) — building the best partner
+- [Boss Rush Guide](/guides/boss-rush-mode) — the endgame gauntlet
+- [Builds Guide](/guides/builds-guide) — six-weapon build variety
