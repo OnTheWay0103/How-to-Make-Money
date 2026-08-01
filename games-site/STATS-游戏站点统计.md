@@ -1,6 +1,6 @@
 # 游戏攻略站 — 站点统计
 
-> 最后更新：2026-08-01 | 26 站 · ~469 篇攻略
+> 最后更新：2026-08-01 | 26 站 · 600 篇攻略
 
 ---
 
@@ -8,30 +8,30 @@
 
 | # | 站点 | 上线日 | 攻略 | 域名 | Vercel | GA4 | GSC | 备注 |
 |---|------|:--:|:--:|------|:--:|:--:|:--:|------|
-| 1 | Witchspire | 6/29 | 29 | witchspirewiki.vercel.app | ✅ | ✅ | ✅ | 唯一 GitHub 自动部署 |
-| 2 | Mistfall Hunter | 7/01 | 33 | mistfallhunterwiki.vercel.app | ✅ | ✅ | ✅ | 已上线 |
-| 3 | Aincrad | 7/07 | 29 | aincradwiki.vercel.app | ✅ | ✅ | ✅ | |
+| 1 | Witchspire | 6/29 | 44 | witchspirewiki.vercel.app | ✅ | ✅ | ✅ | 8/1 反馈驱动 +3 新 +4 纠错（精灵机制/联机/PvP 造假清理） |
+| 2 | Mistfall Hunter | 7/01 | 46 | mistfallhunterwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 反馈驱动 +1 新（服务器）+2 更新至 1.0 |
+| 3 | Aincrad | 7/07 | 41 | aincradwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 纠错：PvP/联机虚构页重写为诚实页 |
 | 4 | The Mound | 7/14 | 41 | themoundwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 反馈驱动扩容 +3 攻略 |
-| 5 | SpiritVale | 7/12 | 24 | spiritvalewiki.vercel.app | ✅ | ✅ | ✅ | |
+| 5 | SpiritVale | 7/12 | 41 | spiritvalewiki.vercel.app | ✅ | ✅ | ✅ | 8/1 反馈驱动 +3 新 +3 纠错（F2P/拍卖行/Sniper） |
 | 6 | Skills & Raids | 7/15 | 19 | skillsandraidswiki.vercel.app | ✅ | ✅ | ✅ | 7/27 游戏上线 |
 | 7 | MineGeon | 7/20 | 20 | minegeonwiki.vercel.app | ✅ | ✅ | ✅ | 7/28 游戏上线 |
-| 8 | Sephiria | 7/21 | 27 | sephiriawiki.vercel.app | ✅ | ✅ | ✅ | **7/31 1.0 上线** |
-| 9 | DinoBlade | 7/21 | 19 | dinobladewiki.vercel.app | ✅ | ✅ | ✅ | |
+| 8 | Sephiria | 7/21 | 30 | sephiriawiki.vercel.app | ✅ | ✅ | ✅ | **7/31 1.0 上线**；8/1 1.0 纠错 +2 新 +3 重写（虚构内容清理） |
+| 9 | DinoBlade | 7/21 | 23 | dinobladewiki.vercel.app | ✅ | ✅ | ✅ | |
 | 10 | Mystralia | 7/22 | 24 | mystraliawiki.vercel.app | ✅ | ✅ | ✅ | 8/11 EA |
-| 11 | Tears of Metal | 7/23 | 13 | tearsofmetalwiki.vercel.app | ✅ | ✅ | ✅ | 7/22 游戏上线 |
+| 11 | Tears of Metal | 7/23 | 20 | tearsofmetalwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 反馈驱动 +3 新 +2 纠错（英雄名校准） |
 | 12 | Grain Rot | 7/24 | 23 | grainrotwiki.vercel.app | ✅ | ✅ | ✅ | 8/7 游戏上线 |
-| 13 | DragonSword | 7/25 | 15 | dragonswordwiki.vercel.app | ✅ | ✅ | ✅ | 7/22 游戏上线 |
-| 14 | Dwarf Delve | 7/26 | 18 | dwarfdelvewiki.vercel.app | ✅ | ✅ | ✅ | |
-| 15 | Lunarium | 7/26 | 18 | lunariumwiki.vercel.app | ✅ | ✅ | ✅ | |
-| 16 | Taival 🆕 | 7/27 | 15 | taivalwiki.vercel.app | ✅ | ❌ | 🟡 | GA4 待创建 |
-| 17 | Vahrin's Call 🆕 | 7/28 | 10 | vahrinscallwiki.vercel.app | ✅ | ❌ | 🟡 | 7/27 游戏上线，GA4 待创建 |
-| 18 | The Relic 🆕 | 7/28 | 22 | relicfirstguardianwiki.vercel.app | ✅ | ❌ | 🟡 | 7/31 已上线，GA4 待创建 |
-| 19 | Graphite 🆕 | 7/29 | 11 | graphitewiki.vercel.app | ✅ | ❌ | 🟡 | 7/27 游戏上线，GA4 待创建 |
-| 20 | Shift At Midnight 🆕 | 7/29 | 12 | shiftatmidnightwiki.vercel.app | ✅ | ❌ | 🟡 | 7/22 游戏上线，GA4 待创建 |
-| 21 | Moonlight Peaks 🆕 | 7/31 | 12 | moonlightpeakswiki.vercel.app | ✅ | ❌ | 🟡 | 7/7 游戏上线，20万销量，GA4 待创建 |
-| 22 | Bonehold 🆕 | 7/30 | 10 | boneholdwiki.vercel.app | ✅ | ✅ | 🟡 | GA4 已配置，GSC 待验证 |
-| 23 | Phantom Tower 🆕 | 7/30 | 10 | phantomtowerwiki.vercel.app | ✅ | ❌ | 🟡 | GA4 待创建 |
-| 24 | Ardent Wilds 🆕 | 7/31 | 12 | ardentwildswiki.vercel.app | ✅ | ❌ | 🟡 | GA4 待创建 |
+| 13 | DragonSword | 7/25 | 19 | dragonswordwiki.vercel.app | ✅ | ✅ | ✅ | 7/22 游戏上线 |
+| 14 | Dwarf Delve | 7/26 | 22 | dwarfdelvewiki.vercel.app | ✅ | ✅ | ✅ | |
+| 15 | Lunarium | 7/26 | 22 | lunariumwiki.vercel.app | ✅ | ✅ | ✅ | |
+| 16 | Taival 🆕 | 7/27 | 19 | taivalwiki.vercel.app | ✅ | ❌ | 🟡 | GA4 待创建 |
+| 17 | Vahrin's Call 🆕 | 7/28 | 14 | vahrinscallwiki.vercel.app | ✅ | ❌ | 🟡 | 7/27 游戏上线，GA4 待创建 |
+| 18 | The Relic 🆕 | 7/28 | 23 | relicfirstguardianwiki.vercel.app | ✅ | ❌ | 🟡 | 7/31 已上线，GA4 待创建 |
+| 19 | Graphite 🆕 | 7/29 | 15 | graphitewiki.vercel.app | ✅ | ❌ | 🟡 | 7/27 游戏上线，GA4 待创建 |
+| 20 | Shift At Midnight 🆕 | 7/29 | 16 | shiftatmidnightwiki.vercel.app | ✅ | ❌ | 🟡 | 7/22 游戏上线，GA4 待创建 |
+| 21 | Moonlight Peaks 🆕 | 7/31 | 13 | moonlightpeakswiki.vercel.app | ✅ | ❌ | 🟡 | 7/7 游戏上线，20万销量，GA4 待创建 |
+| 22 | Bonehold 🆕 | 7/30 | 11 | boneholdwiki.vercel.app | ✅ | ✅ | 🟡 | GA4 已配置，GSC 待验证 |
+| 23 | Phantom Tower 🆕 | 7/30 | 11 | phantomtowerwiki.vercel.app | ✅ | ❌ | 🟡 | GA4 待创建 |
+| 24 | Ardent Wilds 🆕 | 7/31 | 13 | ardentwildswiki.vercel.app | ✅ | ❌ | 🟡 | GA4 待创建 |
 | 25 | Go-Go Town! 🆕 | 8/01 | 10 | gotownwiki.vercel.app | ✅ | ❌ | 🟡 | 7/16 1.0 上线，93% 好评，GA4 待创建 |
 | 26 | Expeditions: Samurai 🆕 | 8/01 | 12 | expeditionssamuraiwiki.vercel.app | ✅ | ❌ | 🟡 | **20/20 最高分**，8/7 EA 上线，GA4 待创建 |
 
@@ -98,7 +98,7 @@
 | 指标 | 数值 |
 |------|:--:|
 | **总站点数** | 26 |
-| **总攻略数** | ~469 |
+| **总攻略数** | 600 |
 | **Vercel 部署** | 26/26 ✅ |
 | **GA4 配置** | 16/26 ✅ |
 | **Dashboard 注册** | 26/26 ✅ |

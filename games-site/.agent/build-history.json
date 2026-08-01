@@ -412,6 +412,166 @@
       "fixes_applied": [
         "rootDirectory cleared via API before deploy and restored after (documented knownIssue root-directory-double-path)"
       ]
+    },
+    {
+      "game": "SpiritVale",
+      "date": "2026-08-01",
+      "genre": "Class-based MMORPG (buy-to-play EA)",
+      "template": "spiritvalewiki (Coordinator agent, feedback-driven expansion)",
+      "mode": "expand (feedback-driven)",
+      "guidesAdded": 3,
+      "guides": 41,
+      "deployed": true,
+      "issues": [
+        "Highest-PV site (3683 PV) had critical fact errors: FAQ claimed free-to-play (real: $14.99 buy-to-play), denied the Auction Hall exists, listed a nonexistent 'Sniper' class (real: Gunslinger; special class is Weaver), described a main quest line that doesn't exist, and claimed solo can clear all content (community consensus: solo is rough after early game)"
+      ],
+      "lessons": [
+        "Fact-correction work outranks new content on high-PV sites — beginners landing on wrong F2P/class info lose trust in the whole wiki",
+        "New guides answered the biggest real searches: connection/server guide (launch rollback timeline, NA-server advice), solo-party guide (honest solo limits + Paladin #1, Discord LFG), updates-patch-notes (0.30.0, Auction Hall rework timeline)",
+        "beginner-guide rewritten around the real opening (Waystone from Waybinder, Fast Casting, Novice Set farming, ASPD 193 cap, element chart) — no fake main quest",
+        "class-tier-list rewritten with community consensus (Summoner 'extremely OP', Warrior S, Acolyte bottom solo) + EA balance-churn warning",
+        "Deploy needed the rootDirectory clear/restore workaround (documented knownIssue root-directory-double-path)"
+      ],
+      "fixes_applied": [
+        "faq-content: F2P->buy-to-play, Auction Hall exists (down for rebuild), Sniper->Gunslinger, solo->partial, no-wipe promise added",
+        "class-tier-list: Sniper/Gunslinger/Weaver corrections",
+        "home-content quick-nav +3 new guides"
+      ]
+    },
+    {
+      "game": "Sephiria",
+      "date": "2026-08-01",
+      "genre": "Action Roguelite (1.0 launched 7/31)",
+      "template": "sephiriawiki (Coordinator agent, 1.0 fact-correction)",
+      "mode": "expand (feedback-driven, delta)",
+      "guidesAdded": 2,
+      "guides": 30,
+      "deployed": true,
+      "issues": [
+        "Existing 1.0 guides were almost entirely fabricated: 'Chapter 7 Astral Vault', 'Tome/Greatsword weapons (8 total)', 'Corruption System', 'Infinite Mode', wrong developer 'Sephiria Studio' (real: TEAM HORAY), wrong EA timeline (real: April 2025, 484 days, 58 updates), invented boss/chapter names"
+      ],
+      "lessons": [
+        "1.0-launch coverage is a trust race: the wiki was the only '1.0 guide' source — fabricated facts (fake weapons, fake chapter) destroyed its credibility vs the real patch records",
+        "Rewrote full-release-guide + weapons-tier-list to real 1.0 content (final Chapter 6 + ending, 6 weapons/200+ upgrades, Side Bag, Mystic Pot rework, Hard Mode to 60, 1.0.21 hotfix)",
+        "New chapter-6-final-boss-guide (real ending content, 1.0.21 telegraphing/blocking changes) and multiplayer-connection-fix-guide (ping spikes, desync, player.log submission path)",
+        "FAQ corrected: TEAM HORAY, EA timeline, 6 weapons, EA save carryover official answer (7/9 announcement) vs the conflicting 1.0.19 summary line",
+        "No rootDirectory workaround needed (project had none set) — deployed directly"
+      ],
+      "fixes_applied": [
+        "full-release-guide rewrite (removed fabricated Chapter 7/Tome/Infinite Mode)",
+        "weapons-tier-list rewrite (real 6-weapon roster + 1.0 balance patch details)",
+        "faq-content fact fixes (developer, timeline, weapon count, save carryover)",
+        "home-content quick-nav +2 new guides"
+      ]
+    },
+    {
+      "game": "Tears of Metal",
+      "date": "2026-08-01",
+      "genre": "Co-op Action Roguelike (EA)",
+      "template": "tearsofmetalwiki (Coordinator agent, feedback-driven expansion)",
+      "mode": "expand (feedback-driven)",
+      "guidesAdded": 3,
+      "guides": 20,
+      "deployed": true,
+      "issues": [
+        "Whole site used invented hero names (Vanguard/Berserker/Marksman, 160 occurrences) — real heroes are Wallace (longsword), Brienne (unarmed), Ruadh Stonecrusher (giant hammer); every real-name search was unreachable",
+        "boss-guide/boss-strategies also use self-named bosses; real confirmed bosses (Gilles the Hog, Iseult the Banshee) uncovered"
+      ],
+      "lessons": [
+        "Hero/class naming accuracy is the #1 search-reachability fix for new-game wikis — corrected heroes-tier-list + beginner-guide hero section with real roster",
+        "New guides hit the biggest active pain points: threat-level-difficulty-guide (why clearing maps makes the game harder — the 'self-destructive loop'), save-system-guide (#1 community request, no mid-campaign saves yet + save recovery system), multiplayer-connection-fix-guide (dev-confirmed desync #2 priority, host choice, crossplay)",
+        "92% Very Positive game = 'mechanic explanation + decision' traffic, not rescue traffic",
+        "RootDirectory workaround applied for deploy"
+      ],
+      "fixes_applied": [
+        "heroes-tier-list rewritten with real heroes + honest skill-floor ratings",
+        "beginner-guide hero selection section corrected (Wallace recommended starter)",
+        "home-content quick-nav +3 new guides"
+      ]
+    },
+    {
+      "game": "Witchspire",
+      "date": "2026-08-01",
+      "genre": "Co-op Survival RPG (EA 0.1.4)",
+      "template": "witchspirewiki (Coordinator agent, feedback-driven expansion)",
+      "mode": "expand (feedback-driven)",
+      "guidesAdded": 3,
+      "guides": 44,
+      "deployed": true,
+      "issues": [
+        "all-familiars-guide had completely wrong bonding mechanics (capture orbs / weaken-to-30% / press Q — real mechanic is kill -> spirit lingers -> hold F) plus invented familiar names (Emberpuff/Sproutling vs real Rockling/Quol/Locto/Bril/Fien...)",
+        "pvp-guide.md described nonexistent PvP modes (game has NO PvP) with wrong coven names; tier-list.md same fabricated source",
+        "coop-multiplayer-guide described a nonexistent in-game Session Code system (real flow: Steam friends list invite); all guides frozen at v0.1.1d while game was at 0.1.4"
+      ],
+      "lessons": [
+        "Very Positive EA game = 'guide-demand' traffic; the #1 search cluster (familiar taming, 8+ competitor guides) was covered by wrong mechanics — rewriting to the real kill->spirit->hold F loop plus incense table (0.1.4 duration buffs) + Spirit Charmer/Luck/Foretellers modifiers",
+        "Freshness is credibility for EA wikis: new patch-notes-updates page tracks 0.1.0h->0.1.4 + 2027 roadmap; all guides now version-stamped 0.1.4",
+        "Fabricated pages (PvP, tier list) rewritten as honest pages — 'Is there PvP? No' answers the searcher truthfully and preserves the slug",
+        "coop-troubleshooting-guide covers the real friction points: server-side chests, world-bound characters, host requirements, version matching, desync status",
+        "RootDirectory workaround applied for deploy"
+      ],
+      "fixes_applied": [
+        "familiar-taming-guide (new) + all-familiars-guide rewritten with real roster and crafting-station roles",
+        "patch-notes-updates (new) — 0.1.4 changelog + roadmap (A Touch of Magic -> Frozen Tundra -> Throne of Corruption)",
+        "coop-troubleshooting-guide (new) + coop-multiplayer-guide invite flow corrected to Steam-friends model",
+        "tier-list rewritten with real covens (Cloudpiercers/Starsmiths/Foretellers/Wildroots/Tomekeepers/Nightscribes), pvp-guide rewritten as honest PvP-status page",
+        "home-content quick-nav +4 guides"
+      ]
+    },
+    {
+      "game": "Mistfall Hunter",
+      "date": "2026-08-01",
+      "genre": "PvPvE Extraction ARPG (1.0, day-one Game Pass)",
+      "template": "mistfallhunterwiki (Coordinator agent, feedback-driven expansion)",
+      "mode": "expand (feedback-driven)",
+      "guidesAdded": 1,
+      "guides": 46,
+      "deployed": true,
+      "issues": [
+        "patch-notes was stuck at Playtest 0.7.2 (July 20) — 3 versions behind (1.0 release + July 30 day-one hotfix)",
+        "solo-play-guide written pre-launch: missed the biggest post-launch controversy (second map is trio-only, no Duo queue)",
+        "home-content.md still contained Witchspire template residue (title/description/full content were Witchspire's)"
+      ],
+      "lessons": [
+        "48-hour-release-window content wins: server-regions-ping-guide (new) captures the #1 complaint (no OCE/EU server, 120-180ms, stuck-at-queue fixes, client-vs-server diagnosis) — highest search intent at launch",
+        "patch-notes updated to 1.0 + day-one hotfix (Withered Knight buffs, Soul of Return fix, console reconnect) with version history table; solo-play-guide updated with trio-only map reality + post-launch class ratings (Withered Knight A, Sorcerer B)",
+        "Residue scan matters: mistfallhunterwiki (and aincradwiki) home-content.md were Witchspire-branded copies — rewritten with correct game facts",
+        "RootDirectory workaround applied for deploy"
+      ],
+      "fixes_applied": [
+        "server-regions-ping-guide (new) — regions, queue fixes, client/server diagnosis table",
+        "patch-notes -> 1.0 + hotfix; solo-play-guide -> trio-only lockout + 1.0 class ratings",
+        "home-content.md rewritten (was Witchspire residue) + quick-nav"
+      ]
+    },
+    {
+      "game": "Echoes of Aincrad",
+      "date": "2026-08-01",
+      "genre": "Single-player Action JRPG (SAO)",
+      "template": "aincradwiki (Coordinator agent, fabrication cleanup)",
+      "mode": "expand (feedback-driven)",
+      "guidesAdded": 0,
+      "guides": 41,
+      "deployed": true,
+      "issues": [
+        "pvp-duel-guide described a ranked PvP arena with MMR/seasonal rewards — the game is single-player only and has NO PvP",
+        "multiplayer-coop-guide described co-op rooms, boss-rush co-op and room IDs — NO multiplayer exists in the game",
+        "update-patch-notes claimed a June 22 launch and a 1.1.0 with Floors 11-12 — no official source shows these; real launch was July 9-10 with 1.0.3 (day-one combat overhaul) and 1.0.4 (July 16)",
+        "home-content.md still contained Witchspire template residue"
+      ],
+      "lessons": [
+        "'Is it multiplayer?' is a real high-volume query for this game (SAO fans expected an MMO) — answering it honestly captures the search rather than feeding a fake guide to searchers",
+        "Rewrote both fabricated pages as honest status pages (PvP: no; Multiplayer: no, single-player only, partner system is the replacement) — same slug, search equity kept, trust restored",
+        "update-patch-notes rewritten to the real 1.0.3/1.0.4 history + Expansion DLC (end of 2026) roadmap",
+        "home-content.md rewritten with correct game facts + full quick-nav",
+        "RootDirectory workaround applied for deploy"
+      ],
+      "fixes_applied": [
+        "pvp-duel-guide -> honest 'Is There PvP?' page",
+        "multiplayer-coop-guide -> honest single-player status + partner system page",
+        "update-patch-notes -> real 1.0.3/1.0.4 history",
+        "home-content.md rewritten (was Witchspire residue)"
+      ]
     }
   ],
   "knownIssues": [
