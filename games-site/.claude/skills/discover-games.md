@@ -20,7 +20,9 @@ WebSearch "Roblox most popular games 2026 concurrent"
 
 ```
 跳过：AAA / 纯竞技 / 超休闲 / 视觉小说 / 已停服
+跳过：发售超过 6 个月的老游戏（无重大更新时）
 标记：RPG / 动作 / 生存 / 合作 / 恐怖 / 提取 / Roguelite
+优先：最近 6 个月内发售 / 即将发售
 ```
 
 ## Step 3: Wiki 检查（Top 5 候选）
