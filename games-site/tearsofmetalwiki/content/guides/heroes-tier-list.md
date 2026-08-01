@@ -1,198 +1,121 @@
 ---
-title: "Tears of Metal Heroes Tier List — Vanguard, Berserker, and Marksman Ranked for Solo and Co-op"
-description: "Complete Tears of Metal hero tier list ranking Vanguard, Berserker, and Marksman. Best emblems, artifacts, and co-op roles for each class with solo and team ratings."
-keywords: ["Tears of Metal hero tier list", "Tears of Metal best hero", "Tears of Metal Vanguard", "Tears of Metal Berserker", "Tears of Metal Marksman rankings"]
-updated: "2026-07-23"
+title: "Tears of Metal Heroes Tier List — Wallace, Brienne & Ruadh Stonecrusher Ranked"
+description: "Tears of Metal hero tier list for the real launch roster: Wallace (longsword), Brienne (unarmed fast attack), and Ruadh Stonecrusher (giant hammer). Best hero for solo, co-op roles, skill floor, and which hero new players should pick."
+keywords: ["Tears of Metal best hero", "Tears of Metal hero tier list", "Tears of Metal Wallace build", "Tears of Metal Brienne", "Tears of Metal Ruadh Stonecrusher", "which hero should I play Tears of Metal"]
+updated: "2026-08-01"
 ---
 
-# Tears of Metal Heroes Tier List — Vanguard, Berserker, and Marksman Ranked
+# Tears of Metal Heroes Tier List — Wallace, Brienne & Ruadh Stonecrusher Ranked
 
-> **Applies to Early Access v1.0 / Updated: July 23, 2026**
+> **Applies to Early Access v1.0 / Updated: August 1, 2026**
 
-With three heroes in Tears of Metal, choosing the right one for your playstyle and party composition makes a significant difference. This tier list ranks all three heroes based on solo viability, co-op performance, skill floor, and endgame potential.
+**Correction first:** Tears of Metal launches with **three real heroes — Wallace (longsword), Brienne (unarmed fast attacks), and Ruadh Stonecrusher (giant hammer)**. Early guides (including this site's older pages) described "Vanguard," "Berserker," and "Marksman" — those names don't exist in the game, and searching them was unreachable. This page uses the real roster.
+
+With three heroes, your pick matters mostly for feel and role. This list ranks them for solo viability, co-op performance, and skill floor — and gives new players a clear first pick.
 
 ---
 
 ## Tier Ranking Overview
 
-| Tier | Hero | Solo Rating | Co-op Rating | Overall |
-|------|------|-------------|--------------|---------|
-| **S** | Vanguard | 9/10 | 9/10 | **Best overall** |
-| **A** | Berserker | 7/10 | 8/10 | **Best DPS** |
-| **B** | Marksman | 5/10 | 8/10 | **Co-op specialist** |
+| Tier | Hero | Weapon | Solo | Co-op | Verdict |
+|------|------|--------|:--:|:--:|---------|
+| **S** | **Wallace** | Longsword | 9/10 | 9/10 | **Best all-rounder** — the community and media default pick; forgiving and strong everywhere |
+| **A** | **Ruadh Stonecrusher** | Giant hammer | 8/10 | 8/10 | Highest raw damage and stagger; slower, positioning-heavy |
+| **A** | **Brienne** | Unarmed (fast attacks) | 7/10 | 8/10 | Fast and flashy; the highest skill floor of the three |
 
 ---
 
-## S-Tier: Vanguard
+## S-Tier: Wallace (Longsword)
 
-The Vanguard is the strongest hero in Tears of Metal for both solo and co-op play. Wielding a massive claymore with heavy armor, this hero has the best balance of survivability, damage, and crowd control in the game.
+Wallace is the best first pick for nearly everyone. His longsword kit is the most balanced in the game — solid damage, decent reach, reliable block/parry timing — and he plays well solo and in every co-op role.
 
 ### Strengths
-- **Highest base health** — Can survive 3-4 extra hits compared to other heroes
-- **Best crowd control** — Heavy attacks and slam abilities clear groups efficiently
-- **Forgiving defense** — Block and parry mechanics are generous with proper timing
-- **Excellent solo carry** — Can clear all three acts without co-op support
-- **Choke point king** — Wide swings dominate doorways and narrow passages
+- **Most forgiving defensive timing** — the parry/block rhythm is the easiest to learn
+- **No bad matchups** — works against swarms and captains alike
+- **Best solo carry** — a Wallace player can clear all three acts alone
+- **Great co-op anchor** — never the weak link in a 4-stack
 
 ### Weaknesses
-- **Slow movement** — Cannot dodge as frequently as Berserker or Marksman
-- **Low attack speed** — Slow wind-up on heavy attacks leaves you vulnerable
-- **Limited ranged option** — No crossbow; must close distance to deal damage
-- **Stamina hungry** — Blocking and heavy attacks drain stamina quickly
+- **No unique gimmick** — specialists outshine him in their niche
+- **Average everything** — no big numbers without artifacts
 
-### Best Emblems
+### Best Emblems (recommended start)
 | Emblem | Why |
 |--------|-----|
-| Physical Damage | Direct multiplier for all claymore attacks |
-| Critical Strike | Burst potential against high-HP enemies |
-| Regen | Sustains through extended fights without healing consumables |
+| Physical Damage | Direct multiplier for longsword attacks |
+| Critical Strike | Burst against high-HP captains |
+| Regen | Sustains through fights without healing consumables |
 
-### Best Artifacts
-
-The Vanguard's artifact priority is: **survivability > damage > utility**.
-
-1. Ironheart Pauldrons — +15% damage reduction (any rarity, prioritize getting this)
-2. Warlord's Medallion — +25% health, clutch low-HP damage bonus
-3. Stag Helm — +10% block efficiency for stamina management
-4. Bloodied Claymore Grip — +20% claymore damage
-5. Highland Stone — +12% physical damage and move speed
-
-### Co-op Role
-
-**Main Tank / Frontline Initiator**
-
-In co-op, the Vanguard's job is to hold enemy aggro, control chokepoints, and create openings for the Berserker and Marksman to deal damage. Use heavy attacks to stagger groups, then signal your team to move in.
-
-Recommended co-op composition: Vanguard + 2 Berserkers + 1 Marksman. See our [Co-op Guide](/guides/co-op-guide) for detailed team strategies.
+### Best Artifact Priority
+**Survivability > damage > utility.** Prioritize damage reduction and health artifacts first; stacking raw damage without survival is how The Scar eats new players (see the [Threat Level & Difficulty Guide](/guides/threat-level-difficulty-guide)).
 
 ---
 
-## A-Tier: Berserker
+## A-Tier: Ruadh Stonecrusher (Giant Hammer)
 
-The Berserker is the highest raw damage dealer in Tears of Metal, dual-wielding fast weapons that stack elemental effects rapidly. This hero melts bosses but requires careful positioning to survive.
+The heavy-hitter. Ruadh trades speed for the game's highest stagger potential — captains that would combo other heroes get knocked around instead.
 
 ### Strengths
-- **Highest DPS** — Fast attack speed means more damage per second than any other hero
-- **Best emblem application** — Each hit can trigger emblem effects; fast attacks = more procs
-- **Fast stamina recovery** — Can dodge and attack more frequently than Vanguard
-- **Excellent boss killer** — Burn, bleed, and elemental effects stack faster than any other hero
-- **High skill ceiling** — Masterful players can solo all three acts with good positioning
+- **Best stagger/CC** — interrupts captain attacks outright
+- **Highest single-hit damage** — great with emblems that trigger per-hit
+- **Excellent vs bosses** — stagger chains shut down boss patterns (Gilles the Hog, Iseult the Banshee)
 
 ### Weaknesses
-- **Lowest base armor** — Dies in 2-3 hits if caught in a bad position
-- **No blocking** — Berserker cannot block; must rely entirely on dodge rolls
-- **High aggro draw** — Enemies prioritize the highest-DPS target
-- **Punishing for mistakes** — A single missed dodge in Act 3 can end a run
-- **Struggles with groups** — Low cleave means you must fight enemies one at a time
+- **Slow wind-ups** — punished hard by the elite-heavy late regions
+- **Positioning-critical** — whiffing a hammer swing is expensive
 
-### Best Emblems
-| Emblem | Why |
-|--------|-----|
-| Fire | Burn stacks apply fast and scale with attack speed |
-| Critical Strike | High attack speed means more crit chances |
-| Lightning | Chain damage helps with group clear weakness |
-
-### Best Artifacts
-
-The Berserker's artifact priority is: **damage > attack speed > sustainability**.
-
-1. Dragon Stone Fragment — +30% fire damage, attacks apply burn (mandatory for fire build)
-2. Ember-Touched Bracers — +20% attack speed while burning
-3. Berserker's Chain — +12% damage when below 50% stamina
-4. Phoenix Feather — Burn heals 2% HP/tick (solves sustain problems)
-5. Obsidian Edge — +18% elemental damage
-
-### Co-op Role
-
-**Single-Target DPS / Flanker**
-
-In co-op, the Berserker focuses on the highest-threat enemy while the Vanguard holds the rest. Position behind the enemy during boss fights to avoid cleave attacks. Let the Marksman handle crowd clear while you burn down the boss.
+**Pick Ruadh if:** you want to boss-rush or play the team's "front door" in co-op.
 
 ---
 
-## B-Tier: Marksman
+## A-Tier: Brienne (Unarmed, Fast Attacks)
 
-The Marksman is a ranged specialist with excellent co-op utility but significant weaknesses in solo play. This hero provides consistent damage from a distance and excels at emblem application, but struggles when enemies close range.
+The speedster. Brienne's unarmed kit is the fastest in the game — a machine-gun of hits that stacks per-hit effects absurdly well.
 
 ### Strengths
-- **Safest DPS** — Attack from range; never need to trade hits
-- **Best emblem proccer** — Each crossbow bolt can trigger emblem effects; best at applying Freeze
-- **Best crowd control** — Freeze and Lightning emblems shine at range
-- **Excellent co-op support** — Can cover for melee teammates with suppressing fire
-- **Low stamina dependency** — Primarily uses crossbow, not melee
+- **Fastest attack rate** — best per-hit artifact/emblem synergy
+- **Excellent mobility** — dodges between combos like no one else
+- **Great in co-op** — safe to keep the pressure up while Wallace/Ruadh hold the line
 
 ### Weaknesses
-- **Weak solo performance** — Enemies close distance too fast; kiting is unreliable in confined spaces
-- **Low burst damage** — Consistent damage but limited spike potential
-- **Vulnerable in corridors** — Tight spaces negate your range advantage
-- **Slow reload** — Misses are punishing; each shot matters
-- **Requires team support** — Co-op is strongly recommended for this hero
+- **Short range** — must close distance; swarms hurt more
+- **Highest skill floor** — new players die more with Brienne before they learn the rhythm
+- **Lower burst** — DPS is steady, not spiky
 
-### Best Emblems
-| Emblem | Why |
-|--------|-----|
-| Freeze | Slows advancing enemies; locks bosses in place |
-| Lightning | Chain damage against groups of ranged enemies |
-| Corruption | Bonus damage against Act 3 enemies (Corruption Zone) |
-
-### Best Artifacts
-
-The Marksman's artifact priority is: **emblem trigger > mobility > damage**.
-
-1. Emblem-Weaver's Focus — +25% emblem trigger chance (core artifact)
-2. Storm-Chaser's Quiver — Lightning on crit for extra chain damage
-3. Boots of the Wind — +20% dodge distance for kiting
-4. Frozen Tear — +20% freeze duration
-5. Sage's Monocle — +15% emblem damage
-
-### Co-op Role
-
-**Ranged Support / Crowd Control**
-
-In co-op, the Marksman freezes approaching enemies, picks off ranged threats, and applies emblem effects to soften targets for the Berserker. Never be the primary aggro target. Stick behind your Vanguard and shoot over their shoulder.
+**Pick Brienne if:** you have musou/fighting-game experience or want the fastest clear speeds after mastering her.
 
 ---
 
-## Hero Comparison Table
+## Which Hero Should a New Player Pick?
 
-| Attribute | Vanguard | Berserker | Marksman |
-|-----------|----------|-----------|----------|
-| Base Health | High | Medium | Low |
-| Base Armor | High | Low | Medium |
-| Attack Speed | Slow | Very Fast | Medium |
-| Damage per Hit | High | Medium | Medium |
-| Block Available | Yes | No | No |
-| Dodge Stamina Cost | High | Low | Medium |
-| Best Emblem | Physical/Crit | Fire/Crit | Freeze/Lightning |
-| Best Act | Act 1 (chokepoints) | Act 2 (single targets) | Act 3 (kiting) |
-| Beginner Friendly | Yes | No | No |
+| Situation | Pick |
+|-----------|------|
+| First-ever run | **Wallace** — the game's own "learning hero" |
+| Solo player | **Wallace** (all-round) or **Ruadh** (if you like heavy hits) |
+| Co-op with friends | **Brienne** (pressure) + **Wallace** (anchor) + **Ruadh** (stagger) — one of each is the classic 3-stack |
+| Boss rushing | **Ruadh Stonecrusher** |
+| Speed/grind runs | **Brienne** |
+
+**The honest caveat:** with only 3 heroes at EA launch, the tier list is short by design. Content variety ("only 3 heroes") is the community's main long-term worry — the developer's roadmap promises more heroes in future updates (see [Patch Notes & Roadmap](/guides/patch-notes)).
 
 ---
 
-## Which Hero Should You Pick?
+## FAQ
 
-### Pick Vanguard If...
-- This is your first Tears of Metal run
-- You plan to play solo
-- You prefer a tanky, forgiving playstyle
-- You want to lead your team in co-op
+**Q: Are there really only 3 heroes?**
+Yes — Wallace, Brienne, and Ruadh Stonecrusher at EA launch. Paper Cult has confirmed more heroes are planned for the EA cycle.
 
-### Pick Berserker If...
-- You have experience with action roguelikes
-- You enjoy high-risk, high-reward gameplay
-- You want to see the biggest damage numbers
-- You have good positioning instincts
+**Q: I keep seeing "Vanguard" builds online. What gives?**
+Those guides predate/copy misreported information. The real hero with the "vanguard-like" defensive longsword kit is **Wallace**.
 
-### Pick Marksman If...
-- You play exclusively in co-op
-- You prefer ranged combat
-- You want to support your team with crowd control
-- You have teammates who can tank for you
+**Q: Does the tier list change with patches?**
+Yes — EA balance shifts fast. We version-stamp this page and update after major patches (see [Patch Notes & Roadmap](/guides/patch-notes)).
 
 ---
 
 ## Related Guides
 
-- [Best Builds for Every Hero](/guides/best-builds)
-- [Co-op Guide: Team Composition and Strategy](/guides/co-op-guide)
-- [Beginner Guide: First Expedition Tips](/guides/beginner-guide)
+- [Threat Level & Difficulty Guide](/guides/threat-level-difficulty-guide) — why late game is brutal and how to survive it
+- [Best Builds](/guides/best-builds) — artifact/emblem combos
+- [Boss Guide](/guides/boss-guide) — Gilles the Hog, Iseult the Banshee and more
+- [Patch Notes & Roadmap](/guides/patch-notes) — the 10万-sales update and planned heroes

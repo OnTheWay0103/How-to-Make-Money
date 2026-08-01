@@ -15,21 +15,23 @@ Starting your first expedition in Tears of Metal can feel overwhelming. Three he
 
 ## Choosing Your First Hero
 
-Your first hero choice matters because early progression is about learning mechanics, not optimizing DPS. Here is how the three options stack up for a new player:
+> **Correction:** Tears of Metal's three launch heroes are **Wallace (longsword), Brienne (unarmed fast attacks), and Ruadh Stonecrusher (giant hammer)**. Earlier guides here used "Vanguard/Berserker/Marksman" — those names do not exist in the game.
 
-| Hero | Difficulty | Best For | Recommendation |
-|------|-----------|----------|----------------|
-| Vanguard | Easy | Learning combat fundamentals | **Best for first run** |
-| Berserker | Medium | Aggressive playstyle | Adept+ players |
-| Marksman | Hard | Ranged preference | Co-op only |
+Your first hero choice matters because early progression is about learning mechanics, not optimizing DPS. Here is how the three real heroes stack up for a new player:
 
-### Why Vanguard is the Best Starter
+| Hero | Weapon | Difficulty | Best For | Recommendation |
+|------|--------|-----------|----------|----------------|
+| **Wallace** | Longsword | Easy | Learning combat fundamentals | **Best for first run** |
+| **Ruadh Stonecrusher** | Giant hammer | Medium | Heavy hits, boss stagger | Adept+ players |
+| **Brienne** | Unarmed | Hard | Fast combos, per-hit builds | Experienced players |
 
-The **Vanguard** wields a massive claymore and has the highest base health and armor of all three heroes. Their kit includes a block/parry mechanic and a crowd control slam that creates space when you get surrounded. This gives you room to learn enemy attack patterns without dying to a single mistake.
+### Why Wallace is the Best Starter
 
-If you prefer ranged combat, save **Marksman** for co-op runs — it struggles solo because enemies close distance faster than you can kite. **Berserker** is excellent once you understand positioning but its low durability punishes new players harshly.
+**Wallace** wields a balanced longsword with the most forgiving block/parry timing of the three heroes. His kit covers crowd control and defense without requiring perfect positioning, which gives you room to learn enemy attack patterns without dying to a single mistake.
 
-See our [Heroes Tier List](/guides/heroes-tier-list) for detailed breakdowns of each class.
+If you want the game's hardest hits, **Ruadh Stonecrusher's** hammer stagger will feel great once you learn his slow wind-ups. **Brienne** is the fastest and flashiest, but her short range and high skill floor punish new players harshly — save her for your second character.
+
+See our [Heroes Tier List](/guides/heroes-tier-list) for detailed breakdowns of each hero.
 
 ---
 
