@@ -13,14 +13,14 @@
                           │     每天 07:07 / 22:07     │
                           └─────┬──────────┬──────────┘
                                 │          │
-        ┌───────────────────────┼──────────┼────────────────┐
-        │                       │          │                │
-        ▼                       ▼          ▼                ▼
-┌──────────────┐   ┌──────────────┐   ┌──────────────┐   ┌──────────────┐
-│ 🔍 侦察Agent │   │ 🔑 关键词Agent│   │ 🏗️ 建站Agent │   │ 📊 监控Agent │
-│ (discover)    │   │ (keywords)   │   │ (builder)     │   │ (monitor)    │
-│ 搜索新游戏     │   │ 关键词调研    │   │ 新建站+补充内容 │   │ PV分析+标记   │
-└──────────────┘   └──────────────┘   └──────────────┘   └──────────────┘
+        ┌───────────┬───────────┼──────────┼───────────┬───────────┐
+        │           │           │          │           │           │
+        ▼           ▼           ▼          ▼           ▼           ▼
+┌──────────┐ ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌──────────┐
+│🔍侦察Agent│ │🔑关键词Agt│ │🏗️建站Agent│ │📊监控Agent│ │🎤反馈Agent│
+│(discover) │ │(keywords)│ │(builder) │ │(monitor) │ │(feedback)│
+│搜索新游戏  │ │关键词调研 │ │建站+补充  │ │PV分析标记 │ │玩家评论   │
+└──────────┘ └──────────┘ └──────────┘ └──────────┘ └──────────┘
 ```
 
 ### Agent 角色一览
@@ -32,6 +32,7 @@
 | 🔑 关键词 | `harvest-keywords` | Google Suggest 关键词收割 | 主管按需调用 |
 | 🏗️ 建站 | `build-game-site` | 新站创建 + 已有站内容补充 | 主管按需调用 |
 | 📊 监控 | `monitor-performance` | 读取 PV、标记重点站 | 主管每天调用 |
+| 🎤 反馈 | `analyze-player-feedback` | Reddit+Steam 评论分析，找内容缺口 | 主管按需调用 |
 
 ---
 
@@ -55,6 +56,7 @@ Agent 之间通过共享文件系统通信，不需要进程间通信：
 | `STATS-游戏站点统计.md` | 主管 / 建站 / 监控 | 全部 Agent |
 | `.agent/build-history.json` | 建站 / 主管 | 主管 / 监控 |
 | `keyword-results/*.md` | 关键词 Agent | 建站 Agent |
+| `keyword-results/*-feedback.md` | 反馈 Agent | 主管 / 建站 Agent |
 | `.agent/candidate-pool.md` | 侦察 Agent | 主管 |
 | `dashboard/lib/sites.ts` | 建站 Agent | 主管 / 监控 |
 
@@ -232,6 +234,35 @@ Cleanup Gate (收尾):
 ```
 
 **输出**: PV 分级 + 内容补充建议
+
+---
+
+### 3.6 🎤 反馈 Agent (analyze-player-feedback)
+
+**触发**: 主管按需调用
+
+**三种模式**:
+
+| 模式 | 触发时机 | 搜索深度 | 用途 |
+|------|------|------|------|
+| **quick** | 新站建站时 | 3 轮搜索 | 定首发内容优先级 |
+| **deep** | 发售后 1-2 周 / PV 好的站 | 6 轮搜索 | 找内容缺口 |
+| **delta** | 游戏大更新后 | 限最近 30 天 | 增量更新建议 |
+
+**数据源**:
+- Reddit: `site:reddit.com {game} ("stuck" OR "help" OR "can't beat")`
+- Steam Reviews: `site:store.steampowered.com {game} review`
+
+**流程**:
+```
+1. 并行搜索 Reddit (3 组查询) + Steam (2 组查询)
+2. AI 定性分析: 痛点 Top 5 + 情绪摘要
+3. 关键步骤: 玩家语言 → 搜索语言 翻译
+4. 对比站点现有攻略 → 找缺口
+5. 输出内容建议 (P0/P1/P2)
+```
+
+**输出**: `keyword-results/{GameName}-feedback.md` — 内容缺口报告
 
 ---
 

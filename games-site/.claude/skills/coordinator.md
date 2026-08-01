@@ -18,7 +18,9 @@ description: 🧠 主管 Agent — 每天定时运行，读取状态、调度子
   │
   ├─ 候选池空? → 调度 侦察Agent 搜索新游戏
   │
-  ├─ 候选有分 ≥ 15? → 调度 关键词Agent → 建站Agent(new)
+  ├─ 候选有分 ≥ 15? → 调度 反馈Agent(quick) + 关键词Agent → 建站Agent(new)
+  │
+  ├─ 重点站 (⭐+) 且 距上次反馈分析 > 14天? → 调度 反馈Agent(deep)
   │
   ├─ 重点站内容 < 25 篇? → 调度 建站Agent(expand)
   │
