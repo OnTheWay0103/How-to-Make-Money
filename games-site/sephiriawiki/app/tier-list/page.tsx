@@ -2,27 +2,32 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Weapon & Relic Tier List',
-  description: 'Sephiria weapon and relic tier list — best weapon rankings for solo, DPS, and beginner play. S-tier to C-tier rankings for all 6 weapon types and top relics.',
+  description: 'Sephiria weapon and relic tier list — Sword & Shield, Greatsword, Dagger, Katana, Crossbow and Staff ranked for solo, co-op and beginner play. S-tier to C-tier rankings for all 6 weapon types and top relics.',
 };
 
 const WEAPON_TIERS = [
-  { tier: 'S', weapons: ['Sword', 'Bow'], note: 'Sword for reliability and self-healing. Bow for safe ranged DPS and status effects.' },
-  { tier: 'A', weapons: ['Staff', 'Spear'], note: 'Staff has unmatched AoE burst. Spear offers safe poke and team utility.' },
-  { tier: 'B', weapons: ['Scythe'], note: 'Devastating when built correctly, but slow wind-ups punish mistakes.' },
-  { tier: 'C', weapons: ['Fist (Gauntlets)'], note: 'Highest DPS ceiling but extreme risk — requires precise play and matchup knowledge.' },
+  { tier: 'S', weapons: ['Staff'], note: 'The element-synergy king — ice/storm artifact builds still live here, and 1.0 added the Firelighter and Solis Missio lines that give fire a real answer. Highest ceiling with the right tablets.' },
+  { tier: 'S', weapons: ['Sword & Shield'], note: 'The most consistent weapon in 1.0 — new +4 lines and balanced stats make it the "no bad matchup" pick. The community\'s default recommendation.' },
+  { tier: 'A', weapons: ['Crossbow'], note: 'The +4 upgrade line turned it into strong sustained DPS; the safest pick for Hard Mode, where positioning matters.' },
+  { tier: 'A', weapons: ['Greatsword'], note: 'Thor Greatsword S3G and Red Snake Crusher are standout 1.0 weapons; heavy stagger makes boss fights mechanical.' },
+  { tier: 'B', weapons: ['Katana'], note: 'Good combo flow, but its power is skill-gated — the 1.0 patch didn\'t change its core items much.' },
+  { tier: 'B', weapons: ['Dagger'], note: 'The new +4 line helps, but burst builds still rely on relics the balance patch touched; high ceiling, inconsistent floor.' },
 ];
 
 const SOLO_TIERS = [
-  { tier: 'S', weapons: ['Sword (Paladin)', 'Bow (Elemental)'], note: 'Self-sustain + safe play = solo winners. Paladin heals on block, Bow kites forever.' },
-  { tier: 'A', weapons: ['Spear (Phalanx)', 'Staff (Frost)'], note: 'Spear keeps distance. Staff freezes enemies for control.' },
-  { tier: 'B', weapons: ['Scythe (Harvest)'], note: 'Life-steal build works, but requires aggressive play with no safety net.' },
-  { tier: 'C', weapons: ['Fist (Gauntlets)'], note: 'Too risky for solo — one mistake ends the run.' },
+  { tier: 'S', weapons: ['Crossbow'], note: 'Safe distance beats everything — the safest pick for Hard Mode solo runs.' },
+  { tier: 'S', weapons: ['Sword & Shield'], note: 'Consistent in every matchup; blocking covers your mistakes.' },
+  { tier: 'A', weapons: ['Staff'], note: 'AoE and element coverage carry solo clears once you have the right tablets.' },
+  { tier: 'A', weapons: ['Greatsword'], note: 'Stagger chains shut down boss patterns for aggressive solo play.' },
+  { tier: 'B', weapons: ['Katana'], note: 'Combo flow works, but power is skill-gated without a team to capitalize.' },
+  { tier: 'B', weapons: ['Dagger'], note: 'High burst ceiling, inconsistent floor — the relics you find decide whether it pays off.' },
 ];
 
 const BEGINNER_TIERS = [
-  { tier: 'Best', weapons: ['Sword'], note: 'Balanced stats, forgiving block, reliable combos. The ideal first weapon.' },
-  { tier: 'Good', weapons: ['Spear', 'Bow'], note: 'Spear teaches spacing. Bow teaches pattern recognition from a distance.' },
-  { tier: 'Avoid', weapons: ['Fist', 'Scythe'], note: 'Mechanical intensity too high for new players. Come back after 10+ runs.' },
+  { tier: 'Best', weapons: ['Sword & Shield'], note: 'Forgiving, consistent, every upgrade line is useful — the community\'s first-time pick.' },
+  { tier: 'Good', weapons: ['Crossbow', 'Staff'], note: 'Crossbow teaches positioning at safe range; Staff gives AoE and element coverage.' },
+  { tier: 'Situational', weapons: ['Greatsword', 'Katana'], note: 'Greatsword punishes slow wind-ups; Katana needs combo and counterplay practice.' },
+  { tier: 'Avoid', weapons: ['Dagger'], note: 'Hard difficulty with an inconsistent floor — come back once you know the enemy patterns.' },
 ];
 
 const RELIC_TIERS = [

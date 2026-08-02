@@ -12,7 +12,7 @@ related: [beginner-guide, updates-roadmap, hard-mode-guide, weapons-tier-list, c
 
 Sephiria **1.0 launched July 31, 2026** on Steam. Developed by **TEAM HORAY** (the Dungreed studio), it ends **484 days of Early Access (April 2025 → July 2026) and 58 EA updates**, and shipped a same-day hotfix (1.0.21). The rating at launch: **Very Positive** (~5,400+ reviews, building on the EA-era 97%).
 
-**A correction for anyone who read pre-launch coverage:** 1.0 adds the **final Chapter 6** — there is no "Chapter 7 Astral Vault." The weapon pool stays at **6 weapons** (no new weapon types; the "Tome" and "Greatsword" weapons from some guides do not exist). Hard Mode is extended to **level 60**, not reworked into a "Corruption System." We've fixed this page to match the official patch records.
+**A correction for anyone who read pre-launch coverage:** 1.0 adds the **final Chapter 6** — there is no "Chapter 7 Astral Vault." The weapon pool stays at **6 weapons** (no new weapon types; the "Tome" from some guides does not exist, and Greatsword is not new — it is one of the six base branches). Hard Mode is extended to **level 60**, not reworked into a "Corruption System." We've fixed this page to match the official patch records.
 
 ## What's New in 1.0
 

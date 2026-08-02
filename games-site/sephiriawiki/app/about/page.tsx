@@ -12,17 +12,17 @@ export default function AboutPage() {
 
       <h2>Who We Are</h2>
       <p>
-        Sephiria Wiki is an <strong>unofficial fan-made resource</strong> dedicated to "Sephiria," the cooperative PvE extraction horror game developed by SpiritVale Studio and published by NACON.
+        Sephiria Wiki is an <strong>unofficial fan-made resource</strong> dedicated to "Sephiria," the pixel-art action roguelite developed by TEAM HORAY (the Dungreed studio).
       </p>
       <p>
-        We are a small team of passionate gamers who create comprehensive guides, strategies, and resources to help players survive the horrors of the cursed jungle. Our mission is to be the most helpful and up-to-date guide resource for The Mound community.
+        We are a small team of passionate gamers who create comprehensive guides, strategies, and resources to help players climb the Tower of Sephiria. Our mission is to be the most helpful and up-to-date guide resource for the Sephiria community.
       </p>
 
       <h2>What We Offer</h2>
       <ul>
-        <li><strong>Game Guides:</strong> Beginner guides, weapon breakdowns, enemy bestiaries, and extraction strategies</li>
-        <li><strong>Boss Strategies:</strong> Detailed tactics for every enemy and boss encounter</li>
-        <li><strong>Co-op Tips:</strong> Team compositions, communication strategies, and multiplayer guides</li>
+        <li><strong>Game Guides:</strong> Beginner guides, weapon breakdowns, relic catalogs, and build strategies</li>
+        <li><strong>Boss Strategies:</strong> Detailed tactics for every boss, from Chapter 1 to the Chapter 6 finale</li>
+        <li><strong>Co-op Tips:</strong> Team compositions, connection fixes, and multiplayer strategies</li>
         <li><strong>Regular Updates:</strong> Content updated as the game receives patches and new content</li>
       </ul>
 
@@ -33,7 +33,7 @@ export default function AboutPage() {
 
       <h2>Disclaimer</h2>
       <p>
-        <strong>Sephiria Wiki is not affiliated with, endorsed by, or connected to SpiritVale Studio, NACON, or any of their subsidiaries or affiliates.</strong> All game-related trademarks, images, and content are the property of their respective owners. This site is an independent fan project created to support the game's community.
+        <strong>Sephiria Wiki is not affiliated with, endorsed by, or connected to TEAM HORAY or any of their subsidiaries or affiliates.</strong> All game-related trademarks, images, and content are the property of their respective owners. This site is an independent fan project created to support the game's community.
       </p>
     </div>
   );

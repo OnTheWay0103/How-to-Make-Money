@@ -12,7 +12,7 @@ export default function AboutPage() {
 
       <h2>Who We Are</h2>
       <p>
-        The Mound Wiki is an <strong>unofficial fan-made resource</strong> dedicated to "The Mound: Omen of Cthulhu," the cooperative PvE extraction horror game developed by SpiritVale Studio and published by NACON.
+        The Mound Wiki is an <strong>unofficial fan-made resource</strong> dedicated to "The Mound: Omen of Cthulhu," the cooperative extraction horror game developed by ACE Team and published by NACON.
       </p>
       <p>
         We are a small team of passionate gamers who create comprehensive guides, strategies, and resources to help players survive the horrors of the cursed jungle. Our mission is to be the most helpful and up-to-date guide resource for The Mound community.
@@ -33,7 +33,7 @@ export default function AboutPage() {
 
       <h2>Disclaimer</h2>
       <p>
-        <strong>The Mound Wiki is not affiliated with, endorsed by, or connected to SpiritVale Studio, NACON, or any of their subsidiaries or affiliates.</strong> All game-related trademarks, images, and content are the property of their respective owners. This site is an independent fan project created to support the game's community.
+        <strong>The Mound Wiki is not affiliated with, endorsed by, or connected to ACE Team, NACON, or any of their subsidiaries or affiliates.</strong> All game-related trademarks, images, and content are the property of their respective owners. This site is an independent fan project created to support the game's community.
       </p>
     </div>
   );

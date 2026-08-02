@@ -1,6 +1,17 @@
 {
   "builds": [
     {
+      "game": "Delverium",
+      "date": "2026-08-02",
+      "genre": "Co-op Survival Sandbox",
+      "template": "themoundwiki",
+      "guides": 7,
+      "keywords": 13,
+      "score": 19,
+      "issues": [],
+      "lessons": "Pre-release game (9/22 EA). Only 13 info-class keywords — gameplay keywords expected 1-3 months post-EA. Built 7 guides covering release date, demo, platforms, co-op, crafting, builds, dungeons. 88% noise rate typical for pre-release names. Coordinator auto-build."
+    },
+    {
       "game": "Expeditions: Samurai",
       "date": "2026-08-01",
       "genre": "Party-Based Tactical CRPG (Sengoku Japan)",

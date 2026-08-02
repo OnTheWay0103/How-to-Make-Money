@@ -9,12 +9,12 @@ export const metadata: Metadata = {
 };
 
 const FAQ_ITEMS = [
-  { question: 'What is Sephiria?', answer: 'Sephiria is a pixel-art action roguelite developed by Sephiria Studio (a 4-person independent team). You play as a rabbit warrior climbing the Tower of Sephiria through 6 chapters with 6 weapons and 150+ relics. It supports 1-4 player co-op and has a 94% positive rating on Steam. The full 1.0 launches July 31, 2026.' },
+  { question: 'What is Sephiria?', answer: 'Sephiria is a pixel-art action roguelite developed by TEAM HORAY (the Dungreed studio). You play as a rabbit warrior climbing the Tower of Sephiria through 6 chapters with 6 weapons and 150+ relics. It supports 1-4 player co-op and has a 94% positive rating on Steam. The full 1.0 launched July 31, 2026.' },
   { question: 'When is the full 1.0 release?', answer: 'The full 1.0 launch is July 31, 2026. The game has been in Early Access for over 1 year on Steam.' },
   { question: 'Is it single-player or co-op?', answer: 'Both. You can play solo or in online co-op with up to 4 players. Enemy health and damage scale with player count, so solo play is fully balanced and viable.' },
   { question: 'Is there local co-op or couch co-op?', answer: 'No, Sephiria supports online co-op only. There is no split-screen or local multiplayer.' },
   { question: 'How many players can play?', answer: 'Up to 4 players in online co-op. Solo play is also fully supported.' },
-  { question: 'How many weapons are there?', answer: '6 weapon types: Sword, Bow, Staff, Spear, Fist (Gauntlets), and Scythe. Each weapon has 50+ upgrade options and a unique mastery system.' },
+  { question: 'How many weapons are there?', answer: '6 weapon types: Sword & Shield, Greatsword, Dagger, Katana, Crossbow, and Staff. Each weapon branch has 50+ upgrade options and a unique mastery system.' },
   { question: 'What are relics?', answer: 'Relics are per-run passive items that modify your stats and abilities. There are over 150 relics across 5 rarity tiers (Common to Legendary). You can carry up to 6 relics at a time.' },
   { question: 'What is the Inscription system?', answer: 'Inscriptions are permanent socketable bonuses that persist between runs — unlike relics which reset. You socket them into weapon, helm, chest, and accessory slots. There are 40+ inscriptions across offensive, defensive, utility, and special categories.' },
   { question: 'Is there crossplay?', answer: 'Crossplay details are still being finalized for the 1.0 launch. Check the official Steam page for the latest information.' },

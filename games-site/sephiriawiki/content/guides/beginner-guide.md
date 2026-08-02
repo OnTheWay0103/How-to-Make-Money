@@ -10,7 +10,7 @@ related: [weapons-guide, builds-guide, chapter-guide, relics-guide]
 
 ## What is Sephiria?
 
-Sephiria is a **pixel-art action roguelite** developed by **Sephiria Studio** — a small independent team of 4. You play as a rabbit warrior climbing the endless Tower of Sephiria, fighting through 7 unique chapters against 12+ bosses. The game supports **1-4 player co-op** and has earned a **94% positive rating** on Steam.
+Sephiria is a **pixel-art action roguelite** developed by **TEAM HORAY** (the Dungreed studio). You play as a rabbit warrior climbing the Tower of Sephiria, fighting through 6 unique chapters against 12+ bosses. The game supports **1-4 player co-op** and has earned a **94% positive rating** on Steam.
 
 **1.0 is live now (launched July 31, 2026)** — this guide covers everything you need to get started in the full release.
 

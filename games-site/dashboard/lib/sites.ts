@@ -53,6 +53,11 @@ export const SITES: SiteConfig[] = [
     gaId: 'G-JP8PP1V90D',
   },
   {
+    name: 'Delverium Wiki',
+    propertyId: 'REPLACE_ME', // no GA4 yet
+    gaId: 'G-PLACEHOLDER',
+  },
+  {
     name: 'DinoBlade Wiki',
     propertyId: '546785675',
     gaId: 'G-E6FDYLD3S2',

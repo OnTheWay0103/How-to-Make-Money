@@ -5,7 +5,7 @@ import GuideCard from '@/components/GuideCard';
 
 const FEATURED_GUIDES = [
   { title: 'Beginner\'s Guide: First Steps', description: 'New to Sephiria? Master the core roguelite loop — choose a weapon, climb the tower, collect relics, and survive.', slug: 'beginner-guide', category: 'Beginner', updated: '2026-07-20' },
-  { title: 'All Weapons Guide — Stats & Upgrades', description: 'Complete breakdown of Sword, Bow, Staff, Spear, Fist, and Scythe. Upgrade trees, mastery perks, and best use cases.', slug: 'weapons-guide', category: 'Weapons', updated: '2026-07-20' },
+  { title: 'All Weapons Guide — Stats & Upgrades', description: 'Complete breakdown of Sword & Shield, Greatsword, Dagger, Katana, Crossbow, and Staff. Upgrade trees, mastery perks, and best use cases.', slug: 'weapons-guide', category: 'Weapons', updated: '2026-07-20' },
   { title: 'Best Builds — Weapon & Relic Synergies', description: 'Optimal builds for every weapon. Relic combinations, inscription setups, and upgrade paths for solo and co-op.', slug: 'builds-guide', category: 'Builds', updated: '2026-07-20' },
   { title: 'Relics Guide — Complete Catalog of 150+', description: 'Every relic in Sephiria ranked. S-tier to C-tier, how to unlock them, farming methods, and best synergies.', slug: 'relics-guide', category: 'Relics', updated: '2026-07-20' },
   { title: 'Boss Guide — All 10+ Boss Strategies', description: 'Attack patterns, dodge timings, weak points, and optimal relic setups for every boss encounter.', slug: 'boss-guide', category: 'Bosses', updated: '2026-07-20' },
@@ -13,12 +13,12 @@ const FEATURED_GUIDES = [
 ];
 
 const FAQ_ITEMS = [
-  { question: 'What is Sephiria?', answer: 'Sephiria is a pixel-art action roguelite developed by Sephiria Studio (a 4-person independent team). You play as a rabbit warrior climbing the Tower of Sephiria through 7 chapters with 8 weapons and 200+ relics. It supports 1-4 player co-op and has a 94% positive rating on Steam. Sephiria 1.0 launched on July 31, 2026.' },
+  { question: 'What is Sephiria?', answer: 'Sephiria is a pixel-art action roguelite developed by TEAM HORAY (the Dungreed studio). You play as a rabbit warrior climbing the Tower of Sephiria through 6 chapters with 6 weapons and 200+ relics. It supports 1-4 player co-op and has a 94% positive rating on Steam. Sephiria 1.0 launched on July 31, 2026.' },
   { question: 'Is it single-player or multiplayer?', answer: 'Both. You can play solo or in online co-op with up to 4 players. Enemy health and damage scale with player count, so solo is balanced and fully viable.' },
-  { question: 'How many weapons are there?', answer: '8 weapon types: Sword, Bow, Staff, Spear, Fist (Gauntlets), Scythe, plus the 1.0 additions Greatsword and Tome. Each weapon has 50+ upgrade options and unique mastery perks.' },
+  { question: 'How many weapons are there?', answer: '6 weapon types: Sword & Shield, Greatsword, Dagger, Katana, Crossbow, and Staff. Each weapon branch has 50+ upgrade options and unique mastery perks.' },
   { question: 'What are relics and inscriptions?', answer: 'Relics are per-run passive items (200+ at 1.0). Inscriptions are permanent socketable bonuses that persist between runs — like runes that permanently upgrade your character. The 1.0 launch adds Talents and Artifacts as new permanent progression systems.' },
-  { question: 'How many chapters and bosses?', answer: '7 chapters with 12+ boss encounters. The 1.0 climax takes you to the Astral Vault, where the Astral Guardian and the Rabbit Goddess await.' },
-  { question: 'What makes Sephiria different from other roguelites?', answer: 'The combo-driven combat with 8 highly distinct weapons, the permanent Inscription, Talent, and Artifact progression systems, 200+ relics with deep synergies, and 4-player co-op in a charming pixel-art world.' },
+  { question: 'How many chapters and bosses?', answer: '6 chapters with 12+ boss encounters. The story ends at Chapter 6, with a proper ending and credits.' },
+  { question: 'What makes Sephiria different from other roguelites?', answer: 'The combo-driven combat with 6 highly distinct weapons, the permanent Inscription, Talent, and Artifact progression systems, 200+ relics with deep synergies, and 4-player co-op in a charming pixel-art world.' },
 ];
 
 export default function Home() {
@@ -32,7 +32,7 @@ export default function Home() {
           Sephiria <span className="text-purple-400">Wiki</span>
         </h1>
         <p className="text-lg text-gray-400 max-w-xl mx-auto mb-2">
-          Complete guide hub for the pixel-art action roguelite by Sephiria Studio.
+          Complete guide hub for the pixel-art action roguelite by TEAM HORAY.
         </p>
         <p className="text-sm text-gray-600 mb-8">1.0 Now Live — PC, Steam</p>
         <div className="flex items-center justify-center gap-4">
@@ -61,8 +61,8 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           <div className="bg-[#1a0a2e] rounded-lg border border-[#2a1a4e] p-5 text-center">
             <div className="text-3xl mb-2">⚔️</div>
-            <h3 className="text-white font-semibold mb-1">8 Weapons</h3>
-            <p className="text-gray-400 text-sm">Sword, Bow, Staff, Spear, Fist, Scythe, Greatsword & Tome — each with 50+ upgrades</p>
+            <h3 className="text-white font-semibold mb-1">6 Weapons</h3>
+            <p className="text-gray-400 text-sm">Sword & Shield, Greatsword, Dagger, Katana, Crossbow & Staff — 200+ upgrades in 1.0</p>
           </div>
           <div className="bg-[#1a0a2e] rounded-lg border border-[#2a1a4e] p-5 text-center">
             <div className="text-3xl mb-2">💎</div>
@@ -76,8 +76,8 @@ export default function Home() {
           </div>
           <div className="bg-[#1a0a2e] rounded-lg border border-[#2a1a4e] p-5 text-center">
             <div className="text-3xl mb-2">🏛️</div>
-            <h3 className="text-white font-semibold mb-1">7 Chapters</h3>
-            <p className="text-gray-400 text-sm">From the Rooted Depths to the Astral Vault — 12+ bosses</p>
+            <h3 className="text-white font-semibold mb-1">6 Chapters</h3>
+            <p className="text-gray-400 text-sm">The story ends at Chapter 6 with a proper ending — 12+ bosses</p>
           </div>
           <div className="bg-[#1a0a2e] rounded-lg border border-[#2a1a4e] p-5 text-center">
             <div className="text-3xl mb-2">🔮</div>
@@ -87,7 +87,7 @@ export default function Home() {
           <div className="bg-[#1a0a2e] rounded-lg border border-[#2a1a4e] p-5 text-center">
             <div className="text-3xl mb-2">🎮</div>
             <h3 className="text-white font-semibold mb-1">94% Positive</h3>
-            <p className="text-gray-400 text-sm">Overwhelmingly positive Steam reviews during Early Access</p>
+            <p className="text-gray-400 text-sm">Very Positive Steam rating — ~5,400+ reviews at launch</p>
           </div>
         </div>
       </section>

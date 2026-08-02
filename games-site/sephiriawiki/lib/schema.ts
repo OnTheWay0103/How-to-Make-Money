@@ -64,11 +64,11 @@ export function videoGameSchema(): Record<string, unknown> {
     genre: ['Action', 'Roguelite', 'Co-op', 'Pixel Art', 'Indie', 'Adventure'],
     author: {
       '@type': 'Organization',
-      name: 'Sephiria Studio',
+      name: 'TEAM HORAY',
     },
     publisher: {
       '@type': 'Organization',
-      name: 'Sephiria Studio',
+      name: 'TEAM HORAY',
     },
     offers: {
       '@type': 'Offer',
