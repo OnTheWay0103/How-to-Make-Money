@@ -5,12 +5,12 @@ category: 'Guides'
 version: 'Pre-release'
 updated: '2026-08-01'
 keywords: ['grain rot release date', 'grain rot platforms', 'grain rot price', 'grain rot demo', 'grain rot system requirements', 'grain rot faq', 'grain rot ps5', 'grain rot xbox']
-related: ['launch-day-guide', 'demo-guide', 'player-count-guide', 'beginner-guide']
+related: ['launch-day-guide', 'demo-guide', 'player-count-guide', 'beginner-guide', 'full-release-guide']
 ---
 
 # Release Date, Platforms & FAQ — Everything We Know About Grain Rot
 
-Grain Rot is one of the most anticipated indie games of summer 2026 — roughly **200,000 Steam wishlists** and over **350,000 demo downloads** at the time of writing. This page collects every confirmed fact about the launch, with anything unconfirmed clearly marked.
+Grain Rot is one of the most anticipated indie games of summer 2026 — roughly **200,000 Steam wishlists** when this page was first written, with the publisher's launch announcement citing **250,000+ wishlists** and **350,000+ demo downloads**. This page collects every confirmed fact about the launch, with anything unconfirmed clearly marked.
 
 ## Release Date
 
@@ -78,7 +78,10 @@ A **free demo** is available now on Steam (released June 12, 2026):
 ## FAQ
 
 ### When does Grain Rot come out?
-August 7, 2026 on Steam.
+August 7, 2026 on Steam — as a full 1.0 release, not Early Access.
+
+### What's new in the full release vs the demo?
+The launch build adds two new biomes, a boss encounter, elite enemies, dedicated Spark abilities, player leveling, a second Outpost floor, an enchantment and repair machine, elevator modifiers, gamepad support, and more — see the [Full Release Guide](/guides/full-release-guide) for the complete confirmed list.
 
 ### Is Grain Rot on PS5 or Xbox?
 Not announced. PC (Steam) is the only confirmed platform.

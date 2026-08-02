@@ -1,6 +1,6 @@
 # 游戏攻略站 — 站点统计
 
-> 最后更新：2026-08-02 | 27 站 · 632 篇攻略
+> 最后更新：2026-08-03 | 27 站 · 678 篇攻略
 
 ---
 
@@ -14,13 +14,13 @@
 | 4 | The Mound | 7/14 | 43 | themoundwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 内容配比规则 +2 速查表；**Tier List 页武器名纠错**（虚构 Rapier/Dagger 等 → 真实 Matchlock/Crossbow/Machete 等） |
 | 5 | SpiritVale | 7/12 | 42 | spiritvalewiki.vercel.app | ✅ | ✅ | ✅ | 8/1 内容配比规则 +1 世界 Boss 速查表（Echoing Spire） |
 | 6 | Skills & Raids | 7/15 | 19 | skillsandraidswiki.vercel.app | ✅ | ✅ | ✅ | 7/27 游戏上线 |
-| 7 | MineGeon | 7/20 | 20 | minegeonwiki.vercel.app | ✅ | ✅ | ✅ | 7/28 游戏上线 |
+| 7 | MineGeon | 7/20 | 29 | minegeonwiki.vercel.app | ✅ | ✅ | ✅ | 7/28 游戏上线；8/3 Coordinator 扩充 +2（Walkthrough、Review） |
 | 8 | Sephiria | 7/21 | 32 | sephiriawiki.vercel.app | ✅ | ✅ | ✅ | **7/31 1.0 上线**；8/1 内容配比规则 +2（Build 原型速查表、Boss 推进表） |
-| 9 | DinoBlade | 7/21 | 23 | dinobladewiki.vercel.app | ✅ | ✅ | ✅ | |
+| 9 | DinoBlade | 7/21 | 27 | dinobladewiki.vercel.app | ✅ | ✅ | ✅ | 8/3 Coordinator 扩充 +3（Leveling、How Long to Beat、Healing） |
 | 10 | Mystralia | 7/22 | 24 | mystraliawiki.vercel.app | ✅ | ✅ | ✅ | 8/11 EA |
 | 11 | Tears of Metal | 7/23 | 26 | tearsofmetalwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 反馈驱动 +3 新 +2 纠错（英雄名校准）；8/1 内容配比 +5（Wallace/Brienne/Ruadh 独立 Build 页、Corruption 机制、装备指南）+ 修复旧英雄/Boss 名残留（Vanguard→Wallace 等） |
-| 12 | Grain Rot | 7/24 | 23 | grainrotwiki.vercel.app | ✅ | ✅ | ✅ | 8/7 游戏上线 |
-| 13 | DragonSword | 7/25 | 19 | dragonswordwiki.vercel.app | ✅ | ✅ | ✅ | 7/22 游戏上线 |
+| 12 | Grain Rot | 7/24 | 25 | grainrotwiki.vercel.app | ✅ | ✅ | ✅ | 8/7 游戏上线；8/3 1.0 内容更新（全量内容清单、生物群系+2、wishlist 25万→250k） |
+| 13 | DragonSword | 7/25 | 23 | dragonswordwiki.vercel.app | ✅ | ✅ | ✅ | 7/22 游戏上线；8/3 Coordinator 扩充 +3（Reina/Kalsion/Cerese 角色指南） |
 | 14 | Dwarf Delve | 7/26 | 22 | dwarfdelvewiki.vercel.app | ✅ | ✅ | ✅ | |
 | 15 | Lunarium | 7/26 | 22 | lunariumwiki.vercel.app | ✅ | ✅ | ✅ | |
 | 16 | Taival 🆕 | 7/27 | 19 | taivalwiki.vercel.app | ✅ | ❌ | 🟡 | GA4 待创建 |
@@ -33,7 +33,7 @@
 | 23 | Phantom Tower 🆕 | 7/30 | 11 | phantomtowerwiki.vercel.app | ✅ | ❌ | 🟡 | GA4 待创建 |
 | 24 | Ardent Wilds 🆕 | 7/31 | 13 | ardentwildswiki.vercel.app | ✅ | ❌ | 🟡 | GA4 待创建 |
 | 25 | Go-Go Town! 🆕 | 8/01 | 10 | gotownwiki.vercel.app | ✅ | ❌ | 🟡 | 7/16 1.0 上线，93% 好评，GA4 待创建 |
-| 26 | Expeditions: Samurai 🆕 | 8/01 | 21 | expeditionssamuraiwiki.vercel.app | ✅ | ❌ | 🟡 | **20/20 最高分**，8/7 EA 上线；8/1 内容配比 +8（外交/制作/世界地图/Tora-Hime/Antje/难度/配置要求/战国历史），GA4 待创建 |
+| 26 | Expeditions: Samurai 🆕 | 8/01 | 21 | expeditionssamuraiwiki.vercel.app | ✅ | ❌ | 🟡 | **20/20 最高分**，8/7 EA 上线；8/1 +8；8/3 更新系统需求（官方公布）+ EA FAQ（解锁时间/路线图），GA4 待创建 |
 | 27 | Delverium 🆕 | 8/02 | 7 | delveriumwiki.vercel.app | ✅ | ❌ | 🟡 | 8/2 Coordinator auto-build，19/20，9/22 EA，80k wishlist |
 
 ---
@@ -101,7 +101,7 @@
 | 指标 | 数值 |
 |------|:--:|
 | **总站点数** | 27 |
-| **总攻略数** | 632 |
+| **总攻略数** | 678 |
 | **Vercel 部署** | 27/27 ✅ |
 | **GA4 配置** | 16/27 ✅ |
 | **Dashboard 注册** | 27/27 ✅ |

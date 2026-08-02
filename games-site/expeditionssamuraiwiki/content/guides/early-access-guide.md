@@ -3,7 +3,7 @@ title: "Expeditions: Samurai Early Access Guide — Act One Content, Roadmap & W
 description: "What's actually in Expeditions: Samurai's Early Access launch on August 7, 2026 — Act One content, confirmed features, what arrives later (village management, Act Two, crafting), and the roadmap to 1.0."
 category: "Game Info"
 version: "EA Act One"
-updated: "2026-08-01"
+updated: "2026-08-03"
 keywords: ["expeditions samurai early access", "expeditions samurai early access guide", "expeditions samurai act one content", "expeditions samurai roadmap", "expeditions samurai release date", "expeditions samurai what is included", "expeditions samurai 1.0 release"]
 related: ["beginner-guide", "walkthrough-act-one", "village-management-guide", "coop-multiplayer-guide", "combat-guide"]
 ---
@@ -14,7 +14,7 @@ related: ["beginner-guide", "walkthrough-act-one", "village-management-guide", "
 
 ## Release Date and Platforms
 
-- **Early Access launch:** August 7, 2026, on **PC via Steam** (Windows 10/11, 64-bit).
+- **Early Access launch:** August 7, 2026 at **14:00 UTC** (SteamDB-listed unlock time: 10:00 AM EDT / 7:00 AM PDT / 4:00 PM CEST), on **PC via Steam** (Windows 10/11, 64-bit).
 - **Full release (1.0):** targeted for **Q1 2027**.
 - **Language:** English interface, full audio, and subtitles at launch.
 - **Price:** the Steam page confirms Early Access is "at a slightly discounted price compared to the full version" — the exact price will be confirmed on the store page at launch.
@@ -57,7 +57,7 @@ The confirmed path from launch to 1.0:
 | **Story Update** | Act Two unlocked (~10 more hours of quests) |
 | **1.0 — Q1 2027** | Four acts, ~60+ hours total, 45+ levels and 100+ events/encounters, fully voiced, village management + Hatamoto, crafting, more build options |
 
-The team has also promised a more detailed roadmap document before the August 7 launch — check it (and this page) for exact update timing once it lands.
+The team promised a more detailed roadmap document before the August 7 launch — **as of August 3, it has not yet been published**. This page tracks the confirmed milestones from the Steam page; check back here (and the official Steam announcements) once the detailed roadmap lands.
 
 ## Co-op: Coming, But Launch Timing Is TBD
 
@@ -84,7 +84,7 @@ An honest buying framework based only on confirmed information:
 
 ## Early Access FAQ
 
-**When does Expeditions: Samurai Early Access launch?** August 7, 2026, on Steam for PC.
+**When does Expeditions: Samurai Early Access launch?** August 7, 2026 at 14:00 UTC (10:00 AM EDT / 7:00 AM PDT) on Steam for PC.
 
 **How long is Early Access Act One?** Roughly 8 hours of fully voiced quests.
 

@@ -5,7 +5,7 @@ category: 'Guides'
 version: 'Pre-release'
 updated: '2026-08-01'
 keywords: ['grain rot biomes', 'grain rot underground layers', 'grain rot map', 'grain rot levels', 'grain rot demo biomes', 'grain rot deep layers']
-related: ['demo-guide', 'beginner-guide', 'extraction-guide', 'all-enemies-guide', 'game-mechanics-systems-guide']
+related: ['demo-guide', 'beginner-guide', 'extraction-guide', 'all-enemies-guide', 'game-mechanics-systems-guide', 'full-release-guide']
 ---
 
 # All Biomes Guide — Every Underground Layer in Grain Rot
@@ -19,6 +19,7 @@ These facts come directly from the official Steam page and the publisher's press
 - You "ride a cursed elevator into shifting underground ruins with your crew."
 - The ruins are **procedurally generated** and shift between runs — the official feature list calls out "procedurally shifting underground dungeons."
 - The demo, released June 12, 2026, contains **3 underground biomes**.
+- The **full 1.0 release on August 7 adds two new biomes** beyond the demo's three — confirmed in the publisher's launch announcement. The new biomes' names have not been published as of this writing; see the [Full Release Guide](/guides/full-release-guide) for the complete 1.0 addition list.
 - The deeper you go, the worse the Rot becomes. The official description warns that in "the Deep Layers," bodies warp, voices distort, and emotes degrade.
 - Depth is the game's core risk-reward lever: the official copy literally says "Go deeper. Extract more."
 - Runs have no fixed map: because generation is procedural, every descent is different, though room templates repeat between seeds.
