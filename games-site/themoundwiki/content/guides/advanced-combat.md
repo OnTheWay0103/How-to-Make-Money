@@ -20,7 +20,7 @@ Combat in The Mound is deliberate and punishing. Unlike hack-and-slash games, ev
 Blocking reduces incoming damage and prevents stagger from most attacks.
 
 ### Blocking Basics
-- **Hold the block button** (default: Right Mouse Button / LT on controller)
+- **Hold the block button** (default: Q on keyboard, RB on Xbox / R1 on PS5 — added in Patch 1.02)
 - Your character raises their weapon or shield
 - Incoming melee attacks deal **reduced damage** while blocking
 - Blocking consumes **stamina** — when stamina runs out, your guard breaks

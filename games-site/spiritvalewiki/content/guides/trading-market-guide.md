@@ -16,6 +16,8 @@ SpiritVale features a fully player-driven economy where nearly every item can be
 
 ---
 
+> **⚠️ Status note (Aug 2, 2026):** As of build 0.30.0 the **Auction House is temporarily down for a rebuild** — the live player-to-player trading method is the **vending stalls** (reintroduced in 0.30.0, with the revamped Auction House announced for later). Details below describe the announced AH system and may change when it reopens. See the [Patch Notes](/guides/updates-patch-notes) for current trading status.
+
 ## 1. Auction House Basics
 
 The Auction House (AH) is the central trading hub accessible from any major city. Players list items for set prices or via timed auctions.

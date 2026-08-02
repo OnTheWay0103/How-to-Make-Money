@@ -8,6 +8,8 @@ keywords: [Sephiria endgame, endgame content, what to do after beating Sephiria,
 related: [hard-mode-guide, endgame-builds, full-release-guide, boss-guide, weapons-tier-list]
 ---
 
+> **⚠️ Correction (Aug 2, 2026):** This page predates 1.0 verification and cites content that does **not** exist in the released game — "Chapter 7 / Astral Vault", the Rabbit Goddess, and Infinite Mode. Sephiria has 6 chapters and ends at Chapter 6; the real 1.0 endgame is Hard Mode (60 levels), the new ending, and artifact/tablet builds. See the [Chapter 6 & Final Boss Guide](/guides/chapter-6-final-boss-guide) and [Full Release Guide](/guides/full-release-guide). This page needs a rewrite.
+
 ## The Endgame Starts at 1.0
 
 Defeating the **Rabbit Goddess** (Chapter 7's final boss) completes the main story — but the tower is far from done. The 1.0 endgame is a clear progression ladder: each new mode feeds the next, and everything feeds your permanent progression (talents, inscriptions, artifacts, weapon mastery).

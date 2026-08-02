@@ -8,6 +8,8 @@ keywords: [Sephiria hard mode, hard mode guide, Sephiria 1.0 hard mode, Sephiria
 related: [builds-guide, relics-guide, inscriptions-guide, solo-guide, weapons-guide]
 ---
 
+> **⚠️ Correction (Aug 2, 2026):** Hard Mode itself is real (1.0 expanded it to 60 levels with 6 new elements), but this page's unlock condition ("defeat the First Rabbit"), Corruption System, and "unlocks Infinite Mode" claims are not confirmed — Infinite Mode does not exist in the released game. See the [Full Release Guide](/guides/full-release-guide) and [Chapter 6 & Final Boss Guide](/guides/chapter-6-final-boss-guide).
+
 ## Hard Mode in Sephiria 1.0
 
 Introduced with the **1.0 launch on July 31, 2026**, Hard Mode is Sephiria's ultimate challenge — designed for players who have completed the base game and want a significantly tougher experience. This guide covers every new mechanic and how to survive them.

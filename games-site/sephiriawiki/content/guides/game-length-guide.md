@@ -8,6 +8,8 @@ keywords: [how long to beat Sephiria, Sephiria game length, Sephiria playtime, S
 related: [full-release-guide, chapter-guide, endgame-guide, beginner-guide]
 ---
 
+> **⚠️ Correction (Aug 2, 2026):** This page predates 1.0 verification and cites content that does **not** exist — "Chapter 7 / Astral Vault", the Rabbit Goddess, and Infinite Mode. Sephiria has 6 chapters and ends at Chapter 6. Playtime figures below are unverified. See the [Chapter 6 & Final Boss Guide](/guides/chapter-6-final-boss-guide) and [Full Release Guide](/guides/full-release-guide).
+
 ## Sephiria 1.0 at a Glance
 
 With the 1.0 launch, Sephiria's playtime grew substantially: the new Chapter 7 (The Astral Vault), Hard Mode rework, and Infinite Mode add dozens of hours on top of the Early Access campaign. Here are the numbers for the launch version.

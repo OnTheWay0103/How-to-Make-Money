@@ -15,7 +15,7 @@ The **Talent system** is part of the 1.0 launch, replacing the flat stat growth 
 ## How Talent Points Work
 
 - **+1 talent point** per character level (level 1-50, 50 points total)
-- **+1 point** for each chapter boss first-kill (7 points at 1.0, including the Rabbit Goddess)
+- **+1 point** for each chapter boss first-kill (6 points at 1.0)
 - **+1 point** per completed Hard Mode chapter boss (7 more)
 - **+3 points** from achievements (three achievements grant one point each)
 
@@ -61,8 +61,8 @@ That's up to **67 talent points** at 1.0. The trees max out at roughly 60 points
 ### Hard Mode Survivor
 **3× Purified, 3× Tough Hide, 2× Regenerative, 3× Armor Breaker, 3× Second Wind** — Purified and Armor Breaker directly counter Hard Mode's two new systems (Corruption and armored enemies).
 
-### Infinite Mode Farmer
-**3× Curious, 3× Treasure Hunter, 3× Relic Whisperer, 3× Hoarder, 2× Executioner** — maximizing loot per floor. Infinite Mode drops are partially gated by relics found, so this scales your artifact and relic income fast.
+### Loot Farmer
+**3× Curious, 3× Treasure Hunter, 3× Relic Whisperer, 3× Hoarder, 2× Executioner** — maximizing loot per floor. Drops are partially gated by relics found, so this scales your artifact and relic income fast.
 
 ### Co-op Support
 **3× Relic Whisperer, 3× Second Wind, 3× Tough Hide, 2× Potion Master** — your team shares relic pools, so the whole squad benefits from your loot talents.

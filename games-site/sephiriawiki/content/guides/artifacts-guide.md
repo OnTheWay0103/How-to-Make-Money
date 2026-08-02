@@ -8,6 +8,8 @@ keywords: [Sephiria artifacts, artifacts guide, celestial artifacts, Sephiria 1.
 related: [relics-guide, full-release-guide, boss-guide, endgame-guide, talents-guide]
 ---
 
+> **⚠️ Correction (Aug 2, 2026):** Artifacts are a real 1.0 system (19 added at launch), but this page's details — "Chapter 7 / Astral Vault" drop locations, the Rabbit Goddess, and Infinite Mode — describe content that does **not** exist. The game has 6 chapters and ends at Chapter 6. See the [Chapter 6 & Final Boss Guide](/guides/chapter-6-final-boss-guide) and [Full Release Guide](/guides/full-release-guide) for verified information. This page needs a full rewrite.
+
 ## What Are Artifacts?
 
 **Artifacts** are a new item class introduced in the 1.0 launch, found exclusively in and beyond the **Astral Vault** (Chapter 7). They are different from relics in three important ways:

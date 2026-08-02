@@ -88,7 +88,7 @@ Setting up your controls and graphics correctly before your first expedition can
 | Swap Weapon | 1 / 2 |
 | Melee Attack | V |
 | Throw Item | G |
-| Block / Parry | Middle Mouse Button |
+| Block / Parry | Q (added in Patch 1.02) |
 | Toggle Weapon Light | F |
 
 ### Inventory and Tools
@@ -131,13 +131,15 @@ Setting up your controls and graphics correctly before your first expedition can
 | Reload | Square |
 | Use Item | Triangle |
 | Melee Attack | R1 |
-| Block / Parry | L1 |
+| Block / Parry | R1 (added in Patch 1.02) |
 | Open Inventory | Touch Pad |
 | Open Map | D-Pad Up |
 | Quick Slot Cycle | D-Pad Left / Right |
 | Use Healing Item | D-Pad Down |
 | Ping | L1 + R1 |
 | Push to Talk | Options Menu Button |
+
+> **Patch 1.02 note (PS5):** Since R1 is now reserved for Block, the Radial Wheel (call teammates / ox-wagon) was remapped to **holding Left on the D-Pad**.
 
 ---
 
@@ -156,7 +158,7 @@ Setting up your controls and graphics correctly before your first expedition can
 | Reload | X |
 | Use Item | Y |
 | Melee Attack | RB |
-| Block / Parry | LB |
+| Block / Parry | RB (added in Patch 1.02) |
 | Open Inventory | View Button (select) |
 | Open Map | D-Pad Up |
 | Quick Slot Cycle | D-Pad Left / Right |

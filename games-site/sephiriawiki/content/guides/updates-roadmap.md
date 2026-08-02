@@ -1,118 +1,105 @@
 ---
-title: "Sephiria Update Roadmap — 1.0 Launch & Beyond"
-description: "Complete Sephiria update history and future roadmap. 1.0 launch content including Chapter 7, 4 new weapons, Hard Mode, 50+ new relics, and what Sephiria Studio has planned next."
+title: "Sephiria Update & Patch Notes — 1.0 Launch and Version History"
+description: "Complete Sephiria update history and patch notes: Early Access versions 0.10.13–0.12.3, the 1.0 full release on July 31 2026 (final Chapter 6, new ending, 200+ weapon upgrades, Side Bag, Mystery Pot rework, Hard Mode to level 60), and the 1.0.21 / 1.0.22 hotfixes."
 category: "Updates"
 version: "1.0"
-updated: "2026-07-23"
-keywords: [Sephiria updates, Sephiria roadmap, Sephiria 1.0, Sephiria patch notes, Sephiria new content, Sephiria future updates]
-related: [beginner-guide, chapter-guide, weapons-guide, hard-mode-guide, relics-guide]
+updated: "2026-08-02"
+keywords: [Sephiria updates, Sephiria patch notes, Sephiria 1.0, Sephiria 1.0.22, Sephiria chapter 6, Sephiria changelog, Sephiria latest version]
+related: [full-release-guide, chapter-6-final-boss-guide, hard-mode-guide, chapter-guide, beginner-guide]
 ---
 
 ## Sephiria's Development Journey
 
-Sephiria entered **Early Access on December 15, 2025**, and has received **7 major updates** leading up to the **1.0 full launch on July 31, 2026**. Developed by Sephiria Studio, a 4-person indie team, the game has maintained a **94% positive rating** on Steam throughout Early Access.
+Sephiria (TEAM HORAY, the studio behind *Dungreed*) entered **Early Access on December 15, 2025**, and shipped **58 updates over 484 days** before the **1.0 full release on July 31, 2026**. This page tracks the verified version history. For the complete breakdown of everything 1.0 added, see the [Full Release Guide](/guides/full-release-guide).
 
-## Early Access Update History
+> **Save carryover:** Early Access saves **continue to work in 1.0** (official announcement, July 9, 2026). A stray line in an internal 1.0.19 patch record that read "EA save cannot be inherited" contradicts the official position and caused confusion — your EA progress carries over. Details in the [Full Release Guide](/guides/full-release-guide).
 
-### Update 1 — The Launch Patch (Dec 2025)
-**Initial Early Access release** with Chapters 1–3, 4 weapons (Sword, Spear, Bow, Daggers), 60 relics, and 6 bosses. The foundation of the game as players first experienced it.
+---
 
-### Update 2 — Co-op Arrives (Feb 2026)
-**Major feature:** 1–4 player online co-op. Added enemy scaling per player, revive mechanics, and shared relic pools. Also introduced the Inscription system with 20 rune-like modifiers.
+## Current Version: 1.0.22
 
-### Update 3 — The Scythe Update (Mar 2026)
-**New weapon:** The Scythe — a slow, high-damage weapon with life-steal mechanics. Added Chapter 4 (Crystal Spire) and 15 new relics. Quality-of-life improvements included a reworked minimap and better boss telegraph visuals.
+**Released:** August 1, 2026
 
-### Update 4 — Fist of Fury (Apr 2026)
-**New weapon:** Fist/Gauntlets — a close-range combo weapon with momentum mechanics. Added Chapter 5 (Howling Abyss) and the Gravity enemy type. The Corruption mechanic was teased in this update through environmental hazards.
+### 1.0.22 Hotfix
 
-### Update 5 — The Balance Patch (May 2026)
-The largest balance overhaul to date. All 6 weapons received tuning: buffs to underperforming weapons (Daggers), nerfs to dominant strategies (Bow piercing exploit), and reworked scaling formulas. Added 10 new relics and 5 new Inscriptions.
+- **Chapter 6 earthquake event no longer repeats** after area transitions
+- Removed extra NPC dialogue during the earthquake event
+- **Final boss Phase 1 radial bullet spread slightly reduced**
+- Fixed **Ice Breath** (Sword & Shield) damage bug
+- Fixed rare crashes when discarding **Plitvice Drop** and when interacting with the talent UI in multiplayer
 
-### Update 6 — Endgame Prep (Jun 2026)
-Pre-1.0 update adding Chapter 6 (Spire Summit) and the final boss (The First Rabbit). Introduced the Mastery system for weapons. Added 20 new relics and Endless Mode preview (limited access).
+### 1.0.21 — Final Boss Mechanics Optimization (July 31, 2026)
 
-### Update 7 — Pre-Launch Polish (Jul 2026)
-Final Early Access update. Bug fixes, performance optimizations, localization updates, and final balance tuning before 1.0. Added 5 bonus relics as a thank-you to Early Access supporters.
+- **Phase 1:** improved bullet-hell patterns so excessive bullets no longer stack; full-screen attacks now allow player control during the white-screen effect; fixed leftover visual effects when surrendering
+- **Phase 2:** fixed Hard Mode wrongly marking completion; **summon pillar minions' HP reduced by 33%**; improved environment item visibility
+- Fixed **Cleave** (Sword & Shield) giving +30% instead of +40% dash attack damage (a 1.0.19 extras item)
+- **Blood Festival** (Hard Mode) healing now scales with party size: 2P 66%, 3P 50%, 4P 33%
+- Credits are now viewable from the title screen after clearing
 
-## 1.0 Launch Content (July 31, 2026)
+---
 
-### New Chapter: Chapter 7 — The Astral Vault
-A brand-new chapter beyond the Spire Summit. The Astral Vault is a cosmic arena where the Rabbit Goddess awaits. This chapter features:
-- **4 new enemy types** (Astral Sentinels, Void Wraiths, Stellar Beacons, Cosmic Hounds)
-- **Unique mechanic:** Gravity wells that alter movement and projectile trajectories
-- **2 new bosses:** The Astral Guardian (mid-chapter) and the Rabbit Goddess (final boss)
-- **New environment:** A star-field arena with floating platforms
+## 1.0 Full Release (July 31, 2026)
 
-### 2 New Weapons
-**Greatsword** — Ultra-heavy weapon with slow but devastating swings. Features a charge mechanic where holding the attack button builds power for a massive AoE slam. Unique passive: 20% chance to stagger enemies on hit.
-**Tome** — A magic-based ranged weapon. Fires homing projectiles and has a unique "spell weave" mechanic where combo sequences produce different spell effects (fire, ice, lightning).
+The biggest milestone: full 1.0 launch after 484 days of Early Access and 58 updates.
 
-### Hard Mode (See Hard Mode Guide)
-Full rework of the game's difficulty. New enemy buffs, Corruption System, armored enemies, extended boss phases, and reduced loot drops. Unlocks Infinite Mode upon completion.
+### New Content
 
-### 50+ New Relics
-The relic pool expands to 200+ total, with new relic types including:
-- **Class-specific relics** — Only appear when using a specific weapon type
-- **Cursed relics** — Powerful bonuses with a downside (e.g., double damage but reduced healing)
-- **Set relics** — Equipping 2+ from the same set grants additional bonuses
+- **Chapter 6 — the final chapter** with cutscenes, quests, **2 bosses, 1 mini-boss**, 3 BGM tracks, and 3 achievements. The game ends at Chapter 6 — see the [Chapter 6 & Final Boss Guide](/guides/chapter-6-final-boss-guide)
+- **A new game ending** with full cutscenes and credits
+- **200+ weapon upgrades** across the **six weapon branches** (Greatsword, Dagger, Crossbow, Staff, and more)
+- **New items:** 3 miracles, 19 artifacts, 7 tablets, 1 combo, 12 potions, 1 purchasable random object, and 1 costume
 
-### 20 New Inscriptions
-Expanding the Inscription system with new modifiers for elemental damage, armor penetration, and corruption resistance.
+### New Features
 
-### Infinite Mode
-Unlocked after completing Hard Mode. An endless tower climb with procedurally increasing difficulty. Each floor gets harder — enemy HP, damage, speed, and spawn rates scale continuously. Compete for the highest floor on the global leaderboard.
+- **Side Bag** — carry spare items outside the main inventory
+- **Lore section** in the Codex (tutorial pages)
+- **Mystery Pot rework** — now converts artifacts by rarity
+- **Hard Mode expanded to 60 levels** with 6 new elements
+- **Preset slots raised 5 → 7**; rotate tablets with mouse middle-click
+- **5 new languages** (Thai, German, French, Polish, Swedish) and a photosensitivity warning on launch
 
-### Quality of Life Improvements
-- **Build save slots** — Save up to 5 relic/inscription loadouts
-- **Practice mode expansion** — Fight any boss you've encountered, including 1.0 bosses
-- **Enhanced co-op lobbies** — Filter by chapter progression, Hard Mode status, and region
-- **Replay system** — Save and share your best runs
-- **Achievement support** — 15 new achievements added (42 total)
+---
 
-## Post-Launch Roadmap
+## Early Access Version History (verified highlights)
 
-### Update 1.1 — The Armory (Q3 2026)
-- 2 additional weapons (details TBA)
-- Community-requested relic reworks
-- Balance adjustments based on 1.0 launch data
-- New cosmetic system (weapon skins)
+### 0.12.3 (May 2026)
+- Selectable smooth fonts per language (default on Steam Deck), improved 1280×720 readability
+- Weapon tooltip UI split into tabs; allied units show heart markers during combat
+- Controller UI fixes, DirectX 12 black-screen crash fix, corrupted language file handling
+- Fixed preset overwrite, super-armor enemy fall damage, and floor loading bugs
 
-### Update 1.2 — The Depths (Q4 2026)
-- New difficulty mode between Normal and Hard
-- Chapter 7 alternative path (different boss encounter)
-- 10 new relics
-- Endless Mode expansion with weekly challenges
+### 0.12.0 — Open Beta Release (May 13, 2026)
+- 0.901.3 promoted to official open beta
+- Artifact/weapon balance changes (Electro Chakram, Shield Earrings, Rainbow Feather, Frozen Bow)
+- Dedicated BGM for boss **Haz, the Mind-Eater Root**; Grimoire Haste cooldown UI
+- Numerous bug fixes and multiplayer improvements
 
-### Update 1.3 — Crossroads (Q1 2027)
-- Cross-platform co-op (Steam + console platforms)
-- New game+ mode
-- 5 new Inscriptions
-- Modding API preview
+### 0.11.4 (March 30, 2026)
+- Fixed Chapter 4 players entering Chapter 5 lobbies via Steam invites
+- Fixed a progression-blocking bug after clearing Chapter 5 in multiplayer
+- Multiplayer cutscene world-push fixes
 
-### Console Release (2027)
-Sephiria is confirmed for **Nintendo Switch, PlayStation 5, and Xbox Series X|S** in 2027. Cross-save support is planned but not yet confirmed.
+### 0.10.13 (January 31, 2026)
+- Fixed Demon Grimoire boss electric shock detection and lingering effects
+- Mystery Pot item residue bugs, fruit skewer loading, game time recording
+- Fixed multiplayer item-dropping in meeting areas
 
-## Known Issues at 1.0 Launch
+---
 
-The team has acknowledged the following issues and is targeting fixes in the 1.0.1 hotfix:
-- Occasional desync in 3–4 player co-op during boss fights
-- Tome weapon projectile collision with certain terrain types
-- Greatsword charge animation cancels when taking damage (working as intended per devs, but community feedback requested)
-- Achievement tracking for "Hardened" has a rare bug where it doesn't trigger
+## Post-Launch Outlook
+
+- As of August 2, 2026 the team has not announced a formal post-1.0 roadmap; hotfix cadence remains fast (1.0.21 and 1.0.22 both shipped within 48 hours of launch)
+- Steam News is the authoritative channel for all future patch notes
 
 ## How to Stay Updated
 
-The development team is active on:
-- **Discord:** Official Sephiria server (linked on Steam store page)
-- **Twitter/X:** @SephiriaStudio
 - **Steam News:** All patch notes posted here first
-- **Reddit:** r/SephiriaGame — community hub for discussions and feedback
+- **Official Discord:** Linked on the Steam store page
 
 ## Related Guides
 
-- [Hard Mode Guide](/guides/hard-mode-guide) — Complete Hard Mode strategies
-- [Chapter Guide](/guides/chapter-guide) — Walkthrough for all 7 chapters
-- [Weapons Guide](/guides/weapons-guide) — Greatsword and Tome weapon analysis
-- [Relics Guide](/guides/relics-guide) — New 1.0 relic catalog
+- [Full Release Guide](/guides/full-release-guide) — Everything 1.0 added, and the save-carryover answer
+- [Chapter 6 & Final Boss Guide](/guides/chapter-6-final-boss-guide) — Beating the final chapter and ending
+- [Hard Mode Guide](/guides/hard-mode-guide) — The 60-level Hard Mode and Blood Festival scaling
+- [Chapter Guide](/guides/chapter-guide) — Walkthrough for all 6 chapters
 - [Beginner Guide](/guides/beginner-guide) — Core mechanics for new players

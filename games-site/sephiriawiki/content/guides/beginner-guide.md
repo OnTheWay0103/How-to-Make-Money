@@ -18,9 +18,9 @@ Sephiria is a **pixel-art action roguelite** developed by **Sephiria Studio** �
 
 Every run in Sephiria follows the same cycle:
 
-1. **Select a weapon** — Choose from 8 weapon types (each with 50+ upgrades)
-2. **Climb the tower** — Fight through procedurally-arranged rooms across 7 chapters
-3. **Collect relics** — Over 200 relics modify your stats and abilities
+1. **Select a weapon** — Choose from 6 weapon branches (200+ upgrades total across all of them)
+2. **Climb the tower** — Fight through procedurally-arranged rooms across 6 chapters
+3. **Collect relics** — Relics modify your stats and abilities and define each run
 4. **Equip inscriptions** — Socket rune-like inscriptions into your gear for passive bonuses
 5. **Defeat the chapter boss** — Each chapter ends with a unique boss encounter
 6. **Die or reach the top** — Roguelite permadeath means you restart, but keep permanent upgrades
@@ -29,12 +29,12 @@ Every run in Sephiria follows the same cycle:
 
 The 1.0 full release (July 31, 2026) adds a lot on top of the Early Access loop:
 
-- **Chapter 7 — The Astral Vault** — A new cosmic chapter beyond the Apex Sanctuary with gravity-well mechanics and 2 new bosses (the Astral Guardian and the Rabbit Goddess)
-- **2 new weapons** — Greatsword (charge-based heavy melee) and Tome (spell-weave caster), bringing the total to 8
-- **Hard Mode rework** — Armored enemies, the Corruption System, and new boss phases
-- **Infinite Mode** — An endless leaderboard climb unlocked after Hard Mode
-- **New permanent systems** — Talents (3 progression trees) and Artifacts (account-wide equippables from Chapter 7)
-- **50+ new relics** — Including cursed, set, and class-specific relics (200+ total)
+- **Chapter 6 — the final chapter** — The story's endgame arc with 2 new bosses, 1 mini-boss, and a full ending with credits (the game ends at Chapter 6; see the [Chapter 6 & Final Boss Guide](/guides/chapter-6-final-boss-guide))
+- **200+ new weapon upgrades** — Across all six weapon branches (Greatsword, Dagger, Crossbow, Staff, and more)
+- **New items** — 3 miracles, 19 artifacts, 7 tablets, 12 new potions, and 1 new costume
+- **Hard Mode expanded to 60 levels** — With 6 new elements and party-scaled Blood Festival healing
+- **New features** — Side Bag for spare items, a Lore tutorial section, Mystery Pot rework (converts artifacts by rarity), preset slots raised to 7
+- **5 new languages** — Thai, German, French, Polish, and Swedish, plus a photosensitivity warning
 
 New players can ignore most of this for now — the base loop below is unchanged. Veterans should read the [Full Release Guide](/guides/full-release-guide) for the complete changelog.
 
@@ -85,10 +85,10 @@ This means every run, even failed ones, makes you stronger.
 
 ## Related Guides
 
-- [Weapons Guide](/guides/weapons-guide) — Full breakdown of all 8 weapons and upgrade trees
+- [Weapons Guide](/guides/weapons-guide) — Full breakdown of all 6 weapons and upgrade trees
 - [Weapons Tier List](/guides/weapons-tier-list) — Where each weapon ranks in the 1.0 meta
 - [Builds Guide](/guides/builds-guide) — Best builds and relic synergies for each weapon
-- [Chapter Guide](/guides/chapter-guide) — Detailed walkthrough of all 7 chapters and hidden secrets
+- [Chapter Guide](/guides/chapter-guide) — Detailed walkthrough of all 6 chapters and hidden secrets
 - [Relics Guide](/guides/relics-guide) — Complete relic catalog with tier rankings
 - [Solo Guide](/guides/solo-guide) — Strategies for climbing the tower alone
 - [Full Release Guide](/guides/full-release-guide) — Everything new in the 1.0 launch

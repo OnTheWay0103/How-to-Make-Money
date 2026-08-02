@@ -8,6 +8,8 @@ keywords: [Sephiria secret rooms, how to find secret rooms, hidden rooms, secret
 related: [chapter-guide, relics-guide, boss-guide, secret-bosses, artifacts-guide]
 ---
 
+> **⚠️ Correction (Aug 2, 2026):** This page's "Chapter 7 — The Astral Vault" section describes content that does **not** exist; the game has 6 chapters and ends at Chapter 6. See the [Chapter 6 & Final Boss Guide](/guides/chapter-6-final-boss-guide).
+
 ## How Secret Rooms Work
 
 Every chapter in the Tower of Sephiria hides rooms that do not appear on the minimap. They contain high-rarity relics, weapon upgrades, gold caches, and sometimes boss-fight shortcuts. Secret rooms are **procedurally placed** — the exact layout changes each run, but the triggers follow fixed rules. Learn the triggers and you will find a secret room in almost every run.

@@ -8,6 +8,8 @@ keywords: [Sephiria costume, Sephiria best costume, costume unlock, Sephiria ski
 related: [full-release-guide, hard-mode-guide, endgame-guide, achievements]
 ---
 
+> **⚠️ Correction (Aug 2, 2026):** This page cites unlock conditions that do **not** exist in the released game ("Beat the Astral Guardian", "Beat the Rabbit Goddess", "Infinite Mode floor 100") — Sephiria has 6 chapters and ends at Chapter 6. The 1.0 launch added 1 new costume. See the [Chapter 6 & Final Boss Guide](/guides/chapter-6-final-boss-guide) and [Full Release Guide](/guides/full-release-guide).
+
 ## How Costumes Work
 
 Costumes in Sephiria are **purely cosmetic** — no stats, no gameplay effects. They change your rabbit warrior's appearance in runs and in co-op lobbies. All costumes are **account-wide**: once unlocked, every character and save can equip them from the Tower Hub wardrobe. There are **14 costumes at 1.0 launch** (9 base + 5 unlockable), with more planned in the 1.1 "Armory" update, which adds weapon skins separately.

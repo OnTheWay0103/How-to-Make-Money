@@ -33,7 +33,7 @@ Everything costs Stamina: attacking, blocking, sprinting, and dodging. Never let
 
 ### Blocking
 
-Blocking reduces damage but does not eliminate it. The reduction depends on your weapon. Hold RMB/L2 to enter a brief (1s) guard stance — you must time it to the enemy's attack.
+Blocking reduces damage but does not eliminate it. The reduction depends on your weapon. Hold Q (RB on Xbox / R1 on PS5) to enter a brief (1s) guard stance — you must time it to the enemy's attack.
 
 | Weapon | Block Damage Reduction |
 |--------|----------------------|
