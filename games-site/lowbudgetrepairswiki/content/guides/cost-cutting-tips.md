@@ -41,7 +41,7 @@ Low-Budget Repairs is a game where cutting corners is the entire point. You're p
 
 **Savings**: 30–50% of tile costs, plus spacers and leveling tools.
 
-**Risk**: **Medium.** A patchwork bathroom can trigger complaints, but mixed patterns pass if the grout is fresh and the job looks "intentional." Keep mismatches in the same color family on high-fee jobs.
+**Risk**: **Medium.** A patchwork bathroom can trigger complaints, but mixed patterns pass if the grout is fresh and the job looks "intentional." Keep mismatches in one color family.
 
 ## 3. Duct Tape Fixes for Plumbing
 
@@ -49,7 +49,7 @@ Low-Budget Repairs is a game where cutting corners is the entire point. You're p
 
 **Savings**: 70–80% versus replacing a pipe section plus connectors.
 
-**Risk**: **High.** The easiest shortcut to fail — leaks find tape, and a soaked floor is hard to hide. Keep tape fixes out of sight (behind the sink cabinet) and fix visible pipes properly.
+**Risk**: **High.** Leaks find tape, and a soaked floor is hard to hide. Keep tape fixes out of sight (behind the sink cabinet) and fix visible pipes properly.
 
 ## 4. Bargain-Bin Supplies
 
@@ -57,7 +57,7 @@ Low-Budget Repairs is a game where cutting corners is the entire point. You're p
 
 **Savings**: 40–60% on whatever you buy there. Across a full renovation, it can mean the difference between break-even and profit.
 
-**Risk**: **Low.** Main hazards are mislabeled paint (open and stir before committing) and tools near breaking point — both cheap to recover from.
+**Risk**: **Low.** Hazards: mislabeled paint (open and stir before committing) and tools near breaking point.
 
 ## 5. Painting Only Visible Walls
 
@@ -65,7 +65,7 @@ Low-Budget Repairs is a game where cutting corners is the entire point. You're p
 
 **Savings**: 20–30% of paint usage on a typical room — often a full can's worth.
 
-**Risk**: **Low.** Inspectors don't move furniture (based on the demo). Just read the job terms before moving anything yourself.
+**Risk**: **Low.** Inspectors don't move furniture (based on the demo).
 
 ## 6. Posters Over Drywall Holes
 
@@ -79,9 +79,9 @@ Low-Budget Repairs is a game where cutting corners is the entire point. You're p
 
 **Technique**: Instead of hauling debris to the dumpster, stack bags in the hallway or stairwell outside the flat.
 
-**Savings**: 10–15 minutes of hauling per job — more jobs per day.
+**Savings**: More jobs per day.
 
-**Risk**: **Very low.** Player reports suggest no one bills you for hallway mess, though neighbor dialogue may comment. The lowest-risk shortcut in the game, and the most in-character.
+**Risk**: **Very low.** No one bills you for hallway mess, though neighbors may comment. The lowest-risk shortcut in the game, and the most in-character.
 
 ## 8. Using Wrong Tools in a Pinch
 
@@ -89,7 +89,7 @@ Low-Budget Repairs is a game where cutting corners is the entire point. You're p
 
 **Savings**: Avoids small tool purchases per job — a few percent, but it compounds.
 
-**Risk**: **Low.** Results are uglier and work is slower, but nothing fails for using the "wrong" tool. The main cost is time.
+**Risk**: **Low.** Results are uglier and work slower, but nothing fails from using the "wrong" tool.
 
 ## 9. Cheap Caulk/Silicone Over Cracks
 
@@ -97,11 +97,11 @@ Low-Budget Repairs is a game where cutting corners is the entire point. You're p
 
 **Savings**: 50–70% versus proper crack repair in materials, plus the sanding time you skip.
 
-**Risk**: **Medium.** Fresh caulk is visible up close — paint a thin coat over it at eye level to blend. Never caulk something structurally broken; a sagging shelf or cracked beam will fail.
+**Risk**: **Medium.** Fresh caulk is visible up close — blend it with a thin paint coat at eye level. Never caulk something structurally broken.
 
 ## 10. Refurbishing Old Furniture Instead of Buying New
 
-**Technique**: When a job calls for "new" furniture, check what's already in the flat first. Restaining, repainting, or polishing the existing piece often satisfies the contract; new flat-pack furniture is only needed when the client demands it or the old piece is missing.
+**Technique**: When a job calls for "new" furniture, check what's already in the flat first. Restaining, repainting, or polishing the existing piece often satisfies the contract; buy new only when the client demands it.
 
 **Savings**: 60–80% versus buying new — the single biggest item-saving shortcut in the demo.
 
@@ -109,10 +109,10 @@ Low-Budget Repairs is a game where cutting corners is the entire point. You're p
 
 ## How to Combine Shortcuts Safely
 
-Each shortcut raises the chance the client notices *something*, and visible shortcuts stack. Player reports suggest:
+Each shortcut raises the chance of being noticed, and visible shortcuts stack:
 
 - **Invisible shortcuts stack freely**: skipping behind radiators + watered-down paint + bargain bin + hallway trash — none are visible at inspection.
 - **One visible shortcut per room**: posters, mismatched tiles, or caulk lines — pick one per room so the job stays coherent.
 - **Never stack on plumbing**: a tape fix plus visible shortcuts invites a full inspection, and plumbing failures are the most expensive redo.
 
-The golden rule: make the first thing the client sees — the entrance wall, the bathroom floor — look clean, and everything hidden can be as cheap as you like. Full release on **August 13, 2026** may change inspection behavior; we'll update this guide if it does.
+The golden rule: make the first thing the client sees — the entrance wall, the bathroom floor — look clean, and everything hidden can be as cheap as you like. Full release on **August 13, 2026** may change inspection behavior.

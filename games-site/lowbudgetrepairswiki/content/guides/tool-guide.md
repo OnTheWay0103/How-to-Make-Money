@@ -10,64 +10,64 @@ keywords: ["low-budget repairs tools", "low-budget repairs tool guide", "low-bud
 
 # Low-Budget Repairs Tool Guide — Best & Cheapest Tools
 
-Your tools are the one purchase that carries over between jobs — and the one place beginners waste money. In Low-Budget Repairs, every zloty spent is profit lost, so tool buying needs a strategy: buy cheap where durability doesn't matter, invest where it does. Based on the demo and player reports; the game launches **August 13, 2026** on Steam.
+Your tools are the one purchase that carries over between jobs — and the one place beginners waste money. In Low-Budget Repairs, every zloty spent is profit lost: buy cheap where durability doesn't matter, invest where it does. Based on the demo; the game launches **August 13, 2026** on Steam.
 
 ## Every Known Tool Type
 
 The demo's lineup covers the essentials of renovation:
 
 - **Hammer** — demolition, tile removal
-- **Screwdriver** — furniture assembly, removing fixtures
-- **Roller and brush** — painting walls and trim
-- **Paint tray and bucket** — where you mix (and dilute) paint
-- **Chisel** — scraping wallpaper and old tiles
-- **Utility knife** — cutting tape, opening boxes, trimming posters
-- **Scraper** — the "proper" wallpaper removal tool
-- **Caulking gun** — applying caulk and silicone
-- **Plunger and pipe wrenches** — plumbing jobs
-- **Drill** — anchors, shelf mounting, fast work
-- **Level, spacers, trowel** — the tiling kit (that you can skip entirely)
+- **Screwdriver** — furniture assembly
+- **Roller and brush** — painting
+- **Paint tray and bucket** — mixing and diluting
+- **Chisel** — scraping wallpaper and tiles
+- **Utility knife** — tape, boxes, posters
+- **Scraper** — the "proper" wallpaper tool
+- **Caulking gun** — caulk and silicone
+- **Plunger and pipe wrenches** — plumbing
+- **Drill** — anchors, shelves, fast work
+- **Level, spacers, trowel** — the skippable tiling kit
 
 ## Cheap vs Quality: The Tradeoff
 
 Every tool (per the demo) comes in at least two versions — a **cheap version** and a **quality version** — plus occasional used tools in the bargain bin.
 
-**Cheap tools** cost a fraction of quality. They work, but they're slower and they degrade: cheap drills overheat, cheap rollers shed bristles, cheap screwdrivers strip heads.
+**Cheap tools** cost a fraction of quality. They work, but slower and degrading: drills overheat, rollers shed bristles, screwdrivers strip heads.
 
-**Quality tools** cost roughly 3–5x more (exact prices unconfirmed). They work faster, break less, and produce results that inspect better — and since they last many jobs, the cost spreads out.
+**Quality tools** cost roughly 3–5x more (prices unconfirmed), work faster, break less, and inspect better — the cost spreads across many jobs.
 
-**Used tools** appear in the bargain bin occasionally — same durability problems as cheap tools at even lower cost, fine for one-job needs.
+**Used tools** appear in the bargain bin occasionally — cheap-tool durability at even lower cost.
 
 ## When to Buy the Cheapest
 
-- **You use the tool once per job or less.** The scraper is used on one wall of one job — a chisel does it for free.
-- **The failure mode is cheap.** A worn roller costs 30 seconds of picking bristles; a stripped screw head costs 30 seconds with pliers.
+- **You use it once per job or less.** A chisel replaces the scraper for free.
+- **Failure is cheap.** A worn roller costs seconds; a stripped screw head, seconds with pliers.
 - **The job type might not come back.** A plumbing tool used once is waste at any price.
 - **It's consumable-adjacent.** Brushes, rollers, and trays wear out — buy cheap and replace.
 
 ## When to Invest in Quality
 
-- **Breakage costs a job.** A drill that dies mid-shelf-mount delays the inspection; a shattered hammer funds comedy you don't want to pay for.
+- **Breakage costs a job.** A drill dying mid-mount delays the inspection; a shattered hammer is comedy you pay for.
 - **You do the job type constantly.** If repaints are your bread and butter, a quality roller and tray pay off within a few rooms.
-- **The tool's result is inspected.** Quality tools visibly produce cleaner edges and straighter lines — crucial when you've stacked other shortcuts and need the visible work to carry the job.
+- **The tool's result is inspected.** Quality tools produce visibly cleaner edges — crucial when visible work must carry your other shortcuts.
 - **It replaces several cheap ones.** One quality screwdriver outlives five cheap ones.
 
 The demo's general rule from player reports: **quality for anything powered or precision-based (drill, level, quality roller); cheap for everything blunt (hammer, chisel, scraper).**
 
 ## Tool Durability and Breakage
 
-Tools degrade with use. Based on the demo:
+Tools degrade with use:
 
 - Cheap tools wear visibly faster — handles crack, edges dull, paint sticks.
 - A broken tool mid-job means a store trip or improvising with substitutes.
-- Broken quality tools are rare but painful — players report they can't be repaired, only replaced.
+- Broken quality tools are rare but painful — no repairs, only replacements.
 - Improvised substitution adds wear to the substitute — a cheap dedicated tool often beats wearing out your only good one.
 
 Keep one good set at home, and let per-job supplies be the disposable part of the budget.
 
 ## Bulk Buying Strategy
 
-- **Buy tape, caulk, and thinner in bulk** — used on nearly every job, and multi-packs cost less per item (demo players confirm the discount).
+- **Buy tape, caulk, and thinner in bulk** — used on nearly every job, and multi-packs cost less per item.
 - **Stock one spare cheap roller and brush** — when a roller sheds mid-paint, the spare saves a store trip.
 - **Don't bulk-buy paint or tiles** — they're job-specific, and the bargain bin rotates.
 - **Scan the bargain bin before every job** — a used tool for one job beats buying anything new.
@@ -76,8 +76,8 @@ Keep one good set at home, and let per-job supplies be the disposable part of th
 
 Your first purchases, in order:
 
-1. **Cheap hammer** — demolition and tile removal start on day one.
-2. **Cheap screwdriver set** — furniture assembly is the second job type you'll see.
+1. **Cheap hammer** — demolition and tile removal.
+2. **Cheap screwdriver set** — furniture assembly.
 3. **Cheap roller + tray + brush** — the paint starter kit; upgrade once repaints are your main income.
 4. **Utility knife** — the cheapest multipurpose tool: tape, posters, boxes.
 5. **Caulking gun** (cheap) — crack-filling is the most profitable shortcut; see the [cost-cutting guide](/guides/cost-cutting-tips).
@@ -100,8 +100,8 @@ Skip for now: level and spacers (per the [cost-cutting guide](/guides/cost-cutti
 | Drill | Quality only (skip cheap) | Highest tier | Cheap drills overheat and die | Anchors, shelves, fast quality-looking assembly |
 | Level + spacers | Cheap tier | Quality tier | N/A — rarely used | Only if you skip the [cost-cutting shortcuts](/guides/cost-cutting-tips) |
 
-Exact prices aren't confirmed for full release — treat "cheapest" as bargain-bin or cheap tier and quality as 3–5x more, per demo observations.
+Exact prices are unconfirmed — treat "cheapest" as bargain-bin or cheap tier and quality as 3–5x more.
 
 ## Final Tool Advice
 
-The tool meta is simple: **spend once on a quality drill, buy everything else cheap, and let the bargain bin decide the rest.** Tools are the only investment that carries across jobs — a ruined job from a dead drill is a bigger loss than the drill's price, but buying quality on a scraper you use twice is pure waste. The **August 13, 2026** release may add new tool types and confirmed prices — check back and we'll update the table.
+The tool meta is simple: **spend once on a quality drill, buy everything else cheap, and let the bargain bin decide the rest.** A ruined job from a dead drill is a bigger loss than the drill's price; quality on a twice-used scraper is pure waste. The **August 13, 2026** release may add new tools and prices — we'll update the table.
