@@ -1,7 +1,7 @@
 # 候选游戏池
 
 > 侦察 Agent 发现的新游戏候选。主管 Agent 读取此文件做建站决策。
-> 最后更新: 2026-08-03
+> 最后更新: 2026-08-04
 
 ## 候选清单
 
@@ -9,8 +9,7 @@
 |---|------|------|:--:|------|:--:|------|------|
 | 1 | **Nivalis Nights** | 赛博朋克生活模拟 (Ion Lands/505) | **22** | 9/29 | ⚠️ thegameswiki.com 已有 wiki | 8/3 | **强烈推荐** — 932K wishlist（2026 第5），7 种生意+100 NPC+钓鱼/象棋/航海，指南面极广；⚠️ thegameswiki 已建 wiki（尚小，无 Fandom）；**现在建站太早（距发售 57 天），建议 9 月初再建** |
 | 2 | ~~**Low-Budget Repairs**~~ | ~~装修经营模拟 (Gray2RGB/PlayWay)~~ | ~~**21**~~ | ~~8/13~~ | ~~❌ 无~~ | ~~8/3~~ | ✅ **已建站** — lowbudgetrepairswiki，8/3 Coordinator auto-build |
-| 3 | **Big Walk** | Co-op 解谜冒险 (House House/Panic) | **21** | 8/4 已上线 | ❌ 无 | 8/3 | **推荐** — 799K wishlist，Goose Game 团队，已发售正是流量窗口；⚠️ 7/31 曾因内容可扩展性 1/5 被拒，本次复议 3/5（谜题攻略/道具/隐藏线索可行） |
-| 4 | Luminary | ARPG-lite Co-op (2人) | 19 | 8/11 EA | ❌ 无 | 8/3 | 观望（50K wishlist；名字泛化 SEO 弱；2人团队） |
+| 3 | Luminary | ARPG-lite Co-op (2人) | 19 | 8/11 EA | ❌ 无 | 8/3 | 观望（50K wishlist；名字泛化 SEO 弱；2人团队） |
 | 5 | Sir, We Have an Orc Problem | TD + 增量 (2人) | 19 | ~8/1 已上线 | ❌ 无 | 8/3 | 观望（首发 $360K/天、峰值 7.6K CCU 爆款，仅 ProdigyGamers 一篇攻略；2人团队） |
 | 6 | BOMBANANA! | 3人 Co-op 拆弹 | 19 | 8/27 | ❌ 无 | 8/3 | 观望（659K wishlist；派对游戏内容偏浅） |
 | 7 | IRON NEST: Heavy Turret Simulator | 重炮模拟 (2人) | 18 | 8/6 | ❌ 无 | 8/3 | 观望（843K wishlist；品类窄；3天后上线需快） |
@@ -32,13 +31,14 @@
 
 | 游戏 | 评分 | 建站日 | 站点 |
 |------|:--:|------|------|
+| Big Walk | 21 | 8/4 | bigwalkwiki — 上线当日建站（8/4 发售，零 wiki 竞争，799K wishlist，93 Metacritic） |
 | Expeditions: Samurai | 20 | 8/1 | expeditionssamuraiwiki |
 | Moonlight Peaks | 17 | 7/31 | moonlightpeakswiki |
 | Go-Go Town! | 15 | 8/1 | gotownwiki |
 | Low-Budget Repairs | 21 | 8/3 | lowbudgetrepairswiki |
 | Delverium | 19 | 8/2 | delveriumwiki |
 
-> ⚠️ 完整已建站清单（27 站）见 `dashboard/lib/sites.ts` 与 `.agent/build-history.json`。
+> ⚠️ 完整已建站清单（28 站）见 `dashboard/lib/sites.ts` 与 `.agent/build-history.json`。
 > 注意：**Echoes of Mystralia**（mystraliawiki）与 **Grain Rot**（grainrotwiki）已建站（7 月底），
 > 本次侦察已确认并排除，勿重复推荐。
 

@@ -152,4 +152,9 @@ export const SITES: SiteConfig[] = [
     propertyId: 'TODO',
     gaId: 'G-PLACEHOLDER',
   },
+  {
+    name: 'Big Walk Wiki',
+    propertyId: 'REPLACE_ME', // no GA4 yet
+    gaId: 'G-PLACEHOLDER',
+  },
 ];

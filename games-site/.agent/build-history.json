@@ -1,6 +1,22 @@
 {
   "builds": [
     {
+      "game": "Big Walk",
+      "date": "2026-08-04",
+      "genre": "Co-op Open World Puzzle Adventure",
+      "template": "themoundwiki",
+      "guides": 10,
+      "keywords": 12,
+      "score": 21,
+      "issues": [
+        "Launched TODAY (Aug 4, 2026) — peak search window. Zero wiki competition (no Fandom, no community wiki)",
+        "No full walkthrough/puzzle solutions published yet — guides honestly marked TBD / unverified where community confirmation pending (cutter machine quest, golden head, game length, Steam Deck)",
+        "Price corrected vs pre-launch estimate: $19.99 USD launch price (25% discount), not $24.99. Platforms include Switch 2 + Mac in addition to Steam/PS5",
+        "No GA4 yet — G-PLACEHOLDER in dashboard registry"
+      ],
+      "lessons": "Launch-day build (score 21/25). 10 guides: beginner, multiplayer/co-op (2-12 players, crossplay, PS Plus day-one), tools (walkie-talkie/binoculars/laser pointer/megaphone/flares/flashlight/whiteboard/cowbell/golden head), puzzles, hidden secrets (gourd rewards, cutter machine reported), island exploration (1.4km² island, no map, tunnels/ski lifts), FAQ, walkthrough (structure only — no spoilers), tips & tricks, system requirements. No-combat genre → tier-list page adapted to Tool Tier List. Content ratio: 50% entry (beginner/FAQ/specs), 30% deep (tools/puzzles/exploration), 20% reference. Honesty rule applied — unverified launch-day reports clearly labeled."
+    },
+    {
       "game": "Low-Budget Repairs",
       "date": "2026-08-03",
       "genre": "Renovation Simulator",
