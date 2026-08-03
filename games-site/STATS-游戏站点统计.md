@@ -1,6 +1,6 @@
 # 游戏攻略站 — 站点统计
 
-> 最后更新：2026-08-03 | 27 站 · 678 篇攻略
+> 最后更新：2026-08-03 | 28 站 · 688 篇攻略
 
 ---
 
@@ -35,6 +35,7 @@
 | 25 | Go-Go Town! 🆕 | 8/01 | 10 | gotownwiki.vercel.app | ✅ | ❌ | 🟡 | 7/16 1.0 上线，93% 好评，GA4 待创建 |
 | 26 | Expeditions: Samurai 🆕 | 8/01 | 21 | expeditionssamuraiwiki.vercel.app | ✅ | ❌ | 🟡 | **20/20 最高分**，8/7 EA 上线；8/1 +8；8/3 更新系统需求（官方公布）+ EA FAQ（解锁时间/路线图），GA4 待创建 |
 | 27 | Delverium 🆕 | 8/02 | 7 | delveriumwiki.vercel.app | ✅ | ❌ | 🟡 | 8/2 Coordinator auto-build，19/20，9/22 EA，80k wishlist |
+| 28 | **Low-Budget Repairs** 🆕 | 8/03 | 10 | lowbudgetrepairswiki.vercel.app | ✅ | ❌ | 🟡 | 8/3 Coordinator auto-build，21/20，8/13 上线，1M+ wishlist，零 wiki 竞争 |
 
 ---
 
@@ -69,6 +70,7 @@
 | 25 | Go-Go Town! | 8/01 | ✅ | ✅ 25 | ✅ | ❌ | ✅ | 🟡 | ✅ | ✅ |
 | 26 | Expeditions: Samurai | 8/01 | ✅ | ✅ 25 | ✅ | ❌ | ✅ | 🟡 | ✅ | ✅ |
 | 27 | Delverium | 8/02 | ✅ | ✅ 13 | ✅ | ❌ | ✅ | 🟡 | ✅ | ✅ |
+| 28 | Low-Budget Repairs | 8/03 | ✅ | ✅ 65 | ✅ | ❌ | ✅ | 🟡 | ✅ | 待更新 |
 
 ---
 
@@ -82,8 +84,8 @@
 
 | 事项 | 涉及站点 | 操作 |
 |------|---------|------|
-| **创建 GA4** | Taival, Vahrin's Call, The Relic, Graphite, Shift At Midnight, **Moonlight Peaks**, **Phantom Tower**, **Ardent Wilds**, **Go-Go Town!**, **Expeditions: Samurai**, **Delverium** | GA4 后台创建，发我 Measurement ID |
-| **GSC 验证** | 12 站 🟡 (Taival, Vahrin's, Relic, Graphite, Shift At Midnight, Moonlight Peaks, **Bonehold**, **Phantom Tower**, **Ardent Wilds**, **Go-Go Town!**, **Expeditions: Samurai**, **Delverium**) | GSC 后台添加资源+验证 |
+| **创建 GA4** | Taival, Vahrin's Call, The Relic, Graphite, Shift At Midnight, **Moonlight Peaks**, **Phantom Tower**, **Ardent Wilds**, **Go-Go Town!**, **Expeditions: Samurai**, **Delverium**, **Low-Budget Repairs** | GA4 后台创建，发我 Measurement ID |
+| **GSC 验证** | 13 站 🟡 (Taival, Vahrin's, Relic, Graphite, Shift At Midnight, Moonlight Peaks, **Bonehold**, **Phantom Tower**, **Ardent Wilds**, **Go-Go Town!**, **Expeditions: Samurai**, **Delverium**, **Low-Budget Repairs**) | GSC 后台添加资源+验证 |
 
 ### 🟢 P2 — 上线日跟进
 
@@ -91,6 +93,7 @@
 |------|------|------|------|
 | **Expeditions: Samurai** | 8/7 | expeditionssamuraiwiki | EA 上线（Act One），20/20 最高分候选 |
 | Grain Rot | 8/7 | grainrotwiki | 200k wishlist |
+| **Low-Budget Repairs** | **8/13** | **lowbudgetrepairswiki** | **1M+ wishlist，零 wiki 竞争** |
 | Mystralia | 8/11 | mystraliawiki | EA 上线 |
 | Delverium | 9/22 | delveriumwiki | EA 上线 |
 
@@ -100,15 +103,15 @@
 
 | 指标 | 数值 |
 |------|:--:|
-| **总站点数** | 27 |
-| **总攻略数** | 678 |
-| **Vercel 部署** | 27/27 ✅ |
-| **GA4 配置** | 16/27 ✅ |
-| **Dashboard 注册** | 27/27 ✅ |
-| **GSC 文件部署** | 27/27 ✅ |
-| **GSC 已验证** | 15/27 |
-| **GitHub 自动部署** | 1/27 |
-| **待创建 GA4** | 11 (Taival, Vahrin's Call, The Relic, Graphite, Shift At Midnight, Moonlight Peaks, Phantom Tower, Ardent Wilds, Go-Go Town!, Expeditions: Samurai, Delverium) |
+| **总站点数** | 28 |
+| **总攻略数** | 688 |
+| **Vercel 部署** | 28/28 ✅ |
+| **GA4 配置** | 16/28 ✅ |
+| **Dashboard 注册** | 28/28 ✅ |
+| **GSC 文件部署** | 28/28 ✅ |
+| **GSC 已验证** | 15/28 |
+| **GitHub 自动部署** | 1/28 |
+| **待创建 GA4** | 12 (Taival, Vahrin's Call, The Relic, Graphite, Shift At Midnight, Moonlight Peaks, Phantom Tower, Ardent Wilds, Go-Go Town!, Expeditions: Samurai, Delverium, Low-Budget Repairs) |
 
 ---
 
@@ -145,5 +148,6 @@
 🔜 8/7   Expeditions: Samurai EA（8/1 建站，20/20）
 🔜 8/7   Grain Rot
 🔜 8/11  Mystralia EA
+🔜 8/13  Low-Budget Repairs（8/3 建站，21/20）
 🔜 9/22  Delverium EA（8/2 建站，19/20）
 ```

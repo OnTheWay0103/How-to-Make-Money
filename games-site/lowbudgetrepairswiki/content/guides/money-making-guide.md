@@ -30,41 +30,37 @@ Since the fee is fixed, **profit maximization is purely a cost-minimization puzz
 
 ## Best Job Types for Maximum Profit
 
-Based on the demo, not all jobs pay equally well relative to their cost:
-
-**1. Repaint jobs — best for beginners.** Paint is the cheapest supply category, and it has the most invisible shortcuts. A repaint with diluted paint and skipped prep can push your margin toward 80–90%. Low risk, fast to finish.
+**1. Repaint jobs — best for beginners.** Paint is the cheapest supply category, with the most invisible shortcuts. A repaint with diluted paint and skipped prep can push your margin toward 80–90%. Low risk, fast to finish.
 
 **2. Furniture assembly — quick and clean.** Flat-pack jobs are mostly labor; the client pays for the furniture as part of the fee. Little room to cut corners, but little to go wrong.
 
-**3. Tiling jobs — high fee, high margin.** Tile jobs have the biggest gap between "proper" and "acceptable." Mismatched tiles, no spacers, no level — demo players report the client accepts it. One bathroom retile can fund your next several jobs.
+**3. Tiling jobs — high fee, high margin.** Tiling has the biggest gap between "proper" and "acceptable": mismatched tiles, no spacers, no level — demo players report the client accepts it. One bathroom retile can fund your next several jobs.
 
-**4. Plumbing jobs — risky but lucrative.** Plumbing fees are high because plumbing is "scary," and the costs are low if you use tape and sealant instead of replacing pipe sections. The risk is a leak failing inspection or flooding the flat — an expensive redo. Take these once you have spare cash.
+**4. Plumbing jobs — risky but lucrative.** Plumbing fees are high because plumbing is "scary," and costs stay low if you use tape and sealant instead of replacing pipe sections. The risk is a leak failing inspection or flooding the flat. Take these once you have spare cash.
 
-**5. Full flat renovations — the endgame.** Combining paint + tile + furniture + minor plumbing in one contract maximizes fee income per visit and lets you batch your corner-cutting. Save these until you know what inspectors notice.
+**5. Full flat renovations — the endgame.** Combining paint + tile + furniture + minor plumbing in one contract maximizes fee income per visit and lets you batch your corner-cutting.
 
 **Priority order**: Repaint → Furniture assembly → Tiling → Plumbing → Full renovation.
 
 ## Cost-Cutting Strategies, Ranked by Savings
 
-**1. Dilute the paint (biggest single saving).** Stretch every can. Demo players report a 1:5 ratio of thinner (or water) to paint passes inspection on most walls; the wall opposite the entrance deserves a second coat. One can of paint becomes 1.5–2 cans of "paint."
+**1. Dilute the paint (biggest single saving).** Demo players report a 1:5 ratio of thinner (or water) to paint passes inspection on most walls; the wall opposite the entrance deserves a second coat. One can becomes 1.5–2 cans of "paint."
 
-**2. Skip non-visible work.** Behind radiators, behind furniture, inside closets, under the sink — if the client can't see it without moving something, skip it. Inspectors only check what's immediately visible. This can cut a repaint's paint usage by a quarter.
+**2. Skip non-visible work.** Behind radiators, behind furniture, inside closets, under the sink — if the client can't see it without moving something, skip it. Inspectors only check what's visible. This can cut a repaint's paint usage by a quarter.
 
-**3. Buy bargain-bin supplies.** The hardware store's discount bin (see our [hardware store guide](/guides/hardware-store-guide)) sells off-brand or damaged stock at steep discounts. Stirred and shaken, bargain paint paints identically. Check the bin first on every trip.
+**3. Buy bargain-bin supplies.** The store's discount bin (see our [hardware store guide](/guides/hardware-store-guide)) sells off-brand or damaged stock at steep discounts. Stirred and shaken, bargain paint paints identically. Check the bin first every trip.
 
-**4. Use cheap and used tools.** Cheap tools cost a fraction and do the same job for the first few uses; used tools from the bin are even cheaper. Quality is only worth it when durability matters (see the [tool guide](/guides/tool-guide)).
+**4. Use cheap and used tools.** Cheap tools cost a fraction and do the same job for the first few uses; used bin tools are even cheaper. Quality is only worth it when durability matters (see the [tool guide](/guides/tool-guide)).
 
 **5. Cover mistakes instead of repairing them.** A poster costs less than a drywall patch; caulk covers cracks; paint covers mold — whether or not that's wise, it passes inspection. Always price the cover-up before the repair.
 
-**6. Throw furniture out the window.** Hauling furniture down the stairs takes time — time for the next job. Demo players report chucking unwanted furniture out of the window works, and the game doesn't bill you for the courtyard mess. The neighbors' complaints are flavor text, not a charge.
+**6. Throw furniture out the window.** Hauling furniture down the stairs takes time — time for the next job. Demo players report chucking unwanted furniture out the window works, and the game doesn't bill you for the courtyard mess. The neighbors' complaints are flavor text.
 
-**7. Leave trash in common areas.** Same logic: hauling debris to the dumpster is effort. Bags left in the hallway are cheaper. So far, the common areas are nobody's responsibility.
+**7. Leave trash in common areas.** Same logic: hauling debris to the dumpster is effort. Bags left in the hallway are cheaper, and so far the common areas are nobody's responsibility.
 
-**8. Use the wrong tool in a pinch.** Out of grout? Caulk it. No wallpaper scraper? A chisel works. The demo lets most tools substitute for each other roughly — the result is uglier, but inspectors rarely look that closely.
+**8. Use the wrong tool in a pinch.** Out of grout? Caulk it. No wallpaper scraper? A chisel works. The demo lets most tools substitute roughly — the result is uglier, but inspectors rarely look that closely.
 
 ## The Diluting Paint Technique (Step by Step)
-
-The game's most famous shortcut:
 
 1. Buy one can of paint and one can of thinner (or water — both reportedly work).
 2. Pour paint into your bucket, then add thinner up to your target ratio.
@@ -95,4 +91,4 @@ Each cover-up carries the same risk: if the client inspects closely, you're caug
 - **Hold off on plumbing until you have a float** — one flooded flat wipes out two jobs of profit.
 - **Batch renovations in the same building** — less walking, and neighbors who see you working may offer more contracts.
 
-The long-term strategy is simple: push per-job margins above 70% on repaint jobs, use the surplus to take riskier high-fee contracts, and never buy anything at full price. Until the game launches **August 13, 2026**, the demo is the best place to practice your corner-cutting.
+The long-term strategy: push per-job margins above 70% on repaint jobs, use the surplus for riskier high-fee contracts, and never buy anything at full price. Until launch on **August 13, 2026**, the demo is the best place to practice your corner-cutting.

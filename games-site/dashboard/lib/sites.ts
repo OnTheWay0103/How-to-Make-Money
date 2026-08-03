@@ -147,4 +147,9 @@ export const SITES: SiteConfig[] = [
     propertyId: '548062969',
     gaId: 'G-D09S2186H2',
   },
+  {
+    name: 'Low-Budget Repairs Wiki',
+    propertyId: 'TODO',
+    gaId: 'G-PLACEHOLDER',
+  },
 ];

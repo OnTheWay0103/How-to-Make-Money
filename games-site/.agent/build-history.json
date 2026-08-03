@@ -1,6 +1,21 @@
 {
   "builds": [
     {
+      "game": "Low-Budget Repairs",
+      "date": "2026-08-03",
+      "genre": "Renovation Simulator",
+      "template": "themoundwiki",
+      "guides": 10,
+      "keywords": 65,
+      "score": 21,
+      "issues": [
+        "Pre-release game (Aug 13 launch) — all guides based on July 2026 demo + pre-release coverage. Post-launch updates needed for exact mechanics",
+        "No real wiki competition confirmed — first-mover advantage",
+        "Simulation genre is new to portfolio — no genreInsights for renovation sims yet"
+      ],
+      "lessons": "1M+ wishlist, Aug 13 launch, zero wiki competition. Coordinator auto-build (score 21/20). 10 guides: beginner, money-making, cost-cutting tips, tool guide, hardware store, painting, tiling, renovation jobs reference, FAQ, system requirements. Content ratio: 50% reference tables (tool comparison, job reference, cost-cutting methods), 30% entry (beginner/FAQ/specs), 20% deep (painting/tiling guides)."
+    },
+    {
       "game": "Delverium",
       "date": "2026-08-02",
       "genre": "Co-op Survival Sandbox",

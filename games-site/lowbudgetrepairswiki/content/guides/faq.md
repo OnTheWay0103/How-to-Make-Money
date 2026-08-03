@@ -93,6 +93,12 @@ It sits in the same comedy-simulator family as other PlayWay titles, with a focu
 
 ---
 
+## Is Low-Budget Repairs in Early Access?
+
+**No.** Low-Budget Repairs launches as a complete game on August 13, 2026 — there are no Early Access plans. The July 2026 demo was the only early build available, and the release will be the full first version of the game.
+
+---
+
 ## Will the Wiki Update After Release?
 
 Yes. The game releases August 13, 2026 — guides based on the July 2026 demo will be updated with verified release-build details, including the full job list, exact prices, and confirmed system requirements.

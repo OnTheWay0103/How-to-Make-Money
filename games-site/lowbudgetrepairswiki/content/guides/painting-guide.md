@@ -12,13 +12,11 @@ related: ["tiling-guide", "renovation-jobs-guide", "faq"]
 
 > Based on the July 2026 demo. The full game launches August 13, 2026 — some details may change in the release build.
 
-Painting is the bread-and-butter of **Low-Budget Repairs**. Almost every job in the 1990s Polish blocks asks you to cover at least one wall, and painting is where you'll learn the game's central lesson: **the inspector checks coverage, not craftsmanship.** You don't need a perfect paint job — you need a paint job that looks finished from arm's length.
-
----
+Painting is the bread-and-butter of **Low-Budget Repairs**. Almost every job in the 1990s Polish blocks asks you to cover at least one wall, and painting is where you'll learn the game's central lesson: **the inspector checks coverage, not craftsmanship.** A passable paint job needs to look finished from arm's length — nothing more.
 
 ## Painting Mechanics Overview
 
-Every paintable surface shows its paint condition when you inspect it. Open the paint bucket, pour paint into a tray, and apply it with a brush, roller, or sprayer. Each tool paints a different-sized swath, and each wall needs a minimum amount of coverage before the inspector marks it done.
+Every paintable surface shows its paint condition when you inspect it. Open the paint bucket, pour paint into a tray, and apply it with a brush, roller, or sprayer — each tool paints a different-sized swath.
 
 Key things to know:
 
@@ -31,7 +29,7 @@ Key things to know:
 
 Stretching paint is the classic low-budget move. Mix water into the bucket before you start — roughly **10–20% water** for the standard budget paint in the demo. The effect: you cover more wall per can, but each coat covers worse, letting old stains bleed through — a single diluted coat over a stained wall is the most common inspection failure in the demo.
 
-The trick is dilution, not desperation: one diluted coat plus one normal coat usually passes and still costs less than two premium coats. Go past ~20% water and the paint starts acting like tinted water — patchy, streaky, and cheap-looking in the worst way.
+The trick is dilution, not desperation: one diluted coat plus one normal coat usually passes and still costs less than two premium coats. Past ~20% water, paint starts acting like tinted water.
 
 ---
 
@@ -39,9 +37,9 @@ The trick is dilution, not desperation: one diluted coat plus one normal coat us
 
 You are not required to paint every square centimeter. The inspector doesn't check:
 
-- **Behind radiators** — paint the visible strip above and below, skip the wall directly behind.
+- **Behind radiators** — paint the visible strip above and below, skip the wall behind.
 - **Behind heavy furniture** — wardrobes, sofas, and beds that stay in place hide large unpainted areas completely.
-- **Behind doors that close** — walls that are only visible when a door swings open rarely get checked.
+- **Behind doors that close** — walls only visible when a door swings open rarely get checked.
 - **Ceiling corners** — the top few centimeters where wall meets ceiling are nearly invisible at standing height.
 
 Rule of thumb: if you can't see it from the doorway with the lights on, neither can the inspector.
@@ -50,7 +48,7 @@ Rule of thumb: if you can't see it from the doorway with the lights on, neither 
 
 ## Paint Types and Their Differences
 
-The shop sells paint in roughly three tiers (prices unconfirmed before release):
+The shop sells paint in roughly three tiers (prices unconfirmed):
 
 | Paint tier | Coverage | Coats needed | Best use |
 |------------|----------|--------------|----------|
@@ -64,34 +62,28 @@ Premium paint is rarely worth it — two coats of budget paint almost always cos
 
 ## Brush vs Roller vs Spray
 
-- **Roller** — the workhorse. Fastest way to cover big wall areas, and speed is money. Most demo players use a roller for 80% of a flat.
-- **Brush** — slow but precise. Use it for edges, corners, window frames, and radiators where a roller can't reach. Don't brush entire walls.
-- **Sprayer** — the fastest large-area tool and great for doors and cabinets, but it oversprays: you'll paint skirting boards, floors, and windows if you're careless.
+- **Roller** — the workhorse: the fastest way to cover big wall areas, and speed is money. Most demo players roll 80% of a flat.
+- **Brush** — slow but precise. Use it for edges, corners, and radiators where a roller can't reach. Don't brush entire walls.
+- **Sprayer** — the fastest large-area tool, great for doors and cabinets, but it oversprays: you'll paint skirting boards, floors, and windows if you're careless.
 
-The efficient demo meta: spray/roll the big surfaces, brush the details, skip everything behind furniture.
-
----
+## Color Matching
 
 ## Color Matching (or Not Bothering)
 
-Matching paint colors between cans is overrated. The inspector does not verify color fidelity, and nobody in the building has a colorimeter. Practical notes:
+Matching paint colors between cans is overrated. The inspector does not verify color fidelity, and nobody in the building has a colorimeter. Leftover paint from an earlier job can cover a wall in a new room — nobody notices slight shade differences once it's dry. The only rule: big color changes (e.g., covering dark red with white) need either premium paint or two coats, since cheap paint lets the old color ghost through.
 
-- Leftover paint from an earlier job can cover a wall in a new room — nobody notices slight shade differences once it's dry.
-- Painting over a dirty white wall with any white-ish budget paint works fine.
-- Big color changes (e.g., covering dark red with white) need either premium paint or two coats — cheap paint will let the old color ghost through.
-
-Don't pay extra for "exact match" paint. Buy the cheapest can whose color is in the same family as the wall.
+Don't pay extra for "exact match" paint — buy the cheapest can in the same color family.
 
 ---
 
 ## Painting Over Mold
 
-Yes, really. Low-Budget Repairs is a game about doing the cheapest thing that passes inspection, and the cheapest thing for moldy walls is **more paint, not less**.
+Yes, really. The cheapest thing for moldy walls in Low-Budget Repairs is **more paint, not less**.
 
 - Mold patches bleed through thin paint — one diluted coat will fail.
 - A thick, full-coverage coat of standard-or-better paint hides most dark stains.
-- For heavy mold, two coats, or one coat of the darkest paint you're willing to use, does the job.
-- Scraping and treating the mold properly is a waste of the client's budget — and the inspector never checks what's under the paint.
+- For heavy mold, two coats (or one coat of the darkest paint you're willing to use) does the job.
+- Treating the mold is a waste of the client's budget — the inspector never checks what's under the paint.
 
 ---
 
@@ -100,19 +92,18 @@ Yes, really. Low-Budget Repairs is a game about doing the cheapest thing that pa
 The inspection pass is easier than most players fear:
 
 1. **Cover everything the contract lists.** An unpainted wall is an automatic fail; a poorly painted wall usually passes.
-2. **One visible coat is enough for light-colored walls** in most demo jobs — especially if the wall was already pale.
-3. **Streaks and roller marks are fine.** The inspector cares about paint coverage, not paint quality.
-4. **Keep leftover paint for touch-ups.** A quick brush-over of drips, splatters on skirting, or missed patches before inspection costs nothing.
-5. **If a job fails, the fix is usually one cheap coat, not a redo.** Failures cost reputation, not the whole contract.
+2. **One visible coat is enough for light-colored walls** — especially if the wall was already pale.
+3. **Streaks and roller marks are fine.** The inspector cares about coverage, not quality.
+4. **Keep leftover paint for touch-ups.** A brush-over of drips and missed patches before inspection costs nothing.
+5. **A failed job is usually fixed with one cheap coat** — failures cost reputation, not the whole contract.
 
 ---
 
 ## Quick Checklist for a Cheap, Passing Paint Job
 
 - Roll the walls, brush the edges, skip behind radiators and furniture.
-- Dilute budget paint to ~15% water; use two coats on stained walls.
-- Paint over mold, don't treat it.
-- Match colors "closely enough," never exactly.
+- Dilute budget paint to ~15% water; two coats on stained walls.
+- Paint over mold, don't treat it; match colors "closely enough," never exactly.
 - Touch up before inspection; pass with streaks and move on.
 
 For the rest of your renovation toolkit, see the [Tiling Guide](/guides/tiling-guide) and the full [Renovation Jobs list](/guides/renovation-jobs-guide).
