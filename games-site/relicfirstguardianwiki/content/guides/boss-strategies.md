@@ -106,6 +106,39 @@ At launch, the following are **not confirmed** — guides that state them confid
 
 ---
 
+## Community Spotlight: Areiden Mad Paladin
+
+> **Confirmed**: The Relic: First Guardian features 70+ Brutal bosses with parry-gate and dodge-gate archetypes. Attacks cost zero stamina — stamina is reserved for dodging, blocking, and parrying.
+
+Players have reported specific difficulty with **Areiden Mad Paladin**. Based on the game's confirmed combat mechanics, here is the known advice:
+
+### Curse Mechanic (Status Effect)
+
+- The game features **cursed weapons and artifacts** that apply status effects — some drain health in exchange for damage, others slow the player while granting stagger power. Cursed effects are a confirmed risk/reward system.
+- If a boss applies curse buildup, the game's design philosophy suggests it is intended as a **positioning check** — you cannot trade hits safely.
+- **Confirmed counter**: Relics can be swapped between fights. If curse buildup is overwhelming, switch to a Relic loadout that favors **mobility and status resistance** rather than raw damage.
+
+### Block and Parry Against This Boss
+
+- The game's boss design splits all Brutals into two types. If blocking and parrying "barely works," the boss is almost certainly a **dodge-gate** archetype:
+  - **Dodge-gate bosses** use unblockable attacks — blocking and parrying are **intentionally ineffective**. You must dodge through their swings and attack in recovery windows.
+  - This is a confirmed core mechanic, not a bug.
+- **Action to take**: Stop trying to block/parry. Identify unblockable tells (often signaled by a red indicator) and commit to dodging.
+
+### General Tips for This Fight
+
+| Tip | Based On |
+|-----|----------|
+| Identify the gate type in the first 30 seconds — throw a test block; if punished, it is dodge-gate | Confirmed game mechanic |
+| Attacks cost zero stamina — stay on offense between dodges | Confirmed |
+| Shield blocking costs less stamina than dodging — if you must block, use a shield | Confirmed (Into Indie Games guide) |
+| Parry chains of up to 15 hits are required for parry-gate bosses | Confirmed (launch reviews) |
+| Swap Relics between attempts to counter specific status effects | Confirmed game system |
+
+> **Note**: Per-boss pattern guides are still being documented by the community. The advice above applies the game's confirmed mechanics to this specific fight. Specific damage values, curse buildup thresholds, and frame data for Areiden Mad Paladin are not yet independently verified.
+
+---
+
 ## Common Questions
 
 **Q: What are "unblockable attacks"?**
