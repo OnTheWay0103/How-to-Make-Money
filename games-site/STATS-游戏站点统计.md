@@ -1,6 +1,6 @@
 # 游戏攻略站 — 站点统计
 
-> 最后更新：2026-08-04 | 29 站 · 698 篇攻略
+> 最后更新：2026-08-04 | 29 站 · 704 篇攻略
 
 ---
 
@@ -24,14 +24,14 @@
 | 14 | Dwarf Delve | 7/26 | 22 | dwarfdelvewiki.vercel.app | ✅ | ✅ | ✅ | |
 | 15 | Lunarium | 7/26 | 22 | lunariumwiki.vercel.app | ✅ | ✅ | ✅ | |
 | 16 | Taival 🆕 | 7/27 | 19 | taivalwiki.vercel.app | ✅ | ❌ | 🟡 | GA4 待创建 |
-| 17 | Vahrin's Call 🆕 | 7/28 | 14 | vahrinscallwiki.vercel.app | ✅ | ❌ | 🟡 | 7/27 游戏上线，GA4 待创建 |
+| 17 | Vahrin's Call 🆕 | 7/28 | 16 | vahrinscallwiki.vercel.app | ✅ | ❌ | 🟡 | 7/27 游戏上线；8/4 Coordinator 扩充 +2（Stealth+Backstab、Parrying），GA4 待创建 |
 | 18 | The Relic 🆕 | 7/28 | 23 | relicfirstguardianwiki.vercel.app | ✅ | ❌ | 🟡 | 7/31 已上线，GA4 待创建 |
 | 19 | Graphite 🆕 | 7/29 | 15 | graphitewiki.vercel.app | ✅ | ❌ | 🟡 | 7/27 游戏上线，GA4 待创建 |
-| 20 | Shift At Midnight 🆕 | 7/29 | 16 | shiftatmidnightwiki.vercel.app | ✅ | ❌ | 🟡 | 7/22 游戏上线，GA4 待创建 |
+| 20 | Shift At Midnight 🆕 | 7/29 | 18 | shiftatmidnightwiki.vercel.app | ✅ | ❌ | 🟡 | 7/22 游戏上线；8/4 Coordinator 扩充 +2（All Doppelgangers、Special Monsters），GA4 待创建 |
 | 21 | Moonlight Peaks 🆕 | 7/31 | 13 | moonlightpeakswiki.vercel.app | ✅ | ❌ | 🟡 | 7/7 游戏上线，20万销量，GA4 待创建 |
 | 22 | Bonehold 🆕 | 7/30 | 11 | boneholdwiki.vercel.app | ✅ | ✅ | 🟡 | GA4 已配置，GSC 待验证 |
 | 23 | Phantom Tower 🆕 | 7/30 | 11 | phantomtowerwiki.vercel.app | ✅ | ❌ | 🟡 | GA4 待创建 |
-| 24 | Ardent Wilds 🆕 | 7/31 | 13 | ardentwildswiki.vercel.app | ✅ | ❌ | 🟡 | GA4 待创建 |
+| 24 | Ardent Wilds 🆕 | 7/31 | 15 | ardentwildswiki.vercel.app | ✅ | ❌ | 🟡 | 8/4 Coordinator 扩充 +2（Enemies+Eldran、Artifacts+Loot），GA4 待创建 |
 | 25 | Go-Go Town! 🆕 | 8/01 | 10 | gotownwiki.vercel.app | ✅ | ❌ | 🟡 | 7/16 1.0 上线，93% 好评，GA4 待创建 |
 | 26 | Expeditions: Samurai 🆕 | 8/01 | 21 | expeditionssamuraiwiki.vercel.app | ✅ | ❌ | 🟡 | **20/20 最高分**，8/7 EA 上线；8/1 +8；8/3 更新系统需求（官方公布）+ EA FAQ（解锁时间/路线图），GA4 待创建 |
 | 27 | Delverium 🆕 | 8/02 | 7 | delveriumwiki.vercel.app | ✅ | ❌ | 🟡 | 8/2 Coordinator auto-build，19/20，9/22 EA，80k wishlist |
@@ -106,7 +106,7 @@
 | 指标 | 数值 |
 |------|:--:|
 | **总站点数** | 29 |
-| **总攻略数** | 698 |
+| **总攻略数** | 704 |
 | **Vercel 部署** | 29/29 ✅ |
 | **GA4 配置** | 16/29 ✅ |
 | **Dashboard 注册** | 29/29 ✅ |
