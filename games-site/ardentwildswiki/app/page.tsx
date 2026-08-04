@@ -10,6 +10,8 @@ const FEATURED_GUIDES = [
   { title: 'Combat Guide — Weapons, Builds & Abilities', description: 'All combat styles explained — fireball wizard, deadly warrior, precision marksman. Rare artifacts, ability combos, and the best builds for every playstyle.', slug: 'combat-guide', category: 'Combat', updated: '2026-07-31' },
   { title: 'Skill Tree & Spire Locations Guide', description: 'Every ancient spire and forgotten facility location. How to unlock skills, passive bonuses, and fast-travel points across the world map.', slug: 'skill-tree-guide', category: 'Exploration', updated: '2026-07-31' },
   { title: 'Multiplayer & Co-op Guide (Up to 6 Players)', description: 'How to set up co-op, best team compositions, shared base strategies, LAN play setup, and tips for 6-player survival.', slug: 'coop-guide', category: 'Co-op', updated: '2026-07-31' },
+  { title: 'Enemies & Eldran Guide — Every Threat', description: 'The Eldran hivemind, corrupted creatures, tentacly invaders, elite enemies, and named bosses like Zyrrhak — and how to fight each one.', slug: 'enemies-guide', category: 'Combat', updated: '2026-08-04' },
+  { title: 'Artifacts & Legendary Loot Guide — Rare Items', description: 'How rare artifacts unlock unique abilities, where legendary loot drops, the Tome of Ice and demo item examples, and how to build around what you find.', slug: 'artifacts-loot-guide', category: 'Exploration', updated: '2026-08-04' },
 ];
 
 const FAQ_ITEMS = [
