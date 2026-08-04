@@ -3,7 +3,7 @@ title: "Sephiria Wiki — Complete Guide Hub"
 description: "The ultimate community wiki for Sephiria — the pixel-art action roguelite by TEAM HORAY. Climb the Tower of Sephiria with 6 weapons, 200+ relics, and 1-4 player co-op. Find weapon tier lists, boss strategies, build guides, secret rooms, and more."
 category: "Home"
 version: "1.0"
-updated: "2026-08-02"
+updated: "2026-08-04"
 keywords: ["Sephiria", "Sephiria wiki", "Sephiria guide", "Sephiria 1.0", "Sephiria roguelite", "Sephiria weapons", "Sephiria bosses", "Sephiria builds"]
 related: ["beginner-guide", "full-release-guide", "weapons-tier-list", "boss-guide", "builds-guide"]
 ---
@@ -31,7 +31,12 @@ Sephiria 1.0 launched on **July 31, 2026** on Steam with a 94% positive rating. 
 | [Chapter 6 & Final Boss Guide](/guides/chapter-6-final-boss-guide) | The ending content | Advanced |
 | [Multiplayer & Connection Fixes](/guides/multiplayer-connection-fix-guide) | Co-op ping/desync fixes | Fixes |
 | [Co-op Guide](/guides/coop-guide) | Team play | Intermediate |
-| [Hard Mode Guide](/guides/hard-mode-guide) | Corruption & armored enemies | Advanced |
+| [Hard Mode Guide](/guides/hard-mode-guide) | Level 60 & all 6 modifiers | Advanced |
+| [Mystic Pot Guide](/guides/mystic-pot-guide) | Artifact re-rolling in 1.0 | Intermediate |
+| [Staff Build Guide](/guides/staff-build-guide) | S-tier element builds | Intermediate |
+| [Sword & Shield Build Guide](/guides/sword-shield-build-guide) | The consistent all-rounder | Starter |
+| [Crossbow Build Guide](/guides/crossbow-build-guide) | Safest Hard Mode weapon | Intermediate |
+| [Greatsword Build Guide](/guides/greatsword-build-guide) | Stagger & boss shutdown | Intermediate |
 | [Endgame Guide](/guides/endgame-guide) | Post-game progression | Advanced |
 | [Secret Rooms Guide](/guides/secret-rooms-guide) | Hidden content | Intermediate |
 | [Artifacts Guide](/guides/artifacts-guide) | 1.0 permanent items | Advanced |
@@ -55,6 +60,12 @@ Hard Mode → artifacts and masteries. The complete post-launch progression ladd
 
 ### Secret Rooms
 Cracked walls, hidden doors, music notes, and star-alignment puzzles — how to find every hidden room in all 6 chapters. [Find the secrets →](/guides/secret-rooms-guide)
+
+### Weapon Build Guides (1.0)
+Deep-dives for the four most-played weapons after the 1.0 balance patch — Staff (S-tier element builds), Sword & Shield (the consistent all-rounder), Crossbow (the safest Hard Mode pick) and Greatsword (stagger chains for the final boss). [Browse the builds →](/guides/staff-build-guide)
+
+### Mystic Pot
+The reworked 1.0 artifact station: trade 1-for-1 at the same rarity, or 2-for-1 up to the next rarity. How to re-roll your artifact pool for maximum power. [Reroll smarter →](/guides/mystic-pot-guide)
 
 ---
 

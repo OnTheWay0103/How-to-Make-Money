@@ -31,11 +31,11 @@ No new weapon types — instead, all **6 weapon branches** (Sword & Shield, Grea
 
 ### 3. Side Bag
 
-A **second inventory bag** — effectively bonus backpack space. Unlocked through the **Destiny Inscription** (blue-gem) tree. See the [New Systems Guide](/guides/new-systems-guide) for unlock order and what to store in it.
+A **second inventory bag** — effectively bonus backpack space. Unlocked through the **Destiny Inscription** (blue-gem) tree. See the [Mystic Pot Guide](/guides/mystic-pot-guide) for unlock order and what to store in it.
 
 ### 4. Mystic Pot Rework
 
-The artifact-rolling station was reworked: **trade 1 artifact for 1 of the same rarity, or 2 for 1 of the next rarity up**. Re-rolling up a rarity is the efficient endgame path. Details and priority order: [New Systems Guide](/guides/new-systems-guide).
+The artifact-rolling station was reworked: **trade 1 artifact for 1 of the same rarity, or 2 for 1 of the next rarity up**. Re-rolling up a rarity is the efficient endgame path. Details and priority order: [Mystic Pot Guide](/guides/mystic-pot-guide).
 
 ### 5. Hard Mode Extended to Level 60
 
@@ -77,5 +77,5 @@ Hard Mode now runs to **level 60** with **6 new modifiers** ([Demon] Blood Feast
 - [Chapter 6 & Final Boss Guide](/guides/chapter-6-final-boss-guide) — the new ending content
 - [Weapons Tier List (1.0)](/guides/weapons-tier-list) — post-balance meta
 - [Hard Mode Guide (1.0)](/guides/hard-mode-guide) — the 6 new modifiers
-- [New Systems Guide](/guides/new-systems-guide) — Mystic Pot, Side Bag, Destiny Inscription
+- [Mystic Pot Guide](/guides/mystic-pot-guide) — Mystic Pot, Side Bag, Destiny Inscription
 - [Update Roadmap](/guides/updates-roadmap) — What's planned post-launch
