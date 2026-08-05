@@ -99,12 +99,16 @@ description: 🧠 主管 Agent — 每天定时运行，读取状态、调度子
 ### Phase 3: 汇总
 
 ```
-1. 更新 STATS-游戏站点统计.md (如有变更)
-2. 输出本轮摘要:
+1. 运行 node scripts/update-stats.mjs → 自动统计实际攻略数/GA4/Vercel/GSC
+   - 脚本读取文件系统，更新 AUTO 标记区域，不会覆盖手动内容
+   - 如无变更则跳过
+2. git add STATS-游戏站点统计.md（如有变更）
+3. 输出本轮摘要:
    - 本轮做了什么
    - 各子 Agent 执行结果
    - 待人工处理事项
-3. git add + commit + push (如有代码变更)
+4. git add + commit + push (如有代码变更)
+   - ⚠️ pre-commit hook 会自动校验 STATS 是否与实际一致，不一致会阻断提交
 ```
 
 ---
