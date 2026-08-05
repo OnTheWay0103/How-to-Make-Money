@@ -157,4 +157,9 @@ export const SITES: SiteConfig[] = [
     propertyId: 'REPLACE_ME', // no GA4 yet
     gaId: 'G-PLACEHOLDER',
   },
+  {
+    name: 'IRON NEST Wiki',
+    propertyId: 'REPLACE_ME', // no GA4 yet
+    gaId: 'G-PLACEHOLDER',
+  },
 ];

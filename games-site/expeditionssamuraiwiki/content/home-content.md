@@ -3,7 +3,7 @@ title: "Expeditions: Samurai Wiki — Complete Guide Hub"
 description: "The ultimate community wiki for Expeditions: Samurai — the party-based Sengoku-era CRPG by Campfire Cabal / THQ Nordic. Find beginner guides, companion and romance guides, class builds, stealth tactics, village management, co-op and Act One walkthroughs."
 category: "Home"
 version: "1.0"
-updated: "2026-08-01"
+updated: "2026-08-06"
 keywords: ["Expeditions: Samurai", "Expeditions Samurai wiki", "Expeditions Samurai guide", "Campfire Cabal", "Sengoku CRPG", "THQ Nordic"]
 related: ["beginner-guide", "companions-guide", "best-builds-guide", "stealth-guide"]
 ---
@@ -20,6 +20,7 @@ Expeditions: Samurai enters Steam Early Access on **August 7, 2026** — the new
 
 | Guide | Best For | Difficulty |
 |-------|----------|------------|
+| [Launch Day Guide](/guides/launch-day-guide) | Release time, price & day one | All |
 | [Beginner Guide](/guides/beginner-guide) | First-time players | Starter |
 | [Classes Guide](/guides/classes-guide) | Character creation | Starter |
 | [Companions Guide](/guides/companions-guide) | Party building | Starter |
@@ -37,6 +38,9 @@ Expeditions: Samurai enters Steam Early Access on **August 7, 2026** — the new
 ---
 
 ## Featured Guides
+
+### Launch Day Guide
+Early Access goes live **August 7 at 14:00 UTC** — the confirmed unlock time, price status, what's in the day-one build, the THQ Nordic Digital Showcase, and your first-24-hours plan. [Read the full guide →](/guides/launch-day-guide)
 
 ### Beginner Guide
 Arrive in Japan aboard the De Albatros and survive your first hours — the core loop, your crew, and the three pillars of stealth, diplomacy, and steel. [Read the full guide →](/guides/beginner-guide)

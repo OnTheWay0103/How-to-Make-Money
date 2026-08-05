@@ -1,7 +1,7 @@
 # 候选游戏池
 
 > 侦察 Agent 发现的新游戏候选。主管 Agent 读取此文件做建站决策。
-> 最后更新: 2026-08-04
+> 最后更新: 2026-08-06
 
 ## 候选清单
 
@@ -12,7 +12,7 @@
 | 3 | Luminary | ARPG-lite Co-op (2人) | 19 | 8/11 EA | ❌ 无 | 8/3 | 观望（50K wishlist；名字泛化 SEO 弱；2人团队） |
 | 5 | Sir, We Have an Orc Problem | TD + 增量 (2人) | 19 | ~8/1 已上线 | ❌ 无 | 8/3 | 观望（首发 $360K/天、峰值 7.6K CCU 爆款，仅 ProdigyGamers 一篇攻略；2人团队） |
 | 6 | BOMBANANA! | 3人 Co-op 拆弹 | 19 | 8/27 | ❌ 无 | 8/3 | 观望（659K wishlist；派对游戏内容偏浅） |
-| 7 | IRON NEST: Heavy Turret Simulator | 重炮模拟 (2人) | 18 | 8/6 | ❌ 无 | 8/3 | 观望（843K wishlist；品类窄；3天后上线需快） |
+| 7 | ~~**IRON NEST: Heavy Turret Simulator**~~ | ~~重炮模拟 (2人)~~ | ~~**18**~~ | ~~8/6~~ | ~~❌ 无~~ | ~~8/3~~ | ✅ **已建站** — ironnestwiki，8/6 Coordinator auto-build（上线当日建站，843K wishlist，零 wiki 竞争） |
 | 8 | Blood Dungeon | Bullet Heaven 平台跳跃 (Messhof) | 17 | 8/25 | ❌ 无 | 8/3 | 观望（小团队 ~5人；名字泛化） |
 | 9 | Mortal Shell II | Souls-like ARPG | 16 | 8/20 | ⚠️ 竞争激烈 | 8/1 | 观望（IGN/Ludo.guide/社区Wiki已存在） |
 | 10 | Good Heavens! | Co-op 生存建造 RPG | 15 | 8月 EA | ❌ 无 | 8/1 | 观望（EA日期模糊，热度低） |
@@ -37,6 +37,7 @@
 | Go-Go Town! | 15 | 8/1 | gotownwiki |
 | Low-Budget Repairs | 21 | 8/3 | lowbudgetrepairswiki |
 | Delverium | 19 | 8/2 | delveriumwiki |
+| IRON NEST | 18 | 8/6 | ironnestwiki — 上线当日建站（8/6 发售，843K wishlist，零 wiki 竞争） |
 
 > ⚠️ 完整已建站清单（28 站）见 `dashboard/lib/sites.ts` 与 `.agent/build-history.json`。
 > 注意：**Echoes of Mystralia**（mystraliawiki）与 **Grain Rot**（grainrotwiki）已建站（7 月底），

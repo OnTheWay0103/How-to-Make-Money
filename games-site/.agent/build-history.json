@@ -1,6 +1,23 @@
 {
   "builds": [
     {
+      "game": "IRON NEST: Heavy Turret Simulator",
+      "date": "2026-08-06",
+      "genre": "Heavy Turret Simulator (Dieselpunk Artillery)",
+      "template": "themoundwiki (via bigwalkwiki)",
+      "guides": 10,
+      "keywords": 60,
+      "score": 18,
+      "issues": [
+        "Launched TODAY (Aug 6, 2026) — peak search window. Zero wiki competition (no Fandom, no community wiki; only article-style guide sites like ProGameGuides/2UpSkill)",
+        "Price not listed on Steam at launch — guides honestly marked price TBD",
+        "Some advanced ballistics figures (MOA clicks, PSI ranges, spotter error margins) are community-reported from demo guides, not officially documented — labeled as such in guides",
+        "No GA4 yet — G-PLACEHOLDER in dashboard registry",
+        "30 advertised ammo types/abilities — only 7 shells confirmed at launch; guide marked for updates as community unlocks the rest"
+      ],
+      "lessons": "Launch-day build (score 18/20, upgraded from wait-and-see at 843K wishlist). 10 guides: beginner (core loop + 6 stations), controls/keybindings, tactical map (20x10 grid, tokens, pencils, compass), target spotting/triangulation, ballistic calculator, shell types (HE/HCHE/AP/S.T.A.R./SMOKE/PHOSGENE/TEAR GAS), loading & aiming, requisition & upgrade path, counter-battery survival, system requirements. Genre is deep simulation — tier-list page adapted to Shell Tier List (overall, by target type, beginner purchase priority). Content ratio: 30% entry (beginner/controls/specs), 40% deep (map/targeting/ballistics/loading/counter-battery), 30% reference (shell list, upgrades, FAQ). Honesty rule applied — community-reported ballistics and unconfirmed price clearly labeled."
+    },
+    {
       "game": "Big Walk",
       "date": "2026-08-04",
       "genre": "Co-op Open World Puzzle Adventure",

@@ -3,9 +3,9 @@ title: "Expeditions: Samurai Early Access Guide — Act One Content, Roadmap & W
 description: "What's actually in Expeditions: Samurai's Early Access launch on August 7, 2026 — Act One content, confirmed features, what arrives later (village management, Act Two, crafting), and the roadmap to 1.0."
 category: "Game Info"
 version: "EA Act One"
-updated: "2026-08-03"
+updated: "2026-08-06"
 keywords: ["expeditions samurai early access", "expeditions samurai early access guide", "expeditions samurai act one content", "expeditions samurai roadmap", "expeditions samurai release date", "expeditions samurai what is included", "expeditions samurai 1.0 release"]
-related: ["beginner-guide", "walkthrough-act-one", "village-management-guide", "coop-multiplayer-guide", "combat-guide"]
+related: ["launch-day-guide", "beginner-guide", "walkthrough-act-one", "village-management-guide", "coop-multiplayer-guide", "combat-guide"]
 ---
 
 # Expeditions: Samurai Early Access Guide — Act One Content, Roadmap & What's Missing
@@ -24,7 +24,7 @@ related: ["beginner-guide", "walkthrough-act-one", "village-management-guide", "
 
 The official Early Access description promises a "satisfying slice of the story" that shows off **almost every feature of the final game**, including:
 
-- **Act One** — roughly **8 hours** of quests with full high-quality voice-over.
+- **Act One** — **five main quests and three side quests** (roughly **6–8 hours**) with full high-quality voice-over. This quest count was confirmed in the "Behind the Early Access" developer diary.
 - **Full-scope combat** — the fast, freeing simultaneous turn-based system where movement, attacks, and interruptions play out at the same time.
 - **Exploration** — real-time movement through levels.
 - **Stealth** — the series' first full stealth pillar: sneaking in real time, splitting your party, setting ambush positions, and opening fights with devastating surprise attacks. Firecrackers are officially confirmed as a distraction gadget.
@@ -57,14 +57,11 @@ The confirmed path from launch to 1.0:
 | **Story Update** | Act Two unlocked (~10 more hours of quests) |
 | **1.0 — Q1 2027** | Four acts, ~60+ hours total, 45+ levels and 100+ events/encounters, fully voiced, village management + Hatamoto, crafting, more build options |
 
-The team promised a more detailed roadmap document before the August 7 launch — **as of August 3, it has not yet been published**. This page tracks the confirmed milestones from the Steam page; check back here (and the official Steam announcements) once the detailed roadmap lands.
+The team promised a more detailed roadmap document before the August 7 launch — **as of August 6, it has not yet been published**. The "Behind the Early Access" developer diary (released August 5, the third in the series) confirmed the three-update structure and that player feedback will shape each update's content. This page tracks the confirmed milestones from the Steam page and official announcements; check back here once the detailed roadmap lands.
 
-## Co-op: Coming, But Launch Timing Is TBD
+## Co-op: Confirmed for Day One
 
-Two-player drop-in/drop-out co-op is the first in the series' history, with twin captains, shared dialogue checks, and simultaneous combat resolution. **However**: the Steam page's Early Access notes list the **co-op mode among features being added during Early Access**, and the official launch-features list (combat, exploration, stealth, world map) does not mention it. That means:
-
-- Co-op is a confirmed feature of Expeditions: Samurai.
-- Whether it's playable **on day one** is **TBD** — it may arrive with one of the first content updates.
+Two-player drop-in/drop-out co-op is the first in the series' history, with twin captains, shared dialogue checks, and simultaneous combat resolution. **The "Behind the Early Access" developer diary (August 5, 2026) confirmed the full 2-player online co-op is playable from launch day** — it is not a post-launch addition. Earlier confusion came from the Steam page's Early Access notes listing co-op among features being expanded during Early Access; the dev diary clarified the complete co-op mode ships in the launch build, with join/leave sessions at will (drop-in/drop-out).
 
 See the [Co-op Guide](/guides/coop-multiplayer-guide) for the full confirmed details of the mode itself.
 
@@ -80,21 +77,27 @@ An honest buying framework based only on confirmed information:
 
 **Wait for 1.0 if** you want the complete story (four acts, ~60 hours), village management, the full crafting and build-customization suite, and the complete companion roster with all reveals done. Early Access pricing is discounted versus the full version, but the full experience only exists at 1.0.
 
-**Unknowns to watch:** whether **saves carry from Early Access to 1.0** (not officially confirmed — treat it as TBD until the roadmap or launch materials say otherwise), the exact **co-op availability date**, and the **class names** and build details (revealed at launch).
+**Confirmed since this guide was first written:** saves **do carry from Early Access to 1.0** — the "Behind the Early Access" diary confirmed full save-data compatibility with the full release, so you won't restart at 1.0 (official statement translated in the August 5 developer diary coverage).
+
+**Unknowns to watch:** the **exact price** (still unannounced as of August 6 — the Steam page confirms Early Access is "at a slightly discounted price compared to the full version" but no number yet), whether any **crafting** is in the launch build, and the **class names** and build details (revealed at launch).
+
+## Launch Day: THQ Nordic Digital Showcase
+
+Expeditions: Samurai headlines the **THQ Nordic Digital Showcase 2026 on launch day, Friday August 7** — the same day the game enters Early Access. The showcase streams at **14:30 EDT / 19:30 BST / 20:30 CEST** (11:30 PM PDT) on YouTube, Twitch, and Steam, with a pre-show before it. Expect launch-day announcements there — including, very likely, the final price and any roadmap reveal. The game unlocks earlier in the day at 14:00 UTC, so the showcase is a follow-up event, not the unlock moment.
 
 ## Early Access FAQ
 
 **When does Expeditions: Samurai Early Access launch?** August 7, 2026 at 14:00 UTC (10:00 AM EDT / 7:00 AM PDT) on Steam for PC.
 
-**How long is Early Access Act One?** Roughly 8 hours of fully voiced quests.
+**How long is Early Access Act One?** Five main quests and three side quests — roughly 6–8 hours of fully voiced quests.
 
 **When is the full release?** Q1 2027, with four acts totaling ~60+ hours.
 
-**Is co-op available at launch?** TBD — co-op is confirmed as a feature, but the Steam page lists it among features being added during Early Access.
+**Is co-op available at launch?** Yes — confirmed in the "Behind the Early Access" developer diary (August 5): the full 2-player online co-op is playable from day one, with drop-in/drop-out support.
 
 **Is the game fully voiced in Early Access?** The launch quests have full high-quality voice-over; the full release is confirmed to be fully voiced.
 
-**Will my Early Access progress carry to 1.0?** TBD — not officially confirmed as of this writing.
+**Will my Early Access progress carry to 1.0?** Yes — save-data compatibility with the full release was confirmed in the "Behind the Early Access" developer diary (August 5). You won't need to restart at 1.0.
 
 **Is village management in Early Access?** No — it arrives later during Early Access development, tied to the Hatamoto title, and is a headline feature of the full release.
 

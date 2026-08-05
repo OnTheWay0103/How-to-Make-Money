@@ -46,6 +46,20 @@ const FEATURED_GUIDES = [
     category: 'Crafting',
     updated: '2026-08-01',
   },
+  {
+    title: 'Puzzles & Secrets Guide — Colosseum Tomb Solution',
+    description: 'The verified Colosseum Tomb puzzle solution with exact rewards, plus what is known about the Vault of Vahrin, Snatcher\'s Vault, and hidden treasures.',
+    slug: 'puzzles-secrets-guide',
+    category: 'Exploration',
+    updated: '2026-08-06',
+  },
+  {
+    title: 'Exploration & Navigation Guide',
+    description: 'Shrine of Sol checkpoints, the community-mapped fast travel network, death and respawn, and how the map and discovery tracker work.',
+    slug: 'exploration-navigation-guide',
+    category: 'Exploration',
+    updated: '2026-08-06',
+  },
 ];
 
 const FAQ_ITEMS = [

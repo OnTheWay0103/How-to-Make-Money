@@ -12,6 +12,8 @@ const FEATURED_GUIDES = [
   { title: 'Multiplayer & Co-op Guide (Up to 6 Players)', description: 'How to set up co-op, best team compositions, shared base strategies, LAN play setup, and tips for 6-player survival.', slug: 'coop-guide', category: 'Co-op', updated: '2026-07-31' },
   { title: 'Enemies & Eldran Guide — Every Threat', description: 'The Eldran hivemind, corrupted creatures, tentacly invaders, elite enemies, and named bosses like Zyrrhak — and how to fight each one.', slug: 'enemies-guide', category: 'Combat', updated: '2026-08-04' },
   { title: 'Artifacts & Legendary Loot Guide — Rare Items', description: 'How rare artifacts unlock unique abilities, where legendary loot drops, the Tome of Ice and demo item examples, and how to build around what you find.', slug: 'artifacts-loot-guide', category: 'Exploration', updated: '2026-08-04' },
+  { title: 'Caves & Underground Mining Guide — Ores, Mines & Secrets', description: 'Venture into ancient caves and underground mines — trap survival, the reworked digging and mining system, minecarts, the Aetherium Conflux, and where rare materials and artifacts are found.', slug: 'caves-mining-guide', category: 'Exploration', updated: '2026-08-06' },
+  { title: 'Armor Guide — Every Armor Set & How to Get It', description: 'How armor works in Ardent Wilds — crafting and looting armor, the confirmed Frayed Apprentice and Krell War sets, and defense strategy for dodge-based combat.', slug: 'armor-guide', category: 'Combat', updated: '2026-08-06' },
 ];
 
 const FAQ_ITEMS = [

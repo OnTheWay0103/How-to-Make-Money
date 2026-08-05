@@ -3,7 +3,7 @@ title: "Expeditions: Samurai Co-op Guide — The 2-Player Campaign"
 description: "How co-op works in Expeditions: Samurai — the series-first 2-player campaign mode, twin captains, shared dialogue checks, competing for decisions and companions, and coordinated combat."
 category: "Co-op"
 version: "1.0"
-updated: "2026-08-01"
+updated: "2026-08-06"
 keywords: ["expeditions samurai co-op", "expeditions samurai multiplayer", "expeditions samurai 2 player", "expeditions samurai co-op guide", "expeditions samurai drop in drop out"]
 related: ["stealth-guide", "romance-guide", "combat-guide"]
 ---
@@ -81,7 +81,7 @@ Because all 8 companions are romanceable and co-op dialogue is shared, competing
 
 **Is there more than 2-player co-op?** No — the series-first co-op is exactly 2 players.
 
-**Is co-op available on Early Access launch day?** TBD. The Steam page's Early Access notes list the co-op mode among features being added during Early Access, and the official launch-features list (combat, exploration, stealth, world map) doesn't mention it — it may arrive with one of the first content updates. See the [Early Access Guide](/guides/early-access-guide) for the roadmap details.
+**Is co-op available on Early Access launch day?** Yes — confirmed. The "Behind the Early Access" developer diary (August 5, 2026) confirmed the full 2-player online co-op is playable from launch day with drop-in/drop-out support, clearing up the earlier ambiguity from the Steam page's Early Access notes. See the [Early Access Guide](/guides/early-access-guide) for the full launch-day breakdown.
 
 ## Co-op Mistakes to Avoid
 
