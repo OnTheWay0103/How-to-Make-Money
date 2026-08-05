@@ -1,6 +1,6 @@
 # 游戏攻略站 — 站点统计
 
-> 最后更新：2026-08-05 | 29 站 · 712 篇攻略
+> 最后更新：2026-08-05 | 29 站 · 749 篇攻略
 
 ---
 
@@ -9,34 +9,34 @@
 | # | 站点 | 上线日 | 攻略 | 域名 | Vercel | GA4 | GSC | 备注 |
 |---|------|:--:|:--:|------|:--:|:--:|:--:|------|
 | 1 | Witchspire | 6/29 | 44 | witchspirewiki.vercel.app | ✅ | ✅ | ✅ | 8/1 反馈驱动 +3 新 +4 纠错（精灵机制/联机/PvP 造假清理） |
-| 2 | Mistfall Hunter | 7/01 | 48 | mistfallhunterwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 内容配比规则 +1 Boss/Mist Lord 速查表；8/1 内容配比 +1 Map Boss & Loot 速查表 |
+| 2 | Mistfall Hunter | 7/01 | 51 | mistfallhunterwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 内容配比规则 +1 Boss/Mist Lord 速查表；8/1 内容配比 +1 Map Boss & Loot 速查表 |
 | 3 | Aincrad | 7/07 | 45 | aincradwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 内容配比规则 +2（Golden Gate Boss、武器锻造配方表）；8/1 内容配比 +2（全 Boss 速查表、消耗品速查表） |
-| 4 | The Mound | 7/14 | 43 | themoundwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 内容配比规则 +2 速查表；**Tier List 页武器名纠错**（虚构 Rapier/Dagger 等 → 真实 Matchlock/Crossbow/Machete 等） |
-| 5 | SpiritVale | 7/12 | 42 | spiritvalewiki.vercel.app | ✅ | ✅ | ✅ | 8/1 内容配比规则 +1 世界 Boss 速查表（Echoing Spire） |
-| 6 | Skills & Raids | 7/15 | 19 | skillsandraidswiki.vercel.app | ✅ | ✅ | ✅ | 7/27 游戏上线 |
+| 4 | The Mound | 7/14 | 52 | themoundwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 内容配比规则 +2 速查表；Tier List 页武器名纠错（虚构 Rapier/Dagger 等 → 真实 Matchlock/Crossbow/Machete 等） |
+| 5 | SpiritVale | 7/12 | 49 | spiritvalewiki.vercel.app | ✅ | ✅ | ✅ | 8/1 内容配比规则 +1 世界 Boss 速查表（Echoing Spire） |
+| 6 | Skills & Raids | 7/15 | 24 | skillsandraidswiki.vercel.app | ✅ | ✅ | ✅ | 7/27 游戏上线 |
 | 7 | MineGeon | 7/20 | 29 | minegeonwiki.vercel.app | ✅ | ✅ | ✅ | 7/28 游戏上线；8/3 Coordinator 扩充 +2（Walkthrough、Review） |
-| 8 | Sephiria | 7/21 | 32 | sephiriawiki.vercel.app | ✅ | ✅ | ✅ | **7/31 1.0 上线**；8/1 内容配比规则 +2（Build 原型速查表、Boss 推进表） |
+| 8 | Sephiria | 7/21 | 41 | sephiriawiki.vercel.app | ✅ | ✅ | ✅ | 7/31 1.0 上线；8/1 内容配比规则 +2（Build 原型速查表、Boss 推进表） |
 | 9 | DinoBlade | 7/21 | 27 | dinobladewiki.vercel.app | ✅ | ✅ | ✅ | 8/3 Coordinator 扩充 +3（Leveling、How Long to Beat、Healing） |
-| 10 | Mystralia | 7/22 | 24 | mystraliawiki.vercel.app | ✅ | ✅ | ✅ | 8/11 EA |
-| 11 | Tears of Metal | 7/23 | 26 | tearsofmetalwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 反馈驱动 +3 新 +2 纠错（英雄名校准）；8/1 内容配比 +5（Wallace/Brienne/Ruadh 独立 Build 页、Corruption 机制、装备指南）+ 修复旧英雄/Boss 名残留（Vanguard→Wallace 等） |
+| 10 | Mystralia | 7/22 | 25 | mystraliawiki.vercel.app | ✅ | ✅ | ✅ | 8/11 EA |
+| 11 | Tears of Metal | 7/23 | 29 | tearsofmetalwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 反馈驱动 +3 新 +2 纠错（英雄名校准）；8/1 内容配比 +5（Wallace/Brienne/Ruadh 独立 Build 页、Corruption 机制、装备指南）+ 修复旧英雄/Boss 名残留 |
 | 12 | Grain Rot | 7/24 | 25 | grainrotwiki.vercel.app | ✅ | ✅ | ✅ | 8/7 游戏上线；8/3 1.0 内容更新（全量内容清单、生物群系+2、wishlist 25万→250k） |
 | 13 | DragonSword | 7/25 | 23 | dragonswordwiki.vercel.app | ✅ | ✅ | ✅ | 7/22 游戏上线；8/3 Coordinator 扩充 +3（Reina/Kalsion/Cerese 角色指南） |
-| 14 | Dwarf Delve | 7/26 | 22 | dwarfdelvewiki.vercel.app | ✅ | ✅ | ✅ | |
-| 15 | Lunarium | 7/26 | 22 | lunariumwiki.vercel.app | ✅ | ✅ | ✅ | |
-| 16 | Taival 🆕 | 7/27 | 19 | taivalwiki.vercel.app | ✅ | ❌ | 🟡 | GA4 待创建 |
-| 17 | Vahrin's Call 🆕 | 7/28 | 18 | vahrinscallwiki.vercel.app | ✅ | ❌ | 🟡 | 7/27 游戏上线；8/4 +2（Stealth+Backstab、Parrying）；8/5 +2（PC Performance、Lore & Story），GA4 待创建 |
-| 18 | The Relic 🆕 | 7/28 | 25 | relicfirstguardianwiki.vercel.app | ✅ | ❌ | 🟡 | 7/31 已上线；8/5 Coordinator 扩充 +2（Enemy Types、Status Effects），GA4 待创建 |
-| 19 | Graphite 🆕 | 7/29 | 15 | graphitewiki.vercel.app | ✅ | ❌ | 🟡 | 7/27 游戏上线，GA4 待创建 |
-| 20 | Shift At Midnight 🆕 | 7/29 | 20 | shiftatmidnightwiki.vercel.app | ✅ | ❌ | 🟡 | 7/22 游戏上线；8/4 +2（All Doppelgangers、Special Monsters）；8/5 +2（PC Performance、Patch Notes），GA4 待创建 |
-| 21 | Moonlight Peaks 🆕 | 7/31 | 13 | moonlightpeakswiki.vercel.app | ✅ | ❌ | 🟡 | 7/7 游戏上线，20万销量，GA4 待创建 |
-| 22 | Bonehold 🆕 | 7/30 | 11 | boneholdwiki.vercel.app | ✅ | ✅ | 🟡 | GA4 已配置，GSC 待验证 |
-| 23 | Phantom Tower 🆕 | 7/30 | 11 | phantomtowerwiki.vercel.app | ✅ | ❌ | 🟡 | GA4 待创建 |
-| 24 | Ardent Wilds 🆕 | 7/31 | 17 | ardentwildswiki.vercel.app | ✅ | ❌ | 🟡 | 8/4 +2（Enemies+Eldran、Artifacts+Loot）；8/5 +2（Weapons、Story Quests），GA4 待创建 |
-| 25 | Go-Go Town! 🆕 | 8/01 | 10 | gotownwiki.vercel.app | ✅ | ❌ | 🟡 | 7/16 1.0 上线，93% 好评，GA4 待创建 |
-| 26 | Expeditions: Samurai 🆕 | 8/01 | 21 | expeditionssamuraiwiki.vercel.app | ✅ | ❌ | 🟡 | **20/20 最高分**，8/7 EA 上线；8/1 +8；8/3 更新系统需求（官方公布）+ EA FAQ（解锁时间/路线图），GA4 待创建 |
-| 27 | Delverium 🆕 | 8/02 | 7 | delveriumwiki.vercel.app | ✅ | ❌ | 🟡 | 8/2 Coordinator auto-build，19/20，9/22 EA，80k wishlist |
-| 28 | **Low-Budget Repairs** 🆕 | 8/03 | 10 | lowbudgetrepairswiki.vercel.app | ✅ | ❌ | 🟡 | 8/3 Coordinator auto-build，21/20，8/13 上线，1M+ wishlist，零 wiki 竞争 |
-| 29 | **Big Walk** 🆕 | 8/04 | 10 | bigwalkwiki.vercel.app | ✅ | ❌ | 🟡 | **上线当日建站** — 21/25，House House/Panic，8/4 发售，799K wishlist，零 wiki 竞争；无战斗 → Tool Tier List；GA4/GSC 待创建 |
+| 14 | Dwarf Delve | 7/26 | 25 | dwarfdelvewiki.vercel.app | ✅ | ✅ | ✅ | |
+| 15 | Lunarium | 7/26 | 25 | lunariumwiki.vercel.app | ✅ | ✅ | ✅ | |
+| 16 | Taival | 7/27 | 21 | taivalwiki.vercel.app | ✅ | ✅ | 🟡 | GSC 待验证 |
+| 17 | Vahrin's Call | 7/28 | 21 | vahrinscallwiki.vercel.app | ✅ | ✅ | 🟡 | 7/27 游戏上线；8/4 +2（Stealth+Backstab、Parrying）；8/5 +2（PC Performance、Lore & Story），GSC 待验证 |
+| 18 | The Relic | 7/28 | 34 | relicfirstguardianwiki.vercel.app | ✅ | ✅ | 🟡 | 7/31 已上线；8/5 Coordinator 扩充 +2（Enemy Types、Status Effects），GSC 待验证 |
+| 19 | Graphite | 7/29 | 16 | graphitewiki.vercel.app | ✅ | ✅ | 🟡 | 7/27 游戏上线，GSC 待验证 |
+| 20 | Shift At Midnight | 7/29 | 26 | shiftatmidnightwiki.vercel.app | ✅ | ✅ | 🟡 | 7/22 游戏上线；8/4 +2（All Doppelgangers、Special Monsters）；8/5 +2（PC Performance、Patch Notes），GSC 待验证 |
+| 21 | Moonlight Peaks | 7/31 | 14 | moonlightpeakswiki.vercel.app | ✅ | ✅ | 🟡 | 7/7 游戏上线，20万销量，GSC 待验证 |
+| 22 | Bonehold | 7/30 | 14 | boneholdwiki.vercel.app | ✅ | ✅ | 🟡 | GSC 待验证 |
+| 23 | Phantom Tower | 7/30 | 12 | phantomtowerwiki.vercel.app | ✅ | ✅ | 🟡 | GSC 待验证 |
+| 24 | Ardent Wilds | 7/31 | 18 | ardentwildswiki.vercel.app | ✅ | ✅ | 🟡 | 8/4 +2（Enemies+Eldran、Artifacts+Loot）；8/5 +2（Weapons、Story Quests），GSC 待验证 |
+| 25 | Go-Go Town! | 8/01 | 11 | gotownwiki.vercel.app | ✅ | ✅ | 🟡 | 7/16 1.0 上线，93% 好评，GSC 待验证 |
+| 26 | Expeditions: Samurai | 8/01 | 21 | expeditionssamuraiwiki.vercel.app | ✅ | ✅ | 🟡 | 20/20 最高分，8/7 EA 上线；8/1 +8；8/3 更新系统需求（官方公布）+ EA FAQ（解锁时间/路线图），GSC 待验证 |
+| 27 | Delverium | 8/02 | 7 | delveriumwiki.vercel.app | ✅ | ❌ | 🟡 | 8/2 Coordinator auto-build，19/20，9/22 EA，80k wishlist；GA4 占位符 |
+| 28 | Low-Budget Repairs | 8/03 | 10 | lowbudgetrepairswiki.vercel.app | ✅ | ❌ | 🟡 | 8/3 Coordinator auto-build，21/20，8/13 上线，1M+ wishlist，零 wiki 竞争；GA4 占位符 |
+| 29 | Big Walk | 8/04 | 10 | bigwalkwiki.vercel.app | ✅ | ❌ | 🟡 | 上线当日建站 — 21/25，House House/Panic，8/4 发售，799K wishlist，零 wiki 竞争；无战斗 → Tool Tier List；GA4 空字符串，待创建 |
 
 ---
 
@@ -59,20 +59,22 @@
 | 13 | DragonSword | 7/25 | ✅ | ✅ 62 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | 14 | Dwarf Delve | 7/26 | ✅ | ✅ 60 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | 15 | Lunarium | 7/26 | ✅ | ✅ 63 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| 16 | Taival | 7/27 | ✅ | ✅ | ✅ | ❌ | ✅ | 🟡 | ✅ | ✅ |
-| 17 | Vahrin's Call | 7/28 | ✅ | ✅ 68 | ✅ | ❌ | ✅ | 🟡 | ✅ | ✅ |
-| 18 | The Relic | 7/28 | ✅ | ✅ 44 | ✅ | ❌ | ✅ | 🟡 | ✅ | ✅ |
-| 19 | Graphite | 7/29 | ✅ | ✅ 65 | ✅ | ❌ | ✅ | 🟡 | ✅ | ✅ |
-| 20 | Shift At Midnight | 7/29 | ✅ | ❌ WebSearch | ✅ | ❌ | ✅ | 🟡 | ✅ | ✅ |
-| 21 | Moonlight Peaks | 7/31 | ✅ | ✅ WebSearch | ✅ | ❌ | ⏳ | 🟡 | ✅ | ✅ |
+| 16 | Taival | 7/27 | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 | ✅ | ✅ |
+| 17 | Vahrin's Call | 7/28 | ✅ | ✅ 68 | ✅ | ✅ | ✅ | 🟡 | ✅ | ✅ |
+| 18 | The Relic | 7/28 | ✅ | ✅ 44 | ✅ | ✅ | ✅ | 🟡 | ✅ | ✅ |
+| 19 | Graphite | 7/29 | ✅ | ✅ 65 | ✅ | ✅ | ✅ | 🟡 | ✅ | ✅ |
+| 20 | Shift At Midnight | 7/29 | ✅ | ❌ WebSearch | ✅ | ✅ | ✅ | 🟡 | ✅ | ✅ |
+| 21 | Moonlight Peaks | 7/31 | ✅ | ✅ WebSearch | ✅ | ✅ | ✅ | 🟡 | ✅ | ✅ |
 | 22 | Bonehold | 7/30 | ✅ | ❌ | ✅ | ✅ | ✅ | 🟡 | ✅ | ✅ |
-| 23 | Phantom Tower | 7/30 | ✅ | ❌ | ✅ | ❌ | ✅ | 🟡 | ✅ | ✅ |
-| 24 | Ardent Wilds | 7/31 | ✅ | ✅ | ✅ | ❌ | ✅ | 🟡 | ✅ | ✅ |
-| 25 | Go-Go Town! | 8/01 | ✅ | ✅ 25 | ✅ | ❌ | ✅ | 🟡 | ✅ | ✅ |
-| 26 | Expeditions: Samurai | 8/01 | ✅ | ✅ 25 | ✅ | ❌ | ✅ | 🟡 | ✅ | ✅ |
-| 27 | Delverium | 8/02 | ✅ | ✅ 13 | ✅ | ❌ | ✅ | 🟡 | ✅ | ✅ |
-| 28 | Low-Budget Repairs | 8/03 | ✅ | ✅ 65 | ✅ | ❌ | ✅ | 🟡 | ✅ | 待更新 |
-| 29 | Big Walk | 8/04 | ✅ | ✅ 12 | ✅ | ❌ | ✅ | 🟡 | ✅ | ✅ |
+| 23 | Phantom Tower | 7/30 | ✅ | ❌ | ✅ | ✅ | ✅ | 🟡 | ✅ | ✅ |
+| 24 | Ardent Wilds | 7/31 | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 | ✅ | ✅ |
+| 25 | Go-Go Town! | 8/01 | ✅ | ✅ 25 | ✅ | ✅ | ✅ | 🟡 | ✅ | ✅ |
+| 26 | Expeditions: Samurai | 8/01 | ✅ | ✅ 25 | ✅ | ✅ | ✅ | 🟡 | ✅ | ✅ |
+| 27 | Delverium | 8/02 | ✅ | ✅ 13 | ✅ | ❌ | ✅ | 🟡 | ⚠️ | ✅ |
+| 28 | Low-Budget Repairs | 8/03 | ✅ | ✅ 65 | ✅ | ❌ | ✅ | 🟡 | ⚠️ | ✅ |
+| 29 | Big Walk | 8/04 | ✅ | ✅ 12 | ✅ | ❌ | ✅ | 🟡 | ⚠️ | ✅ |
+
+> ⚠️ Dashboard = 已注册但 propertyId 为占位符（REPLACE_ME / TODO），数据源不可用。
 
 ---
 
@@ -86,8 +88,9 @@
 
 | 事项 | 涉及站点 | 操作 |
 |------|---------|------|
-| **创建 GA4** | Taival, Vahrin's Call, The Relic, Graphite, Shift At Midnight, **Moonlight Peaks**, **Phantom Tower**, **Ardent Wilds**, **Go-Go Town!**, **Expeditions: Samurai**, **Delverium**, **Low-Budget Repairs**, **Big Walk** | GA4 后台创建，发我 Measurement ID |
-| **GSC 验证** | 14 站 🟡 (Taival, Vahrin's, Relic, Graphite, Shift At Midnight, Moonlight Peaks, **Bonehold**, **Phantom Tower**, **Ardent Wilds**, **Go-Go Town!**, **Expeditions: Samurai**, **Delverium**, **Low-Budget Repairs**, **Big Walk**) | GSC 后台添加资源+验证 |
+| **创建 GA4** | Big Walk, Delverium, Low-Budget Repairs | GA4 后台创建 Property，发我 Measurement ID |
+| **Dashboard 补齐 propertyId** | Delverium (`REPLACE_ME`), Low-Budget Repairs (`TODO`), Big Walk (`REPLACE_ME`) | GA4 创建后，在 GA Admin → Property Settings 找到数字 Property ID |
+| **GSC 验证** | 14 站 🟡 | GSC 后台添加资源+验证（文件已部署，只需后台操作） |
 
 ### 🟢 P2 — 上线日跟进
 
@@ -106,14 +109,14 @@
 | 指标 | 数值 |
 |------|:--:|
 | **总站点数** | 29 |
-| **总攻略数** | 712 |
+| **总攻略数** | 749 |
 | **Vercel 部署** | 29/29 ✅ |
-| **GA4 配置** | 16/29 ✅ |
-| **Dashboard 注册** | 29/29 ✅ |
-| **GSC 文件部署** | 29/29 ✅ |
-| **GSC 已验证** | 15/29 |
-| **GitHub 自动部署** | 1/29 |
-| **待创建 GA4** | 13 (Taival, Vahrin's Call, The Relic, Graphite, Shift At Midnight, Moonlight Peaks, Phantom Tower, Ardent Wilds, Go-Go Town!, Expeditions: Samurai, Delverium, Low-Budget Repairs, Big Walk) |
+| **GA4 已配置** | 26/29 |
+| **GA4 真缺失** | 3（Big Walk 空、Delverium 占位符、Low-Budget Repairs 占位符） |
+| **Dashboard 注册** | 29/29（3 站 propertyId 占位符） |
+| **GSC 文件部署** | 29/29 ✅（账户级令牌，所有站共用同一文件） |
+| **GSC 后台验证** | 15/29（其余需手动操作） |
+| **关键词待采集** | 3（Shift At Midnight、Bonehold、Phantom Tower） |
 
 ---
 
@@ -128,11 +131,15 @@
 | 7/27 修复 | 改为 `import SITE_CONFIG` 读取，单点配置。全部 19 站重新部署 |
 | 副作用 | 原 5 站 seo-config.ts 的 GA4 ID 为空（靠 fallback 工作），修复后需补填 |
 
-### 5.2 GitHub 自动部署缺失（18/19 站）
+### 5.2 GSC 验证文件说明
+
+所有 29 站部署的是**同一个** GSC 验证文件（`google12f8715471cef7b7.html`）。这是**正常行为**——Google 的验证令牌绑定到账户而非站点，同一账号下所有 Property 共用同一令牌。Google 通过域名/URL 区分不同 Property，而非通过验证文件内容。
+
+### 5.3 GitHub 自动部署缺失（28/29 站）
 
 `vercel link` 只创建项目，不配置 Git 集成（需浏览器 OAuth）。需手动逐站配置。
 
-### 5.3 Root Directory 双重路径
+### 5.4 Root Directory 双重路径
 
 部署前需 API 清空 → CLI 部署 → API 恢复，否则路径叠加报错。
 
