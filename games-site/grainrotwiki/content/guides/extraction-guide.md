@@ -1,7 +1,7 @@
 ---
 title: 'Extraction Guide — How to Extract Successfully in Grain Rot'
 description: 'Master the extraction loop in Grain Rot: when to push deeper, when to bail, protecting the haul, elevator strategy, and the confirmed rules of successful extraction.'
-category: 'Guides'
+category: 'Extraction'
 version: 'Pre-release'
 updated: '2026-08-01'
 keywords: ['grain rot extraction', 'grain rot how to extract', 'grain rot extraction guide', 'grain rot elevator', 'grain rot survive']

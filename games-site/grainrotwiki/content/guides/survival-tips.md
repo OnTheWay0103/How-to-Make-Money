@@ -1,7 +1,7 @@
 ---
 title: 'Survival Tips Guide — Vessel Durability, Corruption & the Extraction Loop'
 description: 'Real survival tips for Grain Rot: durability management, corruption discipline, the extraction economy, sound discipline, and co-op survival — the confirmed systems that keep your Spark alive.'
-category: 'Guides'
+category: 'Beginner'
 version: 'Pre-release'
 updated: '2026-08-01'
 keywords: ['grain rot survival', 'survival tips', 'grain rot corruption', 'grain rot durability', 'grain rot how to survive', 'grain rot tips']

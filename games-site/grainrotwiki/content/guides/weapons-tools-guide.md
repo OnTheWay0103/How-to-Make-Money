@@ -1,7 +1,7 @@
 ---
 title: 'Weapons & Tools Guide — All Constructs in Grain Rot (Confirmed Facts)'
 description: 'Grain Rot weapons and tools explained honestly: the confirmed construct system (20+ in the demo), the Grinder, tactical carpentry, and how to evaluate every unlock — with names and stats marked TBD.'
-category: 'Guides'
+category: 'Weapons'
 version: 'Pre-release'
 updated: '2026-08-01'
 keywords: ['grain rot weapons', 'grain rot tools', 'grain rot constructs list', 'grain rot weapon guide', 'grain rot best weapons', 'grain rot grinder']

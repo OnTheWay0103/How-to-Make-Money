@@ -1,6 +1,7 @@
 ---
 title: "Low-Budget Repairs Painting Guide — Tips, Shortcuts & Best Paint"
 description: "Master painting in Low-Budget Repairs: how to dilute paint, which walls to skip, brush vs roller vs spray, paint types, painting over mold, and how to pass inspection with a budget paint job."
+category: "Guides"
 date: "2026-08-03"
 keywords: ["low-budget repairs painting guide", "low budget repairs paint tips", "low budget repairs how to paint", "low budget repairs dilute paint", "low budget repairs roller or brush", "low budget repairs best paint"]
 updated: "2026-08-03"

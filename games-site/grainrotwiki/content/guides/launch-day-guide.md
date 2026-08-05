@@ -1,7 +1,7 @@
 ---
 title: 'Grain Rot Launch Guide — What to Do First on August 7'
 description: 'Grain Rot launches August 7, 2026 on Steam. Launch-day guide with the confirmed facts: demo history, system requirements, languages, what to expect at launch, and your first 24 hours.'
-category: 'Guides'
+category: 'Game Info'
 version: 'Pre-release'
 updated: '2026-08-01'
 keywords: ['grain rot release date', 'grain rot launch guide', 'grain rot august 7', 'grain rot full release', 'grain rot what to do first', 'grain rot launch day']

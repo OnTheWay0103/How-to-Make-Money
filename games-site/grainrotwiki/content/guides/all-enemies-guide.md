@@ -1,7 +1,7 @@
 ---
 title: 'All Enemies Guide — Every Corrupted Type in Grain Rot'
 description: 'Grain Rot enemies explained: the Corrupted are twisted vessels that react to sound, movement, and each other. The demo has 9 enemy types — here is what is confirmed and what is still TBD before launch.'
-category: 'Guides'
+category: 'Enemies'
 version: 'Pre-release'
 updated: '2026-08-01'
 keywords: ['grain rot enemies', 'grain rot corrupted', 'grain rot enemy guide', 'grain rot all enemies', 'grain rot monsters', 'grain rot demo enemies']

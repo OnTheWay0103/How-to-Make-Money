@@ -1,7 +1,7 @@
 ---
 title: 'Endgame Survival Guide — Deep Layers, Corruption & Risk Management'
 description: 'Grain Rot endgame and deep-run survival: what the Deep Layers are confirmed to be, how corruption and the extraction economy shape deep runs, and honest risk management before launch.'
-category: 'Guides'
+category: 'Advanced'
 version: 'Pre-release'
 updated: '2026-08-01'
 keywords: ['grain rot endgame', 'grain rot deep layers', 'grain rot corruption', 'grain rot deep runs', 'grain rot extraction', 'grain rot late game']

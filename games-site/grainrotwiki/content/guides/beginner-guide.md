@@ -1,7 +1,7 @@
 ---
 title: 'Beginner Guide — Getting Started in Grain Rot'
 description: 'Beginner guide for Grain Rot. Learn the confirmed core loop — possess vessels, scavenge loot, fight Corrupted, rebuild the Outpost, and extract alive — with honest pre-release tips for new Sparks.'
-category: 'Guides'
+category: 'Beginner'
 version: 'Pre-release'
 updated: '2026-08-01'
 keywords: ['grain rot beginner guide', 'grain rot getting started', 'grain rot tips', 'grain rot how to play', 'grain rot tutorial']

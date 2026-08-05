@@ -1,7 +1,7 @@
 ---
 title: 'Grain Rot Player Count — Max Players, Solo & Co-op Explained'
 description: 'How many players in Grain Rot? The confirmed answer: single-player is supported, online co-op descends "with your friends," and press materials describe teams of up to four friends. All the confirmed player count facts.'
-category: 'Guides'
+category: 'Game Info'
 version: 'Pre-release'
 updated: '2026-08-01'
 keywords: ['grain rot how many players', 'grain rot max players', 'grain rot player count', 'grain rot co-op', 'grain rot multiplayer', 'grain rot solo', 'grain rot single player', 'grain rot party size']

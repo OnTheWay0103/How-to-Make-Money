@@ -18,7 +18,7 @@ const FAQ_ITEMS = [
   {
     question: 'Is Echoes of Mystralia free to play?',
     answer:
-      'No. Echoes of Mystralia is a paid Early Access title on Steam. Pricing will be announced closer to the August 11, 2026 release date. A free demo is currently available on Steam featuring 4 core spells, 50 Memories, 15 Relics, and the first region (Ash Forest).',
+      'No. Echoes of Mystralia is a paid Early Access title on Steam. Pricing will be announced closer to the August 11, 2026 release date. A free demo is currently available on Steam featuring 4 core spells, 50 Memories, and the first region (Ash Forest). Note: Relics have not been confirmed by official sources — see the Relics Guide for the honest state of item systems.',
   },
   {
     question: 'Can I play solo?',

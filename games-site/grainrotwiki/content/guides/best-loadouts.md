@@ -1,7 +1,7 @@
 ---
 title: 'Best Loadouts Guide — Vessels, Constructs & Pre-Release Reality Check'
 description: 'Grain Rot loadouts in the pre-release period: what is confirmed about vessels and constructs, why tier lists are impossible before launch, and how to build effective loadouts once the demo unlocks them.'
-category: 'Guides'
+category: 'Builds'
 version: 'Pre-release'
 updated: '2026-08-01'
 keywords: ['grain rot best loadouts', 'grain rot best vessels', 'grain rot constructs', 'grain rot optimal build', 'grain rot loadout', 'grain rot meta']

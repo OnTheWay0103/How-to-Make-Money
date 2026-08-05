@@ -1,7 +1,7 @@
 ---
 title: 'Outpost Upgrade Guide — Progression & What to Upgrade First'
 description: 'Grain Rot Outpost progression explained honestly: the confirmed hub systems — constructs, stat upgrades, rescued survivors, upgradeable rooms — and sensible upgrade priorities before verified data exists.'
-category: 'Guides'
+category: 'Building'
 version: 'Pre-release'
 updated: '2026-08-01'
 keywords: ['grain rot outpost', 'grain rot base building', 'grain rot upgrades', 'grain rot progression', 'grain rot outpost guide']

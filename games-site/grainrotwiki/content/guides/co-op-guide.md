@@ -1,7 +1,7 @@
 ---
 title: 'Co-op Guide — Multiplayer Tips & Team Strategies'
 description: 'Grain Rot co-op guide: confirmed multiplayer facts — up to 4-player online co-op, friendly fire chaos, dropkicks, shared loot and Outpost — plus honest team strategy before launch.'
-category: 'Guides'
+category: 'Co-op'
 version: 'Pre-release'
 updated: '2026-08-01'
 keywords: ['grain rot co-op', 'grain rot multiplayer', 'grain rot team strategy', 'grain rot co op guide', 'grain rot teamwork', 'grain rot how many players']

@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Tier List',
   description:
-    'Echoes of Mystralia tier list — best spell forms, Memories, Relics, and elemental combinations ranked from S-Tier to C-Tier for the Early Access launch.',
+    'Echoes of Mystralia tier list — best spell forms, Memories, and elemental combinations ranked from S-Tier to C-Tier for the Early Access launch.',
 };
 
 function tierColor(tier: string): string {

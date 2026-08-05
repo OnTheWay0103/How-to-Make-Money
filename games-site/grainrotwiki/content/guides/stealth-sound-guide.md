@@ -1,7 +1,7 @@
 ---
 title: 'Stealth & Sound Guide — How to Avoid Combat in Grain Rot'
 description: 'Master stealth in Grain Rot: the confirmed sound, movement, and mutual-awareness model of the Corrupted, noise discipline, distraction tactics, and when to fight vs flee.'
-category: 'Guides'
+category: 'Mechanics'
 version: 'Pre-release'
 updated: '2026-08-01'
 keywords: ['grain rot stealth', 'grain rot sound guide', 'grain rot stealth tips', 'grain rot avoid combat', 'grain rot noise mechanics']

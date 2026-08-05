@@ -1,7 +1,7 @@
 ---
 title: 'Enemy Types Guide — The Corrupted, Detection & Combat Strategies'
 description: 'Every confirmed fact about Grain Rot enemy types: the Corrupted and their sound, movement, and mutual awareness — plus honest combat strategy before the full roster is documented.'
-category: 'Guides'
+category: 'Enemies'
 version: 'Pre-release'
 updated: '2026-08-01'
 keywords: ['grain rot enemies', 'grain rot corrupted', 'enemy behaviors', 'grain rot combat', 'grain rot monster types', 'grain rot threats']

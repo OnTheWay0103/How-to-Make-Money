@@ -1,7 +1,7 @@
 ---
 title: 'Game Mechanics & Systems Guide — How Grain Rot Really Works'
 description: 'The confirmed Grain Rot systems explained: vessel possession, the Rot and corruption, sound-based enemy AI, the extraction economy, and Outpost meta-progression — with unverified details clearly marked.'
-category: 'Guides'
+category: 'Mechanics'
 version: 'Pre-release'
 updated: '2026-08-01'
 keywords: ['grain rot mechanics', 'grain rot systems guide', 'grain rot corruption system', 'grain rot how to play', 'grain rot vessel system', 'grain rot explained']

@@ -3,14 +3,14 @@ title: "Expeditions: Samurai Companions Guide — All 8 Recruits, Loyalty & Role
 description: "All 8 Expeditions: Samurai companions — who they are, what they bring to the party, how loyalty works, and how to recruit and keep them. Includes the 5 named companions and their roles."
 category: "Companions"
 version: "1.0"
-updated: "2026-08-01"
+updated: "2026-08-05"
 keywords: ["expeditions samurai companions", "expeditions samurai companion guide", "expeditions samurai party members", "expeditions samurai recruitment", "expeditions samurai loyalty"]
 related: ["romance-guide", "beginner-guide", "best-builds-guide"]
 ---
 
 # Expeditions: Samurai — All Companions Guide
 
-> Early Access Build (Act One) / Updated: August 1, 2026
+> Early Access Build (Act One) / Updated: August 5, 2026
 
 Eight companions. Eight stories. "Earn their trust and an ally becomes a friend — or something more," reads the official Companions trailer — and in Expeditions: Samurai, that is literal game design. Every companion has a **personal story, a dedicated quest chain, and a relationship with you** that can end as friendship, rivalry, or romance. This guide covers every companion officially named, the roles they fill, and how the loyalty system works.
 
@@ -23,34 +23,39 @@ Official materials (the Companions trailer and press kit) have named **five of t
 - **Role:** Stealth, infiltration, locks
 - **Confirmed details:** "A skilled burglar who stealthily moves around while rendering pesky locks blocking the way forward obsolete."
 - **How to use her:** Antje is your key to the stealth pillar. She opens locked doors, scouts ahead, and sets up ambush positions. When you need a silent approach, she is the one who makes it happen.
+- **Dedicated guide:** [Antje Companion Guide](/guides/companion-antje) — recruitment, loyalty triggers, and romance path
 
 ### Johan — The Swordsman
 
 - **Role:** Frontline melee damage
 - **Confirmed details:** A swordsman and blood relative of your late captain — "just as arrogant as he is deadly with a blade."
 - **How to use him:** Johan is your strongest pure damage option in melee. His arrogance is a personality trait, not a stat — treat him well and his blade serves you; provoke him and the rivalry system has teeth.
+- **Dedicated guide:** [Johan Companion Guide](/guides/companion-johan) — recruitment, loyalty triggers, and romance path
 
 ### Tora-Hime — The Onna-Musha
 
 - **Role:** Warrior / story bridge
 - **Confirmed details:** An onna-musha (female samurai of the feudal era) "seeking her place in history."
 - **How to use her:** Tora-Hime bridges combat and story. Her personal quest — carving out a place in the warrior history of Japan — ties directly into the game's Sekigahara-era politics and is likely to open unique story routes.
+- **Dedicated guide:** [Tora-Hime Companion Guide](/guides/companion-tora-hime) — recruitment, loyalty triggers, and romance path
 
 ### Étienne Durand — The Priest-Diplomat
 
 - **Role:** Diplomacy, negotiations
 - **Confirmed details:** "A priest who serves as the crew's diplomatic 'superhero,' leading negotiations and talking the party through difficult situations."
 - **How to use him:** Étienne is your talker. When dialogue checks matter — and they matter often — he is your best asset. Keep him in the active party for negotiation-heavy missions.
+- **Dedicated guide:** [Étienne Durand Companion Guide](/guides/companion-etienne-durand) — recruitment, loyalty triggers, and romance path
 
 ### Piet Ruisch — The Brawler
 
 - **Role:** Melee / pistol hybrid
 - **Confirmed details:** "A brawler handy with both a sword and pistol."
 - **How to use him:** Piet is the flexible combatant — at home at close range with a blade and at medium range with a pistol. His hybrid nature makes him a good fill-in for any combat-heavy mission.
+- **Dedicated guide:** [Piet Ruisch Companion Guide](/guides/companion-piet-ruisch) — recruitment, loyalty triggers, and romance path
 
 ### The Three Unnamed Companions
 
-The Companions trailer confirms three more faces with their own stories. Details are expected in the launch-week media cycle. Watch this page — they'll be added here the moment official materials name them.
+The Companions trailer confirms three more faces with their own stories. Details are expected in the launch-week media cycle. Watch this page — they'll be added here the moment official materials name them, and each will get a dedicated guide page of their own once their names are revealed.
 
 ## How Loyalty Works
 

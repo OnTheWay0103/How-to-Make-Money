@@ -1,7 +1,7 @@
 ---
 title: 'Crafting & Resources Guide — Loot, Gold & Materials in Grain Rot'
 description: 'Grain Rot crafting and resources explained honestly: confirmed systems — smashing furniture, Grinders for gold, the extraction economy, Outpost spending — and what remains TBD before launch.'
-category: 'Guides'
+category: 'Crafting'
 version: 'Pre-release'
 updated: '2026-08-01'
 keywords: ['grain rot crafting', 'grain rot resources', 'grain rot farming', 'grain rot materials', 'grain rot grinder', 'grain rot loot']

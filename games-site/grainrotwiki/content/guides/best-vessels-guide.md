@@ -1,7 +1,7 @@
 ---
 title: 'Best Vessels & Constructs Guide — What Is Confirmed About Builds'
 description: 'Grain Rot vessels and constructs explained honestly: the confirmed vessel system, why no verified vessel list exists yet, what the demo unlocks, and how to evaluate builds before launch.'
-category: 'Guides'
+category: 'Builds'
 version: 'Pre-release'
 updated: '2026-08-01'
 keywords: ['grain rot best vessels', 'grain rot constructs', 'grain rot builds', 'grain rot best build', 'grain rot vessel guide', 'grain rot unlockables']

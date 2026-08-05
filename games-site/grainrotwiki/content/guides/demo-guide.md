@@ -1,7 +1,7 @@
 ---
 title: 'Demo Guide — Complete Grain Rot Demo Content & What It Teaches'
 description: 'Everything confirmed about the free Grain Rot demo: 3 underground biomes, 9 enemy types, 20+ unlockable constructs, upgradeable Outpost rooms, dungeon modifiers — and what the demo teaches before the August 7 launch.'
-category: 'Guides'
+category: 'Game Info'
 version: 'Pre-release'
 updated: '2026-08-01'
 keywords: ['grain rot demo', 'grain rot demo guide', 'grain rot demo content', 'grain rot demo progression', 'grain rot free demo', 'grain rot steam next fest']

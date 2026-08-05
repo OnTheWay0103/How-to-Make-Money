@@ -18,9 +18,9 @@
 | 7 | MineGeon | 7/20 | 29 | minegeonwiki.vercel.app | ✅ | ✅ | ✅ | 7/28 游戏上线；8/3 Coordinator 扩充 +2（Walkthrough、Review） |
 | 8 | Sephiria | 7/21 | 41 | sephiriawiki.vercel.app | ✅ | ✅ | ✅ | 7/31 1.0 上线；8/1 内容配比规则 +2（Build 原型速查表、Boss 推进表） |
 | 9 | DinoBlade | 7/21 | 27 | dinobladewiki.vercel.app | ✅ | ✅ | ✅ | 8/3 Coordinator 扩充 +3（Leveling、How Long to Beat、Healing） |
-| 10 | Mystralia | 7/22 | 25 | mystraliawiki.vercel.app | ✅ | ✅ | ✅ | 8/11 EA |
+| 10 | Mystralia | 7/22 | 27 | mystraliawiki.vercel.app | ✅ | ✅ | ✅ | 8/11 EA |
 | 11 | Tears of Metal | 7/23 | 29 | tearsofmetalwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 反馈驱动 +3 新 +2 纠错（英雄名校准）；8/1 内容配比 +5（Wallace/Brienne/Ruadh 独立 Build 页、Corruption 机制、装备指南）+ 修复旧英雄/Boss 名残留 |
-| 12 | Grain Rot | 7/24 | 25 | grainrotwiki.vercel.app | ✅ | ✅ | ✅ | 8/7 游戏上线；8/3 1.0 内容更新（全量内容清单、生物群系+2、wishlist 25万→250k） |
+| 12 | Grain Rot | 7/24 | 28 | grainrotwiki.vercel.app | ✅ | ✅ | ✅ | 8/7 游戏上线；8/3 1.0 内容更新（全量内容清单、生物群系+2、wishlist 25万→250k） |
 | 13 | DragonSword | 7/25 | 23 | dragonswordwiki.vercel.app | ✅ | ✅ | ✅ | 7/22 游戏上线；8/3 Coordinator 扩充 +3（Reina/Kalsion/Cerese 角色指南） |
 | 14 | Dwarf Delve | 7/26 | 25 | dwarfdelvewiki.vercel.app | ✅ | ✅ | ✅ |  |
 | 15 | Lunarium | 7/26 | 25 | lunariumwiki.vercel.app | ✅ | ✅ | ✅ |  |
@@ -34,10 +34,10 @@
 | 23 | Phantom Tower | 7/30 | 12 | phantomtowerwiki.vercel.app | ✅ | ✅ | ✅ | GSC 待验证 |
 | 24 | Ardent Wilds | 7/31 | 18 | ardentwildswiki.vercel.app | ✅ | ✅ | ✅ | 8/4 +2（Enemies+Eldran、Artifacts+Loot）；8/5 +2（Weapons、Story Quests），GSC 待验证 |
 | 25 | Go-Go Town! | 8/01 | 11 | gotownwiki.vercel.app | ✅ | ✅ | ✅ | 7/16 1.0 上线，93% 好评，GSC 待验证 |
-| 26 | Expeditions: Samurai | 8/01 | 21 | expeditionssamuraiwiki.vercel.app | ✅ | ✅ | ✅ | 20/20 最高分，8/7 EA 上线；8/1 +8；8/3 更新系统需求（官方公布）+ EA FAQ（解锁时间/路线图），GSC 待验证 |
+| 26 | Expeditions: Samurai | 8/01 | 24 | expeditionssamuraiwiki.vercel.app | ✅ | ✅ | ✅ | 20/20 最高分，8/7 EA 上线；8/1 +8；8/3 更新系统需求（官方公布）+ EA FAQ（解锁时间/路线图），GSC 待验证 |
 | 27 | Delverium | 8/02 | 7 | delveriumwiki.vercel.app | ✅ | ❌ | ✅ | 8/2 Coordinator auto-build，19/20，9/22 EA，80k wishlist；GA4 占位符 |
-| 28 | Low-Budget Repairs | 8/03 | 10 | lowbudgetrepairswiki.vercel.app | ✅ | ❌ | ✅ | 8/3 Coordinator auto-build，21/20，8/13 上线，1M+ wishlist，零 wiki 竞争；GA4 占位符 |
-| 29 | Big Walk | 8/04 | 10 | bigwalkwiki.vercel.app | ✅ | ❌ | ✅ | 上线当日建站 — 21/25，House House/Panic，8/4 发售，799K wishlist，零 wiki 竞争；无战斗 → Tool Tier List；GA4 空字符串，待创建 |
+| 28 | Low-Budget Repairs | 8/03 | 15 | lowbudgetrepairswiki.vercel.app | ✅ | ❌ | ✅ | 8/3 Coordinator auto-build，21/20，8/13 上线，1M+ wishlist，零 wiki 竞争；GA4 占位符 |
+| 29 | Big Walk | 8/04 | 16 | bigwalkwiki.vercel.app | ✅ | ❌ | ✅ | 上线当日建站 — 21/25，House House/Panic，8/4 发售，799K wishlist，零 wiki 竞争；无战斗 → Tool Tier List；GA4 空字符串，待创建 |
 <!-- AUTO-END:overview-table -->
 
 ---
@@ -114,7 +114,7 @@
 | 指标 | 数值 |
 |------|:--:|
 | **总站点数** | 29 |
-| **总攻略数** | 749 |
+| **总攻略数** | 768 |
 | **Vercel 部署** | 29/29 ✅ |
 | **GA4 已配置** | 26/29 |
 | **GA4 真缺失** | 3（bigwalkwiki（空）、delveriumwiki（G-PLACEHOLDER）、lowbudgetrepairswiki（G-PLACEHOLDER）） |

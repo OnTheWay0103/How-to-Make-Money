@@ -1,6 +1,7 @@
 ---
 title: "Low-Budget Repairs FAQ — Release Date, Platforms, Multiplayer & More"
 description: "All the key questions about Low-Budget Repairs answered: release date (Aug 13, 2026), platforms, price, demo availability, system requirements, multiplayer, mod support and more."
+category: "Game Info"
 date: "2026-08-03"
 keywords: ["low-budget repairs faq", "low budget repairs release date", "low budget repairs steam", "low budget repairs price", "low budget repairs multiplayer", "low budget repairs demo", "low budget repairs system requirements"]
 updated: "2026-08-03"

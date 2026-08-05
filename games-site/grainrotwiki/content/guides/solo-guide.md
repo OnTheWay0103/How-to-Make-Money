@@ -1,7 +1,7 @@
 ---
 title: 'Solo Guide — How to Survive Alone in Grain Rot'
 description: 'Can you play Grain Rot solo? Yes — single-player is confirmed. This guide covers solo play: sound discipline, risk management, loadout logic, extraction alone, and how solo differs from co-op.'
-category: 'Guides'
+category: 'Beginner'
 version: 'Pre-release'
 updated: '2026-08-01'
 keywords: ['grain rot solo', 'grain rot single player', 'grain rot solo guide', 'grain rot solo tips', 'grain rot how to play alone']

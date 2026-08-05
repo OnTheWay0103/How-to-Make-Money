@@ -1,7 +1,7 @@
 ---
 title: 'Grain Rot Full Release Guide — What’s New in 1.0 vs the Demo'
 description: 'Everything confirmed about the Grain Rot 1.0 launch on August 7, 2026: the full release content additions vs the demo — two new biomes, a boss, elite enemies, Spark abilities, player leveling, a second Outpost floor, and more.'
-category: 'Guides'
+category: 'Game Info'
 version: '1.0'
 updated: '2026-08-03'
 keywords: ['grain rot 1.0', 'grain rot full release', 'grain rot new content', 'grain rot what’s new', 'grain rot 1.0 changes', 'grain rot demo vs full game', 'grain rot launch content', 'grain rot boss']

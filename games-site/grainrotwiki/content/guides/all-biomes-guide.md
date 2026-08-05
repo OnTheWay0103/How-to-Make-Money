@@ -1,7 +1,7 @@
 ---
 title: 'All Biomes Guide — Every Underground Layer in Grain Rot'
 description: 'What we know about Grain Rot biomes before launch: the 3 demo underground biomes, the Deep Layers, procedural shifting ruins, and which layer details are confirmed versus still TBD.'
-category: 'Guides'
+category: 'Exploration'
 version: 'Pre-release'
 updated: '2026-08-01'
 keywords: ['grain rot biomes', 'grain rot underground layers', 'grain rot map', 'grain rot levels', 'grain rot demo biomes', 'grain rot deep layers']

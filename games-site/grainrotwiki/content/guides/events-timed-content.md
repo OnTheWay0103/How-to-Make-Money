@@ -1,7 +1,7 @@
 ---
 title: 'Events & Timed Content Guide — Dungeon Modifiers and Live Content'
 description: 'Grain Rot events and timed content, honestly: the confirmed dungeon modifier system from the demo, the unconfirmed status of live events, and how modifiers change each run.'
-category: 'Guides'
+category: 'Game Info'
 version: 'Pre-release'
 updated: '2026-08-01'
 keywords: ['grain rot events', 'grain rot timed content', 'grain rot dungeon modifiers', 'grain rot modifiers', 'grain rot seasonal events']

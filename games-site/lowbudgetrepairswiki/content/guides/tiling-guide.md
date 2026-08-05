@@ -1,6 +1,7 @@
 ---
 title: "Low-Budget Repairs Tiling Guide — Cheapest Methods & Shortcuts"
 description: "Tile floors and walls the cheap way in Low-Budget Repairs: tiling without a level or spacers, budget tile sources, mismatched tile tricks, grouting shortcuts, and when tiling is actually required."
+category: "Guides"
 date: "2026-08-03"
 keywords: ["low-budget repairs tiling guide", "low budget repairs tile floor", "low budget repairs how to tile", "low budget repairs tile cheap", "low budget repairs grout", "low budget repairs bathroom tiles"]
 updated: "2026-08-03"

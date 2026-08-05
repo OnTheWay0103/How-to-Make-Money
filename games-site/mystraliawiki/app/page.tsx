@@ -6,7 +6,7 @@ import GuideCard from '@/components/GuideCard';
 const FEATURED_GUIDES = [
   {
     title: 'Beginner Guide: Getting Started',
-    description: 'New to Echoes of Mystralia? Learn the basics of spell crafting, Memories, Relics, Lotus progression, and what to do in your first few hours.',
+    description: 'New to Echoes of Mystralia? Learn the basics of spell crafting, Memories, and what to do in your first few hours.',
     slug: 'beginner-guide',
     category: 'Beginner',
     updated: '2026-07-22',
@@ -33,11 +33,11 @@ const FEATURED_GUIDES = [
     updated: '2026-07-22',
   },
   {
-    title: 'Relics Guide: Best Relics & Effects',
-    description: 'Every Relic cataloged with effects, rarity tiers, and build synergies. Learn which Relics to prioritize for your spell crafting build.',
+    title: 'Relics Guide: The Honest State of Item Systems',
+    description: 'Are there Relics in Echoes of Mystralia? No official source says so — here\'s what\'s confirmed about passive power systems and what stays TBD at Early Access.',
     slug: 'relics-guide',
-    category: 'Items',
-    updated: '2026-07-22',
+    category: 'Systems',
+    updated: '2026-08-01',
   },
   {
     title: 'Guardian Boss Guide: All Boss Strategies',
@@ -55,7 +55,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'Is Echoes of Mystralia free to play?',
-    answer: 'No. Echoes of Mystralia is a paid Early Access title on Steam. Pricing will be announced closer to the August 11, 2026 release date. A free demo is currently available on Steam featuring 4 core spells, 50 Memories, 15 Relics, and the first region.',
+    answer: 'No. Echoes of Mystralia is a paid Early Access title on Steam. Pricing will be announced closer to the August 11, 2026 release date. A free demo is currently available on Steam featuring 4 core spells, 50 Memories, and the first region. Note: Relics have not been confirmed by official sources — see the Relics Guide for the honest state of item systems.',
   },
   {
     question: 'Can I play Echoes of Mystralia solo?',
@@ -87,7 +87,7 @@ export default function Home() {
         </h1>
         <p className="text-lg text-gray-400 max-w-xl mx-auto mb-8">
           Complete guide hub for the spellcrafting ARPG roguelite by Borealys Games.
-          Spell builds, all 110 Memories, Relics, Guardian bosses — everything you need.
+          Spell builds, all 110 Memories, Guardian boss strategies — everything you need.
         </p>
         <div className="flex items-center justify-center gap-4">
           <a

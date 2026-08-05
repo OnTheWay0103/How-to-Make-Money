@@ -1,6 +1,7 @@
 ---
 title: "Low-Budget Repairs System Requirements — Can Your PC Run It?"
 description: "Low-Budget Repairs minimum and recommended PC specs: Windows 10, 8GB vs 16GB RAM, RX 580 / GTX 1060 vs RX 5700 XT / RTX 2070, and 30GB storage. See if your PC or laptop can run it."
+category: "Reference"
 date: "2026-08-03"
 keywords: ["low-budget repairs system requirements", "low budget repairs pc specs", "low budget repairs minimum requirements", "low budget repairs recommended specs", "low budget repairs can i run it"]
 updated: "2026-08-03"

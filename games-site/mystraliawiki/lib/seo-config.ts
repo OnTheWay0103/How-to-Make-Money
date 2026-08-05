@@ -30,7 +30,7 @@ export const SITE_CONFIG = {
 
   /** Default meta description — shown in search-engine snippets. */
   description:
-    'Unofficial Echoes of Mystralia wiki and guide hub — spell crafting builds, all 110 Memories, Relics, Guardian boss strategies, Lotus progression, and beginner guide for the Borealys Games action-RPG roguelite.',
+    'Unofficial Echoes of Mystralia wiki and guide hub — spell crafting builds, all 110 Memories, Guardian boss strategies, progression systems, and beginner guide for the Borealys Games action-RPG roguelite.',
 
   /** Canonical base URL (trailing slash omitted). */
   url: 'https://mystraliawiki.vercel.app',

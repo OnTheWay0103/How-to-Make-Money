@@ -1,7 +1,7 @@
 ---
 title: 'Base Building Guide — The Outpost Explained'
 description: 'What "base building" means in Grain Rot: the persistent Outpost hub between extraction runs. Confirmed features — rebuilding, interactive furniture, stat upgrades, rescued survivors — and what is still TBD before launch.'
-category: 'Guides'
+category: 'Building'
 version: 'Pre-release'
 updated: '2026-08-01'
 keywords: ['grain rot base building', 'grain rot outpost', 'grain rot base guide', 'grain rot building', 'grain rot outpost upgrades']

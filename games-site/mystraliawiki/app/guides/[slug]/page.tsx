@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation';
 import { getGuideBySlug, extractHeadings, getAllGuides } from '@/lib/guides';
 import { generateGuideMetadata } from '@/lib/metadata';
+import { SITE_CONFIG } from '@/lib/seo-config';
 import { articleSchema, breadcrumbSchema, faqPageSchema } from '@/lib/schema';
 import GuideLayout from '@/components/GuideLayout';
 import TableOfContents from '@/components/TableOfContents';
@@ -54,7 +55,7 @@ export default async function GuidePage({ params }: Props) {
         data={articleSchema(
           guide.frontmatter.title,
           guide.frontmatter.description,
-          `https://witchspire.wiki${url}`,
+          `${SITE_CONFIG.url}${url}`,
           guide.frontmatter.updated,
           guide.frontmatter.updated
         )}

@@ -1,7 +1,7 @@
 ---
 title: 'Hard Mode Guide — Is There a Hard Mode in Grain Rot?'
 description: 'The honest answer about Grain Rot hard mode: no hard mode has been announced. What is confirmed about the difficulty curve — deeper layers, corruption, the Corrupted — and how to create your own challenge.'
-category: 'Guides'
+category: 'Advanced'
 version: 'Pre-release'
 updated: '2026-08-01'
 keywords: ['grain rot hard mode', 'grain rot difficulty', 'grain rot endgame', 'grain rot challenge', 'grain rot corruption']

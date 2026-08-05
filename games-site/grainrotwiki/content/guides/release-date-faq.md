@@ -1,7 +1,7 @@
 ---
 title: 'Release Date, Platforms & FAQ — Everything We Know About Grain Rot'
 description: 'Grain Rot release date (August 7, 2026), platforms, price status, demo info, system requirements, and FAQs — every confirmed fact about the horror co-op extraction builder, with unconfirmed items clearly marked.'
-category: 'Guides'
+category: 'Game Info'
 version: 'Pre-release'
 updated: '2026-08-01'
 keywords: ['grain rot release date', 'grain rot platforms', 'grain rot price', 'grain rot demo', 'grain rot system requirements', 'grain rot faq', 'grain rot ps5', 'grain rot xbox']
