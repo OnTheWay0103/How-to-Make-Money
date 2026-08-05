@@ -1,6 +1,6 @@
 ---
 name: build-game-site
-description: L3 自主规划 Agent — 输入游戏名建站，或留空自动搜索+评估+选择最佳游戏全自动建站。
+description: L3 自主规划 Agent — 输入游戏名建站，或留空自动搜索+评估+选择最佳游戏全自动建站。内嵌第一级基础设施 Gate（构建/部署/配置）。内容质量审核由独立的 QA Agent（quality-assurance）作为第二级把关。
 arguments:
   - name: gameName
     description: 目标游戏的 Steam 搜索名（如 "Dinoblade"）。留空则自动搜索热门游戏。
@@ -339,9 +339,11 @@ grep -r "SpiritVale\|Witchspire\|mistfall\|aincrad\|The Mound\|Skills & Raids" {
 
 ---
 
-### 构建验证 Gate（提交前强制）
+### 构建验证 Gate（第一级自查，提交前强制）
 
 > ⚠️ **不通过此 Gate 不得提交。** 本地 build 通过是部署的前提。
+> 
+> **这是第一级基础设施自查。** 提交后 Coordinator 会调度 QA Agent（`quality-assurance`）进行独立的第二级审核——包括内容质量（虚构检测、一致性、残留）和基建复查。Build Agent 专注创作，QA Agent 专注验证。
 
 ```bash
 cd {project}

@@ -9,7 +9,7 @@
 <!-- AUTO-START:overview-table -->
 | # | 站点 | 上线日 | 攻略 | 域名 | Vercel | GA4 | GSC | 备注 |
 |---|------|:--:|:--:|------|:--:|:--:|:--:|------|
-| 1 | Witchspire | 6/29 | 99 | witchspirewiki.vercel.app | ✅ | ✅ | ✅ | 8/1 反馈驱动 +3 新 +4 纠错（精灵机制/联机/PvP 造假清理） |
+| 1 | Witchspire | 6/29 | 44 | witchspirewiki.vercel.app | ✅ | ✅ | ✅ | 8/1 反馈驱动 +3 新 +4 纠错（精灵机制/联机/PvP 造假清理） |
 | 2 | Mistfall Hunter | 7/01 | 51 | mistfallhunterwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 内容配比规则 +1 Boss/Mist Lord 速查表；8/1 内容配比 +1 Map Boss & Loot 速查表 |
 | 3 | Aincrad | 7/07 | 45 | aincradwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 内容配比规则 +2（Golden Gate Boss、武器锻造配方表）；8/1 内容配比 +2（全 Boss 速查表、消耗品速查表） |
 | 4 | The Mound | 7/14 | 52 | themoundwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 内容配比规则 +2 速查表；Tier List 页武器名纠错（虚构 Rapier/Dagger 等 → 真实 Matchlock/Crossbow/Machete 等） |

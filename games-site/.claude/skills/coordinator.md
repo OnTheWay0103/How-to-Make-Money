@@ -19,6 +19,7 @@ description: 🧠 主管 Agent — 每天定时运行，读取状态、调度子
   ├─ 候选池空? → 调度 侦察Agent 搜索新游戏
   │
   ├─ 候选有分 ≥ 15? → 调度 反馈Agent(quick) + 关键词Agent → 建站Agent(new)
+  │     └─ 建站完成后 → 调度 QA Agent(quick) 审核新内容
   │
   ├─ 重点站 (⭐+、PV > 100) → 每次运行都做轻量监测:
   │     · 检查 Google Trends / WebSearch 有无新热点
@@ -30,6 +31,9 @@ description: 🧠 主管 Agent — 每天定时运行，读取状态、调度子
   ├─ 重点站 距上次深度反馈分析 > 7 天? → 调度 反馈Agent(deep)
   │
   ├─ 重点站内容 < 25 篇? → 调度 建站Agent(expand)
+  │     └─ 扩充完成后 → 调度 QA Agent(quick) 审核新内容
+  │
+  ├─ 距上次全量 QA > 7 天? → 调度 QA Agent(deep, all) 全站审计
   │
   ├─ 普通站 (⭐) → 距上次检查 > 7 天? → 轻量检查
   │
@@ -77,14 +81,25 @@ description: 🧠 主管 Agent — 每天定时运行，读取状态、调度子
   2. Invoke build-game-site skill with gameName={name}, mode="new", guideCount={根据关键词数}
      → Gate 检查 → 部署 → 注册
      → 返回建站结果
-  3. 从候选池移除已建站的游戏
+  3. Invoke quality-assurance skill with target={站点目录}, mode="quick"
+     → 内容审核（虚构检测/一致性/残留）
+     → 基建复查（build/deploy/GA4/GSC）
+     → 返回结构化 QA 报告
+  4. 读 QA 报告:
+     - 🔴 阻断 → 自动修复 → 重新 QA，仍失败则跳过该站
+     - 🟡 警告 → 记录 issue，继续提交
+     - ✅ 通过 → 继续
+  5. 从候选池移除已建站的游戏
 ```
 
 **分支 C — 重点站需要补充内容**
 
 ```
 决策: 重点站 (⭐⭐+) 内容 < 25 篇
-行动: Invoke build-game-site skill with siteName={site}, mode="expand", guideCount=5
+行动:
+  1. Invoke build-game-site skill with siteName={site}, mode="expand", guideCount=5
+  2. Invoke quality-assurance skill with target={site}, mode="quick"
+     → 审核新增内容
 ```
 
 **分支 D — 候选池低分 (< 15)**
@@ -99,15 +114,17 @@ description: 🧠 主管 Agent — 每天定时运行，读取状态、调度子
 ### Phase 3: 汇总
 
 ```
-1. 运行 node scripts/update-stats.mjs → 自动统计实际攻略数/GA4/Vercel/GSC
+1. 读取 .agent/qa-report.md（如果本轮有 QA 运行）→ 确认无 🔴 阻断
+2. 运行 node scripts/update-stats.mjs → 自动统计实际攻略数/GA4/Vercel/GSC
    - 脚本读取文件系统，更新 AUTO 标记区域，不会覆盖手动内容
    - 如无变更则跳过
-2. git add STATS-游戏站点统计.md（如有变更）
-3. 输出本轮摘要:
+3. git add STATS-游戏站点统计.md（如有变更）
+4. 输出本轮摘要:
    - 本轮做了什么
    - 各子 Agent 执行结果
+   - QA 结果摘要（通过/警告/阻断）
    - 待人工处理事项
-4. git add + commit + push (如有代码变更)
+5. git add + commit + push (如有代码变更)
    - ⚠️ pre-commit hook 会自动校验 STATS 是否与实际一致，不一致会阻断提交
 ```
 
@@ -124,11 +141,16 @@ description: 🧠 主管 Agent — 每天定时运行，读取状态、调度子
 | 22:10 | 侦察 | 发现 3 候选，最高 17 分 |
 | 22:15 | 关键词 | Dark Frontier: 72 词 |
 | 22:25 | 建站 | Dark Frontier 部署成功 ✅ |
+| 22:30 | QA | Dark Frontier: 12/12 通过 ✅ |
 
 ### 站点状态
-- 总站: 21 | 总攻略: 452
+- 总站: 29 | 总攻略: 749
 - 核心站(⭐⭐⭐): 0 | 成长站(⭐⭐): The Mound, SpiritVale
 - 孵化中: 5 站
+
+### QA 摘要
+- 本轮审核: 1 站 12 篇 → ✅ 全部通过
+- 全量审计: 4 天前，下次 8/10
 
 ### 待人工处理
 - [ ] Dark Frontier: 创建 GA4 Property
@@ -154,6 +176,8 @@ description: 🧠 主管 Agent — 每天定时运行，读取状态、调度子
 | 侦察 + 关键词 | 可并行（互不依赖） |
 | 多站部署 | 每 3-4 站一个 Agent，同时部署 |
 | 反馈分析 | 每站点一个 Agent 可并行 |
+| QA 审核 | Build 完成后串行触发，但多站 QA 可并行 |
+| QA deep + Build | 可并行（QA 读已有文件，Build 写新文件，互不冲突） |
 
 **并行约束**：
 - 每个 Agent 负责的站点目录互不重叠
