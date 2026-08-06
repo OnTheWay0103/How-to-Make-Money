@@ -18,6 +18,35 @@
       "lessons": "Launch-day build (score 18/20, upgraded from wait-and-see at 843K wishlist). 10 guides: beginner (core loop + 6 stations), controls/keybindings, tactical map (20x10 grid, tokens, pencils, compass), target spotting/triangulation, ballistic calculator, shell types (HE/HCHE/AP/S.T.A.R./SMOKE/PHOSGENE/TEAR GAS), loading & aiming, requisition & upgrade path, counter-battery survival, system requirements. Genre is deep simulation — tier-list page adapted to Shell Tier List (overall, by target type, beginner purchase priority). Content ratio: 30% entry (beginner/controls/specs), 40% deep (map/targeting/ballistics/loading/counter-battery), 30% reference (shell list, upgrades, FAQ). Honesty rule applied — community-reported ballistics and unconfirmed price clearly labeled."
     },
     {
+      "game": "Vahrin's Call",
+      "date": "2026-08-06",
+      "genre": "Single-player Action RPG (Dark Souls-like)",
+      "mode": "expand",
+      "guidesAdded": 3,
+      "guides": 26,
+      "deployed": false,
+      "issues": [
+        "Existing guides were launch-era (7/27-8/1) with minimal verified detail — community has since mapped 30+ skill book locations, 15 named NPCs, and verified unique weapons",
+        "skill-book-locations.md was placeholder text ('no locations published') despite real locations being documented by TechRaptor/gamesnight.nz"
+      ],
+      "lessons": "Expand run: +3 guides (skill-book-hunting, npcs-characters, unique-weapons). 203 PV ⭐⭐ growth site. Skill books 'for Oafs' series mapped across 6 zones. NPC guide covers all 15 South Vale Hamlet characters + 4 named minibosses. Unique weapons guide covers Colosseum Victor Sword/Shield with verified stats. All content search-verified via TechRaptor interactive maps. Developer is Titan Roc (7-person studio, self-published) — corrected from brief. Game is 'Forsaken Realms: Vahrin's Call' full title. Reviews Mixed at launch (68%), not 88%."
+    },
+    {
+      "game": "Bonehold",
+      "date": "2026-08-06",
+      "genre": "Roguelike Dungeon Crawler ARPG",
+      "mode": "expand",
+      "guidesAdded": 3,
+      "guides": 17,
+      "deployed": false,
+      "issues": [
+        "No technical/system-requirements content existed — players searching 'can I run Bonehold' had zero coverage",
+        "Steam store page has conflicting class counts: demo page says '7 classes… Scorcher' vs full game page '10 classes… Sorcerer' — documented honestly as 待验证",
+        "Existing guides use single-line array frontmatter format that the parser reads as strings — Related Guides sections broken on all 14 existing guides"
+      ],
+      "lessons": "Expand run: +3 guides (system-requirements, review-guide, similar-games). 106 PV ⭐⭐ growth site. System requirements verified from Steam page (Win 7 min, GTX 470 min, full controller + DualShock/DualSense, Steam Deck status, 10 languages, free demo). Review guide: Very Positive 86% of 97 reviews, ~$9.99, 98 achievements, bundles documented. Similar games: 8 games with comparison table (Barony/Mortal Sin/Verho bundles + Hades/Dead Cells/Isaac/Rogue Legacy 2 genre neighbors). Agent noted frontmatter parser bug: single-line `related: [guide-a, guide-b]` is read as string — new guides use multi-line format that works."
+    },
+    {
       "game": "Big Walk",
       "date": "2026-08-04",
       "genre": "Co-op Open World Puzzle Adventure",
