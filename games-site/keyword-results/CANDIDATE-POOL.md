@@ -1,16 +1,17 @@
 # Game Candidate Pool
 
-> Last updated: 2026-08-01 | 池子为空 → 本轮新发现 10 个候选（4 个 Top + 6 个 Watchlist）
-> 来源：Steam Upcoming / New & Trending / SteamDB(403) / 行业报道，逐一核实 wiki 覆盖情况
+> Last updated: 2026-08-07 | 剩余未建站候选：Luminary (19)、BOMBANANA! (19)、Blood Dungeon (17) + Watchlist 4 个
+> 来源：Steam Upcoming / New & Trending / SteamDB(403) / 行业报道 / 8/3 discovery run，逐一核实 wiki 覆盖情况
+> 8/7 Coordinator Run: 建站 Nivalis Nights (22/25) + 扩充 4 站 (+26 guides)
 
 ## Top Candidates (score ≥ 16/20)
 
 | # | Game | Genre | Release | Score | Search | Lifecycle | Content | Competition | Notes |
 |---|------|-------|---------|-------|--------|-----------|---------|-------------|-------|
-| 1 | **Expeditions: Samurai** | CRPG / 回合制战棋 / 组队 RPG / 双人 Co-op | 2026-08-07 (EA) | **20/20** | 5 | 5 | 5 | 5 | Campfire Cabal（前 Logic Artists，~30人）+ THQ Nordic。8 名可攻略同伴、潜行三支柱、村庄管理、系列作累计销量 130 万。**全网无任何 Fandom/社区 wiki**，仅有新闻稿。EA 先发 Act One（~8h），1.0 约 2027 初，共 4 幕 ~60h。CRPG 指南需求极强（builds/companions/endings）。 |
-| 2 | **Delverium** | Co-op 生存沙盒 / 地牢探索 | 2026-09-22 (EA) | **19/20** | 5 | 4 | 5 | 5 | 80k wishlists，1-8 人在线 + 4 人分屏。Terraria/星露谷式需求（配方/biome/NPC/地牢/boss）。**无任何 wiki**。⚠️ 工作室仅 2-4 人（Sagestone Games，夫妻团队），不符合 20-100 人标准 — 但此前 Moonlight Peaks（20万销量）同为小团队，可接受。 |
-| 3 | **Pass the Fear** | Co-op Roguelite 弹幕射击 | 2026-07-22 已上线 | ~~16/20~~ **12/20** ⬇️ | 4 | 4 | 4 | ~~4~~ **1** | PlayMud Studio（Warm Snow 血统）+ Paras Games。Steam 77% 好评（1.9K 评测）、峰值 8.4K 在线、$18.99。170+ 遗物 / 30+ 武器模组 / 22 张塔罗 / 5 章 + Chaos Battle Scars。⚠️ **8/1 深度调研降级**：发现 passthefear.wiki 已存在（含 build planner 工具、全武器/遗物/塔罗文档），竞品分从 4→1。关键词仅 18 个（游戏太新）。待 2-4 周后重新评估。 |
-| 4 | **Mortal Shell II** | Souls-like 动作 RPG | 2026-08-20 | **16/20** | 5 | 5 | 5 | 1 | Cold Symmetry（~25人）+ Playstack。Beta 下载 50 万+，需求爆棚。8 个 Shell、60+ 地牢、武器深度升级 = 内容充足。⚠️ 竞争激烈：IGN 中心页、PCGamingWiki、Ludo.guide 19 节完整指南、GameRant、另有开源社区 wiki（github.com/shi0318/MortalShell2）已抢先。Souls-like SEO 是大厂必争地。 |
+| 1 | ~~**Expeditions: Samurai**~~ | CRPG / 回合制战棋 | ~~2026-08-07~~ ✅ | **20/20** | 5 | 5 | 5 | 5 | **✅ 已建站**（expeditionssamuraiwiki，8/1），8/7 EA 上线，33 攻略 |
+| 2 | ~~**Delverium**~~ | Co-op 生存沙盒 | 2026-09-22 (EA) | **19/20** | 5 | 4 | 5 | 5 | **✅ 已建站**（delveriumwiki，8/2），12 攻略，80k wishlist |
+| 3 | **Pass the Fear** | Co-op Roguelite 弹幕射击 | 2026-07-22 已上线 | ~~16/20~~ **12/20** ⬇️ | 4 | 4 | 4 | ~~4~~ **1** | PlayMud Studio + Paras Games。Steam 77% 好评。⚠️ 8/1 降级：passthefear.wiki 已存在。 |
+| 4 | **Mortal Shell II** | Souls-like 动作 RPG | 2026-08-20 | **16/20** | 5 | 5 | 5 | 1 | Cold Symmetry + Playstack。Beta 50 万下载。⚠️ 竞争激烈：IGN/PCGamingWiki/Ludo.guide 19 节 + 开源社区 wiki。 |
 
 ## Watchlist (score 12-15)
 
@@ -28,7 +29,7 @@
 | Game | Reason |
 |------|--------|
 | Beast of Reincarnation | Game Freak（宝可梦开发商，200+ 人）— AAA 级，竞争会被巨头占领；不符"非 AAA"标准 |
-| Big Walk | House House + Panic。无战斗/无 build/无系统深度（纯探索步行合作），内容可扩展性 1/5 |
+| Big Walk | House House + Panic。已建站（bigwalkwiki，8/4），从 Rejected 升级
 | Robin Hood: Sherwood Valley | Solohack3r Studios 单人开发者（Kickstarter 众筹）— 不符 20-100 人标准 |
 | Dungeons & Donuts | Kickstarter 已暂停（suspended），3 人团队，项目风险高 |
 | Stoneguard | ThornSpire Games 夫妻二人团队 — 单人/微型团队 |
@@ -36,9 +37,25 @@
 
 ---
 
+## 8/3 Discovery Run 候选（来自 discovery-2026-08-03.md）
+
+| # | Game | Score | Release | Status |
+|---|------|:--:|------|--------|
+| 1 | ~~**Nivalis Nights**~~ | **22/25** | 9/29 | **✅ 8/7 建站**（nivalisnightswiki，10 guides），932K wishlist |
+| 2 | ~~**Low-Budget Repairs**~~ | **21/25** | 8/13 | **✅ 8/3 建站**（lowbudgetrepairswiki，23 guides），1M+ wishlist |
+| 3 | ~~**Big Walk**~~ | **21/25** | 8/4 | **✅ 8/4 建站**（bigwalkwiki，16 guides） |
+| 4 | **Luminary** | **19/25** | 8/11 EA | 2 人团队风险，名字泛化。窗口已过 |
+| 5 | **Sir, We Have an Orc Problem** | **19/25** | ~8/1 已上线 | 2 人团队，TD 热度衰减快 |
+| 6 | **BOMBANANA!** | **19/25** | 8/27 | 659K wishlist，派对游戏内容偏浅 |
+| 7 | ~~**IRON NEST**~~ | **18/25** | 8/6 | **✅ 8/6 建站**（ironnestwiki，10 guides），843K wishlist |
+| 8 | **Blood Dungeon** | **17/25** | 8/25 | Messhof（Nidhogg）新作，名字泛化 |
+
+---
+	
 ## 建议行动
 
-1. **本周优先**：Expeditions: Samurai（8/7 EA 上线）→ 按 SOP 走关键词采集 → 建站 → 上线前发布。CRPG 类站可与 Mistfall Hunter 复用同类攻略模板。
-2. **次优先**：Pass the Fear（已上线，77% 好评，早期流量窗口仍在）→ 采集 "pass the fear build/relic/tarot" 关键词。
-3. **下月**：Delverium（9/22 EA）→ 提前 6-8 周建站蓄势；Mortal Shell II 视竞争评估决定（wiki 空间已非空白，回报率存疑）。
-4. 候选池每周刷新一次（Steam Upcoming 页 + New & Trending），本周内需再补充 2-3 个候补。
+1. ~~**已完成**：Expeditions: Samurai（8/7 EA 上线，33 攻略）~~ ✅
+2. ~~**已完成**：Low-Budget Repairs（8/13 上线在即，23 攻略）~~ ✅
+3. ~~**已完成**：Nivalis Nights 建站（22/25，9/29 上线，10 初始攻略）~~ ✅
+4. **下次优先**：BOMBANANA!（8/27 上线，659K wishlist，3 周窗口）— 若决定建站需 1 周内行动
+5. **待刷新**：候选池需新一轮 discovery（Steam 9-10 月新作），当前活跃未建站高分候选仅 BOMBANANA! (19)

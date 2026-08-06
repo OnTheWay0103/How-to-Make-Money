@@ -162,4 +162,9 @@ export const SITES: SiteConfig[] = [
     propertyId: 'REPLACE_ME', // no GA4 yet
     gaId: 'G-PLACEHOLDER',
   },
+  {
+    name: 'Nivalis Nights Wiki',
+    propertyId: 'REPLACE_ME', // no GA4 yet — 8/7 build, 9/29 launch
+    gaId: 'G-PLACEHOLDER',
+  },
 ];

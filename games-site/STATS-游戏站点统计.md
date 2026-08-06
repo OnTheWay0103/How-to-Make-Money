@@ -1,6 +1,6 @@
 # 游戏攻略站 — 站点统计
 
-> 最后更新：2026-08-06 | 30 站 · 789 篇攻略
+> 最后更新：2026-08-07 | 31 站 · 846 篇攻略
 
 ---
 
@@ -9,24 +9,24 @@
 <!-- AUTO-START:overview-table -->
 | # | 站点 | 上线日 | 攻略 | 域名 | Vercel | GA4 | GSC | 备注 |
 |---|------|:--:|:--:|------|:--:|:--:|:--:|------|
-| 1 | Witchspire | 6/29 | 44 | witchspirewiki.vercel.app | ✅ | ✅ | ✅ | 8/1 反馈驱动 +3 新 +4 纠错（精灵机制/联机/PvP 造假清理） |
-| 2 | Mistfall Hunter | 7/01 | 51 | mistfallhunterwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 内容配比规则 +1 Boss/Mist Lord 速查表；8/1 内容配比 +1 Map Boss & Loot 速查表 |
-| 3 | Aincrad | 7/07 | 45 | aincradwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 内容配比规则 +2（Golden Gate Boss、武器锻造配方表）；8/1 内容配比 +2（全 Boss 速查表、消耗品速查表） |
-| 4 | The Mound | 7/14 | 52 | themoundwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 内容配比规则 +2 速查表；Tier List 页武器名纠错（虚构 Rapier/Dagger 等 → 真实 Matchlock/Crossbow/Machete 等） |
-| 5 | SpiritVale | 7/12 | 49 | spiritvalewiki.vercel.app | ✅ | ✅ | ✅ | 8/1 内容配比规则 +1 世界 Boss 速查表（Echoing Spire） |
+| 1 | Witchspire | 6/29 | 46 | witchspirewiki.vercel.app | ✅ | ✅ | ✅ | 8/1 反馈驱动 +3 新 +4 纠错（精灵机制/联机/PvP 造假清理） |
+| 2 | Mistfall Hunter | 7/01 | 53 | mistfallhunterwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 内容配比规则 +1 Boss/Mist Lord 速查表；8/1 内容配比 +1 Map Boss & Loot 速查表 |
+| 3 | Aincrad | 7/07 | 47 | aincradwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 内容配比规则 +2（Golden Gate Boss、武器锻造配方表）；8/1 内容配比 +2（全 Boss 速查表、消耗品速查表） |
+| 4 | The Mound | 7/14 | 54 | themoundwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 内容配比规则 +2 速查表；Tier List 页武器名纠错（虚构 Rapier/Dagger 等 → 真实 Matchlock/Crossbow/Machete 等） |
+| 5 | SpiritVale | 7/12 | 51 | spiritvalewiki.vercel.app | ✅ | ✅ | ✅ | 8/1 内容配比规则 +1 世界 Boss 速查表（Echoing Spire） |
 | 6 | Skills & Raids | 7/15 | 24 | skillsandraidswiki.vercel.app | ✅ | ✅ | ✅ | 7/27 游戏上线 |
-| 7 | MineGeon | 7/20 | 29 | minegeonwiki.vercel.app | ✅ | ✅ | ✅ | 7/28 游戏上线；8/3 Coordinator 扩充 +2（Walkthrough、Review） |
-| 8 | Sephiria | 7/21 | 41 | sephiriawiki.vercel.app | ✅ | ✅ | ✅ | 7/31 1.0 上线；8/1 内容配比规则 +2（Build 原型速查表、Boss 推进表） |
+| 7 | MineGeon | 7/20 | 31 | minegeonwiki.vercel.app | ✅ | ✅ | ✅ | 7/28 游戏上线；8/3 Coordinator 扩充 +2（Walkthrough、Review） |
+| 8 | Sephiria | 7/21 | 43 | sephiriawiki.vercel.app | ✅ | ✅ | ✅ | 7/31 1.0 上线；8/1 内容配比规则 +2（Build 原型速查表、Boss 推进表） |
 | 9 | DinoBlade | 7/21 | 27 | dinobladewiki.vercel.app | ✅ | ✅ | ✅ | 8/3 Coordinator 扩充 +3（Leveling、How Long to Beat、Healing） |
-| 10 | Mystralia | 7/22 | 27 | mystraliawiki.vercel.app | ✅ | ✅ | ✅ | 8/11 EA |
-| 11 | Tears of Metal | 7/23 | 29 | tearsofmetalwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 反馈驱动 +3 新 +2 纠错（英雄名校准）；8/1 内容配比 +5（Wallace/Brienne/Ruadh 独立 Build 页、Corruption 机制、装备指南）+ 修复旧英雄/Boss 名残留 |
-| 12 | Grain Rot | 7/24 | 28 | grainrotwiki.vercel.app | ✅ | ✅ | ✅ | 8/7 游戏上线；8/3 1.0 内容更新（全量内容清单、生物群系+2、wishlist 25万→250k） |
+| 10 | Mystralia | 7/22 | 32 | mystraliawiki.vercel.app | ✅ | ✅ | ✅ | 8/7 Coordinator +5（EA FAQ、Spell Form、Combat、First 5h、Farming）；8/11 EA |
+| 11 | Tears of Metal | 7/23 | 31 | tearsofmetalwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 反馈驱动 +3 新 +2 纠错（英雄名校准）；8/1 内容配比 +5（Wallace/Brienne/Ruadh 独立 Build 页、Corruption 机制、装备指南）+ 修复旧英雄/Boss 名残留 |
+| 12 | Grain Rot | 7/24 | 30 | grainrotwiki.vercel.app | ✅ | ✅ | ✅ | 8/7 游戏上线；8/3 1.0 内容更新（全量内容清单、生物群系+2、wishlist 25万→250k） |
 | 13 | DragonSword | 7/25 | 23 | dragonswordwiki.vercel.app | ✅ | ✅ | ✅ | 7/22 游戏上线；8/3 Coordinator 扩充 +3（Reina/Kalsion/Cerese 角色指南） |
 | 14 | Dwarf Delve | 7/26 | 25 | dwarfdelvewiki.vercel.app | ✅ | ✅ | ✅ |  |
 | 15 | Lunarium | 7/26 | 25 | lunariumwiki.vercel.app | ✅ | ✅ | ✅ |  |
 | 16 | Taival | 7/27 | 21 | taivalwiki.vercel.app | ✅ | ✅ | ✅ | GSC 待验证 |
 | 17 | Vahrin's Call | 7/28 | 26 | vahrinscallwiki.vercel.app | ✅ | ✅ | ✅ | 7/27 游戏上线；8/4 +2（Stealth+Backstab、Parrying）；8/5 +2（PC Performance、Lore & Story）；8/6 +3（Skill Book Hunting、NPCs & Characters、Unique Weapons），GSC 待验证 |
-| 18 | The Relic | 7/28 | 34 | relicfirstguardianwiki.vercel.app | ✅ | ✅ | ✅ | 7/31 已上线；8/5 Coordinator 扩充 +2（Enemy Types、Status Effects），GSC 待验证 |
+| 18 | The Relic | 7/28 | 37 | relicfirstguardianwiki.vercel.app | ✅ | ✅ | ✅ | 7/31 已上线；8/5 Coordinator 扩充 +2（Enemy Types、Status Effects），GSC 待验证 |
 | 19 | Graphite | 7/29 | 16 | graphitewiki.vercel.app | ✅ | ✅ | ✅ | 7/27 游戏上线，GSC 待验证 |
 | 20 | Shift At Midnight | 7/29 | 26 | shiftatmidnightwiki.vercel.app | ✅ | ✅ | ✅ | 7/22 游戏上线；8/4 +2（All Doppelgangers、Special Monsters）；8/5 +2（PC Performance、Patch Notes），GSC 待验证 |
 | 21 | Moonlight Peaks | 7/31 | 14 | moonlightpeakswiki.vercel.app | ✅ | ✅ | ✅ | 7/7 游戏上线，20万销量，GSC 待验证 |
@@ -34,11 +34,12 @@
 | 23 | Phantom Tower | 7/30 | 12 | phantomtowerwiki.vercel.app | ✅ | ✅ | ✅ | GSC 待验证 |
 | 24 | Ardent Wilds | 7/31 | 20 | ardentwildswiki.vercel.app | ✅ | ✅ | ✅ | 8/4 +2（Enemies+Eldran、Artifacts+Loot）；8/5 +2（Weapons、Story Quests），GSC 待验证 |
 | 25 | Go-Go Town! | 8/01 | 11 | gotownwiki.vercel.app | ✅ | ✅ | ✅ | 7/16 1.0 上线，93% 好评，GSC 待验证 |
-| 26 | Expeditions: Samurai | 8/01 | 25 | expeditionssamuraiwiki.vercel.app | ✅ | ✅ | ✅ | 20/20 最高分，8/7 EA 上线；8/1 +8；8/3 更新系统需求（官方公布）+ EA FAQ（解锁时间/路线图），GSC 待验证 |
-| 27 | Delverium | 8/02 | 7 | delveriumwiki.vercel.app | ✅ | ❌ | ✅ | 8/2 Coordinator auto-build，19/20，9/22 EA，80k wishlist；GA4 占位符 |
-| 28 | Low-Budget Repairs | 8/03 | 15 | lowbudgetrepairswiki.vercel.app | ✅ | ❌ | ✅ | 8/3 Coordinator auto-build，21/20，8/13 上线，1M+ wishlist，零 wiki 竞争；GA4 占位符 |
+| 26 | Expeditions: Samurai | 8/01 | 33 | expeditionssamuraiwiki.vercel.app | ✅ | ✅ | ✅ | 20/20 最高分，8/7 EA 上线；8/7 Coordinator +8（Companion Recruitment、Party Comp、Combat Deep Dive、3 Pillars、Progression、Injuries、Factions、Mistakes），GSC 待验证 |
+| 27 | Delverium | 8/02 | 12 | delveriumwiki.vercel.app | ✅ | ❌ | ✅ | 8/2 Coordinator auto-build，19/20，9/22 EA，80k wishlist；8/7 +5（Beginner、Crafting、Biomes、Split-Screen、Dungeon）；GA4 占位符 |
+| 28 | Low-Budget Repairs | 8/03 | 23 | lowbudgetrepairswiki.vercel.app | ✅ | ❌ | ✅ | 8/3 Coordinator auto-build，21/20，8/13 上线，1M+ wishlist，零 wiki 竞争；8/7 +8（Walkthrough、Profit、Upgrades、Materials、Clients、PS5、Launch FAQ、Tips）；GA4 占位符 |
 | 29 | Big Walk | 8/04 | 16 | bigwalkwiki.vercel.app | ✅ | ❌ | ✅ | 上线当日建站 — 21/25，House House/Panic，8/4 发售，799K wishlist，零 wiki 竞争；无战斗 → Tool Tier List；GA4 空字符串，待创建 |
-| 30 | 🆕 ironnestwiki | ❓ | 10 | ironnestwiki.vercel.app | ✅ | ❌ | ✅ | ⚠️ 新站点，需手动补全信息 |
+| 30 | Iron Nest | 8/06 | 10 | ironnestwiki.vercel.app | ✅ | ❌ | ✅ | 8/6 Coordinator auto-build，18/25，843K wishlist，柴油朋克重炮模拟；GA4 占位符 |
+| 31 | 🆕 Nivalis Nights | 8/07 | 10 | nivalisnightswiki.vercel.app | ❌ | ❌ | ❌ | 8/7 Coordinator auto-build，22/25，9/29 上线，932K wishlist，ION LANDS/505 Games，赛博朋克生活模拟；GA4 未创建，Vercel 未部署 |
 <!-- AUTO-END:overview-table -->
 
 ---
@@ -77,6 +78,8 @@
 | 27 | Delverium | 8/02 | ✅ | ✅ 13 | ✅ | ❌ | ✅ | ✅ | ⚠️ | ✅ |
 | 28 | Low-Budget Repairs | 8/03 | ✅ | ✅ 65 | ✅ | ❌ | ✅ | ✅ | ⚠️ | ✅ |
 | 29 | Big Walk | 8/04 | ✅ | ✅ 12 | ✅ | ❌ | ✅ | ✅ | ⚠️ | ✅ |
+| 30 | Iron Nest | 8/06 | ✅ | ✅ WebSearch | ✅ | ❌ | ✅ | ✅ | ⚠️ | ✅ |
+| 31 | 🆕 Nivalis Nights | 8/07 | ✅ | ✅ WebSearch | ✅ | ❌ | ❌ | ❌ | ❌ | ⚠️ |
 <!-- AUTO-END:sop-table -->
 
 > ⚠️ Dashboard = 已注册但 propertyId 为占位符（REPLACE_ME / TODO），数据源不可用。
@@ -93,19 +96,21 @@
 
 | 事项 | 涉及站点 | 操作 |
 |------|---------|------|
-| **创建 GA4** | Big Walk, Delverium, Low-Budget Repairs | GA4 后台创建 Property，发我 Measurement ID |
-| **Dashboard 补齐 propertyId** | Delverium (`REPLACE_ME`), Low-Budget Repairs (`TODO`), Big Walk (`REPLACE_ME`) | GA4 创建后，在 GA Admin → Property Settings 找到数字 Property ID |
-| **GSC 验证** | 14 站 🟡 | GSC 后台添加资源+验证（文件已部署，只需后台操作） |
+| **创建 GA4** | Big Walk, Delverium, Low-Budget Repairs, Iron Nest, Nivalis Nights | GA4 后台创建 Property，发我 Measurement ID |
+| **Vercel 部署** | Nivalis Nights | 本地 build 通过，需 `vercel --prod` 部署 |
+| **Dashboard 补齐 propertyId** | Delverium (`REPLACE_ME`), Low-Budget Repairs (`TODO`), Big Walk (`REPLACE_ME`), Iron Nest (`REPLACE_ME`), Nivalis Nights | GA4 创建后，在 GA Admin → Property Settings 找到数字 Property ID |
+| **GSC 验证** | 16 站 🟡 | GSC 后台添加资源+验证（文件已部署，只需后台操作） |
 
 ### 🟢 P2 — 上线日跟进
 
 | 游戏 | 日期 | 站点 | 需做 |
 |------|------|------|------|
-| **Expeditions: Samurai** | 8/7 | expeditionssamuraiwiki | EA 上线（Act One），20/20 最高分候选 |
-| Grain Rot | 8/7 | grainrotwiki | 200k wishlist |
-| **Low-Budget Repairs** | **8/13** | **lowbudgetrepairswiki** | **1M+ wishlist，零 wiki 竞争** |
-| Mystralia | 8/11 | mystraliawiki | EA 上线 |
-| Delverium | 9/22 | delveriumwiki | EA 上线 |
+| **Expeditions: Samurai** | ~~8/7~~ ✅ | expeditionssamuraiwiki | EA 已上线（Act One），33 篇攻略就位 |
+| **Grain Rot** | ~~8/7~~ ✅ | grainrotwiki | 已上线，30 篇攻略 |
+| Mystralia | 8/11 | mystraliawiki | EA 上线，32 篇攻略就位 |
+| **Low-Budget Repairs** | **8/13** | **lowbudgetrepairswiki** | **1M+ wishlist，零 wiki 竞争，23 篇攻略** |
+| Delverium | 9/22 | delveriumwiki | EA 上线，12 篇攻略（8/7 +5） |
+| 🆕 Nivalis Nights | 9/29 | nivalisnightswiki | 22/25 最高分候选，932K wishlist，10 篇初始攻略 |
 
 ---
 
@@ -114,15 +119,15 @@
 <!-- AUTO-START:summary -->
 | 指标 | 数值 |
 |------|:--:|
-| **总站点数** | 30 |
-| **总攻略数** | 789 |
-| **Vercel 部署** | 30/30 ✅ |
-| **GA4 已配置** | 26/30 |
-| **GA4 真缺失** | 4（bigwalkwiki（空）、delveriumwiki（G-PLACEHOLDER）、ironnestwiki（空）、lowbudgetrepairswiki（G-PLACEHOLDER）） |
-| **GSC 文件部署** | 30/30 ✅（账户级令牌，所有站共用同一文件） |
+| **总站点数** | 31 |
+| **总攻略数** | 846 |
+| **Vercel 部署** | 30/31（Nivalis Nights 待部署） |
+| **GA4 已配置** | 26/31 |
+| **GA4 真缺失** | 5（bigwalkwiki（空）、delveriumwiki（G-PLACEHOLDER）、ironnestwiki（空）、lowbudgetrepairswiki（G-PLACEHOLDER）、nivalisnightswiki（空）） |
+| **GSC 文件部署** | 30/31 ✅（Nivalis Nights 待部署后验证） |
 <!-- AUTO-END:summary -->
 
-| **Dashboard 注册** | 29/29（3 站 propertyId 占位符） |
+| **Dashboard 注册** | 29/31（5 站 propertyId 占位符） |
 | **GSC 后台验证** | 15/29（其余需手动操作） |
 | **关键词待采集** | 3（Shift At Midnight、Bonehold、Phantom Tower） |
 
@@ -163,9 +168,10 @@
 ✅ 7/31  The Relic
 ✅ 7/16  Go-Go Town! 1.0（8/1 建站）
 ✅ 8/4   Big Walk（8/4 当日建站，21/25，零 wiki 竞争）
-🔜 8/7   Expeditions: Samurai EA（8/1 建站，20/20）
-🔜 8/7   Grain Rot
-🔜 8/11  Mystralia EA
-🔜 8/13  Low-Budget Repairs（8/3 建站，21/20）
-🔜 9/22  Delverium EA（8/2 建站，19/20）
+✅ 8/7   Expeditions: Samurai EA（8/1 建站，8/7 +8 = 33 攻略）
+✅ 8/7   Grain Rot（30 攻略）
+🔜 8/11  Mystralia EA（8/7 +5 = 32 攻略）
+🔜 8/13  Low-Budget Repairs（8/3 建站，8/7 +8 = 23 攻略）
+🔜 9/22  Delverium EA（8/2 建站，8/7 +5 = 12 攻略）
+🔜 9/29  Nivalis Nights（8/7 建站，10 攻略）
 ```
