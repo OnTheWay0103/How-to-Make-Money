@@ -61,6 +61,26 @@ Some Brutals use attacks that **cannot be blocked or parried** — the game forc
 
 1. **Dodge through, not away** — dodging into an attack's recovery keeps you in range for the punish.
 2. **One dodge per attack** — panic-rolling drains the stamina you need for the next unblockable.
+
+### AoE Instant-Kill Attacks (Roars, Shockwaves)
+
+Several community members have reported bosses with **roar or shockwave attacks that instantly kill**. These are a subcategory of unblockable attack with two key differences:
+
+| Feature | Standard Unblockable | AoE Insta-Kill |
+|---------|-------------------|----------------|
+| Range | Directional (swing arc) | **360° arena-wide** |
+| Block/Parry | Fails | Fails |
+| Dodge timing | Dodge through attack | Dodge **before** the roar lands, or sprint away |
+| Visual cue | Red indicator (confirmed) | Often preceded by a **charge animation** or boss crouch |
+
+**Confirmed strategies** (applying verified game mechanics):
+
+1. **Watch for the windup** — roars and shockwaves are telegraphed by a distinct animation (boss crouching, inhaling, weapon planting into the ground). This is your signal to stop attacking.
+2. **Create distance** — unlike directional unblockables, AoE attacks cover the whole arena. Sprint away from the boss, not through.
+3. **Save stamina for the roar** — if you're stamina-empty when the roar triggers, you cannot dodge. Always keep a reserve against bosses with confirmed AoE attacks.
+4. **Unconfirmed per boss**: exact roar timing, damage values, and whether any relics provide AoE damage reduction have not been independently verified. Apply the principles above and adjust per fight.
+
+> **Design note**: AoE insta-kills in soulslikes are a deliberate gate-check — they test your ability to read the "big attack" windup and create distance. They feel unfair until you learn the tell, at which point they become the most punishable attack in the boss's kit because of the long recovery.
 3. **Track your stamina mid-combo** — against dodge-gate bosses, stamina is life. Never enter a combo at low stamina.
 4. **Punish recovery, not windup** — the safest damage is after the attack resolves.
 
