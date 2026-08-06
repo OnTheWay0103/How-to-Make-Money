@@ -99,7 +99,25 @@ The [All Bosses List Guide](/guides/all-bosses-list) is the reference page for w
 
 ---
 
-## 7. Working the Roster, Step by Step
+## 7. Community-Reported Brutals (Unconfirmed)
+
+The following bosses have been reported by community members but lack independent verification of their exact mechanics at this time:
+
+### Drewg, the Protector of Eden
+- **Status**: Player-reported, not yet independently verified
+- **Archetype**: Likely **dodge-gate** based on player descriptions of aggressive pressure and limited parry windows
+- **Reported attacks**: Thrust attack with heavy damage potential
+- **Player feedback**: "Can't heal or dodge him — thrust attack almost one-shots"
+- **General advice** (applying confirmed game mechanics):
+  - If the thrust is one-shotting, check your **health pool** (see [How to Increase Health](/guides/how-to-increase-health))
+  - This boss likely requires **dodge-only defense** — stop trying to parry, commit to dodge timing through the thrust
+  - Healing windows exist after full combo chains resolve — do NOT attempt to heal mid-combo
+  - Swap to a **mobility Relic loadout** for this fight
+- **Note**: Exact attack patterns, damage values, and healing windows are unconfirmed. The advice above applies universal game mechanics to this reported fight.
+
+---
+
+## 8. Working the Roster, Step by Step
 
 1. **Learn the probe protocol** (Section 3) — it's your universal tool.
 2. **Beat the early Brutals** to bank Relic Energy and learn the archetypes.
