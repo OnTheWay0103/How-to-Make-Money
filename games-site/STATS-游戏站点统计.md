@@ -26,17 +26,17 @@
 | 15 | Lunarium | 7/26 | 25 | lunariumwiki.vercel.app | ✅ | ✅ | ✅ |  |
 | 16 | Taival | 7/27 | 21 | taivalwiki.vercel.app | ✅ | ✅ | ✅ | GSC 待验证 |
 | 17 | Vahrin's Call | 7/28 | 26 | vahrinscallwiki.vercel.app | ✅ | ✅ | ✅ | 7/27 游戏上线；8/4 +2（Stealth+Backstab、Parrying）；8/5 +2（PC Performance、Lore & Story）；8/6 +3（Skill Book Hunting、NPCs & Characters、Unique Weapons），GSC 待验证 |
-| 18 | The Relic | 7/28 | 37 | relicfirstguardianwiki.vercel.app | ✅ | ✅ | ✅ | 7/31 已上线；8/5 Coordinator 扩充 +2（Enemy Types、Status Effects），GSC 待验证 |
+| 18 | The Relic | 7/28 | 38 | relicfirstguardianwiki.vercel.app | ✅ | ✅ | ✅ | 7/31 已上线；8/5 Coordinator 扩充 +2（Enemy Types、Status Effects），GSC 待验证 |
 | 19 | Graphite | 7/29 | 16 | graphitewiki.vercel.app | ✅ | ✅ | ✅ | 7/27 游戏上线，GSC 待验证 |
 | 20 | Shift At Midnight | 7/29 | 26 | shiftatmidnightwiki.vercel.app | ✅ | ✅ | ✅ | 7/22 游戏上线；8/4 +2（All Doppelgangers、Special Monsters）；8/5 +2（PC Performance、Patch Notes），GSC 待验证 |
 | 21 | Moonlight Peaks | 7/31 | 14 | moonlightpeakswiki.vercel.app | ✅ | ✅ | ✅ | 7/7 游戏上线，20万销量，GSC 待验证 |
-| 22 | Bonehold | 7/30 | 17 | boneholdwiki.vercel.app | ✅ | ✅ | ✅ | 8/6 +3（System Requirements、Review Guide、Similar Games），GSC 待验证 |
+| 22 | Bonehold | 7/30 | 25 | boneholdwiki.vercel.app | ✅ | ✅ | ✅ | 8/6 +3（System Requirements、Review Guide、Similar Games），GSC 待验证 |
 | 23 | Phantom Tower | 7/30 | 12 | phantomtowerwiki.vercel.app | ✅ | ✅ | ✅ | GSC 待验证 |
-| 24 | Ardent Wilds | 7/31 | 20 | ardentwildswiki.vercel.app | ✅ | ✅ | ✅ | 8/4 +2（Enemies+Eldran、Artifacts+Loot）；8/5 +2（Weapons、Story Quests），GSC 待验证 |
+| 24 | Ardent Wilds | 7/31 | 25 | ardentwildswiki.vercel.app | ✅ | ✅ | ✅ | 8/4 +2（Enemies+Eldran、Artifacts+Loot）；8/5 +2（Weapons、Story Quests），GSC 待验证 |
 | 25 | Go-Go Town! | 8/01 | 11 | gotownwiki.vercel.app | ✅ | ✅ | ✅ | 7/16 1.0 上线，93% 好评，GSC 待验证 |
 | 26 | Expeditions: Samurai | 8/01 | 33 | expeditionssamuraiwiki.vercel.app | ✅ | ✅ | ✅ | 20/20 最高分，8/7 EA 上线；8/7 Coordinator +8（Companion Recruitment、Party Comp、Combat Deep Dive、3 Pillars、Progression、Injuries、Factions、Mistakes），GSC 待验证 |
 | 27 | Delverium | 8/02 | 12 | delveriumwiki.vercel.app | ✅ | ❌ | ✅ | 8/2 Coordinator auto-build，19/20，9/22 EA，80k wishlist；8/7 +5（Beginner、Crafting、Biomes、Split-Screen、Dungeon）；GA4 占位符 |
-| 28 | Low-Budget Repairs | 8/03 | 28 | lowbudgetrepairswiki.vercel.app | ✅ | ❌ | ✅ | 8/3 Coordinator auto-build，21/20，8/13 上线，1M+ wishlist，零 wiki 竞争；8/7 早 +8（Walkthrough、Profit、Upgrades、Materials、Clients、PS5、Launch FAQ、Tips）；8/7 晚 +5（Steam Deck、How Long、Languages、Similar Games、Should I Buy）；GA4 占位符 |
+| 28 | Low-Budget Repairs | 8/03 | 33 | lowbudgetrepairswiki.vercel.app | ✅ | ❌ | ✅ | 8/3 Coordinator auto-build，21/20，8/13 上线，1M+ wishlist，零 wiki 竞争；8/7 早 +8（Walkthrough、Profit、Upgrades、Materials、Clients、PS5、Launch FAQ、Tips）；8/7 晚 +5（Steam Deck、How Long、Languages、Similar Games、Should I Buy）；GA4 占位符 |
 | 29 | Big Walk | 8/04 | 16 | bigwalkwiki.vercel.app | ✅ | ❌ | ✅ | 上线当日建站 — 21/25，House House/Panic，8/4 发售，799K wishlist，零 wiki 竞争；无战斗 → Tool Tier List；GA4 空字符串，待创建 |
 | 30 | Iron Nest | 8/06 | 10 | ironnestwiki.vercel.app | ✅ | ❌ | ✅ | 8/6 Coordinator auto-build，18/25，843K wishlist，柴油朋克重炮模拟；GA4 占位符 |
 | 31 | 🆕 Nivalis Nights | 8/07 | 10 | nivalisnightswiki.vercel.app | ✅ | ❌ | ✅ | 8/7 Coordinator auto-build，22/25，9/29 上线，932K wishlist，ION LANDS/505 Games，赛博朋克生活模拟；8/7 晚 Vercel 部署完成；GA4 未创建 |
@@ -120,7 +120,7 @@
 | 指标 | 数值 |
 |------|:--:|
 | **总站点数** | 31 |
-| **总攻略数** | 854 |
+| **总攻略数** | 873 |
 | **Vercel 部署** | 31/31 ✅ |
 | **GA4 已配置** | 26/31 |
 | **GA4 真缺失** | 5（bigwalkwiki（空）、delveriumwiki（G-PLACEHOLDER）、ironnestwiki（空）、lowbudgetrepairswiki（G-PLACEHOLDER）、nivalisnightswiki（空）） |
