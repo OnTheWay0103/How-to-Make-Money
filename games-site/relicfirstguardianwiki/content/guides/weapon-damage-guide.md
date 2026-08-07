@@ -94,6 +94,36 @@ There are **70+ relics**, each granting its own **independent passive effect** �
 | Per-relic passive values and drop locations | **Unconfirmed** |
 | "Best DPS weapon" rankings | **Unconfirmed** — see the [Tier List](/guides/tier-list) for early impressions |
 
+## Relic Magic Damage — How to Scale It
+
+Several community members have asked why relic-based magic damage feels lower than enemy and boss damage. Based on the game's confirmed mechanics:
+
+### Why Enemy Magic Hits Harder
+
+- **Bosses are designed as gate-checks** — their damage output is intentionally higher to force defensive play. This is the core design of the soulslike genre, not a balance issue specific to Relic.
+- The game has **no traditional leveling system** — your damage scales through Relic combinations, weapon upgrades, and skill trees, not through stat accumulation.
+
+### How to Increase Your Relic Damage
+
+| Method | How It Works | Confirmed? |
+|--------|-------------|------------|
+| **Relic synergy** | Combining relics with complementary passives multiplies their effects | ✅ Confirmed (70+ relics with unique passives) |
+| **Cursed relic tradeoff** | Some relics trade health for damage output | ✅ Confirmed |
+| **Skill tree investment** | 12 skill trees, skills run on cooldowns without resource cost | ✅ Confirmed |
+| **Weapon swapping** | Swap weapon types between fights to match enemy weaknesses | ✅ Confirmed |
+| **Shards of Awakening** | Unlock relic slots as you progress | ✅ Confirmed |
+| Exact damage formulas | **Unconfirmed** — per-relic damage values not independently verified | ❌ |
+
+### Quick DPS Checklist
+
+- [ ] Are you using 4+ relics with complementary effects?
+- [ ] Have you unlocked all relic slots via Shards of Awakening?
+- [ ] Is your skill tree invested in the weapon type you're using?
+- [ ] Have you tried cursed relics for the damage-for-health tradeoff?
+- [ ] Are you attacking during boss recovery windows (not mid-combo)?
+
+For advanced combinations, see the [Relic Combinations Guide](/guides/relic-combinations).
+
 ---
 
 ## Common Questions
