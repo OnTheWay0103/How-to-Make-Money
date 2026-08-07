@@ -1,6 +1,22 @@
 {
   "builds": [
     {
+      "game": "Nivalis Nights",
+      "date": "2026-08-07",
+      "genre": "Cyberpunk Life Simulator (ION LANDS / 505 Games)",
+      "template": "themoundwiki (via bigwalkwiki)",
+      "guides": 10,
+      "keywords": 10,
+      "score": 22,
+      "deployed": true,
+      "issues": [
+        "Pre-release (9/29 launch) — 932K wishlist, zero independent wiki competition (only thegameswiki.com, early stage)",
+        "No GA4 yet — G-PLACEHOLDER in dashboard registry",
+        "No combat system — tier-list page adapted to Business Tier List, content shifts to economy/NPC/exploration guides"
+      ],
+      "lessons": "8/7 Coordinator auto-build (score 22/25). 10 guides: beginner (7 businesses, 100+ NPCs, day-night), best-business (profit $/h ranking), apartment-customization, fishing, chess, sailing/boat, relationship-social, money-making, FAQ, system requirements. Genre is cyberpunk life-sim — no combat content, guides focus on economy optimization, social systems, and exploration. 932K wishlist level demand with near-zero wiki competition = strongest candidate since Big Walk. Deployed evening 8/7 (initial build missed Vercel step)."
+    },
+    {
       "game": "IRON NEST: Heavy Turret Simulator",
       "date": "2026-08-06",
       "genre": "Heavy Turret Simulator (Dieselpunk Artillery)",
