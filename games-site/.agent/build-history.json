@@ -1,6 +1,23 @@
 {
   "builds": [
     {
+      "game": "Waterpark Simulator",
+      "date": "2026-08-08",
+      "genre": "Waterpark Management Simulator (CayPlay)",
+      "template": "lowbudgetrepairswiki (sim management genre match)",
+      "guides": 14,
+      "keywords": 5,
+      "score": 17,
+      "deployed": true,
+      "issues": [
+        "1.0 released 7/31/2026 (8 days ago) — PC/PS5/Xbox, $12.99, 1M+ downloads, 96% Overwhelmingly Positive, 10.5K peak CCU, zero wiki competition",
+        "No GA4 yet — empty googleAnalyticsId, G-PLACEHOLDER in dashboard registry",
+        "No fixed ride catalogue — slides are built piece-by-piece, so tier list and attractions reference rank types instead of named rides (documented honestly in content)",
+        "npm install failed once (network) — succeeded on retry"
+      ],
+      "lessons": "8/8 auto-build (score 17/20). 14 guides: 8 reference (slide-ride-tier-list, attractions-reference, staff-management-guide, research-tree-guide, visitor-happiness-guide, money-making-guide, museum-questline-guide, co-op-multiplayer-guide) + 4 search (beginner 1000+ words, faq, price-platforms-system-requirements, controls) + 2 deep (park-design-layout, endgame). 1.0 content verified via web research: Museum questline (Poseidon't/Clara Loft/Goldie, 2.5-star unlock, Yogi endgame), staff (cashier/janitor/vendor/handyman/lifeguard/security/mascot, Hiring Levels, 4 slots start), research trees (Attractions/Park/Maintenance), 4-player co-op, night mode, beach map, Diamond Stars. Genre is sandbox management sim — tier list ranks attraction TYPES (no named ride catalogue), museum guide in table format. Deployed 8/8 evening, alias verified live."
+    },
+    {
       "game": "Nivalis Nights",
       "date": "2026-08-07",
       "genre": "Cyberpunk Life Simulator (ION LANDS / 505 Games)",

@@ -1,6 +1,6 @@
 # 游戏攻略站 — 站点统计
 
-> 最后更新：2026-08-08 | 33 站 · 899 篇攻略
+> 最后更新：2026-08-08 | 34 站 · 913 篇攻略
 
 ---
 
@@ -42,6 +42,7 @@
 | 31 | 🆕 Nivalis Nights | 8/07 | 10 | nivalisnightswiki.vercel.app | ✅ | ❌ | ✅ | 8/7 Coordinator auto-build，22/25，9/29 上线，932K wishlist，ION LANDS/505 Games，赛博朋克生活模拟；8/7 晚 Vercel 部署完成；GA4 未创建 |
 | 32 | 🆕 restorywiki | ❓ | 12 | restorywiki.vercel.app | ✅ | ❌ | ✅ | ⚠️ 新站点，需手动补全信息 |
 | 33 | 🆕 Beast of Reincarnation | 8/08 | 14 | beastreincarnationwiki.vercel.app | ✅ | ❌ | ✅ | 8/8 auto-build，21/20，8/4 发售（4 天前），Game Freak 首款原IP，718K wishlist，零 wiki 竞争；14 篇攻略（9 参考型 + 3 搜索型 + 2 深度型）；GA4 空字符串待创建 |
+| 34 | 🆕 Waterpark Simulator | 8/08 | 14 | waterparksimulatorwiki.vercel.app | ✅ | ❌ | ✅ | 8/8 auto-build，17/20，7/31 1.0 上线（8 天前）+ 主机同日发售，CayPlay（50M 订阅 YouTuber 出品），1M+ 下载，96% 好评，零 wiki 竞争；14 篇攻略（8 参考型 + 4 搜索型 + 2 深度型）；GA4 空字符串待创建 |
 <!-- AUTO-END:overview-table -->
 
 ---
@@ -84,6 +85,7 @@
 | 31 | 🆕 Nivalis Nights | 8/07 | ✅ | ✅ WebSearch | ✅ | ❌ | ✅ | ✅ | ❌ | ⚠️ |
 | 32 | 🆕 restorywiki | 8/08 | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ⚠️ | ⚠️ |
 | 33 | 🆕 Beast of Reincarnation | 8/08 | ✅ | ✅ WebSearch | ✅ | ❌ | ✅ | ✅ | ⚠️ | ✅ |
+| 34 | 🆕 Waterpark Simulator | 8/08 | ✅ | ✅ WebSearch | ✅ | ❌ | ✅ | ✅ | ⚠️ | ✅ |
 <!-- AUTO-END:sop-table -->
 
 > ⚠️ Dashboard = 已注册但 propertyId 为占位符（REPLACE_ME / TODO），数据源不可用。
@@ -100,9 +102,9 @@
 
 | 事项 | 涉及站点 | 操作 |
 |------|---------|------|
-| **创建 GA4** | Big Walk, Delverium, Low-Budget Repairs, Iron Nest, Nivalis Nights, **Beast of Reincarnation** | GA4 后台创建 Property，发我 Measurement ID |
+| **创建 GA4** | Big Walk, Delverium, Low-Budget Repairs, Iron Nest, Nivalis Nights, Beast of Reincarnation, **Waterpark Simulator** | GA4 后台创建 Property，发我 Measurement ID |
 | **Vercel 部署** | ~~Nivalis Nights~~ ✅ — 8/7 晚部署完成 |
-| **Dashboard 补齐 propertyId** | Delverium (`REPLACE_ME`), Low-Budget Repairs (`TODO`), Big Walk (`REPLACE_ME`), Iron Nest (`REPLACE_ME`), Nivalis Nights, Beast of Reincarnation (`REPLACE_ME`) | GA4 创建后，在 GA Admin → Property Settings 找到数字 Property ID |
+| **Dashboard 补齐 propertyId** | Delverium (`REPLACE_ME`), Low-Budget Repairs (`TODO`), Big Walk (`REPLACE_ME`), Iron Nest (`REPLACE_ME`), Nivalis Nights, Beast of Reincarnation (`REPLACE_ME`), Waterpark Simulator (`REPLACE_ME`) | GA4 创建后，在 GA Admin → Property Settings 找到数字 Property ID |
 | **GSC 验证** | 16 站 🟡 | GSC 后台添加资源+验证（文件已部署，只需后台操作） |
 
 ### 🟢 P2 — 上线日跟进
@@ -123,15 +125,15 @@
 <!-- AUTO-START:summary -->
 | 指标 | 数值 |
 |------|:--:|
-| **总站点数** | 33 |
-| **总攻略数** | 899 |
-| **Vercel 部署** | 33/33 ✅ |
-| **GA4 已配置** | 26/33 |
-| **GA4 真缺失** | 7（bigwalkwiki（空）、delveriumwiki（G-PLACEHOLDER）、ironnestwiki（空）、lowbudgetrepairswiki（G-PLACEHOLDER）、nivalisnightswiki（空）、restorywiki（空）、beastreincarnationwiki（空）） |
-| **GSC 文件部署** | 33/33 ✅（账户级令牌，所有站共用同一文件） |
+| **总站点数** | 34 |
+| **总攻略数** | 913 |
+| **Vercel 部署** | 34/34 ✅ |
+| **GA4 已配置** | 26/34 |
+| **GA4 真缺失** | 8（bigwalkwiki（空）、delveriumwiki（G-PLACEHOLDER）、ironnestwiki（空）、lowbudgetrepairswiki（G-PLACEHOLDER）、nivalisnightswiki（空）、restorywiki（空）、beastreincarnationwiki（空）、waterparksimulatorwiki（空）） |
+| **GSC 文件部署** | 34/34 ✅（账户级令牌，所有站共用同一文件） |
 <!-- AUTO-END:summary -->
 
-| **Dashboard 注册** | 30/32（6 站 propertyId 占位符） |
+| **Dashboard 注册** | 34/34（8 站 propertyId 占位符） |
 | **GSC 后台验证** | 15/29（其余需手动操作） |
 | **关键词待采集** | 3（Shift At Midnight、Bonehold、Phantom Tower） |
 
@@ -175,6 +177,7 @@
 ✅ 8/7   Expeditions: Samurai EA（8/1 建站，8/7 +8 = 33 攻略）
 ✅ 8/7   Grain Rot（30 攻略）
 ✅ 8/4   Beast of Reincarnation（8/8 建站，21/20，Game Freak 首款原IP，718K wishlist，零 wiki 竞争，14 攻略）
+✅ 7/31  Waterpark Simulator 1.0（8/8 建站，17/20，CayPlay，1M+ 下载，96% 好评，零 wiki 竞争，14 攻略）
 🔜 8/11  Mystralia EA（8/7 +5 +3 = 35 攻略）
 🔜 8/13  Low-Budget Repairs（8/3 建站，8/7 +8 +5 = 28 攻略）
 🔜 9/22  Delverium EA（8/2 建站，8/7 +5 = 12 攻略）
