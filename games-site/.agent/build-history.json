@@ -676,6 +676,27 @@
         "update-patch-notes -> real 1.0.3/1.0.4 history",
         "home-content.md rewritten (was Witchspire residue)"
       ]
+    },
+    {
+      "game": "Beast of Reincarnation",
+      "date": "2026-08-08",
+      "genre": "Single-player Action RPG (Game Freak, hybrid parry combat)",
+      "template": "themoundwiki (cleanest per bestTemplates)",
+      "mode": "new-build (auto-build, score 21/20, zero wiki competition)",
+      "guides": 14,
+      "guidesAdded": 14,
+      "deployed": true,
+      "score": 21,
+      "issues": [
+        "Late-game bosses (Ch 8-13: Ursa, Erymanth, Shidou & Nue, Kunai & Kirin, Koo Nushi form, final Beast) not yet documented by any outlet — marked awaiting confirmation instead of fabricating",
+        "Steam reviews Mixed (~52%) at launch due to performance; Game Freak announced patches — tier list versioned for future balance changes",
+        "GA4 property not created yet — googleAnalyticsId empty, dashboard uses G-PLACEHOLDER"
+      ],
+      "lessons": [
+        "Beast of Reincarnation facts verified across 5 searches: 13 chapters + epilogue, 40+ Nushi encounters, hybrid combat verified",
+        "Game launched 8/4 — only 4 days old, zero wiki competition; strongest first-mover position in the matrix",
+        "Content ratio: 9 reference / 3 search-entry / 2 deep-dive (64/21/14%) — meets the >=50% reference rule"
+      ]
     }
   ],
   "knownIssues": [

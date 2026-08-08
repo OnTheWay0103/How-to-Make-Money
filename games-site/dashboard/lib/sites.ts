@@ -172,4 +172,9 @@ export const SITES: SiteConfig[] = [
     propertyId: 'REPLACE_ME', // no GA4 yet — 8/8 build, launched 8/6
     gaId: 'G-PLACEHOLDER',
   },
+  {
+    name: 'Beast of Reincarnation Wiki',
+    propertyId: 'REPLACE_ME', // no GA4 yet — 8/8 build, launched 8/4
+    gaId: 'G-PLACEHOLDER',
+  },
 ];
