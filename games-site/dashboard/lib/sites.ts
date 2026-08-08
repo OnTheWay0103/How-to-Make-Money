@@ -167,4 +167,9 @@ export const SITES: SiteConfig[] = [
     propertyId: 'REPLACE_ME', // no GA4 yet — 8/7 build, 9/29 launch
     gaId: 'G-PLACEHOLDER',
   },
+  {
+    name: 'ReStory Wiki',
+    propertyId: 'REPLACE_ME', // no GA4 yet — 8/8 build, launched 8/6
+    gaId: 'G-PLACEHOLDER',
+  },
 ];
