@@ -40,6 +40,7 @@
 | 29 | Big Walk | 8/04 | 16 | bigwalkwiki.vercel.app | ✅ | ❌ | ✅ | 上线当日建站 — 21/25，House House/Panic，8/4 发售，799K wishlist，零 wiki 竞争；无战斗 → Tool Tier List；GA4 空字符串，待创建 |
 | 30 | Iron Nest | 8/06 | 10 | ironnestwiki.vercel.app | ✅ | ❌ | ✅ | 8/6 Coordinator auto-build，18/25，843K wishlist，柴油朋克重炮模拟；GA4 占位符 |
 | 31 | 🆕 Nivalis Nights | 8/07 | 10 | nivalisnightswiki.vercel.app | ✅ | ❌ | ✅ | 8/7 Coordinator auto-build，22/25，9/29 上线，932K wishlist，ION LANDS/505 Games，赛博朋克生活模拟；8/7 晚 Vercel 部署完成；GA4 未创建 |
+| 32 | 🆕 restorywiki | ❓ | 12 | restorywiki.vercel.app | ✅ | ❌ | ✅ | ⚠️ 新站点，需手动补全信息 |
 <!-- AUTO-END:overview-table -->
 
 ---
@@ -119,12 +120,12 @@
 <!-- AUTO-START:summary -->
 | 指标 | 数值 |
 |------|:--:|
-| **总站点数** | 31 |
-| **总攻略数** | 873 |
-| **Vercel 部署** | 31/31 ✅ |
-| **GA4 已配置** | 26/31 |
-| **GA4 真缺失** | 5（bigwalkwiki（空）、delveriumwiki（G-PLACEHOLDER）、ironnestwiki（空）、lowbudgetrepairswiki（G-PLACEHOLDER）、nivalisnightswiki（空）） |
-| **GSC 文件部署** | 31/31 ✅（账户级令牌，所有站共用同一文件） |
+| **总站点数** | 32 |
+| **总攻略数** | 885 |
+| **Vercel 部署** | 32/32 ✅ |
+| **GA4 已配置** | 26/32 |
+| **GA4 真缺失** | 6（bigwalkwiki（空）、delveriumwiki（G-PLACEHOLDER）、ironnestwiki（空）、lowbudgetrepairswiki（G-PLACEHOLDER）、nivalisnightswiki（空）、restorywiki（空）） |
+| **GSC 文件部署** | 32/32 ✅（账户级令牌，所有站共用同一文件） |
 <!-- AUTO-END:summary -->
 
 | **Dashboard 注册** | 29/31（5 站 propertyId 占位符） |
