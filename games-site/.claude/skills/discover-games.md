@@ -33,9 +33,9 @@ WebSearch "{gameName} wiki fandom guide"
 
 ## Step 4: 输出报告
 
-保存到 `.agent/candidate-pool.md`（覆盖候选清单部分）和 `keyword-results/discovery-{YYYY-MM-DD}.md`（详细报告）。
+保存到 `keyword-results/CANDIDATE-POOL.md`（覆盖候选清单部分）和 `keyword-results/discovery-{YYYY-MM-DD}.md`（详细报告）。
 
-**候选池格式** (`.agent/candidate-pool.md`):
+**候选池格式** (`keyword-results/CANDIDATE-POOL.md`):
 
 ```
 | # | 游戏 | 类型 | 评分 | 上线日 | Wiki | 发现日 | 状态 |

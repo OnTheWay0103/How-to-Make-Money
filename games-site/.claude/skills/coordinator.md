@@ -52,7 +52,7 @@ description: 🧠 主管 Agent — 每天定时运行，读取状态、调度子
 1. git pull (同步最新代码)
 2. 读取 STATS-游戏站点统计.md (了解各站状态)
 3. 调用 monitor-performance Agent → 获取 PV 分级 + 内容建议
-4. 读取 .agent/candidate-pool.md → 检查候选池
+4. 读取 keyword-results/CANDIDATE-POOL.md → 检查候选池
 ```
 
 ### Phase 2: 决策分支
@@ -65,7 +65,7 @@ description: 🧠 主管 Agent — 每天定时运行，读取状态、调度子
 决策: 候选池为空 → 需要发现新游戏
 行动: Invoke discover-games skill
      → 搜索 Steam / Reddit / Google Trends
-     → 评分筛选 → 保存到 .agent/candidate-pool.md
+     → 评分筛选 → 保存到 keyword-results/CANDIDATE-POOL.md
      → 返回候选清单
 ```
 

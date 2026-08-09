@@ -59,7 +59,7 @@ Agent 之间通过共享文件系统通信，不需要进程间通信：
 | `.agent/qa-report.md` | QA Agent | 主管 / 建站 |
 | `keyword-results/*.md` | 关键词 Agent | 建站 Agent |
 | `keyword-results/*-feedback.md` | 反馈 Agent | 主管 / 建站 Agent |
-| `.agent/candidate-pool.md` | 侦察 Agent | 主管 |
+| `keyword-results/CANDIDATE-POOL.md` | 侦察 Agent | 主管 |
 | `dashboard/lib/sites.ts` | 建站 Agent | 主管 / 监控 |
 
 ### 2.3 结构化输入/输出
@@ -142,7 +142,7 @@ QA Agent 在 Build Agent 完成后由 Coordinator 调度，以"第二双眼睛"�
 1. git pull 同步最新代码
 2. 读取 STATS-游戏站点统计.md → 了解各站状态
 3. 调用监控 Agent → 获取 PV 排名和重点标记
-4. 读取 .agent/candidate-pool.md → 检查候选池
+4. 读取 keyword-results/CANDIDATE-POOL.md → 检查候选池
 
 5. 决策矩阵:
    ┌────────────────┬─────────────────────────────────────┐
@@ -179,7 +179,7 @@ QA Agent 在 Build Agent 完成后由 Coordinator 调度，以"第二双眼睛"�
 2. 按 SOP 五条标准筛选
 3. 对 Top 5 检查 Wiki 覆盖
 4. 四维评分（搜索需求/生命周期/内容量/竞争）
-5. 输出候选清单到 .agent/candidate-pool.md
+5. 输出候选清单到 keyword-results/CANDIDATE-POOL.md
 6. 排除已建站的游戏（检查目录名）
 ```
 
@@ -378,7 +378,7 @@ QA Agent 在 Build Agent 完成后由 Coordinator 调度，以"第二双眼睛"�
 │
 ├─ 侦察Agent 完成:
 │   发现 3 个候选: Dark Frontier (17分), Shadow Realm (15分), Pixel Tales (11分)
-│   → 保存到 candidate-pool.md
+│   → 保存到 keyword-results/CANDIDATE-POOL.md
 │
 ├─ Dark Frontier 17分 ≥ 15 → 自动触发流水线
 │   → 调度 关键词Agent(Dark Frontier)
@@ -447,7 +447,7 @@ QA Agent 在 Build Agent 完成后由 Coordinator 调度，以"第二双眼睛"�
 
 | 文件 | 用途 |
 |------|------|
-| `.agent/candidate-pool.md` | 候选游戏池 |
+| `keyword-results/CANDIDATE-POOL.md` | 候选游戏池 |
 
 ### 需要更新的现有文件
 

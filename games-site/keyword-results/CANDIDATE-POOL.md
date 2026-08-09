@@ -2,6 +2,7 @@
 
 > 侦察 Agent 发现的新游戏候选。主管 Agent 读取此文件做建站决策。
 > 最后更新: 2026-08-08
+> 位置：`keyword-results/CANDIDATE-POOL.md` — 随 git 同步，跨机器共享
 
 ## 候选清单
 
