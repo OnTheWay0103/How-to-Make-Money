@@ -16,7 +16,7 @@
 | 5 | SpiritVale | 7/12 | 51 | spiritvalewiki.vercel.app | ✅ | ✅ | ✅ | 8/1 内容配比规则 +1 世界 Boss 速查表（Echoing Spire） |
 | 6 | Skills & Raids | 7/15 | 26 | skillsandraidswiki.vercel.app | ✅ | ✅ | ✅ | 7/27 游戏上线 |
 | 7 | MineGeon | 7/20 | 31 | minegeonwiki.vercel.app | ✅ | ✅ | ✅ | 7/28 游戏上线；8/3 Coordinator 扩充 +2（Walkthrough、Review） |
-| 8 | Sephiria | 7/21 | 43 | sephiriawiki.vercel.app | ✅ | ✅ | ✅ | 7/31 1.0 上线；8/1 内容配比规则 +2（Build 原型速查表、Boss 推进表） |
+| 8 | Sephiria | 7/21 | 48 | sephiriawiki.vercel.app | ✅ | ✅ | ✅ | 7/31 1.0 上线；8/1 内容配比规则 +2（Build 原型速查表、Boss 推进表） |
 | 9 | DinoBlade | 7/21 | 27 | dinobladewiki.vercel.app | ✅ | ✅ | ✅ | 8/3 Coordinator 扩充 +3（Leveling、How Long to Beat、Healing） |
 | 10 | Mystralia | 7/22 | 35 | mystraliawiki.vercel.app | ✅ | ✅ | ✅ | 8/7 Coordinator +5（EA FAQ、Spell Form、Combat、First 5h、Farming）；8/7 晚 +3（Controller、Save Progression、Community Resources）；8/11 EA |
 | 11 | Tears of Metal | 7/23 | 37 | tearsofmetalwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 反馈驱动 +3 新 +2 纠错（英雄名校准）；8/1 内容配比 +5（Wallace/Brienne/Ruadh 独立 Build 页、Corruption 机制、装备指南）+ 修复旧英雄/Boss 名残留 |
@@ -123,8 +123,8 @@
 | 指标 | 数值 |
 |------|:--:|
 | **总站点数** | 34 |
-| **总攻略数** | 989 |
-| **Vercel 部署** | 34/34 已 link · 18 站已部署生产 · 16 站待部署 |
+| **总攻略数** | 994 |
+| **Vercel 部署** | 18/34 ❌ |
 | **GA4 已配置** | 34/34 |
 | **GSC 文件部署** | 34/34 ✅（账户级令牌，所有站共用同一文件） |
 <!-- AUTO-END:summary -->
