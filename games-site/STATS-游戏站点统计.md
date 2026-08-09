@@ -1,6 +1,6 @@
 # 游戏攻略站 — 站点统计
 
-> 最后更新：2026-08-09 | 34 站 · 952 篇攻略
+> 最后更新：2026-08-09 | 34 站 · 956 篇攻略
 
 ---
 
@@ -25,24 +25,24 @@
 | 14 | Dwarf Delve | 7/26 | 25 | dwarfdelvewiki.vercel.app | ✅ | ✅ | ✅ |  |
 | 15 | Lunarium | 7/26 | 25 | lunariumwiki.vercel.app | ✅ | ✅ | ✅ |  |
 | 16 | Taival | 7/27 | 23 | taivalwiki.vercel.app | ✅ | ✅ | ✅ | GSC 待验证 |
-| 17 | Vahrin's Call | 7/28 | 26 | vahrinscallwiki.vercel.app | ✅ | ✅ | ✅ | 7/27 游戏上线；8/4 +2（Stealth+Backstab、Parrying）；8/5 +2（PC Performance、Lore & Story）；8/6 +3（Skill Book Hunting、NPCs & Characters、Unique Weapons），GSC 待验证 |
+| 17 | Vahrin's Call | 7/28 | 26 | vahrinscallwiki.vercel.app | ❌ | ✅ | ✅ | 7/27 游戏上线；8/4 +2（Stealth+Backstab、Parrying）；8/5 +2（PC Performance、Lore & Story）；8/6 +3（Skill Book Hunting、NPCs & Characters、Unique Weapons），GSC 待验证 |
 | 18 | The Relic | 7/28 | 38 | relicfirstguardianwiki.vercel.app | ✅ | ✅ | ✅ | 7/31 已上线；8/5 Coordinator 扩充 +2（Enemy Types、Status Effects），GSC 待验证 |
-| 19 | Graphite | 7/29 | 18 | graphitewiki.vercel.app | ✅ | ✅ | ✅ | 7/27 游戏上线，GSC 待验证 |
+| 19 | Graphite | 7/29 | 18 | graphitewiki.vercel.app | ❌ | ✅ | ✅ | 7/27 游戏上线，GSC 待验证 |
 | 20 | Shift At Midnight | 7/29 | 28 | shiftatmidnightwiki.vercel.app | ✅ | ✅ | ✅ | 7/22 游戏上线；8/4 +2（All Doppelgangers、Special Monsters）；8/5 +2（PC Performance、Patch Notes），GSC 待验证 |
-| 21 | Moonlight Peaks | 7/31 | 17 | moonlightpeakswiki.vercel.app | ✅ | ✅ | ✅ | 7/7 游戏上线，20万销量，GSC 待验证 |
-| 22 | Bonehold | 7/30 | 25 | boneholdwiki.vercel.app | ✅ | ✅ | ✅ | 8/6 +3（System Requirements、Review Guide、Similar Games），GSC 待验证 |
-| 23 | Phantom Tower | 7/30 | 14 | phantomtowerwiki.vercel.app | ✅ | ✅ | ✅ | GSC 待验证 |
-| 24 | Ardent Wilds | 7/31 | 25 | ardentwildswiki.vercel.app | ✅ | ✅ | ✅ | 8/4 +2（Enemies+Eldran、Artifacts+Loot）；8/5 +2（Weapons、Story Quests），GSC 待验证 |
-| 25 | Go-Go Town! | 8/01 | 14 | gotownwiki.vercel.app | ✅ | ✅ | ✅ | 7/16 1.0 上线，93% 好评，GSC 待验证 |
-| 26 | Expeditions: Samurai | 8/01 | 33 | expeditionssamuraiwiki.vercel.app | ✅ | ✅ | ✅ | 20/20 最高分，8/7 EA 上线；8/7 Coordinator +8（Companion Recruitment、Party Comp、Combat Deep Dive、3 Pillars、Progression、Injuries、Factions、Mistakes），GSC 待验证 |
-| 27 | Delverium | 8/02 | 14 | delveriumwiki.vercel.app | ✅ | ✅ | ✅ | 8/2 Coordinator auto-build，19/20，9/22 EA，80k wishlist；8/7 +5；GA4 ✅ |
-| 28 | Low-Budget Repairs | 8/03 | 33 | lowbudgetrepairswiki.vercel.app | ✅ | ✅ | ✅ | 8/3 Coordinator auto-build，21/20，8/13 上线，1M+ wishlist，零 wiki 竞争；8/7 +13；GA4 ✅ |
-| 29 | Big Walk | 8/04 | 18 | bigwalkwiki.vercel.app | ✅ | ✅ | ✅ | 上线当日建站 — 21/25，House House/Panic，8/4 发售，799K wishlist，零 wiki 竞争；GA4 ✅ |
-| 30 | Iron Nest | 8/06 | 13 | ironnestwiki.vercel.app | ✅ | ✅ | ✅ | 8/6 Coordinator auto-build，18/25，843K wishlist，柴油朋克重炮模拟；GA4 ✅ |
-| 31 | Nivalis Nights | 8/07 | 20 | nivalisnightswiki.vercel.app | ✅ | ✅ | ✅ | 8/7 Coordinator auto-build，22/25，9/29 上线，932K wishlist，ION LANDS/505；GA4 ✅ |
-| 32 | ReStory | 8/08 | 14 | restorywiki.vercel.app | ✅ | ✅ | ✅ | 8/8 auto-build，22/20，8/6 上线，Mandragora/tinyBuild，700K wishlist，98% 好评；GA4 ✅ |
-| 33 | Beast of Reincarnation | 8/08 | 14 | beastreincarnationwiki.vercel.app | ✅ | ✅ | ✅ | 8/8 auto-build，21/20，8/4 发售，Game Freak 首款原IP，718K wishlist；GA4 ✅ |
-| 34 | Waterpark Simulator | 8/08 | 14 | waterparksimulatorwiki.vercel.app | ✅ | ✅ | ✅ | 8/8 auto-build，17/20，7/31 1.0 上线，CayPlay（50M YouTuber），1M+ 下载，96% 好评；GA4 ✅ |
+| 21 | Moonlight Peaks | 7/31 | 17 | moonlightpeakswiki.vercel.app | ❌ | ✅ | ✅ | 7/7 游戏上线，20万销量，GSC 待验证 |
+| 22 | Bonehold | 7/30 | 25 | boneholdwiki.vercel.app | ❌ | ✅ | ✅ | 8/6 +3（System Requirements、Review Guide、Similar Games），GSC 待验证 |
+| 23 | Phantom Tower | 7/30 | 14 | phantomtowerwiki.vercel.app | ❌ | ✅ | ✅ | GSC 待验证 |
+| 24 | Ardent Wilds | 7/31 | 25 | ardentwildswiki.vercel.app | ❌ | ✅ | ✅ | 8/4 +2（Enemies+Eldran、Artifacts+Loot）；8/5 +2（Weapons、Story Quests），GSC 待验证 |
+| 25 | Go-Go Town! | 8/01 | 14 | gotownwiki.vercel.app | ❌ | ✅ | ✅ | 7/16 1.0 上线，93% 好评，GSC 待验证 |
+| 26 | Expeditions: Samurai | 8/01 | 33 | expeditionssamuraiwiki.vercel.app | ❌ | ✅ | ✅ | 20/20 最高分，8/7 EA 上线；8/7 Coordinator +8（Companion Recruitment、Party Comp、Combat Deep Dive、3 Pillars、Progression、Injuries、Factions、Mistakes），GSC 待验证 |
+| 27 | Delverium | 8/02 | 14 | delveriumwiki.vercel.app | ❌ | ✅ | ✅ | 8/2 Coordinator auto-build，19/20，9/22 EA，80k wishlist；8/7 +5；GA4 ✅ |
+| 28 | Low-Budget Repairs | 8/03 | 33 | lowbudgetrepairswiki.vercel.app | ❌ | ✅ | ✅ | 8/3 Coordinator auto-build，21/20，8/13 上线，1M+ wishlist，零 wiki 竞争；8/7 +13；GA4 ✅ |
+| 29 | Big Walk | 8/04 | 18 | bigwalkwiki.vercel.app | ❌ | ✅ | ✅ | 上线当日建站 — 21/25，House House/Panic，8/4 发售，799K wishlist，零 wiki 竞争；GA4 ✅ |
+| 30 | Iron Nest | 8/06 | 13 | ironnestwiki.vercel.app | ❌ | ✅ | ✅ | 8/6 Coordinator auto-build，18/25，843K wishlist，柴油朋克重炮模拟；GA4 ✅ |
+| 31 | Nivalis Nights | 8/07 | 20 | nivalisnightswiki.vercel.app | ❌ | ✅ | ✅ | 8/7 Coordinator auto-build，22/25，9/29 上线，932K wishlist，ION LANDS/505；GA4 ✅ |
+| 32 | ReStory | 8/08 | 14 | restorywiki.vercel.app | ❌ | ✅ | ✅ | 8/8 auto-build，22/20，8/6 上线，Mandragora/tinyBuild，700K wishlist，98% 好评；GA4 ✅ |
+| 33 | Beast of Reincarnation | 8/08 | 14 | beastreincarnationwiki.vercel.app | ❌ | ✅ | ✅ | 8/8 auto-build，21/20，8/4 发售，Game Freak 首款原IP，718K wishlist；GA4 ✅ |
+| 34 | Waterpark Simulator | 8/08 | 14 | waterparksimulatorwiki.vercel.app | ❌ | ✅ | ✅ | 8/8 auto-build，17/20，7/31 1.0 上线，CayPlay（50M YouTuber），1M+ 下载，96% 好评；GA4 ✅ |
 <!-- AUTO-END:overview-table -->
 
 ---
@@ -124,7 +124,7 @@
 |------|:--:|
 | **总站点数** | 34 |
 | **总攻略数** | 956 |
-| **Vercel 部署** | 34/34 ✅ |
+| **Vercel 部署** | 18/34 ❌ |
 | **GA4 已配置** | 34/34 |
 | **GSC 文件部署** | 34/34 ✅（账户级令牌，所有站共用同一文件） |
 <!-- AUTO-END:summary -->
