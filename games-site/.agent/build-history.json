@@ -1,6 +1,14 @@
 {
   "builds": [
     {
+      "game": "ReStory: Chill Electronics Repairs",
+      "date": "2026-08-08",
+      "genre": "怀旧电器维修模拟 (Mandragora/tinyBuild)",
+      "guides": 14,
+      "score": 22,
+      "deployed": true
+    },
+    {
       "game": "Waterpark Simulator",
       "date": "2026-08-08",
       "genre": "Waterpark Management Simulator (CayPlay)",

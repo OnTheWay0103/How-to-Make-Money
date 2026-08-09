@@ -1,6 +1,6 @@
 # 游戏攻略站 — 站点统计
 
-> 最后更新：2026-08-08 | 34 站 · 913 篇攻略
+> 最后更新：2026-08-09 | 34 站 · 941 篇攻略
 
 ---
 
@@ -40,7 +40,7 @@
 | 29 | Big Walk | 8/04 | 18 | bigwalkwiki.vercel.app | ✅ | ❌ | ✅ | 上线当日建站 — 21/25，House House/Panic，8/4 发售，799K wishlist，零 wiki 竞争；无战斗 → Tool Tier List；GA4 空字符串，待创建 |
 | 30 | Iron Nest | 8/06 | 13 | ironnestwiki.vercel.app | ✅ | ❌ | ✅ | 8/6 Coordinator auto-build，18/25，843K wishlist，柴油朋克重炮模拟；GA4 占位符 |
 | 31 | 🆕 Nivalis Nights | 8/07 | 13 | nivalisnightswiki.vercel.app | ✅ | ❌ | ✅ | 8/7 Coordinator auto-build，22/25，9/29 上线，932K wishlist，ION LANDS/505 Games，赛博朋克生活模拟；8/7 晚 Vercel 部署完成；GA4 未创建 |
-| 32 | 🆕 restorywiki | ❓ | 14 | restorywiki.vercel.app | ✅ | ❌ | ✅ | ⚠️ 新站点，需手动补全信息 |
+| 32 | 🆕 ReStory: Chill Electronics Repairs | 8/8 | 14 | restorywiki.vercel.app | ✅ | ❌ | ✅ | 8/8 auto-build，22/20，8/6 上线（2 天后建站），Mandragora/tinyBuild，700K wishlist，98% Overwhelmingly Positive，12K CCU，零 wiki 竞争；14 篇攻略；GA4 空字符串待创建 |
 | 33 | 🆕 Beast of Reincarnation | 8/08 | 14 | beastreincarnationwiki.vercel.app | ✅ | ❌ | ✅ | 8/8 auto-build，21/20，8/4 发售（4 天前），Game Freak 首款原IP，718K wishlist，零 wiki 竞争；14 篇攻略（9 参考型 + 3 搜索型 + 2 深度型）；GA4 空字符串待创建 |
 | 34 | 🆕 Waterpark Simulator | 8/08 | 14 | waterparksimulatorwiki.vercel.app | ✅ | ❌ | ✅ | 8/8 auto-build，17/20，7/31 1.0 上线（8 天前）+ 主机同日发售，CayPlay（50M 订阅 YouTuber 出品），1M+ 下载，96% 好评，零 wiki 竞争；14 篇攻略（8 参考型 + 4 搜索型 + 2 深度型）；GA4 空字符串待创建 |
 <!-- AUTO-END:overview-table -->
@@ -83,7 +83,7 @@
 | 29 | Big Walk | 8/04 | ✅ | ✅ 12 | ✅ | ❌ | ✅ | ✅ | ⚠️ | ✅ |
 | 30 | Iron Nest | 8/06 | ✅ | ✅ WebSearch | ✅ | ❌ | ✅ | ✅ | ⚠️ | ✅ |
 | 31 | 🆕 Nivalis Nights | 8/07 | ✅ | ✅ WebSearch | ✅ | ❌ | ✅ | ✅ | ❌ | ⚠️ |
-| 32 | 🆕 restorywiki | 8/08 | ✅ | ✅ | ✅ | ❓ | ✅ | ❓ | ⚠️ | ⚠️ |
+| 32 | 🆕 ReStory: Chill Electronics Repairs | 8/08 | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ⚠️ | ✅ |
 | 33 | 🆕 Beast of Reincarnation | 8/08 | ✅ | ✅ WebSearch | ✅ | ❓ | ✅ | ❓ | ⚠️ | ✅ |
 | 34 | 🆕 Waterpark Simulator | 8/08 | ✅ | ✅ WebSearch | ✅ | ❌ | ✅ | ✅ | ⚠️ | ✅ |
 <!-- AUTO-END:sop-table -->
@@ -102,7 +102,7 @@
 
 | 事项 | 涉及站点 | 操作 |
 |------|---------|------|
-| **创建 GA4** | Big Walk, Delverium, Low-Budget Repairs, Iron Nest, Nivalis Nights, Beast of Reincarnation, **Waterpark Simulator** | GA4 后台创建 Property，发我 Measurement ID |
+| **创建 GA4** | Big Walk, Delverium, Low-Budget Repairs, Iron Nest, Nivalis Nights, **ReStory**, Beast of Reincarnation, **Waterpark Simulator** | GA4 后台创建 Property，发我 Measurement ID |
 | **Vercel 部署** | ~~Nivalis Nights~~ ✅ — 8/7 晚部署完成 |
 | **Dashboard 补齐 propertyId** | Delverium (`REPLACE_ME`), Low-Budget Repairs (`TODO`), Big Walk (`REPLACE_ME`), Iron Nest (`REPLACE_ME`), Nivalis Nights, Beast of Reincarnation (`REPLACE_ME`), Waterpark Simulator (`REPLACE_ME`) | GA4 创建后，在 GA Admin → Property Settings 找到数字 Property ID |
 | **GSC 验证** | 16 站 🟡 | GSC 后台添加资源+验证（文件已部署，只需后台操作） |
@@ -114,9 +114,9 @@
 | **Expeditions: Samurai** | ~~8/7~~ ✅ | expeditionssamuraiwiki | EA 已上线（Act One），33 篇攻略就位 |
 | **Grain Rot** | ~~8/7~~ ✅ | grainrotwiki | 已上线，30 篇攻略 |
 | Mystralia | 8/11 | mystraliawiki | EA 上线，35 篇攻略就位 |
-| **Low-Budget Repairs** | **8/13** | **lowbudgetrepairswiki** | **1M+ wishlist，零 wiki 竞争，28 篇攻略** |
-| Delverium | 9/22 | delveriumwiki | EA 上线，12 篇攻略（8/7 +5） |
-| 🆕 Nivalis Nights | 9/29 | nivalisnightswiki | 22/25 最高分候选，932K wishlist，10 篇初始攻略 |
+| **Low-Budget Repairs** | **8/13** | **lowbudgetrepairswiki** | **1M+ wishlist，零 wiki 竞争，33 篇攻略** |
+| Delverium | 9/22 | delveriumwiki | EA 上线，14 篇攻略（8/7 +5） |
+| 🆕 Nivalis Nights | 9/29 | nivalisnightswiki | 22/25 最高分候选，932K wishlist，13 篇攻略 |
 
 ---
 
@@ -178,8 +178,9 @@
 ✅ 8/7   Grain Rot（30 攻略）
 ✅ 8/4   Beast of Reincarnation（8/8 建站，21/20，Game Freak 首款原IP，718K wishlist，零 wiki 竞争，14 攻略）
 ✅ 7/31  Waterpark Simulator 1.0（8/8 建站，17/20，CayPlay，1M+ 下载，96% 好评，零 wiki 竞争，14 攻略）
+✅ 8/6   ReStory: Chill Electronics Repairs（8/8 建站，22/20，Mandragora/tinyBuild，700K wishlist，98% Overwhelmingly Positive，零 wiki 竞争，14 攻略）
 🔜 8/11  Mystralia EA（8/7 +5 +3 = 35 攻略）
-🔜 8/13  Low-Budget Repairs（8/3 建站，8/7 +8 +5 = 28 攻略）
-🔜 9/22  Delverium EA（8/2 建站，8/7 +5 = 12 攻略）
-🔜 9/29  Nivalis Nights（8/7 建站，10 攻略）
+🔜 8/13  Low-Budget Repairs（8/3 建站，8/7 +8 +5 = 33 攻略）
+🔜 9/22  Delverium EA（8/2 建站，8/7 +5 = 14 攻略）
+🔜 9/29  Nivalis Nights（8/7 建站，13 攻略）
 ```
