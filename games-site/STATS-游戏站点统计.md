@@ -111,7 +111,7 @@
 | ~~8/7~~ | Expeditions: Samurai | expeditionssamuraiwiki | ✅ EA 已上线，33 篇 |
 | ~~8/7~~ | Grain Rot | grainrotwiki | ✅ 已上线，30 篇 |
 | **8/11** | Mystralia | mystraliawiki | 🔜 EA 后天上线，35 篇已就位 |
-| **8/13** | **Low-Budget Repairs** | lowbudgetrepairswiki | 🔜 **4 天后上线，1M+ wishlist，33 篇，缺 GA4** |
+| **8/13** | **Low-Budget Repairs** | lowbudgetrepairswiki | 🔜 **4 天后上线，1M+ wishlist，33 篇** |
 | 9/22 | Delverium | delveriumwiki | 14 篇 |
 | 9/29 | Nivalis Nights | nivalisnightswiki | 20 篇，932K wishlist |
 
@@ -124,13 +124,13 @@
 |------|:--:|
 | **总站点数** | 34 |
 | **总攻略数** | 956 |
-| **Vercel 部署** | 18/34 ❌ |
+| **Vercel 部署** | 34/34 已 link · 18 站已部署生产 · 16 站待部署 |
 | **GA4 已配置** | 34/34 |
 | **GSC 文件部署** | 34/34 ✅（账户级令牌，所有站共用同一文件） |
 <!-- AUTO-END:summary -->
 
-| **Dashboard 注册** | 34/34（8 站 propertyId 占位符） |
-| **GSC 后台验证** | 15/29（其余需手动操作） |
+| **Dashboard 注册** | 34/34 |
+| **GSC 后台验证** | 验证文件 34/34 已部署 · 后台手动验证进行中 |
 | **关键词待采集** | 3（Shift At Midnight、Bonehold、Phantom Tower） |
 
 ---
@@ -148,15 +148,22 @@
 
 ### 5.2 GSC 验证文件说明
 
-所有 29 站部署的是**同一个** GSC 验证文件（`google12f8715471cef7b7.html`）。这是**正常行为**——Google 的验证令牌绑定到账户而非站点，同一账号下所有 Property 共用同一令牌。Google 通过域名/URL 区分不同 Property，而非通过验证文件内容。
+所有 34 站部署的是**同一个** GSC 验证文件（`google12f8715471cef7b7.html`）。这是**正常行为**——Google 的验证令牌绑定到账户而非站点，同一账号下所有 Property 共用同一令牌。Google 通过域名/URL 区分不同 Property，而非通过验证文件内容。
 
-### 5.3 GitHub 自动部署缺失（28/29 站）
+### 5.3 GitHub 自动部署缺失（34/34 站）
 
 `vercel link` 只创建项目，不配置 Git 集成（需浏览器 OAuth）。需手动逐站配置。
 
 ### 5.4 Root Directory 双重路径
 
 部署前需 API 清空 → CLI 部署 → API 恢复，否则路径叠加报错。
+
+### 5.5 Next.js 版本统一 + Root Lockfile 清理（8/9 已修复）
+
+| 问题 | 修复 |
+|------|------|
+| 4 站 Next.js 版本落后（^16.0.0 vs ^16.2.9） | 统一升级至 ^16.2.9，构建验证通过 |
+| 根目录残留 `games-site/package-lock.json` | 删除，消除 Turbopack 多 lockfile 警告 |
 
 ---
 
