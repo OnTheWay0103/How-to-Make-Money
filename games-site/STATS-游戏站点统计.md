@@ -19,7 +19,7 @@
 | 8 | Sephiria | 7/21 | 43 | sephiriawiki.vercel.app | ✅ | ✅ | ✅ | 7/31 1.0 上线；8/1 内容配比规则 +2（Build 原型速查表、Boss 推进表） |
 | 9 | DinoBlade | 7/21 | 27 | dinobladewiki.vercel.app | ✅ | ✅ | ✅ | 8/3 Coordinator 扩充 +3（Leveling、How Long to Beat、Healing） |
 | 10 | Mystralia | 7/22 | 35 | mystraliawiki.vercel.app | ✅ | ✅ | ✅ | 8/7 Coordinator +5（EA FAQ、Spell Form、Combat、First 5h、Farming）；8/7 晚 +3（Controller、Save Progression、Community Resources）；8/11 EA |
-| 11 | Tears of Metal | 7/23 | 35 | tearsofmetalwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 反馈驱动 +3 新 +2 纠错（英雄名校准）；8/1 内容配比 +5（Wallace/Brienne/Ruadh 独立 Build 页、Corruption 机制、装备指南）+ 修复旧英雄/Boss 名残留 |
+| 11 | Tears of Metal | 7/23 | 37 | tearsofmetalwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 反馈驱动 +3 新 +2 纠错（英雄名校准）；8/1 内容配比 +5（Wallace/Brienne/Ruadh 独立 Build 页、Corruption 机制、装备指南）+ 修复旧英雄/Boss 名残留 |
 | 12 | Grain Rot | 7/24 | 30 | grainrotwiki.vercel.app | ✅ | ✅ | ✅ | 8/7 游戏上线；8/3 1.0 内容更新（全量内容清单、生物群系+2、wishlist 25万→250k） |
 | 13 | DragonSword | 7/25 | 25 | dragonswordwiki.vercel.app | ✅ | ✅ | ✅ | 7/22 游戏上线；8/3 Coordinator 扩充 +3（Reina/Kalsion/Cerese 角色指南） |
 | 14 | Dwarf Delve | 7/26 | 25 | dwarfdelvewiki.vercel.app | ✅ | ✅ | ✅ |  |
@@ -28,7 +28,7 @@
 | 17 | Vahrin's Call | 7/28 | 26 | vahrinscallwiki.vercel.app | ✅ | ✅ | ✅ | 7/27 游戏上线；8/4 +2（Stealth+Backstab、Parrying）；8/5 +2（PC Performance、Lore & Story）；8/6 +3（Skill Book Hunting、NPCs & Characters、Unique Weapons），GSC 待验证 |
 | 18 | The Relic | 7/28 | 38 | relicfirstguardianwiki.vercel.app | ✅ | ✅ | ✅ | 7/31 已上线；8/5 Coordinator 扩充 +2（Enemy Types、Status Effects），GSC 待验证 |
 | 19 | Graphite | 7/29 | 18 | graphitewiki.vercel.app | ✅ | ✅ | ✅ | 7/27 游戏上线，GSC 待验证 |
-| 20 | Shift At Midnight | 7/29 | 26 | shiftatmidnightwiki.vercel.app | ✅ | ✅ | ✅ | 7/22 游戏上线；8/4 +2（All Doppelgangers、Special Monsters）；8/5 +2（PC Performance、Patch Notes），GSC 待验证 |
+| 20 | Shift At Midnight | 7/29 | 28 | shiftatmidnightwiki.vercel.app | ✅ | ✅ | ✅ | 7/22 游戏上线；8/4 +2（All Doppelgangers、Special Monsters）；8/5 +2（PC Performance、Patch Notes），GSC 待验证 |
 | 21 | Moonlight Peaks | 7/31 | 17 | moonlightpeakswiki.vercel.app | ✅ | ✅ | ✅ | 7/7 游戏上线，20万销量，GSC 待验证 |
 | 22 | Bonehold | 7/30 | 25 | boneholdwiki.vercel.app | ✅ | ✅ | ✅ | 8/6 +3（System Requirements、Review Guide、Similar Games），GSC 待验证 |
 | 23 | Phantom Tower | 7/30 | 14 | phantomtowerwiki.vercel.app | ✅ | ✅ | ✅ | GSC 待验证 |
@@ -123,7 +123,7 @@
 | 指标 | 数值 |
 |------|:--:|
 | **总站点数** | 34 |
-| **总攻略数** | 952 |
+| **总攻略数** | 956 |
 | **Vercel 部署** | 34/34 ✅ |
 | **GA4 已配置** | 34/34 |
 | **GSC 文件部署** | 34/34 ✅（账户级令牌，所有站共用同一文件） |
