@@ -10,6 +10,9 @@ const FEATURED_GUIDES = [
   { title: 'All 50 Achievements', description: 'Every Steam achievement with unlock conditions — including the 5 hidden ones and the license, sticker, and competition milestones.', slug: 'achievement-guide', category: 'Reference', updated: '2026-08-08' },
   { title: 'Repair Process & Mechanics Guide', description: 'The full disassemble → clean → repair → reassemble loop: part conditions, notepad, soldering, reprogramming and assembly order.', slug: 'repair-process-guide', category: 'Mechanics', updated: '2026-08-08' },
   { title: 'Money & Profit Guide', description: 'How to maximize profit margins — clean before replacing, build a parts library, batch orders, flip marketplace devices.', slug: 'money-making-guide', category: 'Economy', updated: '2026-08-08' },
+  { title: 'Cleaning Guide — Every Technique & Tool', description: 'Brush, canned air and Sonic Bath mastery — hidden dirt, the stuck-cleaning bug, and night grinding for clean-only profit.', slug: 'cleaning-guide', category: 'Mechanics', updated: '2026-08-09' },
+  { title: 'Soldering Guide — Master Board Repairs', description: 'Unlock the soldering iron, learn when boards need it, and speed up the repair that shows up on every console job.', slug: 'soldering-guide', category: 'Mechanics', updated: '2026-08-09' },
+  { title: 'Story Walkthrough — Day One to Credits', description: 'The campaign from first repair to the assembly-competition finale — every confirmed choice moment and the milestone path.', slug: 'walkthrough-guide', category: 'Advanced', updated: '2026-08-09' },
 ];
 
 const FAQ_ITEMS = [

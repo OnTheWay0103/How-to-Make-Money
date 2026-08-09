@@ -5,7 +5,7 @@ category: "Home"
 version: "1.0.6"
 updated: "2026-08-08"
 keywords: ["Beast of Reincarnation", "Beast of Reincarnation wiki", "Game Freak action RPG", "Nushi bosses", "Beast of Reincarnation guide", "Koo skills", "Beast of Reincarnation builds"]
-related: ["beginner-guide", "nushi-boss-reference", "tier-list", "combat-system-guide"]
+related: ["beginner-guide", "rangifer-boss-guide", "nushi-boss-reference", "weapons-armor-guide", "new-game-plus-guide", "tier-list"]
 ---
 
 # Beast of Reincarnation Wiki — Complete Guide Hub
@@ -31,14 +31,30 @@ This wiki covers all core systems for the launch build (v1.0.6): every verified 
 - [Combat System Deep Dive](/guides/combat-system-guide) — parry economy, FP, Down Gauge, Entanglement
 - [Chapter Progression Guide](/guides/chapter-progression-guide) — all 13 chapters and key unlocks
 
+### Boss Guides
+- [Rangifer Boss Guide](/guides/rangifer-boss-guide) — Chapter 1's giant stag, both fights + Ch. 5 rematch
+- [Lacerta Boss Guide](/guides/lacerta-boss-guide) — Chapter 2's newt, Shock weakness, two phases
+- [Nue Malefact Boss Guide](/guides/nue-malefact-boss-guide) — all six encounters, including the paired Purifier fight
+- [Taurus Boss Guide](/guides/taurus-boss-guide) — Chapter 4's bull, Acid weakness, Golem adds
+- [Corvus Boss Guide](/guides/corvus-boss-guide) — Chapter 7's crow, Lv. 38 and Lv. 41
+- [Kunai & Kirin Boss Guide](/guides/kunai-kirin-boss-guide) — parry Kunai, dodge Kirin
+
+### Walkthroughs
+- [Chapter 1 Walkthrough — Seedling](/guides/chapter-1-walkthrough) — full Ogouchi Buffer Zone route and loot
+- [Chapter 2 Walkthrough — Creeping Tendrils](/guides/chapter-2-walkthrough) — generators, the reservoir, Thunderwave Sword
+
 ### Skills & Builds
 - [Skill Tree Overview](/guides/skill-tree-overview) — Emma's skills, Koo's Bloom Arts and Roots
+- [Bloom Arts & FP Guide](/guides/bloom-arts-guide) — FP economy, Full Bloom, best Arts ranked
 - [Koo Skills & Rapport Guide](/guides/koo-rapport-guide) — rapport, every Bloom Art ranked
+- [Weapons & Armor Guide](/guides/weapons-armor-guide) — best swords, armor sets, and locations
 - [Elemental Builds](/guides/elemental-builds-guide) — Shock, Poison, and Acid full loadouts
 - [Endgame Build — The Thunderwave](/guides/endgame-build-guide) — the strongest verified late-game build
 - [Spirit Stones Guide](/guides/spirit-stones-guide) — all stones, effects, and farming
 
 ### Going Deeper
+- [Endings Guide](/guides/endings-guide) — how many endings, what the credits unlock
+- [New Game+ Guide](/guides/new-game-plus-guide) — carry-over list, Reincarnation+, exclusives
 - [Endgame & Post-Game Guide](/guides/endgame-post-game-guide) — New Game+, Reincarnation+, Platinum
 - [Hidden Secrets & Collectibles](/guides/secrets-collectibles-guide) — Dragon Shrines and hidden finds
 

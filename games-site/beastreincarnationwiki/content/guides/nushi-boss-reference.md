@@ -22,13 +22,13 @@ related: ["tier-list", "combat-system-guide", "elemental-builds-guide", "chapter
 | **Rangifer** | 1 — Seedling | Lv. 9, then Lv. 12 | **Flame** | Antler sweeps, seed projectiles, charge + rock kick; Lv. 12 adds jump attack, tree growth, hoof stomp, red-glow 4-hit combo | **Nushi Skill: Sakura Storm**; second win → **Sakura: Javelin** + Sakura Blade Art/Finisher |
 | **Nue Malefact** | 1 (flashback), 3 | Lv. 16 (x3), Lv. 20 (paired) | **Poison** | Unblockable lightning strikes, double tail spins, claw swipes | Story fights (damage carries between Ch. 3 meetings) |
 | **Male Purifier** | 3 — The Vessel | Lv. 20 | — | Melee strikes, hair-based attacks like Emma's | Paired with Nue Malefact; focus one at a time |
-| **Lacerta** | 2 — Creeping Tendrils | Lv. 13, then Lv. 16 | — | Tail swings, jaw snaps, dives to summon adds; **Slow + Poison** | Progression (arena inside the Reservoir) |
+| **Lacerta** | 2 — Creeping Tendrils | Lv. 13, then Lv. 16 | **Shock** | Tail swings, jaw snaps, dives to summon adds; **Slow + Poison** | Progression (arena inside the Reservoir) |
 | **Taurus** | 4 — Stems | Lv. 26, then Lv. 29 | **Acid** | Unblockable spiked-rock stomp, horn swipe, ground thorns, tail thorns | **Taurean Memories** → **Charging Botan** skill |
 | **Rangifer** (rematch) | 5 — Branching Paths | Lv. 32 | **Flame** | Beefier version of Ch. 1 moveset, two health bars | Progression |
-| **Corvus** | 7 — Root Rot | Lv. 35, then **Lv. 38** | **Shock** | Acid bombs → puddles, peck dives, triple claw stabs; summons corvid adds in phase 2 | **Nushi Skill: Acid Burst** (Lv. 38 fight) |
+| **Corvus** | 7 — Root Rot | Lv. 38, then **Lv. 41** (two bosses, Line 0 → Line 1) | **Shock** | Acid bombs → puddles, peck dives, triple claw stabs; summons corvid adds in phase 2 | **Nushi Skill: Acid Burst** (Lv. 38 fight) |
 | **Ursa** | ~8 — Worm Food | — | **Awaiting confirmation** | — | — |
 | **Shidou & Nue** | ~10 — Malefact | — | **Awaiting confirmation** | — | — |
-| **Kunai & Kirin** | ~11 — Budding Realization | — | **Awaiting confirmation** | — | — |
+| **Kunai & Kirin** | 8 (first) / 12 (rematch) | — | **Poison** | Kunai = parryable melee combos; Kirin = unparryable ranged (missiles, laser, skid marks) | **Awaiting confirmation** — see the [Kunai & Kirin Boss Guide](/guides/kunai-kirin-boss-guide) |
 | **Koo's Nushi form** | ~12 — The Firmament | — | **Awaiting confirmation** | — | — |
 | **Erymanth** | ~12 — The Firmament | — | **Awaiting confirmation** | — | — |
 | **Beast of Reincarnation** | 13 — To Bloom, Then Fall | — | **Awaiting confirmation** | Final boss — the elk-like source of all Blight | Ending + New Game+ unlock |
@@ -62,4 +62,4 @@ Elites drop stronger materials and Spirit Stones — they are the main source of
 
 ## Awaiting Confirmation
 
-The late-game boss table (Ursa, Erymanth, Shidou & Nue, Kunai & Kirin, Koo's Nushi form, final Beast of Reincarnation) is incomplete because no guide outlet has yet published verified attack data for Chapters 8–13. This page will be updated as guides are published post-launch.
+The late-game boss table (Ursa, Erymanth, Shidou & Nue, Koo's Nushi form, and the final Beast of Reincarnation) is incomplete because no guide outlet has yet published verified attack data for those fights. Kunai & Kirin's chapter placement (8 first, 12 rematch) and Poison weakness are now verified; their exact levels and drops remain outstanding. This page will be updated as guides are published post-launch.

@@ -236,15 +236,15 @@ Always complete floors in numerical order. You can technically skip ahead using 
 - "The Emperor Falls" — floor boss unlock
 
 **Notable Rewards**:
-- Unique weapons with PvP-oriented EX-Mods
+- Unique weapons with Colosseum-exclusive EX-Mods (single-player only — no PvP in the game)
 - Colosseum Champion title (cosmetic)
 - Rare accessories with multi-stat bonuses
 
 **Tips**:
-- The Colosseum features humanoid enemies that parry and dodge. Treat them like PvP opponents.
+- The Colosseum features humanoid enemies that parry and dodge — the most technical AI duels in the game.
 - Attack patterns are faster here than anywhere else. Prioritize Dexterity and attack speed.
 - The floor boss has 2 phases — human form and beast form. Both must be learned separately.
-- **Only floor with PvP-enabled zones**. Watch for player invaders in the arena outskirts.
+- **Colosseum arena outskirts have the highest enemy density on this floor**. Clear carefully before engaging the arena.
 
 ## Floor 10 — Sky Fortress
 

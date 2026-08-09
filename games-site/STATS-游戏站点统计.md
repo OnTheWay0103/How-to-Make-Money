@@ -1,6 +1,6 @@
 # 游戏攻略站 — 站点统计
 
-> 最后更新：2026-08-09 | 34 站 · 956 篇攻略
+> 最后更新：2026-08-09 | 34 站 · 989 篇攻略
 
 ---
 
@@ -11,7 +11,7 @@
 |---|------|:--:|:--:|------|:--:|:--:|:--:|------|
 | 1 | Witchspire | 6/29 | 46 | witchspirewiki.vercel.app | ✅ | ✅ | ✅ | 8/1 反馈驱动 +3 新 +4 纠错（精灵机制/联机/PvP 造假清理） |
 | 2 | Mistfall Hunter | 7/01 | 53 | mistfallhunterwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 内容配比规则 +1 Boss/Mist Lord 速查表；8/1 内容配比 +1 Map Boss & Loot 速查表 |
-| 3 | Aincrad | 7/07 | 47 | aincradwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 内容配比规则 +2（Golden Gate Boss、武器锻造配方表）；8/1 内容配比 +2（全 Boss 速查表、消耗品速查表） |
+| 3 | Aincrad | 7/07 | 47 | aincradwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 内容配比规则 +2（Golden Gate Boss、武器锻造配方表）；8/1 内容配比 +2（全 Boss 速查表、消耗品速查表）；8/9 QA 修复 floor-guide PvP 虚构残留 |
 | 4 | The Mound | 7/14 | 54 | themoundwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 内容配比规则 +2 速查表；Tier List 页武器名纠错（虚构 Rapier/Dagger 等 → 真实 Matchlock/Crossbow/Machete 等） |
 | 5 | SpiritVale | 7/12 | 51 | spiritvalewiki.vercel.app | ✅ | ✅ | ✅ | 8/1 内容配比规则 +1 世界 Boss 速查表（Echoing Spire） |
 | 6 | Skills & Raids | 7/15 | 26 | skillsandraidswiki.vercel.app | ✅ | ✅ | ✅ | 7/27 游戏上线 |
@@ -38,10 +38,10 @@
 | 27 | Delverium | 8/02 | 14 | delveriumwiki.vercel.app | ❌ | ✅ | ✅ | 8/2 Coordinator auto-build，19/20，9/22 EA，80k wishlist；8/7 +5；GA4 ✅ |
 | 28 | Low-Budget Repairs | 8/03 | 33 | lowbudgetrepairswiki.vercel.app | ❌ | ✅ | ✅ | 8/3 Coordinator auto-build，21/20，8/13 上线，1M+ wishlist，零 wiki 竞争；8/7 +13；GA4 ✅ |
 | 29 | Big Walk | 8/04 | 18 | bigwalkwiki.vercel.app | ❌ | ✅ | ✅ | 上线当日建站 — 21/25，House House/Panic，8/4 发售，799K wishlist，零 wiki 竞争；GA4 ✅ |
-| 30 | Iron Nest | 8/06 | 13 | ironnestwiki.vercel.app | ❌ | ✅ | ✅ | 8/6 Coordinator auto-build，18/25，843K wishlist，柴油朋克重炮模拟；GA4 ✅ |
+| 30 | Iron Nest | 8/06 | 24 | ironnestwiki.vercel.app | ❌ | ✅ | ✅ | 8/6 Coordinator auto-build，18/25，843K wishlist，柴油朋克重炮模拟；8/9 Coordinator 扩充 +11（Crew Stations、Enemy Types、Story Walkthrough、Achievements、Advanced Ballistics、Multiplayer、Tips、Map Terrain、Requisition Farming、Lore、Glossary）；GA4 ✅ |
 | 31 | Nivalis Nights | 8/07 | 20 | nivalisnightswiki.vercel.app | ❌ | ✅ | ✅ | 8/7 Coordinator auto-build，22/25，9/29 上线，932K wishlist，ION LANDS/505；GA4 ✅ |
-| 32 | ReStory | 8/08 | 14 | restorywiki.vercel.app | ❌ | ✅ | ✅ | 8/8 auto-build，22/20，8/6 上线，Mandragora/tinyBuild，700K wishlist，98% 好评；GA4 ✅ |
-| 33 | Beast of Reincarnation | 8/08 | 14 | beastreincarnationwiki.vercel.app | ❌ | ✅ | ✅ | 8/8 auto-build，21/20，8/4 发售，Game Freak 首款原IP，718K wishlist；GA4 ✅ |
+| 32 | ReStory | 8/08 | 24 | restorywiki.vercel.app | ❌ | ✅ | ✅ | 8/8 auto-build，22/20，8/6 上线，Mandragora/tinyBuild，700K wishlist，98% 好评；8/9 Coordinator 扩充 +10（Cleaning、Soldering、Reprogramming、Valuable Devices、Shop Management、Easter Eggs、Characters、Walkthrough、Game Length、Known Issues）；GA4 ✅ |
+| 33 | Beast of Reincarnation | 8/08 | 26 | beastreincarnationwiki.vercel.app | ❌ | ✅ | ✅ | 8/8 auto-build，21/20，8/4 发售，Game Freak 首款原IP，718K wishlist；8/9 Coordinator 扩充 +12（6 Boss 攻略 + 武器防具 + Bloom Arts + Ch.1-2 Walkthrough + Endings + NG+）；GA4 ✅ |
 | 34 | Waterpark Simulator | 8/08 | 14 | waterparksimulatorwiki.vercel.app | ❌ | ✅ | ✅ | 8/8 auto-build，17/20，7/31 1.0 上线，CayPlay（50M YouTuber），1M+ 下载，96% 好评；GA4 ✅ |
 <!-- AUTO-END:overview-table -->
 
@@ -123,7 +123,7 @@
 | 指标 | 数值 |
 |------|:--:|
 | **总站点数** | 34 |
-| **总攻略数** | 956 |
+| **总攻略数** | 989 |
 | **Vercel 部署** | 34/34 已 link · 18 站已部署生产 · 16 站待部署 |
 | **GA4 已配置** | 34/34 |
 | **GSC 文件部署** | 34/34 ✅（账户级令牌，所有站共用同一文件） |

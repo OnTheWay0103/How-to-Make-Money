@@ -25,10 +25,10 @@ related: ["nushi-boss-reference", "beginner-guide", "endgame-post-game-guide", "
 | 5 | **Branching Paths** | Matsukawa Zone | **Rangifer rematch (Lv. 32)** — two health bars |
 | 6 | **Necrosis** | Fuji Frontier Zone | Drowned-zone survival; region transitions |
 | 7 | **Root Rot** | Giant Tree Zone | **Corvus (Lv. 35 → 38)** — two-phase; drops Nushi Skill: Acid Burst |
-| 8 | **Worm Food** | Crater Zone | Ursa fight expected here (awaiting confirmation) |
+| 8 | **Worm Food** | Crater Zone | **Kunai & Kirin first fight** (verified); Ursa fight also expected here (awaiting confirmation) |
 | 9 | **Branching Out** | Inukami River Zone | Region continues the Crater–Capital route |
 | 10 | **Malefact** | Starfall Tower | Shidou & Nue paired fight expected (awaiting confirmation) |
-| 11 | **Budding Realization** | Mount Hiei Zone | Kunai & Kirin fight expected (awaiting confirmation) |
+| 11 | **Budding Realization** | Mount Hiei Zone | Kunai & Kirin **rematch** expected (awaiting confirmation; first fight is Chapter 8) |
 | 12 | **The Firmament** | The Capital | Koo's Nushi form + Erymanth expected (awaiting confirmation) |
 | 13 | **To Bloom, Then Fall** | The Capital | **Final boss: Beast of Reincarnation** |
 | — | **Epilogue: Bearing Fruit** | — | Post-credits content; unlocks New Game+ |
