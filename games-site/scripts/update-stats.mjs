@@ -265,6 +265,12 @@ function nameToDir(name) {
     'Delverium': 'delveriumwiki',
     'Low-Budget Repairs': 'lowbudgetrepairswiki',
     'Big Walk': 'bigwalkwiki',
+    'Iron Nest': 'ironnestwiki',
+    'Nivalis Nights': 'nivalisnightswiki',
+    'ReStory: Chill Electronics Repairs': 'restorywiki',
+    'ReStory': 'restorywiki',
+    'Beast of Reincarnation': 'beastreincarnationwiki',
+    'Waterpark Simulator': 'waterparksimulatorwiki',
   };
 
   if (KNOWN[clean]) return KNOWN[clean];

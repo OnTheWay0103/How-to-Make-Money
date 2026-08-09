@@ -1,6 +1,6 @@
 # 游戏攻略站 — 站点统计
 
-> 最后更新：2026-08-09 | 34 站 · 941 篇攻略
+> 最后更新：2026-08-09 | 34 站 · 952 篇攻略
 
 ---
 
@@ -19,7 +19,7 @@
 | 8 | Sephiria | 7/21 | 43 | sephiriawiki.vercel.app | ✅ | ✅ | ✅ | 7/31 1.0 上线；8/1 内容配比规则 +2（Build 原型速查表、Boss 推进表） |
 | 9 | DinoBlade | 7/21 | 27 | dinobladewiki.vercel.app | ✅ | ✅ | ✅ | 8/3 Coordinator 扩充 +3（Leveling、How Long to Beat、Healing） |
 | 10 | Mystralia | 7/22 | 35 | mystraliawiki.vercel.app | ✅ | ✅ | ✅ | 8/7 Coordinator +5（EA FAQ、Spell Form、Combat、First 5h、Farming）；8/7 晚 +3（Controller、Save Progression、Community Resources）；8/11 EA |
-| 11 | Tears of Metal | 7/23 | 31 | tearsofmetalwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 反馈驱动 +3 新 +2 纠错（英雄名校准）；8/1 内容配比 +5（Wallace/Brienne/Ruadh 独立 Build 页、Corruption 机制、装备指南）+ 修复旧英雄/Boss 名残留 |
+| 11 | Tears of Metal | 7/23 | 35 | tearsofmetalwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 反馈驱动 +3 新 +2 纠错（英雄名校准）；8/1 内容配比 +5（Wallace/Brienne/Ruadh 独立 Build 页、Corruption 机制、装备指南）+ 修复旧英雄/Boss 名残留 |
 | 12 | Grain Rot | 7/24 | 30 | grainrotwiki.vercel.app | ✅ | ✅ | ✅ | 8/7 游戏上线；8/3 1.0 内容更新（全量内容清单、生物群系+2、wishlist 25万→250k） |
 | 13 | DragonSword | 7/25 | 25 | dragonswordwiki.vercel.app | ✅ | ✅ | ✅ | 7/22 游戏上线；8/3 Coordinator 扩充 +3（Reina/Kalsion/Cerese 角色指南） |
 | 14 | Dwarf Delve | 7/26 | 25 | dwarfdelvewiki.vercel.app | ✅ | ✅ | ✅ |  |
@@ -39,10 +39,10 @@
 | 28 | Low-Budget Repairs | 8/03 | 33 | lowbudgetrepairswiki.vercel.app | ✅ | ❌ | ✅ | 8/3 Coordinator auto-build，21/20，8/13 上线，1M+ wishlist，零 wiki 竞争；8/7 早 +8（Walkthrough、Profit、Upgrades、Materials、Clients、PS5、Launch FAQ、Tips）；8/7 晚 +5（Steam Deck、How Long、Languages、Similar Games、Should I Buy）；GA4 占位符 |
 | 29 | Big Walk | 8/04 | 18 | bigwalkwiki.vercel.app | ✅ | ❌ | ✅ | 上线当日建站 — 21/25，House House/Panic，8/4 发售，799K wishlist，零 wiki 竞争；无战斗 → Tool Tier List；GA4 空字符串，待创建 |
 | 30 | Iron Nest | 8/06 | 13 | ironnestwiki.vercel.app | ✅ | ❌ | ✅ | 8/6 Coordinator auto-build，18/25，843K wishlist，柴油朋克重炮模拟；GA4 占位符 |
-| 31 | 🆕 Nivalis Nights | 8/07 | 13 | nivalisnightswiki.vercel.app | ✅ | ❌ | ✅ | 8/7 Coordinator auto-build，22/25，9/29 上线，932K wishlist，ION LANDS/505 Games，赛博朋克生活模拟；8/7 晚 Vercel 部署完成；GA4 未创建 |
-| 32 | 🆕 ReStory: Chill Electronics Repairs | 8/8 | 14 | restorywiki.vercel.app | ✅ | ❌ | ✅ | 8/8 auto-build，22/20，8/6 上线（2 天后建站），Mandragora/tinyBuild，700K wishlist，98% Overwhelmingly Positive，12K CCU，零 wiki 竞争；14 篇攻略；GA4 空字符串待创建 |
-| 33 | 🆕 Beast of Reincarnation | 8/08 | 14 | beastreincarnationwiki.vercel.app | ✅ | ❌ | ✅ | 8/8 auto-build，21/20，8/4 发售（4 天前），Game Freak 首款原IP，718K wishlist，零 wiki 竞争；14 篇攻略（9 参考型 + 3 搜索型 + 2 深度型）；GA4 空字符串待创建 |
-| 34 | 🆕 Waterpark Simulator | 8/08 | 14 | waterparksimulatorwiki.vercel.app | ✅ | ❌ | ✅ | 8/8 auto-build，17/20，7/31 1.0 上线（8 天前）+ 主机同日发售，CayPlay（50M 订阅 YouTuber 出品），1M+ 下载，96% 好评，零 wiki 竞争；14 篇攻略（8 参考型 + 4 搜索型 + 2 深度型）；GA4 空字符串待创建 |
+| 31 | Nivalis Nights | 8/07 | 20 | nivalisnightswiki.vercel.app | ✅ | ❌ | ✅ | 8/7 Coordinator auto-build，22/25，9/29 上线，932K wishlist，ION LANDS/505，赛博朋克生活模拟；GA4 待创建 |
+| 32 | ReStory | 8/08 | 14 | restorywiki.vercel.app | ✅ | ❌ | ✅ | 8/8 auto-build，22/20，8/6 上线，Mandragora/tinyBuild，700K wishlist，98% 好评，12K CCU，零 wiki 竞争；GA4 待创建 |
+| 33 | Beast of Reincarnation | 8/08 | 14 | beastreincarnationwiki.vercel.app | ✅ | ❌ | ✅ | 8/8 auto-build，21/20，8/4 发售，Game Freak 首款原IP，718K wishlist，零 wiki 竞争；GA4 待创建 |
+| 34 | Waterpark Simulator | 8/08 | 14 | waterparksimulatorwiki.vercel.app | ✅ | ❌ | ✅ | 8/8 auto-build，17/20，7/31 1.0 上线+主机同日，CayPlay（50M YouTuber），1M+ 下载，96% 好评，零 wiki 竞争；GA4 待创建 |
 <!-- AUTO-END:overview-table -->
 
 ---
@@ -82,10 +82,10 @@
 | 28 | Low-Budget Repairs | 8/03 | ✅ | ✅ 65 | ✅ | ❌ | ✅ | ✅ | ⚠️ | ✅ |
 | 29 | Big Walk | 8/04 | ✅ | ✅ 12 | ✅ | ❌ | ✅ | ✅ | ⚠️ | ✅ |
 | 30 | Iron Nest | 8/06 | ✅ | ✅ WebSearch | ✅ | ❌ | ✅ | ✅ | ⚠️ | ✅ |
-| 31 | 🆕 Nivalis Nights | 8/07 | ✅ | ✅ WebSearch | ✅ | ❌ | ✅ | ✅ | ❌ | ⚠️ |
-| 32 | 🆕 ReStory: Chill Electronics Repairs | 8/08 | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ⚠️ | ✅ |
-| 33 | 🆕 Beast of Reincarnation | 8/08 | ✅ | ✅ WebSearch | ✅ | ❓ | ✅ | ❓ | ⚠️ | ✅ |
-| 34 | 🆕 Waterpark Simulator | 8/08 | ✅ | ✅ WebSearch | ✅ | ❌ | ✅ | ✅ | ⚠️ | ✅ |
+| 31 | Nivalis Nights | 8/07 | ✅ | ✅ WebSearch | ✅ | ❌ | ✅ | ✅ | ⚠️ | ✅ |
+| 32 | ReStory | 8/08 | ✅ | ✅ WebSearch | ✅ | ❌ | ✅ | ✅ | ⚠️ | ✅ |
+| 33 | Beast of Reincarnation | 8/08 | ✅ | ✅ WebSearch | ✅ | ❌ | ✅ | ✅ | ⚠️ | ✅ |
+| 34 | Waterpark Simulator | 8/08 | ✅ | ✅ WebSearch | ✅ | ❌ | ✅ | ✅ | ⚠️ | ✅ |
 <!-- AUTO-END:sop-table -->
 
 > ⚠️ Dashboard = 已注册但 propertyId 为占位符（REPLACE_ME / TODO），数据源不可用。
@@ -100,23 +100,35 @@
 
 ### 🟡 P1 — 需要你处理
 
-| 事项 | 涉及站点 | 操作 |
-|------|---------|------|
-| **创建 GA4** | Big Walk, Delverium, Low-Budget Repairs, Iron Nest, Nivalis Nights, **ReStory**, Beast of Reincarnation, **Waterpark Simulator** | GA4 后台创建 Property，发我 Measurement ID |
-| **Vercel 部署** | ~~Nivalis Nights~~ ✅ — 8/7 晚部署完成 |
-| **Dashboard 补齐 propertyId** | Delverium (`REPLACE_ME`), Low-Budget Repairs (`TODO`), Big Walk (`REPLACE_ME`), Iron Nest (`REPLACE_ME`), Nivalis Nights, Beast of Reincarnation (`REPLACE_ME`), Waterpark Simulator (`REPLACE_ME`) | GA4 创建后，在 GA Admin → Property Settings 找到数字 Property ID |
-| **GSC 验证** | 16 站 🟡 | GSC 后台添加资源+验证（文件已部署，只需后台操作） |
+**创建 GA4（8 站）**—— 按紧迫度排序：
+
+| 优先级 | 站点 | GA4现状 | 紧迫度 | 原因 |
+|:--:|------|:--|:--|------|
+| 🔴 | **Low-Budget Repairs** | G-PLACEHOLDER | **8/13 上线** | 1M+ wishlist，零竞争，33 篇 |
+| 🔴 | **Big Walk** | 空 | 8/4 已上线 | 799K wishlist，18 篇，已丢 4 天数据 |
+| 🟡 | Iron Nest | 空 | 8/6 已上线 | 843K wishlist，13 篇 |
+| 🟡 | Beast of Reincarnation | 空 | 8/4 已上线 | Game Freak，718K wishlist，14 篇 |
+| 🟡 | Waterpark Simulator | 空 | 7/31 已上线 | 1M+ 下载，96% 好评，14 篇 |
+| 🟢 | ReStory | 空 | 8/6 已上线 | 700K wishlist，98% 好评，14 篇 |
+| 🟢 | Delverium | G-PLACEHOLDER | 9/22 EA | 80K wishlist，14 篇 |
+| 🟢 | Nivalis Nights | 空 | 9/29 上线 | 932K wishlist，20 篇 |
+
+> **操作**: GA4 后台创建 Property → 发我 Measurement ID → 我会填入 `seo-config.ts` → 同时更新 Dashboard `propertyId`（目前均为 REPLACE_ME/TODO）。
+
+**Dashboard propertyId 补充**：以上 8 站 Dashboard 的 `propertyId` 均为占位符，GA4 创建后一并解决。
+
+**GSC 验证**：34 站均已部署 GSC 验证文件，但实际 GSC 后台验证状态无法从代码确认。建议登录 GSC 逐站检查。
 
 ### 🟢 P2 — 上线日跟进
 
-| 游戏 | 日期 | 站点 | 需做 |
-|------|------|------|------|
-| **Expeditions: Samurai** | ~~8/7~~ ✅ | expeditionssamuraiwiki | EA 已上线（Act One），33 篇攻略就位 |
-| **Grain Rot** | ~~8/7~~ ✅ | grainrotwiki | 已上线，30 篇攻略 |
-| Mystralia | 8/11 | mystraliawiki | EA 上线，35 篇攻略就位 |
-| **Low-Budget Repairs** | **8/13** | **lowbudgetrepairswiki** | **1M+ wishlist，零 wiki 竞争，33 篇攻略** |
-| Delverium | 9/22 | delveriumwiki | EA 上线，14 篇攻略（8/7 +5） |
-| 🆕 Nivalis Nights | 9/29 | nivalisnightswiki | 22/25 最高分候选，932K wishlist，13 篇攻略 |
+| 日期 | 游戏 | 站点 | 状态 |
+|:--:|------|------|------|
+| ~~8/7~~ | Expeditions: Samurai | expeditionssamuraiwiki | ✅ EA 已上线，33 篇 |
+| ~~8/7~~ | Grain Rot | grainrotwiki | ✅ 已上线，30 篇 |
+| **8/11** | Mystralia | mystraliawiki | 🔜 EA 后天上线，35 篇已就位 |
+| **8/13** | **Low-Budget Repairs** | lowbudgetrepairswiki | 🔜 **4 天后上线，1M+ wishlist，33 篇，缺 GA4** |
+| 9/22 | Delverium | delveriumwiki | 14 篇 |
+| 9/29 | Nivalis Nights | nivalisnightswiki | 20 篇，932K wishlist |
 
 ---
 
@@ -126,7 +138,7 @@
 | 指标 | 数值 |
 |------|:--:|
 | **总站点数** | 34 |
-| **总攻略数** | 941 |
+| **总攻略数** | 952 |
 | **Vercel 部署** | 34/34 ✅ |
 | **GA4 已配置** | 26/34 |
 | **GA4 真缺失** | 8（beastreincarnationwiki（空）、bigwalkwiki（空）、delveriumwiki（G-PLACEHOLDER）、ironnestwiki（空）、lowbudgetrepairswiki（G-PLACEHOLDER）、nivalisnightswiki（空）、restorywiki（空）、waterparksimulatorwiki（空）） |
