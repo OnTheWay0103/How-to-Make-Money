@@ -35,14 +35,14 @@
 | 24 | Ardent Wilds | 7/31 | 25 | ardentwildswiki.vercel.app | ✅ | ✅ | ✅ | 8/4 +2（Enemies+Eldran、Artifacts+Loot）；8/5 +2（Weapons、Story Quests），GSC 待验证 |
 | 25 | Go-Go Town! | 8/01 | 14 | gotownwiki.vercel.app | ✅ | ✅ | ✅ | 7/16 1.0 上线，93% 好评，GSC 待验证 |
 | 26 | Expeditions: Samurai | 8/01 | 33 | expeditionssamuraiwiki.vercel.app | ✅ | ✅ | ✅ | 20/20 最高分，8/7 EA 上线；8/7 Coordinator +8（Companion Recruitment、Party Comp、Combat Deep Dive、3 Pillars、Progression、Injuries、Factions、Mistakes），GSC 待验证 |
-| 27 | Delverium | 8/02 | 14 | delveriumwiki.vercel.app | ✅ | ❌ | ✅ | 8/2 Coordinator auto-build，19/20，9/22 EA，80k wishlist；8/7 +5（Beginner、Crafting、Biomes、Split-Screen、Dungeon）；GA4 占位符 |
-| 28 | Low-Budget Repairs | 8/03 | 33 | lowbudgetrepairswiki.vercel.app | ✅ | ❌ | ✅ | 8/3 Coordinator auto-build，21/20，8/13 上线，1M+ wishlist，零 wiki 竞争；8/7 早 +8（Walkthrough、Profit、Upgrades、Materials、Clients、PS5、Launch FAQ、Tips）；8/7 晚 +5（Steam Deck、How Long、Languages、Similar Games、Should I Buy）；GA4 占位符 |
-| 29 | Big Walk | 8/04 | 18 | bigwalkwiki.vercel.app | ✅ | ❌ | ✅ | 上线当日建站 — 21/25，House House/Panic，8/4 发售，799K wishlist，零 wiki 竞争；无战斗 → Tool Tier List；GA4 空字符串，待创建 |
-| 30 | Iron Nest | 8/06 | 13 | ironnestwiki.vercel.app | ✅ | ❌ | ✅ | 8/6 Coordinator auto-build，18/25，843K wishlist，柴油朋克重炮模拟；GA4 占位符 |
-| 31 | Nivalis Nights | 8/07 | 20 | nivalisnightswiki.vercel.app | ✅ | ❌ | ✅ | 8/7 Coordinator auto-build，22/25，9/29 上线，932K wishlist，ION LANDS/505，赛博朋克生活模拟；GA4 待创建 |
-| 32 | ReStory | 8/08 | 14 | restorywiki.vercel.app | ✅ | ❌ | ✅ | 8/8 auto-build，22/20，8/6 上线，Mandragora/tinyBuild，700K wishlist，98% 好评，12K CCU，零 wiki 竞争；GA4 待创建 |
-| 33 | Beast of Reincarnation | 8/08 | 14 | beastreincarnationwiki.vercel.app | ✅ | ❌ | ✅ | 8/8 auto-build，21/20，8/4 发售，Game Freak 首款原IP，718K wishlist，零 wiki 竞争；GA4 待创建 |
-| 34 | Waterpark Simulator | 8/08 | 14 | waterparksimulatorwiki.vercel.app | ✅ | ❌ | ✅ | 8/8 auto-build，17/20，7/31 1.0 上线+主机同日，CayPlay（50M YouTuber），1M+ 下载，96% 好评，零 wiki 竞争；GA4 待创建 |
+| 27 | Delverium | 8/02 | 14 | delveriumwiki.vercel.app | ✅ | ✅ | ✅ | 8/2 Coordinator auto-build，19/20，9/22 EA，80k wishlist；8/7 +5；GA4 ✅ |
+| 28 | Low-Budget Repairs | 8/03 | 33 | lowbudgetrepairswiki.vercel.app | ✅ | ✅ | ✅ | 8/3 Coordinator auto-build，21/20，8/13 上线，1M+ wishlist，零 wiki 竞争；8/7 +13；GA4 ✅ |
+| 29 | Big Walk | 8/04 | 18 | bigwalkwiki.vercel.app | ✅ | ✅ | ✅ | 上线当日建站 — 21/25，House House/Panic，8/4 发售，799K wishlist，零 wiki 竞争；GA4 ✅ |
+| 30 | Iron Nest | 8/06 | 13 | ironnestwiki.vercel.app | ✅ | ✅ | ✅ | 8/6 Coordinator auto-build，18/25，843K wishlist，柴油朋克重炮模拟；GA4 ✅ |
+| 31 | Nivalis Nights | 8/07 | 20 | nivalisnightswiki.vercel.app | ✅ | ✅ | ✅ | 8/7 Coordinator auto-build，22/25，9/29 上线，932K wishlist，ION LANDS/505；GA4 ✅ |
+| 32 | ReStory | 8/08 | 14 | restorywiki.vercel.app | ✅ | ✅ | ✅ | 8/8 auto-build，22/20，8/6 上线，Mandragora/tinyBuild，700K wishlist，98% 好评；GA4 ✅ |
+| 33 | Beast of Reincarnation | 8/08 | 14 | beastreincarnationwiki.vercel.app | ✅ | ✅ | ✅ | 8/8 auto-build，21/20，8/4 发售，Game Freak 首款原IP，718K wishlist；GA4 ✅ |
+| 34 | Waterpark Simulator | 8/08 | 14 | waterparksimulatorwiki.vercel.app | ✅ | ✅ | ✅ | 8/8 auto-build，17/20，7/31 1.0 上线，CayPlay（50M YouTuber），1M+ 下载，96% 好评；GA4 ✅ |
 <!-- AUTO-END:overview-table -->
 
 ---
@@ -78,17 +78,16 @@
 | 24 | Ardent Wilds | 7/31 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | 25 | Go-Go Town! | 8/01 | ✅ | ✅ 25 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | 26 | Expeditions: Samurai | 8/01 | ✅ | ✅ 25 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| 27 | Delverium | 8/02 | ✅ | ✅ 13 | ✅ | ❌ | ✅ | ✅ | ⚠️ | ✅ |
-| 28 | Low-Budget Repairs | 8/03 | ✅ | ✅ 65 | ✅ | ❌ | ✅ | ✅ | ⚠️ | ✅ |
-| 29 | Big Walk | 8/04 | ✅ | ✅ 12 | ✅ | ❌ | ✅ | ✅ | ⚠️ | ✅ |
-| 30 | Iron Nest | 8/06 | ✅ | ✅ WebSearch | ✅ | ❌ | ✅ | ✅ | ⚠️ | ✅ |
-| 31 | Nivalis Nights | 8/07 | ✅ | ✅ WebSearch | ✅ | ❌ | ✅ | ✅ | ⚠️ | ✅ |
-| 32 | ReStory | 8/08 | ✅ | ✅ WebSearch | ✅ | ❌ | ✅ | ✅ | ⚠️ | ✅ |
-| 33 | Beast of Reincarnation | 8/08 | ✅ | ✅ WebSearch | ✅ | ❌ | ✅ | ✅ | ⚠️ | ✅ |
-| 34 | Waterpark Simulator | 8/08 | ✅ | ✅ WebSearch | ✅ | ❌ | ✅ | ✅ | ⚠️ | ✅ |
+| 27 | Delverium | 8/02 | ✅ | ✅ 13 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 28 | Low-Budget Repairs | 8/03 | ✅ | ✅ 65 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 29 | Big Walk | 8/04 | ✅ | ✅ 12 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 30 | Iron Nest | 8/06 | ✅ | ✅ WebSearch | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 31 | Nivalis Nights | 8/07 | ✅ | ✅ WebSearch | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 32 | ReStory | 8/08 | ✅ | ✅ WebSearch | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 33 | Beast of Reincarnation | 8/08 | ✅ | ✅ WebSearch | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 34 | Waterpark Simulator | 8/08 | ✅ | ✅ WebSearch | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 <!-- AUTO-END:sop-table -->
 
-> ⚠️ Dashboard = 已注册但 propertyId 为占位符（REPLACE_ME / TODO），数据源不可用。
 
 ---
 
@@ -100,24 +99,10 @@
 
 ### 🟡 P1 — 需要你处理
 
-**创建 GA4（8 站）**—— 按紧迫度排序：
-
-| 优先级 | 站点 | GA4现状 | 紧迫度 | 原因 |
-|:--:|------|:--|:--|------|
-| 🔴 | **Low-Budget Repairs** | G-PLACEHOLDER | **8/13 上线** | 1M+ wishlist，零竞争，33 篇 |
-| 🔴 | **Big Walk** | 空 | 8/4 已上线 | 799K wishlist，18 篇，已丢 4 天数据 |
-| 🟡 | Iron Nest | 空 | 8/6 已上线 | 843K wishlist，13 篇 |
-| 🟡 | Beast of Reincarnation | 空 | 8/4 已上线 | Game Freak，718K wishlist，14 篇 |
-| 🟡 | Waterpark Simulator | 空 | 7/31 已上线 | 1M+ 下载，96% 好评，14 篇 |
-| 🟢 | ReStory | 空 | 8/6 已上线 | 700K wishlist，98% 好评，14 篇 |
-| 🟢 | Delverium | G-PLACEHOLDER | 9/22 EA | 80K wishlist，14 篇 |
-| 🟢 | Nivalis Nights | 空 | 9/29 上线 | 932K wishlist，20 篇 |
-
-> **操作**: GA4 后台创建 Property → 发我 Measurement ID → 我会填入 `seo-config.ts` → 同时更新 Dashboard `propertyId`（目前均为 REPLACE_ME/TODO）。
-
-**Dashboard propertyId 补充**：以上 8 站 Dashboard 的 `propertyId` 均为占位符，GA4 创建后一并解决。
-
 **GSC 验证**：34 站均已部署 GSC 验证文件，但实际 GSC 后台验证状态无法从代码确认。建议登录 GSC 逐站检查。
+
+> ✅ **GA4 已全部完成**（34/34）— 8/9 最后一批 8 站已填入。<br>
+> ✅ **Dashboard propertyId 已全部补齐**（34/34）。
 
 ### 🟢 P2 — 上线日跟进
 
@@ -140,8 +125,7 @@
 | **总站点数** | 34 |
 | **总攻略数** | 952 |
 | **Vercel 部署** | 34/34 ✅ |
-| **GA4 已配置** | 26/34 |
-| **GA4 真缺失** | 8（beastreincarnationwiki（空）、bigwalkwiki（空）、delveriumwiki（G-PLACEHOLDER）、ironnestwiki（空）、lowbudgetrepairswiki（G-PLACEHOLDER）、nivalisnightswiki（空）、restorywiki（空）、waterparksimulatorwiki（空）） |
+| **GA4 已配置** | 34/34 |
 | **GSC 文件部署** | 34/34 ✅（账户级令牌，所有站共用同一文件） |
 <!-- AUTO-END:summary -->
 

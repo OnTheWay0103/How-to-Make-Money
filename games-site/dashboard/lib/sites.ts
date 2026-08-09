@@ -54,8 +54,8 @@ export const SITES: SiteConfig[] = [
   },
   {
     name: 'Delverium Wiki',
-    propertyId: 'REPLACE_ME', // no GA4 yet
-    gaId: 'G-PLACEHOLDER',
+    propertyId: '549182076',
+    gaId: 'G-79NJB5KFHX',
   },
   {
     name: 'DinoBlade Wiki',
@@ -149,37 +149,37 @@ export const SITES: SiteConfig[] = [
   },
   {
     name: 'Low-Budget Repairs Wiki',
-    propertyId: 'TODO',
-    gaId: 'G-PLACEHOLDER',
+    propertyId: '549191869',
+    gaId: 'G-94GLV86TJZ',
   },
   {
     name: 'Big Walk Wiki',
-    propertyId: 'REPLACE_ME', // no GA4 yet
-    gaId: 'G-PLACEHOLDER',
+    propertyId: '549150733',
+    gaId: 'G-107M9FTLTE',
   },
   {
     name: 'IRON NEST Wiki',
-    propertyId: 'REPLACE_ME', // no GA4 yet
-    gaId: 'G-PLACEHOLDER',
+    propertyId: '549157204',
+    gaId: 'G-1HJWW5Z0S8',
   },
   {
     name: 'Nivalis Nights Wiki',
-    propertyId: 'REPLACE_ME', // no GA4 yet — 8/7 build, 9/29 launch
-    gaId: 'G-PLACEHOLDER',
+    propertyId: '549196459',
+    gaId: 'G-WH2SMVV8EB',
   },
   {
     name: 'ReStory Wiki',
-    propertyId: 'REPLACE_ME', // no GA4 yet — 8/8 build, launched 8/6
-    gaId: 'G-PLACEHOLDER',
+    propertyId: '549220928',
+    gaId: 'G-ND1MCMNPCZ',
   },
   {
     name: 'Beast of Reincarnation Wiki',
-    propertyId: 'REPLACE_ME', // no GA4 yet — 8/8 build, launched 8/4
-    gaId: 'G-PLACEHOLDER',
+    propertyId: '549225649',
+    gaId: 'G-LNXR9K40HE',
   },
   {
     name: 'Waterpark Simulator Wiki',
-    propertyId: 'REPLACE_ME', // no GA4 yet — 8/8 build, launched 7/31
-    gaId: 'G-PLACEHOLDER',
+    propertyId: '549187577',
+    gaId: 'G-JMLQMKR4X4',
   },
 ];
