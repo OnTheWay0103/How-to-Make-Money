@@ -89,7 +89,7 @@ if [ "$DRY_RUN" = true ]; then
     CLAUDE_PROMPT="Use the discover-games skill. Search for trending Steam games, check Wiki coverage, score candidates, output to .agent/candidate-pool.md. Do NOT build any sites."
 else
     log "🧠 运行主管 Agent（多Agent协作模式）..."
-    CLAUDE_PROMPT="Use the coordinator skill. Read the stats doc, candidate pool, and performance data. Decide what to do: discover new games if pool is empty, build new sites for high-score candidates, or expand content for high-PV sites. Dispatch sub-agents as needed. Commit and push any changes."
+    CLAUDE_PROMPT="Use the coordinator skill. Read the stats doc, candidate pool, and performance data. Decide what to do: discover new games if pool is empty, build new sites for high-score candidates, or expand content for high-PV sites. Dispatch sub-agents as needed. IMPORTANT: After every build or expand, run quality-assurance (quick mode) on the affected site. If QA deep is >7 days overdue, run full audit. Write QA results to .agent/qa-report.md. Commit and push any changes."
 fi
 
 log "执行: claude -p '$CLAUDE_PROMPT' --permission-mode bypassPermissions"
