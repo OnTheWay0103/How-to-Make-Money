@@ -5,7 +5,7 @@
       "date": "2026-08-08",
       "genre": "怀旧电器维修模拟 (Mandragora/tinyBuild)",
       "guides": 14,
-      "score": 22,
+      "score": 18,
       "deployed": true
     },
     {
@@ -32,14 +32,14 @@
       "template": "themoundwiki (via bigwalkwiki)",
       "guides": 10,
       "keywords": 10,
-      "score": 22,
+      "score": 18,
       "deployed": true,
       "issues": [
         "Pre-release (9/29 launch) — 932K wishlist, zero independent wiki competition (only thegameswiki.com, early stage)",
         "No GA4 yet — G-PLACEHOLDER in dashboard registry",
         "No combat system — tier-list page adapted to Business Tier List, content shifts to economy/NPC/exploration guides"
       ],
-      "lessons": "8/7 Coordinator auto-build (score 22/25). 10 guides: beginner (7 businesses, 100+ NPCs, day-night), best-business (profit $/h ranking), apartment-customization, fishing, chess, sailing/boat, relationship-social, money-making, FAQ, system requirements. Genre is cyberpunk life-sim — no combat content, guides focus on economy optimization, social systems, and exploration. 932K wishlist level demand with near-zero wiki competition = strongest candidate since Big Walk. Deployed evening 8/7 (initial build missed Vercel step)."
+      "lessons": "8/7 Coordinator auto-build (score 22/20). 10 guides: beginner (7 businesses, 100+ NPCs, day-night), best-business (profit $/h ranking), apartment-customization, fishing, chess, sailing/boat, relationship-social, money-making, FAQ, system requirements. Genre is cyberpunk life-sim — no combat content, guides focus on economy optimization, social systems, and exploration. 932K wishlist level demand with near-zero wiki competition = strongest candidate since Big Walk. Deployed evening 8/7 (initial build missed Vercel step)."
     },
     {
       "game": "IRON NEST: Heavy Turret Simulator",
@@ -94,14 +94,14 @@
       "template": "themoundwiki",
       "guides": 10,
       "keywords": 12,
-      "score": 21,
+      "score": 17,
       "issues": [
         "Launched TODAY (Aug 4, 2026) — peak search window. Zero wiki competition (no Fandom, no community wiki)",
         "No full walkthrough/puzzle solutions published yet — guides honestly marked TBD / unverified where community confirmation pending (cutter machine quest, golden head, game length, Steam Deck)",
         "Price corrected vs pre-launch estimate: $19.99 USD launch price (25% discount), not $24.99. Platforms include Switch 2 + Mac in addition to Steam/PS5",
         "No GA4 yet — G-PLACEHOLDER in dashboard registry"
       ],
-      "lessons": "Launch-day build (score 21/25). 10 guides: beginner, multiplayer/co-op (2-12 players, crossplay, PS Plus day-one), tools (walkie-talkie/binoculars/laser pointer/megaphone/flares/flashlight/whiteboard/cowbell/golden head), puzzles, hidden secrets (gourd rewards, cutter machine reported), island exploration (1.4km² island, no map, tunnels/ski lifts), FAQ, walkthrough (structure only — no spoilers), tips & tricks, system requirements. No-combat genre → tier-list page adapted to Tool Tier List. Content ratio: 50% entry (beginner/FAQ/specs), 30% deep (tools/puzzles/exploration), 20% reference. Honesty rule applied — unverified launch-day reports clearly labeled."
+      "lessons": "Launch-day build (score 21/20). 10 guides: beginner, multiplayer/co-op (2-12 players, crossplay, PS Plus day-one), tools (walkie-talkie/binoculars/laser pointer/megaphone/flares/flashlight/whiteboard/cowbell/golden head), puzzles, hidden secrets (gourd rewards, cutter machine reported), island exploration (1.4km² island, no map, tunnels/ski lifts), FAQ, walkthrough (structure only — no spoilers), tips & tricks, system requirements. No-combat genre → tier-list page adapted to Tool Tier List. Content ratio: 50% entry (beginner/FAQ/specs), 30% deep (tools/puzzles/exploration), 20% reference. Honesty rule applied — unverified launch-day reports clearly labeled."
     },
     {
       "game": "Low-Budget Repairs",
@@ -110,7 +110,7 @@
       "template": "themoundwiki",
       "guides": 10,
       "keywords": 65,
-      "score": 21,
+      "score": 17,
       "issues": [
         "Pre-release game (Aug 13 launch) — all guides based on July 2026 demo + pre-release coverage. Post-launch updates needed for exact mechanics",
         "No real wiki competition confirmed — first-mover advantage",
@@ -711,7 +711,7 @@
       "guides": 14,
       "guidesAdded": 14,
       "deployed": true,
-      "score": 21,
+      "score": 17,
       "issues": [
         "Late-game bosses (Ch 8-13: Ursa, Erymanth, Shidou & Nue, Kunai & Kirin, Koo Nushi form, final Beast) not yet documented by any outlet — marked awaiting confirmation instead of fabricating",
         "Steam reviews Mixed (~52%) at launch due to performance; Game Freak announced patches — tier list versioned for future balance changes",
