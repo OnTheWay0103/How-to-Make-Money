@@ -1,4 +1,48 @@
-# Deep QA Audit Report — 2026-08-09
+# QA Report — games-site
+
+## Quick QA — Coordinator Expansion (2026-08-10)
+
+Two sites expanded by Coordinator ahead of imminent launches: Mystralia (+5, EA tomorrow 8/11) and Low-Budget Repairs (+8, launch 8/13).
+
+### Residue Scan
+
+| Site | Guides | Template Residue | Status |
+|------|:--:|:--:|:--:|
+| mystraliawiki | 35→40 | ✅ Clean | PASS |
+| lowbudgetrepairswiki | 33→41 | ✅ Clean | PASS |
+
+### Content Quality Sampling
+
+| Site | Guides Added | Fabrication | Notes |
+|------|:--:|:--:|------|
+| mystraliawiki | 5 (weapons, crafting-materials, story-lore, enemy-monster, difficulty-settings) | ✅ None | Honest-guide format maintained; "no weapon system exists" declared upfront in weapons guide; all unconfirmed mechanics marked TBD; lotus/frozen-depths fabricated legacy avoided |
+| lowbudgetrepairswiki | 8 (electrical-work, bathroom-renovation, kitchen-renovation, demolition, achievements, permits, room-strategy, hidden-secrets) | ✅ None | QA-flagged cost-cutting-tips.md fixed: sourcing note added + 12 claims tagged [Demo-verified]/[Speculative]; all new guides tag speculative content explicitly |
+
+### Build Health
+
+| Site | Build | Result |
+|------|-------|:--:|
+| mystraliawiki | `npm run build` | ✅ Pass (SSG, all routes) |
+| lowbudgetrepairswiki | `npm run build` | ✅ Pass (SSG, 54 routes) |
+
+### Infrastructure
+
+| Site | GA4 | GSC | SITE_CONFIG |
+|------|:--:|:--:|:--:|
+| mystraliawiki | ✅ G-16X86K2J44 | ✅ | ✅ 'Echoes of Mystralia Wiki' |
+| lowbudgetrepairswiki | ✅ G-94GLV86TJZ | ✅ | ✅ 'Low-Budget Repairs Wiki' |
+
+### Assessment
+
+Both expansions pass quick QA. No fabrication, no residue, clean builds. Total fleet: 994 → 1007 (+13 guides).
+
+### New Candidates Discovered
+
+Game discovery agent found 13 new candidates (16–22/25). Top pick: **DOLOC TOWN (22/25)** — farming/life sim, 8/6 1.0 launch, 95% positive (2.4K reviews), zero wiki. Full report: `keyword-results/discovery-2026-08-10.md`. Candidate pool refreshed in `keyword-results/CANDIDATE-POOL.md`.
+
+---
+
+## Deep QA Audit Report — 2026-08-09 (previous)
 
 ## Executive Summary
 - Mode: deep | Sites audited: 34 | Date: 2026-08-09

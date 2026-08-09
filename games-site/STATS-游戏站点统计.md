@@ -1,6 +1,6 @@
 # 游戏攻略站 — 站点统计
 
-> 最后更新：2026-08-09 | 34 站 · 989 篇攻略
+> 最后更新：2026-08-10 | 34 站 · 1007 篇攻略
 
 ---
 
@@ -18,7 +18,7 @@
 | 7 | MineGeon | 7/20 | 31 | minegeonwiki.vercel.app | ✅ | ✅ | ✅ | 7/28 游戏上线；8/3 Coordinator 扩充 +2（Walkthrough、Review） |
 | 8 | Sephiria | 7/21 | 48 | sephiriawiki.vercel.app | ✅ | ✅ | ✅ | 7/31 1.0 上线；8/1 内容配比规则 +2（Build 原型速查表、Boss 推进表） |
 | 9 | DinoBlade | 7/21 | 27 | dinobladewiki.vercel.app | ✅ | ✅ | ✅ | 8/3 Coordinator 扩充 +3（Leveling、How Long to Beat、Healing） |
-| 10 | Mystralia | 7/22 | 35 | mystraliawiki.vercel.app | ✅ | ✅ | ✅ | 8/7 Coordinator +5（EA FAQ、Spell Form、Combat、First 5h、Farming）；8/7 晚 +3（Controller、Save Progression、Community Resources）；8/11 EA |
+| 10 | Mystralia | 7/22 | 40 | mystraliawiki.vercel.app | ✅ | ✅ | ✅ | 8/7 Coordinator +5（EA FAQ、Spell Form、Combat、First 5h、Farming）；8/7 晚 +3（Controller、Save Progression、Community Resources）；8/10 Coordinator +5（Weapons、Crafting Materials、Story Lore、Enemy Monster、Difficulty Settings）；8/11 EA |
 | 11 | Tears of Metal | 7/23 | 37 | tearsofmetalwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 反馈驱动 +3 新 +2 纠错（英雄名校准）；8/1 内容配比 +5（Wallace/Brienne/Ruadh 独立 Build 页、Corruption 机制、装备指南）+ 修复旧英雄/Boss 名残留 |
 | 12 | Grain Rot | 7/24 | 30 | grainrotwiki.vercel.app | ✅ | ✅ | ✅ | 8/7 游戏上线；8/3 1.0 内容更新（全量内容清单、生物群系+2、wishlist 25万→250k） |
 | 13 | DragonSword | 7/25 | 25 | dragonswordwiki.vercel.app | ✅ | ✅ | ✅ | 7/22 游戏上线；8/3 Coordinator 扩充 +3（Reina/Kalsion/Cerese 角色指南） |
@@ -36,7 +36,7 @@
 | 25 | Go-Go Town! | 8/01 | 14 | gotownwiki.vercel.app | ❌ | ✅ | ✅ | 7/16 1.0 上线，93% 好评，GSC 待验证 |
 | 26 | Expeditions: Samurai | 8/01 | 33 | expeditionssamuraiwiki.vercel.app | ❌ | ✅ | ✅ | 20/20 最高分，8/7 EA 上线；8/7 Coordinator +8（Companion Recruitment、Party Comp、Combat Deep Dive、3 Pillars、Progression、Injuries、Factions、Mistakes），GSC 待验证 |
 | 27 | Delverium | 8/02 | 14 | delveriumwiki.vercel.app | ❌ | ✅ | ✅ | 8/2 Coordinator auto-build，19/20，9/22 EA，80k wishlist；8/7 +5；GA4 ✅ |
-| 28 | Low-Budget Repairs | 8/03 | 33 | lowbudgetrepairswiki.vercel.app | ❌ | ✅ | ✅ | 8/3 Coordinator auto-build，21/20，8/13 上线，1M+ wishlist，零 wiki 竞争；8/7 +13；GA4 ✅ |
+| 28 | Low-Budget Repairs | 8/03 | 41 | lowbudgetrepairswiki.vercel.app | ❌ | ✅ | ✅ | 8/3 Coordinator auto-build，21/20，8/13 上线，1M+ wishlist，零 wiki 竞争；8/7 +13；8/10 Coordinator +8（Electrical Work、Bathroom、Kitchen、Demolition、Achievements、Permits、Room Strategy、Hidden Secrets）+ QA fix 预发布来源标记；GA4 ✅ |
 | 29 | Big Walk | 8/04 | 18 | bigwalkwiki.vercel.app | ❌ | ✅ | ✅ | 上线当日建站 — 21/25，House House/Panic，8/4 发售，799K wishlist，零 wiki 竞争；GA4 ✅ |
 | 30 | Iron Nest | 8/06 | 24 | ironnestwiki.vercel.app | ❌ | ✅ | ✅ | 8/6 Coordinator auto-build，18/25，843K wishlist，柴油朋克重炮模拟；8/9 Coordinator 扩充 +11（Crew Stations、Enemy Types、Story Walkthrough、Achievements、Advanced Ballistics、Multiplayer、Tips、Map Terrain、Requisition Farming、Lore、Glossary）；GA4 ✅ |
 | 31 | Nivalis Nights | 8/07 | 20 | nivalisnightswiki.vercel.app | ❌ | ✅ | ✅ | 8/7 Coordinator auto-build，22/25，9/29 上线，932K wishlist，ION LANDS/505；GA4 ✅ |
@@ -123,7 +123,7 @@
 | 指标 | 数值 |
 |------|:--:|
 | **总站点数** | 34 |
-| **总攻略数** | 994 |
+| **总攻略数** | 1007 |
 | **Vercel 部署** | 18/34 ❌ |
 | **GA4 已配置** | 34/34 |
 | **GSC 文件部署** | 34/34 ✅（账户级令牌，所有站共用同一文件） |
@@ -182,8 +182,8 @@
 ✅ 8/4   Beast of Reincarnation（8/8 建站，21/20，Game Freak 首款原IP，718K wishlist，零 wiki 竞争，14 攻略）
 ✅ 7/31  Waterpark Simulator 1.0（8/8 建站，17/20，CayPlay，1M+ 下载，96% 好评，零 wiki 竞争，14 攻略）
 ✅ 8/6   ReStory: Chill Electronics Repairs（8/8 建站，22/20，Mandragora/tinyBuild，700K wishlist，98% Overwhelmingly Positive，零 wiki 竞争，14 攻略）
-🔜 8/11  Mystralia EA（8/7 +5 +3 = 35 攻略）
-🔜 8/13  Low-Budget Repairs（8/3 建站，8/7 +8 +5 = 33 攻略）
+🔜 8/11  Mystralia EA（8/7 +8，8/10 +5 = 40 攻略）
+🔜 8/13  Low-Budget Repairs（8/3 建站，8/7 +13，8/10 +8 = 41 攻略）
 🔜 9/22  Delverium EA（8/2 建站，8/7 +5 = 14 攻略）
 🔜 9/29  Nivalis Nights（8/7 建站，13 攻略）
 ```

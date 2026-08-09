@@ -3,14 +3,16 @@ title: "Best Cost-Cutting Tips & Shortcuts in Low-Budget Repairs"
 description: "Every known Low-Budget Repairs cost-cutting tip and shortcut — watering down paint, mismatched tiles, duct tape plumbing, bargain-bin supplies, and posters over holes — with savings and risk ratings."
 category: "Guides"
 version: "Pre-release"
-updated: "2026-08-03"
-date: "2026-08-03"
+updated: "2026-08-10"
+date: "2026-08-10"
 keywords: ["low-budget repairs cost cutting", "low-budget repairs shortcuts", "low-budget repairs tips", "low-budget repairs watering down paint", "low-budget repairs duct tape"]
 ---
 
 # Best Cost-Cutting Tips & Shortcuts in Low-Budget Repairs
 
 Low-Budget Repairs is a game where cutting corners is the entire point. You're paid a flat fee per job, so every zloty saved is a zloty of profit — and inspectors only catch what they can see. The game launches **August 13, 2026** on Steam; until then, the demo is your lab. Below, every known shortcut, with technique, savings, and risk.
+
+> **Sourcing note (updated August 10, 2026):** the full game has not launched yet, so nothing on this page comes from the release build. Techniques marked **[Demo-verified]** were confirmed working in the **July 24 demo** or the **open playtest** that started July 30. Anything marked **[Speculative — awaiting launch confirmation]** is a community theory or launch-day question. Savings percentages are player estimates from the demo, not official figures, and the release build may change inspection behavior.
 
 ## The Quick Reference Table
 
@@ -29,7 +31,7 @@ Low-Budget Repairs is a game where cutting corners is the entire point. You're p
 
 ## 1. Watering Down Paint
 
-**Technique**: Mix thinner (or water, per demo players) into your paint. A 1:5 ratio covers acceptably; stir thoroughly to avoid streaks, and keep a thicker mix for the wall facing the door.
+**Technique**: Mix thinner (or water — **[Demo-verified]**, per demo players) into your paint. A 1:5 ratio covers acceptably; stir thoroughly to avoid streaks, and keep a thicker mix for the wall facing the door.
 
 **Savings**: One can becomes 1.5–2 cans.
 
@@ -37,7 +39,7 @@ Low-Budget Repairs is a game where cutting corners is the entire point. You're p
 
 ## 2. Mismatched Tiles, No Spacers, No Level
 
-**Technique**: Buy whatever tiles the bin has — pattern and color don't need to match, only size. Skip spacers and leveling; lay tiles fast, even if grout lines wander.
+**Technique**: Buy whatever tiles the bin has — pattern and color don't need to match, only size. Skip spacers and leveling; lay tiles fast, even if grout lines wander. **[Demo-verified]** — the demo's inspector checks coverage, not precision.
 
 **Savings**: 30–50% of tile costs, plus spacers and leveling tools.
 
@@ -45,7 +47,7 @@ Low-Budget Repairs is a game where cutting corners is the entire point. You're p
 
 ## 3. Duct Tape Fixes for Plumbing
 
-**Technique**: Wrap leaking joints or cracked sections in duct tape — multiple layers, pressed firm. The demo's most common fix.
+**Technique**: Wrap leaking joints or cracked sections in duct tape — multiple layers, pressed firm. **[Demo-verified]** — the demo's most common fix.
 
 **Savings**: 70–80% versus replacing a pipe section plus connectors.
 
@@ -53,7 +55,7 @@ Low-Budget Repairs is a game where cutting corners is the entire point. You're p
 
 ## 4. Bargain-Bin Supplies
 
-**Technique**: Check the hardware store's bargain bin every trip — off-brand, damaged, or near-expiry items at steep discounts.
+**Technique**: Check the hardware store's bargain bin every trip — off-brand, damaged, or near-expiry items at steep discounts. **[Demo-verified]** — the bargain bin is in the demo build.
 
 **Savings**: 40–60% on whatever you buy there. Across a full renovation, it can mean the difference between break-even and profit.
 
@@ -65,11 +67,11 @@ Low-Budget Repairs is a game where cutting corners is the entire point. You're p
 
 **Savings**: 20–30% of paint usage on a typical room — often a full can's worth.
 
-**Risk**: **Low.** Inspectors don't move furniture (based on the demo).
+**Risk**: **Low.** Inspectors don't move furniture (based on the demo). **[Demo-verified]**
 
 ## 6. Posters Over Drywall Holes
 
-**Technique**: Cover kicked-in holes, dents, and failed anchors with a poster instead of patching. The game treats posters as decoration.
+**Technique**: Cover kicked-in holes, dents, and failed anchors with a poster instead of patching. **[Demo-verified]** — the game treats posters as decoration.
 
 **Savings**: 70–80% versus patch, filler, sanding, and repaint.
 
@@ -81,11 +83,11 @@ Low-Budget Repairs is a game where cutting corners is the entire point. You're p
 
 **Savings**: More jobs per day.
 
-**Risk**: **Very low.** No one bills you for hallway mess, though neighbors may comment. The lowest-risk shortcut in the game, and the most in-character.
+**Risk**: **Very low.** No one bills you for hallway mess — though neighbors may comment. **[Speculative — awaiting launch confirmation]** The lowest-risk shortcut in the game, and the most in-character.
 
 ## 8. Using Wrong Tools in a Pinch
 
-**Technique**: The demo lets tools approximate each other: a chisel scrapes wallpaper, a hammer persuades stuck tiles, a utility knife stands in for a scraper. Skip buying specialized one-use tools.
+**Technique**: The demo lets tools approximate each other: a chisel scrapes wallpaper, a hammer persuades stuck tiles, a utility knife stands in for a scraper. **[Demo-verified]** Skip buying specialized one-use tools.
 
 **Savings**: Avoids small tool purchases per job — a few percent, but it compounds.
 
@@ -93,7 +95,7 @@ Low-Budget Repairs is a game where cutting corners is the entire point. You're p
 
 ## 9. Cheap Caulk/Silicone Over Cracks
 
-**Technique**: For hairline cracks, gaps around pipes, or seam lines, run cheap caulk or silicone over the gap instead of filler, sanding, and repaint. Squeeze, smooth with a finger, done.
+**Technique**: For hairline cracks, gaps around pipes, or seam lines, run cheap caulk or silicone over the gap instead of filler, sanding, and repaint. Squeeze, smooth with a finger, done. **[Demo-verified]** — the caulking gun and crack-filling loop are in the demo build.
 
 **Savings**: 50–70% versus proper crack repair in materials, plus the sanding time you skip.
 
@@ -101,9 +103,9 @@ Low-Budget Repairs is a game where cutting corners is the entire point. You're p
 
 ## 10. Refurbishing Old Furniture Instead of Buying New
 
-**Technique**: When a job calls for "new" furniture, check what's already in the flat first. Restaining, repainting, or polishing the existing piece often satisfies the contract; buy new only when the client demands it.
+**Technique**: When a job calls for "new" furniture, check what's already in the flat first. Restaining, repainting, or polishing the existing piece often satisfies the contract; buy new only when the client demands it. **[Demo-verified]**
 
-**Savings**: 60–80% versus buying new — the single biggest item-saving shortcut in the demo.
+**Savings**: 60–80% versus buying new — the single biggest item-saving shortcut in the demo. **[Demo-verified]**
 
 **Risk**: **Low.** Inspectors judge furniture by appearance, not provenance. A freshly painted chest of drawers passes as new to most clients.
 
@@ -115,4 +117,4 @@ Each shortcut raises the chance of being noticed, and visible shortcuts stack:
 - **One visible shortcut per room**: posters, mismatched tiles, or caulk lines — pick one per room so the job stays coherent.
 - **Never stack on plumbing**: a tape fix plus visible shortcuts invites a full inspection, and plumbing failures are the most expensive redo.
 
-The golden rule: make the first thing the client sees — the entrance wall, the bathroom floor — look clean, and everything hidden can be as cheap as you like. Full release on **August 13, 2026** may change inspection behavior.
+The golden rule: make the first thing the client sees — the entrance wall, the bathroom floor — look clean, and everything hidden can be as cheap as you like. Full release on **August 13, 2026** may change inspection behavior. **[Speculative — awaiting launch confirmation]**
