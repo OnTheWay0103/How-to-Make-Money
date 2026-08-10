@@ -96,7 +96,7 @@ Bosses with up to 6 players (confirmed cap; not balanced beyond):
 
 Farming bosses for repeat loot is standard for this genre, and the confirmed design (loot from enemies, rare artifacts) suggests it will be viable — but exact drop tables, respawn timers, and boss-specific rewards are **unconfirmed**. Wait for the full game or patch notes before planning a farm route.
 
-## What Is Still Unknown (TBD)
+## What Is Still Unknown (Unverified)
 
 - Full boss roster and names (only Yorgoroth is confirmed)
 - HP, damage, and phase numbers

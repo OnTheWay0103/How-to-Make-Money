@@ -120,7 +120,7 @@ Your combat power scales through four confirmed vectors:
 
 Do not neglect any of them. A player with strong gear, a good artifact kit, several Spire bonuses, and a full inventory of buffs is playing a completely different game from a fresh spawn.
 
-## What Is Still Unknown (TBD)
+## What Is Still Unknown (Unverified)
 
 - Complete weapon and artifact catalogs with stats
 - Element system and resistance tables

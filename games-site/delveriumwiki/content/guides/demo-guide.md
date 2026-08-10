@@ -15,7 +15,7 @@ related:
 
 Want to try **Delverium** before the Early Access launch on September 22, 2026? Good news: there's a **free demo on Steam**, available since **February 7, 2025**. This guide covers how to download it, what's inside, whether your demo progress carries over, and first-step tips for beginners.
 
-> **Pre-release guide — will be updated for EA launch (Sept 22, 2026).** Anything not officially confirmed is marked TBD / 待验证.
+> **Pre-release guide — will be updated for EA launch (Sept 22, 2026).** Anything not officially confirmed is marked unverified.
 
 ## Delverium demo overview
 
@@ -42,7 +42,7 @@ The demo is a standalone store entry — it's not a demo button on the main game
 
 ### What you need to run it
 
-Official system requirements haven't been published (TBD). The game uses a **pixel-art style** and **Steam Deck support is confirmed**, so modest hardware should be fine — but that's an informed guess until official specs drop. The free demo lets you test performance on your own machine.
+Official system requirements haven't been published (unverified). The game uses a **pixel-art style** and **Steam Deck support is confirmed**, so modest hardware should be fine — but that's an informed guess until official specs drop. The free demo lets you test performance on your own machine.
 
 ## What's in the Delverium demo?
 
@@ -82,17 +82,17 @@ Full details on how hosting and joining work are in the [Co-op & Multiplayer gui
 
 | | **Demo** | **Full game (EA, Sept 22, 2026)** |
 |---|---|---|
-| **Price** | Free | TBD (EA price lower than final 1.0 price) |
+| **Price** | Free | unverified (EA price lower than final 1.0 price) |
 | **Length** | ~1-2 hours | ~2 years of Early Access development planned |
 | **World** | Initial biome + one dungeon | Procedurally generated worlds; new biomes, bosses, NPCs added through EA |
 | **Co-op** | 4p split-screen + 8p online (since Feb 2026) | 1-8 player co-op online + 4p split-screen |
 | **Farming** | Included (expanded Feb 2026) | Included, evolving with updates |
 | **Story** | Lore/quest systems in demo | "The Faults" mystery, secrets in the dungeons |
-| **Save carryover** | **TBD / 待验证** — not announced | — |
+| **Save carryover** | **unverified** — not announced | — |
 
 ## Does demo progress carry over to the full game?
 
-**Not announced — TBD / 待验证.** As of August 2026, Sagestone Games has not confirmed whether demo saves will transfer to the Early Access version on September 22, 2026.
+**Not announced — unverified.** As of August 2026, Sagestone Games has not confirmed whether demo saves will transfer to the Early Access version on September 22, 2026.
 
 What this means practically: the demo is short enough (1-2 hours) that even if saves don't carry over, replaying the start at launch is a small cost — and you'll have learned the systems by then. But don't assume your demo character, world, or items will transfer until the developers say so. We'll update this guide when there's an official answer.
 
@@ -145,7 +145,7 @@ A: Yes — free on Steam since February 7, 2025.
 A: Roughly 1-2 hours of early-game content (initial biome + one dungeon).
 
 **Q: Does Delverium demo save carry over to the full game?**
-A: TBD / 待验证 — not announced as of August 2026.
+A: unverified — not announced as of August 2026.
 
 **Q: Can you play the Delverium demo with friends?**
 A: Yes — local split-screen up to 4 players, and 8-player online co-op since the February 20, 2026 update.
@@ -165,4 +165,4 @@ A: On Steam — search "Delverium Demo" (app 3426800), a separate page from the 
 
 ## Changelog
 
-- **2026-08-02**: Initial guide published (pre-release). Save carryover, exact demo cutoff, and system requirements remain TBD / 待验证.
+- **2026-08-02**: Initial guide published (pre-release). Save carryover, exact demo cutoff, and system requirements remain unverified.

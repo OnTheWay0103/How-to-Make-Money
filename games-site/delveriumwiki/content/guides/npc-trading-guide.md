@@ -12,7 +12,7 @@ related:
   - demo-guide
 ---
 
-> **Pre-release guide — updated for EA launch (Sept 22, 2026).** Delverium enters Steam Early Access on September 22, 2026. NPC recruitment and trading are confirmed systems; NPC roster, names and full wares lists are TBD until launch and EA updates.
+> **Pre-release guide — updated for EA launch (Sept 22, 2026).** Delverium enters Steam Early Access on September 22, 2026. NPC recruitment and trading are confirmed systems; NPC roster, names and full wares lists are unverified until launch and EA updates.
 
 # Delverium NPCs, Recruitment & Trading Guide
 
@@ -34,7 +34,7 @@ Recruiting NPCs and trading with them is one of Delverium's confirmed core-loop 
 - NPCs **trade with you** and **buy your excess resources**.
 - The trading currency is **copper coins** — confirmed in demo coverage.
 - Selling surplus farm produce and resources for copper coins is an intended loop — see the [Farming Guide](/guides/farming-guide).
-- **Specific prices and wares lists are TBD** — no official shop tables have been published.
+- **Specific prices and wares lists are unverified** — no official shop tables have been published.
 
 ## The Starter Tools NPC
 
@@ -51,9 +51,9 @@ Recruiting NPCs and trading with them is one of Delverium's confirmed core-loop 
 | Different NPCs, different wares | ✅ Confirmed |
 | Chicken / sheep trader | ✅ Reported (after 3–4 tenants) |
 | Starter tools (axe, pickaxe, hammer) | ✅ Confirmed (NPC-given) |
-| NPC roster and names | ⏳ TBD |
-| Shop prices and wares lists | ⏳ TBD |
-| NPC quests or favors | ⏳ TBD — not officially announced |
+| NPC roster and names | ⏳ unverified |
+| Shop prices and wares lists | ⏳ unverified |
+| NPC quests or favors | ⏳ unverified — not officially announced |
 
 ## Practical Tips (Based on Confirmed Systems)
 
@@ -71,8 +71,8 @@ Recruiting NPCs and trading with them is one of Delverium's confirmed core-loop 
 | What currency do NPCs use? | Copper coins (confirmed) |
 | Can I sell to NPCs? | Yes — they buy excess resources |
 | Can I buy chickens and sheep? | Yes — from a recruited livestock trader (reported after 3–4 tenants) |
-| Are NPC names known? | No — the roster is TBD as of August 2026 |
-| Do NPCs give quests? | Not officially announced — TBD |
+| Are NPC names known? | No — the roster is unverified as of August 2026 |
+| Do NPCs give quests? | Not officially announced — unverified |
 
 ## Will Update at EA Launch
 

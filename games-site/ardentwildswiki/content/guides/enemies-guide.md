@@ -156,7 +156,7 @@ Full defensive layouts are in the [Base Building Guide](/guides/base-building-gu
 | Caves & underground mines | High-Very High | Fierce enemies, deadly traps, elites, guarded rare loot |
 | Boss arenas | Very High | Named bosses with patterns, phases, and minions |
 
-## What Is Still Unknown (TBD)
+## What Is Still Unknown (Unverified)
 
 - The full enemy roster and official enemy names
 - Exact stats: HP, damage, aggro ranges, movement speeds

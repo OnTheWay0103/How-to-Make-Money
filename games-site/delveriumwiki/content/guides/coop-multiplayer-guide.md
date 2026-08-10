@@ -15,7 +15,7 @@ related:
 
 **Co-op is Delverium's whole identity.** It's a **1-8 player co-op survival sandbox RPG**: up to **8 players online via Steam**, up to **4 players in local split-screen**, and solo play for everyone else. The project began around 2016 when lead developer Scott Lowther played split-screen Terraria with his family — local co-op isn't an afterthought, it's the game's origin. This guide explains exactly how co-op works today (demo build), how you'll host and join games, how to divide party roles, and how to make an 8-player party run smoothly.
 
-> **Pre-release guide — will be updated for EA launch (Sept 22, 2026).** Hosting details, dedicated servers, and crossplay are not fully announced; anything unconfirmed is marked TBD / 待验证.
+> **Pre-release guide — will be updated for EA launch (Sept 22, 2026).** Hosting details, dedicated servers, and crossplay are not fully announced; anything unconfirmed is marked unverified.
 
 ## Delverium co-op overview
 
@@ -25,8 +25,8 @@ related:
 | **Local co-op** | **4-player split-screen** on one screen (in the demo since February 7, 2025) |
 | **Solo play** | Supported — 1 player is the minimum, not a compromise mode |
 | **Controller support** | Full controller support planned; gamepads work with split-screen today |
-| **Crossplay** | **TBD / 待验证** — only PC is confirmed, so crossplay effectively means "PC players together via Steam" |
-| **Dedicated servers** | **TBD / 待验证** — not announced; hosting model to be confirmed for EA |
+| **Crossplay** | **unverified** — only PC is confirmed, so crossplay effectively means "PC players together via Steam" |
+| **Dedicated servers** | **unverified** — not announced; hosting model to be confirmed for EA |
 | **Platforms** | PC (Steam) + Steam Deck confirmed; console/mobile not announced |
 
 ## How online co-op works
@@ -37,13 +37,13 @@ What's confirmed today:
 
 - **Up to 8 players** in one world over the internet, joined via Steam (friends and invites).
 - The demo already supports it — you can test 8-player online co-op right now, free.
-- Steam Deck is a confirmed platform, so PC players can mix desktop and Deck sessions. (Crossplay with any non-PC platform remains TBD — nothing else is announced.)
+- Steam Deck is a confirmed platform, so PC players can mix desktop and Deck sessions. (Crossplay with any non-PC platform remains unverified — nothing else is announced.)
 
 What's not confirmed yet:
 
-- **Hosting model** — whether games run peer-to-peer with a player hosting, or on dedicated servers, has **not been announced (TBD)**. The demo works via Steam sessions; expect specifics to be locked in for EA.
-- **Matchmaking** — no public-server browser or matchmaking system has been announced. Joining is through Steam friends/invites as far as we know (TBD for full details).
-- **World hosting for large parties** — how a world persists when the host leaves is unconfirmed (TBD).
+- **Hosting model** — whether games run peer-to-peer with a player hosting, or on dedicated servers, has **not been announced (unverified)**. The demo works via Steam sessions; expect specifics to be locked in for EA.
+- **Matchmaking** — no public-server browser or matchmaking system has been announced. Joining is through Steam friends/invites as far as we know (unverified for full details).
+- **World hosting for large parties** — how a world persists when the host leaves is unconfirmed (unverified).
 
 ## How split-screen works
 
@@ -51,7 +51,7 @@ What's not confirmed yet:
 
 - Up to **4 players on one screen**, sharing the same world.
 - **Gamepads** are the way to play on a shared screen; **full controller support is planned** for the release.
-- It stacks with online co-op conceptually: the game supports 1-8 players, so local + online mixes are the natural direction — though exact combination rules (e.g., 2 local + 6 remote) are **TBD / 待验证** for EA.
+- It stacks with online co-op conceptually: the game supports 1-8 players, so local + online mixes are the natural direction — though exact combination rules (e.g., 2 local + 6 remote) are **unverified** for EA.
 
 Why split-screen matters for this game: it's the *reason Delverium exists*. If you have family or housemates, the 4-player couch setup is the canonical Delverium experience — the developers built it for exactly that.
 
@@ -71,7 +71,7 @@ Based on what's confirmed in the current demo build (full EA UI may differ sligh
 1. Accept a **Steam invite** from the host, or join through the Steam friends list.
 2. Drop into the world and pick up where the party is — whether that's farming, building, or gearing up for a dungeon run.
 
-That's genuinely most of what's officially confirmed. Session persistence details (what happens to your character/world between sessions), dedicated server options, and password-protected private sessions are all **TBD / 待验证** until EA.
+That's genuinely most of what's officially confirmed. Session persistence details (what happens to your character/world between sessions), dedicated server options, and password-protected private sessions are all **unverified** until EA.
 
 ## Party roles: no classes, all playstyles
 
@@ -104,10 +104,10 @@ There's no wrong answer — the game scales from a quiet solo farm to an 8-playe
 ## Host & connection notes
 
 - **Platform:** all confirmed play is PC via Steam; Steam Deck confirmed. Anything else is not announced.
-- **Dedicated servers:** **not announced (TBD)**. If you need a persistent always-on server for a large group, we'll update this guide when Sagestone announces the hosting model.
-- **Peer-to-peer:** the demo uses Steam sessions; whether EA runs P2P or adds dedicated servers is unconfirmed (TBD).
-- **Crossplay:** **TBD / 待验证** — with only PC confirmed, crossplay currently means "PC players together via Steam." No console versions are announced (see the [Release Date guide](release-date-ea-guide)), so console crossplay is a non-question until platforms exist.
-- **Connection requirements:** nothing officially published as of August 2026 (TBD). A stable internet connection on the host's side is the safe assumption for 8-player sessions — the host carries the world state in any Steam-session model.
+- **Dedicated servers:** **not announced (unverified)**. If you need a persistent always-on server for a large group, we'll update this guide when Sagestone announces the hosting model.
+- **Peer-to-peer:** the demo uses Steam sessions; whether EA runs P2P or adds dedicated servers is unconfirmed (unverified).
+- **Crossplay:** **unverified** — with only PC confirmed, crossplay currently means "PC players together via Steam." No console versions are announced (see the [Release Date guide](release-date-ea-guide)), so console crossplay is a non-question until platforms exist.
+- **Connection requirements:** nothing officially published as of August 2026 (unverified). A stable internet connection on the host's side is the safe assumption for 8-player sessions — the host carries the world state in any Steam-session model.
 
 ## Co-op tips for Delverium
 
@@ -145,7 +145,7 @@ World, character, and difficulty customization (added in the demo's Feb 2026 upd
 
 ### 9. Test the demo now
 
-Hosting specifics for EA aren't finalized (TBD), so test **8-player online co-op in the free demo today** — it's free, and you'll know exactly how the Steam flow feels before buying.
+Hosting specifics for EA aren't finalized (unverified), so test **8-player online co-op in the free demo today** — it's free, and you'll know exactly how the Steam flow feels before buying.
 
 ## Frequently asked questions
 
@@ -159,10 +159,10 @@ A: Yes — 4-player local split-screen, in the demo since February 7, 2025, usin
 A: Via Steam — the host creates a world and invites friends (up to 8); drop-in/drop-out was confirmed in the February 2026 demo update.
 
 **Q: Does Delverium have dedicated servers?**
-A: TBD / 待验证 — not announced as of August 2026.
+A: unverified — not announced as of August 2026.
 
 **Q: Is Delverium crossplay?**
-A: TBD — only PC (Steam) is confirmed, so crossplay currently means PC players together via Steam. No console versions are announced.
+A: unverified — only PC (Steam) is confirmed, so crossplay currently means PC players together via Steam. No console versions are announced.
 
 **Q: Is Delverium co-op on console?**
 A: Not announced — there are no console versions at all as of August 2026 (Switch/Xbox/PlayStation all unconfirmed).
@@ -179,4 +179,4 @@ A: Yes — it's a 1-8 player game; solo survival is fully supported.
 
 ## Changelog
 
-- **2026-08-02**: Initial guide published (pre-release). Dedicated servers, exact hosting model, crossplay, and session persistence remain TBD / 待验证.
+- **2026-08-02**: Initial guide published (pre-release). Dedicated servers, exact hosting model, crossplay, and session persistence remain unverified.

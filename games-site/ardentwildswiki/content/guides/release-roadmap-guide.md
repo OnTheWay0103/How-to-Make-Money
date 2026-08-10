@@ -23,7 +23,7 @@ Ardent Wilds is a **pre-release game in active development** — the free demo h
 | Question | Answer | Source |
 |----------|--------|--------|
 | Full game release date | **To be announced** | Steam store page, August 2026 |
-| Early Access planned? | **Not announced** — no Early Access program has been confirmed | 待验证 (not mentioned on the store page) |
+| Early Access planned? | **Not announced** — no Early Access program has been confirmed | unverified (not mentioned on the store page) |
 | Current playable build | **Free demo**, released **July 30, 2026** | Official demo page (app 5007130) |
 | Developer / Publisher | **Spellware Studios** (Ghent, Belgium, © 2026 Spellware Studios BV) | Steam store page |
 
@@ -66,7 +66,7 @@ These shipped in playtest builds but are not yet announced for the full game —
 - **Hold-to-cast ability controls** — confirmed in v0.5.9
 - **Floating islands with rewards** — confirmed in v0.5.9 for the Plains biome
 
-## What Is Not Announced (待验证)
+## What Is Not Announced (Unverified)
 
 - Full release date and any Early Access program
 - Official roadmap document or update cadence
@@ -91,6 +91,6 @@ Honest decision framework:
 - [Free Demo on Steam](https://store.steampowered.com/app/5007130/Ardent_Wilds_Demo/) — demo page
 - [Spellware Studios official site](https://www.spellwarestudios.com/) — studio news
 
-## What Is Still Unknown (待验证)
+## What Is Still Unknown (Unverified)
 
 This page will be updated whenever the developer makes a confirmed announcement. Until then: the release date is TBA, the demo is free, and the most reliable way to see what is coming is the Steam page's news feed — not any fan roadmap.

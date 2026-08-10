@@ -1,6 +1,6 @@
 ---
 title: 'Story & Quests Guide — How the Ardent Wilds Campaign Works'
-description: 'Ardent Wilds story and quests guide — the confirmed campaign structure, the Eldran invasion, restoring the four ancient spires, the Zyrrhak fight, and what the progression path looks like in Early Access.'
+description: 'Ardent Wilds story and quests guide — the confirmed campaign structure, the Eldran invasion, restoring the four ancient spires, the Zyrrhak fight, and what the progression path looks like in pre-release.'
 category: 'Guides'
 version: '1.0'
 updated: '2026-08-05'
@@ -69,7 +69,7 @@ Between spire objectives, the world is full of confirmed side content:
 - **Forgotten facilities** — Aetherium ruins that function as skill-tree nodes and exploration targets
 - **Rare material runs** — the underground is the confirmed source of high-tier crafting materials
 
-For Early Access players, dungeon crawling is both the side quest and the gear grind — the [Artifacts & Loot Guide](artifacts-loot-guide.md) explains why.
+For players in the current build, dungeon crawling is both the side quest and the gear grind — the [Artifacts & Loot Guide](artifacts-loot-guide.md) explains why.
 
 ## Fast Travel Is Story Progression
 
@@ -89,7 +89,7 @@ The full campaign is playable with up to 6 players (confirmed). Things that work
 
 See the [Co-op Guide](coop-guide.md) for multiplayer-specific strategy.
 
-## What Is Still Unknown (TBD)
+## What Is Still Unknown (Unverified)
 
 - Whether a quest journal or quest log exists in the full game
 - The full quest/objective list and story beats beyond the spire framework
@@ -98,4 +98,4 @@ See the [Co-op Guide](coop-guide.md) for multiplayer-specific strategy.
 - Whether there is a story epilogue, NG+, or post-game content
 - Exact spire counts and restoration requirements
 
-This guide will be updated as the Early Access builds and full release reveal the campaign. For now, the answer to "what do I do next?" is always: restore the next spire, clear the region that blocks it, and gear up for the boss guarding it.
+This guide will be updated as the pre-release builds and full release reveal the campaign. For now, the answer to "what do I do next?" is always: restore the next spire, clear the region that blocks it, and gear up for the boss guarding it.

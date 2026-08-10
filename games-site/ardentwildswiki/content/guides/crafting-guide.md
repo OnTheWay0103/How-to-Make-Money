@@ -44,7 +44,7 @@ The exact station roster and build costs are unconfirmed. The pattern from the c
 
 Confirmed material families from the official description: **gathered surface materials** (wood, stone, plant fibers — exact names unconfirmed), **mined ores** (from caves and mines), **rare materials** (found in dangerous deep places — "rare materials" is the developer's own phrase), and **looted materials** from enemies.
 
-The specific material list and tier order are **TBD**. General expectations (true of the genre, not confirmed for Ardent Wilds specifically):
+The specific material list and tier order are **unverified**. General expectations (true of the genre, not confirmed for Ardent Wilds specifically):
 
 - Early materials: wood, stone, fibers
 - Mid materials: ores you smelt into metals
@@ -105,7 +105,7 @@ Confirmed design: some of the best gear comes from **looted enemies** rather tha
 4. **Keep unknown materials** — never discard materials you cannot identify yet
 5. **Check loot before long crafting chains** — a dropped weapon may save you an hour of smelting
 
-## What Is Still Unknown (TBD)
+## What Is Still Unknown (Unverified)
 
 - The full recipe list and all costs (no official list exists)
 - Material names, tiers, and spawn rules

@@ -84,11 +84,11 @@ Because every world differs, memorize principles instead of routes:
 3. **Restore Spires for fast travel** — the distance between regions becomes negligible once you have several fast-travel points
 4. **Bring the right consumables** — each region type has hazards (cold at altitude, darkness underground, corruption in Eldran zones). Prepare accordingly, and treat any specific hazard numbers you see online as unconfirmed
 
-## What Is Still Unknown (TBD)
+## What Is Still Unknown (Unverified)
 
 To keep this guide honest, here is what is not yet confirmed and will be updated when official information exists:
 
-- Official biome names and count (the full game's region list is TBD)
+- Official biome names and count (the full game's region list is unverified)
 - Named enemies per region (the corrupted-wildlife family is confirmed, the full roster is not)
 - Exact rare-material list and spawn mechanics
 - Environmental hazard specifics (temperature, cave-ins, corruption damage)

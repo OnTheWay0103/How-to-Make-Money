@@ -16,7 +16,7 @@ related:
 
 Split-screen isn't an afterthought in Delverium — **it's the reason the game exists.** Lead developer Scott Lowther started the project around 2016 after playing split-screen Terraria with his family, and 4-player local split-screen has been in the game since the demo's launch on February 7, 2025. This guide covers everything about playing Delverium on one screen: setup, controllers, starting a session, mixing local and online play, and tips for making couch co-op run smoothly.
 
-> **Pre-release guide — will be updated for EA launch (Sept 22, 2026).** Exact in-game UI steps are based on the demo build; anything unconfirmed is marked TBD / 待验证.
+> **Pre-release guide — will be updated for EA launch (Sept 22, 2026).** Exact in-game UI steps are based on the demo build; anything unconfirmed is marked unverified.
 
 ## Split-Screen Facts (Confirmed)
 
@@ -27,7 +27,7 @@ Split-screen isn't an afterthought in Delverium — **it's the reason the game e
 | **Input** | **Gamepads** are the way to play on a shared screen |
 | **Controller support** | Full controller support planned for release |
 | **Player count range** | The game supports 1–8 players overall, so split-screen is one mode within that |
-| **Mixing local + online** | Conceptually supported (1–8 players), exact combination rules TBD / 待验证 |
+| **Mixing local + online** | Conceptually supported (1–8 players), exact combination rules unverified |
 | **Platforms** | PC via Steam; Steam Deck confirmed |
 
 ## How to Set Up Split-Screen (Demo-Verified Steps)
@@ -64,7 +64,7 @@ Split-screen isn't an afterthought in Delverium — **it's the reason the game e
 | **Best for** | Family, housemates, kids, parties | Friends at distance, large groups |
 | **Full details** | This guide | [Co-op & Multiplayer guide](coop-multiplayer-guide) |
 
-The two aren't rivals — the game supports 1–8 players total, and the natural direction is combining them (2 local + friends online), though exact combination rules are **TBD / 待验证** for EA.
+The two aren't rivals — the game supports 1–8 players total, and the natural direction is combining them (2 local + friends online), though exact combination rules are **unverified** for EA.
 
 ## Couch Co-op Role Ideas (No Classes Needed)
 
@@ -100,7 +100,7 @@ A: Up to **4 players** locally, sharing one world.
 A: Gamepads are the way to play on a shared screen; full controller support is planned for release.
 
 **Q: Can I mix split-screen and online co-op?**
-A: The game supports 1–8 players overall, so local + online mixing is the natural direction — exact combination rules are TBD / 待验证.
+A: The game supports 1–8 players overall, so local + online mixing is the natural direction — exact combination rules are unverified.
 
 **Q: Can I play split-screen in the demo?**
 A: Yes — it's been in the demo since day one, free.
@@ -117,4 +117,4 @@ A: There are no console versions announced as of August 2026 — split-screen is
 
 ## Changelog
 
-- **2026-08-07**: Initial guide published (pre-release). Exact EA UI steps and local+online combination rules remain TBD / 待验证.
+- **2026-08-07**: Initial guide published (pre-release). Exact EA UI steps and local+online combination rules remain unverified.

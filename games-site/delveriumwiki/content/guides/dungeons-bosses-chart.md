@@ -26,7 +26,7 @@ Dungeons are the heart of Delverium's danger and mystery. The confirmed game loo
 | **Dungeon rewards** | "Loot unique items" — confirmed part of the world description | — |
 | **Dungeon danger** | "Dangerous dungeons" — confirmed; dungeon fights are the combat focus | — |
 | **The Faults** | A mystery threatening the land; secrets hidden in the dungeons | — |
-| **Future bosses** | EA will add new bosses over its ~2-year run based on player feedback | TBD |
+| **Future bosses** | EA will add new bosses over its ~2-year run based on player feedback | unverified |
 
 ## Bosses — the Honest Picture
 
@@ -35,12 +35,12 @@ No boss names, designs or mechanics have been officially announced as of August 
 | Boss fact | Status |
 |---|---|
 | A world boss exists in the demo | ✅ Confirmed (Feb 20, 2026 demo update) |
-| Boss name | ⏳ TBD — not yet announced |
-| Boss location / which biome it appears in | ⏳ TBD — not yet announced |
-| Boss mechanics and attacks | ⏳ TBD — not yet announced |
-| Boss loot / unique drops | ⏳ TBD — not yet announced |
-| Whether EA adds more world bosses | ✅ Likely — EA roadmap confirms new bosses over ~2 years (details TBD) |
-| Solo vs co-op boss difficulty scaling | ⏳ TBD — unconfirmed as of August 2026 |
+| Boss name | ⏳ unverified — not yet announced |
+| Boss location / which biome it appears in | ⏳ unverified — not yet announced |
+| Boss mechanics and attacks | ⏳ unverified — not yet announced |
+| Boss loot / unique drops | ⏳ unverified — not yet announced |
+| Whether EA adds more world bosses | ✅ Likely — EA roadmap confirms new bosses over ~2 years (details unverified) |
+| Solo vs co-op boss difficulty scaling | ⏳ unconfirmed as of August 2026 |
 
 ## What Early Access Will Add
 
@@ -60,11 +60,11 @@ The demo (free on Steam since Feb 7, 2025) includes the **initial biome + one du
 | Demo feature | Status |
 |---|---|
 | One playable dungeon | ✅ Confirmed |
-| New world boss | ✅ Confirmed (name TBD) |
+| New world boss | ✅ Confirmed (name unverified) |
 | 8-player online co-op for dungeon runs | ✅ Confirmed |
 | Journey Shrine fast travel | ✅ Confirmed (hidden shrines) |
 | Lore and quest systems | ✅ Confirmed |
-| Save carryover from demo to full game | ⏳ TBD — unconfirmed as of August 2026 |
+| Save carryover from demo to full game | ⏳ unconfirmed as of August 2026 |
 
 ## Dungeon Dive Tips (Based on Confirmed Systems)
 
@@ -81,12 +81,12 @@ The demo (free on Steam since Feb 7, 2025) includes the **initial biome + one du
 
 | Question | Answer |
 |---|---|
-| Are there any announced boss names? | No — TBD, unconfirmed as of August 2026 |
+| Are there any announced boss names? | No — unconfirmed as of August 2026 |
 | Does the demo have a dungeon? | Yes — one dungeon plus a new world boss added in the Feb 2026 update |
 | Will EA add more dungeons and bosses? | Yes — new biomes, bosses, dungeons and NPCs are confirmed over the ~2-year EA |
 | When does the full game release? | EA on Sept 22, 2026; full 1.0 expected after ~2 years |
-| Can I fight the world boss solo? | Unconfirmed — difficulty scaling details are TBD |
+| Can I fight the world boss solo? | Unconfirmed — difficulty scaling details are unverified |
 
 ## Will Update at EA Launch
 
-Boss names, dungeon names, mechanics and loot tables will be filled in after **September 22, 2026** and as EA updates ship. Any boss or dungeon name you see elsewhere before then is **待验证 (unverified)** — nothing has been announced.
+Boss names, dungeon names, mechanics and loot tables will be filled in after **September 22, 2026** and as EA updates ship. Any boss or dungeon name you see elsewhere before then is **unverified** — nothing has been announced.

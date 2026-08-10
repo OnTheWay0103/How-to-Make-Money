@@ -98,7 +98,7 @@ Concrete plan, honest about what we do not know:
 4. **Prepare for bosses.** Enter boss fights in your best set, with consumables topped up. Armor is a preparation item
 5. **Keep multiple sets.** The classless system rewards swapping gear per situation. A fast set for exploring, a heavy set for boss attempts, a spare for when one breaks
 
-## What Is Still Unknown (TBD)
+## What Is Still Unknown (Unverified)
 
 - Armor slots, stat values, and set bonus mechanics
 - Recipe costs and material requirements

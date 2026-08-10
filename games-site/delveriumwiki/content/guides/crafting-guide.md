@@ -17,7 +17,7 @@ related:
 
 Crafting is the engine of Delverium's loop: **gather resources → build shelters → farm → recruit and trade with NPCs → craft items (food, tools, weapons, armor, building materials) → descend into dangerous dungeons.** This guide explains how the crafting system works, the confirmed material pipeline behind it, and an essential early-game recipe plan — the first crafts that carry your first day. For the full confirmed-category reference, see the [Crafting Recipes Chart](crafting-recipes-chart); this guide is the "how it fits together" companion.
 
-> **Pre-release guide — will be updated for EA launch (Sept 22, 2026).** Sagestone Games has confirmed the crafting *categories* but not specific recipes or station names; anything unconfirmed is marked TBD / 待验证.
+> **Pre-release guide — will be updated for EA launch (Sept 22, 2026).** Sagestone Games has confirmed the crafting *categories* but not specific recipes or station names; anything unconfirmed is marked unverified.
 
 ## How Crafting Works (What's Confirmed)
 
@@ -30,8 +30,8 @@ Sagestone has confirmed the shape of the system without publishing a recipe book
 | **Nested crafting** — crafting that builds on earlier crafts | ✅ Confirmed (quality-of-life feature) |
 | **Expandable player inventory** | ✅ Confirmed (quality-of-life feature) |
 | **Farming produces cooking ingredients** — till, plant, water, breed, fish, cook | ✅ Confirmed (Feb 2026 demo update) |
-| **Specific recipes** (ingredient amounts, item names) | ⏳ TBD / 待验证 — none published |
-| **Crafting stations** (workbench, furnace, etc.) | ⏳ TBD / 待验证 — no names announced |
+| **Specific recipes** (ingredient amounts, item names) | ⏳ unverified — none published |
+| **Crafting stations** (workbench, furnace, etc.) | ⏳ unverified — no names announced |
 
 **Nested crafting** is the key design fact: later recipes are built from earlier ones, so a material you gather on day one is the ancestor of gear you craft on day ten. That's why the material pipeline matters more than any single recipe.
 
@@ -45,18 +45,18 @@ Every craft flows through the same pipeline. Understanding it tells you what to 
 | **Farming** | Tilling soil, planting seeds, watering crops, breeding animals, fishing | Cooking and trading |
 | **Trading** | Recruiting and trading with NPCs | Gear, materials, quest items |
 | **Dungeon loot** | "Loot unique items" from dangerous dungeons | Weapons, armor, and upgrades |
-| **Processing** | Nested crafting of intermediate items (details TBD) | All higher-tier crafts |
+| **Processing** | Nested crafting of intermediate items (details unverified) | All higher-tier crafts |
 
 Practical takeaway: **a gatherer who feeds the pipeline is as valuable as a crafter.** Crafting is only as good as its material input — in co-op, keep gatherers ahead of crafters.
 
 ## Essential Early-Game Recipe Plan
 
-Specific recipes are **TBD / 待验证**, but the confirmed loop dictates the order your first crafts should take. This is the plan that gets you from nothing to dungeon-ready:
+Specific recipes are **unverified**, but the confirmed loop dictates the order your first crafts should take. This is the plan that gets you from nothing to dungeon-ready:
 
 ### 1. Basic tools (first crafts of the game)
 
 - **Why first:** gathering, mining, and farming all depend on tools; better tools multiply every other craft
-- **What to expect:** chopping/mining implements from gathered wood and stone (tier names TBD)
+- **What to expect:** chopping/mining implements from gathered wood and stone (tier names unverified)
 - **Do not:** explore deep before you can gather efficiently
 
 ### 2. Food and cooking
@@ -73,7 +73,7 @@ Specific recipes are **TBD / 待验证**, but the confirmed loop dictates the or
 
 ### 4. Armor
 
-- **Why for progression:** armor is a confirmed category; expect it to matter more the deeper you go (details TBD)
+- **Why for progression:** armor is a confirmed category; expect it to matter more the deeper you go (details unverified)
 - **What to expect:** protection crafts from the same material pipeline as weapons
 - **Do not:** assume one armor set carries the whole game — EA updates will add more
 
@@ -110,7 +110,7 @@ A: No — only the five categories are confirmed as of August 2026. Recipes will
 A: Tools first, then food/cooking, then weapons — following the confirmed loop order.
 
 **Q: Are there crafting stations?**
-A: TBD / 待验证 — no station names announced. Players have confirmed crafting in the demo; station details come later.
+A: unverified — no station names announced. Players have confirmed crafting in the demo; station details come later.
 
 **Q: Can I craft in the demo?**
 A: Yes — the demo covers the early-game loop including crafting, farming, and cooking.
@@ -129,4 +129,4 @@ A: Likely — EA runs ~2 years and features are adjusted based on player feedbac
 
 ## Changelog
 
-- **2026-08-07**: Initial guide published (pre-release). Recipe names, ingredient amounts, and crafting station details remain TBD / 待验证.
+- **2026-08-07**: Initial guide published (pre-release). Recipe names, ingredient amounts, and crafting station details remain unverified.

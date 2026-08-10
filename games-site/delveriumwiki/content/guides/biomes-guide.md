@@ -16,7 +16,7 @@ related:
 
 Delverium's world is **procedurally generated** — no two worlds are the same — and the developers describe it as full of **"exotic biomes, hidden caves, and dangerous dungeons."** This guide maps what we know about the game's areas, what each area type is for, and how to explore them safely. Because no individual biome names have been announced as of August 2026, this guide covers the confirmed *area types* and what to expect in each.
 
-> **Pre-release guide — will be updated for EA launch (Sept 22, 2026).** Biome names, layouts, and per-biome resources are TBD / 待验证 until the Early Access build is playable.
+> **Pre-release guide — will be updated for EA launch (Sept 22, 2026).** Biome names, layouts, and per-biome resources are unverified until the Early Access build is playable.
 
 ## The World Structure (Confirmed)
 
@@ -59,7 +59,7 @@ Dungeons are the confirmed climax of the loop — see the [Dungeon Guide](dungeo
 
 - **"Loot unique items"** — dungeon drops are a designed reward
 - **"The Faults"** — the story mystery hides secrets in the dungeons
-- **World boss** — a new world boss was added to the demo in the February 2026 update (name TBD)
+- **World boss** — a new world boss was added to the demo in the February 2026 update (name unverified)
 - **Co-op friendly** — up to 8 players can run dungeons together online
 
 ## How the World Grows Through Early Access
@@ -71,7 +71,7 @@ The world at EA launch (Sept 22, 2026) is not the final world:
 | **Demo (now)** | Initial biome + one dungeon, plus more biomes and dungeon content added Feb 2026 |
 | **EA launch** | The full procedural world with the confirmed area types |
 | **During EA (~2 years)** | **New biomes** confirmed as part of the roadmap, plus new bosses, NPCs, and features based on player feedback |
-| **1.0** | The complete vision — exact final biome count TBD / 待验证 |
+| **1.0** | The complete vision — exact final biome count unverified |
 
 Every world is different, but the *types* of area stay the same: biomes to live in, caves to mine, dungeons to conquer.
 
@@ -111,4 +111,4 @@ A: Hidden **Journey Shrines** scattered through the world (confirmed in the Feb 
 
 ## Changelog
 
-- **2026-08-07**: Initial guide published (pre-release). Biome names and per-biome resources remain TBD / 待验证 until EA.
+- **2026-08-07**: Initial guide published (pre-release). Biome names and per-biome resources remain unverified until EA.

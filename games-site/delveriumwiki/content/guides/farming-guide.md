@@ -12,7 +12,7 @@ related:
   - dungeons-bosses-chart
 ---
 
-> **Pre-release guide — updated for EA launch (Sept 22, 2026).** Delverium enters Steam Early Access on September 22, 2026. Farming systems are confirmed in the demo; specific crop types, animal breeds and recipe lists are TBD until launch and EA updates.
+> **Pre-release guide — updated for EA launch (Sept 22, 2026).** Delverium enters Steam Early Access on September 22, 2026. Farming systems are confirmed in the demo; specific crop types, animal breeds and recipe lists are unverified until launch and EA updates.
 
 # Delverium Farming Guide — Crops, Animals, Fishing & Cooking
 
@@ -34,13 +34,13 @@ Farming is one of Delverium's confirmed pillars — the core loop places it betw
 
 - Tilling, planting and watering are confirmed as the three-step crop loop.
 - Grown crops feed into **cooking recipes** and **trading** (sell excess for copper coins — see the [NPC & Trading Guide](/guides/npc-trading-guide)).
-- **Specific crop types are TBD.** No official crop list has been published as of August 2026. The demo preview cited mushrooms and wheat as food ingredients, but a complete seed/crop roster is unconfirmed.
+- **Specific crop types are unverified.** No official crop list has been published as of August 2026. The demo preview cited mushrooms and wheat as food ingredients, but a complete seed/crop roster is unconfirmed.
 
 ## Animals — Breeding & Livestock
 
 - **Breeding and raising animals** is confirmed as part of the Feb 2026 farming expansion.
 - **Chickens and sheep** are the documented example livestock — both purchased from **recruited NPC traders** (the chicken/sheep seller is reported to appear after 3–4 NPCs move into your settlement).
-- Animal products (eggs, wool) feed cooking and crafting — exact products and recipes are TBD.
+- Animal products (eggs, wool) feed cooking and crafting — exact products and recipes are unverified.
 
 ## Fishing & Wild Gathering
 
@@ -50,7 +50,7 @@ Farming is one of Delverium's confirmed pillars — the core loop places it betw
 
 ## Cooking & Food
 
-- Cooking combines **crops, fish and wild ingredients** into a **wide range of recipes** (developer-confirmed breadth; exact recipe list TBD).
+- Cooking combines **crops, fish and wild ingredients** into a **wide range of recipes** (developer-confirmed breadth; exact recipe list unverified).
 - Food is used to **eat** (sustain during exploration and long dungeon dives) and to **trade**.
 - The demo preview specifically documented crafting food from **wild mushrooms and wheat**.
 
@@ -68,10 +68,10 @@ Farming is one of Delverium's confirmed pillars — the core loop places it betw
 | Question | Answer |
 |---|---|
 | Is farming in the demo? | Yes — expanded in the Feb 20, 2026 demo update |
-| What animals can I raise? | Chickens and sheep confirmed; others TBD |
+| What animals can I raise? | Chickens and sheep confirmed; others unverified |
 | Can I fish? | Yes — fishing is confirmed |
 | What do I do with crops? | Cook food and trade for copper coins |
-| Where do I get seeds? | TBD — seed sources are not officially documented |
+| Where do I get seeds? | unverified — seed sources are not officially documented |
 | Is there a recipe list? | No official list published; the demo shows crops + fish + wild ingredients combining into meals |
 
 ## Will Update at EA Launch

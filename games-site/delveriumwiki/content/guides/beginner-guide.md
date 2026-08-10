@@ -16,7 +16,7 @@ related:
 
 **Delverium** is an open-world survival sandbox RPG from **Sagestone Games** (Brisbane, Australia) — a pixel-art world of gathering, building, farming, crafting, NPC trading, and dangerous dungeon diving, for **1–8 players** (4-player split-screen or up to 8 online via Steam). It enters **Steam Early Access on September 22, 2026**, with a free demo already on Steam. If you're new, this guide covers the core loop, your first-day survival priorities, and how co-op changes the start.
 
-> **Pre-release guide — will be updated for EA launch (Sept 22, 2026).** Specific recipes, biome names, and system details are not yet announced; anything unconfirmed is marked TBD / 待验证.
+> **Pre-release guide — will be updated for EA launch (Sept 22, 2026).** Specific recipes, biome names, and system details are not yet announced; anything unconfirmed is marked unverified.
 
 ## What is Delverium?
 
@@ -88,7 +88,7 @@ See the [Co-op & Multiplayer guide](coop-multiplayer-guide) and the [Split-Scree
 - **1–8 player co-op** (4-player split-screen + up to 8 online via Steam)
 - **Steam Deck support** confirmed; full controller support planned
 - **~2 years of Early Access**, adding new biomes, bosses, NPCs, and features based on player feedback
-- **EA price lower than the final 1.0 price** (exact price TBD / 待验证)
+- **EA price lower than the final 1.0 price** (exact price unverified)
 - **80,000+ Steam wishlists** already — wishlisting helps ([wishlist Delverium](https://store.steampowered.com/app/2710040/Delverium/))
 
 ## Common First-Day Mistakes
@@ -102,10 +102,10 @@ See the [Co-op & Multiplayer guide](coop-multiplayer-guide) and the [Split-Scree
 ## Frequently Asked Questions
 
 **Q: Is Delverium free?**
-A: No — the full game is paid (price TBD / 待验证). A **free demo** has been on Steam since February 7, 2025.
+A: No — the full game is paid (price unverified). A **free demo** has been on Steam since February 7, 2025.
 
 **Q: Do I need to play the demo first?**
-A: No, but it's free and covers the core loop in ~1–2 hours — great preparation for EA. Save carryover to the full game is **TBD / 待验证** ([Demo guide](demo-guide)).
+A: No, but it's free and covers the core loop in ~1–2 hours — great preparation for EA. Save carryover to the full game is **unverified** ([Demo guide](demo-guide)).
 
 **Q: Can I play Delverium solo?**
 A: Yes — it's a 1–8 player game; solo survival is fully supported.
@@ -127,4 +127,4 @@ A: Steam Early Access on **September 22, 2026**; full 1.0 expected after ~2 year
 
 ## Changelog
 
-- **2026-08-07**: Initial guide published (pre-release). Recipe details, biome names, and demo save carryover remain TBD / 待验证.
+- **2026-08-07**: Initial guide published (pre-release). Recipe details, biome names, and demo save carryover remain unverified.

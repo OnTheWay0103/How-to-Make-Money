@@ -158,7 +158,7 @@ Teams that feed themselves properly out-survive teams that don't by a wide margi
 5. **No potion shelf** — if healing elixirs only exist in your inventory during emergencies, you are one bad fight from a long walk back
 6. **Trusting recipe lists from the internet** — in a pre-release game, published recipe tables are almost certainly fabricated. Learn recipes in-game
 
-## What Is Still Unknown (TBD)
+## What Is Still Unknown (Unverified)
 
 - The full crop roster and where seeds come from
 - Growth times, yields, and seasonality

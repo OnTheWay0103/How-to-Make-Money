@@ -51,7 +51,7 @@ After thirty-plus hours in Go-Go Town!, the community has compiled a reliable se
 
 - **Vending machines absorb overproduction** — rice, protein, and honeycomb pile up fast; fill machines and forget them.
 - **Sell duplicate treasure finds** to Arizona Smythe III in the Town Hall — far better coin income than basic crafted goods.
-- **Popcorn sells for 15 coins** at market stands with a fast chain — endgame players convert farms into popcorn factories to grind the 50,000-coin deed.
+- **Popcorn farms are a classic late-game money loop** — with a fast production chain, market stands turn farmland into steady passive income. Exact sell prices and late-game deed costs changed with 1.0's reworked endgame, so check current prices in the shop menu rather than trusting older numbers.
 - **Max the tourist slider** at the train station when you're ready to scale sales.
 
 ## Quality-of-Life Gems

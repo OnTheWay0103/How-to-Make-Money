@@ -124,7 +124,7 @@ A cave run is where a 6-player group earns its keep (see the [Co-op Guide](/guid
 - **Share the loot drops.** Artifacts one player cannot use may define another player's build
 - **Never split up in unknown caves.** Strength in numbers is the entire point of co-op
 
-## What Is Still Unknown (TBD)
+## What Is Still Unknown (Unverified)
 
 - Exact ore names, tool tiers, and material progression
 - Trap types and how they trigger

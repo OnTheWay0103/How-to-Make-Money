@@ -15,7 +15,7 @@ related:
 
 **Delverium launches into Steam Early Access on September 22, 2026** — and as of August 2026, PC via Steam is the only confirmed platform. If you've been watching this 1-8 player co-op survival sandbox RPG since its demo dropped in early 2025, this guide rounds up everything officially confirmed: the release date, Early Access plans, platforms, price, system requirements, and the roadmap.
 
-> **Pre-release guide — will be updated for EA launch (Sept 22, 2026).** Details not yet announced are marked TBD / 待验证.
+> **Pre-release guide — will be updated for EA launch (Sept 22, 2026).** Details not yet announced are marked unverified.
 
 ## When does Delverium release?
 
@@ -61,11 +61,11 @@ The short answer: **Steam on PC, plus Steam Deck.** Everything else is unannounc
 >
 > **Is Delverium on mobile?** Not announced. There are no iOS or Android announcements as of August 2026.
 
-If any console or mobile versions are planned, they'll likely come after the PC Early Access launch — but until the developers say so, treat them as unconfirmed (TBD).
+If any console or mobile versions are planned, they'll likely come after the PC Early Access launch — but until the developers say so, treat them as unconfirmed (unverified).
 
 ## How much will Delverium cost?
 
-**Price: not announced (TBD).** What we do know:
+**Price: not announced (unverified).** What we do know:
 
 - The Early Access price will be **lower than the final 1.0 price** (confirmed by the developers).
 - The game already has **80,000+ Steam wishlists**, which suggests a modest indie price point — but that's speculation on our part, not fact.
@@ -81,7 +81,7 @@ What we can reasonably say (and this is informed guesswork, not official specs):
 - **Steam Deck confirmed**: the developers have confirmed Steam Deck support, which itself implies the game runs on handheld-class hardware.
 - **Controller support planned**, with rebindable controls already in the demo.
 
-> Minimum specs: TBD — not yet announced as of August 2026. Check back after EA launch (Sept 22, 2026) or watch the Steam page.
+> Minimum specs: unverified — not yet announced as of August 2026. Check back after EA launch (Sept 22, 2026) or watch the Steam page.
 
 ## Delverium roadmap: what comes after launch?
 
@@ -113,7 +113,7 @@ You can also play the **free demo** right now (app 3426800) — see our [Delveri
 A: September 22, 2026, via Steam Early Access. Originally planned for 2025, moved to 2026.
 
 **Q: Is Delverium free?**
-A: No — the full game will be paid (price TBD). A free demo has been available on Steam since February 7, 2025.
+A: No — the full game will be paid (price unverified). A free demo has been available on Steam since February 7, 2025.
 
 **Q: How many players can play Delverium together?**
 A: Up to 8 players online via Steam, and up to 4 players in local split-screen co-op. Solo play is also supported.
@@ -122,11 +122,11 @@ A: Up to 8 players online via Steam, and up to 4 players in local split-screen c
 A: Not announced. No subscription or console announcements exist as of August 2026.
 
 **Q: Does the demo progress carry over to the full game?**
-A: TBD — the developers have not announced save carryover. See the [Demo guide](demo-guide) for details.
+A: unverified — the developers have not announced save carryover. See the [Demo guide](demo-guide) for details.
 
 **Q: Will there be a console release?**
 A: Not announced as of August 2026 — no Switch, Xbox, or PlayStation announcements exist.
 
 ## Changelog
 
-- **2026-08-02**: Initial guide published (pre-release). Release date confirmed Sept 22, 2026; price, system requirements, and console plans remain TBD / 待验证.
+- **2026-08-02**: Initial guide published (pre-release). Release date confirmed Sept 22, 2026; price, system requirements, and console plans remain unverified.

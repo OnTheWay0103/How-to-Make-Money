@@ -16,7 +16,7 @@ related:
 
 Every Ardent Wilds world is **procedurally generated** — and the generation system has already been through one major rebuild and one course-correction during development. Understanding how worlds are made is genuinely useful: it decides which biomes you start near, where the underground veins are, and whether your seed is worth re-rolling.
 
-**Honesty first:** the timeline below comes from the official playtest patch notes (April 2026 build and June 10, 2026 v0.5.9). Everything about how seeds are *formatted*, entered, or shared is (待验证) — no official seed documentation exists. This guide gives you the confirmed history, what it means, and honest strategy for world hunting.
+**Honesty first:** the timeline below comes from the official playtest patch notes (April 2026 build and June 10, 2026 v0.5.9). Everything about how seeds are *formatted*, entered, or shared is (unverified) — no official seed documentation exists. This guide gives you the confirmed history, what it means, and honest strategy for world hunting.
 
 ## The Confirmed Basics
 
@@ -39,16 +39,16 @@ The practical picture today: **the game ships with selectable pre-generated worl
 
 The one confirmed statement about seeds comes from the April 2026 playtest update: **seeds produce different terrain layouts**. What is not confirmed:
 
-- How seeds are displayed or copied (seed strings vs numbers — 待验证)
-- Where you enter a seed (world creation screen fields — 待验证)
-- Whether seeds generate deterministically (the same seed → the same world) in the current build — 待验证
-- Whether the v0.5.9 pre-generated world list is seed-addressable at all — 待验证
+- How seeds are displayed or copied (seed strings vs numbers — unverified)
+- Where you enter a seed (world creation screen fields — unverified)
+- Whether seeds generate deterministically (the same seed → the same world) in the current build — unverified
+- Whether the v0.5.9 pre-generated world list is seed-addressable at all — unverified
 
 Practical implications:
 
 - **Re-rolling is cheap.** If your starting region is a wasteland with no water, restarting is faster than surviving a bad start — the [Beginner Guide](beginner-guide.md) explains what a good start looks like
 - **"Best seed" lists are not trustworthy yet.** Without confirmed seed entry and deterministic generation, any "amazing seed" list online is either from an old build or invented. Re-roll yourself and judge with your own eyes
-- **Seeds will matter more later.** The moment custom worldgen returns with confirmed seed support, seeds become a shared resource for the community — that is the natural end state of this system (待验证)
+- **Seeds will matter more later.** The moment custom worldgen returns with confirmed seed support, seeds become a shared resource for the community — that is the natural end state of this system (unverified)
 
 ## What to Look For in a New World
 
@@ -66,16 +66,16 @@ Since you can re-roll freely, here is the checklist to evaluate a spawn against 
 The v0.5.9 patch notes explicitly improved **floating island generation in the Plains biome and added new rewards to them**. This is the demo-era standout world feature:
 
 - Floating islands exist in the Plains biome (confirmed)
-- They now contain rewards (confirmed — what kind is 待验证)
-- Access methods are unconfirmed — expect building, frost bridges from the Tome of Ice, or careful jumps (待验证)
+- They now contain rewards (confirmed — what kind is unverified)
+- Access methods are unconfirmed — expect building, frost bridges from the Tome of Ice, or careful jumps (unverified)
 
 If your spawn region has floating islands, that is a point in its favor — see the [Combat Guide](combat-guide.md) for how the Tome of Ice can bridge gaps.
 
 ## Co-op Note: Whose World Is It?
 
-In co-op, the host's world is the group's world (confirmed pattern; exact joining rules 待验证). Before your group invests hours in a world, agree on the seed/world choice together — re-rolling a world your squad has built a base in is a group decision, not a solo one.
+In co-op, the host's world is the group's world (confirmed pattern; exact joining rules unverified). Before your group invests hours in a world, agree on the seed/world choice together — re-rolling a world your squad has built a base in is a group decision, not a solo one.
 
-## What Is Still Unknown (待验证)
+## What Is Still Unknown (Unverified)
 
 - Seed format, entry UI, and whether seeds are deterministic
 - Whether the v0.5.9 pre-generated world selection supports custom seeds

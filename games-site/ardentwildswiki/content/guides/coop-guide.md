@@ -148,7 +148,7 @@ A realistic team plan (adjust to your world and pace):
 | **Week 2** | Push into caves and mines for rare materials; gear the whole team; take on the first major fights |
 | **Week 3+** | Restore the remaining facilities, attempt boss content, and prepare for whatever the full game adds |
 
-## What Is Still Unknown (TBD)
+## What Is Still Unknown (Unverified)
 
 - Exact join/invite menu labels and server settings
 - Whether the demo allows co-op (the demo's feature set is not fully documented — check the demo page)

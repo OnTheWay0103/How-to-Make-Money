@@ -140,7 +140,7 @@ Exact rarity tiers are unconfirmed, but the official language implies at least f
 
 Anything you find above your current tier is worth adjusting your plan around — the game is telling you which direction to invest in.
 
-## What Is Still Unknown (TBD)
+## What Is Still Unknown (Unverified)
 
 - The full artifact catalog and all unique abilities
 - Exact rarity tiers, drop rates, and boss drop tables

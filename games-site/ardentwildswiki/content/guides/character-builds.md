@@ -75,7 +75,7 @@ The classless system shines when you combine: melee + frost utility, fire + rang
 
 ## Gear Progression Path
 
-Confirmed shape, unconfirmed numbers: you progress through **material tiers** — gathering better ores and materials lets you craft better tools, weapons, and armor at specialized crafting stations. Expect early tiers (basic wood/stone gear) to give way to metal tiers as you explore deeper. The exact tier list and stats are **TBD** — the game is pre-release and the material list has not been officially published.
+Confirmed shape, unconfirmed numbers: you progress through **material tiers** — gathering better ores and materials lets you craft better tools, weapons, and armor at specialized crafting stations. Expect early tiers (basic wood/stone gear) to give way to metal tiers as you explore deeper. The exact tier list and stats are **unverified** — the game is pre-release and the material list has not been officially published.
 
 Also confirmed: **some of the best gear comes from loot, not the crafting bench** — defeated enemies are a gear source you should not ignore.
 
@@ -104,7 +104,7 @@ Keep multiple gear sets in labeled chests at your base and swap freely. This is 
 4. **Veterans of action games:** melee rewards the aggressive, dodge-heavy playstyle you already know
 5. **Experiment:** the arcade design, swappable gear, and free respec make Ardent Wilds the wrong game to commit to one build on day one
 
-## What Is Still Unknown (TBD)
+## What Is Still Unknown (Unverified)
 
 - Exact customization option lists and counts
 - The full artifact catalog and their effects (the Tome of Ice is confirmed by name)

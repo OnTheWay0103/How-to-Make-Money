@@ -92,7 +92,7 @@ Treat facilities as mid-tier goals between major Spire projects.
 5. **Do not skip nodes** — each one gives a permanent passive that makes the next one easier
 6. **Do not trust location guides** — worlds are procedurally generated (confirmed in the April 2026 playtest notes); nobody else's map is your map
 
-## What Is Still Unknown (TBD)
+## What Is Still Unknown (Unverified)
 
 - The full node catalog: how many Spires and facilities exist in the full game
 - Official node names and exact bonuses

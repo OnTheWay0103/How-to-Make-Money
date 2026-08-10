@@ -1,6 +1,6 @@
 ---
 title: 'Weapons Guide — Every Weapon Type in Ardent Wilds and How to Get Them'
-description: 'Ardent Wilds weapons guide — the three confirmed weapon families (melee, ranged, magic), how to get weapons through crafting, looting and legendary boss drops, and how weapon progression works in Early Access.'
+description: 'Ardent Wilds weapons guide — the three confirmed weapon families (melee, ranged, magic), how to get weapons through crafting, looting and legendary boss drops, and how weapon progression works in pre-release.'
 category: 'Guides'
 version: '1.0'
 updated: '2026-08-05'
@@ -17,7 +17,7 @@ related:
 
 Weapons in Ardent Wilds are your primary tool for everything dangerous: clearing Eldran corruption, holding your base against raids, and eventually challenging Yorgoroth, the Devourer of Worlds. The game is **classless** — you are not locked into a weapon type at character creation, and the design actively rewards carrying several weapons and swapping them based on the situation.
 
-**Honesty first:** Ardent Wilds is in Early Access development, and Spellware Studios has not published a weapon catalog. No official weapon list, stat tables, or damage numbers exist yet — and any "full weapon list" you find online is invented or from an unconfirmed playtest build. This guide covers what is confirmed (the weapon families, how weapons are obtained, how progression works) and gives you strategy that survives balance patches.
+**Honesty first:** Ardent Wilds is in pre-release development, and Spellware Studios has not published a weapon catalog. No official weapon list, stat tables, or damage numbers exist yet — and any "full weapon list" you find online is invented or from an unconfirmed playtest build. This guide covers what is confirmed (the weapon families, how weapons are obtained, how progression works) and gives you strategy that survives balance patches.
 
 ## The Three Confirmed Weapon Families
 
@@ -111,7 +111,7 @@ With up to 6 players (confirmed), weapon families map naturally to team roles:
 
 Coordination beats raw gear — see the [Co-op Guide](coop-guide.md) for role strategy.
 
-## What Is Still Unknown (TBD)
+## What Is Still Unknown (Unverified)
 
 - The full weapon catalog, names, and tiers
 - Specific stats, damage numbers, and attack speeds
@@ -120,4 +120,4 @@ Coordination beats raw gear — see the [Co-op Guide](coop-guide.md) for role st
 - Weapon-modding specifics (the Lua API can program weapons, but how much will be exposed to players is unconfirmed)
 - Whether weapon cosmetics/skins will exist
 
-This guide will be updated as the Early Access builds and full release confirm more. For now: pick a family, craft your tier, and keep a backup weapon on you.
+This guide will be updated as the pre-release builds and full release confirm more. For now: pick a family, craft your tier, and keep a backup weapon on you.

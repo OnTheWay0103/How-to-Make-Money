@@ -17,7 +17,7 @@ related:
 
 Dungeons are the heart of Delverium's danger and mystery. The confirmed loop ends with "**descend into dangerous dungeons**," the world hides "**secrets in the dungeons**," and a **world boss** was added to the demo in the February 2026 update. This guide is the strategy companion to the [Dungeons & Bosses Chart](dungeons-bosses-chart) — it covers how to *approach* dungeon content: preparation, exploration, loot priorities, boss-fight principles, and solo vs co-op dives.
 
-> **Pre-release guide — will be updated for EA launch (Sept 22, 2026).** No boss names or mechanics have been announced as of August 2026; boss-fight advice below is a framework built on the confirmed loop, marked honestly where it's TBD / 待验证.
+> **Pre-release guide — will be updated for EA launch (Sept 22, 2026).** No boss names or mechanics have been announced as of August 2026; boss-fight advice below is a framework built on the confirmed loop, marked honestly where it's unverified.
 
 ## What's Confirmed About Dungeons
 
@@ -26,9 +26,9 @@ Dungeons are the heart of Delverium's danger and mystery. The confirmed loop end
 | Dungeons are **dangerous** | ✅ Confirmed (world description) |
 | Dungeons drop **unique items** ("loot unique items") | ✅ Confirmed (world description) |
 | Dungeons hide story secrets — **"the Faults"** | ✅ Confirmed (story description) |
-| The demo has **one dungeon** + a **world boss** | ✅ Confirmed (demo; names TBD) |
+| The demo has **one dungeon** + a **world boss** | ✅ Confirmed (demo; names unverified) |
 | EA adds more dungeons and bosses over ~2 years | ✅ Confirmed (roadmap) |
-| Boss names, mechanics, loot tables, difficulty scaling | ⏳ TBD / 待验证 |
+| Boss names, mechanics, loot tables, difficulty scaling | ⏳ unverified |
 
 ## The Pre-Dive Checklist
 
@@ -39,7 +39,7 @@ The confirmed loop makes the prep obvious: **you craft weapons and armor *before
 | **Weapons crafted** | The loop places weapon crafting before dungeon descent |
 | **Armor equipped** | Armor is a confirmed category — protection is part of the design |
 | **Food packed** | Cooking is confirmed; farming was expanded specifically to sustain runs |
-| **Tools and supplies** | Gathering and building materials for on-site repair (expected, TBD) |
+| **Tools and supplies** | Gathering and building materials for on-site repair (expected, unverified) |
 | **Party ready** | 1–8 player co-op confirmed — groups reduce the risk of dangerous dungeons |
 | **Journey Shrine known** | Fast travel (confirmed) makes resupply cheap — find a shrine before diving deep |
 
@@ -56,7 +56,7 @@ The confirmed loop makes the prep obvious: **you craft weapons and armor *before
 
 ## World Boss Strategy Framework
 
-The demo's new world boss (name TBD) is a **party boss** — 8-player co-op was added in the same update for a reason. Until mechanics are documented, use this framework:
+The demo's new world boss (name unverified) is a **party boss** — 8-player co-op was added in the same update for a reason. Until mechanics are documented, use this framework:
 
 ### 1. Roles before the fight
 
@@ -77,7 +77,7 @@ The loop applies here too: farm and craft *between* attempts. Failed runs still 
 
 ### 4. Document what you learn
 
-Boss mechanics are TBD — the community that documents them first sets the meta. Take notes, share them, and this guide will be updated to match.
+Boss mechanics are unverified — the community that documents them first sets the meta. Take notes, share them, and this guide will be updated to match.
 
 ## Solo vs Co-op Dives
 
@@ -88,7 +88,7 @@ Boss mechanics are TBD — the community that documents them first sets the meta
 | **Loot pressure** | All yours | Split by design | Competition for unique items possible |
 | **World boss** | Unconfirmed viability | Challenging | The intended scale |
 
-Difficulty scaling for solo vs co-op is **TBD / 待验证** — but the game is confirmed as 1–8 players, so solo dives are a designed option, just a slower one.
+Difficulty scaling for solo vs co-op is **unverified** — but the game is confirmed as 1–8 players, so solo dives are a designed option, just a slower one.
 
 ## Frequently Asked Questions
 
@@ -96,13 +96,13 @@ Difficulty scaling for solo vs co-op is **TBD / 待验证** — but the game is 
 A: The demo has one dungeon; EA will add more dungeon content over its ~2-year run. No dungeon names are announced.
 
 **Q: Is there a boss in Delverium?**
-A: Yes — a world boss was added to the demo in the February 20, 2026 update (name TBD). More bosses are planned during EA.
+A: Yes — a world boss was added to the demo in the February 20, 2026 update (name unverified). More bosses are planned during EA.
 
 **Q: What do you get from dungeons?**
-A: "Unique items" — confirmed as a dungeon reward. Exact loot tables are TBD / 待验证.
+A: "Unique items" — confirmed as a dungeon reward. Exact loot tables are unverified.
 
 **Q: Can I fight the world boss solo?**
-A: Unconfirmed — difficulty scaling details are TBD / 待验证.
+A: Unconfirmed — difficulty scaling details are unverified.
 
 **Q: What should I bring to a dungeon?**
 A: Weapons, armor, food, and friends — in that order, per the confirmed loop.
@@ -118,4 +118,4 @@ A: Weapons, armor, food, and friends — in that order, per the confirmed loop.
 
 ## Changelog
 
-- **2026-08-07**: Initial guide published (pre-release). Boss names, mechanics, and difficulty scaling remain TBD / 待验证.
+- **2026-08-07**: Initial guide published (pre-release). Boss names, mechanics, and difficulty scaling remain unverified.

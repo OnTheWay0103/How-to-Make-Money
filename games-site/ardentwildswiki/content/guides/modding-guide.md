@@ -171,7 +171,7 @@ When official distribution (Workshop or otherwise) launches, it will presumably 
 6. **Keep it balanced** — overpowered mods are fun for five minutes; balanced mods are fun for fifty hours
 7. **Report upstream** — if a bug is actually a game bug, report it through official channels; the game is pre-release and the developers are actively fixing builds
 
-## What Is Still Unknown (TBD)
+## What Is Still Unknown (Unverified)
 
 - Official Lua API documentation (not yet published)
 - Steam Workshop support and timing
