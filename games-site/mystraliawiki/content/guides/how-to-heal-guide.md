@@ -2,17 +2,17 @@
 title: 'How to Heal & Survive — HP Recovery in Echoes of Mystralia'
 description: 'How to heal and survive in Echoes of Mystralia — what\'s confirmed about HP recovery, demo-verified survival techniques, and what stays TBD until Early Access launches.'
 category: 'Combat'
-version: 'Pre-release'
-updated: '2026-08-01'
+version: 'Early Access'
+updated: '2026-08-11'
 keywords: ['echoes of mystralia how to heal', 'echoes of mystralia healing', 'echoes of mystralia survive', 'echoes of mystralia restore hp', 'echoes of mystralia tips', 'mystralia how to stay alive']
 related: ['beginner-guide', 'boss-guide', 'ash-forest-guide', 'spell-crafting-guide']
 ---
 
 # How to Heal & Survive — HP Recovery in Echoes of Mystralia
 
-"How do I heal in Echoes of Mystralia?" is one of the most-asked questions about the game — and the honest answer right now is that **Borealys Games has not published the game's healing mechanics.** Echoes of Mystralia enters Steam Early Access on **August 11, 2026**, and specific healing items, spells, or regeneration systems are **TBD**. What we can give you is: what's confirmed, demo-verified survival techniques that work today, and exactly what to test on day one.
+"How do I heal in Echoes of Mystralia?" is one of the most-asked questions about the game — and the honest answer right now is that **Borealys Games has not published the game's healing mechanics.** Echoes of Mystralia is in Steam Early Access (launched **August 11, 2026**), and specific healing items, spells, or regeneration systems are **TBD**. What we can give you is: what's confirmed, demo-verified survival techniques that work today, and exactly what to test in the launch build.
 
-> **Pre-release note:** Earlier versions of this guide listed healing "Relics," "Leech Memories," and potion systems with specific percentages. **None of that was confirmed by Borealys and it has been removed.**
+> **Fact-check note:** Earlier versions of this guide listed healing "Relics," "Leech Memories," and potion systems with specific percentages. **None of that was confirmed by Borealys and it has been removed.**
 
 ## What's Confirmed About HP
 
@@ -47,9 +47,9 @@ The demo's repeatable challenges are the perfect place to test "how much can I s
 
 Therakan is the demo's health check. Players who reach him with full HP after a clean run do dramatically better than those who arrive damaged — treat the region's earlier fights as an HP economy.
 
-## What to Test at Launch (Healing Systems TBD)
+## What to Test in Early Access (Healing Systems TBD)
 
-When Early Access goes live, verify these in order:
+In the Early Access build, verify these in order:
 
 1. **Pickups and potions** — do enemies or the environment drop healing items? (TBD)
 2. **Craftable healing** — can Memories produce healing or defensive spells? (TBD)
@@ -57,7 +57,7 @@ When Early Access goes live, verify these in order:
 4. **Passive regeneration** — does out-of-combat recovery exist? (TBD)
 5. **Survival upgrades** — what permanent defensive skills does the hub offer? (TBD)
 
-This guide will be updated with verified answers the moment the launch build is playable.
+This guide is being updated with verified answers from the Early Access build.
 
 ## Surviving the First Week of Early Access
 
@@ -66,7 +66,7 @@ Until healing specifics are mapped, follow the survival framework that works in 
 1. **Prioritize not getting hit** over dealing damage — damage output means nothing when you're dead
 2. **Learn each region's enemy roster** before optimizing routes
 3. **Spend hub upgrades on survival first** if you're struggling — permanent defense beats temporary damage
-4. **Take breaks between attempts** — tilt is the real boss of pre-launch learning
+4. **Take breaks between attempts** — tilt is the real boss of learning a new game
 
 ## Related Guides
 

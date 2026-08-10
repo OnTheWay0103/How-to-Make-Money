@@ -1,161 +1,98 @@
 ---
-title: "Dinoblade Soul Arts Guide — How to Unlock Every Soul Art & Best Choices"
-description: "How to unlock Soul Arts in Dinoblade — defeat Kira the Exile, spend Boss SP, and pick the best arts for your playstyle. All five confirmed arts covered."
-category: "Builds"
+title: "Dinoblade Soul Arts & Leveling Guide — Special Attacks, Skills & Progression"
+description: "Soul Arts and progression in Dinoblade — the confirmed skill system, attribute and skill upgrades, leveling honesty, and how to build your combat style."
+category: "Mechanics"
 version: "1.0"
-updated: "2026-08-01"
+updated: "2026-08-11"
 keywords:
   - Dinoblade soul arts
-  - Dinoblade how to unlock soul arts
-  - Dinoblade best soul arts
-  - Dinoblade boss SP
+  - Dinoblade skills
+  - Dinoblade leveling guide
+  - Dinoblade how to level up
+  - Dinoblade progression
   - Dinoblade best skills
-  - Dinoblade soul arts guide
 related:
-  - boss-guide
-  - parry-guide
-  - builds-guide
-  - beginner-guide
   - weapons-guide
+  - beginner-guide
+  - boss-guide
+  - faq-content
 ---
 
-# Dinoblade Soul Arts Guide — How to Unlock Every Soul Art & Best Choices
+# Dinoblade Soul Arts & Leveling Guide — Special Attacks, Skills & Progression
 
-Soul Arts are Dinoblade's ability system: special moves you unlock with **Boss SP** — a currency earned from boss victories. They're one of the game's main progression layers, sitting alongside attribute leveling, boss summons, and legendary weapons.
+Soul Arts are Dinoblade's ability system: **special attacks** that extend the core parry-and-posture combat. They are one of the game's confirmed progression layers, sitting alongside attribute and skill upgrades, boss summons, and legendary weapons.
 
-**Honesty note:** all five Soul Art *names* below are confirmed from verified coverage, but the exact effects, Resonance costs, and damage values have not been officially documented. Where an effect is described, treat the description as directional until it's verified in-game — the buying strategy in this guide works regardless.
+**Honesty note:** Soul Arts are confirmed to exist (official material describes "powerful weapon skills" and "learn new skills, build your own combat style"), but **no official list of Soul Art names, effects, costs, or unlock requirements has been published** as of August 2026. Any guide that names specific Soul Arts or prints "how to unlock Art X" tables is working from an unverified source — including guides on this site that predate verification.
 
----
+## What Soul Arts Are (Confirmed)
 
-## What Soul Arts Are
+- **Special attacks** that add to your combat toolkit — the game's "powerful weapon skills."
+- They are part of the confirmed progression loop: **every victory unlocks strength** — you learn new skills and build your own combat style.
+- They run on the same fight rhythm as everything else: parry to build posture, break guards, and create the openings where special attacks land.
 
-Soul Arts are special abilities that run on **Resonance** — the blue bar under your health. Resonance powers both Soul Arts and the charged heavy attack's ranged fire projectile, and the game's core loop restores it: **perfect parries restore stamina and Resonance**. In practice, that means:
+## Progression: What's Confirmed
 
-- The better your parry timing, the more Soul Arts you can afford to cast.
-- Soul Arts are a *spender* system layered on the parry economy, not a separate resource game.
-- The game is designed so defense feeds offense — Soul Arts convert that loop into big moments.
+- **Attribute and skill upgrades** — the game's confirmed progression layer. Exact stat names, caps, and formulas are **not officially documented**; any guide printing stat tables with specific numbers is unverified.
+- **Soul Arts** — special attacks learned through progression.
+- **Boss summons** — defeated bosses fight alongside you as AI allies.
+- **Legendary weapons** — hidden in the world; they change how your Spinosaurus plays.
 
-Soul Arts are also your main **build direction** system. Since the confirmed weapon set is a single greatsword kit, Soul Arts are where playstyle differences come from (see the [Builds Guide](/guides/builds-guide)).
+### Leveling: The Honest Version
 
-## How to Unlock Soul Arts
+"dinoblade how to level up fast" is a popular search — and the honest answer is that Dinoblade's progression is **combat-driven, not number-driven**:
 
-The unlock path is confirmed and simple:
+- Experience and upgrades come from **fighting** — every victory unlocks strength.
+- There are **no official XP tables, per-enemy values, or named farm routes** in any verified source. Guides that print "400 XP raptors" or "best XP farm route" figures are fabricated.
+- Leveling advice that works regardless: fight steadily, explore thoroughly (legendary weapons are hidden in the world), and upgrade toward the fight ahead.
 
-1. **Defeat Kira the Exile** — the first main boss at the end of the opening cavern. Defeating him unlocks the **Summoning system** and **access to Soul Arts upgrades**.
-2. **Earn Boss SP** — Boss SP is earned from **boss victories**. Every main boss kill (Kira, Axe, Kasei the Tyrant) grants it.
-3. **Spend Boss SP on Soul Arts** — use the currency to purchase the arts you want.
+## How to Build Your Combat Style (Advice, Not Facts)
 
-**Practical implications:**
-
-- You can't buy Soul Arts before the first boss — Kira is the gate.
-- Boss SP is finite per run: you get it from the three main bosses, so **choose your arts deliberately**. There's no confirmed repeatable Boss SP farm.
-- Since you can adjust your character's attributes before boss fights, you can build toward an art before you can afford it.
-
-## All Five Confirmed Soul Arts
-
-| Soul Art | Confirmed Role | Notes |
-|----------|---------------|-------|
-| **Meteor Slice** | Melee attack art | A striking art — named in verified coverage among the core Soul Arts. Exact damage and cost TBD. |
-| **Meteor Dash** | Mobility art | A dash/gap-closer. The safest "problem solver" — mobility helps every fight. |
-| **Alpha Roar** | Buff art | A roar-type buff. Exact values TBD — typically rewards confident, committed play. |
-| **Meteor Zone** | Area/zone art | An area-control tool. Matchup-specific value; exact effect TBD. |
-| **Survival Instinct** | Sustain art | A survival/sustain tool — reduces pressure on healing charges. |
-
-**What's confirmed about them as a set:** they "create different build directions," per official coverage. The names Meteor Slice, Meteor Dash, Alpha Roar, Meteor Zone, and Survival Instinct are the ones documented in launch coverage of the game's abilities.
-
-## How to Choose Your Soul Arts
+Since exact skill effects are undocumented, build direction follows the confirmed loop:
 
 ### Step 1: Find the problem in your playstyle
 
-The community-verified spending advice is: **don't unlock everything immediately — pick an Art that solves a problem you actually have.**
-
-| Your Problem | Art to Consider |
-|--------------|-----------------|
-| Getting cornered by packs and reach weapons | **Meteor Dash** — escape and reposition |
-| Bleeding healing charges dry in boss fights | **Survival Instinct** — sustain |
-| Wanting bigger damage windows | **Meteor Slice** or **Alpha Roar** |
-| Crowded fights (hammer-dino waves in Part 3) | **Meteor Zone** — area pressure |
+- Getting cornered by groups and reach weapons? Focus on dodging and spacing practice.
+- Bleeding healing dry in long fights? Prioritize parry timing — parries build posture, posture breaks end fights faster.
+- Wanting bigger damage windows? Practice guard-break routing: parry the attacks that fill the most posture, then land the counterattack.
 
 ### Step 2: Test before you commit
 
-Spend your first Boss SP after Kira, then **test each Art on regular enemies first**:
-
-- Learn its **Resonance cost** — a flashy art you can't afford to cast is worse than a modest one you can.
-- Learn its **range** — dash arts need different spacing than zone arts.
-- Learn its **animation length** — arts that leave you vulnerable are traps against fast enemies.
+Spend time with each Soul Art you unlock on regular enemies before relying on it in boss fights: learn its **range**, its **animation length**, and its **cost**. A reliable, slightly weaker ability beats a flashy one that leaves you vulnerable.
 
 ### Step 3: Favor reliability
 
-A reliable, slightly weaker ability beats a flashy move that leaves you vulnerable — the game's parry loop punishes overcommitment, and so do its arts. When in doubt, buy mobility.
+The game's parry loop punishes overcommitment — and so do its skills. When in doubt, pick tools that keep you safe.
 
-## Recommended Buying Order
+## Soul Arts in Practice
 
-- **First purchase: Meteor Dash.** Mobility is the most consistent problem-solver across all three confirmed boss fights — escaping Kira's charge explosion, repositioning around Axe's spinning combos, and dodging out of Kasei's phase 2 pressure.
-- **Second: Survival Instinct** (if you die from attrition) **or Alpha Roar** (if you die from not killing fast enough).
-- **Third+: Meteor Slice / Meteor Zone** — damage and area tools that round out a kit once your core loop is solid.
+- **Against bosses:** Soul Arts are support for the posture loop, not a replacement for it — parries open the windows, arts fill them.
+- **In Boss Rush:** the confirmed post-game gauntlet (unlock: beat the final boss) rewards tools that sustain you across consecutive fights. See the [Boss Guide](/guides/boss-guide).
+- **Across replays:** with skills and upgrades spanning multiple runs, different Soul Arts give each playthrough a distinct style — see the [New Game Plus Guide](/guides/new-game-plus-guide).
 
-This order is strategy, not gospel — the exact effects may shift the rankings once the community documents them. Check the [Tier List](/guides/tier-list) for the living version of this ranking.
+## Common Progression Mistakes
 
-## Soul Arts in the Boss Fights
-
-### Kira the Exile (the boss that unlocks arts)
-
-You fight Kira *before* you can buy arts — the fight is the game's parry-and-Instinct-Counter teaching moment, not an art showcase. Beat him, then spend your first Boss SP.
-
-### Axe (Part 2)
-
-Axe's spinning combos and jumping attacks punish stationary play. **Meteor Dash** shines here: dash out of his landing AoE, dash back in for the parry on his spin's final swing.
-
-### Kasei the Tyrant (Part 3)
-
-Two phases; phase 2 (below one-third health) is a greatsword rush. **Survival Instinct** extends your phase 2 life, and **Meteor Dash** answers his gap-closers. Parrying his jump slashes is still the real damage — arts are the support.
-
-### Boss Rush (post-game)
-
-Boss Rush is a gauntlet with no travel time — arts are your between-fights advantage. Sustain and mobility arts carry gauntlets better than raw damage. See the [Boss Rush Guide](/guides/boss-rush-guide).
-
-## Soul Arts vs. Other Progression
-
-Soul Arts are one of four confirmed progression layers — don't neglect the others:
-
-| Layer | Confirmed Detail |
-|-------|------------------|
-| **Attribute leveling** | Souls/SP from enemies, hidden SP pickups; leveling is partly automatic; attributes adjustable before bosses |
-| **Soul Arts** | Boss SP, five confirmed arts — this guide |
-| **Boss summons** | Defeated bosses fight alongside you; the Axe summon boosts stamina recovery |
-| **Legendary weapons** | Confirmed to change how your Spinosaurus plays; details undocumented |
-
-A complete build spends Boss SP on arts, uses the Axe summon, and hunts legendary weapons — see the [Builds Guide](/guides/builds-guide) for the full framework.
-
-## Common Soul Art Mistakes
-
-1. **Buying everything.** Boss SP is finite per run — spreading it thin means no art solves your problem.
-2. **Buying before testing.** The art you want on paper may not fit your rhythm; test on regular enemies first.
-3. **Ignoring Resonance costs.** Arts run on Resonance, and parries restore it — if your parry game is weak, your arts are expensive. Fix the parry, then buy the art.
-4. **Chasing damage in Boss Rush.** Sustain and mobility arts out-value damage in a gauntlet.
-5. **Trusting exact numbers online.** Damage values, cooldowns, and buff percentages are undocumented — any site printing them is speculating.
+1. **Trusting exact numbers online.** Skill damage, costs, and upgrade effects are undocumented — any site printing them is speculating.
+2. **Ignoring the posture loop.** No upgrade replaces the parry → guard break → counterattack rhythm. Builds optimize the loop; they don't replace it.
+3. **Skipping exploration.** Legendary weapons are confirmed to be hidden in the world — thorough exploration is a real progression path.
+4. **Neglecting summons.** Defeated bosses fight alongside you as AI allies — a confirmed tool that makes long fights shorter.
 
 ## FAQ
 
 **When can I unlock Soul Arts?**
-After defeating Kira the Exile, the first main boss. He unlocks both the Summoning system and Soul Arts upgrades.
-
-**What currency unlocks Soul Arts?**
-Boss SP, earned from boss victories.
+Unlock conditions are not officially documented. Progression unlocks skills as you play — the in-game progression menu shows what's available to you.
 
 **How many Soul Arts are there?**
-Five are confirmed: Meteor Slice, Meteor Dash, Alpha Roar, Meteor Zone, and Survival Instinct. Whether more exist is TBD.
+Not officially documented. Treat any "confirmed count" as unverified.
 
-**Can I respec or refund Soul Arts?**
-No confirmed refund/respec system exists as of August 2026 — choose carefully.
+**Can I respec?**
+No confirmed respec or refund system exists as of August 2026.
 
 **What is the best Soul Art?**
-Meteor Dash is the community's safest first pick (mobility solves the most problems), but the exact effects are still being documented. See the [Tier List](/guides/tier-list) for the living ranking.
+Unknowable until effects are documented. Choose tools that solve the problem in *your* playstyle.
 
 ## Related Guides
 
-- [Boss Guide](/guides/boss-guide) — The bosses that grant Boss SP
-- [Parry Guide](/guides/parry-guide) — The parry loop that fuels Resonance
-- [Builds Guide](/guides/builds-guide) — Playstyle frameworks around arts
+- [Weapons Guide](/guides/weapons-guide) — The Great Sword and build direction
 - [Beginner Guide](/guides/beginner-guide) — The core combat loop
-- [Weapons Guide](/guides/weapons-guide) — The confirmed arsenal arts support
+- [Boss Guide](/guides/boss-guide) — The bosses that test your build
+- [FAQ](/guides/faq-content) — Verified answers to common questions

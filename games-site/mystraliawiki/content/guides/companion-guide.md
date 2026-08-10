@@ -1,26 +1,25 @@
 ---
-title: 'Hub & Characters Guide — The Azimuth Temple, Watchers & Allies'
-description: 'The Azimuth Temple hub in Echoes of Mystralia — what\'s confirmed about fellow Watchers, the ancient goddess guide, and the hub\'s role in permanent progression between runs.'
+title: 'Hub & Characters Guide — The Azimuth Temple & Fellow Watchers'
+description: 'The Azimuth Temple hub in Echoes of Mystralia — what\'s confirmed about fellow Watchers and the hub\'s role in permanent progression (the Lotus) between runs.'
 category: 'Exploration'
-version: 'Pre-release'
-updated: '2026-08-01'
-keywords: ['echoes of mystralia npcs', 'echoes of mystralia characters', 'azimuth temple', 'echoes of mystralia hub', 'mystralia watchers', 'echoes of mystralia goddess']
+version: 'Early Access'
+updated: '2026-08-11'
+keywords: ['echoes of mystralia npcs', 'echoes of mystralia characters', 'azimuth temple', 'echoes of mystralia hub', 'mystralia watchers']
 related: ['beginner-guide', 'ea-roadmap-guide', 'memories-guide', 'faq']
 ---
 
-# Hub & Characters Guide — The Azimuth Temple, Watchers & Allies
+# Hub & Characters Guide — The Azimuth Temple & Fellow Watchers
 
 Between runs in Echoes of Mystralia, Mazarim returns to the **Azimuth Temple** — the hub where permanent progression, loadout building, and the game's characters live. This guide covers everything confirmed about the hub and its inhabitants, and honestly marks what hasn't been revealed.
 
-> **Pre-release note:** Individual NPC names, service lists, and unlock conditions are **TBD** — Borealys has confirmed the hub's role and its key figures, but not a cast list. Specifics below marked TBD will be added after Early Access.
+Echoes of Mystralia entered **Steam Early Access on August 11, 2026**.
 
 ## The Azimuth Temple — What's Confirmed
 
 The Azimuth Temple is the game's central hub, and Borealys has confirmed its functions:
 
-- **Upgrade permanent skills** — long-term progression between runs lives here
-- **Unlock new combat options** — new ways to fight become available as you progress
-- **Build relationships with fellow Watchers** — the hub has a character network around Mazarim
+- **Level up** — permanent progression happens here, through the **Lotus** system (50+ Altar upgrades at launch, per the official Steam page)
+- **Bond with fellow Watchers** — the hub has a confirmed character network around Mazarim
 - **Prepare for the next run** — loadout crafting and preparation happen here
 - It is the safe space between runs — the roguelite counterweight to the regions' danger
 
@@ -30,35 +29,25 @@ The Temple is where the "meta" of the game happens: even a failed run earns you 
 
 ### Fellow Watchers
 
-Mazarim is part of a broader order. Borealys describes the hub as a place where you **build relationships with fellow Watchers** — companions of a sort who share your duty to the Cycle of Memories. What these relationships do mechanically is **TBD** (unlock options, services, story beats — none officially specified).
+Mazarim is part of a broader order. Borealys describes the hub as a place where you **bond with fellow Watchers** — companions of a sort who share your duty to the Cycle of Memories. What these relationships do mechanically is being documented from the Early Access build (unlock options, services, story beats — none officially specified beyond the bond itself).
 
-### The Ancient Goddess
+### Other Hub Figures
 
-An **ancient goddess figure acts as a guide** to Mazarim — the hub's most prominent character. Her name, history, and role in the story of the Cycle of Memories and the Rift are **TBD**.
-
-### A Millennia-Old Dragon
-
-Borealys has also teased a **millennia-old dragon offering wisdom** at the hub. Details — name, service, story function — are **TBD**.
-
-### Other Hub Figures (TBD)
-
-Beyond these, nothing is officially documented. Expect merchants, upgrade stations, and lore characters, but don't trust pre-launch lists of named NPCs (previous versions of this guide included invented characters — that content was removed).
+Beyond the fellow Watchers, no named cast has been officially published. Expect the hub's character layer to be documented as players meet its figures in the launch build — but don't trust lists of named NPCs that can't point to the game itself or an official announcement.
 
 ## What the Hub Teaches About the Game
 
-1. **Permanent progression is the hub's job** — region runs feed it; it feeds back into harder regions
-2. **Relationships matter** — "building relationships with fellow Watchers" is an official feature, unusual for a roguelite and worth paying attention to at launch
-3. **The story is central** — a goddess, a dragon, and a doomed cycle suggest the hub also carries the narrative weight of the game
+1. **Permanent progression is the hub's job** — region runs feed the Lotus; it feeds back into harder regions
+2. **Relationships matter** — "bonding with fellow Watchers" is an official feature, unusual for a roguelite and worth paying attention to
+3. **The story is central** — the hub carries the narrative weight of the game, and the final narrative act is planned for the 1.0 release
 
-## Honest Expectations for Launch (TBD)
+## Honest Expectations for Early Access
 
 | Question | Status |
 |----------|--------|
-| How many named hub characters? | **TBD** |
-| Do Watcher relationships affect gameplay? | **TBD** |
-| What does the goddess do mechanically? | **TBD** |
-| Are there merchants / vendors? | **TBD** (likely, unconfirmed) |
-| Can you talk to everyone between every run? | **TBD** |
+| How many named hub characters? | Being documented from the EA build |
+| Do Watcher bonds affect gameplay? | Being documented from the EA build |
+| What services does the hub offer? | Being documented from the EA build |
 
 ## Related Guides
 

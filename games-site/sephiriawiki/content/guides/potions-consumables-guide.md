@@ -1,102 +1,97 @@
 ---
-title: "Potions & Consumables Guide — All Types, Best Uses & Where to Find Them (1.0)"
-description: "Complete Sephiria consumables guide: healing potions, buff potions, offensive consumables, how the Mystic Pot rework affects potion strategy, where to buy and farm consumables, and what to save for boss floors."
+title: "Potions & Consumables Guide — All Types, Best Uses & Where to Find Them"
+description: "Complete Sephiria consumables guide: healing potions, buff potions, offensive consumables, potion strategy by chapter, and what to save for boss floors."
 category: "Mechanics"
 version: "1.0"
-updated: "2026-08-09"
-keywords: ["sephiria potions", "sephiria consumables", "sephiria healing", "sephiria buff potions", "sephiria 1.0 potions", "sephiria mystery pot", "sephiria best potions", "sephiria health"]
-related: ["mystic-pot-guide", "beginner-guide", "boss-guide", "hard-mode-guide", "chapter-guide"]
+updated: "2026-08-11"
+keywords: ["sephiria potions", "sephiria consumables", "sephiria healing", "sephiria buff potions", "sephiria best potions", "sephiria health"]
+related: ["mystic-pot-guide", "beginner-guide", "boss-guide", "hard-mode-guide", "chapter-guide", "farming-guide"]
 ---
 
-# Potions & Consumables Guide — All Types, Best Uses & Where to Find Them (1.0)
+# Potions & Consumables Guide — All Types, Best Uses & Where to Find Them
 
 Health regeneration is scarce in Sephiria — you often finish a floor on whatever HP you started it with. Potions and consumables are your only reliable source of mid-run healing, and knowing what to buy, what to save, and when to use each type is the difference between reaching the boss with full HP or limping in at half.
 
-This guide covers every consumable type in 1.0, where to find them, and the usage strategy that keeps you alive through Chapter 6.
-
-**Last updated: August 9, 2026 (1.0).**
+There are **30+ potions and consumables** in the game, in three broad families. This guide covers how they work, where to find them, and the usage strategy that keeps you alive through Chapter 6.
 
 ---
 
 ## Healing Potions
 
-Your primary survival tool. Healing potions come in three sizes:
+Your primary survival tool. Healing potions come in different sizes and strengths:
 
-| Potion | Heal Amount | Buy Price (Gold) | Best Use |
-|--------|:--:|:--:|------|
-| **Small Healing Potion** | ~20% max HP | ~50g | Use between trash fights to top off |
-| **Healing Potion** | ~40% max HP | ~120g | Save for mid-boss and elite rooms |
-| **Greater Healing Potion** | ~70% max HP | ~250g | **Save for chapter bosses only** |
+| Type | Best Use |
+|--------|------|
+| **Small healing potions** | Use between trash fights to top off |
+| **Standard healing potions** | Save for mid-boss and elite rooms |
+| **Strong healing potions** | **Save for chapter bosses only** |
 
 ### Where to Find Healing Potions
 
 | Source | Reliability |
 |------|:--:|
-| **Shop nodes** (every floor) | Guaranteed — always check the shop before the boss |
-| **Green Heart nodes** on the map | Guaranteed healing — prioritize these if HP is below 50% |
+| **Shop nodes** | Guaranteed — always check the shop before the boss |
+| **Healing pickups on the map** | Guaranteed — prioritize these if your HP is low |
 | **Breakable objects** (barrels, crates) | Random — break everything on every floor |
-| **Elite enemy drops** | Common — elites almost always drop at least one potion |
-| **Trader NPCs** (wandering merchants) | Uncommon — always buy Greater Potions when they appear |
-| **Secret rooms** | Rare but high-value — often contain Greater Potions |
+| **Enemy drops** | Common — elites often drop potions |
+| **Secret rooms** | Rare but high-value — often contain strong potions |
 
 ### Potion Strategy by Chapter
 
-| Chapter | Recommended Potion Stock Before Boss |
+| Chapter | Recommended Stock Before Boss |
 |------|:--:|
-| 1 | 1 Healing Potion (boss is easy) |
-| 2 | 1-2 Healing Potions |
-| 3 | 2 Healing + 1 Greater (first difficulty spike) |
-| 4 | 2 Greater Healing Potions |
-| 5 | 3 Greater Healing Potions |
-| 6 | 3-4 Greater + any buff potions you've saved |
+| 1 | 1 standard potion (the boss is manageable) |
+| 2 | 1-2 standard potions |
+| 3 | 2 standard + 1 strong (first difficulty spike) |
+| 4 | 2 strong potions |
+| 5 | 2-3 strong potions (longest chapter) |
+| 6 | 3+ strong + any buffs you've saved (boss gauntlet, no recovery rooms) |
 
-**Golden rule**: Do not use a Greater Healing Potion on a trash room. The gold cost is too high to replace it, and you will regret not having it when the Chapter 4 boss is at 30% and you're at 15% HP.
+**Golden rule:** don't use a strong healing potion on a trash room. The gold cost is too high to replace it, and you'll regret it when the Chapter 6 boss gauntlet starts with no recovery rooms.
+
+### Potion Capacity
+
+You carry a limited number of potions per run. The **Extra Potion Slot** Destiny Inscription permanently adds a slot — it's one of the best early unlocks (see the [Inscriptions Guide](/guides/inscriptions-guide)).
 
 ---
 
 ## Buff Potions
 
-Buff potions provide temporary stat boosts. They last for the **current room only** — use them right before an elite fight or boss door.
+Buff potions provide temporary boosts. They're best used **right before an elite fight or boss door** — save them for the moments they matter.
 
-| Buff Potion | Effect | Duration | Best Use |
-|------|------|:--:|------|
-| **Potion of Strength** | +25% attack damage | 1 room | Boss fights; pairs well with Greatsword/Dagger |
-| **Potion of Fortitude** | +30% defense, +15% max HP | 1 room | Chapter 3+ bosses; Hard Mode mandatory |
-| **Potion of Swiftness** | +20% move speed, +15% dash distance | 1 room | Bullet-hell boss phases; Chapter 4/5 |
-| **Potion of Focus** | +25% crit chance | 1 room | Any crit build (Sharpened Edge tablet setups) |
-| **Potion of Elements** | +20% elemental damage | 1 room | Fire/Ice/Lightning builds — stack with element tablets |
-
-**Stacking**: You can have one of each buff type active at once. Strength + Fortitude + Swiftness before a Chapter 6 boss is the standard pre-boss routine. Buff potions do NOT stack with themselves (drinking two Strength potions doesn't give +50%).
+| Buff Type | Best Use |
+|------|------|
+| **Damage buffs** | Boss fights; pair with your weapon's strengths |
+| **Defense / HP buffs** | Hard fights — especially Chapter 3+ bosses and Hard Mode |
+| **Speed buffs** | Bullet-hell-style boss phases where dodging matters |
+| **Element buffs** | Element builds — stack with your element tablets |
+| **Crit buffs** | Crit builds — pair with the right tablet setup |
 
 ### Where to Find Buff Potions
 
-- **Alchemy nodes** (rare map icon) — best source, often has 2-3 types
-- **Shop nodes** — 1-2 random buff potions per shop
+- **Shop nodes** — random buff potions available
 - **Secret rooms** — occasionally contain rare buffs
-- **Boss rush rewards** (Gauntlet Mode) — guaranteed drop
+- **Elite and challenge rewards** — guaranteed drops from some encounters
 
 ---
 
 ## Offensive Consumables
 
-These are throwable/placeable items found from breaking objects. They don't cost potion slots and can be used from your consumable hotbar.
+Some consumables deal damage or control enemies rather than heal. They're found from breaking objects and drops:
 
-| Consumable | Effect | Best Use |
-|------|------|------|
-| **TNT Barrel** | Large AoE explosion after short fuse | Clear dense trash rooms; damage elites without engaging |
-| **Throwing Knives** | Fast ranged damage (3 uses) | Finish off low-HP enemies; trigger traps from range |
-| **Caltrops** | Slows enemies in area for 10s | Create safe zones during multi-wave fights |
-| **Healing Ward** | Small AoE heal over time (15s) | Drop before boss fights for passive healing |
-| **Decoy Totem** | Draws enemy aggro for 8s | Escape bad positions; revive windows in co-op |
-| **Fire Bomb** | AoE fire damage + burn (6s) | Pairs with Undead Inferno tablet build |
+| Consumable | Best Use |
+|------|------|
+| **Explosives** | Clear dense trash rooms; damage elites without engaging |
+| **Throwing items** | Finish off low-HP enemies; trigger hazards from range |
+| **Area control items** | Create safe zones during multi-wave fights |
 
-**Important**: Use these — don't hoard them. TNT and throwing knives are common drops. A TNT barrel that clears a dangerous elite pack is worth more than one sitting in your inventory when you die.
+**Important:** use them — don't hoard them. Explosives and throwing items are common drops. One that clears a dangerous elite pack is worth more than one sitting in your inventory when you die.
 
 ---
 
 ## Mystic Pot (Artifact Re-rolling)
 
-The **Mystic Pot** (called Mystery Pot in patch notes) is the artifact-conversion station reworked in 1.0. It does NOT create consumable potions — it converts artifacts:
+The **Mystic Pot** is the artifact-conversion station. It does **not** create consumable potions — it converts artifacts:
 
 - **1 artifact → 1 artifact** of the same rarity (re-roll)
 - **2 artifacts → 1 artifact** of the next rarity (upgrade)
@@ -107,14 +102,14 @@ For the full Mystic Pot strategy, see the [Mystic Pot Guide](/guides/mystic-pot-
 
 ## Consumable Inventory Management
 
-You have **4 consumable slots** on your hotbar. Prioritize:
+Prioritize your limited potion slots:
 
-1. **Greater Healing Potion** (always keep one slotted)
-2. **Buff potion for your build** (Strength for melee, Focus for crit, Elements for magic)
-3. **Healing Potion** (backup)
-4. **Flex slot** — TNT early, Fortitude potion pre-boss, empty for pickup
+1. **Strong healing potion** (always keep one slotted)
+2. **Buff potion for your build** (damage for burst weapons, defense for slow ones)
+3. **Standard healing potion** (backup)
+4. **Flex slot** — explosive early, buff potion pre-boss, empty for pickups
 
-**Auto-sort tip**: The game auto-equips the strongest healing potion to slot 1. If you pick up a Greater while a Small is in slot 1, it'll swap. Keep an eye on what's actually equipped before boss doors.
+**Auto-sort tip:** the game auto-equips the strongest healing potion it can. Keep an eye on what's actually equipped before boss doors.
 
 ---
 
@@ -122,7 +117,18 @@ You have **4 consumable slots** on your hotbar. Prioritize:
 
 In multiplayer:
 
-- **Potions are per-player** — you can't trade them, but you can ping their location
-- **Healing Ward** heals all players in range — drop it near your lowest-HP teammate
-- **Reviving a downed player** does not cost a potion — it's a channeled interact
-- **Let the host buy first** at shops — the host's game state determines shop inventory; if the host buys the last Greater Potion, clients can't see it
+- **Potions are per-player** — you can't trade them, but you can ping their locations
+- **Area healing effects** help everyone in range — drop them near your lowest-HP teammate
+- **Reviving a downed player** doesn't cost a potion — it's a channeled interaction (see the [Co-op Guide](/guides/coop-guide))
+- **Let the host buy first** at shops — the host's game state determines shop inventory
+
+---
+
+## Related Guides
+
+- [Mystic Pot Guide](/guides/mystic-pot-guide) — The artifact conversion system
+- [Beginner's Guide](/guides/beginner-guide) — Core survival basics
+- [Boss Guide](/guides/boss-guide) — What your potions are for
+- [Hard Mode Guide](/guides/hard-mode-guide) — When Tension bans potions in boss fights
+- [Chapter Guide](/guides/chapter-guide) — When to stock up per chapter
+- [Farming Guide](/guides/farming-guide) — Efficient potion and gold farming

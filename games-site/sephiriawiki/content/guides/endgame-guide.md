@@ -1,70 +1,71 @@
 ---
 title: "Endgame Content Guide — What to Do After Beating Sephiria"
-description: "Complete Sephiria 1.0 endgame guide. Post-game progression order — Hard Mode, Infinite Mode, practice mode, secret bosses, achievements, and weapon mastery grinding."
+description: "Complete Sephiria 1.0 endgame guide. Post-game progression order — Hard Mode (level 60 with 6 modifiers), Gauntlet Mode (wave-based scoring with a leaderboard), weapon mastery, achievement hunting, and artifact collection."
 category: "Endgame"
 version: "1.0"
-updated: "2026-07-31"
-keywords: [Sephiria endgame, endgame content, what to do after beating Sephiria, Sephiria post-game, Sephiria 1.0 endgame, Infinite Mode]
-related: [hard-mode-guide, endgame-builds, full-release-guide, boss-guide, weapons-tier-list]
+updated: "2026-08-11"
+keywords: ["Sephiria endgame", "endgame content", "what to do after beating Sephiria", "Sephiria post-game", "Sephiria 1.0 endgame", "Sephiria gauntlet mode", "Sephiria hard mode", "Sephiria achievements"]
+related: ["hard-mode-guide", "full-release-guide", "boss-guide", "weapons-guide", "artifacts-guide", "chapter-6-final-boss-guide"]
 ---
 
-> **⚠️ Correction (Aug 2, 2026):** This page predates 1.0 verification and cites content that does **not** exist in the released game — "Chapter 7 / Astral Vault", the Rabbit Goddess, and Infinite Mode. Sephiria has 6 chapters and ends at Chapter 6; the real 1.0 endgame is Hard Mode (60 levels), the new ending, and artifact/tablet builds. See the [Chapter 6 & Final Boss Guide](/guides/chapter-6-final-boss-guide) and [Full Release Guide](/guides/full-release-guide). This page needs a rewrite.
+# Endgame Content Guide — What to Do After Beating Sephiria
 
-## The Endgame Starts at 1.0
+Sephiria ends at **Chapter 6** — beating the final boss unlocks the ending and credits. But the tower is far from done. The 1.0 endgame is a clear progression ladder: every activity feeds your permanent progression (talents, inscriptions, artifacts, weapon mastery), and each mode feeds the next.
 
-Defeating the **Rabbit Goddess** (Chapter 7's final boss) completes the main story — but the tower is far from done. The 1.0 endgame is a clear progression ladder: each new mode feeds the next, and everything feeds your permanent progression (talents, inscriptions, artifacts, weapon mastery).
+## The Endgame Progression Order
 
-## Endgame Progression Order
-
-| Step | Activity | Unlocks / Reward |
+| Step | Activity | What It Gives You |
 |---|---|---|
-| 1 | Beat the Rabbit Goddess (Normal) | Hard Mode, Practice Mode, first artifact slot |
-| 2 | Complete Hard Mode | Infinite Mode, second artifact slot, Golden Crown cosmetic |
-| 3 | Push Infinite Mode floors | Endless artifacts at floors 25 / 50 / 100, leaderboard rank |
-| 4 | Farm Astral Guardian + secret bosses | Artifacts, legendary relics |
-| 5 | Hunt achievements (42 total) | Talent points, cosmetics |
-| 6 | Master every weapon to Mastery 30 | Full mastery perk set, speedrun-ready skill |
+| 1 | Beat Chapter 6 (the ending + credits) | Access to the real endgame |
+| 2 | Farm Normal clears for sapphires and artifacts | Permanent progression — talents, inscriptions, artifact unlocks |
+| 3 | Attempt **Hard Mode** (level 60 climb with 6 modifiers) | The toughest challenge in the game; hard-mode experience |
+| 4 | Run **Gauntlet Mode** for score and practice | Wave-based challenge with a leaderboard; boss-pattern practice |
+| 5 | Grind **weapon mastery** and hunt **achievements** (27 total) | Mastery perks, cosmetics, and completion |
 
 ## The Endgame Modes
 
 ### Hard Mode — the real campaign
-+150% enemy HP, +100% damage, armored enemies, Corruption meter, and new phase-3 boss attacks. Completing it is the gate for everything past it, and it adds 3 Hard Mode-exclusive relics and cursed artifacts to the pool. Expect 15-25 hours for a first clear.
 
-### Infinite Mode — the ladder
-Endless tower climb with continuously scaling difficulty. Every 10 floors increases enemy stats; floor milestones drop artifacts. Your global leaderboard floor is the game's prestige metric. Builds that sustain (life-steal, healing motes) outperform burst builds here.
+Hard Mode extends the climb to **level 60** with **6 modifiers** on top of base difficulty: Blood Festival, Pseudo-Vanguard, Deterioration, Tension, Heavy Heart, and Proliferation. All chapter bosses return with tuned-up stats, and **Tension** (no potions during boss fights) makes bosses where most runs end. This is the definitive challenge for veterans.
 
-### Practice Mode — free boss training
-Fight any boss you have encountered, including 1.0's Astral Guardian and Rabbit Goddess, with no run commitment. This is where you learn phase-3 patterns before spending them in Hard Mode. Veteran tip: practice each boss with the exact build you plan to bring.
+Full modifier breakdown and strategies in the [Hard Mode Guide](/guides/hard-mode-guide).
 
-### Secret Bosses
-The base-game secret bosses (Shadow Golemnir, Echo Revenant, Void Bibliarch, The Architect) remain relevant: they drop exclusive legendary relics, and the Architect's Key unlocks the true ending scene. Revisit them with 1.0 builds — the Astral Compass artifact makes their triggers trivial.
+### Gauntlet Mode — the wave-based score ladder
 
-## The Weekly Loop
+Gauntlet Mode is the endless challenge: **wave-based survival with a score leaderboard**. You face an escalating series of waves with a fixed loadout — there is no healing between waves, and the gauntlet continues until you die. Your score (driven by kill speed, combos, parries, and clean waves) determines your leaderboard rank and rewards.
 
-A sustainable 1.0 endgame session looks like:
+- **No rest points** — health carries over between waves, so sustain decides your ceiling
+- **Wave scaling** — difficulty rises every few waves, with elite and boss "break waves" on a regular cadence
+- **Score is king** — a fast, clean run always beats a slow safe one; chase tempo, not just survival
+- **The deeper you go, the more your build must heal itself** — sustain builds (healing, defensive artifacts) outperform burst builds past the mid-waves
 
-1. **Hard Mode run** (20-40 min) — cursed artifact + relic farming
-2. **Infinite Mode push** (30-60 min) — milestone farming, leaderboard progress
-3. **Astral Guardian farm** (15-20 min) — guaranteed artifact drop
-4. **Practice Mode** (10 min) — drill a boss you struggled with
+### Weapon Mastery & Collection
 
-## Recommended Endgame Builds
+The long-tail endgame:
 
-- **Hard Mode:** Tank build (Spear, Guardian's Shield + Purifying Crystal relics) — see the Hard Mode guide
-- **Infinite Mode:** Life-steal Scythe or Spellweaver Tome — sustain beats burst past floor 40
-- **Artifact farming:** Tome + Spellweaver's Star + Astral Compass — fastest Astral Guardian clears
+- **Weapon mastery** — each weapon has its own mastery progression that grows only while you use it. Mastering every weapon unlocks the full perk set and makes you a flexible co-op partner.
+- **Achievements** — 27 achievements total; some unlock permanent artifacts with build-defining effects.
+- **Artifact collection** — ~300 artifacts at 1.0. Permanent artifacts are unlocked through specific achievements, not random drops (see the [Artifacts Guide](/guides/artifacts-guide) for unlock farming).
 
-## How Long Is the Endgame?
+## A Sustainable Endgame Session
 
-- Hard Mode first clear: 15-25 hours
-- Infinite Mode to floor 100: 20-40 hours
-- Full achievement set: 40-60 hours
-- 100% completion (all mastery, all artifacts, all cosmetics): 70+ hours
+A healthy endgame loop looks like:
+
+1. **A Normal or Hard Mode run** (20-40 min) — sapphires for Destiny Inscriptions, artifact unlocks, mastery progress
+2. **A Gauntlet Mode attempt** (15-30 min) — score chasing and boss-pattern practice without run commitment
+3. **Short sessions** — one Gauntlet run or a speedrun attempt still progresses your account
+
+**The golden rule:** every run gives sapphires, even failed ones. The permanent progression (talents, inscriptions, artifacts, weapon mastery) makes each subsequent run easier — the endgame is a marathon, not a sprint.
+
+## What Comes Next
+
+The developers have confirmed continued post-launch support for Sephiria. Balance changes and new content will shift the meta over time — the [Full Release Guide](/guides/full-release-guide) tracks the 1.0 state of the game, and we update our guides as patches land.
 
 ## Related Guides
 
-- [Hard Mode Guide](/guides/hard-mode-guide) — Surviving the Corruption System
-- [Endgame Builds](/guides/endgame-builds) — Optimized loadouts for late-game content
-- [Full Release Guide](/guides/full-release-guide) — All 1.0 systems and features
-- [Boss Guide](/guides/boss-guide) — Astral Guardian and Rabbit Goddess strategies
-- [Weapons Tier List](/guides/weapons-tier-list) — The best weapons for each endgame mode
+- [Hard Mode Guide](/guides/hard-mode-guide) — The level 60 climb and all 6 modifiers
+- [Chapter 6 & Final Boss Guide](/guides/chapter-6-final-boss-guide) — The ending content
+- [Full Release Guide](/guides/full-release-guide) — What 1.0 added
+- [Boss Guide](/guides/boss-guide) — Boss strategies for every chapter
+- [Weapons Guide](/guides/weapons-guide) — Mastery and best use cases per weapon
+- [Artifacts Guide](/guides/artifacts-guide) — The ~300 per-run items and how to unlock them

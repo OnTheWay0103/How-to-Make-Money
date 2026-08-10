@@ -57,8 +57,8 @@ export function videoGameSchema(): Record<string, unknown> {
     '@type': 'VideoGame',
     name: 'Echoes of Mystralia',
     description:
-      'An action-heavy spellcrafting ARPG roguelite from Borealys Games. Collect 110 Memories to craft millions of spell combinations using fire, ice, and lightning. Battle through 3 regions, defeat Guardians, and protect the Cycle of Memories.',
-    url: 'https://store.steampowered.com/app/974480/Echoes_of_Mystralia/',
+      'An action-heavy spellcrafting ARPG roguelite from Borealys Games. Harvest 100+ Memories to craft millions of spell combinations across 7 elements. Battle through 3 regions, defeat primordial Guardians, and protect the Cycle of Memories.',
+    url: SITE_CONFIG.url,
     applicationCategory: 'Game',
     operatingSystem: 'Windows',
     genre: ['Action RPG', 'Roguelite', 'Spell Crafting', 'Indie'],
@@ -69,13 +69,6 @@ export function videoGameSchema(): Record<string, unknown> {
     publisher: {
       '@type': 'Organization',
       name: 'Borealys Games',
-    },
-    offers: {
-      '@type': 'Offer',
-      price: '0',
-      priceCurrency: 'USD',
-      availability: 'https://schema.org/PreOrder',
-      url: 'https://store.steampowered.com/app/974480/Echoes_of_Mystralia/',
     },
     datePublished: '2026-08-11',
     platform: 'Steam',

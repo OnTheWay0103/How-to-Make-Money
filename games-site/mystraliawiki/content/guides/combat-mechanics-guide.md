@@ -2,17 +2,17 @@
 title: 'Combat Mechanics Guide — Movement, Dodging & Spell Execution'
 description: 'How combat works in Echoes of Mystralia — the action-heavy roguelite combat model, movement and dodging fundamentals, telegraphs, enemy types, and how crafted spells execute in real fights.'
 category: 'Combat'
-version: 'Pre-release'
-updated: '2026-08-07'
+version: 'Early Access'
+updated: '2026-08-11'
 keywords: ['echoes of mystralia combat guide', 'echoes of mystralia combat mechanics', 'echoes of mystralia dodging', 'echoes of mystralia fighting', 'echoes of mystralia combat tips']
-related: ['boss-guide', 'spell-combos', 'ash-forest-guide', 'challenge-mode', 'beginner-guide']
+related: ['boss-guide', 'spell-crafting-guide', 'ash-forest-guide', 'difficulty-settings-guide', 'beginner-guide']
 ---
 
 # Combat Mechanics Guide — Movement, Dodging & Spell Execution
 
 Echoes of Mystralia is, per the Steam store page, an **"action-heavy spellcrafting ARPG roguelite, where rapid combat meets deep customization."** The press release describes the combat as **fast-paced and tactical, rewarding quick reflexes, precise movement, and split-second decision making** — Hades-style action is the comparison most coverage lands on. This guide covers what's confirmed about how combat actually plays: the movement and dodging fundamentals, how telegraphs work, who you're fighting, and how the spells you craft execute in real fights.
 
-> **Pre-release note:** Exact mechanics — i-frames, dodge costs, attack speeds, hitboxes — are **TBD** until the EA build is verified. Everything below is either officially confirmed or demo-verified; the demo is your only real testing ground before **August 11, 2026**.
+> **Early Access note:** Exact mechanics — i-frames, dodge costs, attack speeds, hitboxes — are being documented from the Early Access build. Everything below is either officially confirmed or demo-verified.
 
 ## The Combat Model (Confirmed)
 
@@ -44,8 +44,8 @@ The official material names the enemy roster at three levels:
 |-------------|-------------------|
 | **Rift-spawned foes** | The general enemy population of the regions |
 | **Shadows of the Past** | Called out on the Steam page — memories of Mystralia's horrors given form; your spells' primary target |
-| **Elites** | Multiple Elite fights confirmed at EA launch (press release); the demo's 4 fight challenges preview elite-style pressure |
-| **Primordial Guardians** | The 3 region bosses — massive, ancient, pattern-based fights (see the [Boss Guide](/guides/boss-guide)) |
+| **Elites** | Elite encounters confirmed at EA launch; the demo's 4 fight challenges preview elite-style pressure |
+| **Primordial Guardians** | Guardian boss encounters at region hearts — massive, ancient, pattern-based fights (see the [Boss Guide](/guides/boss-guide)) |
 
 Individual enemy names and behaviors beyond these categories are **TBD** — no official bestiary exists.
 
@@ -55,17 +55,17 @@ The crafting system happens *before* the fight; execution happens *during* it. T
 
 - **Placement defines behavior** — "where you place each component in your spell grid changes what the spell actually does": fire next to ice becomes steam; lightning behind a homing component chases enemies
 - **Loadout is your kit** — each run you carry the spells you crafted; combat performance is determined by how well your loadout matches the fights you meet
-- **Elements are tactical choices** — fire (vortices, sustained area), ice (freezing tornadoes, control), and lightning (bolts, fast direct damage) cover different combat situations
+- **Elements are tactical choices** — among the 7 elements at launch, fire (vortices, sustained area), ice (freezing tornadoes, control), and lightning (bolts, fast direct damage) cover different combat situations
 - **The fight challenges are the testing lab** — repeatable, scripted encounters where you compare spell performance safely; the demo's 4 challenges are explicitly good practice for the elite fights at launch
 
-For the deep dive on spell-to-spell synergy, see the [Spell Combos Guide](/guides/spell-combos) — this guide covers the execution side: how to pilot whatever loadout you bring.
+For the deep dive on spell crafting and synergy, see the [Spell Crafting Guide](/guides/spell-crafting-guide) — this guide covers the execution side: how to pilot whatever loadout you bring.
 
 ## Combat Principles That Survive Launch (Safe to Practice Now)
 
 These hold regardless of unconfirmed specifics — practice them in the demo today:
 
 1. **Harvest as you fight** — enemies drop Memories; dead enemies are also resources, so clear deliberately, not blindly
-2. **Diversify your loadout early** — one spell per element (fire, ice, lightning) covers more situations while match-ups are unknown
+2. **Diversify your loadout early** — elemental coverage (the game has 7 elements) covers more situations while match-ups are unknown
 3. **Prepare your state before the fight** — your spell and Memory choices determine the state you enter a boss arena in; the run before the boss matters as much as the fight itself
 4. **Use death as data** — failed runs still bank upgrades and Memories at the Azimuth Temple; every death funds the next, stronger run
 5. **Learn patterns, then optimize damage** — survival first, DPS second; the demo's Therakan fight is the clearest lesson in this
@@ -83,7 +83,7 @@ The demo build and the EA build may differ — Borealys has already changed syst
 ## Related Guides
 
 - [Boss Guide](/guides/boss-guide) — Guardian fights, including Therakan's demo-verified patterns
-- [Spell Combos](/guides/spell-combos) — the crafting side of combat performance
+- [Spell Crafting Guide](/guides/spell-crafting-guide) — the crafting side of combat performance
 - [Ash Forest Guide](/guides/ash-forest-guide) — the region where you'll practice all of this
-- [Challenge Mode](/guides/challenge-mode) — the fight challenges as training ground
+- [Difficulty & Settings Guide](/guides/difficulty-settings-guide) — the fight challenges as training ground
 - [Beginner Guide](/guides/beginner-guide) — the core loop from scratch

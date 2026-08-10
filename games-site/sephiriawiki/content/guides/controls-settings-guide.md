@@ -1,118 +1,112 @@
 ---
-title: "Controls & Settings Guide — Best Keybinds, Controller Setup & Optimization (1.0)"
-description: "Sephiria controls guide: best keyboard and controller settings for 1.0, how to fix controller issues, recommended keybinds, aim assist settings, and performance tweaks for smoother gameplay."
+title: "Controls & Settings Guide — Keybinds, Controller Setup & Performance"
+description: "Sephiria controls guide: core actions and keybinds, controller setup and fixes, performance and accessibility settings, and co-op performance tips."
 category: "Beginner"
 version: "1.0"
-updated: "2026-08-09"
-keywords: ["sephiria controls", "sephiria controller", "sephiria keybinds", "sephiria settings", "sephiria controller not working", "sephiria aim assist", "sephiria performance"]
-related: ["beginner-guide", "hard-mode-guide", "boss-guide", "faq-content"]
+updated: "2026-08-11"
+keywords: ["sephiria controls", "sephiria controller", "sephiria keybinds", "sephiria settings", "sephiria controller not working", "sephiria performance"]
+related: ["beginner-guide", "hard-mode-guide", "boss-guide", "faq-content", "multiplayer-connection-fix-guide"]
 ---
 
-# Controls & Settings Guide — Best Keybinds, Controller Setup & Optimization (1.0)
+# Controls & Settings Guide — Keybinds, Controller Setup & Performance
 
-Sephiria is a fast-paced action roguelite where precise inputs matter. This guide covers the optimal control setup for both keyboard/mouse and controller, how to work around known controller limitations, and the settings tweaks that give you the smoothest experience.
+Sephiria is a fast-paced action roguelite where precise inputs matter. This guide covers the core actions you'll use every run, how to set up keyboard/mouse and controller to your comfort, and the settings tweaks that give you the smoothest experience.
 
-**Last updated: August 9, 2026 (1.0).**
+**Settings vary by version and platform — the in-game settings menu is the authority. This guide covers what most players change.**
 
 ---
 
-## Recommended Keyboard & Mouse Setup
+## Core Actions
 
-### Default Controls
+Every Sephiria run uses the same core actions:
 
-| Action | Default Key | Recommended Change |
+| Action | What It Does | Note |
 |--------|-------------|------|
-| Move | WASD | Keep default |
-| Dash | Space | Keep default |
-| Attack | Left Mouse | Keep default |
-| Block / Parry | Right Mouse | Keep default |
-| Special Ability | Q | Consider **Shift** (easier to reach while moving) |
-| Interact | E | Keep default |
-| Inventory / Tablet Menu | Tab | Keep default |
-| Pause | Esc | Keep default |
+| **Move** | Walk the tower rooms | Standard WASD on keyboard |
+| **Attack** | Your weapon's primary attack | Mouse-button driven on keyboard/mouse |
+| **Dash** | The core dodge tool | Keep it on a key you never fumble |
+| **Block** | Defensive stance (Sword & Shield block, others deflect) | Hold, don't tap |
+| **Interact** | Open doors, shops, pickups | Keep near movement keys |
+| **Inventory / menu** | Artifacts, tablets, settings | A key you can hit mid-fight |
 
-### Advanced Keybind Tips
+**Rebinding advice:**
 
-**Move Special Ability off Q.** Q is also your tablet rotation key in the inventory. Binding special to Shift or a mouse side button avoids conflicts and lets you use abilities while strafing right.
+- **Keep dash and block on your strongest fingers.** They're your survival tools — in boss fights you'll press them constantly.
+- **Move interact off a key you need mid-combat** if possible — you never want to loot when you meant to attack.
+- **Mouse side buttons** are great homes for any frequently-used action.
 
-**Enable "Dash Toward Cursor"** in settings. By default, dash goes in your movement direction. Cursor-based dashing gives you more precision — dash away from a boss while still looking at it to keep your next attack lined up.
-
-**Disable "Auto-Aim."** The auto-aim can pull your attacks toward the wrong target in crowds. Manual aim gives you control over which enemy you're hitting, which matters more in Chapters 4-6 where priority targets (ranged enemies, healers) need to die first.
+**Block is not optional.** Sephiria's enemies telegraph attacks, and blocking is the difference between a clean run and a dead one — see the [Beginner's Guide](/guides/beginner-guide).
 
 ---
 
 ## Controller Setup
 
-### Known Controller Limitations (1.0)
+### Controller Basics
 
-Sephiria does not have **dual-stick aiming** on controller as of 1.0. This is the most-requested controller feature and has not yet been added. The right stick is not mapped — aiming follows your movement direction.
+Sephiria supports controller play. If you play with a controller:
 
-**What this means**: controller players can't independently move left while aiming right. You can either:
+- **Enable Steam Input** for the game (right-click the game in your Steam library → Properties → Controller → Enable Steam Input). This handles most modern controllers.
+- **Prefer wired** if you experience input lag — Bluetooth adds latency, and fighting games feel it.
+- **Recalibrate in Steam's controller settings** if the stick drifts.
 
-1. **Use keyboard/mouse for ranged builds** (Crossbow, Staff) where independent aiming matters
-2. **Use controller for melee builds** (Sword & Shield, Greatsword) where movement-aiming is less of a limitation
-3. **Enable aim assist** in settings to compensate (see below)
+### Controller Advice by Build
 
-### Controller Settings That Help
-
-| Setting | Recommended | Why |
-|------|------|------|
-| Aim Assist | **Strong** if using controller | Compensates for no dual-stick — snaps to nearest enemy |
-| Vibration | Off | Reduces distraction during bullet-hell sections |
-| Dead Zone | 0.10–0.15 | Lower = more responsive; set too low and you'll drift |
-| Dash Direction | Movement | More intuitive on controller stick |
-
-### Controller Connection Issues
-
-If your controller isn't detected:
-
-1. **Steam Input**: Enable Steam Input for Sephiria (right-click game → Properties → Controller → Enable Steam Input)
-2. **Wired vs wireless**: Use wired if experiencing input lag; Bluetooth adds 5-15ms latency
-3. **PS4/PS5 controllers**: May need DS4Windows on some setups; Steam Input usually handles them natively
-4. **Switch Pro Controller**: Works via Steam Input; recalibrate in Steam's controller settings if the stick drifts
+- **Melee builds (Sword & Shield, Greatsword)** feel great on controller — aim direction is less critical.
+- **Ranged builds (Crossbow, Staff)** are easier on keyboard/mouse, where independent aiming is more precise.
+- If the game offers **aim assistance**, it helps ranged builds on controller — try it and see.
 
 ---
 
 ## Graphics & Performance Settings
 
-Sephiria is a pixel-art game and runs on most hardware, but Chapter 5 (lava effects) and 4-player co-op can cause drops.
+Sephiria is a pixel-art game with modest system requirements (per the official Steam store page, a GeForce GTS 750 minimum) — it runs on most hardware. If you want it smoother:
 
-| Setting | Recommended | Why |
+| Setting | Recommendation | Why |
 |------|------|------|
-| Resolution | Native (1920×1080) | Pixel art scales cleanly |
-| Fullscreen | **Borderless Window** | Faster alt-tab; less input lag on some setups |
+| Fullscreen | Borderless window | Faster alt-tab; fewer input-lag quirks |
 | V-Sync | Off | Reduces input lag — screen tearing is minimal on pixel art |
-| Frame Rate Cap | 144 or Unlimited | Match your monitor; higher FPS = more responsive dashes |
-| Particles | Medium | High can clutter visibility in boss fights |
-| Screen Shake | 30-50% | Full shake obscures red laser telegraphs |
+| Frame rate | Match your monitor | Higher FPS = more responsive dashes |
+| Particles/effects | Lower if drops occur | Boss fights get busy with full effects |
 
 ### Co-op Performance
 
-4-player co-op adds particle effects from all players. If your FPS drops:
+4-player co-op adds effects from all players. If your FPS drops in multiplayer:
 
-1. Lower **Particles** to Low
-2. Cap FPS at 60 during co-op sessions
-3. The host's PC bears most of the load — have the player with the best PC host
+1. Lower **particles/effects** settings
+2. **Cap FPS** during co-op sessions if needed
+3. Have the player with the **best machine host** — the host bears most of the load
 
 ---
 
 ## Accessibility & Comfort
 
-**No auto-attack option exists yet** — all attacks require manual input. Players with hand strain should:
+Sephiria is an action game — most of it is inputs. If you want a less demanding experience:
 
-- Use a **build with passive damage** (Planet artifacts, Undead Inferno summons, Frostbite AoE) so fewer clicks are needed
-- Bind attack to **keyboard key** (e.g., J or Numpad 0) as an alternative to mouse clicking
-- Take advantage of **block** (hold, not tap) for defense instead of constant dashing
-
-**Colorblind options**: Not available in 1.0. Enemy red laser telegraphs are the main accessibility concern — the red-on-dark-background contrast is workable for most players, but there's no colorblind mode to change telegraph colors.
+- **Bind attack to a comfortable key** (e.g., a key or mouse button you can press for long stretches) as an alternative to constant clicking.
+- **Use block (hold, not tap) as your primary defense** — holding a button is less input-intensive than constant dashing.
+- **Pick a weapon that suits your play rhythm** — Sword & Shield rewards steady blocking; Crossbow rewards kiting. See the [Weapons Guide](/guides/weapons-guide).
+- **Passive-damage artifact setups** reduce how much active input you need per room (see the [Artifacts Guide](/guides/artifacts-guide)).
 
 ---
 
-## File Locations (for troubleshooting)
+## Settings FAQ
 
-| Platform | Save Data | Config File | Log File |
-|------|------|------|------|
-| Windows | `%USERPROFILE%\AppData\LocalLow\TeamHoray\Sephiria\` | Same folder | `player.log` (for multiplayer bug reports) |
-| Steam Deck / Linux | `~/.config/unity3d/TeamHoray/Sephiria/` | Same folder | `player.log` |
+**Q: Can I rebind keys?**
+Yes — Sephiria's settings menu includes keybinding. Set your survival actions (dash, block) first.
 
-If you experience multiplayer disconnects, the devs request you submit `player.log` from this location on the [Steam discussion board](https://steamcommunity.com/app/2436940/discussions/).
+**Q: My controller isn't detected — what do I do?**
+Enable Steam Input for the game, try wired instead of Bluetooth, and verify the controller works in Steam's own controller settings first.
+
+**Q: The game runs slowly — what should I change?**
+Lower the particle/effect settings, disable V-Sync, and try borderless window. Sephiria's minimum spec is modest, so drops are usually settings-related.
+
+**Q: Do settings matter for co-op?**
+The host's machine and connection matter most. See the [Multiplayer Connection Fix Guide](/guides/multiplayer-connection-fix-guide) for connection-side fixes.
+
+## Related Guides
+
+- [Beginner's Guide](/guides/beginner-guide) — Core mechanics and first steps
+- [Weapons Guide](/guides/weapons-guide) — Pick a weapon that suits your controls
+- [Boss Guide](/guides/boss-guide) — Where your block and dash skills pay off
+- [Hard Mode Guide](/guides/hard-mode-guide) — When settings start to matter
+- [Multiplayer Connection Fix Guide](/guides/multiplayer-connection-fix-guide) — Co-op performance fixes

@@ -37,7 +37,6 @@ export const defaultMetadata: Metadata = {
 
   keywords: [
     'Sephiria',
-    'The Mound wiki',
     'Sephiria guide',
     'Sephiria builds',
     'Sephiria weapons',

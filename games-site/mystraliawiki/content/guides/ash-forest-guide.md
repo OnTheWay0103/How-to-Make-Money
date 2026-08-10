@@ -2,8 +2,8 @@
 title: 'Ash Forest Guide — The Demo Region, Therakan & What We Know'
 description: 'Everything confirmed about the Ash Forest in Echoes of Mystralia — the demo region layout, Therakan the first Guardian, the 4 fight challenges, and what remains unconfirmed at Early Access.'
 category: 'Exploration'
-version: 'Pre-release'
-updated: '2026-08-01'
+version: 'Early Access'
+updated: '2026-08-11'
 keywords: ['echoes of mystralia ash forest', 'echoes of mystralia region guide', 'echoes of mystralia first region', 'echoes of mystralia therakan', 'echoes of mystralia demo region', 'mystralia ash forest walkthrough']
 related: ['boss-guide', 'beginner-guide', 'memories-guide', 'ea-launch-guide']
 ---
@@ -12,7 +12,7 @@ related: ['boss-guide', 'beginner-guide', 'memories-guide', 'ea-launch-guide']
 
 The **Ash Forest** is the first region of Echoes of Mystralia and the only region fully playable so far, in the free Steam demo. It is the game's introduction to combat, spell crafting, and exploration. This guide collects everything confirmed about the Ash Forest and clearly marks what remains unknown.
 
-> **Pre-release note:** This region appears in the playable demo. Anything below marked **TBD** has not been confirmed by Borealys Games.
+> **Early Access note:** This region appears in the free demo and the Early Access build. Anything below marked **TBD** has not been confirmed by Borealys Games.
 
 ## Region Overview
 
@@ -24,7 +24,7 @@ The **Ash Forest** is the first region of Echoes of Mystralia and the only regio
 | **Demo content** | 4 base spells, 4 fight challenges, 50 Memories | ✅ Confirmed |
 | **Environment theme** | Burning, ash-covered woodland | ✅ Confirmed (seen in the demo) |
 | **Enemy roster** | Rift-spawned foes and Shadows of the Past | ✅ Confirmed generally; specific enemy names TBD |
-| **Full Early Access version** | Expanded by additional Memories and spell forms | TBD |
+| **Full Early Access version** | Expanded by additional Memories, Relics, and starting spells | Being documented |
 
 ## What the Demo Confirms
 
@@ -37,12 +37,12 @@ The Ash Forest is a burned woodland — charred terrain and ember-strewn air, ma
 Therakan is the first **primordial Guardian** — a massive, ancient boss guarding the region's heart. Confirmed facts:
 
 - He is the boss fight of the demo
-- He will be one of the **3 Guardians** at Early Access launch
+- He is the first Guardian in the Early Access build, which ships **Guardian and Elite encounters** across its 3 regions
 - Defeating him teaches the boss pattern you'll apply to every Guardian
 
 **Combat advice based on the demo (verified by play):** Guardians have telegraphed attacks. Focus on learning the wind-ups rather than reacting — most damage in the Ash Forest comes from panic-dodging. Bring your strongest crafted spells into the arena, and treat the fight as a test of your Memory combinations.
 
-> Specific attack patterns, phases, and the drop table for Therakan are **TBD** — we will document them in detail after Early Access launch (and they may change between demo and launch builds).
+> Specific attack patterns, phases, and the drop table for Therakan are being documented from the Early Access build — and they may change with balance patches during EA.
 
 ### The 4 Fight Challenges
 
@@ -65,7 +65,7 @@ To keep this guide honest, here's what we still don't know about the Ash Forest:
 
 ## How to Approach the Region at Early Access
 
-1. **Re-clear it with your transferred save** — your demo save carries over, so your first EA run can be a quick, familiar warm-up
+1. **Re-clear it with your transferred save** — per developer announcements, your demo save carries over, so your first EA run can be a quick, familiar warm-up
 2. **Harvest every Memory** — the Ash Forest remains the entry point for new players and a reliable Memory source
 3. **Beat Therakan early** — his arena unlocks the path to the second region (name TBD)
 4. **Compare demo vs launch** — Borealys has said progression systems changed between demo and EA; expect some differences in the region's economy

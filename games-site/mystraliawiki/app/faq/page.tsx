@@ -13,12 +13,12 @@ const FAQ_ITEMS = [
   {
     question: 'What is Echoes of Mystralia?',
     answer:
-      'Echoes of Mystralia is an action-heavy spellcrafting ARPG roguelite developed by Borealys Games. You play as Mazarim, a Watcher protecting the Cycle of Memories from a mysterious Rift. The game features a unique spell crafting system with millions of possible spell combinations using fire, ice, and lightning elements. It enters Steam Early Access on August 11, 2026.',
+      'Echoes of Mystralia is an action-heavy spellcrafting ARPG roguelite developed by Borealys Games. You play as Mazarim, a Watcher protecting the Cycle of Memories from a mysterious Rift. The game features a unique spell crafting system with millions of possible spell combinations using the game\'s 7 elements (fire, ice, and lightning among them). It launched into Steam Early Access on August 11, 2026.',
   },
   {
     question: 'Is Echoes of Mystralia free to play?',
     answer:
-      'No. Echoes of Mystralia is a paid Early Access title on Steam. Pricing will be announced closer to the August 11, 2026 release date. A free demo is currently available on Steam featuring 4 core spells, 50 Memories, and the first region (Ash Forest). Note: Relics have not been confirmed by official sources — see the Relics Guide for the honest state of item systems.',
+      'No. Echoes of Mystralia is a paid Early Access title on Steam, and its price is expected to rise at the 1.0 release (per the Steam page). A free demo is available on Steam featuring 4 core spells, 50 Memories, and the first region (Ash Forest). 40+ Relics are confirmed (per the official Steam page) — see the Relics Guide for what\'s verified and what stays TBD.',
   },
   {
     question: 'Can I play solo?',
@@ -33,37 +33,37 @@ const FAQ_ITEMS = [
   {
     question: 'What platforms is it on?',
     answer:
-      'Echoes of Mystralia is currently announced for PC (Steam) only. Console versions (PS5, Xbox Series X|S, Switch 2) have not been confirmed but may be considered after the full PC release.',
+      'Echoes of Mystralia is currently announced for PC (Steam) only. Console versions have not been announced.',
   },
   {
     question: 'What are the system requirements?',
     answer:
-      'Minimum: Windows 10 64-bit, Quad Core 2.4 GHz CPU, 8 GB RAM, GTX 1060 / RX 580 GPU, 10 GB storage. Recommended: Windows 10 64-bit, Quad Core 2.4 GHz CPU, 16 GB RAM, RTX 2060 / RX 5600XT GPU, 10 GB SSD.',
+      'Per the official Steam store page — Minimum: Windows 10 64-bit, Quad Core 2.4 GHz CPU, 8 GB RAM, GTX 1060 / RX 580 GPU, 10 GB storage. Recommended: Windows 10 64-bit, Quad Core 2.4 GHz CPU, 16 GB RAM, RTX 2060 / RX 5600 XT GPU, 10 GB SSD.',
   },
   {
     question: 'How does spell crafting work?',
     answer:
-      'You start with 12 spell forms (base templates) and collect Memories from defeated enemies. Memories act as modifiers that you slot into a spell form\'s grid. The positioning of Memories determines the spell\'s output. Combining different elements (fire, ice, lightning) creates hybrid effects. There are 110 Memories at Early Access launch, enabling millions of possible spell combinations.',
+      'You start with 16 starting spells (base templates; 4 in the demo) and collect Memories from defeated enemies. Memories are reordered and combined to shape each spell — the positioning of components determines the spell\'s output, with fire next to ice becoming steam as the official example. With 7 elements and 100+ Memories at Early Access launch, there are millions of possible spell combinations.',
   },
   {
     question: 'What are Memories and how do I get them?',
     answer:
-      'Memories are spell modifiers dropped by defeated enemies. They can change a spell\'s element, add chain effects, increase AoE, summon projectiles, and more. Common enemies drop Common/Uncommon Memories, elites drop Uncommon/Rare, and Guardian bosses drop Rare/Legendary. You keep collected Memories permanently across runs.',
+      'Memories are the components dropped by defeated enemies. Reordering and combining them changes what a spell does — official examples include fire next to ice becoming steam, and lightning behind a homing component chasing enemies. At Early Access launch there are 100+ Memories to collect across 3 regions (50 in the demo). Rarity tiers have not been officially documented (TBD). You keep collected Memories between runs.',
   },
   {
     question: 'How long is the game?',
     answer:
-      'The demo covers 2–4 hours of content (Ash Forest region). Early Access (3 regions, 3 Guardians) takes 15–25 hours for a first clear. Collecting all 110 Memories takes 40–60 hours. Clearing all difficulties can take 80–100+ hours.',
+      'Borealys has not published playtime estimates (TBD). The demo offers the Ash Forest region, 4 spells, 4 fight challenges, and 50 Memories; Early Access adds two more regions and the full 100+ Memory pool. See the EA Roadmap Guide for the confirmed launch scope.',
   },
   {
     question: 'When is the full release?',
     answer:
-      'Echoes of Mystralia enters Steam Early Access on August 11, 2026 with 110 Memories, 3 regions, 3 Guardians, and 12 spell forms. Borealys Games has confirmed additional content will be added throughout Early Access, with the full release expected later in 2026.',
+      'Echoes of Mystralia launched into Steam Early Access on August 11, 2026 with 100+ Memories, 3 regions, and 16 starting spells. Borealys Games has described an Early Access phase of about a year on the way to 1.0, with additional content added throughout, and the price expected to rise at 1.0 (per the Steam page).',
   },
   {
     question: 'Will Early Access progress carry over to the full release?',
     answer:
-      'Borealys Games has not yet confirmed whether Early Access progress will carry over to the full release. Given the roguelite structure with permanent progression (Memories, Lotus upgrades), carrying progress forward would be logical, but check official announcements closer to the full release date.',
+      'Borealys Games has not yet confirmed whether Early Access progress will carry over to the full release. Given the roguelite structure with permanent progression (Memories, Lotus upgrades), carrying progress forward would be logical, but check official announcements closer to the 1.0 release.',
   },
   {
     question: 'Does it have controller support?',
@@ -73,7 +73,7 @@ const FAQ_ITEMS = [
   {
     question: 'How do I report bugs or give feedback?',
     answer:
-      'The best channels are: the Steam Community forums for Echoes of Mystralia, the official Borealys Games Discord server, or the in-game feedback tool. The developers are actively engaged with the community during Early Access.',
+      'The best channels are the Steam Community forums for Echoes of Mystralia and the official Discord (linked from the Steam store page). The developers are actively engaged with the community during Early Access.',
   },
 ];
 

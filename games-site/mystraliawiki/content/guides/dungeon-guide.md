@@ -2,8 +2,8 @@
 title: 'Regions & Runs Guide — Dungeons, Layouts & What\'s Confirmed'
 description: 'Does Echoes of Mystralia have dungeons? The honest answer: it\'s a roguelite of regions and runs, not handcrafted dungeons. What\'s confirmed about the 3 launch regions and run structure.'
 category: 'Exploration'
-version: 'Pre-release'
-updated: '2026-08-01'
+version: 'Early Access'
+updated: '2026-08-11'
 keywords: ['echoes of mystralia dungeons', 'echoes of mystralia regions', 'echoes of mystralia run structure', 'echoes of mystralia exploration', 'mystralia dungeon guide']
 related: ['exploration-guide', 'ash-forest-guide', 'ea-roadmap-guide', 'boss-guide']
 ---
@@ -12,7 +12,7 @@ related: ['exploration-guide', 'ash-forest-guide', 'ea-roadmap-guide', 'boss-gui
 
 Does Echoes of Mystralia have dungeons? The honest answer: **no handcrafted "dungeons" have been announced.** The game is a **spellcrafting ARPG roguelite** built around regions and runs, and early guide drafts that described dungeons like a "Whispering Catacombs" or "Magma Core" were **fabricated — no such content has ever been confirmed by Borealys Games.** This guide explains the confirmed structure instead.
 
-> **Pre-release note:** Echoes of Mystralia enters Steam Early Access on **August 11, 2026**. Anything marked **TBD** is not yet confirmed.
+> **Early Access note:** Echoes of Mystralia is now in Steam Early Access (launched **August 11, 2026**). Anything marked **TBD** is not yet confirmed.
 
 ## The Confirmed Run Structure
 
@@ -34,7 +34,7 @@ This is a **run-based structure**, not a dungeon-crawler structure. Expect regio
 | Region #2 | ⏳ One of 3 at launch; name and theme TBD |
 | Region #3 | ⏳ One of 3 at launch; name and theme TBD |
 
-The two unrevealed regions follow the Ash Forest in the Early Access scope of **3 regions and 3 Guardians**. Their names, themes, and Guardian identities are **TBD** — we'll document them as soon as Borealys reveals them.
+The two unrevealed regions follow the Ash Forest in the Early Access scope of **3 regions** and their Guardians. Their names, themes, and Guardian identities are **TBD** — we'll document them as soon as Borealys reveals them.
 
 ## What's TBD About Region Content
 
@@ -46,12 +46,12 @@ The two unrevealed regions follow the Ash Forest in the Early Access scope of **
 
 ## How to Prepare Without Official Dungeon Info
 
-Until launch, the demo is your only real map:
+Until the full region set is mapped, the demo is your only real map:
 
 1. **Learn the Ash Forest layout** — the demo region previews how regions are structured
 2. **Practice the 4 fight challenges** — they simulate elite/boss encounters
 3. **Study Memory combinations** — region clearing at launch will reward flexible loadouts
-4. **Test one spell per element** — coverage helps until real match-ups are known
+4. **Test one spell per element** — with 7 elements at launch, coverage helps until real match-ups are known
 
 ## A Note on This Guide's History
 

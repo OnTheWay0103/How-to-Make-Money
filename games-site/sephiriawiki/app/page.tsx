@@ -4,21 +4,21 @@ import JsonLd from '@/components/JsonLd';
 import GuideCard from '@/components/GuideCard';
 
 const FEATURED_GUIDES = [
-  { title: 'Beginner\'s Guide: First Steps', description: 'New to Sephiria? Master the core roguelite loop — choose a weapon, climb the tower, collect relics, and survive.', slug: 'beginner-guide', category: 'Beginner', updated: '2026-07-20' },
-  { title: 'All Weapons Guide — Stats & Upgrades', description: 'Complete breakdown of Sword & Shield, Greatsword, Dagger, Katana, Crossbow, and Staff. Upgrade trees, mastery perks, and best use cases.', slug: 'weapons-guide', category: 'Weapons', updated: '2026-07-20' },
-  { title: 'Best Builds — Weapon & Relic Synergies', description: 'Optimal builds for every weapon. Relic combinations, inscription setups, and upgrade paths for solo and co-op.', slug: 'builds-guide', category: 'Builds', updated: '2026-07-20' },
-  { title: 'Relics Guide — Complete Catalog of 150+', description: 'Every relic in Sephiria ranked. S-tier to C-tier, how to unlock them, farming methods, and best synergies.', slug: 'relics-guide', category: 'Relics', updated: '2026-07-20' },
-  { title: 'Boss Guide — All 10+ Boss Strategies', description: 'Attack patterns, dodge timings, weak points, and optimal relic setups for every boss encounter.', slug: 'boss-guide', category: 'Bosses', updated: '2026-07-20' },
-  { title: 'Co-op Guide — 4-Player Team Strategies', description: 'Team composition, role assignments, revive tactics, and boss coordination for seamless multiplayer runs.', slug: 'coop-guide', category: 'Co-op', updated: '2026-07-20' },
+  { title: 'Beginner\'s Guide: First Steps', description: 'New to Sephiria? Master the core roguelite loop — choose a weapon, climb the tower, collect artifacts, and survive.', slug: 'beginner-guide', category: 'Beginner', updated: '2026-08-11' },
+  { title: 'All Weapons Guide — Stats & Upgrades', description: 'Complete breakdown of Sword & Shield, Greatsword, Dagger, Katana, Crossbow, and Staff. Upgrade branches, mastery perks, and best use cases.', slug: 'weapons-guide', category: 'Weapons', updated: '2026-08-11' },
+  { title: 'Best Builds — Weapon & Artifact Synergies', description: 'Optimal builds for every weapon. Artifact combinations, inscription setups, and upgrade paths for solo and co-op.', slug: 'builds-guide', category: 'Builds', updated: '2026-08-11' },
+  { title: 'Artifacts Guide — Catalog of ~300', description: 'Every artifact in Sephiria explained. How to unlock them, farming methods, and best synergies for your build.', slug: 'artifacts-guide', category: 'Artifacts', updated: '2026-08-11' },
+  { title: 'Boss Guide — All 10+ Boss Strategies', description: 'Attack patterns, dodge timings, weak points, and optimal artifact setups for every boss encounter.', slug: 'boss-guide', category: 'Bosses', updated: '2026-08-11' },
+  { title: 'Co-op Guide — 4-Player Team Strategies', description: 'Team composition, role assignments, revive tactics, and boss coordination for seamless multiplayer runs.', slug: 'coop-guide', category: 'Co-op', updated: '2026-08-11' },
 ];
 
 const FAQ_ITEMS = [
-  { question: 'What is Sephiria?', answer: 'Sephiria is a pixel-art action roguelite developed by TEAM HORAY (the Dungreed studio). You play as a rabbit warrior climbing the Tower of Sephiria through 6 chapters with 6 weapons and 200+ relics. It supports 1-4 player co-op and has a 94% positive rating on Steam. Sephiria 1.0 launched on July 31, 2026.' },
+  { question: 'What is Sephiria?', answer: 'Sephiria is a pixel-art action roguelite developed by TEAM HORAY (the Dungreed studio). You play as a rabbit warrior climbing the Tower of Sephiria through 6 chapters with 6 weapons and ~300 artifacts. It supports 1-4 player co-op and has a 94% positive rating on Steam. Sephiria 1.0 launched on July 31, 2026.' },
   { question: 'Is it single-player or multiplayer?', answer: 'Both. You can play solo or in online co-op with up to 4 players. Enemy health and damage scale with player count, so solo is balanced and fully viable.' },
-  { question: 'How many weapons are there?', answer: '6 weapon types: Sword & Shield, Greatsword, Dagger, Katana, Crossbow, and Staff. Each weapon branch has 50+ upgrade options and unique mastery perks.' },
-  { question: 'What are relics and inscriptions?', answer: 'Relics are per-run passive items (200+ at 1.0). Inscriptions are permanent socketable bonuses that persist between runs — like runes that permanently upgrade your character. The 1.0 launch adds Talents and Artifacts as new permanent progression systems.' },
-  { question: 'How many chapters and bosses?', answer: '6 chapters with 12+ boss encounters. The story ends at Chapter 6, with a proper ending and credits.' },
-  { question: 'What makes Sephiria different from other roguelites?', answer: 'The combo-driven combat with 6 highly distinct weapons, the permanent Inscription, Talent, and Artifact progression systems, 200+ relics with deep synergies, and 4-player co-op in a charming pixel-art world.' },
+  { question: 'How many weapons are there?', answer: '6 weapon types: Sword & Shield, Greatsword, Dagger, Katana, Crossbow, and Staff. Each weapon branch has dozens of upgrades and unique mastery perks.' },
+  { question: 'What are artifacts and inscriptions?', answer: 'Artifacts are per-run passive items (~300 at 1.0). Inscriptions are permanent socketable bonuses that persist between runs — like runes that permanently upgrade your character. The 1.0 launch adds Talents and Artifacts as new permanent progression systems.' },
+  { question: 'How many chapters and bosses?', answer: '6 chapters with 10+ boss encounters. The story ends at Chapter 6, with a proper ending and credits.' },
+  { question: 'What makes Sephiria different from other roguelites?', answer: 'The combo-driven combat with 6 highly distinct weapons, the permanent Inscription, Talent, and Artifact progression systems, ~300 artifacts with deep synergies, and 4-player co-op in a charming pixel-art world.' },
 ];
 
 export default function Home() {
@@ -66,8 +66,8 @@ export default function Home() {
           </div>
           <div className="bg-[#1a0a2e] rounded-lg border border-[#2a1a4e] p-5 text-center">
             <div className="text-3xl mb-2">💎</div>
-            <h3 className="text-white font-semibold mb-1">200+ Relics</h3>
-            <p className="text-gray-400 text-sm">Deep relic synergies that transform your build each run</p>
+            <h3 className="text-white font-semibold mb-1">~300 Artifacts</h3>
+            <p className="text-gray-400 text-sm">Deep artifact synergies that transform your build each run</p>
           </div>
           <div className="bg-[#1a0a2e] rounded-lg border border-[#2a1a4e] p-5 text-center">
             <div className="text-3xl mb-2">🐰</div>
@@ -77,7 +77,7 @@ export default function Home() {
           <div className="bg-[#1a0a2e] rounded-lg border border-[#2a1a4e] p-5 text-center">
             <div className="text-3xl mb-2">🏛️</div>
             <h3 className="text-white font-semibold mb-1">6 Chapters</h3>
-            <p className="text-gray-400 text-sm">The story ends at Chapter 6 with a proper ending — 12+ bosses</p>
+            <p className="text-gray-400 text-sm">The story ends at Chapter 6 with a proper ending — 10+ bosses</p>
           </div>
           <div className="bg-[#1a0a2e] rounded-lg border border-[#2a1a4e] p-5 text-center">
             <div className="text-3xl mb-2">🔮</div>
@@ -87,7 +87,7 @@ export default function Home() {
           <div className="bg-[#1a0a2e] rounded-lg border border-[#2a1a4e] p-5 text-center">
             <div className="text-3xl mb-2">🎮</div>
             <h3 className="text-white font-semibold mb-1">94% Positive</h3>
-            <p className="text-gray-400 text-sm">Very Positive Steam rating — ~5,400+ reviews at launch</p>
+            <p className="text-gray-400 text-sm">Very Positive Steam rating — ~5,700 reviews</p>
           </div>
         </div>
       </section>

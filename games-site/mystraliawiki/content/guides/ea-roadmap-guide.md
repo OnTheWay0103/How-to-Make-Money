@@ -1,74 +1,78 @@
 ---
 title: 'EA Roadmap & What to Expect — Echoes of Mystralia Early Access'
-description: 'Echoes of Mystralia Early Access roadmap — confirmed launch scope for August 11, demo save transfer and Echo Fragments reset, what follows during EA, and the full-release outlook.'
-category: 'Pre-Release Info'
-version: 'Pre-release'
-updated: '2026-08-01'
-keywords: ['echoes of mystralia early access', 'echoes of mystralia roadmap', 'echoes of mystralia release date', 'echoes of mystralia ea content', 'echoes of mystralia full release']
+description: 'The Echoes of Mystralia Early Access roadmap — confirmed launch scope for August 11, what follows during EA, the demo save transfer, and the full-release outlook with the price expected to rise at 1.0.'
+category: 'Game Info'
+version: 'Early Access'
+updated: '2026-08-11'
+keywords: ['echoes of mystralia early access', 'echoes of mystralia roadmap', 'echoes of mystralia release date', 'echoes of mystralia ea content', 'echoes of mystralia full release', 'echoes of mystralia 1.0']
 related: ['ea-launch-guide', 'beginner-guide', 'spell-crafting-guide', 'faq']
 ---
 
 # EA Roadmap & What to Expect — Early Access Launch
 
-Echoes of Mystralia enters **Steam Early Access on August 11, 2026** — the spellcrafting ARPG roguelite from Borealys Games, the studio behind *Mages of Mystralia* (2017). With over **175,000 Steam wishlists** and a free demo already out, it's one of the most anticipated indie launches of late summer. Here's everything confirmed about what ships at Early Access, what comes after, and how the demo save transfers.
+Echoes of Mystralia entered **Steam Early Access on August 11, 2026** (15:00 UTC) — the spellcrafting ARPG roguelite from Borealys Games, the studio behind *Mages of Mystralia* (2017). The Early Access announcement came on July 17, 2026, after the game passed **175,000 Steam wishlists**. Here's everything confirmed about what ships at Early Access, what comes after, and how the demo save transfers.
 
-> **Pre-release note:** Anything marked **TBD** has not been officially confirmed and will be updated as Borealys announces details.
+## What Ships at Early Access (Per the Official Steam Page)
 
-## What Ships on August 11 (Confirmed)
-
-| Content | Early Access Launch | Demo |
-|---------|---------------------|------|
+| Content | Early Access Launch | Demo (Feb 16, 2026) |
+|---------|---------------------|---------------------|
 | Regions | **3** | 1 (The Ash Forest) |
-| Guardians (bosses) | **3** (one per region) | 1 (Therakan) |
-| Spell forms | **12** | 4 |
-| Memories | **110** | 50 |
-| Fight challenges | TBD | 4 |
+| Magical elements | **7** | The trio shown (fire, ice, lightning) |
+| Starting spells | **16** | 4 |
+| Memories | **100+** | 50 |
+| Relics | **40+** | — |
+| Lotus Altar upgrades | **50+** | — |
+| Steam achievements | **25** | — |
+| Guardian / Elite encounters | ✅ Confirmed | 1 Guardian (Therakan), 4 fight challenges |
+| Hidden puzzles | ✅ Confirmed | — |
 
-The three launch regions progress in difficulty. Only the first — **The Ash Forest** (demo region, Guardian: **Therakan**) — has been named and shown; the other two regions and their Guardians are **TBD**.
+The three launch regions progress in difficulty. Only the first — **The Ash Forest** (the demo region, with its first Guardian **Therakan**) — has been officially named.
 
 ## Demo Save Transfer — What Carries Over
 
-Borealys has confirmed:
+Per developer announcements:
 
 - ✅ **Demo save data transfers to Early Access**
-- ⚠️ **Echo Fragments reset to zero** — the demo currency is retired because progression systems changed between demo and EA. Don't hoard them; the reset is by design.
+- ⚠️ **Progression systems were reworked between demo and EA** — Borealys changed systems between the two builds, so not everything behaves identically to the demo
 
-What exactly transfers beyond "save data" (Memories, spells, region progress) has not been itemized (**TBD**). Practical advice: finish the demo run you're on before August 11, and spend the final week learning the crafting system rather than farming currency.
+What exactly transfers beyond "save data" (Memories, spells, region progress) has not been itemized. Practical advice: play the demo while it's still useful for practice — and re-verify anything you learned in the demo sandbox against the launch build.
 
 ## What's NOT in Early Access (Yet)
 
-- **More than 3 regions** — additional regions are expected to come during Early Access (TBD)
-- **Console versions** — currently announced for PC via Steam; additional platforms are expected later but are not yet confirmed
-- **A full release date** — no full-release window has been announced
+- **More than 3 regions** — additional regions are expected to come during Early Access (per the developer's stated roadmap)
+- **Console versions** — currently announced for PC via Steam; nothing confirmed for other platforms
+- **A finished story** — the final narrative act is planned for the 1.0 update
 
-## The Early Access Roadmap
+## The Early Access Roadmap (Per Developer Announcements)
 
-Borealys has committed to **gameplay-focused updates throughout Early Access** and a community-first approach (developer feedback channels include an official Discord). Based on the studio's stated direction, expect:
+Borealys has committed to **gameplay-focused updates throughout Early Access** and a community-first approach (the official Discord, linked from the Steam page, is the feedback hub). Based on the studio's stated direction:
 
-1. **Post-launch content patches** — new Memories and spell forms to expand the crafting pool, plus balance tuning from player data
-2. **More regions and Guardians** — the launch trio is described as the foundation
-3. **Progression-system refinement** — the studio has already shown willingness to rework progression (the Echo Fragments reset)
-4. **Community-driven balancing** — the spellcrafting system's "millions of combinations" will be tuned with real player data
-5. **A full release** — no date announced yet; EA will run until the vision is complete
+1. **Post-launch content patches** — new Memories, Relics, and spells to expand the crafting pool, plus balance tuning from player data
+2. **More regions and boss fights** — the launch trio of regions is described as the foundation
+3. **New puzzles** — hidden puzzles are confirmed at launch, and more are expected
+4. **Progression-system refinement** — the studio has already shown willingness to rework progression (between demo and EA)
+5. **The final narrative act** — planned for the 1.0 update
+6. **A full release** — Early Access is planned to last roughly a year before 1.0 (per developer announcements)
 
-Every item above beyond the confirmed launch scope is **TBD**.
+Items beyond the confirmed launch scope are the developer's stated plans, not guarantees — contents and dates are announced as they land.
 
 ## Early Access Price & Platform
 
-- **Price:** not officially announced (**TBD**). The demo is free.
-- **Platform:** Windows PC via Steam at launch; other platforms later (**TBD** specifics)
-- **Cross-progression:** demo → EA save transfer is the only cross-version feature confirmed
+- **Price:** paid Early Access on Steam; the price is **expected to rise at the 1.0 release** (per developer announcements)
+- **Platform:** PC via Steam (single-player); other platforms unannounced
+- **Cross-version progression:** demo → EA save transfer is the confirmed feature (per developer announcements); EA → 1.0 carry-over has not been announced
 
-## How to Prepare Before August 11
+## How to Get the Most Out of Early Access
 
-1. **Play the demo** — your save transfers, and time in the Ash Forest is time you don't repeat
-2. **Collect Memories, not Echo Fragments** — Memories are the crafting resource; the currency resets
-3. **Learn the crafting system now** — the demo teaches Memory arrangement with 4 spells and 50 Memories; launch expands the sandbox
-4. **Beat Therakan** — the first Guardian is in the demo; knowing the fight means your first EA session starts ahead
+1. **Play the demo** — it's still the fastest way to learn the fundamentals (per developer announcements, your save transfers)
+2. **Collect Memories and Relics** — the crafting resource and the passive item pool are the two confirmed growth layers
+3. **Learn the crafting system** — the demo teaches Memory arrangement with 4 spells and 50 Memories; the launch build expands the sandbox
+4. **Beat Therakan** — the first Guardian is in the demo and the launch build; knowing the fight means your early sessions start ahead
+5. **Follow official channels** — patch notes and content announcements land on Steam and the official Discord
 
-## Our Coverage of the Roadmap Ahead
+## The Roadmap Ahead
 
-We'll update this guide as Borealys announces patches and release dates. For now, treat Early Access as the foundation: the spellcrafting system is the confirmed centerpiece, the first three regions are the launch scope, and the studio's track record with *Mages of Mystralia* suggests a long, content-rich lifecycle.
+Treat Early Access as the foundation: the spellcrafting system is the confirmed centerpiece, the first three regions are the launch scope, and the studio's track record with *Mages of Mystralia* suggests a long, content-rich lifecycle. We'll update this guide as Borealys announces patches and release dates.
 
 ## Related Guides
 

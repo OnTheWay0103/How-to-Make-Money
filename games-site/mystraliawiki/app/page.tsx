@@ -6,56 +6,56 @@ import GuideCard from '@/components/GuideCard';
 const FEATURED_GUIDES = [
   {
     title: 'Beginner Guide: Getting Started',
-    description: 'New to Echoes of Mystralia? Learn the basics of spell crafting, Memories, and what to do in your first few hours.',
+    description: 'New to Echoes of Mystralia? Learn the basics of spell crafting, Memories, and what to do in your first hours of Early Access.',
     slug: 'beginner-guide',
     category: 'Beginner',
-    updated: '2026-07-22',
+    updated: '2026-08-11',
   },
   {
     title: 'Spell Crafting Guide: Complete System Breakdown',
-    description: 'Master the spell crafting system — fire, ice, and lightning elements, spell forms, Memory modifiers, and how to create millions of unique combinations.',
+    description: 'Master the spell crafting system — 7 elements, 16 starting spells, and 100+ Memories, and how to create millions of unique combinations.',
     slug: 'spell-crafting-guide',
     category: 'Combat',
-    updated: '2026-07-22',
+    updated: '2026-08-11',
   },
   {
     title: 'Best Spell Builds & Combinations',
-    description: 'Top-tier spell combinations for maximum damage, crowd control, and survivability. Optimized builds for every playstyle and Guardian encounter.',
+    description: 'Planning loadouts in Early Access — the confirmed crafting fundamentals, demo-tested combos, and a framework for evaluating builds as the meta forms.',
     slug: 'best-spell-builds',
     category: 'Builds',
-    updated: '2026-07-22',
+    updated: '2026-08-11',
   },
   {
-    title: 'All 110 Memories Guide',
-    description: 'Complete catalog of all Memories — where to find them, what each Memory does, and how to combine them for the strongest spell effects.',
+    title: 'Memories Guide: The Memory Economy',
+    description: 'The 100+ Memories at launch (50 in the demo) — how harvesting, reordering, and combining works, confirmed facts only.',
     slug: 'memories-guide',
     category: 'Collection',
-    updated: '2026-07-22',
+    updated: '2026-08-11',
   },
   {
-    title: 'Relics Guide: The Honest State of Item Systems',
-    description: 'Are there Relics in Echoes of Mystralia? No official source says so — here\'s what\'s confirmed about passive power systems and what stays TBD at Early Access.',
+    title: 'Relics Guide: Confirmed & TBD',
+    description: '40+ Relics confirmed (per the official Steam page) — how passive items round out a build, and what stays TBD in Early Access.',
     slug: 'relics-guide',
     category: 'Systems',
-    updated: '2026-08-01',
+    updated: '2026-08-11',
   },
   {
-    title: 'Guardian Boss Guide: All Boss Strategies',
-    description: 'Complete boss guide covering all 3 Guardians — Therakan of Ash Forest and more. Attack patterns, weaknesses, and spell loadout recommendations.',
+    title: 'Enemy & Guardian Boss Guide',
+    description: 'Guardian and Elite encounters — Therakan\'s demo-verified patterns, elite pressure, and what\'s confirmed about region-heart bosses.',
     slug: 'boss-guide',
     category: 'Bosses',
-    updated: '2026-07-22',
+    updated: '2026-08-11',
   },
 ];
 
 const FAQ_ITEMS = [
   {
     question: 'What is Echoes of Mystralia?',
-    answer: 'Echoes of Mystralia is an action-heavy spellcrafting ARPG roguelite developed by Borealys Games. You play as Mazarim, a Watcher protecting the Cycle of Memories. The game features a unique spell crafting system where you combine fire, ice, and lightning elements with Memory modifiers to create millions of spell combinations. It enters Steam Early Access on August 11, 2026.',
+    answer: 'Echoes of Mystralia is an action-heavy spellcrafting ARPG roguelite developed by Borealys Games. You play as Mazarim, a Watcher protecting the Cycle of Memories. The game features a unique spell crafting system where you combine the game\'s 7 elements with Memories harvested from enemies to create millions of spell combinations. It launched into Steam Early Access on August 11, 2026.',
   },
   {
     question: 'Is Echoes of Mystralia free to play?',
-    answer: 'No. Echoes of Mystralia is a paid Early Access title on Steam. Pricing will be announced closer to the August 11, 2026 release date. A free demo is currently available on Steam featuring 4 core spells, 50 Memories, and the first region. Note: Relics have not been confirmed by official sources — see the Relics Guide for the honest state of item systems.',
+    answer: 'No. Echoes of Mystralia is a paid Early Access title on Steam, and its price is expected to rise at the 1.0 release (per the Steam page). A free demo is available on Steam featuring 4 core spells, 50 Memories, and the first region. 40+ Relics are confirmed — see the Relics Guide for what\'s verified and what stays TBD.',
   },
   {
     question: 'Can I play Echoes of Mystralia solo?',
@@ -63,15 +63,15 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How does the spell crafting system work?',
-    answer: 'Spell crafting is the core mechanic. You start with 12 spell forms (base templates) and collect Memories from defeated enemies. Memories act as modifiers — you slot them into spells to change behavior, damage type, and effects. The positioning of components determines the output. With fire, ice, and lightning elements plus 110+ Memories, there are millions of possible spell combinations.',
+    answer: 'Spell crafting is the core mechanic. You start with 16 starting spells (base templates; 4 in the demo) and collect Memories from defeated enemies. Memories are reordered and combined to shape each spell — placement changes what the spell does, with fire next to ice becoming steam as the official example. With 7 elements and 100+ Memories, there are millions of possible spell combinations.',
   },
   {
     question: 'What are Memories and how do I get them?',
-    answer: 'Memories are spell modifiers dropped by defeated enemies throughout your runs. They can change a spell\'s element, add chain effects, increase area of effect, summon projectiles, and more. At Early Access launch, there are 110 Memories to collect across 3 regions. You keep collected Memories between runs for permanent spell customization.',
+    answer: 'Memories are the components dropped by defeated enemies throughout your runs. Reordering and combining them changes what a spell does — official examples include fire next to ice becoming steam, and lightning behind a homing component chasing enemies. At Early Access launch there are 100+ Memories to collect across 3 regions (50 in the demo). You keep collected Memories between runs.',
   },
   {
     question: 'When is the full release?',
-    answer: 'Echoes of Mystralia enters Steam Early Access on August 11, 2026 with 110 Memories, 3 regions, 3 Guardians, and 12 spell forms. The full release is expected later in 2026. Borealys Games has confirmed additional content will be added throughout Early Access.',
+    answer: 'Echoes of Mystralia launched into Steam Early Access on August 11, 2026 with 100+ Memories, 3 regions, and 16 starting spells. Borealys Games has described an Early Access phase of about a year on the way to 1.0, with additional content added throughout, and the price expected to rise at 1.0 (per the Steam page).',
   },
 ];
 
@@ -87,11 +87,11 @@ export default function Home() {
         </h1>
         <p className="text-lg text-gray-400 max-w-xl mx-auto mb-8">
           Complete guide hub for the spellcrafting ARPG roguelite by Borealys Games.
-          Spell builds, all 110 Memories, Guardian boss strategies — everything you need.
+          Spell builds, 100+ Memories, Guardian boss strategies — everything you need.
         </p>
         <div className="flex items-center justify-center gap-4">
           <a
-            href="https://store.steampowered.com/app/974480/Echoes_of_Mystralia/"
+            href="https://store.steampowered.com"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-amber-500 hover:bg-amber-400 text-black font-semibold px-6 py-3 rounded-lg transition-colors text-sm"

@@ -7,7 +7,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'All Guides',
   description:
-    'Complete The Mound: Omen of Cthulhu guide collection — weapon classes, builds, boss strategies, EX-Mod crafting, progression tips, and more.',
+    'Complete Dinoblade guide collection — bosses, weapons, builds, parry mechanics, Soul Arts, progression tips, and more.',
 };
 
 export default function GuidesPage() {
@@ -27,7 +27,7 @@ export default function GuidesPage() {
 
       <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">Guides</h1>
       <p className="text-gray-400 mb-8">
-        {guides.length} guides covering every aspect of The Mound: Omen of Cthulhu.
+        {guides.length} guides covering every aspect of Dinoblade — the dinosaur Soulslike by Team Spino LLC.
       </p>
 
       {/* Category filter tags */}

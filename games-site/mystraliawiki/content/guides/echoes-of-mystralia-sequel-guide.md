@@ -1,9 +1,9 @@
 ---
 title: 'Echoes of Mystralia vs Mages of Mystralia — What\'s New in the Sequel'
 description: 'Is Echoes of Mystralia a sequel to Mages of Mystralia? Yes — here\'s how the 2026 spellcrafting roguelite compares to the 2017 original, what carries over, and what changes.'
-category: 'Pre-Release Info'
-version: 'Pre-release'
-updated: '2026-08-01'
+category: 'Game Info'
+version: 'Early Access'
+updated: '2026-08-11'
 keywords: ['echoes of mystralia sequel', 'is echoes of mystralia a sequel', 'echoes of mystralia vs mages of mystralia', 'mages of mystralia 2', 'echoes of mystralia story', 'echoes of mystralia mazarim']
 related: ['beginner-guide', 'spell-crafting-guide', 'ea-roadmap-guide', 'faq', 'memories-guide']
 ---
@@ -12,7 +12,7 @@ related: ['beginner-guide', 'spell-crafting-guide', 'ea-roadmap-guide', 'faq', '
 
 **Echoes of Mystralia is a sequel to *Mages of Mystralia* (2017)** — same developer, same world, same spellcrafting DNA — but it is not the same kind of game. The original was a story-driven action-adventure; the sequel is a **spellcrafting ARPG roguelite** built around runs, a new protagonist, and an evolved version of the award-winning magic system that made the first game famous. If you're a fan of the original wondering what carried over and what changed, this guide is for you.
 
-> **Pre-release note:** Echoes of Mystralia enters Steam Early Access on **August 11, 2026**. Details marked **TBD** have not been confirmed by Borealys Games.
+> **Early Access note:** Echoes of Mystralia is now in Steam Early Access (launched **August 11, 2026**). Details marked **TBD** have not been confirmed by Borealys Games.
 
 ## The Basics Side by Side
 
@@ -65,26 +65,26 @@ Echoes of Mystralia is a **roguelite**:
 - **Runs through regions** — each run plays through procedurally varied territory
 - **The Azimuth Temple hub** — between runs you return to the hub to upgrade permanent skills, unlock new combat options, and build relationships with fellow Watchers
 - **Death is a loop, not a failure** — failed runs still feed permanent progression
-- **3 regions and 3 Guardians at Early Access launch** — the confirmed launch scope
+- **3 regions at Early Access launch**, each guarded by a primordial Guardian — the confirmed launch scope
 
 If you loved the original's world and story but prefer structured campaigns, the shift to roguelite structure is worth weighing. If you loved the original's magic system and wished there was more of it, the sequel's design is aimed directly at you.
 
 ## What's Confirmed About the New Magic System
 
-- **12 spell forms** at Early Access launch (4 in the free demo) — the base templates of spellcrafting
-- **110 Memories** at launch (50 in the demo) — the components you harvest and combine
-- **Fire, ice, and lightning** — the element trio across official material
+- **16 starting spells** at Early Access launch (4 in the free demo) — the base templates of spellcrafting
+- **100+ Memories** at launch (50 in the demo) — the components you harvest and combine
+- **7 elements**, with fire, ice, and lightning among the ones shown in official material
 - **Memories are reordered and combined** — arrangement changes what a spell does
-- **The demo save transfers to Early Access** — your progress follows you (Echo Fragments, the demo currency, reset by design)
+- **The demo save transfers to Early Access** — your progress follows you (per developer announcements)
 
-The full mechanics — how Memory placement maps to spell behavior, hybrid element effects, rarity systems — are **TBD** until launch.
+The full mechanics — how Memory placement maps to spell behavior, hybrid element effects, rarity systems — are being documented from the Early Access build.
 
 ## What's Confirmed About the Launch
 
 - **Steam Early Access: August 11, 2026** — PC first; additional platforms later (TBD)
-- **Scope:** 3 regions, 3 Guardians, 110 Memories, 12 spell forms
+- **Scope:** 3 regions, 100+ Memories, 16 starting spells, 40+ Relics
 - **The demo:** free on Steam — The Ash Forest region, Therakan (the first primordial Guardian), 4 fight challenges
-- **Wishlists:** over 175,000 before launch
+- **Wishlists:** over 175,000 before the launch
 - **Full release:** no date announced (TBD)
 
 ## Should You Play the Sequel If You Loved the Original?

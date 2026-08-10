@@ -1,109 +1,101 @@
 ---
 title: "Solo Guide — Climbing the Tower Alone"
-description: "Comprehensive solo play guide for Sephiria. Learn how to adapt builds, manage aggro, survive without teammates, and defeat bosses as a solo player."
+description: "Comprehensive solo play guide for Sephiria. Learn how to adapt builds, survive without teammates, manage every enemy's attention, and beat the bosses as a solo player."
 category: "Solo"
 version: "1.0"
-updated: "2026-07-20"
-keywords: [Sephiria solo guide, solo build, how to solo Sephiria, solo boss strategy, single player tips]
-related: [beginner-guide, builds-guide, boss-guide, chapter-guide, relics-guide]
+updated: "2026-08-11"
+keywords: ["Sephiria solo guide", "solo build", "how to solo Sephiria", "solo boss strategy", "single player tips"]
+related: ["beginner-guide", "builds-guide", "boss-guide", "chapter-guide", "artifacts-guide"]
 ---
 
 ## The Solo Challenge
 
-Sephiria scales enemy health and damage based on player count, so solo play is absolutely viable — but it demands a different approach. Without teammates to revive you, draw aggro, or provide buffs, **survivability becomes your top priority**.
+Sephiria scales enemy health and damage with player count — solo is the base, unmodified difficulty, and it is **fully balanced and viable**. The game was designed to be cleared alone. But solo demands a different approach: without teammates to revive you or draw aggro, **survivability becomes your top priority**.
 
 ### Solo vs Co-op Differences
 
 | Aspect | Solo | Co-op |
 |---|---|---|
-| Enemy HP | 100% base | 280% (4 players) |
-| Enemy Damage | 100% base | 220% (4 players) |
-| Revival | None (death = run end) | Teammates can rez |
+| Enemy scaling | Base difficulty | Health and damage scale with player count |
+| Revival | None — death ends the run | Downed-state revive system |
 | Aggro | All enemies target you | Split between players |
-| Build Priority | Survivability + self-buffs | Synergy + team buffs |
+| Build priority | Survivability + self-sufficiency | Synergy + role coverage |
 
 ## Best Weapons for Solo
 
-### S-Tier Solo Weapons
+The full roster is viable solo — the differences are in how forgiving each weapon is when you're alone:
 
-| Weapon | Why It Excels |
-|---|---|
-| **Sword (Paladin Path)** | Self-healing on block, balanced stats, reliable at all ranges |
-| **Bow (Elemental Path)** | Kite enemies forever, status effects control crowds safely |
+| Weapon | Solo Strength | Watch Out For |
+|---|---|---|
+| **Sword & Shield** | The best solo starter — block covers your mistakes, balanced stats | Slower clear speed than dedicated DPS |
+| **Crossbow** | Safe range keeps you out of melee; kiting is trivial | Requires space; corridor rooms are awkward |
+| **Staff** | Elemental AoE clears rooms; range keeps you safe | Setup-heavy; fragile if enemies close in |
+| **Greatsword** | Stagger chains lock enemies down — solo bossing king | Slow swings punish whiffs; no block |
+| **Dagger** | Fast, relentless pressure | Very short range — no safety net |
+| **Katana** | Strong burst with positioning skill | High-skill floor; punishing mistakes |
 
-### A-Tier Solo Weapons
-
-| Weapon | Why It Excels |
-|---|---|
-| **Spear (Phalanx Path)** | Reach keeps enemies at distance, defense auras help |
-| **Staff (Frost Path)** | Freeze locks enemies, great control but mana-hungry |
-
-### Avoid for Solo
-
-| Weapon | Why It Struggles |
-|---|---|
-| **Fist (Gauntlets)** | Too risky — requires close range with no safety net |
-| **Scythe** | Slow wind-ups leave you vulnerable without team support |
+**Beginner solo pick:** Sword & Shield or Crossbow. **Boss-focused solo:** Greatsword.
 
 ## Solo Build Philosophy
 
 ### The Golden Rule: Sustainability Over Damage
 
-In co-op, you can afford glass cannon builds because teammates cover your weaknesses. Solo, **every build needs at least two of these three**:
+In co-op, teammates cover your weaknesses. Solo, **every build needs at least two of these three**:
 
-1. **Healing** — Life-steal, regen, or potion efficiency
-2. **Mobility** — Dodges, speed boosts, invincibility frame extensions
-3. **Crowd Control** — Stuns, slows, freezes, knockbacks
+1. **Healing** — life-leech, regen, or potion efficiency
+2. **Mobility** — dash management, speed boosts, invincibility-frame extension
+3. **Crowd control** — slows, freezes, knockbacks, stagger
 
-### Recommended Solo Builds
+### Build Layers That Matter Solo
 
-**Sword Paladin (Best for beginners solo):**
-- Core relics: Sanctuary Seal, Courage Amulet, Reflective Shield
-- Inscriptions: Fortify, Regeneration, Resistance
-- Strategy: Block everything, heal through blocks, parry for burst
-
-**Bow Kite (Best for experienced solo):**
-- Core relics: Frost Heart, Quiver of Endless Arrows, Swift Boots
-- Inscriptions: Critical Eye, Range Master, Elemental Affinity
-- Strategy: Never stop moving, freeze approaching enemies, pick off from distance
+- **Block and dodge are your real defense** — Sephiria's enemies telegraph attacks; solo, learning to block *and* dodge is mandatory, not optional (see the [Beginner's Guide](/guides/beginner-guide)).
+- **Sustain artifacts** — life-leech and regen artifacts turn damage into survival. See the [Artifacts Guide](/guides/artifacts-guide).
+- **Commit to one element** — tablets decide your element direction; a focused element build outperforms a mixed bag (see the [Tablets Guide](/guides/tablets-guide)).
 
 ## Solo Boss Strategies
 
 ### General Boss Tips for Solo
 
-1. **Learn the tells** — Solo, you can't be revived. Knowing every attack telegraph is mandatory.
-2. **Don't greedy** — One extra hit isn't worth taking a boss attack. Prioritize dodging.
-3. **Use the arena** — Many boss arenas have pillars or obstacles you can use to block attacks.
-4. **Save burst for phase transitions** — Most bosses are vulnerable during their fury transition animation.
+1. **Learn the tells** — solo, there is no revive. Knowing every attack telegraph is mandatory.
+2. **Don't get greedy** — one extra hit isn't worth taking a boss attack. Prioritize dodging.
+3. **Use the arena** — many boss arenas have obstacles you can use to break line of sight.
+4. **Save burst for phase transitions** — bosses are typically vulnerable after their phase-change moves.
 
-### Chapter-by-Chapter Solo Tips
+### Chapter-by-Chapter Solo Notes
 
 | Chapter | Solo-Specific Tip |
 |---|---|
-| 1 | Practice parrying Golemnir's root slam — it's the easiest boss to perfect |
-| 2 | Kill clones instantly. Two specters = certain death solo. |
-| 3 | Clear page minions before damaging Bibliarch. They overwhelm you quickly. |
-| 4 | Bring a light-source relic. Fighting Umbrawisp in the dark is impossible. |
-| 5 | Don't melee Infernis. Bow or Staff only. The lava AoE is too punishing up close. |
-| 6 | Save a healing consumable for each phase. This is a marathon, not a sprint. |
+| 1 — The Rooted Depths | Easiest fights — use this chapter to practice blocking |
+| 2 — The Whispering Halls | Watch for enemy groups that flank; kill ranged enemies first |
+| 3 — The Mirrored Library | First real difficulty spike — bring a coherent build |
+| 4 | Enemy density rises — movement becomes as important as damage |
+| 5 | Longest chapter — manage potion stock, don't waste heals |
+| 6 — Finale | No recovery rooms in the boss gauntlet — enter with full stock |
 
-## Relic Priority for Solo
+For every boss's patterns, see the [Boss Guide](/guides/boss-guide).
 
-| Priority | Relic | Why |
+## Artifact Priority for Solo
+
+Look for these classes of artifacts (all ~300 artifacts are in the pool):
+
+| Priority | Artifact Class | Why |
 |---|---|---|
-| 1st | Vampiric Fang | Life-steal is the strongest solo sustain |
-| 2nd | Windcloak | Extra dodge utility saves runs |
-| 3rd | Swift Boots | Kiting requires speed |
-| 4th | Iron Shell | Extra defense for mistakes |
-| 5th | Adrenaline Rush | Damage bonus at low HP (synergizes with life-steal) |
+| 1st | Life-leech / regen | Sustain is the strongest solo stat |
+| 2nd | Damage reduction | A safety net for mistakes |
+| 3rd | Dodge / mobility | Kiting and positioning power |
+| 4th | Damage multipliers | For your committed element |
+| 5th | Economy | Gold and potion finds keep you stocked |
 
 ## Inscriptions for Solo
 
-Focus on inscriptions that provide **passive uptime**:
-- **Regeneration** — Slow but constant healing
-- **Fortify** — Damage reduction when below 50% HP
-- **Second Wind** — Survive a killing blow once per run (extremely valuable)
-- **Dodge Master** — Extend invincibility frames
+Destiny Inscriptions are permanent, so they're the backbone of solo progression:
+
+- **Sustain bonuses** — healing and regen effects compound across every run
+- **Damage reduction** — cheap insurance on every climb
+- **Survival effects** — anything that extends how long you can stay alive in a boss fight
+- **Potion capacity** — the Extra Potion Slot inscription is a solo staple
+
+See the [Inscriptions Guide](/guides/inscriptions-guide) for the full unlock priority.
 
 ## Related Guides
 
@@ -111,4 +103,5 @@ Focus on inscriptions that provide **passive uptime**:
 - [Builds Guide](/guides/builds-guide) — Detailed solo builds for each weapon
 - [Boss Guide](/guides/boss-guide) — Attack patterns and timings
 - [Chapter Guide](/guides/chapter-guide) — Full chapter walkthrough
-- [Relics Guide](/guides/relics-guide) — Complete relic catalog
+- [Artifacts Guide](/guides/artifacts-guide) — The per-run items that keep you alive
+- [Co-op Guide](/guides/coop-guide) — For when you want a team instead

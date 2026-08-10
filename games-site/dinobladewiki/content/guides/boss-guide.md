@@ -1,116 +1,84 @@
 ---
-title: "Dinoblade Boss Guide — Kira the Exile, Axe, and Kasei the Tyrant"
-description: "Verified boss strategies for Dinoblade's three main bosses — attack patterns, parry windows, Instinct Counter timing, and what each boss teaches you."
+title: "Dinoblade Boss Guide — Alpha Predators, Posture & Boss Rush Mode"
+description: "Everything verified about Dinoblade bosses — Alpha predator bosses that rule each region, the parry-and-posture loop that wins fights, and the Boss Rush Mode unlocked after the final boss."
 category: "Bosses"
 version: "1.0"
-updated: "2026-08-01"
+updated: "2026-08-11"
 keywords:
   - Dinoblade bosses
-  - Kira the Exile
-  - Axe boss
-  - Kasei the Tyrant
-  - how to beat kira the exile
-  - how to beat kasei the tyrant
-  - boss patterns
+  - Dinoblade boss guide
+  - Dinoblade alpha predator
+  - Dinoblade boss rush
+  - Dinoblade final boss
+  - how to beat dinoblade bosses
 related:
-  - parry-guide
   - beginner-guide
   - soul-arts-guide
-  - boss-rush-guide
+  - enemy-guide
+  - new-game-plus-guide
+  - weapons-guide
 ---
 
-# Dinoblade Boss Guide — Kira the Exile, Axe, and Kasei the Tyrant
+# Dinoblade Boss Guide — Alpha Predators, Posture & Boss Rush Mode
 
-Dinoblade's campaign has three main bosses, each ruling one part of the world. Every boss follows the game's core **posture-and-parry logic** — Resolve bars, Instinct Counters, and phase transitions — so the same fundamentals apply to all three.
+Every region of Dinoblade's prehistoric world is **ruled by a ferocious Alpha apex predator that guards the path forward** — that is the confirmed boss structure of the game. Boss fights are the heart of the experience: weapon-wielding dinosaurs far larger and more dangerous than anything in the fields around them.
 
-**Honesty note:** the details below come from verified walkthroughs and launch coverage. Where specifics are unconfirmed, they're marked TBD. Treat any guide claiming exact boss HP, damage numbers, or "phase 2 at X% HP" for unverified fights with suspicion.
+**Honesty note:** the official material does not publish a complete boss list — no confirmed roster of names, counts, or HP values exists as of August 2026. This guide covers what is verified (how bosses work, what they are, and what defeating them unlocks) and stays honest about what is not documented. Treat any guide printing exact boss HP, damage numbers, or "phase 2 at X% HP" for Dinoblade with suspicion — none of that is sourced.
 
----
+## Alpha Predators (Verified)
 
-## Boss Rules That Apply to Every Fight
+Confirmed boss examples from official material and launch coverage:
 
-1. **Fill the Resolve bar with parries.** Every boss has a Resolve bar. Successful parries fill it; when it's full, you land a heavy finishing blow.
-2. **Instinct Counter is the damage key.** When a boss's Resolve bar is full, a perfectly timed parry on their attack triggers a powerful counterattack "clash" that deals massive damage. This is *the* boss mechanic — the game teaches it explicitly before your first boss. Wait for a real attack animation and time your parry; do not spam block when the bar is full.
-3. **Unblockable attacks must be dodged.** Not everything can be parried — boss coverage confirms unblockable attacks exist.
-4. **Perfect parries restore stamina and Resonance**, so an aggressive parry game keeps your resources topped up across a long fight.
-5. **Bosses have phase transitions** and higher Resolve pools than regular enemies.
+- **A T-Rex that wields a smaller dinosaur as a weapon** — the game's showcase Alpha, swinging an improvised club of its own kind.
+- **Tyrannosaurs armed with battleaxes** — Alpha-class fighters that bring real weapons to the fight.
+- **Tyrannosaurs armed with halberds** — reach-wielding Alphas that punish careless spacing.
 
----
+Rival dinosaurs in general are **armed with brutal weapons of their own** — battleaxes, halberds, swords, and scythes — and the Alphas are the most dangerous of them. Bosses are described as "challenging" in the game's official material, consistent with the Soulslike genre.
 
-## Boss 1: Kira the Exile (Part 1 — the cavern)
+## Boss Rules That Apply to Every Fight (Confirmed Mechanics)
 
-Kira is the first main boss, fought at the end of the opening cavern. He is the game's teaching fight: his telegraphed moveset is designed to make you practice the Instinct Counter.
+1. **The posture loop is the boss mechanic.** Parries build a boss's posture; when posture breaks, the boss is guard-broken and open to a **counterattack**. This is the primary damage window in every fight.
+2. **Not everything can be parried.** Some attacks must be dodged with roll i-frames. Learn which attacks in each fight are dodge-only.
+3. **Stamina is the fight's real health bar.** Boss fights are long; stamina discipline — not greed — wins them.
+4. **Every victory unlocks strength.** Beating bosses feeds your progression: attribute and skill upgrades, Soul Arts, and the ability to **summon defeated bosses** to fight alongside you.
 
-**Confirmed attack patterns:**
+## The Final Boss and the Meteor
 
-- **Three-hit combo** — telegraphed and punishable; parry timing is learnable across the three swings.
-- **Charging attacks** — Kira charges into a ground explosion. Dodge or parry the approach, then punish.
+The campaign builds toward a finale straight from the game's famous trailer: **preparing to fight the meteor** that caused the dinosaurs' extinction. The exact structure of the final encounter is not officially documented in detail — no published walkthrough covers every phase — but the meteor fight is the confirmed climax of the story.
 
-**Strategy:**
+## Boss Rush Mode (Verified Endgame)
 
-- Do not rush the fight. Block his combo strings first, learn the rhythm, then start parrying.
-- When his Resolve bar is full, wait for a real attack and perfect-parry it — this triggers the Instinct Counter and deals far more damage than anything else you have.
-- Use i-frames for his charge; the ground explosion has a wider hitbox than it looks.
+**Boss Rush Mode unlocks after defeating the final boss.** It is the game's confirmed post-game feature:
 
-**Rewards (confirmed):** defeating Kira unlocks the **Summoning system** and access to **Soul Arts upgrades** purchased with **Boss SP** (earned from boss victories).
+- **Format:** a continuous, back-to-back sequence of boss fights with no exploration in between.
+- **Unlock:** clear the campaign once; the mode is available from the main menu afterward.
+- **What's undocumented:** the scoring system, ranks, rewards, and whether the mode includes remixed or bonus fights are **not officially documented** as of August 2026. Treat any guide that quotes "S-rank requires X points" or lists specific Boss Rush rewards as speculation.
 
-## Boss 2: Axe (Part 2 — the northern paths)
+### Boss Rush Preparation (General Advice)
 
-Axe is a melee-focused boss fought after the northern paths section.
+Since the mode is a pure-boss gauntlet, preparation follows the confirmed combat systems:
 
-**Confirmed attack patterns:**
-
-- **Spinning combos** — multi-hit spins with wide arcs.
-- **Diagonal slashes** — fast, angled strikes.
-- **Jumping attacks** with AoE on landing.
-
-**Strategy:**
-
-- **The final swing of his spinning combo is the easiest attack to parry** — verified in walkthrough coverage. Wait for the last hit of the spin, parry it, and take your riposte/finishing blow.
-- Dodge his heavy strikes and jumping attacks (dodge the landing AoE rather than standing in it).
-- Punish the openings after his whiffed heavy attacks.
-
-**Rewards (confirmed):** absorbing Axe's soul unlocks the path forward. The **Axe summon** (available after defeating him) boosts your stamina recovery — one of the most useful summons in the game.
-
-## Boss 3: Kasei the Tyrant (Part 3 — the mountain caves)
-
-Kasei is the final boss, fought in the mountain caves. He has **two phases**.
-
-**Phase 1 (confirmed):** fire-based attacks, sweeping tail strikes, charges, and powerful slam attacks.
-
-**Phase 2 (confirmed):** when his health drops **below one-third**, he switches to a **massive greatsword** and gains fast gap-closing attacks, sword throws, and heavy melee combos. His jump slashes in phase 2 are **parryable**.
-
-**Strategy:**
-
-- **Stay close to Kasei's side** — his frontal fire attacks and tail sweeps are the dangerous tools; positioning at his flank avoids much of the kit.
-- **Dodge his unblockable attacks** (phase 2 gap-closers and sword throws) with roll i-frames — do not try to parry everything in phase 2.
-- **Parry when opportunities arise** — his phase 2 jump slashes are the confirmed parry windows.
-- **Punish his openings** — after sword throws and missed gap-closers, Kasei is vulnerable.
-
-**Note:** some coverage describes the finale as the paired fight "**Axe and Kasei the Tyrant**" — if the final encounter pairs them, apply both fights' lessons and prioritize the aggressive Kasei while kiting Axe. Exact fight structure TBD.
-
-**Rewards (confirmed):** defeating Kasei unlocks **Boss Rush mode** and completes the campaign. Defeated bosses can be summoned going forward.
-
----
-
-## Boss Order Summary
-
-| # | Boss | Part | Key Lesson |
-|---|------|------|-----------|
-| 1 | Kira the Exile | Cavern | Instinct Counter timing |
-| 2 | Axe | Northern paths | Parry the final swing of the spin |
-| 3 | Kasei the Tyrant | Mountain caves | Two phases; parry jump slashes, dodge the rest |
+1. **Master the posture loop.** Parries build posture; posture breaks set up counterattacks. In a gauntlet with no downtime, this is your fastest damage *and* your stamina economy.
+2. **Learn dodge-only attacks.** Every boss has attacks that cannot be parried. Knowing which ones they are before a long run is the difference between a clean clear and a short one.
+3. **Heal in safe windows only.** Healing is limited and restored at save points — in a gauntlet, assume you get what you start with and heal deliberately.
+4. **Bring your best upgrades.** Attribute/skill upgrades, Soul Arts, and boss summons carry into the mode. See the [Soul Arts Guide](/guides/soul-arts-guide).
+5. **Use summons.** Defeated bosses fight alongside you as AI allies — a confirmed combat tool that takes pressure off in long fights.
 
 ## Pre-Boss Checklist
 
-1. **Refill healing charges** at the last Save Stone before the boss arena.
-2. **Adjust your attributes** — the game lets you tune your character's attributes before boss fights.
-3. **Spend Boss SP** on a Soul Art that matches the fight (see the [Soul Arts Guide](/guides/soul-arts-guide)).
-4. **Warm up your parry** on regular enemies before the fog door.
+1. **Refill your healing at the last save point** before the boss arena.
+2. **Tune your attributes and skills** toward the fight ahead — attribute/skill upgrades are the game's confirmed progression layer.
+3. **Warm up your parry timing** on regular enemies before entering.
+4. **Explore for legendary weapons** — hidden in the world, they change how your Spinosaurus plays (see the [Weapons Guide](/guides/weapons-guide)).
+
+## Reception Note
+
+Dinoblade launched at **89% Very Positive** on Steam (~400 reviews). Players widely praised the parry combat and boss design; launch reviews also flagged **imprecise hitboxes, inconsistent hit registration, and performance problems**. If a dodge or parry feels like it failed unfairly, it may be a technical issue rather than your timing — be patient, and check the Steam Community hub for known-bug reports.
 
 ## Related Guides
 
-- [Parry Guide](/guides/parry-guide) — Perfect parry timing and the Resolve loop
-- [Beginner Guide](/guides/beginner-guide) — Core combat basics
-- [Soul Arts Guide](/guides/soul-arts-guide) — What Boss SP buys
-- [Boss Rush Guide](/guides/boss-rush-guide) — The mode unlocked after Kasei
+- [Beginner Guide](/guides/beginner-guide) — The core combat loop and posture system
+- [Soul Arts Guide](/guides/soul-arts-guide) — Special attacks and the upgrades bosses unlock
+- [Enemy Guide](/guides/enemy-guide) — The weapon-wielding dinosaurs around the Alphas
+- [New Game Plus Guide](/guides/new-game-plus-guide) — Post-game replay and Boss Rush status
+- [Weapons Guide](/guides/weapons-guide) — The Great Sword and legendary weapons

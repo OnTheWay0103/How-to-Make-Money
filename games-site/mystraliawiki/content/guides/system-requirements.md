@@ -2,18 +2,18 @@
 title: "Echoes of Mystralia System Requirements — PC Specs & Performance"
 description: "Echoes of Mystralia PC system requirements — minimum and recommended specs for the demo and Early Access, how spell effects tax your GPU, Steam Deck support, graphics settings, and download size."
 category: "Reference"
-version: "Pre-release"
-updated: "2026-08-05"
-date: "2026-08-05"
+version: "Early Access"
+updated: "2026-08-11"
+date: "2026-08-11"
 keywords: ["echoes of mystralia system requirements", "echoes of mystralia pc specs", "echoes of mystralia steam deck", "echoes of mystralia minimum requirements", "echoes of mystralia download size", "echoes of mystralia performance"]
 related: ["ea-launch-guide", "faq"]
 ---
 
 # Echoes of Mystralia System Requirements — PC Specs & Performance
 
-Can your PC run Echoes of Mystralia? Here are the official system requirements published for the game on Steam, what they actually mean for the spellcrafting gameplay, and what to expect from graphics settings and download size ahead of the **Early Access launch on August 11, 2026**.
+Can your PC run Echoes of Mystralia? Here are the official system requirements published for the game on Steam, what they actually mean for the spellcrafting gameplay, and what to expect from graphics settings and download size in the **Early Access build (launched August 11, 2026)**.
 
-> **Pre-release note:** The specs below are the ones Borealys Games has published for the free demo on the Steam store page. Borealys may update them for the larger Early Access build (3 regions, 3 Guardians, 110 Memories, 12 spell forms) — any changes will be reflected here as soon as they're published.
+> **Early Access note:** The specs below are the ones Borealys Games has published on the Steam store page. They cover the demo and, so far, the Early Access build (3 regions, 100+ Memories, 16 starting spells) — Borealys may update them, and any changes will be reflected here as soon as they're published.
 
 ## Official System Requirements
 
@@ -41,7 +41,7 @@ That has direct hardware implications:
 
 - **GPU headroom matters more than the minimum tier suggests.** A GTX 1060 / RX 580 will run the game, but expect frame drops when multiple crafted spells overlap on screen — that's the moment the game stresses the GPU hardest, and it's exactly where the RTX 2060 / RX 5600 XT recommended tier is built for.
 - **Particle count scales with your build.** A lightning chain build or a tornado-heavy loadout produces more concurrent particle systems than a simple bolt build. If you plan to play dense multi-spell builds, aim at or above the recommended GPU.
-- **RAM affects run smoothness, not just loading.** 8 GB is the floor; with the EA build's larger regions and 110-Memory sandbox, 16 GB removes stutter when the game streams in new areas and enemy density spikes.
+- **RAM affects run smoothness, not just loading.** 8 GB is the floor; with the EA build's larger regions and 100+-Memory sandbox, 16 GB removes stutter when the game streams in new areas and enemy density spikes.
 - **CPU handles the simulation, not the visuals.** Memory combinations, enemy AI, and damage calculations are CPU-bound. If you're below a quad-core 2.4 GHz, spell-crafted fights with large enemy groups will bottleneck before the GPU does.
 
 If your PC sits between the tiers, the practical rule of thumb: **meet the recommended GPU and you'll comfortably handle full particle stacks at 1080p; meet only the minimum GPU and cap your on-screen effect density (or resolution) to stay smooth.**
@@ -71,12 +71,12 @@ Anything more specific is **TBD** until Borealys documents the EA build. For the
 
 The Steam page lists **10 GB of storage** as both the minimum and recommended requirement. That is the figure to plan for at Early Access launch:
 
-- The EA build is substantially larger in content than the demo (3 regions, 110 Memories, 12 spell forms) but Borealys has not published an EA-specific size — 10 GB is the only official number.
+- The EA build is substantially larger in content than the demo (3 regions, 100+ Memories, 16 starting spells) but Borealys has not published an EA-specific size — 10 GB is the only official number.
 - Expect patches on top of the base install during Early Access; gameplay-focused updates have been committed to, and each one typically adds content rather than replacing it.
 
-## How to Test Your PC Before Launch
+## How to Test Your PC
 
-The demo on Steam (available since February 16, 2026) is the most reliable compatibility test you can run before Early Access:
+The demo on Steam (available since February 16, 2026) is the most reliable compatibility test you can run:
 
 1. **Install the free demo** — it's the same engine as the EA build
 2. **Build a particle-heavy spell** and fight dense enemy packs — that's your worst-case frame rate

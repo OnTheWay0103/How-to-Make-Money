@@ -1,68 +1,64 @@
 ---
-title: "Dinoblade Achievements Guide — What's Confirmed and How to Farm Them"
-description: "Dinoblade ships with 29 Steam achievements. We cover what is officially confirmed about the achievement list, combat milestones worth targeting, and honest completionist tips."
+title: "Dinoblade Achievements Guide — Steam Trophies: What's Confirmed"
+description: "What is confirmed about Dinoblade's Steam achievements — no official list exists yet. What to expect, what to farm, and which claims to ignore."
 category: "Secrets"
 version: "1.0"
-updated: "2026-08-01"
+updated: "2026-08-11"
 keywords:
   - Dinoblade achievements
   - Dinoblade trophies
+  - Dinoblade steam achievements
   - Dinoblade secrets
-  - Dinoblade unlockables
   - Dinoblade completionist
 related:
-  - secrets-guide
+  - endings-guide
   - boss-guide
-  - parry-guide
   - faq-content
 ---
 
-# Dinoblade Achievements Guide — What's Confirmed and How to Farm Them
+# Dinoblade Achievements Guide — Steam Trophies: What's Confirmed
 
-Dinoblade ships with **29 Steam achievements** (per official coverage of the launch build). The full, exact list — names, unlock conditions, and hidden achievements — has not been officially published, so treat any guide that prints a numbered list of trophy names as unconfirmed. This guide covers what we know for certain, the mechanics the achievements most likely revolve around, and honest tips for farming the ones that show up in your Steam tracker.
+**The honest headline: no official achievement list for Dinoblade has been published as of August 2026.** The full set of Steam achievements — names, unlock conditions, and hidden achievements — is not documented in any official source or verified coverage. Treat any guide that prints a numbered list of trophy names for Dinoblade as unconfirmed.
 
-> **Note on accuracy:** Dinoblade launched July 23, 2026. The achievement list can change with patches. Check your Steam achievements page and the official store page for the current set.
+**Note on accuracy:** Dinoblade launched July 23, 2026. Check your Steam achievements page and the official store page for the current set — achievement lists can change with patches.
 
 ## What Is Confirmed
 
-- The game has **29 achievements** in its launch build.
-- Achievements are tied to **combat milestones, boss kills, and progression** — the game's core systems are parry mastery, boss souls, Boss SP, and Boss Rush mode (unlocked after clearing the final boss).
-- **Boss kills matter.** Defeating Kira the Exile, Axe, and Kasei the Tyrant unlocks the Summoning system, Boss SP, and progression — achievements for beating each boss are all but certain.
-- **No currency is dropped on death**, which means death-related "retrieve your souls" achievements from other Soulslikes do not apply here.
+- Dinoblade ships with **Steam achievements** (the game is a Steam release with a standard achievement system).
+- Achievements are most likely tied to the game's **confirmed core systems**: combat milestones, boss kills, progression, exploration, and Boss Rush mode (unlocked after clearing the final boss).
+- **Boss kills matter.** Defeating Alpha predators and the final boss is the game's confirmed progression spine — achievements for beating them are likely.
+- **Exploration matters.** Legendary weapons are confirmed to be hidden in the world — a natural achievement category.
 
 ## Likely Achievement Categories (Unconfirmed Details)
 
 The following categories are consistent with the game's confirmed mechanics, but the exact achievement names and requirements are **TBD until the full list is documented**:
 
-| Category | Likely Requirement | What to Farm |
-|----------|-------------------|--------------|
-| First kill / tutorial | Automatic during the opening cavern | Just play through Part 1 |
-| Boss kills | Beat Kira the Exile, Axe, Kasei the Tyrant | Play the main story |
-| Perfect parries | Land perfect parries (restores stamina + Resonance) | Practice on smaller dinosaurs before bosses |
-| Resolve breaks | Fill an enemy's Resolve bar and land the finishing blow | Use parries aggressively on regular enemies |
-| Instinct Counters | Perfect-parry a boss when its Resolve bar is full | The counter "clash" is the key boss mechanic |
-| Soul Arts purchased | Spend Boss SP on Soul Arts (Meteor Slice, Meteor Dash, Alpha Roar, Meteor Zone, Survival Instinct) | Defeat bosses, then buy arts |
-| Boss summons | Summon defeated bosses (unlocks after Kira) | Use the Axe summon, which boosts stamina recovery |
-| Boss Rush clear | Clear Boss Rush mode (unlocks after the final boss) | Build up to a full Boss Rush run |
-| No-hit boss | Beat a boss without taking damage | Farm parry timings on the earliest boss |
+| Likely Category | What to Farm |
+|-----------------|--------------|
+| First kill / tutorial | Just play through the opening |
+| Boss kills (Alpha predators, final boss) | Play the main story |
+| Perfect parries / posture breaks | Practice the parry loop on regular enemies |
+| Counterattacks (guard breaks) | Route parries into guard breaks in boss fights |
+| Soul Arts / skill upgrades | Progress and experiment with special attacks |
+| Boss summons | Summon defeated bosses as allies |
+| Boss Rush clear | Clear the confirmed post-game gauntlet |
+| No-hit boss | Master the parry loop on the earliest boss |
 
 ## Honest Completionist Tips
 
-1. **Master the parry first.** Perfect parries are the game's core loop — they restore stamina and Resonance and fill enemy Resolve bars. Every combat achievement in this game becomes easier the better your parry timing is. See the [Parry Guide](/guides/parry-guide).
-2. **Beat Kira as early as you can.** Defeating Kira the Exile unlocks the Summoning system and Soul Arts upgrades. Access to more tools means more consistent boss kills. See the [Boss Guide](/guides/boss-guide).
-3. **Don't fear death.** Dinoblade does not make you drop your currency when you die. There is no penalty loop for attempting difficult fights repeatedly — just walk back to the boss.
-4. **Save Stone discipline.** Rest points are called **Save Stones**, not bonfires. Resting restores your healing charges and respawns enemies, so stock up before boss attempts.
-5. **Boss Rush is the likely endgame achievement.** Clearing Boss Rush after beating Kasei the Tyrant is the most demanding confirmed mode — practice each boss individually first.
-6. **Unlock Soul Arts in a sensible order.** Boss SP is earned from boss victories, and Soul Arts create build directions. If you are hunting combat achievements, buy an art that solves a weakness in your playstyle rather than the flashiest one. See the [Soul Arts Guide](/guides/soul-arts-guide).
+1. **Master the parry first.** The parry → guard break → counterattack loop is the game's core — every combat achievement becomes easier the better your timing is. See the [Beginner Guide](/guides/beginner-guide).
+2. **Explore thoroughly.** Legendary weapons are hidden in the world — a confirmed exploration reward. See the [Endings & Secrets Guide](/guides/endings-guide).
+3. **Beat the campaign.** The final boss unlocks Boss Rush, the confirmed endgame mode and the likely home of the hardest achievements. See the [Boss Guide](/guides/boss-guide).
+4. **Experiment with builds.** Soul Arts, summons, and legendary weapons give each run different achievements — see the [Soul Arts Guide](/guides/soul-arts-guide).
+5. **Be patient with the launch state.** The game's launch reviews documented bugs, performance problems, and inconsistent hit registration — some achievements may be harder (or buggier) than intended at first.
 
 ## What Not to Trust
 
-- Any site claiming a specific numbered trophy list with requirements (e.g., "Defeat 100 Raptors", "Hatch 10 eggs", "complete the game in under 4 hours") — **none of that is documented** for Dinoblade as of August 2026.
-- "Hidden true ending" requirements — the ending system has not been officially documented. See the [Endings Guide](/guides/endings-guide) for what is actually known.
+- Any site claiming a specific numbered trophy list with requirements ("Defeat 100 raptors," "Hatch 10 eggs," "complete the game in under 4 hours") — **none of that is documented** for Dinoblade as of August 2026.
+- "Hidden true ending" requirements — the ending system has not been officially documented. See the [Endings & Secrets Guide](/guides/endings-guide).
 
 ## Related Guides
 
-- [Secrets Guide](/guides/secrets-guide) — What hidden content is confirmed so far
+- [Endings & Secrets Guide](/guides/endings-guide) — Hidden content and campaign structure
 - [Boss Guide](/guides/boss-guide) — Boss strategies for achievement kills
-- [Parry Guide](/guides/parry-guide) — Parry practice for combat milestones
 - [FAQ](/guides/faq-content) — Release info, price, and platform questions

@@ -1,79 +1,66 @@
 ---
-title: "Talents Guide — Best Talent Trees & Builds in 1.0"
-description: "Sephiria 1.0's new Talent system explained. All three talent trees, how talent points work, and the best talent builds for every playstyle and difficulty."
+title: "Talents Guide — Best Talent Trees & Builds"
+description: "Sephiria's Talent system explained. The three permanent talent trees (Combat, Resilience, Utility), how talent points work, and the best talent builds for every playstyle and difficulty."
 category: "Builds"
 version: "1.0"
-updated: "2026-07-31"
-keywords: [Sephiria talents, best talents Sephiria, talent tree, Sephiria 1.0 talents, talent builds, talent points]
-related: [builds-guide, beginner-guide, inscriptions-guide, weapons-tier-list, hard-mode-guide]
+updated: "2026-08-11"
+keywords: ["Sephiria talents", "best talents Sephiria", "talent tree", "Sephiria talents guide", "talent builds", "talent points"]
+related: ["builds-guide", "beginner-guide", "inscriptions-guide", "weapons-guide", "hard-mode-guide", "farming-guide"]
 ---
 
 ## What Are Talents?
 
-The **Talent system** is part of the 1.0 launch, replacing the flat stat growth of Early Access character progression. Instead of automatically gaining small stat bonuses per level, you now earn **talent points** and spend them in three permanent talent trees — Combat, Resilience, and Utility. Like inscriptions, talents carry over between runs forever, so every point is a permanent account-wide upgrade.
+The **Talent system** is one of Sephiria's permanent progression layers. You earn **talent points** through play and spend them in **three permanent talent trees**:
+
+| Tree | Focus |
+|---|---|
+| **Combat** | Damage — attack power, crit, element damage |
+| **Resilience** | Survival — max HP, healing, defensive effects |
+| **Utility** | Resources and runs — gold, exploration, potions |
+
+Like Inscriptions, talents **carry over between runs forever** — every point is a permanent account-wide upgrade.
 
 ## How Talent Points Work
 
-- **+1 talent point** per character level (level 1-50, 50 points total)
-- **+1 point** for each chapter boss first-kill (6 points at 1.0)
-- **+1 point** per completed Hard Mode chapter boss (7 more)
-- **+3 points** from achievements (three achievements grant one point each)
+- Points are earned through **normal play** — leveling up during climbs and completing milestones and achievements.
+- Points are **permanent and account-wide** — they never reset between runs.
+- The Talent tree unlocks through progression; the **Home Repair** Destiny Inscription is the gateway that unlocks it (see the [Farming Guide](/guides/farming-guide)).
 
-That's up to **67 talent points** at 1.0. The trees max out at roughly 60 points combined, so late-game builds will fill nearly everything — early choices matter far more than final ones.
+**The key insight:** because points are permanent, they're the most reliable power in the game — a high-talent account is stronger than a high-skill one in every single run.
 
-## The Three Trees
+## How to Spend Talent Points
 
-### Combat Tree — Damage
+There's no single "best" build — the right spend depends on your goals. These are the community-consistent directions:
 
-| Talent | Rank 1 | Rank 3 (Max) | Best With |
-|---|---|---|---|
-| **Executioner** | +5% damage to enemies below 30% HP | +15% | Greatsword, Scythe |
-| **Swift Strikes** | +3% attack speed | +9% | Fist, Sword |
-| **Elemental Focus** | +5% elemental damage | +15% | Tome, Staff |
-| **Armor Breaker** | Armored enemies take 5% more damage | 15% | Hard Mode builds |
-| **Overcharge** | +10% charge speed | +30% | Greatsword, Spear |
+### Beginner (first points)
+**Survival first.** Points in the Resilience tree (max HP, healing) reduce the number of runs you lose while you're learning — and survival points keep paying off forever.
 
-### Resilience Tree — Survival
-
-| Talent | Rank 1 | Rank 3 (Max) | Best With |
-|---|---|---|---|
-| **Tough Hide** | +5% max HP | +15% | Every build |
-| **Regenerative** | +0.2 HP/sec between rooms | +0.6 | Hard Mode |
-| **Purified** | Corruption gain reduced by 8% | 24% | Hard Mode |
-| **Second Wind** | Revive with 20% HP once per run | 40% HP | Co-op, solo |
-| **Iron Stance** | Cannot be staggered for 2s after a hit | 4s | Fist, Greatsword |
-
-### Utility Tree — Runs & Resources
-
-| Talent | Rank 1 | Rank 3 (Max) | Best With |
-|---|---|---|---|
-| **Treasure Hunter** | +5% gold find | +15% | Farming runs |
-| **Relic Whisperer** | +5% rare relic chance | +15% | Every build |
-| **Curious** | Secret rooms slightly more likely to spawn | Strongly more likely | Exploration |
-| **Potion Master** | Potions heal +10% | +30% | Beginner survival |
-| **Hoarder** | +1 gold from every pickup | +3 | Early economy |
-
-## Best Talent Builds
-
-### Beginner (first 20 points)
-**3× Tough Hide, 3× Potion Master, 3× Relic Whisperer, 1× Executioner** — raw survival with a bit of loot. You can respec freely before 1.0.1 hotfixes land, and mistakes at this stage cost almost nothing.
+### Damage-Focused (for speed and bossing)
+**Combat tree.** If you want faster clears, damage points compound with your weapon and artifact build. Best paired with a burst weapon like Greatsword or Crossbow.
 
 ### Hard Mode Survivor
-**3× Purified, 3× Tough Hide, 2× Regenerative, 3× Armor Breaker, 3× Second Wind** — Purified and Armor Breaker directly counter Hard Mode's two new systems (Corruption and armored enemies).
+**Resilience-heavy.** Hard Mode's 6 modifiers punish mistakes — Tension (no potions in boss fights) makes defensive talents the difference between a clear and a wipe. See the [Hard Mode Guide](/guides/hard-mode-guide).
 
-### Loot Farmer
-**3× Curious, 3× Treasure Hunter, 3× Relic Whisperer, 3× Hoarder, 2× Executioner** — maximizing loot per floor. Drops are partially gated by relics found, so this scales your artifact and relic income fast.
+### Farming / Exploration
+**Utility tree.** Gold, potion, and exploration bonuses make farming runs more efficient — pair with the [Farming Guide](/guides/farming-guide)'s routes.
 
 ### Co-op Support
-**3× Relic Whisperer, 3× Second Wind, 3× Tough Hide, 2× Potion Master** — your team shares relic pools, so the whole squad benefits from your loot talents.
+**Balanced with survival lean.** In co-op, your revive system means the team's survival depends on every player — resilience points help the whole squad.
 
-## Respeccing
+## Talents vs Inscriptions — What's the Difference?
 
-Talents can be respecced at the Tower Hub shrine for **500 gold** per point, or free during the first hour of a new save. With the 1.0.1 hotfix expected soon, wait before spending all 67 points if you want to test the patch's balance changes.
+| Aspect | Talents | Inscriptions |
+|---|---|---|
+| What do they do? | Three stat/effect trees | Socketable permanent bonuses |
+| How do you get points? | Earned through play (levels, milestones) | Purchased with sapphires |
+| When to prioritize | Early game — reliable power | Mid-to-late — when sapphires flow |
+
+Both are permanent — the common advice is **talents for baseline power, inscriptions for specialization**.
 
 ## Related Guides
 
-- [Builds Guide](/guides/builds-guide) — Full builds combining talents, relics, and inscriptions
+- [Builds Guide](/guides/builds-guide) — Full builds combining talents, artifacts, and inscriptions
 - [Inscriptions Guide](/guides/inscriptions-guide) — The other permanent progression system
-- [Weapons Tier List](/guides/weapons-tier-list) — Pair talents with the right weapon
+- [Weapons Guide](/guides/weapons-guide) — Pair talents with the right weapon
 - [Hard Mode Guide](/guides/hard-mode-guide) — Talent choices that matter most at high difficulty
+- [Farming Guide](/guides/farming-guide) — Efficient progression point farming

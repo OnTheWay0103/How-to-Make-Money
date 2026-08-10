@@ -1,68 +1,62 @@
 ---
-title: 'Permanent Progression Guide — Hub Upgrades & Meta Progress'
-description: 'How permanent progression works in Echoes of Mystralia — the Azimuth Temple hub, confirmed upgrade functions, and what\'s still unconfirmed about the system at Early Access.'
+title: 'The Lotus — Permanent Progression & Altar Upgrades Guide'
+description: 'How the Lotus works in Echoes of Mystralia — the confirmed permanent progression system with 50+ Altar upgrades at the Azimuth Temple, what it does, and how to spend it.'
 category: 'Progression'
-version: 'Pre-release'
-updated: '2026-08-01'
-keywords: ['echoes of mystralia progression', 'echoes of mystralia permanent upgrades', 'mystralia hub upgrades', 'echoes of mystralia meta progression', 'echoes of mystralia azimuth temple']
-related: ['beginner-guide', 'ea-roadmap-guide', 'memories-guide', 'faq']
+version: 'Early Access'
+updated: '2026-08-11'
+keywords: ['echoes of mystralia lotus', 'echoes of mystralia progression', 'echoes of mystralia permanent upgrades', 'mystralia hub upgrades', 'echoes of mystralia altar upgrades', 'echoes of mystralia meta progression']
+related: ['beginner-guide', 'ea-roadmap-guide', 'memories-guide', 'faq', 'relics-guide']
 ---
 
-# Permanent Progression Guide — Hub Upgrades & Meta Progress
+# The Lotus — Permanent Progression & Altar Upgrades Guide
 
-Every roguelite needs a "meta" — progress that survives failed runs. In Echoes of Mystralia, that role belongs to the **Azimuth Temple hub**, and the developer has confirmed its core functions. What the system is officially *named*, and its full upgrade tree, is **TBD**. This guide separates the confirmed facts from the unconfirmed expectations.
+Every roguelite needs a "meta" — progress that survives failed runs. In Echoes of Mystralia, that role belongs to **the Lotus**, the game's confirmed permanent progression system, spent at the **Azimuth Temple** hub. The official Steam page lists **50+ Altar upgrades** for the Lotus at Early Access launch. This guide covers what's confirmed about the system and how to approach it.
 
-> **Pre-release note:** Earlier versions of this guide described a named "Lotus" progression system with specific upgrade costs and milestone rewards. **"Lotus" was never mentioned by Borealys Games** — that content was fabricated and removed. The hub's progression role, however, is confirmed.
+Echoes of Mystralia entered **Steam Early Access on August 11, 2026**.
 
-## What's Confirmed
+## What's Confirmed About the Lotus
 
-Borealys Games has stated the Azimuth Temple is where you:
+- **The Lotus is the game's permanent progression system** (per the official Steam page)
+- It is spent at the **Azimuth Temple** hub, where you **level up** between runs (per the official description)
+- The launch build includes **50+ Altar upgrades** (per the official Steam page) — the individual upgrades that make up the system
+- Progression **persists across runs** — a failed run still feeds the Lotus, and Lotus progress makes future runs easier
 
-- **Upgrade permanent skills** — confirmed; upgrades persist across runs
-- **Unlock new combat options** — confirmed; progression unlocks ways to fight
-- **Build relationships with fellow Watchers** — confirmed; the hub has a character layer
-- **Prepare for the next run** — the hub is the run-preparation space
+## How Progression Fits Together
 
-The implication is standard roguelite meta-progression: even a failed run feeds the hub, and hub progress makes future runs easier. That much is safe to plan around.
+The confirmed progression systems work as a stack:
 
-## What's TBD (Not Confirmed)
+1. **The Lotus (50+ Altar upgrades)** — permanent meta-progression at the Azimuth Temple; the long-term power sink
+2. **Memories (100+)** — the crafting resource harvested from enemies each run
+3. **Relics (40+)** — passive items that modify your build
+4. **Spellcrafting (16 starting spells, 7 elements)** — the loadout system that Memories feed
 
-| Question | Status |
-|----------|--------|
-| Official name of the progression system | **TBD** (not "Lotus" — that was invented) |
-| Upgrade categories and their effects | **TBD** |
-| Upgrade costs and currencies | **TBD** (Echo Fragments are demo-only and reset) |
-| Unlock conditions for combat options | **TBD** |
-| Whether upgrades include stats, slots, or both | **TBD** |
-| Milestone/one-time rewards | **TBD** |
+A failed run ends, but the Memories you harvested, the Relics you found, and the Lotus progress you spent all persist — that's the roguelite engine of the game.
 
-## What the Demo Teaches About Meta Progression
+## What the Demo Taught About Meta Progression
 
-The demo doesn't confirm the full system, but it does confirm the *shape* of it:
+The demo confirmed the *shape* of the system:
 
-1. **Runs feed the hub** — every run harvests Memories and experience you carry between runs
-2. **The hub is where preparation happens** — loadouts and approach are set here
-3. **Progression is your answer to walls** — when a boss or region stops you, hub progress is the expected lever (demonstrated by the roguelite structure)
+1. **Runs feed the hub** — every run harvests Memories and progress you carry between runs
+2. **The hub is where preparation happens** — loadouts and approach are set at the Azimuth Temple
+3. **Progression is your answer to walls** — when a boss or region stops you, permanent progression is the expected lever
 
-## How to Approach Progression at Launch
-
-When Early Access goes live on **August 11, 2026**, apply these principles:
+## How to Approach the Lotus in Early Access
 
 1. **Spend early, spend often** — in roguelites, banked progression does nothing; invested progression does
 2. **Prioritize what stops you** — if you die to bosses, prefer defensive/survival upgrades; if you die to time, prefer clear speed
-3. **Watch the balance patches** — Borealys has already changed progression systems once (the Echo Fragments reset); expect tuning during EA
-4. **Don't over-specialize early** — before the systems are mapped, broad upgrades are safer than narrow ones
+3. **Watch the balance patches** — Borealys has already changed progression systems once (between demo and EA); expect tuning during Early Access
+4. **Don't over-specialize early** — before the systems are fully mapped, broad upgrades are safer than narrow ones
 
-## What We'll Document After Launch
+## What's Being Documented (Early Access)
 
-- The real upgrade tree, with names and costs (TBD)
-- Optimal upgrade orders once balance is understood (TBD)
-- Which combat options unlock progression (TBD)
-- Currency systems beyond the reset Echo Fragments (TBD)
+- The full upgrade tree with names and costs (**being mapped from the EA build**)
+- Optimal upgrade orders once balance is understood (**being mapped from the EA build**)
+- How Altar upgrades interact with Relics and crafted spells (**being mapped from the EA build**)
 
 ## Related Guides
 
 - [Beginner Guide](/guides/beginner-guide) — the core loop around the hub
-- [EA Roadmap Guide](/guides/ea-roadmap-guide) — what ships at Early Access
+- [EA Roadmap Guide](/guides/ea-roadmap-guide) — what ships at Early Access and what follows
 - [Memories Guide](/guides/memories-guide) — the resource that feeds progression
+- [Relics Guide](/guides/relics-guide) — the passive items that complement your upgrades
 - [FAQ](/guides/faq) — honest answers on progression systems

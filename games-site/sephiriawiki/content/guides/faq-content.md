@@ -1,20 +1,20 @@
 ---
 title: "Frequently Asked Questions — 15 Common Questions About Sephiria"
-description: "15 essential FAQs about Sephiria covering gameplay mechanics, co-op, solo play, relics, inscriptions, launch details, and more. Quick answers for common player questions."
+description: "15 essential FAQs about Sephiria covering gameplay mechanics, co-op, solo play, artifacts, inscriptions, launch details, and more. Quick answers for common player questions."
 category: "FAQ"
 version: "1.0"
-updated: "2026-07-20"
-keywords: [Sephiria FAQ, frequently asked questions, Sephiria help, game questions, common questions, release date, price]
-related: [beginner-guide, weapons-guide, coop-guide, solo-guide]
+updated: "2026-08-11"
+keywords: ["Sephiria FAQ", "frequently asked questions", "Sephiria help", "game questions", "common questions", "release date", "price"]
+related: ["beginner-guide", "weapons-guide", "coop-guide", "solo-guide"]
 ---
 
 ## 1. What is Sephiria?
 
-Sephiria is a **pixel-art action roguelite** developed by **TEAM HORAY** — the Korean studio behind Dungreed (an earlier studio name circulating in some guides is incorrect). You play a rabbit warrior defending your village and climbing the cursed tower, fighting through procedurally-arranged rooms across **6 chapters** with **6 weapons** and ~300 artifacts. It supports 1–4 player online co-op and carries a **Very Positive** Steam rating (97% in EA, held into the 1.0 launch).
+Sephiria is a **pixel-art action roguelite** developed by **TEAM HORAY** — the studio behind Dungreed. You play a rabbit warrior climbing the Tower of Sephiria, fighting through procedurally-arranged rooms across **6 chapters** with **6 weapons** and ~300 artifacts. It supports 1–4 player online co-op and carries a **Very Positive** Steam rating (94% overall, 97% among English-language reviews).
 
 ## 2. When is the 1.0 full release?
 
-The full **1.0 launched July 31, 2026** (same-day hotfix 1.0.21). Early Access ran **April 2025 → July 2026 — 484 days and 58 updates** — and your EA save carries over (official July 9 announcement; see the [Full Release Guide](/guides/full-release-guide)).
+The full **1.0 launched July 31, 2026**. Early Access ran **April 2025 → July 2026 — 484 days and 58 updates** (see the [Full Release Guide](/guides/full-release-guide)).
 
 ## 3. Is it single-player or multiplayer?
 
@@ -22,35 +22,36 @@ The full **1.0 launched July 31, 2026** (same-day hotfix 1.0.21). Early Access r
 
 ## 4. How many weapons are there?
 
-There are **6 weapons**: **Sword & Shield, Greatsword, Dagger, Katana, Crossbow, and Staff** (some guides list a "Tome" or a Bow/Spear/Fist/Scythe roster — those don't exist in the game). Each weapon branch has upgrade lines; 1.0 expanded them to **200+ weapon upgrades total**, including new +4 lines for Dagger, Crossbow, and Staff.
+There are **6 weapons**: **Sword & Shield, Greatsword, Dagger, Katana, Crossbow, and Staff**. Each weapon branch has its own upgrade tree; 1.0 expanded them to **200+ weapon upgrades** total.
 
-## 5. What are relics?
+## 5. What are artifacts?
 
-Relics are **passive items** found during runs that modify your stats and abilities. There are **over 150 relics** across 5 rarity tiers (Common to Legendary). You can carry up to 6 relics at a time (upgradeable to 8).
+Artifacts are **passive items** found during runs that modify your stats and abilities. There are **~300 artifacts** at 1.0, arranged in your inventory grid and empowered by tablets. They reset each run — permanent progression lives in Inscriptions, Talents, and artifact unlocks.
 
 ## 6. What is the Inscription system?
 
-Inscriptions are **permanent socketable bonuses** that persist between runs. Unlike relics (which reset each run), inscriptions are permanently unlocked and provide ongoing character progression. You socket them into weapon, helm, chest, and accessory slots.
+Inscriptions are **permanent socketable bonuses** that persist between runs. Unlike artifacts (which reset each run), inscriptions are permanently unlocked and provide ongoing character progression. Destiny Inscriptions are purchased with sapphires earned from runs.
 
 ## 7. How long does a full run take?
 
-A full run through all 6 chapters takes approximately **45-90 minutes**, depending on player skill, exploration thoroughness, and whether you fight secret bosses.
+A full run through all 6 chapters takes roughly **an hour or more**, depending on player skill, exploration thoroughness, and whether you attempt optional encounters.
 
 ## 8. Is there character progression between runs?
 
 **Yes.** Even when you die, you keep:
 - Unlocked Inscriptions (permanent)
+- Talent points (Combat / Resilience / Utility trees)
 - Weapon Mastery levels (per weapon)
-- Discovered Relics (added to future drop pools)
+- Artifact unlocks (added to future run pools)
 - Achievements and unlocks
 
 ## 9. Which weapon should I start with?
 
-**Sword & Shield** is the most beginner-friendly weapon — balanced stats, forgiving combos, and a reliable block. **Staff** is also a strong start for its safe range and element synergy (the current S-tier weapon family). See the [Weapons Tier List](/guides/weapons-tier-list) for the full 1.0 rankings.
+**Sword & Shield** is the most beginner-friendly weapon — balanced stats, forgiving combos, and a reliable block. **Crossbow** is also a strong start for its safe range. See the [Weapons Guide](/guides/weapons-guide) for the full breakdown.
 
 ## 10. How does co-op revive work?
 
-When a teammate's HP reaches zero, they enter a **downed state**. A 3-second revive interaction brings them back. During revival, the reviver is vulnerable to attacks. If fully killed while downed, they are eliminated for the current room.
+When a teammate's HP reaches zero, they enter a **downed state**. A short revive interaction brings them back. During revival, the reviver is vulnerable to attacks. If fully killed while downed, they are eliminated for the current room.
 
 ## 11. Does the game have local or couch co-op?
 
@@ -62,13 +63,16 @@ Crossplay details are still being finalized for the 1.0 launch. Check the offici
 
 ## 13. What are the system requirements?
 
+Per the official Steam store page:
+
 | Requirement | Minimum | Recommended |
 |---|---|---|
-| OS | Windows 10 | Windows 11 |
-| CPU | Intel i5-8400 / Ryzen 3 3300X | Intel i7-9700 / Ryzen 5 5600X |
-| RAM | 8 GB | 16 GB |
-| GPU | GTX 960 / RX 470 | GTX 1660 / RX 580 |
-| Storage | 2 GB | 4 GB (SSD recommended) |
+| OS | Windows 10 64-bit | — |
+| CPU | Ryzen 5 1400 | Ryzen 5 1700X or better |
+| RAM | 8 GB | — |
+| GPU | GeForce GTS 750 | GeForce GTX 760 or better |
+| DirectX | Version 11 | — |
+| Storage | 2 GB available space | — |
 
 ## 14. Is there a demo?
 
@@ -77,9 +81,9 @@ Yes, a **free demo** is available on Steam. The demo includes the first chapter 
 ## 15. How many chapters and bosses are there?
 
 There are **6 chapters** and **10+ boss encounters**:
-- **Mandatory bosses:** 6 (one per chapter)
-- **Secret bosses:** 4+ (hidden encounters with unique relic drops)
-- **Final boss:** Sephiria, the Tower Heart (Chapter 6)
+- **Chapter bosses:** 6 (one per chapter)
+- **Optional encounters:** Additional fights for players who explore
+- **Final boss:** Chapter 6 — beat it for the ending and credits
 
 ## Related Guides
 

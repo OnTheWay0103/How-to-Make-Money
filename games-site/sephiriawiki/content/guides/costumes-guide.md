@@ -1,63 +1,61 @@
 ---
-title: "Costumes Guide — All Costumes & How to Unlock Them"
-description: "Every costume in Sephiria 1.0 and how to unlock it. Launch costumes, Hard Mode rewards, achievement skins, co-op costumes, and which ones are worth grinding for."
+title: "Costumes Guide — Every Costume & How to Unlock Them"
+description: "Everything about costumes in Sephiria: the 20+ unlockable costumes at 1.0, how costume unlocks work, which ones are worth grinding for, and costume FAQ."
 category: "Cosmetics"
 version: "1.0"
-updated: "2026-07-31"
-keywords: [Sephiria costume, Sephiria best costume, costume unlock, Sephiria skins, Sephiria cosmetics, character skins]
-related: [full-release-guide, hard-mode-guide, endgame-guide, achievements]
+updated: "2026-08-11"
+keywords: ["Sephiria costume", "Sephiria best costume", "costume unlock", "Sephiria skins", "Sephiria cosmetics", "character skins"]
+related: ["full-release-guide", "hard-mode-guide", "endgame-guide", "chapter-guide"]
 ---
-
-> **⚠️ Correction (Aug 2, 2026):** This page cites unlock conditions that do **not** exist in the released game ("Beat the Astral Guardian", "Beat the Rabbit Goddess", "Infinite Mode floor 100") — Sephiria has 6 chapters and ends at Chapter 6. The 1.0 launch added 1 new costume. See the [Chapter 6 & Final Boss Guide](/guides/chapter-6-final-boss-guide) and [Full Release Guide](/guides/full-release-guide).
 
 ## How Costumes Work
 
-Costumes in Sephiria are **purely cosmetic** — no stats, no gameplay effects. They change your rabbit warrior's appearance in runs and in co-op lobbies. All costumes are **account-wide**: once unlocked, every character and save can equip them from the Tower Hub wardrobe. There are **14 costumes at 1.0 launch** (9 base + 5 unlockable), with more planned in the 1.1 "Armory" update, which adds weapon skins separately.
+Costumes in Sephiria are **cosmetic** — they change your rabbit warrior's appearance in runs and in co-op lobbies. There are **20+ costumes** available at 1.0.
 
-## All Costumes & How to Unlock Them
+- Costumes are **account-wide**: once unlocked, they can be equipped from the character customization menu on any save.
+- They are earned through **gameplay, not purchases** — story progress, challenge milestones, and achievements unlock them.
+- Cosmetics have **no gameplay effect** — a costume never changes your stats or run.
 
-### Launch Costumes (Free)
+## How Costume Unlocks Work
 
-| Costume | Unlock Condition |
-|---|---|
-| **Climber** | Default — equipped from the start |
-| **Depths Wanderer** | Beat Golemnir (Chapter 1 boss) |
-| **Halls Whisperer** | Beat Whisperia (Chapter 2 boss) |
-| **Library Scholar** | Beat Bibliarch (Chapter 3 boss) |
-| **Twilight Hunter** | Beat Umbrawisp (Chapter 4 boss) |
-| **Forge Scorched** | Beat Infernis (Chapter 5 boss) |
-| **Sanctuary Aegis** | Beat Sephiria, the Tower Heart |
-| **Astral Traveler** | Beat the Astral Guardian (1.0) |
-| **Goddess's Chosen** | Beat the Rabbit Goddess (1.0) |
+Costumes unlock through the game's normal progression systems. The unlock categories:
 
-### Unlockable Costumes
-
-| Costume | Unlock Condition | Notes |
+| Unlock Category | How You Earn It | Examples |
 |---|---|---|
-| **First Rabbit's Golden Crown** | Complete Hard Mode | The prestige cosmetic — glows in co-op lobbies |
-| **Shadow of the Tower** | Defeat all 4 base secret bosses (incl. The Architect) | Dark palette, Architect-themed |
-| **Eternal Climber** | Reach Infinite Mode floor 100 | 1.0's longest grind |
-| **Champion of the Vault** | Top 100 on the weekly Gauntlet leaderboard | Rotates; re-earnable |
-| **Ghost of the Tower** | Win 50 co-op runs (any mode) | Rewards consistent team play |
+| **Story progress** | Defeating chapter bosses while climbing | One per major boss defeat |
+| **Run milestones** | Full clears, no-death climbs, speed achievements | Beat the game's ending |
+| **Challenge modes** | Hard Mode and Gauntlet Mode milestones | The prestige cosmetics |
+| **Achievements** | The 27-achievement roster rewards several costumes | Grindy but deterministic |
+| **Co-op milestones** | Wins with a party | Rewards team play |
 
-## Which Costumes Are "Best"?
+Because the exact unlock lists are spread across the game's achievement screen, the reliable way to plan your grind is:
 
-- **Best flex:** First Rabbit's Golden Crown — no RNG, pure skill, only ~15-25% of Hard Mode players have it
-- **Best look (community favorites):** Astral Traveler (starfield particles) and Shadow of the Tower (dark animated trail)
-- **Best for co-op:** Ghost of the Tower — recognizable at a glance, shows you are a reliable teammate
-- **Best for show-off runs:** Eternal Climber — floor 100 is a genuine achievement
+1. **Open the achievement screen** — every achievement that rewards a costume lists its unlock condition.
+2. **Pick your target** — the hardest-to-earn costumes come from Hard Mode and the endgame challenge modes.
+3. **Check the character menu** — costumes you haven't earned yet show their unlock hint.
+
+## Which Costumes Are Worth Grinding?
+
+- **Best flex:** the **Hard Mode completion costume** — no RNG, pure skill, and most players never see it.
+- **Best story rewards:** the chapter-completion costumes — every full climb earns one.
+- **Best for co-op:** the co-op milestone costume — recognizable at a glance in lobbies.
+- **Best bragging rights:** the endgame challenge costumes — they show you cleared the hardest content.
+
+If you only care about one, go for the Hard Mode completion costume: it's the community's most respected cosmetic.
 
 ## Costume FAQ
 
-**Do costumes affect gameplay?** No — cosmetic only. This is confirmed by the developers and has never been broken.
+**Do costumes affect gameplay?** No — they are purely cosmetic.
 
-**Can I preview costumes before unlocking?** Yes — the Tower Hub wardrobe previews every costume, locked or not.
+**Can I preview costumes before unlocking?** Yes — the character customization menu previews every costume, locked or not.
 
-**Will costumes ever be sold?** The team has said cosmetics will remain earnable in-game; 1.1 adds weapon skins, and paid cosmetics are "not planned" for 2026.
+**Do I need to re-earn costumes on new saves?** No — costumes are account-wide once unlocked.
+
+**Are costumes ever pay-only?** At 1.0, costumes are earned through gameplay. If that changes, the official Steam page will say so.
 
 ## Related Guides
 
 - [Full Release Guide](/guides/full-release-guide) — All 1.0 content and unlocks
-- [Hard Mode Guide](/guides/hard-mode-guide) — How to earn the Golden Crown
-- [Endgame Guide](/guides/endgame-guide) — The grind behind Eternal Climber
-- [Secret Bosses Guide](/guides/secret-bosses) — Shadow of the Tower unlock path
+- [Hard Mode Guide](/guides/hard-mode-guide) — How to earn the prestige costume
+- [Endgame Guide](/guides/endgame-guide) — The grind behind the challenge costumes
+- [Chapter Guide](/guides/chapter-guide) — Story-progress costume routes

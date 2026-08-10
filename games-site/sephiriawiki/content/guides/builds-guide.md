@@ -1,112 +1,103 @@
 ---
-title: "Best Builds — Weapon & Relic Synergies for Every Playstyle"
-description: "Optimal builds for all 6 weapons in Sephiria. Complete relic combinations, inscription setups, and upgrade paths for maximum effectiveness in solo and co-op."
+title: "Best Builds — Weapon & Artifact Synergies for Every Playstyle"
+description: "Optimal builds for all 6 Sephiria weapons. The build layers (weapon, artifacts+tablets, talents, miracles), the core build archetypes, and how to stack a damage type for solo and co-op."
 category: "Builds"
 version: "1.0"
-updated: "2026-07-20"
-keywords: [Sephiria builds, best builds Sephiria, relic synergies, weapon builds, sword build, bow build, staff build, spear build, fist build, scythe build]
-related: [weapons-guide, relics-guide, inscriptions-guide, solo-guide, coop-guide]
+updated: "2026-08-11"
+keywords: ["Sephiria builds", "best builds Sephiria", "Sephiria build guide", "Sephiria artifact builds", "Sephiria tablet builds", "Sephiria weapon builds", "Sephiria tank build", "Sephiria mage build"]
+related: ["weapons-guide", "artifacts-guide", "tablets-guide", "inscriptions-guide", "talents-guide", "solo-guide", "coop-guide"]
 ---
 
-## Build Philosophy
+# Best Builds — Weapon & Artifact Synergies for Every Playstyle
 
-Sephiria's 150+ relics and 50+ upgrades per weapon mean countless build combinations. However, the most effective builds follow a simple principle: **pick a damage type and stack it**.
+Sephiria's build system layers **four systems**: your weapon's upgrade path, the artifacts and tablets in your grid inventory, permanent talents, and run-unlocked miracle abilities. With ~300 artifacts and 200+ weapon upgrades, the combinations are nearly endless — but the most effective builds follow a simple principle: **pick a damage type and stack it**.
 
 Every build needs:
+
 1. **Primary damage source** — Your weapon upgrade path
-2. **Relic synergy** — 3-5 relics that amplify your chosen playstyle
-3. **Inscription support** — Passive bonuses that fill gaps
-4. **Utility option** — Healing, dodging, or defensive relics to survive
+2. **Artifact + tablet synergy** — A coherent element/stat theme in your grid
+3. **Inscription/talent support** — Permanent bonuses that fill gaps
+4. **A utility option** — Healing, dodging, or defensive items to survive
 
-## Sword — Paladin Tank Build
+---
 
-**Playstyle:** Block, counter, outlast. Low risk, consistent damage.
+## The Six Weapon Styles
 
-| Slot | Choice | Why |
-|---|---|---|
-| Upgrade Path | Paladin Path | Block healing, holy damage on parry |
-| Core Relics | **Sanctuary Seal** — blocking creates a healing aura | Keeps you alive in prolonged fights |
-| Core Relics | **Reflective Shield** — parry returns 50% damage | Massive burst on successful parry |
-| Core Relics | **Courage Amulet** — damage reduction near allies | Co-op powerhouse |
-| Inscriptions | Fortify, Resistance, Regeneration | Boost defense and sustain |
+| Weapon | Playstyle | Risk | Best For |
+|--------|-----------|------|----------|
+| **Sword & Shield** | Block, counter, outlast — balanced melee | Low | New players, survivability |
+| **Greatsword** | Slow, heavy hits with big payoff and stagger | Medium-High | Big single hits and stagger pressure |
+| **Dagger** | Fast, combo-heavy close combat — burst and crits | High | Players who want aggressive, high-skill play |
+| **Katana** | Combo flow and counterplay — mid melee | Medium | Rhythm-based combat |
+| **Crossbow** | Ranged shots, kiting, sustained DPS | Low-Medium | Newer players, boss safety |
+| **Staff** | Ranged casting, elemental damage, AoE | Medium | Safe distance play, AoE coverage |
 
-**Alternative:** Berserker Path + Glass Cannon relics for high-risk, high-reward gameplay.
+---
 
-## Bow — Elemental Volley Build
+## Core Build Archetypes
 
-**Playstyle:** Crowd control from range. Stack status effects.
+| Archetype | Weapon | How It Plays | Key Systems |
+|-----------|--------|--------------|-------------|
+| **Tanky Shield** | Sword & Shield + defensive artifacts | Block, counter, outlast — the survivable close-range build | Defense-focused artifacts, tablet priorities on mitigation, talents for sustain |
+| **Meteor Mage** | Staff | Big AoE casts on groups; burst windows | Magic artifacts, tablet stacking on spell power, cooldown talents for miracles |
+| **Glass Cannon Melee** | Dagger or Katana | Maximum DPS, zero margin for error | Damage artifacts, crit/attack-speed tablets |
+| **Stagger Heavy** | Greatsword | Big hits and stagger chains shut down bosses | Stagger-boosting artifacts, heavy-hitting tablets |
+| **Safe Ranged** | Crossbow | Kite everything from range, rarely touched | Ranged damage artifacts, utility tablets |
+| **Summoner** | Any + summon tablets | Summoned allies tank and deal damage while you control the fight | Summon-strength artifacts, tablet priorities on summon count/duration |
+| **Elemental Stacker** | Staff or any + element tablets | Stack status effects that multiply each other | Status-proc artifacts, elemental tablets |
 
-| Slot | Choice | Why |
-|---|---|---|
-| Upgrade Path | Elemental Path | Status arrows |
-| Core Relics | **Kindling Ember** — burning spreads to nearby enemies | AoE clear |
-| Core Relics | **Frost Heart** — chilled enemies take 30% more damage | Setup for burst |
-| Core Relics | **Quiver of Endless Arrows** — 20% chance to not consume arrows | Sustain |
-| Inscriptions | Elemental Affinity, Critical Eye, Range Master | Boost proc rates |
+---
 
-## Staff — Arcane Nova Build
+## How to Build a Run
 
-**Playstyle:** High burst AoE with spell amplification.
+1. **Pick an archetype** that matches how you want to play (tanky, burst, safe, support)
+2. **Match it to a weapon** — each archetype maps to 1-2 weapons above
+3. **Layer systems in order**: weapon upgrade path → artifact/tablet setup → talents → miracles
+4. **Let your tablets decide your element** — artifact and tablet support decide more than the weapon itself. If you find fire tablets early, lean into a fire build even if you planned ice
+5. **In co-op, cover two archetypes** — a tanky frontliner plus a ranged DPS handles every boss
 
-| Slot | Choice | Why |
-|---|---|---|
-| Upgrade Path | Arcane Path | Homing projectiles, mana regen |
-| Core Relics | **Mana Font** — spells cost 30% less mana | Cast more |
-| Core Relics | **Amplifier Crystal** — each spell cast increases next spell damage by 10% (stacks) | Stack before boss |
-| Core Relics | **Echo Orb** — spells have 25% chance to cast twice | Double damage |
-| Inscriptions | Mana Surge, Spell Weave, Arcane Intensity | Max damage output |
+---
 
-## Spear — Dragoon Aerial Build
+## The Four Build Layers
 
-**Playstyle:** Jump attacks, constant mobility, never on the ground.
+| Layer | What It Does | Where to Learn More |
+|-------|--------------|---------------------|
+| **Weapon + Upgrade Path** | 200+ upgrades across 6 weapon branches; the path defines the weapon's role | [Weapons Guide](/guides/weapons-guide) |
+| **Artifacts + Tablets** | Grid inventory — artifacts are empowered by tablets slotted around them | [Artifacts Guide](/guides/artifacts-guide) and [Tablets Guide](/guides/tablets-guide) |
+| **Talents** | Permanent trees (Combat / Resilience / Utility) unlocked over runs | [Talents Guide](/guides/talents-guide) |
+| **Miracle abilities** | Run-unlocked special abilities that change how a build executes | [Talents Guide](/guides/talents-guide) |
 
-| Slot | Choice | Why |
-|---|---|---|
-| Upgrade Path | Dragoon Path | Jump attacks, aerial combos |
-| Core Relics | **Feather Bindings** — aerial attacks deal 40% more damage | Core damage multiplier |
-| Core Relics | **Sky Crown** — kills while airborne restore health | Sustain during jumps |
-| Core Relics | **Windcloak** — dodge has no cooldown while airborne | Near-constant invincibility |
-| Inscriptions | Aerial Master, Swiftness, Featherfall | Enhance air play |
+---
 
-## Fist — Crimson Life-Steal Build
+## Weapon-Specific Builds
 
-**Playstyle:** Dive in, deal massive damage, heal through everything.
+For deep-dives on the most-played weapons, see the dedicated build guides:
 
-| Slot | Choice | Why |
-|---|---|---|
-| Upgrade Path | Crimson Path | Life-steal, blood orbs |
-| Core Relics | **Vampiric Fang** — 10% of damage dealt heals you | Core sustain |
-| Core Relics | **Bloodletting Blade** — hitting bleeding enemies restores stamina | Infinite combos |
-| Core Relics | **Adrenaline Rush** — damage bonus at low HP | Synergizes with life-steal play |
-| Inscriptions | Life Drain, Flurry, Critical Mass | Amplify healing and combo damage |
+- [Staff Build Guide](/guides/staff-build-guide) — element-stacking mage builds
+- [Sword & Shield Build Guide](/guides/sword-shield-build-guide) — the consistent all-rounder
+- [Crossbow Build Guide](/guides/crossbow-build-guide) — safe ranged DPS
+- [Greatsword Build Guide](/guides/greatsword-build-guide) — stagger chains and boss shutdown
 
-## Scythe — Void Execution Build
-
-**Playstyle:** Weaken enemies, then execute them in one hit.
-
-| Slot | Choice | Why |
-|---|---|---|
-| Upgrade Path | Reaper Path | Execute below 20% HP |
-| Core Relics | **Soul Reaper's Mask** — executing enemies releases a soul wave that damages nearby foes | AoE chain execution |
-| Core Relics | **Grim Scythe** — execute threshold increased to 30% HP | Wider execute window |
-| Core Relics | **Dark Pact** — kills grant 5% damage stacking for the room | Snowball clears |
-| Inscriptions | Execute Amplifier, Soul Harvest, Shadow Fury | Maximize execute power |
+---
 
 ## Co-op Build Synergies
 
 In 4-player co-op, builds that complement each other outperform four individual DPS builds.
 
-| Role | Recommended Weapon | Role |
+| Role | Recommended Weapon | Job |
 |---|---|---|
-| Tank | Sword (Paladin) | Absorb damage, control groups |
-| Ranged DPS | Bow (Elemental) | Status effects, safe damage |
-| AoE Burst | Staff (Arcane/Fire) | Room clear, boss burst |
-| Support | Spear (Phalanx) | Defense auras, enemy debuffs |
+| Tank/Frontline | Sword & Shield (or Greatsword) | Absorb damage, hold the boss's attention |
+| Ranged DPS | Crossbow (or Staff) | Sustained damage, status effects |
+| AoE Burst | Staff | Room clear, boss burst windows |
+| Support | Any + utility artifacts | Defense support, add control |
+
+---
 
 ## Related Guides
 
 - [Weapons Guide](/guides/weapons-guide) — Detailed weapon stats and upgrade paths
-- [Relics Guide](/guides/relics-guide) — Complete relic catalog and tier list
+- [Artifacts Guide](/guides/artifacts-guide) — The ~300 per-run items
+- [Tablets Guide](/guides/tablets-guide) — Grid placement and combos
 - [Inscriptions Guide](/guides/inscriptions-guide) — How to socket and optimize inscriptions
 - [Co-op Guide](/guides/coop-guide) — Team composition and coordination
 - [Solo Guide](/guides/solo-guide) — Adjustments for single-player runs

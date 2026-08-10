@@ -2,17 +2,17 @@
 title: 'Character & Playstyle Guide — Mazarim, the Watcher'
 description: 'In Echoes of Mystralia your build IS your class — Mazarim the Watcher has no classes. What\'s confirmed about character identity, and how to plan a playstyle before Early Access.'
 category: 'Builds'
-version: 'Pre-release'
-updated: '2026-08-01'
+version: 'Early Access'
+updated: '2026-08-11'
 keywords: ['echoes of mystralia build guide', 'echoes of mystralia best build', 'echoes of mystralia character guide', 'echoes of mystralia playstyle', 'echoes of mystralia watcher']
-related: ['best-spell-builds', 'spell-crafting-guide', 'spell-combos', 'tier-list', 'beginner-guide']
+related: ['best-spell-builds', 'spell-crafting-guide', 'tier-list', 'beginner-guide']
 ---
 
 # Character & Playstyle Guide — Mazarim, the Watcher
 
 Echoes of Mystralia has no character classes — and that appears to be the point. You play as **Mazarim, a Watcher**, and your "class" is whatever spell loadout you craft. This guide covers what's confirmed about character identity, how the roguelite loop defines playstyles, and how to plan a build direction before Early Access launches on **August 11, 2026**.
 
-> **Pre-release note:** Archetype names, "meta" rankings, and detailed build recipes are **TBD** until the game is playable. This guide describes the confirmed framework and honest expectations.
+> **Early Access note:** Archetype names, "meta" rankings, and detailed build recipes are being documented as the launch meta forms. This guide describes the confirmed framework and honest expectations.
 
 ## What's Confirmed About Your Character
 
@@ -28,8 +28,8 @@ There is no character creator, stat allocation screen, or class select. Your ide
 
 1. **Spell loadout** — the spells you carry into a run, crafted from Memories
 2. **Memory crafting** — how Memories are reordered and combined to shape each spell
-3. **Spell forms** — 12 base templates at Early Access (4 in the demo)
-4. **Permanent hub upgrades** — progress at the Azimuth Temple between runs
+3. **Starting spells** — 16 base templates at Early Access (4 in the demo)
+4. **Permanent progression** — the Lotus (50+ Altar upgrades) at the Azimuth Temple between runs
 
 Because the spellcrafting space is described as **"millions of possible combinations,"** two players can play the same character completely differently. That is the entire design thesis: *your build is your class.*
 
@@ -68,7 +68,7 @@ New to the game? The demo is the place to decide:
 3. **Complete the 4 fight challenges** — they expose whether you prefer speed, control, or survival
 4. **Decide a preference, not a plan** — your demo save transfers, so what you learn follows you into Early Access
 
-**A practical rule:** plan to keep **one spell per element** (fire, ice, lightning) in your early loadouts until the game's real match-ups are understood. Coverage beats specialization while you're learning.
+**A practical rule:** plan to keep **elemental coverage** in your early loadouts — the game has 7 elements at launch — until the game's real match-ups are understood. Coverage beats specialization while you're learning.
 
 ## Can You Change Your Build?
 
@@ -81,8 +81,7 @@ Experimentation is free. The expensive mistake would be ignoring the crafting sy
 
 ## Related Guides
 
-- [Best Spell Builds](/guides/best-spell-builds) — planning loadouts before launch
+- [Best Spell Builds](/guides/best-spell-builds) — planning loadouts in Early Access
 - [Spell Crafting Guide](/guides/spell-crafting-guide) — the system every build rests on
-- [Spell Combos Guide](/guides/spell-combos) — how Memory arrangement shapes spells
-- [Tier List](/guides/tier-list) — why rankings are TBD until launch
-- [Beginner Guide](/guides/beginner-guide) — first steps in the demo
+- [Tier List](/guides/tier-list) — why rankings need play data, and how to evaluate them
+- [Beginner Guide](/guides/beginner-guide) — first steps in the Ash Forest

@@ -4,21 +4,21 @@ import JsonLd from '@/components/JsonLd';
 import GuideCard from '@/components/GuideCard';
 
 const FEATURED_GUIDES = [
-  { title: 'Beginner Guide: Survive Your First Hunt', description: 'New to Dinoblade? Master Soulslike combat, stamina management, parry timing, and stat allocation for your first expedition.', slug: 'beginner-guide', category: 'Beginner', updated: '2026-07-19' },
-  { title: 'Boss Guide -- All Boss Strategies & Patterns', description: 'Complete boss strategies for Kira the Exile, Axe, Kasei the Tyrant, and more. Attack patterns, parry windows, and elemental weaknesses.', slug: 'boss-guide', category: 'Bosses', updated: '2026-07-19' },
-  { title: 'Weapons Guide -- Complete Arsenal Breakdown', description: 'All 6 weapon types plus hidden weapons. Stats, movesets, Ex-Mod upgrades for Greatsword, Battle Axe, War Hammer, Scythe, Spear, and Claws.', slug: 'weapons-guide', category: 'Weapons', updated: '2026-07-19' },
-  { title: 'Parry Guide -- Master Perfect Parry Timing', description: 'Deep dive into Dinoblade\'s parry system. Full boss parry timing table, active frames, recovery windows, and practice drills.', slug: 'parry-guide', category: 'Mechanics', updated: '2026-07-19' },
-  { title: 'Builds Guide -- Strength, Dexterity & Hybrid', description: 'Optimized builds for every playstyle. Colossus tank, Blade Dancer crit, Wardancer hybrid -- with stat tables and gear recommendations.', slug: 'builds-guide', category: 'Builds', updated: '2026-07-19' },
-  { title: 'Secrets Guide -- Hidden Weapons, Bosses & Areas', description: 'Discover every secret in Dinoblade. Fossil Greatsword, Volcanic Hammer, Soul Reaper, the Ancient One secret boss, and hidden biomes.', slug: 'secrets-guide', category: 'Secrets', updated: '2026-07-19' },
+  { title: 'Beginner Guide: Survive Your First Hunt', description: 'New to Dinoblade? Master the parry-and-posture loop, stamina management, and the basics of your first expedition.', slug: 'beginner-guide', category: 'Beginner', updated: '2026-08-11' },
+  { title: 'Boss Guide -- Alpha Predators & Boss Rush', description: 'Complete boss strategies for the Alpha predators that rule each region, plus Boss Rush Mode and the meteor finale.', slug: 'boss-guide', category: 'Bosses', updated: '2026-08-11' },
+  { title: 'Weapons & Builds Guide -- The Great Sword', description: 'The colossal Great Sword held in your Spinosaurus\'s jaws, legendary weapons hidden in the world, and honest build advice.', slug: 'weapons-guide', category: 'Weapons', updated: '2026-08-11' },
+  { title: 'Soul Arts & Leveling Guide -- Progression', description: 'Soul Arts special attacks, attribute and skill upgrades, and how to build your own combat style.', slug: 'soul-arts-guide', category: 'Mechanics', updated: '2026-08-11' },
+  { title: 'Enemy Guide -- Weapon-Wielding Dinosaurs', description: 'Every confirmed enemy type: battleaxe and halberd dinosaurs, smaller pack enemies, and the Alpha predators.', slug: 'enemy-guide', category: 'Enemies', updated: '2026-08-11' },
+  { title: 'Demo Guide -- Try Before You Buy', description: 'The free Steam demo since October 2025, rated Overwhelmingly Positive. What\'s confirmed about it, and save transfer status.', slug: 'demo-guide', category: 'Demo', updated: '2026-08-11' },
 ];
 
 const FAQ_ITEMS = [
-  { question: 'What is Dinoblade?', answer: 'Dinoblade is a dinosaur-themed Soulslike action RPG developed by Team Spino LLC. You play as a dinosaur hunter, wielding weapons held in your dinosaur companion\'s mouth, fighting through prehistoric biomes against massive creatures. It launches July 23, 2026 on Steam.' },
-  { question: 'When is the release date?', answer: 'Dinoblade launches July 23, 2026 on PC via Steam. The Standard Edition is $29.99 and the Deluxe Edition is $44.99.' },
-  { question: 'Is there a demo?', answer: 'Yes! A free Steam demo is available now. It features the Jurassic Plains area and the Kira the Exile boss fight with approximately 2-3 hours of content. Full save data carries over to the retail release.' },
-  { question: 'How many bosses are there?', answer: '8 total bosses: 6 story bosses including Kira the Exile, Axe, and Kasei the Tyrant, plus 2 optional secret bosses hidden throughout the world.' },
-  { question: 'What platforms is it on?', answer: 'Dinoblade launches on PC (Steam) for Windows. No console versions have been announced at launch.' },
-  { question: 'Is there multiplayer?', answer: 'Yes -- up to 2-player co-op is supported in both the demo and full release. Full online co-op for the entire campaign. No PvP at launch.' },
+  { question: 'What is Dinoblade?', answer: 'Dinoblade is a dinosaur-themed Soulslike action RPG developed by Team Spino LLC. You play as a young Spinosaurus wielding a colossal Great Sword between its teeth, fighting weapon-wielding rival dinosaurs to prevent an extinction event. It launched July 23, 2026 on Steam.' },
+  { question: 'When was it released, and how much does it cost?', answer: 'Dinoblade launched July 23, 2026 on Steam (PC) at $19.99, with a 10% launch discount until July 30, 2026. A free demo has been available since October 2025.' },
+  { question: 'Is there a demo?', answer: 'Yes! A free demo has been on Steam since October 2025 and holds an "Overwhelmingly Positive" rating (~97% of 4,200+ reviews). It helped the game pass 500,000 Steam wishlists. Whether demo saves carry over to the full game is unconfirmed.' },
+  { question: 'What makes the combat special?', answer: 'Classic Soulslike combat — light/heavy attacks, dodge rolls, stamina management — with a Sekiro-style posture system: parries build enemy posture until the guard breaks, opening enemies to counterattacks. Soul Arts (special attacks), boss summons, and hidden legendary weapons round out the toolkit.' },
+  { question: 'What platforms is it on?', answer: 'Dinoblade is on PC (Steam) for Windows, rated Playable on Steam Deck with full controller support. No console versions have been announced, and it is single-player only.' },
+  { question: 'Is there multiplayer or PvP?', answer: 'No. Dinoblade is a confirmed single-player game with no co-op, PvP, or invasions. The summons you use are AI versions of defeated bosses, not other players.' },
 ];
 
 export default function Home() {
@@ -34,15 +34,15 @@ export default function Home() {
         <p className="text-lg text-amber-100/70 max-w-xl mx-auto mb-2">
           Dinosaur Soulslike Guide Hub -- Complete wiki for Team Spino&apos;s prehistoric action RPG.
         </p>
-        <p className="text-sm text-amber-100/40 mb-8">Launching July 23, 2026 on Steam</p>
+        <p className="text-sm text-amber-100/40 mb-8">Released July 23, 2026 on Steam</p>
         <div className="flex items-center justify-center gap-4">
           <a
-            href="https://store.steampowered.com/app/312345/Dinoblade/"
+            href="https://store.steampowered.com/app/3440070/Dinoblade/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-amber-600 hover:bg-amber-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors text-sm"
           >
-            Wishlist on Steam
+            View on Steam
           </a>
           <Link
             href="/guides/beginner-guide"
@@ -53,7 +53,7 @@ export default function Home() {
         </div>
         <div className="mt-10 inline-flex items-center gap-2 text-xs text-amber-100/30">
           <span className="w-1.5 h-1.5 rounded-full bg-green-400 inline-block animate-pulse" />
-          500,000+ Wishlists on Steam
+          500,000+ Wishlists · No. 1 on Steam Popular Releases at Launch
         </div>
       </section>
 

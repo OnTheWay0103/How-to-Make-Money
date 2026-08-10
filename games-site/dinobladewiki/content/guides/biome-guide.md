@@ -1,52 +1,41 @@
 ---
-title: "Biome Guide — Environments, Hazards & Areas (Confirmed + TBD)"
-description: "What we know about Dinoblade's world — the opening cavern, northern paths, and mountain caves, plus the marketing biomes and what remains unconfirmed."
+title: "Dinoblade Biomes & World Guide — Canyons, Jungles & Regions"
+description: "What we know about Dinoblade's world — the confirmed biomes, the Alpha predators that rule each region, and what remains unconfirmed about zones and hazards."
 category: "Guides"
 version: "1.0"
-updated: "2026-08-01"
+updated: "2026-08-11"
 keywords:
   - Dinoblade biomes
   - Dinoblade areas
   - Dinoblade world
   - Dinoblade environments
-  - Dinoblade first area
+  - Dinoblade map
 related:
   - enemy-guide
   - beginner-guide
-  - secrets-guide
+  - lore-guide
+  - boss-guide
 ---
 
-# Biome Guide — Environments, Hazards & Areas in Dinoblade
+# Dinoblade Biomes & World Guide — Canyons, Jungles & Regions
 
-Dinoblade's world is a prehistoric land struck by a cataclysm that armed every creature with a blade. You traverse **canyons, jungles, swamps, and frozen peaks** (per official description) while hunting rival dinosaurs and story bosses to survive the extinction that follows.
+Dinoblade's world is a **handcrafted prehistoric land** forever changed by a cataclysm that armed rival dinosaurs with brutal weapons of their own. You traverse its regions as a young Spinosaurus wielding a colossal Great Sword, fighting to prevent a looming extinction event.
 
-**Honesty note:** the game has no officially published zone list with names, levels, or hazards. The confirmed geography below comes from verified walkthroughs of Parts 1–3 (intoindiegames and similar coverage). Everything else is TBD until more of the map is documented.
+**Honesty note:** the game has no officially published zone list with names, levels, or hazards. The confirmed geography below comes from the official description and launch coverage; everything else is TBD until more of the map is documented.
 
-## Confirmed Areas (from walkthroughs)
+## Confirmed Biomes (Official Description)
 
-### Part 1: The Cavern
+The Steam store description confirms these regions of the world:
 
-- **What it is:** the opening area where the tutorial plays out.
-- **What's there:** groups of smaller dinosaurs, a larger enemy, Save Stones, and the flaming sword pickup at the start.
-- **Combat:** standard tutorial rhythm — parry the small stuff, practice blocking and dodging.
-- **Ending point:** the boss fight with **Kira the Exile**, the game's first main boss.
+- **Dry canyons** — the game's opening regions: sun-baked, rocky, and full of pack enemies.
+- **Dense, mist-shrouded jungles** — the game's signature environment: thick cover, vertical spaces, and ambushes.
+- **Frozen mountain basins** — cold highlands ruled by the tougher Alpha predators.
+- **Forgotten ruins** — the ancient remnants where the world's secrets (and legendary weapons) are hidden.
 
-### Part 2: The Northern Paths
+## Regional Structure (Confirmed)
 
-- **What it is:** the second major stretch — walkthroughs describe passing **several waterfalls** on the way north, with a **giant skull** as a notable landmark.
-- **What's there:** tougher enemies armed with **scythes and hammers**, multiple Save Stones, and **hidden SP pickups** — tucked between rocks, inside the giant skull, and along the main path.
-- **Combat:** the reach weapons of enemy dinos demand either charged fire projectiles or dodge-throughs. You can adjust your character's attributes before the boss.
-- **Ending point:** the boss fight with **Axe**, a melee fighter with spinning combos and jumping attacks.
-
-### Part 3: The Mountain Caves
-
-- **What it is:** the final stretch of the campaign — mountain caves, including a passage **behind a waterfall**.
-- **What's there:** waves of hammer-wielding dinosaurs, further Save Stones, and the final boss arena.
-- **Ending point:** **Kasei the Tyrant**, the two-phase final boss. Defeating him unlocks **Boss Rush mode**.
-
-## Marketing Biomes (Official Description)
-
-The Steam store description promises **dry canyons and mist-shrouded jungles** as part of the game's world, alongside the swamps and frozen peaks mentioned in coverage. Which campaign areas these correspond to is **TBD** — the walkthrough geography (cavern → northern paths → mountain caves) has not yet been mapped to the marketing biomes in any verified source.
+- **Each region is ruled by a ferocious Alpha apex predator** that guards the path forward — the game's boss structure. Confirmed examples include a T-Rex wielding a smaller dinosaur as a weapon, and tyrannosaurs armed with battleaxes and halberds. See the [Boss Guide](/guides/boss-guide).
+- **Progression is linear-but-explorable:** the path forward opens as you defeat the region's Alpha, and exploration for legendary weapons is a confirmed part of the loop.
 
 ## Hazards and Resources (TBD)
 
@@ -54,23 +43,23 @@ As of August 2026 there is **no verified documentation** of environmental hazard
 
 What *is* confirmed about exploration:
 
-- **Hidden SP pickups** exist in Part 2 (between rocks, inside a giant skull, along the main path) — exploration rewards are real.
-- **Save Stones** are your rest points in every area.
-- **Legendary weapons** can be hunted down to change how your Spinosaurus plays — but their locations are undocumented so far (see the [Secrets Guide](/guides/secrets-guide)).
+- **Legendary weapons** are hidden in the world and change how your Spinosaurus plays — their locations are undocumented so far (see the [Endings & Secrets Guide](/guides/endings-guide)).
+- **Save points** exist throughout the regions — resting restores healing and respawns enemies.
+- The world is **handcrafted** — official material emphasizes deliberate design over procedural generation.
 
 ## Practical Preparation Checklist
 
 Since hazard systems are unconfirmed, prepare like a Soulslike player instead:
 
-- [ ] Spend your souls/SP on attributes that suit the next boss (you can adjust attributes before boss fights)
-- [ ] Refill healing charges at the last Save Stone before a boss
+- [ ] Upgrade attributes and skills toward the next region's Alpha boss
+- [ ] Refill healing at the last save point before a boss
 - [ ] Learn each new enemy's attack rhythm before attempting parries
-- [ ] Explore for hidden SP pickups — they add up
-- [ ] Remember: death has no currency penalty, so exploration risk is low
+- [ ] Explore thoroughly — legendary weapons are hidden in the world
+- [ ] Mind your stamina — dry canyons to frozen basins, the loop is the same
 
 ## Related Guides
 
-- [Enemy Guide](/guides/enemy-guide) — Enemy behavior and tactics
-- [Beginner Guide](/guides/beginner-guide) — Core combat and first expedition
-- [Secrets Guide](/guides/secrets-guide) — Confirmed hidden content
-- [Boss Guide](/guides/boss-guide) — The three main bosses
+- [Enemy Guide](/guides/enemy-guide) — The dinosaurs that live in these regions
+- [Beginner Guide](/guides/beginner-guide) — Core combat and your first expedition
+- [Lore Guide](/guides/lore-guide) — The story premise behind the world
+- [Boss Guide](/guides/boss-guide) — The Alpha predators that rule each region

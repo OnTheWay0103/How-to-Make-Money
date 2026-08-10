@@ -2,51 +2,51 @@
 title: 'Echoes of Mystralia Community — Official Discord, Newsletter & Bug Reporting'
 description: 'The official Echoes of Mystralia community — Discord invite link, Borealys newsletter, Steam forums, private playtests, plus how to report bugs and where known issues are announced during Early Access.'
 category: 'Reference'
-version: 'Pre-release'
-updated: '2026-08-07'
+version: 'Early Access'
+updated: '2026-08-11'
 keywords: ['echoes of mystralia discord', 'echoes of mystralia community', 'echoes of mystralia known issues', 'echoes of mystralia bug report', 'echoes of mystralia newsletter', 'echoes of mystralia feedback', 'echoes of mystralia steam forums']
-related: ['ea-launch-guide', 'ea-roadmap-guide', 'ea-launch-faq', 'faq', 'controller-support-guide']
+related: ['ea-launch-guide', 'ea-roadmap-guide', 'faq', 'controller-support-guide']
 ---
 
 # Echoes of Mystralia Community — Official Discord, Newsletter & Bug Reporting
 
-Early Access is a community-led phase for Echoes of Mystralia: Borealys Games has committed to **community-driven development** — feedback channels, private playtests, and balance tuning from player data. This guide collects every official channel confirmed for the game, where known issues get announced, and the right way to report a bug ahead of the **August 11, 2026** Early Access launch.
+Early Access is a community-led phase for Echoes of Mystralia: Borealys Games has committed to **community-driven development** — feedback channels, private playtests, and balance tuning from player data. This guide collects every official channel confirmed for the game, where known issues get announced, and the right way to report a bug in the **August 11, 2026** Early Access launch.
 
-> **Pre-release note:** All channels below are officially confirmed. Any channel that exists but isn't listed here (for example, fan-run communities) is not officially maintained by Borealys Games.
+> **Early Access note:** All channels below are officially confirmed. Any channel that exists but isn't listed here (for example, fan-run communities) is not officially maintained by Borealys Games.
 
 ## Official Channels (Confirmed)
 
 | Channel | Link / Where to find it | Best for |
 |---------|------------------------|----------|
-| **Official Discord** | [discord.gg/Ge4sysstj3](https://discord.gg/Ge4sysstj3) — linked from the Steam page | Announcements, patch notes, community discussions, feedback |
-| **Steam store page** | [store.steampowered.com/app/974480](https://store.steampowered.com/app/974480/Echoes_of_Mystralia/) | Wishlist, news posts, launch time, pricing |
+| **Official Discord** | Linked from the Steam store page | Announcements, patch notes, community discussions, feedback |
+| **Steam store page** | [store.steampowered.com](https://store.steampowered.com) → search "Echoes of Mystralia" | News posts, patch notes, pricing |
 | **Steam Community forums** | On the Steam store page → Community tab | Player discussions, build talk, bug reports |
 | **Borealys newsletter** | Signup via the official Borealys Games site | Official announcements by email |
-| **Facebook** | facebook.com/mystraliagames | News posts and announcements |
+| **Social media** | Via the official Borealys Games site and the Steam page | News posts and announcements |
 | **Private playtests** | Via the official Discord (announced there) | Early hands-on access before patches |
 
 The **official Discord is the center of the community**. It's the channel Borealys uses for announcements, the launch hub for player feedback, and the place where **private playtests** are announced — the studio has confirmed community playtests as part of its development approach, and the Discord is the confirmed venue for them.
 
 There is **no official subreddit** — Borealys has not announced one. Fan-run subreddits and wikis may exist, but the official hubs are Steam, Discord, and Facebook.
 
-## Why Join Before Launch
+## Why Join
 
-If you're not on the Discord yet, the launch window is the moment it pays off:
+If you're not on the Discord yet, Early Access is the moment it pays off:
 
-- **Exact unlock timing** — the game unlocks **August 11, 2026 at 15:00 UTC** on Steam; the Discord will carry the studio's own launch-day posts and any server issues are discussed there first
+- **Patch notes and announcements** — the game unlocked **August 11, 2026 at 15:00 UTC** on Steam; the Discord carries the studio's own posts, and any server issues are discussed there first
 - **First-day patch notes** — Borealys has committed to gameplay-focused updates throughout Early Access, and patch notes are announced on Steam and Discord
-- **Build metagame** — with 12 spell forms and 110 Memories at launch, the Discord and Steam forums are where the first "millions of combinations" get workshopped before tier lists exist
+- **Build metagame** — with 16 starting spells, 100+ Memories, and 40+ Relics at launch, the Discord and Steam forums are where the "millions of combinations" get workshopped as the meta forms
 - **Feedback channels** — Early Access balance is tuned from player data and feedback; your reports genuinely shape the game
 
 ## Known Issues — Where to Find Them
 
-**No known issues have been officially published yet** — the game hasn't launched. After August 11, official sources for known issues are, in order of reliability:
+Official sources for known issues are, in order of reliability:
 
 1. **Steam announcements / patch notes** — every Borealys update post includes fixed and known issues
-2. **Official Discord announcements** — faster than Steam for hotfixes and day-one issues, including a patch-notes channel
+2. **Official Discord announcements** — faster than Steam for hotfixes, including a patch-notes channel
 3. **Steam Community forums** — player-reported issues with workarounds; always verify against official patch notes before assuming a bug is real
 
-This guide will carry a **running known-issues list for the Early Access build** once the game is live — check back after launch for verified, official bugs and their workarounds.
+This guide will carry a **running known-issues list for the Early Access build** — check back for verified, official bugs and their workarounds.
 
 ## How to Report a Bug the Right Way
 
@@ -65,12 +65,11 @@ Borealys is a small independent studio (the team behind *Mages of Mystralia*), a
 
 - **Join the Discord and stay active** — playtest invitations and community events are announced there
 - **Report balance observations**, not just bugs — the developer has committed to balance tuning from player data
-- **Don't trust pre-launch tier lists** — including in this wiki; legitimate build rankings need real launch data (12 spell forms, 110 Memories), and the community is where that data gets gathered first
+- **Don't trust unverified tier lists** — including in this wiki; legitimate build rankings need real play data (16 starting spells, 100+ Memories), and the community is where that data gets gathered first
 
 ## Related Guides
 
-- [EA Launch Guide](/guides/ea-launch-guide) — your first session on August 11
+- [EA Launch Guide](/guides/ea-launch-guide) — your first session in Early Access
 - [EA Roadmap Guide](/guides/ea-roadmap-guide) — what ships at launch and what follows
-- [EA Launch FAQ](/guides/ea-launch-faq) — price, content, and roadmap questions
+- [FAQ](/guides/faq) — price, content, and roadmap questions
 - [Controller Support Guide](/guides/controller-support-guide) — gamepad setup and troubleshooting
-- [FAQ](/guides/faq) — the general game FAQ

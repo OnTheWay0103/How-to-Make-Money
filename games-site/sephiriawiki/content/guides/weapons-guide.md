@@ -1,133 +1,156 @@
 ---
-title: "All Weapons Guide — Stats, Upgrades & Mastery"
-description: "Complete breakdown of all 6 Sephiria weapons: Sword, Bow, Staff, Spear, Fist (Gauntlets), and Scythe. Base stats, upgrade trees, mastery perks, and best use cases for each."
+title: "All Weapons Guide — The 6 Weapon Types & Best Use Cases"
+description: "Complete Sephiria weapons guide: all 6 weapon types (Sword & Shield, Greatsword, Dagger, Katana, Crossbow, Staff), how they play, which to start with, and what the community ranks highest in the 1.0 meta."
 category: "Weapons"
 version: "1.0"
-updated: "2026-07-20"
-keywords: [Sephiria weapons, weapon upgrades, sword guide, bow guide, staff guide, spear guide, fist gauntlets, scythe weapon, weapon mastery]
-related: [builds-guide, beginner-guide, relics-guide, chapter-guide]
+updated: "2026-08-11"
+keywords: ["sephiria weapons", "sephiria weapon guide", "sephiria best weapon", "sephiria sword and shield", "sephiria greatsword", "sephiria dagger", "sephiria katana", "sephiria crossbow", "sephiria staff", "sephiria best starting weapon"]
+related: ["builds-guide", "beginner-guide", "artifacts-guide", "chapter-guide", "inscriptions-guide"]
 ---
 
-## Overview
+# All Weapons Guide — The 6 Weapon Types & Best Use Cases
 
-Sephiria features **6 distinct weapon types**, each with **50+ upgrade options** and a unique **mastery system** that unlocks special abilities as you gain experience with that weapon. Your weapon choice defines your playstyle more than any other decision in the game.
+Sephiria has **6 weapon types**: Sword & Shield, Greatsword, Dagger, Katana, Crossbow, and Staff. Each has its own upgrade tree, and 1.0 added hundreds of upgrades across all six branches. Your weapon choice defines your playstyle more than any other decision in the game — but you are never locked in. You choose your weapon at the start of each run, and weapon mastery grows per weapon, so switching between runs is free.
 
-### Weapon Stat Comparison
+---
 
-| Weapon | Damage | Speed | Range | Difficulty | Best For |
-|---|---|---|---|---|---|
-| **Sword** | 6/10 | 7/10 | 4/10 | Easy | Balanced all-rounder |
-| **Bow** | 7/10 | 5/10 | 10/10 | Medium | Ranged DPS, safe play |
-| **Staff** | 8/10 | 4/10 | 8/10 | Medium | AoE damage, elemental effects |
-| **Spear** | 5/10 | 6/10 | 9/10 | Easy | Safe poke, crowd control |
-| **Fist (Gauntlets)** | 9/10 | 9/10 | 2/10 | Hard | Rushdown, combo-heavy burst |
-| **Scythe** | 8/10 | 3/10 | 6/10 | Hard | Heavy sweeps, life-steal mechanics |
+## The Six Weapons at a Glance
 
-## Sword — The Balanced All-Rounder
+| Weapon | Style | Difficulty | Best For |
+|--------|-------|:--:|----------|
+| **Sword & Shield** | Balanced melee | Easy | New players; all-round clears |
+| **Greatsword** | Heavy melee | Medium | Raw damage, stagger chains |
+| **Dagger** | Fast melee | Hard | Burst, crit fishing, mobility |
+| **Katana** | Mid melee | Medium | Combo flow, counterplay |
+| **Crossbow** | Ranged | Easy-Medium | Safe poke, single-target |
+| **Staff** | Ranged magic | Medium | AoE, element synergy |
 
-**Base Stats:** Medium damage, medium speed, short range. 3-hit basic combo.
+---
 
-The sword is the default weapon and the most versatile. Its upgrade tree branches into:
+## Sword & Shield — The Balanced All-Rounder
 
-- **Paladin Path** — Defensive upgrades, blocking heals, holy damage on parries
-- **Berserker Path** — Aggressive combos, attack speed stacking, damage bonuses at low HP
-- **Wind Path** — Mobility-focused, dash attacks, tornado slashes that pull enemies
+**Style:** Balanced melee. **Difficulty:** Easy.
 
-**Mastery Perks (unlocked by using the sword):**
-- Mastery 5: Parry window increased by 25%
-- Mastery 15: Unlock "Sword Dance" — rapid slash that hits 6 times
-- Mastery 30: Unlock "Tempest Blade" — charged attack creates a wind vortex
+The Sword & Shield is the most forgiving weapon in the game. Balanced stats, straightforward combos, and a reliable block cover the classic mistakes of your first runs — no matchup punishes you for picking it. Every upgrade line is useful, which makes it the community's default recommendation for new players and a strong pick at every stage of the game.
 
-**Best for:** Players who want flexibility and safety.
+- **Strengths:** Consistent damage, survivability through blocking, no bad matchups
+- **Weaknesses:** No standout specialty — other weapons out-damage or out-range it
+- **Best for:** First-time players, learning enemy patterns, all-round clears
+- **Starting upgrade advice:** Upgrade the lines that fit how you play — defensive lines for survivability, damage lines once you are comfortable with boss patterns
 
-## Bow — The Ranged Specialist
+---
 
-**Base Stats:** High damage, medium speed, longest range. Charged shots.
+## Greatsword — The Heavy Hitter
 
-The bow excels at kiting enemies and staying out of danger. Upgrade paths:
+**Style:** Heavy melee. **Difficulty:** Medium.
 
-- **Volley Path** — Multishot, spread shots, ricochet arrows
-- **Sniper Path** — Single-target focus, critical damage, armor piercing
-- **Elemental Path** — Fire/ice/poison arrow conversions, status effects
+The Greatsword trades speed for raw damage and heavy stagger. It is a boss-shutdown weapon: stagger chains interrupt patterns that would normally force you to dodge. Community-favored endgame picks like the **Thor Greatsword S3G** and **Red Snake Crusher** are standout 1.0 weapons.
 
-**Mastery Perks:**
-- Mastery 5: Arrow velocity increased by 30%
-- Mastery 15: Unlock "Rain of Arrows" — AoE bombardment
-- Mastery 30: Unlock "Eagle Eye" — critical shots mark enemies, increasing all damage
+- **Strengths:** Massive damage per hit, stagger chains, room-clearing sweeps
+- **Weaknesses:** Slow animations — a whiffed heavy attack during a boss's wind-up is how Greatsword players die
+- **Best for:** Boss rushing, players who learn enemy tells and punish windows
+- **Key advice:** Don't overcommit. Wait for the enemy's attack to finish, then swing.
 
-**Best for:** Players who prefer safe, methodical play.
+---
+
+## Dagger — The Burst Specialist
+
+**Style:** Fast melee. **Difficulty:** Hard.
+
+The Dagger is a high-ceiling, high-risk weapon built around fast attacks, crit fishing, and mobility. Its burst damage is excellent, and the 1.0 upgrade line gives it a real endgame path — but its floor is inconsistent without the right artifact and tablet support.
+
+- **Strengths:** Fastest attack speed, burst damage, strong crit synergy
+- **Weaknesses:** Short range, fragile — positioning mistakes are punished hard
+- **Best for:** Experienced players who want aggressive, combo-heavy play
+
+---
+
+## Katana — The Combo Weapon
+
+**Style:** Mid melee. **Difficulty:** Medium.
+
+The Katana rewards combo flow and counterplay. Its power is skill-gated: players who keep the combo going get excellent sustained damage, but it takes practice to unlock. The 1.0 rebalance didn't change its core items much, so its standing is stable.
+
+- **Strengths:** Smooth combo flow, good counterplay tools, consistent mid-range damage
+- **Weaknesses:** Skill-gated — mediocre in unskilled hands
+- **Best for:** Players who like rhythm-based combat and counterplay
+
+---
+
+## Crossbow — The Safe Ranged Pick
+
+**Style:** Ranged. **Difficulty:** Easy-Medium.
+
+The Crossbow is the safest weapon in the game. It keeps you at distance while dealing strong sustained single-target damage, and its 1.0 upgrade line turned it into a genuine sustained DPS option. It is widely considered the safest pick for Hard Mode, where positioning matters more than anything.
+
+- **Strengths:** Safe range, strong single-target DPS, easy to play
+- **Weaknesses:** Weaker crowd control than melee options — dense rooms take longer
+- **Best for:** Hard Mode, players who prefer methodical, safe play
+
+---
 
 ## Staff — The Elemental Mage
 
-**Base Stats:** High damage, slow speed, long range. Mana-based casting.
+**Style:** Ranged magic. **Difficulty:** Medium.
 
-The staff is the only weapon with a mana resource. Upgrade paths:
+The Staff is the element-synergy king. Its spells pair with ice, storm, and fire artifacts and tablets for massive AoE damage, and 1.0 added fire-focused lines (like **Firelighter** and **Solis Missio**) that give fire a real answer in the endgame. With the right tablets it has the highest ceiling of any weapon.
 
-- **Fire Path** — Explosive fireballs, burn damage over time, lava pools
-- **Frost Path** — Ice shards, slow effects, freezing enemies solid
-- **Arcane Path** — Homing projectiles, mana regeneration, spell amplification
+- **Strengths:** Best AoE damage, unmatched element synergy, strong in co-op
+- **Weaknesses:** Requires the right artifact/tablet support to reach its ceiling
+- **Best for:** Co-op teams, element-focused builds, players who like area control
 
-**Mastery Perks:**
-- Mastery 5: Mana regeneration increased by 20%
-- Mastery 15: Unlock "Meteor Storm" — large AoE fire/ice barrage
-- Mastery 30: Unlock "Arcane Nova" — emits a ring of magic damage on dodge
+---
 
-**Best for:** Players who enjoy area denial and elemental control.
+## Weapon Tier Summary (1.0 Meta)
 
-## Spear — The Patient Poke
+Community consensus on the 1.0 meta, based on Steam Community discussions and player reports:
 
-**Base Stats:** Low damage, medium speed, long range. Thrusting attacks.
+| Tier | Weapon | Why |
+|:--:|-------|-----|
+| **S** | **Staff** | The element-synergy king — ice/storm builds still live here, and the new fire lines give fire a real answer. Highest ceiling with the right tablets |
+| **S** | **Sword & Shield** | The most consistent weapon in 1.0 — the "no bad matchup" pick and the community's default recommendation |
+| **A** | **Crossbow** | Strong sustained DPS and the safest pick for Hard Mode |
+| **A** | **Greatsword** | Standout endgame weapons and heavy stagger make boss fights mechanical |
+| **B** | **Katana** | Good combo flow, but its power is skill-gated |
+| **B** | **Dagger** | High ceiling with the right support, but inconsistent floor |
 
-The spear is about keeping enemies at a distance. Upgrade paths:
+**The honest 1.0 conclusion:** artifact and tablet support decide more than the weapon itself — pick the weapon whose element matches the tablets you find, and you will outperform a "higher tier" weapon with a mismatched build.
 
-- **Phalanx Path** — Defensive stances, counter-thrusts, team support auras
-- **Dragoon Path** — Jump attacks, aerial combos, slam damage
-- **Harpoon Path** — Throw-and-retrieve mechanics, pulling enemies, chain damage
+---
 
-**Mastery Perks:**
-- Mastery 5: Reach increased by 15%
-- Mastery 15: Unlock "Whirlwind Thrust" — multi-direction stab
-- Mastery 30: Unlock "Impale" — charged throw that pins enemies to walls
+## Best Starting Weapons
 
-**Best for:** Players who like controlling space and punishing mistakes.
+| For | Pick | Why |
+|-----|------|-----|
+| First-time players | **Sword & Shield** | Forgiving, consistent, every upgrade line is useful |
+| Co-op teams | **Staff** | AoE + element coverage helps the whole party |
+| Hard Mode | **Crossbow** | Safe distance beats the hard-mode modifiers |
+| Boss rushing | **Greatsword** | Stagger chains shut down boss patterns |
 
-## Fist (Gauntlets) — The Rushdown Brawler
+**The mastery rule:** weapon mastery grows only while you use that weapon, so commit to one weapon per campaign — but switch freely between runs to try new builds.
 
-**Base Stats:** Very high damage, very high speed, very short range. Combo-focused.
+---
 
-The fists are the most aggressive weapon. Upgrade paths:
+## FAQ
 
-- **Crimson Path** — Life-steal, blood orbs, HP-scaling damage
-- **Iron Path** — Stagger focus, armor break, heavy stuns
-- **Phantom Path** — After-images, teleport strikes, invincibility frame extension
+**Q: How many weapons are in Sephiria?**
+Six: Sword & Shield, Greatsword, Dagger, Katana, Crossbow, and Staff.
 
-**Mastery Perks:**
-- Mastery 5: Combo window extended by 0.3 seconds
-- Mastery 15: Unlock "Hundred Fists" — rapid barrage of 12 hits
-- Mastery 30: Unlock "Shadow Step" — teleport behind the last enemy hit
+**Q: Which weapon is best for the final boss?**
+Greatsword (stagger) or Crossbow (safe range) are the community picks for the Chapter 6 finale. Full tactics in the [Chapter 6 & Final Boss Guide](/guides/chapter-6-final-boss-guide).
 
-**Best for:** Experienced players who like aggressive, high-risk play.
+**Q: Does the weapon meta change with updates?**
+Yes — the game received 58 updates during Early Access and balance changes are ongoing. We update this page after major balance patches.
 
-## Scythe — The Heavy Reaper
+**Q: Can I change weapons mid-run?**
+Weapon choice happens at the start of each run. Within a run, you upgrade the weapon you chose.
 
-**Base Stats:** High damage, slow speed, medium range. Sweeping arcs.
-
-The scythe delivers massive AoE damage but demands patience. Upgrade paths:
-
-- **Reaper Path** — Execute mechanics, bonus damage to low-HP enemies
-- **Harvest Path** — Life-steal on kills, soul collection, stacking damage buffs
-- **Void Path** — Dark magic, gravity pulls, AoE explosions
-
-**Mastery Perks:**
-- Mastery 5: Swing speed increased by 15%
-- Mastery 15: Unlock "Death's Harvest" — massive sweeping arc that executes enemies below 20% HP
-- Mastery 30: Unlock "Void Cleave" — dash forward while spinning, pulling enemies into a void explosion
-
-**Best for:** Players who enjoy huge damage numbers and room-clearing potential.
+---
 
 ## Related Guides
 
 - [Beginner's Guide](/guides/beginner-guide) — Tips for first-time players
 - [Builds Guide](/guides/builds-guide) — Optimal builds for each weapon
-- [Relics Guide](/guides/relics-guide) — Best relic synergies per weapon
+- [Artifacts Guide](/guides/artifacts-guide) — The per-run items that support your weapon
 - [Inscriptions Guide](/guides/inscriptions-guide) — Socketing inscriptions for weapon bonuses
+- [Chapter Guide](/guides/chapter-guide) — What each chapter throws at your weapon

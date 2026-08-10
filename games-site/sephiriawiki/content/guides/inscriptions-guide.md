@@ -1,182 +1,73 @@
 ---
-title: "Inscriptions Guide — Socketing System & Best Combinations"
-description: "Complete guide to Sephiria's Inscription system. Learn how socketing works, all inscription types, best combinations per weapon, farming methods, and how to maximize your build potential."
+title: "Inscriptions Guide — Permanent Socketed Progression"
+description: "Complete guide to Sephiria's Inscription system. How Destiny Inscriptions work, socket slots and Inscription Shards, what to unlock first, and how inscriptions complement Talents and artifacts."
 category: "Mechanics"
 version: "1.0"
-updated: "2026-07-20"
-keywords: [Sephiria inscriptions, inscription system, socketing guide, rune system, best inscriptions, inscription farming, socket slots]
-related: [builds-guide, weapons-guide, relics-guide, beginner-guide]
+updated: "2026-08-11"
+keywords: ["Sephiria inscriptions", "inscription system", "socketing guide", "destiny inscriptions", "best inscriptions", "inscription farming", "socket slots"]
+related: ["builds-guide", "weapons-guide", "artifacts-guide", "beginner-guide", "farming-guide", "talents-guide"]
 ---
 
 ## What Are Inscriptions?
 
-Inscriptions are **socketable passive bonuses** that you can slot into weapons and armor. They function like runes or gems in other games — you find them, socket them, and they provide permanent passive effects. Unlike relics, inscriptions are **persistent between runs** — once unlocked, you keep them forever.
+Inscriptions are **socketable passive bonuses** that you slot into your gear. They function like runes or gems in other games — you find or buy them, socket them, and they provide permanent passive effects. Unlike artifacts (which reset each run), inscriptions are **persistent between runs** — once unlocked, you keep them forever.
 
-### Inscription Slots
+### Destiny Inscriptions
 
-| Gear Piece | Base Slots | Max Slots (Upgraded) |
-|---|---|---|
-| Weapon | 2 | 4 |
-| Helm | 1 | 2 |
-| Chest | 1 | 2 |
-| Accessory | 1 | 2 |
-| **Total** | **5** | **10** |
+**Destiny Inscriptions** are the permanent meta-progression layer, purchased with **sapphires** — the permanent currency you earn from every run, win or lose. They are the main reason every run makes your account stronger, even failed ones.
 
-Slots are upgraded using **Inscription Shards**, found in secret rooms, boss drops, and challenge rewards.
+### Socket Slots & Inscription Shards
 
-## Inscription Types
+Your gear has socket capacity that can be expanded. **Inscription Shards** unlock and upgrade socket slots on your gear — they persist between runs. Shards come from:
 
-There are **40+ inscriptions** organized into 4 categories. Each category has a unique color:
+| Source | Notes |
+|------|------|
+| Secret rooms | The best source — learn to spot cracked walls (see the [Secret Rooms Guide](/guides/secret-rooms-guide)) |
+| Boss kills (first time per difficulty) | One-time bonuses |
+| Challenge room clears | Reliable mid-run income |
+| Hard Mode | Modifier-gated bonuses |
 
-### Offensive Inscriptions (Red)
+## What to Unlock First (Priority Order)
 
-| Inscription | Effect | Rarity |
-|---|---|---|
-| Critical Eye | +5% critical hit chance | Common |
-| Critical Mass | +25% critical hit damage | Uncommon |
-| Elemental Affinity | +15% elemental damage | Rare |
-| Execute Amplifier | +10% execute threshold | Rare |
-| Flurry | +8% attack speed | Uncommon |
-| Life Drain | 2% of damage dealt heals you | Rare |
-| Range Master | +15% attack range | Uncommon |
-| Arcane Intensity | +20% spell damage | Rare |
-| Spell Weave | 10% chance to refund mana on cast | Uncommon |
+The community-consistent unlock order for Destiny Inscriptions:
 
-### Defensive Inscriptions (Blue)
+| Priority | Inscription | Why |
+|:--:|------|------|
+| 1 | **Home Repair** | Unlocks the Talent tree — the gateway to other meta-progression |
+| 2 | **Extra Potion Slot** | +1 consumable slot is a massive survivability increase |
+| 3 | **Starting Weapon Choice** | Pick your weapon at run start instead of a random roll |
+| 4 | **Artifact Slot +1** | A second permanent artifact slot — build-defining |
+| 5 | **Shop Discount** | Cheaper shop purchases every run |
+| 6 | **Bonus Gold Start** | Extra gold at run start helps early shop purchases |
 
-| Inscription | Effect | Rarity |
-|---|---|---|
-| Fortify | -10% damage taken when below 50% HP | Common |
-| Resistance | +15% to all elemental resistances | Common |
-| Regeneration | +1 HP per second | Uncommon |
-| Second Wind | Survive a killing blow once per run (60s cooldown) | Epic |
-| Dodge Master | +15% invincibility frame duration | Rare |
-| Stone Aegis | Blocking reduces incoming damage by an additional 10% | Rare |
-| Iron Will | -20% stun duration | Common |
-| Health Font | +15% max HP | Uncommon |
+For the full farming routes for sapphires and shards, see the [Farming Guide](/guides/farming-guide).
 
-### Utility Inscriptions (Green)
+## How to Build with Inscriptions
 
-| Inscription | Effect | Rarity |
-|---|---|---|
-| Swiftness | +10% movement speed | Common |
-| Featherfall | Slow fall, no fall damage | Uncommon |
-| Aerial Master | Attacks while airborne deal 20% more damage | Rare |
-| Treasure Hunter | +15% relic find chance | Uncommon |
-| Gold Rush | +20% gold from all sources | Common |
-| Magnet Pull | Increased relic pickup range | Common |
-| Explorer's Insight | Shows hidden rooms on minimap | Uncommon |
+Inscriptions cover a wide range of effects — offense (damage, crit), defense (damage reduction, sustain), and utility (mobility, economy). The general rules:
 
-### Special Inscriptions (Purple)
+- **Fill gaps, don't double up.** If your artifacts and tablets cover damage, use inscription choices for defense and sustain.
+- **Match your build direction.** A crit build wants crit-supporting bonuses; a tanky build wants sustain.
+- **Socket space is power.** Unlock socket slots before chasing specific effects — capacity beats any single bonus.
 
-| Inscription | Effect | Rarity |
-|---|---|---|
-| Mana Surge | +30% max mana | Rare |
-| Soul Harvest | Kills grant +2% damage for the current room (stacks up to 5 times) | Epic |
-| Shadow Fury | +20% damage when no enemies are nearby | Epic |
-| Blood Pact | Sacrifice 10% max HP for +20% damage | Epic |
-| Phoenix Ember | Revive once per run with 30% HP | Legendary |
-| Infinite Loop | 5% chance to reset all cooldowns on kill | Legendary |
+## Inscriptions vs Artifacts — Key Differences
 
-## Best Inscription Combinations by Weapon
-
-### Sword
-
-| Slot | Best Inscription | Alternative |
-|---|---|---|
-| Weapon 1 | Critical Eye | Life Drain |
-| Weapon 2 | Fortify | Regeneration |
-| Helm | Resistance | Dodge Master |
-| Chest | Second Wind | Iron Will |
-| Accessory | Swiftness | Health Font |
-
-### Bow
-
-| Slot | Best Inscription | Alternative |
-|---|---|---|
-| Weapon 1 | Elemental Affinity | Critical Eye |
-| Weapon 2 | Range Master | Flurry |
-| Helm | Treasure Hunter | Explorer's Insight |
-| Chest | Dodge Master | Fortify |
-| Accessory | Gold Rush | Swiftness |
-
-### Staff
-
-| Slot | Best Inscription | Alternative |
-|---|---|---|
-| Weapon 1 | Arcane Intensity | Spell Weave |
-| Weapon 2 | Mana Surge | Elemental Affinity |
-| Helm | Critical Eye | Treasure Hunter |
-| Chest | Fortify | Second Wind |
-| Accessory | Health Font | Swiftness |
-
-### Spear
-
-| Slot | Best Inscription | Alternative |
-|---|---|---|
-| Weapon 1 | Aerial Master | Range Master |
-| Weapon 2 | Featherfall | Dodge Master |
-| Helm | Swiftness | Resistance |
-| Chest | Fortify | Second Wind |
-| Accessory | Gold Rush | Health Font |
-
-### Fist (Gauntlets)
-
-| Slot | Best Inscription | Alternative |
-|---|---|---|
-| Weapon 1 | Flurry | Critical Mass |
-| Weapon 2 | Life Drain | Blood Pact |
-| Helm | Critical Eye | Dodge Master |
-| Chest | Second Wind | Fortify |
-| Accessory | Shadow Fury | Swiftness |
-
-### Scythe
-
-| Slot | Best Inscription | Alternative |
-|---|---|---|
-| Weapon 1 | Execute Amplifier | Soul Harvest |
-| Weapon 2 | Critical Mass | Flurry |
-| Helm | Shadow Fury | Critical Eye |
-| Chest | Fortify | Second Wind |
-| Accessory | Life Drain | Health Font |
-
-## How to Farm Inscriptions
-
-### Inscription Sources
-
-| Source | Drop Rate | Quality |
-|---|---|---|
-| Secret room chests | High | Up to Epic |
-| Boss kills (first kill) | Guaranteed | Rare+ |
-| Challenge rooms | Medium | Uncommon+ |
-| Elite enemies | Low | Common-Uncommon |
-| Vendor (in-run) | Purchasable | Varies |
-| Daily challenge rewards | Guaranteed | Rare+ |
-
-### Upgrade Priority
-
-1. **Unlock all base slots first** (5 slots) — This is where the biggest power gain comes from
-2. **Weapon to 4 slots** — Weapon inscriptions provide the most impactful effects
-3. **Chest to 2 slots** — Defensive survivability
-4. **Accessory to 2 slots** — Utility and special effects
-5. **Helm to 2 slots** — Last priority, smallest impact
-
-## Inscription vs Relic — Key Differences
-
-| Aspect | Inscriptions | Relics |
+| Aspect | Inscriptions | Artifacts |
 |---|---|---|
 | Persist between runs? | Yes (permanent) | No (per run only) |
-| How many can you equip? | Up to 10 (5 gear slots) | Up to 8 (slots) |
-| How do you get them? | Found/discovered once then owned | Found each run |
-| Rarity system? | Yes (4 tiers) | Yes (5 tiers) |
-| Tradeable with team? | No | Yes (in co-op) |
+| How do you get them? | Unlocked permanently (sapphires, shards) | Found each run; some permanently unlocked via achievements |
+| Rarity system? | Yes | Yes (Common to Legendary) |
+| The "permanent power" rule | **Inscriptions provide permanent account power** — prioritize them for long-term progression | Artifacts define each individual run |
 
-> **Pro tip:** Inscriptions provide **permanent account power**. Prioritize farming inscription upgrades over any other progression — they make every subsequent run easier, whereas relics are per-run only.
+> **Pro tip:** Inscriptions make every subsequent run easier — they're the backbone of the meta-progression loop. But a run is won or lost on your artifact/tablet setup, so both matter.
+
+---
 
 ## Related Guides
 
 - [Builds Guide](/guides/builds-guide) — Complete builds with inscription recommendations
-- [Relics Guide](/guides/relics-guide) — Relics complement inscriptions
-- [Weapons Guide](/guides/weapons-guide) — Weapon-specific inscription synergy
+- [Artifacts Guide](/guides/artifacts-guide) — The per-run items that complement inscriptions
+- [Weapons Guide](/guides/weapons-guide) — Weapon-specific synergy
+- [Talents Guide](/guides/talents-guide) — The other permanent progression tree
 - [Beginner's Guide](/guides/beginner-guide) — Starting your progression journey
-- [Chapter Guide](/guides/chapter-guide) — Where to farm specific inscriptions
+- [Farming Guide](/guides/farming-guide) — Efficient sapphire and shard farming

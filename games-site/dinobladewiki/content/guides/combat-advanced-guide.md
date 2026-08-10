@@ -1,96 +1,92 @@
 ---
-title: "Dinoblade Advanced Combat Guide — Parry Economy, Resonance & Instinct Counters"
-description: "Take Dinoblade combat deeper — the parry-and-Resolve economy, Resonance management, Instinct Counter routing, and unblockable discipline."
+title: "Dinoblade Advanced Combat & Healing Guide — Resource Management & Survival"
+description: "Take Dinoblade combat deeper — stamina economy, the parry-and-posture loop, healing, dodging, and the survival habits that win long fights."
 category: "Advanced"
 version: "1.0"
-updated: "2026-08-01"
+updated: "2026-08-11"
 keywords:
   - Dinoblade advanced combat
-  - Dinoblade parry timing
-  - Dinoblade Resonance
   - Dinoblade combat mechanics
-  - Dinoblade Instinct Counter
+  - Dinoblade how to heal
+  - Dinoblade survival guide
+  - Dinoblade stamina management
+  - Dinoblade healing guide
 related:
-  - parry-guide
-  - soul-arts-guide
-  - builds-guide
+  - beginner-guide
   - boss-guide
+  - soul-arts-guide
+  - enemy-guide
 ---
 
-# Dinoblade Advanced Combat Guide — Parry Economy, Resonance & Instinct Counters
+# Dinoblade Advanced Combat & Healing Guide — Resource Management & Survival
 
-This guide is for players who have beaten Dinoblade's campaign and want to play the combat system at a deeper level. Dinoblade is not a frame-data game — its depth comes from **resource economy**: parries that restore what attacks spend, and a Resolve loop that converts defense into massive damage windows.
+This guide is for players who have cleared Dinoblade's opening regions and want to play the combat system at a deeper level. Dinoblade is not a frame-data game — its depth comes from **resource management**: stamina, posture, healing, and the timing that ties them together.
 
-**Honesty note:** no official frame data (parry window lengths, i-frame counts, poise values) has been published for Dinoblade. Any guide printing frame tables is unverified. What follows is built on confirmed mechanics from the tutorial, walkthroughs, and launch coverage.
+**Honesty note:** no official frame data (parry window lengths, i-frame counts, damage values) has been published for Dinoblade. Any guide printing frame tables or exact numbers is unverified. What follows is built on confirmed mechanics and general Soulslike principles.
 
 ## 1. The Resource Economy
 
-Dinoblade runs on two resources:
+Dinoblade runs on two confirmed resources:
 
 - **Stamina** — spent on attacking, blocking, dodging, and sprinting. Exhausted stamina means no defense.
-- **Resonance** — the blue bar under your health that powers special attacks (Soul Arts) and charged attacks.
+- **Healing** — limited, and restored at the game's save points.
 
-**The economy loop (confirmed):**
+**The economy loop:**
 
-1. **Perfect parries restore stamina and Resonance.** This is the game's engine: the better your parry timing, the more you can spend on offense.
-2. **Charged heavy attacks** launch a ranged fire projectile that costs **5 Resonance plus stamina** — a strong ranged option against scythe, trident, and hammer enemies, but a real Resonance expense. Use it when enemies are recovering or at distance, not mid-pressure.
-3. **Blocking** costs stamina per hit. A mistimed block (blocking too late) also costs stamina — and with low stamina, a mistimed block can leave you unable to dodge or attack.
+1. **Parries build enemy posture.** The better your timing, the faster enemies guard-break and open to counterattacks.
+2. **Counterattacks end fights faster** — and ending fights faster spends fewer healing charges.
+3. **Blocking and dodging are expensive** — used as habits, they drain stamina faster than a controlled parry game.
 
-**Advanced takeaway:** the fight isn't about your HP bar — it's about stamina and Resonance uptime. The player who lands perfect parries out-trades the player with more stats every time.
+**Advanced takeaway:** the fight isn't about your health bar — it's about stamina and healing uptime. The player who lands their parries out-trades the player with more upgrades every time.
 
-## 2. The Resolve Loop
+## 2. The Posture Loop (Confirmed)
 
-Every enemy has a **Resolve bar** (their posture/stagger meter):
+Every enemy and boss has a **posture meter** that fills as you parry their attacks:
 
-1. Parries fill the Resolve bar.
-2. When it's full, you land a **heavy finishing blow**.
-3. **Against bosses:** a full Resolve bar plus a perfectly timed parry on a real attack triggers the **Instinct Counter** — a powerful counterattack "clash" that deals massive damage.
+1. Parries fill posture.
+2. When posture breaks (**guard break**), the enemy staggers and you land a **counterattack or finishing blow**.
+3. Against bosses, this loop is the primary damage window — see the [Boss Guide](/guides/boss-guide).
 
-**Advanced routing:** don't parry indiscriminately. Route your parries to fill the bar, then *save your next parry for the boss's real attack* when the bar is full — the Instinct Counter is the highest-value window in the game. Parrying weak attacks with a full bar wastes the mechanic. This is taught before Kira the Exile and it's the skill that separates clean boss runs from slogs.
+**Advanced routing:** don't parry indiscriminately. Learn which attacks in each fight are parryable and which are dodge-only, then route your parries toward the ones that fill the most posture.
 
-## 3. Unblockable Discipline
+## 3. Dodging and Unblockable Discipline
 
-- **Some attacks cannot be parried** — coverage confirms unblockable attacks exist, and Kasei's phase 2 (greatsword gap-closers, sword throws) is the biggest example.
-- **Unblockables must be dodged** with roll i-frames.
-- **Advanced takeaway:** learn which attacks in each fight are unblockable *before* the fight matters — a single failed parry attempt on an unblockable is a death sentence in Boss Rush. Block the pattern once to test, then commit.
+- **Some attacks cannot be parried** — treat them as dodge-only with roll i-frames.
+- **Rule of thumb:** block an unfamiliar attack once to test it; if blocking fails, it's a dodge-only attack — roll it next time.
+- **Advanced takeaway:** learn which attacks are dodge-only *before* the fight matters — a single failed parry on an unblockable can end a long run.
 
-## 4. Advanced Techniques (Confirmed Mechanics)
+## 4. Healing: What's Confirmed
 
-### Parry Into Resource Spiral
+- **Healing is limited and restored at save points** — the game's rest points. Resting restores healing and respawns enemies, the standard Soulslike trade.
+- **No other healing system is documented** — crafting potions, healing items on a hotbar, passive regen, and "+heal charm" builds appear in no verified source as of August 2026. Treat such claims as unverified.
+- **Exact heal amounts and charge counts are undocumented** — no official numbers exist.
 
-Perfect parry → stamina + Resonance restored → spend Resonance on a charged fire projectile or Soul Art → the art or projectile forces an enemy recovery → parry again. This spiral is the game's highest-damage loop, and it works on every enemy with telegraphed attacks.
+### The Rules of Staying Alive
 
-### Finishing Blow Chaining
+1. **Don't block everything.** Holding block drains stamina — and with no stamina, you can't dodge the attacks that must be dodged. Block to learn, parry to sustain, dodge to survive.
+2. **Parry first, heal after.** A well-timed parry prevents damage *and* builds posture toward a fight-ending counterattack — the best "heal" in the game.
+3. **Heal in safe windows only.** Learn the boss's pattern first, then heal during its recovery animations — never mid-pressure.
+4. **Refill before bosses.** Stock your healing at the last save point before a boss arena.
 
-On regular enemies, fill the Resolve bar, land the finishing blow, and immediately switch target. With pack enemies (raptors, hammer dinos), you can chain finishing blows across a group — the game's answer to crowd control.
+## 5. Known Issues and Playing Around Them (Launch State)
 
-### Instinct Counter Windows
+Dinoblade launched at **89% Very Positive** on Steam (~400 reviews). Launch coverage also documented **bugs, performance problems, imprecise hitboxes, janky UI, and inconsistent hit registration**. Practical survival advice for the current state:
 
-The counter triggers on a *real attack animation* — don't spam block when the bar is full. Wait for the boss's committed swing, parry it, and the clash fires. Kira's three-hit combo, Axe's spin final swing, and Kasei's phase 2 jump slashes are the confirmed practice windows.
+- **Don't greed.** With hit registration reported as inconsistent, assume a parry or dodge may not register as expected — leave extra margin in your timing.
+- **Check performance settings.** If the game stutters, reduce graphical settings; a stable framerate matters more for parry timing than visuals.
+- **Report bugs.** The Steam Community hub is the confirmed channel for reporting issues to the developers.
 
-### Spacing With the Fire Projectile
+## 6. Survival Checklist
 
-The charged heavy's projectile (5 Resonance) lets you fight reach weapons (scythes, tridents, hammers) on your terms: kite, fire, and punish the enemy's whiffed swing. It's also the only confirmed ranged tool, so learning its travel time matters for Part 2's enemy density.
-
-## 5. Death and Risk (Confirmed)
-
-- **You do not drop currency when you die.** Dinoblade's death penalty is deliberately forgiving (the "Soulslite" design).
-- **Advanced takeaway:** risk is free. Use deaths as pattern-learning runs — attack the boss aggressively once, read the responses, then plan the clean run. There is no penalty loop discouraging experimentation.
-
-## 6. Matchup Notes (Confirmed)
-
-| Matchup | Confirmed Notes |
-|---------|-----------------|
-| Raptor packs | Parry-chain finishing blows across the pack; AoE via charged heavies |
-| Scythe/hammer dinos | Out-range you — fire projectiles or dodge-throughs |
-| Kira | Telegraphed 3-hit combo; the Instinct Counter teaching fight |
-| Axe | Parry the final swing of the spinning combo; dodge jumping attacks' landing AoE |
-| Kasei (phase 1) | Fire attacks, tail sweeps, charges, slams — stay at his side |
-| Kasei (phase 2) | Greatsword kit; dodge unblockables, parry jump slashes |
+1. Refill healing at the last save point before a major fight.
+2. Warm up parry timing on regular enemies.
+3. Identify the dodge-only attacks in each fight before committing to parries.
+4. Spend attribute/skill upgrades toward the fight ahead.
+5. Bring a Soul Art and a boss summon that fit your playstyle (see the [Soul Arts Guide](/guides/soul-arts-guide)).
 
 ## Related Guides
 
-- [Parry Guide](/guides/parry-guide) — Parry mechanics and practice drills
-- [Soul Arts Guide](/guides/soul-arts-guide) — What Resonance powers
-- [Builds Guide](/guides/builds-guide) — Playstyles built on the economy
-- [Boss Guide](/guides/boss-guide) — Boss-specific routing
+- [Beginner Guide](/guides/beginner-guide) — The core combat loop
+- [Boss Guide](/guides/boss-guide) — Posture loops in boss fights and Boss Rush
+- [Soul Arts Guide](/guides/soul-arts-guide) — Special attacks and build direction
+- [Enemy Guide](/guides/enemy-guide) — The attacks you'll be reading

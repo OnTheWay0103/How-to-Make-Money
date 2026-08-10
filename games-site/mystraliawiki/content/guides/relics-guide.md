@@ -1,61 +1,71 @@
 ---
-title: 'Relics & Passive Bonuses — The Honest State of Item Systems'
-description: 'Are there Relics in Echoes of Mystralia? No official source says so. Here\'s what\'s confirmed about passive power, run currencies, and what remains TBD at Early Access.'
+title: 'Relics Guide — The 40+ Relics & Passive Item Synergies'
+description: 'The Relics of Echoes of Mystralia — 40+ Relics confirmed at Early Access launch, how passive items work alongside Memories and spellcrafting, and how to build around them.'
 category: 'Systems'
-version: 'Pre-release'
-updated: '2026-08-01'
-keywords: ['echoes of mystralia relics', 'echoes of mystralia passive items', 'echoes of mystralia items guide', 'mystralia relic guide', 'echoes of mystralia power systems']
-related: ['memories-guide', 'legendary-gear', 'spell-crafting-guide', 'endgame-guide']
+version: 'Early Access'
+updated: '2026-08-11'
+keywords: ['echoes of mystralia relics', 'echoes of mystralia relic guide', 'echoes of mystralia passive items', 'mystralia relic synergies', 'echoes of mystralia items guide', 'echoes of mystralia legendary gear']
+related: ['memories-guide', 'spell-crafting-guide', 'endgame-guide', 'farming-guide', 'best-spell-builds']
 ---
 
-# Relics & Passive Bonuses — The Honest State of Item Systems
+# Relics Guide — The 40+ Relics & Passive Item Synergies
 
-Are there "Relics" in Echoes of Mystralia? The honest answer: **no official source — press releases, the Steam page, developer statements — mentions any Relic or equipment system.** Earlier versions of this guide cataloged dozens of Relics with effects, rarities, and farming routes; **that content was fabricated and has been removed.**
+**Relics are confirmed items in Echoes of Mystralia.** The official Steam page lists **40+ Relics** at Early Access launch — passive items that sit alongside your crafted spells and shape how a build plays. This guide covers what's confirmed about Relics, how they fit with the game's other systems (Memories, spellcrafting, and the Lotus progression), and how to plan around them in Early Access.
 
-> **Pre-release note:** Echoes of Mystralia enters Steam Early Access on **August 11, 2026**. Anything marked **TBD** has not been confirmed by Borealys Games.
+Echoes of Mystralia entered **Steam Early Access on August 11, 2026**. Individual Relic names, effects, and drop sources are being documented from the launch build; anything unverified is marked as such.
 
-## What's Confirmed About Power Systems
+## What's Confirmed About Relics
 
-The systems Borealys has actually announced:
+- **40+ Relics ship with Early Access** (per the official Steam page)
+- Relics are **passive items** — they modify your build without being spells themselves
+- They are part of the item layer alongside the **100+ Memories** used for spellcrafting
+- A full, verified catalog of Relic names and effects is being built from the EA build — until then, treat any "complete Relic tier list" without in-game verification as fiction
+
+## How Relics Fit Into the Power Systems
+
+Echoes of Mystralia's confirmed power systems work together:
 
 1. **Memories** — the resource harvested from enemies; the raw material of spellcrafting
-2. **Spellcrafting** — forge and customize spells by reordering and combining Memories; "millions of possible combinations"
-3. **Spell forms** — 12 at Early Access, 4 in the demo
-4. **Permanent hub upgrades** — at the Azimuth Temple between runs
-5. **Echo Fragments** — the demo's currency, which **resets at launch**
+2. **Spellcrafting** — forge and customize spells by reordering and combining Memories; the developer describes the space as "millions of possible combinations"
+3. **Starting spells** — 16 base templates at Early Access launch (4 in the demo) that Memories modify
+4. **Relics (40+)** — passive items that add a second layer of build customization
+5. **The Lotus** — the permanent progression system, with 50+ Altar upgrades at the Azimuth Temple between runs
 
-There is no announced passive-item layer on top of these. If you read "Relic tier list" content elsewhere pre-launch, it is speculative fiction — no official Relic exists to rank.
+In other words: Memories and spellcrafting define *what your spells do*, Relics define *what your character passively does on top of that*. "Gearing up" in Echoes of Mystralia means **crafting better spells, collecting Relics, and expanding your Memory collection** — there is no weapon or armor loot layer (see the [Weapons Guide](/guides/weapons-guide)).
 
-## Where "Relic-Like" Power Could Live (TBD)
+## What "Legendary" Means in Mystralia
 
-Players drawn to passive items will likely find the equivalent in confirmed systems:
+Players searching for a legendary-gear chase will find its equivalent in the game's confirmed systems:
 
-| Passive-item concept | Likely home | Status |
-|----------------------|-------------|--------|
-| Permanent passive bonuses | Azimuth Temple permanent skills | ✅ Confirmed conceptually |
-| Run-scoped passive boosts | Memory arrangements on your spells | **TBD** |
-| Currency economy | Launch currencies (Echo Fragments reset) | **TBD** |
-| Collection chase | The 110-Memory pool | ✅ Confirmed conceptually |
+| Familiar gear concept | Echoes of Mystralia equivalent | Status |
+|-----------------------|-------------------------------|--------|
+| Legendary items | High-tier Relics from the 40+ pool | ✅ Confirmed to exist; specifics being mapped |
+| Rare drops | Rare Memories with strong effects | ✅ Confirmed conceptually; rarities being mapped |
+| Set bonuses | Synergies between Relics and crafted spells | Being documented from the EA build |
+| Gearing progression | Relic collection + Memory collection + Lotus upgrades | ✅ Confirmed conceptually |
+| Boss rewards | Guardian and Elite encounter rewards | Being mapped from the EA build |
 
-None of these are named or specified. The developer has confirmed the *shapes* of these systems without confirming any item layer.
+Earlier versions of this wiki described fabricated "legendary weapons" and "set bonuses" with exact stats — **that content was never confirmed and has been removed.** What is confirmed is the *shape* of the chase: 40+ Relics, 100+ Memories, and the Lotus progression all feed it.
 
-## How to Prepare (Honest Framework)
+## How to Build Around Relics (Early Access Framework)
 
-1. **Master Memories** — whatever passive power exists, Memory crafting is the confirmed core
-2. **Expect to be wrong** — pre-launch planning is hypothesis; test everything in the first week of EA
-3. **Try the demo's 4 fight challenges** — they teach the resource economy loop
-4. **Watch official channels** — Borealys' Steam news and Discord are the only reliable sources
+1. **Treat Relics as build modifiers, not core identity** — your crafted spells are the centerpiece; Relics tune them
+2. **Match Relics to your spell direction** — if you craft control-focused ice spells, look for Relics that extend, empower, or benefit that direction
+3. **Watch the synergies with Memories** — the confirmed systems are designed to interact; a Relic that complements your Memory arrangements outperforms one that ignores them
+4. **Collect as you clear** — Elites and Guardian encounters are expected to be the highest-value sources, but everything you fight can drop items
+5. **Keep notes** — you'll be among the first to map the Relic pool; your findings have real value
 
-## What We'll Document After Launch
+## What's Being Documented (Early Access)
 
-- Any confirmed item/passive systems with real names and effects (**TBD**)
-- Verified rarity tiers and acquisition (**TBD**)
-- Currencies of the launch economy (**TBD**)
-- Synergies between Memories and any other systems (**TBD**)
+- Full Relic catalog with verified names and effects (**being mapped from the EA build**)
+- Rarity tiers and acquisition sources (**being mapped from the EA build**)
+- Optimal Relic + spell combinations (**being mapped from the EA build**)
+- Synergies between Relics and Lotus Altar upgrades (**being mapped from the EA build**)
 
 ## Related Guides
 
-- [Memories Guide](/guides/memories-guide) — the confirmed resource system
-- [Legendary Gear Guide](/guides/legendary-gear) — the honest state of "gear" content
-- [Spell Crafting Guide](/guides/spell-crafting-guide) — where run power really lives
+- [Memories Guide](/guides/memories-guide) — the resource at the system's core
+- [Spell Crafting Guide](/guides/spell-crafting-guide) — the system Relics complement
+- [Farming Guide](/guides/farming-guide) — how to farm Relics, Memories, and upgrades efficiently
 - [Endgame Guide](/guides/endgame-guide) — what the long-term chase looks like
+- [Best Spell Builds](/guides/best-spell-builds) — planning loadouts around all confirmed systems

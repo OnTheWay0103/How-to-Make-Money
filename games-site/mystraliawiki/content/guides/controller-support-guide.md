@@ -2,17 +2,17 @@
 title: 'Echoes of Mystralia Controller Support — Gamepad Setup Guide'
 description: 'Echoes of Mystralia controller support explained — full gamepad support is confirmed for the spellcrafting ARPG, plus how it compares to keyboard and mouse, Steam Deck status, and how to test your setup in the free demo before Early Access.'
 category: 'Reference'
-version: 'Pre-release'
-updated: '2026-08-07'
+version: 'Early Access'
+updated: '2026-08-11'
 keywords: ['echoes of mystralia controller support', 'echoes of mystralia gamepad', 'echoes of mystralia controller steam deck', 'echoes of mystralia keyboard and mouse', 'echoes of mystralia controller not working', 'echoes of mystralia pc controller']
 related: ['system-requirements', 'ea-launch-guide', 'faq', 'combat-mechanics-guide', 'spell-crafting-guide']
 ---
 
 # Echoes of Mystralia Controller Support — Gamepad Setup Guide
 
-**Yes — Echoes of Mystralia supports controllers.** The Steam listing marks the game with **full controller support**, and the free demo already plays with both a gamepad and keyboard and mouse. Here's everything confirmed about controller play, how the two input styles suit the spellcrafting combat, and how to test your own setup in the demo before the **Early Access launch on August 11, 2026**.
+**Yes — Echoes of Mystralia supports controllers.** The Steam listing marks the game with **full controller support**, and the demo plays with both a gamepad and keyboard and mouse. Here's everything confirmed about controller play, how the two input styles suit the spellcrafting combat, and how to test your own setup.
 
-> **Pre-release note:** Full controller support is confirmed on the Steam listing. Specifics like rebinding options, button-mapping menus, and per-device certification have not been officially documented yet and are marked **TBD**.
+> **Early Access note:** Full controller support is confirmed on the Steam listing. Specifics like rebinding options, button-mapping menus, and per-device certification are being documented from the Early Access build.
 
 ## What's Confirmed
 
@@ -28,11 +28,11 @@ The game is **PC-only via Steam at launch**, so controller support is the Steam 
 
 ## Gamepad vs Keyboard & Mouse
 
-Echoes of Mystralia is a fast, particle-heavy action RPG built around **memory-based spell crafting** — you harvest Memories from enemies, then reorder and combine them into custom spells across three elements (fire, ice, lightning). Both input styles are viable, and each has a natural strength:
+Echoes of Mystralia is a fast, particle-heavy action RPG built around **memory-based spell crafting** — you harvest Memories from enemies, then reorder and combine them into custom spells across the game's 7 elements. Both input styles are viable, and each has a natural strength:
 
 - **Gamepad wins in combat.** Twin-stick movement and aiming suit the dodge-heavy Guardian fights and dense elite packs. The game's roguelite runs and boss encounters are tuned for fluid movement, which is where analog sticks shine.
 - **Keyboard & mouse wins in the crafting menu.** Spell crafting is an arrangement system — component positioning dictates what your spell does (confirmed in the official announcement). Drag-and-reorder style interfaces are faster with a mouse, so expect to spend your build time at the desk and your run time on the couch.
-- **The hybrid approach** — keyboard & mouse for crafting, gamepad for combat — works well in most modern ARPGs and will likely be a comfortable default here. How easily the game lets you swap mid-session is **TBD** until launch.
+- **The hybrid approach** — keyboard & mouse for crafting, gamepad for combat — works well in most modern ARPGs and will likely be a comfortable default here. How easily the game lets you swap mid-session is being documented from the launch build.
 
 There is no announced competitive or leaderboard angle, so pick whichever input feels better — nothing in the confirmed design punishes controller play.
 
@@ -52,7 +52,7 @@ The demo is the definitive compatibility test, and it's free on Steam:
 2. **Launch the demo** and play through the Ash Forest — movement, combat, and at least one crafted spell fight.
 3. **Test the crafting interface** with your gamepad: navigate the Memory arrangement screen to see if you'd rather craft with a mouse.
 4. **Watch for frame dips** during particle-heavy fights (see the [System Requirements Guide](/guides/system-requirements) for how effect density taxes your GPU).
-5. **Your demo save transfers to Early Access**, so a test run is also real progress — see the [Demo Save Transfer Guide](/guides/demo-save-transfer).
+5. **Your demo save transfers to Early Access** (per developer announcements), so a test run is also real progress — see the [Demo Save Transfer Guide](/guides/demo-save-transfer).
 
 ## Controller Not Working — Common Fixes
 

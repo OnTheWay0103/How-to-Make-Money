@@ -1,82 +1,77 @@
 ---
-title: "Enemy Guide — Confirmed Enemy Types & Strategies"
-description: "The confirmed enemies of Dinoblade — raptor packs, scythe and hammer-wielding dinosaurs, and the T-Rex that swings an Ankylosaurus — plus fighting strategies."
-category: "Guides"
+title: "Dinoblade Enemy Guide — Weapon-Wielding Dinosaurs & Alpha Predators"
+description: "The confirmed enemies of Dinoblade — rival dinosaurs armed with battleaxes, halberds, swords, and scythes, plus the Alpha predators that rule each region."
+category: "Enemies"
 version: "1.0"
-updated: "2026-08-01"
+updated: "2026-08-11"
 keywords:
   - Dinoblade enemies
-  - Dinoblade raptor guide
   - Dinoblade enemy types
   - Dinoblade dinosaurs
+  - Dinoblade all dinosaurs
+  - Dinoblade alpha predator
   - Dinoblade combat tips
 related:
-  - all-dinosaurs-guide
-  - parry-guide
   - boss-guide
   - beginner-guide
+  - biome-guide
+  - weapons-guide
 ---
 
-# Enemy Guide — Confirmed Enemy Types & Strategies
+# Dinoblade Enemy Guide — Weapon-Wielding Dinosaurs & Alpha Predators
 
-Dinoblade's enemies are dinosaurs, and the game's twist is that a cataclysm **armed them all with blades**. You face bladed creatures from the tutorial cavern to the final boss arena. This guide covers the enemy types confirmed in verified coverage, their behavior, and the tactics that work against them.
+Dinoblade's twist is simple and total: **a cataclysm changed the prehistoric world, and rival dinosaurs carry brutal weapons of their own**. You face bladed fighters from the opening canyons to the final boss — and you fight them with the game's parry-and-posture combat.
 
-**Honesty note:** the full bestiary isn't officially published. Species names beyond the confirmed types below are unverified — see the [All Dinosaurs Guide](/guides/all-dinosaurs-guide) for the roster status.
+**Honesty note:** the full bestiary is not officially published. No official list of species, names, or stats exists as of August 2026. The enemy categories below are confirmed by official material and launch coverage; everything else should be treated as unverified until the community documents it.
 
 ## Confirmed Enemy Types
 
-### Raptor Packs (Part 1 staple)
+### Weapon-Wielding Rival Dinosaurs
 
-- **Behavior:** fast, aggressive, and numerous — they attack in groups, and walkthroughs describe "groups of smaller dinosaurs" as the standard encounter.
-- **Tactics:** they're the game's intended parry practice. Their attacks are telegraphed; parry them to fill their Resolve bars, then land the heavy finishing blow. Because perfect parries restore stamina and Resonance, you can clear whole packs without running dry.
-- **Danger rating:** low individually — the pack is the threat.
+The backbone of the game's combat — dinosaurs armed with **battleaxes, halberds, swords, and scythes** (confirmed by the official description). These are the fights that make Dinoblade distinct: instead of a lone hero vs. fang and claw, you face enemies with real weapons and the reach to use them.
 
-### The "Larger Enemy" (Part 1 miniboss-type)
+- **Tactics:** their reach beats yours in a straight trade. Use dodges to get through their swings and punish the recovery; parry their telegraphed attacks to build posture and open guard breaks.
+- **Halberd-wielders** punish careless spacing — fight them at your own distance, not theirs.
 
-- **Behavior:** a bigger, slower, harder-hitting dino that walkthroughs place alongside the small ones in Part 1.
-- **Tactics:** its attacks are heavily telegraphed — block a few to learn the timing, then parry to fill its Resolve bar. Don't trade hits: its damage output far exceeds yours early on.
+### Smaller Dinosaurs
 
-### Scythe- and Hammer-Wielding Dinosaurs (Parts 2–3)
+- **Behavior:** the game's basic enemies — fast, aggressive, and numerous in groups.
+- **Tactics:** they are the game's intended parry practice. Their attacks are telegraphed; parry them to build posture, then land the finishing blow. Because the parry loop restores your rhythm, you can clear whole groups without running dry.
 
-- **Behavior:** tougher enemies armed with reach weapons. Walkthroughs explicitly mention enemies carrying **scythes and hammers**, and Part 3 features **waves of hammer-wielding dinosaurs**. Coverage of the trailer also shows trident-style weapons.
-- **Tactics:** their reach beats your greatsword in neutral, so don't trade from range:
-  - **Charged heavy attacks** fire a ranged projectile (5 Resonance + stamina) that hits them while they're outside your reach.
-  - **Dodge through their wind-ups** with roll i-frames and punish the recovery.
-  - **Parry the big, slow swings** — hammer wind-ups are the most parryable attacks in the game after boss combos.
+### Alpha Predators (Boss-Class Enemies)
 
-### T-Rex (the Ankylosaurus club fighter)
+- **Behavior:** each region is ruled by a ferocious **Alpha apex predator** that guards the path forward. Confirmed examples include a **T-Rex that wields a smaller dinosaur as a weapon**, and **tyrannosaurs armed with battleaxes and halberds**.
+- **Tactics:** never trade with them. Keep moving, watch the wind-ups, parry what you can, and dodge everything else. Their posture breaks are your big damage windows. See the [Boss Guide](/guides/boss-guide) for the full treatment.
 
-- **Behavior:** an apex predator — the game's trailer shows a T-Rex wielding an **Ankylosaurus as a melee weapon**. Massive, aggressive, high-damage.
-- **Tactics:** never trade. Keep moving, watch the club-swing wind-ups, and parry what you can — big telegraphed attacks fill Resolve fast. When its Resolve bar fills, take the finishing blow.
+## Universal Fighting Principles (Confirmed Mechanics)
 
-## Universal Enemy Rules (Confirmed Mechanics)
+1. **The parry is the primary tool.** Parries build enemy posture; a full posture bar means a guard break and a counterattack. Every enemy and boss runs through this loop.
+2. **Some attacks must be dodged.** Not everything can be parried — roll i-frames are your answer. When in doubt, block or dodge first to learn the pattern.
+3. **Range matters.** Enemy weapons (battleaxes, halberds, swords, scythes) out-range your Great Sword in neutral — close with well-timed dodges, not trades.
+4. **Stamina is your real health bar.** Exhausted stamina means no defense; discipline wins longer fights.
+5. **Exploration helps.** Legendary weapons are hidden in the world and change how your Spinosaurus plays — a confirmed edge against tougher enemies.
 
-1. **Every enemy has a Resolve bar** that fills with successful parries; a full bar enables a heavy finishing blow.
-2. **Perfect parries restore stamina and Resonance** — defense is the engine of offense.
-3. **Unblockable attacks exist** and must be dodged — not everything is parryable.
-4. **Death has no currency penalty** — you can learn every enemy's pattern by fighting it until you win.
-
-## Behavior Categories (General Advice)
-
-These are generic Soulslike heuristics that apply to Dinoblade's confirmed enemy types:
+## Fighting by Category (General Approach)
 
 | Category | Confirmed Examples | General Approach |
 |----------|-------------------|------------------|
-| Pack hunters | Raptor packs | AoE and parry-chained finishing blows |
-| Brute force | Larger enemies, hammer dinos | Parry the slow swings, punish recovery |
-| Reach weapon users | Scythe/trident dinos | Fire projectiles or dodge-throughs |
-| Apex predators | T-Rex | Never trade; parry telegraphed swings |
+| Pack enemies | Smaller dinosaurs | Parry-chained posture breaks and finishing blows |
+| Weapon users | Battleaxe, halberd, sword, scythe dinosaurs | Dodge through swings, punish recovery |
+| Apex predators | Alpha T-Rex, axe- and halberd-wielding tyrannosaurs | Never trade; parry telegraphed swings, dodge the rest |
 
-## Enemy-Specific Practice Plan
+## Practice Plan
 
-1. **Raptors:** parry-only practice until you can clear a pack untouched. This builds the release-timing reflex the whole game runs on.
-2. **Hammer dinos:** practice parrying their slow wind-ups — the timing transfers directly to Axe's spinning combos.
-3. **Scythe dinos:** practice the charged-fire-projectile spacing — the same skill wins against Kasei's phase 1 ranged pressure.
-4. **T-Rex:** practice the "never trade" discipline that the final boss demands.
+1. **Smaller dinosaurs:** parry-only practice until you can clear a group untouched — this builds the reflex the whole game runs on.
+2. **Weapon-wielding dinosaurs:** practice dodging through halberd and battleaxe swings; their reach punishes players who stand their ground.
+3. **Alpha predators:** practice the "never trade" discipline. Posture breaks are the goal; patience is the method.
+
+## Reception Note
+
+Dinoblade launched at **89% Very Positive** on Steam (~400 reviews). Players praised the combat, while launch reviews reported **imprecise hitboxes and inconsistent hit registration** on some enemy attacks. If a dodge feels like it failed unfairly, it may be a known technical issue rather than a design one.
 
 ## Related Guides
 
-- [All Dinosaurs Guide](/guides/all-dinosaurs-guide) — The confirmed dino roster
-- [Parry Guide](/guides/parry-guide) — Parry timing and practice drills
-- [Boss Guide](/guides/boss-guide) — The three main bosses
-- [Beginner Guide](/guides/beginner-guide) — Core combat loop
+- [Boss Guide](/guides/boss-guide) — Alpha predators and Boss Rush Mode
+- [Beginner Guide](/guides/beginner-guide) — The core combat loop
+- [Biome Guide](/guides/biome-guide) — The world the dinosaurs live in
+- [Weapons Guide](/guides/weapons-guide) — Your Great Sword vs. their arsenal

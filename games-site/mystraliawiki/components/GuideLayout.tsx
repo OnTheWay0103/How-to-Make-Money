@@ -50,12 +50,19 @@ export default function GuideLayout({ frontmatter, children }: GuideLayoutProps)
         {children}
       </div>
 
-      {/* Footer note */}
+      {/* Verification */}
       <footer className="mt-12 pt-6 border-t border-[#2a2a5e]">
-        <p className="text-xs text-gray-600">
-          Found an error or outdated info? This is an unofficial community guide.
-          Game content may change with updates. Check the Steam page for official patch notes.
-        </p>
+        <div className="bg-[#1a1a3e]/50 border border-[#2a2a5e] rounded-lg p-4">
+          <h3 className="text-sm font-semibold text-gray-300 mb-2">Verification</h3>
+          <div className="text-xs text-gray-500 space-y-1">
+            <p><strong>Last checked:</strong> {frontmatter.updated}</p>
+            <p><strong>Game version:</strong> {frontmatter.version}</p>
+            <p><strong>Sources checked:</strong> Official Steam page, developer announcements, Steam Community discussions, player reports.</p>
+            <p className="text-gray-600 mt-2">
+              Found an error or outdated info? <a href="/contact" className="text-amber-400 hover:underline">Let us know</a>. This is an unofficial community guide. Game mechanics may change with updates.
+            </p>
+          </div>
+        </div>
       </footer>
     </article>
   );
