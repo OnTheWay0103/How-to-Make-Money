@@ -12,17 +12,17 @@ export default function AboutPage() {
 
       <h2>Who We Are</h2>
       <p>
-        Moonlight Peaks Wiki is an <strong>unofficial fan-made resource</strong> dedicated to "Moonlight Peaks," the cooperative PvE extraction horror game developed by Little Chicken Game Company and published by XSEED Games.
+        Moonlight Peaks Wiki is an <strong>unofficial fan-made resource</strong> dedicated to "Moonlight Peaks," the supernatural farming and life simulation game developed by Little Chicken Game Company and published by XSEED Games.
       </p>
       <p>
-        We are a small team of passionate gamers who create comprehensive guides, strategies, and resources to help players survive the horrors of the cursed jungle. Our mission is to be the most helpful and up-to-date guide resource for Moonlight Peaks community.
+        We are a small team of passionate gamers who create comprehensive guides, strategies, and resources to help players build their vampire farm, befriend the townsfolk, and explore the supernatural world. Our mission is to be the most helpful and up-to-date guide resource for the Moonlight Peaks community.
       </p>
 
       <h2>What We Offer</h2>
       <ul>
-        <li><strong>Game Guides:</strong> Beginner guides, weapon breakdowns, enemy bestiaries, and extraction strategies</li>
-        <li><strong>Boss Strategies:</strong> Detailed tactics for every enemy and boss encounter</li>
-        <li><strong>Co-op Tips:</strong> Team compositions, communication strategies, and multiplayer guides</li>
+        <li><strong>Game Guides:</strong> Beginner walkthroughs, farming mechanics, villager relationship guides, and shop strategies</li>
+        <li><strong>Farming & Crafting:</strong> Crop guides, recipe lists, ranch tips, and seasonal event walkthroughs</li>
+        <li><strong>Exploration Guides:</strong> Map locations, hidden secrets, and collectible checklists</li>
         <li><strong>Regular Updates:</strong> Content updated as the game receives patches and new content</li>
       </ul>
 
