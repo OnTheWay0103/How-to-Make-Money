@@ -2,15 +2,15 @@
 title: "Skills & Raids Progression Guide — Quests, Unlocks & Content Path"
 description: "Complete progression guide for Skills & Raids. How quests drive progression, what unlocks new content, the 21+ quests and 5 biomes, and a preparation checklist for each stage."
 category: "Guides"
-version: "1.0"
-updated: "2026-08-01"
+version: "Current"
+updated: "2026-08-11"
 keywords: ["Skills and Raids progression guide", "Skills and Raids quests", "Skills and Raids what to do", "Skills and Raids raid unlock", "Skills and Raids endgame"]
-related: ["beginner-guide", "team-compositions-guide", "best-skills-builds", "builds-guide"]
+related: ["beginner-guide", "team-compositions-guide", "builds-guide", "skills-guide"]
 ---
 
 # Skills & Raids Progression Guide — Quests, Unlocks & Content Path
 
-**Skills & Raids 1.0 / Updated: August 1, 2026**
+**Updated: August 11, 2026**
 
 **The most important correction in this guide:** Skills & Raids has **no character levels, no gear score, and no account levels**. Progression runs on **quests** — completing quests unlocks new equipment and skills (confirmed on the Steam page). Guides that describe level requirements, gear score thresholds, or tier-unlock raid progression are describing a game that doesn't exist. Here's how progression actually works.
 
@@ -125,5 +125,6 @@ Since there are no levels, measure progress by:
 
 - [Beginner Guide](/guides/beginner-guide) — getting started.
 - [Team Compositions Guide](/guides/team-compositions-guide) — building the six-slot answer.
-- [Best Skills & Builds Guide](/guides/best-skills-builds) — optimization and upgrade priority.
+- [Builds Guide](/guides/builds-guide) — optimization and upgrade priority.
+- [Skills Guide](/guides/skills-guide) — the ability system.
 - [Maps Guide](/guides/maps-guide) — the biomes.

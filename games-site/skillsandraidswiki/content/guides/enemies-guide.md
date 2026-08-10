@@ -2,15 +2,15 @@
 title: "Skills & Raids Enemies Guide — Enemy Behavior & Skill Drops"
 description: "Enemies guide for Skills & Raids. What is confirmed about enemy behavior, enemy skill drops, status effects, and how to counter the enemy teams that end runs."
 category: "Enemies"
-version: "1.0"
-updated: "2026-08-01"
+version: "Current"
+updated: "2026-08-11"
 keywords: ["Skills & Raids enemies", "Skills & Raids enemy guide", "Skills & Raids enemy skill drops", "Skills & Raids combat tips", "Skills & Raids enemy teams"]
 related: ["maps-guide", "extraction-guide", "builds-guide", "skills-guide"]
 ---
 
 # Skills & Raids Enemies Guide — Enemy Behavior & Skill Drops
 
-**Skills & Raids 1.0 / Updated: August 1, 2026**
+**Updated: August 11, 2026**
 
 No verified enemy roster exists for Skills & Raids — the Steam page names no specific enemy types, and no reputable source has documented them. What *is* confirmed: enemies drop valuable resources, some enemies drop their own skills, enemy teams include healers and tanks, and status effects heavily influence every encounter. This guide works with those confirmed facts and flags the rest as unknown.
 
@@ -81,7 +81,7 @@ Without a named roster, prioritize enemies by function:
 - Enemy names and designs (beyond the animal/creature setting implied by the lore).
 - Enemy HP/attack numbers, attack patterns, or elemental weaknesses.
 - Whether specific biomes contain specific enemy types.
-- Boss encounters — whether named bosses exist is unconfirmed (the game's structure is "combat areas with unique skill mechanics"; no named bosses appear in any verified source).
+- Boss encounters — no detailed boss documentation exists in any verified source. One achievement on the game's Steam page ("Defeat The Corrupter") hints that a named boss exists, but its mechanics and role are unconfirmed.
 
 **Warning:** guides that name enemies like "Bandit Leader" or "Crystal Wyrm" with attack patterns and HP values are fabricated — no such data exists in any verified source.
 

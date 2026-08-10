@@ -2,17 +2,17 @@
 title: "Skills & Raids Boss & Hard Encounter Guide"
 description: "Boss and hard encounter guide for Skills & Raids. What is confirmed about the game's hardest combat areas, unique skill mechanics, and how to prepare for endgame fights."
 category: "Guides"
-version: "1.0"
-updated: "2026-08-01"
+version: "Current"
+updated: "2026-08-11"
 keywords: ["Skills & Raids boss guide", "Skills & Raids raid encounters", "Skills & Raids endgame fights", "Skills & Raids combat mechanics", "Skills & Raids boss strategies"]
-related: ["raid-progression-guide", "team-compositions-guide", "enemies-guide", "best-skills-builds"]
+related: ["raid-progression-guide", "team-compositions-guide", "enemies-guide", "builds-guide"]
 ---
 
 # Skills & Raids Boss & Hard Encounter Guide
 
-**Skills & Raids 1.0 / Updated: August 1, 2026**
+**Updated: August 11, 2026**
 
-**The honest starting point:** no named boss exists in any verified source about Skills & Raids. The Steam page describes "multiple combat areas with unique skill mechanics" — the game's hard content is area-based rather than a documented boss roster. Guides that list bosses like "Bandit Leader" or "Crystal Wyrm" with HP values and enrage timers are fabricated. What we *can* say about hard encounters is grounded in confirmed mechanics plus demo-era observations.
+**The honest starting point:** no detailed boss documentation exists in any verified source about Skills & Raids. The Steam page describes "multiple combat areas with unique skill mechanics" — the game's hard content is area-based rather than a documented boss roster. One achievement on the Steam page ("Defeat The Corrupter") hints that a named boss exists, but its mechanics and role are unconfirmed. Guides that list bosses like "Bandit Leader" or "Crystal Wyrm" with HP values and enrage timers are fabricated. What we *can* say about hard encounters is grounded in confirmed mechanics plus demo-era observations.
 
 ---
 
@@ -108,4 +108,4 @@ Until the community documents the endgame, treat all of the above as speculation
 - [Raid Progression Guide](/guides/raid-progression-guide) — how quests lead to the hardest content.
 - [Enemies Guide](/guides/enemies-guide) — the enemy teams that end runs.
 - [Team Compositions Guide](/guides/team-compositions-guide) — building the six-slot answer.
-- [Best Skills & Builds Guide](/guides/best-skills-builds) — optimization for hard content.
+- [Builds Guide](/guides/builds-guide) — optimizing your loadout for hard content.

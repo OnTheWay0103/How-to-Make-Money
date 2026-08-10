@@ -5,7 +5,7 @@ category: "Guides"
 version: "EA"
 updated: "2026-08-01"
 keywords: ["SpiritVale beginner guide", "SpiritVale what to do first", "SpiritVale how to start", "SpiritVale first hours", "SpiritVale no main quest", "SpiritVale new player guide"]
-related: ["classes-guide", "leveling-guide", "class-tier-list", "cards-guide", "solo-party-guide"]
+related: ["classes-guide", "leveling-guide", "class-tier-list", "cards-guide", "solo-guide"]
 ---
 
 # SpiritVale Beginner Guide — First 5 Hours (Real Start, No Main Quest)
@@ -26,7 +26,7 @@ Let's be direct about what SpiritVale is: a classic-style action MMO with **no m
 | Warrior | Two-Handed Sword | Medium | Strong, gear-dependent |
 | Acolyte | Mace / Staff | Medium | Good if you plan to go Priest |
 | Mage | Staff | Medium | Strong AoE, fragile |
-| Scout | Bow | Medium | Ranged safety; advances to **Gunslinger** (not "Sniper") |
+| Scout | Bow | Medium | Ranged safety; advances to **Sniper** at J50 |
 | Rogue | Dagger | Hard | High skill floor |
 | Summoner | Tome | Medium | Pet management; **S-tier "extremely OP" in the current meta** |
 
@@ -50,7 +50,7 @@ With no quests to guide you, your first goal is a basic gear set:
 - **Farm Sunny Meadows** (the starting field) for the **Novice Set** — the entry gear set that carries you through the first maps.
 - Keep an eye out for the **Golden Hoop** accessory and the **Pioneer set** pieces — both drop early and are worth equipping.
 - Mobs **3–5 levels below you** in high-density spawns give the best XP-per-hour. Group pulls of 6–8 clear faster than single equal-level fights.
-- **Skip upgrades on low-level gear.** Enhancing costs materials you'll want for level-appropriate items later.
+- **Skip upgrades on low-level gear.** Refining costs materials you'll want for level-appropriate items later.
 
 **About spawn density:** maps are capped around ~30 players. If your farming spot is empty or jammed, switch channels/areas or come back off-peak — a full map means no mobs (this is a known EA issue, see the [Farming Guide](/guides/farming-resource-guide)).
 
@@ -74,8 +74,8 @@ With no quests to guide you, your first goal is a basic gear set:
 ## 5. Solo or Party? The Honest Truth
 
 - **Solo play is possible but limited.** Maps shrink as you level, world bosses require teams, and some story-adjacent encounters are designed for groups. The community consensus is "solo is rough after the early game."
-- **Paladin is the community's #1 solo class** (Consecration, Holy Shield, High Guard, Shield Throw with STR/VIT and Steel Heart). Shinobi is fastest, Berserker is easiest, Wizard is high-risk/high-reward.
-- **Finding groups:** use the official Discord, public channels, or switch to a more active server (transferring is free and account-wide — see the [Solo & Party Guide](/guides/solo-party-guide)).
+- **Paladin is the community's #1 solo class** (Consecrate, Holy Shield, and self-healing with STR/VIT). Shinobi is fastest, Berserker is easiest, Wizard is high-risk/high-reward.
+- **Finding groups:** use the official Discord, public channels, or switch to a more active server (transferring is free and account-wide — see the [Solo Guide](/guides/solo-guide)).
 
 **If you have no friends playing:** you can still grind, farm, and gear up solo through the mid-game — just expect to group up for world bosses and late maps.
 
@@ -103,6 +103,6 @@ Head to the [Leveling Guide](/guides/leveling-guide) for routes to Job Level 50 
 
 - [Complete Classes Guide](/guides/classes-guide) — All 15 classes detailed
 - [Class Tier List](/guides/class-tier-list) — Current EA meta rankings
-- [Solo Play & Party Finding](/guides/solo-party-guide) — How to play without a fixed group
+- [Solo Guide](/guides/solo-guide) — Solo classes, strategies, and finding groups
 - [Leveling Guide 1-50](/guides/leveling-guide) — Full leveling routes
 - [Cards Guide](/guides/cards-guide) — Card system explained

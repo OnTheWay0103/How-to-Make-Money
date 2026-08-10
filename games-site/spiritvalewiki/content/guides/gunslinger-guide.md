@@ -1,10 +1,10 @@
 ---
 title: 'Gunslinger Guide — Best Gunslinger Build, Skills & Leveling in SpiritVale'
-description: 'Complete Gunslinger class guide for SpiritVale. How to unlock Gunslinger from Scout at Job Level 50, DEX and LUK stat allocation, dual pistol skills, kiting builds, gear, and PvP.'
-keywords: ['gunslinger guide spiritvale', 'spiritvale gunslinger build', 'how to become gunslinger spiritvale', 'spiritvale scout guide', 'spiritvale gunslinger skills']
+description: 'Complete Gunslinger class guide for SpiritVale. How to unlock Gunslinger at Job Level 50 with the Outlaw\'s Path quest chain, DEX and LUK stat allocation, dual pistol skills, kiting builds, gear, and PvP.'
+keywords: ['gunslinger guide spiritvale', 'spiritvale gunslinger build', 'how to become gunslinger spiritvale', 'spiritvale outlaw path', 'spiritvale gunslinger skills']
 category: Classes
-version: '1.0'
-updated: '2026-08-04'
+version: 'EA'
+updated: '2026-08-09'
 related:
   - classes-guide
   - class-tier-list
@@ -14,9 +14,9 @@ related:
 
 ## Gunslinger Overview
 
-The Gunslinger is the **Scout's advanced class** — a mobile ranged fighter wielding **dual pistols**, built around kiting, crits, and never standing still. One correction up front: early guides called this class "Sniper," but that name doesn't exist in the game — the Scout's advanced class is the **Gunslinger**, and the separate special class any character can unlock is the **Weaver**. If you see "Sniper" in an old build list, read it as Gunslinger.
+The Gunslinger is SpiritVale's **special advanced class** — a mobile ranged fighter wielding **dual pistols**, built around kiting, crits, and never standing still. One roster note up front: unlike the other advanced classes, the Gunslinger is **not** tied to a single base class — **any character at Job Level 50 can unlock it** through the "The Outlaw's Path" quest chain. Scout's advanced class is **Sniper**, which is a separate, bow-focused evolution.
 
-Where other ranged classes trade mobility for cast time, the Gunslinger trades burst for **constant pressure** — you keep enemies at range with speed and ammo-fed pistol fire, which makes the class a monster at kiting, a strong pick in PvP, and a relaxed farmer that rarely gets touched.
+Where other ranged classes trade mobility for cast time, the Gunslinger trades burst for **constant pressure** — you keep enemies at range with speed and pistol fire, which makes the class a monster at kiting, a strong pick in PvP, and a relaxed farmer that rarely gets touched.
 
 ## Gunslinger Strengths & Weaknesses
 
@@ -33,18 +33,20 @@ In the current EA meta the Gunslinger sits around **A-tier for PvP** (kite king,
 
 | Requirement | Detail |
 |-------------|--------|
-| Base class | **Scout** |
+| Base class | **Any class at Job Level 50** |
 | Level | **Job Level 50** |
-| Quest | Gunslinger advancement quest (multi-step chain) |
-| Cost | Standard advancement fee — earlier EA coverage reported 15,000 gold for the Gunslinger path, but fees have changed across patches; check the quest preview before you start |
+| Quest | **"The Outlaw's Path"** — a 5-part quest chain |
+| Cost | **15,000 gold** |
+| Final trial | A duel against the Gunslinger Master |
 
 Steps:
 
-1. Level your Scout to **Job Level 50** — the fastest Scout routes are in the [Class Leveling Guide](/guides/class-leveling-guide).
-2. Accept the Gunslinger advancement quest from your class trainer and complete the chain (long-range target trials are the recurring theme — practice leading moving targets).
-3. Advance, and swap your bow for dual pistols.
+1. Level your current class to **Job Level 50** — the fastest routes are in the [Class Leveling Guide](/guides/class-leveling-guide).
+2. Accept **"The Outlaw's Path"** from the class trainer and complete the chain (long-range target trials are the recurring theme — practice leading moving targets).
+3. Pay the 15,000 gold fee and win the duel against the Gunslinger Master.
+4. Equip your first pair of dual pistols — you're a Gunslinger.
 
-**Warning:** advancing replaces nothing — you keep your Scout skill tree and add the Gunslinger tree on top (standard advancement, not the Weaver-style swap). You can switch between unlocked advanced classes at the Waybinder NPC, but you must complete each class's quest chain once to unlock it. The class tier list and FAQ carry the corrected class roster.
+**Warning:** advancing to Gunslinger replaces your previous class's active skills with the Gunslinger tree — every Gunslinger plays the same regardless of which class unlocked it. You can switch between unlocked advanced classes for free at the Waybinder NPC, but you must complete each class's quest chain once to unlock it. The [Class Tier List](/guides/class-tier-list) and FAQ carry the class roster.
 
 ## Stat Allocation
 
@@ -57,42 +59,41 @@ Steps:
 
 **Efficient order:** DEX to 50 → AGI to 30 → LUK to 30 → finish DEX — damage first, crits second, a survivability cushion third. Respecs are free at the Waybinder NPC, so adjust freely once your pistols and cards change your crit math.
 
-## Scout & Gunslinger Skill Tree
+## Scout Leveling Skills (1-50) and the Gunslinger Tree
 
-Your Scout skills carry into endgame, so the leveling skills you already have stay relevant:
+While leveling toward J50, your bow skills carry you through the early game:
 
 | Skill | Role |
 |-------|------|
 | **Hawk Eye** | Passive range and accuracy — keep maxed, it is the foundation of kiting |
 | **Arrow Rain** | AoE — your main tool for farming packs while leveling |
 | **Piercing Shot** | Line-AoE — line up 4-5 mobs for efficient clears |
-| **Barrage** | 5-shot single-target burst — your leveling boss tool |
-| **Fan Fire** | Confirmed Gunslinger signature — fires a volley of shots at targets, excellent for keeping multiple enemies pressured while moving |
-| **Kiting utilities** | Community-documented movement and snap-shot skills on the Gunslinger tree — the full tree is still being documented, check the [Update & Patch Notes](/guides/updates-patch-notes) for additions |
+| **Barrage** | Single-target burst — your leveling boss tool |
+| **Fan Fire** | Confirmed Gunslinger signature — fires a volley of shots, excellent for keeping multiple enemies pressured while moving |
 
-**Honesty note:** the Gunslinger tree is one of the least documented in EA — this wiki lists only skills confirmed across community coverage. If a guide you read lists "Sniper" skills like Precise Shot or Eagle Eye, those names come from the old pre-correction build lists and don't exist in the current game.
+**Honesty note:** the Gunslinger tree is one of the least documented in EA — this wiki lists only skills confirmed across community coverage. Check the [Update & Patch Notes](/guides/updates-patch-notes) for additions as the tree gets documented.
 
 ## Best Gunslinger Builds
 
 ### Kiting Farm Build (PvE)
 - **Focus:** Never get hit; outrange everything
 - **Stats:** DEX primary, AGI secondary
-- **Skills:** Hawk Eye (max), Arrow Rain, Barrage, Fan Fire
+- **Skills:** Fan Fire (max), Hawk Eye, Piercing Shot
 - **Gear:** Fresh pistols every 10 levels — this build lives and dies by weapon damage; crit cards on every slot
-- **Playstyle:** Pull with Fan Fire at max range, kite in a circle, finish with Barrage. If a mob reaches you, you already failed the pull — reset and reposition
+- **Playstyle:** Pull with Fan Fire at max range, kite in a circle. If a mob reaches you, you already failed the pull — reset and reposition
 
 ### Crit Hunter Build (Single Target / Bossing)
 - **Focus:** LUK-stacked crits for boss DPS
 - **Stats:** DEX to 50, then LUK to 40 before AGI
-- **Skills:** Barrage (max), Hawk Eye, Fan Fire, Piercing Shot
-- **Gear:** Crit rate and crit damage cards (Crawler/Lurker-style crit cards work for any physical class); LUK-boosting accessories
-- **Playstyle:** Keep the boss at max range, cycle Barrage and Fan Fire, spend the fight moving — your damage uptime is your survivability
+- **Skills:** Fan Fire (max), Piercing Shot
+- **Gear:** Crit rate and crit damage cards; LUK-boosting accessories
+- **Playstyle:** Keep the boss at max range, cycle Fan Fire and mobility skills, spend the fight moving — your damage uptime is your survivability
 
 ### PvP Kite Build (Arena / Guild Wars)
 - **Focus:** Poke pressure and escapes; never commit to a stand-up fight
-- **Stats:** AGI pushed above the usual breakpoints for move speed
-- **Skills:** Hawk Eye, Fan Fire, mobility and snap-shot skills
-- **Playstyle:** Circle the fight at max range, punish anyone who chases you. You are the second-best kiter in the arena for a reason — but you lose every burst trade, so fight only fights you can escape
+- **Stats:** AGI pushed for move speed
+- **Skills:** Fan Fire, Hawk Eye, mobility skills
+- **Playstyle:** Circle the fight at max range, punish anyone who chases you. You are one of the best kiters in the arena — but you lose every burst trade, so fight only fights you can escape
 
 ## Gunslinger Leveling Guide (1-50 as Scout)
 
@@ -101,7 +102,7 @@ Your Scout skills carry into endgame, so the leveling skills you already have st
 | 1-15 | Starting zone | Hawk Eye first; fight at max range from minute one |
 | 15-30 | Whisperwind Plains / Ruins | Arrow Rain pack clearing; keep your bow within 10 levels |
 | 30-40 | Ironforge Mines / Blackwater Marsh | Piercing Shot line pulls; farm crit gear and cards |
-| 40-50 | Shadowfen Depths | Boss-trial practice; prep the Gunslinger quest at J50 |
+| 40-50 | Shadowfen Depths | Boss-trial practice; prep the Outlaw's Path at J50 |
 
 **Leveling tips:** Scout has no self-healing and no escape tools worth the name — the dodge roll i-frames are your only panic button, so learn the timing early. Upgrade your weapon every 10 levels or kill speed drops off hard.
 
@@ -119,7 +120,7 @@ Your Scout skills carry into endgame, so the leveling skills you already have st
 
 ## Gunslinger in PvP
 
-The Gunslinger is an **A-tier arena pick** — the kite king. You never want to stand still: poke with Fan Fire, keep Hawk Eye up for range, and save your mobility for the moment a Shinobi closes or a Wizard drops zone control. Ammo is your real enemy in long matches — manage it, because an empty Gunslinger is a dead Gunslinger. See the [PvP Guide](/guides/pvp-guide) for arena fundamentals.
+The Gunslinger is an **A-tier arena pick** — the kite king. You never want to stand still: poke with Fan Fire, keep Hawk Eye up for range, and save your mobility for the moment a Shinobi closes or a Wizard drops zone control. Ammo is your real enemy in long matches — manage it, because an empty Gunslinger is a dead Gunslinger. See the [PvP Arena Guide](/guides/pvp-arena) for arena fundamentals.
 
 ## Related Guides
 

@@ -25,7 +25,7 @@ MineGeon: Renegades launched on **Steam (PC) in July 2026** and is, as of early 
 
 ## PC (Steam) — The Only Platform
 
-### System Requirements (official, from the Steam page)
+### System Requirements (as listed on the official Steam store page)
 
 **Minimum:**
 - OS: Windows 10
@@ -82,7 +82,7 @@ All co-op is Steam-only. There is no platform matrix to worry about yet.
 
 ## Steam Page Accuracy Note
 
-If you see a Steam app ID like `3344910` referenced for MineGeon: Renegades on other sites, that is an error — the correct store page is `app/3227240` (the demo is `app/4224830`). Wrong app IDs are a common sign of copied, unverified content.
+App IDs found in copied, unverified content are frequently wrong — a mismatched store page is a common sign of scraped articles. Don't trust an app ID you read on another site: open the game's page from the Steam store search itself, or use the store link on this site's homepage.
 
 ## Next Steps
 

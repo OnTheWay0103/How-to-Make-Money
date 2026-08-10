@@ -2,17 +2,17 @@
 title: "Skills & Raids Beginner Guide — Getting Started"
 description: "Complete beginner guide for Skills & Raids. Learn the core extraction loop, your party of Shelldon, Clawrk and Owlivia, quest types, ability loadouts, and how to survive your first runs."
 category: "Guides"
-version: "1.0"
-updated: "2026-08-01"
+version: "Current"
+updated: "2026-08-11"
 keywords: ["Skills & Raids beginner guide", "Skills & Raids getting started", "Skills & Raids new player", "Skills & Raids tips", "Skills & Raids first run"]
 related: ["character-guide", "extraction-guide", "skills-guide", "raid-progression-guide"]
 ---
 
 # Skills & Raids Beginner Guide — Getting Started
 
-**Skills & Raids 1.0 / Updated: August 1, 2026**
+**Updated: August 11, 2026**
 
-Welcome to Skills & Raids, a party-based extraction RPG by solo developer **Eddie H. Hinestroza**, released on Steam on **July 27, 2026**. You lead a fixed party of three animal heroes through run-based expeditions: fight, loot resources, extract what you can, and craft gear and skills between runs. This guide covers everything you need for your first hours — who your heroes are, how combat works, how quests and extraction work, and how to avoid the mistakes that end runs early.
+Welcome to Skills & Raids, a party-based extraction RPG by solo developer **Eddie H. Hinestroza**, available now on Steam. You lead a fixed party of three animal heroes through run-based expeditions: fight, loot resources, extract what you can, and craft gear and skills between runs. This guide covers everything you need for your first hours — who your heroes are, how combat works, how quests and extraction work, and how to avoid the mistakes that end runs early.
 
 ---
 
@@ -39,8 +39,6 @@ You always command the same three animal heroes:
 | **Shelldon** | Turtle | The team's tank — the durable front line |
 | **Clawrk** | Tiger | The DPS — the team's damage dealer |
 | **Owlivia** | Owl | The healer — keeps the party alive |
-
-(Note: some early coverage spells the healer's name "Wolivia"; the demo review coverage from Steam Next Fest 2026 consistently identifies the owl healer as Owlivia.)
 
 This trio means you do not choose *which* roles you bring — a tank, a damage dealer, and a healer are always in the party. Your real build choices are:
 

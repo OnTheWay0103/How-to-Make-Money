@@ -24,7 +24,7 @@ The two-level system is critical to understand:
 |------|------------|-----------|
 | Max cap | 99 | 50 |
 | How to gain | Any XP gain | Killing monsters with class skills |
-| What it unlocks | Attribute points (3 per level) | Skill points, Class Advancement |
+| What it unlocks | Attribute points | Skill points, Class Advancement |
 | Respec cost | Free (Waybinder NPC) | Free (Waybinder NPC) |
 
 At Job Level 50, you complete a Class Advancement quest to evolve into an advanced class.

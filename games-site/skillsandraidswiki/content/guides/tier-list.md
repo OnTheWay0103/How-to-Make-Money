@@ -2,15 +2,15 @@
 title: "Skills & Raids Tier List — Roles & Rarity Priorities"
 description: "Honest tier list for Skills & Raids. Role priorities for Shelldon, Clawrk, and Owlivia, rarity guidance, and how to evaluate skills until the full roster is documented."
 category: "Tier List"
-version: "1.0"
-updated: "2026-08-01"
+version: "Current"
+updated: "2026-08-11"
 keywords: ["Skills & Raids tier list", "Skills & Raids best skills", "Skills & Raids rankings", "Skills & Raids best builds", "Skills & Raids meta"]
-related: ["builds-guide", "skills-guide", "beginner-guide", "best-skills-builds"]
+related: ["builds-guide", "skills-guide", "beginner-guide", "team-compositions-guide"]
 ---
 
 # Skills & Raids Tier List — Roles & Rarity Priorities
 
-**Skills & Raids 1.0 / Updated: August 1, 2026**
+**Updated: August 11, 2026**
 
 **An honest preface:** a real skill-by-skill tier list for Skills & Raids cannot exist yet — the full 30-skill roster is not publicly documented, and skill names circulating online are largely fabricated. What *can* be ranked is what the game itself confirms: roles, rarity tiers, and skill functions. That's what this tier list ranks. When the community documents the full roster, a name-level tier list can follow.
 
@@ -120,7 +120,7 @@ As the community documents the game, this page will be updated with real names a
 
 ## Next Steps
 
-- [Builds Guide](/guides/builds-guide) — the build framework.
-- [Best Skills & Builds Guide](/guides/best-skills-builds) — optimization guidance.
+- [Builds Guide](/guides/builds-guide) — the build framework, per-hero loadouts, and optimization.
 - [Skills Guide](/guides/skills-guide) — the ability system explained.
+- [Team Compositions Guide](/guides/team-compositions-guide) — six-slot team patterns.
 - [Beginner Guide](/guides/beginner-guide) — getting started.

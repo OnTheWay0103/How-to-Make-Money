@@ -29,8 +29,8 @@ Think of depth as a dial you turn up and down deliberately, not a ladder you cli
 
 | Depth State | Mindset | Extraction Trigger |
 |-------------|---------|--------------------|
-| Safe depth | Farm freely, mine everything | Damage taken > 25% |
-| Comfort depth | Mine smart, skip risky rooms | Damage taken > 40%, or any rare find |
+| Safe depth | Farm freely, mine everything | Any meaningful damage taken |
+| Comfort depth | Mine smart, skip risky rooms | Significant damage, or any rare find |
 | Push depth | Mine only high-value veins | Set a hard trigger *before* descending |
 | Overextended | Retreat — the dial goes down | Any elite spawn, any near-death |
 

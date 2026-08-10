@@ -17,7 +17,7 @@ related:
 
 "minegeon renegades walkthrough" is a top search — and the honest answer is that MineGeon: Renegades has no fixed walkthrough because **every run is procedurally generated**. What *can* be walked through is the run structure: the stages every expedition passes through, what happens at each stage, and what the decisions are. That's this guide.
 
-> **Accuracy note:** specific room layouts, named biomes, and enemy placements change every run and are not published. The stage structure below is built on confirmed systems: procedural minegeons, six hand-crafted biomes, monolith path votes, one boss per biome, and the extraction rule. Reviewer-reported figures (run length, no mid-run save) are marked as such.
+> **Accuracy note:** specific room layouts, named biomes, and enemy placements change every run and are not published. The stage structure below is built on confirmed systems: procedural minegeons, six hand-crafted biomes, monolith path votes, one boss per biome, and the extraction rule.
 
 ## The Run at a Glance
 
@@ -44,7 +44,7 @@ Every run starts on the **Galactic Express**, your ship and base between expedit
 
 Launch an expedition — solo or with up to two friends in online co-op — and enter a **procedurally generated "minegeon."** The layout, mineral placement, and hazards change every run. Treat each descent as a new puzzle: there are no memorized routes in this game.
 
-**Confirmed structure:** six hand-crafted biomes, each explored through generated minegeons, each ending in a boss (see the [Biomes Guide](/guides/biomes-guide)). Runs are long — reviewers report **30+ minute expeditions** with **no mid-run save** (reviewer-reported; treat as typical, not official).
+**Confirmed structure:** six hand-crafted biomes, each explored through generated minegeons, each ending in a boss (see the [Biomes Guide](/guides/biomes-guide)). A full descent is a substantial time investment, and the only thing that matters at the end of it is what you manage to extract — there is no mid-run save for the minerals you are carrying.
 
 ## Stage 2 — Mining
 

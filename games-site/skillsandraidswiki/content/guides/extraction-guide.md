@@ -1,16 +1,16 @@
 ---
 title: "Skills & Raids Extraction Guide — How to Survive Every Run"
-description: "Master the extraction loop in Skills & Raids. Risk and reward on the map, the safe pocket, field healing, bag management, and when to head back."
+description: "Master the extraction loop in Skills & Raids. Risk and reward on the map, the safe pocket, field healing, bag management, solo run planning, and when to head back."
 category: "Guides"
-version: "1.0"
-updated: "2026-08-01"
-keywords: ["Skills & Raids extraction guide", "Skills & Raids how to extract", "Skills & Raids run guide", "Skills & Raids survival tips", "Skills & Raids loot"]
-related: ["beginner-guide", "builds-guide", "maps-guide", "raid-progression-guide"]
+version: "Current"
+updated: "2026-08-11"
+keywords: ["Skills & Raids extraction guide", "Skills & Raids how to extract", "Skills & Raids run guide", "Skills & Raids survival tips", "Skills & Raids loot", "Skills & Raids solo play", "Skills & Raids single player", "Skills & Raids run planning"]
+related: ["beginner-guide", "builds-guide", "maps-guide", "raid-progression-guide", "loot-guide"]
 ---
 
 # Skills & Raids Extraction Guide — How to Survive Every Run
 
-**Skills & Raids 1.0 / Updated: August 1, 2026**
+**Updated: August 11, 2026**
 
 Extraction is the heart of Skills & Raids. Every run is a bet: push deeper for better resources, and risk losing everything that isn't safely banked. This guide covers the confirmed extraction mechanics — and the decision-making that separates runs that pay off from runs that end in disaster.
 
@@ -20,7 +20,7 @@ Extraction is the heart of Skills & Raids. Every run is a bet: push deeper for b
 
 **Rule #1: If you're asking "should I extract?" — the answer is YES.**
 
-What makes this game punishing is also what makes it interesting: on a **failed run, anything not kept in a safe pocket is lost forever** (confirmed in Steam Next Fest demo coverage). The whole loop is about banking value:
+What makes this game punishing is also what makes it interesting: on a **failed run, anything not kept in a safe pocket is lost forever** (confirmed in demo coverage). The whole loop is about banking value:
 
 - Enemies drop **valuable resources**.
 - You **extract** those resources back to the hub.
@@ -48,6 +48,45 @@ Navigating the map "constantly forces risk-versus-reward decisions" (confirmed i
 
 ---
 
+## Solo Run Planning: You Are the Whole Team
+
+Skills & Raids is a **single-player game** — there is no multiplayer, no PvP, and no "solo mode vs. squad mode." "Solo" isn't a mode; it's the only way to play. You command the full party of three heroes yourself, every run. The *skills* of good solo play are command, planning, and risk management.
+
+Because you control all three heroes, "team coordination" is really "your own planning." The advantage: perfect information, no communication lag. The cost: you must track everything yourself.
+
+| Hero | Job | What You're Tracking |
+|------|-----|----------------------|
+| Shelldon | Tank | His mitigation uptime, aggro position, HP |
+| Clawrk | DPS | Ability cooldowns, resource pool, kill priority |
+| Owlivia | Healer | Party HP, status icons, her own safety |
+
+**The practical fix for information overload:** use the pause mechanic. Combat is real-time, but pausing to read skill cooldowns, statuses, and descriptions is a confirmed feature — it exists precisely because you need to process the whole battle at your own speed.
+
+### The Real "Solo Strategy": Run Planning
+
+1. **Check active quests first.** Quests (target objectives, resource collection, using specific abilities) are your progression — plan the run around them.
+2. **Review your collection.** Which two abilities does each hero carry this run? Does the loadout answer the quest's demands?
+3. **Pick the area.** With 5 biomes in the full game (2 in the demo), choose where the risk matches your party's power.
+4. **Set the extraction plan in advance.** Decide what "success" looks like before you deploy: quest complete? Specific resources banked? That stops mid-run greed.
+
+### Survival Tactics for the Lone Commander
+
+- **Protect Owlivia above all.** The healer is the party's lifeline. Two deadly scenarios are documented: a run where the only remaining character is a healer facing an enemy healer — an **infinite loop** of healing and weak swipes — and enemy teams of two powerful healers plus a tank that were effectively **unbeatable** near the end of a run.
+- **Rotation discipline.** Use the right ability at the right time: setup abilities before payoff abilities (debuff → burst), keep mitigation rolling on Shelldon, and save the direct heal for when someone actually needs it.
+- **Bank early, push carefully.** Anything not in the safe pocket is lost on a failed run (confirmed). Before any dangerous push: bank, heal in the field, then go.
+
+### Builds That Suit the Solo Commander
+
+Since you command everything, the best "solo" builds are the ones that reduce the amount of things you must react to:
+
+- **Sustain-heavy** (heal + HoT on Owlivia, self-sustain on Shelldon): forgives mistakes — the single-player king.
+- **Debuff Rush** (debuffs across Shelldon/Clawrk + burst): breaks the unbeatable healer+tank teams.
+- **Avoid all-damage** builds unless you're farming easy content — one bad roll and there's no safety net.
+
+See the [Builds Guide](/guides/builds-guide) and [Character Guide](/guides/character-guide) for the full framework.
+
+---
+
 ## When to Push vs. When to Pull Back
 
 ### PUSH When:
@@ -60,7 +99,7 @@ Navigating the map "constantly forces risk-versus-reward decisions" (confirmed i
 - Bags contain high-value resources you haven't banked.
 - The party is below half HP or the healer (Owlivia) is in danger.
 - You're approaching an unknown area with a damaged party.
-- The enemy composition looks like the "two healers + tank" teams that demo reviewers found nearly unbeatable — unless your build has the burst to break through.
+- The enemy composition looks like the "two healers + tank" teams that players found nearly unbeatable — unless your build has the burst to break through.
 
 ---
 
@@ -84,6 +123,8 @@ The game's combat areas include encounters with "unique skill mechanics" (confir
 3. Pause and read the enemy's statuses — status effects heavily influence every encounter.
 4. Decide before engaging: can this build kill through their healing? If not, take another path.
 
+See the [Boss & Hard Encounter Guide](/guides/raid-boss-guide) for full hard-encounter preparation.
+
 ---
 
 ## After a Successful Extraction
@@ -106,6 +147,19 @@ Between runs:
 | Full bags, no plan | Forced drop choices mid-zone | Send items back when bags get full |
 | Ignoring map choices | You take unnecessary risk | Read the risk-reward tradeoffs |
 | Never questing | Progression stalls | Build runs around active quests |
+| Tunnel vision on Clawrk | Shelldon dies, Owlivia dies, run ends | Scan all three HP bars, not just the damage numbers |
+| No plan before deploying | Mid-run greed takes over | Set success criteria before the run |
+| Following "multiplayer meta" guides | They describe a game that doesn't exist | This is single-player — plan accordingly |
+
+---
+
+## The Mindset
+
+Skills & Raids is an unforgiving, run-based game in the spirit of Darkest Dungeon (per demo reviews), and its solo-dev pedigree means patches and balance changes come directly from feedback. Play it the way you'd play any good roguelike:
+
+- Each failed run is information, not a setback.
+- Every skill drop expands your build options.
+- Every quest completed makes the party stronger.
 
 ---
 
@@ -115,3 +169,4 @@ Between runs:
 - [Loot Guide](/guides/loot-guide) — what to prioritize carrying out.
 - [Maps Guide](/guides/maps-guide) — what we know about the biomes.
 - [Raid Progression Guide](/guides/raid-progression-guide) — how quests drive progression.
+- [Builds Guide](/guides/builds-guide) — loadouts for every playstyle.

@@ -1,18 +1,18 @@
 ---
-title: "World Boss Chart — Summons, Drops & Party Setup (July 2026)"
-description: "Quick-reference world boss chart for SpiritVale (EA 2026) — 20+ world bosses, how summon conditions work, themed drops, and the verified party setup for the Echoing Spire endgame boss."
+title: "World Boss Chart — Summons, Drops & Party Setup"
+description: "Quick-reference world boss chart for SpiritVale (EA). How boss summons work, themed drops, the flagship Spirit of the Vale, the standard party setup, loot distribution, and the preparation checklist."
 category: "Guides"
-version: "1.0"
-updated: "2026-08-01"
-keywords: ["SpiritVale world boss chart", "SpiritVale boss summons", "SpiritVale Echoing Spire", "SpiritVale boss drops", "SpiritVale endgame boss party", "SpiritVale 20 bosses"]
-related: ["world-boss-guide", "raid-boss-guide", "boss-guide", "class-synergy", "endgame-guide"]
+version: "EA"
+updated: "2026-08-09"
+keywords: ["SpiritVale world boss chart", "SpiritVale boss summons", "SpiritVale Spirit of the Vale", "SpiritVale boss drops", "SpiritVale endgame boss party", "SpiritVale world bosses"]
+related: ["raid-boss-guide", "boss-guide", "party-composition", "endgame-guide", "farming-resource-guide"]
 ---
 
-## World Boss Chart — SpiritVale (EA, July 2026)
+# World Boss Chart — SpiritVale (EA)
 
-> Updated: August 1, 2026 · Game state: Early Access (launched July 15, 2026)
+> Updated: August 9, 2026 · Game state: Early Access
 
-Quick-reference chart for SpiritVale's open-world and endgame boss encounters. Verified against the current EA build: **20+ bosses** across the world of Nevaris, plus **230+ monsters** in the world at large. Bosses can be fought solo or in a party.
+Quick-reference chart for SpiritVale's open-world and endgame boss encounters: **20+ bosses** across **35+ maps**. World bosses are group content — bring a party.
 
 ---
 
@@ -21,12 +21,10 @@ Quick-reference chart for SpiritVale's open-world and endgame boss encounters. V
 | Stat | Value |
 |------|-------|
 | World bosses | **20+** |
-| Monsters in the world | **230+** |
+| Maps in the world | **35+** |
 | Base classes / advanced specs | 7 / 8 |
-| Cards for customization | 220+ |
-| Artifact sets | 33 |
-| Boss fights | Solo or party |
-| Known endgame boss | **Echoing Spire** |
+| Cards for customization | **227** |
+| Flagship endgame boss | **Spirit of the Vale** |
 
 ---
 
@@ -35,15 +33,17 @@ Quick-reference chart for SpiritVale's open-world and endgame boss encounters. V
 | Rule | Detail |
 |------|--------|
 | **Summon conditions** | Many bosses are summoned rather than standing spawns — check each boss's summon condition before heading out |
+| **Summon items** | Boss summons drop very rarely from themed world drops; bank them until you can field a full group |
 | **Themed drops** | Every boss drops gear themed to that encounter — farm the boss whose theme fits your build |
-| **Solo vs party** | All bosses can be attempted solo or in a group; party scaling adjusts difficulty |
+| **Spawn timers** | Field bosses respawn in roughly 30-60 minutes; world bosses have respawn windows of several hours to about a day (see the [Boss Guide](/guides/boss-guide)) |
+| **Group content** | World bosses are designed for parties — attempting one solo is a challenge run, not a farming method |
 | **EA caveat** | Some bosses still use placeholder behavior during Early Access — expect balance changes |
 
 ---
 
-## Known Endgame Encounter — Echoing Spire
+## Flagship Endgame Encounter — Spirit of the Vale
 
-The **Echoing Spire** is a confirmed endgame boss that demands a well-balanced party. The verified composition below is a working reference setup:
+The **Spirit of the Vale** is the flagship world boss (Level 50, open-world spawn with a respawn window of several hours). It demands a well-balanced party. The working reference composition below is a good starting point — the game is group content, so bring a full party of 6+:
 
 | Party Slot | Class | Role |
 |------------|-------|------|
@@ -52,8 +52,38 @@ The **Echoing Spire** is a confirmed endgame boss that demands a well-balanced p
 | Damage | Necromancer | Sustained damage output |
 | Damage | Shinobi | Burst damage |
 | Damage | Gunslinger | Ranged pressure / kite support |
+| Flex | Wizard or Sniper | AoE burst or ranged safety |
 
-**Note:** SpiritVale has 7 base classes (Acolyte, Mage, Summoner, Knight, Warrior, Scout, Rogue) and 8 advanced specializations unlocked at level 50 (Priest, Wizard, Necromancer, Paladin, Berserker, Gunslinger, Shinobi, Weaver) — the setup above is an advanced-spec party.
+**Note:** SpiritVale has 7 base classes (Acolyte, Knight, Mage, Rogue, Scout, Summoner, Warrior) and 8 advanced specializations unlocked at Job Level 50 (Paladin, Priest, Wizard, Shinobi, Sniper, Berserker, Necromancer, Gunslinger) — the setup above is an advanced-spec party. See the [Classes Guide](/guides/classes-guide) for the full roster.
+
+---
+
+## Preparation Checklist
+
+Before every world boss attempt:
+
+- [ ] Full gear repair
+- [ ] Plenty of potions for your role
+- [ ] Mana/Energy potions
+- [ ] Food buff (check which stat caps you need)
+- [ ] Resistance potions for the boss's element
+- [ ] Waystone scrolls as an escape plan
+- [ ] Discord voice channel ready
+- [ ] Group assembled before the spawn window opens
+
+---
+
+## Loot Distribution Basics
+
+For open-world boss trains, keep distribution simple:
+
+| System | Who It's For | How It Works |
+|--------|--------------|--------------|
+| Need Before Greed | Pick-up groups | Players roll on drops; only classes that can use an item may roll Need |
+| Contribution-based bonus | All groups | The top contributors on a kill get a bonus chest — damage, healing, and mechanics all count |
+| Guild loot rules | Guild-organized runs | Guilds set their own rules (raid token points, officer decisions) — ask before joining |
+
+**The rules that keep trains friendly:** state the loot system in the Discord callout before the pull, never roll Need on an item you'll sell, and split summon costs among the group that uses them.
 
 ---
 
@@ -61,14 +91,16 @@ The **Echoing Spire** is a confirmed endgame boss that demands a well-balanced p
 
 1. **Target a build, then a boss** — each boss's themed drops make specific bosses the farming route for specific gear
 2. **Learn summon conditions** — pre-fight research beats wandering the map blind
-3. **Bring a balanced party** — the Echoing Spire setup generalizes: one tank, one healer, three damage dealers
-4. **Farm cards and artifact sets** (220+ cards, 33 artifact sets) — they modify boss-fight performance as much as gear
+3. **Bring a balanced party** — the Spirit of the Vale setup generalizes: one tank, one healer, and the rest damage
+4. **Farm cards** (227 cards in the game) — they modify boss-fight performance as much as gear
 5. **Re-check after patches** — placeholder boss behavior means the meta will shift during EA
+
+---
 
 ## Related Guides
 
-- [World Boss Guide](/guides/world-boss-guide) — full encounter guide
 - [Raid Boss Guide](/guides/raid-boss-guide) — major boss patterns & party strategies
 - [Boss Guide](/guides/boss-guide) — all bosses, mechanics & loot
-- [Class Synergy Guide](/guides/class-synergy) — optimal party compositions
+- [Party Composition Guide](/guides/party-composition) — optimal party compositions
 - [Endgame Guide](/guides/endgame-guide) — activities, raids, progression
+- [Farming & Resource Guide](/guides/farming-resource-guide) — gold and material routes

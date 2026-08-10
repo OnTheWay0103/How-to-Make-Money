@@ -2,15 +2,15 @@
 title: "Skills & Raids Characters Guide — Shelldon, Clawrk & Owlivia"
 description: "Everything known about the three Skills & Raids heroes — Shelldon the turtle tank, Clawrk the tiger DPS, and Owlivia the owl healer — their roles, loadouts, and how they fight as a team."
 category: "Guides"
-version: "1.0"
-updated: "2026-08-01"
+version: "Current"
+updated: "2026-08-11"
 keywords: ["Skills & Raids characters", "Skills & Raids Shelldon", "Skills & Raids Clawrk", "Skills & Raids Owlivia", "Skills & Raids heroes", "Skills & Raids party"]
-related: ["beginner-guide", "skills-guide", "builds-guide", "team-compositions-guide"]
+related: ["beginner-guide", "skills-guide", "builds-guide", "team-compositions-guide", "tier-list"]
 ---
 
 # Skills & Raids Characters Guide — Shelldon, Clawrk & Owlivia
 
-**Skills & Raids 1.0 / Updated: August 1, 2026**
+**Updated: August 11, 2026**
 
 Skills & Raids has no character creator and no class selection — your party is fixed, and that's by design. You lead three animal heroes on every run: **Shelldon** the turtle, **Clawrk** the tiger, and **Owlivia** the owl. Together they form the classic tank / damage / healer triangle, which means your entire build game is about the abilities they carry and how those abilities combine. This guide covers everything publicly known about each hero — their confirmed roles, what press coverage has revealed, and how to build them.
 

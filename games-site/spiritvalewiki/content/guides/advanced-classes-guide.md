@@ -1,16 +1,16 @@
 ---
 title: "SpiritVale Advanced Classes & Specializations Guide — Unlock Necromancer, Paladin & More"
-description: "Complete guide to unlocking every advanced class in SpiritVale. Necromancer unlock quest, Paladin unlock requirements, class evolution paths, and advanced class tier ranking."
+description: "Complete guide to unlocking every advanced class in SpiritVale. Necromancer unlock quest, Paladin unlock requirements, class evolution paths, skill previews, and advanced class tier rankings."
 category: "Guides"
 version: "EA"
-updated: "2026-07-18"
+updated: "2026-08-09"
 keywords: ["SpiritVale advanced class", "SpiritVale how to become necromancer", "SpiritVale how to become paladin", "SpiritVale specialization guide", "SpiritVale class evolution"]
 related: ["classes-guide", "class-leveling-guide", "class-tier-list", "builds-guide"]
 ---
 
 # SpiritVale Advanced Classes & Specializations Guide — Unlock Necromancer, Paladin & More
 
-**SpiritVale EA / Updated: July 18, 2026**
+**SpiritVale EA / Updated: August 9, 2026**
 
 At Job Level 50, every class in SpiritVale can evolve into an advanced specialization. This is the single largest power spike in the game — your base class skills merge with an entirely new skill tree, and your role in a party transforms. This guide covers every unlock requirement, quest chain, and decision point so you can plan your path from Level 1.
 
@@ -58,7 +58,7 @@ Any J50   (Class)  ──> Gunslinger    (J50, special quest)
 
 ## Necromancer Unlock Quest (Summoner → Necromancer)
 
-The Necromancer is the most sought-after advanced class in SpiritVale EA, and its unlock quest is the longest of any specialization.
+The Necromancer is one of the most sought-after advanced classes in SpiritVale EA, and its unlock quest is one of the longest.
 
 ### Prerequisites
 - Base class: Summoner at Job Level 50
@@ -73,16 +73,16 @@ Master Theron gives you the quest "The Awakening of the Dead." He will ask you t
 
 **Step 2 — Collect 50 Soul Essences**
 Location: Shadowfen Depths (Level 45-50 zone).
-Kill Shadow Wraiths and collect Soul Essences. Drop rate is approximately 40%. Expect to spend 45-60 minutes here. Party up for faster clears.
+Kill Shadow Wraiths and collect Soul Essences — they drop regularly. Expect to spend about an hour here. Party up for faster clears.
 
 **Step 3 — Defeat the Lich Apprentice (Solo Instance)**
 Location: Enter the Lich's Chamber through the Summoner's Guild portal.
-This is a solo boss fight against the Lich Apprentice (Level 52 boss). Key mechanics:
+This is a solo boss fight against the Lich Apprentice (Level 50 boss). Key mechanics:
 - Phase 1: Ranged dark bolts — dodge the telegraphed circles
 - Phase 2: Summons 4 skeletal adds — kill adds immediately to avoid being overwhelmed
-- Phase 3: Life Drain channel — interrupt with Dark Bolt or save a stun skill
+- Phase 3: Life Drain channel — interrupt with a stun skill
 
-**Recommended setup:** Full INT stat allocation, Ghost pet summoned and healed before entering. Bring 30 HP potions and 20 SP potions. If you fail, there is no cooldown — you can re-enter immediately.
+**Recommended setup:** Full INT stat allocation, your strongest pet summoned and healed before entering. Bring plenty of HP and SP potions. If you fail, there is no cooldown — you can re-enter immediately.
 
 **Step 4 — Return to Master Theron**
 Reward: Necromancer unlock token. Use it at the Summoner's Guild to unlock the Necromancer skill tree.
@@ -92,9 +92,9 @@ Reward: Necromancer unlock token. Use it at the Summoner's Guild to unlock the N
 | Skill | Type | Effect |
 |-------|------|--------|
 | Summon Archfiend | Summon | Elite pet with AoE fire breath |
-| Death Pulse | AoE | 5m radius dark damage + 3 second fear |
-| Bone Armor | Buff | +30% defense for 20 seconds |
-| Life Leech Aura | Passive | Party heals for 5% of damage dealt |
+| Death Pulse | AoE | Wide-radius dark damage + a brief fear |
+| Bone Armor | Buff | Strong defense buff for a short time |
+| Life Leech Aura | Passive | Small party-wide heal from damage dealt |
 | Plague Nova | Debuff | AoE poison that spreads to nearby enemies |
 
 ---
@@ -106,7 +106,7 @@ Paladin is the second most popular advanced class and the best tank in the curre
 ### Prerequisites
 - Base class: Knight at Job Level 50
 - 5,000 gold
-- Holy Crest (drops from Crystal Golems in Ironforge Mines, ~15% drop rate)
+- Holy Crest (drops rarely from Crystal Golems in Ironforge Mines)
 
 ### Quest Chain: "The Light's Judgment"
 
@@ -132,11 +132,11 @@ Return to High Paladin Aldric. Unlock Paladin class.
 
 | Skill | Type | Effect |
 |-------|------|--------|
-| Holy Strike | Single Target | Weapon damage + 50% holy damage vs. undead |
-| Divine Shield | Buff | Invulnerable for 5 seconds |
-| Consecrate | AoE | 6m radius holy ground, damages enemies and heals allies |
-| Guardian Angel | Passive | Automatically revive once every 120 seconds |
-| Smite | Ranged | Long-range holy bolt, 3 second stun on undead |
+| Holy Strike | Single Target | Weapon damage + bonus holy damage vs. undead |
+| Divine Shield | Buff | Brief invulnerability |
+| Consecrate | AoE | A radius of holy ground that damages enemies standing in it |
+| Guardian Angel | Passive | Automatically revive once every few minutes |
+| Smite | Ranged | Long-range holy bolt with a brief stun |
 
 ---
 
@@ -145,33 +145,33 @@ Return to High Paladin Aldric. Unlock Paladin class.
 ### Berserker (Warrior)
 - **Quest:** "Blood and Steel" — Kill 200 enemies in Ironforge Mines, then defeat the Ironforge Champion in a duel.
 - **Difficulty:** Medium (duel boss hits hard but has predictable patterns)
-- **Skill highlight:** Rampage — attack speed +100% for 10 seconds, but take 30% more damage.
+- **Skill highlight:** Rampage — greatly increased attack speed for a short time, at the cost of taking more damage.
 
 ### Wizard (Mage)
 - **Quest:** "Arcane Ascension" — Collect 30 Mana Crystals from Frostpeak Tundra, then solve the Elemental Puzzle in the Arcane Sanctum.
 - **Difficulty:** Easy (puzzle is straightforward; guides are widely available)
-- **Skill highlight:** Cataclysm — screen-wide AoE, 15 second cooldown, highest burst skill in the game.
+- **Skill highlight:** Cataclysm — screen-wide AoE with a long cooldown, the highest burst skill in the game.
 
 ### Priest (Acolyte)
-- **Quest:** "Divine Calling" — Heal 50 players at the Battlefield of Valor, then survive a solo trial against shadow clones.
-- **Difficulty:** Easy (heal requirement can be done in any party finder group)
-- **Skill highlight:** Holy Sanctuary — party-wide invulnerability for 3 seconds, game-changing for boss mechanics.
+- **Quest:** "Divine Calling" — Heal 50 players in party content, then survive a solo trial against shadow clones.
+- **Difficulty:** Easy (heal requirement can be done in any party)
+- **Skill highlight:** Holy Sanctuary — brief party-wide invulnerability, game-changing for boss mechanics.
 
 ### Sniper (Scout)
 - **Quest:** "The Perfect Shot" — Complete 3 long-range target challenges at increasing distances, then hunt the Frostpeak Drake solo.
 - **Difficulty:** Medium (Drake has high HP but kitable)
-- **Skill highlight:** True Shot — guaranteed critical hit, 200% weapon damage, ignores defense.
+- **Skill highlight:** True Shot — a guaranteed critical hit that ignores defense.
 
 ### Shinobi (Rogue)
 - **Quest:** "Shadows of the Past" — Stealth through a gauntlet dungeon without being detected, then assassinate the Warden.
 - **Difficulty:** Hard (detection = instant fail, boss has anti-stealth mechanics)
-- **Skill highlight:** Shadow Clone — create a decoy that deals 50% of your damage for 15 seconds.
+- **Skill highlight:** Shadow Clone — a decoy that deals a portion of your damage.
 
 ### Gunslinger (Any J50)
 - **Quest:** "The Outlaw's Path" — Complete a 5-part chain across all major zones, ending with a duel against the Gunslinger Master.
 - **Cost:** 15,000 gold (significantly more than other advanced classes)
 - **Difficulty:** Hard (quest spans 5 zones, final duel is mechanically complex)
-- **Skill highlight:** Fan Fire — fire 6 shots at random nearby targets, excellent for AoE clearing.
+- **Skill highlight:** Fan Fire — fire a volley of shots at nearby targets, excellent for AoE clearing.
 
 ---
 
@@ -187,21 +187,25 @@ Return to High Paladin Aldric. Unlock Paladin class.
 | A | Necromancer | DPS | Good damage + debuffs |
 | A | Sniper | DPS | Best single-target boss DPS |
 | B | Berserker | DPS | Rampage has high uptime but risky |
+| B | Shinobi | DPS | High burst but squishy |
 | B | Gunslinger | DPS | Flexible but outclassed in specialized roles |
-| C | Shinobi | DPS | High burst but squishy |
+
+> These rankings are for dungeon and raid content. Farming and solo context is ranked separately in the [Class Tier List](/guides/class-tier-list).
 
 ### PvP (Arena / Battleground)
 
 | Tier | Advanced Class | Why |
 |------|----------------|-----|
 | S | Shinobi | Stealth + burst kill combo |
-| S | Gunslinger | Kite king, high mobility |
+| S | Priest | Healing and debuff removal stall teams |
+| A | Sniper | Long-range pressure, trap utility |
 | A | Paladin | Impossible to kill 1v1 |
 | A | Wizard | Zone control with AoE |
 | B | Berserker | Glass cannon, high risk high reward |
+| B | Gunslinger | Kite pressure, lower burst |
 | B | Necromancer | Pet pressure is strong in 2v2 |
-| C | Priest | Killed first in every match |
-| C | Sniper | Immobile, easy target |
+
+> See the [PvP Arena Guide](/guides/pvp-arena) for the full arena meta and tactics.
 
 ---
 
@@ -217,7 +221,7 @@ Return to High Paladin Aldric. Unlock Paladin class.
 | Pet-focused gameplay | Necromancer |
 | Unique playstyle | Gunslinger |
 
-**Important:** If you choose Gunslinger, you lose access to your base class skills. You cannot swap back without paying the 15,000 gold fee again. Make sure you want to commit before switching.
+**Important:** once you advance, you cannot return to your base class — you are permanently an advanced class. However, you can switch between unlocked advanced classes for free at the Waybinder NPC.
 
 ---
 

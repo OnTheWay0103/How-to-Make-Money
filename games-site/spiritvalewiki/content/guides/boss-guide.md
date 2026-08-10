@@ -68,22 +68,22 @@ SpiritVale features 20+ field bosses and dungeon bosses across 35+ maps. This gu
 
 ### Spirit of the Vale Phase Guide
 
-**Phase 1 (100%-70% HP):**
+**Phase 1 (Full HP):**
 - Fires elemental barrages in sequence (fire → ice → lightning)
 - **Safe zone:** Stand between element circles
 - Bring resist potions for each element
 
-**Phase 2 (70%-30% HP):**
+**Phase 2 (Mid fight):**
 - Expands outward AoE rings — jump over them or dash through gaps
 - Spawns 4 elemental minions — kill them or the boss heals
 - **Safe zone:** Close to boss (inner ring safe spot)
 
-**Phase 3 (30%-0% HP):**
-- Enrages — +50% damage and attack speed
+**Phase 3 (Low HP):**
+- Enrages — significantly stronger and faster
 - Summons all 4 elemental minions simultaneously
 - **Strategy:** Use all cooldowns, pop defensive potions, kill boss before enrage overwhelms you
 
-**Recommended Setup:** 6-player party, Level 48+, full card setup, +7 weapon or better
+**Recommended Setup:** a full 6-player party, Level 48+, a full card setup, and a well-refined weapon
 
 ---
 
@@ -103,7 +103,7 @@ SpiritVale features 20+ field bosses and dungeon bosses across 35+ maps. This gu
 - **Field bosses:** Rotate between spawn points with a party for fastest farm
 - **World boss:** Join the official Discord for callouts (8-hour respawn window)
 - **Card farming:** Queen Bee, Lava Elemental, and Void Mage have valuable card drops
-- **Gear farming:** Each boss has a ~10-20% chance to drop its unique equipment piece
+- **Gear farming:** Each boss has a good chance to drop its unique equipment piece
 
 ---
 

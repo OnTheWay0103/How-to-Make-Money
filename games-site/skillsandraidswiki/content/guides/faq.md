@@ -1,35 +1,38 @@
 ---
 title: "Skills & Raids FAQ — Frequently Asked Questions"
-description: "Frequently asked questions about Skills & Raids. Covers game basics, mechanics, price, platforms, and common player questions — all verified against official sources."
+description: "Frequently asked questions about Skills & Raids. Covers game basics, mechanics, price, platforms, achievements, events, and common player questions."
 category: "FAQ"
-version: "1.0"
-updated: "2026-08-01"
-keywords: ["Skills & Raids FAQ", "Skills & Raids questions", "Skills & Raids help", "Skills & Raids beginner questions", "Skills & Raids release date"]
-related: ["beginner-guide", "extraction-guide", "builds-guide", "character-guide"]
+version: "Current"
+updated: "2026-08-11"
+keywords: ["Skills & Raids FAQ", "Skills & Raids questions", "Skills & Raids help", "Skills & Raids beginner questions", "Skills & Raids release date", "Skills & Raids achievements", "Skills & Raids events"]
+related: ["beginner-guide", "extraction-guide", "builds-guide", "character-guide", "raid-progression-guide"]
 ---
 
 # Skills & Raids FAQ — Frequently Asked Questions
 
-**Skills & Raids 1.0 / Updated: August 1, 2026**
+**Updated: August 11, 2026**
 
 ---
 
 ## Game Basics
 
 ### What is Skills & Raids?
-Skills & Raids is a **party-based extraction RPG** by solo developer **Eddie H. Hinestroza**, released on Steam on **July 27, 2026**. You command a fixed party of three animal heroes — Shelldon (turtle tank), Clawrk (tiger DPS), and Owlivia (owl healer) — through run-based expeditions: fight in real-time ability-driven combat, extract resources, and craft gear and skills between runs. It's inspired by games like Darkest Dungeon, with auto-battler combat elements.
+Skills & Raids is a **party-based extraction RPG** by solo developer **Eddie H. Hinestroza**, available on Steam for PC. You command a fixed party of three animal heroes — Shelldon (turtle tank), Clawrk (tiger DPS), and Owlivia (owl healer) — through run-based expeditions: fight in real-time ability-driven combat, extract resources, and craft gear and skills between runs. It's inspired by games like Darkest Dungeon, with auto-battler combat elements.
 
 ### Is Skills & Raids free to play?
-**No.** It's a paid game on Steam — ¥42.00, with a launch **20% intro discount (¥33.60)** that runs until **August 10, 2026**. A **free demo** is available (11 quests, 2 biomes, 15 skills). There's also a Supporter Pack bundle (game + Official Artbook + Soundtrack) and separate Artbook/Soundtrack DLC. (Prices listed in Steam's Chinese storefront; regional prices vary.)
+**No.** It's a paid game on Steam — check the official store page for current pricing and available bundles (there is also a Supporter Pack and artbook/soundtrack DLC). A **free demo** is available (11 quests, 2 biomes, 15 skills). Regional pricing varies.
 
 ### What platforms is it on?
-**PC only (Windows 64-bit) via Steam.** Minimum specs: Windows 10 or newer, Intel i3 4th gen or equivalent, 1 GB RAM, most dedicated GPUs, 1 GB storage. Supports 12 languages (interface and subtitles). No console or mobile versions have been announced.
+**PC only (Windows 64-bit) via Steam.** See the [System Requirements Guide](/guides/system-requirements) and the official store page for the published minimum specs and supported languages. No console or mobile versions have been announced.
 
 ### Is there multiplayer?
 **No.** The game is strictly single-player — you control the full party yourself. There is no PvP, no co-op, and no online play (the game does support Steam Cloud and Family Sharing).
 
 ### When was it released?
-**July 27, 2026** — version 1.0. The game had a Steam Next Fest demo earlier in 2026. It was an official selection for the **Latin American Games Showcase 2026** and the **Game Effect Showcase 2026**.
+The game is **available now on Steam**. For the official release date and the latest release information, check the game's store page and the developer's announcements — those are the authoritative sources. The game had a Steam Next Fest demo earlier in 2026 and was an official selection for the **Latin American Games Showcase 2026** and the **Game Effect Showcase 2026**.
+
+### Are there live events?
+**No.** Skills & Raids has **no live events** — no daily challenges, no weekly boss rushes, no seasonal content, and no PvP tournaments. The game is single-player with a fixed content scope, so "limited-time event" systems described in some guides are fabricated — they describe a live-service game that doesn't exist. What the game *does* have is the progression structure that makes it fun: **quests** and **achievements**.
 
 ---
 
@@ -50,6 +53,9 @@ The developer's official pitch: **combining multiple skills creates powerful syn
 ### How long is the game?
 **2–5 hours of content** (per the Steam page): 21+ quests, 5 biomes, 30 skills.
 
+### What are the achievements?
+The game ships with **12 Steam achievements** (confirmed on the store page). The names visible on the store page include **"Defeat The Corrupter," "Crowy!," "Discovery Nodes,"** and **"Discover The Edge of the Abyss."** Achievement-based goals are a great way to structure a single-player game with no live events: the early ones come naturally in the first hour, and the discovery-type achievements push you to explore all 5 biomes. For the complete list, check the game's achievements section on Steam.
+
 ---
 
 ## Progression
@@ -67,7 +73,7 @@ Through **quests** (target objectives, resource collection, using specific abili
 See the [Beginner Guide](/guides/beginner-guide) for the full walkthrough.
 
 ### What are the three characters?
-**Shelldon** (turtle, the team's tank), **Clawrk** (tiger, the team's DPS), and **Owlivia** (owl, the team's healer — spelled "Wolivia" in some early press coverage). They're the only playable characters — the build game is about their abilities, not roster choice. See the [Character Guide](/guides/character-guide).
+**Shelldon** (turtle, the team's tank), **Clawrk** (tiger, the team's DPS), and **Owlivia** (owl, the team's healer). They're the only playable characters — the build game is about their abilities, not roster choice. See the [Character Guide](/guides/character-guide).
 
 ### Is there a "best build"?
 Not yet — the full 30-skill roster isn't publicly documented, so no verified tier list exists. What's confirmed: cover all three roles, build synergies (setup → payoff), and keep survival power (heals, mitigation, cleanse) at least half your loadout. See the [Builds Guide](/guides/builds-guide).
@@ -80,7 +86,7 @@ Not yet — the full 30-skill roster isn't publicly documented, so no verified t
 Extraction games are designed to punish failed runs — anything not in the safe pocket is lost. There's no confirmed recovery system; the genre intent is that risk is real. Extract before quitting if you want to keep your haul.
 
 ### Are there regular updates?
-The developer (Eddie H. Hinestroza) is a solo developer who has been actively iterating through the demo era. Check the Steam page and community hub for patch notes — don't rely on third-party "event calendars."
+The developer (Eddie H. Hinestroza) is a solo developer who has been actively iterating through the demo era. Check the Steam page and community hub for patch notes — don't rely on third-party "event calendars." Post-launch, expect patches and balance changes from the developer, and bug fixes for issues surfaced during the demo era (like the healer-vs-healer infinite loop). Possible future content may be added over time, but nothing is announced.
 
 ### Where can I report bugs or give feedback?
 Use the **Steam Community Hub** for the game — the developer is responsive to feedback (demo-era issues like the healer-vs-healer infinite loop were community-reported).
@@ -89,7 +95,7 @@ Use the **Steam Community Hub** for the game — the developer is responsive to 
 **Unconfirmed.** Steam Deck support hasn't been announced. The game is Windows 64-bit only.
 
 ### Are reviews good?
-At the time of writing the game holds a **"Mixed" rating (67% positive of 37 reviews)** on Steam — typical for a new solo-dev release, and reviews may shift as patches land.
+Reviews were **mixed at the time of writing** — typical for a new solo-dev release, and they may shift as patches land. Check the game's store page for the current rating.
 
 ---
 
@@ -100,3 +106,4 @@ Check out our other guides:
 - [Character Guide](/guides/character-guide) — your three heroes
 - [Builds Guide](/guides/builds-guide) — build framework
 - [Extraction Guide](/guides/extraction-guide) — run survival
+- [Raid Progression Guide](/guides/raid-progression-guide) — quests as progression

@@ -3,14 +3,14 @@ title: "SpiritVale Farming & Resource Guide — Gold, Materials, and Efficient R
 description: "Complete farming guide for SpiritVale. Best classes for farming ranked in a tier list, top gold farming locations, material routes, and a daily/weekly farming checklist to maximize your earnings."
 category: "Guides"
 version: "EA"
-updated: "2026-07-18"
+updated: "2026-08-11"
 keywords: ["SpiritVale best farming class", "SpiritVale farming guide", "SpiritVale how to farm", "SpiritVale resource guide", "SpiritVale gold farming"]
 related: ["class-leveling-guide", "advanced-classes-guide", "builds-guide", "cards-guide"]
 ---
 
 # SpiritVale Farming & Resource Guide — Gold, Materials, and Efficient Routes
 
-**SpiritVale EA / Updated: July 18, 2026**
+**SpiritVale EA / Updated: August 11, 2026**
 
 Whether you are saving for a Necromancer unlock, buying endgame gear, or stockpiling crafting materials, efficient farming is the difference between grinding for days and progressing in hours. This guide breaks down the best farming classes, the most profitable locations per resource type, and a daily checklist to maximize your income.
 
@@ -23,7 +23,7 @@ Farming efficiency is measured by kills per hour, downtime between pulls, and th
 | Tier | Class | Kill Speed | Sustain | AoE Power | Best For |
 |------|-------|------------|---------|-----------|----------|
 | S | Mage → Wizard | ★★★★★ | ★★★ | ★★★★★ | General farming, materials |
-| S | Knight → Paladin | ★★★ | ★★★★★ | ★★★★ | 24/7 farming (zero downtime) |
+| S | Knight → Paladin | ★★★ | ★★★★★ | ★★★★ | Long sessions (zero downtime) |
 | A | Summoner → Necromancer | ★★★★ | ★★★★ | ★★★★ | Pet-assisted solo farming |
 | A | Warrior → Berserker | ★★★★ | ★★ | ★★★★ | Burst farming with potions |
 | B | Scout → Sniper | ★★★ | ★★★ | ★★ | Safe ranged farming |
@@ -42,39 +42,39 @@ Farming efficiency is measured by kills per hour, downtime between pulls, and th
 
 Killing monsters is the most consistent gold source. Every monster drops raw gold plus sellable loot.
 
-| Location | Level Range | Gold/Hour | Loot Value/Hour | Total/Hour |
-|----------|-------------|-----------|-----------------|------------|
-| Ironforge Mines | 25-32 | 1,200 | 1,800 | 3,000 |
-| Blackwater Marsh | 32-38 | 2,000 | 2,500 | 4,500 |
-| Frostpeak Tundra | 38-45 | 3,000 | 4,000 | 7,000 |
-| Shadowfen Depths | 45-50 | 5,000 | 6,500 | 11,500 |
-| Hall of the Ancients | 50+ (Advanced) | 8,000 | 12,000 | 20,000 |
+| Location | Level Range | Gold/Hour |
+|----------|-------------|-----------|
+| Ironforge Mines | 25-32 | Low |
+| Blackwater Marsh | 32-38 | Moderate |
+| Frostpeak Tundra | 38-45 | Good |
+| Shadowfen Depths | 45-50 | High |
+| Hall of the Ancients | 50+ (Advanced) | Best |
 
-**Strategy:** Sell all white (common) drops to NPC vendors. Blue (magic) and above items should be posted on the Player Market for 2-3x vendor price.
+**Strategy:** Sell all white (common) drops to NPC vendors. Blue (magic) and above items should be sold through the player market (vending stalls) for well above vendor price.
 
 ### 2. Player Market Trading
 
-The Player Market is SpiritVale's auction house. Profitable categories:
+The player market connects buyers and sellers through the vending stall system. Profitable categories:
 
 | Category | Buy Low From | Sell High To | Profit Margin |
 |----------|--------------|--------------|---------------|
-| Crafting Materials | Mob grinders | Crafters | 50-100% |
-| Enhancement Stones | Daily quest rewards | Endgame players | 100-200% |
-| Card Packs | Dungeon runs | New players | 30-50% |
-| Uncommon Gear | Ironforge Mines | Players skipping content | 40-80% |
+| Crafting Materials | Mob grinders | Crafters | High |
+| Refine Stones | Daily quest rewards | Endgame players | Very high |
+| Card Packs | Dungeon runs | New players | Moderate |
+| Uncommon Gear | Ironforge Mines | Players skipping content | Good |
 
-**Market tip:** Check prices at reset time (00:00 UTC). Prices are lowest on Monday mornings and highest on weekend evenings.
+**Market tip:** Check prices after the daily reset (05:00). Prices are lowest early in the week and highest on weekend evenings.
 
 ### 3. Daily Quest / Weekly Raid Rewards
 
-| Activity | Gold Reward | Time Required | Gold/Hour |
-|----------|-------------|---------------|-----------|
-| Daily Bulletin Board (3 quests) | 3,000 | 20 minutes | 9,000 |
-| Weekly Raid (complete) | 25,000 | 60 minutes | 25,000 |
-| Waystone Blessing Quest | 1,500 | 5 minutes | 18,000 |
-| Fishing Daily | 800 | 10 minutes | 4,800 |
+| Activity | Gold Reward | Time Required |
+|----------|-------------|---------------|
+| Daily Bulletin Board (3 quests) | Moderate | About 20 minutes |
+| Weekly raid (complete clear) | Large | About an hour |
+| Waystone Blessing Quest | Small | A few minutes |
+| Fishing Daily | Small | About 10 minutes |
 
-**Important:** Always complete the Waystone Blessing Quest. It takes 5 minutes and provides both gold and the XP buff you need for leveling.
+**Important:** Always complete the Waystone Blessing Quest. It takes a few minutes and provides both gold and the free XP buff you need for leveling.
 
 ---
 
@@ -84,46 +84,46 @@ The Player Market is SpiritVale's auction house. Profitable categories:
 
 | Material | Best Location | Drop Rate | Best Class | Uses |
 |----------|---------------|-----------|------------|------|
-| Iron Ore | Ironforge Mines — Crystal Golems | 45% | Mage | Weapon crafting |
-| Silk Thread | Blackwater Marsh — Marsh Serpents | 35% | Mage | Armor crafting |
-| Frost Crystal | Frostpeak Tundra — Ice Elementals | 30% | Knight | Enchanting |
-| Bone Fragment | Whisperwind Ruins — Undead Soldiers | 60% | Knight | Necromancer unlock |
-| Shadow Essence | Shadowfen Depths — Shadow Wraiths | 25% | Any | Potions, cards |
+| Iron Ore | Ironforge Mines — Crystal Golems | High | Mage | Weapon crafting |
+| Silk Thread | Blackwater Marsh — Marsh Serpents | Moderate | Mage | Armor crafting |
+| Frost Crystal | Frostpeak Tundra — Ice Elementals | Moderate | Knight | Refinement materials |
+| Bone Fragment | Whisperwind Ruins — Undead Soldiers | Very high | Knight | Necromancer unlock |
+| Shadow Essence | Shadowfen Depths — Shadow Wraiths | Low-moderate | Any | Potions, cards |
 
 ### Farming Routes (Optimized Loops)
 
 **Route 1: Ironforge Mining Loop (Level 25-32)**
 Best for: Iron Ore, gold, leveling alts
 1. Start at Ironforge Outpost Waystone
-2. Run east to Crystal Golem spawn (6 spawns)
+2. Run east to the Crystal Golem spawn cluster
 3. Clear east, loop back west through Tunnel B
-4. 3 Crystal Golem spawns in Tunnel B (including one named elite, "Crust")
-5. Run south to golem bridge (4 spawns)
+4. Several Crystal Golem spawns in Tunnel B (including a named elite)
+5. Run south to the golem bridge
 6. Return to Waystone, sell, repeat
-- **Time per loop:** 8-10 minutes
-- **Iron Ore per hour:** ~120
+- **Time per loop:** About 10 minutes
+- **Iron Ore per hour:** A good haul
 
 **Route 2: Frostpeak Crystal Run (Level 38-45)**
 Best for: Frost Crystals, high gold
 1. Start at Frostpeak Village Waystone
-2. North to Ice Elemental field (8 spawns, highest density)
-3. Continue north to Frozen Cave (3 spawns + treasure chest spawn)
+2. North to the Ice Elemental field (highest density)
+3. Continue north to the Frozen Cave (several spawns + a treasure chest spawn)
 4. Return south past Frostpeak Village to the glacier
-5. 5 Ice Elemental spawns on glacier edge
+5. More Ice Elemental spawns on the glacier edge
 6. Waystone back to Frostpeak Village
 - **Time per loop:** 12-15 minutes
-- **Frost Crystals per hour:** ~80
+- **Frost Crystals per hour:** A solid stack
 
 **Route 3: Shadowfen Essence Farm (Level 45-50)**
 Best for: Shadow Essence, late-game gold
 1. Start at Shadowfen Depths Waystone
-2. Entrance hall (4 Shadow Wraith spawns)
-3. Central chamber (6 spawns + rare boss "Umbral Lord" chance)
-4. East corridor (3 spawns)
-5. West corridor (3 spawns)
+2. Entrance hall (several Shadow Wraith spawns)
+3. Central chamber (more spawns + a rare elite boss chance)
+4. East corridor
+5. West corridor
 6. Repeat from entrance
-- **Time per loop:** 10-12 minutes
-- **Shadow Essence per hour:** ~60
+- **Time per loop:** About 10 minutes
+- **Shadow Essence per hour:** A modest stack — it is the rarest of the group
 
 ---
 
@@ -147,14 +147,14 @@ Knight cannot group-pull as effectively but can chain-pull indefinitely:
 1. Pull 3-4 mobs with Shield Bash
 2. Kill with Retribution Aura + auto attacks
 3. No pause between pulls — your HP regen handles the damage between packs
-4. Sell once inventory is full (every 20-30 minutes)
+4. Sell once inventory is full (every half hour or so)
 
 **Key stats:** HP regen > Defense > Attack speed. Slot HP regen cards and food buffs.
 
 ### Pet Farming (Summoner / Necromancer)
 
 1. Send pet to engage mob from max range
-2. Debuff with Dark Bolt while pet tanks
+2. Debuff with Dissonance Well while pet tanks
 3. Pet draws aggro — you take zero damage
 4. Resummon pet when HP drops below 30%
 5. Repeat
@@ -169,9 +169,9 @@ Knight cannot group-pull as effectively but can chain-pull indefinitely:
 
 | Task | Time | Reward | Priority |
 |------|------|--------|----------|
-| Waystone Blessing Prayer | 2 min | +30% XP buff | ★ High |
-| Bulletin Board (3 daily quests) | 15 min | 3,000 gold | ★ High |
-| Fishing Daily | 8 min | 800 gold + fish materials | ★ Medium |
+| Waystone Blessing | 2 min | Free XP buff | ★ High |
+| Bulletin Board (3 daily quests) | 15 min | Moderate gold | ★ High |
+| Fishing Daily | 8 min | Small gold + fish materials | ★ Medium |
 | Card Pack Vendor | 2 min | Free common card pack | ★ High |
 | Gather from 3 resource nodes | 3 min | Random materials | ★ Low |
 
@@ -179,24 +179,23 @@ Knight cannot group-pull as effectively but can chain-pull indefinitely:
 
 | Task | Time | Reward | Priority |
 |------|------|--------|----------|
-| Weekly Raid (full clear) | 1 hour | 25,000 gold + raid gear | ★ High |
-| Weekly Dungeon Challenge | 30 min | 5,000 gold + enhancement stones | ★ High |
-| PvP Weekly (5 matches) | 30 min | 3,000 PvP tokens → sell gear | ★ Medium |
-| Crafting Guild turn-in | 10 min | 2,000 gold + guild reputation | ★ Medium |
-| Fishing Weekly (rare fish) | 30 min | 10,000 gold (rare fish on market) | ★ Low |
+| Weekly raid (full clear) | 1 hour | Large gold + raid gear | ★ High |
+| Weekly Dungeon Challenge | 30 min | Moderate gold + Refine Stones | ★ High |
+| PvP Weekly (5 matches) | 30 min | Arena tokens → gear | ★ Medium |
+| Crafting Guild turn-in | 10 min | Moderate gold + guild reputation | ★ Medium |
+| Fishing Weekly (rare fish) | 30 min | Rare fish sell well on the market | ★ Low |
 
-### Optimal Weekly Income
+### Weekly Income Expectations
 
 | Source | Gold |
 |--------|------|
-| Daily quests (7 days) | 21,000 |
-| Waystone quests (7 days) | 10,500 |
-| Weekly raid | 25,000 |
-| Weekly dungeon challenge | 5,000 |
-| PvP weekly tokens | ~3,000 |
-| Mob grinding (5 hours) | ~55,000 |
-| Material sales (Player Market) | ~20,000-50,000 |
-| **Total (estimate)** | **~140,000-170,000** |
+| Daily quests (7 days) | Steady, moderate |
+| Waystone quests (7 days) | Small, free |
+| Weekly raid | The single largest chunk |
+| Weekly dungeon challenge | Moderate |
+| PvP weekly tokens | Small-medium |
+| Mob grinding (5 hours) | The bulk of your raw gold |
+| Material sales (player market) | Highly variable, often large |
 
 ---
 
@@ -207,14 +206,14 @@ Knight cannot group-pull as effectively but can chain-pull indefinitely:
 - **Stack movement speed.** Every second spent running between packs is lost farming time.
 - **Use loot filters.** Configure your settings to auto-junk gray items below vendor threshold.
 - **Farm in off-peak hours.** Fewer players = less competition for spawns. Morning (your timezone) is best.
-- **Sell enhancement stones immediately.** Their price drops 20% every week after initial release of new content.
+- **Sell Refine Stones you don't need.** Their price falls after new content releases — don't sit on excess.
 
 ### Don't
 
-- **Don't vendor blue items.** Always list them on the Player Market. Even mediocre blue gear sells for 3-5x vendor price.
+- **Don't vendor blue items.** Always sell them through the player market. Even mediocre blue gear sells for well above vendor price.
 - **Don't skip the Waystone Blessing.** It's free and the XP buff directly increases your farming efficiency.
-- **Don't farm the same spot for 3+ hours.** Spawn timers get slightly randomized after extended camping. Rotate between 2 routes.
-- **Don't buy gear from NPCs.** All NPC gear is overpriced. Player Market is 40-60% cheaper for equivalent items.
+- **Don't camp one spot too long.** Spawn timers get slightly randomized after extended camping. Rotate between 2 routes.
+- **Don't buy gear from NPCs.** All NPC gear is overpriced — the player market is much cheaper for equivalent items.
 
 ---
 

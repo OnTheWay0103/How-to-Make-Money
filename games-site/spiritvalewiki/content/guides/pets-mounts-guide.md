@@ -3,14 +3,14 @@ title: "SpiritVale Pets and Mounts Guide — Companions, Customization, and Coll
 description: "Everything you need to know about pets and mounts in SpiritVale. Learn how to acquire, train, and customize your companions while unlocking the fastest mounts in the game."
 category: "Guides"
 version: "EA"
-updated: "2026-07-27"
+updated: "2026-08-11"
 keywords: ["SpiritVale pets", "SpiritVale mounts", "SpiritVale companions", "SpiritVale mount training", "SpiritVale pet collection"]
 related: ["farming-resource-guide", "solo-guide", "leveling-guide", "class-leveling-guide", "daily-quests-guide"]
 ---
 
 # SpiritVale Pets and Mounts Guide — Companions, Customization, and Collecting
 
-**SpiritVale EA / Updated: July 27, 2026**
+**SpiritVale EA / Updated: August 11, 2026**
 
 Pets and mounts are more than cosmetic in SpiritVale. Pets provide combat bonuses and utility skills, while mounts dramatically improve travel speed and unlock access to remote areas. This guide covers acquisition methods, training systems, and how to build the best collection.
 
@@ -24,20 +24,20 @@ Pets follow your character and provide passive stat bonuses alongside an active 
 
 | Rarity | Stat Bonus (Max Level) | Active Ability Slots | Acquisition Method |
 |--------|----------------------|---------------------|-------------------|
-| Common | +2% to one stat | 1 | Quest reward, vendor |
-| Uncommon | +5% to one stat | 1 | World drop |
-| Rare | +8% to one stat + secondary | 2 | Dungeon boss drop |
-| Epic | +12% to two stats | 2 | World boss, raid drop |
-| Legendary | +15% to two stats + special effect | 3 | Rare world spawn, events |
+| Common | Small bonus to one stat | 1 | Quest reward, vendor |
+| Uncommon | Modest bonus to one stat | 1 | World drop |
+| Rare | Larger bonus to one stat + secondary | 2 | Dungeon boss drop |
+| Epic | Large bonus to two stats | 2 | World boss, raid drop |
+| Legendary | Very large bonus to two stats + special effect | 3 | Rare world spawn, events |
 
 ### 1.2 Best Pet Types by Role
 
 | Role | Recommended Pet | Bonus Provided |
 |------|----------------|---------------|
-| Tank | Iron Shell Turtle | +12% Defense, Shield Bash active |
-| DPS | Ember Fox | +12% Crit Chance, Fire Breath active |
-| Healer | Luminous Sprite | +12% Healing, Cleanse active |
-| Support | Wind Runner Cub | +10% Movement Speed, Group Buff active |
+| Tank | Iron Shell Turtle | Large defense bonus, Shield Bash active |
+| DPS | Ember Fox | Large crit chance bonus, Fire Breath active |
+| Healer | Luminous Sprite | Large healing bonus, Cleanse active |
+| Support | Wind Runner Cub | Movement speed bonus, Group Buff active |
 
 ---
 
@@ -47,19 +47,19 @@ Pets level up through combat experience. At max level, they can evolve to unlock
 
 ### 2.1 Leveling Table
 
-| Pet Level | XP Required | Cumulative XP | Stat Bonus Growth |
-|-----------|------------|---------------|-------------------|
-| 1–10 | 500 per level | 5,000 | +0.5% per level |
-| 11–20 | 1,500 per level | 15,000 | +1% per level |
-| 21–30 | 4,000 per level | 40,000 | +1.5% per level |
-| 31–40 | 10,000 per level | 100,000 | +2% per level |
+| Pet Level | XP Required | Stat Bonus Growth |
+|-----------|------------|-------------------|
+| 1–10 | Low per level | Small growth per level |
+| 11–20 | Moderate per level | Modest growth per level |
+| 21–30 | High per level | Larger growth per level |
+| 31–40 | Very high per level | Largest growth per level |
 
 ### 2.2 Evolution Requirements
 
-- **Common to Uncommon:** Level 20 + Evolution Stone x3
-- **Uncommon to Rare:** Level 30 + Evolution Stone x10 + Gold
-- **Rare to Epic:** Level 40 + Evolution Stone x25 + Rare Crystal
-- **Epic to Legendary:** Level 50 + Evolution Stone x50 + Mythic Core
+- **Common to Uncommon:** Level 20 + a few Evolution Stones
+- **Uncommon to Rare:** Level 30 + a good number of Evolution Stones + Gold
+- **Rare to Epic:** Level 40 + a large number of Evolution Stones + a Rare Crystal
+- **Epic to Legendary:** Level 50 + a very large number of Evolution Stones + a Mythic Core
 
 ---
 
@@ -71,20 +71,20 @@ Mounts provide significant movement speed bonuses and, for rare varieties, comba
 
 | Speed Tier | Base Speed | Sprint Speed | Example Mounts |
 |------------|-----------|-------------|---------------|
-| Basic | +40% | +60% | Tamed Horse, Riding Ram |
-| Advanced | +60% | +90% | Swift Stag, Armored Wolf |
-| Epic | +80% | +120% | Shadow Panther, Crystal Drake |
-| Legendary | +100% | +150% | Celestial Griffin, Void Serpent |
+| Basic | Modest | Stronger | Tamed Horse, Riding Ram |
+| Advanced | Good | Much stronger | Swift Stag, Armored Wolf |
+| Epic | Fast | Very strong | Shadow Panther, Crystal Drake |
+| Legendary | Very fast | The strongest | Celestial Griffin, Void Stalker |
 
 ### 3.2 Mount Acquisition
 
 | Method | Example Mount | Difficulty | Time Investment |
 |--------|--------------|------------|----------------|
-| Stable Purchase | Tamed Horse | Very Easy | 5 minutes |
-| Quest Chain | Swift Stag | Easy | 2–3 hours |
-| Reputation Grind | Armored Wolf | Medium | 1–2 weeks |
+| Stable Purchase | Tamed Horse | Very Easy | Minutes |
+| Quest Chain | Swift Stag | Easy | A few hours |
+| Reputation Grind | Armored Wolf | Medium | One to two weeks |
 | Dungeon Drop | Shadow Panther | Hard | Variable |
-| Raid Achievement | Celestial Griffin | Very Hard | 1–3 months |
+| Raid Achievement | Celestial Griffin | Very Hard | A long-term goal |
 
 ---
 
@@ -94,33 +94,33 @@ Once acquired, mounts can be trained to improve speed and unlock cosmetic varian
 
 ### 4.1 Mount Training Tiers
 
-| Training Level | Speed Bonus | Materials Required | Time |
-|---------------|------------|-------------------|------|
-| Basic | +10% sprint speed | Gold 500 | Instant |
-| Advanced | +20% sprint speed | Training Manual x5 | 1 hour |
-| Expert | +30% sprint speed | Training Manual x15 + Rare Herb | 4 hours |
-| Master | +40% sprint speed, reduced stamina drain | Training Manual x30 + Elixir | 12 hours |
+| Training Level | Sprint Speed Bonus | Materials Required | Time |
+|---------------|-------------------|-------------------|------|
+| Basic | Small | A small gold fee | Instant |
+| Advanced | Moderate | A few Training Manuals | About an hour |
+| Expert | Strong | More Training Manuals + Rare Herbs | Several hours |
+| Master | Largest, reduced stamina drain | Many Training Manuals + an Elixir | About half a day |
 
 ### 4.2 Cosmetic Customization
 
 - **Armor Sets:** Increases mount defense (reduced dismount chance from enemy attacks).
 - **Saddle Bags:** Adds inventory slots while mounted.
-- **Dye System:** Customize your mount's color using dyes crafted or purchased from the Auction House.
+- **Dye System:** Customize your mount's color using dyes crafted or bought from player stalls.
 - **Mount Flourishes:** Unlock special animations (rear, roar, glow) from achievements.
 
 ---
 
 ## 5. Collector's Checklist
 
-For completionists, SpiritVale has over 40 pets and 25 mounts to collect.
+For completionists, SpiritVale has dozens of pets and mounts to collect.
 
 | Collection Milestone | Reward |
 |--------------------|--------|
-| 10 Pets Collected | Pet XP Boost Scroll x5 |
-| 25 Pets Collected | Legendary Pet Cache (one random) |
-| All Pets Collected | Title: "Master Collector" + Pet Cosmetic |
-| 10 Mounts Collected | Mount Speed Scroll (permanent +5%) |
-| 20 Mounts Collected | Exclusive Mount: Primal Unicorn |
+| A handful of pets collected | Pet XP Boost Scrolls |
+| Many pets collected | Legendary Pet Cache (one random) |
+| All pets collected | Title: "Master Collector" + Pet Cosmetic |
+| A handful of mounts collected | Mount Speed Scroll (permanent small speed boost) |
+| Many mounts collected | Exclusive Mount: Primal Unicorn |
 
 ---
 
@@ -129,7 +129,7 @@ For completionists, SpiritVale has over 40 pets and 25 mounts to collect.
 - **Level pets in low-level zones.** Pet XP scales with enemy level, but efficiency is higher in zones where you can one-shot enemies.
 - **Swap pets based on content.** Use tank pets for solo play and DPS pets for group content.
 - **Complete mount quests early.** Many mount quests require materials that are easier to gather at lower player levels.
-- **Check the Auction House for pets.** Breeders occasionally list rare pet eggs from world events at reasonable prices.
+- **Check player stalls for pets.** Breeders occasionally sell rare pet eggs from world events at reasonable prices.
 
 ---
 

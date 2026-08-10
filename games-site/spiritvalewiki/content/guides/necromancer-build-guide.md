@@ -3,8 +3,8 @@ title: 'SpiritVale Necromancer Build Guide — Best Necromancer Builds, Stats & 
 description: 'In-depth Necromancer build guide for SpiritVale. Minion Master, Death Nuke, and Scythe Reaper builds with full stat allocations, skill priorities, slot-by-slot gear, cards, and rotations for the S-tier Summoner path.'
 keywords: ['spiritvale necromancer build', 'best necromancer build spiritvale', 'spiritvale summoner build', 'spiritvale necromancer guide', 'spiritvale necromancer gear']
 category: Classes
-version: '1.0'
-updated: '2026-08-04'
+version: 'EA'
+updated: '2026-08-09'
 related:
   - summoner-guide
   - class-tier-list
@@ -14,9 +14,9 @@ related:
 
 ## Necromancer Build Overview
 
-The Summoner path is **S-tier "extremely OP"** in the current EA meta — the community consensus is that pets tanking while you debuff lets the class clear content well above its level. This guide goes beyond the class overview: three complete endgame Necromancer builds with exact stat plans, skill priorities, slot-by-slot gear, cards, artifacts, and rotations. The [Summoner & Necromancer Class Guide](/guides/summoner-guide) covers class mechanics and leveling 1-50; this guide is for the build decisions at Job Level 50 and beyond.
+The Summoner path is **S-tier "extremely OP"** in the current EA meta — the community consensus is that pets tanking while you debuff lets the class clear content well above its level. This guide goes beyond the class overview: three complete endgame Necromancer builds with stat plans, skill priorities, slot-by-slot gear, cards, artifacts, and rotations. The [Summoner & Necromancer Class Guide](/guides/summoner-guide) covers class mechanics and leveling 1-50; this guide is for the build decisions at Job Level 50 and beyond.
 
-**The one rule that shapes everything:** summons do **not** inherit your attribute points — they inherit your **equipment stats, artifact stats, cards, gems, enchantments, and autocast effects**. Two Necromancers with the same INT but different gear can have wildly different pets. Gear first, stats second.
+**The one rule that shapes everything:** summons do **not** inherit your attribute points — they inherit your **equipment stats, artifact stats, cards, gems, refinement, and autocast effects**. Two Necromancers with the same INT but different gear can have wildly different pets. Gear first, stats second.
 
 ## The Three Necromancer Archetypes
 
@@ -47,7 +47,7 @@ The community's favorite. Your summons do the damage and take the hits; you stan
 | 3 | **Summon Mastery (max)** | Now that your gear feeds summons, max it |
 | 4 | **Bone Spear** | Decay-applying filler for when you need to contribute damage |
 | 5 | **Corpse Explosion** | Burst damage from defeated enemies — huge in farm pulls |
-| 6 | **Suppression Field** | 100% silence vs. mobs at level 5 — stops casts, locks down packs |
+| 6 | **Suppression Field** | Seals casting on most non-boss enemies — stops casts, locks down packs |
 
 ### Gear (slot-by-slot)
 
@@ -108,7 +108,7 @@ STR-scaling scythe Necromancer — the off-meta pick. Many magic skills double-s
 
 ### Skills & Gear
 - Skills: scythe attack skills first, Bone Spear second, Death Coil third
-- Gear: STR-scaling scythe, Corporeal artifact set, crit cards (Crawler/Lurker cards work)
+- Gear: STR-scaling scythe, Corporeal artifact set, crit cards
 - Playstyle: melee range with minions flanking — your summons take the hits while you swing
 
 **Honesty note:** this archetype is strong in theory and patch-dependent in practice. It rewards double-scaling when the balance is favorable and underperforms when it isn't. Build it because you enjoy it, not because it's the meta.
@@ -118,7 +118,7 @@ STR-scaling scythe Necromancer — the off-meta pick. Many magic skills double-s
 | Content | Best Build | Why |
 |---------|-----------|-----|
 | Farming / gold | Minion Master | Pets tank 8-10 levels of monsters above you; semi-AFK routes |
-| Dungeons / bossing | Minion Master | **Reanimate the Sting boss** once you can defeat it — the strongest early-endgame minion |
+| Dungeons / bossing | Minion Master | **Reanimate a powerful field boss** once you can defeat it — the strongest early-endgame minion |
 | Speed clears | Death Nuke | Death Nova + Corpse Explosion chains |
 | PvP | Minion Master | Pets are B-tier vs players — they die fast, so your pet pressure must be constant |
 | Group support | Any | Decay debuffs and Corpse Explosion add real group DPS |

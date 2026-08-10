@@ -2,10 +2,10 @@
 title: "Fishing System Guide — Locations, Bait, Rare Fish & Progression"
 description: "Complete fishing system guide for SpiritVale. Learn all fishing locations, bait types, rare fish locations, fishing quests, and how fishing contributes to crafting and character progression."
 category: "Guides"
-version: "1.0"
+version: "EA"
 updated: "2026-07-29"
 keywords: ["SpiritVale fishing guide", "SpiritVale bait types", "SpiritVale rare fish", "SpiritVale fishing locations", "SpiritVale fishing quests", "SpiritVale fishing rewards"]
-related: ["class-synergy", "raid-boss-guide", "farming-resource-guide", "crafting-guide"]
+related: ["party-composition", "raid-boss-guide", "farming-resource-guide", "crafting-guide"]
 ---
 
 ## Fishing System Guide — SpiritVale
@@ -32,11 +32,11 @@ SpiritVale has 7 major fishing zones, each with unique catch tables and difficul
 |-------------|----------|------------|-------------|-----------|-----------|
 | Vale's Rest Pond | Vale's Rest (starting area) | Easy | Bluegill, Mud Carp, River Snapper | Golden Koi | Earthworm |
 | Silvertide Harbor | Silvertide (coastal) | Easy-Medium | Silver Mackerel, Harbor Cod, Crab | Pearl Lobster | Shrimp Bait |
-| Whisperwind River | Whisperwind Forest | Medium | River Bass, Whisper Salmon, Forest Pike | Moonlight Trout | Crickets |
+| Whisperwind Plains | Whisperwind Plains | Medium | River Bass, Whisper Salmon, Forest Pike | Moonlight Trout | Crickets |
 | Ironforge Lake | Ironforge Outpost | Medium-Hard | Iron Scale, Lake Sturgeon, Obsidian Fish | Magma Carp | Iron Lure |
 | Glacier Stream | Glacier Sanctum entrance | Hard | Frost Perch, Ice Pike, Snow Carp | Crystal Sturgeon | Ice Worm |
 | Abyssal Coast | Abyssal Trench surface | Very Hard | Abyss Cod, Deep Eel, Shadow Ray | Void Serpent | Luminescent Bait |
-| Celestial Pond | Heaven's Reach (endgame) | Extreme | Star Koi, Cloud Fish, Astral Salmon | Celestial Serpent (special) | Starlight Lure |
+| Celestial Pond | Heaven's Reach (endgame) | Extreme | Star Koi, Cloud Fish, Astral Salmon | Astral Serpent (special) | Starlight Lure |
 
 ### Bait Types and Crafting
 
@@ -44,14 +44,14 @@ Bait determines which fish you attract and your catch rate. Higher-quality bait 
 
 | Bait Type | Source | Effect on Catch Rate | Unlock Level |
 |-----------|--------|---------------------|--------------|
-| Earthworm | Digging (any soil) | +0% rare rate, common fish only | 10 |
-| Crickets | Caught in fields (net) | +15% rare rate of zone-appropriate fish | 15 |
-| Shrimp Bait | Purchased (Fishing Guild, 50g) | +20% rare rate in coastal zones | 20 |
-| Iron Lure | Crafted (3 Iron Ore, 1 Feather) | +25% rare rate, attracts heavy fish | 25 |
-| Ice Worm | Glacier Stream fishing (rare drop) | +30% rare rate in cold zones | 35 |
-| Luminescent Bait | Crafted (2 Glowing Moss, 1 Abyss Essence) | +40% rare rate in dark zones | 45 |
-| Starlight Lure | Celestial quest reward | +50% rare rate, exclusive to Celestial Pond | 60 |
-| Master Bait | Fishing Guild reputation reward | +25% rare rate in ALL zones | Fishing Level 50 |
+| Earthworm | Digging (any soil) | Common fish only | 10 |
+| Crickets | Caught in fields (net) | Small boost to rare chances for zone fish | 15 |
+| Shrimp Bait | Purchased (Fishing Guild) | Modest boost to rare chances in coastal zones | 20 |
+| Iron Lure | Crafted (Iron Ore, Feather) | Good boost to rare chances, attracts heavy fish | 25 |
+| Ice Worm | Glacier Stream fishing (rare drop) | Strong boost to rare chances in cold zones | 35 |
+| Luminescent Bait | Crafted (Glowing Moss, Abyss Essence) | Very strong boost to rare chances in dark zones | 45 |
+| Starlight Lure | Celestial quest reward | The strongest rare boost, exclusive to Celestial Pond | 50+ |
+| Master Bait | Fishing Guild reputation reward | Good boost to rare chances in all zones | Fishing Level 50 |
 
 ### Rare Fish and Their Uses
 
@@ -61,11 +61,11 @@ Rare fish are not just for show. They serve concrete gameplay purposes:
 |-----------|-------------|-----|
 | Golden Koi | Vale's Rest Pond | Cooking recipe: Golden Soup (30-minute luck buff) |
 | Pearl Lobster | Silvertide Harbor | Crafting material: Pearl Shield (off-hand, Tank gear) |
-| Moonlight Trout | Whisperwind River | Alchemy: Moonlight Potion (invisibility for 10 seconds) |
+| Moonlight Trout | Whisperwind Plains | Alchemy: Moonlight Potion (brief invisibility) |
 | Magma Carp | Ironforge Lake | Crafting: Fire Resistance Ring |
 | Crystal Sturgeon | Glacier Stream | Alchemy: Ice Resistance Elixir |
-| Void Serpent | Abyssal Coast | Crafting: Void-touched weapon enchantment |
-| Celestial Serpent | Celestial Pond | Fishing achievement: "Heavenly Catch" + title reward |
+| Void Serpent | Abyssal Coast | Crafting: Void-touched weapon upgrade |
+| Astral Serpent | Celestial Pond | Fishing achievement: "Heavenly Catch" + title reward |
 
 ### Fishing Quests and Progression
 
@@ -85,7 +85,7 @@ The Fisherman's Guild offers a quest chain that unlocks new zones, better rods, 
 
 **Tier 4 Quests (Level 50+):**
 - "Abyssal Angler" — Catch the Void Serpent. Reward: Master Rod (best rod in the game)
-- "Heavenly Catch" — Reach Fishing Level 50 and catch the Celestial Serpent. Reward: "Angler of Legend" title
+- "Heavenly Catch" — Reach Fishing Level 50 and catch the Astral Serpent. Reward: "Angler of Legend" title
 
 ### Fishing Tips and Strategies
 
@@ -106,7 +106,7 @@ Fishing directly supports SpiritVale's crafting system:
 
 ### Related Guides
 
-- [Class Synergy Guide](/guides/class-synergy) — Build parties while you fish between runs
+- [Party Composition Guide](/guides/party-composition) — Build parties while you fish between runs
 - [Raid Boss Guide](/guides/raid-boss-guide) — Use fish-crafted consumables for raids
 - [Farming & Resource Guide](/guides/farming-resource-guide) — Complete resource gathering overview
 - [Crafting Guide](/guides/crafting-guide) — All crafting systems explained

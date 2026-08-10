@@ -30,10 +30,10 @@ It is a paid title. The Steam store page listed a launch price of **¥77 with a 
 No. The game is Steam-only, so cross-play is not applicable. Any future console versions would change this only if the developer adds it.
 
 ### Is there a demo?
-Yes — **Demo 2.0** is free on Steam. It covers the first of the six biomes and the first chapter of the story. Demo reviews were "Very Positive" (82% of 75).
+Yes — **Demo 2.0** is free on Steam. It covers the first of the six biomes and the first chapter of the story. The demo's Steam rating was "Very Positive" at the time of writing.
 
 ### How are the reviews?
-The demo was "Very Positive" at the time of writing, while the full game's launch reviews were **"Mixed" (64% positive of ~50 reviews)**. Read both before judging — the full game adds five biomes and most of the content, but launch-window technical issues can affect review scores.
+The demo's Steam rating was "Very Positive" at the time of writing, while the full game's launch rating trended **"Mixed"** — check the store page for the current numbers. Read both before judging — the full game adds five biomes and most of the content, but launch-window technical issues can affect review scores.
 
 ## Gameplay Questions
 
@@ -67,7 +67,7 @@ Yes. After a failed heist, your Renegades crew crash-lands near the dying planet
 ## Technical Questions
 
 ### What are the system requirements?
-**Minimum:** Windows 10, 2.4 GHz CPU, 4 GB RAM, integrated GPU (1024 MB) or better, DirectX 10, broadband, 2 GB storage. **Recommended:** Windows 11, 3.2 GHz CPU, 8 GB RAM, GeForce GTX 480 / Radeon HD 5870 or better, DirectX 11, 2 GB storage. 1080p / 16:9 recommended.
+As listed on the official Steam store page: **Minimum** — Windows 10, 2.4 GHz CPU, 4 GB RAM, integrated GPU (1024 MB) or better, DirectX 10, broadband, 2 GB storage. **Recommended** — Windows 11, 3.2 GHz CPU, 8 GB RAM, GeForce GTX 480 / Radeon HD 5870 or better, DirectX 11, 2 GB storage. 1080p / 16:9 recommended.
 
 ### Does it support controllers?
 **Not confirmed.** Controller support is not listed on the Steam feature list. Assume keyboard and mouse until verified.

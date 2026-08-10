@@ -2,15 +2,15 @@
 title: "Skills & Raids Skills Guide — Ability System Explained"
 description: "Complete guide to the skill system in Skills & Raids. How abilities work, two abilities per character, skill drops, the 5 rarity tiers, and how to build synergies."
 category: "Skills"
-version: "1.0"
-updated: "2026-08-01"
+version: "Current"
+updated: "2026-08-11"
 keywords: ["Skills & Raids skills guide", "Skills & Raids abilities", "Skills & Raids skill drops", "Skills & Raids skill rarity", "Skills & Raids skill combos", "Skills & Raids best skills"]
-related: ["character-guide", "best-skills-builds", "builds-guide", "beginner-guide"]
+related: ["character-guide", "builds-guide", "team-compositions-guide", "beginner-guide"]
 ---
 
 # Skills & Raids Skills Guide — The Ability System Explained
 
-**Skills & Raids 1.0 / Updated: August 1, 2026**
+**Updated: August 11, 2026**
 
 Skills are the heart of Skills & Raids — the game is literally built around them. Your heroes use abilities in real-time combat, enemies drop their own skills, and combining skills into builds is the main form of character progression. This guide explains everything that is publicly confirmed about the skill system, and clearly marks what is still unconfirmed.
 
@@ -107,5 +107,6 @@ The community is still documenting these — check back later or contribute find
 ## Next Steps
 
 - [Character Guide](/guides/character-guide) — who Shelldon, Clawrk, and Owlivia are, and what to equip them with.
-- [Best Skills & Builds Guide](/guides/best-skills-builds) — build framework and honest guidance without invented skill names.
+- [Builds Guide](/guides/builds-guide) — the full build framework and loadout guidance without invented skill names.
+- [Team Compositions Guide](/guides/team-compositions-guide) — how the fixed party works as a team.
 - [Beginner Guide](/guides/beginner-guide) — the full getting-started walkthrough.

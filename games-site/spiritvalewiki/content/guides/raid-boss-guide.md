@@ -2,10 +2,10 @@
 title: "Raid Boss Guide — Major Bosses, Patterns & Party Strategies"
 description: "Complete raid boss guide for SpiritVale. Learn major raid boss attack patterns, required group compositions, phase transitions, loot tables, and strategies to defeat every encounter."
 category: "Guides"
-version: "1.0"
+version: "EA"
 updated: "2026-07-29"
 keywords: ["SpiritVale raid boss guide", "SpiritVale boss strategies", "SpiritVale phase transitions", "SpiritVale party composition", "SpiritVale loot tables", "SpiritVale raid guide"]
-related: ["class-synergy", "class-leveling-guide", "endgame-guide", "beginner-guide"]
+related: ["party-composition", "class-leveling-guide", "endgame-guide", "beginner-guide"]
 ---
 
 ## Raid Boss Guide — SpiritVale
@@ -22,10 +22,10 @@ Raid bosses in SpiritVale are organized by difficulty tier. Each tier requires a
 | Corrupted Wyrm | Tier 1 | Silvertide Caverns | 3 | 4 players | 30 |
 | Frost Oracle | Tier 2 | Glacier Sanctum | 3 | 6 players | 40 |
 | Shadow Lich | Tier 2 | Bone Cathedral | 4 | 6 players | 45 |
-| Void Kraken | Tier 3 | Abyssal Trench | 4 | 8 players | 55 |
-| Phoenix Sovereign | Tier 3 | Solar Apex | 5 | 8 players | 60 |
-| Primordial Titan | Tier 4 | World Core | 5 | 10 players | 70 |
-| Celestial Serpent | Tier 4 | Heaven's Reach | 6 | 10 players | 75 |
+| Void Kraken | Tier 3 | Abyssal Trench | 4 | 8 players | 50 |
+| Phoenix Sovereign | Tier 3 | Solar Apex | 5 | 8 players | 50 |
+| Primordial Titan | Tier 4 | World Core | 5 | 10 players | 50+ |
+| Celestial Serpent | Tier 4 | Heaven's Reach | 6 | 10 players | 50+ |
 
 ### Tier 1 Raid Bosses
 
@@ -33,11 +33,11 @@ Raid bosses in SpiritVale are organized by difficulty tier. Each tier requires a
 
 The Stone Colossus is the introductory raid boss, designed to teach basic raid mechanics. It has 2 phases:
 
-- **Phase 1 (100%-50% HP):** The Colossus uses slow, telegraphed attacks. It stomps the ground creating shockwaves, swipes its massive arms in a 180-degree arc, and occasionally summons rock pillars from the ground.
+- **Phase 1 (Full HP):** The Colossus uses slow, telegraphed attacks. It stomps the ground creating shockwaves, swipes its massive arms in a 180-degree arc, and occasionally summons rock pillars from the ground.
   - **Key mechanic:** When it raises both arms, all players must move behind a rock pillar to avoid a room-wide blast.
   - **Strategy:** Spread out to avoid multiple players getting hit by the same shockwave. The Tank holds aggro at the boss's front while DPS attacks from the sides.
 
-- **Phase 2 (50%-0% HP):** The Colossus crumbles, revealing a crystalline core. It becomes enraged, attacking faster and adding a laser beam attack from its core.
+- **Phase 2 (Low HP):** The Colossus crumbles, revealing a crystalline core. It becomes enraged, attacking faster and adding a laser beam attack from its core.
   - **Key mechanic:** The laser beam tracks a random player. The targeted player must kite the beam away from the group.
   - **Loot:** Stoneheart Essence (used for Tier 1 equipment crafting), Colossus Gauntlets (Tank gloves).
 
@@ -92,7 +92,7 @@ A fire bird fought on a platform above the clouds:
 
 An ancient earth giant requiring 10-player coordination:
 
-- **Recommended composition:** 2 Tanks, 3 Healers, 5 DPS
+- **Recommended composition:** 2 Tanks, 3 Healers, 4 DPS, 1 Summoner
 - **Key phases:** Phase 1 has the Titan using earthquake and boulder toss. Phase 2 splits the party into two groups to handle separate adds. Phase 3 introduces gravity wells that pull players toward the Titan. Phase 4 has the Titan channeling a world-ending attack that requires all players to stack in a shield bubble. Phase 5 is a burn phase with lethal enrage timer.
 - **Loot:** Titan's Core (legendary crafting material), World Breaker (greatsword), Primordial Crown (Tank helmet).
 
@@ -100,7 +100,7 @@ An ancient earth giant requiring 10-player coordination:
 
 The current final raid boss of SpiritVale:
 
-- **Recommended composition:** 2 Tanks, 3 Healers, 5 DPS
+- **Recommended composition:** 2 Tanks, 3 Healers, 4 DPS, 1 Summoner
 - **Key phases:** 6 phases with unique mechanics including celestial alignment puzzles, starfall dodging, dimensional rifts, and a final phase where the Serpent splits into three celestial aspects.
 - **Strategy:** Phase 4's dimensional rift mechanic requires the most coordination. Assign pairs to enter rifts and close them simultaneously.
 
@@ -114,7 +114,7 @@ The current final raid boss of SpiritVale:
 
 ### Related Guides
 
-- [Class Synergy Guide](/guides/class-synergy) — Build optimal raid compositions
+- [Party Composition Guide](/guides/party-composition) — Build optimal raid compositions
 - [Endgame Guide](/guides/endgame-guide) — All endgame content explained
 - [Leveling Guide](/guides/leveling-guide) — Reach raid-ready levels faster
 - [Beginner Guide](/guides/beginner-guide) — First steps in SpiritVale

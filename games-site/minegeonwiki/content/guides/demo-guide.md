@@ -13,7 +13,7 @@ related:
 
 ## MineGeon: Renegades Demo Overview
 
-The free demo of MineGeon: Renegades (released as **Demo 2.0**) gives you a real slice of the full co-op mining roguelite before you buy. It was available on Steam before and after launch, and demo reviews were strong: **"Very Positive" (82% of 75 reviews)** at the time of writing — notably better than the full game's launch reception, which is worth knowing before you judge the game by reviews alone.
+The free demo of MineGeon: Renegades (released as **Demo 2.0**) gives you a real slice of the full co-op mining roguelite before you buy. It was available on Steam before and after launch, and the demo was well received on Steam — rated **"Very Positive"** at the time of writing, notably better than the full game's launch reception, which is worth knowing before you judge the game by reviews alone (check the store page for current ratings).
 
 ## How to Download the Demo
 
@@ -62,7 +62,7 @@ The free demo of MineGeon: Renegades (released as **Demo 2.0**) gives you a real
 2. **Learn the extraction rule.** Die with minerals in the demo enough times and the lesson sticks: extract early, extract often.
 3. **Practice bullet-hell fundamentals.** The demo's first biome is the gentlest the game gets — learn to dodge here.
 4. **Test co-op.** Invite a friend and learn the team rhythm — the full game's boss fights demand it.
-5. **Judge the full game fairly.** Demo reviews are stronger than full-game launch reviews. Read both before deciding — and remember the full game adds five biomes and most of the content.
+5. **Judge the full game fairly.** The demo's Steam rating was stronger than the full game's launch rating. Read both before deciding — and remember the full game adds five biomes and most of the content.
 
 ## After the Demo
 

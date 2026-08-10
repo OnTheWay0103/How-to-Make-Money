@@ -1,11 +1,11 @@
 ---
 title: 'Gadgets Guide — Grenades, Energy Shields & Combat Drones in MineGeon: Renegades'
-description: 'Complete gadgets guide for MineGeon: Renegades. 150+ unique gadgets including grenades, energy shields, and combat drones — how gadgets unlock, how they combine with weapons and ultimates, and the best gadget approach for every class.'
+description: 'Complete gadgets guide for MineGeon: Renegades. 150+ unique gadgets including grenades, energy shields, and combat drones — how gadgets unlock, how they combine with weapons and ultimates, area control, and the best gadget approach for every class.'
 category: Gadgets
 version: '1.0'
 updated: '2026-08-01'
-keywords: ['minegeon renegades gadgets', 'minegeon renegades best gadgets', 'minegeon gadgets guide', 'minegeon renegades best loadout', 'minegeon renegades gadgets and ultimates', 'minegeon renegades how to unlock gadgets']
-related: ['weapons-guide', 'class-builds', 'trap-guide', 'classes-guide']
+keywords: ['minegeon renegades gadgets', 'minegeon renegades best gadgets', 'minegeon gadgets guide', 'minegeon renegades best loadout', 'minegeon renegades gadgets and ultimates', 'minegeon renegades how to unlock gadgets', 'minegeon area control', 'minegeon renegades traps']
+related: ['weapons-guide', 'class-builds', 'classes-guide']
 ---
 
 # Gadgets Guide — Grenades, Shields & Drones in MineGeon: Renegades
@@ -115,6 +115,43 @@ Until the full catalog is documented, build around these confirmed archetypes:
 - Survive everything, kill slowly
 - Best for: Marshall mains, learning new biomes
 
+## Area Control: Shaping Space With Gadgets
+
+There is **no trap system** in MineGeon: Renegades — no spike traps, no turret skills, no trap skill trees. Those detailed "trap type" tables on other sites are invented. The *function* traps would serve — controlling space, denying approaches, covering your back — is the job of **gadgets**. Here's how the real game does area control.
+
+### 1. Control the room before you commit
+The classic mistake is mining first and fighting later. The area-control player:
+- Enters a room and identifies the threats
+- Uses a grenade to break the swarm's grouping
+- Mines with a drone covering the approach
+- Keeps the shield for the "oh no" moment
+
+### 2. Control the chokepoint
+Minegeon geometry is your ally:
+- Fight in corridors where enemies arrive one at a time
+- Grenade the crowd as it rounds the corner
+- A drone in the corridor turns it into a kill lane while you mine the room beyond
+
+### 3. Control the escape
+Area control is defensive too:
+- **Always have a grenade for the escape.** The most valuable grenade is the one that breaks the pursuing swarm at the extraction door
+- **Shield for the channel.** If extraction has a channel/activate moment, the shield is its best friend
+- **Drones hold the rear.** Solo, a drone covering your exit is the closest thing to a teammate
+
+### Area control by class
+
+| Renegade | Area-Control Style |
+|----------|--------------------|
+| Marshall (Tank) | Control *position* — hold a spot, let enemies come to you, break groups with grenades |
+| Trevor (Gunslinger) | Control *range* — grenades keep pressure off you while you kite and shoot |
+| Ari (Engineer) | Control *everything* — the balanced class gets the most from a mixed gadget bag |
+
+### Co-op area control
+- **Designate the controller.** One player's gadget job is space — the team follows their calls
+- **Grenade the boss adds.** Swarms summoned in boss fights are the classic area-control moment
+- **Cover the reviver.** The player reviving a teammate is the most exposed position on the map — shield or grenade cover makes revives possible
+- **Split gadget roles:** one offensive (grenades), one defensive (shields), one autonomous (drones)
+
 ## Gadget Progression
 
 Gadgets unlock through **leveling during runs** — the deeper and longer your run, the more of the catalog you see. Progression advice:
@@ -131,6 +168,9 @@ Gadgets unlock through **leveling during runs** — the deeper and longer your r
 3. **No offense.** All-defense loadouts can't clear rooms — balance the families
 4. **Ignoring drones.** The most underrated family early on; they literally fight for you
 5. **Saving the ultimate forever.** Ultimates are the third pillar — boss arenas are their home, not storage
+6. **Wasting shields early.** Shields are panic buttons — using them in calm rooms leaves you naked in boss fights
+7. **Drones without a plan.** A drone mines with you only if you're mining — place it with intent
+8. **Trusting trap tables.** No traps exist. Anyone selling you a "trap type" table with damage numbers is selling fiction
 
 ## Gadget FAQ
 
@@ -141,7 +181,7 @@ Unlocks via leveling persist in the sense that leveled characters can access mor
 The catalog is shared, but role fit differs — Marshall gets more from shields, Trevor from survival tools, Ari from the mixed bag.
 
 ### Are there "trap" gadgets?
-The game has no trap system. Area-denial is done with grenades and similar gadgets — see our [Area Control Guide](/guides/trap-guide) for the full picture.
+The game has no trap system. Area-denial is done with grenades and similar gadgets — see the Area Control section above.
 
 ### What are ultimates?
 Each Renegade has its own ultimate ability — a signature power that changes combat approach. Ultimates are the third pillar of builds alongside weapons and gadgets.
@@ -154,5 +194,4 @@ Think of gadgets as your answers to the question the game keeps asking: **"what 
 
 - [Weapons Guide](/guides/weapons-guide) — the other half of every loadout
 - [Class Builds Guide](/guides/class-builds) — role-based build archetypes
-- [Area Control Guide](/guides/trap-guide) — grenades, shields, and drones in action
 - [Classes Guide](/guides/classes-guide) — who uses what

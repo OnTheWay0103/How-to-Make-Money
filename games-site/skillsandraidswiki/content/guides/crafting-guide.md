@@ -2,15 +2,15 @@
 title: "Skills & Raids Crafting Guide — Turning Resources Into Gear and Skills"
 description: "Crafting guide for Skills & Raids. What the crafting system does, how extracted resources become equipment and skills, and how to spend resources wisely."
 category: "Crafting"
-version: "1.0"
-updated: "2026-08-01"
+version: "Current"
+updated: "2026-08-11"
 keywords: ["Skills & Raids crafting guide", "Skills & Raids how to craft", "Skills & Raids materials", "Skills & Raids recipes", "Skills & Raids gear"]
 related: ["extraction-guide", "loot-guide", "skills-guide", "beginner-guide"]
 ---
 
 # Skills & Raids Crafting Guide — Turning Resources Into Gear and Skills
 
-**Skills & Raids 1.0 / Updated: August 1, 2026**
+**Updated: August 11, 2026**
 
 Crafting is one of the two confirmed sinks for extracted resources in Skills & Raids (the other is quests). The Steam page is explicit: extracted resources are used to **"craft equipment and skills."** Everything beyond that — recipes, materials, costs — is not publicly documented, and this guide honestly separates what is confirmed from what is not.
 

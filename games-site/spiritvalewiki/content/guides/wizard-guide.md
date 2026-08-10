@@ -1,10 +1,10 @@
 ---
 title: 'Mage & Wizard Guide — Best Wizard Build, Skills & Leveling in SpiritVale'
-description: 'Complete Mage and Wizard class guide for SpiritVale. Best Wizard builds for AoE clears, INT and DEX stat allocation, Thunder Storm skills, gear, and unlocking Wizard at Mystic Lake.'
+description: 'Complete Mage and Wizard class guide for SpiritVale. Best Wizard builds for AoE clears, INT stat allocation, elemental skills, gear, and unlocking the Wizard at Job Level 50.'
 keywords: ['spiritvale guide mage', 'spiritvale build wizard', 'spiritvale best wizard build', 'spiritvale build mage', 'spiritvale wizard skills']
 category: Classes
-version: '1.0'
-updated: '2026-08-01'
+version: 'EA'
+updated: '2026-08-09'
 related:
   - classes-guide
   - class-tier-list
@@ -22,14 +22,14 @@ The Mage is SpiritVale's ranged magic DPS class — a classic glass cannon with 
 |-----------|------------|
 | Best AoE clearing in the game | Lowest natural HP growth — very fragile |
 | Ranged safety | Mana-hungry; sustained fights are expensive |
-| Fast leveling and farming | Casting can be interrupted (before Free Cast) |
-| Scales hard with INT | Enemy resistances vary between biomes — need a mix of elements |
+| Fast leveling and farming | Casting can be interrupted |
+| Scales hard with INT | Enemy resistances vary between zones — need a mix of elements |
 
 ## Stat Allocation
 
 | Stat | Priority | Why |
 |------|----------|-----|
-| **INT** | Primary | +5% magic damage per point and a larger mana pool — push first |
+| **INT** | Primary | Raises magic damage and mana pool — push first |
 | **DEX** | Secondary | Reduces cast time so spells land more often |
 | **VIT** | Buffer | Enough to survive random hits — never leave it at zero |
 | **AGI** | Late | Faster movement and responsiveness |
@@ -41,62 +41,62 @@ The Mage is SpiritVale's ranged magic DPS class — a classic glass cannon with 
 
 | Skill | Role |
 |-------|------|
-| **Thunder Storm** | Primary damage skill — invest the most points; the heart of autocast builds |
-| **Static Field** | Autocasts on its own and boosts Thunder Storm |
-| **Free Cast** | Prevents casting interruption and allows moving while casting — essential for survival |
-| **Blink / Blink Step** | Teleport mobility to escape swarms |
-| **Elementalist / Elemental Exposure / Elemental Overload** | Boost magical output |
-| **Wand Mastery** | Raises magical attack |
-| **Increase Recovery** | Faster mana recovery |
-| **Fireball / Meteor / Earth Spikes** | Additional elemental damage — Meteor is a screen-clearing nuke |
-| **Firewall / Fire Pillar / Hydro / Arcane Sigil** | Zone control and utility |
+| **Fire Bolt** | Basic damage spell — your bread and butter |
+| **Flamestrike** | AoE fire damage — the core farming skill |
+| **Frost Nova** | Freeze enemies around you — crowd control and escape |
+| **Meteor Shower** | Big AoE nuke — screen-clearing finisher |
+| **Intensify Magic** | Boosts your spell damage for a short time |
+| **Mana Font** | Restores mana over time |
+| **Blink** | Teleport mobility to escape swarms |
 
-**Core combo:** Thunder Storm on the pack → Static Field autocasts on top of it → finish with Meteor or Fireball. Free Cast is the most important survivability pickup — it turns you from a sitting duck into a mobile artillery platform.
+**Wizard skills (Job Level 50):** **Firestorm** (sustained AoE zone), **Arcane Nova** (burst around you), **Ice Barrier** (damage shield), **Mana Surge** (damage buff), and **Cataclysm** — the highest burst skill in the game.
+
+**Core combo:** Flamestrike on the pack → Meteor Shower to finish → Blink out if anything reaches you. Keep Blink leveled — it is the difference between a live Wizard and a corpse.
 
 ## Best Wizard Builds
 
 ### AoE Clear Build (Farming / Dungeons)
-- **Focus:** Maximum area damage with autocast synergy
-- **Skills:** Thunder Storm (max), Static Field (max), Free Cast, Meteor, Increase Recovery
-- **Gear:** **Triple Spark Skybreaker Staff** (farmable from level 25 — scales with INT and autocasts Static Field), **Spell Weaver artifact set** (10% cast speed per piece), **Wizardry Hat** (30% base cast speed), **Leaf Mask** (grants level 5 Heal), **Witch Step Boots** (15% cast speed, 10% movement speed)
-- **Playstyle:** Gather 8-12 mobs, kite them into a cluster, drop Thunder Storm + Static Field, finish with Meteor, loot, repeat
+- **Focus:** Maximum area damage
+- **Skills:** Flamestrike (max), Meteor Shower (max), Intensify Magic, Mana Font, Blink
+- **Gear:** Best staff with cast-speed and autocast effects; the **Void Staff** is the best-in-slot for Wizards
+- **Playstyle:** Gather 8-12 mobs, kite them into a cluster, drop Flamestrike, finish with Meteor Shower, loot, repeat
 
 ### Mobility Caster Build (Endgame / PvP)
 - **Focus:** Blink escapes and uninterrupted casting
-- **Skills:** Free Cast, Blink, Thunder Storm, Arcane Sigil
-- **Gear:** Spellthread set (defense, magic attack, movement speed), Arcanum artifact set (all-stat boost + magic damage per piece)
+- **Skills:** Blink, Frost Nova, Flamestrike, Firestorm, Mana Surge
+- **Gear:** Staff with cast speed; defensive armor pieces
 - **Playstyle:** Position aggressively, Blink out of danger, keep casting through damage
 
-**Elemental advice:** don't rely on a single element — monster resistances vary between biomes. Keep a mix of spells and adjust your equipment when a zone feels slow.
+**Elemental advice:** don't rely on a single element — monster resistances vary between zones. Keep a mix of spells and adjust your equipment when a zone feels slow.
 
 ## Mage & Wizard Leveling Guide (1-50)
 
 | Level Range | Area | Focus |
 |-------------|------|-------|
-| 1-15 | Starting zone | Learn Thunder Storm; always fight at max range |
-| 15-30 | Whisperwind Plains | AoE grind packs; farm the Skybreaker Staff at 25 |
+| 1-15 | Starting zone | Learn Fire Bolt; always fight at max range |
+| 15-30 | Whisperwind Plains | AoE grind packs |
 | 30-40 | Ironforge Mines / Blackwater Marsh | Density pulling — fastest XP in the game |
 | 40-50 | Frostpeak Tundra | Mana management practice; prep for Wizard at J50 |
 
-At **Job Level 50**, visit the **Wizard Master at Mystic Lake** to advance to **Wizard** (advanced job levels 1-70, new skill tree on top of your Mage tree).
+At **Job Level 50**, complete the **"Arcane Ascension"** quest chain from your class trainer to advance to **Wizard** and gain the Wizard skill tree on top of your Mage tree.
 
-**Leveling tips:** carry a full stack of mana potions — an empty MP bar is a dead Wizard. Pull with Thunder Storm, never facetank. If a pack reaches you, Blink out instead of trying to out-tank it.
+**Leveling tips:** carry a full stack of mana potions — an empty MP bar is a dead Wizard. Pull with Flamestrike, never facetank. If a pack reaches you, Blink out instead of trying to out-tank it.
 
 ## Wizard Gear
 
-| Slot | Best Item | Source |
-|------|-----------|--------|
-| Weapon | Triple Spark Skybreaker Staff | Farmable from level 25 |
-| Headgear | Wizardry Hat (30% cast speed) | Drops |
-| Face | Leaf Mask (level 5 Heal) | Drops |
-| Chest | Casting Chest — prevents cast interruption | Drops |
-| Shoes | Witch Step Boots — cast speed + movement | Drops |
-| Artifact | Spell Weaver set — 10% cast speed per piece | Artifact system |
-| Card | Goblin Warlock card — magic attack boost | Card system |
+| Slot | Recommendation | Source |
+|------|----------------|--------|
+| Weapon | Staff with INT and cast speed — Void Staff is best-in-slot | Drops, raids |
+| Headgear | Any +INT or cast-speed helm | Drops |
+| Armor | Robes with INT and mana regen | Drops |
+| Shoes | Boots with cast speed or movement | Drops |
+| Card | Magic attack and INT cards | Card system |
+
+There is no single best-in-slot list for Wizards in EA beyond the Void Staff — prioritize INT, cast speed, and mana regen.
 
 ## Wizard in PvP
 
-Wizard is a zone-control monster in the arena: Thunder Storm and Fire Pillar deny space, and Meteor punishes clumped teams. The weaknesses are real — low HP and vulnerability to stealth classes. Stay behind your frontline, save Blink for stealth reveals, and never fight in a corridor without a Firewall behind you.
+Wizard is a zone-control monster in the arena: Flamestrike and Firestorm deny space, and Meteor Shower punishes clumped teams. The weaknesses are real — low HP and vulnerability to stealth classes. Stay behind your frontline, save Blink for stealth reveals, and never fight without an escape route. See the [PvP Arena Guide](/guides/pvp-arena) for the full meta.
 
 ## Related Guides
 

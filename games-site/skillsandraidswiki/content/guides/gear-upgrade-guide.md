@@ -1,18 +1,18 @@
 ---
-title: "Skills & Raids Gear Guide — Rarity Tiers and Progression"
-description: "Gear guide for Skills & Raids. The five rarity tiers, how gear is obtained, and how to progress your equipment through crafting and quests."
+title: "Skills & Raids Gear Guide — Rarity Tiers, Weapons & Progression"
+description: "Gear and weapons guide for Skills & Raids. The five rarity tiers, what is confirmed about weapons and equipment, how gear is obtained, and how to progress your loadout through crafting and quests."
 category: "Guides"
-version: "1.0"
-updated: "2026-08-01"
-keywords: ["Skills & Raids gear upgrade", "Skills & Raids gear guide", "Skills & Raids equipment", "Skills & Raids rarity tiers", "Skills & Raids item progression"]
+version: "Current"
+updated: "2026-08-11"
+keywords: ["Skills & Raids gear upgrade", "Skills & Raids gear guide", "Skills & Raids equipment", "Skills & Raids rarity tiers", "Skills & Raids item progression", "Skills & Raids weapons", "Skills & Raids best weapons"]
 related: ["loot-guide", "crafting-guide", "builds-guide", "extraction-guide"]
 ---
 
-# Skills & Raids Gear Guide — Rarity Tiers and Progression
+# Skills & Raids Gear Guide — Rarity Tiers, Weapons & Progression
 
-**Skills & Raids 1.0 / Updated: August 1, 2026**
+**Updated: August 11, 2026**
 
-Gear is one of the two crafted outputs in Skills & Raids (alongside skills). The confirmed facts are simple — gear exists, uses five rarity tiers, and is crafted from extracted resources — and this guide builds honest progression advice on top of them without inventing enhancement systems, gem sockets, or refinement mechanics that aren't in the game.
+Gear is one of the two crafted outputs in Skills & Raids (alongside skills). The confirmed facts are simple — gear exists, uses five rarity tiers, and is crafted from extracted resources — and this guide builds honest progression advice on top of them without inventing weapon lists, enhancement systems, gem sockets, or refinement mechanics that aren't in the game.
 
 ---
 
@@ -30,9 +30,17 @@ Gear is one of the two crafted outputs in Skills & Raids (alongside skills). The
 - Any enhancement/upgrade system: **not confirmed** — the game's confirmed gear progression is crafting new gear, not upgrading existing pieces.
 - Gem sockets, set bonuses, refinement: **not confirmed** — guides that describe these are describing a different game.
 
+**A warning about fake gear guides:** some sites publish "best weapons" lists with named weapons (e.g., "Greatsword," "Holy Staff") and stat tables. These are fabricated — no verified source documents weapon types or stats for Skills & Raids. If a guide names a specific weapon or gear slot you can't match in-game, treat the whole guide as unreliable. The same applies to enhancement, gem sockets, and refinement systems — none are confirmed for this game.
+
 ---
 
-## 2. The Gear Progression Path (Confirmed-Safe)
+## 2. What the Demo Suggests (Not Confirmed)
+
+The demo (11 quests, 2 biomes, 15 skills, limited craftable equipment) suggests a small, focused early-game equipment pool — enough gear to cover the three heroes' basics without bloat. That is consistent with a solo-dev game of 2–5 hours of content: expect a compact gear catalog, not hundreds of items.
+
+---
+
+## 3. The Gear Progression Path (Confirmed-Safe)
 
 Since gear progression is crafting + quest unlocks, the path looks like this:
 
@@ -42,13 +50,13 @@ Since gear progression is crafting + quest unlocks, the path looks like this:
 | Early-Mid | Common + Uncommon | Craft Uncommon upgrades for core slots (heal, mitigation, damage) |
 | Mid | Uncommon + Rare | Deeper biome runs (5 biomes in the full game) + quest unlocks |
 | Late | Rare + Epic | Late quests and the hardest combat areas |
-| Endgame | Epic + Legendary | The final quests — including the content around "The Edge of the Abyss" |
+| Endgame | Epic + Legendary | The final quests and hardest content |
 
 This is deliberately conservative: the exact pace is unconfirmed, but the shape (craft → quest → deeper content) follows the confirmed systems.
 
 ---
 
-## 3. Upgrade Priority by Hero
+## 4. Upgrade Priority by Hero
 
 Rarity color matters less than role fit. Upgrade in this order:
 
@@ -63,7 +71,27 @@ Rarity color matters less than role fit. Upgrade in this order:
 
 ---
 
-## 4. Rarity Strategy
+## 5. Gear Decision Framework
+
+Without a documented item list, use these rules:
+
+1. **Role-fit first.** Whatever gear drops or is craftable, the question is: does it serve Shelldon's defense, Clawrk's damage, or Owlivia's healing?
+2. **Rarity second.** All else equal, higher rarity (Epic over Rare over Common) is the safe bet — but a Common item that fits beats a Rare that doesn't.
+3. **Heroes before items.** When upgrading, upgrade the heroes that matter most: Owlivia's survivability and healing first, Shelldon's defense second, Clawrk's damage third.
+4. **Quest-driven picks.** If a quest needs a specific ability or status, equip the gear that supports it — quest rewards are progression.
+
+### How to Evaluate Any Piece of Gear
+
+| Question | Good Answer |
+|----------|-------------|
+| Does it fit the hero's role? | Defense → Shelldon; damage → Clawrk; healing → Owlivia |
+| Is it high rarity? | Epic/Legendary > Rare > Uncommon > Common |
+| Does it enable a synergy? | Status/debuff-supporting effects feed Clawrk's rotations |
+| Is it worth the crafting cost? | Only craft what you'll use for several quests |
+
+---
+
+## 6. Rarity Strategy
 
 - **Higher rarity = better base stats** is the safe assumption (unconfirmed exact numbers).
 - **Effect fit beats color.** A Common item that serves the build beats a Rare that doesn't.
@@ -72,7 +100,7 @@ Rarity color matters less than role fit. Upgrade in this order:
 
 ---
 
-## 5. Gear and Quests
+## 7. Gear and Quests
 
 Quests unlock "new equipment and skills" (confirmed). Two implications:
 
@@ -81,7 +109,7 @@ Quests unlock "new equipment and skills" (confirmed). Two implications:
 
 ---
 
-## 6. Common Gear Mistakes
+## 8. Common Gear Mistakes
 
 | Mistake | Why It Hurts | Fix |
 |---------|-------------|-----|
@@ -93,12 +121,14 @@ Quests unlock "new equipment and skills" (confirmed). Two implications:
 
 ---
 
-## 7. What We're Tracking
+## 9. What We're Tracking
 
 - Verified weapon/armor type lists.
 - Whether gear affects abilities (e.g., cooldown, status strength).
 - Whether any rarity-upgrade mechanic exists beyond crafting.
 - Whether certain biomes drop higher-rarity gear.
+
+This guide will be updated with real weapon types, stats, and best-in-slot advice as soon as the equipment catalog is documented from the game itself. In the meantime, the decision framework above is all you need — it works with any item pool.
 
 ---
 

@@ -13,8 +13,8 @@ const FEATURED_GUIDES = [
 ];
 
 const FAQ_ITEMS = [
-  { question: 'What is Skills & Raids?', answer: 'Skills & Raids is a party-based extraction RPG by solo developer Eddie H. Hinestroza, released on Steam on July 27, 2026. You command a fixed party of three animal heroes — Shelldon the turtle tank, Clawrk the tiger DPS, and Owlivia the owl healer — in real-time ability-driven combat. Fight, extract resources, and craft gear and skills between runs.' },
-  { question: 'Is Skills & Raids free to play?', answer: 'No. It is a paid game on Steam (¥42.00, 20% intro discount until August 10, 2026). A free demo is available with 11 quests, 2 biomes, and 15 skills.' },
+  { question: 'What is Skills & Raids?', answer: 'Skills & Raids is a party-based extraction RPG by solo developer Eddie H. Hinestroza, available now on Steam. You command a fixed party of three animal heroes — Shelldon the turtle tank, Clawrk the tiger DPS, and Owlivia the owl healer — in real-time ability-driven combat. Fight, extract resources, and craft gear and skills between runs.' },
+  { question: 'Is Skills & Raids free to play?', answer: 'No. It is a paid game on Steam — check the official store page for current pricing and bundles. A free demo is available with 11 quests, 2 biomes, and 15 skills.' },
   { question: 'How does the extraction system work?', answer: 'You take your party into run-based expeditions, fight enemies, and collect resources — some enemies even drop their own skills. What you extract is used to craft equipment and skills or to complete quests. On a failed run, anything not kept in a safe pocket is lost forever.' },
   { question: 'What are the skill rarity tiers?', answer: 'Gear and skills come in 5 rarity tiers: Common, Uncommon, Rare, Epic, and Legendary. Higher rarities mean stronger gear and skills, and combining skills creates synergies — the game’s core build mechanic.' },
   { question: 'Is Skills & Raids single-player?', answer: 'Yes. The game is strictly single-player — you control the full party yourself. There is no multiplayer and no PvP. The game does support Steam Cloud and Family Sharing.' },
@@ -29,7 +29,7 @@ export default function Home() {
       <section className="relative py-20 md:py-28 px-4 text-center bg-gradient-to-b from-[#1a1a2e] to-[#0f0f23]">
         <h1 className="text-4xl md:text-5xl font-bold text-white mb-4 tracking-tight">Skills & Raids <span className="text-amber-400">Wiki</span></h1>
         <p className="text-lg text-gray-400 max-w-xl mx-auto mb-2">Complete guide hub for the team-based extraction RPG — builds, skills, extraction tips, crafting, and more.</p>
-        <p className="text-sm text-gray-600 mb-8">Now on Steam · Released July 27, 2026</p>
+        <p className="text-sm text-gray-600 mb-8">Now on Steam · Unofficial community wiki</p>
         <div className="flex items-center justify-center gap-4">
           <a href="https://store.steampowered.com/app/4401370/Skills__Raids/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-amber-500 hover:bg-amber-400 text-black font-semibold px-6 py-3 rounded-lg transition-colors text-sm">Get it on Steam</a>
           <Link href="/guides/beginner-guide" className="inline-flex items-center gap-2 border border-gray-600 hover:border-amber-500 text-gray-300 hover:text-amber-400 px-6 py-3 rounded-lg transition-colors text-sm">Start with Beginner Guide →</Link>

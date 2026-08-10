@@ -3,7 +3,7 @@ title: 'Combat & Controls Guide — Auto Attack, Stance & Dual Wield in SpiritVa
 description: 'Complete SpiritVale combat controls guide. How to auto attack with the C key, change stances, dual wield weapons, and fight effectively in real-time combat.'
 keywords: ['how to auto attack in spiritvale', 'how to change stance spiritvale', 'spiritvale how to dual wield', 'spiritvale combat controls', 'spiritvale controls guide']
 category: Beginner
-version: '1.0'
+version: 'EA'
 updated: '2026-08-01'
 related:
   - beginner-guide
@@ -30,13 +30,13 @@ The enemy you are currently looking at is "highlighted" on screen — most attac
 
 ## How Auto Attack Works
 
-A dedicated **auto attack hotkey was added in Update 0.15.0**, and it defaults to the **C key**.
+A dedicated **auto attack hotkey** defaults to the **C key**.
 
 - Press or hold **C** to auto attack the highlighted enemy.
 - Auto attack **automatically starts after you use a physical targeted attack skill** — so your skill rotation naturally flows into basic attacks.
 - Holding C keeps you swinging until the target dies or you move away.
 
-Auto attack matters most for **melee classes** (Knight, Warrior, Rogue) and for **farming weak monsters** without spending mana. Casters should treat C as a filler between skill cooldowns — your real damage comes from skills like Thunder Storm or Fireball, not your staff swings.
+Auto attack matters most for **melee classes** (Knight, Warrior, Rogue) and for **farming weak monsters** without spending mana. Casters should treat C as a filler between skill cooldowns — your real damage comes from skills like Meteor Shower or Holy Light, not your staff swings.
 
 **Tip:** When farming low-level mobs, hold C while your character runs between packs. You will chip down stragglers for zero mana cost.
 

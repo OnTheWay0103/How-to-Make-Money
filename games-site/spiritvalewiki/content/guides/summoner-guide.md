@@ -3,8 +3,8 @@ title: 'Summoner & Necromancer Guide — Best Summoner Build, Skills & Leveling 
 description: 'Complete Summoner and Necromancer class guide for SpiritVale. Best summoner builds, skill priority order, how summons scale with gear, and unlocking Necromancer at Job Level 50.'
 keywords: ['summoner guide spiritvale', 'summoner leveling guide spiritvale', 'spiritvale build summoner', 'spiritvale best summoner build', 'spiritvale summoner skills']
 category: Classes
-version: '1.0'
-updated: '2026-08-01'
+version: 'EA'
+updated: '2026-08-09'
 related:
   - classes-guide
   - class-tier-list
@@ -20,7 +20,7 @@ The Summoner fights alongside companions that absorb enemy pressure while you su
 
 This is the single most important thing to understand about the class:
 
-**Summons do NOT inherit your attribute points.** Instead, they inherit your **equipment stats, artifact stats, cards, gems, enchantments, and autocast effects**. Autocast effects on gear can even be triggered independently by your summons.
+**Summons do NOT inherit your attribute points.** Instead, they inherit your **equipment stats, artifact stats, cards, gems, refinement, and autocast effects**. Autocast effects on gear can even be triggered independently by your summons.
 
 The practical result: **gear matters more than your stat allocation** — two Summoners with the same INT but different equipment can have wildly different summons.
 
@@ -48,11 +48,11 @@ The practical result: **gear matters more than your stat allocation** — two Su
 | 2 | **Summon Angel** (3 points) | Healing companion that keeps you alive |
 | 3 | **Dissonance Well** (max) | Your main leveling skill — AoE damage plus slow |
 | 4 | **Invoker** | Aura boosting magic damage and casting speed |
-| 5 | **Suppression Field** | Pulls enemies in; can seal casting (100% silence vs. mobs at level 5) |
+| 5 | **Suppression Field** | Pulls enemies in; seals casting on most non-boss enemies |
 | 6 | **Guardian Bond** | Vitality + regeneration if your Angel keeps dying |
 | 7 | **Summon Mastery** | Hold off until your gear can feed it — summons scale off equipment |
 
-**Leveling rotation:** Dissonance Well on the pack → Suppression Field to pull and silence → Soul Strike stragglers while your pet tanks.
+**Leveling rotation:** Dissonance Well on the pack → Suppression Field to pull and lock down → Soul Strike stragglers while your pet tanks.
 
 ## Best Summoner Builds
 
@@ -64,7 +64,7 @@ The practical result: **gear matters more than your stat allocation** — two Su
 
 ### Auto-Attack Healing Farm Build (High-Level Grinding)
 - **Focus:** Let your summon hold aggro while you auto attack and procs heal — handles monsters 8-10 levels above you
-- **Gear:** Elixir Gourd (chance to cast Mass Heal on attack), Soul Binder Armor (+5 summon stats), Grouping Cat headgear (triggers Thunderbolt)
+- **Gear:** Elixir Gourd (chance to cast a group heal on attack), Soulbinder armor (boosts summon stats), Grouping Cat headgear (chance to trigger a lightning zap)
 - **Playstyle:** Stand behind the summon, auto attack, let heal procs carry you
 
 ### Direct-Nuke Build (Necromancer, Endgame)
@@ -81,7 +81,7 @@ The practical result: **gear matters more than your stat allocation** — two Su
 | 30-40 | Ironforge Mines / Blackwater Marsh | Invoker + Suppression Field; build Soulbinder set |
 | 40-50 | Shadowfen Depths | Prep for Necromancer advancement at J50 |
 
-At **Job Level 50**, travel to **Festering Woods** and find the **Necromancer Master** (top-right corner of the second map) to advance to **Necromancer** (advanced job levels 1-70, new skill tree on top of your Summoner tree).
+At **Job Level 50**, visit the **Summoner's Guild in Vale's Rest** and speak to **Master Theron** to start the **"The Awakening of the Dead"** quest chain and advance to **Necromancer** (you keep your Summoner tree and gain the Necromancer skills on top — the Job Level cap stays 50).
 
 ## Necromancer Skills & Minions
 
@@ -112,7 +112,7 @@ At **Job Level 50**, travel to **Festering Woods** and find the **Necromancer Ma
 | Artifact | Corporeal set — strengthens summons | Artifact system |
 | Card | Grim Reaper card | Card system |
 
-**Endgame tip:** once you can reliably defeat the Sting boss, make it your primary reanimation target — it is the strongest early-endgame minion you can field.
+**Endgame tip:** once you can reliably defeat a powerful field boss, make it your primary reanimation target — the strongest early-endgame minions come from field bosses.
 
 ## Solo Play
 

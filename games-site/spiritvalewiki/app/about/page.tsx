@@ -12,28 +12,33 @@ export default function AboutPage() {
 
       <h2>Who We Are</h2>
       <p>
-        SpiritVale Wiki is an <strong>unofficial fan-made resource</strong> dedicated to "SpiritVale," the co-op creature collection RPG.
+        SpiritVale Wiki is an <strong>unofficial fan-made resource</strong> dedicated to SpiritVale — a free-to-play, class-based MMORPG inspired by Ragnarok Online, available now on Steam Early Access.
       </p>
       <p>
-        We are a small team of passionate gamers who create comprehensive guides, strategies, and resources to help players master the game. Our mission is to be the most helpful and up-to-date guide resource for the SpiritVale community.
+        We are a small team of passionate players who create comprehensive guides, strategies, and resources to help the SpiritVale community. The game features 7 base classes, 8 advanced specializations, 227 cards, 35+ maps, and 20+ bosses — and we cover all of it.
       </p>
 
       <h2>What We Offer</h2>
       <ul>
-        <li><strong>Game Guides:</strong> Beginner walkthroughs, mechanics deep-dives, and leveling strategies</li>
-        <li><strong>Boss Strategies:</strong> Detailed tactics for every boss and elite encounter</li>
-        <li><strong>Builds & Loadouts:</strong> Optimal weapon combinations, skill trees, and gear recommendations</li>
-        <li><strong>Regular Updates:</strong> Content updated as the game receives patches and new content</li>
+        <li><strong>Class Guides:</strong> Deep-dives for all 7 base classes and 8 advanced specializations, including builds and stat allocation</li>
+        <li><strong>Boss Strategies:</strong> Mechanics, safe zones, and loot for field bosses, dungeon bosses, world bosses, and the 4-tier raid system</li>
+        <li><strong>Systems Guides:</strong> Cards, crafting and refinement, fishing, pets and mounts, trading, and the daily/weekly loops</li>
+        <li><strong>Regular Updates:</strong> Content revised as the game changes during Early Access</li>
       </ul>
 
-      <h2>Our Content</h2>
+      <h2>How We Research Content</h2>
       <p>
-        All guides and articles on this site are written based on hands-on gameplay experience, community research, and careful testing. We strive for accuracy, but game mechanics may change with updates. If you spot an error, please let us know via our <a href="/contact">Contact page</a>.
+        Our guides are built from hands-on gameplay, official Steam patch notes, developer announcements, Steam Community discussions, player reports, and community consensus. We cross-check information across multiple sources before publishing, and we update guides when the game changes.
+      </p>
+
+      <h2>Editorial Standards</h2>
+      <p>
+        We aim for accuracy over volume. Where the community disagrees with a guide, we revise it. Where the game changes, we update it. If you spot an error or outdated information, please let us know via our <a href="/contact">Contact page</a> — every correction is reviewed and applied.
       </p>
 
       <h2>Disclaimer</h2>
       <p>
-        <strong>SpiritVale Wiki is not affiliated with, endorsed by, or connected to the developers or publishers of SpiritVale.</strong> All game-related trademarks, images, and content are the property of their respective owners. This site is an independent fan project created to support the game's community.
+        <strong>SpiritVale Wiki is not affiliated with, endorsed by, or connected to the developers or publishers of SpiritVale.</strong> All game-related trademarks, images, and content are the property of their respective owners. This site is an independent, unofficial fan project created to support the game's community, and game mechanics may change with updates.
       </p>
     </div>
   );

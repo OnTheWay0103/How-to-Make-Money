@@ -2,15 +2,15 @@
 title: "Skills & Raids Maps Guide — Biomes and Combat Areas"
 description: "Maps guide for Skills & Raids. What we know about the 5 biomes, the 2 demo biomes, combat areas with unique skill mechanics, and how to navigate runs."
 category: "Maps"
-version: "1.0"
-updated: "2026-08-01"
+version: "Current"
+updated: "2026-08-11"
 keywords: ["Skills & Raids maps", "Skills & Raids biomes", "Skills & Raids combat areas", "Skills & Raids run navigation", "Skills & Raids secrets"]
 related: ["extraction-guide", "enemies-guide", "beginner-guide", "raid-progression-guide"]
 ---
 
 # Skills & Raids Maps Guide — Biomes and Combat Areas
 
-**Skills & Raids 1.0 / Updated: August 1, 2026**
+**Updated: August 11, 2026**
 
 This guide covers what is actually known about Skills & Raids' maps — and it's honest about how little is publicly documented. The full game contains **5 biomes**; the free demo contains **2** (confirmed via the demo's Steam page). The game also features **multiple combat areas with unique skill mechanics** (confirmed on the main Steam page). Everything else about the maps — names, layouts, extraction points — is only partially known.
 
@@ -27,14 +27,13 @@ This guide covers what is actually known about Skills & Raids' maps — and it's
 
 ## 2. Biome Names: What the Achievements Suggest
 
-The game's achievement list hints at area names — these are the only named locations that appear in any official source:
+The game's achievement list hints at area names — the only named location that appears in an official source:
 
 | Name (from achievements) | Achievement | Status |
 |--------------------------|-------------|--------|
-| **The Edge of the Abyss** | "Discover The Edge of the Abyss" | Achievement name confirmed; almost certainly a late-game area, but its exact role is unconfirmed |
-| **The Eternal Dunes** | "Discover..." achievement (per Steam achievement artwork) | Achievement name confirmed; exact role unconfirmed |
+| **The Edge of the Abyss** | "Discover The Edge of the Abyss" | Achievement name confirmed on the Steam page; almost certainly a late-game area, but its exact role is unconfirmed |
 
-Both names fit the lore — a world being erased into the Abyss, with dunes as another biome flavor. But treat *anything* beyond the achievement names as speculation. Specifically: **"Foothills," "Timberland," "Sunken Ruins," "Crystal Depths," "Dragon's Peak," "Void Temple," etc. do not appear in any verified source** — those are fabricated zone names from unverified guides.
+The name fits the lore — a world being erased into the Abyss. But treat *anything* beyond the achievement name as speculation. Specifically: **"The Eternal Dunes," "Foothills," "Timberland," "Sunken Ruins," "Crystal Depths," "Dragon's Peak," "Void Temple," etc. do not appear in any verified source** — those are fabricated zone names from unverified guides.
 
 ---
 

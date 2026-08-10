@@ -31,7 +31,7 @@ export default function TierListPage() {
   return (
     <div className="max-w-3xl mx-auto px-4 py-12">
       <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">Tier List</h1>
-      <p className="text-gray-400 mb-2">Roles, skill functions, and rarity priorities for Skills &amp; Raids (released July 27, 2026).</p>
+      <p className="text-gray-400 mb-2">Roles, skill functions, and rarity priorities for Skills &amp; Raids.</p>
       <div className="inline-flex items-center gap-1 text-xs font-medium px-2 py-0.5 rounded bg-amber-900/30 text-amber-400 border border-amber-800/50 mb-8">Honest ranking — the full 30-skill roster is not publicly documented yet</div>
 
       <section className="mb-12">

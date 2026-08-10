@@ -2,15 +2,15 @@
 title: "Skills & Raids Team Compositions Guide — Building Around the Trio"
 description: "Best team composition strategies for Skills & Raids. How the fixed party of Shelldon, Clawrk, and Owlivia works as a team, ability slot allocation, and synergy patterns."
 category: "Guides"
-version: "1.0"
-updated: "2026-08-01"
+version: "Current"
+updated: "2026-08-11"
 keywords: ["Skills and Raids best team", "Skills and Raids raid best starter team", "Skills and Raids team comp", "Skills and Raids party setup", "Skills and Raids best team composition"]
-related: ["builds-guide", "beginner-guide", "character-guide", "best-skills-builds"]
+related: ["builds-guide", "beginner-guide", "character-guide", "skills-guide"]
 ---
 
 # Skills & Raids Team Compositions Guide — Building Around the Trio
 
-**Skills & Raids 1.0 / Updated: August 1, 2026**
+**Updated: August 11, 2026**
 
 In most RPGs, "team composition" means choosing which characters to bring. In Skills & Raids, the team is fixed: **Shelldon (tank), Clawrk (DPS), and Owlivia (healer)** — three animal heroes you never swap out. That makes team composition a different game entirely: with six ability slots (two per hero), your composition *is* your loadout. This guide covers how the trio works as a unit, the confirmed composition patterns, and how to build the best team for what the run demands.
 
@@ -22,7 +22,7 @@ Every confirmed fact about the party:
 
 - **Shelldon** — a turtle who serves as the team's tank.
 - **Clawrk** — a tiger who fills the DPS role.
-- **Owlivia** — an owl who is the team's healer (spelled "Wolivia" in some early coverage).
+- **Owlivia** — an owl who is the team's healer.
 
 The party structure itself is a balanced composition — the developer's design gives you the classic triangle (tank/damage/heal) for free. Your composition decisions are therefore about *ability allocation*: which two abilities each hero carries, and how the six interact.
 
@@ -136,6 +136,6 @@ Some guides online describe Skills & Raids as having "solo extraction" and "squa
 ## Next Steps
 
 - [Character Guide](/guides/character-guide) — the three heroes in depth.
-- [Builds Guide](/guides/builds-guide) — the build framework.
-- [Best Skills & Builds Guide](/guides/best-skills-builds) — optimization and upgrade priority.
+- [Builds Guide](/guides/builds-guide) — the build framework, per-hero loadouts, and upgrade priority.
+- [Skills Guide](/guides/skills-guide) — the ability system.
 - [Beginner Guide](/guides/beginner-guide) — getting started.

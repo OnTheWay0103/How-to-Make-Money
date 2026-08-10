@@ -1,18 +1,18 @@
 ---
 title: "SpiritVale Party Composition — Building Teams That Actually Work (Dungeons, Raids, World Bosses)"
-description: "How to build effective SpiritVale parties: role definitions for all 8 advanced classes, proven 4/6/8/10-player comps for dungeons, raid tiers and world bosses, and the composition mistakes that wipe runs."
+description: "How to build effective SpiritVale parties: role definitions for all 8 advanced classes, class synergy pairings, buff and debuff stacking rules, proven 4/6/8/10-player comps, and the composition mistakes that wipe runs."
 category: "Guides"
 version: "EA"
-updated: "2026-08-04"
-keywords: ["SpiritVale party composition", "SpiritVale party building", "SpiritVale raid comps", "SpiritVale roles tank healer dps", "SpiritVale 8 player party", "SpiritVale group finder"]
-related: ["solo-party-guide", "class-tier-list", "class-synergy", "raid-boss-guide", "dungeon-guide"]
+updated: "2026-08-09"
+keywords: ["SpiritVale party composition", "SpiritVale party building", "SpiritVale raid comps", "SpiritVale class synergy", "SpiritVale roles tank healer dps", "SpiritVale group finder"]
+related: ["solo-guide", "class-tier-list", "raid-boss-guide", "dungeon-guide", "endgame-guide"]
 ---
 
 # SpiritVale Party Composition — Teams That Actually Work
 
-**SpiritVale EA / Updated: August 4, 2026**
+**SpiritVale EA / Updated: August 9, 2026**
 
-SpiritVale is built around grouped play from Level 30 onward, and there is no group finder — you recruit through Discord, world chat, and in-world invites. A good composition is worth more than raw gear: the XP bonus for grouped farming, the kill-steal rule, and raid-tier bosses all assume you run in balanced teams. This guide covers the roles, the proven compositions per content type, and the mistakes that wipe otherwise-geared parties.
+SpiritVale is built around grouped play from Level 30 onward, and there is no group finder — you recruit through Discord, world chat, and in-world invites. A good composition is worth more than raw gear: the XP bonus for grouped farming, the kill-steal rule, and raid-tier bosses all assume you run in balanced teams. This guide covers the roles, the class pairings that unlock synergy bonuses, the proven compositions per content type, and the mistakes that wipe otherwise-geared parties.
 
 ---
 
@@ -22,7 +22,7 @@ Every party role maps to one or more of the 8 advanced classes (unlocked at Job 
 
 | Role | Job | Why |
 |------|-----|-----|
-| Main Tank | Paladin (Knight → Paladin) | Consecration, Holy Shield, High Guard — the only true aggro holder |
+| Main Tank | Paladin (Knight → Paladin) | Consecrate, Holy Shield — the only true aggro holder |
 | Off-Tank | Berserker (Warrior → Berserker) | High damage with enough VIT to hold a boss add |
 | Main Healer | Priest (Acolyte → Priest) | The only reliable party-wide healing kit |
 | Support | Summoner | Pet wall, buffs, and respectable damage |
@@ -32,7 +32,35 @@ Every party role maps to one or more of the 8 advanced classes (unlocked at Job 
 
 ---
 
-## 2. Proven Compositions by Content Type
+## 2. Class Synergy Pairings
+
+SpiritVale's synergy system rewards smart class combinations. When specific classes are in the same party, they unlock passive bonuses that stack on top of normal class abilities:
+
+| Class Pairing | Synergy Bonus |
+|---------------|---------------|
+| Paladin + Priest | Holy Conviction: bonus healing received and holy damage while both are advanced classes |
+| Wizard + Sniper | Ranged Supremacy: bonus ranged damage and cast speed |
+| Berserker + Shinobi | Blood and Shadow: bonus critical damage on bleeding targets |
+| Necromancer + Summoner | Undead Army: summoned units deal bonus damage |
+| Knight + Acolyte | Steadfast Guardian: damage reduction for support classes |
+| Berserker + Priest | Blood Rites: healing skills have a chance to grant a damage buff |
+| Wizard + Necromancer | Arcane Decay: magic damage reduces enemy magic defense |
+| Paladin + Gunslinger | Light and Lead: bonus damage when attacking the same target |
+
+### Buff and Debuff Stacking Rules
+
+Understanding how buffs and debuffs stack is critical for optimizing party performance:
+
+- **Same buff type does not stack.** Two Priests casting the same buff on the same player will only get the highest value. Always coordinate buffs between support classes.
+- **Different buff types stack.** An attack buff combined with a critical rate buff applies both effects independently. This is why having diverse support options matters.
+- **Class-specific buffs stack with generic buffs.** A Paladin's holy-damage buff stacks with a Priest's all-damage blessing.
+- **Elemental debuffs stack to a cap.** Exposure debuffs for the same element stack up to a cap on a target; different elements stack independently.
+- **Armor reduction debuffs have diminishing returns.** The first source applies at full value, the second at less, and the third at less still.
+- **Crowd control debuffs do not stack.** A frozen enemy cannot be stunned — one CC effect overwrites another. Coordinate crowd control to avoid wasting cooldowns.
+
+---
+
+## 3. Proven Compositions by Content Type
 
 SpiritVale's PvE content comes in four sizes: 4-player dungeons, 6/8-player raids (Tier 2/3), 10-player raids (Tier 4), and 15-60 player world boss zergs. Each has an established "safe" comp.
 
@@ -45,7 +73,7 @@ SpiritVale's PvE content comes in four sizes: 4-player dungeons, 6/8-player raid
 | DPS | Wizard or Shinobi | AoE clear speed is king in dungeons |
 | Flex | Gunslinger, Necromancer, Summoner | Ranged safety or pet wall for hard dungeon dailies |
 
-**Dungeon alternative:** 1 Tank + 3 DPS works up to Level 45 dungeons if your DPS are over-geared and the tank uses Steel Heart. The healer slot becomes mandatory in Tier 2 raid dungeons.
+**Dungeon alternative:** 1 Tank + 3 DPS works up to Level 45 dungeons if your DPS are over-geared and the tank has strong self-sustain. The healer slot becomes mandatory in Tier 2 raid dungeons.
 
 ### 6-Player Raid Comp (Tier 2: Frost Oracle, Shadow Lich)
 
@@ -57,15 +85,23 @@ Recommended: **2 Tanks, 2 Healers, 4 DPS** — one tank per phase mechanic (Void
 
 ### 10-Player Raid Comp (Tier 4: Primordial Titan, Celestial Serpent)
 
-Recommended: **2 Tanks, 3 Healers, 4 DPS, 1 Summoner**. The Summoner's pet wall absorbs the Serpent's tail-swipe cleaves, and the third healer covers the 6-phase fight's sustained damage.
+Recommended: **2 Tanks, 3 Healers, 4 DPS, 1 Summoner**. The Summoner's pet wall absorbs the Serpent's tail-swipe cleaves, and the third healer covers the sustained damage of the long fight.
 
 ### World Boss Comp (15-60 Players)
 
-World bosses follow the 72-hour respawn schedule (see the [World Boss Guide](/guides/world-boss-guide)) and are zerg events — but a leaderless zerg fails on the Sovereign of Wrath. Minimum viable org: 1 raid leader, 2 off-tanks, 3 healers, everyone else DPS, with 2 DPS assigned to every root/portal mechanic.
+World bosses spawn on timers across high-level zones (see the [World Boss Chart](/guides/world-boss-chart)) and are zerg events — but a leaderless zerg fails on the flagship Spirit of the Vale. Minimum viable org: 1 raid leader, 2 off-tanks, 3 healers, everyone else DPS, with 2 DPS assigned to every root/portal mechanic.
+
+### Proven Trio Cores
+
+These three-player cores anchor the comps above:
+
+- **The Classic Trio (Knight + Acolyte + Warrior):** the most reliable composition for leveling content. The Knight provides consistent aggro and damage reduction; the Acolyte keeps the party healed; the Warrior dishes out steady melee damage and can off-tank if needed. Easy to play, forgiving, works with any two DPS additions.
+- **The Aggressive Push (Berserker + Priest + Wizard):** high-risk, high-reward. The Berserker draws aggro with raw damage output while the Priest provides reactive healing and the Wizard adds AoE burst for trash packs. Excellent for farming runs and over-geared content.
+- **The Fortress (Paladin + Priest + Sniper):** maximum survivability. The Paladin's defensive toolkit combined with the Priest's healing creates an almost unkillable core; the Sniper provides safe, consistent ranged damage. Best for first-time boss kills and hard mode dungeons.
 
 ---
 
-## 3. Party Rules That Shape Composition
+## 4. Party Rules That Shape Composition
 
 | Rule | Impact on Comp |
 |------|----------------|
@@ -76,17 +112,27 @@ World bosses follow the 72-hour respawn schedule (see the [World Boss Guide](/gu
 
 ---
 
-## 4. Common Composition Mistakes
+## 5. Advanced Synergy Strategies
 
-1. **Two tanks, no healer.** The most common 4-player failure. One Paladin with Steel Heart holds everything below Tier 2 content.
-2. **Full-DPS "speed runs."** Fast until a dungeon daily boss enrages — then the party dissolves and you wasted 20 minutes.
-3. **Ignoring the flex slot.** A Summoner in the flex slot converts a struggling 6-player comp into a comfortable one; a second Wizard does not.
-4. **Stacking the same element.** If your whole party runs Fire cards, the boss with fire resistance (see the [Card Optimization Guide](/guides/card-optimization)) eats your entire comp. Spread damage types across at least two elements.
-5. **No leader.** Raid tiers 3-4 need one caller for phase mechanics. Designate a shot-caller before the pull, not after the first wipe.
+- **Elemental stacking.** Building a party around a single element amplifies damage significantly — a fire-focused party (Wizard plus fire-card users) stacks fire exposure on a target quickly and deals noticeably more damage across the entire party. Spread across at most two elements so a single resistance doesn't shut you down.
+- **Cooldown rotation.** Coordinate defensive and offensive cooldowns to stack synergy bonuses during burn phases — overlapping tank and healer defensive buffs during a boss's enrage phase creates a long window of near-invulnerable tanking.
+- **Role flexibility.** Advanced compositions benefit from flexible roles: a Shinobi can off-tank in emergencies with evasion skills, a Necromancer's summons can body-block boss mechanics, and a Gunslinger provides consistent damage regardless of positioning. Building flexibility into your composition reduces wipe risk.
 
 ---
 
-## 5. Quick Comp Reference Table
+## 6. Common Composition Mistakes
+
+1. **Two tanks, no healer.** The most common 4-player failure. One Paladin holds everything below Tier 2 content.
+2. **Full-DPS "speed runs."** Fast until a dungeon daily boss enrages — then the party dissolves and you wasted 20 minutes.
+3. **Ignoring the flex slot.** A Summoner in the flex slot converts a struggling 6-player comp into a comfortable one; a second Wizard does not.
+4. **Stacking the same element.** If your whole party runs Fire cards, the boss with fire resistance (see the [Cards Guide](/guides/cards-guide)) eats your entire comp. Spread damage types across at least two elements.
+5. **No leader.** Raid tiers 3-4 need one caller for phase mechanics. Designate a shot-caller before the pull, not after the first wipe.
+6. **Overlapping support buffs.** Same-type buffs don't stack — coordinate which support uses which buff or you waste potential.
+7. **Same-class stacking.** Stacking the same class forfeits synergy bonuses — diversify your class selection.
+
+---
+
+## 7. Quick Comp Reference Table
 
 | Content | Size | Comp |
 |---------|------|------|
@@ -95,16 +141,16 @@ World bosses follow the 72-hour respawn schedule (see the [World Boss Guide](/gu
 | Tier 2 Raids | 6 | 1 Tank / 2 Healers / 3 DPS |
 | Tier 3 Raids | 8 | 2 Tanks / 2 Healers / 4 DPS |
 | Tier 4 Raids | 10 | 2 Tanks / 3 Healers / 4 DPS / 1 Summoner |
-| World Bosses (Verdant Titan → Sovereign of Wrath) | 15-60 | 1 lead / 2 off-tanks / 3 healers / rest DPS |
+| World Bosses (Spirit of the Vale and others) | 15-60 | 1 lead / 2 off-tanks / 3 healers / rest DPS |
 
-**Final advice:** treat every composition as a starting point, not a law. EA balance changes weekly — the [Class Tier List](/guides/class-tier-list) tracks what is strong right now, and the [Class Synergy Guide](/guides/class-synergy) explains which class pairs are currently overperforming.
+**Final advice:** treat every composition as a starting point, not a law. EA balance changes weekly — the [Class Tier List](/guides/class-tier-list) tracks what is strong right now.
 
 ---
 
 ## Related Guides
 
-- [Solo Play & Party Finding](/guides/solo-party-guide) — How to recruit without a group finder
+- [Solo Play Guide](/guides/solo-guide) — How to recruit without a group finder
 - [Class Tier List](/guides/class-tier-list) — Current EA meta rankings
-- [Class Synergy Guide](/guides/class-synergy) — Which classes pair well together
 - [Raid Boss Guide](/guides/raid-boss-guide) — All raid tiers, phases, and loot
 - [Dungeon Guide](/guides/dungeon-guide) — Dungeon dailies and boss mechanics
+- [Endgame Guide](/guides/endgame-guide) — All endgame content explained

@@ -7,7 +7,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'All Guides',
   description:
-    'Complete SpiritVale guide collection — weapon classes, builds, boss strategies, EX-Mod crafting, progression tips, and more.',
+    'Complete SpiritVale guide collection — weapon classes, builds, boss strategies, cards, progression tips, and more.',
 };
 
 export default function GuidesPage() {

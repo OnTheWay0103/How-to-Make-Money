@@ -82,8 +82,8 @@ These are directional, not precise. The game is a roguelite: your mileage is det
 Pricing context: the game launched at **¥77 with a 15% introductory discount** (per the Steam store listing; regional pricing varies). Against that price, the confirmed content — six biomes, 150+ gadgets, co-op, ship customization, 49 achievements — is a full game rather than a demo-plus.
 
 The review picture is worth knowing before buying:
-- **Demo:** "Very Positive" (82% of 75 reviews at time of writing)
-- **Full game:** "Mixed" at launch (64% positive of ~50 reviews) — launch-window issues and the difficulty curve are likely factors; the demo is free, so judge for yourself before spending
+- **Demo:** rated "Very Positive" on Steam at the time of writing
+- **Full game:** launch-window rating trended "Mixed" — launch-window issues and the difficulty curve are likely factors; check the store page for current numbers. The demo is free, so judge for yourself before spending
 
 ## The Bottom Line
 

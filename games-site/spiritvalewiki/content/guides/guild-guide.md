@@ -1,18 +1,18 @@
 ---
 title: "SpiritVale Guild Guide — Join, Build, and Dominate"
-description: "Complete guide to SpiritVale guilds — how to create or join a guild, guild hall features, guild quests, guild PvP wars, and maximizing guild benefits."
+description: "Complete guide to SpiritVale guilds — how to create or join a guild, guild hall features, guild quests, Guild Wars (Warfront registration, roles, and strategies), and maximizing guild benefits."
 category: "Guides"
 version: "EA"
 updated: "2026-07-23"
-keywords: ["SpiritVale guild guide", "SpiritVale guild system", "SpiritVale guild wars", "SpiritVale guild hall", "SpiritVale guild quests"]
-related: ["beginner-guide", "leveling-guide", "class-tier-list", "farming-resource-guide"]
+keywords: ["SpiritVale guild guide", "SpiritVale guild system", "SpiritVale guild wars", "SpiritVale Warfront", "SpiritVale guild hall", "SpiritVale guild quests"]
+related: ["beginner-guide", "leveling-guide", "class-tier-list", "farming-resource-guide", "pvp-arena"]
 ---
 
 # SpiritVale Guild Guide — Join, Build, and Dominate
 
 **SpiritVale EA / Updated: July 23, 2026**
 
-SpiritVale's guild system offers shared progression, exclusive rewards, and large-scale PvP wars. Whether you want to lead a hardcore raiding guild or a casual social community, this guide covers everything from creating your guild to maximizing weekly guild benefits.
+SpiritVale's guild system offers shared progression, exclusive rewards, and the flagship competitive event — **Guild Wars**, a 15v15 Warfront battle every Saturday at 20:00 server time. Whether you want to lead a hardcore raiding guild or a casual social community, this guide covers everything from creating your guild to dominating war night.
 
 ---
 
@@ -24,7 +24,7 @@ To found a guild, visit the Guild Registrar NPC in Vale's Rest (near the central
 | Requirement | Details |
 |-------------|---------|
 | Minimum Level | Level 25 |
-| Cost | 50,000 gold |
+| Cost | A large one-time gold fee |
 | Name | 4-16 characters, unique server-wide |
 | Tag | 2-4 character abbreviation displayed next to player names |
 
@@ -34,10 +34,10 @@ Once created, you are the Guild Master. You can appoint up to 3 Officers who can
 Open the Guild window (default hotkey: G), browse the guild list, and apply to any guild that accepts public applications. You can also receive invitations directly from guild members.
 
 **What to look for in a guild:**
-- **Active members (50+ weekly contribution points)** — dead guilds provide no benefits
+- **Active members** — a guild whose members actually contribute each week; dead guilds provide no benefits
 - **Guild Hall level** — higher levels unlock more amenities
 - **War schedule** — if you want PvP, find a guild that registers for weekly wars
-- **Language and time zone** — coordination matters for guild quests
+- **Language and time zone** — coordination matters for guild quests and wars
 
 ---
 
@@ -47,19 +47,21 @@ The Guild Hall is a shared instanced space that grows with your guild's level. I
 
 ### Guild Hall Upgrades
 
-| Upgrade | Effect | Max Level | Cost Per Level |
-|---------|--------|-----------|----------------|
-| Research Lab | Unlocks guild-exclusive combat buffs | 5 | 10,000 gold + 500 guild materials |
-| Crafting Station | Reduced crafting material costs | 3 | 15,000 gold + 300 guild materials |
-| Garden | Daily free consumable harvest | 4 | 8,000 gold + 200 guild materials |
-| Treasury | Weekly gold dividend for members | 3 | 20,000 gold + 1,000 guild materials |
-| War Room | Unlocks war strategies and buffs | 5 | 12,000 gold + 600 guild materials |
+| Upgrade | Effect | Max Level |
+|---------|--------|-----------|
+| Research Lab | Unlocks guild-exclusive passive skills | 5 |
+| Crafting Station | Reduced crafting material costs | 3 |
+| Garden | Daily free consumable harvest | 4 |
+| Treasury | Weekly gold dividend for members | 3 |
+| War Room | Unlocks war strategies and buffs | 5 |
 
-**Recommended upgrade order:** Research Lab (level 3 for the passive XP buff) → Garden (level 2 for daily potions) → War Room (level 1 if doing wars) → Crafting Station → Treasury
+Every upgrade costs gold plus guild materials, with the price scaling each level.
+
+**Recommended upgrade order:** Research Lab (level 3 for the passive XP bonus) → Garden (level 2 for daily potions) → War Room (level 1 if doing wars) → Crafting Station → Treasury
 
 ### Guild Bank
 Members can deposit gold and items into the guild bank. Access permissions are set by the Guild Master:
-- **Withdrawal limits** can be set per rank (Guild Master: unlimited, Officer: 50k/day, Member: 10k/day)
+- **Withdrawal limits** can be set per rank (Guild Master: unlimited, Officers: generous daily limits, Members: small daily limits)
 - **Item tabs** separate materials, consumables, and equipment
 - **Deposit logs** track all transactions for accountability
 
@@ -70,55 +72,147 @@ Members can deposit gold and items into the guild bank. Access permissions are s
 ### Daily Guild Quests
 Complete these solo or in a party to earn Contribution Points and guild materials:
 
-| Quest | Objective | Contribution Points | Guild Materials |
-|-------|-----------|-------------------|-----------------|
-| Material Delivery | Turn in 20 crafting materials | 30 | 10 |
-| Bounty Hunt | Kill a specific world boss or elite mob | 50 | 15 |
-| Dungeon Run | Clear any dungeon with a guild member | 40 | 12 |
-| PvP Victory | Win 1 arena match | 35 | 8 |
+| Quest | Objective | Rewards |
+|-------|-----------|---------|
+| Material Delivery | Turn in a bundle of crafting materials | Contribution + guild materials |
+| Bounty Hunt | Kill a specific elite or field boss | Larger contribution + guild materials |
+| Dungeon Run | Clear any dungeon with a guild member | Contribution + guild materials |
+| PvP Victory | Win an arena match | Contribution + guild materials |
 
 ### Weekly Guild Missions
 Available Monday at server reset. These require team coordination:
 
 | Mission | Requirement | Rewards |
 |---------|-------------|---------|
-| Guild Dungeon | 5+ guild members clear a raid instance | 500 contribution + rare equipment box |
-| War Participation | Fight in at least 3 war battles | 300 contribution + guild coin pouch |
-| Material Gathering | Guild deposits 10,000 total materials | Unlocks temporary XP boost for all members |
-| Boss Rush | Defeat 5 world bosses as a guild | Exclusive guild title + cosmetic reward |
+| Guild Dungeon | 5+ guild members clear a raid instance | Large contribution + rare equipment box |
+| War Participation | Fight in at least 3 war battles | Contribution + guild coin pouch |
+| Material Gathering | Guild deposits a large batch of materials | Temporary XP boost for all members |
+| Boss Rush | Defeat several world bosses as a guild | Exclusive guild title + cosmetic reward |
 
 ### Contribution Rewards
-Individual contribution points unlock personal rewards at thresholds:
-
-- **500 points:** Guild skill point (passive buff slot)
-- **1,000 points:** Exclusive guild mount (appearance varies by guild level)
-- **2,000 points:** Guild teleport scroll (unlimited use, 2-hour cooldown)
-- **5,000 points:** Guild-exclusive weapon cosmetic
+Individual contribution points unlock personal rewards at thresholds — a guild skill point, an exclusive guild mount, unlimited guild teleport scrolls, and a guild-exclusive weapon cosmetic at the highest tier.
 
 ---
 
-## 4. Guild Wars
+## 4. Guild Wars (Warfront)
 
-Guild Wars are scheduled PvP battles between two guilds, held every Saturday at 20:00 server time.
+Guild Wars are SpiritVale's flagship competitive event: **15v15 battles on the Warfront map, every Saturday at 20:00 server time**. Winning guilds earn guild materials, guild XP, and war season points. Losing is expensive — war registration costs guild materials — so preparation matters more than raw gear.
 
-### War Format
-- 15v15 battle in the Warfront map (a unique large arena)
-- Capture-and-hold objectives (3 control points)
-- Match duration: 20 minutes
-- Winner determined by total control points held over the match duration
+### 4.1 Registration and Schedule
 
-### Registration
-Guild Masters or Officers must register for war by Friday 23:59 server time at the War Room NPC. Registration costs 5,000 gold. Matchmaking pairs guilds with similar total Contribution Point totals.
+| Requirement | Detail |
+|-------------|--------|
+| Guild level | 3+ |
+| Registration window | Monday 00:00 – Friday 12:00 server time |
+| Cost | A significant guild-materials fee |
+| Match time | Saturday 20:00 server time |
+| Brackets | Matchmaking pairs guilds of similar war rating |
+| Roster | 15 registered fighters + up to 3 substitutes |
 
-### War Rewards
-- **Winning guild:** 10,000 gold distributed among participants, War Supply Box (contains rare materials and PvP gear), +15% guild XP for the following week
-- **Losing guild:** 3,000 gold consolation, Participation Box (common materials), no XP bonus
-- **Individual performance bonus:** Additional rewards for top killers, top objective scorers, and top healers
+**Registration rules:**
 
-### War Strategies
-- **Zerg the point:** All 15 members capture one point at a time for maximum speed
-- **Split defense:** 10 attackers, 5 defenders holding the closest point
-- **Flank squad:** 3 fast classes (Assassin, Ranger) circle behind to steal undefended points
+- The Guild Master or a War Officer registers the guild at the War Room NPC and locks the 18-player roster Friday evening
+- Registered players cannot change classes after lock — finalize builds Thursday
+- If a guild fails to field 12 players at match time, the match is forfeit and the fee is lost
+
+### 4.2 The Warfront Format
+
+A Guild War lasts 30 minutes, played in three phases:
+
+| Phase | Duration | Objective |
+|-------|----------|-----------|
+| 1 — Contested | 0–10 min | Fight over the three central control points |
+| 2 — Escalation | 10–20 min | Central point unlocks a boss spawn; kills score |
+| 3 — Last Stand | 20–30 min | Double points on all objectives |
+
+First guild to the target score wins; otherwise the leader at 30 minutes takes the war.
+
+**Phase strategy:**
+
+- **Phase 1**: secure 2 of 3 control points and hold. Contesting all three spreads you thin
+- **Phase 2**: the boss spawn is worth a big score swing — burn it as a team, but keep one point guarded
+- **Phase 3**: double points means the boss and center point decide everything; save your burst cooldowns for the final 5 minutes
+
+### 4.3 Roles and Assignments
+
+| Role | Count | Job | Class Preference |
+|------|-------|-----|------------------|
+| Point Guards | 6 | Hold control points, zone enemies | Paladin, Berserker |
+| Roamers | 4 | Contest enemy points, pick off stragglers | Shinobi, Sniper |
+| Boss Squad | 4 | Kill the Escalation boss fast | Wizard, Sniper, Priest |
+| Flex | 1 | React to the biggest threat | Gunslinger, Necromancer |
+
+**Assignment rules:**
+
+- Every control point needs at least one tank-class player on it at all times
+- Roamers must have a movement skill — slow roamers arrive late and die alone
+- The Boss Squad's Priest is the most valuable player on the map; the enemy will hunt them — give them an escort
+
+### 4.4 Team Composition
+
+| Comp | Composition | Style |
+|------|-------------|-------|
+| Balanced | 4 Paladins, 3 Priests, 3 Wizards, 3 Snipers, 2 Shinobi | Hold points, win phases 1 and 3 |
+| Aggressive | 3 Berserkers, 2 Shinobi, 4 Wizards, 2 Priests, 4 Snipers | Boss rush, phase-2 dominance |
+| Control | 5 Paladins, 2 Priests, 3 Wizards, 2 Shinobi, 3 Snipers | Point control, grind them down |
+
+**Comp rules:**
+
+- Always bring 2–3 Priests — wars are decided by sustain, and teams without healing collapse in phase 3
+- At least 2 Shinobi or Berserkers for point contesting — steal mechanics win fights
+- Snipers protect the Boss Squad and guard the center point from range
+- See the [Party Composition Guide](/guides/party-composition) for how class synergies stack
+
+### 4.5 Rewards
+
+| Reward | Source | Notes |
+|--------|--------|-------|
+| War Season Points | Match result | Feeds the seasonal war ladder |
+| Guild materials | Win / Loss | A win pays out several times the registration cost; a loss refunds roughly half |
+| War Coins | Per kill / per point held | Personal currency for war gear |
+| Season cosmetics | Season ladder placement | Exclusive banners and titles |
+| Guild XP | Per win | Feeds guild leveling |
+
+**Personal war coin tips:**
+
+- War Coins are per-player and reset each season — spend before the season end
+- The war gear vendor sells PvP-focused sets with war-specific stats
+- Individual performance counts: the top contributors on a winning guild get a bonus chest
+
+### 4.6 Communication and Coordination
+
+Wars are won by the team that talks. Set these up before the match:
+
+| Channel | Use |
+|---------|-----|
+| Point calls | "North point lost" / "Center point contested" — short calls only |
+| Boss timing | "Boss at half HP" — one person tracks it, everyone else focuses |
+| Counter calls | "Shinobi on our Priest" — the flex role answers, not five people |
+| Cooldown pings | "No enemy stealth used" — windows of safety |
+
+**Communication rules:**
+
+- Assign one caller per phase — multiple talkers bury the signal
+- Call objective state, not kill count. Kills are noise; points are the score
+- The flex player reports enemy comp shifts after the first engagement
+- Do not argue mid-match — one line of text disagreement costs a control point
+
+### 4.7 Common War Mistakes
+
+- **Over-registering DPS** — fifteen DPS and zero priests loses phase 3 every single time
+- **Chasing kills in phase 1** — roamers who ignore points feed the score, not their guild
+- **Splitting the Boss Squad at the boss** — the boss scales with attackers present; split damage = slow kill = stolen points
+- **Saving cooldowns "for later"** — phase 2 and 3 cooldown cycles are the war; using them on the boss is using them right
+- **Forgetting substitutes** — the roster locks Friday; if a registered player drops, the substitute must be ready before match time
+
+### 4.8 Preparation Checklist
+
+- [ ] Register Monday — the best matchups fill early
+- [ ] Lock the roster Thursday night with confirmed attendance
+- [ ] Finalize classes and builds before the Friday lock
+- [ ] Assign roles and share the plan with the whole guild
+- [ ] Save raid/arena consumables for Saturday — wars are not the time to economize
+- [ ] Show up 15 minutes early for warm-up and role confirmation
 
 ---
 
@@ -126,15 +220,15 @@ Guild Masters or Officers must register for war by Friday 23:59 server time at t
 
 Guild Masters can research passive skills in the Research Lab that apply to all members:
 
-| Skill | Effect | Research Cost | Duration |
-|-------|--------|--------------|----------|
-| Adventurer's Boon | +5% XP from all sources | 2,000 guild materials | Permanent |
-| Crafter's Efficiency | -10% crafting material cost | 1,500 guild materials | Permanent |
-| Warrior's Resilience | +3% max HP | 3,000 guild materials | Permanent |
-| Nature's Bounty | +1 daily harvest from Garden | 1,000 guild materials | Permanent |
-| War Banner | +5% damage in guild wars | 2,500 guild materials | Active (1 hour) |
+| Skill | Effect | Research Cost |
+|-------|--------|--------------|
+| Adventurer's Boon | Small permanent XP bonus from all sources | Guild materials |
+| Crafter's Efficiency | Reduced crafting material cost | Guild materials |
+| Warrior's Resilience | Modest max HP increase | Guild materials |
+| Nature's Bounty | Extra daily harvest from the Garden | Guild materials |
+| War Banner | Damage bonus in guild wars | Guild materials |
 
-Skills can be swapped by the Guild Master at any time, with a 24-hour cooldown between swaps.
+Skills can be swapped by the Guild Master at any time, with a cooldown between swaps.
 
 ---
 
@@ -144,3 +238,4 @@ Skills can be swapped by the Guild Master at any time, with a 24-hour cooldown b
 - [Leveling Guide](/guides/leveling-guide) — Full leveling routes to 50
 - [Class Tier List](/guides/class-tier-list) — PvE and PvP rankings
 - [Farming & Resource Guide](/guides/farming-resource-guide) — Gold and material farming
+- [PvP Arena Guide](/guides/pvp-arena) — The Colosseum and ranked play

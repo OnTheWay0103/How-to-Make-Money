@@ -1,19 +1,20 @@
 ---
 title: 'Shinobi Guide — Best Shinobi Build, Skills & Leveling in SpiritVale'
 description: 'Complete Shinobi class guide for SpiritVale. Best DPS builds, skill rotations, leveling guide, gear optimization, and how to maximize Shinobi damage output.'
-keywords: ['shinobi guide spiritvale', 'spiritvale shinobi build', 'spiritvale shinobi leveling', 'best shinobi build spiritvale', 'spiritvale shinobi skills', 'spiritvale assassin guide']
+keywords: ['shinobi guide spiritvale', 'spiritvale shinobi build', 'spiritvale shinobi leveling', 'best shinobi build spiritvale', 'spiritvale shinobi skills', 'spiritvale rogue guide']
 category: Classes
-version: '1.0'
-updated: '2026-07-30'
+version: 'EA'
+updated: '2026-08-09'
 related:
   - classes-guide
   - class-tier-list
   - leveling-guide
+  - pvp-arena
 ---
 
 ## Shinobi Overview
 
-The Shinobi is SpiritVale's premier melee DPS class. Masters of stealth, critical strikes, and burst damage, a well-played Shinobi can delete enemies before they react. However, they're the most fragile class — one mistake can mean death.
+The Shinobi is the Rogue's advanced class (unlocked at Job Level 50 through "Shadows of the Past" quest chain) and SpiritVale's premier melee DPS class. Masters of stealth, critical strikes, and burst damage, a well-played Shinobi can delete enemies before they react. However, they're the most fragile class — one mistake can mean death.
 
 ## Shinobi Strengths & Weaknesses
 
@@ -26,33 +27,27 @@ The Shinobi is SpiritVale's premier melee DPS class. Masters of stealth, critica
 
 ## Skill Tree
 
-### Assassination Path (Burst DPS)
+### Core Skills (Must-Have)
 | Skill | Effect | Priority |
 |-------|--------|:--:|
-| **Shadow Strike** | Teleport behind target + massive damage | ⭐⭐⭐⭐⭐ |
-| **Backstab** | +200% damage from behind | ⭐⭐⭐⭐⭐ |
-| **Eviscerate** | Finisher, more damage on low-HP targets | ⭐⭐⭐⭐ |
-| **Cloak of Shadows** | Invisibility for 8s, next attack crits | ⭐⭐⭐⭐⭐ |
-
-### Ninjutsu Path (AoE/Sustain)
-| Skill | Effect | Priority |
-|-------|--------|:--:|
-| **Shuriken Storm** | Fan of knives, hits all enemies in cone | ⭐⭐⭐⭐ |
-| **Poison Blade** | Attacks apply stacking poison DoT | ⭐⭐⭐ |
-| **Smoke Bomb** | AoE blind + escape tool | ⭐⭐⭐⭐ |
+| **Stealth** | Become invisible — your next attack critically hits | ⭐⭐⭐⭐⭐ |
+| **Shadow Step** | Teleport behind a target | ⭐⭐⭐⭐⭐ |
+| **Backstab** | Big damage bonus when attacking from behind | ⭐⭐⭐⭐⭐ |
+| **Assassinate** | Finisher — bonus damage against low-HP targets | ⭐⭐⭐⭐ |
+| **Poison Blade** | Attacks apply a stacking poison DoT | ⭐⭐⭐ |
 | **Shadow Clone** | Creates a clone that copies your attacks | ⭐⭐⭐⭐ |
 
 ## Best Shinobi Builds
 
 ### Pure Assassin (Boss Killer)
-- **Skills**: Shadow Strike (max), Backstab (max), Eviscerate, Cloak of Shadows
-- **Gear**: Full Dexterity, crit chance, crit damage
-- **Playstyle**: Cloak → Shadow Strike → Backstab → Eviscerate. One-cycle bosses when geared.
+- **Skills**: Stealth (max), Shadow Step (max), Backstab (max), Assassinate
+- **Gear**: AGI + LUCK, crit chance, crit damage
+- **Playstyle**: Stealth → Shadow Step → Backstab → Assassinate. Delete priority targets fast.
 
 ### Ninjutsu Shinobi (Farming/Solo)
-- **Skills**: Shuriken Storm (max), Poison Blade, Smoke Bomb, Shadow Clone
-- **Gear**: Dexterity + some Vitality for survivability
-- **Playstyle**: Group enemies, Shuriken Storm, Smoke Bomb to escape
+- **Skills**: Poison Blade (max), Shadow Clone, Stealth, Assassinate
+- **Gear**: AGI with some VIT for survivability
+- **Playstyle**: Open with Stealth, stack Poison Blade, let the clone add pressure, finish with Assassinate
 
 ## Shinobi Leveling Guide
 
@@ -60,24 +55,34 @@ Shinobi is the **fastest leveling class** thanks to high damage and stealth:
 
 | Level Range | Strategy |
 |-------------|----------|
-| 1-20 | Rush Shadow Strike, chain-kill enemies |
-| 20-35 | Add Backstab, start one-shotting mobs |
-| 35-50 | Farm high-density areas, avoid unnecessary fights |
+| 1-20 (Rogue) | Rush Shadow Step, chain-kill enemies |
+| 20-35 (Rogue) | Add Backstab, start one-shotting mobs |
+| 35-50 (Rogue) | Farm high-density areas, avoid unnecessary fights |
+| 50 (Shinobi) | Run "Shadows of the Past" and respec into your final build |
 
 ## Shinobi in PvP
 
 Shinobi excels in PvP:
-1. Open with Cloak of Shadows
-2. Shadow Strike to close distance
-3. Backstab → Eviscerate combo
-4. Smoke Bomb to escape if needed
+1. Open with Stealth
+2. Shadow Step to close distance
+3. Backstab → Assassinate combo
+4. Retreat and re-stealth if needed
 
-Against tanks, kite and wait for cooldowns. Against other DPS, burst first and win.
+Against tanks, kite and wait for cooldowns. Against other DPS, burst first and win. See the [PvP Arena Guide](/guides/pvp-arena) for the full arena meta.
 
 ## Shinobi Gear
 
-| Slot | Best Item | Source |
-|------|-----------|--------|
-| Weapon | Shadowfang Blades (Dual) | Raid: Shadow Lord |
-| Armor | Nightstalker Set | PvP vendor |
-| Accessory | Assassin's Mark | Quest chain |
+| Slot | Recommendation | Source |
+|------|----------------|--------|
+| Weapon | Dual daggers — the raid dagger Corrupted Fang is a top pick | Drops, raids |
+| Armor | Light armor with crit stats | Drops, PvP vendor |
+| Accessory | Crit and AGI accessories | Drops, market |
+
+There is no single best-in-slot list for Shinobi in EA — prioritize AGI and LUCK, then crit affixes.
+
+## Related Guides
+
+- [Classes Guide](/guides/classes-guide) — All base and advanced classes
+- [Class Tier List](/guides/class-tier-list) — Current rankings
+- [Leveling Guide](/guides/leveling-guide) — Fastest routes to 50
+- [PvP Arena Guide](/guides/pvp-arena) — Arena meta and tactics

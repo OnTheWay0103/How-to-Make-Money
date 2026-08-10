@@ -7,7 +7,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'All Guides',
   description:
-    'Complete SpiritVale guide collection — weapon classes, builds, boss strategies, EX-Mod crafting, progression tips, and more.',
+    'Complete MineGeon: Renegades guide collection — classes, builds, bosses, gadgets, biomes, mining and extraction strategy, progression tips, and more.',
 };
 
 export default function GuidesPage() {
@@ -27,7 +27,7 @@ export default function GuidesPage() {
 
       <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">Guides</h1>
       <p className="text-gray-400 mb-8">
-        {guides.length} guides covering every aspect of SpiritVale.
+        {guides.length} guides covering every aspect of MineGeon: Renegades.
       </p>
 
       {/* Category filter tags */}

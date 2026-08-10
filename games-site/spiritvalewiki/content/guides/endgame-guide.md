@@ -3,14 +3,14 @@ title: "SpiritVale Endgame Guide — Activities, Raids, and Progression"
 description: "A complete overview of SpiritVale endgame activities. Learn about heroic dungeons, world bosses, raid progression, and the gear refinement system that defines late-game play."
 category: "Guides"
 version: "EA"
-updated: "2026-07-27"
+updated: "2026-08-11"
 keywords: ["SpiritVale endgame activities", "SpiritVale heroic dungeons", "SpiritVale world bosses", "SpiritVale gear refinement", "SpiritVale raid progression"]
 related: ["boss-guide", "farming-resource-guide", "solo-guide", "crafting-guide", "builds-guide"]
 ---
 
 # SpiritVale Endgame Guide — Activities, Raids, and Progression
 
-**SpiritVale EA / Updated: July 27, 2026**
+**SpiritVale EA / Updated: August 11, 2026**
 
 Reaching the level cap in SpiritVale is only the beginning. The endgame opens a suite of challenging activities, powerful gear upgrades, and repeatable progression systems that define the late-game experience. This guide covers everything you need to tackle endgame content efficiently.
 
@@ -33,10 +33,10 @@ Heroic difficulty dungeons are the first endgame activity you will encounter. Th
 
 | Item Type | Drop Rate | Use |
 |-----------|-----------|-----|
-| Epic Gear | 25% | Equipment upgrade base |
-| Refinement Stones | 100% (guaranteed) | Gear refinement material |
+| Epic Gear | A good chance | Equipment upgrade base |
+| Refinement Stones | Guaranteed | Gear refinement material |
 | Heroic Seals | 10–15 per run | Raid entry currency |
-| Rare Card Drops | 5% | Card collection bonuses |
+| Rare Card Drops | A modest chance | Card collection bonuses |
 
 **Tip:** Save your daily Heroic Seals. You need 50 to unlock the first raid wing.
 
@@ -44,44 +44,43 @@ Heroic difficulty dungeons are the first endgame activity you will encounter. Th
 
 ## 2. World Bosses
 
-World bosses spawn on a timer across all high-level zones. Unlike dungeons, these fights are open-world events that any player can join.
+World bosses spawn on timers across all high-level zones. Unlike dungeons, these fights are open-world events that any player can join.
 
-### 2.1 Active World Boss Schedule
+### 2.1 World Boss Rotation
 
-| Boss Name | Zone | Spawn Interval | Recommended Group Size |
-|-----------|------|---------------|----------------------|
-| Stone Tyrant | Ash Wastes | Every 2 hours | 5–8 players |
-| Frost Matriarch | Glacial Ridge | Every 3 hours | 8–12 players |
-| Void Walker | The Rift | Every 4 hours | 10–15 players |
-| Ember Serpent | Scorched Basin | Every 2 hours | 5–8 players |
+- **Spirit of the Vale** — the flagship world boss (Level 50) respawns roughly every 8 hours; it is group content, so arrive with a party.
+- **Field bosses** cycle every 30–60 minutes across the high-level zones.
+- **World bosses** cycle every 6–12 hours.
+- Join the official Discord for spawn callouts — the full roster and schedules live on the [World Boss Chart](/guides/world-boss-chart).
 
 ### 2.2 Contribution and Loot
 
-World boss loot is distributed based on contribution. The top three damage dealers and the top healer receive bonus loot chests.
+World boss loot is distributed based on contribution, and the top performers receive bonus loot chests.
 
 - **Damage Contribution:** Determined by total damage dealt during the encounter.
 - **Survival Bonus:** Players who avoid fatal mechanics receive additional reward rolls.
-- **Party Bonus:** Joining a pre-made party grants a 10% loot quality bonus.
+- **Party Bonus:** Joining a pre-made party grants a loot quality bonus.
 
 ---
 
 ## 3. Raid Progression
 
-Raids are the pinnacle endgame activity in SpiritVale. Each raid consists of multiple wings with escalating difficulty.
+Raids are the pinnacle endgame activity in SpiritVale. There are four raid tiers, each with its own group size, level gate, and gear requirement.
 
 ### 3.1 Raid Overview
 
-| Raid | Wings | Minimum Gear Score | Recommended Group Size |
-|------|-------|-------------------|----------------------|
-| The Obsidian Citadel | 3 | 550 | 10 |
-| Lair of the Forgotten | 4 | 650 | 15 |
-| Celestial Throne | 5 | 750 | 20 |
+| Raid Tier | Group Size | Level / Minimum GS |
+|-----------|------------|--------------------|
+| Tier 1 (Stone Colossus, Corrupted Wyrm) | 4 players | Level 25–30 |
+| Tier 2 (Frost Oracle, Shadow Lich) | 6 players | Level 40–45 |
+| Tier 3 (Void Kraken, Phoenix Sovereign) | 8 players | Level 50, GS 650 |
+| Tier 4 (Primordial Titan, Celestial Serpent) | 10 players | Level 50+, GS 750 |
 
 ### 3.2 Weekly Lockout System
 
-- Each raid wing has a weekly lockout resetting every Monday.
+- Raids reset weekly (Monday 05:00).
 - You earn **Raid Tokens** per boss kill, redeemable for tier gear.
-- **Mythic Shards** drop from final bosses and are required for weapon refinement.
+- **Refine Stones** drop from bosses and world content and are required for refinement.
 
 ---
 
@@ -93,16 +92,15 @@ Endgame gear can be refined to increase base stats and unlock bonus effects.
 
 | Tier | Stat Bonus | Materials Required | Success Rate |
 |------|-----------|-------------------|-------------|
-| +1 to +3 | +5% per tier | Refinement Stone x5 | 100% |
-| +4 to +6 | +8% per tier | Refinement Stone x10 + Gold | 80% |
-| +7 to +9 | +12% per tier | Mythic Shard x1 + Refinement Stone x20 | 50% |
-| +10 | +20% | Mythic Shard x3 + Rare Material | 30% |
+| +1 to +3 | Small bonus per tier | A few Refine Stones | Always succeeds |
+| +4 to +6 | Moderate bonus per tier | More Refine Stones + Gold | Most attempts |
+| +7 to +9 | Large bonus per tier | Many Refine Stones + a Stabilizer | About half |
+| +10 | The largest bonus | A big stack of Refine Stones + rare materials | The hardest attempt |
 
 ### 4.2 Safety Mechanics
 
-- **Protection Scrolls:** Prevent gear destruction on failed refinement above +6.
-- **Transfer System:** Move refinement levels to higher-tier gear at a 20% reduction.
-- **Pity System:** Every failed attempt above +7 increases the next attempt's success rate by 5%.
+- **Protection Scrolls:** Prevent the downgrade on failed refinement above +6 — refinement never destroys items, but these stop the level loss.
+- **Transfer System:** Move refinement levels to higher-tier gear at a small reduction.
 
 ---
 
@@ -124,17 +122,18 @@ To maximize progression, structure your daily play around this priority list:
 
 Follow this roadmap to break into endgame content smoothly:
 
-1. **Fresh Level 50:** Farm normal dungeons until Gear Score 500.
-2. **Gear Score 500–650:** Run heroic dungeons daily. Upgrade your weapon to +4 first.
-3. **Gear Score 650–750:** Join world boss trains. Collect Mythic Shards.
-4. **Gear Score 750+:** Enter raid progression. Prioritize the Obsidian Citadel.
-5. **Beyond:** Refine all gear to +7. Tackle the Celestial Throne.
+1. **Fresh Level 50:** Farm normal dungeons until your Gear Score is raid-ready.
+2. **Gear Score 500–650:** Run heroic dungeons daily. Refine your weapon first.
+3. **Gear Score 650–750:** Join world boss trains. Collect Refine Stones.
+4. **Gear Score 750+:** Enter the highest raid tier at 750.
+5. **Beyond:** Refine all gear toward +10. Tackle the Tier 4 raid.
 
 ---
 
 ## Related Guides
 
 - [Boss Guide](/guides/boss-guide) — Detailed mechanics for all bosses
+- [World Boss Chart](/guides/world-boss-chart) — Full world boss roster and schedules
 - [Farming Resource Guide](/guides/farming-resource-guide) — Best farming locations for endgame materials
 - [Solo Guide](/guides/solo-guide) — Solo play strategies for leveling
 - [Crafting Guide](/guides/crafting-guide) — Craft endgame consumables and gear

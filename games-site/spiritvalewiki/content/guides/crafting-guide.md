@@ -85,15 +85,15 @@ Refinement increases equipment base stats. The system uses a standard MMO upgrad
 
 | Refine Level | Success Rate | Materials | Stat Increase |
 |-------------|-------------|-----------|---------------|
-| +1 to +3 | 100% | 1 Refine Stone per attempt | +5% base stats |
-| +4 to +6 | 70% | 2 Refine Stones | +10% base stats |
-| +7 to +9 | 40% | 3 Refine Stones + 1 Stabilizer | +15% base stats |
-| +10 | 20% | 5 Refine Stones + 2 Stabilizers | +25% base stats |
+| +1 to +3 | Always succeeds | 1 Refine Stone per attempt | Small stat bonus |
+| +4 to +6 | Most attempts | 2 Refine Stones | Moderate stat bonus |
+| +7 to +9 | About half | 3 Refine Stones + 1 Stabilizer | Large stat bonus |
+| +10 | The hardest attempt | 5 Refine Stones + 2 Stabilizers | The largest stat bonus |
 
 ### Refinement Materials
 
 - **Refine Stone:** Drops from bosses, mining nodes, or purchased from player stalls
-- **Stabilizer:** Increases success rate by 15% per stack (max 2 per attempt)
+- **Stabilizer:** Noticeably increases the success rate of higher refine levels (max 2 per attempt)
   - Crafted at Alchemy Station using 10 Refine Stones
 
 ### Important Notes
@@ -109,10 +109,10 @@ Refinement increases equipment base stats. The system uses a standard MMO upgrad
 SpiritVale has a player-driven economy. Key points:
 
 - **Stall System:** Set up a vendor stall in town squares (Vale's Rest, Ironforge Outpost)
-- **No Auction House:** All player trading must be done via stalls or direct trade
+- **Auction House status:** The Auction House is temporarily down for a rebuild — live trading currently runs through the vending stalls and direct trade
 - **Hot Items:** Refine Stones, rare cards, endgame crafted gear
 - **Pricing:** Check multiple stalls before buying; prices vary widely
-- **Tax:** 5% transaction tax on all stall sales
+- **Tax:** A small transaction tax on all stall sales
 
 ---
 

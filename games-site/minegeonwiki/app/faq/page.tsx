@@ -20,9 +20,9 @@ const FAQ_ITEMS = [
   { question: 'Is there cross-play?', answer: 'Not applicable at launch — the game is Steam-only. If console versions are announced later, cross-play status would be up to the developer.' },
   { question: 'Can I play offline?', answer: 'Not officially confirmed. The game is single-player capable, but the Steam page lists a broadband connection as a requirement, so assume an internet connection is needed until the developer says otherwise.' },
   { question: 'Does it support Steam Deck?', answer: 'Not officially confirmed. Steam Deck support is not listed on the store page, and controller support is not listed either. Assume keyboard and mouse on desktop until verified.' },
-  { question: 'Is there a demo?', answer: 'Yes. A free demo (Demo 2.0) is available on Steam. It covers the first of the six biomes and the first chapter of the story, with base and character upgrades. Demo reviews were "Very Positive" (82% of 75 reviews at the time of writing).' },
+  { question: 'Is there a demo?', answer: 'Yes. A free demo (Demo 2.0) is available on Steam. It covers the first of the six biomes and the first chapter of the story, with base and character upgrades. The demo was rated "Very Positive" on Steam at the time of writing.' },
   { question: 'Who is the developer?', answer: 'MineGeon: Renegades is developed and published by Kickstone Studio. It is not related to any earlier "MineGeon" game by another studio.' },
-  { question: 'What are the system requirements?', answer: 'Minimum: Windows 10, 2.4 GHz CPU, 4 GB RAM, integrated GPU (1024 MB) or better, DirectX 10, broadband connection, 2 GB storage. Recommended: Windows 11, 3.2 GHz CPU, 8 GB RAM, GeForce GTX 480 / Radeon HD 5870 or better, DirectX 11, 2 GB storage. 1080p / 16:9 recommended.' },
+  { question: 'What are the system requirements?', answer: 'As listed on the official Steam store page: Minimum — Windows 10, 2.4 GHz CPU, 4 GB RAM, integrated GPU (1024 MB) or better, DirectX 10, broadband connection, 2 GB storage. Recommended — Windows 11, 3.2 GHz CPU, 8 GB RAM, GeForce GTX 480 / Radeon HD 5870 or better, DirectX 11, 2 GB storage. 1080p / 16:9 recommended.' },
 ];
 
 export default function FAQPage() {

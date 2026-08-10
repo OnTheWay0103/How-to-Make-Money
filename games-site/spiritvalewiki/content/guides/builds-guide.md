@@ -1,14 +1,14 @@
 ---
-title: "SpiritVale Builds Guide — Paladin, Berserker, Archmage, Sniper"
-description: "Meta builds for SpiritVale Early Access. Attribute allocation, skill priority, and card recommendations for Paladin Tank, Berserker DPS, Archmage AoE, and Sniper boss killer."
+title: "SpiritVale Builds Guide — Paladin, Berserker, Wizard, Sniper"
+description: "Meta builds for SpiritVale Early Access. Attribute allocation, skill priority, and card recommendations for Paladin Tank, Berserker DPS, Wizard AoE, and Sniper boss killer."
 category: "Guides"
 version: "EA"
 updated: "2026-07-12"
-keywords: ["SpiritVale builds", "SpiritVale Paladin build", "SpiritVale Berserker build", "SpiritVale Archmage build", "SpiritVale Sniper build"]
+keywords: ["SpiritVale builds", "SpiritVale Paladin build", "SpiritVale Berserker build", "SpiritVale Wizard build", "SpiritVale Sniper build"]
 related: ["classes-guide", "class-tier-list", "cards-guide", "boss-guide"]
 ---
 
-# SpiritVale Builds Guide — Paladin, Berserker, Archmage, Sniper
+# SpiritVale Builds Guide — Paladin, Berserker, Wizard, Sniper
 
 **SpiritVale EA / Updated: July 12, 2026**
 
@@ -63,11 +63,11 @@ Highest melee burst damage in the game. Trade defense for raw offense.
 
 ### Skill Priority
 
-1. **Rage Unleashed (Max)** — Core damage steroid
-2. **Whirlwind Slash (Max)** — Primary AoE
-3. **Blood Strike (Max)** — Self-healing, damage combo
-4. **Furious Leap (1)** — Gap closer
-5. **Berserker Fury (Max)** — Attack speed + damage buff
+1. **Whirlwind (Max)** — Primary AoE
+2. **Rampage (Max)** — Core damage steroid; greatly increased attack speed at the cost of taking more damage
+3. **Twin Cleave (Max)** — Combo finisher, used inside Combo Ready windows
+4. **Bash (Max)** — Opens the Combo Ready window for finishers
+5. **Stomp (1)** — Stun and gap setup
 
 ### Card Recommendations
 
@@ -80,7 +80,7 @@ Highest melee burst damage in the game. Trade defense for raw offense.
 
 ---
 
-## 3. Archmage (Wizard) AoE Build
+## 3. Wizard (Mage) AoE Build
 
 The fastest PvE farmer. Screen-clearing AoE at the cost of being extremely fragile.
 
@@ -125,11 +125,11 @@ The highest single-target DPS in the game. Built for bossing and PvP.
 
 ### Skill Priority
 
-1. **Precise Shot (Max)** — Main single-target nuke
-2. **Hawkeye (Max)** — Range + crit rate buff
-3. **Arrow Rain (1)** — Situational AoE
-4. **Traps (Max)** — CC and zone control
-5. **Eagle Eye (Max)** — Damage amplification on single target
+1. **True Shot (Max)** — The Sniper's signature: a guaranteed critical hit that ignores defense
+2. **Hawk Eye (Max)** — Range and accuracy buff
+3. **Piercing Shot (Max)** — Line-AoE for pack damage
+4. **Barrage (Max)** — Single-target burst
+5. **Arrow Rain (1)** — Situational AoE
 
 ### Card Recommendations
 

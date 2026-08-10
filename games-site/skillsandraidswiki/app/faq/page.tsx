@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 };
 
 const FAQ_ITEMS = [
-  { question: 'What is Skills & Raids?', answer: 'Skills & Raids is a party-based extraction RPG by solo developer Eddie H. Hinestroza, released on Steam on July 27, 2026. You command a fixed party of three animal heroes — Shelldon (turtle tank), Clawrk (tiger DPS), and Owlivia (owl healer) — in real-time ability-driven combat. Fight, extract resources, and craft gear and skills between runs.' },
+  { question: 'What is Skills & Raids?', answer: 'Skills & Raids is a party-based extraction RPG by solo developer Eddie H. Hinestroza, available now on Steam. You command a fixed party of three animal heroes — Shelldon (turtle tank), Clawrk (tiger DPS), and Owlivia (owl healer) — in real-time ability-driven combat. Fight, extract resources, and craft gear and skills between runs.' },
   { question: 'Is it single-player?', answer: 'Yes. The game is strictly single-player — you control the full party yourself. There is no multiplayer, no co-op, and no PvP. Steam Cloud and Family Sharing are supported.' },
   { question: 'Is there a demo?', answer: 'Yes. A free demo is available on Steam with 11 quests, 2 biomes, and 15 skills — a solid preview of the full game, which has 21+ quests, 5 biomes, and 30 skills.' },
   { question: 'How does combat work?', answer: 'Combat is real-time and ability-driven: each hero equips two abilities, and you manage skill rotations, cooldowns, and resources while reacting to enemy mechanics. Status effects heavily influence every encounter, and a pause mechanic lets you read skill and status descriptions mid-fight. Positioning also matters.' },
@@ -19,9 +19,9 @@ const FAQ_ITEMS = [
   { question: 'How do skill synergies work?', answer: 'The developer\'s pitch: combining multiple skills creates powerful synergies that change your approach to combat. The exact trigger rules are not publicly documented yet — the community is still mapping the 30-skill roster.' },
   { question: 'How long is the game?', answer: 'Approximately 2-5 hours of content (per the Steam page): 21+ quests, 5 biomes, and 30 skills.' },
   { question: 'How do I progress?', answer: 'Through quests — target objectives, resource collection, and using specific abilities — which unlock new equipment and skills, plus crafting from extracted resources. There are no character levels or skill trees.' },
-  { question: 'What are the PC system requirements?', answer: 'Windows 10 or newer (64-bit), Intel i3 4th gen or equivalent, 1 GB RAM, most dedicated GPUs, and 1 GB of storage. 12 languages are supported (interface and subtitles).' },
-  { question: 'What does it cost?', answer: 'It is a paid game on Steam — ¥42.00 with a launch 20% intro discount (¥33.60) until August 10, 2026. A Supporter Pack bundle (game + Official Artbook + Soundtrack) and separate Artbook/Soundtrack DLC are also available. Regional pricing varies.' },
-  { question: 'Are reviews good?', answer: 'At the time of writing the game holds a "Mixed" rating (67% positive of 37 reviews) on Steam — typical for a new solo-dev release, and reviews may shift as patches land.' },
+  { question: 'What are the PC system requirements?', answer: 'The published minimum and recommended specs are listed on the official Steam store page — check there for the current requirements. The game is Windows 64-bit only, and 12 languages are supported (interface and subtitles).' },
+  { question: 'What does it cost?', answer: 'It is a paid game on Steam — check the official store page for current pricing and bundles (a Supporter Pack and artbook/soundtrack DLC are available). Regional pricing varies.' },
+  { question: 'Are reviews good?', answer: 'Reviews were mixed at the time of writing — typical for a new solo-dev release, and they may shift as patches land. Check the store page for the current rating.' },
   { question: 'Can I play offline?', answer: 'Yes — the game is single-player with no online requirement for gameplay. Steam Cloud syncs your saves when online.' },
 ];
 

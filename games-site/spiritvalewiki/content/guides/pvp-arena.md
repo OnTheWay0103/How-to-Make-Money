@@ -1,18 +1,18 @@
 ---
 title: "SpiritVale PvP Arena Guide — Modes, Ranked Seasons, and Meta"
-description: "Complete PvP Arena guide for SpiritVale. All arena modes, ranked season structure, arena gear, class meta, team compositions, and advanced tactics to climb the Colosseum leaderboard."
+description: "Complete PvP Arena guide for SpiritVale. All arena modes, ranked season structure, arena gear, class meta, team compositions, CC chaining, cooldown trading, and advanced tactics to climb the Colosseum leaderboard."
 category: "Guides"
 version: "EA"
-updated: "2026-07-31"
+updated: "2026-08-09"
 keywords: ["SpiritVale PvP arena", "SpiritVale arena modes", "SpiritVale ranked arena", "SpiritVale arena gear", "SpiritVale arena meta", "SpiritVale Colosseum"]
-related: ["pvp-guide", "class-tier-list", "builds-guide", "class-synergy", "cards-guide"]
+related: ["class-tier-list", "builds-guide", "party-composition", "cards-guide", "guild-guide"]
 ---
 
 # SpiritVale PvP Arena Guide — Modes, Ranked Seasons, and Meta
 
-**SpiritVale EA / Updated: July 31, 2026**
+**SpiritVale EA / Updated: August 9, 2026**
 
-The Colosseum is SpiritVale's competitive arena hub. Between 1v1 duels and 6v6 battles, every mode rewards arena currency, and ranked seasons crown the best players on the server. PvP in the arena plays completely differently from open-world PvP — no ganking, no terrain, no escape routes. This guide covers every mode, the current meta, and how to climb.
+The Colosseum is SpiritVale's competitive arena hub. Between 1v1 duels and 6v6 battles, every mode rewards arena currency, and ranked seasons crown the best players on the server. PvP in the arena plays completely differently from open-world PvP — no ganking, no terrain, no escape routes. This guide covers every mode, the current meta, and how to climb. (Guild Wars — the 15v15 Warfront — are a separate competitive system; see the [Guild Guide](/guides/guild-guide).)
 
 ---
 
@@ -29,6 +29,12 @@ The Colosseum is SpiritVale's competitive arena hub. Between 1v1 duels and 6v6 b
 - 1v1 has no respawns — every death is a round lost
 - 3v3 has 10-second respawn timers; round economy matters
 - 6v6 has capture points worth more than kills — a team that ignores objectives loses
+
+**Positioning fundamentals that apply to every mode:**
+
+- **1v1:** control the center of the arena. Forcing your opponent to approach gives you reaction advantage and lets you dictate engagement range
+- **3v3:** maintain a triangle formation — the tank leads the push, DPS flanks from an off-angle, support stays mid-range within heal distance of both
+- **6v6:** never overextend past your team's midline. A dead player is 10 seconds of pressure on your team
 
 ---
 
@@ -47,14 +53,16 @@ Ranked play runs in 6-week seasons. Your rank resets each season, but cosmetic r
 
 **Climbing rules:**
 
-- Win streaks grant bonus points (+25% at 3 wins, +50% at 5)
+- Win streaks grant bonus points (larger streaks pay more)
 - Losing streaks cost reduced points after 3 losses (protection)
-- You cannot drop a full rank tier once earned — Bronze 3 to Silver, etc.
+- You cannot drop a full rank tier once earned — Bronze to Silver, etc.
 - Arena currency (Colosseum Tokens) is earned per match regardless of outcome
 
 ---
 
-## 3. Arena Gear
+## 3. Arena Gear and Stat Priority
+
+### Arena Gear Sets
 
 Arena gear comes from the Arena Vendor in the Colosseum lobby. It carries player-versus-player stats that do nothing in PvE:
 
@@ -64,7 +72,20 @@ Arena gear comes from the Arena Vendor in the Colosseum lobby. It carries player
 | Colosseum Set | +Player Damage, +CC reduction | 12,000 |
 | Legend Challenger Set | Best-in-slot PvP stats, set bonus | 20,000 |
 
-**Rule**: never wear PvE gear into ranked arena — the player damage stats are worth more than raw Gear Score. Keep two loadouts: one for PvE, one for PvP.
+**Set priority:** pick up a 2-piece PvP set first for the damage-reduction bonus, then build toward a 4-piece set for the full player-damage bonus. Mix PvP pieces with PvE pieces only when the PvE piece has significantly better stat rolls.
+
+**Rule:** never wear PvE gear into ranked arena — the player damage stats are worth more than raw Gear Score. Keep two loadouts: one for PvE, one for PvP.
+
+### Stat Priority by Role
+
+| Role | Primary Stat | Secondary | Tertiary |
+|------|-------------|-----------|----------|
+| Burst DPS | Critical Damage | Attack Power | Penetration |
+| Sustained DPS | Attack Speed | Critical Rate | Attack Power |
+| Tank | Max HP | Physical Defense | Magic Defense |
+| Support | Cooldown Reduction | Max MP | Healing Power |
+
+**Enhancement tips:** weapon stones favor on-hit slow or silence for melee classes and penetration for ranged; armor stones should always include stun resistance. On accessories, cooldown reduction and movement speed are king.
 
 ---
 
@@ -103,17 +124,55 @@ Arena gear comes from the Arena Vendor in the Colosseum lobby. It carries player
 - Every comp needs at least one class that can take an objective (Paladin or Berserker)
 - Every comp needs one way to remove debuffs — Priest is the only reliable one
 - Do not run two stealth classes — vision control is wasted on the second
+- Class pairs with built-in synergies outperform random mixes — see the [Party Composition Guide](/guides/party-composition)
 
 ---
 
-## 6. Advanced Tactics
+## 6. Advanced Combat Tactics
 
-- **1v1: control the center.** Forcing your opponent to approach gives you reaction advantage
-- **3v3: kill the healer first.** CC the Priest, burst, then clean up — the standard high-rank play
-- **6v6: objectives beat kills.** A 10-point capture is worth five kills; defend points, not corpses
-- **Track cooldowns**: the arena meta is cooldown trading. If the enemy Shinobi used their stealth, it is safe to push for 20 seconds
+### 6.1 Crowd Control Chaining
+
+Coordinated CC chains decide 3v3 rounds. A standard execution sequence:
+
+1. **Initiate** with a stun or silence — Shinobi's Backstab opener or Paladin's Smite
+2. **Extend** with a root or freeze immediately after the stun ends — Wizard's Frost Nova or Sniper's Piercing Shot follow-up
+3. **Execute** with burst damage while the target is completely locked down
+
+A well-executed chain locks an opponent for several seconds — enough time to delete any non-tank class. Practice these chains with your team in unranked matches before taking them to ranked.
+
+### 6.2 Cooldown Trading
+
+Track enemy cooldowns mentally. When a Shinobi uses their stealth, you have a long window to play aggressively without fear of their opener. When a Paladin pops a defensive skill, back off and wait it out — they are effectively unkillable for its duration.
+
+**Rule of thumb:** if you force an enemy cooldown without using one of your own, you win the trade. If they force yours, you lost the exchange.
+
+### 6.3 Target Calling in 3v3
+
+Clear, decisive calls win matches. Follow this protocol:
+
+1. **Identify the kill target** before the round starts — usually the enemy support or squishiest DPS
+2. **Call the engage** — "3, 2, 1, go on Priest"
+3. **Adapt when countered** — "They peeled. Swap to Wizard."
+
+Split damage is the number one reason teams lose winnable matches. Everyone must hit the same target.
+
+### 6.4 Map and Timing Fundamentals
+
+- **Track cooldowns**: the arena meta is cooldown trading. If the enemy Shinobi used their stealth, it is safe to push
 - **Use the terrain**: pillars block Sniper lines and Wizard AoE — fight around them, not in the open
 - **Save burst for kill windows**: burning everything on a full-HP target lets their Priest reset the fight
+- **6v6: objectives beat kills.** A big capture is worth several kills; defend points, not corpses
+
+---
+
+## 7. Practice Routine
+
+Build consistent habits to improve steadily:
+
+1. **Daily:** Win at least 3 unranked matches to maintain muscle memory and reaction time
+2. **Weekly:** Review one recorded match and identify a single mistake to fix next session
+3. **Monthly:** Spend one week playing a different class to understand its weaknesses from the inside
+4. **Drill:** Practice CC chain combos on the Colosseum training dummies for 10 minutes before queuing
 
 ---
 
@@ -129,8 +188,8 @@ Arena gear comes from the Arena Vendor in the Colosseum lobby. It carries player
 
 ## Related Guides
 
-- [PvP Guide — Arena Combat and Class Rankings](/guides/pvp-guide)
 - [Class Tier List — PvE and PvP Rankings](/guides/class-tier-list)
 - [Builds Guide — Full Build Database](/guides/builds-guide)
-- [Class Synergy Guide — Best Team Combinations](/guides/class-synergy)
+- [Party Composition — Team Building and Synergies](/guides/party-composition)
 - [Cards Guide — Card System and Builds](/guides/cards-guide)
+- [Guild Guide — Guild Wars and Warfront](/guides/guild-guide)
