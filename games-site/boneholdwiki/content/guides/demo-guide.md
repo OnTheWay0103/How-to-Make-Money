@@ -21,7 +21,7 @@ Bonehold has a **free demo on Steam** — and for a $9 roguelike, trying before 
 | A free demo exists on Steam | ✅ Confirmed — "Bonehold Demo", free to download |
 | It lets you play early dungeon floors | ✅ Confirmed by the site FAQ ("play through the early dungeon floors") |
 | It lets you try several classes | ✅ Confirmed by the site FAQ ("try several classes") |
-| Demo progress carries into the full game | ⚠️ Unconfirmed (待验证) — no official statement exists; assume a fresh start unless told otherwise |
+| Demo progress carries into the full game | ⚠️ Unconfirmed (unverified) — no official statement exists; assume a fresh start unless told otherwise |
 | Demo system requirements | ⚠️ Not separately published — assume the full game's specs |
 | Demo release date | ⚠️ Not separately listed — the full game released July 28, 2026 |
 
@@ -60,7 +60,7 @@ This is the most practical demo use: the full game's system requirements contain
 
 ## How Long Is the Demo?
 
-Unconfirmed — no official duration exists. Based on what the FAQ confirms (early floors, several classes) and typical roguelike demo design, expect a session roughly in the range of the game's average session length (about 1.5–2 hours of playtime reported in player analytics for the full game). Treat that as a rough estimate, not a promise.
+Unconfirmed — no official duration exists. Based on what the FAQ confirms (early floors, several classes) and typical roguelike demo design, expect a session roughly in the range of the game's average session length (about 1.6 hours of playtime reported in launch player analytics for the full game). Treat that as a rough estimate, not a promise.
 
 ## Demo vs. Full Game: What You Are Not Seeing
 

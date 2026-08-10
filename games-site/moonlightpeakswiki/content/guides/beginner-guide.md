@@ -14,7 +14,7 @@ related: ["farming-guide", "quests-guide", "money-guide"]
 
 Welcome to Moonlight Peaks, fledgling. You play the child of **Count Dracula**, who leaves the family castle behind to build a wholesome life in a supernatural town where nothing — not farming, not foraging, not friendship — happens before the sun goes down. This guide covers your first five nights: the core loop, what to unlock first, how to manage your **stamina** and **mana**, and the mistakes that slow down most new players.
 
-**Moonlight Peaks** is a gothic cozy vampire farming and life sim by Dutch indie studio **Little Chicken Game Company**, published by **XSEED Games / Marvelous USA**. It launched **July 7, 2026** on **Steam (PC), Nintendo Switch, Switch 2, and Android (Google Play Games)** (macOS support is also reported), with a **free demo** on Steam and a launch-period discount. It has sold **200,000+ copies** in about three weeks and sits at **89% "Very Positive"** on Steam (some outlets have logged it higher, around 90% — check the store page for the current figure).
+**Moonlight Peaks** is a gothic cozy vampire farming and life sim by Dutch indie studio **Little Chicken Game Company**, published by **XSEED Games / Marvelous USA**. It launched **July 7, 2026** on **Steam (PC), Nintendo Switch, Switch 2, and Android (Google Play Games)** (macOS support is also reported), with a **free demo** on Steam and a launch-period discount. The developer has reported strong early sales (over **200,000 copies in the first three weeks**), and the game holds a **"Very Positive"** rating on Steam — check the store page for current figures.
 
 ## The Core Loop: Everything Happens at Night
 
@@ -86,7 +86,7 @@ Not every system unlocks on night one. Here's the order that gets you the most c
 ## What to Know About Town Life
 
 - **All socializing happens at night** — residents are awake on roughly the same clock as you.
-- **23 residents are romanceable** across the town's **seven families** (Dracula, Ambrosia, Logan, Webb, Khazan, Horseus, Henderson) plus standalones (Death, Llemi), and romance is **fully LGBTQIA+ friendly** — no gender restrictions on any relationship.
+- **24 residents are romanceable** across the town's **seven families** (Dracula, Ambrosia, Logan, Webb, Khazan, Horseus, Henderson) plus standalones (Death, Llemi), and romance is **fully LGBTQIA+ friendly** — no gender restrictions on any relationship.
 - **Nokturna**, the in-game card game with **67 cards**, is a great way to pass late nights and earn money — opponents can be found around town.
 - **Divorce is handled by Llemi**, a love demon who runs a "clean slate" service from her house in the Pink Grove — your ex-spouse goes back to being a friend with no drama, so you never need to worry about being "stuck" in a marriage.
 - Your **haunted cottage** is fully customizable — but cosmetics come after tools in the upgrade order.

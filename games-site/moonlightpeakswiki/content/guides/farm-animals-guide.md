@@ -25,7 +25,7 @@ Animals are Moonlight Peaks' passive-income layer — and the ingredient engine 
 | Animal | Cost | Product | Unlock |
 |--------|------|---------|--------|
 | **Cheeken** | 1,200 Coins | Eggs (and Golden Egg) | Early game — "Farm Animals For Sale" quest (Day 2) |
-| **Rabbicula** | 2,800 Coins | **Luck Dust** dig spots | Spring, Year 2 (Luna's letter) |
+| **Rabbicula** | 2,800 Coins | **Luck Dust** dig spots | Early game (Luna's letter; save up in week one) |
 | **Piggoat** | 3,500 Coins | Piggoat Milk (→ Hellfeta Cheese) | After building a Barn |
 | **Draculamb** | 4,500 Coins | Draculamb Milk + Wool (→ Ghoulembert Cheese) | After building a Barn |
 | **Cowcula** | 6,000 Coins | Cowcula Milk (→ Standard Cheese) | After building a Barn |
@@ -63,7 +63,7 @@ Clean out the **fertilizer** animals produce regularly so it doesn't overflow �
 
 ## Rabbicula — The Luck Dust Machine
 
-The standout animal (2,800 Coins, Spring Year 2). A well-fed, happy Rabbicula periodically creates **Luck Dust dig spots** around accessible farm areas — collect with a Shovel or in Hellkitten form. Luck Dust is:
+The standout animal (2,800 Coins — reachable within the first couple of weeks). A well-fed, happy Rabbicula periodically creates **Luck Dust dig spots** around accessible farm areas — collect with a Shovel or in Hellkitten form. Luck Dust is:
 
 - The **primary ingredient for Love Potions** (recipe from Sabrina at Webb of Wonders) — which boost friendship gained from gifts
 - A "Liked" gift for almost every villager — except **Death**, who doesn't appreciate it
@@ -87,6 +87,6 @@ The standout animal (2,800 Coins, Spring Year 2). A well-fed, happy Rabbicula pe
 | **Bumpkin** | Plops | Moonshine (via Keg) | Money recipes (Bloody Mana Mary, Eggnog) |
 | **Rabbicula** | Luck Dust | — | Love Potions, gifts, selling (110 Coins) |
 
-**Early-game pick:** Cheeken (1,200 Coins, Day 2) — eggs feed the best starter recipes. **Mid-game priority:** Piggoat or Draculamb for the milk→cheese chains. **Late-game goals:** Bumpkin and Rabbicula for the Moonshine and Luck Dust economies.
+**Early-game pick:** Cheeken (1,200 Coins, Day 2) — eggs feed the best starter recipes. **Early-to-mid priority:** Rabbicula (2,800 Coins) once you save up — the Luck Dust economy feeds the Love Potion chain. **Mid-game:** Piggoat or Draculamb for the milk→cheese chains. **Late-game goals:** Bumpkin for the Moonshine economy.
 
 **Next steps:** Turn animal products into gold with the [Cooking & Recipes Guide](/guides/cooking-recipes-guide), and brew the potions that make the whole farm click in the [Potions Guide](/guides/potions-guide).

@@ -2,34 +2,32 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Class Tier List',
-  description: 'Phantom Tower class tier list — best class rankings for beginners, Climb Mode, and Survival Mode. S-tier to C-tier rankings for all 8 classes at Early Access launch (July 2026).',
+  description: 'Phantom Tower class tier list — best class rankings for the 4 confirmed classes (Warrior, Mage, Archer, Assassin) for beginners, Climb Mode, and Survival Mode. The other 4 of 8 classes are unannounced.',
 };
 
 const OVERALL_TIERS = [
-  { tier: 'S', classes: ['Elementalist', 'Blade Dancer'], note: 'Highest ceiling — Elementalist exploits all 16 reactions, Blade Dancer dominates with dodge-offensive blessings' },
-  { tier: 'A', classes: ['Warrior', 'Berserker', 'Ranger'], note: 'Reliable and consistent — Warrior tanks anything, Berserker melts bosses, Ranger kites safely' },
-  { tier: 'B', classes: ['Guardian', 'Mystic'], note: 'Strong in specific builds — Guardian shines in Survival Mode, Mystic requires blessing knowledge to pop off' },
-  { tier: 'C', classes: ['Rogue'], note: 'High skill floor — devastating burst potential but unforgiving positioning requirements, not recommended for beginners' },
+  { tier: 'S', classes: ['Mage', 'Archer'], note: 'Highest ceiling among confirmed classes — Mage exploits the 16-element reaction system from range, Archer controls space safely on every floor' },
+  { tier: 'A', classes: ['Warrior'], note: 'Reliable and consistent — the official starting class tanks anything and teaches the whole combat loop' },
+  { tier: 'B', classes: ['Assassin'], note: 'High mobility, high lethality "Shadow Specialist" with Shadow Clones — powerful but demanding; no official difficulty data exists yet' },
 ];
 
 const BEGINNER_TIERS = [
-  { tier: 'Best', classes: ['Warrior'], note: 'Balanced stats, forgiving HP pool, straightforward combos. The tutorial class done right — great for learning all mechanics.' },
-  { tier: 'Good', classes: ['Ranger', 'Guardian'], note: 'Ranger teaches ranged combat and positioning safely. Guardian teaches blocking and defensive blessing stacking.' },
-  { tier: 'Avoid', classes: ['Elementalist', 'Rogue'], note: 'Elementalist requires knowing all 16 elemental reactions. Rogue demands perfect dodge timing and boss pattern memorization.' },
+  { tier: 'Best', classes: ['Warrior'], note: 'The official starting class — melee fundamentals, flexible element affinity, and the game teaches its mechanics around it. Great for learning all systems.' },
+  { tier: 'Good', classes: ['Archer', 'Mage'], note: 'Archer teaches ranged combat and spacing safely. Mage is a natural fit for the element-swap reaction system.' },
+  { tier: 'Avoid for now', classes: ['Assassin'], note: 'Repositioning tools, burst damage, and clone-based tricks point to a demanding, combo-oriented playstyle — better after you know enemy patterns.' },
 ];
 
 const SURVIVAL_TIERS = [
-  { tier: 'S', classes: ['Guardian', 'Elementalist'], note: 'Guardian\'s defensive blessings and HP scaling are unmatched in infinite hordes. Elementalist\'s AoE chain reactions clear waves efficiently.' },
-  { tier: 'A', classes: ['Berserker', 'Blade Dancer'], note: 'Berserker\'s damage ramps infinitely with kill chains. Blade Dancer\'s mobility keeps them alive in dense rooms.' },
-  { tier: 'B', classes: ['Warrior', 'Mystic'], note: 'Warrior is survivable but kills too slowly in later waves. Mystic needs specific blessing combos to compete.' },
-  { tier: 'C', classes: ['Ranger', 'Rogue'], note: 'Ranger struggles with enemy density in small arena rooms. Rogue\'s burst style is inconsistent in endless mode.' },
+  { tier: 'S', classes: ['Mage', 'Archer'], note: 'Range is king against infinite hordes — Mage AoE reactions clear waves, Archer kites safely in dense rooms' },
+  { tier: 'A', classes: ['Warrior'], note: 'Survivable through the early waves; kills more slowly than ranged classes as the horde scales' },
+  { tier: 'B', classes: ['Assassin'], note: 'Burst style is inconsistent in endless mode — strong in bursts, fragile when surrounded' },
 ];
 
 export default function TierListPage() {
   return (
     <div className="max-w-3xl mx-auto px-4 py-12">
       <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">Class Tier List</h1>
-      <p className="text-gray-400 mb-2">Phantom Tower class rankings for Early Access launch (July 13, 2026). Based on community data and early playtesting.</p>
+      <p className="text-gray-400 mb-2">Phantom Tower class rankings for Early Access launch (July 13, 2026), based on the confirmed class descriptions. Only the 4 officially named classes are ranked — see the note below.</p>
       <div className="inline-flex items-center gap-1 text-xs font-medium px-2 py-0.5 rounded bg-purple-900/30 text-purple-400 border border-purple-800/50 mb-8">Early Access version — subject to balance patches</div>
 
       {[{ title: 'Overall Rankings', tiers: OVERALL_TIERS }, { title: 'Best Classes for Beginners', tiers: BEGINNER_TIERS }, { title: 'Survival Mode Rankings', tiers: SURVIVAL_TIERS }].map((section) => (
@@ -58,10 +56,13 @@ export default function TierListPage() {
       <div className="bg-[#1a1a3e] border border-[#2a2a5e] rounded-lg p-5">
         <h3 className="text-white font-semibold mb-2">A Note on Tier Lists</h3>
         <p className="text-gray-400 text-sm leading-relaxed">
-          Phantom Tower entered Steam Early Access on July 13, 2026. All eight classes are viable — weapon choice,
-          elemental mastery, Tower Blessing synergies, and player skill matter far more than tier rankings. The "best"
-          class is the one whose playstyle you enjoy most. The Soulbinder system means any class can be specialized
-          to handle any content with enough investment.
+          Phantom Tower has 8 classes at launch, but only 4 are officially named: Warrior, Mage, Archer, and
+          Assassin. The other 4 are unannounced — names like "Elementalist," "Berserker," or "Rogue" circulating
+          in some guides and tier lists are community inventions, not official information. With no official stats
+          published, these rankings are judgment calls based on the confirmed class descriptions and the game's
+          confirmed mechanics (element swapping, Tower Blessings, the Soulbinder). The "best" class is the one whose
+          playstyle you enjoy most — and the Soulbinder system means any class can be specialized to handle any
+          content with enough investment.
         </p>
       </div>
     </div>

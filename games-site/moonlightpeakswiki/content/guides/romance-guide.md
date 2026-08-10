@@ -12,7 +12,7 @@ related: ["gift-guide", "characters-guide", "potions-guide"]
 
 > Launch Version / Updated: August 1, 2026
 
-Romance is one of the deepest systems in Moonlight Peaks — **23 residents** are fully dateable: 5 vampires, 4 witches, 3 werewolves, 3 seers, 3 mermaids/mermen, 3 humans, plus the standalone **Death** and **Llemi**. The game is **completely LGBTQIA+ friendly**: every romanceable character can be dated regardless of your character's appearance or identity, with no gender restrictions anywhere in the system. This guide explains the heart system, how to ask someone out, dates, proposals, weddings, and how divorce works.
+Romance is one of the deepest systems in Moonlight Peaks — **24 residents** are fully dateable: 6 vampires, 4 witches, 3 werewolves, 3 seers, 3 mermaids/mermen, 3 humans, plus the standalone **Death** and **Llemi**. The game is **completely LGBTQIA+ friendly**: every romanceable character can be dated regardless of your character's appearance or identity, with no gender restrictions anywhere in the system. This guide explains the heart system, how to ask someone out, dates, proposals, weddings, and how divorce works.
 
 ## How Relationships Work
 
@@ -62,7 +62,7 @@ Here are the romanceable residents we've documented so far, organized by their f
 | **Death the Reaper** | — | The Reaper on holiday | Summer 27 (reported) |
 | **Llemi** | — | Love demon, handles breakups & divorce | — |
 
-That's all **23 dateable characters** spanning the **seven families** (Dracula, Ambrosia, Logan, Webb, Khazan, Horseus, Henderson) plus the standalones **Death** and **Llemi**. Check the Characters Guide for the full family tree.
+That's all **24 dateable characters** spanning the **seven families** (Dracula, Ambrosia, Logan, Webb, Khazan, Horseus, Henderson) plus the standalones **Death** and **Llemi**. Check the Characters Guide for the full family tree.
 
 **Pro tip:** you can **date multiple characters simultaneously** with zero jealousy while dating — the game never forces a choice until you get married, and marriage locks other candidates at four hearts. So feel free to pursue everyone you like until you find the one you want to settle down with.
 

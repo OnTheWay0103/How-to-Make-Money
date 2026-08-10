@@ -84,6 +84,76 @@ Prices below are from community-compiled seed charts (seed cost → raw sell pri
 
 **Pro tip:** raw produce is the *worst* way to monetize a crop. Processed (Keg wine, Mill, Jam Maker) and potion-chain crops multiply your coins several times over. There are **53 seeds** in the game and **crops wither when the season changes**, so plant seasonally and pivot your field space to grapes and potion ingredients once the cauldron is online.
 
+## Season-by-Season: What to Plant
+
+Moonlight Peaks runs on a real calendar — four seasons (Spring, Summer, Autumn, Winter), each with its own rotating seed catalog at **Luna's Seed Stall in Moonlit Pines**. One hard rule shapes every planting decision: **crops wither when the season changes**. An out-of-season crop planted in the last week of Spring dies the night Summer begins, so never plant a slow crop late in its season unless it regrows fast enough to pay for itself — and count the nights carefully in the last week of any season.
+
+### Spring Crops (Year 1 Start)
+
+Spring is your tutorial season, and it starts with **Orlock's Wine Scheme** — he hands you Blood Grape seeds and a shovel on Spring 1.
+
+| Crop | Seed | Sell | Notes |
+|------|------|------|-------|
+| **Carrot** | 80 Coins | 160 Coins | **Best direct-profit Spring crop** — no processing needed |
+| **Eggplant** | 40 Coins | 90 Coins | Solid spring seller |
+| **Cruelcumber** | 30 Coins | 40 Coins | Cheap filler while you save for carrots |
+| **Wild Potato** | 20 Coins | — | Fast grower (3 nights) |
+| **Blood Grape** | 20 Coins | 5 Coins | Multi-harvest (5 nights, regrows every 4) — *process it* |
+| **White Grape** | 20 Coins | 10 Coins | Same cycle as Blood Grapes — even better wine |
+| **Raspberry** | 20 Coins | 6 Coins | Multi-harvest (7 nights, regrows every 2) |
+| **Strawberry** | 30 Coins | — | Multi-harvest (7 nights, regrows every 3); yields 3 berries |
+| **Blueberry** | 20 Coins | — | Spring *and* Winter crop (9 nights, regrows every 3) |
+
+**All-season basics:** **Onion** (10 Coins seed, 40 Coins sell, 4 nights), **Blood Tomato** (20/15), and **Wily Wheat** (30/60) grow in any season — useful for cooking and filler income between seasonal rotations.
+
+**Pro tip:** don't be fooled by the low grape sell price. Raw Blood Grapes go for 5 Coins — they exist to be processed into wine (360 Coins per bottle). In Spring, the play is: a couple of Carrots for cash, then pivoting your field to grapes and strawberries for the multi-harvest engine.
+
+### Summer Crops
+
+| Crop | Seed | Sell | Notes |
+|------|------|------|-------|
+| **Skunktail** | 80 Coins | 180 Coins | **Best direct-profit Summer crop** — also a magic crop |
+| **Raspberry** | 20 Coins | 6 Coins | Continues from Spring |
+| **Strawberry** | 30 Coins | — | Continues from Spring |
+| **Blood Grape / White Grape** | 20 Coins | 5–10 Coins | Continues — keep the Kegs running |
+
+**Pro tip:** Summer is when your Spring-planted multi-harvest crops really pay — a grape vine planted in Spring keeps producing through Summer with no new seed cost. Add Skunktail for direct cash and you're farming at full speed.
+
+### Autumn Crops
+
+| Crop | Seed | Sell | Notes |
+|------|------|------|-------|
+| **Pumpkin** | 90 Coins | 220 Coins | **Best direct-profit Autumn crop** |
+| **Lava Pepper** | 30 Coins | 8 Coins | Cheap, low sell value — grow it as an ingredient |
+| **Suffrain** | — | — | The **potion crop**: 7 days to grow, processed into **Suffrain Powder** for the Love Potion |
+| **Cranberry** | — | — | Multi-harvest, the autumn/winter continuation of the grape strategy |
+
+**Pro tip:** Autumn is the season that feeds the cauldron. Suffrain isn't a money crop — it's the pipeline to Love Potions (2200 Coins each), so treat a small Suffrain patch as infrastructure, not produce.
+
+### Winter Crops
+
+Winter is the thinnest season — most of the catalog goes dormant, and the plants that survive are the multi-harvest holdovers:
+
+- **Blueberry** (Spring *and* Winter — 9 nights, regrows every 3)
+- **Cranberry** (Autumn *and* Winter — multi-harvest)
+
+**Pro tip:** don't leave the farm dead in Winter. A blueberry/cranberry rotation keeps the Keg and Jam Maker fed, and winter is the classic season for focusing on the mine, fishing, Nokturna, and the potion chain instead of field expansion.
+
+### The Multi-Harvest Strategy
+
+The single best long-term farming decision is building your field around **multi-harvest crops** — plants that keep producing after their initial growth:
+
+| Crop | Initial | Regrow | Seasons |
+|------|---------|--------|---------|
+| Blood Grape | 5 nights | every 4 nights | Spring–Summer |
+| White Grape | 5 nights | every 4 nights | Spring–Summer |
+| Raspberry | 7 nights | every 2 nights | Spring–Summer |
+| Strawberry | 7 nights | every 3 nights | Spring–Summer |
+| Blueberry | 9 nights | every 3 nights | Spring + Winter |
+| Cranberry | multi-harvest | — | Autumn–Winter |
+
+You pay for the seed once and harvest all season. Grapes pair with the **Keg** (crafted from 10 Wood) to become the game's best early processing chain; raspberries and strawberries go straight to the stall or the Jam Maker.
+
 ## Stamina Management for Farmers
 
 The early game's **restrictive stamina** is the main farming bottleneck — here's how to farm without running dry:
@@ -107,6 +177,15 @@ The crop misses a growth tick and delays its harvest. Severe neglect can dry out
 
 **Are mystical crops better than normal crops?**
 Usually — but only if you use them correctly. Mystical crops shine as **gift and potion ingredients**, not as raw sales.
+
+**What's the best crop in each season?**
+**Carrot** (Spring), **Skunktail** (Summer), **Pumpkin** (Autumn) — the three best direct-profit crops, no processing required. For the long game, grapes and strawberries beat all three through the Keg.
+
+**Do crops die when the season changes?**
+Yes. Any out-of-season crop withers when the new season begins — replace your fields before the calendar flips.
+
+**Where do I buy seeds?**
+**Luna's Seed Stall in Moonlit Pines** — stock rotates by season, and the full game has 53 seeds in total.
 
 ## Next Steps
 

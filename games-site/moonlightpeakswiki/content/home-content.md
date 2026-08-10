@@ -12,7 +12,7 @@ related: ["beginner-guide", "romance-guide", "potions-guide", "quests-guide"]
 
 **Everything you need to build your un-life in the gothic vampire farming & life sim by Little Chicken Game Company / XSEED Games.**
 
-Moonlight Peaks launched on July 7, 2026 on Steam, macOS, Switch, Switch 2, and Android, and passed 200,000 copies sold within three weeks. This wiki covers romance, gifts, potions, quests, farming, mining, fishing, the Nokturna card game, and more for the launch build. Whether you are a first-night farmer or a veteran trying to marry Death himself, you will find practical, up-to-date information here.
+Moonlight Peaks launched on July 7, 2026 on Steam, macOS, Switch, Switch 2, and Android — the developer has reported over 200,000 copies sold within three weeks. This wiki covers romance, gifts, potions, quests, farming, mining, fishing, the Nokturna card game, and more for the launch build. Whether you are a first-night farmer or a veteran trying to marry Death himself, you will find practical, up-to-date information here.
 
 ---
 
@@ -39,7 +39,7 @@ Moonlight Peaks launched on July 7, 2026 on Steam, macOS, Switch, Switch 2, and 
 ## Featured Guides
 
 ### Romance Guide
-All 23+ dateable residents, the heart system, how to ask someone out, propose, and get married — no gender restrictions, fully LGBTQIA+ friendly. [Read the full guide →](/guides/romance-guide)
+All 24 dateable residents, the heart system, how to ask someone out, propose, and get married — no gender restrictions, fully LGBTQIA+ friendly. [Read the full guide →](/guides/romance-guide)
 
 ### Potion Making Guide
 Unlock your cauldron with "Mend it with Magic," brew the Love Potion (sells for 2,200 Coins), and farm rare ingredients like Luck Dust. [Read the full guide →](/guides/potions-guide)

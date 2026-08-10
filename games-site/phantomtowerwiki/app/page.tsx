@@ -17,7 +17,7 @@ const FAQ_ITEMS = [
   { question: 'Is Phantom Tower single-player or multiplayer?', answer: 'Phantom Tower is currently single-player only. The developers are exploring the possibility of implementing multiplayer co-op during Early Access. Both Climb Mode and Survival Mode are solo experiences.' },
   { question: 'How many classes are in Phantom Tower?', answer: 'There are 8 unique classes, each with distinct abilities, combat styles, and elemental affinities. The free version (mobile) includes the Warrior class, with additional classes unlockable. On Steam, all 8 classes are available.' },
   { question: 'What are the elements in Phantom Tower?', answer: 'The four elements are IGNIS (Fire), AQUA (Water), TERRA (Earth), and VENTI (Wind). You can swap elements mid-battle to trigger 16 different elemental reactions, including freezing, erosion, chain attacks, and shockwaves.' },
-  { question: 'What are Tower Blessings?', answer: 'Tower Blessings are powerful, game-changing abilities hidden across the tower floors. There are 47 unique blessings (like Artemis Descent and Chain Quake) that dramatically reshape each run. Stacking blessings creates powerful synergies.' },
+  { question: 'What are Tower Blessings?', answer: 'Tower Blessings are powerful, game-changing abilities hidden across the tower floors. There are 47 unique blessings (like Artemis Dive and Chain Quake) that dramatically reshape each run. Stacking blessings creates powerful synergies.' },
   { question: 'What happens when you die?', answer: 'In Climb Mode, you keep your forged equipment and character progression between runs, but lose items collected during that specific run. In Survival Mode, death is permanent — it is a true permadeath mode where you face infinite hordes.' },
 ];
 

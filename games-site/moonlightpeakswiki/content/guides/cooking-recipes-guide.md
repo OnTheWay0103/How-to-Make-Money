@@ -1,6 +1,6 @@
 ---
-title: "Moonlight Peaks Cooking & Recipes Guide — Best Dishes for Energy, Mana & Money"
-description: "How cooking works in Moonlight Peaks — the Cooking Station, star-quality system, cookbooks from Coffee and Coffins, the Keg for wines, and the best recipes for energy, mana and profit, with full ingredient lists."
+title: "Moonlight Peaks Cooking & Recipes Guide — Best Dishes for Stamina, Mana & Money"
+description: "How cooking works in Moonlight Peaks — the Cooking Station, star-quality system, cookbooks from Coffee and Coffins, the Keg for wines, and the best recipes for stamina, mana and profit, with full ingredient lists."
 category: "Guides"
 version: "1.0"
 updated: "2026-08-08"
@@ -8,17 +8,17 @@ keywords: ["moonlight peaks cooking", "moonlight peaks recipes", "moonlight peak
 related: ["potions-guide", "money-guide", "farming-guide", "festivals-events-guide"]
 ---
 
-# Moonlight Peaks — Cooking & Recipes Guide: Energy, Mana & Money Dishes
+# Moonlight Peaks — Cooking & Recipes Guide: Stamina, Mana & Money Dishes
 
 > Launch Version / Updated: August 8, 2026
 
-Cooking is Moonlight Peaks' workhorse system: it restores **Energy** and **Mana**, earns coins, wins festivals, and feeds romance. You start with a Cooking Station in your home and 16 basic recipes — the rest comes from cookbooks. This guide covers how cooking works, where recipes come from, and which dishes are actually worth making.
+Cooking is Moonlight Peaks' workhorse system: it restores **Stamina** and **Mana**, earns coins, wins festivals, and feeds romance. You start with a Cooking Station in your home and 16 basic recipes — the rest comes from cookbooks. This guide covers how cooking works, where recipes come from, and which dishes are actually worth making.
 
 ## How Cooking Works
 
 - **Cooking Station** — you start with one at home; each dish is made one at a time (no bulk cooking)
 - **Quality mini-game** — select a recipe, choose desired quality, then hit the button when the puck is in the red zone
-- **Star quality** — dishes come in No Star, 1 Star, and 2 Star versions; higher stars scale **Energy restored and sale price** (Mana values stay fixed)
+- **Star quality** — dishes come in No Star, 1 Star, and 2 Star versions; higher stars scale **Stamina restored and sale price** (Mana values stay fixed)
 - **The Keg** — drinks, wines, and alcohols are made here instead of the Cooking Station
 
 ## Cookbooks — Where Recipes Come From
@@ -27,13 +27,13 @@ Bought from **Coffee and Coffins**:
 
 | Cookbook | Price | Contains |
 |----------|-------|----------|
-| **Starter Cookbook** | 750 Coins | Basic dishes, early energy recipes |
-| **Cooking for Vampires** | 2,500 Coins | Most high-energy recipes |
+| **Starter Cookbook** | 750 Coins | Basic dishes, early stamina recipes |
+| **Cooking for Vampires** | 2,500 Coins | Most high-stamina recipes |
 | **Mana Cookbook** | 2,500 Coins | All Mana-restoring dishes |
 
-## Best Energy Recipes
+## Best Stamina Recipes
 
-| Dish | Energy | Recipe | Unlock |
+| Dish | Stamina | Recipe | Unlock |
 |------|--------|--------|--------|
 | **Watergruwel** | 110 | 2x Drikker, 1x Volacio | Cooking for Vampires |
 | **Mystery Meat Stew** | 120 | 1x Drikker | Community-confirmed (recipe details vary) |
@@ -43,7 +43,7 @@ Bought from **Coffee and Coffins**:
 | **Shakshuka** | 60–65 | 1x Blood Tomato, 1x Egg, 1x Googly Garlic Powder | Cooking for Vampires |
 | **Gazpacho Soup** | 40 | 2x Blood Tomato, 1x Onion | Starter — best early dish |
 
-**Early-game rule:** grow blood-related crops (Blood Tomatoes, Blood Oranges, Blood Grapes) — they power the best energy dishes and the best money recipes.
+**Early-game rule:** grow blood-related crops (Blood Tomatoes, Blood Oranges, Blood Grapes) — they power the best stamina dishes and the best money recipes.
 
 ## Best Money Recipes
 
@@ -66,10 +66,10 @@ All Mana dishes need **1x Mana Essence** and restore fixed Mana regardless of st
 
 | Dish | Recipe | Restores |
 |------|--------|----------|
-| **Mana Mandrake Soup** | 1x Happy Mandrake, 1x Nightshade Powder, 1x Mana Essence | 100 Energy / 4 Mana |
-| **Mana Milkshake** | 2x Sweet Wicca, 1x Draculamb Milk, 1x Mana Essence | 50 Energy / 3 Mana |
-| **Mana Coffee** | 1x Draculamb Milk + ingredients | 3 Energy / 3 Mana |
-| **Mana Moon Cupcake** | 1x Moonfruit + ingredients | 20 Energy / 2 Mana |
+| **Mana Mandrake Soup** | 1x Happy Mandrake, 1x Nightshade Powder, 1x Mana Essence | 100 Stamina / 4 Mana |
+| **Mana Milkshake** | 2x Sweet Wicca, 1x Draculamb Milk, 1x Mana Essence | 50 Stamina / 3 Mana |
+| **Mana Coffee** | 1x Draculamb Milk + ingredients | 3 Stamina / 3 Mana |
+| **Mana Moon Cupcake** | 1x Moonfruit + ingredients | 20 Stamina / 2 Mana |
 | **Mana Stew** | 1x Frosteria, 1x Void Radish, 1x Mana Essence | — |
 
 ## Recipe Families

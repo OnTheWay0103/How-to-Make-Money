@@ -4,7 +4,7 @@ description: 'Learn how Bonehold item prefixes work — the confirmed loot syste
 category: 'Items'
 version: '1.0'
 updated: '2026-08-01'
-keywords: ['Bonehold item prefixes', 'Bonehold loot guide', 'Bonehold legendary items', 'Bonehold items explained', 'Bonehold loot system', 'Bonehold build defining items']
+keywords: ['Bonehold item prefixes', 'Bonehold loot guide', 'Bonehold legendary items', 'Bonehold items explained', 'Bonehold loot system', 'Bonehold item rarity', 'Bonehold build defining items']
 related: ['weapons-guide', 'best-builds', 'tips-and-tricks', 'endgame-guide']
 ---
 
@@ -76,17 +76,60 @@ Stacking principles that follow from confirmed behavior:
 
 Since no official prefix list exists, treat any named "best prefix" advice from other sources as unverified theory. Evaluate what the *behavior* is and whether it stacks with what you have.
 
-## Loot Rarity and Quality — What We Know
+## Loot Rarity and Quality — Common to Legendary
 
-Bonehold's exact rarity tiers are not officially documented, but confirmed signals from launch materials and reviews:
+Bonehold has no officially published rarity table. The tiers below combine what reviews confirm (common gear is junk; legendaries are rare, top-tier, and build-defining) with genre-standard expectations. Specific drop rates, color schemes, and tier names beyond "common" and "legendary" are **not officially documented**.
 
-| Signal | Status |
-|--------|--------|
-| Common-quality items exist | Confirmed (reviews describe a "common mace" becoming run-defining with the right prefix) |
-| Legendary items exist as the top tier | Confirmed (described as rare, powerful, build-defining) |
-| Exact rarity colors / tier names | Unconfirmed |
-| Drop-rate percentages | Unconfirmed — any specific numbers online are invented |
-| Merchants selling items | Unconfirmed as a system — no official info |
+| Tier | Confirmed? | What Reviews Say | What It Is For |
+|------|-----------|------------------|----------------|
+| Common (white) | ✅ Confirmed to exist | One reviewer calls white gear drops "useless" | Early-run filler; sell, scrap, or swap the moment a prefix drop appears |
+| Uncommon / magic | ⚠️ Expected (unverified) | Genre-standard step above common; not explicitly named in coverage | Hold until a rare or a good prefix arrives |
+| Rare | ⚠️ Expected (unverified) | No explicit review naming | The working tier for most of a run's mid-game |
+| Epic / exceptional | ⚠️ Expected (unverified) | No explicit review naming | Powerful, but still outclassed by the right legendary |
+| Legendary | ✅ Confirmed to exist | "Run-defining power spikes"; "oh no, oh yes" moments; "there are many" | The build centerpiece — rebuild your run around it |
+
+**The confirmed part is simple:** the bottom tier is filler and the top tier is legendary. Everything in between is unverified scaffolding — judge a mid-tier drop by its *prefix and synergy*, not its label.
+
+### Rarity Is Only Half the Story
+
+Bonehold's buildcrafting secret — confirmed by multiple reviews — is that **rarity matters less than synergy**. A common weapon with the right prefix can outperform a "better" item with the wrong one. The reviewer example: "a completely ordinary mace with a funky prefix turns into a run-defining toy."
+
+So when an item drops, evaluate in this order:
+
+1. **What is the prefix?** Does it change how you fight in a useful way? (Damage type, attack properties, sustainability, defense — the confirmed axes.)
+2. **Does it combo with what you carry?** Reviews compare the item interactions to *The Binding of Isaac*: pieces that are worthless alone can be broken-and-beautiful together.
+3. **Then — and only then — look at the rarity label.** A rare item with a mismatched prefix loses to a common item with a perfect one.
+
+### What "Useless" Common Gear Actually Means
+
+The reviewer who called white gear useless did players a favor by being blunt. Confirmations to internalize:
+
+- **Common drops are a dime a dozen** — the generator floods runs with them. Do not build emotional attachments.
+- **But common-with-great-prefix is different.** The uselessness is about the *roll*, not the *tier*. The exact same white mace with a good prefix is suddenly the item of the run.
+- **Selling/scrapping loop (unverified):** whether common gear converts to currency or materials is unconfirmed — no official source documents a sell or salvage system. Do not trust guides that name specific currencies.
+
+### The Legendary Decision Framework
+
+Legendaries are the confirmed top tier, rare, and capable of breaking a run open "in the best way." When one drops:
+
+| Situation | Decision |
+|-----------|----------|
+| You have a mid-tier build | Rebuild around the legendary — it outclasses your current loadout's damage |
+| The legendary matches your playstyle | Immediate equip; adjust the rest of your gear to feed its effect |
+| It demands a playstyle you are bad at | Consider it anyway — learning on a legendary is cheaper than learning on nothing |
+| Two legendaries conflict | Pick the one with the stronger synergy web around your current items |
+| It drops in the final stretch of a deep run | Equip and go — there is no inventory across runs, so it lives or dies with this run anyway |
+
+**Remember the permanence rule (confirmed):** death resets everything — all gear, all items, all progress. A legendary is worth its weight *this run*, not as savings for the next. That is exactly why the game's moment of greatest joy ("oh no, oh yes") is also its most perishable.
+
+### Pick-Up Rules That Work With or Without the Tier List
+
+Since exact tier names and colors are unconfirmed, these rules work no matter what labels the game shows:
+
+- **Pick up everything, sort quickly.** Check prefixes after clearing the room — reviewers describe exactly this behavior ("stopping after a room to check new prefixes").
+- **Compare by behavior, not numbers.** +2 damage on a weapon you never full-charge with is worse than a weird prefix that opens a new combo.
+- **Carry two weapons if you can (unverified).** Loadout slots are unconfirmed, but the confirmed hybrid builds imply you can switch — a slow-charging staff for casters, a mace for crowds.
+- **Never skip a legendary.** Even a bad legendary is data: it tells you what the top tier looks like and what to build around next run.
 
 **Honest take:** know that "common" and "legendary" are real reference points, and judge everything in between by its prefix behavior and stats rather than by tier labels.
 
@@ -105,4 +148,4 @@ Bonehold's loot system — procedurally generated items, behavior-changing prefi
 
 Master the habit of evaluating every drop, pivoting around run-defining items, and stacking complementary prefixes, and you will be playing Bonehold the way it was designed.
 
-Ready to dig into weapons specifically? See our [Weapons Guide](/guides/weapons-guide) for charge mechanics, or the [Best Builds Guide](/guides/best-builds) for how item synergies come together.
+Ready to dig into weapons specifically? See our [Weapons Guide](/guides/weapons-guide) for charge mechanics, or the [Best Builds Guide](/guides/best-builds) for how item synergies come together. For the legendary-hunting meta-game once you can reach deep floors, see the [Endgame Guide](/guides/endgame-guide).

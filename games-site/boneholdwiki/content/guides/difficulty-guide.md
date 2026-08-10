@@ -5,14 +5,14 @@ category: 'Progression'
 version: '1.0'
 updated: '2026-08-08'
 keywords: ['Bonehold difficulty', 'Bonehold difficulty curve', 'Bonehold elite bosses', 'Bonehold difficulty settings', 'Bonehold hard game', 'Bonehold scaling', 'Bonehold challenge']
-related: ['progression-guide', 'boss-guide', 'advanced-guide', 'endgame-guide']
+related: ['progression-guide', 'boss-guide', 'endgame-guide', 'item-prefixes-guide']
 ---
 
 # Bonehold Difficulty Guide - Scaling Curve, Elite Bosses, and Difficulty Options
 
 Bonehold is a hard game — but the difficulty is specific, learnable, and mostly *not* what new players expect. The traps kill you more than the skeletons; the charge system punishes greed; and there is no save to fall back on. This guide maps the confirmed difficulty curve, explains what actually makes the game hard, and answers the question on every new player's mind: are there difficulty options?
 
-**Honesty note:** Bonehold has no officially published difficulty table. The floor-by-floor expectations below are inferred from confirmed facts (deeper = harder enemies and better loot; elite bosses per floor; trap density) plus roguelike convention — specifics are marked 待验证.
+**Honesty note:** Bonehold has no officially published difficulty table. The floor-by-floor expectations below are inferred from confirmed facts (deeper = harder enemies and better loot; elite bosses per floor; trap density) plus roguelike convention — specifics are marked (unverified).
 
 ## The Confirmed Difficulty Facts
 
@@ -47,9 +47,9 @@ Your build comes from what drops, not what you plan (confirmed: procedural loot 
 
 ## The Scaling Curve, Floor by Floor
 
-Exact per-floor numbers are unconfirmed (待验证), but the confirmed direction — descending a fortress, enemies and loot scaling up — supports this expectation framework:
+Exact per-floor numbers are unconfirmed (unverified), but the confirmed direction — descending a fortress, enemies and loot scaling up — supports this expectation framework:
 
-| Stage | What to Expect (待验证) | Difficulty Character |
+| Stage | What to Expect (unverified) | Difficulty Character |
 |-------|------------------------|---------------------|
 | Early floors | Basic skeletons, ghosts, repetitive trap layouts | Tutorial by attrition: learn charge timing and trap patterns; reviews note early rooms feel samey |
 | Mid floors | More enemy variety, magical abominations, first elite bosses | The build test: your prefix/loot decisions start mattering; elite bosses demand the boss framework |
@@ -72,11 +72,11 @@ Different players hit different walls. The honest check:
 
 ## Difficulty Answers, Summarized
 
-- **Is there an easy mode?** Unconfirmed — no official difficulty settings have been documented (待验证). Don't wait for one.
+- **Is there an easy mode?** Unconfirmed — no official difficulty settings have been documented (unverified). Don't wait for one.
 - **Does it get easier with experience?** Yes, by design — knowledge is the meta-progression.
 - **Does anything carry over between runs?** Steam achievements only, confirmed. The rest is your head (see the Progression Guide).
 - **Where's the real wall?** The first elite boss and the trap-dense early floors — the two places reviews say players die most.
 
 **The verdict:** Bonehold is hard in four specific, learnable ways — traps, charge commitment, permadeath, and build RNG — and notably *not* hard in the "spongey enemies" sense. Every difficulty source has a confirmed counter, and the game's reviews (86–91% positive sentiment) show the curve is beatable by patient players.
 
-**Plan your run.** The [Advanced Guide](/guides/advanced-guide) has deep-run tactics, the [Boss Guide](/guides/boss-guide) covers the elite and boss framework, and the [Endgame Guide](/guides/endgame-guide) explains what waits past the final floor.
+**Plan your run.** The [Endgame Guide](/guides/endgame-guide) has deep-run tactics, the [Boss Guide](/guides/boss-guide) covers the elite and boss framework, and the [Item Prefixes Guide](/guides/item-prefixes-guide) explains how to read the loot that carries deep runs.

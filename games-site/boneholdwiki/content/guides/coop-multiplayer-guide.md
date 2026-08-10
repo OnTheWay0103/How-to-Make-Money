@@ -48,12 +48,12 @@ Part of the "can I play with my friend?" question is "can we even both run it?" 
 | Windows | **Supported** — the only platform with native support |
 | macOS | **Not supported** — no Mac build exists |
 | Linux | **Unconfirmed** — no official Linux support has been announced (may run under Proton, but this is not officially tested or documented) |
-| Steam Deck | **Unsupported** — no official Steam Deck or controller support at launch; players have requested it in community feedback |
+| Steam Deck | **Unconfirmed** — no official Steam Deck compatibility statement or Verified badge; controller support itself is confirmed (below) |
 | Console | **None** — no console versions announced |
 
-Controller support is one of the most commonly requested features in community feedback, along with accessibility options. As of early August 2026, keyboard and mouse remain the only input methods.
+**Controller support is confirmed** — the store page lists **full controller support, including DualShock 4 and DualSense**. Keyboard and mouse is the primary input, but a gamepad works from launch. Steam Deck's official compatibility status, by contrast, has not been announced.
 
-**Honest note:** This page reflects what is officially confirmed at launch. Games are patched and updated over time — if multiplayer or controller support is ever announced by the developer, Pixel Jackal, this page will be updated to reflect it. Until then, assume single-player, keyboard-and-mouse only.
+**Honest note:** This page reflects what is officially confirmed at launch. Games are patched and updated over time — if multiplayer is ever announced by the developer, Pixel Jackal, this page will be updated to reflect it. Until then, assume single-player.
 
 ## Is Bonehold Good Solo? — What Reviews Say
 
@@ -80,7 +80,7 @@ Nothing has been announced. Treat any claims of a future multiplayer mode as spe
 No. The game is Windows-only. There is no macOS build.
 
 **Can I play Bonehold on Steam Deck?**
-Not officially. The game does not list Steam Deck support, and reviewers note there is no controller support at launch. Community requests for it are common, but nothing has been promised.
+No official compatibility statement has been published, and no Verified badge has been announced — treat Steam Deck as unconfirmed. Note that controller support itself is confirmed (DualShock 4 and DualSense), so if you run it on a handheld, gamepad input should work — but official Deck verification is still pending.
 
 ## Why Bonehold Is Solo by Design
 

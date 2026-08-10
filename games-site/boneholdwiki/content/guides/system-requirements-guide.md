@@ -53,7 +53,7 @@ Bonehold's minimum specs are remarkably forgiving. These are the hardware requir
 
 **The game is light on hardware.** A minimum GPU from 2010 (GTX 470) and a Core 2 Duo CPU from 2008 are the official entry point. Any reasonably modern PC or laptop will clear the recommended tier. This fits the game's art direction — stylized, hand-painted, pixel-textured visuals are far less taxing than realistic 3D rendering.
 
-**The RAM and storage numbers are store-page typos.** The Steam page literally lists "4 MB RAM" and "1 MB available space" — those are placeholder errors, not real figures. The actual RAM requirement and install size are **not officially published as of August 6, 2026** (待验证). For reference, the demo installs in seconds and the full game's retro art style suggests a small download, but we will not invent a number.
+**The RAM and storage numbers are store-page typos.** The Steam page literally lists "4 MB RAM" and "1 MB available space" — those are placeholder errors, not real figures. The actual RAM requirement and install size are **not officially published as of August 6, 2026** (unverified). For reference, the demo installs in seconds and the full game's retro art style suggests a small download, but we will not invent a number.
 
 **Windows only — confirmed.** The Steam store page lists Windows support only. **There is no macOS or Linux version** as of August 6, 2026. Linux users would need to run it through a compatibility layer, which is unverified.
 
@@ -77,7 +77,7 @@ For a combat game built around charge timing, the "Playable without Timed Input"
 
 *Specific button mappings (which button charges, which dodges) are not officially documented anywhere as of August 6, 2026 — you will need to check the in-game settings menu.*
 
-## Steam Deck Status — Not Yet Officially Rated (待验证)
+## Steam Deck Status — Not Yet Officially Rated (unverified)
 
 As of August 6, 2026, **Bonehold has no official Steam Deck Verified or Playable badge** on its store page. Here is what we can say:
 

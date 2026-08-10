@@ -18,12 +18,12 @@ Bonehold is a budget-priced roguelike with a well-organized store page — and k
 
 | Item | Price | Status |
 |------|-------|--------|
-| Bonehold (full game) | ~$8.99 USD / ¥41.86 (CN listing) | Confirmed at launch; regional pricing varies by store |
-| Launch discount | 10% off — ended August 4, 2026 | Confirmed; expired |
+| Bonehold (full game) | **~$9.99 USD** / ¥41.86 (CN listing) | Confirmed at launch; regional pricing varies by store |
+| Launch discount | 10% off (to ~$8.99) — ended August 4, 2026 | Confirmed; expired |
 | Bonehold Demo | Free | ✅ Confirmed — see the [Demo Guide](/guides/demo-guide) |
-| Official Soundtrack | Paid DLC | Confirmed to exist (only DLC) — price not documented (待验证) |
+| Official Soundtrack | Paid DLC | Confirmed to exist (only DLC) — price not documented (unverified) |
 
-**What that means:** at roughly $9, Bonehold sits in the impulse-buy band of the Steam catalog — the same territory as many popular roguelikes. The 10% launch discount has ended, but the game's price point is low enough that the difference is small.
+**What that means:** at under $10, Bonehold sits in the impulse-buy band of the Steam catalog — the same territory as many popular roguelikes. The 10% launch discount has ended, but the game's price point is low enough that the difference is small.
 
 ## The Bundles (Confirmed on the Steam Store Page)
 
@@ -44,7 +44,7 @@ The DLC situation is refreshingly simple (confirmed by the site FAQ):
 
 - **No microtransactions.** No battle passes, no in-game purchases, no cosmetics store.
 - **One DLC: the official soundtrack.** The only paid add-on for the game.
-- **No expansion packs, season passes, or content DLC** as of August 2026 (待验证 — future updates can always change this).
+- **No expansion packs, season passes, or content DLC** as of August 2026 (unverified) — future updates can always change this).
 
 If you love the game's dark, hand-painted-meets-pixel atmosphere, the soundtrack is the natural companion purchase. If you only care about gameplay, the base game is the complete gameplay package.
 

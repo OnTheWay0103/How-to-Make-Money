@@ -1,6 +1,6 @@
 ---
 title: 'Bonehold Review & Worth-It Guide — Is Bonehold Worth Buying in 2026?'
-description: 'Is Bonehold worth it? Verified review status (Very Positive on Steam), ~$10 launch price, and a full content breakdown — 10 classes, 98 achievements, procedural loot — with honest pros, cons, and who should buy.'
+description: 'Is Bonehold worth it? Verified review status (Very Positive on Steam), ~$10 launch price, and a full content breakdown — 7 classes (4 confirmed), 98 achievements, procedural loot — with honest pros, cons, and who should buy.'
 category: 'Guides'
 version: '1.0'
 updated: '2026-08-06'
@@ -30,9 +30,9 @@ The short answer: **if you like hard roguelikes and $10 indie ARPGs, yes — Bon
 The verified numbers, checked on the Steam store page on August 6, 2026:
 
 - **Rating: Very Positive** (Steam's official summary)
-- **86% of 97 user reviews positive** at the time of our check
+- **Roughly 86% of user reviews positive** at the time of our check (a launch-week sample)
 
-The number moves daily — the game is barely a week old at the time of writing. Early deal-tracker listings showed the percentage hovering in the high 80s on smaller review samples, and the site's earlier tracking had it around 88%. Expect the exact figure to fluctuate as review volume grows, but the trajectory so far is firmly positive.
+The number moves daily — the game is barely a week old at the time of writing. Launch-week tracking has the percentage hovering in the high 80s on a small review sample. Expect the exact figure to fluctuate as review volume grows, but the trajectory so far is firmly positive.
 
 What the score does **not** tell you: Bonehold is a *hard* game. Steam's own tags on the store page include **Souls-like** and **Roguelike**, and reviews describe punishing permadeath runs. The positive rating reflects a game that is difficult *by design* — buy it expecting a challenge, not a power fantasy.
 
@@ -53,7 +53,7 @@ Verified pricing from the Steam store page and deal trackers:
 
 Confirmed from the official store description:
 
-- **10 unique character classes** — the store page names **Knight, Barbarian, Sorcerer, and Spellblade**, "and more"
+- **7 unique character classes** — the officially named four are **Knight, Barbarian, Scorcher, and Spellblade**; the other three are unconfirmed
 - **98 Steam achievements**
 - **Procedurally generated loot** — weapons, spells, and armor roll randomly every run
 - **Legendary items** — the game's own one-liner: "duel mighty bosses, and acquire legendary loot!"
@@ -62,11 +62,9 @@ Confirmed from the official store description:
 - **10 languages** including Simplified Chinese; **full controller support** including DualShock 4 and DualSense (see our [System Requirements Guide](/guides/system-requirements-guide))
 - **Content rating:** Frequent Violence or Gore, General Mature Content — confirmed on the store page
 
-### Important: The Class Count Note (7 vs 10)
+### Important: The Class Count Note
 
-You may have read that Bonehold has **7 classes** with a class called **Scorcher** — that claim comes from the game's official **Demo** page description, which still says "7 unique character classes, including the Knight, Barbarian, Scorcher, Spellblade." The **full game's** store page, as of August 6, 2026, says **"10 unique character classes, including the Knight, Barbarian, Sorcerer, Spellblade."**
-
-Both texts are official, and they conflict. The most likely reading: the demo page carries older copy written before launch, and the class roster grew (and possibly a class was renamed) between the demo (May 5, 2026) and launch (July 28, 2026). Whether "Scorcher" and "Sorcerer" are the same class renamed, or two separate classes, is **unconfirmed as of August 6** (待验证). Either way, expect more than four classes — the exact total and names are a small open question we will update as official sources clarify.
+Bonehold has **7 classes**, of which **4 are officially named**: **Knight, Barbarian, Scorcher, and Spellblade**. The remaining 3 are unconfirmed — no official names, mechanics, or unlock conditions exist for them yet. Some early listings claimed a class called **"Sorcerer"** or a roster of 10 classes; those appear to be outdated or incorrect store copy. Treat **7 classes with Scorcher as the fourth named class** as the current confirmed picture, and ignore speculative rankings of the unnamed classes.
 
 ## What Reviewers Praise (Confirmed Launch Coverage)
 
@@ -95,7 +93,7 @@ Drawing on verified launch coverage cited across this wiki's guides:
 
 To stay honest about the state of knowledge:
 
-- The full class roster (10 per the store page) and whether classes are locked behind unlock conditions — unconfirmed
+- The full class roster (7 classes; 4 confirmed named) and whether classes are locked behind unlock conditions — unconfirmed
 - All prefix names, rarity tiers, and drop rates — unconfirmed
 - Boss roster and floor structure — unconfirmed
 - The achievement list (98 confirmed to exist; contents unpublished) — see our [Achievements Guide](/guides/achievements-guide)

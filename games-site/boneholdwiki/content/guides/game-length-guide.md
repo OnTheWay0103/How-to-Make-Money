@@ -33,7 +33,7 @@ A roguelike's length depends on what you are trying to achieve. Here is a realis
 | Goal | Estimated Hours | What It Takes |
 |------|----------------|---------------|
 | Learn the game | ~3–5 hours | First bosses down, one class comfortable, early deaths behind you |
-| First full clear | ~10–20 hours | Depends heavily on build luck and trap mastery — some players clear far earlier, some much later (待验证 — no official statistics) |
+| First full clear | ~10–20 hours | Depends heavily on build luck and trap mastery — some players clear far earlier, some much later (unverified) — no official statistics) |
 | Clear with all classes | 2–3× the first-clear time | 7 classes (4 officially named), each requiring its own run discipline |
 | 100% achievements | 50+ hours | 98 achievements including RNG-dependent loot achievements — a long-term project (see the [Achievements Guide](/guides/achievements-guide)) |
 | Legendary hunting & deep runs | Infinite | The confirmed endgame loop — see the [Endgame Guide](/guides/endgame-guide) |

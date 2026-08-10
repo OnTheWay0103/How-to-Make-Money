@@ -67,7 +67,7 @@ Note: older guides list achievement requirements and different names (for exampl
 
 ## The Early Access Roadmap — Official Plans
 
-The Steam page lists the developer's announced plans for the Early Access period (the game entered Early Access July 13, 2026; a full-release date has not been announced):
+The Steam page lists the developer's announced plans for the Early Access period. The game entered Early Access **July 13, 2026 at $12.99** (with a 24% launch discount for two weeks — check the store page for current pricing), and a full-release date has not been announced:
 
 - **New bosses** — more boss content planned
 - **Additional playable characters** — the 8-class launch roster will grow

@@ -12,7 +12,7 @@ related: ['enemies-guide', 'combat-guide', 'beginner-guide', 'tips-and-tricks']
 
 In Bonehold, the dungeon itself is often deadlier than its inhabitants. Launch reviews are unambiguous: **"your biggest enemy is actually the pits in the floor and spikes on the walls."** This quick-reference guide lists every trap type confirmed by launch coverage, explains why traps kill more players than monsters, and — the fun part — how to use them against the skeletons chasing you.
 
-**Honesty note:** trap *types* are confirmed by multiple launch reviews. Exact trigger timings, damage values, and per-floor trap density are **not officially documented** (待验证) — the details below describe behavior, not numbers.
+**Honesty note:** trap *types* are confirmed by multiple launch reviews. Exact trigger timings, damage values, and per-floor trap density are **not officially documented** (unverified) — the details below describe behavior, not numbers.
 
 ## Quick-Reference: Every Confirmed Trap
 
@@ -23,7 +23,7 @@ In Bonehold, the dungeon itself is often deadlier than its inhabitants. Launch r
 | Spike pits | ✅ Confirmed | Pit areas with spikes inside; stepping on them deals damage | Often combined with forced jumps or narrow bridges; triggers force you to wait |
 | Flame walls | ✅ Confirmed | Fire-emitting wall mechanisms on a timer | Forces repositioning; blocks corridors on a cycle; burns anything standing in them |
 | Fire traps | ✅ Confirmed | Floor or wall-mounted fire mechanisms | AoE damage; overlapping with flame walls creates "fire corridors" |
-| Other environmental hazards | ⚠️ Reported (待验证) | Localized coverage mentions additional mechanisms | Treat any unnamed hazard the same way: observe before crossing |
+| Other environmental hazards | ⚠️ Reported (unverified) | Localized coverage mentions additional mechanisms | Treat any unnamed hazard the same way: observe before crossing |
 
 **The confirmed pattern:** the dungeon generator places traps *frequently*, sometimes behind the player — you clear a room, turn around, and a spike wall is now between you and the exit. Reviews describe this as the game's most reliable death source, easily beating enemy attacks.
 

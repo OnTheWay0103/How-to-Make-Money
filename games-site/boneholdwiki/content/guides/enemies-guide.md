@@ -12,7 +12,7 @@ related: ['combat-guide', 'traps-guide', 'boss-guide', 'beginner-guide']
 
 The ancient necromantic fortress of Bonehold is packed with undead horrors, and knowing what you are about to fight is half the battle. This guide collects everything that is **confirmed** about Bonehold's enemy roster from official materials and launch coverage — and it is honest about what is not yet documented.
 
-**Honesty note:** Bonehold has no officially published enemy bestiary as of August 2026. The *families* of enemies below are confirmed by the developer's store description and multiple launch reviews; the specific enemy *names*, exact stats, and per-floor spawn tables are **not** officially documented. Where a detail is uncertain, we mark it 待验证.
+**Honesty note:** Bonehold has no officially published enemy bestiary as of August 2026. The *families* of enemies below are confirmed by the developer's store description and multiple launch reviews; the specific enemy *names*, exact stats, and per-floor spawn tables are **not** officially documented. Where a detail is uncertain, we mark it (unverified).
 
 ## The Confirmed Enemy Families
 
@@ -23,9 +23,9 @@ The developer's own description names the three headline threats — "hordes of 
 | Skeletons | ✅ Confirmed | Developer description, reviews | The fortress's rank-and-file. Fast melee attackers, deadly in groups, easily kited. |
 | Ghosts | ✅ Confirmed | Developer description, reviews | Floating undead that pass through the fortress halls; harder to crowd than grounded enemies. |
 | Magical abominations | ✅ Confirmed | Developer description, reviews | Mutated, spell-infused monsters with ranged or area magic. Highest priority targets. |
-| Vengeful spirits | ⚠️ Reported (待验证) | Third-party databases, localized store copy | Described in the game's Chinese store/database listings as 怨灵 — lingering undead with aggressive chase behavior. |
-| Mutated monsters (畸变魔物) | ⚠️ Reported (待验证) | Third-party databases, localized store copy | Corrupted fortress creatures; likely elite-adjacent variants of standard enemies. |
-| Undead bones / skeletons variants | ⚠️ Reported (待验证) | Third-party databases | Variant skeletons (shielded, archer, mage-type) reported in coverage; specifics unconfirmed. |
+| Vengeful spirits | ⚠️ Reported (unverified) | Third-party databases, localized store copy | Described in the game's localized store/database listings as vengeful spirits — lingering undead with aggressive chase behavior. |
+| Mutated monsters | ⚠️ Reported (unverified) | Third-party databases, localized store copy | Corrupted fortress creatures; likely elite-adjacent variants of standard enemies. |
+| Undead bones / skeletons variants | ⚠️ Reported (unverified) | Third-party databases | Variant skeletons (shielded, archer, mage-type) reported in coverage; specifics unconfirmed. |
 | Elite bosses | ✅ Confirmed | Multiple reviews | A stronger "elite boss" per floor with telegraphed attacks and more health — the floor's mid-encounter check. |
 
 **Rule of thumb:** if a source names a specific enemy ("Floor 3 Skeleton Archer") with stats and exact spawn locations, treat it as unverified. The confirmed reality is simpler: skeletons swarm, ghosts hover and chase, magical abominations cast, and every floor is guarded by an elite.
@@ -37,7 +37,7 @@ The confirmed combat wisdom applies to every room: **ranged and spellcasting ene
 | Priority | Enemy Type | Why |
 |----------|-----------|-----|
 | 1 | Magical abominations / casters | They damage you while you deal with melee pressure; a full charge window spent on a mace swing is a bad trade while a fireball is incoming |
-| 2 | Ranged variants (archer-type skeletons, 待验证) | Similar logic: unavoidable chip damage from range forces dodges that waste stamina |
+| 2 | Ranged variants (archer-type skeletons, (unverified)) | Similar logic: unavoidable chip damage from range forces dodges that waste stamina |
 | 3 | Ghosts in groups | They close distance quickly and ignore obstacles — but they are usually not ranged, so they rank below casters |
 | 4 | Basic skeletons | Melee-only, kiteable, and perfect parry/charge practice. Let them come to you |
 
@@ -58,7 +58,7 @@ Floating undead that hover through the fortress. They appear in the developer's 
 
 - **They ignore your chokepoint plans.** Ghosts float — they do not funnel the way skeleton mobs do. Expect them to flank.
 - **They chase relentlessly.** You cannot lose them in a doorway. If you need space, break line of sight around a corner and use the recovery time to charge.
-- **Fast hits, low individual durability (待验证).** Reviews do not publish ghost stats, but their behavior in coverage reads as a fast, fragile chaser — the kind of enemy you trade with using quick attacks and dodges rather than heavy charges.
+- **Fast hits, low individual durability (unverified).** Reviews do not publish ghost stats, but their behavior in coverage reads as a fast, fragile chaser — the kind of enemy you trade with using quick attacks and dodges rather than heavy charges.
 
 ### Magical Abominations
 
@@ -66,7 +66,7 @@ The third headline family — corrupted, spell-infused monsters that the develop
 
 - **They are the casters.** Expect ranged magic or area effects; reviewers describe dying to their attacks while managing skeleton pressure.
 - **Kill them on sight.** When an abomination enters the room, it outranks every melee enemy on the field. Take the brief risk of advancing past the mob to remove the caster, then reset the fight on your terms.
-- **Dodge, do not block (待验证).** Whether their spells are blockable is unconfirmed. When in doubt against a spellcaster, dodge sideways — blocking costs stamina you will need for the melee cleanup.
+- **Dodge, do not block (unverified).** Whether their spells are blockable is unconfirmed. When in doubt against a spellcaster, dodge sideways — blocking costs stamina you will need for the melee cleanup.
 
 ### Elite Bosses Per Floor
 

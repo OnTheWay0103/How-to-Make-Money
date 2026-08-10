@@ -28,7 +28,7 @@ Moonlight Peaks is a town story, and the town runs on its residents. Every chara
 
 The **secrets of the seven families** are a story thread running through the whole game — the quests, the graveyard cutscenes, and the town's history all connect back to who these families are and what they've done.
 
-**Pro tip:** the families are also a romance map — **23 residents are dateable across the seven families** plus standalones, with no gender restrictions anywhere. See the Romance Guide for the full courting breakdown.
+**Pro tip:** the families are also a romance map — **24 residents are dateable across the seven families** plus standalones, with no gender restrictions anywhere. See the Romance Guide for the full courting breakdown.
 
 ## Notable NPCs
 
@@ -93,7 +93,7 @@ A quick-reference table for the quest-gated and system-gated NPCs:
 
 ## The Romanceable Roster in Brief
 
-- **23 dateable characters**: 5 vampires (Mina, Evan, Elvira, Orlock, Samael, Vlad), 4 witches (Noel, Luna, Fiona, Sabrina), 3 werewolves (Saga, Ridge, Ludo), 3 seers (Dragan, Alina, Aras), 3 mermaids/mermen (Tae, Kim, Ray), 3 humans (Persephone, Jada, Winston), plus standalones **Death** and **Llemi**.
+- **24 dateable characters**: 6 vampires (Mina, Evan, Elvira, Orlock, Samael, Vlad), 4 witches (Noel, Luna, Fiona, Sabrina), 3 werewolves (Saga, Ridge, Ludo), 3 seers (Dragan, Alina, Aras), 3 mermaids/mermen (Tae, Kim, Ray), 3 humans (Persephone, Jada, Winston), plus standalones **Death** and **Llemi**.
 - Fully **LGBTQIA+ friendly** — no gender restrictions; any character can date any player character.
 - **Death** is an early-in-town presence but his story introduction comes after "A Bridge Too Far" unlocks the south map.
 - See the **Romance Guide** for heart thresholds (2 = hug, 4 = ask out, 8 = propose) and the **Gift Guide** for every loved-gift list.
@@ -104,7 +104,7 @@ A quick-reference table for the quest-gated and system-gated NPCs:
 The **child of Count Dracula**, who moves to Moonlight Peaks to build a wholesome life away from the family castle. Your appearance is fully customizable (and the **Alter Ego Elixir** can change it completely later).
 
 **Are all characters romanceable?**
-Not all — but **23 of them are**, spanning every family, with no gender restrictions.
+Not all — but **24 of them are**, spanning every family, with no gender restrictions.
 
 **Where do I find Death?**
 Death's house is by the **docks in the center of town**, and he introduces himself early in the story (he gives you the Net for catching Soul Blobs). His main story introduction happens at the **Ambrosia Graveyard**, which requires completing **"A Bridge Too Far"** and the Crest Garden quest line.

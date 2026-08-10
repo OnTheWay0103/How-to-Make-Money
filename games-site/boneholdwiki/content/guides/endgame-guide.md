@@ -4,8 +4,8 @@ description: 'Bonehold endgame guide — legendary item hunting, deep-run surviv
 category: 'Endgame'
 version: '1.0'
 updated: '2026-08-01'
-keywords: ['Bonehold endgame', 'Bonehold legendary farming', 'Bonehold deep dungeon', 'Bonehold achievement guide', 'Bonehold post game']
-related: ['progression-guide', 'tips-and-tricks', 'achievements-guide', 'best-builds']
+keywords: ['Bonehold endgame', 'Bonehold legendary farming', 'Bonehold deep dungeon', 'Bonehold achievement guide', 'Bonehold post game', 'Bonehold hybrid builds', 'Bonehold advanced guide']
+related: ['progression-guide', 'tips-and-tricks', 'achievements-guide', 'best-builds', 'boss-guide', 'classes-guide']
 ---
 
 # Bonehold Endgame Guide — Legendary Hunting and Post-Launch Content
@@ -56,14 +56,74 @@ With **no checkpoints and no saves** (confirmed), every deep run with great gear
 
 ## Deep-Run Survival — The Endgame Skill
 
-Consistency on deep floors is the skill that unlocks everything else. The confirmed toolkit:
+Consistency on deep floors is the skill that unlocks everything else. No official floor-by-floor scaling table exists, but the game's confirmed design gives us principles that hold at every depth:
+
+1. **Every floor is harder than the last.** Deeper = tougher enemies, denser traps, better loot. Plan runs like a resource economy, not a series of fights.
+2. **Traps and hazards never stop mattering.** Reviews confirm traps remain deadly throughout — a trap that nearly killed you on floor 1 will kill you on a deep floor.
+3. **Sustain is the deep-run stat.** With no checkpoints, every point of health is finite. Healing and recovery effects — from prefixes, items, or any system the game offers — become more valuable the deeper you go.
+4. **Skips are strategy.** A room that will cost half your health to clear is a bad trade at depth; the confirmed review guidance is that the loot rarely compensates for the damage.
+5. **Patience scales with depth.** The game's pacing is deliberately slow; deep floors punish rushing harder than early ones. When in doubt, pull to a chokepoint and fight one at a time.
+
+The confirmed toolkit that carries you through:
 
 - **Chokepoints beat open rooms.** Pull enemies into doorways; never fight fair in a corridor.
 - **Parry and dodge are mandatory, not optional.** Reviews confirm these are the game's rewarded defensive tools; blocking everything stops working.
 - **Charge discipline scales with depth.** Deeper enemies punish overcommitment harder. Smaller, safer hits win.
 - **Traps are both hazard and weapon.** Use them; remember them; never rush them.
-- **Sustain is the deep-run stat.** Healing and recovery effects matter more the longer floors get, because healing opportunities get scarcer.
 - **Skip what you cannot afford.** A room that costs half your HP is a bad trade at depth — the loot rarely compensates.
+
+## Boss Pattern Counters
+
+No official boss list exists, so named counters are impossible. What the confirmed review framework gives us instead is a transferable pattern table — every boss you meet, apply the framework:
+
+| Boss Behavior (Confirmed Pattern) | Counter |
+|-----------------------------------|---------|
+| Set-piece encounters that punish greed | Never chase extra hits; treat every attack window as earned, not free |
+| Attacks readable via tells/windups | Watch first, attack second — spend the opening of each fight observing |
+| Punishes players who overcommit charges | Charge only during recovery or after parries; partial charges in uncertain windows |
+| Rewards parries and rolls | Use them — reviews describe them as the game's most satisfying tools |
+| Summons or adds at thresholds | Keep an add-clearing tool ready; expect phases to change at health thresholds |
+
+## Hybrid Build Thinking
+
+Hybridization is confirmed as a core design pillar — the review's Death Knight-esque slow-charging staff build is the canonical example. Advanced hybrid thinking:
+
+- **The class is a starting kit, not a cage.** Every class can build toward any playstyle the loot suggests.
+- **Weapons set the rhythm.** A slow-charging staff forces a defensive, patient rhythm — that is a *style*, not a weakness. Match your defensive tools to your weapon's pace.
+- **Spells and prefixes bridge archetypes.** A melee class with fire spells, a tank class with necromantic effects — the game explicitly supports these, and reviews say they are the best part of buildcrafting.
+- **Recognize the build the run is offering.** The advanced skill is pattern recognition: seeing that "this weapon + this prefix + this spell" forms a build, even though no guide named it.
+
+## Prefix Strategy at Depth
+
+Prefixes are the confirmed build engine, and the deep-run question is how to choose between them. Since prefix names are unconfirmed, evaluate by behavior:
+
+**The stacking principle.** Effects that reinforce each other multiply; effects that do different things compete for slots. Before keeping an item, ask: does this make my existing effects stronger, or just add noise?
+
+- **Pick a damage theme.** Mixing many damage types usually dilutes. One theme — with items that feed it — scales better into depth.
+- **Balance offense with sustain.** A build that kills everything but bleeds health dies before the boss. A build that heals but takes forever dies of attrition. Deep runs need both.
+- **Let the run decide.** The best prefix strategy is the same as the best build strategy: read what drops and stack what combos. Rigid plans lose to the loot the game actually gives you.
+- **Legendary rule (confirmed):** legendaries are build-defining power spikes. When one drops, the correct move is usually to restructure the run around it — even if it changes your damage theme mid-run.
+
+See the [Item Prefixes Guide](/guides/item-prefixes-guide) for the full evaluation framework.
+
+## Risk Management for Legendary Items
+
+Legendary items are the confirmed prize of deep runs — and with no checkpoints, they are also the riskiest thing you can carry:
+
+1. **Surviving is the goal.** A legendary's value is realized in the run where you use it, not in dying with it equipped — it resets on death like everything else.
+2. **Risk scales with depth.** Every floor deeper with a great legendary is a bigger gamble. Reviews confirm bosses punish greed — so does the run structure.
+3. **Weigh the push.** If you have a run-defining legendary and low health, pushing into unknown content is a bet. Ask what the next floor can offer that the legendary does not already give you.
+4. **Play to the legendary's strengths.** The legendary defines the run; everything else should feed it. A legendary is wasted if you keep playing the build you had before it dropped.
+
+### The Deep-Run Checklist
+
+Before every deep-run decision:
+
+- Is my stamina recovered enough for the next room?
+- What does this room's composition ask for — range, control, or burst?
+- Are there prefixes among my new drops that combo with what I have?
+- Is this side room worth the health it will cost?
+- Am I about to be greedy? (The correct answer is usually no.)
 
 ## The Achievement Path (98 Confirmed)
 
@@ -99,4 +159,4 @@ For now, the endgame is simple: get deeper, find legendaries, try weird builds, 
 
 ---
 
-**Getting started on the path?** See our [Progression Guide](/guides/progression-guide) for the confirmed progression picture, or the [Achievements Guide](/guides/achievements-guide) for the 98-achievement breakdown.
+**Getting started on the path?** See our [Progression Guide](/guides/progression-guide) for the confirmed progression picture, the [Achievements Guide](/guides/achievements-guide) for the 98-achievement breakdown, or the [Boss Guide](/guides/boss-guide) for the encounter framework this guide references.
