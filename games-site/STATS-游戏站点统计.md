@@ -1,6 +1,6 @@
 # 游戏攻略站 — 站点统计
 
-> 最后更新：2026-08-11 | 34 站 · 949 篇攻略
+> 最后更新：2026-08-11 | 34 站 · 907 篇攻略
 
 ---
 
@@ -16,9 +16,9 @@
 | 5 | SpiritVale | 7/12 | 51 | spiritvalewiki.vercel.app | ✅ | ✅ | ✅ | 8/1 内容配比规则 +1 世界 Boss 速查表（Echoing Spire） |
 | 6 | Skills & Raids | 7/15 | 26 | skillsandraidswiki.vercel.app | ✅ | ✅ | ✅ | 7/27 游戏上线 |
 | 7 | MineGeon | 7/20 | 31 | minegeonwiki.vercel.app | ✅ | ✅ | ✅ | 7/28 游戏上线；8/3 Coordinator 扩充 +2（Walkthrough、Review） |
-| 8 | Sephiria | 7/21 | 48 | sephiriawiki.vercel.app | ✅ | ✅ | ✅ | 7/31 1.0 上线；8/1 内容配比规则 +2（Build 原型速查表、Boss 推进表） |
-| 9 | DinoBlade | 7/21 | 27 | dinobladewiki.vercel.app | ✅ | ✅ | ✅ | 8/3 Coordinator 扩充 +3（Leveling、How Long to Beat、Healing） |
-| 10 | Mystralia | 7/22 | 40 | mystraliawiki.vercel.app | ✅ | ✅ | ✅ | 8/7 Coordinator +5（EA FAQ、Spell Form、Combat、First 5h、Farming）；8/7 晚 +3（Controller、Save Progression、Community Resources）；8/10 Coordinator +5（Weapons、Crafting Materials、Story Lore、Enemy Monster、Difficulty Settings）；8/11 EA |
+| 8 | Sephiria | 7/21 | 29 | sephiriawiki.vercel.app | ✅ | ✅ | ✅ | 7/31 1.0 上线；8/11 AdSense Phase1 合规：48→29，5 组合并（武器/Boss/章节/Builds/物品/更新），清除虚构武器/Boss/神器目录/NG+/第七章，去 Patch 版本声明 |
+| 9 | DinoBlade | 7/21 | 15 | dinobladewiki.vercel.app | ✅ | ✅ | ✅ | 8/3 Coordinator 扩充 +3；8/11 AdSense Phase1 合规：27→15，8 组合并，清除 The Mound 残留/虚构 Boss/机制名/联机 PvP，价格对齐 $19.99 |
+| 10 | Mystralia | 7/22 | 29 | mystraliawiki.vercel.app | ✅ | ✅ | ✅ | 8/11 EA 上线；8/11 AdSense Phase1 合规：40→29，8 组合并，虚构区域/法术/地牢/货币清理，Memories 110→100+ 校准，系统配置对齐 Steam 官方 |
 | 11 | Tears of Metal | 7/23 | 37 | tearsofmetalwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 反馈驱动 +3 新 +2 纠错（英雄名校准）；8/1 内容配比 +5（Wallace/Brienne/Ruadh 独立 Build 页、Corruption 机制、装备指南）+ 修复旧英雄/Boss 名残留 |
 | 12 | Grain Rot | 7/24 | 30 | grainrotwiki.vercel.app | ✅ | ✅ | ✅ | 8/7 游戏上线；8/3 1.0 内容更新（全量内容清单、生物群系+2、wishlist 25万→250k） |
 | 13 | DragonSword | 7/25 | 25 | dragonswordwiki.vercel.app | ✅ | ✅ | ✅ | 7/22 游戏上线；8/3 Coordinator 扩充 +3（Reina/Kalsion/Cerese 角色指南） |
@@ -110,7 +110,7 @@
 |:--:|------|------|------|
 | ~~8/7~~ | Expeditions: Samurai | expeditionssamuraiwiki | ✅ EA 已上线，33 篇 |
 | ~~8/7~~ | Grain Rot | grainrotwiki | ✅ 已上线，30 篇 |
-| **8/11** | Mystralia | mystraliawiki | 🔜 EA 后天上线，35 篇已就位 |
+| **8/11** | Mystralia | mystraliawiki | ✅ EA 今日上线，合规后 29 篇 |
 | **8/13** | **Low-Budget Repairs** | lowbudgetrepairswiki | 🔜 **4 天后上线，1M+ wishlist，33 篇** |
 | 9/22 | Delverium | delveriumwiki | 14 篇 |
 | 9/29 | Nivalis Nights | nivalisnightswiki | 20 篇，932K wishlist |
@@ -182,7 +182,7 @@
 ✅ 8/4   Beast of Reincarnation（8/8 建站，21/20，Game Freak 首款原IP，718K wishlist，零 wiki 竞争，14 攻略）
 ✅ 7/31  Waterpark Simulator 1.0（8/8 建站，17/20，CayPlay，1M+ 下载，96% 好评，零 wiki 竞争，14 攻略）
 ✅ 8/6   ReStory: Chill Electronics Repairs（8/8 建站，22/20，Mandragora/tinyBuild，700K wishlist，98% Overwhelmingly Positive，零 wiki 竞争，14 攻略）
-🔜 8/11  Mystralia EA（8/7 +8，8/10 +5 = 40 攻略）
+✅ 8/11  Mystralia EA（8/11 上线；8/11 AdSense 合规 40→29 攻略）
 🔜 8/13  Low-Budget Repairs（8/3 建站，8/7 +13，8/10 +8 = 41 攻略）
 🔜 9/22  Delverium EA（8/2 建站，8/7 +5 = 14 攻略）
 🔜 9/29  Nivalis Nights（8/7 建站，13 攻略）
