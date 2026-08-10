@@ -3,7 +3,7 @@ title: "Secret Areas & Hidden Content — What's Confirmed"
 description: "Secret areas and hidden content in The Relic: First Guardian. Confirmed: the semi-open world hides hidden paths, secret bosses, and rare relics. Unconfirmed: specific locations. Honest exploration guide."
 category: "Guides"
 version: "1.0"
-updated: "2026-08-01"
+updated: "2026-08-11"
 keywords: ["relic first guardian secret areas", "relic first guardian hidden rooms", "relic first guardian optional bosses", "relic first guardian secrets", "relic first guardian exploration", "relic first guardian hidden content"]
 related: ["walkthrough", "boss-guide", "runes-guide", "all-bosses-list"]
 ---
@@ -108,4 +108,4 @@ A: Unknown. The game's world changes as you progress, so some content may become
 - [Walkthrough](/guides/walkthrough) — The confirmed world structure to explore
 - [All Bosses List](/guides/all-bosses-list) — Secret Brutals among the 70-80 roster
 - [Runes & Relics Guide](/guides/runes-guide) — The rare fragments hidden in the world
-- [Boss Guide](/guides/boss-guide) — How hidden bosses fight
+- [Boss Strategies](/guides/boss-strategies) — How hidden bosses fight

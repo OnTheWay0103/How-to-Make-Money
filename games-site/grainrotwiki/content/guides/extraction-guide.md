@@ -2,8 +2,8 @@
 title: 'Extraction Guide — How to Extract Successfully in Grain Rot'
 description: 'Master the extraction loop in Grain Rot: when to push deeper, when to bail, protecting the haul, elevator strategy, and the confirmed rules of successful extraction.'
 category: 'Extraction'
-version: 'Pre-release'
-updated: '2026-08-01'
+version: '1.0'
+updated: '2026-08-11'
 keywords: ['grain rot extraction', 'grain rot how to extract', 'grain rot extraction guide', 'grain rot elevator', 'grain rot survive']
 related: ['beginner-guide', 'co-op-guide', 'endgame-survival', 'game-mechanics-systems-guide', 'demo-guide']
 ---
@@ -21,7 +21,7 @@ From the official Steam page:
 - **Loot is lost only when everyone breaks.** "If everyone breaks, your loot is lost" — the inverse is the game's most important rule: **if even one player extracts, the run was a success** (at least for the extraction).
 - **The deeper you go, the more you risk and the more you stand to gain.** "Go deeper. Extract more."
 
-**What's TBD:** the specific elevator mechanics — call timers, extraction holds, countdowns, and "fuel" — are not officially documented. Older guides described a 60-second hold with converging enemies; that's plausible but unverified. What is verified is the rule above: extraction is only complete when you're out.
+**What's unverified:** the specific elevator mechanics — call timers, extraction holds, countdowns, and "fuel" — are not officially documented. Older guides described a 60-second hold with converging enemies; that's plausible but unverified. What is verified is the rule above: extraction is only complete when you're out.
 
 ## When to Extract: The Decision Framework
 
@@ -70,15 +70,15 @@ In co-op:
 4. **Fighting on the way out.** The exit is a race, not a cleanup. Kill only what blocks you.
 5. **Ignoring the corruption clock.** The longer the run, the worse your bodies get — extraction is also a race against the Rot.
 
-## Extraction Training (Pre-Launch)
+## Extraction Training (Demo & Full Game)
 
-The demo is live and includes the full loop — descend, scavenge, extract, rebuild. Practice:
+The demo and the full game share the full loop — descend, scavenge, extract, rebuild. Practice in either:
 
 - **Extraction under pressure**: full bag, damaged vessel, enemies closing.
 - **Route memory**: can you retrace your path without a map?
 - **Team extraction**: the Keeper-and-cover rhythm with friends.
 
-What you learn in the demo transfers to the full game on August 7 — even though your demo unlocks will (almost certainly) not.
+What you learn in the demo transfers to the full game — even though your demo unlocks did not carry over.
 
 ## Related Guides
 

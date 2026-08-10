@@ -3,14 +3,14 @@ title: "Release Date, Platforms & Editions — Everything You Need to Know"
 description: "The Relic: First Guardian release date, platforms, price, and editions. Released July 31, 2026 on Steam and PS5 — Xbox Series X|S and Switch 2 versions arriving later in summer 2026."
 category: "Guides"
 version: "1.0"
-updated: "2026-08-01"
+updated: "2026-08-11"
 keywords: ["relic first guardian release date", "relic first guardian ps5", "relic first guardian steam", "relic first guardian price", "relic first guardian physical copy", "relic first guardian xbox", "relic first guardian pre order", "relic first guardian editions"]
 related: ["beginner-guide", "controls-settings-guide", "game-length-guide", "review-roundup"]
 ---
 
 # Release Date, Platforms & Editions — Everything You Need to Know
 
-**The Relic: First Guardian is out now.** The game launched on **July 31, 2026** for PC (Steam) and PlayStation 5 — the Korean dark-fantasy soulslike from developer **Project Cloud Games** and publisher **Perp Games** is available to play. This guide collects everything confirmed about platforms, price, editions, and what is coming later in 2026.
+**The Relic: First Guardian is out now.** The game launched on **July 31, 2026** for PC (Steam) and PlayStation 5 — the Korean dark-fantasy soulslike from developer **Project Cloud Games** and publisher **Perp Games** is available to play. This guide collects everything confirmed about platforms, price, editions, and what is coming later in summer 2026.
 
 ---
 
@@ -23,7 +23,7 @@ related: ["beginner-guide", "controls-settings-guide", "game-length-guide", "rev
 | Xbox Series X\|S | Later in summer 2026 | 🔜 Announced (date TBA) |
 | Nintendo Switch 2 | Later in summer 2026 | 🔜 Announced (date TBA) |
 
-**Developer**: Project Cloud Games (South Korea) — a small indie team (roughly 10-14 people).
+**Developer**: Project Cloud Games (South Korea) — a small indie team (community-reported size of roughly 10-14 people).
 **Publisher**: Perp Games.
 
 ---
@@ -50,7 +50,7 @@ There is **no confirmed free-to-play model** and no confirmed subscription offer
 
 ## Platform Performance (Confirmed Specs + Honest Launch-State Notes)
 
-### PC (Steam) — Official System Requirements
+### PC (Steam) — System Requirements (as listed on the official Steam store page)
 
 **Minimum (1080p / low / 30 FPS):**
 - OS: Windows 10 64-bit
@@ -71,7 +71,7 @@ There is **no confirmed free-to-play model** and no confirmed subscription offer
 A native PS5 release. **Specific performance modes (resolution/60 FPS targets) are unconfirmed** — guides claiming "1440p/60 Performance mode" or "ray-traced Quality mode" are speculative.
 
 ### Launch-State Performance (Confirmed by Reviews)
-Reviews consistently report **technical issues across platforms**: framerate drops (as low as ~15 FPS in some fights per IGN), janky camera, lock-on problems, and bugs (bosses freezing or failing to spawn). Expect rough edges; check the [PC Performance guide](/guides/steam-pc-performance-guide) for mitigation.
+Reviews consistently report **technical issues across platforms**: framerate drops (as low as ~15 FPS in some fights per IGN), janky camera, lock-on problems, and bugs (bosses freezing or failing to spawn). Expect rough edges; check the [Controls, Settings & Performance guide](/guides/controls-settings-guide) for mitigation.
 
 ---
 

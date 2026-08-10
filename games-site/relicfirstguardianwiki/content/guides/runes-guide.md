@@ -3,7 +3,7 @@ title: "Runes & Relics Guide — The 70+ Passive Fragments"
 description: "Runes and relics in The Relic: First Guardian. Over 70 unique relic fragments with passive effects — what they do, how relic slots unlock, how to swap them, and honest notes on unconfirmed specifics."
 category: "Guides"
 version: "1.0"
-updated: "2026-08-01"
+updated: "2026-08-11"
 keywords: ["relic first guardian runes", "relic first guardian relics", "relic first guardian memory fragments", "relic first guardian rune guide", "relic first guardian relic fragments", "best relics relic first guardian"]
 related: ["builds-guide", "upgrade-system", "weapons-guide", "beginner-guide"]
 ---

@@ -2,17 +2,17 @@
 title: "Tears of Metal on Steam Deck — Rating, Performance & Best Settings"
 description: "Everything about playing Tears of Metal on Steam Deck: the Playable rating explained, the texture-reduction patch that improved Deck performance, performance expectations in big battles, co-op tips for Deck players, and honest caveats about the all-or-nothing run saves."
 category: "Guides"
-version: "1.0"
-updated: "2026-08-09"
+version: "Early Access"
+updated: "2026-08-11"
 keywords: ["tears of metal steam deck", "tears of metal steam deck settings", "is tears of metal on steam deck", "tears of metal deck performance", "tears of metal playable rating", "tears of metal controller", "tears of metal handheld"]
 related: ["multiplayer-connection-fix-guide", "save-system-guide", "patch-notes", "beginner-guide"]
 ---
 
 # Tears of Metal on Steam Deck — Rating, Performance & Best Settings
 
-> **Early Access / Updated: August 9, 2026**
+> **Early Access / Updated: August 11, 2026**
 
-Tears of Metal is a great handheld game in theory — a hack-and-slash roguelike with musou-scale battles, 30-40 minute acts, and suspend-friendly structure. In practice, it's rated **Playable** (not Verified) on Steam Deck, and the first stability patch shipped texture-size reductions that specifically help Deck players. This guide covers the current Deck reality: what the rating means, how the game actually runs, how to set it up, and the Deck-specific traps (run saves and co-op) that can cost you a campaign.
+Tears of Metal is a great handheld game in theory — a hack-and-slash roguelike with large-scale battles, 30-40 minute acts, and suspend-friendly structure. In practice, it's rated **Playable** (not Verified) on Steam Deck, and a recent update shipped texture-size reductions that the developer framed as helping lower-end hardware — Deck players included. This guide covers the current Deck reality: what the rating means, how the game actually runs, how to set it up, and the Deck-specific traps (run saves and co-op) that can cost you a campaign.
 
 ---
 
@@ -32,17 +32,17 @@ Valve's rating for Tears of Metal is **Playable**. Here's what that means under 
 - Expect some performance dips in the biggest battles — more on that in a moment
 - It is not the "zero effort" experience a Verified title would be
 
-> **Honesty note:** Paper Cult has not published official Steam Deck performance targets or controller-support documentation. Everything below is based on the Deck rating, the stability patch's confirmed texture changes, and general performance characteristics of the game — not vendor benchmarks. We will update this guide if official guidance appears.
+> **Honesty note:** Paper Cult has not published official Steam Deck performance targets or controller-support documentation. Everything below is based on the Deck rating, the recent update's texture changes, and general performance characteristics of the game — not vendor benchmarks. We will update this guide if official guidance appears.
 
 ---
 
-## The Patch That Helped Deck Players
+## The Update That Helped Deck Players
 
-The first post-launch stability patch included **texture-size reductions** — the developer's own framing was that this helps Steam Deck (and lower-end PCs) handle the game's dense environments. What that means for you:
+A recent post-launch update included **texture-size reductions** — the developer's framing was that this helps lower-end hardware (Steam Deck included) handle the game's dense environments. What that means for you:
 
-- **Before the patch:** larger textures strained Deck GPU memory, especially in the big multi-unit battles
-- **After the patch:** lower memory pressure and smoother behavior in busy scenes
-- **Net effect:** the patch-era build is the one to play on Deck. If you started before it, update before judging performance
+- **Before the update:** larger textures strained Deck GPU memory, especially in the big multi-unit battles
+- **After the update:** lower memory pressure and smoother behavior in busy scenes
+- **Net effect:** the current build is the one to play on Deck. If you started on an older build, update before judging performance
 
 See the [Patch Notes & Roadmap](/guides/patch-notes) for the full patch list.
 
@@ -50,7 +50,7 @@ See the [Patch Notes & Roadmap](/guides/patch-notes) for the full patch list.
 
 ## Performance Expectations (Honest)
 
-Tears of Metal renders **Dynasty Warriors-scale crowds** — dozens of soldiers on screen at once, plus effects. That workload is CPU- and GPU-heavy, which is the hardest combination for a handheld.
+Tears of Metal renders **large-scale crowds** — dozens of soldiers on screen at once, plus effects. That workload is CPU- and GPU-heavy, which is the hardest combination for a handheld.
 
 **What to expect:**
 
@@ -77,7 +77,7 @@ These are starting points, not guarantees — every Deck and every scene differs
 The game is a gamepad-native action game — its combat (block, parry, dodge, attacks, battalion commands) maps naturally to the Deck's layout. The **Playable** rating indicates the built-in Deck controls work, which for an action game means the core loop is intact.
 
 **Deck-specific control tips:**
-- **Battalion commands are your friend on Deck** — full battle-energy supers and segment commands (spearmen/infantry/archers) are a core part of the kit; bind them somewhere you can reach mid-combo (see the [Solo Guide](/guides/solo-guide) for why commands matter)
+- **Battalion commands are your friend on Deck** — full battle-energy supers and segment commands (pikemen, grunts, shield bearers, trebuchet spotters) are a core part of the kit; bind them somewhere you can reach mid-combo (see the [Solo Guide](/guides/solo-guide) for why commands matter)
 - **Use the back paddles** if you want dodge/parry off the face buttons — standard Deck practice for action games
 - **Check the community layouts** on the Steam Deck layout screen — other players have already posted tuned bindings for this game
 
@@ -111,29 +111,29 @@ This is the most important section of this guide. Tears of Metal has **no mid-ca
 Tears of Metal multiplayer is **host-based** — the host's connection and hardware define everyone's experience (see the [Multiplayer & Connection Fix Guide](/guides/multiplayer-connection-fix-guide)). For Deck players, that's actually good news:
 
 - **Play as the guest, not the host.** A Deck on Wi-Fi is exactly the kind of host that causes the developer-confirmed desync ("hosts who are far away or running less stable connections"). Let your desktop friend host
-- **Same-version rule applies** — everyone on the same build, and remember crossplay was temporarily disabled in the current patch (Beta branch available; see [Patch Notes](/guides/patch-notes))
+- **Same-version rule applies** — everyone on the same build; and remember the Xbox/Game Pass version is not out yet, so all parties are currently on Steam (see [Patch Notes & Roadmap](/guides/patch-notes))
 - **Wi-Fi over cellular** — if you're on the go, hotspot play is possible but jitter adds desync risk; keep sessions short
 
 If your whole party is on Deck, the best-connected player hosts and everyone else accepts the dips — it works, it's just not ideal.
 
 ---
 
-## Steam vs. Game Pass on Deck
+## Steam vs. the Announced Game Pass Version
 
-Two ways to play, one of them Deck-friendly:
+One version exists today, and it's the Deck-friendly one:
 
 | Version | Deck status |
 |---------|-------------|
 | **Steam version** | The one to use on Deck. Installs natively, patches via Steam, supports suspend/resume cleanly |
-| **PC Game Pass version** | The Game Pass PC build is a Windows store app and doesn't install natively on SteamOS. Game Pass Ultimate cloud streaming on Deck is technically possible in a browser, but we have not confirmed Tears of Metal's cloud-streaming availability — treat that as unverified |
+| **Xbox Series X\|S + Game Pass version** | **Announced for later in 2026 — not yet released.** When it ships it will be a console build, not a SteamOS path; we'll update this guide with any cloud-streaming details at that point |
 
-**Practical advice:** if you own the game on Game Pass and want it on Deck, buying the Steam version (or waiting for a sale) is the reliable path. The Steam version also gets the stability patches through normal Steam updates.
+**Practical advice:** if you want Tears of Metal on Deck today, the Steam version is the only option — and it gets updates through normal Steam updates.
 
 ---
 
 ## Deck Setup Checklist
 
-1. **Update the game** — make sure the stability patch (texture reductions) is installed
+1. **Update the game** — make sure the latest update (texture reductions) is installed
 2. **Set a 40 FPS cap** in the Deck performance menu
 3. **Check the community controller layout** — or bind battalion commands to the back paddles
 4. **Charge before campaigns** — no mid-run saves, no battery-death do-overs
@@ -147,8 +147,8 @@ Two ways to play, one of them Deck-friendly:
 
 Getting from "installed" to "runs well" takes about five minutes:
 
-1. **Install the Steam version** (the Game Pass build doesn't work on SteamOS — see below)
-2. **Let it update** — confirm the stability patch (texture reductions) is installed before first launch
+1. **Install the Steam version** (the announced Game Pass version isn't out yet — see below)
+2. **Let it update** — confirm the latest update (texture reductions) is installed before first launch
 3. **First boot** — the game will configure graphics on first launch; let it finish before touching settings
 4. **Open the Deck's performance menu** (… button → Performance):
    - Set **framerate cap to 40 FPS** — the single best change for this game
@@ -215,8 +215,7 @@ Tears of Metal is a musou-scale brawler — its performance load is different fr
 |----------|---------|
 | **Steam on desktop PC** | Best performance; ideal co-op host |
 | **Steam Deck** | This guide — Playable, portable, beware the run-save trap |
-| **PC Game Pass (Windows)** | Free with the subscription; crossplay with Steam (currently via Beta branch) |
-| **Game Pass cloud streaming on Deck** | Unverified for this title — browser-based xCloud is technically possible but unsupported on SteamOS; don't plan a campaign on it |
+| **Xbox Series X\|S + Game Pass** | Announced for later in 2026 — not yet available; not a SteamOS path when it ships |
 
 **The practical combo:** Steam Deck for solo sessions and light co-op as guest, desktop Steam for hosting and boss fights. That covers every scenario this game offers.
 
@@ -238,14 +237,14 @@ A campaign session on Deck, front to back — the ritual that keeps runs alive:
 
 ## What We Still Don't Know (Honest Gaps)
 
-This guide is updated as information lands, but several Deck questions are still open as of August 9, 2026:
+This guide is updated as information lands, but several Deck questions are still open as of August 11, 2026:
 
 | Question | Status |
 |----------|--------|
 | Official Steam Deck performance targets from Paper Cult | Not published — no vendor benchmarks exist yet |
 | Full vs. partial controller support documentation | Not confirmed on the Steam page at time of writing |
 | Confirmed install size | Not published by us — check Steam's storage field |
-| Game Pass cloud streaming on Deck for this title | Unverified |
+| Game Pass cloud streaming on Deck for this title | Moot until the Game Pass version releases (later 2026) |
 | Whether a Verified rating is in progress | Unknown — Paper Cult hasn't commented |
 
 **How we'll update:** the [Patch Notes & Roadmap](/guides/patch-notes) page tracks announcements; the moment official Deck guidance (or a rating change) lands, this guide gets revised the same day.
@@ -264,7 +263,7 @@ Generally well after the texture-reduction stability patch, with expected frame 
 Yes — sleep mode pauses the game and you can resume. But closing the app, crashing, or battery death ends the run permanently (no mid-campaign saves).
 
 **Q: Does the Game Pass version work on Deck?**
-Not natively — the PC Game Pass build doesn't install on SteamOS. Use the Steam version on Deck.
+The Xbox Series X|S + Game Pass version has been announced for later in 2026 but is not released yet. When it ships it will be a console build, not a SteamOS path — the Steam version remains the Deck version.
 
 **Q: Can I play co-op from my Deck?**
 Yes — join as a guest. Don't host from a Deck if a better-connected player is available.
@@ -272,11 +271,11 @@ Yes — join as a guest. Don't host from a Deck if a better-connected player is 
 **Q: Does the game support cloud saves on Deck?**
 Steam Cloud syncs between your Deck and PC — so yes, your meta progression follows you across devices (see the [Save System Guide](/guides/save-system-guide) for what mid-run saving still doesn't do).
 
-**Q: Will it run better with future patches?**
-Very likely — the stability patch's texture reductions already helped, and the developer's confirmed priorities include performance-adjacent fixes. This guide will be updated as patches land (see [Patch Notes & Roadmap](/guides/patch-notes)).
+**Q: Will it run better with future updates?**
+Very likely — the recent update's texture reductions already helped, and the developer's confirmed priorities include performance-adjacent fixes. This guide will be updated as updates land (see [Patch Notes & Roadmap](/guides/patch-notes)).
 
-**Q: Do I need to buy the Steam version if I have Game Pass?**
-If you want it on Deck, yes — the Game Pass build doesn't install on SteamOS. The Steam version is the Deck path.
+**Q: Do I need to buy the Steam version if I want Game Pass?**
+If you want it on Deck, yes — the Game Pass version is announced for later in 2026, is not out yet, and will be a console build rather than a SteamOS path. The Steam version is the Deck path.
 
 ---
 

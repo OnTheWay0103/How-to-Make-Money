@@ -2,19 +2,21 @@
 title: "Tears of Metal Ruadh Stonecrusher Build Guide — Best Weapons, Emblems & Strategy"
 description: "The definitive Ruadh Stonecrusher build guide for Tears of Metal: best hammer weapons, stagger-focused emblem combos, artifact priority, and boss-killing playstyle for the game's hardest hitter."
 category: "Builds"
-version: "1.0"
-updated: "2026-08-01"
+version: "Early Access"
+updated: "2026-08-11"
 keywords: ["Ruadh build", "best Ruadh build", "Ruadh weapons", "Ruadh emblems", "hammer build", "Tears of Metal Ruadh Stonecrusher"]
-related: ["best-builds", "heroes-tier-list", "weapon-upgrade-guide", "emblem-artifact-guide"]
+related: ["best-builds", "heroes-tier-list", "weapon-merge-guide", "emblem-artifact-guide", "boss-guide"]
 ---
 
 # Tears of Metal Ruadh Stonecrusher Build Guide — Best Weapons, Emblems & Strategy
 
-> **Early Access v1.0 / Updated: August 1, 2026**
+> **Early Access / Updated: August 11, 2026**
 
 Ruadh Stonecrusher is Tears of Metal's giant-hammer powerhouse — the game's highest single-hit damage and best stagger. Captains that would combo other heroes get knocked around instead. He is the definitive boss killer: stagger chains shut down boss patterns outright.
 
 The trade-off: slow wind-ups and positioning-critical play. Whiffing a hammer swing is the most expensive mistake in the game.
+
+> **Values caveat:** artifact names and stat values below are community-reported and unverified — exact numbers may differ in current builds. Treat them as directional guidance, not official data.
 
 ---
 
@@ -36,7 +38,7 @@ The trade-off: slow wind-ups and positioning-critical play. Whiffing a hammer sw
 
 ## Best Weapons for Ruadh
 
-The hammer is Ruadh's identity — merge duplicates at the Smithy for higher tiers (Base + Base = Reinforced+1, doubling per tier up to Reinforced+3; see the [Weapon Upgrade Guide](/guides/weapon-upgrade-guide)).
+The hammer is Ruadh's identity — merge duplicates at the Smithy for higher tiers (Base + Base = Reinforced+1, doubling per tier up to Reinforced+3; see the [Weapon Merge Guide](/guides/weapon-merge-guide)).
 
 | Weapon | Why It's Best | Target Tier |
 |--------|---------------|-------------|
@@ -137,5 +139,5 @@ Whiffing is Ruadh's core weakness. Bait an enemy attack, then commit — never s
 - [Heroes Tier List](/guides/heroes-tier-list) — where Ruadh ranks and why
 - [Best Builds](/guides/best-builds) — the full three-hero build overview
 - [Boss Guide](/guides/boss-guide) — Gilles the Hog, Iseult the Banshee and more
-- [Weapon Upgrade Guide](/guides/weapon-upgrade-guide) — merge system and AP explained
+- [Weapon Merge Guide](/guides/weapon-merge-guide) — merge system and AP explained
 - [Emblem & Artifact Guide](/guides/emblem-artifact-guide) — all 18 emblems and artifact synergy

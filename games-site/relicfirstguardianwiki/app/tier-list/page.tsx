@@ -6,30 +6,30 @@ export const metadata: Metadata = {
 };
 
 const WEAPON_TIERS = [
-  { tier: 'S', weapons: ['Dual Daggers', 'Sword'], note: 'Highest DPS ceiling — Daggers for bleed/crit stacking, Sword for balanced versatility with high skill ceiling' },
-  { tier: 'A', weapons: ['Two-Handed Weapon'], note: 'Massive burst damage and stagger potential — slower but devastating when mastered' },
-  { tier: 'B', weapons: ['Staff', 'Sword & Shield'], note: 'Staff for ranged magic and elemental damage. Sword & Shield for safe, consistent play' },
+  { tier: 'S', weapons: ['Dagger', 'Longsword'], note: 'Highest DPS ceiling — Dagger for speed and burst, Longsword for balanced versatility with a high skill ceiling' },
+  { tier: 'A', weapons: ['Two-Handed'], note: 'Massive per-hit damage — slower but devastating when mastered' },
+  { tier: 'B', weapons: ['Battle Staff', 'Sword & Shield'], note: 'Battle Staff for skill-heavy play. Sword & Shield for safe, consistent play' },
   { tier: 'C', weapons: [], note: 'All 5 weapons are viable — tier reflects optimization ceiling, not playability' },
 ];
 
 const SOLO_TIERS = [
   { tier: 'S', weapons: ['Sword & Shield'], note: 'Block and counter windows create consistent openings — safest solo option' },
-  { tier: 'A', weapons: ['Sword', 'Dual Daggers'], note: 'Sword adapts to any encounter. Daggers melt bosses but require perfect dodge timing.' },
-  { tier: 'B', weapons: ['Staff', 'Two-Handed Weapon'], note: 'Staff struggles up close. Two-Handed punishes mistakes hard in solo.' },
+  { tier: 'A', weapons: ['Longsword', 'Dagger'], note: 'Longsword adapts to any encounter. Dagger melts bosses but requires perfect dodge timing.' },
+  { tier: 'B', weapons: ['Battle Staff', 'Two-Handed'], note: 'Battle Staff struggles up close. Two-Handed punishes mistakes hard in solo.' },
 ];
 
 const BEGINNER_TIERS = [
   { tier: 'Best', weapons: ['Sword & Shield'], note: 'Tanky, simple combos, block saves you from mistakes. Best first weapon.' },
-  { tier: 'Good', weapons: ['Sword', 'Staff'], note: 'Sword teaches fundamentals. Staff lets you learn at range.' },
-  { tier: 'Advanced', weapons: ['Dual Daggers', 'Two-Handed Weapon'], note: 'Daggers require perfect dodging. Two-Handed punishes every mistake.' },
+  { tier: 'Good', weapons: ['Longsword', 'Battle Staff'], note: 'Longsword teaches fundamentals. Battle Staff lets you learn at range.' },
+  { tier: 'Advanced', weapons: ['Dagger', 'Two-Handed'], note: 'Dagger requires perfect dodging. Two-Handed punishes every mistake.' },
 ];
 
 export default function TierListPage() {
   return (
     <div className="max-w-3xl mx-auto px-4 py-12">
       <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">Weapon Tier List</h1>
-      <p className="text-gray-400 mb-2">The Relic: First Guardian weapon rankings for launch (July 31, 2026). Based on preview and demo data.</p>
-      <div className="inline-flex items-center gap-1 text-xs font-medium px-2 py-0.5 rounded bg-amber-900/30 text-amber-400 border border-amber-800/50 mb-8">Pre-launch — subject to balance changes</div>
+      <p className="text-gray-400 mb-2">The Relic: First Guardian weapon family impressions based on launch reviews and community reports — verified ranking data does not exist yet.</p>
+      <div className="inline-flex items-center gap-1 text-xs font-medium px-2 py-0.5 rounded bg-amber-900/30 text-amber-400 border border-amber-800/50 mb-8">Early impressions — unconfirmed data</div>
 
       {[{ title: 'Overall Rankings', tiers: WEAPON_TIERS }, { title: 'Solo Play Rankings', tiers: SOLO_TIERS }, { title: 'Beginner Recommendations', tiers: BEGINNER_TIERS }].map((section) => (
         <section key={section.title} className="mb-12">
@@ -59,9 +59,9 @@ export default function TierListPage() {
       <div className="bg-[#1a1a3e] border border-[#2a2a5e] rounded-lg p-5">
         <h3 className="text-white font-semibold mb-2">A Note on Tier Lists</h3>
         <p className="text-gray-400 text-sm leading-relaxed">
-          The Relic: First Guardian launches July 31, 2026. All 5 weapon families are viable — each has 12 dedicated
-          skill trees allowing for deep mastery. Rune and artifact optimization matters more than weapon tier rankings.
-          Pick the playstyle you enjoy most and build around it.
+          The Relic: First Guardian released July 31, 2026. All 5 weapon families are described as viable — there are
+          12 skill trees total (two per family) for deep mastery. Relic and artifact optimization matters more than
+          weapon tier rankings. Pick the playstyle you enjoy most and build around it.
         </p>
       </div>
     </div>

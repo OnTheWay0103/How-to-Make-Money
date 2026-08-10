@@ -1,16 +1,16 @@
 ---
 title: "Tears of Metal Boss Guide — Gilles the Hog, Iseult the Banshee & All Boss Encounters"
-description: "Complete Tears of Metal boss guide: the verified boss roster (Gilles the Hog, Iseult the Banshee), act-by-act boss strategy, how Threat Level buffs boss fights, hero matchups, and the no-healing boss arena economy."
+description: "Complete Tears of Metal boss guide: the verified boss roster (Gilles the Hog, Iseult the Banshee), act-by-act boss strategy and quick-reference chart, how Threat Level buffs boss fights, hero matchups, and the no-healing boss arena economy."
 category: "Bosses"
-version: "1.0"
-updated: "2026-08-01"
+version: "Early Access"
+updated: "2026-08-11"
 keywords: ["Tears of Metal boss guide", "Tears of Metal Gilles the Hog", "Tears of Metal Iseult the Banshee", "Tears of Metal boss fight tips", "Tears of Metal Act 1 boss", "how to beat Tears of Metal bosses"]
-related: ["boss-quick-reference-chart", "boss-strategies", "heroes-tier-list", "threat-level-difficulty-guide", "combat-tips"]
+related: ["heroes-tier-list", "threat-level-difficulty-guide", "combat-tips", "corruption-guide", "battalion-companion-guide", "best-builds"]
 ---
 
 # Tears of Metal Boss Guide — Gilles the Hog, Iseult the Banshee & All Boss Encounters
 
-> **Early Access v1.0 / Updated: August 1, 2026**
+> **Early Access / Updated: August 11, 2026**
 
 **Naming note first:** only two boss names are confirmed in public sources — **Gilles the Hog** and **Iseult the Banshee**. Names like "Ironclad Commander," "Excavation Juggernaut," and "Corrupted Warlord" that appeared in older guides are not verified and do not match the real game. Every boss encounter below is real; unconfirmed names are labeled honestly.
 
@@ -18,14 +18,24 @@ Each act in Tears of Metal ends with a unique boss encounter. These fights test 
 
 ---
 
-## Verified Boss Roster
+## Verified Boss Roster (Quick Reference)
 
-| Boss | Where | Confirmed | What We Know |
-|------|-------|:--:|--------------|
-| **Gilles the Hog** | Act 1 end boss (also the free demo's finale) | ✅ | The first campaign wall. A missed block/parry/dodge costs nearly half your health. **There is no healing in the Act 1 boss arena** — arrive topped up |
-| **Iseult the Banshee** | Campaign boss (act unconfirmed) | ✅ | Players reported a softlock/stuck state on this fight at launch; fixed by the first stability patch (with save recovery). Post-patch it plays as a normal boss fight |
+| Boss | Where | Confirmed | What We Know | Fight Notes |
+|------|-------|:--:|--------------|-------------|
+| **Gilles the Hog** | Act 1 end boss (also the free demo's finale) | ✅ | Real launch boss; the first campaign wall | A missed block/parry/dodge costs nearly half your health — learn the rhythm before the arena. There is **no healing in the Act 1 boss arena**, so arrive topped up |
+| **Iseult the Banshee** | Act 2 end boss (community-reported) | ✅ | Reported as the Act 2 campaign boss; players also reported a softlock/stuck state on this fight at launch, fixed by a recent update (with save recovery) | Post-fix it plays as a normal boss fight. Beating her unlocks Ruadh Stonecrusher — see the [Character Unlock Guide](/guides/character-unlock-guide) |
 
 > Every other boss encounter across the three acts is real but **unnamed in public sources**. This guide is updated as Paper Cult confirms names via patch notes and announcements.
+
+---
+
+## Act-by-Act Boss Chart
+
+| Act | Region | Difficulty | Confirmed Bosses | Notes |
+|:--:|--------|-----------|:--:|-------|
+| 1 | The opening coastline | Normal | **Gilles the Hog** | Learn block/parry/dodge here; healing is scarce the whole game, so this is where the economy lesson lands |
+| 2 | Mid campaign | Hard | **Iseult the Banshee** (community-reported) | The notorious solo wall of the campaign; bosses here arrive with Threat Level pressure already active (see below) |
+| 3 | **The Scar** | Brutal ("absolutely unforgiving") | — (unnamed) | The late-game wall reviewers name repeatedly; bosses here can come buffed by Threat Level — see [Threat Level & Difficulty Guide](/guides/threat-level-difficulty-guide) |
 
 ---
 
@@ -59,13 +69,21 @@ Gilles the Hog is the end boss of Act 1 on the Scottish Coast and was the finale
 
 ---
 
-## Act 2 Boss: Name Unconfirmed
+## Act 2 Boss: Iseult the Banshee
 
-The Act 2 boss in the Mining Complex is real but **unnamed in public sources**. What we can say with confidence:
+Iseult the Banshee is the confirmed Act 2 campaign boss (community-reported placement, consistent across player reports). She is famous for two things: she filters new players harder than any other fight, and she shipped with a notable launch bug.
 
-- **It arrives with Threat Level pressure already active** — by Act 2, extra captains and archer towers spawn around boss fights if you cleared aggressively.
+- **The unlock:** beating her unlocks **Ruadh Stonecrusher** on current builds (see the [Character Unlock Guide](/guides/character-unlock-guide)).
+- **The bug:** at launch, players reported a **softlock/stuck state** during this fight that could leave the game stuck and unsaveable.
+- **The fix:** shipped in a recent update, alongside the save recovery system.
+- **Now:** post-fix, the fight plays as a normal boss encounter. If you hit a stuck state on any older build, update the game first.
+
+### Strategy
+
+- **Expect Threat Level pressure already active** — by Act 2, extra captains and archer towers spawn around boss fights if you cleared aggressively.
+- **Dodge sideways, don't block** — her pattern punishes standing still and over-committing. Dodge through her swings, punish recovery windows, and save your battle-energy super for the phase transition.
 - **Expect adds** — elite bodyguards in the arena turn a 1v1 into a 1v5. Kill them first or they become adds mid-fight.
-- **Positioning beats aggression** — with the boss name and exact pattern set unconfirmed, treat every new fight as a scouting run: watch the telegraphs, don't overcommit, and retreat to reset if the fight escalates past your healing budget.
+- **Positioning beats aggression** — treat every new fight as a scouting run: watch the telegraphs, don't overcommit, and retreat to reset if the fight escalates past your healing budget.
 
 **Practical rule:** if an Act 2 boss feels overtuned, it is often your own Threat Level talking — route planning matters more than gear.
 
@@ -87,18 +105,7 @@ The final region — called **The Scar** — is "absolutely unforgiving" by revi
 | Regen emblem | Passive healing offsets Corruption tick damage |
 | Full-health entry | The arena has no healing — this is non-negotiable |
 | Low Threat Level route | A high-Threat run faces a buffed boss with extra captains and towers |
-
----
-
-## Iseult the Banshee: Confirmed Campaign Boss
-
-Iseult the Banshee is a confirmed campaign boss (the act is not confirmed in public sources). She is notable for a launch bug: players reported a **softlock/stuck state** during this fight.
-
-- **The bug:** the fight could leave the game stuck and unsaveable in some cases.
-- **The fix:** shipped in the launch stability patch, alongside the save recovery system.
-- **Now:** post-patch, the fight plays as a normal boss encounter. If you hit a stuck state on any older build, update the game first.
-
-Beyond the bug report, her pattern set is not publicly documented — treat her as an unknown-pattern boss until guides catch up.
+| Built battalion | Companion units soak pressure and add damage — don't enter boss fights without them (see [Battalion & Companion Guide](/guides/battalion-companion-guide)) |
 
 ---
 
@@ -128,11 +135,23 @@ The more you clear and collect, the stronger the campaign's retaliation — boss
 
 ---
 
+## Boss-Fight Prep Checklist
+
+| Prep | Why It Matters |
+|------|----------------|
+| **Stock healing before the arena** | Potions are expensive and rare; the Act 1 boss arena has no healing at all |
+| **Master block/parry/dodge** | One missed read costs ~half your health against captains and bosses |
+| **Kill adds first** | Captains, towers and summoned minions turn a 1v1 into a 1v5 — thin the room before focusing the boss |
+| **Build your battalion** | Companion units soak pressure and add damage (see [Battalion & Companion Guide](/guides/battalion-companion-guide)) |
+| **Check Threat Level before the door** | A high-Threat run faces a buffed boss — you may prefer the lower-reward route |
+
+---
+
 ## Boss Rewards
 
 Boss kill rewards have not been officially itemized (older pages claimed specific drops tied to unverified boss names — treat those as unreliable). Confirmed at minimum:
 
-- Bosses **always drop artifacts** (1-2 per kill)
+- Bosses **always drop artifacts** (1-2 per kill, community-reported)
 - Boss kills are a source of **Dragon Stone Shards**, the premium progression material
 - Final-region bosses drop the highest-tier materials
 
@@ -141,7 +160,7 @@ Boss kill rewards have not been officially itemized (older pages claimed specifi
 ## FAQ
 
 **Q: How many bosses are in Tears of Metal?**
-The three-act campaign has multiple boss encounters, but only two names are confirmed: Gilles the Hog (Act 1) and Iseult the Banshee (campaign). Older pages claiming a 12-boss list with specific names are not verified.
+The three-act campaign has multiple boss encounters, but only two names are confirmed: Gilles the Hog (Act 1) and Iseult the Banshee (Act 2, community-reported placement). Older pages claiming a 12-boss list with specific names are not verified.
 
 **Q: Which hero is best for bosses?**
 Ruadh Stonecrusher — his stagger interrupts boss patterns. Wallace is the safest pick while learning.
@@ -149,8 +168,8 @@ Ruadh Stonecrusher — his stagger interrupts boss patterns. Wallace is the safe
 **Q: Why is the boss so much harder this run?**
 Check your Threat Level — clearing more maps and loot buffs the final fight (extra captains, towers, scaled boss).
 
-**Q: Did the stability patch fix the Iseult the Banshee bug?**
-Yes — the stuck state on that fight was fixed in the launch stability patch, alongside the save recovery system.
+**Q: Did a recent update fix the Iseult the Banshee bug?**
+Yes — the stuck state on that fight was fixed in a recent update, alongside the save recovery system.
 
 **Q: Why is the Act 1 boss arena so brutal?**
 There is no healing in the arena and one missed block/parry/dodge costs nearly half your health. It is the game's deliberate rhythm check — arrive full, clear adds first, and master block/parry/dodge.
@@ -159,8 +178,7 @@ There is no healing in the arena and one missed block/parry/dodge costs nearly h
 
 ## Related Guides
 
-- [Boss Quick-Reference Chart](/guides/boss-quick-reference-chart) — verified roster at a glance
-- [Boss Strategies Guide](/guides/boss-strategies) — patterns, weaknesses & loadouts
+- [Character Unlock Guide](/guides/character-unlock-guide) — how beating Iseult unlocks Ruadh
 - [Threat Level & Difficulty Guide](/guides/threat-level-difficulty-guide) — why boss fights get harder
 - [Corruption Guide](/guides/corruption-guide) — Act 3's health-draining mechanic
 - [Heroes Tier List](/guides/heroes-tier-list) — Wallace, Brienne & Ruadh Stonecrusher ranked

@@ -3,7 +3,7 @@ title: "Endings — How Many Endings Are There? (Unconfirmed at Launch)"
 description: "How many endings does The Relic: First Guardian have? The honest answer: the ending structure is unconfirmed at launch. What the story premise tells us, and how to avoid fabricated ending guides."
 category: "Guides"
 version: "1.0"
-updated: "2026-08-01"
+updated: "2026-08-11"
 keywords: ["relic first guardian endings", "relic first guardian how many endings", "relic first guardian secret ending", "relic first guardian true ending", "relic first guardian story ending"]
 related: ["walkthrough", "all-bosses-list", "trophy-guide", "game-length-guide"]
 ---

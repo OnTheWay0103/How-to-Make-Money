@@ -3,16 +3,14 @@ title: "Relic First Guardian Relic Combinations — Builds That Adapt to Every B
 description: "Relic combinations for The Relic: First Guardian: the four combo archetypes, how to pair relics with weapon families, drawback management, and the swap discipline the game expects before every boss."
 category: "Guides"
 version: "1.0"
-updated: "2026-08-04"
+updated: "2026-08-11"
 keywords: ["relic first guardian relic combinations", "relic first guardian best relics", "relic first guardian relic builds", "relic first guardian relic energy", "relic first guardian build guide", "relic first guardian fragments"]
 related: ["artifacts-guide", "runes-guide", "builds-guide", "upgrade-system", "tier-list"]
 ---
 
 # Relic First Guardian Relic Combinations — Build the Right Set for the Right Brutal
 
-# Relic First Guardian Relic Combinations — Build the Right Set for the Right Brutal
-
-**The Relic: First Guardian / Updated: August 4, 2026**
+**The Relic: First Guardian / Updated: August 11, 2026**
 
 Relics are the passive fragment system that defines every build in The Relic: First Guardian — and the game's design is explicit about how they're meant to be used: **"freely swap them to adapt your build to each boss."** A static relic loadout is a misunderstanding of the game. This guide covers the confirmed relic effects, the four combo archetypes, weapon-family pairings, and the drawback math that turns a powerful set into a build decision.
 
@@ -43,7 +41,7 @@ Official descriptions confirm five effect families:
 | **Sustain Wall** | Outlast every fight | Health, defense, sustain effects | Mixed fights where chip damage accumulates |
 | **Cooldown Engine** | Skill spam as the damage core | Cooldown reduction + skill-reshaping relics | Any fight where your weapon's skill is the win condition |
 
-**Why archetypes beat item lists:** with over a hundred possible fragments and a roster of 70-80 Brutals, memorizing "the best relic" is useless — knowing *which archetype a boss demands* is the actual skill. Probe the fight (one early parry tells you the archetype), then match your combo.
+**Why archetypes beat item lists:** with over 70 unique fragments and a roster of 70-80 Brutals, memorizing "the best relic" is useless — knowing *which archetype a boss demands* is the actual skill. Probe the fight (one early parry tells you the archetype), then match your combo.
 
 ---
 
@@ -53,9 +51,9 @@ Each weapon family has 2 skill trees (12 total) — the relic combo should ampli
 
 | Weapon Family | Playstyle | Relic Effects That Amplify It |
 |---------------|-----------|-------------------------------|
-| Heavy/Great weapons | Big wind-ups, big windows | Stamina economy + cooldown reduction |
-| Fast weapons | Pressure, multi-hits | Weapon damage buffs + tempo changes |
-| Ranged/utility | Distance control | Skill reshapes + survivability |
+| Two-Handed | Big wind-ups, big windows | Stamina economy + cooldown reduction |
+| Dagger (dual blades) | Pressure, multi-hits | Weapon damage buffs + tempo changes |
+| Battle Staff | Distance control | Skill reshapes + survivability |
 
 **The pairing rule:** fragments that buff your weapon family first, survivability second, and skill reshaping third — unless the fight demands otherwise (dodge-gate fights flip that order). See the [Weapons Guide](/guides/weapons-guide) for the full family breakdown.
 
@@ -67,7 +65,7 @@ Some of the strongest **gear** (unique artifacts) carry **Drawbacks** — a conf
 
 | Situation | The Decision |
 |-----------|--------------|
-| Drawback drains stamina | Not for parry-chain fights — stamina is defense ammo (see the [Parry Timing Guide](/guides/parry-timing-guide)) |
+| Drawback drains stamina | Not for parry-chain fights — stamina is defense ammo (see the [Combat Guide](/guides/combat-guide)) |
 | Drawback grants a weakness | Match relics to cover it, or skip the item for that boss |
 | Drawback fits the archetype | Build around it — the game wants you to manage trade-offs, not ignore them |
 | Powerful item, wrong boss | Swap it out — official design is explicit that loadouts are per-fight |
@@ -100,7 +98,7 @@ Some of the strongest **gear** (unique artifacts) carry **Drawbacks** — a conf
 
 ## 7. The Full Build Loop
 
-Find fragments and Shards through exploration → unlock slots at camp → earn Relic Energy from Brutals → buy skill nodes → assemble an archetype combo → probe the next Brutal → swap and adapt. The [Upgrade System Guide](/guides/upgrade-system) covers the skill-tree side of this loop, the [Tier List Guide](/guides/tier-list) ranks the strongest current fragments, and the [Runes Guide](/guides/runes-guide) has the deeper mechanics behind every fragment family.
+Find fragments and Shards through exploration → unlock slots at camp → earn Relic Energy from Brutals → buy skill nodes → assemble an archetype combo → probe the next Brutal → swap and adapt. The [Upgrade System Guide](/guides/upgrade-system) covers the skill-tree side of this loop, the [Tier List Guide](/guides/tier-list) ranks the weapon families (early impressions, unconfirmed data), and the [Runes Guide](/guides/runes-guide) has the deeper mechanics behind every fragment family.
 
 ---
 
@@ -110,4 +108,4 @@ Find fragments and Shards through exploration → unlock slots at camp → earn 
 - [Runes Guide](/guides/runes-guide) — Relic mechanics, economy, and slot unlocks
 - [Builds Guide](/guides/builds-guide) — Full archetype loadouts
 - [Upgrade System Guide](/guides/upgrade-system) — Skill trees and Relic Energy spending
-- [Tier List Guide](/guides/tier-list) — The strongest current fragments
+- [Tier List Guide](/guides/tier-list) — Weapon family rankings (early impressions, unconfirmed data)

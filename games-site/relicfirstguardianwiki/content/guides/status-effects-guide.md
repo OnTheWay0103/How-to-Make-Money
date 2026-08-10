@@ -3,9 +3,9 @@ title: "Status Effects Guide — Curse, Poison & Debuffs Explained"
 description: "Status effects in The Relic: First Guardian, explained. The confirmed Curse instant-death gauge, Poison damage-over-time, cursed weapon Drawbacks, and how resistance gear works — with honest notes on unconfirmed mechanics."
 category: "Guides"
 version: "1.0"
-updated: "2026-08-05"
+updated: "2026-08-11"
 keywords: ["relic first guardian status effects", "relic first guardian curse", "relic first guardian poison", "relic first guardian debuffs", "relic first guardian curse gauge", "relic first guardian resistance", "relic first guardian status guide"]
-related: ["combat-guide", "survival-healing-guide", "weapons-guide", "boss-strategies", "parry-timing-guide"]
+related: ["combat-guide", "how-to-increase-health", "weapons-guide", "boss-strategies"]
 ---
 
 # Status Effects Guide — Curse, Poison & Debuffs Explained
@@ -49,7 +49,7 @@ Poison is confirmed to exist as a weapon property rather than a widespread hazar
 
 - **Specific weapons apply it** — previews confirm at least one dagger trades raw attack power for **poison application**. It is a build choice, not a random drop.
 - **It is damage-over-time** — poison chips away at enemies while you reposition or defend. Exact tick values are unconfirmed.
-- **It pairs with the free-attack economy** — since attacks cost zero stamina, a poison weapon lets you apply the ailment constantly; see the [Weapon Damage Guide](/guides/weapon-damage-guide) for pairing advice.
+- **It pairs with the free-attack economy** — since attacks cost zero stamina, a poison weapon lets you apply the ailment constantly; see the [Best Builds Guide](/guides/builds-guide) for damage pairing advice.
 
 **Unconfirmed:** whether enemies poison the player, whether poison resistance gear exists, and whether poison can stack. Treat any claims about "poison builds" beyond the confirmed dagger as community speculation.
 
@@ -77,7 +77,7 @@ Not all statuses hurt you. The confirmed stagger system works in your favor:
 - **Breaking stance staggers them** and **massively increases damage** — confirmed.
 - **Some bosses require it** — parry-gate fights are effectively puzzles: land repeated parries (up to ~15 per one launch review) before an attack window opens.
 
-This is the closest thing the game has to a "stun" status, and it is your main tool against enemies that otherwise never stagger. Timing detail: [Parry Timing Guide](/guides/parry-timing-guide).
+This is the closest thing the game has to a "stun" status, and it is your main tool against enemies that otherwise never stagger. Timing detail: [Combat Guide](/guides/combat-guide).
 
 ---
 
@@ -86,7 +86,7 @@ This is the closest thing the game has to a "stun" status, and it is your main t
 - [ ] Read the boss's lore and item text before fighting — the game telegraphs mechanics through story
 - [ ] Equip resistance gear for the fight's element (Curse resistance is confirmed effective vs the fairy boss)
 - [ ] Swap relics for defensive passives when a status boss approaches
-- [ ] Keep potions maxed — **Breath of Esser** refills restore health, not just a sliver (see [Survival & Healing Guide](/guides/survival-healing-guide))
+- [ ] Keep potions maxed — health potion refills restore a solid chunk of health, not just a sliver (see [How to Increase Health & Survivability](/guides/how-to-increase-health))
 - [ ] Identify red-tinted attacks and plan dodges for each one
 - [ ] Decide whether cursed weapon Drawbacks fit your build before equipping
 
@@ -122,7 +122,7 @@ A: **Yes** — at least one dagger applies poison (a damage-over-time ailment) a
 A: Curse is a combat ailment. "Cursed" is a gear **Drawback** — uniques that trade one stat (e.g., health) for power. Different systems, easily confused.
 
 **Q: Can I cure status effects?**
-A: Standard healing (Breath of Esser potions) covers damage; a dedicated cure item for Curse is **unconfirmed**.
+A: Standard healing potions cover damage; a dedicated cure item for Curse is **unconfirmed**.
 
 **Q: How do I build the Groggy gauge?**
 A: **Parry** — successful parries fill the invisible Groggy Gauge; breaking stance staggers the enemy and massively increases damage.
@@ -132,7 +132,6 @@ A: **Parry** — successful parries fill the invisible Groggy Gauge; breaking st
 ### Related Guides
 
 - [Combat Guide](/guides/combat-guide) — The stamina economy behind dodging status attacks
-- [Survival & Healing Guide](/guides/survival-healing-guide) — Managing health through status fights
+- [How to Increase Health & Survivability](/guides/how-to-increase-health) — Managing health through status fights
 - [Boss Strategies](/guides/boss-strategies) — Curse bosses and the dodge patterns that beat them
-- [Parry Timing Guide](/guides/parry-timing-guide) — Building the Groggy Gauge reliably
 - [Weapons Guide](/guides/weapons-guide) — Poison weapons and cursed gear by family

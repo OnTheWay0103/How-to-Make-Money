@@ -3,7 +3,7 @@ title: "Beginner Guide — Getting Started in Arsiltus"
 description: "Complete beginner guide for The Relic: First Guardian. First hours tips, best starting weapon, stamina and relic basics, and the early progression path — with confirmed mechanics and honest unconfirmed notes."
 category: "Guides"
 version: "1.0"
-updated: "2026-08-01"
+updated: "2026-08-11"
 keywords: ["the relic first guardian beginner guide", "relic first guardian getting started", "Arsiltus beginners", "how to start relic first guardian", "relic first guardian tips", "best starting weapon relic first guardian"]
 related: ["weapons-guide", "combat-guide", "runes-guide"]
 ---
@@ -114,7 +114,7 @@ Once you have the combat economy down and a few relics equipped, you have beaten
 - [Weapons Guide](/guides/weapons-guide) — pick your family and learn the 12 skill trees
 - [Combat Guide](/guides/combat-guide) — parry timing and stamina management in depth
 - [Upgrade System](/guides/upgrade-system) — slots, shards, and forging
-- [Boss Guide](/guides/boss-guide) — how to fight the 70-80 Brutals
+- [Boss Strategies](/guides/boss-strategies) — how to fight the 70-80 Brutals
 
 ---
 

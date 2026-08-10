@@ -1,16 +1,16 @@
 ---
 title: "Tears of Metal Threat Level & Difficulty Guide — Why Clearing Maps Makes the Game Harder"
-description: "Threat Level explained: why Tears of Metal gets harder the more you clear — extra captains, archer towers, buffed bosses — and how to survive the brutally hard third region The Scar, including healing economy and route planning."
+description: "Threat Level explained: why Tears of Metal gets harder the more you clear — extra captains, more elite spawns, buffed bosses — and how to survive the brutally hard third region The Scar, including healing economy and route planning."
 category: "Guides"
-version: "1.0"
-updated: "2026-08-01"
+version: "Early Access"
+updated: "2026-08-11"
 keywords: ["tears of metal threat level", "tears of metal why is the game harder", "tears of metal the scar", "tears of metal act 3 tips", "tears of metal difficulty", "tears of metal too hard"]
 related: ["beginner-guide", "heroes-tier-list", "save-system-guide", "boss-guide"]
 ---
 
 # Tears of Metal Threat Level & Difficulty Guide — Why Clearing Maps Makes the Game Harder
 
-> **Early Access v1.0 / Updated: August 1, 2026**
+> **Early Access / Updated: August 11, 2026**
 
 "You cleared the whole map and now the final battle is impossible. Is this a bug?" **No — it's the Threat Level system, and it's the most misunderstood mechanic in Tears of Metal.** Reviews call it the game's cruelest surprise: the more you clear and collect, the stronger the game's retaliation. This guide explains exactly how it works, why The Scar feels unfair (and is), and how to plan routes so the game punishes you less.
 
@@ -23,18 +23,18 @@ Threat Level is a **per-campaign escalation meter that rises with your success**
 | What raises it | What it does when it rises |
 |----------------|---------------------------|
 | Clearing map objectives / wiping out enemy groups | Spawns **extra captains** in subsequent fights |
-| Picking up rewards / loot caches | Adds **archer towers** to later battles |
+| Picking up rewards / loot caches | Adds **more elite spawns** to later battles |
 | Killing elites and bosses fast | **Buffs the final boss** of the region |
 
 The game essentially treats map completion as "the enemy has noticed you" — which is thematically great and mechanically punishing. If you clear *everything*, you walk into the region boss with a maxed-out escalation.
 
-**This is design, not a bug.** The community and media (GamesHorizon's demo testing, the 163 Chinese review calling it a "self-destructive loop") confirmed the pattern: the more you grind, the faster you die in the final battle.
+**This is design, not a bug.** Community reports and press coverage of the demo consistently confirmed the pattern: the more you grind, the faster you die in the final battle.
 
 ---
 
 ## The Scar — The Brutal Third Region
 
-Every reviewer agrees: the first two regions are manageable, and then **The Scar is "absolutely unforgiving"** (Smashpad's words — 5+ captains swarming you in one fight). What's going on:
+Every reviewer agrees: the first two regions are manageable, and then **The Scar is "absolutely unforgiving"** — 5+ captains swarming you in one fight. What's going on:
 
 1. **Elite density spikes** — The Scar's encounters put captains in groups instead of one at a time.
 2. **No healing relief** — healing is expensive and rare; there are **no heal points between fights**, and the boss arena has none either.
@@ -49,7 +49,7 @@ Every reviewer agrees: the first two regions are manageable, and then **The Scar
 | **Skip loot caches you don't need** | Every pickup raises escalation; take what you need, not everything |
 | **Save healing for the boss arena** | There are no heal points in boss fights — enter at full health or don't enter |
 | **Kill captains first** | Captains buff and summon; they're the force multiplier in every swarm |
-| **Use Wallace (longsword) first** | His forgiving parry timing is the difference between losing half HP and losing 10% |
+| **Use Wallace (longsword) first** | His forgiving parry timing is the difference between losing half your HP and losing a fraction of it |
 | **Brienne's dodge game** | If you're on Brienne, the fast dodge rhythm is your only defense — treat every captain combo as dodge-or-die |
 
 ---
@@ -58,7 +58,7 @@ Every reviewer agrees: the first two regions are manageable, and then **The Scar
 
 - Healing items are **expensive and rare** in Tears of Metal — reviewers consistently flag the scarcity.
 - **Don't heal mid-fight for chip damage** — save potions for the boss arena and emergency moments.
-- **Spend gold on heals before the boss**, not after — there is no restock point in boss fights.
+- **Spend triskelle on heals before the boss**, not after — there is no restock point in boss fights.
 - Co-op tip: designate a healer *carrier*? No — healing is personal. Just make sure **everyone** enters the boss fight at full HP; one player at half HP costs the whole run.
 
 ---
@@ -67,7 +67,7 @@ Every reviewer agrees: the first two regions are manageable, and then **The Scar
 
 1. **Check the objective first** — do exactly what the mission needs.
 2. **Decide "clear or not" consciously** — every extra group you wipe raises the boss's power. Ask: *is the loot worth the stronger boss?*
-3. **Farm in runs you plan to abandon** — if you're grinding gold/XP, do it in runs where you accept the boss will be harder, or skip the boss entirely.
+3. **Farm in runs you plan to abandon** — if you're grinding triskelle/XP, do it in runs where you accept the boss will be harder, or skip the boss entirely.
 4. **Boss runs = minimal clearing** — when the goal is beating the region boss, touch nothing extra.
 5. **Retreat is a valid strategy** — if a fight is escalating past your healing budget, fall back and reset the encounter (see the [Save System Guide](/guides/save-system-guide) for what you keep and lose).
 

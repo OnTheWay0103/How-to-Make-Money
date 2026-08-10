@@ -2,17 +2,19 @@
 title: "Tears of Metal Equipment Guide — Armor, Gear Slots & Stat Priority"
 description: "Tears of Metal equipment explained: the four loadout layers (weapon, emblems, artifacts, defensive gear), gear slots from the Armory, armor and block mechanics, and stat priority per hero."
 category: "Mechanics"
-version: "1.0"
-updated: "2026-08-01"
+version: "Early Access"
+updated: "2026-08-11"
 keywords: ["equipment", "armor", "gear", "gear slots", "stat priority", "best gear", "Tears of Metal equipment"]
-related: ["weapon-upgrade-guide", "weapon-upgrades", "emblem-artifact-guide"]
+related: ["weapon-merge-guide", "emblem-artifact-guide", "corruption-guide", "combat-tips", "village-upgrade-guide"]
 ---
 
 # Tears of Metal Equipment Guide — Armor, Gear Slots & Stat Priority
 
-> **Early Access v1.0 / Updated: August 1, 2026**
+> **Early Access / Updated: August 11, 2026**
 
 Your loadout in Tears of Metal is built from four layers: the **weapon** (merge-scaling damage), **two emblems** (attack elements and synergies), **artifacts** (passive bonuses from the Armory), and **defensive gear** (armor and block/parry tools). This guide explains each layer, how many slots you get, and how to prioritize stats for each hero.
+
+> **Values caveat:** artifact names and stat values below are community-reported and unverified — exact numbers may differ in current builds. Treat them as directional guidance, not official data.
 
 ---
 
@@ -22,7 +24,7 @@ Your loadout in Tears of Metal is built from four layers: the **weapon** (merge-
 |-------|-----------|----------------|
 | **Weapon** | Your attack's base damage and skill tree | Carried in-run; merged at the Smithy |
 | **Emblems** | 2 equipped — Primary (element) + Secondary (synergy) | Unlocked via Mystic Altar |
-| **Artifacts** | Passive bonus items (100+ total) | Equipped from the Armory |
+| **Artifacts** | Passive bonus items (a large pool) | Equipped from the Armory |
 | **Defensive gear** | Armor, shields, and block/parry equipment | Found in-run and between runs |
 
 ---
@@ -75,9 +77,9 @@ Armor in Tears of Metal is not just a stat — it is a system tied to blocking:
 | Rarity | Relative Power | Special Effect |
 |--------|----------------|----------------|
 | Common | Baseline | None |
-| Uncommon | +20% over Common | Minor bonus effect |
-| Rare | +50% over Common | Major bonus effect |
-| Legendary | +100% over Common | Unique, build-defining effect |
+| Uncommon | Slightly stronger than Common | Minor bonus effect |
+| Rare | Notably stronger than Common | Major bonus effect |
+| Legendary | Much stronger than Common | Unique, build-defining effect |
 
 Legendaries define builds (e.g., Guardian's Pendant — survive lethal damage at 1 HP once per run) but only when their effect matches your playstyle.
 
@@ -121,7 +123,7 @@ Armor appears as equipment effects (damage reduction, block efficiency) rather t
 
 ## Related Guides
 
-- [Weapon Upgrade Guide](/guides/weapon-upgrade-guide) — weapon tiers, merging, and the AP system
+- [Weapon Merge Guide](/guides/weapon-merge-guide) — weapon tiers, merging, and the AP system
 - [Emblem & Artifact Guide](/guides/emblem-artifact-guide) — all 18 emblems and artifact synergy
 - [Corruption Guide](/guides/corruption-guide) — the equipment you need for Act 3
 - [Combat Tips](/guides/combat-tips) — block, parry and dodge fundamentals

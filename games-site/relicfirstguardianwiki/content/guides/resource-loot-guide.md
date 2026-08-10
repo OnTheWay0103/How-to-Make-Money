@@ -3,7 +3,7 @@ title: "Resources & Loot Guide — Uniques, Relics & Progressing Without Levels"
 description: "Loot and progression in The Relic: First Guardian. No traditional levels — growth comes from unique one-of-a-kind gear, 70+ relic fragments, and 12 cooldown-based skill trees. Drop rates and upgrade costs are unconfirmed."
 category: "Guides"
 version: "1.0"
-updated: "2026-08-04"
+updated: "2026-08-11"
 keywords: ["relic first guardian loot", "relic first guardian resources", "relic first guardian unique items", "relic first guardian relics collection", "relic first guardian no levels", "relic first guardian progression", "relic first guardian drop rates"]
 related: ["artifacts-guide", "upgrade-system", "weapons-guide", "runes-guide", "beginner-guide"]
 ---
@@ -107,7 +107,7 @@ A: Find **Shards of Awakening** through exploration and bring them to **Elisa at
 A: **Unconfirmed.** No verified drop tables exist at launch. The only confirmed rule is that nothing drops duplicates.
 
 **Q: Are cursed weapons worth using?**
-A: They trade **damage for health** — strong if you have healing relics and confident dodges, a trap otherwise. See the [Weapon Damage Guide](/guides/weapon-damage-guide) for pairing advice.
+A: They trade **damage for health** — strong if you have healing relics and confident dodges, a trap otherwise. See the [Best Builds Guide](/guides/builds-guide) for pairing advice.
 
 ---
 

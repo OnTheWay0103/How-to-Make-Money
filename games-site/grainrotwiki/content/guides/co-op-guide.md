@@ -1,9 +1,9 @@
 ---
 title: 'Co-op Guide — Multiplayer Tips & Team Strategies'
-description: 'Grain Rot co-op guide: confirmed multiplayer facts — up to 4-player online co-op, friendly fire chaos, dropkicks, shared loot and Outpost — plus honest team strategy before launch.'
+description: 'Grain Rot co-op guide: confirmed multiplayer facts — up to 4-player online co-op, friendly fire chaos, dropkicks, shared loot and Outpost — plus honest team strategy.'
 category: 'Co-op'
-version: 'Pre-release'
-updated: '2026-08-01'
+version: '1.0'
+updated: '2026-08-11'
 keywords: ['grain rot co-op', 'grain rot multiplayer', 'grain rot team strategy', 'grain rot co op guide', 'grain rot teamwork', 'grain rot how many players']
 related: ['player-count-guide', 'solo-guide', 'beginner-guide', 'extraction-guide', 'demo-guide']
 ---
@@ -15,7 +15,7 @@ Grain Rot is designed around cooperative chaos. You descend into the ruins with 
 ## Confirmed Multiplayer Facts
 
 - **Online co-op is confirmed** (Steam page lists Online Co-Op alongside Single-player).
-- The official description says you "descend with your friends," and press materials describe teams of "you and up to four friends" — most coverage treats 4-player co-op as the party size, though an exact maximum isn't listed on the Steam page. See our [player count guide](/guides/player-count-guide) for the details.
+- The official description says you "descend with your friends," and co-op supports **up to 4 players** — press materials describe teams of "you and up to four friends." See our [player count guide](/guides/player-count-guide) for the details.
 - **Physics-driven chaos is an official feature** — vessels are fragile wooden bodies, and the physics engine is a character in the game.
 - **Dropkicking is confirmed** — you can dropkick enemies, or "'accidentally' launch your ally's Spark out of their vessel."
 - **Griefing is a feature**: "Block them in a monster-infested corridor or get stuck in the crossfire" is official copy. "Rage-bait your friends with cursed emotes" is a listed feature.
@@ -65,7 +65,7 @@ Grain Rot deliberately lets teammates hurt each other: dropkicks can launch alli
 
 ## Co-op Loadout Notes (Honest)
 
-Specific construct names are unverified before launch, but the confirmed framework gives clear priorities:
+Specific construct names are unverified as of this writing, but the confirmed framework gives clear priorities:
 
 - **Every player should carry a tool that helps the team**, not just themselves.
 - **At least one player should be built for durability** — someone must hold doors while the rest work.

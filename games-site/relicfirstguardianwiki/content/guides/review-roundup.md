@@ -3,7 +3,7 @@ title: "Review Roundup — Is The Relic: First Guardian Worth It?"
 description: "The Relic: First Guardian review roundup. IGN 4/10 vs GamingBolt 'Good' — the divided reception explained. Scores, strengths, technical issues, and an honest verdict on whether to buy."
 category: "Guides"
 version: "1.0"
-updated: "2026-08-01"
+updated: "2026-08-11"
 keywords: ["relic first guardian review", "the relic first guardian review", "is the relic first guardian worth it", "relic first guardian review score", "relic first guardian worth buying", "relic first guardian metacritic"]
 related: ["release-date-platforms", "game-length-guide", "difficulty-guide", "co-op-guide"]
 ---
@@ -35,7 +35,7 @@ The Relic: First Guardian (Project Cloud Games / Perp Games) launched **July 31,
 The core innovation is confirmed across reviews: **attacks cost zero stamina** (stamina is defense-only) and **skills run on cooldowns**. Multiple outlets call the combat "engaging" and "stylish" — PC Gamer's preview praised "stylish combat, tragic bosses, and a world inspired by Asian folklore." The aggressive flow — free offense, timed defense — is the game's best idea.
 
 ### 2. The Boss Roster's Ambition
-**70-80 "Brutal" bosses**, each with a tragic backstory. Even negative reviews acknowledge the roster concept — "some interesting boss fights" (Navigames) — and the parry-gate/dodge-gate design split (some fights require up to ~15 parries to break guard) gives the fights a distinct identity.
+**70-80 "Brutal" bosses**, each with a tragic backstory. Even negative reviews acknowledge the roster concept — "some interesting boss fights" (Navigames) — and the parry-gate/dodge-gate design split (reviews describe some fights requiring long parry chains to break guard) gives the fights a distinct identity.
 
 ### 3. The Atmosphere
 GamingBolt and others praise the **Korean-folklore-inspired dark fantasy world**: the ruined land of Arsiltus, fragmented storytelling through letters and murals, and a melancholic tone. For atmosphere-first players, this lands.
@@ -60,7 +60,7 @@ Several reviews call the progression an **"undeniable grind"**: skills and relic
 ### 3. Enemy Design Frustrations
 - Enemies **rarely stagger** and have **no visible stagger bar** — you cannot tell when a stun is coming.
 - Some bosses are described as **"damage sponges"** or overly aggressive.
-- Long parry chains (up to 15) on some bosses can feel exhausting rather than skillful.
+- Long parry chains on some bosses can feel exhausting rather than skillful.
 
 ### 4. Weaknesses in the World Design
 Navigames specifically criticizes **exploration rewards** (the world promises secrets; some regions feel repetitive) and **localization/subtitle quality**.
@@ -80,7 +80,7 @@ The game has **no co-op and no confirmed difficulty settings** — the challenge
 ### Wait or skip if:
 - **Performance is your dealbreaker** — 15 FPS boss fights and camera jank are confirmed at launch.
 - **You want co-op or difficulty options** — neither exists (see the [Co-Op guide](/guides/co-op-guide) and [Difficulty guide](/guides/difficulty-guide)).
-- **You want a polished experience day one** — this is a small-team (roughly 10-14 people) indie debut with a small-team budget's rough edges.
+- **You want a polished experience day one** — this is a small-team indie debut (community-reported size of roughly 10-14 people) with a small-team budget's rough edges.
 - **You are sensitive to grinding** — the progression pace is a confirmed complaint.
 
 ### The balanced take

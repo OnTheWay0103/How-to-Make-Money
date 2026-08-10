@@ -3,15 +3,14 @@ title: "Grain Rot System Requirements — PC Specs, Performance & Settings"
 description: "Official Grain Rot PC system requirements (confirmed Steam specs), what each spec means for performance, recommended settings for best FPS, Steam Deck status, and the new 1.0 gamepad support."
 category: "Reference"
 version: "1.0"
-updated: "2026-08-05"
-date: "2026-08-05"
+updated: "2026-08-11"
 keywords: ["grain rot system requirements", "grain rot pc specs", "grain rot minimum requirements", "grain rot recommended specs", "grain rot performance", "grain rot steam deck", "grain rot settings"]
-related: ["launch-day-guide", "full-release-guide", "release-date-faq", "controller-guide", "demo-guide"]
+related: ["full-release-guide", "release-date-faq", "controller-guide", "demo-guide"]
 ---
 
 # Grain Rot System Requirements — PC Specs, Performance & Settings
 
-Grain Rot launches **August 7, 2026** as a full 1.0 release on Steam. Before you ride the elevator, you need to know whether your PC can handle the descent. The good news: the official requirements — confirmed on the Steam page — are genuinely modest. A mid-2010s gaming PC is enough. Here's every confirmed spec, what it actually means for your frame rate, and how to tune the game once it's installed.
+Grain Rot launched **August 7, 2026** as a full 1.0 release on Steam, and the good news for anyone checking their PC: the official requirements — confirmed on the Steam page — are genuinely modest. A mid-2010s gaming PC is enough. Here's every confirmed spec, what it actually means for your frame rate, and how to tune the game for best performance. Note: the specs below are the official figures from the Steam page; the performance guidance is our advice based on them, not official data.
 
 ## Official System Requirements (Confirmed, Steam Page)
 
@@ -45,7 +44,7 @@ Both tiers list **8 GB**, which is unusual (most 2026 releases want 16 GB). That
 - **GTX 970 / R9 390 (minimum):** both are 4 GB cards from 2014-15. Expect a 1080p experience at medium-ish settings. This tier is a *playable* anchor, not a pretty one.
 - **RTX 2060 / RX 5700 (recommended):** the 2060 has 6 GB VRAM and ray-tracing hardware; the 5700 is its AMD contemporary. This tier is the 1080p high-settings anchor and should hold 60 FPS in normal runs for a game with these requirements.
 
-No official FPS targets have been published for either tier — the numbers above are the standard reading of a spec sheet this shape, and we'll confirm them with real-world reports after launch.
+No official FPS targets have been published for either tier — the numbers above are the standard reading of a spec sheet this shape, and we'll confirm them with real-world reports as they accumulate.
 
 ### Storage & DirectX — the easy checks
 
@@ -58,30 +57,30 @@ No official FPS targets have been published for either tier — the numbers abov
 
 ## Recommended Settings for Best Performance
 
-Until launch-day drivers and verified benchmarks exist, treat these as sensible starting points for a horror game with heavy atmosphere and sound-based enemy AI:
+Until verified benchmarks exist, treat these as sensible starting points for a horror game with heavy atmosphere and sound-based enemy AI:
 
 1. **Shadows and post-processing first.** Dark, atmosphere-heavy games hide the cost in volumetric lighting, shadows, and bloom. Dropping shadow quality one notch and disabling motion blur buys more frames than almost anything else — and in a game this dark, you'll barely notice.
 2. **Frame cap instead of V-sync.** Cap at your monitor's refresh rate in-game (or via the driver) rather than using V-sync — it reduces input latency, which matters for possession timing and extraction escapes.
 3. **Anti-aliasing: medium is plenty at 1080p.** Grain Rot's dusty, dim corridors hide aliasing well.
 4. **Don't touch the audio settings for performance.** This is the one game where audio is a *gameplay system* — the Corrupted react to sound, and hearing enemies through walls keeps you alive. If you must lower quality settings to gain frames, keep sound at full fidelity. See the [Stealth & Sound Guide](/guides/stealth-sound-guide) for why.
-5. **Upscalers (DLSS/FSR): TBD.** No upscaling tech has been announced. If the 1.0 build ships with DLSS or FSR, it's not in any official materials yet — check after launch.
+5. **Upscalers (DLSS/FSR): unverified.** No upscaling tech has been announced. If the 1.0 build ships with DLSS or FSR, it's not in any official materials as of this writing.
 
-The demo (free, still on Steam) is the best pre-launch performance test: it's the same core loop and art style, so if the demo runs well for you, the full game's two new biomes shouldn't move the needle much.
+The demo (free, still on Steam) is the best free performance test: it's the same core loop and art style, so if the demo runs well for you, the full game's two new biomes shouldn't move the needle much.
 
 ## Steam Deck Compatibility
 
-**No official Steam Deck verification has been announced.** Here's the honest assessment as of August 5, 2026:
+**No official Steam Deck verification has been announced.** Here's the honest assessment as of this writing:
 
 - The requirements are modest (2014-era minimum, 10 GB install), which is *encouraging* for portable play.
 - The game lists **Windows 10 64-bit + DirectX 11** — DX11 titles generally run on Steam Deck through Proton, but Grain Rot has no ProtonDB rating yet and no official statement.
 - **Broadband is required** for co-op, and online play on the Deck depends on your Wi-Fi quality.
 - Gamepad support is confirmed new in 1.0, which is exactly what a Deck player needs — see the [Controller Guide](/guides/controller-guide).
 
-Verdict: plausible, unverified. We'll update this page with real Steam Deck reports after launch.
+Verdict: plausible, unverified. We'll update this page with real Steam Deck reports as they emerge.
 
 ## Controller / Gamepad Support
 
-Gamepad support is a **confirmed new 1.0 feature** — the demo was keyboard-first, and the launch announcement explicitly fixes that gap. Steam Deck owners, couch players, and anyone who prefers a controller finally get full support on August 7. Everything about supported controllers, expected control schemes, and settings is covered in the dedicated [Controller Guide](/guides/controller-guide).
+Gamepad support is a **confirmed new 1.0 feature** — the demo was keyboard-first, and the launch announcement explicitly fixed that gap. Steam Deck owners, couch players, and anyone who prefers a controller finally got full support on August 7. Everything about supported controllers, expected control schemes, and settings is covered in the dedicated [Controller Guide](/guides/controller-guide).
 
 ## FAQ
 
@@ -98,15 +97,14 @@ No — 10 GB storage is the only requirement. An SSD is recommended but not list
 Windows 10 64-bit is the listed OS, but the game uses DirectX 11, which Windows 11 supports; no compatibility issues are expected, though this is not an official statement.
 
 ### Does the game work on Steam Deck?
-No official verification yet. Modest specs and confirmed gamepad support are good signs; Proton compatibility is unverified. We'll update this page after launch.
+No official verification as of this writing. Modest specs and confirmed gamepad support are good signs; Proton compatibility is unverified. We'll update this page as reports emerge.
 
 ### Do I need the demo to test my PC?
 No — but it's the best free way to do it. The demo contains the full core loop (3 biomes, 9 enemy types, 20+ constructs) and will tell you exactly how the game runs on your machine. See the [Demo Guide](/guides/demo-guide) for everything it contains.
 
 ## Related Guides
 
-- [Launch Day Guide](/guides/launch-day-guide) — your first 24 hours, including the requirements checklist
-- [Full Release Guide](/guides/full-release-guide) — everything new in 1.0 vs the demo
-- [Release Date & FAQ](/guides/release-date-faq) — launch facts, platforms, and price status
+- [Full Release Guide](/guides/full-release-guide) — everything new in 1.0 vs the demo, plus your first 24 hours
+- [Release Date & FAQ](/guides/release-date-faq) — launch facts, platforms, and price
 - [Controller Guide](/guides/controller-guide) — gamepad support, layouts, and settings
-- [Demo Guide](/guides/demo-guide) — the free demo, your pre-launch performance test
+- [Demo Guide](/guides/demo-guide) — the free demo, your free performance test

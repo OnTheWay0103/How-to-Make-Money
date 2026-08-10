@@ -2,8 +2,8 @@
 title: 'Survival Tips Guide — Vessel Durability, Corruption & the Extraction Loop'
 description: 'Real survival tips for Grain Rot: durability management, corruption discipline, the extraction economy, sound discipline, and co-op survival — the confirmed systems that keep your Spark alive.'
 category: 'Beginner'
-version: 'Pre-release'
-updated: '2026-08-01'
+version: '1.0'
+updated: '2026-08-11'
 keywords: ['grain rot survival', 'survival tips', 'grain rot corruption', 'grain rot durability', 'grain rot how to survive', 'grain rot tips']
 related: ['tips-and-tricks', 'beginner-guide', 'game-mechanics-systems-guide', 'extraction-guide', 'stealth-sound-guide']
 ---
@@ -72,7 +72,7 @@ The free demo is live and includes the full survival loop. Use it to practice:
 3. Reading corruption: feel how depth changes your body, voice, and emotes.
 4. The Keeper rhythm in co-op.
 
-**Demo progress won't carry over** (not confirmed, but plan for it) — the skill does.
+**Demo progress didn't carry over** — the demo is a separate build, and the full game started fresh. The skill does carry over.
 
 ## The Survival Checklist
 

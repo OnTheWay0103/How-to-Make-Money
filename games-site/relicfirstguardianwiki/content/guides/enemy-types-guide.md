@@ -3,9 +3,9 @@ title: "Enemy Types Guide — Brutals, Field Mobs & How to Fight Them"
 description: "Complete enemy types guide for The Relic: First Guardian. The confirmed bestiary breakdown — 70-80 Brutal bosses, bandits, fallen knights, field-level Brutals — plus attack behavior, loot, and what is unconfirmed."
 category: "Guides"
 version: "1.0"
-updated: "2026-08-05"
+updated: "2026-08-11"
 keywords: ["relic first guardian enemy types", "relic first guardian bestiary", "relic first guardian brutals", "relic first guardian enemies list", "relic first guardian regular enemies", "relic first guardian mobs", "relic first guardian enemy guide"]
-related: ["boss-roster-guide", "combat-guide", "walkthrough", "resource-loot-guide"]
+related: ["all-bosses-list", "combat-guide", "walkthrough", "resource-loot-guide"]
 ---
 
 # Enemy Types Guide — Brutals, Field Mobs & How to Fight Them
@@ -48,15 +48,17 @@ Brutals are the core of the experience. Confirmed facts from developer deep dive
 - **Some Brutals parry you back** — confirmed: certain bosses can parry the player's own attacks. Time your swings, or your aggression feeds their counter.
 - **No stagger bar** — enemies and bosses rarely stagger and there is no visible stagger meter; openings come from parries and dodges, not stun-locks.
 
-### Confirmed Named Brutals
+### Brutals Named in Preview & Community Coverage
 
-| Brutal | Description |
+Only **"Blood-Stained Shield" Branko** is confirmed by name in official material — the entries below come from preview coverage and player reports, and their exact mechanics and locations are **not yet independently verified** (see the [All Bosses List](/guides/all-bosses-list) for the confirmed roster facts):
+
+| Brutal | Reported In |
 |--------|-------------|
-| **Branko the Bloodstained Shield** | A massive warrior fought in a burning chapel |
-| **Entom the Starved** | A gluttonous monster who consumed villagers |
-| **The Prodigal Bound in Dust** | A spirit of regret |
-| **Mog** | A cowardly knight |
-| **Arden, the Mad Vindicator** | A fast, hard-hitting boss who inflicts Curse and uses red-tinted unblockable attacks |
+| **"Blood-Stained Shield" Branko** | Official/preview material (the one confirmed name) |
+| **Entom the Starved** | Preview coverage — a gluttonous monster who consumed villagers |
+| **The Prodigal Bound in Dust** | Community reports — a spirit of regret |
+| **Mog** | Community reports — a cowardly knight |
+| **Arden, the Mad Vindicator** | Community/preview reports — a fast, hard-hitting boss who inflicts Curse and uses red-tinted unblockable attacks |
 
 The boss roster evolves: previews describe later areas fielding **"stronger, faster and more difficult Brutals"** than the opening regions. Expect the difficulty curve to be boss-driven, not mob-driven.
 
@@ -129,7 +131,7 @@ A: Confirmed design — enemies rarely stagger and have no visible stagger bar. 
 
 ### Related Guides
 
-- [Boss Roster Guide](/guides/boss-roster-guide) — The full picture of the 70-80 Brutals
+- [All Bosses List](/guides/all-bosses-list) — The full picture of the 70-80 Brutals
 - [Combat Guide](/guides/combat-guide) — Parry, dodge, and the stamina economy against any enemy
 - [Walkthrough](/guides/walkthrough) — What enemy types to expect region by region
 - [Resources & Loot Guide](/guides/resource-loot-guide) — What drops are worth chasing

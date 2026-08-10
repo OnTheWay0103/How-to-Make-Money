@@ -1,16 +1,16 @@
 ---
-title: 'Best Vessels & Constructs Guide — What Is Confirmed About Builds'
-description: 'Grain Rot vessels and constructs explained honestly: the confirmed vessel system, why no verified vessel list exists yet, what the demo unlocks, and how to evaluate builds before launch.'
+title: 'Best Vessels & Loadouts Guide — What Is Confirmed About Builds'
+description: 'Grain Rot vessels, constructs, and loadouts explained honestly: the confirmed vessel system, the loadout principles that hold, how to evaluate every unlock, and what the demo and full release let you test.'
 category: 'Builds'
-version: 'Pre-release'
-updated: '2026-08-01'
-keywords: ['grain rot best vessels', 'grain rot constructs', 'grain rot builds', 'grain rot best build', 'grain rot vessel guide', 'grain rot unlockables']
-related: ['best-loadouts', 'weapons-tools-guide', 'demo-guide', 'game-mechanics-systems-guide', 'co-op-guide']
+version: '1.0'
+updated: '2026-08-11'
+keywords: ['grain rot best vessels', 'grain rot constructs', 'grain rot builds', 'grain rot best build', 'grain rot vessel guide', 'grain rot unlockables', 'grain rot best loadouts', 'grain rot loadout', 'grain rot optimal build', 'grain rot meta']
+related: ['weapons-tools-guide', 'demo-guide', 'game-mechanics-systems-guide', 'co-op-guide', 'solo-guide']
 ---
 
-# Best Vessels & Constructs Guide — What Is Confirmed About Builds
+# Best Vessels & Loadouts Guide — What Is Confirmed About Builds
 
-Grain Rot is built on two character systems: **vessels** (the wooden bodies your Spark possesses) and **constructs** (unlockable tools and weapons you bring into runs). This guide covers what is confirmed about both, what the demo shows, and how to think about "best" builds before the game launches on August 7, 2026.
+Grain Rot is built on two character systems: **vessels** (the wooden bodies your Spark possesses) and **constructs** (unlockable tools and weapons you bring into runs). This guide covers what is confirmed about both, the loadout principles that follow from the confirmed mechanics, and how to find the build that works for *you* — with a straight disclaimer up front: as of this writing, there is still **no verified "best vessel" or "best loadout"** ranking for Grain Rot. No officially documented list of vessel names, weapon stats, or unlock costs has been published, so any guide that ranks named vessels like "Obsidian Golem" or "Crystal Weaver" against each other is inventing data. What follows is the confirmed framework — the real foundation for finding the best loadout yourself.
 
 ## The Vessel System — Confirmed Facts
 
@@ -26,27 +26,52 @@ That is the confirmed framework: durability (fragile by design), speed, abilitie
 
 ## The Construct System — Confirmed Facts
 
-- The demo contains **20+ unlockable constructs** (confirmed by the publisher's announcement).
+- The demo contains **20+ unlockable constructs** (confirmed by the publisher's announcement); the full release's total construct count is not officially documented.
 - Constructs cover the roles you'd expect: the demo announcement groups them as weapons, utilities, and wardrobe/cosmetic upgrades.
 - The Steam feature list confirms "**tactical carpentry with interactive furniture**" — furniture isn't just loot, it's part of the building/utility gameplay.
 - The **Grinder** is confirmed: feed items into it for gold.
 
-Construct names, stats, and unlock paths are TBD until launch.
+Construct names, stats, and unlock paths are unverified as of this writing.
 
-## What the Demo Actually Lets You Test
+## The Confirmed Loadout Principles
 
-The free demo (live since June 12, 2026) is the only real source of build knowledge right now:
+### 1. Durability Is Your First Stat
+
+Your vessel is fragile by design. A loadout that ignores survivability is a loadout that loses loot. When evaluating any vessel, ask: *how long can this body keep me in the run?*
+
+### 2. Speed Pays Off Twice
+
+Faster movement means faster scavenging and faster extraction. The extraction loop is time-limited by your own risk tolerance and corruption — speed is the stat that buys you options.
+
+### 3. Abilities Should Match Your Run Type
+
+Vessel abilities exist (confirmed: vessels have "different abilities" per official copy). Before committing to a vessel, decide your run's goal:
+
+| Run Type | What the Vessel Needs |
+|----------|----------------------|
+| First descent / learning | Durability, simple abilities |
+| Deep loot run | Corruption management, survivability |
+| Speed extraction | Speed, carry capacity |
+| Co-op chaos | Whatever covers your team role |
+
+### 4. Constructs Cover What Your Vessel Can't
+
+Weapons and tools exist to cover weaknesses: a fragile fast vessel wants ranged options; a tanky slow vessel wants utility. Since construct names and stats aren't documented, evaluate each unlock you find on two axes: **does it solve a problem you have, and does it cost more than it's worth to unlock?**
+
+## What the Demo and Full Release Let You Test
+
+The demo (still free on Steam since June 12, 2026) is the best build laboratory available:
 
 - 20+ unlockable constructs to unlock and try
 - Possessable vessels to compare
 - Upgradeable Outpost rooms that gate further unlocks
 - 3 underground biomes and 9 enemy types to test builds against
 
-Play it, experiment, and note what works. That personal data is worth more than any pre-release list.
+The full release adds two new biomes, elite enemies, a boss, and new Spark abilities — more material to test against. Play it, experiment, and note what works. That personal data is worth more than any pre-release list. One note: **demo progress did not carry over to the full game** — everything you learn, not what you unlocked, is what transfers.
 
 ## How to Evaluate a Vessel (Without a Tier List)
 
-When you meet a vessel in the demo or at launch, run it through this checklist:
+When you meet a vessel, run it through this checklist:
 
 | Question | Why It Matters |
 |----------|----------------|
@@ -72,8 +97,25 @@ These are playstyle frameworks grounded in confirmed mechanics, not named loadou
 3. **The Ghost** — fast and quiet, uses sound discipline to slip past the Corrupted. Matches the confirmed "reacting to sound, movement, and each other" detection model.
 4. **The Sacrifice** — disposable vessel, high utility, first through the door. Matches the confirmed "death is just a change of scenery" loop.
 
+## Anti-Tier-List Rules
+
+Until verified data exists, treat these as your defense against misinformation:
+
+1. **Ignore named tier lists.** No verified vessel or weapon names are public. A "tier list" with named items is fabricated.
+2. **Weight sources by proximity to the developers.** The Steam page and publisher announcements are facts; community speculation is a hypothesis.
+3. **Test, don't trust.** A build you've tested beats a build you've read about.
+4. **Expect the meta to shift.** Post-launch patches and new content rebalance the game — what works in week one may not work in month two.
+
+## The Honest "Best Loadouts" Right Now
+
+Since specifics remain unverified, here is the confirmed-best approach:
+
+- **For learning the game:** the default setup — a starter vessel, whatever construct you unlock first, and heavy use of the Grinder. Learn the sound-and-movement model before you optimize.
+- **For co-op:** one durable player who leads, one fast player who scouts, and everyone carries a tool for the extraction. Roles are emergent, not prescribed.
+- **For solo:** prioritize survival over greed — a quieter, more defensive loadout, because no one can pick up your loot if you break.
+
 ## The Bottom Line
 
-There is no verified "best vessel" today, and anyone who tells you otherwise is guessing. What is verified: vessels are fragile, flammable, swappable bodies with different abilities; constructs are the real arsenal; and the demo is the place to test both. When the game launches, this page becomes a data-driven ranking. Until then, build for your playstyle, respect fire, and extract.
+There is no verified "best vessel" as of this writing, and anyone who tells you otherwise is guessing. What is verified: vessels are fragile, flammable, swappable bodies with different abilities; constructs are the real arsenal; and the demo plus the full release are the places to test both. We will publish data-driven rankings as verified post-launch data makes them possible. Until then, build for your playstyle, respect fire, and extract.
 
-See the [loadouts guide](/guides/best-loadouts) for run-type recommendations, the [weapons & tools guide](/guides/weapons-tools-guide) for the construct framework, and the [demo guide](/guides/demo-guide) for what the demo offers.
+See the [weapons & tools guide](/guides/weapons-tools-guide) for the construct framework, and the [demo guide](/guides/demo-guide) for what the demo offers.

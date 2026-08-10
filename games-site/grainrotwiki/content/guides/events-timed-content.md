@@ -1,24 +1,24 @@
 ---
 title: 'Events & Timed Content Guide — Dungeon Modifiers and Live Content'
-description: 'Grain Rot events and timed content, honestly: the confirmed dungeon modifier system from the demo, the unconfirmed status of live events, and how modifiers change each run.'
+description: 'Grain Rot events and timed content, honestly: the confirmed dungeon modifier system, the unconfirmed status of live events, and how modifiers change each run.'
 category: 'Game Info'
-version: 'Pre-release'
-updated: '2026-08-01'
+version: '1.0'
+updated: '2026-08-11'
 keywords: ['grain rot events', 'grain rot timed content', 'grain rot dungeon modifiers', 'grain rot modifiers', 'grain rot seasonal events']
 related: ['demo-guide', 'extraction-guide', 'game-mechanics-systems-guide', 'hard-mode-guide', 'release-date-faq']
 ---
 
 # Events & Timed Content Guide — Dungeon Modifiers and Live Content
 
-An honest correction first: earlier versions of this guide described an elaborate event calendar for Grain Rot — daily challenges, weekly rotations, seasonal festivals, server-wide goals. **None of that is confirmed.** The developers have announced no live-event system. What is real is the **dungeon modifier** system, confirmed in the demo — and that's what this guide covers.
+An honest correction first: earlier versions of this guide described an elaborate event calendar for Grain Rot — daily challenges, weekly rotations, seasonal festivals, server-wide goals. **None of that is confirmed.** The developers have announced no live-event system. What is real is the **dungeon modifier** system, confirmed in the demo and carried into the full release — and that's what this guide covers.
 
 ## Dungeon Modifiers (Confirmed)
 
-The publisher's demo announcement confirms **dungeon modifiers** as a demo feature: run-level modifiers that change how each descent plays. Modifiers are the game's way of varying runs beyond procedural layout.
+The publisher's demo announcement confirmed **dungeon modifiers** as a feature: run-level modifiers that change how each descent plays, and the 1.0 release adds **elevator modifiers** on top. Modifiers are the game's way of varying runs beyond procedural layout.
 
 **What is confirmed:** modifiers exist, and they alter the rules of a run.
 
-**What is TBD:** the exact modifier list — types, effects, and how they're applied (per-run random rolls, player selection, or unlock-gated) are not officially documented.
+**What is unverified:** the exact modifier list — types, effects, and how they're applied (per-run random rolls, player selection, or unlock-gated) are not officially documented.
 
 ## How Modifiers Fit the Loop
 

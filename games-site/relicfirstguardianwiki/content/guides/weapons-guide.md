@@ -3,7 +3,7 @@ title: "Weapons Guide — All 5 Weapon Families Explained"
 description: "Complete weapons guide for The Relic: First Guardian. Sword & Shield, Longsword, Dagger, Two-Handed, and Battle Staff — playstyles, the 12 skill trees, and honest notes on what is unconfirmed."
 category: "Guides"
 version: "1.0"
-updated: "2026-08-01"
+updated: "2026-08-11"
 keywords: ["relic first guardian weapons", "weapons guide relic first guardian", "sword and shield relic", "relic first guardian weapon types", "relic first guardian staff", "relic first guardian best weapon", "relic first guardian skill trees"]
 related: ["beginner-guide", "builds-guide", "tier-list", "combat-guide"]
 ---

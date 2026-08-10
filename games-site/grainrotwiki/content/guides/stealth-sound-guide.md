@@ -2,10 +2,10 @@
 title: 'Stealth & Sound Guide — How to Avoid Combat in Grain Rot'
 description: 'Master stealth in Grain Rot: the confirmed sound, movement, and mutual-awareness model of the Corrupted, noise discipline, distraction tactics, and when to fight vs flee.'
 category: 'Mechanics'
-version: 'Pre-release'
-updated: '2026-08-01'
+version: '1.0'
+updated: '2026-08-11'
 keywords: ['grain rot stealth', 'grain rot sound guide', 'grain rot stealth tips', 'grain rot avoid combat', 'grain rot noise mechanics']
-related: ['solo-guide', 'tips-and-tricks', 'all-enemies-guide', 'enemy-types', 'beginner-guide']
+related: ['solo-guide', 'tips-and-tricks', 'all-enemies-guide', 'beginner-guide']
 ---
 
 # Stealth & Sound Guide — How to Avoid Combat in Grain Rot
@@ -112,5 +112,4 @@ The sound model is the game's spine. Play with headphones:
 
 - [Solo Guide](/guides/solo-guide) — stealth is the solo player's core skill
 - [Tips & Tricks](/guides/tips-and-tricks) — essential survival tips including noise discipline
-- [All Enemies Guide](/guides/all-enemies-guide) — the Corrupted, confirmed facts
-- [Enemy Types Guide](/guides/enemy-types) — the detection model and combat strategy
+- [All Enemies Guide](/guides/all-enemies-guide) — the Corrupted, the detection model, and combat strategy

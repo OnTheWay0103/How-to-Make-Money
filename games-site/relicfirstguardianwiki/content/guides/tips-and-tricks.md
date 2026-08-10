@@ -3,7 +3,7 @@ title: "Tips & Tricks — 20 Essential Tips for New Players"
 description: "20 essential tips for The Relic: First Guardian. Stamina economy, relic collection, Relic Energy spending, boss preparation, exploration, and honest advice for the launch build."
 category: "Guides"
 version: "1.0"
-updated: "2026-08-01"
+updated: "2026-08-11"
 keywords: ["relic first guardian tips", "relic first guardian tips and tricks", "relic first guardian advice", "relic first guardian mistakes to avoid", "relic first guardian pro tips", "relic first guardian secrets"]
 related: ["beginner-guide", "combat-guide", "runes-guide", "upgrade-system"]
 ---
@@ -22,7 +22,7 @@ The Relic: First Guardian is demanding — 70-80 Brutal boss fights, no levels, 
 
 **3. Learn to parry early.** The timing window is **generous** (confirmed by launch reviews), and parries stagger enemies. Practice on slow, telegraphed attacks in the opening areas.
 
-**4. Identify each boss's gate type fast.** Some fights are **parry-gate** (break guard with chains of up to 15 parries); others are **dodge-gate** (unblockable attacks that ignore blocking). Wasting stamina on the wrong defense is the top cause of boss deaths. See the [Boss Strategies guide](/guides/boss-strategies).
+**4. Identify each boss's gate type fast.** Some fights are **parry-gate** (break guard with long parry chains); others are **dodge-gate** (unblockable attacks that ignore blocking). Wasting stamina on the wrong defense is the top cause of boss deaths. See the [Boss Strategies guide](/guides/boss-strategies).
 
 **5. Never block or parry unblockables.** When a tell reads "heavier" than the combo's other hits, dodge it. Confirmed: unblockable attacks exist and only the dodge answers them.
 

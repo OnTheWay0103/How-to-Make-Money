@@ -1,11 +1,11 @@
 ---
 title: 'Weapons & Tools Guide — All Constructs in Grain Rot (Confirmed Facts)'
-description: 'Grain Rot weapons and tools explained honestly: the confirmed construct system (20+ in the demo), the Grinder, tactical carpentry, and how to evaluate every unlock — with names and stats marked TBD.'
+description: 'Grain Rot weapons and tools explained honestly: the confirmed construct system (20+ in the demo), the Grinder, tactical carpentry, and how to evaluate every unlock — with names and stats marked unverified.'
 category: 'Weapons'
-version: 'Pre-release'
-updated: '2026-08-01'
+version: '1.0'
+updated: '2026-08-11'
 keywords: ['grain rot weapons', 'grain rot tools', 'grain rot constructs list', 'grain rot weapon guide', 'grain rot best weapons', 'grain rot grinder']
-related: ['best-loadouts', 'best-vessels-guide', 'crafting-resources-guide', 'demo-guide', 'stealth-sound-guide']
+related: ['best-vessels-guide', 'crafting-resources-guide', 'demo-guide', 'stealth-sound-guide']
 ---
 
 # Weapons & Tools Guide — All Constructs in Grain Rot (Confirmed Facts)
@@ -16,13 +16,13 @@ Your vessel has basic capabilities on its own — you can smash furniture, dropk
 
 From the publisher's demo announcement and the official Steam page:
 
-- **The demo contains 20+ unlockable constructs** — the full game will have more.
+- **The demo contains 20+ unlockable constructs**; the full release's total construct count is not officially documented.
 - Constructs are **unlocked via progression** (the Outpost) and brought into runs.
 - They cover the roles you'd expect: the demo announcement groups them as **weapons, utilities, and wardrobe/cosmetic upgrades**.
 - **"Tactical carpentry with interactive furniture"** is an official feature — furniture isn't just loot; it's part of the building/utility gameplay.
 - **The Grinder** is confirmed: a machine that converts items into gold.
 
-**What's TBD:** every construct name, stat, unlock cost, and slot limit. The names and numbers circulating online ("Splinter-Bow," "Barricade Kit," "Reinforced Mallet," etc.) are unverified — some appear in community coverage, none are officially documented. This page will become a full database on launch day.
+**What's unverified:** every construct name, stat, unlock cost, and slot limit. The names and numbers circulating online ("Splinter-Bow," "Barricade Kit," "Reinforced Mallet," etc.) are unverified — some appear in community coverage, none are officially documented. This page will become a full database as verified post-launch data becomes available.
 
 ## The Confirmed Tools (The Grinder Family)
 
@@ -30,7 +30,7 @@ The one construct class with official documentation is the **Grinder**:
 
 - Feed items into it, get gold out. Confirmed by official copy: "Smash furniture for resources or feed them into the Grinder for gold."
 - Grinders solve the game's core inventory problem: gold is compact, junk isn't.
-- Where Grinders spawn, whether portable versions exist, and the conversion rates are TBD.
+- Where Grinders spawn, whether portable versions exist, and the conversion rates are unverified.
 
 ## Evaluating Weapons & Tools (No Stats Needed)
 
@@ -64,21 +64,20 @@ Treat the above as hypotheses, not facts.
 - Are the game's long-term collectible chase.
 - **Should not be your early spending priority** — constructs and stats fund survival; cosmetics fund vibes.
 
-## Construct Strategy (Pre-Launch)
+## Construct Strategy (As of This Writing)
 
-1. **Play the demo, unlock everything.** The 20+ constructs are free to explore. Try every unlock you can afford — personal testing beats any pre-launch list.
+1. **Play the demo or the full game and unlock broadly.** The 20+ demo constructs are free to explore, and 1.0 adds more. Try every unlock you can afford — personal testing beats any unverified list.
 2. **Prioritize by problem, not by hype.** The best construct for you is the one that fixes your specific failure: dying to enemies, overfilling your bag, or losing the route.
 3. **Silence is power.** With the confirmed sound model, quiet tools are likely to punch above their stat weight.
 4. **Don't trust named tier lists.** No verified construct names exist. Any list ranking named items is fabricated.
 
-## After Launch
+## Next Steps
 
-On August 7 this page becomes a verified weapons & tools database: names, stats, unlock requirements, and use cases for every construct. Until then, the demo is your laboratory and the confirmed principles above are your guide.
+We are building this page into a verified weapons & tools database: names, stats, unlock requirements, and use cases for every construct — as post-launch data becomes available. Until then, the demo and the full game are your laboratory and the confirmed principles above are your guide.
 
 ## Related Guides
 
-- [Best Loadouts Guide](/guides/best-loadouts) — how to combine tools into loadouts
-- [Best Vessels Guide](/guides/best-vessels-guide) — the other half of every build
+- [Best Vessels & Loadouts Guide](/guides/best-vessels-guide) — how to combine tools into loadouts
 - [Crafting & Resources Guide](/guides/crafting-resources-guide) — the Grinder economy
-- [Demo Guide](/guides/demo-guide) — where to test the 20+ constructs today
+- [Demo Guide](/guides/demo-guide) — where to test the 20+ constructs
 - [Stealth & Sound Guide](/guides/stealth-sound-guide) — why silence matters

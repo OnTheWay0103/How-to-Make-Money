@@ -1,16 +1,18 @@
 ---
-title: "Combat Tips Guide — Advanced Mechanics & Techniques"
-description: "Master Tears of Metal's combat system — combos, parry timing, elemental weaknesses, weapon swaps, and advanced movement techniques for every encounter."
+title: "Tears of Metal Combat Tips — Block, Parry, Dodge & Hero Loadouts"
+description: "Master Tears of Metal combat — stamina management, block and parry timing, dodging, per-hero loadouts for Wallace, Brienne and Ruadh Stonecrusher, and the common mistakes that get players killed."
 category: "Combat"
-version: 1.0
-updated: "2026-07-27"
-keywords: [combat tips, combat guide, tears of metal combat, parry, combos, elemental weaknesses, weapon swap, combat techniques, dodge, stamina management]
-related: [boss-strategies, farming-guide, ../weapon-guide, ../character-builds]
+version: "Early Access"
+updated: "2026-08-11"
+keywords: ["Tears of Metal combat tips", "Tears of Metal parry", "Tears of Metal block", "Tears of Metal dodge", "Tears of Metal stamina", "Tears of Metal combat guide", "Tears of Metal best combat loadout"]
+related: ["boss-guide", "heroes-tier-list", "best-builds", "battalion-companion-guide", "elite-enemy-guide"]
 ---
 
-# Combat Tips Guide — Advanced Mechanics & Techniques
+# Tears of Metal Combat Tips — Block, Parry, Dodge & Hero Loadouts
 
-Tears of Metal's combat is fast, rhythmic, and punishing. Stamina is your most important resource, parries are high-risk-high-reward, and every enemy has an elemental weakness. This guide breaks down the core mechanics, advanced techniques, and the best loadout setups for both new and veteran players.
+> **Applies to Early Access / Updated: August 11, 2026**
+
+Tears of Metal's combat is fast, rhythmic, and punishing. Stamina is your most important resource, parries are high-risk-high-reward, and one missed read against a captain or boss costs nearly half your health. This guide breaks down the core mechanics — stamina, block, parry, dodge — and the best loadout habits for Wallace, Brienne, and Ruadh Stonecrusher.
 
 ---
 
@@ -18,102 +20,76 @@ Tears of Metal's combat is fast, rhythmic, and punishing. Stamina is your most i
 
 ### Stamina Management
 
-Stamina governs everything: attacking, dodging, blocking, and sprinting.
+Stamina governs everything: attacking, dodging, blocking, and sprinting. Costs vary by weapon and hero, but the shape of the economy is consistent:
 
-| Action | Stamina Cost | Notes |
+| Action | Relative Cost | Notes |
 |---|---|---|
-| Light Attack | 8 | Fast, low damage, builds combo meter |
-| Heavy Attack | 20 | Slow, high damage, breaks guard |
-| Dodge Roll | 15 | I-frames for 0.4s |
-| Sprint | 10/s | Cannot block while sprinting |
-| Block | 5/s | Reduces damage by 60%; chip damage still applies |
-| Parry | 10 | 0.2s window; consumes enemy stamina if successful |
-| Weapon Art | 30 | Unique per weapon type; powerful but costly |
+| Light Attack | Low | Fast, builds combo pressure; the safety attack |
+| Heavy Attack | High | Slow, big damage, breaks guards — commit only when you have room |
+| Dodge Roll | Moderate | Brief invulnerability window; the escape button |
+| Sprint | Ongoing | Cannot block while sprinting |
+| Block | Ongoing (light drain) | Strong damage reduction; chip damage still applies |
+| Parry | Moderate | Short timing window; big reward, big miss-cost |
 
-**Rule of thumb:** Never let stamina drop below 20. Below that, you cannot dodge or parry. A single mistake = eating a full combo.
+**Rule of thumb:** never let stamina bottom out. Below a quarter, you cannot dodge or parry — and a single mistake while exhausted means eating a full combo. Attack in bursts, not in a continuous stream.
 
-### Parry Windows
+### Block, Parry, and Dodge
 
-Parrying is the highest-skill mechanic in Tears of Metal. The timing varies by enemy type:
+The three defensive tools work as a ladder:
 
-| Enemy Type | Parry Window | Visual Cue | Audio Cue |
-|---|---|---|---|
-| Humanoid | 0.25s before impact | Weapon flashes white | High-pitched ring |
-| Beast | 0.15s before impact | Eyes glow red | Deep growl |
-| Mechanical | 0.3s before impact | Joints spark | Metallic screech |
-| Boss | 0.2s before impact | Screen vignette pulse | Boss-specific roar |
+1. **Block** — The default. Reduces damage strongly and costs little per hit, but chip damage still bleeds through and repeated blocking drains stamina. Block is for reads you are not confident in.
+2. **Parry** — The high-risk option. The timing window is short and varies by enemy type (humanoid enemies telegraph with a weapon flash; beasts with an eye glow; bosses with a screen-wide tell). Success staggers the attacker and opens a punish window; failure is usually a heavy hit to your health. Parry single, telegraphed attacks — do not fish for parries mid-combo.
+3. **Dodge** — The universal answer. The dodge roll has a brief invulnerability window and costs stamina. Against multi-hit combos, dodge the whole string rather than blocking it.
 
-> **Practice tip:** Visit the **Training Grounds** in the starting hub. The dummy there cycles through all four enemy type attack patterns.
+**The practical rule:** parry single heavy attacks, dodge multi-hit combos, block when you are learning a new enemy. As your reads improve, blocks become parries.
 
 ---
 
-## Elemental Weakness System
+## Enemy Types and Their Tells
 
-Every enemy has a weakness to one of five elements and a resistance to another.
+| Enemy Type | Parry Cue | What Works Best |
+|---|---|---|
+| Grunts and skirmishers | Fast, light tells | Just dodge — they die too fast to parry |
+| Pikemen and spearmen | Thrust telegraph | Parry the thrust, then punish |
+| Shield-bearing enemies | Shield raise | Heavy attack breaks the guard, then combo |
+| Captains / elites | Big wind-up + weapon flash | Parry the wind-up; dodge the follow-up string |
+| Bosses | Screen-wide telegraph | Dodge the phase combos; parry only the single heavy attacks |
 
-| Element | Weak Against | Resisted By | Best Weapon Type |
-|---|---|---|---|
-| **Fire** | Organic / Flesh enemies | Mechanical enemies | Axes, Greatswords |
-| **Ice** | Mechanical enemies | Fire-aligned enemies | Daggers, Spears |
-| **Lightning** | Shield enemies | Organic enemies | Hammers, Maces |
-| **Corrosive** | Armored enemies | Living enemies (heals them) | Scythes, Whips |
-| **Sonic** | Magic-wielding enemies | Construct enemies | Twin Blades, Fists |
+> **Practice tip:** the early acts are your training ground. Instead of rushing a captain, spend a fight just blocking and dodging until you can read the pattern — the [Boss Guide](/guides/boss-guide) is built on exactly these reads.
 
-**Quick reference for common enemy types:**
-- Scavengers → Fire (+35%)
-- Drones → Ice (+40%)
-- Shield Wardens → Lightning (+30%)
-- Heavy Troopers → Corrosive (+45%)
-- Necromancers → Sonic (+50%)
+---
+
+## Per-Hero Combat Loadouts
+
+Each hero's kit changes what "good combat" means:
+
+| Hero | How to Fight | Core Loop |
+|------|--------------|-----------|
+| **Wallace** (longsword) | The balanced all-rounder — the most forgiving block/parry timing in the game | Block → parry the big swing → punish with heavy attacks; his kit is built around the longsword's reliable rhythm |
+| **Brienne** (unarmed) | The speedster — machine-gun hits, per-hit effects, no weapon reach | Dodge through swings, stay inside the enemy's arc, stack per-hit emblems; her damage comes from attack rate, not single hits |
+| **Ruadh Stonecrusher** (hammer) | The bruiser — highest single-hit damage and best stagger, slowest wind-ups | Whiffing a swing is the most expensive mistake in the game. Space carefully, interrupt enemy wind-ups with the hammer's stagger, and punish only confirmed openings |
+
+**Loadout habit:** build your emblems around your hero's loop — block/parry emblems for Wallace, attack speed and per-hit effects for Brienne, stagger/impact for Ruadh. See the [Best Builds Guide](/guides/best-builds) for full loadouts, and the [Heroes Tier List](/guides/heroes-tier-list) for how the three heroes compare.
 
 ---
 
 ## Advanced Techniques
 
-### 1. Weapon Swap Cancel
+### 1. Attack Weaving
 
-Swap weapons mid-combo to cancel the recovery animation of a heavy attack.
+Alternate light and heavy attacks in controlled bursts instead of mashing. It costs the same stamina but keeps you out of recovery animation lock when the enemy counter-attacks. The game punishes committed streams — weave in pauses and you can dodge out of anything.
 
-**Input:** `Heavy Attack → (during swing animation) Weapon Swap button → Light Attack`
+### 2. The Punish Loop
 
-This cancels the end-lag of the heavy attack and lets you chain into a faster second hit. Frame-perfect execution reduces your combo downtime by ~0.6s.
+Every enemy has a recovery window after their big attack. The loop is: **dodge or parry → punish 2-3 hits → back off**. Trying to extend beyond the window is how clean fights turn into trading hits — and trades cost healing, which is scarce.
 
-### 2. Perfect Dodge Counter
+### 3. Aggro Control (Co-op)
 
-If you dodge within the first 0.15s of an enemy's attack, you enter **Bullet Time** for 1 second. During this window, your next attack deals **2.5× damage**.
+In co-op, the hero who engages first holds aggro. Let the anchor hero (Wallace) open the fight, and let the damage heroes (Brienne, Ruadh) wait one beat before committing. This keeps cleave attacks aimed at the tank instead of the team (see the [Co-op Guide](/guides/co-op-guide)).
 
-- Combine with **Weapon Art** for maximum burst.
-- The Bullet Time effect stacks with elemental weakness bonuses.
+### 4. Stagger Awareness
 
-### 3. Stamina Shield
-
-Hold block while your stamina is **above 50%**. If an enemy's attack connects and drains your stamina below 10%, you automatically perform a **staggering shield-push** that stuns the enemy for 1.5s.
-
-- This works on most non-boss enemies.
-- Does not consume stamina beyond what was drained.
-
-### 4. Wall Bounce
-
-Kick or knock enemies into walls to trigger a bonus stun.
-
-**Trigger conditions:**
-- Any kick attack (E key on keyboard, circle on controller)
-- Heavy Axe slam
-- Hammer charge attack
-
-**Effect:** 2s stun + 25% extra damage on the next hit. Works on all enemy types except bosses.
-
----
-
-## Recommended Combat Loadouts
-
-| Situation | Weapon 1 | Weapon 2 | Element | Playstyle |
-|---|---|---|---|---|
-| General exploration | Axe (Fire) | Spear (Ice) | Fire | Switch between crowd clear and single-target |
-| Boss fights | Greatsword (Fire) | Twin Blades (Sonic) | Fire | Parry bosses with Twin Blades, burst with Greatsword |
-| Mob clearing | Hammer (Lightning) | Scythe (Corrosive) | Lightning | Stagger groups with Hammer, finish with Scythe |
-| PvP | Daggers (Sonic) | Fists (Lightning) | Sonic | Speed and unpredictability |
-| Glass cannon | Scythe (Corrosive) | Greatsword (Fire) | Corrosive | Max damage, minimal defense |
+Ruadh's hammer and heavy weapons can interrupt enemy wind-ups outright — the single best defensive tool in the game. If an enemy is mid-telegraph and your stagger hits, their attack never lands. This is why Impact is a premium stat for frontline heroes (see the [Weapon Merge Guide](/guides/weapon-merge-guide)).
 
 ---
 
@@ -121,27 +97,29 @@ Kick or knock enemies into walls to trigger a bonus stun.
 
 Before entering any fight:
 
-1. [ ] **Identify enemy type** — Check the targeting reticle colour for their elemental weakness
-2. [ ] **Equip the matching element** — Swap to the weapon with the right damage type
-3. [ ] **Check stamina** — Above 80? Aggressive. Below 40? Defensive.
-4. [ ] **Positioning** — Do not let enemies surround you. Use the environment (walls, chokepoints)
-5. [ ] **Parry or dodge?** — Parry single heavy attacks. Dodge multi-hit combos.
+1. [ ] **Check stamina** — Plenty? Aggressive. Low? Defensive.
+2. [ ] **Positioning** — Do not let enemies surround you. Use walls and chokepoints.
+3. [ ] **Parry or dodge?** — Parry single heavy attacks. Dodge multi-hit combos.
+4. [ ] **Identify the elite** — Captains have bigger tells and bigger punishes; treat them like mini-bosses.
+5. [ ] **Know your exit** — Where will you retreat if the fight goes wrong? Healing is scarce — an escape beats a trade.
 
 ---
 
 ## Common Mistakes
 
-- **Over-reliance on dodge** — Rolling costs 15 stamina. Two rolls = one heavy attack you can't do. Parry when you can.
-- **Ignoring elemental weakness** — Fighting a mechanical enemy with fire attacks reduces your damage by 50%. Always match elements.
+- **Over-reliance on dodge** — Rolling costs stamina. Two rolls = one heavy attack you cannot do. Parry when you can.
 - **Stamina starvation** — Holding block drains stamina. Tap block for single hits, release between attacks.
-- **No weapon swap practice** — The Weapon Swap Cancel is the single biggest DPS increase you can learn. Spend 10 minutes at the Training Grounds.
+- **Mashing attack** — The game punishes committed streams. Weave and pause, or you cannot dodge out of the counter.
+- **Fishing for parries** — Parry telegraphed single attacks only. A missed parry against a captain costs nearly half your health.
+- **Ignoring the battalion** — Soldiers exist to hold the line and soak pressure. Fighting solo while your battalion stands idle is fighting with half your army (see the [Battalion & Companion Guide](/guides/battalion-companion-guide)).
 
 ---
 
 ## Related Guides
 
-- [Boss Strategies Guide](/tears-of-metal/guides/boss-strategies) — Apply these combat techniques to every boss fight.
-- [Farming Guide](/tears-of-metal/guides/farming-guide) — Efficient routes for farming upgrade materials.
-- [Weapon Guide](/tears-of-metal/guides/weapon-guide) — Weapon stats, movesets, and upgrade paths.
-- [Character Builds](/tears-of-metal/guides/character-builds) — Builds that maximise your combat efficiency.
-- [Training Grounds Guide](/tears-of-metal/guides/training-grounds) — How to get the most out of practice mode.
+- [Boss Guide](/guides/boss-guide) — Apply these reads to Gilles the Hog, Iseult the Banshee, and Act 3
+- [Elite Enemy Guide](/guides/elite-enemy-guide) — Captains, bodyguards, and corrupted elites
+- [Heroes Tier List](/guides/heroes-tier-list) — Wallace, Brienne & Ruadh Stonecrusher compared
+- [Best Builds](/guides/best-builds) — Emblem and artifact loadouts per hero
+- [Weapon Merge Guide](/guides/weapon-merge-guide) — Why Impact and stagger stats matter
+- [Battalion & Companion Guide](/guides/battalion-companion-guide) — Using soldiers in combat

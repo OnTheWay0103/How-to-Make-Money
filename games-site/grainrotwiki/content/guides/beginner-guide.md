@@ -1,20 +1,20 @@
 ---
 title: 'Beginner Guide — Getting Started in Grain Rot'
-description: 'Beginner guide for Grain Rot. Learn the confirmed core loop — possess vessels, scavenge loot, fight Corrupted, rebuild the Outpost, and extract alive — with honest pre-release tips for new Sparks.'
+description: 'Beginner guide for Grain Rot. Learn the confirmed core loop — possess vessels, scavenge loot, fight Corrupted, rebuild the Outpost, and extract alive — with honest tips for new Sparks.'
 category: 'Beginner'
-version: 'Pre-release'
-updated: '2026-08-01'
+version: '1.0'
+updated: '2026-08-11'
 keywords: ['grain rot beginner guide', 'grain rot getting started', 'grain rot tips', 'grain rot how to play', 'grain rot tutorial']
 related: ['all-enemies-guide', 'co-op-guide', 'extraction-guide', 'demo-guide', 'game-mechanics-systems-guide']
 ---
 
 # Beginner Guide — Getting Started in Grain Rot
 
-Welcome to Grain Rot, the horror co-op extraction builder where you play as a **Living Spark** — a fragment of soul inhabiting fragile wooden vessels in a scorched wasteland where everything burns. This guide covers everything confirmed about the game so you can start your first runs the right way. The game launches **August 7, 2026**; a free demo is available now on Steam.
+Welcome to Grain Rot, the horror co-op extraction builder where you play as a **Living Spark** — a fragment of soul inhabiting fragile wooden vessels in a scorched wasteland where everything burns. This guide covers everything confirmed about the game so you can start your first runs the right way. The game launched **August 7, 2026** on Steam; the free demo remains available on Steam.
 
 ## What Is Grain Rot?
 
-You descend via a **cursed elevator** into procedurally shifting underground ruins. Your goal: scavenge as much loot as possible, fight or avoid the **Corrupted**, and **make it back alive**. Between runs, you rebuild your **Outpost** — unlocking new vessels, constructs, stat upgrades, and rescued survivors.
+You descend via a **cursed elevator** into procedurally shifting underground ruins. Your goal: scavenge as much loot as possible, fight or avoid the **Corrupted**, and **make it back alive**. Between runs, you rebuild your **Sanctuary Outpost** — unlocking new vessels, constructs, stat upgrades, and rescued survivors.
 
 Death is not the end: when your vessel breaks, your Spark escapes and can possess a new vessel. But if every member of your team breaks, everything you were carrying is lost forever.
 
@@ -53,7 +53,7 @@ Two confirmed resource paths:
 
 ### Step 4: Deal with the Corrupted
 
-The Corrupted are vessels twisted by the Rot. Confirmed behaviors: they react to sound, movement, and each other. General principles that hold before the full roster is documented:
+The Corrupted are vessels twisted by the Rot. Confirmed behaviors: they react to sound, movement, and each other. General principles that hold until the full roster is documented:
 
 - **Strike with friends** — co-op means numbers on your side.
 - **Dropkick** — confirmed mechanic; useful for creating space from enemies (or 'accidentally' launching allies).
@@ -73,7 +73,7 @@ The deeper you go, the better the loot — and the worse the Rot:
 
 ### The Outpost
 
-Between runs, spend what you extracted to rebuild and upgrade your Outpost. Confirmed unlocks: **interactive furniture**, **stat upgrades**, and **rescued survivors**. The demo confirms **upgradeable Outpost rooms**.
+Between runs, spend what you extracted to rebuild and upgrade the **Sanctuary Outpost** — a crumbling high-rise run by brothers **Biggie and Murch**. Confirmed unlocks: **interactive furniture**, **stat upgrades**, and **rescued survivors**. The demo confirmed **upgradeable Outpost rooms**, and 1.0 adds a **second Outpost floor** and an **enchantment and repair machine**.
 
 ### The Vessel System
 
@@ -87,7 +87,7 @@ Between runs, spend what you extracted to rebuild and upgrade your Outpost. Conf
 
 ## Quick Tips for Beginners
 
-1. **Play the demo first.** It's free, it's live now, and it contains the core loop: 3 underground biomes, 9 enemy types, 20+ unlockable constructs, and upgradeable Outpost rooms.
+1. **Play the demo first.** It's free, it's still on Steam, and it contains the core loop: 3 underground biomes, 9 enemy types, 20+ unlockable constructs, and upgradeable Outpost rooms.
 2. **Stick together in co-op** — a lone vessel is an easier target.
 3. **Learn the sound game** — the Corrupted react to noise; the game's audio is your earliest warning system.
 4. **Grind smart** — convert low-value items to gold; it's the most compact form of wealth.

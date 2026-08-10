@@ -2,15 +2,17 @@
 title: "Tears of Metal Achievements Guide — Full List & How to Unlock Them"
 description: "The complete Tears of Metal achievement guide: 89 Steam achievements, 67 confirmed with unlock conditions — boss kills (Gilles the Hog, Iseult the Banshee, Harold the Dragon), block and parry challenges, campaign restrictions, currency goals, and battalion achievements, plus the rarest ones."
 category: "Guides"
-version: "1.0"
-updated: "2026-08-09"
+version: "Early Access"
+updated: "2026-08-11"
 keywords: ["tears of metal achievements", "tears of metal achievement guide", "tears of metal trophies", "tears of metal steam achievements", "how to unlock tears of metal achievements", "tears of metal 100% achievements", "tears of metal rarest achievements"]
 related: ["boss-guide", "combat-tips", "progression-walkthrough", "heroes-tier-list"]
 ---
 
 # Tears of Metal Achievements Guide — Full List & How to Unlock Them
 
-> **Early Access / Updated: August 9, 2026**
+> **Early Access / Updated: August 11, 2026**
+
+> **Honesty note:** achievement names, counts, and unlock conditions below are community-tracked, not officially published by Paper Cult. The 89-achievement total and individual conditions may be inaccurate — we label everything we could not verify and update as the community database confirms details.
 
 Tears of Metal ships with **89 Steam achievements** on its launch roster. This guide lists the **67 achievements we've confirmed with their exact unlock conditions** — boss kills, block and parry mastery, campaign self-challenges, currency goals, and battalion achievements — organized so you can hunt them efficiently. The remaining ~22 are unverified at the time of writing; we'll fill them in as the community database confirms them.
 
@@ -38,9 +40,9 @@ The three story bosses each have a kill achievement. These double as the campaig
 
 | Achievement | Condition | Notes |
 |------------|-----------|-------|
-| **Butcher** | Defeat Gilles, The Hog | The Act 1 region boss. Dodge sideways on his charge; punish recovery (see [Boss Guide](/guides/boss-guide)) |
-| **Witch Hunter** | Defeat Iseult, The Banshee | The Act 2 wall — the fight that famously filters new players. Beating her also unlocks Ruadh Stonecrusher on current builds (see [Patch Notes](/guides/patch-notes)) |
-| **Dragonslayer** | Defeat Harold, The Dragon | The final boss — the invader carving into the Mother Dragon Stone. Campaign-completion achievement |
+| **Butcher** | Defeat Gilles the Hog | The Act 1 region boss. Dodge sideways on his charge; punish recovery (see [Boss Guide](/guides/boss-guide)) |
+| **Witch Hunter** | Defeat Iseult the Banshee | The Act 2 wall — the fight that famously filters new players. Beating her also unlocks Ruadh Stonecrusher on current builds (see [Character Unlock Guide](/guides/character-unlock-guide)) |
+| **Dragonslayer** | Defeat the final boss (name unconfirmed) | Campaign-completion achievement. Older listings claimed "Harold, The Dragon" and a "Mother Dragon Stone" connection — neither is verified |
 
 **Tip:** boss kills happen naturally on a full campaign clear (see the [Progression Walkthrough](/guides/progression-walkthrough)). Don't hunt these separately — finish the campaign once and all three unlock together.
 
@@ -135,12 +137,12 @@ Some achievements reward the game's hardest moments — low-HP heroics and heali
 | **Resilience Beyond Measure** | Heal 225 HP in a single Campaign | Campaign |
 | **Battle-Hardened Medic** | Heal 500 HP total (all campaigns) | Total |
 | **Damage Sponge** | Receive 300 total damage in a single Campaign | Campaign |
-| **Should Have Looked Up...** | Have a Dragonstone reduce your HP to 10% or less | Any |
+| **Should Have Looked Up...** | Take a hazard hit that reduces your HP to 10% or less (condition community-tracked; original description unverified) | Any |
 | **Stop, Drop and... what?** | Catch fire 5 times in a single Campaign | Campaign |
 
 **Tips:**
 - **"Last Stand" and "Back from the Brink"** unlock naturally in Act 3 if you run a Regen emblem (see the [Corruption Guide](/guides/corruption-guide)) — the DoT zone ticks you down and regen carries you back
-- **"Should Have Looked Up..."** — dragonstones (the crash-meteor crystals) drop damaging chunks when they break; stand near one as it cracks. Fun and free
+- **"Should Have Looked Up..."** — the original description involved an item called "dragonstones" that we could not verify in current builds. The achievement exists, but its exact trigger is unconfirmed; stand near destructible hazards and we'll update the condition when community data confirms it
 - **"Heart of a Phoenix"** — save it for a friendly Act 1 fight; a Regen emblem makes the recovery trivial
 
 ---
@@ -158,19 +160,19 @@ Some achievements reward the game's hardest moments — low-HP heroics and heali
 
 ## Currency & Meta Progression
 
-These track the two currencies: **coins** (spent in-run) and **Triskeles** (the permanent meta currency that banks between campaigns):
+These track the game's currency — **triskelle**, which banks between campaigns win or lose. (Some community listings split these into "coins" and "Triskeles" sets with different numbers; treat the specific conditions below as community-tracked — current builds use triskelle throughout.)
 
 | Achievement | Condition | Type |
 |------------|-----------|:----:|
-| **Frivolous** | Spend 800 coins in a single Campaign | Campaign |
-| **From Old Money** | Spend 1500 coins in a single Campaign | Campaign |
-| **Big Spender** | Spend 2500 coins (all campaigns) | Total |
-| **First Wages** | Gain 600 Triskeles (all campaigns) | Total |
-| **Stocked Up** | Gain 1200 Triskeles (all campaigns) | Total |
-| **Arming the Ranks** | Gain 2100 Triskeles (all campaigns) | Total |
-| **Well Supplied** | Gain 3900 Triskeles (all campaigns) | Total |
+| **Frivolous** | Spend 800 triskelle in a single Campaign | Campaign |
+| **From Old Money** | Spend 1500 triskelle in a single Campaign | Campaign |
+| **Big Spender** | Spend 2500 triskelle (all campaigns) | Total |
+| **First Wages** | Gain 600 triskelle (all campaigns) | Total |
+| **Stocked Up** | Gain 1200 triskelle (all campaigns) | Total |
+| **Arming the Ranks** | Gain 2100 triskelle (all campaigns) | Total |
+| **Well Supplied** | Gain 3900 triskelle (all campaigns) | Total |
 
-**Strategy:** these are free if you play normally — Triskeles bank on every run win or lose, and the 3900 milestone lands after several full campaigns. The coin-spend ones need an intentional shopping run: blow gold at the village shops between acts rather than hoarding (see [Village Upgrade Guide](/guides/village-upgrade-guide)). "Frivolous" is a strong argument for buying the Haggis recipe early — spend coins, get a permanent HP buff, unlock progress.
+**Strategy:** these are free if you play normally — triskelle banks on every run win or lose, and the 3900 milestone lands after several full campaigns. The spend ones need an intentional shopping run: spend at the village shops between acts rather than hoarding (see [Village Upgrade Guide](/guides/village-upgrade-guide)).
 
 ---
 
@@ -200,13 +202,13 @@ The game's army systems have their own cluster. "Ally" here means your soldiers 
 | Achievement | Condition | Type |
 |------------|-----------|:----:|
 | **Trophy Hunter** | Kill 1 Elite | Any |
-| **Rock Smasher** | Destroy 25 dragonstones (all campaigns) | Total |
+| **Rock Smasher** | Destroy 25 dragonstones (all campaigns) — target item unverified | Total |
 | **Collector of Status** | Have 3 status effects active at once | Any |
 | **Cataclysm** | Description unconfirmed at time of writing | — |
 
 **Tips:**
 - **"Trophy Hunter"** — elites spawn more as Threat Level rises (see [Threat Level & Difficulty Guide](/guides/threat-level-difficulty-guide)); the first elite you kill unlocks it
-- **"Rock Smasher"** — dragonstones are the meteor fragments scattered across regions; smash them on sight
+- **"Rock Smasher"** — the target ("dragonstones") is unverified in current builds; smash destructible objects on sight and we'll update the condition when confirmed
 - **"Collector of Status"** — stack emblems that apply statuses (fire, lightning, freeze per the [Emblem & Artifact Guide](/guides/emblem-artifact-guide)) and hit one target with all three
 
 ---
@@ -291,7 +293,7 @@ Most achievements are per-player, but co-op changes the grind significantly:
 
 **Co-op caveats:**
 - **Host progression gates:** unlock state (e.g., Ruadh) follows the host's progression — see the [Multiplayer & Connection Fix Guide](/guides/multiplayer-connection-fix-guide)
-- **Crossplay note:** crossplay is currently disabled in the live build (Beta branch available) — keep parties on the same storefront for now (see [Patch Notes](/guides/patch-notes))
+- **Platform note:** the Xbox Series X|S + Game Pass version is announced for later in 2026 but not yet released — keep parties on Steam for now (see [Patch Notes & Roadmap](/guides/patch-notes))
 - **Don't chase "Not One Left Behind" in random co-op** — other players' allies count, and randoms won't protect your soldiers. That one's a solo (or trusted-group) hunt
 
 ---
@@ -308,7 +310,7 @@ A few conditions trip up hunters; here's the clarification:
 | **"Ally"** | Means your soldiers, not co-op teammates |
 | **"Rescue"** | Picking up a downed soldier — always do it; it's both correct play and achievement progress |
 | **"Captains"** | The elite-tier enemies (not your promoted soldiers) — the "kill 100 Captains" and "kill 5 Captains with Ally Commands" achievements refer to enemy captains |
-| **"Dragonstones"** | The meteor fragments across regions — smash them; "Rock Smasher" counts over all campaigns |
+| **"Dragonstones"** | Listed in community trackers as smashable fragments, but not verified in current builds; treat the item as unconfirmed |
 
 ---
 
@@ -317,9 +319,9 @@ A few conditions trip up hunters; here's the clarification:
 Print this and tick boxes — it's the complete confirmed roster in hunting order:
 
 **Boss kills**
-- [ ] Butcher (Gilles, The Hog)
-- [ ] Witch Hunter (Iseult, The Banshee)
-- [ ] Dragonslayer (Harold, The Dragon)
+- [ ] Butcher (Gilles the Hog)
+- [ ] Witch Hunter (Iseult the Banshee)
+- [ ] Dragonslayer (final boss, name unconfirmed)
 
 **Block & parry**
 - [ ] Blocker Extraordinaire / Turtle Master / The Last Wall (20/50/100 blocks, one campaign)
@@ -352,9 +354,9 @@ Print this and tick boxes — it's the complete confirmed roster in hunting orde
 - [ ] Excuse Me, Pardon Me (30 dodge bumps)
 
 **Currency**
-- [ ] Frivolous / From Old Money (coin spending)
-- [ ] Big Spender (2500 coins total)
-- [ ] First Wages / Stocked Up / Arming the Ranks / Well Supplied (Triskeles totals)
+- [ ] Frivolous / From Old Money (triskelle spending)
+- [ ] Big Spender (2500 triskelle total)
+- [ ] First Wages / Stocked Up / Arming the Ranks / Well Supplied (triskelle totals)
 
 **Battalion & allies**
 - [ ] Guardian / Army of One (rescue totals)

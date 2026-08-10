@@ -3,7 +3,7 @@ title: "Late-Game Guide — Endgame Progression & Optimization"
 description: "Late-game guide for The Relic: First Guardian. The confirmed endgame systems — relic optimization, blacksmith forging, Shards of Esser, secret Brutals — and honest notes on what is unconfirmed (NG+, superbosses)."
 category: "Guides"
 version: "1.0"
-updated: "2026-08-01"
+updated: "2026-08-11"
 keywords: ["relic first guardian late game", "relic first guardian post-story", "relic first guardian optimization", "relic first guardian endgame", "relic first guardian secret bosses", "relic first guardian new game plus"]
 related: ["boss-strategies", "runes-guide", "upgrade-system", "builds-guide"]
 ---

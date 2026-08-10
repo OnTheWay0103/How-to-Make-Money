@@ -2,10 +2,10 @@
 title: 'Game Mechanics & Systems Guide — How Grain Rot Really Works'
 description: 'The confirmed Grain Rot systems explained: vessel possession, the Rot and corruption, sound-based enemy AI, the extraction economy, and Outpost meta-progression — with unverified details clearly marked.'
 category: 'Mechanics'
-version: 'Pre-release'
-updated: '2026-08-01'
+version: '1.0'
+updated: '2026-08-11'
 keywords: ['grain rot mechanics', 'grain rot systems guide', 'grain rot corruption system', 'grain rot how to play', 'grain rot vessel system', 'grain rot explained']
-related: ['beginner-guide', 'tips-and-tricks', 'extraction-guide', 'base-building', 'crafting-resources-guide']
+related: ['beginner-guide', 'tips-and-tricks', 'extraction-guide', 'outpost-upgrade-guide', 'crafting-resources-guide']
 ---
 
 # Game Mechanics & Systems Guide — How Grain Rot Really Works
@@ -35,7 +35,7 @@ Corruption is the game's central risk-reward throttle:
 - **It's visible and audible to others.** Your corruption is a social signal — your team hears and sees your state.
 - **The Corrupted are corrupted vessels.** The Rot's corruption is the game's origin story and its hazard system in one.
 
-**What's TBD:** the specific corruption thresholds, cleansing items, and whether corruption can be reversed in-run. Older guides quoted precise percentages and "Rot Purge Flask" mechanics — none of that is verified.
+**What's unverified:** the specific corruption thresholds, cleansing items, and whether corruption can be reversed in-run. Older guides quoted precise percentages and "Rot Purge Flask" mechanics — none of that is verified.
 
 ## Sound & Enemy AI
 
@@ -45,7 +45,7 @@ The official description of the Corrupted: "reacting to **sound, movement, and e
 - **Movement** — close-range tracking of motion.
 - **Each other** — enemies chain-react; when one is alarmed, others investigate.
 
-**What's TBD:** exactly how loud each action is and how far noise travels. The principle is confirmed; the numbers aren't.
+**What's unverified:** exactly how loud each action is and how far noise travels. The principle is confirmed; the numbers aren't.
 
 ## The Extraction Economy
 
@@ -64,7 +64,7 @@ The Outpost is the persistent hub between runs:
 - Confirmed unlocks: **interactive furniture**, **stat upgrades**, and **rescued survivors**.
 - The demo confirms **upgradeable Outpost rooms**.
 
-**What's TBD:** room names, upgrade costs, level caps, and survivor identities. Any guide with specific upgrade tables pre-launch is speculative.
+**What's unverified:** room names, upgrade costs, level caps, and survivor identities. Any guide with specific upgrade tables is speculative until it can be checked against the game.
 
 ## The Chaos System
 
@@ -92,5 +92,5 @@ Every system feeds another: deeper descents earn more for the Outpost but build 
 - [Beginner Guide](/guides/beginner-guide) — step-by-step first runs
 - [Tips & Tricks](/guides/tips-and-tricks) — survival tips for new Sparks
 - [Extraction Guide](/guides/extraction-guide) — mastering the extract loop
-- [Base Building Guide](/guides/base-building) — the Outpost explained
+- [Outpost Guide](/guides/outpost-upgrade-guide) — the Sanctuary Outpost explained
 - [Crafting & Resources Guide](/guides/crafting-resources-guide) — the economy in depth

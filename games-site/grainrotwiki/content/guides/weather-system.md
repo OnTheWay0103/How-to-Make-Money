@@ -1,18 +1,16 @@
 ---
 title: 'Weather & Environmental Conditions Guide — Fire, Smoke and the Rot'
-description: 'Grain Rot weather and environmental conditions explained honestly: the scorched wasteland, fire as a threat to vessels, the Rot as a depth-scaled hazard, dungeon modifiers — and what is still TBD before launch.'
+description: 'Grain Rot weather and environmental conditions explained honestly: the scorched wasteland, fire as a threat to vessels, the Rot as a depth-scaled hazard, dungeon modifiers — and what remains unverified.'
 category: 'Survival'
-version: 'Pre-release'
-updated: '2026-08-06'
+version: '1.0'
+updated: '2026-08-11'
 keywords: ['grain rot weather', 'grain rot environmental hazards', 'grain rot fire', 'grain rot rot hazard', 'grain rot dungeon modifiers', 'grain rot conditions']
 related: ['game-mechanics-systems-guide', 'all-biomes-guide', 'demo-guide', 'survival-tips', 'extraction-guide']
 ---
 
 # Weather & Environmental Conditions Guide — Fire, Smoke and the Rot
 
-**Grain Rot / Updated: August 6, 2026**
-
-The honest answer to "what is the weather system in Grain Rot?" is: **there is no confirmed dynamic weather system** — the game takes place in **procedurally shifting underground ruins**, where there is no sky to rain from. But Grain Rot has the *next best thing*: a setting and hazard system that behaves like weather. This guide covers what the environment does to you — confirmed and TBD — and how to prepare for every "climate" the game throws at you.
+The honest answer to "what is the weather system in Grain Rot?" is: **there is no confirmed dynamic weather system** — the game takes place in **procedurally shifting underground ruins**, where there is no sky to rain from. But Grain Rot has the *next best thing*: a setting and hazard system that behaves like weather. This guide covers what the environment does to you — confirmed and unverified — and how to prepare for every "climate" the game throws at you.
 
 ## The Setting: A World That Burns
 
@@ -22,8 +20,8 @@ Grain Rot's weather starts on the surface — a **scorched wasteland where "ever
 |-----------|------------|--------------|
 | Scorched wasteland setting | Confirmed (Steam copy) | "Everything burns" is the world's core premise |
 | Fire threat to vessels | Confirmed | Vessels are **flammable** — wooden bodies that "splinter, collapse, and catch fire" |
-| Above-ground exploration | TBD | The action happens underground; surface zones are not confirmed playable |
-| Ash/smoke effects | TBD | Unannounced — do not trust guides describing ash storms |
+| Above-ground exploration | Unverified | The action happens underground; surface zones are not confirmed playable |
+| Ash/smoke effects | Unverified | Not announced — do not trust guides describing ash storms |
 
 **The fire rule:** fire is the setting's "weather." It is a constant hazard, not an event — every vessel choice and every burning room is a fire-management decision.
 
@@ -33,8 +31,8 @@ The Rot is Grain Rot's true environmental system — a **depth-scaled hazard** t
 
 | Depth | Rot Effect (Confirmed) | Gameplay Impact |
 |-------|------------------------|-----------------|
-| Shallows | Mild | Manageable — early biomes (The Shallows) |
-| Mid layers | Worsening | The Warrens — heavier corruption pressure |
+| Shallows | Mild | Manageable — early biomes (community name: The Shallows) |
+| Mid layers | Worsening | Heavier corruption pressure (community name: The Warrens) |
 | Deep Layers | Severe | "Bodies warp. Voices distort. Emotes become…worse." |
 
 **Confirmed mechanics:**
@@ -43,7 +41,7 @@ The Rot is Grain Rot's true environmental system — a **depth-scaled hazard** t
 - **Rot changes your body and voice** — it is visible and audible to your team; your corruption is a social signal.
 - **Rot is the risk-reward throttle** — deeper descents earn more for the Outpost but build corruption faster.
 
-**What's TBD:** specific corruption thresholds, cleansing items, and whether the Rot can be reversed in-run. Guides quoting "Rot Purge Flask" percentages are speculative.
+**What's unverified:** specific corruption thresholds, cleansing items, and whether the Rot can be reversed in-run. Guides quoting "Rot Purge Flask" percentages are speculative.
 
 ## Corrupted Vessels: The Hazard Made Enemy
 
@@ -61,8 +59,8 @@ The demo confirms **dungeon modifiers** — run modifiers that change how each d
 
 | Modifier Type | Confirmed | Effect |
 |---------------|-----------|--------|
-| Difficulty/behavior modifiers | Confirmed (demo feature) | Change enemy behavior, hazards, or loot per run |
-| Named modifiers | TBD | Individual names not published pre-launch |
+| Difficulty/behavior modifiers | Confirmed (demo feature; 1.0 adds elevator modifiers) | Change enemy behavior, hazards, or loot per run |
+| Named modifiers | Unverified | Individual names not published as of this writing |
 
 **The forecast habit:** treat each run's modifiers like a weather report — read them before the descent, plan your vessel and loadout around them, and accept that the "weather" will change between runs.
 

@@ -2,8 +2,8 @@
 title: 'Tips & Tricks — 10 Essential Grain Rot Tips for New Players'
 description: '10 essential tips and tricks for Grain Rot, grounded in confirmed mechanics: sound discipline, the Grinder economy, corruption management, extraction discipline, and co-op communication.'
 category: 'Advanced'
-version: 'Pre-release'
-updated: '2026-08-01'
+version: '1.0'
+updated: '2026-08-11'
 keywords: ['grain rot tips', 'grain rot tricks', 'grain rot tips and tricks', 'grain rot beginner tips', 'grain rot pro tips', 'grain rot advice']
 related: ['survival-tips', 'beginner-guide', 'stealth-sound-guide', 'extraction-guide', 'co-op-guide']
 ---

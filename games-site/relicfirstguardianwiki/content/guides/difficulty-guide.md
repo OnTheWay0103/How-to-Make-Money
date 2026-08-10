@@ -3,14 +3,14 @@ title: "Difficulty Settings & Easy Mode — The Honest Answer"
 description: "Does The Relic: First Guardian have difficulty settings or an easy mode? The honest answer: no difficulty options are confirmed. How the game is hard, and the confirmed tools that lower the challenge."
 category: "Guides"
 version: "1.0"
-updated: "2026-08-01"
+updated: "2026-08-11"
 keywords: ["relic first guardian difficulty settings", "relic first guardian easy mode", "relic first guardian difficulty", "is relic first guardian hard", "relic first guardian too hard"]
 related: ["beginner-guide", "co-op-guide", "builds-guide", "combat-guide"]
 ---
 
 # Difficulty Settings & Easy Mode — The Honest Answer
 
-**Short answer: The Relic: First Guardian has no confirmed difficulty settings or easy mode.** No verified source — official material or launch reviews — documents a difficulty slider, difficulty options, or an easy mode in the launch build (1.0, released July 31, 2026). The game is designed as a challenging solo soulslike.
+**Short answer: The Relic: First Guardian has no confirmed difficulty settings or easy mode.** No verified source — official material or launch reviews — documents a difficulty slider, difficulty options, or an easy mode in the launch build (released July 31, 2026). The game is designed as a challenging solo soulslike.
 
 **The good news**: the game is also designed around **self-selecting difficulty** — through build choice, exploration, and the relic system, you can meaningfully lower the challenge without a settings menu. This guide covers why the game feels hard, and the confirmed tools that make it easier.
 
@@ -49,7 +49,7 @@ Official material is explicit: relics are freely swappable so you can adapt your
 Starting with **3 potions** is tight. Temple altars (e.g., in the **Faded Mist Forest**) hold Shards of Esser that raise potion capacity — directly more healing per fight.
 
 ### 7. Learn the Parry
-The parry window is **generous** (confirmed by multiple reviews), and parries stagger enemies. For parry-gate bosses, the chain (up to ~15 parries) is the fight's solution. See the [Combat Guide](/guides/combat-guide).
+The parry window is **generous** (confirmed by multiple reviews), and parries stagger enemies. For parry-gate bosses, committing to the parry chain is the fight's solution. See the [Combat Guide](/guides/combat-guide).
 
 ---
 

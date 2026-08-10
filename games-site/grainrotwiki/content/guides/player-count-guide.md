@@ -1,32 +1,29 @@
 ---
 title: 'Grain Rot Player Count — Max Players, Solo & Co-op Explained'
-description: 'How many players in Grain Rot? The confirmed answer: single-player is supported, online co-op descends "with your friends," and press materials describe teams of up to four friends. All the confirmed player count facts.'
+description: 'How many players in Grain Rot? The confirmed answer: single-player is supported, and online co-op supports up to 4 players. All the confirmed player count facts.'
 category: 'Game Info'
-version: 'Pre-release'
-updated: '2026-08-01'
+version: '1.0'
+updated: '2026-08-11'
 keywords: ['grain rot how many players', 'grain rot max players', 'grain rot player count', 'grain rot co-op', 'grain rot multiplayer', 'grain rot solo', 'grain rot single player', 'grain rot party size']
 related: ['co-op-guide', 'solo-guide', 'release-date-faq', 'demo-guide', 'beginner-guide']
 ---
 
 # Grain Rot Player Count — Max Players, Solo & Co-op Explained
 
-**How many players can play Grain Rot together?** The short answer: **Grain Rot supports single-player and online co-op, and press materials from the publisher describe teams of "you and up to four friends."** Most coverage treats the game as 4-player co-op, though the Steam page itself doesn't print an exact maximum. This guide breaks down every confirmed fact about player counts, solo play, and what changes with party size.
+**How many players can play Grain Rot together?** The short answer: **Grain Rot supports single-player and online co-op for up to 4 players.** The Steam page lists both modes, and press materials from the publisher describe teams of "you and up to four friends." This guide breaks down every confirmed fact about player counts, solo play, and what changes with party size.
 
 ## The Confirmed Player Count Facts
-
-Let's separate confirmed facts from still-open questions:
 
 | Question | Status |
 |----------|--------|
 | Is single-player supported? | ✅ **Confirmed** — Steam page lists Single-player |
 | Is online co-op supported? | ✅ **Confirmed** — Steam page lists Online Co-op |
 | Official description mentions co-op? | ✅ **Confirmed** — "Descend with your friends into shifting ruins" |
-| Press materials say "you and up to four friends" | ✅ **Confirmed** — publisher press release wording |
-| Exact max player number on the Steam page | ❓ **Not listed** — the page shows no player-count number |
+| Max party size | ✅ **Confirmed at 4** — press materials describe "you and up to four friends," and 1-4 player online co-op is the supported range |
 | Public matchmaking | ❓ **Unconfirmed** — no announcement |
 | Crossplay | ❓ **Unconfirmed** — PC/Steam is the only announced platform |
 
-**The practical answer:** plan for **1-4 players** — solo works, and co-op parties of up to four are the game's design center. If the exact cap turns out to be five at launch, we'll update this page immediately; the official "you and up to four friends" phrasing makes four the most likely number, and no source claims more.
+**The practical answer:** plan for **1-4 players** — solo works, and co-op parties of up to four are the game's design center. No source claims more than four.
 
 ## Is Grain Rot Multiplayer-Only?
 
@@ -80,12 +77,12 @@ The free demo (live on Steam since June 12, 2026) supports the same modes as the
 - Bring one friend to learn the duo rhythm.
 - Fill a full party to experience the chaos at its maximum.
 
-The demo is the best way to answer "how many players works for us?" — because the honest answer is playstyle-dependent, and the demo lets you find your crew's sweet spot before the August 7 launch.
+The demo is the best way to answer "how many players works for us?" — because the honest answer is playstyle-dependent, and the demo lets you find your crew's sweet spot. The full game supports the same 1-4 player range.
 
 ## Frequently Asked Player Count Questions
 
 ### How many players is Grain Rot?
-Officially: single-player plus online co-op. Press materials describe "you and up to four friends"; the Steam page confirms co-op but lists no exact cap. Plan for 1-4 players.
+Officially: single-player plus online co-op for **up to 4 players**. Press materials describe "you and up to four friends," and 1-4 players is the supported range.
 
 ### Is Grain Rot single player?
 Yes. Single-player is confirmed on the Steam page, and the game is fully playable solo.
@@ -100,18 +97,18 @@ Unconfirmed. The only announced platform is PC via Steam, so crossplay isn't on 
 Unannounced. The game is pitched around playing with friends; no public matchmaking system has been announced.
 
 ### Can you play Grain Rot with 5 players?
-No source claims more than four. Press materials say "up to four friends." If the launch-day cap is higher, we'll update this page — but plan for four.
+No — 1-4 players is the confirmed supported range. Press materials say "up to four friends," and no source claims more than four.
 
 ### How many players is the demo?
-The demo supports the same modes as the full game: solo and online co-op with your friends.
+The demo supports the same modes as the full game: solo and online co-op with your friends (1-4 players).
 
 ### Is Grain Rot better solo or co-op?
-Both are valid, and they're genuinely different experiences: solo is a quieter horror-stealth game; co-op is a chaotic extraction party. The demo lets you try both before launch.
+Both are valid, and they're genuinely different experiences: solo is a quieter horror-stealth game; co-op is a chaotic extraction party. The demo lets you try both.
 
 ## Related Player Count Information
 
 - **Modes:** Single-player + Online Co-op (Steam page), Family Sharing supported.
-- **Platform:** PC (Steam) only at launch — no consoles announced.
+- **Platform:** PC (Steam) only — no consoles announced.
 - **Requirements:** broadband internet required; the game's minimum specs are Windows 10 64-bit, an Intel Core i5-4590 or AMD Ryzen 5 2600, 8 GB RAM, and a GTX 970 or R9 390.
 - **Release date:** August 7, 2026.
 

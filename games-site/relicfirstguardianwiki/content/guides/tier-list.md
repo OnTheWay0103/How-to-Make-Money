@@ -3,7 +3,7 @@ title: "Weapon Tier List — Early Impressions (Data Still Unconfirmed)"
 description: "Weapon tier list for The Relic: First Guardian. Honest early impressions of all 5 weapon families from launch reviews — with a clear warning that verified meta data does not exist yet."
 category: "Guides"
 version: "1.0"
-updated: "2026-08-01"
+updated: "2026-08-11"
 keywords: ["relic first guardian tier list", "relic first guardian weapon tier list", "best weapon relic first guardian", "relic first guardian weapon rankings", "relic first guardian best weapon"]
 related: ["weapons-guide", "builds-guide", "beginner-guide", "classes-guide"]
 ---

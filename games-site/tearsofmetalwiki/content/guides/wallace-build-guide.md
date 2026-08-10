@@ -2,19 +2,21 @@
 title: "Tears of Metal Wallace Build Guide — Best Weapons, Emblems & Strategy"
 description: "The definitive Wallace build guide for Tears of Metal: best longsword weapons, emblem combos, artifact priority, AP skill priorities, and playstyle tips for the game's most forgiving all-rounder."
 category: "Builds"
-version: "1.0"
-updated: "2026-08-01"
+version: "Early Access"
+updated: "2026-08-11"
 keywords: ["Wallace build", "best Wallace build", "Wallace weapons", "Wallace emblems", "longsword build", "Tears of Metal Wallace"]
-related: ["best-builds", "heroes-tier-list", "weapon-upgrade-guide", "emblem-artifact-guide"]
+related: ["best-builds", "heroes-tier-list", "weapon-merge-guide", "emblem-artifact-guide"]
 ---
 
 # Tears of Metal Wallace Build Guide — Best Weapons, Emblems & Strategy
 
-> **Early Access v1.0 / Updated: August 1, 2026**
+> **Early Access / Updated: August 11, 2026**
 
 Wallace is Tears of Metal's longsword all-rounder and the game's default "learning hero" — the community and media pick, and the safest recommendation for a first run. He has no unique gimmick; instead, everything he does is solid: balanced damage, decent reach, and the most forgiving block/parry timing in the game.
 
 This guide covers how to build him for solo play and co-op alike.
+
+> **Values caveat:** artifact names and stat values below are community-reported and unverified — exact numbers may differ in current builds. Treat them as directional guidance, not official data.
 
 ---
 
@@ -43,7 +45,7 @@ The longsword is Wallace's signature, and the **Weapon Merge system** is how you
 | **Longsword (best you can find)** | Balanced damage, reach, and parry timing — his kit is built around it | Reinforced+2 minimum |
 | **Any longsword with block/parry bonuses** | Secondary stats that feed his defensive identity beat raw damage stats | Reinforced+1+ |
 
-**Merging rule of thumb:** pick your primary longsword by Act 2 and merge every duplicate into it — Reinforced+3 requires 8 base copies, so specialization pays (see the [Weapon Upgrade Guide](/guides/weapon-upgrade-guide) for the full merge math).
+**Merging rule of thumb:** pick your primary longsword by Act 2 and merge every duplicate into it — Reinforced+3 requires 8 base copies, so specialization pays (see the [Weapon Merge Guide](/guides/weapon-merge-guide) for the full merge math).
 
 > **Honest note:** specific named longswords are not yet publicly documented. Until patch notes confirm unique weapons, treat "best longsword" as the highest merged tier you can sustain.
 
@@ -140,5 +142,5 @@ Those guides predate/copy misreported information. The real hero with the defens
 
 - [Heroes Tier List](/guides/heroes-tier-list) — where Wallace ranks and why
 - [Best Builds](/guides/best-builds) — the full three-hero build overview
-- [Weapon Upgrade Guide](/guides/weapon-upgrade-guide) — merge system and AP explained
+- [Weapon Merge Guide](/guides/weapon-merge-guide) — merge system and AP explained
 - [Emblem & Artifact Guide](/guides/emblem-artifact-guide) — all 18 emblems and artifact synergy

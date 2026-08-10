@@ -3,7 +3,7 @@ title: "Trophy & Achievement Guide — What's Confirmed and What's Not"
 description: "Trophy and achievement guide for The Relic: First Guardian on PS5 and Steam. The game has a PS5 trophy list, but the exact trophy names and counts are unconfirmed at launch — here is what we know honestly."
 category: "Guides"
 version: "1.0"
-updated: "2026-08-01"
+updated: "2026-08-11"
 keywords: ["relic first guardian trophy guide", "relic first guardian achievements", "relic first guardian platinum", "relic first guardian trophies", "relic first guardian 100% achievements", "relic first guardian ps5 trophies"]
 related: ["all-bosses-list", "endings-guide", "walkthrough", "game-length-guide"]
 ---

@@ -1,16 +1,16 @@
 ---
-title: "How to Increase Health & Survivability — HP, Stamina & Potions"
-description: "How to increase health in The Relic: First Guardian. Four confirmed ways to raise HP: skill tree nodes, relic slot expansion, equipment with health bonuses, and Shards of Esser for potion capacity."
+title: "How to Increase Health & Survivability — HP, Stamina, Healing & Potions"
+description: "How to increase health in The Relic: First Guardian. Four confirmed ways to raise HP: skill tree nodes, relic slot expansion, equipment with health bonuses, and Shards of Esser for potion capacity — plus safe healing windows and survival tactics."
 category: "Guides"
 version: "1.0"
-updated: "2026-08-01"
-keywords: ["how to increase health in the relic first guardian", "relic first guardian max health", "relic first guardian health", "relic first guardian potions", "relic first guardian healing", "relic first guardian survivability"]
-related: ["beginner-guide", "runes-guide", "upgrade-system", "combat-guide"]
+updated: "2026-08-11"
+keywords: ["how to increase health in the relic first guardian", "relic first guardian max health", "relic first guardian health", "relic first guardian potions", "relic first guardian healing", "relic first guardian when to heal", "relic first guardian survival", "relic first guardian curse resistance", "relic first guardian survivability"]
+related: ["beginner-guide", "runes-guide", "upgrade-system", "combat-guide", "boss-strategies"]
 ---
 
 # How to Increase Health & Survivability in The Relic: First Guardian
 
-There are **no levels and no stat points** in The Relic: First Guardian — so when you feel squishy, you cannot just grind a few levels. Raising your health pool (and your ability to survive fights) works through four confirmed systems, and this guide walks through all of them in order of value.
+There are **no levels and no stat points** in The Relic: First Guardian — so when you feel squishy, you cannot just grind a few levels. Raising your health pool (and your ability to survive fights) works through four confirmed systems, and this guide walks through all of them in order of value — then covers the survival skills that keep that health from running out.
 
 **The short answer**: buy HP nodes in your weapon's skill tree, expand your relic slots, equip gear with health bonuses (watching for Drawbacks), and hunt Shards of Esser to carry more potions. Do all four and the game's damage starts to feel manageable.
 
@@ -102,6 +102,52 @@ Going from 3 potions to 5 potions is often the difference between clearing a Bru
 
 ---
 
+## When It Is Safe to Heal: Recovery Windows
+
+Healing is limited — you start with **3 health potions**, expandable via Shards of Esser — so heal only during guaranteed-safe windows.
+
+**Safe to heal:**
+- **After a full boss combo resolves** — recovery frames after the final hit are the game's primary healing window.
+- **After breaking a parry-gate guard** — drink while the boss is staggered.
+- **After dodging the last hit of an unblockable chain** — the dodge-gate equivalent.
+
+**Unsafe to heal:**
+- Mid-combo, or while the boss is winding up its next attack.
+- When your stamina is empty — you cannot dodge away if the boss recovers early.
+- During a parry chain you are still committed to — one potion breaks your rhythm and the chain resets.
+
+**The golden rule:** an opening big enough for one heavy attack is usually big enough for one potion.
+
+---
+
+## Survival Differences: Dodge-Gate vs Parry-Gate
+
+This is the game's most important confirmed combat rule: **identify the boss's gate type before choosing your defense.**
+
+| | **Parry-Gate Boss** | **Dodge-Gate Boss** |
+|--|---------------------|---------------------|
+| Defense that wins | Parry chains break the guard | Dodge every attack; blocking/parrying the unblockables fails |
+| Stamina rhythm | Sustained: parries come in waves; recover between chains | Bursty: one big dodge commitment per combo, then recover |
+| Biggest danger | Hesitating on the parry chain | Panic-blocking an unblockable |
+| Best healing window | After the guard breaks | After the last hit of a dodged chain |
+| Healing during the fight | Safe *between* parry chains, never mid-chain | Safe only after the chain fully resolves |
+
+**How to identify in the first 30 seconds:** throw a probe attack, then block or parry the response. Punished or ignored → **dodge-gate**. Deflected, guard intact → **parry chain**. Choosing the wrong tool is how most deaths happen.
+
+---
+
+## Curses and Poisons: Swap Relics for Resistance
+
+Curses and poison effects exist in the world and in boss fights, and the confirmed counter is your relic loadout: **70+ relics, each with an independent passive effect**, including resistances. Because relics are **freely swappable at any time**, you never have to fight a curse you cannot counter:
+
+1. **Identify the threat before the fight** — check what the boss or area inflicts.
+2. **Swap in resistance relics** — switch to passives that mitigate or cleanse the curse/poison.
+3. **Watch your own cursed weapons** — cursed gear trades **damage for health**; pair it with healing relics and use it only where you can out-heal the cost.
+
+Specific curse names, their durations, and the exact relic effects that counter them are **unconfirmed** — treat any guide that names precise numbers as speculative until verified in-game. The status system itself (Curse, Poison, and the difference between "cursed" gear and the Curse status) is covered in the [Status Effects Guide](/guides/status-effects-guide).
+
+---
+
 ## Beyond HP: The Other Survivability Levers
 
 Health is only half the survival equation. These confirmed systems keep you alive:
@@ -134,6 +180,33 @@ Since every weapon is unique, forging upgrades at the blacksmith are how your ge
 
 ---
 
+## Survival Checklist
+
+- [ ] HP/stamina nodes bought with Relic Energy (the four health methods applied)
+- [ ] Stamina full or nearly full before engaging — attacks are free, defense is not
+- [ ] Identified the boss's gate type (parry-gate vs dodge-gate) in the first 30 seconds
+- [ ] Relic loadout swapped for the fight's curses/poisons
+- [ ] Cursed weapon checked — do I have healing to offset the health cost?
+- [ ] Potion capacity maximized with Shards of Esser where found
+- [ ] One healing window per combo learned before attempting the kill
+
+---
+
+## What Is NOT Verified
+
+| Claim | Status |
+|-------|--------|
+| Attacks cost zero stamina; stamina is defense-only | **Confirmed** |
+| Start with 3 potions; Shards of Esser raise capacity | **Confirmed** |
+| 70-80 Brutals are parry-gate or dodge-gate | **Confirmed** |
+| Parry chains can reach 15 parries | **Confirmed** (reported) |
+| Cursed weapons trade damage for health | **Confirmed** |
+| Exact stamina costs per action | **Unconfirmed** |
+| Exact potion heal amounts and drinking speed | **Unconfirmed** |
+| Specific curse/poison names and their counters | **Unconfirmed** |
+
+---
+
 ## Common Questions
 
 **Q: How do I increase my health in The Relic: First Guardian?**
@@ -147,6 +220,12 @@ A: Yes — skill tree HP nodes and relic fragment effects are permanent addition
 
 **Q: How many potions do I start with?**
 A: **3.** Shards of Esser (temple altars, e.g., Faded Mist Forest) raise capacity.
+
+**Q: When do I drink a potion?**
+A: Only in recovery windows — after a full combo resolves, after a guard break, or after dodging a complete chain.
+
+**Q: How do I survive a boss that poisons me?**
+A: Swap in resistance relics before the fight — relics are freely swappable and resistances are among the 70+ passives.
 
 **Q: Why am I dying even with high HP?**
 A: Stamina discipline — every dodge/block/parry spends stamina, and empty-stamina deaths are the most common failure. Buy stamina nodes and don't panic-dodge.
@@ -162,3 +241,4 @@ A: Unconfirmed as a direct stat; sustain comes from relics (confirmed effect typ
 - [Runes & Relics Guide](/guides/runes-guide) — The fragments that grant health and sustain
 - [Upgrade System](/guides/upgrade-system) — Shards, slots, and forging
 - [Combat Guide](/guides/combat-guide) — Stamina economy and parry survival
+- [Boss Strategies](/guides/boss-strategies) — Healing windows and gate types in boss fights

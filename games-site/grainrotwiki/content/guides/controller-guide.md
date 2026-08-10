@@ -3,22 +3,21 @@ title: "Grain Rot Controller Guide — Gamepad Support & Settings"
 description: "Grain Rot controller support explained: gamepad play is confirmed new for the August 7 1.0 launch — supported controllers (Xbox, PS5 DualSense, Switch Pro), expected control schemes, gamepad vs mouse-and-keyboard, and settings."
 category: "Reference"
 version: "1.0"
-updated: "2026-08-05"
-date: "2026-08-05"
+updated: "2026-08-11"
 keywords: ["grain rot controller", "grain rot gamepad", "grain rot controller support", "grain rot controller settings", "grain rot xbox controller", "grain rot ps5 controller", "grain rot dualsense", "grain rot steam deck"]
-related: ["system-requirements", "full-release-guide", "launch-day-guide", "release-date-faq", "co-op-guide"]
+related: ["system-requirements", "full-release-guide", "release-date-faq", "co-op-guide"]
 ---
 
 # Grain Rot Controller Guide — Gamepad Support & Settings
 
-Grain Rot adds **full gamepad support at 1.0** — a confirmed feature of the August 7, 2026 launch. The demo was keyboard-first, which was one of its most-cited gaps; the launch announcement explicitly fixes it. This guide covers what's confirmed, what's expected, and what's still TBD about playing Grain Rot with a controller. **Important note up front: exact control mappings have not been published — this page will be updated with the official layout once the game launches.**
+Grain Rot has **full gamepad support at 1.0** — a confirmed feature of the August 7, 2026 release. The demo was keyboard-first, which was one of its most-cited gaps; the launch announcement explicitly fixed it. This guide covers what's confirmed, what's expected, and what remains unverified about playing Grain Rot with a controller. **Important note up front: exact control mappings have not been published as of this writing — this page will be updated with the official layout as verified data emerges.**
 
 ## Confirmed: Gamepad Support Is New in 1.0
 
-The publisher's launch announcement confirms **gamepad support** as a 1.0 addition, listed explicitly as fixing "a notable demo gap" — the demo shipped keyboard-first. What that means:
+The publisher's launch announcement confirmed **gamepad support** as a 1.0 addition, listed explicitly as fixing "a notable demo gap" — the demo shipped keyboard-first. What that means:
 
-- ✅ **Confirmed:** the full release has controller support on day one (August 7, 2026).
-- ❓ **Not confirmed:** the exact list of supported controllers, the official button layout, and any controller-specific settings menus.
+- ✅ **Confirmed:** the full release has controller support (August 7, 2026).
+- ❓ **Unverified:** the exact list of supported controllers, the official button layout, and any controller-specific settings menus.
 
 If you skipped the demo because it was keyboard-only — or bounced off it — the 1.0 build is the version to try with your gamepad.
 
@@ -35,11 +34,11 @@ No official controller list has been published. Here's the honest expectation fo
 | **8BitDo & third-party pads** | ✅ Likely | Anything presenting itself as an Xinput controller should work |
 | **Steam Deck controls** | ✅ Likely | Steam Deck plays the game's own confirmed gamepad support — see the [System Requirements guide](/guides/system-requirements) for Deck status |
 
-All of the above is *expectation based on Steam platform standards*, not an official statement. The game's own controller list will be verified within days of launch — check back here.
+All of the above is *expectation based on Steam platform standards*, not an official statement. The game's own controller list is unverified as of this writing — check back here.
 
-## Control Layout & Scheme (TBD Until Launch)
+## Control Layout & Scheme (Unverified)
 
-**No official button mapping has been published.** The demo was keyboard-first and shipped no gamepad layout, so there is no real-world reference yet. The following is our *expected* scheme based on the game's confirmed actions and genre conventions — treat it as an estimate, not a fact:
+**No official button mapping has been published as of this writing.** The demo was keyboard-first and shipped no gamepad layout, so there is no official reference yet. The following is our *expected* scheme based on the game's confirmed actions and genre conventions — treat it as an estimate, not a fact:
 
 | Action (confirmed in-game) | Expected binding |
 |----------------------------|------------------|
@@ -58,7 +57,7 @@ Three honest caveats:
 
 1. **Every binding above is an estimate.** The official scheme may differ in real ways — Steam Input rebinding (below) is your safety net.
 2. **Steam Input lets you remap everything.** Even if you dislike the default layout, you can reassign any action to any button, including back paddles on pro controllers.
-3. **We'll update this section with the real layout** within the first days after launch — this page is a reference page, and the reference changes when the facts land.
+3. **We'll update this section with the real layout** as verified data emerges — this page is a reference page, and the reference changes when the facts land.
 
 ## Controller vs Keyboard & Mouse: The Honest Comparison
 
@@ -79,7 +78,7 @@ Grain Rot is not a twitch-shooter, which changes the usual equation:
 
 ## Settings & Configuration
 
-Everything in this section is **TBD until launch** — the 1.0 build's settings menu hasn't been shown publicly. What to look for (and what we'll verify):
+Everything in this section is **unverified as of this writing** — the 1.0 build's settings menu hasn't been documented publicly. What to look for (and what we'll verify):
 
 - **Sensitivity sliders** — look/aim sensitivity is expected; thumbstick players will want this for the camera.
 - **Deadzone adjustment** — important for drift-prone older controllers.
@@ -105,15 +104,14 @@ The demo was keyboard-first; controller support arrives with the full release on
 Both work. The game's sound-based stealth rewards deliberate input (controller-friendly), while combat precision favors the mouse. See the comparison above.
 
 ### Can I remap the buttons?
-At minimum via Steam Input; in-game rebinding is TBD until launch.
+At minimum via Steam Input; in-game rebinding is unverified as of this writing.
 
 ### When will the official control layout be published?
-The exact mappings haven't been announced. We'll update this page with the verified layout within days of the August 7 launch.
+The exact mappings haven't been announced. We'll update this page with the verified layout as soon as it's documented.
 
 ## Related Guides
 
 - [System Requirements](/guides/system-requirements) — PC specs, Steam Deck status, and performance settings
 - [Full Release Guide](/guides/full-release-guide) — the complete confirmed 1.0 feature list
-- [Launch Day Guide](/guides/launch-day-guide) — your first 24 hours with the 1.0 build
 - [Release Date & FAQ](/guides/release-date-faq) — launch facts and FAQs
 - [Co-op Guide](/guides/co-op-guide) — team play, the game's center of gravity

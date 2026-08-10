@@ -1,16 +1,16 @@
 ---
 title: 'Endgame Survival Guide — Deep Layers, Corruption & Risk Management'
-description: 'Grain Rot endgame and deep-run survival: what the Deep Layers are confirmed to be, how corruption and the extraction economy shape deep runs, and honest risk management before launch.'
+description: 'Grain Rot endgame and deep-run survival: what the Deep Layers are confirmed to be, how corruption and the extraction economy shape deep runs, and honest risk management.'
 category: 'Advanced'
-version: 'Pre-release'
-updated: '2026-08-01'
+version: '1.0'
+updated: '2026-08-11'
 keywords: ['grain rot endgame', 'grain rot deep layers', 'grain rot corruption', 'grain rot deep runs', 'grain rot extraction', 'grain rot late game']
 related: ['hard-mode-guide', 'extraction-guide', 'all-biomes-guide', 'game-mechanics-systems-guide', 'release-date-faq']
 ---
 
 # Endgame Survival Guide — Deep Layers, Corruption & Risk Management
 
-Grain Rot's late game is the **Deep Layers** — the floors below the demo's range, where the Rot is strongest and the loot richest. This guide covers what is confirmed about deep play, the risk-reward math of deep runs, and honest preparation for launch. Note: with the game releasing August 7, 2026, **no verified endgame data exists yet**; every specific claim in older guides (named endgame vessels, corruption tokens, layer numbers) was unverified speculation.
+Grain Rot's late game is the **Deep Layers** — the floors below the demo's range, where the Rot is strongest and the loot richest. This guide covers what is confirmed about deep play and the risk-reward math of deep runs. Note: as of this writing, **much of the full game's deepest content remains undocumented**; every specific claim in older guides (named endgame vessels, corruption tokens, layer numbers) was unverified speculation.
 
 ## What Is Confirmed About the Endgame
 
@@ -18,7 +18,7 @@ Grain Rot's late game is the **Deep Layers** — the floors below the demo's ran
 - **Deeper means worse Rot.** "The deeper you go, the worse the Rot becomes. Bodies warp. Voices distort. Emotes become…worse."
 - **Deeper means better loot.** The official pitch is "Go deeper. Extract more."
 - **Survivors are a deep-layer reward.** "Rescue survivors trapped in the Deep Layers" is an official feature.
-- **There is no confirmed layer cap, boss list, or endgame system.** Anyone publishing a layer-by-layer guide before launch is guessing.
+- **There is no documented layer cap, boss list, or endgame system as of this writing.** Anyone publishing a layer-by-layer guide without in-game verification is guessing.
 
 ## The Deep-Run Risk Equation
 
@@ -59,9 +59,9 @@ The demo is your training ground for deep play:
 - Test every construct unlock; deep runs are won by tool versatility.
 - Find your crew. Deep co-op runs need players who communicate.
 
-## After Launch
+## Next Steps
 
-The moment the full game ships, this page becomes a data-driven endgame guide: verified deep-layer content, boss strategies, corruption thresholds, and the real risk-reward numbers. Until then, everything you read about "endgame vessels," "corruption tokens," or "layer 20+" is unverified. Play the demo, build the fundamentals, and check back on August 7.
+Now that the full game is out, this page is becoming a data-driven endgame guide: verified deep-layer content, boss strategies, corruption thresholds, and the real risk-reward numbers — as we verify them in the 1.0 build. Until then, everything you read about "endgame vessels," "corruption tokens," or "layer 20+" is unverified. Play the demo or the full game, build the fundamentals, and check back as we update.
 
 ## Related Guides
 

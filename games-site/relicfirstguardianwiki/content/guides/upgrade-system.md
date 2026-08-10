@@ -3,7 +3,7 @@ title: "Upgrade System — Blacksmith Forging, Shards & Relic Slots"
 description: "How upgrading works in The Relic: First Guardian. Blacksmith weapon upgrades, Shards of Awakening relic slots, Shards of Esser potion capacity, and how Relic Energy buys skills — with honest unconfirmed notes."
 category: "Guides"
 version: "1.0"
-updated: "2026-08-01"
+updated: "2026-08-11"
 keywords: ["relic first guardian upgrade system", "relic first guardian blacksmith", "relic first guardian upgrades", "relic first guardian shards of awakening", "relic first guardian shards of esser", "relic first guardian weapon upgrade", "relic first guardian relic slots"]
 related: ["runes-guide", "weapons-guide", "beginner-guide", "builds-guide"]
 ---
@@ -21,7 +21,7 @@ Every weapon and armor piece in the game is **unique — there are no duplicate 
 Because items are one-of-a-kind, the blacksmith is how you keep a favorite weapon relevant for the whole game:
 
 - **What you upgrade**: individual weapons and armor pieces, not "slots" or a generic weapon class.
-- **What it costs**: currencies and materials gathered from the world. One launch review noted that upgrades consume two item types — on the order of 5 of one material and 10 of another per upgrade level — but **exact costs are not yet confirmed** and likely vary by item.
+- **What it costs**: currencies and materials gathered from the world. One launch review noted that upgrades consume two item types per upgrade level, but **exact costs are not yet confirmed** and likely vary by item.
 - **Why it matters**: since there are no duplicate drops, you cannot farm a "better version" of your weapon. Forging is the only way to push its damage upward.
 
 **Unconfirmed at launch**: the maximum upgrade level per item, whether forging adds new passives at certain thresholds, and whether materials are shared across all items. These details are still being documented by the community.

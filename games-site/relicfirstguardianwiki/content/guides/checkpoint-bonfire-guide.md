@@ -3,7 +3,7 @@ title: "Checkpoints & Camps Guide — Tibelle's Blessing, Camps and Resting"
 description: "Checkpoint guide for The Relic: First Guardian. What Tibelle's Blessing stones and camps do — resting rules, Elisa and Shards of Awakening, why cleared areas stay cleared, and checkpoint strategy for hard runs."
 category: "Guides"
 version: "1.0"
-updated: "2026-08-06"
+updated: "2026-08-11"
 keywords: ["relic first guardian checkpoint", "relic first guardian bonfire", "relic first guardian rest points", "tibelle's blessing", "relic first guardian camps", "relic first guardian elisa"]
 related: ["enemy-types-guide", "upgrade-system", "how-to-increase-health", "difficulty-guide", "beginner-guide"]
 ---
@@ -93,6 +93,6 @@ Camps are the second landmark type — and the home of the game's most important
 
 - [Enemy Types Guide](/guides/enemy-types-guide) — what cleared-area permanence means for the enemy roster
 - [Upgrade System](/guides/upgrade-system) — Shards of Awakening, Shards of Esser, and forging
-- [How to Increase Health](/guides/how-to-increase-health) — the four survivability methods
+- [How to Increase Health & Survivability](/guides/how-to-increase-health) — the four survivability methods
 - [Difficulty Guide](/guides/difficulty-guide) — challenge runs and no-rest strategies
 - [Beginner Guide](/guides/beginner-guide) — the opening hours and first camps

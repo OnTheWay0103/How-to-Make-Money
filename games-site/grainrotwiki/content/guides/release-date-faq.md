@@ -1,41 +1,39 @@
 ---
 title: 'Release Date, Platforms & FAQ — Everything We Know About Grain Rot'
-description: 'Grain Rot release date (August 7, 2026), platforms, price status, demo info, system requirements, and FAQs — every confirmed fact about the horror co-op extraction builder, with unconfirmed items clearly marked.'
+description: 'Grain Rot release date (August 7, 2026), platforms, price ($9.99), demo info, system requirements, and FAQs — every confirmed fact about the horror co-op extraction builder, with unverified items clearly marked.'
 category: 'Game Info'
-version: 'Pre-release'
-updated: '2026-08-01'
+version: '1.0'
+updated: '2026-08-11'
 keywords: ['grain rot release date', 'grain rot platforms', 'grain rot price', 'grain rot demo', 'grain rot system requirements', 'grain rot faq', 'grain rot ps5', 'grain rot xbox']
-related: ['launch-day-guide', 'demo-guide', 'player-count-guide', 'beginner-guide', 'full-release-guide']
+related: ['full-release-guide', 'demo-guide', 'player-count-guide', 'beginner-guide', 'price-editions-guide']
 ---
 
 # Release Date, Platforms & FAQ — Everything We Know About Grain Rot
 
-Grain Rot is one of the most anticipated indie games of summer 2026 — roughly **200,000 Steam wishlists** when this page was first written, with the publisher's launch announcement citing **250,000+ wishlists** and **350,000+ demo downloads**. This page collects every confirmed fact about the launch, with anything unconfirmed clearly marked.
+Grain Rot is one of the most anticipated indie games of summer 2026 — it launched with roughly **200,000 Steam wishlists** and **350,000+ demo downloads** behind it. This page collects every confirmed fact about the launch, with anything unverified clearly marked.
 
 ## Release Date
 
-**August 7, 2026** — confirmed by the Steam page, developer Beck & Branch Games, and publisher Neem Interactive.
+**August 7, 2026** — confirmed by the Steam page, developer Beck & Branch Games, and publisher Neem Interactive. The game is out now.
 
-- The game launches as a **full release** on Steam (not Early Access).
-- A small number of third-party listings show August 6 or 8; the Steam page's own date (August 7) is authoritative.
-- The demo remains available and is expected to stay on Steam after launch.
+- The game launched as a **full 1.0 release** on Steam (not Early Access).
+- A small number of third-party listings showed August 6 or 8; the Steam page's own date (August 7) was authoritative.
+- The demo remains available on Steam.
 
 ## Platforms
 
 | Platform | Status |
 |----------|--------|
-| **PC (Steam)** | ✅ Confirmed — August 7, 2026 |
+| **PC (Steam)** | ✅ Confirmed — launched August 7, 2026 |
 | **PS5** | ❓ Unconfirmed — no announcement |
 | **Xbox Series X/S** | ❓ Unconfirmed — no announcement |
 | **Nintendo Switch** | ❌ No indication |
 
-The developers have announced nothing about console ports. Searches for "Grain Rot PS5" and "Grain Rot Xbox" are popular, and we'll update this table the moment anything is announced — but as of now, **PC via Steam is the only confirmed platform**.
+The developers have announced nothing about console ports. Searches for "Grain Rot PS5" and "Grain Rot Xbox" are popular, and we'll update this table the moment anything is announced — but as of this writing, **PC via Steam is the only confirmed platform**.
 
 ## Price
 
-**Unannounced.** The Steam page does not list a price as of this writing. Comparable indie co-op titles have launched in the $15-25 range, but that's an estimate, not a fact. Wishlist the Steam page and check back on launch day.
-
-**Also unannounced:** microtransaction policy, DLC plans, and post-launch content. The confirmed feature set includes no microtransactions, but no official statement covers it either.
+**$9.99 USD** — confirmed on the Steam page, with a **10% launch-week discount to $8.99** at launch. There is one standard edition, and no DLC, season pass, or microtransactions have been announced. See the [Price & Editions Guide](/guides/price-editions-guide) for the full breakdown.
 
 ## Demo
 
@@ -49,9 +47,9 @@ A **free demo** is available now on Steam (released June 12, 2026):
 - Full co-op
 - English-only at the demo stage (the full game ships with 11 languages)
 
-**Demo stats:** Very Positive reviews (~81% from several hundred reviews), 2,078 peak concurrent players, one of the Top 15 most-played demos at the June 2026 Steam Next Fest, 350,000+ downloads.
+**Demo stats:** Very Positive reviews, one of the Top 15 most-played demos at the June 2026 Steam Next Fest, 350,000+ downloads.
 
-**Progress carry-over:** not confirmed, and not expected. Plan for a fresh start on August 7.
+**Progress carry-over:** never confirmed, and none was provided — the demo is a separate standalone build. Players started the full game fresh on August 7.
 
 ## System Requirements (Confirmed, Steam Page)
 
@@ -71,29 +69,29 @@ A **free demo** is available now on Steam (released June 12, 2026):
 
 ## Developer & Publisher
 
-- **Developer:** Beck & Branch Games — a two-person indie studio; Grain Rot is their debut title.
+- **Developer:** Beck & Branch Games — a two-person indie studio (Michel Strömbeck and Nikolai Nyqvist); Grain Rot is their debut title.
 - **Publisher:** Neem Interactive.
 - **Community:** official Discord, TikTok, Instagram, X, and Reddit links are on the Steam page.
 
 ## FAQ
 
 ### When does Grain Rot come out?
-August 7, 2026 on Steam — as a full 1.0 release, not Early Access.
+It launched August 7, 2026 on Steam — as a full 1.0 release, not Early Access. The game is out now.
 
 ### What's new in the full release vs the demo?
-The launch build adds two new biomes, a boss encounter, elite enemies, dedicated Spark abilities, player leveling, a second Outpost floor, an enchantment and repair machine, elevator modifiers, gamepad support, and more — see the [Full Release Guide](/guides/full-release-guide) for the complete confirmed list.
+The launch build added two new biomes, a boss encounter, elite enemies, dedicated Spark abilities, player leveling, a second Outpost floor, an enchantment and repair machine, elevator modifiers, gamepad support, and more — see the [Full Release Guide](/guides/full-release-guide) for the complete confirmed list.
 
 ### Is Grain Rot on PS5 or Xbox?
 Not announced. PC (Steam) is the only confirmed platform.
 
 ### How much does Grain Rot cost?
-Unannounced. Estimates around $15-25 for comparable indie co-op games are speculation.
+**$9.99 USD**, with a 10% launch-week discount to $8.99 at launch. One standard edition — no DLC or microtransactions announced.
 
 ### Is there a Grain Rot demo?
-Yes — free on Steam since June 12, 2026, with 3 biomes, 9 enemy types, 20+ constructs, and more.
+Yes — free on Steam since June 12, 2026, with 3 biomes, 9 enemy types, 20+ constructs, and more. It remains available.
 
 ### Does demo progress carry over?
-Not confirmed and not expected. Plan for a reset at launch.
+No — the demo is a separate standalone build and progress did not carry over. Your skills and game knowledge carry over; your unlocks didn't.
 
 ### Can I play Grain Rot solo?
 Yes — Single-player is confirmed on the Steam page alongside Online Co-op.

@@ -4,12 +4,12 @@ import JsonLd from '@/components/JsonLd';
 import GuideCard from '@/components/GuideCard';
 
 const FEATURED_GUIDES = [
-  { title: 'Beginner Guide — Getting Started', description: 'New to The Relic: First Guardian? Learn the basics — choose your first weapon, understand the relic system, and survive your first hours in Arsiltus.', slug: 'beginner-guide', category: 'Beginner', updated: '2026-08-01' },
-  { title: 'Weapons Guide — All 5 Families', description: 'Complete breakdown of Sword & Shield, Longsword, Dagger, Two-Handed, and Battle Staff — and the 12 skill trees (two per family). Find your playstyle.', slug: 'weapons-guide', category: 'Weapons', updated: '2026-08-01' },
-  { title: 'Best Builds — Top Builds for Every Weapon', description: 'Optimal rune combinations, artifact pairings, and skill tree synergies for maximum damage output across all 5 weapon families.', slug: 'builds-guide', category: 'Builds', updated: '2026-07-28' },
-  { title: 'Boss Guide — How to Fight the Brutals', description: 'The 70-80 Brutal boss fights, the parry-gate vs dodge-gate split, and the confirmed general strategies that win fights.', slug: 'boss-guide', category: 'Bosses', updated: '2026-08-01' },
-  { title: 'Runes & Relics Guide', description: 'The over-70 relic fragments that replace leveling. How relics work, slot unlocks via Shards of Awakening, and Relic Energy skills.', slug: 'runes-guide', category: 'Progression', updated: '2026-08-01' },
-  { title: 'Combat Guide — Mechanics Deep Dive', description: 'The confirmed combat economy: zero-stamina attacks, defense-only stamina, cooldown skills, and the generous parry window.', slug: 'combat-guide', category: 'Combat', updated: '2026-08-01' },
+  { title: 'Beginner Guide — Getting Started', description: 'New to The Relic: First Guardian? Learn the basics — choose your first weapon, understand the relic system, and survive your first hours in Arsiltus.', slug: 'beginner-guide', category: 'Beginner', updated: '2026-08-11' },
+  { title: 'Weapons Guide — All 5 Families', description: 'Complete breakdown of Sword & Shield, Longsword, Dagger, Two-Handed, and Battle Staff — and the 12 skill trees (two per family). Find your playstyle.', slug: 'weapons-guide', category: 'Weapons', updated: '2026-08-11' },
+  { title: 'Best Builds — Top Builds for Every Weapon', description: 'Optimal relic combinations, artifact pairings, and skill tree synergies for maximum damage output across all 5 weapon families.', slug: 'builds-guide', category: 'Builds', updated: '2026-08-11' },
+  { title: 'Boss Strategies — How to Fight the Brutals', description: 'The 70-80 Brutal boss fights, the parry-gate vs dodge-gate split, and the confirmed general strategies that win fights.', slug: 'boss-strategies', category: 'Bosses', updated: '2026-08-11' },
+  { title: 'Runes & Relics Guide', description: 'The over-70 relic fragments that replace leveling. How relics work, slot unlocks via Shards of Awakening, and Relic Energy skills.', slug: 'runes-guide', category: 'Progression', updated: '2026-08-11' },
+  { title: 'Combat Guide — Mechanics Deep Dive', description: 'The confirmed combat economy: zero-stamina attacks, defense-only stamina, cooldown skills, and the generous parry window.', slug: 'combat-guide', category: 'Combat', updated: '2026-08-11' },
 ];
 
 const FAQ_ITEMS = [

@@ -1,22 +1,22 @@
 ---
 title: "Tears of Metal Save System Guide — Mid-Campaign Saves, Save Recovery & What You Lose"
-description: "How saving works in Tears of Metal: no mid-campaign saves (1-2 hour campaigns are all-or-nothing), the new save recovery system from the stability patch, what causes progress loss, and the developer's mid-campaign save plans."
+description: "How saving works in Tears of Metal: no mid-campaign saves (1-2 hour campaigns are all-or-nothing), the save recovery system added in a recent update, what causes progress loss, and the developer's mid-campaign save plans."
 category: "Guides"
-version: "1.0"
-updated: "2026-08-01"
+version: "Early Access"
+updated: "2026-08-11"
 keywords: ["tears of metal save", "tears of metal mid-campaign save", "can i save mid-run tears of metal", "tears of metal save recovery", "tears of metal lost progress", "tears of metal how long is a run"]
 related: ["beginner-guide", "threat-level-difficulty-guide", "patch-notes", "progression-walkthrough"]
 ---
 
 # Tears of Metal Save System Guide — Mid-Campaign Saves, Save Recovery & What You Lose
 
-> **Early Access v1.0 / Updated: August 1, 2026**
+> **Early Access / Updated: August 11, 2026**
 
-"Can I save mid-run?" is the **#1 player request** for Tears of Metal — and the answer today is **no**. Campaigns run 1–2 hours with no mid-campaign save: quit or fail and the run is gone. The good news: the developers have publicly confirmed **mid-campaign saves are their top priority** (in development, no date yet), and the first stability patch shipped a **save recovery system** that prevents corruption-based losses. Here's the exact current state and how to plan around it.
+"Can I save mid-run?" is the **#1 player request** for Tears of Metal — and the answer today is **no**. Campaigns run 1–2 hours with no mid-campaign save: quit or fail and the run is gone. The good news: the developers have publicly confirmed **mid-campaign saves are their top priority** (in development, no date yet), and a recent update shipped a **save recovery system** that prevents corruption-based losses. Here's the exact current state and how to plan around it.
 
 ---
 
-## The Current Save Rules (EA v1.0)
+## The Current Save Rules (Early Access)
 
 | Question | Answer |
 |----------|--------|
@@ -24,15 +24,15 @@ related: ["beginner-guide", "threat-level-difficulty-guide", "patch-notes", "pro
 | What if I quit mid-run? | The run ends; you lose the run's progress (you keep meta progression, see below) |
 | What if I crash / the game closes? | Same — the run is lost, like a death |
 | Meta progression between runs? | **Yes** — permanent unlocks, village upgrades, and progression persist (see the [Progression Walkthrough](/guides/progression-walkthrough)) |
-| Save corruption protection? | **Yes** — the stability patch added a **save recovery system** (below) |
+| Save corruption protection? | **Yes** — a recent update added a **save recovery system** (below) |
 
-**The key distinction:** a *campaign run* is disposable; your *meta progression* is safe. The frustration is real (media: "being forced to abandon a run instead of coming back to it is needless frustration") — which is exactly why the devs prioritized the fix.
+**The key distinction:** a *campaign run* is disposable; your *meta progression* is safe. The frustration is real — which is exactly why the devs prioritized the fix.
 
 ---
 
-## Save Recovery System (From the Stability Patch)
+## Save Recovery System (From a Recent Update)
 
-The first post-launch stability patch added **save recovery** — an anti-corruption safety net:
+A recent update added **save recovery** — an anti-corruption safety net:
 
 - **What it does:** detects corrupted/missing save data and restores the last good state instead of forcing a total reset.
 - **What it fixes:** the launch-window reports of lost progress from crashes and file corruption.
@@ -46,7 +46,7 @@ The first post-launch stability patch added **save recovery** — an anti-corrup
 
 The developer's own announcement explains the delay honestly: mid-campaign saves **require reworking the meta progression system** so that save-scumming can't be abused (the run's artifacts/battalion state would otherwise become free rerolls). It's not laziness — it's a systems change, and it's officially listed as the **top community request, confirmed as the highest priority** with no time window.
 
-**Timeline status:** confirmed "in development" (July 2026). Track the [Patch Notes & Roadmap](/guides/patch-notes) page for the release announcement — we'll update within 48 hours.
+**Timeline status:** confirmed "in development," with no release date announced. Track the [Patch Notes & Roadmap](/guides/patch-notes) page for the release announcement.
 
 ---
 
@@ -73,7 +73,7 @@ Not yet. Mid-campaign saves are confirmed as the #1 player request and top devel
 You lose the *run*. Permanent meta progression — village upgrades, unlocks, progression — is saved between campaigns.
 
 **Q: The game crashed and my save is gone. Help?**
-Verify game files, relaunch, and let the save recovery system rebuild. If it doesn't recover, report on the Steam forums/Discord with logs.
+Verify game files, relaunch, and let the save recovery system rebuild. If it doesn't recover, report it on the Steam forums with logs.
 
 **Q: How long is a campaign?**
 1–2 hours per run depending on region completion (see [Progression Walkthrough](/guides/progression-walkthrough)).

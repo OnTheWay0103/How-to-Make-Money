@@ -1,16 +1,16 @@
 ---
-title: 'Crafting & Resources Guide — Loot, Gold & Materials in Grain Rot'
-description: 'Grain Rot crafting and resources explained honestly: confirmed systems — smashing furniture, Grinders for gold, the extraction economy, Outpost spending — and what remains TBD before launch.'
+title: 'Crafting & Resources Guide — Recipes, Loot, Gold & Materials in Grain Rot'
+description: 'Grain Rot crafting and resources explained honestly: confirmed systems — smashing furniture, Grinders for gold, the crafting loop, how recipes work, what to craft first, Outpost spending — and what remains unverified.'
 category: 'Crafting'
-version: 'Pre-release'
-updated: '2026-08-01'
-keywords: ['grain rot crafting', 'grain rot resources', 'grain rot farming', 'grain rot materials', 'grain rot grinder', 'grain rot loot']
-related: ['base-building', 'outpost-upgrade-guide', 'extraction-guide', 'demo-guide', 'game-mechanics-systems-guide']
+version: '1.0'
+updated: '2026-08-11'
+keywords: ['grain rot crafting', 'grain rot resources', 'grain rot farming', 'grain rot materials', 'grain rot grinder', 'grain rot loot', 'grain rot crafting recipes', 'grain rot recipes', 'grain rot what to craft', 'grain rot constructs', 'grain rot crafting guide']
+related: ['outpost-upgrade-guide', 'extraction-guide', 'demo-guide', 'game-mechanics-systems-guide', 'best-vessels-guide']
 ---
 
-# Crafting & Resources Guide — Loot, Gold & Materials in Grain Rot
+# Crafting & Resources Guide — Recipes, Loot, Gold & Materials in Grain Rot
 
-Everything in Grain Rot runs on what you haul out of the ruins. This guide covers the confirmed resource systems — furniture smashing, the Grinder, and the extraction economy — and honestly separates confirmed mechanics from still-unconfirmed details.
+Everything in Grain Rot runs on what you haul out of the ruins. Every recipe starts with the same two actions: **smash furniture for resources, or feed items into the Grinder for gold.** That is the confirmed crafting foundation — and on top of it sits the **20+ unlockable constructs** (weapons, tools, and utilities) that the demo confirms. This guide covers the confirmed resource systems, how recipes work, what to craft first, and honestly separates confirmed mechanics from what remains unverified.
 
 ## The Confirmed Resource Loop
 
@@ -25,21 +25,53 @@ That's the whole economy in four lines: **scavenge → convert → extract → s
 
 ## The Two Confirmed Resource Paths
 
-### 1. Furniture Smashing
+| Path | Input | Output | Best For |
+|------|-------|--------|----------|
+| Furniture smashing | Furniture ("tactical carpentry with interactive furniture") | Resources (wood, scrap-type materials) | Crafting constructs, Outpost upgrades |
+| The Grinder | Items you do not need | Gold (compact, stackable) | Buying power, saving inventory space |
+
+**The conversion rule:** gold is almost always better than raw junk — it is compact and stackable, while wood and scrap fill your limited inventory. Convert what you do not need, carry what is valuable.
+
+### Furniture Smashing
 
 Furniture is the ruins' raw material. "Tactical carpentry with interactive furniture" is an official feature — smashing isn't just looting, it's the game's signature action.
 
 **What we know:** smashing yields resources; it's loud; it's central to the loop.
 
-**What's TBD:** specific furniture types and their yields, whether some furniture is interactive (usable rather than breakable — the "carpentry" feature hints yes), and whether furniture differs by depth.
+**What's unverified:** specific furniture types and their yields, whether some furniture is interactive (usable rather than breakable — the "carpentry" feature hints yes), and whether furniture differs by depth.
 
-### 2. The Grinder
+### The Grinder
 
 The Grinder is a confirmed machine that converts items into gold. It exists to solve the classic extraction problem: **value per inventory slot**.
 
 **What we know:** feed items in, get gold out. Gold is compact and stackable.
 
-**What's TBD:** where Grinders spawn, whether a portable version exists, and the exact conversion rates.
+**What's unverified:** where Grinders spawn, whether a portable version exists, and the exact conversion rates.
+
+## How Recipes Work (The Confirmed Structure)
+
+| Element | Confirmed | Notes |
+|---------|-----------|-------|
+| Constructs | 20+ unlockable weapons, tools, utilities | The demo contains them all |
+| Recipes | Materials → construct | Standard loop confirmed |
+| Vessels | Possessable bodies with different abilities | Body choice is build choice — vessels may have craft requirements |
+| Outpost rooms | Upgradeable rooms (demo-confirmed) | Room upgrades = permanent crafting/spending sinks |
+| Outpost stats | Stat upgrades (confirmed) | Spending target for extracted resources |
+
+**What's unverified:** exact recipe names, material counts, tool tiers, and room upgrade costs. Treat any "recipe table" you see online as speculation until it can be checked against the game.
+
+## What to Craft First (Demo Lessons)
+
+The demo's 20+ constructs are your recipe lab. Priorities that hold in the full game:
+
+| Priority | Craft | Why |
+|----------|-------|-----|
+| 1 | A **melee weapon** | The default tool for the loop — smashing, fighting, and breaking out of danger |
+| 2 | A **light/tool utility** | The ruins are dark and hostile; utility tools prevent deaths |
+| 3 | **Survival consumables** | Anything that heals or protects your vessel — bodies break |
+| 4 | Outpost room upgrades | Permanent progress beats temporary gear once you have the basics |
+
+**The demo rule:** demo tuning was friendlier than the full release — expect real costs to run higher. What you learn about the *order* of crafting holds; the *prices* won't.
 
 ## The Extraction Economy
 
@@ -52,7 +84,7 @@ The rules that make resources matter:
 
 ## Resource Management Principles
 
-Precise resource names and values are unverified before launch, but the confirmed mechanics dictate the strategy:
+Precise resource names and values are unverified as of this writing, but the confirmed mechanics dictate the strategy:
 
 ### 1. Convert Aggressively
 
@@ -70,17 +102,39 @@ The only bank is the Outpost, and you only bank what you extract. When in doubt,
 
 Vessels break and can be replaced mid-run — your Spark can possess another vessel. Resources spent defending a doomed body are wasted; resources spent extracting a live one are profit.
 
-## What to Expect at Launch
+## Grinder Strategy: When to Feed the Machine
 
-After August 7 we'll publish the verified resource list: exact materials, drop sources, Grinder rates, and Outpost costs. Until then:
+| Situation | Action |
+|-----------|--------|
+| Bag full of low-value junk | Grind it — value per slot decides everything |
+| Rare item you cannot use | **Extract it** — never grind what you cannot replace |
+| Gold needed for Outpost spending | Grind the run's junk *before* extraction |
+| Deep run, limited slots | Grind early and often — gold is the only weightless wealth |
 
-- **The demo is the reference.** It contains the full core economy: 3 biomes of loot, 9 enemy types, 20+ constructs, and upgradeable Outpost rooms.
-- **Don't plan around demo prices.** Demo tuning is typically friendlier than the full game; expect real launch costs to run higher.
-- **Ignore detailed loot tables** circulating pre-launch — they're speculation until confirmed.
+**The slot rule:** your vessel's carry capacity is a hard limit. Before picking anything up, ask: *is this worth a slot?* A rare high-value item beats a pile of common materials every time.
+
+## The Outpost: Where Recipes Pay Off
+
+Crafting is not the end — the Outpost is the sink:
+
+- **"Everything you haul back rebuilds your Outpost."** — confirmed.
+- Confirmed Outpost features: interactive furniture, stat upgrades, rescued survivors, upgradeable rooms.
+- The [Outpost Guide](/guides/outpost-upgrade-guide) covers where resources should go.
+
+**The golden rule:** the only bank is the Outpost, and you only bank what you extract. Craft for the run, but spend for the Outpost.
+
+## Crafting Checklist
+
+- [ ] Loop understood: smash → resources, Grinder → gold
+- [ ] First constructs prioritized: weapon, utility, consumables
+- [ ] Grinder conversion rule applied (junk → gold, rares → extract)
+- [ ] Outpost spending planned — rooms and stat upgrades before luxuries
+- [ ] Unverified recipe tables ignored until checked against the game
 
 ## Related Guides
 
-- [Base Building Guide](/guides/base-building) — what the Outpost actually is
-- [Outpost Upgrade Guide](/guides/outpost-upgrade-guide) — where your resources should go
+- [Outpost Guide](/guides/outpost-upgrade-guide) — where your resources should go
 - [Extraction Guide](/guides/extraction-guide) — how to bank your haul
+- [Demo Guide](/guides/demo-guide) — the 20+ constructs and what the demo teaches
 - [Game Mechanics & Systems Guide](/guides/game-mechanics-systems-guide) — how the economy fits the other systems
+- [Best Vessels Guide](/guides/best-vessels-guide) — the bodies your crafting supports

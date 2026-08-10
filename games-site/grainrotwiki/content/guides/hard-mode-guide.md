@@ -2,15 +2,15 @@
 title: 'Hard Mode Guide — Is There a Hard Mode in Grain Rot?'
 description: 'The honest answer about Grain Rot hard mode: no hard mode has been announced. What is confirmed about the difficulty curve — deeper layers, corruption, the Corrupted — and how to create your own challenge.'
 category: 'Advanced'
-version: 'Pre-release'
-updated: '2026-08-01'
+version: '1.0'
+updated: '2026-08-11'
 keywords: ['grain rot hard mode', 'grain rot difficulty', 'grain rot endgame', 'grain rot challenge', 'grain rot corruption']
 related: ['endgame-survival', 'game-mechanics-systems-guide', 'demo-guide', 'release-date-faq', 'extraction-guide']
 ---
 
 # Hard Mode Guide — Is There a Hard Mode in Grain Rot?
 
-Straight answer: **no Hard Mode has been announced for Grain Rot.** Earlier versions of this guide described an unlockable Hard Mode with modified enemies, exclusive materials, and a 500-gold entry fee — that was fabricated. The game launches August 7, 2026, and its confirmed features include no difficulty selector, no "Nightmare Descent," and no exclusive hard-mode loot.
+Straight answer: **no Hard Mode has been announced for Grain Rot.** Earlier versions of this guide described an unlockable Hard Mode with modified enemies, exclusive materials, and a 500-gold entry fee — that was fabricated. The game launched August 7, 2026, and its confirmed features include no difficulty selector, no "Nightmare Descent," and no exclusive hard-mode loot.
 
 What the game *does* have is a confirmed difficulty curve built into its design — and that's what this guide covers honestly.
 
@@ -33,7 +33,7 @@ The demo is tuned to be approachable — it's a showcase. You can already feel t
 - **Deeper demo floors hit harder** — more enemies, more corruption, more danger.
 - **The extraction is always the hardest part** — no matter the floor, getting out alive is the skill test.
 
-If you want the honest "hard mode experience" before launch: play the demo, then push deeper than you're comfortable with, extract under pressure, and do it solo.
+If you want the honest "hard mode experience": play the demo or the full game, push deeper than you're comfortable with, extract under pressure, and do it solo.
 
 ## Self-Imposed Challenges (Before Any Confirmed Mode)
 
@@ -52,14 +52,14 @@ These aren't official modes — they're community-style challenges grounded in c
 
 ## What Would Real Hard Mode Look Like?
 
-Speculation, clearly marked: if the developers add a hard mode post-launch, the confirmed systems suggest the design space — more aggressive corruption, more alert Corrupted, faster chain-reactions, reduced loot, harsher extraction. But **no such mode is announced**, and no release notes mention one. Treat any "hard mode guide" with named modifiers and exclusive loot as fabrication until the developers say otherwise.
+Speculation, clearly marked: if the developers add a hard mode post-launch, the confirmed systems suggest the design space — more aggressive corruption, more alert Corrupted, faster chain-reactions, reduced loot, harsher extraction. But **no such mode is announced**, and no release notes mention one as of this writing. Treat any "hard mode guide" with named modifiers and exclusive loot as fabrication until the developers say otherwise.
 
 ## The Verdict
 
 - **Is there a hard mode?** Not announced.
 - **Is the game hard?** Yes, by design — depth, corruption, and the Corrupted escalate continuously.
 - **Can you make it harder?** Yes — solo, no-Grinder, no-sprint, or chaos-co-op challenges.
-- **Will we update this page?** The moment a difficulty mode is announced or discovered at launch, this becomes a real guide.
+- **Will we update this page?** The moment a difficulty mode is announced or discovered, this becomes a real guide.
 
 ## Related Guides
 

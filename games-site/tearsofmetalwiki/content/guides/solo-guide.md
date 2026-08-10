@@ -2,15 +2,15 @@
 title: "Tears of Metal Solo Guide — Best Hero, Battalion Tactics & Full Campaign Strategy"
 description: "Play Tears of Metal solo like a pro: the best hero for solo runs, how to use your battalion as a second player, battle energy and commands, Threat Level control, solo boss strategies, and how to survive The Scar alone."
 category: "Guides"
-version: "1.0"
-updated: "2026-08-09"
+version: "Early Access"
+updated: "2026-08-11"
 keywords: ["tears of metal solo", "tears of metal solo guide", "best hero for solo tears of metal", "can you play tears of metal solo", "tears of metal solo tips", "tears of metal solo run strategy", "tears of metal single player"]
 related: ["heroes-tier-list", "threat-level-difficulty-guide", "boss-guide", "battalion-companion-guide", "progression-walkthrough"]
 ---
 
 # Tears of Metal Solo Guide — Best Hero, Battalion Tactics & Full Campaign Strategy
 
-> **Early Access / Updated: August 9, 2026**
+> **Early Access / Updated: August 11, 2026**
 
 Tears of Metal is built for four, but it is a complete single-player game — and honestly, solo is where the roguelike tension is sharpest. Every run is you, your battalion, and a 1–2 hour campaign with no mid-run saves. This guide covers the hero picks that actually work solo, how to turn your battalion into a second player, how to manage Threat Level so the game doesn't punish your thoroughness, and the act-by-act solo strategy that gets you through to The Scar.
 
@@ -50,7 +50,7 @@ Solo play punishes mistakes more than co-op — nobody revives you mid-encounter
 
 - **Pick Ruadh for boss-rushing.** His stagger chains shut down boss patterns (Gilles the Hog and Iseult the Banshee both fold to rhythm-breaking staggers). The cost is every trash fight being slower and riskier — you must be disciplined about pulling groups.
 - **Pick Brienne for speed once you're experienced.** Her DPS is steady and her mobility is elite, so mastered Brienne solo clears faster than anyone. Below mastery, she dies to swarms that Wallace would walk through.
-- **Rotation note (patch 0.8.57278):** Ruadh is now unlocked by defeating the Banshee. If you're on a fresh save, Wallace is your first hero regardless — which makes him even more clearly the solo starter (see [Patch Notes & Roadmap](/guides/patch-notes)).
+- **Unlock note:** as of a recent update, Ruadh is unlocked by defeating the Banshee. If you're on a fresh save, Wallace is your first hero regardless — which makes him even more clearly the solo starter (see the [Character Unlock Guide](/guides/character-unlock-guide)).
 
 ---
 
@@ -63,15 +63,16 @@ Solo players ignore the battalion at their peril. The game is explicitly designe
 Hits and kills fill a battle energy bar (bottom-left of the screen). This is your solo "team" resource:
 
 - **Full charge → hero super attack:** a full bar can be spent on your hero's special. In solo play, save this for elites and bosses — it's your burst window.
-- **Bar segments → battalion commands:** you can spend segments of the bar to order your **spearmen, infantry, or archers** to perform special moves. This is the core of solo crowd control.
+- **Bar segments → battalion commands:** you can spend segments of the bar to order your soldiers to perform special moves. This is the core of solo crowd control.
 
-### The Three Arms and Their Solo Jobs
+### The Units and Their Solo Jobs
 
 | Unit | Solo job | When to command |
 |------|----------|-----------------|
-| **Infantry** | The frontline sponge | Deploy to hold a chokepoint or draw aggro while you flank |
-| **Spearmen** | Anti-charge and anti-captain | Command them when a captain or heavy charges — their counter-strike stops the momentum |
-| **Archers** | Range pressure and support | Use them to soften priority targets (banner bearers, spotters) before you engage |
+| **Grunts** | The frontline sponge | Deploy to hold a chokepoint or draw aggro while you flank |
+| **Pikemen** | Anti-charge and anti-captain | Command them when a captain or heavy charges — their counter-strike stops the momentum |
+| **Trebuchet Spotters** | Range pressure and support | Use them to soften priority targets (banner bearers, enemy spotters) before you engage |
+| **Shield Bearers** | Tank and anchor | Hold the line in the scariest fights; the community's best class (see the [Battalion & Companion Guide](/guides/battalion-companion-guide)) |
 
 **The golden solo rule:** your battalion commands are not for damage — they're for *attention*. Spending a bar segment to pull aggro onto infantry so you can reposition behind a captain is worth more than any single hero skill.
 
@@ -81,9 +82,9 @@ Soldiers gain permanent skills and experience between campaigns — a veteran sp
 
 **Solo consequence:** you can't "wait for a teammate to take the hit." If your veteran shield line is at low health, retreat them with a command and let fresh recruits hold. Protecting one veteran is worth losing two fresh soldiers.
 
-### Captains and Family Crests
+### Captains and Promotions
 
-Promoting captains in your army and attaching **family crests** gives persistent bonuses while they stay in your army — examples include faster dodge recharge and stronger basic strikes. Solo, these crests are your cheapest permanent power: a promoted captain with a dodge-recharge crest meaningfully improves survival in every region, and the investment persists between runs.
+Promoting captains in your army gives persistent bonuses while they stay in your army (community-reported examples include faster dodge recharge and stronger basic strikes). Solo, promotions are cheap permanent power: a promoted captain meaningfully improves survival in every region, and the investment persists between runs.
 
 ---
 
@@ -117,14 +118,14 @@ Threat Level is a per-campaign escalation meter that rises with your success:
 - **Goal:** learn the rhythm, recruit a battalion, and bank permanent currency. Everything in Act 1 is a tutorial for your soldier economy
 - **Priority kills:** banner bearers first (they buff nearby enemies), spotters second (their marks make your soldiers take extra damage)
 - **Solo tip:** this is the act to full-clear. You need artifact variety and soldier recruits, and Threat Level penalties are mild here. Don't skip the breakable walls and side buildings — they hold early artifacts and recruitable allies
-- **Boss — Gilles, The Hog:** manageable solo with basic blocking discipline. Keep your battalion alive for phase pressure and use your first full battle-energy charge on the boss's first stagger window. Boss arenas have no healing, so enter full (see [Boss Guide](/guides/boss-guide))
+- **Boss — Gilles the Hog:** manageable solo with basic blocking discipline. Keep your battalion alive for phase pressure and use your first full battle-energy charge on the boss's first stagger window. Boss arenas have no healing, so enter full (see [Boss Guide](/guides/boss-guide))
 
 ### Act 2: The Mid-Campaign Grind
 
-- **Goal:** consolidate. Your weapon should be merged (see [Weapon Upgrade Guide](/guides/weapon-upgrade-guide)), your artifact slots filled, and your battalion veteran-heavy
+- **Goal:** consolidate. Your weapon should be merged (see the [Weapon Merge Guide](/guides/weapon-merge-guide)), your artifact slots filled, and your battalion veteran-heavy
 - **The solo shift:** stop full-clearing. Act 2's Threat Level rises faster, and extra captains with archer towers are where solo runs start snowballing into failure
 - **Solo tip:** route bosses before loot. If you're on pace for the campaign, skip the optional pack that would push you to the next Threat tier
-- **Boss — Iseult, The Banshee:** the most notorious solo wall of the launch build. Her pattern punishes standing still and over-committing. Dodge sideways, punish recoveries, and save your battle-energy super for the phase transition. Note: beating her is also what unlocks Ruadh Stonecrusher on current builds (see [Patch Notes](/guides/patch-notes))
+- **Boss — Iseult the Banshee:** the most notorious solo wall of the launch build. Her pattern punishes standing still and over-committing. Dodge sideways, punish recoveries, and save your battle-energy super for the phase transition. Note: beating her is also what unlocks Ruadh Stonecrusher on current builds (see the [Character Unlock Guide](/guides/character-unlock-guide))
 
 ### Act 3: The Scar (The Solo Filter)
 
@@ -161,7 +162,7 @@ Act 3 — The Scar — is where solo campaigns go to die. Corruption DoT zones d
 2. **Protect veterans over everything.** One veteran spearman with permanent skill levels beats five fresh soldiers. Retreat them, never sacrifice them
 3. **Spend battle energy on commands, not supers — until the boss.** Supers feel great; commands win fights
 4. **Watch the Threat meter every region.** When it's near a new tier, stop looting and route to the boss
-5. **Bank permanent currency early.** Triskeles and coins carry over whether you win or lose — a failed Act 3 run still pays for village upgrades (see [Village Upgrade Guide](/guides/village-upgrade-guide))
+5. **Bank permanent currency early.** Triskelle carries over whether you win or lose — a failed Act 3 run still pays for village upgrades (see [Village Upgrade Guide](/guides/village-upgrade-guide))
 6. **Don't chase every artifact.** Two artifacts that synergize beat a legendary that doesn't (see [Emblem & Artifact Guide](/guides/emblem-artifact-guide))
 
 ---
@@ -172,18 +173,17 @@ Recruitment isn't random filling — it's your build. Solo players should think 
 
 | Unit | Ideal solo ratio | Why |
 |------|:----------------:|-----|
-| **Infantry** | 40–50% | Your frontline sponge. Solo, they're the shield that lets you flank |
-| **Spearmen** | 25–35% | Anti-captain and anti-charge. The units that save you from the game's deadliest normal enemies |
-| **Archers** | 15–25% | Pressure and support. Fewer needed — their job is softening priority targets, not holding ground |
+| **Grunts** | 40–50% | Your frontline sponge. Solo, they're the shield that lets you flank |
+| **Pikemen** | 25–35% | Anti-captain and anti-charge. The units that save you from the game's deadliest normal enemies |
+| **Trebuchet Spotters** | 15–25% | Pressure and support. Fewer needed — their job is softening priority targets, not holding ground |
+| **Shield Bearers** | As found | The best class overall — every comp wants at least one |
 
 **Composition rules that matter solo:**
 
-1. **Never let your frontline be all fresh recruits** — green infantry melt under captain pressure. Keep at least one veteran infantry squad alive between regions
-2. **Spearmen beat captains; infantry beats swarms; archers beat spotters** — when a region's enemy mix skews one way (Act 1 coasts: swarms; Act 2 complex: captains; Act 3: everything), lean the ratio
+1. **Never let your frontline be all fresh recruits** — green grunts melt under captain pressure. Keep at least one veteran squad alive between regions
+2. **Pikemen beat captains; Grunts beat swarms; Spotters beat enemy spotters** — when a region's enemy mix skews one way (Act 1 coasts: swarms; Act 2 mid-campaign: captains; Act 3: everything), lean the ratio
 3. **Recruit early, promote always** — the Recruitment Tent and captain promotions are permanent power (see [Village Upgrade Guide](/guides/village-upgrade-guide)). A solo run's most reliable upgrade path is a stronger army, not a stronger hero
 4. **Retreat is a command, not a failure** — pulling a battered squad back and letting a fresh one hold is the solo equivalent of a co-op player swapping lanes
-
-**The family crest angle:** crests grant persistent bonuses while a captain stays in your army — faster dodge recharge and stronger basic strikes are confirmed examples. For solo, prioritize survival-crests (dodge recharge) over damage ones on your frontline captain: your hero's survivability is your run's survivability.
 
 ---
 
@@ -240,8 +240,8 @@ New solo players waste runs because they don't know what each campaign is *for*.
 | Run | Goal | What to do | What to bank |
 |-----|------|------------|--------------|
 | **Run 1 — The Learning Run** | Learn the loop | Play Wallace, full clear Act 1, die somewhere in Act 2 | Village upgrades (Armory first — see [Village Upgrade Guide](/guides/village-upgrade-guide)), recruit every soldier you find |
-| **Run 2 — The Banking Run** | Meta progression | Rush through Acts 1-2, collect artifacts and gold, end clean before a doomed Act 3 | Permanent currencies (Triskeles), artifact collection for future builds |
-| **Run 3 — The Veteran Run** | Battalion power | Focus on recruiting and promoting; let veterans carry fights while you practice parries | A veteran core army + promoted captains with crests |
+| **Run 2 — The Banking Run** | Meta progression | Rush through Acts 1-2, collect artifacts and triskelle, end clean before a doomed Act 3 | Permanent currencies (triskelle), artifact collection for future builds |
+| **Run 3 — The Veteran Run** | Battalion power | Focus on recruiting and promoting; let veterans carry fights while you practice parries | A veteran core army + promoted captains |
 | **Run 4 — The Act 3 Attempt** | First full clear | Wallace with Corruption Resist + Regen, linear route through The Scar | Your first full campaign completion (and the boss achievements — see [Achievements Guide](/guides/achievements-guide)) |
 | **Run 5+ — The Specialization Runs** | Build variety | Try Ruadh (post-Banshee unlock) or Brienne; build around specific emblems | New build archetypes, Ruadh unlock, deeper artifact pool |
 
@@ -292,7 +292,7 @@ Practically, yes. The game is designed around commanding a battalion — solo wi
 Act 3 / The Scar, without question — corruption DoT, no health stations, and a buffed region boss punish every solo mistake. Prepare resist and regen before entering.
 
 **Q: Can I get all three heroes solo?**
-Wallace starts unlocked. Brienne is available as a starter. Ruadh now requires defeating Iseult, The Banshee — doable solo, but expect the fight to be the wall of your first full campaign (see [Patch Notes](/guides/patch-notes)).
+Wallace starts unlocked. Brienne unlocks through her dedicated quest chain. Ruadh requires defeating Iseult the Banshee — doable solo, but expect the fight to be the wall of your first full campaign (see the [Character Unlock Guide](/guides/character-unlock-guide)).
 
 ---
 

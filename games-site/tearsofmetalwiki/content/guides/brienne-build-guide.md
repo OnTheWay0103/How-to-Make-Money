@@ -2,19 +2,21 @@
 title: "Tears of Metal Brienne Build Guide — Best Weapons, Emblems & Strategy"
 description: "The definitive Brienne build guide for Tears of Metal: how to build the unarmed speedster around per-hit emblems and artifacts, with emblem combos, playstyle tips, and her high skill floor explained."
 category: "Builds"
-version: "1.0"
-updated: "2026-08-01"
+version: "Early Access"
+updated: "2026-08-11"
 keywords: ["Brienne build", "best Brienne build", "Brienne weapons", "Brienne emblems", "unarmed build", "Tears of Metal Brienne"]
-related: ["best-builds", "heroes-tier-list", "weapon-upgrade-guide", "emblem-artifact-guide"]
+related: ["best-builds", "heroes-tier-list", "weapon-merge-guide", "emblem-artifact-guide"]
 ---
 
 # Tears of Metal Brienne Build Guide — Best Weapons, Emblems & Strategy
 
-> **Early Access v1.0 / Updated: August 1, 2026**
+> **Early Access / Updated: August 11, 2026**
 
 Brienne is Tears of Metal's unarmed speedster — the fastest attack rate in the game and a machine-gun of hits that stacks per-hit effects absurdly well. She trades burst for sustained DPS, and she trades range for mobility. She also has the highest skill floor of the three heroes: new players die more with Brienne before they learn her rhythm.
 
 This guide covers how to build her around what makes her special: **per-hit effects**.
+
+> **Values caveat:** artifact names and stat values below are community-reported and unverified — exact numbers may differ in current builds. Treat them as directional guidance, not official data.
 
 ---
 
@@ -55,7 +57,7 @@ Per-hit effects first, survivability second, everything else third:
 
 | Artifact | Rarity | Effect | Priority |
 |----------|--------|--------|----------|
-| Dragon Stone Fragment | Rare | +30% fire damage, attacks apply burn | Core (fire build) |
+| Fire-catalyst artifact (community-reported names vary) | Rare | +fire damage, attacks apply burn | Core (fire build) |
 | Ember-Touched Bracers | Uncommon | +20% attack speed while burning | Core |
 | Obsidian Edge | Rare | +18% elemental damage | High |
 | Boots of the Wind | Rare | +20% dodge distance | High — kiting is survival |
@@ -69,7 +71,7 @@ Per-hit effects first, survivability second, everything else third:
 Brienne fights **unarmed** — her damage comes from her attack rate, and her build is defined by emblems and artifacts rather than weapon tiers. Two honest caveats:
 
 - Whether unarmed attacks benefit from weapon-specific artifact bonuses is **still being documented** — treat weapon-type artifact descriptions as unverified until patch notes confirm.
-- Regardless, the correct direction is certain: stack attack speed and per-hit sources. The [Weapon Upgrade Guide](/guides/weapon-upgrade-guide) still matters for the merge math if weapon-like equipment for her kit is added later.
+- Regardless, the correct direction is certain: stack attack speed and per-hit sources. The [Weapon Merge Guide](/guides/weapon-merge-guide) still matters for the merge math if weapon-like equipment for her kit is added later.
 
 ---
 
@@ -98,7 +100,7 @@ Brienne fights **unarmed** — her damage comes from her attack rate, and her bu
 | Phase | Focus |
 |-------|-------|
 | Early (Act 1) | Learn the rhythm — accept deaths; equip any attack-speed artifacts |
-| Mid (Act 2) | Fire + Attack Speed online; add Dragon Stone Fragment |
+| Mid (Act 2) | Fire + Attack Speed online; add your fire-catalyst artifact |
 | Late (Act 3) | Slot Corruption Resist alongside the build — the DoT does not care how fast you attack |
 
 ---
@@ -122,7 +124,7 @@ No — she has the highest skill floor of the three heroes. Pick Wallace first, 
 Her DPS is steady, not spiky. Against stationary or long fights (bosses, elites) she out-damages everyone; she just does not delete things in one swing.
 
 **Q: What is the fastest Brienne clear build?**
-Fire + Attack Speed with Dragon Stone Fragment — the fastest burn-stacking combination in the game.
+Fire + Attack Speed with the fire-catalyst artifact — the fastest burn-stacking combination in the game.
 
 ---
 
@@ -130,5 +132,5 @@ Fire + Attack Speed with Dragon Stone Fragment — the fastest burn-stacking com
 
 - [Heroes Tier List](/guides/heroes-tier-list) — where Brienne ranks and her skill floor explained
 - [Best Builds](/guides/best-builds) — the full three-hero build overview
-- [Weapon Upgrade Guide](/guides/weapon-upgrade-guide) — merge system and AP explained
+- [Weapon Merge Guide](/guides/weapon-merge-guide) — merge system and AP explained
 - [Emblem & Artifact Guide](/guides/emblem-artifact-guide) — all 18 emblems and artifact synergy

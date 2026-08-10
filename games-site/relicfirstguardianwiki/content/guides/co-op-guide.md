@@ -3,14 +3,14 @@ title: "Co-Op & Multiplayer — Is There Co-Op? (Single-Player Only)"
 description: "Does The Relic: First Guardian have co-op or multiplayer? Honest answer: no. The game is single-player only at launch — no co-op, no PvP, no online modes on Steam or PS5."
 category: "Guides"
 version: "1.0"
-updated: "2026-08-01"
+updated: "2026-08-11"
 keywords: ["relic first guardian coop", "relic first guardian co op", "relic first guardian multiplayer", "is relic first guardian multiplayer", "relic first guardian online", "relic first guardian crossplay", "can you play relic first guardian with friends"]
 related: ["beginner-guide", "difficulty-guide", "release-date-platforms"]
 ---
 
 # Co-Op & Multiplayer — Is There Co-Op in The Relic: First Guardian?
 
-**Short answer: No.** The Relic: First Guardian is a **single-player-only** game. There is no co-op, no multiplayer, no PvP, and no online features of any kind in the launch build (1.0) on either Steam or PS5. Despite the "coop" search interest, the developers have never announced any co-op mode — it is a traditional solo soulslike experience in the vein of Dark Souls' single-player focus.
+**Short answer: No.** The Relic: First Guardian is a **single-player-only** game. There is no co-op, no multiplayer, no PvP, and no online features of any kind in the launch build on either Steam or PS5. Despite the "coop" search interest, the developers have never announced any co-op mode — it is a traditional solo soulslike experience in the vein of Dark Souls' single-player focus.
 
 This guide answers the common "can I play with friends?" question honestly, explains what that means for the difficulty, and lists the solo tools the game gives you instead of a partner.
 
@@ -18,7 +18,7 @@ This guide answers the common "can I play with friends?" question honestly, expl
 
 ## The Honest Answer: No Co-Op at Launch
 
-The Relic: First Guardian was announced in 2022 as *Project Relic* and has always been pitched as a solo action RPG. Reviews from the July 31, 2026 launch (IGN, GamingBolt, Gamesurf, InvenGlobal and others) all describe a strictly single-player game. No review or official statement mentions co-op, summons, invasions, or any online multiplayer feature.
+The Relic: First Guardian has always been pitched as a solo action RPG. Reviews from the July 31, 2026 launch (IGN, GamingBolt, Gamesurf, InvenGlobal and others) all describe a strictly single-player game. No review or official statement mentions co-op, summons, invasions, or any online multiplayer feature.
 
 | Question | Answer |
 |----------|--------|

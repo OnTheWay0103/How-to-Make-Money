@@ -3,9 +3,9 @@ title: "Game Length — How Long to Beat (Honest Estimates)"
 description: "How long to beat The Relic: First Guardian? Honest answer: no verified hour counts exist yet. What the confirmed content volume implies, and why '30-40 hours' claims are unconfirmed."
 category: "Guides"
 version: "1.0"
-updated: "2026-08-01"
+updated: "2026-08-11"
 keywords: ["relic first guardian how long to beat", "relic first guardian game length", "relic first guardian hours", "relic first guardian content", "relic first guardian completionist", "how long is relic first guardian"]
-related: ["walkthrough", "boss-guide", "beginner-guide", "all-bosses-list"]
+related: ["walkthrough", "beginner-guide", "all-bosses-list"]
 ---
 
 # Game Length — How Long to Beat

@@ -2,15 +2,15 @@
 title: "Tears of Metal Corruption Guide — How the Corruption Mechanic Works"
 description: "Tears of Metal Corruption explained: what Corruption zones do, how Corruption damage over time works, how Corruption Resist counters it, and the Act 3 management strategy every player needs."
 category: "Mechanics"
-version: "1.0"
-updated: "2026-08-01"
+version: "Early Access"
+updated: "2026-08-11"
 keywords: ["corruption", "corruption mechanic", "corruption zone", "corruption management", "Act 3", "Tears of Metal corruption"]
-related: ["progression-walkthrough", "threat-level-difficulty-guide"]
+related: ["progression-walkthrough", "threat-level-difficulty-guide", "emblem-artifact-guide", "boss-guide", "combat-tips"]
 ---
 
 # Tears of Metal Corruption Guide — How the Corruption Mechanic Works
 
-> **Early Access v1.0 / Updated: August 1, 2026**
+> **Early Access / Updated: August 11, 2026**
 
 Corruption is Tears of Metal's signature late-game threat. It arrives in Act 3 and changes everything: zones drain your health while you stand in them, enemy attacks carry Corruption damage over time, and the final region punishes players who arrive unprepared. This guide explains what is confirmed about the mechanic, how to counter it, and how to plan your Act 3 runs around it.
 
@@ -47,10 +47,10 @@ The **Corruption Resist emblem** is the primary counter:
 
 | Source | Known Effect |
 |--------|--------------|
-| Corruption Resist emblem | +50% corruption resistance; reduces DoT damage by 60% (per emblem documentation) |
+| Corruption Resist emblem | Substantial corruption resistance; reduces both zone drain and DoT damage (exact percentages are community-documented) |
 | Corruption Resist artifacts | Resistance sources also exist as artifact effects — exact bonuses vary by drop |
 
-**Second layer:** the **Regen emblem** (heal 1% HP every 3 seconds) passively offsets Corruption tick damage, reducing consumable usage in the final region. **Guardian** (shield at low HP) is a third-layer safety net for first-time Act 3 completions.
+**Second layer:** the **Regen emblem** (passive healing over time) offsets Corruption tick damage, reducing consumable usage in the final region. **Guardian** (shield at low HP) is a third-layer safety net for first-time Act 3 completions.
 
 ---
 

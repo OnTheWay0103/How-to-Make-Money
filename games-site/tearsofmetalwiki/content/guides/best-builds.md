@@ -1,17 +1,20 @@
 ---
 title: "Tears of Metal Best Builds — Wallace, Brienne, and Ruadh Stonecrusher Optimized Loadouts"
-description: "Three optimized Tears of Metal builds for the real launch roster: Pure Physical Wallace, Dragon Stone Elemental Brienne, and Stagger & Emblem Synergy Ruadh Stonecrusher. Artifact combos, emblem picks, and co-op strategy included."
+description: "Three optimized Tears of Metal builds for the real launch roster: Pure Physical Wallace, Fire & Per-Hit Brienne, and Stagger & Emblem Synergy Ruadh Stonecrusher. Artifact combos, emblem picks, and co-op strategy included."
 category: "Builds"
-version: "1.0"
-updated: "2026-08-01"
+version: "Early Access"
+updated: "2026-08-11"
 keywords: ["Tears of Metal best builds", "Tears of Metal Wallace build", "Tears of Metal Brienne build", "Tears of Metal Ruadh Stonecrusher build", "Tears of Metal emblem synergy build", "Tears of Metal build guide"]
+related: ["wallace-build-guide", "brienne-build-guide", "ruadh-build-guide", "heroes-tier-list", "emblem-artifact-guide", "weapon-merge-guide", "co-op-guide"]
 ---
 
 # Tears of Metal Best Builds — Wallace, Brienne, and Ruadh Stonecrusher
 
-> **Early Access v1.0 / Updated: August 1, 2026**
+> **Early Access / Updated: August 11, 2026**
 
 **Naming note first:** Tears of Metal's launch roster is **Wallace (longsword), Brienne (unarmed fast attacks), and Ruadh Stonecrusher (giant hammer)**. Older versions of this guide used "Vanguard," "Berserker," and "Marksman" — those heroes do not exist in the game. This page uses the real roster.
+
+> **Values caveat:** artifact names and stat values in the tables below are community-reported and unverified — exact numbers may differ in current builds. Treat them as directional guidance, not official data.
 
 Every hero in Tears of Metal can be built in multiple ways, but some combinations of artifacts, emblems, and weapons consistently outperform others. This guide covers three proven builds — one for each hero — plus how they fit together in co-op.
 
@@ -60,15 +63,15 @@ The longsword is Wallace's signature weapon — balanced reach, damage, and the 
 
 ---
 
-## Build 2: Dragon Stone Elemental (Brienne)
+## Build 2: Fire & Per-Hit (Brienne)
 
-The Dragon Stone build converts Brienne's blistering attack speed into sustained fire damage. The Dragon Stone emblem converts a portion of your damage to fire and applies a burn effect — and no hero applies it faster than Brienne.
+The Fire build converts Brienne's blistering attack speed into sustained burn damage. The Fire emblem applies a burn effect on hit — and no hero applies it faster than Brienne.
 
 ### Recommended Artifacts
 
 | Artifact | Rarity | Effect | Why It Works |
 |----------|--------|--------|--------------|
-| Dragon Stone Fragment | Rare | +30% fire damage, attacks apply burn | Core of the build |
+| Fire-catalyst artifact (community-reported names vary) | Rare | +fire damage, attacks apply burn | Core of the build |
 | Ember-Touched Bracers | Uncommon | +20% attack speed while burning | Synergizes with burn uptime |
 | Obsidian Edge | Rare | +18% elemental damage | Boosts all elemental sources |
 | Phoenix Feather | Common | +15% fire resist, burn heals 2% HP/tick | Sustain in extended fights |
@@ -153,7 +156,7 @@ When playing in a team, here is how these builds interact:
 | Build | Role | Synergizes With | Avoid Pairing With |
 |-------|------|-----------------|-------------------|
 | Pure Physical Wallace | Anchor/tank | Ruadh (stagger while Wallace holds aggro) | Nothing — he fits every comp |
-| Dragon Stone Brienne | Melee DPS | Wallace (holds enemies still for burn stacking) | Sending her in without a front line |
+| Fire & Per-Hit Brienne | Melee DPS | Wallace (holds enemies still for burn stacking) | Sending her in without a front line |
 | Stagger & Emblem Ruadh | Boss damage/CC | Anyone — stagger is universally useful | Over-committing two Ruadh players to the same lane |
 
 For the best co-op experience, run: **1 Wallace (anchor) + 1 Brienne (pressure) + 1 Ruadh (stagger) + 1 flex** (a second Wallace or Brienne works best).
@@ -180,5 +183,5 @@ See our [Co-op Guide](/guides/co-op-guide) for detailed team compositions and ro
 - [Ruadh Stonecrusher Build Guide](/guides/ruadh-build-guide) — deep dive on the hammer stagger machine
 - [Heroes Tier List: Best Classes Ranked](/guides/heroes-tier-list)
 - [Emblem & Artifact Guide: Complete Reference](/guides/emblem-artifact-guide)
-- [Weapon Upgrade Guide: Merge System Explained](/guides/weapon-upgrade-guide)
+- [Weapon Merge Guide: Reinforced Tiers and AP](/guides/weapon-merge-guide)
 - [Co-op Guide: Team Composition and Strategy](/guides/co-op-guide)

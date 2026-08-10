@@ -2,8 +2,8 @@
 title: 'Solo Guide — How to Survive Alone in Grain Rot'
 description: 'Can you play Grain Rot solo? Yes — single-player is confirmed. This guide covers solo play: sound discipline, risk management, loadout logic, extraction alone, and how solo differs from co-op.'
 category: 'Beginner'
-version: 'Pre-release'
-updated: '2026-08-01'
+version: '1.0'
+updated: '2026-08-11'
 keywords: ['grain rot solo', 'grain rot single player', 'grain rot solo guide', 'grain rot solo tips', 'grain rot how to play alone']
 related: ['stealth-sound-guide', 'player-count-guide', 'extraction-guide', 'co-op-guide', 'demo-guide']
 ---
@@ -47,7 +47,7 @@ With no squad to split the danger, the risk rules get simpler and stricter:
 
 ## Solo Loadout Logic
 
-No verified vessel or construct names exist pre-launch, but the confirmed framework gives clear priorities for a solo build:
+No verified vessel or construct names exist as of this writing, but the confirmed framework gives clear priorities for a solo build:
 
 - **Durability first.** Your vessel is your only body — it "splinters, collapses, and catches fire." Survival stats beat flashy abilities.
 - **Speed second.** Fast movement = faster scavenging, faster extraction, faster escape. Speed is the solo player's best defense.
@@ -75,7 +75,7 @@ The extraction is the hardest solo moment — no one holds the elevator door whi
 - **Solo:** quieter, more methodical, pure horror, full loot share, no coordination. Slower economy; every mistake is fatal.
 - **Co-op:** faster, chaotic, safer extraction insurance (one survivor banks the haul), shared Outpost. Requires communication and tolerating the confirmed griefing mechanics.
 
-Many players do both: solo for farming and learning, co-op for deep runs. The demo lets you test either before August 7.
+Many players do both: solo for farming and learning, co-op for deep runs. The demo lets you test either playstyle for free.
 
 ## Related Guides
 

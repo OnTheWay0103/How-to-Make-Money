@@ -7,7 +7,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'All Guides',
   description:
-    'Complete The Relic: First Guardian guide collection — weapon classes, builds, boss strategies, EX-Mod crafting, progression tips, and more.',
+    'Complete The Relic: First Guardian guide collection — weapon families, builds, boss strategies, progression tips, and more.',
 };
 
 export default function GuidesPage() {

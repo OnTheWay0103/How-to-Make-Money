@@ -2,12 +2,15 @@
 title: "Tears of Metal Heroes Tier List — Wallace, Brienne & Ruadh Stonecrusher Ranked"
 description: "Tears of Metal hero tier list for the real launch roster: Wallace (longsword), Brienne (unarmed fast attack), and Ruadh Stonecrusher (giant hammer). Best hero for solo, co-op roles, skill floor, and which hero new players should pick."
 keywords: ["Tears of Metal best hero", "Tears of Metal hero tier list", "Tears of Metal Wallace build", "Tears of Metal Brienne", "Tears of Metal Ruadh Stonecrusher", "which hero should I play Tears of Metal"]
-updated: "2026-08-01"
+category: "Heroes"
+version: "Early Access"
+updated: "2026-08-11"
+related: ["best-builds", "boss-guide", "character-unlock-guide", "threat-level-difficulty-guide", "patch-notes"]
 ---
 
 # Tears of Metal Heroes Tier List — Wallace, Brienne & Ruadh Stonecrusher Ranked
 
-> **Applies to Early Access v1.0 / Updated: August 1, 2026**
+> **Applies to Early Access / Updated: August 11, 2026**
 
 **Correction first:** Tears of Metal launches with **three real heroes — Wallace (longsword), Brienne (unarmed fast attacks), and Ruadh Stonecrusher (giant hammer)**. Early guides (including this site's older pages) described "Vanguard," "Berserker," and "Marksman" — those names don't exist in the game, and searching them was unreachable. This page uses the real roster.
 
@@ -118,4 +121,4 @@ Yes — EA balance shifts fast. We version-stamp this page and update after majo
 - [Threat Level & Difficulty Guide](/guides/threat-level-difficulty-guide) — why late game is brutal and how to survive it
 - [Best Builds](/guides/best-builds) — artifact/emblem combos
 - [Boss Guide](/guides/boss-guide) — Gilles the Hog, Iseult the Banshee and more
-- [Patch Notes & Roadmap](/guides/patch-notes) — the 10万-sales update and planned heroes
+- [Patch Notes & Roadmap](/guides/patch-notes) — the 100K-sales milestone and planned heroes

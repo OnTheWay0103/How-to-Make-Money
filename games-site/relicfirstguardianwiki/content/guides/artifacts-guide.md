@@ -3,7 +3,7 @@ title: "Artifacts & Unique Equipment — One-of-a-Kind Gear Explained"
 description: "Artifacts and unique equipment in The Relic: First Guardian. Every weapon and armor piece is unique — no duplicate drops, item history, and Drawbacks. How the system works and what is unconfirmed."
 category: "Guides"
 version: "1.0"
-updated: "2026-08-01"
+updated: "2026-08-11"
 keywords: ["relic first guardian artifacts", "relic first guardian equipment", "relic first guardian unique items", "relic first guardian gear", "relic first guardian drawbacks", "relic first guardian armor"]
 related: ["builds-guide", "runes-guide", "weapons-guide", "upgrade-system"]
 ---

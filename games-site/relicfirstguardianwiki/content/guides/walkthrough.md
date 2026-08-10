@@ -3,9 +3,9 @@ title: "Walkthrough — Main Story & Progression (Confirmed Structure)"
 description: "Walkthrough for The Relic: First Guardian's main story. The confirmed premise, the 6 confirmed regions, how progression works without levels, and what is still unconfirmed about the critical path."
 category: "Guides"
 version: "1.0"
-updated: "2026-08-01"
+updated: "2026-08-11"
 keywords: ["relic first guardian walkthrough", "relic first guardian story guide", "relic first guardian main quest", "relic first guardian progression", "relic first guardian regions", "relic first guardian arsiltus"]
-related: ["boss-guide", "beginner-guide", "all-bosses-list", "release-date-platforms"]
+related: ["boss-strategies", "beginner-guide", "all-bosses-list", "release-date-platforms"]
 ---
 
 # Walkthrough — Main Story & Progression
@@ -68,7 +68,7 @@ A practical walkthrough mindset: **exploration is the walkthrough**. The critica
 
 ## What Is Unconfirmed About the Critical Path
 
-Be honest with yourself when reading other sites: as of August 1, 2026, the following have **no verified source**:
+Be honest with yourself when reading other sites: as of this writing (August 2026), the following have **no verified source**:
 
 - The number of mandatory (story) bosses and their order
 - Named chapters, quests, or key items on the critical path
@@ -113,7 +113,7 @@ A: **Unconfirmed** — no official source has confirmed NG+.
 
 ### Related Guides
 
-- [Boss Guide](/guides/boss-guide) — How the Brutals gate your progress
+- [Boss Strategies](/guides/boss-strategies) — How the Brutals gate your progress
 - [Beginner Guide](/guides/beginner-guide) — First hours and the starting loop
 - [All Bosses List](/guides/all-bosses-list) — The roster you will meet along the path
 - [Release Date & Platforms](/guides/release-date-platforms) — The game at launch

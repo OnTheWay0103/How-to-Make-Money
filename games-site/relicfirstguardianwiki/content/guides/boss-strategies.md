@@ -3,9 +3,9 @@ title: "Boss Strategies — Parry Chains, Unblockable Tells & Build Swapping"
 description: "Advanced boss strategies for The Relic: First Guardian. Parry-gate vs dodge-gate Brutals, up-to-15-hit parry chains, unblockable tells, relic loadout swapping, and honest notes on what is unconfirmed."
 category: "Guides"
 version: "1.0"
-updated: "2026-08-01"
+updated: "2026-08-11"
 keywords: ["relic first guardian boss strategies", "relic first guardian advanced boss tactics", "relic first guardian parry boss", "relic first guardian unblockable attacks", "relic first guardian dodge timing", "relic first guardian build swapping"]
-related: ["boss-guide", "combat-guide", "all-bosses-list", "builds-guide"]
+related: ["combat-guide", "all-bosses-list", "builds-guide"]
 ---
 
 # Boss Strategies — Parry Chains, Unblockable Tells & Build Swapping
@@ -27,13 +27,35 @@ Official descriptions and launch reviews agree on how bosses are designed:
 
 ---
 
+## The Confirmed Rules of Every Boss Fight
+
+These mechanics are confirmed by official descriptions and launch reviews, and they apply across the entire roster:
+
+### 1. Stamina Is for Defense Only
+
+Attacks cost **zero stamina** in this game. Stamina is reserved for dodging, blocking, and parrying. In a boss fight this means:
+
+- **Never stop attacking when you are safe** — offense costs nothing.
+- **Guard your stamina bar like a health bar** — every dodge and parry drains it, and being caught empty against a boss combo is usually fatal.
+- Exact costs are **unconfirmed** — ignore guides that quote precise per-action stamina numbers.
+
+### 2. Enemies Rarely Stagger — So Do Not Wait for It
+
+Unlike many soulslikes, regular enemies and many bosses **rarely stagger** and have **no visible stagger bar**. You cannot count on stun-locking a Brutal with a few heavy hits. Openings are created by **parries** and by **dodging through combos**, not by stagger fishing. Boss fights are marathons of small openings.
+
+### 3. Boss Rewards Are Progression
+
+Brutals drop **powerful special items and upgrades essential for progression** — plus **Relic Energy**, the currency for buying weapon skills. Fighting bosses is not optional side content; it is the main way you grow stronger.
+
+---
+
 ## Parry-Gate Tactics: Breaking Guard, Then Bursting
 
 ### The Parry Chain
 
 For parry-gate bosses, the fight is a two-phase loop:
 
-1. **Chain phase** — land consecutive parries to fill the boss's guard meter. Reviews confirm chains can run **up to 15 parries long**. Each parry must be deliberate: parry the attack that is coming, not a rhythm you assume.
+1. **Chain phase** — land consecutive parries to fill the boss's guard meter. Reviews report chains can run **long (one review cited up to 15 parries; exact counts are unverified)**. Each parry must be deliberate: parry the attack that is coming, not a rhythm you assume.
 2. **Window phase** — once the guard breaks, the boss is staggered and open. This is your damage window — use your highest-damage skills, since skills run on cooldowns, not resources.
 
 ### Parry Chain Tips
@@ -61,6 +83,8 @@ Some Brutals use attacks that **cannot be blocked or parried** — the game forc
 
 1. **Dodge through, not away** — dodging into an attack's recovery keeps you in range for the punish.
 2. **One dodge per attack** — panic-rolling drains the stamina you need for the next unblockable.
+3. **Track your stamina mid-combo** — against dodge-gate bosses, stamina is life. Never enter a combo at low stamina.
+4. **Punish recovery, not windup** — the safest damage is after the attack resolves.
 
 ### AoE Instant-Kill Attacks (Roars, Shockwaves)
 
@@ -81,8 +105,20 @@ Several community members have reported bosses with **roar or shockwave attacks 
 4. **Unconfirmed per boss**: exact roar timing, damage values, and whether any relics provide AoE damage reduction have not been independently verified. Apply the principles above and adjust per fight.
 
 > **Design note**: AoE insta-kills in soulslikes are a deliberate gate-check — they test your ability to read the "big attack" windup and create distance. They feel unfair until you learn the tell, at which point they become the most punishable attack in the boss's kit because of the long recovery.
-3. **Track your stamina mid-combo** — against dodge-gate bosses, stamina is life. Never enter a combo at low stamina.
-4. **Punish recovery, not windup** — the safest damage is after the attack resolves.
+
+---
+
+## A General Boss-Fight Loop
+
+Until per-boss guides are documented, follow this loop for every Brutal:
+
+1. **Scout the arena** — note pillars, elevation, and hazards before engaging. (Arena design rewards positioning.)
+2. **Identify the gate type** — throw a probe attack; if your block/parry is punished, it is a dodge-gate fight.
+3. **Learn one combo at a time** — the roster's variety means no two bosses play alike; die deliberately to catalog moves.
+4. **Spend your stamina only on the correct defense** — dodge unblockables, parry parryable chains, never panic-roll.
+5. **Attack only during real openings** — since enemies rarely stagger, one or two hits per opening is the sustainable rhythm.
+6. **Swap relics and gear between attempts** — adapt the build, not just the timing.
+7. **Heal smart** — potion capacity is limited until you collect Shards of Esser (see the [Upgrade System guide](/guides/upgrade-system)); heal during guaranteed-safe windows only.
 
 ---
 
@@ -98,6 +134,17 @@ The Relic: First Guardian is explicitly designed around adapting your build **be
 
 ---
 
+## Preparing for a Brutal: Checklist
+
+- [ ] Relic loadout tuned to the fight (swappable anytime)
+- [ ] Weapons forged at the blacksmith to a decent level
+- [ ] Potion capacity expanded with Shards of Esser where found
+- [ ] Skill tree nodes bought with Relic Energy (HP/stamina nodes first)
+- [ ] Identified whether the fight is parry-gate or dodge-gate
+- [ ] Arena scouted for cover and hazards
+
+---
+
 ## The Unconfirmed Zone (Read Before Trusting Any Guide)
 
 At launch, the following are **not confirmed** — guides that state them confidently are speculative:
@@ -108,6 +155,9 @@ At launch, the following are **not confirmed** — guides that state them confid
 - Boss drop tables with named relics or artifacts
 - NG+ boss remixes or superbosses
 - Any co-op-based boss tactics (there is no co-op)
+- **"Bosses have recommended levels"** — the game has no levels; any level-based advice is fabricated
+- **"Chain-stagger the boss with heavy attacks"** — enemies rarely stagger; this strategy is unconfirmed
+- **"Use the 'X' rune, dropped by boss Y"** — specific rune drop tables are not documented
 
 **How to use this guide**: apply the confirmed archetype logic above to any boss you meet. When the community documents specific fights, updated per-boss sections will replace this general framework.
 
@@ -116,7 +166,7 @@ At launch, the following are **not confirmed** — guides that state them confid
 ## Advanced Tips Checklist
 
 1. Identify parry-gate vs dodge-gate in the first 30 seconds
-2. For parry-gate: commit to the full chain (up to 15 parries), then burst with skills
+2. For parry-gate: commit to the full parry chain, then burst with skills
 3. For dodge-gate: learn the unblockable tells; dodge through; punish recovery
 4. Never waste stamina on the wrong defense
 5. Swap relic loadouts between attempts — it is the intended loop
@@ -126,11 +176,11 @@ At launch, the following are **not confirmed** — guides that state them confid
 
 ---
 
-## Community Spotlight: Areiden Mad Paladin
+## Community Spotlight: Arden, the Mad Vindicator
 
 > **Confirmed**: The Relic: First Guardian features 70+ Brutal bosses with parry-gate and dodge-gate archetypes. Attacks cost zero stamina — stamina is reserved for dodging, blocking, and parrying.
 
-Players have reported specific difficulty with **Areiden Mad Paladin**. Based on the game's confirmed combat mechanics, here is the known advice:
+Players have reported specific difficulty with **Arden, the Mad Vindicator** (also reported under community-garbled names — a fast, hard-hitting boss who inflicts Curse and uses red-tinted unblockable attacks). Based on the game's confirmed combat mechanics, here is the known advice:
 
 ### Curse Mechanic (Status Effect)
 
@@ -155,7 +205,7 @@ Players have reported specific difficulty with **Areiden Mad Paladin**. Based on
 | Parry chains of up to 15 hits are required for parry-gate bosses | Confirmed (launch reviews) |
 | Swap Relics between attempts to counter specific status effects | Confirmed game system |
 
-> **Note**: Per-boss pattern guides are still being documented by the community. The advice above applies the game's confirmed mechanics to this specific fight. Specific damage values, curse buildup thresholds, and frame data for Areiden Mad Paladin are not yet independently verified.
+> **Note**: Per-boss pattern guides are still being documented by the community. The advice above applies the game's confirmed mechanics to this specific fight. Specific damage values, curse buildup thresholds, and frame data for Arden, the Mad Vindicator are not yet independently verified.
 
 ---
 
@@ -176,11 +226,19 @@ A: **Unconfirmed** — no verified elemental weakness system has been documented
 **Q: Can I change my build mid-fight?**
 A: Relics are swappable at rest points; mid-fight swapping is unconfirmed. Between fights, everything is changeable.
 
+**Q: What is the first boss?**
+A: The game's opening boss is **unconfirmed by name** — guides naming a "tutorial boss" are speculative. The opening region is a ruined/burning area per the game's confirmed region list.
+
+**Q: Are bosses too hard?**
+A: Reviews are split — some critics found fights engaging, others described damage-sponge bosses and technical problems (freezing bosses, camera issues, frame drops). The game's difficulty is real, but so are its build-adaptation tools.
+
+**Q: Do I lose progress when I die?**
+A: **Unconfirmed** — no reliable source documents the death penalty. Soulslikes commonly have some loss on death, but treat specific claims as unverified until documented.
+
 ---
 
 ### Related Guides
 
-- [Boss Guide](/guides/boss-guide) — General Brutal-fighting principles
-- [Combat Guide](/guides/combat-guide) — The parry and stamina systems in depth
 - [All Bosses List](/guides/all-bosses-list) — The roster: confirmed vs unconfirmed
+- [Combat Guide](/guides/combat-guide) — The parry and stamina systems in depth
 - [Best Builds Guide](/guides/builds-guide) — Loadouts to swap between fights

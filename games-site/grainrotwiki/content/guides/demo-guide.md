@@ -1,16 +1,16 @@
 ---
 title: 'Demo Guide — Complete Grain Rot Demo Content & What It Teaches'
-description: 'Everything confirmed about the free Grain Rot demo: 3 underground biomes, 9 enemy types, 20+ unlockable constructs, upgradeable Outpost rooms, dungeon modifiers — and what the demo teaches before the August 7 launch.'
+description: 'Everything confirmed about the free Grain Rot demo: 3 underground biomes, 9 enemy types, 20+ unlockable constructs, upgradeable Outpost rooms, dungeon modifiers — and what the demo teaches you about the full game.'
 category: 'Game Info'
-version: 'Pre-release'
-updated: '2026-08-01'
+version: '1.0'
+updated: '2026-08-11'
 keywords: ['grain rot demo', 'grain rot demo guide', 'grain rot demo content', 'grain rot demo progression', 'grain rot free demo', 'grain rot steam next fest']
 related: ['beginner-guide', 'release-date-faq', 'all-biomes-guide', 'all-enemies-guide', 'player-count-guide']
 ---
 
 # Demo Guide — Complete Grain Rot Demo Content & What It Teaches
 
-The Grain Rot demo is free on Steam and live right now. Released **June 12, 2026**, it was one of the standout demos of the June Steam Next Fest — over **350,000 downloads**, one of the **Top 15 most-played demos** of the fest, and it helped push the game past **200,000 wishlists**. If you haven't played it yet, this guide tells you exactly what it contains, what it doesn't, and how to get the most out of it before the full game launches **August 7, 2026**.
+The Grain Rot demo is free on Steam. Released **June 12, 2026**, it was one of the standout demos of the June Steam Next Fest — over **350,000 downloads**, one of the **Top 15 most-played demos** of the fest, and it helped push the game past **200,000 wishlists**. The full game launched **August 7, 2026**, and the demo remains available — so if you haven't played it yet, this guide tells you exactly what it contains, what it doesn't, and how to get the most out of it.
 
 ## What's in the Demo (Confirmed)
 
@@ -30,23 +30,23 @@ The publisher's announcement confirms the demo contains:
 
 ## How Good Is the Demo?
 
-- **Very Positive** on Steam (roughly 81% positive from several hundred reviews at the time of writing).
-- **2,078 peak concurrent players** — a strong number for an indie demo.
-- Players report 5-10+ hours of content when chasing all unlocks, though individual mileage varies.
+- **Very Positive** on Steam.
+- One of the **Top 15 most-played demos** at the June 2026 Steam Next Fest, with **350,000+ downloads**.
+- Players report several hours of content when chasing all unlocks, though individual mileage varies.
 
 ## What the Demo Doesn't Have
 
 Honest expectations for the demo:
 
-- **No confirmed final content beyond the demo scope** — biomes, enemies, and constructs beyond the demo numbers are unannounced.
+- **No confirmed final content beyond the demo scope** — biomes, enemies, and constructs beyond the demo numbers are not fully documented.
 - **No confirmed endgame.** Deep Layers exist in the full game; demo depth is a sample.
-- **No price, consoles, or post-launch features** — the demo can't show what hasn't been announced.
+- **No consoles or post-launch features** — PC via Steam is the only announced platform, and no post-launch roadmap has been announced.
 
 ## Demo vs. Full Game: What Carries Over?
 
-**Demo progress is not expected to carry over to the full game.** The developers have not published an explicit carry-over statement, so treat the demo as a standalone experience: your unlocks reset, but your skill doesn't. Plan for a fresh start on August 7.
+**Demo progress did not carry over to the full game.** The demo is a separate standalone build — your unlocks stayed in the demo, and everyone started the full game fresh on August 7. Treat the demo as a standalone experience: your unlocks reset, but your skill doesn't.
 
-The demo's tuning also won't match launch: demo economies are typically more generous, and the full game will have more of everything. Your demo experience is a preview, not a save file.
+The demo's tuning also didn't match launch: demo economies are typically more generous, and the full game has more of everything. Your demo experience is a preview, not a save file.
 
 ## How to Get the Most Out of the Demo
 
@@ -84,8 +84,8 @@ Yes — free on Steam (search "GRAIN ROT Demo").
 ### Do I need friends to play it?
 No. Single-player is confirmed for the full game and works in the demo.
 
-### Will the demo remain available after launch?
-The demo is expected to remain on Steam after the game launches; exact delisting plans are unannounced.
+### Will the demo remain available?
+The demo remains on Steam as of this writing; any future delisting plans are unannounced.
 
 ### Does the demo contain spoilers for the full game?
 The demo samples the same systems and setting. Specific full-game content (story, endgame, bosses) is not confirmed to appear in the demo.

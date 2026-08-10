@@ -3,9 +3,9 @@ title: "Troubleshooting Guide — Crashes, Freezes, Save Issues & Performance Fi
 description: "How to fix common issues in The Relic: First Guardian. Map freezes, inventory freezes, save progress lost, crashes, FPS drops, and stutters on PS5 and PC."
 category: "Guides"
 version: "1.0"
-updated: "2026-08-10"
+updated: "2026-08-11"
 keywords: ["relic first guardian freezing", "relic first guardian map freeze", "relic first guardian inventory freeze", "relic first guardian save progress lost", "relic first guardian crashes", "relic first guardian fps fix", "relic first guardian stuck", "relic first guardian bug"]
-related: ["controls-settings-guide", "steam-pc-performance-guide", "release-date-platforms"]
+related: ["controls-settings-guide", "release-date-platforms"]
 ---
 
 # Troubleshooting Guide — Crashes, Freezes, Save Issues & Performance Fixes
@@ -44,7 +44,7 @@ This guide covers reported issues with The Relic: First Guardian. All confirmed 
 |----------|--------|
 | PS5 | Close game → restart console → relaunch. Some players report this happens more often after long play sessions (2+ hours) |
 | PC | Verify game files via Steam. If persistent, try lowering texture quality in Settings → Graphics — some players report the inventory freeze correlates with high VRAM usage |
-| All | Save at a checkpoint/bonfire before opening inventory. If you freeze, you only lose progress since the last save |
+| All | Save at a Tibelle's Blessing checkpoint stone before opening inventory. If you freeze, you only lose progress since the last save |
 
 ---
 
@@ -56,13 +56,13 @@ This guide covers reported issues with The Relic: First Guardian. All confirmed 
 
 | Cause | Solution |
 |-------|----------|
-| **Did not interact with checkpoint** | The game saves at checkpoint bonfires — you must manually interact with them. Passing near one does NOT save. Always light the bonfire. |
-| **Closed game during autosave** | Do not close the game immediately after a boss kill or cutscene. Wait 10-15 seconds for the save icon to disappear from the corner of the screen |
+| **Did not interact with checkpoint** | The game saves at Tibelle's Blessing checkpoint stones — you must manually interact with them. Passing near one does NOT save. Always interact with the stone. |
+| **Closed game during autosave** | Do not close the game immediately after a boss kill or cutscene. Wait a few seconds for the save icon to disappear from the corner of the screen |
 | **Corrupted save file (PS5)** | Go to Settings → Storage → Saved Data → The Relic: First Guardian → Delete and re-sync from cloud backup (if you have PS Plus) |
-| **Corrupted save file (PC)** | Navigate to `%USERPROFILE%\AppData\LocalLow\ProjectCloudGames\RelicFirstGuardian\` — back up the `Saves` folder, then verify game files via Steam |
+| **Corrupted save file (PC)** | Navigate to the community-reported save location (commonly `%USERPROFILE%\AppData\LocalLow\ProjectCloudGames\RelicFirstGuardian\` — the exact path is unconfirmed) — back up the `Saves` folder, then verify game files via Steam |
 | **Storage full** | Check that your console/PC has at least 500MB of free storage. If the disk is full, saves may fail silently |
 
-**Prevention**: After any major progress (boss kill, artifact found, area cleared), return to the nearest checkpoint bonfire and interact with it to force a manual save. Do not rely solely on autosave checkpoints.
+**Prevention**: After any major progress (boss kill, artifact found, area cleared), return to the nearest Tibelle's Blessing checkpoint stone and interact with it to force a manual save. Do not rely solely on autosave checkpoints.
 
 ---
 
@@ -83,8 +83,8 @@ This guide covers reported issues with The Relic: First Guardian. All confirmed 
 | Issue | Status | Workaround |
 |-------|--------|------------|
 | Map freeze | Reported by community | Use landmark navigation; save before opening map |
-| Inventory freeze | Reported by community (Aug 2026) | Save at bonfire before opening inventory; lower textures on PC |
-| Save progress lost | Reported by community | Manual save at bonfire checkpoints; wait for save icon after cutscenes |
+| Inventory freeze | Reported by community (Aug 2026) | Save at a checkpoint stone before opening inventory; lower textures on PC |
+| Save progress lost | Reported by community | Manual save at checkpoint stones; wait for save icon after cutscenes |
 | Boss camera in tight spaces | Noted in launch reviews | Stay near center of arena |
 
 ---
@@ -101,7 +101,6 @@ If the workarounds above do not help, report the issue directly to the developer
 ## Related Guides
 
 - [Controls & Settings Guide](/guides/controls-settings-guide)
-- [Steam PC Performance Guide](/guides/steam-pc-performance-guide)
 - [Checkpoint & Bonfire Guide](/guides/checkpoint-bonfire-guide)
-- [How to Increase Health](/guides/how-to-increase-health)
-- [Survival & Healing Guide](/guides/survival-healing-guide)
+- [How to Increase Health & Survivability](/guides/how-to-increase-health)
+- [Release Date & Platforms Guide](/guides/release-date-platforms)

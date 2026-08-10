@@ -2,37 +2,38 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Heroes Tier List',
-  description: 'Tears of Metal heroes tier list — Vanguard, Berserker, and Marksman ranked for solo play, boss damage, co-op utility, and ease of use. S-tier to B-tier rankings.',
+  description: 'Tears of Metal heroes tier list — Wallace, Brienne, and Ruadh Stonecrusher ranked for solo play, boss damage, co-op utility, and ease of use. S-tier to B-tier rankings.',
 };
 
 const OVERALL_TIERS = [
-  { tier: 'S', heroes: ['Vanguard'], note: 'Best solo hero, forgiving playstyle, excellent crowd control, shield blocks most damage. Top pick for beginners and experienced players alike.' },
-  { tier: 'A', heroes: ['Berserker'], note: 'Highest DPS in the game, melts bosses, but extremely fragile. Requires good positioning and dodge timing. Rewards aggressive play.' },
-  { tier: 'B', heroes: ['Marksman'], note: 'Essential ranged DPS in co-op due to safe positioning and consistent damage. Weak solo — struggles with mob density and boss aggro.' },
+  { tier: 'S', heroes: ['Wallace'], note: 'Best all-rounder and solo carry. Balanced damage, the most forgiving block/parry timing, and no bad matchups. Top pick for beginners and experienced players alike.' },
+  { tier: 'A', heroes: ['Ruadh Stonecrusher'], note: 'Highest single-hit damage and the best stagger in the game, which shuts down boss patterns. Slow wind-ups punish positioning mistakes.' },
+  { tier: 'B', heroes: ['Brienne'], note: 'Fastest attack rate and the best per-hit emblem/artifact synergy, but the highest skill floor of the three heroes. Her short range makes swarms dangerous.' },
 ];
 
 const SOLO_TIERS = [
-  { tier: 'S', heroes: ['Vanguard'], note: 'Shield and self-sustain make solo expeditions manageable. Can handle any enemy composition.' },
-  { tier: 'A', heroes: ['Berserker'], note: 'Fast clear speed if you can avoid damage. Risky but rewarding — one mistake can end the run.' },
-  { tier: 'B', heroes: ['Marksman'], note: 'Viable but slow. Kiting is essential and requires large open areas. Tight corridors are deadly.' },
+  { tier: 'S', heroes: ['Wallace'], note: 'Defense-first kit and forgiving timing make solo expeditions manageable. Can handle any enemy composition.' },
+  { tier: 'A', heroes: ['Ruadh Stonecrusher'], note: 'Boss-rush specialist — stagger chains win fights, but slow wind-ups are punished hard on elite-heavy maps.' },
+  { tier: 'B', heroes: ['Brienne'], note: 'Viable but demanding. Kiting and repositioning are essential; her short range leaves no margin for error.' },
 ];
 
 const COOP_TIERS = [
-  { tier: 'S', heroes: ['Vanguard', 'Marksman'], note: 'Vanguard holds aggro while Marksman deals safe damage from range. The ultimate co-op duo.' },
-  { tier: 'A', heroes: ['Berserker'], note: 'Berserker shreds bosses when the tank holds aggro. Needs a dedicated Vanguard or careful positioning.' },
+  { tier: 'S', heroes: ['Wallace'], note: 'The frontline anchor — holds aggro and chokepoints while teammates flank. Never the weak link in a 4-stack.' },
+  { tier: 'A', heroes: ['Ruadh Stonecrusher'], note: 'Stagger duty is universally useful — interrupt captains and bosses while the team deals damage.' },
+  { tier: 'A', heroes: ['Brienne'], note: 'Safe pressure DPS — constant per-hit effects while Wallace and Ruadh control the fight.' },
 ];
 
 const BEGINNER_TIERS = [
-  { tier: 'Best', heroes: ['Vanguard'], note: 'Shield, high HP, forgiving timing. Learn enemy patterns without dying repeatedly.' },
-  { tier: 'Good', heroes: ['Berserker'], note: 'Fast expeditions when you master dodge timing. Great for learning boss patterns.' },
-  { tier: 'Avoid First', heroes: ['Marksman'], note: 'Requires good kiting and map awareness. Play Vanguard first to learn the game.' },
+  { tier: 'Best', heroes: ['Wallace'], note: 'Most forgiving defensive timing, no bad matchups. Learn enemy patterns without dying to a single mistake.' },
+  { tier: 'Good', heroes: ['Ruadh Stonecrusher'], note: 'Medium difficulty — great burst once you learn wind-up timing. Bait, then punish.' },
+  { tier: 'Avoid First', heroes: ['Brienne'], note: 'Highest skill floor in the game. Play Wallace first to learn the fundamentals.' },
 ];
 
 export default function TierListPage() {
   return (
     <div className="max-w-3xl mx-auto px-4 py-12">
       <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">Heroes Tier List</h1>
-      <p className="text-gray-400 mb-2">Tears of Metal hero rankings for Early Access (July 22, 2026). Based on community feedback and gameplay analysis.</p>
+      <p className="text-gray-400 mb-2">Tears of Metal hero rankings for Early Access. Based on community feedback and gameplay analysis.</p>
       <div className="inline-flex items-center gap-1 text-xs font-medium px-2 py-0.5 rounded bg-amber-900/30 text-amber-400 border border-amber-800/50 mb-8">Early Access — subject to balance changes</div>
 
       <section className="mb-10">
@@ -76,10 +77,11 @@ export default function TierListPage() {
       <div className="bg-[#1a1a3e] border border-[#2a2a5e] rounded-lg p-5">
         <h3 className="text-white font-semibold mb-2">A Note on Tier Lists</h3>
         <p className="text-gray-400 text-sm leading-relaxed">
-          Tears of Metal launched in Early Access on July 22, 2026. All three heroes are viable
-          in their intended roles — tier rankings reflect general effectiveness and ease of use,
-          not absolute power. Play the hero whose playstyle you enjoy most. Build and emblem
-          choices can significantly impact performance.
+          Tears of Metal is in Early Access. All three heroes — Wallace, Brienne, and
+          Ruadh Stonecrusher — are viable in their intended roles. Tier rankings reflect
+          general effectiveness and ease of use, not absolute power. Play the hero whose
+          playstyle you enjoy most. Build and emblem choices can significantly impact
+          performance.
         </p>
       </div>
     </div>

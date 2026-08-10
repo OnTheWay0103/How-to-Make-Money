@@ -2,17 +2,17 @@
 title: "Tears of Metal Wiki — Complete Guide Hub for Paper Cult's Scottish Action Roguelike"
 description: "The ultimate community wiki for Tears of Metal by Paper Cult. Find hero builds, emblem guides, boss strategies, village upgrades, co-op tips and more for this Scottish action roguelike."
 category: "Home"
-version: "1.0"
-updated: "2026-08-01"
+version: "Early Access"
+updated: "2026-08-11"
 keywords: ["Tears of Metal", "Tears of Metal wiki", "Paper Cult", "Scottish action roguelike", "Tears of Metal guide", "Tears of Metal Early Access"]
-related: ["beginner-guide", "best-builds", "heroes-tier-list", "wallace-build-guide", "brienne-build-guide", "ruadh-build-guide", "boss-guide", "corruption-guide", "equipment-guide", "village-upgrade-guide", "emblem-artifact-guide", "co-op-guide", "battalion-companion-guide", "weapon-upgrade-guide", "progression-walkthrough"]
+related: ["beginner-guide", "best-builds", "heroes-tier-list", "wallace-build-guide", "brienne-build-guide", "ruadh-build-guide", "boss-guide", "corruption-guide", "equipment-guide", "village-upgrade-guide", "emblem-artifact-guide", "co-op-guide", "battalion-companion-guide", "weapon-merge-guide", "progression-walkthrough"]
 ---
 
 # Tears of Metal Wiki — Complete Guide Hub
 
 **Your complete guide to Paper Cult's Scottish action roguelike. Everything you need to conquer the corrupted highlands.**
 
-Tears of Metal launched on July 22, 2026 on Steam Early Access at $24.99, with a 92% positive rating and a peak of 4,000 concurrent players. This wiki covers all core systems, builds, bosses, and strategies for the Early Access launch version. Whether you are clearing Act 1 as Wallace or running a 4-player co-op squad, you will find practical, tested information here.
+Tears of Metal launched on July 22, 2026 on Steam Early Access at $24.99, with a ~87% "Very Positive" rating and a peak of roughly 4,500 concurrent players. This wiki covers all core systems, builds, bosses, and strategies for the Early Access launch version. Whether you are clearing Act 1 as Wallace or running a 4-player co-op squad, you will find practical, tested information here.
 
 ---
 
@@ -36,7 +36,7 @@ Tears of Metal launched on July 22, 2026 on Steam Early Access at $24.99, with a
 | [Emblem & Artifact Guide](/guides/emblem-artifact-guide) | Synergy systems | Advanced |
 | [Co-op Guide](/guides/co-op-guide) | Team play | Starter |
 | [Battalion & Companion Guide](/guides/battalion-companion-guide) | Unit management | Advanced |
-| [Weapon Upgrade Guide](/guides/weapon-upgrade-guide) | Weapon progression | Intermediate |
+| [Weapon Merge Guide](/guides/weapon-merge-guide) | Weapon progression | Intermediate |
 | [Progression Walkthrough](/guides/progression-walkthrough) | Full game path | Advanced |
 
 ---
@@ -56,19 +56,19 @@ Deep dives on each launch hero: [Wallace (longsword)](/guides/wallace-build-guid
 Full boss walkthroughs for all three acts — including the verified bosses Gilles the Hog and Iseult the Banshee. Attack patterns, Threat Level pressure, and co-op strategies. [Master the bosses ->](/guides/boss-guide)
 
 ### Village Upgrade Guide
-The fastest path to unlocking the Smithy, Apothecary, and Mystic Altar. Upgrade priority order and gold-farming strategies. [Plan your upgrades ->](/guides/village-upgrade-guide)
+The fastest path to unlocking the Smithy, Apothecary, and Mystic Altar. Upgrade priority order and triskelle-farming strategies. [Plan your upgrades ->](/guides/village-upgrade-guide)
 
 ---
 
 ## What is Tears of Metal?
 
-Tears of Metal is a 4-player cooperative action roguelike hack-and-slash developed by Paper Cult, set in a dark Scottish fantasy world. Released on July 22, 2026 in Early Access on Steam, the game combines fast-paced combat with deep progression systems inspired by Scottish folklore and industrial-revolution aesthetics.
+Tears of Metal is a 4-player cooperative action roguelike hack-and-slash developed by Paper Cult, set in a dark Scottish fantasy world. Released on July 22, 2026 in Early Access on Steam, the game combines fast-paced combat with deep progression systems inspired by Scottish folklore and medieval combat.
 
-You choose from three unique heroes — **Wallace (longsword)**, **Brienne (unarmed fast attacks)**, or **Ruadh Stonecrusher (giant hammer)** — and lead procedurally generated Scottish soldiers (your Battalion) through three distinct acts: the Scottish Coast, the Mining Complex, and the Corruption Zone. Between expeditions, you return to the Village Hub to upgrade buildings, forge weapons, and prepare for harder runs.
+You choose from three unique heroes — **Wallace (longsword)**, **Brienne (unarmed fast attacks)**, or **Ruadh Stonecrusher (giant hammer)** — and lead procedurally generated Scottish soldiers (your Battalion) through three distinct acts: the Scottish Coast, an unnamed mid-campaign region, and the Corruption Zone (The Scar). Between expeditions, you return to the Village Hub to upgrade buildings, forge weapons, and prepare for harder runs.
 
 ### Key Features
 
-- **100+ Artifacts** — Equippable items with passive bonuses and synergy effects that define your build
+- **A large artifact pool** — Equippable items with passive bonuses and synergy effects that define your build
 - **18 Emblems** — Elemental damage types (Lightning, Freeze, Fire, Corruption, and more) that combine for powerful synergies
 - **3 Unique Heroes** — Wallace (longsword all-rounder), Brienne (unarmed speedster), Ruadh Stonecrusher (giant hammer, stagger king)
 - **Village Hub** — Permanent progression through Armory, Recruitment Tent, Apothecary, Smithy, and Mystic Altar
@@ -82,7 +82,7 @@ You choose from three unique heroes — **Wallace (longsword)**, **Brienne (unar
 | Act | Location | Boss | Threat Level |
 |-----|----------|------|--------------|
 | Act 1 | Scottish Coast | Gilles the Hog | Low-Moderate |
-| Act 2 | Mining Complex | (name unconfirmed) | Moderate-High |
+| Act 2 | Mid-campaign region (unnamed) | (name unconfirmed) | Moderate-High |
 | Act 3 | Corruption Zone / The Scar | (name unconfirmed) | Very High |
 
 ---
@@ -90,7 +90,7 @@ You choose from three unique heroes — **Wallace (longsword)**, **Brienne (unar
 ## Key Systems at a Glance
 
 - **3 Heroes** — Wallace (longsword, balanced all-rounder), Brienne (unarmed, fastest attacks), Ruadh Stonecrusher (giant hammer, best stagger)
-- **100+ Artifacts** — Mix and match for passive bonuses; rarity affects power but synergy beats raw stats
+- **Large artifact pool** — Mix and match for passive bonuses; rarity affects power but synergy beats raw stats
 - **18 Emblems** — Lightning, Freeze, Fire, Corruption, Regen, Crit, and more — 2 emblems equipped at a time
 - **Threat Level** — Rises as you progress through each act, increasing enemy difficulty and rewards
 - **Permadeath** — Battalion soldiers die permanently; veterans with skills must be protected
@@ -102,9 +102,9 @@ You choose from three unique heroes — **Wallace (longsword)**, **Brienne (unar
 
 ## Quick Start Links
 
-- [Tears of Metal on Steam](https://store.steampowered.com/app/tears-of-metal)
+- [Tears of Metal on Steam](https://store.steampowered.com/search/?term=Tears+of+Metal)
 - [Paper Cult official website](https://www.papercult.com)
 
 ---
 
-*This wiki is community-maintained and reflects the Early Access launch version (1.0). Content will be updated as patches and updates are released by Paper Cult.*
+*This wiki is community-maintained and reflects the current Early Access version. Content will be updated as patches and updates are released by Paper Cult.*
