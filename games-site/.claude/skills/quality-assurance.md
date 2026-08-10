@@ -82,13 +82,52 @@ deep 模式: 审查目标站（或全站）所有 guide
 
 ### 2.2 模板残留检测
 
+#### A. 其他游戏名残留
+
 ```bash
 # 在目标站点目录执行
-grep -rn "SpiritVale\|Witchspire\|mistfall\|aincrad\|The Mound\|Skills & Raids\|Sephiria\|DinoBlade\|Tears of Metal\|MineGeon\|Mystralia\|Grain Rot\|DragonSword\|Dwarf Delve\|Lunarium\|Taival\|Vahrin\|Relic.*Guardian\|Graphite\|Shift.*Midnight\|Moonlight Peaks\|Bonehold\|Phantom Tower\|Ardent Wilds\|Go-Go Town\|Expeditions.*Samurai\|Delverium\|Low-Budget Repairs\|Big Walk" \
+grep -rn "SpiritVale\|Witchspire\|mistfall\|aincrad\|The Mound\|Skills & Raids\|Sephiria\|DinoBlade\|Tears of Metal\|MineGeon\|Mystralia\|Grain Rot\|DragonSword\|Dwarf Delve\|Lunarium\|Taival\|Vahrin\|Relic.*Guardian\|Graphite\|Shift.*Midnight\|Moonlight Peaks\|Bonehold\|Phantom Tower\|Ardent Wilds\|Go-Go Town\|Expeditions.*Samurai\|Delverium\|Low-Budget Repairs\|Big Walk\|Beast of Reincarnation\|ReStory\|Waterpark Simulator\|Nivalis Nights\|Iron Nest\|Echoes of Aincrad\|Echoes of Mystralia" \
   {site}/ --include="*.tsx" --include="*.ts" --include="*.md" | grep -v node_modules | grep -v "SITE_CONFIG.name"
 ```
 
 任何非本站游戏名的匹配 → 🔴 模板残留，阻断。
+
+#### B. 描述模板残留（2026-08-10 新增 — 18 站历史残留修复）
+
+以下短语是 The Mound 模板的遗留文本，不应出现在非 The Mound 站点：
+
+```bash
+# 检测通用模板描述残留
+grep -rn "cooperative PvE extraction horror\|cooperative extraction horror\|survive the horrors of the cursed jungle\|The Mound community" \
+  {site}/app/ --include="*.tsx" --include="*.ts" | grep -v node_modules
+```
+
+- `"cooperative PvE extraction horror game"` — 仅 The Mound 是此类型
+- `"survive the horrors of the cursed jungle"` — 仅 The Mound 场景描述
+- `"The Mound community"` — 仅 The Mound 社区名
+
+任何匹配（非 themoundwiki）→ 🔴 模板残留，阻断。
+
+#### C. 虚假工作室/发行商残留
+
+```bash
+# 检测 SpiritVale Studio 残留（非 spiritvalewiki 站点）
+grep -rn "SpiritVale Studio" \
+  {site}/app/ --include="*.tsx" --include="*.ts" | grep -v node_modules
+
+# 检测 NACON 残留（非 themoundwiki/spiritvalewiki 站点）
+grep -rn "published by NACON" \
+  {site}/app/ --include="*.tsx" --include="*.ts" | grep -v node_modules
+```
+
+- `"SpiritVale Studio"` — 仅 spiritvalewiki 合法
+- `"published by NACON"` — 仅 themoundwiki 合法（ACE Team + NACON）
+
+任何匹配（非例外站点）→ 🔴 模板残留，阻断。
+
+**例外站点清单**（这些站点可以包含对应的短语）：
+- themoundwiki: extraction horror / cursed jungle / The Mound community / NACON ✅
+- spiritvalewiki: SpiritVale Studio ✅
 
 ### 2.3 内部一致性（quick 模式做，deep 模式深度做）
 
