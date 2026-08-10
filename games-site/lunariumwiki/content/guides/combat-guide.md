@@ -12,10 +12,10 @@ keywords:
   - Lunarium combat tips
 related:
   - beginner-guide
-  - boss-mechanics
   - ave-build-guide
   - lune-guide
   - boss-guide
+  - equipment-guide
 ---
 
 # Lunarium Combat Guide — Parry, Dodge, Resonance & Lune
@@ -24,7 +24,7 @@ related:
 
 Lunarium's combat is built around a small set of mechanics: **parrying**, **dodging**, the **stagger bar**, and the shared **Resonance** gauge with **Lune** as your combat partner. This guide explains what's verified and marks what isn't.
 
-> **Correction note:** an earlier version of this guide invented specific numbers (RP costs, dodge stamina values, named Resonance skills like "Resonance Strike"). Those numbers are not published anywhere reliable and have been removed. We only present mechanics confirmed by walkthroughs and press coverage.
+> **Honest note:** exact numbers (RP costs, dodge stamina values, named Resonance skills like "Resonance Strike") are not published in any reliable source. This guide presents only mechanics confirmed by community walkthroughs and press coverage of the released game.
 
 ---
 
@@ -111,7 +111,7 @@ Exact bar values and decay rates are **unconfirmed**.
 ## Related Guides
 
 - [Beginner Guide](/guides/beginner-guide) — first-hour combat basics
-- [Boss Mechanics Guide](/guides/boss-mechanics) — how fights work mechanically
+- [Boss Guide](/guides/boss-guide) — boss mechanics and the full roster
 - [Ave Build Guide](/guides/ave-build-guide) — turning mechanics into a build
 - [Lune Guide](/guides/lune-guide) — your combat partner in depth
-- [Boss Guide — All Bosses](/guides/boss-guide) — putting it together
+- [Equipment Guide](/guides/equipment-guide) — cloaks, embroidery, and weapons

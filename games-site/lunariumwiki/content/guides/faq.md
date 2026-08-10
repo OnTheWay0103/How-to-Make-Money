@@ -84,7 +84,7 @@ A **shared gauge** between Ave and Lune built through combat. Reviews confirm Lu
 ## Technical Questions
 
 ### What are the system requirements?
-Official requirements are published on the Steam page. We don't reproduce them here because earlier versions of this FAQ included unverified specs — **check the Steam page for the current official minimum and recommended requirements.**
+Official minimum and recommended requirements are published on the Steam store page. Per the Steam store page, specs can change with updates — **check there for the current official minimum and recommended requirements.**
 
 ### Does Lunarium support Steam Deck?
 Not officially confirmed. Community testing is ongoing.

@@ -34,7 +34,7 @@ This page exists because "lunarium co op" and "lunarium multiplayer" are common 
 | Is there PvP? | **No.** No arena, no duels, no ranked play |
 | Is the game online-only? | No — it's a fully offline-capable single-player ARPG |
 
-This is confirmed by official sources: Lunarium is described consistently as a single-player experience, and press coverage describes Lune as an AI companion. The keyword file for this site itself notes the game "官方为单机（Lune 是 AI 同伴），无 co-op" — officially single-player, no co-op.
+This is confirmed by official sources: Lunarium is described consistently as a single-player experience, and press coverage describes Lune as an AI companion.
 
 ---
 

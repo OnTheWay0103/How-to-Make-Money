@@ -13,32 +13,32 @@ const FAQ_ITEMS = [
   {
     question: 'What is Dwarf Delve?',
     answer:
-      'Dwarf Delve is a first-person extraction roguelite developed by solo developer Gloom Box (Dante Knoxx) and published by indie.io. You play as a Delveling dwarf descending into procedurally generated mines to collect ores, treasures, and relics. The deeper you go, the richer the rewards — but if the tunnels collapse, you lose everything. It launches on Steam on July 27, 2026.',
+      'Dwarf Delve is a first-person extraction roguelite developed by solo developer Gloom Box (Dante Knoxx) and published by indie.io. You play as a Delveling dwarf descending into procedurally generated mines to collect ores, treasures, and relics. The deeper you go, the richer the rewards — but if the tunnels collapse, you lose everything. It released on Steam on July 27, 2026.',
   },
   {
     question: 'When does Dwarf Delve come out?',
     answer:
-      'July 27, 2026 on Steam (PC). A free demo is available now. The game is developed by a solo developer, focusing entirely on the PC release.',
+      'Dwarf Delve released July 27, 2026 on Steam (PC). A free demo is available now. The game is developed by a solo developer, focusing entirely on the PC release.',
   },
   {
     question: 'Is Dwarf Delve free to play?',
     answer:
-      'No. Dwarf Delve is a paid game. The exact price has not been announced but is expected to be $14.99-$19.99 USD. A free demo is available now on Steam so you can try the core gameplay before buying.',
+      'No. Dwarf Delve is a paid game, released July 27, 2026 at $12.99 (with a 20% launch discount to $10.39 through August 10, 2026). A free demo is available now on Steam so you can try the core gameplay before buying.',
   },
   {
     question: 'Is there multiplayer or co-op?',
     answer:
-      'Dwarf Delve is a single-player experience. Co-op has not been announced but is the most requested feature. The developer may consider it post-launch if the game performs well.',
+      'No. Dwarf Delve is single-player only — confirmed by the Steam listing. There is no co-op or multiplayer, and the developer has made no announcement about adding any.',
   },
   {
     question: 'What platforms is Dwarf Delve on?',
     answer:
-      'PC (Steam) only at launch. Console versions have not been confirmed. Given the solo developer scope, the initial focus is entirely on the PC release.',
+      'PC via Steam (released July 27, 2026); also listed on Epic Games Store and GOG. Console versions have not been confirmed. Given the solo developer scope, the initial focus is entirely on the PC release.',
   },
   {
     question: 'Is there a demo available?',
     answer:
-      'Yes! A free demo is available now on Steam. It includes the core gameplay loop — descend into mines, gather resources, fight enemies, craft supports, and extract. Try the Battlemallet combat, crafting system, and minecart building before the full game launches.',
+      'Yes! A free demo is available now on Steam. It includes the core gameplay loop — descend into mines, gather resources, craft supports, and extract. Try the Battlemallet combat, crafting system, and minecart building before buying the full game.',
   },
   {
     question: 'Does demo progress carry over?',
@@ -48,7 +48,7 @@ const FAQ_ITEMS = [
   {
     question: 'How long is a typical run?',
     answer:
-      'A safe run to the Upper or Middle Mines takes 15-25 minutes. Deep Mine and Abyss runs can take 30-60 minutes. The roguelite extraction structure means every run is different.',
+      'No official data exists. Community reports are scarce and unverified — treat any specific run-length numbers you see elsewhere as unconfirmed. The roguelite extraction structure means every run is different.',
   },
   {
     question: 'What makes Dwarf Delve unique?',
@@ -58,7 +58,7 @@ const FAQ_ITEMS = [
   {
     question: 'Will there be post-launch content?',
     answer:
-      'Yes. The developer has shared a rough roadmap including new biomes, community-requested features, and possibly co-op. All updates will be free — no microtransactions.',
+      'Unconfirmed in detail. The developer (Gloom Box, a solo studio) has publicly committed to a multi-year content roadmap, but no specific features have been announced. Treat any specific roadmap claims (new biomes, co-op, and so on) as unconfirmed.',
   },
   {
     question: 'How do I report bugs or give feedback?',

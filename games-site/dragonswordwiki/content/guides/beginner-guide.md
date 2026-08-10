@@ -2,14 +2,16 @@
 title: 'Beginner Guide — Getting Started in DragonSword: Awakening'
 description: 'New to DragonSword: Awakening? This beginner guide covers the first hours, the tag-team combat loop, your starting trio, Mercenary Ranks, and tips to master this buy-to-play action RPG.'
 keywords: ['beginner guide', 'getting started', 'tips and tricks', 'how to play', 'new player guide', 'best starting hero']
-updated: '2026-08-01'
+category: 'Beginner'
+version: '1.0'
+updated: '2026-08-11'
 ---
 
 ## Welcome to DragonSword: Awakening
 
 DragonSword: Awakening is a buy-to-play anime open-world action RPG developed by South Korean studio **HOUND13**, released on July 22, 2026 for **$29.99** on Steam (Deluxe Edition $44.98). It features **19 playable heroes**, a tag-team combat system built on status ailments and Signal Skills, and — uniquely for the genre — **no gacha and no microtransactions**. Every hero and item is earned through gameplay.
 
-The game sits at **"Very Positive"** on Steam (~90% positive across 1,600+ English reviews) and sold over 200,000 copies in its first two weeks. Sales aside, it earned that reputation: the combat is fluid, the world runs on Unreal Engine 5, and the buy-to-play model means you never hit a paywall.
+The game sits at **"Very Positive"** on Steam, per the store page. It earned that reputation: the combat is fluid, and the buy-to-play model means you never hit a paywall.
 
 ## The Story Setup
 

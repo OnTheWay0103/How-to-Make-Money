@@ -1,16 +1,19 @@
 ---
 title: 'Beginner Guide: Your First Descent in Dwarf Delve'
-description: 'Complete beginner guide for Dwarf Delve — learn the core extraction loop, basic combat with the Battlemallet, mining mechanics, crafting supports, and how to survive your first descent into the mines.'
-keywords: ['dwarf delve beginner guide', 'dwarf delve getting started', 'dwarf delve tips', 'dwarf delve how to play']
+description: 'Complete beginner guide for Dwarf Delve — learn the core extraction loop, basic combat with the Battlemallet, mining mechanics, crafting supports, how to play solo, and how to survive your first descent into the mines.'
+keywords: ['dwarf delve beginner guide', 'dwarf delve getting started', 'dwarf delve tips', 'dwarf delve how to play', 'dwarf delve solo guide', 'dwarf delve single player']
 category: Beginner
 version: '1.0'
-updated: '2026-08-01'
-related: ['mining-strategies-guide', 'extraction-guide', 'crafting-guide']
+updated: '2026-08-11'
+related:
+  - mining-strategies-guide
+  - extraction-guide
+  - crafting-guide
 ---
 
 ## Welcome to the Mines, Delveling
 
-Dwarf Delve is a first-person extraction roguelite where you play as a freshly promoted **Delveling** — a dwarf sent by the Coalition of Dwarves to descend into procedurally generated mines, gather ores, treasures, and relics, and get out before the tunnels collapse. The game launched on Steam on **July 27, 2026** at $12.99, developed by solo developer Gloom Box and published by indie.io.
+Dwarf Delve is a first-person extraction roguelite where you play as a freshly promoted **Delveling** — a dwarf sent by the Coalition of Dwarves to descend into procedurally generated mines, gather ores, treasures, and relics, and get out before the tunnels collapse. The game released on Steam on **July 27, 2026** at $12.99, developed by solo developer Gloom Box and published by indie.io.
 
 This beginner guide covers everything you need to survive your first few descents, based on what is officially confirmed about the game. Dwarf Delve is new — most specific mechanics are still being discovered, so where the community is unsure, this guide says so.
 
@@ -25,6 +28,19 @@ Dwarf Delve follows a risk-versus-reward extraction loop:
 5. **Extract** — Get back to the elevator before the mine collapses. The elevator leaves on a schedule whether you are on it or not, and anything not extracted is lost
 
 Between runs, you refine extracted ores back at your dwarven home, trade resources for coin, and spend that coin on permanent perks, skills, and gear upgrades.
+
+## Solo Play: The Game IS Single-Player
+
+Here's the most important fact to understand about Dwarf Delve: **the game is single-player only.** The Steam listing confirms no co-op and no multiplayer — solo isn't a hard mode or a choice, it's the entire design. Any guide that frames Dwarf Delve as a co-op game "playable solo" is wrong about the game.
+
+That's good news for solo players: everything in the game is balanced for one Delveling.
+
+- **The loop**: descend, mine, extract — all solo
+- **The collapse**: a one-dwarf race against the mine
+- **The economy**: all extracted value is yours; no splits, no shares
+- **The quarters**: your personal home between runs
+
+The confirmed trade-off of solo play is actually a solo benefit: **100% of what you extract is yours.** Every upgrade, every coin, every relic.
 
 ## Your First Descent: Step by Step
 
@@ -78,6 +94,14 @@ Because everything you gather is lost if you don't extract, treat every run as a
 - **Run 4** — Focus on your extraction route. Plan your path back to the elevator before you explore far
 - **Run 5** — Push for a relic or treasure. Go deeper than before, but remember: get out alive
 
+### Three Run Styles to Grow Into
+
+As you graduate past your first runs, the community's confirmed-consistent run archetypes are:
+
+- **The Consistent Extractor** — descend shallow, sweep a defined area near the elevator, bank modest but consistent hauls, and upgrade Battlemallet → lantern → capacity before pushing depth. The recommended default style
+- **The Relic Hunter** — upgrade mining speed and light first, push deeper each run, skip strip-mining, and extract the moment a relic is in hand
+- **The Deep Hauler** — max carry capacity and Battlemallet, rail a route from a deep deposit to the elevator, fill carts, ride back, extract, refine, reinvest
+
 ## Early Upgrade Priorities
 
 After your first successful extractions, the official description confirms that "every piece of gear can be upgraded and customized to your playstyle." Exact upgrade trees and costs are not yet documented, but the priorities below follow from how the game works:
@@ -92,11 +116,24 @@ After your first successful extractions, the official description confirms that 
 - **Going too deep too fast** — you don't need to hit the bottom on your first run
 - **Ignoring creaking sounds** — tunnel collapses are the #1 confirmed cause of losing your loot
 - **Not using flares** — light reveals secrets and hidden dangers
-- **Exploring without a route back** — remember where the elevator is
+- **Exploring without a route back** — remember where the elevator is; solo, getting lost is fatal
 - **Assuming the elevator waits** — it leaves on a schedule, with or without you
+- **Hand-carrying heavy ore** — that's what rails and minecarts are for
+- **Fighting over extracting** — extraction is the win condition, not the boss you haven't confirmed exists
+- **Ignoring the quarters** — some furnishings "may have gameplay consequences beyond cosmetics" (official press)
+
+## Solo FAQ
+
+**Is Dwarf Delve hard solo?** It's balanced for one player — the difficulty is the game's own (reviews call it rough around the edges, especially onboarding).
+
+**Can I pause solo?** Unconfirmed — no official statement.
+
+**Is a "solo build" different from a normal build?** No — every build in Dwarf Delve is a solo build. There is no multiplayer build.
+
+**What's the fastest way to progress solo?** Consistent extraction → upgrade Battlemallet and capacity → push depth gradually. The meta-progression loop is the confirmed growth engine.
 
 ## What the Community Doesn't Know Yet
 
-Dwarf Delve launched on July 27, 2026 and is still being explored. As of early August 2026 there is no officially published list of ore types, enemy types, bosses, perk names, or upgrade costs. Early Steam reviews are **Mostly Negative** (32% positive from a small sample of ~25 reviews) — the common thread is a solid foundation that needs quality-of-life polish, and the developer is actively responding to feedback. Expect this guide and its companions to be updated as the community learns more.
+Dwarf Delve released on July 27, 2026 and is still being explored. As of early August 2026 there is no officially published list of ore types, enemy types, bosses, individual perk names, or upgrade costs. Early Steam reviews are **Mostly Negative** (32% positive from a small sample of ~25 reviews) — the common thread is a solid foundation that needs quality-of-life polish, and the developer is actively responding to feedback. Expect this guide and its companions to be updated as the community learns more.
 
 The mines are dangerous, but fortune favors the bold. Good luck, Delveling!

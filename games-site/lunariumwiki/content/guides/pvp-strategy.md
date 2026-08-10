@@ -21,7 +21,7 @@ related:
 
 **Short answer: No. Lunarium has no PvP of any kind** — no arena, no duels, no ranked ladder, no leaderboards, no player-versus-player combat. The game is a single-player action RPG, and every combat encounter is against AI-controlled enemies.
 
-This page replaces an earlier (incorrect) "PvP strategy" guide on this site. We published PvP content before the game's launch details were verified, and it was wrong. This is the corrected, honest version.
+Some sites publish "Lunarium PvP strategy" content claiming arena modes, ranked seasons, and duels — none of those features exist in the game. This page is the honest answer.
 
 ---
 

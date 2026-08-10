@@ -1,11 +1,15 @@
 ---
 title: 'Crafting Guide: Beams, Ladders, Flares & More in Dwarf Delve'
-description: 'Complete Dwarf Delve crafting guide — what crafting is officially confirmed (support beams, ladders, platforms, flares, floodlights, minecart rails), when to craft each item, and honest notes on unreleased recipes.'
-keywords: ['dwarf delve crafting', 'dwarf delve crafting guide', 'dwarf delve recipes', 'dwarf delve support beams', 'dwarf delve how to craft']
+description: 'Complete Dwarf Delve crafting guide — confirmed craftables (support beams, ladders, platforms, flares, floodlights, minecart rails), when to craft each, the confirmed advanced systems (refining, upgrading, quarters), and honest notes on unreleased recipes.'
+keywords: ['dwarf delve crafting', 'dwarf delve crafting guide', 'dwarf delve recipes', 'dwarf delve support beams', 'dwarf delve how to craft', 'dwarf delve advanced crafting']
 category: Crafting
 version: '1.0'
-updated: '2026-08-01'
-related: ['best-gear-equipment-guide', 'minecart-rail-guide', 'beginner-guide', 'crafting-mastery']
+updated: '2026-08-11'
+related:
+  - best-gear-equipment-guide
+  - minecart-rail-guide
+  - beginner-guide
+  - meta-progression-guide
 ---
 
 ## Crafting Underground
@@ -108,6 +112,71 @@ The official materials don't name individual crafting materials. What can be sai
 - **Raw materials** come from the mines themselves; crafting happens in the field
 - No official material list exists yet — treat any "Wood Scraps", "Cloth", "Resin", "Sulfur" recipe tables as unconfirmed
 
+### What "Rare Materials" Means Today
+
+The official materials confirm ores, treasures, and relics. Specific rare-material names are **not confirmed** — the widely-circulated list of mithril, adamantite, void crystals, and similar comes from web speculation, not the developer.
+
+| Category | Confirmed? | Practical Use |
+|----------|-----------|---------------|
+| Common ores | Yes (generic) | Refined for coin, upgrades |
+| Heavy ores | Yes (generic) | Shift and store via minecarts — the confirmed reason rails exist |
+| Treasures | Yes (generic) | High-value finds |
+| Relics | Yes ("long-lost relics") | Unlock unique perks and quarters decorations |
+| Named ores (mithril etc.) | No | Treat as unconfirmed until official sources name them |
+
+## Beyond Basic Crafting: The Confirmed Advanced Systems
+
+Every Delveling learns to craft support beams and flares within their first few descents. Mastery in Dwarf Delve means something specific and confirmed: **getting more value out of the game's upgrade economy** — refining ores, upgrading gear, and hauling heavy loot out reliably.
+
+A warning before we start: several guides on the web describe "crafting mastery" with enchantment altars, smelting stations, runes, and legendary material tiers. **None of that is confirmed.** The official materials confirm a much leaner system — which is exactly what this section covers.
+
+### 1. Ore Refining (Confirmed)
+
+The official description: after extraction, "refine ores back at your Dwarven home." Raw ore becomes usable value between runs.
+
+**Mastery angle:** extract consistently. Refinement happens at home, which means **unrefined ore in a dead Delveling's pocket is worth nothing** — the entire mastery game is about turning mining time into successful extractions.
+
+### 2. Trading Resources for Coin (Confirmed)
+
+"Trade resources for coin" is the official economy. Coin buys perks, skills, and upgrades.
+
+**Mastery angle:** learn which resources are worth coin and which are worth keeping. The official description mentions "treasures, and long-lost relics" alongside ores — relics in particular are described as unlocking unique perks and quarters decorations, so they're likely worth more kept than sold. Exact coin values are unpublished.
+
+### 3. Gear Upgrades & Customization (Confirmed)
+
+"Every piece of gear can be upgraded and customized to your playstyle." Gear upgrading between runs is the game's confirmed endgame sink.
+
+**Mastery angle:** specialize, don't spray. The confirmed customization themes are "hit harder," "move faster," and "carry more loot." Pick the theme that matches your run style:
+
+| Playstyle | Confirmed Theme to Prioritize |
+|-----------|-------------------------------|
+| Miner | Carry more loot |
+| Fighter | Hit harder |
+| Scout / raider | Move faster |
+
+### 4. Minecart Logistics (Confirmed)
+
+"Place rail and construct networks of minecarts to shift and store those heavy ores for you." The cart system is the confirmed way to scale up hauling.
+
+**Mastery angle:** rails pay for themselves when you find heavy ore deep in the mine. Build toward the elevator, not away from it.
+
+### 5. Quarters Customization (Confirmed)
+
+Your dwarven quarters are the confirmed hub: "Everything from carpets to furnishings to wall art!" The official press materials add that some furnishings "may have gameplay consequences beyond cosmetics."
+
+**Mastery angle:** pay attention to what you place. If a decoration does something mechanical, it's the kind of detail the game doesn't explain loudly. Community testing will reveal which furnishings matter.
+
+## Crafting Systems That Are NOT in the Game (Yet)
+
+- **Enchantment altars** — not confirmed
+- **Smelting stations in the mine** — not confirmed
+- **Runes / enchantment recipes** — not confirmed
+- **Material tier lists (Common → Legendary)** — not confirmed
+- **Permanent base upgrades crafted from rare materials** — not confirmed
+- **Named legendary weapons (Forgehammer, Inferno Blade, etc.)** — not confirmed
+
+The developer has a multi-year roadmap and the game will grow, but as of August 2026 these systems do not exist in official materials. Guides presenting them as fact are fabricating content.
+
 ## Crafting Priority During Runs
 
 Until real recipes are published, these priorities are strategy, not recipe data:
@@ -118,6 +187,22 @@ Until real recipes are published, these priorities are strategy, not recipe data
 4. **Rails when the haul is heavy** — carts for heavy ores, confirmed
 5. **Floodlights for deep zones** — when you'll spend real time in one area
 
+### Upgrade Sequencing
+
+- **Battlemallet first** — it's the only confirmed tool for both mining and combat; its upgrade benefits every run
+- **Lantern second** — darkness hides "unseen dangers and long-forgotten traps"
+- **Carry capacity** — the confirmed "carry more loot" theme compounds with minecart hauling
+- **Movement** — the confirmed "move faster" theme is safety and efficiency
+
+## Mastery Checklist
+
+- [ ] Extract consistently (refinement happens at home, not in the grave)
+- [ ] Upgrade Battlemallet before anything else
+- [ ] Build rails when the haul gets heavy
+- [ ] Bank relics — extract the moment you find one
+- [ ] Customize toward one theme: hit harder, move faster, or carry more
+- [ ] Decorate quarters and watch for functional furnishings
+
 ## Honest FAQ
 
 **How do I open the crafting menu?** Not officially documented. Some players report a Tab keybinding, but this is unconfirmed — check your settings.
@@ -125,6 +210,8 @@ Until real recipes are published, these priorities are strategy, not recipe data
 **Can I craft before descending?** Unconfirmed. The official materials describe in-mine crafting, but pre-run prep isn't documented either way.
 
 **Are there advanced recipes, enchantments, or altars?** Not confirmed. Guides describing enchantment altars, smelting stations, or legendary recipes are speculative. The confirmed "advanced" system is gear upgrading between runs — "every piece of gear can be upgraded and customized to your playstyle."
+
+**What's the fastest way to progress through crafting?** Consistent extraction. Refinement happens at home, so a successful extraction is the only thing that turns mined materials into upgrades.
 
 **Will recipes be added later?** The developer has committed to a multi-year content roadmap, so expect crafting to grow — but nothing specific is announced.
 

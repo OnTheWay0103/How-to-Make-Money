@@ -2,7 +2,7 @@
 title: "Dwarf Delve Wiki — Complete Guide Hub"
 description: "The ultimate community wiki for Dwarf Delve — the first-person extraction roguelite by Gloom Box. Find mining strategies, gear guides, perk builds, enemy strategies, biome walkthroughs, and more."
 category: "Home"
-updated: "2026-07-25"
+updated: "2026-08-11"
 keywords: ["Dwarf Delve", "Dwarf Delve wiki", "Dwarf Delve guide", "Gloom Box", "indie.io", "extraction roguelite", "Steam"]
 related: ["beginner-guide", "mining-strategies-guide", "best-gear-equipment-guide", "extraction-guide"]
 ---
@@ -11,7 +11,7 @@ related: ["beginner-guide", "mining-strategies-guide", "best-gear-equipment-guid
 
 **Everything you need to survive the deep mines in the first-person extraction roguelite by Gloom Box.**
 
-Dwarf Delve launches on Steam on July 27, 2026, from solo developer Dante Knoxx (Gloom Box) and publisher indie.io. This wiki covers all core systems, strategies, and secrets for the demo and launch build. Whether you are a new Delveling or an Abyss veteran, you will find practical, up-to-date information here.
+Dwarf Delve released on Steam on July 27, 2026, from solo developer Dante Knoxx (Gloom Box) and publisher indie.io. This wiki covers all core systems, strategies, and secrets for the demo and launch build. Whether you are a new Delveling or a deep-run veteran, you will find practical, up-to-date information here.
 
 ---
 
@@ -62,14 +62,14 @@ Between runs, you upgrade your gear, unlock permanent perks across three skill t
 
 ## Key Systems at a Glance
 
-- **6 Unique Biomes** — Sedimentary Tunnels, Crystal Caverns, Fungal Deeps, Lava Core, Sunken Tunnels, and the Abyssal Rift
+- **Procedurally Generated Mines** — "No two mines will ever be the same!" No official biome names have been published; depth drives variety
 - **Gear Upgrades** — Battlemallet, lantern, flares, floodlights, support beams, ladders, platforms
 - **3 Perk Trees** — Might (combat/mining), Resilience (survival), Fortune (resource gathering)
 - **Crafting on-the-fly** — Craft beams, flares, ladders, floodlights, and rails underground
 - **Minecart Rail Networks** — Build transport systems for efficient loot extraction
 - **Relic Collection** — Find rare artifacts that unlock unique powers
 - **Quarters Customization** — Decorate and upgrade your dwarven home between runs
-- **Boss Encounter** — The Buried King guards the Abyss's greatest treasures
+- **No Confirmed Boss Roster** — the confirmed threats are collapse, long-forgotten traps, darkness, and "unseen dangers"
 
 ---
 

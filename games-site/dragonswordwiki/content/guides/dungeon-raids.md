@@ -5,7 +5,7 @@ category: 'Endgame'
 version: '1.0'
 updated: '2026-08-01'
 keywords: ['dragonsword awakening raids', 'dragonsword awakening raid guide', 'dragonsword awakening 3 player raid', 'dragonsword awakening raid co-op', 'dragonsword awakening endgame raids', 'dragonsword awakening raid loot']
-related: ['endgame-guide', 'endgame-content', 'combat-guide', 'boss-guide', 'pvp-guide']
+related: ['endgame-guide', 'combat-guide', 'boss-guide', 'pvp-guide']
 ---
 
 ## Raids in DragonSword: Awakening
@@ -46,7 +46,7 @@ While the community catalogues raid mechanics, these habits will serve you well:
 
 1. **Communicate your party composition before entering.** Agree on which ailments you are stacking.
 2. **Learn the bosses solo first.** Story bosses and Hunts (re-fighting story bosses at higher difficulty) teach the attack patterns that raid bosses likely build on. See the [Boss Guide](/guides/boss-guide).
-3. **Bring upgraded gear.** Raids are endgame content — make sure your equipment has been upgraded through the [gear progression](/guides/gear-progression) before you queue up.
+3. **Bring upgraded gear.** Raids are endgame content — make sure your equipment has been upgraded (see the [Equipment Guide](/guides/equipment-guide)) before you queue up.
 4. **Have the free Abyssal Direwolf familiar installed.** The free DLC familiar gives a movement edge that helps in any co-op session (see the [Familiars Guide](/guides/familiars-guide)).
 
 ## Raids vs. Other Endgame Activities

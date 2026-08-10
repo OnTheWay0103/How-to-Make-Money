@@ -2,7 +2,9 @@
 title: 'How to Unlock All 19 Heroes — Hero Unlock Guide'
 description: 'How to unlock every hero in DragonSword: Awakening without paying — the starting trio, story unlocks, what is confirmed about recruitment, and the four confirmed post-launch free heroes.'
 keywords: ['hero unlock guide', 'all characters', 'how to unlock heroes', 'character recruitment', 'hero locations', 'best starting hero']
-updated: '2026-08-01'
+category: 'Heroes'
+version: '1.0'
+updated: '2026-08-11'
 ---
 
 ## Unlock Every Hero in DragonSword: Awakening

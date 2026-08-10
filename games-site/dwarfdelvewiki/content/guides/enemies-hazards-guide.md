@@ -4,8 +4,11 @@ description: 'Dwarf Delve enemies and hazards, honestly documented — the confi
 keywords: ['dwarf delve enemies', 'dwarf delve hazards', 'dwarf delve dangers', 'dwarf delve traps', 'dwarf delve combat']
 category: Enemies
 version: '1.0'
-updated: '2026-08-01'
-related: ['beginner-guide', 'extraction-guide', 'tips-and-tricks', 'defense-strategy']
+updated: '2026-08-11'
+related:
+  - beginner-guide
+  - extraction-guide
+  - tips-and-tricks
 ---
 
 ## What Lurks in the Deep: The Honest Catalog
@@ -101,4 +104,3 @@ Until then, this guide stays honest: **the confirmed dangers are collapse, traps
 - [Beginner Guide](/guides/beginner-guide) — First descent survival
 - [Extraction Guide](/guides/extraction-guide) — Escaping the confirmed threats
 - [Tips & Tricks](/guides/tips-and-tricks) — Community practice, honestly labeled
-- [Defense Strategy](/guides/defense-strategy) — Surviving the mine's threats

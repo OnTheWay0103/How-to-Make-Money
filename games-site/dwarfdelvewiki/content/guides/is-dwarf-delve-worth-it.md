@@ -4,8 +4,11 @@ description: 'Is Dwarf Delve worth buying in 2026? An honest, data-based review:
 keywords: ['dwarf delve review', 'dwarf delve worth it', 'dwarf delve how long to beat', 'dwarf delve price', 'dwarf delve worth buying']
 category: Reviews
 version: '1.0'
-updated: '2026-08-01'
-related: ['release-date-faq', 'beginner-guide', 'meta-progression-guide', 'solo-guide']
+updated: '2026-08-11'
+related:
+  - release-date-faq
+  - beginner-guide
+  - meta-progression-guide
 ---
 
 ## The Verdict Up Front
@@ -24,7 +27,7 @@ related: ['release-date-faq', 'beginner-guide', 'meta-progression-guide', 'solo-
 | Players | Single-player only |
 | Reviews | Mostly Negative — 32% positive of ~25 reviews (early August 2026) |
 | Achievements | 21 Steam achievements |
-| Requirements | Modest — GTX 660 minimum, 3 GB storage |
+| Requirements | Modest — GTX 660 minimum, 3 GB storage (per the Steam store page) |
 | Demo | Free demo available on Steam |
 
 ## What Works (Confirmed Strengths)
@@ -146,4 +149,3 @@ If you're tolerant of early-access-grade polish at a full-release price and love
 - [Release Date & FAQ](/guides/release-date-faq) — Every verified fact about the game
 - [Beginner Guide](/guides/beginner-guide) — What to do in your first runs
 - [Meta-Progression Guide](/guides/meta-progression-guide) — The permanent upgrade economy
-- [Solo Guide](/guides/solo-guide) — Playing the game solo (the only mode)

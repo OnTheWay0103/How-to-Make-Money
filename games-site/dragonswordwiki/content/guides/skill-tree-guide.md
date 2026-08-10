@@ -5,7 +5,7 @@ category: 'Builds'
 version: '1.0'
 updated: '2026-08-01'
 keywords: ['dragonsword awakening skills', 'dragonsword awakening signal skills', 'dragonsword awakening active skills', 'dragonsword awakening skill guide', 'dragonsword awakening how skills work', 'dragonsword awakening hero skills']
-related: ['combat-guide', 'character-builds', 'hero-builds-guide', 'tier-list', 'beginner-guide']
+related: ['combat-guide', 'hero-builds-guide', 'tier-list', 'beginner-guide']
 ---
 
 # Hero Skills Explained — Active Skills, Signal Skills & Status Ailments

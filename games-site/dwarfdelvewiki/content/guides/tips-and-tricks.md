@@ -4,8 +4,11 @@ description: 'Honest Dwarf Delve tips and tricks. Every tip grounded in confirme
 keywords: ['dwarf delve tips', 'dwarf delve tricks', 'dwarf delve tips and tricks', 'dwarf delve secrets', 'dwarf delve hidden mechanics']
 category: Tips
 version: '1.0'
-updated: '2026-08-01'
-related: ['beginner-guide', 'mining-strategies-guide', 'extraction-guide']
+updated: '2026-08-11'
+related:
+  - beginner-guide
+  - mining-strategies-guide
+  - extraction-guide
 ---
 
 ## Tips, Tricks & Confirmed Mechanics
@@ -60,7 +63,7 @@ Dwarf Delve is new, and much of what circulates as "hidden mechanics" is invente
 
 **19. No official enemy roster exists.** Guides naming Rock Borers, Gloom Crawlers, or "The Buried King" are inventing content. The official threat list: collapse, traps, darkness, unseen dangers.
 
-**20. No official ore names exist.** "Mithril" and friends come from search data and speculation, not the game. Ore names are unconfirmed as of August 2026.
+**20. No official ore names exist.** "Mithril" and friends appear in fabricated guides and speculation, not the game. Ore names are unconfirmed as of August 2026.
 
 **21. No co-op exists.** The game is single-player only — confirmed by the Steam listing. "Dwarf Delve co-op" tips are describing a different game.
 
@@ -72,7 +75,7 @@ Dwarf Delve is new, and much of what circulates as "hidden mechanics" is invente
 2. **Beam the return route** — collapse kills more runs than anything
 3. **Upgrade the Battlemallet** — one upgrade, two jobs
 4. **Bank relics immediately** — the confirmed endgame prize
-5. **Skepticism is a skill** — the game is five days old; verified data beats flashy guides
+5. **Skepticism is a skill** — the game is new (released July 27, 2026); verified data beats flashy guides
 
 ## Quick Reference: What to Bring Every Run
 

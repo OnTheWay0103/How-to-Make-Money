@@ -13,7 +13,7 @@ keywords:
 related:
   - beginner-guide
   - endgame-content
-  - gear-enhancement
+  - equipment-guide
   - exploration-guide
 ---
 
@@ -21,7 +21,7 @@ related:
 
 **Short answer: Lunarium has no daily quests, no weekly bosses, no reset schedules, no server-time events, and no FOMO systems.** It is a single-player action RPG — progression is driven by *your* play, not by a calendar.
 
-This page replaces an earlier (incorrect) "Daily & Weekly Guide" on this site that described daily quest boards, weekly bounty rotations, and arena seasons — none of which exist in Lunarium. We published that before launch details were verified, and it was wrong. Here is the corrected version.
+Despite what some guides claim, Lunarium has no daily quest boards, no weekly bounty rotations, and no arena seasons — none of those systems exist in the game. Here is how progression actually works.
 
 ---
 
@@ -91,7 +91,7 @@ Reviews report roughly **12 hours** for a first playthrough (Miami Herald / Gema
 
 - **Hunt the confirmed collectibles:** embroidery blueprints (first: Cyanstone's first-bench chest), Astral Shards, Echoes of Yore, Stellar Cores.
 - **Practice the hard fights:** Lilia, Ryuu, and Enid reward mastery far more than grinding.
-- **Try a different build direction:** embroidery/cloak swaps change playstyle dramatically (see [Character Builds](/guides/character-builds)).
+- **Try a different build direction:** embroidery/cloak swaps change playstyle dramatically (see [Ave Build Guide](/guides/ave-build-guide)).
 - **100% the regions:** no official completion checklist exists, but the four-region structure is compact enough to clear fully.
 
 ---
@@ -100,5 +100,5 @@ Reviews report roughly **12 hours** for a first playthrough (Miami Herald / Gema
 
 - [Beginner Guide](/guides/beginner-guide) — how the loop starts
 - [Endgame Content Guide](/guides/endgame-content) — what's real after the credits
-- [Gear Enhancement Guide](/guides/gear-enhancement) — the hub upgrade loop
+- [Equipment Guide](/guides/equipment-guide) — the hub upgrade loop
 - [Exploration Guide](/guides/exploration-guide) — where to spend your time

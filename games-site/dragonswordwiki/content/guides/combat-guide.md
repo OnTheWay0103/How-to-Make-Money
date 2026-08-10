@@ -2,7 +2,9 @@
 title: 'Combat Guide — Signal Skills & Tag Team System Explained'
 description: 'Master DragonSword: Awakening combat — Signal Skills triggered by switching under status ailments, tag-team swapping, Super Armor breaking, aerial combos, and confirmed ailment synergies.'
 keywords: ['combat guide', 'signal skills', 'tag team', 'combo guide', 'status ailments', 'how to swap characters', 'air combo', 'super armor break']
-updated: '2026-08-01'
+category: 'Combat'
+version: '1.0'
+updated: '2026-08-11'
 ---
 
 ## DragonSword: Awakening Combat Guide
@@ -33,7 +35,7 @@ Each of the 19 heroes specializes in one or two ailments. Only these pairings ar
 | **Electrocution (Shock)** | Ornette | Interrupts enemy actions |
 | **Knockdown** | Lute (secondary), Ornette (secondary) | Knocks the enemy prone |
 
-Ailments claimed for heroes like **Poison or Frost do not exist in any verified source** — treat guides that use them as unreliable. The remaining heroes' ailments are **unrevealed** as of August 2026.
+Ailments claimed for heroes like **Poison do not exist in any verified source** — treat guides that use them as unreliable. **Frost** appears in community documentation for some heroes (see the [Cerese Guide](/guides/cerese-guide)) but is not officially confirmed. The remaining heroes' ailments are **unrevealed** as of August 2026.
 
 ## How Signal Skills Trigger
 

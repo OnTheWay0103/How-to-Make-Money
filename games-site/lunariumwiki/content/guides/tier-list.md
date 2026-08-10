@@ -11,7 +11,7 @@ category: Meta
 version: '1.0'
 updated: '2026-08-01'
 related:
-  - character-builds
+  - ave-build-guide
   - equipment-guide
   - skill-tree-guide
   - boss-guide
@@ -23,7 +23,7 @@ related:
 
 There are two things you need to know before reading any Lunarium tier list:
 
-1. **Lunarium has no classes.** An earlier version of this page (and many others online) ranked "classes" — Knight, Pyromancer, Rogue, etc. Those don't exist. You play Ave; Lune is your AI companion.
+1. **Lunarium has no classes.** Many online guides rank "classes" — Knight, Pyromancer, Rogue, etc. Those don't exist. You play Ave; Lune is your AI companion.
 2. **No verified item database exists yet.** Any "tier list" that confidently ranks specific swords, armor sets, or skills by name is inventing them. The game is too new for verified item data.
 
 So this page ranks what we can actually reason about — **build directions, and the systems** (cloaks, embroidery) that matter — with honest confidence levels.
@@ -94,7 +94,7 @@ Until verified data arrives, the only honest "tier list" is about **where to spe
 
 ## Related Guides
 
-- [Character Builds Guide](/guides/character-builds) — how builds work (no classes)
+- [Ave Build Guide](/guides/ave-build-guide) — how builds work (no classes)
 - [Equipment Guide](/guides/equipment-guide) — cloaks, embroidery, weapons
 - [Skill Tree Guide](/guides/skill-tree-guide) — skill priorities
 - [Boss Guide — All Bosses](/guides/boss-guide) — what actually needs tiering

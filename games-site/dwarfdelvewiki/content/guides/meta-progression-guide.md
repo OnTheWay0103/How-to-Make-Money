@@ -4,8 +4,12 @@ description: 'Complete Dwarf Delve meta-progression guide. What carries over bet
 keywords: ['dwarf delve meta progression', 'dwarf delve upgrades', 'dwarf delve quarters', 'dwarf delve between runs', 'dwarf delve progression']
 category: Progression
 version: '1.0'
-updated: '2026-08-01'
-related: ['perks-skills-guide', 'best-gear-equipment-guide', 'beginner-guide', 'crafting-mastery']
+updated: '2026-08-11'
+related:
+  - perks-skills-guide
+  - best-gear-equipment-guide
+  - beginner-guide
+  - crafting-guide
 ---
 
 ## What Carries Over Between Runs
@@ -60,14 +64,14 @@ What's NOT confirmed: quarters room unlocks, upgrade costs, or any specific furn
 
 ## Perks & Skills: The Confirmed Framework
 
-The official description confirms the themes: perks and skills let you **"move faster, hit harder, carry more loot."** That's the entire published perk design — three confirmed themes, no confirmed names.
+The official description confirms the themes: perks and skills let you **"move faster, hit harder, carry more loot."** The three perk trees — **Might, Resilience, and Fortune** — are also officially confirmed. What is not published: individual perk names, tiers, and prices within those trees.
 
 ### What This Means for Spending
 1. **Carry more loot** — compounds with the minecart system; more loot per run = faster progression
 2. **Hit harder** — faster mining and combat clears
 3. **Move faster** — efficiency and safety
 
-Any guide that lists named perks with prices (Might tree, Resilience tree, "Phoenix Heart," "Pack Mule" — note: Pack Mule IS a confirmed Steam achievement name, but not a confirmed perk) is speculating. The official perk roster has not been published.
+Any guide that lists named perks with prices ("Phoenix Heart," "Midas Touch," and similar) is speculating — individual perk names have not been published. (Note: "Pack Mule" IS a confirmed Steam achievement name, but not a confirmed perk.)
 
 ## Gear Upgrades: The Confirmed System
 

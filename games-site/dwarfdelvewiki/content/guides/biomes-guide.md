@@ -1,11 +1,14 @@
 ---
-title: 'Biomes & Mine Types Guide: What's Confirmed About Dwarf Delve Environments'
+title: 'Biomes & Mine Environments Guide: What's Confirmed About Dwarf Delve'
 description: 'What we know about biomes and mine environments in Dwarf Delve — procedural generation confirmed, named biomes not. Depth-based risk and reward, environmental variety, and honest notes on community speculation.'
 keywords: ['dwarf delve biomes', 'dwarf delve mine types', 'dwarf delve environments', 'dwarf delve zones', 'dwarf delve underground']
 category: Biomes
 version: '1.0'
-updated: '2026-08-01'
-related: ['mining-strategies-guide', 'enemies-hazards-guide', 'extraction-guide', 'underground-biomes']
+updated: '2026-08-11'
+related:
+  - mining-strategies-guide
+  - enemies-hazards-guide
+  - extraction-guide
 ---
 
 ## The World Below: What's Confirmed
@@ -47,25 +50,40 @@ If you want to treat community observation as a working hypothesis, the reported
 
 None of these have official names, spawn rules, or loot tables. We will not invent any.
 
+## Common Player Questions, Honestly Answered
+
+| Question | Honest Answer |
+|---------|---------------|
+| Are there underground biomes? | No official biomes; procedurally generated mines with a depth gradient |
+| Are there rare zones? | No confirmed zones; depth is the only confirmed rarity dial |
+| Are there hidden areas? | Unconfirmed; "secrets hidden in the shadows" is the official phrase — bring light |
+| Do deep mines exist? | Confirmed concept: deeper = richer + farther from safety |
+| Are there secrets? | Confirmed: secrets exist and are uncovered by light — details unpublished |
+
 ## How to Prepare for an Unknown Environment
 
 Because every run can look different, preparation is about robustness, not biome-specific loadouts:
 
-1. **Light is universal** — lantern, flares, floodlights. Every environment gets easier with light
+1. **Light is universal** — lantern, flares, floodlights. Every environment gets easier with light, and "secrets hidden in the shadows" are the confirmed reason
 2. **Support beams are universal** — collapse is confirmed everywhere
-3. **Mark your route** — procedural mines mean no memorized maps; flares and rails are your landmarks
+3. **Mark your route** — procedural mines mean no memorized maps; flares as breadcrumbs and rails as highways are the only map that matters
 4. **Go in stages** — descend a little, learn the local character of this run's mine, then decide how deep to push
 5. **Extract early in unfamiliar territory** — "unseen dangers" are scariest when you can't predict them
+6. **Document what you find** — the community needs verified data; if you find something unusual, report it to the official Discord (linked from the Steam page)
 
 ## Biome-Specific Claims to Ignore
 
 When you see these in other guides, treat them as fabricated:
 
 - Named biomes (Crystal Caverns, Fungal Deeps, Lava Core, Sunken Tunnels, Abyssal Rift, "The Core") — not confirmed
+- Named sub-biomes (Fossil Beds, Geode Chambers, Spore Groves, Echoing Voids) — not confirmed
 - Per-biome resource tables — not confirmed
 - Per-biome enemy rosters — not confirmed
 - Biome "unique mechanics" (heat meters, breath meters, sanity pressure) — not confirmed
 - Biome event cycles (eruptions, spore blooms) — not confirmed
+- Biome connection types (rift gates, lava bridges) — not confirmed
+- Named rare materials tied to zones — not confirmed
+- Loot tables per zone — not confirmed
 
 None of these appear in official materials. Dwarf Delve is a small indie game that launched on July 27, 2026; any source that describes its biomes in this much invented detail should not be trusted.
 
@@ -84,4 +102,3 @@ Until then, this page stays honest: **procedural mines, depth-based risk, no con
 - [Mining Strategies Guide](/guides/mining-strategies-guide) — Resource gathering by depth
 - [Enemies & Hazards Guide](/guides/enemies-hazards-guide) — Confirmed dangers of the deep
 - [Extraction Guide](/guides/extraction-guide) — Getting back to the elevator from any depth
-- [Underground Biomes](/guides/underground-biomes) — Sub-zones and secrets (all unconfirmed, honestly labeled)

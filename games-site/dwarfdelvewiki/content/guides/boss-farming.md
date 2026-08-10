@@ -1,11 +1,15 @@
 ---
-title: 'Boss Farming in Dwarf Delve: What We Know & The Farming Loop'
-description: 'Dwarf Delve boss farming guide — the honest picture: no boss roster is officially confirmed yet, so this guide covers the confirmed farming loop, farming routes that work, and what to expect when boss content is documented.'
-keywords: ['dwarf delve boss farming', 'dwarf delve boss guide', 'dwarf delve farming', 'dwarf delve loot', 'dwarf delve endgame']
+title: 'Boss Farming & Endgame in Dwarf Delve: What We Know & The Farming Loop'
+description: 'Dwarf Delve boss farming and endgame guide — the honest picture: no bosses or raids are officially confirmed. The real endgame is the farming loop: deep runs, relic hunting, rail hauling, and permanent upgrades.'
+keywords: ['dwarf delve boss farming', 'dwarf delve boss guide', 'dwarf delve farming', 'dwarf delve loot', 'dwarf delve endgame', 'dwarf delve raids']
 category: Bosses
 version: '1.0'
-updated: '2026-08-01'
-related: ['best-gear-equipment-guide', 'mining-strategies-guide', 'extraction-guide', 'perks-skills-guide', 'endgame-raids']
+updated: '2026-08-11'
+related:
+  - best-gear-equipment-guide
+  - mining-strategies-guide
+  - extraction-guide
+  - perks-skills-guide
 ---
 
 ## Bosses of the Deep: The Honest Picture
@@ -13,6 +17,23 @@ related: ['best-gear-equipment-guide', 'mining-strategies-guide', 'extraction-gu
 Before anything else, the truth: **no bosses are officially confirmed in Dwarf Delve as of August 2026.** The Steam page, official announcements, and press coverage describe the game's threats as "unseen dangers and long-forgotten traps" and the collapsing mine itself — they name no boss encounters, arenas, or loot tables. Every named "boss" you see listed on other sites (Rock Borer Queens, Buried Kings, and similar) is invented speculation, not game fact.
 
 That doesn't mean there is nothing to farm. This guide covers the farming loop that **is** confirmed, how to run it efficiently, and what to do when official boss information eventually arrives. This page will be updated the moment real boss content is documented.
+
+## Raids Don't Exist (Yet)
+
+Dwarf Delve also has **no raid content.** Raids, raid bosses, locked-exit raids, raid loot tables — none of it is confirmed, and none of it appears in official materials. Guides describing "The Deep King's Court" or "Magma Foundry" raids are fiction.
+
+What Dwarf Delve *does* have is a confirmed endgame shape: the meta-progression loop. "Endgame" in this game today means **running the loop at high efficiency** — deep descents, relic hunting, heavy ore hauling, and permanent upgrades compounding run over run. That's the endgame this guide covers.
+
+## What "Endgame" Means in Dwarf Delve
+
+The confirmed progression architecture:
+
+```
+Descend → Mine ores & find relics → Extract → Refine ores → Trade for coin
+        → Buy perks & skills → Upgrade gear → Descend deeper
+```
+
+Endgame = the point where your permanent upgrades (perks, skills, gear) make deep, fast, profitable runs the default. The developer (solo dev Dante Knoxx of Gloom Box) has committed to a multi-year content roadmap, so true endgame content may arrive later — but as of August 2026, the loop *is* the endgame.
 
 ## The Confirmed Farming Loop
 
@@ -67,28 +88,69 @@ Since every mine is procedurally generated, "routes" are strategies, not fixed p
 
 **Why it works:** The official feature list confirms the cart system, the upgrade system, and the "hit harder / move faster / carry more" perk themes. Efficient loop execution is the whole endgame right now.
 
+## The Endgame Loop, Optimized
+
+### Upgrade Sequencing (Confirmed Themes)
+
+The official materials confirm three upgrade themes: **hit harder, move faster, carry more loot.**
+
+| Endgame Goal | Confirmed Theme | Priority |
+|--------------|----------------|----------|
+| Profit per hour | Carry more loot | Highest — extraction value scales with capacity |
+| Speed | Move faster | High — run time is the real cost of every loop |
+| Depth | Hit harder | Medium — faster mining and combat clears |
+| Safety | Gear customization | Continuous — "every piece of gear can be upgraded and customized to your playstyle" |
+
+### The Deep Run Pattern
+
+Endgame runs follow a confirmed-consistent pattern:
+
+1. **Descend fast** — you know the loop now; don't waste the early game
+2. **Go for relics** — "long-lost relics" are the confirmed endgame prize (unique perks + quarters decoration)
+3. **Rail the heavy ores** — minecarts are confirmed to "shift and store those heavy ores for you"; endgame is about hauling, not dribbling ore back one pocket at a time
+4. **Extract on schedule** — the elevator leaves whether you're on it or not; the collapse is permanent
+
+### Quarters as the Endgame Hub
+
+Your dwarven quarters are confirmed endgame infrastructure: "Everything from carpets to furnishings to wall art!" — and press materials add that some furnishings "may have gameplay consequences beyond cosmetics."
+
+Endgame angle: quarters customization isn't just cosmetic in the long run. Decorations with mechanical effects are the kind of detail community testing rewards.
+
 ## What to Expect From Boss Content
 
 The developer (Gloom Box, solo dev Dante Knoxx) has publicly committed to a multi-year content roadmap, and reviews describe the launch as "one to watch evolve rather than a finished product." Boss encounters are not confirmed to exist, but several honest observations:
 
 - The Steam tags include **Horror** and **Dungeon Crawler**, which suggest hostile encounters of some kind — but no official confirmation exists
-- The keyword data shows real search demand for "dwarf delve boss" and "dwarf delve boss farming" — this guide will be expanded with real boss data the moment it exists
 - Until then, treat any boss guide that lists named bosses with loot tables as unreliable
 
-## Preparation Checklist (Applies to Every Run)
+## Endgame Preparation Checklist
 
-- **Support beams** — craft before you hear creaking, not after
-- **Light** — lantern, flares, and floodlights all confirmed; darkness hides dangers
-- **Extraction plan** — know the elevator's location and your route back
-- **Loot priority** — decide what you're farming before you descend, and extract when you have it
+- [ ] Battlemallet upgraded (mining + combat efficiency)
+- [ ] Lantern/floodlight upgrades (darkness defense)
+- [ ] Carry capacity upgraded (confirmed "carry more loot" theme)
+- [ ] Minecart rail plan (heavy ore logistics)
+- [ ] Perk/skill purchases aligned with your playstyle (confirmed: buy with coin from refined ore)
+- [ ] Quarters set up; watch for functional furnishings
+- [ ] Retreat threshold discipline — endgame players still extract
+- [ ] Loot priority decided before descent
 
 ## FAQ
 
 **Is there a boss in Dwarf Delve?** No boss has been officially confirmed. The confirmed threats are tunnel collapse, traps, darkness, and "unseen dangers."
 
+**Are there raids in Dwarf Delve?** No. Raid content does not exist in any official material as of August 2026.
+
 **What should I farm instead of bosses?** Ores, treasures, and relics — the confirmed farming loop of extraction runs.
 
 **When will boss guides have real information?** As soon as the developer or a verified community source documents boss content. This guide will be updated to match.
+
+**How long is Dwarf Delve's endgame?** No official data. Community reports of run lengths are scarce and unverified.
+
+**Is there anything to do after maxing upgrades?** As of August 2026, no confirmed content beyond the loop itself. The roadmap suggests growth over time.
+
+**Do I need a team for endgame?** No — Dwarf Delve is single-player only. There is no co-op or multiplayer (confirmed by the Steam store listing).
+
+**Is endgame worth it now?** Reviews (Mostly Negative, small sample) say the foundations are solid but rough around the edges. If you enjoy loop-based extraction games, the endgame is the loop running well; if you want structured raid content, wait for the roadmap to deliver.
 
 ---
 
@@ -98,4 +160,3 @@ The developer (Gloom Box, solo dev Dante Knoxx) has publicly committed to a mult
 - [Mining Strategies Guide](/guides/mining-strategies-guide) — Resource gathering during runs
 - [Extraction Guide](/guides/extraction-guide) — Escaping with your loot intact
 - [Perks & Skills Guide](/guides/perks-skills-guide) — Spending coin wisely
-- [Endgame Guide](/guides/endgame-raids) — What "endgame" means in Dwarf Delve today

@@ -86,8 +86,6 @@ After the Troll is defeated, it is **consumed by darkness** and rises again in a
 - Her arrows also **stagger enemies** — including the Troll — opening windows for Ave to attack safely.
 - Defeat the risen Troll to complete the opening sequence and proceed deeper into Firleaves.
 
-> **Launch history note:** at launch, a progression-blocking bug involving the first boss was reported and patched within the first hour of release. If you are playing the current version, this is no longer an issue.
-
 ---
 
 ## 4. Second Boss: Shadow of Firleaves

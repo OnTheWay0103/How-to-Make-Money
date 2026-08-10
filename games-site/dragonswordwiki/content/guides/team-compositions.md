@@ -5,7 +5,7 @@ category: 'Builds'
 version: '1.0'
 updated: '2026-08-01'
 keywords: ['dragon sword awakening best team', 'dragonsword awakening team composition', 'dragonsword awakening team synergy', 'dragonsword awakening best party', 'dragonsword awakening status ailment combos', 'dragonsword awakening best starting heroes', 'dragonsword awakening tag team combos']
-related: ['tier-list', 'combat-guide', 'hero-builds-guide', 'character-builds', 'beginner-guide', 'hero-unlock-guide']
+related: ['tier-list', 'combat-guide', 'hero-builds-guide', 'beginner-guide', 'hero-unlock-guide']
 ---
 
 # Best Team Compositions — Team Synergy & Ailment Building Guide

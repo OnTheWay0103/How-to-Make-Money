@@ -1,16 +1,16 @@
 ---
 title: "DragonSword Wiki — Complete Guide Hub"
-description: "The ultimate community wiki for DragonSword: Awakening — the anime open-world action RPG by Hound13. Find hero tier lists, combat guides, boss strategies, familiar guides, and more."
+description: "The ultimate community wiki for DragonSword: Awakening — the anime open-world action RPG by HOUND13. Find hero tier lists, combat guides, boss strategies, familiar guides, and more."
 category: "Home"
 version: "1.0"
-updated: "2026-07-24"
-keywords: ["DragonSword", "DragonSword Awakening", "DragonSword wiki", "Hound13", "anime action RPG", "open world RPG"]
+updated: "2026-08-11"
+keywords: ["DragonSword", "DragonSword Awakening", "DragonSword wiki", "HOUND13", "anime action RPG", "open world RPG"]
 related: ["beginner-guide", "tier-list", "combat-guide", "hero-unlock-guide"]
 ---
 
 # DragonSword Wiki — Complete Guide Hub
 
-**Everything you need to master DragonSword: Awakening by Hound13.**
+**Everything you need to master DragonSword: Awakening by HOUND13.**
 
 DragonSword: Awakening launched on July 22, 2026 on Steam. This wiki covers all 19 heroes, combat systems, boss strategies, familiars, and endgame content for the launch build. Whether you are a new adventurer or pushing the Tower of Trials, you will find practical, up-to-date information here.
 
@@ -24,12 +24,10 @@ DragonSword: Awakening launched on July 22, 2026 on Steam. This wiki covers all 
 | [Hero Tier List](/guides/tier-list) | Character investment | Starter |
 | [Hero Unlock Guide](/guides/hero-unlock-guide) | Collecting all heroes | Starter |
 | [Combat Guide](/guides/combat-guide) | Signal Skills & combos | Intermediate |
-| [Boss Guide](/guides/boss-guide) | All boss strategies | Intermediate |
+| [Boss Guide](/guides/boss-guide) | Story bosses & World Bosses | Intermediate |
 | [Equipment Guide](/guides/equipment-guide) | Gearing & relics | Intermediate |
-| [Familiars Guide](/guides/familiars-guide) | Mounts & bonuses | Intermediate |
-| [World Bosses Guide](/guides/world-bosses-guide) | Endgame farming | Advanced |
-| [Tower of Trials Guide](/guides/tower-of-trials-guide) | Endgame challenges | Advanced |
-| [Cooking & Crafting Guide](/guides/cooking-guide) | Consumables & recipes | Starter |
+| [Familiars Guide](/guides/familiars-guide) | Companions & DLC | Intermediate |
+| [Endgame Guide](/guides/endgame-guide) | Tower of Trials, World Bosses & raids | Advanced |
 | [FAQ](/faq) | Quick answers | All |
 
 ---
@@ -52,9 +50,9 @@ Understand Relics, Karma equipment, weapon types, and the optimal loadouts for e
 
 ## What is DragonSword: Awakening?
 
-DragonSword: Awakening is a buy-to-play anime open-world action RPG developed by Hound13, a studio founded by the former producer of Dragon Nest. Set on the continent of Orbis, you assemble a party of up to 3 heroes from a roster of 19 to defeat a reawakened dragon threatening the world. The game launched on July 22, 2026 on Steam for $29.99 — no gacha, no microtransactions beyond cosmetic DLC.
+DragonSword: Awakening is a buy-to-play anime open-world action RPG developed by HOUND13, a studio founded by the former producer of Dragon Nest. Set on the continent of Orbis, you assemble a party of up to 3 heroes from a roster of 19 to defeat a reawakened dragon threatening the world. The game launched on July 22, 2026 on Steam for $29.99 — no gacha, no microtransactions beyond cosmetic DLC.
 
-The game centers on a unique tag-team combat system where you swap between three active party members in real time. By inflicting Status Ailments (Bleed, Stun, Airborne, Freeze, Burn, Shock) on enemies, you can trigger Signal Skills — powerful cinematic attacks from your benched heroes that consume the accumulated ailment stacks.
+The game centers on a unique tag-team combat system where you swap between three active party members in real time. By inflicting Status Ailments (Stun, Break, Bleed, Burn, Airborne, Electrocution, Knockdown) on enemies, you can trigger Signal Skills — powerful cinematic attacks from your benched heroes that consume the accumulated ailment stacks.
 
 ---
 
@@ -63,20 +61,19 @@ The game centers on a unique tag-team combat system where you swap between three
 - **19 Heroes** — Each with unique weapons, abilities, and playstyles. Unlocked through story, side quests, exploration, and secret dungeons
 - **Tag-Team Combat** — Real-time character swapping with 10 customizable skill slots per character
 - **Signal Skills** — Build Status Ailments to trigger cinematic chain attacks from party members
-- **Familiars** — ~30 magical creatures that serve as mounts and provide passive stat bonuses
+- **Familiars** — Collectible companion creatures; the Abyssal Direwolf is a free launch-period DLC familiar
 - **Relics & Karma Equipment** — Endgame gearing system with set bonuses, upgrades, and stat optimization
-- **9 World Bosses** — Open-world bosses on cooldown timers, dropping exclusive materials
+- **9 World Bosses** — Open-world bosses on a rotation, dropping exclusive materials
 - **Tower of Trials** — 50-floor endgame gauntlet with escalating difficulty and tiered rewards
 - **Cooking & Crafting** — Buff food, potions, and gear upgrades via gathered ingredients
-- **Optional Co-op** — Raids and exploration with up to 3 players via invitation codes
+- **Optional Co-op** — Battle (up to 2 players) and Raid (up to 3 players), host-based sessions
 
 ---
 
 ## Quick Start Links
 
 - [DragonSword: Awakening on Steam](https://store.steampowered.com/app/3065190/DragonSword_Awakening/)
-- [Hound13 official website](https://www.hound13.com)
-- [DragonSword: Awakening official trailer](https://www.youtube.com/watch?v=dragonsword)
+- [HOUND13 official website](https://www.hound13.com)
 
 ---
 

@@ -21,7 +21,7 @@ export default function Footer() {
         <div className="flex flex-col items-center gap-4">
           {/* Copyright */}
           <p className="text-sm text-gray-500 text-center">
-            &copy; 2026 Dwarf Delve Wiki. Unofficial fan wiki. Dwarf Delve is a trademark of Lone Kodiak Games.
+            &copy; 2026 Dwarf Delve Wiki. Unofficial fan wiki. Dwarf Delve is a trademark of Gloom Box / indie.io.
           </p>
 
           {/* Nav Links */}

@@ -11,11 +11,11 @@ keywords:
   - Lunarium ave skills
   - Lunarium ave equipment
 related:
-  - character-builds
   - skill-tree-guide
   - equipment-guide
   - combat-guide
   - lune-guide
+  - beginner-guide
 ---
 
 # Lunarium Ave Build Guide — Swordmaster Build Directions
@@ -28,7 +28,29 @@ This guide covers the confirmed mechanics behind building Ave. Specific skill na
 
 ---
 
-## 1. What Ave Can Do (Confirmed)
+## 1. How Builds Actually Work (No Classes)
+
+A common question about Lunarium is "what's the best class?" — and the honest answer is that **Lunarium has no classes**. You always play as **Ave** (the swordmaster) with **Lune** (the Starfarer) as your AI companion. "Builds" in Lunarium are the combination of:
+
+| System | Role | Confirmed? |
+|--------|------|------------|
+| **Ave's skill tree** | Sword techniques (unlocked through combat/exploration; powered up by collecting "threads of hope") | Yes (Steam page + press) |
+| **Lune's skill tree** | Suppressive magic support | Yes (Steam page + press) |
+| **Embroidery** | Passive enhancements — "charms" that support different combat styles | Yes (Steam page + walkthroughs) |
+| **Cloaks** | Appearance + ability effects (offense, defense, utility) | Yes (Steam page + press) |
+| **Weapon upgrades** | Upgraded at the Temple with gathered resources | Yes (press coverage) |
+| Stats / stat points / classes | Do not exist | Confirmed absent |
+
+Because of this, guides that describe "Knight / Pyromancer / Rogue classes", stat allocation, or level-based classes are **wrong** — that is not how the game works. The keywords "lunarium pyromancer build" and "lunarium rogue build" refer to *playstyles* you can approximate with embroidery and cloaks, not actual classes.
+
+### The "threads of hope" resource
+The Steam page states that players collect **"threads of hope"** throughout the journey to **boost strength and learn new skills and magic**. The skill trees develop **through combat and exploration** — so playing thoroughly is the intended way to grow your build, not leveling.
+
+> Some players search for "how to get animus in Lunarium" — **as of this writing no reliable source confirms what Animus is or how to get it.** It may be a mistranslation or community nickname for an existing resource (threads of hope, the resonance meter). See the [Skill Tree Guide](/guides/skill-tree-guide) for what's known.
+
+---
+
+## 2. What Ave Can Do (Confirmed)
 
 | Ability | Confirmed Details |
 |---------|--------------------|
@@ -44,7 +66,7 @@ This guide covers the confirmed mechanics behind building Ave. Specific skill na
 
 ---
 
-## 2. The Three Build Directions
+## 3. The Three Build Directions
 
 ### Direction 1: Parry Specialist (Recommended First Playthrough)
 
@@ -56,6 +78,8 @@ This guide covers the confirmed mechanics behind building Ave. Specific skill na
 | Embroidery focus | Parry/counter-related passives (names unconfirmed) |
 | Cloak focus | A cloak supporting counter play (specifics unconfirmed) |
 | Playstyle | Wait for the telegraph → parry → punish the stagger → reset. Dodge only the red flashes |
+
+**Why it works:** parrying staggers bosses and is the game's most powerful defensive tool; several bosses (Sentinel Colossus, Lilia) are built around parry windows.
 
 **Works best against:** telegraphed combo bosses — Longhorn Troll, Sentinel Colossus, Fintan, Lilia, Enid.
 
@@ -71,6 +95,8 @@ This guide covers the confirmed mechanics behind building Ave. Specific skill na
 | Embroidery focus | Mobility and on-hit passives (names unconfirmed) |
 | Cloak focus | A mobility/utility cloak (specifics unconfirmed) |
 | Playstyle | Weave 1-2 hits between enemy attacks, dodge through red flashes, use the Blade of Rutila to interrupt instead of fleeing |
+
+**Why it works:** dodge is your only answer to red-flash attacks; aggressive play keeps Lune's arrow and stagger pressure up.
 
 **Works best against:** evasive bosses (Red Dancer) and multi-enemy fights where standing still is death.
 
@@ -91,9 +117,45 @@ This guide covers the confirmed mechanics behind building Ave. Specific skill na
 
 **Works best against:** sustained fights (Hauler Colossus, the Sea Monster) where steady pressure wins.
 
+> **Honest caveat:** we cannot give you exact "S-tier skill" names or precise embroidery stats yet. The specific names, numbers, and locations of build-defining items are not documented by reliable sources at this time. We will update this page as the community verifies them.
+
 ---
 
-## 3. Priority Order by Progression Stage
+## 4. Lune's Role in Your Build
+
+Lune is an AI companion, but she is not passive — her confirmed abilities shape every build:
+
+| Ability (confirmed) | Effect |
+|---------------------|--------|
+| **Light arrows** | Destroy Nihilus orbs; stagger enemies |
+| **Interrupts** | Can stop certain boss attacks (Shadow of Firleaves shockwave, Fintan's wide-area attack) |
+| **Combat support** | Fights alongside Ave; builds enemy stagger via Resonance (per reviews) |
+| **Puzzle support** | Solves environmental obstacles (gates of light, bells, etc.) |
+| **Healing** | Reviews confirm she heals Ave in combat |
+
+**Lune build priorities (unconfirmed specifics):**
+- Her skill tree contains **suppressive magic** upgrades (Steam page). Common-sense priorities: support/healing upgrades first if you struggle to survive; damage/stagger upgrades if you want faster kills.
+- D-pad commands let you direct her attention (per press coverage) — in boss fights, point her at the boss so her arrow is ready for interrupts.
+
+See the [Lune Guide](/guides/lune-guide) for the full breakdown.
+
+---
+
+## 5. Builds for Common Playstyles (Keyword-Guided)
+
+Players searching for specific archetypes should think of them this way:
+
+| Search Term | Reality in Lunarium |
+|-------------|---------------------|
+| "swordmaster build" | That's just Ave — parry-focused is the default identity |
+| "pyromancer build" | No fire mage exists; closest is a Resonance-focused build maximizing Lune's offensive magic |
+| "rogue build" | No stealth class exists; closest is the mobile Aggressive Dancer direction |
+| "tank build" | No tank role; heavy defense comes from defensive embroidery/cloaks (unconfirmed specifics) |
+| "best class" | No classes — the question is which Ave direction + which Lune support fits you |
+
+---
+
+## 6. Priority Order by Progression Stage
 
 | Stage | Priority |
 |-------|----------|
@@ -104,7 +166,7 @@ This guide covers the confirmed mechanics behind building Ave. Specific skill na
 
 ---
 
-## 4. Equipment for Ave (Confirmed Systems)
+## 7. Equipment for Ave (Confirmed Systems)
 
 ### Cloaks
 Cloaks are real and confirmed: each cloak has **both a unique appearance and ability effects** (offense, defense, or utility). The **Wayfarer's Cloak** is received in Starfall Village after the Firleaves bosses.
@@ -127,7 +189,13 @@ Cloaks are real and confirmed: each cloak has **both a unique appearance and abi
 
 ---
 
-## 5. Common Ave Mistakes
+## 8. Respec
+
+Respeccing skill points **is not confirmed** in Lunarium — no reliable source documents a respec feature. If you're worried, spread early points conservatively.
+
+---
+
+## 9. Common Ave Mistakes
 
 1. **Parrying red flashes** — red = dodge. Every boss punishes this hard.
 2. **Ignoring Lune's arrow** — she clears Nihilus orbs and staggers; fights designed around her (Sea Monster, Fintan) stall without her.
@@ -137,10 +205,20 @@ Cloaks are real and confirmed: each cloak has **both a unique appearance and abi
 
 ---
 
+## 10. Build Myths to Ignore
+
+- ❌ "Choose a class at the start" — no classes exist.
+- ❌ "Put points into Strength/Intelligence" — no stat allocation exists.
+- ❌ "Lunarium has 6 classes with skill trees per class" — false; two characters, two skill trees.
+- ❌ "S-tier gear sets per class" — gear is cloaks + embroidery + weapons, not class sets.
+- ❌ "Skill points from leveling" — no levels exist.
+
+---
+
 ## Related Guides
 
-- [Character Builds Guide](/guides/character-builds) — how builds work overall (no classes!)
 - [Skill Tree Guide](/guides/skill-tree-guide) — Ave and Lune's skill trees
 - [Equipment Guide](/guides/equipment-guide) — cloaks, embroidery, weapons, upgrades
 - [Combat Guide](/guides/combat-guide) — parry, dodge, Resonance fundamentals
 - [Lune Guide](/guides/lune-guide) — making the most of your companion
+- [Beginner Guide](/guides/beginner-guide) — getting started

@@ -1,15 +1,27 @@
 ---
 title: 'Equipment & Relics Guide — How Gear Works'
 description: 'DragonSword: Awakening equipment guide — fixed hero weapons, gear from quests and exploration, Karma gear as the endgame tier, relics, and honest upgrade advice. No invented names or numbers.'
+category: 'Equipment'
+version: '1.0'
+updated: '2026-08-11'
 keywords: ['best equipment', 'relics guide', 'karma gear', 'weapon guide', 'best weapons', 'how to get gear', 'gear farming']
-updated: '2026-08-01'
+related: ['endgame-guide', 'hero-builds-guide', 'team-compositions', 'tier-list']
 ---
 
 ## DragonSword: Awakening Equipment Guide
 
 Gear is how you grow in DragonSword: Awakening — and every piece of it is earned through gameplay, because the game has **no gacha and no microtransactions for power**. This guide covers what is confirmed about equipment, weapons, relics, and Karma gear, and marks the many unverified details as TBD.
 
-**Accuracy note:** earlier drafts of this guide (and many external guides) published weapon names, relic set names, slot layouts, and upgrade materials. None of that is verified by official sources and it has all been removed. This guide states only what is confirmed.
+**Accuracy note:** earlier drafts of this guide (and many external guides) published weapon names, relic set names, slot layouts, upgrade materials, and gear tier tables (Iron, Steel, Mythril, and so on). None of that is verified by official sources and it has all been removed. This guide states only what is confirmed.
+
+## The Confirmed Gear Path
+
+Gear progression follows a confirmed arc:
+
+1. **Starting gear** — quest and story rewards carry you through the prologue and early chapters
+2. **Dungeon and exploration drops** — hidden dungeons, treasure, and side content yield better equipment
+3. **World Boss and endgame drops** — the strongest confirmed gear sources, tied to the endgame loop
+4. **Karma gear** — the confirmed high-end tier, associated with World Bosses and the Tower of Trials
 
 ## Equipment Overview — What Is Confirmed
 
@@ -37,8 +49,9 @@ Named weapons like "Dragonfang Blade" or "Bloodletter Set" that appear in other 
 
 ## Karma Gear
 
-**Karma gear** is the confirmed high-end equipment tier:
+**Karma gear** is the most important confirmed gear concept:
 
+- It is a distinct, high-end equipment tier
 - Associated with **World Bosses and the Tower of Trials** (player-reported sources, not officially confirmed)
 - Described by players as having unique effects that change how skills work — no verified list of effects exists
 
@@ -60,6 +73,8 @@ Named weapons like "Dragonfang Blade" or "Bloodletter Set" that appear in other 
 2. **Then relic/set bonuses** — set effects matter more than single-piece stats
 3. **Defense last** — you cannot lose a fight you win fast
 
+Only upgrade gear you expect to keep for several chapters.
+
 ## Where to Farm Gear (Confirmed Sources)
 
 | Stage | Sources |
@@ -67,6 +82,8 @@ Named weapons like "Dragonfang Blade" or "Bloodletter Set" that appear in other 
 | Prologue – Chapter 1 | Main quests, first dungeons, exploration |
 | Chapters 2 – 3 | Story and side quests, hidden dungeons, treasure hunting |
 | Endgame | World Bosses, Tower of Trials, Hunts, 3-player raids |
+
+The game's official description explicitly lists "treasure hunting" and "dungeon exploration" as core activities, so exploration is a first-class gear source — not an afterthought.
 
 ## Systems That Do NOT Exist
 
@@ -91,4 +108,4 @@ No. The game is buy-to-play with no microtransactions for power — cosmetic DLC
 
 ## Bottom Line
 
-Equipment in DragonSword: Awakening is: quest and exploration drops → endgame sources → Karma gear. Weapons are fixed per hero, relics exist as a set-bonus category, and every number beyond that is still being documented. For the progression arc, see the [Gear Progression Guide](/guides/gear-progression); for hero-specific direction, the [Hero Builds Guide](/guides/hero-builds-guide).
+Equipment in DragonSword: Awakening is: quest and exploration drops → endgame sources → Karma gear. Weapons are fixed per hero, relics exist as a set-bonus category, and every number beyond that is still being documented. For hero-specific direction, see the [Hero Builds Guide](/guides/hero-builds-guide).

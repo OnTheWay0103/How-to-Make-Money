@@ -21,7 +21,7 @@ related:
 
 **Lunarium 1.0 / Updated: August 1, 2026**
 
-This guide was previously published with invented details — three endings, a "Star Core" choice, memory islands, and a "true ending" with fake requirements. That content was **wrong**, and this is the corrected version. Here is exactly what is known about Lunarium's endings, nothing more.
+Some guides claim Lunarium has three endings, a "Star Core" choice, memory islands, or a "true ending" with specific requirements — none of that appears in any reliable source. Here is exactly what is known about Lunarium's endings, nothing more.
 
 ---
 
@@ -81,7 +81,7 @@ Without confirmed requirements, sensible preparation for seeing both endings:
 | "True Ending requires max bond + pendant choices" | **Fabricated** |
 | "NG+ unlocks all endings in one run" | **Fabricated** — NG+ itself is unconfirmed |
 
-These claims all trace back to AI-generated filler guides published before the game's launch details were verified. The final boss is **Enid** in Paradise of Yore, not a "Star-Eater" in an "Abyss of Stars."
+None of these claims appear in any reliable source. The final boss is **Enid** in Paradise of Yore, not a "Star-Eater" in an "Abyss of Stars."
 
 ---
 

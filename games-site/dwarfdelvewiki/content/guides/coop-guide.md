@@ -4,10 +4,9 @@ description: 'Dwarf Delve is single-player only — confirmed by the Steam listi
 keywords: ['dwarf delve co op', 'dwarf delve multiplayer', 'dwarf delve play with friends', 'dwarf delve single player', 'dwarf delve co op guide']
 category: Multiplayer
 version: '1.0'
-updated: '2026-08-01'
+updated: '2026-08-11'
 related:
   - beginner-guide
-  - solo-guide
   - release-date-faq
 ---
 
@@ -25,7 +24,7 @@ A few honest reasons the multiplayer question keeps coming up:
 
 1. **The genre association** — extraction games (Tarkov, ARC Raiders) are usually multiplayer. Dwarf Delve is a PvE extraction game with no PvP and no multiplayer.
 2. **Name collisions** — "Dwarf Delve" search terms collide with other dwarf games and mining co-op games, dragging co-op queries into this game's results.
-3. **Fabricated guides** — low-quality guide sites invent co-op sections to capture search traffic. The keyword research behind this wiki flagged "dwarf delve co op" as low-confidence precisely because no release information mentions multiplayer.
+3. **Fabricated guides** — low-quality guide sites invent co-op sections to capture search traffic. The Steam listing has simply never mentioned multiplayer, which doesn't stop some sites from inventing it.
 
 ## What the Game Actually Offers
 
@@ -69,7 +68,7 @@ For the solo extraction loop itself, Dwarf Delve at $12.99 (or $10.39 during the
 
 ## Solo Player FAQ
 
-**Is Dwarf Delve worth playing alone?** It's designed for it — solo is the only mode. See our [Solo Guide](/guides/solo-guide) and [Is It Worth It?](/guides/is-dwarf-delve-worth-it) guides for the honest assessment.
+**Is Dwarf Delve worth playing alone?** It's designed for it — solo is the only mode. See our [Beginner Guide](/guides/beginner-guide) and [Is It Worth It?](/guides/is-dwarf-delve-worth-it) guides for the honest assessment.
 
 **Does single-player mean it's easy?** No — the game's threats (collapse, traps, darkness) don't scale down; they're balanced for one player. Early reviews (Mostly Negative, ~25 reviews) call the game rough around the edges but with solid foundations.
 

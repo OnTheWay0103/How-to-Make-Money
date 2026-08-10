@@ -2,7 +2,9 @@
 title: 'FAQ — Frequently Asked Questions About DragonSword: Awakening'
 description: 'Answers to the most common questions about DragonSword: Awakening — price, platforms, heroes, combat, familiars, co-op, system requirements, and roadmap. Fact-checked, unconfirmed items marked TBD.'
 keywords: ['FAQ', 'frequently asked questions', 'common questions', 'game info', 'system requirements']
-updated: '2026-08-01'
+category: 'FAQ'
+version: '1.0'
+updated: '2026-08-11'
 ---
 
 ## DragonSword: Awakening — Frequently Asked Questions
@@ -13,7 +15,7 @@ This FAQ is **fact-checked against verified sources**. Where the answer is not y
 
 ### What is DragonSword: Awakening?
 
-A buy-to-play, anime-style **open-world action RPG** developed by South Korean studio **HOUND13** (creators of *Hundred Soul*), built on **Unreal Engine 5**. You play **Lute**, a young boy who joins a mercenary band on the continent of **Orbis**, tracing the footsteps of the six Heroes of Old to stop a dragon that awakened after 60 years. It launched on Steam on **July 22, 2026**.
+A buy-to-play, anime-style **open-world action RPG** developed by South Korean studio **HOUND13** (creators of *Hundred Soul*). You play **Lute**, a young boy who joins a mercenary band on the continent of **Orbis**, tracing the footsteps of the six Heroes of Old to stop a dragon that awakened after 60 years. It launched on Steam on **July 22, 2026**.
 
 ### How much does it cost?
 
@@ -21,11 +23,11 @@ A buy-to-play, anime-style **open-world action RPG** developed by South Korean s
 
 ### What platforms is it on?
 
-**PC via Steam** at launch. **PlayStation and Nintendo versions are officially underway** (a PS5 port has been specifically reported); release dates are TBD. Xbox has **not** been announced.
+**PC via Steam** at launch. Console versions have been **reported to be in development** (a PS5 port specifically); official release dates are TBD. Xbox has **not** been announced.
 
 ### Is DragonSword: Awakening pay-to-win?
 
-No. There is no gacha, no premium currency for power, and no paid heroes. All **19 heroes** are earned through story progression and gameplay. The only paid content is the Deluxe Edition and cosmetic DLC (a beach costume pack has already shipped in patch 1.0.6).
+No. There is no gacha, no premium currency for power, and no paid heroes. All **19 heroes** are earned through story progression and gameplay. The only paid content is the Deluxe Edition and cosmetic DLC (a beach costume pack has already shipped).
 
 ### What are the system requirements?
 
@@ -81,7 +83,7 @@ Unconfirmed (community estimates of 15–20 hours are reasonable but unverified)
 
 ### Can I respec my character?
 
-There is no stat allocation or skill tree to respec — heroes have fixed kits (see the [Character Builds Guide](/guides/character-builds)).
+There is no stat allocation or skill tree to respec — heroes have fixed kits (see the [Hero Builds Guide](/guides/hero-builds-guide)).
 
 ## Familiars
 
@@ -111,7 +113,7 @@ Cross-play with the upcoming console versions has **not been announced**.
 
 ### Is the game optimized?
 
-It runs on Unreal Engine 5 and holds a "Very Positive" rating on Steam (~90% positive across 1,600+ English reviews). Individual performance reports vary by hardware.
+It holds a "Very Positive" rating on Steam, per the store page. Individual performance reports vary by hardware.
 
 ### Can I play offline?
 
@@ -123,13 +125,13 @@ Not confirmed either way. The game's online features (co-op) require a connectio
 
 ### Will there be post-launch content?
 
-Yes — confirmed roadmap: **four free heroes** (Ryza first, then Jerome, Veronica, Logan), **DLC plans**, and ongoing patches (a beach costume pack and patch 1.0.6 have already shipped). The **Rift System** has been announced as a post-launch feature; its details are unconfirmed.
+Yes — confirmed roadmap: **four free heroes** (Ryza first, then Jerome, Veronica, Logan), **DLC plans**, and ongoing patches (a beach costume pack has already shipped). The **Rift System** has been announced as a post-launch feature; its details are unconfirmed.
 
 ## Community Questions
 
 ### Is the game worth buying?
 
-Most players say yes: 200,000+ copies sold in under two weeks, "Very Positive" reviews, praised combat, and a no-gacha design. Common criticisms: no PvP and a story some players found shorter than expected.
+Most players say yes: a "Very Positive" Steam rating, praised combat, and a no-gacha design. Common criticisms: no PvP and a story some players found shorter than expected.
 
 ### How does it compare to Genshin Impact or Wuthering Waves?
 

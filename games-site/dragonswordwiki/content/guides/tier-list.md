@@ -2,7 +2,9 @@
 title: 'Hero Tier List — Early-Meta Rankings (August 2026)'
 description: 'DragonSword: Awakening hero tier list based on confirmed kits and early player reports. S to C tiers for confirmed heroes, plus an honest TBD list for heroes whose kits are unrevealed.'
 keywords: ['tier list', 'best heroes', 'hero ranking', 'character tier list', 'strongest characters', 'best starting hero']
-updated: '2026-08-01'
+category: 'Tier List'
+version: '1.0'
+updated: '2026-08-11'
 ---
 
 ## DragonSword: Awakening Hero Tier List (August 2026)
@@ -68,11 +70,11 @@ Confirmed **Stun** specialist and spiritist of the Red Fox Mercenary Corps. Her 
 
 ## Unranked — Kits Not Yet Revealed (TBD)
 
-These heroes are confirmed to exist in the 19-hero roster, but their kits and roles have not been officially detailed as of August 2026. Any tier list that ranks them in detail is speculating:
+These heroes are confirmed to exist in the 19-hero roster, but their kits and roles have not been officially detailed as of August 2026. We rank only officially confirmed kits; community-documented kits exist for some of these heroes (see the [Cerese Guide](/guides/cerese-guide), [Reina Guide](/guides/reina-guide), and [Kalsion Guide](/guides/kalsion-guide)), and their community tier placements are noted there:
 
-- **Cerese** — Orbis Magic Knight Order commander (kit unrevealed)
-- **Reina** — Orbis Royal Castle 8th Knight Order captain (kit unrevealed)
-- **Kalsion** — king of the Orbis Royal Castle (kit unrevealed)
+- **Cerese** — Orbis Magic Knight Order commander (kit unrevealed officially; community-documented frost kit)
+- **Reina** — Orbis Royal Castle 8th Knight Order captain (kit unrevealed officially; community-documented Airborne kit)
+- **Kalsion** — king of the Orbis Royal Castle (kit unrevealed officially; community-documented fire kit)
 - **Charlotte** — revealed June 2026 with a previewed combat kit (details limited)
 - **Roxy** — bow user (details limited)
 

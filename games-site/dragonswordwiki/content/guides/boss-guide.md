@@ -2,7 +2,9 @@
 title: 'Boss Guide — Story Bosses, World Bosses & the Final Fight'
 description: 'DragonSword: Awakening boss guide covering confirmed story bosses (Orc Warrior, Furcas, Grassland Lesser Dragon, Barduk, Lich, Ursula), World Bosses, and Origin Dragons — verified names only, patterns marked as player footage.'
 keywords: ['boss guide', 'all bosses', 'world boss', 'Grassland Lesser Dragon', 'Barduk', 'Ursula', 'boss strategies', 'how to beat bosses', 'origin dragon']
-updated: '2026-08-01'
+category: 'Bosses'
+version: '1.0'
+updated: '2026-08-11'
 ---
 
 ## DragonSword: Awakening Boss Guide
@@ -51,7 +53,7 @@ The confirmed final boss of the main story, described by players as a **three-ph
 
 ## World Bosses
 
-World Bosses are a **confirmed endgame system** — open-world bosses on a rotation, farmed for materials and gear. What is not confirmed:
+World Bosses are a **confirmed endgame system** — **9 open-world bosses per the official description**, on a rotation, farmed for materials and gear. What is not confirmed:
 
 - The names of individual World Bosses. **Names like Pakirus, Gallore, or Andras that appear in other guides are not verified** and are not repeated here
 - Their locations and spawn timers

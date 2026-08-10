@@ -4,8 +4,12 @@ description: 'Dwarf Delve release date (July 27, 2026), price ($12.99), demo, pl
 keywords: ['dwarf delve release date', 'dwarf delve demo', 'dwarf delve steam', 'dwarf delve price', 'dwarf delve system requirements', 'dwarf delve FAQ']
 category: Info
 version: '1.0'
-updated: '2026-08-01'
-related: ['beginner-guide', 'meta-progression-guide', 'is-dwarf-delve-worth-it', 'achievements-guide']
+updated: '2026-08-11'
+related:
+  - beginner-guide
+  - meta-progression-guide
+  - is-dwarf-delve-worth-it
+  - achievements-guide
 ---
 
 ## Release Information
@@ -48,7 +52,9 @@ The official pitch ends with: "One wrong boot could cost you your life — or wo
 - **Launch discount**: 20% off ($10.39) through August 10, 2026
 - **DLC**: A Dwarf Delve Soundtrack DLC is available; a Deluxe bundle (game + soundtrack) exists. No other DLC or microtransaction announcements exist as of August 2026.
 
-## System Requirements (Official)
+## System Requirements (per the Steam Store Page)
+
+The requirements below are taken directly from the Steam store page.
 
 ### Minimum
 - **OS**: Windows 7 64-bit (Steam Client supports Windows 10+ as of January 2024)
@@ -94,11 +100,12 @@ The game ships with **21 Steam achievements**. Four have been named in official 
 - Tools: Battlemallet, lantern, flares, floodlights, support beams, ladders, minecart rails, gear hooks
 - Gear upgrading and customization ("every piece of gear can be upgraded and customized to your playstyle")
 - Perks and skills bought with coin; themes: move faster, hit harder, carry more loot
+- Three perk trees: Might, Resilience, Fortune
 - Quarters customization (carpets, furnishings, wall art); some furnishings may have gameplay effects
 - Ore refining at home; trading resources for coin
 
 ### Unconfirmed (no official information)
-- Specific ore, enemy, and boss names; biome names; perk names and prices; upgrade costs; run length; difficulty options; controller support; offline play; pause functionality; demo progress carryover; respec options
+- Specific ore, enemy, and boss names; biome names; individual perk names and prices (the three perk trees are confirmed); upgrade costs; run length; difficulty options; controller support; offline play; pause functionality; demo progress carryover; respec options
 
 ## Frequently Asked Questions
 

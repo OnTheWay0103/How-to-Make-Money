@@ -14,8 +14,8 @@ related:
   - endings-guide
   - boss-guide
   - daily-weekly-guide
-  - secrets-guide
   - exploration-guide
+  - skill-tree-guide
 ---
 
 # Lunarium Endgame Guide — Post-Credits Content (Honest)
@@ -52,7 +52,7 @@ That resume option is the entire post-game entry point. There is no "chapter sel
 | **Echoes of Yore** | Shadow of Firleaves drop (key item) |
 | **Stellar Cores** | Lilia (Cyanstone), Doro (Dreampath) |
 
-Community walkthroughs suggest more hidden chests and secrets exist than are documented — details **unconfirmed** (see the [Secrets Guide](/guides/secrets-guide)).
+Community walkthroughs suggest more hidden chests and secrets exist than are documented — details **unconfirmed** (see the [Exploration Guide](/guides/exploration-guide)).
 
 ### The Second Ending
 Lunarium has **two distinct endings** (press-confirmed). If you've seen one, replaying to reach the other is the main "endgame goal" — though the exact requirements for each ending are **unconfirmed** as of this writing. See the [Endings Guide](/guides/endings-guide).
@@ -107,5 +107,5 @@ Any guide claiming "NG+ unlocks with carried-over charms and harder enemies" is 
 - [Endings Guide](/guides/endings-guide) — the two endings, what's confirmed
 - [Boss Guide — All Bosses](/guides/boss-guide) — Enid and the full roster
 - [Daily & Weekly Guide](/guides/daily-weekly-guide) — why there's no routine grind
-- [Secrets Guide](/guides/secrets-guide) — hidden content to find post-game
-- [Exploration Guide](/guides/exploration-guide) — where to spend cleanup time
+- [Exploration Guide](/guides/exploration-guide) — hidden content to find post-game
+- [Skill Tree Guide](/guides/skill-tree-guide) — skills and unlocks worth finishing

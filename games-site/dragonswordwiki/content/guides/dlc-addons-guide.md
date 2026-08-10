@@ -2,7 +2,9 @@
 title: 'DLC & Add-Ons Guide — Abyssal Direwolf, Costumes & Bundles'
 description: 'DragonSword: Awakening DLC guide — the limited-time free Abyssal Direwolf familiar (claim deadline, how to claim, Boost Jump abilities), the Phantom Thief of Dawn costume, and the Hero Costume Bundle.'
 keywords: ['dlc', 'abyssal direwolf', 'free dlc', 'how to claim dlc', 'costume dlc', 'familiars dlc', 'add-ons']
-updated: '2026-08-08'
+category: 'DLC'
+version: '1.0'
+updated: '2026-08-11'
 ---
 
 ## DragonSword: Awakening DLC & Add-Ons Guide
@@ -32,9 +34,9 @@ The free window ends around **August 30–31, 2026**:
 
 ### What It Costs After the Window
 
-The post-promo price is **reported inconsistently — $7.99** per one outlet and **$3.99** per another. Whichever is accurate, the free claim saves you real money, and the DLC is a **permanent account addition** once claimed.
+The post-promo price is **reported inconsistently — $7.99** per one outlet and **$3.99** per another; check the Steam store page for the current price. Whichever is accurate, the free claim saves you real money, and the DLC is a **permanent account addition** once claimed.
 
-### How to Claim (Confirmed Steps)
+### How to Claim (Reported Steps)
 
 1. **Own the base game** — required to use the DLC.
 2. Go to the Steam store page for **"DragonSword : Awakening - Familiar : Abyssal Direwolf"** and add it to your library while it shows **"Free."**
@@ -47,7 +49,7 @@ The post-promo price is **reported inconsistently — $7.99** per one outlet and
 
 **Troubleshooting:** if the Claim button does not appear, **restart the game** after the DLC download completes — a known first-time step.
 
-### Abyssal Direwolf Abilities (Confirmed by Coverage)
+### Abyssal Direwolf Abilities (per the Steam Store Page)
 
 | Ability | Effect |
 |---------|--------|
@@ -58,11 +60,11 @@ The post-promo price is **reported inconsistently — $7.99** per one outlet and
 
 **Lore:** the Abyssal Direwolf is a wolf "living in pure darkness" that loves children despite its eerie appearance; its howl is said to drive away nightmares and ghosts.
 
-**Why it matters:** familiars provide passive bonuses (elemental stat bonuses, damage-over-time triggers) and traversal help — see the [Familiars Guide](/guides/familiars-guide) for the system.
+**Why it matters:** familiars are a real companion system with traversal benefits (documented on the DLC's store page) — see the [Familiars Guide](/guides/familiars-guide) for the full picture.
 
 ## Costume: Phantom Thief of Dawn — $3.99
 
-A **cosmetic costume DLC** priced at **$3.99 USD** (current price; matches its recorded low). Cosmetic only — no stat or power changes. Available on Steam for owners of the base game.
+A **cosmetic costume DLC** priced at **$3.99 USD** per the Steam store page (it also matches its recorded low). Cosmetic only — no stat or power changes. Available on Steam for owners of the base game.
 
 ## Hero Costume Bundle
 

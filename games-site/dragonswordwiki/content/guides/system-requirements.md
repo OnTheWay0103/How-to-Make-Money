@@ -2,12 +2,14 @@
 title: 'DragonSword: Awakening System Requirements — PC Specs & Performance Guide'
 description: 'DragonSword: Awakening minimum and recommended PC specs — Windows 10/11, i5-9400F/GTX 1660 minimum, i7-9700F/RTX 3060 recommended, 25 GB storage, the SSD requirement, and Steam Deck status.'
 keywords: ['system requirements', 'pc specs', 'minimum requirements', 'recommended specs', 'dragonsword performance', 'steam deck', 'ssd requirement']
-updated: '2026-08-08'
+category: 'Technical'
+version: '1.0'
+updated: '2026-08-11'
 ---
 
 ## DragonSword: Awakening System Requirements & PC Specs Guide
 
-DragonSword: Awakening (HOUND13's gacha-free action RPG, released July 22/23, 2026 on PC via Steam) is a fast, anime-style combat game — and it has a hard requirement many players miss: **an SSD**. This guide covers the published minimum and recommended specs, the SSD rule, and what they mean in practice.
+DragonSword: Awakening (HOUND13's gacha-free action RPG, released July 22/23, 2026 on PC via Steam) is a fast, anime-style combat game — and it has a hard requirement many players miss: **an SSD**. This guide covers the minimum and recommended specs published on the game's **Steam store page**, the SSD rule, and what they mean in practice.
 
 ## Official Minimum Requirements
 

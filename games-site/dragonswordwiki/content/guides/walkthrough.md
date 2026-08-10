@@ -2,7 +2,9 @@
 title: 'Walkthrough — Main Story Guide (Prologue to Final Boss)'
 description: 'DragonSword: Awakening main story walkthrough — confirmed story beats from the prologue to the Ursula final boss, verified boss encounters, and honest TBD markers for undocumented chapters.'
 keywords: ['walkthrough', 'story guide', 'chapter guide', 'main quest', 'prologue', 'final boss', 'how to beat']
-updated: '2026-08-01'
+category: 'Walkthrough'
+version: '1.0'
+updated: '2026-08-11'
 ---
 
 ## DragonSword: Awakening Main Story Walkthrough

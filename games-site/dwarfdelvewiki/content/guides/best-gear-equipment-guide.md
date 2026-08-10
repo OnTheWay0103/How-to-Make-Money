@@ -4,8 +4,12 @@ description: 'Complete Dwarf Delve equipment guide — Battlemallet, lanterns, f
 keywords: ['dwarf delve gear', 'dwarf delve equipment', 'dwarf delve battlemallet', 'dwarf delve lantern', 'dwarf delve best tools']
 category: Gear
 version: '1.0'
-updated: '2026-08-01'
-related: ['perks-skills-guide', 'crafting-guide', 'beginner-guide', 'mining-guide']
+updated: '2026-08-11'
+related:
+  - perks-skills-guide
+  - crafting-guide
+  - beginner-guide
+  - mining-strategies-guide
 ---
 
 ## Your Tools Are Your Lifeline

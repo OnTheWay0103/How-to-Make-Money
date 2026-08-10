@@ -9,61 +9,61 @@ const FEATURED_GUIDES = [
     description: 'New to Dwarf Delve? Learn the core loop — descend into mines, gather ores and relics, craft supports, fight dangers, and extract alive. Everything a new Delveling needs to know.',
     slug: 'beginner-guide',
     category: 'Beginner',
-    updated: '2026-07-25',
+    updated: '2026-08-01',
   },
   {
     title: 'Mining Strategies: How to Maximize Loot',
     description: 'Master the art of dwarven mining. Learn optimal depth strategies, rare ore locations, resource priorities, and when to push deeper versus extract with what you have.',
     slug: 'mining-strategies-guide',
     category: 'Mining',
-    updated: '2026-07-25',
+    updated: '2026-08-01',
   },
   {
     title: 'Best Gear & Equipment Guide',
     description: 'Every tool and equipment upgrade ranked. Battlemallets, lanterns, flares, floodlights, support beams — which upgrades give you the best return on investment.',
     slug: 'best-gear-equipment-guide',
     category: 'Gear',
-    updated: '2026-07-25',
+    updated: '2026-08-01',
   },
   {
     title: 'Perks & Skills Guide: Best Upgrades',
-    description: 'Complete breakdown of every perk and skill tree. Learn which upgrades make you faster, hit harder, and carry more — and the optimal unlock order for new players.',
+    description: 'What\'s confirmed about the perk system — the three perk trees (Might, Resilience, Fortune), the upgrade themes, and safe spending priorities while individual perk data is unpublished.',
     slug: 'perks-skills-guide',
     category: 'Builds',
-    updated: '2026-07-25',
+    updated: '2026-08-01',
   },
   {
     title: 'Extraction Guide: How to Escape Alive',
     description: 'Master the extraction loop — when to push deeper, when to bail, how to protect your loot, and how to handle collapsing tunnels and the elevator escape.',
     slug: 'extraction-guide',
     category: 'Extraction',
-    updated: '2026-07-25',
+    updated: '2026-08-01',
   },
   {
     title: 'Crafting Guide: Beams, Platforms & Tools',
     description: 'Everything you can craft and when to craft it. Support beams, ladders, platforms, flares, and other survival tools that keep you alive in the deep mines.',
     slug: 'crafting-guide',
     category: 'Crafting',
-    updated: '2026-07-25',
+    updated: '2026-08-01',
   },
 ];
 
 const FAQ_ITEMS = [
   {
     question: 'What is Dwarf Delve?',
-    answer: 'Dwarf Delve is a first-person extraction roguelite developed by solo developer Gloom Box (Dante Knoxx) and published by indie.io. You play as a Delveling dwarf descending into procedurally generated mines to collect ores, treasures, and relics. The deeper you go, the richer the rewards — but if you stay too long, the tunnels collapse and you lose everything. It launches on Steam on July 27, 2026.',
+    answer: 'Dwarf Delve is a first-person extraction roguelite developed by solo developer Gloom Box (Dante Knoxx) and published by indie.io. You play as a Delveling dwarf descending into procedurally generated mines to collect ores, treasures, and relics. The deeper you go, the richer the rewards — but if you stay too long, the tunnels collapse and you lose everything. It released on Steam on July 27, 2026.',
   },
   {
     question: 'Is Dwarf Delve free to play?',
-    answer: 'No. Dwarf Delve is a paid game launching on Steam. The exact price has not been announced yet, but similar indie roguelite games typically range from $14.99 to $19.99 USD. A free demo is currently available on Steam so you can try the core gameplay loop before buying.',
+    answer: 'No. Dwarf Delve is a paid game on Steam, released July 27, 2026 at $12.99 (with a 20% launch discount to $10.39 through August 10, 2026). A free demo is available on Steam so you can try the core gameplay loop before buying.',
   },
   {
     question: 'Is there co-op or multiplayer?',
-    answer: 'Dwarf Delve is primarily a single-player experience. The game focuses on the solo Delveling\'s journey into the deep mines, managing risk versus reward on your own. Co-op multiplayer has not been announced but may be considered based on community feedback post-launch.',
+    answer: 'No. Dwarf Delve is single-player only — confirmed by the Steam listing. There is no co-op or multiplayer, and the developer has made no announcement about adding any.',
   },
   {
     question: 'What platforms is Dwarf Delve on?',
-    answer: 'Dwarf Delve launches on PC via Steam on July 27, 2026. Console versions have not been confirmed. The game is developed by a solo developer, so the initial focus is on the PC Steam release.',
+    answer: 'Dwarf Delve is on PC via Steam (released July 27, 2026), and is also listed on Epic Games Store and GOG. Console versions have not been confirmed. The game is developed by a solo developer, so the initial focus is on the PC release.',
   },
   {
     question: 'Is there a demo available?',

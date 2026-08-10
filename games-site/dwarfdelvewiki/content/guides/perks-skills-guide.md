@@ -4,8 +4,11 @@ description: 'Dwarf Delve perks and skills, honestly documented. The confirmed f
 keywords: ['dwarf delve perks', 'dwarf delve skills', 'dwarf delve best perks', 'dwarf delve meta progression', 'dwarf delve build']
 category: Builds
 version: '1.0'
-updated: '2026-08-01'
-related: ['best-gear-equipment-guide', 'meta-progression-guide', 'beginner-guide']
+updated: '2026-08-11'
+related:
+  - best-gear-equipment-guide
+  - meta-progression-guide
+  - beginner-guide
 ---
 
 ## The Perk System: The Honest Version
@@ -18,7 +21,7 @@ And one more line from the press materials confirms what perks do:
 
 > Perks and skills let you **"move faster, hit harder, carry more loot."**
 
-That is the complete official picture of the perk system. **No official perk names, trees, tiers, or prices have been published.** Any guide that lists "the Might tree," "Phoenix Heart," or "Midas Touch" with coin costs is inventing content — the game is five days old and its perk roster has not been documented anywhere reliable.
+That is the complete official picture of the perk system, with one addition: the **three perk trees — Might, Resilience, and Fortune — are officially confirmed**. **No individual perk names, tiers, or prices have been published.** Any guide that lists "Phoenix Heart," "Midas Touch," or similar named perks with coin costs is inventing content — the game is new (released July 27, 2026) and its perk roster has not been documented anywhere reliable.
 
 This guide covers the confirmed framework, safe spending strategy, and how to evaluate perk information you see elsewhere.
 
@@ -32,8 +35,9 @@ This guide covers the confirmed framework, safe spending strategy, and how to ev
 | They make you move faster | Press materials |
 | They make you hit harder | Press materials |
 | They let you carry more loot | Press materials |
+| Three perk trees: Might, Resilience, Fortune | Official materials |
 
-That's the whole contract. Three confirmed themes, no confirmed names.
+That's the whole contract. Three confirmed themes, three confirmed trees — and no confirmed individual perk names.
 
 ## Spending Strategy: The Three Themes
 
@@ -58,9 +62,9 @@ Since the official design themes are explicit, spending strategy follows from th
 Dwarf Delve launched July 27, 2026, and most perk information circulating online is fabricated. A useful checklist:
 
 - **Is the source official?** Steam page, developer Discord/announcements, verified press — anything else is suspect
-- **Does it name specific perks?** If yes, it's almost certainly invented — no official names exist
+- **Does it name specific perks?** If yes, it's almost certainly invented — individual perk names are unpublished (only the three tree names — Might, Resilience, Fortune — are confirmed)
 - **Does it list coin prices?** Fabricated — no prices are published
-- **Does it describe skill trees?** Fabricated — no trees are confirmed
+- **Does it describe skill trees?** The three trees are confirmed; detailed tree structures are not
 - **Does it promise respecs or prestige?** Unconfirmed — no official statement exists
 
 ## Build Guidance: Playstyle-First
@@ -86,7 +90,7 @@ The honest answer to "what are the best perks in Dwarf Delve?" is: **nobody know
 
 **How many perks are there?** Unpublished. No official count exists.
 
-**Are there skill trees?** Unconfirmed. The description says "perks and skills" without describing structure.
+**Are there skill trees?** Yes — three perk trees (Might, Resilience, Fortune) are officially confirmed. Their contents and structure are not yet documented.
 
 **Can I respec?** Unconfirmed — no official statement.
 

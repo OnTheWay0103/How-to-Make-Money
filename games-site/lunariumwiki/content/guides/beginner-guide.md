@@ -14,7 +14,7 @@ related:
   - combat-guide
   - forest-walkthrough
   - ave-build-guide
-  - character-builds
+  - skill-tree-guide
   - faq
 ---
 
@@ -24,7 +24,7 @@ related:
 
 Welcome to Lunarium, the hand-drawn isometric action RPG from Lunarium Game Studio. You play **Ave**, a light-armored swordmaster, on a journey with **Lune**, a mysterious Starfarer, to stop the spread of a corrupting darkness called **Nihilus**. This guide covers what you need for the first hour: what the game is, how combat works, and what to do first.
 
-> Note: an earlier version of this guide described a "Forest → Temple" opening with different landmarks. The verified opening takes place in the **Firleaves mountains** — this version is corrected.
+> **Note:** the verified opening takes place in the **Firleaves mountains**, confirmed by community walkthroughs of the released game.
 
 ---
 
@@ -108,7 +108,7 @@ The verified opening:
 - **Parrying red flashes** — red = dodge. Every boss will punish this.
 - **Ignoring Lune's arrows** — orb-protected enemies and core-blocked paths stall without her.
 - **Rushing through regions** — the game rewards the hub loop: explore, gather, craft at the Sanctuary, upgrade at the Temple, then move on.
-- **Trusting "class" guides** — Lunarium has no classes; builds come from skill trees, embroidery, and cloaks (see the [Character Builds Guide](/guides/character-builds)).
+- **Trusting "class" guides** — Lunarium has no classes; builds come from skill trees, embroidery, and cloaks (see the [Ave Build Guide](/guides/ave-build-guide)).
 - **Playing keyboard-only if it feels bad** — reviews report controller is the better experience.
 
 ## 7. Quick Facts
@@ -127,5 +127,5 @@ The verified opening:
 - [Combat Guide](/guides/combat-guide) — parry, dodge, and Resonance in depth
 - [Firleaves Walkthrough](/guides/forest-walkthrough) — your first region, step by step
 - [Ave Build Guide](/guides/ave-build-guide) — build directions for the swordmaster
-- [Character Builds Guide](/guides/character-builds) — how builds work (no classes)
+- [Skill Tree Guide](/guides/skill-tree-guide) — skills and unlocks explained
 - [FAQ](/guides/faq) — quick questions answered

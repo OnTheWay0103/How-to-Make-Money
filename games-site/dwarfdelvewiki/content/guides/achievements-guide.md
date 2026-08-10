@@ -4,8 +4,12 @@ description: 'Dwarf Delve achievements guide — the game ships with 21 Steam ac
 keywords: ['dwarf delve achievements', 'dwarf delve achievements guide', 'dwarf delve steam achievements', 'dwarf delve achievement list', 'dwarf delve achievement guide']
 category: Achievements
 version: '1.0'
-updated: '2026-08-01'
-related: ['beginner-guide', 'meta-progression-guide', 'extraction-guide', 'release-date-faq']
+updated: '2026-08-11'
+related:
+  - beginner-guide
+  - meta-progression-guide
+  - extraction-guide
+  - release-date-faq
 ---
 
 ## The Achievement Picture: What's Confirmed
@@ -114,7 +118,7 @@ The full achievement list will be verified by players, not announcements. If you
 3. **Confirm with screenshots** — the community standard for "verified" is multiple independent confirmations
 4. **Check back here** — this guide updates the moment verified data exists
 
-The game is five days old as of this writing; the first verified achievement lists will appear within weeks.
+The game is new as of this writing (released July 27, 2026); the first verified achievement lists will appear within weeks.
 
 ## Frequently Asked Questions
 

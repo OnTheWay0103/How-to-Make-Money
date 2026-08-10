@@ -13,9 +13,9 @@ keywords:
 related:
   - forest-walkthrough
   - boss-guide
-  - lilia-boss-guide
   - archipelago-walkthrough
   - white-reef-isles-walkthrough
+  - lune-guide
 ---
 
 # Lunarium Walkthrough — Cyanstone (Second Region)
@@ -138,7 +138,7 @@ Roan is a breather fight before the region's centerpiece. Roan returns in the fo
 
 **Lilia** is a Starfarer and Lune's dear friend — and by the time you reach her, she has been **completely consumed by Nihilus**. This is the hardest fight in the game so far and the **first boss with two health bars**.
 
-See our dedicated [How to Beat Lilia guide](/guides/lilia-boss-guide) for the full breakdown. The essentials:
+See the [Boss Guide](/guides/boss-guide) for the full breakdown. The essentials:
 
 - **Feint opener:** she often opens with a **delayed attack** — the first swing is a feint, the second is the real attack.
 - **Red-flashing unparriable attacks:** thrust, Nihilus ground AoE, projectile spam, and a spear slam. Dodge all of them; keep moving during the projectile phase.
@@ -175,7 +175,7 @@ After the Lilia fight, return to the Sanctuary and **rest** — resting triggers
 ## Related Guides
 
 - [Firleaves Walkthrough](/guides/forest-walkthrough) — the first region
-- [How to Beat Lilia](/guides/lilia-boss-guide) — full Lilia fight breakdown
 - [Boss Guide — All Bosses](/guides/boss-guide) — every confirmed boss in the game
 - [White Reef Isles Walkthrough](/guides/white-reef-isles-walkthrough) — the third region
 - [Paradise Walkthrough](/guides/archipelago-walkthrough) — the final region
+- [Lune Guide](/guides/lune-guide) — the companion at the heart of this region

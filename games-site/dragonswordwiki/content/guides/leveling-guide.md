@@ -2,7 +2,9 @@
 title: 'Leveling & Progression Guide — Mercenary Ranks & Promotion Quests'
 description: 'How progression works in DragonSword: Awakening — the Mercenary Rank system, promotion quests, fast leveling paths, cooking buffs, and honest guidance with no invented XP numbers.'
 keywords: ['leveling guide', 'how to level up fast', 'mercenary rank', 'promotion quest', 'max level', 'XP farming', 'progression']
-updated: '2026-08-01'
+category: 'Progression'
+version: '1.0'
+updated: '2026-08-11'
 ---
 
 ## DragonSword: Awakening Leveling Guide
@@ -25,7 +27,7 @@ Progression in DragonSword: Awakening is tracked through **Mercenary Ranks** —
 - The specific requirements of each promotion quest
 - Whether a numeric character level exists alongside ranks
 
-The keyword research behind this wiki confirms strong search demand for "mercenary rank" and "promotion quest" — we will publish the verified ladder as soon as the community documents it.
+"Mercenary rank" and "promotion quest" are among the most-searched topics for this game — we will publish the verified ladder as soon as the community documents it.
 
 ## Fastest Progression Methods (Community-Confirmed Structure)
 
@@ -55,7 +57,7 @@ The official description confirms **treasure hunting**, **dungeon exploration**,
 
 ## What Does NOT Exist
 
-- **No stat points** — heroes have fixed kits (see the [Character Builds Guide](/guides/character-builds))
+- **No stat points** — heroes have fixed kits (see the [Hero Builds Guide](/guides/hero-builds-guide))
 - **No skill trees** — no confirmed skill point system
 - **No paid boosts** — no gacha, no XP boosters, no cash shop
 - **No "Goddess Statue" stat upgrades** — claims about statues granting permanent stats are unverified

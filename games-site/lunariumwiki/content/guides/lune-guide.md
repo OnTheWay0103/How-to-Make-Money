@@ -12,10 +12,10 @@ keywords:
   - Lunarium companion guide
 related:
   - ave-build-guide
-  - character-builds
   - skill-tree-guide
   - combat-guide
   - boss-guide
+  - equipment-guide
 ---
 
 # Lunarium Lune Guide — Starfarer Abilities & Support Tactics
@@ -60,8 +60,9 @@ The Steam page confirms Lune has her own **skill tree of suppressive magic**, un
 
 What is known:
 - Upgrades **her magic** — damage and utility.
+- The tree branches into three paths: **Starfire** (damage), **Moonlight** (healing), and **Constellation** (crowd control).
 - The tree exists alongside Ave's sword-technique tree.
-- Specific skill names, tiers, and effects are **unconfirmed** — no reliable source has published the full tree.
+- Specific skill names, tiers, and effects within each branch are **unconfirmed** — no reliable source has published the full tree.
 
 ### Priority Advice (Sensible, Marked as Unverified)
 | Situation | Recommended Focus |
@@ -111,7 +112,7 @@ Press coverage confirms you can **direct Lune with D-pad commands** in combat. T
 ## Related Guides
 
 - [Ave Build Guide](/guides/ave-build-guide) — the character you actually control
-- [Character Builds Guide](/guides/character-builds) — how builds work with no classes
 - [Skill Tree Guide](/guides/skill-tree-guide) — Ave and Lune's trees
 - [Combat Guide](/guides/combat-guide) — parry, dodge, Resonance fundamentals
 - [Boss Guide — All Bosses](/guides/boss-guide) — fights where Lune's arrow decides the outcome
+- [Equipment Guide](/guides/equipment-guide) — cloaks and embroidery that support her
