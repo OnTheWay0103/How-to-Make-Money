@@ -264,3 +264,221 @@ Google 检测的不是「逐字重复」，而是**句子结构的 n-gram 重叠
 - [How I Rebuilt Slug Pages After AdSense Flagged Scaled Content Abuse (dev.to)](https://dev.to/morinaga/how-i-rebuilt-astro-slug-pages-after-adsense-flagged-three-sites-for-scaled-content-abuse-ln8)
 - [What I Learned About Accidental Low-Value Signals After Four AdSense Rejections (dev.to)](https://dev.to/morinaga/what-i-learned-about-accidental-low-value-signals-after-four-adsense-rejections-1b2l)
 - [AdSense 因低价值内容被拒？解决方案 (genieegroup.com)](https://genieegroup.com/blog/adsense-low-value-content/)
+
+---
+
+## 十、ChatGPT 交叉审核（2026-08-10）
+
+> ChatGPT 实际访问了 themoundwiki.vercel.app，逐页审查后给出了独立判断。
+> 以下是双方意见的综合分析。
+
+### 10.1 双方共识
+
+| 判断 | DeepSeek | ChatGPT |
+|------|:--:|:--:|
+| 网站结构和首页质量不错 | ✅ | ✅（8/10） |
+| 内容自噬是核心问题 | ✅ | ✅ |
+| E-E-A-T 信号缺失 | ✅ | ✅ |
+| AI 内容需要人工差异化 | ✅ | ✅ |
+| 网站值得救，不需要推倒 | ✅ | ✅ |
+| 合并重叠内容 | ✅ | ✅ |
+| 暂停新内容生产，先清理 | ✅ | ✅ |
+
+### 10.2 ChatGPT 的重要纠正
+
+#### 纠正 1：n-gram 检测不是 Google 官方公开机制
+
+> **DeepSeek 说**："Google 检测 n-gram 重叠判断模板内容"
+>
+> **ChatGPT 纠正**：Google 官方政策写的是 "Scaled content abuse = 大量创建网页主要目的是操纵搜索排名"，并没有公开说过用 n-gram 算法。我们不应把未证实的检测机制当作整改依据。
+
+**结论**：模板化确实是风险，但整改重点应该是「每页提供独特的用户价值」，而不是「躲避 n-gram 检测」。
+
+#### 纠正 2：事实可信度问题比 AI 痕迹更严重
+
+ChatGPT 实际抽查发现：
+
+- **系统要求不一致**：Controls & Settings Guide 写的系统要求（i5-8400 / GTX 1060 / 50GB）与 Steam 官方（i7-8700K / GTX 1660 SUPER / 23GB）明显不符
+- **Patch Notes 可信度存疑**：网站声称 v1.02 已上线 Block 系统（含 ~1s guard stance、15% stamina per hit 等精确数据），但 Steam 社区仅确认 v1.01 存在，Block 系统官方只说"正在开发中"
+- **Sanity Guide 的大量精确数字**（15%、30%、200ms、30 seconds）没有标注来源
+
+> **ChatGPT 的判断**：AI 最喜欢编造的就是精确数字。网站存在「看起来像真实攻略、实际上缺乏可验证来源」的具体游戏数据——这比"AI 味太重"严重得多。
+
+#### 纠正 3：不要为了 AdSense 伪造"个人经验"
+
+> **DeepSeek 建议**：加 "I tested this" / 个人经验 / 原创截图
+>
+> **ChatGPT 警告**：如果我们实际上没玩游戏，不要写 "I tested this myself" 或 "In my experience..."。这是在用一个谎言解决另一个问题。
+
+**替代方案**：使用可验证的、真实的来源声明：
+- "Verified against the game's current version"
+- "Sources checked: Steam patch notes + player reports + community discussion"
+- "Last verified: August 10, 2026"
+
+### 10.3 ChatGPT 的核心洞察
+
+#### 洞察 1：从 "Wiki" 转型为 "Problem Solving Guide"
+
+| 旧模式（Wiki） | 新模式（Problem Solving） |
+|------|------|
+| All Weapons Guide | Which Weapon Should You Use in The Mound? |
+| Sanity System Complete Guide | How to Tell What's Real When Your Sanity Drops |
+| Loadout Guide | Best Solo Loadout for The Mound |
+| Combat Mechanics | Why Am I Dying So Fast in The Mound? |
+| Extraction Guide | How to Survive Your First 5 Extractions |
+
+**核心理念**：不再追求「覆盖所有知识点」（这必然导致模板化），而是聚焦「回答真实玩家问题」（天然与众不同）。
+
+#### 洞察 2：The Mound 是新游戏 = 优势
+
+- 2026.7.15 发布，不到一个月
+- Steam 已有 1,000+ 评价和活跃社区
+- **不需要和 IGN/Fandom/Game8 拼数量**，可以拼「最快回答玩家真实问题」
+
+#### 洞察 3：真实内容来源 = Steam Community
+
+Steam 社区正在讨论的具体问题：combat feel / block-dodge / AI teammate / progression / matchmaking / inventory / crossplay / weapon balance / sanity / bugs。这些都是**可验证的真实玩家需求**。
+
+### 10.4 双方方案的差异
+
+| 维度 | DeepSeek | ChatGPT | 综合结论 |
+|------|----------|---------|:--:|
+| 合并后目标篇数 | 54 → ~41 | 54 → 25-30 | **25-30**（更彻底） |
+| 内容策略 | 优化现有 Wiki | 转型 Problem Solving | **Problem Solving** |
+| 个人经验 | 加 "I tested" | 用可验证来源声明替代 | **Verification 模块** |
+| 原创素材 | 加截图 | 不加假截图，用真实社区数据 | **真实来源 > 伪造经验** |
+| 新增内容 | 不明确 | 5-10 篇玩家问题型文章 | **Steam/Reddit 驱动选题** |
+| 发布节奏 | 等 2-3 周再申请 | 先暂停所有新内容生产 | **先清理 → 再重写 → 最后新增** |
+
+---
+
+## 十一、统一改进方案（综合版）
+
+### 策略核心
+
+> **不追求「让网站看起来不像 AI」，而是「把网站改造成可信的游戏研究/攻略站」。**
+
+### Phase 1：清理（第 1-2 周）
+
+#### 1.1 54 篇文章分类
+
+将全部文章分为四类：
+
+| 分类 | 标准 | 预估数量 |
+|------|------|:--:|
+| **A — 保留** | 主题独立、信息基本准确、无重叠 | ~15 |
+| **B — 合并** | 主题重叠 2-4 篇 → 合并为 1 篇深度文章 | ~12（从 ~35 合并） |
+| **C — 重写** | 核心主题但信息可信度需验证 | 10 |
+| **D — 删除** | 过短、完全可被其他页面覆盖 | ~5 |
+
+**预计结果**：54 → 25-30 篇（15 保留 + 10 合并后 + 0 重写后替换原有）
+
+#### 1.2 事实审计（最高优先级）
+
+对所有包含**具体数字**的文章进行验证：
+
+```
+需要逐一核对的数字类型：
+- HP / Damage / Stamina / Cooldown / Drop rate
+- Weapon stats / Enemy HP
+- 系统要求（必须与 Steam 官方一致）
+- 价格 / 版本号
+- Patch Notes 内容（必须可追溯到官方公告）
+- 成就数量 / 任务数量
+```
+
+**重点修正**：
+- Controls & Settings Guide 的系统要求 → 必须对齐 Steam 官方
+- Patch Notes 页面 → 删除无法验证的版本号和数据，只保留官方确认的信息
+
+#### 1.3 暂停 Coordinator 自动生成
+
+在 Phase 1 完成之前，不向 The Mound wiki 新增任何内容。
+
+### Phase 2：重写核心 10 篇（第 2-4 周）
+
+优先重写这些页面（网站的核心知识）：
+
+1. Beginner Guide
+2. Sanity Guide（合并 2 篇后重写）
+3. Combat & Survival（合并 2 篇后重写）
+4. Weapons Guide（合并 1 篇后重写）
+5. Enemy Guide（合并 1 篇后重写）
+6. Contracts Guide
+7. Progression Guide
+8. Co-op Strategy（合并 1 篇后重写）
+9. Walkthrough（合并 1 篇后重写）
+10. Controls & Settings（事实校正后重写）
+
+**每篇重写标准**：
+- 以**玩家问题**为切入点（不用 "Complete Guide to X"）
+- 所有数字**标注来源或标注「待验证」**
+- 添加 **Verification 模块**（见下方模板）
+- 引用真实社区讨论（Steam / Reddit）
+- 避免 AI 模板结构
+
+### Phase 3：新增玩家问题型内容（第 4-6 周）
+
+从 Steam Community + Reddit 提炼 5-10 个真实玩家问题，撰写针对性攻略。选题示例：
+
+- "How to tell if a hallucination is real?"
+- "Why am I dying so fast?"
+- "Best solo loadout?"
+- "How does crossplay actually work?"
+- "Guns vs Crossbow — which is better?"
+
+### 新增模块模板
+
+#### Verification 模块（每篇文章底部）
+
+```markdown
+### Verification
+
+**Last checked:** [DATE]
+**Game version:** [VERSION — only if confirmed]
+
+**Sources checked:**
+- Official Steam patch notes
+- Steam Community discussions
+- Developer announcements
+- Player reports
+
+**Note:** Some mechanics may change with future patches. 
+If you find incorrect information, please contact us.
+```
+
+#### Editorial Policy 声明（About 页面 + 文章底部可选）
+
+> This guide was researched from official patch notes, Steam community reports, 
+> and gameplay discussions. Numerical values are only included where they could 
+> be verified against official sources or consistent community consensus.
+
+### Phase 4：重新申请（第 6-8 周）
+
+- 修复完成后等 2-3 周让 Google 重新抓取
+- 确认核心 10 篇全部通过事实审计
+- 确认网站不再有「看起来像 AI 批量生成」的模板结构
+- 重新提交 AdSense 申请
+
+### 长期：全站推广
+
+The Mound 通过后，将以下标准化：
+- Author Box 组件
+- Verification 模块
+- 事实审计 Checklist
+- Problem Solving 内容选题流程（Steam/Reddit → 真实问题 → 攻略）
+
+---
+
+## 十二、双方分歧记录（供后续参考）
+
+| 问题 | DeepSeek 观点 | ChatGPT 观点 | 采纳 |
+|------|-------------|------------|:--:|
+| n-gram 检测机制 | Google 用 n-gram 检测模板 | 无官方证据，不应作为依据 | ChatGPT |
+| 合并力度 | 54 → 41 | 54 → 25-30 | ChatGPT |
+| 个人经验 | 加 "I tested" | 用可验证来源替代 | ChatGPT |
+| 内容策略 | 优化 Wiki | 转型 Problem Solving | ChatGPT |
+| E-E-A-T 实现 | 加作者/截图/经验 | 加 Verification + Editorial Policy | **两者结合** |
+| 事实可信度 | 未提及 | 最高优先级 | ChatGPT |
+| 5 次审核流程 | 详细方法论 | 未展开 | DeepSeek（保留为操作手册） |
+| 信息增量理论 | 核心框架 | 未展开 | DeepSeek（保留为理论基础） |
