@@ -25,10 +25,10 @@ The Mound: Omen of Cthulhu launched on July 15, 2026 on Steam, PS5, and Xbox Ser
 | [Co-op Strategy Guide](/guides/coop-strategy-guide) | Team play | Starter |
 | [Extraction Guide](/guides/extraction-guide) | Surviving expeditions | Intermediate |
 | [Sanity Guide](/guides/sanity-guide) | Madness system | Intermediate |
-| [Enemy Guide](/guides/enemy-guide) | Combat tactics | Intermediate |
+| [Enemy Bestiary](/guides/enemy-bestiary) | Combat tactics | Intermediate |
 | [Maps & Locations Guide](/guides/maps-locations-guide) | Every island & loot route | Intermediate |
 | [Stealth Guide](/guides/stealth-guide) | Silent kills & detection | Intermediate |
-| [Ranged Weapons Guide](/guides/ranged-weapons-guide) | Crossbow & firearms deep dive | Intermediate |
+| [Weapons Guide](/guides/weapons-guide) | Crossbow & firearms deep dive | Intermediate |
 | [Money Guide](/guides/money-guide) | Earn Gyldenblood & Tokens | Intermediate |
 | [Contracts Guide](/guides/contracts-guide) | Mission types | Intermediate |
 | [Controls & Settings Guide](/guides/controls-settings-guide) | PC/PS5/Xbox setup | Starter |
@@ -52,8 +52,8 @@ Understand the madness meter, hallucinations, and how to keep your crew sane in 
 ### Co-op Strategy
 Spatial Voice Chat, team composition, and communication tactics for 2-4 player squads. [View co-op guide →](/guides/coop-strategy-guide)
 
-### Enemy Guide
-From forest creatures to Lovecraftian horrors — learn every enemy's attack patterns and weaknesses. [Browse enemies →](/guides/enemy-guide)
+### Enemy Bestiary
+From forest creatures to Lovecraftian horrors — learn every enemy's attack patterns and weaknesses. [Browse enemies →](/guides/enemy-bestiary)
 
 ---
 

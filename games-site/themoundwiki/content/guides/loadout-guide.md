@@ -1,18 +1,18 @@
 ---
 title: "The Mound Loadout Guide — Best Equipment for Every Expedition"
-description: "Complete loadout guide for The Mound: Omen of Cthulhu. Recommended starting gear, weapon loadouts for every playstyle, item slot breakdown, and expedition-specific equipment strategies for solo, co-op, and high-difficulty runs."
+description: "Complete loadout guide for The Mound: Omen of Cthulhu. Equipment slots, healing and Sanity item economy, weight budgeting, armor sets, consumable kits, expedition-specific adjustments, and loadout presets for solo, co-op and hard runs."
 category: "Guides"
 version: "1.0"
-updated: "2026-07-23"
-keywords: ["themound loadout", "themound best gear", "themound starting equipment", "themound weapon guide", "themound loadout tips", "themound equipment slots", "themound expedition gear"]
-related: ["weapons-guide", "extraction-guide", "coop-strategy-guide", "contracts-guide", "beginner-guide"]
+updated: "2026-08-10"
+keywords: ["themound loadout", "themound best gear", "themound starting equipment", "themound weapon guide", "themound loadout tips", "themound equipment slots", "themound expedition gear", "themound survival loadout"]
+related: ["weapons-guide", "extraction-guide", "coop-strategy-guide", "contracts-guide", "beginner-guide", "sanity-guide"]
 ---
 
 # Loadout Guide — Best Equipment for Every Expedition
 
-> Launch Version / Updated: July 23, 2026
+> Launch Version / Updated: August 10, 2026
 
-Your loadout in **The Mound: Omen of Cthulhu** determines how effectively you can explore, fight, and extract. With limited inventory space and equipment durability, every slot must earn its keep. This guide covers each equipment slot, recommended loadouts for different playstyles, and how to adapt your gear to specific expeditions.
+Your loadout in **The Mound: Omen of Cthulhu** determines how effectively you can explore, fight, and extract. With limited inventory space and equipment durability, every slot must earn its keep. This guide covers each equipment slot, the survival half of the loadout screen — healing economy, Sanity management, weight discipline — and how to adapt your gear to specific expeditions.
 
 ---
 
@@ -33,19 +33,33 @@ Your loadout in **The Mound: Omen of Cthulhu** determines how effectively you ca
 
 ---
 
+## The Survival Equation
+
+Every expedition ends one of two ways: extraction or death. The difference is rarely aim — it is the loadout you carried in.
+
+| Resource | What It Buys You | Common Mistake |
+|----------|------------------|----------------|
+| Health items | Surviving damage | Overhealing on trash, empty pockets at the boss |
+| Sanity items | Surviving the madness system | Bringing none, dying to fakes |
+| Weight budget | Speed + carry capacity | 90%+ weight, cannot sprint from a patrol |
+| Durability | Weapon not breaking mid-fight | Ignoring degradation until it fails |
+
+---
+
 ## Weapon Loadouts
+
+All loadouts below use the game's six weapons — Crossbow, Matchlock Arquebus, Flintlock Pistol, Francesca Axe, Machete, and Oil Lamp. For per-weapon deep dives see the [Weapons Guide](/guides/weapons-guide).
 
 ### Stealth Loadout (Recommended for Beginners)
 
 | Slot | Item | Why |
 |------|------|-----|
 | Primary | Crossbow | Silent ranged kills at medium range |
-| Secondary | Hunting Knife | Silent melee finish, light weight |
-| Melee Tool | Hatchet | Breaks barricades, emergency melee |
+| Melee | Machete | Silent melee finish, backstab capability |
 | Light Source | Oil Lamp | Silent, controllable light |
 
 **Best for:** Solo play, stealth contracts, learning map layouts
-**Weight:** 45% — leaves plenty of room for loot
+**Weight:** ~45% — leaves plenty of room for loot
 **Strength:** Avoids combat entirely; excellent for extraction-focused runs
 **Weakness:** Poor against Y'm-bhi berserkers and swarms
 
@@ -54,12 +68,12 @@ Your loadout in **The Mound: Omen of Cthulhu** determines how effectively you ca
 | Slot | Item | Why |
 |------|------|-----|
 | Primary | Flintlock Pistol | Reliable damage, fast reload |
-| Secondary | Saber | Solid melee damage, decent parry |
-| Melee Tool | Hand Axe | Heavy damage, can break doors |
-| Light Source | Candle Lantern | Bright, moderate weight |
+| Secondary | Matchlock Arquebus | Heavy burst for elites |
+| Melee | Machete | Solid melee damage, good parry |
+| Light Source | Oil Lamp | Bright, moderate weight |
 
 **Best for:** Co-op play, combat contracts, enemy-heavy expeditions
-**Weight:** 60% — balanced
+**Weight:** ~60% — balanced
 **Strength:** Can handle any enemy type at any range
 **Weakness:** Loud weapons attract attention; reduced stealth options
 
@@ -69,11 +83,11 @@ Your loadout in **The Mound: Omen of Cthulhu** determines how effectively you ca
 |------|------|-----|
 | Primary | Crossbow | Silent opening shot |
 | Secondary | Flintlock Pistol | Backup when stealth breaks |
-| Melee Tool | Saber | Combat-ready melee |
-| Light Source | Dark Lantern | Can be shuttered for stealth or opened for full light |
+| Melee | Machete | Combat-ready melee |
+| Light Source | Oil Lamp | Light you can shutter or throw |
 
 **Best for:** Experienced solo players, high-difficulty contracts
-**Weight:** 55% — efficient
+**Weight:** ~55% — efficient
 **Strength:** Adapts to any situation; does one thing well at each range
 **Weakness:** Requires good judgment to know when to switch modes
 
@@ -103,6 +117,40 @@ Your loadout in **The Mound: Omen of Cthulhu** determines how effectively you ca
 
 ---
 
+## Healing Item Economy
+
+The Mound's healing items are limited and weigh real slots. Spend them like money:
+
+| Item | Heals | Weight | Use It For |
+|------|-------|--------|------------|
+| Healing Salve | ~60% HP | 2 | Bosses, post-fight top-ups |
+| Bandage | ~30% HP | 1 | Mid-combat patches, cheap upkeep |
+| Stamina Tonic | Full stamina | 1 | Escape sprints, emergency dodges |
+| Flare | (utility) | 1 | Extraction signal, area denial |
+
+**Economy rules:**
+
+- **Heal with bandages, save salves** — salves are for bosses; bandages are for mobs
+- **Never enter a boss arena with empty bandages** — the walk-in is where most teams blow their salves
+- **Consumables restock at the Galleon** — a loadout that dies with 3 unused salves wasted a run's worth of gold
+- In co-op, split healing types: one player carries salves, one carries tonics — a boss fight never needs all four players at full stock
+
+---
+
+## Sanity Management Items
+
+Sanity is the invisible clock. It erodes on sight of horrors, failing checks, and proximity to certain enemies. Items are the only mid-run recovery.
+
+| Item | Sanity Restore | Slot Weight | Notes |
+|------|----------------|-------------|-------|
+| Candle Lantern | Slow aura regen | 2 | Standard pick; passive recovery |
+| Moonwater Flask | Large burst | 1 | For panic moments after a failed check |
+| Whisper Charm | Prevents one failed check per expedition | 1 | The best investment per slot |
+
+**Rule**: if your loadout has no sanity item, it is not a survival loadout. The [Sanity Guide](/guides/sanity-guide) is blunt about this: fakes kill teams that cannot check them.
+
+---
+
 ## Consumables Loadout
 
 ### Standard Expedition Loadout
@@ -127,7 +175,7 @@ Your loadout in **The Mound: Omen of Cthulhu** determines how effectively you ca
 | 3 | Antidote | 1 |
 | 4 | Stamina Tonic | 2 |
 | 5 | Flare | 2 |
-| 6 | Grenade or Molotov | 1 |
+| 6 | Fire throwable (Oil Lamp reserve) | 1 |
 
 **Total weight:** ~30%
 
@@ -152,7 +200,7 @@ Certain expeditions call for special equipment. These items take up a special it
 |------|--------|---------------|
 | Mask of Nyarlathotep | Walk past enemy patrols without detection | Stealth contracts, crowded zones |
 | Old Map | Reveals hidden caches on your map | Loot-focused runs |
-| Spirit Bell | Calms nearby Y'm-bhi for 30s | Sanity-heavy expeditions |
+| Spirit Bell | Calms nearby Y'm-bhi for ~30s | Sanity-heavy expeditions |
 | Ritual Dagger | +50% damage to Eldritch enemies | Specific boss contracts |
 | Empty Syringe | Collect poison from defeated enemies | Crafting antidotes mid-expedition |
 
@@ -160,13 +208,56 @@ Certain expeditions call for special equipment. These items take up a special it
 
 ---
 
+## Weight Budgeting
+
+Weight is the silent killer. Exceeding 70% capacity slows you 15%; 90% slows 30% and kills sprinting entirely.
+
+| Loadout Weight | Speed | Verdict |
+|----------------|-------|---------|
+| Under 50% | Full speed | Ideal for loot-runner and pointman |
+| 50–70% | Normal | Standard fighter loadout |
+| 70–90% | -15% | Tank builds only — never in extraction zones |
+| 90%+ | -30%, no sprint | Death sentence in any expedition |
+
+**Trim order:** second weapon → utility duplicates → low-value loot slots → bandages (keep 2 minimum).
+
+---
+
+## Role-Specific Survival Loadouts
+
+### Solo Stealth Loadout
+
+- Flintlock Pistol + Machete, Oil Lamp
+- 3 Bandages, 1 Salve, 1 Whisper Charm, 1 Flare
+- **Weight ~45%** — full sprint, long stealth windows
+
+### Squad Medic Loadout
+
+- Matchlock Arquebus (mid-range burst) + Machete, Moonwater Flask + Whisper Charm
+- 4 Bandages, 2 Salves, 2 Tonics
+- **Weight ~60%** — trade damage slots for team heal stock
+
+### Loot-Runner Loadout
+
+- Crossbow only (light, silent), Oil Lamp
+- 2 Bandages, 1 Flare — nothing else
+- **Weight ~35%** — every freed slot is payload space
+
+### Nightmare-Ready Loadout
+
+- Best weapon + Oil Lamp, Moonwater Flask
+- 3 Salves, 3 Bandages, 1 Tonic, 1 Flare
+- **Weight under 60%** — modifiers punish everything else
+
+---
+
 ## Expedition-Specific Loadout Adjustments
 
 ### Fog Expeditions
 
-Fog reduces visibility to 15 meters. Adjust your loadout:
+Fog reduces visibility to ~15 meters. Adjust your loadout:
 
-- **Light Source:** Dark Lantern (can shutter to preserve vision, open for full light)
+- **Light Source:** Oil Lamp (keep it low or shuttered to preserve vision, open for full light)
 - **Primary:** Crossbow (sound is muffled by fog — ranged attacks are quieter)
 - **Consumables:** +1 Flare (for marking your position to teammates)
 - **Avoid:** Loud weapons (Flintlock Pistol sound carries farther in fog)
@@ -175,19 +266,29 @@ Fog reduces visibility to 15 meters. Adjust your loadout:
 
 Night expeditions have different enemy patrol routes and increased Y'm-bhi activity:
 
-- **Light Source:** Candle Lantern (brightest option) + 2 Oil (double consumption)
+- **Light Source:** Oil Lamp + 2 Oil (double consumption)
 - **Primary:** Flintlock Pistol (you will be in combat more often)
 - **Armor:** Militia Coat or Leather Jerkin
-- **Consumables:** +1 Stamina Tonic (more kiting required)
+- **Consumables:** +1 Stamina Tonic (more kiting required), +1 Whisper Charm or Moonwater Flask (Sanity drains faster at night; fakes multiply)
 
 ### Swamp Expeditions
 
-Swamp terrain slows movement by 25% and hides pitfalls:
+Swamp terrain slows movement and hides pitfalls:
 
-- **Footwear:** Wading Boots (reduces swamp slowdown to 10%)
 - **Primary:** Crossbow (ranged, avoid getting stuck in melee range)
 - **Consumables:** +1 Antidote (swamp poison is common)
 - **Avoid:** Heavy armor (weight compounds the movement penalty)
+
+### By Expedition Type
+
+| Expedition Type | Adjustments | Why |
+|-----------------|-------------|-----|
+| Extraction-heavy zones | +1 Flare, -1 Salve, keep weight under 40% | Speed and detection matter more than raw healing |
+| Boss contracts | +1 Salve, +1 Tonic, drop the second weapon | Boss fights are healing checks, not weapon checks |
+| Co-op runs | Coordinate: one salve carrier, one tonic carrier | Duplicated consumables waste party slots |
+| Nightmare modifiers | Check the modifier card, then build | Thicker Dark demands sanity items; Ravenous demands more bandages |
+
+**Golden rule**: read the contract card before leaving the Galleon, then adjust. A loadout built blind is a loadout built wrong.
 
 ---
 
@@ -220,22 +321,30 @@ Swamp terrain slows movement by 25% and hides pitfalls:
 ## Quick-Reference: Starting Loadout Presets
 
 ### "First Timer" Loadout
-- Crossbow, Hunting Knife, Hatchet, Oil Lamp
+- Crossbow, Machete, Oil Lamp
 - Traveler's Garb
 - 2 Healing Salve, 1 Bandage, 1 Oil, 1 Flare
 - **Weight: ~40%** | **Difficulty: Easy**
 
 ### "Silent Runner" Loadout
-- Crossbow, Saber (for emergency), Hand Axe, Dark Lantern
+- Crossbow, Machete (for emergencies), Oil Lamp
 - Cultist Robes
-- 1 Healing Salve, 1 Bandage, 1 Oil, 1 Flare
+- 1 Healing Salve, 1 Bandage, 1 Oil, 1 Flare, 1 Whisper Charm
 - **Weight: ~35%** | **Difficulty: Medium**
 
 ### "Full Combat" Loadout
-- Flintlock Pistol, Saber, Hand Axe, Candle Lantern
+- Matchlock Arquebus, Flintlock Pistol, Machete, Oil Lamp
 - Militia Coat
 - 3 Healing Salve, 2 Bandage, 1 Stamina Tonic, 2 Flares, 1 Oil
 - **Weight: ~65%** | **Difficulty: Hard**
+
+---
+
+## The Three-Rule Survival Discipline
+
+1. **Consumables before combat** — bandage before a fight starts, not when you are at 20%
+2. **Weight before loot** — the drop you want is useless if you die carrying it; extract the value you have
+3. **Sanity before damage** — a player with no sanity items is a liability the moment the madness starts
 
 ---
 
@@ -246,3 +355,4 @@ Swamp terrain slows movement by 25% and hides pitfalls:
 - [Co-op Strategy Guide: Team Play Tips](/guides/coop-strategy-guide)
 - [Contracts Guide: Choosing the Right Contract](/guides/contracts-guide)
 - [Beginner Guide: Getting Started in The Mound](/guides/beginner-guide)
+- [Sanity Guide: Surviving the Madness](/guides/sanity-guide)

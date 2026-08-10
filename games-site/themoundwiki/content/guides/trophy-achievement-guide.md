@@ -5,14 +5,14 @@ category: "Guides"
 version: "1.0"
 updated: "2026-07-18"
 keywords: ["The Mound Omen of Cthulhu trophy guide", "The Mound Omen of Cthulhu achievements", "The Mound trophies", "The Mound achievements list", "The Mound 100% completion"]
-related: ["beginner-guide", "extraction-guide", "solo-guide", "game-length-guide", "enemy-guide"]
+related: ["beginner-guide", "extraction-guide", "solo-guide", "game-length-guide", "enemy-bestiary"]
 ---
 
 # The Mound: Omen of Cthulhu — Trophy & Achievement Guide
 
 > **Launch Version / Updated: July 18, 2026**
 
-The Mound ships with 28 trophies/achievements: 1 Platinum (PS only), 5 Gold, 10 Silver, 12 Bronze. This guide covers every unlock requirement, missable warnings, and the most efficient path to 100% completion.
+The Mound ships with approximately 28 trophies/achievements: 1 Platinum (PS only), 5 Gold, 10 Silver, 12 Bronze. This guide covers every unlock requirement, missable warnings, and the most efficient path to 100% completion.
 
 ---
 
@@ -45,7 +45,7 @@ Unlock naturally by progressing the critical path. Earn all by completing Phase 
 | Mountain's Gate | Silver | Reach 6,000 Reputation |
 | Descent | Gold | Reach Floor 3 of The Mound |
 | Mound Breaker | Gold | Defeat High Priest of Cthulhu |
-| The Truth Beneath | Silver | Collect all 24 lore pages |
+| The Truth Beneath | Silver | Collect all all lore pages |
 | New World Conquistador | Platinum | Unlock all others (PS only) |
 
 ---
@@ -86,7 +86,7 @@ Unlock naturally by progressing the critical path. Earn all by completing Phase 
 | Trophy | Tier | Condition |
 |--------|------|-----------|
 | Page Collector | Bronze | 10 lore pages |
-| Scholar | Silver | All 24 lore pages |
+| Scholar | Silver | All all lore pages |
 | Well-Equipped | Bronze | 5 blueprints |
 | Arsenal | Silver | All blueprints |
 | Potion Master | Bronze | Craft 10 consumables |
@@ -146,4 +146,4 @@ Unlock naturally by progressing the critical path. Earn all by completing Phase 
 - [Extraction Guide — When and How to Escape](/guides/extraction-guide) — Survival and extraction strategies
 - [Solo Play Guide](/guides/solo-guide) — Tips for solo trophy hunting
 - [How Long Is The Mound?](/guides/game-length-guide) — Full time estimates for all content
-- [Enemy Guide — All Y'm-bhi & Creature Types](/guides/enemy-guide) — Understand the enemies you will face
+- [Enemy Bestiary — All Y'm-bhi & Creature Types](/guides/enemy-bestiary) — Understand the enemies you will face

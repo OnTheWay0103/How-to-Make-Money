@@ -1,16 +1,16 @@
 ---
 title: "The Mound Sanity Guide — Surviving the Madness System"
-description: "Deep dive into The Mound's Sanity system. All hallucination types, how to spot fakes, team communication strategies, and Mask of Nyarlathotep tips."
+description: "Deep dive into The Mound's Sanity system. Drain triggers, expedition-phase Sanity budgeting, all hallucination types, how to confirm what's real, team communication, the Mask of Nyarlathotep, and every Sanity-restoring item."
 category: "Guides"
 version: "1.0"
-updated: "2026-07-14"
-keywords: ["themound sanity system", "hallucinations themound", "mask of nyarlathotep guide", "themound madness tips"]
-related: ["beginner-guide", "enemy-guide", "coop-strategy-guide"]
+updated: "2026-08-10"
+keywords: ["themound sanity system", "hallucinations themound", "mask of nyarlathotep guide", "themound madness tips", "themound sanity management"]
+related: ["beginner-guide", "enemy-bestiary", "coop-strategy-guide", "nightmare-mode", "perks-guide"]
 ---
 
 # The Mound Sanity Guide — Surviving the Madness System
 
-> Launch Version / Updated: July 14, 2026
+> Launch Version / Updated: August 10, 2026
 
 Sanity is the invisible clock that ticks during every expedition in **The Mound: Omen of Cthulhu**. Unlike a traditional health bar, Sanity erodes your perception of reality. Let it drain too low, and the forest begins to play tricks on you — tricks that can get you and your team killed.
 
@@ -24,12 +24,36 @@ Each player has an independent Sanity meter. It depletes through:
 |---------|-------------|-------|
 | Witnessing enemy kills | Small | Repeated exposure builds up |
 | Being hit by supernatural enemies | Medium | Y'm-bhi attacks drain more |
-| Wearing Mask of Nyarlathotep | Continuous drain | Drain rate increases over time |
-| Entering dark zones or caves | Slow drain | Oil Lamp slows this significantly |
+| Wearing Mask of Nyarlathotep | Continuous | Drain rate increases over time |
+| Entering dark zones or caves | Slow | Oil Lamp slows this significantly |
 | Teammate death nearby | Large | Proximity matters |
 | Failing a Sanity check on a hallucination | Large | Engaging with a fake object costs you |
 
-Sanity naturally regenerates very slowly outside of combat. Items and Galleon rest are the primary recovery methods.
+**Regeneration is nearly useless** — Sanity recovers very slowly outside combat. The real tools are items and Galleon rest between expeditions. Plan around that: Sanity is a *budget per expedition*, not a stat you can recover mid-run.
+
+### Sanity Thresholds
+
+| Sanity Level | Effects |
+|-------------|---------|
+| 100% – 70% | Normal (subtle whispers at 70%) |
+| 69% – 40% | Visual distortion, false audio cues |
+| 39% – 15% | Hallucinations — fake chests, teammates appearing as enemies |
+| 14% – 1% | Severe hallucinations, HUD enemies, forest misdirects from extract |
+| 0% | **Madness** — 3s loss of control, character runs randomly |
+
+---
+
+## The Budget: Expedition-Phase Planning
+
+| Phase | Sanity Budget | What You Do |
+|-------|--------------|-------------|
+| Approach (0-10 min) | Spend freely | Avoid combat, take the lamp-lit route, stay at 90%+ |
+| Objective (10-25 min) | Spend carefully | This is where hallucinations start — trigger discipline matters |
+| Extraction (25+ min) | Save 30%+ | The Forest Awakens phase spawns 3x enemies; you need the wits for the extraction sprint |
+
+**The hard rule:** never enter the extraction phase below 40% Sanity without a Prayer Beads or Holy Water ready. Hallucinated extraction points and false teammates are exactly the failures that happen at low Sanity — and they cost you the run (see the [Extraction Guide](/guides/extraction-guide) for what the extraction phase actually does).
+
+**Pro Tip:** pop a Healing Salve at 45% Sanity — never let it drop below 40%. Using it at 30% wastes the overheal.
 
 ---
 
@@ -79,6 +103,8 @@ When you see or hear something suspicious, pause and count to three. Hallucinati
 
 If no one responds, it is a hallucination. Do not interact with it.
 
+**The two-rule protocol:** (1) never interact with an object or enemy you haven't confirmed with a teammate, and (2) if you're solo, treat every "free" chest, "lucky" drop, and "obvious" shortcut as a hallucination until you see it from two angles.
+
 ### Visual Tells
 - Hallucination chests have a slightly different glow pattern
 - Fake enemies move in a jerky, unnatural rhythm
@@ -99,8 +125,9 @@ Sanity is a team problem, even though it affects individuals.
 1. **Call out hallucinations immediately.** Use a code word. Example: "Possible hallucination at my 2 o'clock — can anyone confirm?"
 2. **Do not shoot at a teammate's hallucination.** You waste ammo and make noise. More importantly, you may hit a real teammate who is standing near the false target.
 3. **Check Sanity levels at every rest point.** Low-Sanity players should stay in the center of the formation.
-4. **Designate a "sanity anchor."** One player with high Sanity stays calm and confirms or denies visual claims.
-5. **Use Medallion pings as reality checks.** If you ping a location and your teammates confirm they heard it, what you see is real.
+4. **Designate a "sanity officer."** One player tracks everyone's Sanity and calls for restoration items at 40% — prevention beats reaction.
+5. **Don't cluster near a dying teammate.** Proximity to a death costs large Sanity; if someone is going down, the squad spreads rather than watches.
+6. **Use Medallion pings as reality checks.** If you ping a location and your teammates confirm they heard it, what you see is real.
 
 ---
 
@@ -123,11 +150,12 @@ The **Mask of Nyarlathotep** is a powerful tool that allows you to blend in with
 | Need to cross an open area | Yes — but warn teammates first |
 | Sanity is already low | No — danger of critical Sanity |
 | Escaping to extraction | Yes — last resort |
+| Boss or legendary-hunt fight | Yes — but unequip immediately after; the continuous drain adds up |
 
 ### Mask Safety Rules
 1. **Verbally announce** "Mask on" to your team every time you activate it
 2. **Move predictably** so teammates do not mistake you for an enemy
-3. **Keep the mask duration short** — 30 seconds max before Sanity becomes critical
+3. **Keep the mask duration short** — ~30 seconds max before Sanity becomes critical
 4. **Have a healing item ready** for when you take it off
 
 ---
@@ -141,10 +169,29 @@ The **Mask of Nyarlathotep** is a powerful tool that allows you to blend in with
 | Holy Water | Very High | Rare | Cures all negative Sanity effects |
 | Galleon Rest | Full | Always at Hub | Free, available between expeditions |
 
+- **Prayer Beads are your 40% threshold item** — keep one ready for the extraction phase, which is the hardest part of any run.
+- **Holy Water is the emergency cure** — save it for when hallucinations are actively dangerous (fake extraction markers, teammates as monsters).
+- **Rest on the Galleon between runs** — never start an expedition below 75% Sanity.
+- **Oil Lamp** is the cheapest drain reduction in the game — it slows dark-zone drain on every expedition; beginners skip it for weapon upgrades and regret it.
+
+---
+
+## Common Sanity Mistakes
+
+1. **Chasing hallucinations.** Interacting with fakes costs the *large* Sanity penalty — every fake you ignore is free Sanity.
+2. **Saving restoration items "for later."** There is no later — the extraction phase is the hardest part. Use Prayer Beads at 40% and finish the run.
+3. **No Oil Lamp in dark zones.** It's the cheapest drain reduction in the game and beginners skip it for weapon upgrades.
+4. **Silent squads.** The only defense against personal hallucinations is team confirmation — a quiet team dies to ghosts of its own making.
+5. **Failing to rest on the Galleon.** Starting at 60% Sanity is starting already in danger.
+
+**Nightmare Mode adjustments:** Nightmare difficulty (see the [Nightmare Mode Guide](/guides/nightmare-mode)) increases all drain rates and lowers hallucination confirmation windows — the two-rule protocol becomes a one-step team callout, and the Sanity officer role becomes mandatory, not optional.
+
 ---
 
 ### Related Guides
 
 - [Beginner's Guide](/guides/beginner-guide) — Common beginner sanity mistakes
-- [Enemy Guide](/guides/enemy-guide) — Which enemies drain sanity fastest
+- [Enemy Bestiary](/guides/enemy-bestiary) — Which enemies drain sanity fastest
 - [Co-op Strategy Guide](/guides/coop-strategy-guide) — Team sanity management
+- [Perks Guide](/guides/perks-guide) — Sanity-related perks and builds
+- [Nightmare Mode Guide](/guides/nightmare-mode) — How Sanity rules change at high difficulty

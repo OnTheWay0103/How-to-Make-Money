@@ -18,46 +18,32 @@ Setting up your controls and graphics correctly before your first expedition can
 
 ## System Requirements
 
-### Minimum Specifications (1080p / 30 FPS / Low Settings)
+> **Source:** Official Steam store page. Last verified: August 10, 2026.
+> These are the developer-published requirements. Actual performance may vary.
+
+### Minimum Specifications
 
 | Component | Requirement |
 |-----------|-------------|
-| OS | Windows 10 64-bit |
-| CPU | Intel Core i5-8400 or AMD Ryzen 5 2600 |
+| OS | Windows 10 / 11 64-bit |
+| CPU | Intel Core i7-8700K or AMD Ryzen 5 1600X |
 | RAM | 16 GB |
-| GPU | NVIDIA GTX 1060 (6GB) or AMD Radeon RX 580 |
-| Storage | 50 GB SSD |
+| GPU | NVIDIA GTX 1660 SUPER (6GB) or AMD Radeon RX 5600 XT (6GB) or Intel Arc A770 (16GB) |
+| Storage | 23 GB |
 | DirectX | Version 12 |
 
-### Recommended Specifications (1440p / 60 FPS / High Settings)
+### Recommended Specifications
 
 | Component | Requirement |
 |-----------|-------------|
-| OS | Windows 10 / Windows 11 64-bit |
-| CPU | Intel Core i7-10700K or AMD Ryzen 7 3700X |
+| OS | Windows 10 / 11 64-bit |
+| CPU | Intel Core i7-11700K or AMD Ryzen 5 5500 |
 | RAM | 16 GB |
-| GPU | NVIDIA RTX 2070 or AMD Radeon RX 6700 XT |
-| Storage | 50 GB NVMe SSD |
+| GPU | NVIDIA RTX 3070 (8GB) or AMD Radeon RX 6750 XT (12GB) |
+| Storage | 23 GB |
 | DirectX | Version 12 |
 
-### Ultra Specifications (4K / 60 FPS / Epic Settings)
-
-| Component | Requirement |
-|-----------|-------------|
-| OS | Windows 11 64-bit |
-| CPU | Intel Core i7-12700K or AMD Ryzen 7 5800X3D |
-| RAM | 32 GB |
-| GPU | NVIDIA RTX 3080 or AMD Radeon RX 6800 XT |
-| Storage | 50 GB NVMe SSD |
-| DirectX | Version 12 |
-
-### Console Specifications
-
-| Platform | Resolution | Performance Target |
-|----------|-----------|-------------------|
-| PS5 | 1440p-2160p (dynamic) | 60 FPS |
-| Xbox Series X | 1440p-2160p (dynamic) | 60 FPS |
-| Xbox Series S | 1080p-1440p (dynamic) | 30-60 FPS |
+> **Note:** These specifications may change with future patches. Check the [Steam store page](https://store.steampowered.com/app/2569760) for the latest requirements.
 
 ---
 
@@ -88,7 +74,7 @@ Setting up your controls and graphics correctly before your first expedition can
 | Swap Weapon | 1 / 2 |
 | Melee Attack | V |
 | Throw Item | G |
-| Block / Parry | Q (added in Patch 1.02) |
+| Block / Parry | Q |
 | Toggle Weapon Light | F |
 
 ### Inventory and Tools
@@ -131,7 +117,7 @@ Setting up your controls and graphics correctly before your first expedition can
 | Reload | Square |
 | Use Item | Triangle |
 | Melee Attack | R1 |
-| Block / Parry | R1 (added in Patch 1.02) |
+| Block / Parry | R1 |
 | Open Inventory | Touch Pad |
 | Open Map | D-Pad Up |
 | Quick Slot Cycle | D-Pad Left / Right |
@@ -139,7 +125,7 @@ Setting up your controls and graphics correctly before your first expedition can
 | Ping | L1 + R1 |
 | Push to Talk | Options Menu Button |
 
-> **Patch 1.02 note (PS5):** Since R1 is now reserved for Block, the Radial Wheel (call teammates / ox-wagon) was remapped to **holding Left on the D-Pad**.
+> **Note:** Control mappings may change with game updates. Check the in-game settings menu for the latest layout.
 
 ---
 
@@ -158,7 +144,7 @@ Setting up your controls and graphics correctly before your first expedition can
 | Reload | X |
 | Use Item | Y |
 | Melee Attack | RB |
-| Block / Parry | RB (added in Patch 1.02) |
+| Block / Parry | RB |
 | Open Inventory | View Button (select) |
 | Open Map | D-Pad Up |
 | Quick Slot Cycle | D-Pad Left / Right |

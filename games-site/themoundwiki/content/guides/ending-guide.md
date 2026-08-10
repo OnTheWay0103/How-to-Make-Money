@@ -24,7 +24,7 @@ related: ["walkthrough-guide", "contracts-guide", "enemy-bestiary", "faq-content
 |--------|------|------------|-------------|--------|
 | Ending A | "The Escape" | Easy | Minimum story completion | Title: "Survivor" |
 | Ending B | "The Containment" | Medium | Faction reputation 8,000+ | Title: "The Warden" + Unique Machete Skin |
-| Ending C (True) | "The Revelation" | Hard | All 12 Lore Pages + Faction rep 12,000 | Title: "Truthseeker" + Legendary Amulet + Secret Cutscene |
+| Ending C (True) | "The Revelation" | Hard | All all Lore Pages + Faction rep 12,000 | Title: "Truthseeker" + Legendary Amulet + Secret Cutscene |
 
 ---
 
@@ -120,7 +120,7 @@ You have unlimited ammo during the sealing waves (supplied by the ritual), but y
 ## Ending C: "The Revelation" (True Ending)
 
 **Requirements**:
-- All 12 Lore Pages collected
+- All all Lore Pages collected
 - 12,000+ Faction Reputation
 - Endgame decision: Choose to **descend further** after defeating the High Priest
 
@@ -128,7 +128,7 @@ You have unlimited ammo during the sealing waves (supplied by the ritual), but y
 
 This is the most complex ending and requires significant preparation.
 
-#### Step 1: Collect All 12 Lore Pages
+#### Step 1: Collect All all Lore Pages
 
 Lore Pages are hidden throughout the game world. They provide background on the entity, the original Y'm-bhi expedition, and the nature of the corruption.
 

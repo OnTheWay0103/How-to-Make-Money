@@ -5,7 +5,7 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-04"
 keywords: ["The Mound stealth guide", "The Mound how to sneak", "The Mound noise mechanics", "The Mound silent kills", "The Mound backstab guide", "The Mound avoid detection", "The Mound Mask of Nyarlathotep"]
-related: ["enemy-guide", "weapons-guide", "solo-guide", "combat-survival-guide", "sanity-guide"]
+related: ["enemy-bestiary", "weapons-guide", "solo-guide", "combat-survival-guide", "sanity-guide"]
 ---
 
 # The Mound Stealth Guide — Noise Control, Silent Kills, and Avoiding Detection
@@ -175,7 +175,7 @@ Light is a double-edged sword: it is the best crowd-control tool against light-s
 
 ## Related Guides
 
-- [Enemy Guide](/guides/enemy-guide) — every enemy's behavior, tells, and counters
+- [Enemy Bestiary](/guides/enemy-bestiary) — every enemy's behavior, tells, and counters
 - [Weapons Guide](/guides/weapons-guide) — full stats on the silent weapons
 - [Solo Guide](/guides/solo-guide) — stealth-first play without a squad
 - [Combat & Survival Guide](/guides/combat-survival-guide) — what to do when stealth fails

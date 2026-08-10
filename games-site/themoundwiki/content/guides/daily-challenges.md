@@ -5,7 +5,7 @@ category: "Guides"
 version: "1.0"
 updated: "2026-07-29"
 keywords: ["The Mound daily challenges", "The Mound daily contracts", "The Mound daily rewards", "The Mound contract types", "The Mound progression loop"]
-related: ["extraction-zones", "crafting-recipes", "beginner-guide", "controls-settings-guide"]
+related: ["extraction-guide", "crafting-recipes", "beginner-guide", "controls-settings-guide"]
 ---
 
 ## Daily Challenges Guide — The Mound
@@ -127,7 +127,7 @@ A healthy progression loop looks like this:
 
 ### Related Guides
 
-- [Extraction Zones Guide](/guides/extraction-zones) — How to extract with your rewards
+- [Extraction Guide](/guides/extraction-guide) — How to extract with your rewards
 - [Crafting Recipes Guide](/guides/crafting-recipes) — Craft tools and consumables for contract runs
 - [Beginner's Guide](/guides/beginner-guide) — Getting started with The Mound
 - [Controls and Settings Guide](/guides/controls-settings-guide) — Complete reference for all settings

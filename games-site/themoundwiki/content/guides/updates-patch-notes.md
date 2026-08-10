@@ -1,194 +1,105 @@
 ---
 title: "The Mound Update Log and Patch Notes — Version History and Changes"
-description: "Complete update history and patch notes for The Mound: Omen of Cthulhu. Every content update, balance change, bug fix, and new feature from launch through version 1.02 — including the Block ability and progress recovery tool — with developer commentary and community impact analysis."
+description: "Update history and patch notes for The Mound: Omen of Cthulhu. Tracking confirmed updates, balance changes, and bug fixes. Information sourced from official channels and community verification."
 category: "Guides"
 version: "1.0"
-updated: "2026-08-01"
-keywords: ["themound patch notes", "themound update history", "themound version log", "themound changelog", "themound latest update", "themound 1.0 patch", "themound developer updates"]
-related: ["faq-content", "game-length-guide", "controls-settings-guide", "coop-strategy-guide"]
+updated: "2026-08-10"
+keywords: ["themound patch notes", "themound update history", "themound version log", "themound changelog", "themound latest update"]
+related: ["faq-content", "game-length-guide", "controls-settings-guide"]
 ---
 
 # Update Log and Patch Notes — Version History and Changes
 
-> Launch Version / Updated: August 1, 2026
+> Last verified: August 10, 2026
 
-This page tracks all official updates, patches, and hotfixes for **The Mound: Omen of Cthulhu**. Patch notes are compiled from official developer announcements and community-verified changes. Bookmark this page to stay current with gameplay changes that affect your strategies.
+This page tracks confirmed updates for **The Mound: Omen of Cthulhu**. We only include information that can be verified against official developer announcements or consistent community reports.
 
----
-
-## Current Version: 1.02
-
-**Released:** Late July 2026
-**Patch Size:** ~1.5 GB
-
-### New Features
-
-- **Block Ability (new combat input)** — The most-requested post-launch addition, shipped in 1.02. Hold the Block input to enter a brief (~1s) guard stance that reduces incoming melee damage. Damage reduction depends on your weapon (Machete 60%, Matchlock 50%, Crossbow 40%, Oil Lamp 30%) and each absorbed hit costs 15% Stamina. Block does **not** work against projectiles, AoE, or Sanity-based damage — dodge those instead. Full mechanics in the [Combat & Survival Guide](/guides/combat-survival-guide)
-- **Progress Recovery Tool (all platforms)** — An achievement/trophy-based tool that rebuilds your personal level, permanent store unlocks, and cosmetics if your save is lost or corrupted. Step-by-step usage in the [Progress Loss & Save Recovery Guide](/guides/progress-save-recovery-guide)
-- **PS5 progress loss fix** — Dedicated fix for the PS5 progress-loss scenario reported since launch
-
-### Performance & Stability
-
-- **Ultra preset performance fix** — The Ultra preset no longer loads incorrectly, fixing the disproportionately bad high-end performance players reported at launch
-- **Duplicate same-class enemy spawn fix** — Enemies of the same class no longer spawn stacked in the same location
-
-### Bug Fixes
-
-- Fixed Saints not loading during expeditions
-- Fixed solo runs sometimes starting without a weapon
-- Fixed progress-loss cases on all platforms via the new recovery tool
-- Additional stability fixes for crashes during long expeditions
-
-### Community Impact
-
-Patch 1.02 answers the two biggest launch complaints head-on: combat agency (Block) and progress safety (the recovery tool). Combined with 1.0.1's balance changes, the game is materially closer to the experience players expected at launch. See the [Progression Guide](/guides/progression-system-guide) for how the permanent progression loop works with tokens and store unlocks.
+**Note:** The game launched on July 15, 2026 and is actively being updated. Some mechanics and values below may change. Check the [Steam store page](https://store.steampowered.com/app/2569760) and [Steam Community hub](https://steamcommunity.com/app/2569760) for the latest official information.
 
 ---
 
-## Version 1.0.1 — Balance & Bug Fix Patch
+## Confirmed Updates
 
-**Released:** July 20, 2026
-**Patch Size:** ~1.2 GB
+### Version 1.0.1 — First Post-Launch Patch
 
-### New Features
+**Released:** Approximately July 20, 2026
 
-- **New Contract Type: "The Whispering Deep"** — Navigate an underground Y'm-bhi nest to retrieve a corrupted artifact. Includes one mini-boss encounter and 3-5 guaranteed rare loot containers
-- **Crossplay Matchmaking** — Full crossplay support between PC, PlayStation, and Xbox (details in the Crossplay Update section below)
-- **Sanity Rework** — Sanity now has three stages instead of a linear drain:
-  - Stage 1 (100-60%): Normal gameplay, minor visual distortions
-  - Stage 2 (60-25%): Auditory hallucinations, false extraction markers may appear
-  - Stage 3 (below 25%): Enemies deal bonus Sanity damage, screen effects intensify, Y'm-bhi become aggressive regardless of distance
+The first post-launch patch addressed several community-reported issues. Based on Steam Community discussions and developer announcements:
 
-### Balance Changes
+- Crossplay matchmaking improvements
+- Sanity system adjustments
+- Various bug fixes, including:
+  - Voice chat stability during cross-platform parties
+  - Save file integrity improvements
+  - Enemy pathfinding fixes
 
-| Change | Details | Impact |
-|--------|---------|--------|
-| Crossbow reload time | Reduced from 3.0s to 2.5s | Stealth builds slightly stronger |
-| Flintlock Pistol damage | Increased from 35 to 40 | Combat builds more viable |
-| Y'm-bhi berserker HP | Reduced by 15% | More manageable for solo players |
-| Healing Salve heal amount | Increased from 25 to 30 | Small buff to sustain |
-| Oil Lamp fuel consumption | Reduced by 10% | Slightly longer expeditions |
-| Extraction timer (solo) | Reduced from 90s to 75s | Solo extraction is faster |
+> **Note:** Specific numerical balance changes (damage values, timers, etc.) have not been independently verified. If you have confirmed patch note details from official sources, please [contact us](/contact).
 
-### Bug Fixes
+### Version 1.0.0 — Launch
 
-- Fixed extraction point sometimes spawning inside geometry on Swamp maps
-- Fixed voice chat cutting out during cross-platform parties
-- Fixed save file corruption when Alt+F4 during extraction sequence
-- Fixed Y'm-bhi getting stuck on doorways in the Catacombs layout
-- Fixed "Ghost" perk not applying stealth bonuses correctly in multiplayer
-- Fixed Ox Cart loot duplication exploit
+**Released:** July 15, 2026
 
----
+The launch version introduced the core game systems:
 
-## Version 1.0.0 — Launch
-
-**Released:** July 14, 2026
-
-The launch version of **The Mound: Omen of Cthulhu** introduces the core gameplay loop, all base contracts, and the initial perk system.
-
-### Gameplay Systems
-
-- **Extraction Loop:** Deploy, complete contracts, gather loot, extract before the forest awakens
-- **Sanity System:** Dynamic psychological horror mechanics affecting perception and gameplay
-- **Contracts System:** 12 contract types with varying objectives, difficulty, and rewards
-- **Ox Cart:** Mobile loot storage that must be protected and extracted with
-- **Perk System:** 25 unlockable passive abilities across 5 categories
+- **Extraction Loop:** Deploy, complete contracts, gather loot, extract
+- **Sanity System:** Psychological horror mechanics affecting perception and gameplay
+- **Contracts System:** Multiple contract types with varying objectives
+- **Co-op:** 1-4 player online cooperative play with full crossplay
+- **Perk System:** Unlockable passive abilities
 - **Crafting System:** Camp-based item creation and repair
 
-### Playable Content at Launch
+**Launch Content:**
 
-| Content Type | Quantity | Notes |
-|-------------|----------|-------|
-| Maps | 4 | Forest, Swamp, Catacombs, Estate |
-| Contract types | 12 | Stealth, combat, collection, boss hunt |
-| Enemy types | 8 | Including 3 Y'm-bhi variants |
-| Boss encounters | 2 | The Matriarch, The Hollow Priest |
-| Weapons | 14 | Melee, ranged, and tools |
-| Consumables | 12 | Healing, utility, offensive |
-| Perks | 25 | 6 equippable at max progression |
-| Achievements | 36 | Steam / Platform trophies |
+| Content Type | Notes |
+|-------------|-------|
+| Maps | Multiple expedition zones |
+| Contract types | Stealth, combat, collection, boss hunt |
+| Enemy types | Multiple variants including Y'm-bhi |
+| Boss encounters | Several major encounters |
+| Weapons | Melee, ranged, and tools |
+| Perks | Multiple unlockable abilities |
 
-### Known Launch Issues (Acknowledged by Devs)
-
-| Issue | Status | Target Fix |
-|-------|--------|------------|
-| Matchmaking times longer than expected for trio groups | Investigating | Patch 1.0.2 |
-| PS4 performance drops in Catacombs map | Investigating | Patch 1.0.2 |
-| Controller vibration not working on Xbox | Fixed in 1.0.1 | Already resolved |
-| Rare crash when extracting with full inventory | Fixed in 1.0.1 | Already resolved |
+> **Note:** Exact content counts (number of weapons, perks, achievements, etc.) have not been independently verified against official sources. These numbers may vary and will be updated as confirmed information becomes available.
 
 ---
 
-## Version 0.8.0 — Beta (Pre-Launch)
+## Developer Roadmap
 
-**Released:** May 2026
+Based on official developer communications and the Steam Community hub, the team has indicated plans for:
 
-The closed beta introduced the core extraction mechanics and gathering community feedback.
+- **Ongoing bug fixes and balance patches**
+- **Future content updates** with new maps and enemy types
+- **Community-requested features** including combat improvements
 
-### Beta Key Features
-
-- First public test of the extraction loop
-- Initial perk system with 15 perks (10 more added for launch)
-- 2 map layouts: Forest and Swamp
-- 6 contract types
-- Crossplay disabled during beta (PC only)
-
-### Player Feedback Incorporated for Launch
-
-Based on beta player feedback, the following changes were made before launch:
-
-1. **Sanity drain rate reduced by 20%** — Beta testers found the sanity mechanic too punishing for new players
-2. **Ox Cart health increased by 50%** — The cart was too easily destroyed in co-op sessions
-3. **Added backpack upgrade** — Beta had only 6 inventory slots; launch increased to 8
-4. **Extraction timer reduced from 120s to 90s** — Waiting 2 minutes was tediously long
-5. **Improved enemy AI pathfinding** — Enemies were getting stuck on environment geometry too frequently
-
----
-
-## Developer Roadmap (Post-Launch)
-
-The development team has shared the following planned updates:
-
-### Upcoming in 2026
-
-| Update | Expected Timeline | Content |
-|--------|-------------------|---------|
-| Patch 1.02 | **Shipped — late July 2026** | Block ability, progress recovery tool, PS5 progress fix, Ultra preset fix, enemy spawn fix |
-| Content Update 1 | September 2026 | New map (The Lighthouse), 2 new enemy types, 5 new contracts |
-| Seasonal Event 1 | October 2026 | Halloween-themed limited-time event with exclusive rewards |
-| Content Update 2 | December 2026 | New boss encounter, new weapon type (throwing knives), perk expansion |
-
-### Planned for 2027
-
-- **New playable character** with unique starting perks
-- **Endless mode** — survive as many waves as possible
-- **Hardmode contracts** — increased difficulty with exclusive cosmetic rewards
-- **Mod support** — community-created contracts and maps
+For the most current roadmap, check the official developer channels on Steam.
 
 ---
 
 ## How to Stay Updated
 
-| Source | Link / Method | Update Frequency |
-|--------|---------------|------------------|
-| Official Discord | discord.gg/themound | Real-time announcements |
-| Steam News Page | Steam store community hub | Per patch |
-| Twitter / X | @TheMoundGame | Major updates |
-| In-Game News Feed | Main menu > News | On login |
-
-**Community Note:** This wiki page is updated manually within 48 hours of each official patch. If you notice missing changes, please contribute or flag the discrepancy on our Discord.
+| Source | Notes |
+|--------|-------|
+| Steam Store Page | Official game page with announcements |
+| Steam Community Hub | Developer posts and patch discussions |
+| In-Game News Feed | Main menu > News (on login) |
 
 ---
 
 ## Patch Notes Archive
 
-| Version | Date | Type |
+| Version | Approximate Date | Type |
 |---------|------|------|
-| 1.02 | Late July 2026 | Block Ability + Progress Recovery + Performance Fixes |
-| 1.0.1 | July 20, 2026 | Balance + Bug Fix |
-| 1.0.0 | July 14, 2026 | Launch |
-| 0.8.0 | May 2026 | Beta |
+| 1.0.1 | ~July 20, 2026 | First post-launch patch |
+| 1.0.0 | July 15, 2026 | Launch |
+
+---
+
+## Verification
+
+**Last checked:** August 10, 2026
+**Sources checked:** Steam store page, Steam Community discussions, developer announcements
+
+**Note:** This page is updated as confirmed information becomes available. Some details from earlier versions of this page have been removed pending verification. If you have official patch notes or confirmed information, please [contact us](/contact).
 
 ---
 
@@ -198,5 +109,3 @@ The development team has shared the following planned updates:
 - [Game Length Guide: How Long to Beat](/guides/game-length-guide)
 - [Controls and Settings Guide](/guides/controls-settings-guide)
 - [Co-op Strategy Guide: Team Play Tips](/guides/coop-strategy-guide)
-- [Progress Loss & Save Recovery Guide](/guides/progress-save-recovery-guide)
-- [Performance & FPS Fix Guide](/guides/performance-fps-fix-guide)

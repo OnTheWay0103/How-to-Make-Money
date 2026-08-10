@@ -5,7 +5,7 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-01"
 keywords: ["The Mound boss weakness", "The Mound boss chart", "The Mound Lurker Below weakness", "The Mound High Priest of Cthulhu", "The Mound legendary hunt bosses", "The Mound boss drops", "The Mound boss guide"]
-related: ["legendary-hunts", "walkthrough-guide", "enemy-weakness-chart", "weapons-guide", "combat-survival-guide", "nightmare-mode"]
+related: ["legendary-hunts", "walkthrough-guide", "enemy-bestiary", "weapons-guide", "combat-survival-guide", "nightmare-mode"]
 ---
 
 ## Boss Weakness & Drops Chart — The Mound
@@ -67,7 +67,7 @@ Quick-reference chart for every boss in **The Mound: Omen of Cthulhu** — the t
 
 - [Legendary Hunts Guide](/guides/legendary-hunts) — full prep checklist and reward tables for hunt targets
 - [Walkthrough Guide](/guides/walkthrough-guide) — story boss encounter breakdowns and phases
-- [Enemy Weakness Chart](/guides/enemy-weakness-chart) — every regular creature, same quick-reference format
+- [Enemy Bestiary](/guides/enemy-bestiary) — every regular creature, same quick-reference format
 - [Weapons Guide](/guides/weapons-guide) — which weapons counter each boss
 - [Combat & Survival Guide](/guides/combat-survival-guide) — blocking, parrying and staying alive
 - [Nightmare Mode Guide](/guides/nightmare-mode) — boss fights under Nightmare modifiers

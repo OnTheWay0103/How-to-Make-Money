@@ -5,7 +5,7 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-04"
 keywords: ["The Mound maps", "The Mound locations", "The Mound island guide", "The Mound Sunken Grotto", "The Mound Catacombs", "The Mound Mansion of Fools", "The Mound loot routes", "The Mound map guide"]
-related: ["enemy-guide", "extraction-zones", "walkthrough-guide", "contracts-guide", "legendary-hunts"]
+related: ["enemy-bestiary", "extraction-guide", "walkthrough-guide", "contracts-guide", "legendary-hunts"]
 ---
 
 # The Mound Maps & Locations Guide — Every Island, POI, and Loot Route
@@ -206,8 +206,8 @@ The Interior is a resource war, not a firefight. Enter with full Sanity-restore 
 
 ## Related Guides
 
-- [Enemy Guide](/guides/enemy-guide) — what you will fight on every map
-- [Extraction Zones Guide](/guides/extraction-zones) — zone types, compass modes, and safe exits
+- [Enemy Bestiary](/guides/enemy-bestiary) — what you will fight on every map
+- [Extraction Guide](/guides/extraction-guide) — zone types, compass modes, and safe exits
 - [Walkthrough Guide](/guides/walkthrough-guide) — story progression through each location
 - [Contracts Guide](/guides/contracts-guide) — which contracts send you where
 - [Legendary Hunts Guide](/guides/legendary-hunts) — the four hunt lairs and their targets

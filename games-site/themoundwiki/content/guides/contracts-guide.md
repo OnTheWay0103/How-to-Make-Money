@@ -1,18 +1,18 @@
 ---
 title: "The Mound Contracts Guide — Mission Types and Rewards"
-description: "Complete guide to The Mound contract system: all mission types, reward tables, how to pick the right contract, and Ox Cart management strategy."
+description: "Complete guide to The Mound contract system: how contracts work, host-level difficulty scaling, all mission types with reward tables, how to pick the right contract, the optimization loop for money, rank or materials, and Ox Cart management."
 category: "Guides"
 version: "1.0"
-updated: "2026-08-01"
-keywords: ["themound contracts", "themound missions", "ox cart themound", "themound contract rewards", "themound expedition types"]
-related: ["extraction-guide", "coop-strategy-guide", "beginner-guide"]
+updated: "2026-08-10"
+keywords: ["themound contracts", "themound missions", "ox cart themound", "themound contract rewards", "themound expedition types", "themound contract optimization"]
+related: ["extraction-guide", "coop-strategy-guide", "beginner-guide", "money-guide", "legendary-hunts", "daily-challenges"]
 ---
 
 # The Mound Contracts Guide — Mission Types and Rewards
 
-> Launch Version / Updated: August 1, 2026
+> Launch Version / Updated: August 10, 2026
 
-Contracts are the backbone of every expedition in **The Mound: Omen of Cthulhu**. Before you set sail from the Galleon, you choose a Contract from the board. This determines your objective, the difficulty, the map layout, and the reward tier.
+Contracts are the backbone of every expedition in **The Mound: Omen of Cthulhu**. Before you set sail from the Galleon, you choose a Contract from the board. This determines your objective, the difficulty, the map layout, and the reward tier. Most players pick contracts by vibes — this guide fixes that: how contracts work, which types pay what, the host-level scaling rule that silently ruins mixed-level squads, and a pick order that optimizes your time for money, rank, or materials.
 
 ---
 
@@ -21,10 +21,12 @@ Contracts are the backbone of every expedition in **The Mound: Omen of Cthulhu**
 | Aspect | Detail |
 |--------|--------|
 | **Location** | Contract Board on the Galleon, near the navigation table |
-| **Availability** | Multiple contracts available per expedition cycle |
+| **Availability** | Multiple contracts available per expedition cycle; the board rotates each cycle |
 | **Shared Progress** | Story progress is shared across the entire team |
 | **Personal Rank** | Each player maintains their own rank and unlocks |
 | **Risk vs Reward** | Higher difficulty = better loot and more progression experience |
+
+Two rules shape everything else: **contract difficulty scales with the HOST's personal level** (not the team average), and **personal rank** — not team progress — unlocks your long-term rewards.
 
 ---
 
@@ -93,7 +95,7 @@ If you are a high-level player trying to introduce a friend to the game, hosting
 | Medium | Escort NPC to extraction | Uncommon Reward, High Reputation | Medium |
 | Hard | Rescue multiple NPCs under attack | Rare Reward, Reputation, Unlock | Very High |
 
-**Best for:** Reputation grinding and unlocking Galleon upgrades.
+**Best for:** Reputation grinding and unlocking Galleon upgrades. Escort-style Rescue contracts pay the best money in the game — and require the most coordination, so read the briefing and confirm your squad has heals before accepting.
 
 ### 5. Story Contracts
 | Difficulty | Objective | Rewards | Risk Level |
@@ -101,6 +103,24 @@ If you are a high-level player trying to introduce a friend to the game, hosting
 | Variable | Progress the narrative | Unique items, Lore, Zone unlocks | Variable |
 
 **Best for:** All teams. Story contracts advance the shared narrative and unlock new areas and items.
+
+### 6. Legendary Hunts (Endgame)
+
+At high Rank, the board offers **Legendary Hunts** — long, raid-like contracts (40+ minutes) with legendary loot and exclusive materials. Treat them like raids, not pick-up runs. See the [Legendary Hunts Guide](/guides/legendary-hunts).
+
+---
+
+## What Each Contract Type Actually Pays
+
+| Contract Type | Difficulty | Time | Best Reward | Best For |
+|---------------|-----------|------|-------------|----------|
+| Reconnaissance | Low | 10-15 min | Rank XP, map knowledge | Learning routes, low-risk ranking |
+| Salvage | Low-Medium | 15-20 min | Materials, coin | Farming crafting resources |
+| Hunt | Medium | 20-30 min | Enemy drops, weapon materials | Combat practice, loot density |
+| Rescue (Escort) | Medium-High | 25-35 min | High coin, unique gear | Money runs with a competent squad |
+| Legendary Hunt | High | 40+ min | Legendary loot, exclusive materials | Endgame players |
+
+**The optimization rule:** match contract type to your goal. Money → Rescue. Materials → Salvage. Rank → Reconnaissance (fastest rank-per-minute). Trying to do all three in one contract type is how players waste evenings.
 
 ---
 
@@ -119,11 +139,33 @@ If you are a high-level player trying to introduce a friend to the game, hosting
 
 | Your Goal | Best Contract |
 |-----------|--------------|
-| Farming currency | Salvage (Easy or Medium) |
+| Farming currency | Salvage (Easy or Medium), or Rescue for big money runs |
 | Gear upgrades | Hunt (Medium) |
 | Map knowledge | Reconnaissance |
 | Story progression | Story contracts |
 | Reputation farming | Rescue (Easy) |
+
+---
+
+## The Optimization Loop (Per Session)
+
+1. **Check the board for your goal.** Money night? Rescue. Materials? Salvage. Rank push? Reconnaissance chain.
+2. **Check the host.** If you're in a mixed-level squad, confirm who's hosting before anything else.
+3. **Plan the extraction from the contract.** Salvage contracts can be abandoned at the objective — but an early extraction forfeits the material bonus, so weigh it against the Forest Awakens timer (see the [Extraction Guide](/guides/extraction-guide)).
+4. **Bank the rank.** Personal rank unlocks better board options over time — run the fastest contract you can clear cleanly, not the hardest you can survive.
+5. **Stack with the daily rotation.** Daily challenges (see the [Daily Challenges Guide](/guides/daily-challenges)) often share objectives with board contracts — completing both in one expedition doubles your rewards per hour.
+
+### Contract Pick Order — Quick Reference
+
+| Your Goal | First Pick | Backup | Avoid |
+|-----------|-----------|--------|-------|
+| Money | Rescue | Hunt | Reconnaissance (pays nothing) |
+| Materials | Salvage | Hunt | Rescue (loot-poor) |
+| Rank | Reconnaissance | Salvage | Rescue (slow per rank) |
+| New player learning | Reconnaissance (low host) | Easy Salvage | Legendary Hunt |
+| Veteran with fresh friends | Easy Salvage (newcomer hosts) | Reconnaissance | Anything with a high-level host |
+
+If the ideal contract for your goal isn't on the board, the second pick beats waiting around on the Galleon.
 
 ---
 
@@ -171,6 +213,16 @@ The Ox Cart is one of the most valuable tools in the game, but it is frequently 
 
 ---
 
+## Common Contract Mistakes
+
+1. **Always picking the hardest available contract.** Rank scales with *completions*, not difficulty — a clean Reconnaissance run outranks a failed Hunt.
+2. **Ignoring host scaling with newcomers.** A high-level host quietly triples the difficulty for the new player — and then wonders why they died to a patrol.
+3. **Abandoning Salvage before the objective.** The material bonus is the entire point of the contract type; the coin is secondary.
+4. **Doing Rescue without a plan.** Escort contracts pay the best money but require the most coordination — read the contract briefing before accepting, and confirm your squad has heals.
+5. **Not stacking daily + contract objectives.** Free rewards per hour, wasted by most players.
+
+---
+
 ## Contract Progression Tips
 
 - **Rotate contract types.** Focusing on one type leaves gaps in your equipment and map knowledge.
@@ -186,3 +238,6 @@ The Ox Cart is one of the most valuable tools in the game, but it is frequently 
 - [Extraction Guide](/guides/extraction-guide) — How to bring your contract rewards home
 - [Co-op Strategy Guide](/guides/coop-strategy-guide) — Team coordination for contracts
 - [Beginner's Guide](/guides/beginner-guide) — First contract recommendations
+- [Money Guide](/guides/money-guide) — Income loops and what to spend on
+- [Legendary Hunts Guide](/guides/legendary-hunts) — The endgame contract type
+- [Daily Challenges Guide](/guides/daily-challenges) — Daily objectives that stack with contracts

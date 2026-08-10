@@ -1,22 +1,41 @@
 ---
 title: "The Mound Walkthrough Guide — Complete Story & Mission Progression"
-description: "Complete The Mound: Omen of Cthulhu walkthrough. Every mission explained — story progression, boss encounters, critical path tips, and how to complete each contract."
+description: "Complete The Mound: Omen of Cthulhu walkthrough. The story so far, how story progression works, every chapter and boss encounter explained with strategies, the truth beneath the mound, all three endings, and what to do after the story."
 category: "Guides"
 version: "1.0"
-updated: "2026-07-18"
-keywords: ["The Mound Omen of Cthulhu walkthrough", "The Mound Omen of Cthulhu how to play", "The Mound Omen of Cthulhu guide", "The Mound Omen of Cthulhu story guide", "The Mound walkthrough"]
-related: ["beginner-guide", "contracts-guide", "extraction-guide", "enemy-guide", "coop-strategy-guide"]
+updated: "2026-08-10"
+keywords: ["The Mound Omen of Cthulhu walkthrough", "The Mound Omen of Cthulhu how to play", "The Mound Omen of Cthulhu guide", "The Mound Omen of Cthulhu story guide", "The Mound walkthrough", "The Mound main quest", "The Mound endings"]
+related: ["beginner-guide", "contracts-guide", "extraction-guide", "enemy-bestiary", "coop-strategy-guide", "ending-guide", "trophy-achievement-guide"]
 ---
 
 # The Mound: Omen of Cthulhu — Walkthrough & Story Guide
 
-> **Launch Version / Updated: July 18, 2026**
+> **Launch Version / Updated: August 10, 2026**
 
-Story progression in The Mound is driven by Contracts you accept from the Galleon's Contract Board. As your faction reputation grows, new islands, enemies, and story revelations unlock. This walkthrough covers the critical path through all three phases and every boss encounter.
+Story progression in The Mound is driven by Contracts you accept from the Galleon's Contract Board. As your faction reputation grows, new islands, enemies, and story revelations unlock. This walkthrough covers the story so far, the critical path through all three phases, every boss encounter with strategies, the three endings, and what comes after.
 
 ---
 
-## Story Progression Overview
+## The Story So Far — 1652, the New World
+
+The Mound: Omen of Cthulhu is set in **1652**, adapted from H.P. Lovecraft's novella *The Mound*. You play one of four conquistador explorers who have sailed to the New World chasing rumors of gold. What they find beneath a cursed mountain is far older than any empire — and it has been waiting.
+
+The game opens with a short, single-player **prologue as Zamacona**, the expedition's leader: a sub-three-minute walking sequence that ends in a mental scar. It is the game's first lesson — the island gets into your head long before the monsters appear. From there, the story is told entirely through expeditions you run from the Galleon.
+
+---
+
+## How Story Progression Works
+
+Story progress in The Mound is not linear — it is driven by the contracts you take from the **Captain's table on the Galleon's top deck**:
+
+1. **Choose a contract** — most ask you to find treasure worth a set amount (e.g., 1,700 gold) or retrieve a specific item.
+2. **Pick a location and modifiers** — weather and time of day matter: rain disables firearms, night and fog cut visibility.
+3. **Complete the expedition** and return to the **Boatman** at the starting location to extract.
+4. **The Captain tallies your haul** and rewards Reputation, Upgrade Tokens, and XP.
+
+Reputation unlocks new islands and story stages. Some contracts — especially **logbook retrievals from forts** — unlock entirely new locations and advance the narrative, so prioritize them if you want to see the story through quickly.
+
+### Story Progression Overview
 
 | Phase | Reputation | Key Events |
 |-------|-----------|------------|
@@ -28,22 +47,24 @@ Focus on Faction Contracts (marked with a faction emblem) for fastest story prog
 
 ---
 
-## Phase 1: First Contact
+## Chapter 1 — The Lost Patrol (Tutorial, Phase 1)
 
-### Tutorial — "The Lost Patrol"
-
-Locate a missing scouting party on the Isle of Voices and retrieve their logbook.
+Locate a missing scouting party on the Isle of Voices and retrieve their logbook. It teaches the core loop: follow the shoreline, sneak past the first Y'm-bhi, and reach the cave at the island's center.
 
 1. Follow the shoreline path northeast from the Galleon landing.
 2. Encounter Y'm-bhi Scouts — slow, easily backstabbed with the Machete.
 3. The logbook is inside a cave at the island's center. Expect a scripted Sanity hallucination sequence.
 4. Extraction point spawns on the southern beach. **No hidden timer.**
 
+**Story hook:** the logbook reveals fragments of a *previous* expedition that encountered "the thing beneath the mountain." Nobody who saw it came back unchanged.
+
 **Reward:** 200 Reputation, Crossbow blueprint, 50 Currency.
 
-### Reconnaissance Contracts
+---
 
-After the tutorial, complete Recon missions on the Isle of Voices. These involve mapping landmarks, collecting resources, or locating lore pages.
+## Chapter 2 — First Contact (Phase 1)
+
+After the tutorial, run Recon contracts on the Isle of Voices: mapping landmarks, collecting lore pages, and learning how the Y'm-bhi behave. Lore pages scattered across the island fill in the backstory — a prior conquistador crew, an ancient underground city, and a cult that still serves the thing below.
 
 | Difficulty | Recommended | Objectives |
 |------------|-------------|-----------|
@@ -51,11 +72,11 @@ After the tutorial, complete Recon missions on the Isle of Voices. These involve
 | Medium | Crossbow + Flintlock | Collect 3 lore pages, kill 5 Y'm-bhi |
 | Hard | Oil Lamp + Matchlock | Survive 15 min, extract with relic |
 
-**Story Note:** Lore pages reveal fragments of a prior expedition that encountered "the thing beneath the mountain."
+**Milestone:** reach 2,000 Reputation to unlock the next stage of the story.
 
 ---
 
-## Phase 2: The Deeper Dark
+## Chapter 3 — The Deeper Dark (Phase 2)
 
 At 2,000 Reputation, **The Sunken Grotto** unlocks — a flooded cave system with tighter corridors and tougher enemies.
 
@@ -83,7 +104,7 @@ Your first boss encounter. Clear three side chambers to disable spore vent traps
 
 ---
 
-## Phase 3: The Mound Awakens
+## Chapter 4 — The Mound Awakens (Phase 3)
 
 At 6,000 Reputation, **The Mound Interior** unlocks — the final area with permanent darkness, elite enemy variants, and 25% faster Sanity drain.
 
@@ -115,9 +136,31 @@ A three-floor multi-stage expedition requiring a key item from each floor.
 
 **Reward:** 3,000 Reputation, "The Mound Cleared" title, The Purifier (fire-enhanced Crossbow blueprint).
 
-### Post-Game
+---
 
-After clearing the story, the Contract Board offers **Endless Expeditions** — harder versions of all three phases with exclusive loot: Cursed Relic weapons (Blighted Mound), Shadow Armor set (Nocturnal Hunt), and the "Survivor" title (The Gauntlet).
+## The Truth Beneath the Mound
+
+The story's central revelation, buried in lore pages and the final descent, is that **the entity is not Cthulhu itself but an avatar** — a fragment of a far greater cosmic being imprisoned beneath the New World for millennia. And the Y'm-bhi were never corrupted; they were **chosen as guardians** of the seal, killing anyone who gets too close to the truth.
+
+---
+
+## Three Endings
+
+After defeating the High Priest, your choice (plus your Reputation and Lore Page collection) determines which of the three endings you get:
+
+| Ending | Requirement | Result |
+|--------|-------------|--------|
+| **The Escape** | Default | You flee through the portal — free in body, bound in mind |
+| **The Containment** | 8,000+ Reputation | You seal the chamber and defend it for 3 waves, becoming the Mound's new warden |
+| **The Revelation** (True) | All Lore Pages + 12,000 Reputation | You descend and witness the entity's true form — and choose what you become |
+
+Full unlock paths are in our [Ending Guide](/guides/ending-guide).
+
+---
+
+## After the Story
+
+Clearing the story unlocks **Endless Expeditions** — harder versions of all three phases with exclusive loot: Cursed Relic weapons (Blighted Mound), Shadow Armor set (Nocturnal Hunt), and the "Survivor" title (The Gauntlet). It also unlocks **New Game+** with bonuses that carry over, including the **Corrupted Key**, which opens a hidden Legendary weapon room in the tutorial area.
 
 ---
 
@@ -131,10 +174,14 @@ After clearing the story, the Contract Board offers **Endless Expeditions** — 
 
 **Total:** 10 – 12 expeditions | Story completion: 8 – 12 hours.
 
+---
+
 ### Related Guides
 
 - [Beginner Guide: First Expeditions](/guides/beginner-guide) — Core loop and starting tips
 - [Contracts Guide](/guides/contracts-guide) — All contract types explained
 - [Extraction Guide — When and How to Escape](/guides/extraction-guide) — Survival and escape tactics
-- [Enemy Guide — All Y'm-bhi & Creature Types](/guides/enemy-guide) — Enemy behavior and weaknesses
+- [Enemy Bestiary — All Y'm-bhi & Creature Types](/guides/enemy-bestiary) — Enemy behavior and weaknesses
 - [Co-op Strategy Guide](/guides/coop-strategy-guide) — Team coordination and loadout synergy
+- [Ending Guide](/guides/ending-guide) — All 3 endings and how to get them
+- [Trophy Guide](/guides/trophy-achievement-guide) — All 28 achievements

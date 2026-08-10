@@ -5,7 +5,7 @@ category: "Guides"
 version: "1.0"
 updated: "2026-07-31"
 keywords: ["themound nightmare mode", "themound nightmare contracts", "themound hard difficulty", "themound modifiers", "themound nightmare rewards", "themound endgame"]
-related: ["contracts-guide", "sanity-guide", "extraction-guide", "daily-challenges", "advanced-combat"]
+related: ["contracts-guide", "sanity-guide", "extraction-guide", "daily-challenges", "combat-survival-guide"]
 ---
 
 # Nightmare Mode Guide — Modifiers, Builds, and Rewards
@@ -134,4 +134,4 @@ If a rolled combo includes Thicker Dark, consider skipping the contract — sani
 - [Sanity Guide — Surviving the Madness System](/guides/sanity-guide)
 - [Extraction Guide — How to Get Out Alive](/guides/extraction-guide)
 - [Daily Challenges Guide — Rewards and Tiers](/guides/daily-challenges)
-- [Advanced Combat Guide — Combat Fundamentals](/guides/advanced-combat)
+- [Combat & Survival Guide — Combat Fundamentals](/guides/combat-survival-guide)

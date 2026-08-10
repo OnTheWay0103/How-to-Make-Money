@@ -1,18 +1,18 @@
 ---
 title: "The Mound Combat & Survival Guide — Blocking, Parrying & Staying Alive"
-description: "Master The Mound: Omen of Cthulhu combat and survival. Complete breakdown of blocking, parry mechanics, enemy attack patterns, Sanity management, and how to survive any encounter."
+description: "Master The Mound: Omen of Cthulhu combat and survival. Blocking, parrying, dodge timing, stamina, noise discipline, backstabs, enemy attack patterns, and every environmental hazard — weather, water, darkness, fire and traps — with counters and loadout advice."
 category: "Guides"
 version: "1.0"
-updated: "2026-08-01"
-keywords: ["The Mound Omen of Cthulhu how to block", "The Mound Omen of Cthulhu combat guide", "The Mound survival tips", "The Mound combat mechanics", "The Mound how to survive"]
-related: ["weapons-guide", "enemy-guide", "sanity-guide", "coop-strategy-guide", "extraction-guide"]
+updated: "2026-08-10"
+keywords: ["The Mound Omen of Cthulhu how to block", "The Mound Omen of Cthulhu combat guide", "The Mound survival tips", "The Mound combat mechanics", "The Mound how to survive", "The Mound environmental hazards", "The Mound parry guide"]
+related: ["weapons-guide", "enemy-bestiary", "sanity-guide", "coop-strategy-guide", "extraction-guide"]
 ---
 
 # The Mound: Omen of Cthulhu — Combat & Survival Mechanics Guide
 
-> **Launch Version / Updated: August 1, 2026**
+> **Launch Version / Updated: August 10, 2026**
 
-Combat in The Mound is slow, deliberate, and punishing. Victory comes from understanding the mechanics — blocking, parrying, Sanity management, and positioning — not reflexes alone. This guide breaks down every system so you can survive any encounter.
+Combat in The Mound is slow, deliberate, and punishing. Victory comes from understanding the mechanics — blocking, parrying, Stamina management, noise discipline, and positioning — not reflexes alone. And when the fight isn't what kills you, the environment will: storms, floodwater, darkness, and traps all end runs that combat never touched. This guide breaks down every system so you can survive any encounter, and every hazard.
 
 ---
 
@@ -20,7 +20,7 @@ Combat in The Mound is slow, deliberate, and punishing. Victory comes from under
 
 ### Stamina System
 
-Everything costs Stamina: attacking, blocking, sprinting, and dodging. Never let it drop below 30% in combat — you need that reserve for an emergency block or dodge.
+Everything costs Stamina: attacking, blocking, sprinting, and dodging. Never let it drop below 30% in combat — you need that reserve for an emergency block or dodge. Stamina also regenerates slower while moving and faster when standing still, so pause briefly between exchanges.
 
 | Action | Stamina Cost |
 |--------|-------------|
@@ -42,13 +42,21 @@ Blocking reduces damage but does not eliminate it. The reduction depends on your
 | Crossbow (melee block) | 40% |
 | Oil Lamp | 30% |
 
-**Patch 1.02 update (late July 2026):** Block was added to the game as a new combat input in **Patch 1.02** — the launch build had no defensive input at all, which was the most common combat complaint. If you are returning after launch week, this is the new ability: hold the Block input to enter the guard stance described above. The mechanics in this section (1s guard stance, 15% Stamina per absorbed hit, weapon-dependent damage reduction) reflect the 1.02 version. See the [Patch Notes](/guides/updates-patch-notes) for the full changelog.
+**What can and cannot be blocked:**
 
-**Important:** Blocking does NOT work against projectiles, AoE attacks, or Sanity-based damage. Against the High Priest's shadow bolt, dodge — do not block.
+| Attack Type | Blockable? | Notes |
+|-------------|:--:|------|
+| Melee slashes | Yes | Full damage reduction |
+| Melee heavy attacks | Partial | Reduced reduction, heavy Stamina cost |
+| Projectiles | No | Must dodge |
+| Eldritch / Sanity-based attacks | No | Must dodge or avoid |
+| Boss grab attacks | No | Must dodge |
+
+Blocking drains Stamina per hit absorbed — when Stamina empties, your **guard breaks** and you stagger, so an empty bar is worse than not blocking at all. And blocking does NOT work against projectiles, AoE attacks, or Sanity-based damage: against the High Priest's shadow bolt, dodge — do not block.
 
 ### Parrying
 
-A successful parry staggers the enemy (2s), deals 20 Sanity damage, and opens them to a critical hit. The timing window is ~200ms.
+Time your block just before an attack lands to execute a perfect parry. A successful parry staggers the enemy (2s), deals 20 Sanity damage, and opens them to a critical hit (your next attack hits for double damage). The timing window is ~200ms — tight, so practice on Y'm-bhi Scouts first. Parries work on most melee attacks, including some boss attacks.
 
 | Situation | Verdict |
 |-----------|---------|
@@ -60,7 +68,42 @@ A successful parry staggers the enemy (2s), deals 20 Sanity damage, and opens th
 
 ### Dodging
 
-The dodge roll has i-frames for the first ~300ms on dry ground. Reduced to ~200ms in shallow water. **No i-frames in deep water** — avoid fighting there entirely.
+The dodge roll has i-frames for the first ~300ms on dry ground. Reduced to ~200ms in shallow water. **No i-frames in deep water** — avoid fighting there entirely. Dodge is also your only answer to unblockable attacks and grapples: large twisted beasts can grapple, draining your health and breaking armor — the roll is your only counter, and early on the safest answer to a grapple beast is to avoid it entirely.
+
+**Dodge vs block:**
+- **Block:** predictable melee attacks, conserving stamina, setting up parries
+- **Dodge:** unblockable attacks, AoE attacks, repositioning, escaping grabs
+
+---
+
+## Combat Fundamentals: Noise, Stealth and Backstabs
+
+### Noise Is the Enemy
+
+The Mound's monsters are attracted to **noise**, not sight alone. Three actions loudly pull enemies toward you:
+
+| Action | Noise Level | Risky? |
+|--------|-------------|--------|
+| Sprinting | High | Yes — always avoid near enemies |
+| Firearms (Matchlock, Flintlock) | Very high | Yes — every shot alerts the area |
+| Ringing the Medallion | High | Only ring it when you want attention |
+| Walking / crouching | Silent | Safe |
+| Melee takedowns | Silent | Safe — the default for stealth |
+
+The reward for silence is control: you can clear a camp of Y'm-bhi one backstab at a time and never trigger an alarm. If a fight does break out, expect reinforcements — finish quickly or leave.
+
+### Backstabs and Silent Kills
+
+The backstab is the strongest attack in the game and the foundation of survival:
+
+- **When it works:** sneaking up behind an enemy, or when an ally distracts them (grabs their attention from the front).
+- **When it does NOT work:** dodging or rolling behind an enemy mid-fight. The enemy turns with you — the game does not reward that.
+- A successful backstab **one-shots most standard enemies** and removes them silently.
+- The execution animation locks you in place for ~2 seconds — make sure no other enemy can see you before committing.
+
+### One Warning: Stumble Chains
+
+Every enemy hit on *you* triggers a brief stumble where you cannot act — which can chain into a death spiral if you are surrounded. Do not let yourself get cornered.
 
 ---
 
@@ -96,44 +139,79 @@ Appear in water. Die instantly to any fire source — one Oil Lamp throw within 
 
 ---
 
-## Survival Mechanics
+## Environmental Hazards
 
-### Sanity System
+The environment is a second enemy that never sleeps. You can play perfectly — quiet takedowns, clean extraction timing, a full contract — and still lose a run to a flooded corridor, a dying fuse, or a darkness that drains your Sanity.
 
-Sanity is your second health bar. Keep it above 40% at all times.
+| Hazard | Where It Appears | Danger Level | Counter |
+|--------|------------------|--------------|---------|
+| Rain / storm | Contract modifiers | Medium | Crossbow, melee, Oil Lamp |
+| Night / fog | Contract modifiers | Medium | Oil Lamp, formation discipline |
+| Deep water | Flooded Cave (2,000 Rep unlock) | High | Stay dry, fire kills swarms |
+| Darkness | All interiors, deep floors | High | Any light source negates drain |
+| Fire hazards | Spore vents, wraith encounters | Medium | Oil Lamp use, vent disarming |
+| Traps | Flooded Cave, hallucinated spikes | High | Awareness, team verification |
+| Forest Awakening | Every expedition, 30+ min | Very High | Extract before it triggers |
 
-| Sanity Level | Effects |
-|-------------|---------|
-| 100% – 70% | Normal (subtle whispers at 70%) |
-| 69% – 40% | Visual distortion, false audio cues |
-| 39% – 15% | Hallucinations — fake chests, teammates appearing as enemies |
-| 14% – 1% | Severe hallucinations, HUD enemies, forest misdirects from extract |
-| 0% | **Madness** — 3s loss of control, character runs randomly |
+### Weather Conditions (Contract Modifiers)
 
-**Recovery:** Healing Salve (30%), Sanity Herb (15%), teammate proximity (5% per 30s), or extract (full reset).
+Always check the contract modifiers **before** choosing a loadout — they change what works.
 
-**Pro Tip:** Pop a Salve at 45% Sanity — never let it drop below 40%. Using it at 30% wastes the overheal.
-
-### Health System
-
-| Item | HP | Rarity |
-|------|----|--------|
-| Bandage | 25 | Common |
-| Healing Salve | 50 + 30 Sanity | Uncommon |
-| Medicinal Herb | 15 | Common |
-| Galleon Rations | Full | Rare (extract-only) |
-
-Always carry 2 Bandages + 1 Salve minimum. Squad medics should carry 3 Salves + 2 Bandages.
-
-### Weather Effects
-
-| Weather | Combat Impact | Best Loadout |
-|---------|--------------|-------------|
+| Condition | Effect | Counter |
+|-----------|--------|---------|
 | Clear | All weapons work | Matchlock + Flintlock |
-| Light Rain | Firearms disabled | Crossbow + Machete |
+| Light Rain | Firearms disabled (fuse dies) | Crossbow + Machete |
 | Heavy Storm | Firearms disabled, Oil Lamp dim | Crossbow + Axe |
-| Fog | Low visibility, enemies detect half range | Crossbow + Medallion |
+| Fog | Visibility cut, enemies detect at half range | Crossbow + Medallion |
 | Night | Low visibility, Y'm-bhi more aggressive | Crossbow + Oil Lamp (mandatory) |
+| Deep water | Reduced dodge i-frames, Leech Swarms | Avoid fighting in water; fire kills swarms |
+
+**Rain rules:** if the contract shows a storm, leave the Matchlock and Flintlock at the Galleon. Every shot you can't take changes your engagement math — pull with the Crossbow and finish with the blade instead. The Oil Lamp stays lit in rain, which makes it your only reliable light source on storm nights.
+
+### Deep Water and Leech Swarms
+
+The Flooded Cave system (unlocked at **2,000 Reputation**) is the game's water hazard showcase: corridors flood, Leech Swarms drift through pools, and staying dry is a survival mechanic on its own.
+
+- **Rising water** — the lower flooded level leaves raised platforms as the only dry ground. Route between platforms; never wade blindly.
+- **Leech Swarms** — they attack in water and are **killed by fire**. An Oil Lamp held up against a swarm burns it off; melee in water is a losing trade.
+- **Reduced dodge i-frames** — in deep water your dodge roll is slower and less forgiving. Pull enemies to dry ground before fighting.
+
+### Darkness and the Sanity Drain
+
+Darkness is the most persistent hazard in the game: **entering deep darkness without a light source drains Sanity at roughly −2/sec, doubled on the deepest floors**. The drain is completely negated while any light source is active — even a basic candle.
+
+- **The Oil Lamp is mandatory** in permanent-darkness interiors (such as the Interior expedition). Assign a dedicated light-bearer in co-op; pull groups with the Crossbow from range.
+- **Every loadout should carry a light source.** Sanity loss cascades: darkness drains Sanity → low Sanity produces hallucinations → a hallucinated spike or monster causes physical damage.
+- **Team rule:** never split up in the dark. Sanity effects are per-player, but the errors they cause are team-wide.
+
+### Fire Hazards and Traps
+
+- **Spore vent chambers** — the Flooded Cave has three side chambers with vent traps. The "Whispers in the Deep" contract requires disabling all three before the boss; a vent you miss adds hazard damage to an already hard fight.
+- **Hallucinated traps** — at low Sanity, one player may see spikes where another sees a clear path. **Verify before you step** — the game punishes lone decisions.
+- **Fire as a tool** — fire is also your best crowd control: it kills Leech Swarms, hurts wraiths (which phase through walls), and the Lurker Below boss is weak to Oil Lamp fire (50% ballistic resistance makes guns a poor choice against it).
+
+### The Forest Awakens (Escalation Hazard)
+
+Every expedition has a hidden timer. Around the **30–35 minute mark**, the "Forest Awakens" phase begins:
+
+| Before Awakening | After Awakening |
+|------------------|-----------------|
+| Standard patrol density | 3x enemy spawns |
+| Predictable patrol routes | Enemies hunt player positions |
+| Static extraction point | Extraction point may relocate |
+| Normal Y'm-bhi | Berserkers more common |
+| Safe Ox Cart path | Ox Cart may be overrun |
+
+The Forest Awakening is the one hazard you cannot counter — only leave before it. When the wind picks up and the howls start, treat it as the final warning. See the [Extraction Guide](/guides/extraction-guide) for the full timing breakdown.
+
+### The Ox Wagon as a Survival Tool
+
+The ox wagon is your best non-combat survival tool:
+
+- **Cuts Sanity loss** — camp near it periodically to keep your mind stable
+- **Drops a paint streak** on the ground behind it, creating a navigation anchor back to the boat
+- **Extra carry capacity** — deposit heavy Idols and treasure so your inventory slots stay free
+- Caveat: its pathing is erratic — it can turn around or block a path, so never rely on it as a guaranteed escort
 
 ---
 
@@ -154,7 +232,7 @@ Always carry 2 Bandages + 1 Salve minimum. Squad medics should carry 3 Salves + 
 
 ## Why Combat Feels Hard (and How to Stop Dying)
 
-Combat in The Mound is famously punishing — reviews and players describe it as feeling more like luck than skill, especially at launch when no defensive input existed. Since Patch 1.02 added Block, the difficulty is now largely beatable with the right mindset. Here is the honest breakdown of why you are dying, and what to change.
+Combat in The Mound is famously punishing — reviews and players describe it as feeling more like luck than skill. Here is the honest breakdown of why you are dying, and what to change.
 
 ### 1. Positioning — The First Cause of Death
 
@@ -188,7 +266,7 @@ The melee swings are slower than they look and attacks have travel time. "The hi
 | Swinging while the enemy is mid-dash/lunge | Wait for the lunge to land, then punish |
 | Chasing a moving target | Hold position and let them come to you |
 
-Melee in The Mound is a *counter* game: wait for the enemy's attack, then hit them during recovery. Block (1.02) makes this loop safe — block the first hit of a combo, punish the end.
+Melee in The Mound is a *counter* game: wait for the enemy's attack, then hit them during recovery. Blocking makes this loop safe — block the first hit of a combo, punish the end.
 
 ### 5. Mindset: Death Is Cheap, Progress Is Permanent
 
@@ -197,7 +275,7 @@ The single most important reframe: **dying costs you the run, not the account.**
 - Every death teaches a pattern — treat each expedition as a scouting run
 - If a contract is too hard, you aren't under-leveled, you're under-supplied: bring more Salves, better loadout (see the [Weapons Guide](/guides/weapons-guide))
 - Sanity below 40% is usually the real killer — hallucinations create fake threats and fake escapes. Manage it first ([Sanity Guide](/guides/sanity-guide))
-- And if combat still feels unfair after 1.02: Block + parry + dodge is now the full toolkit it was missing. Use all three.
+- And if combat still feels unfair, remember the full toolkit: block, parry, and dodge — use all three.
 
 ---
 
@@ -211,6 +289,15 @@ The single most important reframe: **dying costs you the run, not the account.**
 
 ---
 
+## Hazard-Proof Loadout Checklist
+
+- [ ] Light source (Oil Lamp or candle) in every loadout
+- [ ] Contract modifiers checked before gear selection
+- [ ] Crossbow or melee plan if the contract is a storm
+- [ ] Fire option (Oil Lamp) for swarms and wraiths
+- [ ] Sanity-restore consumables for darkness-heavy maps
+- [ ] Escape route identified before any hazard crossing
+
 ## Final Checklist
 
 - [ ] Stamina above 50%
@@ -223,7 +310,7 @@ The single most important reframe: **dying costs you the run, not the account.**
 ### Related Guides
 
 - [Weapons Guide — All 6 Weapons & Best Loadouts](/guides/weapons-guide) — Full weapon stats and loadout synergy
-- [Enemy Guide — All Y'm-bhi & Creature Types](/guides/enemy-guide) — Detailed enemy behaviors and weaknesses
+- [Enemy Bestiary — Complete Creature Database](/guides/enemy-bestiary) — Detailed enemy behaviors and weaknesses
 - [Sanity Guide — Survive the Madness](/guides/sanity-guide) — Deep dive into the Sanity system
 - [Co-op Strategy — 4-Player Team Guide](/guides/coop-strategy-guide) — Team combat coordination
 - [Extraction Guide — When and How to Escape](/guides/extraction-guide) — Knowing when to disengage

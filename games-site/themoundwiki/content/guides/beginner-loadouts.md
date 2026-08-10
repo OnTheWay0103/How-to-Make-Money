@@ -5,7 +5,7 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-04"
 keywords: ["the mound beginner loadout", "the mound best starting loadout", "the mound weight limit", "the mound budget gear", "the mound stealth loadout", "the mound starting equipment"]
-related: ["loadout-guide", "weapons-guide", "best-weapons-gear-guide", "squad-loadout-chart", "money-guide"]
+related: ["loadout-guide", "weapons-guide", "coop-strategy-guide", "money-guide"]
 ---
 
 # The Mound Beginner Loadouts — Survive Your First Expeditions
@@ -79,7 +79,7 @@ Your loadout is the difference between extracting with loot and feeding the fore
 |------|------|-------------|
 | 1 | Salve (healing) | After any hit from a supernatural enemy — don't hoard it |
 | 2 | Salve (healing) | Reserve; only if the first is consumed |
-| 3 | Sanity Tonic | Sanity below 40% — before it becomes hallucinations (see the [Sanity Management Guide](/guides/sanity-management)) |
+| 3 | Sanity Tonic | Sanity below 40% — before it becomes hallucinations (see the [Sanity Guide](/guides/sanity-guide)) |
 | 4 | Bandage | Cheap secondary heal for late expedition |
 | 5 | Flare | Extraction signal backup — if your extraction point shifts (see the [Extraction Guide](/guides/extraction-guide)) |
 | 6 | Lockpick | Opens locked chests for bonus loot |
@@ -112,7 +112,7 @@ Your loadout is the difference between extracting with loot and feeding the fore
 4. **Buying the best armor first.** New players spend their first 200 coins on armor and then can't afford the lamp that prevents the Sanity deaths that kill them more often.
 5. **Copying a veteran loadout.** Veteran builds assume map knowledge and rare perks — budget builds (this guide's Section 2) are the correct starting point.
 
-**Final note:** every loadout above works with the cheapest gear in the shop — the skill is in the consumables and the weight math, not the weapon tier. The [Loadout Guide](/guides/loadout-guide) covers the full item pool, and the [Squad Loadout Chart](/guides/squad-loadout-chart) shows how to specialize when you run with a team. For money farming tips to fund your upgrades, see the [Money Guide](/guides/money-guide).
+**Final note:** every loadout above works with the cheapest gear in the shop — the skill is in the consumables and the weight math, not the weapon tier. The [Loadout Guide](/guides/loadout-guide) covers the full item pool, and the [Co-op Strategy Guide](/guides/coop-strategy-guide) shows how to specialize when you run with a team. For money farming tips to fund your upgrades, see the [Money Guide](/guides/money-guide).
 
 ---
 
@@ -120,6 +120,5 @@ Your loadout is the difference between extracting with loot and feeding the fore
 
 - [Loadout Guide](/guides/loadout-guide) — Every slot, item, and weight rule detailed
 - [Weapons Guide](/guides/weapons-guide) — All weapons, rarities, and degradation
-- [Best Weapons & Gear Guide](/guides/best-weapons-gear-guide) — The best-in-slot items to work toward
-- [Squad Loadout Chart](/guides/squad-loadout-chart) — Specialized roles for full squads
+- [Co-op Strategy Guide](/guides/coop-strategy-guide) — Specialized roles for full squads
 - [Money Guide](/guides/money-guide) — How to fund your loadout upgrades

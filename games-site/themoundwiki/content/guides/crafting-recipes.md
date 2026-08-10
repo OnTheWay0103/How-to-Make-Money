@@ -5,7 +5,7 @@ category: "Guides"
 version: "1.0"
 updated: "2026-07-29"
 keywords: ["The Mound crafting recipes", "The Mound Galleon crafting", "The Mound medallion recipe", "The Mound healing salve", "The Mound ammo crafting", "The Mound crafting tiers"]
-related: ["extraction-zones", "beginner-guide", "daily-challenges", "controls-settings-guide"]
+related: ["extraction-guide", "beginner-guide", "daily-challenges", "controls-settings-guide"]
 ---
 
 ## Crafting Recipes Guide — The Mound
@@ -38,16 +38,17 @@ Your crafting tier is tied to your Personal Rank. Each tier unlocks new recipes 
 
 #### Medallion Recipes
 
-The Medallion is your most versatile tool. It can be upgraded through multiple paths:
+#### Medallion Upgrades
 
-| Medallion Upgrade | Materials Required | Effect |
-|-------------------|-------------------|--------|
-| Medallion: Range I | 8 Scrap Metal, 2 Copper Wire | Increases portal placement range by 20% |
-| Medallion: Range II | 12 Scrap Metal, 4 Copper Wire, 1 Rare Crystal | Increases portal placement range by 40% |
-| Medallion: Duration I | 6 Scrap Metal, 3 Iron Ingot | Portal lasts 10 seconds longer |
-| Medallion: Duration II | 10 Scrap Metal, 5 Iron Ingot, 1 Essence of Time | Portal lasts 25 seconds longer |
-| Medallion: Recall | 15 Scrap Metal, 6 Iron Ingot, 2 Essence of Time, 1 Artifact Core | Creates a return portal to the Galleon |
-| Medallion: Group Recall | 20 Scrap Metal, 8 Iron Ingot, 3 Essence of Time, 2 Artifact Core | Creates return portals for all squad members |
+The Medallion is a utility item that detects nearby treasure chests and points of interest. It can be enhanced through crafting:
+
+| Upgrade | Materials Required | Effect |
+|---------|-------------------|--------|
+| Medallion: Extended Range | Scrap Metal, Copper Wire | Increases treasure detection range |
+| Medallion: Enhanced Signal | Scrap Metal, Rare Crystal | Stronger ping signal, easier to locate direction |
+| Medallion: Duration Boost | Scrap Metal, Iron Ingot | Ping effect lasts longer |
+
+> **Note:** Exact material quantities and upgrade effects have not been independently verified. The Medallion's core function is treasure and point-of-interest detection — use it to find hidden loot and secrets during expeditions.
 
 #### Healing and Restoration Consumables
 
@@ -97,14 +98,14 @@ Knowing where to farm specific materials saves enormous time:
 ### Crafting Tips and Strategies
 
 1. **Always craft ammunition before deploying.** Running out of ammo mid-expedition is the most common cause of failed extractions. Craft at least 40 standard rounds and 15 silver bullets before each expedition.
-2. **Prioritize Medallion upgrades.** The Medallion: Range II upgrade alone can cut extraction time by 30% because you can place portals from safer distances.
+2. **Prioritize Medallion upgrades.** Extended detection range helps you find more hidden loot, which means better gear and more extraction value.
 3. **Share crafting duties in co-op.** Have one player focus on healing consumables and another on ammunition. This doubles your effective output.
 4. **Don't hoard rare materials.** Use them between expeditions. Unused materials in storage help nobody.
 5. **The Storm Cloak is worth the investment.** If you regularly push into late expeditions, the storm resistance saves more resources than the cloak costs to craft.
 
 ### Related Guides
 
-- [Extraction Zones Guide](/guides/extraction-zones) — Extract safely with your crafted gear
+- [Extraction Guide](/guides/extraction-guide) — Extract safely with your crafted gear
 - [Beginner's Guide](/guides/beginner-guide) — Getting started with The Mound
 - [Daily Challenges Guide](/guides/daily-challenges) — Earn materials through contracts
 - [Controls and Settings Guide](/guides/controls-settings-guide) — Complete reference for all settings
