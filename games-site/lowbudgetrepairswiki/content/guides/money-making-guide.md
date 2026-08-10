@@ -81,6 +81,8 @@ The risk is patchiness on large flat surfaces — a second roller pass evens mos
 | Water stain on ceiling | Thick paint coat | Cut out, patch, prime, repaint | 2x |
 | Ugly floor scratch | Area rug | Sand and refinish | 5x+ |
 
+*Savings multiples are player estimates from demo testing, not official figures — the relative order matters more than the exact numbers.*
+
 Each cover-up carries the same risk: if the client inspects closely, you're caught, and the redo costs more than the repair would have. Vary your risk — posters behind furniture, not on the main wall.
 
 ## Job Priority and Grinding Strategy

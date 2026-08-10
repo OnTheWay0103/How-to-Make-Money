@@ -17,7 +17,7 @@ Tools you buy once; materials you buy for every job — and they're where beginn
 
 Paint is the largest recurring material cost, and the game's signature savings live here:
 
-- **Dilute it.** One can of paint stretched with thinner or water at roughly **1:5** covers a whole room and passes inspection. At 1:10 it starts looking patchy. Stir thoroughly — unmixed thinner leaves streaks inspectors notice.
+- **Dilute it.** One can of paint stretched with thinner or water at roughly **1:5** (per demo players — unverified) covers a whole room and passes inspection. Heavier dilution starts looking patchy. Stir thoroughly — unmixed thinner leaves streaks inspectors notice.
 - **The "show wall" rule.** Buy one decent can for the wall opposite the entrance (the most-looked-at surface) and diluted cheap paint for everything else. One right can beats a full redo.
 - **Paint over, don't prepare.** The demo doesn't require sanding or primer. Scrape loose paint, then paint.
 - **Knock-off brands are fine.** Off-brand paint at 1:5 dilution looks the same on the wall as name-brand at 1:5. The brand premium is for the show wall only.

@@ -36,7 +36,7 @@ When the contract does require floor tiles, the [tiling guide](/guides/tiling-gu
 - **Never replace the subfloor.** Fixing the floor *under* the tiles is expensive, invisible, and uninspected. It is the definition of wasted spend.
 - **Grout hides everything else.** Cheap grout mixed roughly fills the mismatched edges and wandering rows — the [tiling guide](/guides/tiling-guide) calls grout the material that makes sloppy tiling invisible. Never skip it on visible rows.
 
-The flooded bathroom job — the game's starter contract — is your practice ground: replace the visibly broken floor tiles, leave the rest, grout over the seams. The full walkthrough is in the [first renovation walkthrough](/guides/first-renovation-walkthrough).
+The flooded bathroom job — the game's starter contract — is your practice ground: replace the visibly broken floor tiles, leave the rest, grout over the seams. The step-by-step is in the [bathroom renovation guide](/guides/bathroom-renovation-guide).
 
 ## When Paint and Linoleum Beat Tiles
 

@@ -23,7 +23,7 @@ export default function TermsPage() {
 
       <h2>3. Intellectual Property</h2>
       <p>
-        All game-related names, images, trademarks, and content are the property of their respective owners (Astra Logical). Our original guide content, articles, and website design are protected by copyright. You may not reproduce, distribute, or create derivative works from our content without permission.
+        All game-related names, images, trademarks, and content are the property of their respective owners (RipRed and indie.io). Our original guide content, articles, and website design are protected by copyright. You may not reproduce, distribute, or create derivative works from our content without permission.
       </p>
 
       <h2>4. User Conduct</h2>

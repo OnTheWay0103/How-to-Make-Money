@@ -42,7 +42,7 @@ Understanding how we got here helps separate rumor from fact:
 - **March 2026** — progress report: full playtesting, alchemy potion-throwing added, trap deployment streamlined for combat.
 - **April 2026** — progress report: refinement toward QA; the game prepares for release.
 - **July 27, 2026** — 1.0 launches on Steam as a full premium title: single-player, story-driven, 15–30 hours, $34.99 / £27.99 / €29.99.
-- **Post-launch** — Director Craig acknowledges the "Mixed" Steam reception and announces fixes (performance, widescreen, keybinding customisation, localization), then **free DLC** — all single-player content.
+- **Post-launch** — Director Craig Smith acknowledges the "Mixed" Steam reception and announces fixes (performance, widescreen, keybinding customisation, localization), then **free DLC** — all single-player content.
 
 There is no point in this timeline where multiplayer returns. Co-op is a closed chapter, not a pending patch.
 
@@ -54,7 +54,7 @@ Since co-op is off the table, the relevant question is: what does the solo exper
 - **A classless build system** — no party roles, so every build is designed to be self-sufficient. You are never locked into a role that "needs a teammate."
 - **Controller support** — full gamepad support confirmed; the game plays well on controller on PC.
 - **Hand-crafted exploration** — semi-open zones, dungeons, puzzles, and a "whole huge area" hidden behind a side quest. This is the game's most praised feature and it is entirely solo.
-- **A real system requirement footprint** — the game is modest: Windows 10/11 64-bit, 8 GB RAM minimum (16 GB recommended), GTX 1080 / RX 6600 minimum GPU, roughly 12–20 GB of storage. Performance at launch was the main technical complaint; optimization patches are confirmed in progress.
+- **A real system requirement footprint** — per the Steam store page: Windows 10/11 64-bit, 8 GB RAM minimum (16 GB recommended), a GTX 1080 / RX 6600-class minimum GPU, and about 20 GB of storage. Performance at launch was the main technical complaint; optimization work is confirmed in progress.
 - **No online requirement** — the game does not need a connection, an account, or a server. It is about as offline-friendly as a Steam game gets.
 
 ## Should You Buy It Solo? The Honest Verdict

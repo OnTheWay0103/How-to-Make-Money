@@ -13,7 +13,7 @@ keywords:
   - "low-budget repairs renovation order"
 related:
   - "renovation-jobs-guide"
-  - "first-renovation-walkthrough"
+  - "bathroom-renovation-guide"
   - "inspection-guide"
   - "job-profit-guide"
   - "upgrade-priorities-guide"

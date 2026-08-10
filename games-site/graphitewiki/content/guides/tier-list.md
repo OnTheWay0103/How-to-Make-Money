@@ -4,10 +4,9 @@ description: 'An honest Graphite hero tier assessment. Only The Knight and The M
 keywords: ['Graphite tier list', 'Graphite best hero', 'Graphite hero ranking', 'Graphite Knight', 'Graphite Mage', 'Graphite best class', 'Graphite team composition']
 category: Guides
 version: '1.0'
-updated: '2026-08-01'
+updated: '2026-08-11'
 related:
   - heroes-guide
-  - character-guide
   - beginner-guide
   - how-to-unlock-heroes
   - graphite-demo-guide
@@ -15,7 +14,7 @@ related:
 
 ## An Honest Preface About Tier Lists
 
-Tier lists for Graphite need a disclaimer that most ranking pages skip: **there is no confirmed tier data for this game.** Graphite launches July 27, 2026, and only two of the seven heroes have been officially named — **The Knight** and **The Mage**. Any ranking that scores heroes named "Warrior," "Rogue," "Monk," "Bard," "Hunter," or "Tamer" with numbers like "9/10" is fabricating its roster and its data. Neither the hero names nor the scores are sourced.
+Tier lists for Graphite need a disclaimer that most ranking pages skip: **there is no confirmed tier data for this game.** Graphite launched July 27, 2026, and only two of the seven heroes have been officially named — **The Knight** and **The Mage**. Any ranking that scores heroes named "Warrior," "Rogue," "Monk," "Bard," "Hunter," or "Tamer" with numbers like "9/10" is fabricating its roster and its data. Neither the hero names nor the scores are sourced.
 
 This page gives you the honest version: what is confirmed about each known hero, and a reasonable early-pick recommendation based on confirmed mechanics rather than invented stats.
 
@@ -73,7 +72,6 @@ A genuine tier list needs post-release data: actual playtest results, confirmed 
 ## Related Guides
 
 - [Heroes Guide — All 7 Heroes Breakdown](/guides/heroes-guide)
-- [Character Guide — Playable Heroes](/guides/character-guide)
 - [Beginner Guide — First Run Tips](/guides/beginner-guide)
 - [How to Unlock Heroes](/guides/how-to-unlock-heroes)
 - [Graphite Demo Guide](/guides/graphite-demo-guide)

@@ -4,12 +4,11 @@ description: 'How the tarot-inspired adventure deck works in Graphite: branching
 keywords: ['Graphite tarot events', 'Graphite adventure deck', 'Graphite tarot guide', 'Graphite event choices', 'Graphite best events', 'Graphite deck guide']
 category: Guides
 version: '1.0'
-updated: '2026-08-01'
+updated: '2026-08-11'
 related:
-  - walkthrough-guide
-  - tips-tricks
   - beginner-guide
   - graphite-demo-guide
+  - advanced-strategies
 ---
 
 ## How the Adventure Deck Works
@@ -74,7 +73,7 @@ Since specific events are unconfirmed, strategy lives at the level of how the sy
 - **Event categories and frequencies** — unconfirmed
 - **Reward tables** (e.g., "elite combat drops Uncommon+ artifacts") — unconfirmed
 - **Deck manipulation rules** (card cycling, seeding, skip mechanics) — unconfirmed
-- **Rarity systems** (Common/Uncommon/Rare/Legendary artifacts) — no official confirmation of artifact rarities
+- **Rarity systems** — the developer's launch materials reference rare and legendary tiers, but no full rarity list has been published
 
 If a guide names specific events and their rewards, it is writing fiction — none of that content is sourced.
 
@@ -87,11 +86,10 @@ The Act 1 demo is the perfect training ground for the deck:
 - **~30-minute runs** mean you can see how decisions pay off — and how they don't — quickly
 - **50 artifacts** give the reward side of the deck real variety to explore
 
-Try the same event with different heroes and different item stacks. That experiment is the fastest way to learn how the deck really works before the full game's July 27 release.
+Try the same event with different heroes and different item stacks. That experiment is the fastest way to learn how the deck really works.
 
 ## Related Guides
 
-- [Campaign Walkthrough Guide](/guides/walkthrough-guide)
-- [Advanced Tips & Tricks](/guides/tips-tricks)
-- [Beginner Guide — First Run Tips](/guides/beginner-guide)
 - [Graphite Demo Guide — Act 1](/guides/graphite-demo-guide)
+- [Advanced Strategies Guide](/guides/advanced-strategies)
+- [Beginner Guide — First Run Tips](/guides/beginner-guide)

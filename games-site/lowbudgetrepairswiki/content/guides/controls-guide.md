@@ -69,7 +69,7 @@ The demo includes the usual PC graphics options: resolution, fullscreen/windowed
 
 ### Language Options
 
-The game's humor lives in its Polish-flavored dialogue, so language matters more here than in most sims. Expect at least **English and Polish** at launch, with additional languages likely — the exact list hasn't been announced. If you can, play with the subtitles on: half the comedy is in the client's complaints.
+The game's humor lives in its Polish-flavored dialogue, so language matters more here than in most sims. The Steam page confirms **18 languages with full audio and subtitles**, including English, Polish, and Simplified Chinese (full list in the [languages guide](/guides/languages-guide)). If you can, play with the subtitles on: half the comedy is in the client's complaints.
 
 ### Other Settings
 

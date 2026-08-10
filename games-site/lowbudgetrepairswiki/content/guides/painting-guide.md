@@ -28,7 +28,7 @@ Key things to know:
 
 ## How to Dilute Paint (and What It Does)
 
-Stretching paint is the classic low-budget move. Mix water into the bucket before you start — roughly **10–20% water** for the standard budget paint in the demo. The effect: you cover more wall per can, but each coat covers worse, letting old stains bleed through — a single diluted coat over a stained wall is the most common inspection failure in the demo.
+Stretching paint is the classic low-budget move. Mix water into the bucket before you start — demo players report roughly **10–20% water** works for the standard budget paint (about one part thinner or water to five parts paint, unverified — see the [cost-cutting tips guide](/guides/cost-cutting-tips) for the community-tested ratios). The effect: you cover more wall per can, but each coat covers worse, letting old stains bleed through — a single diluted coat over a stained wall is the most common inspection failure in the demo.
 
 The trick is dilution, not desperation: one diluted coat plus one normal coat usually passes and still costs less than two premium coats. Past ~20% water, paint starts acting like tinted water.
 
@@ -67,8 +67,6 @@ Premium paint is rarely worth it — two coats of budget paint almost always cos
 - **Brush** — slow but precise. Use it for edges, corners, and radiators where a roller can't reach. Don't brush entire walls.
 - **Sprayer** — the fastest large-area tool, great for doors and cabinets, but it oversprays: you'll paint skirting boards, floors, and windows if you're careless.
 
-## Color Matching
-
 ## Color Matching (or Not Bothering)
 
 Matching paint colors between cans is overrated. The inspector does not verify color fidelity, and nobody in the building has a colorimeter. Leftover paint from an earlier job can cover a wall in a new room — nobody notices slight shade differences once it's dry. The only rule: big color changes (e.g., covering dark red with white) need either premium paint or two coats, since cheap paint lets the old color ghost through.
@@ -103,7 +101,7 @@ The inspection pass is easier than most players fear:
 ## Quick Checklist for a Cheap, Passing Paint Job
 
 - Roll the walls, brush the edges, skip behind radiators and furniture.
-- Dilute budget paint to ~15% water; two coats on stained walls.
+- Dilute budget paint to roughly 15% water (per demo players); two coats on stained walls.
 - Paint over mold, don't treat it; match colors "closely enough," never exactly.
 - Touch up before inspection; pass with streaks and move on.
 

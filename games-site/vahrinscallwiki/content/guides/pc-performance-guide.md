@@ -16,7 +16,7 @@ This guide collects what is officially confirmed about the game's requirements, 
 
 ## Official System Requirements
 
-Titan Roc published the following requirements for the PC release:
+The following requirements are listed on the official Steam store page for the PC release:
 
 | Component | Minimum | Recommended |
 |-----------|---------|-------------|
@@ -125,7 +125,7 @@ With no official graphics-settings documentation published, FPS guidance is comm
 
 ## What the Developers Have Promised
 
-Director **Craig** (Titan Roc) publicly acknowledged the mixed reception and announced these priorities in order:
+Director **Craig Smith** (Titan Roc) publicly acknowledged the mixed reception and announced these priorities in order:
 
 1. **Performance optimization** — including the overworld loading stutter.
 2. **Widescreen support**.

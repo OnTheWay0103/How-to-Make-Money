@@ -4,27 +4,30 @@ import JsonLd from '@/components/JsonLd';
 import GuideCard from '@/components/GuideCard';
 
 const FEATURED_GUIDES = [
-  { title: "Beginner's Guide", description: 'New to Graphite? Start here — learn the core mechanics, hero roles, timeline combat, and how to survive your first few runs.', slug: 'beginner-guide', category: 'Beginner', updated: '2026-07-27' },
-  { title: 'All Heroes Overview', description: 'Complete breakdown of all 7 heroes — Warrior, Rogue, Hunter, Monk, Mage, Bard, and Tamer. Abilities, playstyles, and role recommendations.', slug: 'heroes-guide', category: 'Heroes', updated: '2026-07-27' },
-  { title: 'Best Builds & Artifacts', description: 'Optimized artifact builds for every hero. Learn unlimited artifact stacking strategies and synergy combinations for maximum power.', slug: 'builds-artifacts-guide', category: 'Builds', updated: '2026-07-27' },
-  { title: 'Combat & Break System', description: 'Master timeline-based combat and the Break system. Learn turn order manipulation, Break windows, and how to chain devastating combos.', slug: 'combat-guide', category: 'Combat', updated: '2026-07-27' },
-  { title: 'Boss Strategy Guide', description: 'Every boss in Graphite — attack patterns, Break timings, recommended team compositions, and loot tables for each act.', slug: 'boss-guide', category: 'Bosses', updated: '2026-07-27' },
-  { title: 'Campaign Walkthrough', description: 'Complete 4-act campaign walkthrough. Best routes, key choices, secret encounters, and how to prepare for each act\'s challenge.', slug: 'walkthrough-guide', category: 'Walkthrough', updated: '2026-07-27' },
+  { title: "Beginner's Guide", description: 'New to Graphite? Start here — learn the core mechanics, hero roles, timeline combat, and how to survive your first few runs.', slug: 'beginner-guide', category: 'Beginner', updated: '2026-08-01' },
+  { title: 'All Heroes Overview', description: 'Complete breakdown of all 7 heroes — The Knight and The Mage are the only ones confirmed by name so far. Playstyles, strengths, and honest first-pick advice.', slug: 'heroes-guide', category: 'Heroes', updated: '2026-08-01' },
+  { title: 'Best Builds & Artifacts', description: 'Graphite has no weapon system — power comes from stackable artifacts and skill upgrades. Learn unlimited stacking strategies and build archetypes.', slug: 'builds-artifacts-guide', category: 'Builds', updated: '2026-08-01' },
+  { title: 'Combat & Break System', description: 'Master timeline-based combat and the Break system. Learn how Poise depletion cancels enemy actions, how to read the timeline, and how the symmetric Break rules protect your party.', slug: 'combat-guide', category: 'Combat', updated: '2026-08-01' },
+  { title: 'Boss Strategy Guide', description: 'Boss strategy based on confirmed information — Break windows, timeline tactics, and honest notes on what is not yet documented.', slug: 'boss-guide', category: 'Bosses', updated: '2026-08-01' },
+  { title: 'Graphite Demo Guide — Act 1', description: 'Everything in the free demo: 4 heroes, 50 stackable artifacts, 15 adventure events, ~30-minute runs, and first-run tips for the timeline combat and Break system.', slug: 'graphite-demo-guide', category: 'Beginner', updated: '2026-08-01' },
 ];
 
 const FAQ_ITEMS = [
-  { question: 'What is Graphite?', answer: 'Graphite is a pen-and-ink tactical roguelike RPG developed by RipRed and published by indie.io. Featuring 7 unique heroes, timeline-based combat, and a deep artifact stacking system, it launched on Steam on July 27, 2026.' },
-  { question: 'How many heroes are in Graphite?', answer: 'Graphite features 7 heroes: Warrior (tank/defender), Rogue (single-target burst), Hunter (ranged damage), Monk (support/healer), Mage (AoE damage), Bard (buffer/controller), and Tamer (pet-based damage).' },
-  { question: 'How does the Break system work?', answer: 'Every enemy in Graphite has a Break gauge displayed on the timeline. Attacking during Break windows deals bonus damage and can interrupt enemy actions. Managing Break timing is the core of tactical combat.' },
-  { question: 'What is Timeline combat?', answer: 'Graphite uses a visual timeline showing turn order for both allies and enemies. Actions shift positions on the timeline — fast abilities move you earlier, heavy attacks move you later. Mastering the timeline is essential for success.' },
-  { question: 'How do Artifacts and stacking work?', answer: 'Artifacts are equippable items that grant passive bonuses, active abilities, or modify hero stats. Unlike most games, Graphite allows unlimited artifact stacking — you can equip multiple copies of the same effect for compounding power.' },
-  { question: 'What is the Bond system?', answer: 'The Bond system tracks relationships between heroes during a run. Bond levels unlock bonus effects — shared stats, combo attacks, and reaction abilities. Bonds carry through a run but reset between runs (roguelike progression).' },
-  { question: 'What is the Tarot adventure deck?', answer: 'Between battles, the Tarot deck determines events, encounters, and rewards on the adventure map. Each Tarot card has unique outcomes — some offer power at a cost, others grant free blessings. Your choices shape each run differently.' },
-  { question: 'How many acts are in the campaign?', answer: 'The campaign has 4 acts, each culminating in a boss fight. Acts increase in difficulty and introduce new enemy types, Tarot events, and environmental hazards. A single successful run takes 2-3 hours.' },
-  { question: 'Can I play Graphite on Steam Deck?', answer: 'Yes. Graphite is verified on Steam Deck. The timeline interface and turn-based combat work well with controller input.' },
-  { question: 'Is there a meta-progression system?', answer: 'Yes. Even when a run ends, you earn currency that unlocks permanent upgrades — new starting artifacts, hero passives, and Tarot card options for future runs.' },
-  { question: 'Does Graphite have controller support?', answer: 'Yes, Graphite supports full controller input alongside keyboard and mouse.' },
-  { question: 'What is the pen-and-ink art style?', answer: 'Graphite\'s visual identity is inspired by hand-drawn ink illustrations — all characters, enemies, and environments are rendered in a monochromatic pen-and-ink art style with subtle red accents. The aesthetic draws from classic fantasy sketchbooks.' },
+  { question: 'What is Graphite?', answer: 'Graphite is a pen-and-ink tactical roguelike RPG developed by RipRed (Colombia) and published by indie.io. It launched on Steam, GOG, and the indie.io Store on July 27, 2026. It features timeline-based combat with the Break system, unlimited artifact stacking, a Tarot adventure deck, and a four-act campaign.' },
+  { question: 'How many heroes are in Graphite?', answer: 'Graphite has 7 playable heroes. Only two are confirmed by name so far: The Knight (shield-based, built around the Break system) and The Mage (offensive spells plus defensive support). The other five have not been officially revealed.' },
+  { question: 'How does the Break system work?', answer: 'Every combatant has Poise (an action gauge). Depleting an enemy\'s Poise to zero cancels their scheduled action and pushes their turn down the timeline — interrupting powerful attacks, summons, and buffs. The system is fully symmetric: enemies can Break your heroes the same way.' },
+  { question: 'What is Timeline combat?', answer: 'Combat plays out on a shared timeline. Every action has a duration, multiple units act simultaneously, and you can see enemy wind-ups before they resolve. Reading the timeline — and timing your Breaks — is the core skill.' },
+  { question: 'How do Artifacts and stacking work?', answer: 'Artifacts are passive items with no cap on stacking — duplicates amplify the same effect, and hyper-specialized builds are supported. Enemies acquire artifacts too, so fights become an arms race.' },
+  { question: 'What is the Tarot adventure deck?', answer: 'Between fights, a tarot-inspired deck presents illustrated, narrated event cards with branching choices. Outcomes are shaped by your party, your items, and your prior decisions.' },
+  { question: 'How many acts are in the campaign?', answer: 'Four acts, each spanning 15 days, per the developer\'s launch materials. No full-game playtime figure has been published; a single Act 1 demo run takes about 30 minutes.' },
+  { question: 'Is there a free demo?', answer: 'Yes. Graphite: Act 1 is free on Steam — 4 playable heroes, 50 stackable artifacts, 15 adventure events, and runs of about 30 minutes. It covers the entire first act of the campaign.' },
+  { question: 'What are the system requirements?', answer: 'Per the official Steam store page: Windows 10, a 2.0 GHz processor, 2 GB RAM, 2 GB graphics, and 1 GB storage. No recommended tier has been published.' },
+  { question: 'How much does Graphite cost?', answer: '$8.99 USD, with a 20% launch discount ($7.19) that ran through August 10, 2026. Check the Steam page for the current listing.' },
+  { question: 'Is there a Bond/friendship system?', answer: 'Graphite includes a friendship system between characters — the demo supports friendship levels up to 1. How friendship is gained and how it connects to unlocking heroes is unconfirmed.' },
+  { question: 'Can I play Graphite on Steam Deck?', answer: 'Unconfirmed. No official statement about Steam Deck support has been published.' },
+  { question: 'Is there meta-progression?', answer: 'Graphite is a roguelite: artifacts, events, and unlockables persist across runs in some form. The exact scope of what carries over between runs is unconfirmed.' },
+  { question: 'Is Graphite multiplayer?', answer: 'No — Graphite is a single-player game.' },
+  { question: 'What is the pen-and-ink art style?', answer: 'Graphite is hand-drawn in a pencil-and-ink notebook aesthetic — the game takes place inside a child\'s school notebook, where heroes and monsters are drawn in pen and ink.' },
 ];
 
 export default function Home() {
@@ -42,7 +45,7 @@ export default function Home() {
         </p>
         <p className="text-sm text-gray-600 mb-8">Launched July 27, 2026 on Steam</p>
         <div className="flex items-center justify-center gap-4">
-          <a href="https://store.steampowered.com/app/2788990/Graphite/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-amber-600 hover:bg-amber-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors text-sm">
+          <a href="https://store.steampowered.com/app/3080560/Graphite/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-amber-600 hover:bg-amber-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors text-sm">
             View on Steam
           </a>
           <Link href="/guides/beginner-guide" className="inline-flex items-center gap-2 border border-gray-600 hover:border-red-500 text-gray-300 hover:text-red-400 px-6 py-3 rounded-lg transition-colors text-sm">

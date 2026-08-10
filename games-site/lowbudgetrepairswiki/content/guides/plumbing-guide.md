@@ -6,7 +6,7 @@ version: "Pre-release"
 updated: "2026-08-08"
 date: "2026-08-08"
 keywords: ["low-budget repairs plumbing", "low-budget repairs how to fix a leak", "low-budget repairs duct tape pipe", "low-budget repairs pipe repair", "low-budget repairs plumbing guide"]
-related: ["first-renovation-walkthrough", "materials-guide", "cost-cutting-tips", "renovation-jobs-guide", "inspection-guide", "tool-guide"]
+related: ["bathroom-renovation-guide", "materials-guide", "cost-cutting-tips", "renovation-jobs-guide", "inspection-guide", "tool-guide"]
 ---
 
 # Low-Budget Repairs Plumbing Guide — Fix Leaks & Pipes on the Cheap
@@ -17,7 +17,7 @@ Plumbing is the scariest job category in Low-Budget Repairs — and the most mis
 
 **Turn off the flat's water valve before you touch any pipe.**
 
-The demo's most common new-player disaster is skipping this: you grab the leaking pipe, it sprays water everywhere, the damage spreads, and you either fail the job or eat the cleanup time. The valve is usually reachable in the flat — find it on your first walkthrough, before the job starts. The step-by-step is in our [first renovation walkthrough](/guides/first-renovation-walkthrough), because the flooded bathroom job is where every player learns this the hard way.
+The demo's most common new-player disaster is skipping this: you grab the leaking pipe, it sprays water everywhere, the damage spreads, and you either fail the job or eat the cleanup time. The valve is usually reachable in the flat — find it on your first walkthrough, before the job starts. The step-by-step is in our [bathroom renovation guide](/guides/bathroom-renovation-guide), because the flooded bathroom job is where every player learns this the hard way.
 
 With the water off, nothing can get worse. Everything else is just cost-minimization.
 

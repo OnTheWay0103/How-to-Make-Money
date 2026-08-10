@@ -5,7 +5,7 @@ category: 'Guides'
 version: '1.0'
 updated: '2026-08-01'
 keywords: ['vahrins call weapons guide', 'vahrins call best weapons', 'vahrins call bows', 'vahrins call melee weapons', 'vahrins call weapon skills']
-related: ['combat-guide', 'magic-guide', 'best-builds-guide', 'skill-book-locations']
+related: ['combat-guide', 'magic-guide', 'best-builds-guide', 'skill-book-hunting-guide']
 ---
 
 # Weapons Guide — Confirmed Types & Progression
@@ -65,7 +65,7 @@ Because nothing is officially documented, the most reliable way to find "your" w
 1. **First 2–3 hours**: try each style once — a melee weapon, a bow, and magic. The classless system rewards this; nothing is wasted.
 2. **Watch the stamina bar**: stamina limits magic use, so melee and magic play at different rhythms.
 3. **Pick one primary style** for deeper skill growth — use-based progression means consistency pays off.
-4. **Hunt Skill Books for your chosen style** — see [Skill Book Locations Guide](/guides/skill-book-locations) for what we know about where books appear.
+4. **Hunt Skill Books for your chosen style** — see [Skill Book Hunting Guide](/guides/skill-book-hunting-guide) for every confirmed book location.
 5. **Switch freely later** — you are never locked in.
 
 ## Unconfirmed Details to Watch For
@@ -84,4 +84,4 @@ If you can confirm any of these in-game, this guide gets better with your eviden
 
 - [Combat Guide](/guides/combat-guide) — how weapon attacks, blocking, and stamina work.
 - [Best Builds Guide](/guides/best-builds-guide) — confirmed build directions for weapon + magic combinations.
-- [Skill Book Locations Guide](/guides/skill-book-locations) — everything confirmed about book hunting.
+- [Skill Book Hunting Guide](/guides/skill-book-hunting-guide) — every confirmed book location, by zone.

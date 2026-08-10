@@ -5,7 +5,7 @@ category: "Home"
 version: "1.0"
 updated: "2026-08-01"
 keywords: ["Vahrins Call", "Vahrins Call wiki", "Vahrins Call guide", "Forsaken Realms", "Titan Roc", "classless action RPG", "Steam"]
-related: ["beginner-guide", "best-builds-guide", "weapons-guide", "magic-spells-guide"]
+related: ["beginner-guide", "best-builds-guide", "weapons-guide", "magic-guide"]
 ---
 
 # Vahrin's Call Wiki — Complete Guide Hub
@@ -24,14 +24,14 @@ Vahrin's Call launched on Steam on July 27, 2026, as a full premium title (not E
 | [Best Builds Guide](/guides/best-builds-guide) | Build selection | Starter |
 | [Attributes & Stats Guide](/guides/attributes-stats-guide) | Character progression | Intermediate |
 | [Weapons Guide](/guides/weapons-guide) | Weapon selection | Starter |
-| [Magic & Spells Guide](/guides/magic-spells-guide) | Magic systems | Intermediate |
+| [Magic Guide](/guides/magic-guide) | Magic systems | Intermediate |
 | [Alchemy & Crafting Guide](/guides/alchemy-crafting-guide) | Potions & traps | Intermediate |
 | [Zones & Areas Guide](/guides/zones-areas-guide) | World navigation | Reference |
 | [Enemies & Bestiary Guide](/guides/enemies-bestiary-guide) | Enemy knowledge | Reference |
 | [Combat Guide](/guides/combat-guide) | Combat fundamentals | Advanced |
 | [Boss Guide](/guides/boss-guide) | Boss fight approach | Advanced |
 | [Quest Walkthrough](/guides/quest-walkthrough) | Story guidance | Reference |
-| [Skill Book Locations](/guides/skill-book-locations) | Book hunting | Reference |
+| [Skill Book Hunting](/guides/skill-book-hunting-guide) | Book hunting | Reference |
 | [Farming & Resource Guide](/guides/farming-resource-guide) | Gold & materials | Reference |
 | [Multiplayer & Co-op Status](/guides/multiplayer-coop-guide) | The honest co-op answer | All |
 | [Endgame Content Guide](/guides/endgame-content) | Post-story play | Advanced |

@@ -6,7 +6,7 @@ version: "Pre-release"
 updated: "2026-08-07"
 date: "2026-08-07"
 keywords: ["low-budget repairs upgrade priorities", "low-budget repairs what to fix first", "low-budget repairs order of operations", "low-budget repairs room priority", "low-budget repairs what matters most"]
-related: ["inspection-guide", "renovation-jobs-guide", "tool-guide", "first-renovation-walkthrough"]
+related: ["inspection-guide", "renovation-jobs-guide", "tool-guide", "bathroom-renovation-guide"]
 ---
 
 # Low-Budget Repairs Upgrade Priorities — What to Fix First
@@ -17,7 +17,7 @@ Every renovation job in Low-Budget Repairs is a list of things to fix, but the l
 
 For any job, work in this sequence:
 
-1. **Stop the source of damage.** Leaks, drips, broken pipes. Water damage spreads; the leak must die before anything else. In the [flooded bathroom walkthrough](/guides/first-renovation-walkthrough), this is turning off the valve and taping the pipe — before you touch a single tile.
+1. **Stop the source of damage.** Leaks, drips, broken pipes. Water damage spreads; the leak must die before anything else. In the [bathroom renovation guide](/guides/bathroom-renovation-guide), this is turning off the valve and taping the pipe — before you touch a single tile.
 2. **Dry and clean.** Wet walls paint badly, and dirt under fresh paint shows up as a patch the inspector sees. This step costs nothing but time, and skipping it ruins the steps after.
 3. **Repair or cover structural damage.** Holes, cracked plaster, missing tiles. Repair what's visible, cover what's cheap to cover (see the [cost-cutting tips guide](/guides/cost-cutting-tips) — posters and caulk are legitimate materials).
 4. **Cosmetic work last.** Painting, tiling, wallpaper. Cosmetics are the final layer — nothing you do here survives if a leak resumes underneath.

@@ -14,7 +14,6 @@ keywords:
   - "low-budget repairs window throw"
 related:
   - "cost-cutting-tips"
-  - "tips-and-tricks-guide"
   - "demolition-guide"
   - "electrical-work-guide"
   - "faq"

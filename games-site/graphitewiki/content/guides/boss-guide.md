@@ -4,7 +4,7 @@ description: 'Graphite boss strategy based on confirmed information: acts end in
 keywords: ['Graphite boss guide', 'Graphite boss fight tips', 'Graphite act 1 boss', 'Graphite final boss', 'Graphite boss strategy', 'Graphite Break windows', 'Graphite Death boss']
 category: Boss
 version: '1.0'
-updated: '2026-08-01'
+updated: '2026-08-11'
 related:
   - combat-guide
   - heroes-guide
@@ -15,7 +15,7 @@ related:
 
 ## Boss Overview — What We Actually Know
 
-This guide needs an honest preface: **no Graphite boss names, patterns, or phase mechanics have been officially confirmed** at the time of writing. The full game launches July 27, 2026, and the free Act 1 demo is the only playable content. Any guide that names specific bosses (such as a "Hollow Knight," "Tidecaller," or "Clockwork Tyrant") and describes their phases is fabricated — no such content is sourced.
+This guide needs an honest preface: **no Graphite boss names, patterns, or phase mechanics have been officially confirmed** at the time of writing. The full game launched July 27, 2026, and the free Act 1 demo remains the most accessible way to experience its combat. Any guide that names specific bosses (such as a "Hollow Knight," "Tidecaller," or "Clockwork Tyrant") and describes their phases is fabricated — no such content is sourced.
 
 What is confirmed:
 
@@ -57,9 +57,9 @@ The Act 1 demo ends with the act's climactic confrontation. Details are **unconf
 
 ## Preparing for the Full Game
 
-- The full game launches **July 27, 2026** with all 7 heroes
-- Later acts will bring higher-stakes confrontations with the confirmed systems: timeline combat, Break, unlimited artifact stacking, and enemies that acquire artifacts
-- Play the demo's Act 1 finale multiple times — it is the only confirmed boss-style content available, and mastering it teaches the skills later acts will demand
+- The full game launched **July 27, 2026** with all 7 heroes across a four-act campaign (15 days per act, per the developer's launch materials)
+- Later acts bring higher-stakes confrontations with the confirmed systems: timeline combat, Break, unlimited artifact stacking, and enemies that acquire artifacts
+- Play the demo's Act 1 finale multiple times — it is the most accessible confirmed boss-style content, and mastering it teaches the skills later acts demand
 
 ## Summary
 

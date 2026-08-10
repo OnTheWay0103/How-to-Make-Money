@@ -5,7 +5,7 @@ category: 'Guides'
 version: '1.0'
 updated: '2026-08-01'
 keywords: ['vahrins call zones', 'vahrins call map', 'vahrins call areas', 'vahrins call vale of vahrin', 'vahrins call dungeons']
-related: ['quest-walkthrough', 'enemies-bestiary-guide', 'farming-resource-guide', 'beginner-guide']
+related: ['quest-walkthrough', 'enemies-bestiary-guide', 'exploration-navigation-guide', 'farming-resource-guide', 'beginner-guide']
 ---
 
 # Zones & Areas Guide — The Vale of Vahrin
@@ -110,9 +110,9 @@ The FAQ's zone structure ("semi-open areas" plus "more structured dungeon-style 
 | "Whole huge area" hidden behind a side quest | ✅ Launch reviews |
 | Underground threat beneath the city | ✅ Official lore |
 | Day/night and weather cycles | ✅ Exist — cosmetic only |
-| Fast travel | ❓ Unconfirmed |
+| Fast travel | ✅ Community-mapped — signpost network in every mapped zone (see [Exploration & Navigation Guide](/guides/exploration-navigation-guide)) |
 | Enemy/loot respawns | ❓ Unconfirmed |
-| Zone names beyond "Vahrin" | ❓ Unconfirmed |
+| Zone names | ✅ Community-mapped — South Vale, Forest Edge, Market, Lower City, Petrified Forest, South Vale Hamlet, Colosseum, Garrison Road, Barathrum Forest |
 | Zone level requirements | ❓ Unconfirmed |
 
 ## First-Visit Checklist for Any New Zone
@@ -138,7 +138,7 @@ These mechanics shape how you traverse the Vale:
 | Backtracking-heavy layout | ✅ | Launch reviews |
 | Day/night cycle | ✅ | Cosmetic only — does not affect gameplay |
 | Weather | ✅ | Cosmetic only — does not affect gameplay |
-| Fast travel | ❓ | Unconfirmed — no official statement |
+| Fast travel | ✅ | Community-mapped — a named signpost network in every mapped zone (see [Exploration & Navigation Guide](/guides/exploration-navigation-guide)) |
 | Respawn mechanics | ❓ | Unconfirmed — no official statement |
 
 Note the day/night and weather entries: the developers have explicitly confirmed both are **purely cosmetic**. Do not plan around night-spawning enemies or weather effects — they don't exist.
@@ -154,15 +154,15 @@ Note the day/night and weather entries: the developers have explicitly confirmed
 
 ## Unconfirmed Zone Details We're Tracking
 
-- Official names for individual zones (only "Vahrin" itself is named)
+- Officially published zone names (the names above are community-mapped, not official)
 - Zone level recommendations
 - How many zones the game contains
-- Fast travel availability
 - Whether zones reset enemies/loot after leaving
 - The nature of the hidden side-quest area
 
 ## Next Steps
 
+- [Exploration & Navigation Guide](/guides/exploration-navigation-guide) — Shrines of Sol, the fast travel network, and the map tracker.
 - [Enemies & Bestiary Guide](/guides/enemies-bestiary-guide) — what lurks in each confirmed environment.
 - [Quest Walkthrough](/guides/quest-walkthrough) — the story structure that drives you through the Vale.
 - [Farming & Resource Guide](/guides/farming-resource-guide) — how to profit from exploration.

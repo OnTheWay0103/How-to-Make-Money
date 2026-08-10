@@ -5,18 +5,35 @@ category: 'Guides'
 version: '1.0'
 updated: '2026-08-06'
 keywords: ['vahrins call skill book locations', 'vahrins call for oafs books', 'vahrins call skill books', 'vahrins call where to find skill books', 'vahrins call book hunting']
-related: ['skill-book-locations', 'weapons-guide', 'magic-guide', 'exploration-navigation-guide', 'puzzles-secrets-guide']
+related: ['weapons-guide', 'magic-guide', 'attributes-stats-guide', 'exploration-navigation-guide', 'puzzles-secrets-guide']
 ---
 
 # Skill Book Hunting Guide — The "for Oafs" Series and Every Confirmed Location
 
-**A state-of-knowledge update**: our earlier [Skill Book Locations Guide](/guides/skill-book-locations) correctly noted at launch that no official location list had been published. That is no longer the full picture. Since launch, community maps and location guides have documented a substantial set of skill books by name and zone — including full walkthrough locations for Forest Edge and Barathrum Forest. This guide collects every location we can verify as of **August 6, 2026**. Individual book-to-spot pairings are marked clearly where the data is thinner.
+**A state-of-knowledge update**: at launch, no official skill book location list had been published — and none has been published since. What changed is the community's documentation: since launch, community maps and location guides have documented a substantial set of skill books by name and zone — including full walkthrough locations for Forest Edge and Barathrum Forest. This guide collects every location we can verify as of **August 6, 2026**, plus everything confirmed about how the book system works. Individual book-to-spot pairings are marked clearly where the data is thinner.
 
 ## Why Skill Books Matter (Refresher)
 
 - Skills — including every weapon family and every magic school — grow **through use**, Elder-Scrolls-style.
 - **Skill Books scattered through the world are required for full upgrades** of abilities (confirmed by developer updates). Books cannot be bought or earned purely through leveling.
 - The result: hunting books is a direct power path, and the community's documented books confirm the **skill families** the game actually contains — great swords, dual weapons, great axes, shields, bows, armour, traps, alchemy, and the elemental magic schools.
+
+## How Skill Books Work (Confirmed Facts)
+
+| Question | Confirmed answer |
+|----------|------------------|
+| Do Skill Books exist? | Yes — official developer updates |
+| Where are they found? | "Scattered throughout the world" — the community has now mapped many of them (below) |
+| What do they do? | Enable full upgrades of abilities |
+| Are they marked on the map? | Community maps mark them; the in-game discovery tracker records collectible progress |
+| Do they need to be read/used? | Unconfirmed — no official statement |
+| Do they apply to magic too? | Yes — spells upgrade through use (Spell Mastery) and books gate full upgrades across the skill system |
+
+Community claims that remain **unverified** until confirmed with evidence:
+
+- Books appear as readable tomes in out-of-the-way spots (plausible, unverified).
+- Books are permanently usable — reading once unlocks the upgrade (unverified).
+- Some books require a minimum skill level to use (unverified).
 
 ## The "for Oafs" Series
 
@@ -121,8 +138,8 @@ If you document the missing pairings with evidence, that is exactly the kind of 
 
 ## Next Steps
 
-- [Skill Book Locations Guide](/guides/skill-book-locations) — how the book system works and why books gate full upgrades.
 - [Weapons Guide](/guides/weapons-guide) — the skill families the books feed.
 - [Magic Guide](/guides/magic-guide) — the magic schools behind the "for Oafs" spell books.
+- [Attributes & Stats Guide](/guides/attributes-stats-guide) — the use-based skill system books feed.
 - [Exploration & Navigation Guide](/guides/exploration-navigation-guide) — shrines, signposts, and the map tracker that makes book hunting viable.
 - [Puzzles & Secrets Guide](/guides/puzzles-secrets-guide) — the Colosseum Tomb and the vaults guarding more treasure.

@@ -6,7 +6,7 @@ version: "Pre-release"
 updated: "2026-08-07"
 date: "2026-08-07"
 keywords: ["low-budget repairs how long to beat", "low budget repairs game length", "low budget repairs playtime", "low budget repairs hours of gameplay", "low budget repairs campaign length"]
-related: ["demo-guide", "renovation-jobs-guide", "faq", "launch-faq"]
+related: ["demo-guide", "renovation-jobs-guide", "faq", "release-hub"]
 ---
 
 # How Long Is Low-Budget Repairs? Length, Playtime & Completion Time
@@ -48,7 +48,7 @@ A realistic completionist estimate is **25–40 hours**, though that's speculati
 
 - **How you play.** Speedrunning contracts vs. savoring the satire changes your time per job by 2–3x.
 - **How hard you chase profit.** Players who optimize every zloty will replay jobs; players who just want to see the block renovated will finish faster.
-- **Post-launch content.** PlayWay simulators have a strong history of post-launch DLC, but **nothing is announced** for Low-Budget Repairs — see the [launch FAQ](/guides/launch-faq) for the current status.
+- **Post-launch content.** PlayWay simulators have a strong history of post-launch DLC, but **nothing is announced** for Low-Budget Repairs — see the [FAQ](/guides/faq) for the current status.
 
 ## Quick Answers
 

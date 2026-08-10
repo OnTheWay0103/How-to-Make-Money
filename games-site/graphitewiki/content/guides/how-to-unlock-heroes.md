@@ -4,12 +4,10 @@ description: 'Graphite hero unlocks explained honestly: 7 heroes in the full gam
 keywords: ['Graphite unlock heroes', 'Graphite how to unlock', 'Graphite friendship system', 'Graphite hero roster', 'Graphite Knight unlock', 'Graphite Mage unlock', 'Graphite heroes']
 category: Guides
 version: '1.0'
-updated: '2026-08-01'
+updated: '2026-08-11'
 related:
   - heroes-guide
-  - character-guide
   - beginner-guide
-  - tips-tricks
   - graphite-demo-guide
 ---
 
@@ -64,7 +62,7 @@ Since the specifics are unconfirmed, here is what you can reasonably do based on
 2. **Vary your starting hero across runs.** Starting heroes change story events. Even if the unlock system is opaque, switching starters is the confirmed way to see different content.
 3. **Expect recruiting to be a core loop.** The Scribe's mission explicitly includes "gathering allies" — hero acquisition is a campaign goal, not a side feature.
 4. **Build friendships by playing together.** Friendship between characters is confirmed to exist. Using characters together across fights and events is the most reasonable hypothesis for raising it — but treat this as an expectation, not a confirmed mechanic.
-5. **Wait for release for real numbers.** The full game launches July 27, 2026. Until then, no unlock guide can be accurate.
+5. **Wait for release coverage for real numbers.** The full game launched July 27, 2026. Until official unlock details appear, no unlock guide can be accurate.
 
 ## Common Mistakes to Avoid
 
@@ -86,7 +84,5 @@ Since the specifics are unconfirmed, here is what you can reasonably do based on
 ## Related Guides
 
 - [Heroes Guide — All 7 Heroes Breakdown](/guides/heroes-guide)
-- [Character Guide — Playable Heroes](/guides/character-guide)
 - [Beginner Guide — First Run Tips](/guides/beginner-guide)
-- [Advanced Tips & Tricks](/guides/tips-tricks)
 - [Graphite Demo Guide](/guides/graphite-demo-guide)

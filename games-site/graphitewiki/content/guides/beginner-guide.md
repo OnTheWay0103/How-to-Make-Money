@@ -4,7 +4,7 @@ description: 'New to Graphite? Learn the first run basics: hero selection, the t
 keywords: ['Graphite beginner guide', 'how to play Graphite', 'Graphite first run', 'Graphite tips', 'Graphite getting started', 'Graphite roguelike guide']
 category: Beginner
 version: '1.0'
-updated: '2026-08-01'
+updated: '2026-08-11'
 related:
   - heroes-guide
   - combat-guide
@@ -103,6 +103,20 @@ Each run teaches you something. The deck changes between runs, the artifact pool
 - **Dragging fights out** — enemies pick up artifacts and scale; long fights get harder, not easier
 - **Skipping event cards** — the tarot deck is where choices, items, and story converge
 - **Trusting unsourced guide specifics** — act counts, boss names, unlock thresholds, and playtime figures are unconfirmed until the full game; this guide keeps those marked as unknown
+
+## Run Customization — Set Up Your Run Your Way
+
+Before a run you can **adjust challenges, starting gear, and difficulty**, and coverage notes you can even change starting gear and level to jump directly into late-game content. The exact options available and their unlock conditions are unconfirmed — but the customization itself is real.
+
+Practical uses:
+
+- **Practice specific builds** — pre-set the gear you want to learn instead of grinding for it
+- **Scale difficulty to your goals** — tune the challenge to what you're trying to learn
+- **Expect a better default experience at higher gear** — that's the point of the option
+
+## Be Skeptical of Unsourced "Hidden Mechanics"
+
+The most valuable habit for a new player is knowing what isn't known. There are **no confirmed named artifacts, no confirmed event names, no confirmed boss names, no confirmed unlock thresholds, and no confirmed full-game playtime figures**. Content claiming these is unsourced. Play the confirmed systems — timeline, Break, stacking, the tarot deck — and ignore the fiction.
 
 ## Related Guides
 

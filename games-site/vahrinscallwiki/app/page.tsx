@@ -33,9 +33,9 @@ const FEATURED_GUIDES = [
     updated: '2026-08-01',
   },
   {
-    title: 'Magic & Spells Complete Guide',
+    title: 'Magic Guide — Confirmed Spell Systems',
     description: 'How spells are learned and upgraded: Spell Mastery, Skill Books, and customisation of damage, range, and casting speed.',
-    slug: 'magic-spells-guide',
+    slug: 'magic-guide',
     category: 'Magic',
     updated: '2026-08-01',
   },

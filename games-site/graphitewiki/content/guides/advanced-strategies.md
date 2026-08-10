@@ -3,9 +3,9 @@ title: "Graphite Advanced Strategies Guide — Stacking, Scaling, and Deck Play"
 description: "Advanced Graphite strategy grounded in confirmed mechanics: artifact stacking economics, the enemy artifact arms race, tarot deck engagement, and build commitment. Unconfirmed specifics are marked honestly."
 category: "Guides"
 version: "1.0"
-updated: "2026-08-01"
+updated: "2026-08-11"
 keywords: ["Graphite advanced strategies", "Graphite artifact stacking", "Graphite tarot deck strategy", "Graphite enemy scaling", "Graphite team composition", "Graphite meta guide"]
-related: ["builds-artifacts-guide", "tarot-events-guide", "heroes-guide", "combat-guide", "tips-tricks"]
+related: ["builds-artifacts-guide", "tarot-events-guide", "heroes-guide", "combat-guide", "beginner-guide"]
 ---
 
 ## Advanced Strategies Guide — Stacking, Scaling, and Deck Play
@@ -96,4 +96,4 @@ Within the confirmed pair: the Knight holds attention and spends Break pressure 
 - [Tarot Deck & Events Guide](/guides/tarot-events-guide) — the adventure deck
 - [Heroes Guide](/guides/heroes-guide) — confirmed heroes and roster status
 - [Combat & Break System Guide](/guides/combat-guide) — timeline and Break mastery
-- [Tips & Tricks](/guides/tips-tricks) — confirmed-mechanic fundamentals
+- [Beginner Guide](/guides/beginner-guide) — confirmed-mechanic fundamentals

@@ -4,13 +4,13 @@ description: 'Complete breakdown of the 7 Graphite heroes. The Knight and The Ma
 keywords: ['Graphite heroes guide', 'Graphite best hero', 'Graphite character guide', 'Graphite Knight', 'Graphite Mage', 'Graphite heroes roster']
 category: Heroes
 version: '1.0'
-updated: '2026-08-01'
+updated: '2026-08-11'
 related:
   - beginner-guide
   - builds-artifacts-guide
   - combat-guide
-  - character-guide
   - graphite-demo-guide
+  - how-to-unlock-heroes
 ---
 
 ## Hero Roster Overview
@@ -80,6 +80,12 @@ The only synergy we can discuss with confirmed information is the demo pairing:
 
 Other pairings require unconfirmed heroes and are speculation until release.
 
+## Skill Progression and Meta-Progression
+
+After each battle you level up and spend points to upgrade chosen skills, directing your build. The game supports both balanced and hyper-specialized builds — you can stack upgrades and items freely, even duplicating the same artifact many times to amplify one skill.
+
+Between runs, Graphite uses roguelite-style meta-progression: artifacts, events, and unlockables persist across runs in some form. The exact scope of what carries over is unconfirmed. The demo includes a friendship system between characters, with friendship levels up to 1 in the demo build — see the [How to Unlock Heroes guide](/guides/how-to-unlock-heroes) for what that means for the roster.
+
 ## Choosing Your First Hero
 
 | Your Situation | Recommended Pick |
@@ -93,5 +99,5 @@ Other pairings require unconfirmed heroes and are speculation until release.
 - [Beginner Guide — First Run Tips](/guides/beginner-guide)
 - [Best Builds & Artifacts Guide](/guides/builds-artifacts-guide)
 - [Combat & Break System Guide](/guides/combat-guide)
-- [Character Guide — Playable Heroes](/guides/character-guide)
+- [How to Unlock Heroes](/guides/how-to-unlock-heroes)
 - [Graphite Demo Guide — Act 1](/guides/graphite-demo-guide)

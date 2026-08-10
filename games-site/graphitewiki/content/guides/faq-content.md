@@ -4,30 +4,30 @@ description: 'Frequently asked questions about Graphite. Release date, the free 
 keywords: ['Graphite FAQ', 'Graphite release date', 'Graphite demo', 'Graphite how long to beat', 'Graphite difficulty settings', 'Graphite progress carry over', 'Graphite artifacts', 'Graphite best beginner hero', 'Graphite system requirements', 'Graphite Steam']
 category: Guides
 version: '1.0'
-updated: '2026-08-01'
+updated: '2026-08-11'
 related:
   - beginner-guide
   - graphite-demo-guide
-  - tips-tricks
   - how-to-unlock-heroes
   - tarot-events-guide
+  - system-requirements
 ---
 
-## When Does Graphite Release, and What Does It Cost?
+## When Did Graphite Release, and What Does It Cost?
 
-Graphite launches **July 27, 2026** on Steam for PC (Windows), developed by Colombian studio RipRed and published by indie.io. It is RipRed's debut commercial release and is built in Unreal Engine.
+Graphite launched **July 27, 2026** on Steam for PC (Windows), developed by Colombian studio RipRed and published by indie.io. It is RipRed's debut commercial release and is built in Unreal Engine. The game is also available on GOG and the indie.io Store.
 
-**Price: not yet announced.** Check the Steam page for the current listing. Nothing about pricing has been confirmed at the time of writing.
+**Price:** $8.99 USD, with a 20% launch discount ($7.19) that ran through August 10, 2026 — per the official Steam store page. Check the store page for the current listing.
 
 ## Is There a Demo?
 
-Yes. **Graphite: Act 1** is a free demo live on Steam now (store app 3307810). It covers the **entire first act** of the campaign — roughly **30 minutes per run**. Per the Steam store page, the demo includes 4 playable heroes, 50 stackable artifacts, 15 hand-drawn adventure events, and friendship levels up to 1 between characters.
+Yes. **Graphite: Act 1** is a free demo released **December 19, 2024**, live on Steam now (store app 3307810). It covers the **entire first act** of the campaign — roughly **30 minutes per run**. Per the Steam store page, the demo includes 4 playable heroes, 50 stackable artifacts, 15 hand-drawn adventure events, and friendship levels up to 1 between characters.
 
 The demo is the full first act of the real campaign, not a separate side story. Whether demo progress carries into the full game is **unconfirmed**.
 
 ## How Long Does It Take to Beat Graphite?
 
-**No confirmed playtime exists** — the full game is unreleased. The only concrete data point is the demo: a run of Act 1 takes about 30 minutes. Any specific full-game playtime figures (e.g., "15-20 hours") circulating online are unsourced and should not be trusted.
+**No confirmed playtime exists** — no official full-game playtime figure has been published. The only concrete data point is the demo: a run of Act 1 takes about 30 minutes. Any specific full-game playtime figures (e.g., "15-20 hours") circulating online are unsourced and should not be trusted.
 
 ## Is There Permadeath?
 
@@ -49,7 +49,7 @@ The specifics are **unconfirmed**: how many difficulty levels exist, what each c
 
 **Partially — this is confirmed in general, unconfirmed in detail.** Graphite is a roguelite: artifacts, events, and unlockables carry across runs in some form, and enemies scale alongside your power. The story also responds to prior decisions — choices from earlier runs can influence later events.
 
-Exactly which unlocks persist, how hero progression works between runs, and what resets are **unconfirmed** until the full release.
+Exactly which unlocks persist, how hero progression works between runs, and what resets are **unconfirmed** — no official details have been published.
 
 ## How Do I Get More Artifacts?
 
@@ -70,11 +70,11 @@ Of the 7 heroes, only these two are confirmed by name; the others are unconfirme
 
 ## Are There Achievements?
 
-**Unconfirmed.** Steam achievements likely exist (most Steam games have them), but no achievement list or count has been confirmed. Any guide quoting a specific number of achievements is unsourced.
+The developer's launch materials list **60 achievements** for the full game. The exact list is available on the Steam page.
 
 ## What Are the System Requirements?
 
-The minimum requirements listed for the **demo** are modest (from the Steam listing):
+The minimum requirements listed on the official Steam store page are modest (per the Steam listing):
 
 - **OS**: Windows 10
 - **Processor**: 2.0 GHz
@@ -82,7 +82,7 @@ The minimum requirements listed for the **demo** are modest (from the Steam list
 - **Graphics**: 2 GB
 - **Storage**: 1 GB
 
-The full game's requirements have **not been separately confirmed** — expect the full-game listing to be the authoritative source. Note that some launch-day player reviews report performance issues on older hardware, so modest-spec machines may want to try the demo first.
+No recommended tier has been published. Note that some launch-day player reviews report performance issues on older hardware, so modest-spec machines may want to try the demo first — see the [System Requirements guide](/guides/system-requirements) for details.
 
 ## Other Common Questions
 
@@ -93,7 +93,7 @@ No — Graphite is a confirmed **single-player** game.
 **Unconfirmed.** No official statement about Steam Deck support has been found.
 
 ### Can I play on other platforms?
-The Steam release is PC (Windows). One preview mentions the game being "planned" for mobile as well, but this is unconfirmed and nothing has been announced officially.
+The game is available on **Steam, GOG, and the indie.io Store** for PC (Windows). One preview mentions the game being "planned" for mobile as well, but this is unconfirmed and nothing has been announced officially.
 
 ### Is the game fully released or early access?
 Full release on July 27, 2026 — not early access. The demo is a separate free listing.

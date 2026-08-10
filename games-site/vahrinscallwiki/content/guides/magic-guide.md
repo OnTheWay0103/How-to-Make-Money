@@ -1,11 +1,11 @@
 ---
 title: "Magic Guide — Confirmed Spell Systems in Vahrin's Call"
-description: "Everything officially confirmed about magic in Vahrin's Call: spell customisation (damage, range, casting speed), Spell Mastery, the limits of elemental magic, and honest notes on what is unconfirmed."
+description: "Everything officially confirmed about magic in Vahrin's Call: how spells are learned, spell customisation (damage, range, casting speed), Spell Mastery, the limits of elemental magic, and honest notes on what is unconfirmed."
 category: "Guides"
 version: "1.0"
 updated: "2026-08-01"
-keywords: ["vahrins call magic guide", "vahrins call spells", "vahrins call spell mastery", "vahrins call fire magic", "vahrins call spell customisation"]
-related: ["magic-spells-guide", "combat-guide", "best-builds-guide", "attributes-stats-guide"]
+keywords: ["vahrins call magic guide", "vahrins call spells", "vahrins call spell mastery", "vahrins call fire magic", "vahrins call spell customisation", "vahrins call how to learn spells"]
+related: ["combat-guide", "best-builds-guide", "attributes-stats-guide", "skill-book-hunting-guide"]
 ---
 
 # Magic Guide — Confirmed Spell Systems
@@ -33,6 +33,18 @@ Titan Roc announced a **"Spell Mastery"** system in their 2024 development updat
 - Cast a spell regularly and it grows stronger over time.
 - You don't need to find an upgraded "version" of a spell — practice is the path.
 - Combined with **Skill Books** (needed for full upgrades), this is the complete confirmed magic progression loop.
+
+## How Spells Are Learned
+
+Two confirmed paths exist:
+
+### 1. Starting and Practicing
+
+Basic spellcasting is part of the game's core systems — magic is available early, and the developers describe the intended playstyle as freely combining melee, bows, and magic. There is no confirmed class-gate or trainer requirement: the classless system lets any character cast.
+
+### 2. Skill Books
+
+Developer updates confirm **Skill Books are scattered through the world and are needed for full upgrades** of abilities. This applies to magic as well as weapons — books are the route to stronger or new spell options that practice alone won't unlock. The community has since documented a series of magic skill books — "Fire Magic for Oafs," "Ice Magic for Oafs," "Earth Magic for Oafs," and "Alteration Magic for Oafs" — by zone; see our [Skill Book Hunting Guide](/guides/skill-book-hunting-guide) for every confirmed location.
 
 ## The Limits of Magic (Confirmed by the Developers)
 
@@ -83,6 +95,6 @@ Mana pools, regeneration rates, and spell costs have **not** been officially doc
 
 ## Next Steps
 
-- [Magic & Spells Guide](/guides/magic-spells-guide) — how spells are learned and upgraded.
+- [Skill Book Hunting Guide](/guides/skill-book-hunting-guide) — the "for Oafs" books that upgrade spells.
 - [Combat Guide](/guides/combat-guide) — stamina and casting in real-time combat.
 - [Best Builds Guide](/guides/best-builds-guide) — confirmed hybrid directions.

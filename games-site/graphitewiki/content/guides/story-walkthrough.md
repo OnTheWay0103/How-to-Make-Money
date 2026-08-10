@@ -3,16 +3,16 @@ title: "Story Guide — The Notebook, The Scribe, and the Seven Heroes"
 description: "What we know about Graphite's story: the child's notebook setting, The Scribe, Death, the seven heroes, branching tarot deck choices, and how choices carry across runs. Chapter-by-chapter details are not yet confirmed."
 category: "Guides"
 version: "1.0"
-updated: "2026-08-01"
+updated: "2026-08-11"
 keywords: ["graphite story", "graphite lore", "the scribe graphite", "death graphite", "graphite notebook setting", "graphite narrative guide", "graphite plot explained"]
-related: ["character-guide", "heroes-guide", "walkthrough-guide", "tarot-events-guide"]
+related: ["heroes-guide", "graphite-demo-guide", "tarot-events-guide"]
 ---
 
 ## Graphite Story Guide
 
 Graphite's premise is its most distinctive feature: the game takes place **inside a child's school notebook**. The heroes are pencil-drawn characters who do not know they are figments of a child's imagination, and the world they inhabit is made of paper and repurposed household junk — everyday objects stand in for monsters and treasure. The fantasy world quietly mirrors a contemporary school setting, and the two realms are connected in ways the heroes cannot see.
 
-This guide covers the story elements confirmed by official sources and launch coverage. Important caveat: a chapter-by-chapter walkthrough is **not yet possible** — no official chapter list or sequence of story beats beyond the Act 1 demo has been published, and the full act count is unconfirmed. Anything not sourced below is marked as such.
+This guide covers the story elements confirmed by official sources and launch coverage. Important caveat: a chapter-by-chapter walkthrough is **not yet possible** — no official chapter list or sequence of story beats beyond the Act 1 demo has been published. The campaign structure itself is confirmed (four acts, 15 days each, per the developer's launch materials), but what happens inside each act beyond the demo is not. Anything not sourced below is marked as such.
 
 ## The Scribe — God of the Fantasy
 
@@ -52,7 +52,7 @@ The free **Graphite: Act 1** demo covers the first act of the campaign — the s
 
 To keep this guide honest, the following story details are **not confirmed**:
 
-- Total number of acts and chapters in the full campaign
+- Chapter-by-chapter structure of acts 2 through 4 (the four-act campaign structure itself is confirmed in the developer's launch materials)
 - The identity and fate of the remaining five heroes
 - How Death is ultimately confronted (boss encounter, narrative resolution, or both)
 - How the contemporary school setting and the notebook fantasy world interact in later acts
@@ -62,12 +62,11 @@ To keep this guide honest, the following story details are **not confirmed**:
 
 - **Play every hero at least once.** The story is deliberately gated behind character choice; each run reveals a different perspective on the same events.
 - **Pay attention to event choices.** The tarot deck's branching outcomes are the main narrative engine — choices recur across runs with consequences.
-- **Try the demo before release.** The Act 1 demo gives the full narrative setup for free, and it is explicitly the first act of the real campaign, not a side story.
+- **Try the demo.** The Act 1 demo gives the full narrative setup for free, and it is explicitly the first act of the real campaign, not a side story.
 - **Don't trust walkthroughs claiming chapter-by-chapter detail.** Until the full game is out, such content cannot be accurate.
 
 ## Related Guides
 
-- [Character Guide](/guides/character-guide) — the heroes and their playstyles
 - [All 7 Heroes Guide](/guides/heroes-guide) — roster breakdown
-- [Campaign Walkthrough Guide](/guides/walkthrough-guide) — run structure and Act 1 demo walkthrough
+- [Graphite Demo Guide](/guides/graphite-demo-guide) — run structure and Act 1 demo walkthrough
 - [Tarot Deck & Events Guide](/guides/tarot-events-guide) — the adventure deck explained

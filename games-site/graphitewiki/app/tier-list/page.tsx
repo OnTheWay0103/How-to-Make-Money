@@ -1,67 +1,105 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Hero Tier List',
-  description: 'Graphite hero tier list — S-tier (Mage, Tamer) to B-tier (Monk, Bard). Best heroes ranked for campaign, boss fights, and meta-progression.',
+  description: 'An honest Graphite hero assessment — no confirmed tier data exists yet. Only The Knight and The Mage are confirmed heroes. Learn their strengths and who to pick first.',
 };
 
-const HERO_TIERS = [
-  { tier: 'S', heroes: ['Mage', 'Tamer'], note: 'Mage dominates AoE damage and wave clear. Tamer\'s pet scaling is unmatched for sustained fights. Both S-tier heroes carry runs.' },
-  { tier: 'A', heroes: ['Warrior', 'Rogue', 'Hunter'], note: 'Warrior provides reliable frontline tanking. Rogue deletes single targets. Hunter offers flexible ranged DPS with utility options.' },
-  { tier: 'B', heroes: ['Monk', 'Bard'], note: 'Monk is a strong healer but lacks damage contribution. Bard\'s buffs are invaluable but require setup and team coordination.' },
+const KNOWN_HEROES = [
+  { name: 'The Knight', status: 'Confirmed (demo)', strengths: 'Shield-based abilities that exploit the Break system; deals significant damage; durable and forgiving for new players', pick: 'Recommended first pick — teaches the game\'s core mechanic safely' },
+  { name: 'The Mage', status: 'Confirmed (demo)', strengths: 'Offensive spells plus defensive support (boosts allies\' defenses); flexible damage dealer that can pivot to protection', pick: 'Best confirmed alternative for players who prefer offense' },
 ];
 
-const BOSS_TIERS = [
-  { tier: 'S', heroes: ['Tamer', 'Warrior'], note: 'Tamer\'s pet absorbs boss aggro while dealing consistent damage. Warrior\'s taunt and damage reduction trivialize many boss mechanics.' },
-  { tier: 'A', heroes: ['Mage', 'Rogue'], note: 'Mage bursts down boss phases quickly. Rogue\'s single-target damage exploits Break windows efficiently.' },
-  { tier: 'B', heroes: ['Hunter', 'Monk'], note: 'Hunter can keep distance but lacks burst. Monk keeps the team alive but extends fights.' },
-  { tier: 'C', heroes: ['Bard'], note: 'Bard\'s setup time is a liability in high-pressure boss phases. Situational pick.' },
+const UNKNOWN_HEROES = [
+  'The other five heroes have no officially confirmed names, abilities, or roles.',
+  'Each has a unique personality, backstory, and playstyle — and starting hero choice changes story events.',
+  'Until official reveals or post-release testing, no ranking of these heroes is possible — any ranking you find is unsourced.',
 ];
 
-const CAMPAIGN_TIERS = [
-  { tier: 'S', heroes: ['Mage', 'Tamer'], note: 'Mage clears trash packs effortlessly across all 4 acts. Tamer scales power through the run without relying on artifacts.' },
-  { tier: 'A', heroes: ['Warrior', 'Hunter'], note: 'Warrior survives the early acts easily. Hunter has strong consistency with no mana or position constraints.' },
-  { tier: 'B', heroes: ['Rogue', 'Monk', 'Bard'], note: 'Rogue struggles in act 1 and 2 before getting key artifacts. Monk and Bard are team-reliant — weaker in unoptimized parties.' },
+const PICK_ADVICE = [
+  { situation: 'New to tactical roguelikes', pick: 'The Knight', why: 'Shield forgives mistakes and teaches the Break system directly' },
+  { situation: 'Prefer offense', pick: 'The Mage', why: 'Confirmed spell damage with defensive support' },
+  { situation: 'Want the story from a different angle', pick: 'Any hero you haven\'t tried', why: 'Starting heroes change story events — confirmed design' },
+  { situation: 'Trying to learn fast', pick: 'The Knight, then the Mage', why: 'The two confirmed heroes demonstrate the combat system\'s two poles: Break control and offensive pressure' },
 ];
 
 export default function TierListPage() {
   return (
     <div className="max-w-3xl mx-auto px-4 py-12">
       <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">Hero Tier List</h1>
-      <p className="text-gray-400 mb-2">Graphite hero rankings for launch (July 27, 2026).</p>
-      <div className="inline-flex items-center gap-1 text-xs font-medium px-2 py-0.5 rounded bg-amber-900/30 text-amber-400 border border-amber-800/50 mb-8">Launch version — subject to balance changes</div>
+      <p className="text-gray-400 mb-4">Graphite launched July 27, 2026 — and there is <strong>no confirmed tier data</strong> for this game yet.</p>
+      <div className="inline-flex items-center gap-1 text-xs font-medium px-2 py-0.5 rounded bg-amber-900/30 text-amber-400 border border-amber-800/50 mb-8">Honest early assessment — no confirmed rankings</div>
 
-      {[{ title: 'Overall Rankings', tiers: HERO_TIERS }, { title: 'Boss Fight Rankings', tiers: BOSS_TIERS }, { title: 'Campaign Run Rankings', tiers: CAMPAIGN_TIERS }].map((section) => (
-        <section key={section.title} className="mb-12">
-          <h2 className="text-2xl font-bold text-white mb-6">{section.title}</h2>
-          {section.tiers.map((row) => (
-            <div key={row.tier} className="flex gap-4 mb-3 items-start">
-              <span className={`shrink-0 w-10 h-10 rounded-lg flex items-center justify-center text-lg font-bold ${
-                row.tier === 'S' ? 'bg-amber-500/20 text-amber-400' :
-                row.tier === 'A' ? 'bg-green-500/20 text-green-400' :
-                row.tier === 'B' ? 'bg-blue-500/20 text-blue-400' : 'bg-gray-500/20 text-gray-400'
-              }`}>{row.tier}</span>
-              <div>
-                <div className="flex flex-wrap gap-1.5 mb-1">
-                  {row.heroes.map((h) => (
-                    <span key={h} className="text-sm font-medium text-white bg-[#1a1a3e] px-3 py-1 rounded border border-[#2a2a5e]">{h}</span>
-                  ))}
-                </div>
-                <p className="text-xs text-gray-500">{row.note}</p>
-              </div>
-            </div>
-          ))}
-        </section>
-      ))}
-
-      <div className="bg-[#1a1a3e] border border-[#2a2a5e] rounded-lg p-5">
-        <h3 className="text-white font-semibold mb-2">A Note on Tier Lists</h3>
+      <div className="bg-[#1a1a3e] border border-[#2a2a5e] rounded-lg p-5 mb-10">
+        <h2 className="text-white font-semibold mb-2">An Honest Preface About Tier Lists</h2>
         <p className="text-gray-400 text-sm leading-relaxed">
-          All 7 heroes in Graphite are viable for the full campaign. Tier lists reflect relative power at
-          launch with typical artifact availability. Your personal playstyle, team composition, and artifact
-          RNG will heavily influence which hero performs best for you. Play what feels fun.
+          Only two of the seven heroes have been officially named: <strong>The Knight</strong> and <strong>The Mage</strong>.
+          Any ranking that scores heroes named "Warrior," "Rogue," "Monk," "Bard," "Hunter," or "Tamer" with numbers
+          is fabricating its roster and its data — neither the hero names nor the scores are sourced.
+          This page gives you the honest version: what is confirmed about each known hero, and a reasonable early-pick
+          recommendation based on confirmed mechanics rather than invented stats.
         </p>
       </div>
+
+      <section className="mb-12">
+        <h2 className="text-2xl font-bold text-white mb-6">What We Know About the Confirmed Heroes</h2>
+        <div className="space-y-4">
+          {KNOWN_HEROES.map((hero) => (
+            <div key={hero.name} className="bg-[#1a1a3e] border border-[#2a2a5e] rounded-lg p-5">
+              <div className="flex items-center gap-3 mb-2">
+                <h3 className="text-white font-semibold text-lg">{hero.name}</h3>
+                <span className="text-xs font-medium px-2 py-0.5 rounded bg-emerald-900/50 text-emerald-400 border border-emerald-800">{hero.status}</span>
+              </div>
+              <p className="text-sm text-gray-400 mb-1"><strong className="text-gray-300">Strengths:</strong> {hero.strengths}</p>
+              <p className="text-sm text-gray-400"><strong className="text-gray-300">Pick advice:</strong> {hero.pick}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="mb-12">
+        <h2 className="text-2xl font-bold text-white mb-6">The Unconfirmed Roster — TBD</h2>
+        <ul className="space-y-2 text-sm text-gray-400 list-disc list-inside">
+          {UNKNOWN_HEROES.map((item) => (
+            <li key={item}>{item}</li>
+          ))}
+        </ul>
+      </section>
+
+      <section className="mb-12">
+        <h2 className="text-2xl font-bold text-white mb-6">What We Can Rank: Pick Advice, Not Scores</h2>
+        <div className="overflow-x-auto">
+          <table className="w-full text-sm">
+            <thead>
+              <tr className="border-b border-[#2a2a5e]">
+                <th className="text-left text-gray-300 font-semibold py-2 pr-4">Your Preference</th>
+                <th className="text-left text-gray-300 font-semibold py-2 pr-4">Recommended Pick</th>
+                <th className="text-left text-gray-300 font-semibold py-2">Why</th>
+              </tr>
+            </thead>
+            <tbody>
+              {PICK_ADVICE.map((row) => (
+                <tr key={row.situation} className="border-b border-[#2a2a5e]">
+                  <td className="py-3 pr-4 text-gray-300">{row.situation}</td>
+                  <td className="py-3 pr-4 text-white">{row.pick}</td>
+                  <td className="py-3 text-gray-400">{row.why}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section className="mb-12">
+        <h2 className="text-2xl font-bold text-white mb-4">When a Real Tier List Will Be Possible</h2>
+        <p className="text-sm text-gray-400 leading-relaxed">
+          A genuine tier list needs post-release data: actual playtest results, confirmed hero rosters, and the full
+          artifact pool. Until such data is documented, treat any elaborate ranking as entertainment at best.
+          For the full breakdown, see the <Link href="/guides/tier-list" className="text-amber-400 hover:underline">honest tier assessment guide</Link>{' '}
+          and the <Link href="/guides/heroes-guide" className="text-amber-400 hover:underline">heroes guide</Link>.
+        </p>
+      </section>
     </div>
   );
 }

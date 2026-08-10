@@ -11,9 +11,9 @@ related: ["faq", "painting-guide"]
 
 # Low-Budget Repairs System Requirements — Can Your PC Run It?
 
-> Specs listed here are the official requirements published ahead of the August 13, 2026 launch. They may be adjusted slightly at release.
+> Specs below are the official system requirements from the Steam store page (as of August 2026). They may be adjusted slightly at release.
 
-Low-Budget Repairs is a first-person renovation simulator, so it's not a graphically demanding game — but it does simulate a lot of objects in the environment, which matters for CPU and RAM. Here are the official minimum and recommended specs, and what they actually mean for your machine.
+Low-Budget Repairs is a first-person renovation simulator, so it's not a graphically demanding game — but it does simulate a lot of objects in the environment, which matters for CPU and RAM. Here are the minimum and recommended specs as listed on the official Steam store page, and what they actually mean for your machine.
 
 ---
 

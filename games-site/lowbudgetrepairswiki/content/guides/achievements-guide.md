@@ -13,7 +13,6 @@ keywords:
   - "low-budget repairs achievement list"
 related:
   - "demo-guide"
-  - "tips-and-tricks-guide"
   - "release-hub"
   - "cost-cutting-tips"
   - "beginner-guide"

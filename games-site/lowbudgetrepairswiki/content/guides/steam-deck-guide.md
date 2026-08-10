@@ -26,7 +26,7 @@ Let's start with exactly what is and isn't on the official record:
 
 This section is an **estimate based on the official specs**, not a confirmation:
 
-The game's minimum GPU is an **RX 580 4GB or GTX 1060 6GB**, with a recommended tier of RX 5700 XT / RTX 2070 (full details in the [system requirements guide](/guides/system-requirements)). The Steam Deck's APU is roughly equivalent to a GTX 1050 Ti–RX 5500M-class chip — below both tiers on paper. But the Deck only has to drive an **800p display**, and the game isn't a graphics showcase by any account.
+The game's minimum GPU, per the Steam store page, is an **RX 580 4GB or GTX 1060 6GB**, with a recommended tier of RX 5700 XT / RTX 2070 (full details in the [system requirements guide](/guides/system-requirements)). The Steam Deck's APU is roughly equivalent to a GTX 1050 Ti–RX 5500M-class chip — below both tiers on paper. But the Deck only has to drive an **800p display**, and the game isn't a graphics showcase by any account.
 
 The practical read: at 800p with settings dialed to medium or low, and using the Deck's FSR upscaling if you want to push quality higher, a smooth 30–60fps experience is a **reasonable expectation — but unconfirmed**. The CPU and 16GB RAM side of the Deck comfortably exceed the minimum tier, and renovation sims lean on CPU (lots of simulated objects), which plays in the Deck's favor.
 

@@ -3,7 +3,7 @@ title: 'Graphite Demo Guide — Act 1, What\'s Included, and First Run Tips'
 description: 'Everything you need to know about the free Graphite: Act 1 demo on Steam — what is included (4 heroes, 50 stackable artifacts, 15 adventure events), how a ~30-minute run works, and first-run tips for the timeline combat and Break system.'
 category: Beginner
 version: '1.0'
-updated: '2026-08-01'
+updated: '2026-08-11'
 keywords:
   - Graphite demo guide
   - Graphite Act 1
@@ -17,17 +17,18 @@ related:
   - heroes-guide
   - combat-guide
   - builds-artifacts-guide
-  - walkthrough-guide
+  - tarot-events-guide
+  - boss-guide
   - faq-content
 ---
 
 # Graphite Demo Guide — Act 1, What's Included, and First Run Tips
 
-Graphite is a pen-and-ink roguelike tactical RPG from Colombian studio RipRed, published by indie.io, launching on Steam on July 27, 2026. Before the full release, the team released **Graphite: Act 1** — a free demo that covers the entire first act of the campaign. If you are trying the demo and wondering what you are actually looking at (and what carries over), this guide walks you through it.
+Graphite is a pen-and-ink roguelike tactical RPG from Colombian studio RipRed, published by indie.io, launched on Steam on July 27, 2026. Ahead of the full release, the team released **Graphite: Act 1** — a free demo that covers the entire first act of the campaign. If you are trying the demo and wondering what you are actually looking at (and what carries over), this guide walks you through it.
 
 ## What Is the Graphite: Act 1 Demo?
 
-Graphite: Act 1 is a free standalone demo available now on Steam (store app 3307810). Instead of a short vertical slice, it gives you the **complete first act** — roughly 30 minutes per run, per the Steam listing. The demo is not a separate game: it is the opening act of the full campaign, released early so players can try the core systems before the July 27 launch.
+Graphite: Act 1 is a free standalone demo, released **December 19, 2024** and available now on Steam (store app 3307810). Instead of a short vertical slice, it gives you the **complete first act** — roughly 30 minutes per run, per the Steam listing. The demo is not a separate game: it is the opening act of the full campaign, released early so players could try the core systems before the July 27, 2026 launch.
 
 Two things are worth noting about this approach. First, demoing a full act rather than a tutorial slice is an unusual confidence signal from a debut studio — reviewers have repeatedly highlighted "originality" as the demo's most common word in community impressions. Second, because the demo is a roguelike, a single run is short by design: the goal of a run is to push as far as you can, learn the systems, and try again.
 
@@ -48,7 +49,7 @@ The artifact count is the number available in the demo pool, not a cap on how ma
 
 Graphite takes place inside a child's school notebook. The heroes are pencil-drawn characters who do not know they are figments of a child's imagination, and the world is made of paper and repurposed household junk — everyday objects stand in for monsters and treasure. A mysterious figure called **The Scribe** tasks the seven heroes with growing stronger and gathering allies before **Death** arrives.
 
-The demo establishes this setup: who the Scribe is, why the notebook world exists, and why Death is coming. Reviews of the demo praise the dramatic irony — characters taking a world-threatening quest seriously while being doodles — as the emotional core of the writing. Details beyond the Act 1 setup (including the identity of the child behind the notebook) are revealed later in the campaign; the full act count has not been officially confirmed.
+The demo establishes this setup: who the Scribe is, why the notebook world exists, and why Death is coming. Reviews of the demo praise the dramatic irony — characters taking a world-threatening quest seriously while being doodles — as the emotional core of the writing. Details beyond the Act 1 setup (including the identity of the child behind the notebook) are revealed later in the campaign; the developer's launch materials confirm the full campaign spans **four acts, 15 days each**, while details of acts 2 through 4 remain unconfirmed.
 
 ## How a Run Works
 
@@ -101,9 +102,38 @@ The demo deliberately leaves out the rest of the campaign: heroes 5 through 7, l
 - **Save carryover** — whether demo progress (unlocks, friendship, achievements) carries into the full game has not been confirmed.
 - **Full-game systems** — meta-progression beyond what the demo shows (unlockables, persistent progression between runs) is confirmed to exist in the roguelite sense, but the details are only partially known.
 
-## What to Expect at Full Release
+## General Priorities for Any Run
 
-The full game launches **July 27, 2026** on Steam for PC (Windows). The launch version includes all 7 heroes, the complete campaign, and the full artifact and event pools. The price has not been announced at the time of writing — check the Steam page for the current listing. Minimum requirements listed for the demo are modest (Windows 10, a 2.0 GHz processor, 2 GB RAM, 2 GB graphics, 1 GB storage); the full game's requirements have not been separately confirmed.
+These priorities follow from confirmed mechanics and apply in the demo and full game alike:
+
+1. **Learn before you win.** Runs are short (~30 minutes in the demo). Every failed run teaches an event outcome, enemy pattern, or Break window.
+2. **Stack with intent.** Unlimited stacking means commitment beats hoarding.
+3. **Interrupt what matters.** Break is for powerful attacks, summons, and buffs — spend it on those, not on filler.
+4. **Play the story angle.** Starting heroes change story events; different heroes mean different runs. The game intends you to play as everyone eventually.
+5. **Respect the scaling.** Enemies grow stronger over time and use items — long delays make fights harder.
+
+## What Comes After Act 1 (Unconfirmed)
+
+The demo covers the entire first act of a four-act campaign (15 days per act, per the developer's launch materials). What remains **unconfirmed** and will be updated after further release coverage:
+
+- Which heroes unlock in later acts and how
+- Late-game event and encounter pools
+- Whether demo progress carries into the full game
+
+The full game launched **July 27, 2026** on Steam, GOG, and the indie.io Store for PC (Windows), with all 7 heroes and the complete campaign. The price is $8.99 USD (a 20% launch discount brought it to $7.19 through August 10, 2026). Minimum requirements listed for the demo are modest (Windows 10, a 2.0 GHz processor, 2 GB RAM, 2 GB graphics, 1 GB storage); the full game's requirements have not been separately confirmed.
+
+## What's Confirmed — Quick Reference
+
+| Stage | What Happens | Confirmed? |
+|-------|--------------|------------|
+| Hero selection | 7 heroes in the full game / 4 in the demo | Yes |
+| Timeline combat | Shared timeline, action durations, simultaneous units | Yes |
+| Break system | Poise depletion cancels actions; symmetric | Yes |
+| Leveling | Level up, spend points on skills after battles | Yes |
+| Artifacts | Unlimited stacking; enemies acquire artifacts | Yes |
+| Tarot deck | Branching narrated events; party-responsive | Yes |
+| Act structure | Demo = Act 1; full campaign = 4 acts of 15 days | Yes (per developer's launch materials) |
+| Boss details | Names / patterns | No |
 
 ## Related Guides
 
@@ -111,5 +141,6 @@ The full game launches **July 27, 2026** on Steam for PC (Windows). The launch v
 - [Heroes Guide — All 7 Heroes Breakdown](/guides/heroes-guide)
 - [Combat & Break System Guide](/guides/combat-guide)
 - [Best Builds & Artifacts Guide](/guides/builds-artifacts-guide)
-- [Campaign Walkthrough Guide](/guides/walkthrough-guide)
+- [Tarot Deck & Events Guide](/guides/tarot-events-guide)
+- [Boss Strategy Guide](/guides/boss-guide)
 - [Graphite FAQ](/guides/faq-content)

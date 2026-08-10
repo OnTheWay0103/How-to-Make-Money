@@ -1,6 +1,6 @@
 ---
 title: "Best Cost-Cutting Tips & Shortcuts in Low-Budget Repairs"
-description: "Every known Low-Budget Repairs cost-cutting tip and shortcut — watering down paint, mismatched tiles, duct tape plumbing, bargain-bin supplies, and posters over holes — with savings and risk ratings."
+description: "Every known Low-Budget Repairs cost-cutting tip and shortcut — watering down paint, mismatched tiles, duct tape plumbing, bargain-bin supplies, posters over holes, plus speed, painting, tiling, and inspection tricks — with savings and risk ratings."
 category: "Guides"
 version: "Pre-release"
 updated: "2026-08-10"
@@ -108,6 +108,49 @@ Low-Budget Repairs is a game where cutting corners is the entire point. You're p
 **Savings**: 60–80% versus buying new — the single biggest item-saving shortcut in the demo. **[Demo-verified]**
 
 **Risk**: **Low.** Inspectors judge furniture by appearance, not provenance. A freshly painted chest of drawers passes as new to most clients.
+
+## 11. Speed Tricks
+
+These don't save money directly — they save time, which is money:
+
+- **Skip prep entirely.** No sanding, no primer, no masking. The demo accepts raw painting over anything.
+- **Walk the flat once, then the store once.** Planning the buy list before leaving is the biggest time saver in the game — the store has no list UI and won't remind you.
+- **Batch jobs in the same building.** Less walking between contracts, and neighbors who see you working may offer new ones.
+
+## 12. Painting Tricks
+
+- **Two coats on the entrance wall only.** The most-looked-at surface carries the room; everywhere else, one thin coat passes.
+- **Roll in long, even strokes.** Patchy-looking rollers get noticed; consistent (even thin) coverage passes.
+- **Paint corners with the brush, walls with the roller.** Brush-only walls look visibly different — the demo's painting sim rewards the two-tool approach. See the [painting guide](/guides/painting-guide) for the full technique.
+- **Scrape loose paint first.** Bubbling paint paints badly and flakes show under fresh coats.
+
+## 13. Tiling Tricks
+
+- **Knock out tiles behind the toilet first.** If you're going to be sloppy with removal, be sloppy where the client won't look.
+- **Grout covers sins.** Mismatched edges, missing spacers, uneven rows — grout hides them all. Never skip grout on visible rows. Full method in the [tiling guide](/guides/tiling-guide).
+- **Tile the visible wall first.** If you run out of tiles, an invisible corner missing a tile beats a visible one missing a tile.
+
+## 14. Inspection Tricks
+
+- **Re-test everything you can trigger** — taps, doors, drawers — before calling the client. A 20-second check beats a free redo.
+- **Sweep the flat from the doorway.** That's exactly how the inspector sees it. Anything visible from the door gets fixed; anything else gets skipped.
+- **Don't stack shortcuts on one wall.** One cheap trick passes; five obvious mistakes get noticed. Spread the risk across rooms and surfaces.
+- **Tidy last.** The cleanliness check happens at the end — do your mess-making first, clean up second, call the client third. See the [inspection guide](/guides/inspection-guide).
+
+## Mistakes That Cost Profit
+
+1. **Forgetting the water valve** — floods the flat, fails the job, costs the cleanup. The demo's most common fail by far.
+2. **Stirring diluted paint badly** — streaks the inspector sees. Stir thoroughly, every batch.
+3. **Overbuying** — two cans and 20 tiles when you needed half. The contract tells you what's required; believe it.
+4. **Return trips to the store** — each one is a job you didn't start. One trip, everything, always.
+5. **Failing the same client twice** — reputation controls your job board; a second fail dries up the neighborhood.
+6. **Stacking too many visible shortcuts** — one cheap trick passes, five obvious ones don't. Vary your risk.
+
+## The Quick Reference Checklist
+
+Before any job: read the contract twice → walk the flat → check the bargain bin → write the buy list → one store trip → stop the leak before anything → do visible work first → skip the invisible → tidy up → call the client.
+
+After any job: keep leftovers, bank the profit, and take the next repaint contract.
 
 ## How to Combine Shortcuts Safely
 

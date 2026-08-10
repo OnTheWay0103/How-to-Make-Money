@@ -57,8 +57,8 @@ export function videoGameSchema(): Record<string, unknown> {
     '@type': 'VideoGame',
     name: 'Graphite',
     description:
-      'A pen-and-ink tactical roguelike RPG with 7 unique heroes. Master timeline combat, exploit enemy Break points, stack unlimited artifacts, and navigate a 4-act campaign shaped by the Tarot adventure deck. Developed by RipRed.',
-    url: 'https://store.steampowered.com/app/2788990/Graphite/',
+      'A pen-and-ink tactical roguelike RPG with 7 playable heroes. Master timeline combat and the Break system, stack unlimited artifacts, and navigate a four-act campaign shaped by the Tarot adventure deck. Developed by RipRed and published by indie.io.',
+    url: 'https://store.steampowered.com/app/3080560/Graphite/',
     applicationCategory: 'Game',
     operatingSystem: 'Windows',
     genre: ['RPG', 'Tactical', 'Roguelike', 'Strategy', 'Indie'],
@@ -72,10 +72,10 @@ export function videoGameSchema(): Record<string, unknown> {
     },
     offers: {
       '@type': 'Offer',
-      price: '19.99',
+      price: '8.99',
       priceCurrency: 'USD',
       availability: 'https://schema.org/InStock',
-      url: 'https://store.steampowered.com/app/2788990/Graphite/',
+      url: 'https://store.steampowered.com/app/3080560/Graphite/',
     },
     datePublished: '2026-07-27',
     platform: 'Steam',

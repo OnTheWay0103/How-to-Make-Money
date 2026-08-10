@@ -5,7 +5,7 @@ category: 'Guides'
 version: '1.0'
 updated: '2026-08-06'
 keywords: ['vahrins call puzzle guide', 'vahrins call colosseum tomb solution', 'vahrins call secrets', 'vahrins call hidden treasure', 'vahrins call vault of vahrin']
-related: ['zones-areas-guide', 'skill-book-locations', 'quest-walkthrough', 'farming-resource-guide']
+related: ['zones-areas-guide', 'skill-book-hunting-guide', 'quest-walkthrough', 'farming-resource-guide']
 ---
 
 # Puzzles & Secrets Guide — Colosseum Tomb Solution and Hidden Rewards
@@ -116,6 +116,6 @@ If you solve the Vault of Vahrin or collect the Snatcher's passwords, that is ex
 ## Next Steps
 
 - [Zones & Areas Guide](/guides/zones-areas-guide) — the confirmed regions where these puzzles live.
-- [Skill Book Locations Guide](/guides/skill-book-locations) — books often hide behind the same secrets.
+- [Skill Book Hunting Guide](/guides/skill-book-hunting-guide) — books often hide behind the same secrets.
 - [Quest Walkthrough](/guides/quest-walkthrough) — side quests are the gateway to hidden content.
 - [Farming & Resource Guide](/guides/farming-resource-guide) — why the loot behind puzzles matters.

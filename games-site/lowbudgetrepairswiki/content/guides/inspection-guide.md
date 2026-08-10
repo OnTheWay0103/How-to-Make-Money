@@ -1,11 +1,11 @@
 ---
-title: "Low-Budget Repairs Inspection Guide — How Clients Judge Your Work"
-description: "How the Low-Budget Repairs inspection system works: what clients check (paint coverage, tile alignment, plumbing function, visible damage, cleanliness), pass and fail criteria, penalties, and corner-cutting risks."
+title: "Low-Budget Repairs Inspection Guide — Contracts, Permits & Passing Checks"
+description: "How the Low-Budget Repairs inspection system works: contracts, budgets, what clients check (paint coverage, tile alignment, plumbing function, visible damage, cleanliness), pass and fail criteria, penalties, the permit question, and corner-cutting risks."
 category: "Guides"
 version: "Pre-release"
 updated: "2026-08-05"
 date: "2026-08-05"
-keywords: ["low-budget repairs inspection", "low budget repairs pass inspection", "low budget repairs fail job", "low budget repairs client checks", "low budget repairs corner cutting risks"]
+keywords: ["low-budget repairs inspection", "low budget repairs pass inspection", "low budget repairs fail job", "low budget repairs client checks", "low budget repairs corner cutting risks", "low-budget repairs permits", "low-budget repairs contracts", "low-budget repairs job budget"]
 ---
 
 # Low-Budget Repairs Inspection Guide — How Clients Judge Your Work
@@ -64,6 +64,35 @@ Failing an inspection costs more than the job:
 - **A redo may be demanded.** The client asks you to fix the specific problem they spotted. You keep working without pay until it's right.
 - **Reputation damage.** Demo players report that botched inspections reduce future job offers — the neighbors talk. Fail too often and the easy, profitable contracts stop appearing.
 - **Time wasted.** Every failed inspection is an hour you could have spent on a paying job. See the [money-making guide](/guides/money-making-guide) for how compounding profits work.
+
+## The Contract: Your Real Permit
+
+Every job runs through two gates: the **contract** that defines what you're allowed (and paid) to do, and the **inspection** that decides whether you get paid at all. The closest thing the demo has to a permit system is the **contract itself** — a flat-fee agreement in which the client names the work, the budget, and the deadline, and you decide how to spend the money:
+
+- **Read the contract first (Tab).** It names the required surfaces — walls, floors, fixtures, systems — and everything it doesn't name is optional. This one habit decides whether a job profits or bleeds. The [renovation jobs guide](/guides/renovation-jobs-guide) breaks down what each contract type typically lists.
+- **The flat fee is the ceiling, not the floor.** You're paid the agreed amount whether you spend 20% of it or 90% of it on supplies. Profit is literally the fee minus what you spend — the [job profit guide](/guides/job-profit-guide) covers the math.
+- **The contract sets the scope of failure, too.** Redos after a failed inspection are scoped to what the client complained about. Fix exactly that, nothing more.
+
+## Is There a Formal Permit System?
+
+As of August 2026: **no permit system has been announced, shown, or hinted at.** It's not in the demo, it's not on the official store page, and pre-launch coverage of the playtest doesn't mention one. **[Needs launch verification]**
+
+What the full release *might* add — clearly hypothetical:
+
+- **Building-permit quests** — a "get approval before renovating" step would fit the game's bureaucratic satire, but nothing suggests it exists.
+- **Inspector visits mid-job** — the game's comedy is about the client walking in at the end; a surprise mid-job check would be a different game.
+- **Neighborhood/board approval** — the block-of-flats setting could theoretically gate some jobs on neighbor consent. Unconfirmed and unmentioned.
+
+Treat the absence as the likely reality: the demo's contract-and-inspection loop is almost certainly the full system, with more jobs, flats, and difficulty — not new bureaucratic layers.
+
+## Budget Discipline: The Permit You Grant Yourself
+
+Between contract and inspection sits the budget, and the demo's best players treat it as a second inspection:
+
+- **Price the job before you buy.** Walk the flat, list every required surface, estimate the cheapest materials that pass, and only then visit the shop. One trip, one plan — return trips are profit leaks. See the [hardware store guide](/guides/hardware-store-guide) for the shopping half.
+- **The doorway view is the budget's center of gravity.** Spend where the client's first glance lands — the entrance wall, the bathroom floor — and cheap out everywhere else. The [cost-cutting guide](/guides/cost-cutting-tips) has the full risk table.
+- **Keep a reserve.** A job that needs one extra can of paint shouldn't send you back to the store empty-handed. Leftovers from earlier jobs are a free reserve; stash them.
+- **Track the daily rhythm.** Fast small jobs build cash and reputation; big jobs build profit per hour. The [upgrade-priorities guide](/guides/upgrade-priorities-guide) is the long-term view.
 
 ## How to Fool an Inspection
 

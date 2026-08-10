@@ -66,7 +66,7 @@ The first plumbing job introduces the game's duct tape era:
 
 ## Basic Controls and Mechanics
 
-The demo controls are standard first-person: **mouse** to look and aim, **WASD** to move, **left mouse** to use your current tool, **right mouse** for alternate actions, **E/F** to interact, **Tab or I** for inventory and tool belt, **R** to drop.
+The demo controls are standard first-person: **mouse** to look and aim, **WASD** to move, **left mouse** to use your current tool, **right mouse** for alternate actions, **E** to interact, **Tab** for job info, **I** for inventory and tool belt, **Q** for the tool wheel, **R** to drop. See the [controls guide](/guides/controls-guide) for the full keybindings.
 
 Key mechanics to know early:
 
@@ -84,7 +84,7 @@ There's no shopping-list UI, so note what the job needs before you leave — run
 
 ## Tips for Your First Renovation
 
-- **Dilute the paint.** Adding thinner (or water, per demo players) stretches a can further. A 1:5 ratio looks fine on the wall; 1:10 starts to look patchy.
+- **Dilute the paint.** Adding thinner (or water, per demo players) stretches a can further. Demo players report a roughly 1:5 ratio looks fine on the wall; heavier dilution starts to look patchy.
 - **Buy the bargain bin first.** Even damaged paint that needs stirring paints the same.
 - **Don't sand, don't prime.** Skipped prep is invisible profit.
 - **Skip non-visible work.** Behind radiators, behind furniture — if the client can't see it, it doesn't exist.

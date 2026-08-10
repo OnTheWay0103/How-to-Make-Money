@@ -30,6 +30,19 @@ Official lore: while the khraiax were being defeated, **"a far greater danger ro
 
 Reviews confirm **blocking is functional** — timing your guard is a viable defensive tool in the game generally, which includes heavier enemies. Pair it with dodge timing for a complete defensive kit.
 
+## Community-Documented Boss Encounters
+
+No official boss list exists, but community maps have since documented **four named boss-tier encounters** in the mapped zones. The names and arenas are verified; fight details (health, phases, movesets, drops) are **not** published for any of them:
+
+| Boss | Zone | Map Notes |
+|---|---|---|
+| **Sylvia Lynderly** | Barathrum Forest | Only boss in the starting zone |
+| **Dirk the Flayer** | Colosseum (basement) | The Colosseum's only documented boss; shares the map with the Colosseum Tomb puzzle |
+| **Dallen Bellmore** | South Vale Hamlet | Also listed as a resident NPC |
+| **Talia Almath** | South Vale Hamlet | Boss/Miniboss in the first town |
+
+See our [NPCs & Characters Guide](/guides/npcs-characters-guide) for the full character context. Notably, the game gives every boss a cinematic introduction — a sudden cutscene marks a boss or main-story figure.
+
 ## Preparation That Works with Confirmed Systems
 
 Since we cannot tell you a specific boss's weaknesses, here is how to prepare for any boss fight using confirmed mechanics:
@@ -70,15 +83,17 @@ Treat these as rumors until verified.
 
 ## What Is NOT Confirmed
 
-- Any boss names, locations, or rewards
-- Boss health values, phases, or enrage mechanics
+- An **official** boss list — community maps have documented four named boss-tier encounters (above), but the developers have published nothing
+- Boss health values, phases, or enrage mechanics — including for the four community-documented bosses
+- Rewards or drop tables for any boss
 - Elemental weaknesses or resistances
-- Number of bosses in the game
+- The total number of bosses in the game
 - Whether a tutorial boss exists
 
 ## Next Steps
 
 - [Combat Guide](/guides/combat-guide) — the confirmed combat fundamentals bosses test.
 - [Enemies & Bestiary Guide](/guides/enemies-bestiary-guide) — the confirmed enemy roster.
+- [NPCs & Characters Guide](/guides/npcs-characters-guide) — the four community-documented boss encounters in context.
 - [Alchemy & Crafting Guide](/guides/alchemy-crafting-guide) — potion-throwing and trap preparation.
 - [Quest Walkthrough](/guides/quest-walkthrough) — the story context for the threat beneath the city.

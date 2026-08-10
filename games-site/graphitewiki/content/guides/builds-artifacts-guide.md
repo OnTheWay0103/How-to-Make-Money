@@ -4,13 +4,17 @@ description: 'Master the unlimited artifact stacking system in Graphite. Learn h
 keywords: ['Graphite artifacts guide', 'Graphite best builds', 'Graphite artifact stacking', 'Graphite build guide', 'Graphite artifact combinations', 'Graphite power curve']
 category: Builds
 version: '1.0'
-updated: '2026-08-01'
+updated: '2026-08-11'
 related:
   - heroes-guide
   - combat-guide
   - beginner-guide
   - graphite-demo-guide
 ---
+
+## No Weapon System — What Equipment Exists Instead
+
+First, a correction that matters: **Graphite has no weapon system.** Combat is driven by hero abilities, and character power comes from **artifacts** (passive items) and **skill upgrades** — not from equipping swords or bows. Any guide that lists "weapons" for Graphite is describing content that does not exist in the game. The equipment-adjacent systems that actually exist are the artifact system below, skill upgrades, and run customization.
 
 ## How the Artifact System Works
 
@@ -44,8 +48,9 @@ This guide is honest about what is documented:
 | Hyper-specialized builds viable | Confirmed |
 | Enemies acquire artifacts | Confirmed |
 | Level up + spend points on skills | Confirmed |
-| Individual vs. group artifacts | Unconfirmed |
-| Specific artifact names/rarities | Unconfirmed |
+| Individual vs. group artifacts | Unconfirmed — some coverage separates them, but no official documentation exists |
+| Specific artifact names | Unconfirmed |
+| Rarity tiers | The developer's launch materials reference rare and legendary tiers; no full rarity list has been published |
 | Exact enemy scaling math | Unconfirmed |
 
 No individual artifact names have been officially confirmed. Any list of named artifacts (e.g., "Iron Will," "Serrated Edge," "Resonance Trinity") is unsourced — treat those as fabricated until official documentation appears.
@@ -90,7 +95,7 @@ Without confirmed act-level detail, stage guidance comes from the run loop itsel
 
 - **Watch enemy scaling**: if opponents are collecting artifacts aggressively, either finish fights faster or strengthen your stack to keep pace
 - **Specialize toward the act's confrontation**: the act finale is the true test — arrive with a stack you understand
-- The full game's pacing and act structure are unconfirmed, so treat any day-based or act-based build advice as unsourced
+- The campaign structure is confirmed as four acts of 15 days each, but day-by-day pacing and late-act content are unconfirmed — treat any day-by-day build advice as unsourced
 
 ## Artifact Hunting Tips
 

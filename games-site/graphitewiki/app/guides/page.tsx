@@ -7,7 +7,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'All Guides',
   description:
-    'Complete Graphite guide collection — weapon classes, builds, boss strategies, EX-Mod crafting, progression tips, and more.',
+    'Complete Graphite guide collection — beginner guides, hero breakdowns, combat and Break system guides, artifact builds, boss strategies, and more.',
 };
 
 export default function GuidesPage() {

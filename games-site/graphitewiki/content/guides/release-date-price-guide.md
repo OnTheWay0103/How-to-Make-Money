@@ -3,7 +3,7 @@ title: "Graphite Release Date, Price & Platforms — Launch Guide"
 description: "When Graphite launched (July 27, 2026), what it costs ($8.99, 20% launch discount), where to buy it (Steam and GOG), and what the free Act 1 demo includes — 4 heroes, 50 artifacts, 15 events."
 category: "Guides"
 version: "1.0"
-updated: "2026-08-08"
+updated: "2026-08-11"
 keywords: ["graphite release date", "graphite price", "graphite steam", "graphite gog", "graphite launch discount", "graphite act 1 demo", "graphite how long to beat"]
 related: ["system-requirements", "graphite-demo-guide", "beginner-guide", "heroes-guide"]
 ---
@@ -16,9 +16,10 @@ Graphite — the pen-and-ink roguelike RPG from Colombian studio **RipRed**, pub
 
 | Fact | Detail |
 |------|--------|
-| **Release date** | July 27, 2026 (Steam launch per official press release) |
+| **Release date** | July 27, 2026 (per official press release) |
 | **Steam** | ✅ Released July 27, 2026 |
-| **GOG** | ✅ Reported out now (July 28, 2026 coverage listed both stores) |
+| **GOG** | ✅ Released — available now (per the publisher's launch announcement) |
+| **indie.io Store** | ✅ Released — available on the publisher's own store |
 | **Console / mobile** | ❌ Not announced |
 
 ## Price
@@ -49,9 +50,9 @@ Released **December 19, 2024**, the free **Act 1** demo covers the full opening 
 - **Publisher:** indie.io.
 - **Origin story:** the game is set inside a kid's school notebook — a child processing grief has drawn a pen-and-paper fantasy campaign, and its heroes (unaware they are figments of imagination) are tasked by a figure called **The Scribe** to grow stronger before Death arrives.
 
-## Early Reception (First Two Weeks)
+## Early Reception (Community-Reported)
 
-- Steam user reviews for the Act 1 demo are **"Mostly Positive"** (~70–72% positive from a small early review count — a sample too small to treat as settled).
+- Steam user reviews for the Act 1 demo were **"Mostly Positive"** in early community reporting (~70–72% positive from a small early review count — a sample too small to treat as settled; check the Steam page for current review data).
 - Previewers (Turn Based Lovers and others) praised the **timeline-based combat** (actions have durations on a dynamic timeline; reading enemy intentions matters) and the symmetric design where **enemies can pick up artifacts too**.
 - The community's most common response word: **originality**.
 

@@ -6,7 +6,7 @@ version: "Pre-release"
 updated: "2026-08-08"
 date: "2026-08-08"
 keywords: ["low-budget repairs wallpaper", "low-budget repairs how to remove wallpaper", "low-budget repairs how to hang wallpaper", "low-budget repairs wallpaper guide", "low-budget repairs paint over wallpaper"]
-related: ["painting-guide", "materials-guide", "tool-guide", "renovation-jobs-guide", "first-renovation-walkthrough"]
+related: ["painting-guide", "materials-guide", "tool-guide", "renovation-jobs-guide", "bathroom-renovation-guide"]
 ---
 
 # Low-Budget Repairs Wallpaper Guide — Hang, Scrape & Paint Over
@@ -58,7 +58,7 @@ Paint-over is the default answer, but it fails visibly on glossy and heavily tex
 
 ## Wallpaper in Specific Jobs
 
-- **Flooded bathroom repair** — water-damaged wallpaper peels at the seams; the contract usually calls for repainting the damaged walls, which is a scrape-and-paint or paint-over situation. The full job is in the [first renovation walkthrough](/guides/first-renovation-walkthrough).
+- **Flooded bathroom repair** — water-damaged wallpaper peels at the seams; the contract usually calls for repainting the damaged walls, which is a scrape-and-paint or paint-over situation. The full job is in the [bathroom renovation guide](/guides/bathroom-renovation-guide).
 - **Living room refreshes** — the most common wallpaper jobs: repaint or re-paper the tired walls. Refresh contracts are easy money ([renovation jobs guide](/guides/renovation-jobs-guide)), and "refresh" almost always accepts paint-over.
 - **Kitchens and full makeovers** — wallpaper in multiple rooms means multiple decisions. Batch the decision: scrape the glossy and textured rooms, paint over the rest, buy paper only for the rooms the contract names.
 

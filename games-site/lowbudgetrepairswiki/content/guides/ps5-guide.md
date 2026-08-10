@@ -35,7 +35,7 @@ The expected price is **around $19.99 USD**, matching the mid-tier simulator pri
 Based on the PlayStation Store listing (US) and official announcements, confirmed as of August 2026:
 
 - **Release date:** August 13, 2026
-- **Publisher:** PlayWay plc (PlayWay S.A. on PC) — the studio behind the House Flipper family of sims
+- **Publisher:** PlayWay S.A. (listed as PlayWay plc on the PlayStation Store) — the studio behind the House Flipper family of sims
 - **Single-player only** — 1 player, no co-op or multiplayer on any platform
 - **Genre:** Simulation — a first-person renovation sim set in a 1990s Polish block of flats
 - **ESRB rating:** Pending (as of the store listing)
@@ -46,7 +46,7 @@ Based on the PlayStation Store listing (US) and official announcements, confirme
 These are the questions every console player asks, and none are officially confirmed yet:
 
 - **DualSense features** — no announcement of adaptive trigger or haptic feedback support. Given the game's physical, tool-driven feel (painting strokes, hammer blows, caulking), DualSense support would fit, but nothing is confirmed.
-- **Performance target** — no announced frame rate or resolution (60fps vs 30fps, quality vs performance modes). The game is not demanding — PC minimums are a GTX 1060 6GB / RX 580 4GB — so a smooth 60fps on PS5 is a reasonable expectation, but unconfirmed.
+- **Performance target** — no announced frame rate or resolution (60fps vs 30fps, quality vs performance modes). The game is not demanding — the PC minimums on the Steam store page are a GTX 1060 6GB / RX 580 4GB — so a smooth 60fps on PS5 is a reasonable expectation, but unconfirmed.
 - **PS5 Pro enhancements** — nothing announced. If a PS5 Pro patch exists, it will be covered here at launch.
 - **File size** — the PC install is 30GB; the PS5 download size is unconfirmed.
 - **Preload** — unconfirmed, as on all platforms. Console preloads typically appear in the final days before launch for preordered games.

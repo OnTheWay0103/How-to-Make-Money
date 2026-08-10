@@ -3,7 +3,7 @@ title: "Graphite System Requirements — PC Specs & Performance Guide"
 description: "Official Graphite minimum system requirements, platforms (Steam and GOG), and honest performance notes for the pen-and-ink roguelike RPG — plus what is not published yet."
 category: "Guides"
 version: "1.0"
-updated: "2026-08-08"
+updated: "2026-08-11"
 keywords: ["graphite system requirements", "graphite pc specs", "graphite minimum requirements", "graphite recommended specs", "graphite steam", "graphite gog", "graphite performance"]
 related: ["release-date-price-guide", "beginner-guide", "faq-content", "graphite-demo-guide"]
 ---
@@ -16,6 +16,8 @@ Graphite is a hand-drawn, pen-and-ink roguelike RPG set inside a kid's school no
 
 ## Official Minimum System Requirements
 
+System requirements per the official Steam store page:
+
 | Component | Minimum (official, Windows) |
 |-----------|-----------------------------|
 | **OS** | Windows 10 |
@@ -23,7 +25,6 @@ Graphite is a hand-drawn, pen-and-ink roguelike RPG set inside a kid's school no
 | **Memory** | 2 GB RAM |
 | **Graphics** | 2 GB VRAM |
 | **Storage** | 1 GB available space |
-| **Other** | Steam account required for activation/installation |
 
 These are the only officially published specs. The requirements are low enough that virtually any modern PC and most budget laptops from the last decade will run the game.
 
@@ -32,7 +33,8 @@ These are the only officially published specs. The requirements are low enough t
 | Platform | Status |
 |----------|--------|
 | **Steam (Windows)** | ✅ Confirmed — released July 27, 2026 |
-| **GOG** | ✅ Reported — "out now" on Steam and GOG as of July 28, 2026 coverage |
+| **GOG** | ✅ Confirmed — available per the publisher's launch announcement |
+| **indie.io Store** | ✅ Confirmed — available on the publisher's own store |
 | **macOS** | ❌ Not announced |
 | **Linux / Steam Deck** | ❌ Not announced (no official statement) |
 

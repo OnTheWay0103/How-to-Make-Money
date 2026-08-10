@@ -21,7 +21,7 @@ export default function Footer() {
         <div className="flex flex-col items-center gap-4">
           {/* Copyright */}
           <p className="text-sm text-gray-500 text-center">
-            &copy; 2026 Graphite Wiki. Unofficial fan wiki. Graphite is a trademark of Astra Logical.
+            &copy; 2026 Graphite Wiki. Unofficial fan wiki. Graphite is developed by RipRed and published by indie.io.
           </p>
 
           {/* Nav Links */}

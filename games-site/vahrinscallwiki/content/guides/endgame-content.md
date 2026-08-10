@@ -40,9 +40,9 @@ The non-linear, hand-crafted world rewards post-story completionism:
 
 ## Announced: Free DLC and Patches
 
-The developers have publicly stated their post-launch plan (after Director Craig's statement addressing the "Mixed" launch reception):
+The developers have publicly stated their post-launch plan (after director Craig Smith's statement addressing the "Mixed" launch reception):
 
-1. **Fix priorities first**: performance optimization across hardware, widescreen support, customizable shortcut-wheel keybindings for mouse/keyboard, and improved localization.
+1. **Fix priorities first**: performance optimization across hardware, widescreen support, customizable shortcut-wheel keybindings for mouse/keyboard, and improved localization (announced by director Craig Smith).
 2. **Then free DLC** — Titan Roc has committed to free DLC content after the fix pass, before any other projects.
 
 No DLC content details have been announced. What is confirmed: the team read every review, acknowledges the criticism, and is shipping fixes before new content.
