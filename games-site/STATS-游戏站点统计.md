@@ -1,6 +1,6 @@
 # 游戏攻略站 — 站点统计
 
-> 最后更新：2026-08-10 | 34 站 · 1007 篇攻略
+> 最后更新：2026-08-11 | 34 站 · 949 篇攻略
 
 ---
 
@@ -9,10 +9,10 @@
 <!-- AUTO-START:overview-table -->
 | # | 站点 | 上线日 | 攻略 | 域名 | Vercel | GA4 | GSC | 备注 |
 |---|------|:--:|:--:|------|:--:|:--:|:--:|------|
-| 1 | Witchspire | 6/29 | 46 | witchspirewiki.vercel.app | ✅ | ✅ | ✅ | 8/1 反馈驱动 +3 新 +4 纠错（精灵机制/联机/PvP 造假清理） |
-| 2 | Mistfall Hunter | 7/01 | 53 | mistfallhunterwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 内容配比规则 +1 Boss/Mist Lord 速查表；8/1 内容配比 +1 Map Boss & Loot 速查表 |
-| 3 | Aincrad | 7/07 | 47 | aincradwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 内容配比规则 +2（Golden Gate Boss、武器锻造配方表）；8/1 内容配比 +2（全 Boss 速查表、消耗品速查表）；8/9 QA 修复 floor-guide PvP 虚构残留 |
-| 4 | The Mound | 7/14 | 54 | themoundwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 内容配比规则 +2 速查表；Tier List 页武器名纠错（虚构 Rapier/Dagger 等 → 真实 Matchlock/Crossbow/Machete 等） |
+| 1 | Witchspire | 6/29 | 34 | witchspirewiki.vercel.app | ✅ | ✅ | ✅ | 8/1 反馈驱动 +3 新 +4 纠错；8/11 AdSense Phase1 合规：46→34，8 组合并（精灵/事件/配方/飞行/基建等），去 Patch 版本声明，虚构数字/元素清理 |
+| 2 | Mistfall Hunter | 7/01 | 38 | mistfallhunterwiki.vercel.app | ✅ | ✅ | ✅ | 8/11 AdSense Phase1 合规：53→38，9 组合并（PvP/新手/经济/撤离/赛季等），清除虚构职业/地图/Boss，patch-notes 重写为可验证模式 |
+| 3 | Aincrad | 7/07 | 38 | aincradwiki.vercel.app | ✅ | ✅ | ✅ | 8/11 AdSense Phase1 合规：47→38，9 组合并（伙伴/EX-Mod/Boss/楼层/成长等），武器/Boss/楼层设定校准，去 Patch 版本声明 |
+| 4 | The Mound | 7/14 | 32 | themoundwiki.vercel.app | ✅ | ✅ | ✅ | 8/11 AdSense Phase1 合规：54→32，12 组合并，系统配置对齐 Steam 官方，Patch Notes 去 1.02 未验证声明 |
 | 5 | SpiritVale | 7/12 | 51 | spiritvalewiki.vercel.app | ✅ | ✅ | ✅ | 8/1 内容配比规则 +1 世界 Boss 速查表（Echoing Spire） |
 | 6 | Skills & Raids | 7/15 | 26 | skillsandraidswiki.vercel.app | ✅ | ✅ | ✅ | 7/27 游戏上线 |
 | 7 | MineGeon | 7/20 | 31 | minegeonwiki.vercel.app | ✅ | ✅ | ✅ | 7/28 游戏上线；8/3 Coordinator 扩充 +2（Walkthrough、Review） |

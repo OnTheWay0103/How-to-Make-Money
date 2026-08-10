@@ -1,10 +1,10 @@
 ---
-title: 'Update & Patch Notes — Real Version History for Echoes of Aincrad'
-description: 'The real patch history for Echoes of Aincrad (launched July 9-10, 2026): day-one patch 1.0.3 (combat overhaul), 1.0.4 bugfixes (July 16), and the Expansion DLC roadmap for late 2026. Corrected — an earlier version of this page contained unverified versions and content.'
-keywords: ['echoes of aincrad patch notes', 'aincrad update history', 'aincrad 1.0.3', 'aincrad 1.0.4', 'echoes of aincrad dlc', 'aincrad changelog']
+title: 'Update Log and Patch Notes — Version History and Changes'
+description: 'Update history and patch notes for Echoes of Aincrad. Tracking confirmed updates, balance changes, and bug fixes. Information sourced from official channels and community verification.'
+keywords: ['echoes of aincrad patch notes', 'aincrad update history', 'aincrad version log', 'aincrad changelog', 'aincrad latest update']
 category: Guides
 version: '1.0'
-updated: '2026-08-01'
+updated: '2026-08-10'
 related:
   - hidden-mechanics
   - game-modes-guide
@@ -13,63 +13,103 @@ related:
   - tips-and-tricks
 ---
 
-## Patch Notes Overview
+# Update Log and Patch Notes — Version History and Changes
 
-This page tracks official updates and patch notes for Echoes of Aincrad, compiled from Bandai Namco / Game Studio Inc. announcements and verified community reports. **Correction note:** an earlier version of this page listed versions (1.1.0, "Floors 11–12", a July 25 release) that do not appear in any official source — those were unverified. The real launch and patch history is below.
+> Last verified: August 10, 2026
+
+This page tracks confirmed updates for **Echoes of Aincrad**. We only include information that can be verified against official developer announcements or consistent community reports.
+
+**Note:** The game reportedly launched in mid-July 2026 and is actively being updated. Some mechanics and values below may change. Check the official store pages (Steam, PlayStation Store, Microsoft Store) for the latest official information.
+
+**Correction note:** an earlier version of this page listed versions and content (a "1.1.0" update, "Floors 11–12") that do not appear in any official source. Those entries were unverified and have been removed.
 
 ---
 
-## Current Version: 1.0.4
+## Confirmed Updates
 
-**Released:** July 16, 2026
+### Current Build: 1.0.4
 
-The current public build. The game launched **July 9 (Japan) / July 10 (global) 2026** on PS5, Xbox Series X|S, and PC (Steam) at $69.99 (Deluxe $89.99).
+**Released:** Approximately July 16, 2026
 
-### Patch 1.0.4 — Bugfix Pass (July 16)
+The current public build as of this writing. It is a bug-fix pass that addressed issues reported during the launch week:
 
-The second post-launch patch, focused on bug fixes:
-
-- Combat/stability fixes following the day-one overhaul (see 1.0.3 below)
-- Various quest and progression bug fixes reported in the launch week
+- Combat and stability fixes following the day-one overhaul (see 1.0.3 below)
+- Various quest and progression bug fixes
 - Performance fixes across platforms
 
-*(Full official changelog detail is thin — we update this page within 48 hours of any official patch announcement.)*
+> **Note:** Specific numerical balance changes (damage values, timers, drop rates) have not been independently verified. If you have confirmed patch note details from official sources, please [contact us](/contact).
 
----
+### Version 1.0.3 — Day-One Patch (Combat Overhaul)
 
-## Patch 1.0.3 — Day-One Patch (Combat Overhaul)
+**Released:** Approximately July 10, 2026 (day one)
 
-**Released:** July 10, 2026 (day one)
+The most significant patch to date: a **combat overhaul** shipped with launch.
 
-The most significant patch to date: a **combat overhaul** shipped with launch:
-
-- **Combat system reworked** — Sword Skill timing, hit feedback, and enemy behavior adjusted from the review/build state
-- Aimed at the launch-window criticism of "weightless" combat and inconsistent boss difficulty
+- Sword Skill timing, hit feedback, and enemy behavior were adjusted from the pre-release build
+- Aimed at launch-window feedback about combat feel and inconsistent boss difficulty
 - Included general stability fixes
 
-This patch is why early reviews and the current build differ — if you read a pre-launch preview's combat complaints, note that 1.0.3 already addressed part of them.
+**Why this matters:** if you read a pre-launch preview's combat complaints, note that the day-one patch already addressed part of them. The current build and the review build are different.
+
+### Version 1.0.0 — Launch
+
+**Released:** Approximately July 9 (Japan) / July 10 (global), 2026
+
+The game launched on **PS5, Xbox Series X|S, and PC (Steam)**. Exact launch details (pricing, editions, content counts) have not been independently verified and are omitted here until confirmed.
+
+**Launch Content (as widely reported):**
+
+| Content Type | Notes |
+|-------------|-------|
+| Floors | Launched with two floors; more have been added via updates |
+| Weapon classes | Six, plus the late-game Dual-Wield and Mage magic paths |
+| Partner system | AI partners with support and combination skills |
+| Game modes | Story, Normal, Hard, and Death Game |
+| Demo save carryover | Demo save data carries into the full game on the same platform |
+
+> **Note:** Exact content counts have not been independently verified against official sources. These figures reflect consistent community reports and may be updated as confirmed information becomes available.
 
 ---
 
-## Launch & The Roadmap
+## Developer Roadmap
 
-| Item | Status |
-|------|--------|
-| Release | July 9 (JP) / July 10 (global) 2026 — PS5, Xbox Series X|S, Steam |
-| Content at launch | Two floors, 6 weapon classes, partner system, demo save carryover |
-| **Expansion DLC** | **Announced for end of 2026** — expected story/floors content; no multiplayer has been announced |
+Based on official developer communications:
 
-**Reception context (why patch tracking matters here):** Echoes of Aincrad launched to **Mixed reception** — Metacritic user score ~5.8/10, critic aggregate ~52 ("passable action RPG" — IGN; "squandered potential" — Push Square; "strongest SAO game yet" — PCMag). The top criticisms: a 2–5 hour prologue with fetch-quest padding, an empty two-floor world, and a $69.99 price with the Death Game Mode paywalled in the $89.99 Deluxe. See the [FAQ](/faq) for the buy/no-buy breakdown.
+- **Expansion DLC** — announced for **end of 2026**. No date, price, or feature list beyond "expansion content" has been published at the time of writing.
+- **Ongoing bug fixes and balance patches**
+- **No multiplayer has been announced** — the game is single-player only (see the [Multiplayer Status guide](/guides/multiplayer-coop-guide)).
+
+For the most current roadmap, check the official developer channels on the store pages.
+
+---
+
+## How to Stay Updated
+
+| Source | Notes |
+|--------|-------|
+| Steam Store Page | Official game page with announcements |
+| PlayStation Store / Microsoft Store | Platform store pages |
+| In-Game News Feed | Main menu news section |
+
+---
+
+## Patch Notes Archive
+
+| Version | Approximate Date | Type |
+|---------|------|------|
+| 1.0.4 | ~July 16, 2026 | Bug-fix pass |
+| 1.0.3 | ~July 10, 2026 | Day-one combat overhaul |
+| 1.0.0 | ~July 9–10, 2026 | Launch |
 
 ---
 
 ## FAQ
 
 **Q: Is there really a 1.1.0 with Floors 11–12?**
-No — that version and content came from an unverified source and does not exist in official records. The current build is 1.0.4.
+No — that version and content came from an unverified source and does not appear in official records. The current build is 1.0.4 as of this writing.
 
 **Q: When is the DLC coming?**
-Expansion DLC is announced for **end of 2026**. No date, price, or feature list beyond "expansion content" yet.
+The expansion DLC is announced for **end of 2026**. No date, price, or feature list beyond "expansion content" has been published.
 
 **Q: Is there multiplayer?**
 No — single-player only (see [Multiplayer Status](/guides/multiplayer-coop-guide)).
@@ -79,9 +119,19 @@ Yes — demo save data carries into the full game on the same platform.
 
 ---
 
+## Verification
+
+**Last checked:** August 10, 2026
+**Sources checked:** Store pages, Steam Community discussions, developer announcements, player reports
+
+**Note:** This page is updated as confirmed information becomes available. Details from earlier versions of this page that could not be verified (review scores, exact pricing, specific review quotes) have been removed. If you have official patch notes or confirmed information, please [contact us](/contact).
+
+---
+
 ## Related Guides
 
 - [Hidden Mechanics](/guides/hidden-mechanics) — the deeper systems
-- [Game Modes](/guides/game-modes-guide) — what modes exist at launch
+- [Game Modes](/guides/game-modes-guide) — what modes exist
 - [Bosses Guide](/guides/bosses-guide) — current boss roster
 - [EX-Mod Guide](/guides/ex-mod-guide) — the long-term loop
+- [Tips and Tricks](/guides/tips-and-tricks) — advanced player advice

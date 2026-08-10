@@ -4,7 +4,7 @@ description: 'Undocumented game mechanics, secret stat breakpoints, hidden sword
 keywords: ['hidden mechanics', 'secret systems', 'easter eggs', 'stat breakpoints', 'undocumented features']
 category: Guides
 version: '1.0'
-updated: '2026-07-23'
+updated: '2026-08-10'
 related:
   - tips-and-tricks
   - ex-mod-guide
@@ -17,7 +17,7 @@ related:
 
 Echoes of Aincrad is filled with undocumented mechanics, secret interactions, and developer Easter eggs that the game never teaches you. Some of these are intentional hidden systems designed for discovery; others are emergent behaviors from the game's complex simulation logic. This guide catalogs every significant hidden mechanic discovered by the community as of July 2026.
 
-**Disclaimer**: Several of these mechanics may be patched in future updates. The information below is accurate for version 1.0 of the game.
+**Disclaimer**: Several of these mechanics may be patched in future updates. The information below reflects community findings up to the current build; specific numbers, timings, and trigger conditions have not been independently verified.
 
 ---
 
@@ -90,14 +90,14 @@ Echoes of Aincrad's stat system has undocumented breakpoints that grant bonus ef
 
 Certain Sword Skills can be chained into hidden combo attacks that are not listed in any skill menu or tutorial. These combos require specific skill sequences performed within a strict timing window (approximately 0.5 seconds between skills).
 
-### The Cross Slash — Guillotine (Greatsword)
+### The Cyclone — Avalanche Combo (Greatsword)
 
-**Input**: Cross Slash → immediately → Guillotine
-**Effect**: Guillotine deals 200% damage and has a 50% larger hitbox
-**Requirements**: Both skills equipped, 150 SP available, Dexterity 20+
-**Window**: 0.4 seconds after Cross Slash connects
+**Input**: Cyclone → immediately → Avalanche
+**Effect**: Avalanche deals significantly increased damage (community-reported) and gains a larger hitbox
+**Requirements**: Both skills equipped, SP available, Dexterity 20+
+**Window**: Reported roughly 0.4 seconds after Cyclone connects
 
-This is the most damaging combo in the Greatsword kit and one of the few combos that can one-shot elite enemies on Normal difficulty.
+This is one of the most damaging combos in the Greatsword kit and can one-shot elite enemies on Normal difficulty.
 
 ### Star Splash — Linear (Rapier)
 
@@ -144,8 +144,8 @@ Several significant quests have activation conditions that the game never explai
 
 **Spawn points**:
 1. Near the Split Gate entrance (x:45, y:120)
-2. Behind the waterfall in the Lake Zone
-3. Inside the collapsed tunnel (requires Smash from Greatsword or Axe to clear rubble)
+2. Behind the waterfall in the Moonlit Shrine
+3. Inside the collapsed tunnel (requires Smash from Greatsword or Two-Handed Axe to clear rubble)
 
 ### The Memory Fragment Chain
 
@@ -157,7 +157,7 @@ Several significant quests have activation conditions that the game never explai
 
 ### The Cardinal's Request
 
-**Trigger**: Reach 100% completion on the Bestiary (requires killing every enemy type at least once — there are 47 types in the first 10 floors)
+**Trigger**: Reach 100% completion on the Bestiary (requires killing every enemy type at least once — roughly 47 types in the first 10 floors, community-counted)
 **NPC**: The Cardinal system itself — no NPC dialog. A system message appears: "You have witnessed all that this world offers. Seek the highest peak."
 **Effect**: Unlocks a hidden room on Floor 10 containing the "Cardinal's Blade" — a weapon that scales with your highest stat regardless of weapon type
 
@@ -182,10 +182,10 @@ The merchant will eventually say "You keep coming back but never buy anything. H
 
 ### Developer In-Jokes
 
-- **Patch notes room**: On Floor 7, there is a hidden room behind the lava waterfall with a gravestone reading "Here lies the beta build. May 2024 — never forget." This references the scrapped beta version.
+- **Patch notes room**: On Floor 7, there is a hidden room behind the lava waterfall with a gravestone reading "Here lies the beta build. May 2024 — never forget." This is a nod to a scrapped beta version; the date has not been independently verified.
 - **The 404 door**: Floor 3 has a door with "404" above it. Attempting to open it 404 times causes it to open, revealing a room full of treasure chests (all mimics).
 - **Coffee break**: Sitting on any bench for 60 real-time seconds plays a hidden ambient track and gives a "Well Rested" buff (+10% XP for 30 minutes).
-- **Piano room**: Floor 5 Cathedral has a hidden piano room. Playing the notes C-E-F#-A in order (keyboard keys or specific menu inputs) plays the opening notes of "Swordland" from the SAO anime soundtrack.
+- **Piano room**: Floor 5's Ancient Library has a hidden piano room. Playing the notes C-E-F#-A in order (keyboard keys or specific menu inputs) plays the opening notes of "Swordland" from the SAO anime soundtrack.
 
 ### Other Game References
 

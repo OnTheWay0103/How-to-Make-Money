@@ -4,7 +4,7 @@ description: 'Complete Mistfall Hunter faction guide. All three factions, how to
 keywords: ['faction guide', 'faction reputation', 'faction ranks', 'faction rewards', 'ember court', 'pale exchange', 'hollow syndicate']
 category: Gameplay
 version: '1.0'
-updated: '2026-07-31'
+updated: '2026-08-10'
 related:
   - economy-guide
   - camp-upgrades-guide
@@ -16,6 +16,8 @@ related:
 # Faction Guide — Reputation, Ranks, and Exclusive Rewards
 
 Factions in Mistfall Hunter are the endgame reputation system. Once your Camp reaches Level 4, the Faction Liaison appears and you can align with one of three factions. Reputation unlocks exclusive gear, contracts, cosmetics, and a weekly reward chest — and it is the only way to obtain some of the strongest consumables in the game.
+
+> **Note:** Reputation thresholds, daily and weekly gains, decay rates, and shop prices below are community-reported approximations and may differ from the live game.
 
 ## The Three Factions
 

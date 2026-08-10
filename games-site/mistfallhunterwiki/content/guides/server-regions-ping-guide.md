@@ -4,7 +4,7 @@ description: 'Fix lag, rubber banding, and login queue issues in Mistfall Hunter
 keywords: ['mistfall hunter eu server', 'mistfall hunter server regions', 'mistfall hunter stuck at queue fix', 'mistfall hunter rubber banding', 'mistfall hunter high ping fix', 'mistfall hunter lag fix', 'mistfall hunter desync', 'mistfall hunter cannot get in queue']
 category: Guides
 version: '1.0'
-updated: '2026-08-01'
+updated: '2026-08-10'
 related:
   - settings-guide
   - crossplay-guide
@@ -15,7 +15,7 @@ related:
 
 # Server Regions & Ping Fix Guide — Lag, Rubber Banding & Queue Fixes
 
-> Launch Version / Updated: August 1, 2026
+> Launch Version / Updated: August 10, 2026
 
 Since launch on July 30, 2026, **the single biggest complaint in Mistfall Hunter is not the combat — it is the connection.** European players report 120–180ms ping with no dedicated EU server, Australian players are getting rubber-banded off roofs, and launch-day queues made "the worst boss in the game the server queue."
 
@@ -31,7 +31,7 @@ The good news: a large share of these issues are *known and acknowledged* by the
 | Rubber banding / teleporting enemies | ⚠️ Mostly server-side | Change *nothing* in graphics settings — it will not help. Play on a closer region, avoid cross-region groups |
 | FPS drops and stutter | ✅ Yes | Graphics settings + driver + shader fixes (see the table below) |
 | High ping (EU / OCE) | ⚠️ No server yet | Workarounds: regional matchmaking habits, off-peak hours, official updates tracked below |
-| Disconnect mid-raid | ✅ Partly fixed | July 30 hotfix improved console reconnect; PC reconnect is next on the official list |
+| Disconnect mid-raid | ✅ Partly fixed | The community-reported day-one hotfix improved console reconnect; PC reconnect is next on the official list |
 
 ---
 
@@ -47,7 +47,7 @@ The official regional nodes at launch are:
 | Southeast Asia | SG | Dedicated |
 | China | CN | Dedicated (separate ecosystem) |
 
-**What is missing:** an **OCE region** (Australia / New Zealand are routed to SG or US at 150–250ms) and a dedicated EU server that actually performs at 20–40ms. "EU server – when?" is the hottest thread on the Steam forum, and the developers have acknowledged network work as their top post-launch priority. As of August 1, 2026, **there is no official ETA** — check the [Patch Notes](/guides/patch-notes) and developer roadmap for updates.
+**What is missing:** an **OCE region** (Australia / New Zealand are routed to SG or US at 150–250ms) and a dedicated EU server that actually performs at 20–40ms. "EU server – when?" is the hottest thread on the Steam forum, and the developers have acknowledged network work as their top post-launch priority. As of this writing, **there is no official ETA** — check the [Patch Notes](/guides/patch-notes) for updates.
 
 ### Matchmaking Notes
 
@@ -95,7 +95,7 @@ Only apply these if the diagnosis table says the problem is client-side (low FPS
 |---------|---------------|-----|
 | **Resolution scale / DLSS** | Enable (Quality if you have headroom, Balanced below 8GB VRAM) | The largest single FPS gain |
 | Shadow Quality | Medium | High shadows cost ~10% FPS on many GPUs |
-| Volumetric fog | Low | Fog-heavy zones (Mossveil) tank frames |
+| Volumetric fog | Low | Fog-heavy zones tank frames |
 | Post-processing | Low | Minimal visual difference mid-fight |
 | Texture Quality | High if VRAM ≥ 8GB, else Medium | Barely affects FPS; it's a VRAM control |
 | Anti-aliasing | DLSS/FSR or TAA | See resolution scale above |
@@ -108,9 +108,9 @@ Only apply these if the diagnosis table says the problem is client-side (low FPS
 
 ## Official Status & What Is Being Fixed
 
-- **July 30 hotfix (day one):** console disconnect-reconnect improvements, Sorcerer fixes, Withered Knight tuning, Soul of Return double-consumption fix, item-splitting, crash and gamepad fixes. See the [full patch notes](/guides/patch-notes).
-- **Acknowledged by the team:** server region complaints (EU/OCE), remaining PC reconnect issues, "more than ten notable bugs" — the devs have publicly stated network stability is the top post-launch priority.
-- **No ETA as of August 1, 2026** for new regions. Bookmark the [Patch Notes page](/guides/patch-notes) — we update it within 48 hours of every patch.
+- **July 30 hotfix (day one, community-reported):** console disconnect-reconnect improvements, Withered Knight tuning, Soul of Return double-consumption fix, item-splitting, crash and gamepad fixes. See the [full patch notes](/guides/patch-notes).
+- **Acknowledged by the team:** server region complaints (EU/OCE) and remaining PC reconnect issues — the devs have publicly stated network stability is a top post-launch priority.
+- **No ETA as of this writing** for new regions. Bookmark the [Patch Notes page](/guides/patch-notes) — we update it within 48 hours of every patch.
 
 ---
 

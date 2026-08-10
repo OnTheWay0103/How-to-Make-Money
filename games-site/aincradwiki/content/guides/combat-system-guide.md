@@ -4,7 +4,7 @@ description: 'Learn how to parry, dual wield, and switch weapons in Echoes of Ai
 keywords: ['combat guide', 'how to parry', 'how to dual wield', 'how to switch weapons', 'how to change appearance', 'combat controls']
 category: Guides
 version: '1.0'
-updated: '2026-07-18'
+updated: '2026-08-10'
 related:
   - beginner-guide
   - weapons-guide
@@ -16,6 +16,8 @@ related:
 ## Combat System Overview
 
 Echoes of Aincrad uses real-time action combat built around stamina management, timing-based counters, and weapon-specific Sword Skills. There is no auto-attack — every swing requires player input.
+
+> **Note:** SP costs, timers, and percentages below are community-reported and may change with patches.
 
 ## Core Mechanics
 
@@ -41,14 +43,14 @@ Your HP has two sections:
 - **White HP** (70%): Recovers over time out of combat
 - **Red HP** (30%): Requires healing items or Inn rest
 
-At zero HP, you enter a **downed state** for 30 seconds. A teammate or AI partner can revive you within that window. If the timer expires, your character is permanently deleted.
+At zero HP, you enter a **downed state** for a short window. Your AI partner can revive you within that window. If the timer expires, you respawn at the last safe zone — losing unspent Growth Points and a portion of your carried Col (see the [Progression Guide](/guides/progression-guide)). In **Death Game mode**, death is permanent: your character is gone. See the [Game Modes guide](/guides/game-modes-guide) for mode differences.
 
 ## Parry & Counter Mechanics
 
 ### How to Parry
 1. Hold block stance
 2. Tap parry just before an enemy attack lands
-3. A successful parry creates a **blue flash** and a 2-second counter window
+3. A successful parry creates a **blue flash** and a counter window (reported roughly 2–3 seconds)
 
 ### Parry Windows by Enemy Type
 
@@ -62,12 +64,12 @@ At zero HP, you enter a **downed state** for 30 seconds. A teammate or AI partne
 ### Counter Attack
 
 After a successful parry:
-- Enemy is **staggered** for 2 seconds
-- Your next attack deals **3x damage**
+- Enemy is **staggered** briefly
+- Your next attack deals a large counter damage bonus (community-reported)
 - Follow up with a Sword Skill for maximum burst
 - Counter attacks cannot be blocked or dodged
 
-**Pro tip**: DEX 20 extends your parry window by 0.1s — a massive improvement against bosses.
+**Pro tip**: some players report that high DEX extends the parry window slightly — a useful improvement against bosses.
 
 ## Dodge & Block Mechanics
 
@@ -93,7 +95,7 @@ After a successful parry:
 | Level | 25+ |
 | DEX | 20+ |
 | Weapon Skill | One-handed Sword rank 10+ |
-| Quest | "The Black Swordsman" (Floor 25) |
+| Quest | "The Black Swordsman" (late-game) |
 
 ### How It Works
 - Main-hand uses Sword Skills, off-hand auto-attacks during combos

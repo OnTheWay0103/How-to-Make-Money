@@ -55,7 +55,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'Is Witchspire free to play?',
-    answer: 'No. Witchspire is a paid Early Access title priced at $22.99 USD on Steam, with a 15% launch discount currently available.',
+    answer: 'No. Witchspire is a paid Early Access title priced at $22.99 USD on Steam (price as listed on the official Steam store page).',
   },
   {
     question: 'Can I play Witchspire solo?',
@@ -63,7 +63,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How many players can play co-op?',
-    answer: 'Witchspire supports up to 4 players in online co-op by default, with some hosts able to support up to 6 depending on hardware. Progress is shared within the host\'s world.',
+    answer: 'Witchspire supports up to 4 players in online co-op — the reported max party size. Progress is shared within the host\'s world.',
   },
   {
     question: 'What are the best Covens for beginners?',

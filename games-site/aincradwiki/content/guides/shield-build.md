@@ -1,10 +1,10 @@
 ---
 title: 'Shield Build Guide — Best Tank and Defense Setup'
-description: 'Complete Shield build guide for Echoes of Aincrad. Best defensive Sword Skills, EX-Mods, aggro management, team play strategies, and survival tactics for the ultimate tank.'
+description: 'Complete Shield build guide for Echoes of Aincrad. Best defensive Sword Skills, EX-Mods, aggro management, partner play strategies, and survival tactics for the ultimate tank.'
 keywords: ['shield build', 'tank build', 'defense guide', 'survival build', 'team play tank']
 category: Builds
 version: '1.0'
-updated: '2026-07-11'
+updated: '2026-08-10'
 related:
   - weapons-guide
   - builds-guide
@@ -13,7 +13,9 @@ related:
 
 ## Why Play Shield?
 
-Shield is the **defensive anchor** of any party in Echoes of Aincrad. You are not here for damage numbers — you are here to survive anything, protect your teammates, and control the battlefield. If you enjoy being the unbreakable wall that bosses bounce off of, this build is for you.
+Shield is the **defensive anchor** of partner-assisted play in Echoes of Aincrad. You are not here for damage numbers — you are here to survive anything, keep your AI partner safe, and control the battlefield. If you enjoy being the unbreakable wall that bosses bounce off of, this build is for you.
+
+> **Note:** Block percentages, cooldowns, and EX-Mod values below are community-reported and not independently verified.
 
 ## Core Mechanics
 
@@ -35,17 +37,17 @@ Tap block at the exact moment an attack lands (similar to parry, but with your s
 
 ### Aggro Generation
 
-Shield users generate 3x more aggro than other weapon types. Your Sword Skills and Perfect Blocks draw enemy attention, keeping your party safe.
+Shield users reportedly generate much more aggro than other weapon types. Your Sword Skills and Perfect Blocks draw enemy attention, keeping your partner safe.
 
 ## Best Sword Skills
 
 | Skill | Type | When to Use |
 |-------|------|------------|
 | **Shield Bash** | Stun + aggro | Opening every engagement |
-| **Provoke** | Taunt (AoE) | Pull mobs off teammates, group enemies |
-| **Guardian Wall** | Party buff | Boost party defense by 25% for 15s |
+| **Provoke** | Taunt (AoE) | Pull mobs off your partner, group enemies |
+| **Guardian Wall** | Partner buff | Boost defense for you and your partner |
 | **Counter Thrust** | Counter-attack | After Perfect Block — punish the enemy |
-| **Iron Fortress** | Self buff | +50% defense, -25% move speed for 10s |
+| **Iron Fortress** | Self buff | +defense, -move speed for a short duration |
 
 ## Stat Priority
 
@@ -62,45 +64,43 @@ Shield users generate 3x more aggro than other weapon types. Your Sword Skills a
 
 | Priority | EX-Mod | Effect |
 |----------|--------|--------|
-| 1 | Block Efficiency Up | -25% SP cost while blocking |
-| 2 | HP Up | +16% max HP |
-| 3 | Aggro Generation Up | +30% aggro from all actions |
-| 4 | Perfect Block Window | +0.2s perfect block timing window |
-| 5 | Party Defense Buff | +10% defense to all nearby allies |
+| 1 | Fortress | +block effectiveness (community-reported) |
+| 2 | Regeneration | Auto-heal out of combat |
+| 3 | Vengeance | +damage after blocking |
+| 4 | Blessed | +healing received (pairs with partner heals) |
+| 5 | Life Steal | Sustain on hits |
 
-**God roll EX-Mod set**: Block Efficiency + HP + Aggro + Perfect Block Window.
+**God roll EX-Mod set**: Fortress + Regeneration + Vengeance + Blessed.
 
-## Team Play Strategy
+## Partner Play Strategy
 
-### Role: Main Tank
+### Role: Frontline Guardian
 
-Your job is to eat every major attack and keep the boss facing away from your team.
+Your job is to eat every major attack and keep the boss facing away from your partner.
 
-1. **Enter with Shield Bash** — stun the boss and establish aggro immediately
-2. **Provoke if the boss turns** — if aggro slips, Provoke instantly
-3. **Perfect Block telegraphed attacks** — these generate massive aggro and drain no SP
-4. **Guardian Wall before big boss phases** — protect the party from AoE
+1. **Enter with Shield Bash** — stun the boss and draw its attention immediately
+2. **Provoke if the boss turns** — if the boss targets your partner, Provoke instantly
+3. **Perfect Block telegraphed attacks** — these drain no SP
+4. **Guardian Wall before big boss phases** — protect your partner from AoE
 5. **Iron Fortress during enrage** — survive the hardest-hitting phase
 
-### Party Positioning
+### Positioning
 
 ```
 [Boss]
   |  <-- keep boss facing you
 [TANK]
   |
-[DPS]   [HEALER]  <-- behind the boss, safe from cleaves
+[PARTNER]  <-- behind the boss, safe from cleaves
 ```
 
-Never let the boss face your party. Cleave attacks will one-shot DPS players. You are the shield — literally.
+Never let the boss face your partner. Cleave attacks will punish your partner hard. You are the shield — literally.
 
-### Communication
+### Partner Commands
 
-Call out when:
-- You lose aggro ("Provoking in 3...2...1")
-- A Perfect Block window is coming ("Perfect Block ready")
-- You need to heal ("Healer, shield at 30%")
-- The boss is about to enrage ("Iron Fortress, brace yourselves")
+- Set your partner to **Support behavior** for boss fights so they heal and buff instead of pulling aggro
+- Switch them to attack behavior only during safe windows (boss staggered or recovering)
+- Watch your partner's HP bar — if it drops, draw the boss back with Provoke
 
 ## Boss Matchups
 
@@ -108,15 +108,15 @@ Call out when:
 |------|----------------|
 | Violet Fencer | Easy matchup. Block her thrusts. Perfect Block the AoE Slash — it has a generous window. |
 | Ark Guardian | Your finest moment. Block the beam. Perfect Block the slam. Your party survives everything. |
-| Twin Wardens | Tank Blades. Let your party handle Flames. Position so Blades faces you, Flames faces away. |
-| Golem Kings | Perfect Block the ground pound. Shield Bash interrupts charge-up moves. |
+| Twin Wardens | Tank the Warden of Blades. The Warden of Flames' attacks are unblockable — dodge those and keep your partner behind you. |
+| Corrupted Fae Lord | Shield Bash interrupts the dark fae adds. Dodge the curse barrages — they bypass the shield. |
 
 ## Solo Play Considerations
 
 Shield is viable solo but **slow**. Your damage is low, but you never die.
 
 - Use Counter Thrust after every Perfect Block for steady damage
-- Equip HP Recovery on Kill as a fifth EX-Mod choice
+- Equip Life Steal as a fifth EX-Mod choice
 - Farm safely by blocking first, attacking second
 - Shield Bash → 2 light attacks → block → repeat is your general loop
 
@@ -127,4 +127,4 @@ Shield is viable solo but **slow**. Your damage is low, but you never die.
 - **Provoke has a 20s cooldown** — save it for emergencies. Do not spam it.
 - **You cannot block from behind** — always face the enemy. Getting flanked is deadly.
 - **Guardian Wall stacks with Iron Fortress** — for true invincibility phases, use both.
-- **Communication is your weapon** — a good tank talks. Call cooldowns, boss patterns, and positioning.
+- **Your partner follows your lead** — position between them and the boss, and use Provoke the moment the boss turns.

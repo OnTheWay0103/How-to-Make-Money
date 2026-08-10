@@ -4,7 +4,7 @@ description: 'Complete guide to the Echoes of Aincrad demo. How to download on S
 keywords: ['demo guide', 'how to download', 'echoes of aincrad demo', 'demo content', 'demo build', 'demo transfer']
 category: Guides
 version: '1.0'
-updated: '2026-07-11'
+updated: '2026-08-10'
 related:
   - beginner-guide
   - weapons-guide
@@ -18,10 +18,12 @@ The Echoes of Aincrad demo is a free, limited version of the full game. It lets 
 
 ## How to Download the Demo
 
+System requirements for the demo are as listed on the official store page — we do not reproduce specific hardware numbers here.
+
 ### Steam (PC)
 1. Open Steam and search for "Echoes of Aincrad"
 2. Scroll down to the **Downloadable Content / Demo** section
-3. Click **"Download Demo"** (approximately 15 GB)
+3. Click **"Download Demo"** (size approximately 15 GB — not independently verified)
 4. Install and launch
 
 **Tip**: Add the game to your wishlist from the demo page — you will receive a notification when the full game launches or goes on sale.
@@ -30,7 +32,7 @@ The Echoes of Aincrad demo is a free, limited version of the full game. It lets 
 1. Open the PlayStation Store
 2. Search for "Echoes of Aincrad"
 3. Select the game tile and choose **"Demo"** from the options
-4. Download (approximately 18 GB with 4K textures)
+4. Download (size approximately 18 GB — not independently verified)
 
 ### Xbox Series X|S
 1. Open the Microsoft Store on your console
@@ -47,9 +49,9 @@ The demo covers the **first floor** of Aincrad, which is roughly the opening 4-6
 | Floor 1 main quests | Yes | Full campaign up to the Violet Fencer boss |
 | Side quests | Yes | ~8 side quests available |
 | All 6 weapon types | Yes | You can try every weapon before committing |
-| Smithy / EX-Mod system | Yes | Up to 3 EX-Mod slots (reduced from 4) |
-| Partner system | Yes | Partner available, affinity capped at 50 |
-| Inn / Growth Points | Yes | Full stat system, respec not available |
+| Smithy / EX-Mod system | Yes | Up to 3 EX-Mod slots (reportedly reduced from 4) |
+| Partner system | Yes | Partner available, affinity reportedly capped at 50 |
+| Inn / Growth Points | Yes | Full stat system (respec availability not independently verified) |
 | Floor 1 Violet Fencer boss | Yes | Can be fought repeatedly for practice |
 | Floor 2+ content | No | Full game required |
 | Multiplayer | No | Demo is single-player only |
@@ -57,7 +59,7 @@ The demo covers the **first floor** of Aincrad, which is roughly the opening 4-6
 | Achievements / Trophies | Partial | Demo achievements carry to full game |
 | Photo Mode | Yes | Fully functional |
 
-**Level cap in demo**: Your character cannot exceed Cardinal Rank 25. Growth Points earned beyond this are saved and applied when you transfer to the full game.
+**Level cap in demo**: Your character reportedly cannot exceed Cardinal Rank 25. Growth Points earned beyond this are saved and applied when you transfer to the full game.
 
 ## Best Demo Builds
 
@@ -112,11 +114,11 @@ One-shots goblins and Dire Wolves. **Stats**: Strength (50%) > Vitality (25%) > 
 | **How long is the demo?** | 4-6 hours normally, 2-3 hours if rushing |
 | **Can I play offline?** | Yes, after initial download |
 | **Does it have achievements?** | Yes, and they carry to the full game |
-| **Can I respec?** | No — Growth Points are permanent |
+| **Can I respec?** | Growth Points are widely reported as permanent; some community posts describe limited respec options, but these have not been verified |
 | **Can I fight the boss multiple times?** | Yes — the Violet Fencer respawns after you leave and re-enter |
 | **Is there a time limit?** | No — play as long as you want |
 | **Cross-platform save transfer?** | Not supported — stay on the same platform |
 
 ## Why Play the Demo?
 
-The demo is the same build as the first 10% of the full game. Everything you earn carries over — levels, gear, and progress. Try all 6 weapons, practice the Violet Fencer boss, and decide if Aincrad is for you with zero commitment. If you enjoy the demo, you will enjoy the full game.
+The demo is the same build as roughly the first 10% of the full game. Everything you earn carries over — levels, gear, and progress. Try all 6 weapons, practice the Violet Fencer boss, and decide if Aincrad is for you with zero commitment. If you enjoy the demo, you will enjoy the full game.

@@ -2,17 +2,19 @@
 title: "Witchspire Character Creation Guide — Best Starting Class and Customization"
 description: "Complete walkthrough of Witchspire character creation: all 6 Coven classes ranked, visual customization options, starting familiar choices, and the best setup for new players."
 category: "Guides"
-version: "0.1.1d"
-updated: "2026-07-11"
+version: "0.1.4"
+updated: "2026-08-10"
 keywords: ["Witchspire character creation", "Witchspire best starting class", "Witchspire best starter", "Witchspire Coven guide", "Witchspire class pick", "Witchspire beginner tips"]
 related: ["best-coven-guide", "spellblade-vs-wand-guide", "beginner-guide", "all-familiars-guide", "luminary-skill-tree-guide"]
 ---
 
 # Witchspire Character Creation Guide — Best Starting Class and Customization
 
-> **Applies to EA v0.1.1d / Updated: July 11, 2026**
+> Last verified: August 10, 2026
 
 Witchspire's character creator is brief but has several meaningful choices. This guide walks through every step, explains what matters and what does not, and recommends the best starting setup for your playstyle.
+
+> **Note:** options, starter-familiar roles, and recommendations below come from community reports and have not been independently verified.
 
 ---
 
@@ -24,7 +26,7 @@ The creation screen has three sections, completed in order:
 2. **Coven Selection** — determines starting weapon, magic affinity, and outfit
 3. **Starting Familiar** — your first companion
 
-You can freely preview all options before locking in. Once confirmed, Coven and appearance cannot be changed without starting a new save.
+You can preview all options before locking in. Once confirmed, community reports describe Coven and appearance as permanent for that save.
 
 ---
 
@@ -38,7 +40,7 @@ Visual options are purely cosmetic. None affect gameplay or stats.
 | Face | Multiple face types | Mix-and-match face shapes and features |
 | Skin Color | Full color palette | Wide range of skin tones |
 | Eye Color | Multiple colors | Bright and natural tones available |
-| Hairstyle | Braids, pixie cuts, long styles, and more | Most varied category in early access |
+| Hairstyle | Braids, pixie cuts, long styles, and more | Most varied category reported in early access |
 | Hair Color | Full color palette | Any color you want |
 | Voice | 4 voice options | Affects grunts, spell chanting, and reaction sounds |
 
@@ -54,83 +56,85 @@ This is the most impactful decision in character creation. Your Coven determines
 
 | Coven | Weapon | Magic School | Role | Difficulty |
 |-------|--------|-------------|------|------------|
-| **Cloudpiercers** | Spellblade | Lux (Light) | DPS / Burst | Easy |
+| **Cloudpiercers** | Spellblade | Lux | DPS / Burst | Easy |
 | **Starsmiths** | Spellblade | Crystal | CC / Utility | Medium |
 | **Foretellers** | Spellblade | Ethereal | Ranged DPS | Hard |
 | **Wildroots** | Wand | Nature | Healer / Tank | Easy |
-| **Tomekeepers** | Wand | Nox (Poison) | DoT / Sustain | Medium |
+| **Tomekeepers** | Wand | Nox | DoT / Sustain | Medium |
 | **Nightscribes** | Wand | Astral | Glass Cannon | Hard |
 
 For a full breakdown of every Coven including strengths, weaknesses, and solo vs. co-op rankings, see the [Best Coven Guide](/guides/best-coven-guide).
 
 ### What Your Coven Actually Changes
 
-- **Starting weapon** — Spellblade (melee-hybrid) or Wand (ranged magic). You can find and equip the other weapon type within the first hour.
-- **Outfit colors and theme** — This is the most permanent cosmetic choice. Make sure you like the look.
-- **Starting spells** — You begin with 2 spells matching your Coven's element. You can learn every spell in the game regardless of Coven.
-- **Lore flavor** — NPC dialogue has minor variations based on your Coven affiliation.
+- **Starting weapon** — Spellblade (melee-hybrid) or Wand (ranged magic). Community reports differ on whether you can equip the other weapon type — some describe finding other weapons early, others say the weapon is Coven-locked.
+- **Outfit colors and theme** — This is a permanent cosmetic choice. Make sure you like the look.
+- **Starting spells** — You begin with spells matching your Coven's element (community-reported).
+- **Lore flavor** — NPC dialogue has minor variations based on your Coven affiliation (reported).
 
-**Important:** Coven choice does NOT lock you out of any content. A Wildroots player can wield a Spellblade and cast Lux spells by the end of the first play session. Pick what feels right.
+**Important:** Coven choice does NOT lock you out of any content — every region, quest, and familiar is available to every Coven. Community reports differ on weapon flexibility, so treat that claim as unverified.
 
 ---
 
 ## Section 3: Starting Familiar
 
-After the tutorial, you choose your first familiar from a short list. Your selection here has more early-game impact than your Coven choice.
+After the tutorial, you choose your first familiar from a short list. Community reports say your selection here has more early-game impact than your Coven choice.
 
 ### Starting Familiar Options
 
 | Familiar | Element | Role | Best For |
 |----------|---------|------|----------|
-| **Sproutling** | Nature | Tank / Gatherer | Solo players who want survivability |
-| **Emberpuff** | Lux | Ranged DPS | Players who want faster combat clear |
-| **Pebbleback** | Crystal | Melee Tank | Players who want aggro control |
-| **Pufffin** | Nox | DoT / Poison | Players who prefer passive damage |
+| **Quol** | Ethereal | Reported supportive/magical role | Players who want utility |
+| **Locto** | Lux | Reported aggressive DPS | Players who want faster combat clear |
+| **Bril** | Crystal | Reported defensive/tank role | Players who want survivability |
+| **Fien** | Nox | Reported night-oriented role | Players who prefer passive damage |
 
-**Recommendation:** Pick **Sproutling** if you are new to survival games — it tanks enemy aggro and gathers resources for you. Pick **Emberpuff** if you want faster kill speed and know the basics.
+> **Note:** the exact role of each starter familiar is community-reported and may differ in-game. The four starters are also bondable in the wild later — see the [Familiars Guide](/guides/all-familiars-guide).
 
-For the full list of 25+ familiars and where to catch them later, see the [All Familiars Guide](/guides/all-familiars-guide).
+**Recommendation:** Pick **Bril** if you are new to survival games — the defensive role reportedly helps with early survivability. Pick **Locto** if you want faster kill speed and know the basics.
+
+For the full list of 25+ familiars (community-reported count) and where to bond them later, see the [All Familiars Guide](/guides/all-familiars-guide).
 
 ---
 
 ## Best Starting Choices for New Players
 
-### Overall Best Starter
+### Overall Best Starter (community recommendation)
 
 **Coven:** Cloudpiercers (Spellblade + Lux)
-**Familiar:** Sproutling
+**Familiar:** Bril (defensive) or Locto (damage)
 
-Why: The Spellblade gives you strong melee range and Lux spells provide burst clear for groups. The Sproutling tanks damage while you learn fight patterns. This combo handles everything in the first 5 hours comfortably.
+Why: The Spellblade gives you melee range and Lux spells provide reported burst clear for groups. A defensive familiar tanks damage while you learn fight patterns.
 
 ### Safest Starter (Hard to Die)
 
 **Coven:** Wildroots (Wand + Nature)
-**Familiar:** Sproutling
+**Familiar:** Bril
 
-Why: Nature spells include a heal-over-time and thorn armor that reflects damage. With two sources of sustain (your heals + Sproutling tanking), you can survive mistakes that would kill other builds.
+Why: Nature spells reportedly include a heal-over-time and thorn armor. With two sources of sustain (your heals + a defensive familiar), you can survive mistakes that would kill other builds.
 
 ### Fastest Clearer (Experienced Players)
 
 **Coven:** Cloudpiercers
-**Familiar:** Emberpuff
+**Familiar:** Locto
 
-Why: Double Lux damage (your beam + Emberpuff ranged attacks) melts early enemies. Clear speed is the highest of any starting combo, but you have no self-heal — rely on potions.
+Why: Double Lux damage (your beam + Locto's attacks) reportedly melts early enemies. Clear speed is the highest of any starting combo, but you have no self-heal — rely on potions.
 
-### What to Avoid as a First Character
+### What to Avoid as a First Character (community opinions)
 
-- **Nightscribes** — Self-damage mechanics are punishing without game knowledge
-- **Foretellers** — High mobility requirement; easy to teleport into danger
-- **Pufffin** as starter — DoT is slow for early clear compared to Emberpuff
+- **Nightscribes** — Reported self-damage mechanics are punishing without game knowledge
+- **Foretellers** — High mobility requirement; easy to put yourself in danger
+- **Fien** as starter — Nox is reported as slower for early clearing than Lux picks
 
 ---
 
 ## Quick Start Tips
 
-1. **Don't overthink Coven choice** — You can swap weapons and learn all spells within the first hour. Pick by outfit and weapon preference.
-2. **Your starting familiar matters more** than your Coven for the first 3-5 hours.
-3. **Spend your first Luminary point** on the "+1 Familiar Slot" node — a second familiar doubles your combat power.
+1. **Don't overthink Coven choice** — Every Coven can reach all content. Pick by outfit and weapon preference.
+2. **Your starting familiar matters more** than your Coven for the first few hours (community-reported).
+3. **Spend your first Luminary points carefully** — there is no confirmed respec; see the [Luminary Skill Tree Guide](/guides/luminary-skill-tree-guide).
 4. **Preview each Coven's outfit** before confirming — the color scheme is locked to your character.
-5. **Take your time in the creator** — there is no time limit and you cannot change Coven later.
+5. **Take your time in the creator** — there is no time limit.
 
 ---
 

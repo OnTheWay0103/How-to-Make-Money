@@ -1,10 +1,10 @@
 ---
 title: 'Is There PvP in Witchspire? — PvP Status & Co-op Roles Guide'
-description: 'Does Witchspire have PvP? The honest answer for EA v0.1.4: no player-versus-player content exists — no arenas, duels, or faction wars. What the game actually offers is 4-player co-op with defined roles. This page replaces an earlier guide that described nonexistent PvP modes.'
+description: 'Does Witchspire have PvP? The honest answer for the current build: no player-versus-player content exists — no arenas, duels, or faction wars. What the game actually offers is 4-player co-op with defined roles. This page replaces an earlier guide that described nonexistent PvP modes.'
 keywords: ['witchspire pvp', 'witchspire pvp guide', 'is witchspire pvp', 'witchspire multiplayer', 'witchspire co-op roles', 'witchspire player versus player']
 category: Guides
-version: '0.1.4'
-updated: '2026-08-01'
+version: "0.1.4"
+updated: '2026-08-10'
 related:
   - coop-multiplayer-guide
   - coop-troubleshooting-guide
@@ -15,9 +15,9 @@ related:
 
 # Is There PvP in Witchspire? — PvP Status & Co-op Roles
 
-> **Applies to EA v0.1.4 / Updated: August 1, 2026**
+> Last verified: August 10, 2026
 
-**Short answer: no.** Witchspire has **no PvP content at 0.1.4** — no arenas, no duels, no open-world player combat, no faction wars. It is a pure co-op PvE survival game. An earlier version of this page described arena NPCs, PvP flags and faction wars — that content **does not exist in the game**, and we've replaced it with this correction.
+**Short answer: no.** Witchspire has **no PvP content in the current build** — no arenas, no duels, no open-world player combat, no faction wars. It is a pure co-op PvE survival game. An earlier version of this page described arena NPCs, PvP flags and faction wars — that content **does not exist in the game**, and we've replaced it with this correction.
 
 **Why this page exists:** if you're searching "Witchspire PvP," you deserve a straight answer instead of a fake guide — and then a pointer to what Witchspire *does* offer, which is genuinely good 4-player co-op.
 
@@ -25,14 +25,14 @@ related:
 
 ## What Witchspire Actually Offers
 
-| Mode | Status at 0.1.4 |
+| Mode | Status (current build) |
 |------|----------------|
 | Solo play | ✅ Full game solo |
 | Co-op (2–4 players) | ✅ Core of the game — see the [Co-op Multiplayer Guide](/guides/coop-multiplayer-guide) |
 | Public matchmaking | ❌ None — invites go through the Steam friends list |
 | PvP / arenas / duels | ❌ **None** — not announced on the [roadmap](/guides/patch-notes-updates) either |
 
-The developer's roadmap ("A Touch of Magic" → Frozen Tundra + Act III → "Throne of Corruption") contains **no PvP** content through 2027. If competitive play matters to you, Witchspire is not that game.
+The community-reported roadmap ("A Touch of Magic" → Frozen Tundra + Act III → "Throne of Corruption") contains **no PvP** content. If competitive play matters to you, Witchspire is not that game.
 
 ---
 
@@ -46,16 +46,16 @@ Since there's no PvP meta, the closest thing to team composition is role coverag
 | DPS (burst) | Cloudpiercers, Nightscribes | Delete packs, nuke boss phases |
 | DPS (sustain) | Tomekeepers | Poison stacks melt high-HP enemies over time |
 | Utility / CC | Starsmiths | Crystal walls and slows control the battlefield |
-| Familiar specialist | Foretellers | +40% bonding rate = stronger familiar roster for everyone's grinds |
+| Familiar specialist | Foretellers | Reported higher bonding rate = stronger familiar roster |
 
-**Recommended 4-stack:** 1 Wildroots + 1 Cloudpiercers + 1 Nightscribes/Tomekeepers + 1 Starsmiths or Foretellers. But honestly — Witchspire's difficulty is server-scalable (enemy damage/XP/drop rates are all adjustable in the world settings), so any composition works. Play what you enjoy.
+**Recommended 4-stack:** 1 Wildroots + 1 Cloudpiercers + 1 Nightscribes/Tomekeepers + 1 Starsmiths or Foretellers. Community reports also describe adjustable world settings (enemy damage/XP/drop rates), so any composition can work. Play what you enjoy.
 
 ---
 
 ## FAQ
 
 **Q: Will PvP ever be added?**
-Nothing on the roadmap through 2027 mentions PvP. Don't buy for PvP; buy for co-op survival and familiar collecting.
+No roadmap mentions of PvP have been independently verified. Don't buy for PvP; buy for co-op survival and familiar collecting.
 
 **Q: Can I fight my friends?**
 No. There is no friendly-fire or duel system in the game.

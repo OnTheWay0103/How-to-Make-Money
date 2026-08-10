@@ -1,18 +1,20 @@
 ---
 title: "Witchspire Shudder Matriarch Boss Guide — Desert Boss Strategies"
-description: "Complete Shudder Matriarch boss guide for Witchspire. Attacks and phases, recommended level (26+) and gear, solo vs co-op tactics, and full reward table."
+description: "Complete Shudder Matriarch boss guide for Witchspire. Attacks and phases, recommended gear, solo vs co-op tactics, and the reward table as reported by the community."
 category: "Guides"
-version: "0.1.1d"
-updated: "2026-07-11"
-keywords: ["Witchspire Shudder Matriarch", "Shudder Matriarch guide", "Witchspire dessert boss", "Witchspire boss fight desert", "Shudder Matriarch solo", "Shudder Matriarch co-op"]
+version: "0.1.4"
+updated: "2026-08-10"
+keywords: ["Witchspire Shudder Matriarch", "Shudder Matriarch guide", "Witchspire desert boss", "Witchspire boss fight desert", "Shudder Matriarch solo", "Shudder Matriarch co-op"]
 related: ["shuddersands-guide", "lumi-boss-guide", "best-coven-guide", "luminary-skill-tree-guide"]
 ---
 
 # Shudder Matriarch Boss Guide
 
-> **Applies to EA v0.1.1d / Updated: July 11, 2026**
+> Last verified: August 10, 2026
 
-The Shudder Matriarch is the fourth major boss in Witchspire and the most challenging open-world boss in the current Early Access build. This massive sand-dwelling creature guards the final area's passage. This guide covers every phase, attack pattern, and the best strategies for both solo and co-op play.
+The Shudder Matriarch is the second major boss of the main quest and the most challenging open-world boss in the current Early Access build. This massive sand-dwelling creature is fought in the Sunken Arena after completing a pre-quest chain. This guide covers the reported phases, attack patterns, and the best strategies for both solo and co-op play.
+
+> **Note:** this fight's specifics (phase thresholds, damage values, drop rates) come from community reports and have not been independently verified. Treat numbers as approximate.
 
 ---
 
@@ -21,21 +23,19 @@ The Shudder Matriarch is the fourth major boss in Witchspire and the most challe
 | Stat | Value |
 |------|-------|
 | Region | Shuddersands — Sunken Arena |
-| Level | 28 |
-| HP | Approximately 18,000 |
 | Type | Aberration (Sand) |
-| Weakness | Lux damage (+25%) / Water damage (+15%) |
-| Resist | Physical damage (reduced 40%), Nox damage (reduced 25%) |
-| Recommended Level | 26+ |
+| Weakness | Lux damage (community-reported weakness) |
+| Resist | Community reports describe physical and Nox damage as less effective |
+| Recommended Level | 26+ (community report) |
 | Recommended Gear | Steel+ weapons, Desert Robe or better armor, Tier 5 Hearth |
-| Recommended Luminary | 30+ points allocated |
+| Recommended Luminary | 30+ points allocated (community report) |
 
 ### Prerequisites
 
-You must complete the **Shudder Matriarch pre-quest chain** to summon this boss:
-1. Complete "Echoes in the Sand" (Lost Oasis altar)
-2. Complete "Whispers from the Deep" (3 Ancient Relics)
-3. Obtain the **Matriarch Summoning Seal** from Elder Ghalib
+You must complete the **Shudder Matriarch pre-quest chain** to summon this boss (community-reported steps):
+1. Interact with the broken altar at the Lost Oasis
+2. Collect **3 Ancient Relics** from around Shuddersands
+3. Receive the **Matriarch Summoning Seal** from the quest giver (reported name: Elder Ghalib)
 4. Use the Seal at the **Sunken Arena** altar
 
 See the [Shuddersands Region Guide](/guides/shuddersands-guide) for the full pre-quest walkthrough.
@@ -48,37 +48,36 @@ See the [Shuddersands Region Guide](/guides/shuddersands-guide) for the full pre
 
 | Item | Recommendation | Why |
 |-----|---------------|-----|
-| Weapon | Steel Spellblade (Lux enchant) or Steel Wand | Lux damage is the Matriarch's main weakness |
-| Armor | Desert Robe Set (full) | Heat Resist + Physical defense |
-| Familiar | Level 20+ Lava Hatchling or Crystal Sprite | Lava Hatchling's fire breath, Crystal Sprite's barrier |
+| Weapon | Steel Spellblade or Steel Wand (Lux enchant if available) | Lux damage is the Matriarch's reported weakness |
+| Armor | Desert Robe Set (full) | Community reports: Heat Resist + Physical defense |
+| Familiar | Any bonded familiar — a Lux-element familiar (Locto, Chirili or Charling) reportedly helps | Extra damage and aggro control |
 | Potions | 10+ Major Healing Potions, 3+ Heat Resist | Long fight, high damage, desert heat |
-| Food | Thornberry Pie (+20% damage for 10 min) | Crafted at Garden Plot + Furnace |
-| Broom | Required (for Phase 2 aerial segments) | Any broom works, but speed enchantment helps |
+| Food | Food buffs from the [Food & Cooking Guide](/guides/food-cooking) | Reports describe damage and resist buffs helping |
+| Broom | Any broom — community reports recommend it for dodging sand attacks | Mobility |
 
 ### Luminary Nodes
 
-Essential nodes for this fight:
-- **Quick Recovery** (3 points) — potions restore 100% more
-- **Extra Familiar Slot** (3 points) — bring two familiars
-- **Tough Hide** (3 points) — 15% damage reduction
-- **Aerial Combat** (2 points) — +20% damage while flying
-- **Elemental Affinity: Lux** (3 points) — +15% Lux damage
+These nodes reportedly help (exact point costs and values unverified):
+- **Quick Recovery** — potions restore more
+- **Extra Familiar Slot** — a second familiar means double damage
+- **Tough Hide** — damage reduction
+- **Elemental Affinity: Lux** — more Lux damage (her reported weakness)
 
 ---
 
-## Phase 1 — The Awakening (100% — 60% HP)
+## Phase 1 — The Awakening (reported: 100% — 60% HP)
 
 The Matriarch emerges from the sand. This phase focuses on positioning and learning its basic attacks.
 
-### Attack Patterns (Phase 1)
+### Attack Patterns (Phase 1, community-reported)
 
 | Attack | Telegraph | Damage | Counter |
 |--------|-----------|--------|---------|
 | **Sand Slash** (Melee) | Matriarch rears up, left claw glows | Medium-high | Dodge to the right (her blind side) |
 | **Tail Slam** (AoE) | Tail rises and slams the ground | High (one-shot without armor) | Double dodge roll away |
-| **Sand Spray** (Ranged cone) | Matriarch inhales deeply | Medium, +Blind debuff (3s) | Sidestep perpendicular to facing direction |
-| **Burrow** (Mobility) | Matriarch dives into sand | N/A (resurfaces elsewhere) | Watch for sand ripple — move away from ripple end point |
-| **Summon Sand Sprites** (Adds) | Matriarch roars, sand swirls | Low individually (swarm danger) | AoE clear — prioritise killing adds within 10 seconds |
+| **Sand Spray** (Ranged cone) | Matriarch inhales deeply | Medium, reported Blind debuff | Sidestep perpendicular to facing direction |
+| **Burrow** (Mobility) | Matriarch dives into sand | N/A (resurfaces elsewhere) | Watch for the sand ripple — move away from the ripple end point |
+| **Summon Sand Sprites** (Adds) | Matriarch roars, sand swirls | Low individually (swarm danger) | Clear adds quickly — they are weak but dangerous in numbers |
 
 ### Phase 1 Strategy
 
@@ -102,71 +101,69 @@ The Matriarch emerges from the sand. This phase focuses on positioning and learn
 
 ---
 
-## Phase 2 — The Fury (60% — 25% HP)
+## Phase 2 — The Fury (reported: 60% — 25% HP)
 
 The Matriarch grows more aggressive. Two new attack patterns and environmental hazards appear.
 
-### New Attacks (Phase 2)
+### New Attacks (Phase 2, community-reported)
 
 | Attack | Telegraph | Damage | Counter |
 |--------|-----------|--------|---------|
-| **Sand Tomb** (Trap) | Ground glows in a 5m circle | Moderate + Rooted (5s) | Leave the glowing area immediately |
-| **Desert Storm** (Environmental) | Sky darkens, wind howls | Low continuous damage + heavy knockback | Mount broom and gain altitude |
+| **Sand Tomb** (Trap) | Ground glows in a small circle | Moderate + Rooted | Leave the glowing area immediately |
+| **Desert Storm** (Environmental) | Sky darkens, wind howls | Low continuous damage + knockback | Mount broom and gain altitude |
 | **Triple Slash** (Melee combo) | Matriarch glows red, three fast swipes | High (each hit) | Dodge backward three times in rhythm |
-| **Sand Laser** (Beam) | Matriarch opens mouth, charges yellow energy | Very High | Broom flight — cannot outrun on foot |
+| **Sand Laser** (Beam) | Matriarch opens mouth, charges yellow energy | Very High | Broom flight — reported hard to outrun on foot |
 
 ### Phase 2 Strategy
 
 **Solo:**
-1. This phase demands constant movement — never stand still for more than 2 seconds
+1. This phase demands constant movement — never stand still for long
 2. When the sky darkens, immediately mount your broom and fly upward
-3. Sand Tomb spawns under your current position — always move after 2-3 attacks
+3. Sand Tomb spawns under your current position — always keep moving
 4. Save your dodge for Triple Slash (rhythm: dodge-dodge-dodge)
 5. When you see the mouth charge for Sand Laser, fly perpendicular immediately
-6. Use Crystal Sprite's barrier for the Sand Laser if your dodge is on cooldown
-7. Refresh Heat Resist potion when the "potion effect ending" text appears
+6. Refresh Heat Resist potion when the buff ends
 
 **Co-op:**
 - Tank must kite the Matriarch around the arena perimeter
 - DPS should spread out to avoid multiple players hit by Sand Tomb
 - Assign one player to call "Desert Storm incoming" — all players mount broom simultaneously
-- Sand Laser targets the player with highest threat (usually tank) — other players should clear line of sight
-- When adds spawn during this phase, they include **Elite Sand Sprites** (Lv 26 — higher HP). Focus fire them.
+- Sand Laser reportedly targets the player with highest threat (usually the tank) — other players should clear line of sight
+- When adds spawn during this phase, community reports describe elite variants — focus fire them
 
 ---
 
-## Phase 3 — Enrage (25% — 0% HP)
+## Phase 3 — Enrage (reported: 25% — 0% HP)
 
-The Matriarch's final stand. All previous attacks continue, plus three devastating new mechanics.
+The Matriarch's final stand. All previous attacks continue, plus new mechanics.
 
-### New Attacks (Phase 3)
+### New Attacks (Phase 3, community-reported)
 
 | Attack | Telegraph | Damage | Counter |
 |--------|-----------|--------|---------|
-| **Sand Eruption** (AoE cascade) | Entire arena floor pulses | High (multi-hit) | Must stay airborne on broom for the full duration (15s) |
-| **Soul Drain** (Lifesteal) | Matriarch grabs a target with sand tendrils | Very High + heals boss | Other players must attack the tendrils to break the grab |
+| **Sand Eruption** (AoE cascade) | Entire arena floor pulses | High (multi-hit) | Community reports recommend staying airborne on the broom for the duration |
+| **Soul Drain** (Lifesteal) | Matriarch grabs a target with sand tendrils | Very High + heals the boss | Other players must attack the tendrils to break the grab |
 | **Fury Swipes** (Rapid melee) | No telegraph — enrage auto-attack | Moderate (fast, continuous) | Kite while attacking — do not stop moving |
 
 ### Phase 3 Strategy
 
 **Solo:**
-1. Broom flight is **mandatory** for this phase — you cannot survive on the ground
+1. Community reports describe broom flight as the safest position for this phase
 2. Maintain altitude and use ranged attacks only
 3. When Sand Eruption triggers, stay airborne and keep moving in a wide circle
-4. Soul Drain cannot target you while you are flying (height advantage)
+4. Soul Drain reportedly cannot target you while you are flying
 5. Use your familiar to deal ground damage while you kite from above
-6. Pop all remaining damage buffs and cooldowns at 15% HP for the final burn
-7. If your broom gets knocked out of the sky (rare attack), immediately use a hover potion or emergency dodge
+6. Pop all remaining damage buffs and cooldowns at low HP for the final burn
 
 **Co-op:**
 | Role | Phase 3 Adjustment |
 |------|-------------------|
 | Tank | Kite around arena edge. Do not stop moving. |
 | DPS (Ground) | Attack during openings between Fury Swipes |
-| DPS (Aerial) | Broom-based ranged DPS is the safest position |
+| DPS (Aerial) | Broom-based ranged DPS is the reported safest position |
 | Support | When a player is grabbed by Soul Drain, immediately target the tendril holding them |
 
-**Critical co-op rule**: If a player is grabbed by Soul Drain, the entire team must focus the tendril. Each second the grab holds, the Matriarch heals for ~300 HP and the grabbed player takes heavy damage.
+**Critical co-op rule**: If a player is grabbed by Soul Drain, the entire team must focus the tendril. While the grab holds, the Matriarch reportedly heals itself and the grabbed player takes heavy damage.
 
 ---
 
@@ -174,37 +171,34 @@ The Matriarch's final stand. All previous attacks continue, plus three devastati
 
 | Aspect | Solo | Co-op (2-4) |
 |--------|------|-------------|
-| Difficulty | Very Hard — requires perfect execution | Balanced — role distribution helps |
-| Boss HP Scaling | ~18,000 HP | ~27,000 (2P) / ~36,000 (3P) / ~45,000 (4P) |
+| Difficulty | Very Hard — requires careful execution | Balanced — role distribution helps |
+| Boss HP Scaling | Single-player HP | Reported to scale up with more players |
 | Phase 2 Sand Laser | Can one-shot solo players | Shared targeting reduces individual pressure |
-| Phase 3 Sand Eruption | Must stay airborne entire time | Ground players can survive with team healing |
-| Soul Drain Risk | Cannot happen while flying | High priority — team must save grabbed player |
+| Phase 3 Sand Eruption | Must stay airborne | Ground players can survive with team healing |
+| Soul Drain Risk | Cannot happen while flying (reported) | High priority — team must save grabbed player |
 | Recommended | Wand + aerial kiting build | 1 Tank + 2 DPS + 1 Support |
-| Time to Kill | 12-18 min | 8-14 min |
 
 ---
 
-## Rewards
+## Rewards (Community-Reported)
 
-| Drop | Quantity | Use |
-|------|----------|-----|
-| Matriarch Core | 1 (guaranteed) | Main quest item, unlocks Witchspire Tower |
-| Matriarch Silk | 3-5 (guaranteed) | Crafting material (Legendary armor set) |
-| Gold | 800-1200 | Vendor purchases |
-| Legendary Familiar Core | 25% chance | Evolution to Legendary familiar |
-| Matriarch's Fang (Weapon) | 15% chance | Unique Steel+ Spellblade — applies poison on hit |
-| Shudder Silk Robe Schematic | 10% chance | Legendary armor blueprint |
-| Sandstorm Whistle (Mount) | 5% chance | Cosmetic sandstorm broom skin |
+| Drop | Notes |
+|------|----------|
+| Matriarch Core | Reported guaranteed — main quest item |
+| Matriarch Silk | Reported guaranteed — crafting material |
+| Gold | Reported several hundred |
+| Rare drops | Community reports describe rare drops (weapon, armor schematic, cosmetic broom skin) — exact rates unverified |
 
 ---
 
 ## Post-Boss Checklist
 
 After defeating Shudder Matriarch:
-1. Collect **Matriarch Core** from the arena floor
-2. Travel to **Witchspire Tower** (appears at the map center after boss death)
-3. Enter the tower to begin the final encounter — **Lumi, the Tower Guardian**
-4. Craft Matriarch Silk gear before attempting Lumi
+1. Collect the **Matriarch Core** from the arena floor
+2. Community reports describe **Witchspire Tower** becoming accessible at the map center — this has **not been independently verified**; follow the main quest
+3. The tower's summit holds the final Early Access encounter — **Lumi**
+
+See the [Lumi Boss Guide](/guides/lumi-boss-guide) for that fight.
 
 ---
 

@@ -1,51 +1,73 @@
 ---
 title: 'Boss Guide — Every Map Boss, Mechanics, and How to Beat Them'
-description: 'Complete Mistfall Hunter boss guide covering all map bosses, attack patterns, phase mechanics, recommended builds and gear scores, plus solo/duo/team strategies.'
-keywords: ['boss guide', 'map bosses', 'returner woodling', 'boss mechanics', 'boss fight tips', 'PVE bosses']
+description: 'Complete Mistfall Hunter boss guide covering all map bosses, attack patterns, phase mechanics, recommended builds and gear, plus solo/duo/team strategies and a quick-reference loot chart.'
+keywords: ['boss guide', 'map bosses', 'returner woodling', 'boss mechanics', 'boss fight tips', 'PVE bosses', 'boss loot chart']
 category: PVE
 version: '1.0'
-updated: '2026-07-11'
+updated: '2026-08-10'
 related:
   - map-guide
   - weapons-guide
   - solo-play-guide
   - team-composition-guide
   - gear-farming-guide
+  - loot-rarity-guide
+  - extraction-guide
 ---
+
+## Boss Quick-Reference Chart
+
+Every Mistfall Hunter map has one boss encounter, and bosses are the gate to the best loot in the game. This chart condenses the full guide into one scan:
+
+| Map | Boss | Difficulty | Phases | Key Mechanics | Loot Value |
+|-----|------|------------|--------|---------------|------------|
+| **Ruined Catacombs** | **Returner Woodling** (mini-boss) | Easy | 2 | Sweeping Slam (blockable, telegraphed), Bone Charge (dashes at furthest player — sidestep), Mist Aura (DoT in melee range, Phase 2), skeleton adds | Medium — **drops Soul of Return** |
+| **Forsaken Hollow** | **Hollow Warden** | Medium | 3 | Chain Pull (dodge with a timed roll), Poison Pools (linger longer in Phase 2), Phase 3 Frenzy (faster attacks, random chain pulls) | High |
+| **Mistveil Forest** | **Verdant Ancient** | Medium | 3 | Root Slam (ground-target AoE), Vine Sweep (wide arc — jump or block), Seed Pod (destroy quickly), Root Eruption (targets each player in Phase 2) | High |
+| **The Bloodfen** | **Blood Matriarch** | Hard | 2 | Lunge Bite (roll perpendicular), Tail Whip (360-degree — jump), Blood Leeches (roll to shake off), Boiling Water DoT in Phase 2 — fight from the raised platforms | Very High |
+| **Obsidian Depths** | **Shattered King** | Very Hard | 3 | Crystal Barrage (hide behind a pillar), Shatter (destroys pillars — hug the boss, center is safe), Floor Collapse in Phase 3 (stay on the center platform); **portal unlocks after killing the Obsidian Guard mini-boss** | Legendary |
+
+### Key Items
+
+| Item | Where It Comes From | What It Does |
+|------|--------------------|--------------|
+| **Soul of Return** | Dropped by the **Returner Woodling** mini-boss | The extraction key item — on most maps you need it to extract with your loot; one Soul of Return is enough for a whole squad |
+| **Obsidian Guard kill** | Mini-boss in the Obsidian Depths | Unlocks the portal to the Shattered King fight |
+| **Gyldenblood** | Boss kills, loot runs, bounties | The primary loot currency — funds camp upgrades and gear (see the [Economy Guide](/guides/economy-guide)) |
 
 ## Boss Overview
 
-Every map in Mistfall Hunter has at least one boss encounter. Defeating a boss rewards high-value loot, rare gear, and Gyldenblood — but it also paints a target on your back. The sound of a boss fight travels far, and rival players will converge on your location.
+Defeating a boss rewards high-value loot, rare gear, and Gyldenblood — but it also paints a target on your back. The sound of a boss fight travels far, and rival players will converge on your location.
 
 All bosses share these rules:
 
 - **Soul of Return**: The mini-boss (Returner Woodling) drops this key item — extracting without it is pointless
-- **Mist Phase**: After 50% HP, most bosses enter an enrage phase with new attacks
+- **Enrage Phase**: After roughly 50% HP, most bosses enter an enrage phase with new attacks
 - **Loot Priority**: Boss drops are instanced (each player sees their own loot) on party kills
 - **Player Interference**: Third-partying is common — always assume someone is watching
 
 ## 1. Ruined Catacombs — The Returner Woodling
 
 ### Location
-Central chamber of the Catacombs map. The boss spawns 4-6 minutes after match start.
+Central chamber of the Catacombs map. The boss spawns several minutes after match start.
 
 ### Mechanics
 
 | Phase | HP Threshold | Behavior |
 |-------|-------------|----------|
-| Phase 1 | 100% - 50% | Slow melee swings, charge attack, spawns skeletal adds every 20% HP |
+| Phase 1 | 100% - 50% | Slow melee swings, charge attack, spawns skeletal adds periodically |
 | Phase 2 | Below 50% | Gains a ground slam AoE, spawn rate doubles, mist aura (DoT in melee range) |
 
 ### Key Attacks
 
-- **Sweeping Slam**: 180-degree arc in front. Blockable. Telegraph wind-up is ~1.5 seconds.
+- **Sweeping Slam**: 180-degree arc in front. Blockable. Telegraph wind-up is brief.
 - **Bone Charge**: Targets furthest player, dashes across the room. Sidestep — don't block.
-- **Mist Aura** (Phase 2 only): Deals ticking damage within 5 meters. Ranged classes should kite.
+- **Mist Aura** (Phase 2 only): Deals ticking damage within melee range. Ranged classes should kite.
 - **Add Spawn**: Skeletons rise from ground. They hit weak but stagger-lock if you ignore them.
 
 ### Recommended Build
 
-| Play Style | Build | Minimum Gear Score |
+| Play Style | Build | Minimum Gear |
 |------------|-------|-------------------|
 | Solo | Mercenary (Tank) or Blackarrow (Kite) | Green+ weapon, full green armor |
 | Duo | Mercenary + Sorcerer | Blue weapon for tank, green for Sorcerer |
@@ -69,18 +91,18 @@ Underground arena, accessible through the well in the village center.
 | Phase | HP Threshold | Behavior |
 |-------|-------------|----------|
 | Phase 1 | 100% - 60% | Slow sweeping attacks, chain pull, poison pools |
-| Phase 2 | 60% - 30% | Chain pull cooldown halves, poison pools linger 2x longer |
-| Phase 3 | Below 30% | Frenzy — attack speed +50%, random chain pulls |
+| Phase 2 | 60% - 30% | Chain pull cooldown halves, poison pools linger much longer |
+| Phase 3 | Below 30% | Frenzy — faster attacks, random chain pulls |
 
 ### Key Attacks
 
 - **Chain Pull**: Pulls the furthest player to melee range. Can be dodged with well-timed roll.
-- **Poison Pool**: Vomit AoE that stays on ground for 12 seconds (24 in Phase 2). Stay out.
+- **Poison Pool**: Vomit AoE that stays on the ground. Stay out.
 - **Frenzy** (Phase 3): Unavoidable damage race — burn the boss before it burns you.
 
 ### Recommended Build
 
-| Play Style | Build | Minimum Gear Score |
+| Play Style | Build | Minimum Gear |
 |------------|-------|-------------------|
 | Solo | Shadowstrix or Sorcerer | Blue weapon required |
 | Duo | Blackarrow + Seer | Blue gear minimum |
@@ -108,15 +130,15 @@ Clearing in the north-east corner of the map, surrounded by three returner shrin
 ### Key Attacks
 
 - **Root Slam**: Ground-target AoE. Slow telegraph. Roll away when the ground glows.
-- **Vine Sweep**: Horizontal arc covering 75% of the arena. Jump over or block.
+- **Vine Sweep**: Horizontal arc covering most of the arena. Jump over or block.
 - **Seed Pod**: Spawns a pod that pulses damage and spawns smaller adds. Destroy immediately.
 - **Root Eruption** (Phase 2): Targeted root spikes under each player. Spread out.
 
 ### Recommended Build
 
-| Play Style | Build | Minimum Gear Score |
+| Play Style | Build | Minimum Gear |
 |------------|-------|-------------------|
-| Solo | Blackarrow (Archer spec) | Blue+ bow |
+| Solo | Blackarrow | Blue+ bow |
 | Duo | Mercenary + Sorcerer | Blue gear |
 | Team | Any comp with Seer | Purple gear recommended |
 
@@ -124,12 +146,12 @@ Clearing in the north-east corner of the map, surrounded by three returner shrin
 
 - **Solo**: Stay at max range. The boss has no gap-closer outside of Seed Pod adds. Kill pods immediately. Phase 3 is a DPS check — bring healing potions.
 - **Duo**: Mercenary tanks the boss. Sorcerer clears pods and deals damage. Swap if Mercenary gets Rooted without stamina.
-- **Team**: Spread out in Phase 2 to avoid multi-root. Seer cleanses poison/root debuffs. Kill Seed Pods within 3 seconds of spawn.
+- **Team**: Spread out in Phase 2 to avoid multi-root. Seer cleanses poison/root debuffs. Kill Seed Pods quickly.
 
 ## 4. The Bloodfen — Blood Matriarch
 
 ### Location
-Submerged chamber in the southern swamp. The water slows movement by 30%.
+Submerged chamber in the southern swamp. The water slows movement.
 
 ### Mechanics
 
@@ -147,7 +169,7 @@ Submerged chamber in the southern swamp. The water slows movement by 30%.
 
 ### Recommended Build
 
-| Play Style | Build | Minimum Gear Score |
+| Play Style | Build | Minimum Gear |
 |------------|-------|-------------------|
 | Solo | Withered Knight | Blue+ gear, bring bleed cleanse potions |
 | Duo | Mercenary + Shadowstrix | Green/Blue gear |
@@ -180,7 +202,7 @@ Final boss in the deepest map. Requires defeating a mini-boss (Obsidian Guard) t
 
 ### Recommended Build
 
-| Play Style | Build | Minimum Gear Score |
+| Play Style | Build | Minimum Gear |
 |------------|-------|-------------------|
 | Solo | Not recommended | Purple+ gear required |
 | Duo | Shadowstrix + Sorcerer | Purple+ gear |
@@ -207,13 +229,15 @@ Final boss in the deepest map. Requires defeating a mini-boss (Obsidian Guard) t
 - **Look for third-parties before engaging**: Spend 30 seconds watching the boss arena from a distance. If you see movement, wait or leave.
 - **Bring 2+ healing potions**: Boss fights damage you faster than regular PvE. Running out of healing mid-fight is the #1 cause of boss deaths.
 - **Know your exit**: Always have an escape route. If another squad arrives, disengage and let them fight the boss — then clean up the winner.
-- **Phase transitions are vulnerable**: When a boss transitions between phases (1-2 seconds of animation), unload your highest damage abilities.
+- **Phase transitions are vulnerable**: When a boss transitions between phases (a second or two of animation), unload your highest damage abilities.
 - **Don't chase fleeing bosses**: If a boss resets and runs back to its spawn, let it. Rushing after it often means walking into an ambush.
 
 ## Related Guides
 
-- [Map Guide — Every Map, Loot Zones, and Extraction Points](/guides/map-guide)
-- [Weapons Guide — All Weapon Types and Best Choices](/guides/weapons-guide)
-- [Solo Play Guide — How to Survive Alone](/guides/solo-play-guide)
-- [Team Composition Guide — Best Squad Setups](/guides/team-composition-guide)
-- [Gear Farming Guide — How to Farm Efficiently](/guides/gear-farming-guide)
+- [Map Guide](/guides/map-guide) — every map, loot zones, and extraction points
+- [Weapons Guide](/guides/weapons-guide) — all weapon types and best choices
+- [Solo Play Guide](/guides/solo-play-guide) — how to survive alone
+- [Team Composition Guide](/guides/team-composition-guide) — best squad setups
+- [Gear Farming Guide](/guides/gear-farming-guide) — how to farm efficiently
+- [Loot Rarity Guide](/guides/loot-rarity-guide) — item tiers and drop systems
+- [Extraction Guide](/guides/extraction-guide) — how the Returner Woodling loop works

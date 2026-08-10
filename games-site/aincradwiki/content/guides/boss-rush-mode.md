@@ -4,13 +4,13 @@ description: 'Complete guide to Echoes of Aincrad Boss Rush Mode. How to unlock 
 keywords: ['boss rush', 'boss rush mode', 'boss rush rewards', 'endgame mode', 'boss rush strategy', 'post-game content', 'boss gauntlet']
 category: Guides
 version: '1.0'
-updated: '2026-07-27'
+updated: '2026-08-10'
 related:
   - bosses-guide
   - game-modes-guide
   - ex-mod-guide
   - hidden-mechanics
-  - best-build-tier-list
+  - builds-guide
 ---
 
 ## What Is Boss Rush Mode?
@@ -19,13 +19,15 @@ Boss Rush is Echoes of Aincrad's primary endgame challenge mode. Unlocked after 
 
 Unlike the main game, Boss Rush has no exploration, no partner AI, and no healing between waves except what you earn from boss kills. It is pure combat — you against a sequence of bosses with scaling modifiers.
 
+> **Note on numbers:** Echoes of Aincrad does not publish official Boss Rush statistics. Wave layouts, modifiers, and reward figures below are community-reported and may change with patches.
+
 ## How to Unlock Boss Rush
 
 | Requirement | Details |
 |------------|---------|
 | **Story Progress** | Clear Floor 10 (defeat the Floor 10 boss) |
 | **Minimum Level** | 50+ (recommended: 60+) |
-| **Required Items** | Boss Rush Key (drops from Floor 10 boss, 100% drop rate) |
+| **Required Items** | Boss Rush Key (reported guaranteed drop from the Floor 10 boss) |
 | **Location** | Town of Beginnings — teleport statue, select "Boss Rush" |
 
 Once unlocked, the mode is permanently available from the main menu. There is no cost to enter.
@@ -64,11 +66,11 @@ Boss Rush rewards are given based on the highest wave you clear. Rewards are one
 
 | Cleared Wave | Reward |
 |-------------|--------|
-| Wave 1 | 5,000 Gold, 3 Upgrade Stones |
-| Wave 2 | 8,000 Gold, 5 Upgrade Stones, 1 EX-Mod Shard |
-| Wave 3 | 12,000 Gold, 8 Upgrade Stones, 2 EX-Mod Shards |
-| Wave 4 | 18,000 Gold, 12 Upgrade Stones, 3 EX-Mod Shards, 1 Rare Weapon Chest |
-| Wave 5 | 25,000 Gold, 20 Upgrade Stones, 5 EX-Mod Shards, 1 Epic Weapon Chest, Boss Rush Trophy |
+| Wave 1 | 5,000 Col, 3 Upgrade Stones |
+| Wave 2 | 8,000 Col, 5 Upgrade Stones, 1 EX-Mod Shard |
+| Wave 3 | 12,000 Col, 8 Upgrade Stones, 2 EX-Mod Shards |
+| Wave 4 | 18,000 Col, 12 Upgrade Stones, 3 EX-Mod Shards, 1 Rare Weapon Chest |
+| Wave 5 | 25,000 Col, 20 Upgrade Stones, 5 EX-Mod Shards, 1 Epic Weapon Chest, Boss Rush Trophy |
 
 ### Achievement Rewards
 
@@ -100,10 +102,10 @@ Boss Rush favors builds that can sustain long fights without healing. Survivabil
 
 | EX-Mod Slot | Recommendation |
 |-------------|---------------|
-| Weapon Mod | Stamina Reduction (mandatory) |
-| Weapon Mod 2 | Attack Up or Crit Rate |
-| Armor Mod 1 | Defense Up |
-| Armor Mod 2 | Health Regeneration (minor but adds up across 5 waves) |
+| Slot 1 | Reduced Stamina Cost (mandatory) |
+| Slot 2 | Improved Normal Attack or Improved Critical Rate |
+| Slot 3 | Improved Block or HP Up |
+| Slot 4 | Counter Damage Up or Improved Charge Attack |
 
 ## Boss Rush Tips and Strategies
 
@@ -113,7 +115,7 @@ Boss Rush favors builds that can sustain long fights without healing. Survivabil
 2. **Save healing items** for Waves 4-5 — do not use them early
 3. **Learn boss spawn order** — position yourself advantageously before the boss appears
 4. **Prioritize the more dangerous boss first** in dual-boss waves (usually the faster one)
-5. **Use Switch Mode sparingly** — there is no partner, so Switch Mode does nothing here
+5. **Switch Mode does not work here** — there is no partner in Boss Rush, so skip partner commands entirely
 
 ### Wave-Specific Tips
 
@@ -129,12 +131,12 @@ Boss Rush features a global leaderboard ranked by:
 2. **Clear time** (tiebreaker for same wave)
 3. **Damage taken** (secondary tiebreaker — lower is better)
 
-Leaderboards reset monthly. Top 100 players receive exclusive cosmetic rewards at the end of each month. You can view the leaderboard from the Boss Rush entrance in the Town of Beginnings.
+Leaderboards reportedly reset monthly, with exclusive cosmetic rewards for top players (community-reported — not officially confirmed). You can view the leaderboard from the Boss Rush entrance in the Town of Beginnings.
 
 ## Related Guides
 
-- [Boss Guide — All Floor Boss Strategies](/aincrad/content/guides/bosses-guide)
-- [Game Modes Guide](/aincrad/content/guides/game-modes-guide)
-- [EX-Mod Guide](/aincrad/content/guides/ex-mod-guide)
-- [Best Build Tier List](/aincrad/content/guides/best-build-tier-list)
-- [Hidden Mechanics Guide](/aincrad/content/guides/hidden-mechanics)
+- [Bosses Guide — All Floor Boss Strategies](/guides/bosses-guide)
+- [Game Modes Guide](/guides/game-modes-guide)
+- [EX-Mod Guide](/guides/ex-mod-guide)
+- [Builds Guide — All 6 Weapons Ranked](/guides/builds-guide)
+- [Hidden Mechanics Guide](/guides/hidden-mechanics)

@@ -38,7 +38,7 @@ Steam invites are the fastest method and work even if you haven't added each oth
 
 ### Via Friend Code
 
-Each player has a unique **Friend Code** (a 6-digit alphanumeric ID displayed in the Social Menu):
+Each player has a unique **Friend Code** (an 8-character alphanumeric ID displayed in the Social Menu):
 
 1. Ask your friend for their Friend Code
 2. In the Social Menu, click **"Add by Code"**
@@ -64,11 +64,10 @@ If you want to join a friend who is already in a raid:
 
 ## Squad Size and Party Limits
 
-| Mode | Max Players per Squad | Max Teams per Raid |
-|------|----------------------|-------------------|
-| Solo | 1 | ~8-12 |
-| Duo | 2 | ~6-8 |
-| Trio | 3 | ~4-6 |
+| Mode | Max Players per Squad | Notes |
+|------|----------------------|-------|
+| Solo | 1 | Queue alone into PvPvE zones |
+| Trio | 3 | Squad up with up to 2 friends — there is no Duo queue |
 
 - **Party leader**: The person who creates the party controls the raid settings (map, mode)
 - **Spectating**: You can spectate your alive teammates after death

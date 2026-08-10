@@ -1,44 +1,52 @@
 ---
-title: "Witchspire Enemy Weakness Guide — Element Matchups by Faction"
-description: "Complete enemy weakness guide for Witchspire. Element effectiveness tables for every faction — Corrupted Beasts, Fae Remnants, Sunken Ones, Ash Legion, Frostbound Cult, Void Touched — plus boss weaknesses and region loadouts."
+title: "Witchspire Enemy Guide — Factions, Weaknesses & Element Matchups"
+description: "Complete enemy guide for Witchspire. Faction territories and enemy types — Corrupted Beasts, Fae Remnants, Sunken Ones, and night creatures — plus element matchups by faction, boss weaknesses, and region loadouts. Community-reported, honestly caveated."
 category: "Guides"
-version: "0.1.1d"
-updated: "2026-08-06"
-keywords: ["Witchspire enemy weaknesses", "Witchspire element matchups", "Witchspire what element to use", "Witchspire faction weaknesses", "Witchspire boss weaknesses", "Witchspire best weapon per region"]
-related: ["enemy-factions", "elements-mechanics-guide", "best-gear-guide", "lumi-boss-guide", "base-defense"]
+version: "0.1.4"
+updated: "2026-08-10"
+keywords: ["Witchspire enemies", "Witchspire enemy factions", "Witchspire enemy weaknesses", "Witchspire element matchups", "Witchspire faction weaknesses", "Witchspire boss weaknesses", "Witchspire best weapon per region"]
+related: ["elements-mechanics-guide", "lumi-boss-guide", "shudder-matriarch-boss-guide", "alunean-golem-boss-guide", "tier-list", "crafting-guide"]
 ---
 
-# Witchspire Enemy Weakness Guide — Element Matchups by Faction
+# Witchspire Enemy Guide — Factions, Weaknesses & Element Matchups
 
-> **Applies to EA v0.1.1d / Updated: August 6, 2026**
+> Last verified: August 10, 2026
 
-Every enemy in Witchspire has an elemental weak point — and the damage difference between hitting it and missing it is the difference between clearing a region and churning through potions. This guide turns the faction bestiary into a practical matchup chart: which damage type to bring, per faction, per region, and for the major bosses.
+Witchspire's world is divided into factions — groups of hostile creatures that control territories and drop unique materials. Every enemy also has an elemental weak point, and the damage difference between hitting it and missing it is the difference between clearing a region and churning through potions. This guide covers the faction bestiary and turns it into a practical matchup chart: which damage type to bring, per faction, per region, and for the major bosses.
+
+> **Note:** enemy stats (HP, damage, exact resistances) have not been published by the developer. Faction names, territories, and element effectiveness below come from community reports and are hedged where unverified.
+
+---
+
+## Faction Overview
+
+| Faction | Territory | Aggression | Notes |
+|---------|-----------|------------|-------|
+| Corrupted Beasts | Vyrs (especially at night), Timberline Basin edge, Crystal Caverns | Reactive | Wild-animal faction; the most common enemy type |
+| Fae Remnants | Timberline Basin (deep forest, misty grove) | Territorial | Magic-using enemies; the community reports they punish magic builds |
+| Sunken Ones | Mira Isles coastline, waterways, caves | Aggressive | Water-dwelling enemies; reportedly weak in open fights on land |
+| Night Creatures ("Void Touched") | Shuddersands (night only), Witchspire Tower area | Always hostile | Despawn at dawn; reportedly vulnerable to light |
+
+**Note:** community reports occasionally mention additional factions — an "Ash Legion" in an "Ash Fields" zone and a "Frostbound Cult" in "Frostbound Peaks". These regions have not been independently verified, so we do not list them as confirmed.
 
 ---
 
 ## The Damage Type System
 
-Two layers of damage determine your effectiveness:
-
-| Layer | Types | How It Works |
-|-------|-------|--------------|
-| Physical | Slash, Blunt | Weapon-dependent; some enemies resist one and not the other |
-| Elemental | Fire, Ice, Lightning, Water, Magic, Holy/Light | Matchups per faction; fire/ice/lightning are the most common |
-
-Plus the **elemental affinity triangle** (Lux, Umbra, Nature, Fire, Ice) from the [Elements & Mechanics Guide](/guides/elements-mechanics-guide), which governs weapon element enchantments. When a faction table lists a type like "Holy/Light," a Lux-enchanted weapon counts.
+Witchspire uses the six-element system from the [Elements & Mechanics Guide](/guides/elements-mechanics-guide): **Nature, Lux (light), Nox (dark), Crystal (ice), Ethereal, and Astral** — plus physical damage (Slash, Blunt) from weapons. Element matchups are strongest at the extremes: some enemies barely resist certain elements, others are dramatically weak to one.
 
 ---
 
 ## Faction Weakness Quick Reference
 
-| Faction | Best Damage Types | Resisted/Immune | Bad Loadout |
-|---------|-------------------|-----------------|-------------|
-| Corrupted Beasts | Blunt (+20%), Fire (+30%) | Magic (−10%) | Pure magic wands |
-| Fae Remnants | Slash (+10%), Fire (+40%) | Ice (−20%), Magic (−30%) | Ice weapons |
-| Sunken Ones | Lightning (+50%) | Ice (−30%, freeze-immune) | Ice weapons |
-| Ash Legion | Ice (+50%), Water (+30%) | **Fire (immune)** | Fire weapons |
-| Frostbound Cult | Fire (+60%) | Ice (immune), Physical (−20%) | Ice weapons |
-| Void Touched | Holy/Light (+80%) | — | Non-light builds |
+| Faction | Best Damage Types | Resisted/Immune |
+|---------|-------------------|-----------------|
+| Corrupted Beasts | Blunt physical; Nox reportedly effective | Pure magic builds reportedly underperform |
+| Fae Remnants | Physical (slash); Lux reportedly effective | Magic-resistant |
+| Sunken Ones | Blunt physical; Crystal reportedly effective | Ice-adjacent resistances (community reports) |
+| Night Creatures | Lux (light) — the single biggest reported weakness | — |
+
+> **Note:** the effectiveness values in older community guides (e.g., "+30% fire", "+50% lightning") reference damage types that do not exist as elements in the current build — fire and lightning damage are not separate elements in Witchspire. Treat any such numbers as outdated.
 
 ---
 
@@ -46,74 +54,46 @@ Plus the **elemental affinity triangle** (Lux, Umbra, Nature, Fire, Ice) from th
 
 ### Corrupted Beasts (Vyrs, Timberline edge, Crystal Caverns)
 
-| Type | Effectiveness |
+| Type | Reported Effectiveness |
 |------|---------------|
 | Physical (slash) | Normal |
-| Physical (blunt) | +20% |
-| Fire | +30% |
-| Ice | Normal |
-| Magic | −10% (resistant) |
+| Physical (blunt) | Good |
+| Nox | Good |
+| Magic (general) | Weaker |
 
-**Loadout:** blunt weapon with a fire enchant. The Corrupted Wolf packs melt to fire AoE; magic builds will feel the resistance on every wolf they meet.
+**Loadout:** a blunt weapon. Wolf-like packs are common at night in Vyrs and melt to wide attacks; pure-magic builds will feel the resistance on every creature they meet.
 
 ### Fae Remnants (Timberline Basin)
 
-| Type | Effectiveness |
+| Type | Reported Effectiveness |
 |------|---------------|
-| Physical (slash) | +10% |
+| Physical (slash) | Good |
 | Physical (blunt) | Normal |
-| Fire | +40% |
-| Ice | −20% (resistant) |
-| Magic | −30% (highly resistant) |
+| Lux | Good |
+| Magic (general) | Weaker |
 
-**Loadout:** the Fae punish magic users hardest — bring a physical weapon and fire. If you main magic, this region is your incentive to level a spellblade.
+**Loadout:** the Fae reportedly punish magic users hardest — bring a physical weapon with a Lux touch. If you main magic, this region is your incentive to level a spellblade.
 
 ### Sunken Ones (Mira Isles, waterways)
 
-| Type | Effectiveness |
+| Type | Reported Effectiveness |
 |------|---------------|
 | Physical (slash) | Normal |
-| Physical (blunt) | +20% |
-| Fire | Normal |
-| Ice | −30% (immune to freeze) |
-| Lightning | +50% |
+| Physical (blunt) | Good |
+| Crystal | Good |
+| Nature | Normal |
 
-**Loadout:** lightning is the Sunken Ones' weakness — and the only effective elemental choice. Ice builds should avoid the isles entirely.
+**Loadout:** blunt weapons work well; the community reports Crystal damage is effective against water-dwelling enemies. Sunken Ones are slow on land — kite them, and avoid fighting in the water.
 
-### Ash Legion (Ash Fields)
+### Night Creatures / "Void Touched" (Shuddersands at night)
 
-| Type | Effectiveness |
-|------|---------------|
-| Physical (slash) | Normal |
-| Physical (blunt) | Normal |
-| Ice | +50% |
-| Water | +30% |
-| Fire | **Immune** |
-
-**Loadout:** Ice weapons or water magic, full stop. A fire build walks into the Ash Fields with a 0% damage type — this is the single most important matchup in the game.
-
-### Frostbound Cult (Frostbound Peaks)
-
-| Type | Effectiveness |
-|------|---------------|
-| Physical | −20% (frost armor) |
-| Fire | +60% |
-| Lightning | Normal |
-| Ice | **Immune** |
-
-**Loadout:** fire. The +60% bonus is the largest faction bonus in the game, and the −20% physical penalty means melee-only players are fighting uphill — bring fire gear or enchant.
-
-### Void Touched (Shuddersands at night)
-
-| Type | Effectiveness |
+| Type | Reported Effectiveness |
 |------|---------------|
 | Physical | Normal |
-| Fire | Normal |
-| Ice | Normal |
-| Lightning | Normal |
-| Holy/Light | +80% (if you have a light source) |
+| Most elements | Normal |
+| **Lux (light)** | **Very effective** — the biggest reported faction weakness |
 
-**Loadout:** the Void Touched have no bad matchups, but one enormous one — **Holy/Light at +80%**. A Lux-enchanted weapon with a light source is the difference between fighting the night and owning it.
+**Loadout:** the night creatures have no bad matchups, but one enormous one — **Lux**. A Lux-imbued weapon or spell is the difference between fighting the night and owning it. Nightvision Brew also helps with visibility (see the [Events Guide](/guides/events-guide)).
 
 ---
 
@@ -121,11 +101,11 @@ Plus the **elemental affinity triangle** (Lux, Umbra, Nature, Fire, Ice) from th
 
 | Boss | Weakness | Guide |
 |------|----------|-------|
-| Alunean Golem | Crystal damage (shatter effect); hit weak points with light-heavy combos | [Alunean Golem Boss Guide](/guides/alunean-golem-boss-guide) |
-| Lumi | Nox damage (+30%) — corrupts the crystal form; Steel+ weapon with Nox enchant | [Lumi Boss Guide](/guides/lumi-boss-guide) |
-| Shudder Matriarch | Lux damage (+25%) / Water damage (+15%) | [Shudder Matriarch Boss Guide](/guides/shudder-matriarch-boss-guide) |
+| Al'uunian Golem | No confirmed element; hit weak points with light-heavy combos | [Al'uunian Golem Boss Guide](/guides/alunean-golem-boss-guide) |
+| Lumi | Nox — community reports describe Nox damage disrupting its crystal form | [Lumi Boss Guide](/guides/lumi-boss-guide) |
+| Shudder Matriarch | Lux — community reports describe light-based damage as most effective | [Shudder Matriarch Boss Guide](/guides/shudder-matriarch-boss-guide) |
 
-Boss fights are where matchups matter most — a +30% weakness on a boss with 10,000+ HP is thousands of damage saved per fight.
+Boss fights are where matchups matter most — a large boss with a real weakness can make the fight dramatically shorter.
 
 ---
 
@@ -133,33 +113,35 @@ Boss fights are where matchups matter most — a +30% weakness on a boss with 10
 
 | Region | Recommended Loadout | Bring |
 |--------|--------------------|-------|
-| Vyrs (day) | Slash + fire | Anything works — easiest matchups |
-| Vyrs (night) | Blunt + fire | Light source for Corrupted Sprite swarms |
-| Timberline Basin | Slash + fire | Never ice, never pure magic |
-| Mira Isles | Blunt + lightning | Avoid ice |
-| Ash Fields | Ice or water | Never fire |
-| Frostbound Peaks | Fire | Never ice, upgrade physical gear |
-| Shuddersands (night) | Holy/Light enchant | Light source mandatory |
+| Vyrs (day) | Anything works — easiest matchups | — |
+| Vyrs (night) | Blunt weapon | Light source for night creatures |
+| Timberline Basin | Slash + Lux | Never pure magic |
+| Mira Isles | Blunt + Crystal | Avoid water fights |
+| Shuddersands (day) | Heat-resistant gear | Water |
+| Shuddersands (night) | Lux | Light source mandatory |
 
 ---
 
 ## Coven Affinity Synergy
 
-Your Coven grants a passive element affinity — use it to cover your weapon's gap:
+Your Coven grants an element affinity — use it to cover your weapon's gap:
 
 | Coven | Affinity | Best With |
 |-------|----------|-----------|
-| Cloudpiercer | Lux | Void Touched, Shudder Matriarch fights |
-| Wildroot | Nature | Sustained fights, healing loadouts |
-| Nightscribe | Umbra | Lumi's Nox weakness (+12% wand damage) |
-| Foreteller | Ice | Fire-enchanted secondary weapon for Frostbound |
+| Cloudpiercers | Lux | Night creatures, Shudder Matriarch fights |
+| Wildroots | Nature | Sustained fights, healing loadouts |
+| Nightscribes | Astral | Burst damage |
+| Foretellers | Nox | Lumi fights, bonded-familiar tactics |
+| Tomekeepers | Nox | DoT sustain |
+| Starsmiths | Crystal | Sunken Ones, crowd control |
 
 ---
 
 ## Related Guides
 
-- [Enemy Factions Guide](/guides/enemy-factions) — full bestiary, HP, and loot tables
-- [Elements & Mechanics Guide](/guides/elements-mechanics-guide) — the element system in depth
-- [Best Gear Guide](/guides/best-gear-guide) — where to get the right damage types
+- [Elements & Mechanics Guide](/guides/elements-mechanics-guide) — the six-element system in depth
 - [Lumi Boss Guide](/guides/lumi-boss-guide) — the Nox weakness in practice
-- [Base Defense Guide](/guides/base-defense) — matching loadouts to raid factions
+- [Shudder Matriarch Boss Guide](/guides/shudder-matriarch-boss-guide) — the Lux weakness in practice
+- [Al'uunian Golem Boss Guide](/guides/alunean-golem-boss-guide) — the first major boss
+- [Tier List](/guides/tier-list) — best weapons and gear for each stage
+- [Crafting Guide](/guides/crafting-guide) — where to get the right damage types

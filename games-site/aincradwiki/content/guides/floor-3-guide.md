@@ -4,7 +4,7 @@ description: 'Navigate Floor 3 of Aincrad — the Fae Wilds. Covers zone layout,
 keywords: ['floor 3 guide', 'fae wilds', 'crimson canyon', 'floor 3 map', 'floor 3 enemies']
 category: Guides
 version: '1.0'
-updated: '2026-07-29'
+updated: '2026-08-10'
 related:
   - floor-2-guide
   - bosses-guide

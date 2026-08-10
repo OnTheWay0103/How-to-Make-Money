@@ -1,157 +1,159 @@
 ---
-title: "Witchspire Main Quest Walkthrough — Act I & II Complete Guide"
-description: "Complete walkthrough of Witchspire's main quest Acts I and II. Key locations, boss positions, key collection order, and story progression path."
+title: "Witchspire Main Quest Walkthrough — Act I & II Progression Path"
+description: "Walkthrough of Witchspire's main quest Acts I and II: the Hearth, bonding your first familiar, the Al'uunian Golem, the South Passage to Timberline Basin, the Shudder Matriarch, and the current endgame — Lumi in Witchspire Tower."
 category: "Guides"
-version: "0.1.1d"
-updated: "2026-06-29"
-keywords: ["Witchspire main quest", "Witchspire walkthrough", "Witchspire Act I", "Witchspire Act II", "Witchspire key locations", "Witchspire boss order"]
-related: ["alunean-golem-boss-guide", "hearth-upgrade-guide", "vyrs-region-guide"]
+version: "0.1.4"
+updated: "2026-08-10"
+keywords: ["Witchspire main quest", "Witchspire walkthrough", "Witchspire Act I", "Witchspire Act II", "Witchspire boss order", "Witchspire story progression"]
+related: ["alunean-golem-boss-guide", "shudder-matriarch-boss-guide", "lumi-boss-guide", "hearth-upgrade-guide", "vyrs-region-guide", "flight-unlock-guide"]
 ---
 
 # Main Quest Walkthrough — Act I & II
 
-> **Applies to EA v0.1.1d / Updated: June 29, 2026**
+> Last verified: August 10, 2026
 
-Witchspire's main quest is divided into two acts in the current Early Access build. This walkthrough covers the complete progression from starting the game to the current endgame content.
+Witchspire's main quest is divided into two acts in the current Early Access build. This walkthrough covers the consistently reported progression from starting the game to the current endgame content.
+
+> **Note on quest details:** quest names, step counts, and reward lists vary between community reports and have not been independently verified. The *progression path* below — what you do, in what order, and where — is the consistently reported route. Older guides that describe capture orbs, extra regions, or bosses in the wrong locations describe mechanics that do not match the current build.
 
 ---
 
-## Act I: The Awakening
+## Act I: The Awakening (Vyrs)
 
-### Quest 1: The First Flame
-**Objective**: Light your Hearth
-**Steps**:
-1. Follow the spirit wolf to the Hearth Crystal
-2. Gather 5 Wood and 5 Stone from the immediate area
-3. Interact with the crystal to activate your Hearth
-4. Craft a Stone Pickaxe at your Workbench
-**Reward**: 100 XP, Basic Capture Orb x2
+### 1. Light Your Hearth
 
-### Quest 2: A Familiar Friend
-**Objective**: Capture your first familiar
-**Steps**:
-1. Weaken any creature (Sproutling recommended)
-2. Throw a Capture Orb at <30% HP
-3. Name your familiar
-**Reward**: 150 XP, Familiar Treat x5
+**Objective:** Activate your Hearth.
 
-### Quest 3: The Vyrs Ruins
-**Objective**: Explore the Eastern Ruins
-**Steps**:
-1. Head east from Hearth to the ruined structures
-2. Defeat 5 Spectral Witches
-3. Collect the **Crystal Fragment** from the altar
-4. Return to Hearth
-**Reward**: 200 XP, Iron Ore x10
+- Follow the tutorial to the Hearth crystal
+- Gather basic resources (wood, stone, fiber) from the immediate area
+- Interact with the crystal to activate your Hearth
+- Craft your first tools at the Workbench
 
-### Quest 4: Hearth Expansion
-**Objective**: Upgrade Hearth to Tier 2
-**Steps**:
-1. Gather 30 Wood, 25 Stone, 10 Fiber
-2. Interact with Hearth crystal → Upgrade
-3. Place your new Workbench
-**Reward**: 250 XP, Broom Recipe Unlock
+### 2. Bond Your First Familiar
 
-### Quest 5: The Golem Stirring
-**Objective**: Defeat Al'uunian Golem
-**Steps**:
-1. Return to Eastern Ruins arena (large circular platform)
-2. Activate the seal at the center
-3. Defeat Al'uunian Golem (recommended level 8+)
-4. Collect **Golem Core**
-5. Return Golem Core to Hearth
-**Reward**: 500 XP, Region Unlock Token (Timberline Basin)
+**Objective:** Get your first familiar companion.
 
-See [Al'uunian Golem Boss Guide](/guides/alunean-golem-boss-guide) for full strategy.
+- Head out into the Vyrs starting area and find a familiar candidate (the starters — Quol, Locto, Bril, Fien — also spawn in the world)
+- **Kill the creature** — when it dies, its spirit may linger
+- If the spirit lingers, **hold F to bond**. No capture orbs exist — if a guide tells you to throw an orb, it is wrong
+
+See the [Familiars Guide](/guides/all-familiars-guide) for the full mechanic.
+
+### 3. Explore the Eastern Ruins
+
+**Objective:** Clear the ruins east of your Hearth.
+
+- Head east from your Hearth to the ruined structures
+- Clear the enemies in the area
+- Collect the relic from the altar
+
+### 4. Upgrade the Hearth to Tier 2
+
+**Objective:** Reach Hearth Tier 2.
+
+- Gather the tier materials (30 Wood, 25 Stone, 10 Fiber per the community-consistent table)
+- Interact with the Hearth crystal → Upgrade
+- Place your new Workbench — and craft your Broom as soon as you can
+
+See the [Hearth & Base Building Guide](/guides/hearth-upgrade-guide).
+
+### 5. Defeat the Al'uunian Golem
+
+**Objective:** Defeat the first major boss.
+
+- Return to the Eastern Ruins arena (large circular platform)
+- Defeat the **Al'uunian Golem** — bring healing potions and watch for its ground-slam AoE
+- Collect the **Golem Core** from the defeat
+
+See the [Al'uunian Golem Boss Guide](/guides/alunean-golem-boss-guide) for the full strategy.
+
+**Reward:** the Golem Core and the path to the next region.
 
 ---
 
 ## Act II: Beyond Vyrs
 
-### Quest 6: The Timberline Crossing
-**Objective**: Enter Timberline Basin
-**Steps**:
-1. Travel to Vyrs South Passage (south edge of map)
-2. Interact with the gate using your Region Unlock Token
-3. Light the Basin Entrance Flight Pillar
-**Reward**: 300 XP, Timberline Basin Map
+### 6. Cross into Timberline Basin
 
-### Quest 7: The Hollow Log
-**Objective**: Investigate the Hollow Log in Timberline Basin
-**Steps**:
-1. Travel to the eastern section of Timberline Basin
-2. Enter the Hollow Log (large fallen tree entrance)
-3. Defeat the Giant Thornback inside
-4. Collect **Hollow Heart**
-**Reward**: 350 XP, Sturdy Fiber x10
+**Objective:** Reach the second region.
 
-### Quest 8: The Crystal Heart
-**Objective**: Find the Crystal Shard in Timberline Caves
-**Steps**:
-1. Locate the cave entrance near Central Grove (waterfall)
-2. Navigate the Crystal Caverns
-3. Mine 3 Crystal Shards from blue crystal deposits
-4. Fight the Crystal Guardian (optional mini-boss)
-**Reward**: 400 XP, Crystal Shard x3
+- Travel to the **South Passage** at the south edge of Vyrs
+- Unlock the passage and light the Basin Entrance Flight Pillar
 
-### Quest 9: Shudder Matriarch
-**Objective**: Defeat the Shudder Matriarch
-**Steps**:
-1. Find the Matriarch's den in north-west Timberline Basin
-2. Clear surrounding Shudder minions
-3. Activate the summoning glyph
-4. Defeat Shudder Matriarch (recommended level 15+)
-5. Collect **Matriarch Fang**
-**Reward**: 800 XP, Region Unlock Token (Mira Isles or Shuddersands)
+> **Note:** community reports differ on the unlock method — some describe a Region Unlock gate tied to main quest progress, others an "Ancient Seal" quest chain. Follow the main quest; it routes you through at the right time. See the [Elements & Mechanics Guide](/guides/elements-mechanics-guide).
 
-### Quest 10: The Looming Threat
-**Objective**: Open the path to the next region
-**Steps**:
-1. Choose your next destination (Mira Isles or Shuddersands)
-2. Use Region Unlock Token at the corresponding gate
-3. Activate the first Flight Pillar in the new region
-**Reward**: 400 XP, Advanced Capture Orb x3
+### 7. Timberline Basin — Resources and the Al'uunian Tower
+
+**Objective:** Establish yourself in Timberline Basin.
+
+- Timberline Basin is a forested mountain region with iron ore, Coal, and the Crystal Caverns beneath it
+- The region's major landmark is the **Al'uunian Tower** (see the [Dungeon Guide](/guides/dungeon-guide) for what is reported inside)
+- Mine **Crystal Shards** from the Crystal Caverns while you are there — they are needed for Hearth Tier 4-5 and advanced crafting
+
+### 8. The Mira Isles
+
+**Objective:** Cross the water to the third region.
+
+- Take the dock from the Timberline harbor (or the Mira Isles dock route) to the **Mira Isles**
+- Light the Docks Flight Pillar on arrival
+- The Isles hold unique resources and the friendly-ish locals' content — see the [Mira Isles Guide](/guides/mira-isles-guide)
+
+### 9. The Shudder Matriarch
+
+**Objective:** Defeat the second major boss — in the Shuddersands.
+
+- The Matriarch fight sits in the **Shuddersands** desert, in the **Sunken Arena**
+- It is gated behind a **pre-quest chain** in the region — see the [Shudder Matriarch Boss Guide](/guides/shudder-matriarch-boss-guide) and [Shuddersands Guide](/guides/shuddersands-guide) for the steps
+- Lux-based damage is the community-reported weakness
+
+### 10. Witchspire Tower and Lumi
+
+**Objective:** The current endgame.
+
+- The final Early Access boss, **Lumi**, waits in the **Summit Chamber of Witchspire Tower**
+- Nox-based damage is the community-reported weakness
+- This is the current endgame goal — see the [Lumi Boss Guide](/guides/lumi-boss-guide)
 
 ---
 
 ## Key Collection Order
 
-| Key Item | Quest | Location | Used For |
-|----------|-------|----------|----------|
-| Crystal Fragment | Quest 3 | Vyrs Eastern Ruins | Hearth upgrade unlock |
-| Golem Core | Quest 5 | Al'uunian Golem | Region unlock + crafting |
-| Hollow Heart | Quest 7 | Timberline Hollow Log | Hearth Tier 4 unlock |
-| Matriarch Fang | Quest 9 | Shudder Matriarch | Region unlock + weapon crafting |
-| Sunken Sigil | Quest 10a | Mira Isles (optional) | Lumi boss access |
-| Desert Glyph | Quest 10b | Shuddersands (optional) | Shudder boss access |
+| Key Item | Where It Comes From | What It Is For |
+|----------|---------------------|----------------|
+| Golem Core | Al'uunian Golem (Vyrs Eastern Ruins) | Progression, crafting (community-reported) |
+| Crystal Shards | Timberline Basin Crystal Caverns | Hearth Tier 4-5, advanced crafting |
+| Matriarch Fang (reported) | Shudder Matriarch (Shuddersands Sunken Arena) | Reported as region/weapon progression |
+
+> **Note:** older guides list additional key items (Sunken Sigil, Desert Glyph, Hollow Heart) tied to quests and locations that do not match the current build. Treat these as unverified.
 
 ---
 
 ## Critical Boss Locations
 
-| Boss | Region | Exact Location | Level Req |
-|------|--------|---------------|-----------|
-| Al'uunian Golem | Vyrs | Eastern Ruins (large stone arena) | 8+ |
-| Crystal Guardian | Timberline Basin | Crystal Caverns (under waterfall) | 12+ (optional) |
-| Giant Thornback | Timberline Basin | Hollow Log interior (east) | 10+ |
-| Shudder Matriarch | Timberline Basin | North-west den | 15+ |
-| Lumi | Mira Isles | Sunken Temple (requires Sunken Sigil) | 20+ |
-| Shudder | Shuddersands | Sunken Temple (requires Desert Glyph) | 20+ |
+| Boss | Region | Location | Notes |
+|------|--------|----------|-------|
+| Al'uunian Golem | Vyrs | Eastern Ruins (large stone arena) | First major boss |
+| Shudder Matriarch | Shuddersands | Sunken Arena (pre-quest chain required) | Second major boss |
+| Lumi | Witchspire Tower | Summit Chamber | Current final EA boss |
+
+> **Note:** community reports occasionally mention optional mini-boss encounters (a "Crystal Guardian" in the Crystal Caverns, a "Giant Thornback" in Timberline Basin) — these have not been independently verified.
 
 ---
 
 ## Progression Tips
 
-- **Don't rush Act II.** Spend time upgrading Hearth to Tier 4 before tackling Shudder Matriarch.
-- **Flight is mandatory for Act II.** Many Timberline Basin areas are only reachable by broom.
+- **Don't rush Act II.** Spend time upgrading your Hearth and gear before tackling the Matriarch — the Shuddersands are dangerous.
+- **Flight is mandatory for Act II.** Many Timberline Basin areas are only reachable by broom. See the [Flight & Fast Travel Guide](/guides/flight-unlock-guide).
 - **Bring healing potions to every boss fight.** The Crystal Caverns are especially punishing.
-- **Craft a Familiar Stable (Hearth Tier 4)** before catching higher-rarity familiars — you can store and swap them.
+- **Match your elements.** Each region's enemies favor different elements — see the [Enemy Guide](/guides/enemy-weakness-guide).
 
 ---
 
 ## Related Guides
 
 - [Al'uunian Golem Boss Guide](/guides/alunean-golem-boss-guide)
-- [Hearth Upgrade Guide: All Tiers](/guides/hearth-upgrade-guide)
+- [Shudder Matriarch Boss Guide](/guides/shudder-matriarch-boss-guide)
+- [Lumi Boss Guide](/guides/lumi-boss-guide)
+- [Hearth & Base Building Guide: All Tiers](/guides/hearth-upgrade-guide)
 - [Vyrs Region Guide: Full Collectibles Map](/guides/vyrs-region-guide)
-- [Crafting Guide: Potions and Gear](/guides/crafting-guide)
+- [Flight & Fast Travel Guide: Brooms and Pillars](/guides/flight-unlock-guide)

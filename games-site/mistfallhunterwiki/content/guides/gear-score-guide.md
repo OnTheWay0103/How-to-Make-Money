@@ -3,14 +3,14 @@ title: "Mistfall Hunter Gear Score Guide — How It's Calculated and How to Rais
 description: "How gear score works in Mistfall Hunter: rarity tiers, affixes, upgrade levels, the thresholds that gate zones and bosses, and the fastest ways to raise your score without wasting Gyldenblood."
 category: "Guides"
 version: "1.0"
-updated: "2026-08-04"
+updated: "2026-08-10"
 keywords: ["mistfall hunter gear score", "mistfall hunter gear rarity", "mistfall hunter best gear", "mistfall hunter loot tiers", "mistfall hunter gyldenblood", "mistfall hunter item level"]
-related: ["gear-farming-guide", "loot-rarity-guide", "endgame-progression", "economy-guide", "loadout-optimizer"]
+related: ["gear-farming-guide", "loot-rarity-guide", "leveling-guide", "economy-guide", "loadout-optimizer"]
 ---
 
 # Mistfall Hunter Gear Score Guide — What the Number Means and How to Grow It
 
-**Mistfall Hunter / Updated: August 4, 2026**
+**Mistfall Hunter / Updated: August 10, 2026**
 
 Every extractable item in Mistfall Hunter carries an implicit gear score, and the community quickly learned it gates everything: which zones you can survive, which bosses you can fight, and which lobbies you belong in. This guide explains how the score is calculated from rarity, affixes, and upgrades — and the fastest routes to raise it without throwing Gyldenblood at the market.
 
@@ -38,7 +38,7 @@ Gear score is the sum of three components per item:
 | Mid-map ruins | Common-rare gear | Danger; elites hit hard |
 | Returner Woodling zone | Rare+ | High risk of death without Rare weapons |
 | Named POIs | Epic+ | Extract-or-die territory |
-| Bosses (e.g., Mist Lord) | Epic+ with 2+ affixes | Wipes without burst and survivability |
+| Bosses (endgame bosses) | Epic+ with 2+ affixes | Wipes without burst and survivability |
 | PvP lobbies | Competitive bracket | Matchmaking is score-aware in ranked |
 
 **The honest rule:** your score should match the risk you're taking. A score that can't handle the Returner Woodling zone is a score that will cost you a full loadout.
@@ -47,7 +47,7 @@ Gear score is the sum of three components per item:
 
 ## 3. How the Season Adds Score
 
-The current **Season of the Withering** (June-September 2026) adds temporary score inflation: Withering-afflicted zones raise loot quality by **1 tier** (green → blue, blue → purple). Practical effects:
+The current **Season of the Withering** (started at launch; the end date has not been officially announced) adds temporary score inflation: Withering-afflicted zones raise loot quality by **1 tier** (green → blue, blue → purple). Practical effects:
 
 - Farming afflicted zones is the fastest score raise in the game right now — one tier up is roughly one full score bracket.
 - The decay damage (2% HP/sec) and +15% enemy damage mean the zone pays for its generosity with risk — bring heals.
@@ -87,13 +87,13 @@ The current **Season of the Withering** (June-September 2026) adds temporary sco
 2. **Selling affix-rich items.** A blue with 3 affixes is a red with 1 affix — equip first, sell later.
 3. **Ignoring Withering zones during the season.** The one-tier loot bump is the best score-per-hour the game currently offers.
 4. **Buying gear before camp upgrades.** Gear is lost on death; the camp is not. Upgrade order matters.
-5. **Obsessing over the number instead of the build.** Score gets you into content; the [Endgame Progression Guide](/guides/endgame-progression) is what converts score into successful extractions.
+5. **Obsessing over the number instead of the build.** Score gets you into content; the [Leveling Guide](/guides/leveling-guide) is what converts score into successful extractions.
 
 ---
 
 ## 7. The Score Loop, Summarized
 
-Farm at the risk level your score supports → sell duplicates and upgrades → fund camp upgrades → raise the floor of every future run → step up one risk tier. Each cycle moves you one bracket closer to Mist Lord territory. The [Gear Farming Guide](/guides/gear-farming-guide) maps the full farming side of this loop, and the [Loadout Optimizer Guide](/guides/loadout-optimizer) turns your best items into a coherent build.
+Farm at the risk level your score supports → sell duplicates and upgrades → fund camp upgrades → raise the floor of every future run → step up one risk tier. Each cycle moves you one bracket closer to endgame boss territory. The [Gear Farming Guide](/guides/gear-farming-guide) maps the full farming side of this loop, and the [Loadout Optimizer Guide](/guides/loadout-optimizer) turns your best items into a coherent build.
 
 ---
 
@@ -101,6 +101,6 @@ Farm at the risk level your score supports → sell duplicates and upgrades → 
 
 - [Gear Farming Guide](/guides/gear-farming-guide) — Where and how to farm every tier
 - [Loot Rarity Guide](/guides/loot-rarity-guide) — Rarity tiers and affix system
-- [Endgame Progression Guide](/guides/endgame-progression) — From mid-game score to endgame
+- [Leveling Guide](/guides/leveling-guide) — From mid-game score to endgame
 - [Economy Guide](/guides/economy-guide) — Gyldenblood loops and market math
 - [Loadout Optimizer Guide](/guides/loadout-optimizer) — Building from your best items

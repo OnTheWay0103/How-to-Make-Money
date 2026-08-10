@@ -4,7 +4,7 @@ description: 'Complete status effects guide for Echoes of Aincrad. Learn about b
 keywords: ['status effects', 'debuffs', 'buffs', 'status guide', 'ailments', 'counters']
 category: Mechanics
 version: '1.0'
-updated: '2026-07-29'
+updated: '2026-08-10'
 related:
   - combat-system-guide
   - ex-mod-guide
@@ -15,6 +15,8 @@ related:
 ## Status Effects Overview
 
 Status effects in Echoes of Aincrad can make or break a fight. Understanding how they work — and how to apply or counter them — is essential for mid-game and endgame content.
+
+> **Note:** durations, tick rates, and percentages below are community-reported and may change with patches.
 
 ### Effect Categories
 
@@ -47,8 +49,8 @@ Status effects in Echoes of Aincrad can make or break a fight. Understanding how
 
 **Best applications:**
 - Bosses with high physical defense (bypasses armor)
-- Enemies that regenerate HP (burn reduces regen by 50%)
-- PvP — forces opponents to waste healing items
+- Enemies that regenerate HP (burn reduces regen)
+- Elites and zone bosses — sustained chip damage between their attack windows
 
 ### Bleed
 
@@ -67,7 +69,7 @@ Status effects in Echoes of Aincrad can make or break a fight. Understanding how
 
 **Best applications:**
 - High-HP bosses (percentage-based damage)
-- PvP — panic-inducing, forces mistakes
+- High-mobility enemies — apply bleed, then focus on dodging
 - Dual-wield builds (stack multiple bleed applications fast)
 
 ### Poison
@@ -88,7 +90,7 @@ Status effects in Echoes of Aincrad can make or break a fight. Understanding how
 **Best applications:**
 - Long boss fights (20 seconds of chip damage adds up)
 - Kiting strategies (poison and run)
-- Group content (applying poison to multiple targets)
+- Farming packs (poison spreads chip damage across a crowd)
 
 ---
 
@@ -125,7 +127,7 @@ Status effects in Echoes of Aincrad can make or break a fight. Understanding how
 | Can attack while rooted? | Yes (ranged only) |
 | Boss effectiveness | Immune |
 
-**Usage**: PvP tool — root melee opponents and kite them with ranged attacks. Useless against bosses.
+**Usage**: Lock down fast enemies while you reposition or line up a heavy attack. Useless against bosses.
 
 ---
 
@@ -137,7 +139,7 @@ Status effects in Echoes of Aincrad can make or break a fight. Understanding how
 | Weaken | -15% defense per stack | 3 | 30s | Heavy attacks, shield skills |
 | Slow | -30% movement speed per stack | 2 | 15s | Ice damage, ranged attacks to legs |
 | Silence | Cannot use skills | 1 | 5s | Certain enemy attacks (rare) |
-| Blind | -50% accuracy (PvE), reduced lock-on range | 1 | 10s | Smoke bombs, certain enemy abilities |
+| Blind | Reduced accuracy, reduced lock-on range | 1 | 10s | Smoke bombs, certain enemy abilities |
 
 ---
 
@@ -152,13 +154,15 @@ Status effects in Echoes of Aincrad can make or break a fight. Understanding how
 | Haste | +20% attack speed, +15% movement speed | 20s | Light-element buffs, certain EX-Mods |
 | Regen | 2% HP per 3 seconds | 60s | Healing Support Skill, certain items |
 
-### Party Buffs
+### Partner Buffs
+
+The game is single-player only — the only "party" is you and your AI partner, whose Support Skills apply to both of you.
 
 | Buff | Effect | Duration | Source |
 |------|--------|----------|--------|
-| Attack Up (Party) | +15% damage for all party members | 20s | Commander skill line |
-| Defense Up (Party) | +20% damage reduction for party | 20s | Guardian skill line |
-| Haste (Party) | +10% attack/move speed for party | 15s | Swift Strategist skill line |
+| Attack Up (partner) | +15% damage for you and your partner | 20s | Partner Support Skill |
+| Defense Up (partner) | +20% damage reduction | 20s | Partner Support Skill |
+| Haste (partner) | +10% attack/move speed | 15s | Partner Support Skill |
 
 ---
 

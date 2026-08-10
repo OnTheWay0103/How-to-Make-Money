@@ -4,18 +4,20 @@ description: 'Complete elemental damage guide for Echoes of Aincrad. Fire, Ice, 
 keywords: ['elemental damage', 'element weaknesses', 'aincrad elements', 'fire ice lightning arcane', 'weapon paper', 'elemental affinity', 'enemy weakness chart']
 category: Mechanics
 version: '1.0'
-updated: '2026-08-06'
+updated: '2026-08-10'
 related:
   - mage-build
   - status-effects-guide
   - tips-and-tricks
   - combat-system-guide
-  - ex-mod-tier-list
+  - ex-mod-guide
 ---
 
 ## Why Elemental Damage Matters
 
-In Echoes of Aincrad, matching an element to an enemy's weakness grants a **+50% bonus damage** — and because elemental bonuses stack **multiplicatively** with counter and critical multipliers, the right element can push a single hit to 5-6x normal damage. Players who ignore elements fight at 66% power; players who exploit them fight at 150%+. This guide covers the affinity table, the enemy matchups on every floor, and how to build loadouts around them.
+In Echoes of Aincrad, matching an element to an enemy's weakness grants a large bonus damage (community-reported **~+50%**) — and because elemental bonuses stack **multiplicatively** with counter and critical multipliers, the right element can push a single hit several times past normal damage. Players who exploit weaknesses have a major edge over those who ignore them. This guide covers the affinity table, the enemy matchups on every floor, and how to build loadouts around them.
+
+> **Note:** The +50% figure and the formula below are community-tested and may change with patches.
 
 ## The Four Elements
 
@@ -34,11 +36,11 @@ Elements sit on top of the physical damage system (slash, thrust, blunt). Physic
 
 | Physical Type | Best Against | Notes |
 |---------------|--------------|-------|
-| Blunt | Golems, armored enemies | Crystal Golems (Floor 2) are notably weak to blunt |
+| Blunt | Golems, armored enemies | Crystal Golems (Floor 3) are notably weak to blunt |
 | Slash | Fleshy enemies, beasts | The most common weapon type |
 | Thrust | Lightly armored, fast enemies | Rapier specialty — pairs with parry counters |
 
-**Rule:** when your element is neutral, your physical type decides the matchup. A blunt Shield build on Floor 2 will outperform a neutral Fire mage on the same mobs.
+**Rule:** when your element is neutral, your physical type decides the matchup. A blunt Shield build on Floor 3 will outperform a neutral Fire mage on the same mobs.
 
 ## The Damage Formula
 
@@ -62,17 +64,17 @@ Final Damage = Base × (1 + Elemental Bonus) × (1 + Counter Bonus) × (1 + Crit
 | Floor | Enemies | Best Element | Avoid |
 |-------|---------|--------------|-------|
 | 1 — Town of Beginnings | Wolves, Goblins, Bats | Ice (beasts) | — |
-| 2 — Crystal Caverns | Crystal Golems, Bats, Rock Spiders | Blunt (golems), Lightning (bats) | Fire |
-| 3 — Flooded City | Water Spirits, Drowned Soldiers, Leeches | Lightning (aquatic) | **Fire (Water Spirits are immune)** |
+| 2 — Twin Valleys | Hobgoblins, Giant Boars, Wisp Mages | Ice (beasts), Blunt (armored) | — |
+| 3 — Fae Wilds | Fae Tricksters, Woodland Sprites, Dark Fae | Arcane (neutral safe), Lightning (sprites) | — |
 | 4 — Plains of War | Harpies, War Golems, Deserters | Lightning (flying), Blunt (golems) | — |
 | 5 — Ancient Library | Arcane constructs, ghost mobs | Arcane (neutral safe) | — |
-| 6 — Misty Swamp | Treants, swamp creatures | Fire (plant) | Ice |
+| 6 — The Floating City | City knights, aerial patrols (reported) | Arcane (neutral safe) | — |
 | 7 — Lava Fields | Fire elementals, lava beasts | Ice (fire) | Fire (likely immune) |
 | 8 — Frozen Tundra | Frost beasts, ice golems | Fire | Ice |
 | 9 — The Colosseum | Gladiators, mixed humanoids | Physical, Arcane | — |
 | 10 — Sky Fortress | Angelic Knights, Sky Serpents | Lightning (flying serpents) | — |
 
-**Floor 3 is the trap floor:** Water Spirits are immune to Fire. Mages running Fireball-only rotations lose their entire kit here — switch to Ice or Arcane before the flooded city.
+**Floor 7 is the trap floor:** Fire elementals are reported resistant to Fire. Mages running Fireball-only rotations lose their entire kit here — switch to Ice or Arcane before the Lava Fields.
 
 ## Building an Elemental Loadout
 
@@ -80,7 +82,7 @@ Final Damage = Base × (1 + Elemental Bonus) × (1 + Counter Bonus) × (1 + Crit
 
 **Weapon paper (elemental)** is the cheapest elemental upgrade in the game: apply a paper to a weapon to add its element for a limited duration. In speed runs, pre-buffing with the highest-damage food buff + elemental weapon paper + an SP regenerator before an arena is the standard opener — all three stack.
 
-- **Buy ahead:** stock fire papers before Floor 6 and 8, ice papers before Floor 7.
+- **Buy ahead:** stock fire papers before Floor 8 (Frozen Tundra), ice papers before Floor 7 (Lava Fields).
 - **Paper + element match:** a paper on a weapon whose natural element matches the enemy stacks the bonus with the weapon's own affinity.
 
 ### EX-Mods
@@ -100,7 +102,7 @@ The **Elemental Damage Up** EX-Mod (+16% elemental) is the core of elemental bui
 
 ## Checklist Before Any Boss Fight
 
-- [ ] Enemy weakness identified (check the [Boss Guide](/guides/bosses-guide) or the [Boss Quick Reference](/guides/boss-quick-reference-chart))
+- [ ] Enemy weakness identified (check the [Bosses Guide](/guides/bosses-guide))
 - [ ] Element paper applied (or staff spell set swapped)
 - [ ] Elemental EX-Mod equipped if fighting a weakness you can match
 - [ ] Arcane fallback ready for unknown adds
@@ -113,4 +115,4 @@ The **Elemental Damage Up** EX-Mod (+16% elemental) is the core of elemental bui
 - [Status Effects Guide](/guides/status-effects-guide) — burn, freeze, and their stacking rules
 - [Tips & Tricks](/guides/tips-and-tricks) — the full elemental stacking math
 - [Combat System Guide](/guides/combat-system-guide) — SP costs and counter timing
-- [EX-Mod Tier List](/guides/ex-mod-tier-list) — where Elemental Damage Up ranks
+- [EX-Mod Guide](/guides/ex-mod-guide) — where Elemental Damage Up ranks

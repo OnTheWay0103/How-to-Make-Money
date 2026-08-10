@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Tier List',
   description:
-    'Witchspire tier list — best Coven rankings for solo, duo, and group play. Familiar and weapon tier rankings for the current Early Access patch.',
+    'Witchspire tier list — best Coven rankings for solo, duo, and group play. Familiar and weapon tier rankings for the current Early Access build.',
 };
 
 const COVEN_TIERS = [
@@ -25,8 +25,8 @@ export default function TierListPage() {
     <div className="max-w-3xl mx-auto px-4 py-12">
       <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">Tier List</h1>
       <p className="text-gray-400 mb-2">
-        Coven, Familiar, and Weapon rankings for Witchspire EA v0.1.1d.
-        Updated June 29, 2026. Rankings shift with patches.
+        Coven, Familiar, and Weapon rankings for Witchspire Early Access.
+        Updated June 29, 2026. Rankings shift with balance patches.
       </p>
       <div className="inline-flex items-center gap-1 text-xs font-medium px-2 py-0.5 rounded bg-amber-900/30 text-amber-400 border border-amber-800/50 mb-8">
         Early Access — subject to change
@@ -91,7 +91,7 @@ export default function TierListPage() {
         <h3 className="text-white font-semibold mb-2">A Note on Tier Lists</h3>
         <p className="text-gray-400 text-sm leading-relaxed">
           Witchspire is in Early Access. Balance patches can shift rankings significantly.
-          This tier list reflects the current meta as of patch v0.1.1d. For most players,
+          This tier list reflects the current community-informed meta. For most players,
           Coven choice matters less than familiarity — every Coven can complete all content.
           Pick what looks fun.
         </p>

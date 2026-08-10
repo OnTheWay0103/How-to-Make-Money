@@ -4,7 +4,7 @@ description: 'Comprehensive speedrun strategies for Echoes of Aincrad including 
 keywords: ['speedrun guide', 'route optimization', 'boss speed kill', 'any percent run', 'time-saving techniques']
 category: Guides
 version: '1.0'
-updated: '2026-07-23'
+updated: '2026-08-10'
 related:
   - bosses-guide
   - progression-guide
@@ -15,7 +15,9 @@ related:
 
 ## Introduction
 
-Speedrunning Echoes of Aincrad requires mastering not just combat, but movement, routing, resource management, and glitch exploitation. The game's 100-floor structure makes it one of the longest action JRPG speedruns in existence, with current Any% runs clocking in around 12-16 hours for the first 10 floors alone.
+Speedrunning Echoes of Aincrad requires mastering not just combat, but movement, routing, resource management, and glitch exploitation. The game currently has roughly 10 cleared floors — it reportedly launched with two floors, with more added via updates — and current Any% runs of the first 10 floors clock in around 12-16 hours (community-reported).
+
+> **Note:** Speedrun times, skip locations, and percentages below are community-reported and not independently verified.
 
 This guide covers the two primary speedrun categories:
 - **Any% (Normal Difficulty)**: Complete the game as fast as possible on Normal. Glitches and skips are allowed.
@@ -45,7 +47,7 @@ The optimal speedrun route prioritizes three things:
 
 **Time saving**: The wall-clip at step 3 saves approximately 4 minutes compared to clearing the Goblin Camp normally.
 
-### Floor 2 — The Split Gate (15-18 minutes)
+### Floor 2 — Twin Valleys (15-18 minutes)
 
 1. Take the left path at the fork (shorter route, more aggressive enemies but fewer environmental puzzles)
 2. **Twin Wardens Speed Kill**: Equip the Rapier obtained from Floor 1's hidden chest (behind the waterfall, requires no key)
@@ -53,36 +55,36 @@ The optimal speedrun route prioritizes three things:
 4. After Blades dies, the Warden of Flames enrages. Do not respect the enrage — stand directly beneath it and spam light attacks. Its AoE cannot hit point-blank range
 5. Skip the cutscene after the Twin Wardens by pressing Start + A simultaneously (frame-perfect, saves 30 seconds)
 
-### Floor 3 — The Misty Vale (20-25 minutes)
+### Floor 3 — Fae Wilds (20-25 minutes)
 
-1. Ignore all mist spirit encounters — hug the right wall to navigate the maze faster
-2. **Golem Sentinel**: Use the Sword & Shield with the Parry EX-Mod. Parry the first hit, counter, repeat. Three parries kill it
+1. Ignore optional encounters — hug the right wall to navigate the maze faster
+2. **Crystal Golem**: Use the Sword & Shield with the Parry EX-Mod. Parry the first hit, counter, repeat. Three parries kill it
 3. Collect the Dagger from the chest after the Golem (required for Floor 4 skip)
-4. Skip the Graveyard zone entirely by jumping off the eastern cliff near the Golem arena — you land in the Floor 3 town checkpoint
+4. Skip the optional zones entirely by jumping off the eastern cliff near the golem arena — you land in the Floor 3 checkpoint
 
-### Floor 4 — Fortress of Glass (18-22 minutes)
+### Floor 4 (18-22 minutes)
 
 1. Use the Dagger's Throw skill to aggro enemies from range and group them for AoE kills
-2. **Crystal Guardian**: Stand on the northeast crystal formation — the boss cannot path to this position. Use ranged attacks only
-3. After the boss, loot the "Sunken Key" from the throne room (mandatory for Floor 5 shortcut)
-4. Do not explore the west wing — it contains zero required items
+2. Route directly to the floor boss — the required path is short once you know it
+3. Do not explore the west wing — it contains zero required items
 
-### Floor 5 — The Sunken Cathedral (25-30 minutes)
+### Floor 5 — Ancient Library (25-30 minutes)
 
-1. Use the Sunken Key from Floor 4 to open the underwater shortcut, bypassing 3 rooms of water puzzles
-2. **Bishop Halvard**: This is the first real DPS check. Use the highest-damage EX-Mod loadout available. Save Combination Skills for the 50% phase transition
-3. Bishop Halvard has a hidden weakness to fire — apply a fire paper buff before the fight
-4. After the fight, grab the Cathedral Key and **do not rest at the inn** — run directly to the next zone
+1. Follow the main corridor through the library — skip the side rooms
+2. **The Archivist**: This is the first real DPS check. Use the highest-damage EX-Mod loadout available. Save Combination Skills for the 50% phase transition
+3. After the fight, **do not rest at the inn** — run directly to the next zone
 
 ### Floor 6-10 Summary
 
 | Floor | Boss | Route Note | Skip Available |
 |-------|------|------------|----------------|
-| 6 | Flame Lord | Rush lava shortcuts (take damage, heal through) | Wall-clip past first miniboss |
-| 7 | Aerial Sentinel | Use ranged weapon, skip adds entirely | Elevation exploit for free damage |
-| 8 | Shadow Stalker | Dagger + invisibility potion for opening ambush | None (linear dungeon) |
-| 9 | Iron Colossus | Greatsword charged attacks between stomps | Ladder skip at zone 3 |
-| 10 | The Arbiter | Full damage build, no defensive stats | None (hard gate) |
+| 6 | Community-reported name, not confirmed | Move quickly through the zone; heal through damage taken | Wall-clip past first miniboss |
+| 7 | Ifrit | Use ranged weapon, skip adds entirely | Elevation exploit for free damage |
+| 8 | Community-reported name, not confirmed | Dagger + consumables for opening ambush | None (linear dungeon) |
+| 9 | Community-reported name, not confirmed | Greatsword charged attacks between stomps | Ladder skip at zone 3 |
+| 10 | Angel of the Sundered Skies | Full damage build, no defensive stats | None (hard gate) |
+
+Floor 6, 8, and 9 boss names are community-reported and not independently verified.
 
 ---
 
@@ -100,20 +102,20 @@ The optimal speedrun route prioritizes three things:
 
 | Weapon | Best Speed Kill EX-Mods | Rotation |
 |--------|------------------------|----------|
-| Rapier | Star Splash / Critical Edge / Agility Boost | Star Splash x3 → Dodge cancel → Repeat |
-| Dagger | Shadow Strike / Poison Blade / Speed Rush | Backstab opener → Poison → Shadow Strike spam |
-| Greatsword | Guillotine / Charge Boost / Heavy Impact | Charge attack → Guillotine → Cancel → Repeat |
-| Two-Handed Axe | Cleave / Rage / Stagger Force | Rage buff → Cleave spam (ignores boss poise) |
-| Sword & Shield | Shield Bash / Counter Strike / Parry Master | Parry → Counter → Shield Bash → Repeat |
-| Mace | Smite / Holy Strike / Stun Force | Smite (stun) → Holy Strike (100% crit on stunned) |
+| Rapier | Star Splash (skill) / Critical Edge / Agile Stance | Star Splash x3 → Dodge cancel → Repeat |
+| Dagger | Life Steal / Precise Strike / Momentum | Backstab opener → bleed setup → Precise Strike spam |
+| Greatsword | Power Surge / Quick Charge / Berserker | Charge attack → Avalanche → Cancel → Repeat |
+| Two-Handed Axe | Blood Price / Power Surge / Vengeance | Buff → Whirlwind spam (ignores boss poise) |
+| Sword & Shield | Shield Bash (skill) / Fortress / Parry Master | Parry → Counter → Shield Bash → Repeat |
+| Mace | Steel Slam (skill) / Iron Crusher (skill) / Vengeance | Steel Slam (stun) → Iron Crusher (guard break) → Repeat |
 
 ### The "Burn Phase" Strategy (Any% Only)
 
 For floors 6-10, the optimal speed kill is the **Burn Phase**: ignore defensive stats completely, allocate all Growth Points into your primary damage stat, and kill the boss before it kills you.
 
-- Minimum Viability: 20+ points in damage stat, weapon at +3 or higher
+- Minimum Viability: 20+ points in damage stat, weapon upgraded (community-reported threshold)
 - Consumables needed: 3x Full Heal Potions, 1x Attack Elixir, 1x SP Regenerator
-- Expected kill time: 45-90 seconds per boss
+- Expected kill time: 45-90 seconds per boss (community-reported)
 - Risk: One mistake equals death. Do not attempt on Death Game runs.
 
 ---
@@ -143,10 +145,10 @@ Only carry these consumables during a speedrun:
 
 1. **Full Heal Potions** (Col: 500 each) — buy 10 before Floor 2, restock before Floor 5
 2. **Attack Elixir** (Col: 200 each) — one per boss from Floor 3 onwards
-3. **Fire Paper** (Col: 300) — apply before Bishop Halvard and Iron Colossus
+3. **Fire Paper** (Col: 300) — apply before fire-weak bosses (community-reported)
 4. **SP Regenerator** (Col: 500) — one per major zone
 
-Sell everything else. Weight capacity matters for dodge speed in speedruns — every kilogram reduces your dodge distance by approximately 1%.
+Sell everything else. Some speedrunners report that a heavy load slows dodge rolls, so keep the inventory light.
 
 ---
 
@@ -168,7 +170,7 @@ Sell everything else. Weight capacity matters for dodge speed in speedruns — e
 
 ### Glitch Techniques (Any% Only)
 
-**Clip Skip**: On Floor 3, there is a wall near the Misty Vale entrance that can be clipped through by sprinting into it at a 45-degree angle while dodge-rolling. This skips the entire first zone.
+**Clip Skip**: On Floor 3, there is a wall near the Fae Wilds entrance that can be clipped through by sprinting into it at a 45-degree angle while dodge-rolling. This skips the entire first zone.
 
 **Double Loot**: Opening a chest and immediately pausing the game causes the game to register the loot twice when unpaused. Works on most non-boss chests.
 

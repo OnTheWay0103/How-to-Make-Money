@@ -1,10 +1,10 @@
 ---
 title: 'Solo Leveling Guide — Fast XP & Best Farm Routes for Echoes of Aincrad'
-description: 'Leveling guide for Echoes of Aincrad. XP farm routes, Growth Point allocation, and Cardinal Rank trap avoidance. Learn solo or group leveling efficiently.'
+description: 'Leveling guide for Echoes of Aincrad. XP farm routes, Growth Point allocation, and Cardinal Rank trap avoidance. Learn leveling efficiently.'
 keywords: ['leveling guide', 'solo leveling', 'xp farm', 'growth points', 'farming route', 'power leveling', 'xp guide', 'cardinal rank trap', 'growth point allocation', 'echoes of aincrad leveling', 'efficient farming', 'solo leveling guide']
 category: Progression
 version: '1.0'
-updated: '2026-07-23'
+updated: '2026-08-10'
 related:
   - beginner-guide
   - builds-guide
@@ -101,74 +101,71 @@ If you need to catch up after neglecting stats:
 | Before Floor 1 boss | 5 VIT, 5 END, 5 DMG | Rare | 3-4 |
 | Floor 2 ready | 8 VIT, 8 END, 8+ DMG | Rare/Epic | 4 |
 
-## Floor 2 XP Farm Route: Goblin Mines Leveling Guide
+## Floor 2 XP Farm Route: Twin Valleys Leveling Guide
 
-**Location**: Floor 2 — Goblin Mines entrance zone
+**Location**: Floor 2 — Twin Valleys entrance zone
 **Enemies**: Mine Goblins, Tunnel Bats, Crystalline Slimes
 **Estimated XP/hour**: 6-8 Growth Points (mid-game)
 
 ### Route
 1. Spawn at Floor 2 Safe Zone
-2. Head northeast to the Goblin Mines entrance
+2. Head northeast to the mine entrance
 3. Clear the outer encampment (5-6 Mine Goblins with ranged support)
 4. Enter the mineshaft — take the left tunnel (dense spawns)
 5. Clear the Crystal Cavern room (4 Slimes + 2 Bats)
 6. Exit mineshaft and reset by fast-traveling to Safe Zone
 7. Repeat
 
-**Best weapons for this route**: Spear (excellent reach for tunnel fighting) or Rapier (quick thrusts for breaking Crystalline Slime armor).
+**Best weapons for this route**: Rapier (quick thrusts for breaking Crystalline Slime armor) or Two-Handed Axe (wide sweeps for packed tunnels).
 
 ### Tips
 - Mine Goblins drop **Refined Ore** — required for Epic weapon upgrades
-- Crystalline Slimes drop **Crystal Shards** — used in EX-Mod crafting (Accuracy mods)
+- Crystalline Slimes drop **Crystal Shards** — used in EX-Mod crafting (stat-boosting mods)
 - Tunnel Bats are weak but swarm in packs of 5-7 — use wide sweeps or AoE skills
 - The right tunnel has higher-level mobs but no checkpoint — avoid until you hit 10 VIT / 10 END
 
-## Group XP Farming Route: Floor 1 Dungeon (Party Leveling Guide)
+## Partner-Assisted XP Farming: Floor 1 Dungeon
 
-Farming with a group changes your approach but yields significantly higher XP per hour.
+Farming with your AI partner changes how you approach a dungeon — it does not raise XP rates, but it makes runs safer and cuts downtime from deaths.
 
-**Recommended party size**: 3-4 players
-**Estimated XP/hour**: 10-15 Growth Points (with coordinated group)
+**Recommended setup**: Your highest-level partner set to Support behavior
+**Estimated XP/hour**: 5-7 Growth Points (same as solo, with fewer deaths)
 
 ### Route
-1. Form party at Town of Beginnings
-2. Assign roles: 1 tank (high VIT / heavy armor), 2 DPS (AoE weapons), 1 support (healing items / ranged pulls)
-3. Enter Floor 1 Dungeon
-4. Tank pulls first room (6-8 mobs) and holds aggro
-5. DPS clears with AoE attacks while support watches flanks
-6. Progress room-by-room to the mid-boss chamber
-7. Kill mid-boss, exit dungeon, reset, repeat
+1. Enter Floor 1 Dungeon with your partner in Support mode
+2. Let the partner pull the first room (6-8 mobs) and hold aggro
+3. Clear with AoE attacks while the partner covers your flank
+4. Progress room-by-room to the mid-boss chamber
+5. Kill mid-boss, exit dungeon, reset, repeat
 
-### Why Group Farming Wins
+### Why Farming With a Partner Helps
 - Shared aggro means less downtime for healing
-- Mobs respawn faster when multiple players are in the zone
-- Rarer material drops scale with party size
-- Support player can carry a **Loot Pouch** — party-wide material collection without stopping
+- The partner can revive you within the downed window, saving the run
+- Support Skills (healing, buffs) reduce potion consumption
 
 ### Tips
-- Assign a loot master to avoid disputes over rare drops
-- If no dedicated tank, rotate aggro — each player takes 1-2 hits then dodges out
-- Voice communication is not required, but ping the map before each room pull
+- Keep your partner's weapon and Support Skills upgraded — partner DPS matters
+- If your partner goes down, back off and reset before continuing
+- Use Support behavior for dungeon runs; aggro behavior for open-field farming
 
 ## XP Rates Comparison
 
-| Farming Location | Solo XP/hr (GP) | Group XP/hr (GP) | Difficulty | Unlock Requirement |
-|------------------|-----------------|------------------|------------|--------------------|
-| Dire Wolf Loop (F1) | 3-5 | — | Easy | Tutorial complete |
-| Floor 1 Dungeon | 5-7 | 10-15 | Medium | Post-first boss |
-| Goblin Mines (F2) | 6-8 | 12-16 | Medium | Floor 2 unlocked |
-| Crystalline Cavern | 8-10 | 14-18 | Hard | Floor 2, 6+ DMG stat |
-| Floor 1 Dungeon Boss Rush | 10-12 | 18-22 | Hard | Blue+ weapon, 8+ END |
-| Floor 3 Field Zone | 12-15 | 20-28 | Very Hard | Floor 3 unlocked, Epic weapon |
+| Farming Location | Solo XP/hr (GP) | Difficulty | Unlock Requirement |
+|------------------|-----------------|------------|--------------------|
+| Dire Wolf Loop (F1) | 3-5 | Easy | Tutorial complete |
+| Floor 1 Dungeon | 5-7 | Medium | Post-first boss |
+| Twin Valleys (F2) | 6-8 | Medium | Floor 2 unlocked |
+| Crystal Caverns (F3) | 8-10 | Hard | Floor 3 unlocked, 6+ DMG stat |
+| Floor 1 Dungeon Boss Rush | 10-12 | Hard | Blue+ weapon, 8+ END |
+| Floor 7 Lava Fields | 12-15 | Very Hard | Floor 7 unlocked, Epic weapon |
 
-**Note**: Group XP assumes a balanced party of 3-4 players. Duo farming yields approximately 60-70% of the group rate listed above.
+**Note**: XP rates above are community-reported estimates and may change with patches. Farming with your AI partner keeps the same rates while making runs safer.
 
 ## Common Mistakes
 
 ### 1. Chasing High-Level Zones Too Early
 
-New players often beeline to Floor 3 or the Crystalline Cavern after hearing about the "best XP." Without the stats to survive, you spend more time respawning than farming. Stick to Dire Wolf Loop until you have at least 5 VIT / 5 END.
+New players often beeline to high-level zones like the Crystal Caverns after hearing about the "best XP." Without the stats to survive, you spend more time respawning than farming. Stick to Dire Wolf Loop until you have at least 5 VIT / 5 END.
 
 ### 2. Ignoring Rest Penalties
 
@@ -190,19 +187,19 @@ Growth Points do not earn interest. There is no benefit to saving them. The mome
 
 ### Can I reset my Growth Points if I make a mistake?
 
-Yes, but it costs Col. Visit the Innkeeper in the Town of Beginnings and select "Respend Stats." The first respec costs 500 Col, with the price increasing by 200 Col each subsequent time. The price resets to 500 Col after seven days of in-game time. Plan your allocation carefully to avoid repeated respec costs, but do not let fear of mistakes stop you from spending points — the Col cost is manageable, and a suboptimal build is far better than an unspent build.
+Growth Points are widely reported as permanent, so most guides recommend planning your allocation carefully. Some community posts describe a limited respec option at the Innkeeper (reportedly costing Col), but the exact availability, pricing, and cooldown have not been independently verified — treat respec as unavailable unless you can confirm it in your build of the game. If you cannot respec, a suboptimal allocation is still recoverable: keep leveling and invest subsequent points to correct course.
 
 ### Why do enemies feel harder after I leveled up?
 
 This is the Cardinal Rank system at work. When you complete main quests or discover new areas, your Cardinal Rank increases — and enemies scale with it. If you rank up without spending Growth Points or upgrading gear, the difficulty spikes. This is known as the **Cardinal Rank Trap** (detailed above). The solution is simple: before advancing the main quest, always spend your Growth Points, upgrade your weapon, and restock healing items. If the game suddenly feels unfair, check your Cardinal Rank and compare it to your stat targets in the Leveling Targets table.
 
-### Is it better to farm solo or with a party?
+### Should I farm with my partner or without?
 
-Solo farming is more consistent — you control the pace, keep all loot, and can stop anytime. Group farming yields 2-3x more XP per hour but requires coordination and loot sharing. For early game (pre-Floor 2), solo is faster because group formation and travel eat into short farm windows. Once you reach Floor 2 dungeons, group farming becomes significantly more efficient. The best approach is to solo-farm during off-peak hours and join a pickup group during peak hours when more players are online.
+Farming with your AI partner is the default and the safest option — the partner shares aggro, applies Support Skills, and can revive you in the downed state. Farming without a partner (true solo) is slightly more controllable but riskier; a single mistake can end the run. For early game (pre-Floor 2), either works. Once you reach Floor 2 dungeons, keeping your partner equipped is noticeably safer at nearly the same pace.
 
 ### What is the best weapon for leveling in Echoes of Aincrad?
 
-For solo leveling, the Two-Handed Axe and Greatsword are the best choices due to their AoE clear speed. The Two-Handed Axe excels at clearing packed mobs with wide swings, while the Greatsword's charged attack one-shots groups. For group farming, any weapon works, but the Spear and Rapier offer good reach and consistency. Avoid single-target weapons like Dagger for farming purposes — they clear too slowly for efficient XP gain.
+For solo leveling, the Two-Handed Axe and Greatsword are the best choices due to their AoE clear speed. The Two-Handed Axe excels at clearing packed mobs with wide swings, while the Greatsword's charged attack one-shots groups. Any weapon works for a partner-assisted route, though the Rapier offers good reach and consistency. Avoid single-target weapons like Dagger for farming purposes — they clear too slowly for efficient XP gain.
 
 ### What is the fastest way to catch up if I skipped farming?
 

@@ -4,7 +4,7 @@ description: 'Complete guide to Floor 2 of Echoes of Aincrad. Explore the Twin V
 keywords: ['floor 2 guide', 'split gate', 'twin wardens', 'floor 2 map', 'floor 2 quests']
 category: Guides
 version: '1.0'
-updated: '2026-07-29'
+updated: '2026-08-10'
 related:
   - floor-3-guide
   - bosses-guide
@@ -138,7 +138,7 @@ See the [full boss guide](/guides/bosses-guide) for in-depth strategy, but here 
 |-----------|--------|-------------|
 | Tank | Sword & Shield | Healer with Support Skills |
 | Aggressive | Rapier | Decoy with Switch Mode |
-| Balanced | Longsword | Damage dealer with attack buffs |
+| Balanced | Two-Handed Axe | Damage dealer with attack buffs |
 
 ---
 

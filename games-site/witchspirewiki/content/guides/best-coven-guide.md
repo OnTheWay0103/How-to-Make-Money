@@ -2,17 +2,21 @@
 title: "Best Witchspire Coven Guide — Which Class to Pick"
 description: "Complete breakdown of all 6 Witchspire Coven classes: Cloudpiercers, Starsmiths, Foretellers, Wildroots, Tomekeepers, Nightscribes. Solo and co-op rankings included."
 category: "Guides"
-version: "0.1.1d"
-updated: "2026-06-29"
+version: "0.1.4"
+updated: "2026-08-10"
 keywords: ["Witchspire Coven guide", "best Coven in Witchspire", "Witchspire class pick", "Cloudpiercers", "Wildroots", "Spellblade vs Wand", "Witchspire solo class"]
 related: ["beginner-guide", "spellblade-vs-wand-guide", "luminary-skill-tree-guide", "tier-list"]
 ---
 
 # Best Starting Coven Guide — Which Class to Pick
 
-> **Applies to EA v0.1.1d / Updated: June 29, 2026**
+> Last verified: August 10, 2026
 
-Your Coven choice determines your weapon, magic school, and starting spells. There are 6 Coven classes. Pick the wrong one and your first 10 hours will be a struggle. This guide ranks them for solo and co-op play.
+Your Coven choice determines your starting weapon, magic school, and starting spells. There are 6 Coven classes. Pick the wrong one and your first 10 hours will be a struggle. This guide ranks them for solo and co-op play.
+
+> **Note:** community reports differ on whether the weapon is locked to your Coven or can be swapped later — treat loadout flexibility as unverified.
+
+> **Note:** spell details, rankings, and role descriptions below come from community reports and have not been independently verified.
 
 ---
 

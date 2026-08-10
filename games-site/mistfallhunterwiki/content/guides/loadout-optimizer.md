@@ -4,10 +4,10 @@ description: 'Optimize your Mistfall Hunter loadout. Gear slot priorities, affix
 keywords: ['loadout optimizer', 'best loadout', 'gear affixes', 'budget loadout', 'extraction loadout', 'loadout presets', 'gear slots']
 category: Gameplay
 version: '1.0'
-updated: '2026-07-31'
+updated: '2026-08-10'
 related:
   - weapons-guide
-  - advanced-pvp
+  - pvp-guide
   - economy-guide
   - class-change-guide
   - tier-list-guide
@@ -89,7 +89,7 @@ Two extra presets worth keeping in your stash:
 ## Related Guides
 
 - [Weapons Guide — All Weapon Types and Best Choices](/guides/weapons-guide)
-- [Advanced PvP Guide — Loadout Tactics and Counter-Play](/guides/advanced-pvp)
+- [PvP Guide — Winning Player Fights](/guides/pvp-guide)
 - [Economy Guide — Make Gold and Build Wealth](/guides/economy-guide)
 - [Class Change Guide — How and When to Switch](/guides/class-change-guide)
 - [Tier List Guide — Best Classes and Builds This Patch](/guides/tier-list-guide)

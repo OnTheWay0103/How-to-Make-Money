@@ -1,18 +1,20 @@
 ---
-title: "Witchspire Crafting Guide — Stations, Materials, and Recipes"
-description: "Complete Witchspire crafting guide. All crafting stations (Workbench, Furnace, Witchcraft Circle, Garden Plot), materials, tool upgrade paths, and key recipes."
+title: "Witchspire Crafting Guide — Stations, Materials & Rare Resources"
+description: "Complete Witchspire crafting guide. All crafting stations and their Hearth tier unlocks, tool and weapon upgrade paths, key recipes, and where to find rare materials — Crystal Shards, Coal, Ethereal Dust, and Astral Essence — with farming routes."
 category: "Guides"
-version: "0.1.1d"
-updated: "2026-06-29"
-keywords: ["Witchspire crafting", "Witchspire workbench", "Witchspire recipes", "Witchspire furnace", "Witchspire materials", "Witchspire tool upgrades"]
-related: ["hearth-upgrade-guide", "beginner-guide", "all-familiars-guide", "spellblade-vs-wand-guide"]
+version: "0.1.4"
+updated: "2026-08-10"
+keywords: ["Witchspire crafting", "Witchspire workbench", "Witchspire recipes", "Witchspire furnace", "Witchspire materials", "Witchspire tool upgrades", "Witchspire rare materials", "Witchspire Ethereal Dust", "Witchspire Astral Essence", "material farming"]
+related: ["hearth-upgrade-guide", "beginner-guide", "all-familiars-guide", "spellblade-vs-wand-guide", "food-cooking", "potions-guide", "tier-list"]
 ---
 
-# Crafting Guide — Stations, Materials, and Recipes
+# Crafting Guide — Stations, Materials & Rare Resources
 
-> **Applies to EA v0.1.1d / Updated: June 29, 2026**
+> Last verified: August 10, 2026
 
-Crafting in Witchspire is how you get better gear, process resources, and create consumables. There are 4 main stations. Each unlocks at a specific Hearth tier. This guide covers everything you can craft and where to find the materials.
+Crafting in Witchspire is how you get better gear, process resources, and create consumables. Each station unlocks at a specific Hearth tier. This guide covers everything you can craft, where to find the materials, and where the rare end-game resources live.
+
+> **Note on values:** exact recipe material counts and timers come from community reports and are not officially published. The table below reflects the most consistent community information. Check in-game recipes before committing materials.
 
 ---
 
@@ -20,12 +22,14 @@ Crafting in Witchspire is how you get better gear, process resources, and create
 
 | Station | Hearth Tier | Function |
 |---------|-------------|----------|
-| Workbench | Tier 1 | Tools, weapons, armor, basic items |
+| Workbench | Tier 2 | Tools, weapons, armor, basic items |
 | Garden Plot | Tier 2 | Plant food, alchemy ingredients |
 | Furnace | Tier 3 | Smelt ores, refine materials |
+| Advanced Workbench | Tier 3 | Tier 3+ gear and structures |
 | Witchcraft Circle | Tier 4 | Potions, enchantments, advanced items |
-| Advanced Workbench | Tier 4 | Tier 3+ gear and structures |
 | Enchantment Table | Tier 5 | Gear upgrades, stat boosts |
+
+> **Note:** station unlock tiers follow the [Hearth Upgrade Guide](/guides/hearth-upgrade-guide) tier table. If your game differs, the Hearth menu shows the exact unlock requirements.
 
 ---
 
@@ -38,8 +42,9 @@ Crafting in Witchspire is how you get better gear, process resources, and create
 | Stone Axe | 5 Wood, 3 Stone | Tree chopping |
 | Stone Pickaxe | 5 Wood, 3 Stone | Mining |
 | Bone Knife | 4 Wood, 2 Bones | Skinning animals |
-| Basic Capture Orb | 10 Stone, 5 Nectar | Catching familiars |
 | Basic Broom | 8 Refined Wood, 4 Iron Ingot, 6 Sturdy Fiber, 3 Nectar | Flight |
+
+**One important correction:** older guides list a "Basic Capture Orb" for catching familiars — **no such item exists.** Familiars are bonded by killing a creature and holding F on its lingering spirit. See the [Familiars Guide](/guides/all-familiars-guide) for the real mechanic.
 
 ### Weapons
 
@@ -70,7 +75,7 @@ Crafting in Witchspire is how you get better gear, process resources, and create
 
 ## Garden Plot
 
-Unlock at **Hearth Tier 2**. Each plot produces 1 harvest every 10 minutes.
+Unlocks at **Hearth Tier 2**. Each plot produces a harvest on a timer (community reports suggest roughly 10 minutes per harvest; not verified).
 
 | Plant | Seeds From | Use |
 |------|-----------|-----|
@@ -85,12 +90,12 @@ Unlock at **Hearth Tier 2**. Each plot produces 1 harvest every 10 minutes.
 
 | Input | Output | Processing Time |
 |-------|--------|-----------------|
-| 2 Wood | 1 Refined Wood | 15s |
-| 3 Fiber | 1 Sturdy Fiber | 15s |
-| 3 Iron Ore | 1 Iron Ingot | 30s |
-| 2 Iron Ingots + 1 Coal | 1 Steel Ingot | 60s |
-| 4 Stone | 1 Stone Block | 20s |
-| 2 Bones | 1 Bone Meal | 20s |
+| 2 Wood | 1 Refined Wood | ~15s |
+| 3 Fiber | 1 Sturdy Fiber | ~15s |
+| 3 Iron Ore | 1 Iron Ingot | ~30s |
+| 2 Iron Ingots + 1 Coal | 1 Steel Ingot | ~60s |
+| 4 Stone | 1 Stone Block | ~20s |
+| 2 Bones | 1 Bone Meal | ~20s |
 
 **Coal locations**: Timberline Basin caves (dark stone deposits). Cannot be found in Vyrs.
 
@@ -100,14 +105,15 @@ Unlock at **Hearth Tier 2**. Each plot produces 1 harvest every 10 minutes.
 
 | Item | Materials | Effect |
 |------|-----------|--------|
-| Minor Healing Potion | 5 Nectar, 2 Sunbloom | Heal 100 HP |
-| Major Healing Potion | 5 Nectar, 4 Sunbloom, 1 Moonleaf | Heal 300 HP |
-| Mana Potion | 3 Nectar, 3 Moonleaf | Restore 100 Mana |
-| Thornskin Potion | 4 Thornberries, 2 Crystal Shards | +20% reflect damage (5 min) |
-| Advanced Capture Orb | 15 Stone, 10 Nectar, 2 Crystal Shards | +30% capture rate |
+| Minor Healing Potion | 5 Nectar, 2 Sunbloom | Heal ~100 HP |
+| Major Healing Potion | 5 Nectar, 4 Sunbloom, 1 Moonleaf | Heal ~300 HP |
+| Mana Potion | 3 Nectar, 3 Moonleaf | Restore mana |
+| Thornskin Potion | 4 Thornberries, 2 Crystal Shards | Reflect damage (community-reported) |
 | Enchanted Fiber | 3 Sturdy Fiber, 1 Nectar | Advanced crafting material |
 | Enchanted Steel | 2 Steel Ingots, 1 Ethereal Dust | Endgame crafting material |
 | Familiar Revival Tonic | 5 Nectar, 3 Moonleaf, 1 Ethereal Dust | Revive downed familiar |
+
+> **Note:** heal values are community-reported approximations, not official stats.
 
 ---
 
@@ -131,18 +137,130 @@ Each tier increases:
 
 ---
 
-## Key Material Locations
+## Material Rarity Tiers
 
-| Material | Primary Source | Secondary Source |
-|----------|---------------|-----------------|
-| Wood | Any tree in Vyrs | Timberline Basin trees |
-| Stone | Vyrs rocky outcrops | Any region |
-| Fiber | Tall grass (Vyrs) | Any region |
-| Iron Ore | Vyrs South Cave | Timberline Basin |
-| Coal | Timberline Basin caves | Mira Isles (rare) |
-| Crystal Shards | Timberline Basin Crystal Caverns | Mira Isles |
-| Ethereal Dust | Ethereal enemies (Timberline Basin) | Special events |
-| Astral Essence | Night events (Shuddersands) | Legendary familiar drops |
+| Tier | Color | Examples | Typical Sources |
+|------|-------|----------|----------------|
+| Common | White | Wood, Stone, Fiber | Surface gathering anywhere |
+| Uncommon | Green | Iron Ore, Leather, Nectar | Vyrs region, basic enemies |
+| Rare | Blue | Crystal Shards, Coal, Sturdy Fiber | Timberline Basin, cave systems |
+| Epic | Purple | Ethereal Dust | Elite enemies, night spawns, boss drops |
+| Legendary | Orange | Astral Essence | Night events |
+
+---
+
+## Rare Materials Catalog
+
+> **Note:** respawn timers, yields, and drop rates below are community estimates and have not been independently verified.
+
+### Crystal Shards
+
+| Property | Detail |
+|----------|--------|
+| Location | Timberline Basin — Crystal Caverns (primary), Mira Isles caves (secondary) |
+| Respawn | Community estimates: ~10 minutes per node |
+| Yield per node | 2-4 shards (reported) |
+
+**Uses:** advanced weapons, Thornskin Potion, Hearth Tier 5-6 upgrades, enchanted crafting.
+
+### Coal
+
+| Property | Detail |
+|----------|--------|
+| Location | Timberline Basin — dark stone deposits in caves |
+| Respawn | Community estimates: ~8 minutes |
+| Yield per node | 1-2 coal (reported) |
+
+**Uses:** Steel Ingot smelting (1 coal per 2 Iron Ingots).
+
+### Ethereal Dust
+
+| Property | Detail |
+|----------|--------|
+| Location | Timberline Basin — Ethereal-type enemies (glowing ghost-type); Shuddersands night events |
+| Respawn | Enemies respawn per day/night cycle |
+| Drop rate | Community estimates: roughly 30% from Ethereal-type enemies |
+
+**Uses:** Enchanted Steel, Familiar Revival Tonic, late-game weapons and tools.
+
+### Astral Essence
+
+| Property | Detail |
+|----------|--------|
+| Location | Shuddersands — night-only events (community describes meteor/astral events) |
+| Respawn | Event-based, rare |
+| Drop rate | Community reports: drops from completing astral events |
+
+**Uses:** Hearth Tier 6 upgrade, top-tier endgame crafting.
+
+---
+
+## Early-Game Rare Material Farming
+
+### Route 1: Timberline Basin Loop (~30 minutes)
+
+| Step | Location | Collect |
+|------|----------|---------|
+| 1 | Enter Timberline Basin from the Vyrs north passage | — |
+| 2 | Crystal Caverns (follow the left wall) | Crystal Shards |
+| 3 | Western cave system | Coal |
+| 4 | Misty Grove (east, night cycle) | Ethereal Dust from Ethereal-type enemies |
+| 5 | Optional: back to Vyrs Eastern Ruins for the Al'uunian Golem boss | Golem drops |
+
+**Community-reported haul per loop:** roughly a dozen Crystal Shards, several Coal, and a handful of Ethereal Dust.
+
+### Route 2: Shuddersands Night Run (~45 minutes)
+
+Requires: Hearth Tier 3+, heat-resistant gear
+
+| Step | Activity |
+|------|----------|
+| 1 | Arrive in Shuddersands at dusk |
+| 2 | Scout for night event locations (purple glow in the sky) |
+| 3 | Collect Astral Essence from event sites |
+| 4 | Fight Ethereal-type enemies (spawn during night) |
+| 5 | Return to base before dawn |
+
+**Note**: Shuddersands is very dangerous at night. Bring food, water, and heat-resistant armor. See the [Events Guide](/guides/events-guide) for night event details.
+
+---
+
+## Material Conversion Table
+
+| Input | Process | Output | Station |
+|-------|---------|--------|---------|
+| 2 Wood | Refine | 1 Refined Wood | Furnace |
+| 3 Fiber | Refine | 1 Sturdy Fiber | Furnace |
+| 3 Iron Ore | Smelt | 1 Iron Ingot | Furnace |
+| 2 Iron Ingot + 1 Coal | Smelt | 1 Steel Ingot | Furnace |
+| 2 Steel + 1 Ethereal Dust | Enchant | 1 Enchanted Steel | Witchcraft Circle |
+| 4 Stone | Process | 1 Stone Block | Furnace |
+| 2 Bones | Process | 1 Bone Meal | Furnace |
+| 3 Sturdy Fiber + 1 Nectar | Enchant | 1 Enchanted Fiber | Witchcraft Circle |
+
+---
+
+## Storage Strategy
+
+| Material Type | How to Store | Quantity to Keep |
+|---------------|-------------|------------------|
+| Common (Wood, Stone, Fiber) | Chests near Workbench | 100+ each |
+| Rare ores (Iron, Coal) | Chests near Furnace | 50+ each |
+| Crystal Shards | Chest near Witchcraft Circle | 30+ |
+| Epic materials (Ethereal Dust) | Secure storage | 10-15 |
+| Legendary materials (Astral Essence) | Secure storage + backup | 3-5 (do not waste) |
+
+---
+
+## Selling vs. Keeping
+
+| Material | Sell? | Keep? | Why |
+|----------|-------|-------|-----|
+| Excess Wood | Yes (up to 200) | Always 100+ | Base building |
+| Crystal Shards | No | Always 30+ | Needed for late-game |
+| Ethereal Dust | No | Always 10+ | Endgame crafting |
+| Astral Essence | Never | Always | Extremely rare |
+| Coal | Yes (excess) | Always 20+ | Smelting |
 
 ---
 
@@ -151,4 +269,7 @@ Each tier increases:
 - [Hearth Upgrade Guide: Unlocking Stations](/guides/hearth-upgrade-guide)
 - [Beginner Guide: First 5 Hours Resource Priority](/guides/beginner-guide)
 - [Spellblade vs Wand Guide: Best Weapon for Your Build](/guides/spellblade-vs-wand-guide)
-- [All Familiars Guide: Capture Orbs and Taming](/guides/all-familiars-guide)
+- [Familiars Guide: Full Database & Taming](/guides/all-familiars-guide)
+- [Potions Guide: Recipes and Crafting](/guides/potions-guide)
+- [Food & Cooking Guide: Recipes and Buffs](/guides/food-cooking)
+- [Tier List: Best Weapons, Familiars & Gear](/guides/tier-list)

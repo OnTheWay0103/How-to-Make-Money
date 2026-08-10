@@ -1,16 +1,16 @@
 ---
 title: "Witchspire Co-op Multiplayer Guide — Invite Friends and Progress Together"
-description: "Complete multiplayer guide for Witchspire. How to invite friends (Steam friends list — there is no session code system), co-op progression sharing, hosting, player limits, and solo vs co-op comparison for EA v0.1.4."
+description: "Complete multiplayer guide for Witchspire. How to invite friends (Steam friends list — there is no session code system), co-op progression sharing, hosting, player limits, and solo vs co-op comparison for the current Early Access build."
 category: "Guides"
 version: "0.1.4"
-updated: "2026-08-01"
+updated: "2026-08-10"
 keywords: ["Witchspire multiplayer", "Witchspire co-op", "Witchspire invite friends", "Witchspire session hosting", "Witchspire progression sharing", "Witchspire 4 player"]
 related: ["beginner-guide", "main-quest-walkthrough", "best-coven-guide", "hearth-upgrade-guide", "coop-troubleshooting-guide"]
 ---
 
 # Co-op Multiplayer Guide — Playing With Friends
 
-> **Applies to EA v0.1.4 / Updated: August 1, 2026**
+> Last verified: August 10, 2026
 
 Witchspire is built for co-op. While you can absolutely play solo, the game shines when you and your friends explore Vyrs, build a shared Hearth, and take down bosses together. This guide covers everything you need to know about multiplayer — from inviting friends to progression sharing and session limits.
 
@@ -23,10 +23,10 @@ Witchspire uses a **host-based session model**. One player hosts the world, and 
 | Feature | Details |
 |---------|---------|
 | Model | Host-based (peer-to-peer) — the host's machine is the server |
-| Max Players | 4 (confirmed) |
+| Max Players | 4 (reported) |
 | Cross-region | Possible, but hosted in the host's region — cross-continent play desyncs |
 | Invite Flow | **Steam friends list only** — no in-game lobby, no session codes (see below) |
-| Version Rule | All players must be on the **same game version/branch** (since 0.1.1b) |
+| Version Rule | All players must be on the **same game version/branch** |
 | Save System | Host saves; guests keep inventories, familiars and Luminary points on disconnect |
 | Anti-Cheat | None (non-competitive PvE) |
 
@@ -66,7 +66,7 @@ The friend accepts the invite (they should have Witchspire running or it will la
 | Crafting Recipes Learned | Yes | Unlocked through station use |
 | Gold / Coins | Yes | Personal currency |
 | Quest Items (key items) | No | Stay in the host's world |
-| Region Unlock Tokens | No | Must be re-obtained in your own world |
+| Region unlock items | No | Must be re-obtained in your own world (community reports differ on the unlock method) |
 | Hearth Upgrades | No | Per-world (host's save only) |
 | Building Structures | No | Per-world only |
 
@@ -91,9 +91,9 @@ The friend accepts the invite (they should have Witchspire running or it will la
 |-------------|----------------|-------|
 | 1 (Solo) | Story, learning, building | Full control, no desync |
 | 2 | Duo runs, couples | Balanced scaling, easy coordination |
-| 3 | Small group | Boss HP scales ~50% per extra player |
-| 4 | Full squad (recommended max) | Best social experience |
-| 5-6 | Modded only | May cause desync, untested in EA |
+| 3 | Small group | Boss HP reportedly scales up per extra player (exact scaling unverified) |
+| 4 | Full squad (reported max) | Best social experience |
+| 5-6 | Not supported | Community reports of modded sessions exist, but this is untested and may cause desync |
 
 ### Performance Tips
 
@@ -115,7 +115,7 @@ The friend accepts the invite (they should have Witchspire running or it will la
 | Progression Speed | Slower (you do everything) | Faster (parallel tasks) |
 | Hearth Building | Your resources only | Shared resource pool |
 | Exploration | Full map control | Must coordinate movement |
-| Familiar Usage | 1-2 familiars at a time | Each player has their own familiars |
+| Familiar Usage | Up to 3 active slots per player (C to cycle) | Each player has their own familiars |
 | Fun Factor | Peaceful, immersive | Chaotic, social, memorable |
 | Best For | Story-focused players, builders | Groups, boss farming, speed runners |
 
@@ -160,7 +160,7 @@ The friend accepts the invite (they should have Witchspire running or it will la
 
 ---
 
-## Known Multiplayer Issues (EA v0.1.4)
+## Known Multiplayer Issues (Current Build)
 
 | Issue | Workaround |
 |-------|------------|
@@ -168,7 +168,7 @@ The friend accepts the invite (they should have Witchspire running or it will la
 | Can't join at all | Version mismatch (most common), strict NAT, weak host — see the troubleshooting guide |
 | Chests look empty to teammates | Server-side chests — one player's open empties it for everyone; coordinate |
 | Character "missing" in friend's world | Characters are bound to the world they were created in — you join as a guest |
-| Desync on broom flight | Guest remounts broom; desync fixes are on the developer's QoL list |
+| Desync on broom flight | Guest remounts broom; community reports describe desync fixes on the developer's QoL list |
 | Hearth flag not visible to guests | Guest re-joins session |
 | Quest markers misaligned | Guest reloads area (leave and return) |
 

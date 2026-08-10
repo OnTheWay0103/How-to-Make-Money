@@ -1,16 +1,17 @@
 ---
-title: 'Season Guide — Current Season, Pass Rewards, and Meta Trends'
-description: 'Everything about the current Mistfall Hunter season. Season Pass rewards breakdown, meta shifts, balance changes, and what to prioritize before the season ends.'
-keywords: ['season guide', 'season pass', 'season rewards', 'meta changes', 'balance update', 'current season']
+title: 'Season Guide — Season of the Withering, Pass Rewards, and Meta'
+description: 'Everything about the current Mistfall Hunter season. Season of the Withering mechanics, Withering gear affixes, Season Pass rewards breakdown, meta shifts, and what to prioritize before the season ends.'
+keywords: ['season guide', 'season pass', 'season rewards', 'meta changes', 'balance update', 'current season', 'withering affixes', 'season meta']
 category: Gameplay
 version: '1.0'
-updated: '2026-07-11'
+updated: '2026-08-10'
 related:
   - tier-list-guide
   - economy-guide
   - camp-upgrades-guide
   - beginner-guide
   - pvp-guide
+  - patch-notes
 ---
 
 ## Season System Overview
@@ -21,146 +22,158 @@ Mistfall Hunter operates on seasonal content cycles. Each season introduces new 
 
 | Element | Details |
 |---------|---------|
-| Duration | ~3 months per season |
+| Duration | Approximately 3 months per season |
 | Season Pass Tiers | 50 tiers (Free) + 50 tiers (Premium) |
-| Leaderboard Reset | Yes — rank, MMR, and ladder position |
+| Leaderboard Reset | Yes — rank and ladder position |
 | Stash/Camp Reset | No — camp upgrades and warehouse persist |
 | New Content | New gear, sometimes a new class or map |
 
 ## Current Season: Season of the Withering
 
-**Duration**: June 2026 — September 2026
-**Theme**: The Withered corruption spreads, affecting boss behaviors and introducing new Withering-affixed gear.
+**Started:** At launch (July 30, 2026)
+**Theme:** The Withered corruption spreads, affecting zones and introducing Withering-affixed gear.
 
-### Theme Mechanics
+### Season Mechanics
 
-Season of the Withering introduces two temporary mechanics that will define the meta:
+Season of the Withering introduces two temporary mechanics that define the season meta:
 
 #### 1. Withering Afflicted Zones
 Random zones on each map are corrupted. Inside these zones:
-- Players take 2% HP/second decay damage
-- Enemies deal 15% more damage
-- Loot quality is increased by 1 tier (green → blue, blue → purple)
-- Bosses in afflicted zones drop additional Withering-crafted materials
+- Players take decay damage over time
+- Enemies deal more damage
+- Loot quality is increased by a tier (green → blue, blue → purple)
+- Bosses in afflicted zones drop additional season materials
 
-**Strategy**: Risk the afflicted zones if you are confident in your sustain. Bring extra healing potions and stay mobile.
+**Strategy:** risk the afflicted zones if you are confident in your sustain. Bring extra healing potions and stay mobile.
 
 #### 2. Withering Gear Affix
-A new affix available on gear drops this season:
+Withering gear drops only during the season and carries a distinctive glow. Its unique affixes rotate out when the season ends, so anything you collect is time-limited. The affix set reported by the community includes (values approximate, not independently verified):
 
-| Affix | Effect | Best On | Drop Source |
-|-------|--------|---------|------------|
-| Withering Strike | 10% chance on hit to deal 5% max HP damage over 5 seconds | DPS classes | Afflicted zone bosses |
-| Withering Ward | Taking damage has 15% chance to cleanse a debuff | Tank/Support | Afflicted zone elites |
-| Corrupted Rune | +20% ability damage but -10% max HP | High-risk builds | Obsidian Depths (seasonal) |
+| Affix | Reported Effect | Best On |
+|-------|----------------|---------|
+| Withering Strike | Bonus damage against enemies at low HP | DPS classes |
+| Rotting Aura | Enemies near you take damage over time | Zone control |
+| Grasping Vines | Chance on hit to root the target | PvP lockdown |
+| Dying Light | Bonus damage while under 50% HP | Glass cannon builds |
+| Withering Heart | More max HP but reduced healing received | Self-harm trade |
 
-### Season Pass Rewards
+**Note:** Withering affixes do **not** persist after the season. Do not build your permanent stash around them.
 
-#### Free Track (All Players)
+### Season Events
 
-| Tier | Reward | Value |
-|------|--------|-------|
-| 5 | 500 Gyldenblood | Low |
-| 10 | Common Weapon Skin | Low |
-| 15 | 1000 Gyldenblood | Medium |
-| 20 | Green Weapon Skin | Low |
-| 25 | 5x Healing Potions (Premium) | Medium |
-| 30 | Blue Armor Set (Seasonal) | Medium |
-| 35 | 2000 Gyldenblood | Medium |
-| 40 | Mist Essence x3 | High |
-| 45 | Purple Weapon (Random Class) | High |
-| 50 | Season Emote | Cosmetic |
+Community-reported seasonal events (such as "Miststorm" events) rotate through the season, offering bonus materials, season keys, and tokens. See the [Events Calendar](/guides/events-calendar) for the current schedule — event timings are approximate and can change.
 
-#### Premium Track (Purchased)
+## Season Pass Rewards
 
-| Tier | Reward | Value |
-|------|--------|-------|
-| 5 | Purple Weapon Skin | Cosmetic |
-| 10 | 2000 Gyldenblood | Medium |
-| 15 | Ancient Residue x2 | Very High |
-| 20 | Legendary Rune Fragment | Very High |
-| 25 | Seasonal Title: "Withering" | Cosmetic |
-| 30 | Purple Armor Set (Seasonal) | High |
-| 35 | 3000 Gyldenblood | Medium |
-| 40 | Withering Strike Weapon (Guaranteed) | Very High |
-| 45 | Legendary Weapon Skin | Cosmetic |
-| 50 | Seasonal Mount | Exclusive Cosmetic |
+The Season Pass runs alongside the season: 50 free tiers and 50 premium tiers, earned through in-game activities (extractions, contracts, boss kills, and challenges).
+
+### Free Track (All Players)
+
+| Tier | Reward Type | Examples |
+|------|-------------|----------|
+| 1-10 | Consumables | Healing potions, stamina potions |
+| 11-20 | Currency + cosmetics | Gyldenblood, titles, common skins |
+| 21-30 | Cosmetics + currency | Gyldenblood, uncommon skins, emotes |
+| 31-40 | Currency + consumables | Gyldenblood, key fragments, XP boosts |
+| 41-50 | Premium cosmetics | Gyldenblood, titles, cape skin |
+
+### Premium Track (Purchased)
+
+| Tier | Reward Type | Examples |
+|------|-------------|----------|
+| 1-10 | Exclusive cosmetics | Rare weapon/armor skins, titles |
+| 11-20 | Currency + cosmetics | Gyldenblood, emotes, mount skin |
+| 21-30 | Premium items | Gyldenblood, keys, camp decorations |
+| 31-40 | Exclusive cosmetics | Epic weapon/armor skins |
+| 41-50 | Premium rewards | Legendary weapon skin (account-bound, never returns), avatar frame |
+
+> **Note:** Exact tier rewards, Gyldenblood amounts, and XP requirements are approximate and have not been independently verified. The Premium Pass does not lock any gameplay content — only cosmetics and currency bonuses.
+
+### How to Earn Pass XP
+
+| Activity | Relative Value |
+|----------|---------------|
+| Successful extraction | High |
+| Daily Contract completion | Very High (first daily) |
+| Weekly Contract completion | Highest (first weekly) |
+| Kill a boss | Medium |
+| Kill a player (PvP) | Medium |
+| Open a rare chest | Low-Medium |
+| Map location discovery | Low |
 
 ### Season Challenges
 
-Complete these for bonus Season Tokens:
+Complete these for bonus Season Tokens (token values approximate):
 
-| Challenge | Tokens | Difficulty | Recommended |
-|-----------|--------|-----------|-------------|
-| Extract 10 times | 200 | Easy | Do first |
-| Kill 5 bosses | 300 | Easy | Paired with boss farming |
-| Extract from Obsidian Depths | 500 | Hard | Run with a team |
-| Win 3 PvP encounters | 400 | Medium | Camp extraction points |
-| Collect 10 Withering items | 350 | Medium | Hit afflicted zones |
-| Upgrade camp to level 5 | 500 | Long | Ongoing goal |
-| Extract 50,000 total Gyldenblood | 1000 | Grindy | Passive over the season |
+| Challenge | Difficulty | Recommended |
+|-----------|-----------|-------------|
+| Extract 10 times | Easy | Do first |
+| Kill 5 bosses | Easy | Paired with boss farming |
+| Extract from Obsidian Depths | Hard | Run with a team |
+| Win PvP encounters | Medium | Camp extraction points |
+| Collect Withering items | Medium | Hit afflicted zones |
+| Upgrade camp to a high level | Long | Ongoing goal |
+| Extract large total Gyldenblood | Grindy | Passive over the season |
 
-## Meta Changes This Season
+## Meta This Season
 
-### Top-Tier Builds (Season of the Withering)
+### Current Tier List (Season of the Withering)
 
-| Rank | Class | Build | Why It's Strong |
-|------|-------|-------|----------------|
-| S | Sorcerer | Fire/Ice hybrid + Withering Strike | Withering Strike procs on AoE, stacking on grouped enemies |
-| S | Mercenary | Bulwark Shield + Withering Ward | Virtually unkillable in afflicted zones |
-| A | Shadowstrix | Wound detonation + Poison | Withering Strike adds another DoT to juggle |
-| A | Blackarrow | Hunter spec (DoT focus) | Triple DoT build: poison + bleed + Withering |
-| B | Withered Knight | Reckoning burst | Still strong but no new synergy this season |
-| B | Seer | Pure heal + Withering Ward | Valuable for afflicted zone farming |
+Community consensus ranking, subject to change with balance patches:
 
-### Nerfed from Last Season
+| Tier | Class | Season Verdict |
+|------|-------|----------------|
+| S | Sorcerer | Elemental cycling + Withering Strike deletes low-HP targets |
+| S | Shadowstrix | Grasping Vines on daggers makes ambush combos nearly unescapable |
+| A | Mercenary | Consistent; strong block economy wins extraction wars |
+| B | Withered Knight | Strong in squads, fragile without support |
+| C | Blackarrow | PvE king, but Withering metas favor close-range burst |
+| D | Seer | Still team-dependent |
 
-| Previous Meta | Nerf | New Standing |
-|-------------|------|-------------|
-| Shadowstrix one-shot Dagger build | Damage reduced 15% | Now requires 2 rotations |
-| Sorcerer Stardust instant-cast | Cooldown increased 20% | Still strong, less oppressive |
-| Mercenary infinite block | Stamina cost increased | Now requires resource management |
+**Biggest meta shift:** Grasping Vines turned dual-wield classes (Shadowstrix) from hit-and-run into hard lockdown. If you fight one in a narrow corridor, the root is a death sentence — carry a dash tonic and never engage them in chokepoints.
 
-### Buffed from Last Season
-
-| Previous State | Buff | New Standing |
-|---------------|------|-------------|
-| Blackarrow Hunter spec | DoT damage +20% | Viable for the first time |
-| Seer healing output | Base heal +15% | Stronger support presence |
-| Green/Blue gear drop rates | Increased by 10% | Easier to gear up early season |
+See the [Tier List Guide](/guides/tier-list-guide) for the full meta discussion.
 
 ## What to Prioritize This Season
 
-### If You Are New (First 2 Weeks)
+### If You Are New
 
-1. **Complete the Free Season Pass through tier 30** — the blue armor set at tier 30 is a significant power spike
+1. **Complete the Free Season Pass through the early tiers** — the blue gear rewards are a significant power spike
 2. **Focus on the "Extract 10 times" and "Kill 5 bosses" challenges** — easiest tokens for early progression
-3. **Do not buy the Premium Pass until tier 20+** — confirm you will play enough to justify the cost
+3. **Do not buy the Premium Pass immediately** — confirm you will play enough to justify the cost
 
-### If You Are Established (Mid-Season)
+### If You Are Established
 
-1. **Farm afflicted zones** for Withering gear before the market saturates
-2. **Complete the Obsidian Depths extraction** for the 500 token reward
-3. **Buy/craft Withering Strike weapons** for your main class — they will define the meta until September
+1. **Farm afflicted zones** for Withering gear while the season lasts
+2. **Complete the Obsidian Depths extraction** for the high-token reward
+3. **Try to collect the Withering affixes for your main class** — they define the season meta
 
-### If You Are Late to the Season (Last Month)
+### If You Are Late to the Season
 
 1. **Prioritize high-token challenges** — skip easy/low token ones
-2. **Do not chase the "Extract 50,000 Gyldenblood" challenge** if you are behind — it is not worth the grind
-3. **Save resources for next season** — Withering gear loses its affixes after season end
+2. **Do not chase the huge Gyldenblood extraction challenge** if you are behind — the reward is usually a title
+3. **Spend season tokens before the finale** — unspent tokens typically lose value when the next pass starts
 
-## Meta Predictions (Next Season)
+## End-of-Season Warning
 
-Based on developer roadmaps and data mining:
-- New map expected next season: "The Sunken Citadel"
-- Potential new class: Runemaster (mid-range caster)
-- Withering affixes will rotate out, replaced by "Void" themed affixes
-- Camp upgrade cap may increase to level 10
+When the season ends at the ~3-month mark:
+
+- Withering affixes become inactive — seasonal gear reverts to normal item quality
+- Season Pass tiers lock permanently; Premium pass owners keep exclusive cosmetics
+- Leaderboards reset — final rank rewards are granted on the last day
+- Camp upgrades and warehouse storage **persist** across seasons
+
+Plan your last month around the checklist above and you will enter the next season with a stocked warehouse, upgraded camp, and a head start on the new meta.
+
+## Next Season Expectations
+
+The developers have indicated the game will receive ongoing seasonal content, but **no details or dates for the next season have been confirmed** as of this writing. Any specific claims about next-season maps, classes, or affixes found elsewhere online are speculation. We will update this page when official announcements are made.
 
 ## Related Guides
 
-- [Tier List Guide — Best Classes and Builds This Patch](/guides/tier-list-guide)
-- [Economy Guide — Make Gold and Build Wealth](/guides/economy-guide)
-- [Camp Upgrades Guide — What to Upgrade First](/guides/camp-upgrades-guide)
-- [PvP Guide — Dominate Player Combat](/guides/pvp-guide)
-- [Beginner Guide — How to Survive Your First Extraction](/guides/beginner-guide)
+- [Tier List Guide](/guides/tier-list-guide) — best classes and builds this patch
+- [Economy Guide](/guides/economy-guide) — make Gold and build wealth
+- [Camp Upgrades Guide](/guides/camp-upgrades-guide) — what to upgrade first
+- [PvP Guide](/guides/pvp-guide) — dominate player combat
+- [Beginner Guide](/guides/beginner-guide) — how to survive your first extraction
+- [Patch Notes](/guides/patch-notes) — confirmed updates and what's next

@@ -4,7 +4,7 @@ description: 'How to change your class, region, and server in Mistfall Hunter. L
 keywords: ['how to change class', 'how to change region', 'how to change server', 'class swap', 'server transfer', 'region select', 'class unlock']
 category: Mechanics
 version: '1.0'
-updated: '2026-07-11'
+updated: '2026-08-10'
 related:
   - classes-guide
   - beginner-guide
@@ -67,11 +67,11 @@ When switching classes, remember:
 2. Navigate to the **Account** tab
 3. Find the **Region** dropdown
 4. Select your preferred region from the list:
-   - North America (East / West)
-   - Europe
-   - Asia (East / Southeast)
-   - Oceania
-   - South America
+   - US (North America)
+   - DE (Europe)
+   - BR (South America)
+   - SG (Southeast Asia)
+   - CN (China)
 5. **Save and restart** the game client for the change to take effect
 
 ### Region Change Costs and Restrictions

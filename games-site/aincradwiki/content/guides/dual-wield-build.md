@@ -4,7 +4,7 @@ description: 'Complete Dual-Wield build guide for Echoes of Aincrad. Best Sword 
 keywords: ['dual-wield build', 'dual blades', 'dual wield guide', 'attack speed build', 'combo build']
 category: Builds
 version: '1.0'
-updated: '2026-07-11'
+updated: '2026-08-10'
 related:
   - weapons-guide
   - builds-guide
@@ -36,6 +36,8 @@ Fast attacks cause hit-stun on most non-boss enemies. You can keep small-to-medi
 
 ## Best Sword Skills
 
+> **Note:** Dual-Wield skill names below are community-reported; the exact skill list may differ from the current build.
+
 | Skill | Type | When to Use |
 |-------|------|------------|
 | **Sonic Leap** | Gap closer + multi-hit | Open engagements, chase runners |
@@ -57,15 +59,17 @@ Fast attacks cause hit-stun on most non-boss enemies. You can keep small-to-medi
 
 ## Best EX-Mods
 
+> **Note:** Exact bonus values below are community-reported and not independently verified.
+
 | Priority | EX-Mod | Effect |
 |----------|--------|--------|
-| 1 | Attack Speed Up | +12% attack speed (more hits = more damage) |
-| 2 | Reduced Stamina Cost | -20% SP consumption (you attack non-stop) |
-| 3 | Combo Meter Boost | +25% combo meter gain |
-| 4 | Improved Critical Rate | +12% crit chance |
-| 5 | Movement Speed Up | +15% move speed (sticky positioning) |
+| 1 | Quick Charge | Faster skill charge (more frequent Sword Skills) |
+| 2 | Power Surge | +skill damage (community-reported) |
+| 3 | Critical Edge | +crit damage (community-reported) |
+| 4 | Momentum | +damage after a perfect dodge (pairs with Blade Dance) |
+| 5 | Life Steal | Sustain — keeps you attacking non-stop |
 
-**God roll EX-Mod set**: Attack Speed + Stamina Cost + Combo Meter + Crit Rate.
+**God roll EX-Mod set**: Quick Charge + Power Surge + Critical Edge + Momentum.
 
 ## Combo Rotations
 
@@ -85,7 +89,7 @@ Double Circular → 3 light attacks → Double Circular → repeat
 | Violet Fencer | Blade Dance through her thrust combos. Stay glued to her — do not let her create distance. |
 | Ark Guardian | Risky matchup. The beam attack one-shots you. Stay behind the boss at all times. |
 | Twin Wardens | Focus Blades first. Your speed lets you attack between his flurry hits. Dodge Flames' AoE. |
-| Golem Kings | Easy matchup. Stun-lock them with constant pressure. Their slow swings cannot hit you. |
+| Corrupted Fae Lord | Tough matchup — the fight spawns dark fae adds that interrupt your combos. Clear adds first, then resume pressure. |
 
 ## Pros and Cons
 

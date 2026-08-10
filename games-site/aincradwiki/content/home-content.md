@@ -1,9 +1,9 @@
 ---
 title: "Echoes of Aincrad Wiki — Complete Guide Hub"
-description: "The ultimate community wiki for Echoes of Aincrad — the single-player action JRPG set in the SAO universe by Game Studio Inc. / Bandai Namco. Find weapon guides, build strategies, EX-Mod crafting, partner optimization, floor walkthroughs and more."
+description: "The ultimate community wiki for Echoes of Aincrad — the single-player action JRPG inspired by Sword Art Online, reportedly developed by Game Studio Inc. and published by Bandai Namco Entertainment per store listings. Find weapon guides, build strategies, EX-Mod crafting, partner guides, floor walkthroughs and more."
 category: "Home"
 version: "1.0"
-updated: "2026-08-01"
+updated: "2026-08-10"
 keywords: ["Echoes of Aincrad", "Echoes of Aincrad wiki", "Aincrad guide", "SAO game", "Sword Art Online", "action JRPG"]
 related: ["beginner-guide", "weapons-guide", "builds-guide", "ex-mod-guide"]
 ---
@@ -12,7 +12,7 @@ related: ["beginner-guide", "weapons-guide", "builds-guide", "ex-mod-guide"]
 
 **Everything you need to survive the death game — single-player only.**
 
-Echoes of Aincrad is a single-player action JRPG set in the Sword Art Online universe, developed by Game Studio Inc. and published by Bandai Namco Entertainment. It launched July 9–10, 2026 on PS5, Xbox Series X|S, and PC (Steam). You create your own beta tester avatar and fight through the first two floors of Aincrad — mastering six weapons-as-classes, crafting EX-Mods, and fighting alongside your AI partner. Note: **the game has no multiplayer or PvP** — see the [Multiplayer Status](/guides/multiplayer-coop-guide) page.
+Echoes of Aincrad is a single-player action JRPG inspired by the Sword Art Online universe, reportedly developed by Game Studio Inc. and published by Bandai Namco Entertainment per the official store listings. It reportedly launched July 9–10, 2026 on PS5, Xbox Series X|S, and PC (Steam). You create your own beta tester avatar and fight through the early floors of Aincrad — mastering six weapons-as-classes, crafting EX-Mods, and fighting alongside your AI partner. Note: **the game has no multiplayer or PvP** — see the [Multiplayer Status](/guides/multiplayer-coop-guide) page.
 
 ---
 
@@ -27,7 +27,7 @@ Echoes of Aincrad is a single-player action JRPG set in the Sword Art Online uni
 | [EX-Mod Guide](/guides/ex-mod-guide) | Weapon crafting & mods | Advanced |
 | [Partner Guide](/guides/partner-guide) | AI companion setup | Intermediate |
 | [Bosses Guide](/guides/bosses-guide) | All floor bosses | Advanced |
-| [Floor Guide](/guides/floor-guide) | Floor-by-floor walkthrough | Intermediate |
+| [Floor Order & Walkthrough](/guides/best-floor-order) | Floor-by-floor walkthrough | Intermediate |
 | [Hidden Mechanics](/guides/hidden-mechanics) | Deep systems | Advanced |
 | [Boss Rush Mode](/guides/boss-rush-mode) | Endgame gauntlet | Advanced |
 | [PvP Status](/guides/pvp-duel-guide) | Is there PvP? (No) | All |
@@ -40,7 +40,7 @@ Echoes of Aincrad is a single-player action JRPG set in the Sword Art Online uni
 ## Featured Guides
 
 ### Weapons Guide
-Six weapon types, each functioning as a distinct class: Sword & Shield, Two-Handed Axe, Dagger, Rapier, Greatsword, and Mace. There are no spellcasters — your weapon is your class. [Read the full guide →](/guides/weapons-guide)
+Six weapon types, each functioning as a distinct class: Sword & Shield, Two-Handed Axe, Dagger, Rapier, Greatsword, and Mace — plus a late-game Mage magic path. Your weapon is your class. [Read the full guide →](/guides/weapons-guide)
 
 ### EX-Mod Crafting
 Master the Smithy system. Combine weapons, transfer EX-Mods, farm materials, and craft the best modifiers for your build. [Full EX-Mod guide →](/guides/ex-mod-guide)
@@ -55,7 +55,7 @@ The endgame gauntlet — fight waves of bosses to prove your build. [Browse Boss
 
 ## What is Echoes of Aincrad?
 
-Echoes of Aincrad is a single-player action JRPG set in the Sword Art Online universe, developed by Game Studio Inc. and published by Bandai Namco Entertainment. Launched July 10, 2026 (JP July 9) on PS5, Xbox Series X|S, and PC. You play as an early beta tester in the SAO death game — creating your own avatar, fighting through the first two floors of Aincrad, and experiencing the opening of the world's most famous death game from a new perspective.
+Echoes of Aincrad is a single-player action JRPG inspired by the Sword Art Online universe, reportedly developed by Game Studio Inc. and published by Bandai Namco Entertainment per the official store listings. Reportedly launched July 9–10, 2026 on PS5, Xbox Series X|S, and PC. You play as an early beta tester in the death game — creating your own avatar, fighting through the early floors of Aincrad, and experiencing the opening of a death game inspired by SAO from a new perspective.
 
 The game combines action combat (six weapons with unique Sword Skills) with RPG progression (Cardinal Rank, Growth Points, stats) and a companion system (AI partners with Combination Skills). The free demo's save data carries into the full game.
 
@@ -63,11 +63,11 @@ The game combines action combat (six weapons with unique Sword Skills) with RPG 
 
 ## Key Systems at a Glance
 
-- **6 Weapons = 6 Classes** — Sword & Shield, Two-Handed Axe, Dagger, Rapier, Greatsword, Mace (no spellcasters)
+- **6 Weapons = 6 Classes** — Sword & Shield, Two-Handed Axe, Dagger, Rapier, Greatsword, Mace (plus a late-game Mage magic path)
 - **Single-Player Only** — AI partners instead of co-op; no PvP (see [Multiplayer Status](/guides/multiplayer-coop-guide))
 - **EX-Mod Crafting** — weapon modifier system at the Smithy
-- **Cardinal System** — rank, growth points, and stats
-- **2 Floors at Launch** — Floor 1 & 2 with expansion DLC announced for end of 2026
+- **Cardinal System** — rank, growth points, and stats (see [Progression Guide](/guides/progression-guide))
+- **Launched with 2 Floors** — more floors have been added via updates; expansion DLC announced for end of 2026
 - **Partner System** — AI companion with Combination & Support Skills
 
 ---
@@ -79,4 +79,4 @@ The game combines action combat (six weapons with unique Sword Skills) with RPG 
 
 ---
 
-*This wiki is community-maintained and reflects version 1.0.4. Content will be updated as patches and the Expansion DLC are announced.*
+*This wiki is community-maintained and reflects the current build (1.0.4 as of this writing). Content will be updated as patches and the Expansion DLC are announced.*

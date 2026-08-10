@@ -4,7 +4,7 @@ description: 'Complete Rapier build guide for Echoes of Aincrad. Best Sword Skil
 keywords: ['rapier build', 'rapier guide', 'dexterity build', 'critical build', 'parry guide', 'rapier build guide', 'echoes of aincrad rapier', 'dex build', 'rapier stats', 'rapier sword skills', 'rapier ex mods', 'parry timing']
 category: Builds
 version: '1.0'
-updated: '2026-07-23'
+updated: '2026-08-10'
 related:
   - weapons-guide
   - builds-guide
@@ -16,7 +16,9 @@ related:
 
 ## Why Play Rapier in Echoes of Aincrad?
 
-A Rapier build in Echoes of Aincrad is the highest DPS Dexterity Critical weapon setup. This guide covers the best Sword Skills, stat allocation, EX-Mods, and parry timing for dominating solo and group content with the meta Rapier playstyle.
+A Rapier build in Echoes of Aincrad is the highest DPS Dexterity Critical weapon setup. This guide covers the best Sword Skills, stat allocation, EX-Mods, and parry timing for dominating solo and partner-assisted content with the meta Rapier playstyle.
+
+> **Note:** Skill names, parry timings, and bonus values below are community-reported and not independently verified.
 
 ## Rapier Core Mechanics & Parry System
 
@@ -60,12 +62,12 @@ Multi-hit Sword Skill. Use during counter windows for maximum damage. Each hit c
 
 | Priority | EX-Mod | Effect |
 |----------|--------|--------|
-| 1 | Improved Critical Rate | +12% crit chance |
-| 2 | Counter Damage Up | +20% damage during counter windows |
-| 3 | Reduced Stamina Cost | -20% SP consumption |
-| 4 | Attack Speed Up | +12% attack speed |
+| 1 | Critical Edge | +crit damage (community-reported) |
+| 2 | Precise Strike | +crit chance on heavy attacks |
+| 3 | Agile Stance | +dodge speed (faster repositioning) |
+| 4 | Momentum | +damage after a perfect dodge |
 
-**God roll EX-Mod set**: Crit Rate + Counter Damage + Stamina Cost + Attack Speed. Visit the [EX-Mod Guide](/guides/ex-mod-guide/) for crafting recipes.
+**God roll EX-Mod set**: Critical Edge + Precise Strike + Agile Stance + Momentum. Visit the [EX-Mod Guide](/guides/ex-mod-guide) for crafting recipes.
 
 ## Rapier Parry Timing Guide for Beginners
 
@@ -79,7 +81,7 @@ The blue flash appears about 0.3 seconds before the attack lands. Press parry wh
 | Goblins | Long, generous | Good for practice |
 | Dire Wolves | Medium | Watch the leap animation |
 | Violet Fencer | Short | Parry the Lunge only (hardest move to dodge) |
-| Twin Warden Blades | Very short | Parry the third hit of Flurry — it has a blue flash |
+| Warden of Blades | Very short | Parry the third hit of Flurry — it has a blue flash |
 | Ark Guardian | None | Beam cannot be parried — dodge only |
 
 ### Practice Routine
@@ -112,11 +114,11 @@ Choosing the right rapier for your progression level matters more than raw stats
 
 | Stage | Recommended Rapier | Where to Get | Key Feature |
 |-------|-------------------|-------------|-------------|
-| **Early (F1-F10)** | Iron Stinger | Floor 3 Blacksmith | Balanced damage, low stat requirements |
-| **Mid (F11-F30)** | Crystal Needle | Floor 15 Field Boss Drop | +15% crit rate, best value for Dexterity builds |
-| **Late (F31-F50)** | Void Piercer | Floor 35 Dungeon Chest | Armor penetration + innate crit damage multiplier |
-| **Endgame (F51+)** | Reaper's Thorn | Floor 55 Raid Reward | Highest base damage + unique Parry Follow-up passive |
-| **Ultimate** | Starlight Rapier | Floor 60 World Boss | God-tier scaling. Every hit has +10% crit. Requires full Dexterity cap. |
+| **Early (Floors 1-3)** | Iron Stinger | Floor 3 Blacksmith | Balanced damage, low stat requirements |
+| **Mid (Floors 4-6)** | Crystal Needle | Floor 4-6 boss drops | +crit rate, best value for Dexterity builds |
+| **Late (Floors 7-10)** | Void Piercer | Floor 7-10 dungeon chest | Armor penetration + innate crit damage multiplier |
+| **Endgame (Golden Gate)** | Reaper's Thorn | Golden Gate rewards | Highest base damage + unique Parry Follow-up passive |
+| **Ultimate** | Starlight Rapier | Golden Gate endgame content | God-tier scaling. Every hit has +crit. Requires full Dexterity investment. |
 
 **Upgrade tip**: Invest upgrade stones into Crystal Needle first — it carries you through mid-game and the crit rate bonus scales with your Dexterity investment.
 
@@ -138,7 +140,7 @@ Practice with Linear first — its short animation makes Parry Cancelling easier
 Some enemies and bosses have multi-hit combos where every hit is parryable. Chain parrying means parrying each hit in sequence:
 - Each successful parry in a chain extends the counter window by 1 second
 - A full 3-hit chain parry gives you a 6-second counter window (base 3 + 3 extensions)
-- The Violet Fencer's triple stab and Twin Warden Blades' Flurry are prime candidates
+- The Violet Fencer's triple stab and the Warden of Blades' Flurry are prime candidates
 
 **Warning**: Chain parrying consumes more stamina per successive parry. If you are below 30% SP, reset to neutral instead.
 
@@ -200,23 +202,23 @@ Rapier builds benefit most from light armor that boosts critical stats and movem
 | Ring 2 | Crystal Ring | +8% counter window duration |
 | Necklace | Parry Master's Pendant | +5% parry window length (makes timing more forgiving) |
 
-Farm the Phantom Silk Vest from the Floor 24 dungeon boss — it alone makes your mid-game noticeably easier.
+Farm the Phantom Silk Vest from a mid-game dungeon boss (Floors 4-6) — it alone makes your mid-game noticeably easier.
 
-### Can Rapier work in group content?
+### Can Rapier work in partner-assisted content?
 
-Yes, but your role shifts. In solo play, you are the main DPS. In a party, the Rapier becomes a **burst damage support**:
+Yes, but your role shifts. In true solo play (no partner), you are the main DPS. With your AI partner, the Rapier becomes a **burst damage carry**:
 
-- Let the tank hold aggro while you position behind the boss
+- Let your partner hold aggro while you position behind the boss
 - Use Piercing Ray for consistent ranged damage instead of closing in
-- Hold your parry for the boss's most dangerous attack — parrying in a group still creates a counter window that the entire party benefits from
-- Star Splash becomes safer in group content because the boss's attention is split
-- Do not try to parry every attack in a group. You will pull aggro and get flattened
+- Hold your parry for the boss's most dangerous attack — parrying creates a counter window both you and your partner benefit from
+- Star Splash becomes safer when the boss's attention is on your partner
+- Do not try to parry every attack. You will get caught in recovery frames
 
-Rapier groups well with Axe (tank) and Bow (ranged DPS) builds. Avoid pairing with another Rapier — two glass cannons without a tank struggle in higher floors. See the [best builds guide](/guides/builds-guide/) for party composition tips.
+Rapier works well alongside partner-focused loadouts and the late-game Mage path (ranged DPS). See the [best builds guide](/guides/builds-guide) for build composition tips.
 
 ### What are the best EX-Mods for a Rapier build in Echoes of Aincrad?
 
-The best EX-Mods for a Rapier build are, in order of priority: Improved Critical Rate (+12% crit chance), Counter Damage Up (+20% damage during counter windows), Reduced Stamina Cost (-20% SP consumption), and Attack Speed Up (+12% attack speed). The god roll set combines all four, maximizing your damage output during parry counter windows while ensuring you have enough stamina to execute the full rotation. Check the [EX-Mod Guide](/guides/ex-mod-guide/) for detailed crafting information.
+The best EX-Mods for a Rapier build are, in order of priority: Critical Edge (+crit damage), Precise Strike (+crit chance on heavy attacks), Agile Stance (+dodge speed), and Momentum (+damage after a perfect dodge). The god roll set combines all four, maximizing your damage output during parry counter windows while keeping you mobile. Check the [EX-Mod Guide](/guides/ex-mod-guide) for detailed crafting information.
 
 ### How do I practice parry timing for Rapier in Echoes of Aincrad?
 

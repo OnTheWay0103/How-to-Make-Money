@@ -3,8 +3,8 @@ title: 'Mistfall Hunter Loot Rarity Guide — Item Tiers, Drop Systems, and Farm
 description: 'Complete guide to Mistfall Hunter loot rarity and drop system. Item tiers from Common to Legendary, how drop rates work, best farming routes per tier, and how to identify high-value loot before extraction.'
 keywords: ['mistfall hunter loot rarity', 'mistfall hunter item tiers', 'mistfall hunter drop rates', 'mistfall hunter loot farming', 'mistfall hunter gear rarity', 'mistfall hunter extraction loot', 'mistfall hunter loot routes']
 category: Guides
-version: 'Playtest'
-updated: '2026-07-23'
+version: '1.0'
+updated: '2026-08-10'
 related:
   - extraction-guide
   - gear-farming-guide
@@ -16,6 +16,8 @@ related:
 ## Loot and Rarity Guide — Item Tiers, Drop Systems, and Farming Routes
 
 Mistfall Hunter uses a tiered loot system where item quality directly affects stats, bonuses, and overall value. Understanding the rarity tiers, how loot drops are calculated, and where to farm specific tiers is the difference between extracting with vendor-trash and extracting with endgame gear.
+
+> **Note:** Drop-rate percentages, key drop chances, suffix weights, and repair costs below are community-reported approximations, not officially published figures.
 
 ---
 

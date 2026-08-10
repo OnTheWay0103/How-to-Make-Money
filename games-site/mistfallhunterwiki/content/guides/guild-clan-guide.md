@@ -4,17 +4,19 @@ description: 'Complete guild and clan guide for Mistfall Hunter. Create a guild,
 keywords: ['guild guide', 'clan guide', 'guild system', 'guild wars', 'guild perks', 'clan management']
 category: Guides
 version: '1.0'
-updated: '2026-07-29'
+updated: '2026-08-10'
 related:
   - bounty-guide
   - weekly-challenges
   - camp-upgrades-guide
-  - extraction-tips
+  - extraction-guide
 ---
 
 ## Guild System Overview
 
 Guilds in Mistfall Hunter are player-run organizations that provide **shared bonuses, exclusive content, and competitive play**. Whether you want a casual social group or a hardcore PvP guild, the system supports both.
+
+> **Note:** Guild costs, XP values, perk effects, and war rewards below are community-reported approximations and may differ from the live game.
 
 ### What Guilds Offer
 
@@ -201,4 +203,4 @@ Guild Wars are week-long competitive events between two guilds.
 - [Bounty Guide: Hunting Down a Target](/guides/bounty-guide)
 - [Weekly Challenges: Schedule and Rewards](/guides/weekly-challenges)
 - [Camp Upgrades Guide: Building Your Base](/guides/camp-upgrades-guide)
-- [Extraction Tips: Advanced Strategies](/guides/extraction-tips)
+- [Extraction Guide: Getting Out Alive](/guides/extraction-guide)

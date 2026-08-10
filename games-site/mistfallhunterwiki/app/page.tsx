@@ -51,7 +51,7 @@ const FEATURED_GUIDES = [
 const FAQ_ITEMS = [
   {
     question: 'What is Mistfall Hunter?',
-    answer: 'Mistfall Hunter is a dark fantasy PvPvE extraction ARPG launching July 29, 2026 on Steam, PS5, and Xbox Series X|S. You play as a Gyldhunter descending into mist-shrouded ruins to scavenge Gyldenblood and gear — but if you die, you lose everything.',
+    answer: 'Mistfall Hunter is a dark fantasy PvPvE extraction ARPG released July 30, 2026 on Steam, PS5, and Xbox Series X|S. You play as a Gyldhunter descending into mist-shrouded ruins to scavenge Gyldenblood and gear — but if you die, you lose everything.',
   },
   {
     question: 'How many classes are there?',
@@ -71,7 +71,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'When is the release date?',
-    answer: 'Mistfall Hunter launches on July 29, 2026. An open beta with all 6 classes is expected before launch. The game had a popular demo during Steam Next Fest (June 2026).',
+    answer: 'Mistfall Hunter released on July 30, 2026. Timed demos were offered during Steam Next Fest events before launch, and all playtest and beta progress was wiped for the full release. See the [Demo & Beta History guide](/guides/demo-beta-guide) for details.',
   },
 ];
 

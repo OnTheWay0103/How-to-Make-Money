@@ -1,23 +1,22 @@
 ---
-title: 'Solo Play Guide — How to Extract Alone'
-description: 'Complete solo play guide for Mistfall Hunter. Best classes, strategies, risk management, and tips for extracting alone against squads in PvPvE zones.'
-keywords: ['solo guide', 'solo play', 'solo extraction', 'playing alone', 'solo tips', 'solo strategies']
+title: 'Solo Play Guide — Best Solo Builds and How to Extract Alone'
+description: 'Complete solo play guide for Mistfall Hunter. Best classes and solo builds, gear affixes, strategy, risk management, and tips for extracting alone against squads in PvPvE zones.'
+keywords: ['solo guide', 'solo play', 'solo extraction', 'playing alone', 'solo tips', 'solo strategies', 'solo build', 'solo loadout']
 category: Strategy
 version: '1.0'
-updated: '2026-08-01'
+updated: '2026-08-10'
 related:
   - beginner-guide
   - extraction-guide
-  - shadowstrix-build-guide
-  - server-regions-ping-guide
+  - classes-guide
+  - weapons-guide
+  - tier-list-guide
   - patch-notes
 ---
 
 ## Is Solo Play Viable?
 
-**Yes, with one major post-launch caveat.** Mistfall Hunter fully supports solo play — but since the July 30, 2026 release, **only the first map (Weavereach) is available to solo players**. The second map is trio-only: solo and duo players literally cannot queue into it. There is also **no Duo queue** — matchmaking is Solo or Trio, nothing in between.
-
-This lockout is the game's biggest design controversy right now (players call it "discrimination against solo players", and the beta had promised shared maps). If you are a solo player: you can still play the entire first map, extract, and progress your character — you just cannot access map two until you form a 3-person party. Everything else in this guide still applies to your solo queue experience.
+**Yes — with one important caveat.** Mistfall Hunter fully supports solo play through the Solo queue. As of this writing, the second map is locked to Trio queue only, and there is **no Duo queue** — matchmaking is Solo or Trio, nothing in between. If you are a solo player, you can play the entire first map, extract, and progress your character — you just need a 3-person party to access the trio-only map. This design has been widely discussed by the community and could change in future updates; we track changes on the [Patch Notes](/guides/patch-notes) page.
 
 ## Best Classes for Solo
 
@@ -29,6 +28,8 @@ This lockout is the game's biggest design controversy right now (players call it
 | **Withered Knight** | B | Strong 1v1 but struggles when third-partied. |
 | **Blackarrow** | C | Difficult in close-quarters. Open-map only. |
 | **Seer** | D | Do not play Seer solo. No escape, no damage, no chance. |
+
+*Ratings reflect community consensus and can shift with balance patches — check the [Tier List Guide](/guides/tier-list-guide) for the current meta.*
 
 ## Solo Mindset: Risk Management
 
@@ -44,20 +45,97 @@ The #1 difference between solo and squad play is **risk tolerance**:
 
 **Solo rule #1**: An extracted green item is worth more than a purple item in your death bag.
 
-### Solo Ratings After the July 30 Launch Balance
+## Solo Builds by Class
 
-The 1.0 build rebalanced every class, and the day-one hotfix buffed Withered Knight again. The solo table above was written for the beta; the post-launch reality:
+Solo builds prioritize **survivability, disengage potential, and burst damage** over sustained DPS or team utility. There is no one to peel for you.
 
-| Class | Post-Launch Solo Rating | Why |
-|-------|:--:|-----|
-| **Shadowstrix** | S | Still the best solo class — stealth remains unchanged by the rebalance |
-| **Withered Knight** | A (was B) | Day-one buffs (Charged Dash, Lance Combo) make it a stronger 1v3 brawler |
-| **Mercenary** | A | Block economy improved slightly in 1.0 |
-| **Blackarrow** | B (was C) | 1.0 buffed headshot consistency; still weak in close quarters |
-| **Sorcerer** | B (was A) | 1.0 nerfed Glacial Blink charges from 3 to 2 — escape tool gutted |
-| **Seer** | D | Unchanged — do not play Seer solo |
+| Principle | Why It Matters |
+|-----------|---------------|
+| **Self-sustain** | No healer means you must heal yourself |
+| **Disengage tools** | When outnumbered, you need an escape button |
+| **Burst damage** | Kill one target fast to even the odds or scare off remaining enemies |
+| **Stealth options** | Avoid fights you cannot win; pick your engagements |
+| **Mobility** | Faster rotation = harder to pin down |
 
-See the [Tier List Guide](/guides/tier-list-guide) for the full meta discussion.
+### Shadowstrix (S-Tier Solo)
+
+- **Weapon**: Dual Daggers — highest burst damage in the game
+- **Key affixes**: Crit Damage, Lifesteal on Crit
+- **Armor affixes**: Move Speed, Stealth Detection Range
+- **Core abilities**: Shadow Strike (gap closer), Smoke Bomb (AoE blind), Vanish (stealth reset)
+
+**Playstyle:** scout first, pick isolated targets, open with Shadow Strike → backstab → Dagger Flurry → Vanish out. One combo, one kill. If the first burst does not kill, disengage.
+
+### Mercenary (A-Tier Solo)
+
+- **Weapon**: Sword & Shield — block is your safety net
+- **Key affixes**: Block Stamina Reduction, Counter Damage
+- **Armor affixes**: HP, Healing Received
+- **Core abilities**: Shield Charge (stun + gap close), War Cry (AoE taunt + shield), Retreat (backstep with invulnerability frames)
+
+**Playstyle:** block and counter — hold block, wait for attacks, punish during recovery. Fight with your back to a wall so you cannot be flanked. Bait overcommitment, then Shield Charge + punish. Mercenary wins attrition fights.
+
+### Sorcerer (A-Tier Solo)
+
+- **Weapon**: Elemental Focus (Fire or Ice) — burst damage + utility
+- **Key affixes**: Spell Cast Speed, Mana Regen
+- **Armor affixes**: Damage Reduction, Movement Speed While Casting
+- **Core abilities**: Glacial Blink (teleport — the best escape in the game), Firestorm (AoE damage), Ice Barrier (shield + slow)
+
+**Playstyle:** keep distance, use fire + ice combos, third-party whenever possible, and never fight indoors — Sorcerer needs space to kite.
+
+### Withered Knight (B-Tier Solo)
+
+- **Weapon**: Greatsword — high single-target damage
+- **Key affixes**: Life Steal on Hit, Attack Speed
+- **Armor affixes**: Armor, Stun Resistance
+- **Core abilities**: Soul Cleave (life steal + damage), Dark Charge (gap closer), Necrotic Shield (damage return)
+
+**Playstyle:** play aggressively in 1v1 situations — you win most fair fights. Avoid open areas where you can get kited or third-partied. Use terrain to limit enemy approach angles.
+
+### Blackarrow (C-Tier Solo)
+
+- **Weapon**: Longbow
+- **Key affixes**: Range, Headshot Damage
+- **Core abilities**: Arrow Rain (AoE), Eagle Sight (zoom), Trap (proximity alarm)
+- **Strategy**: stay at maximum range, use traps to cover your flanks, extract early
+
+### Seer (D-Tier Solo)
+
+Do not play Seer solo. Seer has no escape, no burst damage, and relies entirely on teammates for protection. If you must play Seer solo, build for maximum survivability and accept that you are playing on hard mode.
+
+## Universal Solo Build Tips
+
+### Gear Priority
+
+| Priority | Affix | Works On |
+|----------|-------|----------|
+| 1 | Move Speed | All classes |
+| 2 | Self-healing (Lifesteal / Life on Kill) | All classes |
+| 3 | Stamina/Mana Regen | All classes |
+| 4 | Stealth Detection | Soft counters Shadowstrix ambushes |
+| 5 | Damage Reduction | Squishy classes (Sorcerer, Blackarrow) |
+
+### Camp Upgrade Priority for Solo Players
+
+| Upgrade | Why |
+|---------|-----|
+| **Warehouse** | More storage means fewer forced extractions |
+| **Gyldenblod Pool** | Heal between extractions without burning potions |
+| **Goddess Statue** | Unlocks core progression |
+| **Tavern** | Passive buffs |
+
+See the [Camp Upgrades Guide](/guides/camp-upgrades-guide) for costs and level details.
+
+### Solo Loadout Templates
+
+| Budget | Weapon | Armor | Consumables | Strategy |
+|--------|--------|-------|-------------|----------|
+| Low | Green weapon, no affixes | Green armor | 2 healing potions | Loot edges, extract early |
+| Medium | Blue weapon, 1 affix | Green armor | 3 healing, 1 stamina potion | Mid-map, pick fights carefully |
+| High | Blue+ weapon, 2 affixes | Blue armor | Full consumables (heal, stamina) | Full map, contest high-value zones |
+
+**Never risk more than you can afford to lose.** If your stash is low, do not bring a loadout worth most of it.
 
 ## Solo Strategy by Phase
 
@@ -97,7 +175,7 @@ This is the critical decision point:
 
 ### Phase 4: Extraction (Minutes 12-15)
 
-- Plan your extraction route at least 2 minutes before the mist closes
+- Plan your extraction route well before the mist closes
 - Scout the extraction point from cover before approaching
 - If occupied: wait. If clear: channel immediately.
 - Channel tip: face the most likely approach direction while channeling — you can see enemies coming
@@ -122,26 +200,6 @@ As a solo player, **audio is your most important tool**:
 
 **Play with headphones.** Stereo audio is essential for tracking player positions.
 
-## Solo Loadout Recommendations
-
-### Budget Run (Low Risk)
-- Green weapon + green chest armor
-- 2 healing potions
-- 1 stamina potion
-- Goal: extract with any profit. Cost of loadout < 100 Gyldenblood.
-
-### Standard Run (Medium Risk)
-- Blue weapon + blue chest/helmet
-- 3 healing potions + 2 stamina potions + bandages
-- Goal: farm Corroded camps and extract with blue+ loot
-
-### High-Stakes Run (High Risk)
-- Purple weapon + purple armor (3+ pieces)
-- Full consumable set
-- Goal: hunt the Woodling, contest high-value zones, extract with epic loot
-
-**Never risk more than you can afford to lose.** If your stash has 500 Gyldenblood, do not bring a 400 GB loadout. The math stays simple.
-
 ## Recovering from Loss Streaks
 
 Everyone goes broke sometimes. Recovery plan:
@@ -152,12 +210,12 @@ Everyone goes broke sometimes. Recovery plan:
 
 ## The Trio-Only Map — What Solo Players Can Do
 
-The second map is locked to Trio queue at launch (July 30, 2026), and there is no Duo queue. If you want the second map's loot and bosses, your options:
+The second map is locked to Trio queue as of this writing, and there is no Duo queue. If you want that map's loot and bosses, your options:
 
-1. **Use the in-game LFG chat** — the global chat is active post-launch; "anyone need a third for map 2" fills quickly during EU/US peak hours.
-2. **Keep your trio tight** — a trio of solos beats a trio of randoms. Add good teammates from extraction-friendly runs; the game's social features (recent players, friend invites) work cross-platform.
-3. **Accept the solo loop** — map one has everything you need to progress your camp, stash, and character. The second map is endgame loot territory, not a requirement for the daily loop.
-4. **Watch for updates** — the map lockout is the game's loudest criticism and the developers have acknowledged solo-player feedback. If a change comes, we will update this page within 48 hours (tracked on the [Patch Notes](/guides/patch-notes) page).
+1. **Use in-game LFG channels** — "anyone need a third for map 2" fills quickly during EU/US peak hours
+2. **Keep your trio tight** — a trio of solos beats a trio of randoms. Add good teammates from extraction-friendly runs
+3. **Accept the solo loop** — the first map has everything you need to progress your camp, stash, and character. The second map is endgame loot territory, not a requirement for the daily loop
+4. **Watch for updates** — solo-access feedback is the game's loudest community discussion; if a change comes, we will update this page (tracked on the [Patch Notes](/guides/patch-notes) page)
 
 ## Quick Solo Tips
 
@@ -168,3 +226,12 @@ The second map is locked to Trio queue at launch (July 30, 2026), and there is n
 - **Patience wins** — waiting 30 seconds for enemies to leave an extraction point is better than a 50/50 fight
 - **You do not need to kill the Woodling every run** — alternative exits + modest loot = profit
 - **Record your deaths** — every death is a lesson. What could you have done differently?
+
+## Related Guides
+
+- [Beginner Guide](/guides/beginner-guide) — the fundamentals
+- [Extraction Guide](/guides/extraction-guide) — extraction mechanics and solo routes
+- [Classes Guide](/guides/classes-guide) — all six classes and their kits
+- [Weapons Guide](/guides/weapons-guide) — weapon types and pairings
+- [Tier List Guide](/guides/tier-list-guide) — the current class meta
+- [Patch Notes](/guides/patch-notes) — what changed and what's next

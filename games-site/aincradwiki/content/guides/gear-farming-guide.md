@@ -4,7 +4,7 @@ description: 'Complete gear farming guide for Echoes of Aincrad. Best farming ma
 keywords: ['gear farming', 'equipment guide', 'farming route', 'material farming', 'weapon upgrade']
 category: Guides
 version: '1.0'
-updated: '2026-07-11'
+updated: '2026-08-10'
 related:
   - ex-mod-guide
   - leveling-guide
@@ -28,59 +28,62 @@ Gear is divided into **weapons**, **armor**, and **accessories**. Each piece has
 
 ## Best Farming Maps by Floor
 
+> **Note**: Per-hour drop estimates below are community-reported and not independently verified.
+
 ### Floor 1 — The Forest
 **Best for**: Beginners, Iron Ore, Beast Hide, Common weapons
 **Farming Target**: Goblin Camp (west side), Dire Wolf den (north)
 **Drops Per Hour**: 30-40 Iron Ore, 15-20 Beast Hide
-**Boss**: Goblin Chieftain (Common-rare weapons)
+**Boss**: Illfang the Kobold Lord (Common-rare weapons)
 
-### Floor 2 — Crystal Caverns
+### Floor 2 — Twin Valleys
+**Best for**: Refined Ore, early Epic crafting materials
+**Farming Target**: Golem patrols, cave bats
+**Drops Per Hour**: 20-30 Refined Ore, 5-8 gems
+**Boss**: Floor 2 zone boss (see the [Bosses Guide](/guides/bosses-guide))
+
+### Floor 3 — Fae Wilds
 **Best for**: Crystal Shards, gem crafting materials
-**Farming Target**: Crystal Golem spawns, cave bats
-**Drops Per Hour**: 20-30 Crystal Shards, 5-8 Refined Gems
+**Farming Target**: Fae enemies, Crystal Caverns chests
+**Drops Per Hour**: 10-15 Crystal Shards, 2-4 accessories
 **Boss**: Crystal Guardian (Uncommon armor pieces)
-
-### Floor 3 — Flooded City
-**Best for**: Water-element materials, rare accessories
-**Farming Target**: Water spirits, flooded ruins chests
-**Drops Per Hour**: 10-15 Water Essence, 2-4 accessories
-**Boss**: Leviathan Spawn (Uncommon-rare accessories)
 
 ### Floor 4 — Plains of War
 **Best for**: Refined Steel, Harpy Feathers, Golem Cores
 **Farming Target**: Harpy nests (east), Golem patrol route
 **Drops Per Hour**: 15-20 Refined Steel, 10-12 Golem Cores
-**Boss**: War Golem Commander (Rare weapons, Epic chance)
+**Boss**: General Aldrich (Rare weapons, Epic chance)
 
 ### Floor 5 — Ancient Library
 **Best for**: Spell Tomes, Magic-type weapons, Scroll materials
 **Farming Target**: Animated Armor, floating Tomes
 **Drops Per Hour**: 8-12 Spell Tomes, 5-8 Scroll Fragments
-**Boss**: Arcane Construct (Rare mage weapons, Epic chance)
+**Boss**: The Archivist (Rare mage weapons, Epic chance)
 
 ### Floor 7 — Lava Fields
 **Best for**: Fire Essence, Demon Horns, high-end weapons
 **Farming Target**: Lizardman camps, Demon patrols
 **Drops Per Hour**: 10-15 Fire Essence, 5-8 Demon Horns
-**Boss**: Flame Demon Lord (Epic weapons, rare Legendary chance)
+**Boss**: Ifrit (Epic weapons, rare Legendary chance)
 
 ### Floor 10 — Sky Fortress (Endgame)
 **Best for**: Endgame weapons, Legendary upgrade materials
 **Farming Target**: Angelic Knights, sky serpents
 **Drops Per Hour**: 3-5 Epic Essence, 1-2 Legendary Shards
-**Boss**: Celestial Warden (Highest Legendary drop rate)
+**Boss**: Angel of the Sundered Skies (Highest Legendary drop rate)
 
 ## Boss Drop Tables
 
+> **Note**: Drop rates below are community-reported and not independently verified.
+
 | Boss | Floor | Guaranteed Drop | Chance Drops | Rare Drop |
 |------|-------|----------------|--------------|-----------|
-| Goblin Chieftain | 1 | Common weapon | Iron Ore x5 | Uncommon weapon (15%) |
-| Crystal Guardian | 2 | Crystal Shards x10 | Uncommon armor | Rare helmet (8%) |
-| Leviathan Spawn | 3 | Water Essence x5 | Uncommon accessory | Rare ring (10%) |
-| War Golem Commander | 4 | Golem Core x3 | Rare weapon | Epic weapon (3%) |
-| Arcane Construct | 5 | Spell Tome x3 | Rare mage weapon | Epic staff (5%) |
-| Flame Demon Lord | 7 | Fire Essence x5 | Epic weapon | Legendary weapon (1%) |
-| Celestial Warden | 10 | Legendary Shard x1 | Epic armor set | Legendary armor (5%) |
+| Illfang the Kobold Lord | 1 | Common weapon | Iron Ore x5 | Uncommon weapon (15%) |
+| Crystal Guardian | 3 | Crystal Shards x10 | Uncommon armor | Rare helmet (8%) |
+| General Aldrich | 4 | Golem Core x3 | Rare weapon | Epic weapon (3%) |
+| The Archivist | 5 | Spell Tome x3 | Rare mage weapon | Epic staff (5%) |
+| Ifrit | 7 | Fire Essence x5 | Epic weapon | Legendary weapon (1%) |
+| Angel of the Sundered Skies | 10 | Legendary Shard x1 | Epic armor set | Legendary armor (5%) |
 
 ## Upgrade Paths
 
@@ -115,7 +118,7 @@ Same pattern as weapons, but armor drops less frequently. Prioritize:
 |----------|---------------|-----|
 | Iron Ore | Floor 1 — Goblin Camp | Basic upgrades, Common-Uncommon crafting |
 | Beast Hide | Floor 1 — Dire Wolf packs | Armor crafting, leather materials |
-| Crystal Shards | Floor 2 — Crystal Caverns | Rare upgrades, gem crafting |
+| Crystal Shards | Floor 3 — Crystal Caverns | Rare upgrades, gem crafting |
 | Refined Steel | Floor 4 — Golem patrols | Rare weapon crafting |
 | Golem Core | Floor 4 — War Golem | EX-Mod transfer material |
 | Fire Essence | Floor 7 — Lava Fields | Epic upgrades |
@@ -125,8 +128,8 @@ Same pattern as weapons, but armor drops less frequently. Prioritize:
 ## Quick Tips
 
 - **Do not upgrade Common gear** — save materials for Uncommon and above. Common gear is replaced too quickly.
-- **Farm in short bursts** — 30 minutes per farming session is optimal. Your drop rate decays after extended farming (anti-farm mechanic).
-- **Always carry a luck-boosting food buff** — +15% rare drop rate from cooked meals. Craft at any campfire.
-- **EX-Mod transfer is expensive** — only transfer Rare+ EX-Mods. Sell weapons with Common EX-Mods for Gyldenblood.
-- **Boss respawn timers vary** — Floor bosses respawn every 2 hours. Field bosses respawn in 15-30 minutes.
-- **Party up for boss farming** — even with random players, boss kill speed increases dramatically with 2+ players, and drop rates are not split.
+- **Farm in short bursts** — 30 minutes per session is a good rule of thumb. Some players report drop rates decaying after extended farming (anti-farm mechanic), but this has not been confirmed.
+- **Always carry a luck-boosting food buff** — cooked meals reportedly boost rare drop rates (community-reported). Craft at any campfire.
+- **EX-Mod transfer is expensive** — only transfer Rare+ EX-Mods. Sell weapons with Common EX-Mods for Col.
+- **Boss respawn timers vary** — community reports suggest floor bosses respawn in roughly 2 hours and field bosses in 15-30 minutes, but these timers are not independently verified.
+- **Bring your AI partner for boss farming** — boss kill speed increases noticeably with your partner's help, and drop rates are not split.

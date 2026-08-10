@@ -2,17 +2,19 @@
 title: "Witchspire Trading and Economy Guide — Currency, Vendors, and Resource Value"
 description: "Complete economy guide for Witchspire. How trading works, vendor mechanics, resource tier values, what to keep vs. sell, and strategies for building wealth across all regions."
 category: "Guides"
-version: "0.1.1d"
-updated: "2026-07-23"
+version: "0.1.4"
+updated: "2026-08-10"
 keywords: ["Witchspire trading", "Witchspire economy", "Witchspire vendors", "Witchspire currency", "Witchspire what to sell", "Witchspire resource value", "Witchspire wealth"]
-related: ["farming-guide", "building-construction-guide", "beginner-guide", "crafting-guide", "hearth-upgrade-guide"]
+related: ["farming-guide", "beginner-guide", "crafting-guide", "hearth-upgrade-guide"]
 ---
 
 # Trading and Economy Guide — Currency, Vendors, and Resource Value
 
-> **Applies to EA v0.1.1d / Updated: July 23, 2026**
+> Last verified: August 10, 2026
 
 Witchspire's economy is primarily resource-based with vendor shops providing a steady outlet for surplus materials. Unlike traditional MMO economies, there is no global auction house or player-to-player trading — wealth is measured by your material stockpiles and Hearth upgrades rather than coin. This guide explains how the economy works, how to value resources, and how to avoid wasting limited materials.
+
+> **Note:** prices, payouts, and percentages below come from community reports and have not been independently verified. Treat numbers as approximate.
 
 ---
 
@@ -57,7 +59,7 @@ Vendors are scattered across each region. They stock a rotating inventory of bas
 
 - **Daily reset** (real-time 24h): Basic stock refreshes
 - **Bi-weekly reset**: Rare recipes and limited-stock items refresh
-- **No player-driven market** exists as of EA v0.1.1d — all trading is vendor-based
+- **No player-driven market** exists in the current build — all trading is vendor-based
 
 ### Vendor Reputation
 
@@ -160,7 +162,7 @@ Not everything a vendor sells is worth buying. Here is what is actually good val
 | Item | Vendor | Cost | Worth It? |
 |------|--------|------|-----------|
 | Sunbloom Seeds | General Merchant | 10 Gold | Yes — infinite healing |
-| Basic Capture Orb | General Merchant | 25 Gold | Yes — familiar catching |
+| Nectar | General Merchant | low | Yes — base for all potions |
 | Coal | Timberline Trader | 15 Gold each | Only if you cannot mine it |
 | Crystal Shards | Alchemist | 20 Gold each | Only for urgent potion needs |
 | Moonleaf Seeds | Timberline Trader | 50 Gold | Yes — unlocks late-game farming |
@@ -172,7 +174,6 @@ Not everything a vendor sells is worth buying. Here is what is actually good val
 ## Related Guides
 
 - [Farming Guide: Crops and Resource Management](/guides/farming-guide)
-- [Building Construction Guide: Base Upgrades](/guides/building-construction-guide)
 - [Beginner Guide: First 5 Hours Resource Priority](/guides/beginner-guide)
 - [Crafting Guide: Stations, Materials, and Recipes](/guides/crafting-guide)
 - [Hearth Upgrade Guide: Unlocking Stations](/guides/hearth-upgrade-guide)

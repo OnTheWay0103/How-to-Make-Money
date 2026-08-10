@@ -4,7 +4,7 @@ description: 'Complete breakdown of all 6 Echoes of Aincrad weapon types. Sword 
 keywords: ['weapons guide', 'best weapon', 'weapon types', 'sword and shield', 'rapier', 'greatsword', 'dagger']
 category: Weapons
 version: '1.0'
-updated: '2026-07-07'
+updated: '2026-08-10'
 related:
   - beginner-guide
   - builds-guide
@@ -13,7 +13,7 @@ related:
 
 ## Weapon Overview
 
-Echoes of Aincrad has 6 weapon types. Your weapon is your class — there are no spellcasters. Each weapon has unique Sword Skills, attack patterns, and playstyles.
+Echoes of Aincrad has 6 weapon types. Your weapon is your class — none of the six use magic (a separate Mage magic path unlocks in the late game). Each weapon has unique Sword Skills, attack patterns, and playstyles.
 
 | Weapon | Style | Shield? | Speed | Difficulty |
 |--------|-------|---------|-------|------------|
@@ -67,7 +67,7 @@ Wide sweeping attacks that hit multiple enemies. The best weapon for clearing gr
 - **Pros**: Best AoE damage, strong guard breaks
 - **Cons**: Slow recovery, vulnerable during long animations
 - **Best Sword Skills**: Whirlwind (360 AoE), Boulder Breaker (slam)
-- **Ideal for**: Mob farming, area control, group encounters
+- **Ideal for**: Mob farming, area control, clearing packs alongside your partner
 
 ## 6. Mace — Stagger Specialist
 

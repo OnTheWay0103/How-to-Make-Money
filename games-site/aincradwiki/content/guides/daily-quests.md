@@ -1,153 +1,112 @@
 ---
-title: "Daily Quests Guide – Aincrad Wiki"
-description: "Maximize your daily rewards in Aincrad — a complete list of every daily quest, optimal rotation, time investment, Col farming, and reputation gains for floors 1 through 75."
+title: "Daily Quests Guide — Repeatable Quests and Rewards in Aincrad"
+description: "Daily and repeatable quests in Echoes of Aincrad — where to find quest boards on each floor, the best daily rotation, and how to farm Col, experience, and materials. Reward numbers are community-reported and not officially published."
 category: "Quests"
 version: 1.0
-updated: "2026-07-30"
-keywords: ["daily quests", "dailies", "reputation", "col", "farming", "floor quests", "rewards", "efficiency"]
-related: ["col-farming", "reputation-guide", "leveling-guide"]
+updated: "2026-08-10"
+keywords: ["daily quests", "dailies", "col farming", "repeatable quests", "quest board", "rewards", "efficiency"]
+related: ["leveling-guide", "farming-spots", "gear-farming-guide", "progression-guide"]
 ---
 
 ## Overview
 
-Daily quests are the backbone of Aincrad's endgame economy and reputation system. Each floor offers unique tasks that reward Col, experience, crafting materials, and faction reputation. This guide breaks down every active daily quest, the optimal order to complete them, and how to maximize your hourly return.
+Daily quests are repeatable quest-board contracts that refresh each day. They are one of the most reliable ways to earn **Col** (the in-game currency), experience, crafting materials, and healing items. This guide covers how dailies work, the best ones on each floor, and an efficient rotation.
+
+> **Note on numbers:** Echoes of Aincrad does not publish official reward tables. The Col and experience figures below are community-reported estimates and can change with balance patches — treat them as rough ranges, not exact values.
 
 ---
 
-## Daily Quest Overview
+## How Daily Quests Work
 
-| Floor | Quests Available | Total Rewards | Time Required | Priority |
-|------|-----------------|---------------|---------------|----------|
-| 1–10 | 8 | 12,000 Col + 50k XP | 20 min | Low |
-| 11–25 | 12 | 28,000 Col + 120k XP | 35 min | Medium |
-| 26–50 | 10 | 45,000 Col + 250k XP | 40 min | High |
-| 51–75 | 14 | 120,000 Col + 600k XP | 60 min | ⭐ Essential |
-
----
-
-## Floor 1–10: Beginner Dailies
-
-Best for new players and alt characters. These are quick, safe, and require no special gear.
-
-| Quest | Giver | Objective | Reward | Time |
-|-------|-------|-----------|--------|------|
-| Materials for the Smith | Blacksmith (Floor 1) | Gather 10 Iron Ore | 1,500 Col, +50 Rep | 3 min |
-| Pest Control | Farmer Raul (Floor 2) | Kill 8 Frenzy Boars | 2,000 Col, +75 Rep | 4 min |
-| Lost Cat | Town Crier (Floor 3) | Find Mrs. Whiskers | 1,800 Col | 2 min |
-| Herb Collection | Apothecary (Floor 4) | Gather 5 Moon Flowers | 1,200 Col, +3 Healing Potion | 3 min |
-| Guard Patrol | Guard Captain (Floor 5) | Report at 3 checkpoints | 2,500 Col, +100 Rep | 5 min |
-
-**Tip:** Skip "Lost Cat" unless you know the spawn location — it varies per day and can waste time searching.
+- **Where to find them:** each floor's safe town has a quest board (or quest-givers near it). The Town of Beginnings board on Floor 1, the Marunne quest board on Floor 2, and the Fae Enclave on Floor 3 all offer repeatable contracts.
+- **Reset:** quests refresh daily. A few repeatable contracts (like the Marunne board's Boar Hunt) can also be re-accepted after completion.
+- **Progression:** completing dailies raises quest-board reputation with each floor's faction, which unlocks better merchant stock on that floor. Exact reputation values are not officially published.
+- **Partner help:** your AI partner fights alongside you, so kill-count quests progress with a partner equipped — useful on the higher floors.
+- **Cards:** daily rewards scale with Cardinal Rank — higher ranks see better reward ranges, but enemies scale up too.
 
 ---
 
-## Floor 11–25: Midgame Dailies
+## Daily Quests by Floor
 
-These introduce combat challenges and require a gear score of at least **800**.
+### Floors 1–3 (Early Game)
 
-| Quest | Floor | Objective | Reward | Difficulty |
-|-------|-------|-----------|--------|------------|
-| Venom Extraction | 14 | Collect 5 Spider Venom Sacs | 4,500 Col, +150 Rep | Easy |
-| Shadow Culling | 17 | Kill 12 Shadow Wraiths | 5,000 Col, +200 Rep | Medium |
-| Courier Run | 19 | Deliver package across 2 zones | 3,000 Col | Easy |
-| Arena Initiation | 22 | Win 3 practice duels | 6,000 Col, +250 Arena Rep | Medium |
-| Material Transmutation | 25 | Deliver 3 Refined Crystals | 5,500 Col, +50 Smith Rep | Easy |
+| Quest | Floor / Location | Objective | Reported Rewards |
+|-------|------------------|-----------|------------------|
+| Herb Collection | Floor 1 — Apothecary | Gather Moon Flowers near the Forest | Col, healing items |
+| Goblin Problem (repeatable) | Floor 1 — Town of Beginnings board | Clear goblins at the Forest camp | Col, Iron Ore |
+| Boar Hunt (repeatable) | Floor 2 — Marunne hunt board | Kill Giant Boars in the North Valley | Col, Tough Hide |
+| Wisp Extinction | Floor 2 — Marunne | Clear Wisp Mages in the South Valley | Col, Mana Shards |
+| Sprite Catching | Floor 3 — Fae Enclave | Catch Woodland Sprites in Glimmerwood | Col, Fae Dust, experience |
+| Dark Fae Purge | Floor 3 — Fae Enclave | Clear Dark Fae in the Crystal Caverns | Col, Crystal Shards |
 
-> **Combo Bonus:** Completing "Venom Extraction" and "Shadow Culling" in the same session grants a hidden 1,000 Col bonus.
+**Early-game tip:** the Floor 1 and 2 boards are the fastest way to stock healing items and Iron Ore before the Twin Wardens fight. Complete the repeatable Goblin Problem and Boar Hunt contracts whenever the board refreshes.
 
----
+### Floors 4–6 (Mid Game)
 
-## Floor 26–50: Advanced Dailies
+| Quest | Floor / Location | Objective | Reported Rewards |
+|-------|------------------|-----------|------------------|
+| Golem Research (repeatable) | Floor 4 — war camp | Collect Golem Cores from War Golems | Col, Refined Steel |
+| Harpy Contract | Floor 4 — war camp | Clear Harpies at their nests | Col, Harpy Feathers |
+| Tome Collection | Floor 5 — Ancient Library | Collect Spell Tomes | Col, experience |
+| Library Sweep | Floor 5 — Ancient Library | Clear Animated Armor in the halls | Col, scroll materials |
+| Elite Patrol Contract | Floor 6 — The Floating City | Assist the outer-ring patrols | Col, Legendary Essence (rare) |
 
-This is where the rewards start to compound. A gear score of **1,800+** is recommended.
+**Mid-game tip:** the Floor 6 patrol contract overlaps with the best mid-game experience farm route — combine the two for a single efficient session. See the [Farming Spots guide](/guides/farming-spots) for the route.
 
-| Quest | Floor | Objective | Reward | Priority |
-|-------|-------|-----------|--------|----------|
-| Hunting Contract: Greater Beast | 28 | Slay a Greater Beast (random spawn) | 8,000 Col, +400 Rep, rare drop chance | ⭐ High |
-| Merchant's Request | 32 | Deliver goods through unsafe zone | 6,500 Col, +3 Treasure Maps | Medium |
-| Boss Scouting | 35 | Scout Floor Boss arena (survive 3 min) | 7,000 Col, +350 Rep | High |
-| Rescue Operation | 42 | Free 5 NPCs from Wild Goblin camp | 9,000 Col, +500 Rep | ⭐ High |
-| Ore Rush | 48 | Mine 15 Mythril Ore in the Highlands | 10,000 Col, +600 Smith Rep | Medium |
+### Floors 7–10 (Late Game)
 
-**Boss Scouting Strategy:**
-- Equip high-Dodge gear — you don't need to deal damage, just survive
-- Dash cooldown reduction accessories are invaluable here
-- The 3-minute timer starts when you enter the boss arena
+| Quest | Floor / Location | Objective | Reported Rewards |
+|-------|------------------|-----------|------------------|
+| Demon Slayer (repeatable) | Floor 7 — Lava Fields | Kill Fire Demons | Col, Fire Essence, Demon Horns |
+| Warmth in the Cold | Floor 8 — Frozen Tundra | Collect Fire Essence for the camp | Col, frost-resist consumables |
+| Gladiator's Rise (repeatable) | Floor 9 — The Colosseum | Win Colosseum matches | Col, arena-exclusive items |
+| Celestial Purge | Floor 10 — Sky Fortress | Clear enemy types in the fortress | Col, endgame materials |
 
----
-
-## Floor 51–75: Endgame Dailies
-
-These are the most rewarding — and most dangerous. A gear score of **3,500+** is mandatory.
-
-| Quest | Floor | Objective | Reward | Risk Level |
-|-------|-------|-----------|--------|------------|
-| Starlight Convergence | 55 | Collect 3 Starlight Shards (night-only) | 15,000 Col, +800 Rep | Medium |
-| Knight's Trial | 60 | Defeat 3 Knight bosses in the Colosseum | 20,000 Col, +1,200 Rep, rare weapon drop | High |
-| Rift Stabilization | 65 | Close 5 dimensional rifts in the Abyss | 18,000 Col, +1,000 Rep, Enhancement Stone | High |
-| Divine Tech Recovery | 70 | Recover 2 Ancient Tech fragments | 25,000 Col, +1,500 Rep | ⭐ Very High |
-| Floor 75 Resistance | 75 | Kill 30 Laughing Coffin members in the front lines | 35,000 Col, +2,000 Rep, exclusive title | Extreme |
-
-**Floor 75 Resistance — The Best Daily in the Game:**
-- Best Col-per-minute ratio of any daily
-- Each Laughing Coffin member has a 5% chance to drop a **Shadow Crystal** (worth 50,000 Col on the auction house)
-- Completing it 10 times grants the "Front Line Defender" title (+3% damage against player-type enemies)
+**Late-game tip:** the Floor 10 contract is the best source of endgame upgrade materials outside Golden Gate and Boss Rush runs.
 
 ---
 
 ## Optimal Daily Rotation
 
-### 30-Minute Rotation (For Casual Players)
+### 30-Minute Rotation (Casual)
 
 ```text
-1. Floor 51 – Starlight Convergence      (8 min)
-2. Floor 55 – Knight's Trial              (10 min)
-3. Floor 60 – Rift Stabilization          (10 min)
-Total: ~48,000 Col + 3,000 Rep           (2 min travel)
+1. Floor 1 — Herb Collection + Goblin Problem    (~8 min)
+2. Floor 2 — Boar Hunt + Wisp Extinction          (~12 min)
+3. Floor 3 — Sprite Catching                      (~10 min)
+Total: roughly 10,000–15,000 Col + materials + healing items
 ```
 
 ### 1-Hour Rotation (Recommended)
 
 ```text
-1. Floor 51 – Starlight Convergence      (8 min)
-2. Floor 55 – Knight's Trial              (10 min)
-3. Floor 60 – Rift Stabilization          (10 min)
-4. Floor 70 – Divine Tech Recovery        (12 min)
-5. Floor 75 – Floor 75 Resistance         (15 min)
-Total: ~113,000 Col + 7,000 Rep           (5 min travel)
+1. Floor 1–2 boards (all four contracts)          (~20 min)
+2. Floor 3 — Sprite Catching + Dark Fae Purge     (~15 min)
+3. Floor 4 — Golem Research                       (~10 min)
+4. Floor 6 — Elite Patrol Contract                (~15 min)
+Total: roughly 30,000–50,000 Col + crafting materials per day
 ```
 
-### 2-Hour Completionist Rotation
+### Completionist Rotation
 
-Complete all 14 endgame dailies for a total of **~380,000 Col** and **~22,000 reputation** per day.
-
----
-
-## Reputation Rewards
-
-| Faction | Max Rank | Daily Rep from Quests | Benefits at Max Rank |
-|---------|----------|-----------------------|----------------------|
-| Knights of the Blood Oath | Exalted | 4,000–6,000 | Legendary sword schematic, 10% discount at all vendors |
-| Dragon's Crest | Exalted | 3,000–5,000 | Mount unlock, teleportation amulet |
-| Algade Traders | Exalted | 2,000–3,000 | Tax-free auction house, merchant stall |
-| Laughing Coffin (Hidden) | Neutral max | 0 (quest-locked) | Unique daggers, stealth boosts |
+Complete every board contract on floors 1–10 for the maximum daily Col and material haul. This takes 2–3 hours and is best saved for weekends.
 
 ---
 
-## Tips for Maximizing Daily Efficiency
+## Daily Quest Tips
 
-- **Stack travel routes** — accept all quests in the same floor cluster at once
-- **Use Teleport Crystals** — they pay for themselves in time saved
-- **Party up** — kill quests progress for all party members; rescue and delivery quests don't
-- **Skip low-reward dailies** — anything below 500 Col/minute is not worth your time after Floor 25
-- **Check for Weekly Quests** — every Tuesday, weekly quests appear that offer 5x the daily reward
+- **Stack by floor** — accept every contract on one floor before heading out; travel time between floors is the real cost of dailies.
+- **Teleport Crystals pay for themselves** — use them to cut travel between board locations.
+- **Bring your partner** — kill-count objectives progress with partner participation; rescue and delivery objectives are solo-only.
+- **Skip low-value dailies** — after Floor 6, anything paying less than roughly 1,000 Col per minute of work is usually not worth the detour.
+- **Check after rank-ups** — daily reward ranges improve with Cardinal Rank, so re-check the boards after clearing a floor boss.
+- **Don't trust exact figures from other players** — reward values vary with rank, difficulty mode, and patches. Use the ranges here as guidance, not gospel.
 
 ---
 
-## Internal Links
+## Related Guides
 
-- [Col Farming Guide →]({{< ref "col-farming.md" >}})
-- [Reputation Guide →]({{< ref "reputation-guide.md" >}})
-- [Leveling Guide →]({{< ref "leveling-guide.md" >}})
-- [Floor 75 Boss Guide →]({{< ref "floor-75-boss.md" >}})
-- [Enchanting Guide →]({{< ref "enchanting-guide.md" >}})
+- [Leveling Guide](/guides/leveling-guide) — experience farming and Growth Points
+- [Farming Spots](/guides/farming-spots) — the best Col and material routes per floor
+- [Gear Farming Guide](/guides/gear-farming-guide) — boss drops and upgrade paths
+- [Progression Guide](/guides/progression-guide) — Cardinal Rank and difficulty scaling

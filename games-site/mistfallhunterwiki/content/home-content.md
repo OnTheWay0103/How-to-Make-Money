@@ -3,7 +3,7 @@ title: "Mistfall Hunter Wiki — Complete Guide Hub"
 description: "The ultimate community wiki for Mistfall Hunter — the dark fantasy PvPvE extraction ARPG by Bellring Games. Find class guides, extraction tactics, build guides, season content, server info and more."
 category: "Home"
 version: "1.0"
-updated: "2026-08-01"
+updated: "2026-08-10"
 keywords: ["Mistfall Hunter", "Mistfall Hunter wiki", "Mistfall Hunter guide", "extraction ARPG", "PvPvE game", "Bellring Games"]
 related: ["beginner-guide", "classes-guide", "extraction-guide", "tier-list-guide"]
 ---
@@ -22,7 +22,7 @@ Mistfall Hunter is a dark fantasy PvPvE extraction ARPG by Bellring Games / Skys
 |-------|----------|------------|
 | [Beginner Guide](/guides/beginner-guide) | First extraction | Starter |
 | [Classes Guide](/guides/classes-guide) | All 6 classes | Starter |
-| [Class Tier List](/guides/tier-list-guide) | 1.0 meta rankings | Intermediate |
+| [Class Tier List](/guides/tier-list-guide) | Current meta rankings | Intermediate |
 | [Extraction Guide](/guides/extraction-guide) | The Returner Woodling loop | Intermediate |
 | [Solo Play Guide](/guides/solo-play-guide) | Solo queue reality | Intermediate |
 | [Camp Upgrades Guide](/guides/camp-upgrades-guide) | What to build first | Intermediate |
@@ -48,7 +48,7 @@ Master the extraction loop — find the Returner Woodling, secure the Soul of Re
 No OCE server, EU players at 120–180ms, stuck-at-queue fixes, and what's client-side vs server-side. [Server regions & ping fix →](/guides/server-regions-ping-guide)
 
 ### Patch Notes
-Full 1.0 release notes and the day-one hotfix (Withered Knight buffs, Soul of Return fix, console reconnect). [View patch notes →](/guides/patch-notes)
+Full 1.0 release notes and the community-reported day-one hotfix (Withered Knight buffs, Soul of Return fix, console reconnect). [View patch notes →](/guides/patch-notes)
 
 ---
 

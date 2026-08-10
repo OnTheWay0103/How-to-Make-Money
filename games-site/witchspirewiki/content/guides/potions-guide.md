@@ -2,17 +2,19 @@
 title: "Witchspire Potions Guide — Brewing, Effects, and Ingredient Sourcing"
 description: "Complete potions and alchemy guide for Witchspire. Every potion recipe, ingredient source, brewing mechanic at the Witchcraft Circle, and advanced alchemy strategies for combat, exploration, and familiar care."
 category: "Guides"
-version: "0.1.1d"
-updated: "2026-07-23"
+version: "0.1.4"
+updated: "2026-08-10"
 keywords: ["Witchspire potions", "Witchspire alchemy", "Witchspire Witchcraft Circle", "Witchspire brewing", "Witchspire potion recipes", "Witchspire nectar", "Witchspire moonleaf"]
-related: ["crafting-guide", "farming-guide", "elements-mechanics-guide", "best-gear-guide", "hearth-upgrade-guide"]
+related: ["crafting-guide", "farming-guide", "elements-mechanics-guide", "hearth-upgrade-guide"]
 ---
 
 # Potions Guide — Brewing, Effects, and Ingredient Sourcing
 
-> **Applies to EA v0.1.1d / Updated: July 23, 2026**
+> Last verified: August 10, 2026
 
-Potions and consumables are essential for surviving Witchspire's increasingly dangerous regions. While basic healing can be managed with food and rest, advanced zones like Timberline Basin and the Shuddersands demand proper alchemical support. This guide covers every brewable potion, where to find ingredients, and which potions matter at each stage of the game.
+Potions and consumables are essential for surviving Witchspire's increasingly dangerous regions. While basic healing can be managed with food and rest, advanced zones like Timberline Basin and the Shuddersands demand proper alchemical support. This guide covers the brewable potions, where to find ingredients, and which potions matter at each stage of the game.
+
+> **Note:** effect values and exact recipes below come from community reports and have not been independently verified. Treat numbers as approximate.
 
 ---
 
@@ -74,7 +76,7 @@ Most potion ingredients must be grown or foraged. The Garden Plot (Hearth Tier 2
 | Stonehide Brew | 5 Nectar, 3 Crystal Bud, 2 Stone Blocks | +15% damage reduction | 5 min |
 | Berserker Draught | 5 Nectar, 6 Thornberries, 1 Ethereal Dust | +25% attack damage, -10% defense | 3 min |
 | Swiftfoot Elixir | 5 Nectar, 4 Moonleaf, 2 Thornberries | +20% movement speed | 4 min |
-| Emberbrew | 5 Nectar, 4 Thornberries, 2 Coal | +15% fire damage on attacks | 5 min |
+| Emberbrew | 5 Nectar, 4 Thornberries, 2 Coal | Reported damage buff on attacks | 5 min |
 
 **Strategy:** Stacking a defensive potion (Thornskin or Stonehide) with a damage potion (Berserker or Emberbrew) is viable for boss encounters. The buffs stack independently.
 
@@ -128,7 +130,7 @@ Most potion ingredients must be grown or foraged. The Garden Plot (Hearth Tier 2
 | Ingredient | How to Get | Priority |
 |------------|------------|----------|
 | Ethereal Dust | Ethereal enemies (Timberline Basin), special events | High — advanced alchemy |
-| Astral Essence | Night events (Shuddersands), legendary familiar drops | High — endgame elixirs |
+| Astral Essence | Reported: night events (Shuddersands), rare drops | High — endgame elixirs |
 | Thornberry (bulk) | Multiple garden plots | Medium — Berserker Draught |
 | Crystal Shards (bulk) | Timberline Basin Crystal Caverns farming runs | Medium — waterwalking/nightvision |
 
@@ -167,5 +169,4 @@ Most potion ingredients must be grown or foraged. The Garden Plot (Hearth Tier 2
 - [Crafting Guide: Stations, Materials, and Recipes](/guides/crafting-guide)
 - [Farming Guide: Crops and Resource Management](/guides/farming-guide)
 - [Elements Mechanics Guide: Damage Types and Weaknesses](/guides/elements-mechanics-guide)
-- [Best Gear Guide: Armor and Weapon Recommendations](/guides/best-gear-guide)
 - [Hearth Upgrade Guide: Unlocking Stations](/guides/hearth-upgrade-guide)

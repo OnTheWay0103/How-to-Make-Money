@@ -1,25 +1,27 @@
 ---
-title: 'Class Tier List (July 2026) — Best Classes Ranked'
-description: 'Mistfall Hunter class tier list for July 2026. S-tier to D-tier rankings for solo PvP, squad play, and PvE. Based on open beta data and community consensus.'
+title: 'Class Tier List — Best Classes Ranked'
+description: 'Mistfall Hunter class tier list. S-tier to D-tier rankings for solo PvP, squad play, and PvE, based on community consensus and current season performance.'
 keywords: ['tier list', 'class rankings', 'best class', 'meta', 'solo tier list', 'pvp tier list']
 category: Meta
 version: '1.0'
-updated: '2026-07-04'
+updated: '2026-08-10'
 related:
   - classes-guide
   - mercenary-build-guide
   - sorcerer-build-guide
+  - season-guide
+  - pvp-guide
 ---
 
 ## Tier List Methodology
 
-This tier list is based on open beta performance data, community feedback, and competitive analysis. Rankings reflect:
+This tier list is based on community reports, player feedback, and current season performance. Rankings reflect:
 - **Overall power** across PvE and PvP
 - **Solo viability** (can you extract alone?)
 - **Squad contribution** (do you make a team better?)
 - **Skill floor/ceiling** (how hard to play vs. maximum potential)
 
-**Important**: Mistfall Hunter launches July 29, 2026. This is pre-launch data. Balance patches will shift rankings.
+> **Note:** Tier lists are community consensus, not official data. Balance patches shift rankings — check back after updates.
 
 ## Overall Tier List
 
@@ -34,13 +36,13 @@ This tier list is based on open beta performance data, community feedback, and c
 
 | Class | Why A-Tier |
 |-------|-----------|
-| **Mercenary** | The most consistent class. 70% block DR makes it the tankiest option. Simple to play, hard to kill. Falls slightly behind S-tiers in damage output but makes up for it in reliability. |
+| **Mercenary** | The most consistent class. Strong block damage reduction makes it the tankiest option. Simple to play, hard to kill. Falls slightly behind S-tiers in damage output but makes up for it in reliability. |
 
 ### B-Tier: Viable with Practice
 
 | Class | Why B-Tier |
 |-------|-----------|
-| **Withered Knight** | Devastating burst when sigil detonation combos land. Grapple is excellent for gap-closing. Held back by parry timing dependency — one missed parry can mean death. |
+| **Withered Knight** | Devastating burst when counter-attack combos land. Good gap-closing. Held back by parry timing dependency — one missed parry can mean death. |
 
 ### C-Tier: Situational
 
@@ -85,17 +87,18 @@ For coordinated 3-player squads:
 | **Good** | Sorcerer | Ranged play is safer. Just stay far away and blast. |
 | **Avoid** | Shadowstrix, Withered Knight, Blackarrow, Seer | These classes require game knowledge, map awareness, or team coordination that beginners lack. |
 
-## Expected Launch Meta Shifts
+## Season Context
 
-Based on developer statements about balance passes before July 29:
-
-- **Melee survivability buffs** incoming — could push Withered Knight to A-tier
-- **Sorcerer elemental damage may be tuned down** — expect slight nerfs
-- **Seer solo tools being explored** — may not be D-tier forever
-- **New class hinted but unconfirmed** — could shake up everything
-
-Check back after launch for an updated tier list.
+The current season (Season of the Withering) adds Withering-affixed gear that can shift class strength — see the [Season Guide](/guides/season-guide) for the seasonal meta discussion. Grasping Vines on daggers, for example, has made Shadowstrix ambush combos harder to escape.
 
 ## Key Takeaway
 
 **Tier lists are guidelines, not gospel.** Every class can extract successfully. Pick the class that matches your playstyle. A C-tier class you master will outperform an S-tier class you play poorly.
+
+## Related Guides
+
+- [Classes Guide](/guides/classes-guide) — all six classes and their kits
+- [Mercenary Build Guide](/guides/mercenary-build-guide) — the A-tier tank
+- [Sorcerer Build Guide](/guides/sorcerer-build-guide) — the S-tier DPS
+- [Season Guide](/guides/season-guide) — current season meta
+- [PvP Guide](/guides/pvp-guide) — matchup matrix and combat tactics

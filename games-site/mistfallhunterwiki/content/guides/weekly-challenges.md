@@ -4,10 +4,10 @@ description: 'Complete guide to Weekly Challenges in Mistfall Hunter. Full rotat
 keywords: ['weekly challenges', 'weekly quests', 'challenge schedule', 'weekly rewards', 'mistfall hunter challenges']
 category: Guides
 version: '1.0'
-updated: '2026-07-29'
+updated: '2026-08-10'
 related:
   - bounty-guide
-  - extraction-tips
+  - extraction-guide
   - guild-clan-guide
   - camp-upgrades-guide
   - beginner-guide
@@ -17,11 +17,13 @@ related:
 
 Weekly Challenges in Mistfall Hunter are a set of **repeatable objectives** that reset every Monday. Each challenge rewards Gyldenblood, gear, and exclusive items. Completing all challenges in a week grants a **bonus reward**.
 
+> **Note:** Exact Gyldenblood amounts, reward tiers, and the weekly theme rotation are community-reported approximations and can change between updates.
+
 ### Why Do Weekly Challenges?
 
 | Reason | Details |
 |--------|---------|
-| Guaranteed Gyldenblood | 12,000+ GB per week from challenges alone |
+| Guaranteed Gyldenblood | Substantial GB per week from challenges alone |
 | Exclusive Gear | Some rewards are not available anywhere else |
 | Guild XP | Completing challenges contributes guild XP if you are in a guild |
 | Season Pass Progress | Challenges count toward Season Pass milestones |
@@ -83,7 +85,7 @@ Within each week, challenges rotate daily:
 | Dominator | Kill 5 players in a single raid | 2,500 GB + Epic gear |
 | War Contribution | Earn 500 war points for your guild | 3,000 GB + Guild XP |
 
-**Strategy**: Play aggressive classes (Shadowstrix, Slayer). Drop into high-traffic zones. Hunt near the Woodling.
+**Strategy**: Play aggressive classes (Shadowstrix, Sorcerer). Drop into high-traffic zones. Hunt near the Woodling.
 
 ### Exploration Challenges
 
@@ -156,11 +158,11 @@ Complete challenges in this order for maximum efficiency:
 |-----------|-----------|-----|
 | Clean Extract | Mercenary | Block + survive, avoid fights |
 | No Damage Extract | Shadowstrix | Invisibility to avoid all combat |
-| First Blood | Slayer | High burst damage, rush down |
+| First Blood | Sorcerer | High burst damage, rush down |
 | Dominator | Sorcerer | AoE damage for multi-kills |
-| Speed Kill (Woodling) | Slayer or Shadowstrix | Highest DPS builds |
-| Cartographer | Hunter | Movement speed bonuses |
-| Treasure Hunter | Hunter | Passive loot detection |
+| Speed Kill (Woodling) | Sorcerer or Shadowstrix | Highest DPS builds |
+| Cartographer | Blackarrow | Movement speed bonuses |
+| Treasure Hunter | Blackarrow | Passive loot detection |
 
 ### Loadout Strategy
 
@@ -188,7 +190,7 @@ Each season (3 months) has exclusive rewards tied to cumulative weekly challenge
 ## Related Guides
 
 - [Bounty Guide: Hunting Down a Target](/guides/bounty-guide)
-- [Extraction Tips: Advanced Strategies](/guides/extraction-tips)
+- [Extraction Guide: How to Extract Safely](/guides/extraction-guide)
 - [Guild and Clan Guide: Full System Breakdown](/guides/guild-clan-guide)
 - [Camp Upgrades Guide: Building Your Base](/guides/camp-upgrades-guide)
 - [Beginner Guide: How to Survive Your First Extraction](/guides/beginner-guide)

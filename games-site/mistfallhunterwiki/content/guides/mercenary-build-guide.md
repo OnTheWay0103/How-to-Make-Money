@@ -55,7 +55,7 @@ Master the rhythm: light attacks to stack → Blade Edge to burst → reset.
 | Talent | Effect | When to Take |
 |--------|--------|-------------|
 | **Iron Footing** | Cannot be knocked back while blocking | PvP-heavy matches |
-| **Vanguard's Charge** | Shield Dash travels 30% further | Open maps |
+| **Shield Charge** | Shield Dash travels 30% further | Open maps |
 | **Last Stand** | When below 20% HP, block reduces damage by 90% | Clutch situations |
 | **War Cry** | AoE taunt + team damage buff for 10s | Squad play |
 

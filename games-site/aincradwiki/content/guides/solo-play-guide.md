@@ -1,10 +1,10 @@
 ---
 title: 'Solo Play Guide — How to Play Alone in Echoes of Aincrad'
-description: 'Complete solo play guide for Echoes of Aincrad. Best builds for solo players, boss strategies, farming routes, survival tips, and how to progress without a party.'
+description: 'Complete solo play guide for Echoes of Aincrad. Best builds for solo players, boss strategies, farming routes, survival tips, and how to progress without a partner.'
 keywords: ['solo play', 'solo guide', 'solo build', 'solo farming', 'playing alone']
 category: Guides
 version: '1.0'
-updated: '2026-07-11'
+updated: '2026-08-10'
 related:
   - builds-guide
   - bosses-guide
@@ -14,7 +14,7 @@ related:
 
 ## Is Solo Play Viable?
 
-Yes. Echoes of Aincrad is designed to be fully playable solo. All content can be cleared without a party — but the difficulty curve is steeper, and you need to be more careful with your build choices, positioning, and resource management. Group play is easier and faster, but solo play is more rewarding.
+Yes — and since Echoes of Aincrad is single-player only, "solo" is simply the game. All content is balanced around one player plus your AI partner. You still need to be careful with build choices, positioning, and resource management, but the game is designed for exactly this style of play.
 
 ## Best Builds for Solo Play
 
@@ -52,9 +52,9 @@ If you are new to solo play, start with **Greatsword**. It is the most forgiving
 |------|-----------|----------|
 | Violet Fencer | Rapier (recommended) | Parry her thrust combos. Counter with Star Splash. Dodge AoE Slash. |
 | Ark Guardian | Greatsword | Charge attack during beam animation. Dodge slam. Slow fight — do not get greedy. |
-| Twin Wardens | Mage | Kill Flames first from range. Teleport fire AoE. Kite Blades with Ice Storm. |
-| Golem Kings | Any (easiest boss) | Attack legs, dodge ground pound. Stun-lock with fast weapons. |
-| Shadow Stalker (secret) | Rapier or Dual-Wield | Fast boss — parry or stun-lock. Cannot out-tank it. |
+| Twin Wardens | Mage | Kill Blades first; keep range on Flames. Teleport the fire AoE. Kite with Ice Storm. |
+| Corrupted Fae Lord | Mage | Stay at range, dodge the Phase 2 curse explosions, kill the dark fae adds immediately. |
+| Crystal Guardian (zone boss) | Greatsword | High HP and resists — bring an elemental spread and patience. Drops the Soul Crystal. |
 
 ## Farming Routes
 
@@ -76,7 +76,7 @@ If you are new to solo play, start with **Greatsword**. It is the most forgiving
 1. Spawn at Floor 4 checkpoint
 2. Clear Harpy nests (Feathers, Elemental Shards)
 3. Hunt Golem patrols (Refined Steel, Golem Core)
-4. Farm the Crystal Cave (Crystal Shards)
+4. Detour: Floor 3 Crystal Caverns (Crystal Shards, Soul Crystal)
 5. Time: 15-20 minutes per loop
 
 ### Late Game (Floors 7-10)
@@ -136,13 +136,13 @@ Solo play demands careful resource management:
 | HP | Keep above 50% before entering unknown areas. |
 | Potions | Carry 10 HP + 5 SP potions minimum. |
 | Weapon Durability | Repair every 2 floors. Carry a backup weapon. |
-| Gyldenblood | Save for repairs and potions — do not gamble on EX-Mods. |
+| Col | Save for repairs and potions — do not gamble on EX-Mods. |
 
 ## Quick Tips
 
 - **Your Partner is essential solo** — level their healing skill first. A good Partner doubles your survivability.
 - **Over-level before boss fights** — being 2-3 levels above the floor recommendation makes a huge difference.
-- **Check your EX-Mods** — a solo build needs different EX-Mods than a group build. Prioritize survivability.
+- **Check your EX-Mods** — a solo build needs different EX-Mods than a partner-assisted build. Prioritize survivability.
 - **Learn to dodge first, attack second** — dead players deal zero damage. Master enemy patterns before optimizing DPS.
 - **Every floor has a safe room** — find it. Use it as a base for exploring the rest of the floor.
 - **Solo play is harder, but it makes you a better player** — solo players learn patterns, positioning, and resource management faster than group players.

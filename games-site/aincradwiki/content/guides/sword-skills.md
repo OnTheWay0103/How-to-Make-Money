@@ -4,7 +4,7 @@ description: 'Complete Sword Skills guide for Echoes of Aincrad. How Sword Skill
 keywords: ['sword skills', 'sword skill guide', 'best sword skills', 'skill unlock', 'skill rotation', 'skill loadout']
 category: Mechanics
 version: '1.0'
-updated: '2026-07-31'
+updated: '2026-08-10'
 related:
   - combat-system-guide
   - weapons-guide
@@ -52,9 +52,9 @@ Each weapon has its own skill tree. Skills unlock in tiers:
 | Sword & Shield | Shield Bash (stun) | Horizontal Arc (AoE slash) | Shield Bash > Horizontal Arc > block skill |
 | Rapier | Linear (thrust combo) | Star Splash (multi-hit) | Star Splash > Linear > dodge thrust |
 | Daggers | Rapid Bite (fast multi-stab) | Fad Edge (throw) | Rapid Bite > Fad Edge > bleed setup |
-| Battle Axe | Cyclone (spin AoE) | Avalanche (heavy slam) | Avalanche > Cyclone > execute |
-| Greatsword | Whirlwind (360 AoE) | Boulder Breaker (slam) | Boulder Breaker > Whirlwind > charge slash |
-| War Hammer | Steel Slam (stagger build) | Iron Crusher (guard break) | Iron Crusher > Steel Slam > stun follow-up |
+| Two-Handed Axe | Whirlwind (360 AoE) | Boulder Breaker (slam) | Boulder Breaker > Whirlwind > execute |
+| Greatsword | Cyclone (spin AoE) | Avalanche (heavy slam) | Avalanche > Cyclone > charge slash |
+| Mace | Steel Slam (stagger build) | Iron Crusher (guard break) | Iron Crusher > Steel Slam > stun follow-up |
 
 ## Rotation Templates
 
@@ -66,7 +66,7 @@ Each weapon has its own skill tree. Skills unlock in tiers:
 4. Follow with the finisher skill for maximum burst
 5. Repeat; keep SP above 30%
 
-### Defensive Loop (Sword & Shield / War Hammer)
+### Defensive Loop (Sword & Shield / Mace)
 
 1. **Shield Bash / Steel Slam** to open (stun/stagger)
 2. Heavy attack while the enemy is locked (15 SP)

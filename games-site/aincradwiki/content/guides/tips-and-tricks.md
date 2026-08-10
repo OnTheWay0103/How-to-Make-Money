@@ -4,13 +4,15 @@ description: '10 advanced tips and tricks for Echoes of Aincrad. Hidden mechanic
 keywords: ['tips and tricks', 'advanced tips', 'hidden mechanics', 'efficiency guide', 'game mechanics']
 category: Guides
 version: '1.0'
-updated: '2026-07-11'
+updated: '2026-08-10'
 related:
   - beginner-guide
   - progression-guide
   - solo-play-guide
   - ex-mod-guide
 ---
+
+> **Note:** Values, timers, and percentages below are community-reported and may differ from the current build.
 
 ## Tip 1: The "Hidden" EX-Mod Slot
 
@@ -42,7 +44,7 @@ You can cancel the end-lag of most Sword Skills by **dodge-rolling immediately a
 - Cyclone (Greatsword) — cancel the spin recovery to chain into another attack.
 - Fireball (Mage) — cancel the casting arm recovery before the spell even finishes.
 
-**Not cancelable**: Skills that consume all your SP (e.g., Guillotine, Arcane Blast max channel). These have "hard" end-lag coded to prevent canceling.
+**Not cancelable**: Skills that consume all your SP (e.g., Arcane Blast max channel). These have "hard" end-lag coded to prevent canceling.
 
 ---
 
@@ -84,7 +86,7 @@ Many players report that their first attack out of combat always crits. This is 
 
 ## Tip 5: SP Shrine Rotation
 
-SP Shrines (full heal + SP restore) respawn on a **real-time 10-minute timer**, not a per-player timer. This means multiple players can use the same shrine in sequence.
+SP Shrines (full heal + SP restore) respawn on a **real-time timer**, not a per-character timer. This means the same shrine can be reused on a fixed cycle.
 
 **The rotation strategy**: Learn the locations of 3-4 SP Shrines in your farming area. Rotate between them:
 1. Clear a pack → shrine A (heal + restore)
@@ -120,9 +122,9 @@ Your Partner has a hidden **affinity stat** that affects combat performance. Hig
 | 61-80 | +15% Partner damage, unlocks combo attack |
 | 81-100 | +20% Partner damage, unique dialogue, secret EX-Mod |
 
-**Best Partner for solo players**: The Healer Partner (unlocked after Floor 2 boss). It is the only Partner with a healing skill baseline. Level its affinity first — it makes solo play dramatically easier.
+**Best Partner for solo players**: Lisbeth (unlocked after the Floor 2 boss) — the partner with a healing skill baseline. Level her affinity first — it makes solo play dramatically easier.
 
-**Secret**: At 100 affinity, your Partner gains a unique EX-Mod that can transfer to your weapon. This is the only way to get the "Bonded Strength" EX-Mod (+15% damage when fighting alongside your partner).
+**Secret**: At high affinity, your Partner reportedly gains a unique EX-Mod that can transfer to your weapon — a community-reported damage bonus when fighting alongside your partner.
 
 ---
 
@@ -141,7 +143,7 @@ Vendor inventories refresh every **real-time 2 hours**. However, if you save and
 - Rare crafting materials (Crystal Shards, Golem Cores)
 - EX-Mod transfer tokens (rare vendor item, buy immediately)
 
-**Note**: The manipulation is patched in some versions. If the vendor does not refresh after 3-4 attempts, give up and wait for the natural 2-hour timer.
+**Note**: Community reports differ on whether this trick still works in the current build — some say it has been patched. If the vendor does not refresh after 3-4 attempts, give up and wait for the natural timer.
 
 ---
 
@@ -205,7 +207,7 @@ Height matters in Echoes of Aincrad more than most players realize. Being on hig
 
 **Best floors for elevation abuse**: Floor 1 (hills), Floor 4 (fortress walls), Floor 7 (lava rock platforms), Floor 10 (floating platforms).
 
-**Boss that elevation trivializes**: Crystal Guardian on Floor 2. Stand on the crystal formation in the corner. The boss's attacks cannot reach you, but your ranged attacks can hit it. This is a known cheese strategy for undergeared players.
+**Boss that elevation trivializes**: Crystal Guardian on Floor 3. Stand on the crystal formation in the corner. The boss's attacks cannot reach you, but your ranged attacks can hit it. This is a known cheese strategy for undergeared players.
 
 ---
 

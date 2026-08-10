@@ -3,16 +3,16 @@ title: "Consumables & Items Quick-Reference Chart — Healing, Buffs & Materials
 description: "Quick-reference consumables chart for Echoes of Aincrad — Healing Potions, Full Heal Potions, Light Resistance Potions, Attack Elixir, SP Regenerator, Luck Meal and Elixir drop-rate buffs, plus Floor 3 crafting materials."
 category: "Guides"
 version: "1.0"
-updated: "2026-08-01"
+updated: "2026-08-10"
 keywords: ["Echoes of Aincrad consumables", "Aincrad healing potion", "Aincrad Light Resistance Potion", "Aincrad Attack Elixir", "Aincrad SP Regenerator", "Aincrad Luck Meal", "Aincrad drop rate buffs", "Aincrad crafting materials", "Aincrad items"]
 related: ["daily-quests", "floor-3-guide", "tips-and-tricks", "speedrun-tips", "gear-farming-guide", "hidden-mechanics"]
 ---
 
 ## Consumables & Items Quick-Reference Chart — Echoes of Aincrad
 
-> Version 1.0 / Updated: August 1, 2026 · Game launched July 9–10, 2026 (PS5, Xbox Series X|S, PC)
+> Version 1.0 / Updated: August 10, 2026 · Game reportedly launched July 9–10, 2026 (PS5, Xbox Series X|S, PC)
 
-Everything you stock before a boss run or farm session in one table — healing consumables, buff items, the drop-rate stacking rules, and the crafting materials introduced on Floor 3.
+Everything you stock before a boss run or farm session in one table — healing consumables, buff items, the drop-rate stacking rules, and the crafting materials introduced on Floor 3. Note: effect values and drop-rate bonuses below are community-reported and not independently verified.
 
 ---
 

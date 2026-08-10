@@ -1,16 +1,17 @@
 ---
-title: 'Leveling Guide — Fastest XP Farming Route to Max Level'
-description: 'Level up fast in Mistfall Hunter with optimized XP farming strategies. Best maps per level range, daily routines, and efficiency tips to reach max level quickly.'
-keywords: ['leveling guide', 'xp farming', 'fast leveling', 'level up fast', 'experience guide', 'leveling tips']
+title: 'Leveling Guide — Fastest XP Farming Route and Endgame Progression'
+description: 'Level up fast in Mistfall Hunter with optimized XP farming strategies, plus what to do after max level — gear optimization, endgame extractions, and long-term goals.'
+keywords: ['leveling guide', 'xp farming', 'fast leveling', 'level up fast', 'experience guide', 'leveling tips', 'endgame', 'max level']
 category: Beginner
 version: '1.0'
-updated: '2026-07-11'
+updated: '2026-08-10'
 related:
   - beginner-guide
   - map-guide
   - economy-guide
   - camp-upgrades-guide
   - extraction-guide
+  - boss-guide
 ---
 
 ## Leveling Overview
@@ -23,10 +24,12 @@ Leveling in Mistfall Hunter unlocks skill points, talent slots, and access to hi
 |-------|--------|-------------|
 | 1-5 | Basic skills, 1 talent slot | Starting point — learn the UI |
 | 6-10 | 2nd talent slot, camp upgrade access | Core progression begins |
-| 11-20 | 3rd talent slot, access to Mistveil Forest | Medium content opens |
-| 21-30 | 4th talent slot, access to Obsidian Depths | End-game begins |
-| 31-40 | Ultimate talent, max skill level 5 | Full build unlocked |
-| 41-50 (Max) | Prestige unlocks, leaderboard eligibility | True end-game |
+| 11-20 | 3rd talent slot, more maps open | Medium content opens |
+| 21-30 | 4th talent slot, higher-tier maps | End-game begins |
+| 31-40 | Ultimate talent, max skill level | Full build unlocked |
+| 41-50 (Max) | Endgame systems, leaderboard eligibility | True end-game |
+
+*Unlock levels are community-reported and may shift with updates.*
 
 ### XP Sources Ranked by Efficiency
 
@@ -40,6 +43,8 @@ Leveling in Mistfall Hunter unlocks skill points, talent slots, and access to hi
 
 ## Fastest Leveling Route (Levels 1-50)
 
+*XP values and time estimates below are community-reported averages, not official figures.*
+
 ### Levels 1-10: Learning Phase
 
 **Goal**: 10 extractions, all on Ruined Catacombs
@@ -49,14 +54,12 @@ Leveling in Mistfall Hunter unlocks skill points, talent slots, and access to hi
 | Class | Mercenary |
 | Gear | Common/Green (vendor bought) |
 | Map | Ruined Catacombs only |
-| Route | South Corridor → Exit B |
+| Route | Low-traffic corridor → nearest exit |
 | Goal per run | Extract alive with any loot |
 
-**XP strategy**: Survival XP is the biggest source at this level range. You get more XP from extracting with 100 Gyldenblood than from dying with 1000. Focus 100% on survival.
+**XP strategy**: Survival XP is a big source at this level range. You get more value from extracting with a modest haul than from dying with a full bag. Focus 100% on survival.
 
-**Time estimate**: 60-90 minutes to reach level 10.
-
-**Pro tip**: At level 5, spend your first skill point on Survivor's Instinct (passive XP bonus). It pays for itself within 10 extractions.
+**Pro tip**: at level 5, if available, spend your first skill point on a passive XP bonus — it pays for itself within 10 extractions.
 
 ### Levels 11-20: Efficiency Building
 
@@ -66,17 +69,15 @@ Leveling in Mistfall Hunter unlocks skill points, talent slots, and access to hi
 |---------|---------------|
 | Class | Mercenary or Blackarrow |
 | Gear | Green (weapon blue if possible) |
-| Maps | Ruined Catacombs (60%) + Forsaken Hollow (40%) |
+| Maps | Ruined Catacombs + Forsaken Hollow |
 | Route | Fast chest loop → boss (optional) → extract |
 | Goal per run | 3+ chests, extract within 10 minutes |
 
-**XP strategy**: At level 11, you unlock the Forsaken Hollow. The boss here gives 3x the XP of a normal extraction. Even if you die 50% of the time attempting the boss, the XP per hour is higher than safe runs.
-
-**Time estimate**: 2-3 hours to reach level 20.
+**XP strategy**: At this stage you can take on the Forsaken Hollow boss (Hollow Warden). The boss gives significantly more XP than a normal extraction — even with a partial success rate, boss runs beat safe runs for XP per hour.
 
 **Daily routine**:
 1. 2x quick Catacombs runs (warm-up)
-2. 3x Forsaken Hollow runs (attempt boss each time)
+2. 3x Forsaken Hollow runs (attempt the boss each time)
 3. 1x longer run with blue gear (push for boss kill)
 
 ### Levels 21-30: Mid-Game Grind
@@ -87,35 +88,31 @@ Leveling in Mistfall Hunter unlocks skill points, talent slots, and access to hi
 |---------|---------------|
 | Class | Your preferred main |
 | Gear | Blue+ weapon, green/blue armor |
-| Maps | Forsaken Hollow (50%) + Mistveil Forest (50%) |
+| Maps | Forsaken Hollow + Mistveil Forest |
 | Route | Boss-focused pathing |
 | Goal per run | Kill at least 1 boss |
 
-**XP strategy**: Boss kills now represent 60%+ of your XP. Prioritize reaching the boss before other players. Learn boss spawn timers and patrol routes.
+**XP strategy**: Boss kills now represent a large share of your XP. Prioritize reaching the boss before other players and learn boss spawn patterns.
 
-**Mistveil Forest tip**: The Verdant Ancient boss gives 5000+ XP per kill. However, the map is larger and third-parties are common. Bring a Seer if possible — the survivability bonus translates to more successful boss kills.
+**Mistveil Forest tip**: The Verdant Ancient is worth a big XP bounty, but the map is larger and third-parties are common. Bring a Seer if possible — the survivability bonus translates to more successful boss kills.
 
-**Time estimate**: 4-6 hours to reach level 30.
-
-**Efficiency hack**: Extract immediately after killing the boss. Do not linger. The boss kill XP is banked on extraction — dying after the kill but before extraction costs you that XP.
+**Efficiency hack**: Extract immediately after killing the boss. Do not linger — if you die after the kill but before extraction, you can lose the run's value.
 
 ### Levels 31-40: High-Efficiency Farming
 
-**Goal**: Rapid boss clear, gearing for end-game
+**Goal**: Rapid boss clears, gearing for end-game
 
 | Element | Recommendation |
 |---------|---------------|
-| Class | Your main with 4 talents unlocked |
+| Class | Your main with talents unlocked |
 | Gear | Blue+ full set, purple weapon ideal |
 | Maps | All maps except Obsidian Depths (unless in a team) |
 | Route | Boss spawn → contest → extract |
 | Goal per run | Kill boss + clean up contested zones |
 
-**XP strategy**: At this stage, you should be running with a duo or trio. The XP bonus for party play is significant — a 3-player squad gets +50% XP per kill (split, but net positive for boss kills).
+**XP strategy**: At this stage, running with a duo or trio helps a lot — coordinated boss kills are faster and safer than solo attempts.
 
-**Best XP per hour setup**: Duo with Mercenary + Sorcerer on Mistveil Forest. Kill the Verdant Ancient. Extract. Repeat. Each run is 12-15 minutes for ~8000 XP.
-
-**Time estimate**: 8-12 hours to reach level 40.
+**Best XP per hour setup**: Duo with Mercenary + Sorcerer on Mistveil Forest. Kill the Verdant Ancient, extract, repeat.
 
 ### Levels 41-50: Max Level Sprint
 
@@ -123,21 +120,17 @@ Leveling in Mistfall Hunter unlocks skill points, talent slots, and access to hi
 
 | Element | Recommendation |
 |---------|---------------|
-| Class | Meta build (see tier list) |
+| Class | Meta build (see the [Tier List Guide](/guides/tier-list-guide)) |
 | Gear | Purple+ minimum, legendary weapon preferred |
-| Maps | Obsidian Depths (primary), The Bloodfen (secondary) |
-| Route | Full map clear, contest all PvP |
-| Goal per run | Boss kill + PvP squad wipe |
+| Maps | Obsidian Depths (with a team), The Bloodfen |
+| Route | High-value zones, contest PvP selectively |
+| Goal per run | Boss kill + solid extraction |
 
-**XP strategy**: The XP curve flattens significantly after level 40. Each level from 41-50 requires roughly the same XP as levels 31-40 combined.
+**XP strategy**: The XP curve flattens significantly after level 40. Two viable approaches:
 
-Two viable approaches:
+**Safe route**: Boss farming on Mistveil Forest and The Bloodfen. Lower XP per run but higher success rate.
 
-**Safe route**: Boss farming on Mistveil Forest and The Bloodfen. Lower XP per run but higher success rate. Average 5000-6000 XP per 15-minute run. Total: ~25 hours.
-
-**Aggressive route**: Obsidian Depths with a coordinated trio. Shattered King boss kill gives 15000+ XP. PvP kills add 2000-5000 XP each. Total: ~15 hours but high risk of death streaks.
-
-**Time estimate**: 15-25 hours to reach level 50.
+**Aggressive route**: Obsidian Depths with a coordinated trio. Shattered King kills give the biggest XP bounties in the game, and PvP kills add to the total — but death streaks are expensive.
 
 ## XP Boosters and Multipliers
 
@@ -145,89 +138,122 @@ Two viable approaches:
 
 | Source | Bonus | How to Get |
 |--------|-------|-----------|
-| Survivor's Instinct talent | +10% XP | Level 5 talent choice |
-| Camp: Goddess Statue level 3 | +15% XP | Upgrade camp |
-| Camp: Tavern level 2 | +5% XP (party) | Upgrade camp |
-| Season Pass tier 20 | +5% XP (seasonal) | Reach tier 20 |
+| Survivor's Instinct talent | +XP% | Early talent choice |
+| Camp: Goddess Statue level 3 | +XP% | Upgrade camp |
+| Camp: Tavern level 2 | +XP% (party) | Upgrade camp |
+| Season Pass early tiers | +XP% (seasonal) | Reach the tier |
 
 ### Consumable Boosters
 
 | Item | Bonus | Duration | Cost |
 |------|-------|----------|------|
-| XP Tonic (Small) | +15% XP | 30 minutes | 500 Gyldenblood |
-| XP Tonic (Large) | +30% XP | 60 minutes | 2000 Gyldenblood |
-| Season XP Booster | +100% XP | 1 extraction | Season Tokens |
+| XP Tonic (Small) | +XP% | 30 minutes | Gyldenblood |
+| XP Tonic (Large) | +XP% | 60 minutes | Gyldenblood |
+| Season XP Booster | +XP% | 1 extraction | Season Tokens |
 
-**Optimal usage**: Stack permanent boosters with Large XP Tonic before a dedicated farming session. A 2-hour session with all boosters active doubles your XP gain.
+*Exact bonus values are community-reported and not independently verified.*
+
+**Optimal usage**: Stack permanent boosters with a Large XP Tonic before a dedicated farming session.
 
 ## XP per Map (Average per Extraction)
 
+*Community-reported averages — values are approximate:*
+
 | Map | Safe Extract | With Boss Kill | Boss + PvP |
 |----|-------------|---------------|-----------|
-| Ruined Catacombs | 500-800 | 1500-2000 | 2000-3000 |
-| Forsaken Hollow | 800-1200 | 2500-3500 | 3500-5000 |
-| Mistveil Forest | 1000-1500 | 4000-6000 | 5000-8000 |
-| The Bloodfen | 1200-1800 | 5000-7000 | 7000-10000 |
-| Obsidian Depths | 2000-3000 | 10000-15000 | 15000-25000 |
+| Ruined Catacombs | Low | Medium | Medium-High |
+| Forsaken Hollow | Low-Medium | Medium-High | High |
+| Mistveil Forest | Medium | High | High |
+| The Bloodfen | Medium | High | Very High |
+| Obsidian Depths | Medium-High | Very High | Very High |
 
 ## Avoid These XP Traps
 
 ### 1. Farming Low-Level Mobs
-Killing 100 basic Corroded enemies gives less XP than one boss kill. Never clear entire zones of trash mobs — they are not worth your time.
+Killing many basic Corroded enemies gives far less XP than one boss kill. Never clear entire zones of trash mobs — they are not worth your time.
 
 ### 2. Over-Looting
-You get zero XP for picking up loot. If you are spending 5 minutes checking every chest while ignoring objectives, you are losing XP.
+You get zero XP for picking up loot. If you are spending minutes checking every chest while ignoring objectives, you are losing XP.
 
 ### 3. Death Streaks
-Three deaths in a row can cost you 45 minutes and zero XP. If you die twice in a row, take a break. Reset mentally. Play safer.
+Multiple deaths in a row can cost you an hour and zero XP. If you die twice in a row, take a break. Reset mentally. Play safer.
 
 ### 4. Overgearing for XP Runs
-Your XP per hour is (XP per extraction) / (time per extraction). If you bring legendary gear and play scared (15-minute runs), you level slower than someone with blue gear playing aggressively (7-minute runs).
+Your XP per hour is (XP per extraction) / (time per extraction). If you bring legendary gear and play scared, you level slower than someone with blue gear playing aggressively.
+
+## After Max Level: Endgame Progression
+
+Hitting level 50 is just the beginning. The real game starts with gear optimization, high-tier extractions, and competitive rankings.
+
+### Gear Score Optimization
+
+After max level, your power comes from your gear score:
+
+| Gear Score | Content Unlocked |
+|:--:|------|
+| 350-400 | Higher-tier extractions, strong gear |
+| 400-450 | Endgame extractions |
+| 450-500 | Top-tier extractions |
+| 500+ | Competitive PvP, leaderboard contention |
+
+*Gear score thresholds are community-reported guidelines, not official values.*
+
+### How to Increase Gear Score
+1. **Enhance** gear at your camp (upgrade levels)
+2. **Enchant** with boss-drop materials
+3. **Awaken** legendary items (max enhancement)
+4. **Set bonuses** — wearing multiple pieces of the same set
+
+### Endgame Content
+
+- **Top-tier extractions** — highest risk, highest reward; unique legendary materials
+- **Boss farming** — the Shattered King and Blood Matriarch drop the best endgame loot
+- **Competitive PvP** — seasonal rankings with exclusive titles and mounts
+- **Leaderboard challenges** — fastest extraction times, highest-value single extraction, most boss kills (weekly)
+
+### Daily/Weekly Checklist
+
+| Frequency | Tasks |
+|-----------|-------|
+| Daily | 3x extraction runs, daily quests, camp maintenance |
+| Weekly | Boss kills, PvP placement, weekly challenges |
+| Seasonal | Rank push, event participation |
 
 ## Sample Leveling Schedule
 
+*Times and XP are community-reported approximations.*
+
 ### Day 1 (2 hours): Level 1-15
 
-| Session | Activity | Expected XP |
-|---------|---------|-------------|
-| 0-30 min | Tutorial + 3x Catacombs runs | 2,000 |
-| 30-60 min | 2x Catacombs boss attempts | 2,500 |
-| 60-90 min | 3x Forsaken Hollow safe runs | 3,000 |
-| 90-120 min | 2x Forsaken Hollow boss runs | 4,000 |
+| Session | Activity | Focus |
+|---------|---------|-------|
+| 0-30 min | Tutorial + 3x Catacombs runs | Learn the loop |
+| 30-60 min | 2x Catacombs boss attempts | Boss fight practice |
+| 60-90 min | 3x Forsaken Hollow safe runs | Map knowledge |
+| 90-120 min | 2x Forsaken Hollow boss runs | First boss kills |
 
 ### Day 2 (2 hours): Level 15-25
 
-| Session | Activity | Expected XP |
-|---------|---------|-------------|
-| 0-30 min | 2x Forsaken Hollow boss kills | 6,000 |
-| 30-60 min | 2x Mistveil Forest safe runs | 4,000 |
-| 60-90 min | 2x Mistveil Forest boss attempts | 10,000 |
-| 90-120 min | XP tonic + boss farming | 12,000 |
+| Session | Activity | Focus |
+|---------|---------|-------|
+| 0-30 min | 2x Forsaken Hollow boss kills | Consistent bossing |
+| 30-60 min | 2x Mistveil Forest safe runs | New map |
+| 60-90 min | 2x Mistveil Forest boss attempts | Verdant Ancient |
+| 90-120 min | XP tonic + boss farming | Efficient XP |
 
-### Day 3-4 (4 hours): Level 25-40
+### Day 3-7 (8-14 hours): Level 25-50
 
 - Dedicated boss farming in Mistveil Forest with XP tonic active
 - Introduce The Bloodfen boss kills
 - Form a regular duo or trio
-
-### Day 5-7 (6-8 hours): Level 40-50
-
-- Obsidian Depths with coordinated team
-- Contest all PvP
+- Obsidian Depths with a coordinated team once geared
 - Max boosters active for every session
-
-## End-Game Leveling (After 50)
-
-Once you hit max level:
-
-- Prestige system: Reset your level for exclusive cosmetics and titles
-- Leaderboard: Compete for seasonal ranking
-- Alt characters: Level other classes using the shared XP bonus (50% bonus XP on second character)
 
 ## Related Guides
 
-- [Beginner Guide — How to Survive Your First Extraction](/guides/beginner-guide)
-- [Map Guide — Every Map, Loot Zones, and Extraction Points](/guides/map-guide)
-- [Economy Guide — Make Gold and Build Wealth](/guides/economy-guide)
-- [Camp Upgrades Guide — What to Upgrade First](/guides/camp-upgrades-guide)
-- [Extraction Guide — How to Extract Safely](/guides/extraction-guide)
+- [Beginner Guide](/guides/beginner-guide) — how to survive your first extraction
+- [Map Guide](/guides/map-guide) — every map, loot zones, and extraction points
+- [Economy Guide](/guides/economy-guide) — make Gold and build wealth
+- [Camp Upgrades Guide](/guides/camp-upgrades-guide) — what to upgrade first
+- [Extraction Guide](/guides/extraction-guide) — how to extract safely
+- [Boss Guide](/guides/boss-guide) — every boss and how to beat them

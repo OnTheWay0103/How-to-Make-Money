@@ -4,7 +4,7 @@ description: 'Does Echoes of Aincrad have PvP or duels? No — it is a single-pl
 keywords: ['echoes of aincrad pvp', 'aincrad duel guide', 'is echoes of aincrad multiplayer', 'aincrad pvp', 'echoes of aincrad online', 'aincrad single player']
 category: Guides
 version: '1.0'
-updated: '2026-08-01'
+updated: '2026-08-10'
 related:
   - multiplayer-coop-guide
   - beginner-guide
@@ -55,7 +55,7 @@ No. There is no friendly PvP, no local versus, no online duels. It's a single-pl
 No — misreported content. Reviews and official materials confirm zero multiplayer features.
 
 **Q: Will the Expansion DLC add multiplayer?**
-Nothing announced. The expansion (end of 2026) is expected to add story/floors content; treat any multiplayer claim as unconfirmed until Bandai Namco announces it.
+Nothing announced. The expansion (end of 2026) is expected to add story/floors content; treat any multiplayer claim as unconfirmed until the developer announces it.
 
 **Q: Is there any competitive content at all?**
 Boss Rush S-rank runs and speedrunning are the community's competitive outlets.

@@ -1,14 +1,16 @@
 ---
 title: 'PvP Combat Guide — How to Win Fights in Mistfall Hunter'
-description: 'Complete PvP guide for Mistfall Hunter. Class matchups, engagement strategy, third-partying, team fight tactics, and how to win (or avoid) PvP encounters in extraction zones.'
-keywords: ['pvp guide', 'pvp combat', 'pvp tips', 'team fights', 'class matchups', 'pvp strategy']
+description: 'Complete PvP guide for Mistfall Hunter. Class matchups, engagement strategy, third-partying, team fight tactics, loadout optimization, and how to win (or avoid) PvP encounters in extraction zones.'
+keywords: ['pvp guide', 'pvp combat', 'pvp tips', 'team fights', 'class matchups', 'pvp strategy', 'loadout', 'third party']
 category: Strategy
 version: '1.0'
-updated: '2026-07-07'
+updated: '2026-08-10'
 related:
   - classes-guide
   - extraction-guide
   - solo-play-guide
+  - tier-list-guide
+  - loadout-optimizer
 ---
 
 ## PvP Fundamentals
@@ -36,6 +38,16 @@ Mistfall Hunter is PvPvE — you WILL fight other players. Whether you seek figh
 - You do not know where all enemies are
 - The mist is closing and extraction is far
 
+### Engagement Decision Matrix
+
+| Scenario | Your Gear | Enemy | Recommendation |
+|----------|-----------|--------------|----------------|
+| You have high-value loot | Any | Unknown | Avoid — extract immediately |
+| Near full HP, good gear | Purple+ | Solo | Engage with burst opener |
+| Low HP, decent loot | Green/Blue | Group of 2+ | Disengage, use smoke |
+| Boss spawn nearby | Any | Any | Third-party after they engage the boss |
+| Extraction zone camped | Any | 3+ players | Find alternate extract or wait |
+
 ## 1v1 Matchup Matrix
 
 | Your Class ↓ vs → | Mercenary | Sorcerer | Blackarrow | Shadowstrix | WKnight | Seer |
@@ -47,7 +59,15 @@ Mistfall Hunter is PvPvE — you WILL fight other players. Whether you seek figh
 | **Withered Knight** | Even | Even | Favorable | Even | Skill | Free |
 | **Seer** | Lose | Lose | Lose | Lose | Lose | N/A |
 
-*Skill = matchup determined by player skill, not class advantage.*
+*Skill = matchup determined by player skill, not class advantage. Rankings reflect community consensus and can shift with balance patches.*
+
+## The Engagement Triangle
+
+Every loadout occupies one corner of the engagement triangle, and knowing which corner you — and the enemy — occupy determines your win condition:
+
+- **Burst:** High front-loaded damage. Wins 1v1s quickly but vulnerable to kiting.
+- **Control:** Debuffs, stuns, slows. Wins through attrition and enemy errors.
+- **Sustain:** Healing, shields, DoTs. Wins long fights but weak to coordinated focus fire.
 
 ## Third-Partying
 
@@ -65,6 +85,7 @@ Third-partying is the most effective PvP strategy in extraction games.
 - Do not linger at the fight location
 - Assume someone heard your gunfire and is approaching
 - The looting screen is when you are most vulnerable
+- Ideal engagement windows are short — once shields are depleted and healing cooldowns are spent, both teams have committed and a fresh squad can clean up. If you are the fresh squad, wait for that moment; if you are the committed team, finish or leave.
 
 ## Team Fight Tactics
 
@@ -125,6 +146,62 @@ Good comms win fights:
 - Bond your DPS. Heal your tank. CC divers.
 - If you die first, your team loses. Position accordingly.
 
+## Loadout Optimization for PvP
+
+### Weapon Pairing Ideas
+
+| Primary | Secondary | Playstyle |
+|---------|-----------|-----------|
+| Longbow | Dual Daggers | Long-range pick → close burst |
+| Sword & Shield | — | Mid-range poke → close burst, survive anything |
+| Greatsword | — | Burst windows after parries |
+| Elemental Focus | — | Zone control, area denial |
+
+### Armor Priority by Playstyle
+
+| Playstyle | Stat Priority |
+|-----------|---------------|
+| Aggressive Rusher | Move Speed > HP > Armor |
+| Defensive Controller | Armor > HP > Cooldown Reduction |
+| Ranged | Perception > Move Speed > HP |
+| Hybrid / Flex | Cooldown Reduction > All Stats |
+
+### Utility Loadout
+
+| Slot | Rush Build | Control Build | Survival Build |
+|------|------------|---------------|----------------|
+| Grenade | Frag (x3) | Flashbang (x2) + Smoke | Smoke (x3) |
+| Healing | Medkit (x2) | Medkit + Regen Boost | Medkit (x3) |
+| Special | Adrenaline Shot | EMP Field | Mist Ward Charm |
+| Trap | None | Popper Mine (x2) | Detection Ward |
+
+*Loadout tips are community-reported guidelines, not exact stat data.*
+
+## Advanced Combat Techniques
+
+### Peeker's Advantage
+
+The player who initiates line of sight typically sees the target before they are seen in return — netcode favors the mover. Always initiate line-of-sight instead of holding a static angle, but expect the same trick against you.
+
+### Reload Canceling
+
+You can cancel a reload animation early by sprinting mid-animation, shaving a moment off each reload. Essential for aggressive play. (Timings are class- and weapon-dependent; practice in camp.)
+
+### Mist Walking
+
+When the Mist closes in, taking the damage and healing through it is sometimes faster than running the long way around — the direct path through the Mist can save significant time. Bring healing and do not try it without a clear exit.
+
+## Extraction Priority
+
+When you secure high-value loot, stop fighting. The goal is extraction, not kill count.
+
+| Loot Value | Extract Priority | Strategy |
+|------------|-----------------|----------|
+| Legendary item | Absolute | Avoid all fights |
+| Epic + Purples | High | Camp extraction point early |
+| Blues + Greens | Medium | Fight only if necessary |
+| Trash loot | Low | Play aggressive, seek better loot |
+
 ## Post-Fight Protocol
 
 1. **Heal immediately** — do not loot first
@@ -139,5 +216,12 @@ Good comms win fights:
 - **Audio is information** — gunshots, spells, footsteps all tell you where players are
 - **Purple glow = depleted stamina = free kill** — watch for it on enemies, prevent it on yourself
 - **The element of surprise is worth a gear tier** — a green ambush beats a purple caught off-guard
-- **Loser's bracket exists** — after multiple deaths, you face easier lobbies. Use it to rebuild.
 - **Record your deaths** — watch what you could have done differently
+
+## Related Guides
+
+- [Classes Guide](/guides/classes-guide) — class kits and matchups
+- [Extraction Guide](/guides/extraction-guide) — extraction mechanics and routes
+- [Solo Play Guide](/guides/solo-play-guide) — playing alone against squads
+- [Tier List Guide](/guides/tier-list-guide) — current class meta
+- [Loadout Optimizer](/guides/loadout-optimizer) — building kits for every run

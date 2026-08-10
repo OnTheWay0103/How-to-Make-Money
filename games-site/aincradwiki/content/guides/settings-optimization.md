@@ -4,7 +4,7 @@ description: 'Optimize your Echoes of Aincrad experience with the best graphics 
 keywords: ['graphics settings', 'performance optimization', 'FPS boost', 'control configuration', 'accessibility options']
 category: Guides
 version: '1.0'
-updated: '2026-07-23'
+updated: '2026-08-10'
 related:
   - beginner-guide
   - combat-system-guide
@@ -15,18 +15,18 @@ related:
 
 ## Introduction
 
-Echoes of Aincrad is a visually demanding action JRPG that pushes both the Unreal Engine and your hardware. While the game defaults to a balanced preset, significant performance gains and visual improvements are available through manual configuration. This guide covers every setting, from basic quality toges to hidden .ini tweaks that can double your frame rate on lower-end systems.
+Echoes of Aincrad is a visually rich action JRPG. While the game defaults to a balanced preset, you can adjust individual settings to trade visual quality for performance. This guide covers the main graphics options, recommended control configurations, and accessibility features. Note: the system requirements are as listed on the official store page — this guide does not reproduce specific hardware numbers.
 
-The game runs on a modified version of Unreal Engine 4.27. The PC version offers the most control over graphics, while console versions have limited but still impactful options. This guide focuses on the PC release but includes console-specific tips where applicable.
+> **Note:** The exact FPS impact of each setting is not independently verified; the ranking below is community-reported and may differ from the current build.
 
 ---
 
 ## Recommended Graphics Settings
 
-The table below maps each graphics option across four quality tiers. Use the tier that matches your hardware and performance goals.
+The table below maps each graphics option across four quality tiers. Use the tier that matches your performance goals.
 
-| Setting | Low (60 FPS Target) | Medium (60 FPS) | High (60 FPS) | Ultra (30-60 FPS) |
-|---------|---------------------|-----------------|---------------|-------------------|
+| Setting | Low | Medium | High | Ultra |
+|---------|-----|--------|------|-------|
 | **Resolution Scale** | 75% | 90% | 100% | 100% |
 | **Anti-Aliasing** | FXAA | TAA Low | TAA High | TAA High + Sharpening |
 | **Texture Quality** | Low | Medium | High | Ultra |
@@ -35,23 +35,22 @@ The table below maps each graphics option across four quality tiers. Use the tie
 | **Effects Quality** | Low | Medium | High | Ultra |
 | **View Distance** | Low | Medium | High | Ultra |
 | **Foliage Density** | Low | Medium | High | Ultra |
-| **Ambient Occlusion** | Off | SSAO Low | SSAO High | HBAO+ |
-| **Reflections** | Off | Screen Space | Ray Traced (Low) | Ray Traced (High) |
+| **Ambient Occlusion** | Off | SSAO Low | SSAO High | On |
+| **Reflections** | Off | Screen Space | Screen Space | On |
 | **Volumetric Fog** | Off | Low | High | Ultra |
 | **Motion Blur** | Off | Off | On | On |
 | **VSync** | Off | Off | Off | On |
 | **Frame Rate Cap** | 60 | 60 | 60 | 30 or 60 |
-| **DLSS/FSR** | Performance | Balanced | Quality | Off |
 
 ### Tier Recommendations by Hardware
 
-**Low (GTX 1060 / RX 580 or equivalent)**: Aim for 1080p with the Low preset. The game becomes fully playable, and the combat feel remains responsive. Turn off Volumetric Fog and Reflections — these two settings alone account for a 30-40% performance difference.
+**Low-end hardware**: Aim for 1080p with the Low preset. The game remains playable, and the combat feel stays responsive. Turn off Volumetric Fog and Reflections — community reports say these two settings account for the largest single performance difference.
 
-**Medium (RTX 2060 / RX 5600 XT)**: 1080p-1440p. Medium preset with TAA Low gives a crisp image without the blurriness of FXAA. Drop Shadow Quality to Low if you need an extra 10-15 FPS during boss fights.
+**Mid-range hardware**: 1080p-1440p. Medium preset with TAA Low gives a crisp image without the blurriness of FXAA. Drop Shadow Quality to Low if you need extra FPS during boss fights.
 
-**High (RTX 3070 / RX 6800)**: 1440p-4K. High preset is the sweet spot — visually close to Ultra but with 20-30 more FPS. Enable DLSS Quality or FSR Quality for an additional performance buffer.
+**High-end hardware**: 1440p-4K. High preset is the sweet spot — visually close to Ultra with a meaningful FPS buffer.
 
-**Ultra (RTX 4080+ / RX 7900 XTX)**: 4K. Use Ultra for screenshots, but consider dropping to High for Death Game mode where every frame matters. Ray Traced Reflections are impressive but expensive — even on top hardware, expect dips below 60 FPS in intense combat.
+**Top-tier hardware**: 4K. Use Ultra for screenshots, but consider dropping to High for Death Game mode where every frame matters. Reflections are the most expensive option — even on top hardware, expect occasional dips in intense combat.
 
 ---
 
@@ -113,35 +112,18 @@ For **Death Game mode**, controller is strongly recommended due to the precision
 
 ### The Biggest Performance Killers (in order)
 
-1. **Volumetric Fog**: Reduces FPS by 15-25 FPS in forest and cave areas. Set to Low or Off.
-2. **Ray Traced Reflections**: Costs 20-30 FPS. Only enable on RTX 4070+ hardware.
-3. **Shadow Quality**: Ultra shadows cost 10-15 FPS with minimal visual gain over High.
-4. **Foliage Density**: Cuts 5-10 FPS in outdoor areas. Medium is nearly identical to High.
+1. **Volumetric Fog**: Reduces FPS noticeably in forest and cave areas. Set to Low or Off.
+2. **Reflections**: Cost a significant number of FPS. Prefer Screen Space or Off unless you have headroom.
+3. **Shadow Quality**: Ultra shadows cost FPS with minimal visual gain over High.
+4. **Foliage Density**: Cuts FPS in outdoor areas. Medium is nearly identical to High.
 5. **Post-Processing**: Motion Blur and Depth of Field drain FPS with no gameplay benefit.
-
-### Advanced Tweaks (PC Only)
-
-Edit `%localappdata%/EchoesOfAincrad/Saved/Config/WindowsNoEditor/Engine.ini` (Windows) or `~/Library/Application Support/EchoesOfAincrad/Config/Engine.ini` (macOS) with these additions:
-
-```ini
-[SystemSettings]
-r.Streaming.PoolSize=500          ; Reduce texture pool to free VRAM
-r.TextureStreaming=1              ; Enable texture streaming
-r.Shadow.MaxResolution=512        ; Lower shadow resolution
-r.PostProcessAAQuality=3          ; Lower AA quality
-r.DefaultFeature.MotionBlur=0     ; Disable motion blur
-r.DefaultFeature.AmbientOcclusion=0 ; Disable AO (big FPS gain)
-r.VolumetricFog=0                 ; Disable volumetric fog entirely
-```
-
-**Warning**: Remove or comment out lines that cause instability. Always back up your .ini files before editing.
 
 ### In-Game Performance Tips
 
-- **Disable Steam Overlay** in boss fights (known to cause stuttering)
-- **Close background browsers** — Chrome alone can cost 5-10 FPS
-- **Set Windows Power Plan** to High Performance
-- **Update GPU drivers** specifically for Echoes of Aincrad (NVIDIA driver 546.17+ or AMD 23.12.1+ includes optimized shaders)
+- **Disable Steam Overlay** in boss fights (community-reported stutter fix)
+- **Close background browsers** — they consume CPU and VRAM
+- **Set your OS power plan** to High Performance
+- **Update your GPU drivers** for the latest game optimizations
 - **Verify game files** if you experience stutter after patches
 
 ---
@@ -182,13 +164,13 @@ Echoes of Aincrad includes a surprisingly robust accessibility suite. Most optio
 
 ## Quick Reference Summary
 
-| Priority | Setting | Target | FPS Impact |
-|----------|---------|--------|------------|
-| 1 | Volumetric Fog | Off | +15-25 FPS |
-| 2 | Reflections | Screen Space | +20-30 FPS |
-| 3 | Shadow Quality | Low/High | +10-15 FPS |
-| 4 | Post-Processing | Low/Medium | +5-10 FPS |
-| 5 | Resolution Scale | Adjust to GPU | Variable |
+| Priority | Setting | Target | Impact |
+|----------|---------|--------|--------|
+| 1 | Volumetric Fog | Off | High |
+| 2 | Reflections | Screen Space | High |
+| 3 | Shadow Quality | Low/High | Medium |
+| 4 | Post-Processing | Low/Medium | Medium |
+| 5 | Resolution Scale | Adjust to hardware | Variable |
 
 Start with all settings at Low, then increase one at a time until you hit your performance target. The combat system demands consistent 60 FPS — frame drops during Sword Skill windows can mean the difference between a perfect parry and a death screen, especially in Death Game mode.
 

@@ -4,12 +4,11 @@ description: 'Is Echoes of Aincrad multiplayer or co-op? No — it is a single-p
 keywords: ['echoes of aincrad multiplayer', 'aincrad co op', 'is echoes of aincrad multiplayer', 'echoes of aincrad how to play with friends', 'aincrad multiplayer guide', 'aincrad single player']
 category: Guides
 version: '1.0'
-updated: '2026-08-01'
+updated: '2026-08-10'
 related:
   - pvp-duel-guide
   - beginner-guide
   - partner-guide
-  - partner-optimization
   - boss-rush-mode
 ---
 
@@ -44,7 +43,7 @@ Since there's no multiplayer, your combat companion is the **partner system**:
 - Your **AI partner** has its own fighting style, stats, and gear
 - **Combination Skills** — coordinated attacks you trigger with your partner
 - **Support Skills** — partner buffs/heals during fights
-- Partner choice and optimization is a real build layer: see the [Partner Guide](/guides/partner-guide) and [Partner Optimization](/guides/partner-optimization)
+- Partner choice and optimization is a real build layer: see the [Partner Guide](/guides/partner-guide)
 
 Think of partner selection as the closest thing to team composition the game offers.
 
@@ -53,7 +52,7 @@ Think of partner selection as the closest thing to team composition the game off
 ## What Single-Player Content Exists
 
 - **6 weapons as classes** — Sword & Shield, Two-Handed Axe, Dagger, Rapier, Greatsword, Mace — master all six on one character (see the [Weapons Guide](/guides/weapons-guide))
-- **Two floors at launch** (more via the expansion) — see the [Floor Guide](/guides/floor-guide)
+- **Launched with two floors**, with more added via updates — see the [Best Floor Order guide](/guides/best-floor-order)
 - **Boss Rush mode** — the endgame gauntlet (see the [Boss Rush Guide](/guides/boss-rush-mode))
 - **EX-Mod crafting** — the long-term min-max loop (see the [EX-Mod Guide](/guides/ex-mod-guide))
 - **Expansion DLC** — announced for end of 2026; multiplayer has not been announced
@@ -80,6 +79,5 @@ Nothing announced. The expansion (end of 2026) is expected to add story/floors; 
 
 - [PvP & Duel Status](/guides/pvp-duel-guide) — the other half of the "multiplayer?" question
 - [Partner Guide](/guides/partner-guide) — your AI companion
-- [Partner Optimization](/guides/partner-optimization) — building the best partner
 - [Boss Rush Guide](/guides/boss-rush-mode) — the endgame gauntlet
 - [Builds Guide](/guides/builds-guide) — six-weapon build variety

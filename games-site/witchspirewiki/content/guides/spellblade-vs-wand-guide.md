@@ -1,18 +1,22 @@
 ---
 title: "Witchspire Spellblade vs Wand Guide — Weapon Comparison"
-description: "Detailed comparison of Spellblade vs Wand in Witchspire. Damage, range, playstyle, and which weapon is best for each Coven and playstyle."
+description: "Detailed comparison of Spellblade vs Wand in Witchspire. Range, playstyle, resource management, and which weapon is best for each Coven and playstyle."
 category: "Guides"
-version: "0.1.1d"
-updated: "2026-06-29"
+version: "0.1.4"
+updated: "2026-08-10"
 keywords: ["Witchspire Spellblade", "Witchspire Wand", "Spellblade vs Wand", "Witchspire weapons", "Witchspire best weapon", "Witchspire melee vs ranged"]
 related: ["best-coven-guide", "luminary-skill-tree-guide", "beginner-guide", "tier-list"]
 ---
 
 # Spellblade vs Wand Guide — Which Weapon is Better?
 
-> **Applies to EA v0.1.1d / Updated: June 29, 2026**
+> Last verified: August 10, 2026
 
-Your weapon choice is locked in when you pick your Coven. Cloudpiercers, Starsmiths, and Foretellers get the Spellblade. Wildroots, Tomekeepers, and Nightscribes get the Wand. But which one is actually better? The answer depends on your playstyle, situation, and team composition.
+Your starting weapon comes from your Coven choice. Cloudpiercers, Starsmiths, and Foretellers start with the Spellblade. Wildroots, Tomekeepers, and Nightscribes start with the Wand. But which one is actually better? The answer depends on your playstyle, situation, and team composition.
+
+> **Note:** community reports differ on whether the weapon is locked to your Coven or can be swapped later — some builds describe using either weapon. Treat loadout flexibility as unverified.
+
+> **Note:** exact damage multipliers and combo inputs below come from community reports and have not been independently verified. Treat numbers as approximate.
 
 ---
 
@@ -20,12 +24,12 @@ Your weapon choice is locked in when you pick your Coven. Cloudpiercers, Starsmi
 
 | Aspect | Spellblade | Wand |
 |--------|------------|------|
-| Range | Melee-hybrid (short to mid) | Pure ranged (mid to long) |
+| Range | Melee-hybrid (short to mid) | Ranged (mid to long) |
 | Resource | Stamina (combos) + Mana (spells) | Mana (all abilities) |
-| Damage Type | Hybrid physical + magic | Pure magic |
-| Attack Speed | Fast combos | Slow casts |
-| AoE Potential | Built-in cleave on combos | Requires specific spells |
-| Single Target | Lower (needs combos) | Higher |
+| Damage Type | Hybrid physical + magic | Magic |
+| Attack Style | Fast combos | Slower casts |
+| AoE Potential | Built-in cleave on combos (reported) | Requires specific spells |
+| Single Target | Lower (needs combos) | Higher (reported) |
 | Survivability | Higher HP pool | Lower HP, safer distance |
 | Skill Ceiling | Medium | High (positioning heavy) |
 
@@ -34,15 +38,15 @@ Your weapon choice is locked in when you pick your Coven. Cloudpiercers, Starsmi
 ## Spellblade Deep Dive
 
 ### How It Works
-The Spellblade is a hybrid melee weapon. Your basic attacks are short-range slashes, but your heavy attack fires a magic beam. Combos are executed by timing clicks: 3-light → 1-heavy creates a spinning AoE, while 2-light → 2-heavy does a knock-up.
+The Spellblade is a hybrid melee weapon. Your basic attacks are short-range slashes, and your heavy attack fires a magic beam (reported). Combos are executed by timing clicks — community reports describe light-attack chains finishing with a heavy attack, but exact inputs are not verified.
 
-### Damage Profile
-- **Basic attacks**: 100% physical damage
-- **Heavy beam**: 150% magic damage (costs mana)
-- **Combo finishers**: 200-300% hybrid damage
+### Damage Profile (Community-Reported)
+- **Basic attacks**: physical damage
+- **Heavy beam**: magic damage (costs mana)
+- **Combo finishers**: hybrid damage — exact multipliers unverified
 
 ### Pros
-- Clears groups of enemies faster than Wand
+- Reported to clear groups of enemies faster than Wand
 - Combo system is satisfying and powerful
 - Lower mana dependency (basics cost no mana)
 - Better for aggressive, in-your-face play
@@ -50,29 +54,29 @@ The Spellblade is a hybrid melee weapon. Your basic attacks are short-range slas
 ### Cons
 - Must be close to enemies
 - Stamina management is required
-- Bad matchups against flying enemies
+- Bad matchups against flying enemies (reported)
 - Harder to dodge boss telegraphs
 
 ### Best For
 - Cloudpiercers (Lux burst benefits from close range)
-- Starsmiths (Crystal walls let you close distance safely)
-- Foretellers (teleport behind enemies → combo)
+- Starsmiths (Crystal control lets you close distance safely)
+- Foretellers (reported mobility playstyle)
 
 ---
 
 ## Wand Deep Dive
 
 ### How It Works
-The Wand is a pure ranged caster weapon. You fire magic projectiles that track enemies. Your spells are your primary damage — you rarely use basic attacks after the early game. Positioning is everything.
+The Wand is a ranged caster weapon. You fire magic projectiles, and your spells are your primary damage — community reports describe positioning as everything.
 
-### Damage Profile
-- **Basic attacks**: 80% magic damage
-- **Spells**: 200-400% magic damage (scales with Essence)
-- **Criticals**: Nightscribes can hit 600%+ with Astral
+### Damage Profile (Community-Reported)
+- **Basic attacks**: magic damage
+- **Spells**: high magic damage (scales with your build)
+- **Criticals**: Nightscribes are reported to reach very high crits with Astral
 
 ### Pros
 - Safe distance from enemies
-- Better for sustained boss damage
+- Reported as better for sustained boss damage
 - Mana management is simpler than Stamina + Mana
 - Easier to see boss telegraphs from range
 
@@ -84,7 +88,7 @@ The Wand is a pure ranged caster weapon. You fire magic projectiles that track e
 
 ### Best For
 - Wildroots (heal from range, keep tank alive)
-- Tomekeepers (poison stacking from safe distance)
+- Tomekeepers (damage over time from safe distance)
 - Nightscribes (crit from range, don't take return damage)
 
 ---
@@ -93,33 +97,33 @@ The Wand is a pure ranged caster weapon. You fire magic projectiles that track e
 
 | Coven | Best Weapon | Why |
 |-------|-------------|-----|
-| Cloudpiercers | Spellblade | Lux spells are short-range burst; combos maximize damage |
-| Starsmiths | Spellblade | Crystal walls control space; teleport in with combo |
-| Foretellers | Spellblade | Ethereal marks detonate with melee hits |
+| Cloudpiercers | Spellblade | Lux spells are reported as short-range burst; combos maximize damage |
+| Starsmiths | Spellblade | Crystal control spaces out fights; close in for combos |
+| Foretellers | Spellblade | Reported mobile playstyle |
 | Wildroots | Wand | Nature heals are ranged; never interrupt healing |
-| Tomekeepers | Wand | Nox DoT stacking is ranged; stay at max distance |
+| Tomekeepers | Wand | Nox damage over time is ranged; stay at distance |
 | Nightscribes | Wand | Astral crits from range keep you safe from self-damage |
 
 ---
 
-## Build Examples
+## Build Examples (Community-Reported)
 
 ### Spellblade Burst Build (Cloudpiercer)
-- **Stat Priority**: Spellblade Attack > Critical Rate > Max Mana
+- **Stat Priority**: Weapon Attack > Critical Rate > Max Mana
 - **Luminary Nodes**: Quick Recovery, Tough Hide, Arcane Flow
-- **Rotation**: Light x3 → Heavy → Lux Beam → Light x2 → Heavy (knock-up) → repeat
-- **Gear**: Iron Spellblade → Steel Spellblade damage rolls
+- **Rotation**: light combos into a heavy finisher, weave Lux spells between combos (exact inputs unverified)
+- **Gear**: Iron Spellblade → Steel Spellblade
 
-### Wand DoT Build (Tomekeeper)
-- **Stat Priority**: Magic Damage > Poison Duration > Mana Regen
+### Wand Damage Build (Tomekeeper)
+- **Stat Priority**: Magic Damage > Damage Duration > Mana Regen
 - **Luminary Nodes**: Mana Font, Arcane Flow (upgraded), Efficient Crafting
-- **Rotation**: Nox Cloud → Poison Bolt ×3 → Wand basic attacks → refresh Nox Cloud
-- **Gear**: Iron Wand → Steel Wand with poison damage affix
+- **Rotation**: open with a Nox area spell, stack damage over time, refresh as it expires (community-reported)
+- **Gear**: Iron Wand → Steel Wand
 
 ### Wand Support Build (Wildroot)
 - **Stat Priority**: Healing Power > Max Mana > Cooldown Reduction
 - **Luminary Nodes**: Quick Recovery, Mana Font, Extra Familiar Slot
-- **Rotation**: Regen spell on tank → Familiar buff → Wand basics → Regen again
+- **Rotation**: heal over time on tank → familiar buff → basics → re-apply (community-reported)
 - **Gear**: Wand with cooldown reduction affix
 
 ---
@@ -128,10 +132,10 @@ The Wand is a pure ranged caster weapon. You fire magic projectiles that track e
 
 | Scenario | Spellblade | Wand |
 |----------|------------|------|
-| Solo leveling | Better (AoE clear) | Slower (single-target) |
+| Solo leveling | Better (AoE clear, reported) | Slower (single-target) |
 | Solo bossing | Risky (must be close) | Safer (keep distance) |
 | Co-op DPS | Good (cleave packs) | Excellent (single-target burn) |
-| Co-op support | Poor | Excellent (healing / DoT) |
+| Co-op support | Poor | Excellent (healing / damage over time) |
 | Speed farming | Better | Worse |
 
 ---

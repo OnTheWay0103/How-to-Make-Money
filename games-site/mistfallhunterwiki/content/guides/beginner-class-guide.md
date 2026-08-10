@@ -3,14 +3,14 @@ title: "Mistfall Hunter Beginner Class Guide — Which Class to Start With"
 description: "Which Mistfall Hunter class to pick as a new player: all 6 classes compared for solo extraction, trio squads, and PvP, plus the class-change system and early talent priorities."
 category: "Guides"
 version: "1.0"
-updated: "2026-08-04"
+updated: "2026-08-10"
 keywords: ["mistfall hunter beginner class", "mistfall hunter best class", "mistfall hunter which class", "mistfall hunter class change", "mistfall hunter mercenary", "mistfall hunter starter class"]
-related: ["classes-guide", "class-change-guide", "tier-list-guide", "new-player-roadmap", "leveling-guide"]
+related: ["classes-guide", "class-change-guide", "tier-list-guide", "beginner-guide", "leveling-guide"]
 ---
 
 # Mistfall Hunter Beginner Class Guide — Pick Right, Extract More
 
-**Mistfall Hunter / Updated: August 4, 2026**
+**Mistfall Hunter / Updated: August 10, 2026**
 
 Mistfall Hunter launches with six classes, and the one you start with shapes your first 20 hours more than any other decision. The good news: you can switch classes between extractions from your camp — but switching costs resources and rebuild time, so starting smart still matters. This guide breaks down all six classes, recommends starters by playstyle and squad type, and covers the class-change system you'll use within your first week.
 
@@ -27,7 +27,7 @@ Mistfall Hunter launches with six classes, and the one you start with shapes you
 | Seer | Support/Healer | Lantern & Catalyst | Medium | Organized squads |
 | Withered Knight | Counter-fighter | Greatsword | Medium | Frontline disruption |
 
-**Important context for beginners:** the 1.0 build (July 30, 2026) rebalanced every class — treat any pre-launch tier list as invalid. The table above reflects the 1.0 meta; the [Tier List Guide](/guides/tier-list-guide) tracks the current state.
+**Important context for beginners:** the launch build differs from pre-launch playtests, so treat any pre-launch tier list as outdated. The table above reflects the current community consensus; the [Tier List Guide](/guides/tier-list-guide) tracks rankings.
 
 ---
 
@@ -35,7 +35,7 @@ Mistfall Hunter launches with six classes, and the one you start with shapes you
 
 ### 1. Mercenary — The Default Recommendation
 
-- **Why:** 70% damage reduction on block, a forgiving learning curve, and value in both PvE and PvP.
+- **Why:** strong damage reduction on block, a forgiving learning curve, and value in both PvE and PvP.
 - **Core loop:** block to build defensive value → Shield Dash to stun → punish with sword combos. Sword Tip stacking into Blade Edge gives you real burst.
 - **Key early talents:** Resilient Body (builds Will while blocking), Rising to the Challenge (Shield Dash stuns), Stone Breaker Slash (punish aggressive enemies).
 - **Best for:** anyone new to extraction games — it survives the mistakes you will make.
@@ -78,23 +78,23 @@ Classes are switched at your camp between extractions — there is no level pena
 | Where | Your camp, between extractions |
 | Cost | Free to switch; time to rebuild talents |
 | Carryover | Camp upgrades and gear slots persist |
-| Meta note | The 1.0 rebalance means every class is viable — play what fits |
+| Meta note | The launch build made every class viable — play what fits |
 
 ---
 
 ## 5. Beginner Mistakes With Classes
 
 1. **Starting on Shadowstrix.** It's the hardest class to extract with — stealth in extraction games demands map knowledge you don't have yet.
-2. **Ignoring the trio composition.** A Mercenary + Seer + Sorcerer trio is the community-standard 1.0 composition; three DPS classes in Trio queue extract far less often.
+2. **Ignoring the trio composition.** A Mercenary + Seer + Sorcerer trio is the community-standard composition; three DPS classes in Trio queue extract far less often.
 3. **Locking into one class too early.** Switching is free — the mistake is never trying the others.
 4. **Playing Sorcerer like a tank.** The fragility is real; position behind the Mercenary's block, not beside it.
-5. **Trusting beta tier lists.** The 1.0 patch rebalanced everything — see the [Tier List Guide](/guides/tier-list-guide) and the [New Player Roadmap](/guides/new-player-roadmap) for current recommendations.
+5. **Trusting beta tier lists.** The launch build changed class balance — see the [Tier List Guide](/guides/tier-list-guide) and the [Beginner Guide](/guides/beginner-guide) for current recommendations.
 
 ---
 
 ## 6. First Session Plan
 
-1. Start as **Mercenary** — run 3-5 extractions to learn map flow (see the [New Player Roadmap](/guides/new-player-roadmap)).
+1. Start as **Mercenary** — run 3-5 extractions to learn map flow (see the [Beginner Guide](/guides/beginner-guide)).
 2. Unlock your first talents: Resilient Body → Rising to the Challenge.
 3. Swap to a second class once the extraction loop feels comfortable — try Seer if you have a trio, Sorcerer if you want DPS.
 4. Check the [Leveling Guide](/guides/leveling-guide) for talent unlock order and the [Classes Guide](/guides/classes-guide) for full class kits.
@@ -108,5 +108,5 @@ Classes are switched at your camp between extractions — there is no level pena
 - [Classes Guide](/guides/classes-guide) — All six classes, full kits and talents
 - [Class Change Guide](/guides/class-change-guide) — Switching costs and carryover
 - [Tier List Guide](/guides/tier-list-guide) — The current 1.0 meta rankings
-- [New Player Roadmap](/guides/new-player-roadmap) — Your first sessions, step by step
+- [Beginner Guide](/guides/beginner-guide) — Your first sessions, step by step
 - [Leveling Guide](/guides/leveling-guide) — Talent unlock order for each class

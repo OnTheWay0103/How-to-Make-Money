@@ -1,21 +1,22 @@
 ---
 title: 'Economy Guide — Make Gold, Value Items, and Trade Smart'
-description: 'Master the Mistfall Hunter economy. Learn Gyldenblood farming strategies, the Auction House system, what items to loot and sell, and how to build wealth efficiently.'
-keywords: ['economy guide', 'gyldenblood', 'gold farming', 'auction house', 'trading', 'what to loot', 'wealth guide']
+description: 'Master the Mistfall Hunter economy. Learn Gyldenblood farming strategies, the Auction House system, price cycles, flipping with fee math, what items to loot and sell, and how to build wealth efficiently.'
+keywords: ['economy guide', 'gyldenblood', 'gold farming', 'auction house', 'trading', 'what to loot', 'wealth guide', 'flipping', 'price cycles']
 category: Economy
 version: '1.0'
-updated: '2026-07-11'
+updated: '2026-08-10'
 related:
   - beginner-guide
   - gear-farming-guide
   - camp-upgrades-guide
   - extraction-guide
-  - beginner-mistakes
+  - season-guide
+  - loot-rarity-guide
 ---
 
 ## Understanding the Economy
 
-Mistfall Hunter has two currencies and a player-driven trading system. Understanding how they interact is the difference between scraping by and building wealth.
+Mistfall Hunter has multiple currencies and a player-driven trading system. Understanding how they interact is the difference between scraping by and building wealth.
 
 ### Currencies
 
@@ -39,16 +40,18 @@ Mistfall Hunter has two currencies and a player-driven trading system. Understan
 
 ### 1. Consistent Extraction (Base Income)
 
-The most reliable income source: extract with at least 500 Gyldenblood per run.
+The most reliable income source: extract with meaningful Gyldenblood per run.
 
-| Strategy | Risk | Average Per Run | Time Per Run |
+| Strategy | Risk | Typical Per Run | Time Per Run |
 |----------|------|----------------|-------------|
-| Speed loot — hit 3 nearby chests, extract | Very Low | 300-600 Gyldenblood | 5-7 min |
-| Standard farm — clear one zone, boss optional | Low | 800-1200 Gyldenblood | 10-15 min |
-| Boss farm — kill 1 boss, extract | Medium | 1500-2500 Gyldenblood | 15-20 min |
-| High-risk — contest PvP zone, full clear | High | 3000-5000+ Gyldenblood | 20-30 min |
+| Speed loot — hit 3 nearby chests, extract | Very Low | A few hundred Gyldenblood | 5-7 min |
+| Standard farm — clear one zone, boss optional | Low | Roughly 800-1,200 Gyldenblood | 10-15 min |
+| Boss farm — kill the Woodling, extract | Medium | Roughly 1,500-2,500 Gyldenblood | 15-20 min |
+| High-risk — contest PvP zone, full clear | High | 3,000+ Gyldenblood | 20-30 min |
 
-**Rule of thumb**: Never leave a match with less than your entry cost. If you are running green gear (replacement cost ~200 Gyldenblood), extract with at least 200.
+*Ranges are community-reported averages, not exact figures.*
+
+**Rule of thumb**: Never leave a match with less than your entry cost. If you are running green gear (replacement cost is low), extract with at least that much.
 
 ### 2. Sell Gear You Don't Use
 
@@ -60,75 +63,94 @@ Many new players hoard gear. Don't.
 
 ### 3. Flip the Auction House
 
-The Auction House (AH) in Mistfall Hunter has predictable patterns:
+The Auction House (AH) in Mistfall Hunter shows predictable patterns. Prices are driven by population (more players online on weekends), raid/boss resets early in the week, meta shifts after balance patches, and season progress.
 
-- **Weekend spikes**: Prices rise Friday-Sunday (more players online, more active trading)
-- **Tuesday dip**: Post-reset cheapest time to buy
-- **Meta shifts**: After balance patches, old meta gear drops in price, new meta gear spikes
-- **Bulk discounts**: Items listed in stacks of 10+ are often 15-20% cheaper per unit
+**The classic flip:** buy when the player count is low (mid-week), hold for 2-5 days, list at the weekend peak. This single loop outperforms most farming strategies per hour of effort — but check prices on your server, since patterns can shift.
 
-**Flipping strategy**:
-1. Buy underpriced items on Tuesday/Wednesday
-2. Hold for 2-5 days
-3. List on Friday evening
-4. Repeat
+**Flipping rule of thumb:** if the expected profit after fees is under roughly 25%, the item is not a flip — it is a distraction.
 
 ### 4. Material Farming
 
-Some materials are consistently valuable:
+Some materials are consistently valuable because upgrades and crafting never stop:
 
-| Material | Source | Current Value | Why |
-|----------|--------|--------------|-----|
-| Mist Essence | Mini-bosses, elite mobs | High | Required for camp upgrade tier 4+ |
-| Corroded Core | Corroded elites | Medium | Crafting consumables |
-| Gyldenblood Shard | Chests, drops | Always | Faction reputation |
-| Ancient Residue | Bosses | Very High | Legendary crafting |
-| Rune Fragment | Hidden caches | Medium-High | PvP consumable crafting |
+| Material | Source | Why It Holds Value |
+|----------|--------|--------------------|
+| Mist Essence | Mini-bosses, elite mobs | Required for higher-tier camp upgrades |
+| Corroded Core | Corroded elites | Crafting consumables, steady demand |
+| Gyldenblood Shard | Chests, drops | Faction reputation |
+| Ancient Residue | Bosses | Legendary crafting |
+| Rune Fragment | Hidden caches | PvP consumable crafting |
+
+Materials are among the **least volatile** trades in the game — their demand is structural.
+
+## Flipping with Fee Math
+
+Flipping only works when your margin survives the fee structure. Always compute profit as:
+
+```
+Profit = Sale Price − Buy Price − Listing Fee − Success Fee
+```
+
+| Item Type | Typical Margin | Net Viable? |
+|-----------|----------------|-------------|
+| Common materials (stacks) | 20-40% | Yes — volume play |
+| Blue gear with 1 good affix | 30-60% | Yes — fastest sellers |
+| Purple gear with wrong affixes | 15-40% | Maybe — check AH price history |
+| Legendary / God-tier rolls | 50-100%+ | Yes — but capital-heavy |
+| Vendor-trash commons | Negative | Never flip; vendor these |
+
+## Vendor vs Auction House: The Decision Table
+
+| Item Situation | Vendor | Auction House |
+|----------------|--------|---------------|
+| Common gear, broken items, gray mats | **Sell** | Never |
+| Green gear with bad affixes | Sell | Only in bulk stacks |
+| Blue+ gear with 1+ good affix | Never | **Sell** |
+| Materials (Mist Essence, Ancient Residue) | Emergency only | **Sell** — crafting demand is constant |
+| Gear for your own class | Keep | Keep |
+
+The vendor exists to convert trash into capital; the AH exists to convert luck into wealth. Using the vendor for blue gear leaves money on the table — and using the AH for trash costs you listing fees on items nobody wants.
 
 ## What to Loot: Priority Guide
 
 ### Always Pick Up (Guaranteed Profit)
 
 1. **Gyldenblood** (obvious) — every pile
-2. **Ancient Residue** — 500+ Gyldenblood on AH
-3. **Mist Essence** — 200-400 Gyldenblood on AH
+2. **Ancient Residue** — sells high on the AH
+3. **Mist Essence** — steady AH value
 4. **Purple+ gear with top-tier affixes** — check on sight
 5. **Unique named items** — always sell high
 
 ### Usually Pick Up (Situational Profit)
 
-1. **Blue gear with 2 good affixes** — 100-300 Gyldenblood on AH
-2. **Green gear with BiS affixes** — 50-100 Gyldenblood
+1. **Blue gear with 2 good affixes** — reliable AH value
+2. **Green gear with best-in-slot affixes** — small AH value
 3. **Consumable materials** — check current AH prices
 4. **Keys** — some unlock high-value chests
 
 ### Skip Unless You Have Space
 
-1. **Common gear** — vendor for 10-30 Gyldenblood
-2. **Green gear with bad affixes** — 15-25 Gyldenblood
+1. **Common gear** — vendor for pocket change
+2. **Green gear with bad affixes** — minimal value
 3. **Basic potions** — buy cheaper from vendor
-4. **Gray "junk" items** — 1-5 Gyldenblood each
+4. **Gray "junk" items** — vendor trash
 
 ## Auction House Tips
 
 ### Listing Strategically
 
-- **Undercut by 1%**: If the cheapest listing is 100 Gyldenblood, list at 99. Being the lowest price moves your item first.
-- **Use buyout prices**: Don't use auction-only listings for items under 500 Gyldenblood — the time is not worth the extra 10%.
-- **List during peak hours**: Friday 7-10 PM (server time) has the most buyers.
-- **Bundle consumables**: A stack of 10 potions sells faster than 10 individual listings.
+- **Undercut by a small amount**: being the lowest price moves your item first
+- **Use buyout prices**: auction-only listings are not worth the time for low-value items
+- **List during peak hours**: evenings on weekends have the most buyers
+- **Bundle consumables**: a stack of 10 sells faster than 10 individual listings
 
-### Pricing Reference (Current Meta)
+### Season Tokens: The Second Currency
 
-| Item Type | Vendor Price | AH Price (Range) | AH Price (Peak) |
-|-----------|-------------|-----------------|-----------------|
-| Green weapon (generic) | 25 | 10-30 | 40 |
-| Blue weapon (good affix) | 60 | 100-250 | 350 |
-| Purple weapon (good affix) | 200 | 500-1500 | 2500 |
-| Purple weapon (BiS affix + class) | 200 | 2000-5000 | 8000 |
-| Legendary weapon | 500 | 5000-15000 | 30000 |
-| Mist Essence (x1) | N/A | 200-400 | 600 |
-| Ancient Residue (x1) | N/A | 500-800 | 1200 |
+Season Tokens (from the Season Pass and challenges) buy season-exclusive items:
+
+- **Spend on exclusives first** — season-exclusive cosmetics and gear can rise in value after the season closes
+- **Don't hoard past the season** — unspent tokens typically lose value when the next pass starts
+- See the [Season Guide](/guides/season-guide) for the current token economy
 
 ## What NOT to Do
 
@@ -144,21 +166,22 @@ The vendor sells green gear cheaply. Never buy green gear from the Auction House
 
 ### 3. Don't List Items Below Vendor Price
 
-Check the vendor sell price before listing. If an item vendors for 100 Gyldenblood, listing it for 90 on the AH loses you money after fees.
+Check the vendor sell price before listing. If an item vendors for a price, listing it below that on the AH loses you money after fees.
 
 ### 4. Don't Carry More Than You Can Afford to Lose
 
-A common adage in Mistfall Hunter: "Don't bring what you can't afford to lose." If a piece of gear represents 50% of your net worth, do not take it into a high-risk map.
+A common adage in Mistfall Hunter: "Don't bring what you can't afford to lose." If a piece of gear represents a large share of your net worth, do not take it into a high-risk map.
 
 ## Wealth Milestones
 
-| Stage | Net Worth | Goal |
-|-------|-----------|------|
-| Fresh Start | < 5,000 Gyldenblood | Build stable income (3 extractions/hour) |
-| Comfortable | 5,000 - 25,000 | Upgrade camp to level 3, buy blue gear |
-| Established | 25,000 - 100,000 | Purple gear, level 5+ camp upgrades |
-| Wealthy | 100,000 - 500,000 | Multiple legendary sets, max camp |
-| Tycoon | 500,000+ | Trading as primary income, full stash |
+| Stage | Capital | Strategy |
+|-------|---------|----------|
+| 1. Extraction grinder | 0-5,000 Gyldenblood | Speed-loot runs, vendor everything, bank upgrades |
+| 2. First flips | 5,000-30,000 | Flip materials and blue gear on the weekly cycle |
+| 3. Volume trader | 30,000-150,000 | Bulk stacks, hold through the dip, list at the peak |
+| 4. Market player | 150,000+ | God-tier gear, season speculation |
+
+**The one rule that never changes:** wealth is measured in what you extract, but it is *built* on what you sell — the only item that loses value is the one sitting in your stash.
 
 ## Daily Routine for Building Wealth
 
@@ -166,12 +189,13 @@ A common adage in Mistfall Hunter: "Don't bring what you can't afford to lose." 
 2. **Fast 5-minute extraction**: Use cheap gear, hit 3 chests, extract. Repeat 2-3x.
 3. **Check the Shop**: Buy discounted purple gear if available
 4. **Auction House**: List items from yesterday, check for good deals
-5. **Weekly challenge**: Complete at least the first 3 tiers for Season Tokens
+5. **Weekly challenge**: Complete at least the first few tiers for Season Tokens
 
 ## Related Guides
 
-- [Gear Farming Guide — How to Farm Efficiently](/guides/gear-farming-guide)
-- [Camp Upgrades Guide — What to Upgrade First](/guides/camp-upgrades-guide)
-- [Beginner Guide — How to Survive Your First Extraction](/guides/beginner-guide)
-- [Beginner Mistakes — 10 Errors to Avoid](/guides/beginner-mistakes)
-- [Extraction Guide — How to Extract Safely](/guides/extraction-guide)
+- [Gear Farming Guide](/guides/gear-farming-guide) — where the flip inventory comes from
+- [Camp Upgrades Guide](/guides/camp-upgrades-guide) — the biggest permanent wealth sink
+- [Loot Rarity Guide](/guides/loot-rarity-guide) — affix values that determine AH pricing
+- [Season Guide](/guides/season-guide) — season token income and spending
+- [Extraction Guide](/guides/extraction-guide) — how to extract with your haul
+- [Beginner Guide](/guides/beginner-guide) — the fundamentals before the economy

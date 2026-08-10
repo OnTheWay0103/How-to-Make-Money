@@ -1,10 +1,10 @@
 ---
 title: 'Mage Build Guide — Best Ranged Magic Setup'
-description: 'Complete Mage build guide for Echoes of Aincrad. Best magic skills, EX-Mods, stat allocation, skill rotation, and solo versus group performance analysis.'
+description: 'Complete Mage build guide for Echoes of Aincrad. Best magic skills, EX-Mods, stat allocation, skill rotation, and solo versus partner-assisted performance analysis.'
 keywords: ['mage build', 'magic build', 'ranged build', 'caster build', 'intelligence build']
 category: Builds
 version: '1.0'
-updated: '2026-07-11'
+updated: '2026-08-10'
 related:
   - builds-guide
   - ex-mod-guide
@@ -13,7 +13,9 @@ related:
 
 ## Why Play Mage?
 
-Mage is the only **true ranged class** in Echoes of Aincrad. You attack from a distance, control the battlefield with AoE, and output the highest burst damage potential in the game. If you enjoy deleting enemy health bars before they reach you, this is your build.
+Mage is the late-game magic path — the only **true ranged playstyle** in Echoes of Aincrad. You attack from a distance, control the battlefield with AoE, and output the highest burst damage potential in the game. If you enjoy deleting enemy health bars before they reach you, this is your build.
+
+> **Note:** The Mage path unlocks in the late game. Spell names, channel times, and bonus values below are community-reported and not independently verified.
 
 ## Core Mechanics
 
@@ -61,7 +63,7 @@ A toggle skill that converts SP drain to mana absorption. While active, 40% of i
 | Vitality | 15% | Enough to survive mistakes |
 | Strength | 0% | Zero benefit for Mage |
 
-**Intelligence is your only damage stat.** Every point in Intelligence increases spell damage by roughly 2%.
+**Intelligence is your only damage stat.** Intelligence increases spell damage — the exact scaling per point is community-reported and not independently verified.
 
 ## Best EX-Mods
 
@@ -69,11 +71,11 @@ A toggle skill that converts SP drain to mana absorption. While active, 40% of i
 |----------|--------|--------|
 | 1 | Reduced Cast Time | -20% channel time (more DPS uptime) |
 | 2 | Mana Shield Efficiency | -40% SP drain while Mana Shield is active |
-| 3 | Elemental Bonus Damage | +15% damage to elemental weaknesses |
+| 3 | Elemental Damage Up | +damage to elemental weaknesses (community-reported) |
 | 4 | SP Recovery Up | +20% SP regeneration |
 | 5 | Range Up | +15% spell range (safer positioning) |
 
-**God roll EX-Mod set**: Cast Time + Mana Shield + Elemental Bonus + SP Recovery.
+**God roll EX-Mod set**: Cast Time + Mana Shield + Elemental Damage Up + SP Recovery.
 
 ## Skill Rotation
 
@@ -89,7 +91,7 @@ Ice Storm (slow pack) → Fireball (center) → Lightning Bolt (stragglers)
 ### Kiting (Solo vs Fast Enemies)
 Teleport (back) → Ice Storm (slow) → Lightning Bolt (while they approach) → repeat
 
-## Solo vs Group Performance
+## Solo vs Partner-Assisted Performance
 
 ### Solo Play
 | Aspect | Rating | Notes |
@@ -103,15 +105,15 @@ Teleport (back) → Ice Storm (slow) → Lightning Bolt (while they approach) �
 
 **Best solo strategy**: Keep Ice Storm between you and enemies at all times. The slow effect creates safe distance for your heavy casts.
 
-### Group Play
+### Partner-Assisted Play
 | Aspect | Rating | Notes |
 |--------|--------|-------|
-| Damage | S-tier | Safe behind tank, free to full-channel |
-| Survivability | A-tier | Tank absorbs aggro, you focus on DPS |
+| Damage | S-tier | Safe behind your partner, free to full-channel |
+| Survivability | A-tier | Partner draws aggro, you focus on DPS |
 | Utility | A-tier | AoE control, elemental coverage |
 | Bossing | S-tier | Consistent safe damage from range |
 
-**Group mage is the safest DPS role.** With a tank holding aggro, you channel freely without interruption. Your damage output in groups is unmatched because you never have to cancel a cast.
+**Mage with a partner is the safest DPS role.** With your partner holding aggro, you channel freely without interruption. Your damage output is unmatched because you never have to cancel a cast.
 
 ## Boss Matchups
 
@@ -120,13 +122,13 @@ Teleport (back) → Ice Storm (slow) → Lightning Bolt (while they approach) �
 | Violet Fencer | Stay at max range. Teleport her AoE Slash. Ice Storm when she charges toward you. |
 | Ark Guardian | Free matchup — the beam cannot reach max range. Full-channel Arcane Blast during beam animation. |
 | Twin Wardens | Focus Flames from range. Teleport the fire AoE. Keep Ice Storm on Blades if it gets close. |
-| Golem Kings | Fire spells deal bonus damage. Ice Storm slows the adds. Teleport the ground pound shockwave. |
+| Corrupted Fae Lord | Clear the dark fae adds with Ice Storm. Teleport the curse barrages in Phase 2. |
 
 ## Quick Tips
 
 - **Mana Shield should always be on** — there is no reason to toggle it off. It doubles your effective HP pool.
-- **Do not full-channel unless safe** — Arcane Blast's 3s channel is dangerous. Only use it when the boss is staggered or focused on the tank.
-- **Teleport has a 5s cooldown** — use it for big telegraphed attacks, not for repositioning slightly.
+- **Do not full-channel unless safe** — Arcane Blast's long channel is dangerous. Only use it when the boss is staggered or focused on your partner.
+- **Teleport reportedly has a cooldown around 5 seconds** — use it for big telegraphed attacks, not for repositioning slightly.
 - **Learn elemental weaknesses** — +50% damage is massive. Check the enemy type before engaging.
 - **Range is your defense** — if an enemy gets within melee range of you, you made a positioning error.
 - **Ice Storm does not stack** — refreshing it early wastes SP. Let it expire before recasting.

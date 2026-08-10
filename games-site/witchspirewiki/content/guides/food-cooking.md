@@ -2,17 +2,19 @@
 title: "Witchspire Food and Cooking Guide — Recipes and Buffs"
 description: "Complete food and cooking guide for Witchspire. All recipes, ingredient sources, buff effects, cooking stations, and meal planning for every situation."
 category: "Guides"
-version: "0.1.1d"
-updated: "2026-07-29"
+version: "0.1.4"
+updated: "2026-08-10"
 keywords: ["Witchspire cooking", "Witchspire food", "Witchspire recipes", "cooking guide", "food buffs", "Witchspire meals"]
-related: ["survival-tips", "rare-materials", "crafting-guide", "beginner-guide"]
+related: ["crafting-guide", "beginner-guide", "potions-guide", "farming-guide"]
 ---
 
 # Food and Cooking Guide — Recipes and Buffs
 
-> **Applies to EA v0.1.1d / Updated: July 29, 2026**
+> Last verified: August 10, 2026
 
-Food in Witchspire is not just for survival — it provides powerful buffs that can make the difference between life and death. This guide covers every recipe, ingredient, and optimal meal plan.
+Food in Witchspire is not just for survival — it provides buffs that can make the difference between life and death. This guide covers the recipes, ingredients, and meal plans reported by the community.
+
+> **Note:** recipe names, ingredient amounts, and buff values below come from community reports and have not been independently verified. Treat the catalog as indicative, not exact.
 
 ---
 
@@ -50,7 +52,7 @@ Food in Witchspire is not just for survival — it provides powerful buffs that 
 | Rabbit Meat | Rabbits | Vyrs | Raw: +8%, Cooked: +15% |
 | Fish | Rivers/lakes | Vyrs, Mira Isles | Raw: +10%, Cooked: +20% |
 | Wolf Meat | Wolves | Timberline | Raw: +12%, Cooked: +22% |
-| Golem Core | Al'unean Golem | Timberline | Special (cannot eat raw) |
+| Golem Core | Al'uunian Golem | Vyrs Eastern Ruins | Special (cannot eat raw) |
 | Bird Eggs | Nest trees | Any region | +15% boiled |
 
 ### Farmed Ingredients
@@ -74,7 +76,7 @@ Food in Witchspire is not just for survival — it provides powerful buffs that 
 | Roasted Boar Meat | 1 Boar Meat | +25% | None | — |
 | Boiled Eggs | 2 Bird Eggs | +15% | None | — |
 | Grilled Fish | 1 Fish | +20% | +10% stamina regen | 15 min |
-| Herbal Tea | 3 Wild Herbs, 1 Nectar | +5% | +5 sanity | 10 min |
+| Herbal Tea | 3 Wild Herbs, 1 Nectar | +5% | Reported mild stamina regen | 10 min |
 | Berry Porridge | 5 Berries, 1 Nectar | +20% | +10 HP regen per 10s | 10 min |
 
 ### Intermediate Recipes (Oven)
@@ -92,7 +94,7 @@ Food in Witchspire is not just for survival — it provides powerful buffs that 
 | Recipe | Ingredients | Hunger | Buff | Duration |
 |--------|------------|--------|------|----------|
 | Hearty Stew | 2 Boar Meat, 2 Mushrooms, 1 Herbs | +45% | +25% max HP, +10% defense | 45 min |
-| Spicy Wolf Stew | 2 Wolf Meat, 2 Thornberries, 1 Fire Shard | +40% | +20% damage, +15 cold resist | 30 min |
+| Spicy Wolf Stew | 2 Wolf Meat, 2 Thornberries, 1 Crystal Shard | +40% | +20% damage (reported) | 30 min |
 | Crystal Soup | 2 Crystal Bud, 1 Moonleaf | +25% | +30% magic damage, +20 mana regen | 30 min |
 | Fisherman's Chowder | 3 Fish, 2 Herbs, 1 Milk | +35% | +15% stamina regen, +20% swim speed | 25 min |
 
@@ -102,7 +104,7 @@ Food in Witchspire is not just for survival — it provides powerful buffs that 
 |--------|------------|--------|-------------------------|----------|
 | Feast of Sustenance | 5 Boar Meat, 3 Wheat, 3 Herbs, 2 Nectar | +50% | +20% max HP, +15% stamina regen | 60 min |
 | Battle Brew | 3 Wolf Meat, 3 Thornberries, 2 Honey | +40% | +25% damage, +10% crit chance | 45 min |
-| Witch's Banquet | 2 Golem Core, 3 Moonleaf, 2 Honey, 1 Astral Essence | +60% | +30% all stats | 30 min |
+| Witch's Banquet | 3 Moonleaf, 2 Honey, 1 Astral Essence | +60% | +30% all stats (reported) | 30 min |
 | Exploration Rations | 3 Preserved Meat, 2 Bread, 1 Honey | +35% | +20% move speed, +15% gather speed | 60 min |
 
 ### Preserved Foods (Smokehouse)
@@ -146,7 +148,7 @@ Food in Witchspire is not just for survival — it provides powerful buffs that 
 |------|------|-----|
 | Exploration Rations | +20% move speed, +15% gather | Faster gathering |
 | Fisherman's Chowder | +15% stamina regen | Sprint more |
-| Herbal Tea | +5 sanity | Stay sane in dark areas |
+| Herbal Tea | Reported mild stamina regen | Cheap refreshment |
 | Stamina Draft (drink) | +30% stamina regen | Never stop moving |
 
 ### Base Building Focus
@@ -157,13 +159,13 @@ Food in Witchspire is not just for survival — it provides powerful buffs that 
 | Bread | None — cheap | Best value for building sessions |
 | Nectar Mead (drink) | +10% max HP | Extra safety |
 
-### Raid Defense Focus
+### Defense Focus
 
 | Meal | Buff | Why |
 |------|------|-----|
 | Feast of Sustenance (group) | +20% HP, +15% stamina regen | Best group survival meal |
 | Witch's Banquet (group) | +30% all stats | Best overall, expensive |
-| Crystal Punch (drink) | +30% magic damage | If using magic in defense |
+| Crystal Punch (drink) | +30% magic damage | If using magic defensively |
 
 ---
 
@@ -202,7 +204,7 @@ Food in Witchspire is not just for survival — it provides powerful buffs that 
 
 ## Related Guides
 
-- [Survival Tips: Stay Alive in the Wilds](/guides/survival-tips)
-- [Rare Materials Guide: Locations and Crafting Uses](/guides/rare-materials)
 - [Crafting Guide: Stations, Materials, and Recipes](/guides/crafting-guide)
+- [Potions Guide: Brewing and Effects](/guides/potions-guide)
+- [Farming Guide: Crops and Resource Management](/guides/farming-guide)
 - [Beginner Guide: First 5 Hours](/guides/beginner-guide)

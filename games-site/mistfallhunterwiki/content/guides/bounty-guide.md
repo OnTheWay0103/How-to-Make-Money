@@ -4,28 +4,31 @@ description: 'Complete bounty guide for Mistfall Hunter. Learn how bounties are 
 keywords: ['bounty guide', 'bounty hunter', 'bounty system', 'player hunting', 'pvp bounties']
 category: Guides
 version: '1.0'
-updated: '2026-07-29'
+updated: '2026-08-10'
 related:
-  - extraction-tips
+  - extraction-guide
   - beginner-guide
   - guild-clan-guide
   - weekly-challenges
   - camp-upgrades-guide
+  - pvp-guide
 ---
 
 ## What Are Bounties?
 
-Bounties in Mistfall Hunter are **player-killing contracts** assigned by the game to encourage PvP interaction. When a player kills others and extracts with their loot, they accumulate a bounty. Higher bounties mean greater rewards — but also mark that player as a target.
+Bounties in Mistfall Hunter are **player-killing contracts** that encourage PvP interaction. When a player kills others and extracts with their loot, they accumulate infamy. Higher infamy means greater rewards for the hunter — but also marks that player as a target.
+
+> **Note:** The bounty system's exact reward values and infamy thresholds are community-reported and may differ from the live game. Treat the tables below as approximations.
 
 ### Bounty Types
 
 | Type | How It Activates | Reward |
 |------|-----------------|--------|
-| Minor Bounty | Kill 3 players in a single raid | 500 Gyldenblood |
-| Major Bounty | Kill 5+ players in a single raid | 2,000 Gyldenblood + Rare gear |
-| Infamous Bounty | Accumulate 10+ player kills across raids | 5,000 Gyldenblood + Epic gear piece |
-| Guild Bounty | Guild declares war on another guild | Varies (guild resources + Gyldenblood) |
-| Weekly Bounty | Random assignment from Bounty Board | 3,000 Gyldenblood + Exclusive cosmetic |
+| Minor Bounty | Several player kills in a single raid | Gyldenblood |
+| Major Bounty | Many kills in a single raid | Gyldenblood + Rare gear |
+| Infamous Bounty | Accumulated kills across raids | Gyldenblood + Epic gear piece |
+| Guild Bounty | Guild-level conflict | Varies (guild resources + Gyldenblood) |
+| Weekly Bounty | Random assignment from the Bounty Board | Gyldenblood + cosmetic |
 
 ---
 
@@ -35,25 +38,17 @@ Bounties in Mistfall Hunter are **player-killing contracts** assigned by the gam
 
 Every time you kill a player and extract, your **Infamy** increases:
 
-| Player Kills (Extracted) | Infamy Level | Visible on Map? | Bounty Reward |
-|-------------------------|-------------|-----------------|---------------|
-| 0-2 | Clean | No | None |
-| 3-5 | Minor | No | 500 Gyldenblood |
-| 6-10 | Notable | Yes (when close) | 1,500 Gyldenblood |
-| 11-20 | Major | Yes (half-map range) | 5,000 Gyldenblood + Rare gear |
-| 21+ | Infamous | Yes (entire map) | 10,000 Gyldenblood + Epic gear |
+| Infamy Level | Visible on Map? | Bounty Reward |
+|-------------|-----------------|---------------|
+| Clean | No | None |
+| Minor | No | Gyldenblood |
+| Notable | Yes (when close) | More Gyldenblood |
+| Major | Yes (extended range) | Gyldenblood + Rare gear |
+| Infamous | Yes (entire map) | Gyldenblood + Epic gear |
 
 ### Infamy Decay
 
-Infamy decreases over time when you do not kill players:
-
-| Action | Infamy Change |
-|--------|--------------|
-| Extract without killing anyone | -1 point |
-| Die (lose all carried items) | -3 points |
-| Complete a bounty contract | -2 points |
-| Wait 24 hours (real time) | -5 points |
-| Pay Gyldenblood to clear record | -10 points (costs 1,000 GB per point) |
+Infamy decreases over time when you do not kill players — extracting without kills, dying, and completing bounty contracts all reduce it gradually. You can also pay Gyldenblood to clear part of your record.
 
 ---
 
@@ -63,17 +58,17 @@ Infamy decreases over time when you do not kill players:
 
 | Method | How It Works | Best For |
 |--------|-------------|----------|
-| Bounty Board (Camp) | Lists 3 active high-bounty targets per day | Planned hunts |
-| Map Notification | When near a Notable+ bounty, a skull icon appears on your HUD | Opportunistic hunting |
+| Bounty Board (Camp) | Lists active high-bounty targets | Planned hunts |
+| Map Notification | A skull icon appears when near a Notable+ bounty | Opportunistic hunting |
 | Guild Intel | Guild members can share bounty locations | Coordinated team hunts |
-| Bounty Tracker Item | Buy from Merchant (500 GB), reveals nearest bounty location for 30 min | Active hunting |
+| Bounty Tracker Item | Buy from the Shop, reveals the nearest bounty location for a limited time | Active hunting |
 
 ### Loadout for Bounty Hunting
 
 | Slot | Recommended | Reasoning |
 |------|-------------|-----------|
 | Class | Shadowstrix or Mercenary | Mobility (Shadowstrix) or survivability (Mercenary) |
-| Weapon | Bow or Rapier | Bow for ranged finishing, Rapier for speed |
+| Weapon | Bow or Dual Daggers | Bow for ranged finishing, Dual Daggers for speed |
 | Utility 1 | Smoke Bomb | Disengage if the bounty has backup |
 | Utility 2 | Tracker Orb | Mark the bounty so they cannot hide |
 | Armor | Medium (leather) | Balance of protection and mobility |
@@ -81,9 +76,9 @@ Infamy decreases over time when you do not kill players:
 ### Engagement Strategy
 
 1. **Scout first** — Confirm the bounty is alone. If they have a squad, either retreat or call your own squad.
-2. **Initiate from range** — Soften them with bow/throwing weapons before closing.
+2. **Initiate from range** — Soften them with ranged weapons before closing.
 3. **Cut off escape routes** — Bounties will run for extraction. Position between them and the nearest extraction point.
-4. **Finish fast** — Bounty fights attract third parties. You have 30-60 seconds before others arrive.
+4. **Finish fast** — Bounty fights attract third parties. Be aggressive with burst damage.
 5. **Loot and leave** — Grab the bounty reward confirmation and extract immediately.
 
 ### Common Mistakes
@@ -91,7 +86,7 @@ Infamy decreases over time when you do not kill players:
 | Mistake | Why It Hurts | Fix |
 |---------|-------------|-----|
 | Chasing a bounty into a trap | They might have a squad waiting | Scout before engaging |
-| Fighting near the Woodling | Third parties will interrupt | Engage away from major POIs |
+| Fighting near the Woodling | Third parties will interrupt | Engage away from major points of interest |
 | Taking too long to kill | More players arrive | Be aggressive — use burst damage |
 | Ignoring the bounty's extraction route | They escape while you loot | Always block extraction first |
 
@@ -101,9 +96,9 @@ Infamy decreases over time when you do not kill players:
 
 ### Low-Infamy Strategies
 
-- **Extract after 1-2 kills**, do not farm players
+- **Extract after a kill or two**, do not farm players
 - **Let other players extract** if you already have good loot
-- **Avoid the Bounty Board** — checking it does not put you on it, but hunting does
+- **Avoid building infamy** — the Bounty Board lists active targets
 
 ### High-Infamy Strategies
 
@@ -116,26 +111,11 @@ If you have a Major or Infamous bounty:
 | Extract early | Do not push for more loot — your bounty is not worth it |
 | Use escape routes | Know every extraction point. Rotate between them. |
 | Go stealth | Shadowstrix invisibility is the best bounty-shedding tool |
-| Wait it out | Camp a safe spot for 10-15 minutes. Hunters will assume you extracted. |
+| Wait it out | Camp a safe spot for a while. Hunters will assume you extracted. |
 
 ### Bounty Insurance
 
-Purchase **Bounty Insurance** from the Merchant (1,000 GB per use):
-- If you die while hunted, you keep 50% of your carried loot
-- One-time use per raid
-- Does not protect your bounty reward (that is auto-claimed on death by the hunter)
-
----
-
-## Bounty Rewards Table
-
-| Bounty Level | Gyldenblood | Gear | Reputation | Special |
-|-------------|-------------|------|------------|---------|
-| Minor | 500 | Common | +5 | — |
-| Major | 2,000 | Rare | +15 | Bounty Hunter title piece |
-| Notable | 1,500 | Uncommon | +10 | — |
-| Infamous | 5,000-10,000 | Epic | +50 | Exclusive armor tint |
-| Guild War | 3,000+ | Guild resources | +30 | Guild war victory points |
+The Shop sells a one-time-per-raid insurance item that protects part of your carried loot if you die while hunted. It does not protect your bounty reward — that is claimed by the hunter on your death.
 
 ---
 
@@ -143,17 +123,18 @@ Purchase **Bounty Insurance** from the Merchant (1,000 GB per use):
 
 | Title | Requirement | Bonus |
 |-------|-------------|-------|
-| Tracker | Complete 5 bounties | +5% bounty reward |
-| Hunter | Complete 20 bounties | +10% bounty reward, special emote |
-| Bounty Master | Complete 50 bounties | +15% bounty reward, exclusive cape |
-| Legendary Hunter | Complete 100 bounties | +25% bounty reward, unique title glow |
+| Tracker | Complete a few bounties | Small bounty reward bonus |
+| Hunter | Complete more bounties | Bigger bounty reward bonus, special emote |
+| Bounty Master | Complete many bounties | Larger bounty reward bonus, exclusive cape |
+| Legendary Hunter | Complete a large number of bounties | Largest bounty reward bonus, unique title glow |
 
 ---
 
 ## Related Guides
 
-- [Extraction Tips: Advanced Strategies](/guides/extraction-tips)
-- [Beginner Guide: How to Survive Your First Extraction](/guides/beginner-guide)
-- [Guild and Clan Guide: Full System Breakdown](/guides/guild-clan-guide)
-- [Weekly Challenges: Schedule and Rewards](/guides/weekly-challenges)
-- [Camp Upgrades Guide: Building Your Base](/guides/camp-upgrades-guide)
+- [Extraction Guide](/guides/extraction-guide) — advanced escape tactics
+- [Beginner Guide](/guides/beginner-guide) — how to survive your first extraction
+- [Guild and Clan Guide](/guides/guild-clan-guide) — full system breakdown
+- [Weekly Challenges](/guides/weekly-challenges) — schedule and rewards
+- [Camp Upgrades Guide](/guides/camp-upgrades-guide) — building your base
+- [PvP Guide](/guides/pvp-guide) — winning player fights

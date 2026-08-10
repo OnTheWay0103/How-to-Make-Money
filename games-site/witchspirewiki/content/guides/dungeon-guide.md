@@ -1,18 +1,20 @@
 ---
 title: "Witchspire Dungeon Guide — All Dungeons, Bosses, and Loot"
-description: "Complete dungeon guide for Witchspire. Every dungeon in each region, recommended levels, boss mechanics, best loot, and the fastest farming routes through Nightveil Cave, Soley Cave, Shadow Shrine, and more."
+description: "Complete dungeon guide for Witchspire. Every reported dungeon in each region, recommended levels, boss mechanics, loot, and the fastest farming routes through Nightveil Cave, Soley Cave, Shard Caverns, and more."
 category: "Guides"
-version: "0.1.1d"
-updated: "2026-07-31"
-keywords: ["Witchspire dungeon guide", "Witchspire dungeons", "Nightveil Cave", "Soley Cave", "Shadow Shrine", "Witchspire dungeon loot", "Witchspire dungeon bosses"]
-related: ["shuddersands-guide", "mira-isles-guide", "vyrs-region-guide", "best-gear-guide", "lumi-boss-guide"]
+version: "0.1.4"
+updated: "2026-08-10"
+keywords: ["Witchspire dungeon guide", "Witchspire dungeons", "Nightveil Cave", "Soley Cave", "Shard Caverns", "Witchspire dungeon loot", "Witchspire dungeon bosses"]
+related: ["shuddersands-guide", "mira-isles-guide", "vyrs-region-guide", "crafting-guide", "lumi-boss-guide"]
 ---
 
 # Dungeon Guide — All Dungeons, Bosses, and Loot
 
-> **Applies to EA v0.1.1d / Updated: July 31, 2026**
+> Last verified: August 10, 2026
 
-Dungeons are Witchspire's best source of rare materials, gear, and guaranteed boss drops. Each region has one or more dungeons with different level ranges, gimmicks, and reward tables. This guide covers every known dungeon, what you need to enter it, and the most efficient farming loop.
+Dungeons and caves are Witchspire's best source of rare materials, gear, and boss drops. Each region has one or more caves or dungeons with different level ranges, gimmicks, and reward tables. This guide covers every known dungeon, what you need to enter it, and the most efficient farming loop.
+
+> **Note:** recommended levels, enemy counts, and loot tables below come from community reports and have not been independently verified. Treat numbers as approximate.
 
 ---
 
@@ -20,11 +22,12 @@ Dungeons are Witchspire's best source of rare materials, gear, and guaranteed bo
 
 | Dungeon | Region | Recommended Level | Main Loot | Special Gimmick |
 |---------|--------|-------------------|-----------|-----------------|
-| Vyrs South Cave | Vyrs | 5–8 | Iron Veins, Steel Ingots, starter gear | Hidden alcove behind vines (Nox spell to burn) |
-| Nightveil Cave | Shuddersands | 14–18 | Ethereal Dust, Astral Essence, Veil Shard | Night-only entrance (8 PM – 5 AM game time) |
-| Al'uunian Tower | Timberline Basin | 16–20 | Crystal shards, XP rewards, blue gear | Enemy waves, best XP-per-run dungeon |
-| Soley Cave | Mira Isles (Main Isle) | 16–18 | Tropical materials, chest loot | Coastal access, swarm pulls |
-| Shadow Shrine | Mira Isles | 20–22 | Dark Essence (guaranteed 2 per run), purple gear | Shadow mobs, light-element recommended |
+| Vyrs South Cave | Vyrs | Early game | Iron Veins, Stone, starter gear | Hidden alcove behind vines (reported: Nox spell to burn) |
+| Shard Caverns | Timberline Basin | Mid-game | Crystal Shards, Coal, Iron Ore | Crystal formations, reported optional boss |
+| Soley Cave | Mira Isles (Main Isle) | Mid-game | Tropical materials, chest loot | Coastal access, swarm pulls (reported) |
+| Nightveil Cave | Shuddersands | Late game | Ethereal Dust, Astral Essence, Moonleaf | Night-only entrance (reported) |
+
+> **Note:** some community posts describe additional dungeons beyond these four. Their existence has **not been independently verified**, so we do not list them as confirmed.
 
 ---
 
@@ -32,70 +35,59 @@ Dungeons are Witchspire's best source of rare materials, gear, and guaranteed bo
 
 ### Vyrs South Cave (Early Game)
 
-The first dungeon you can clear and the best iron farm in the game.
+The first cave you can clear and a good iron farm in the early game.
 
-- **Boss**: none — it is a resource dungeon
+- **Boss**: none — it is a resource cave
 - **Route**: enter → clear the first room → grab the hidden alcove chest behind the vines → exit
-- **Yield**: 10–15 Iron Veins per run, 1–2 Steel Ingots
-- **Tip**: the vine alcove requires a Nox spell; bring any Nox-using familiar if you lack one
+- **Yield**: community reports describe 10–15 Iron Veins per run
+- **Tip**: the vine alcove reportedly requires a Nox spell; bring a Nox-using familiar if you lack one
 
-### Nightveil Cave (Shuddersands)
+### Shard Caverns (Timberline Basin)
 
-The signature hard dungeon. Only open at night (in-game 8 PM – 5 AM).
+An underground cave system beneath the region, lit by glowing crystal formations.
 
-- **Boss**: Nightveil Witch Matron (level 18)
-- **Key loot**: Veil Shard (key item, needed for a region quest), Ethereal Dust (4–6 per clear), Astral Essence (2–4)
-- **Mechanics**: the Witch Matron spawns shadow adds that heal her — kill adds first, then burst
-- **Tip**: time your route so you reach the cave entrance at 8 PM game-time; missing the window wastes the whole run
-- **Element**: Nox familiars deal 25% extra damage here
-
-### Al'uunian Tower (Timberline Basin)
-
-Best raw XP per minute of any dungeon.
-
-- **Boss**: Al'uunian Golem (level 19)
-- **Rewards**: 5,000+ XP per clear, blue gear drops, crystal shards
-- **Mechanics**: floors of enemy waves; the Golem's slam has a telegraphed ground indicator — dodge sideways, not backward
-- **Tip**: bring AoE spells or an AoE fighter familiar; wave packs die far faster with splash damage
+- **Boss**: no confirmed boss — community reports describe an optional boss ("Crystal Crawler Queen") in the deepest chamber; not independently verified
+- **Key loot**: Crystal Shards (abundant), Coal deposits, Iron Ore
+- **Key spots**: the **Crystal Vein Junction** is reported as the best Crystal Shard farming spot in the region; the **Echo Pool** is an underground lake with reported mana-restoring water
+- **Tip**: bring a pickaxe upgrade before farming — see the [Crafting Guide](/guides/crafting-guide)
 
 ### Soley Cave (Mira Isles)
 
 Mid-game gear and tropical material cave.
 
-- **Boss**: Tide Lurker (level 17)
-- **Loot**: tropical crafting materials, chest with Uncommon–Rare gear
-- **Tip**: the Tide Lurker retreats to water and regenerates — pull it onto dry ground with a taunt familiar before burning it
+- **Boss**: community reports describe a cave guardian — details not independently verified
+- **Loot**: tropical crafting materials, chest with reported mid-tier gear
+- **Tip**: bring water-friendly gear — the cave entrance is underwater (east coast of the Main Isle)
 
-### Shadow Shrine (Mira Isles — Ruins Isle)
+### Nightveil Cave (Shuddersands)
 
-The current endgame dungeon and the source of Dark Essence.
+The signature hard dungeon, reported to be accessible only at night.
 
-- **Boss**: Shadow Lich (level 22)
-- **Key loot**: Dark Essence (guaranteed 2 per run — the bottleneck material for endgame gear)
-- **Mechanics**: Lich phases into shadows and spawns mirrors that reflect damage — destroy the mirrors, then the Lich takes triple damage
-- **Element**: Lux (light) familiars and spells shine here; shadow-typed mobs are vulnerable to light
-- **Tip**: the second Dark Essence is in a chest behind the boss room — it despawns if you exit fast, so loot before the extraction animation ends
+- **Boss**: community reports describe a witch-type boss inside; not independently verified
+- **Key loot**: Ethereal Dust, Astral Essence (rare), Moonleaf, hidden chest
+- **Mechanics**: reports describe shadow-typed enemies that hit hard — bring Lux-element damage if you have it
+- **Tip**: community reports disagree on this cave's level range; some describe it as late-game, others as mid-game. Treat level guidance as unreliable until verified
 
 ---
 
-## Efficient Dungeon Farming Loops
+## Efficient Farming Loops
 
 | Loop | Route | Time | Best For |
 |------|-------|------|----------|
-| Iron loop | Vyrs South Cave → Swamp edge → reset | ~8 min | Steel Ingots, starter gold |
-| Essence loop | Shadow Shrine → Soley Cave → reset | ~25 min | Dark Essence, purple gear |
-| XP loop | Al'uunian Tower → Timberline crystal run | ~20 min | Fastest leveling |
-| Night loop | Wait for 8 PM → Nightveil Cave → Lost Oasis | ~30 min | Veil Shard + Ethereal Dust |
+| Iron loop | Vyrs South Cave → Swamp edge → reset | ~8 min | Iron Ore, starter gold |
+| Crystal loop | Shard Caverns → Timberline crystal run | ~20 min | Crystal Shards, Coal |
+| Island loop | Soley Cave → beach chests → reset | ~20 min | Tropical materials |
+| Night loop | Wait for night → Nightveil Cave → Lost Oasis | ~30 min | Ethereal Dust, Astral Essence |
 
 ---
 
 ## General Dungeon Rules
 
-- **Check the door level first** — entering a dungeon 3+ levels above you is a death sentence, not a challenge
-- **Bring the matching element** — the 25% elemental advantage is the biggest single buff available
-- **Familiars matter**: a taunt-capable fighter changes every boss fight
-- **Dungeon chests are shared** — in co-op, designate who opens which chest; they are one-per-player
-- **Boss loot is guaranteed once daily** — run each dungeon at least once per day, then farm the best-yield one
+- **Check the area first** — charging into a cave you are not geared for is a death sentence, not a challenge
+- **Bring the matching element** — the [Enemy Guide](/guides/enemy-weakness-guide) covers reported element matchups
+- **Familiars matter** — a bonded familiar changes every fight; see the [Familiars Guide](/guides/all-familiars-guide)
+- **Dungeon chests are shared** — in co-op, designate who opens which chest; they are one-per-player (reported)
+- **Boss loot** — community reports describe guaranteed boss drops on first clear; daily reset claims are unverified
 
 ---
 
@@ -104,5 +96,5 @@ The current endgame dungeon and the source of Dark Essence.
 - [Shuddersands Guide — Complete Region Walkthrough](/guides/shuddersands-guide)
 - [Mira Isles Guide — Tropical Region, Caves, and Shrines](/guides/mira-isles-guide)
 - [Vyrs Region Guide — Starter Zone and Secrets](/guides/vyrs-region-guide)
-- [Best Gear Guide — Endgame Equipment and Materials](/guides/best-gear-guide)
-- [Lumi Boss Guide — First Major Boss Fight](/guides/lumi-boss-guide)
+- [Crafting Guide — Materials and Enchantments](/guides/crafting-guide)
+- [Lumi Boss Guide — Final Boss Fight](/guides/lumi-boss-guide)

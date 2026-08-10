@@ -4,7 +4,7 @@ description: 'Master Mistfall Hunter team compositions. Best class combos for du
 keywords: ['team composition guide', 'best squad setups', 'duo guide', 'trio guide', 'class synergy', 'team play', 'coordination']
 category: Gameplay
 version: '1.0'
-updated: '2026-07-11'
+updated: '2026-08-10'
 related:
   - classes-guide
   - boss-guide
@@ -24,6 +24,8 @@ In Mistfall Hunter, a coordinated squad can extract with 3x the loot of a solo p
 | Solo | Stealth, speed, flexible pathing | No backup, full loot loss on death |
 | Duo (2) | Fast extractions, split looting | Vulnerable to 3-player squads |
 | Trio (3) | Max loot potential, boss farming | Slower movement, harder to hide |
+
+> **Note:** There is no dedicated Duo queue in Mistfall Hunter — matchmaking is Solo or Trio only. A two-player team queues into the Trio lobby, either with a random third player or short-handed.
 
 ## Duo Compositions (Best to Viable)
 

@@ -1,45 +1,47 @@
 ---
 title: "Witchspire Weather Guide — Weather System, Effects, and How to Prepare"
-description: "Complete weather guide for Witchspire. All weather types including rain, storms, heat waves, and tropical storms. Weather effects on gameplay, farming, flying, and building. How to prepare for each weather condition."
+description: "Complete weather guide for Witchspire. Reported weather types including rain, storms, heat waves, and tropical storms. Weather effects on gameplay, farming, flying, and building. How to prepare for each weather condition."
 category: "Guides"
-version: "0.1.1d"
-updated: "2026-07-27"
+version: "0.1.4"
+updated: "2026-08-10"
 keywords: ["Witchspire weather", "Witchspire weather guide", "Witchspire rain", "Witchspire storm", "Witchspire heat wave", "Witchspire weather effects", "Witchspire environmental hazards"]
-related: ["mounts-guide", "mira-isles-guide", "shuddersands-guide", "farming-guide", "best-base-locations"]
+related: ["flight-unlock-guide", "mira-isles-guide", "shuddersands-guide", "farming-guide", "hearth-upgrade-guide"]
 ---
 
 # Witchspire Weather Guide — Weather System, Effects, and How to Prepare
 
-> **Applies to EA v0.1.1d / Updated: July 27, 2026**
+> Last verified: August 10, 2026
 
 Witchspire features a dynamic weather system that directly affects gameplay. Weather changes in real time and varies by region. Rain reduces visibility, storms disrupt flying, and heat waves drain your stamina faster. Understanding the weather system and preparing accordingly can mean the difference between a successful expedition and a wasted trip.
+
+> **Note:** weather timing, durations, and effect values below come from community reports and have not been independently verified. Treat numbers as approximate.
 
 ---
 
 ## Weather System Overview
 
-| Aspect | Detail |
+| Aspect | Reported Detail |
 |--------|--------|
-| **Weather Changes** | Every 30-60 minutes (real time) |
+| **Weather Changes** | Every 30-60 minutes (real time, reported) |
 | **Regional Variation** | Each region has unique weather patterns |
-| **Weather Warning** | Sky and wind change 2-3 minutes before weather shifts |
-| **Affects** | Stamina, visibility, farming yields, flight, building durability |
-| **Predictable?** | Partially — certain weather types are seasonal |
+| **Weather Warning** | Sky and wind change shortly before weather shifts (reported) |
+| **Affects** | Stamina, visibility, farming yields, flight, building durability (reported) |
+| **Predictable?** | Partially — certain weather types are reported as seasonal |
 
 ---
 
-## All Weather Types
+## All Weather Types (Community-Reported)
 
 | Weather | Regions | Duration | Severity | Main Effect |
 |---------|---------|----------|----------|-------------|
 | **Clear** | All | 20-40 min | None | No effects — optimal conditions |
-| **Light Rain** | All except Shuddersands | 15-30 min | Low | -10% visibility, +10% plant growth |
-| **Heavy Rain** | Vyrs, Timberline, Mira Isles | 10-20 min | Medium | -25% visibility, flight stamina +50% cost, flooded low areas |
-| **Thunderstorm** | Vyrs, Timberline | 5-15 min | High | -50% visibility, flight disabled, lightning strikes |
-| **Fog** | Timberline Basin | 15-25 min | Medium | -60% visibility, enemies have +20% stealth |
-| **Heat Wave** | Shuddersands only | 20-40 min | High | +100% stamina drain, -30% HP from heat exposure |
-| **Tropical Storm** | Mira Isles only | 10-20 min | Very High | Flight disabled, building damage, reduced loot spawns |
-| **Sandstorm** | Shuddersands only | 10-15 min | Extreme | -80% visibility, -50% movement speed, NPC vendors unavailable |
+| **Light Rain** | All except Shuddersands | 15-30 min | Low | Reduced visibility, increased plant growth (reported) |
+| **Heavy Rain** | Vyrs, Timberline, Mira Isles | 10-20 min | Medium | Reduced visibility, higher flight stamina cost, flooded low areas (reported) |
+| **Thunderstorm** | Vyrs, Timberline | 5-15 min | High | Severely reduced visibility, flight disabled, lightning strikes (reported) |
+| **Fog** | Timberline Basin | 15-25 min | Medium | Heavily reduced visibility, reported enemy stealth bonus |
+| **Heat Wave** | Shuddersands only | 20-40 min | High | Higher stamina drain, HP loss from heat exposure (reported) |
+| **Tropical Storm** | Mira Isles only | 10-20 min | Very High | Flight disabled, reported building damage and reduced loot |
+| **Sandstorm** | Shuddersands only | 10-15 min | Extreme | Near-zero visibility, reduced movement speed, vendors closed (reported) |
 
 ---
 
@@ -47,133 +49,128 @@ Witchspire features a dynamic weather system that directly affects gameplay. Wea
 
 ### Clear Weather
 
-No gameplay effects. This is the optimal time for:
+No gameplay effects reported. This is the optimal time for:
 - Long-distance exploration
 - Boss fights and difficult encounters
-- Building construction (fastest placement time)
+- Building construction
 - Any activity where weather would be a disadvantage
 
 ### Light Rain
 
-| Effect | Detail |
+| Effect | Report |
 |--------|--------|
-| Visibility | Slightly reduced (-10%), negligible impact |
-| Plant Growth | +10% growth speed for Garden Plots |
-| Familiar Behavior | Water-type Familiars get +5% damage |
-| Player Mood (Sanity) | No effect |
+| Visibility | Slightly reduced — negligible impact |
+| Plant Growth | Increased growth speed for Garden Plots (reported) |
+| Familiar Behavior | No confirmed familiar effects |
 
-**Best activities during light rain**: Farming, gardening, fishing (increased fish spawns)
+**Best activities during light rain**: Farming, gardening, fishing (increased fish spawns reported)
 
 ### Heavy Rain
 
-| Effect | Detail |
+| Effect | Report |
 |--------|--------|
-| Visibility | Reduced (-25%), makes ranged combat harder |
-| Flight Stamina | +50% stamina cost while flying on broom |
-| Flooding | Low-lying areas become flooded (slowed movement) |
-| Plant Growth | +25% growth speed |
-| Fire Damage | Fire spells deal 20% less damage |
+| Visibility | Reduced — makes ranged combat harder |
+| Flight Stamina | Higher stamina cost while flying on broom (reported) |
+| Flooding | Low-lying areas become flooded (slowed movement, reported) |
+| Plant Growth | Increased growth speed (reported) |
 
 **Best activities during heavy rain**: Gardening, indoor crafting, gathering water-adjacent resources
 
 ### Thunderstorm
 
-| Effect | Detail |
+| Effect | Report |
 |--------|--------|
-| Visibility | Severely reduced (-50%) |
-| Flight | Disabled — using a broom during a thunderstorm causes lightning strikes |
-| Lightning | Random lightning strikes every 30-60 seconds. 50 damage, stun for 2s |
-| Enemy Behavior | Some enemies cower (easier to sneak past); others enrage |
-| Metal Gear Warning | Wearing metal armor increases lightning damage by 200% |
+| Visibility | Severely reduced |
+| Flight | Reported disabled — using a broom during a thunderstorm reportedly attracts lightning |
+| Lightning | Random lightning strikes (reported) |
+| Enemy Behavior | Some enemies cower; others enrage (reported) |
+| Metal Gear Warning | Community reports warn that metal armor increases lightning damage — unverified |
 
 **Thunderstorm survival tips:**
-- Do not fly. Lightning will kill you in 1-2 hits.
-- Unequip metal armor or switch to leather/fiber gear
+- Do not fly — community reports describe lightning as lethal
+- Consider lighter armor during storms
 - Seek indoor shelter or build a roof over your Hearth
-- Use the thunderclap sound to mask your movement for stealth approaches
 
 ### Fog
 
-| Effect | Detail |
+| Effect | Report |
 |--------|--------|
-| Visibility | Heavily reduced (-60%), max draw distance ~20m |
-| Enemy Stealth | Enemies get +20% stealth — they can ambush you easily |
-| Ranged Combat | Ranged spells and attacks have reduced accuracy |
-| Hidden Items | +30% chance to find hidden chests and resources (fog reveals glows) |
+| Visibility | Heavily reduced |
+| Enemy Stealth | Enemies get a reported stealth bonus — ambush risk |
+| Ranged Combat | Ranged spells and attacks have reduced accuracy (reported) |
+| Hidden Items | Reported chance to find hidden chests and resources increases |
 
-**Fog strategy**: This is paradoxically a great time for treasure hunting — hidden items emit a faint glow visible only in fog. Stay close to walls and use AoE spells to reveal enemies before they reach you.
+**Fog strategy**: Community reports describe hidden items emitting a faint glow visible only in fog. Stay close to walls and use AoE spells to reveal enemies before they reach you.
 
 ### Heat Wave (Shuddersands only)
 
-| Effect | Detail |
+| Effect | Report |
 |--------|--------|
-| Stamina Drain | +100% stamina consumption for all actions |
-| HP Drain | Take 1% HP damage every 5 seconds while exposed (no shade) |
-| Water Consumption | Water is consumed 3x faster from inventory |
-| Fire Spells | Fire spells deal +30% damage |
-| Ice Spells | Ice spells deal -50% damage |
+| Stamina Drain | Higher stamina consumption for all actions (reported) |
+| HP Drain | Reported HP loss while exposed in direct sun |
+| Water Consumption | Reported faster water consumption from inventory |
+| Spell Effects | Community reports describe element spell changes during heat waves — unverified |
 
 **Heat wave survival tips:**
-- Carry 2x the normal amount of water
+- Carry extra water
 - Wear light armor (heat-resistant if possible)
-- Stay in shade — building shadows and cave entrances pause HP drain
-- Schedule farming for clear weather; use heat waves for combat (fire spell bonus)
+- Stay in shade — building shadows and cave entrances reportedly pause HP drain
+- Schedule farming for clear weather
 
 ### Tropical Storm (Mira Isles only)
 
-| Effect | Detail |
+| Effect | Report |
 |--------|--------|
-| Flight | Disabled entirely |
-| Building Damage | Unreinforced structures take damage (30% HP per storm) |
-| Loot Spawns | Surface loot reduced by 50% |
-| Enemy Behavior | Most enemies take cover (fewer patrols, stationary) |
-| Waves | Coastal areas have wave surges that can knock you down |
+| Flight | Disabled entirely (reported) |
+| Building Damage | Unreinforced structures reportedly take damage |
+| Loot Spawns | Surface loot reportedly reduced |
+| Enemy Behavior | Most enemies take cover (reported) |
+| Waves | Coastal wave surges can knock you down (reported) |
 
 **Tropical storm strategy**: This is a downtime weather event. Stay indoors, repair structures, craft, or sort inventory. Do not attempt long expeditions.
 
 ### Sandstorm (Shuddersands only)
 
-| Effect | Detail |
+| Effect | Report |
 |--------|--------|
-| Visibility | Near zero (-80%), max draw distance ~8m |
-| Movement Speed | Reduced by 50% |
-| NPC Vendors | All vendors close and hide |
-| Enemies | Most enemies burrow and become invisible — extreme ambush risk |
-| Compass | Compass and mini-map are disabled |
+| Visibility | Near zero |
+| Movement Speed | Reduced (reported) |
+| NPC Vendors | All vendors close and hide (reported) |
+| Enemies | Most enemies burrow and become invisible — extreme ambush risk (reported) |
+| Compass | Compass and mini-map are disabled (reported) |
 
-**Sandstorm strategy**: Extract or shelter immediately. Do not explore during a sandstorm. If caught away from shelter, follow the nearest wall or cliff edge to find a cave.
+**Sandstorm strategy**: Shelter immediately. Do not explore during a sandstorm. If caught away from shelter, follow the nearest wall or cliff edge to find a cave. See the [Shuddersands Guide](/guides/shuddersands-guide) for heat and sandstorm survival.
 
 ---
 
-## Weather Preparation Checklist
+## Weather Preparation Checklist (Community-Reported)
 
-| Item | Purpose | Where to Get |
+| Item | Purpose | Reported Source |
 |------|---------|-------------|
-| **Rain Gear (Hat + Cloak)** | Reduces rain visibility penalty from -25% to -10% | Crafted at Workbench (leather + silk) |
-| **Heat-Resistant Potion** | Nullifies heat wave HP drain for 10 minutes | Alchemy Station (Cactus Juice + Ice Shard) |
-| **Lightning Rod** | Prevents lightning strikes near your Hearth (30m radius) | Workbench Tier 3 (Iron Ingot x5, Moonstone x1) |
-| **Wind Charm** | Allows limited flight during storms (50% speed penalty) | Luminary Skill Tree (Nature, Tier 2) |
-| **Storm Shutters** | Prevents building damage during tropical storms | Workbench Tier 2 (Wood x10, Nails x5) |
+| **Rain Gear (Hat + Cloak)** | Reduces rain visibility penalty | Crafted at Workbench — exact recipe unverified |
+| **Heat-Resistant Potion** | Mitigates heat wave HP drain | Reported potion — exact recipe unverified, see the [Potions Guide](/guides/potions-guide) |
+| **Lightning Rod** | Reported protection from lightning strikes near your Hearth | Crafted at Workbench — exact recipe unverified |
+| **Storm Shutters** | Reported prevention of building damage during storms | Crafted at Workbench — exact recipe unverified |
 
 ---
 
-## Best Activities by Weather
+## Best Activities by Weather (Community Advice)
 
 | Weather | Recommended Activity | Avoid |
 |---------|---------------------|-------|
 | Clear | Exploration, boss fights, long-distance travel | — |
 | Light Rain | Fishing, gardening, gathering | Ranged combat |
-| Heavy Rain | Indoor crafting, gardening | Flying, fire magic |
+| Heavy Rain | Indoor crafting, gardening | Flying |
 | Thunderstorm | Interior building, stealth missions | Flying, metal armor |
 | Fog | Treasure hunting, hidden chest runs | Ranged combat, unfamiliar areas |
-| Heat Wave | Fire spell training, Shuddersands farming | Long exploration, ice magic |
+| Heat Wave | Shuddersands farming with shade | Long exploration |
 | Tropical Storm | Base maintenance, crafting, inventory sorting | Exploring, flying |
-| Sandstorm | Log out or shelter | Everything outdoors |
+| Sandstorm | Shelter | Everything outdoors |
 
 ## Related Guides
 
-- [Mounts Guide — All Mount Types](/witchspire/content/guides/mounts-guide)
-- [Mira Isles Guide](/witchspire/content/guides/mira-isles-guide)
-- [Shuddersands Guide](/witchspire/content/guides/shuddersands-guide)
-- [Farming Guide — Best Routes](/witchspire/content/guides/farming-guide)
-- [Best Base Locations Guide](/witchspire/content/guides/best-base-locations)
+- [Flight & Fast Travel Guide — Brooms and Pillars](/guides/flight-unlock-guide)
+- [Mira Isles Guide](/guides/mira-isles-guide)
+- [Shuddersands Guide](/guides/shuddersands-guide)
+- [Farming Guide — Best Routes](/guides/farming-guide)
+- [Hearth & Base Building Guide](/guides/hearth-upgrade-guide)

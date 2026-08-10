@@ -3,8 +3,8 @@ title: 'Mistfall Hunter Combat Guide — Parry, Sprint, Lock-On, and Advanced Me
 description: 'Learn how to parry, sprint, lock on, and dodge in Mistfall Hunter. Complete combat mechanics guide with timing tips, class-specific strategies, and advanced movement techniques for every playstyle.'
 keywords: ['mistfall hunter how to parry', 'mistfall hunter how to sprint', 'mistfall hunter how to run', 'mistfall hunter how to lock on', 'mistfall hunter combat guide', 'mistfall hunter damage types', 'mistfall hunter status effects']
 category: Guides
-version: 'Playtest'
-updated: '2026-07-23'
+version: '1.0'
+updated: '2026-08-10'
 related:
   - beginner-guide
   - classes-guide
@@ -15,7 +15,9 @@ related:
 
 ## Combat Overview
 
-Mistfall Hunter's combat system blends methodical stamina management with precise timing mechanics. Every encounter — whether against Corroded mobs or rival players — rewards players who master the core actions: parrying, dodging, sprinting, and lock-on targeting. This guide breaks down each mechanic with exact button inputs, timing windows, and class-specific considerations.
+Mistfall Hunter's combat system blends methodical stamina management with precise timing mechanics. Every encounter — whether against Corroded mobs or rival players — rewards players who master the core actions: parrying, dodging, sprinting, and lock-on targeting. This guide breaks down each mechanic with button inputs, timing windows, and class-specific considerations.
+
+> **Note:** Timing windows, stamina costs, and stat values below are community-reported approximations, not officially published figures. They may differ slightly between builds.
 
 ## Parry Timing and Mechanics
 
@@ -52,7 +54,7 @@ Understanding when to parry versus when to block is critical:
 ### Class-Specific Parry Differences
 
 - **Mercenary (Sword & Shield)**: Largest parry window (~250ms). The shield block also has 70% damage reduction on failed parries — most forgiving for learning.
-- **Vanguard (Greatsword)**: Parry window is shorter (~150ms) but successful parries deal bonus stagger damage. High risk, high reward.
+- **Withered Knight (Greatsword)**: Parry window is shorter (~150ms) but successful parries deal bonus stagger damage. High risk, high reward.
 - **Blackarrow (Bow)**: No parry. Uses dodge as the primary defensive tool. Sprinting side-step replaces the block mechanic.
 - **Shadowstrix (Daggers)**: Parry window matches standard (200ms) but backstabs after a successful parry deal 2x critical damage.
 - **Sorcerer (Staff)**: No parry. Uses a mana shield (hold RMB) that absorbs damage at the cost of mana. Timing the shield activation reduces mana cost.
@@ -94,7 +96,7 @@ Sprinting in Mistfall Hunter uses a stamina system — you can only sprint while
 
 **Sprint Attack**: Press the attack button while sprinting for a lunging strike. Each class has a unique sprint attack:
 - Mercenary: Shield bash (stuns, low damage)
-- Vanguard: Overhead slam (high damage, slow recovery)
+- Withered Knight: Overhead slam (high damage, slow recovery)
 - Shadowstrix: Sliding stab (fast, medium damage)
 - Blackarrow: Quick shot (low damage, applies slow)
 - Sorcerer: Mana burst (knocks back, costs mana)
@@ -159,7 +161,7 @@ Press **Space** (default) to dodge-roll in your current movement direction. A we
 | Class | Movement Style | Key Technique |
 |-------|---------------|---------------|
 | **Mercenary** | Patient, positional | Walk forward with shield up; dodge sideways to avoid grabs; sprint-slam to engage |
-| **Vanguard** | Aggressive, committal | Sprint attacks are your gap-closer; use standard dodge to recover after whiffing |
+| **Withered Knight** | Aggressive, committal | Sprint attacks are your gap-closer; use standard dodge to recover after whiffing |
 | **Shadowstrix** | Flanking, evasive | Chain dodge to reposition behind enemies; sprint dodge to escape bad fights |
 | **Blackarrow** | Kiting, distance control | Never stop moving; backstep + shoot to maintain range; sprint dodge when rushed |
 | **Sorcerer** | Positional, zone control | Mana shield + backstep for defense; sprint dodge is your only escape from melee |
@@ -207,7 +209,7 @@ Mistfall Hunter uses a multi-layered damage system. Understanding damage types a
 
 | Damage Type | Used By | Effective Against | Weak Against |
 |-------------|---------|-------------------|--------------|
-| **Physical** | Mercenary, Vanguard, Shadowstrix (basic) | Light armor, unarmored enemies | Heavy armor, shield users |
+| **Physical** | Mercenary, Withered Knight, Shadowstrix (basic) | Light armor, unarmored enemies | Heavy armor, shield users |
 | **Magic** | Sorcerer, Shadowstrix (abilities) | Heavy armor, shielded enemies | Magic-resistant enemies (rare) |
 | **Piercing** | Blackarrow, some daggers | Medium armor, cloth | Heavy plate |
 | **Elemental (Fire)** | Sorcerer (fire spells), consumables | Organic enemies, poison vines | Fire-resistant enemies |
@@ -219,7 +221,7 @@ Mistfall Hunter uses a multi-layered damage system. Understanding damage types a
 | Weapon Type | Base Armor Penetration | Notes |
 |-------------|------------------------|-------|
 | Sword & Shield (Mercenary) | 10% | Low pen, high sustained damage |
-| Greatsword (Vanguard) | 25% | High pen per swing, slow speed |
+| Greatsword (Withered Knight) | 25% | High pen per swing, slow speed |
 | Daggers (Shadowstrix) | 15% | Backstabs ignore 100% armor |
 | Bow (Blackarrow) | 30% | Headshots add 20% bonus pen |
 | Staff (Sorcerer) | 40% (magic) | Magic pen is separate from physical |
@@ -243,7 +245,7 @@ Combat inflicts various status effects. Knowing how to apply and cleanse them ca
 
 | Effect | Source | Duration | Effect | Stacking |
 |--------|--------|----------|--------|----------|
-| **Bleed** | Shadowstrix daggers, Vanguard bleed perk | 6s | 5% HP/sec as physical damage | Stacks up to 3x |
+| **Bleed** | Shadowstrix daggers, Withered Knight bleed perk | 6s | 5% HP/sec as physical damage | Stacks up to 3x |
 | **Poison** | Blackarrow poison arrows, some mobs | 10s | 3% HP/sec as magic damage | Refreshes duration |
 | **Burn** | Sorcerer fire spells, explosive barrels | 8s | 4% HP/sec as fire damage | Stacks up to 2x |
 | **Slow** | Blackarrow quick shot, frost spells, swamp terrain | 4s | -30% movement speed | Single stack |
@@ -322,7 +324,7 @@ Coordinated team play dramatically increases combat effectiveness. These synergi
 | Duo Combo | How It Works | Win Condition |
 |-----------|--------------|---------------|
 | Mercenary + Shadowstrix | Mercenary holds aggro and parries; Shadowstrix flanks for backstabs | Parry + backstab burst deletes one target instantly |
-| Vanguard + Sorcerer | Vanguard initiates with sprint slam; Sorcerer follows with AoE zone | The slow from Sorcerer's frost keeps enemies in Vanguard's range |
+| Withered Knight + Sorcerer | Withered Knight initiates with sprint slam; Sorcerer follows with AoE zone | The slow from Sorcerer's frost keeps enemies in Withered Knight's range |
 | Blackarrow + Mercenary | Blackarrow kites and applies poison; Mercenary intercepts anyone who chases | Sustained damage + peel creates unwinnable attrition |
 
 ### Trio Composition
@@ -361,7 +363,7 @@ The Mistfall Hunter maps are designed with tactical terrain. Using the environme
 | **Bushes / Grass** | Hidden from lock-on (until you attack) | Ambush setup, escape, breaking line of sight |
 | **Water** | -20% move speed, muffled footsteps | Slow down pursuers; advance for silent flank |
 | **Explosive Barrels** | AoE fire damage when destroyed | Shoot near grouped enemies; bait enemies near them |
-| **Destructible Walls** | Breakable by Vanguard heavy attacks | Create unexpected sightlines or escape routes |
+| **Destructible Walls** | Breakable by Withered Knight heavy attacks | Create unexpected sightlines or escape routes |
 
 ### Mist Closing Strategy
 
@@ -379,9 +381,9 @@ Certain environmental objects can be destroyed for tactical advantage:
 | Object | Destroyed By | Effect |
 |--------|-------------|--------|
 | Wooden barricade | Any attack (3-5 hits) | Opens new sightline, removes cover |
-| Stone wall | Vanguard heavy attack (2 hits) | Creates a shortcut, exposes ambush position |
+| Stone wall | Withered Knight heavy attack (2 hits) | Creates a shortcut, exposes ambush position |
 | Suspended logs | Any ranged attack | Drops on enemies below, dealing damage and stunning |
-| Bridge supports | Vanguard or explosive | Collapses bridge, cutting off pursuit |
+| Bridge supports | Withered Knight or explosive | Collapses bridge, cutting off pursuit |
 
 ## Key Takeaway
 

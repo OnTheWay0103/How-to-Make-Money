@@ -4,7 +4,7 @@ description: 'Complete Echoes of Aincrad attributes breakdown. STR, DEX, AGI, IN
 keywords: ['stats guide', 'attributes guide', 'best stats', 'stat allocation', 'soft caps', 'respec']
 category: Guides
 version: '1.0'
-updated: '2026-07-18'
+updated: '2026-08-10'
 related:
   - builds-guide
   - ex-mod-guide
@@ -16,6 +16,8 @@ related:
 ## Stats & Attributes Overview
 
 Echoes of Aincrad uses seven core attributes. Every time you level up, you earn **Growth Points** to spend at any Inn. Stat allocation dramatically impacts damage, available Sword Skills, and combat effectiveness.
+
+> **Note:** Stat scaling numbers below are community-reported and may differ from the current build.
 
 | Stat | Function |
 |------|----------|
@@ -68,7 +70,7 @@ Improves attack speed and dodge recovery. Often undervalued.
 
 ### Intelligence (INT)
 
-Primary stat for Mage builds (Wand/Staff). Scales magical Sword Skills.
+Primary stat for the late-game Mage magic path. Scales magical Sword Skills (details not independently verified).
 
 | INT | Skill Damage | Breakpoint Bonus |
 |-----|-------------|-----------------|
@@ -128,11 +130,10 @@ Best for support-focused playstyles and extensive partner skill use.
 
 | Method | Availability | Cost |
 |--------|-------------|------|
-| Inn Reset | Once per 10 hours playtime | 5,000 Col |
-| Cardinal Reset | After clearing a Floor Boss | Free |
-| Premium Reset | Microtransaction (paid version) | 100 Arc |
+| Inn Reset (reported) | Reportedly once per 10 hours of playtime | Reportedly 5,000 Col |
+| Cardinal Reset (reported) | Reportedly after clearing a Floor Boss | Reportedly free |
 
-**Important**: Growth Points are permanent until reset. Plan ahead, especially in Death Game Mode where mistakes are final.
+**Important**: Growth Points are widely reported as permanent — most players plan allocations carefully. Some community posts describe limited respec options (such as the methods above), but their exact availability, costs, and cooldowns have not been independently verified. Treat respec as unavailable unless you can confirm it in your build of the game. Plan ahead, especially in Death Game Mode where mistakes are final.
 
 ## Stat Priority Summary
 
@@ -148,7 +149,7 @@ Best for support-focused playstyles and extensive partner skill use.
 
 **What is the best stat to max first?** END (15 minimum), then your primary damage stat based on weapon.
 
-**Is INT useless for melee?** Yes. There is no hybrid melee-mage scaling.
+**Is INT useless for melee?** Yes for the six base weapons. There is no hybrid melee-mage scaling as of the current build.
 
 **Does AGI stack with attack speed EX-Mods?** Yes, creating the fastest possible attack animations.
 
