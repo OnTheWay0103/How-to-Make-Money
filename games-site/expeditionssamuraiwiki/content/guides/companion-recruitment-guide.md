@@ -2,7 +2,7 @@
 title: "Expeditions: Samurai Companion Recruitment Guide — Order, Locations & How to Recruit All 8"
 description: "Where to find and how to recruit all 8 companions in Expeditions: Samurai Act One — the best recruitment order, expected world map locations, and who to recruit first for each pillar."
 category: "Companions"
-version: "EA Act One"
+version: "1.0"
 updated: "2026-08-07"
 keywords: ["expeditions samurai companion recruitment", "expeditions samurai how to recruit companions", "expeditions samurai where to find companions", "expeditions samurai recruitment order", "expeditions samurai antje location", "expeditions samurai johan recruit", "expeditions samurai tora hime recruit"]
 related: ["companions-guide", "party-composition-guide", "walkthrough-act-one"]

@@ -2,7 +2,7 @@
 title: "Expeditions: Samurai Injuries Guide — Healing, Wounds & Companion Death"
 description: "How injuries work in Expeditions: Samurai — treating wounds, medicine supplies, injury severity, permanent death, and how to keep your crew alive through Act One."
 category: "Mechanics"
-version: "EA Act One"
+version: "1.0"
 updated: "2026-08-07"
 keywords: ["expeditions samurai injuries", "expeditions samurai healing", "expeditions samurai wounds", "expeditions samurai medicine", "expeditions samurai companion death", "expeditions samurai can companions die", "expeditions samurai permadeath", "expeditions samurai how to heal"]
 related: ["difficulty-guide", "tips-and-tricks", "beginner-guide", "progression-skills-guide"]

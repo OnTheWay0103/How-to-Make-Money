@@ -2,7 +2,7 @@
 title: 'Taival Lore & Story Guide — The Henki, the Heartstone & the World'
 description: 'Taival lore explained: the last Henki, the shattered Heartstone, the world of four realms, creature essence absorption, and the story themes of this Finnish co-op adventure — with confirmed facts vs. unknowns marked.'
 category: 'Lore'
-version: 'Early Access (July 2026)'
+version: '1.0'
 updated: '2026-08-01'
 keywords: ['Taival story explained', 'Taival lore guide', 'Taival Henki explained', 'Taival Heartstone', 'what is Taival about', 'Taival Finnish folklore', 'Taival ending explained']
 related: ['beginner-guide', 'henki-companion-guide', 'quests-walkthrough', 'biomes-exploration-guide', 'best-henki-forms']

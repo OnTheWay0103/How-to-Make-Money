@@ -1,8 +1,11 @@
 ---
 title: "Biomes & World Exploration Guide: All Regions & Secrets"
-description: "Complete guide to Taival's four biomes — highlands, forests, mountains, and ruins/settlements. Best Henki forms, resource hotspots, secret locations, and traversal tips for each region."
+description: "Complete guide to Taival's four biomes — highlands, forests, mountains, and ruins/settlements. Best Henki forms, resource hotspots, hidden secrets, co-op exploration, and traversal tips for each region."
 category: "Exploration"
-updated: "2026-08-01"
+version: "1.0"
+updated: "2026-08-11"
+keywords: ["taival biomes", "taival realms", "taival exploration guide", "taival world map", "taival hidden secrets", "taival henki traversal", "taival four realms"]
+related: ["skill-trees-guide", "quests-walkthrough", "housing-base-building", "henki-companion-guide", "endgame-dungeons"]
 ---
 
 # Taival — Biomes & World Exploration Guide
@@ -13,7 +16,7 @@ Taival's world is a handcrafted, voxel-style open world divided into four seamle
 
 This guide covers everything you need to navigate every corner of Taival.
 
-**Accuracy note (August 2026):** the four realms — highlands, forests, mountains, ruins — are confirmed by official materials. Specific form names (Traveler, Burrower, Shadow Stalker, etc.), resource names, and the "hidden secrets" described below are community reports from Early Access and are unconfirmed (TBD) — treat exact details accordingly.
+**Accuracy note (August 2026):** the four realms — highlands, forests, mountains, ruins — are confirmed by official materials. Specific form names (Traveler, Burrower, Shadow Stalker, etc.), resource names, and the "hidden secrets" described below are community reports from Early Access and are unconfirmed (TBD) — treat exact details accordingly. An earlier version of this page described "six major biomes" with invented names (Meadowlands, Ironwood Forest, Sunken Marsh, and others); the game has **four** confirmed realms, and those names are not official. This page has been corrected.
 
 ---
 
@@ -171,9 +174,46 @@ The ruins and settlements biome blends crumbling ancient architecture with activ
 
 ---
 
+## Finding Hidden Secrets
+
+Official copy promises "hidden secrets and unknown treasures" across the realms — the secrets are official, though the specifics are unconfirmed. Practical methods:
+
+1. **Cover everything.** The seamless open world has no loading screens — nothing stops you from walking every path.
+2. **Use your forms.** Climbing (swift mount / snail form), gliding (bird form), and riding open up vertical and fast routes others can't reach.
+3. **Do the cozy quests.** The farmer's stolen barrel and goblin dispute quests show the world rewards paying attention to its inhabitants.
+4. **Follow the creatures.** "Sudden bosses" and random encounters happen while exploring — creature hotspots are adventure hotspots.
+5. **Return to old areas.** The developer plans to expand content through Early Access; areas will change as updates ship.
+
+## Co-op Exploration Strategies
+
+- **Split up.** Each player takes a different quadrant of a realm; the world state is shared, so discoveries benefit everyone.
+- **Assign roles.** A player on a swift mount scouts routes; a player with a predator form hunts rare creatures; a support player keeps supplies.
+- **Vote together on story.** When exploration triggers a group dialogue decision, discuss as a party — all players vote on pivotal choices (confirmed system).
+- **Play hybrid.** Mix local split-screen and online players in one session (confirmed) — a couch player and online friends can explore simultaneously.
+
+## Points of Interest Worth Seeking
+
+| Location Type | Confirmed? | Notes |
+|---------------|-----------|-------|
+| The four realms themselves | Yes | Highlands, forests, mountains, ruins |
+| Barbarian camp | Yes | A quest takes you to fight a beast there |
+| Settlements | Yes | Home to villagers and quests (farmer, goblins) |
+| Named landmarks (Ancient Forge, Sky Bridge, etc.) | **No** | Earlier names on this site were invented — do not trust them |
+
+## Exploration Rewards
+
+Confirmed reward sources tied to exploration:
+
+- **Creature essences** — absorbing essence unlocks new Henki forms (official)
+- **Random loot** — "random loot" drops during exploration (official)
+- **Quests** — exploration feeds the cozy investigation and combat quests (official)
+- **Companion dungeon access** — discovering dungeon entrances is exploration (confirmed feature, unconfirmed entrances; see the [Endgame & Companion Dungeons Guide](/guides/endgame-dungeons))
+
+---
+
 ### Related Guides
 
 - [Skill Trees & Progression Guide](/guides/skill-trees-guide) — Unlock more forms through character progression
-- [Henki Dungeons Guide](/guides/henki-dungeons-guide) — Challenge your Henki in solo dungeon content
+- [Endgame & Companion Dungeons Guide](/guides/endgame-dungeons) — Challenge your Henki in solo dungeon content
 - [Quests Walkthrough](/guides/quests-walkthrough) — Story quests that take you through each biome
 - [Player Housing & Base Building Guide](/guides/housing-base-building) — Best housing locations per biome

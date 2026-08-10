@@ -2,7 +2,7 @@
 title: "Expeditions: Samurai System Requirements & Performance Guide"
 description: "Expeditions: Samurai official minimum and recommended system requirements, release time (August 7, 14:00 UTC), Steam Deck status, graphics settings, and optimization tips. Updated for Early Access."
 category: "Game Info"
-version: "EA Act One"
+version: "1.0"
 updated: "2026-08-03"
 keywords: ["expeditions samurai system requirements", "expeditions samurai minimum requirements", "expeditions samurai recommended specs", "expeditions samurai performance", "expeditions samurai specs", "expeditions samurai steam deck", "expeditions samurai optimization", "expeditions samurai graphics settings", "expeditions samurai pc requirements"]
 related: ["early-access-guide", "beginner-guide"]

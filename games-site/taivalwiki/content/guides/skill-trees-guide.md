@@ -2,7 +2,10 @@
 title: "Skill Trees & Progression Guide: Character & Henki Growth"
 description: "Master Taival's dual progression system. Complete breakdown of character skill trees, Henki form mastery, profession skills, how to earn skill points, and the best early-game unlocks."
 category: "Progression"
-updated: "2026-08-01"
+version: "1.0"
+updated: "2026-08-11"
+keywords: ["taival skill tree", "taival progression", "taival skill points", "taival henki progression", "taival dual progression", "taival respec"]
+related: ["biomes-exploration-guide", "endgame-dungeons", "boss-guide", "housing-base-building"]
 ---
 
 # Taival — Skill Trees & Progression Guide
@@ -190,6 +193,6 @@ If you want to change your skill point allocation:
 ### Related Guides
 
 - [Biomes & Exploration Guide](/guides/biomes-exploration-guide) — Where to find specific Henki essences
-- [Henki Dungeons Guide](/guides/henki-dungeons-guide) — Solo Henki challenges that grant skill points
+- [Endgame & Companion Dungeons Guide](/guides/endgame-dungeons) — Solo Henki challenges reported to grant skill points
 - [Boss Encounters Guide](/guides/boss-guide) — Best skill loadouts and forms for each boss
 - [Player Housing & Base Building Guide](/guides/housing-base-building) — Crafting stations unlock profession recipes

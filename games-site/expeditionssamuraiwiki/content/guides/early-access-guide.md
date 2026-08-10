@@ -2,8 +2,8 @@
 title: "Expeditions: Samurai Early Access Guide — Act One Content, Roadmap & What's Missing"
 description: "What's actually in Expeditions: Samurai's Early Access launch on August 7, 2026 — Act One content, confirmed features, what arrives later (village management, Act Two, crafting), and the roadmap to 1.0."
 category: "Game Info"
-version: "EA Act One"
-updated: "2026-08-06"
+version: "1.0"
+updated: "2026-08-11"
 keywords: ["expeditions samurai early access", "expeditions samurai early access guide", "expeditions samurai act one content", "expeditions samurai roadmap", "expeditions samurai release date", "expeditions samurai what is included", "expeditions samurai 1.0 release"]
 related: ["launch-day-guide", "beginner-guide", "walkthrough-act-one", "village-management-guide", "coop-multiplayer-guide", "combat-guide"]
 ---
@@ -17,7 +17,7 @@ related: ["launch-day-guide", "beginner-guide", "walkthrough-act-one", "village-
 - **Early Access launch:** August 7, 2026 at **14:00 UTC** (SteamDB-listed unlock time: 10:00 AM EDT / 7:00 AM PDT / 4:00 PM CEST), on **PC via Steam** (Windows 10/11, 64-bit).
 - **Full release (1.0):** targeted for **Q1 2027**.
 - **Language:** English interface, full audio, and subtitles at launch.
-- **Price:** the Steam page confirms Early Access is "at a slightly discounted price compared to the full version" — the exact price will be confirmed on the store page at launch.
+- **Price:** **US$29.99 / €29.99** at launch (¥4,389 in Japan), with a **34% Early Access launch discount to US$19.79 / €19.79** that ran until **August 14** (August 15 for the Japanese store). The full version will carry a higher price at 1.0 — the launch discount is the reward for early adopters.
 - The developers have said they will publish a **detailed roadmap before launch** covering what's in the release build and what follows.
 
 ## What's in the Early Access Launch (Confirmed)
@@ -79,11 +79,11 @@ An honest buying framework based only on confirmed information:
 
 **Confirmed since this guide was first written:** saves **do carry from Early Access to 1.0** — the "Behind the Early Access" diary confirmed full save-data compatibility with the full release, so you won't restart at 1.0 (official statement translated in the August 5 developer diary coverage).
 
-**Unknowns to watch:** the **exact price** (still unannounced as of August 6 — the Steam page confirms Early Access is "at a slightly discounted price compared to the full version" but no number yet), whether any **crafting** is in the launch build, and the **class names** and build details (revealed at launch).
+**Unknowns to watch:** whether any **crafting** is in the launch build, and the **class names** and build details (revealed at launch). The price is now confirmed: **US$29.99 / €29.99** with a 34% Early Access launch discount to **US$19.79 / €19.79** (until August 14).
 
 ## Launch Day: THQ Nordic Digital Showcase
 
-Expeditions: Samurai headlines the **THQ Nordic Digital Showcase 2026 on launch day, Friday August 7** — the same day the game enters Early Access. The showcase streams at **14:30 EDT / 19:30 BST / 20:30 CEST** (11:30 PM PDT) on YouTube, Twitch, and Steam, with a pre-show before it. Expect launch-day announcements there — including, very likely, the final price and any roadmap reveal. The game unlocks earlier in the day at 14:00 UTC, so the showcase is a follow-up event, not the unlock moment.
+Expeditions: Samurai headlines the **THQ Nordic Digital Showcase 2026 on launch day, Friday August 7** — the same day the game enters Early Access. The showcase streams at **14:30 EDT / 19:30 BST / 20:30 CEST** (11:30 PM PDT) on YouTube, Twitch, and Steam, with a pre-show before it. Expect launch-day announcements there — including the detailed roadmap and launch-week companion reveals. The game unlocks earlier in the day at 14:00 UTC, so the showcase is a follow-up event, not the unlock moment.
 
 ## Early Access FAQ
 

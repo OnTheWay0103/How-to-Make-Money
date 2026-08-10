@@ -104,7 +104,9 @@ When a doppelganger completes its purchase, it returns in a **more grotesque, ag
 
 ## Undocumented Threats (Honest Note)
 
-The following enemies appear in some third-party guides but have **no reliable public confirmation**: Phantom, Demon, Marionette, Shrieking Doll, and "aggressive" or "silent" doppelganger sub-types with stat blocks. Until the community or developers document them with consistent detail, treat those entries as speculative — this bestiary intentionally excludes them.
+The following enemies appear in some third-party guides but have **no reliable public confirmation**: Phantom, Demon, and "aggressive" or "silent" doppelganger sub-types with stat blocks. Until the community or developers document them with consistent detail, treat those entries as speculative — this bestiary intentionally excludes them.
+
+(The **Marionette** and **Shrieking Doll** were once listed here as unconfirmed. They are now covered consistently across multiple community guides — see the [Special Monsters Guide](/guides/hunt-special-monsters-guide) for their documented behavior.)
 
 ## Final Tips
 

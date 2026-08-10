@@ -2,7 +2,7 @@
 title: "Expeditions: Samurai Combat Mechanics Deep Dive — Initiative, Hex Grid, Cover & Stances"
 description: "The deep mechanics of Expeditions: Samurai combat — initiative and simultaneous turn order, the hex grid battlefield, cover, flanking, attacks of opportunity, morale, and stance tactics."
 category: "Mechanics"
-version: "EA Act One"
+version: "1.0"
 updated: "2026-08-07"
 keywords: ["expeditions samurai initiative", "expeditions samurai turn order", "expeditions samurai hex grid", "expeditions samurai cover", "expeditions samurai flanking", "expeditions samurai attacks of opportunity", "expeditions samurai morale", "expeditions samurai stances", "expeditions samurai combat mechanics"]
 related: ["combat-guide", "stealth-guide", "weapons-armor-guide", "difficulty-guide"]

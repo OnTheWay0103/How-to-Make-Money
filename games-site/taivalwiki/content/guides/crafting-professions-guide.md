@@ -1,8 +1,11 @@
 ---
 title: "Crafting & Professions Guide: All Materials, Recipes & Tips"
-description: "Complete Taival crafting and professions guide. Learn about profession types, material gathering, recipe unlocks, crafting stations, and best items to craft."
+description: "Complete Taival crafting and professions guide. Learn about profession types, material gathering, recipe unlocks, crafting stations, advanced crafting, and best items to craft."
 category: "Crafting"
-updated: "2026-08-01"
+version: "1.0"
+updated: "2026-08-11"
+keywords: ["taival crafting", "taival professions", "taival crafting stations", "taival recipes", "taival materials", "taival crafting guide", "taival professions guide"]
+related: ["beginner-guide", "combat-system-guide", "henki-companion-guide", "fishing-guide"]
 ---
 
 # Crafting & Professions Guide: All Materials, Recipes & Tips
@@ -13,7 +16,7 @@ Crafting and professions form the backbone of character progression in Taival. W
 
 This guide covers every profession type, how crafting works, where to find materials, and what to craft at each stage of the game.
 
-**Accuracy note (August 2026):** professions & crafting are confirmed Early Access systems, and fishing is explicitly named by the developer as a levelable skill. However, the specific stations, profession list, materials, and recipes below are community reports from launch and largely unconfirmed (TBD). Reviewers also note Taival deliberately downplays the traditional building/gear-crafting loop in favor of Henki progression — treat the details below as a roadmap for verification, not documentation.
+**Accuracy note (August 2026):** professions & crafting are confirmed Early Access systems, and fishing is explicitly named by the developer as a levelable skill. However, the specific stations, profession list, materials, and recipes below are community reports from launch and largely unconfirmed (TBD). Community reports also vary on which stations exist (some mention an Enchanting Altar and a Mystic Loom alongside the list below) — no official station list has been published. Reviewers also note Taival deliberately downplays the traditional building/gear-crafting loop in favor of Henki progression — treat the details below as a roadmap for verification, not documentation.
 
 ---
 
@@ -177,6 +180,20 @@ Your professions and Henki forms can support each other in several ways:
 - **Use profession boosts.** Some food items and Henki forms provide temporary profession XP bonuses. Stack them before a dedicated farming session.
 - **Craft in batches.** Crafting a single item gives minimal XP. Crafting 10 items in a row gives escalating XP bonuses for repeated crafts.
 - **Keep a notebook.** Remember which biomes have which resources. Efficient routing saves enormous time when farming specific materials.
+
+---
+
+## Advanced Crafting (Community-Reported, Unconfirmed)
+
+Community reports describe a deeper layer of the crafting system beyond basic recipes. None of this is officially documented as of August 2026, so treat it as a framework for verification, not documentation:
+
+- **Recipe tiers** — reports describe a multi-tier recipe progression, from basic survival gear up to top-tier legendary equipment. Tier names, counts, and the exact materials each tier requires are unconfirmed.
+- **Elemental infusions** — community reports mention adding fire, ice, lightning, or poison effects to weapons using special essences. Which essences and effects actually exist is unconfirmed.
+- **Set bonuses** — reports describe armor sets crafted from the same material granting small bonuses when worn together. Exact bonuses are unconfirmed.
+- **Advanced recipe unlocks** — reports describe unlocking advanced recipes via recipe scrolls, station mastery, exploration discoveries, and Henki form synergies (for example, a smelting-capable form near a forge). Specifics are unconfirmed.
+- **Crafting economy** — selling crafted goods may be a viable income source, but exact prices and profit margins are unconfirmed; the developer has published no economy data.
+
+Any guide that cites specific material counts, unlock levels, or sell-price multipliers for Taival crafting is speculating beyond what the community has confirmed.
 
 ---
 

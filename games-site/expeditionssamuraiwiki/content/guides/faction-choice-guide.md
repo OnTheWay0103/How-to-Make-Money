@@ -2,7 +2,7 @@
 title: "Expeditions: Samurai Faction Guide — Which Side to Choose in Act One"
 description: "Which faction should you serve in Expeditions: Samurai? Tokugawa Ieyasu's Eastern Army vs Ishida Mitsunari's Western Army — what each side offers, when you choose, and the consequences."
 category: "Game Info"
-version: "EA Act One"
+version: "1.0"
 updated: "2026-08-07"
 keywords: ["expeditions samurai faction", "expeditions samurai which faction", "expeditions samurai tokugawa", "expeditions samurai eastern army", "expeditions samurai western army", "expeditions samurai sekigahara choice", "expeditions samurai ishida mitsunari"]
 related: ["diplomacy-guide", "history-guide", "village-management-guide", "walkthrough-act-one"]

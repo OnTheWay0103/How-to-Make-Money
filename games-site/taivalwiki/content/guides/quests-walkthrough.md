@@ -2,7 +2,10 @@
 title: "Quests & Story Walkthrough: Confirmed Questline Guide"
 description: "Taival quest walkthrough based on confirmed facts. The last Henki, the shattered Heartstone, the farmer's stolen barrel, the goblin dispute, the barbarian camp beast, and insect pest control — with group voting explained."
 category: "Quests"
-updated: "2026-08-01"
+version: "1.0"
+updated: "2026-08-11"
+keywords: ["taival quests", "taival story walkthrough", "taival quest guide", "taival main questline", "taival heartstone quest"]
+related: ["lore-and-story-guide", "biomes-exploration-guide", "boss-guide", "coop-multiplayer-guide"]
 ---
 
 # Taival — Quests & Story Walkthrough

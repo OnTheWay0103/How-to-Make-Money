@@ -2,7 +2,10 @@
 title: "Rare Spawns Guide: Golden & Purple Variants in Taival"
 description: "Rare creature spawns in Taival: the confirmed golden and purple variant system, how variants work when tamed, where to hunt, and what is still unconfirmed about rare spawn rates and locations."
 category: "Bosses"
-updated: "2026-08-01"
+version: "1.0"
+updated: "2026-08-11"
+keywords: ["taival rare spawns", "taival golden variant", "taival purple variant", "taival rare creatures", "taival shiny creatures"]
+related: ["henki-companion-guide", "best-henki-forms", "biomes-exploration-guide", "boss-guide"]
 ---
 
 # Rare Spawns Guide: Finding Legendary Creatures in Taival

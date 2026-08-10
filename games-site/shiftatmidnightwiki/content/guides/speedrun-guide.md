@@ -20,7 +20,7 @@ Every campaign runs on the same 13-shift skeleton with a **fixed doppelganger li
 
 Every shift runs the same six steps. The speedrun version compresses steps 1-3 so you spend maximum time at the register, where money and fakes both live:
 
-1. **Clean the store** — use the **sledgehammer and hose** instead of the mop; it's faster and the cleanup pays.
+1. **Clean the store** — the mop is the standard tool; some community speedruns report the **sledgehammer and hose** clear the mess faster when available.
 2. **Open the garage door** — leave it open for the delivery truck first, so restock isn't waiting on you.
 3. **Restock the front shelves** — keep **15+ items stocked**. The stock quota and nightly money goal must be hit every shift; missing them wastes time on punishment.
 4. **Read the noticeboard** — objectives, plus clues that disprove customer stories (a customer claims to work somewhere the board says burned down). Ten seconds saves minutes of questioning.
@@ -61,7 +61,7 @@ The run is won at the register and at the wheel, not in combat. These are the hi
 
 - **Token farm before every shift** — tokens found before each shift feed the **prize wheel**. Aim for a **$10 win**; it's the fastest single payday and takes seconds once you route the spawns.
 - **Never shoot innocent humans** — a shot at a real customer docks your pay and can wipe out a shift's profit.
-- **Clean with the sledgehammer and hose** — faster than the mop, and the cleanup pays.
+- **Clean fast** — community speedruns report the sledgehammer and hose clear the mess faster than the mop.
 - **Do the paid bonus tasks** — Shift 4's rat bonus (throw rats in the trash before the next customer) and Shift 9's roach bonus (cleared with the mop) are free income.
 - **Upgrade the shopfloor** — early store-money upgrades raise earning power for every shift after.
 - **Keep store money and personal funds separate** — the True Ending check reads *personal* cash only. Traps, planks, and Arsenal weapons come from store money.

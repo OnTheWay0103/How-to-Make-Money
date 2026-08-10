@@ -2,7 +2,10 @@
 title: "Player Housing & Base Building Guide"
 description: "Complete guide to player housing in Taival. How to place and upgrade homes, best housing locations per biome, co-op shared housing, decorating, and all housing benefits."
 category: "Building"
-updated: "2026-08-01"
+version: "1.0"
+updated: "2026-08-11"
+keywords: ["taival housing", "taival base building", "taival player home", "taival housing upgrade", "taival co-op housing", "taival building guide"]
+related: ["skill-trees-guide", "biomes-exploration-guide", "quests-walkthrough", "endgame-dungeons"]
 ---
 
 # Taival — Player Housing & Base Building Guide
@@ -19,14 +22,14 @@ This guide covers everything you need to build, upgrade, and optimize your home 
 
 ## How to Unlock Housing
 
-Housing becomes available after completing **Quest 1.3 — The Missing Patrol** in Act 1. The village elder gives you a Land Deed and directs you to available housing plots.
+Housing becomes available through the early story questline — community reports describe the quest giver granting a Land Deed and directing you to available housing plots. (The specific quest name is not officially documented; an earlier version of this page named it "The Missing Patrol," which is not a confirmed quest.)
 
 | Requirement | Detail |
 |-------------|--------|
-| **Quest Unlock** | Complete "The Missing Patrol" (Act 1) |
-| **Item Required** | Land Deed (quest reward) |
-| **Initial Cost** | 200 gold (furnishing materials) |
-| **Location Access** | Highlands plot is free with deed; other biome plots cost additional gold |
+| **Quest Unlock** | An early story quest (exact name unconfirmed) |
+| **Item Required** | Land Deed (quest reward, community-reported) |
+| **Initial Cost** | Community reports mention an initial gold/material cost — unconfirmed |
+| **Location Access** | Highlands plot is free with deed; other biome plots cost additional gold (unconfirmed) |
 
 ---
 
@@ -99,7 +102,7 @@ Each home can be upgraded multiple times. Upgrades require gold and specific mat
 | **1 — Shelter** | Free (initial) | Basic bed, small storage crate, campfire | Complete "The Missing Patrol" |
 | **2 — Cottage** | 300 gold + 50 wood + 30 stone | Medium storage, simple crafting bench, cooking station | Tier 1 |
 | **3 — Homestead** | 600 gold + 100 wood + 60 stone + 20 iron | Large storage, advanced crafting station, alchemy table, fishing rack | Tier 2 + Profession Level 3 in one craft |
-| **4 — Estate** | 1,200 gold + 200 rare wood + 100 iron + 20 gems | Extra large storage, all crafting stations, Henki rest area, guest rooms | Tier 3 + Clear all 6 Henki Dungeons |
+| **4 — Estate** | 1,200 gold + 200 rare wood + 100 iron + 20 gems | Extra large storage, all crafting stations, Henki rest area, guest rooms | Tier 3 + Clear the companion dungeons (see the [Endgame & Companion Dungeons Guide](/guides/endgame-dungeons)) |
 
 **Tip:** The jump from Tier 2 to Tier 3 is the biggest power spike. The advanced crafting station unlocks the best gear recipes and the alchemy table lets you craft permanent stat boost potions.
 
@@ -212,4 +215,4 @@ When playing in a group, housing works as a shared space.
 - [Skill Trees & Progression Guide](/guides/skill-trees-guide) — Rested Bonus skill and profession crafting
 - [Biomes & Exploration Guide](/guides/biomes-exploration-guide) — Resource hotspots for building materials
 - [Quests Walkthrough](/guides/quests-walkthrough) — Quest rewards include housing decorations
-- [Henki Dungeons Guide](/guides/henki-dungeons-guide) — Dungeon completion required for Estate tier housing
+- [Endgame & Companion Dungeons Guide](/guides/endgame-dungeons) — Companion dungeon completion reported for Estate tier housing

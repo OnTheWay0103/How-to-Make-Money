@@ -2,8 +2,8 @@
 title: "Expeditions: Samurai Launch Day Guide — Release Time, Price & First 24 Hours"
 description: "Expeditions: Samurai Early Access launches August 7, 2026. Launch-day guide with the confirmed unlock time (14:00 UTC), price status, what's in the day-one build, the THQ Nordic Digital Showcase, and your first-24-hours plan."
 category: "Game Info"
-version: "EA Act One"
-updated: "2026-08-06"
+version: "1.0"
+updated: "2026-08-11"
 keywords: ["expeditions samurai launch day", "expeditions samurai release time", "expeditions samurai what time", "expeditions samurai launch guide", "expeditions samurai price", "expeditions samurai day one", "expeditions samurai august 7", "expeditions samurai what to do first"]
 related: ["early-access-guide", "system-requirements-guide", "beginner-guide", "coop-multiplayer-guide", "walkthrough-act-one"]
 ---
@@ -22,7 +22,7 @@ Expeditions: Samurai — the party-based tactical CRPG from **Campfire Cabal**, 
 | **Release type** | Early Access — full 1.0 targeted for Q1 2027 |
 | **Developer / Publisher** | Campfire Cabal / THQ Nordic |
 | **Modes** | Single-player + 2-player online co-op (confirmed at launch) |
-| **Price** | Unannounced as of August 6 — Early Access is confirmed to be priced below the full version |
+| **Price** | **US$29.99 / €29.99** — with a 34% launch discount to **US$19.79 / €19.79** until August 14 |
 | **Pre-purchase / preload** | Not available — the game goes live for purchase at launch |
 | **Languages** | English (interface, audio, and subtitles) at launch |
 | **Console / macOS / Linux** | None announced — PC only |
@@ -38,14 +38,14 @@ The Early Access unlock time is **14:00 UTC on August 7, 2026** (SteamDB-listed)
 
 If the page shows a countdown, treat the Steam store as authoritative — unlock times occasionally shift by minutes around big launches.
 
-## Price: Still Unannounced (Here's the Honest Status)
+## Price: Confirmed at Launch
 
-As of August 6, **no price has been published**. What is confirmed:
+The price is now on the store page: **US$29.99 / €29.99** (¥4,389 in Japan), with a **34% Early Access launch discount to US$19.79 / €19.79** valid until **August 14** (August 15 for the Japanese store). What else is worth knowing:
 
-- Early Access is "at a **slightly discounted price** compared to the full version" (official Steam page wording) — a thank-you to early supporters.
-- **No pre-purchase** exists, so there's no pre-order discount mechanism — you buy at or after launch.
-- The **THQ Nordic Digital Showcase runs the same day** (see below) — a price reveal there is likely but not confirmed.
-- Any price you see circulating before the Steam page updates is a guess, including ours. Check the store page at launch.
+- The discount matches the Steam page's promise that Early Access would be "at a **slightly discounted price** compared to the full version" — a thank-you to early supporters. The full 1.0 release will carry a higher price.
+- **No pre-purchase existed**, so there was no pre-order discount mechanism — you buy at or after launch.
+- The **THQ Nordic Digital Showcase ran the same day** (see below) as the launch — the announcement cycle around it carried the final numbers.
+- Always treat the Steam store page as the authoritative source for current regional pricing — discounts rotate.
 
 ## What's Actually in the Day-One Build
 
@@ -75,7 +75,7 @@ Expeditions: Samurai is part of the **THQ Nordic Digital Showcase 2026, streamin
 
 - **Stream time:** 14:30 EDT / 19:30 BST / 20:30 CEST (with a pre-show before)
 - **Where:** YouTube, Twitch, and Steam
-- **Why it matters:** the game unlocks earlier in the day (14:00 UTC), so the showcase is the launch-day follow-up — the most likely place for the price, the detailed roadmap, or launch-week companion reveals. Other expected titles include Titan Quest II, Wreckfest 2, and Way of the Hunter 2.
+- **Why it matters:** the game unlocks earlier in the day (14:00 UTC), so the showcase is the launch-day follow-up — the place for the detailed roadmap and launch-week companion reveals. Other expected titles included Titan Quest II, Wreckfest 2, and Way of the Hunter 2.
 
 ## Your First 24 Hours: The Plan
 
@@ -109,7 +109,7 @@ Expeditions: Samurai is part of the **THQ Nordic Digital Showcase 2026, streamin
 
 **What time does Expeditions: Samurai unlock?** 14:00 UTC on August 7 (10:00 AM EDT / 7:00 AM PDT / 4:00 PM CEST).
 
-**How much does it cost?** Unannounced as of August 6. Early Access is officially "slightly discounted" vs the full version; the exact number lands on the Steam page at or before launch.
+**How much does it cost?** **US$29.99 / €29.99**, with a 34% launch discount to **US$19.79 / €19.79** that ran until August 14 (August 15 for the Japanese store at ¥4,389). The full 1.0 release will carry a higher price.
 
 **Is co-op in on day one?** Yes — full 2-player online co-op with drop-in/drop-out is confirmed for the launch build.
 

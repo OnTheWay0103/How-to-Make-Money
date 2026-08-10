@@ -2,7 +2,7 @@
 title: "Expeditions: Samurai Three Pillars Guide — Stealth, Diplomacy & Steel"
 description: "The three pillars of Expeditions: Samurai explained — when to sneak, talk, or fight, how the pillars combine, which companions enable each approach, and how to choose in Act One."
 category: "Mechanics"
-version: "EA Act One"
+version: "1.0"
 updated: "2026-08-07"
 keywords: ["expeditions samurai three pillars", "expeditions samurai stealth diplomacy steel", "expeditions samurai pillars", "expeditions samurai stealth vs diplomacy", "expeditions samurai approach guide", "expeditions samurai when to fight"]
 related: ["stealth-guide", "diplomacy-guide", "combat-guide", "beginner-guide"]

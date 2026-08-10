@@ -2,7 +2,7 @@
 title: 'Taival Mount Guide — How to Unlock Riding & Traversal Forms'
 description: 'Taival mounts explained: unlock the swift mount that scales cliffsides, riding forms, the reported snail wall-climber and bird glider, taming steps, and the best traversal form for each of the four realms.'
 category: 'Exploration'
-version: 'Early Access (July 2026)'
+version: '1.0'
 updated: '2026-08-01'
 keywords: ['Taival mounts', 'Taival Henki mount', 'how to get a mount in Taival', 'Taival swift mount', 'Taival travel fast', 'Taival climbing form', 'Taival gliding']
 related: ['henki-companion-guide', 'best-henki-forms', 'biomes-exploration-guide', 'coop-multiplayer-guide', 'beginner-guide']

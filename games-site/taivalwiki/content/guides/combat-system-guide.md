@@ -2,7 +2,10 @@
 title: "Combat System & Weapons Guide: Battle Tactics"
 description: "Master Taival's combat system with this guide covering weapon types, Henki combat assist, enemy types, dodge/block mechanics, combos, and co-op tactics."
 category: "Combat"
-updated: "2026-08-01"
+version: "1.0"
+updated: "2026-08-11"
+keywords: ["taival combat", "taival weapons", "taival battle tactics", "taival combat guide", "taival weapon types", "taival dodge block"]
+related: ["henki-companion-guide", "best-henki-forms", "coop-multiplayer-guide", "crafting-professions-guide"]
 ---
 
 # Combat System & Weapons Guide: Battle Tactics

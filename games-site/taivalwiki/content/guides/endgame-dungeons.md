@@ -3,9 +3,9 @@ title: "Endgame & Companion Dungeons Guide — What's in Early Access"
 description: "Taival endgame guide for the Early Access build: companion dungeons (where you control your Henki), endgame content that is confirmed, what's planned for 1.0, and honest notes on unconfirmed dungeon tiers."
 category: "Guides"
 version: "1.0"
-updated: "2026-08-01"
+updated: "2026-08-11"
 keywords: ["taival endgame", "taival companion dungeons", "taival henki dungeon", "taival late game", "taival early access content", "taival endgame guide", "taival 1.0 roadmap"]
-related: ["henki-dungeons-guide", "world-bosses", "boss-guide", "skill-trees-guide", "crafting-mastery"]
+related: ["boss-guide", "skill-trees-guide", "crafting-professions-guide", "biomes-exploration-guide"]
 ---
 
 ## Endgame & Companion Dungeons Guide
@@ -45,6 +45,19 @@ The standout endgame-style feature confirmed for Early Access is the **companion
 
 Companion dungeon specifics are being documented by the community as of August 2026; verified details will be added here as they surface.
 
+## What Community Reports Suggest About Companion Dungeons (Unconfirmed)
+
+Community reports from Early Access describe the following patterns. None of this is officially documented as of August 2026, so treat it as a framework for verification — and treat any guide that cites exact dungeon names, timers, or reward percentages as speculating:
+
+- **Form-locked challenges** — reports describe each dungeon as designed around a specific Henki form, requiring you to have that form unlocked (and some reports add a practice-time requirement).
+- **Dungeon types** — reports describe four archetypes: combat waves, traversal obstacle courses, puzzle rooms, and hybrid challenges mixing all three. The count and mix per dungeon are unconfirmed.
+- **Entry style** — reports describe glowing archways near the biome where the corresponding form is first found, sealed until you interact with them.
+- **Solo-only** — reports describe each player's Henki entering separately in co-op, with no in-dungeon help between players.
+- **Failure consequences** — some reports mention a "bond" system: failing a dungeon damages your Henki bond, recoverable by using the form in the open world. Exact penalties are unconfirmed.
+- **One-time rewards** — reports describe exclusive form traits and skill points granted on first completion, with replays for practice only. Exact rewards are unconfirmed.
+
+When the community or the developer confirms specifics, this section will be replaced with verified detail.
+
 ## Preparing for the Endgame (Confirmed-System Prep)
 
 Since the 1.0 content isn't here yet, the best "endgame prep" is mastering what exists:
@@ -64,14 +77,13 @@ Confirmed roadmap items from the developer's Early Access statement:
 - **New enemy and boss encounters**
 - New items, creatures, and lore
 - Optimization and polish
-- Price increases as content ships (the game currently costs ¥77, ~US$16)
+- Price increases as content ships — the game is currently **US$19.99 on Steam** with a 20% launch discount to **$15.99** (until July 28, 2026); the China regional price is **¥77** (¥61.60 discounted)
 
 Consoles (Xbox, PlayStation, Nintendo Switch 2) are also planned later.
 
 ## Related Guides
 
-- [Henki Dungeons Guide](/guides/henki-dungeons-guide) — Companion dungeon content in detail
-- [World Bosses Guide](/guides/world-bosses) — Open-world boss encounters
 - [Boss Encounters Guide](/guides/boss-guide) — Everything confirmed about bosses
 - [Skill Trees Guide](/guides/skill-trees-guide) — Dual progression planning
-- [Crafting Mastery Guide](/guides/crafting-mastery) — Professions and crafting
+- [Crafting & Professions Guide](/guides/crafting-professions-guide) — Professions and crafting
+- [Biomes & Exploration Guide](/guides/biomes-exploration-guide) — Finding dungeon entrances in each realm

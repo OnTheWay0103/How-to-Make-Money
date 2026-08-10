@@ -2,7 +2,10 @@
 title: "Getting Started in Taival: Complete Beginner's Guide"
 description: "New to Taival? Learn the first steps, Henki companion basics, early game priorities, and essential tips for surviving this co-op adventure RPG."
 category: "Beginner"
-updated: "2026-08-01"
+version: "1.0"
+updated: "2026-08-11"
+keywords: ["taival beginner guide", "taival getting started", "taival tips", "taival first steps", "taival new player guide", "taival henki basics"]
+related: ["henki-companion-guide", "best-henki-forms", "coop-multiplayer-guide", "crafting-professions-guide"]
 ---
 
 # Getting Started in Taival: Complete Beginner's Guide

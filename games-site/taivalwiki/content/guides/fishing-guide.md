@@ -2,7 +2,10 @@
 title: "Fishing Guide: What We Know About Fishing in Taival"
 description: "Fishing guide for Taival (Early Access). Fishing is a confirmed profession — what we know for sure, how fishing fits the dual progression system, and which details are still unconfirmed."
 category: "Exploration"
-updated: "2026-08-01"
+version: "1.0"
+updated: "2026-08-11"
+keywords: ["taival fishing", "taival fishing guide", "taival fishing profession", "taival fishing spots"]
+related: ["crafting-professions-guide", "henki-companion-guide", "biomes-exploration-guide", "skill-trees-guide"]
 ---
 
 # Fishing Guide: What We Know About Fishing in Taival

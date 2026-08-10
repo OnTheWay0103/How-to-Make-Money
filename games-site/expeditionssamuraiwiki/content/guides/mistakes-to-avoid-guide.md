@@ -2,7 +2,7 @@
 title: "Expeditions: Samurai Mistakes to Avoid — 12 Early Access Pitfalls"
 description: "The 12 biggest mistakes to avoid in Expeditions: Samurai Early Access — combat, stealth, resources, companions, progression, and Early Access-specific pitfalls for Act One."
 category: "Beginner"
-version: "EA Act One"
+version: "1.0"
 updated: "2026-08-07"
 keywords: ["expeditions samurai mistakes", "expeditions samurai mistakes to avoid", "expeditions samurai things to know", "expeditions samurai before you play", "expeditions samurai common mistakes", "expeditions samurai beginner mistakes"]
 related: ["beginner-guide", "tips-and-tricks", "launch-day-guide", "injuries-healing-guide"]
@@ -22,7 +22,7 @@ The single biggest swing in any fight is the **surprise attack opener**. A party
 
 ### 2. Ignoring flanking, cover, and facing
 
-The launch build's battlefield is a hex grid with cover, flanking, and attacks of opportunity. Standing in the open and attacking the front is fighting at maximum difficulty. Fix: place everyone in cover before the fight, and use the ambush to choose the enemy's facing — see the [Combat Mechanics Deep Dive](/guides/combat-mechanics-deep-dive).
+The launch build's battlefield is a hex grid with cover, flanking, and attacks of opportunity (preview-reported — see the Combat Mechanics Deep Dive for source marks). Standing in the open and attacking the front is fighting at maximum difficulty. Fix: place everyone in cover before the fight, and use the ambush to choose the enemy's facing — see the [Combat Mechanics Deep Dive](/guides/combat-mechanics-deep-dive).
 
 ### 3. Leaving enemy interrupters alive
 

@@ -2,7 +2,10 @@
 title: "Henki Companion Guide: All Forms, Abilities & How to Unlock"
 description: "Master the Henki companion in Taival. Learn to tame creatures, unlock all form archetypes, and use Henki traits and rare variants effectively."
 category: "Companions"
-updated: "2026-08-01"
+version: "1.0"
+updated: "2026-08-11"
+keywords: ["taival henki", "taival companion", "taival henki forms", "taival henki traits", "taival shapeshifter", "taival taming"]
+related: ["best-henki-forms", "beginner-guide", "combat-system-guide", "coop-multiplayer-guide"]
 ---
 
 # Henki Companion Guide: All Forms, Abilities & How to Unlock

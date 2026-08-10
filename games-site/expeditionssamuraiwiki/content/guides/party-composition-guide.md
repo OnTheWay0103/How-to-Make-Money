@@ -2,7 +2,7 @@
 title: "Expeditions: Samurai Best Party Composition — Team Setup for Act One"
 description: "The best party compositions for Expeditions: Samurai Early Access — 4-character team setups, role coverage across stealth, diplomacy and combat, and the strongest lineups for Act One."
 category: "Builds"
-version: "EA Act One"
+version: "1.0"
 updated: "2026-08-07"
 keywords: ["expeditions samurai party composition", "expeditions samurai best party", "expeditions samurai team setup", "expeditions samurai party roles", "expeditions samurai best lineup", "expeditions samurai active party", "expeditions samurai party building"]
 related: ["companions-guide", "best-builds-guide", "companion-recruitment-guide", "combat-guide"]

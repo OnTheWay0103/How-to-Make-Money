@@ -134,7 +134,7 @@ Crashes during the **Night Transition** have been reported to corrupt saves. Bac
 | "Out of Video Memory" | Raise Virtual Memory to 16 GB, lower Textures |
 | Stutter when customers enter | NVMe SSD + close background apps |
 | Can't join friends' lobbies | Disable IPv6, enable UPnP, same platform/version |
-| Black screen entering Shift 10 | Update the game (fixed in the July 24 hotfix) |
+| Black screen entering Shift 10 | Update the game, then verify game files if it persists |
 | Corrupted save after crash | Back up `AppData\Local\ShiftAtMidnight\Saved\SaveGames` |
 
-The good news: the developers patched aggressively in the first days after launch. If you're on the latest version, most of the launch-week crash reports are already fixed — see the [Patch Notes & Update History](/guides/patch-notes-history) for what each update changed. And if the game itself is what you're struggling with rather than the PC, start with the [Beginner Guide](/guides/beginner-guide).
+The good news: the developers shipped updates quickly after launch, and most launch-week crash reports no longer reproduce on current versions. See the [Patch Notes & Update History](/guides/patch-notes-history) for what's officially confirmed about updates and beta branches. And if the game itself is what you're struggling with rather than the PC, start with the [Beginner Guide](/guides/beginner-guide).

@@ -2,7 +2,7 @@
 title: "Expeditions: Samurai Progression Guide — Leveling, Skill Points & Weapon Skills"
 description: "How character progression works in Expeditions: Samurai — leveling, skill points, class branches, weapon skills that grow with use, and where to invest in Act One."
 category: "Builds"
-version: "EA Act One"
+version: "1.0"
 updated: "2026-08-07"
 keywords: ["expeditions samurai progression", "expeditions samurai leveling", "expeditions samurai skill points", "expeditions samurai skill tree", "expeditions samurai weapon skills", "expeditions samurai respec", "expeditions samurai how to level up"]
 related: ["best-builds-guide", "classes-guide", "combat-guide", "party-composition-guide"]

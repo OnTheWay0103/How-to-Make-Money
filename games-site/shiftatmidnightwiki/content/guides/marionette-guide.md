@@ -36,7 +36,7 @@ There is a catch, and it is important: **rewinding the box draws the Entity and 
 
 - Time the rewind when you have a **clear escape route** to a vent, locker, or barricade
 - If you are mid-hunt and the Entity is already closing in, let the melody play once more rather than rewinding into a corner
-- **The day-one patch made the box audio louder**, so a quiet stretch of the store is the best moment to act — you will hear the box long before it finishes
+- A quiet stretch of the store is the best moment to act — you will hear the box long before it finishes
 
 ---
 
@@ -46,7 +46,7 @@ Let the melody complete three times and the box pops. **The Marionette spawns an
 
 - It is **tougher than the regular Entity** — community guides consistently recommend bringing real firepower rather than trying to outrun it
 - It does not replace the Entity; it **joins** the hunt, so you are now dealing with both
-- The day-one patch **lowered the Marionette's HP**, which gives solo players noticeably more margin — it is beatable, but it is not a free kill
+- It is beatable, but it is not a free kill — solo players in particular need real firepower or precise rewind timing
 
 Failing the rewind is not the end of the night, but it is the hardest part of it. Treat the third melody as a hard deadline, not a suggestion.
 
@@ -57,7 +57,7 @@ Failing the rewind is not the end of the night, but it is the hardest part of it
 Here is the good news: **the Marionette is killable** — unlike the Dentist, who cannot be harmed at all, this creature dies when you bring enough firepower.
 
 - **Bring real weapons.** Whatever the Emergency Arsenal has — the gun, and anything heavier you have stocked from the store computer — is what you use. See the [Weapons Guide](/guides/weapons-guide) for what to stock before late-game shifts.
-- **Fight rather than hide.** With the HP reduction, a stocked Arsenal can put the Marionette down in one focused exchange. Play it like the Entity speedrun tactic: commit to the fight once you have committed.
+- **Fight rather than hide.** A stocked Arsenal can put the Marionette down in one focused exchange. Play it like the Entity speedrun tactic: commit to the fight once you have committed.
 - **In co-op, split the job.** One player keeps the box rewound while another engages the Marionette — the fight is dramatically easier when the box never finishes winding again.
 - **Killing the Marionette unlocks the Last Performance achievement.** It is one of the campaign's milestone trophies, and it only exists because this monster can be beaten.
 
@@ -83,7 +83,7 @@ The Marionette is where good co-op habits pay off. The community standard is sim
 - **The checker's only job** during a hunt is audio duty — listen for the melody, locate the box, rewind it. Everyone else runs the store and the fight.
 - **Call it out twice:** once when the melody starts ("box started"), once when the rewind is done ("box clear"). If the checker dies or is cornered, the next player takes over — say the handoff out loud.
 - **If the Marionette spawns anyway**, the checker keeps the box rewound while the fighters engage. A box that never finishes winding means the fight stays one-on-one with the monster instead of monster-plus-ambush.
-- **Six-player lobbies** (added in the day-one patch) make this trivial: two on register, one checker, three on the hunt. Screen-clearing co-op is the intended endgame.
+- **In a full 3-player lobby**, the split is clean: one on register, one on the hunt, one on the box. Screen-clearing co-op is the intended endgame.
 
 ---
 

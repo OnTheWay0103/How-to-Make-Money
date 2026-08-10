@@ -2,7 +2,10 @@
 title: "Is There PvP in Taival? — Co-op PvE Explained"
 description: "Is Taival a PvP game? No — Taival is a co-op PvE adventure. What competitive-adjacent content actually exists in Early Access, and what players looking for arena combat should know."
 category: "Combat"
-updated: "2026-08-01"
+version: "1.0"
+updated: "2026-08-11"
+keywords: ["taival pvp", "is taival pvp", "taival arena", "taival competitive", "taival pve"]
+related: ["coop-multiplayer-guide", "boss-guide", "combat-system-guide", "best-henki-forms"]
 ---
 
 # Is There PvP in Taival?

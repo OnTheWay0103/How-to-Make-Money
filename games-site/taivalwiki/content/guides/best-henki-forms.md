@@ -2,7 +2,10 @@
 title: "Best Henki Forms Tier List: S to C Rank"
 description: "Complete Henki forms tier list for Taival. Every form ranked from S to C with combat and traversal ratings, use cases, and party synergy tips."
 category: "Tier List"
-updated: "2026-08-01"
+version: "1.0"
+updated: "2026-08-11"
+keywords: ["taival best henki forms", "taival henki tier list", "taival best forms", "taival form ranking", "taival henki guide"]
+related: ["henki-companion-guide", "beginner-guide", "combat-system-guide", "coop-multiplayer-guide"]
 ---
 
 # Best Henki Forms Tier List: S to C Rank

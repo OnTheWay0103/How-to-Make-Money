@@ -29,7 +29,7 @@ Taival launched in Steam Early Access on July 15, 2026 by Bonobo Software (Finla
 | [Biomes & Exploration Guide](/guides/biomes-exploration-guide) | World navigation | Intermediate |
 | [Skill Trees Guide](/guides/skill-trees-guide) | Progression planning | Intermediate |
 | [Quests Walkthrough](/guides/quests-walkthrough) | Story & side quests | Intermediate |
-| [Henki Dungeons Guide](/guides/henki-dungeons-guide) | Solo companion challenges | Advanced |
+| [Endgame & Companion Dungeons Guide](/guides/endgame-dungeons) | Endgame & solo companion challenges | Advanced |
 | [Housing Guide](/guides/housing-base-building) | Base building | Intermediate |
 | [FAQ](/faq) | Quick answers | All |
 
