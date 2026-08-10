@@ -10,7 +10,7 @@ related: ["skill-tree-overview", "beginner-guide", "nushi-boss-reference", "elem
 
 # Combat System Deep Dive — Hybrid Parry Combat Explained
 
-> Beast of Reincarnation fuses **real-time katana combat** with **command-based companion combat** — Sekiro-style parrying powering a turn-based-style command system for Koo. This guide explains every verified mechanic of the hybrid system (v1.0.6, August 2026).
+> Beast of Reincarnation fuses **real-time katana combat** with **command-based companion combat** — Sekiro-style parrying powering a turn-based-style command system for Koo. This guide explains every verified mechanic of the hybrid system (launch version, August 2026).
 
 ---
 

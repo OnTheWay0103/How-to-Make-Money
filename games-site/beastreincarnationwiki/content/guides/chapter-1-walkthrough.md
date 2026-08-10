@@ -10,7 +10,7 @@ related: ["beginner-guide", "rangifer-boss-guide", "nushi-boss-reference", "chap
 
 # Chapter 1 Walkthrough — Seedling (Ogouchi Buffer Zone)
 
-> Chapter 1 ("Seedling") is the tutorial zone of Beast of Reincarnation: a blighted forest where Emma and Koo hunt their first Nushi, **Rangifer**. Everything below is verified from launch walkthroughs (v1.0.6, August 2026). Expect 4–6 hours here on a first playthrough — it's the learning chapter, so the length is the point.
+> Chapter 1 ("Seedling") is the tutorial zone of Beast of Reincarnation: a blighted forest where Emma and Koo hunt their first Nushi, **Rangifer**. Everything below is verified from launch walkthroughs (launch version, August 2026). Expect 4–6 hours here on a first playthrough — it's the learning chapter, so the length is the point.
 
 ---
 
@@ -68,7 +68,7 @@ A bear teaches the **Perfect Dodge** — parry-adjacent timing for unblockable a
 ### 9. Blue & Yellow Keys
 
 - **Blue Key**: on a metal tower near a small lake north of the entrance.
-- **Yellow Key**: ~477m away in a northeast cave past the rice fields, guarded by an **Elite bear** — fire is its weakness, so bring Flame arrows/consumables. The cave's back room holds the **Fried Egg** recipe.
+- **Yellow Key**: in a northeast cave past the rice fields, guarded by an **Elite bear** — fire is its weakness, so bring Flame arrows/consumables. The cave's back room holds the **Fried Egg** recipe.
 
 ### 10. Flashback: Ogouchi Colony
 

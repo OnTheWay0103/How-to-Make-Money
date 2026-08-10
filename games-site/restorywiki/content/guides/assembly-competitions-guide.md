@@ -9,7 +9,6 @@ related:
   - license-guide
   - achievement-guide
   - repair-process-guide
-  - tricky-repairs-guide
 ---
 
 ## Overview
@@ -48,10 +47,10 @@ The third is the completionist entry: it's not about total wins — you need a w
 Competitions test what the [Repair Process Guide](/guides/repair-process-guide) covers: disassemble → clean → repair → reassemble, in the right order. Speed comes from knowing the sequence before the clock starts.
 
 ### Practice the Tricky Devices
-Devices that give walk-in customers trouble will give the competition the same trouble — but you have no second chances. The [Tricky Repairs Guide](/guides/tricky-repairs-guide)'s device list (Nony Goman, small-board phones, soldering jobs) is your study sheet.
+Devices that give walk-in customers trouble will give the competition the same trouble — but you have no second chances. The [Repair Process Guide](/guides/repair-process-guide)'s hardest-repairs section (Nony Goman, small-board phones, soldering jobs) is your study sheet.
 
 ### Build a Parts Library
-Competition builds need parts on hand — waiting to source components burns time. The [Marketplace Guide](/guides/marketplace-guide)'s spare-parts strategy (mystery boxes, stripping used devices) is what fills your bins before you enter.
+Competition builds need parts on hand — waiting to source components burns time. The [Money & Profit Guide](/guides/money-making-guide)'s spare-parts strategy (mystery boxes, stripping used devices) is what fills your bins before you enter.
 
 ### Prioritize Correctness Over Speed at First
 One clean, slow win beats a fast failure. Win once (Promise of Akiba), then optimize for speed once the format is familiar.

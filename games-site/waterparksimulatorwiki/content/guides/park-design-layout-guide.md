@@ -5,7 +5,7 @@ category: "Deep Dive"
 version: "1.0"
 updated: "2026-08-08"
 keywords: ["waterpark simulator layout", "waterpark simulator park design", "waterpark simulator best layout", "waterpark simulator entrance", "waterpark simulator trash can placement", "waterpark simulator path design", "waterpark simulator park planning"]
-related: ["slide-ride-tier-list", "visitor-happiness-guide", "money-making-guide", "attractions-reference"]
+related: ["slide-ride-tier-list", "visitor-happiness-guide", "money-making-guide", "beginner-guide"]
 ---
 
 # Park Design & Layout Tips — Build a Park That Runs Itself
@@ -51,7 +51,7 @@ When you place a trash can, the game shows you two things:
 
 - Face the arrow toward oncoming foot traffic
 - Place cans at every junction, slide exit, and stall queue
-- One can per ~15 meters of main path in dense areas
+- Place cans at regular intervals along busy stretches of main path
 
 This single mechanic quietly decides whether your park is always messy (outside coverage) or mostly clean (inside coverage).
 
@@ -109,4 +109,4 @@ By the late game your park should look like:
 - [Slide & Ride Tier List](/guides/slide-ride-tier-list) — what belongs in each zone
 - [Visitor Management & Happiness Guide](/guides/visitor-happiness-guide) — what layout actually fixes
 - [Money-Making Guide](/guides/money-making-guide) — why flow = revenue
-- [All Attractions Quick Reference](/guides/attractions-reference) — costs and capacity
+- [Slide & Ride Tier List & Attractions Reference](/guides/slide-ride-tier-list) — costs and capacity

@@ -5,12 +5,12 @@ category: "Reference"
 version: "1.0.6"
 updated: "2026-08-08"
 keywords: ["beast of reincarnation spirit stones", "spirit stone effects", "how to get spirit stones", "beast of reincarnation gear", "best spirit stones"]
-related: ["elemental-builds-guide", "endgame-build-guide", "combat-system-guide", "beginner-guide"]
+related: ["elemental-builds-guide", "weapons-armor-guide", "combat-system-guide", "beginner-guide"]
 ---
 
 # Spirit Stones Guide — All Stones, Effects & Farming
 
-> Spirit Stones are Beast of Reincarnation's socketable build customization — installed into Emma's weapons and armor, they shape every stat and playstyle. This is the verified stone reference (v1.0.6, August 2026).
+> Spirit Stones are Beast of Reincarnation's socketable build customization — installed into Emma's weapons and armor, they shape every stat and playstyle. This is the verified stone reference (launch version, August 2026).
 
 ---
 
@@ -18,7 +18,7 @@ related: ["elemental-builds-guide", "endgame-build-guide", "combat-system-guide"
 
 - **Sockets**: Armor provides 5–6 Spirit Stone slots (Floral Wraps = 6, Insulating Mail = 5). Weapons also take stones.
 - **Five stats** are affected: **HP, Attack, Defense, Skill Power, Critical Rate**.
-- **Stacking**: Multiple stones of the same type stack their power and unlock higher-level effects. Most stones have 3–5 effect levels.
+- **Stacking**: Multiple stones of the same type stack their power and unlock higher-level effects. Most stones have multiple effect levels.
 - **Parry Compounding**: The defining mechanic — stone bonuses **compound with each successful parry**, so stats escalate dramatically during fights. Parrying isn't just defense; it's your build's engine.
 - **Unidentified**: Strongbox stones are unidentified — their effects randomize when you rest at a campsite.
 - **Duplication**: The **Workbench** inside the Cleanse Walker duplicates owned stones (requires leveling the Calculation rank).
@@ -31,14 +31,14 @@ related: ["elemental-builds-guide", "endgame-build-guide", "combat-system-guide"
 |-------|--------|
 | **Onslaught** | Battle start: boosts Vigor (attack) |
 | **Fortification** | Battle start: boosts Fortitude (defense) |
-| **Momentum** | +5–10% ATK for Emma & Koo while Emma's HP is full |
+| **Momentum** | ATK boost for Emma & Koo while Emma's HP is full |
 | **Homing Shots** | Ranged projectiles track enemies (up to full tracking at Lv. 5) |
-| **Sharpshooter** | Weakness hits with ranged have a 20–30% chance to restore 1 FP to Koo |
+| **Sharpshooter** | Ranged weakness hits have a chance to restore FP to Koo |
 | **Florescent Recovery** | Bloom Arts restore HP over time (+6 Skill Power, +6% Crit Rate) |
 | **Entanglement Increase** | Weakness exploit has a chance to restore Entanglement Gauge + FP |
 | **Entangled Dodge** | Perfect Dodge has a chance to restore Gauge + FP |
 | **Entangled Assassination** | Executions/defeats restore significant Gauge + FP |
-| **Critical Mind** | Crit rate ×1.2–1.5 while Emma recovers HP |
+| **Critical Mind** | Raises crit rate while Emma recovers HP |
 | **Critical Damage Increase** | Boosts critical damage |
 | **Entangled Combo** | Reaching 15 combos restores Emma's Entanglement combo |
 | **Entanglement Stone** | Start fights with Gauge 3 + Koo FP 3 |
@@ -58,14 +58,14 @@ related: ["elemental-builds-guide", "endgame-build-guide", "combat-system-guide"
 | **Enemy drops** | Elites (Grizzly/Lupine Malefacts, Headless Golems) drop better stones |
 | **Strongboxes** | Unidentified — effects randomize at campsites; hidden ones are found via Koo's Detect Hidden Item |
 | **Static spawns** | A few per zone: on the ground, near Rusted Golems, inside strongboxes |
-| **Brad** | Fixed merchant with a limited selection |
+| **Fixed merchants** | Limited selection |
 | **Traveling Merchants** | Best source — the **wandering merchant on Map 3** (near the Refuse Wall Front bonfire / Volume 3 Plaza fast-travel) has the biggest lineup including the core **resonance stones** |
 
 ### Farming Tips
 
 - A **Resonance Increase stone** spawns on the field near the Daibokurin-mae fast-travel point.
 - **Floral Wraps** (6-slot armor) is in a chest near the Map 3 bonfire.
-- Equip a **Koo Charm with Amber Gain Up** — it boosts Amber farming by ~20%.
+- Equip a **Koo Charm with Amber Gain Up** — it boosts Amber gains.
 
 ---
 

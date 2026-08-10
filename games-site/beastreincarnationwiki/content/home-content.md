@@ -5,7 +5,7 @@ category: "Home"
 version: "1.0.6"
 updated: "2026-08-08"
 keywords: ["Beast of Reincarnation", "Beast of Reincarnation wiki", "Game Freak action RPG", "Nushi bosses", "Beast of Reincarnation guide", "Koo skills", "Beast of Reincarnation builds"]
-related: ["beginner-guide", "rangifer-boss-guide", "nushi-boss-reference", "weapons-armor-guide", "new-game-plus-guide", "tier-list"]
+related: ["beginner-guide", "rangifer-boss-guide", "nushi-boss-reference", "weapons-armor-guide", "endgame-post-game-guide", "tier-list"]
 ---
 
 # Beast of Reincarnation Wiki — Complete Guide Hub
@@ -14,7 +14,7 @@ related: ["beginner-guide", "rangifer-boss-guide", "nushi-boss-reference", "weap
 
 Beast of Reincarnation launched on **August 4, 2026** on PC (Steam), PS5, and Xbox Series X|S — Game Freak's first original IP, a single-player action RPG set in post-apocalyptic Japan in the year 4026. You play as **Emma the Sealer** and her companion dog **Koo**, hunting giant **Nushi** creatures, absorbing their power, and fighting toward the titular Beast of Reincarnation.
 
-This wiki covers all core systems for the launch build (v1.0.6): every verified boss, skill tree, build, combat mechanic, and secret.
+This wiki covers all core systems for the launch version: every verified boss, skill tree, build, combat mechanic, and secret.
 
 ---
 
@@ -48,14 +48,12 @@ This wiki covers all core systems for the launch build (v1.0.6): every verified 
 - [Bloom Arts & FP Guide](/guides/bloom-arts-guide) — FP economy, Full Bloom, best Arts ranked
 - [Koo Skills & Rapport Guide](/guides/koo-rapport-guide) — rapport, every Bloom Art ranked
 - [Weapons & Armor Guide](/guides/weapons-armor-guide) — best swords, armor sets, and locations
-- [Elemental Builds](/guides/elemental-builds-guide) — Shock, Poison, and Acid full loadouts
-- [Endgame Build — The Thunderwave](/guides/endgame-build-guide) — the strongest verified late-game build
+- [Elemental Builds](/guides/elemental-builds-guide) — Shock, Poison, and Acid loadouts + the endgame Thunderwave deep dive
 - [Spirit Stones Guide](/guides/spirit-stones-guide) — all stones, effects, and farming
 
 ### Going Deeper
 - [Endings Guide](/guides/endings-guide) — how many endings, what the credits unlock
-- [New Game+ Guide](/guides/new-game-plus-guide) — carry-over list, Reincarnation+, exclusives
-- [Endgame & Post-Game Guide](/guides/endgame-post-game-guide) — New Game+, Reincarnation+, Platinum
+- [Endgame & Post-Game Guide](/guides/endgame-post-game-guide) — New Game+ carry-over, Reincarnation+, trophies, farming
 - [Hidden Secrets & Collectibles](/guides/secrets-collectibles-guide) — Dragon Shrines and hidden finds
 
 ---
@@ -83,7 +81,7 @@ The story draws on Japanese Buddhist symbolism (red spider lilies, reincarnation
 
 ## Wiki Status
 
-This wiki launched on **August 8, 2026**, four days after the game's release. Content is verified against launch guides and the v1.0.6 build. Entries marked **"awaiting confirmation"** (mostly Chapters 8–13 bosses and endgame specifics) will be filled in as post-launch guides publish.
+This wiki launched on **August 8, 2026**, four days after the game's release. Content is verified against launch guides and the launch build. Entries marked **"awaiting confirmation"** (mostly Chapters 8–13 bosses and endgame specifics) will be filled in as post-launch guides publish.
 
 - [View the full guide library](/guides)
 - [Beast of Reincarnation on Steam](https://store.steampowered.com/app/2001760/Beast_of_Reincarnation/)

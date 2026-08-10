@@ -10,7 +10,7 @@ related: ["koo-rapport-guide", "combat-system-guide", "skill-tree-overview", "el
 
 # Bloom Arts Guide — FP Management, Best Arts & Combos
 
-> Bloom Arts are Koo's active combat skills — the damage half of Beast of Reincarnation's "one person, one dog" combat. The system looks simple (open menu, pick a move) but its entire depth is in **FP economy**: how you earn Florescence Points, when you spend them, and the full-FP bonus that doubles everything. This guide covers the verified mechanics of v1.0.6 (August 2026).
+> Bloom Arts are Koo's active combat skills — the damage half of Beast of Reincarnation's "one person, one dog" combat. The system looks simple (open menu, pick a move) but its entire depth is in **FP economy**: how you earn Florescence Points, when you spend them, and the full-FP bonus that amplifies everything. This guide covers the verified mechanics of the launch version (August 2026).
 
 ---
 
@@ -18,7 +18,7 @@ related: ["koo-rapport-guide", "combat-system-guide", "skill-tree-overview", "el
 
 - **FP (Florescence Points) is earned exclusively through successful parries.** Pressing the parry button (LB/L1 on controller, Q on PC) just before an attack lands negates the damage, fills FP, adds to Emma's Entanglement gauge, and triggers the weapon's on-parry effect.
 - **Mistimed guards earn nothing.** Plain blocking does not generate FP — and it drains the Entanglement gauge, eventually making you take full damage even while blocking.
-- **Full bar = Full Bloom.** Spending a **completely full** FP bar grants the **Full Bloom effect**: the Bloom Art deals **+100% damage and +50% stagger**. Dumping an Art at minimum FP wastes most of its payoff.
+- **Full bar = Full Bloom.** Spending a **completely full** FP bar grants the **Full Bloom effect**: the Bloom Art deals **bonus damage and stagger**. Dumping an Art at minimum FP wastes most of its payoff.
 - **No same Art twice in a row** — Bloom Arts have a cooldown, so you must cycle between two or three Arts in a fight.
 - **Koo's stats matter**: the **Florescence attribute** raises Koo's health and the raw Skill Power of every Bloom Art. Level Florescence before Strength or Vitality.
 
@@ -96,16 +96,16 @@ The +50% stagger from Full Bloom on Kiku: Bloom Strike frequently opens a genuin
 
 ## Advanced Notes
 
-- **Command Points (CP)**: some community guides describe a secondary command economy — perfect parries restore 1 CP (chainable), Flora Executions restore 2 CP, and the "Blight Lungs" passive grants 1 CP per 10 seconds. The relationship between CP and FP is still being mapped; treat this as **awaiting confirmation**.
+- **Command Points (CP)**: some community guides describe a secondary command economy — perfect parries restore CP (chainable), Flora Executions restore more, and the "Blight Lungs" passive grants CP over time. The relationship between CP and FP is still being mapped; treat this as **unverified**.
 - **Respec warning**: skill points spent upgrading Bloom Arts on the **top branches are NOT refunded** when you respec with Mikoto. Only upgrade the Arts you actually use.
 - **Menu canceling**: opening the tactical menu to issue a Koo command cancels Emma's heavy-attack recovery frames — a subtle tech for shaving seconds off punish windows.
-- **Aggro threshold**: if Emma deals more than ~30% of a boss's HP in under 5 seconds, the boss ignores Koo's Taunt and locks onto her — don't burst before a Taunt or you waste it.
+- **Aggro threshold**: if Emma deals a large share of a boss's HP very quickly, the boss ignores Koo's Taunt and locks onto her — don't burst before a Taunt or you waste it.
 
 ---
 
-## Awaiting Confirmation
+## Unverified
 
-- Exact FP values per parry type (normal vs. perfect) across patches.
+- Exact FP values per parry type (normal vs. perfect).
 - The CP economy (above) and any changes in the post-launch balance patches Game Freak has committed to.
 
 Related: [Combat System Deep Dive](/guides/combat-system-guide) · [Skill Tree Overview](/guides/skill-tree-overview) · [Elemental Builds](/guides/elemental-builds-guide)

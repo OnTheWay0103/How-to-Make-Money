@@ -5,12 +5,12 @@ category: "Reference"
 version: "1.0.6"
 updated: "2026-08-09"
 keywords: ["beast of reincarnation best weapons", "beast of reincarnation best armor", "best swords beast of reincarnation", "thunderwave sword location", "beast of reincarnation gear guide"]
-related: ["spirit-stones-guide", "elemental-builds-guide", "endgame-build-guide", "tier-list"]
+related: ["spirit-stones-guide", "elemental-builds-guide", "tier-list"]
 ---
 
 # Weapons & Armor Guide — Best Swords, Armor Sets & Where to Find Them
 
-> Beast of Reincarnation's swords all deal similar base damage — so **unique effects and elemental afflictions decide what's "best."** This guide covers the verified weapon and armor landscape of v1.0.6 (August 2026), where to find the top pieces, and how upgrading actually works.
+> Beast of Reincarnation's swords all deal similar base damage — so **unique effects and elemental afflictions decide what's "best."** This guide covers the verified weapon and armor landscape of the launch version (August 2026), where to find the top pieces, and how upgrading actually works.
 
 ---
 
@@ -30,10 +30,10 @@ related: ["spirit-stones-guide", "elemental-builds-guide", "endgame-build-guide"
 | Sword | Effect | Where to Get |
 |-------|--------|--------------|
 | **Thunderwave** | Each slash calls down lightning on nearby enemies (AoE Lightning buildup) | Dropped by an Elite enemy near the end of **Chapter 2** — the centerpiece of the best endgame build |
-| **Purity** | **Vampiric Blade**: recover HP equal to 5–8.5% of damage dealt for 5 seconds — the only lifesteal weapon in the game | Bought from a Merchant before the Nushi's lair in **Chapter 3** |
+| **Purity** | **Vampiric Blade**: recovers a portion of damage dealt for a short time — the only lifesteal weapon in the game | Bought from a Merchant before the Nushi's lair in **Chapter 3** |
 | **Sunrise Sword** | Each swing casts flames — slash damage plus Flame buildup | Found at the start of **Chapter 4** (near the Scorched Grasslands campsite) |
-| **Cirrus Sword** | "Clear Skies" — adds attack power to **both Emma and Koo** for 15 seconds | **Chapter 1** (Subcity 03) — a Chapter 1 weapon that stays valuable all game |
-| **Shark Cutter** | +7% critical chance for 5 seconds when attacking | **Chapter 6** — the best all-around fallback when a boss has no elemental weakness |
+| **Cirrus Sword** | "Clear Skies" — adds attack power to **both Emma and Koo** for a short time | **Chapter 1** (Subcity 03) — a Chapter 1 weapon that stays valuable all game |
+| **Shark Cutter** | Raises critical chance when attacking | **Chapter 6** — the best all-around fallback when a boss has no elemental weakness |
 
 ### A-Tier
 
@@ -54,16 +54,16 @@ related: ["spirit-stones-guide", "elemental-builds-guide", "endgame-build-guide"
 
 ## Best Armor Sets
 
-| Armor | Slots | Defense | Resistances | Awareness | Where |
-|-------|-------|---------|-------------|-----------|-------|
-| **God Tree Guard** | 6 | 59 | 80 Poison / 80 Acid | High | The **Capital** (endgame) — best survivability and slot count |
-| **Ornate Robe** | 5 | 54 | 80 Flame / 80 Lightning | **Low** | **Crater Zone** — the stealth pick |
-| **Floral Wraps** | 6 | 31 | 50 Acid | Low | Mid-game — the most balanced set |
-| **Insulating Mail** | 5 | 32 | 70 Lightning | — | Best vs. Lightning bosses (Lacerta, Corvus) |
-| **Thick Cuirass** | — | — | 60 Poison | — | Chapter 2 — the Lacerta fight set |
-| **Silk Cloth** | 4 | — | 60 Acid | Low | Early stealth armor |
-| **Chain Mail** | — | High | — | High | Chapter 1 (tower strongbox) — best early defense, but boosts awareness |
-| **Light Gambeson** | 5 | 17 | — | Low | Early game |
+| Armor | Slots | Strengths | Where |
+|-------|-------|-----------|-------|
+| **God Tree Guard** | 6 | Best survivability, high Poison/Acid resistance | The **Capital** (endgame) — best slot count and defenses |
+| **Ornate Robe** | 5 | High Flame/Lightning resistance, **low awareness** | **Crater Zone** — the stealth pick |
+| **Floral Wraps** | 6 | Balanced, Acid resistance | Mid-game — the most balanced set |
+| **Insulating Mail** | 5 | Lightning resistance | Best vs. Lightning bosses (Lacerta, Corvus) |
+| **Thick Cuirass** | — | Poison resistance | Chapter 2 — the Lacerta fight set |
+| **Silk Cloth** | 4 | Acid resistance, low awareness | Early stealth armor |
+| **Chain Mail** | — | High defense, but boosts awareness | Chapter 1 (tower strongbox) — best early defense |
+| **Light Gambeson** | 5 | Low awareness | Early game |
 
 **Choosing armor**: slots + resistances beat raw defense. A 6-slot Floral Wraps with good stones outperforms a higher-defense set with fewer sockets — this is why God Tree Guard (6 slots) is the community's endgame favorite.
 
@@ -75,7 +75,7 @@ related: ["spirit-stones-guide", "elemental-builds-guide", "endgame-build-guide"
 - **Transcendent Bloom** — massively boosts Bloom Art damage while FP is full. Pairs with the full-FP strategy.
 - **Fluorescent Recovery** — skill damage, crit, and reliable HP recovery in one stone.
 - **Onslaught / Homing Shots** — damage amp and projectile tracking; the Nue-fight staples.
-- **"Entangled" crit series** (Entangled Assassination, Counter, Riposte, Dodge, Parry) — the crit-stacking core of the endgame Thunderwave build (pushes crit toward 40–50%).
+- **"Entangled" crit series** (Entangled Assassination, Counter, Riposte, Dodge, Parry) — the crit-stacking core of the endgame Thunderwave build.
 
 ---
 
@@ -88,13 +88,13 @@ related: ["spirit-stones-guide", "elemental-builds-guide", "endgame-build-guide"
 | **Acid** | Hazebringer | Acid-resist armor | Corrosion stones | Nobudou: Burst |
 | **Beginner** | Purity (lifesteal) | Light Gambeson / Silk Cloth | Fluorescent Recovery | Higanbana: Roots for binds |
 
-Full loadouts: [Elemental Builds Guide](/guides/elemental-builds-guide) and [Endgame Thunderwave Build](/guides/endgame-build-guide).
+Full loadouts, including the endgame Thunderwave deep dive: [Elemental Builds Guide](/guides/elemental-builds-guide).
 
 ---
 
 ## Upgrading Efficiently
 
-1. **Amber** is the upgrade currency — farm it from Elites (Grizzly/Lupine Malefacts, Headless Golems) and strongboxes, and equip a Koo Charm with **Amber Gain Up** (+~20%).
+1. **Amber** is the upgrade currency — farm it from Elites (Grizzly/Lupine Malefacts, Headless Golems) and strongboxes, and equip a Koo Charm with **Amber Gain Up**.
 2. **Research the Cleanse Walker** whenever a cap appears — weapon upgrade caps are gated by the Walker's research tier.
 3. **Don't over-invest early**: swords get replaced every 1–2 chapters until the S-tier weapons appear. +1 to +2 is enough until Chapter 3; save Amber for Purity, Thunderwave, and the Sunrise Sword.
 4. **Match elements, then level**: a +2 weapon of the right element beats a +4 weapon of the wrong one against a Nushi.
@@ -103,7 +103,7 @@ Full loadouts: [Elemental Builds Guide](/guides/elemental-builds-guide) and [End
 
 ## Awaiting Confirmation
 
-- Full list of post-launch weapons added in the v1.0.6 Deluxe patch and later updates.
+- Full list of post-launch weapons added in the Deluxe upgrade and later updates.
 - Exact awareness values and stealth bonuses for each armor set (current numbers are from launch guides).
 
 Check the [Tier List](/guides/tier-list) for ranked Nushi drops and the [Spirit Stones Guide](/guides/spirit-stones-guide) for the complete stone reference.

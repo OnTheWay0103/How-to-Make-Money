@@ -10,7 +10,7 @@ related: ["nushi-boss-reference", "chapter-progression-guide", "combat-system-gu
 
 # Corvus Boss Guide — How to Beat the Crow Nushi
 
-> Corvus is the crow-like Nushi of Chapter 7 ("Root Rot") in the Giant Tree Zone — and the fight is actually **two bosses back-to-back**: a Lv. 38 Corvus on Line 0, then a tougher Lv. 41 Corvus on Line 1 with two phases (v1.0.6, August 2026).
+> Corvus is the crow-like Nushi of Chapter 7 ("Root Rot") in the Giant Tree Zone — and the fight is actually **two bosses back-to-back**: a Lv. 38 Corvus on Line 0, then a tougher Lv. 41 Corvus on Line 1 with two phases (launch version, August 2026).
 
 ---
 
@@ -47,7 +47,7 @@ Both function essentially the same way; the second is tougher — higher level, 
 | **Peck dive / lunge** | Dodge or parry | Pulls its head back and dives — dodge-roll sideways or parry |
 | **Claw stab / talon combo** | Parryable | Three consecutive claw stabs — **the best parry opportunity in the fight**, refilling Koo's FP. Watch out: terrain can make parry timing tricky |
 | **Acid globes** | Unblockable | Glows red, spreads its wings, launches three acid globes — dodge, jump, or grapple away |
-| **Acid mines** | Unblockable | Glows red, plants talons on the ground, and acid bombs appear around it, exploding after ~3 seconds — sprint or dodge out of the blast radius |
+| **Acid mines** | Unblockable | Glows red, plants talons on the ground, and acid bombs appear around it, exploding shortly after being planted — sprint or dodge out of the blast radius |
 | **Dive Bomb** (second fight only) | Unblockable | Soars high, glows red, then dives — parry or dodge-roll sideways |
 | **Flying summons** (second fight only) | Adds | Summons smaller corvid Malefacts — take them out quickly with the bow before refocusing on the boss |
 

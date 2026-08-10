@@ -3,7 +3,7 @@ title: "Reconnaissance & Intelligence Guide — Star Shells, Recon Planes & Spot
 description: "How battlefield intelligence works in IRON NEST: star shells, recon planes, spotter reports, teleprinter channels, the weather station module, and MOA corrections that turn vague intel into firing solutions."
 category: "Targeting"
 version: "1.0"
-updated: "2026-08-08"
+updated: "2026-08-11"
 keywords:
   - "iron nest reconnaissance"
   - "iron nest star shells"
@@ -14,7 +14,7 @@ keywords:
 related:
   - "target-spotting-guide"
   - "shell-types-ammo-guide"
-  - "missions-objectives-guide"
+  - "story-walkthrough-guide"
   - "ballistic-calculator-guide"
 ---
 

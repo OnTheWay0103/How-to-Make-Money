@@ -6,7 +6,6 @@ category: Advanced
 version: '1.0.0'
 updated: '2026-08-09'
 related:
-  - story-choices-guide
   - walkthrough-guide
   - beginner-guide
   - achievement-guide
@@ -58,11 +57,11 @@ The game's branching narrative means the same customer can end in very different
 - **The lovestruck student** — help him confess, or let his crush stay oblivious.
 - **The kid's request** — refuse payment to earn the **Origami** achievement and the character's gratitude.
 
-There is no "perfect" answer per community reports — different choices lead to different endings, and the game rewards replays. Full details in the [Story, Choices & Endings Guide](/guides/story-choices-guide).
+There is no "perfect" answer per community reports — different choices lead to different endings, and the game rewards replays. Full details in the [Story Walkthrough](/guides/walkthrough-guide).
 
 ---
 
-## Community-Reported Names (待验证)
+## Community-Reported Names (Unverified)
 
 The following names have circulated in community discussion of the cast, but their exact roles have **not been verified** against the launch build:
 
@@ -96,7 +95,6 @@ The following names have circulated in community discussion of the cast, but the
 
 ## Related Guides
 
-- [Story, Choices & Endings Guide](/guides/story-choices-guide) — the branching system behind every character
-- [Story Walkthrough](/guides/walkthrough-guide) — the campaign from day one to the credits
-- [Achievement Guide](/guides/achievement-guide) — character-driven achievements like Origami
-- [Easter Eggs Guide](/guides/easter-eggs-guide) — the references hidden in the cast
+- [Story Walkthrough](/guides/walkthrough-guide) — the campaign from day one to the credits, and the branching system behind every character
+- [Achievement Guide](/guides/achievement-guide) — character-driven achievements like Origami, plus the references hidden in the cast
+- [Beginner Guide](/guides/beginner-guide) — first meetings with the regulars

@@ -3,7 +3,7 @@ title: "Story & Lore — The Civil War Explained — Iron Nest Wiki"
 description: "IRON NEST story and lore explained: the alternate-history late-1920s Spanish civil war, the 5,000-ton walking turret, High Command and the moral choices that branch the story, the developers, and how the game got made."
 category: "Lore"
 version: "1.0"
-updated: "2026-08-09"
+updated: "2026-08-11"
 keywords:
   - "iron nest story"
   - "iron nest lore"
@@ -13,13 +13,13 @@ keywords:
   - "iron nest history"
 related:
   - "beginner-guide"
-  - "missions-objectives-guide"
+  - "story-walkthrough-guide"
   - "enemy-types-guide"
 ---
 
 # Story & Lore — The Civil War Explained
 
-> Launch Version / Updated: August 9, 2026
+> Launch Version / Updated: August 11, 2026
 
 IRON NEST is more than a ballistics sim — it drops you inside a civil war that never happened, in a decade where the machine you command should not exist. This guide covers the setting, the machine, the factions, the moral choices the campaign hands you, and the story of the game itself.
 
@@ -44,7 +44,7 @@ The machine is the third character in every mission. Its hydraulic lines, genera
 
 ## High Command and the Moral Choice System
 
-The campaign is framed by **High Command** — the teleprinter voice that dictates objectives, ordnance and patience. Reviewers at launch reported a genuinely unusual mechanic: **you can obey or defy High Command's orders**, and the choices branch the story.
+The campaign is framed by **High Command** — the teleprinter voice that dictates objectives, ordnance and patience. Launch reviewers and community reports describe a genuinely unusual mechanic: **you can obey or defy High Command's orders**, and the choices branch the story.
 
 - **Obey** — follow the dictated ordnance and targets; the campaign proceeds along High Command's plan.
 - **Defy** — refuse an objective or use your own judgment on the target selection; expect consequences in the story and the mission structure.
@@ -61,14 +61,14 @@ The community has not yet fully mapped the war's factions — the game deliberat
 
 ## The Story of the Game
 
-IRON NEST was built by a **two-person team: Nick Nieuwoudt (Talmers) and Dominik Latos**, and launched on **Steam on August 6, 2026**.
+IRON NEST was built by a **two-person team: Nick Nieuwoudt and Dominik Latos**, and launched on **Steam on August 6, 2026**.
 
 | Milestone | Detail |
 |---|---|
-| **The demo** | Free on Steam; rated **Overwhelmingly Positive (~99%)**; the most-played demo runner-up at its Steam Next Fest; Kotaku called it "easily one of the best demos I have ever played" |
-| **The launch** | ~843K wishlists heading into release (community-reported figure); ~16,951 peak concurrent players shortly after launch with a ~98.6% positive review rate |
+| **The demo** | Free on Steam; rated **Overwhelmingly Positive**; ranked #2 in Steam Next Fest's Most Played 50 Demos; Kotaku called it one of the best Steam Next Fest demos |
+| **The launch** | Over 150,000 copies sold within the first day, a peak of over 17,000 concurrent players on launch weekend, and an Overwhelmingly Positive review rating (per press coverage) |
 | **The lineage** | The developers credit **PVKK: Planetenverteidigungskanonenkommandant** as a major inspiration — Iron Nest takes the manual-cannon concept into a ground-based, dieselpunk battlefield with a far larger map-plotting and counter-battery layer |
-| **The content** | 15 regions, 100+ medals, 150 achievements, 30 advertised ammo types/abilities, two leaderboard challenge modes, newspaper reports and a **customizable cat companion** living in the turret |
+| **The content** | 15 regions, 100+ medals, 33 Steam achievements, 30 advertised ammo types/abilities, two leaderboard challenge modes, newspaper reports and a **customizable cat companion** living in the turret |
 
 ## Why the Lore Matters to Your Gameplay
 
@@ -79,4 +79,4 @@ The fiction is load-bearing: every mechanic is justified by it, and reading the 
 - **Moral choices** are, mechanically, choices about which objectives to take and which ordnance to use — defiance is a playstyle, not just a story toggle.
 - The **cat** is non-negotiable. Pet it between salvos. It is the only crew member who never complains about the hydraulic pressure.
 
-**Next steps:** [Missions & Objectives](/guides/missions-objectives-guide) — [Enemy Types & Weak Points](/guides/enemy-types-guide) — [Beginner Guide](/guides/beginner-guide)
+**Next steps:** [Story Mode Walkthrough](/guides/story-walkthrough-guide) — [Enemy Types & Weak Points](/guides/enemy-types-guide) — [Beginner Guide](/guides/beginner-guide)

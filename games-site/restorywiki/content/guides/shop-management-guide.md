@@ -7,7 +7,6 @@ version: '1.0.0'
 updated: '2026-08-09'
 related:
   - money-making-guide
-  - marketplace-guide
   - tool-equipment-guide
   - beginner-guide
 ---
@@ -110,7 +109,7 @@ The full catalog with prices is in the [Tools & Equipment Catalog](/guides/tool-
 
 ## Zen Points: The Hidden Business Stat
 
-Shop decoration isn't just cosmetic — **Zen points from decorations attract customers** (community-confirmed). The 17 decorations each grant Zen (Ghostbusters figure +9, Kaiju +8, Prism Night Light +8, Bonsai +7, Stormtrooper Helmet +7, down to VHS tape +2). Keep the shop tidy, hit 100+ Zen, and you unlock the **A Place of Zen** achievement while your foot traffic improves.
+Shop decoration isn't just cosmetic — **Zen points from decorations attract customers** (community-confirmed). Each decoration grants Zen points; keep the shop tidy, hit 100+ Zen, and you unlock the **A Place of Zen** achievement while your foot traffic improves. Full point values are in the [Achievement Guide](/guides/achievement-guide).
 
 ---
 
@@ -126,7 +125,6 @@ Shop decoration isn't just cosmetic — **Zen points from decorations attract cu
 
 ## Related Guides
 
-- [Money & Profit Guide](/guides/money-making-guide) — the profit strategy stack behind this workflow
-- [Online Orders & Marketplace](/guides/marketplace-guide) — queue and marketplace mechanics in depth
+- [Money & Profit Guide](/guides/money-making-guide) — the profit strategy stack, online orders and marketplace mechanics in depth
 - [Tools & Equipment Catalog](/guides/tool-equipment-guide) — every purchase with prices
 - [Beginner Guide](/guides/beginner-guide) — the core loop this management layer sits on

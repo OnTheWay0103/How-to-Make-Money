@@ -3,7 +3,7 @@ title: "All Stations Explained — Every Console in the Turret — Iron Nest Wik
 description: "Every station inside the IRON NEST turret explained in depth: the two teleprinters, tactical map table, ballistic calculator, requisition station, loading platform, elevation and rotation controls and the trigger station — with workflows and common mistakes."
 category: "Reference"
 version: "1.0"
-updated: "2026-08-09"
+updated: "2026-08-11"
 keywords:
   - "iron nest stations"
   - "iron nest consoles"
@@ -21,7 +21,7 @@ related:
 
 # All Stations Explained — Every Console in the Turret
 
-> Launch Version / Updated: August 9, 2026
+> Launch Version / Updated: August 11, 2026
 
 IRON NEST is a one-operator machine: you, alone, walk between the physical stations bolted into the turret. There is no crew menu, no skill tree of officers — the "crew" is the work you do at each station, in sequence, every single engagement. This guide goes station by station: what each console does, the exact workflow at it, and the mistakes that cost operators time and missions.
 
@@ -129,7 +129,7 @@ The payoff. Each gun arms separately:
 3. **Flip all five switches.**
 4. **Pull the large central cord.**
 
-The machine shudders, the barrel heats, and the wait begins — shells take up to ~20 seconds of flight at extreme range, so confirmation arrives via radio, map skull tokens and objective updates, never by eye. A **red skull** is a kill; a **blue skull** is a friendly hit.
+The machine shudders, the barrel heats, and the wait begins — shells can take a long time in flight at extreme range, so confirmation arrives via radio, map skull tokens and objective updates, never by eye. A **red skull** is a kill; a **blue skull** is a friendly hit.
 
 ---
 

@@ -35,7 +35,7 @@ Before the numbers, the genre question: **does Nivalis Nights even have an "end"
 The game's own marketing says "every day is a choice" — that's the language of open-ended simulation, not a campaign. The confirmed systems include:
 
 - Seven business types to grow (see the [Best Business Guide](/guides/best-business-guide))
-- 100+ voiced NPCs (135 by some counts) with schedules and stories
+- 135 voiced NPCs with schedules and stories
 - A dynamic economy that reacts to you — competitors, price swings, black-market trading
 - Weather and day-night cycles that keep changing the game state
 - Fishing, boating, chess, apartment customization, romance
@@ -67,13 +67,9 @@ The genre's established games give the honest range for a "build your life in a 
 
 Nivalis Nights sits in the overlap of two genre clusters: the business-management sim (Two Point, 40-60h campaigns) and the relationship-rich life sim (Stardew-likes, 60-100h+). A game with **both** seven business types and 135 NPCs is structurally closer to the upper end.
 
-### Unverified Third-Party Data
+### Third-Party Playtime Data — Not Yet Reliable
 
-One third-party games database lists playtime data for the game under its working title (*Nivalis*): an **average of roughly 47 hours**, with 23% of players reporting **100+ hours**, and a completionist estimate of **50+ hours**. **Treat this with real skepticism:**
-
-- The game has not released; this data cannot come from real play sessions.
-- It's almost certainly modeled/scraped data or placeholder content, not verified community input.
-- It's directionally plausible (it aligns with genre norms) but should not be quoted as fact.
+Some third-party games databases list playtime figures for the game under its working title (*Nivalis*). We're not quoting those numbers: the game has not released, so any such data cannot come from real play sessions and is not verified community input. It may be directionally plausible (it aligns with genre norms), but it should not be treated as fact.
 
 We'll cite real, verified playtime data from HowLongToBeat and the community after launch instead.
 
@@ -126,13 +122,13 @@ If you're the kind of player who asks "how long to beat" before buying — the a
 The official premise includes a story layer — the district "pushed to the brink by CorpSec crackdowns and a mysterious serial killer," your inheritance from the retiring cook Thaddeus Carmunis — but the game is framed as open-ended ("every day is a choice"). Expect personal arcs and milestones rather than a credits-roll campaign. Whether there's a traditional "ending" will be confirmed at launch.
 
 ### Is 100 hours realistic?
-For completionist play, yes — comfortably. 135 NPCs alone is a 50+ hour social commitment, and that's before the seven business types, fishing catalog, chess scene, customization collection, and hidden locations. The "100+ hours" claims floating around third-party sites are unverified, but the confirmed scope supports the territory.
+For completionist play, yes — comfortably. 135 NPCs alone is a 50+ hour social commitment, and that's before the seven business types, fishing catalog, chess scene, customization collection, and hidden locations. Third-party playtime claims are unverified, but the confirmed scope supports the territory.
 
 ### Is Nivalis Nights longer than Cloudpunk?
 Yes — structurally and dramatically. Cloudpunk is a 10-12 hour narrative night; Nivalis Nights is a life sim with ongoing systems. Comparing them is like comparing a movie to the TV series of the same world — the series is the longer commitment.
 
 ### Can I play it in short sessions?
-Yes, and the design invites it. Days are discrete units (see the [Day & Night Cycle Guide](/guides/day-night-cycle-guide)) — a day or two per session is a natural unit, making the game friendly to 30-60 minute sessions.
+Yes, and the design invites it. Days are discrete units (see the [Day & Night Cycle & Weather Guide](/guides/day-night-cycle-guide)) — a day or two per session is a natural unit, making the game friendly to 30-60 minute sessions.
 
 ### When will you have real numbers?
 Within 2-3 weeks of launch (September 29, 2026), once the community has actual playthrough data. We'll publish verified playtimes, plus completionist checklists based on real content, in a post-launch update of this guide.

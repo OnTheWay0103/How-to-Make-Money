@@ -50,7 +50,7 @@ It's a comedy-tinged management sim with physics-driven ragdoll chaos: guests sl
 
 ## Get the Game
 
-Waterpark Simulator costs **$12.99** on Steam — CayPlay confirmed the price will not rise to the originally planned $19.99.
+Waterpark Simulator costs **$12.99** on Steam (per the store listing), with no price increase at the 1.0 launch.
 
 [View Waterpark Simulator on Steam](https://store.steampowered.com/app/3293260/Waterpark_Simulator/)
 

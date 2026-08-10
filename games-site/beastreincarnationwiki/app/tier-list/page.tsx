@@ -14,15 +14,16 @@ const TIERS = [
   { tier: 'A', bosses: ['Rangifer (Lv. 12)'], note: 'The tutorial Nushi teaches you every core boss skill: parry timing, unblockable tells, and element matching. Drops Sakura Storm and Sakura: Javelin.' },
   { tier: 'B', bosses: ['Lacerta (Lv. 16)'], note: 'Slow + Poison status pressure and a 50% HP rage phase. Straightforward once Koo carries the Antidote.' },
   { tier: 'B', bosses: ['Nue Malefact (Lv. 16)'], note: 'Fought up to four times across Chapters 1–3. Punishes poor parry discipline with unblockable lightning — poison makes it trivial.' },
+  { tier: 'B', bosses: ['Kunai & Kirin (Ch. 8 / 12)'], note: 'The twin fight: parry the melee half, dodge the ranged half — Kirin\'s attacks are never parryable. Both share a Poison weakness. Exact levels and drops are still awaiting confirmation.' },
   { tier: 'C', bosses: ['Door Golem'], note: 'Chapter 1 miniboss-gate that rewards the Zangetsu Bow. A warm-up, not a wall.' },
-  { tier: 'Pending', bosses: ['Ursa', 'Erymanth', 'Shidou & Nue', 'Kunai & Kirin', "Koo's Nushi form", 'Beast of Reincarnation'], note: 'Confirmed to exist in the story, but detailed patterns, weaknesses, and levels are awaiting confirmation from post-launch guides.' },
+  { tier: 'Pending', bosses: ['Ursa', 'Erymanth', 'Shidou & Nue', "Koo's Nushi form", 'Beast of Reincarnation'], note: 'Confirmed to exist in the story, but detailed patterns, weaknesses, and levels are awaiting confirmation from post-launch guides.' },
 ];
 
 export default function TierListPage() {
   return (
     <div className="max-w-3xl mx-auto px-4 py-12">
       <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">Nushi Boss Tier List</h1>
-      <p className="text-gray-400 mb-2">Beast of Reincarnation boss rankings — launch build, version 1.0.6 (August 8, 2026).</p>
+      <p className="text-gray-400 mb-2">Beast of Reincarnation boss rankings — launch build (August 8, 2026).</p>
       <div className="inline-flex items-center gap-1 text-xs font-medium px-2 py-0.5 rounded bg-amber-900/30 text-amber-400 border border-amber-800/50 mb-8">Updated August 2026 — will be revised as post-launch guides verify later bosses</div>
 
       {TIERS.map((row) => (
@@ -51,7 +52,7 @@ export default function TierListPage() {
           loot value (Nushi Skills, story unlocks). Every Nushi is fought at least twice — rematches add a
           second phase with a fully restored health bar, so treat the first emptied bar as the halfway point.
           This list is versioned: it will be updated as post-launch guides verify Ursa, Erymanth, and the
-          later paired fights.
+          remaining paired fights.
         </p>
       </div>
     </div>

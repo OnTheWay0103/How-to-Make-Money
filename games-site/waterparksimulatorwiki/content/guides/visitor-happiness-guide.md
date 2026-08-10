@@ -30,7 +30,7 @@ Last updated August 8, 2026 (1.0).
 
 | Guest | How to Spot | Danger | Response |
 |-------|-------------|--------|----------|
-| **Ticket cheater** | No bracelet on wrist | Zero revenue from them, and they model bad behavior | Right-click push them out (~$30 reward) or boxing glove at the front desk |
+| **Ticket cheater** | No bracelet on wrist | Zero revenue from them, and they model bad behavior | Right-click push them out (cash reward) or boxing glove at the front desk |
 | **Drunk** | Green bubbles, staggering | Vandalism, fights, bad vibes | Push out at the street before they enter |
 | **Vandal** | Spray can in hand | Graffiti everywhere — happiness drain | Push out; clean graffiti for bonus research points |
 | **Pervert** | Camera in hand | Harassment, mood drain | Push out immediately |

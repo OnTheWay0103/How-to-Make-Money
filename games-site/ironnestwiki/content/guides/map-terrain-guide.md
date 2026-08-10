@@ -3,7 +3,7 @@ title: "Regions, Terrain & Map Strategy — Iron Nest Wiki"
 description: "IRON NEST terrain strategy: the 15 campaign regions, how terrain features (roads, rivers, valleys, ridges, coastlines) shape where enemies deploy, the Gorge's ridge-arc trick, and per-terrain targeting tactics."
 category: "Map"
 version: "1.0"
-updated: "2026-08-09"
+updated: "2026-08-11"
 keywords:
   - "iron nest regions"
   - "iron nest terrain"
@@ -14,13 +14,13 @@ keywords:
 related:
   - "map-measurements-guide"
   - "target-spotting-guide"
-  - "missions-objectives-guide"
+  - "story-walkthrough-guide"
   - "reconnaissance-guide"
 ---
 
 # Regions, Terrain & Map Strategy
 
-> Launch Version / Updated: August 9, 2026
+> Launch Version / Updated: August 11, 2026
 
 The campaign runs across **15 regions** of an alternate-history late-1920s Spain, and terrain is not decoration — it decides where targets deploy, how your shells behave, and which solutions work. The game's maps mark roads, rivers and forests, and the community has mapped the campaign's named battlefields. This guide covers the terrain types, how to read a map for enemy habits, and region-specific tactics. **Enemy deployment habits are community-reported** — they are reliable rules of thumb, not game mechanics you can verify on screen.
 
@@ -65,7 +65,7 @@ The community-named Gorge mission is a river canyon fight where the flanking rid
 
 ## Terrain in the Firing Solution
 
-- **Ridges = elevation corrections.** If recon imagery shows intervening high ground, add the heavy-shell drop/arc corrections from the [advanced ballistics guide](/guides/advanced-ballistics-guide).
+- **Ridges = elevation corrections.** If recon imagery shows intervening high ground, add the heavy-shell drop/arc corrections from the [ballistic calculator guide](/guides/ballistic-calculator-guide).
 - **Water = reliability.** Shots over flat water have minimal wind turbulence — coastal missions are where your most precise, most *trustworthy* shots happen.
 - **Forest = error margin.** Concealed targets get vague reports; use the "shoot the box" method from the [target-spotting guide](/guides/target-spotting-guide) and the star-shell reveal before spending expensive shells.
 - **City blocks = friendly-fire risk.** HCHE's 0.63 km radius does not care about your allies' morale — check the Iris blast-radius visualization before every cluster shot in built-up regions.
@@ -76,6 +76,6 @@ The community-named Gorge mission is a river canyon fight where the flanking rid
 - [ ] Road and valley routes traced — convoy interception points marked
 - [ ] Ridge lines checked for likely bunker positions
 - [ ] River/coast references noted for correction calls
-- [ ] Weather readout checked (see [advanced ballistics](/guides/advanced-ballistics-guide))
+- [ ] Weather readout checked (see the [ballistic calculator guide](/guides/ballistic-calculator-guide))
 
-**Next steps:** [Tactical Map & Measurements](/guides/map-measurements-guide) — [How to Find Targets](/guides/target-spotting-guide) — [Missions & Objectives](/guides/missions-objectives-guide)
+**Next steps:** [Tactical Map & Measurements](/guides/map-measurements-guide) — [How to Find Targets](/guides/target-spotting-guide) — [Story Mode Walkthrough](/guides/story-walkthrough-guide)

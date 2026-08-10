@@ -1,6 +1,6 @@
 ---
 title: "Beast of Reincarnation Tier List — All Nushi Bosses Ranked"
-description: "Beast of Reincarnation tier list ranking every verified Nushi and Malefact boss by difficulty and loot value, plus a tier list of the best skills and builds. Version 1.0.6, August 2026."
+description: "Beast of Reincarnation tier list ranking every verified Nushi and Malefact boss by difficulty and loot value, plus a tier list of the best skills and builds. Launch version, August 2026."
 category: "Reference"
 version: "1.0.6"
 updated: "2026-08-08"
@@ -8,9 +8,9 @@ keywords: ["beast of reincarnation tier list", "beast of reincarnation boss tier
 related: ["nushi-boss-reference", "skill-tree-overview", "combat-system-guide", "chapter-progression-guide"]
 ---
 
-# Beast of Reincarnation Tier List (Version 1.0.6 — August 8, 2026)
+# Beast of Reincarnation Tier List (Launch Version — August 8, 2026)
 
-> Versioned tier list. Last verified against the launch build (v1.0.6) on August 8, 2026. Will be revised as post-launch guides verify the late-game bosses.
+> Versioned tier list. Last verified against the launch build on August 8, 2026. Will be revised as post-launch guides verify the late-game bosses.
 
 Beast of Reincarnation is Game Freak's single-player action RPG where you hunt giant **Nushi** creatures, absorb their power, and unlock new skills. This tier list ranks every verified boss by **difficulty** and **loot value**, then ranks the **best early skills** and **best builds** for the launch patch.
 
@@ -26,7 +26,7 @@ Every Nushi is fought at least twice — rematches add a second phase with a **f
 | **S** | Taurus (Lv. 29) | 4 — Stems | Acid | Nonstop offense: unblockable stomps, horn swipes, ground thorns, tail thorns. Drops Taurean Memories → Charging Botan. |
 | **A** | Nue Malefact + Male Purifier (Lv. 20) | 3 — The Vessel | Poison | The paired fight is the first real wall. They take turns, so focus one at a time. |
 | **A** | Rangifer (Lv. 12) | 1 — Seedling | Flame | The tutorial Nushi teaches every core boss skill. Drops Sakura Storm and Sakura: Javelin. |
-| **B** | Lacerta (Lv. 16) | 2 — Creeping Tendrils | — | Slow + Poison status pressure, plus a 50% HP rage phase. Manageable with Antidote. |
+| **B** | Lacerta (Lv. 16) | 2 — Creeping Tendrils | Shock | Slow + Poison status pressure, plus a 50% HP rage phase. Manageable with Antidote. |
 | **B** | Nue Malefact (Lv. 16) | 1–3 | Poison | Fought up to four times. Punishes poor parry discipline with unblockable lightning. |
 | **C** | Door Golem | 1 — Seedling | — | A gatekeeper miniboss that rewards the Zangetsu Bow. Warm-up difficulty. |
 | **Pending** | Ursa, Erymanth, Shidou & Nue, Kunai & Kirin, Koo's Nushi form, Beast of Reincarnation | 8–13 | — | Confirmed to exist in the story; patterns and weaknesses awaiting confirmation from post-launch guides. |
@@ -46,7 +46,7 @@ Shared skill points mean early picks matter — respecs need purification items.
 
 | Tier | Skill | Owner | Why |
 |------|-------|-------|-----|
-| **S** | Recovery Effect Boost | Emma | Up to +42.5% healing from all sources. Healing is scarce early — this is the single best early buy. |
+| **S** | Recovery Effect Boost | Emma | Significantly boosts healing from all sources. Healing is scarce early — this is the single best early buy. |
 | **S** | Roll | Emma | The emergency dodge for unblockable red-light attacks. Take it before any boss. |
 | **A** | Detect Hidden Item | Koo (Pounce 2+) | Alerts you to seeds, strongboxes, and secrets — pays for itself in materials. |
 | **A** | Status Effect Amp | Koo (Incantation) | Statuses build twice as fast — the core of every elemental build. |
@@ -75,4 +75,4 @@ Full loadouts for the Shock, Poison, and Acid builds are in the [Elemental Build
 
 ## Versioning Note
 
-This tier list was verified on **August 8, 2026** against build **v1.0.6**. Game Freak has announced it will "rework and patch" the game following mixed launch reviews, so expect balance changes — this page will be updated to track them.
+This tier list was verified on **August 8, 2026** against the launch build. Game Freak has announced it will "rework and patch" the game following mixed launch reviews, so expect balance changes — this page will be updated to track them.

@@ -6,7 +6,7 @@ version: "Pre-release"
 updated: "2026-08-07"
 date: "2026-08-07"
 keywords: ["nivalis nights apartment customization", "nivalis nights apartment decorating", "nivalis nights furniture", "nivalis nights buy apartment", "nivalis nights home upgrade"]
-related: ["npc-relationships-guide", "beginner-guide", "money-making-guide"]
+related: ["npc-relationships-guide", "beginner-guide", "best-business-guide"]
 ---
 
 # Apartment Customization Guide — Decorating, Upgrades & Location Choices in Nivalis Nights
@@ -40,7 +40,7 @@ Location matters in Nivalis Nights. Key considerations when buying:
 Time is money. Living near your main venue means shorter commutes, easier rush-hour coverage, and more time for everything else. In the early game, the **Meridian Market** area — home of your inherited noodle bar — is the practical choice.
 
 ### Neighborhood Economy & Safety
-Different districts have different economies — and different levels of Corps presence. Some areas are quieter and pricier; some are rougher but cheaper. If you trade on the black market, your home neighborhood's security posture matters in ways you'll feel later.
+Different districts have different economies — and different levels of CorpSec presence. Some areas are quieter and pricier; some are rougher but cheaper. If you trade on the black market, your home neighborhood's security posture matters in ways you'll feel later.
 
 ### Ambition Alignment
 Your home should match your goals:

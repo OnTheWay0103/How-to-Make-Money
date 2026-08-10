@@ -11,7 +11,7 @@ related: ["release-date-guide", "city-districts-guide", "transportation-guide", 
 
 # Nivalis Nights vs Cloudpunk — Same City, Very Different Game
 
-If you played *Cloudpunk* — ION LANDS' beloved neon-noir delivery adventure — you already know the city of Nivalis. The rain. The voxel glow. The skylanes over the canyon streets. Nivalis Nights returns to that city, and Cloudpunk fans are the biggest audience the new game has: roughly 932,000 Steam wishlists, many of them from players who flew Rania's HOVA through the same rain.
+If you played *Cloudpunk* — ION LANDS' beloved neon-noir delivery adventure — you already know the city of Nivalis. The rain. The voxel glow. The skylanes over the canyon streets. Nivalis Nights returns to that city, and Cloudpunk fans are the biggest audience the new game has — one of the most-wishlisted upcoming games on Steam, many of those wishlists from players who flew Rania's HOVA through the same rain.
 
 But here's the honest headline: **Nivalis Nights is not Cloudpunk 2.** It's a different genre set in the same universe — a life simulation where you live in the city instead of delivering across it. This guide compares the two games system by system, so series fans know exactly what's familiar, what's new, and what to expect.
 
@@ -42,7 +42,7 @@ This is the most important continuity. Nivalis Nights is set in the same rain-so
 The flying hovercar is the icon of the franchise, and it carries over. In Cloudpunk, the HOVA was the whole game — skylanes, fuel stops, repair bills, parking discipline, and a full upgrade path (speed, durability, cosmetics). In Nivalis Nights, a **personal HOVA is confirmed as a travel option** — a purchase goal that grants the same vertical freedom. The [Transportation Guide](/guides/transportation-guide) covers what Cloudpunk's HOVA mechanics tell us about the new game's implementation.
 
 ### The Weather and the Night
-Cloudpunk's defining aesthetic was rain-soaked night flight. Nivalis Nights keeps the atmosphere but makes it systemic: a **realistic weather system** (sunshine, rain, snow, fog, thunderstorms) with gameplay effects on traffic and energy prices, and a **day-night cycle** with the famous 2 AM curfew. See the [Weather Guide](/guides/weather-guide) and [Day & Night Cycle Guide](/guides/day-night-cycle-guide).
+Cloudpunk's defining aesthetic was rain-soaked night flight. Nivalis Nights keeps the atmosphere but makes it systemic: a **realistic weather system** (sunshine, rain, snow, fog, thunderstorms) with gameplay effects on traffic and energy prices, and a **day-night cycle** with the famous 2 AM curfew. See the [Day & Night Cycle & Weather Guide](/guides/day-night-cycle-guide).
 
 ### The Lore
 The universe's deep history carries over: the CorpSec security presence, the city's corporate power structure, the AI entities that shaped Nivalis, and the ocean's darker depths — community coverage of Nivalis Nights already references "ancient, God-like AIs dreaming dark dreams" beneath the waves, squarely in Cloudpunk's CORA lineage.
@@ -53,7 +53,7 @@ The universe's deep history carries over: the CorpSec security presence, the cit
 Cloudpunk's loop was simple and cinematic: take a package, fly across the city, have conversations that revealed the story. Nivalis Nights replaces that loop with simulation:
 
 - **Business management** — seven business types from noodle bar to nightclub, with menu design, pricing, staffing, and inventory (see the [Best Business Guide](/guides/best-business-guide)).
-- **Economy** — a dynamic, neighborhood-by-neighborhood market with a daily newspaper, arbitrage, and a black-market energy trade (see the [Money-Making Guide](/guides/money-making-guide)).
+- **Economy** — a dynamic, neighborhood-by-neighborhood market with a daily newspaper, arbitrage, and a black-market energy trade (see the [Best Business Guide](/guides/best-business-guide)).
 - **Living systems** — apartment customization, fishing, chess, and relationships with 135 voiced citizens, each on their own schedule.
 
 Cloudpunk fans should expect a much slower, denser rhythm. The question "what do I do next?" has dozens of answers at any moment — that's the point.
@@ -73,8 +73,8 @@ This is confirmed and important: **Nivalis Nights is first-person.** ION LANDS h
 ### Conflict: Flight Hazards vs. Sabotage and the Black Market
 Cloudpunk's tension was driving — fuel, damage, AI traffic that doesn't yield. Nivalis Nights translates that tension into economic risk:
 
-- **The black-market energy trade** — the Corps police it, and fines escalate (see the [Money-Making Guide](/guides/money-making-guide)).
-- **Rival sabotage** — under cover of the 2 AM curfew, you can sabotage competing businesses while avoiding security systems (see the [Day & Night Cycle Guide](/guides/day-night-cycle-guide)).
+- **The black-market energy trade** — CorpSec polices it, and fines escalate (see the [Best Business Guide](/guides/best-business-guide)).
+- **Rival sabotage** — under cover of the 2 AM curfew, you can sabotage competing businesses while avoiding security systems (see the [Day & Night Cycle & Weather Guide](/guides/day-night-cycle-guide)).
 - **A serial-killer plot** — the official premise introduces a crime story Cloudpunk never had at street level.
 
 ## Characters — Who Carries Over
@@ -92,7 +92,7 @@ Series fans will want to know: do Cloudpunk's characters appear? As of pre-relea
 ### What to Expect in Nivalis Nights
 - **New cast, new stories** — the confirmed cast is a fresh set: Thaddeus Carmunis, Banor, and the city's 135 voiced citizens. The [NPC Relationships Guide](/guides/npc-relationships-guide) profiles who we know.
 - **Cameos are plausible, not confirmed.** ION LANDS demonstrated with City of Ghosts that it weaves continuity between its Nivalis stories. A world this dense would be the perfect place for a familiar voice on the radio or a familiar face at a market stall — but nothing has been announced.
-- **The lore will connect even if the characters don't.** The city, the Corps, the AI history, and the ocean's mysteries are shared DNA. Expect continuity of place more than continuity of cast.
+- **The lore will connect even if the characters don't.** The city, CorpSec, the AI history, and the ocean's mysteries are shared DNA. Expect continuity of place more than continuity of cast.
 
 ## Should You Play Cloudpunk First?
 
@@ -141,10 +141,10 @@ No. The games share a universe but have independent stories. Playing Cloudpunk e
 Yes — a personal HOVA is confirmed among the game's travel options, described as a purchase goal. Its mechanics will likely echo Cloudpunk's (fuel, repairs, parking, upgrades), per the [Transportation Guide](/guides/transportation-guide).
 
 ### Which game is longer?
-Cloudpunk's main story is roughly 10-12 hours (about 20+ with the DLC and side content). Nivalis Nights is a life sim with seven business types, 135 NPCs, and ongoing simulation — expect dozens to 100+ hours, with details in the [How Long to Beat Guide](/guides/how-long-to-beat-guide).
+Cloudpunk's main story is roughly 10-12 hours (about 20+ with the DLC and side content). Nivalis Nights is a life sim with seven business types, 135 NPCs, and ongoing simulation — expect dozens of hours or more, with estimates in the [How Long to Beat Guide](/guides/how-long-to-beat-guide).
 
 ### Will Cloudpunk fans like it?
-Different experience, same soul. If you loved Cloudpunk for the rain, the neon, and the melancholy beauty of Nivalis — yes, it's the same city, and the [Weather Guide](/guides/weather-guide) promises more of it than ever. If you loved it specifically for the delivery-run pacing, adjust expectations: Nivalis Nights is a marathon, not a night ride.
+Different experience, same soul. If you loved Cloudpunk for the rain, the neon, and the melancholy beauty of Nivalis — yes, it's the same city, and the [Day & Night Cycle & Weather Guide](/guides/day-night-cycle-guide) promises more of it than ever. If you loved it specifically for the delivery-run pacing, adjust expectations: Nivalis Nights is a marathon, not a night ride.
 
 ## Bottom Line
 

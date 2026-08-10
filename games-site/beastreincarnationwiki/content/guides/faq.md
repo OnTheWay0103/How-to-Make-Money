@@ -10,7 +10,7 @@ related: ["beginner-guide", "price-platforms-guide", "combat-system-guide", "end
 
 # Beast of Reincarnation FAQ
 
-> Structured Q&A for the most common Beast of Reincarnation questions. Last verified August 8, 2026 (v1.0.6).
+> Structured Q&A for the most common Beast of Reincarnation questions. Last verified August 8, 2026 (launch version).
 
 ---
 
@@ -88,23 +88,23 @@ Each level grants one attribute point each in **Strength, Vitality, and Floresce
 Yes — after the ending, New Game+ on **Reincarnation+ difficulty** is available (needed for the Platinum/100%).
 
 ### How many achievements/trophies?
-46 trophies on PS5 (1 Platinum, 2 Gold, 11 Silver, 32 Bronze); 45 achievements on Xbox/Steam. None missable, none difficulty-locked. Platinum needs two playthroughs (~30h).
+46 trophies on PS5 and 45 achievements on Xbox/Steam at launch. None missable, none difficulty-locked. Platinum needs two playthroughs (~30h).
 
 ---
 
 ## Technical
 
 ### What are the PC system requirements?
-**Minimum**: Windows 10/11 64-bit, Intel Core i5-8400 / AMD Ryzen 5 3600, 16 GB RAM, GTX 1070 / RX 580 (8 GB), DirectX 12, SSD required, 45–60 GB storage.
+**Minimum**: Windows 10/11 64-bit, Intel Core i5-8400 / AMD Ryzen 5 3600, 16 GB RAM, GTX 1070 / RX 580 (8 GB), DirectX 12, SSD required, 45–60 GB storage. These requirements are from the official Steam store listing and may change with updates.
 
 ### Does it work on Steam Deck?
 Yes — Steam Deck/SteamOS and controller support are listed on the Steam page.
 
 ### Are there performance issues?
-Launch-day reports flag PC and Xbox as the least stable (FPS drops, camera issues); **PS5 is the most stable** version. Game Freak has said it will rework and patch the game after the mixed launch. Steam user reviews were "Mixed" (~52% positive) largely due to these issues.
+Launch-day reports flag PC and Xbox as the least stable (FPS drops, camera issues); **PS5 is the most stable** version. Game Freak has said it will rework and patch the game after the mixed launch. Steam user reviews were "Mixed" at launch, largely due to these issues.
 
 ### How do reviews look overall?
-Metacritic ~72–74, OpenCritic ~76–77 (62% recommend). Praised: the Emma–Koo bond, atmosphere, parry combat. Criticized: story pacing, repetitive enemies, launch optimization.
+Launch reviews were mixed. Praised: the Emma–Koo bond, atmosphere, parry combat. Criticized: story pacing, repetitive enemies, launch optimization.
 
 ---
 

@@ -104,7 +104,7 @@ Nothing officially announced at launch.
 ## Technical
 
 **What are the PC requirements?**
-Minimum: Windows 10, i7-7700K / Ryzen 5 1600X, 12 GB RAM, GTX 750 Ti (2GB) / R7 370 (2GB) / Intel Arc A380. Recommended: Windows 11, i5-10600K / Ryzen 7 3700X, 16 GB RAM, GTX 1070 (8GB) / RX 5600 XT (8GB) / Intel Arc A750. Full details in the [System Requirements Guide](/guides/system-requirements).
+Per the official Steam store listing: Minimum is Windows 10, i7-7700K / Ryzen 5 1600X, 12 GB RAM, GTX 750 Ti (2GB) / R7 370 (2GB) / Intel Arc A380. Recommended is Windows 11, i5-10600K / Ryzen 7 3700X, 16 GB RAM, GTX 1070 (8GB) / RX 5600 XT (8GB) / Intel Arc A750. Full details in the [System Requirements Guide](/guides/system-requirements).
 
 **Is Big Walk on Steam Deck?**
 **Not officially verified at launch** — see the [System Requirements Guide](/guides/system-requirements) for what we know.

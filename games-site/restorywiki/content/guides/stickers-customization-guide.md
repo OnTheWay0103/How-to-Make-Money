@@ -7,9 +7,8 @@ version: '1.0.0'
 updated: '2026-08-08'
 related:
   - achievement-guide
-  - marketplace-guide
-  - repair-process-guide
   - money-making-guide
+  - repair-process-guide
 ---
 
 ## Overview
@@ -46,7 +45,7 @@ All three are straightforward: buy stickers, apply them, repeat.
 2. **Sticker every device you repair** — even small walk-in jobs count one application each
 3. **Combine with painting:** a painted-and-stickered device covers customization in a single order
 4. **Chain with the repair grind:** the [Achievement Guide](/guides/achievement-guide) recommends folding sticker application into normal repair routines — no detour needed, roughly one sticker per device repaired
-5. **Marketplace flips count too:** restored and resold devices (see the [Marketplace Guide](/guides/marketplace-guide)) can be stickered before resale — two uses per device
+5. **Marketplace flips count too:** restored and resold devices (see the [Money & Profit Guide](/guides/money-making-guide)) can be stickered before resale — two uses per device
 
 At roughly one device per order and one sticker per device, **100 stickers falls out of normal play in the mid-game** — you only need to remember to apply them.
 
@@ -54,6 +53,6 @@ At roughly one device per order and one sticker per device, **100 stickers falls
 
 - **Stickers are cheap** — they're the low-cost entry into the accessory tab, and they never affect repair success or customer satisfaction (awaiting confirmation on any hidden customer reactions, but no reports so far)
 - **They're the cheapest achievements in the game** — no license, no rare parts, no competition wins required; just depot trips and device hand-offs
-- **Customization before return** — remember the paint-and-sticker step happens at the return hand-off, the same step where kids' origami requests and delivery-agent interactions trigger (see the [Story, Choices & Endings Guide](/guides/story-choices-guide))
+- **Customization before return** — remember the paint-and-sticker step happens at the return hand-off, the same step where kids' origami requests and delivery-agent interactions trigger (see the [Story Walkthrough](/guides/walkthrough-guide))
 
 **Next steps:** See how sticker and painting milestones fit the full completion list in the [Achievement Guide](/guides/achievement-guide), and find the devices you'll be decorating in the [Device Database](/guides/device-database).

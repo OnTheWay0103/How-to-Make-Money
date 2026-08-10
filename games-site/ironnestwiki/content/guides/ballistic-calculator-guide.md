@@ -1,26 +1,32 @@
 ---
 title: "Ballistic Calculator Guide — Iron Nest Wiki"
-description: "Every input on the IRON NEST ballistic calculator explained: distance, bearing, shell type, powder charges, target classification, and how to read the firing card."
+description: "Every input on the IRON NEST ballistic calculator explained: distance, bearing, shell type, powder charges, target classification, how to read the firing card — plus wind, weather and short/over corrections."
 category: "Ballistics"
 version: "1.0"
-updated: "2026-08-06"
+updated: "2026-08-11"
 keywords:
   - "iron nest ballistic calculator"
   - "iron nest firing solution"
   - "iron nest powder charges"
   - "iron nest elevation guide"
   - "iron nest how to aim"
+  - "iron nest wind correction"
+  - "iron nest long range"
 related:
   - "target-spotting-guide"
   - "loading-aiming-guide"
   - "shell-types-ammo-guide"
+  - "reconnaissance-guide"
+  - "systems-failure-guide"
 ---
 
 # Ballistic Calculator Guide
 
-> Launch Version / Updated: August 6, 2026
+> Launch Version / Updated: August 11, 2026
 
-The ballistic calculator is the machine that turns map measurements into gun settings. You give it five inputs; it gives you a firing card with the exact rotation and elevation for the shot. You never compute a trajectory yourself — the machine does it. Your job is to feed it correct data, in the correct order.
+The ballistic calculator is the machine that turns map measurements into gun settings. You give it five inputs; it gives you a firing card with the rotation and elevation for the shot. You never compute a trajectory yourself — the machine does it. Your job is to feed it correct data, in the correct order.
+
+This guide covers the basic five-input firing solution first, then what the calculator does NOT account for: wind and weather, the correction workflow for "short" and "over" reports, and how to shoot reliably at the very edge of the gun's range. **Correction figures are community-reported** — the game does not publish its full ballistics table, so treat them as starting points verified by operators, not official numbers.
 
 ---
 
@@ -63,17 +69,89 @@ The card attaches to your clipboard automatically. Take both values to the gun s
 
 1. **Rotation first.** Rotating 360° takes time — start the rotation before you fine-tune elevation.
 2. **Elevation after loading.** The elevation console stays locked until the gun is loaded, and resets to zero after every shot.
-3. **Fire, observe, correct.** Watch the radio report: a red skull means the kill; a report of "short" or "over" tells you how to correct the next shot. Community-reported data suggests shells can take up to ~20 seconds of flight time at extreme range — do not fire corrections before the previous round lands.
+3. **Fire, observe, correct.** Watch the radio report: a red skull means the kill; a report of "short" or "over" tells you how to correct the next shot. Shells can take a long time in flight at extreme range — never fire a correction before the previous round has landed.
 
 ---
 
-## Advanced Corrections (Community-Reported)
+## Corrections — MOA and the Short/Over Workflow
 
-The community has been refining the demo's ballistics. These figures come from advanced calibration guides and are not officially documented — treat them as starting points:
+Mid-game corrections arrive in **Minute of Angle (MOA)** terms, and the game's dials use click-steps. MOA is an angular unit that scales with range: a correction that moves the impact a little at close range moves it much more at long range. That is why you should always correct in **clicks/MOA, never in meters** — the same click count does the same angular job at every distance.
 
-- **Shell drop (MOA corrections):** at 5 km, standard HE drops roughly 42 meters (about +12 clicks up); heavy bunker-buster rounds drop roughly 78 meters (about +24 clicks up). Shell weight affects drop — heavier shells need more elevation at the same range.
-- **Weather:** dense fog adds ~5 clicks of elevation correction; high-altitude gales push shots off-windward by ~8 clicks with ~4 clicks of elevation loss. If the mission briefing mentions weather, add corrections.
-- **Spotter reliability:** report error grows with distance — under 2 km spotters are effectively reliable (~99% of reports on target); beyond 10 km treat reports as advisory (~50% reliability).
+From Phase 2 onward, spotters radio impact corrections: *"Impact 100 meters short, 50 meters left."* The fastest path back on target is **not** a new firing card:
+
+1. **Convert the report to dial terms.** The short/over distance at your current range converts to a dial correction — do not recalculate from scratch.
+2. **Apply it to the live dials** — elevation for short/over, rotation for left/right. The arrow keys at the elevation console are the precision correction tool; use them instead of the coarse lever.
+3. **Wait for the round to land before correcting again.** A "correction" fired before the previous round lands is a shot at a ghost.
+4. **Confirm with a second source** — a second spotter or a star shell — before treating the corrected shot as the kill.
+
+Community practice notes on dial corrections (approximate, not official):
+
+| Situation | Community Practice |
+|---|---|
+| Heavy shells at long range | Drop more than light shells — dial up extra elevation beyond the card |
+| Dense fog | Add elevation — fog pushes impacts short |
+| Strong crosswinds | Hold rotation into the wind, and expect elevation loss on light rounds |
+
+---
+
+## Wind & Weather — The Weather Station Module
+
+From Chapter 3, the **Weather Station Module** forces environmental ballistics on every long shot. Two effects matter:
+
+### Crosswind
+
+Pushes the shell sideways. The strength of the effect depends on the shell:
+
+- **Heavy projectiles** (HE, AP) cut through wind but drop more aggressively — expect to add elevation.
+- **Light rounds** (S.T.A.R. illumination) get blown significantly off target if you ignore wind — a star shell at extreme range in a gale may illuminate nothing at all.
+
+Community practice: in steady crosswind, hold rotation **into the wind** before fine-tuning with the wheel. Treat the weather readout as part of the firing solution, not decoration.
+
+### Barometric Pressure
+
+Low barometric pressure means thinner air — **less drag**, so shells fly farther and flatter than the calculator predicts. Community-reported: with a low-pressure system over the map, reduce elevation slightly below the card's value or the shell overflies. High pressure does the opposite — add a touch of elevation. The effect grows with range.
+
+---
+
+## Night, Fog & Limited Visibility
+
+- **Fog** is an elevation problem: dense fog pushes impacts short, so add elevation (community-reported).
+- **Night** is a visibility problem: fire a **S.T.A.R. illumination** shell first — it reveals positions across a huge area and does not start counter-battery fire (see the [reconnaissance guide](/guides/reconnaissance-guide)). Time it so the reveal and the kill shell overlap.
+- In both conditions, treat spotter reports as looser — the error budget below applies.
+
+---
+
+## Spotter Reliability at Range
+
+Spotter reports carry error that **grows with distance** (community-measured):
+
+- **Short range** — spotters are effectively authoritative; trust the report.
+- **Mid range** — declining; treat reports as good estimates.
+- **Beyond extreme range** — treat reports as advisory only.
+
+Past the mid-range band, prefer triangulation from **multiple** observers, or a star-shell reveal, over any single report — and expect to do the short/over correction dance on the first round.
+
+---
+
+## Extreme-Range Shooting (10–20 km)
+
+At the far edge of the envelope everything gets worse at once: longer flight time, larger drop, more wind exposure, and less reliable spotter data. The extreme-range playbook:
+
+1. **Verify with illumination or recon imagery first** — never burn a long flight on a guess.
+2. **Dial the heavy-shell drop corrections** rather than trusting the basic card alone.
+3. **Fire one ranging shot, wait for its full flight time, correct from the impact** — the ranging-shot correction works at any range.
+4. **Mind the barrel** — extreme-range firing is usually slow fire anyway, which suits the heat ceiling (see [systems & failures](/guides/systems-failure-guide)).
+
+---
+
+## The Long-Shot Checklist
+
+- [ ] Weather station read — crosswind? pressure? fog?
+- [ ] Shell flight time estimated — corrections fired only after the previous round lands
+- [ ] Multi-observer confirmation for anything beyond extreme range
+- [ ] Heavy-shell drop correction dialed in addition to the card
+- [ ] Windage held into the wind for light rounds
+- [ ] One ranging shot, one correction, one kill
 
 ---
 

@@ -48,9 +48,9 @@ The completionist grind is defined by the achievement list — see the [Achievem
 | **Earn 1,000,000 Yen total** | ★★★ | **Millionaire** — comes naturally from flipping |
 | **Acquire every license** | ★★★ | **Platinum Partner** — includes the competition-only license |
 | **Win one competition per device type** | ★★★★ | **Legend of Akiba** — requires the full catalog |
-| **The bugged achievement** | ★ | One achievement is reported as not unlocking — see [Known Issues](/guides/known-issues-guide) |
+| **The bugged achievement** | ★ | One achievement is reported as not unlocking — see the [FAQ guide's Known Issues section](/guides/faq-content#known-issues-bugs) |
 
-**Estimated total:** an honest estimate is **40–80+ hours** for 100%, dominated by the 365-day and 1,000-part grinds. (This is a community estimate — 待验证 — no official 100% time has been published.)
+**Estimated total:** an honest estimate is **40–80+ hours** for 100%, dominated by the 365-day and 1,000-part grinds. (This is a community estimate — unverified — no official 100% time has been published.)
 
 ---
 
@@ -96,7 +96,7 @@ The variance is almost entirely driven by the two long poles — the 365-day mil
 
 ## The Demo vs. the Full Game
 
-The free Steam demo (available since June 15, 2026) covers roughly the first few shop days, with the soldering station and reprogramming visible but locked. Demo saves do **not** carry over to the full game — treat the demo as a taste test, not a head start. If you're deciding whether to buy, the demo's 98% approval rating and the full game's 700,000+ wishlists both point to the same conclusion: the loop holds up over dozens of hours.
+The free Steam demo (available since June 15, 2026) covers roughly the first few shop days, with the soldering station and reprogramming visible but locked. Demo saves do **not** carry over to the full game — treat the demo as a taste test, not a head start. If you're deciding whether to buy, the demo's overwhelmingly positive reception and the full game's massive wishlist count both point to the same conclusion: the loop holds up over dozens of hours.
 
 ---
 
@@ -110,5 +110,5 @@ After the credits the shop continues indefinitely: online orders keep arriving, 
 
 - [Story Walkthrough](/guides/walkthrough-guide) — the main story route to the credits
 - [Achievement Guide](/guides/achievement-guide) — every requirement in one table
-- [Known Issues & Bugs](/guides/known-issues-guide) — the bugged achievement and its status
+- [FAQ Guide — Known Issues section](/guides/faq-content#known-issues-bugs) — the bugged achievement and its status
 - [FAQ](/faq) — quick answers on game length and content

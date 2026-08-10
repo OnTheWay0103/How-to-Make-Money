@@ -20,7 +20,7 @@ You can pick from **Sandbox, Easy, Normal, or Hard** when creating your park. Fo
 
 Also decide solo vs. co-op: the 1.0 update added **4-player co-op**, and starting a shared park with friends genuinely eases the early workload — one person can babysit the entrance while another cleans and builds.
 
-## The Opening Tutorial (~10 Minutes)
+## The Opening Tutorial
 
 The tutorial teaches you the absolute basics:
 
@@ -53,15 +53,15 @@ A day in your park has a natural rhythm:
 ### 1. Pre-Opening (Morning)
 
 - **Repair everything** with your hammer — broken pools, stalls, and slides. Damaged attractions annoy guests and can hurt them (broken pools + cannonballs = ambulance fees).
-- **Restock food stalls** (a hot dog pack costs $25; topping stock: plain, ketchup, mustard, both).
+- **Restock food stalls** (a hot dog pack costs a small amount; topping stock: plain, ketchup, mustard, both).
 - **Throw a few life preservers into pools** — panicking visitors automatically bump into them, saving you rescue time.
-- **Hand out flyers** near the street (each costs $5) to draw a wave of guests — but do not spam them in the first days; you cannot handle the crowd yet.
+- **Hand out flyers** near the street (a small fee each) to draw a wave of guests — but do not spam them in the first days; you cannot handle the crowd yet.
 
 ### 2. Open Hours (Daily, Closes ~6 PM)
 
 - Open the park (via the tablet, Tab), then:
   - **Clean constantly** — mop puddles immediately (guests slip on them, lose happiness, and ragdoll into each other), and fill trash bags completely before tossing for maximum value.
-  - **Watch for troublemakers** — look for the devil emoji above a guest's head. Ticket-cheaters (no bracelet), drunks (green bubbles), vandals (spray cans), and perverts (cameras) need to be pushed out with **Right Mouse**. You get ~$30 per intruder ejected.
+  - **Watch for troublemakers** — look for the devil emoji above a guest's head. Ticket-cheaters (no bracelet), drunks (green bubbles), vandals (spray cans), and perverts (cameras) need to be pushed out with **Right Mouse**. You get a cash bonus per intruder ejected.
   - **Refill pools that run low** — pools do not auto-refill; if a pool empties, guests cannonball into the shallow bottom and get injured. That triggers ambulances, which charge a fee.
   - **Run your research icons** — collect the floating science icons around the park for research points.
 
@@ -121,7 +121,7 @@ Selling the wrong type makes guests leave unhappy. Get in the habit early of mat
 
 | Type | How to Spot Them | What to Do |
 |------|-----------------|------------|
-| Ticket cheater | No bracelet on wrist | Right-click push them out (~$30 reward) |
+| Ticket cheater | No bracelet on wrist | Right-click push them out (cash reward) |
 | Drunk | Green bubbles, staggering | Push out before they cause chaos |
 | Vandal | Spray can in hand | Push out, then clean the graffiti (bonus research points) |
 | Pervert | Camera in hand | Push out immediately |

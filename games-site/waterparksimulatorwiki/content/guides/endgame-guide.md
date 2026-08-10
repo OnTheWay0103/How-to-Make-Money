@@ -70,7 +70,7 @@ Endgame players typically run nights during events or when attendance is high (e
 | Heatwave | Attendance spikes | Raise umbrella/seat prices; staff up; water everywhere |
 | Tornado | Map chaos | Repairs + cleanup afterwards |
 | Halloween weather | Theme change, bonuses/nerfs | Roll with it — it's seasonal |
-| Tourist buses | Random big arrival waves | Pre-stock stalls and flyers off |
+| Special events | Random big arrival waves and surprises | Pre-stock stalls and keep flyers off |
 | Alien kidnappings | Guests get taken | Comedy event; rescue them if you like |
 
 Breakdowns (1.0) mean attractions can **fully break down** until repaired — in a big park, repair routes matter more than ever. Assign the handyman and hammer at closing; in co-op, split zones.

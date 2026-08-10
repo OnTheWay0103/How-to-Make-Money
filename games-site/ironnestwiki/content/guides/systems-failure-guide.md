@@ -3,7 +3,7 @@ title: "Systems & Failure Management Guide — Safe Operating Zones — Iron Nes
 description: "Every critical system in IRON NEST: Heavy Turret Simulator and how to keep it alive — hydraulic pressure, diesel generator temperature, barrel heat, recoil buffer fluid, failure consequences, and repair procedures."
 category: "Reference"
 version: "1.0"
-updated: "2026-08-08"
+updated: "2026-08-11"
 keywords:
   - "iron nest systems guide"
   - "iron nest hydraulic pressure"
@@ -14,13 +14,13 @@ keywords:
 related:
   - "counter-battery-survival-guide"
   - "requisition-upgrade-guide"
-  - "missions-objectives-guide"
+  - "story-walkthrough-guide"
   - "loading-aiming-guide"
 ---
 
 # Systems & Failure Management — Keeping the Machine Alive
 
-Your turret is a machine under constant stress — recoil, heat, hydraulics, and engine all degrade as you fight. Every system has a **safe operating zone**; step outside it and you get a failure that can cost you a mission. This guide collects the confirmed safe ranges, what each failure does, and how to recover fast.
+Your turret is a machine under constant stress — recoil, heat, hydraulics, and engine all degrade as you fight. Every system has a **safe operating zone**; step outside it and you get a failure that can cost you a mission. This guide collects the safe ranges community testers have mapped from the launch build, what each failure does, and how to recover fast. **The figures below are community-measured working values and may change with updates.**
 
 ## Safe Operating Zones — Quick Reference
 

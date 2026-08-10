@@ -7,7 +7,6 @@ version: '1.0.0'
 updated: '2026-08-09'
 related:
   - repair-process-guide
-  - soldering-guide
   - achievement-guide
   - tool-equipment-guide
 ---
@@ -16,7 +15,7 @@ related:
 
 Not every broken device is broken hardware. Some arrive with **software faults** — corrupted firmware, failed updates, locked systems — and those need reprogramming: a rhythm-style hacking mini-game that rewrites the device's software without touching the physical internals.
 
-Reprogramming is one of the two skill-based repair steps in ReStory, alongside [soldering](/guides/soldering-guide). It's simple, satisfying, and — importantly for your wallet — **not something you should do unprompted**.
+Reprogramming is one of the two skill-based repair steps in ReStory, alongside [soldering](/guides/repair-process-guide#soldering-in-depth). It's simple, satisfying, and — importantly for your wallet — **not something you should do unprompted**.
 
 ---
 
@@ -28,7 +27,7 @@ Community-confirmed mechanics from launch-week play:
 2. **Press keys in rhythm to fill a bar** — a simple, rhythm-game-style mechanic that reviewers confirm "works well."
 3. Fill the bar to completion and the device's software is restored.
 
-The mini-game is deliberately low-stakes — like everything in ReStory, there is no twitch-pressure and no fail state reported in the launch build (待验证 on whether later, larger devices demand longer or faster sequences).
+The mini-game is deliberately low-stakes — like everything in ReStory, there is no twitch-pressure and no fail state reported in the launch build (unverified whether later, larger devices demand longer or faster sequences).
 
 ---
 
@@ -37,7 +36,7 @@ The mini-game is deliberately low-stakes — like everything in ReStory, there i
 Reprogramming is not available from the first day — it's an **upgrade** you unlock in the full game (it is not part of the demo):
 
 - The **Unlock-ToolKit CD** is bought from the in-game browser (Gozilla Fairfox) and is required for the **11001** achievement.
-- Once unlocked, devices with software faults begin appearing in your order queue — the game does not hand you a software job before you own the ability, mirroring how [soldering](/guides/soldering-guide) unlocks.
+- Once unlocked, devices with software faults begin appearing in your order queue — the game does not hand you a software job before you own the ability, mirroring how [soldering](/guides/repair-process-guide#soldering-in-depth) unlocks.
 
 ---
 
@@ -103,7 +102,7 @@ The order queue and customer dialogue give you the first signal before you even 
 | Customer mentions a failed update, a weird download, or "it started after I installed something" | Software fault hidden in dialogue |
 | Notepad flags **broken** parts | Hardware — soldering or replacement, not reprogramming |
 
-Community reports note that software faults are more common on newer, feature-rich devices (phones and handheld consoles) and rarer on simple hardware like flashlights — but the exact per-device rates are still being mapped (待验证). When in doubt, open the notepad: the game always labels the fix type.
+Community reports note that software faults are more common on newer, feature-rich devices (phones and handheld consoles) and rarer on simple hardware like flashlights — but the exact per-device rates are still being mapped (unverified). When in doubt, open the notepad: the game always labels the fix type.
 
 ---
 
@@ -118,7 +117,6 @@ Community reports note that software faults are more common on newer, feature-ri
 
 ## Related Guides
 
-- [Repair Process & Mechanics Guide](/guides/repair-process-guide) — the full repair loop around this step
-- [Soldering Guide](/guides/soldering-guide) — the hardware counterpart to reprogramming
+- [Repair Process & Mechanics Guide](/guides/repair-process-guide) — the full repair loop around this step, including soldering
 - [Achievement Guide](/guides/achievement-guide) — Hacking 101 and 11001 in the full list
 - [Tools & Equipment Catalog](/guides/tool-equipment-guide) — where reprogramming gear fits in the purchase order

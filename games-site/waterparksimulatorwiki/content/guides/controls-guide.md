@@ -72,7 +72,7 @@ The complete key binding reference for Waterpark Simulator on PC (Steam). Last u
 
 ## Pro Control Tips
 
-1. **Right Mouse is your discipline tool** — push ticket cheaters, drunks, and vandals out of the park for ~$30 each.
+1. **Right Mouse is your discipline tool** — push ticket cheaters, drunks, and vandals out of the park for a cash bonus each.
 2. **Hold the hammer** — tap-clicking repair does not work; it's a hold action.
 3. **Use umbrellas to bounce high** and spot troublemakers from above.
 4. In **co-op (1.0)**, the trumpet, megaphone, and walkie-talkie are extra communication tools — the walkie-talkie lets you chat from anywhere on the map.

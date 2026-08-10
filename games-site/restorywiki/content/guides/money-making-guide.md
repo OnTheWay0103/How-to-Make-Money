@@ -1,20 +1,21 @@
 ---
-title: 'Money & Profit Guide — How to Maximize Profit Margins'
-description: 'How to make money fast in ReStory: Chill Electronics Repairs — clean before replacing, build a parts library, batch orders, flip marketplace devices, prioritize the tip jar, and never use express shipping.'
-keywords: ['restory money guide', 'restory profit', 'restory how to make money', 'restory tips profit margins', 'restory millionaire', 'restory earn yen', 'restory flip devices']
+title: 'Money, Online Orders & Marketplace — How to Maximize Profit'
+description: 'How to make money fast in ReStory: Chill Electronics Repairs — clean before replacing, build a parts library, batch orders, online orders and the 3-day deadline, marketplace flipping, mystery spare-part boxes, the tip jar, and the Frugal challenge.'
+keywords: ['restory money guide', 'restory profit', 'restory how to make money', 'restory tips profit margins', 'restory millionaire', 'restory earn yen', 'restory flip devices', 'restory online orders', 'restory marketplace', 'restory spare parts', 'restory mystery boxes']
 category: Economy
 version: '1.0.0'
 updated: '2026-08-08'
 related:
-  - marketplace-guide
   - license-guide
   - tool-equipment-guide
   - achievement-guide
+  - beginner-guide
+  - device-database
 ---
 
 ## Overview
 
-In ReStory, money buys **licenses**, and licenses are the real progression system. So the question "how do I make more yen?" is really "how do I progress faster?" This guide covers the confirmed profit strategies from launch-week testing.
+In ReStory, money buys **licenses**, and licenses are the real progression system. So the question "how do I make more yen?" is really "how do I progress faster?" This guide covers the confirmed profit strategies from launch-week testing — plus the online-order system and the marketplace, which are the heart of the shop's economy.
 
 ---
 
@@ -41,6 +42,70 @@ The single biggest beginner mistake is assuming every broken device needs new pa
 | Shredder for junk recovery | Low | ★ Good |
 | Express shipping | — | ★ **Never use** |
 | Painting / reprogramming for resale | Medium | ★ Cosmetic only |
+
+---
+
+## Online Orders
+
+Your shop's Y2K-era computer handles **online orders**, the **marketplace** for used devices and spare parts, tool purchases, licenses, and research. Mastering it is worth more yen than any individual repair.
+
+| Fact | Detail |
+|------|--------|
+| **Volume** | Up to **11 online orders per day** appear on the shop computer |
+| **Deadline** | Each order has a **3-day deadline** |
+| **Flow** | Accept order → courier delivers the broken device → repair → package on counter → courier picks up → payment + review |
+| **Missed deadlines** | Orders sit until completed; crowding the bench costs time, not money directly |
+
+**Tips:**
+- Accept only what you can finish — every open device occupies workbench space.
+- Mix quick cleaning jobs with repairs that use parts you already have.
+- Complete 25 orders for **WWW**, 100 for **Internet Business** (achievements).
+
+---
+
+## The Marketplace
+
+The marketplace sells **used devices** and **mystery spare-part boxes**. Both are gambles — descriptions and seller ratings don't guarantee condition.
+
+### Used Devices (for Salvage & Flipping)
+
+- A "dusty" device can arrive with broken parts; a cheap listing can be an excellent restoration project.
+- **Flipping:** buy broken → restore → sell for profit. Sell 5 restored devices for **Making Money!**.
+- **Salvage:** even a bad flip is a parts donor — LCD assemblies, button membranes, speakers, battery connectors, flex cables and screws are worth more than the junk price.
+- **Achievements:** buy 5 devices (**Flipper**), buy 25 devices (**Garage Sale**).
+
+**Buying rule:** only buy when the price is far enough below the finished sale value to survive a few bad parts. Most flips sell for only a modest amount above their purchase price, so one significant repair cost can erase the entire margin — buy cheap or don't buy. A definitive per-device value ranking is still being mapped (unverified); see the [Device Database](/guides/device-database) for what is confirmed about each device's value profile.
+
+### Mystery Spare-Part Boxes
+
+- Cost-effective way to build random inventory — one guide reports boxes became the main source of spare parts.
+- **Don't** rely on boxes when an urgent order needs one specific part — use a licensed supplier for guaranteed components.
+- **Achievements:** buy 1 box (**Lootbox**), buy 50 boxes (**Gambler**).
+
+---
+
+## Buying Parts (vs. Salvaging)
+
+| Source | Pros | Cons |
+|--------|------|------|
+| **Licensed manufacturer order** | Exact part, guaranteed | Costs money; needs the license |
+| **Marketplace used devices** | Cheap bulk parts | Condition gamble |
+| **Spare-part boxes** | Cheap random stock | Random — may not contain what you need |
+| **Salvage from your own junk pile** | Free | Requires stock and time |
+
+**Golden rule:** batch orders to save shipping, avoid express shipping (eats profit), and stock commonly needed parts in advance — batteries, screens, buttons and charging ports are the most common failures.
+
+---
+
+## The Flip Economy in One Table
+
+| Action | Typical Result |
+|--------|----------------|
+| Buy junk device cheap | Cheap parts donor |
+| Clean-only restore | Nearly pure profit (reusable tools) |
+| Replace-everything restore | Fastest way to lose money |
+| Sell restored device | Resale income + "Making Money!" progress |
+| Shred unusable parts | Yen recovery (needs shredder) |
 
 ---
 
@@ -73,6 +138,18 @@ The single biggest beginner mistake is assuming every broken device needs new pa
 - **Painting** is cosmetic — no resale value.
 - **Reprogramming** (rhythm mini-game) doesn't noticeably raise an item's worth.
 - **Buying new parts for everything** is the fastest way to lose money.
+
+---
+
+## The Frugal Challenge (10 Days Without Buying Parts)
+
+The **Frugal** achievement (10 days in a row with no paid part purchases) is easier than it sounds:
+
+1. Build a healthy parts library first.
+2. Salvage aggressively from marketplace junk.
+3. Clean everything — most jobs won't need a single new part.
+4. Use the notepad to confirm a part is truly gone before ordering.
+5. Mystery spare-part boxes do **not** break the streak, which makes them a safe purchase during the challenge.
 
 ---
 
@@ -112,6 +189,8 @@ The single biggest beginner mistake is assuming every broken device needs new pa
 
 ## Related Guides
 
-- [Online Orders & Marketplace](/guides/marketplace-guide) — the flip economy in detail
 - [License System Guide](/guides/license-guide) — what to spend yen on
-- [Achievement Guide](/guides/achievement-guide) — money milestones
+- [Tools & Equipment Catalog](/guides/tool-equipment-guide) — shredder for junk recovery and other purchases
+- [Achievement Guide](/guides/achievement-guide) — money milestones and marketplace achievements
+- [Beginner Guide](/guides/beginner-guide) — the core loop this strategy sits on
+- [Device Database](/guides/device-database) — which devices are worth buying and salvaging

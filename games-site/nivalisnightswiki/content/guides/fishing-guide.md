@@ -6,7 +6,7 @@ version: "Pre-release"
 updated: "2026-08-07"
 date: "2026-08-07"
 keywords: ["nivalis nights fishing", "nivalis nights fishing guide", "nivalis nights fishing spots", "nivalis nights best fish", "nivalis nights boat", "nivalis nights fishing upgrades"]
-related: ["money-making-guide", "business-management-guide", "npc-relationships-guide"]
+related: ["best-business-guide", "npc-relationships-guide", "greenhouse-guide"]
 ---
 
 # Fishing Guide — Spots, Best Catches & Upgrades in Nivalis Nights
@@ -79,7 +79,7 @@ For business-minded players, fishing plugs directly into the restaurant economy:
 2. **Premium dishes** — ocean catches become signature dishes with margins no competitor can match.
 3. **Seasonal spikes** — when a fish is scarce city-wide, your stock is worth more — sell the surplus, keep the best for the menu.
 
-Combine fishing with a **greenhouse** (for staples) and you've built the cheapest, most resilient supply chain in the game — see the [Business Management Guide](/guides/business-management-guide) for the full system.
+Combine fishing with a **greenhouse** (for staples) and you've built the cheapest, most resilient supply chain in the game — see the [Best Business Guide](/guides/best-business-guide) for the full system.
 
 ## Fishing & Relationships
 

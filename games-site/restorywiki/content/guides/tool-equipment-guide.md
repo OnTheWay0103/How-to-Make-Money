@@ -16,7 +16,7 @@ related:
 
 ReStory gives you a period-accurate repair toolset, plus a catalog of upgrades bought through the in-game Y2K web browser (the "Screwdriver" menu). Tools fall into two groups: **core tools** you use on nearly every repair, and **workshop upgrades** that speed up or automate parts of the loop.
 
-**Prices are in Yen.** Only a few prices are publicly confirmed (待验证 elsewhere).
+**Prices are in Yen.** Only a few prices are publicly confirmed; the rest remain unverified.
 
 ---
 
@@ -35,16 +35,16 @@ ReStory gives you a period-accurate repair toolset, plus a catalog of upgrades b
 
 ---
 
-## Confirmed Prices & Purchase Points
+## Tool Prices — Confirmed So Far
 
 | Item | Cost | Achievement |
 |------|------|-------------|
 | **Professional screwdriver** | **11,000 Yen** | "Twist and Turn" |
-| Cheapest Sonic Bath model | TBD (待验证) | "Hands Free" |
-| Cheapest Shredder model | TBD (待验证) | "Shredder" |
-| Any coziness/decoration item | TBD (待验证) | "Cozy" |
+| Cheapest Sonic Bath model | Price not yet confirmed (unverified) | "Hands Free" |
+| Cheapest Shredder model | Price not yet confirmed (unverified) | "Shredder" |
+| Any coziness/decoration item | Price not yet confirmed (unverified) | "Cozy" |
 
-Only the professional screwdriver's price is publicly confirmed. All other tool prices are still being mapped (待验证) and will be added here as confirmed.
+Only the professional screwdriver's price is publicly confirmed as of the launch build. All other tool prices remain unverified and will be added here as they are confirmed.
 
 ---
 

@@ -56,7 +56,7 @@ These are trophies/achievements that launch-day players have reported unlocking.
 
 The game's design makes these categories near-certain, and we expect official trophies to cover them. **None of these are confirmed names** — this is a roadmap of what the set will almost certainly contain:
 
-1. **Story / progression** — completing each act and the ending (1-3 golds typical).
+1. **Story / progression** — completing each act and the ending.
 2. **Puzzle trophies** — solving N puzzles; solving specific puzzle types (relay, symbol, ball, tower).
 3. **Collection trophies** — collecting gourds; collecting a large share of all gourds; possibly an "all gourds" trophy.
 4. **Tool trophies** — using each tool; specific tool moments (e.g., a megaphone broadcast, a walkie-talkie conversation across the island).
@@ -81,7 +81,7 @@ House House loves a gag (Untitled Goose Game's achievements are almost entirely 
 
 ## Difficulty & Time to Platinum / 100%
 
-### Difficulty: 2/10
+### Difficulty: Very Low
 
 - **No combat, no fail states, no timers** — nothing in Big Walk can end a run. See the [Beginner Guide](/guides/beginner-guide).
 - The only real challenge is **organizing 2-12 humans** and finding every collectible on a 1.4 km² island with no map.
@@ -92,7 +92,7 @@ House House loves a gag (Untitled Goose Game's achievements are almost entirely 
 | Target | Estimated time | Notes |
 |--------|---------------|-------|
 | Platinum / 100% base | 15-20 hours | Playing normally, no hunting |
-| Completionist (all gourds + secrets) | 25-35 hours | Gourd map being built — see [Gourd Locations](/guides/gourd-locations) |
+| Completionist (all gourds + secrets) | 25-35 hours | Gourd map being built — see the [Hidden Secrets Guide](/guides/hidden-secrets-guide) |
 | Minimum (story only) | 8-12 hours | See [How Long to Beat](/guides/how-long-to-beat) |
 
 *These are estimates from preview playtime reports and launch-week player sessions — expect them to tighten over the first month.*

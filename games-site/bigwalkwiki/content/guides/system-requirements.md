@@ -52,7 +52,7 @@ From the Big Walk Steam page:
 - The **recommended tier** (GTX 1070-class) is a comfortable mid-range machine — no flagship GPU needed.
 - **12 GB minimum RAM** is slightly higher than typical for a stylized game; if your machine has 8 GB, expect to close background apps or wait for community performance reports.
 
-*Note: some store regions list OS requirements as TBD; the numbers above are from the official English Steam listing.*
+*Note: OS requirements can vary by store region; the numbers above are from the official English Steam listing.*
 
 ---
 
@@ -111,7 +111,9 @@ At launch, the standard advice applies:
 
 ---
 
-## TBD List (We Will Update)
+## Not Yet Published
+
+As of August 2026, the following have not been officially published:
 
 - Official **Mac** requirements.
 - **Steam Deck** verification status.

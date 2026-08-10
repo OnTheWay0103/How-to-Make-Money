@@ -26,7 +26,7 @@ const DEVICE_COMPLEXITY = [
 ];
 
 const LICENSE_PRIORITY = [
-  { tier: 'First', weapons: ['Tier-2-style handheld license (e.g., PSP-like devices)'], note: 'Reaching the second license tier is the earliest confirmed milestone — unlocks a handheld console tier. Community reports suggest prioritizing category licenses that appear most often in your order queue.' },
+  { tier: 'First', weapons: ['Your first license (any)'], note: 'Unlocks the license system itself, new device types and the "Official Partner" achievement. Community reports suggest prioritizing the category licenses that appear most often in your order queue.' },
   { tier: 'High', weapons: ['Phone & pager licenses', 'Console licenses'], note: 'Phones (Pokia 3310, Autorolla Razor, Eggotchi) and consoles appear frequently in both walk-ins and online orders — the fastest way to grow daily income.' },
   { tier: 'Competition', weapons: ['The un-buyable license'], note: 'One license cannot be purchased at all — it must be won in the device assembly (repair master) competition that appears later in the campaign. Win it to complete your collection and the "Platinum Partner" achievement.' },
 ];
@@ -68,7 +68,7 @@ export default function TierListPage() {
           The upgrade order (licenses → screwdriver → brush → tip jar) is confirmed by multiple launch-week
           guides. Device complexity and license priority are community observations from the launch build and
           may shift as the catalog expands through updates — exact license counts and prices are still being
-          mapped (待验证).
+          mapped (unverified).
         </p>
       </div>
     </div>

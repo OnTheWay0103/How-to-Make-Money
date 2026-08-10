@@ -6,7 +6,7 @@ version: "Pre-release"
 updated: "2026-08-08"
 date: "2026-08-08"
 keywords: ["nivalis nights city guide", "nivalis nights districts", "nivalis nights meridian market", "nivalis nights calypso island", "nivalis nights skyhigh gardens", "nivalis nights travel", "nivalis nights curfew", "nivalis nights hova"]
-related: ["beginner-guide", "weather-guide", "apartment-customization-guide", "money-making-guide"]
+related: ["beginner-guide", "day-night-cycle-guide", "apartment-customization-guide", "best-business-guide", "transportation-guide"]
 ---
 
 # City Guide — Districts, Travel & Daily Routine in Nivalis Nights
@@ -36,9 +36,11 @@ The exact district count is still being confirmed before launch — treat this a
 | **Private boat** | Canals, fishing, Calypso Island, hidden areas | Also the key to the [Fishing Guide](/guides/fishing-guide)'s best spots |
 | **Quick-travel map** | Jumping between known locations | Fastest, least atmospheric |
 
+For the full breakdown of every travel option — access limits, fares, and which mode suits which situation — see the [Transportation Guide](/guides/transportation-guide).
+
 ## The 2 AM Curfew
 
-Nivalis runs on a curfew: **at 2 AM, the city locks down** — security systems become a factor, and normal street life stops. Two things make the curfew matter:
+Nivalis runs on a curfew: **at 2 AM, the city locks down** — security systems become a factor, and normal street life stops. Two things make the curfew matter (see the [Day & Night Cycle & Weather Guide](/guides/day-night-cycle-guide) for the full time system):
 
 - **Sabotage window:** rival businesses can be illegally sabotaged under cover of the curfew — if you're careful around security systems. A profitable but risky tool in the business rivalry game.
 - **Plan your day around it:** venue hours, NPC schedules, and fishing trips all need to fit before curfew (or be night-fishing plans deliberately made).
@@ -46,14 +48,14 @@ Nivalis runs on a curfew: **at 2 AM, the city locks down** — security systems 
 ## Daily Routines Worth Building
 
 - **Read the morning newspaper.** It carries market information and business advantages — prices move by supply, demand, and weather, and the paper tells you what changed.
-- **Check the weather forecast.** Snow and storms spike energy prices; rain pushes customers indoors. Plan staffing around it (see the [Weather Guide](/guides/weather-guide)).
+- **Check the weather forecast.** Snow and storms spike energy prices; rain pushes customers indoors. Plan staffing around it (see the [Day & Night Cycle & Weather Guide](/guides/day-night-cycle-guide)).
 - **Walk your route.** NPCs follow their own schedules and routines — regular walks past the same spots let you catch friendships, mini-games, and stories you'd miss from a taxi.
-- **Use quiet days for exploration.** Fog days, in particular, are used by players for aimless travel and uncovering hidden areas — the city rewards wandering.
+- **Use quiet days for exploration.** Fog days, in particular, are ideal for aimless travel and uncovering hidden areas — the city rewards wandering.
 
 ## Mini-Games & City Life
 
 The city offers more than business: challenge NPCs in mini-games, enter the high-stakes **cyberpunk chess tournament**, and use **photo mode** (camera parameters, filters, editing) to capture the city. These aren't optional flavor — they're how friendships and reputation grow, which feeds straight back into your business via regular customers.
 
-**Next steps:** Pick the district that fits your social strategy with the [NPC Relationships Guide](/guides/npc-relationships-guide), and learn what the city's climate does to your bottom line in the [Weather Guide](/guides/weather-guide).
+**Next steps:** Pick the district that fits your social strategy with the [NPC Relationships Guide](/guides/npc-relationships-guide), and learn what the city's climate does to your bottom line in the [Day & Night Cycle & Weather Guide](/guides/day-night-cycle-guide).
 
 *Based on pre-release information confirmed from the official wiki and press materials; district details may evolve at launch (September 29, 2026).*

@@ -6,7 +6,7 @@ version: "Pre-release"
 updated: "2026-08-07"
 date: "2026-08-07"
 keywords: ["nivalis nights beginner guide", "nivalis nights getting started", "nivalis nights first hour", "nivalis nights how to play", "nivalis nights tips", "nivalis nights noodle bar"]
-related: ["best-business-guide", "money-making-guide", "business-management-guide", "faq"]
+related: ["best-business-guide", "faq", "day-night-cycle-guide"]
 ---
 
 # Nivalis Nights Beginner Guide — Getting Started & First Hour

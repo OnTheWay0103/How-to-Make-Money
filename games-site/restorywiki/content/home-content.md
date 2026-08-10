@@ -12,7 +12,7 @@ related: ["beginner-guide", "device-database", "license-guide", "achievement-gui
 
 **Everything you need to run the coziest electronics repair shop in mid-2000s Tokyo.**
 
-ReStory: Chill Electronics Repairs launched on **August 6, 2026** on Steam (PC + macOS) and is already rated **Overwhelmingly Positive** with a **Metacritic 84** — tinyBuild's highest-rated game ever. This wiki covers the device catalog, the license system, the full repair process, all 50 achievements, and how to make money — all verified against the launch build.
+ReStory: Chill Electronics Repairs launched on **August 6, 2026** on Steam (PC + macOS) and is already rated **Overwhelmingly Positive** on Steam with strong critical reception. This wiki covers the device catalog, the license system, the full repair process, all 50 achievements, and how to make money — all verified against the launch build.
 
 ---
 
@@ -26,10 +26,9 @@ ReStory: Chill Electronics Repairs launched on **August 6, 2026** on Steam (PC +
 | [License System Guide](/guides/license-guide) | Progression | Intermediate |
 | [All 50 Achievements](/guides/achievement-guide) | Completionists | Reference |
 | [Tools & Equipment Catalog](/guides/tool-equipment-guide) | Upgrade planning | Reference |
-| [Money & Profit Guide](/guides/money-making-guide) | Maximize yen | Intermediate |
-| [Online Orders & Marketplace](/guides/marketplace-guide) | Economy | Intermediate |
-| [Hardest Repairs Guide](/guides/tricky-repairs-guide) | Tough devices | Advanced |
-| [Story, Choices & Endings](/guides/story-choices-guide) | Narrative | Intermediate |
+| [Money, Online Orders & Marketplace](/guides/money-making-guide) | Maximize yen | Intermediate |
+| [Repair Process & Hardest Repairs](/guides/repair-process-guide) | Mechanics & tough devices | Intermediate |
+| [Story Walkthrough & Endings](/guides/walkthrough-guide) | Narrative | Intermediate |
 | [Price, Platforms & Specs](/guides/price-platforms) | Buying info | Starter |
 | [FAQ](/faq) | Quick answers | All |
 
@@ -55,7 +54,7 @@ Every Steam achievement with unlock conditions — including the 5 hidden ones a
 
 ReStory is a chill, narrative-driven electronics repair shop management simulator developed by **Mandragora** (creators of *I Am Future*) and published by **tinyBuild**. You run a small repair shop in Akihabara, Tokyo circa 2005: walk-in customers and online orders (up to 11 per day) bring broken gadgets to your counter, and you disassemble, clean, solder, reprogram and reassemble them using a period-accurate toolset.
 
-The game launched on August 6, 2026 at **$19.99** (10% launch discount until August 20) after amassing **700,000+ Steam wishlists** and a 98% demo rating. It holds a **Metacritic 84** and an **Overwhelmingly Positive** Steam rating with 12,000+ peak concurrent players.
+The game launched on August 6, 2026 at **$19.99** (10% launch discount until August 20) after amassing hundreds of thousands of Steam wishlists and a highly rated demo. It holds an **Overwhelmingly Positive** Steam rating with a strong concurrent player base at launch.
 
 The catalog spans roughly **16 device types** across 7 categories — including **officially licensed Atari 2600, Lynx and CX40 hardware** — with more categories unlocked through the license system. There are **50 Steam achievements**, a branching story with multiple endings, and an estimated **15+ hours** of main story content.
 
@@ -82,4 +81,4 @@ The catalog spans roughly **16 device types** across 7 categories — including 
 
 ---
 
-*This wiki is community-maintained and reflects the launch build (v1.0.0, August 6, 2026). Unconfirmed details are marked 待验证 and will be updated as the community maps the full game.*
+*This wiki is community-maintained and reflects the launch build (v1.0.0, August 6, 2026). Unconfirmed details are marked as unverified and will be updated as the community maps the full game.*

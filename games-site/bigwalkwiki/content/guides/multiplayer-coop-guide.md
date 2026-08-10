@@ -104,7 +104,7 @@ This system *is* the game. The developers built Big Walk around the feeling of h
 
 - **In-game voice chat** works across platforms since it is part of the game, not the platform.
 - Many groups still keep a **Discord or party chat open** for lobby coordination before the walk starts — the proximity system is a feature, but the invite screen is easier with a fallback.
-- There is no confirmed push-to-talk option at launch — check the in-game settings, as menu options may be added in day-one patches.
+- **Push-to-talk is available in the launch build** (default **V** on PC, **L3** on controllers) — see the [Controls Guide](/guides/controls-guide) for bindings and rebinding instructions.
 
 ---
 

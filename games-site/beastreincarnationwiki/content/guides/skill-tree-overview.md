@@ -10,7 +10,7 @@ related: ["combat-system-guide", "koo-rapport-guide", "elemental-builds-guide", 
 
 # Skill Tree Overview — Emma & Koo Full Branch List
 
-> The skill system in Beast of Reincarnation has two separate trees (Emma and Koo) sharing **one pool of skill points** and one set of **attribute points**. This page maps every verified branch and skill as of v1.0.6 (August 2026).
+> The skill system in Beast of Reincarnation has two separate trees (Emma and Koo) sharing **one pool of skill points** and one set of **attribute points**. This page maps every verified branch and skill as of the launch version (August 2026).
 
 ---
 
@@ -27,13 +27,13 @@ related: ["combat-system-guide", "koo-rapport-guide", "elemental-builds-guide", 
 
 | Skill | Attribute Gate | Effect |
 |-------|---------------|--------|
-| **Recovery Effect Boost** | — | Up to +42.5% healing from all sources (potions, Koo's Healing Bouquet/Garden) |
+| **Recovery Effect Boost** | — | Significantly boosts healing from all sources (potions, Koo's Healing Bouquet/Garden) |
 | **Roll** | — | Emergency dodge (dodge button x2); escapes unblockable red-light attacks |
 | **Helm Splitter** | Vitality | Aerial AoE slam using her hair; evades ground attacks, clears groups, builds stun |
 | **Enhance Bow** | — | Improves her ranged weapon |
 | **Petal Barrage** | — | Targeted midair AoE; huge vs bosses/groups; combo with a Koo attack |
 | **Tracking Shot** | Florescence 7 | Arrows infuse with blight and track enemies |
-| **Cloaking Grass** | — | Up to 15s stealth while crouching — easy executions |
+| **Cloaking Grass** | — | Grants stealth while crouching — easy executions |
 | **Expand Entanglement Gauge** | — | Bigger gauge; more Bloom Skills and longer Overdrive |
 | **Instant Entanglement** | — | Refills the Entanglement Gauge instantly — save button in crowded fights |
 | **Entanglement Overdrive** | Strength | Slow time + massive damage burst (core of the Thunderwave endgame build) |
@@ -59,7 +59,7 @@ FP refills when Emma **successfully parries**. Open the slow-motion quick menu (
 | **Acid Burst** | Nushi Skill (Corvus, Ch. 7) | The only **Acid** Art for Koo |
 | **Lay Landmine / Lay Flame Trap** | Pounce research | Battlefield control traps |
 | **Emergency Medicine** | Research | Emergency healing for Emma |
-| **Bolt Shard** | Research | 100 Shock buildup projectile |
+| **Bolt Shard** | Research | High Shock buildup projectile |
 
 ### 2. Roots — Passive Skills (three categories)
 

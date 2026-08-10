@@ -65,6 +65,7 @@ export default function TierListPage() {
       <div className="bg-[#1a1a3e] border border-[#2a2a5e] rounded-lg p-5">
         <h3 className="text-white font-semibold mb-2">A Note on Tier Lists</h3>
         <p className="text-gray-400 text-sm leading-relaxed">
+          These rankings are editorial and community-based — they are player opinions informed by the launch build, not official game data.
           IRON NEST is not a game where one shell beats everything — every shot is mission-driven, and High Command often dictates ordnance.
           HE ranks high because it is cheap, reliable and useful in most engagements. The real "build" is your requisition strategy:
           which shells and upgrades you keep in stock. The 30 advertised ammo types and abilities will likely reshape this list as

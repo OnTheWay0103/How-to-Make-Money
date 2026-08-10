@@ -13,7 +13,6 @@ keywords:
   - "big walk item slots"
 related:
   - "tools-guide"
-  - "tool-locations"
   - "beginner-guide"
   - "multiplayer-coop-guide"
 ---

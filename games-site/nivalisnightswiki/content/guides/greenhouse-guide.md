@@ -6,7 +6,7 @@ version: "Pre-release"
 updated: "2026-08-08"
 date: "2026-08-08"
 keywords: ["nivalis nights greenhouse", "nivalis nights farming", "nivalis nights grow ingredients", "nivalis nights greenhouse guide", "nivalis nights crops", "nivalis nights supply chain", "nivalis nights food costs"]
-related: ["business-management-guide", "money-making-guide", "weather-guide", "fishing-guide"]
+related: ["best-business-guide", "day-night-cycle-guide", "fishing-guide"]
 ---
 
 # Greenhouse Guide — Growing Your Own Ingredients in Nivalis Nights
@@ -21,7 +21,7 @@ Ingredients are the leak in every venue's profit: buy them at market and your ma
 | **Fishing** | Free, time-based | Limited variety; weather affects catches |
 | **Greenhouse crops** | Setup cost, then near-free | Requires time and module management |
 
-The [Business Management Guide](/guides/business-management-guide) calls greenhouse supply the long-term cost killer for a reason: once your beds produce, ingredient price spikes (snow days, shortages) stop hurting you.
+The [Best Business Guide](/guides/best-business-guide) calls greenhouse supply the long-term cost killer for a reason: once your beds produce, ingredient price spikes (snow days, shortages) stop hurting you.
 
 ## Getting Started
 
@@ -50,7 +50,7 @@ Weather is a real factor in greenhouse management:
 - **Snow** — heating demand and temperature management matter more
 - **Clear days** — most stable growing conditions
 
-The [Weather Guide](/guides/weather-guide) has the full climate breakdown — pair it with a daily greenhouse check and you'll never lose a harvest to a cold snap.
+The [Day & Night Cycle & Weather Guide](/guides/day-night-cycle-guide) has the full climate breakdown — pair it with a daily greenhouse check and you'll never lose a harvest to a cold snap.
 
 ## Profitable Greenhouse Routines
 
@@ -59,6 +59,6 @@ The [Weather Guide](/guides/weather-guide) has the full climate breakdown — pa
 3. **Prioritize premium seeds.** Advanced crops enable premium menu items — the highest-margin dishes in the game.
 4. **Weather-proof your staple crops.** Grow enough buffer stock that a snow week never forces you back to full-price markets.
 
-**Next steps:** See how greenhouse produce feeds your venue supply chain in the [Business Management Guide](/guides/business-management-guide), and check the [Money-Making Guide](/guides/money-making-guide) for the profit math behind home-grown ingredients.
+**Next steps:** See how greenhouse produce feeds your venue supply chain — and the profit math behind home-grown ingredients — in the [Best Business Guide](/guides/best-business-guide).
 
 *Based on pre-release information confirmed from the official wiki; greenhouse costs and module details may evolve at launch (September 29, 2026).*

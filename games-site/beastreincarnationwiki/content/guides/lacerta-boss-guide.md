@@ -10,7 +10,7 @@ related: ["nushi-boss-reference", "chapter-progression-guide", "combat-system-gu
 
 # Lacerta Boss Guide — How to Beat the Giant Newt
 
-> Lacerta is the second Nushi of Beast of Reincarnation — a giant, newt-like Malefact fought in the Ancient Civilization Zone in Chapter 2 ("Creeping Tendrils"). You fight it **twice**: a warm-up at the reservoir, then the real two-phase fight at its lair (v1.0.6, August 2026).
+> Lacerta is the second Nushi of Beast of Reincarnation — a giant, newt-like Malefact fought in the Ancient Civilization Zone in Chapter 2 ("Creeping Tendrils"). You fight it **twice**: a warm-up at the reservoir, then the real two-phase fight at its lair (launch version, August 2026).
 
 ---
 
@@ -33,7 +33,7 @@ The first fight's moveset is identical to the rematch's — treat the reservoir 
 
 - **Exploit the weakness**: Lacerta is weak to **Shock**, so bring the **Thunderwave Sword** (its Tempest ability calls down lightning strikes on nearby enemies) and **Lightning Arrows** for ranged play.
 - **Koo loadout**: equip **Bolt Shard** (Koo auto-throws Shock damage) and the **Frailty Fang** skill amber to weaken the boss. Save the **Antidote** and **Recovery Tonic** for when Poison stacks up.
-- **Poison defense**: the **Thick Cuirass** (60 Poison resistance, earned earlier in Chapter 2) is the single best armor for this fight.
+- **Poison defense**: the **Thick Cuirass** (high Poison resistance, earned earlier in Chapter 2) is the single best armor for this fight.
 - **Bind helps**: a Bind Bloom Art (Higanbana: Roots) locks Lacerta in place for a free punish window — useful when the salamander summons its adds.
 - **Stock lightning projectiles** — this fight has a strong ranged component and runs through ammo fast.
 

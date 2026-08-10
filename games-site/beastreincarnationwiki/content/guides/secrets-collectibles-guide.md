@@ -10,7 +10,7 @@ related: ["beginner-guide", "nushi-boss-reference", "spirit-stones-guide", "chap
 
 # Hidden Secrets & Collectibles — Everything You Can Miss
 
-> The verified secrets of Beast of Reincarnation (v1.0.6, August 2026). The game rewards patient exploration: Dragon Shrines, hidden strongboxes, environmental hints, and a few genuinely nasty surprises. Late-game secrets are still being discovered by the community — this page will grow.
+> The verified secrets of Beast of Reincarnation (launch version, August 2026). The game rewards patient exploration: Dragon Shrines, hidden strongboxes, environmental hints, and a few genuinely nasty surprises. Late-game secrets are still being discovered by the community — this page will grow.
 
 ---
 

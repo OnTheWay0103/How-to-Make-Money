@@ -37,7 +37,7 @@ export default function TierListPage() {
   return (
     <div className="max-w-3xl mx-auto px-4 py-12">
       <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">Tool Tier List</h1>
-      <p className="text-gray-400 mb-2">Big Walk has no combat — these are the tools that win co-op puzzles. Rankings based on the launch build (August 4, 2026) and pre-release previews.</p>
+      <p className="text-gray-400 mb-2">Big Walk has no combat — these are the tools that win co-op puzzles. Rankings based on the launch build (August 4, 2026) and pre-release previews. See the <a href="/guides/tools-guide" className="text-amber-400 hover:underline">Tools Guide</a> for how each tool works and where to find it.</p>
       <div className="inline-flex items-center gap-1 text-xs font-medium px-2 py-0.5 rounded bg-amber-900/30 text-amber-400 border border-amber-800/50 mb-8">Launch day — will be refined as the community plays</div>
 
       {[{ title: 'Overall Rankings', tiers: TOOL_TIERS }, { title: 'Small Groups (2-3 Players)', tiers: SMALL_GROUP_TIERS }, { title: 'Big Groups (4-12 Players)', tiers: BIG_GROUP_TIERS }].map((section) => (

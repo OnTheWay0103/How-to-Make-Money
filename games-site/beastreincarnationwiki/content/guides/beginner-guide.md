@@ -10,7 +10,7 @@ related: ["combat-system-guide", "skill-tree-overview", "nushi-boss-reference", 
 
 # Beast of Reincarnation — Beginner's Guide (First 5 Hours)
 
-> Launch build v1.0.6 · Updated August 8, 2026
+> Launch Version / Updated: August 8, 2026
 
 Welcome to post-apocalyptic Japan, year 4026. You are **Emma the Sealer** — an 18-year-old woman fused with the parasitic plant force called the **Blight** — and you have one companion: **Koo**, a white dog who is secretly a Malefact, one of the very creatures you hunt. Together you travel from the eastern countryside toward the Capital to slay the Beast of Reincarnation, absorbing the power of every giant **Nushi** you defeat along the way.
 
@@ -58,7 +58,7 @@ Skill points are **shared between Emma and Koo** — spend deliberately.
 
 | Priority | Skill | Owner | Why |
 |----------|-------|-------|-----|
-| 1 | **Recovery Effect Boost** | Emma | Up to +42.5% healing — healing is scarce early |
+| 1 | **Recovery Effect Boost** | Emma | Significantly boosts healing — healing is scarce early |
 | 2 | **Roll** | Emma | Your answer to unblockable attacks |
 | 3 | **Detect Hidden Item** | Koo (Pounce 2+) | Finds seeds, strongboxes, and valuables — pays for itself |
 | 4 | **Taunt** | Koo | Aggro off Emma = free healing and combos |

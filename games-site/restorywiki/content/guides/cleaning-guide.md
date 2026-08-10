@@ -7,7 +7,6 @@ version: '1.0.0'
 updated: '2026-08-09'
 related:
   - repair-process-guide
-  - tricky-repairs-guide
   - tool-equipment-guide
   - achievement-guide
 ---
@@ -83,7 +82,7 @@ Before ordering any replacement part, check the notepad — the part you think i
 2. **Buy a whole device** of the same type and scrap the stuck part.
 3. **Store the dirty part in the box on the left** of the workbench and retrieve it — this reportedly resets the part's cleaning state for some players.
 
-If none of these work, the part may be genuinely bugged in your save. This is tracked in the [Known Issues & Bugs Guide](/guides/known-issues-guide).
+If none of these work, the part may be genuinely bugged in your save. This is tracked in the [FAQ guide's Known Issues section](/guides/faq-content#known-issues-bugs).
 
 ---
 
@@ -123,7 +122,6 @@ The two counters accumulate across every order — hand-cleaning small parts alo
 
 ## Related Guides
 
-- [Repair Process & Mechanics Guide](/guides/repair-process-guide) — where cleaning fits in the repair loop
+- [Repair Process & Mechanics Guide](/guides/repair-process-guide) — where cleaning fits in the repair loop, including tricky-device pitfalls
 - [Tools & Equipment Catalog](/guides/tool-equipment-guide) — brush upgrades, Sonic Bath and canned air pricing
-- [Hardest Repairs Guide](/guides/tricky-repairs-guide) — the cleaning pitfalls on tricky devices
 - [Achievement Guide](/guides/achievement-guide) — all cleaning-related achievements in context

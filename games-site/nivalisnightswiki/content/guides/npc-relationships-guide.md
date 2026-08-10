@@ -11,7 +11,7 @@ related: ["apartment-customization-guide", "beginner-guide", "fishing-guide"]
 
 # NPC Relationships Guide — Key NPCs, Friends, Rivals & Romance in Nivalis Nights
 
-The city of Nivalis is alive — more than 100 voiced citizens (135 by some counts) with their own schedules, routines, and stories walk its streets while you run your business. Relationships aren't a side feature: they shape your business, unlock content, and drive the life-sim half of the game.
+The city of Nivalis is alive — 135 voiced citizens with their own schedules, routines, and stories walk its streets while you run your business. Relationships aren't a side feature: they shape your business, unlock content, and drive the life-sim half of the game.
 
 This guide covers how relationships work, the key NPCs we know about, and how to pursue friends, rivals, and romance.
 
@@ -73,7 +73,7 @@ NPCs have problems. Helping with theirs is the fastest path to friendship — an
 Not everyone will like you — and not everyone should. Rivalries are a designed feature:
 
 - **Business rivalry:** Dominate a niche and competitors open nearby. This is the economy's way of keeping you honest.
-- **Personal rivalry:** Choices that harm or disrespect NPCs create enemies who can work against you — sabotaging your reputation, poaching staff, or tipping off the Corps.
+- **Personal rivalry:** Choices that harm or disrespect NPCs create enemies who can work against you — sabotaging your reputation, poaching staff, or tipping off CorpSec.
 
 **Managing rivals:** Rivalries aren't automatically bad — in some neighborhoods, a feared reputation is useful. But choose your enemies deliberately, and never let a rival know your energy-trading routes.
 

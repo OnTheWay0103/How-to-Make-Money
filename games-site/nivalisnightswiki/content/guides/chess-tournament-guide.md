@@ -6,7 +6,7 @@ version: "Pre-release"
 updated: "2026-08-09"
 date: "2026-08-09"
 keywords: ["nivalis nights chess", "nivalis nights chess tournament", "nivalis nights chess guide", "nivalis nights minigames", "nivalis nights how to play chess", "nivalis nights chess rewards"]
-related: ["npc-relationships-guide", "city-districts-guide", "beginner-guide", "money-making-guide"]
+related: ["npc-relationships-guide", "city-districts-guide", "beginner-guide", "best-business-guide"]
 ---
 
 # Chess Tournament Guide — The Chess Scene in Nivalis Nights
@@ -47,7 +47,7 @@ Nothing is unconnected from money in Nivalis Nights. A "high-stakes" tournament 
 
 - **Entry fees** — a high-stakes event rarely lets you play for free. Expect a buy-in that scales with the prestige of the tournament.
 - **Prize pools** — the reward for winning should meaningfully exceed the buy-in, or the tournament wouldn't be high-stakes.
-- **Betting / side wagers** — the city has a gambling underbelly (see the black-market economy in our [Money-Making Guide](/guides/money-making-guide)); chess spectating and side bets would be a natural fit for the crime-adjacent parts of Nivalis.
+- **Betting / side wagers** — the city has a gambling underbelly (see the black-market economy in our [Best Business Guide](/guides/best-business-guide)); chess spectating and side bets would be a natural fit for the crime-adjacent parts of Nivalis.
 
 > **Expectation, not confirmed:** Exact buy-ins, prize amounts, and whether side-betting exists are unknown as of August 2026. Treat tournament economics as a variable to scout at launch — check the tournament venue's pricing before you commit a big chunk of capital.
 
@@ -94,7 +94,7 @@ You can't practice the game's implementation yet, but you can prepare for the *m
 
 ### 1. Fund Your Entry Before You Need It
 
-A "high-stakes" tournament implies a serious buy-in. Your early game is thin on cash — the noodle bar's margins are modest until you reach venue level 3 and hire a Manager. If the chess tournament shows up in your first weeks, you'll want an entry-fee fund that doesn't cannibalize your business capital. See the [Money-Making Guide](/guides/money-making-guide) for the income plan; earmark a slice for the board.
+A "high-stakes" tournament implies a serious buy-in. Your early game is thin on cash — the noodle bar's margins are modest until you reach venue level 3 and hire a Manager. If the chess tournament shows up in your first weeks, you'll want an entry-fee fund that doesn't cannibalize your business capital. See the [Best Business Guide](/guides/best-business-guide) for the income plan; earmark a slice for the board.
 
 ### 2. Keep a Chess Reserve
 
@@ -106,7 +106,7 @@ The social layer of the chess scene is where the real value lives. Befriend the 
 
 ### 4. Expect the Weather to Matter
 
-Nivalis Nights' weather system changes foot traffic, energy prices, and even fishing conditions (see the [Weather Guide](/guides/weather-guide)). It would be surprising if weather didn't affect the chess scene too — a stormy night could mean a packed tournament hall or an empty one, and NPCs who normally play might be sheltering at home. If you're planning a chess day, check the forecast and the newspaper.
+Nivalis Nights' weather system changes foot traffic, energy prices, and even fishing conditions (see the [Day & Night Cycle & Weather Guide](/guides/day-night-cycle-guide)). It would be surprising if weather didn't affect the chess scene too — a stormy night could mean a packed tournament hall or an empty one, and NPCs who normally play might be sheltering at home. If you're planning a chess day, check the forecast and the newspaper.
 
 ### 5. Learn to Read the Room — Literally
 

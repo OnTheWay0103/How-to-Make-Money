@@ -3,7 +3,7 @@ title: "Loading & Aiming Guide — Iron Nest Wiki"
 description: "How to load and aim the guns in IRON NEST: the loading platform sequence, powder charges, turret rotation, elevation control, twin-gun operation and the firing sequence."
 category: "Ballistics"
 version: "1.0"
-updated: "2026-08-06"
+updated: "2026-08-11"
 keywords:
   - "iron nest loading guide"
   - "iron nest how to aim"
@@ -18,7 +18,7 @@ related:
 
 # Loading & Aiming Guide
 
-> Launch Version / Updated: August 6, 2026
+> Launch Version / Updated: August 11, 2026
 
 Everything between the firing card and the impact: loading shells and charges, traversing the turret, setting elevation, and pulling the cord. This is where the simulator lives — most of your playtime happens here, and it is also where the most expensive mistakes are made.
 
@@ -98,7 +98,7 @@ The recoil shakes the whole machine. Then the waiting begins: confirmation comes
 Machinery breaks under hard use:
 
 - **Steam leaks** reduce hydraulic pressure and degrade performance — fix them promptly.
-- **Hydraulic pressure** should sit in the optimal 2,500–4,000 PSI range. Over ~5,500 PSI risks a blowout that locks the turret and forces a repair minigame. Feather the valves and let the system cool between large movements.
+- **Hydraulic pressure** should sit in the safe band shown on the gauge (launch-build ranges are documented in the [systems & failures guide](/guides/systems-failure-guide)). Exceeding the ceiling risks a blowout that locks the turret and forces a repair minigame. Feather the valves and let the system cool between large movements.
 - **Clumsy lever work** (slamming the rotation lever, touching the elevation wheel mid-movement) causes jams and damage. Smoothness is speed.
 
 ---

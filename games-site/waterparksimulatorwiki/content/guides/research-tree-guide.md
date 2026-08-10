@@ -5,7 +5,7 @@ category: "Reference"
 version: "1.0"
 updated: "2026-08-08"
 keywords: ["waterpark simulator research", "waterpark simulator research points", "waterpark simulator research table", "waterpark simulator upgrades", "waterpark simulator unlock order", "waterpark simulator research tree"]
-related: ["staff-management-guide", "beginner-guide", "attractions-reference", "endgame-guide"]
+related: ["staff-management-guide", "beginner-guide", "slide-ride-tier-list", "endgame-guide"]
 ---
 
 # Waterpark Simulator Research Tree Overview & Priority Order
@@ -59,7 +59,7 @@ Early game, points are scarce. Known tricks:
 1. **Let vandals spray graffiti** — cleaning it gives good early research gains. (Eject them later.)
 2. **Throw trash bags at objects so they burst** — picking up individual pieces yields more XP than tossing a whole bag.
 3. **Water gun caution** — water-gun cleaning earns **no** research points. In the first days, use the mop even though it's slower, then switch to the gun once points flow.
-4. **Knock-out tricks** (taser spam) were patched at some point — do not build a strategy on them.
+4. **Knock-out tricks** were patched at some point — do not build a strategy on them.
 
 ## Priority Order (1.0)
 
@@ -69,7 +69,7 @@ This is the community-consensus spending order for a normal difficulty run:
 |:--:|--------|----------|-----|
 | 1 | **Hiring Level 1** | Maintenance | Cashier — automates tickets, the #1 time-saver |
 | 2 | **Showers / hygiene** | Park | Guest happiness floor; cheap and early |
-| 3 | **Food stalls** (lemonade) | Attractions | $12/glass profit machine |
+| 3 | **Food stalls** (lemonade) | Attractions | High-margin profit machine |
 | 4 | **Trash bin upgrades** | Park | Faster cleanup loop |
 | 5 | **Water gun** | Maintenance | Cleaning speed — after points are flowing |
 | 6 | **Floor Tool** | Park | Path/floor laying time-saver |
@@ -87,6 +87,6 @@ This is the community-consensus spending order for a normal difficulty run:
 ## Related Guides
 
 - [Staff Management Guide](/guides/staff-management-guide) — the hiring side of the Maintenance tree
-- [All Attractions Quick Reference](/guides/attractions-reference) — what the Attractions tree unlocks
+- [Slide & Ride Tier List & Attractions Reference](/guides/slide-ride-tier-list) — what the Attractions tree unlocks
 - [Beginner Guide](/guides/beginner-guide) — first-hours research decisions
 - [Endgame Guide](/guides/endgame-guide) — the Museum's separate research bench

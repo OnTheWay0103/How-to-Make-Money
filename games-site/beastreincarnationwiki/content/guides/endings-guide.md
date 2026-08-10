@@ -5,12 +5,12 @@ category: "Endgame"
 version: "1.0.6"
 updated: "2026-08-09"
 keywords: ["beast of reincarnation endings", "how many endings beast of reincarnation", "beast of reincarnation true ending", "does koo die", "beast of reincarnation epilogue"]
-related: ["endgame-post-game-guide", "new-game-plus-guide", "chapter-progression-guide", "faq"]
+related: ["endgame-post-game-guide", "chapter-progression-guide", "elemental-builds-guide", "faq"]
 ---
 
 # Endings Guide — How Many Endings & How to Reach Them
 
-> The short answer: as of v1.0.6 (August 2026), Beast of Reincarnation has **one main ending** — a 13-chapter story plus an epilogue — with **no verified alternate or "true" endings** branching from player choices. This guide covers what the ending is, what it unlocks, and what players are still investigating.
+> The short answer: as of the launch version (August 2026), Beast of Reincarnation has **one main ending** — a 13-chapter story plus an epilogue — with **no verified alternate or "true" endings** branching from player choices. This guide covers what the ending is, what it unlocks, and what players are still investigating.
 
 ---
 
@@ -20,7 +20,7 @@ related: ["endgame-post-game-guide", "new-game-plus-guide", "chapter-progression
 |----------|--------|
 | **How many chapters?** | 13 + an epilogue ("Epilogue: Bearing Fruit") |
 | **How many endings?** | **1** (single, linear ending) — no verified alternatives |
-| **Is there a "true ending"?** | No verified secret/true ending as of v1.0.6 — see Awaiting Confirmation |
+| **Is there a "true ending"?** | No verified secret/true ending as of the launch version — see Unverified below |
 | **Does Koo die?** | **No** — Koo survives the entire game and is alive at the credits |
 | **Difficulty requirement?** | None — any difficulty works; no ending is difficulty-gated |
 | **Missables?** | None — every trophy is collectible after the story |
@@ -37,7 +37,7 @@ The story follows Emma the Sealer and Koo from the eastern countryside to the Ca
 What players are still investigating (see Awaiting Confirmation):
 
 - Whether **Koo Rapport Rank 10** or **completionist collectibles** change any post-credits scene (no evidence so far).
-- Whether the **v1.0.6 Deluxe upgrade** or future patches add alternate endings — Game Freak has committed to post-launch content patches.
+- Whether the **Deluxe upgrade** or future patches add alternate endings — Game Freak has committed to post-launch content patches.
 
 ---
 
@@ -53,12 +53,12 @@ The last stretch runs Chapters 10–13 in the Capital:
 | 13 — To Bloom, Then Fall | **Final boss: the Beast of Reincarnation** |
 | Epilogue — Bearing Fruit | Post-credits content |
 
-> The late-chapter structure is still being verified by post-launch guides — boss levels and exact placements for Chapters 10–12 are **awaiting confirmation**.
+> The late-chapter structure is still being verified by post-launch guides — boss levels and exact placements for Chapters 10–12 are **not yet confirmed**.
 
 **Prepare for the ending before the credits:**
 
 1. **Do everything you want pre-ending** — the story is linear, and there's no point of no return warning system, but cleanup is simpler in New Game+ anyway.
-2. **Build your second-run loadout** — the Thunderwave endgame build carries directly into New Game+ ([Endgame Build Guide](/guides/endgame-build-guide)).
+2. **Build your second-run loadout** — the Thunderwave endgame build carries directly into New Game+ ([Elemental Builds Guide](/guides/elemental-builds-guide)).
 3. **Max Koo Rapport** if you can — skills carry over, and the second playthrough is where Rapport milestones pay off ([Koo Rapport Guide](/guides/koo-rapport-guide)).
 
 ---
@@ -69,7 +69,7 @@ The last stretch runs Chapters 10–13 in the Capital:
 - **Reincarnation+ difficulty** — the game's hardest setting, above Hard.
 - **Platinum/100% path** — the achievement list requires a second playthrough, so the ending is really the midpoint of full completion.
 
-Full details: [New Game+ Guide](/guides/new-game-plus-guide) and [Endgame & Post-Game Guide](/guides/endgame-post-game-guide).
+Full details: [Endgame & Post-Game Guide](/guides/endgame-post-game-guide).
 
 ---
 
@@ -83,7 +83,7 @@ Full details: [New Game+ Guide](/guides/new-game-plus-guide) and [Endgame & Post
 
 ## Awaiting Confirmation
 
-- Any hidden ending conditions (community dataminers have not found alternate ending triggers in v1.0.6 as of this writing).
+- Any hidden ending conditions (community dataminers have not found alternate ending triggers in the launch build as of this writing).
 - Exact late-game chapter contents for Chapters 10–12 (boss levels and placements are still being verified post-launch).
 - Whether future patches add post-ending content (boss rushes, expansions).
 

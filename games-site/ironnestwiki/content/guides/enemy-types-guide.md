@@ -3,7 +3,7 @@ title: "Enemy Types & Weak Points — What You're Shooting At — Iron Nest Wiki
 description: "Every enemy target type in IRON NEST: Heavy Turret Simulator — infantry, artillery batteries, armored convoys, bunkers, fire direction centers and supply caches — with behaviors, weak points, and the best shell for each."
 category: "Targeting"
 version: "1.0"
-updated: "2026-08-09"
+updated: "2026-08-11"
 keywords:
   - "iron nest enemy types"
   - "iron nest targets"
@@ -13,14 +13,14 @@ keywords:
   - "iron nest fire direction center"
 related:
   - "shell-types-ammo-guide"
-  - "missions-objectives-guide"
+  - "story-walkthrough-guide"
   - "counter-battery-survival-guide"
   - "ballistic-calculator-guide"
 ---
 
 # Enemy Types & Weak Points Guide
 
-> Launch Version / Updated: August 9, 2026
+> Launch Version / Updated: August 11, 2026
 
 You never see your targets — you read about them, plot them, and shoot at their grid coordinates. Knowing what a target *is* decides everything before the first shell: which shell to load, how hard it is to kill, whether it shoots back, and whether killing it pauses the counter-battery clock. This guide catalogues every confirmed target type in the campaign, its behavior, its weak point, and the cheapest reliable way to kill it.
 
@@ -30,7 +30,7 @@ The community has mapped the campaign's targets into five armor classes. Target 
 
 | Class | Target | Optimal Shell | Kill Difficulty | Shoots Back? |
 |-------|--------|---------------|-----------------|--------------|
-| **Class 1** | Light Infantry Trench | Airburst / shrapnel, or HE | Easy — wide blast radius preferred | No |
+| **Class 1** | Light Infantry Trench | HE | Easy — wide blast radius preferred | No |
 | **Class 2** | Supply Trucks / Light Vehicles | HE (point-detonating) | Easy | No |
 | **Class 3** | Armored Convoy / Mechanized Column | Armor-piercing (AP) | Medium — moving target, must lead | No |
 | **Class 4** | Enemy Artillery Battery | Counter-battery HE / HCHE | Medium — but ZERO tolerance | **Yes — counter-battery fire** |
@@ -44,18 +44,18 @@ Class 4 is the exception to every rule: if you do not silence it fast, it silenc
 
 ### Infantry Trenches (Class 1)
 
-Soft targets with a wide footprint. Any wide-blast shell clears them — HE at 0.27 km radius is the economical choice, HCHE (0.63 km) when they are packed, and airburst/shrapnel is the community's preferred fuse where the round is available. Community practice: use the **Iris** tool on the map to check the blast radius against the trench layout before spending a shell.
+Soft targets with a wide footprint. Any wide-blast shell clears them — HE at 0.27 km radius is the economical choice, HCHE (0.63 km) when they are packed. Community practice: use the **Iris** tool on the map to check the blast radius against the trench layout before spending a shell.
 
 ### Supply Trucks & Light Vehicles (Class 2)
 
-Logistics convoys moving supplies to the front. Soft-skinned, single-shell kills with HE — community guides list a point-detonating HE load with roughly a 45 m lethal radius as the optimal profile. They are worth prioritizing when the briefing mentions them: starving the enemy of supplies weakens later phases.
+Logistics convoys moving supplies to the front. Soft-skinned, single-shell kills with HE. They are worth prioritizing when the briefing mentions them: starving the enemy of supplies weakens later phases.
 
 ### Armored Convoys & Mechanized Columns (Class 3)
 
 Moving armored targets. Two rules:
 
 1. **AP only** — HE splashes off armor. A column of trucks led by an armored vanguard is AP territory from the first shot.
-2. **Lead the target.** The convoy moves while your shell is in the air (up to ~20 seconds at long range), so aim at the road ahead of the vehicles, not at them.
+2. **Lead the target.** The convoy moves while your shell is in the air — potentially a long flight at long range — so aim at the road ahead of the vehicles, not at them.
 
 Community-reported movement behavior: **vehicles follow roads and valleys.** If your intel says "convoy moving east," plot it along the marked road network, not across open ground — and if the radio signal is degraded, this rule is your best guess.
 
@@ -85,7 +85,7 @@ The civil-war setting adds a non-military target class: riots and civil unrest. 
 
 | Spotter Report Language | What It Actually Is | Load |
 |---|---|---|
-| "Trench system", "infantry screen", "dug-in position" | Class 1 infantry | HE / airburst |
+| "Trench system", "infantry screen", "dug-in position" | Class 1 infantry | HE |
 | "Supply column", "trucks on the road" | Class 2 logistics | HE |
 | "Convoy moving east/west", "mechanized column" | Class 3 armor | AP |
 | "Enemy guns", "battery near…" | Class 4 artillery | HE / HCHE |
@@ -109,11 +109,11 @@ The civil-war setting adds a non-military target class: riots and civil unrest. 
 
 | Target | Weak Point | One-Line Tactic |
 |--------|-----------|-----------------|
-| Infantry trenches | Wide blast | HE or airburst; check radius with the Iris |
+| Infantry trenches | Wide blast | HE; check radius with the Iris |
 | Supply trucks | Thin skin | Point-detonating HE, single shot |
 | Armored convoy | Follows roads | Lead the column along the road, AP only |
 | Artillery battery | Clustering | Mark ALL before first shot; HCHE the cluster |
 | Bunker / cache | AP penetration | AP, expect 2+ hits, correct from first impact |
 | FDC | AP + timing | Save the counter-battery pause for when you need it |
 
-**Next steps:** [All Shell Types & Ammo](/guides/shell-types-ammo-guide) — [Missions & Objectives](/guides/missions-objectives-guide) — [Counter-Battery & Survival](/guides/counter-battery-survival-guide)
+**Next steps:** [All Shell Types & Ammo](/guides/shell-types-ammo-guide) — [Story Mode Walkthrough](/guides/story-walkthrough-guide) — [Counter-Battery & Survival](/guides/counter-battery-survival-guide)

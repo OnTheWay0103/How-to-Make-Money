@@ -5,7 +5,7 @@ category: "Reference"
 version: "1.0"
 updated: "2026-08-08"
 keywords: ["waterpark simulator money", "waterpark simulator make money fast", "waterpark simulator profit", "waterpark simulator best food stall", "waterpark simulator ticket price", "waterpark simulator earn money"]
-related: ["slide-ride-tier-list", "beginner-guide", "attractions-reference", "visitor-happiness-guide"]
+related: ["slide-ride-tier-list", "beginner-guide", "visitor-happiness-guide", "research-tree-guide"]
 ---
 
 # How to Make Money Fast in Waterpark Simulator
@@ -39,8 +39,8 @@ Star rating is the master lever. Everything that raises your rating — clean wa
 
 | Attraction | ROI Profile | When to Build |
 |------------|-------------|---------------|
-| **Hot dog stand** | One of the best early money-makers. Restock a pack for ~$25; customers order plain/ketchup/mustard/both. | Day 1-2, next to the ticket booth |
-| **Lemonade stand** | Sells at ~$12 per glass (research unlock) — near-pure margin | As soon as researched |
+| **Hot dog stand** | One of the best early money-makers. Restocking is cheap; customers order plain/ketchup/mustard/both. | Day 1-2, next to the ticket booth |
+| **Lemonade stand** | Sells at a high margin (research unlock) — near-pure profit | As soon as researched |
 | **Wave pool** | Biggest crowd-per-square-meter; drives ticket + food revenue | Once staffed and clean |
 | **Custom mega-slides** | Flagship earners; justify Slide Pass ticket add-ons | Mid-game, one at a time |
 | **Vending machines** | Lower margin than stalls, but zero staff and zero breaks | Late-mid-game filler |
@@ -50,14 +50,14 @@ Star rating is the master lever. Everything that raises your rating — clean wa
 
 ## The Ejection Economy
 
-Pushing out intruders pays — roughly **~$30 per ejection**:
+Pushing out intruders pays — **a cash bonus per ejection**:
 
 - Ticket cheaters (no bracelet)
 - Drunks (green bubbles)
 - Vandals (spray cans)
 - Perverts (cameras)
 
-That is money AND happiness AND safety in one action. The boxing glove at the front desk, then the water pressure gun at 4 stars, make ejections faster. Note: this is a *bonus* economy, not a farm — don't build a park around it, but never skip an ejection.
+That is money AND happiness AND safety in one action. The boxing glove at the front desk, then the water pressure gun around 4 stars, make ejections faster. Note: this is a *bonus* economy, not a farm — don't build a park around it, but never skip an ejection.
 
 ## Pricing Strategy
 
@@ -69,12 +69,12 @@ That is money AND happiness AND safety in one action. The boxing glove at the fr
 | Night mode (1.0) | Watch the wage bill — only run nights if revenue beats it |
 | Slide Pass add-on | Only charge it when you have a slide worth the premium |
 
-**Flyers cost $5 each** and draw waves of guests. Target older people, students, and guests who look like they have money — not drunks. Never spam flyers before your park can serve the crowd.
+**Flyers cost a small fee each** and draw waves of guests. Target older people, students, and guests who look like they have money — not drunks. Never spam flyers before your park can serve the crowd.
 
 ## Cost Control (The Other Half of Profit)
 
 - **Restock before opening** — running out mid-day costs sales.
-- **Staff efficiency over price** — a 100% efficiency cashier at $100/day beats a 70% one at $90.
+- **Staff efficiency over price** — a high-efficiency cashier beats a cheaper but slower one.
 - **Hire the one extra staffer only when needed** — the tax on over-allocation is a silent leak.
 - **Repair at closing** (or use night hours in 1.0) — never during peak revenue hours.
 - **Ambulance fees are avoidable** — full pools + life preservers = no injuries = no fees.
@@ -91,6 +91,6 @@ That is money AND happiness AND safety in one action. The boxing glove at the fr
 ## Related Guides
 
 - [Slide & Ride Tier List](/guides/slide-ride-tier-list) — the full attraction ranking
-- [All Attractions Quick Reference](/guides/attractions-reference) — cost and upkeep table
+- [Slide & Ride Tier List & Attractions Reference](/guides/slide-ride-tier-list) — cost and upkeep table
 - [Visitor Management & Happiness Guide](/guides/visitor-happiness-guide) — the revenue side of happiness
 - [Beginner Guide](/guides/beginner-guide) — first 3 hours, step by step

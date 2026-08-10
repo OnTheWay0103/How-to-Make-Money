@@ -51,7 +51,7 @@ ReStory is **single-player only** — no co-op or multiplayer.
 
 ## System Requirements (PC)
 
-Only minimum specs are published as of August 2026 (待验证 — recommended specs not yet released).
+The following minimums are as published on the official Steam store listing as of August 2026 (recommended specs not yet released — unverified).
 
 **Minimum (Windows):**
 - OS: Windows 10 x64
@@ -110,4 +110,4 @@ The **default controller layout is unfinished** — rotation is hard without a r
 - Dislike cleaning/disassembly loops
 - Want a short game (15+ hours is a commitment)
 
-At $17.99 during the launch window, with a 98% Overwhelmingly Positive rating and Metacritic 84, this is one of the strongest cozy-sim launches of 2026.
+At $17.99 during the launch window, with an Overwhelmingly Positive Steam rating and strong critical reception, this is one of the strongest cozy-sim launches of 2026.

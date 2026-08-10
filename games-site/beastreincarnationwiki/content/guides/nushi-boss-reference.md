@@ -10,7 +10,7 @@ related: ["tier-list", "combat-system-guide", "elemental-builds-guide", "chapter
 
 # Nushi Boss Quick Reference — Every Boss, Weakness & Drop
 
-> Quick-scan reference table for all verified bosses in Beast of Reincarnation (v1.0.6, August 2026). Levels and weaknesses are verified from launch guides; entries marked "awaiting confirmation" will be filled in as post-launch guides publish.
+> Quick-scan reference table for all verified bosses in Beast of Reincarnation (launch version, August 2026). Levels and weaknesses are verified from launch guides; entries marked "awaiting confirmation" will be filled in as post-launch guides publish.
 
 ---
 

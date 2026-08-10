@@ -4,7 +4,7 @@ import JsonLd from '@/components/JsonLd';
 import GuideCard from '@/components/GuideCard';
 
 const FEATURED_GUIDES = [
-  { title: 'Beginner Guide: How to Play', description: 'New to the Iron Nest? Learn the core loop — read orders, plot targets, calculate ballistics, load shells, aim and fire — plus the six stations inside the turret.', slug: 'beginner-guide', category: 'Beginner', updated: '2026-08-06' },
+  { title: 'Beginner Guide: How to Play', description: 'New to the Iron Nest? Learn the core loop — read orders, plot targets, calculate ballistics, load shells, aim and fire — plus every station inside the turret.', slug: 'beginner-guide', category: 'Beginner', updated: '2026-08-06' },
   { title: 'Tactical Map & Measurements Guide', description: 'The complete guide to the 20×10 tactical map: the grid and sub-grid system, map tokens, colored pencils, the drafting compass and how to read spotter reports.', slug: 'map-measurements-guide', category: 'Map', updated: '2026-08-06' },
   { title: 'How to Find Targets — Spotting & Triangulation', description: 'Pinpoint enemy positions from bearings, distances and vague intel: two-bearing triangulation, compass intersections and dead reckoning for blind fire.', slug: 'target-spotting-guide', category: 'Targeting', updated: '2026-08-06' },
   { title: 'Ballistic Calculator Guide', description: 'Every input on the ballistic calculator explained: distance, bearing, shell type, powder charges, target classification — and how to read the firing card.', slug: 'ballistic-calculator-guide', category: 'Ballistics', updated: '2026-08-06' },
@@ -20,7 +20,7 @@ const FAQ_ITEMS = [
   { question: 'How many shell types are there?', answer: 'The game features 30 unlockable ammo types and abilities. At launch the confirmed shells are HE, high-capacity HE, armor-piercing, S.T.A.R. illumination, smoke, phosgene gas and tear gas.' },
   { question: 'Is there multiplayer?', answer: 'No. IRON NEST is a strictly single-player experience — it is just you, the machine, and High Command. The challenge modes are solo runs for leaderboard scores.' },
   { question: 'How long is the game?', answer: 'The full campaign features 15 regions with a handcrafted story and newspaper reports, while objectives are procedurally generated for endless replayability. A full-clear playtime has not been confirmed yet.' },
-  { question: 'Is there a free demo?', answer: 'Yes. The IRON NEST demo is available on Steam and received an Overwhelmingly Positive rating (99% positive) — it is one of the best-rated Steam Next Fest demos of the year.' },
+  { question: 'Is there a free demo?', answer: 'Yes. The IRON NEST demo is available on Steam and received an Overwhelmingly Positive rating — it was one of the most-played demos of its Steam Next Fest.' },
 ];
 
 export default function Home() {

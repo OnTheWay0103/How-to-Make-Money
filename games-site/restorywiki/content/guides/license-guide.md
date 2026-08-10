@@ -9,7 +9,7 @@ related:
   - device-database
   - money-making-guide
   - achievement-guide
-  - tricky-repairs-guide
+  - repair-process-guide
 ---
 
 ## Overview
@@ -40,7 +40,7 @@ related:
 
 ## License Buying Priority
 
-The exact license list, prices and unlock order are still being mapped (待验证) — but the confirmed buying logic is:
+The exact license list, prices and unlock order are still being mapped (unverified) — but the confirmed buying logic is:
 
 | Priority | License Type | Why |
 |----------|--------------|-----|
@@ -61,7 +61,7 @@ Yes — but you cannot finish the repair. The device stays in your workshop unti
 No. A license guarantees you can *order* exact new parts — it doesn't make parts cheaper. Its value is unlocking device types and story progress.
 
 **How many licenses are there?**
-Unconfirmed (待验证). Achievement milestones reference acquiring 1, 5, all, and "the most expensive" license — suggesting a modest but real roster.
+Unconfirmed (unverified). Achievement milestones reference acquiring 1, 5, all, and "the most expensive" license — suggesting a modest but real roster.
 
 **What happens if I can't afford a license?**
 Keep working other jobs. The license system is a money gate, not a time gate — nothing is locked forever.

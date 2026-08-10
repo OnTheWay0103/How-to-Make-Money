@@ -1,22 +1,22 @@
 ---
 title: 'All Devices & Repair Database — Every Device You Can Repair'
-description: 'Complete ReStory: Chill Electronics Repairs device database — all 16+ launch devices across 7 categories, officially licensed Atari hardware vs. parody brands, license-gated device types, and repair complexity notes.'
-keywords: ['restory all devices', 'restory device list', 'restory repair database', 'restory atari 2600', 'restory pokia 3310', 'restory eggotchi', 'restory devices you can repair', 'restory nony goman']
+description: 'Complete ReStory: Chill Electronics Repairs device database — all 16+ launch devices across 7 categories, officially licensed Atari hardware vs. parody brands, license-gated device types, repair complexity, and which devices are worth buying for resale and salvage.'
+keywords: ['restory all devices', 'restory device list', 'restory repair database', 'restory atari 2600', 'restory pokia 3310', 'restory eggotchi', 'restory devices you can repair', 'restory nony goman', 'restory valuable devices', 'restory best devices to flip', 'restory salvage parts']
 category: Reference
 version: '1.0.0'
 updated: '2026-08-08'
 related:
   - license-guide
   - repair-process-guide
-  - tricky-repairs-guide
   - achievement-guide
+  - money-making-guide
 ---
 
 ## Overview
 
 ReStory's launch catalog contains roughly **16 named device types across 7 categories**. Some use **officially licensed Atari branding**; the rest are legally distinct parodies of classic Y2K hardware (the Nokia 3310 becomes the "Pokia 3310", the Motorola Razr becomes the "Autorolla Razor", and so on).
 
-**Important:** the catalog is not available all at once. Device types unlock through the **license system** — buy a license and new categories of devices start appearing in your order queue. Some marketing materials cite "2,000+ devices"; as of the launch build that figure is **unconfirmed (待验证)** — the confirmed roster is below, with individual device *instances* (colors, conditions, orders) scaling up through repeat and online orders.
+**Important:** the catalog is not available all at once. Device types unlock through the **license system** — buy a license and new categories of devices start appearing in your order queue. Some marketing materials cite "2,000+ devices"; as of the launch build that figure is **unconfirmed (unverified)** — the confirmed roster is below, with individual device *instances* (colors, conditions, orders) scaling up through repeat and online orders.
 
 ---
 
@@ -40,7 +40,7 @@ ReStory's launch catalog contains roughly **16 named device types across 7 categ
 | **Unicorp 99L** | Flashlight | Parody | Simple internals; easy early job |
 | **Robodog** | Robot pet | Parody | Aibo-style robot dog |
 
-### Additional Device Types Reported (待验证)
+### Additional Device Types Reported (Unverified)
 
 The following types appear in reviews and press material but are not yet fully mapped:
 
@@ -74,25 +74,51 @@ The following types appear in reviews and press material but are not yet fully m
 
 ---
 
-## Device Complexity Quick Reference
+## Device Complexity & Value Quick Reference
 
-| Complexity | Devices | What Makes Them Hard |
-|-----------|---------|---------------------|
-| **Easy** | Walkie-talkie, Unicorp 99L, Atari CX40, Eggotchi | Few parts, no moving mechanisms |
-| **Medium** | Pokia 3310, Pokia Njoy, Autorolla Razor, Palaloid, Atari 2600, Atari Lynx | Tiny circuit boards, keypads, screen assemblies |
-| **Hard** | Nony Goman | Cassette mechanism with many small moving parts |
+| Complexity | Devices | What Makes Them Hard | Value Profile |
+|-----------|---------|---------------------|---------------|
+| **Easy** | Walkie-talkie, Unicorp 99L, Atari CX40, Eggotchi | Few parts, no moving mechanisms | Cheap to buy, cheap to sell — best as clean-only margin jobs |
+| **Medium** | Pokia 3310, Pokia Njoy, Autorolla Razor, Palaloid, Atari 2600, Atari Lynx | Tiny circuit boards, keypads, screen assemblies | Constant demand; the Razor is the one device where new-part builds reportedly break even (community reports — exact figures unverified) |
+| **Hard** | Nony Goman | Cassette mechanism with many small moving parts | High repair payout, but the most involved job — many small parts |
+| **Premium** | Nony PlayMachine, Patento BS, Robodog, laptop-class devices | Licensed consoles and premium categories arrive later | Highest-paying repairs once licensed; expensive to stock parts for |
+
+**Licensed Atari hardware (2600, Lynx, CX40)** carries collector appeal on top of its repair value — real branding, and devices that appear across the campaign.
 
 ---
 
 ## Which Devices Appear When?
 
-Device availability is gated by **licenses**, and licenses are gated by money. The exact license-to-device mapping is still being mapped by the community (待验证), but the confirmed progression shape is:
+Device availability is gated by **licenses**, and licenses are gated by money. The exact license-to-device mapping is still being mapped by the community (unverified), but the confirmed progression shape is:
 
 1. **Start:** simple devices (flashlights, walkie-talkies, basic phones)
 2. **Tier 2 license:** a handheld console tier (PSP-style devices per early reports)
 3. **Later tiers:** laptops, cameras, robot dogs and other premium categories
 
 See the [License System Guide](/guides/license-guide) for the full progression picture.
+
+---
+
+## Value & Flipping: What to Buy on the Marketplace
+
+The Marketplace (flea market) is a gamble with a skill floor. Most listings are junk, seller ratings don't guarantee condition, and buying the wrong device at the wrong price erases your profit in one repair. Community consensus from launch-week play:
+
+- **The Autorolla Razor exception.** The Razor is widely reported as the one device where building from brand-new parts at least breaks even — the exception that proves the rule. For nearly every other device, paying retail for new components and selling the finished product loses money.
+- **Restoration beats manufacturing.** The game's real economy is *restore, don't build*: buy broken cheap, repair only what's broken, sell high.
+- **Margins are thin.** Most flips sell for only a modest amount above their purchase price — one significant repair cost (a screen, a board) can erase the entire margin. Buy cheap or don't buy.
+- **Buying rules:** only buy when the price is far below finished sale value; assume seller ratings lie; keep cash reserves; don't outpace your bench; keep customer orders separate from resale stock.
+
+### Salvage: Where the Real Value Is
+
+Even a failed flip is a parts donor. The most valuable salvage targets (community-confirmed):
+
+- **LCD assemblies** — screens are among the most common failures and most expensive parts
+- **Button membranes & keypads** — fail constantly, cheap to stockpile
+- **Speakers** — small, frequent failures
+- **Battery connectors & flex cables** — fragile, regularly damaged
+- **Screws & brackets** — free assembly fuel
+
+**The habit that matters:** salvage aggressively from every junk device you buy. A device that loses money as a flip still pays for itself as a parts donor — and stocked parts make future orders take minutes instead of days. Full marketplace mechanics and the online-order system are covered in the [Money & Profit Guide](/guides/money-making-guide).
 
 ---
 
@@ -107,4 +133,4 @@ See the [License System Guide](/guides/license-guide) for the full progression p
 
 ## Updates to This Database
 
-This table reflects the launch build (v1.0.0, August 6, 2026). The catalog is expected to grow with updates; new devices will be added here as they are confirmed. Unverified entries are marked 待验证.
+This table reflects the launch build (v1.0.0, August 6, 2026). The catalog is expected to grow with updates; new devices will be added here as they are confirmed. Unverified entries are marked as such.

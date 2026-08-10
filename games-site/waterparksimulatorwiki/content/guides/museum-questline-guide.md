@@ -5,7 +5,7 @@ category: "Reference"
 version: "1.0"
 updated: "2026-08-08"
 keywords: ["waterpark simulator museum", "waterpark simulator museum questline", "waterpark simulator poseidon't", "waterpark simulator clara loft", "waterpark simulator goldie", "waterpark simulator yogi", "waterpark simulator theme slides", "waterpark simulator aztec pirate ocean"]
-related: ["endgame-guide", "beginner-guide", "research-tree-guide", "attractions-reference"]
+related: ["endgame-guide", "beginner-guide", "research-tree-guide", "slide-ride-tier-list"]
 ---
 
 # Museum Questline Walkthrough — All NPCs, Currencies & Rewards
@@ -69,7 +69,7 @@ After completing **all three** Museum NPC questlines, a special NPC called **the
 **Yes** — with one honest caveat:
 
 - Completing all Museum quests and unlocking most of one theme's decor gets you close to that theme's **ultimate waterslide and pool**. Building it boosts customers and significantly improves your park rating.
-- The caveat: some players find the quest system boring — one Steam Community review called it a "to-do list" roadblock to new content. It is busywork-flavored, but the rewards (giant themed slides) are unique and can't be bought any other way.
+- The caveat: some players find the quest system repetitive — a common complaint in Steam reviews is that it feels like a "to-do list" roadblock to new content. It is busywork-flavored, but the rewards (giant themed slides) are unique and can't be bought any other way.
 
 ## Quick Reference Summary
 
@@ -86,6 +86,6 @@ After completing **all three** Museum NPC questlines, a special NPC called **the
 ## Related Guides
 
 - [Endgame Guide](/guides/endgame-guide) — what comes after the Museum
-- [All Attractions Quick Reference](/guides/attractions-reference) — theme slide stats
+- [Slide & Ride Tier List & Attractions Reference](/guides/slide-ride-tier-list) — theme slide stats
 - [Beginner Guide](/guides/beginner-guide) — how to reach 2.5 stars fast
 - [Research Tree Overview](/guides/research-tree-guide) — the office tree vs. the Museum bench

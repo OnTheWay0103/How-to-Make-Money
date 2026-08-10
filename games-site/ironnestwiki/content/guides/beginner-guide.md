@@ -1,9 +1,9 @@
 ---
 title: "Beginner Guide: How to Play — Iron Nest Wiki"
-description: "New to IRON NEST: Heavy Turret Simulator? Learn the core loop — read orders, plot targets, calculate ballistics, load shells, aim and fire — plus the six stations inside the turret."
+description: "New to IRON NEST: Heavy Turret Simulator? Learn the core loop — read orders, plot targets, calculate ballistics, load shells, aim and fire — plus every station inside the turret."
 category: "Beginner"
 version: "1.0"
-updated: "2026-08-06"
+updated: "2026-08-11"
 keywords:
   - "iron nest beginner guide"
   - "how to play iron nest"
@@ -18,7 +18,7 @@ related:
 
 # IRON NEST Beginner's Guide — How to Play
 
-> Launch Version / Updated: August 6, 2026
+> Launch Version / Updated: August 11, 2026
 
 Welcome to the Iron Nest. **IRON NEST: Heavy Turret Simulator** is a first-person dieselpunk heavy-artillery simulator developed by Nick Nieuwoudt and Dominik Latos. You are the sole operator of a 5,000-ton walking turret fighting in an alternate-history Spain in the late 1920s, on the brink of civil war. Every lever, every dial, and every shot is under your control — and almost none of it is actually pulling the trigger.
 
@@ -120,14 +120,14 @@ At the trigger station: arm the gun (each gun arms separately), confirm all syst
 - **Verify the bearing twice.** Most misses come from a one-degree error, not a bad calculation.
 - **Load last, aim first?** No — read the correct order: shells are cheap, but a shell in the wrong gun barrel is a wasted mission. Check shell type AND charge count before ramming.
 - **Keep the map clean.** Erase old plotting lines and remove stale tokens; a cluttered map slows you down mid-mission.
-- **Watch the hydraulic gauge.** Keep pressure in the 2,500–4,000 PSI range and feather the valves — slamming levers causes malfunctions and a repair minigame.
+- **Watch the hydraulic gauge.** Keep pressure in the safe band shown on the gauge and feather the valves — slamming levers causes malfunctions and a repair minigame (see the [systems & failures guide](/guides/systems-failure-guide)).
 - **Do not hoard requisition credits.** They do not carry over between sessions. Spend them on shells and powder before a major operation.
 
 ---
 
 ## What the Game Is (and Isn't)
 
-- It is a **slow, tactile simulation** — one shell takes minutes of preparation. Kotaku called the demo "easily one of the best demos I have ever played" for exactly this reason.
+- It is a **slow, tactile simulation** — one shell takes minutes of preparation. Kotaku called the demo one of the best Steam Next Fest demos of the year for exactly this reason.
 - It is **single-player only** — no multiplayer, no co-op. Just you, the machine, and High Command.
 - It is **not a math exam** — the machines calculate everything. Your job is to feed them the right inputs in the right order.
 - It has **procedurally generated objectives** — no two deployments are identical, and 15 regions, 100+ medals and 2 challenge modes give you reasons to keep firing.

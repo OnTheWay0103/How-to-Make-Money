@@ -24,7 +24,7 @@ Big Walk launched on August 4, 2026 on Steam (PC and Mac), PS5, and Nintendo Swi
 | [Multiplayer & Co-op Guide](/guides/multiplayer-coop-guide) | Setting up with friends | Starter |
 | [Tools Guide](/guides/tools-guide) | Walkie-talkies, binoculars, flares & more | Starter |
 | [Puzzles Guide](/guides/puzzles-guide) | Puzzle mechanics & co-op tips | Intermediate |
-| [Hidden Secrets Guide](/guides/hidden-secrets-guide) | Quests, gourds & secret areas | Intermediate |
+| [Hidden Secrets Guide](/guides/hidden-secrets-guide) | Gourd locations, quests & secret areas | Intermediate |
 | [Island Exploration Guide](/guides/island-exploration-guide) | Navigation without a map | Intermediate |
 | [Walkthrough Guide](/guides/walkthrough-guide) | Main progression path | Intermediate |
 | [Tips & Tricks](/guides/tips-and-tricks) | Advanced co-op strategies | Advanced |
@@ -45,7 +45,7 @@ Big Walk is co-op only: 2-12 players, no matchmaking, full crossplay. Here is ho
 The walkie-talkie is your lifeline, the binoculars are your map. Every confirmed tool and toy in Big Walk, explained. [Browse the tools →](/guides/tools-guide)
 
 ### Hidden Secrets
-Gourds are the keys to everything. What early players have discovered about hidden questlines and secret areas. [Find the secrets →](/guides/hidden-secrets-guide)
+Gourds are the keys to everything — where to find them, plus the hidden questlines and secret areas early players are uncovering. [Find the secrets →](/guides/hidden-secrets-guide)
 
 ---
 

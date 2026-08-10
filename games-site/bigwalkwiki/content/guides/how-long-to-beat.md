@@ -42,7 +42,7 @@ Big Walk is unusual: its length is **set by your group, not by the game**. Becau
 Two structural factors stretch the game:
 
 1. **The island is huge for a puzzle game.** 1.4 km² is bigger than most open-world games' *entire* play spaces, and it is hand-crafted — every ridge and cove is explorable.
-2. **Gourds gate progression.** Towers consume gourds to open regions, and hidden gourds extend the game naturally — see [Gourd Locations](/guides/gourd-locations).
+2. **Gourds gate progression.** Towers consume gourds to open regions, and hidden gourds extend the game naturally — see the [Hidden Secrets Guide](/guides/hidden-secrets-guide) for gourd types and locations.
 
 ---
 
@@ -114,7 +114,7 @@ Big Walk is **highly replayable** for reasons that have nothing to do with conte
 
 - **Expected early category: Any% (main walk), ~2-3 hours** once routes are mapped — a 7-hour community run with zero routing already suggests a big ceiling for optimization.
 - **Co-op routing challenge:** speedruns need synced groups; expect the community's best times to come from practiced pairs.
-- **Watch the leaderboards:** the game's launch popularity (799K wishlists) means a speedrun community is already forming.
+- **Watch the leaderboards:** the game's launch popularity (a wishlist count in the hundreds of thousands) means a speedrun community is already forming.
 
 ## Comparison to Similar Games
 

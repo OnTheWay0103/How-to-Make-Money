@@ -10,7 +10,7 @@ related: ["nushi-boss-reference", "beginner-guide", "endgame-post-game-guide", "
 
 # Chapter Progression Guide — All 13 Chapters & Key Unlocks
 
-> Full chapter-by-chapter progression reference for Beast of Reincarnation. The story runs **13 chapters plus an epilogue** through post-apocalyptic Japan (year 4026), from the eastern countryside to the Capital. Verified from launch walkthroughs (v1.0.6, August 2026).
+> Full chapter-by-chapter progression reference for Beast of Reincarnation. The story runs **13 chapters plus an epilogue** through post-apocalyptic Japan (year 4026), from the eastern countryside to the Capital. Verified from launch walkthroughs (launch version, August 2026).
 
 ---
 
@@ -24,7 +24,7 @@ related: ["nushi-boss-reference", "beginner-guide", "endgame-post-game-guide", "
 | 4 | **Stems** | Pilgrim's Zone | Taurus (Lv. 26 → 29). Unlocks Taurean Memories → Charging Botan |
 | 5 | **Branching Paths** | Matsukawa Zone | **Rangifer rematch (Lv. 32)** — two health bars |
 | 6 | **Necrosis** | Fuji Frontier Zone | Drowned-zone survival; region transitions |
-| 7 | **Root Rot** | Giant Tree Zone | **Corvus (Lv. 35 → 38)** — two-phase; drops Nushi Skill: Acid Burst |
+| 7 | **Root Rot** | Giant Tree Zone | **Corvus (Lv. 38 → 41)** — two-phase; drops Nushi Skill: Acid Burst |
 | 8 | **Worm Food** | Crater Zone | **Kunai & Kirin first fight** (verified); Ursa fight also expected here (awaiting confirmation) |
 | 9 | **Branching Out** | Inukami River Zone | Region continues the Crater–Capital route |
 | 10 | **Malefact** | Starfall Tower | Shidou & Nue paired fight expected (awaiting confirmation) |
@@ -81,10 +81,11 @@ Defeating a Nushi lets Emma **absorb its power** and unlocks its Nushi Skill —
 
 ## Game Length by Chapter
 
-- Chapters 1–4: ~8–10 hours (learning curve + bosses)
-- Chapters 5–9: ~8–10 hours (mid-game, repeated Nushi rematches)
-- Chapters 10–13 + epilogue: ~7–9 hours (final stretch)
-- Total: **~20h fast / 25–28h average / 30–35h completionist** (incl. New Game+ for the Platinum)
+Pacing varies, but the overall game runs roughly:
+
+- **~20 hours** fast
+- **25–28 hours** average (Normal)
+- **30–35 hours** completionist (incl. New Game+ for the Platinum)
 
 ---
 

@@ -10,7 +10,7 @@ related: ["nushi-boss-reference", "chapter-progression-guide", "elemental-builds
 
 # Nue Malefact Boss Guide — How to Beat Every Nue Fight
 
-> Nue Malefact is the most-fought boss in Beast of Reincarnation — a recurring, raccoon-cat-tiger chimera Malefact you face more often than any other enemy: a Chapter 1 flashback, three fights in Chapter 3, a paired showdown with the Male Purifier, and later rematches alongside Shidou (v1.0.6, August 2026).
+> Nue Malefact is the most-fought boss in Beast of Reincarnation — a recurring, raccoon-cat-tiger chimera Malefact you face more often than any other enemy: a Chapter 1 flashback, three fights in Chapter 3, a paired showdown with the Male Purifier, and later rematches alongside Shidou (launch version, August 2026).
 
 ---
 
@@ -90,7 +90,7 @@ The paired fight at the Great Wall Terraces. The two have **separate health bars
 
 ## Later Rematches (Shidou, Fuji Frontier, Mount Hiei)
 
-- **Chapter 6 — with Shidou**: avoid dropping Shidou's health to 30% — he siphons health from Nue when low. **Don't fire projectiles at Shidou** — he can deflect them.
+- **Chapter 6 — with Shidou**: avoid wearing Shidou down too far — he siphons health from Nue when low. **Don't fire projectiles at Shidou** — he can deflect them.
 - **Lv. 35 (Fuji Frontier)** and **Lv. 48 (Mount Hiei)**: same moveset, higher stats, more adds. By now your Poison build (Hunter's Sword + Dokuzeri: Fang + Status Effect Amp) should melt the health bar — the fight is mostly a rhythm check.
 
 ---

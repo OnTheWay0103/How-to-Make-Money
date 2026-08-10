@@ -3,7 +3,7 @@ title: "Counter-Battery & Survival Guide — Iron Nest Wiki"
 description: "How counter-battery fire works in IRON NEST and how to survive it — revealing fire, the counter-battery timer, Fire Direction Centers, relocating, hydraulics and repairs."
 category: "Strategy"
 version: "1.0"
-updated: "2026-08-06"
+updated: "2026-08-11"
 keywords:
   - "iron nest counter battery"
   - "iron nest survival guide"
@@ -18,7 +18,7 @@ related:
 
 # Counter-Battery & Survival Guide
 
-> Launch Version / Updated: August 6, 2026
+> Launch Version / Updated: August 11, 2026
 
 In IRON NEST, the enemy shoots back. Every shell you fire reveals your position, and enemy artillery hunts you by the same triangulation methods you use on them. Surviving means understanding the counter-battery timer, using Fire Direction Centers correctly, and keeping the machine healthy. This is the guide for staying alive long enough to win.
 
@@ -66,7 +66,7 @@ Firing the first shell of a battle with un-plotted batteries left on the board i
 A dead machine is a dead operator:
 
 - **Steam leaks** reduce hydraulic pressure and degrade system performance. Fix them promptly — a small leak compounds into a locked turret mid-battle.
-- **Keep hydraulic pressure in the optimal 2,500–4,000 PSI range.** Above ~5,500 PSI risks a blowout that locks the turret and forces a repair minigame. Feather the valves, let the system cool between large movements.
+- **Keep hydraulic pressure in the safe band shown on the gauge.** The launch-build safe range is documented in the [systems & failures guide](/guides/systems-failure-guide); exceeding the ceiling risks a blowout that locks the turret and forces a repair minigame. Feather the valves, let the system cool between large movements.
 - **Smooth lever work** — slamming the rotation lever or touching the elevation wheel mid-movement causes jams. The machine punishes haste twice: once with the jam, once with the repair.
 
 ---
@@ -90,7 +90,7 @@ If enemy shells start landing:
 - [ ] FDC pauses saved for critical moments, not spent instantly
 - [ ] Relocation plan in place after every barrage
 - [ ] Iron Nest token verified after every move
-- [ ] Hydraulic pressure in the 2,500–4,000 PSI band
+- [ ] Hydraulic pressure in the safe band shown on the gauge
 - [ ] Steam leaks fixed immediately
 - [ ] Powder charge reserve stocked before major operations
 

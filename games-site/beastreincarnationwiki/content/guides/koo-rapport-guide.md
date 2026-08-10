@@ -10,7 +10,7 @@ related: ["skill-tree-overview", "combat-system-guide", "beginner-guide", "tier-
 
 # Koo Skills & Rapport Guide — Every Bloom Art Ranked
 
-> Koo is the second half of Beast of Reincarnation's "one person, one dog" combat system. This guide covers everything verified about **Rapport**, Koo's **Bloom Arts**, and his **Root passives** (v1.0.6, August 2026).
+> Koo is the second half of Beast of Reincarnation's "one person, one dog" combat system. This guide covers everything verified about **Rapport**, Koo's **Bloom Arts**, and his **Root passives** (launch version, August 2026).
 
 ---
 
@@ -50,7 +50,7 @@ Bloom Arts use **FP (Florescence Points)**, which fill when Emma parries. Issued
 | **A** | **Higanbana Roots** | Base skill | Groups enemies and applies Bind; interrupts bosses |
 | **A** | **Dokuzeri: Fang** | After 2nd boss (Ch. 2) | Poison DoT — melts Nue Malefact and sustained fights |
 | **A** | **Acid Burst** | Nushi Skill (Corvus, Ch. 7) | Koo's only Acid Art; core of the Acid build |
-| **B** | **Bolt Shard** | Research | 100 Shock buildup — pairs with the Shock build |
+| **B** | **Bolt Shard** | Research | High Shock buildup — pairs with the Shock build |
 | **B** | **Lay Landmine / Lay Flame Trap** | Pounce research | Zone control for multi-enemy fights |
 | **B** | **Emergency Medicine** | Research | Emergency heal for Emma |
 | **C** | Other researched arts | Research | Situational — check the Cleanse Walker research menu |

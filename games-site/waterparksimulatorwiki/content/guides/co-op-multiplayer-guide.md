@@ -70,7 +70,7 @@ The Museum questline requires leaving your park unattended — a real problem so
 2. **Pick a budget boss.** One player approves big purchases. Everyone else buys stalls and small stuff freely.
 3. **Stagger staff breaks** — if all staff nap at once and both players are across the street, the park burns.
 4. **Use the walkie-talkie** — not proximity chat — for "pool empty at the east slide" style calls.
-5. **Water basketball (1.0)** — floating hoops are the co-op mini-game between work shifts. Duck water battles too.
+5. **Duck water battles (1.0)** — the duck guns are a silly way to pass time between shifts.
 6. **Carry people.** 1.0 lets you pick up guests, staff, and other players — give friends rides across the map when the park is huge.
 
 ## Co-op Mistakes

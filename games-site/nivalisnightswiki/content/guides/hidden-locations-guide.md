@@ -6,7 +6,7 @@ version: "Pre-release"
 updated: "2026-08-09"
 date: "2026-08-09"
 keywords: ["nivalis nights hidden locations", "nivalis nights secrets", "nivalis nights exploration", "nivalis nights hidden areas", "nivalis nights lower city", "nivalis nights unlock areas", "nivalis nights easter eggs"]
-related: ["city-districts-guide", "transportation-guide", "fishing-guide", "money-making-guide"]
+related: ["city-districts-guide", "transportation-guide", "fishing-guide", "best-business-guide", "day-night-cycle-guide"]
 ---
 
 # Hidden Locations & City Secrets — The Secret Side of Nivalis
@@ -57,14 +57,14 @@ The most important confirmed rule of exploration in Nivalis Nights: **the map gr
 
 This changes the exploration calculus in two ways:
 
-1. **Some secrets are locked behind progress, not discovery.** You can wander into a dead end all day; the door opens when your business empire reaches a milestone. The [Money-Making Guide](/guides/money-making-guide) treats Achievement Points as a progression currency — treat exploration the same way.
+1. **Some secrets are locked behind progress, not discovery.** You can wander into a dead end all day; the door opens when your business empire reaches a milestone. The [Best Business Guide](/guides/best-business-guide) treats Achievement Points as a progression currency — treat exploration the same way.
 2. **Business success and exploration are the same loop.** Hitting business milestones opens areas; new areas contain new business opportunities; those opportunities generate new milestones. The city rewards the full-loop player.
 
 > **What we don't know:** which specific areas are Achievement-gated, what the milestones are, and whether any areas require *non-business* achievements (relationships, chess, fishing). Expect a mix — and expect the most interesting areas to demand more than money.
 
 ## Fog Days — The Explorer's Weather
 
-The [Weather Guide](/guides/weather-guide) documents fog as a reduced-traffic weather type. Its exploration angle deserves emphasis: **fog days are the game's own invitation to explore.**
+The [Day & Night Cycle & Weather Guide](/guides/day-night-cycle-guide) documents fog as a reduced-traffic weather type. Its exploration angle deserves emphasis: **fog days are the game's own invitation to explore.**
 
 - Pre-release coverage explicitly notes that players use fog days for aimless travel and uncovering hidden areas — the city rewards wandering, and fog is the wandering weather.
 - Reduced visibility works both ways: you may miss landmarks, but the city also reveals a different version of itself — silhouettes, lights, and routes that only make sense in low visibility.
@@ -74,12 +74,12 @@ The [Weather Guide](/guides/weather-guide) documents fog as a reduced-traffic we
 
 ## The Cloudpunk Precedent — 122 Hidden Locations
 
-Here's what the universe's history tells us to expect. *Cloudpunk*, ION LANDS' first game in the city of Nivalis, shipped with **122 hidden locations** scattered across its version of the city — plus a "Nivalis Tourist" achievement dedicated to finding them.
+Here's what the universe's history tells us to expect. *Cloudpunk*, ION LANDS' first game in the city of Nivalis, shipped with **well over a hundred hidden locations** scattered across its version of the city — plus an achievement dedicated to finding them.
 
 The precedent matters for two reasons:
 
-1. **ION LANDS builds discovery into the city's DNA.** A studio that hid 122 locations in a delivery game will not ship a life-sim — a genre built on inhabiting a place — with fewer secrets. The design appetite is proven.
-2. **The same city, denser.** Nivalis Nights returns to the same city with more systems, more verticality (boats under the pillars), and a longer play loop. The hidden-location count in Nivalis Nights could plausibly exceed Cloudpunk's — but that's an expectation, not a fact.
+1. **ION LANDS builds discovery into the city's DNA.** A studio that hid more than a hundred locations in a delivery game will not ship a life-sim — a genre built on inhabiting a place — with fewer secrets. The design appetite is proven.
+2. **The same city, denser.** Nivalis Nights returns to the same city with more systems, more verticality (boats under the pillars), and a longer play loop. The hidden-location count in Nivalis Nights could plausibly reach or exceed Cloudpunk's — but that's an expectation, not a fact.
 
 ### How Cloudpunk Hides Things (For Reference)
 Cloudpunk's hidden spots ran the gamut: off-map corners reachable by daring HOVA flight, easter-egg rooms, lore-rich dead ends, and views that were the reward themselves. The universal rules:
@@ -102,7 +102,7 @@ Clear days for fishing and outdoor routes; fog days for the atmospheric deep exp
 Take the stairs, not the elevator. Dock where you don't need to. Enter shops without signs. The city guide's advice to walk regular routes for NPC schedules doubles as secret-hunting: **consistency is how you notice what changed.**
 
 ### 5. Talk to the Weird NPCs
-Salt Pete is the documented example, but the principle is universal: characters with stories attached are walking treasure maps. The [NPC Relationships Guide](/guides/npc-relationships-guide) explains how to get characters talking — the seafaring ones know the water, the old ones know the city before the Corps, and the scared ones know what the Corps hides.
+Salt Pete is the documented example, but the principle is universal: characters with stories attached are walking treasure maps. The [NPC Relationships Guide](/guides/npc-relationships-guide) explains how to get characters talking — the seafaring ones know the water, the old ones know the city before CorpSec, and the scared ones know what CorpSec hides.
 
 ### 6. Log Everything
 A location notebook — district, access method, weather, time of day, what you found — turns random discovery into systematic mapping. Post-launch, this wiki's hidden-locations coverage will be community-built; you can be part of the survey.
@@ -121,7 +121,7 @@ Post-release (September 29, 2026), we'll expand this guide with verified content
 ## Common Questions
 
 ### Are there hidden locations in Nivalis Nights?
-The water layer — the city's under-pillar waterways — is confirmed as explorable hidden geography. The precedent of Cloudpunk's 122 hidden locations and the game's Achievement-gated area unlocks make extensive secrets near-certain, though the full inventory will be mapped after launch.
+The water layer — the city's under-pillar waterways — is confirmed as explorable hidden geography. The precedent of Cloudpunk's extensive hidden-location network and the game's Achievement-gated area unlocks make extensive secrets near-certain, though the full inventory will be mapped after launch.
 
 ### How do I access the hidden waterways?
 By boat. Your personal boat, docked near the city's lower levels, is small enough to navigate the passages beneath the support pillars. The boat stays where you leave it, doubling as a staging point for on-foot exploration of the lower city.
@@ -150,7 +150,7 @@ Yes — the game explicitly ties Achievement Points (earned through business) to
 
 ## Bottom Line
 
-Nivalis Nights is a game about inhabiting a city, and ION LANDS builds cities with hidden floors. The waterways are the confirmed secret layer — a whole geography beneath the streets that only the boat can reach. Achievement Points are the confirmed unlock system — a map that grows as you build. And the universe's history — 122 hidden locations in Cloudpunk — is the studio's track record. The players who explore deliberately, log their findings, and earn their milestones will find a city twice as deep as the one the guidebooks describe.
+Nivalis Nights is a game about inhabiting a city, and ION LANDS builds cities with hidden floors. The waterways are the confirmed secret layer — a whole geography beneath the streets that only the boat can reach. Achievement Points are the confirmed unlock system — a map that grows as you build. And the universe's history — more than a hundred hidden locations in Cloudpunk — is the studio's track record. The players who explore deliberately, log their findings, and earn their milestones will find a city twice as deep as the one the guidebooks describe.
 
 ---
 

@@ -27,7 +27,7 @@ Big Walk launched August 4, 2026 on five platforms at once (PC, Mac, PS5, Switch
 
 **Symptoms:** "Failed to connect", infinite connecting spinner, session lost mid-walk.
 
-**Most likely cause: launch-week server load.** A game with 799K wishlists opens big, and day-one server queues are common.
+**Most likely cause: launch-week server load.** A game with a large launch wishlist count opens big, and day-one server queues are common.
 
 **Fixes:**
 

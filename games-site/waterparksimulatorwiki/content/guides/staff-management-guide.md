@@ -20,12 +20,12 @@ Staff are unlocked through the **Research Table** in your office, and hired thro
 
 1. **Research the Hiring Level** upgrades (Maintenance tree) at the Research Table.
 2. Open the tablet and select **Hire** to see available candidates.
-3. Each candidate has a **job role, daily wage, and efficiency stat** — they are randomized per day. You can refresh the candidate list for research points or wait for the next day.
+3. Each candidate has a **job role, daily wage, and efficiency stat** — they are randomized per day. The candidate list changes daily, so if today's pool is weak, wait for tomorrow's.
 4. Hire them. Staff work automatically during open hours.
 
 Key rules:
 
-- You start with **4 staff slots**. Each **Hiring Level** upgrade adds slots (roughly +1 per level; exact numbers can vary by patch).
+- You start with a **limited number of staff slots** (around 4 at launch). Each **Hiring Level** upgrade adds slots (roughly +1 per level; exact numbers can vary by update).
 - You can hire **one extra staff member beyond your slot allocation** — but it costs extra in taxes.
 - Staff have **stamina**; when depleted, they stop working until the next day.
 - You can **fire staff** via the tablet's Manage option.
@@ -37,19 +37,14 @@ Key rules:
 | **Cashier** | Research Table, Hiring Level 1 | Runs the ticket booth; sells the correct pass automatically | **First hire, always.** Frees you from the entrance entirely. |
 | **Janitor** | Research Table, Hiring Level 2 | Cleans trash and debris around the park | Hire before vendor if cleanliness is your pain point. Janitors clean only during open hours. |
 | **Vendor** | Research Table, Hiring Level 2 | Works food stalls (hot dog, lemonade, popcorn) | Add when stall queues get long. |
-| **Handyman** | Research upgrade at higher park level | Repairs broken attractions | TheGamesWatch recommends janitor + handyman early, food vendor and lifeguard next. |
+| **Handyman** | Research upgrade at higher park level | Repairs broken attractions | Common community advice: janitor + handyman early, food vendor and lifeguard next. |
 | **Lifeguard** | Research upgrade (mid-game) | Watches over visitors in pools | Reduces rescue workload and ambulance incidents. |
 | **Security** | 1.0 update | Throws out bad visitors (cheaters, vandals, drunks) | Late-game pick for unruly parks; automates the troublemaker job. |
 | **Mascot** | 1.0 update | A moving happiness machine — boosts guest mood | Late-game happiness management. |
 
 ## Wages & Efficiency — Pick Stats, Not Names
 
-Candidates are randomized with **unique daily cost and efficiency stats**, and the difference is huge. Community-reported examples:
-
-| Example Candidate | Role | Daily Wage | Efficiency |
-|-------------------|------|-----------|------------|
-| "Kais" | Cashier | ~$100/day | ~100% |
-| "Benjamin" | Janitor | ~$150/day | ~70% |
+Candidates are randomized with **unique daily cost and efficiency stats**, and the difference is huge. The exact wage numbers vary from day to day and patch to patch, so compare the stats shown in the hire menu rather than relying on remembered figures.
 
 Rules of thumb:
 

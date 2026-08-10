@@ -11,7 +11,7 @@ related: ["release-date-guide", "faq", "beginner-guide"]
 
 # Nivalis Nights System Requirements — PC Specs & Steam Deck
 
-Before you open your noodle bar, make sure your PC can run the city. Here are the official Nivalis Nights system requirements, straight from the Steam store page.
+Before you open your noodle bar, make sure your PC can run the city. Here are the Nivalis Nights system requirements as listed per the official Steam store listing.
 
 ## Minimum Requirements
 
@@ -24,7 +24,7 @@ Before you open your noodle bar, make sure your PC can run the city. Here are th
 | DirectX | Version 11 |
 | Network | Broadband internet connection |
 | Storage | 30 GB available space |
-| Sound Card | Integrated or dedicated DirectX 9 compatible soundcard |
+| Sound Card | Integrated or dedicated sound card |
 | Additional | Controller or keyboard + mouse |
 
 ## Recommended Requirements
@@ -38,7 +38,7 @@ Before you open your noodle bar, make sure your PC can run the city. Here are th
 | DirectX | Version 12 |
 | Network | Broadband internet connection |
 | Storage | 30 GB available space (SSD recommended) |
-| Sound Card | Integrated or dedicated DirectX 9 compatible soundcard |
+| Sound Card | Integrated or dedicated sound card |
 | Additional | SSD drive, Controller or keyboard + mouse |
 
 ## Reading the Specs
@@ -51,7 +51,7 @@ The minimum asks for a **dedicated GPU with 6 GB VRAM**; recommended is **8 GB V
 - **More is better:** 10–12 GB cards will comfortably exceed the recommendation for the city's weather effects and night lighting
 
 ### RAM — 16 GB Either Way
-Both tiers list **16 GB RAM** — this is the hard floor. The game runs a living city (100+ NPCs with schedules, dynamic markets), so don't plan on 8 GB being enough even on minimum settings.
+Both tiers list **16 GB RAM** — this is the hard floor. The game runs a living city (135 citizens with schedules, dynamic markets), so don't plan on 8 GB being enough even on minimum settings.
 
 ### Storage — 30 GB, SSD Recommended
 30 GB of free space is required. The recommended tier calls out an **SSD** — the city streams a lot of content as you move between districts and load venues, so an SSD will noticeably cut load times and stutter.

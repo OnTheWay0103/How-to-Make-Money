@@ -1,22 +1,22 @@
 ---
 title: 'Story Walkthrough — From First Repair to the Credits'
-description: 'The complete story walkthrough for ReStory: Chill Electronics Repairs — the premise, how the story unfolds through customers and licenses, every confirmed choice moment, the shopping-center plot, the assembly-competition finale, and all endings.'
-keywords: ['restory walkthrough', 'restory story walkthrough', 'restory full walkthrough', 'restory story guide', 'restory endings', 'restory main story', 'restory first week', 'restory how to progress story', 'restory assembly competition finale']
+description: 'The complete story walkthrough for ReStory: Chill Electronics Repairs — the premise, how the story unfolds through customers and licenses, every confirmed choice moment, how choices work, the shopping-center plot, the assembly-competition finale, endings and replay strategy.'
+keywords: ['restory walkthrough', 'restory story walkthrough', 'restory full walkthrough', 'restory story guide', 'restory endings', 'restory main story', 'restory first week', 'restory how to progress story', 'restory assembly competition finale', 'restory choices', 'restory branching story']
 category: Advanced
 version: '1.0.0'
-updated: '2026-08-09'
+updated: '2026-08-08'
 related:
-  - story-choices-guide
   - characters-guide
   - license-guide
   - achievement-guide
+  - game-length-guide
 ---
 
 ## Overview
 
-ReStory's story is **branching, non-linear and customer-driven**. There is no chapter list and no quest tracker — the plot unfolds through **walk-in customers, online orders, and license progression**. The exact number of endings has not been officially confirmed (待验证), and reviewers note the story is "anything but chill": mystery, espionage, betrayal, petty theft and conspiracy run beneath the cozy surface.
+ReStory's story is **branching, non-linear and customer-driven**. There is no chapter list and no quest tracker — the plot unfolds through **walk-in customers, online orders, and license progression**. The exact number of endings has not been officially confirmed (unverified), and reviewers note the story is "anything but chill": mystery, espionage, betrayal, petty theft and conspiracy run beneath the cozy surface.
 
-This walkthrough covers the confirmed campaign structure, the milestone sequence, every documented choice moment, and a concrete first-week plan. Story-critical spoilers are flagged.
+This walkthrough covers the confirmed campaign structure, the milestone sequence, every documented choice moment, how the branching system works, endings, replay strategy, and a concrete first-week plan. Story-critical spoilers are flagged.
 
 ---
 
@@ -41,7 +41,7 @@ You inherit a rundown repair shop from a previous master who **left without warn
 
 ## The Campaign Structure (Community-Mapped)
 
-The developers have not published an official act structure; the following is a reconstruction from launch-week reviews and player reports (待验证 on specifics):
+The developers have not published an official act structure; the following is a reconstruction from launch-week reviews and player reports (specifics unverified):
 
 **Act 1 — First Days.** Meet the landlord, pay rent, complete Hashimoto's Pokia (your first repair), set up internet, take your first online orders. End: first license purchase, which unlocks new device types and the next wave of story.
 
@@ -64,6 +64,35 @@ The developers have not published an official act structure; the following is a 
 | **Privacy vs. truth** | Protect a character's privacy or expose what you found | Reported to ripple into the late game and endings |
 
 **Key insight from reviewers:** some choices feel low-stakes in the moment (Gamekult calls the writing "anecdotal"), but Sirus Gaming notes the choices genuinely affect "what happens to characters by the conclusion." Keep choices consistent with the ending you want.
+
+---
+
+## How Choices Work
+
+- **Dialogue is signal, not noise.** Customers casually mention past spills or hint at hidden issues not on the repair ticket — and their dialogue opens story choices.
+- **Choices have consequences beyond the moment.** Characters may return to your shop based on earlier decisions — sometimes many days later.
+- **Some choices have no perfect answer.** Part of ReStory's charm is that you can't always fix everyone's life.
+- **Licenses gate story.** Related story beats stay locked until you own the correct license.
+- **Choices aren't always telegraphed.** Reviewers note some choices are "unclear and can unintentionally derail storylines" — save before a moment you suspect is a fork.
+
+---
+
+## Endings — What We Know (Unverified)
+
+- Multiple endings are **confirmed** by the developers ("replayable branching storyline with choices impacting the ending").
+- The **exact number and unlock conditions** have not been publicly documented as of August 2026.
+- Ending-adjacent achievements (the 5 hidden ones — **Ghost in the Frame**, **Rock for the Ages!**, **Ronin**, **Melancholy**, **Globalization**) may relate to story paths, but their triggers are unconfirmed — see the [Achievement Guide](/guides/achievement-guide).
+
+---
+
+## Replay Strategy
+
+ReStory is designed to be played more than once:
+
+1. **Play through with different choice priorities** — help everyone your first run; be selective (or report the gangster) your second.
+2. **Vary your license order** — story beats unlock in different orders depending on which categories you open first.
+3. **Randomized device orders** keep each run's repair mix fresh even when the story is familiar.
+4. **Chase endings, not just achievements** — the hidden achievements are the best hint that story paths branch deeper than they appear.
 
 ---
 
@@ -95,6 +124,15 @@ The main story takes 10–20 hours depending on pacing; 100% completion is a muc
 
 ---
 
+## Story-First Play Tips
+
+- **Listen to customers** — their stories are the content; rushing repairs skips the best part of the game.
+- **Refuse payment occasionally** — the Origami achievement proves not every interaction is about yen.
+- **Keep licenses affordable** — story beats gate behind licenses, so keep income steady (see the [Money & Profit Guide](/guides/money-making-guide)).
+- **Accept devices without licenses deliberately** — letting a device sit is sometimes a *narrative* choice: the customer keeps returning while you save up.
+
+---
+
 ## Common Walkthrough Questions
 
 **Can I miss story content?**
@@ -106,14 +144,11 @@ The final license is competition-only, and buying every license is required for 
 **What happens after the credits?**
 The shop continues — online orders, achievements and the 365-day milestone keep the loop going. See the [How Long to Beat & 100% Guide](/guides/game-length-guide).
 
-**Are choices telegraphed?**
-Not always — reviewers note some choices are "unclear and can unintentionally derail storylines." Save before a moment you suspect is a fork, and treat the walkthrough tables above as your map.
-
 ---
 
 ## Related Guides
 
-- [Story, Choices & Endings Guide](/guides/story-choices-guide) — the branching system in depth
 - [Characters & Customers Guide](/guides/characters-guide) — who you're meeting along the way
 - [License System Guide](/guides/license-guide) — the progression that drives the story
 - [Achievement Guide](/guides/achievement-guide) — story-milestone achievements
+- [How Long to Beat & 100% Guide](/guides/game-length-guide) — length and completion planning

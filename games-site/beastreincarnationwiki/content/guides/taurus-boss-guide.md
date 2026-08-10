@@ -10,7 +10,7 @@ related: ["nushi-boss-reference", "chapter-progression-guide", "combat-system-gu
 
 # Taurus Boss Guide — How to Beat the Bull Nushi
 
-> Taurus is the bull-like Nushi of Chapter 4 ("Stems" / Pilgrim's Rest), fought in the Pilgrim's Zone. Like Rangifer and Lacerta before it, you face it twice — and the lair rematch is the first fight in the game that really tests your ability to manage multiple threats (v1.0.6, August 2026).
+> Taurus is the bull-like Nushi of Chapter 4 ("Stems" / Pilgrim's Rest), fought in the Pilgrim's Zone. Like Rangifer and Lacerta before it, you face it twice — and the lair rematch is the first fight in the game that really tests your ability to manage multiple threats (launch version, August 2026).
 
 ---
 

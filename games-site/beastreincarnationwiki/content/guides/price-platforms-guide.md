@@ -22,7 +22,7 @@ related: ["faq", "beginner-guide", "endgame-post-game-guide"]
 | **Deluxe Edition** | **$69.99** (¥288 Steam China) | Standard + **Oni's Hat**, **Big Dipper sword**, black Shiba skin, 100,000 Amber, vegetable seedlings |
 
 - **Pre-order bonus**: the brown Shiba skin + 30,000 Amber (also in Standard)
-- **Deluxe Edition upgrade DLC** is available on Steam for existing owners (v1.0.6 added it)
+- **Deluxe Edition upgrade DLC** is available on Steam for existing owners (available since launch)
 - No in-game microtransactions reported at launch
 
 ---
@@ -55,7 +55,7 @@ related: ["faq", "beginner-guide", "endgame-post-game-guide"]
 | **Storage** | SSD required, 45–60 GB | SSD |
 | **Other** | Steam Deck/SteamOS + controller support listed | — |
 
-> The recommended tier is based on launch coverage; Game Freak's official page should be checked for the final recommended spec table after launch patches.
+> These specifications are taken from the official Steam store listing and may change with updates. Check the store page for the latest requirements.
 
 ---
 
@@ -82,7 +82,7 @@ Both support Simplified and Traditional Chinese.
 ## Before You Buy
 
 1. **Performance caution**: launch-day reviews flagged PC and Xbox optimization issues; PS5 was most stable. Patches are in progress.
-2. **Steam reviews**: "Mixed" (~52% positive) at launch, mostly performance complaints — check recent reviews before buying if optimization matters to you.
+2. **Steam reviews**: "Mixed" at launch, mostly performance complaints — check recent reviews before buying if optimization matters to you.
 3. **Try before you buy**: Game Pass Ultimate / PC Game Pass is the zero-risk route.
 
 ---

@@ -5,7 +5,7 @@ category: "Home"
 version: "Pre-release"
 updated: "2026-08-07"
 keywords: ["Nivalis Nights", "Nivalis Nights wiki", "Nivalis Nights guide", "ION LANDS", "505 Games", "cyberpunk life sim", "Nivalis business guide", "Nivalis fishing", "Nivalis chess tournament"]
-related: ["beginner-guide", "best-business-guide", "money-making-guide", "business-management-guide", "npc-relationships-guide", "fishing-guide"]
+related: ["beginner-guide", "best-business-guide", "day-night-cycle-guide", "npc-relationships-guide", "fishing-guide", "apartment-customization-guide"]
 ---
 
 # Nivalis Nights Wiki — Unofficial Guide Hub
@@ -20,7 +20,7 @@ Nivalis Nights launches on **September 29, 2026 on PC via Steam**, with Epic Gam
 
 Nivalis Nights is a slice-of-life business simulation set in the rain-soaked, neon-lit city of Nivalis — the same city Cloudpunk players know. You arrive with nothing but an inheritance: a run-down noodle bar from a retiring cook named **Thaddeus Carmunis**. From that single counter, you build a business empire across seven business types — food stalls, noodle bars, ramen bars, stim stores, bars, restaurants, and finally nightclubs.
 
-But running a business is only half the story. Nivalis Nights is a *life* sim: you decorate your apartment, take your private boat out on the canals to fish, befriend (or anger) more than 100 voiced citizens, enter the city's chess tournament, read the newspaper for market intel, and even play the black-market energy trade against the Corps.
+But running a business is only half the story. Nivalis Nights is a *life* sim: you decorate your apartment, take your private boat out on the canals to fish, befriend (or anger) the city's 135 voiced citizens, enter the city's chess tournament, read the newspaper for market intel, and even play the black-market energy trade against CorpSec.
 
 ---
 
@@ -39,12 +39,11 @@ But running a business is only half the story. Nivalis Nights is a *life* sim: y
 | Guide | Best For | Category |
 |-------|----------|----------|
 | [Beginner Guide](/guides/beginner-guide) | First-time players | Beginner |
-| [Best Business Guide](/guides/best-business-guide) | Choosing a business type | Business |
-| [How to Make Money Fast](/guides/money-making-guide) | Profit maximization | Money |
-| [Business Management](/guides/business-management-guide) | Staff & upgrades | Business |
+| [Best Business Guide](/guides/best-business-guide) | Business types, management & money | Business |
 | [Apartment Customization](/guides/apartment-customization-guide) | Decorating your home | Life Sim |
 | [NPC Relationships](/guides/npc-relationships-guide) | Friends, rivals & romance | Life Sim |
 | [Fishing Guide](/guides/fishing-guide) | Spots & catches | Activities |
+| [Day & Night Cycle & Weather](/guides/day-night-cycle-guide) | Time, curfew & climate | Life Sim |
 | [FAQ](/faq) | Quick answers | Info |
 
 ---

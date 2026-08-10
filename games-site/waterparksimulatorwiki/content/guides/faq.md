@@ -18,10 +18,10 @@ Straight answers to the most common Waterpark Simulator questions. Last updated 
 It entered Steam Early Access on **August 22, 2025** and launched version **1.0 on July 31, 2026**, simultaneously with the PlayStation 5 and Xbox Series X|S versions.
 
 **How much does it cost?**
-**$12.99** on Steam. CayPlay confirmed the price will not rise to the originally planned $19.99.
+**$12.99** on Steam (per the official Steam store listing). CayPlay confirmed the price would not rise at the 1.0 launch.
 
 **What did Early Access players get?**
-The official soundtrack (permanently free) and an exclusive **duck slide**.
+The official soundtrack (permanently free) plus a special in-game gift.
 
 ## Platforms & Compatibility
 
@@ -29,10 +29,10 @@ The official soundtrack (permanently free) and an exclusive **duck slide**.
 PC (Steam), PlayStation 5, and Xbox Series X|S. No Switch or mobile versions announced.
 
 **Does it work on Steam Deck?**
-Not officially supported. Many players run it with **Proton Experimental** (game properties → Compatibility → force Proton Experimental), which fixes the drag-and-drop/click issues.
+Officially rated **"Playable"** — it runs on SteamOS, though some actions need touchscreen or keyboard input and text can be small in places. Many players also force **Proton Experimental** (game properties → Compatibility → force Proton Experimental), which fixes the drag-and-drop/click issues.
 
 **What are the system requirements?**
-Minimum: Windows 10 64-bit, Intel Core i5-3550, 8 GB RAM, NVIDIA GTX 1050 / AMD Radeon RX 570, DirectX 11, 20 GB storage. Recommended: Intel Core i5-6400, 8 GB RAM, NVIDIA GTX 1070 / AMD Radeon RX Vega 56.
+Per the official Steam store listing: minimum is Windows 10 64-bit, Intel Core i5-3550, 8 GB RAM, NVIDIA GTX 1050 / AMD Radeon RX 570, DirectX 11, 20 GB storage. Recommended: Intel Core i5-6400, 8 GB RAM, NVIDIA GTX 1070 / AMD Radeon RX Vega 56.
 
 ## Multiplayer
 
@@ -60,7 +60,7 @@ Collect floating science icons around your park, plus points from ticket sales a
 A 1.0 building across the street, unlocked at 2.5 stars. Three NPCs (Poseidon't, Clara Loft, Goldie) offer questlines with theme currencies for the Museum research bench — each theme ends in a massive waterslide. See the [Museum Questline Walkthrough](/guides/museum-questline-guide).
 
 **Is there character customization?**
-Yes — mirror in the park for randomizing, and 1.0 adds full sliders (skin, hair, body, outfits) with 5 saved slots.
+Yes — mirror in the park for randomizing, and 1.0 adds full sliders (skin, hair, body, outfits) with multiple saved slots.
 
 **How long is the game?**
 There is no fixed campaign length — it's a sandbox management game. A full run to all Museum theme slides is a long-term project (tens of hours); a comfortable "I built a great park" run is roughly 15-25 hours. (Estimate based on community play; no official number.)
@@ -68,16 +68,16 @@ There is no fixed campaign length — it's a sandbox management game. A full run
 ## Technical
 
 **Where are my save files?**
-`C:\Users\XXXXX\AppData\LocalLow\CayPlay\WaterparkSimulator\slots` — .es3 files with .bac backups. To restore a corrupted save, rename a backup (e.g. `park.es3.bac1` → `park.es3`). No spaces in filenames; copy files elsewhere first.
+`C:\Users\XXXXX\AppData\LocalLow\CayPlay\WaterparkSimulator\slots` — replace `XXXXX` with your Windows username. The folder holds .es3 files with .bac backups. To restore a corrupted save, rename a backup (e.g. `park.es3.bac1` → `park.es3`). No spaces in filenames; copy files elsewhere first.
 
 **The game crashes on launch / when loading a park.**
-Known fixes: lower quality, enable v-sync, switch to borderless fullscreen, free up drive space (2GB or less free space can cause issues), and run Steam file verification. Send crash logs to support if it persists.
+Known fixes: lower quality, enable v-sync, switch to borderless fullscreen, free up drive space (some players report problems when very little space is free), and run Steam file verification. Send crash logs to support if it persists.
 
 **I can't pick up trash bags in the tutorial.**
 Known Early Access-era bug in some patches — restart the day or check the pinned Steam bug thread for the current workaround.
 
 **How do I contact support?**
-Email support@cayplay.com or the official Discord (discord.gg/waterparksimulator). For bugs: pinned Steam thread or Escape → "Copy game log".
+Use the official CayPlay support channels listed on the Steam store page, or join the game's official Discord (invite link on the Steam page). For bugs: pinned Steam thread or Escape → "Copy game log".
 
 ## About This Wiki
 

@@ -10,7 +10,7 @@ related: ["lacerta-boss-guide", "chapter-1-walkthrough", "chapter-progression-gu
 
 # Chapter 2 Walkthrough — Creeping Tendrils (Ancient Civilization Zone)
 
-> Chapter 2 ("Creeping Tendrils") moves the story into the **Ancient Civilization Zone** — ruins of the "ancient Kanto region" where Emma and Koo hunt their second Nushi, **Lacerta**. This chapter also hands you the **Thunderwave Sword**, the game's best early weapon. Verified from launch walkthroughs (v1.0.6, August 2026).
+> Chapter 2 ("Creeping Tendrils") moves the story into the **Ancient Civilization Zone** — ruins of the "ancient Kanto region" where Emma and Koo hunt their second Nushi, **Lacerta**. This chapter also hands you the **Thunderwave Sword**, the game's best early weapon. Verified from launch walkthroughs (launch version, August 2026).
 
 ---
 
@@ -58,7 +58,7 @@ A corrupted wolf with slow, telegraphed swings — the ideal parry practice befo
 
 ### 6. Ruins Slope & the Lair
 
-Rest at the **Ruins Slope campsite** — the final staging point — then head to the **Nushi's Lair** (~500m from the campsite). Consider fast-traveling back to the Walker to upgrade the Thunderwave and top off supplies first.
+Rest at the **Ruins Slope campsite** — the final staging point — then head to the **Nushi's Lair** (a short distance from the campsite). Consider fast-traveling back to the Walker to upgrade the Thunderwave and top off supplies first.
 
 ### 7. Lacerta Rematch (Lv. 16)
 
@@ -70,7 +70,7 @@ Two phases: the boss "fully heals and immediately enters a much tougher second p
 
 - [ ] **Binding Fang Skill Amber** — wolf miniboss
 - [ ] **Biting Tempest Nushi Skill** — giant red Golem
-- [ ] **Thick Cuirass** — strongbox after the red Golem fight (60 Poison resistance — the Lacerta fight armor)
+- [ ] **Thick Cuirass** — strongbox after the red Golem fight (high Poison resistance — the Lacerta fight armor)
 - [ ] **Thunderwave Sword** — elite Golem guarding Mikoto
 - [ ] **Life Fruit** — Dragon Vein Shrine near the reservoir
 - [ ] **Spirit Stone Ore** — dropped by early enemy birds

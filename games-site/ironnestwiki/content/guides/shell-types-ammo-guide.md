@@ -3,7 +3,7 @@ title: "All Shell Types — Full Ammo List — Iron Nest Wiki"
 description: "Every shell type in IRON NEST: Heavy Turret Simulator — HE, high-capacity HE, armor-piercing, S.T.A.R. illumination, smoke, phosgene and tear gas — with blast radii, costs and best use."
 category: "Reference"
 version: "1.0"
-updated: "2026-08-06"
+updated: "2026-08-11"
 keywords:
   - "iron nest shell types"
   - "iron nest ammo list"
@@ -18,9 +18,9 @@ related:
 
 # All Shell Types — Full Ammo List
 
-> Launch Version / Updated: August 6, 2026
+> Launch Version / Updated: August 11, 2026
 
-The game advertises **30 unlockable ammo types and abilities**. At launch, seven shells are confirmed — and six of them are usable in missions. This page covers every confirmed shell: cost, blast radius, and exactly when to load it.
+The game advertises **30 unlockable ammo types and abilities**. At launch, seven shells are confirmed. This page covers every confirmed shell: cost, blast radius, and exactly when to load it.
 
 ---
 
@@ -33,8 +33,8 @@ The game advertises **30 unlockable ammo types and abilities**. At launch, seven
 | **AP (Armor Piercing)** | 3 Credits | 0.14 km | Bunkers, armored vehicles, hardened/underground targets |
 | **S.T.A.R.** | 1 Credit | 12.74 km illumination | Non-combat recon flare — reveals the battlefield at night/fog |
 | **SMOKE** | 1 Credit | 1.86 km | Smokescreen — screening and withdrawals |
-| **PHOSGENE** | TBA | 1.85 km | Toxic gas — kills infantry, leaves infrastructure intact |
-| **TEAR GAS** | TBA | 1.86 km | Non-lethal crowd dispersal |
+| **PHOSGENE** | Not yet confirmed | 1.85 km | Toxic gas — kills infantry, leaves infrastructure intact |
+| **TEAR GAS** | Not yet confirmed | 1.86 km | Non-lethal crowd dispersal |
 
 ---
 
@@ -42,7 +42,7 @@ The game advertises **30 unlockable ammo types and abilities**. At launch, seven
 
 ### HE — High Explosive (S-Tier)
 
-The workhorse. Cheap (3 credits), effective against infantry, artillery batteries, mechanized columns and civil riots — and the shell most mission orders will request. Its moderate 0.27 km radius means you can engage targets near friendlies with care. **Master HE first; it will carry 70% of your engagements.**
+The workhorse. Cheap (3 credits), effective against infantry, artillery batteries, mechanized columns and civil riots — and the shell most mission orders will request. Its moderate 0.27 km radius means you can engage targets near friendlies with care. **Master HE first; it will carry most of your engagements.**
 
 ### HCHE — High-Capacity HE (A-Tier)
 
@@ -50,7 +50,7 @@ Five credits buys more than double the blast radius (0.63 km). Devastating again
 
 ### AP — Armor Piercing (A-Tier)
 
-The surgical round. A tight 0.14 km radius means it is safe near friendlies, but it exists for one job: penetrating bunkers, armored vehicles and hardened positions that HE merely splashes off. The developers confirmed armor-piercing for "bunkers, armored vehicles, underground/hardened targets." **Always carry AP when orders mention fortifications.**
+The surgical round. A tight 0.14 km radius means it is safe near friendlies, but it exists for one job: penetrating bunkers, armored vehicles and hardened positions that HE merely splashes off. The developers advertise armor-piercing ammo for bunkers, armored vehicles, and underground or hardened targets. **Always carry AP when orders mention fortifications.**
 
 ### S.T.A.R. — Illumination (Utility)
 
@@ -79,9 +79,9 @@ Non-lethal crowd dispersal with a 1.86 km radius — thematically perfect for th
 
 ---
 
-## The 30 Shells to Come
+## The Remaining Ammo Types
 
-The full game advertises 30 unlockable ammo types and abilities — the confirmed seven are the foundation. Expect the meta to shift as the community unlocks the rest: heavier bunker-busters, specialized rounds and ability-driven ordnance are all but confirmed by the developer's feature list. **Check back — this list will be updated as each shell is verified.**
+The store page advertises 30 unlockable ammo types and abilities — the confirmed seven are the foundation. The rest are not yet documented at launch: the community is unlocking and verifying them as the campaign progresses. **Check back — this list will be updated as each shell is confirmed.**
 
 ---
 

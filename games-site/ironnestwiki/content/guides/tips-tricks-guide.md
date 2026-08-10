@@ -3,7 +3,7 @@ title: "Advanced Tips & Tricks — The Operator's Playbook — Iron Nest Wiki"
 description: "Advanced IRON NEST tips and tricks from community play: twin-gun pre-loading, recoil buffer discipline, FDC pause management, deafening mitigation, clipboard habits, score farming and the mistakes that end missions."
 category: "Strategy"
 version: "1.0"
-updated: "2026-08-09"
+updated: "2026-08-11"
 keywords:
   - "iron nest tips"
   - "iron nest tricks"
@@ -21,7 +21,7 @@ related:
 
 # Advanced Tips & Tricks — The Operator's Playbook
 
-> Launch Version / Updated: August 9, 2026
+> Launch Version / Updated: August 11, 2026
 
 The beginner guide teaches the loop; this playbook teaches the operator habits that separate smooth gold-medal runs from twenty-minute firefights. Everything here is drawn from community launch-week play — where a figure is community-measured rather than official, it is marked.
 
@@ -34,7 +34,7 @@ The Iron Nest's two 800 mm barrels operate fully independently — the single bi
 | **Left** | Target A — e.g. the bunker | AP, loaded while right gun is in flight |
 | **Right** | Target B — e.g. the infantry screen | HE, loaded while left gun is in flight |
 
-While one shell is in its 8–29 second flight, the other barrel is loading. Missions where both barrels are idle are missions you are losing. Pre-load different shell types so a dictated change of targets never forces a partial mission with the wrong ordnance in the barrel — **you cannot unload**, so plan loads in pairs.
+While one shell is in flight — which can take a long time at extreme range — the other barrel is loading. Missions where both barrels are idle are missions you are losing. Pre-load different shell types so a dictated change of targets never forces a partial mission with the wrong ordnance in the barrel — **you cannot unload**, so plan loads in pairs.
 
 ## Rotation Before Elevation, Always
 
@@ -72,9 +72,9 @@ Firing deafens you for roughly **10 seconds** — during which radio corrections
 
 S.T.A.R. illumination reveals a 12.74 km area and — critically — **does not trigger counter-battery fire**. The pro move: fire the star shell, solve while it burns, and have the kill shell loaded so it lands while the area is still lit. In night and fog missions this is effectively mandatory (see [reconnaissance](/guides/reconnaissance-guide)).
 
-## Score Farming — The 114-Point One-Shot (Community-Reported)
+## Score Farming — The One-Shot Multi-Kill (Community-Reported)
 
-Community score-runners found a fast requisition/score combo in challenge mode: triangulate using a **front-line infantry report (for distance) + observer #2 (for bearing)**, then land a single **AP shell** that destroys an **artillery position and its adjacent ammo depot together** — a reported **114 points** from one shot. AP kills both because the depot is an underground/hardened target; HE would splash the guns and leave the depot standing. It is a demonstration of the general rule: *one shell, two confirmed kills* is the best score-per-round ratio in the game.
+Community score-runners found a fast requisition/score combo in challenge mode: triangulate using a **front-line infantry report (for distance) + observer #2 (for bearing)**, then land a single **AP shell** that destroys an **artillery position and its adjacent ammo depot together**. AP kills both because the depot is an underground/hardened target; HE would splash the guns and leave the depot standing. It is a demonstration of the general rule: *one shell, two confirmed kills* is the best score-per-round ratio in the game. Full details are in the [requisition & upgrade guide](/guides/requisition-upgrade-guide).
 
 ## The 30-Second Rule
 
@@ -89,7 +89,7 @@ Before pulling the calculator lever: clipboard range matches the map, bearing ma
 | Riding the traverse stops | Hydraulic rupture, 90 s dead turret | Ease off before end of travel |
 | Both guns rapid-firing | Barrel cook-off → game over | Alternate barrels, pace salvos |
 | Hoarding requisition credits | Credits do not carry over sessions | Spend before major operations |
-| Correcting before the round lands | Shooting at ghosts (8–29 s flight) | Wait for impact reports |
+| Correcting before the round lands | Shooting at ghosts — long flight times at range | Wait for impact reports |
 
 ## The Operator's Morning Routine (Before Every Mission)
 

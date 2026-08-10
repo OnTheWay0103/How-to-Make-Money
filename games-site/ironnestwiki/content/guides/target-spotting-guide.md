@@ -3,7 +3,7 @@ title: "How to Find Targets — Spotting & Triangulation — Iron Nest Wiki"
 description: "How to find targets in IRON NEST: two-bearing triangulation, compass distance circles, and dead reckoning from vague intel — turn spotter reports into firing solutions."
 category: "Targeting"
 version: "1.0"
-updated: "2026-08-06"
+updated: "2026-08-11"
 keywords:
   - "iron nest how to find targets"
   - "iron nest triangulation"
@@ -16,7 +16,7 @@ related:
 
 # How to Find Targets — Spotting & Triangulation
 
-> Launch Version / Updated: August 6, 2026
+> Launch Version / Updated: August 11, 2026
 
 You are locked inside a 5,000-ton machine and can never see the battlefield. Finding targets in IRON NEST means turning **intelligence reports** into **map positions** using bearings, distances and a few geometry tricks. This guide walks through every method, from clean two-bearing fixes to shooting at a grid square with nothing but hope.
 
@@ -44,7 +44,7 @@ When you have bearings from two known positions:
 4. **The intersection of the two lines is the target.** The game displays bearing/distance as you draw — no math needed.
 5. Mark the intersection with a red target token.
 
-If the two lines do not quite meet, the target sits inside the small triangle between them. Average the two lines and place the token in the middle — spotter reports have error margins that grow with distance (community-reported: roughly ±0.1° under 2 km, widening to several degrees at extreme range).
+If the two lines do not quite meet, the target sits inside the small triangle between them. Average the two lines and place the token in the middle — spotter reports carry error margins that grow with distance (community-reported): treat close-range fixes as precise, and extreme-range intersections as estimates to confirm with a second observer or star shell.
 
 ---
 

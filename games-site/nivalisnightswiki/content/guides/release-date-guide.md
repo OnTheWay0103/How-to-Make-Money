@@ -57,18 +57,18 @@ The Steam page is live for **wishlisting**. A pre-order has not opened yet — m
 
 ## Why So Much Hype?
 
-Nivalis Nights sits near the top of Steam's most-wishlisted upcoming games — roughly **932,000 wishlists** at last count (GameDiscoverCo ranked it among 2026's top anticipated titles). Reasons:
+Nivalis Nights sits near the top of Steam's most-wishlisted upcoming games (GameDiscoverCo ranked it among 2026's top anticipated titles). Reasons:
 
 - **Studio pedigree:** ION LANDS built *Cloudpunk*, beloved for its atmosphere and writing — Nivalis Nights returns to that world.
 - **Genre gap:** a genuinely deep cyberpunk *life sim* is rare; the closest comparisons (business sims plus life sims) all have huge audiences.
-- **Scope:** seven business types, 100+ voiced NPCs, fishing, boating, apartment customization, a chess tournament, and a dynamic city economy — all in one game.
+- **Scope:** seven business types, 135 voiced NPCs, fishing, boating, apartment customization, a chess tournament, and a dynamic city economy — all in one game.
 
 ## What's Actually in the Game at Launch
 
 To set expectations for release day, here's what's confirmed in the launch version:
 
 - **Seven business types** — food stalls, noodle bars, ramen bars, stim stores, bars, restaurants, and nightclubs
-- **100+ voiced NPCs** with individual schedules, stories, friendships, rivalries, and romance paths
+- **135 voiced NPCs** with individual schedules, stories, friendships, rivalries, and romance paths
 - **Apartment customization** — buy and decorate homes across the city, including homes for friends
 - **Fishing and boating** — a private boat, canal and ocean fishing, weather-dependent catches
 - **The chess tournament** — a high-stakes cyberpunk chess scene alongside other minigames

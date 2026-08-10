@@ -10,7 +10,7 @@ related: ["nushi-boss-reference", "chapter-progression-guide", "combat-system-gu
 
 # Kunai & Kirin Boss Guide — How to Beat the Twin Fight
 
-> Kunai and Kirin are the two-boss fight of Beast of Reincarnation — a melee-and-ranged pairing that tests your ability to split defense: **parry Kunai, dodge Kirin, never confuse the two.** You face them twice: first in Chapter 8, with the real fight — where you put them down for good — in Chapter 12 (v1.0.6, August 2026).
+> Kunai and Kirin are the two-boss fight of Beast of Reincarnation — a melee-and-ranged pairing that tests your ability to split defense: **parry Kunai, dodge Kirin, never confuse the two.** You face them twice: first in Chapter 8, with the real fight — where you put them down for good — in Chapter 12 (launch version, August 2026).
 
 ---
 

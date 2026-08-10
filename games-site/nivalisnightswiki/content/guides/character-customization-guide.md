@@ -41,7 +41,7 @@ The [Cloudpunk Comparison Guide](/guides/cloudpunk-comparison-guide) covers this
 No avatar editor, but a deep customization game. Everything below is confirmed or officially described:
 
 ### 1. Your Businesses
-Every venue is a blank canvas. The confirmed management interface (see the [Business Management Guide](/guides/business-management-guide)) covers layout, furniture, and customer flow — the game lets you design "every corner" of your shops, restaurants, noodle bars, and nightclubs. Your business empire is, in a real sense, your character: it's what the city sees of you.
+Every venue is a blank canvas. The confirmed management interface (see the [Best Business Guide](/guides/best-business-guide)) covers layout, furniture, and customer flow — the game lets you design "every corner" of your shops, restaurants, noodle bars, and nightclubs. Your business empire is, in a real sense, your character: it's what the city sees of you.
 
 ### 2. Your Homes
 Apartment customization is one of the game's headline features, and it's deep:
@@ -125,7 +125,7 @@ No — it means a different customization surface. The game's customization syst
 | Clothing / wardrobe | ❓ Unknown | This guide (will update) |
 | Apartment customization | ✅ Confirmed | [Apartment Customization Guide](/guides/apartment-customization-guide) |
 | Homes for friends | ✅ Confirmed | [Apartment Customization Guide](/guides/apartment-customization-guide) |
-| Business design / layout | ✅ Confirmed | [Business Management Guide](/guides/business-management-guide) |
+| Business design / layout | ✅ Confirmed | [Best Business Guide](/guides/best-business-guide) |
 | HOVA customization | ⚠️ Expected (universe precedent) | [Transportation Guide](/guides/transportation-guide) |
 | Boat upgrades | ✅ Confirmed | [Fishing Guide](/guides/fishing-guide) |
 | Relationships as identity | ✅ Confirmed | [NPC Relationships Guide](/guides/npc-relationships-guide) |

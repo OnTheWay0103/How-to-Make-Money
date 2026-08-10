@@ -16,12 +16,12 @@ All the practical buying info for Waterpark Simulator — price, platforms, cons
 
 | Region / Version | Price | Notes |
 |------------------|-------|-------|
-| **Steam (PC)** | **$12.99** | Price confirmed to stay at $12.99 — CayPlay will not raise it to the originally planned $19.99 |
+| **Steam (PC)** | **$12.99** | Price per the official Steam store listing; confirmed not to rise at the 1.0 launch |
 | PlayStation 5 | $12.99 | Released July 31, 2026 alongside 1.0 |
 | Xbox Series X\|S | $12.99 | Released July 31, 2026 alongside 1.0 |
 | DLC | None announced | The soundtrack was given free to Early Access players |
 
-There are **no paid editions or DLC** — the game is a single $12.99 purchase. Early Access players additionally got the official soundtrack and an exclusive duck slide for free.
+There are **no paid editions or DLC** — the game is a single $12.99 purchase. Early Access players additionally got the official soundtrack for free plus a special in-game gift.
 
 ## Platforms
 
@@ -32,9 +32,11 @@ There are **no paid editions or DLC** — the game is a single $12.99 purchase. 
 | **Xbox Series X\|S** | ✅ Released July 31, 2026 | Same 1.0 content as PC |
 | Nintendo Switch | ❌ Not announced | — |
 | Mobile (iOS/Android) | ❌ Not announced | — |
-| Steam Deck | ⚠️ Unofficial | Reported playable with Proton Experimental |
+| Steam Deck | ✅ Playable (official rating) | Runs on SteamOS; some actions need touchscreen/keyboard and text can be small |
 
 ## System Requirements (PC)
+
+The specs below are from the official Steam store listing.
 
 ### Minimum
 
@@ -45,7 +47,7 @@ There are **no paid editions or DLC** — the game is a single $12.99 purchase. 
 | RAM | 8 GB |
 | GPU | NVIDIA GTX 1050 or AMD Radeon RX 570 |
 | DirectX | Version 11 |
-| Storage | 20 GB (download ~5 GB) |
+| Storage | 20 GB |
 
 ### Recommended
 
@@ -62,7 +64,7 @@ The game is not demanding — a mid-range PC from the last decade meets the reco
 
 ## Steam Deck & Controller Notes
 
-- **Officially unsupported** (CayPlay lists Windows only), but the community reports good results forcing **Proton Experimental** in game properties → Compatibility. This fixes drag-and-drop and mouse-click issues that plagued earlier Early Access builds.
+- **Officially rated "Playable"** on Steam Deck — it runs on SteamOS, though some actions need touchscreen or keyboard input and text can be small in places. Many players also force **Proton Experimental** in game properties → Compatibility, which fixes drag-and-drop and mouse-click issues.
 - **Console versions** (PS5 / Xbox) use a native controller scheme — the same game, adjusted for gamepad play. PC + gamepad also works via Steam Input in most cases.
 
 ## Should You Buy It?

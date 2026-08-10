@@ -10,7 +10,7 @@ related: ["nushi-boss-reference", "beginner-guide", "combat-system-guide", "elem
 
 # Rangifer Boss Guide — How to Beat the Giant Stag
 
-> Rangifer is the first Nushi of Beast of Reincarnation — a giant, Blighted stag that anchors Chapter 1 and returns with a vengeance in Chapter 5. Everything below is verified against launch guides (v1.0.6, August 2026).
+> Rangifer is the first Nushi of Beast of Reincarnation — a giant, Blighted stag that anchors Chapter 1 and returns with a vengeance in Chapter 5. Everything below is verified against launch guides (launch version, August 2026).
 
 ---
 

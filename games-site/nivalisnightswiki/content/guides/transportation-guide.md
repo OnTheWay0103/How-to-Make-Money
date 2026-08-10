@@ -6,7 +6,7 @@ version: "Pre-release"
 updated: "2026-08-09"
 date: "2026-08-09"
 keywords: ["nivalis nights transportation", "nivalis nights hova", "nivalis nights flying car", "nivalis nights taxi", "nivalis nights subway", "nivalis nights how to travel", "nivalis nights getting around"]
-related: ["city-districts-guide", "fishing-guide", "money-making-guide", "beginner-guide"]
+related: ["city-districts-guide", "fishing-guide", "best-business-guide", "beginner-guide"]
 ---
 
 # Transportation Guide — Getting Around Nivalis
@@ -78,7 +78,7 @@ The HOVA's behavior in the shared universe is documented from *Cloudpunk*, and N
 - **Time efficiency:** owning your vehicle ends the taxi-fare math for time-critical runs.
 - **Status and story:** in the city guide's own framing, a personal HOVA is "a purchase goal; personal freedom." In a game where reputation and identity matter, the car you fly is part of the signal.
 
-**The budget question:** a HOVA is presumably a major mid-game purchase competing with venue expansion, apartment upgrades, and greenhouse investment. The disciplined play: buy it after your income is passive — Manager-run venues first, per the [Business Management Guide](/guides/business-management-guide).
+**The budget question:** a HOVA is presumably a major mid-game purchase competing with venue expansion, apartment upgrades, and greenhouse investment. The disciplined play: buy it after your income is passive — Manager-run venues first, per the [Best Business Guide](/guides/best-business-guide).
 
 ## The Boat — The Water Is a Highway
 
@@ -87,7 +87,7 @@ Your private boat is confirmed as both a vehicle and a gameplay system — see t
 - **The canals are roads.** Nivalis is built above the sea; the water between the city's support structures is an entire navigable layer, largely out of sight of the street-level city.
 - **Access to Calypso Island** is confirmed by boat — the upscale island district is reachable by boat (and taxi), and the boat is the atmospheric way.
 - **The lower city is boat territory.** The waterways run beneath the massive pillars that hold Nivalis up — cramped passages, makeshift docks, and hidden spots the surface never sees. The [Hidden Locations Guide](/guides/hidden-locations-guide) details what lives down there.
-- **Goods transport:** the [Money-Making Guide](/guides/money-making-guide) explicitly recommends the boat for neighborhood arbitrage — moving goods between districts where prices differ. Your boat is a cargo carrier as much as a fishing platform.
+- **Goods transport:** the [Best Business Guide](/guides/best-business-guide) explicitly recommends the boat for neighborhood arbitrage — moving goods between districts where prices differ. Your boat is a cargo carrier as much as a fishing platform.
 - **Boat upgrades:** expect upgrade paths for speed, range, and fishing gear (per the [Fishing Guide](/guides/fishing-guide)).
 
 **When to use the boat:** fishing, Calypso Island, lower-city exploration, cargo movement, and any route where water beats streets.
@@ -108,13 +108,13 @@ Some destinations are mode-locked:
 | Metro Hub | ✅ | — | ✅ | ✅ | ❌ |
 | Seaside Boardwalk | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Calypso Island | ❌ | ❌ | ✅ | ✅ | ✅ |
-| Skyhigh Gardens | ❌ | ❌ | **✅ only** | TBD | ❌ |
+| Skyhigh Gardens | ❌ | ❌ | **✅ only** | Unconfirmed | ❌ |
 | Lower city waterways | Partial | ❌ | ❌ | ❌ | **✅ only** |
 
 Access gating means your transport portfolio is a progression: walking and subway early, taxis when cash flows, boat for the water layer, HOVA for the full vertical city.
 
 ### 3. The Curfew Factor
-The 2 AM curfew (see the [Day & Night Cycle Guide](/guides/day-night-cycle-guide)) changes transport math at night: street options shrink, security patrols matter, and the boat's relative discretion may become valuable. If you plan curfew-era activities, your vehicle choice is part of the risk calculation.
+The 2 AM curfew (see the [Day & Night Cycle & Weather Guide](/guides/day-night-cycle-guide)) changes transport math at night: street options shrink, security patrols matter, and the boat's relative discretion may become valuable. If you plan curfew-era activities, your vehicle choice is part of the risk calculation.
 
 ## Choosing Your Transport — Decision Framework
 
