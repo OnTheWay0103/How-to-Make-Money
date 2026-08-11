@@ -33,7 +33,7 @@ export default function PrivacyPage() {
 
       <h2>4. Google AdSense & Third-Party Advertising</h2>
       <p>
-        We use Google AdSense to display advertisements on our website. Google uses cookies to serve ads based on your prior visits to our site and other websites. Google's use of advertising cookies enables it and its partners to serve ads based on your visit to our site and/or other sites on the Internet.
+        We intend to apply for Google AdSense to display advertisements on our website. If approved, Google may use cookies to serve ads based on your prior visits to our site and other websites. Google's use of advertising cookies enables it and its partners to serve ads based on your visit to our site and/or other sites on the Internet.
       </p>
       <p>Specifically:</p>
       <ul>

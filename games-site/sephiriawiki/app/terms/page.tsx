@@ -47,7 +47,7 @@ export default function TermsPage() {
 
       <h2>7. Third-Party Links & Advertisements</h2>
       <p>
-        Our website displays advertisements served by Google AdSense and may contain links to third-party websites. We are not responsible for the content, privacy practices, or terms of these third parties. Interactions with advertisements are between you and the advertiser.
+        Our website may display advertisements served by Google AdSense (if approved) and may contain links to third-party websites. We are not responsible for the content, privacy practices, or terms of these third parties.
       </p>
 
       <h2>8. Changes to Terms</h2>
