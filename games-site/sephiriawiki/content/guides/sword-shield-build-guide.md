@@ -66,9 +66,9 @@ Sword & Shield is one of the safest Hard Mode picks — consistency matters more
 
 | Modifier | How Sword & Shield Answers |
 |----------|---------------------------|
-| **Blood Festival** (enemies lifesteal) | Block the lifesteal windows instead of trading into them |
+| **Festival of Blood** (enemies lifesteal) | Block the lifesteal windows instead of trading into them |
 | **Tension** (no potions in boss fights) | Your block is a renewable resource — the shield replaces the potions you lose |
-| **Deterioration / Heavy Heart** | Balance tablets and skip junk artifacts; the weapon doesn't need a specific element to perform |
+| **Decline / Heavy Heart** | Balance tablets and skip junk artifacts; the weapon doesn't need a specific element to perform |
 
 ---
 

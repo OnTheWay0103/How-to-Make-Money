@@ -35,7 +35,7 @@ The artifact-conversion station was reworked: **trade 1 artifact for 1 of the sa
 
 ### 5. Hard Mode Extended to Level 60
 
-Hard Mode now runs to **level 60** with **6 modifiers**: Blood Festival, Pseudo-Vanguard, Deterioration, Tension (no potions in boss fights), Heavy Heart (carry junk artifacts), and Proliferation. Full modifier counter-guide: **[Hard Mode Guide (1.0)](/guides/hard-mode-guide)**.
+Hard Mode now runs to **level 60** with **6 modifiers**: Festival of Blood, Pseudo-Vanguard, Decline, Tension (no potions in boss fights), Heavy Heart (carry junk artifacts), and Proliferation. Full modifier counter-guide: **[Hard Mode Guide (1.0)](/guides/hard-mode-guide)**.
 
 ### 6. New Items
 

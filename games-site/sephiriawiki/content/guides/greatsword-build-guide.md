@@ -72,7 +72,7 @@ The Greatsword in Hard Mode is a high-risk, high-reward proposition — the 60-l
 
 | Modifier | How to Play It |
 |----------|----------------|
-| **Blood Festival** (enemies lifesteal) | Stagger before you trade — locked-down enemies can't lifesteal. Commit to a window, get out |
+| **Festival of Blood** (enemies lifesteal) | Stagger before you trade — locked-down enemies can't lifesteal. Commit to a window, get out |
 | **Tension** (no potions in boss fights) | The Greatsword's weakness: no potions + animation commitment = death. Learn the boss patterns on Normal first (see the Hard Mode guide's prep advice) |
 | **Pseudo-Vanguard** (elites buffed) | Stagger chains are even more valuable against elites — shut them down before they activate their buffs |
 | **Heavy Heart** (carry junk artifacts) | Skip junk artifact pickups; keep the pool clean so the Mystic Pot feed stays efficient |

@@ -84,15 +84,15 @@ Each run is a fresh climb: choose from 6 weapons, collect artifacts, socket insc
 - **Hard Mode** — Level 60 with 6 modifiers for veterans
 - **Side Bag & Mystic Pot** — Inventory bag and artifact re-roll station
 - **1-4 Player Co-op** — Full campaign playable solo or with friends
-- **94% Positive** — Very Positive Steam rating (~5,700 reviews)
+- **94% Positive** — Very Positive Steam rating (8,000+ reviews)
 
 ---
 
 ## Quick Start Links
 
-- [Sephiria on Steam](https://store.steampowered.com/)
+- [Sephiria on Steam](https://store.steampowered.com/app/2436940/Sephiria/)
 - [r/SephiriaGame](https://www.reddit.com/r/SephiriaGame/) — Community hub
-- [Official Discord](https://discord.com/) — Linked on the Steam store page
+- Official Discord — Linked on the Steam store page
 
 ---
 

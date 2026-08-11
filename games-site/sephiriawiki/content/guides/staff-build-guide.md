@@ -83,7 +83,7 @@ The Staff is a strong Hard Mode weapon because its range keeps you out of the mo
 
 | Modifier | How the Staff Should Answer |
 |----------|-----------------------------|
-| **Blood Festival** (enemies lifesteal) | Distance is your defense — the Staff is one of the best weapons at *not being hit* |
+| **Festival of Blood** (enemies lifesteal) | Distance is your defense — the Staff is one of the best weapons at *not being hit* |
 | **Tension** (no potions in boss fights) | Layer defensive artifacts and tablet passives before boss rooms; every hit now costs real health |
 | **Heavy Heart** (carry junk artifacts) | Skip artifact pickups that don't fit your element — every carried junk artifact is dead weight |
 
@@ -113,7 +113,7 @@ In 1-4 player co-op the Staff is the classic **team pick**: AoE plus element cov
 2. Match tablets to that element — this decides more than the weapon
 3. Curate artifacts at the Mystic Pot (2-for-1 rarity upgrades)
 4. Play range — the Staff wins rooms before enemies reach you
-5. In Hard Mode, layer defense against Tension and Blood Festival
+5. In Hard Mode, layer defense against Tension and Festival of Blood
 
 ## FAQ
 

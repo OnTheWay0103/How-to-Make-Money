@@ -1,6 +1,6 @@
 ---
 title: "Hard Mode Guide — the 60-Level Endgame & All 6 Modifiers (1.0)"
-description: "Complete Sephiria 1.0 Hard Mode guide: how to unlock it, the level 60 climb, all 6 modifiers (Blood Festival, Pseudo-Vanguard, Deterioration, Tension, Heavy Heart, Proliferation), and the best weapons and builds."
+description: "Complete Sephiria 1.0 Hard Mode guide: how to unlock it, the level 60 climb, all 6 modifiers (Festival of Blood, Pseudo-Vanguard, Decline, Tension, Heavy Heart, Proliferation), and the best weapons and builds."
 category: "Hard Mode"
 version: "1.0"
 updated: "2026-08-11"
@@ -36,9 +36,9 @@ Hard Mode unlocks after you **complete the base game** — finish a full climb t
 
 | Modifier | Type | Effect |
 |----------|------|--------|
-| **Blood Festival** | Demon | Enemies lifesteal — healing scales with party size |
+| **Festival of Blood** | Demon | Enemies lifesteal — healing scales with party size |
 | **Pseudo-Vanguard** | Demon | Elite enemies gain vanguard-style buffs |
-| **Deterioration** | Plan | Progressive pressure over the climb |
+| **Decline** | Plan | Progressive pressure over the climb |
 | **Tension** | Plan | **No potions in boss fights** |
 | **Heavy Heart** | Plan | You carry junk artifacts |
 | **Proliferation** | World | Enemies multiply/scale world-wide |
@@ -47,7 +47,7 @@ Hard Mode unlocks after you **complete the base game** — finish a full climb t
 
 ## The Modifier Counter-Guide
 
-### Blood Festival — Lifesteal
+### Festival of Blood — Lifesteal
 
 Enemies heal on hit. This punishes trading and rewards range.
 
@@ -61,12 +61,12 @@ Elites arrive with extra buffs. They're the priority target in every room.
 - Kill them first, at range when possible — a vanguard elite left alone buffs the whole room.
 - Greatsword stagger chains shut elites down before their buffs activate.
 
-### Deterioration — Progressive Pressure
+### Decline — Progressive Pressure
 
 Runs grind you down over time. Sustain matters.
 
 - Lean on tablet/artifact passives over consumables; see the [Mystic Pot Guide](/guides/mystic-pot-guide) for curating that pool.
-- Efficient routes > thorough routes — Deterioration punishes over-farming.
+- Efficient routes > thorough routes — Decline punishes over-farming.
 
 ### Tension — No Potions in Boss Fights
 
@@ -106,7 +106,7 @@ Enemies scale world-wide. The climb snowballs — the late levels hit hardest.
 1. **Tablets and artifacts decide more than the weapon** — match your element direction and curate it at the [Mystic Pot](/guides/mystic-pot-guide) (2-for-1 rarity upgrades are the fastest power growth).
 2. **Respect Tension:** no potions in boss fights means defense passives, not consumables, are your safety net.
 3. **Learn patterns on Normal first** — the bosses' telegraphed attacks are learnable; go in knowing them.
-4. **Don't get hit.** It's trite, but Blood Festival + Tension make it the actual strategy.
+4. **Don't get hit.** It's trite, but Festival of Blood + Tension make it the actual strategy.
 
 ---
 
@@ -124,10 +124,10 @@ Enemies scale world-wide. The climb snowballs — the late levels hit hardest.
 Complete the base game — a full climb through all 6 chapters and the Chapter 6 ending. Then select Hard Mode when starting a run.
 
 **Q: What are the 6 Hard Mode modifiers?**
-Blood Festival (lifesteal), Pseudo-Vanguard (buffed elites), Deterioration (progressive pressure), Tension (no potions in boss fights), Heavy Heart (junk artifacts), and Proliferation (scaling world).
+Festival of Blood (lifesteal), Pseudo-Vanguard (buffed elites), Decline (progressive pressure), Tension (no potions in boss fights), Heavy Heart (junk artifacts), and Proliferation (scaling world).
 
 **Q: Is Hard Mode better in co-op?**
-Yes — Blood Festival healing scales with party size, and the revive economy makes co-op more forgiving overall.
+Yes — Festival of Blood healing scales with party size, and the revive economy makes co-op more forgiving overall.
 
 **Q: What's the best weapon for Hard Mode?**
 The Crossbow is the community's safest pick — range counters the lifesteal modifiers. Sword & Shield is the best all-rounder, and Greatsword wins the boss fights.

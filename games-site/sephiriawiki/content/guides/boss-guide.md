@@ -1,6 +1,6 @@
 ---
 title: "Boss Guide — All 10+ Bosses, Difficulty Curve & Fight Strategy"
-description: "Complete boss guide for Sephiria's 10+ bosses across 6 chapters. The chapter-by-chapter difficulty curve, the verified boss roster, general boss-fight rules (block, dodge, fury phases), Hard Mode modifiers, and co-op boss roles."
+description: "Complete boss guide for Sephiria's 10+ bosses across 6 chapters. The chapter-by-chapter difficulty curve, the known boss roster, general boss-fight rules (block, dodge, fury phases), Hard Mode modifiers, and co-op boss roles."
 category: "Bosses"
 version: "1.0"
 updated: "2026-08-11"
@@ -29,16 +29,17 @@ The difficulty curve is deliberate: Chapter 3 filters players who never learned 
 
 ---
 
-## Verified Boss Roster
+## Known Boss Roster
 
-Official sources have confirmed a handful of boss names. We list verified names only — other fights are real but unnamed in public sources, and we prefer honesty over invented names.
+A small number of boss names have been reported by the community or confirmed in official patch notes. Other fights exist but their official names are not yet widely documented.
 
-| Boss | Where It Appears | What's Known |
-|------|------------------|--------------|
-| **Askard** | A chapter boss | A verified chapter boss, famous in the community for its theme music |
-| **Qliphoth** | A boss encounter | A verified boss encounter |
-| **Spinning Staff Demon** | Hard Mode | Verified boss — as of 1.0 it appears in Hard Mode |
-| **Pillar Summoner** | Chapter 6 | The endgame summoner fight — it summons pillars you must destroy to keep the fight manageable |
+| Boss | Where It Appears | Source |
+|------|------------------|--------|
+| **Askard** | A chapter boss | Community-reported, known for its theme music |
+| **Qliphoth** | A boss encounter | Community-reported |
+| **Cliver** | A boss encounter | Confirmed in official 1.0 patch notes |
+| **Spinning Staff Demon** | Hard Mode | Community-reported — appears in Hard Mode |
+| **Pillar Summoner** | Chapter 6 | Community-reported — summons pillars you must destroy |
 
 ---
 
@@ -76,9 +77,9 @@ Hard Mode extends the climb to **level 60** with **6 modifiers**. The ones that 
 | Modifier | Effect on Boss Fights | Counter |
 |----------|------------------------|---------|
 | **Tension** | No potions during boss fights | Overheal before the door; lean on talents and defensive items |
-| **Blood Feast** | Enemies (including bosses) heal via lifesteal | Kill adds first so the boss has nothing to heal from |
+| **Festival of Blood** | Enemies (including bosses) heal via lifesteal | Kill adds first so the boss has nothing to heal from |
 | **Pseudo-Vanguard** | Elite enemies buffed | Focused single-target damage (Greatsword stagger) over clear speed |
-| **Deterioration / Heavy Heart** | Handicap pressure, including carrying a junk artifact | Audit your inventory before the fight — drop the dead weight |
+| **Decline / Heavy Heart** | Handicap pressure, including carrying a junk artifact | Audit your inventory before the fight — drop the dead weight |
 | **Proliferation** | More enemies per fight | AoE (Staff) clears the room so you can focus the boss |
 
 ---
@@ -100,7 +101,7 @@ Hard Mode extends the climb to **level 60** with **6 modifiers**. The ones that 
 10+ unique bosses across 6 chapters — one per chapter (6 mandatory), plus optional encounters. Chapter 6 includes a mini-boss, the Pillar Summoner fight, and the final boss.
 
 **Q: Which bosses have confirmed names?**
-Askard, Qliphoth, Spinning Staff Demon, and Pillar Summoner. Other fights exist but their names are unconfirmed in public sources — we mark them honestly instead of inventing names.
+Askard, Qliphoth, Cliver, Spinning Staff Demon, and Pillar Summoner. Cliver is confirmed in official 1.0 patch notes; other names are community-reported. Unconfirmed bosses are marked honestly.
 
 **Q: Is the final boss in Chapter 6?**
 Yes — beating it unlocks the ending and credits. See the [Chapter 6 & Final Boss Guide](/guides/chapter-6-final-boss-guide) for the full fight breakdown.

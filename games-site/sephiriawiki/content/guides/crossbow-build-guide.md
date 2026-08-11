@@ -48,10 +48,10 @@ Hard Mode to level 60 is the Crossbow's home turf. Here's the modifier matchup:
 
 | Modifier | How the Crossbow Answers |
 |----------|--------------------------|
-| **Blood Festival** (enemies lifesteal) | **The key matchup.** Lifesteal only works if enemies hit you — the Crossbow's whole job is making that impossible. Distance beats lifesteal, flat out |
+| **Festival of Blood** (enemies lifesteal) | **The key matchup.** Lifesteal only works if enemies hit you — the Crossbow's whole job is making that impossible. Distance beats lifesteal, flat out |
 | **Tension** (no potions in boss fights) | Potions being banned hurts every weapon; it hurts the Crossbow least, because you're not taking hits to begin with |
 | **Pseudo-Vanguard** (elites buffed) | Pick them off at range before they close — the Crossbow deletes threats before they become problems |
-| **Deterioration** | Sustained DPS matters more than burst over a full climb — the Crossbow is built for exactly this |
+| **Decline** | Sustained DPS matters more than burst over a full climb — the Crossbow is built for exactly this |
 
 **Build tip for Hard Mode:** bias your tablets/artifacts toward defense alongside the element direction. The weapon keeps you safe; the build keeps you alive for the fights where the arena forces contact.
 
@@ -89,7 +89,7 @@ In 1-4 player co-op the Crossbow is the **back-line DPS role**. You don't front-
 It's the safest weapon in the game but not the highest ceiling — the Staff (with the right tablets) out-damages it, and Sword & Shield is more flexible. The Crossbow is the consistency-and-survival pick.
 
 **Q: Is the Crossbow the best Hard Mode weapon?**
-The community calls it the safest pick for Hard Mode — its range is a direct counter to the lifesteal (Blood Festival) modifiers.
+The community calls it the safest pick for Hard Mode — its range is a direct counter to the lifesteal (Festival of Blood) modifiers.
 
 **Q: Did the Crossbow get a new upgrade line in 1.0?**
 Yes — an endgame extension added at launch, alongside new lines for other weapons.

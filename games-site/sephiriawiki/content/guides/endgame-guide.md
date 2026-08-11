@@ -26,7 +26,7 @@ Sephiria ends at **Chapter 6** — beating the final boss unlocks the ending and
 
 ### Hard Mode — the real campaign
 
-Hard Mode extends the climb to **level 60** with **6 modifiers** on top of base difficulty: Blood Festival, Pseudo-Vanguard, Deterioration, Tension, Heavy Heart, and Proliferation. All chapter bosses return with tuned-up stats, and **Tension** (no potions during boss fights) makes bosses where most runs end. This is the definitive challenge for veterans.
+Hard Mode extends the climb to **level 60** with **6 modifiers** on top of base difficulty: Festival of Blood, Pseudo-Vanguard, Decline, Tension, Heavy Heart, and Proliferation. All chapter bosses return with tuned-up stats, and **Tension** (no potions during boss fights) makes bosses where most runs end. This is the definitive challenge for veterans.
 
 Full modifier breakdown and strategies in the [Hard Mode Guide](/guides/hard-mode-guide).
 

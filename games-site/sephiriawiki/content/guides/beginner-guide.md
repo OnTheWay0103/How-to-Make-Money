@@ -18,7 +18,7 @@ Sephiria is a **pixel-art action roguelite** developed by **TEAM HORAY** (the st
 
 Every run in Sephiria follows the same cycle:
 
-1. **Select a weapon** — Choose from 6 weapon branches (200+ upgrades total across all of them)
+1. **Select a weapon** — Pick from 6 weapon branches (200+ upgrades total). The Starting Weapon Choice inscription lets you pick freely; otherwise your starting weapon may be limited
 2. **Climb the tower** — Fight through procedurally-arranged rooms across 6 chapters
 3. **Collect artifacts** — Artifacts modify your stats and abilities and define each run; tablets in your inventory grid empower the artifacts around them
 4. **Equip inscriptions** — Socket permanent bonuses into your gear for passive progression

@@ -59,7 +59,7 @@ When a teammate's HP reaches zero, they enter a **downed state**. A short revive
 
 ## 12. Is there crossplay?
 
-Crossplay details are still being finalized for the 1.0 launch. Check the official Steam page for the latest information.
+Crossplay has not been confirmed on the official Steam page as of the 1.0 launch. Check the Steam store page for the latest information.
 
 ## 13. What are the system requirements?
 

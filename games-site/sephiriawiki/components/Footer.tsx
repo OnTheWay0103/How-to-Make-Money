@@ -6,7 +6,7 @@ const footerLinks = [
   { href: '/faq', label: 'FAQ' },
   { href: '/about', label: 'About' },
   { href: '/contact', label: 'Contact' },
-  { href: 'https://store.steampowered.com', label: 'Steam', external: true },
+  { href: 'https://store.steampowered.com/app/2436940/Sephiria/', label: 'Steam', external: true },
 ];
 
 const legalLinks = [
@@ -21,7 +21,7 @@ export default function Footer() {
         <div className="flex flex-col items-center gap-4">
           {/* Copyright */}
           <p className="text-sm text-gray-500 text-center">
-            &copy; 2026 Sephiria Wiki. Unofficial fan wiki. Sephiria is a trademark of Bounded Innovation.
+            &copy; 2026 Sephiria Wiki. Unofficial fan wiki. Sephiria is a trademark of TEAM HORAY.
           </p>
 
           {/* Nav Links */}
