@@ -12,7 +12,7 @@ related: ["beginner-guide", "full-release-guide", "weapons-guide", "boss-guide",
 
 **Everything you need to climb the Tower of Sephiria — now updated for the 1.0 full release.**
 
-Sephiria 1.0 launched on **July 31, 2026** on Steam with a 94% positive rating. The full release adds the final Chapter 6 ending, new upgrade lines across all 6 weapon branches, Hard Mode extended to level 60, the Side Bag, and a Mystic Pot rework. This wiki covers all core systems, strategies, and secrets for the launch build — for solo climbers and 4-player co-op teams alike.
+Sephiria 1.0 launched on **July 31, 2026** on Steam with a **Very Positive** rating. The full release adds the final Chapter 6 ending, new upgrade lines across all 6 weapon branches, Hard Mode extended to level 60, the Side Bag, and a Mystic Pot rework. This wiki covers all core systems, strategies, and secrets for the launch build — for solo climbers and 4-player co-op teams alike.
 
 ---
 
@@ -84,7 +84,7 @@ Each run is a fresh climb: choose from 6 weapons, collect artifacts, socket insc
 - **Hard Mode** — Level 60 with 6 modifiers for veterans
 - **Side Bag & Mystic Pot** — Inventory bag and artifact re-roll station
 - **1-4 Player Co-op** — Full campaign playable solo or with friends
-- **94% Positive** — Very Positive Steam rating (8,000+ reviews)
+- **Very Positive** — Overwhelmingly positive player reception on Steam
 
 ---
 

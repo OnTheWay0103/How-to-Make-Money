@@ -19,7 +19,7 @@ export default function PrivacyPage() {
       <h2>2. Information We Collect</h2>
       <p>We collect the following types of information:</p>
       <ul>
-        <li><strong>Usage Data:</strong> Automatically collected information including your IP address, browser type, pages visited, time spent on pages, and referring URLs. This data is collected via Google Analytics and Google AdSense.</li>
+        <li><strong>Usage Data:</strong> Automatically collected information including your IP address, browser type, pages visited, time spent on pages, and referring URLs. This data is collected via Google Analytics, and may be collected via Google AdSense if the site is approved for the program.</li>
         <li><strong>Cookies:</strong> We use cookies and similar tracking technologies to enhance your browsing experience, analyze site traffic, and serve personalized advertisements.</li>
       </ul>
 
@@ -27,7 +27,7 @@ export default function PrivacyPage() {
       <p>We use the collected information to:</p>
       <ul>
         <li>Analyze site traffic and user behavior to improve our content</li>
-        <li>Display relevant advertisements via Google AdSense</li>
+        <li>Display relevant advertisements via Google AdSense (if approved for the program)</li>
         <li>Understand which game guides are most helpful to our readers</li>
       </ul>
 
