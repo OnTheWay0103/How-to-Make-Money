@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 };
 
 const FAQ_ITEMS = [
-  { question: 'What is Sephiria?', answer: 'Sephiria is a pixel-art action roguelite developed by TEAM HORAY (the Dungreed studio). You play as a rabbit warrior climbing the Tower of Sephiria through 6 chapters with 6 weapons and ~300 artifacts. It supports 1-4 player co-op and has a 94% positive rating on Steam. The full 1.0 launched July 31, 2026.' },
+  { question: 'What is Sephiria?', answer: 'Sephiria is a pixel-art action roguelite developed by TEAM HORAY (the Dungreed studio). You play as a rabbit warrior climbing the Tower of Sephiria through 6 chapters with 6 weapons and ~300 artifacts. It supports 1-4 player co-op and carries a Very Positive rating on Steam. The full 1.0 launched July 31, 2026.' },
   { question: 'When is the full 1.0 release?', answer: 'The full 1.0 launch is July 31, 2026. The game spent 484 days in Early Access on Steam (April 2025 → July 2026), with 58 updates during that period.' },
   { question: 'Is it single-player or co-op?', answer: 'Both. You can play solo or in online co-op with up to 4 players. Enemy health and damage scale with player count, so solo play is fully balanced and viable.' },
   { question: 'Is there local co-op or couch co-op?', answer: 'No, Sephiria supports online co-op only. There is no split-screen or local multiplayer.' },

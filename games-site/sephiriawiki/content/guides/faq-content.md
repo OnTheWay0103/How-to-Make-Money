@@ -10,7 +10,7 @@ related: ["beginner-guide", "weapons-guide", "coop-guide", "solo-guide"]
 
 ## 1. What is Sephiria?
 
-Sephiria is a **pixel-art action roguelite** developed by **TEAM HORAY** — the studio behind Dungreed. You play a rabbit warrior climbing the Tower of Sephiria, fighting through procedurally-arranged rooms across **6 chapters** with **6 weapons** and ~300 artifacts. It supports 1–4 player online co-op and carries a **Very Positive** Steam rating (94% overall, 97% among English-language reviews).
+Sephiria is a **pixel-art action roguelite** developed by **TEAM HORAY** — the studio behind Dungreed. You play a rabbit warrior climbing the Tower of Sephiria, fighting through procedurally-arranged rooms across **6 chapters** with **6 weapons** and ~300 artifacts. It supports 1–4 player online co-op and carries a **Very Positive** Steam rating (very positive overall).
 
 ## 2. When is the 1.0 full release?
 

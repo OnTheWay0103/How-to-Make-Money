@@ -57,7 +57,7 @@ export function videoGameSchema(): Record<string, unknown> {
     '@type': 'VideoGame',
     name: 'Sephiria',
     description:
-      'A pixel-art action roguelite where you play as a rabbit warrior climbing the Tower of Sephiria. 6 weapons, ~300 artifacts, 4-player co-op, and a deep Inscription system. 94% positive on Steam.',
+      'A pixel-art action roguelite where you play as a rabbit warrior climbing the Tower of Sephiria. 6 weapons, ~300 artifacts, 4-player co-op, and a deep Inscription system. very positive on Steam.',
     url: 'https://store.steampowered.com/',
     applicationCategory: 'Game',
     operatingSystem: 'Windows',
