@@ -87,7 +87,7 @@ export default function Home() {
           <div className="bg-[#1a0a2e] rounded-lg border border-[#2a1a4e] p-5 text-center">
             <div className="text-3xl mb-2">🎮</div>
             <h3 className="text-white font-semibold mb-1">Very Positive</h3>
-            <p className="text-gray-400 text-sm">Very Positive Steam rating — ~5,700 reviews</p>
+            <p className="text-gray-400 text-sm">Very Positive on Steam</p>
           </div>
         </div>
       </section>
