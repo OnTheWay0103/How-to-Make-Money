@@ -1,9 +1,15 @@
 #!/bin/zsh
 # ============================================================
-# deploy-wiki-site.sh — 单站部署（处理 Root Directory 路径叠加）
+# deploy-wiki-site.sh — 单站部署（CLI 直传模式）
 #
 # 用法: ./deploy-wiki-site.sh <site-dir>   (如 themoundwiki)
-# 流程: API 清空 rootDirectory → CLI 部署 → API 恢复
+#
+# ⚠️ 重要：rootDirectory 必须保持为空（永久）
+#    rootDirectory 仅用于 Git 集成部署（monorepo 场景）。
+#    本项目未启用 Git 集成（需浏览器 OAuth），使用 CLI 直传。
+#    若 rootDirectory 非空，CLI 会在站点目录内再次叠加路径导致
+#    "path does not exist" 报错（曾反复出现）。
+#    如未来启用 Git 集成，Vercel Dashboard 会自动配置 rootDirectory。
 # ============================================================
 set -euo pipefail
 
@@ -28,37 +34,29 @@ TOKEN=$(python3 -c "import json; print(json.load(open('$AUTH_FILE'))['token'])" 
 
 PID=$(python3 -c "import json; print(json.load(open('$PROJECT_PATH/.vercel/project.json'))['projectId'])")
 PROJECT_NAME=$(python3 -c "import json; print(json.load(open('$PROJECT_PATH/.vercel/project.json'))['projectName'])")
-ROOT_DIR="games-site/$SITE_DIR"
 
 echo "🚀 部署 $SITE_DIR (project=$PROJECT_NAME)"
 
-# 1. 清空 rootDirectory
-echo "  1) 清空 rootDirectory..."
+# 1. 防御性清空 rootDirectory（应为空，若被意外设置则清除）
+echo "  1) 确保 rootDirectory 为空..."
 curl -s -X PATCH -H "Authorization: Bearer $TOKEN" \
   -H "Content-Type: application/json" \
   -d '{"rootDirectory":null}' \
   "https://api.vercel.com/v9/projects/$PID" > /dev/null
 
-# 2. CLI 部署
+# 2. CLI 部署（不清除后不再恢复 rootDirectory）
 echo "  2) vercel deploy --prod ..."
 cd "$PROJECT_PATH"
 vercel deploy --prod --yes --token "$TOKEN" 2>&1 | tail -3
 DEPLOY_EXIT=$?
 cd "$SCRIPT_DIR"
 
-# 3. 恢复 rootDirectory
-echo "  3) 恢复 rootDirectory=$ROOT_DIR ..."
-curl -s -X PATCH -H "Authorization: Bearer $TOKEN" \
-  -H "Content-Type: application/json" \
-  -d "{\"rootDirectory\":\"$ROOT_DIR\"}" \
-  "https://api.vercel.com/v9/projects/$PID" > /dev/null
-
 if [ $DEPLOY_EXIT -ne 0 ]; then
   echo "❌ 部署失败 (exit $DEPLOY_EXIT)"
   exit $DEPLOY_EXIT
 fi
 
-# 4. 验证生产 URL
+# 3. 验证生产 URL
 sleep 3
 HTTP=$(curl -s -o /dev/null -w "%{http_code}" -m 15 "https://$PROJECT_NAME.vercel.app/")
 echo "✅ 部署完成: https://$PROJECT_NAME.vercel.app/ (HTTP $HTTP)"

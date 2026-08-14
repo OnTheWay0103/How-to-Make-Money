@@ -154,9 +154,11 @@
 
 `vercel link` 只创建项目，不配置 Git 集成（需浏览器 OAuth）。需手动逐站配置。
 
-### 5.4 Root Directory 双重路径
+### 5.4 Root Directory 双重路径（8/14 已彻底解决）
 
-部署前需 API 清空 → CLI 部署 → API 恢复，否则路径叠加报错。
+**根源**：旧部署脚本在每次部署后把 `rootDirectory` 恢复为 `games-site/<site>`。该设置仅用于 Git 集成部署（monorepo 场景），但 Git 集成从未启用（需浏览器 OAuth）。CLI 部署时读到非空 rootDirectory 会叠加路径 → "path does not exist" 报错。部署中途失败时恢复步骤跳过，问题被掩盖，导致「时不时出现」。
+
+**解决**：`deploy-wiki-site.sh` 已移除恢复步骤，rootDirectory 永久保持为空（34/34 站已确认）。脚本保留防御性清空，防止意外设置。若未来启用 Git 集成，Vercel Dashboard 会自动配置。
 
 ### 5.5 Next.js 版本统一 + Root Lockfile 清理（8/9 已修复）
 
