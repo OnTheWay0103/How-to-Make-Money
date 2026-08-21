@@ -3,9 +3,16 @@ title: "Boss Guide — All 10+ Bosses, Difficulty Curve & Fight Strategy"
 description: "Complete boss guide for Sephiria's 10+ bosses across 6 chapters. The chapter-by-chapter difficulty curve, the known boss roster, general boss-fight rules (block, dodge, fury phases), Hard Mode modifiers, and co-op boss roles."
 category: "Bosses"
 version: "1.0"
-updated: "2026-08-11"
+updated: "2026-08-21"
 keywords: ["Sephiria bosses", "boss guide", "Sephiria boss strategies", "Sephiria boss list", "Sephiria askard", "Sephiria qliphoth", "Sephiria pillar summoner", "Sephiria how to beat bosses", "Sephiria hard mode bosses"]
 related: ["chapter-guide", "chapter-6-final-boss-guide", "weapons-guide", "hard-mode-guide", "builds-guide", "coop-guide"]
+sources:
+  - tier: "Official"
+    text: "Cliver is confirmed as a boss in the 1.0 patch notes"
+  - tier: "Community"
+    text: "Askard, Qliphoth, Spinning Staff Demon, and Pillar Summoner are community-reported names"
+  - tier: "Editorial"
+    text: "The chapter-by-chapter difficulty curve and fight-strategy advice are our assessment"
 ---
 
 # Boss Guide — All 10+ Bosses, Difficulty Curve & Fight Strategy
@@ -50,7 +57,7 @@ These rules hold across all 10+ fights:
 | Rule | Why |
 |------|-----|
 | **Block, don't only dodge** | Boss barrages are blockable — blocking is a core answer to full-screen patterns, not a last resort |
-| **Expect a fury phase around 50% HP** | Most bosses change behavior at roughly half health — save your burst for the phase shift |
+| **Expect a behavior shift around half HP** | Most bosses change behavior at roughly half health (community-reported) — save your burst for the phase shift |
 | **Learn the tell, then punish** | Boss patterns are readable by design. Watch the wind-up, react, then punish the recovery |
 | **Position between attacks** | In bullet-hell fights, where you stand between volleys decides whether you can dodge the next one |
 | **Overgear before Hard Mode** | Hard Mode returns the climb's bosses with tuned-up stats — farm Normal clears first |
@@ -63,7 +70,7 @@ Sephiria builds layer four systems, and every boss fight rewards having all four
 
 | Layer | What It Does for Boss Fights | Where to Learn More |
 |-------|------------------------------|---------------------|
-| **Weapon + upgrade path** | 6 weapon branches with 200+ upgrades. Greatsword = stagger chains (a community favorite vs bosses); Crossbow = safe ranged DPS | [Weapons Guide](/guides/weapons-guide) |
+| **Weapon + upgrade path** | 6 weapon branches with 200+ upgrades. Greatsword = stagger chains (strong vs bosses); Crossbow = safe ranged DPS | [Weapons Guide](/guides/weapons-guide) |
 | **Artifacts + Tablets** | Grid inventory — artifacts are empowered by the tablets slotted around them; pick the element synergy your tablets support | [Artifacts Guide](/guides/artifacts-guide) |
 | **Talents** | Permanent trees (Combat / Resilience / Utility) — boss-relevant picks are damage, sustain, and co-op revives | [Talents Guide](/guides/talents-guide) |
 | **Miracle abilities** | Run-unlocked special abilities that change how a build executes — cooldown support keeps your burst up for phase windows | [Builds Guide](/guides/builds-guide) |
@@ -107,7 +114,7 @@ Askard, Qliphoth, Cliver, Spinning Staff Demon, and Pillar Summoner. Cliver is c
 Yes — beating it unlocks the ending and credits. See the [Chapter 6 & Final Boss Guide](/guides/chapter-6-final-boss-guide) for the full fight breakdown.
 
 **Q: How do I beat the Chapter 3 boss?**
-Chapter 3 is the community's biggest wall. Block the bullet-heavy phases, clear the adds between phases, and learn the 3-phase pattern. See the [Chapter Guide](/guides/chapter-guide) for the walkthrough.
+Chapter 3 is the biggest wall for most players. Block the bullet-heavy phases, clear the adds between phases, and learn the 3-phase pattern. See the [Chapter Guide](/guides/chapter-guide) for the walkthrough.
 
 ---
 

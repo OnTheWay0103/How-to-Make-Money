@@ -1,9 +1,9 @@
 ---
-title: "Costumes Guide — Every Costume & How to Unlock Them"
+title: "Costumes Guide — Unlock Methods & Available Cosmetics"
 description: "Everything about costumes in Sephiria: the 20+ unlockable costumes at 1.0, how costume unlocks work, which ones are worth grinding for, and costume FAQ."
 category: "Cosmetics"
 version: "1.0"
-updated: "2026-08-11"
+updated: "2026-08-21"
 keywords: ["Sephiria costume", "Sephiria best costume", "costume unlock", "Sephiria skins", "Sephiria cosmetics", "character skins"]
 related: ["full-release-guide", "hard-mode-guide", "endgame-guide", "chapter-guide"]
 ---
@@ -40,8 +40,6 @@ Because the exact unlock lists are spread across the game's achievement screen, 
 - **Best story rewards:** the chapter-completion costumes — every full climb earns one.
 - **Best for co-op:** the co-op milestone costume — recognizable at a glance in lobbies.
 - **Best bragging rights:** the endgame challenge costumes — they show you cleared the hardest content.
-
-If you only care about one, go for the Hard Mode completion costume: it's the community's most respected cosmetic.
 
 ## Costume FAQ
 

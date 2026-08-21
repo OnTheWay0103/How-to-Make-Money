@@ -1,5 +1,10 @@
 import VersionBadge from './VersionBadge';
 
+interface EvidenceSource {
+  tier: string;
+  text: string;
+}
+
 interface GuideLayoutProps {
   frontmatter: {
     title: string;
@@ -7,9 +12,16 @@ interface GuideLayoutProps {
     version: string;
     updated: string;
     category: string;
+    sources?: EvidenceSource[];
   };
   children: React.ReactNode;
 }
+
+const TIER_COLORS: Record<string, string> = {
+  Official: 'text-emerald-400',
+  Community: 'text-sky-400',
+  Editorial: 'text-amber-400',
+};
 
 export default function GuideLayout({ frontmatter, children }: GuideLayoutProps) {
   return (
@@ -57,7 +69,18 @@ export default function GuideLayout({ frontmatter, children }: GuideLayoutProps)
           <div className="text-xs text-gray-500 space-y-1">
             <p><strong>Last checked:</strong> {frontmatter.updated}</p>
             <p><strong>Game version:</strong> {frontmatter.version}</p>
-            <p><strong>Sources checked:</strong> Official Steam patch notes, Steam Community discussions, developer announcements, player reports.</p>
+            {frontmatter.sources && frontmatter.sources.length > 0 ? (
+              <div className="space-y-1 pt-1">
+                {frontmatter.sources.map((s, i) => (
+                  <p key={i}>
+                    <strong className={TIER_COLORS[s.tier] ?? 'text-gray-400'}>{s.tier}:</strong>{' '}
+                    {s.text}
+                  </p>
+                ))}
+              </div>
+            ) : (
+              <p><strong>Sources checked:</strong> Official Steam patch notes, Steam Community discussions, developer announcements, player reports.</p>
+            )}
             <p className="text-gray-600 mt-2">
               Found an error or outdated info? <a href="/contact" className="text-amber-400 hover:underline">Let us know</a>. This is an unofficial community guide. Game mechanics may change with updates.
             </p>

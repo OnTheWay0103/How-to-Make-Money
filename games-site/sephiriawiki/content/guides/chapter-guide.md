@@ -3,9 +3,16 @@ title: "Chapter Guide — Complete Walkthrough of All 6 Chapters"
 description: "Detailed Sephiria chapter walkthrough covering all 6 chapters — enemy types, the difficulty curve, Chapter 3's three-phase boss, the Chapter 6 finale, recommended builds, and how to plan a full run."
 category: "Chapters"
 version: "1.0"
-updated: "2026-08-11"
+updated: "2026-08-21"
 keywords: ["Sephiria chapters", "chapter guide", "chapter walkthrough", "tower climbing", "Sephiria chapter 3", "Sephiria mirrored library", "Sephiria chapter 6", "Sephiria difficulty spike"]
 related: ["boss-guide", "chapter-6-final-boss-guide", "weapons-guide", "beginner-guide", "builds-guide", "potions-consumables-guide"]
+sources:
+  - tier: "Official"
+    text: "The game has 6 chapters, and the story ends with Chapter 6"
+  - tier: "Community"
+    text: "Chapter 1-3 names (The Rooted Depths, The Whispering Halls, The Mirrored Library) and boss phase changes around 66%/33% HP are community-reported"
+  - tier: "Editorial"
+    text: "Floor and boss strategy recommendations are our assessment"
 ---
 
 # Chapter Guide — Complete Walkthrough of All 6 Chapters
@@ -92,7 +99,7 @@ Chapter 3 is where Sephiria stops being gentle. Players consistently report hitt
 
 ## Chapter 4: The Hardest Chapter in the Climb
 
-Community consensus rates Chapter 4's boss as the most punishing fight in the main climb — overlapping patterns and long phases. The good news: your build has come online by now, and the pattern-reading skills you learned in Chapter 3 carry you through.
+Community reports rate Chapter 4's boss as the most punishing fight in the main climb — overlapping patterns and long phases. The good news: your build has come online by now, and the pattern-reading skills you learned in Chapter 3 carry you through.
 
 - **Positioning is the skill this chapter tests.** Where you stand between volleys decides whether you can dodge the next one.
 - **Expect a long fight** — bring healing to outlast the phases.

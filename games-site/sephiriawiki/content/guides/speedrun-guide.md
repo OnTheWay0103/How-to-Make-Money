@@ -1,11 +1,16 @@
 ---
 title: "Speedrun Guide — Fastest Routes & Pro Tips for Sephiria"
-description: "Master speedrunning in Sephiria. Optimal routing, best weapons for speed, skip techniques, and how to practice — with the fastest strategies the community uses."
+description: "Master speedrunning in Sephiria. Optimal routing, best weapons for speed, skip techniques, and how to practice — with the fastest strategies we recommend."
 category: "Speedrun"
 version: "1.0"
-updated: "2026-08-11"
+updated: "2026-08-21"
 keywords: ["Sephiria speedrun", "speedrun guide", "fastest route Sephiria", "speedrun tips", "how to speedrun Sephiria", "tower climb speedrun"]
 related: ["beginner-guide", "builds-guide", "weapons-guide", "chapter-guide", "artifacts-guide", "boss-guide"]
+sources:
+  - tier: "Community"
+    text: "The Crossbow is the community's default speedrun weapon"
+  - tier: "Editorial"
+    text: "Route philosophy, skip priorities, and weapon tier ratings are our assessment"
 ---
 
 ## Speedrunning Sephiria
@@ -44,7 +49,7 @@ Speedruns benefit from permanent progression (see the [Inscriptions Guide](/guid
 In a speedrun, **don't full clear**:
 
 1. **Only visit rooms on the critical path** — bosses gate progression, everything else is optional.
-2. **Skip chests** unless they're directly on your path — a guaranteed small upgrade is rarely worth 30 seconds.
+2. **Skip chests** unless they're directly on your path — a guaranteed small upgrade is rarely worth the time it takes.
 3. **Skip challenge rooms** — they're the biggest time sink for the smallest payoff.
 4. **Skip secret rooms** — unless you need a specific artifact to survive the boss ahead.
 

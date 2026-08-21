@@ -1,16 +1,21 @@
 ---
 title: "All Weapons Guide — The 6 Weapon Types & Best Use Cases"
-description: "Complete Sephiria weapons guide: all 6 weapon types (Sword & Shield, Greatsword, Dagger, Katana, Crossbow, Staff), how they play, which to start with, and what the community ranks highest in the 1.0 meta."
+description: "Complete Sephiria weapons guide: all 6 weapon types (Sword & Shield, Greatsword, Dagger, Katana, Crossbow, Staff), how they play, which to start with, and how they rank in our 1.0 tier list."
 category: "Weapons"
 version: "1.0"
-updated: "2026-08-11"
+updated: "2026-08-21"
 keywords: ["sephiria weapons", "sephiria weapon guide", "sephiria best weapon", "sephiria sword and shield", "sephiria greatsword", "sephiria dagger", "sephiria katana", "sephiria crossbow", "sephiria staff", "sephiria best starting weapon"]
 related: ["builds-guide", "beginner-guide", "artifacts-guide", "chapter-guide", "inscriptions-guide"]
+sources:
+  - tier: "Official"
+    text: "6 weapon types (Sword & Shield, Greatsword, Dagger, Katana, Crossbow, Staff) and 50+ upgrades per weapon — Steam store page"
+  - tier: "Editorial"
+    text: "Tier rankings and best-use recommendations are Sephiria Wiki's assessment, based on weapon mechanics, build interactions, and community discussions"
 ---
 
 # All Weapons Guide — The 6 Weapon Types & Best Use Cases
 
-Sephiria has **6 weapon types**: Sword & Shield, Greatsword, Dagger, Katana, Crossbow, and Staff. Each has its own upgrade tree, and 1.0 added hundreds of upgrades across all six branches. Your weapon choice defines your playstyle more than any other decision in the game — but you are never locked in. You choose your weapon at the start of each run, and weapon mastery grows per weapon, so switching between runs is free.
+Sephiria has **6 weapon types**: Sword & Shield, Greatsword, Dagger, Katana, Crossbow, and Staff. Each has its own upgrade tree, and 1.0 added 50+ upgrades per weapon (per the Steam store page). Your weapon choice defines your playstyle more than any other decision in the game — but you are never locked in. You choose your weapon at the start of each run, and weapon mastery grows per weapon, so switching between runs is free.
 
 ---
 
@@ -31,9 +36,9 @@ Sephiria has **6 weapon types**: Sword & Shield, Greatsword, Dagger, Katana, Cro
 
 **Style:** Balanced melee. **Difficulty:** Easy.
 
-The Sword & Shield is the most forgiving weapon in the game. Balanced stats, straightforward combos, and a reliable block cover the classic mistakes of your first runs — no matchup punishes you for picking it. Every upgrade line is useful, which makes it the community's default recommendation for new players and a strong pick at every stage of the game.
+The Sword & Shield is the most forgiving weapon in the game. Balanced stats, straightforward combos, and a reliable block cover the classic mistakes of your first runs — few matchups punish you for picking it. Every upgrade line is useful, which makes it a common recommendation for new players and a strong pick at every stage of the game.
 
-- **Strengths:** Consistent damage, survivability through blocking, no bad matchups
+- **Strengths:** Consistent damage, survivability through blocking, few bad matchups
 - **Weaknesses:** No standout specialty — other weapons out-damage or out-range it
 - **Best for:** First-time players, learning enemy patterns, all-round clears
 - **Starting upgrade advice:** Upgrade the lines that fit how you play — defensive lines for survivability, damage lines once you are comfortable with boss patterns
@@ -44,7 +49,7 @@ The Sword & Shield is the most forgiving weapon in the game. Balanced stats, str
 
 **Style:** Heavy melee. **Difficulty:** Medium.
 
-The Greatsword trades speed for raw damage and heavy stagger. It is a boss-shutdown weapon: stagger chains interrupt patterns that would normally force you to dodge. Community-favored endgame picks like the **Thor Greatsword S3G** and **Red Snake Crusher** are standout 1.0 weapons.
+The Greatsword trades speed for raw damage and heavy stagger. It is a boss-shutdown weapon: stagger chains interrupt patterns that would normally force you to dodge. Standout endgame picks like the **Thor Greatsword S3G** and **Red Snake Crusher** are notable 1.0 weapons.
 
 - **Strengths:** Massive damage per hit, stagger chains, room-clearing sweeps
 - **Weaknesses:** Slow animations — a whiffed heavy attack during a boss's wind-up is how Greatsword players die
@@ -81,7 +86,7 @@ The Katana rewards combo flow and counterplay. Its power is skill-gated: players
 
 **Style:** Ranged. **Difficulty:** Easy-Medium.
 
-The Crossbow is the safest weapon in the game. It keeps you at distance while dealing strong sustained single-target damage, and its 1.0 upgrade line turned it into a genuine sustained DPS option. It is widely considered the safest pick for Hard Mode, where positioning matters more than anything.
+The Crossbow is one of the safest weapons in the game. It keeps you at distance while dealing strong sustained single-target damage, and its 1.0 upgrade line turned it into a genuine sustained DPS option. It is one of the safest picks for Hard Mode, where positioning matters more than anything.
 
 - **Strengths:** Safe range, strong single-target DPS, easy to play
 - **Weaknesses:** Weaker crowd control than melee options — dense rooms take longer
@@ -93,7 +98,7 @@ The Crossbow is the safest weapon in the game. It keeps you at distance while de
 
 **Style:** Ranged magic. **Difficulty:** Medium.
 
-The Staff is the element-synergy king. Its spells pair with ice, storm, and fire artifacts and tablets for massive AoE damage, and 1.0 added fire-focused lines (like **Firelighter** and **Solis Missio**) that give fire a real answer in the endgame. With the right tablets it has the highest ceiling of any weapon.
+The Staff is the element-synergy weapon. Its spells pair with ice, storm, and fire artifacts and tablets for massive AoE damage, and 1.0 added fire-focused lines (like **Firelighter** and **Solis Missio**) that give fire a real answer in the endgame. With the right tablets it has one of the highest ceilings of any weapon.
 
 - **Strengths:** Best AoE damage, unmatched element synergy, strong in co-op
 - **Weaknesses:** Requires the right artifact/tablet support to reach its ceiling
@@ -103,13 +108,13 @@ The Staff is the element-synergy king. Its spells pair with ice, storm, and fire
 
 ## Weapon Tier Summary (1.0 Meta)
 
-Community consensus on the 1.0 meta, based on Steam Community discussions and player reports:
+Our 1.0 Weapon Tier List — based on weapon mechanics, build interactions, and community discussions:
 
 | Tier | Weapon | Why |
 |:--:|-------|-----|
-| **S** | **Staff** | The element-synergy king — ice/storm builds still live here, and the new fire lines give fire a real answer. Highest ceiling with the right tablets |
-| **S** | **Sword & Shield** | The most consistent weapon in 1.0 — the "no bad matchup" pick and the community's default recommendation |
-| **A** | **Crossbow** | Strong sustained DPS and the safest pick for Hard Mode |
+| **S** | **Staff** | Strong element synergy — ice/storm builds still live here, and the new fire lines give fire a real answer. High ceiling with the right tablets |
+| **S** | **Sword & Shield** | The most consistent weapon in 1.0 — forgiving in most matchups and the default recommendation for new players |
+| **A** | **Crossbow** | Strong sustained DPS and one of the safest picks for Hard Mode |
 | **A** | **Greatsword** | Standout endgame weapons and heavy stagger make boss fights mechanical |
 | **B** | **Katana** | Good combo flow, but its power is skill-gated |
 | **B** | **Dagger** | High ceiling with the right support, but inconsistent floor |
@@ -137,7 +142,7 @@ Community consensus on the 1.0 meta, based on Steam Community discussions and pl
 Six: Sword & Shield, Greatsword, Dagger, Katana, Crossbow, and Staff.
 
 **Q: Which weapon is best for the final boss?**
-Greatsword (stagger) or Crossbow (safe range) are the community picks for the Chapter 6 finale. Full tactics in the [Chapter 6 & Final Boss Guide](/guides/chapter-6-final-boss-guide).
+Greatsword (stagger) or Crossbow (safe range) are the recommended picks for the Chapter 6 finale. Full tactics in the [Chapter 6 & Final Boss Guide](/guides/chapter-6-final-boss-guide).
 
 **Q: Does the weapon meta change with updates?**
 Yes — the game received 58 updates during Early Access and balance changes are ongoing. We update this page after major balance patches.

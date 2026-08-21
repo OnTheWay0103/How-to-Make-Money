@@ -3,9 +3,12 @@ title: "Talents Guide — Best Talent Trees & Builds"
 description: "Sephiria's Talent system explained. The three permanent talent trees (Combat, Resilience, Utility), how talent points work, and the best talent builds for every playstyle and difficulty."
 category: "Builds"
 version: "1.0"
-updated: "2026-08-11"
+updated: "2026-08-21"
 keywords: ["Sephiria talents", "best talents Sephiria", "talent tree", "Sephiria talents guide", "talent builds", "talent points"]
 related: ["builds-guide", "beginner-guide", "inscriptions-guide", "weapons-guide", "hard-mode-guide", "farming-guide"]
+sources:
+  - tier: "Editorial"
+    text: "Build directions and talent-spending recommendations are our recommendations"
 ---
 
 ## What Are Talents?
@@ -26,11 +29,11 @@ Like Inscriptions, talents **carry over between runs forever** — every point i
 - Points are **permanent and account-wide** — they never reset between runs.
 - The Talent tree unlocks through progression; the **Home Repair** Destiny Inscription is the gateway that unlocks it (see the [Farming Guide](/guides/farming-guide)).
 
-**The key insight:** because points are permanent, they're the most reliable power in the game — a high-talent account is stronger than a high-skill one in every single run.
+**The key insight:** because points are permanent, they're the most reliable power in the game.
 
 ## How to Spend Talent Points
 
-There's no single "best" build — the right spend depends on your goals. These are the community-consistent directions:
+There's no single "best" build — the right spend depends on your goals. These are the directions we recommend:
 
 ### Beginner (first points)
 **Survival first.** Points in the Resilience tree (max HP, healing) reduce the number of runs you lose while you're learning — and survival points keep paying off forever.

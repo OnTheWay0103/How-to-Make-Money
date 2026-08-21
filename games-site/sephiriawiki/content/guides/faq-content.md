@@ -3,9 +3,16 @@ title: "Frequently Asked Questions — 15 Common Questions About Sephiria"
 description: "15 essential FAQs about Sephiria covering gameplay mechanics, co-op, solo play, artifacts, inscriptions, launch details, and more. Quick answers for common player questions."
 category: "FAQ"
 version: "1.0"
-updated: "2026-08-11"
+updated: "2026-08-21"
 keywords: ["Sephiria FAQ", "frequently asked questions", "Sephiria help", "game questions", "common questions", "release date", "price"]
 related: ["beginner-guide", "weapons-guide", "coop-guide", "solo-guide"]
+sources:
+  - tier: "Official"
+    text: "1.0 launch date (July 31, 2026), Early Access timeline (April 2025 – July 2026, 484 days, 58 updates), system requirements, demo availability, and crossplay status — Steam store page"
+  - tier: "Community"
+    text: "Chapter names (e.g., The Rooted Depths) and boss encounter details are community-reported"
+  - tier: "Editorial"
+    text: "Catalog counts (~300 artifacts, 200+ weapon upgrades) and the ~1 hour full-run estimate are our approximations"
 ---
 
 ## 1. What is Sephiria?

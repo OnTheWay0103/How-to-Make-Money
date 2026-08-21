@@ -1,16 +1,23 @@
 ---
 title: "Farming Guide — Best Ways to Farm Sapphires, Gold & Inscription Shards"
-description: "Sephiria farming guide: fastest sapphire farming methods, gold farming routes, how to farm inscription shards, and how to unlock Destiny Inscriptions faster for permanent meta-progression."
+description: "Sephiria farming guide: efficient sapphire farming methods, gold farming routes, how to farm inscription shards, and how to unlock Destiny Inscriptions faster for permanent meta-progression."
 category: "Beginner"
 version: "1.0"
-updated: "2026-08-11"
+updated: "2026-08-21"
 keywords: ["sephiria farming", "sephiria sapphire farming", "sephiria gold farming", "sephiria inscription shards", "sephiria how to farm", "sephiria meta progression", "sephiria destiny inscriptions", "sephiria resource guide"]
 related: ["beginner-guide", "inscriptions-guide", "talents-guide", "hard-mode-guide", "artifacts-guide", "secret-rooms-guide"]
+sources:
+  - tier: "Official"
+    text: "Sapphires are earned from any run, win or lose; chapter boss kills and full clears pay the most — developer-documented"
+  - tier: "Community"
+    text: "Crossbow and Greatsword with element tablets are favored fast-clearing builds"
+  - tier: "Editorial"
+    text: "Farming route and priority recommendations are our strategy"
 ---
 
 # Farming Guide — Best Ways to Farm Sapphires, Gold & Inscription Shards
 
-Sephiria's meta-progression is gated behind resources. Sapphires unlock Destiny Inscriptions (permanent upgrades), gold determines what you can buy mid-run, and Inscription Shards expand your socket capacity. This guide covers the most efficient farming routes for every resource.
+Sephiria's meta-progression is gated behind resources. Sapphires unlock Destiny Inscriptions (permanent upgrades), gold determines what you can buy mid-run, and Inscription Shards expand your socket capacity. This guide covers efficient farming routes for every resource.
 
 ---
 
@@ -26,11 +33,11 @@ Sapphires are the **permanent meta-currency**. You earn them from **every run �
 | **Defeating chapter bosses** | Boss kills are a major sapphire source — further in the tower pays more |
 | **Completing a full run** | A Chapter 6 clear pays a significant bonus |
 
-### Fastest Sapphire Farm
+### Efficient Sapphire Farming
 
-**Play fast, play often.** The most efficient sapphire-per-hour approach:
+**Play fast, play often.** An efficient sapphire-per-hour approach:
 
-1. Use your **fastest-clearing build** (Crossbow or Greatsword with element tablets are the community favorites)
+1. Use your **fastest-clearing build** (Crossbow or Greatsword with element tablets are favored in community discussions)
 2. Run Normal climbs and **push toward bosses** — skip optional content you don't need
 3. Die or clear, then restart — every run pays, so run speed is the farm
 
@@ -85,7 +92,7 @@ Inscription Shards unlock and upgrade socket slots on your gear. They persist be
 
 ### Shard Farming Route
 
-**Secret room hunting** is the most efficient shard farm:
+**Secret room hunting** is a reliable way to farm Inscription Shards:
 
 1. Equip the **Astral Compass** artifact if you have it (it reveals secret rooms on your map)
 2. Run Chapters 1-3 — these have the easiest-to-spot cracked walls

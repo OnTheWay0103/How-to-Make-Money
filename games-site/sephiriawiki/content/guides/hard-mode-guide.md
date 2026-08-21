@@ -3,9 +3,14 @@ title: "Hard Mode Guide — the 60-Level Endgame & All 6 Modifiers (1.0)"
 description: "Complete Sephiria 1.0 Hard Mode guide: how to unlock it, the level 60 climb, all 6 modifiers (Festival of Blood, Pseudo-Vanguard, Decline, Tension, Heavy Heart, Proliferation), and the best weapons and builds."
 category: "Hard Mode"
 version: "1.0"
-updated: "2026-08-11"
+updated: "2026-08-21"
 keywords: ["sephiria hard mode", "sephiria hard mode guide", "sephiria 1.0 hard mode", "sephiria level 60", "sephiria hard mode modifiers", "sephiria endgame"]
 related: ["full-release-guide", "chapter-6-final-boss-guide", "crossbow-build-guide", "mystic-pot-guide", "weapons-guide", "endgame-guide"]
+sources:
+  - tier: "Official"
+    text: "The 6 modifiers and their effects (Festival of Blood, Pseudo-Vanguard, Decline, Tension, Heavy Heart, Proliferation) — 1.0 patch notes"
+  - tier: "Editorial"
+    text: "Weapon and build recommendations for Hard Mode are our assessment"
 ---
 
 # Hard Mode Guide — the 60-Level Endgame & All 6 Modifiers (1.0)
@@ -51,7 +56,7 @@ Hard Mode unlocks after you **complete the base game** — finish a full climb t
 
 Enemies heal on hit. This punishes trading and rewards range.
 
-- **Best answer: the Crossbow** — the community calls it "the safest pick for Hard Mode." Distance beats lifesteal outright.
+- **Best answer: the Crossbow** — one of the safest picks for Hard Mode. Distance beats lifesteal outright.
 - **If you're melee:** stagger before you trade (Greatsword) or block the hits (Sword & Shield) so enemies never actually land the lifesteal attack.
 
 ### Pseudo-Vanguard — Buffed Elites
@@ -96,8 +101,8 @@ Enemies scale world-wide. The climb snowballs — the late levels hit hardest.
 
 | For | Pick | Why |
 |-----|------|-----|
-| **Safest overall** | **Crossbow** | Range beats lifesteal; the community's Hard Mode pick — full build: [Crossbow Build Guide](/guides/crossbow-build-guide) |
-| **Consistent all-rounder** | **Sword & Shield** | Block replaces the potions Tension takes away; no bad matchups |
+| **Safest overall** | **Crossbow** | Range beats lifesteal; one of the safest picks for Hard Mode — full build: [Crossbow Build Guide](/guides/crossbow-build-guide) |
+| **Consistent all-rounder** | **Sword & Shield** | Block replaces the potions Tension takes away; few bad matchups |
 | **Boss fights** | **Greatsword** | Stagger chains interrupt the no-potion boss fights — [Greatsword Build Guide](/guides/greatsword-build-guide) |
 | **Element ceiling** | **Staff** | Highest output with the right tablets; fragile under Tension — [Staff Build Guide](/guides/staff-build-guide) |
 
@@ -130,7 +135,7 @@ Festival of Blood (lifesteal), Pseudo-Vanguard (buffed elites), Decline (progres
 Yes — Festival of Blood healing scales with party size, and the revive economy makes co-op more forgiving overall.
 
 **Q: What's the best weapon for Hard Mode?**
-The Crossbow is the community's safest pick — range counters the lifesteal modifiers. Sword & Shield is the best all-rounder, and Greatsword wins the boss fights.
+The Crossbow is one of the safest picks — range counters the lifesteal modifiers. Sword & Shield is the best all-rounder, and Greatsword wins the boss fights.
 
 ---
 

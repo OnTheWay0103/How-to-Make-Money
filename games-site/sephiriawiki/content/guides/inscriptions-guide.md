@@ -3,9 +3,14 @@ title: "Inscriptions Guide — Permanent Socketed Progression"
 description: "Complete guide to Sephiria's Inscription system. How Destiny Inscriptions work, socket slots and Inscription Shards, what to unlock first, and how inscriptions complement Talents and artifacts."
 category: "Mechanics"
 version: "1.0"
-updated: "2026-08-11"
+updated: "2026-08-21"
 keywords: ["Sephiria inscriptions", "inscription system", "socketing guide", "destiny inscriptions", "best inscriptions", "inscription farming", "socket slots"]
 related: ["builds-guide", "weapons-guide", "artifacts-guide", "beginner-guide", "farming-guide", "talents-guide"]
+sources:
+  - tier: "Official"
+    text: "Sapphires are earned from every run, win or lose — the developer-documented permanent currency"
+  - tier: "Editorial"
+    text: "The recommended unlock order and build guidance are our assessment"
 ---
 
 ## What Are Inscriptions?
@@ -29,7 +34,7 @@ Your gear has socket capacity that can be expanded. **Inscription Shards** unloc
 
 ## What to Unlock First (Priority Order)
 
-The community-consistent unlock order for Destiny Inscriptions:
+The recommended unlock order for Destiny Inscriptions:
 
 | Priority | Inscription | Why |
 |:--:|------|------|

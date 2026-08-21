@@ -3,9 +3,14 @@ title: "Solo Guide — Climbing the Tower Alone"
 description: "Comprehensive solo play guide for Sephiria. Learn how to adapt builds, survive without teammates, manage every enemy's attention, and beat the bosses as a solo player."
 category: "Solo"
 version: "1.0"
-updated: "2026-08-11"
+updated: "2026-08-21"
 keywords: ["Sephiria solo guide", "solo build", "how to solo Sephiria", "solo boss strategy", "single player tips"]
 related: ["beginner-guide", "builds-guide", "boss-guide", "chapter-guide", "artifacts-guide"]
+sources:
+  - tier: "Official"
+    text: "Enemy health and damage scale with player count — developer-documented"
+  - tier: "Editorial"
+    text: "Solo weapon and build recommendations, plus the ~300 artifact catalog count, are our assessment"
 ---
 
 ## The Solo Challenge
@@ -30,7 +35,7 @@ The full roster is viable solo — the differences are in how forgiving each wea
 | **Sword & Shield** | The best solo starter — block covers your mistakes, balanced stats | Slower clear speed than dedicated DPS |
 | **Crossbow** | Safe range keeps you out of melee; kiting is trivial | Requires space; corridor rooms are awkward |
 | **Staff** | Elemental AoE clears rooms; range keeps you safe | Setup-heavy; fragile if enemies close in |
-| **Greatsword** | Stagger chains lock enemies down — solo bossing king | Slow swings punish whiffs; no block |
+| **Greatsword** | Stagger chains lock enemies down — recommended for boss-focused solo play | Slow swings punish whiffs; no block |
 | **Dagger** | Fast, relentless pressure | Very short range — no safety net |
 | **Katana** | Strong burst with positioning skill | High-skill floor; punishing mistakes |
 

@@ -3,14 +3,19 @@ title: "Artifacts Guide — The ~300 Per-Run Items & How to Use Them"
 description: "Everything about artifacts in Sephiria — the ~300 per-run passive items at 1.0. How the grid inventory works, artifact rarity, tablets that empower them, the Mystic Pot conversion rules, and how to farm artifact unlocks."
 category: "Artifacts"
 version: "1.0"
-updated: "2026-08-11"
+updated: "2026-08-21"
 keywords: ["Sephiria artifacts", "artifacts guide", "Sephiria artifact catalog", "best artifacts", "how to get artifacts", "Sephiria artifact farming", "Sephiria artifact grid", "Sephiria mystic pot"]
 related: ["tablets-guide", "builds-guide", "mystic-pot-guide", "farming-guide", "endgame-guide", "full-release-guide"]
+sources:
+  - tier: "Community"
+    text: "Specific artifact unlock conditions (e.g., Golden Maple Leaf after clearing Chapter 2) and the ~60% soft cap reports for crit rate and dodge i-frames"
+  - tier: "Editorial"
+    text: "The ~300 artifact catalog count is our own count; general strategy advice is our assessment"
 ---
 
 # Artifacts Guide — The ~300 Per-Run Items & How to Use Them
 
-**Artifacts** are Sephiria's per-run passive items — there are **~300 at 1.0**. They modify your stats and abilities, and they reset every run. They are the core of the build system: a coherent artifact setup (matching an element or playstyle) matters more than almost anything else in a run.
+**Artifacts** are Sephiria's per-run passive items — there are **~300 in our current catalog at 1.0**. They modify your stats and abilities, and they reset every run. They are the core of the build system: a coherent artifact setup (matching an element or playstyle) matters more than almost anything else in a run.
 
 ## How Artifacts Work
 
@@ -33,7 +38,7 @@ For the full grid mechanics, placement strategy, and best tablet combinations, s
 | Epic | Build-defining | Late-run, secret rooms, boss drops |
 | Legendary | Run-defining | Endgame, high-rarity sources |
 
-**Soft caps:** crit rate and dodge i-frames cap around 60% — stacking beyond that gives diminishing returns. Diversify instead.
+**Soft caps:** crit rate and dodge i-frames are community-reported to cap around 60% — stacking beyond that gives diminishing returns. Diversify instead.
 
 ### Permanent Artifact Slots
 
@@ -74,7 +79,7 @@ A few artifacts are well-documented by the community (unlocked permanently throu
 ## FAQ
 
 **Q: How many artifacts are in Sephiria?**
-~300 at 1.0, plus ~70 tablets that empower them.
+~300 in our current catalog at 1.0, plus ~70 tablets that empower them.
 
 **Q: Are artifacts permanent?**
 Artifacts themselves reset each run — they are per-run passive items. Permanent progression lives in Talents, Destiny Inscriptions, weapon mastery, and the artifact *unlocks* that add items to your run pools.

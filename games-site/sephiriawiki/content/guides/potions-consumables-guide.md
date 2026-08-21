@@ -3,9 +3,12 @@ title: "Potions & Consumables Guide — All Types, Best Uses & Where to Find The
 description: "Complete Sephiria consumables guide: healing potions, buff potions, offensive consumables, potion strategy by chapter, and what to save for boss floors."
 category: "Mechanics"
 version: "1.0"
-updated: "2026-08-11"
+updated: "2026-08-21"
 keywords: ["sephiria potions", "sephiria consumables", "sephiria healing", "sephiria buff potions", "sephiria best potions", "sephiria health"]
 related: ["mystic-pot-guide", "beginner-guide", "boss-guide", "hard-mode-guide", "chapter-guide", "farming-guide"]
+sources:
+  - tier: "Editorial"
+    text: "Recommended potion stock quantities per chapter and the usage strategy are our strategy"
 ---
 
 # Potions & Consumables Guide — All Types, Best Uses & Where to Find Them
