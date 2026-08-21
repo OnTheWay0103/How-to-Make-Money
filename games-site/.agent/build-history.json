@@ -722,6 +722,16 @@
         "Game launched 8/4 — only 4 days old, zero wiki competition; strongest first-mover position in the matrix",
         "Content ratio: 9 reference / 3 search-entry / 2 deep-dive (64/21/14%) — meets the >=50% reference rule"
       ]
+    },
+    {
+      "game": "DOLOC TOWN",
+      "date": "2026-08-22",
+      "genre": "后末日温馨农场模拟 (RedSaw Games/Logoi Games)",
+      "guides": 20,
+      "score": 22,
+      "deployed": true,
+      "pipeline": "BUILD-001 (Coordinator + QA PASS, relay format)",
+      "qa": "PASS — 12/20 sampled, 18 fact checks matched, 48 [待确认] markers, zero fabrication"
     }
   ],
   "knownIssues": [

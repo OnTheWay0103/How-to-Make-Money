@@ -34,7 +34,7 @@
 | 26 | FEED IT | PSX-Style Horror | 12 | 8/17 | ❌ 无 | 7/31 | 观望（wishlist 偏低） |
 | 27 | Stoneguard | Horde Survival EA | 11 | 7/30 | ❌ 无 | 7/31 | 低分（~121 销量） |
 | 28 | Order Automatica | Tactical Roguelite | 11 | 7/27 | ❌ 无 | 7/31 | 低分（0 评测 319 关注） |
-| 29 | **DOLOC TOWN** | 后末日温馨农场模拟 (RedSaw/Logoi) | **22** | 8/6 1.0 | ❌ 无 | 8/10 | **强烈推荐** — ~91K wishlist、2.4K 评测 95%（近 417 条 98.6%）；1.0 内容翻倍：30+ 作物/80+ 配方/40+ 鱼/80 成就/自动化无人机/100h+；零 wiki（TechRaptor 等文章攻略不构成 wiki 级竞争）；本周内建站抢峰值 |
+| 29 | DOLOC TOWN | 后末日温馨农场模拟 (RedSaw/Logoi) | 22 | 8/6 1.0 | ✅ 已建站 | 8/10 | ✅ 已建站（8/22）→ doloctownwiki，20 guides，QA PASS |
 | 30 | Welcome to Elderfield | Cosy Horror RPG (Chris Cote/Kwalee) | 20 | 9/10 | ❌ 无 | 8/10 | 推荐 — ~85K wishlist + 6.2K 关注、demo 96% Overwhelmingly Positive；农场+回合制+恋爱+恐怖无竞品攻略；单人开发；9 月上旬提前建站 |
 | 31 | Sovereign Tower | 圆桌管理模拟 RPG (WILD WITS/Curve) | 20 | 8/6 已上线 | ❌ 无 | 8/10 | 推荐 — 140K+ wishlist、92%（241+ 评测）、Metacritic 86、Curve 第 100 作；5 属性/6 派系/时间回溯分支；管理+VN 混合内容面中等；本周内建站 |
 | 32 | Approximately Up | 物理飞船建造沙盒 (单人开发) | 19 | 8/6 已上线 | ❌ 无 | 8/10 | 推荐 — 198 评测 97% Very Positive；KSP 式 15 行星/千组件/4 人 Co-op，建造长尾佳；玩家基数小；本周内建站 |
