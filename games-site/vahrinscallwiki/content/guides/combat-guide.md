@@ -6,6 +6,15 @@ version: '1.0'
 updated: '2026-08-01'
 keywords: ['vahrins call combat guide', 'vahrins call combat tips', 'vahrins call stamina', 'vahrins call traps', 'vahrins call dodge']
 related: ['beginner-guide', 'enemies-bestiary-guide', 'boss-guide', 'alchemy-crafting-guide']
+sources:
+  - tier: "Official"
+    text: "Stamina system limiting prolonged magic use, no finishers, trap deployment reworked to work while moving (March 2026 update), potion-throwing alchemy perk, and the explicit magic limits (no environmental interaction, no fire+ice combos, cosmetic day/night) — developer updates and official FAQ"
+  - tier: "Official"
+    text: "Spell customisation via damage, range, and casting speed; spells can trigger traps — developer Q&A"
+  - tier: "Community"
+    text: "Combat-feel criticism ('muddy'/'sluggish', missing stagger feedback), backstab behavior, and khraiax swarm tactics are from Steam reviews and launch-era player reports"
+  - tier: "Editorial"
+    text: "The khraiax fighting tactics and combat tips list are our recommendations"
 ---
 
 # Combat Guide — Mechanics & Tips

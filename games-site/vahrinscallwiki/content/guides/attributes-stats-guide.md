@@ -6,6 +6,15 @@ version: '1.0'
 updated: '2026-08-01'
 keywords: ['vahrins call attributes guide', 'vahrins call stats guide', 'vahrins call character progression', 'vahrins call skill system', 'vahrins call leveling']
 related: ['beginner-guide', 'best-builds-guide', 'magic-guide', 'combat-guide']
+sources:
+  - tier: "Official"
+    text: "Classless, use-based progression; playstyles switchable at any point; Skill Books required for full upgrades — official FAQ and developer updates"
+  - tier: "Official"
+    text: "Spell Mastery system announced in 2024 development updates; spell customisation via damage, range, and casting speed — developer updates and Q&A"
+  - tier: "Community"
+    text: "The stamina system limiting magic use is from launch reviews; no official attribute list, mana numbers, or level cap has been published — unconfirmed (TBD)"
+  - tier: "Editorial"
+    text: "The character-building advice (play what you enjoy, find Skill Books, watch stamina) is our recommendation"
 ---
 
 # Attributes & Stats Guide — What We Know

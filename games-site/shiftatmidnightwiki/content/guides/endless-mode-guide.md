@@ -6,6 +6,15 @@ version: "1.0"
 updated: '2026-08-01'
 keywords: ["shift at midnight endless mode", "endless mode beta shift at midnight", "shift at midnight update", "shift at midnight roadmap", "shift at midnight new weapons", "shift at midnight Q4 2026"]
 related: ["story-walkthrough", "doppelganger-guide", "beginner-guide", "faq-content"]
+sources:
+  - tier: "Official"
+    text: "Endless Mode in beta with a free major update planned for Q4 2026 adding new customers, weapons, traps, and monsters — Steam store page and official announcements"
+  - tier: "Official"
+    text: "Story Mode with 13 randomly generated shifts; 1-3 players online co-op with proximity chat — Steam store page"
+  - tier: "Community"
+    text: "Endless Mode beta specifics (unlock conditions, difficulty curve, scoring) are community-reported and unconfirmed (TBD)"
+  - tier: "Editorial"
+    text: "The practice-ground recommendation for Endless Mode is our judgment"
 ---
 
 # Shift At Midnight Endless Mode — What's Live Now and What's Coming

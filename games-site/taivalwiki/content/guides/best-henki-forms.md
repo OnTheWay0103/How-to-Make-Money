@@ -6,6 +6,13 @@ version: "1.0"
 updated: "2026-08-11"
 keywords: ["taival best henki forms", "taival henki tier list", "taival best forms", "taival form ranking", "taival henki guide"]
 related: ["henki-companion-guide", "beginner-guide", "combat-system-guide", "coop-multiplayer-guide"]
+sources:
+  - tier: "Official"
+    text: "The form archetypes ranked here (hulking beast, swift mount, cunning predator, glider) are confirmed by official materials — Steam store page and developer materials"
+  - tier: "Community"
+    text: "S-to-C rankings, combat/traversal ratings, and the golden/purple variant abilities are community judgment from the Early Access build, not official stats"
+  - tier: "Editorial"
+    text: "The party-synergy compositions and taming priority order are our recommendations"
 ---
 
 # Best Henki Forms Tier List: S to C Rank

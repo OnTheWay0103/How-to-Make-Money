@@ -6,6 +6,15 @@ version: '1.0'
 updated: '2026-08-01'
 keywords: ['vahrins call best build', 'vahrins call build guide', 'vahrins call classless build', 'vahrins call archer mage', 'vahrins call hybrid build']
 related: ['attributes-stats-guide', 'weapons-guide', 'magic-guide', 'combat-guide']
+sources:
+  - tier: "Official"
+    text: "Classless system with switchable playstyles and Skill Books for full upgrades; the developers' own archetypes — 'a nimble-footed archer flinging fireballs between arrows' and 'an axe-wielding whirlwind of death' — official FAQ and developer materials"
+  - tier: "Official"
+    text: "Traps deploy while moving, spells can trigger traps, and potion-throwing is a confirmed alchemy perk — March 2026 developer update"
+  - tier: "Community"
+    text: "Combat-feel warnings (attack commitment, limited stagger feedback) are from Steam reviews"
+  - tier: "Editorial"
+    text: "The five build directions and the step-by-step build process are our recommendations based on confirmed systems"
 ---
 
 # Best Builds Guide — Confirmed Playstyle Directions

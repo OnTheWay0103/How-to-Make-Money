@@ -6,6 +6,15 @@ version: "1.0"
 updated: "2026-08-11"
 keywords: ["taival henki", "taival companion", "taival henki forms", "taival henki traits", "taival shapeshifter", "taival taming"]
 related: ["best-henki-forms", "beginner-guide", "combat-system-guide", "coop-multiplayer-guide"]
+sources:
+  - tier: "Official"
+    text: "The Henki absorbs creature essences and shifts into forms with unique combat and traversal abilities; confirmed archetypes include 'a hulking beast that absorbs damage, a swift mount that scales cliffsides, a cunning predator that strikes from the shadows'; traits Leech, Jump Pad, and Pack Mule named as examples — Steam store page and developer materials"
+  - tier: "Official"
+    text: "The Heartstone premise — 'someone destroyed the Henki's Heartstone' and restoring it is the journey — Steam store page"
+  - tier: "Community"
+    text: "The starting support/healer form, snail wall-climbing and bird glider forms, golden/purple rare variants, and the step-by-step taming process are community reports from Early Access — unconfirmed (TBD)"
+  - tier: "Editorial"
+    text: "Form-swapping priorities, trait selection, and progression-track advice are our recommendations"
 ---
 
 # Henki Companion Guide: All Forms, Abilities & How to Unlock

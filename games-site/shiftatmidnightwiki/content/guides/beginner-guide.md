@@ -6,6 +6,15 @@ version: "1.0"
 updated: '2026-08-01'
 keywords: ["shift at midnight beginner guide", "first shift tips", "how to play shift at midnight", "shift at midnight getting started", "shift at midnight tutorial"]
 related: ["doppelganger-guide", "coop-strategy-guide", "entity-survival-guide"]
+sources:
+  - tier: "Official"
+    text: "Released July 22, 2026; developed by Bun Muen, published by Kwalee; gas-station co-op detective horror with doppelganger screening, ID checks, and the NET database; 'Very Positive' rating — Steam store page"
+  - tier: "Official"
+    text: "System requirements (Windows 10/11 64-bit, Core i5-10400F, 8 GB RAM, GTX 1050 Ti, DirectX 11, 3 GB storage) — Steam store page"
+  - tier: "Community"
+    text: "Controls, the 15-item stock quota, the 60-second lock-up alert, the up-to-5 question pool, bus-ride doppelganger rules, and the $250 surgery requirement are community-documented from gameplay and not officially published"
+  - tier: "Editorial"
+    text: "The first-shift step-by-step plan and mistake list are our recommendations"
 ---
 
 ## Welcome to Your First Shift

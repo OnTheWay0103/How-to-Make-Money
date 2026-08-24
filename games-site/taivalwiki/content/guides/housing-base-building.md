@@ -6,6 +6,13 @@ version: "1.0"
 updated: "2026-08-11"
 keywords: ["taival housing", "taival base building", "taival player home", "taival housing upgrade", "taival co-op housing", "taival building guide"]
 related: ["skill-trees-guide", "biomes-exploration-guide", "quests-walkthrough", "endgame-dungeons"]
+sources:
+  - tier: "Official"
+    text: "Upgradeable player homes placed in the world are confirmed by retailer copy; housing is part of the confirmed Early Access systems — Steam store page and retailer materials"
+  - tier: "Community"
+    text: "Plot costs, upgrade tiers, storage slots, rest bonuses, and the Land Deed unlock quest are community speculation from Early Access — unconfirmed (TBD)"
+  - tier: "Editorial"
+    text: "The housing-location ratings and base-building priorities are our recommendations"
 ---
 
 # Taival — Player Housing & Base Building Guide

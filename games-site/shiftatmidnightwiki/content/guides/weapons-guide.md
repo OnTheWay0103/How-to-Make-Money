@@ -6,6 +6,13 @@ version: "1.0"
 updated: '2026-08-01'
 keywords: ["shift at midnight weapons", "best weapons shift at midnight", "shift at midnight tools", "shift at midnight shop terminal", "shift at midnight loadout", "shift at midnight emergency arsenal"]
 related: ["enemy-bestiary", "entity-survival-guide", "money-guide", "survival-strategies"]
+sources:
+  - tier: "Official"
+    text: "The Emergency Weapons Arsenal bought from the store computer and the survival/barricade phase are confirmed game systems — Steam store page and official materials"
+  - tier: "Community"
+    text: "Gun-on-Shift-1 timing, Arsenal unreliability on blood-rain nights, loadout advice, and tool functions are community-documented from gameplay; damage numbers and prices are not published"
+  - tier: "Editorial"
+    text: "The loadout recommendations and Arsenal-availability rule are our recommendations"
 ---
 
 ## Shift At Midnight Weapons & Tools Guide

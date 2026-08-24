@@ -6,6 +6,13 @@ version: "1.0"
 updated: '2026-08-09'
 keywords: ["shift at midnight speedrun", "shift at midnight speedrun guide", "shift at midnight fast walkthrough", "shift at midnight true ending speedrun", "shift at midnight any%"]
 related: ["all-doppelgangers-list", "money-guide", "endings-guide", "entity-survival-guide", "beginner-guide"]
+sources:
+  - tier: "Official"
+    text: "13-shift campaign with randomly generated shifts; the $250 personal-cash True Ending path and the doppelganger screening loop are grounded in confirmed mechanics — Steam store page and official description"
+  - tier: "Community"
+    text: "Per-shift fixed doppelganger lists, the optimal shift loop, the alive/dead check as fastest filter, and entity-skip tactics are community-documented from gameplay — not officially published"
+  - tier: "Editorial"
+    text: "The route-planning and money-optimization guidance is our recommendation for speedrunning"
 ---
 
 ## What Is a Shift At Midnight Speedrun?

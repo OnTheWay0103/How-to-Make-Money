@@ -6,6 +6,13 @@ version: "1.0"
 updated: "2026-08-11"
 keywords: ["taival biomes", "taival realms", "taival exploration guide", "taival world map", "taival hidden secrets", "taival henki traversal", "taival four realms"]
 related: ["skill-trees-guide", "quests-walkthrough", "housing-base-building", "henki-companion-guide", "endgame-dungeons"]
+sources:
+  - tier: "Official"
+    text: "Four seamlessly connected realms — rolling highlands, dense forests, mountains, and ancient ruins — confirmed by official materials and the Steam store page"
+  - tier: "Community"
+    text: "Specific form names (Traveler, Burrower, Shadow Stalker), resource hotspots, and hidden-secret locations are community reports from Early Access — unconfirmed (TBD)"
+  - tier: "Editorial"
+    text: "The per-biome form loadouts and exploration routes are our recommendations"
 ---
 
 # Taival — Biomes & World Exploration Guide

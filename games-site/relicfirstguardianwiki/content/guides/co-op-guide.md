@@ -6,6 +6,13 @@ version: "1.0"
 updated: "2026-08-11"
 keywords: ["relic first guardian coop", "relic first guardian co op", "relic first guardian multiplayer", "is relic first guardian multiplayer", "relic first guardian online", "relic first guardian crossplay", "can you play relic first guardian with friends"]
 related: ["beginner-guide", "difficulty-guide", "release-date-platforms"]
+sources:
+  - tier: "Official"
+    text: "Single-player-only launch build with no co-op, multiplayer, PvP, or online features announced — Steam store page (single-player tag) and developer materials"
+  - tier: "Community"
+    text: "Launch reviews (IGN, GamingBolt, Gamesurf, InvenGlobal) all describe a strictly single-player game; pre-launch speculative 'co-op' articles from third-party sites were incorrect"
+  - tier: "Editorial"
+    text: "The buyer-guidance framing and the solo-tools analysis are our editorial judgment"
 ---
 
 # Co-Op & Multiplayer — Is There Co-Op in The Relic: First Guardian?

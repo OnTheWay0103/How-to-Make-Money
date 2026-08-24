@@ -6,6 +6,15 @@ version: "1.0"
 updated: "2026-08-11"
 keywords: ["relic first guardian all bosses", "relic first guardian bosses list", "relic first guardian how many bosses", "relic first guardian brutals", "relic first guardian optional bosses", "relic first guardian boss order"]
 related: ["boss-strategies", "walkthrough", "secret-areas", "difficulty-guide"]
+sources:
+  - tier: "Official"
+    text: "'Confront Up to 80 Tragic Bosses' — the Brutal roster, most optional, each with a tragic backstory — Steam store page; 'Blood-Stained Shield' Branko is named in official preview material"
+  - tier: "Official"
+    text: "No levels, no XP — boss 'recommended levels' in third-party lists are fabricated by definition — official materials"
+  - tier: "Community"
+    text: "Parry chains of up to 15 hits against some Brutals and the parry-gate vs dodge-gate design split are from launch reviews and player reports"
+  - tier: "Editorial"
+    text: "The fake-boss-list detection guide and roster-status framing are our editorial analysis"
 ---
 
 # All Bosses — The 70+ Brutals, Confirmed & Unconfirmed

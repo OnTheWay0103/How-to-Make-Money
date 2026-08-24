@@ -6,6 +6,13 @@ version: "1.0"
 updated: '2026-08-01'
 keywords: ["shift at midnight doppelganger guide", "spot impostor shift at midnight", "NET database guide", "customer screening shift at midnight", "fake ID detection", "shift at midnight doppelganger tells"]
 related: ["beginner-guide", "entity-survival-guide", "story-walkthrough", "norbert-the-gnome-guide"]
+sources:
+  - tier: "Official"
+    text: "Doppelganger mechanics — disguised impostors among customers, missed fakes returning as monsters, the 60-second lock-up alert — Steam store page and official description"
+  - tier: "Community"
+    text: "The question system (up to 5 per customer), ID check routine, NET database cross-reference steps, Emotoscope, and visual tells are community-documented from gameplay — not officially published"
+  - tier: "Editorial"
+    text: "The three-layer questioning method and golden rules of detection are our recommendations"
 ---
 
 ## The Art of Detection

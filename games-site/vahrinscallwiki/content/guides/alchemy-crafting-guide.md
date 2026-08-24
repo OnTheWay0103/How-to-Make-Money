@@ -6,6 +6,15 @@ version: '1.0'
 updated: '2026-08-01'
 keywords: ['vahrins call alchemy guide', 'vahrins call crafting guide', 'vahrins call potions', 'vahrins call traps', 'vahrins call alchemy recipes']
 related: ['combat-guide', 'best-builds-guide', 'farming-resource-guide', 'gear-enhancement']
+sources:
+  - tier: "Official"
+    text: "Potion-throwing alchemy perk (level the alchemy skill, then throw potions at enemies or yourself) and trap deployment reworked to work while moving — March 2026 developer update"
+  - tier: "Official"
+    text: "Alchemy ingredients listed as a usable system; spells can trigger traps — Steam store page and developer materials"
+  - tier: "Community"
+    text: "Specific ingredient names and recipes circulating online are unverified — no official recipe list has been published"
+  - tier: "Editorial"
+    text: "The practical alchemy advice and craft-as-you-travel strategy are our recommendations"
 ---
 
 # Alchemy & Crafting Guide — Confirmed Systems

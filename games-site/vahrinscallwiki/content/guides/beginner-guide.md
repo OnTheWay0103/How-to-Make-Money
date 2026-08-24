@@ -6,6 +6,17 @@ version: '1.0'
 updated: '2026-08-01'
 keywords: ['vahrins call beginner guide', 'vahrins call getting started', 'vahrins call tips', 'vahrins call starter guide', 'vahrins call first hours']
 related: ['combat-guide', 'attributes-stats-guide', 'quest-walkthrough', 'multiplayer-coop-guide']
+sources:
+  - tier: "Official"
+    text: "Launch July 27, 2026 as a full premium release (not Early Access) at $34.99 / £27.99 / €29.99; developed and self-published by Titan Roc; single-player — Steam store page and official FAQ"
+  - tier: "Official"
+    text: "Classless progression with 'adapt, alter or completely switch playstyles' and Skill Books needed for full upgrades — official FAQ and developer updates"
+  - tier: "Official"
+    text: "Khraiax lore, the war-torn city of Vahrin, and the story of the mercenary protagonist — Steam store page"
+  - tier: "Community"
+    text: "First-hour impressions (combat feel, Morrowind-style quest tracking), the ~22-hour average playtime, and the launch review snapshot are from launch-era reviews and player reports"
+  - tier: "Editorial"
+    text: "The first-hour priorities and practical tips list are our recommendations"
 ---
 
 # Beginner Guide — Getting Started in Vahrin's Call

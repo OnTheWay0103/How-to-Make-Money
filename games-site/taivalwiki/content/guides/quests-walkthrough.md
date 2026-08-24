@@ -6,6 +6,15 @@ version: "1.0"
 updated: "2026-08-11"
 keywords: ["taival quests", "taival story walkthrough", "taival quest guide", "taival main questline", "taival heartstone quest"]
 related: ["lore-and-story-guide", "biomes-exploration-guide", "boss-guide", "coop-multiplayer-guide"]
+sources:
+  - tier: "Official"
+    text: "The four quests named on the Steam page — the farmer's stolen barrel, the goblin house dispute, the barbarian camp beast, and insect pest control — plus the Heartstone restoration main-quest premise — Steam store page"
+  - tier: "Official"
+    text: "Group quest dialogue where all players suggest and vote on story decisions — Steam store page and developer materials"
+  - tier: "Community"
+    text: "The barbarian camp's forest–highlands border location and quest reward details are community reports — unconfirmed (TBD)"
+  - tier: "Editorial"
+    text: "Quest-prioritization and co-op completion advice are our recommendations"
 ---
 
 # Taival — Quests & Story Walkthrough

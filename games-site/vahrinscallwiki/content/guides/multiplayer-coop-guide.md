@@ -6,6 +6,15 @@ version: '1.0'
 updated: '2026-08-01'
 keywords: ['is vahrins call co-op', 'vahrins call multiplayer', 'vahrins call coop', 'vahrins call single player', 'vahrins call online']
 related: ['beginner-guide', 'quest-walkthrough', 'boss-guide', 'endgame-content']
+sources:
+  - tier: "Official"
+    text: "Single-player-only status, co-op cut as 'too ambitious for our first title', and Xbox/PlayStation versions planned 'shortly after' the July 27, 2026 PC release — official FAQ"
+  - tier: "Official"
+    text: "System requirements (Windows 10/11 64-bit, 8 GB RAM minimum, GTX 1080 / RX 6600-class GPU, ~20 GB storage) — Steam store page"
+  - tier: "Community"
+    text: "The ~22-hour average playtime, 'Mixed' review snapshot, and post-launch performance complaints are from Steam reviews and player reports"
+  - tier: "Editorial"
+    text: "The solo-play verdict and buy/hold-off guidance are our recommendations"
 ---
 
 # Multiplayer & Co-op Status — The Honest Answer

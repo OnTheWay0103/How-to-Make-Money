@@ -6,6 +6,13 @@ version: "1.0"
 updated: '2026-08-01'
 keywords: ["shift at midnight money guide", "earn $250 shift at midnight", "shift at midnight income tips", "shift at midnight true ending money", "shift at midnight pet surgery", "shift at midnight fund separation"]
 related: ["endings-guide", "beginner-guide", "weapons-guide", "story-walkthrough"]
+sources:
+  - tier: "Official"
+    text: "Gas-station management loop with nightly sales goals and stocking as core mechanics — Steam store page and official description"
+  - tier: "Community"
+    text: "The $250 personal-cash True Ending requirement, the two-account rule, the 15-item stock quota, and the rat/roach bonus tasks are community-documented from gameplay — specific dollar figures and quotas are not officially published"
+  - tier: "Editorial"
+    text: "The fund-separation habit and income strategy by phase are our recommendations"
 ---
 
 ## Shift At Midnight Money Guide: How to Earn $250 for the True Ending

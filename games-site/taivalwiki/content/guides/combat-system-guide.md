@@ -6,6 +6,13 @@ version: "1.0"
 updated: "2026-08-11"
 keywords: ["taival combat", "taival weapons", "taival battle tactics", "taival combat guide", "taival weapon types", "taival dodge block"]
 related: ["henki-companion-guide", "best-henki-forms", "coop-multiplayer-guide", "crafting-professions-guide"]
+sources:
+  - tier: "Official"
+    text: "Combat systems confirmed by official materials: 'different weapon types' backed by skill trees, combat skills, enemy and boss fights, and the Henki's combat forms (hulking beast, cunning predator) — Steam store page and developer materials"
+  - tier: "Community"
+    text: "The specific weapon categories (swords, spears, axes, bows, staves), dodge/block bindings, and cooldown values are community reports from the Early Access build — unconfirmed (TBD)"
+  - tier: "Editorial"
+    text: "The combo chains, stagger usage, and co-op battle tactics are our strategy"
 ---
 
 # Combat System & Weapons Guide: Battle Tactics

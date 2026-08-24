@@ -6,6 +6,13 @@ version: "1.0"
 updated: '2026-08-01'
 keywords: ["shift at midnight co-op guide", "shift at midnight multiplayer", "team roles shift at midnight", "co-op tips shift at midnight", "shift at midnight how to play with friends", "shift at midnight 3 players"]
 related: ["beginner-guide", "entity-survival-guide", "solo-guide"]
+sources:
+  - tier: "Official"
+    text: "Online co-op for up to 3 players with proximity voice chat, plus PC-Xbox cross-platform play — Steam store page and official materials"
+  - tier: "Community"
+    text: "The register-clerk/stocker role split and the discuss-before-shooting protocol are community conventions, not official classes"
+  - tier: "Editorial"
+    text: "The role assignment and team-tactics guidance are our recommendations"
 ---
 
 ## Co-Op at the Gas Station

@@ -6,6 +6,13 @@ version: "1.0"
 updated: "2026-08-11"
 keywords: ["taival co-op", "taival multiplayer", "taival split screen", "taival online co-op", "taival party guide", "taival 4 player"]
 related: ["henki-companion-guide", "best-henki-forms", "combat-system-guide", "crafting-professions-guide"]
+sources:
+  - tier: "Official"
+    text: "Up to 4 players with online co-op, LAN, shared/split-screen, mixed local+online sessions, and Remote Play Together; per-player characters and companions; group quest dialogue with voting — Steam store page and developer materials"
+  - tier: "Community"
+    text: "Vote anonymity, tie-break rules, host-disconnect behavior, and split-screen layout details are community reports — unconfirmed (TBD)"
+  - tier: "Editorial"
+    text: "Party compositions by group size, form-synergy table, and co-op strategies are our recommendations"
 ---
 
 # Co-op Multiplayer Guide: Tips for 2-4 Player Groups

@@ -6,6 +6,13 @@ version: "1.0"
 updated: "2026-08-11"
 keywords: ["taival crafting", "taival professions", "taival crafting stations", "taival recipes", "taival materials", "taival crafting guide", "taival professions guide"]
 related: ["beginner-guide", "combat-system-guide", "henki-companion-guide", "fishing-guide"]
+sources:
+  - tier: "Official"
+    text: "Professions and crafting are confirmed Early Access systems, with fishing explicitly named by the developer as a levelable skill — Steam store page and developer materials"
+  - tier: "Community"
+    text: "The station list (workbench, campfire, alchemy table, forge, loom), recipe unlocks, and material locations are community reports from launch — unconfirmed (TBD)"
+  - tier: "Editorial"
+    text: "The crafting priority order and best-items-to-craft advice are our recommendations"
 ---
 
 # Crafting & Professions Guide: All Materials, Recipes & Tips

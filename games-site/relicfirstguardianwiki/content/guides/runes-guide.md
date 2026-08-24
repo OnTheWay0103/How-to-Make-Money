@@ -6,6 +6,15 @@ version: "1.0"
 updated: "2026-08-11"
 keywords: ["relic first guardian runes", "relic first guardian relics", "relic first guardian memory fragments", "relic first guardian rune guide", "relic first guardian relic fragments", "best relics relic first guardian"]
 related: ["builds-guide", "upgrade-system", "weapons-guide", "beginner-guide"]
+sources:
+  - tier: "Official"
+    text: "Over 70 unique passive relic fragments (no traditional leveling); relics reshape skills, alter combat tempo, buff weapons, improve survivability, and reduce cooldowns; freely swappable between fights — Steam store page and official materials"
+  - tier: "Official"
+    text: "Relic Energy from Brutals and Ancient Relic Blessings buys skill-tree nodes; Shards of Awakening unlock relic slots via Elisa at camps — official materials"
+  - tier: "Community"
+    text: "Specific fragment names, effects, and optimal loadouts are community-documented and mostly unconfirmed at launch (TBD)"
+  - tier: "Editorial"
+    text: "The relic-usage strategy (specialize around your weapon, swap before every boss) is our recommendation"
 ---
 
 # Runes & Relics Guide — The 70+ Passive Fragments

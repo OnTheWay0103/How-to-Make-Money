@@ -6,6 +6,13 @@ version: "1.0"
 updated: "2026-08-11"
 keywords: ["taival bosses", "taival boss guide", "taival world bosses", "taival sudden bosses", "taival barbarian camp beast", "taival boss encounters", "taival boss strategy"]
 related: ["henki-companion-guide", "combat-system-guide", "skill-trees-guide", "coop-multiplayer-guide"]
+sources:
+  - tier: "Official"
+    text: "Boss content confirmed by the Steam description: 'unique combat encounters, enemy and boss fights', 'random loot, sudden bosses, and unexpected challenges', the barbarian-camp beast quest fight, and giant insect pest control; 1.0 planned to add 'new enemy and boss encounters' — Steam store page and developer materials"
+  - tier: "Community"
+    text: "The barbarian camp's forest–highlands border location and companion-dungeon boss details are community reports — unconfirmed (TBD)"
+  - tier: "Editorial"
+    text: "The boss prep checklist, co-op tactics, and loot expectations are our strategy; no official boss roster or stats exist as of August 2026"
 ---
 
 # Taival — Boss Encounters Guide

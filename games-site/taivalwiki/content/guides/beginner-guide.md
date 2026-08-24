@@ -6,6 +6,15 @@ version: "1.0"
 updated: "2026-08-11"
 keywords: ["taival beginner guide", "taival getting started", "taival tips", "taival first steps", "taival new player guide", "taival henki basics"]
 related: ["henki-companion-guide", "best-henki-forms", "coop-multiplayer-guide", "crafting-professions-guide"]
+sources:
+  - tier: "Official"
+    text: "Steam Early Access launch on July 14, 2026; developed by Bonobo Software, published by Level Up Gaming; the Henki shapeshifting companion and shattered Heartstone premise — Steam store page"
+  - tier: "Official"
+    text: "System requirements (Windows 10/11, 8 GB RAM, GTX 1660 Ti, DirectX 11, 5 GB storage) — Steam store page"
+  - tier: "Community"
+    text: "Starting Henki form, control bindings, and taming details are community-reported from the Early Access build and not officially documented"
+  - tier: "Editorial"
+    text: "The first-steps checklist, early-game priorities, and biome-by-biome route are our strategy"
 ---
 
 # Getting Started in Taival: Complete Beginner's Guide

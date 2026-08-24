@@ -6,6 +6,15 @@ version: "1.0"
 updated: "2026-08-11"
 keywords: ["taival system requirements", "taival pc specs", "taival minimum requirements", "taival recommended specs", "taival performance", "taival steam deck"]
 related: ["release-date-ea-guide", "beginner-guide", "biomes-exploration-guide"]
+sources:
+  - tier: "Official"
+    text: "Minimum and recommended specs (Windows 10/11, 8 GB RAM, GTX 1660 Ti minimum; Ryzen 7 3700X / 16 GB RAM / RTX 3060 Ti recommended; DirectX 11; 5 GB storage) — Steam store page"
+  - tier: "Official"
+    text: "PC via Steam is the only confirmed platform as of August 2026 — Steam store page"
+  - tier: "Community"
+    text: "Performance expectations for the voxel art style and co-op sessions are our extrapolation from the official specs, not benchmark data"
+  - tier: "Editorial"
+    text: "The GPU verdicts and 'is my PC good enough' guidance are our recommendations"
 ---
 
 ## Taival System Requirements — PC Specs & Performance Guide

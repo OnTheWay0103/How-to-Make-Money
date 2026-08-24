@@ -6,6 +6,13 @@ version: "1.0"
 updated: '2026-08-01'
 keywords: ["shift at midnight story walkthrough", "all nights guide", "campaign guide shift at midnight", "story mode shift at midnight", "complete walkthrough shift at midnight", "shift at midnight 13 shifts"]
 related: ["endings-guide", "beginner-guide", "doppelganger-guide", "dentist-guide"]
+sources:
+  - tier: "Official"
+    text: "13-shift story campaign with randomly generated shifts; the Midnight Town gas station setting — Steam store page and official description"
+  - tier: "Community"
+    text: "Per-shift doppelganger lists, scripted beats (generator sabotage, blood-rain nights, the Dentist), and the daily routine are community-documented from gameplay — not officially published"
+  - tier: "Editorial"
+    text: "The phase-by-phase framing and nightly checklists are our recommendations"
 ---
 
 ## Shift At Midnight Story Walkthrough — 13 Nights

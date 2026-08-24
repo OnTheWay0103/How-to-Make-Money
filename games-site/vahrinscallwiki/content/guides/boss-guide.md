@@ -6,6 +6,15 @@ version: '1.0'
 updated: '2026-08-01'
 keywords: ['vahrins call boss guide', 'vahrins call bosses', 'vahrins call boss fights', 'vahrins call final boss', 'vahrins call boss tips']
 related: ['combat-guide', 'quest-walkthrough', 'enemies-bestiary-guide', 'alchemy-crafting-guide']
+sources:
+  - tier: "Official"
+    text: "'A far greater danger rose from beneath the city's streets' — official lore; blocking works as a defensive tool; traps deploy while moving and spells can trigger traps — developer materials and March 2026 update"
+  - tier: "Community"
+    text: "The four named boss-tier encounters (Sylvia Lynderly, Dirk the Flayer, Dallen Bellmore, Talia Almath) are community-mapped from gameplay; fight details unconfirmed — no official boss list exists"
+  - tier: "Community"
+    text: "Pattern-recognition boss design and cinematic boss introductions are from launch reviews and player reports"
+  - tier: "Editorial"
+    text: "The boss preparation checklist (stamina discipline, trap fields, spell tuning) is our strategy"
 ---
 
 # Boss Guide — What's Confirmed

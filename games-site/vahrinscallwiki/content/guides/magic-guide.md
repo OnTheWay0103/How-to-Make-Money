@@ -6,6 +6,17 @@ version: "1.0"
 updated: "2026-08-01"
 keywords: ["vahrins call magic guide", "vahrins call spells", "vahrins call spell mastery", "vahrins call fire magic", "vahrins call spell customisation", "vahrins call how to learn spells"]
 related: ["combat-guide", "best-builds-guide", "attributes-stats-guide", "skill-book-hunting-guide"]
+sources:
+  - tier: "Official"
+    text: "Spell customisation (damage, range, casting speed); magic limits — no environmental interaction, no fire+ice combination (sequel consideration only), cosmetic day/night — developer Q&A and updates"
+  - tier: "Official"
+    text: "Spell Mastery system announced in 2024 development updates; Skill Books needed for full upgrades — developer updates"
+  - tier: "Official"
+    text: "Fire and ice both confirmed to exist by developer discussion; stamina limiting prolonged magic use — dev Q&A and launch reviews"
+  - tier: "Community"
+    text: "The 'Fire Magic for Oafs' / 'Ice Magic for Oafs' skill book locations are community-documented from gameplay"
+  - tier: "Editorial"
+    text: "The practical magic advice and elemental-school table interpretation are our recommendations"
 ---
 
 # Magic Guide — Confirmed Spell Systems

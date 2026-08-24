@@ -6,6 +6,17 @@ version: "1.0"
 updated: "2026-08-11"
 keywords: ["relic first guardian release date", "relic first guardian ps5", "relic first guardian steam", "relic first guardian price", "relic first guardian physical copy", "relic first guardian xbox", "relic first guardian pre order", "relic first guardian editions"]
 related: ["beginner-guide", "controls-settings-guide", "game-length-guide", "review-roundup"]
+sources:
+  - tier: "Official"
+    text: "Released July 2026 on Steam and PlayStation 5; developed by Project Cloud Games, published by Perp Games; Xbox Series X|S and Nintendo Switch 2 versions announced for later in summer 2026 — Steam store page and publisher announcements"
+  - tier: "Official"
+    text: "'Confront Up to 80 Tragic Bosses', five weapon masteries (Sword & Shield, Battle Staff, Daggers, Two-Handed Weapons, Longsword), and no-leveling relic progression — Steam store page"
+  - tier: "Official"
+    text: "The 'Night of the Unextinguished Flame' pre-order pack (unique Relic, exclusive armor and weapons, new dungeon) — publisher/retailer material"
+  - tier: "Community"
+    text: "Launch technical issues (framerate drops, camera, lock-on bugs) and the review scores quoted (IGN 4/10, Gamesurf 7/10, Navigames 44/100) are from launch-era reviews and player reports"
+  - tier: "Editorial"
+    text: "The buy/no-buy framing and platform-performance notes are our judgment; exact regional pricing varies and should be checked on the store page"
 ---
 
 # Release Date, Platforms & Editions — Everything You Need to Know

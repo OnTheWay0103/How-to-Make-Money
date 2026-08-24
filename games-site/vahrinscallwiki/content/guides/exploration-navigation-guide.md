@@ -6,6 +6,13 @@ version: '1.0'
 updated: '2026-08-06'
 keywords: ['vahrins call shrine of sol', 'vahrins call fast travel', 'vahrins call checkpoint', 'vahrins call death respawn', 'vahrins call map guide']
 related: ['zones-areas-guide', 'beginner-guide', 'farming-resource-guide', 'endgame-content']
+sources:
+  - tier: "Official"
+    text: "Zone-based, semi-open world structure with hand-crafted areas — Steam store page and official materials"
+  - tier: "Community"
+    text: "Shrine of Sol checkpoints, the 33 documented shrines, fast-travel signposts, death/respawn behavior, and the named fast travel network are community-verified from player-mapped gameplay — not officially documented"
+  - tier: "Editorial"
+    text: "The shrine strategy and navigation tips are our recommendations"
 ---
 
 # Exploration & Navigation Guide — Shrines of Sol, Fast Travel & Checkpoints

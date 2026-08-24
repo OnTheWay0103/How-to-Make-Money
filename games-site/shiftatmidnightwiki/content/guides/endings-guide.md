@@ -6,6 +6,13 @@ version: "1.0"
 updated: '2026-08-01'
 keywords: ["shift at midnight all endings", "shift at midnight true ending", "how to get endings shift at midnight", "shift at midnight ending guide", "shift at midnight pet surgery", "shift at midnight don't call clyde"]
 related: ["story-walkthrough", "money-guide", "achievements-guide", "faq-content"]
+sources:
+  - tier: "Official"
+    text: "Story Mode with 13 randomly generated shifts — Steam store page and official description"
+  - tier: "Community"
+    text: "The $250 personal-cash requirement (revealed after Shift 10), the don't-call-Clyde rule, and the Shift 13 finale sequence are community-documented from gameplay and not officially published"
+  - tier: "Editorial"
+    text: "The True Ending checklist and other-ending uncertainty framing are our recommendations"
 ---
 
 ## Shift At Midnight Endings Guide

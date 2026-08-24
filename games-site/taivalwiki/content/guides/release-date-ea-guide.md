@@ -6,6 +6,15 @@ version: "1.0"
 updated: "2026-08-08"
 keywords: ["taival release date", "taival early access", "taival steam", "taival price", "taival demo", "taival bonobo software", "taival platforms"]
 related: ["beginner-guide", "lore-and-story-guide", "quests-walkthrough", "coop-multiplayer-guide"]
+sources:
+  - tier: "Official"
+    text: "Early Access launch July 14, 2026, planned 6–12 months with price expected to rise; developed by Bonobo Software, published by Level Up Gaming; up to 4 players (online, LAN, split-screen, Remote Play Together); free demo available — Steam store page"
+  - tier: "Official"
+    text: "Launch discount 20% off at launch (press release); the 'journey' meaning of the Finnish word taival — developer press materials"
+  - tier: "Community"
+    text: "The July 15 launch date variant, 12,000+ wishlists, and 3,000+ test players are press-reported figures, not confirmed by the developer"
+  - tier: "Editorial"
+    text: "The buy-now versus wait-and-see recommendation and demo-first advice are our judgment"
 ---
 
 ## Taival Release Date & Early Access Guide
