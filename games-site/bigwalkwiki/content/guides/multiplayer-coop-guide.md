@@ -14,6 +14,11 @@ related:
   - "beginner-guide"
   - "tools-guide"
   - "tips-and-tricks"
+sources:
+  - tier: "Official"
+    text: "Player counts (2-12), co-op-only design, and full crossplay across Steam, Mac, PS5, and Switch 2 are confirmed in official materials and press coverage"
+  - tier: "Editorial"
+    text: "Group-size recommendations and division-of-labor advice are our recommendations"
 ---
 
 # Big Walk Multiplayer & Co-op Guide

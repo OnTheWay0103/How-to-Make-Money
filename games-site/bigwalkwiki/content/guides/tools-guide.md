@@ -16,6 +16,13 @@ related:
   - "controls-guide"
   - "inventory-carrying-guide"
   - "hidden-secrets-guide"
+sources:
+  - tier: "Official"
+    text: "The tool roster (walkie-talkie, binoculars, laser pointer, flashlight, megaphone, flare, whiteboard, cowbell) is confirmed in pre-release coverage and the launch build"
+  - tier: "Community"
+    text: "Tool locations and sharing/respawn behavior are being documented by players post-launch; unverified items are flagged in the guide"
+  - tier: "Editorial"
+    text: "Tool priorities and usage advice are our recommendations"
 ---
 
 # Big Walk Tools Guide — All Tools & Toys Explained

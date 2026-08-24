@@ -6,6 +6,11 @@ version: "Pre-release"
 updated: "2026-08-03"
 date: "2026-08-03"
 keywords: ["low-budget repairs money", "low-budget repairs make money fast", "low-budget repairs profit", "low-budget repairs cost cutting", "low-budget repairs how to earn money"]
+sources:
+  - tier: "Community"
+    text: "Job-type profitability (repaint margins, mismatched-tile acceptance, plumbing risk) comes from demo player reports"
+  - tier: "Editorial"
+    text: "The profit formula and job priority order are our recommendations"
 ---
 
 # How to Make Money Fast in Low-Budget Repairs

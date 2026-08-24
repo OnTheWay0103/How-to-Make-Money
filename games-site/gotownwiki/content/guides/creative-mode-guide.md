@@ -6,6 +6,11 @@ version: '1.0'
 updated: '2026-08-08'
 keywords: ['Go-Go Town Creative Mode', 'Go-Go Town sandbox', 'Go-Go Town build mode', 'Go-Go Town no money mode', 'Go-Go Town Creative Mode map', 'Go-Go Town decorating']
 related: ['best-layout-guide', 'building-unlock-guide', 'treasure-hunting-guide', 'one-point-zero-update-guide']
+sources:
+  - tier: "Official"
+    text: "Creative Mode was announced as a flagship 1.0 feature (July 16, 2026): dedicated map, no money, no restrictions, full building toolset"
+  - tier: "Editorial"
+    text: "The best-use strategies (layout testing, reverse-engineering the tech tree) are our recommendations"
 ---
 
 # Go-Go Town! Creative Mode Guide — Build Without Limits

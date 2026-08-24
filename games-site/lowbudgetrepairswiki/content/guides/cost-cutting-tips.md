@@ -6,6 +6,11 @@ version: "Pre-release"
 updated: "2026-08-10"
 date: "2026-08-10"
 keywords: ["low-budget repairs cost cutting", "low-budget repairs shortcuts", "low-budget repairs tips", "low-budget repairs watering down paint", "low-budget repairs duct tape"]
+sources:
+  - tier: "Community"
+    text: "Techniques marked demo-verified come from the July 24 demo and the open playtest that started July 30, per player reports"
+  - tier: "Editorial"
+    text: "Savings percentages are player estimates, flagged as such in the guide's sourcing note; release-build behavior may differ"
 ---
 
 # Best Cost-Cutting Tips & Shortcuts in Low-Budget Repairs

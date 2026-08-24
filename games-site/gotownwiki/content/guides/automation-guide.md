@@ -6,6 +6,11 @@ version: '1.0'
 updated: '2026-08-01'
 keywords: ['Go-Go Town automation', 'Go-Go Town workers', 'Go-Go Town couriers', 'Go-Go Town logistics', 'Go-Go Town workers not working']
 related: ['best-layout-guide', 'money-making-guide', 'building-unlock-guide']
+sources:
+  - tier: "Community"
+    text: "Worker troubleshooting (crab-only fishing, stuck maintenance workers, seed spawns) reflects reports shared on Steam Community; seed availability is noted as changing across patches"
+  - tier: "Editorial"
+    text: "The automation setup order and courier division of labor are our recommendations"
 ---
 
 # Go-Go Town! Automation Guide — Workers, Couriers & Logistics

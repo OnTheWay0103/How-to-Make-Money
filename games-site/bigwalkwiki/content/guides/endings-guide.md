@@ -16,6 +16,11 @@ related:
   - "hidden-secrets-guide"
   - "trophies-achievements"
   - "puzzles-guide"
+sources:
+  - tier: "Community"
+    text: "Both endings (Normal and True/Secret) and the post-game structure (White Key, secret room, completion trophy) are reported by the first week of community play; exact names and counts are marked as unverified in the guide"
+  - tier: "Editorial"
+    text: "The spoiler-safe completion checklist is our recommendation"
 ---
 
 # Big Walk Endings Guide — Normal vs True Secret Ending

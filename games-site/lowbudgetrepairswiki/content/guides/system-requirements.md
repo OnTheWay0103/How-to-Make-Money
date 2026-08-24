@@ -7,6 +7,11 @@ keywords: ["low-budget repairs system requirements", "low budget repairs pc spec
 updated: "2026-08-03"
 slug: "system-requirements"
 related: ["faq", "painting-guide"]
+sources:
+  - tier: "Official"
+    text: "Minimum and recommended specs mirrored from the official Steam store page (Windows 10 64-bit, 8 GB minimum RAM, RX 580 / GTX 1060 minimum GPU, 30 GB storage)"
+  - tier: "Editorial"
+    text: "Performance expectations (CPU/RAM demands, laptop viability) are our analysis of the official specs"
 ---
 
 # Low-Budget Repairs System Requirements — Can Your PC Run It?

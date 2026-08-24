@@ -6,6 +6,11 @@ version: "1.0"
 updated: "2026-08-01"
 keywords: ["expeditions samurai diplomacy", "expeditions samurai dialogue guide", "expeditions samurai skill checks", "expeditions samurai persuasion", "expeditions samurai negotiation", "expeditions samurai de-escalation", "expeditions samurai speech"]
 related: ["combat-guide", "stealth-guide", "beginner-guide"]
+sources:
+  - tier: "Official"
+    text: "Diplomacy as a full third pillar with skill checks in dialogue is confirmed by official materials"
+  - tier: "Editorial"
+    text: "The expected check framework is our analysis of the series' design and is flagged as unconfirmed in the guide"
 ---
 
 # Expeditions: Samurai — Diplomacy Guide

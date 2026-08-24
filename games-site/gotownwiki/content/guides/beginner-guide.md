@@ -6,6 +6,13 @@ version: '1.0'
 updated: '2026-08-01'
 keywords: ['Go-Go Town beginner guide', 'Go-Go Town first hour', 'Go-Go Town how to start', 'Go-Go Town tutorial', 'Go-Go Town getting started']
 related: ['money-making-guide', 'best-layout-guide', 'tourist-attraction-guide']
+sources:
+  - tier: "Official"
+    text: "Game facts (July 16, 2026 1.0 release, co-op limits, free demo) verified against the Steam store page and developer announcements"
+  - tier: "Community"
+    text: "Early-game priorities (train station first, stocking Baldo's shop) reflect widely shared player reports on Steam Community"
+  - tier: "Editorial"
+    text: "The step-by-step first-hour order is our recommendation based on the game's systems"
 ---
 
 # Go-Go Town! Beginner Guide — Your First Hour

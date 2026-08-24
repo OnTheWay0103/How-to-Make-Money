@@ -7,6 +7,13 @@ keywords: ["low-budget repairs faq", "low budget repairs release date", "low bud
 updated: "2026-08-07"
 slug: "faq"
 related: ["system-requirements", "painting-guide", "renovation-jobs-guide", "release-hub", "demo-guide", "price-editions-guide"]
+sources:
+  - tier: "Official"
+    text: "Release date (August 13, 2026), platforms, demo date (July 24, 2026), and system requirements verified against the Steam store page and publisher announcements"
+  - tier: "Community"
+    text: "Demo progress carry-over and preload status are unconfirmed and flagged as such in the guide"
+  - tier: "Editorial"
+    text: "The assume-no-carry-over advice and price expectation are our assessment"
 ---
 
 # Low-Budget Repairs FAQ — Release Date, Platforms, Multiplayer & More

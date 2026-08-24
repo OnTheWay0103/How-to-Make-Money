@@ -6,6 +6,11 @@ version: '1.0'
 updated: '2026-08-01'
 keywords: ['Go-Go Town townies', 'Go-Go Town residents', 'Go-Go Town how to get residents to move in', 'Go-Go Town townie guide', 'Go-Go Town houses and apartments', 'Go-Go Town how to hire workers', 'Go-Go Town recruitment']
 related: ['beginner-guide', 'automation-guide', 'building-unlock-guide', 'tourist-attraction-guide']
+sources:
+  - tier: "Community"
+    text: "The 83-townie roster, individual recruitment quests (e.g., Louie's garbage bin), and the secret Townie Dusty are documented by the community wiki and player reports"
+  - tier: "Editorial"
+    text: "Recruitment order and housing-first advice are our recommendations"
 ---
 
 # Go-Go Town! Townie Guide — How to Recruit Residents

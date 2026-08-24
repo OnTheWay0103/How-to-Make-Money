@@ -7,6 +7,11 @@ keywords: ["low-budget repairs jobs", "low budget repairs job list", "low budget
 updated: "2026-08-03"
 slug: "renovation-jobs-guide"
 related: ["painting-guide", "tiling-guide", "faq"]
+sources:
+  - tier: "Community"
+    text: "The five demo job types and their shortcut strategies are documented from the July 2026 demo by players"
+  - tier: "Editorial"
+    text: "Job difficulty and profit estimates are our assessment, flagged as unconfirmed until launch"
 ---
 
 # All Renovation Jobs in Low-Budget Repairs — Complete List & Tips

@@ -6,6 +6,11 @@ version: "1.0"
 updated: "2026-08-06"
 keywords: ["expeditions samurai co-op", "expeditions samurai multiplayer", "expeditions samurai 2 player", "expeditions samurai co-op guide", "expeditions samurai drop in drop out"]
 related: ["stealth-guide", "romance-guide", "combat-guide"]
+sources:
+  - tier: "Official"
+    text: "Series-first 2-player drop-in/drop-out online co-op with twin captains confirmed for launch day by the developer diary (August 5, 2026) and official materials"
+  - tier: "Editorial"
+    text: "Division-of-labor strategies are our recommendations"
 ---
 
 # Expeditions: Samurai — Co-op Guide

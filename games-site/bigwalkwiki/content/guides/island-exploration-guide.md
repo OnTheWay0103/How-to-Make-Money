@@ -14,6 +14,11 @@ related:
   - "beginner-guide"
   - "puzzles-guide"
   - "hidden-secrets-guide"
+sources:
+  - tier: "Community"
+    text: "The ~1.4 km squared island, Wilsons Promontory inspiration, and landmark-based navigation are reported in pre-release coverage and launch-week player reports"
+  - tier: "Editorial"
+    text: "The navigation rules and region descriptions are our recommendations"
 ---
 
 # Big Walk Island Exploration Guide

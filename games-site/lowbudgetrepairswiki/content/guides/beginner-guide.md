@@ -6,6 +6,13 @@ version: "Pre-release"
 updated: "2026-08-03"
 date: "2026-08-03"
 keywords: ["low-budget repairs beginner guide", "low-budget repairs getting started", "low-budget repairs tips", "low-budget repairs how to play", "low-budget repairs first job"]
+sources:
+  - tier: "Official"
+    text: "Developer (Gray2RGB) and publisher (PlayWay S.A.), the August 13, 2026 launch date, and the free demo are verified against the Steam store page and publisher announcements"
+  - tier: "Community"
+    text: "Core-loop behavior (flat fees, surface-level inspection, duct tape plumbing) is documented from the July 2026 demo by players"
+  - tier: "Editorial"
+    text: "First-job walkthrough and profit advice are our recommendations based on demo mechanics"
 ---
 
 # Low-Budget Repairs Beginner Guide — Getting Started Tips

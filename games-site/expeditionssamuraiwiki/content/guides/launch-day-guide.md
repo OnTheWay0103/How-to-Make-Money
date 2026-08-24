@@ -6,6 +6,13 @@ version: "1.0"
 updated: "2026-08-11"
 keywords: ["expeditions samurai launch day", "expeditions samurai release time", "expeditions samurai what time", "expeditions samurai launch guide", "expeditions samurai price", "expeditions samurai day one", "expeditions samurai august 7", "expeditions samurai what to do first"]
 related: ["early-access-guide", "system-requirements-guide", "beginner-guide", "coop-multiplayer-guide", "walkthrough-act-one"]
+sources:
+  - tier: "Official"
+    text: "Launch facts (Aug 7, 2026, 14:00 UTC unlock, US$29.99 / EUR 29.99, 34% discount until August 14, full 2-player co-op at launch, 1.0 in Q1 2027) verified against the Steam store page and THQ Nordic launch announcement"
+  - tier: "Community"
+    text: "Unlock-time details cross-checked with SteamDB listings"
+  - tier: "Editorial"
+    text: "The first-24-hours plan and prep advice are our recommendations"
 ---
 
 # Expeditions: Samurai Launch Day Guide — Release Time, Price & First 24 Hours

@@ -15,6 +15,11 @@ related:
   - "island-exploration-guide"
   - "tools-guide"
   - "endings-guide"
+sources:
+  - tier: "Community"
+    text: "Gourd types, the gourd-to-cutter machine questline, and hidden areas are community-reported from launch-week play; unverified items are explicitly flagged in the guide"
+  - tier: "Editorial"
+    text: "The gourd-carrying practical rules and hunting strategy are our recommendations"
 ---
 
 # Big Walk Hidden Secrets, Gourds & Quests Guide

@@ -6,6 +6,13 @@ version: '1.0'
 updated: '2026-08-01'
 keywords: ['Go-Go Town how to make money', 'Go-Go Town money guide', 'Go-Go Town coins', 'Go-Go Town EGO', 'Go-Go Town earn money fast']
 related: ['beginner-guide', 'tourist-attraction-guide', 'crafting-production-guide']
+sources:
+  - tier: "Official"
+    text: "The 1.0 patch notes (build 1.0.25831) confirm the Export feature was removed in favor of coin payouts"
+  - tier: "Community"
+    text: "Endgame coin figures and popcorn-farm earnings come from player reports; exact values are flagged as unconfirmed in the guide"
+  - tier: "Editorial"
+    text: "Shop stocking, vending machine, and scaling strategies are our recommendations"
 ---
 
 # How to Make Money Fast in Go-Go Town!

@@ -17,6 +17,13 @@ related:
   - money-making-guide
   - townie-guide
   - achievement-guide
+sources:
+  - tier: "Official"
+    text: "The rebalanced 1.0 tech tree and reworked progression were announced in the official 1.0 update notes"
+  - tier: "Community"
+    text: "The 83-townie roster count and Tourist Desires behavior are reported by the community wiki and player reports"
+  - tier: "Editorial"
+    text: "The three-track progression route and priority order are our analysis; pre-1.0 coin figures are marked unconfirmed in the guide"
 ---
 
 # Go-Go Town! Progression Guide — How to Unlock Content Faster

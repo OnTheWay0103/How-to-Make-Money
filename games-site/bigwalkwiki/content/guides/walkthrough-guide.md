@@ -14,6 +14,13 @@ related:
   - "beginner-guide"
   - "puzzles-guide"
   - "hidden-secrets-guide"
+sources:
+  - tier: "Official"
+    text: "The progression loop (walk, solve puzzles, earn gourds, unlock towers) is confirmed by developer/preview materials and launch-day play"
+  - tier: "Community"
+    text: "The act-by-act structure reflects early player sessions and outlet coverage from launch week"
+  - tier: "Editorial"
+    text: "The guide explicitly states that a full step-by-step walkthrough does not exist yet and that its phase structure is a preparation framework, not confirmed quest steps"
 ---
 
 # Big Walk Walkthrough — The Main Progression Path

@@ -7,6 +7,11 @@ updated: "2026-08-08"
 date: "2026-08-08"
 keywords: ["low-budget repairs review", "low-budget repairs demo review", "is low-budget repairs good", "low-budget repairs impressions", "low-budget repairs score", "is low-budget repairs worth it", "should i buy low-budget repairs"]
 related: ["demo-guide", "games-like-low-budget-repairs", "release-hub", "how-long-to-beat", "price-editions-guide"]
+sources:
+  - tier: "Community"
+    text: "The demo's ~90% positive rating from ~330 ratings is attributed in the guide to GameGrin's demo roundup; 1M+ wishlist figures are store-reported as of August 2026"
+  - tier: "Editorial"
+    text: "The pre-launch verdict, scorecard, and who-should-buy analysis are our assessment of demo evidence"
 ---
 
 # Low-Budget Repairs Review — Early Verdict from the Demo

@@ -6,6 +6,11 @@ version: '1.0'
 updated: '2026-08-01'
 keywords: ['Go-Go Town tourists', 'Go-Go Town attract tourists', 'Go-Go Town tourist satisfaction', 'Go-Go Town town rating', 'Go-Go Town Tourist Desires']
 related: ['beginner-guide', 'money-making-guide', 'building-unlock-guide']
+sources:
+  - tier: "Community"
+    text: "Tourist clustering at the train station, Tourist Desires behavior, and Tourist Trap update changes are reported by players"
+  - tier: "Editorial"
+    text: "The satisfaction checklist and menu-matching advice are our recommendations"
 ---
 
 # How to Attract and Satisfy Tourists in Go-Go Town!

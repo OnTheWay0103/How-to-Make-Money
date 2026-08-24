@@ -6,6 +6,13 @@ version: '1.0'
 updated: '2026-08-01'
 keywords: ['Go-Go Town co-op', 'Go-Go Town multiplayer', 'Go-Go Town split screen', 'Go-Go Town play with friends', 'Go-Go Town online co-op']
 related: ['beginner-guide', 'automation-guide', 'best-layout-guide']
+sources:
+  - tier: "Official"
+    text: "Co-op limits (up to 4 players on Steam, 2 on Switch) verified against the Steam store page and 1.0 announcement"
+  - tier: "Community"
+    text: "Split-screen layout reports and invitation flow details come from player reports"
+  - tier: "Editorial"
+    text: "The division-of-labor strategies are our recommendations"
 ---
 
 # Go-Go Town! Co-op Multiplayer Guide — Playing with Friends

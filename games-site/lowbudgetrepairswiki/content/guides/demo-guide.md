@@ -6,6 +6,13 @@ version: "Pre-release"
 updated: "2026-08-05"
 date: "2026-08-05"
 keywords: ["low-budget repairs demo", "low budget repairs demo download", "low budget repairs demo how long", "low budget repairs demo progress", "low budget repairs demo vs full game"]
+sources:
+  - tier: "Official"
+    text: "Free demo released July 24, 2026 on Steam and the August 13, 2026 launch date verified against the Steam store page and publisher announcements"
+  - tier: "Community"
+    text: "Demo content details and contract count (3-5 job types) come from player reports on the July 2026 build"
+  - tier: "Editorial"
+    text: "Demo length estimates (30-60 minutes per contract) are our assessment"
 ---
 
 # Low-Budget Repairs Demo Guide — Content, Length & What Carries Over

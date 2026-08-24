@@ -6,6 +6,11 @@ version: "Pre-release"
 updated: "2026-08-05"
 date: "2026-08-05"
 keywords: ["low-budget repairs release date", "low budget repairs release time", "low budget repairs platforms", "low budget repairs preorder", "low budget repairs preload"]
+sources:
+  - tier: "Official"
+    text: "August 13, 2026 launch and Steam / PS5 / Xbox Series X|S platforms verified against the Steam store page and publisher announcements"
+  - tier: "Editorial"
+    text: "Price, edition, and preload expectations are flagged as unconfirmed in the guide; unlock time (14:00 UTC) is store-listed and may shift by minutes"
 ---
 
 # Low-Budget Repairs Release Hub — Date, Price, Editions & Platforms

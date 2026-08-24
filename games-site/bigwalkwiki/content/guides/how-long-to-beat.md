@@ -11,6 +11,13 @@ related:
   - "trophies-achievements"
   - "island-exploration-guide"
   - "faq"
+sources:
+  - tier: "Official"
+    text: "The 1.4 km squared island size and the ~10 hour main-walk preview estimate come from developer and preview statements"
+  - tier: "Community"
+    text: "Week-one playtimes (7 to 15+ hours) come from early player reports; the completionist estimate is the site's own, flagged as not yet verified"
+  - tier: "Editorial"
+    text: "Playtime estimates are explicitly labeled in the guide as estimates, not measurements"
 ---
 
 # Big Walk How Long to Beat — Game Length & Completion Guide

@@ -6,6 +6,11 @@ version: "1.0"
 updated: "2026-08-01"
 keywords: ["expeditions samurai walkthrough", "expeditions samurai act 1", "expeditions samurai act one", "expeditions samurai story", "expeditions samurai sekigahara", "expeditions samurai quests"]
 related: ["beginner-guide", "companions-guide", "tips-and-tricks"]
+sources:
+  - tier: "Official"
+    text: "The confirmed Act One opening (the De Albatros arrival in 1600) and the 45+ level / 100+ event world map come from official materials"
+  - tier: "Editorial"
+    text: "The phase-by-phase game plan is a preparation framework, explicitly flagged in the guide as not confirmed quest steps"
 ---
 
 # Expeditions: Samurai — Act One Walkthrough

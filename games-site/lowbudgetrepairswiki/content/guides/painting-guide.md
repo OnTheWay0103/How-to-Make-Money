@@ -7,6 +7,11 @@ keywords: ["low-budget repairs painting guide", "low budget repairs paint tips",
 updated: "2026-08-03"
 slug: "painting-guide"
 related: ["tiling-guide", "renovation-jobs-guide", "faq"]
+sources:
+  - tier: "Community"
+    text: "Dilution ratios and inspector behavior are reported by demo players; the 1:5 ratio is flagged as unverified in the guide"
+  - tier: "Editorial"
+    text: "Wall-skipping and one-coat strategies are our recommendations based on demo behavior"
 ---
 
 # Low-Budget Repairs Painting Guide — Tips, Shortcuts & Best Paint

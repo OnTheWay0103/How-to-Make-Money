@@ -6,6 +6,13 @@ version: "1.0"
 updated: "2026-08-01"
 keywords: ["expeditions samurai stealth", "expeditions samurai stealth guide", "expeditions samurai ambush", "expeditions samurai sneaking", "expeditions samurai takedown"]
 related: ["combat-guide", "beginner-guide", "coop-multiplayer-guide"]
+sources:
+  - tier: "Official"
+    text: "Stealth as the series' first full third pillar, party splitting, firecrackers, and surprise-attack combat initiation are confirmed by official materials and developer quotes"
+  - tier: "Community"
+    text: "Hitman-veteran involvement in the stealth AI is press-reported and marked TBD in the guide"
+  - tier: "Editorial"
+    text: "Stealth tactics are our recommendations"
 ---
 
 # Expeditions: Samurai — Stealth Guide

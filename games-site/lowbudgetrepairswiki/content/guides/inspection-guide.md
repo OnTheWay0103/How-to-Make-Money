@@ -6,6 +6,11 @@ version: "Pre-release"
 updated: "2026-08-05"
 date: "2026-08-05"
 keywords: ["low-budget repairs inspection", "low budget repairs pass inspection", "low budget repairs fail job", "low budget repairs client checks", "low budget repairs corner cutting risks", "low-budget repairs permits", "low-budget repairs contracts", "low-budget repairs job budget"]
+sources:
+  - tier: "Community"
+    text: "Inspection behavior (surface-level checks, standing-height sight, the tap test) is documented from the July 2026 demo by players"
+  - tier: "Editorial"
+    text: "Pass/fail criteria interpretation and the cover-instead-of-repair strategy are our analysis of demo behavior"
 ---
 
 # Low-Budget Repairs Inspection Guide — How Clients Judge Your Work

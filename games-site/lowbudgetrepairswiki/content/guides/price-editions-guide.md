@@ -6,6 +6,11 @@ version: "Pre-release"
 updated: "2026-08-05"
 date: "2026-08-05"
 keywords: ["low-budget repairs price", "low budget repairs cost", "low budget repairs editions", "low budget repairs preorder", "low budget repairs worth it"]
+sources:
+  - tier: "Community"
+    text: "Store-tracked expectations for the ~$19.99 price and the absence of announced editions as of early August 2026"
+  - tier: "Editorial"
+    text: "Price and edition expectations are explicitly flagged in the guide as not confirmed by the publisher; comparisons to other sims are our analysis"
 ---
 
 # Low-Budget Repairs Price & Editions — How Much, What You Get

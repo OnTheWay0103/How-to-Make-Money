@@ -14,6 +14,11 @@ related:
   - "faq"
   - "beginner-guide"
   - "multiplayer-coop-guide"
+sources:
+  - tier: "Official"
+    text: "Minimum and recommended PC requirements mirrored from the official Steam listing (Windows 10/11, 12 GB minimum RAM, GTX 750 Ti / R7 370 minimum GPU)"
+  - tier: "Editorial"
+    text: "Performance expectations and the console/Steam Deck notes are our analysis of the official specs"
 ---
 
 # Big Walk System Requirements — PC, Steam Deck & Console

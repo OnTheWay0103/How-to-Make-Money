@@ -6,6 +6,13 @@ version: "1.0"
 updated: "2026-08-11"
 keywords: ["expeditions samurai early access", "expeditions samurai early access guide", "expeditions samurai act one content", "expeditions samurai roadmap", "expeditions samurai release date", "expeditions samurai what is included", "expeditions samurai 1.0 release"]
 related: ["launch-day-guide", "beginner-guide", "walkthrough-act-one", "village-management-guide", "coop-multiplayer-guide", "combat-guide"]
+sources:
+  - tier: "Official"
+    text: "EA content and roadmap (Aug 7, 2026 launch, five main quests and three side quests in Act One, village management arriving during EA, 1.0 targeted for Q1 2027, US$29.99 price with 34% launch discount) verified against the Steam store page, the developer diary series, and THQ Nordic announcements"
+  - tier: "Community"
+    text: "The 14:00 UTC unlock time is cross-checked with SteamDB listings; community reports track roadmap publication"
+  - tier: "Editorial"
+    text: "The buying framework and what-to-expect analysis are our assessment"
 ---
 
 # Expeditions: Samurai Early Access Guide — Act One Content, Roadmap & What's Missing

@@ -13,6 +13,13 @@ related:
   - "multiplayer-coop-guide"
   - "tools-guide"
   - "puzzles-guide"
+sources:
+  - tier: "Official"
+    text: "Game facts (August 4, 2026 launch, House House / Panic, co-op only with no solo mode and no matchmaking, 2-12 players) verified against the Steam store page and official press materials"
+  - tier: "Community"
+    text: "First-week player reports on the core loop, walkie-talkie behavior, and gourd progression"
+  - tier: "Editorial"
+    text: "The first-hour route and group habits are our recommendations"
 ---
 
 # Big Walk Beginner's Guide — Your First Walk

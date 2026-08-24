@@ -6,6 +6,13 @@ version: '1.0'
 updated: '2026-08-08'
 keywords: ['Go-Go Town 1.0 update', 'Go-Go Town update guide', 'Go-Go Town what changed', 'Go-Go Town Garbirds', 'Go-Go Town Twitch', 'Go-Go Town Rebuy system', 'Go-Go Town imports', 'Go-Go Town full release']
 related: ['creative-mode-guide', 'treasure-hunting-guide', 'tips-and-tricks', 'building-unlock-guide']
+sources:
+  - tier: "Official"
+    text: "1.0 content verified against the developer's 1.0 announcement and patch notes: July 16, 2026 release, Creative Mode, Treasure Hunting, Garbirds, Twitch integration, Rebuy system, 30 new achievements (56 total), EA saves incompatible with a dedicated ggt_legacy version, and the Q3 2026 to Q2 2027 roadmap"
+  - tier: "Community"
+    text: "Post-launch player reports on the new 1.0 achievements and reworked systems that are still being mapped"
+  - tier: "Editorial"
+    text: "The feature summaries and prioritization are our assessment of the official notes"
 ---
 
 # Go-Go Town! 1.0 Update Guide — Everything That Changed

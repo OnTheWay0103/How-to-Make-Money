@@ -14,6 +14,13 @@ related:
   - "beginner-guide"
   - "multiplayer-coop-guide"
   - "system-requirements"
+sources:
+  - tier: "Official"
+    text: "Release date (August 4, 2026), platforms (Steam PC and Mac, PS5, Switch 2), price ($19.99 with 25% launch discount), and developer / publisher (House House / Panic) verified against the Steam store page and press materials"
+  - tier: "Community"
+    text: "The PlayStation Plus Essential day-one listing for August 2026 is as reported at launch; platform subscription details follow normal store rules"
+  - tier: "Editorial"
+    text: "Purchase and platform guidance is our assessment of the official store listings"
 ---
 
 # Big Walk FAQ — Everything You Need to Know
