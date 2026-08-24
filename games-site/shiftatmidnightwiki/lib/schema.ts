@@ -48,7 +48,7 @@ export function websiteSchema(): Record<string, unknown> {
 /**
  * VideoGame schema for the homepage.
  *
- * Describes Echoes of Aincrad as a software application / video game so
+ * Describes Shift At Midnight as a software application / video game so
  * rich results can display the Steam link, genre, platform, etc.
  */
 export function videoGameSchema(): Record<string, unknown> {
@@ -58,24 +58,24 @@ export function videoGameSchema(): Record<string, unknown> {
     name: 'Shift At Midnight',
     description:
       'A 1-3 player co-op horror detective game set in a 1990s gas station. Work the night shift, serve customers, identify doppelgangers, and survive entity attacks to earn enough money for your pet\'s surgery.',
-    url: 'https://store.steampowered.com/app/4050060/Shift_At_Midnight/',
+    url: 'https://store.steampowered.com/app/3722330/Shift_At_Midnight/',
     applicationCategory: 'Game',
     operatingSystem: 'Windows',
     genre: ['Horror', 'Co-op', 'Detective', 'Survival', 'Simulation', 'First-Person'],
     author: {
-      '@type': 'Organization',
-      name: 'Fiddlesticks Games',
+      '@type': 'Person',
+      name: 'Bun Muen',
     },
     publisher: {
       '@type': 'Organization',
-      name: 'Fiddlesticks Games',
+      name: 'Kwalee',
     },
     offers: {
       '@type': 'Offer',
-      price: '12.99',
+      price: '9.99',
       priceCurrency: 'USD',
       availability: 'https://schema.org/InStock',
-      url: 'https://store.steampowered.com/app/4050060/Shift_At_Midnight/',
+      url: 'https://store.steampowered.com/app/3722330/Shift_At_Midnight/',
     },
     datePublished: '2026-07-22',
     platform: 'Steam',
@@ -92,7 +92,7 @@ export function videoGameSchema(): Record<string, unknown> {
  *
  * @example
  *   faqPageSchema([
- *     { question: 'Is Echoes of Aincrad free?', answer: 'No, it is a paid game on Steam.' },
+ *     { question: 'Is Shift At Midnight free?', answer: 'No, it is a paid game on Steam.' },
  *     { question: 'Can I play solo?',   answer: 'Yes — the game scales for 1–4 players.' },
  *   ])
  */

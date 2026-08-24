@@ -13,11 +13,11 @@ const FEATURED_GUIDES = [
 ];
 
 const FAQ_ITEMS = [
-  { question: 'What is Shift At Midnight?', answer: 'Shift At Midnight is a 1-3 player co-op horror detective game developed by Fiddlesticks Games. Released July 22, 2026 on Steam and Xbox Game Pass, you work the night shift at a 1990s gas station — serving customers while identifying doppelgangers: shapeshifting monsters that mimic human appearance. The game features a 13-night story campaign and costs $12.99 (32% off launch discount).' },
+  { question: 'What is Shift At Midnight?', answer: 'Shift At Midnight is a 1-3 player co-op horror detective game developed by Bun Muen and published by Kwalee. Released July 22, 2026 on Steam and Xbox Game Pass, you work the night shift at a 1990s gas station — serving customers while identifying doppelgangers: shapeshifting monsters that mimic human appearance. The game features a 13-night story campaign and costs $9.99 on Steam.' },
   { question: 'Is it single-player or co-op?', answer: 'Both. You can play solo (with AI assistance) or in online co-op with up to 3 players. The 13-night campaign is fully playable either way. Co-op is recommended for higher difficulty shifts where multiple doppelgangers appear simultaneously.' },
   { question: 'How do you spot doppelgangers?', answer: 'Doppelgangers have subtle behavioral tells: they fail ID checks in the NET Database, exhibit repetitive movements, have distorted reflections, and may flicker under fluorescent lights. You use the NET Database terminal to cross-reference customer identities. Advanced doppelgangers learn to mimic more behaviors, making later shifts increasingly challenging.' },
-  { question: 'How many endings are there?', answer: 'There are 4 main endings and 2 secret endings. Your choices throughout the 13-night campaign — which survivors you help, how many doppelgangers you expose, and key story decisions — determine which ending you unlock. A single playthrough takes approximately 10-12 hours.' },
-  { question: 'Is it on Xbox Game Pass?', answer: 'Yes. Shift At Midnight is available on Xbox Game Pass (Console and PC) from launch day, July 22, 2026. Game Pass subscribers can play the full game at no additional cost. The Steam version is $12.99 with a 32% launch discount.' },
+  { question: 'How many endings are there?', answer: 'There are 3 endings: True Ending, Grave Decision, and Empty Home. Your choices throughout the 13-night campaign — which survivors you help, how many doppelgangers you expose, and key story decisions — determine which ending you unlock. A single playthrough takes approximately 10-12 hours.' },
+  { question: 'Is it on Xbox Game Pass?', answer: 'Yes. Shift At Midnight is available on Xbox Game Pass (Console and PC) from launch day, July 22, 2026. Game Pass subscribers can play the full game at no additional cost. The Steam version is $9.99.' },
   { question: 'What are the PC system requirements?', answer: 'Minimum: Intel i5-8400 / AMD Ryzen 3 3300X, GTX 1060 6GB / RX 580 8GB, 12GB RAM, 25GB SSD. Recommended: Intel i7-10700 / AMD Ryzen 5 3600, RTX 2060 / RX 6600 XT, 16GB RAM, 25GB SSD. The game runs on Unreal Engine 5 with stylized retro-horror visuals.' },
 ];
 
@@ -32,11 +32,11 @@ export default function Home() {
           Shift At Midnight <span className="text-red-500">Wiki</span>
         </h1>
         <p className="text-lg text-gray-400 max-w-xl mx-auto mb-2">
-          Complete guide hub for the co-op horror detective game by Fiddlesticks Games.
+          Complete guide hub for the co-op horror detective game by Bun Muen, published by Kwalee.
         </p>
         <p className="text-sm text-gray-600 mb-8">Released July 22, 2026 — Steam & Xbox Game Pass</p>
         <div className="flex items-center justify-center gap-4">
-          <a href="https://store.steampowered.com/app/4050060/Shift_At_Midnight/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-red-600 hover:bg-red-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors text-sm">
+          <a href="https://store.steampowered.com/app/3722330/Shift_At_Midnight/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-red-600 hover:bg-red-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors text-sm">
             Play Now on Steam
           </a>
           <Link href="/guides/beginner-guide" className="inline-flex items-center gap-2 border border-gray-600 hover:border-red-500 text-gray-300 hover:text-red-400 px-6 py-3 rounded-lg transition-colors text-sm">
