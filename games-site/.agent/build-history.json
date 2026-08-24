@@ -732,6 +732,43 @@
       "deployed": true,
       "pipeline": "BUILD-001 (Coordinator + QA PASS, relay format)",
       "qa": "PASS — 12/20 sampled, 18 fact checks matched, 48 [待确认] markers, zero fabrication"
+    },
+    {
+      "game": "Sovereign Tower",
+      "date": "2026-08-25",
+      "genre": "圆桌管理模拟 RPG (WILD WITS/Curve Games)",
+      "template": "doloctownwiki (newest QA-PASS)",
+      "mode": "new-build (BUILD-002, scout re-check 18/20, zero wiki EN/CN/JP)",
+      "guides": 18,
+      "guidesAdded": 18,
+      "deployed": true,
+      "score": 18,
+      "pipeline": "BUILD-002 (SCOUT-REV → build → QA quick PASS → deploy verified)",
+      "qa": "PASS — 6/18 sampled, zero fabrication, $19.99/5 factions fact-checked, GA4 pending human task"
+    },
+    {
+      "game": "Shift At Midnight",
+      "date": "2026-08-25",
+      "genre": "Co-op horror detective (Bun Muen/Kwalee)",
+      "template": "shiftatmidnightwiki",
+      "mode": "expand (keyword-driven +5: endings/ending-explained/characters/multiplayer-FAQ)",
+      "guides": 31,
+      "guidesAdded": 3,
+      "deployed": true,
+      "pipeline": "EXPAND-003 → QA quick FAIL (station-level fabricated metadata) → FIX-SAM (4 files) → redeployed live-verified",
+      "qa": "New guides PASS; site-level FAIL fixed (Fiddlesticks Games/6 endings/$12.99 → Bun Muen/Kwalee/3 endings/$9.99, app 3722330)"
+    },
+    {
+      "game": "Phantom Tower",
+      "date": "2026-08-25",
+      "genre": "Roguelite (Horien Studio)",
+      "template": "phantomtowerwiki",
+      "mode": "expand (keyword-driven +4: platforms-purchase/items-catalog/review-community/best-builds)",
+      "guides": 20,
+      "guidesAdded": 3,
+      "deployed": true,
+      "pipeline": "EXPAND-004 → QA quick PASS → redeployed",
+      "qa": "PASS — 2 new + 2 updated sampled, zero fabrication, 7 item names ruled same-name confusion [Unconfirmed]"
     }
   ],
   "knownIssues": [
