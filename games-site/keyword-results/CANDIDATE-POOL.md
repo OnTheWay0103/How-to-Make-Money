@@ -1,7 +1,7 @@
 # 候选游戏池
 
 > 侦察 Agent 发现的新游戏候选。主管 Agent 读取此文件做建站决策。
-> 最后更新: 2026-08-10
+> 最后更新: 2026-08-25
 > 位置：`keyword-results/CANDIDATE-POOL.md` — 随 git 同步，跨机器共享
 
 ## 候选清单
@@ -18,8 +18,8 @@
 | 10 | The Walking Dead: Streets of Survival | 横版清版打斗 (AMC IP) | 15 | 9/18 | ⚠️ 无专属，系列 fandom 生态 | 8/8 | 观望（TWD IP 搜索量大、$19.99；3 角色技能树+4 Boss 内容有限；大 IP 有 wiki 快速出现风险；免费 demo 已上） |
 | 11 | Luminary | ARPG-lite Co-op (2人) | 19 | 8/11 EA | ❌ 无 | 8/3 | 观望（50K wishlist；名字泛化 SEO 弱；2人团队） |
 | 12 | Sir, We Have an Orc Problem | TD + 增量 (2人) | 19 | ~8/1 已上线 | ❌ 无 | 8/3 | 观望（首发 $360K/天、峰值 7.6K CCU 爆款，仅 ProdigyGamers 一篇攻略；2人团队） |
-| 13 | BOMBANANA! | 3人 Co-op 拆弹 | 19 | 8/27 | ❌ 无 | 8/3 | 观望（659K wishlist；派对游戏内容偏浅） |
-| 14 | Blood Dungeon | Bullet Heaven 平台跳跃 (Messhof) | 17 | 8/25 | ❌ 无 | 8/3 | 观望（小团队 ~5人；名字泛化） |
+| 13 | BOMBANANA! | 3人 Co-op 拆弹 | 19 | 9/2（原 8/27 延后） | ❌ 无 | 8/3 | 观望 — 8/25 复查：正式发售日改为 9/2；demo 97% Overwhelmingly Positive（5,000+ 评测）、600 万试玩、峰值 CCU 4 万、1M+ wishlist |
+| 14 | Blood Dungeon | Bullet Heaven 平台跳跃 (Messhof) | ~~17~~ **16** | 8/25 已上线 | ❌ 无 | 8/3 | ⏸️ 观望（9/1 复查）— 8/25 复查：今日如期发售；Steam 用户评测暂无数据、价格 [待确认]；critic 两极（PC Gamer 66 vs Game Informer 8/10）；⚠️ 含裸体/粗俗内容，AdSense 合规风险；英中日零 wiki |
 | 15 | Mortal Shell II | Souls-like ARPG | 16 | 8/20 | ⚠️ 竞争激烈 | 8/1 | 观望（IGN/Ludo.guide/社区Wiki已存在） |
 | 16 | Good Heavens! | Co-op 生存建造 RPG | 15 | 8月 EA | ❌ 无 | 8/1 | 观望（EA日期模糊，热度低） |
 | 17 | Twisted Tower | FPS Horror Adventure | 14 | 8/18 | ❌ 无 | 7/31 | 观望（等待临近发售） |
@@ -36,14 +36,14 @@
 | 28 | Order Automatica | Tactical Roguelite | 11 | 7/27 | ❌ 无 | 7/31 | 低分（0 评测 319 关注） |
 | 29 | DOLOC TOWN | 后末日温馨农场模拟 (RedSaw/Logoi) | 22 | 8/6 1.0 | ✅ 已建站 | 8/10 | ✅ 已建站（8/22）→ doloctownwiki，20 guides，QA PASS |
 | 30 | Welcome to Elderfield | Cosy Horror RPG (Chris Cote/Kwalee) | 20 | 9/10 | ❌ 无 | 8/10 | 推荐 — ~85K wishlist + 6.2K 关注、demo 96% Overwhelmingly Positive；农场+回合制+恋爱+恐怖无竞品攻略；单人开发；9 月上旬提前建站 |
-| 31 | Sovereign Tower | 圆桌管理模拟 RPG (WILD WITS/Curve) | 20 | 8/6 已上线 | ❌ 无 | 8/10 | 推荐 — 140K+ wishlist、92%（241+ 评测）、Metacritic 86、Curve 第 100 作；5 属性/6 派系/时间回溯分支；管理+VN 混合内容面中等；本周内建站 |
-| 32 | Approximately Up | 物理飞船建造沙盒 (单人开发) | 19 | 8/6 已上线 | ❌ 无 | 8/10 | 推荐 — 198 评测 97% Very Positive；KSP 式 15 行星/千组件/4 人 Co-op，建造长尾佳；玩家基数小；本周内建站 |
+| ~~31~~ | ~~Sovereign Tower~~ | ~~圆桌管理模拟 RPG (WILD WITS/Curve)~~ | ~~20~~ **18** | ~~8/6 已上线~~ | ~~❌ 无~~ | 8/10 | ✅ 已建站（8/25）→ sovereigntowerwiki，18 guides，QA quick PASS，已部署 |
+| 32 | Approximately Up | 物理飞船建造沙盒 (单人开发) | ~~19~~ **17** | 8/6 已上线 | ⚠️ fandom 空壳 wiki | 8/10 | ⏸️ 观望（9/10 复查）— 8/25 复查：~775 评测 95%（Gamalytic）、$24.99 恢复全价；38.6K 销量玩家基数偏小；fandom 空壳 wiki 已出现（无内容页收录，暂不构成实质竞争，负面信号） |
 | 33 | Crimson Moon | 魂系动作 RPG (ProbablyMonsters) | 19 | 9/1 | ❌ 无 | 8/10 | 推荐（附条件）— ~107K wishlist、双人 Co-op、三区世界 Boss；中型工作室 wiki 风险；9/1 前复查 |
 | 34 | Dressmaker | 缝纫模拟 (Free Lives/Cozy Lives) | 19 | 9/21 | ❌ 无 | 8/10 | 推荐 — 200K+ wishlist、itch 原型 155K 下载；名字泛化风险；9 月中旬建站 |
-| 35 | Ledgerbound | 战术 RPG + 恋爱 (OmniMegaSuperCorp) | 19 | 8/11 | ❌ 无 | 8/10 | 推荐 — 前 Helldivers 2 团队 + Matthew Mercer 配音；wishlist 未验证；8/11 上线日建站 |
+| 35 | Ledgerbound | 战术 RPG + 恋爱 (OmniMegaSuperCorp) | ~~19~~ **16** | 8/13 已上线 | ❌ 无 | 8/10 | ⏸️ 观望（9/15 复查）— 8/25 复查：8/13 才发售（原定 8/11，Steam 内容审查延迟 2 天）；~236 评测 91% 特别好评但 12 天增速慢；$29.99 高价；存档损坏/无手动存档 bug 口碑风险；英中日零 wiki |
 | 36 | Anomaly President | Roguelike 动作 + 竞选管理 (Phew Phew) | 19 | 8/3 EA | ❌ 无 | 8/10 | 推荐 — 690+ 评测 93% Very Positive；EA 内容有限；观察首月更新后建站 |
 | 37 | Silver Pines | 恐怖 Metroidvania (Wych Elm/Team17) | 19 | 10/8 | ❌ 无 | 8/10 | 观望 — 83-112K wishlist、社区 10-11K 成员；银河城长尾 + Team17 营销；9 月底复查 |
-| 38 | Combolands | 肉鸽城市建造 (Crux/Landfall) | 18 | 8/24 | ❌ 无 | 8/10 | 观望 — Terra Nil 设计师、demo 97%；2 人团队 wishlist 未验证；上线日复查 |
+| 38 | Combolands | 肉鸽城市建造 (Crux/Landfall) | ~~18~~ **16** | 8/24 已上线 | ❌ 无 | 8/10 | ⏸️ 观望（9/1 复查）— 8/25 复查：8/24 如期发售、首日 100% 好评但评测量未公开；峰值 CCU >1K；$9.99（-20% 至 8/31）；2 人团队+低价限制生命周期；英中日零 wiki |
 | 39 | Entropy | 战术回合制 RPG (Lovely Hellplace) | 18 | 8/18 EA | ❌ 无 | 8/10 | 观望 — Dread Delusion 开发者、~67K wishlist；名字泛化 SEO 弱、EA 仅 Act 1；EA 后复查 |
 | 40 | Nimbit Frontier | 怪物养成生活模拟 (Megasploot) | 18 | 8/17 EA | ❌ 无 | 8/10 | 观望 — 20.5K wishlist 偏弱；EA 1.5 年；首周 >300 评测可升级 |
 | 41 | Tiny Monster Haven | Idle 怪物收集+农场 (Digging Dino) | 17 | 8/11 | ❌ 无 | 8/10 | 观望 — 50 怪物+回合战斗+迷你战役；idle 品类浅、wishlist 无数据 |
