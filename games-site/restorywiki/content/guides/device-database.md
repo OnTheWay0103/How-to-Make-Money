@@ -10,6 +10,13 @@ related:
   - repair-process-guide
   - achievement-guide
   - money-making-guide
+sources:
+  - tier: "Official"
+    text: "Officially licensed Atari hardware in the repair catalog is stated in official announcements and store material"
+  - tier: "Community"
+    text: "The 16+ device roster, parody names (Pokia 3310, Nony PlayMachine, Eggotchi) and per-device repair notes are community-documented from the launch build; the guide itself flags the '2,000+ devices' marketing figure as unconfirmed"
+  - tier: "Editorial"
+    text: "Repair-complexity ratings and resale/salvage advice are our assessment"
 ---
 
 ## Overview

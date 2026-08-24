@@ -13,6 +13,11 @@ keywords:
 related:
   - "beginner-guide"
   - "controls-guide"
+sources:
+  - tier: "Official"
+    text: "Minimum and recommended specs (64-bit OS, CPU, RAM, GPU, DirectX 10, 5 GB storage) are quoted per the official Steam store listing"
+  - tier: "Community"
+    text: "Real-world performance observations from the demo (FPS at various settings) are player-reported rather than official figures"
 ---
 
 # System Requirements & Performance

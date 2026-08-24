@@ -15,6 +15,15 @@ related:
   - "beginner-guide"
   - "story-walkthrough-guide"
   - "enemy-types-guide"
+sources:
+  - tier: "Official"
+    text: "The alternate-history late-1920s Spain setting, the civil war framing and the 5,000-ton walking turret are from the Steam store page and launch press coverage"
+  - tier: "Official"
+    text: "A handcrafted story with newspaper reports alongside procedurally generated objectives is advertised in launch coverage"
+  - tier: "Community"
+    text: "The obey-or-defy High Command choice system and its story branches are reported by launch reviewers and players, not documented in official patch notes"
+  - tier: "Editorial"
+    text: "Setting analysis, faction summaries and the moral-choice framing are our interpretation"
 ---
 
 # Story & Lore — The Civil War Explained

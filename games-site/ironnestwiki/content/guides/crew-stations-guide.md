@@ -17,6 +17,13 @@ related:
   - "ballistic-calculator-guide"
   - "loading-aiming-guide"
   - "map-measurements-guide"
+sources:
+  - tier: "Official"
+    text: "The teleprinter stations (High Command channel and frontline channel), tactical map, ballistic calculator and manual gun controls match the Steam store description of the game's stations"
+  - tier: "Community"
+    text: "Station-level details (six-charge loading levers, 360-degree traverse, per-gun arming) are community-documented from the launch build"
+  - tier: "Editorial"
+    text: "The station visit order and common-mistake list are our assessment"
 ---
 
 # All Stations Explained — Every Console in the Turret

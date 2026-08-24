@@ -14,6 +14,13 @@ related:
   - "requisition-upgrade-guide"
   - "target-spotting-guide"
   - "loading-aiming-guide"
+sources:
+  - tier: "Official"
+    text: "Counter-battery warfare against enemy artillery is part of the game's advertised design (Steam store page and launch coverage)"
+  - tier: "Community"
+    text: "Counter-battery timer mechanics, Fire Direction Center behavior and relocation tactics are community-reported from the launch build"
+  - tier: "Editorial"
+    text: "The pre-fire marking discipline and survival checklist are our recommendations"
 ---
 
 # Counter-Battery & Survival Guide

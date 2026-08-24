@@ -18,6 +18,13 @@ related:
   - "beginner-guide"
   - "achievements-medals-guide"
   - "story-walkthrough-guide"
+sources:
+  - tier: "Official"
+    text: "A card-based requisition system is highlighted in Rock Paper Shotgun's launch coverage of the game"
+  - tier: "Community"
+    text: "Earning patterns — priority star targets, credits not carrying over between sessions, skirmish as the repeatable income mode — are community-reported from the launch build"
+  - tier: "Editorial"
+    text: "The recommended upgrade order (precision, hydraulics, shells, recon) is our recommendation, not an official ranking"
 ---
 
 # Requisition & Best Upgrade Path

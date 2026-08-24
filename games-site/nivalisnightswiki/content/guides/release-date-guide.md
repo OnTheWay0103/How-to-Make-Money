@@ -7,6 +7,13 @@ updated: "2026-08-07"
 date: "2026-08-07"
 keywords: ["nivalis nights release date", "nivalis nights price", "nivalis nights platforms", "nivalis nights steam", "nivalis nights epic games store", "nivalis nights pre order", "nivalis nights release"]
 related: ["system-requirements-guide", "faq", "beginner-guide"]
+sources:
+  - tier: "Official"
+    text: "Release date September 29, 2026 on Steam, publisher 505 Games, the rename from Nivalis to Nivalis Nights, and the planned later Epic Games Store release are from official publisher announcements and the Steam store page"
+  - tier: "Official"
+    text: "Single-player only, and no console or Game Pass version announced, match the store page and publisher material as of August 2026"
+  - tier: "Editorial"
+    text: "The $25-40 USD price expectation is our estimate, not an official figure — the guide itself notes the official price was not yet announced"
 ---
 
 # Nivalis Nights Release Date — Launch Info, Platforms & Price

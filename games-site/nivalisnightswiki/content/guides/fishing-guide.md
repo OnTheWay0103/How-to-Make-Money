@@ -7,6 +7,13 @@ updated: "2026-08-07"
 date: "2026-08-07"
 keywords: ["nivalis nights fishing", "nivalis nights fishing guide", "nivalis nights fishing spots", "nivalis nights best fish", "nivalis nights boat", "nivalis nights fishing upgrades"]
 related: ["best-business-guide", "npc-relationships-guide", "greenhouse-guide"]
+sources:
+  - tier: "Official"
+    text: "Fishing from your own boat in the city's canals and using catches as ingredients, gifts or market goods is described in official announcements and trailers"
+  - tier: "Community"
+    text: "Fishing minigame details and upgrade paths are from pre-release coverage and developer Q&A, and are unverified until launch"
+  - tier: "Editorial"
+    text: "The 'fishing pays three currencies at once' framing and best-catch picks are our assessment"
 ---
 
 # Fishing Guide — Spots, Best Catches & Upgrades in Nivalis Nights

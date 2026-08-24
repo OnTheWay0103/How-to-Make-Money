@@ -7,6 +7,11 @@ updated: "2026-08-09"
 date: "2026-08-09"
 keywords: ["nivalis nights how long to beat", "nivalis nights playtime", "nivalis nights game length", "nivalis nights hours", "nivalis nights how many hours", "nivalis nights completionist", "nivalis nights how long is the game"]
 related: ["release-date-guide", "beginner-guide", "cloudpunk-comparison-guide", "best-business-guide"]
+sources:
+  - tier: "Official"
+    text: "The confirmed feature scope this guide estimates from — seven business types, 135 voiced NPCs, weather, day-night cycles, fishing, boating, chess, apartment customization — comes from official announcements and developer Q&A"
+  - tier: "Editorial"
+    text: "All playtime ranges are estimates based on genre benchmarks and confirmed scope; no official playtime has been published, and the guide itself labels every number as inference"
 ---
 
 # How Long to Beat Nivalis Nights — Playtime Estimates

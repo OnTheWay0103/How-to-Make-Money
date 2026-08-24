@@ -7,6 +7,15 @@ updated: "2026-08-07"
 date: "2026-08-07"
 keywords: ["nivalis nights faq", "nivalis nights release date", "nivalis nights price", "nivalis nights multiplayer", "nivalis nights demo", "nivalis nights questions", "nivalis nights information"]
 related: ["release-date-guide", "system-requirements-guide", "beginner-guide", "best-business-guide"]
+sources:
+  - tier: "Official"
+    text: "Release date, developer (ION LANDS), publisher (505 Games), Cloudpunk connection, single-player status and the seven business types are from official announcements and the Steam store page"
+  - tier: "Official"
+    text: "The game was renamed from Nivalis to Nivalis Nights, and an Epic Games Store version is planned for a later date, per official announcements"
+  - tier: "Community"
+    text: "The 135-citizen figure and pre-launch gameplay details are from developer Q&A, trailers and community coverage, and are unverified until launch"
+  - tier: "Editorial"
+    text: "The $25-40 USD price expectation is our estimate; the official price had not been announced as of August 2026"
 ---
 
 # Nivalis Nights FAQ — Everything You Need to Know

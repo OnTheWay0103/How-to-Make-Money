@@ -6,6 +6,13 @@ version: "1.0.6"
 updated: "2026-08-08"
 keywords: ["beast of reincarnation spirit stones", "spirit stone effects", "how to get spirit stones", "beast of reincarnation gear", "best spirit stones"]
 related: ["elemental-builds-guide", "weapons-armor-guide", "combat-system-guide", "beginner-guide"]
+sources:
+  - tier: "Official"
+    text: "Spirit Stones as socketable passive upgrades for build customization are described on the official Steam store page"
+  - tier: "Community"
+    text: "The full stone list, effects, socket counts and duplication mechanics are community-documented from the launch build"
+  - tier: "Editorial"
+    text: "Best-stone picks and farming advice are our assessment"
 ---
 
 # Spirit Stones Guide — All Stones, Effects & Farming

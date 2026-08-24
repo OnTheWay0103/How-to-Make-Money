@@ -6,6 +6,15 @@ version: "1.0.6"
 updated: "2026-08-08"
 keywords: ["beast of reincarnation price", "beast of reincarnation system requirements", "beast of reincarnation platforms", "beast of reincarnation deluxe edition", "beast of reincarnation game pass", "is beast of reincarnation on ps5"]
 related: ["faq", "beginner-guide", "endgame-post-game-guide"]
+sources:
+  - tier: "Official"
+    text: "Developer (Game Freak), publisher (Fictions), the August 3-4, 2026 release and the Chinese-region prices (248 CNY standard / 288 CNY Deluxe) are per official announcements and the Steam store page"
+  - tier: "Official"
+    text: "Minimum PC specs (Windows 10/11 64-bit, i5-8400 / Ryzen 5 3600, 16 GB RAM, GTX 1070 / RX 580, DirectX 12, 45 GB SSD) are per the official Steam store listing"
+  - tier: "Community"
+    text: "USD pricing, console versions (PS5, Xbox) and Game Pass availability are community-reported; this wiki's figures could not be re-verified against the store page at time of writing"
+  - tier: "Editorial"
+    text: "Edition value comparisons are our assessment"
 ---
 
 # Beast of Reincarnation — Price, Platforms & System Requirements

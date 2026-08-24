@@ -6,6 +6,13 @@ version: "1.0.6"
 updated: "2026-08-09"
 keywords: ["beast of reincarnation bloom arts", "fp florescence points guide", "best bloom arts", "full bloom combo beast of reincarnation", "koo bloom arts explained"]
 related: ["koo-rapport-guide", "combat-system-guide", "skill-tree-overview", "elemental-builds-guide"]
+sources:
+  - tier: "Official"
+    text: "Bloom Arts as Koo's companion abilities activated through a slow-motion command menu, powered by FP from parries, match the official store description"
+  - tier: "Community"
+    text: "FP economy details (Full Bloom bonus, QTE timing, no same Art twice in a row) are community-documented from the launch build"
+  - tier: "Editorial"
+    text: "Bloom Art rankings and FP-management advice are our assessment"
 ---
 
 # Bloom Arts Guide — FP Management, Best Arts & Combos

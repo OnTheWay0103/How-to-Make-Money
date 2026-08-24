@@ -7,6 +7,13 @@ updated: "2026-08-07"
 date: "2026-08-07"
 keywords: ["nivalis nights apartment customization", "nivalis nights apartment decorating", "nivalis nights furniture", "nivalis nights buy apartment", "nivalis nights home upgrade"]
 related: ["npc-relationships-guide", "beginner-guide", "best-business-guide"]
+sources:
+  - tier: "Official"
+    text: "Buying and decorating apartments across the city, including customizing homes for friends, is confirmed in official descriptions and publisher material"
+  - tier: "Community"
+    text: "Effects on mood, social standing and NPC relationships are from pre-release coverage and developer Q&A, and are unverified until launch"
+  - tier: "Editorial"
+    text: "Location-picking and decorating-priority advice is our recommendation"
 ---
 
 # Apartment Customization Guide — Decorating, Upgrades & Location Choices in Nivalis Nights

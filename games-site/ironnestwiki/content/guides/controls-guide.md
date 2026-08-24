@@ -12,6 +12,11 @@ keywords:
 related:
   - "beginner-guide"
   - "loading-aiming-guide"
+sources:
+  - tier: "Official"
+    text: "Fully manual operation — levers, wheels and valves with no aim assist — matches the hands-on control described on the Steam store page"
+  - tier: "Community"
+    text: "Specific keybindings (WASD, E, clipboard shortcuts) are community-documented from the demo and launch build"
 ---
 
 # IRON NEST Controls & Keybindings

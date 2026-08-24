@@ -10,6 +10,13 @@ related:
   - achievement-guide
   - money-making-guide
   - faq-content
+sources:
+  - tier: "Official"
+    text: "The developer's 15+ hour main-story estimate is attributed to an official developer statement in this guide"
+  - tier: "Community"
+    text: "Reviewer playtimes (~10 hours to credits per Gamekult, 20 hours per TechRaptor) are attributed reviewer figures"
+  - tier: "Editorial"
+    text: "The 100% completion roadmap and hours-planning are our analysis"
 ---
 
 ## Overview

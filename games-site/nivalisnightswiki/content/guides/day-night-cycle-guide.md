@@ -7,6 +7,13 @@ updated: "2026-08-11"
 date: "2026-08-11"
 keywords: ["nivalis nights day night cycle", "nivalis nights curfew", "nivalis nights 2am curfew", "nivalis nights weather", "nivalis nights rain", "nivalis nights snow", "nivalis nights daily schedule", "nivalis nights energy prices"]
 related: ["city-districts-guide", "greenhouse-guide", "fishing-guide", "best-business-guide", "npc-relationships-guide", "transportation-guide"]
+sources:
+  - tier: "Official"
+    text: "A full day-night cycle, realistic weather, a curfew, and energy price swings are described in official announcements and publisher material"
+  - tier: "Community"
+    text: "Specific hourly rhythms (lunch and dinner rushes, the 2 AM curfew, the sabotage window) are from pre-release coverage, developer Q&A and community discussion, and are unverified until launch"
+  - tier: "Editorial"
+    text: "The recommended daily routine and venue-hour advice are our recommendations"
 ---
 
 # Day & Night Cycle & Weather Guide — Time, Curfew & Climate in Nivalis

@@ -6,6 +6,15 @@ version: "1.0.6"
 updated: "2026-08-08"
 keywords: ["beast of reincarnation faq", "is beast of reincarnation multiplayer", "beast of reincarnation game pass", "how long is beast of reincarnation", "beast of reincarnation english"]
 related: ["beginner-guide", "price-platforms-guide", "combat-system-guide", "endgame-post-game-guide"]
+sources:
+  - tier: "Official"
+    text: "Developer (Game Freak), publisher (Fictions), the August 4, 2026 launch, the post-apocalyptic Japan 4026 premise, Emma and Koo, and the single-player Nushi-hunt loop are from official announcements and the Steam store page"
+  - tier: "Official"
+    text: "Parry-based hybrid combat, three difficulty settings and New Game+ are consistent with the official store description and launch coverage"
+  - tier: "Community"
+    text: "USD pricing, platform and Game Pass claims are community-reported and flagged as not independently re-verified in this FAQ's sources"
+  - tier: "Editorial"
+    text: "The Soulslike comparison and buying advice are our assessment"
 ---
 
 # Beast of Reincarnation FAQ

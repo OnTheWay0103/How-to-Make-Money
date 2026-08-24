@@ -14,6 +14,15 @@ related:
   - "controls-guide"
   - "map-measurements-guide"
   - "ballistic-calculator-guide"
+sources:
+  - tier: "Official"
+    text: "Game premise, developer credits (Nick Nieuwoudt and Dominik Latos), the 5,000-ton walking turret and the alternate-history late-1920s Spain setting are from the Steam store page and launch press coverage"
+  - tier: "Official"
+    text: "The six-stage loop — read teleprinter orders, take map measurements, calculate ballistics, load shells, aim and fire — matches the gameplay described on the official Steam store page"
+  - tier: "Official"
+    text: "Procedurally generated objectives, 15 regions, 100+ medals and two challenge modes are advertised in launch press coverage"
+  - tier: "Editorial"
+    text: "The station-by-station workflow, clipboard habits and beginner tips are our recommendations, not official instructions"
 ---
 
 # IRON NEST Beginner's Guide — How to Play

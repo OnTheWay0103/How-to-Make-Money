@@ -6,6 +6,13 @@ version: "1.0.6"
 updated: "2026-08-08"
 keywords: ["beast of reincarnation skill tree", "koo skills", "emma skills", "bloom arts", "beast of reincarnation roots incantation guard pounce", "beast of reincarnation best skills"]
 related: ["combat-system-guide", "koo-rapport-guide", "elemental-builds-guide", "tier-list"]
+sources:
+  - tier: "Official"
+    text: "Skill trees, gear, Spirit Stones and a stat-point system for loadout customization are described on the official Steam store page and in launch coverage"
+  - tier: "Community"
+    text: "The full branch list, attribute gates and Nushi Skill drops are community-documented from the launch build"
+  - tier: "Editorial"
+    text: "Skill-priority and attribute-allocation advice is our assessment"
 ---
 
 # Skill Tree Overview — Emma & Koo Full Branch List

@@ -7,6 +7,13 @@ updated: "2026-08-08"
 date: "2026-08-08"
 keywords: ["nivalis nights city guide", "nivalis nights districts", "nivalis nights meridian market", "nivalis nights calypso island", "nivalis nights skyhigh gardens", "nivalis nights travel", "nivalis nights curfew", "nivalis nights hova"]
 related: ["beginner-guide", "day-night-cycle-guide", "apartment-customization-guide", "best-business-guide", "transportation-guide"]
+sources:
+  - tier: "Official"
+    text: "The city spans four districts with walking, taxi, metro and boat travel, and the 2 AM curfew, per official descriptions and publisher material"
+  - tier: "Community"
+    text: "District names and specifics (Meridian Market, Calypso Island, Skyhigh Gardens, Seaside Boardwalk) are from pre-release coverage, trailers and developer Q&A; the guide notes the exact district count is still being confirmed"
+  - tier: "Editorial"
+    text: "Recommended daily routes and travel-priority advice are our recommendations"
 ---
 
 # City Guide — Districts, Travel & Daily Routine in Nivalis Nights

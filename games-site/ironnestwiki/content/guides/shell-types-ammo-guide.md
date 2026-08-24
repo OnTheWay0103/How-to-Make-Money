@@ -14,6 +14,13 @@ related:
   - "ballistic-calculator-guide"
   - "requisition-upgrade-guide"
   - "loading-aiming-guide"
+sources:
+  - tier: "Official"
+    text: "The Steam store page advertises 30 unlockable ammo types and abilities; armor-piercing, smoke and phosgene gas shells are named in the official store description"
+  - tier: "Community"
+    text: "Specific shell costs, blast radii and unlock status (PHOSGENE and TEAR GAS not yet confirmed) are community-reported from the launch build — the game does not publish a full ammo table"
+  - tier: "Editorial"
+    text: "Tier ratings (S/A/Utility) and 'best use' recommendations are our assessment"
 ---
 
 # All Shell Types — Full Ammo List

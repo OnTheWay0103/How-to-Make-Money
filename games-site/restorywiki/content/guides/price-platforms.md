@@ -9,6 +9,13 @@ related:
   - faq-content
   - beginner-guide
   - achievement-guide
+sources:
+  - tier: "Official"
+    text: "Price ($19.99, 10% launch discount to $17.99), the August 6, 2026 release, the June 15, 2026 demo and regional prices are per the official Steam store listings"
+  - tier: "Official"
+    text: "Minimum PC specs (Windows 10 x64, 2-core/4-thread CPU, 4 GB RAM, GTX 750 Ti) are per the official Steam store listing"
+  - tier: "Community"
+    text: "Steam Deck 'playable' status and macOS support are community-verified rather than officially certified"
 ---
 
 ## Price & Editions

@@ -14,6 +14,13 @@ related:
   - "target-spotting-guide"
   - "beginner-guide"
   - "ballistic-calculator-guide"
+sources:
+  - tier: "Official"
+    text: "An interactive tactical map for plotting targets is part of the official Steam store description"
+  - tier: "Community"
+    text: "The 20x10 grid with 10x10 sub-grids, token colors and the 1000 m / 100 m cell sizes are community-documented from the demo and launch build"
+  - tier: "Editorial"
+    text: "Measurement workflow tips and the 'plot your own position first' rule are our recommendations"
 ---
 
 # Tactical Map & Measurements Guide

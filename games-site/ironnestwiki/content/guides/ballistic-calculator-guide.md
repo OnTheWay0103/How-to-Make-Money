@@ -18,6 +18,13 @@ related:
   - "shell-types-ammo-guide"
   - "reconnaissance-guide"
   - "systems-failure-guide"
+sources:
+  - tier: "Official"
+    text: "The ballistic calculator — converting distance, bearing, shell and propellant charge inputs into a firing solution — is described on the official Steam store page"
+  - tier: "Community"
+    text: "Wind, weather and short/over correction figures are community-reported; this guide itself notes the game does not publish its full ballistics table"
+  - tier: "Editorial"
+    text: "The five-input workflow order and double-check habits are our recommendations"
 ---
 
 # Ballistic Calculator Guide

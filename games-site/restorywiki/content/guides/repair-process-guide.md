@@ -12,6 +12,13 @@ related:
   - cleaning-guide
   - reprogramming-guide
   - achievement-guide
+sources:
+  - tier: "Official"
+    text: "The repair loop — disassemble, inspect, clean, repair or replace, reassemble, return — matches the official Steam store description of the repair gameplay"
+  - tier: "Community"
+    text: "Part-condition tracking, the notepad system, soldering mini-game and known trouble spots are community-documented from the launch build"
+  - tier: "Editorial"
+    text: "The workflow order and trouble-spot advice are our recommendations"
 ---
 
 ## Overview

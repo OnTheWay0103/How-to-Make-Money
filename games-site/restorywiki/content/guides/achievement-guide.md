@@ -12,6 +12,13 @@ related:
   - repair-process-guide
   - characters-guide
   - stickers-customization-guide
+sources:
+  - tier: "Official"
+    text: "The 50-Steam-achievement count and per-achievement conditions are documented from the live Steam achievement list"
+  - tier: "Community"
+    text: "The reported bugged achievement preventing 100% completion in v1.0.0 is a player-reported issue, flagged as a known issue in this guide and the FAQ"
+  - tier: "Editorial"
+    text: "Easter-egg interpretations and unlock-strategy tips are our assessment"
 ---
 
 ## Overview

@@ -9,6 +9,13 @@ related:
   - repair-process-guide
   - tool-equipment-guide
   - achievement-guide
+sources:
+  - tier: "Official"
+    text: "Cleaning as the core repair activity — most 'broken' symptoms being dirt and corrosion — matches the official Steam store description"
+  - tier: "Community"
+    text: "Cleaning mechanics, the Sonic Bath behavior and the stuck-cleaning bug are community-documented from the launch build"
+  - tier: "Editorial"
+    text: "Cleaning routines and speed tips are our recommendations"
 ---
 
 ## Overview

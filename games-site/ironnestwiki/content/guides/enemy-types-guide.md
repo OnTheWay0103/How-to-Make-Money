@@ -16,6 +16,13 @@ related:
   - "story-walkthrough-guide"
   - "counter-battery-survival-guide"
   - "ballistic-calculator-guide"
+sources:
+  - tier: "Official"
+    text: "Counter-battery duels against enemy artillery are part of the game's advertised design per the Steam store page and launch coverage"
+  - tier: "Community"
+    text: "The five armor classes (trench, supply, convoy, artillery, bunker) and their optimal shells were mapped by the community from launch gameplay"
+  - tier: "Editorial"
+    text: "Kill-difficulty ratings and per-class tactics are our assessment"
 ---
 
 # Enemy Types & Weak Points Guide

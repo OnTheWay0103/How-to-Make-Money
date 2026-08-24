@@ -11,6 +11,13 @@ related:
   - achievement-guide
   - beginner-guide
   - device-database
+sources:
+  - tier: "Official"
+    text: "Licenses as the main progression system, online orders with a 3-day deadline, and the marketplace are described on the official Steam store page"
+  - tier: "Community"
+    text: "Profit-strategy results (clean before replacing, parts library, flipping) are community-reported from launch-week playtesting"
+  - tier: "Editorial"
+    text: "Strategy rankings and the profit-stack order are our assessment"
 ---
 
 ## Overview

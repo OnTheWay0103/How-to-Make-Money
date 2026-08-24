@@ -6,6 +6,13 @@ version: "1.0.6"
 updated: "2026-08-09"
 keywords: ["beast of reincarnation endings", "how many endings beast of reincarnation", "beast of reincarnation true ending", "does koo die", "beast of reincarnation epilogue"]
 related: ["endgame-post-game-guide", "chapter-progression-guide", "elemental-builds-guide", "faq"]
+sources:
+  - tier: "Official"
+    text: "The story of defeating the Beast of Reincarnation across the chapters is described on the official Steam store page"
+  - tier: "Community"
+    text: "The single-ending conclusion, the epilogue title and the New Game+ / Reincarnation+ unlocks are community-documented from the launch build; the guide itself marks alternate-ending claims as unverified"
+  - tier: "Editorial"
+    text: "Ending analysis and completion-path advice are our assessment"
 ---
 
 # Endings Guide — How Many Endings & How to Reach Them

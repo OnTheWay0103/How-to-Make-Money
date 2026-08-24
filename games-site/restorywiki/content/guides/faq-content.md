@@ -11,6 +11,13 @@ related:
   - achievement-guide
   - beginner-guide
   - game-length-guide
+sources:
+  - tier: "Official"
+    text: "Developer (Mandragora), publisher (tinyBuild), the August 6, 2026 Steam launch, price and single-player status are per the official Steam store page"
+  - tier: "Official"
+    text: "The 15+ hour developer statement and the known issues list are attributed to official and reviewer sources in this guide"
+  - tier: "Community"
+    text: "Known-issue workarounds and community-verified statuses (e.g. Steam Deck) are player-reported"
 ---
 
 ## Game Basics

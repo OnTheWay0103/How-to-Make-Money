@@ -7,6 +7,15 @@ updated: "2026-08-07"
 date: "2026-08-07"
 keywords: ["nivalis nights beginner guide", "nivalis nights getting started", "nivalis nights first hour", "nivalis nights how to play", "nivalis nights tips", "nivalis nights noodle bar"]
 related: ["best-business-guide", "faq", "day-night-cycle-guide"]
+sources:
+  - tier: "Official"
+    text: "Developer (ION LANDS), publisher (505 Games), the September 29, 2026 Steam launch date, and the setting in the city of Nivalis from Cloudpunk are from official announcements and the Steam store page"
+  - tier: "Official"
+    text: "The seven business types and starting with an inherited noodle bar are from official descriptions and publisher material"
+  - tier: "Community"
+    text: "The named characters in the intro (e.g. Thaddeus Carmunis, Banor) and first-hour walkthrough details are from pre-release coverage, trailers and developer Q&A videos, and may change at launch"
+  - tier: "Editorial"
+    text: "The first-session strategy advice (small menu first, cover rush hours, hire staff) is our recommendation"
 ---
 
 # Nivalis Nights Beginner Guide — Getting Started & First Hour

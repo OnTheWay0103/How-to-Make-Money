@@ -9,6 +9,13 @@ related:
   - money-making-guide
   - tool-equipment-guide
   - beginner-guide
+sources:
+  - tier: "Official"
+    text: "Shop management — business hours, bills, queue and storage — is part of the shop-sim gameplay described on the official Steam store page"
+  - tier: "Community"
+    text: "Workflow habits and the confirmed upgrade purchase order are community-documented from launch-week play, per the guide's own note"
+  - tier: "Editorial"
+    text: "The operational routine and upgrade-order advice are our recommendations"
 ---
 
 ## Overview

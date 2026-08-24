@@ -10,6 +10,13 @@ related:
   - money-making-guide
   - achievement-guide
   - repair-process-guide
+sources:
+  - tier: "Official"
+    text: "Licenses unlocking new device types and driving the story is described on the official Steam store page and in launch coverage"
+  - tier: "Community"
+    text: "The license-won-in-competition requirement and license-achievement conditions are community-documented from the launch build"
+  - tier: "Editorial"
+    text: "License purchase-order advice is our recommendation"
 ---
 
 ## Overview

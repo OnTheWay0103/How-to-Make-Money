@@ -10,6 +10,15 @@ related:
   - device-database
   - money-making-guide
   - faq-content
+sources:
+  - tier: "Official"
+    text: "Game premise, developer (Mandragora), publisher (tinyBuild), the mid-2000s Tokyo setting, and the August 6, 2026 Steam launch are from the official Steam store page and publisher material"
+  - tier: "Official"
+    text: "The license system as progression and the core repair loop (disassemble, clean, repair, reassemble, return) match the official store description"
+  - tier: "Community"
+    text: "The 3-day online-order deadline, courier pickup behavior and day-end bicycle save point are community-documented from the launch build"
+  - tier: "Editorial"
+    text: "The first-day checklist and '10 mistakes' list are our recommendations"
 ---
 
 ## Overview

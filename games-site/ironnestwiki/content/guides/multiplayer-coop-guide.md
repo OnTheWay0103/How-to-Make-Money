@@ -14,6 +14,13 @@ related:
   - "beginner-guide"
   - "achievements-medals-guide"
   - "story-walkthrough-guide"
+sources:
+  - tier: "Official"
+    text: "The Steam store page lists no multiplayer features at launch (achievements, cloud saves and Steam Family Sharing only), and the launch press release's post-launch roadmap includes a future multiplayer mode"
+  - tier: "Community"
+    text: "The absence of community netcode or modding hooks at launch and the 'two-screens' co-op improvisation are community-reported"
+  - tier: "Editorial"
+    text: "The verdict that the two skirmish leaderboards stand in for multiplayer is our assessment"
 ---
 
 # Multiplayer & Co-op — Is IRON NEST Online?

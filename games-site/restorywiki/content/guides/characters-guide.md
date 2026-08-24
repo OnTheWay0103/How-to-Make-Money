@@ -9,6 +9,13 @@ related:
   - walkthrough-guide
   - beginner-guide
   - achievement-guide
+sources:
+  - tier: "Official"
+    text: "A branching story with recurring customers whose choices shape their outcomes is described in official store material and launch coverage"
+  - tier: "Community"
+    text: "Specific character details (the landlord, the post-it-note upstairs neighbor, community-reported names) are community-documented from the launch build and reviews; the guide itself flags names as still being verified"
+  - tier: "Editorial"
+    text: "Character-arc interpretations are our assessment"
 ---
 
 ## Overview

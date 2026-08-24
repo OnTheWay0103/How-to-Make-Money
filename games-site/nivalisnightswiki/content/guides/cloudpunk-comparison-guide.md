@@ -7,6 +7,15 @@ updated: "2026-08-09"
 date: "2026-08-09"
 keywords: ["nivalis nights vs cloudpunk", "nivalis nights cloudpunk comparison", "is nivalis nights cloudpunk 2", "nivalis nights cloudpunk connection", "cloudpunk sequel", "nivalis nights same universe"]
 related: ["release-date-guide", "city-districts-guide", "transportation-guide", "beginner-guide", "npc-relationships-guide"]
+sources:
+  - tier: "Official"
+    text: "Same developer (ION LANDS), same city of Nivalis from Cloudpunk, and the genre difference (life sim vs delivery adventure) are from official announcements"
+  - tier: "Official"
+    text: "Cloudpunk (2020) is ION LANDS' story-driven delivery adventure set in Nivalis, per the original game's official store page"
+  - tier: "Community"
+    text: "First-person perspective and the 'no character creation' framing come from the developer's Discord statement as reported in pre-release coverage"
+  - tier: "Editorial"
+    text: "The system-by-system comparison and 'play Cloudpunk first?' advice are our analysis"
 ---
 
 # Nivalis Nights vs Cloudpunk — Same City, Very Different Game

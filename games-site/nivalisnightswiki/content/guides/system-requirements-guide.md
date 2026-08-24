@@ -7,6 +7,13 @@ updated: "2026-08-07"
 date: "2026-08-07"
 keywords: ["nivalis nights system requirements", "nivalis nights pc requirements", "nivalis nights specs", "nivalis nights minimum requirements", "nivalis nights steam deck", "nivalis nights performance"]
 related: ["release-date-guide", "faq", "beginner-guide"]
+sources:
+  - tier: "Official"
+    text: "Minimum and recommended specs (Windows 10/11 64-bit, 16 GB RAM, dedicated 6-8 GB VRAM GPU, DirectX 11/12, 30 GB storage) are per the official Steam store and publisher listings"
+  - tier: "Official"
+    text: "No macOS or Linux support listed, and no Steam Deck verification rating yet, reflect the official store page as of August 2026"
+  - tier: "Editorial"
+    text: "GPU tier interpretations and expected Steam Deck performance are our analysis, not official figures"
 ---
 
 # Nivalis Nights System Requirements — PC Specs & Steam Deck

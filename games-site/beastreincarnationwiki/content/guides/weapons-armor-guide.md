@@ -6,6 +6,13 @@ version: "1.0.6"
 updated: "2026-08-09"
 keywords: ["beast of reincarnation best weapons", "beast of reincarnation best armor", "best swords beast of reincarnation", "thunderwave sword location", "beast of reincarnation gear guide"]
 related: ["spirit-stones-guide", "elemental-builds-guide", "tier-list"]
+sources:
+  - tier: "Official"
+    text: "Weapon and armor loadout customization with ranged and melee options is part of the combat design described on the official Steam store page"
+  - tier: "Community"
+    text: "Specific weapons (Thunderwave, Purity, Sunrise, Cirrus), armor sets and upgrade rules are community-documented from the launch build"
+  - tier: "Editorial"
+    text: "S-tier rankings and farming priorities are our assessment"
 ---
 
 # Weapons & Armor Guide — Best Swords, Armor Sets & Where to Find Them
