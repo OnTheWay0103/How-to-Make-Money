@@ -29,6 +29,8 @@ Go-Go Town! left Early Access on July 16, 2026 with the 1.0 release — adding C
 | [Building Unlock Guide](/guides/building-unlock-guide) | Progression | Intermediate |
 | [Treasure Hunting Guide](/guides/treasure-hunting-guide) | 1.0 collections | Intermediate |
 | [Production & Crafting Guide](/guides/crafting-production-guide) | Supply chains | Intermediate |
+| [Progression Guide](/guides/progression-guide) | Unlock route & rank | Intermediate |
+| [FAQ Guide](/guides/faq-guide) | Common questions in depth | All |
 | [Tips and Tricks](/guides/tips-and-tricks) | Advanced strategies | All |
 | [FAQ](/faq) | Quick answers | All |
 

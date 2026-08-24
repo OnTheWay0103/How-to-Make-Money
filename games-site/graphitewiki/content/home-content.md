@@ -29,6 +29,8 @@ Graphite launched on July 27, 2026 on Steam (also available on GOG and the indie
 | [Hero Tier List](/guides/tier-list) | Hero assessment | Starter |
 | [Advanced Strategies](/guides/advanced-strategies) | Stacking & deck play | Advanced |
 | [How to Unlock All Heroes](/guides/how-to-unlock-heroes) | Unlock conditions | Starter |
+| [Resource Economy Guide](/guides/resource-economy-guide) | Artifacts, bonds & time | Intermediate |
+| [Map & Areas Guide](/guides/map-areas-guide) | Notebook world | Starter |
 | [Tarot Deck & Events](/guides/tarot-events-guide) | Event system | Intermediate |
 | [FAQ](/faq) | Quick answers | All |
 
