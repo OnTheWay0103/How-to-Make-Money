@@ -10,6 +10,13 @@ related:
   - progression-guide
   - best-builds
   - beginner-guide
+sources:
+  - tier: "Official"
+    text: "The Soulbinder permanently locks desired stats onto equipment, with specific stats developable up to level 99 — official press materials; the exact UI flow, unlock timing, and costs are not yet published"
+  - tier: "Official"
+    text: "Climb Mode carry-over of materials, resources, and equipment per the Steam store description; 128 weapons across six types and 200+ equipment pieces per official materials"
+  - tier: "Editorial"
+    text: "The gear-loop strategy and when-to-soulbind advice are our strategy"
 ---
 
 # Phantom Tower Soulbinder Guide — Permanent Gear Stats & Meta-Progression

@@ -6,6 +6,13 @@ version: '1.0'
 updated: '2026-08-01'
 keywords: ['Bonehold classes', 'Bonehold best class', 'Bonehold Knight build', 'Bonehold Barbarian', 'Bonehold Spellblade', 'Bonehold Scorcher']
 related: ['beginner-guide', 'best-builds', 'weapons-guide', 'combat-guide']
+sources:
+  - tier: "Official"
+    text: "Steam store page (checked August 2026) lists '10 unique character classes,' naming Knight, Barbarian, Sorcerer, Spellblade, and more — the guide's 7-class count and 'Scorcher' name come from earlier store text and do not match the current page; names of the remaining classes are not officially published"
+  - tier: "Community"
+    text: "Class playstyle descriptions (defensive shield Knight, two-handed Barbarian, fire-themed caster, melee/magic Spellblade) and the Death Knight-style hybrid build with a slow-charging staff are from launch reviews and community reports"
+  - tier: "Editorial"
+    text: "Class difficulty ratings and the which-class-to-pick recommendations are our strategy"
 ---
 
 # Bonehold Classes Guide - All 7 Classes Explained

@@ -10,6 +10,13 @@ related:
   - boss-guide
   - beginner-guide
   - advanced-strategies
+sources:
+  - tier: "Official"
+    text: "The confirmed combat framework — mid-fight element swapping with 16 reactions, 60+ enemy types, 47 Tower Blessings, bosses with Boss Unique Weapons, and the two modes — official press materials and Steam store description"
+  - tier: "Community"
+    text: "Dodge timing feel and crowd-control tactics are community-reported; no official dodge data (iframes, cooldowns, distances) has been published"
+  - tier: "Editorial"
+    text: "The dodge-through, position-over-reaction, and setup-detonate tactics are our strategy"
 ---
 
 # Phantom Tower Combat Guide — Tactics and Survival Strategies

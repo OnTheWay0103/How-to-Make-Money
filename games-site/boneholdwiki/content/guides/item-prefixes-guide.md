@@ -6,6 +6,13 @@ version: '1.0'
 updated: '2026-08-01'
 keywords: ['Bonehold item prefixes', 'Bonehold loot guide', 'Bonehold legendary items', 'Bonehold items explained', 'Bonehold loot system', 'Bonehold item rarity', 'Bonehold build defining items']
 related: ['weapons-guide', 'best-builds', 'tips-and-tricks', 'endgame-guide']
+sources:
+  - tier: "Official"
+    text: "Procedurally generated loot and item prefixes that 'can twist playstyles in unexpected ways' are from the official Steam store description"
+  - tier: "Community"
+    text: "Prefix behavior, legendary items as build-defining power spikes, and Binding-of-Isaac-like item synergies are from launch reviews and Steam Community reports; no official list of prefix names, rarity colors, or drop rates exists"
+  - tier: "Editorial"
+    text: "The on-the-ground prefix evaluation questions, run-defining-item signals, and build-pivot rules are our strategy"
 ---
 
 # Bonehold Item Prefixes & Loot Guide — How Prefixes Define Your Build

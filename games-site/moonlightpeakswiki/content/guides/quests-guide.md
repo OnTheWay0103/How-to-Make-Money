@@ -6,6 +6,13 @@ version: "1.0"
 updated: "2026-08-01"
 keywords: ["moonlight peaks quest guide", "moonlight peaks a bridge too far", "moonlight peaks death quest", "moonlight peaks story walkthrough"]
 related: ["beginner-guide", "mining-guide", "characters-guide"]
+sources:
+  - tier: "Official"
+    text: "The story thread about 'the secrets of the seven families' is per the Steam store description; individual quest details below are not published in official materials"
+  - tier: "Community"
+    text: "Quest chains ('Orlock's Wine Scheme', 'Mend it with Magic', 'A Bridge Too Far', the Crest Garden line), unlock order, and the path to Death are community-reported from the demo and player reports"
+  - tier: "Editorial"
+    text: "The quest-priority advice and milestone guidance are our strategy"
 ---
 
 # Moonlight Peaks — Quest Guide: Story Walkthrough & Chains

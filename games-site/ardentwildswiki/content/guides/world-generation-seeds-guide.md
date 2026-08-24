@@ -10,6 +10,13 @@ related:
   - 'beginner-guide'
   - 'caves-mining-guide'
   - 'skill-tree-guide'
+sources:
+  - tier: "Official"
+    text: "Procedurally generated worlds and the worldgen changes in the April 2026 alpha build (custom generation rebuilt) and June 10, 2026 v0.5.9 (pre-generated worlds returned, runtime generation disabled on older hardware, floating islands improved) — official playtest patch notes"
+  - tier: "Community"
+    text: "Seeds producing different terrain layouts comes from the April 2026 patch notes; seed formatting, entry, and determinism are unverified"
+  - tier: "Editorial"
+    text: "The world-hunting and re-rolling strategy is our analysis"
 ---
 
 # World Generation & Seeds Guide — How Worlds Are Created in Ardent Wilds

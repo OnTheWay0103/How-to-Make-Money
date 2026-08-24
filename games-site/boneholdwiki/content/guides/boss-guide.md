@@ -6,6 +6,13 @@ version: '1.0'
 updated: '2026-08-01'
 keywords: ['Bonehold boss guide', 'Bonehold bosses', 'Bonehold boss strategies', 'Bonehold boss tips', 'Bonehold boss fights']
 related: ['combat-guide', 'beginner-guide', 'weapons-guide', 'tips-and-tricks']
+sources:
+  - tier: "Official"
+    text: "The store description promises 'mighty bosses' and legendary loot; no official source publishes a boss list, boss names, floor placement, or attack patterns"
+  - tier: "Community"
+    text: "Bosses as set-piece fights that punish greedy players, rewarded parries and rolls, and traps remaining a hazard in boss arenas are from launch reviews and Steam Community reports"
+  - tier: "Editorial"
+    text: "The watch-before-you-attack framework, defend-first priority, and boss resource-management checklist are our strategy"
 ---
 
 # Bonehold Boss Guide - Boss Strategies and Tips

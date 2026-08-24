@@ -10,6 +10,11 @@ related:
   - elements-guide
   - progression-guide
   - weapons-guide
+sources:
+  - tier: "Official"
+    text: "'Unique monsters and challenging bosses' guarding the climb, Boss Unique Weapons exclusive to the Steam version, and new bosses planned per the Early Access roadmap — official press materials and Steam store page; no official boss names, counts, floor placements, or attack patterns are published"
+  - tier: "Editorial"
+    text: "The pattern-agnostic preparation checklist and boss-fight fundamentals are our strategy"
 ---
 
 # Phantom Tower Boss Guide — Strategies and Preparation

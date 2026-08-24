@@ -10,6 +10,13 @@ related:
   - 'advanced-guide'
   - 'crafting-guide'
   - 'farming-cooking-guide'
+sources:
+  - tier: "Official"
+    text: "Base building is a confirmed core pillar: construct and upgrade bases with gathered materials, place furniture and decorations, in a fully destructible voxel world; the April 2026 playtest added many new building pieces — Steam store description and playtest patch notes"
+  - tier: "Community"
+    text: "Eldran attack behavior on bases and defensive tactics are community-reported; exact build costs and HP values are unpublished"
+  - tier: "Editorial"
+    text: "The location scorecard, layout designs, and fortification advice are our strategy"
 ---
 
 # Base Building Guide — Best Locations, Defense & Design

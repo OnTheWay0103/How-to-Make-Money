@@ -6,6 +6,13 @@ version: "1.0"
 updated: "2026-08-01"
 keywords: ["moonlight peaks farming", "moonlight peaks crops", "moonlight peaks blood grapes", "moonlight peaks best crops"]
 related: ["beginner-guide", "potions-guide", "money-guide"]
+sources:
+  - tier: "Official"
+    text: "Mystical crop farming is a core feature per the Steam store description, and the store page confirms the automatic return to your coffin at sunrise"
+  - tier: "Community"
+    text: "Blood Grape growth cycles (5 nights to mature, regrow every 4), crop prices, keg processing, the Aquaflux spell for magic crops, and moonlight growth mechanics are community-reported from the demo and player reports"
+  - tier: "Editorial"
+    text: "The crop priority order, watering order, and stamina budget advice are our strategy"
 ---
 
 # Moonlight Peaks — Farming Guide: Crops & Moonlight Mechanics

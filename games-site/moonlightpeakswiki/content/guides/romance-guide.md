@@ -6,6 +6,13 @@ version: "1.0"
 updated: "2026-08-01"
 keywords: ["moonlight peaks romance", "moonlight peaks marriage", "moonlight peaks dateable characters", "moonlight peaks proposal"]
 related: ["gift-guide", "characters-guide", "potions-guide"]
+sources:
+  - tier: "Official"
+    text: "Romance is a confirmed feature with roughly 'two dozen romanceable characters' per the Steam store description"
+  - tier: "Community"
+    text: "Heart thresholds (2/4/8 hearts), proposal timing, the 24-character dateable roster, birthdays, and the gender-unrestricted LGBTQIA+-friendly romance system are community-reported from the demo and player guides"
+  - tier: "Editorial"
+    text: "Courtship advice, gift-based affinity strategy, and divorce-via-Llemi guidance are our strategy"
 ---
 
 # Moonlight Peaks — Romance Guide: Hearts, Dates & Marriage

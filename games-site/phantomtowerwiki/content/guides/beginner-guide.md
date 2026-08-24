@@ -10,6 +10,15 @@ related:
   - elements-guide
   - weapons-guide
   - soulbinder-guide
+sources:
+  - tier: "Official"
+    text: "Early Access launch July 13, 2026 by Horien Studio, a two-person Italian team; $12.99 with a 24% launch discount; full 1.0 release planned for the first half of 2027 — Steam store page and official press release"
+  - tier: "Official"
+    text: "8 launch classes, 4 elements (IGNIS/AQUA/TERRA/VENTI) with 16 elemental reactions, 47 Tower Blessings, 60+ enemy types, Climb and Survival modes, and the Soulbinder stat-locking system — official press materials and Steam store description"
+  - tier: "Community"
+    text: "The mobile-exclusive Necromancer class and the separate Steam/mobile content lines are community-reported from the mobile release, not confirmed for the Steam version"
+  - tier: "Editorial"
+    text: "The Warrior starter recommendation, quick-start checklist, and first-10-floors survival tips are our strategy"
 ---
 
 # Phantom Tower Beginner Guide — Essential Tips for Getting Started

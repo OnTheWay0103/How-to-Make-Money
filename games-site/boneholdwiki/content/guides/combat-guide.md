@@ -6,6 +6,13 @@ version: '1.0'
 updated: '2026-08-01'
 keywords: ['Bonehold combat guide', 'Bonehold advanced tactics', 'Bonehold dodge timing', 'Bonehold parry guide', 'Bonehold survival tips']
 related: ['beginner-guide', 'weapons-guide', 'boss-guide', 'tips-and-tricks']
+sources:
+  - tier: "Official"
+    text: "The combat framework — hold-to-charge attacks, dodge, block, parry, traps, and chokepoint play — is consistent with the developer's store description of charged attacks and with launch coverage; no official numbers exist for invincibility frames, stamina costs, or damage values"
+  - tier: "Community"
+    text: "Dodge-into-attacks, parry staggers opening full-charge windows, trap luring, and chokepoint baiting as the most effective survival tactics are from launch reviews and Steam Community reports"
+  - tier: "Editorial"
+    text: "The block-vs-parry decision chart and tactical priorities for deep runs are our strategy"
 ---
 
 # Bonehold Combat Guide — Advanced Tactics for Survival

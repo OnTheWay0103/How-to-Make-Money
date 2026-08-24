@@ -10,6 +10,13 @@ related:
   - 'base-building-guide'
   - 'farming-cooking-guide'
   - 'advanced-guide'
+sources:
+  - tier: "Official"
+    text: "Crafting is a confirmed core pillar: specialized crafting stations for armor and weapons, base construction with furniture and decorations, farming, cooking, elixir brewing, and powerful gear looted from defeated enemies — Steam store description"
+  - tier: "Community"
+    text: "No official recipe list has been published; any specific recipes, costs, and ratios found online are unverified"
+  - tier: "Editorial"
+    text: "The station build order and material strategy are our analysis"
 ---
 
 # Complete Crafting Guide — All Recipes & Materials

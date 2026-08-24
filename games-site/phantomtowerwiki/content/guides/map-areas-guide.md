@@ -10,6 +10,11 @@ related:
   - beginner-guide
   - boss-guide
   - advanced-strategies
+sources:
+  - tier: "Official"
+    text: "A 100-floor tower ('many have tried; none have reached the summit'), increasingly dangerous floors, bosses during the climb, and the between-run preparation space outside the tower — Steam store description and press materials"
+  - tier: "Editorial"
+    text: "The early/mid/deep floor-band descriptions are our analysis of the confirmed difficulty curve, not official region names"
 ---
 
 # Phantom Tower Map & Areas — What Is Inside the 100-Floor Tower

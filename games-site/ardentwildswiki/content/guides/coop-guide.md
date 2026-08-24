@@ -10,6 +10,11 @@ related:
   - 'advanced-guide'
   - 'base-building-guide'
   - 'farming-cooking-guide'
+sources:
+  - tier: "Official"
+    text: "Online co-op for up to 6 players via Steam plus LAN play with no internet required; the player cap can be increased beyond 6 but the game is not balanced for larger groups; an experimental dedicated server executable was added in the April 2026 playtest — Steam store page and playtest patch notes"
+  - tier: "Editorial"
+    text: "Team role suggestions, hosting advice, and shared-base strategy are our analysis; menu labels and matchmaking specifics are not officially documented"
 ---
 
 # Multiplayer & Co-op Guide — Play With Up to 6 Players

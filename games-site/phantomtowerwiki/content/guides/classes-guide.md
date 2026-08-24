@@ -10,6 +10,13 @@ related:
   - elements-guide
   - best-builds
   - soulbinder-guide
+sources:
+  - tier: "Official"
+    text: "8 playable classes per official press materials; only Warrior, Mage, Archer, and Assassin (the 'Shadow Specialist' using Shadow Clones) are officially named — press release and store materials"
+  - tier: "Community"
+    text: "The Necromancer class appearing on mobile and any other named class lists are community reports; the remaining four launch class names have no official source"
+  - tier: "Editorial"
+    text: "The class pick recommendations are our strategy, based on the confirmed class identities"
 ---
 
 # Phantom Tower Classes Guide — All 8 Classes Explained

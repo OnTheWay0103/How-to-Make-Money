@@ -10,6 +10,11 @@ related:
   - combat-guide
   - advanced-strategies
   - elements-guide
+sources:
+  - tier: "Official"
+    text: "47 Tower Blessings described as 'powerful abilities hidden across its floors'; Artemis Dive (evasion summons tracking arrows) and Chain Quake (shockwaves chain between enemies) are the only two officially named — Steam store page and press materials"
+  - tier: "Editorial"
+    text: "Blessing loadout strategy and how to use the two known blessings are our analysis; the other 45 blessings remain unpublished and tier lists naming them are unverified"
 ---
 
 # Phantom Tower Tower Blessings Guide — All 47 Blessings Explained

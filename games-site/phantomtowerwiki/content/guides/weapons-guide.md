@@ -10,6 +10,11 @@ related:
   - best-builds
   - progression-guide
   - elements-guide
+sources:
+  - tier: "Official"
+    text: "128 weapons across six weapon types, 200+ equipment pieces, Boss Unique Weapons, 60+ enemy types, Blacksmith forging, and Soulbinder stat-locking — official press materials and Steam store description; the six weapon types are counted but not fully named"
+  - tier: "Editorial"
+    text: "The forging-loop guidance and gear strategy are our analysis; exact forging costs and material rarities are unpublished"
 ---
 
 # Phantom Tower Weapons Guide — Gear, Forging & the Soulbinder System

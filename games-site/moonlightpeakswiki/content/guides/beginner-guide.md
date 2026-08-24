@@ -6,6 +6,15 @@ version: "1.0"
 updated: "2026-08-01"
 keywords: ["moonlight peaks beginner guide", "moonlight peaks first days", "moonlight peaks getting started", "moonlight peaks tips"]
 related: ["farming-guide", "quests-guide", "money-guide"]
+sources:
+  - tier: "Official"
+    text: "Vampire life sim by Little Chicken Game Company, published by XSEED Games and Marvelous; launched July 7, 2026 on Steam, Nintendo Switch, Switch 2, and Google Play Games; free demo; over 200,000 copies sold in the first weeks; 'Very Positive' on Steam (checked August 2026) — Steam store page and official press releases"
+  - tier: "Official"
+    text: "Night-only core loop with automatic return to your coffin at sunrise, 'the secrets of the seven families,' and roughly two dozen romanceable residents are from the Steam store description"
+  - tier: "Community"
+    text: "Specifics like the 6pm-6am night window, ~15-minute nights, the seven family names, Rabbicula at 2800 Coins, Love Potion at 2200 Coins, and quest timing are community-compiled from the demo and player reports, not published in official materials"
+  - tier: "Editorial"
+    text: "The first-5-nights priority checklist, stamina and mana management advice, and unlock priority order are our strategy"
 ---
 
 # Moonlight Peaks — Beginner's Guide (First 5 Nights)

@@ -6,6 +6,13 @@ version: "1.0"
 updated: "2026-08-01"
 keywords: ["moonlight peaks fishing", "moonlight peaks fish locations", "moonlight peaks goliath fish", "moonlight peaks best fish"]
 related: ["mining-guide", "gift-guide", "money-guide"]
+sources:
+  - tier: "Official"
+    text: "Fishing is a confirmed feature per the Steam store description"
+  - tier: "Community"
+    text: "The 22 fish species, spot locations, the shadow-cast-bite-reel minigame, the rare Goliath catch, and rod unlock via Noel are community-reported from the demo and player reports"
+  - tier: "Editorial"
+    text: "Which fish to keep and where to fish for money are our strategy"
 ---
 
 # Moonlight Peaks — Fishing Guide: Spots, Bait & Fish Uses

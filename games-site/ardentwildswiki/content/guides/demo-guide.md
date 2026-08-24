@@ -10,6 +10,15 @@ related:
   - 'modding-guide'
   - 'combat-guide'
   - 'survival-tips'
+sources:
+  - tier: "Official"
+    text: "Free demo released July 30, 2026 on Steam (app 5007130), Windows only; minimum specs of 16 GB RAM, GTX 1060 / RX 580 with OpenGL 4.6, and no integrated graphics support — Steam store pages, checked August 2026"
+  - tier: "Official"
+    text: "The demo showcases the confirmed systems: arcade-style combat, the world-built skill tree, the destructible voxel world, base building, farming/cooking/elixirs, and cave and mine exploration — Steam store description and press materials"
+  - tier: "Community"
+    text: "Demo content boundaries, save transfer to the full game, and demo-only balance differences are unconfirmed; claims about exact demo world size or spire counts are community speculation"
+  - tier: "Editorial"
+    text: "The demo priority list, performance-testing plan, and bug-reporting advice are our strategy"
 ---
 
 # Demo Guide — What is in the Ardent Wilds Free Demo

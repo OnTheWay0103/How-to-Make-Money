@@ -6,6 +6,13 @@ version: "1.0"
 updated: "2026-08-01"
 keywords: ["moonlight peaks characters", "moonlight peaks families", "moonlight peaks npc", "moonlight peaks shop guide"]
 related: ["romance-guide", "gift-guide", "quests-guide"]
+sources:
+  - tier: "Official"
+    text: "The town's 'seven families' and the story of their secrets are from the official Steam store description; the store page also confirms roughly two dozen romanceable residents"
+  - tier: "Community"
+    text: "Family member names, shop roles, and individual NPC details are community-compiled from the demo and player reports; rosters and roles may differ in the full game"
+  - tier: "Editorial"
+    text: "The who-to-talk-to-when priorities and family overview are our strategy"
 ---
 
 # Moonlight Peaks — Characters Guide: NPCs & the Seven Families

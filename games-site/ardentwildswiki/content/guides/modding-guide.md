@@ -10,6 +10,13 @@ related:
   - 'demo-guide'
   - 'combat-guide'
   - 'crafting-guide'
+sources:
+  - tier: "Official"
+    text: "Lua API modding: 'all game objects, creatures, abilities and combat effects are programmable using our Lua API,' and all existing content scripts ship with the game — Steam store description"
+  - tier: "Community"
+    text: "No official Lua API documentation has been published; any exact API function names or code samples found online are unverified"
+  - tier: "Editorial"
+    text: "The read-the-vanilla-scripts approach and mod-installation guidance are our strategy"
 ---
 
 # Modding Guide — Lua API & Community Mods

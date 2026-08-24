@@ -17,6 +17,13 @@ related:
   - 'beginner-guide'
   - 'similar-games-guide'
   - 'coop-multiplayer-guide'
+sources:
+  - tier: "Official"
+    text: "Minimum and recommended specs (Windows 7 / GTX 470-class floor, Windows 10 / GTX 970 recommended), Windows-only support, and the 10-language list are from the Steam store page, checked August 6, 2026; the RAM and storage figures listed in megabytes are store-page typos, as the guide notes"
+  - tier: "Community"
+    text: "Steam Deck playability and real-world performance expectations are community-reported and not officially rated"
+  - tier: "Editorial"
+    text: "The interpretation of what the specs mean for modern hardware is our analysis"
 ---
 
 # Bonehold System Requirements Guide — Minimum & Recommended PC Specs

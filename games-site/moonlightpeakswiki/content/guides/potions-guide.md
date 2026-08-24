@@ -6,6 +6,13 @@ version: "1.0"
 updated: "2026-08-01"
 keywords: ["moonlight peaks potions", "moonlight peaks cauldron", "moonlight peaks love potion", "moonlight peaks luck dust"]
 related: ["farming-guide", "money-guide", "quests-guide"]
+sources:
+  - tier: "Official"
+    text: "Potion-making and spell-casting are confirmed features per the Steam store description"
+  - tier: "Community"
+    text: "Recipe ingredients and prices, the 'Mend it with Magic' unlock chain, brewing times, and selling values are community-compiled from the demo and player reports"
+  - tier: "Editorial"
+    text: "The cauldron production-line advice and recipe priority are our strategy"
 ---
 
 # Moonlight Peaks — Potions Guide: Cauldron, Recipes & Ingredients

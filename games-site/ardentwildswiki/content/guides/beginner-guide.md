@@ -10,6 +10,15 @@ related:
   - 'base-building-guide'
   - 'crafting-guide'
   - 'farming-cooking-guide'
+sources:
+  - tier: "Official"
+    text: "Pre-release open-world survival crafting RPG by Spellware Studios (Ghent, Belgium); free demo out July 30, 2026; full release TBA; confirmed pillars: destructible voxel world, world-built skill tree with Spires and Forgotten Facilities, arcade combat with rare artifacts, base building, farming, cooking, elixirs, caves and mines, co-op for up to 6 players — Steam store page and official press materials"
+  - tier: "Official"
+    text: "The Eldran eldritch hivemind and the endgame threat Yorgoroth, the Devourer of Worlds, are from the official store description"
+  - tier: "Community"
+    text: "The '3D Terraria' comparison and the first-hours experience (gathering loop, tool crafting) are from playtest coverage and community reports"
+  - tier: "Editorial"
+    text: "The first-day priority order, base location advice, and early goals are our strategy; exact recipes and numbers are not published"
 ---
 
 # Beginner Guide — Survive Your First Days in Ardent Wilds

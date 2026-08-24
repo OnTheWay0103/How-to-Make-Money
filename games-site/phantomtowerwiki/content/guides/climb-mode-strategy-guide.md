@@ -10,6 +10,11 @@ related:
   - combat-guide
   - soulbinder-guide
   - advanced-strategies
+sources:
+  - tier: "Official"
+    text: "Climb Mode: a 100-floor tower, collecting materials, resources, and equipment 'to bring back outside,' carry-over between runs, and bosses that drop Boss Unique Weapons — Steam store description and press materials"
+  - tier: "Editorial"
+    text: "The floor-phase bands, push-or-extract decision framework, and run-compounding strategy are our analysis; exact floor thresholds are not official"
 ---
 
 # Phantom Tower Climb Mode Strategy Guide — Floor-by-Floor Run Tactics

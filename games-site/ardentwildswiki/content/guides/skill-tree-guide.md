@@ -10,6 +10,11 @@ related:
   - 'advanced-guide'
   - 'biomes-guide'
   - 'boss-guide'
+sources:
+  - tier: "Official"
+    text: "World-built skill tree: restore ancient Spires and Forgotten Facilities, every unlocked node grants a passive bonus and serves as a fast-travel point, and the full-game goal of rebuilding four ancient magical spires to challenge Yorgoroth — Steam store description and official press materials"
+  - tier: "Editorial"
+    text: "Spire-hunting strategy and restoration priorities are our analysis; no official list of Spire locations or names has been published"
 ---
 
 # Skill Tree & Spire Guide — The World-Built Skill Tree

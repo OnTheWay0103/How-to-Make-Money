@@ -6,6 +6,13 @@ version: '1.0'
 updated: '2026-08-01'
 keywords: ['Bonehold weapons', 'Bonehold charge attack', 'Bonehold weapon prefixes', 'Bonehold legendary weapons', 'Bonehold weapon guide']
 related: ['combat-guide', 'item-prefixes-guide', 'classes-guide', 'best-builds']
+sources:
+  - tier: "Official"
+    text: "Charge-based combat and procedurally generated weapons, spells, and armor are confirmed on the Steam store page"
+  - tier: "Community"
+    text: "Observed weapon categories (one-handed swords, two-handed axes and hammers, slow-charging staves, crossbows) and the deliberately paced charge combat are from launch reviews and Steam Community discussion; exact charge timings and damage multipliers are not officially published"
+  - tier: "Editorial"
+    text: "The quick-attack vs full-charge decision table and class-weapon pairing suggestions are our strategy"
 ---
 
 # Bonehold Weapons Guide - Charge Attacks and Weapon Types

@@ -6,6 +6,13 @@ version: '1.0'
 updated: '2026-08-01'
 keywords: ['Bonehold beginner guide', 'Bonehold tips', 'Bonehold starting class', 'Bonehold combat guide', 'Bonehold first boss']
 related: ['classes-guide', 'combat-guide', 'weapons-guide', 'coop-multiplayer-guide']
+sources:
+  - tier: "Official"
+    text: "3D roguelike dungeon crawler by Pixel Jackal and SaikingS, released July 28, 2026; single-player only; 98 Steam Achievements; procedurally generated weapons, spells, and armor — Steam store page"
+  - tier: "Community"
+    text: "Charge pacing, parry timing, trap lethality, and losing all in-run progress on death are from launch reviews and Steam Community discussion; no official source documents a meta-progression system or exact floor structure"
+  - tier: "Editorial"
+    text: "The Knight starter recommendation, first-5-runs plan, and early item-prefix evaluation rules are our strategy"
 ---
 
 # Bonehold Beginner Guide - Essential Tips for Getting Started

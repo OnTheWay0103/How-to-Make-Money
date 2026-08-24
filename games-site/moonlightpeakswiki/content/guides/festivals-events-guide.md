@@ -6,6 +6,13 @@ version: "1.0"
 updated: "2026-08-08"
 keywords: ["moonlight peaks festivals", "moonlight peaks events", "moonlight peaks loveage festival", "moonlight peaks evernight festival", "moonlight peaks mastersoup", "moonlight peaks full moon", "moonlight peaks event calendar"]
 related: ["quests-guide", "characters-guide", "cooking-recipes-guide", "gift-guide"]
+sources:
+  - tier: "Official"
+    text: "The game runs a seasonal calendar with town events per the Steam store description, but individual festivals are not documented in official materials"
+  - tier: "Community"
+    text: "Loveage (Spring 20-21), Mastersoup (Autumn 5th Night), Evernight (Autumn 26-28), the monthly Full Moon, and their dates, locations, and rewards are community-reported from the demo and player reports"
+  - tier: "Editorial"
+    text: "Preparation tips and event priorities are our strategy"
 ---
 
 # Moonlight Peaks — Festivals & Events Guide: The Full Seasonal Calendar

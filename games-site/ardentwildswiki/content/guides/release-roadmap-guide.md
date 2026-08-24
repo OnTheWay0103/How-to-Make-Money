@@ -10,6 +10,13 @@ related:
   - 'story-quests-guide'
   - 'boss-guide'
   - 'modding-guide'
+sources:
+  - tier: "Official"
+    text: "Full release date TBA, no Early Access announced, free demo out since July 30, 2026, and developer/publisher Spellware Studios (Ghent, Belgium) — Steam store pages, August 2026"
+  - tier: "Official"
+    text: "The playtest history (April 2, 2026 alpha build and June 10, 2026 v0.5.9) covering the worldgen rebuild, floating islands with rewards, a new boss and armor sets, hold-to-cast abilities, and sleep-to-fast-forward nights — official playtest patch notes"
+  - tier: "Editorial"
+    text: "The reconstructed roadmap and in-development assessment are our analysis; the developer has published no official roadmap document"
 ---
 
 # Full Release & Roadmap Guide — What Is Coming to Ardent Wilds

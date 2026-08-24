@@ -10,6 +10,11 @@ related:
   - 'beginner-guide'
   - 'biomes-guide'
   - 'caves-mining-guide'
+sources:
+  - tier: "Official"
+    text: "Minimum requirements from the Steam store listing, checked August 2026: Windows 10 (64-bit), 16 GB RAM, NVIDIA GTX 1060 / AMD RX 580 or better with OpenGL 4.6, 15 GB storage, integrated graphics not supported; the recommended section lists only 'Requires a 64-bit processor and operating system'"
+  - tier: "Editorial"
+    text: "The performance interpretation (CPU-driven OpenGL, voxel world memory demands) and FPS advice are our analysis, not official numbers"
 ---
 
 # System Requirements & Performance Guide — FPS & Settings in Ardent Wilds

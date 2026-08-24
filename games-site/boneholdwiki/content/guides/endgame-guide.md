@@ -6,6 +6,13 @@ version: '1.0'
 updated: '2026-08-01'
 keywords: ['Bonehold endgame', 'Bonehold legendary farming', 'Bonehold deep dungeon', 'Bonehold achievement guide', 'Bonehold post game', 'Bonehold hybrid builds', 'Bonehold advanced guide']
 related: ['progression-guide', 'tips-and-tricks', 'achievements-guide', 'best-builds', 'boss-guide', 'classes-guide']
+sources:
+  - tier: "Official"
+    text: "98 Steam Achievements, procedurally generated loot, and legendary items are confirmed on the Steam store page; no official source documents New Game+, difficulty tiers, an Endless mode, or any meta-progression system"
+  - tier: "Community"
+    text: "Deep-run difficulty scaling, legendary-hunting experience, and the stakes of dying with no checkpoints or saves are from launch reviews and Steam Community reports"
+  - tier: "Editorial"
+    text: "The legendary-hunting methods, risk rule, and endgame goal list are our strategy"
 ---
 
 # Bonehold Endgame Guide — Legendary Hunting and Post-Launch Content

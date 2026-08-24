@@ -10,6 +10,11 @@ related:
   - beginner-guide
   - best-builds
   - blessings-guide
+sources:
+  - tier: "Official"
+    text: "Four elements (IGNIS, AQUA, TERRA, VENTI), mid-fight element swapping, 16 elemental reactions, and the three named reactions Freeze (AQUA-based), Erode (TERRA-based), and Shockwaves (VENTI-based) — official press materials and Steam store description"
+  - tier: "Editorial"
+    text: "The setup-detonate combat pattern and reaction strategy are our analysis; the remaining 13 reaction names are not officially published and any full 16-reaction table is unverified"
 ---
 
 # Phantom Tower Elements Guide — Elemental System & Reactions
