@@ -63,7 +63,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How many players can play co-op?',
-    answer: 'Witchspire supports up to 4 players in online co-op — the reported max party size. Progress is shared within the host\'s world.',
+    answer: 'Witchspire supports up to 6 players in online co-op (per the official store page). Progress is shared within the host\'s world.',
   },
   {
     question: 'What are the best Covens for beginners?',

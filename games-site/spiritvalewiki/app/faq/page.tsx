@@ -5,12 +5,12 @@ import FAQ from '@/components/FAQ';
 
 export const metadata: Metadata = {
   title: 'FAQ',
-  description: 'Frequently asked questions about SpiritVale — free-to-play, classes, level caps, respecs, PvP, cards, trading, and more.',
+  description: 'Frequently asked questions about SpiritVale — pricing, classes, level caps, respecs, PvP, cards, trading, and more.',
 };
 
 const FAQ_ITEMS = [
-  { question: 'What is SpiritVale?', answer: 'SpiritVale is a free-to-play class-based MMORPG inspired by Ragnarok Online. It features 7 base classes, 8 advanced specializations, 227 cards, 35+ maps, and 20+ bosses. Available now on Steam Early Access.' },
-  { question: 'Is SpiritVale free to play?', answer: 'Yes. SpiritVale is completely free-to-play on Steam. There are optional cosmetic purchases but no pay-to-win mechanics.' },
+  { question: 'What is SpiritVale?', answer: 'SpiritVale is a buy-to-play class-based MMORPG inspired by Ragnarok Online. It features 7 base classes, 8 advanced specializations, 227 cards, 35+ maps, and 20+ bosses. Available now on Steam Early Access.' },
+  { question: 'Is SpiritVale free to play?', answer: 'No. SpiritVale is buy-to-play at $14.99 USD on Steam. There is no subscription, battle pass, or premium currency — microtransactions are purely cosmetic (the developer calls it "Fair-To-Play, Never Pay-To-Win").' },
   { question: 'How many classes are there?', answer: '7 base classes (Acolyte, Knight, Mage, Rogue, Scout, Summoner, Warrior) and 8 advanced classes (Paladin, Priest, Wizard, Shinobi, Sniper, Berserker, Necromancer, Gunslinger). The Gunslinger is a special advanced class that any Job Level 50 class can unlock.' },
   { question: 'What is the level cap?', answer: 'Base Level caps at 99 and Job Level at 50. At Job Level 50 you complete a class advancement quest to unlock your advanced class.' },
   { question: 'Is there a main quest?', answer: 'No. SpiritVale has no main quest line — you get your Waystone from the Waybinder NPC, activate Waypoints, and grind. See the Beginner Guide for the real first five hours.' },

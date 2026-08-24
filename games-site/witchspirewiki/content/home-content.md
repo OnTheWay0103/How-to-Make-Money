@@ -57,7 +57,7 @@ Workbenches, furnaces, alchemy circles, and garden plots. Everything you can cra
 
 ## What is Witchspire?
 
-Witchspire is an open-world, magic-based survival RPG built for 1-4 player co-op. Developed by Envar Games, it launched into Steam Early Access on June 10, 2026. You play as a fledgling witch exploring the fractured realms of Vyrs, Timberline Basin, Mira Isles, and the Shuddersands — collecting familiars, building your Hearth base, crafting gear, and hunting down powerful bosses.
+Witchspire is an open-world, magic-based survival RPG built for 1-6 player co-op (per the official store page). Developed by Envar Games, it launched into Steam Early Access on June 10, 2026. You play as a fledgling witch exploring the fractured realms of Vyrs, Timberline Basin, Mira Isles, and the Shuddersands — collecting familiars, building your Hearth base, crafting gear, and hunting down powerful bosses.
 
 The game combines the resource loop of survival crafting with action-RPG combat. Your choice of Coven (class) defines your weapon (Spellblade or Wand) and your magic school (Lux, Crystal, Ethereal, Nature, Nox, or Astral).
 
