@@ -18,6 +18,13 @@ related:
   - enemy-guide
   - faq-content
   - multiplayer-pvp-guide
+sources:
+  - tier: "Official"
+    text: "Dinosaur-themed Soulslike action RPG developed by Team Spino LLC, the studio of veteran animator Jean Nguyen; launched July 23, 2026 on Steam at $19.99 with a 10% launch discount — Steam store page and launch coverage"
+  - tier: "Official"
+    text: "You play a young Spinosaurus gripping a colossal Great Sword between its teeth, fighting weapon-wielding rival dinosaurs — official game description"
+  - tier: "Editorial"
+    text: "Parry-first beginner advice and starting priorities are this guide's recommendations"
 ---
 
 # Dinoblade Beginner Guide — Survive Your First Hunt

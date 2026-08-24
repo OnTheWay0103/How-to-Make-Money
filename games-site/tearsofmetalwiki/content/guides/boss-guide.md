@@ -6,6 +6,13 @@ version: "Early Access"
 updated: "2026-08-11"
 keywords: ["Tears of Metal boss guide", "Tears of Metal Gilles the Hog", "Tears of Metal Iseult the Banshee", "Tears of Metal boss fight tips", "Tears of Metal Act 1 boss", "how to beat Tears of Metal bosses"]
 related: ["heroes-tier-list", "threat-level-difficulty-guide", "combat-tips", "corruption-guide", "battalion-companion-guide", "best-builds"]
+sources:
+  - tier: "Official"
+    text: "Each act ends with a unique boss encounter; Early Access includes three acts with bosses like Gilles the Hog and the Banshee — official description and press coverage"
+  - tier: "Community"
+    text: "Iseult the Banshee is the community-reported name for the Act 2 boss; a softlock on her fight was fixed by a post-launch update with save recovery"
+  - tier: "Editorial"
+    text: "Boss strategies in this guide are our editorial analysis"
 ---
 
 # Tears of Metal Boss Guide — Gilles the Hog, Iseult the Banshee & All Boss Encounters

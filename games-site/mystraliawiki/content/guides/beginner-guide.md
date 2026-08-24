@@ -6,6 +6,13 @@ version: 'Early Access'
 updated: '2026-08-11'
 keywords: ['echoes of mystralia beginner guide', 'echoes of mystralia getting started', 'echoes of mystralia tips', 'echoes of mystralia demo guide', 'mystralia new player guide', 'echoes of mystralia how to start', 'echoes of mystralia first hours']
 related: ['spell-crafting-guide', 'ea-launch-guide', 'faq', 'memories-guide', 'ash-forest-guide']
+sources:
+  - tier: "Official"
+    text: "Spellcrafting ARPG roguelite from Borealys Games, the studio behind Mages of Mystralia (2017); launched into Steam Early Access August 11, 2026 — press release and Steam store page"
+  - tier: "Official"
+    text: "You play Mazarim, a Watcher protecting the Cycle of Memories from a Rift; memories harvested from enemies are forged and customized into spells — official game description"
+  - tier: "Editorial"
+    text: "First-hours plan and starting priorities are this guide's editorial recommendations"
 ---
 
 # Beginner Guide — Getting Started in Echoes of Mystralia

@@ -6,6 +6,11 @@ version: "Early Access"
 updated: "2026-08-11"
 keywords: ["Tears of Metal co-op", "Tears of Metal multiplayer", "Tears of Metal team composition", "Tears of Metal 4 player guide", "Tears of Metal co-op tips", "Tears of Metal squad"]
 related: ["heroes-tier-list", "best-builds", "boss-guide", "progression-walkthrough", "battalion-companion-guide", "weapon-merge-guide"]
+sources:
+  - tier: "Official"
+    text: "The game supports up to 4-player co-op, sharing village progression while keeping separate hero builds — official description and launch coverage"
+  - tier: "Editorial"
+    text: "Team compositions and role assignments are this guide's editorial recommendations"
 ---
 
 # Tears of Metal Co-op Guide — Team Comps, Roles, and Boss Coordination

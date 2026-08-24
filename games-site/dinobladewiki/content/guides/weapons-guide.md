@@ -18,6 +18,13 @@ related:
   - beginner-guide
   - enemy-guide
   - endings-guide
+sources:
+  - tier: "Official"
+    text: "Your confirmed weapon is a colossal Great Sword gripped in your Spinosaurus's jaws; legendary weapons are hidden in the world and change how your Spinosaurus plays — official game description"
+  - tier: "Community"
+    text: "No official weapon list with stats exists as of August 2026; guides naming specific legendary weapons are unverified"
+  - tier: "Editorial"
+    text: "Build direction and loadout advice in this guide are our editorial analysis"
 ---
 
 # Dinoblade Weapons & Builds Guide — The Great Sword, Playstyles & Tier Honesty

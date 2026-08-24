@@ -10,6 +10,13 @@ related:
   - extraction-guide
   - mining-guide
   - gadgets-guide
+sources:
+  - tier: "Official"
+    text: "Co-op sci-fi roguelite bullet-hell focused on resource gathering, developed and published by Kickstone Studio, released on Steam July 30, 2026 — Steam store page"
+  - tier: "Official"
+    text: "Descend solo or with up to two friends into the dangerous depths of PAIMO; minerals can be traded for permanent upgrades or safely cashed out to the ship — Steam store page"
+  - tier: "Editorial"
+    text: "Starting with Marshall and extracting early are this guide's recommendations for new players"
 ---
 
 ## Getting Started in MineGeon: Renegades

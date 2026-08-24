@@ -6,6 +6,13 @@ version: "Early Access"
 updated: "2026-08-11"
 keywords: ["Tears of Metal emblems", "Tears of Metal artifacts", "Tears of Metal emblem combinations", "Tears of Metal best artifacts", "Tears of Metal emblem guide"]
 related: ["best-builds", "corruption-guide", "weapon-merge-guide", "village-upgrade-guide", "beginner-guide"]
+sources:
+  - tier: "Official"
+    text: "Emblems are temporary within-run choices that reset each run; the game ships with 100+ artifacts for build variety — official description and launch coverage"
+  - tier: "Community"
+    text: "Emblem effect percentages and artifact stat values are community-reported and unverified as of August 2026"
+  - tier: "Editorial"
+    text: "Emblem and artifact guidance is this guide's editorial analysis"
 ---
 
 # Tears of Metal Emblem and Artifact Guide — Complete Reference

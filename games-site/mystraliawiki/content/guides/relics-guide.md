@@ -6,6 +6,13 @@ version: 'Early Access'
 updated: '2026-08-11'
 keywords: ['echoes of mystralia relics', 'echoes of mystralia relic guide', 'echoes of mystralia passive items', 'mystralia relic synergies', 'echoes of mystralia items guide', 'echoes of mystralia legendary gear']
 related: ['memories-guide', 'spell-crafting-guide', 'endgame-guide', 'farming-guide', 'best-spell-builds']
+sources:
+  - tier: "Official"
+    text: "The Early Access launch ships with 40+ Relics, passive items that shape build play — official Steam page"
+  - tier: "Community"
+    text: "Individual Relic names, effects, and drop sources are being documented from the Early Access build by players as of August 2026"
+  - tier: "Editorial"
+    text: "Relic synergy planning is this guide's editorial analysis"
 ---
 
 # Relics Guide — The 40+ Relics & Passive Item Synergies

@@ -10,6 +10,13 @@ related:
   - platforms-guide
   - demo-guide
   - coop-multiplayer-guide
+sources:
+  - tier: "Official"
+    text: "Developed and published by Kickstone Studio; released on Steam July 30, 2026 after a delay from an earlier July 14 target — store page and press announcement"
+  - tier: "Official"
+    text: "Includes 49 Steam Achievements; listed features: Single-player, Online Co-op, Steam Cloud, Family Sharing — Steam store page"
+  - tier: "Editorial"
+    text: "FAQ answers consolidate official information with this site's verification notes"
 ---
 
 ## General Questions

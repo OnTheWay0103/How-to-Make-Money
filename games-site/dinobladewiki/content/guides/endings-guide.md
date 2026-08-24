@@ -17,6 +17,13 @@ related:
   - new-game-plus-guide
   - weapons-guide
   - achievements-guide
+sources:
+  - tier: "Official"
+    text: "The campaign builds to preparing to fight the meteor that caused the dinosaurs' extinction; defeating the final boss unlocks Boss Rush Mode — official material and launch coverage"
+  - tier: "Community"
+    text: "Whether multiple endings exist is not documented in any official source as of August 2026"
+  - tier: "Editorial"
+    text: "Ending and hidden-content guidance is this guide's editorial analysis"
 ---
 
 # Dinoblade Endings & Secrets Guide — Campaign, Hidden Content & What's Confirmed

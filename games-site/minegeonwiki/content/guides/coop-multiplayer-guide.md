@@ -10,6 +10,13 @@ related:
   - classes-guide
   - boss-guide
   - gadgets-guide
+sources:
+  - tier: "Official"
+    text: "Descend solo or with up to two friends; online co-op via Steam with Steam Friends integration, Steam Cloud and Family Sharing support — Steam store page"
+  - tier: "Community"
+    text: "Community reports confirm the ship-visiting feature; local co-op and split-screen are absent from the store page listing"
+  - tier: "Editorial"
+    text: "Co-op team compositions and role assignments are this guide's editorial recommendations"
 ---
 
 ## How Co-op Works in MineGeon: Renegades

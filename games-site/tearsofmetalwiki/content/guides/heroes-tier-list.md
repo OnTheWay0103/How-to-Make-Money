@@ -6,6 +6,13 @@ category: "Heroes"
 version: "Early Access"
 updated: "2026-08-11"
 related: ["best-builds", "boss-guide", "character-unlock-guide", "threat-level-difficulty-guide", "patch-notes"]
+sources:
+  - tier: "Official"
+    text: "Launch roster: Wallace (longsword), Brienne (unarmed fast attacks), and Ruadh Stonecrusher (giant hammer) — official materials"
+  - tier: "Community"
+    text: "Wallace is the default pick in community and media coverage of the launch build"
+  - tier: "Editorial"
+    text: "Tier rankings in this guide are this site's editorial analysis"
 ---
 
 # Tears of Metal Heroes Tier List — Wallace, Brienne & Ruadh Stonecrusher Ranked

@@ -16,6 +16,13 @@ related:
   - beginner-guide
   - boss-guide
   - faq-content
+sources:
+  - tier: "Official"
+    text: "Progression includes attribute and skill upgrades, powerful weapon skills (Soul Arts), boss summons, and legendary weapons — official game description"
+  - tier: "Community"
+    text: "No official list of Soul Art names, effects, or unlock requirements has been published as of August 2026"
+  - tier: "Editorial"
+    text: "Leveling and skill priority advice in this guide is our editorial analysis"
 ---
 
 # Dinoblade Soul Arts & Leveling Guide — Special Attacks, Skills & Progression

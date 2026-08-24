@@ -6,6 +6,11 @@ version: '1.0'
 updated: '2026-08-01'
 keywords: ['minegeon renegades how long to beat', 'minegeon renegades game length', 'minegeon renegades review', 'minegeon renegades content', 'minegeon renegades 100% completion', 'minegeon renegades playtime']
 related: ['demo-guide', 'progression-guide', 'faq', 'achievements-guide']
+sources:
+  - tier: "Official"
+    text: "No official playtime figures exist; confirmed content inventory: six biomes, one biome-ending boss each, 3 classes, over 150 unique gadgets, 200+ ship items and decorations, 49 Steam achievements — Steam store page and press materials"
+  - tier: "Editorial"
+    text: "Playtime estimates in this guide are built from the confirmed content list rather than official figures"
 ---
 
 # How Long to Beat MineGeon: Renegades — Content & Playtime Guide

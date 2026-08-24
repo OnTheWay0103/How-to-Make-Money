@@ -15,6 +15,13 @@ related:
   - faq-content
   - how-long-to-beat
   - boss-guide
+sources:
+  - tier: "Official"
+    text: "A free demo has been available on Steam since October 2025; the full game launched July 23, 2026 — Steam store page"
+  - tier: "Community"
+    text: "The demo holds an Overwhelmingly Positive rating (~97% positive across 4,200+ reviews) and helped the game pass 500,000 Steam wishlists — Steam review and sales data"
+  - tier: "Editorial"
+    text: "Demo-first strategy and save-transfer advice are this guide's editorial recommendations"
 ---
 
 # Dinoblade Demo Guide — What's In It and Should You Try It?

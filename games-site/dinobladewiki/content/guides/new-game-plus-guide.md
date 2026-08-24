@@ -16,6 +16,11 @@ related:
   - endings-guide
   - demo-guide
   - faq-content
+sources:
+  - tier: "Official"
+    text: "New Game+ is not listed among the game's features; the confirmed endgame feature is Boss Rush Mode, unlocked after defeating the final boss — Steam store page"
+  - tier: "Editorial"
+    text: "Post-game replay guidance is this guide's editorial analysis"
 ---
 
 # Dinoblade New Game+ & Endgame Replay — Status, Challenge Runs & Speedrunning

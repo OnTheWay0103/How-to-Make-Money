@@ -6,6 +6,13 @@ version: '1.0'
 updated: '2026-08-01'
 keywords: ['minegeon renegades gadgets', 'minegeon renegades best gadgets', 'minegeon gadgets guide', 'minegeon renegades best loadout', 'minegeon renegades gadgets and ultimates', 'minegeon renegades how to unlock gadgets', 'minegeon area control', 'minegeon renegades traps']
 related: ['weapons-guide', 'class-builds', 'classes-guide']
+sources:
+  - tier: "Official"
+    text: "Level up to unlock powerful Gadgets that grant a wide variety of upgrades; the full game includes over 150 unique gadgets — Steam store page and demo page"
+  - tier: "Community"
+    text: "Players report grenades, energy shields, and combat drones among the named gadget families; specific stats and unlock levels remain community-documented"
+  - tier: "Editorial"
+    text: "Gadget build guidance per Renegade class is this guide's editorial analysis"
 ---
 
 # Gadgets Guide — Grenades, Shields & Drones in MineGeon: Renegades

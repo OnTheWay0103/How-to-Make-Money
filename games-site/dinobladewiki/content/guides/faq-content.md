@@ -17,6 +17,13 @@ related:
   - boss-guide
   - weapons-guide
   - multiplayer-pvp-guide
+sources:
+  - tier: "Official"
+    text: "Developed by Team Spino LLC; launched July 23, 2026 on Steam at $19.99 with a 10% launch discount; single-player and PC only — Steam store page and launch coverage"
+  - tier: "Community"
+    text: "Launch reception: 89% Very Positive on Steam at launch, with players reporting bugs, performance problems, and imprecise hitboxes; the demo is rated Overwhelmingly Positive (~97%)"
+  - tier: "Editorial"
+    text: "FAQ answers consolidate official information with this site's verification notes"
 ---
 
 # Dinoblade FAQ — Common Questions Answered

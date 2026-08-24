@@ -6,6 +6,11 @@ version: "Early Access"
 updated: "2026-08-11"
 keywords: ["Tears of Metal weapon merge", "Tears of Metal weapon upgrade system", "Tears of Metal how to upgrade weapons", "Tears of Metal Reinforced weapon", "Tears of Metal best weapon per hero", "Tears of Metal Dragon Stone Shards"]
 related: ["best-builds", "village-upgrade-guide", "emblem-artifact-guide", "equipment-guide", "co-op-guide", "threat-level-difficulty-guide"]
+sources:
+  - tier: "Community"
+    text: "The weapon merge system — combining two identical weapons into a Reinforced version at the Smithy — is documented by community coverage of the Early Access build"
+  - tier: "Editorial"
+    text: "Merge tier strategy and duplicate-dismantling warnings are this guide's editorial analysis"
 ---
 
 # Tears of Metal Weapon Merge Guide — Reinforced Tiers, AP, and Best Weapons per Hero

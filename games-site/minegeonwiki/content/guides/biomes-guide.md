@@ -10,6 +10,13 @@ related:
   - boss-guide
   - enemy-guide
   - demo-guide
+sources:
+  - tier: "Official"
+    text: "Descend through 6 hand-crafted biomes packed with hostile factions, ancient technology, hidden lore, environmental hazards, and deadly enemies — official press materials"
+  - tier: "Official"
+    text: "Each biome culminates in a boss battle; the free demo covers the first of the six biomes — Steam store page and demo page"
+  - tier: "Editorial"
+    text: "Biome preparation strategy (banking upgrades before pushing deeper) is this guide's editorial advice"
 ---
 
 ## Biome Overview

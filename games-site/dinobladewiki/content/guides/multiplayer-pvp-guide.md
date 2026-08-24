@@ -16,6 +16,13 @@ related:
   - beginner-guide
   - boss-guide
   - soul-arts-guide
+sources:
+  - tier: "Official"
+    text: "Dinoblade is a single-player game; no co-op, PvP, or online features are listed on the Steam store page"
+  - tier: "Community"
+    text: "The summons system uses AI versions of defeated bosses, which players commonly mistake for co-op"
+  - tier: "Editorial"
+    text: "Multiplayer status interpretation and summon usage advice are this guide's editorial analysis"
 ---
 
 ## Dinoblade Multiplayer Status — Single-Player Only

@@ -9,6 +9,13 @@ related:
   - faq
   - demo-guide
   - coop-multiplayer-guide
+sources:
+  - tier: "Official"
+    text: "PC (Steam) release on July 30, 2026; system requirements listed on the Steam store page (minimum: Windows 10, 2.4 GHz processor, 4 GB RAM, DirectX 10, 2 GB storage)"
+  - tier: "Official"
+    text: "No console versions have been announced — Steam store page and official channels as of early August 2026"
+  - tier: "Editorial"
+    text: "Platform status and Steam Deck advice in this guide are our editorial assessment"
 ---
 
 ## Platform Availability

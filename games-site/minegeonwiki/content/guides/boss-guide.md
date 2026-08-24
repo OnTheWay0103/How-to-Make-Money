@@ -11,6 +11,13 @@ related:
   - classes-guide
   - coop-multiplayer-guide
   - gadgets-guide
+sources:
+  - tier: "Official"
+    text: "Each biome culminates in a boss battle against formidable ancient entities — Steam store page"
+  - tier: "Community"
+    text: "Individual boss names, attack patterns, and health numbers had not been published by early August 2026; specific boss claims are unverified"
+  - tier: "Editorial"
+    text: "Banking minerals before boss attempts and saving ultimates for the arena are this guide's strategies"
 ---
 
 ## Boss Overview

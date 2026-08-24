@@ -10,6 +10,13 @@ related:
   - class-builds
   - tier-list
   - gadgets-guide
+sources:
+  - tier: "Official"
+    text: "Three playable Renegades: Marshall, the resilient Tank, Trevor, the deadly DPS Gunslinger, and Ari, the balanced Engineer — Steam store page"
+  - tier: "Community"
+    text: "Exact stat numbers and ultimate ability names had not been published by early August 2026; class details are community-documented"
+  - tier: "Editorial"
+    text: "Class selection advice and role-fit assessments in this guide are our editorial analysis"
 ---
 
 ## All Classes in MineGeon: Renegades

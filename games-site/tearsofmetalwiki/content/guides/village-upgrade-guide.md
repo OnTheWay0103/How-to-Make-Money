@@ -6,6 +6,13 @@ version: "Early Access"
 updated: "2026-08-11"
 keywords: ["Tears of Metal village upgrade", "Tears of Metal upgrade priority", "Tears of Metal Armory", "Tears of Metal Smithy upgrade", "how to unlock Tears of Metal village buildings"]
 related: ["beginner-guide", "weapon-merge-guide", "emblem-artifact-guide", "battalion-companion-guide"]
+sources:
+  - tier: "Official"
+    text: "The village is the permanent meta-progression hub between runs; resources are spent to expand the settlement and upgrade facilities — official description"
+  - tier: "Community"
+    text: "Upgrade costs are community-documented and unverified as of August 2026"
+  - tier: "Editorial"
+    text: "Upgrade priority order (Armory first) is this guide's editorial recommendation"
 ---
 
 # Tears of Metal Village Upgrade Guide — Priority Order and Costs

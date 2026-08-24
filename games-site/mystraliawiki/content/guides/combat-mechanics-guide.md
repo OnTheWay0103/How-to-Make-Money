@@ -6,6 +6,13 @@ version: 'Early Access'
 updated: '2026-08-11'
 keywords: ['echoes of mystralia combat guide', 'echoes of mystralia combat mechanics', 'echoes of mystralia dodging', 'echoes of mystralia fighting', 'echoes of mystralia combat tips']
 related: ['boss-guide', 'spell-crafting-guide', 'ash-forest-guide', 'difficulty-settings-guide', 'beginner-guide']
+sources:
+  - tier: "Official"
+    text: "The game is described as an action-heavy spellcrafting ARPG roguelite where rapid combat meets deep customization; Memories are your only weapon against the Shadows of the Past — Steam store page"
+  - tier: "Community"
+    text: "Hades-style action is the comparison most early coverage lands on; exact i-frames and dodge costs are being documented from the Early Access build"
+  - tier: "Editorial"
+    text: "Movement, dodging, and telegraph-reading advice are this guide's editorial analysis"
 ---
 
 # Combat Mechanics Guide — Movement, Dodging & Spell Execution

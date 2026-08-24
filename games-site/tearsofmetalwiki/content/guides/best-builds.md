@@ -6,6 +6,13 @@ version: "Early Access"
 updated: "2026-08-11"
 keywords: ["Tears of Metal best builds", "Tears of Metal Wallace build", "Tears of Metal Brienne build", "Tears of Metal Ruadh Stonecrusher build", "Tears of Metal emblem synergy build", "Tears of Metal build guide"]
 related: ["wallace-build-guide", "brienne-build-guide", "ruadh-build-guide", "heroes-tier-list", "emblem-artifact-guide", "weapon-merge-guide", "co-op-guide"]
+sources:
+  - tier: "Official"
+    text: "Launch roster and weapon archetypes: Wallace (longsword), Brienne (unarmed), Ruadh Stonecrusher (giant hammer) — official materials"
+  - tier: "Community"
+    text: "Artifact names and stat values in the build tables are community-reported and unverified as of August 2026"
+  - tier: "Editorial"
+    text: "The three proven builds are this site's editorial recommendations"
 ---
 
 # Tears of Metal Best Builds — Wallace, Brienne, and Ruadh Stonecrusher

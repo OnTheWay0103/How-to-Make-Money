@@ -15,6 +15,13 @@ related:
   - beginner-guide
   - lore-guide
   - boss-guide
+sources:
+  - tier: "Official"
+    text: "The world is handcrafted, with dry canyons, dense mist-shrouded jungles, frozen mountain basins, and forgotten ruins — Steam store description"
+  - tier: "Official"
+    text: "Each region is ruled by a ferocious Alpha apex predator that guards the path forward — official game description"
+  - tier: "Editorial"
+    text: "Regional progression strategy is this guide's editorial advice"
 ---
 
 # Dinoblade Biomes & World Guide — Canyons, Jungles & Regions

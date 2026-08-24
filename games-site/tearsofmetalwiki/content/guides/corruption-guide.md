@@ -6,6 +6,11 @@ version: "Early Access"
 updated: "2026-08-11"
 keywords: ["corruption", "corruption mechanic", "corruption zone", "corruption management", "Act 3", "Tears of Metal corruption"]
 related: ["progression-walkthrough", "threat-level-difficulty-guide", "emblem-artifact-guide", "boss-guide", "combat-tips"]
+sources:
+  - tier: "Community"
+    text: "Corruption is community-documented as the Act 3 health-draining damage-over-time threat, including corruption zones and corruption-carrying enemy attacks"
+  - tier: "Editorial"
+    text: "Corruption counters and Act 3 planning are this guide's editorial recommendations"
 ---
 
 # Tears of Metal Corruption Guide — How the Corruption Mechanic Works

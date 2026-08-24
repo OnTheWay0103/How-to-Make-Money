@@ -6,6 +6,13 @@ version: "Early Access"
 updated: "2026-08-11"
 keywords: ["Tears of Metal battalion", "Tears of Metal companion guide", "Tears of Metal soldiers", "Tears of Metal permadeath", "Tears of Metal recruitment", "Tears of Metal best companions", "how to protect Tears of Metal veterans"]
 related: ["village-upgrade-guide", "beginner-guide", "progression-walkthrough", "heroes-tier-list", "best-builds", "co-op-guide"]
+sources:
+  - tier: "Official"
+    text: "Players command an army of soldiers around their hero, spending energy on battalion special moves; recruited soldiers can die permanently — official game description"
+  - tier: "Community"
+    text: "Soldier classes, ranks, and recruitment details are community-documented as of August 2026"
+  - tier: "Editorial"
+    text: "Battalion management advice is this guide's editorial analysis"
 ---
 
 # Tears of Metal Battalion & Companion Guide — Soldiers, Permadeath, and Unlocks

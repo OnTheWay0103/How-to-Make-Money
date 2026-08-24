@@ -9,6 +9,13 @@ related:
   - beginner-guide
   - faq
   - biomes-guide
+sources:
+  - tier: "Official"
+    text: "A free demo is available on Steam covering the first of the six biomes and the first chapter of the story, solo or with up to two friends — Steam demo page"
+  - tier: "Official"
+    text: "The full game will feature six fully developed biomes, a complete story, over 150 unique gadgets, and new ultimate abilities — What's Coming in the Full Game section of the demo page"
+  - tier: "Community"
+    text: "The demo carried a Very Positive rating on Steam at the time of writing, notably higher than the full game's launch reception"
 ---
 
 ## MineGeon: Renegades Demo Overview

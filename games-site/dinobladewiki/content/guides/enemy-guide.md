@@ -16,6 +16,13 @@ related:
   - beginner-guide
   - biome-guide
   - weapons-guide
+sources:
+  - tier: "Official"
+    text: "A cataclysm changed the prehistoric world, and rival dinosaurs are armed with brutal weapons of their own — battleaxes, halberds, swords, and scythes — official game description"
+  - tier: "Community"
+    text: "A complete bestiary with species names and stats has not been published as of August 2026"
+  - tier: "Editorial"
+    text: "Enemy tactics — parry practice on small dinosaurs, spacing against halberd-wielders — are this guide's editorial advice"
 ---
 
 # Dinoblade Enemy Guide — Weapon-Wielding Dinosaurs & Alpha Predators

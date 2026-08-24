@@ -6,6 +6,11 @@ version: 'Early Access'
 updated: '2026-08-11'
 keywords: ['echoes of mystralia weapons', 'echoes of mystralia weapon guide', 'echoes of mystralia best weapon', 'echoes of mystralia weapon types', 'echoes of mystralia weapons explained', 'mystralia weapon list']
 related: ['combat-mechanics-guide', 'spell-crafting-guide', 'character-playstyle-guide', 'best-spell-builds', 'memories-guide']
+sources:
+  - tier: "Official"
+    text: "No weapon system has been announced; the Steam description states Memories are your only weapon against the Shadows of the Past — official Steam page"
+  - tier: "Editorial"
+    text: "Loadout planning around the confirmed arsenal is this guide's editorial analysis"
 ---
 
 # Weapons Guide — Your Spells Are Your Arsenal in Mystralia

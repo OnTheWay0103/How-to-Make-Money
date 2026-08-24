@@ -10,6 +10,13 @@ related:
   - class-builds
   - weapons-guide
   - boss-guide
+sources:
+  - tier: "Official"
+    text: "Class roles as described by the developer: Marshall the resilient Tank, Trevor the deadly DPS Gunslinger, and Ari the balanced Engineer — Steam store page"
+  - tier: "Community"
+    text: "Launch-window meta (weapon stats, gadget balance) was still being documented by players as of early August 2026"
+  - tier: "Editorial"
+    text: "Tier placements for solo and co-op play are this site's editorial rankings"
 ---
 
 ## MineGeon: Renegades Tier List (Launch Window)

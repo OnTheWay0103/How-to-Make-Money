@@ -16,6 +16,13 @@ related:
   - boss-guide
   - soul-arts-guide
   - enemy-guide
+sources:
+  - tier: "Official"
+    text: "Soulslike combat with combos, dodges with invincibility frames, timed parries, and a Sekiro-style posture system; healing is limited and restored at save points — official description and launch coverage"
+  - tier: "Community"
+    text: "No official frame data (parry windows, i-frame counts, damage values) has been published for Dinoblade as of August 2026"
+  - tier: "Editorial"
+    text: "Stamina and healing uptime strategy is this guide's editorial analysis"
 ---
 
 # Dinoblade Advanced Combat & Healing Guide — Resource Management & Survival

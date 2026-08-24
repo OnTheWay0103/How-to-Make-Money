@@ -17,6 +17,13 @@ related:
   - enemy-guide
   - new-game-plus-guide
   - weapons-guide
+sources:
+  - tier: "Official"
+    text: "Each region is ruled by a ferocious Alpha apex predator that guards the path forward; defeating the final boss unlocks Boss Rush Mode — official description and launch coverage"
+  - tier: "Community"
+    text: "A complete boss roster with names and HP values has not been published as of August 2026; specific boss statistics are unverified"
+  - tier: "Editorial"
+    text: "Posture-loop boss strategy — parry to guard break, stamina discipline — is this guide's editorial advice"
 ---
 
 # Dinoblade Boss Guide — Alpha Predators, Posture & Boss Rush Mode

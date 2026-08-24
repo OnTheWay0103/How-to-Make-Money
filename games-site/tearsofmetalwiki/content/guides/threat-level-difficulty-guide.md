@@ -6,6 +6,11 @@ version: "Early Access"
 updated: "2026-08-11"
 keywords: ["tears of metal threat level", "tears of metal why is the game harder", "tears of metal the scar", "tears of metal act 3 tips", "tears of metal difficulty", "tears of metal too hard"]
 related: ["beginner-guide", "heroes-tier-list", "save-system-guide", "boss-guide"]
+sources:
+  - tier: "Community"
+    text: "Community reports and press coverage consistently confirm the Threat Level pattern — clearing more map objectives makes later battles harder with extra captains, elite spawns, and buffed bosses"
+  - tier: "Editorial"
+    text: "Route planning advice around Threat Level is this guide's editorial analysis"
 ---
 
 # Tears of Metal Threat Level & Difficulty Guide — Why Clearing Maps Makes the Game Harder
