@@ -16,6 +16,13 @@ related:
   - ave-build-guide
   - skill-tree-guide
   - faq
+sources:
+  - tier: "Official"
+    text: "Hand-drawn isometric action RPG developed by Lunarium Game Studio (a nine-person debut team based in Shanghai) and published by Imperfect Games; released July 29, 2026 on Steam at $17.99 — Steam store page and press coverage"
+  - tier: "Official"
+    text: "You control swordmaster Ave alongside Lune, a Starfarer sorceress AI companion, in parry-first combat against the corrupting darkness Nihilus — Steam store page"
+  - tier: "Editorial"
+    text: "First-hour advice and control tips are this guide's own recommendations"
 ---
 
 # Lunarium Beginner Guide — Getting Started

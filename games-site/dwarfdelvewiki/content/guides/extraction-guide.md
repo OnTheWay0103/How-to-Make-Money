@@ -9,6 +9,11 @@ related:
   - beginner-guide
   - mining-strategies-guide
   - tips-and-tricks
+sources:
+  - tier: "Official"
+    text: "The mine collapses from the start of a run and the elevator leaves on a schedule; anything not extracted is lost — Steam store page"
+  - tier: "Editorial"
+    text: "Extraction timing and defense priorities are this guide's own recommendations"
 ---
 
 ## Extraction: The Moment of Truth

@@ -5,6 +5,11 @@ keywords: ['system requirements', 'pc specs', 'minimum requirements', 'recommend
 category: 'Technical'
 version: '1.0'
 updated: '2026-08-11'
+sources:
+  - tier: "Official"
+    text: "Minimum: Windows 10, i5-9400F, 8 GB RAM, GTX 1660, DirectX 12, 25 GB storage; recommended: i7-9700F, 16 GB RAM, RTX 3060, DirectX 12, 25 GB; an SSD is strictly required at both tiers — Steam store page"
+  - tier: "Editorial"
+    text: "Performance advice (settings mapping and SSD-first priority) is the site's own guidance, not official benchmarks"
 ---
 
 ## DragonSword: Awakening System Requirements & PC Specs Guide

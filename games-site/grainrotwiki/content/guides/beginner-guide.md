@@ -6,6 +6,13 @@ version: '1.0'
 updated: '2026-08-11'
 keywords: ['grain rot beginner guide', 'grain rot getting started', 'grain rot tips', 'grain rot how to play', 'grain rot tutorial']
 related: ['all-enemies-guide', 'co-op-guide', 'extraction-guide', 'demo-guide', 'game-mechanics-systems-guide']
+sources:
+  - tier: "Official"
+    text: "Co-op extraction horror from Stockholm-based indie studio Beck & Branch Games, published by Neem Interactive; launched August 7, 2026 on Steam — Steam store page"
+  - tier: "Official"
+    text: "Players are 'Living Sparks' inhabiting fragile wooden vessels that can splinter or catch fire; runs descend into procedurally shifting underground ruins — Steam store page"
+  - tier: "Editorial"
+    text: "First-run priorities and vessel tips in this guide are the site's own recommendations, not official guidance"
 ---
 
 # Beginner Guide — Getting Started in Grain Rot

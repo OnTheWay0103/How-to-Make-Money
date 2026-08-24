@@ -5,6 +5,13 @@ keywords: ['dlc', 'abyssal direwolf', 'free dlc', 'how to claim dlc', 'costume d
 category: 'DLC'
 version: '1.0'
 updated: '2026-08-11'
+sources:
+  - tier: "Official"
+    text: "The Abyssal Direwolf familiar DLC is free on Steam during its claim window; the Phantom Thief of Dawn costume is a paid cosmetic add-on; a Deluxe Pack is sold separately — Steam store page"
+  - tier: "Community"
+    text: "Free-claim deadline reporting varies across gaming outlets (reported August 30-31, 2026), and post-promo prices are reported inconsistently — press coverage"
+  - tier: "Editorial"
+    text: "Advice to claim the free familiar before the window closes is the site's own recommendation"
 ---
 
 ## DragonSword: Awakening DLC & Add-Ons Guide

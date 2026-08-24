@@ -9,6 +9,11 @@ related:
   - mining-strategies-guide
   - enemies-hazards-guide
   - extraction-guide
+sources:
+  - tier: "Official"
+    text: "Procedurally generated mines are confirmed; named biomes have not been published — Steam store page"
+  - tier: "Editorial"
+    text: "Depth-based risk and reward reasoning in this guide is the site's own analysis"
 ---
 
 ## The World Below: What's Confirmed

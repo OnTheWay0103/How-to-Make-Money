@@ -6,6 +6,11 @@ version: "1.0"
 updated: "2026-08-11"
 keywords: ["grain rot system requirements", "grain rot pc specs", "grain rot minimum requirements", "grain rot recommended specs", "grain rot performance", "grain rot steam deck", "grain rot settings"]
 related: ["full-release-guide", "release-date-faq", "controller-guide", "demo-guide"]
+sources:
+  - tier: "Official"
+    text: "Minimum: Windows 10 64-bit, i5-4590 / Ryzen 5 2600, GTX 970 / R9 390, 8 GB RAM, 10 GB storage; recommended: i5-10600 / Ryzen 5 3600, RTX 2060 / RX 5700 — Steam store page"
+  - tier: "Editorial"
+    text: "Performance tuning and settings advice are the site's own guidance, not official benchmarks"
 ---
 
 # Grain Rot System Requirements — PC Specs, Performance & Settings

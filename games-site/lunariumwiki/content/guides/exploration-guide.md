@@ -16,6 +16,11 @@ related:
   - white-reef-isles-walkthrough
   - archipelago-walkthrough
   - endgame-content
+sources:
+  - tier: "Official"
+    text: "The game is structured around four regions — Firleaves, Cyanstone, White Reef Isles, and Paradise — with a central hub, rather than an open world — official materials and walkthrough coverage"
+  - tier: "Editorial"
+    text: "Treasure-hunting and exploration priorities are this guide's own advice"
 ---
 
 # Exploration Guide — The Four Regions & Hidden Treasures

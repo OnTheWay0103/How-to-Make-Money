@@ -15,6 +15,11 @@ related:
   - combat-guide
   - endings-guide
   - coop-guide
+sources:
+  - tier: "Official"
+    text: "Released July 29, 2026 on Steam; $17.99 with a 10% launch discount; developed by Lunarium Game Studio and published by Imperfect Games; supported languages include English and Simplified and Traditional Chinese — Steam store page and press coverage"
+  - tier: "Editorial"
+    text: "FAQ answers are the site's own summaries of official sources, press coverage, and community walkthroughs"
 ---
 
 # Lunarium FAQ — Frequently Asked Questions

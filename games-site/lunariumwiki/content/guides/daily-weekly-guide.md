@@ -15,6 +15,11 @@ related:
   - endgame-content
   - equipment-guide
   - exploration-guide
+sources:
+  - tier: "Official"
+    text: "Lunarium is a single-player ARPG with no live-service systems, dailies, or weekly resets — Steam store page"
+  - tier: "Editorial"
+    text: "How progression actually works instead is this guide's own explanation of the confirmed systems"
 ---
 
 # Lunarium Progression Guide — No Dailies, No Weekly Resets

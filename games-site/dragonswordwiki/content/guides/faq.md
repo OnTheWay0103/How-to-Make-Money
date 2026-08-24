@@ -5,6 +5,11 @@ keywords: ['FAQ', 'frequently asked questions', 'common questions', 'game info',
 category: 'FAQ'
 version: '1.0'
 updated: '2026-08-11'
+sources:
+  - tier: "Official"
+    text: "Buy-to-play open-world action RPG by South Korean studio Hound13 Inc.; launched July 22-23, 2026 on Steam; $29.99 base with a Deluxe Edition bundle; no gacha, and all 19 heroes earnable in-game — Steam store page"
+  - tier: "Editorial"
+    text: "FAQ answers on this page are the site's own summaries of the confirmed facts"
 ---
 
 ## DragonSword: Awakening — Frequently Asked Questions

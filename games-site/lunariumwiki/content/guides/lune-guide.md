@@ -16,6 +16,11 @@ related:
   - combat-guide
   - boss-guide
   - equipment-guide
+sources:
+  - tier: "Official"
+    text: "Lune is a Starfarer sorceress who acts as an AI companion, using light arrows, interrupts, and healing in combat — Steam store page and press coverage"
+  - tier: "Editorial"
+    text: "Lune ability usage tactics are the site's own advice"
 ---
 
 # Lunarium Lune Guide — Starfarer Abilities & Support Tactics

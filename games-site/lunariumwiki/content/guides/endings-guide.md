@@ -15,6 +15,13 @@ related:
   - boss-guide
   - endgame-content
   - faq
+sources:
+  - tier: "Official"
+    text: "Official press materials state the story converges toward two distinct endings; the ending comes after defeating the final boss — official press release carried by Gematsu and other outlets"
+  - tier: "Community"
+    text: "Enid's role as the final boss is confirmed by community walkthroughs of the released game"
+  - tier: "Editorial"
+    text: "Anything beyond the two confirmed endings is the site's own inference and is marked unconfirmed in the guide"
 ---
 
 # Lunarium Endings Guide — Two Endings, What's Confirmed & What Isn't

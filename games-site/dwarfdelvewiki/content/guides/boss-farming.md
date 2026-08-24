@@ -10,6 +10,11 @@ related:
   - mining-strategies-guide
   - extraction-guide
   - perks-skills-guide
+sources:
+  - tier: "Official"
+    text: "No bosses or raids have been officially confirmed; the endgame loop is deep mining, relic hunting, rail hauling, and permanent upgrades — official announcements"
+  - tier: "Editorial"
+    text: "Farming-loop strategy is the site's own guidance"
 ---
 
 ## Bosses of the Deep: The Honest Picture

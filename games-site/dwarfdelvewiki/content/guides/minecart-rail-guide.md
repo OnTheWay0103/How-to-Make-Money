@@ -6,6 +6,11 @@ category: Building
 version: '1.0'
 updated: '2026-08-01'
 related: ['crafting-guide', 'mining-strategies-guide', 'extraction-guide']
+sources:
+  - tier: "Official"
+    text: "The minecart and rail system is confirmed to shift and store heavy ores — Steam store page and official announcements"
+  - tier: "Editorial"
+    text: "Rail network strategy and route planning are this guide's own suggestions"
 ---
 
 ## The Minecart System: What's Confirmed

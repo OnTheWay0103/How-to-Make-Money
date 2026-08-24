@@ -6,6 +6,13 @@ version: '1.0'
 updated: '2026-08-11'
 keywords: ['endgame guide', 'tower of trials', 'raids', 'world boss', 'hunts', 'rift system', 'endgame content']
 related: ['dungeon-raids', 'boss-guide', 'equipment-guide', 'familiars-guide', 'tier-list']
+sources:
+  - tier: "Official"
+    text: "The Tower of Trials is a 50-floor gauntlet per the official game description; World Bosses, Hunts, and familiar collection are confirmed activities — official description and Steam store page"
+  - tier: "Official"
+    text: "The Rift System is an announced post-launch feature with no release date — developer announcements"
+  - tier: "Editorial"
+    text: "Endgame priority suggestions are the site's own recommendations"
 ---
 
 ## DragonSword: Awakening Endgame Guide

@@ -16,6 +16,13 @@ related:
   - lune-guide
   - boss-guide
   - equipment-guide
+sources:
+  - tier: "Official"
+    text: "Parry-first combat with precisely timed parries and dodges is the game's core design; Lune acts as a combat partner — Steam store page and press coverage"
+  - tier: "Community"
+    text: "Stagger bar and Resonance gauge behavior are verified through community walkthroughs of the released game"
+  - tier: "Editorial"
+    text: "Exact combat numbers are not published in any reliable source, so this guide's advice is qualitative"
 ---
 
 # Lunarium Combat Guide — Parry, Dodge, Resonance & Lune

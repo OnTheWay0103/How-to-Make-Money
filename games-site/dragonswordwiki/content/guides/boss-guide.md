@@ -5,6 +5,13 @@ keywords: ['boss guide', 'all bosses', 'world boss', 'Grassland Lesser Dragon', 
 category: 'Bosses'
 version: '1.0'
 updated: '2026-08-11'
+sources:
+  - tier: "Official"
+    text: "Confirmed story boss names (the Orc Warrior first encounter through the Ursula final boss) are verified against official hero reveals and store-page material — official announcements"
+  - tier: "Community"
+    text: "Boss fight patterns are reported from player footage and Steam Community discussions, not official strategy guides"
+  - tier: "Editorial"
+    text: "Preparation advice and difficulty assessments are the site's own suggestions"
 ---
 
 ## DragonSword: Awakening Boss Guide

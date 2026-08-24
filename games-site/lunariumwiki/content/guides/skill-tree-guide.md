@@ -16,6 +16,11 @@ related:
   - equipment-guide
   - beginner-guide
   - boss-guide
+sources:
+  - tier: "Official"
+    text: "Unlocks are progression-gated skills, collectible resources, and story-earned tools rather than a level or XP system — official materials"
+  - tier: "Editorial"
+    text: "Unlock order suggestions are this guide's own recommendations"
 ---
 
 # Lunarium Skill Tree & Ability Unlock Guide

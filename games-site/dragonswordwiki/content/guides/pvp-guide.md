@@ -6,6 +6,11 @@ version: '1.0'
 updated: '2026-08-01'
 keywords: ['dragonsword awakening pvp', 'dragonsword awakening multiplayer', 'dragonsword awakening co-op', 'dragonsword awakening 2 player', 'dragonsword awakening raids', 'play dragonsword with friends']
 related: ['beginner-guide', 'combat-guide', 'endgame-guide', 'boss-guide', 'dungeon-raids']
+sources:
+  - tier: "Official"
+    text: "No PvP mode in the July 2026 release; online co-op supports up to 2 players in Battle and up to 3 in Raids, host-based with no regional restrictions — Steam store page"
+  - tier: "Editorial"
+    text: "The assessment that the game is fully PvE-focused is the site's own reading of the confirmed facts"
 ---
 
 # Is There PvP in DragonSword: Awakening? Co-op & Multiplayer Guide

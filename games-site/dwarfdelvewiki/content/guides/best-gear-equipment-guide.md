@@ -10,6 +10,11 @@ related:
   - crafting-guide
   - beginner-guide
   - mining-strategies-guide
+sources:
+  - tier: "Official"
+    text: "Confirmed toolset: Battlemallet (mining and combat), lanterns, flares, floodlights, support beams, ladders, and minecart rails; gear is upgradeable and customizable — Steam store page and official announcements"
+  - tier: "Editorial"
+    text: "Upgrade ordering and priority rankings are the site's own recommendations"
 ---
 
 ## Your Tools Are Your Lifeline

@@ -5,6 +5,13 @@ keywords: ['beginner guide', 'getting started', 'tips and tricks', 'how to play'
 category: 'Beginner'
 version: '1.0'
 updated: '2026-08-11'
+sources:
+  - tier: "Official"
+    text: "Anime-style open-world action RPG built on Unreal Engine 5, developed and self-published by Hound13 Inc.; released July 22-23, 2026 on Steam as a buy-to-play title with no gacha — Steam store page"
+  - tier: "Official"
+    text: "Story follows Lute, a boy who becomes a mercenary; a Dragon reawakened 60 years after six Heroes saved the Continent of Orbis; 19 Heroes with distinct Status Ailment abilities and tag-team 'Switching Signals' combat — Steam store page"
+  - tier: "Editorial"
+    text: "Starting-trio guidance for Lute, Castella, and Aria is this guide's own advice based on their confirmed kits"
 ---
 
 ## Welcome to DragonSword: Awakening

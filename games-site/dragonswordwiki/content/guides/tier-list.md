@@ -5,6 +5,11 @@ keywords: ['tier list', 'best heroes', 'hero ranking', 'character tier list', 's
 category: 'Tier List'
 version: '1.0'
 updated: '2026-08-11'
+sources:
+  - tier: "Community"
+    text: "Early-meta placements are built from Steam Community player reports and confirmed hero kits, not official ratings"
+  - tier: "Editorial"
+    text: "Tier placements are the site's own editorial judgment and will shift as the meta develops"
 ---
 
 ## DragonSword: Awakening Hero Tier List (August 2026)

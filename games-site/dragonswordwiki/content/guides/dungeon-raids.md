@@ -6,6 +6,11 @@ version: '1.0'
 updated: '2026-08-01'
 keywords: ['dragonsword awakening raids', 'dragonsword awakening raid guide', 'dragonsword awakening 3 player raid', 'dragonsword awakening raid co-op', 'dragonsword awakening endgame raids', 'dragonsword awakening raid loot']
 related: ['endgame-guide', 'combat-guide', 'boss-guide', 'pvp-guide']
+sources:
+  - tier: "Official"
+    text: "Online co-op supports up to 3 players in Raids, with host-based sessions and no regional restrictions — Steam store page"
+  - tier: "Editorial"
+    text: "Team setup and loot expectations in this guide are the site's own reasoning where mechanics are unconfirmed"
 ---
 
 ## Raids in DragonSword: Awakening

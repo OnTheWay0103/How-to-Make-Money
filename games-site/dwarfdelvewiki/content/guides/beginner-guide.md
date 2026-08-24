@@ -9,6 +9,11 @@ related:
   - mining-strategies-guide
   - extraction-guide
   - crafting-guide
+sources:
+  - tier: "Official"
+    text: "First-person extraction roguelite from solo developer Gloom Box (Dante Knoxx), published by indie.io; released July 27, 2026 on Steam; descend into procedurally generated mines as a Delveling wielding a Battlemallet — Steam store page and press release"
+  - tier: "Editorial"
+    text: "First-descent priorities and survival tips are this guide's own advice"
 ---
 
 ## Welcome to the Mines, Delveling

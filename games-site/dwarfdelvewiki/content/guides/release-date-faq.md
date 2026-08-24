@@ -10,6 +10,11 @@ related:
   - meta-progression-guide
   - is-dwarf-delve-worth-it
   - achievements-guide
+sources:
+  - tier: "Official"
+    text: "Released July 27, 2026 on Steam, also listed on Epic Games Store and GOG; $12.99; single-player only; 21 Steam achievements; English only at launch; developed by Gloom Box and published by indie.io — Steam store page and press release"
+  - tier: "Editorial"
+    text: "FAQ answers on this page are the site's own summaries of the verified facts"
 ---
 
 ## Release Information

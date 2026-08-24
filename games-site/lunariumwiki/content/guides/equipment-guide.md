@@ -16,6 +16,11 @@ related:
   - exploration-guide
   - combat-guide
   - boss-guide
+sources:
+  - tier: "Official"
+    text: "Equipment consists of sword weapons, cloaks with unique effects, and equippable Embroidery charms, upgraded at the Temple — Steam store page and press coverage"
+  - tier: "Editorial"
+    text: "Best-in-slot and upgrade-order suggestions are the site's own recommendations"
 ---
 
 # Lunarium Equipment Guide — Cloaks, Embroidery & Weapons

@@ -9,6 +9,11 @@ related:
   - beginner-guide
   - extraction-guide
   - tips-and-tricks
+sources:
+  - tier: "Official"
+    text: "Confirmed threats are mine collapses, long-forgotten traps, and darkness; no official enemy roster has been published — Steam store page and official announcements"
+  - tier: "Editorial"
+    text: "Hazard-avoidance strategy is the site's own guidance"
 ---
 
 ## What Lurks in the Deep: The Honest Catalog

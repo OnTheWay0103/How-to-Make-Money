@@ -5,6 +5,11 @@ keywords: ['hero unlock guide', 'all characters', 'how to unlock heroes', 'chara
 category: 'Heroes'
 version: '1.0'
 updated: '2026-08-11'
+sources:
+  - tier: "Official"
+    text: "All 19 heroes are obtainable through story progression and gameplay with no paid heroes; four post-launch free heroes (Ryza, Jerome, Veronica, Logan) are confirmed for the second half of 2026 — official announcements"
+  - tier: "Editorial"
+    text: "Unlock-path priorities are this guide's own suggestions"
 ---
 
 ## Unlock Every Hero in DragonSword: Awakening

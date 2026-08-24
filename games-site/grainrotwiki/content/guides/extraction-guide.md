@@ -6,6 +6,11 @@ version: '1.0'
 updated: '2026-08-11'
 keywords: ['grain rot extraction', 'grain rot how to extract', 'grain rot extraction guide', 'grain rot elevator', 'grain rot survive']
 related: ['beginner-guide', 'co-op-guide', 'endgame-survival', 'game-mechanics-systems-guide', 'demo-guide']
+sources:
+  - tier: "Official"
+    text: "Extraction is the confirmed core loop: ride the elevator down into the ruins, scavenge, and return alive; if every teammate's vessel breaks, the run's loot is lost — Steam store page"
+  - tier: "Editorial"
+    text: "Elevator timing and risk-management thresholds in this guide are the site's own recommendations"
 ---
 
 # Extraction Guide — How to Extract Successfully in Grain Rot

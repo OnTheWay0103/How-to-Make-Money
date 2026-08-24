@@ -6,6 +6,13 @@ version: '1.0'
 updated: '2026-08-11'
 keywords: ['grain rot release date', 'grain rot platforms', 'grain rot price', 'grain rot demo', 'grain rot system requirements', 'grain rot faq', 'grain rot ps5', 'grain rot xbox']
 related: ['full-release-guide', 'demo-guide', 'player-count-guide', 'beginner-guide', 'price-editions-guide']
+sources:
+  - tier: "Official"
+    text: "Released August 7, 2026 on Steam as a full 1.0 release; developed by Beck & Branch Games and published by Neem Interactive; PC via Steam is the only announced platform — Steam store page"
+  - tier: "Official"
+    text: "Full release ships with 11 supported languages (English and German with full audio) — Steam store page"
+  - tier: "Editorial"
+    text: "FAQ answers on this page are the site's own summaries of the confirmed facts above"
 ---
 
 # Release Date, Platforms & FAQ — Everything We Know About Grain Rot

@@ -6,6 +6,11 @@ version: '1.0'
 updated: '2026-08-11'
 keywords: ['grain rot weapons', 'grain rot tools', 'grain rot constructs list', 'grain rot weapon guide', 'grain rot best weapons', 'grain rot grinder']
 related: ['best-vessels-guide', 'crafting-resources-guide', 'demo-guide', 'stealth-sound-guide']
+sources:
+  - tier: "Official"
+    text: "The demo includes 20+ unlockable constructs — weapons, tools, and utilities; 'tactical carpentry' and the Grinder are official features — official demo announcement and Steam store page"
+  - tier: "Editorial"
+    text: "Unlock priority and loadout logic are this guide's own recommendations; individual construct stats are marked unverified"
 ---
 
 # Weapons & Tools Guide — All Constructs in Grain Rot (Confirmed Facts)

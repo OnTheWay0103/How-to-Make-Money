@@ -6,6 +6,11 @@ version: '1.0'
 updated: '2026-08-11'
 keywords: ['grain rot how many players', 'grain rot max players', 'grain rot player count', 'grain rot co-op', 'grain rot multiplayer', 'grain rot solo', 'grain rot single player', 'grain rot party size']
 related: ['co-op-guide', 'solo-guide', 'release-date-faq', 'demo-guide', 'beginner-guide']
+sources:
+  - tier: "Official"
+    text: "Steam page lists Single-player and Online Co-Op; press materials describe 1-4 player online co-op, and the demo supports the same modes — Steam store page"
+  - tier: "Editorial"
+    text: "The reading that Grain Rot is co-op-first but solo-viable is this guide's own assessment of the confirmed facts"
 ---
 
 # Grain Rot Player Count — Max Players, Solo & Co-op Explained

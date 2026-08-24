@@ -6,6 +6,11 @@ version: '1.0'
 updated: '2026-08-11'
 keywords: ['grain rot co-op', 'grain rot multiplayer', 'grain rot team strategy', 'grain rot co op guide', 'grain rot teamwork', 'grain rot how many players']
 related: ['player-count-guide', 'solo-guide', 'beginner-guide', 'extraction-guide', 'demo-guide']
+sources:
+  - tier: "Official"
+    text: "Online co-op for 1-4 players with physics-driven chaos as a listed feature: dropkicks, friendly fire, 'rage-bait your friends with cursed emotes', and team-wide loot loss if everyone breaks — Steam store page and press materials"
+  - tier: "Editorial"
+    text: "The confirmed-role team strategy framework in this guide is the site's own advice, not an official role system"
 ---
 
 # Co-op Guide — Multiplayer Tips & Team Strategies

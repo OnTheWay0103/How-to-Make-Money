@@ -10,6 +10,11 @@ related:
   - meta-progression-guide
   - extraction-guide
   - release-date-faq
+sources:
+  - tier: "Official"
+    text: "The game ships with 21 Steam achievements plus Trading Cards, Cloud, and Family Sharing; four achievements are named in official materials: Greenbeard, Pack Mule, D.I.Y, Legend — Steam store page and official announcements"
+  - tier: "Editorial"
+    text: "Likely unlock themes for the named achievements are the site's own inference, not official unlock data"
 ---
 
 ## The Achievement Picture: What's Confirmed

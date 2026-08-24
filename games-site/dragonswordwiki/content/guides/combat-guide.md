@@ -5,6 +5,11 @@ keywords: ['combat guide', 'signal skills', 'tag team', 'combo guide', 'status a
 category: 'Combat'
 version: '1.0'
 updated: '2026-08-11'
+sources:
+  - tier: "Official"
+    text: "Tag-team combat is the core system: stack Status Ailments with Active Skills, chain Signal Skills, and switch heroes mid-combo via Switching Signals — Steam store page"
+  - tier: "Editorial"
+    text: "Combo prioritization and ailment-stacking tips are this guide's own advice built on the confirmed systems"
 ---
 
 ## DragonSword: Awakening Combat Guide

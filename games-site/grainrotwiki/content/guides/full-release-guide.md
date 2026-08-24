@@ -6,6 +6,13 @@ version: '1.0'
 updated: '2026-08-11'
 keywords: ['grain rot 1.0', 'grain rot full release', 'grain rot new content', 'grain rot what’s new', 'grain rot 1.0 changes', 'grain rot demo vs full game', 'grain rot launch content', 'grain rot boss', 'grain rot release date', 'grain rot launch guide', 'grain rot august 7', 'grain rot what to do first', 'grain rot launch day']
 related: ['demo-guide', 'release-date-faq', 'all-biomes-guide', 'game-mechanics-systems-guide', 'solo-guide', 'price-editions-guide', 'system-requirements', 'beginner-guide']
+sources:
+  - tier: "Official"
+    text: "1.0 launched August 7, 2026 as a full release, not Early Access; additions include 2 new biomes, a boss encounter, elite enemies, Spark abilities, player leveling, a second Outpost floor, and an enchantment and repair machine — publisher launch announcement"
+  - tier: "Official"
+    text: "Gamepad support and difficulty rebalancing for solo and small groups also arrived with the 1.0 launch — publisher launch announcement"
+  - tier: "Editorial"
+    text: "First-24-hours priorities and launch-week advice are this guide's own suggestions"
 ---
 
 # Grain Rot Full Release & Launch Guide — What's New in 1.0, First 24 Hours & FAQ

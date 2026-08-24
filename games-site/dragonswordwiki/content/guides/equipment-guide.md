@@ -6,6 +6,11 @@ version: '1.0'
 updated: '2026-08-11'
 keywords: ['best equipment', 'relics guide', 'karma gear', 'weapon guide', 'best weapons', 'how to get gear', 'gear farming']
 related: ['endgame-guide', 'hero-builds-guide', 'team-compositions', 'tier-list']
+sources:
+  - tier: "Official"
+    text: "Weapons are fixed to each hero's signature weapon; treasure hunting and dungeon exploration are listed core activities; Karma gear is the high-end tier tied to World Bosses and the Tower of Trials — official hero reveals and Steam store page"
+  - tier: "Editorial"
+    text: "Upgrade and farming priorities are the site's own guidance"
 ---
 
 ## DragonSword: Awakening Equipment Guide

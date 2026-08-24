@@ -14,6 +14,11 @@ related:
   - lune-guide
   - beginner-guide
   - faq
+sources:
+  - tier: "Official"
+    text: "Lunarium is a single-player game with no multiplayer modes; Lune is an AI companion, not a second player — Steam store page"
+  - tier: "Editorial"
+    text: "Answers to co-op questions are the site's own summaries of the confirmed facts"
 ---
 
 # Is Lunarium Co-op? — Multiplayer Explained

@@ -8,6 +8,11 @@ updated: '2026-08-11'
 related:
   - beginner-guide
   - release-date-faq
+sources:
+  - tier: "Official"
+    text: "The Steam listing shows Single-player only, with no multiplayer modes — Steam store page"
+  - tier: "Editorial"
+    text: "Commentary on why co-op rumors spread is the site's own analysis"
 ---
 
 ## The Short Answer

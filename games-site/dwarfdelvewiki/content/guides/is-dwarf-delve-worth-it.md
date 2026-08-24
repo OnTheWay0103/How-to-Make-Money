@@ -9,6 +9,13 @@ related:
   - release-date-faq
   - beginner-guide
   - meta-progression-guide
+sources:
+  - tier: "Official"
+    text: "$12.99 on Steam with a 20% launch discount to $10.39 through August 10, 2026; 21 achievements; GTX 660 minimum and 3 GB storage — Steam store page"
+  - tier: "Community"
+    text: "Early Steam review sentiment was mostly negative (roughly 31-32% positive of about 25-35 reviews in early August 2026) — Steam review statistics"
+  - tier: "Editorial"
+    text: "The overall worth-it verdict is the site's own opinion"
 ---
 
 ## The Verdict Up Front

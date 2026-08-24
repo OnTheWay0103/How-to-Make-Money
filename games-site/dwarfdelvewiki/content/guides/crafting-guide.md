@@ -10,6 +10,11 @@ related:
   - minecart-rail-guide
   - beginner-guide
   - meta-progression-guide
+sources:
+  - tier: "Official"
+    text: "Confirmed craftables include support beams, ladders, platforms, flares, floodlights, and minecart rails; refining, upgrading, and decorating quarters are confirmed systems — Steam store page and official announcements"
+  - tier: "Editorial"
+    text: "Crafting priorities are this guide's own suggestions"
 ---
 
 ## Crafting Underground

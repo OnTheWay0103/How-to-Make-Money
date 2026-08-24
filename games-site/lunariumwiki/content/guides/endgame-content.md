@@ -16,6 +16,11 @@ related:
   - daily-weekly-guide
   - exploration-guide
   - skill-tree-guide
+sources:
+  - tier: "Official"
+    text: "After the ending you can resume from the last bench; no raids, weekly rotations, or New Game Plus are confirmed — official materials and community walkthroughs"
+  - tier: "Editorial"
+    text: "Post-game to-do priorities are the site's own suggestions"
 ---
 
 # Lunarium Endgame Guide — Post-Credits Content (Honest)

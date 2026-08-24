@@ -16,6 +16,13 @@ related:
   - archipelago-walkthrough
   - combat-guide
   - endings-guide
+sources:
+  - tier: "Official"
+    text: "Boss encounter order from the Longhorn Troll through the final boss Enid is confirmed by official press materials and walkthrough coverage of the released game"
+  - tier: "Community"
+    text: "Boss fight patterns and strategy notes are compiled from community walkthroughs of the released game"
+  - tier: "Editorial"
+    text: "Strategy ratings and preparation advice are the site's own suggestions"
 ---
 
 # Lunarium Boss Guide — All Bosses & Strategies
