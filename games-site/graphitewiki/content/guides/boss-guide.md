@@ -11,6 +11,13 @@ related:
   - builds-artifacts-guide
   - beginner-guide
   - graphite-demo-guide
+sources:
+  - tier: "Official"
+    text: "Acts end in major confrontations and the final threat is Death, the notebook's antagonist — official story description"
+  - tier: "Community"
+    text: "Demo player reports of act-end fights inform the general tactics"
+  - tier: "Editorial"
+    text: "Our boss preparation checklist is editorial advice"
 ---
 
 ## Boss Overview — What We Actually Know

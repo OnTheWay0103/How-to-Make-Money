@@ -11,6 +11,13 @@ related:
   - combat-guide
   - graphite-demo-guide
   - how-to-unlock-heroes
+sources:
+  - tier: "Official"
+    text: "The full game features 7 heroes, with 4 playable in the free Act 1 demo; The Knight and The Mage are the roster confirmed so far — Steam pages"
+  - tier: "Community"
+    text: "Playstyle breakdowns of the five unconfirmed heroes are community-informed"
+  - tier: "Editorial"
+    text: "Hero strength assessments are our editorial evaluation"
 ---
 
 ## Hero Roster Overview

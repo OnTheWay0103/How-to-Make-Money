@@ -6,6 +6,13 @@ version: "1.0"
 updated: "2026-08-08"
 keywords: ["waterpark simulator faq", "waterpark simulator questions", "is waterpark simulator multiplayer", "waterpark simulator steam deck", "waterpark simulator save file location", "waterpark simulator how long to beat"]
 related: ["price-platforms-system-requirements", "beginner-guide", "museum-questline-guide", "research-tree-guide"]
+sources:
+  - tier: "Official"
+    text: "1.0 release date, $12.99 price, platforms, and 4-player co-op per official announcements"
+  - tier: "Community"
+    text: "Community-documented answers for gameplay questions"
+  - tier: "Editorial"
+    text: "Answers to subjective questions are our editorial opinion"
 ---
 
 # Waterpark Simulator FAQ — Everything You Need to Know

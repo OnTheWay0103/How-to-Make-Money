@@ -9,6 +9,13 @@ related:
   - release-date-ea-guide
   - coop-multiplayer-guide
   - crafting-recipes-chart
+sources:
+  - tier: "Official"
+    text: "Free demo on Steam with farming, building, and dungeon content plus 8-player online co-op; a boss encounter was added in the February 2026 Major Demo Update — official demo announcements"
+  - tier: "Community"
+    text: "Demo run length of roughly 1-2 hours is community-reported"
+  - tier: "Editorial"
+    text: "Beginner tips are our editorial advice"
 ---
 
 # Delverium Demo Guide — Download, Content & Beginner Tips

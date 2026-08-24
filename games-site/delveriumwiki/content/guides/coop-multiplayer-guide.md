@@ -9,6 +9,13 @@ related:
   - release-date-ea-guide
   - demo-guide
   - dungeons-bosses-chart
+sources:
+  - tier: "Official"
+    text: "Online co-op for up to 8 players via Steam with 4-player local split-screen and drop-in/drop-out support — official Steam page"
+  - tier: "Community"
+    text: "Hosting and joining experiences are community-reported from the demo"
+  - tier: "Editorial"
+    text: "Role division tips are our editorial suggestions"
 ---
 
 # Delverium Co-op & Multiplayer Guide

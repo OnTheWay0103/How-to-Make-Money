@@ -6,6 +6,13 @@ version: "1.0"
 updated: "2026-08-08"
 keywords: ["waterpark simulator staff", "waterpark simulator employees", "waterpark simulator hire staff", "waterpark simulator cashier", "waterpark simulator janitor", "waterpark simulator staff guide", "waterpark simulator hiring"]
 related: ["research-tree-guide", "beginner-guide", "visitor-happiness-guide", "money-making-guide"]
+sources:
+  - tier: "Official"
+    text: "Staff roles (cashier, vendor, janitor, lifeguard, handyman, security, mascot) per official feature description"
+  - tier: "Community"
+    text: "Hiring costs and efficiency are community-verified"
+  - tier: "Editorial"
+    text: "Hiring order is our editorial recommendation"
 ---
 
 # Waterpark Simulator Staff Management Guide

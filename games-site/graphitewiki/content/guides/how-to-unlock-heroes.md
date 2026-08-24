@@ -9,6 +9,13 @@ related:
   - heroes-guide
   - beginner-guide
   - graphite-demo-guide
+sources:
+  - tier: "Official"
+    text: "The full game has 7 heroes and the demo has 4; unlock methods beyond the confirmed roster are not officially detailed — Steam pages"
+  - tier: "Community"
+    text: "Friendship and bond leveling details are community-reported"
+  - tier: "Editorial"
+    text: "Unlock speculation is clearly marked as our assessment"
 ---
 
 ## How Hero Unlocking Works — What We Know

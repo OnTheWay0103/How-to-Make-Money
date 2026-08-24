@@ -6,6 +6,13 @@ version: "1.0"
 updated: "2026-08-08"
 keywords: ["waterpark simulator tier list", "waterpark simulator best slides", "waterpark simulator attractions", "waterpark simulator all slides", "waterpark simulator rides list", "waterpark simulator wave pool", "waterpark simulator lazy river", "waterpark simulator what to build"]
 related: ["money-making-guide", "park-design-layout-guide", "museum-questline-guide", "beginner-guide"]
+sources:
+  - tier: "Official"
+    text: "Attraction types (custom mega-slides, wave pools, lazy rivers, splash zones, food stalls) per official feature description"
+  - tier: "Community"
+    text: "Performance and profit data are community-tested"
+  - tier: "Editorial"
+    text: "Tier rankings are explicitly our editorial assessment"
 ---
 
 # Waterpark Simulator Slide & Ride Tier List & Attractions Reference

@@ -11,6 +11,13 @@ related:
   - demo-guide
   - melee-combat-build-guide
   - ranged-magic-build-guide
+sources:
+  - tier: "Official"
+    text: "Crafting covers food, tools, weapons, armor, and building materials with nested crafting and inventory QoL — official Steam page description"
+  - tier: "Community"
+    text: "Recipe specifics are community-verified from the demo"
+  - tier: "Editorial"
+    text: "Our early-game recipe plan is editorial recommendation"
 ---
 
 # Delverium Crafting Guide — System Overview & Essential Recipes

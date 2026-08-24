@@ -10,6 +10,13 @@ related:
   - beginner-guide
   - how-to-unlock-heroes
   - graphite-demo-guide
+sources:
+  - tier: "Official"
+    text: "Only The Knight and The Mage are officially confirmed; no official tier data exists — Steam store page"
+  - tier: "Community"
+    text: "Early player impressions from the demo inform the rankings"
+  - tier: "Editorial"
+    text: "Tier placements are explicitly our editorial assessment"
 ---
 
 ## An Honest Preface About Tier Lists

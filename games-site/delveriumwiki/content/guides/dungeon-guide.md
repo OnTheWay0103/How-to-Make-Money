@@ -11,6 +11,13 @@ related:
   - crafting-recipes-chart
   - melee-combat-build-guide
   - ranged-magic-build-guide
+sources:
+  - tier: "Official"
+    text: "High-risk dungeon crawling into exotic biomes, hidden caves, and dangerous dungeons for ores, materials, and loot — official Steam page description"
+  - tier: "Community"
+    text: "Dive strategies are community-reported from the demo"
+  - tier: "Editorial"
+    text: "Loot priorities and prep checklist are our editorial recommendations"
 ---
 
 # Delverium Dungeon Guide — Boss Strategies & Dive Tips

@@ -6,6 +6,13 @@ version: "1.0"
 updated: "2026-08-08"
 keywords: ["waterpark simulator price", "waterpark simulator system requirements", "waterpark simulator platforms", "waterpark simulator ps5", "waterpark simulator xbox", "waterpark simulator steam deck", "is waterpark simulator on console"]
 related: ["faq", "beginner-guide", "controls-guide"]
+sources:
+  - tier: "Official"
+    text: "$12.99 at 1.0 with no price increase; PC (Steam), PS5, and Xbox Series X|S; official system requirements published — official announcements and store pages"
+  - tier: "Community"
+    text: "Regional pricing reports from players"
+  - tier: "Editorial"
+    text: "Edition value notes are our editorial opinion"
 ---
 
 # Waterpark Simulator Price, Platforms & System Requirements

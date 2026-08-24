@@ -10,6 +10,13 @@ related:
   - demo-guide
   - beginner-guide
   - release-date-ea-guide
+sources:
+  - tier: "Official"
+    text: "4-player local split-screen co-op with full controller support — official Steam page"
+  - tier: "Community"
+    text: "Couch co-op setup experiences come from the demo community"
+  - tier: "Editorial"
+    text: "Split-screen setup steps are our editorial guidance"
 ---
 
 # Delverium Split-Screen Guide — 4-Player Couch Co-op Setup

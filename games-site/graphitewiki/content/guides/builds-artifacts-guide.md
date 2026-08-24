@@ -10,6 +10,13 @@ related:
   - combat-guide
   - beginner-guide
   - graphite-demo-guide
+sources:
+  - tier: "Official"
+    text: "Artifacts stack with no upper cap, and enemies can pick up artifacts too — official Steam page description"
+  - tier: "Community"
+    text: "Archetype synergies are community-discovered from demo runs"
+  - tier: "Editorial"
+    text: "Build recommendations are our editorial assessment"
 ---
 
 ## No Weapon System — What Equipment Exists Instead

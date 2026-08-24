@@ -10,6 +10,13 @@ related:
   - release-date-ea-guide
   - crafting-recipes-chart
   - coop-multiplayer-guide
+sources:
+  - tier: "Official"
+    text: "Co-op survival sandbox RPG launching into Steam Early Access on September 22, 2026 — official announcements"
+  - tier: "Community"
+    text: "First-day survival priorities are informed by demo player reports"
+  - tier: "Editorial"
+    text: "Our recommended starting order is editorial advice"
 ---
 
 # Delverium Beginner Guide — First Day Survival & Getting Started

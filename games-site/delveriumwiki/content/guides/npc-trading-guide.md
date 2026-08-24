@@ -10,6 +10,13 @@ related:
   - crafting-recipes-chart
   - coop-multiplayer-guide
   - demo-guide
+sources:
+  - tier: "Official"
+    text: "Recruiting wandering NPCs into your settlement and trading with them is part of the officially described core loop — official Steam page"
+  - tier: "Community"
+    text: "Specific traders such as the chicken and sheep trader are community-documented"
+  - tier: "Editorial"
+    text: "Trading tips are our editorial advice"
 ---
 
 > **Pre-release guide — updated for EA launch (Sept 22, 2026).** Delverium enters Steam Early Access on September 22, 2026. NPC recruitment and trading are confirmed systems; NPC roster, names and full wares lists are unverified until launch and EA updates.

@@ -10,6 +10,13 @@ related:
   - demo-guide
   - beginner-guide
   - coop-multiplayer-guide
+sources:
+  - tier: "Official"
+    text: "Steam Early Access September 22, 2026; free demo; 1-8 player co-op — official Steam page"
+  - tier: "Community"
+    text: "Player-reported answers for gameplay questions"
+  - tier: "Editorial"
+    text: "Solo-play guidance is our editorial advice"
 ---
 
 # Delverium FAQ — Quick Answers Before Early Access Launch

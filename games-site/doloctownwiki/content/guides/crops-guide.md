@@ -6,6 +6,13 @@ version: '1.0'
 updated: '2026-08-22'
 keywords: ['doloc town crops', 'doloc town seeds', 'doloc town wheat seed', 'doloc town plant analyzer', 'doloc town best crops', 'doloc town gene system']
 related: ['beginner-guide', 'how-to-make-money', 'farm-layout-guide', 'weather-guide', 'tech-tree-guide']
+sources:
+  - tier: "Official"
+    text: "Seed and gene systems with weather hazards per official feature description"
+  - tier: "Community"
+    text: "Crop stats such as growth times and seasons are community-verified in-game"
+  - tier: "Editorial"
+    text: "Best-crop picks are our editorial recommendation"
 ---
 
 # All Crops & Seeds Guide — What to Plant in Doloc Town

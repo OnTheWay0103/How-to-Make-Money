@@ -6,6 +6,13 @@ version: '1.0'
 updated: '2026-08-22'
 keywords: ['doloc town tech tree', 'doloc town how to upgrade tools', 'doloc town tool upgrades', 'doloc town smelter', 'doloc town sprinkler', 'doloc town plant analyzer', 'doloc town weather regulator']
 related: ['beginner-guide', 'automation-drone-guide', 'materials-guide', 'cooking-recipes-guide']
+sources:
+  - tier: "Official"
+    text: "Agricultural, Industrial, Life, and Animal tech trees confirmed via official updates; research points earned through tool use"
+  - tier: "Community"
+    text: "Technology counts and unlock costs are community-verified"
+  - tier: "Editorial"
+    text: "Priority order is our editorial recommendation"
 ---
 
 # Tech Tree Guide — How to Upgrade Tools & Unlock Machines

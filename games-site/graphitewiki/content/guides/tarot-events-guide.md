@@ -9,6 +9,13 @@ related:
   - beginner-guide
   - graphite-demo-guide
   - advanced-strategies
+sources:
+  - tier: "Official"
+    text: "Tarot-inspired adventure deck draws narrated events each run, with branches shaped by party composition, held items, and past decisions — official Steam page description"
+  - tier: "Community"
+    text: "Event outcomes reported by demo players are community-documented"
+  - tier: "Editorial"
+    text: "Event-choice guidance is our editorial judgment"
 ---
 
 ## How the Adventure Deck Works

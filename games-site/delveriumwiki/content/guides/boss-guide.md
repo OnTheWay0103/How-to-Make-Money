@@ -10,6 +10,13 @@ related:
   - dungeons-bosses-chart
   - melee-combat-build-guide
   - ranged-magic-build-guide
+sources:
+  - tier: "Official"
+    text: "A brand-new boss encounter was added to the demo in the February 2026 Major Demo Update — official demo update notes"
+  - tier: "Community"
+    text: "Boss fight experiences and preparation tips from demo players"
+  - tier: "Editorial"
+    text: "Our boss preparation checklist is editorial advice"
 ---
 
 # Delverium Boss Guide — Every Confirmed Boss Fact & How to Prepare

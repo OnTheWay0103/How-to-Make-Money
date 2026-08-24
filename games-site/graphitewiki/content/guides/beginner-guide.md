@@ -11,6 +11,13 @@ related:
   - builds-artifacts-guide
   - boss-guide
   - graphite-demo-guide
+sources:
+  - tier: "Official"
+    text: "Graphite launched July 27, 2026 on Steam and GOG as a pen-and-ink tactical roguelike RPG set inside a child's school notebook — Steam store page and official announcements"
+  - tier: "Community"
+    text: "First-run priorities and hero pick advice are informed by demo player reports"
+  - tier: "Editorial"
+    text: "Our recommended starting path reflects our own editorial assessment"
 ---
 
 ## What is Graphite?

@@ -6,6 +6,13 @@ version: "1.0"
 updated: "2026-08-11"
 keywords: ["graphite story", "graphite lore", "the scribe graphite", "death graphite", "graphite notebook setting", "graphite narrative guide", "graphite plot explained"]
 related: ["heroes-guide", "graphite-demo-guide", "tarot-events-guide"]
+sources:
+  - tier: "Official"
+    text: "Story premise: seven heroes tasked by The Scribe to grow stronger and gather allies before Death arrives, set inside a child's notebook — official description"
+  - tier: "Community"
+    text: "Chapter-level plot details are community-documented from the demo"
+  - tier: "Editorial"
+    text: "Story analysis is our editorial reading"
 ---
 
 ## Graphite Story Guide

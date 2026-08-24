@@ -6,6 +6,13 @@ version: "1.0"
 updated: "2026-08-08"
 keywords: ["waterpark simulator money", "waterpark simulator make money fast", "waterpark simulator profit", "waterpark simulator best food stall", "waterpark simulator ticket price", "waterpark simulator earn money"]
 related: ["slide-ride-tier-list", "beginner-guide", "visitor-happiness-guide", "research-tree-guide"]
+sources:
+  - tier: "Official"
+    text: "Core economy loop of ticket pricing, attraction revenue, and star rating per official description"
+  - tier: "Community"
+    text: "Profit formulas and best-ROI picks are community-tested"
+  - tier: "Editorial"
+    text: "Our profit strategy ranking is editorial"
 ---
 
 # How to Make Money Fast in Waterpark Simulator

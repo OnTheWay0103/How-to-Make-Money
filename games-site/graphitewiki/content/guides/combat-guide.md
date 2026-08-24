@@ -10,6 +10,13 @@ related:
   - builds-artifacts-guide
   - beginner-guide
   - boss-guide
+sources:
+  - tier: "Official"
+    text: "Timeline-based combat where actions have duration and a Break system drains poise, with enemies using the same tools against your party — official Steam page description"
+  - tier: "Community"
+    text: "Poise breakpoints and interrupt timing are community-tested from the demo"
+  - tier: "Editorial"
+    text: "Turn-management tips are our editorial analysis"
 ---
 
 ## Timeline Combat Overview

@@ -9,6 +9,13 @@ related:
   - demo-guide
   - coop-multiplayer-guide
   - crafting-recipes-chart
+sources:
+  - tier: "Official"
+    text: "Steam Early Access release on September 22, 2026; free demo available now; Early Access planned to last about two years — official announcements and Steam page"
+  - tier: "Community"
+    text: "Player anticipation and wishlist figures are community-reported"
+  - tier: "Editorial"
+    text: "What to expect at Early Access launch is our editorial analysis"
 ---
 
 # Delverium Release Date & Early Access Guide

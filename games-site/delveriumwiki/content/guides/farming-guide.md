@@ -10,6 +10,13 @@ related:
   - npc-trading-guide
   - demo-guide
   - dungeons-bosses-chart
+sources:
+  - tier: "Official"
+    text: "Farming loop officially described: till soil, plant seeds, water crops, breed animals, fish, and cook — official Steam page"
+  - tier: "Community"
+    text: "Crop and animal details are community-verified in the demo"
+  - tier: "Editorial"
+    text: "Farm priorities are our editorial recommendation"
 ---
 
 > **Pre-release guide — updated for EA launch (Sept 22, 2026).** Delverium enters Steam Early Access on September 22, 2026. Farming systems are confirmed in the demo; specific crop types, animal breeds and recipe lists are unverified until launch and EA updates.

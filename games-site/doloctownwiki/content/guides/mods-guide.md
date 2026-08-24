@@ -6,6 +6,13 @@ version: '1.0'
 updated: '2026-08-22'
 keywords: ['doloc town mods', 'doloc town steam workshop', 'doloc town mod guide', 'doloc town workshop items', 'doloc town how to install mods']
 related: ['beginner-guide', 'faq', 'automation-drone-guide']
+sources:
+  - tier: "Official"
+    text: "Steam Workshop support added in June 2026 — official update announcement"
+  - tier: "Community"
+    text: "Mod content created by the player community"
+  - tier: "Editorial"
+    text: "Our installation walkthrough is editorial guidance"
 ---
 
 # Mods & Steam Workshop Guide — How to Install Mods

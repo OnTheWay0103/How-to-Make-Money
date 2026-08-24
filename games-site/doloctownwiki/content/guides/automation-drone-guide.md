@@ -6,6 +6,13 @@ version: '1.0'
 updated: '2026-08-22'
 keywords: ['doloc town automation', 'doloc town drone', 'doloc town best drone', 'doloc town abandoned drone', 'doloc town drone engine', 'doloc town farming automation']
 related: ['tech-tree-guide', 'ranching-guide', 'farm-layout-guide', 'beginner-guide']
+sources:
+  - tier: "Official"
+    text: "Farming automation added with 1.0 — official 1.0 announcements"
+  - tier: "Community"
+    text: "Drone mechanics are community-documented"
+  - tier: "Editorial"
+    text: "Automation tips are our editorial advice"
 ---
 
 # Automation & Drones Guide — How the 1.0 System Works

@@ -6,6 +6,13 @@ version: "1.0"
 updated: "2026-08-08"
 keywords: ["waterpark simulator endgame", "waterpark simulator late game", "waterpark simulator diamond stars", "waterpark simulator night mode", "waterpark simulator 1.0 content", "waterpark simulator beach map", "waterpark simulator yogi"]
 related: ["museum-questline-guide", "research-tree-guide", "park-design-layout-guide", "staff-management-guide"]
+sources:
+  - tier: "Official"
+    text: "1.0 added Museum questlines, dynamic weather, night mode, and new map and pool themes — official announcements"
+  - tier: "Community"
+    text: "Diamond Stars and the endgame loop are community-documented"
+  - tier: "Editorial"
+    text: "Endgame priorities are our editorial assessment"
 ---
 
 # Late-Game & Endgame Content Guide (1.0)

@@ -20,6 +20,13 @@ related:
   - tarot-events-guide
   - boss-guide
   - faq-content
+sources:
+  - tier: "Official"
+    text: "Free \"Graphite: Act 1\" demo on Steam: roughly 30-minute runs, 4 heroes, 50 stackable artifacts, 15 adventure events — official Steam demo page"
+  - tier: "Community"
+    text: "Demo player feedback on systems and difficulty is incorporated"
+  - tier: "Editorial"
+    text: "First-run tips are our editorial advice"
 ---
 
 # Graphite Demo Guide — Act 1, What's Included, and First Run Tips

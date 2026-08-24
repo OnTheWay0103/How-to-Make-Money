@@ -6,6 +6,13 @@ version: "1.0"
 updated: "2026-08-24"
 keywords: ["waterpark simulator events", "waterpark simulator weather", "waterpark simulator seasonal events", "waterpark simulator halloween", "waterpark simulator heatwave", "waterpark simulator tornado", "waterpark simulator night mode"]
 related: ["endgame-guide", "visitor-happiness-guide", "staff-management-guide", "research-tree-guide"]
+sources:
+  - tier: "Official"
+    text: "Dynamic weather and night mode added with 1.0, plus themed seasonal events — official announcements"
+  - tier: "Community"
+    text: "Event specifics are community-documented"
+  - tier: "Editorial"
+    text: "Preparation advice is our editorial recommendation"
 ---
 
 # How Seasonal Events & Weather Work in Waterpark Simulator (1.0)

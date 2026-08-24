@@ -6,6 +6,13 @@ version: '1.0'
 updated: '2026-08-22'
 keywords: ['doloc town faq', 'doloc town how long to beat', 'doloc town how to save', 'doloc town price', 'doloc town multiplayer', 'doloc town achievements', 'doloc town review']
 related: ['beginner-guide', 'steam-deck-guide', 'mods-guide', 'energy-guide']
+sources:
+  - tier: "Official"
+    text: "1.0 released August 6, 2026; $19.99 base price; PC via Steam — official store and announcements"
+  - tier: "Community"
+    text: "Player-community answers for gameplay questions"
+  - tier: "Editorial"
+    text: "Subjective answers are our editorial opinion"
 ---
 
 # Doloc Town FAQ — Quick Answers to Common Questions

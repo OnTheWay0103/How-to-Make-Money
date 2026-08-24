@@ -9,6 +9,13 @@ related:
   - melee-combat-build-guide
   - dungeons-bosses-chart
   - demo-guide
+sources:
+  - tier: "Official"
+    text: "Five confirmed crafting categories (food, tools, weapons, armor, building materials) per official description"
+  - tier: "Community"
+    text: "Recipe specifics are community-verified in the demo"
+  - tier: "Editorial"
+    text: "Crafting priorities are our editorial ranking"
 ---
 
 > **Pre-release guide — updated for EA launch (Sept 22, 2026).** Delverium enters Steam Early Access on September 22, 2026. This reference chart covers everything confirmed about crafting so far; specific recipe details will be filled in at launch and after EA updates.

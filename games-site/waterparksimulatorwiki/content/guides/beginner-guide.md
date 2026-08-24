@@ -6,6 +6,13 @@ version: "1.0"
 updated: "2026-08-08"
 keywords: ["waterpark simulator beginner guide", "waterpark simulator getting started", "waterpark simulator first hours", "waterpark simulator tutorial", "waterpark simulator how to play", "waterpark simulator tips for beginners"]
 related: ["money-making-guide", "controls-guide", "research-tree-guide", "staff-management-guide"]
+sources:
+  - tier: "Official"
+    text: "1.0 released July 31, 2026 on PC (Steam), PS5, and Xbox Series X|S — official 1.0 announcements"
+  - tier: "Community"
+    text: "First-3-hours routine is community-informed"
+  - tier: "Editorial"
+    text: "Upgrade priorities are our editorial assessment"
 ---
 
 # Waterpark Simulator Beginner Guide — First 3 Hours
