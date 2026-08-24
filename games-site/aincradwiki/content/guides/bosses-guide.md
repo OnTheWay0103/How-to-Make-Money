@@ -14,6 +14,13 @@ related:
   - golden-gate-bosses-guide
   - legendary-weapons
   - ex-mod-guide
+sources:
+  - tier: "Official"
+    text: "Released July 9–10, 2026 on PS5, Xbox Series X|S, and PC — official announcements"
+  - tier: "Community"
+    text: "Boss names (Violet Fencer, Ark Guardian, Twin Wardens, Corrupted Fae Lord, Crystal Guardian) and attack patterns are community-documented"
+  - tier: "Editorial"
+    text: "Recommended boss progression and strategy guidance are our assessment"
 ---
 
 ## Boss Mechanics Overview

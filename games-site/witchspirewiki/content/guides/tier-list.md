@@ -11,6 +11,13 @@ related:
   - spellblade-vs-wand-guide
   - luminary-skill-tree-guide
   - crafting-guide
+sources:
+  - tier: "Official"
+    text: "Six Coven classes with a Wand vs Spellblade starter choice — Steam store page"
+  - tier: "Community"
+    text: "Coven perk differences (e.g., Foretellers bonding rate) and familiar picks are community-informed"
+  - tier: "Editorial"
+    text: "S/A/B rankings and gear progression recommendations are Witchspire Wiki's assessment"
 ---
 
 ## Witchspire Tier List — Covens, Familiars, Weapons & Gear

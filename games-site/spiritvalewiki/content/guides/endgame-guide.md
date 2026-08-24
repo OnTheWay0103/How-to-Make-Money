@@ -6,6 +6,13 @@ version: "EA"
 updated: "2026-08-11"
 keywords: ["SpiritVale endgame activities", "SpiritVale heroic dungeons", "SpiritVale world bosses", "SpiritVale gear refinement", "SpiritVale raid progression"]
 related: ["boss-guide", "farming-resource-guide", "solo-guide", "crafting-guide", "builds-guide"]
+sources:
+  - tier: "Official"
+    text: "More than 30 maps, 230+ monsters, and 20+ bosses at Early Access launch — official announcements"
+  - tier: "Community"
+    text: "Heroic dungeon, world boss, and raid schedules and spawn callouts are community-tracked"
+  - tier: "Editorial"
+    text: "The daily endgame loop and recommended progression path are our strategy"
 ---
 
 # SpiritVale Endgame Guide — Activities, Raids, and Progression

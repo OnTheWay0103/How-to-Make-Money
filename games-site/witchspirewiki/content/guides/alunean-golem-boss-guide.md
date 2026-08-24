@@ -6,6 +6,11 @@ version: "0.1.4"
 updated: "2026-08-10"
 keywords: ["Al'uunian Golem", "Witchspire first boss", "Witchspire boss guide", "Witchspire Golem", "Al'uunian Golem strategy", "Witchspire boss fight"]
 related: ["main-quest-walkthrough", "vyrs-region-guide", "beginner-guide", "hearth-upgrade-guide", "all-familiars-guide"]
+sources:
+  - tier: "Community"
+    text: "Al'uunian Golem attack patterns, weak-point breaking, and the reward table are community-reported"
+  - tier: "Editorial"
+    text: "Solo and co-op positioning and strategy recommendations are our assessment"
 ---
 
 # Al'uunian Golem Boss Guide

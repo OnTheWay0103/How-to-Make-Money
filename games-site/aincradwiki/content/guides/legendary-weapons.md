@@ -14,6 +14,11 @@ related:
   - weapons-guide
   - gear-farming-guide
   - golden-gate-bosses-guide
+sources:
+  - tier: "Community"
+    text: "Legendary weapon base damages, drop rates, and material counts are community-reported — the game does not publish official weapon statistics"
+  - tier: "Editorial"
+    text: "Crafting priorities and legendary weapon comparisons are our assessment"
 ---
 
 ## What Makes a Weapon Legendary?

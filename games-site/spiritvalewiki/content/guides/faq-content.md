@@ -6,6 +6,13 @@ version: "EA"
 updated: "2026-08-11"
 keywords: ["SpiritVale FAQ", "SpiritVale F2P", "SpiritVale wipe", "SpiritVale PvP", "SpiritVale level cap", "SpiritVale trading"]
 related: ["beginner-guide", "classes-guide", "class-tier-list", "cards-guide"]
+sources:
+  - tier: "Official"
+    text: "Steam Early Access since July 15, 2026; developed by Baikun Interactive — Steam store page"
+  - tier: "Community"
+    text: "Level caps, respec rules, class-change details, and trading mechanics are community-reported"
+  - tier: "Editorial"
+    text: "The FAQ summary is our compilation of verified and community-reported answers"
 ---
 
 # SpiritVale FAQ — Most Common Questions

@@ -6,6 +6,11 @@ version: "0.1.4"
 updated: "2026-08-10"
 keywords: ["Witchspire enemies", "Witchspire enemy factions", "Witchspire enemy weaknesses", "Witchspire element matchups", "Witchspire faction weaknesses", "Witchspire boss weaknesses", "Witchspire best weapon per region"]
 related: ["elements-mechanics-guide", "lumi-boss-guide", "shudder-matriarch-boss-guide", "alunean-golem-boss-guide", "tier-list", "crafting-guide"]
+sources:
+  - tier: "Community"
+    text: "Faction names and territories (Corrupted Beasts, Fae Remnants, Sunken Ones, Night Creatures) and element effectiveness are community-reported"
+  - tier: "Editorial"
+    text: "Region loadouts and matchup recommendations are our strategy"
 ---
 
 # Witchspire Enemy Guide — Factions, Weaknesses & Element Matchups

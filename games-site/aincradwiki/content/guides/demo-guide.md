@@ -10,6 +10,13 @@ related:
   - weapons-guide
   - builds-guide
   - progression-guide
+sources:
+  - tier: "Official"
+    text: "Free demo available on Steam, PS5, and Xbox; full game released July 9–10, 2026 — official store pages"
+  - tier: "Community"
+    text: "Demo content scope (first floor, ~8 side quests, ~15–18 GB downloads) and save carryover are community-reported"
+  - tier: "Editorial"
+    text: "Demo progression advice and build recommendations are our strategy"
 ---
 
 ## What Is the Echoes of Aincrad Demo?

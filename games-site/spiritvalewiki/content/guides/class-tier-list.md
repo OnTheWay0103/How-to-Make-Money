@@ -6,6 +6,11 @@ version: "EA"
 updated: "2026-08-09"
 keywords: ["SpiritVale tier list", "SpiritVale best class", "SpiritVale best dps class", "SpiritVale class ranking", "SpiritVale gunslinger", "SpiritVale sniper"]
 related: ["classes-guide", "beginner-guide", "builds-guide", "solo-guide"]
+sources:
+  - tier: "Community"
+    text: "Rankings are community consensus drawn from the official Discord and Steam Community discussions"
+  - tier: "Editorial"
+    text: "Tier assignments for farming, bossing, PvP, and solo are our assessment"
 ---
 
 # SpiritVale Class Tier List — PvE & PvP Rankings

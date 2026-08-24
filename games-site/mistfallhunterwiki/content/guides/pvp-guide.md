@@ -11,6 +11,11 @@ related:
   - solo-play-guide
   - tier-list-guide
   - loadout-optimizer
+sources:
+  - tier: "Community"
+    text: "The class matchup matrix and third-partying behavior reflect community consensus"
+  - tier: "Editorial"
+    text: "Engagement strategy and loadout recommendations are our assessment"
 ---
 
 ## PvP Fundamentals

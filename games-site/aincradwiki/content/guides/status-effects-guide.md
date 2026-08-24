@@ -10,6 +10,11 @@ related:
   - ex-mod-guide
   - builds-guide
   - bosses-guide
+sources:
+  - tier: "Community"
+    text: "Status effect durations, tick rates, and percentages are community-reported"
+  - tier: "Editorial"
+    text: "Best status effect builds and counter recommendations are our assessment"
 ---
 
 ## Status Effects Overview

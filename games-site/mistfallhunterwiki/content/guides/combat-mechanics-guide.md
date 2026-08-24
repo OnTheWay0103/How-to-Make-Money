@@ -11,6 +11,11 @@ related:
   - pvp-guide
   - extraction-guide
   - weapons-guide
+sources:
+  - tier: "Community"
+    text: "Parry timing windows, stamina costs, dodge windows, and status-effect values are community-reported approximations"
+  - tier: "Editorial"
+    text: "Class-specific combat strategies and advanced technique recommendations are our assessment"
 ---
 
 ## Combat Overview

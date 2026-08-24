@@ -6,6 +6,13 @@ version: "0.1.4"
 updated: "2026-08-10"
 keywords: ["Witchspire demo", "Witchspire price", "Witchspire release date", "Witchspire PS5", "Witchspire Switch", "Witchspire platforms", "Witchspire system requirements", "Witchspire Steam"]
 related: ["beginner-guide", "best-coven-guide", "vyrs-region-guide", "farming-guide"]
+sources:
+  - tier: "Official"
+    text: "Standard Edition $22.99, Founder's Edition DLC $14.99, Founder's Pack Bundle $37.98; PC-only; Early Access since June 10, 2026 — Steam store page"
+  - tier: "Community"
+    text: "Demo content scope (playable region, level caps, familiar selection) and demo save-transfer behavior are community-reported"
+  - tier: "Editorial"
+    text: "The which-edition-to-buy table is our recommendation"
 ---
 
 # Witchspire Demo & Purchase Guide — Price, Platforms, and System Requirements

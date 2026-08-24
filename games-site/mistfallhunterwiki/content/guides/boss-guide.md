@@ -13,6 +13,11 @@ related:
   - gear-farming-guide
   - loot-rarity-guide
   - extraction-guide
+sources:
+  - tier: "Community"
+    text: "Map boss names (Returner Woodling, Hollow Warden, Verdant Ancient, Blood Matriarch, Shattered King), attack patterns, phase mechanics, and loot charts are community-reported"
+  - tier: "Editorial"
+    text: "The boss difficulty/reward tier list and build recommendations are our assessment"
 ---
 
 ## Boss Quick-Reference Chart

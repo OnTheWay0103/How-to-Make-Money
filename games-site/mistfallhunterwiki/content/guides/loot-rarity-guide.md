@@ -11,6 +11,11 @@ related:
   - weapons-guide
   - economy-guide
   - tier-list-guide
+sources:
+  - tier: "Community"
+    text: "Drop-rate percentages, suffix weights, and repair costs are community-reported approximations, not officially published figures"
+  - tier: "Editorial"
+    text: "Farming routes by rarity and loot value assessment guidance are our strategy"
 ---
 
 ## Loot and Rarity Guide — Item Tiers, Drop Systems, and Farming Routes

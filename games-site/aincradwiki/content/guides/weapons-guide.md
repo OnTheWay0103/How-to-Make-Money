@@ -9,6 +9,13 @@ related:
   - beginner-guide
   - builds-guide
   - ex-mod-guide
+sources:
+  - tier: "Official"
+    text: "Six weapon types (Sword & Shield, Greatsword, Rapier, Dagger, Two-Handed Axe, Mace), each with its own moveset and Sword Skills — official announcements"
+  - tier: "Community"
+    text: "Weapon stats, scaling, and meta assessments are community-reported"
+  - tier: "Editorial"
+    text: "Best-weapon-for-beginners and per-playstyle recommendations are our assessment"
 ---
 
 ## Weapon Overview

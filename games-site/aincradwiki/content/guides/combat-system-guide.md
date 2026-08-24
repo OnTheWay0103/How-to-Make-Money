@@ -11,6 +11,11 @@ related:
   - builds-guide
   - dual-wield-build
   - ex-mod-guide
+sources:
+  - tier: "Community"
+    text: "SP costs, parry counter windows, and dodge/block values are community-reported and may change with patches"
+  - tier: "Editorial"
+    text: "Combat tips and playstyle guidance are our assessment"
 ---
 
 ## Combat System Overview

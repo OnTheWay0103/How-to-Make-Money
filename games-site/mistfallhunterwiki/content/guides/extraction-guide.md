@@ -11,6 +11,13 @@ related:
   - map-guide
   - solo-play-guide
   - pvp-guide
+sources:
+  - tier: "Official"
+    text: "The extraction loop (deploy, loot, extract before the mist closes) is the core game mode — official launch announcements"
+  - tier: "Community"
+    text: "Soul of Return usage details, closing-mist timing, and haul estimates are community-reported approximations"
+  - tier: "Editorial"
+    text: "Advanced escape tactics and solo extraction routes are our strategy"
 ---
 
 ## The Extraction Loop Explained

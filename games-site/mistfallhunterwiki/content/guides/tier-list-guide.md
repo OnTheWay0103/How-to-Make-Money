@@ -11,6 +11,11 @@ related:
   - sorcerer-build-guide
   - season-guide
   - pvp-guide
+sources:
+  - tier: "Community"
+    text: "Rankings are based on community consensus and current-season performance, not official data"
+  - tier: "Editorial"
+    text: "S-tier to D-tier rankings for solo, squad, and PvE are our assessment"
 ---
 
 ## Tier List Methodology

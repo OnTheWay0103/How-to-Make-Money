@@ -8,6 +8,13 @@ updated: '2026-07-04'
 related:
   - classes-guide
   - extraction-guide
+sources:
+  - tier: "Official"
+    text: "Six classes at launch with class-specific weaponry (Mercenary Sword & Shield, Withered Knight Greatsword, Shadowstrix Daggers, Seer Catalyst) — official launch announcements"
+  - tier: "Community"
+    text: "Weapon stats, rarity weights, and per-class strength reports are community-reported"
+  - tier: "Editorial"
+    text: "Best-weapon-per-class recommendations are our assessment"
 ---
 
 ## Weapon Overview

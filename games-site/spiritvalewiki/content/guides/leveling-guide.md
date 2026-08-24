@@ -6,6 +6,11 @@ version: "EA"
 updated: "2026-08-09"
 keywords: ["SpiritVale leveling guide", "SpiritVale fast leveling", "SpiritVale level 50", "SpiritVale grinding spots", "SpiritVale camp spots", "SpiritVale XP boost"]
 related: ["beginner-guide", "classes-guide", "builds-guide", "solo-guide", "dungeon-guide"]
+sources:
+  - tier: "Community"
+    text: "Grinding map yields and XP bonus values are community-reported"
+  - tier: "Editorial"
+    text: "The level 1–50 route and camp spot recommendations are our strategy"
 ---
 
 # SpiritVale Leveling Guide — Level 1 to 50 Fast Route

@@ -6,6 +6,11 @@ version: "EA"
 updated: "2026-08-04"
 keywords: ["SpiritVale weapons", "SpiritVale best weapon", "SpiritVale weapon types", "SpiritVale best staff", "SpiritVale weapons list", "SpiritVale weapon guide"]
 related: ["gear-progression", "classes-guide", "crafting-guide", "trading-market-guide"]
+sources:
+  - tier: "Community"
+    text: "Weapon scaling details, gear score values, and per-class best-in-slot lists are community-reported EA snapshots"
+  - tier: "Editorial"
+    text: "Weapon upgrade priority and farming recommendations are our assessment"
 ---
 
 # SpiritVale Weapons Guide — All Weapon Types, Best Weapons & Where to Farm

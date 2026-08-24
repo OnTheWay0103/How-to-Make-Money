@@ -6,6 +6,13 @@ version: "EA"
 updated: "2026-08-01"
 keywords: ["SpiritVale beginner guide", "SpiritVale what to do first", "SpiritVale how to start", "SpiritVale first hours", "SpiritVale no main quest", "SpiritVale new player guide"]
 related: ["classes-guide", "leveling-guide", "class-tier-list", "cards-guide", "solo-guide"]
+sources:
+  - tier: "Official"
+    text: "Steam Early Access launched July 15, 2026; developed by Baikun Interactive — Steam store page and official announcements"
+  - tier: "Community"
+    text: "Unwritten mechanics (ASPD 193 cap, element chart, free respecs) and class consensus are community-reported"
+  - tier: "Editorial"
+    text: "The first-5-hours plan and farming route are our strategy"
 ---
 
 # SpiritVale Beginner Guide — First 5 Hours (Real Start, No Main Quest)

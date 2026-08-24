@@ -6,6 +6,13 @@ version: "0.1.4"
 updated: "2026-08-10"
 keywords: ["Witchspire beginner guide", "Witchspire first 5 hours", "Witchspire tips", "Witchspire starter guide", "how to start Witchspire", "Witchspire survival", "Witchspire hunger", "Witchspire healing", "how to survive Witchspire"]
 related: ["best-coven-guide", "vyrs-region-guide", "crafting-guide", "hearth-upgrade-guide", "food-cooking", "all-familiars-guide", "flight-unlock-guide"]
+sources:
+  - tier: "Official"
+    text: "Steam Early Access launch on June 10, 2026 — Steam store page"
+  - tier: "Community"
+    text: "Survival values (hunger, thirst, temperature thresholds), death-marker timers, and the no-respec Luminary tree are community-reported and not officially published"
+  - tier: "Editorial"
+    text: "The first-5-hours checklist, resource priority order, and progression path are our strategy"
 ---
 
 # Witchspire Beginner Guide — First 5 Hours & Survival Tips

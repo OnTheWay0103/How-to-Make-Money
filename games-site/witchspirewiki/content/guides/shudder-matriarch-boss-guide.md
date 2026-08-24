@@ -6,6 +6,11 @@ version: "0.1.4"
 updated: "2026-08-10"
 keywords: ["Witchspire Shudder Matriarch", "Shudder Matriarch guide", "Witchspire desert boss", "Witchspire boss fight desert", "Shudder Matriarch solo", "Shudder Matriarch co-op"]
 related: ["shuddersands-guide", "lumi-boss-guide", "best-coven-guide", "luminary-skill-tree-guide"]
+sources:
+  - tier: "Community"
+    text: "Shudder Matriarch phase thresholds, the Lux weakness, and the reward table are community-reported"
+  - tier: "Editorial"
+    text: "Solo vs co-op tactics and preparation recommendations are our assessment"
 ---
 
 # Shudder Matriarch Boss Guide

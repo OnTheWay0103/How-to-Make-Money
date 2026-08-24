@@ -12,6 +12,11 @@ related:
   - camp-upgrades-guide
   - extraction-guide
   - boss-guide
+sources:
+  - tier: "Community"
+    text: "XP values, unlock levels, and per-map XP averages are community-reported estimates"
+  - tier: "Editorial"
+    text: "Leveling routes and endgame progression priorities are our strategy"
 ---
 
 ## Leveling Overview

@@ -9,6 +9,13 @@ related:
   - beginner-guide
   - mercenary-build-guide
   - tier-list-guide
+sources:
+  - tier: "Official"
+    text: "Six classes at launch (Mercenary, Sorcerer, Blackarrow, Shadowstrix, Withered Knight, Seer) — official launch announcements"
+  - tier: "Community"
+    text: "Class-specific playstyle details and strength reports are community-informed"
+  - tier: "Editorial"
+    text: "Class recommendations for solo, squad, PvE, and beginners are our assessment"
 ---
 
 ## Class Overview

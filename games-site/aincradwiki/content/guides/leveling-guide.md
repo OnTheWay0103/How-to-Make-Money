@@ -12,6 +12,11 @@ related:
   - progression-guide
   - weapons-guide
   - ex-mod-guide
+sources:
+  - tier: "Community"
+    text: "XP rates and farm-route yields are community-reported estimates that may change with patches"
+  - tier: "Editorial"
+    text: "Leveling routes and Growth Point allocation priorities are our strategy"
 ---
 
 ## How Leveling Works in Echoes of Aincrad

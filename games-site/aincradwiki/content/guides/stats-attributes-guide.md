@@ -11,6 +11,11 @@ related:
   - beginner-guide
   - weapons-guide
   - mage-build
+sources:
+  - tier: "Community"
+    text: "Stat scaling numbers, soft caps, and breakpoints are community-reported and may differ from the current build"
+  - tier: "Editorial"
+    text: "Recommended stat allocation per weapon type is our assessment"
 ---
 
 ## Stats & Attributes Overview

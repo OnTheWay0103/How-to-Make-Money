@@ -6,6 +6,13 @@ version: "0.1.4"
 updated: "2026-08-10"
 keywords: ["Witchspire Coven guide", "best Coven in Witchspire", "Witchspire class pick", "Cloudpiercers", "Wildroots", "Spellblade vs Wand", "Witchspire solo class"]
 related: ["beginner-guide", "spellblade-vs-wand-guide", "luminary-skill-tree-guide", "tier-list"]
+sources:
+  - tier: "Official"
+    text: "Six starting Covens and the Wand vs Spellblade starter choice — Steam store page"
+  - tier: "Community"
+    text: "Coven-specific perks and loadout flexibility are community-reported"
+  - tier: "Editorial"
+    text: "Solo and co-op Coven rankings are our assessment"
 ---
 
 # Best Starting Coven Guide — Which Class to Pick

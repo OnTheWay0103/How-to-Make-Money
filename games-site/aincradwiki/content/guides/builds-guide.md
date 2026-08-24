@@ -14,6 +14,11 @@ related:
   - progression-guide
   - dual-wield-build
   - solo-play-guide
+sources:
+  - tier: "Community"
+    text: "Meta assessments and Growth Point allocation reports are community-informed"
+  - tier: "Editorial"
+    text: "S/A/B tier rankings and stat priority recommendations are our assessment"
 ---
 
 ## Build Philosophy for Echoes of Aincrad

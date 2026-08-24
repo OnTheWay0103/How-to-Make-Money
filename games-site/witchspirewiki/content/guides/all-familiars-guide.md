@@ -6,6 +6,13 @@ version: "0.1.4"
 updated: "2026-08-10"
 keywords: ["witchspire familiars", "witchspire familiar list", "witchspire familiar locations", "witchspire how to catch familiars", "witchspire how to bond", "witchspire incense guide", "witchspire spirit not appearing", "witchspire pet guide", "best familiars witchspire", "witchspire familiar database"]
 related: ["best-coven-guide", "beginner-guide", "vyrs-region-guide", "tier-list", "patch-notes-updates", "elements-mechanics-guide"]
+sources:
+  - tier: "Official"
+    text: "Familiars are a core companion system (befriend, level, assign to crafting, gathering, and combat tasks) — Steam store page"
+  - tier: "Community"
+    text: "Familiar names, the kill-and-bond mechanic, incense recipes, and bonding difficulty are community-reported"
+  - tier: "Editorial"
+    text: "Starter and early-game familiar picks are our recommendations"
 ---
 
 # Witchspire Familiars Guide — Full Database & How to Catch Them

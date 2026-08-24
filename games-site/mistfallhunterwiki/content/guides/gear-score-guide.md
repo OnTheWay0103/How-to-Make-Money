@@ -6,6 +6,13 @@ version: "1.0"
 updated: "2026-08-10"
 keywords: ["mistfall hunter gear score", "mistfall hunter gear rarity", "mistfall hunter best gear", "mistfall hunter loot tiers", "mistfall hunter gyldenblood", "mistfall hunter item level"]
 related: ["gear-farming-guide", "loot-rarity-guide", "leveling-guide", "economy-guide", "loadout-optimizer"]
+sources:
+  - tier: "Official"
+    text: "The launch season 'Season of the Withering' and its Withering-afflicted zone loot bonus — official announcements"
+  - tier: "Community"
+    text: "Gear score calculation, thresholds, and upgrade values are community-derived"
+  - tier: "Editorial"
+    text: "Fastest score-raising routes and equip-vs-sell advice are our strategy"
 ---
 
 # Mistfall Hunter Gear Score Guide — What the Number Means and How to Grow It

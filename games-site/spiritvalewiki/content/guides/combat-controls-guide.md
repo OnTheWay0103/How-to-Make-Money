@@ -10,6 +10,11 @@ related:
   - job-change-reset
   - classes-guide
   - leveling-guide
+sources:
+  - tier: "Community"
+    text: "Control specifics (auto-attack key, stance mechanics, dual wield rules) are community-documented"
+  - tier: "Editorial"
+    text: "Combat tips for new players are our assessment"
 ---
 
 ## Overview

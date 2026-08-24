@@ -6,6 +6,11 @@ version: "EA"
 updated: "2026-07-29"
 keywords: ["SpiritVale raid boss guide", "SpiritVale boss strategies", "SpiritVale phase transitions", "SpiritVale party composition", "SpiritVale loot tables", "SpiritVale raid guide"]
 related: ["party-composition", "class-leveling-guide", "endgame-guide", "beginner-guide"]
+sources:
+  - tier: "Community"
+    text: "Raid boss names, attack patterns, and phase transitions are community-reported"
+  - tier: "Editorial"
+    text: "Required group compositions and strategy recommendations are our assessment"
 ---
 
 ## Raid Boss Guide — SpiritVale

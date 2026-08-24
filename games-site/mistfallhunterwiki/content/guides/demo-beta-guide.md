@@ -11,6 +11,13 @@ related:
   - settings-guide
   - classes-guide
   - patch-notes
+sources:
+  - tier: "Official"
+    text: "Full release on July 30, 2026 on Steam, PS5, and Xbox Series X|S with day-one Game Pass, preceded by playtests and Next Fest demos — official announcements"
+  - tier: "Community"
+    text: "Playtest content details (class roster, maps, progress caps) are community reports of the era and no longer verifiable in-game"
+  - tier: "Editorial"
+    text: "The phase-by-phase history summary is our compilation"
 ---
 
 ## Playtest History

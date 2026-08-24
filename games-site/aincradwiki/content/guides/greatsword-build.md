@@ -12,6 +12,11 @@ related:
   - bosses-guide
   - ex-mod-guide
   - beginner-guide
+sources:
+  - tier: "Community"
+    text: "Charge mechanic details, Sword Skill bonuses, and EX-Mod values are community-reported"
+  - tier: "Editorial"
+    text: "The 50/25/25 stat split and combat flow recommendations are our assessment"
 ---
 
 ## Why Play Greatsword in Echoes of Aincrad?

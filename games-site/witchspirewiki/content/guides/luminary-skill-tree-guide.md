@@ -6,6 +6,11 @@ version: "0.1.4"
 updated: "2026-08-10"
 keywords: ["Witchspire Luminary tree", "Witchspire skill tree", "Witchspire builds", "Witchspire best build", "Witchspire respec", "Witchspire skill points"]
 related: ["best-coven-guide", "spellblade-vs-wand-guide", "beginner-guide", "tier-list"]
+sources:
+  - tier: "Community"
+    text: "Skill tree structure, the four branches, node costs, and the no-respec behavior are community-reported"
+  - tier: "Editorial"
+    text: "Priority node rankings and recommended builds are our assessment"
 ---
 
 # Luminary Skill Tree Guide — Best Builds

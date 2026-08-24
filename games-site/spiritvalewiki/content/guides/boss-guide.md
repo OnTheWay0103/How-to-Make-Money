@@ -6,6 +6,13 @@ version: "EA"
 updated: "2026-07-12"
 keywords: ["SpiritVale bosses", "SpiritVale boss guide", "SpiritVale boss mechanics", "SpiritVale boss loot", "SpiritVale boss farming"]
 related: ["builds-guide", "cards-guide", "leveling-guide", "solo-guide"]
+sources:
+  - tier: "Official"
+    text: "20+ bosses available in Early Access — official announcements"
+  - tier: "Community"
+    text: "Boss attack patterns, safe zones, and loot tables are community-reported"
+  - tier: "Editorial"
+    text: "Boss farming strategy and level/gear recommendations are our assessment"
 ---
 
 # SpiritVale Boss Guide — All 20+ Bosses, Mechanics & Loot

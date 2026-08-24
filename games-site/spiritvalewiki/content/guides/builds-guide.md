@@ -6,6 +6,11 @@ version: "EA"
 updated: "2026-07-12"
 keywords: ["SpiritVale builds", "SpiritVale Paladin build", "SpiritVale Berserker build", "SpiritVale Wizard build", "SpiritVale Sniper build"]
 related: ["classes-guide", "class-tier-list", "cards-guide", "boss-guide"]
+sources:
+  - tier: "Community"
+    text: "Meta build reports (Paladin tank, Berserker DPS, Wizard AoE, Sniper boss killer) are community-informed"
+  - tier: "Editorial"
+    text: "Attribute allocations and skill priorities are our assessment"
 ---
 
 # SpiritVale Builds Guide — Paladin, Berserker, Wizard, Sniper

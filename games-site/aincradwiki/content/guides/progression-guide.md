@@ -14,6 +14,11 @@ related:
   - weapons-guide
   - stats-attributes-guide
   - gear-farming-guide
+sources:
+  - tier: "Community"
+    text: "Cardinal Rank milestones, the demo cap (Rank 25), partner unlocks, and respec reports are community-reported"
+  - tier: "Editorial"
+    text: "Ranking-efficiently strategy and stat allocation priorities are our assessment"
 ---
 
 ## Understanding Cardinal Rank & Progression System

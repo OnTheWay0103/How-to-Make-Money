@@ -6,6 +6,11 @@ version: "0.1.4"
 updated: "2026-08-10"
 keywords: ["Witchspire Lumi", "Lumi boss guide", "Witchspire final boss", "Witchspire Tower boss", "Witchspire EA ending", "Witchspire Lumi strategy"]
 related: ["shudder-matriarch-boss-guide", "shuddersands-guide", "luminary-skill-tree-guide", "best-coven-guide"]
+sources:
+  - tier: "Community"
+    text: "Lumi's three-phase fight (Crystal Sentry, The Gauntlet, True Form), phase thresholds, and the Nox weakness are community-reported"
+  - tier: "Editorial"
+    text: "Build and gear recommendations are our assessment"
 ---
 
 # Lumi Boss Guide — Witchspire Tower Final Encounter

@@ -10,6 +10,13 @@ related:
   - builds-guide
   - leveling-guide
   - stats-attributes-guide
+sources:
+  - tier: "Official"
+    text: "Released July 9–10, 2026 on PC (Steam), PS5, and Xbox Series X|S; six weapon types at launch — official announcements"
+  - tier: "Community"
+    text: "Beginner-friendliness rankings and first-hour priorities are community-informed"
+  - tier: "Editorial"
+    text: "Weapon rankings and starting build recommendations are our assessment"
 ---
 
 ## Welcome to the Death Game

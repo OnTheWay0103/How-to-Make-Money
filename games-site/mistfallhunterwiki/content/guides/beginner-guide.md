@@ -11,6 +11,13 @@ related:
   - camp-upgrades-guide
   - leveling-guide
   - weekly-challenges
+sources:
+  - tier: "Official"
+    text: "Launch on July 30, 2026 on Steam, PS5, and Xbox Series X|S with day-one Game Pass; PvPvE extraction ARPG — official launch announcements"
+  - tier: "Community"
+    text: "First-week roadmap and common-mistake advice are community-informed"
+  - tier: "Editorial"
+    text: "The beginner priority checklist and first-extraction plan are our strategy"
 ---
 
 ## What Is Mistfall Hunter?
