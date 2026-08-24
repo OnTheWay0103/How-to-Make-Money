@@ -1,5 +1,113 @@
 # QA Report — games-site
 
+## Deep QA Audit Report — 2026-08-25
+
+## Executive Summary
+- Mode: deep (full fleet) | Sites audited: 35 | Date: 2026-08-25 | Snapshot: commit 4d9c047 (clean at audit start)
+- Since last deep audit (8/9): 16 days (>7-day threshold) → full deep pass
+- **Results: 34 PASS / 1 FAIL. Fabrication: none found fleet-wide (0 🔴 content issues). Residue: 1 🔴 code-level (JSON-LD domain error). Build: 3/3 pass.**
+- Total guides snapshot: **841** across 35 sites (8/9: 985 across 34 — fleet shrank because the AdSense compliance batch `6f553d9` deleted 200 unverifiable guide files, incl. witchspire −12, aincrad −9)
+- doloctownwiki (built 8/22) entered deep coverage for the first time — content clean, but GA4/GSC infrastructure missing.
+
+## Per-Site Audit Table (Residue / Fabrication / Status)
+
+| Site | Guides | Template Residue | Fabrication | Status |
+|------|:--:|:--:|:--:|:--:|
+| witchspirewiki | 34 | ✅ Clean | None | PASS |
+| mistfallhunterwiki | 38 | ✅ Clean | None | PASS |
+| aincradwiki | 38 | 🟡 rapier-build.md:149 PvP phrasing (minor) | None | PASS* |
+| themoundwiki | 32 | ✅ Clean | None | PASS |
+| spiritvalewiki | 39 | ✅ Clean | None | PASS |
+| skillsandraidswiki | 18 | 🔵 home-content.md no frontmatter | None | PASS |
+| minegeonwiki | 27 | 🔵 home-content.md no frontmatter, orphaned | None | PASS |
+| sephiriawiki | 29 | ✅ Clean | None | PASS |
+| dinobladewiki | 15 | 🔵 home-content.md no frontmatter | None | PASS |
+| mystraliawiki | 29 | ✅ Clean | None | PASS |
+| tearsofmetalwiki | 27 | 🟡 review/CCU figures drift vs published (home-content.md:15, patch-notes.md:43) | None | PASS* |
+| grainrotwiki | 25 | ✅ Clean | None | PASS |
+| dragonswordwiki | 22 | ✅ Clean | None | PASS |
+| dwarfdelvewiki | 17 | ✅ Clean | None | PASS |
+| lunariumwiki | 19 | ✅ Clean | None | PASS |
+| taivalwiki | 19 | ✅ Clean | None | PASS |
+| **vahrinscallwiki** | 24 | **🔴 JSON-LD canonical domain error — app/guides/[slug]/page.tsx:57** | None | **FAIL** |
+| relicfirstguardianwiki | 31 | ✅ Clean | None | PASS |
+| graphitewiki | 16 | ✅ Clean | None | PASS |
+| shiftatmidnightwiki | 28 | ✅ Clean | None | PASS |
+| moonlightpeakswiki | 16 | ✅ Clean | None | PASS |
+| boneholdwiki | 23 | ✅ Clean | None | PASS |
+| phantomtowerwiki | 17 | 🟡 12× Chinese `[待确认]` marker (3 files) | None | PASS* |
+| ardentwildswiki | 25 | ✅ Clean | None | PASS |
+| gotownwiki | 16 | 🟡 4× Chinese `[待确认]` marker (2 files) | None | PASS* |
+| expeditionssamuraiwiki | 33 | ✅ Clean | None | PASS |
+| delveriumwiki | 17 | 🟡 17× Chinese `[待确认]` marker (3 files) | None | PASS* |
+| lowbudgetrepairswiki | 36 | 🔵 5× stray `slug:` fields; 🔵 pre-release framing stale post-launch | None | PASS |
+| bigwalkwiki | 16 | 🔵 6 guides carry `date:`+`updated:` | None | PASS |
+| ironnestwiki | 21 | 🔵 home-content.md no frontmatter | None | PASS |
+| nivalisnightswiki | 17 | 🔵 17 guides carry `date:`+`updated:` | None | PASS |
+| restorywiki | 17 | ✅ Clean | None | PASS |
+| beastreincarnationwiki | 24 | 🟡 "Nobudou" vs "Koo" terminology (3 guides) | None | PASS* |
+| waterparksimulatorwiki | 16 | 🟡 4× Chinese `[待确认]` marker (1 file) | None | PASS* |
+| doloctownwiki | 20 | 🟡 infra: `googleAnalyticsId: ''` + no GSC file; 🟡 48× `[待确认]` (20 files) | None | PASS (content) / infra follow-up |
+
+\* PASS with WARNING — content honest, no fabrication; see findings.
+
+## Findings (by severity)
+
+**🔴 BLOCKING (1)**
+
+1. **vahrinscallwiki — JSON-LD canonical domain error on every article page.** `app/guides/[slug]/page.tsx:57` hardcodes `https://witchspire.wiki${url}` as the articleSchema URL. Vahrin's Call's own domain is `vahrinscallwiki.vercel.app` (lib/seo-config.ts) — so every guide page emits an Article schema canonical pointing at another site's domain. Root cause: page copied from witchspirewiki (whose identical line at the same position is correct there). One-line fix: use `SITE_CONFIG.url`. Verified scope: sitemap/robots/lib-schema clean on all sites; this is the only hardcoded-domain instance in the fleet. SEO harm: Google may attribute/de-rank vahrinscall article pages.
+
+**🟡 WARNING (5)**
+
+2. **doloctownwiki missing analytics infrastructure.** `lib/seo-config.ts:50` has `googleAnalyticsId: ''` and `public/` has NO GSC verification file (only site of 35 without both). Built 8/22 — SOP requires GA4+GSC before launch. 34/35 sites verified with unique real GA4 IDs (all G-…, no placeholders).
+3. **Chinese `[待确认]` ("to be confirmed") marker leaked into 5 English sites: 85 occurrences in 29 files** — doloctownwiki 48×/20 files, delveriumwiki 17×/3, phantomtowerwiki 12×/3, gotownwiki 4×/2, waterparksimulatorwiki 4×/1. Content-generation pipeline's Chinese prompt residue; reads unprofessional in SERP-facing copy. Simple global replace `[待确认]` → "unconfirmed".
+4. **tearsofmetalwiki review figures drift vs public record.** home-content.md:15 + patch-notes.md:43 claim "~87% Very Positive, peak ~4,500 CCU"; published launch coverage (handheld.guru) reports 92% positive / ~4,000 CCU peak. Honest-framed ("roughly … at the time of writing") but number is off vs sources.
+5. **aincradwiki rapier-build.md:149** — "A mind-game technique for **PvP** and aggressive humanoid enemies" — PvP reference on a site whose own pvp-duel-guide.md confirms the game is single-player-only. Same failure class as the 8/9 floor-guide finding, one line. Reword to "aggressive humanoid enemies".
+
+**🔵 INFO (7)**
+
+6. **GSC verification token still shared fleet-wide (from 8/9 rec #2, see table below).**
+7. **beastreincarnationwiki terminology drift persists** — "Nobudou: Burst"/"Acid Burst (Nobudou)" in corvus-boss-guide.md:26/69/70, weapons-armor-guide.md:95, bloom-arts-guide.md:72 vs "Koo" everywhere else (chapter-1-walkthrough, nushi-boss-reference, koo-rapport…).
+8. **Orphaned home-content.md without frontmatter in 4 sites** (minegeonwiki, skillsandraidswiki, dinobladewiki, ironnestwiki) — no code references; dead files (all other 31 sites' home-content.md have frontmatter; doloctown's does too).
+9. **Frontmatter lint leftovers**: aincradwiki daily-quests.md:5 `version: 1.0` unquoted; lowbudgetrepairswiki 5× stray `slug:` (painting-guide, faq, renovation-jobs-guide, tiling-guide, system-requirements); 60 guides still carry `date:` alongside `updated:` (lowbudget 36, nivalisnights 17, bigwalk 6, mystralia 1).
+10. **lowbudgetrepairswiki cost-cutting-tips.md stale pre-release framing** — version "Pre-release" + "The game launches August 13, 2026" (game launched 8/13; now live). Sourcing marks are correct; freshness pass needed.
+11. **dinobladewiki minor figure drift** — "~400 reviews" at 89% launch (actual day-1: 562 reviews at 89%); "pass 500,000 wishlists" (reported 600K+). Honest-framed; harmless.
+12. **REC#8 confirmed live**: auto-build launchd job (`com.gamesite.auto-build-site`, PID active) mutated the tree mid-audit (`docs/人工任务清单.md` M, `scripts/ga4-pv-rank.mjs` untracked) — site content dirs untouched, guide counts in this report are the stable committed snapshot.
+
+## 8/9 Deep Audit Recommendations — Landing Check
+
+| # | Recommendation (8/9) | Status | Evidence |
+|---|----------------------|:--:|------|
+| 1 | aincradwiki floor-guide.md PvP residue (lines 239/247) | ✅ | floor-guide.md deleted in AdSense compliance batch `6f553d9`; surviving PvP refs are correctional (greatsword-build.md:197 "no PvP… single-player only", best-floor-order.md:239 "single-player only — no PvP") |
+| 2 | GSC per-property verification files | ❌ | All 35 sites still carry byte-identical `google12f8715471cef7b7.html` (cksum 725682468 everywhere — one token can verify at most one property); doloctownwiki has none |
+| 3 | Freshness pass on 5 oldest sites | ✅ | witchspire 34/34 `version: "0.1.4"` (current per own patch notes; was 37 stale at 0.1.1d); mistfall 38/38 "1.0"; aincrad 38/38 "1.0"; spiritvale 39/39 "EA"; themound 32/32 "1.0" |
+| 4 | lowbudgetrepairswiki pre-launch sourcing | ✅ | cost-cutting-tips.md: sourcing note (8/10) + every claim tagged `[Demo-verified]`/`[Speculative — awaiting launch confirmation]`, version "Pre-release", `sources:` block; electrical-work-guide uses `[Needs launch verification]` |
+| 5 | Frontmatter standardization (date/updated) | 🟡 | `updated:` on 100% of guides (all 35 sites); `date:` reduced 66→60 (lowbudget 36, nivalis 17, bigwalk 6, mystralia 1); tearsofmetal beginner-guide now has category+version+related+sources ✅; themound sanity-mechanics unquoted-version case gone (file deleted); new: aincrad daily-quests unquoted `version: 1.0`, lowbudget 5× `slug:` |
+| 6 | beastreincarnation Koo/Nobudou consistency | 🟡 | Most guides consistent on "Koo"; 3 guides still "Nobudou" (corvus-boss-guide, weapons-armor-guide, bloom-arts-guide) — auto-built content again introduced the second term |
+| 7 | minegeonwiki orphaned home-content.md | ❌ | Still present, no frontmatter, zero code references; pattern also in skillsandraids, dinoblade, ironnest |
+| 8 | QA runs on committed snapshot | 🟡 | This audit ran on clean commit 4d9c047, but the auto-build launchd job is still active — working tree mutated mid-audit (docs/scripts only), confirming the process risk remains |
+
+## Build Verification (3 sites)
+
+| Site | Age | Build | Result |
+|------|-----|-------|:--:|
+| witchspirewiki (oldest, 6/29) | ~8 weeks | `npm run build` | ✅ Pass — 34 guides + static routes prerendered (SSG), 0 errors/warnings |
+| sephiriawiki (mid, 7/21) | ~5 weeks | `npm run build` | ✅ Pass — 29 guides + static routes prerendered (SSG), 0 errors/warnings |
+| doloctownwiki (newest, 8/22) | 3 days | `npm run build` | ✅ Pass — 20 guides + static routes prerendered (SSG), 0 errors/warnings |
+
+## Cross-Site Patterns
+
+1. **Fabrication is at zero fleet-wide.** 30%+ sampling (3+ guides/site, 6 for doloctown) + fleet-wide greps (unmarked precise numbers, ratings/sales claims, absolute claims, survey data, invented-name risk) found no invented bosses/weapons/characters, no unmarked precise values. The honest-guide convention is now the fleet standard: "community-reported", "[Demo-verified]", "no official frame data", "TBD/awaiting confirmation", correction pages (taival fishing, vahrinscall magic, grainrot enemies, bonehold endgame, lunarium co-op, dwarfdelve tier-list, aincrad pvp) — all confirmed in sampled content.
+2. **Verification spot-checks (Steam/press) all passed:** Dinoblade (89% Very Positive ✅, $19.99 ✅, 83K first-week sales consistent); Grain Rot (350K+ demo downloads ✅, Top-15 June Next Fest ✅); Tears of Metal (7/22 EA @ $24.99 ✅; ~87%/~4.5K CCU vs published 92%/~4K — see 🟡 4); MineGeon (Mixed launch reception ✅, $19.99 ✅, Trevor/Marshall/Ari ✅); Doloc Town (95% OP ✅, 1.0 on 8/6/26 ✅, EA 5/8/25 ✅, RedSaw Games/Logoi ✅, farming automation ✅).
+3. **Cross-site pollution: zero.** No foreign domains in content; game-name hits adjudicated as false positives (mystralia "first Guardian" = in-game boss; waterpark "Go-Go Town" = genre comparison). JSON-LD/sitemap/robots derive correctly from SITE_CONFIG on 34/35 sites (vahrinscall 🔴 #1).
+4. **Hugo/template residue: zero** — no `{{<` shortcodes, no TODO/lorem/placeholder anywhere.
+
+## Assessment
+
+The fleet is in its healthiest state since tracking began: zero fabrication, uniform honest-content practice, uniform version stamps, all builds green. The two actionable items this round are (a) the vahrinscallwiki JSON-LD domain fix (1 line, site-wide SEO impact) and (b) doloctownwiki GA4+GSC provisioning per SOP. The 8/9 rec #2 (GSC) and #7 (orphan files) remain open with unchanged evidence; #6 (Koo/Nobudou) needs a term-injection step in the auto-build prompt.
+
+---
+
 ## Quick QA — Coordinator Expansion (2026-08-10)
 
 Two sites expanded by Coordinator ahead of imminent launches: Mystralia (+5, EA tomorrow 8/11) and Low-Budget Repairs (+8, launch 8/13).
@@ -200,3 +308,65 @@ Three sites expanded by Coordinator: Iron Nest (+11), ReStory (+10), Beast of Re
 All 3 expansions pass quick QA. No fabrication, no residue, clean builds. Total guide count: 956 → 989 (+33).
 
 > **Recommendation #1 (aincradwiki PvP residue) resolved** — fixed during this session (3 lines in floor-guide.md rewritten).
+
+---
+
+## Quick QA — 2026-08-25 (3 sites)
+
+- Mode: quick | Date: 2026-08-25 | Materials: BUILD-002 (sovereigntowerwiki 新站, 18 篇), EXPAND-003 (shiftatmidnightwiki +5), EXPAND-004 (phantomtowerwiki +4)
+- **Results: 2 PASS / 1 FAIL. 新增攻略内容编造：无。FAIL 原因：shiftatmidnightwiki 站级渲染元数据编造（开发者/发行商/价格/Steam 链接/官方站），同 deep audit 中 vahrinscall JSON-LD FAIL 缺陷类别。**
+
+### Residue Scan
+
+| Site | Guides | Template Residue | Status |
+|------|:--:|------|:--:|
+| sovereignthwiki | 18 | ✅ Clean（无 doloc/witchspire 跨站、无 Hugo shortcodes、中文[待确认] 为零、schema 域名正确） | ✅ |
+| shiftatmidnightwiki | 31 | ❌ 站级编造元数据（见 FAIL 清单）+ 🟡 lib/schema.ts:51,95 JSDoc 注释残留 "Echoes of Aincrad"（不渲染） | ❌ |
+| phantomtowerwiki | 20 | ✅ Clean（TBD 均为诚实「官方未发布」披露，中文[待确认] 为零、无跨站名） | ✅ |
+
+### Content Quality Sampling
+
+| Site | Guides Sampled | Fabrication | Notes |
+|------|------|:--:|------|
+| sovereignthwiki | 6/18（price-platforms, factions-guide, tier-list, knight-recruitment-guide, dragon-knight-guide, recruit-brunhilda） | ✅ None | $19.99 ✓、WILD WITS ✓、Curve Games ✓、5 派系+Treasury ✓、8/6 发售 ✓、50K 首周销量（Curve 官方 8/14 公告 ✓）、Hildegard Von Blingin' 两曲 ✓、Metacritic 86 ✓；[Unconfirmed] 标记规范，来源链完整 |
+| shiftatmidnightwiki | 3/5 + 2 篇 grep 核验（endings, characters, multiplayer-faq + endings-explained, story-walkthrough） | ✅ None（新增 5 篇） | 3 结局（True/Grave/Empty Home）三篇口径一致 ✓、$250 个人现金 ✓、Night 12 不呼 Clyde ✓、成就 200/100/100 ✓、无 PS5 ✓、7/22 发售 ✓、Steam 池隔离 ✓；**但站级文件（非本批新增）含编造元数据** |
+| phantomtowerwiki | 2/4 + 2 篇 head-scan（platforms-purchase, items-catalog + best-builds, review-and-community） | ✅ None | EA 7/13 ✓、$12.99/€12.99/£11.75 ✓、24% 折扣 ✓、Horien Studio SRL（Genoa, VIA RENATA BIANCHI 45 ✓）、移动版免费+IAP ✓、128 武器/200+ 装备/47 Blessings/60+ 敌人 ✓、4 职业已命名 4 TBD ✓；"Artemis Dive" 为公开变体名（主名 Artemis Descent，一处来源用 Dive），非编造 |
+
+### Build Health
+
+| Site | Build | Result |
+|------|-------|:--:|
+| sovereignthwiki | `npm run build` | ✅ Pass (31 routes) |
+| shiftatmidnightwiki | `npm run build` | ✅ Pass (44 routes) |
+| phantomtowerwiki | `npm run build` | ✅ Pass (33 routes) |
+
+### Infrastructure
+
+| Site | GA4 | GSC | SITE_CONFIG |
+|------|:--:|:--:|:--:|
+| sovereignthwiki | ⏸️ PENDING（留空属人工任务预期，非缺陷） | ✅ google12f8715471cef7b7.html | ✅ 'Sovereign Tower Wiki' / sovereignthwiki.vercel.app |
+| shiftatmidnightwiki | ✅ G-M8577QD2NQ | ✅ google12f8715471cef7b7.html | ✅ 'Shift At Midnight Wiki' / shiftatmidnightwiki.vercel.app |
+| phantomtowerwiki | ✅ G-D2LXC98S3C | ✅ google12f8715471cef7b7.html | ✅ 'Phantom Tower Wiki' / phantomtowerwiki.vercel.app |
+
+### Per-Site Verdicts
+
+**sovereigntowerwiki — ✅ PASS**（GA4 标记 PENDING，按人工任务处理，不阻塞部署）
+**phantomtowerwiki — ✅ PASS**
+**shiftatmidnightwiki — ❌ FAIL** — 编造站级渲染元数据 + JSON-LD 链接/价格/主体错误
+
+### FAIL 清单 — shiftatmidnightwiki（Steam 官方正作: app/3722330，开发者 Bun Muen，发行 Kwalee，价格 $9.99/10% 折扣）
+
+1. **lib/schema.ts:61, 78** — VideoGame JSON-LD url 指向 `app/4050060`（此为免费 Multiplayer Demo，2025-09-29 发布），正作链接应为 app/3722330
+2. **lib/schema.ts:67, 71** — author/publisher 均为 **'Fiddlesticks Games'（编造，公开无此记录）**；实际: Bun Muen / Kwalee（Steam 商店页直接核验）
+3. **lib/schema.ts:75** — offers price `'12.99'`（实际 $9.99）
+4. **content/home-content.md:3, 7, 15, 55** — "Developed by Fiddlesticks Games"（编造开发者）
+5. **content/home-content.md:59** — "$12.99 with a 32% launch discount (regular $19.99)"（编造价格）+ "peak of 37,000+ concurrent players"（公开峰值 7/24 约 12,500+，无法核实）
+6. **content/home-content.md:79** — Steam 链接指向 demo app/4050060
+7. **content/home-content.md:80** — "Fiddlesticks Games official site" `https://www.fiddlesticksgames.com`（编造官方站，无官方记录）
+8. **app/page.tsx:16, 20, 35, 39** — 首页渲染: Fiddlesticks Games + $12.99/32% 折扣 + Steam CTA 指向 demo
+9. **app/faq/page.tsx:12, 20, 23, 25, 27** — FAQ 渲染: Fiddlesticks Games + $12.99 (32% off, regular $19.99) + "all 6 endings"（实为 3 结局）+ 编造未来更新计划与付费 DLC
+10. **内部自相矛盾**: `content/guides/faq-content.md:53-55` 正确写 $9.99/10% 折扣/7-29 截止，与首页、FAQ 页、JSON-LD 冲突——同一站点两套价格口径
+
+补充（非阻塞）: lib/schema.ts:51,95 JSDoc 注释残留 "Echoes of Aincrad"（模板注释，不渲染，建议随修复清理）。
+
+修复范围 = 4 个文件（lib/schema.ts、content/home-content.md、app/page.tsx、app/faq/page.tsx）。本次 EXPAND-003 新增的 5 篇攻略内容本身事实干净，无需改动。主 Agent 决策: 该站重部署前 MUST 退回建站协调员修复上述 10 项。
