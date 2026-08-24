@@ -3,13 +3,14 @@ title: 'Phantom Tower Best Builds — Build Archetypes and Synergies'
 description: 'Phantom Tower build guide — how to build around confirmed systems: classes, elements and reactions, Tower Blessings, Soulbinder permanent stats, and Blacksmith forging. Archetypes for every playstyle.'
 category: 'Guides'
 version: 'Early Access'
-updated: '2026-08-01'
-keywords: ['Phantom Tower builds', 'Phantom Tower best build', 'Phantom Tower build archetypes', 'Phantom Tower synergies', 'Phantom Tower build guide', 'Phantom Tower meta builds']
+updated: '2026-08-25'
+keywords: ['Phantom Tower builds', 'Phantom Tower best build', 'Phantom Tower build archetypes', 'Phantom Tower synergies', 'Phantom Tower build guide', 'Phantom Tower meta builds', 'Phantom Tower archer build', 'Phantom Tower mage build', 'Phantom Tower warrior build', 'Phantom Tower necromancer']
 related:
   - classes-guide
   - elements-guide
   - blessings-guide
   - soulbinder-guide
+  - class-tier-list
 ---
 
 # Phantom Tower Best Builds — Build Archetypes and Synergies
@@ -78,6 +79,25 @@ The meta-build: treat gear as a permanent investment rather than a per-run resou
 - **Gear:** one weapon and one armor piece, forged, upgraded, and Soulbound — one stat pushed toward the confirmed level-99 ceiling
 
 **Why it works:** the Soulbinder is confirmed as permanent — a level-99 stat is the official ceiling of the system, and it rides every future run.
+
+## Per-Class Builds — Building Each Confirmed Class
+
+Players search for "warrior build," "mage build," and "archer build" constantly, so here is the per-class version of the archetypes above — one row per confirmed class, built only on confirmed identities. No stats, no numbers: the developer has published none.
+
+| Class | Build identity | Elements to lean on | Blessings to hunt | Gear priority | Strength reference |
+|-------|----------------|---------------------|-------------------|---------------|--------------------|
+| **Warrior** | Melee generalist, the official starting class — the tutorial teaches everything in Warrior terms | Any; TERRA-based reactions (Erode) suit its frontline role | Evasion-triggered effects — Artemis Dive is the confirmed model | Blacksmith forging + early Soulbinding; a melee weapon you can upgrade reliably | Highest floor of any class; A-tier overall, best for beginners (see [Class Tier List](/guides/class-tier-list)) |
+| **Mage** | Reaction engine specialist — the confirmed caster lives in the swap-and-react system | AQUA (Freeze) for control, TERRA (Erode) for chains, VENTI (Shockwaves) for reach | Blessings that trigger off actions you already take — Artemis Dive again is the model | A caster weapon you Soulbind early; reaction frequency beats raw stats | Highest ceiling among confirmed classes — S-tier |
+| **Archer** | Ranged spacing specialist — safe damage by keeping distance | VENTI (Shockwaves) reward kiting; AQUA (Freeze) creates burst windows at range | Off-action triggers; anything that punishes enemies for chasing you | Fast weapons you know well; bind damage stats | S-tier overall — range converts pattern-reading into safe damage |
+| **Assassin** | "Shadow Specialist" — high mobility, high lethality, Shadow Clones for synchronized strikes | VENTI for hit-and-run; Freeze to set up clone burst windows | Evasion triggers — this class dodges more than any other | Mobility and damage binds; light weapons | B-tier for now — the skill-check pick with the highest potential (no official difficulty data) |
+
+**How to read the table:** it maps the confirmed archetypes above onto each confirmed class. The strength column references the [honest Class Tier List](/guides/class-tier-list) — interpretation of descriptions, not measurement.
+
+### What About Berserker, Paladin, Sorcerer — and Necromancer?
+
+You will find build guides for a **Berserker**, a **Paladin**, and a **Sorcerer** claiming they are Phantom Tower classes. They are not — at least, not on the official record. The developer has named only four of the eight launch classes (Warrior, Mage, Archer, Assassin); these three names appear nowhere in official material. Any guide building a Berserker or Paladin loadout is inventing content.
+
+The **Necromancer** is different: it is reported on the **mobile** version (collects souls from defeated enemies, summons allies once enough are gathered) per community-tracked update records `[Community]` — but it is not confirmed for Steam, and its stats are unpublished. Build around it only if you play mobile.
 
 ## Building Within Early Access Limits
 

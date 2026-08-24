@@ -1,11 +1,11 @@
 ---
 title: "Shift At Midnight Story Walkthrough: Complete 13-Night Guide"
-description: "Complete 13-night story walkthrough for Shift At Midnight. Night-by-night guide covering every shift's doppelgangers, scripted events, and the path to the True Ending."
+description: "Complete 13-night story walkthrough for Shift At Midnight. How many nights the campaign has, night-by-night walkthrough of every shift's doppelgangers, scripted events, and the path to the True Ending."
 category: "Guides"
-version: "1.0"
-updated: '2026-08-01'
-keywords: ["shift at midnight story walkthrough", "all nights guide", "campaign guide shift at midnight", "story mode shift at midnight", "complete walkthrough shift at midnight", "shift at midnight 13 shifts"]
-related: ["endings-guide", "beginner-guide", "doppelganger-guide", "dentist-guide"]
+version: "1.1"
+updated: '2026-08-25'
+keywords: ["shift at midnight story walkthrough", "shift at midnight night 2 walkthrough", "shift at midnight night 10 walkthrough", "how many nights does shift at midnight have", "all nights guide", "campaign guide shift at midnight", "story mode shift at midnight", "complete walkthrough shift at midnight", "shift at midnight 13 shifts"]
+related: ["endings-guide", "endings-explained-guide", "beginner-guide", "doppelganger-guide", "dentist-guide", "characters-guide"]
 sources:
   - tier: "Official"
     text: "13-shift story campaign with randomly generated shifts; the Midnight Town gas station setting — Steam store page and official description"
@@ -19,14 +19,38 @@ sources:
 
 Welcome to the night shift. *Shift At Midnight* unfolds across **13 shifts** at a rural 1993 American gas station in Midnight Town. Shifts are randomly generated, so customer names, stories, and layouts vary between runs — but the campaign's scripted beats and its per-shift doppelganger lists are consistent enough to plan around.
 
-This walkthrough covers every shift, the fakes to watch for, the scripted events, and the path to the True Ending. A warning up front: shift-by-shift details are community-documented and may drift as the game updates. Where something is unconfirmed, it's marked.
+This walkthrough covers every shift, the fakes to watch for, the scripted events, and the path to the True Ending. Shift-by-shift details are community-documented and may drift with updates; unconfirmed items are marked.
+
+## How Many Nights Does Shift At Midnight Have?
+
+**13 shifts (nights).** The story campaign always runs exactly 13 randomly generated shifts, and the ending is decided at the vet check after Night 13 — see the [Endings Guide](/guides/endings-guide).
+
+## Night-by-Night Quick Reference
+
+| Shift | Signature Event | Key Fake(s) |
+|-------|-----------------|-------------|
+| 1 | First shift, gun pickup | Nathan Calloway, Julietta Granger |
+| 2 | Generator sabotage, Norbert appears | Natasha Lin, Emilia Carter |
+| 3 | Pet medicine bill | Tommy Delgado (first) |
+| 4 | Gas pumps, rat bonus task | Keith Hargreaves, Driver (2nd) |
+| 5 | Blood rain, correct-bus rule | Driver, Anita Varma, Elena Park |
+| 6 | Forest limb cleanup | Jade Sinclair, Ramona Delgado, Harold Brant |
+| 7 | The Dentist arrives, thieves | Louisa Mari (1st), Herbert, Richard McCree |
+| 8 | Volume night | Daria Groves, David Kennedy, Lisa Cannon |
+| 9 | Fake Clyde, roach bonus | Aria Romero, fake Clyde Dawson |
+| 10 | Grave task, $250 reveal, Guillermo poster | Rudnick Wex, Vivien Marrow, Net Pongsak |
+| 11 | Cash for surgery | Dylan Pike, Agnes Wells, Andal Khan (2nd) |
+| 12 | Self-doppelgangers, the call decision | Yasmin Carvalho, Maya Davila, Diana Volkov |
+| 13 | The swarm finale | All types |
+
+Details for every shift below. For the full fake roster, see [All Doppelgangers](/guides/all-doppelgangers-list).
 
 ## The Daily Routine
 
 Every shift follows a fixed loop (confirmed by walkthroughs):
 
 1. **Read the noticeboard** for objectives (a gas-pump note joins it from Shift 4)
-2. **Clean the previous night's mess** — grab the mop, clean the blood in the next room, bag any limbs in trash bags, dump them outside
+2. **Clean the previous night's mess** — mop the blood, bag the limbs, dump them outside
 3. **Leave the garage door open** for the delivery truck
 4. **Stock shelves** from the delivery boxes; restock again after each sale
 5. **Serve customers** — scan IDs, bag items, screen for doppelgangers
@@ -104,8 +128,7 @@ Every shift follows a fixed loop (confirmed by walkthroughs):
 
 **Fakes**: Driver, Daria Groves, David Kennedy, Lisa Cannon
 
-- More customer volume, no new entity tricks
-- Solid night to bank money — the campaign gets expensive from here
+- More customer volume, no new entity tricks — a solid night to bank money before the campaign gets expensive
 
 ## Shift 9 — The Fake Clyde
 
@@ -121,6 +144,7 @@ Every shift follows a fixed loop (confirmed by walkthroughs):
 
 - **Blood rain again** — weapons are harder to reach mid-fight; prep the Arsenal before the shift
 - **Forest grave task**: fill a bucket and pour liquid into the grave
+- **A missing dog poster for "Guillermo"** appears on the noticeboard — **do not chase it**: community investigation confirms the dog cannot be found anywhere, the number can't be called, and it's a red herring (see the [Characters Guide](/guides/characters-guide))
 - **After this shift, the pet's $250 surgery is revealed** — the True Ending requirement enters play
 
 ## Shift 11 — Cash for Surgery
@@ -143,18 +167,12 @@ Every shift follows a fixed loop (confirmed by walkthroughs):
 
 - The final shift throws a **swarm of all doppelganger types** at you
 - Shoot until the **Dentist cutscene** triggers, then **run in the opposite direction** until a second cutscene catches you
-- In the second cutscene, **a stranger kills the Dentist — and then himself**
+- In the second cutscene, **Clyde finishes off the Dentist** — whether Clyde survives that encounter is what separates the endings (some early community versions described "a stranger" in this role; current published guides consistently name Clyde)
 - Endless Mode beta runs on this same loop if you want more after the credits
 
 ## The True Ending
 
-Community walkthroughs converge on three conditions:
-
-1. **Bank at least $250 in *personal* cash** for the pet's surgery by the end (the requirement is revealed at Shift 10)
-2. **Keep store money and personal funds separate** — the check reads your personal account
-3. **Do not call Clyde** in the finale — the sheriff's email offer is a bluff
-
-The most common failure is reaching that check short on personal cash. Track your personal balance from Shift 1, avoid bleeding it into store expenses, and the ending is reliable. Full details in the [Endings Guide](/guides/endings-guide).
+The True Ending requires **$250+ in personal cash**, **kept separate from store funds**, and **no call to Clyde** in the finale — the most common failure is reaching the vet check short on cash. Track your personal balance from Shift 1 and avoid bleeding it into store expenses. Full conditions and checklist: [Endings Guide](/guides/endings-guide).
 
 ## Walkthrough Pro Tips
 
