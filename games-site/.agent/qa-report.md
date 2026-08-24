@@ -370,3 +370,7 @@ All 3 expansions pass quick QA. No fabrication, no residue, clean builds. Total 
 补充（非阻塞）: lib/schema.ts:51,95 JSDoc 注释残留 "Echoes of Aincrad"（模板注释，不渲染，建议随修复清理）。
 
 修复范围 = 4 个文件（lib/schema.ts、content/home-content.md、app/page.tsx、app/faq/page.tsx）。本次 EXPAND-003 新增的 5 篇攻略内容本身事实干净，无需改动。主 Agent 决策: 该站重部署前 MUST 退回建站协调员修复上述 10 项。
+
+### FAIL 处理结果 — 2026-08-25（主 Agent 记录）
+
+shiftatmidnightwiki FAIL 已闭环：FIX-SAM（建站协调员修复模式）修复 4 文件 27 处 → build 零错误（44 routes）→ 重部署 → 线上三重验证通过：fiddlesticks=0、$12.99=0、6 endings=0、app 4050060=0；首页 Bun Muen/Kwalee 呈现、FAQ $9.99 呈现、endings-explained-guide 正常渲染。新增 5 篇攻略未改动。

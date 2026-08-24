@@ -31,6 +31,7 @@ MUST NOT 只改第一个找到的文件就停（同类问题要扫全站）
 MUST 检查 Privacy/Terms 中 AdSense 声明与实际状态一致（未批准 = "intend to apply / if approved"）
 MUST 检查 Footer/About/Terms 的商标/开发商名称正确（教训：Bounded Innovation 残留）
 MUST 检查 JSON-LD 中域名无跨站硬编码（教训：dwarfdelve 硬编码 grainrot 域名）
+MUST 检查首页/FAQ 渲染文件（app/page.tsx、app/faq/page.tsx、lib/schema.ts）的事实断言（开发商/价格/结局数/峰值）与 Steam 一致，不止 About/Privacy/Terms（教训：shiftatmidnight 编造站级元数据 4 周未被发现，8/25 QA 才拦截）
 MUST 检查 Contact 有真实可用联系方式
 
 ## 内容断言规则

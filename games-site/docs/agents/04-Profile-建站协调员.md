@@ -31,6 +31,8 @@ MUST 所有数字标注来源或 [待确认]
 MUST NOT 编造：Boss 名、武器数据、评分、价格、系统要求、开发商名
 MUST NOT 使用 Hugo shortcodes 或其他站残留模板
 MUST NOT 复制其他站点内容（跨站污染，教训：dwarfdelve 硬编码 grainrot 域名）
+MUST 站级渲染文件（app/page.tsx、app/faq/page.tsx、lib/schema.ts、content/home-content.md）的开发商/发行商/价格/结局数等事实与 Steam 商店页一致（教训：shiftatmidnight 站级元数据编造 4 周未被发现——Fiddlesticks Games/$12.99/6 结局全为虚构，8/25 QA FAIL 退回）
+MUST 英文站内容出现任何标记一律用英文（[待确认] → [Unconfirmed]）（教训：8/25 deep 审计发现 5 站 30 文件中文标记泄漏，SERP 观感差）
 
 ## QA 规则
 
@@ -50,7 +52,7 @@ MUST 构建零错误才部署
 MUST 部署后 curl 验证线上可访问（HTTP 200）
 MUST NOT 设置 rootDirectory（CLI 部署模式，见部署教训）
 
-## 暂停规则
+## 恢复规则
 
-当前状态：⏸️ 暂停（AdSense 合规改造期间）
-MUST 由主 Agent 明确恢复指令后才会重新运行
+当前状态：▶️ 已恢复（2026-08-22 起，BUILD-001 新 Agent 管线；每日一站节奏由主 Agent 调度）
+MUST 由主 Agent 明确恢复指令后才会重新运行；AdSense 合规红线（不编造/诚实标注/事实与 Steam 一致）永久有效
