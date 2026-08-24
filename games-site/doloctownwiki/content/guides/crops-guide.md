@@ -58,7 +58,7 @@ Doloc Town's year is divided into **weather months** — Light Rain, Heavy Rain,
 
 ## The Gene System
 
-The gene system lets you **modify crop traits** — growth speed, yield, and more (per the official [1.0 press release](https://www.gamespress.com/Doloc-Town-Leaves-Early-Access---Beloved-Post-Apocalyptic-Farming-Sim-)). The exact traits and how to unlock gene research are [待确认 — details not yet documented in English sources]. Players asking about the **Plant Analyzer** and **Plant Research Report** (a common community question) — these tools are part of crop research; their exact functions are [待确认].
+The gene system lets you **modify crop traits** — growth speed, yield, and more (per the official [1.0 press release](https://www.gamespress.com/Doloc-Town-Leaves-Early-Access---Beloved-Post-Apocalyptic-Farming-Sim-)). The exact traits and how to unlock gene research are [Unconfirmed — details not yet documented in English sources]. Players asking about the **Plant Analyzer** and **Plant Research Report** (a common community question) — these tools are part of crop research; their exact functions are [Unconfirmed].
 
 ## Sprinklers
 

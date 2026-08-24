@@ -35,7 +35,7 @@ Yes. The **Go-Go Town! Demo** is a separate free listing on Steam (App ID 244548
 
 Go-Go Town! supports **64 manual save slots** plus **6 autosave slots**, per a developer response on the Steam Community forums. In the save menu, the first slot is labeled "Empty Slot" — selecting it creates a brand-new manual save instead of overwriting an old one, and autosaves appear in the same menu. Autosaves happen roughly every 5–10 minutes of play. Save files live under `AppData\LocalLow\Prideful Sloth\Go-Go Town!` on Windows.
 
-One community-reported caveat [待确认]: starting a "New Game" can overwrite your active save after some playtime, so experienced players recommend always saving into a new or empty slot and enabling Steam Cloud. Make a manual backup before big building projects.
+One community-reported caveat [Unconfirmed]: starting a "New Game" can overwrite your active save after some playtime, so experienced players recommend always saving into a new or empty slot and enabling Steam Cloud. Make a manual backup before big building projects.
 
 ## Why Are My Workers Not Working?
 
@@ -43,7 +43,7 @@ This is the single most-asked Go-Go Town! question. Work through this checklist 
 
 1. **Tools inside the zone boundary** — a machine with its tools placed outside its production zone confuses worker AI
 2. **Storage inside the zone** — workers need a valid storage point close by
-3. **Seeds available** — farm and fishery workers stop if inventories run dry; collect seeds from flower patches or import seed packs (exact spawns vary [待确认])
+3. **Seeds available** — farm and fishery workers stop if inventories run dry; collect seeds from flower patches or import seed packs (exact spawns vary [Unconfirmed])
 4. **Storage not full** — full worker backpacks and full bins stop production lines cold
 
 If a specific worker is stuck, unhire and rehire them, or nudge them with a vehicle. And don't fight the couriers: if you place materials before the courier does, the AI can drop items on the ground — let workers do their jobs.
@@ -78,7 +78,7 @@ Yes — Creative Mode is a relaxed sandbox with the full building toolset, no mo
 
 ## Does Progress Carry Across Platforms?
 
-**Unconfirmed [待确认].** No official statement about cross-platform save sharing or cloud-save transfer between PC and Switch has been published. Treat any guide promising console-to-PC save transfer as unsourced.
+**Unconfirmed [Unconfirmed].** No official statement about cross-platform save sharing or cloud-save transfer between PC and Switch has been published. Treat any guide promising console-to-PC save transfer as unsourced.
 
 ## What Updates Are Coming?
 

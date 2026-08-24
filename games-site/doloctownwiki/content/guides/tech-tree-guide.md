@@ -40,7 +40,7 @@ Doloc Town's progression runs through the **Tech Tree** — the research system 
 "Upgrade tools" in Doloc Town means two things (per [Neoseeker](https://www.neoseeker.com/doloc-town/walkthrough) and the [1.0 patch notes](https://www.vgspoilers.com/game/doloc-town/patches/1.0)):
 
 1. **Tech Tree research** — spending Tool Operation points unlocks better tool capabilities
-2. **New tool tiers** — the 1.0 patch added new tool tiers and accessories (per [VGSpoilers](https://www.vgspoilers.com/game/doloc-town/patches/1.0)); the exact upgrade materials for each tier are [待确认]
+2. **New tool tiers** — the 1.0 patch added new tool tiers and accessories (per [VGSpoilers](https://www.vgspoilers.com/game/doloc-town/patches/1.0)); the exact upgrade materials for each tier are [Unconfirmed]
 
 ## Research Priorities (Community Consensus)
 
@@ -51,7 +51,7 @@ Doloc Town's progression runs through the **Tech Tree** — the research system 
 
 ## Unconfirmed Research Items
 
-Players ask about the **Plant Analyzer**, **Plant Research Report**, and **Weather Regulator** (per Google search suggestions). These appear to be research-related items, but their exact functions and unlock paths are [待确认 — not yet documented in English sources we could verify]. We'll update this guide as the community maps them.
+Players ask about the **Plant Analyzer**, **Plant Research Report**, and **Weather Regulator** (per Google search suggestions). These appear to be research-related items, but their exact functions and unlock paths are [Unconfirmed — not yet documented in English sources we could verify]. We'll update this guide as the community maps them.
 
 ## Sources
 

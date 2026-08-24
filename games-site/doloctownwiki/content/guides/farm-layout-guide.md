@@ -40,7 +40,7 @@ Doloc Town is a **vertical farm simulator** — you stack planters on platforms 
 
 ## Can You Move Buildings?
 
-"How to move buildings" is one of the most-asked player questions (per Google search suggestions). At the time of writing, we haven't found an official statement confirming whether existing buildings can be relocated — [待确认]. Community discussion suggests planning your layout carefully rather than relying on moving structures later.
+"How to move buildings" is one of the most-asked player questions (per Google search suggestions). At the time of writing, we haven't found an official statement confirming whether existing buildings can be relocated — [Unconfirmed]. Community discussion suggests planning your layout carefully rather than relying on moving structures later.
 
 ## Farm Checklist
 

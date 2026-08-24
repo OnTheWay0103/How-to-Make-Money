@@ -33,8 +33,8 @@ Doloc Town's settlement is populated by **quirky townsfolk with hidden stories**
 
 - **"Doloc town gift guide"** and **"doloc town romance"** are both common player searches (per Google search suggestions)
 - The official materials describe **befriending townsfolk with personal storylines** and **decorating your home** (per [Gematsu](https://www.gematsu.com/2026/07/doloc-town-launches-august-6))
-- **Romance**: whether Doloc Town has full romance mechanics (dating, marriage) is [待确认 — not confirmed by official materials we could verify]. We'll update this guide when the system is documented
-- **Gift preferences**: per-character gift preferences are [待确认 — not yet documented in English guides]
+- **Romance**: whether Doloc Town has full romance mechanics (dating, marriage) is [Unconfirmed — not confirmed by official materials we could verify]. We'll update this guide when the system is documented
+- **Gift preferences**: per-character gift preferences are [Unconfirmed — not yet documented in English guides]
 
 ## The Town's Mystery
 

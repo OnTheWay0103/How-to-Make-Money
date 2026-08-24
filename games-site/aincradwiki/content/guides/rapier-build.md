@@ -146,7 +146,7 @@ Some enemies and bosses have multi-hit combos where every hit is parryable. Chai
 
 ### Late Parry (Fake-Out)
 
-A mind-game technique for PvP and aggressive humanoid enemies:
+A mind-game technique for aggressive humanoid enemies:
 - Intentionally delay your parry until the attack is 0.1-0.15 seconds from landing
 - The blue flash still triggers the parry, but the shorter window baits enemy follow-ups
 - Use this when the enemy has a pattern that punishes early parries (e.g., feinted attacks)

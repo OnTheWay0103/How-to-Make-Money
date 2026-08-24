@@ -36,7 +36,7 @@ Practical reading of the confirmed system:
 
 - **Every run is a harvest run.** Even a failed deep climb produced materials on the way up. Nothing you kill is wasted.
 - **Enemy variety = material variety.** 60+ enemy types across 100 floors means early floors and deep floors feed different forges. If a material is missing for a craft, it likely comes from a floor band you haven't reached.
-- **Elite and boss enemies are the richest question mark.** Bosses drop **Boss Unique Weapons** (confirmed, Steam version). Whether elite monsters drop rarer materials is officially unstated — treat it as `[待确认]` and farm what the rooms actually give you.
+- **Elite and boss enemies are the richest question mark.** Bosses drop **Boss Unique Weapons** (confirmed, Steam version). Whether elite monsters drop rarer materials is officially unstated — treat it as `[Unconfirmed]` and farm what the rooms actually give you.
 
 ## The Extraction Rule: Bring It Back Out
 
@@ -58,7 +58,7 @@ Confirmed facts:
 | The Blacksmith forges weapons, armor, and artifacts | Official materials |
 | Forging and upgrading are how you "develop your combat style" | Official tagline |
 | There are 128 weapons (six types) and 200+ equipment pieces | Official count |
-| Exact forging costs and upgrade caps | **Not published — `[待确认]`** |
+| Exact forging costs and upgrade caps | **Not published — `[Unconfirmed]`** |
 
 Spending advice that follows from the confirmed system:
 
@@ -83,7 +83,7 @@ Players ask this constantly: **is there gold, souls, or coins in Phantom Tower?*
 What we do have:
 
 - **Materials** are the confirmed currency of gear — harvested, extracted, forged.
-- The Steam achievement **"Billionaire"** is officially listed (name revealed; requirement not published), which hints at a wealth or economy system — but that is inference, not confirmation `[待确认]`.
+- The Steam achievement **"Billionaire"** is officially listed (name revealed; requirement not published), which hints at a wealth or economy system — but that is inference, not confirmation `[Unconfirmed]`.
 - The mobile version has its own separate systems (a Necromancer class that collects souls from enemies, rune sockets on gear), but the mobile and Steam versions are separate products — do not assume mobile systems exist on Steam.
 
 Any guide naming a specific currency ("Phantom Coins," "Tower Souls") and quoting prices for it is inventing the numbers.
@@ -107,7 +107,7 @@ A: The confirmed source is harvesting fallen monsters across the 60+ enemy types
 A: Materials, resources, and equipment — all three are explicitly listed in Climb Mode's official description. Bring the rarest materials and any gear worth forging or Soulbinding.
 
 **Q: Is there money in the game?**
-A: No named currency has been officially published for the Steam version `[待确认]`. Materials are the economy.
+A: No named currency has been officially published for the Steam version `[Unconfirmed]`. Materials are the economy.
 
 **Q: Do materials persist if I die?**
 A: Only what you brought out before dying. What you were carrying is lost — which is why extraction discipline matters more than push depth.

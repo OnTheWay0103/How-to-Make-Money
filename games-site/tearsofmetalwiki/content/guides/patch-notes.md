@@ -6,6 +6,11 @@ version: "Early Access"
 updated: "2026-08-11"
 keywords: ["Tears of Metal patch notes", "Tears of Metal updates", "Tears of Metal roadmap", "Tears of Metal Early Access", "Tears of Metal new heroes", "Tears of Metal mid-campaign saves", "Tears of Metal Xbox Game Pass"]
 related: ["save-system-guide", "multiplayer-connection-fix-guide", "heroes-tier-list", "beginner-guide"]
+sources:
+  - tier: "Official"
+    text: "Launch build details, $24.99 Early Access price, 100K+ copies sold milestone and roadmap items — Steam store page and Paper Cult announcements"
+  - tier: "Community"
+    text: "All-time concurrent-player peak (6,239) tracked by SteamCharts (steamcharts.com/app/1913120), checked August 25, 2026; launch-issue reports are community-documented"
 ---
 
 # Tears of Metal Updates & Roadmap — Early Access Patch Tracker
@@ -40,7 +45,7 @@ The Early Access launch build introduced the full campaign:
 - **Campaign structure:** run-based acts across the invaded Scottish island — start in your village, move from battlefield to battlefield, collect run-based upgrades, and bank permanent currencies that carry over whether you win or lose
 - **Core systems:** battalion commands and soldier recruitment with permadeath and permanent skill progression, emblems (18 types) and artifacts, and village expansion between runs (Armory, Recruitment Tent, Smithy, Apothecary, Mystic Altar)
 - **Co-op:** 1–4 players online
-- **Reception:** "Very Positive" on Steam (roughly 87% at the time of writing), peaking around 4,500 concurrent players
+- **Reception:** "Very Positive" on Steam (checked August 25, 2026), with an all-time peak of roughly 6,200 concurrent players (SteamCharts)
 
 **Known launch issues:** multiplayer desync with distant or unstable hosts, no mid-campaign saves, and scattered reports of lost progress after crashes. All three are addressed below.
 

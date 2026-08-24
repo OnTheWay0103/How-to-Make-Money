@@ -5,7 +5,6 @@ category: "Reference"
 date: "2026-08-03"
 keywords: ["low-budget repairs system requirements", "low budget repairs pc specs", "low budget repairs minimum requirements", "low budget repairs recommended specs", "low budget repairs can i run it"]
 updated: "2026-08-03"
-slug: "system-requirements"
 related: ["faq", "painting-guide"]
 sources:
   - tier: "Official"

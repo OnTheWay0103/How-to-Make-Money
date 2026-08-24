@@ -5,7 +5,6 @@ category: "Game Info"
 date: "2026-08-03"
 keywords: ["low-budget repairs faq", "low budget repairs release date", "low budget repairs steam", "low budget repairs price", "low budget repairs multiplayer", "low budget repairs demo", "low budget repairs system requirements", "low budget repairs preload"]
 updated: "2026-08-07"
-slug: "faq"
 related: ["system-requirements", "painting-guide", "renovation-jobs-guide", "release-hub", "demo-guide", "price-editions-guide"]
 sources:
   - tier: "Official"

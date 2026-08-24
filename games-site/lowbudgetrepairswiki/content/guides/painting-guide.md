@@ -5,7 +5,6 @@ category: "Guides"
 date: "2026-08-03"
 keywords: ["low-budget repairs painting guide", "low budget repairs paint tips", "low budget repairs how to paint", "low budget repairs dilute paint", "low budget repairs roller or brush", "low budget repairs best paint"]
 updated: "2026-08-03"
-slug: "painting-guide"
 related: ["tiling-guide", "renovation-jobs-guide", "faq"]
 sources:
   - tier: "Community"

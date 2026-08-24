@@ -5,7 +5,6 @@ category: "Guides"
 date: "2026-08-03"
 keywords: ["low-budget repairs jobs", "low budget repairs job list", "low budget repairs renovation jobs", "low budget repairs flooded bathroom", "low budget repairs kitchen renovation", "low budget repairs plumbing"]
 updated: "2026-08-03"
-slug: "renovation-jobs-guide"
 related: ["painting-guide", "tiling-guide", "faq"]
 sources:
   - tier: "Community"

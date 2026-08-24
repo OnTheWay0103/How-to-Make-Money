@@ -17,7 +17,7 @@ sources:
 
 # How to Make Money Fast in Doloc Town
 
-Goldcoin is the lifeblood of Doloc Town — it buys backpack slots, fishing rods, seeds, and upgrades. This guide collects the verified money-making strategies used by the community, with the numbers from the sources that report them. Numbers are per the sources cited; anything unconfirmed is marked [待确认].
+Goldcoin is the lifeblood of Doloc Town — it buys backpack slots, fishing rods, seeds, and upgrades. This guide collects the verified money-making strategies used by the community, with the numbers from the sources that report them. Numbers are per the sources cited; anything unconfirmed is marked [Unconfirmed].
 
 ## Phase 1: Endyams Are the Top Early Crop
 
@@ -54,7 +54,7 @@ Unlocking **cooking early in the Tech Tree** lets you process whole harvests at 
 
 Fishing needs **no bait** — you just need energy (10 per cast) and a rod (per [Raiderking](https://raiderking.com/doloc-town-100-fishing-guide-all-locations/)):
 
-- **Golden Fish** sell for **1,000 Goldcoin each**, and there's a guild quest paying **2,000** for one (per [Grindnstrat](https://grindnstrat.com/doloc-town-fishing-guide/)). They're found only in the Deep/Forest Pond [待确认 exact pond — see the [Fishing Guide](/guides/fishing-guide)].
+- **Golden Fish** sell for **1,000 Goldcoin each**, and there's a guild quest paying **2,000** for one (per [Grindnstrat](https://grindnstrat.com/doloc-town-fishing-guide/)). They're found only in the Deep/Forest Pond [Unconfirmed exact pond — see the [Fishing Guide](/guides/fishing-guide)].
 - The pond by the **elk/deer statue** has a **100% fish catch rate** (per [Grindnstrat](https://grindnstrat.com/doloc-town-fishing-guide/)).
 - A good day of fishing can earn ~2,000 Goldcoin (per [Prodigygamers](https://prodigygamers.com/2026/08/10/doloc-town-beginners-guide-4th-month-cash-strategy-farming-meta/)).
 - **Grass carp and perch** cook into Delicious Steamed Fish (210 G) for solid profit (per [Prodigygamers](https://prodigygamers.com/2026/08/10/doloc-town-beginners-guide-4th-month-cash-strategy-farming-meta/)).

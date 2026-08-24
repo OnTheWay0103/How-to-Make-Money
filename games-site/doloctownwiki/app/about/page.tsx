@@ -41,7 +41,7 @@ export default function AboutPage() {
       <h2>Editorial Standards</h2>
       <ul>
         <li><strong>Verification first:</strong> Numerical values (counts, costs, prices) are only included where they can be verified against official sources, reputable guides, or the game itself</li>
-        <li><strong>Source transparency:</strong> Guides indicate where information comes from, and attribute unverified details to their source or mark them [待确认]</li>
+        <li><strong>Source transparency:</strong> Guides indicate where information comes from, and attribute unverified details to their source or mark them [Unconfirmed]</li>
         <li><strong>No fabrication:</strong> Unconfirmed mechanics are marked as unconfirmed rather than invented</li>
         <li><strong>Corrections welcome:</strong> Game mechanics change. We fix errors when reported</li>
         <li><strong>Community-driven:</strong> We prioritize topics that real players are asking about on Steam and community forums</li>

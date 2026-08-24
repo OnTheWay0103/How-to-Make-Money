@@ -26,8 +26,8 @@ What's verified:
 
 The 1.0 patch introduced **combat drones and accessories** (per the [1.0 patch notes via VGSpoilers](https://www.vgspoilers.com/game/doloc-town/patches/1.0)). These are separate from the farming automation drones — combat drones help you fight. Details:
 
-- How to obtain combat drones: [待确认]
-- Whether they fight alongside you or as equipment: [待确认]
+- How to obtain combat drones: [Unconfirmed]
+- Whether they fight alongside you or as equipment: [Unconfirmed]
 - Community guides discuss **drone combat** as part of the late-game loop (per [Mejoress](https://www.mejoress.com/how-to-master-doloc-town-early-upgrades-resource-loops-drone-combat/))
 
 ## Exploration Readiness Checklist
@@ -41,7 +41,7 @@ Before you head into hostile areas:
 
 ## Tools vs. Weapons
 
-The three core tools (Scythe, Pickaxe, Axe) are for gathering (per [TechRaptor](https://techraptor.net/gaming/guides/doloc-town-guide-beginner-tips-and-tricks)). Whether they double as combat weapons is [待确认 — not documented]. Dedicated weapons have not been documented in the English sources we verified; the 1.0 combat drones are the confirmed combat addition.
+The three core tools (Scythe, Pickaxe, Axe) are for gathering (per [TechRaptor](https://techraptor.net/gaming/guides/doloc-town-guide-beginner-tips-and-tricks)). Whether they double as combat weapons is [Unconfirmed — not documented]. Dedicated weapons have not been documented in the English sources we verified; the 1.0 combat drones are the confirmed combat addition.
 
 ## Sources
 

@@ -38,7 +38,7 @@ Weather is not decoration in Doloc Town — it's the core challenge. The post-ap
 
 - Lightning can **destroy unprotected crops**
 - **Lightning Rods** (crafted from **copper**) protect your plants (per [Grindnstrat](https://grindnstrat.com/doloc-town-1-0-beginner-guide/))
-- You can also **harness lightning to power the farm** (per the [Steam description](https://store.steampowered.com/app/2285550/Doloc_Town/)) — the exact lightning-harvesting devices are [待确认]
+- You can also **harness lightning to power the farm** (per the [Steam description](https://store.steampowered.com/app/2285550/Doloc_Town/)) — the exact lightning-harvesting devices are [Unconfirmed]
 
 ## Using Weather to Your Advantage
 
@@ -48,7 +48,7 @@ Weather is not decoration in Doloc Town — it's the core challenge. The post-ap
 
 ## The Weather Regulator
 
-"How to get the weather regulator" is a commonly searched question (per Google search suggestions). The **Weather Regulator** appears to be a device that controls or mitigates weather effects — its exact unlock path is [待确认 — not yet documented in English sources we could verify].
+"How to get the weather regulator" is a commonly searched question (per Google search suggestions). The **Weather Regulator** appears to be a device that controls or mitigates weather effects — its exact unlock path is [Unconfirmed — not yet documented in English sources we could verify].
 
 ## Weather Safety Checklist
 

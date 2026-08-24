@@ -29,11 +29,11 @@ The first major Early Access update added (per the official [Pastoral Waves pres
 
 ## What Animals Need
 
-The exact per-animal requirements (feed types, care schedules) are [待确认 — not yet documented in English guides we could verify]. What players consistently ask about (per Google search suggestions):
+The exact per-animal requirements (feed types, care schedules) are [Unconfirmed — not yet documented in English guides we could verify]. What players consistently ask about (per Google search suggestions):
 
-- **Animal feed** — the resource animals consume; how to produce or buy it is [待确认]
-- **Fish food** — the aquaculture equivalent; [待确认]
-- **Feathers** — "how to get feathers" is a common question; feathers come from farm birds [待确认 — exact bird unlock requirements]
+- **Animal feed** — the resource animals consume; how to produce or buy it is [Unconfirmed]
+- **Fish food** — the aquaculture equivalent; [Unconfirmed]
+- **Feathers** — "how to get feathers" is a common question; feathers come from farm birds [Unconfirmed — exact bird unlock requirements]
 
 ## Why Bother with Ranching
 
@@ -47,8 +47,8 @@ The 1.0 Farming Automation system extends to ranching: at the advanced **Large-S
 
 ## Getting Started with Ranching
 
-1. Complete the main-story/tech progression until **ranching buildings** are available [待确认 — exact unlock]
-2. Obtain your first animals from the appropriate vendor or quest [待确认]
+1. Complete the main-story/tech progression until **ranching buildings** are available [Unconfirmed — exact unlock]
+2. Obtain your first animals from the appropriate vendor or quest [Unconfirmed]
 3. Keep animal **feed stocked** and harvest products daily
 4. Unlock the **Automation node** in the Tech Tree to let drones handle the chores later
 

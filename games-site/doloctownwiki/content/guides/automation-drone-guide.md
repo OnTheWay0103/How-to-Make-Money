@@ -55,9 +55,9 @@ Per the [1.0 patch notes via VGSpoilers](https://www.vgspoilers.com/game/doloc-t
 
 ## Frequently Asked Questions
 
-**What is the "abandoned drone"?** — A commonly searched item. [待确认 — we have not verified whether an "abandoned drone" is a quest item, a location, or community shorthand. If you find one, report it!]
+**What is the "abandoned drone"?** — A commonly searched item. [Unconfirmed — we have not verified whether an "abandoned drone" is a quest item, a location, or community shorthand. If you find one, report it!]
 
-**What is the "drone engine"?** — [待确认 — the drone engine appears to be a drone component; the exact item and its function are not yet documented in English sources.]
+**What is the "drone engine"?** — [Unconfirmed — the drone engine appears to be a drone component; the exact item and its function are not yet documented in English sources.]
 
 **Which drone is best?** — The drone roster and efficiency numbers aren't published yet; the "best" drone depends on your layout and farm size. We'll update this guide as the meta develops (per the [1.0 overview](https://steamcommunity.com/app/2285550/allnews)).
 

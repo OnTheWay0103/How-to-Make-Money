@@ -5,7 +5,6 @@ category: "Guides"
 date: "2026-08-03"
 keywords: ["low-budget repairs tiling guide", "low budget repairs tile floor", "low budget repairs how to tile", "low budget repairs tile cheap", "low budget repairs grout", "low budget repairs bathroom tiles"]
 updated: "2026-08-03"
-slug: "tiling-guide"
 related: ["painting-guide", "renovation-jobs-guide", "faq"]
 ---
 

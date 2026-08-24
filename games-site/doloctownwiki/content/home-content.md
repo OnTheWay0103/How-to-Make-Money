@@ -72,4 +72,4 @@ The game blends *Stardew Valley*-style farming with *Fallout*-inspired survival:
 
 ---
 
-*This wiki is community-maintained and updated as Doloc Town evolves. All facts are sourced; unverified details are marked [待确认].*
+*This wiki is community-maintained and updated as Doloc Town evolves. All facts are sourced; unverified details are marked [Unconfirmed].*

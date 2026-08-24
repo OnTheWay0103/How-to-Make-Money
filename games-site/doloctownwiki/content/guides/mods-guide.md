@@ -31,11 +31,11 @@ Doloc Town has **official Steam Workshop integration**, added during Early Acces
 3. **Launch the game** — Workshop content is usually applied on startup
 4. **Manage mods** through the Workshop's "Your Files" page (unsubscribe to remove)
 
-> Note: the exact in-game mod-management menu is [待确认 — not documented in the English sources we verified]. If the game has an in-game mod list, we'll document it here once confirmed.
+> Note: the exact in-game mod-management menu is [Unconfirmed — not documented in the English sources we verified]. If the game has an in-game mod list, we'll document it here once confirmed.
 
 ## What Kind of Mods Exist
 
-The Workshop's content library wasn't catalogued in the sources we verified at the time of writing. Expect the usual cozy-game categories as the community grows — QoL tweaks, visual changes, and layout helpers [待确认 — based on Workshop norms, not confirmed Doloc Town content].
+The Workshop's content library wasn't catalogued in the sources we verified at the time of writing. Expect the usual cozy-game categories as the community grows — QoL tweaks, visual changes, and layout helpers [Unconfirmed — based on Workshop norms, not confirmed Doloc Town content].
 
 ## Mod Safety Tips
 

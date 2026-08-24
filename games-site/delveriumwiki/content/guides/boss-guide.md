@@ -47,7 +47,7 @@ The roadmap commits to **new bosses during the ~2-year Early Access period**, al
 
 - The world boss is the baseline, not the ceiling — EA will expand boss content as the world grows
 - Bosses are tied to the world's danger layer: "high risk dungeon crawling" plus the confirmed world boss point to boss encounters living at the end of dungeon depth
-- The story layer ("the Faults," lost lore fragments) is where boss lore is expected to surface — the confirmed quest systems will likely frame boss fights as story beats `[待确认]`
+- The story layer ("the Faults," lost lore fragments) is where boss lore is expected to surface — the confirmed quest systems will likely frame boss fights as story beats `[Unconfirmed]`
 
 ## The Preparation Checklist (Built on Confirmed Systems)
 
@@ -95,9 +95,9 @@ Nobody knows the mechanics yet — the party that documents them first sets the 
 
 Confirmed reward categories:
 
-- **Unique items** — "loot unique items" is the confirmed dungeon reward; bosses are expected to sit at the top of that loot tier `[待确认]`
-- **Ores and rare materials** — dungeon crawling explicitly rewards mining and collection; a boss arena is the natural home for the rarest drops `[待确认]`
-- **Lore** — the Faults mystery hides secrets in the dungeons; boss encounters are the story's most likely climax points `[待确认]`
+- **Unique items** — "loot unique items" is the confirmed dungeon reward; bosses are expected to sit at the top of that loot tier `[Unconfirmed]`
+- **Ores and rare materials** — dungeon crawling explicitly rewards mining and collection; a boss arena is the natural home for the rarest drops `[Unconfirmed]`
+- **Lore** — the Faults mystery hides secrets in the dungeons; boss encounters are the story's most likely climax points `[Unconfirmed]`
 
 Exact boss loot tables are unannounced — treat any specific drop list as speculation.
 

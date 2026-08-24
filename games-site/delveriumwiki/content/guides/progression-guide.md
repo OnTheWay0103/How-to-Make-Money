@@ -16,7 +16,7 @@ related:
 
 Delverium has no skill trees and no quest log with checkpoints — progression is a loop, and every stage of it unlocks the next one. Understanding that order is the whole game: each step's output (tools, food, gear, wares, fast travel) is the input the next step needs. This guide maps the confirmed unlock order, what the demo proves about it, and what to prioritize when Early Access launches on September 22, 2026.
 
-> **Pre-release guide — will be updated for EA launch (Sept 22, 2026).** Everything below is built on confirmed systems and demo coverage; specifics marked `[待确认]` are unverified until launch.
+> **Pre-release guide — will be updated for EA launch (Sept 22, 2026).** Everything below is built on confirmed systems and demo coverage; specifics marked `[Unconfirmed]` are unverified until launch.
 
 ## The Confirmed Progression Loop
 
@@ -43,7 +43,7 @@ Farming (tilling, planting, watering, breeding animals, fishing, cooking) is a c
 
 ### Step 4: NPCs → trading → copper coins
 
-Recruit enough tenants and **trading opens up**: NPCs trade with you and **buy your excess resources for copper coins** (confirmed in demo coverage). Different NPCs offer different wares — community-documented demo path: it took **three or four tenants** before an NPC appeared offering **chickens and sheep**. More NPCs is the way to unlock variety. Copper coins are the confirmed trading currency; prices and wares lists are `[待确认]`.
+Recruit enough tenants and **trading opens up**: NPCs trade with you and **buy your excess resources for copper coins** (confirmed in demo coverage). Different NPCs offer different wares — community-documented demo path: it took **three or four tenants** before an NPC appeared offering **chickens and sheep**. More NPCs is the way to unlock variety. Copper coins are the confirmed trading currency; prices and wares lists are `[Unconfirmed]`.
 
 ### Step 5: Crafting → gear
 
@@ -75,7 +75,7 @@ The demo's world boss (added February 20, 2026; **name not announced**) is the c
 | Bosses | One world boss | Base set + more | **New bosses confirmed** |
 | Loot & gear variety | Limited | Base set | **New loot confirmed** |
 | NPC variety | 3–4 tenant tier | Base roster | **New NPCs confirmed** |
-| Save carryover to EA | — | `[待确认]` — not announced | — |
+| Save carryover to EA | — | `[Unconfirmed]` — not announced | — |
 
 The EA launch is not the final game — the roadmap commits to roughly two years of additions driven by player feedback. Plan your investment accordingly: master the systems at launch, expect the meta to change.
 
@@ -120,7 +120,7 @@ A: Find hidden Journey Shrines — added to the demo in the February 20, 2026 up
 A: The world boss is in the demo now. In progression terms it's the end of the loop — gear up through the dungeon layer first.
 
 **Q: Does anything carry from the demo?**
-A: `[待确认]` — save carryover to Early Access has not been announced.
+A: `[Unconfirmed]` — save carryover to Early Access has not been announced.
 
 ## Where to go next
 

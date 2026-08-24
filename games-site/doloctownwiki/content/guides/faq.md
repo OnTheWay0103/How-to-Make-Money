@@ -17,7 +17,7 @@ sources:
 
 # Doloc Town FAQ — Quick Answers to Common Questions
 
-Short, verified answers to the questions players ask most. Every answer cites its source; anything unconfirmed is marked [待确认].
+Short, verified answers to the questions players ask most. Every answer cites its source; anything unconfirmed is marked [Unconfirmed].
 
 ## How long is Doloc Town?
 
@@ -25,7 +25,7 @@ Short, verified answers to the questions players ask most. Every answer cites it
 
 ## How does saving work?
 
-**Saving is automatic.** Doloc Town saves as you play — you can close the game and continue where you left off, including farm layout, inventory, and story progress. (Based on the game's single-player structure; there is no manual save-slot menu documented [待确认].)
+**Saving is automatic.** Doloc Town saves as you play — you can close the game and continue where you left off, including farm layout, inventory, and story progress. (Based on the game's single-player structure; there is no manual save-slot menu documented [Unconfirmed].)
 
 ## How much does Doloc Town cost?
 
@@ -49,7 +49,7 @@ The **Golden Fish** is found only in the **Deep/Forest Pond** and sells for **1,
 
 ## Is there romance in Doloc Town?
 
-The official materials describe **befriending townsfolk with personal storylines**, but full romance mechanics are **[待确认]** (per [Gematsu](https://www.gematsu.com/2026/07/doloc-town-launches-august-6)). See the [Gifts & Friendship Guide](/guides/gifts-romance-guide).
+The official materials describe **befriending townsfolk with personal storylines**, but full romance mechanics are **[Unconfirmed]** (per [Gematsu](https://www.gematsu.com/2026/07/doloc-town-launches-august-6)). See the [Gifts & Friendship Guide](/guides/gifts-romance-guide).
 
 ## What did the 1.0 update add?
 

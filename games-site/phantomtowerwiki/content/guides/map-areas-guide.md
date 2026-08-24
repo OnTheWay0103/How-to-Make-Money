@@ -63,7 +63,7 @@ You do not live in the tower. The confirmed structure puts a preparation space b
 - The **Blacksmith** is the confirmed crafting hub: "Forge your equipment, develop your combat style."
 - The **Soulbinder** — the confirmed system for permanently locking stats onto gear — lives in this between-run layer.
 
-So the practical map of the game has two areas: the tower (where you risk everything) and the camp (where you convert what you risked into permanent power). Whether the camp is a town, a single screen, or has other facilities is **not officially detailed** `[待确认]`.
+So the practical map of the game has two areas: the tower (where you risk everything) and the camp (where you convert what you risked into permanent power). Whether the camp is a town, a single screen, or has other facilities is **not officially detailed** `[Unconfirmed]`.
 
 ## Survival Mode — The Other Arena
 
@@ -71,7 +71,7 @@ Survival Mode is the game's second confirmed area: an endless arena where you ch
 
 - **It is a separate area from the tower climb.** You do not "reach" Survival Mode by climbing — it is a distinct mode with its own structure.
 - **Loadout is chosen up front.** Your best-forged, Soulbound gear is what you test here — see the [Weapons Guide](/guides/weapons-guide).
-- **No floor structure is confirmed.** The mode is described as endless waves; whether it uses tower floors, arenas, or generated rooms is unpublished `[待确认]`.
+- **No floor structure is confirmed.** The mode is described as endless waves; whether it uses tower floors, arenas, or generated rooms is unpublished `[Unconfirmed]`.
 
 ## Hidden Areas & Secrets — The Honest Map
 
@@ -95,7 +95,7 @@ A: The tower escalates in difficulty bands, but no areas have official names. Tr
 A: At the Blacksmith — the confirmed crafting hub, accessed in the camp/preparation space between runs.
 
 **Q: Are there hidden rooms?**
-A: Tower Blessings are officially "hidden across its floors," so searching thoroughly is worth it. Specific secret rooms are not officially documented `[待确认]`.
+A: Tower Blessings are officially "hidden across its floors," so searching thoroughly is worth it. Specific secret rooms are not officially documented `[Unconfirmed]`.
 
 **Q: Does Survival Mode have floors?**
 A: The mode is described as endless hordes with chosen equipment and permanent death. Its internal structure is unpublished.

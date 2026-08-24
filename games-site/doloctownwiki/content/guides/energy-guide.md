@@ -45,7 +45,7 @@ Your Health bar drops when hostile creatures or hazards damage you. At zero you 
 
 - Food (cooked meals restore both Health and Energy)
 - Sleep
-- Farm equipment — some gear restores health over time [待确认 — exact items]
+- Farm equipment — some gear restores health over time [Unconfirmed — exact items]
 
 ### Stamina
 
@@ -61,7 +61,7 @@ These food effects are from [Prodigygamers](https://prodigygamers.com/2026/08/10
 | Hot Cocoa | +320 SP, +110 HP |
 | Aged Agave Wine | +480 Energy |
 
-> Note: "SP" in the source guide refers to the game's stamina/energy pool — the exact stat mapping is [待确认], but these dishes are consistently recommended as top-tier recovery foods.
+> Note: "SP" in the source guide refers to the game's stamina/energy pool — the exact stat mapping is [Unconfirmed], but these dishes are consistently recommended as top-tier recovery foods.
 
 ## Energy-Saving Habits
 

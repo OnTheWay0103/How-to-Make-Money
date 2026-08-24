@@ -10,7 +10,7 @@ related: ['crops-guide', 'fishing-guide', 'how-to-make-money', 'tech-tree-guide'
 
 # Tier List — The Honest State of Crop & Tool Rankings
 
-Tier lists for a game that just launched 1.0 are mostly guesses. Doloc Town's full release arrived **August 6, 2026**, and the meta is still forming. This guide takes the honest approach: only items with **verified numbers** get ranked, everything else is marked [待确认].
+Tier lists for a game that just launched 1.0 are mostly guesses. Doloc Town's full release arrived **August 6, 2026**, and the meta is still forming. This guide takes the honest approach: only items with **verified numbers** get ranked, everything else is marked [Unconfirmed].
 
 ## What We Can Rank (Verified Data)
 
@@ -21,7 +21,7 @@ Tier lists for a game that just launched 1.0 are mostly guesses. Doloc Town's fu
 | **S** | Pumpkin | 100 G seed → 340 G fruit, 9 days, ~26.7/pot/day; **412 G in April** | Best verified per-pot profit |
 | **A** | Endyam | 40 G each, 2 days, acid-rain resistant; +5 G cooked | Best early-game; safe outdoors |
 | **A** | Chinese cabbage | ~12.5/pot/day | High early profit — but fears acid rain (tent it) |
-| **B** | Wheat | [待确认 — details not yet documented] | Commonly asked about, no verified data yet |
+| **B** | Wheat | [Unconfirmed — details not yet documented] | Commonly asked about, no verified data yet |
 
 ### Fishing Rods (per [Raiderking](https://raiderking.com/doloc-town-100-fishing-guide-all-locations/))
 
@@ -41,7 +41,7 @@ Tier lists for a game that just launched 1.0 are mostly guesses. Doloc Town's fu
 | **A** | Hot Cocoa | +320 SP, +110 HP |
 | **A** | Deli Omurice | +300 SP, +75 HP |
 
-## What We Can't Rank Yet [待确认]
+## What We Can't Rank Yet [Unconfirmed]
 
 - **Drones** — the 1.0 automation roster and efficiency numbers aren't published yet (per the [1.0 overview](https://steamcommunity.com/app/2285550/allnews))
 - **Animals** — ranching balance changed in 1.0; no verified per-animal data in English sources

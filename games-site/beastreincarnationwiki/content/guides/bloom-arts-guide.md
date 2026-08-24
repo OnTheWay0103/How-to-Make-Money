@@ -76,6 +76,8 @@ The +50% stagger from Full Bloom on Kiku: Bloom Strike frequently opens a genuin
 
 > The ranking here is community-tested across launch fights; the full list of unlock conditions is in the [Koo Skills & Rapport Guide](/guides/koo-rapport-guide).
 
+> **Naming:** the acid Bloom Art family from Corvus is named **Nobudou: Burst** (upgraded **Nobudou: Burst II**) in published Corvus boss guides; the underlying Nushi Skill is called **Acid Burst**.
+
 ---
 
 ## FP-Generation Loops (Make FP Self-Sustaining)

@@ -35,13 +35,13 @@ Per [Raiderking's 100% Fishing Guide](https://raiderking.com/doloc-town-100-fish
 | **Catfish** | **19:00 – 02:00** only | Used in Delicious Steamed Fish (210 G) (per [Grindnstrat](https://grindnstrat.com/doloc-town-fishing-guide/)) |
 | **Pike** | **06:00 – 19:00** only | Daytime catch (per [Grindnstrat](https://grindnstrat.com/doloc-town-fishing-guide/)) |
 | **Salmon** | Festival days 25–27, any water | 25 caught = electric dryer + pumpkin seed stock (per [Prodigygamers](https://prodigygamers.com/2026/08/10/doloc-town-beginners-guide-4th-month-cash-strategy-farming-meta/)) |
-| **Mahi-mahi** | Seasonal rarity | [待确认 — details per [Grindnstrat](https://grindnstrat.com/doloc-town-fishing-guide/)] |
-| **Dumbo Octopus** | Seasonal rarity | [待确认 — details per [Grindnstrat](https://grindnstrat.com/doloc-town-fishing-guide/)] |
+| **Mahi-mahi** | Seasonal rarity | [Unconfirmed — details per [Grindnstrat](https://grindnstrat.com/doloc-town-fishing-guide/)] |
+| **Dumbo Octopus** | Seasonal rarity | [Unconfirmed — details per [Grindnstrat](https://grindnstrat.com/doloc-town-fishing-guide/)] |
 
 ## Where to Fish
 
 - **The pond by the elk/deer statue** has a **100% fish catch rate** — the safest early fishing spot (per [Grindnstrat](https://grindnstrat.com/doloc-town-fishing-guide/))
-- **Golden Fish** are found only in the **Deep/Forest Pond** (per [Grindnstrat](https://grindnstrat.com/doloc-town-fishing-guide/)); exact unlock requirements [待确认]
+- **Golden Fish** are found only in the **Deep/Forest Pond** (per [Grindnstrat](https://grindnstrat.com/doloc-town-fishing-guide/)); exact unlock requirements [Unconfirmed]
 - Different ponds hold different fish — the **Eastern Pond** and other water bodies are tied to specific catches (per [TechRaptor](https://techraptor.net/gaming/guides/doloc-town-recipe-guide-unlock-new-items))
 
 ## How the Fishing Mini-Game Works

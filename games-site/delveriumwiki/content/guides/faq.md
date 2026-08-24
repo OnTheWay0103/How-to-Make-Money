@@ -21,7 +21,7 @@ sources:
 
 # Delverium FAQ — Quick Answers Before Early Access Launch
 
-Delverium enters Steam Early Access on **September 22, 2026** — and before launch, the questions around it are louder than the answers. This FAQ covers what players actually ask, with everything grounded in official announcements and anything unconfirmed clearly marked `[待确认]`. For the deep dive on release details, see the [Release Date & Early Access Guide](/guides/release-date-ea-guide).
+Delverium enters Steam Early Access on **September 22, 2026** — and before launch, the questions around it are louder than the answers. This FAQ covers what players actually ask, with everything grounded in official announcements and anything unconfirmed clearly marked `[Unconfirmed]`. For the deep dive on release details, see the [Release Date & Early Access Guide](/guides/release-date-ea-guide).
 
 ## The Basics
 
@@ -35,7 +35,7 @@ Delverium is an open-world survival sandbox fantasy adventure for **1–8 player
 
 **How much will it cost?**
 
-**Not announced** `[待确认]`. The developers have confirmed the Early Access price will be **lower than the final 1.0 price**, but the actual number hasn't been published. The game already sits at **80,000+ Steam wishlists**, which suggests a modest indie price — that's speculation, not fact.
+**Not announced** `[Unconfirmed]`. The developers have confirmed the Early Access price will be **lower than the final 1.0 price**, but the actual number hasn't been published. The game already sits at **80,000+ Steam wishlists**, which suggests a modest indie price — that's speculation, not fact.
 
 **Where can I play it?**
 
@@ -57,11 +57,11 @@ Yes — the game is fully playable solo, and 1–8 players is the confirmed desi
 
 **Is there PvP?**
 
-Not announced. Everything confirmed about the game is co-operative — the demo has no PvP systems. Treat any claim about Delverium PvP as `[待确认]`.
+Not announced. Everything confirmed about the game is co-operative — the demo has no PvP systems. Treat any claim about Delverium PvP as `[Unconfirmed]`.
 
 **Can I play with random people?**
 
-Online co-op works via Steam, so joining strangers' worlds is technically possible — but nothing has been announced about matchmaking, servers, or a lobby system `[待确认]`. Community play is expected to happen through friends and Discord groups.
+Online co-op works via Steam, so joining strangers' worlds is technically possible — but nothing has been announced about matchmaking, servers, or a lobby system `[Unconfirmed]`. Community play is expected to happen through friends and Discord groups.
 
 ## Gameplay Questions
 
@@ -79,7 +79,7 @@ Yes — **fishing is confirmed** as part of the farming loop, and it's listed am
 
 **Can I farm and raise animals?**
 
-Yes. Farming is a confirmed core pillar: tilling soil, planting seeds, watering crops, breeding animals, fishing, and cooking. **Chickens and sheep** are confirmed; other animals are `[待确认]`.
+Yes. Farming is a confirmed core pillar: tilling soil, planting seeds, watering crops, breeding animals, fishing, and cooking. **Chickens and sheep** are confirmed; other animals are `[Unconfirmed]`.
 
 **Are there NPCs?**
 
@@ -101,7 +101,7 @@ Approximately **two years**. Sagestone plans to add new biomes, bosses, NPCs, an
 
 **Does demo progress carry over to the full game?**
 
-**Not announced — `[待确认]`.** Sagestone has not confirmed whether demo saves transfer to the Early Access version. The demo is short (1–2 hours), so even a fresh start at launch is a small cost — but don't assume carryover.
+**Not announced — `[Unconfirmed]`.** Sagestone has not confirmed whether demo saves transfer to the Early Access version. The demo is short (1–2 hours), so even a fresh start at launch is a small cost — but don't assume carryover.
 
 **What are the system requirements?**
 
@@ -117,11 +117,11 @@ The audio is handled by BAFTA-winning composer/audio director **Jeff van Dyck** 
 
 **What languages will it support?**
 
-Multiple languages are confirmed for the Early Access launch, though the full list is `[待确认]`.
+Multiple languages are confirmed for the Early Access launch, though the full list is `[Unconfirmed]`.
 
 **Are there microtransactions?**
 
-No paid currency or microtransaction system has been announced. **Cosmetics** are confirmed as an Early Access launch feature — whether they're earnable in-game, paid, or both is unannounced `[待确认]`.
+No paid currency or microtransaction system has been announced. **Cosmetics** are confirmed as an Early Access launch feature — whether they're earnable in-game, paid, or both is unannounced `[Unconfirmed]`.
 
 **Should I wishlist it?**
 
@@ -129,7 +129,7 @@ If it sounds like your game — yes. Wishlists are how the developers measure de
 
 ## Bottom Line
 
-Delverium's confirmed record is clear about its systems — 1–8 player co-op, farming, NPCs, crafting, dungeons, the Faults — and honest about its gaps: price, system requirements, save carryover, and boss specifics are all `[待确认]` until launch. Play the demo, wishlist the game, and check back after September 22 for the full picture.
+Delverium's confirmed record is clear about its systems — 1–8 player co-op, farming, NPCs, crafting, dungeons, the Faults — and honest about its gaps: price, system requirements, save carryover, and boss specifics are all `[Unconfirmed]` until launch. Play the demo, wishlist the game, and check back after September 22 for the full picture.
 
 ## Where to go next
 

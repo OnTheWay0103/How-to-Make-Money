@@ -23,7 +23,7 @@ Per [TechRaptor](https://techraptor.net/gaming/guides/doloc-town-guide-beginner-
 | Upgrade 2 | **40 slots** | **4,000 Goldcoin** |
 | Upgrade 3 | — | **10,000 Goldcoin** |
 
-> Note: the sources list 20 → 30 → 40 slots at 500 / 4,000 / 10,000 G. The 10,000 G upgrade's final slot count is [待确认 — reported by both sources at 40 slots; a higher tier may exist].
+> Note: the sources list 20 → 30 → 40 slots at 500 / 4,000 / 10,000 G. The 10,000 G upgrade's final slot count is [Unconfirmed — reported by both sources at 40 slots; a higher tier may exist].
 
 ## When Each Upgrade Is Worth It
 

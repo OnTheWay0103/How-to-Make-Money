@@ -2,7 +2,7 @@
 title: "Daily Quests Guide — Repeatable Quests and Rewards in Aincrad"
 description: "Daily and repeatable quests in Echoes of Aincrad — where to find quest boards on each floor, the best daily rotation, and how to farm Col, experience, and materials. Reward numbers are community-reported and not officially published."
 category: "Quests"
-version: 1.0
+version: "1.0"
 updated: "2026-08-10"
 keywords: ["daily quests", "dailies", "col farming", "repeatable quests", "quest board", "rewards", "efficiency"]
 related: ["leveling-guide", "farming-spots", "gear-farming-guide", "progression-guide"]

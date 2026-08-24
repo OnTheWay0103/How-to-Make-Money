@@ -14,7 +14,7 @@ related:
 
 # Phantom Tower FAQ — Honest Answers to the Questions Players Actually Ask
 
-Phantom Tower is a fast-paced roguelike action RPG from Horien Studio, a two-person Italian team, and it launched into Steam Early Access on July 13, 2026. Because the game is new, a lot of the questions around it have no official answer yet — and too many guides fill those gaps with invented numbers. This FAQ answers the questions players actually ask, with every answer grounded in official sources and every unverified detail marked `[待确认]`.
+Phantom Tower is a fast-paced roguelike action RPG from Horien Studio, a two-person Italian team, and it launched into Steam Early Access on July 13, 2026. Because the game is new, a lot of the questions around it have no official answer yet — and too many guides fill those gaps with invented numbers. This FAQ answers the questions players actually ask, with every answer grounded in official sources and every unverified detail marked `[Unconfirmed]`.
 
 ## Buying, Platforms & the Demo
 
@@ -24,7 +24,7 @@ Phantom Tower is a roguelike action RPG about climbing a mysterious 100-floor to
 
 **Is there a demo?**
 
-Yes — a free demo is available on Steam, per official press materials. The demo's exact content cap (which floors it lets you reach, which modes it includes) has not been published in verifiable official material — treat any specific "demo goes up to floor X" claim as `[待确认]`.
+Yes — a free demo is available on Steam, per official press materials. The demo's exact content cap (which floors it lets you reach, which modes it includes) has not been published in verifiable official material — treat any specific "demo goes up to floor X" claim as `[Unconfirmed]`.
 
 **Is Phantom Tower on console or mobile?**
 
@@ -58,13 +58,13 @@ There is no official tier list, and no official class stats have been published.
 
 **How long is a run?**
 
-Not officially published. Runs scale with how deep you push; Early Access players report that the compounding loop punishes greed — extract with a full haul instead of dying one floor deeper. Any guide quoting specific run lengths or "hours to complete the game" is giving you unverified numbers `[待确认]`.
+Not officially published. Runs scale with how deep you push; Early Access players report that the compounding loop punishes greed — extract with a full haul instead of dying one floor deeper. Any guide quoting specific run lengths or "hours to complete the game" is giving you unverified numbers `[Unconfirmed]`.
 
 ## Progression & the Endgame
 
 **What carries over between runs?**
 
-Confirmed carry-over: materials, resources, and equipment you bring out of the tower (Climb Mode's official design), and **Soulbinder stats** — stats you permanently lock onto gear, developable up to level 99. Which specific currencies and materials persist has not been officially detailed `[待确认]`.
+Confirmed carry-over: materials, resources, and equipment you bring out of the tower (Climb Mode's official design), and **Soulbinder stats** — stats you permanently lock onto gear, developable up to level 99. Which specific currencies and materials persist has not been officially detailed `[Unconfirmed]`.
 
 **How do I get better gear?**
 
@@ -92,6 +92,6 @@ The developers have stated they target a full **1.0 release in the first half of
 
 Confirmed endgame targets: push Soulbinder stats toward the level-99 ceiling, farm bosses for Boss Unique Weapons, extend your personal best on the 100-floor climb, and test builds in Survival Mode's permadeath.
 
-**Bottom line:** Phantom Tower's official record is precise about its systems (8 classes, 4 elements, 47 blessings, 128 weapons, 100 floors) and silent about the details (reaction tables, rarity, drop rates, boss patterns). Play the confirmed systems, and treat every unverified claim — including the ones in this FAQ marked `[待确认]` — as provisional until the official wiki catches up.
+**Bottom line:** Phantom Tower's official record is precise about its systems (8 classes, 4 elements, 47 blessings, 128 weapons, 100 floors) and silent about the details (reaction tables, rarity, drop rates, boss patterns). Play the confirmed systems, and treat every unverified claim — including the ones in this FAQ marked `[Unconfirmed]` — as provisional until the official wiki catches up.
 
 **Next steps:** Start with the [Beginner Guide](/guides/beginner-guide), then see how the confirmed systems stack in the [Classes Guide](/guides/classes-guide) and the [Progression Guide](/guides/progression-guide).

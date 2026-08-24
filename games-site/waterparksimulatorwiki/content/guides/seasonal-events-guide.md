@@ -19,7 +19,7 @@ sources:
 
 Waterpark Simulator 1.0 (July 31, 2026) ended the forever-sunny park. Rain, heatwaves, tornadoes, Halloween weather, tourist buses, and alien abductions now interrupt the daily routine — and how you react to them decides whether an event day makes you money or costs you a day of repairs. This guide covers every confirmed event type, what it does, and the response that keeps your park healthy.
 
-Everything here is based on the official 1.0 update announcements and patch notes, plus what the community has documented since launch. Where a claim is only community-reported, it's marked `[待确认]`.
+Everything here is based on the official 1.0 update announcements and patch notes, plus what the community has documented since launch. Where a claim is only community-reported, it's marked `[Unconfirmed]`.
 
 ## How the Event System Works
 
@@ -57,11 +57,11 @@ Beyond weather, 1.0 adds random special events, confirmed in the official patch 
 
 Special events roll in randomly — there's no announced schedule. The community's event-day checklist (below) exists because every event type hits better when the park is already clean, staffed, and stocked.
 
-## Seasonal Events: Halloween, Christmas, and the `[待确认]` List
+## Seasonal Events: Halloween, Christmas, and the `[Unconfirmed]` List
 
 The clearest seasonal content is **Halloween weather** — officially confirmed in the 1.0 patch notes as a weather type with a theme change and its own bonuses/nerfs. The endgame guide's own summary calls it "it's seasonal": it shows up as the calendar flips toward the holiday.
 
-What about **Christmas**? As of August 2026, no official announcement describes a Christmas event. The only public evidence is a third-party save editor listing "Christmas Unlocked" and "Halloween Unlocked" toggles — which suggests holiday events exist in the game's code, but that's a tool's claim, not the developer's, so treat a Christmas event as `[待确认]` until CayPlay announces it.
+What about **Christmas**? As of August 2026, no official announcement describes a Christmas event. The only public evidence is a third-party save editor listing "Christmas Unlocked" and "Halloween Unlocked" toggles — which suggests holiday events exist in the game's code, but that's a tool's claim, not the developer's, so treat a Christmas event as `[Unconfirmed]` until CayPlay announces it.
 
 ## Night Mode — Your Event-Day Lever
 
@@ -94,7 +94,7 @@ Community-proven order, based on the confirmed systems:
 A: Weather and special events roll randomly since 1.0; Halloween weather is seasonal and appears around the holiday. A specific event calendar has not been published.
 
 **Q: Is there a Christmas event?**
-A: `[待确认]` — no official announcement as of August 2026. Evidence is limited to a third-party save editor with a "Christmas Unlocked" toggle.
+A: `[Unconfirmed]` — no official announcement as of August 2026. Evidence is limited to a third-party save editor with a "Christmas Unlocked" toggle.
 
 **Q: What weather is best for profit?**
 A: Heatwave — attendance spikes with no damage risk, if your park is staffed for it.

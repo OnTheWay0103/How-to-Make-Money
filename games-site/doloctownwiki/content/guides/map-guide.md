@@ -17,7 +17,7 @@ sources:
 
 # Map & Regions Guide — How to Reach Every Area
 
-Doloc Town is a side-scrolling world where your farm sits beside the **settlement of Doloc Town**, and the wasteland stretches outward in named regions. This guide maps what's verified about each area and how to unlock it. Anything unconfirmed is marked [待确认].
+Doloc Town is a side-scrolling world where your farm sits beside the **settlement of Doloc Town**, and the wasteland stretches outward in named regions. This guide maps what's verified about each area and how to unlock it. Anything unconfirmed is marked [Unconfirmed].
 
 ## The Home Base
 
@@ -30,9 +30,9 @@ Doloc Town is a side-scrolling world where your farm sits beside the **settlemen
 | Region | Unlock | What's there (per sources) |
 |--------|--------|---------------------------|
 | **Rivervalley** | Opens after the first few days | Coal, copper, and iron ore; blacksmith (per [Grindnstrat](https://grindnstrat.com/doloc-town-1-0-beginner-guide/) and [TechRaptor](https://techraptor.net/gaming/guides/doloc-town-crafting-materials-guide-resource-locations)) |
-| **Wetlands** | [待确认] | How to reach the Wetlands is a top player question; not yet documented in English guides |
+| **Wetlands** | [Unconfirmed] | How to reach the Wetlands is a top player question; not yet documented in English guides |
 | **Ridge Valley** (western map) | Requires double-jump/dash upgrades | **Rockwood** — a high-tier crafting material (per [TechRaptor](https://techraptor.net/gaming/guides/doloc-town-crafting-materials-guide-resource-locations)) |
-| **Caves** | [待确认] | Exploration area with hostile creatures (per [Gematsu](https://www.gematsu.com/2026/07/doloc-town-launches-august-6)) |
+| **Caves** | [Unconfirmed] | Exploration area with hostile creatures (per [Gematsu](https://www.gematsu.com/2026/07/doloc-town-launches-august-6)) |
 | **Old City Ruins** | **1.0 content** | New area added at 1.0 launch; where the main story concludes (per the [1.0 press release](https://www.gamespress.com/Doloc-Town-Leaves-Early-Access---Beloved-Post-Apocalyptic-Farming-Sim-)) |
 
 ## Ponds & Water Bodies

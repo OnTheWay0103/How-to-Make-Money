@@ -10,7 +10,7 @@ related: ['beginner-guide', 'tech-tree-guide', 'map-guide', 'how-to-make-money']
 
 # How to Get Ore & Crafting Materials in Doloc Town
 
-Every device on your farm — from lightning rods to drone hubs — needs crafting materials, and most of them are found in specific parts of the map. This guide collects the verified material locations from the sources below; anything unconfirmed is marked [待确认].
+Every device on your farm — from lightning rods to drone hubs — needs crafting materials, and most of them are found in specific parts of the map. This guide collects the verified material locations from the sources below; anything unconfirmed is marked [Unconfirmed].
 
 ## The Core Tools for Gathering
 
@@ -45,7 +45,7 @@ Per [TechRaptor's Crafting Materials Guide](https://techraptor.net/gaming/guides
 
 ## How to Get Sand
 
-"How to get sand" is one of the most-searched player questions (per Google search suggestions). Sand comes from **digging soil/sand patches with the Pickaxe** (per [TechRaptor](https://techraptor.net/gaming/guides/doloc-town-guide-beginner-tips-and-tricks), which lists "rocks, soil, sand" as Pickaxe targets). The specific sand-rich locations are [待确认 — not yet documented in English guides].
+"How to get sand" is one of the most-searched player questions (per Google search suggestions). Sand comes from **digging soil/sand patches with the Pickaxe** (per [TechRaptor](https://techraptor.net/gaming/guides/doloc-town-guide-beginner-tips-and-tricks), which lists "rocks, soil, sand" as Pickaxe targets). The specific sand-rich locations are [Unconfirmed — not yet documented in English guides].
 
 ## How to Get Coal Fast
 
@@ -54,7 +54,7 @@ Coal is primarily found in the **Rivervalley** or purchased from the **blacksmit
 ## Ore & Smelting
 
 - The **Smelter** (Tech Tree unlock) processes raw ore into usable metal (per [TechRaptor](https://techraptor.net/gaming/guides/doloc-town-guide-beginner-tips-and-tricks))
-- Gold ore exists in the game (per player questions) — the exact gold ore locations are [待确认]
+- Gold ore exists in the game (per player questions) — the exact gold ore locations are [Unconfirmed]
 
 ## Sources
 

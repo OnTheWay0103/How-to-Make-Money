@@ -6,13 +6,18 @@ version: "Early Access"
 updated: "2026-08-11"
 keywords: ["Tears of Metal", "Tears of Metal wiki", "Paper Cult", "Scottish action roguelike", "Tears of Metal guide", "Tears of Metal Early Access"]
 related: ["beginner-guide", "best-builds", "heroes-tier-list", "wallace-build-guide", "brienne-build-guide", "ruadh-build-guide", "boss-guide", "corruption-guide", "equipment-guide", "village-upgrade-guide", "emblem-artifact-guide", "co-op-guide", "battalion-companion-guide", "weapon-merge-guide", "progression-walkthrough"]
+sources:
+  - tier: "Official"
+    text: "Launch details (Steam Early Access July 22, 2026, $24.99) and current 'Very Positive' user rating — Steam store page"
+  - tier: "Community"
+    text: "All-time concurrent-player peak (6,239) tracked by SteamCharts (steamcharts.com/app/1913120), checked August 25, 2026"
 ---
 
 # Tears of Metal Wiki — Complete Guide Hub
 
 **Your complete guide to Paper Cult's Scottish action roguelike. Everything you need to conquer the corrupted highlands.**
 
-Tears of Metal launched on July 22, 2026 on Steam Early Access at $24.99, with a ~87% "Very Positive" rating and a peak of roughly 4,500 concurrent players. This wiki covers all core systems, builds, bosses, and strategies for the Early Access launch version. Whether you are clearing Act 1 as Wallace or running a 4-player co-op squad, you will find practical, tested information here.
+Tears of Metal launched on July 22, 2026 on Steam Early Access at $24.99, and holds a "Very Positive" rating on Steam (checked August 25, 2026), with an all-time peak of roughly 6,200 concurrent players (SteamCharts). This wiki covers all core systems, builds, bosses, and strategies for the Early Access launch version. Whether you are clearing Act 1 as Wallace or running a 4-player co-op squad, you will find practical, tested information here.
 
 ---
 

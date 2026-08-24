@@ -40,17 +40,17 @@ Doloc Town is rated **"Playable"** on Steam Deck (per the [Steam store page](htt
 - The game runs on Steam Deck, but may need **manual configuration** (e.g., adjusting text size or controls)
 - "Playable" is Valve's middle rating — below "Verified" (no tweaks needed) and above "Unsupported"
 
-**Steam Deck tips** [待确认 — generic advice, not officially confirmed for Doloc Town]:
+**Steam Deck tips** [Unconfirmed — generic advice, not officially confirmed for Doloc Town]:
 
 - Check the in-game settings for a text-scale option if the UI reads small
 - The game's side-scrolling layout and mouse-light controls suit a controller
 
 ## Controller Support
 
-The pixel-art side-scroller style is controller-friendly, and the "Playable" Deck rating implies gamepad input works — but the official materials don't document controller support in detail [待确认 — exact controller mapping]. If your gamepad doesn't respond:
+The pixel-art side-scroller style is controller-friendly, and the "Playable" Deck rating implies gamepad input works — but the official materials don't document controller support in detail [Unconfirmed — exact controller mapping]. If your gamepad doesn't respond:
 
 1. Open **Steam → Settings → Controller** and enable **Steam Input**
-2. Launch the game in Big Picture Mode once to auto-apply a community layout [待确认 — whether one exists]
+2. Launch the game in Big Picture Mode once to auto-apply a community layout [Unconfirmed — whether one exists]
 3. Use Steam Input per-game remapping if the defaults feel off
 
 Keyboard and mouse work fine as the safe default — the three gathering tools (Scythe, Pickaxe, Axe) map to hotkeys (per [TechRaptor](https://techraptor.net/gaming/guides/doloc-town-guide-beginner-tips-and-tricks)).

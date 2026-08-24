@@ -48,13 +48,13 @@ Per [Prodigygamers](https://prodigygamers.com/2026/08/10/doloc-town-beginners-gu
 | Hot Cocoa | +320 SP, +110 HP |
 | Aged Agave Wine | +480 Energy |
 
-> "SP" refers to the game's stamina/energy pool per the source guide; the exact stat mapping is [待确认].
+> "SP" refers to the game's stamina/energy pool per the source guide; the exact stat mapping is [Unconfirmed].
 
 ## Frequently Asked Cooking Questions
 
-**How do I make cheese?** — "How to make cheese" is a common player question (per Google search suggestions). Cheese requires milk from farm animals, which means unlocking **ranching** first. The exact cheese recipes are [待确认 — not yet documented in English sources we could verify].
+**How do I make cheese?** — "How to make cheese" is a common player question (per Google search suggestions). Cheese requires milk from farm animals, which means unlocking **ranching** first. The exact cheese recipes are [Unconfirmed — not yet documented in English sources we could verify].
 
-**What are "pot recipes"?** — Recipes cooked in pots (as opposed to ovens or the grill). The full pot-recipe list is [待确认].
+**What are "pot recipes"?** — Recipes cooked in pots (as opposed to ovens or the grill). The full pot-recipe list is [Unconfirmed].
 
 **Can I cook in bulk?** — Yes. Community guides recommend **multiple cooking pots** so you can process whole harvests at once (per [Prodigygamers](https://prodigygamers.com/2026/08/10/doloc-town-beginners-guide-4th-month-cash-strategy-farming-meta/)).
 

@@ -71,7 +71,7 @@ Workforce growth is capped by housing: build houses and apartments to keep spare
 
 ## Stage 6: The Endgame
 
-The 1.0 update reworked the endgame story (the mystery door plotline was finally resolved) and overhauled progression payouts, so pre-1.0 endgame numbers — like the old community-reported 50,000-coin deeds — no longer match [待确认]. The confirmed endgame milestones:
+The 1.0 update reworked the endgame story (the mystery door plotline was finally resolved) and overhauled progression payouts, so pre-1.0 endgame numbers — like the old community-reported 50,000-coin deeds — no longer match [Unconfirmed]. The confirmed endgame milestones:
 
 - **Reach the top of the Town Ranking** — achievement-tracked ("It's so lonely up here", with the halfway mark at "Living on a Prayer")
 - **Accumulate 10,000 EGO** — the "Ego Boost" achievement
