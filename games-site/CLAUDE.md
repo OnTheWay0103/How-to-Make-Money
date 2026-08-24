@@ -19,9 +19,27 @@
 
 执行规则：
 - 派发子 Agent MUST 使用接力格式（任务编号/材料版本/完成标准/停止条件/MUST NOT）
+- 派发子 Agent MUST 在指令中引用其岗位卡/Profile 文件路径（如「先读 docs/agents/03 + 04」）
+- 派发子 Agent MUST 在指令中说明交接物（上游交付什么文件、下游检查什么）— 完整契约见 `docs/agents/19-全岗位交接关系.md`
 - 验收 MUST 有证据链（build 输出 + 部署后线上验证）
 - 出现新问题 MUST 更新对应 Profile（规则闭环），MUST NOT 只说「下次注意」
 - 单点修改（1-2 文件）主 Agent 直接做；批量（3+ 文件）派子 Agent
+
+## 交接协议（精简版，MUST 遵守）
+
+Agent 之间不直接对话，通过**文件契约**交接：
+
+| 交接 | 交接物 | 文件 | 检查方 |
+|------|--------|------|--------|
+| 侦察员 → 主 Agent | 候选清单 | `keyword-results/CANDIDATE-POOL.md` | 主 Agent 复核评分依据 |
+| 关键词研究员 → 建站协调员 | 关键词报告 | `keyword-results/{game}.md` | 建站协调员检查主题覆盖 |
+| 建站协调员 → QA | 站点目录 | `games-site/{site}wiki/` | QA 按 Profile 全检 |
+| QA → 主 Agent | QA 报告 | `.agent/qa-report.md` | 主 Agent 按 PASS/FAIL 决策 |
+| 合规审计员 → 主 Agent | 审计报告 | 工作区修改 + 报告 | 主 Agent 验收证据链 |
+| 监控员 → 主 Agent | 监控报告 | `.agent/monitor-report.md` | 主 Agent 决策扩充 |
+| 反馈分析师 → 主 Agent | 反馈报告 | `keyword-results/{game}-feedback.md` | 主 Agent 决策补缺口 |
+
+核心接力（唯一 Agent↔Agent 前后交接）：**建站协调员 → QA 审核员**（PASS/FAIL 分流）。
 
 ## 项目概述
 
