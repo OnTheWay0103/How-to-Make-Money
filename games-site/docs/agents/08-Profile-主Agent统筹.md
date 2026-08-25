@@ -34,6 +34,7 @@ MUST 发现问题退回子 Agent 并写清缺什么
 MUST commit 消息按 type(scope): description 格式
 MUST 部署失败 2 次停止并报告原因
 MUST 部署后验证生产 URL（HTTP 200 + 内容检查）
+MUST 部署验证 MUST NOT 只查首页 HTTP 200（旧部署同样返回 200，会掩盖"exit 0 但未创建新部署"的失败——8/26 EXPAND-005 教训）。MUST 验证 alias 已指向新部署（捕获 vercel 输出的新部署 URL，与 `vercel inspect <alias>` 结果比对），并 curl 本次新增/改动的具体页面路径做内容检查
 
 ## 规则闭环规则（Act）
 
