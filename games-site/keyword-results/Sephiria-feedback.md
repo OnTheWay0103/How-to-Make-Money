@@ -175,3 +175,44 @@ P0 是**事实纠错**：发售后玩家带着真实问题（几把武器？Tome
 - Namu Wiki（韩）Boss 页: https://en.namu.wiki/w/세피리아/보스
 - Bilibili 高难实况（31–38 难，中文）: 搜索"赛菲莉娅 38难"
 - 联机日志路径（官方公告）: `Users\AppData\LocalLow\TeamHoray\Sephiria\player.log` / `player-prev.log`
+
+---
+
+## Quick Delta — 2026-08-26
+
+> 模式: quick delta（10-15 分钟量级）| 任务: FEED-SEPH-2026-08-26（EXPAND-005 前置）
+> 采集窗口: 2026-08-01（1.0 发布日）之后 3 周 | 站点现状: sephiriawiki 共 29 篇攻略
+> 产出用途: 建站协调员选题写作（Step 4），本期 +1 篇反馈驱动攻略
+
+### 数据源命中情况（如实记录）
+
+| 数据源 | 结果 |
+|--------|------|
+| Steam Community 讨论区 | ✅ 命中：co-op 冻结 Bug 专帖（英文/法文/瑞典文等多语言版本，多位玩家实测 + 开发者回应）[日期 [Unconfirmed]，帖子内容与 1.0.23/1.0.24（8/4-8/7）修复窗口对应]；另有「误导性对话选项」帖（Erma，开发者回应将改为 "I do / I don't"）[日期 [Unconfirmed]] |
+| Reddit（r/Sephiria 等） | ❌ 0 结果——无独立 subreddit，定向搜索全部落空（与 8/1 报告一致）；近似替代：PCGamer 论坛建 wiki 帖（非问题反馈） |
+| Steam 评测（负面优先） | ✅ 命中（聚合来源）：VaporLens 负面主题聚合（无重连功能致整局报废、崩溃丢档、Boss 血量/回血/前摇、武器平衡、Steam Deck 崩溃）；1 条具体手柄施法布局差评 |
+| 官方补丁记录（SteamDB/vgspoilers/17173 转载） | ✅ 命中：1.0.22(8/1)→1.0.30(8/20) 共 6+ 版补丁。最新确认版本 **1.0.30**（8/20，17173 官方转载）；1.0.28 hotfix 8/14；1.0.29 未见独立补丁说明 [Unconfirmed] |
+| 中文社区（17173/娱乐計程車/9game/doyo/Bilibili） | ✅ 命中：存档替换教程、隐藏支线攻略、流派攻略（日食刀/荆棘棒/红衣猫/行星割草流）、天赋「智慧」争议视频、第六章通关笔记 |
+| GSC 搜索查询 | ❌ 未接入（凭据未解决，同计划 Step 2 注释） |
+
+**版本基线（1.0.2x 修复节奏）**：1.0.22（8/1，第六章地震事件/最终 Boss 弹幕/崩溃）→ 1.0.23（8/4，Qliphoth 修复/俄文字体/联机冻结改善）→ 1.0.24（8/7，NPC 对话强制移动冻结/存档损坏备份加载/章节进度错配邀请/Unity 引擎升级）→ 1.0.25（训练场冻结）→ 1.0.26（8/13，匕首冲刺衔接/预设槽 7→15+锁定/死亡观战模式/手柄施法 UI）→ 1.0.28（8/14，手柄改 Hard 难度/工具提示串词）→ 1.0.30（8/20，简中缺字/石板消失/Steam Deck 关闭改进/手柄施法快施键/新增繁中、意大利语、土耳其语）。**补丁密集度本身即高频问题信号**。
+
+### 高频未覆盖问题候选（热度排序）
+
+| # | 候选问题 | 频率依据（独立来源数） | 已有攻略查重结论 | 建议文章标题（问题导向） |
+|---|----------|------------------------|------------------|--------------------------|
+| 1 | **联机「冻结」Bug + 无重连功能下断线如何挽救**：联机中随机冻结（能移动但无法交互/攻击/看不到队友），疑似与铁砧/根系树等升级台互动触发；玩家实测「房主码建房第一关高概率触发，改 Steam 好友邀请后基本消失」；掉线后无重连功能，角色瞬间死亡、整局报废（有评测称约 4/10 局掉线）；开发者在帖内回应请求日志/视频 | ≥3：① Steam 讨论帖多玩家实测 https://steamcommunity.com/app/2436940/discussions/0/596283752196609510 ② VaporLens 负面聚合（重连缺失、报了一年未修）https://vaporlens.app/app/2436940/sephiria ③ 中文评测汇总（4/10 掉线率、断线挽救流程） ④ 官方佐证：1.0.23/1.0.24/1.0.25/1.0.30 连续 4 版修联机冻结 https://www.vgspoilers.com/game/sephiria | ⚠️ 部分覆盖：`multiplayer-connection-fix-guide`（8/11 更新）覆盖通用掉线/ping/NAT/防火墙，**不含**冻结 Bug 触发条件、好友邀请 vs 房主码实测结论、断线后的存档挽救流程。搜索意图（"co-op freeze/stuck"）与现有（"disconnect fix"）不重叠 → 建议**新篇** | "Sephiria Co-op Freeze Fix — How to Prevent the 'Can't Interact' Bug & Recover After a Disconnect" |
+| 2 | **存档损坏/丢失与备份恢复**：崩溃导致存档损坏（强制开新档/读取崩溃）；云存档会把损坏档同步覆盖备份；玩家教程强调替换前须关游戏+关 Steam 云同步、SLOT 与 SLOTTMP 文件须成对替换；仅 3 个存档位且无法删除；官方 1.0.24/1.0.28 均修复「存档损坏时备份存档加载失败」（证实问题真实存在） | ≥4：① 娱乐計程車存档替换教程 https://www.entertainment14.net/blog/post/111010392 ② xmodhub 存档位置/备份指南 https://www.xmodhub.com/info/guides/save-file-location-sephiria/ ③ VaporLens（崩溃清空进度）④ 中文评测汇总（损坏表现/云存档覆盖/槽位限制） ⑤ 官方补丁 1.0.24 佐证 https://news.17173.com/content/08072026/213057600.shtml | ✅ **真缺口**：29 个 slug 无任何存档管理/备份恢复篇（faq 仅涉及 EA→1.0 继承口径） | "Sephiria Save File Guide — How to Backup & Restore Progress (Fix Corrupted Saves)" |
+| 3 | **Steam Deck 与手柄体验（施法操作 + 特定环境崩溃）**：负面评测批评手柄施法布局（仅施法模式开关、冲刺/防御时难施法、RT 默认闲置）；Steam Deck 特定情境崩溃（1.0.30 修复）；8/13 补丁的手柄改动获玩家好评，但键位定制诉求仍在；另 0.12.3 曾修 DX12 受限环境黑屏崩溃 | ≥3：① 手柄施法负面评测（经 weloveit/Steam 评测聚合引用）https://weloveit.io/game/2436940/ ② VaporLens 硬件组分析（Steam Deck 崩溃/手柄支持差、16GB+ VRAM 崩溃）https://vaporlens.app/app/2436940/sephiria/stats/details ③ 中文评测汇总（Steam Deck 频繁崩溃） ④ 官方 1.0.30 佐证（Steam Deck 关闭改进+手柄施法 UI/快施键）https://news.17173.com/content/08202026/224633949.shtml | ⚠️ 部分覆盖：`controls-settings-guide` 有手柄/瞄准设置，但无 Steam Deck 专篇、无手柄施法操作专篇 | "Sephiria on Steam Deck — Crash Fixes, Gamepad Setup & Magic Casting Tips" |
+| 4（备选） | **1.0 平衡补丁后的真实 meta（火系是否翻身 / 匕首 buff）**：中文社区 8 月密集产出流派攻略（日食刀 8/12、红衣猫+火灼烧棍 T0 8/14、荆棘棒 8/24、行星割草流 8/13）；官方 1.0.26 强化匕首（冲刺可衔接 Parry/Fury）；「智慧」天赋被 B 站玩家热推（20 智慧免费刷新） | ≥3：① 娱乐計程車日食刀 https://www.entertainment14.net/blog/post/111010391 ② doyo 荆棘棒/红衣猫 https://www.doyo.cn/article/549312 ③ pp.cn 新版本流派 https://wap.pp.cn/news/1352476.html ④ Bilibili 智慧天赋 https://www.bilibili.com/video/BV1HZ8U6XEVn/ ⑤ 官方 1.0.26 https://news.17173.com/content/08132026/225123646.shtml | ⚠️ 部分覆盖：builds-guide + 4 武器 build 篇存在，但**匕首/太刀 build 缺**（6 武器只覆盖 4）；「1.0 平衡后 meta 总览」与 builds-guide 意图重叠 → 更建议**更新** builds-guide 或写匕首专篇 | "Sephiria Best Builds After the 1.0 Balance Patch — Is Fire Viable Now?" |
+
+### 交接说明（给建站协调员）
+
+- **本期建议选题 Top 1**：候选 #1（联机冻结修复）或 #2（存档备份恢复）。#2 是真缺口且来源最多（5 类）、写作素材最扎实（文件路径/成对替换/云同步陷阱均为可核实事实）；#1 热度信号最强（讨论区实测帖 + 开发者互动 + 连续 4 版补丁佐证），但需与既有 multiplayer-connection-fix-guide 划清边界（新篇聚焦 freeze/stuck 意图，不得重复通用排查段落）。
+- 写作素材事实锚点（均可追溯）：
+  - 冻结帖全文（含好友邀请 vs 房主码结论）：https://steamcommunity.com/app/2436940/discussions/0/596283752196609510
+  - 存档文件：`%USERPROFILE%\AppData\LocalLow\TEAM HORAY\Sephiria\`（Profile.dat / Run_Save.sav / Config.ini / Player.log；SLOT+SLOTTMP 成对替换）
+  - 开发者日志邮箱：team.horay.game@gmail.com；官方日志路径 `C:/Users/{PC}/AppData/LocalLow/TEAMHORAY/Sephiria`
+  - 版本基线：1.0.22–1.0.30（最新 1.0.30，8/20）
+- 未经核实标注：冻结帖与 Erma 对话帖的具体发帖日期 [Unconfirmed]；1.0.29 版本号 [Unconfirmed]；「16GB+ VRAM 崩溃」与「空语言菜单锁定 Bug」来自 VaporLens 建模数据，非玩家原帖 [Unconfirmed]。
+- 低置信提示：Reddit 全部为空；Steam 讨论区直接抓取被拒（ECONNREFUSED），讨论帖信息依赖搜索引擎快照，日期级核实受限——本期结论依赖「官方补丁记录 + 聚合来源 + 单帖多语言版本」三重交叉，置信度中等偏上。

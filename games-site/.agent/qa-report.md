@@ -374,3 +374,56 @@ All 3 expansions pass quick QA. No fabrication, no residue, clean builds. Total 
 ### FAIL 处理结果 — 2026-08-25（主 Agent 记录）
 
 shiftatmidnightwiki FAIL 已闭环：FIX-SAM（建站协调员修复模式）修复 4 文件 27 处 → build 零错误（44 routes）→ 重部署 → 线上三重验证通过：fiddlesticks=0、$12.99=0、6 endings=0、app 4050060=0；首页 Bun Muen/Kwalee 呈现、FAQ $9.99 呈现、endings-explained-guide 正常渲染。新增 5 篇攻略未改动。
+
+---
+
+## Quick QA — 2026-08-26 (EXPAND-005, sephiriawiki +1)
+
+- Mode: quick | Date: 2026-08-26 | Materials: EXPAND-005（sephiriawiki 新增 `content/guides/save-file-guide.md` 1399 词含 frontmatter + `content/home-content.md` Quick Navigation +1 行）；素材源 `keyword-results/Sephiria-feedback.md` Quick Delta 2026-08-26；基线 29→30 篇
+- **Results: 1 PASS / 0 FAIL。编造：无。残留：无。Build：零错误（43 静态页）。**
+
+### Residue Scan
+
+| Site | Guides | Template Residue | Status |
+|------|:--:|------|:--:|
+| sephiriawiki | 29→30 | ✅ Clean（0 CJK 字符、0 中文[待确认]、0 Hugo shortcodes、0 他站名 doloc/witchspire/aincrad/mistfall、0 TODO/placeholder；渲染页 canonical + JSON-LD 均为 sephiriawiki.vercel.app，无跨站域名） | ✅ PASS |
+
+### Content Quality Sampling（编造检查 — 逐条对照 Quick Delta 素材链接）
+
+| 事实断言 | 文件:行号 | 素材对照（Quick Delta 行） | 结果 |
+|------|------|------|:--:|
+| 存档路径 `%USERPROFILE%\AppData\LocalLow\TEAM HORAY\Sephiria\`（带空格） | save-file-guide.md:27, 46, 79 | 素材锚点 L214 `TEAM HORAY`（Profile.dat / Run_Save.sav / Config.ini / Player.log；SLOT+SLOTTMP 成对替换） | ✅ 逐字一致 |
+| 官方日志路径 `C:/Users/{PC}/AppData/LocalLow/TEAMHORAY/Sephiria`（无空格双拼写提示） | save-file-guide.md:39 | 素材锚点 L215 官方日志路径 `TEAMHORAY` | ✅ 逐字一致 |
+| Patch 1.0.24 (Aug 7, 2026) 修复「存档损坏时备份存档加载失败」 | save-file-guide.md:63, 88 | 版本基线 L198：1.0.24（8/7…存档损坏备份加载…） | ✅ |
+| Hotfix 1.0.28 (Aug 14, 2026) 继续修备份存档加载 | save-file-guide.md:63 | 候选#2 表：「官方 1.0.24/1.0.28 均修复」 | ✅（注：素材内部有轻微张力——版本基线 L198 对 1.0.28 描述为手柄/工具提示；guide 采用候选表口径并以「continued work」弱化 + [Official] 标注，不构成编造，INFO 级备注） |
+| 1.0.29 无独立补丁说明 [Unconfirmed] | save-file-guide.md:63 | 素材 L194 明确 [Unconfirmed] | ✅ 如实标注 |
+| 1.0.30 为 8/20 最新确认版本 | save-file-guide.md:63, 88 | 素材 L194「最新确认版本 1.0.30（8/20，17173 官方转载）」 | ✅ |
+| 崩溃损坏存档强制新档/Steam Cloud 覆盖备份 | save-file-guide.md:53, 69 | 候选#2：崩溃清空进度（VaporLens）+ 云存档覆盖（中文评测汇总） | ✅ |
+| 仅 3 存档位且不可删 [Unconfirmed] | save-file-guide.md:70, 82 | 候选#2「仅 3 个存档位且无法删除」（来源：中文评测汇总）；guide 额外标注「reported via roundups, no standalone thread located」比素材更保守 | ✅ |
+| SLOT+SLOTTMP 必须成对替换 | save-file-guide.md:36, 48, 57 | 素材锚点 L214「SLOT+SLOTTMP 成对替换」 | ✅ |
+| 交叉引用 multiplayer-connection-fix-guide（Player.log） | save-file-guide.md:37 | 边界检查：仅此 1 句交叉引用，无内容自噬；multiplayer 指南无存档内容、本指南无联机排查段落 | ✅ |
+| sources 三层标注（Official/Community/Editorial + 链接） | save-file-guide.md:9-15 | 素材 L205/214/215 来源（17173/vgspoilers/entertainment14.net/xmodhub/VaporLens） | ✅ |
+
+[Unconfirmed] 4 处核对：1.0.29 版本号（L63）/ 3 槽位不可删（L70, 82）/ Cloud 上传文件与同步时机（L71）/ 游戏内同步指示（L72）— 全部如实英文标注，0 中文标记。
+
+### Registration Check
+
+| 检查项 | 证据 | 结果 |
+|------|------|:--:|
+| home-content.md 导航 +1 行 | :32 `| [Save File Guide](/guides/save-file-guide) | Backup & corrupted-save recovery | Fixes |`（格式与同表 3 列一致） | ✅ |
+| lib/guides.ts 注册 | 自动 fs 扫描 `content/guides/*.md`（lib/guides.ts CONTENT_DIR），无手工注册表 | ✅ 免注册 |
+| sitemap 覆盖 | `.next/server/app/sitemap.xml.body` 含 `guides/save-file-guide`；guide URL 共 30 条 | ✅ |
+| SSG prerender | build 产物 `.next/server/app/guides/save-file-guide.html` + 路由表 `/guides/save-file-guide` | ✅ |
+| related 4 slug 存在 | faq-content / full-release-guide / multiplayer-connection-fix-guide / endgame-guide 全部存在 | ✅ |
+
+### Build Health
+
+| Site | Build | Result |
+|------|-------|:--:|
+| sephiriawiki | `npm run build` | ✅ Pass — 43 静态页（30 guides SSG + 13 静态路由），0 errors / 0 warnings，TS 通过 |
+
+渲染抽查（`.next/server/app/guides/save-file-guide.html`）：title `Sephiria Save File Guide — How to Backup & Restore Progress (Fix Corrupted Saves) · Sephiria Wiki` ✅；canonical `https://sephiriawiki.vercel.app/guides/save-file-guide` ✅；JSON-LD url 全部 `sephiriawiki.vercel.app`（无 hardcoded 跨站域名，对照 8/25 vahrinscall FAIL 类别）✅。
+
+### Verdict
+
+**sephiriawiki — ✅ PASS**（30/30 篇）。本批 2 文件（新增 save-file-guide.md + home-content.md 1 行）事实干净、残留为零、build 零错误。INFO 级备注（不阻塞）：素材源对 1.0.28 补丁内容存在口径内部张力（版本基线行 vs 候选#2 行），guide 忠实于候选表口径；另 [Unconfirmed] 标注比素材更保守（3 槽位一条），属正确方向。主 Agent 可部署。

@@ -769,6 +769,17 @@
       "deployed": true,
       "pipeline": "EXPAND-004 → QA quick PASS → redeployed",
       "qa": "PASS — 2 new + 2 updated sampled, zero fabrication, 7 item names ruled same-name confusion [Unconfirmed]"
+    },
+    {
+      "game": "Sephiria",
+      "date": "2026-08-26",
+      "genre": "Action Roguelite (TEAM HORAY)",
+      "template": "sephiriawiki",
+      "mode": "expand (feedback-driven +1: save-file-guide)",
+      "guides": 30,
+      "guidesAdded": 1,
+      "deployed": true,
+      "pipeline": "EXPAND-005 → QA quick PASS → deploy verified"
     }
   ],
   "knownIssues": [

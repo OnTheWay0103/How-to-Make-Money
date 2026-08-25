@@ -1,6 +1,6 @@
 # 游戏攻略站 — 站点统计
 
-> 最后更新：2026-08-25 | 36 站 · 865 篇攻略
+> 最后更新：2026-08-26 | 36 站 · 866 篇攻略
 
 ---
 
@@ -16,7 +16,7 @@
 | 5 | SpiritVale | 7/12 | 39 | spiritvalewiki.vercel.app | ✅ | ✅ | ✅ | 8/1 内容配比规则 +1 世界 Boss 速查表（Echoing Spire） |
 | 6 | Skills & Raids | 7/15 | 18 | skillsandraidswiki.vercel.app | ✅ | ✅ | ✅ | 7/27 游戏上线 |
 | 7 | MineGeon | 7/20 | 27 | minegeonwiki.vercel.app | ✅ | ✅ | ✅ | 7/28 游戏上线；8/3 Coordinator 扩充 +2（Walkthrough、Review） |
-| 8 | Sephiria | 7/21 | 29 | sephiriawiki.vercel.app | ✅ | ✅ | ✅ | 7/31 1.0 上线；8/11 AdSense Phase1 合规：48→29，5 组合并（武器/Boss/章节/Builds/物品/更新），清除虚构武器/Boss/神器目录/NG+/第七章，去 Patch 版本声明 |
+| 8 | Sephiria | 7/21 | 30 | sephiriawiki.vercel.app | ✅ | ✅ | ✅ | 7/31 1.0 上线；8/11 AdSense Phase1 合规：48→29，5 组合并（武器/Boss/章节/Builds/物品/更新），清除虚构武器/Boss/神器目录/NG+/第七章，去 Patch 版本声明；8/26 每日扩充 +1（save-file-guide 存档备份恢复，反馈驱动，QA quick PASS） |
 | 9 | DinoBlade | 7/21 | 15 | dinobladewiki.vercel.app | ✅ | ✅ | ✅ | 8/3 Coordinator 扩充 +3；8/11 AdSense Phase1 合规：27→15，8 组合并，清除 The Mound 残留/虚构 Boss/机制名/联机 PvP，价格对齐 $19.99 |
 | 10 | Mystralia | 7/22 | 29 | mystraliawiki.vercel.app | ✅ | ✅ | ✅ | 8/11 EA 上线；8/11 AdSense Phase1 合规：40→29，8 组合并，虚构区域/法术/地牢/货币清理，Memories 110→100+ 校准，系统配置对齐 Steam 官方 |
 | 11 | Tears of Metal | 7/23 | 27 | tearsofmetalwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 反馈驱动 +3 新 +2 纠错（英雄名校准）；8/1 内容配比 +5（Wallace/Brienne/Ruadh 独立 Build 页、Corruption 机制、装备指南）+ 修复旧英雄/Boss 名残留 |
@@ -125,7 +125,7 @@
 | 指标 | 数值 |
 |------|:--:|
 | **总站点数** | 36 |
-| **总攻略数** | 865 |
+| **总攻略数** | 866 |
 | **Vercel 部署** | 36/36 ✅ |
 | **GA4 已配置** | 34/36 |
 | **GA4 真缺失** | 2（doloctownwiki（空）、sovereigntowerwiki（空）） |
