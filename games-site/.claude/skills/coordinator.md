@@ -16,7 +16,16 @@ description: 🧠 主管 Agent — 每天定时运行，读取状态、调度子
 ## 决策矩阵
 
 ```
-读取 Dashboard PV + 统计文档 + 候选池
+读取 Dashboard PV + 统计文档 + 候选池 + expand-rotation.json
+  │
+  ├─【最高优先级】每日内容扩充（docs/每日内容扩充计划.md）:
+  │     读 expand-rotation.json → 当日轮换站
+  │     → 调度 反馈Agent(quick) 采集该站游戏的真实玩家问题
+  │     → 选 1 个高频+具体+未被覆盖的问题
+  │     → 调度 建站Agent(expand, 1 篇, 问题导向)
+  │     → 调度 QA Agent(quick) 审核
+  │     → 部署 + 更新 expand-rotation.json
+  │     └─ 素材不足 → 顺延下一站，记录跳过原因
   │
   ├─ 候选池空? → 调度 侦察Agent 搜索新游戏
   │
