@@ -1,6 +1,6 @@
 # 游戏攻略站 — 站点统计
 
-> 最后更新：2026-08-26 | 36 站 · 866 篇攻略
+> 最后更新：2026-08-27 | 36 站 · 867 篇攻略
 
 ---
 
@@ -12,7 +12,7 @@
 | 1 | Witchspire | 6/29 | 34 | witchspirewiki.vercel.app | ✅ | ✅ | ✅ | 8/1 反馈驱动 +3 新 +4 纠错；8/11 AdSense Phase1 合规：46→34，8 组合并（精灵/事件/配方/飞行/基建等），去 Patch 版本声明，虚构数字/元素清理 |
 | 2 | Mistfall Hunter | 7/01 | 38 | mistfallhunterwiki.vercel.app | ✅ | ✅ | ✅ | 8/11 AdSense Phase1 合规：53→38，9 组合并（PvP/新手/经济/撤离/赛季等），清除虚构职业/地图/Boss，patch-notes 重写为可验证模式 |
 | 3 | Aincrad | 7/07 | 38 | aincradwiki.vercel.app | ✅ | ✅ | ✅ | 8/11 AdSense Phase1 合规：47→38，9 组合并（伙伴/EX-Mod/Boss/楼层/成长等），武器/Boss/楼层设定校准，去 Patch 版本声明 |
-| 4 | The Mound | 7/14 | 32 | themoundwiki.vercel.app | ✅ | ✅ | ✅ | 8/11 AdSense Phase1 合规：54→32，12 组合并，系统配置对齐 Steam 官方，Patch Notes 去 1.02 未验证声明 |
+| 4 | The Mound | 7/14 | 33 | themoundwiki.vercel.app | ✅ | ✅ | ✅ | 8/11 AdSense Phase1 合规：54→32，12 组合并，系统配置对齐 Steam 官方，Patch Notes 去 1.02 未验证声明；8/27 反馈驱动扩充 +1（weapon-durability-repair-guide，QA quick PASS 已部署） |
 | 5 | SpiritVale | 7/12 | 39 | spiritvalewiki.vercel.app | ✅ | ✅ | ✅ | 8/1 内容配比规则 +1 世界 Boss 速查表（Echoing Spire） |
 | 6 | Skills & Raids | 7/15 | 18 | skillsandraidswiki.vercel.app | ✅ | ✅ | ✅ | 7/27 游戏上线 |
 | 7 | MineGeon | 7/20 | 27 | minegeonwiki.vercel.app | ✅ | ✅ | ✅ | 7/28 游戏上线；8/3 Coordinator 扩充 +2（Walkthrough、Review） |
@@ -125,7 +125,7 @@
 | 指标 | 数值 |
 |------|:--:|
 | **总站点数** | 36 |
-| **总攻略数** | 866 |
+| **总攻略数** | 867 |
 | **Vercel 部署** | 36/36 ✅ |
 | **GA4 已配置** | 34/36 |
 | **GA4 真缺失** | 2（doloctownwiki（空）、sovereigntowerwiki（空）） |
