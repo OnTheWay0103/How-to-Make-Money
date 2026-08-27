@@ -38,7 +38,7 @@
 | 30 | Welcome to Elderfield | Cosy Horror RPG (Chris Cote/Kwalee) | 20 | 9/10 | ❌ 无 | 8/10 | 推荐 — ~85K wishlist + 6.2K 关注、demo 96% Overwhelmingly Positive；农场+回合制+恋爱+恐怖无竞品攻略；单人开发；9 月上旬提前建站 |
 | ~~31~~ | ~~Sovereign Tower~~ | ~~圆桌管理模拟 RPG (WILD WITS/Curve)~~ | ~~20~~ **18** | ~~8/6 已上线~~ | ~~❌ 无~~ | 8/10 | ✅ 已建站（8/25）→ sovereigntowerwiki，18 guides，QA quick PASS，已部署 |
 | 32 | Approximately Up | 物理飞船建造沙盒 (单人开发) | ~~19~~ **17** | 8/6 已上线 | ⚠️ fandom 空壳 wiki | 8/10 | ⏸️ 观望（9/10 复查）— 8/25 复查：~775 评测 95%（Gamalytic）、$24.99 恢复全价；38.6K 销量玩家基数偏小；fandom 空壳 wiki 已出现（无内容页收录，暂不构成实质竞争，负面信号） |
-| 33 | Crimson Moon | 魂系动作 RPG (ProbablyMonsters) | 19 | 9/1 | ❌ 无 | 8/10 | 推荐（附条件）— ~107K wishlist、双人 Co-op、三区世界 Boss；中型工作室 wiki 风险；9/1 前复查 |
+| ~~33~~ | ~~Crimson Moon~~ | ~~魂系动作 RPG (ProbablyMonsters)~~ | ~~19~~ **18** | ~~9/1~~ | ~~❌ 无~~ | 8/10 | ✅ 已建站（8/28）→ crimsonmoonwiki，16 guides，QA 有条件 PASS，已部署；9/1 发售，~365K wishlist 榜#130，英中日韩零 wiki，同名污染→专属长尾 SEO |
 | 34 | Dressmaker | 缝纫模拟 (Free Lives/Cozy Lives) | 19 | 9/21 | ❌ 无 | 8/10 | 推荐 — 200K+ wishlist、itch 原型 155K 下载；名字泛化风险；9 月中旬建站 |
 | 35 | Ledgerbound | 战术 RPG + 恋爱 (OmniMegaSuperCorp) | ~~19~~ **16** | 8/13 已上线 | ❌ 无 | 8/10 | ⏸️ 观望（9/15 复查）— 8/25 复查：8/13 才发售（原定 8/11，Steam 内容审查延迟 2 天）；~236 评测 91% 特别好评但 12 天增速慢；$29.99 高价；存档损坏/无手动存档 bug 口碑风险；英中日零 wiki |
 | 36 | Anomaly President | Roguelike 动作 + 竞选管理 (Phew Phew) | 19 | 8/3 EA | ❌ 无 | 8/10 | 推荐 — 690+ 评测 93% Very Positive；EA 内容有限；观察首月更新后建站 |
@@ -52,6 +52,7 @@
 
 | 游戏 | 评分 | 建站日 | 站点 |
 |------|:--:|------|------|
+| Crimson Moon | 18 | 8/28 | crimsonmoonwiki — 9/1 发售（ProbablyMonsters 魂系动作 RPG），~365K wishlist 榜#130，英中日韩零 wiki；同名 SERP 污染→专属长尾 SEO；16 guides |
 | ReStory: Chill Electronics Repairs | 22 | 8/8 | restorywiki — 700-771K wishlist，98% 好评，12K CCU，零 wiki 竞争 |
 | Waterpark Simulator | 17 | 8/8 | waterparksimulatorwiki — 7/31 1.0 发售 8 天后建站，CayPlay，1M+ 下载，96% 好评，10.5K CCU，零 wiki 竞争，14 guides |
 | Beast of Reincarnation | 21 | 8/8 | beastreincarnationwiki — 8/4 发售 4 天后建站，Game Freak 首款原IP，718K wishlist，14.3K CCU，零 wiki 竞争，14 guides |

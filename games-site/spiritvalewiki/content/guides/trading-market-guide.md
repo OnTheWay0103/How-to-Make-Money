@@ -3,18 +3,18 @@ title: "SpiritVale Trading Market Guide — Buy, Sell, and Profit"
 description: "Master the SpiritVale player-driven economy. Auction House and vending stall basics, fees, flipping fundamentals, cross-zone trade routes, and market strategies for every capital stage."
 category: "Guides"
 version: "EA"
-updated: "2026-08-09"
+updated: "2026-08-28"
 keywords: ["SpiritVale trading market", "SpiritVale Auction House", "SpiritVale market flipping", "SpiritVale vending stalls", "SpiritVale gold farming", "SpiritVale market tips"]
 related: ["farming-resource-guide", "crafting-guide", "guild-guide", "daily-quests-guide", "leveling-guide"]
 ---
 
 # SpiritVale Trading Market Guide — Buy, Sell, and Profit
 
-**SpiritVale EA / Updated: August 9, 2026**
+**SpiritVale EA / Updated: August 28, 2026**
 
 SpiritVale features a fully player-driven economy where nearly every item can be traded. Understanding the market and its trends is essential for building wealth. This guide breaks down how trading works, which items generate the highest profit, and how to read market signals.
 
-> **⚠️ Market status:** the **Auction House is temporarily down for a rebuild** — live player-to-player trading currently runs through the **vending stalls** in town squares. The fee structure below describes the AH system, and flipping works the same way at stalls (minus the listing fees). See the [Update & Patch Notes](/guides/updates-patch-notes) for current trading status.
+> **⚠️ Market status:** the **Auction House is back online** (returned **August 4, 2026** after its long shutdown) with a **5% seller tax** and a **30-listing cap** — the rework was PTR-tested on August 2. Live player-to-player trading also continues through the **vending stalls** in town squares. The fee structure below describes the AH system, and flipping works the same way at stalls (minus the listing fees). See the [Update & Patch Notes](/guides/updates-patch-notes) for current trading status.
 
 ---
 

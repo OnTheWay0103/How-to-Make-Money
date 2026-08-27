@@ -3,7 +3,7 @@ title: "SpiritVale FAQ — Most Common Questions (EA)"
 description: "Frequently asked questions about SpiritVale Early Access. Covers the F2P model, class choices, respecs, PvP, level caps, cards, trading, and whether progress will be wiped."
 category: "Guides"
 version: "EA"
-updated: "2026-08-11"
+updated: "2026-08-28"
 keywords: ["SpiritVale FAQ", "SpiritVale F2P", "SpiritVale wipe", "SpiritVale PvP", "SpiritVale level cap", "SpiritVale trading"]
 related: ["beginner-guide", "classes-guide", "class-tier-list", "cards-guide"]
 sources:
@@ -17,7 +17,7 @@ sources:
 
 # SpiritVale FAQ — Most Common Questions
 
-**SpiritVale EA / Updated: August 11, 2026**
+**SpiritVale EA / Updated: August 28, 2026**
 
 Quick answers to the most frequently asked questions about SpiritVale Early Access.
 
@@ -25,7 +25,7 @@ Quick answers to the most frequently asked questions about SpiritVale Early Acce
 
 ## 1. Is SpiritVale free to play?
 
-**Yes — SpiritVale is free to play** on Steam Early Access. The in-game shop is cosmetics-only — no pay-to-win items.
+**No — SpiritVale is a buy-to-play game on Steam Early Access**, priced at **$14.99** (a one-time purchase; no subscription). The in-game shop is cosmetics-only — no pay-to-win items.
 
 ---
 
@@ -57,7 +57,7 @@ No. Your base class (Knight, Warrior, Acolyte, Mage, Scout, Rogue, or Summoner) 
 
 ## 5. How many classes are there?
 
-7 base classes and 8 advanced classes (15 total): **Paladin** (Knight), **Priest** (Acolyte), **Wizard** (Mage), **Sniper** (Scout), **Shinobi** (Rogue), **Berserker** (Warrior), **Necromancer** (Summoner), and **Gunslinger** (a special advanced class that any Job Level 50 class can unlock). See the [Classes Guide](/guides/classes-guide) for the full tree.
+7 base classes and 8 advanced classes (15 total): **Paladin** (Knight), **Priest** (Acolyte), **Wizard** (Mage), **Gunslinger** (Scout), **Shinobi** (Rogue), **Berserker** (Warrior), **Necromancer** (Summoner), and **Weaver** (a special advanced class that any Job Level 50 class can unlock). See the [Classes Guide](/guides/classes-guide) for the full tree.
 
 ---
 
@@ -79,10 +79,10 @@ Cards are equippable items that slot into your gear (weapon, armor, accessories)
 
 ## 8. How does trading work?
 
-SpiritVale has an **Auction Hall** — a global player marketplace. Two important current facts:
+SpiritVale has an **Auction Hall** — a global player marketplace. Current status (after the August 4, 2026 return):
 
-- The Auction Hall is currently **down for a rebuild** — no reopen date has been announced.
-- **Vending stalls and direct trade are the live alternatives right now** — you can buy and sell through player stalls in town. There is a transaction tax on stall sales.
+- The Auction Hall **returned online on August 4, 2026**, after its long shutdown, with a **5% seller tax** and a **30-listing cap** (the changes were PTR-tested on August 2).
+- **Vending stalls and direct trade also remain live** — you can buy and sell through player stalls in town.
 - **Bots are a known problem** — report them via the official Discord's Bot Hunter Program.
 
 Current status is tracked on the [Trading & Market Guide](/guides/trading-market-guide).
@@ -107,7 +107,7 @@ Current status is tracked on the [Trading & Market Guide](/guides/trading-market
 - **Warrior → Berserker** — Easiest raw damage, forgiving
 - **Summoner → Necromancer** — Strong solo sustain via pets ("extremely OP" in the current meta)
 
-Note: the Gunslinger is a special advanced class that any Job Level 50 class can unlock — it is not tied to Scout.
+Note: the **Weaver** is a special advanced class that any Job Level 50 class can unlock — it is not tied to a single base class. The Gunslinger, meanwhile, is the Scout's advanced class.
 
 ---
 
@@ -118,7 +118,7 @@ There is **no main quest line** in SpiritVale — gear comes from grinding and t
 1. **Monster drops** — farm zones for their drop tables (see the [Farming Guide](/guides/farming-resource-guide))
 2. **Crafting** — reliable endgame gear path
 3. **Boss drops** — each boss has unique equipment drops (boss summons drop at roughly 0.3%; bank them for max level)
-4. **Player stalls / direct trade** — buy from other players (the Auction Hall is down for a rebuild)
+4. **Player stalls / direct trade / Auction Hall** — buy from other players (the Auction Hall returned online August 4, 2026; see the [Trading & Market Guide](/guides/trading-market-guide))
 5. **Refinement** — upgrade existing gear at the Blacksmith's Anvil; skip refining low-level gear
 
 ---
@@ -137,7 +137,7 @@ There is **no main quest line** in SpiritVale — gear comes from grinding and t
 
 ## 14. Is there an auction house?
 
-**Yes — the Auction Hall exists**, but it is currently **down for a rebuild**. Vending stalls and direct trade are the temporary market while it's reworked. See the [Trading & Market Guide](/guides/trading-market-guide) for live status.
+**Yes — the Auction Hall exists and is back online** (returned August 4, 2026, with a 5% seller tax and a 30-listing cap after PTR testing on August 2). Vending stalls and direct trade are also live. See the [Trading & Market Guide](/guides/trading-market-guide) for live status.
 
 ---
 

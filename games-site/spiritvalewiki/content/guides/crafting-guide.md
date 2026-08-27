@@ -3,14 +3,14 @@ title: "SpiritVale Crafting Guide — Gear Crafting, Refining & Materials"
 description: "Full SpiritVale crafting system guide. Learn about all crafting stations, key material farming routes, equipment crafting, and the gear refinement system in Early Access."
 category: "Guides"
 version: "EA"
-updated: "2026-07-12"
+updated: "2026-08-28"
 keywords: ["SpiritVale crafting", "SpiritVale crafting stations", "SpiritVale material farming", "SpiritVale gear refinement", "SpiritVale equipment crafting"]
 related: ["beginner-guide", "leveling-guide", "boss-guide", "cards-guide"]
 ---
 
 # SpiritVale Crafting Guide — Gear Crafting, Refining & Materials
 
-**SpiritVale EA / Updated: July 12, 2026**
+**SpiritVale EA / Updated: August 28, 2026**
 
 Crafting in SpiritVale allows you to create endgame gear, refine equipment, and produce consumables. This guide covers the entire crafting ecosystem — from gathering raw materials to +10 refinement.
 
@@ -109,7 +109,7 @@ Refinement increases equipment base stats. The system uses a standard MMO upgrad
 SpiritVale has a player-driven economy. Key points:
 
 - **Stall System:** Set up a vendor stall in town squares (Vale's Rest, Ironforge Outpost)
-- **Auction House status:** The Auction House is temporarily down for a rebuild — live trading currently runs through the vending stalls and direct trade
+- **Auction House status:** The Auction House returned online August 4, 2026 (5% seller tax, 30-listing cap); vending stalls and direct trade remain live
 - **Hot Items:** Refine Stones, rare cards, endgame crafted gear
 - **Pricing:** Check multiple stalls before buying; prices vary widely
 - **Tax:** A small transaction tax on all stall sales

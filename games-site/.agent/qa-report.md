@@ -1,102 +1,131 @@
-# QA Report — 2026-08-27 EXPAND-006 quick QA
+# QA Report — 2026-08-28（EXPAND-007 + BUILD-003 合并）
 
 ## 执行摘要
 
-- **模式**: quick（仅审查本轮变更）
-- **目标站点**: `themoundwiki`
-- **审查范围**: 2 个文件
-  1. `content/guides/weapon-durability-repair-guide.md`（新增，武器耐久/修理攻略）
-  2. `content/home-content.md`（Quick Navigation 新增 1 行）
-- **结果**: ✅ **PASS**（0 🔴 阻断 / 2 🟡 警告 / 3 🟢 建议）
+- **模式**: quick × 2（本轮两处变更分别审查）
+- **站点 1**: `spiritvalewiki`（EXPAND-007 反馈驱动扩充 + P0 事实校准）
+- **站点 2**: `crimsonmoonwiki`（BUILD-003 新站，16 篇）
+- **结果**: 两站均为 ⚠️ **有条件 PASS**（0 🔴 阻断 / 4 🟡 记录项 / 均已部署并验证）
 
-**一句话结论**: 新攻略的每个游戏特有名词（武器名、Aged/Decayed 等级、Galleon Anvil 修理流程、cart 检测限制、Token 价格、Matchlock→Flintlock 转换）均在 NoobFeed / GameWatcher / vgtimes / Steam 社区等独立来源中核实通过，无虚构；残留扫描干净，`[Unconfirmed]` 使用恰当，related slug 全部真实存在。仅 2 个非阻断警告（1 个来源精确性、1 个跨指南措辞歧义）。
+**一句话结论**: 两站所有游戏特有名词均通过独立来源核实，无明确虚构；模板残留扫描干净；部署后 alias 指向新部署、新增页面 HTTP 200。遗留项为「非阻断记录」，均已登记跟进。
 
 ---
 
-## 虚构检测表（每个游戏特有名词独立核验）
+# 一、EXPAND-007 — spiritvalewiki
+
+## 审查范围
+
+- **新增** `content/guides/echoing-spire-endgame-guide.md`（1,466 词，终点爬塔攻略）
+- **修改** 6 文件（P0 事实校准）：faq-content / trading-market-guide / updates-patch-notes / connection-server-guide / crafting-guide / home-content
+
+## 虚构检测表（游戏特有名词独立核验）
 
 | # | 名词 | 核实结果 | 依据来源 | 判定 |
 |---|------|---------|---------|:--:|
-| 1 | Weapon Upgrade Anvil（Galleon 修理台） | 存在，位于 Galleon 的备战站 | [NoobFeed — How Weapon Upgrades Work with the Anvil](https://noobfeed.com/articles/the-mound-omen-of-cthulhu-weapon-upgrades-with-anvil) | ✅ |
-| 2 | cart 检测限制（Anvil 无法检测 cart 中的武器） | 原文逐条一致：需先取出放入角色背包 | 同上 NoobFeed | ✅ |
-| 3 | 升级仅当次探险生效（临时，需每契约重刷） | 原文一致："apply only to the current expedition" | 同上 NoobFeed | ✅ |
-| 4 | Token 作为修理/升级货币 | 一致（spend Tokens） | NoobFeed + [vgtimes 新手指南](https://vgtimes.com/guides/161784-the-mound-omen-of-cthulhu-beginner-guide-and-tips.html) | ✅ |
-| 5 | Matchlock → Flintlock 转换（防潮湿哑火） | 一致（damp weather 更可靠） | NoobFeed | ✅ |
-| 6 | 近战耐久升级优先级（"helps the weapon survive an entire expedition"） | 逐字对应 | NoobFeed | ✅ |
-| 7 | Crossbow 可升级更快装填 | 一致 | NoobFeed | ✅ |
-| 8 | Aged 等级（近战+枪，减伤，枪减射程） | 一致 | [GameWatcher — Weapons List](https://www.gamewatcher.com/the-mound-omen-of-cthulhu-weapons-list) | ✅ |
-| 9 | Decayed 等级（仅枪，锈蚀易哑火） | 一致（"rusted and prone to misfires"） | GameWatcher | ✅ |
-| 10 | Francesca Axe（投掷回收斧） | 武器列表含 Francesca Axe | GameWatcher | ✅ |
-| 11 | Crossbow（弓，可回收箭矢、防雨） | 武器列表 + 本站 weapons-guide 一致 | GameWatcher + 站内 | ✅ |
-| 12 | Flintlock Pistol / Matchlock Arquebus | 武器列表均有 | GameWatcher | ✅ |
-| 13 | Machete | 武器列表有（Swords 类） | GameWatcher | ✅ |
-| 14 | Sword / Spear（攻略提及的近战武器） | 武器列表有 Conquistador Side Sword / Spear（Pole Weapons）；Steam 讨论确认 spear 为强近战 | [GameWatcher](https://www.gamewatcher.com/the-mound-omen-of-cthulhu-weapons-list) + [Steam 讨论](https://steamcommunity.com/app/2569760/discussions/0/569289747256816128/) | ✅ |
-| 15 | "武器两三次攻击即碎"（melee breaks after two or three uses） | 社区复现；与 Nyarlathotep 评测及[VaporLens 数据](https://vaporlens.app/app/2569760/the_mound_omen_of_cthulhu)（55% 好评，耐久为主要抱怨）一致 | Steam 评测 + VaporLens | ✅ |
-| 16 | "durability is poorly explained / break after a few hits" 为 Steam 高频差评 | 一致，耐久/修理为 top 请求项 | VaporLens + [GamesCreed Review](https://www.gamescreed.com/reviews/the-mound-omen-of-cthulhu-review) | ✅ |
-| 17 | Y'm-bhi（敌方种族名） | 本站既有 canon（weapons-guide/enemy-bestiary），站内一致 | 站内 | ✅ |
-| 18 | Galleon（漂浮基地） | 与 Steam 商店页/home-content 描述一致 | 站内 + 商店页 | ✅ |
-| 19 | Steam 评测 URL 76561199411932619（Nyarlathotep） | 链接真实存在，搜索命中该评测页 | [Steam 评测](https://steamcommunity.com/profiles/76561199411932619/recommended/2569760/) | ✅ |
-| 20 | Steam 评测 URL 76561198008302916（ChubbiChibbai） | 评测页真实存在（正面评测） | [Steam 评测](https://steamcommunity.com/profiles/76561198008302916/recommended/2569760/) | ⚠️ 部分 |
-| 21 | Steam 讨论 569289747256816128 "Tips for people just starting?" | 帖子真实存在；确认 "The axe is the best weapon in the game. Just throw and retrieve." | [Steam 讨论](https://steamcommunity.com/app/2569760/discussions/0/569289747256816128/) | ✅ |
-| 22 | vgtimes 新手指南（"sword/spear 在最坏时刻碎裂毁掉整局"） | 搜索命中 vgtimes 指南，与描述一致 | [vgtimes](https://vgtimes.com/guides/161784-the-mound-omen-of-cthulhu-beginner-guide-and-tips.html) | ✅ |
-| 23 | GamePlay.tips / GamesCreed 来源 | 链接存在 | [GamePlay.tips](https://gameplay.tips/guides/the-mound-omen-of-cthulhu-essential-survival-tips.html) / [GamesCreed](https://www.gamescreed.com/reviews/the-mound-omen-of-cthulhu-review) | ✅ |
+| 1 | Echoing Spire（终点塔） | 官方补丁 Update 0.17.0「The Echoing Spire」(5/24) + PowerUpGaming 顶级 Boss | SteamDB + PowerUpGaming | ✅ |
+| 2 | 补丁 0.30.14（8/17：Spire 重置修复/踢人、挂机检测移除、Ctrl+Shift 叠 1000、武器大改） | 逐字吻合 | vgspoilers | ✅ |
+| 3 | 队伍配置 Paladin/Priest/Necromancer/Shinobi/Gunslinger | 「Tanky Bossing」实文 | PowerUpGaming | ✅ |
+| 4 | Berserker 爬塔职业争议 | 俄评原文逐字对上 | free-play-online.ru | ✅ |
+| 5 | 拍卖行 8/4 回归（5% 卖方税、30 上架上限、8/2 PTR） | 一致 | MassivelyOP 8/4 | ✅ |
+| 6 | 职业名 Scout→Gunslinger、Weaver=特殊进阶 | 一致 | GamesHub | ✅ |
+| 7 | $14.99 买断（非免费） | 多源一致 | SteamSpaghetti/Datahumble/DekuDeals | ✅ |
 
-**结论**: 22/23 项明确核实通过；1 项部分确认（见警告 W1）。**无 🔴 明确虚构。**
-
----
+**结论**: 无 🔴 明确虚构。新攻略对「Spire=终点塔」「Echoing Spire 英文名」使用了 `[Unconfirmed]` 标注（偏保守——官方 0.17.0 已确认，见记录项）。
 
 ## 残留扫描
 
-| 检查项 | 结果 | 说明 |
-|--------|:--:|------|
-| 他站游戏名（witchspire/mistfall/aincrad/SpiritVale/Skills & Raids 等 30+ 项） | ✅ Clean | 两个变更文件 grep 均无命中 |
-| 描述模板残留（"cooperative PvE extraction horror" 等） | ✅ Clean | 新 guide 无命中；home-content.md 第 63 行的 "cooperative PvE extraction horror" 为 themoundwiki 自身合法描述（例外站），且为既有内容非本轮新增 |
-| `[Unconfirmed]` / `[待确认]` 使用 | ✅ 恰当 | 2 处（L44 精确耐久数值、L65 Token 价格 + 野外铁砧机制），均为无公开来源的数值/未证实机制，符合「仅用于无公开来源数值」规则 |
-| frontmatter 格式 | ✅ 一致 | title/description/category("Guides")/version("1.0")/updated(2026-08-27)/keywords/related，与 beginner-guide、crafting-recipes 格式一致 |
-| related slug 真实性 | ✅ 全部存在 | weapons-guide、loadout-guide、crafting-recipes、beginner-guide 均存在于 `content/guides/` |
-
----
+| 检查项 | 结果 |
+|--------|:--:|
+| 他站游戏名（30+ 清单） | ✅ Clean |
+| 描述模板残留（cursed jungle / extraction horror / The Mound community） | ✅ Clean |
+| SpiritVale Studio / NACON 合法性 | ✅ 符合例外规则 |
 
 ## 一致性检查
 
-| # | 检查项 | 结果 | 说明 |
-|---|--------|:--:|------|
-| 1 | 新攻略 vs NoobFeed（Anvil 全流程） | ✅ | cart 限制、临时升级、Token、Matchlock→Flintlock、近战耐久优先 全部逐条一致 |
-| 2 | 新攻略 vs GameWatcher（Aged/Decayed、武器清单） | ✅ | 等级定义、武器名（含 sword/spear）一致 |
-| 3 | 新攻略 vs loadout-guide（耐久=武器不中断） | ✅ | L30 引用与 loadout-guide L45 "Durability \| Weapon not breaking mid-fight" 完全对应 |
-| 4 | 新攻略 vs weapons-guide（升级永久性措辞） | 🟡 W2 | 见警告 W2 |
-| 5 | 新攻略 vs weapons-guide（武器评级框架） | 🟢 S3 | 见建议 S3 |
-| 6 | home-content.md 新增行 slug | ✅ | `/guides/weapon-durability-repair-guide` 与文件真实路径一致，位置合理（Weapons Guide 行之后） |
+| 检查项 | 结果 |
+|--------|:--:|
+| 拍卖行回归（6 文件间） | ✅ 完全一致 |
+| $14.99 价格 | ✅ 一致 |
+| frontmatter `updated` 2026-08-28 | ✅ 一致 |
+| 新攻略 related slug 真实性 | ✅ 全部存在 |
+| 职业名跨文件（faq/home/新攻略 vs 其余 12+ 页） | 🟡 记录项 R1 |
+
+## 记录项
+
+- **R1（🟡）职业名旧体系残留**：`classes-guide`/`class-tier-list`/`advanced-classes-guide`/`solo-guide`/`beginner-guide`/`builds-guide`/`party-composition`/`world-boss-chart`/`gunslinger-guide` 等 12+ 页仍用旧体系（Scout→Sniper【真实游戏中不存在】、Gunslinger=特殊、无 Weaver），与 FAQ/home 新体系矛盾。→ **P0 跟进批量修正**，先改 classes-guide 权威页。不阻断部署。
+- **R2（🟡）home-content Quick Nav**：「Gunslinger Guide — The special advanced class」旧框架 → **已本轮顺手修复**为「The Scout's ranged advanced class」。
+- **R3（🟡）`[Unconfirmed]` 过度保守 + "endless climb"**：官方 0.17.0 已确认 Echoing Spire（Spire Key/Resonance Core/Umbral Fragments/Grimoires），且真实塔为 100 层非无限。→ P1 后续用官方来源升级标注并补实机细节。
+- **R4（🟢）** 新攻略可后续补充官方已记录机制（Spire Key 等），SEO 价值高。
+
+## 基建
+
+- Build: `npm run build` exit 0（53/53 页，含新路由）✅
+- Deploy: alias `spiritvalewiki.vercel.app` → `dpl_5yVrpMCL3AZUahjdmgxWHr6tFdhs`（新部署）✅
+- 线上: 首页/sitemap/echoing-spire-endgame-guide/faq-content/trading-market-guide 均 HTTP 200，sitemap 48 URL ✅
+
+**判定**: ⚠️ **有条件 PASS**（R1 登记 P0 跟进，R3 登记 P1，不阻断部署）
 
 ---
 
-## 警告 / 阻断 / 建议
+# 二、BUILD-003 — crimsonmoonwiki（新站）
 
-### 🟡 警告（非阻断，记录，下次 deep 复查）
+## 审查范围
 
-- **W1 — 来源精确性**（`weapon-durability-repair-guide.md` L112）：ChubbiChibbai 评测页真实存在（已核实），但该评测的主旨是 co-op 氛围/噪音机制/Vermintide 对比，未能独立确认其明确主张 "melee breaks; axe + crossbow most reliable"。攻略把该主张精确挂名到 ChubbiChibbai 有过度归因风险。建议：改为「Steam 玩家评测（如 ChubbiChibbai）」或移除该精确挂名，保留已验证的讨论帖/其他来源。不影响游戏事实真实性。
-- **W2 — 跨指南升级永久性措辞歧义**（`weapon-durability-repair-guide.md` L57 vs `weapons-guide.md` L206-214）：新攻略称「Anvil 升级仅当次探险生效」（NoobFeed 证实正确）；weapons-guide 称「Token 购买的升级永久保留」。两者可解释为不同系统（Galleon vendor 永久收藏升级 vs Weapon Upgrade Anvil 临时强化），但措辞并排易误导读者。本轮不改（weapons-guide 不在本轮范围），记录供 deep 复查统一措辞。
+全站 16 篇（price-platforms / beginner-guide / coop-multiplayer-guide / system-requirements / builds-guide / weapon-arts-guide / boons-guide / purification-guide / equipment-sets-guide / incursions-guide / dead-gods-boss-guide / wards-gildenarch-guide / sanctus-clypeus-hub-guide / solo-guide / game-length-guide / faq-content）
 
-### 🟢 建议（不阻塞）
+## 虚构检测表（未发售游戏，编造风险重点核查）
 
-- **S3 — 评级框架差异**：weapons-guide 总评将 Francesca Axe 列 C 档、Machete 列 S 档；新攻略「耐久向」将 Axe 列 Excellent、Machete 列 Weak。因衡量维度不同（总战力 vs 耐久寿命）不构成矛盾，但读者跨读时可能困惑。建议未来在两篇 guide 内加一句「评级维度」说明。
-- **S4 — home-content.md frontmatter `updated` 仍为 2026-08-04**（本轮新增了 2026-08-27 行未同步）。建议顺手 bump。
-- **S5 — home-content.md 存在重复「Weapons Guide」行**（L24 与 L31，既有问题非本轮引入）。建议 deep 复查时去重。
+| # | 名词 | 判定 | 依据 |
+|---|------|:--:|------|
+| 1 | Gildenarch / Wards / Dead Gods / Incursions | ✅ | Steam 商店页 + wccftech + gamerfuzion |
+| 2 | Boons / Weapon Arts / Purification / Sanctus Clypeus | ✅ | 官方 Builds/Loot & Progression explainer + IGN + wccftech |
+| 3 | 共享生命池 + revive / Solomon Moore / Nephilim / Hellgrowth | ✅ | 多源一致 |
+| 4 | $19.99/$29.99 / Steam App ID 4317690 / ProbablyMonsters | ✅ | Steam API 直查 |
+| 5 | 金属配乐（HEALTH/Misha Mansoor 等） | ✅ | NME/gamerfuzion/bluntmag |
+| 6 | Manuscript translation（hub 进度系统） | ⚠️ 无来源 | 全网零结果，3 篇写成 confirmed | 记录项 C1 |
+| 7 | Vampire blacksmith（铁匠） | ⚠️ 铁匠确认，"吸血鬼"属性无来源 | 记录项 C2 |
+
+**结论**: 核心机制/Boss/价格全部多源验证，**无 🔴 明确虚构**。
+
+## 残留扫描
+
+| 检查项 | 结果 |
+|--------|:--:|
+| 他站游戏名 | 🟡 `lib/schema.ts` L51/L95 注释含 "Echoes of Aincrad"（不渲染，零影响）→ 记录项 C3 |
+| The Mound 描述模板 / SpiritVale Studio / NACON / Hugo shortcodes | ✅ 干净 |
+| app 页面模板残留 | ✅ 全部 Crimson Moon 专属 |
+
+## 一致性 / 配置 / 部署
+
+| 检查项 | 结果 |
+|--------|:--:|
+| 发售日/价格/平台/Co-op/机制 16 篇交叉 | ✅ 一致 |
+| `[Unconfirmed]` 使用纪律（crossplay/PC 配置/游戏时长等） | ✅ 统一 |
+| seo-config 站名 / GA4 空置 / ads.txt / GSC 文件 / Dashboard 注册 | ✅ 符合新站预期 |
+| 部署可达（首页/sitemap 24 URL/5 条 guide 抽查） | ✅ 全部 200 |
+| related slug | ✅ 0 broken |
+
+## 记录项
+
+- **C1（🟡）**「Manuscript translation」写成 confirmed 但无来源 → 改标 [Unconfirmed] 或二次确认，**9/1 发售后置入 deep 复查**。
+- **C2（🟡）**「vampire blacksmith」属性无来源 → 改 "blacksmith" 或 [Unconfirmed]，9/1 后核对。
+- **C3（🟢）** `lib/schema.ts` 注释 Aincrad 残留（不渲染）→ 下次 build 顺手清理。
+
+**判定**: ⚠️ **有条件 PASS**（C1/C2 登记 9/1 复查，C3 顺手项，无 🔴）
 
 ---
 
-## 基建检查（轻量）
+# 三、QA deep 状态
 
-- Build：Builder 已报告 `npm run build` exit 0；本轮仅新增 content markdown + 1 行表格，无代码变更，build 风险极低。QA 按任务说明未重跑。
-- Deploy / GA4 / GSC：不在 quick 模式范围。
+- 上次 deep 全量审计：2026-08-25（35 站）→ 距今 3 天，**未超 7 天**，本轮无需 full audit ✅
 
 ---
 
-## QA 结果（供主 Agent 决策）
+## QA 结果汇总（供主 Agent 决策）
 
 ```
-QA 结果: ✅ PASS (0 🔴 阻断 / 2 🟡 警告 / 3 🟢 建议)
-如有问题: [themoundwiki] [weapon-durability-repair-guide.md L112] 来源精确性（ChubbiChibbai 挂名过度归因，非虚构）→ 可后续软化为通用表述
+站点 1  spiritvalewiki (EXPAND-007): ⚠️ 有条件 PASS — R1 职业名旧体系 P0 跟进 / R3 [Unconfirmed] 升级 / 已部署
+站点 2  crimsonmoonwiki (BUILD-003):  ⚠️ 有条件 PASS — C1+C2 预发售声明 9/1 复查 / C3 注释残留 / 已部署
+QA deep: 上次 8/25，未超 7 天，跳过
+决策:    两站均已部署且验证，可提交上线
 ```
-
-**决策建议**: ✅ **可部署**。W1/W2 均为非阻断记录项，不影响本轮上线；如需稳妥，可在部署前将 L112 的 ChubbiChibbai 精确挂名改为通用「Steam 玩家评测」。

@@ -3,16 +3,16 @@ title: "SpiritVale Update & Patch Notes Guide — Official Channels & What's New
 description: "How to follow SpiritVale updates: official patch note channels, update cadence, the Auction Hall rework status, bot crackdowns, and the no-wipe promise."
 category: "Guides"
 version: "EA"
-updated: "2026-08-11"
+updated: "2026-08-28"
 keywords: ["spiritvale patch notes", "spiritvale update", "spiritvale server fix", "spiritvale auction hall", "spiritvale whats new"]
 related: ["connection-server-guide", "trading-market-guide", "class-tier-list", "faq-content"]
 ---
 
 # SpiritVale Update & Patch Notes Guide — Official Channels & What's New
 
-**SpiritVale EA / Updated: August 11, 2026**
+**SpiritVale EA / Updated: August 28, 2026**
 
-SpiritVale's developers ship on a regular cadence, and during Early Access that cadence matters — balance changes can arrive weekly. This guide tells you where to find official patch notes, what the current hot topics are (the Auction Hall rework, bot crackdowns, server stability), and how to tell "outdated guide" from "current build."
+SpiritVale's developers ship on a regular cadence, and during Early Access that cadence matters — balance changes can arrive weekly. This guide tells you where to find official patch notes, what the current hot topics are (the Auction Hall's return, bot crackdowns, server stability), and how to tell "outdated guide" from "current build."
 
 ---
 
@@ -40,12 +40,13 @@ Always check these two sources first — anything else is a rumor:
 
 ## Current Hot Topics
 
-### The Auction Hall Rework
+### The Auction Hall Rework — Resolved (Returned August 4, 2026)
 
-- The **Auction Hall** — the game's global player marketplace — has been **down for a rebuild** since the launch period.
-- Why: it was one of the biggest lag sources, and **bot/RMT abuse** was wrecking the economy.
-- The developers have called trading "one of the most important features of our game" and confirmed the AH is **being rebuilt, not scrapped**. No reopen date yet.
-- **Vending stalls are live** — player-to-player selling works right now through stalls and direct trade (see the [Trading & Market Guide](/guides/trading-market-guide)).
+- The **Auction Hall** — the game's global player marketplace — was **down for a rebuild** for much of the launch period.
+- Why it went down: it was one of the biggest lag sources, and **bot/RMT abuse** was wrecking the economy.
+- On **August 2** the developers opened a **PTR** to test item trading, guild storage, and the auction house.
+- On **August 4, 2026**, the trade system **returned online**: the Auction Hall is back with a **5% seller tax** and a **30-listing cap**, alongside party, item-exploit, login-timeout, and chat fixes.
+- **Vending stalls and direct trade remain live** (see the [Trading & Market Guide](/guides/trading-market-guide)).
 
 ### Bot Crackdowns
 
@@ -71,7 +72,7 @@ Always check these two sources first — anything else is a rumor:
 |-------|--------|
 | Server lag/jitter at peak hours | Improving; NA server reported most stable |
 | Progress rollback | No further wipes promised (official statement) |
-| Auction Hall offline | Rebuild in progress; stalls are the temporary market |
+| Auction Hall | Back online since 8/4 (5% seller tax, 30-listing cap); stalls and direct trade also live |
 | Movement input bug (WASD/click) | Known; dodge roll temporarily fixes |
 | Map spawn density (~30 players cap) | Known EA limitation; channel-hop |
 
@@ -86,7 +87,7 @@ Steam Community announcements and the official Discord. We compile major changes
 Weekly patches at minimum; the team has shipped daily hotfixes during rough weeks.
 
 **Q: Will the Auction Hall come back?**
-Yes — the devs have called trading one of the game's most important features and confirmed the AH is being rebuilt, not scrapped. No date yet.
+It already did — the trade system returned **August 4, 2026** (after PTR testing on August 2) with a 5% seller tax and a 30-listing cap. Vending stalls and direct trade remain live.
 
 **Q: Do balance patches wipe builds?**
 No wipes — but they do invalidate tier lists. Re-check the [Class Tier List](/guides/class-tier-list) after every patch.

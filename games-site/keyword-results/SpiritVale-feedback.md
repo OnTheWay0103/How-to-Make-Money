@@ -8,6 +8,77 @@
 
 ---
 
+## 2026-08-28 采集
+
+> 模式: quick | 任务: FB-2026-08-28-SPIRITVALE（每日内容扩充 Day 3 轮换站）| 窗口: 2026-08-01 → 08-28 | 数据源: Steam 讨论区（索引）+ Steam 评测（聚合）+ MassivelyOP/NewsBreak/pcgames.de + vgspoilers 补丁记录 + free-play-online 深度玩家长评 + LagoFast/ExitLag/xboxplay 服务器专题
+> 数据源说明（更新）: Reddit 仍无 r/SpiritVale 专版（开发者的原始公告帖在 Reddit，但英文社区主阵地是官方 Discord；今日定向搜索仍 0 结果，维持 8/1 判断）。今日新增 15+ 条可追溯样本，全部来自 Steam 讨论区/评测、新闻站与补丁记录。
+
+### 8/1 后关键变化时间线（决定今日选题）
+
+| 日期 | 事件 | 来源 |
+|------|------|------|
+| 8/2 | 官方开 **PTR**，测试物品交易 / 公会仓库 / 仍在重做的拍卖行 | [NewsBreak/MassivelyOP 8/2](https://local.newsbreak.com/news/4805256154288-spiritvale-opens-a-ptr-to-test-item-trading-guild-storage-and-its-still-broken-auction-house) |
+| 8/4 | **交易系统回归**：拍卖行重新上线，**卖方税提高至 5%、上架上限降至 30**；同时修队伍系统、物品漏洞、登录超时、聊天 bug，新增「举报玩家」与挂机检测 | [MassivelyOP 8/4](https://massivelyop.com/2026/08/04/early-access-mmorpg-spiritvale-has-finally-brought-its-trade-system-back-online-after-its-rocky-launch/) |
+| 8/10 | 补丁 **0.30.11**：修复聊天屏蔽失效、事件重入/卡住、交易漏洞 | [vgspoilers 0.30.11](https://www.vgspoilers.com/game/spiritvale/patches/0.30.11) |
+| 8/17 | 补丁 **0.30.14**：Spire 重置/bug 修复、可踢出 Spire 队伍成员、Ctrl+Shift 叠到 1000、Boss/木桩移除挂机检测、**武器大改**（Lockdown 防穿、Blacksteel +1% 攻击/精炼、Razors Edge +5% 多重打击/精炼、Solaris 冷却+双穿） | [vgspoilers 0.30.14](https://www.vgspoilers.com/game/spiritvale/patches/0.30.14) |
+| 8/17 | 开发者公布封禁名单：**3,821 外挂/宏、1,106 RMT、65 行为违规**；预告下次大更：高级神器 + 魔法书、**PvP 重做**、**Dragon Knight 新职业**、亚洲区服务器、滑板外观 | [MassivelyOP 8/17](https://massivelyop.com/2026/08/17/spiritvale-shares-a-ban-list-updates-on-dev-team-size-and-a-list-of-features-for-its-next-update/) |
+
+### 今日新增样本（可追溯）
+
+1. **Steam 讨论区「Opinion」串**（英文）：要求「点怪一次、技能全锁定该目标」的 QoL；请求装备部位隐藏；俄服玩家每 ~2 分钟被踢（疑区域限制）；抱怨地图太小、应合并；Acolyte 单练难 — https://steamcommunity.com/app/3767850/discussions/0/603038271247800989/
+2. **MassivelyOP 8/4**：交易系统回归详情（5% 税 / 30 上限 / 防 exploit 削弱的 AH）— https://massivelyop.com/2026/08/04/early-access-mmorpg-spiritvale-has-finally-brought-its-trade-system-back-online-after-its-rocky-launch/
+3. **MassivelyOP 8/17**：封禁名单 + 下个大更预告（Dragon Knight / PvP 重做 / 神器+魔法书 / 亚洲服）— https://massivelyop.com/2026/08/17/spiritvale-shares-a-ban-list-updates-on-dev-team-size-and-a-list-of-features-for-its-next-update/
+4. **MassivelyOP/NewsBreak 8/2**：PTR 测试交易/公会仓库/拍卖行 — https://local.newsbreak.com/news/4805256154288-spiritvale-opens-a-ptr-to-test-item-trading-guild-storage-and-its-still-broken-auction-house
+5. **vgspoilers 0.30.11**：聊天屏蔽/事件重入/交易漏洞修复 — https://www.vgspoilers.com/game/spiritvale/patches/0.30.11
+6. **vgspoilers 0.30.14**：Spire 修复 + 武器精炼大改 — https://www.vgspoilers.com/game/spiritvale/patches/0.30.14
+7. **free-play-online.ru 深度玩家长评**（6/10，俄罗斯玩家）："被关闭的市场不是坏掉的按钮，而是截肢"；不满：回档吞装备、挂机机器人 24h 占点、地图拥挤、**误封（给朋友转钱也被封）**；反驳「空」：等级≠进度，**终点是塔（无限爬塔组队刷顶级装备）**；职业争议："有人说 Berserker 爬塔没人要，有人说 Berserker 打得很猛"；结论「等交易真正永久回归再买」— https://free-play-online.ru/spiritvale-rugayut-za-pustotu-xotya-eyo-endgejm-nachinaetsya-posle-prokachki/
+8. **LagoFast 台服服务器指南**：SEA 服（新加坡）约 60ms，NA >180ms；**Luna/Moon/Star 三个 SEA 频道，Luna 最挤**，台/中玩家多聚 Luna/Moon — https://www.lagofast.com/zh-tw/blog/how-to-choose-a-server-in-spiritvale/
+9. **xboxplay.games 高延迟修复专题**：玩家持续搜「高 Ping/丢包/断线」修复 — https://xboxplay.games/spiritvale/how-to-fix-spiritvale-high-ping-lag-spikes-and-packet-loss-74539
+10. **2UpSkill 服务器崩溃/无限加载修复**（两篇）：搜索需求仍在 — https://2upskill.com/how-to-fix-spiritvale-servers-crashing-ultimate-guide-for-2026-early-access-launch/ 与 /spiritvale-infinite-loading-screen-and-server-connection-failed-errors/
+11. **pcgames.de**：Demo 94% 好评 vs EA 开服崩盘反差报道 — https://www.pcgames.de/Spiele-Thema-239104/News/Heftige-Kritik-fuer-neues-MMO-SpiritVale-nach-Early-Access-Start-1548477/
+12. **VORYTHIC 聚合**：8 月底约 3,607 条评测、~49% 好评（Mixed），社区评分约 53.6/100 — https://vorythic.com/games/139547/spiritvale
+13. **PowerUpGaming 队伍搭配指南**：点名 **Echoing Spire** 为顶级 Boss（Tank+奶+死灵召唤物吃伤的队伍配置最强）— https://powerupgaming.co.uk/2026/07/21/spiritvale-best-party-compositions-synergies/
+14. **PTT C_Chat 讨论串 ×2**：台湾玩家对买断制、无主线、职业/转职的讨论 — https://www.pttweb.cc/bbs/C_Chat/M.1784087356.A.FF4 、 https://www.pttweb.cc/bbs/C_Chat/M.1784127452.A.2B5
+15. **Steam 讨论区「Do not release before Ragnarok The New World」串**：上线档期 vs RO 新作之争（开服前，低频）— https://steamcommunity.com/app/3767850/discussions/0/573794509062750378/
+
+### 今日主题聚类（8/1 后新增/变化）
+
+| 主题 | 频率 | 今日证据 | 与 8/1 报告的变化 |
+|------|------|----------|-------------------|
+| 拍卖行回归与经济 | 高频（≥4） | 样本 2/3/4/5/7；且本站 4 页仍写"AH 无回归日期"（已失真） | **状态翻转**：AH 8/4 已回归（5% 税、30 上限），8/1 报告的"重做中无日期"已过期 |
+| Spire/终点爬塔 | 中高（≥3） | 样本 6/7/13；玩家在 0.30.14 前遇重置/无法踢人 bug，爬塔队伍职业争议 | **新内容**：8/1 报告未涉及，全站 0 覆盖 |
+| 误封与 Bot 治理 | 中（≥3） | 样本 3/7（误封抱怨：给朋友转钱被封；封禁名单 4,927 账号） | 从「Bot 成灾」细化为「治理数字 + 误封担忧」 |
+| 服务器/选区 | 中（≥3） | 样本 8/9/10；SEA 服 ~60ms vs NA >180ms，Luna 最挤 | 8/1 报告建议"NA 更稳"；8 月出现 SEA 服优先的细化数据 |
+| 值不值得买 | 中（≥3） | 样本 7/11/12；"等交易永久回归再买" | 情绪从"等它变好"转向"看经济是否恢复" |
+| 新内容预告 | 低频（1–2） | 样本 3（Dragon Knight / PvP 重做 / 神器魔法书） | 8/1 报告未涉及 |
+
+### 缺口对比（今日视角，对照 39 个 guides slug）
+
+| 主题 | 现有覆盖 | 缺口判断 |
+|------|----------|----------|
+| AH 回归（5% 税/30 上限） | ❌ trading-market-guide(8/9) + updates-patch-notes(8/11) + connection-server-guide(8/11) + faq-content 均写"AH 停摆、无回归日期" | **事实过期**（8/4 已回归）——高信任风险，4 页需校准 |
+| Echoing Spire / 终点爬塔 | ❌ 全站 0 处提及（raid-boss-guide 列 8 个无外部佐证的 Boss、无 Spire；endgame-guide 只提"英雄印章 50 解锁第一翼"） | **真空白**：可写 1 篇新攻略 |
+| PTR / 公会仓库 | ❌ 0 覆盖（guild-guide 未提公会仓库） | 空白，随 AH 一起补 |
+| Dragon Knight / PvP 重做 / 神器魔法书 | ❌ 0 覆盖 | 空白但为预告性（前瞻向） |
+| 误封（转钱给朋友被误封） | ❌ 0 覆盖（faq 有 Bot Hunter，无数值/误封对策） | 空白，中等搜索价值 |
+| SEA 选区细化（Luna/Moon/Star、~60ms） | ⚠️ connection-server-guide 只写"NA 更稳" | 可优化：补 SEA 服延迟数据与频道选择 |
+
+### 建议（含证据条数 + 与现有差异）
+
+1. **【更新，优先级最高】AH 回归现状校准**（更新 trading-market-guide + updates-patch-notes + connection-server-guide + faq-content，共 4 页；证据 ≥4 独立来源：MassivelyOP 8/4、8/2 PTR、0.30.11、玩家"等交易回归"评）
+   - 理由：全站 4 页仍向玩家传播"拍卖行无回归日期"的错误信息，而 8/4 已回归（5% 税、30 上限）。先纠错保可信度。**这不是新攻略**（防内容自噬），是事实校准。
+2. **【新攻略，推荐今日选题】Echoing Spire（终点爬塔）攻略**（证据 ≥3 独立来源：0.30.14 补丁修复、PowerUpGaming 点名 Echoing Spire、free-play-online 玩家描述"终点之塔"+ 爬塔职业争议）
+   - 标题建议：《SpiritVale Echoing Spire & Endgame Tower Guide — Party Comp, Resets & Rewards》/《SpiritVale 终点爬塔（Spire）攻略：队伍配置、重置机制与掉落》
+   - 与现有差异：raid-boss-guide 无 Spire；endgame-guide 未覆盖爬塔；party-composition 未专讲 Spire。⚠️ "Spire=终点塔"为多源推断，英文名 Echoing Spire 有社区佐证，正文需 [Unconfirmed] 标注并实机核验。
+3. **【候选】误封与账号安全指南**（证据 ≥2：封禁名单 8/17 + 玩家"转钱给朋友被误封"抱怨；可并入 trading/faq 或单开）
+4. **【候选】SpiritVale 2026 年 8 月还值得买吗**（证据 ≥3：free-play-online 6/10、pcgames.de、VORYTHIC 49%；命中 spiritvale worth it / price 意图）
+
+### 推荐选题（今日 1 篇）
+
+**Echoing Spire / 终点爬塔攻略**。理由：它是今日唯一同时满足「≥3 独立来源 + 具体可写 800–1500 词 + 全站 0 覆盖」的新攻略；0.30.14 刚修复了真实玩家遇到的 Spire 重置/踢人问题，玩家正在搜；且能顺带纠正 raid-boss-guide 的"8 个无佐证 Boss"风险（把社区确认的顶级 Boss 写实）。AH 回归校准列为独立 P0 更新（非新页），建议主 Agent 直接处理或另行派发。
+
+---
+
 ## 1. 玩家痛点 Top 5
 
 ### 痛点 1：服务器不稳定 + 回档（压倒性第一，直接决定评价颜色）

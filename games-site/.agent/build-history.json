@@ -792,6 +792,25 @@
    "deployed": true,
    "issues": null,
    "lessons": "EXPAND-006 daily expansion (rotation #2). P0 gap from EXPAND-006-FEEDBACK (weapon durability never taught in-game, breaks after few hits). 1234-word guide: durability explained, Galleon Weapon Upgrade Anvil repair flow, durability ratings table (crossbow/Francesca axe most reliable), 6 maintenance habits. QA quick PASS (0 blocking / 2 warnings: ChubbiChibbai attribution precision, anvil-persistence wording vs weapons-guide). Deployed 8/27. Rule closure: deploy-wiki-site.sh auth.json token expired (403) while CLI session valid — script now uses CLI default auth instead of explicit --token."
+  },
+  {
+   "game": "Crimson Moon",
+   "date": "2026-08-28",
+   "genre": "Soulslike Action RPG (ProbablyMonsters)",
+   "template": "themoundwiki (cleanest per bestTemplates)",
+   "mode": "new-build (BUILD-003, scout re-check 18/20, zero wiki EN/CN/JP/KR)",
+   "guides": 16,
+   "guidesAdded": 16,
+   "deployed": true,
+   "score": 18,
+   "pipeline": "BUILD-003 (SCOUT-REV 8/28 → build → QA quick → deploy verified)",
+   "qa": "PENDING — QA agent (05/06) to review site dir",
+   "issues": [
+    "Pre-release (launches 9/1/2026, 4 days after build) — all content from official announcement/trailers/Steam page/previews; unconfirmed mechanics marked [Unconfirmed] (crossplay, couch co-op, system requirements, playtime, boss names)",
+    "No GA4 yet — googleAnalyticsId empty, dashboard registered with propertyId 'PENDING' / gaId 'G-PLACEHOLDER' (zero-filled until human creates GA4 property)",
+    "Deploy script alias-verify step exited 1 on first run (sleep 5 too short / ANSI-code grep mismatch) — manual re-verify confirmed alias → new deployment (dpl_4PtSBUHAWQHM9NkwPViKdvu9vAb5)"
+   ],
+   "lessons": "BUILD-003 (score 18/20, pre-release build 4 days before 9/1 launch, zero wiki competition EN/CN/JP/KR). 16 guides: 4 P0 (price-platforms, beginner-guide, coop-multiplayer-guide highest-density topic, system-requirements) + 8 P1 (builds-guide, weapon-arts-guide, boons-guide, purification-guide, equipment-sets-guide, incursions-guide, dead-gods-boss-guide, wards-gildenarch-guide) + 4 aux (sanctus-clypeus-hub-guide, solo-guide, game-length-guide, faq-content). SEO disambiguation MUST: bare 'Crimson Moon' is cross-IP polluted (Type-Moon/GARO/FFCC/Genshin) — all titles/metadata anchor 'Crimson Moon {topic}' + 'ProbablyMonsters'/'Gildenarch'; tier-list page adapted to Build Pillars Tier List (pre-release, no fabricated weapon/boon stats). Honesty rule: no boss weaknesses/numbers/review scores invented; every unconfirmed mechanic carries [Unconfirmed]; 3-layer sources (Official/Community/Editorial). Build exit 0, 29 pages, 0 errors; deploy verified homepage + 16 guide slugs + sitemap all 200; alias verified via dpl id match (grep on URL unreliable due to ANSI codes). Dashboard registered (PENDING placeholder)."
   }
  ],
  "knownIssues": [
@@ -833,6 +852,21 @@
    "description": "npm install 耗时 10-20 分钟",
    "fix": "后台运行，不阻塞其他操作",
    "frequency": 6
+  },
+  {
+   "id": "spiritvale-class-name-residual",
+   "description": "SpiritVale 职业名旧体系残留：12+ 页（classes-guide/class-tier-list/advanced-classes-guide/solo-guide/beginner-guide/builds-guide/party-composition/world-boss-chart/gunslinger-guide 等）仍用 Scout→Sniper（真实游戏中不存在）、Gunslinger=特殊、无 Weaver；与 FAQ/home 新体系（Scout→Gunslinger、Weaver=特殊进阶）矛盾。8/28 EXPAND-007 只改了 faq/home/新攻略 3 处。",
+   "fix": "P0 批量修正：先改 classes-guide 权威页，再 class-tier-list/advanced-classes-guide/gunslinger-guide/party-composition/world-boss-chart/solo-guide/beginner-guide/builds-guide；gunslinger-guide 需基于正确前提重写。派子 Agent。",
+   "status": "open",
+   "detected": "2026-08-28"
+  },
+  {
+   "id": "crimsonmoon-prerelease-unverified",
+   "description": "Crimson Moon（9/1 发售，预发售建站）2 项内容写成 confirmed 但无来源：Manuscript translation（hub 进度系统，3 篇 guide）、vampire blacksmith（铁匠确认但吸血鬼属性无来源）。9/1 发售前需改标 [Unconfirmed] 或二次确认。",
+   "fix": "9/1 发售日复查：a) manuscript translation 改 [Unconfirmed] 或从官方 explainer 二次确认；b) vampire→blacksmith 或 [Unconfirmed]。随 deep QA 一并处理。",
+   "status": "open",
+   "detected": "2026-08-28",
+   "recheck": "2026-09-01"
   }
  ],
  "bestTemplates": {

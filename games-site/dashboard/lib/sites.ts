@@ -182,4 +182,9 @@ export const SITES: SiteConfig[] = [
     propertyId: '549187577',
     gaId: 'G-JMLQMKR4X4',
   },
+  {
+    name: 'Crimson Moon Wiki',
+    propertyId: 'PENDING',
+    gaId: 'G-PLACEHOLDER',
+  },
 ];

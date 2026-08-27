@@ -1,6 +1,6 @@
 {
   "description": "每日内容扩充轮换状态（docs/每日内容扩充计划.md）— PV>1000 站每天 1 篇，round-robin",
-  "snapshotDate": "2026-08-26",
+  "snapshotDate": "2026-08-28",
   "rotation": [
     { "site": "sephiriawiki", "pv": 11110, "order": 1 },
     { "site": "themoundwiki", "pv": 4916, "order": 2 },
@@ -11,10 +11,10 @@
   "lastExpanded": {
     "sephiriawiki": "2026-08-26",
     "themoundwiki": "2026-08-27",
-    "spiritvalewiki": null,
+    "spiritvalewiki": "2026-08-28",
     "tearsofmetalwiki": null,
     "grainrotwiki": null
   },
   "skips": [],
-  "nextSite": "spiritvalewiki"
+  "nextSite": "tearsofmetalwiki"
 }

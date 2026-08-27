@@ -13,7 +13,7 @@
 | 2 | Mistfall Hunter | 7/01 | 38 | mistfallhunterwiki.vercel.app | ✅ | ✅ | ✅ | 8/11 AdSense Phase1 合规：53→38，9 组合并（PvP/新手/经济/撤离/赛季等），清除虚构职业/地图/Boss，patch-notes 重写为可验证模式 |
 | 3 | Aincrad | 7/07 | 38 | aincradwiki.vercel.app | ✅ | ✅ | ✅ | 8/11 AdSense Phase1 合规：47→38，9 组合并（伙伴/EX-Mod/Boss/楼层/成长等），武器/Boss/楼层设定校准，去 Patch 版本声明 |
 | 4 | The Mound | 7/14 | 33 | themoundwiki.vercel.app | ✅ | ✅ | ✅ | 8/11 AdSense Phase1 合规：54→32，12 组合并，系统配置对齐 Steam 官方，Patch Notes 去 1.02 未验证声明；8/27 反馈驱动扩充 +1（weapon-durability-repair-guide，QA quick PASS 已部署） |
-| 5 | SpiritVale | 7/12 | 39 | spiritvalewiki.vercel.app | ✅ | ✅ | ✅ | 8/1 内容配比规则 +1 世界 Boss 速查表（Echoing Spire） |
+| 5 | SpiritVale | 7/12 | 40 | spiritvalewiki.vercel.app | ✅ | ✅ | ✅ | 8/1 内容配比规则 +1 世界 Boss 速查表（Echoing Spire）；8/28 EXPAND-007 反馈驱动扩充 +1（echoing-spire-endgame-guide 终点爬塔）+ P0 事实校准（免费→$14.99 买断、拍卖行 8/4 回归、职业名 Scout→Gunslinger/Weaver），QA 有条件 PASS 已部署；遗留：职业名旧体系残留 12+ 文件待批量修正 |
 | 6 | Skills & Raids | 7/15 | 18 | skillsandraidswiki.vercel.app | ✅ | ✅ | ✅ | 7/27 游戏上线 |
 | 7 | MineGeon | 7/20 | 27 | minegeonwiki.vercel.app | ✅ | ✅ | ✅ | 7/28 游戏上线；8/3 Coordinator 扩充 +2（Walkthrough、Review） |
 | 8 | Sephiria | 7/21 | 30 | sephiriawiki.vercel.app | ✅ | ✅ | ✅ | 7/31 1.0 上线；8/11 AdSense Phase1 合规：48→29，5 组合并（武器/Boss/章节/Builds/物品/更新），清除虚构武器/Boss/神器目录/NG+/第七章，去 Patch 版本声明；8/26 每日扩充 +1（save-file-guide 存档备份恢复，反馈驱动，QA quick PASS） |
@@ -45,6 +45,7 @@
 | 34 | Waterpark Simulator | 8/08 | 16 | waterparksimulatorwiki.vercel.app | ✅ | ✅ | ✅ | 8/8 auto-build，17/20，7/31 1.0 上线，CayPlay（50M YouTuber），1M+ 下载，96% 好评；GA4 ✅ |
 | 35 | DOLOC TOWN | 8/22 | 20 | doloctownwiki.vercel.app | ✅ | ❌ | ✅ | 8/22 BUILD-001，22/20，后末日温馨农场模拟 (RedSaw Games/Logoi Games)，8/6 1.0 发售，95% 好评 2.4K 评测，零 wiki；QA PASS；8/25 deep QA 补 GSC 文件；GA4 ⏳ 待人工配置 |
 | 36 | Sovereign Tower | 8/25 | 18 | sovereigntowerwiki.vercel.app | ✅ | ❌ | ✅ | 8/25 BUILD-002，18/20，圆桌管理模拟 RPG (WILD WITS/Curve Games)，8/6 发售，~1,640 评测 91% Very Positive，$19.99，首周 50K 销量（Curve 官方），英中日零 wiki；8/25 QA quick PASS 已部署；GA4 ⏳ 待人工配置 |
+| 37 | Crimson Moon | 8/28 | 16 | crimsonmoonwiki.vercel.app | ✅ | ❌ | ✅ | 8/28 BUILD-003，18/20，9/1 发售（ProbablyMonsters 魂系动作 RPG，PC/PS5/Xbox，$19.99/$29.99 Deluxe），~365K wishlist 榜#130，英中日韩零 wiki；裸词同名污染→SEO 主攻专属长尾（Gildenarch/Dead Gods/incursions）；16 guides，QA 有条件 PASS；GA4 ⏳ 待人工配置 |
 <!-- AUTO-END:overview-table -->
 
 ---
@@ -113,7 +114,8 @@
 | ~~8/7~~ | Expeditions: Samurai | expeditionssamuraiwiki | ✅ EA 已上线，33 篇 |
 | ~~8/7~~ | Grain Rot | grainrotwiki | ✅ 已上线，30 篇 |
 | **8/11** | Mystralia | mystraliawiki | ✅ EA 今日上线，合规后 29 篇 |
-| **8/13** | **Low-Budget Repairs** | lowbudgetrepairswiki | 🔜 **4 天后上线，1M+ wishlist，33 篇** |
+| ~~8/13~~ | Low-Budget Repairs | lowbudgetrepairswiki | ✅ 已上线，41 篇 |
+| **9/1** | **Crimson Moon** | crimsonmoonwiki | 🔜 **9/1 发售，8/28 建站 16 篇，~365K wishlist 榜#130** |
 | 9/22 | Delverium | delveriumwiki | 14 篇 |
 | 9/29 | Nivalis Nights | nivalisnightswiki | 20 篇，932K wishlist |
 
@@ -124,16 +126,16 @@
 <!-- AUTO-START:summary -->
 | 指标 | 数值 |
 |------|:--:|
-| **总站点数** | 36 |
-| **总攻略数** | 867 |
-| **Vercel 部署** | 36/36 ✅ |
-| **GA4 已配置** | 34/36 |
-| **GA4 真缺失** | 2（doloctownwiki（空）、sovereigntowerwiki（空）） |
-| **GSC 文件部署** | 36/36 ✅（账户级令牌，所有站共用同一文件） |
+| **总站点数** | 37 |
+| **总攻略数** | 884 |
+| **Vercel 部署** | 37/37 ✅ |
+| **GA4 已配置** | 34/37 |
+| **GA4 真缺失** | 3（crimsonmoonwiki（空）、doloctownwiki（空）、sovereigntowerwiki（空）） |
+| **GSC 文件部署** | 37/37 ✅（账户级令牌，所有站共用同一文件） |
 <!-- AUTO-END:summary -->
 
-| **Dashboard 注册** | 34/36（doloctownwiki + sovereigntowerwiki 待 GA4 Property 创建后注册） |
-| **GSC 后台验证** | 验证文件 34/34 已部署 · 后台手动验证进行中 |
+| **Dashboard 注册** | 35/37（crimsonmoonwiki + doloctownwiki + sovereigntowerwiki 待 GA4 Property 创建后注册） |
+| **GSC 后台验证** | 验证文件 37/37 已部署 · 后台手动验证进行中 |
 | **关键词待采集** | 3（Shift At Midnight、Bonehold、Phantom Tower） |
 
 ---
@@ -188,7 +190,8 @@
 ✅ 7/31  Waterpark Simulator 1.0（8/8 建站，17/20，CayPlay，1M+ 下载，96% 好评，零 wiki 竞争，14 攻略）
 ✅ 8/6   ReStory: Chill Electronics Repairs（8/8 建站，22/20，Mandragora/tinyBuild，700K wishlist，98% Overwhelmingly Positive，零 wiki 竞争，14 攻略）
 ✅ 8/11  Mystralia EA（8/11 上线；8/11 AdSense 合规 40→29 攻略）
-🔜 8/13  Low-Budget Repairs（8/3 建站，8/7 +13，8/10 +8 = 41 攻略）
+✅ 8/13  Low-Budget Repairs（8/3 建站，8/7 +13，8/10 +8 = 41 攻略）
+🔜 9/1   Crimson Moon（8/28 建站，16 篇，ProbablyMonsters，~365K wishlist，英中日韩零 wiki）
 🔜 9/22  Delverium EA（8/2 建站，8/7 +5 = 14 攻略）
 🔜 9/29  Nivalis Nights（8/7 建站，13 攻略）
 ```

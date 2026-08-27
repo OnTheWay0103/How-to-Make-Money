@@ -3,14 +3,14 @@ title: "SpiritVale Connection & Server Guide — Lag, Disconnects, Rollbacks & B
 description: "Fix SpiritVale lag, jitter, disconnects and server issues. The launch-week stability problems, the no-wipe promise, which server to pick, character transfer rules, and what the devs are doing about it."
 category: "Guides"
 version: "EA"
-updated: "2026-08-11"
+updated: "2026-08-28"
 keywords: ["spiritvale lag fix", "spiritvale disconnect", "spiritvale server down", "spiritvale jitter", "spiritvale best server", "spiritvale rollback", "spiritvale stable connection"]
 related: ["beginner-guide", "faq-content", "updates-patch-notes", "trading-market-guide", "solo-guide"]
 ---
 
 # SpiritVale Connection & Server Guide — Lag, Disconnects, Rollbacks & Best Server
 
-**SpiritVale EA / Updated: August 11, 2026**
+**SpiritVale EA / Updated: August 28, 2026**
 
 If SpiritVale kicks you out, rubber-bands you around, or — worst of all — rolls your progress back, you are not doing anything wrong. **Server instability around launch was the single biggest complaint against the game.** This guide covers what happened, what the developers are actually doing about it, and every workaround that currently works.
 
@@ -51,11 +51,12 @@ If SpiritVale kicks you out, rubber-bands you around, or — worst of all — ro
 
 ## The Auction Hall Situation (Related But Important)
 
-The **Auction Hall (AH)** — the game's global player marketplace — **has been down for long stretches since launch** and is **being rebuilt**, not just restarted:
+The **Auction Hall (AH)** — the game's global player marketplace — was **down for long stretches after launch** and was **being rebuilt**, not just restarted. That wait is over:
 
-- Why: the AH was **one of the biggest lag sources**, plus bot/RMT abuse was wrecking the economy.
+- The AH **returned online on August 4, 2026** (PTR-tested August 2) with a **5% seller tax** and a **30-listing cap**, alongside party, item-exploit, login-timeout, and chat fixes.
+- Why it went down originally: the AH was **one of the biggest lag sources**, plus bot/RMT abuse was wrecking the economy.
 - The developer called trading "one of the most important features of our game" — the shutdown was an admission, not a decision they wanted.
-- **Vending stalls are live** — player-to-player selling works again through stalls and direct trade.
+- **Vending stalls are live** — player-to-player selling works through stalls and direct trade too.
 - The **Bot Hunter Program** is live: report botters on the official Discord.
 - Full status + trading alternatives: [Trading & Market Guide](/guides/trading-market-guide) and [Update & Patch Notes](/guides/updates-patch-notes).
 
@@ -94,7 +95,7 @@ Depends. If your problem is jitter/disconnect, yes. If your problem is FPS or la
 ## Related Guides
 
 - [Beginner Guide](/guides/beginner-guide) — the real first hours (no fake main quest)
-- [FAQ](/faq) — game facts (F2P model, Auction Hall, classes)
+- [FAQ](/faq) — game facts (price model, Auction Hall, classes)
 - [Trading & Market Guide](/guides/trading-market-guide) — Auction Hall status + stall trading
 - [Update & Patch Notes](/guides/updates-patch-notes) — what the team ships weekly
 - [Solo Guide](/guides/solo-guide) — playing without a fixed group
