@@ -33,6 +33,8 @@ MUST NOT 使用 Hugo shortcodes 或其他站残留模板
 MUST NOT 复制其他站点内容（跨站污染，教训：dwarfdelve 硬编码 grainrot 域名）
 MUST 站级渲染文件（app/page.tsx、app/faq/page.tsx、lib/schema.ts、content/home-content.md）的开发商/发行商/价格/结局数等事实与 Steam 商店页一致（教训：shiftatmidnight 站级元数据编造 4 周未被发现——Fiddlesticks Games/$12.99/6 结局全为虚构，8/25 QA FAIL 退回）
 MUST 英文站内容出现任何标记一律用英文（[待确认] → [Unconfirmed]）（教训：8/25 deep 审计发现 5 站 30 文件中文标记泄漏，SERP 观感差）
+MUST 未发售游戏的机制/系统若无官方或可靠来源，以 pre-release overview 或 [Unconfirmed] 呈现，MUST NOT 写成 confirmed 事实（教训：8/28 BUILD-003 Crimson Moon 预发售内容 "Manuscript translation"/"vampire blacksmith" 写成确认事实但无来源，9/1 发售日复查）
+MUST 事实修正时全站 grep 关联引用（职业名/系统名/数值），一次改齐，避免部分替换造成站内矛盾（教训：8/28 EXPAND-007 SpiritVale 职业名 Scout→Gunslinger/Weaver 只改了 3 处，12+ 页旧体系残留成 P0 跟进）
 
 ## QA 规则
 
