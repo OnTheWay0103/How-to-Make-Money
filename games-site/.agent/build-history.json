@@ -1,6 +1,44 @@
 {
  "builds": [
   {
+   "game": "Welcome to Elderfield",
+   "date": "2026-08-30",
+   "genre": "Cosy Horror RPG (Chris Cote / Kwalee)",
+   "template": "moonlightpeakswiki + crimsonmoonwiki (BUILD-003, cleanest lifecycle-sim + honesty patterns)",
+   "mode": "new-build (BUILD-004, scout re-check 20/20, pre-release 11 days before 9/10 launch)",
+   "guides": 17,
+   "guidesAdded": 17,
+   "deployed": true,
+   "score": 20,
+   "pipeline": "BUILD-004 (SCOUT 20/20 → keyword research → build → QA pending → deploy verified)",
+   "qa": "有条件 PASS (0 fabrication; R1 system-requirements full-game minimums [Unconfirmed] + human-verify logged; R2 demo reviews 400+→~550 fixed; R3 demo-length variance noted; R4 publisher Kwalee correct)",
+   "issues": [
+    "Pre-release (launches 9/10/2026, 11 days after build) — all content from Steam page (App 3195440), Steam demo page (App 3195680), demo play reports, developer statements; unconfirmed mechanics marked [Unconfirmed]: price (not announced), romance/marriage (planned, not implemented per Chris Cote), save carryover, full-game scope (~3x town, at least two more dungeons), full NPC roster",
+    "Official wiki exists (welcometoelderfield.wiki.gg) but is early placeholder — NOT a zero-wiki build; SEO must anchor on demo-verified guides (fishing rod route, 7 mysteries, mall dungeon) + honest pre-release framing instead of claiming zero competition",
+    "Full-game minimum requirements are unusually high for a 2D pixel RPG (i5-11600K/Ryzen 5 5600X, 8GB, GTX 1050 Ti) vs very light demo specs (2GB, DX9) — guides explain the gap editorially without inventing benchmarks",
+    "No GA4 yet — googleAnalyticsId empty, dashboard registered with propertyId PENDING / gaId G-PLACEHOLDER (zero-filled until human creates GA4 property)",
+    "QA R1: full-game minimum specs (i5-11600K/5600X, 8GB, GTX 1050 Ti/RX 570, DX11, 2GB, 1280x768) unverifiable — Steam blocks automation, aggregators list lower (demo-era) specs; marked [Unconfirmed], human-verify task logged",
+    "QA R2: demo review count updated 400+ → ~550 (96% unchanged)",
+    "QA R3: demo length 2-4h vs some ~20h reports (both community-sourced, noted)"
+   ],
+   "lessons": "BUILD-004 (score 20/20, pre-release build 11 days before 9/10 launch, Chris Cote/Kwalee cosy horror RPG, ~85.1K wishlist + 6.2K follow, demo 96% Overwhelmingly Positive 400+ reviews). 17 guides (18 content units incl. tier-list Activity Priorities): 4 P0 (beginner-guide, demo-guide, price-platforms, system-requirements) + 10 P1 (core-mechanics-guide, farming-economy-guide, combat-guide, difficulty-modes-guide, npcs-romance-guide, map-regions-guide, mysteries-guide, fishing-guide, rest-sleep-guide, money-making-guide) + 3 aux (progression-upgrades-guide, game-length-guide, faq-content). All 17 bodies >=800 words (body-only awk count, frontmatter excluded). Honesty rule: price/romance/save-carryover/scope all [Unconfirmed]; tier-list adapted to pre-release Activity Priorities (no fabricated numbers/ratings); 3-layer sources (Official/Community/Editorial) in every frontmatter. Build exit 0 (Next.js 16.2.10, 30 pages), deploy verified homepage + 6 sample guide slugs + faq + tier-list + sitemap + robots all HTTP 200; alias verified (welcomeelderfieldwiki.vercel.app -> welcomeelderfieldwiki-neyonntj2-zhaoq0103s-projects.vercel.app). Dashboard registered (PENDING placeholder). GA4 pending human task (recorded in docs/人工任务清单.md)."
+  },
+  {
+   "game": "Tears of Metal",
+   "date": "2026-08-30",
+   "genre": "Co-op Action Roguelike (EA)",
+   "template": "tearsofmetalwiki (feedback-driven expansion, EXPAND-008)",
+   "mode": "expand-feedback",
+   "guidesAdded": 1,
+   "guides": 28,
+   "deployed": true,
+   "issues": [
+    "P0 gap: healing/HP economy was the only high-frequency pain point (>=6 independent sources) with zero dedicated guide — Healing Font/Chicken/salves/coin budgeting/max-HP reduction/co-op revive all uncovered",
+    "Stamina potion '75' initially written without external source — marked [Unconfirmed] (2upskill has no potion prices; value cross-referenced from village-upgrade-guide L131)"
+   ],
+   "lessons": "EXPAND-008 (8/30): +1 healing-guide (Healing Fonts, Chicken, Salves & Coin Budgeting). Feedback report 8/29 (21+ samples: Steam reviews + Kotaku/Smashpad/whisperofthehouse/2upskill). QA conditional PASS (R5 wording note, fixed pre-deploy). Deployed 8/30, alias verified, /guides/healing-guide HTTP 200."
+  },
+  {
    "game": "ReStory: Chill Electronics Repairs",
    "date": "2026-08-08",
    "genre": "怀旧电器维修模拟 (Mandragora/tinyBuild)",

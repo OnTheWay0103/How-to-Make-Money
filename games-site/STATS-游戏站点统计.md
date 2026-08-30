@@ -1,6 +1,6 @@
 # 游戏攻略站 — 站点统计
 
-> 最后更新：2026-08-27 | 36 站 · 867 篇攻略
+> 最后更新：2026-08-30 | 38 站 · 902 篇攻略
 
 ---
 
@@ -13,13 +13,13 @@
 | 2 | Mistfall Hunter | 7/01 | 38 | mistfallhunterwiki.vercel.app | ✅ | ✅ | ✅ | 8/11 AdSense Phase1 合规：53→38，9 组合并（PvP/新手/经济/撤离/赛季等），清除虚构职业/地图/Boss，patch-notes 重写为可验证模式 |
 | 3 | Aincrad | 7/07 | 38 | aincradwiki.vercel.app | ✅ | ✅ | ✅ | 8/11 AdSense Phase1 合规：47→38，9 组合并（伙伴/EX-Mod/Boss/楼层/成长等），武器/Boss/楼层设定校准，去 Patch 版本声明 |
 | 4 | The Mound | 7/14 | 33 | themoundwiki.vercel.app | ✅ | ✅ | ✅ | 8/11 AdSense Phase1 合规：54→32，12 组合并，系统配置对齐 Steam 官方，Patch Notes 去 1.02 未验证声明；8/27 反馈驱动扩充 +1（weapon-durability-repair-guide，QA quick PASS 已部署） |
-| 5 | SpiritVale | 7/12 | 40 | spiritvalewiki.vercel.app | ✅ | ✅ | ✅ | 8/1 内容配比规则 +1 世界 Boss 速查表（Echoing Spire）；8/28 EXPAND-007 反馈驱动扩充 +1（echoing-spire-endgame-guide 终点爬塔）+ P0 事实校准（免费→$14.99 买断、拍卖行 8/4 回归、职业名 Scout→Gunslinger/Weaver），QA 有条件 PASS 已部署；遗留：职业名旧体系残留 12+ 文件待批量修正 |
+| 5 | SpiritVale | 7/12 | 40 | spiritvalewiki.vercel.app | ✅ | ✅ | ✅ | 8/1 内容配比规则 +1 世界 Boss 速查表（Echoing Spire）；8/28 EXPAND-007 反馈驱动扩充 +1（echoing-spire-endgame-guide 终点爬塔）+ P0 事实校准（免费→$14.99 买断、拍卖行 8/4 回归、职业名 Scout→Gunslinger/Weaver），QA 有条件 PASS 已部署；8/30 R1 P0 职业名旧体系批量修正完成（19 文件：Sniper 虚构职业全清、Gunslinger=Scout 进阶、Weaver=特殊进阶，QA PASS 已部署） |
 | 6 | Skills & Raids | 7/15 | 18 | skillsandraidswiki.vercel.app | ✅ | ✅ | ✅ | 7/27 游戏上线 |
 | 7 | MineGeon | 7/20 | 27 | minegeonwiki.vercel.app | ✅ | ✅ | ✅ | 7/28 游戏上线；8/3 Coordinator 扩充 +2（Walkthrough、Review） |
 | 8 | Sephiria | 7/21 | 30 | sephiriawiki.vercel.app | ✅ | ✅ | ✅ | 7/31 1.0 上线；8/11 AdSense Phase1 合规：48→29，5 组合并（武器/Boss/章节/Builds/物品/更新），清除虚构武器/Boss/神器目录/NG+/第七章，去 Patch 版本声明；8/26 每日扩充 +1（save-file-guide 存档备份恢复，反馈驱动，QA quick PASS） |
 | 9 | DinoBlade | 7/21 | 15 | dinobladewiki.vercel.app | ✅ | ✅ | ✅ | 8/3 Coordinator 扩充 +3；8/11 AdSense Phase1 合规：27→15，8 组合并，清除 The Mound 残留/虚构 Boss/机制名/联机 PvP，价格对齐 $19.99 |
 | 10 | Mystralia | 7/22 | 29 | mystraliawiki.vercel.app | ✅ | ✅ | ✅ | 8/11 EA 上线；8/11 AdSense Phase1 合规：40→29，8 组合并，虚构区域/法术/地牢/货币清理，Memories 110→100+ 校准，系统配置对齐 Steam 官方 |
-| 11 | Tears of Metal | 7/23 | 27 | tearsofmetalwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 反馈驱动 +3 新 +2 纠错（英雄名校准）；8/1 内容配比 +5（Wallace/Brienne/Ruadh 独立 Build 页、Corruption 机制、装备指南）+ 修复旧英雄/Boss 名残留 |
+| 11 | Tears of Metal | 7/23 | 28 | tearsofmetalwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 反馈驱动 +3 新 +2 纠错（英雄名校准）；8/1 内容配比 +5（Wallace/Brienne/Ruadh 独立 Build 页、Corruption 机制、装备指南）+ 修复旧英雄/Boss 名残留；8/30 EXPAND-008 反馈驱动扩充 +1（healing-guide 治疗与回血经济，QA 有条件 PASS 已部署） |
 | 12 | Grain Rot | 7/24 | 25 | grainrotwiki.vercel.app | ✅ | ✅ | ✅ | 8/7 游戏上线；8/3 1.0 内容更新（全量内容清单、生物群系+2、wishlist 25万→250k） |
 | 13 | DragonSword | 7/25 | 22 | dragonswordwiki.vercel.app | ✅ | ✅ | ✅ | 7/22 游戏上线；8/3 Coordinator 扩充 +3（Reina/Kalsion/Cerese 角色指南） |
 | 14 | Dwarf Delve | 7/26 | 17 | dwarfdelvewiki.vercel.app | ✅ | ✅ | ✅ |  |
@@ -46,6 +46,7 @@
 | 35 | DOLOC TOWN | 8/22 | 20 | doloctownwiki.vercel.app | ✅ | ❌ | ✅ | 8/22 BUILD-001，22/20，后末日温馨农场模拟 (RedSaw Games/Logoi Games)，8/6 1.0 发售，95% 好评 2.4K 评测，零 wiki；QA PASS；8/25 deep QA 补 GSC 文件；GA4 ⏳ 待人工配置 |
 | 36 | Sovereign Tower | 8/25 | 18 | sovereigntowerwiki.vercel.app | ✅ | ❌ | ✅ | 8/25 BUILD-002，18/20，圆桌管理模拟 RPG (WILD WITS/Curve Games)，8/6 发售，~1,640 评测 91% Very Positive，$19.99，首周 50K 销量（Curve 官方），英中日零 wiki；8/25 QA quick PASS 已部署；GA4 ⏳ 待人工配置 |
 | 37 | Crimson Moon | 8/28 | 16 | crimsonmoonwiki.vercel.app | ✅ | ❌ | ✅ | 8/28 BUILD-003，18/20，9/1 发售（ProbablyMonsters 魂系动作 RPG，PC/PS5/Xbox，$19.99/$29.99 Deluxe），~365K wishlist 榜#130，英中日韩零 wiki；裸词同名污染→SEO 主攻专属长尾（Gildenarch/Dead Gods/incursions）；16 guides，QA 有条件 PASS；GA4 ⏳ 待人工配置 |
+| 38 | Welcome to Elderfield | 8/30 | 17 | welcomeelderfieldwiki.vercel.app | ✅ | ❌ | ✅ | 8/30 BUILD-004，20/20，9/10 发售（Chris Cote/Kwalee cosy horror RPG，单人开发），~85.1K wishlist + 6.2K 关注，demo（App 3195680）96% 好评 ~550 评测，双难度 Cozy/Challenge，最低配置 [Unconfirmed] 待人工核验；wiki.gg 官方 wiki 早期占位（非零 wiki，主打 demo 实测 + 预发售诚实标注）；17 guides，QA 有条件 PASS（R1 配置人工核验已登记、R2 顺手修、已重部署）；GA4 ⏳ 待人工配置 |
 <!-- AUTO-END:overview-table -->
 
 ---
@@ -89,6 +90,10 @@
 | 32 | ReStory | 8/08 | ✅ | ✅ WebSearch | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | 33 | Beast of Reincarnation | 8/08 | ✅ | ✅ WebSearch | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | 34 | Waterpark Simulator | 8/08 | ✅ | ✅ WebSearch | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 35 | DOLOC TOWN | 8/22 | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ |
+| 36 | Sovereign Tower | 8/25 | ✅ | ✅ 报告 | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ |
+| 37 | Crimson Moon | 8/28 | ✅ | ✅ 报告 | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ |
+| 38 | Welcome to Elderfield | 8/30 | ✅ | ✅ 报告 | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ |
 <!-- AUTO-END:sop-table -->
 
 
@@ -127,11 +132,11 @@
 | 指标 | 数值 |
 |------|:--:|
 | **总站点数** | 37 |
-| **总攻略数** | 884 |
-| **Vercel 部署** | 37/37 ✅ |
+| **总攻略数** | 885 |
+| **Vercel 部署** | 38/38 ✅ |
 | **GA4 已配置** | 34/37 |
 | **GA4 真缺失** | 3（crimsonmoonwiki（空）、doloctownwiki（空）、sovereigntowerwiki（空）） |
-| **GSC 文件部署** | 37/37 ✅（账户级令牌，所有站共用同一文件） |
+| **GSC 文件部署** | 38/38 ✅（账户级令牌，所有站共用同一文件） |
 <!-- AUTO-END:summary -->
 
 | **Dashboard 注册** | 35/37（crimsonmoonwiki + doloctownwiki + sovereigntowerwiki 待 GA4 Property 创建后注册） |
@@ -192,6 +197,7 @@
 ✅ 8/11  Mystralia EA（8/11 上线；8/11 AdSense 合规 40→29 攻略）
 ✅ 8/13  Low-Budget Repairs（8/3 建站，8/7 +13，8/10 +8 = 41 攻略）
 🔜 9/1   Crimson Moon（8/28 建站，16 篇，ProbablyMonsters，~365K wishlist，英中日韩零 wiki）
+🔜 9/10  Welcome to Elderfield（8/30 建站，17 篇，Chris Cote/Kwalee cosy horror RPG，~85.1K wishlist，demo 96% 好评，wiki.gg 官方 wiki 早期占位）
 🔜 9/22  Delverium EA（8/2 建站，8/7 +5 = 14 攻略）
 🔜 9/29  Nivalis Nights（8/7 建站，13 攻略）
 ```

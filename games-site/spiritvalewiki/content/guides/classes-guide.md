@@ -60,12 +60,12 @@ At Job Level 50, you complete a Class Advancement quest to evolve into an advanc
 | Berserker | Warrior | Melee Burst DPS | Two-Handed Sword |
 | Priest | Acolyte | Healer / Buffer | Mace, Staff |
 | Wizard | Mage | AoE Magic DPS | Staff |
-| Sniper | Scout | Ranged Single-Target DPS | Bow |
+| Gunslinger | Scout | Ranged DPS | Dual Pistols |
 | Shinobi | Rogue | Stealth Burst DPS | Dagger |
 | Necromancer | Summoner | Pet-based DPS / Debuffer | Tome |
-| Gunslinger | Advanced (any base) | Ranged DPS | Dual Pistols |
+| Weaver | Any class at J50 | Special advanced class | [Unconfirmed] |
 
-**Note:** Gunslinger is unique — it does not evolve from a base class. Any class reaching Job Level 50 can change into Gunslinger, provided you complete the Gunslinger quest chain.
+**Note:** the **Weaver** is the special advanced class — it does not evolve from a base class. Any class reaching Job Level 50 can change into Weaver, provided you complete the Weaver unlock quest. The **Gunslinger**, meanwhile, is the Scout's advanced class.
 
 ---
 
@@ -75,8 +75,8 @@ At Job Level 50, you complete a Class Advancement quest to evolve into an advanc
 |------|--------|------------------|
 | STR | Increases melee damage | Knight, Warrior, Paladin, Berserker |
 | VIT | Increases HP and defense | Knight, Paladin (all classes benefit) |
-| DEX | Increases ranged damage and cast speed | Mage, Scout, Wizard, Sniper |
-| AGI | Increases attack speed and dodge | Rogue, Shinobi, Scout, Sniper |
+| DEX | Increases ranged damage and cast speed | Mage, Scout, Wizard, Gunslinger |
+| AGI | Increases attack speed and dodge | Rogue, Shinobi, Scout, Gunslinger |
 | INT | Increases magic damage and SP regen | Mage, Acolyte, Summoner, Wizard, Priest, Necromancer |
 | LUCK | Increases critical rate and critical damage | Rogue, Shinobi, Gunslinger |
 
@@ -102,10 +102,10 @@ All respeccing is **completely free**. There is no gold cost, item cost, or cool
 | Highest PvE burst damage | Mage → Wizard |
 | Best solo survivability | Knight → Paladin |
 | Best party support | Acolyte → Priest |
-| Best boss DPS | Scout → Sniper |
+| Best boss DPS | Scout → Gunslinger |
 | Most mobile gameplay | Rogue → Shinobi |
 | Pet-focused gameplay | Summoner → Necromancer |
-| Unique gameplay | Any → Gunslinger |
+| Unique gameplay | Any → Weaver |
 
 ---
 

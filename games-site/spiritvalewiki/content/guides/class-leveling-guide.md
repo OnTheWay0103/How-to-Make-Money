@@ -26,7 +26,7 @@ Classes ranked by how quickly they reach Job Level 50 from a fresh start.
 | A | Knight → Paladin | Fast | Sustain, zero downtime | Slower kill speed |
 | A | Summoner → Necromancer | Fast | Pet tanks, free damage | Pet pathing issues indoors |
 | B | Warrior → Berserker | Moderate | Burst damage, AoE sweep | Gear-dependent, potion heavy |
-| B | Scout → Sniper | Moderate | Safe ranged clears | Single-target focus |
+| B | Scout → Gunslinger | Moderate | Safe ranged clears | Single-target focus |
 | C | Acolyte → Priest | Slow | Low damage, support role | Best in parties only |
 | C | Rogue → Shinobi | Slow | Burst is high | Fragile, high skill ceiling |
 
@@ -88,7 +88,7 @@ Summoner levels by letting pets do the work. Your job is to stand back, debuff, 
 
 **Pet management:** Resummon your pet if it drops below 30% HP. Dead pet = zero DPS.
 
-### Scout → Sniper (B-Tier)
+### Scout → Gunslinger (B-Tier)
 
 **Best for:** Safe ranged progression
 

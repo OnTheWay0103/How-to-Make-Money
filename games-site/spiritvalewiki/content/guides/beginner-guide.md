@@ -33,7 +33,7 @@ Let's be direct about what SpiritVale is: a classic-style action MMO with **no m
 | Warrior | Two-Handed Sword | Medium | Strong, gear-dependent |
 | Acolyte | Mace / Staff | Medium | Good if you plan to go Priest |
 | Mage | Staff | Medium | Strong AoE, fragile |
-| Scout | Bow | Medium | Ranged safety; advances to **Sniper** at J50 |
+| Scout | Bow | Medium | Ranged safety; advances to **Gunslinger** at J50 |
 | Rogue | Dagger | Hard | High skill floor |
 | Summoner | Tome | Medium | Pet management; **S-tier "extremely OP" in the current meta** |
 

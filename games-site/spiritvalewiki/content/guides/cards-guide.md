@@ -65,7 +65,7 @@ The rule for slotting: **weapon slots are for damage stats, armor slots are for 
 | Gunslinger | AGI | ASPD | Crit |
 | Shinobi | AGI | ASPD | Move speed |
 | Necromancer | INT | VIT | Pet damage |
-| Sniper | AGI | Crit | ASPD |
+| Weaver | [Unconfirmed] | [Unconfirmed] | [Unconfirmed] |
 
 **Two caps to plan around:** the ASPD cap (193) means over-stacking attack speed cards is wasted budget on fast classes like Shinobi — reallocate to crit. And elemental cards matter more in raids than in open-world farming; the [Endgame Guide](/guides/endgame-guide) explains which bosses resist which elements.
 

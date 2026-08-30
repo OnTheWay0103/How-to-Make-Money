@@ -135,7 +135,7 @@ When affix choice appears, pick by class role — the right stat on the right sl
 | Mage / Wizard | INT, magic power | Cast speed | Melee attack |
 | Priest / Acolyte | INT, healing power | Max SP | Crit rate |
 | Shinobi / Rogue | AGI, crit rate | Crit damage | VIT stacking |
-| Sniper / Gunslinger | DEX, ranged attack | Crit rate | AoE stats |
+| Gunslinger / Scout | DEX, ranged attack | Crit rate | AoE stats |
 
 **Rule**: a Rare piece with your top two priority stats beats an Epic piece with neither. Check affixes before equipping anything purple — most endgame gear poverty comes from wearing wrong-stat Epics.
 

@@ -14,7 +14,7 @@ related:
 
 ## Gunslinger Overview
 
-The Gunslinger is SpiritVale's **special advanced class** — a mobile ranged fighter wielding **dual pistols**, built around kiting, crits, and never standing still. One roster note up front: unlike the other advanced classes, the Gunslinger is **not** tied to a single base class — **any character at Job Level 50 can unlock it** through the "The Outlaw's Path" quest chain. Scout's advanced class is **Sniper**, which is a separate, bow-focused evolution.
+The Gunslinger is the **Scout's advanced class** — a mobile ranged fighter wielding **dual pistols**, built around kiting, crits, and never standing still. A Scout advances into the Gunslinger at Job Level 50. One roster note up front: the Gunslinger is **not** the game's special unlock — that role belongs to the **Weaver**, a special advanced class that *any* Job Level 50 character can unlock (see the [Advanced Classes Guide](/guides/advanced-classes-guide)).
 
 Where other ranged classes trade mobility for cast time, the Gunslinger trades burst for **constant pressure** — you keep enemies at range with speed and pistol fire, which makes the class a monster at kiting, a strong pick in PvP, and a relaxed farmer that rarely gets touched.
 
@@ -33,20 +33,20 @@ In the current EA meta the Gunslinger sits around **A-tier for PvP** (kite king,
 
 | Requirement | Detail |
 |-------------|--------|
-| Base class | **Any class at Job Level 50** |
+| Base class | **Scout** |
 | Level | **Job Level 50** |
 | Quest | **"The Outlaw's Path"** — a 5-part quest chain |
-| Cost | **15,000 gold** |
+| Cost | **5,000 gold** (standard base-class evolution fee) |
 | Final trial | A duel against the Gunslinger Master |
 
 Steps:
 
-1. Level your current class to **Job Level 50** — the fastest routes are in the [Class Leveling Guide](/guides/class-leveling-guide).
+1. Level your **Scout** to **Job Level 50** — the fastest routes are in the [Class Leveling Guide](/guides/class-leveling-guide).
 2. Accept **"The Outlaw's Path"** from the class trainer and complete the chain (long-range target trials are the recurring theme — practice leading moving targets).
-3. Pay the 15,000 gold fee and win the duel against the Gunslinger Master.
+3. Pay the 5,000 gold fee and win the duel against the Gunslinger Master.
 4. Equip your first pair of dual pistols — you're a Gunslinger.
 
-**Warning:** advancing to Gunslinger replaces your previous class's active skills with the Gunslinger tree — every Gunslinger plays the same regardless of which class unlocked it. You can switch between unlocked advanced classes for free at the Waybinder NPC, but you must complete each class's quest chain once to unlock it. The [Class Tier List](/guides/class-tier-list) and FAQ carry the class roster.
+**Warning:** advancing to Gunslinger replaces your Scout's active skills with the Gunslinger tree. You can switch between unlocked advanced classes for free at the Waybinder NPC, but you must complete each class's quest chain once to unlock it. The [Class Tier List](/guides/class-tier-list) and FAQ carry the class roster.
 
 ## Stat Allocation
 

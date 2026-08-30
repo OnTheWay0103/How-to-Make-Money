@@ -95,12 +95,12 @@ Arena gear comes from the Arena Vendor in the Colosseum lobby. It carries player
 |------|-------|---------------|
 | S | Shinobi | Stealth one-shot combos; uncatchable |
 | S | Priest | Healing + debuff removal stall teams |
-| A | Sniper | Long-range pressure, trap utility |
+| A | Gunslinger | Long-range pressure, kite utility |
 | A | Paladin | CC and team protection |
 | A | Wizard | Zone control, AoE pressure |
 | B | Berserker | High pressure, gap closers |
-| B | Gunslinger | Kiting, poke damage |
 | B | Necromancer | Pet pressure, confuse |
+| [Unconfirmed] | Weaver | Special unlock for any Job 50 class — no arena data in EA |
 
 **Meta notes:**
 
@@ -114,10 +114,10 @@ Arena gear comes from the Arena Vendor in the Colosseum lobby. It carries player
 
 | Comp | Setup | Strengths |
 |------|-------|-----------|
-| Standard | Paladin + Priest + Sniper | Sustain + damage, hardest to kill |
+| Standard | Paladin + Priest + Gunslinger | Sustain + damage, hardest to kill |
 | Rush | Shinobi + Berserker + Wizard | Burst focus, ends rounds fast |
 | Control | Wizard + Priest + Shinobi | Zone denial + pick potential |
-| Triple DPS | Shinobi + Sniper + Gunslinger | All-in pressure, no sustain |
+| Triple DPS | Shinobi + Berserker + Gunslinger | All-in pressure, no sustain |
 
 **Comp building rules:**
 
@@ -135,7 +135,7 @@ Arena gear comes from the Arena Vendor in the Colosseum lobby. It carries player
 Coordinated CC chains decide 3v3 rounds. A standard execution sequence:
 
 1. **Initiate** with a stun or silence — Shinobi's Backstab opener or Paladin's Smite
-2. **Extend** with a root or freeze immediately after the stun ends — Wizard's Frost Nova or Sniper's Piercing Shot follow-up
+2. **Extend** with a root or freeze immediately after the stun ends — Wizard's Frost Nova or Gunslinger's Piercing Shot follow-up
 3. **Execute** with burst damage while the target is completely locked down
 
 A well-executed chain locks an opponent for several seconds — enough time to delete any non-tank class. Practice these chains with your team in unranked matches before taking them to ranked.
@@ -159,7 +159,7 @@ Split damage is the number one reason teams lose winnable matches. Everyone must
 ### 6.4 Map and Timing Fundamentals
 
 - **Track cooldowns**: the arena meta is cooldown trading. If the enemy Shinobi used their stealth, it is safe to push
-- **Use the terrain**: pillars block Sniper lines and Wizard AoE — fight around them, not in the open
+- **Use the terrain**: pillars block Gunslinger lines and Wizard AoE — fight around them, not in the open
 - **Save burst for kill windows**: burning everything on a full-HP target lets their Priest reset the fight
 - **6v6: objectives beat kills.** A big capture is worth several kills; defend points, not corpses
 

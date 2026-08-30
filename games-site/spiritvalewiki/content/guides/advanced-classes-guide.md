@@ -22,7 +22,7 @@ To unlock any advanced class, you must complete three requirements:
 
 1. **Reach Job Level 50** — Earned by killing monsters with class skills (not base XP).
 2. **Complete the Class Advancement quest** — A multi-step quest chain starting from your class trainer.
-3. **Pay the advancement fee** — 5,000 gold for base class evolutions; 15,000 gold for the Gunslinger.
+3. **Pay the advancement fee** — 5,000 gold for base class evolutions; 15,000 gold for the Weaver (the special advanced class).
 
 The Class Advancement quest takes 1-2 hours depending on your preparation. You cannot skip any step.
 
@@ -37,10 +37,10 @@ Knight    (Level 1) ──> Paladin      (J50)
 Warrior   (Level 1) ──> Berserker    (J50)
 Acolyte   (Level 1) ──> Priest       (J50)
 Mage      (Level 1) ──> Wizard       (J50)
-Scout     (Level 1) ──> Sniper       (J50)
+Scout     (Level 1) ──> Gunslinger   (J50)
 Rogue     (Level 1) ──> Shinobi      (J50)
 Summoner  (Level 1) ──> Necromancer  (J50)
-Any J50   (Class)  ──> Gunslinger    (J50, special quest)
+Any J50   (Class)  ──> Weaver       (J50, special quest)
 ```
 
 | Advanced Class | Base Prerequisite | Role | Weapon | Difficulty |
@@ -49,10 +49,10 @@ Any J50   (Class)  ──> Gunslinger    (J50, special quest)
 | Berserker | Warrior | Melee Burst DPS | Two-Handed Sword | Medium |
 | Priest | Acolyte | Healer / Buffer | Mace, Staff | Medium |
 | Wizard | Mage | AoE Magic DPS | Staff | Easy |
-| Sniper | Scout | Ranged Single-Target DPS | Bow | Medium |
+| Gunslinger | Scout | Ranged DPS | Dual Pistols | Medium |
 | Shinobi | Rogue | Stealth Burst DPS | Dagger | Hard |
 | Necromancer | Summoner | Pet-based DPS / Debuffer | Tome | Medium |
-| Gunslinger | Any J50 | Ranged DPS | Dual Pistols | Hard |
+| Weaver | Any J50 | Special advanced class | [Unconfirmed] | [Unconfirmed] |
 
 ---
 
@@ -157,21 +157,22 @@ Return to High Paladin Aldric. Unlock Paladin class.
 - **Difficulty:** Easy (heal requirement can be done in any party)
 - **Skill highlight:** Holy Sanctuary — brief party-wide invulnerability, game-changing for boss mechanics.
 
-### Sniper (Scout)
-- **Quest:** "The Perfect Shot" — Complete 3 long-range target challenges at increasing distances, then hunt the Frostpeak Drake solo.
-- **Difficulty:** Medium (Drake has high HP but kitable)
-- **Skill highlight:** True Shot — a guaranteed critical hit that ignores defense.
+### Gunslinger (Scout)
+- **Quest:** "The Outlaw's Path" — Complete a 5-part chain across all major zones, ending with a duel against the Gunslinger Master.
+- **Cost:** 5,000 gold (standard base-class evolution fee)
+- **Difficulty:** Medium (quest spans multiple zones; the final duel rewards kiting)
+- **Skill highlight:** Fan Fire — fire a volley of shots at nearby targets, excellent for AoE clearing.
 
 ### Shinobi (Rogue)
 - **Quest:** "Shadows of the Past" — Stealth through a gauntlet dungeon without being detected, then assassinate the Warden.
 - **Difficulty:** Hard (detection = instant fail, boss has anti-stealth mechanics)
 - **Skill highlight:** Shadow Clone — a decoy that deals a portion of your damage.
 
-### Gunslinger (Any J50)
-- **Quest:** "The Outlaw's Path" — Complete a 5-part chain across all major zones, ending with a duel against the Gunslinger Master.
-- **Cost:** 15,000 gold (significantly more than other advanced classes)
-- **Difficulty:** Hard (quest spans 5 zones, final duel is mechanically complex)
-- **Skill highlight:** Fan Fire — fire a volley of shots at nearby targets, excellent for AoE clearing.
+### Weaver (Any J50)
+- **Quest:** [Unconfirmed] — the Weaver is a special advanced class that any Job Level 50 class can unlock; its unlock quest chain is not yet documented in this wiki.
+- **Cost:** 15,000 gold (special advanced-class unlock fee — see the overview above)
+- **Difficulty:** [Unconfirmed]
+- **Skill highlight:** [Unconfirmed] — the Weaver's skill kit is not yet documented.
 
 ---
 
@@ -185,10 +186,10 @@ Return to High Paladin Aldric. Unlock Paladin class.
 | S | Priest | Healer | Only dedicated healer, mandatory for raids |
 | S | Wizard | DPS | Highest AoE damage output |
 | A | Necromancer | DPS | Good damage + debuffs |
-| A | Sniper | DPS | Best single-target boss DPS |
 | B | Berserker | DPS | Rampage has high uptime but risky |
 | B | Shinobi | DPS | High burst but squishy |
-| B | Gunslinger | DPS | Flexible but outclassed in specialized roles |
+| B | Gunslinger | DPS | Safe ranged DPS, strong kiting |
+| [Unconfirmed] | Weaver | DPS | Special unlock — little PvE data in EA |
 
 > These rankings are for dungeon and raid content. Farming and solo context is ranked separately in the [Class Tier List](/guides/class-tier-list).
 
@@ -198,12 +199,12 @@ Return to High Paladin Aldric. Unlock Paladin class.
 |------|----------------|-----|
 | S | Shinobi | Stealth + burst kill combo |
 | S | Priest | Healing and debuff removal stall teams |
-| A | Sniper | Long-range pressure, trap utility |
+| A | Gunslinger | Long-range pressure, kite utility |
 | A | Paladin | Impossible to kill 1v1 |
 | A | Wizard | Zone control with AoE |
 | B | Berserker | Glass cannon, high risk high reward |
-| B | Gunslinger | Kite pressure, lower burst |
 | B | Necromancer | Pet pressure is strong in 2v2 |
+| [Unconfirmed] | Weaver | Special unlock — no PvP data in EA |
 
 > See the [PvP Arena Guide](/guides/pvp-arena) for the full arena meta and tactics.
 
@@ -216,10 +217,10 @@ Return to High Paladin Aldric. Unlock Paladin class.
 | Best PvE tank | Paladin |
 | Best PvE healer | Priest |
 | Fastest dungeon clears | Wizard |
-| Best boss DPS | Sniper |
+| Safe ranged boss DPS | Gunslinger |
 | Best PvP assassin | Shinobi |
 | Pet-focused gameplay | Necromancer |
-| Unique playstyle | Gunslinger |
+| Unique playstyle | Weaver |
 
 **Important:** once you advance, you cannot return to your base class — you are permanently an advanced class. However, you can switch between unlocked advanced classes for free at the Waybinder NPC.
 

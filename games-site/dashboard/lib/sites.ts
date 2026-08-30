@@ -187,4 +187,9 @@ export const SITES: SiteConfig[] = [
     propertyId: 'PENDING',
     gaId: 'G-PLACEHOLDER',
   },
+  {
+    name: 'Welcome to Elderfield Wiki',
+    propertyId: 'PENDING',
+    gaId: 'G-PLACEHOLDER',
+  },
 ];

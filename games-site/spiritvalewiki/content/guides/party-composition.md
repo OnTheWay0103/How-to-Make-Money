@@ -39,7 +39,7 @@ SpiritVale's synergy system rewards smart class combinations. When specific clas
 | Class Pairing | Synergy Bonus |
 |---------------|---------------|
 | Paladin + Priest | Holy Conviction: bonus healing received and holy damage while both are advanced classes |
-| Wizard + Sniper | Ranged Supremacy: bonus ranged damage and cast speed |
+| Wizard + Gunslinger | Ranged Supremacy: bonus ranged damage and cast speed |
 | Berserker + Shinobi | Blood and Shadow: bonus critical damage on bleeding targets |
 | Necromancer + Summoner | Undead Army: summoned units deal bonus damage |
 | Knight + Acolyte | Steadfast Guardian: damage reduction for support classes |
@@ -97,7 +97,7 @@ These three-player cores anchor the comps above:
 
 - **The Classic Trio (Knight + Acolyte + Warrior):** the most reliable composition for leveling content. The Knight provides consistent aggro and damage reduction; the Acolyte keeps the party healed; the Warrior dishes out steady melee damage and can off-tank if needed. Easy to play, forgiving, works with any two DPS additions.
 - **The Aggressive Push (Berserker + Priest + Wizard):** high-risk, high-reward. The Berserker draws aggro with raw damage output while the Priest provides reactive healing and the Wizard adds AoE burst for trash packs. Excellent for farming runs and over-geared content.
-- **The Fortress (Paladin + Priest + Sniper):** maximum survivability. The Paladin's defensive toolkit combined with the Priest's healing creates an almost unkillable core; the Sniper provides safe, consistent ranged damage. Best for first-time boss kills and hard mode dungeons.
+- **The Fortress (Paladin + Priest + Gunslinger):** maximum survivability. The Paladin's defensive toolkit combined with the Priest's healing creates an almost unkillable core; the Gunslinger provides safe, consistent ranged damage. Best for first-time boss kills and hard mode dungeons.
 
 ---
 

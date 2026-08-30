@@ -34,13 +34,13 @@ related: ["beginner-guide", "class-tier-list", "leveling-guide", "boss-guide", "
 | Rank | Class | Why It Works |
 |------|-------|-------------|
 | 1 | Paladin (Knight → Paladin) | High survivability, self-healing, no potion dependency — the community's unanimous #1 solo pick |
-| 2 | Sniper (Scout → Sniper) | Kite everything, never get hit, consistent DPS |
+| 2 | Gunslinger (Scout → Gunslinger) | Kite everything, never get hit, consistent DPS |
 | 3 | Necromancer (Summoner → Necromancer) | Pet tanks for you, good sustain, safe farming |
 | 4 | Berserker (Warrior → Berserker) | Easiest raw damage — forgiving, low-friction solo leveling |
 | 5 | Shinobi (Rogue → Shinobi) | Fastest clear speed; high mobility keeps you safe in solo fights |
 | 6 | Wizard (Mage → Wizard) | High-risk, high-reward: enormous AoE damage, very fragile solo |
 | 7 | Priest (Acolyte → Priest) | Immortal but slow clear speed — Acolyte-path classes are bottom-tier for solo |
-| 8 | Gunslinger (Any → Gunslinger) | Fun but gear-dependent and costly |
+| 8 | Weaver (Any J50 → Weaver) | Special unlock for any class — solo ranking [Unconfirmed] |
 
 **Top Pick for Solo: Paladin.** You never die, you never need potions, and you can slowly but reliably kill anything.
 

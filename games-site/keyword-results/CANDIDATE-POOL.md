@@ -35,7 +35,6 @@
 | 27 | Stoneguard | Horde Survival EA | 11 | 7/30 | ❌ 无 | 7/31 | 低分（~121 销量） |
 | 28 | Order Automatica | Tactical Roguelite | 11 | 7/27 | ❌ 无 | 7/31 | 低分（0 评测 319 关注） |
 | 29 | DOLOC TOWN | 后末日温馨农场模拟 (RedSaw/Logoi) | 22 | 8/6 1.0 | ✅ 已建站 | 8/10 | ✅ 已建站（8/22）→ doloctownwiki，20 guides，QA PASS |
-| 30 | Welcome to Elderfield | Cosy Horror RPG (Chris Cote/Kwalee) | 20 | 9/10 | ❌ 无 | 8/10 | 推荐 — ~85K wishlist + 6.2K 关注、demo 96% Overwhelmingly Positive；农场+回合制+恋爱+恐怖无竞品攻略；单人开发；9 月上旬提前建站 |
 | ~~31~~ | ~~Sovereign Tower~~ | ~~圆桌管理模拟 RPG (WILD WITS/Curve)~~ | ~~20~~ **18** | ~~8/6 已上线~~ | ~~❌ 无~~ | 8/10 | ✅ 已建站（8/25）→ sovereigntowerwiki，18 guides，QA quick PASS，已部署 |
 | 32 | Approximately Up | 物理飞船建造沙盒 (单人开发) | ~~19~~ **17** | 8/6 已上线 | ⚠️ fandom 空壳 wiki | 8/10 | ⏸️ 观望（9/10 复查）— 8/25 复查：~775 评测 95%（Gamalytic）、$24.99 恢复全价；38.6K 销量玩家基数偏小；fandom 空壳 wiki 已出现（无内容页收录，暂不构成实质竞争，负面信号） |
 | ~~33~~ | ~~Crimson Moon~~ | ~~魂系动作 RPG (ProbablyMonsters)~~ | ~~19~~ **18** | ~~9/1~~ | ~~❌ 无~~ | 8/10 | ✅ 已建站（8/28）→ crimsonmoonwiki，16 guides，QA 有条件 PASS，已部署；9/1 发售，~365K wishlist 榜#130，英中日韩零 wiki，同名污染→专属长尾 SEO |
@@ -52,6 +51,7 @@
 
 | 游戏 | 评分 | 建站日 | 站点 |
 |------|:--:|------|------|
+| Welcome to Elderfield | 20 | 8/30 | welcomeelderfieldwiki — 9/10 发售（Chris Cote/Kwalee cosy horror RPG），~85.1K wishlist + 6.2K 关注，demo 96% 好评 400+ 评测；wiki.gg 官方 wiki 早期占位（非零 wiki，主打 demo 实测 + [Unconfirmed] 诚实标注）；17 guides，20/20 |
 | Crimson Moon | 18 | 8/28 | crimsonmoonwiki — 9/1 发售（ProbablyMonsters 魂系动作 RPG），~365K wishlist 榜#130，英中日韩零 wiki；同名 SERP 污染→专属长尾 SEO；16 guides |
 | ReStory: Chill Electronics Repairs | 22 | 8/8 | restorywiki — 700-771K wishlist，98% 好评，12K CCU，零 wiki 竞争 |
 | Waterpark Simulator | 17 | 8/8 | waterparksimulatorwiki — 7/31 1.0 发售 8 天后建站，CayPlay，1M+ 下载，96% 好评，10.5K CCU，零 wiki 竞争，14 guides |

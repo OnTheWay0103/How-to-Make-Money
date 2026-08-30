@@ -1,10 +1,10 @@
 ---
 title: "SpiritVale Class Tier List — PvE & PvP Rankings (EA 2026)"
-description: "SpiritVale class tier list for Early Access: community consensus rankings for farming, bossing, PvP and solo (Paladin #1 solo, Summoner and Warrior S-tier). Scout advances to Sniper; Gunslinger is the special advanced class any Job 50 character can unlock."
+description: "SpiritVale class tier list for Early Access: community consensus rankings for farming, bossing, PvP and solo (Paladin #1 solo, Summoner and Warrior S-tier). Scout advances to Gunslinger; Weaver is the special advanced class any Job 50 character can unlock."
 category: "Guides"
 version: "EA"
 updated: "2026-08-09"
-keywords: ["SpiritVale tier list", "SpiritVale best class", "SpiritVale best dps class", "SpiritVale class ranking", "SpiritVale gunslinger", "SpiritVale sniper"]
+keywords: ["SpiritVale tier list", "SpiritVale best class", "SpiritVale best dps class", "SpiritVale class ranking", "SpiritVale gunslinger", "SpiritVale weaver"]
 related: ["classes-guide", "beginner-guide", "builds-guide", "solo-guide"]
 sources:
   - tier: "Community"
@@ -17,7 +17,7 @@ sources:
 
 **SpiritVale EA / Updated: August 9, 2026**
 
-Community-consensus rankings for the current EA patch, drawn from the official Discord, Steam Community discussions, and player consensus. One roster note first: **Scout advances to Sniper** at Job Level 50, and **Gunslinger** is the special advanced class that *any* Job 50 character can unlock through a quest chain (see the [Advanced Classes Guide](/guides/advanced-classes-guide)). And the biggest warning: **EA balance changes weekly** — treat this as a snapshot, not gospel.
+Community-consensus rankings for the current EA patch, drawn from the official Discord, Steam Community discussions, and player consensus. One roster note first: **Scout advances to Gunslinger** at Job Level 50, and **Weaver** is the special advanced class that *any* Job 50 character can unlock through a quest chain (see the [Advanced Classes Guide](/guides/advanced-classes-guide)). And the biggest warning: **EA balance changes weekly** — treat this as a snapshot, not gospel.
 
 ---
 
@@ -41,9 +41,9 @@ Community-consensus rankings for the current EA patch, drawn from the official D
 | **A** | **Wizard** | Best AoE clearing, fast farming | Fragile, mana hungry |
 | **A** | **Berserker** | High burst, self-sustain, easiest high-damage pick | Needs decent gear |
 | **A** | **Shinobi** | Excellent mobility, fastest clear speed | Steep learning curve |
-| **A** | **Sniper** | Safe ranged DPS, strong kiting | Fewer AoE tools, weak up close |
+| **B** | **Gunslinger** | Safe ranged DPS, strong kiting — the Scout's advanced class | Fewer AoE tools, ammo/gear scarcity |
 | **B** | **Necromancer** | Pet tanking, good sustain | Outclassed by Summoner's raw power in current meta |
-| **B** | **Gunslinger** | Unique playstyle, strong kiting (special unlock for any Job 50 class) | Ammo/gear scarcity |
+| **B** | **Weaver** | Special unlock for any Job 50 class — data still thin in EA | [Unconfirmed] |
 | **C** | **Priest / Acolyte path** | Mandatory in parties | **Bottom for solo** — pure support value |
 
 ---
@@ -59,6 +59,7 @@ Community-consensus rankings for the current EA patch, drawn from the official D
 | **A** | Berserker | High pressure, gap closers | Predictable, easy to CC |
 | **B** | Priest | Healing, debuff removal | Team-dependent |
 | **B** | Necromancer | Pet pressure | Pets die fast vs players |
+| [Unconfirmed] | Weaver | Special unlock for any Job 50 class | [Unconfirmed] |
 
 ---
 

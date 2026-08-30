@@ -1,19 +1,19 @@
 ---
-title: "SpiritVale Builds Guide — Paladin, Berserker, Wizard, Sniper"
-description: "Meta builds for SpiritVale Early Access. Attribute allocation, skill priority, and card recommendations for Paladin Tank, Berserker DPS, Wizard AoE, and Sniper boss killer."
+title: "SpiritVale Builds Guide — Paladin, Berserker, Wizard, Gunslinger"
+description: "Meta builds for SpiritVale Early Access. Attribute allocation, skill priority, and card recommendations for Paladin Tank, Berserker DPS, Wizard AoE, and Gunslinger boss killer."
 category: "Guides"
 version: "EA"
 updated: "2026-07-12"
-keywords: ["SpiritVale builds", "SpiritVale Paladin build", "SpiritVale Berserker build", "SpiritVale Wizard build", "SpiritVale Sniper build"]
+keywords: ["SpiritVale builds", "SpiritVale Paladin build", "SpiritVale Berserker build", "SpiritVale Wizard build", "SpiritVale Gunslinger build"]
 related: ["classes-guide", "class-tier-list", "cards-guide", "boss-guide"]
 sources:
   - tier: "Community"
-    text: "Meta build reports (Paladin tank, Berserker DPS, Wizard AoE, Sniper boss killer) are community-informed"
+    text: "Meta build reports (Paladin tank, Berserker DPS, Wizard AoE, Gunslinger boss killer) are community-informed"
   - tier: "Editorial"
     text: "Attribute allocations and skill priorities are our assessment"
 ---
 
-# SpiritVale Builds Guide — Paladin, Berserker, Wizard, Sniper
+# SpiritVale Builds Guide — Paladin, Berserker, Wizard, Gunslinger
 
 **SpiritVale EA / Updated: July 12, 2026**
 
@@ -116,9 +116,9 @@ The fastest PvE farmer. Screen-clearing AoE at the cost of being extremely fragi
 
 ---
 
-## 4. Sniper Boss Killer Build
+## 4. Gunslinger Boss Killer Build
 
-The highest single-target DPS in the game. Built for bossing and PvP.
+A safe ranged bossing build built on kiting and crits. The Gunslinger trades burst for constant pressure — you outrange mechanics and keep DPS up by never standing still.
 
 ### Attribute Allocation
 
@@ -130,7 +130,7 @@ The highest single-target DPS in the game. Built for bossing and PvP.
 
 ### Skill Priority
 
-1. **True Shot (Max)** — The Sniper's signature: a guaranteed critical hit that ignores defense
+1. **Fan Fire (Max)** — The Gunslinger's signature: fires a volley of shots for strong sustained single-target pressure
 2. **Hawk Eye (Max)** — Range and accuracy buff
 3. **Piercing Shot (Max)** — Line-AoE for pack damage
 4. **Barrage (Max)** — Single-target burst

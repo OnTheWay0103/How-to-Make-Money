@@ -9,13 +9,13 @@ const FEATURED_GUIDES = [
   { title: 'Classes Guide — All Jobs, Roles & Skills', description: 'Complete breakdown of all 7 base classes and 8 advanced jobs. Stats, skills, best builds, and role recommendations.', slug: 'classes-guide', category: 'Classes', updated: '2026-07-12' },
   { title: 'Leveling Guide — Fastest Way to Max Level', description: 'Optimal leveling route from 1 to max. Best grinding spots, quest priorities, and XP boost strategies.', slug: 'leveling-guide', category: 'Progression', updated: '2026-07-12' },
   { title: 'Cards Guide — All 227 Cards & Best Combos', description: 'Complete card database with stats, effects, and best combinations. How to farm rare cards efficiently.', slug: 'cards-guide', category: 'Items', updated: '2026-07-12' },
-  { title: 'Build Guide — Best Builds for Every Class', description: 'Optimized builds for Paladin, Berserker, Wizard, Sniper, Priest, Shinobi, Necromancer, and more.', slug: 'builds-guide', category: 'Builds', updated: '2026-07-12' },
+  { title: 'Build Guide — Best Builds for Every Class', description: 'Optimized builds for Paladin, Berserker, Wizard, Gunslinger, Priest, Shinobi, Necromancer, and more.', slug: 'builds-guide', category: 'Builds', updated: '2026-07-12' },
 ];
 
 const FAQ_ITEMS = [
   { question: 'What is SpiritVale?', answer: 'SpiritVale is a free-to-play class-based MMORPG inspired by Ragnarok Online. It features 7 base classes, 8 advanced specializations, 227 cards, 35+ maps, and 20+ bosses. Available now on Steam Early Access.' },
   { question: 'Is SpiritVale free to play?', answer: 'Yes. SpiritVale is completely free-to-play on Steam. There are optional cosmetic purchases but no pay-to-win mechanics.' },
-  { question: 'How many classes are there?', answer: '7 base classes (Acolyte, Knight, Mage, Rogue, Scout, Summoner, Warrior) and 8 advanced classes (Paladin, Priest, Wizard, Shinobi, Sniper, Berserker, Necromancer, Gunslinger). You can respec at any time via the Waybinder NPC.' },
+  { question: 'How many classes are there?', answer: '7 base classes (Acolyte, Knight, Mage, Rogue, Scout, Summoner, Warrior) and 8 advanced classes (Paladin, Priest, Wizard, Gunslinger, Shinobi, Berserker, Necromancer, Weaver). You can respec at any time via the Waybinder NPC.' },
   { question: 'What is the best class for beginners?', answer: 'Knight → Paladin is the most forgiving (high defense, self-heal). Warrior → Berserker for simple damage. Summoner → Necromancer if you prefer pets to tank for you.' },
   { question: 'Is there PvP?', answer: 'Yes. SpiritVale has a PvP arena for competitive play. Classes are balanced separately for PvE and PvP.' },
   { question: 'Can I reset my skills?', answer: 'Yes. Respeccing is completely free at the Waybinder NPC in town. You can experiment freely with different builds.' },

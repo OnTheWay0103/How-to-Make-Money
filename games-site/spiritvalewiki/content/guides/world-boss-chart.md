@@ -59,9 +59,9 @@ The **Spirit of the Vale** is the flagship world boss (Level 50, open-world spaw
 | Damage | Necromancer | Sustained damage output |
 | Damage | Shinobi | Burst damage |
 | Damage | Gunslinger | Ranged pressure / kite support |
-| Flex | Wizard or Sniper | AoE burst or ranged safety |
+| Flex | Wizard or Gunslinger | AoE burst or ranged safety |
 
-**Note:** SpiritVale has 7 base classes (Acolyte, Knight, Mage, Rogue, Scout, Summoner, Warrior) and 8 advanced specializations unlocked at Job Level 50 (Paladin, Priest, Wizard, Shinobi, Sniper, Berserker, Necromancer, Gunslinger) — the setup above is an advanced-spec party. See the [Classes Guide](/guides/classes-guide) for the full roster.
+**Note:** SpiritVale has 7 base classes (Acolyte, Knight, Mage, Rogue, Scout, Summoner, Warrior) and 8 advanced specializations unlocked at Job Level 50 (Paladin, Priest, Wizard, Shinobi, Gunslinger, Berserker, Necromancer, Weaver) — the setup above is an advanced-spec party. See the [Classes Guide](/guides/classes-guide) for the full roster.
 
 ---
 

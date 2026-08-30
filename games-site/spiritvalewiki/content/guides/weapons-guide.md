@@ -30,7 +30,7 @@ Your weapon is the single largest stat share in SpiritVale — it contributes mo
 | Axe / Scythe | Warrior, Berserker, Necromancer (scythe) | STR | Axes for Whirlwind builds; scythes for hybrid magic-melee |
 | Staff | Mage, Wizard, Acolyte, Priest | INT, DEX | Cast-speed friendly; staffs with autocast effects are endgame staples |
 | Tome | Summoner, Necromancer | INT | Magic attack; never pair with a shield (see the stance rule below) |
-| Bow | Scout, Sniper | DEX, AGI | Ranged; the Gunslinger advanced class switches to dual pistols |
+| Bow | Scout | DEX, AGI | Ranged; the Gunslinger advanced class switches to dual pistols |
 | Dual Pistols | Gunslinger | DEX, AGI, LUK | High sustained pressure, ammo-fed |
 | Dagger | Rogue, Shinobi | AGI, LUCK | Crit-focused, fast attack speed |
 | Mace | Acolyte, Priest, Necromancer (mace variant) | INT, STR hybrid | Many magic skills double-scale with STR on maces |

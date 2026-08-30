@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 
 const WEAPON_TIERS = [
   { tier: 'S', weapons: ['Staff'], note: 'Mage → Wizard builds — the fastest farmers and top raid AoE damage' },
-  { tier: 'A', weapons: ['Sword + Shield', 'Bow', 'Dagger'], note: 'Paladin tanking, Sniper boss DPS, and Shinobi burst — each best-in-role' },
+  { tier: 'A', weapons: ['Sword + Shield', 'Bow', 'Dagger'], note: 'Paladin tanking, Gunslinger boss DPS, and Shinobi burst — each best-in-role' },
   { tier: 'B', weapons: ['Dual Pistols', 'Two-Handed Sword', 'Tome'], note: 'Gunslinger kiting, Berserker burst, and Necromancer pet builds — strong but situational' },
   { tier: 'C', weapons: ['Axe', 'Mace', 'Scythe'], note: 'Situational: Warrior alt weapons, Priest casting tools, Necromancer hybrid builds' },
 ];

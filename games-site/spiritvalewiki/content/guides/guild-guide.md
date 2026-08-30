@@ -138,8 +138,8 @@ First guild to the target score wins; otherwise the leader at 30 minutes takes t
 | Role | Count | Job | Class Preference |
 |------|-------|-----|------------------|
 | Point Guards | 6 | Hold control points, zone enemies | Paladin, Berserker |
-| Roamers | 4 | Contest enemy points, pick off stragglers | Shinobi, Sniper |
-| Boss Squad | 4 | Kill the Escalation boss fast | Wizard, Sniper, Priest |
+| Roamers | 4 | Contest enemy points, pick off stragglers | Shinobi, Gunslinger |
+| Boss Squad | 4 | Kill the Escalation boss fast | Wizard, Gunslinger, Priest |
 | Flex | 1 | React to the biggest threat | Gunslinger, Necromancer |
 
 **Assignment rules:**
@@ -152,15 +152,15 @@ First guild to the target score wins; otherwise the leader at 30 minutes takes t
 
 | Comp | Composition | Style |
 |------|-------------|-------|
-| Balanced | 4 Paladins, 3 Priests, 3 Wizards, 3 Snipers, 2 Shinobi | Hold points, win phases 1 and 3 |
-| Aggressive | 3 Berserkers, 2 Shinobi, 4 Wizards, 2 Priests, 4 Snipers | Boss rush, phase-2 dominance |
-| Control | 5 Paladins, 2 Priests, 3 Wizards, 2 Shinobi, 3 Snipers | Point control, grind them down |
+| Balanced | 4 Paladins, 3 Priests, 3 Wizards, 3 Gunslingers, 2 Shinobi | Hold points, win phases 1 and 3 |
+| Aggressive | 3 Berserkers, 2 Shinobi, 4 Wizards, 2 Priests, 4 Gunslingers | Boss rush, phase-2 dominance |
+| Control | 5 Paladins, 2 Priests, 3 Wizards, 2 Shinobi, 3 Gunslingers | Point control, grind them down |
 
 **Comp rules:**
 
 - Always bring 2–3 Priests — wars are decided by sustain, and teams without healing collapse in phase 3
 - At least 2 Shinobi or Berserkers for point contesting — steal mechanics win fights
-- Snipers protect the Boss Squad and guard the center point from range
+- Gunslingers protect the Boss Squad and guard the center point from range
 - See the [Party Composition Guide](/guides/party-composition) for how class synergies stack
 
 ### 4.5 Rewards

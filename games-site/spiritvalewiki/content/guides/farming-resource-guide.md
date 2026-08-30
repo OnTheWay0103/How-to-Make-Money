@@ -26,7 +26,7 @@ Farming efficiency is measured by kills per hour, downtime between pulls, and th
 | S | Knight → Paladin | ★★★ | ★★★★★ | ★★★★ | Long sessions (zero downtime) |
 | A | Summoner → Necromancer | ★★★★ | ★★★★ | ★★★★ | Pet-assisted solo farming |
 | A | Warrior → Berserker | ★★★★ | ★★ | ★★★★ | Burst farming with potions |
-| B | Scout → Sniper | ★★★ | ★★★ | ★★ | Safe ranged farming |
+| B | Scout → Gunslinger | ★★★ | ★★★ | ★★ | Safe ranged farming |
 | B | Rogue → Shinobi | ★★★ | ★★ | ★★ | Mob farming with stealth |
 | C | Acolyte → Priest | ★★ | ★★★★★ | ★ | Party farming support |
 
