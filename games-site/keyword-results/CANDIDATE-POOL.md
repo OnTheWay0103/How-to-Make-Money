@@ -8,7 +8,6 @@
 
 | # | 游戏 | 类型 | 评分 | 上线日 | Wiki | 发现日 | 状态 |
 |---|------|------|:--:|------|:--:|------|------|
-| 1 | **Fallen Tear: The Ascension** | 手绘 Metroidvania (Winter Crew/CMD) | **18** | 9/16 1.0 | ❌ 无 | 8/8 | **推荐** — EA 200+ 评测 Very Positive；1.0 内容翻倍：20 区域、33 Boss、21 Fated Bonds、80h 全收集；零 wiki（仅新闻稿）；Metroidvania 长尾极佳；建议 9 月初建站蓄势 |
 | ~~4~~ | ~~Waterpark Simulator~~ | ~~水上乐园管理模拟 (CayPlay)~~ | ~~17~~ | ~~7/31 1.0~~ | ~~❌ 无~~ | 8/8 | ✅ 已建站（8/8）→ waterparksimulatorwiki，14 guides |
 | 5 | Ex Sanguis | 回合制战术 Roguelite (Lightbulb Crew/Othercide 团队) | 16 | 9/10 EA | ❌ 无 | 8/8 | 观望（wishlist 未验证；Zero wiki；时间线操纵+XCOM 式环境系统 = 策略攻略需求；5 周后 EA） |
 | 6 | Neverway | 恐怖生活模拟 RPG (Coldblood/Celeste 合作者) | 16 | 10月 窗口未定 | ❌ 无 | 8/8 | 观望（300K+ wishlist；Celeste 联创 + Disasterpeace 配乐；免费 prologue 已上；日期未定 → 9 月中旬复查决定建站） |
@@ -51,6 +50,7 @@
 
 | 游戏 | 评分 | 建站日 | 站点 |
 |------|:--:|------|------|
+| Fallen Tear: The Ascension | 18 | 8/31 | fallentearwiki — 9/16 1.0 发售（Winter Crew/CMD 手绘 Metroidvania），EA 2026-03 $19.99 → 1.0 $24.99（-10% 前 14 天），20 区域/33 Boss/21 Fated Bonds，零 wiki（仅 Game8 发售文 + Fextralife 2022 新闻稿）；17 guides，QA PASS，已部署 |
 | Welcome to Elderfield | 20 | 8/30 | welcomeelderfieldwiki — 9/10 发售（Chris Cote/Kwalee cosy horror RPG），~85.1K wishlist + 6.2K 关注，demo 96% 好评 400+ 评测；wiki.gg 官方 wiki 早期占位（非零 wiki，主打 demo 实测 + [Unconfirmed] 诚实标注）；17 guides，20/20 |
 | Crimson Moon | 18 | 8/28 | crimsonmoonwiki — 9/1 发售（ProbablyMonsters 魂系动作 RPG），~365K wishlist 榜#130，英中日韩零 wiki；同名 SERP 污染→专属长尾 SEO；16 guides |
 | ReStory: Chill Electronics Repairs | 22 | 8/8 | restorywiki — 700-771K wishlist，98% 好评，12K CCU，零 wiki 竞争 |

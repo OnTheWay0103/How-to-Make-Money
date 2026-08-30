@@ -192,4 +192,9 @@ export const SITES: SiteConfig[] = [
     propertyId: 'PENDING',
     gaId: 'G-PLACEHOLDER',
   },
+  {
+    name: 'Fallen Tear: The Ascension Wiki',
+    propertyId: 'PENDING',
+    gaId: 'G-PLACEHOLDER',
+  },
 ];

@@ -2,7 +2,7 @@
 title: "Grain Rot Wiki — Complete Guide Hub"
 description: "The ultimate community wiki for Grain Rot — the horror co-op extraction builder by Beck & Branch Games. Find vessel guides, enemy strategies, biome walkthroughs, outpost upgrades, and more."
 category: "Home"
-updated: "2026-08-11"
+updated: "2026-08-31"
 keywords: ["Grain Rot", "Grain Rot wiki", "Grain Rot guide", "Beck & Branch Games", "co-op extraction builder", "horror co-op", "Steam"]
 related: ["beginner-guide", "all-enemies-guide", "best-vessels-guide", "co-op-guide"]
 ---
@@ -24,6 +24,7 @@ Grain Rot launched on Steam on August 7, 2026, with nearly 200,000 wishlists and
 | [Best Vessels & Loadouts](/guides/best-vessels-guide) | Build optimization | Intermediate |
 | [Co-op Guide](/guides/co-op-guide) | Team play | Starter |
 | [Extraction Guide](/guides/extraction-guide) | Survival tactics | Intermediate |
+| [Rot Debuff Guide](/guides/rot-debuff-guide) | Why am I vomiting green? | Intermediate |
 | [Outpost Guide](/guides/outpost-upgrade-guide) | Base building | Intermediate |
 | [All Biomes Guide](/guides/all-biomes-guide) | Exploration | Reference |
 | [Weapons & Tools Guide](/guides/weapons-tools-guide) | Loadout planning | Intermediate |
@@ -49,6 +50,9 @@ How to evaluate vessels and constructs without a verified tier list — the conf
 
 ### Extraction Mastery
 When to push deeper, when to bail, and how to protect the haul on the way out. [Full extraction guide →](/guides/extraction-guide)
+
+### The Rot Debuff
+Why is my vessel vomiting green liquid? What the Rot meter does, how to clear it in sunlight, and the disputed skull symbol — every claim sourced. [Clear the Rot →](/guides/rot-debuff-guide)
 
 ---
 

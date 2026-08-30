@@ -324,3 +324,127 @@ QA deep: 上次 8/25，未超 7 天，跳过
 - 构建产物无跨站污染，JSON-LD 站名/域名正确 ✅
 
 **判定**: ⚠️ **有条件 PASS**（R1 登记主 Agent 人工核验，R2/R3 非阻断，R4 说明项；不阻断部署，但 R1 未核验前 system-requirements 的「官方最低配置」不得当作已确认事实引用）
+
+---
+
+# QA Report — 2026-08-31（EXPAND-009 + BUILD-005 合并）
+
+## 执行摘要
+
+- **模式**: quick × 2（本轮两处变更分别审查，只读）
+- **站点 1**: `grainrotwiki`（EXPAND-009 反馈驱动扩充 +1 rot-debuff-guide）
+- **站点 2**: `fallentearwiki`（BUILD-005 新站，17 篇，预发售 9/16）
+- **结果**: grainrotwiki ✅ **PASS**；fallentearwiki ✅ **PASS**（4 项 🟡 已修复）。0 🔴 阻断，均已部署并验证。
+
+**一句话结论**: 两站无编造、无残留、无跨站污染。grainrot 的 Rot debuff 机制全部社区数值 [Unconfirmed] 且有命名来源；fallentear 全部 load-bearing 数值经外部官方源核验，「22 vs 21 allies」真实出入被诚实标注。
+
+---
+
+# 一、QA-QUICK-009 — grainrotwiki（EXPAND-009）
+
+## 审查范围
+- 新增 `content/guides/rot-debuff-guide.md`（1,367 词，How to Clear the Rot Debuff）
+- 修改 `content/home-content.md`（+1 quick-nav 行 + Featured 段 + updated 8/31）
+
+## Residue Scan（source-only）
+
+| 检查项 | 结果 |
+|--------|:--:|
+| Hugo shortcodes / 模板占位 / TODO / lorem | ✅ Clean（0） |
+| 他站游戏名/域名（全源树） | ✅ Clean（0） |
+| 中文标记（英文站用 [Unconfirmed]） | ✅ Clean（0） |
+| home-content 新行格式 | ✅ 与相邻 14 行 3 列格式一致 |
+
+## 编造检查（逐数值核对）
+
+| 数值/机制 | 指南值 | 来源核对 | 判定 |
+|----------|--------|---------|:--:|
+| 100 层阈值 → 减速+呕吐绿液+掉血 | `[Unconfirmed]` | GamerBlurb 实读确认 | ✅ |
+| 阳光清除 Rot（重置） | `[Unconfirmed]` | GamerBlurb + FinalBoss 双源 | ✅ |
+| 阳光代价（损害 Vessel 换清除） | `[Unconfirmed]` | GamerBlurb 实读 | ✅ |
+| Outpost 净化/治愈点 | `[Unconfirmed]` | FinalBoss 实读 | ✅ |
+| 污染区/绿泥/Corrupted 近身感染 | `[Unconfirmed]` | GamerBlurb 实读 | ✅ |
+| 骷髅符号社区争议（Rot 房 vs 更难敌人） | `[Unconfirmed]` | Steam 讨论帖 573793023877537271 | ✅ |
+| 官方「The deeper you go, the worse the Rot becomes」 | Official | Steam 商店页逐字 | ✅ |
+
+**结论**: 无无来源精确数值。所有社区数值带 [Unconfirmed] 且可回溯。
+
+## 一致性检查
+- related slugs 6/6 存在 ✅
+- Rot「阈值/净化/可否逆转」口径与 game-mechanics-systems-guide / endgame-survival 对齐 ✅
+- home-content 新增行/Featured 段与上下文一致 ✅
+
+## 记录项
+- 🟡 1（已修复）: L37「Corrupted enemies are another source」引号内非逐字（GamerBlurb 原文 "Corrupted enemies can also inflict Rot…"）→ 主 Agent 已改述为引号外归属。
+- 🟡 2（观察）: Steam 讨论帖直连 ECONNREFUSED，经 WebSearch 二次核实内容吻合。
+- 🟡 3（观察）: GamerBlurb+FinalBoss 联合署名微瑕（L40 已用 "One guide adds" 区分）。
+
+**判定**: ✅ **PASS**（已部署，rot-debuff-guide HTTP 200）
+
+---
+
+# 二、QA-QUICK-010 — fallentearwiki（BUILD-005 新站）
+
+## 审查范围
+- 全站 17 guide + tier-list 页 + app 页面（17 篇全部通读，100% 抽样）
+
+## Residue Scan（source-only）
+
+| 检查项 | 结果 |
+|--------|:--:|
+| Hugo shortcodes | ✅ Clean（仅 JSX 对象字面量 `{{`，非 shortcode） |
+| 他站游戏名/域名（themound/crimsonmoon/elderfield 等） | ✅ Clean（0） |
+| 模板/占位残留 / 中文标记 | ✅ Clean（0） |
+
+## 站级元数据核验
+
+| 检查项 | 结果 |
+|--------|:--:|
+| seo-config 域名 `fallentearwiki.vercel.app` | ✅ |
+| WebSite/VideoGame JSON-LD（Winter Crew/CMD、$24.99、9/16） | ✅ 与 Steam 一致 |
+| app/page + faq + tier-list（预发售零数值横幅） | ✅ |
+| content/home-content.md 孤儿文件（首页硬编码 app/page.tsx） | 🟡 记录（与 crimsonmoon/themound 模板同源，维护风险非阻断） |
+
+## 编造检查（逐数值外部核验）
+
+| 声明 | 判定 |
+|------|:--:|
+| 1.0 发售日 9/16、EA 3/17、价格 $24.99/$19.99 | ✅ themagicrain 等多源 |
+| 20 区域 / 33 Boss（11 主+22 支）/ 21 Fated Bonds | ✅ themagicrain/StopGame |
+| **Steam「22 allies」vs 新闻稿 21 出入** | ✅ 真实存在且被诚实标注（[Unconfirmed]，承诺发售后修正） |
+| 时长 35-40h/80h+、1.0 技能增量、四神、Hira/Miah、Korr Blade、Overgrowth、Temple of Oras | ✅ 官网/Joypad/mxdwn |
+| 系统需求、EA 12 成就、Afterimage 捆绑包 | ✅ Steam |
+| Blink-Strike 及部分移动技术语 | 🟡 [Community] 未独立验证 → 发售后复验 |
+
+**结论**: 无编造。所有数值要么官方确认（已核验），要么 [Unconfirmed]/[Community]/[Editorial]。
+
+## 一致性检查
+- related slugs: 1 处悬空（fated-bonds related `tier-list`）→ **已修复**为 hunter-skills-guide ✅
+- 发售日/价格/开发商跨页一致 ✅
+
+## 记录项（6 项，4 项已修复）
+- ✅ 已修复 1: fated-bonds-guide related `tier-list` 悬空 → hunter-skills-guide
+- ✅ 已修复 2: temple-of-oras-guide 「Temple of Oras FAQ」重复两遍 → 删除第二处
+- ✅ 已修复 3: price-platforms L83「free Early Access build」（EA 实为付费 $19.99）→ 改「free demo」
+- ✅ 已修复 4: hunter-skills-guide「9 total…[Official]」（3+6 算术推断）→ [Editorial] + 注明
+- 🟡 观察 1: home-content.md 孤儿文件（与 crimsonmoon/themound 模板同源，非本建站独有）
+- 🟡 观察 2: Blink-Strike [Community] → 9/16 发售后复验
+
+**判定**: ✅ **PASS**（已部署，首页/beginner-guide/boss-guide/tier-list/sitemap HTTP 200）
+
+---
+
+# 三、QA deep 状态
+
+- 上次 deep 全量审计：2026-08-25（35 站）→ 距今 6 天，**未超 7 天**，本轮无需 full audit ✅
+
+---
+
+## QA 结果汇总（供主 Agent 决策）
+
+```
+站点 1  grainrotwiki (EXPAND-009):  ✅ PASS — 1 🟡 已修复（L37 引号），已部署 rot-debuff-guide HTTP 200
+站点 2  fallentearwiki (BUILD-005):  ✅ PASS — 4 🟡 已修复，2 🟡 观察（home-content 孤儿/Blink-Strike 复验），已部署全站 HTTP 200
+QA deep: 上次 8/25，未超 7 天，跳过
+决策:    两站均已部署且线上验证，可提交上线
+```

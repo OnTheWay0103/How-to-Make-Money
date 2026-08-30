@@ -1,6 +1,45 @@
 {
  "builds": [
   {
+   "game": "Grain Rot",
+   "date": "2026-08-31",
+   "genre": "Co-op Survival Horror",
+   "template": "grainrotwiki (daily expansion rotation, EXPAND-009)",
+   "mode": "expand-feedback",
+   "guidesAdded": 1,
+   "guides": 26,
+   "deployed": true,
+   "pipeline": "EXPAND-009 (daily rotation #5, feedback-driven) → QA quick PASS → deploy verified",
+   "qa": "PASS — 0 fabrication; all community numbers [Unconfirmed] w/ named sources (gamerblurb/finalboss/Steam discussion 573793023877537271); Rot 100-cap/sunlight-clear/Outpost-cleanse cross-verified; 3 non-blocking notes (1 quote-verbatim fixed pre-deploy, 2 observed)",
+   "issues": [
+    "Rot debuff was the game's namesake mechanic but had no dedicated guide — existing guides referenced it only as a soft timer ('thresholds/cleansing unverified')",
+    "Feedback: Steam 'Symbols meaning' discussion + GamerBlurb + FinalBoss = >=3 independent sources on the Rot meter/cleanse pain point",
+    "L37 'Corrupted enemies are another source' presented as verbatim quote but GamerBlurb reads 'Corrupted enemies can also inflict Rot…' — fixed pre-deploy (paraphrase outside quotes)"
+   ],
+   "lessons": "EXPAND-009 (8/31): +1 rot-debuff-guide (1,367 words, How to Clear the Rot Debuff — Why Am I Vomiting Green Liquid?). Steam discussion 573793023877537271 (skull-symbol controversy) + GamerBlurb + FinalBoss cross-verified. All 14 community-reported numbers carry [Unconfirmed]. QA quick PASS. Deployed 8/31, grainrotwiki.vercel.app/guides/rot-debuff-guide HTTP 200."
+  },
+  {
+   "game": "Fallen Tear: The Ascension",
+   "date": "2026-08-31",
+   "genre": "Hand-drawn 2D Metroidvania (Winter Crew Studios / CMD Studios)",
+   "template": "themoundwiki (cleanest) + crimsonmoonwiki/welcomeelderfieldwiki pre-release honesty pattern",
+   "mode": "new-build (BUILD-005, scout re-check 18/20, pre-release 16 days before 9/16 1.0 launch)",
+   "guides": 17,
+   "guidesAdded": 17,
+   "deployed": true,
+   "score": 18,
+   "pipeline": "BUILD-005 (SCOUT-REV 8/31 → keyword research → build → QA quick PASS → deploy verified)",
+   "qa": "PASS — 17/17 guides read in full; all load-bearing numbers externally verified (themagicrain/mxdwn/Joypad/Steam/官网); 22-vs-21 allies discrepancy honestly labeled; 6 non-blocking notes, 4 fixed pre-deploy (dangling related slug, duplicated FAQ section, 'free EA build'→demo, 9-total [Official]→[Editorial]); home-content orphan + Blink-Strike post-launch recheck noted",
+   "issues": [
+    "Pre-release (1.0 launches 9/16/2026, 16 days after build) — content from Steam page (App 1446900)/1.0 press release/previews; [Unconfirmed]: individual Fated Bond abilities, boss weaknesses, ending unlock conditions, Blink-Strike",
+    "Zero wiki re-verified — only Game8 release-date article + Fextralife 2022 press coverage; no Fandom/Fextralife/wiki.gg site",
+    "Steam marketing 'up to 22 allies' vs 1.0 press release 21 (10 EA + 11 new) — discrepancy documented honestly in fated-bonds-guide + FAQ as [Unconfirmed], resolve post-launch",
+    "No GA4 yet — googleAnalyticsId empty, dashboard registered propertyId PENDING / gaId G-PLACEHOLDER",
+    "home-content.md orphan file (homepage hardcoded in app/page.tsx, same as crimsonmoon/themound template lineage) — noted as maintenance risk, not blocker"
+   ],
+   "lessons": "BUILD-005 (score 18/20, pre-release build 16 days before 9/16 launch, Winter Crew/CMD Studios hand-drawn Metroidvania, EA since 3/17/2026 $19.99 → 1.0 $24.99 -10% first 14 days). 17 guides: 8 base (beginner/combat/map-regions/fated-bonds/progression-ascension/controls-techniques/resources-economy/faq) + 7 keyword (boss-guide/endings/temple-of-oras/ea-to-10-version/walkthrough/hunter-skills/tier-list Fated Bonds+Role Archetypes) + 3 aux (price-platforms/game-length/system-requirements). Honesty rule: no fabricated boss/weapon/stats; every unconfirmed mechanic [Unconfirmed]; 22-vs-21 allies discrepancy labeled. Build exit 0 (Next.js 16.2.10, 30 pages), deploy verified homepage + beginner-guide + boss-guide + tier-list + sitemap all HTTP 200; fallentearwiki.vercel.app live. Dashboard registered (PENDING placeholder)."
+  },
+  {
    "game": "Welcome to Elderfield",
    "date": "2026-08-30",
    "genre": "Cosy Horror RPG (Chris Cote / Kwalee)",
@@ -893,10 +932,11 @@
   },
   {
    "id": "spiritvale-class-name-residual",
-   "description": "SpiritVale 职业名旧体系残留：12+ 页（classes-guide/class-tier-list/advanced-classes-guide/solo-guide/beginner-guide/builds-guide/party-composition/world-boss-chart/gunslinger-guide 等）仍用 Scout→Sniper（真实游戏中不存在）、Gunslinger=特殊、无 Weaver；与 FAQ/home 新体系（Scout→Gunslinger、Weaver=特殊进阶）矛盾。8/28 EXPAND-007 只改了 faq/home/新攻略 3 处。",
+   "description": "SpiritVale 职业名旧体系残留：12+ 页仍用 Scout→Sniper（真实游戏中不存在）、Gunslinger=特殊、无 Weaver；与 FAQ/home 新体系（Scout→Gunslinger、Weaver=特殊进阶）矛盾。8/28 EXPAND-007 只改了 faq/home/新攻略 3 处。",
    "fix": "P0 批量修正：先改 classes-guide 权威页，再 class-tier-list/advanced-classes-guide/gunslinger-guide/party-composition/world-boss-chart/solo-guide/beginner-guide/builds-guide；gunslinger-guide 需基于正确前提重写。派子 Agent。",
-   "status": "open",
-   "detected": "2026-08-28"
+   "status": "fixed",
+   "detected": "2026-08-28",
+   "resolved": "2026-08-30 — R1 P0 完成：19 文件批量修正（Scout→Gunslinger/Weaver、Sniper 全清），QA-QUICK-R1 PASS（Sniper 残留 0、映射/费用/名册全站一致）"
   },
   {
    "id": "crimsonmoon-prerelease-unverified",

@@ -1,6 +1,6 @@
 # 游戏攻略站 — 站点统计
 
-> 最后更新：2026-08-30 | 38 站 · 902 篇攻略
+> 最后更新：2026-08-31 | 39 站 · 920 篇攻略
 
 ---
 
@@ -20,7 +20,7 @@
 | 9 | DinoBlade | 7/21 | 15 | dinobladewiki.vercel.app | ✅ | ✅ | ✅ | 8/3 Coordinator 扩充 +3；8/11 AdSense Phase1 合规：27→15，8 组合并，清除 The Mound 残留/虚构 Boss/机制名/联机 PvP，价格对齐 $19.99 |
 | 10 | Mystralia | 7/22 | 29 | mystraliawiki.vercel.app | ✅ | ✅ | ✅ | 8/11 EA 上线；8/11 AdSense Phase1 合规：40→29，8 组合并，虚构区域/法术/地牢/货币清理，Memories 110→100+ 校准，系统配置对齐 Steam 官方 |
 | 11 | Tears of Metal | 7/23 | 28 | tearsofmetalwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 反馈驱动 +3 新 +2 纠错（英雄名校准）；8/1 内容配比 +5（Wallace/Brienne/Ruadh 独立 Build 页、Corruption 机制、装备指南）+ 修复旧英雄/Boss 名残留；8/30 EXPAND-008 反馈驱动扩充 +1（healing-guide 治疗与回血经济，QA 有条件 PASS 已部署） |
-| 12 | Grain Rot | 7/24 | 25 | grainrotwiki.vercel.app | ✅ | ✅ | ✅ | 8/7 游戏上线；8/3 1.0 内容更新（全量内容清单、生物群系+2、wishlist 25万→250k） |
+| 12 | Grain Rot | 7/24 | 26 | grainrotwiki.vercel.app | ✅ | ✅ | ✅ | 8/7 游戏上线；8/3 1.0 内容更新（全量内容清单、生物群系+2、wishlist 25万→250k）；8/31 EXPAND-009 反馈驱动扩充 +1（rot-debuff-guide，QA PASS 已部署） |
 | 13 | DragonSword | 7/25 | 22 | dragonswordwiki.vercel.app | ✅ | ✅ | ✅ | 7/22 游戏上线；8/3 Coordinator 扩充 +3（Reina/Kalsion/Cerese 角色指南） |
 | 14 | Dwarf Delve | 7/26 | 17 | dwarfdelvewiki.vercel.app | ✅ | ✅ | ✅ |  |
 | 15 | Lunarium | 7/26 | 19 | lunariumwiki.vercel.app | ✅ | ✅ | ✅ |  |
@@ -47,6 +47,7 @@
 | 36 | Sovereign Tower | 8/25 | 18 | sovereigntowerwiki.vercel.app | ✅ | ❌ | ✅ | 8/25 BUILD-002，18/20，圆桌管理模拟 RPG (WILD WITS/Curve Games)，8/6 发售，~1,640 评测 91% Very Positive，$19.99，首周 50K 销量（Curve 官方），英中日零 wiki；8/25 QA quick PASS 已部署；GA4 ⏳ 待人工配置 |
 | 37 | Crimson Moon | 8/28 | 16 | crimsonmoonwiki.vercel.app | ✅ | ❌ | ✅ | 8/28 BUILD-003，18/20，9/1 发售（ProbablyMonsters 魂系动作 RPG，PC/PS5/Xbox，$19.99/$29.99 Deluxe），~365K wishlist 榜#130，英中日韩零 wiki；裸词同名污染→SEO 主攻专属长尾（Gildenarch/Dead Gods/incursions）；16 guides，QA 有条件 PASS；GA4 ⏳ 待人工配置 |
 | 38 | Welcome to Elderfield | 8/30 | 17 | welcomeelderfieldwiki.vercel.app | ✅ | ❌ | ✅ | 8/30 BUILD-004，20/20，9/10 发售（Chris Cote/Kwalee cosy horror RPG，单人开发），~85.1K wishlist + 6.2K 关注，demo（App 3195680）96% 好评 ~550 评测，双难度 Cozy/Challenge，最低配置 [Unconfirmed] 待人工核验；wiki.gg 官方 wiki 早期占位（非零 wiki，主打 demo 实测 + 预发售诚实标注）；17 guides，QA 有条件 PASS（R1 配置人工核验已登记、R2 顺手修、已重部署）；GA4 ⏳ 待人工配置 |
+| 39 | Fallen Tear: The Ascension | 9/16 | 17 | fallentearwiki.vercel.app | ✅ | ❌ | ✅ | 8/31 BUILD-005，18/20，9/16 1.0 发售（Winter Crew Studios/CMD Studios，手绘 2D Metroidvania），EA 2026-03 $19.99、1.0 $24.99（前 14 天 -10%），20 区域 / 33 Boss（11 主+22 支）/ 21 Fated Bonds、主线 35-40h 全收集 80h、Temple of Oras 枢纽；零 wiki（预发售，仅 Game8 发售文 + Fextralife 2022 新闻稿）；17 guides，QA PASS（6 🟡 中 4 项已修复，home-content 孤儿文件记录在案）；GA4 ⏳ 待人工配置 |
 <!-- AUTO-END:overview-table -->
 
 ---
@@ -94,6 +95,7 @@
 | 36 | Sovereign Tower | 8/25 | ✅ | ✅ 报告 | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ |
 | 37 | Crimson Moon | 8/28 | ✅ | ✅ 报告 | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ |
 | 38 | Welcome to Elderfield | 8/30 | ✅ | ✅ 报告 | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ |
+| 39 | Fallen Tear: The Ascension | 9/16 | ✅ | ✅ 报告 | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ |
 <!-- AUTO-END:sop-table -->
 
 
@@ -121,6 +123,7 @@
 | **8/11** | Mystralia | mystraliawiki | ✅ EA 今日上线，合规后 29 篇 |
 | ~~8/13~~ | Low-Budget Repairs | lowbudgetrepairswiki | ✅ 已上线，41 篇 |
 | **9/1** | **Crimson Moon** | crimsonmoonwiki | 🔜 **9/1 发售，8/28 建站 16 篇，~365K wishlist 榜#130** |
+| **9/16** | **Fallen Tear: The Ascension** | fallentearwiki | 🔜 **9/16 1.0 发售，8/31 建站 17 篇，18/20，零 wiki** |
 | 9/22 | Delverium | delveriumwiki | 14 篇 |
 | 9/29 | Nivalis Nights | nivalisnightswiki | 20 篇，932K wishlist |
 
@@ -131,15 +134,15 @@
 <!-- AUTO-START:summary -->
 | 指标 | 数值 |
 |------|:--:|
-| **总站点数** | 37 |
-| **总攻略数** | 885 |
-| **Vercel 部署** | 38/38 ✅ |
-| **GA4 已配置** | 34/37 |
-| **GA4 真缺失** | 3（crimsonmoonwiki（空）、doloctownwiki（空）、sovereigntowerwiki（空）） |
-| **GSC 文件部署** | 38/38 ✅（账户级令牌，所有站共用同一文件） |
+| **总站点数** | 39 |
+| **总攻略数** | 920 |
+| **Vercel 部署** | 39/39 ✅ |
+| **GA4 已配置** | 34/39 |
+| **GA4 真缺失** | 5（crimsonmoonwiki（空）、doloctownwiki（空）、sovereigntowerwiki（空）、welcomeelderfieldwiki（空）、fallentearwiki（空）） |
+| **GSC 文件部署** | 39/39 ✅（账户级令牌，所有站共用同一文件） |
 <!-- AUTO-END:summary -->
 
-| **Dashboard 注册** | 35/37（crimsonmoonwiki + doloctownwiki + sovereigntowerwiki 待 GA4 Property 创建后注册） |
+| **Dashboard 注册** | 39/39（crimsonmoonwiki/doloctownwiki/sovereigntowerwiki/welcomeelderfieldwiki/fallentearwiki 待 GA4 Property 创建后补 propertyId） |
 | **GSC 后台验证** | 验证文件 37/37 已部署 · 后台手动验证进行中 |
 | **关键词待采集** | 3（Shift At Midnight、Bonehold、Phantom Tower） |
 
@@ -198,6 +201,7 @@
 ✅ 8/13  Low-Budget Repairs（8/3 建站，8/7 +13，8/10 +8 = 41 攻略）
 🔜 9/1   Crimson Moon（8/28 建站，16 篇，ProbablyMonsters，~365K wishlist，英中日韩零 wiki）
 🔜 9/10  Welcome to Elderfield（8/30 建站，17 篇，Chris Cote/Kwalee cosy horror RPG，~85.1K wishlist，demo 96% 好评，wiki.gg 官方 wiki 早期占位）
+🔜 9/16  Fallen Tear: The Ascension 1.0（8/31 建站，17 篇，18/20，Winter Crew/CMD，零 wiki，20 区域/33 Boss）
 🔜 9/22  Delverium EA（8/2 建站，8/7 +5 = 14 攻略）
 🔜 9/29  Nivalis Nights（8/7 建站，13 攻略）
 ```

@@ -1,0 +1,14 @@
+/**
+ * JsonLd — universal JSON‑LD structured-data component.
+ */
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export default function JsonLd({ data }: { data: any }) {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify(data),
+      }}
+    />
+  );
+}
