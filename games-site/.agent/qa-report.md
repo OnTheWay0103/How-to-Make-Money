@@ -618,3 +618,66 @@ QA deep: 上次 8/25，未超 7 天，跳过
 3. demo 好评率/评测数（SteamDB 97%/619 ratings）wiki 未引用——回避不可靠/易过期数据，合规
 4. 正式版所有猴子解锁 emote（demo 仅 Mute 可用）——roles-guide 描述基于 demo 正确，发售后可补充
 5. 过程观察：sitemap/JSON-LD 首拉偶发命中 CDN 边缘缓存，重拉确认一致，无需操作
+
+---
+
+# QA Report — 2026-09-02（QA Deep 全量审计 Part A + Part B）
+
+## 执行摘要
+
+- **模式**: deep full audit（上次 deep 全量 2026-08-25，距今 8 天 > 7 天 → 触发）
+- **Part A**: 8 站（crimsonmoon/welcomeelderfield/fallentear/grainrot/sephiria/spiritvale/tearsofmetal/themound）逐站审计 → **8/8 PASS**（完整报告 `.agent/qa-deep-partA.md`，334 行）
+- **Part B**: 40 站全量脚本化残留扫描 + 12 站编造抽查 → **1 处渲染级残留（spiritvalewiki，P1）→ 本轮已修复并部署验证**；编造抽查 **0 编造**（完整报告 `.agent/qa-deep-partB.md`，187 行）
+- **一句话结论**: 除 spiritvalewiki「SpiritVale Studio」虚构工作室名（P1，已修复上线）外，其余 39 站全部 PASS。40 站内容纪律优秀：0 跨站污染、0 虚构精确数值、sources 证据块 + [Unconfirmed] 标注纪律贯穿全站。
+
+---
+
+## 一、Part B 关键发现与修复（spiritvalewiki P1）
+
+**发现**: `lib/schema.ts:67,71` 硬编码 JSON-LD author/publisher = **「SpiritVale Studio」**（虚构工作室，经 `app/page.tsx:27` 渲染到首页结构化数据）；`components/Footer.tsx:24` 商标归属；`app/terms/page.tsx:26` IP 归属同错。真实开发商 = **Baikun Interactive**（墨尔本，lead 开发者 Phil Yum；MMOHuts/MMORPG.com/mmo13 + 本次独立 WebSearch 复核一致）。同一 schema 的 Steam App ID 3767850 核对无误 → 仅工作室名一处错误。
+
+**修复**（本轮主 Agent 直接做，3 文件单点改名）:
+- `lib/schema.ts` author/publisher → `Baikun Interactive`（JSON-LD 已线上验证 `"author":{"@type":"Organization","name":"Baikun Interactive"}`）
+- `components/Footer.tsx:24` → 「SpiritVale is a trademark of Baikun Interactive.」（线上验证）
+- `app/terms/page.tsx:26` → 「respective owners (Baikun Interactive)」（线上验证）
+- 残留扫描：全站 0 处「SpiritVale Studio」
+
+**部署验证**: 本地 `npm run build` 通过 → `vercel deploy --prod` READY → 线上三处（首页 JSON-LD / 页脚 / Terms）全部确认替换，`SpiritVale Studio` 线上零命中。
+
+**基建变更（关联）**: spiritvalewiki `app/layout.tsx` 字体从 `next/font/google`（Geist）切换为 `geist` npm 包自托管（`geist/font/sans` + `geist/font/mono`）。原因：本机无法连通 Google Fonts（GFW 阻断 fonts.googleapis.com/gstatic.com），导致 `next build` 失败；自托管后构建零外部字体依赖，CSS 变量 `--font-geist-sans/--font-geist-mono` 不变、渲染一致，且对目标地区（Google 受限区）加载更快。**同类站点后续需 rebuild 时若遇 Google Fonts 拉取失败，沿用此方案。**
+
+## 二、Part B 残留扫描结果（40 站）
+
+- ✅ **20 站完全干净**（witchspire/mistfallhunter/themound/skillsandraids/minegeon/dinoblade/mystralia/dragonsword/dwarfdelve/taival/vahrinscall/shiftatmidnight/bonehold/phantomtower/ardentwilds/bigwalk/ironnest/nivalisnights/doloc/sovereigntower/fallentear/bombanana 等）
+- 🟢 **14 站仅注释级残留**（`lib/schema.ts`/`lib/metadata.ts` JSDoc 内含「Echoes of Aincrad/Witchspire」模板注释，**不渲染**、零运行时影响；与 8/28 C3、8/30 R6 同源历史遗留，建议下次各站 build 顺手删除）
+- ✅ 6 站命中为本站合法身份/类比（themound「extraction horror/NACON」= 真实身份；grainrot「extraction horror」= 真实类型；waterparksimulator/welcomeelderfield 类比引用；sephiria 中文俗称带英文对应；tearsofmetal 日文引语带翻译）
+- ❌ 1 站（spiritvalewiki）渲染级残留 → 已修复（见上）
+- Hugo shortcodes `{{<`、他站域名互染、TODO/lorem ipsum：全 40 站零命中
+
+## 三、编造抽查（Part A + Part B，共 20 站）
+
+| 区块 | 抽查范围 | 结果 |
+|------|---------|:--:|
+| Part A | 8 站全检（关键数值逐项核验） | ✅ 0 编造 |
+| Part B | 12 站（shiftatmidnight/dinoblade/mystralia/dwarfdelve/lunarium/vahrinscall/graphite/moonlightpeaks/bonehold/ardentwilds/doloc/sovereigntower，每站 ≥2 篇全读） | ✅ 0 编造 |
+
+- shiftatmidnight（曾 FAIL）现通过；各站关键数值（发售日/价格/开发/发行/Boss/武器/机制）与 Steam/官方稿/独立媒体交叉核验全部吻合。
+- 无法独立验证的数值站点均已带 `[Unconfirmed]`/`[Community]`/sources 证据块，无「写死未验证数值」编造模式。
+- pre-release 内容（mystralia Therakan、graphite 终局、lunarium 18 Boss、ardentwilds Yorgoroth）正确降级标注，未冒充官方事实。
+
+## 四、复核记录项（🟡，非编造，时点/细化差异，列入后续跟踪）
+
+1. dwarfdelvewiki：EGS 商店列表未能独立证实
+2. moonlightpeakswiki：「24 位可攻略」vs 官宣「20+」
+3. doloctownwiki：「80 成就」计数未能独立复核
+4. boneholdwiki：「10% 折扣 8/4 结束」vs 当前 Steam $8.99；「19 bundles」未能复核
+5. sovereigntowerwiki：home-content「91%」vs 快照「92%」；Brunhilda 角色未能独立复核
+6. vahrinscallwiki：「导演 Craig Smith」「Xbox/PS 计划中」未能独立证实
+7. crimsonmoonwiki（发售后过期观察，非本轮引入）：home-content:15「has not launched yet」、system-requirements:43/54、price-platforms:64 pre-order 口径 → 建议发售后整站刷新一次
+8. welcomeelderfieldwiki：demo 好评数已增至 603 评/95%（站点「over 550」仍准确，略滞后，🟢）
+
+## 五、总体判定
+
+- **全部 40 站 PASS**（spiritvalewiki P1 修复后）；编造抽查 20 站 0 编造。
+- 顺手清理项：14 站 `lib/schema.ts`/`lib/metadata.ts` 注释级 Aincrad/Witchspire 模板残留（下次各站 build 一并删除）。
+- QA deep 纪律记录：本轮 8 天 overdue → 已补 full audit，Part A + Part B 证据链齐全（`.agent/qa-deep-partA.md` + `.agent/qa-deep-partB.md` + 本报告）。
