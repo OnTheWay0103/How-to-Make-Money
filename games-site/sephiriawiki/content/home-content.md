@@ -37,6 +37,7 @@ Sephiria 1.0 launched on **July 31, 2026** on Steam with a **Very Positive** rat
 | [Sword & Shield Build Guide](/guides/sword-shield-build-guide) | The consistent all-rounder | Starter |
 | [Crossbow Build Guide](/guides/crossbow-build-guide) | Safest Hard Mode weapon | Intermediate |
 | [Greatsword Build Guide](/guides/greatsword-build-guide) | Stagger & boss shutdown | Intermediate |
+| [Dagger Build Guide](/guides/dagger-build-guide) | Lightning build & Diff 60 viable | Intermediate |
 | [Endgame Guide](/guides/endgame-guide) | Post-game progression | Advanced |
 | [Secret Rooms Guide](/guides/secret-rooms-guide) | Hidden content | Intermediate |
 | [Talents Guide](/guides/talents-guide) | 1.0 talent trees | Intermediate |
