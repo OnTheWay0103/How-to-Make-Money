@@ -17,7 +17,7 @@
 | 10 | The Walking Dead: Streets of Survival | 横版清版打斗 (AMC IP) | 15 | 9/18 | ⚠️ 无专属，系列 fandom 生态 | 8/8 | 观望（TWD IP 搜索量大、$19.99；3 角色技能树+4 Boss 内容有限；大 IP 有 wiki 快速出现风险；免费 demo 已上） |
 | 11 | Luminary | ARPG-lite Co-op (2人) | 19 | 8/11 EA | ❌ 无 | 8/3 | 观望（50K wishlist；名字泛化 SEO 弱；2人团队） |
 | 12 | Sir, We Have an Orc Problem | TD + 增量 (2人) | 19 | ~8/1 已上线 | ❌ 无 | 8/3 | 观望（首发 $360K/天、峰值 7.6K CCU 爆款，仅 ProdigyGamers 一篇攻略；2人团队） |
-| 13 | BOMBANANA! | 3人 Co-op 拆弹 | 19 | 9/2（原 8/27 延后） | ❌ 无 | 8/3 | 观望 — 8/25 复查：正式发售日改为 9/2；demo 97% Overwhelmingly Positive（5,000+ 评测）、600 万试玩、峰值 CCU 4 万、1M+ wishlist |
+| ~~13~~ | ~~BOMBANANA!~~ | ~~3人 Co-op 拆弹~~ | ~~19~~ | ~~9/2~~ | ~~❌ 无~~ | 8/3 | ✅ 已建站（9/1）→ bombananawiki，10 guides，9/2 发售，demo 97% 好评/600 万试玩/峰值 CCU 4 万/1M+ wishlist |
 | 14 | Blood Dungeon | Bullet Heaven 平台跳跃 (Messhof) | ~~17~~ **16** | 8/25 已上线 | ❌ 无 | 8/3 | ⏸️ 观望（9/1 复查）— 8/25 复查：今日如期发售；Steam 用户评测暂无数据、价格 [待确认]；critic 两极（PC Gamer 66 vs Game Informer 8/10）；⚠️ 含裸体/粗俗内容，AdSense 合规风险；英中日零 wiki |
 | 15 | Mortal Shell II | Souls-like ARPG | 16 | 8/20 | ⚠️ 竞争激烈 | 8/1 | 观望（IGN/Ludo.guide/社区Wiki已存在） |
 | 16 | Good Heavens! | Co-op 生存建造 RPG | 15 | 8月 EA | ❌ 无 | 8/1 | 观望（EA日期模糊，热度低） |
@@ -50,6 +50,7 @@
 
 | 游戏 | 评分 | 建站日 | 站点 |
 |------|:--:|------|------|
+| BOMBANANA! | 19 | 9/1 | bombananawiki — 9/2 发售（Lefto Studio/TARK，3人 Co-op 拆弹派对），demo 97% Overwhelmingly Positive（5,000+ 评测）、600 万试玩、峰值 CCU 4 万、1M+ wishlist，零 wiki；10 guides（P0：入门/三角角色/模块/手册/发售FAQ），QA 待审核，已部署 |
 | Fallen Tear: The Ascension | 18 | 8/31 | fallentearwiki — 9/16 1.0 发售（Winter Crew/CMD 手绘 Metroidvania），EA 2026-03 $19.99 → 1.0 $24.99（-10% 前 14 天），20 区域/33 Boss/21 Fated Bonds，零 wiki（仅 Game8 发售文 + Fextralife 2022 新闻稿）；17 guides，QA PASS，已部署 |
 | Welcome to Elderfield | 20 | 8/30 | welcomeelderfieldwiki — 9/10 发售（Chris Cote/Kwalee cosy horror RPG），~85.1K wishlist + 6.2K 关注，demo 96% 好评 400+ 评测；wiki.gg 官方 wiki 早期占位（非零 wiki，主打 demo 实测 + [Unconfirmed] 诚实标注）；17 guides，20/20 |
 | Crimson Moon | 18 | 8/28 | crimsonmoonwiki — 9/1 发售（ProbablyMonsters 魂系动作 RPG），~365K wishlist 榜#130，英中日韩零 wiki；同名 SERP 污染→专属长尾 SEO；16 guides |

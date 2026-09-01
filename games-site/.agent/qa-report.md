@@ -448,3 +448,173 @@ QA deep: 上次 8/25，未超 7 天，跳过
 QA deep: 上次 8/25，未超 7 天，跳过
 决策:    两站均已部署且线上验证，可提交上线
 ```
+
+---
+
+## QA Report — 2026-09-01（QA-QUICK-011 sephiriawiki EXPAND-010）
+
+### 执行摘要
+- 模式: quick（只读对抗审查，独立 QA 第二双眼睛）
+- 范围: 1 站 / 1 篇新增 guide（dagger-build-guide，1702 词）+ home-content.md（+1 行）
+- 结果: ⚠️ WARN — 1 🟡（低严重度，可提交）/ 0 🔴
+- 事实核验: 10 组事实锚点全部独立 WebSearch 核实，9 组 ✅ / 1 组 ⚠️（火匕首变体暴击表述过述）/ 0 组 🔴
+
+### 发现清单
+
+| # | 严重度 | 站点 | 文件 | 问题类型 | 描述 | 建议操作 |
+|---|--------|------|------|---------|------|---------|
+| 1 | 🟡 | sephiriawiki | dagger-build-guide.md L108 | 一致性/来源过述 | 火匕首蜥蜴学者变体「its crit profile still lets you skip crit talents」与所引 doyo 源冲突：doyo 8/20 火 build 明确推荐点 20 暴击；18183 确认鹿/蜥蜴学者自带 90 基础暴击故「可跳暴击」非编造，但对火变体属简化过述 | 建议改为「fire line 仍需少量暴击投入」或删去该句；不阻断 |
+| 2 | 🟢 | sephiriawiki | dagger-build-guide.md | 观察 | 触电结算公式/里程碑 DPS（2000+/10000+）等为单源 [Community]（18183），QA 独立 WebSearch 以 18183/ali213/diyiyou 多源交叉，数值完全一致 | 无需操作；后续补丁可回源复查 |
+| 3 | 🟢 | sephiriawiki | home-content.md | 已知问题 | 死文件确认：无任何代码引用（app/page.tsx 用硬编码 FEATURED_GUIDES） | 登记 knownIssues；建议后续清理或改 content 驱动 |
+| 4 | 🟢 | sephiriawiki | app/page.tsx | 记录项 | dagger-build-guide 未入 FEATURED_GUIDES——与 8/26 save-file-guide 先例一致（同未入） | 遵循先例，不阻塞；可选后续加曝光 |
+| 5 | 🟢 | sephiriawiki | sitemap.xml（线上） | 观察 | 首拉命中 CDN 边缘旧缓存（dagger 0 命中），重新拉取确认包含 | 无需操作 |
+
+### 编造检测明细（10 组事实锚点逐条判定）
+
+| # | 锚点 | 判定 | 核实依据 |
+|---|------|:--:|---------|
+| 1 | 触电结算公式（每 2 秒 / ≈90%×层数×剩余秒数 / 结算后清空） | ✅ | 18183 电刀鹿 + ali213 + diyiyou 多源一致：基础每 2 秒结算一次，伤害≈90%×触电层数×持续秒数，结算后清空层数 |
+| 2 | GG20 天赋（每拥有一套套装获得增伤） | ✅ | 18183/ali213 一致：GG20 每拥有一套套装获得高额增伤 |
+| 3 | 萨满项链（延长触电时长 → 单次结算可破百层） | ✅ | 18183/ali213 一致：萨满项链延长触电持续时间，红装强化后伤害翻倍级质变 |
+| 4 | 电球（雷伤核心件，与萨满项链并列） | ✅ | 18183/ali213 一致：电球+萨满项链为最高优先级核心增伤件 |
+| 5 | 1.0.26（8/13）匕首冲刺衔接 Parry/Fury | ✅ | 17173 镜像 news.17173.com/content/08132026/225123646.shtml + Steam 公告：冲刺可衔接 Parry（招架）/Fury（狂怒） |
+| 6 | Diff 60 可用性（完全体站撸 60 难 Boss） | ✅ | 18183 原文：60 最高难度下可站撸大部分 Boss，完全体「闭眼可清 60」 |
+| 7 | 火匕首蜥蜴学者变体（炙热之刃/Blazing Blade + 余烬/Ember） | ✅ | doyo 8/20 蜥蜴学者流派 + 18183 撒匕灼伤流：火匕首每发上灼烧并吃「余烬」红利 |
+| 8 | 鹿/蜥蜴学者 90 基础暴击；天赋 幸运满/防御5/迅捷5/跳暴击回蓝暴伤 | ✅ | 18183：鹿/学者蜥蜴系自带 90 点暴击，暴击乘区零投入 |
+| 9 | 武器线：普通匕首→闪电匕首→雷电之怒（Stage 2） | ✅ | 18183：普攻匕首→一段闪电匕首→二段雷电之怒，二段后攻速极高每次命中叠触电 |
+| 10 | 英区 B 档 + +4 endgame 线「melt bosses」 | ✅ | slashskill（B 档、69% 出现率、commitment pick）/ grindnstrat（B 档、+4 线 1.0 新增 endgame 路线）/ destructoid（B 档、最强武器之一）|
+
+### 残留扫描
+
+- 他站游戏名/域名（全清单）: ✅ 0 命中（content + app + lib + components 全部干净）
+- 模板描述短语（cooperative extraction / cursed jungle / The Mound community / SpiritVale Studio / NACON）: ✅ 0 命中
+- Hugo shortcodes `{{<`: ✅ 0 命中
+- 中文标记: ✅ 仅 2 处（电刀鹿↔Electric Dagger Deer、电击术士↔Electro Mage），均含英文对应，符合反馈文档「中文俗称需给英文对应」写作规范
+- 诚实标注: 机制数值经多源交叉确认不属「未核实」，故无需 [Unconfirmed]；[Official]/[Community]/[Editorial] 证据系统已在线上渲染 ✅
+
+### 一致性
+
+- frontmatter 结构与 builds-guide 对齐（title/description/category/version/updated/keywords/related）+ sources 证据块（与 save-file-guide 等 14 篇一致）✅
+- related 7 个 slug 全部存在（weapons/builds/talents/mystic-pot/hard-mode/chapter-6-final-boss/coop）✅
+- home-content.md 新行格式与相邻行完全一致 ✅
+- updated "2026-09-01" 与正文 "September 1, 2026" 一致 ✅
+- 与 builds-guide（匕首=High risk burst/crit）、hard-mode-guide（level 60 climb）无矛盾 ✅
+
+### 基建检查
+
+| 站点 | 页面 200 | 正文渲染 | Alias 指向新部署 | sitemap 含新篇 | /guides 列表 |
+|------|:--:|:--:|:--:|:--:|:--:|
+| sephiriawiki | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+- `curl -sI https://sephiriawiki.vercel.app/guides/dagger-build-guide` → HTTP/2 200；正文含 Dagger Build Guide / Electrocution×52 / GG20 / Shaman Necklace / 1.0.26 / Difficulty 60 / sources 证据块（Official×10/Community×62/Editorial×12 渲染）✅
+- `vercel inspect sephiriawiki.vercel.app` → 指向 sephiriawiki-iweoqc7fb（2026-09-01 07:27 CST 创建，Production Ready，6 分钟前）✅
+- sitemap.xml → 39 URL 总数，含 /guides/dagger-build-guide ✅（首拉 0 命中为 CDN 边缘旧缓存，重拉确认）
+- /guides 列表页含 dagger-build-guide ✅
+
+### 判定
+
+⚠️ **WARN — 1 🟡（低严重度，可提交）/ 0 🔴 — 可提交上线**
+
+### 记录项
+
+- home-content.md 死文件（历史遗留，无代码引用）已登记为 knownIssues
+- dagger-build-guide 未进 FEATURED_GUIDES，与 8/26 save-file-guide 先例一致
+- 范围外观察（非本轮引入）：staff-build-guide 正文日期 "August 11, 2026" 与 frontmatter updated "2026-08-21" 不一致
+- 过程观察：EXPAND-010 源码尚未提交（dagger-build-guide 为 untracked），Vercel 已从工作目录部署上线；部署内容与本地源码一致（线上内容抽查通过），建议提交源码闭环
+
+---
+
+# QA Report — 2026-09-02（QA-QUICK-012 / BUILD-006 bombananawiki）
+
+## 执行摘要
+
+- **模式**: quick（新站 BUILD-006，10 篇攻略 + tier-list + app 页面，9/1 构建已部署）
+- **站点**: `bombananawiki`（BOMBANANA!，今日 9/2 Steam 发售）
+- **结果**: ✅ **PASS**（0 🔴 编造 / 0 🟡 阻断 / 残留扫描 Clean / 部署验证通过）
+
+**一句话结论**: 全部游戏特有名词与精确数值均通过 Steam 商店页（App 4656000，发售前 13h 直抓）+ 官方 press + 独立社区攻略多源核实，无编造；[Unconfirmed] 标注策略正确（价格官方至今未公布，未采用孤源 $7.99）。遗留项为「发售后数据扩充」建议，非阻断。
+
+## 审查范围
+
+- 全量读取 10 篇攻略（beginner/roles/modules/manual/co-op/levels/free-mode/demo/price-platforms-faq/faq-content）+ home-content + app/page.tsx + tier-list + faq/about/terms/privacy/contact + lib（seo-config/schema/guides）+ sitemap.ts（抽样覆盖率 100% ≫ 30% 要求）
+- 独立核实基准：Steam 商店页（App 4656000）直抓、SteamDB（demo App 4747510）、Game*Spark 内容揭晓（8/27）、AUTOMATON/gamebiz/dengki/gamespark 日媒、whisperofthehouse demo guide + Mobalytics Module & Callout Guide（即 wiki 所引 [Community] 来源本体）
+
+## 残留扫描
+
+| 检查项 | 结果 |
+|--------|:--:|
+| Hugo shortcodes `{{<` | ✅ 0 命中 |
+| 他站游戏名/域名（witchspire/mistfall/aincrad/themound/spiritvale/crimsonmoon/elderfield/fallentear/sephiria/grainrot） | ✅ 0 命中 |
+| 模板残留（cursed jungle / extraction horror / The Mound community） | ✅ 0 命中 |
+| 外部域名 | ✅ 仅本站 bombananawiki.vercel.app + Steam 外链 + AdSense/GA，全部合法 |
+| 中文标记 | ✅ 0 命中（纯英文站） |
+| `[Unconfirmed]` 标记 | ✅ 属本站诚实标注规则（home-content.md L85 明文声明），非模板残留；用量合理 |
+
+## 编造检查表（游戏特有名词逐条核实）
+
+| # | 锚点 | 判定 | 核实依据 |
+|---|------|:--:|---------|
+| 1 | 发售日 Sept 2, 2026 | ✅ | Steam 商店页「2 Sep, 2026 (planned)」+ AUTOMATON/gamebiz/Game*Spark/dengki 多源一致 |
+| 2 | 开发商 Lefto Studio / 发行商 TARK | ✅ | Steam 商店页开发/发行商字段 |
+| 3 | 三角色 Blind/Deaf/Mute Monkey（見ざる/聞かざる/言わざる） | ✅ | Steam 商店页精确描述 + AUTOMATON「見ざる聞かざる言わざる」 |
+| 4 | "3-Player Co-op — No more, no less. Exactly three monkeys required" | ✅ | Steam 商店页逐字一致 |
+| 5 | 强制 3 人、无 solo 无 2 人模式 | ✅ | Steam 商店页「No more, no less」+ 各 FAQ 页一致 |
+| 6 | Mute 手册台词 "You are the only one who can read the bomb disposal manual. If only you could tell the others what you know." | ✅ | Steam 商店页逐字一致（manual-guide.md L29） |
+| 7 | "Each bomb has different modules and different rules" | ✅ | Steam 商店页逐字一致（原文后接 "…induce different kinds of panic"） |
+| 8 | Custom/Free Mode 五调整（difficulty/timer/module types/hazards/mistakes allowed） | ✅ | Steam 商店页逐字一致（free-mode-guide.md L34 引用） |
+| 9 | 关卡解锁 "Defuse the bomb to unlock new levels. The better you get, the harder they are" | ✅ | Steam 商店页逐字一致（levels-guide.md L30） |
+| 10 | 语音角色限制 "Some of you can talk, some of you can't" | ✅ | Steam 商店页逐字一致 |
+| 11 | Color Blind Mode（两种色盲适配） | ✅ | Steam 商店页逐字一致 |
+| 12 | 平台：Windows 10/11 64-bit + macOS 11.0 (Big Sur)+ | ✅ | Steam 商店页平台字段 |
+| 13 | Win 最低配（i3-6100/Ryzen3 1200、8GB、HD520/Vega3、~300MB） | ✅ | Steam 商店页逐字一致 |
+| 14 | macOS 最低配（M1/i3 6th gen+、4GB、~600MB） | ✅ | Steam 商店页逐字一致 |
+| 15 | 15 语言（英/土/法/德/西/简中/巴葡/日/韩/俄/波/意/拉美西/繁中/乌） | ✅ | Steam 商店页逐字一致（注：SteamDB demo 页语言列表不同，以官方商店页为准） |
+| 16 | Steam 特性 Online Co-op / Achievements / Family Sharing | ✅ | Steam 商店页 |
+| 17 | 三模式：Campaign 30 关 / Endless 程序生成 / Custom | ✅ | Steam 商店页 + Game*Spark（30ステージ） |
+| 18 | 环境灾害（power outages/obstructions/loud interruptions） | ✅ | Steam 商店页 + Game*Spark（停電/騒音/危険物） |
+| 19 | Demo App 4747510 | ✅ | SteamDB app/4747510（demo 类型，parent 4656000） |
+| 20 | Demo 600 万+ 玩家、June 2026 Steam Next Fest 最热门 demo | ✅ | AUTOMATON/Game*Spark/mxdwn 多源「600万人以上」「Next Fest 最热门 demo」 |
+| 21 | Demo 免费 | ✅ | SteamDB「Free Weekend (Demand)」+ 商店页 |
+| 22 | 模块类型 Wires/D-pad/Numpad-Math/Switch Panels/Braille | ✅ | whisperofthehouse demo guide + Mobalytics Module & Callout Guide 本体存在且一致（wiki 所引 [Community] 来源真实） |
+| 23 | 价格未公布（9/1 时点） | ✅ | Steam 商店页发售前 13h 无价格显示 + Game*Spark「価格は未定」；wiki 正确未采用孤源 18183 的 $7.99 |
+| 24 | 无成人内容/非暴力喜剧 | ✅ | Steam 商店页成熟内容描述逐字一致 |
+| 25 | 沟通工具（emote wheel/slapping/flipping off/手势） | ✅ | Steam 商店页（slapping essential）+ Game*Spark（中指/ビンタ） |
+
+**⚠️ 记录项（非编造、非阻断）**
+
+| # | 锚点 | 判定 | 说明 |
+|---|------|:--:|------|
+| 1 | 正式版模块总数 14（11 标准 + 3 Chaos） | ⚠️ | Game*Spark 内容揭晓（8/27）：正式版 14 模块。wiki 仅记 5 个 demo 验证模块并标 [Unconfirmed]「full release may add more」——诚实标注、无编造，发售后需扩充图鉴 |
+| 2 | "won the June 2026 Steam Next Fest demo race" 措辞 | ⚠️ | 官方口径为「Next Fest 最热门 demo」+「Steam 第 2 热门 demo（6-8 月）」；"won the race" 为合理转述，无冲突 |
+
+**🔴 编造**: 无。
+
+## 一致性
+
+- related slugs：10 篇全部有效（Python 解析校验，零 BROKEN）✅
+- 发售日 Sept 2, 2026 跨 10 篇 + home + app + faq 完全一致 ✅
+- 价格 [Unconfirmed] 标注跨 6 处一致（$10–20/€10–20 编辑预估均带 [Editorial]/[Unconfirmed] 标签）✅
+- 角色名 Blind/Deaf/Mute Monkey 跨 41/33/49 处引用无矛盾 ✅
+- seo-config.ts url = `https://bombananawiki.vercel.app` ✅；schema.ts VideoGame url 指向 Steam 4656000 正确；JSON-LD 线上渲染 WebSite/VideoGame/FAQPage/Article/Breadcrumb 齐全 ✅
+- sitemap.xml = 18 loc（8 static + 10 guides）✅
+
+## 部署验证
+
+| 检查项 | 结果 |
+|--------|:--:|
+| `/`、`/guides`、3 篇 guide 页 HTTP 200 | ✅ 全部 200 |
+| sitemap.xml `<loc>` 计数 | ✅ 18（首拉即命中最新版，重拉一致） |
+| 线上正文渲染（角色名/发售日/模块） | ✅ 抽查一致 |
+| `vercel inspect bombananawiki.vercel.app` | ✅ 指向生产部署 bombananawiki-a11tdw0mn（Production Ready，9/1 07:32 CST） |
+
+## 判定
+
+✅ **PASS**（0 🔴 / 0 🟡 阻断）— 可提交上线；发售后数据扩充为建议项，非本轮阻断。
+
+## 记录项
+
+1. 发售后确认价格并更新（当前 [Unconfirmed] 正确；未采用孤源 $7.99）
+2. 正式版 14 模块（11 标准 + 3 Chaos）发售后扩充模块图鉴（wiki 已用 [Unconfirmed] 诚实预标注）
+3. demo 好评率/评测数（SteamDB 97%/619 ratings）wiki 未引用——回避不可靠/易过期数据，合规
+4. 正式版所有猴子解锁 emote（demo 仅 Mute 可用）——roles-guide 描述基于 demo 正确，发售后可补充
+5. 过程观察：sitemap/JSON-LD 首拉偶发命中 CDN 边缘缓存，重拉确认一致，无需操作

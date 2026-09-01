@@ -197,4 +197,9 @@ export const SITES: SiteConfig[] = [
     propertyId: 'PENDING',
     gaId: 'G-PLACEHOLDER',
   },
+  {
+    name: 'BOMBANANA! Wiki',
+    propertyId: 'PENDING',
+    gaId: 'G-PLACEHOLDER',
+  },
 ];

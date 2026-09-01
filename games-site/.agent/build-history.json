@@ -1,6 +1,25 @@
 {
  "builds": [
   {
+   "game": "BOMBANANA!",
+   "date": "2026-09-02",
+   "genre": "3-Player Co-op Bomb-Defusal Party Game (Lefto Studio / TARK)",
+   "template": "themoundwiki (cleanest per bestTemplates) + pre-release honesty pattern",
+   "mode": "new-build (BUILD-006, scout re-check 19/20, release-day 9/2, zero wiki EN/CN/JP/KR)",
+   "guides": 10,
+   "guidesAdded": 10,
+   "deployed": true,
+   "score": 19,
+   "pipeline": "BUILD-006 (SCOUT-REV 8/25 → keyword-results/BOMBANANA.md 9/1 → build 9/1 → deploy 9/1 → QA-QUICK-012 9/2)",
+   "qa": "QA-QUICK-012 9/2 — PASS (0 🔴 / 0 🟡 blocking); 25 fact anchors verified vs Steam App 4656000; 2 non-blocking ⚠️ (full release 14 modules vs 5 demo-documented; price [Unconfirmed] until live)",
+   "issues": [
+    "Pre-release build (1 day before 9/2 launch) — content from demo/official/trailers/Steam page; unconfirmed mechanics marked [Unconfirmed] (price, Mac support, system requirements)",
+    "No GA4 yet — googleAnalyticsId empty, dashboard registered propertyId PENDING / gaId G-PLACEHOLDER (zero-filled until human creates GA4 property)",
+    "Post-launch follow-up: confirm price once live, expand module compendium to full-release 14 modules, verify emotes unlock for all monkeys"
+   ],
+   "lessons": "BUILD-006 (score 19/20, release-day build for 9/2 launch, zero wiki EN/CN/JP/KR). 10 guides: 5 P0 (price-platforms-faq, beginner-guide, roles-guide, modules-guide, manual-guide) + 5 aux (co-op-guide, levels-guide, free-mode-guide, demo-guide, faq-content). BOMBANANA! name is unique (zero SERP pollution) — bare keyword safe, unlike Crimson Moon. Demo-driven content (6M players, 97% positive, 40K peak CCU) = pre-release facts well-sourced; price correctly held [Unconfirmed] (Steam showed no price pre-launch, Game*Spark 価格は未定). SEO differentiation vs article-level competitors (Mobalytics/whisperofthehouse) = systemized coverage (module compendium, manual quick-reference, gesture dictionary). Honesty rule: 25 game-specific facts all independently verified; [Unconfirmed] discipline maintained. Build exit 0, 23 pages; deploy verified homepage + guides + sitemap 18 URLs; alias verified to production."
+  },
+  {
    "game": "Grain Rot",
    "date": "2026-08-31",
    "genre": "Co-op Survival Horror",

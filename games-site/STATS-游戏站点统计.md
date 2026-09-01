@@ -1,6 +1,6 @@
 # 游戏攻略站 — 站点统计
 
-> 最后更新：2026-08-31 | 39 站 · 920 篇攻略
+> 最后更新：2026-09-02 | 40 站 · 930 篇攻略
 
 ---
 
@@ -48,6 +48,7 @@
 | 37 | Crimson Moon | 8/28 | 16 | crimsonmoonwiki.vercel.app | ✅ | ❌ | ✅ | 8/28 BUILD-003，18/20，9/1 发售（ProbablyMonsters 魂系动作 RPG，PC/PS5/Xbox，$19.99/$29.99 Deluxe），~365K wishlist 榜#130，英中日韩零 wiki；裸词同名污染→SEO 主攻专属长尾（Gildenarch/Dead Gods/incursions）；16 guides，QA 有条件 PASS；GA4 ⏳ 待人工配置 |
 | 38 | Welcome to Elderfield | 8/30 | 17 | welcomeelderfieldwiki.vercel.app | ✅ | ❌ | ✅ | 8/30 BUILD-004，20/20，9/10 发售（Chris Cote/Kwalee cosy horror RPG，单人开发），~85.1K wishlist + 6.2K 关注，demo（App 3195680）96% 好评 ~550 评测，双难度 Cozy/Challenge，最低配置 [Unconfirmed] 待人工核验；wiki.gg 官方 wiki 早期占位（非零 wiki，主打 demo 实测 + 预发售诚实标注）；17 guides，QA 有条件 PASS（R1 配置人工核验已登记、R2 顺手修、已重部署）；GA4 ⏳ 待人工配置 |
 | 39 | Fallen Tear: The Ascension | 9/16 | 17 | fallentearwiki.vercel.app | ✅ | ❌ | ✅ | 8/31 BUILD-005，18/20，9/16 1.0 发售（Winter Crew Studios/CMD Studios，手绘 2D Metroidvania），EA 2026-03 $19.99、1.0 $24.99（前 14 天 -10%），20 区域 / 33 Boss（11 主+22 支）/ 21 Fated Bonds、主线 35-40h 全收集 80h、Temple of Oras 枢纽；零 wiki（预发售，仅 Game8 发售文 + Fextralife 2022 新闻稿）；17 guides，QA PASS（6 🟡 中 4 项已修复，home-content 孤儿文件记录在案）；GA4 ⏳ 待人工配置 |
+| 40 | BOMBANANA! | 9/2 | 10 | bombananawiki.vercel.app | ✅ | ❌ | ✅ | 9/1 BUILD-006，19/20，9/2 发售（Lefto Studio/TARK，3人 Co-op 拆弹派对），demo 97% Overwhelmingly Positive（5,000+ 评测）、600 万试玩、峰值 CCU 4 万、1M+ wishlist，零 wiki；10 guides（入门/三角角色/模块/手册/发售FAQ），QA 待审核；GA4 ⏳ 待人工配置 |
 <!-- AUTO-END:overview-table -->
 
 ---
@@ -96,6 +97,7 @@
 | 37 | Crimson Moon | 8/28 | ✅ | ✅ 报告 | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ |
 | 38 | Welcome to Elderfield | 8/30 | ✅ | ✅ 报告 | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ |
 | 39 | Fallen Tear: The Ascension | 9/16 | ✅ | ✅ 报告 | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ |
+| 40 | BOMBANANA! | 9/2 | ✅ | ✅ 报告 | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ |
 <!-- AUTO-END:sop-table -->
 
 
@@ -122,7 +124,8 @@
 | ~~8/7~~ | Grain Rot | grainrotwiki | ✅ 已上线，30 篇 |
 | **8/11** | Mystralia | mystraliawiki | ✅ EA 今日上线，合规后 29 篇 |
 | ~~8/13~~ | Low-Budget Repairs | lowbudgetrepairswiki | ✅ 已上线，41 篇 |
-| **9/1** | **Crimson Moon** | crimsonmoonwiki | 🔜 **9/1 发售，8/28 建站 16 篇，~365K wishlist 榜#130** |
+| ~~9/1~~ | ~~Crimson Moon~~ | crimsonmoonwiki | ✅ **9/1 已发售，8/28 建站 16 篇，~365K wishlist 榜#130** |
+| **9/2** | **BOMBANANA!** | bombananawiki | ✅ **9/2 今日发售，9/1 建站 10 篇，demo 97% 好评/600 万试玩/1M+ wishlist，零 wiki** |
 | **9/16** | **Fallen Tear: The Ascension** | fallentearwiki | 🔜 **9/16 1.0 发售，8/31 建站 17 篇，18/20，零 wiki** |
 | 9/22 | Delverium | delveriumwiki | 14 篇 |
 | 9/29 | Nivalis Nights | nivalisnightswiki | 20 篇，932K wishlist |
@@ -134,16 +137,16 @@
 <!-- AUTO-START:summary -->
 | 指标 | 数值 |
 |------|:--:|
-| **总站点数** | 39 |
-| **总攻略数** | 920 |
-| **Vercel 部署** | 39/39 ✅ |
-| **GA4 已配置** | 34/39 |
-| **GA4 真缺失** | 5（crimsonmoonwiki（空）、doloctownwiki（空）、sovereigntowerwiki（空）、welcomeelderfieldwiki（空）、fallentearwiki（空）） |
-| **GSC 文件部署** | 39/39 ✅（账户级令牌，所有站共用同一文件） |
+| **总站点数** | 40 |
+| **总攻略数** | 930 |
+| **Vercel 部署** | 40/40 ✅ |
+| **GA4 已配置** | 34/40 |
+| **GA4 真缺失** | 6（bombananawiki（空）、crimsonmoonwiki（空）、doloctownwiki（空）、sovereigntowerwiki（空）、welcomeelderfieldwiki（空）、fallentearwiki（空）） |
+| **GSC 文件部署** | 40/40 ✅（账户级令牌，所有站共用同一文件） |
 <!-- AUTO-END:summary -->
 
-| **Dashboard 注册** | 39/39（crimsonmoonwiki/doloctownwiki/sovereigntowerwiki/welcomeelderfieldwiki/fallentearwiki 待 GA4 Property 创建后补 propertyId） |
-| **GSC 后台验证** | 验证文件 37/37 已部署 · 后台手动验证进行中 |
+| **Dashboard 注册** | 40/40（bombananawiki/crimsonmoonwiki/doloctownwiki/sovereigntowerwiki/welcomeelderfieldwiki/fallentearwiki 待 GA4 Property 创建后补 propertyId） |
+| **GSC 后台验证** | 验证文件 40/40 已部署 · 后台手动验证进行中 |
 | **关键词待采集** | 3（Shift At Midnight、Bonehold、Phantom Tower） |
 
 ---
@@ -199,7 +202,8 @@
 ✅ 8/6   ReStory: Chill Electronics Repairs（8/8 建站，22/20，Mandragora/tinyBuild，700K wishlist，98% Overwhelmingly Positive，零 wiki 竞争，14 攻略）
 ✅ 8/11  Mystralia EA（8/11 上线；8/11 AdSense 合规 40→29 攻略）
 ✅ 8/13  Low-Budget Repairs（8/3 建站，8/7 +13，8/10 +8 = 41 攻略）
-🔜 9/1   Crimson Moon（8/28 建站，16 篇，ProbablyMonsters，~365K wishlist，英中日韩零 wiki）
+✅ 9/1   Crimson Moon（9/1 发售，8/28 建站，16 篇，ProbablyMonsters，~365K wishlist，英中日韩零 wiki）
+✅ 9/2   BOMBANANA!（9/2 发售，9/1 建站，10 篇，Lefto Studio/TARK 3人 Co-op 拆弹，demo 97% 好评 600 万试玩，1M+ wishlist，零 wiki）
 🔜 9/10  Welcome to Elderfield（8/30 建站，17 篇，Chris Cote/Kwalee cosy horror RPG，~85.1K wishlist，demo 96% 好评，wiki.gg 官方 wiki 早期占位）
 🔜 9/16  Fallen Tear: The Ascension 1.0（8/31 建站，17 篇，18/20，Winter Crew/CMD，零 wiki，20 区域/33 Boss）
 🔜 9/22  Delverium EA（8/2 建站，8/7 +5 = 14 攻略）
