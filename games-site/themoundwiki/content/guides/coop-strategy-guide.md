@@ -87,6 +87,8 @@ If the code join fails, the fallback is a **platform invite**: on Xbox use the X
 - **PS5 in the squad?** Budget extra setup time and have a third-party voice chat ready
 - **Difficulty scales with the host** — if you are bringing a new player, let them host so the contract difficulty matches their level (see the [Contracts Guide](/guides/contracts-guide))
 
+> **Getting "Connection Failed" or lobby errors?** See the [Multiplayer Connection Fix Guide](/guides/multiplayer-connection-fix-guide) — VPN/WARP fixes, firewall + file-verification steps, the Public-lobby/server-list workaround, and password-room (Server Finder) setup.
+
 ---
 
 ## Squad Roles (4-Player Team)

@@ -681,3 +681,79 @@ QA deep: 上次 8/25，未超 7 天，跳过
 - **全部 40 站 PASS**（spiritvalewiki P1 修复后）；编造抽查 20 站 0 编造。
 - 顺手清理项：14 站 `lib/schema.ts`/`lib/metadata.ts` 注释级 Aincrad/Witchspire 模板残留（下次各站 build 一并删除）。
 - QA deep 纪律记录：本轮 8 天 overdue → 已补 full audit，Part A + Part B 证据链齐全（`.agent/qa-deep-partA.md` + `.agent/qa-deep-partB.md` + 本报告）。
+
+---
+
+# QA Report — 2026-09-02（QA-QUICK-013 / EXPAND-011 themoundwiki）
+
+## 执行摘要
+
+- **模式**: quick（每日扩充 EXPAND-011，反馈驱动新增 1 篇）
+- **站点**: `themoundwiki`（The Mound: Omen of Cthulhu）
+- **新增**: `content/guides/multiplayer-connection-fix-guide.md`（Multiplayer Connection Fix — "Connection Failed" & Lobby Errors + Crossplay Join Workarounds）
+- **结果**: ✅ **PASS**（0 🔴 编造 / 0 🟡 阻断 / 部署验证通过）
+
+**一句话结论**: 反馈分析师（docs/agents/17-18 quick）先以 11 个独立来源验证「多人在线联机故障」内容缺口真实存在（33 篇攻略中无独立联机排查篇，coop-strategy-guide 仅 3 行清单），再由主 Agent 撰写问题导向指南；全部官方声明（Patch 1.03 crossplay invite 确认、password rooms 添加、beta branch Steam-only）与官方 Steam announcement 对齐，Community 声明均绑定 outagescope 用户报告 + 编辑媒体，无编造玩家引语。
+
+## 审查范围
+
+- 新增 guide 全文 + frontmatter（title/description/keywords/related 7+4 项）
+- 交叉一致性：coop-strategy-guide / faq-content / performance-fps-fix-guide / extraction-guide / home-content.md quick-nav 行
+- 残留扫描（他站污染 / Hugo shortcodes / [Unconfirmed] 标记 / 外部域名）
+- 部署验证：本地 build exit 0 → vercel deploy → 线上 guide HTTP 200 + sitemap 计数
+
+## 残留扫描
+
+| 检查项 | 结果 |
+|--------|:--:|
+| Hugo shortcodes `{{<` | ✅ 0 命中 |
+| 他站游戏名/域名污染 | ✅ 0 命中 |
+| 模板残留（cursed jungle / Aincrad / Witchspire 等） | ✅ 0 命中 |
+| 外部域名 | ✅ 仅 Steam 官方 + 编辑媒体 + outagescope，全部在 Sources 列出 |
+| `[Unconfirmed]` 标记 | ✅ 仅用于 beta-branch 时间点等未官方钉死处，用量合理 |
+| 虚构玩家引语 | ✅ 0（honesty note 明文声明 Steam post 正文无法直抓，Community 均带来源） |
+
+## 编造检查表（关键断言逐条核实）
+
+| # | 锚点 | 判定 | 核实依据 |
+|---|------|:--:|---------|
+| 1 | Patch 1.03 官方确认 crossplay invite bug「working on a fix」 | ✅ | Steam 官方 announcement（[Official] 唯一来源，guide 只在此处引官方） |
+| 2 | 官方推荐 Public lobby + server list 跨平台组队 | ✅ | 同 Steam announcement |
+| 3 | 6 位 lobby code 生成 | ✅ | 编辑媒体 tposegaming/gamerblurb 一致 |
+| 4 | 10+ 次刷新 / 35 分钟等待（跨平台房间出现） | ✅ | Community（outagescope 用户报告 + tposegaming/gamerblurb 编辑转述），guide 标注 Community 非官方 |
+| 5 | 无 search-by-name 功能 | ✅ | Community + 编辑媒体一致 |
+| 6 | 8-18 更新后 matchmaking 回归 | ✅ | outagescope 状态页（Community），guide 标 Community 并附自检步骤 |
+| 7 | password rooms 由 late-July 大补丁添加 | ✅ | gamersocialclub + ingamenews（Editorial） |
+| 8 | beta branch Steam-only + 禁用 crossplay | ✅ | tposegaming + Steam announcement |
+| 9 | 全平台 crossplay 支持（invite 坏、组队可用） | ✅ | 官方 announcement + 多编辑媒体 |
+| 10 | Windows `netsh winsock reset` / `ipconfig /flushdns` 修复 | ✅ | 编辑媒体 2UpSkill（标准 Windows 网络栈修复，非编造） |
+| 11 | 中文玩家用游侠对战平台绕过官方联机 | ✅ | duotegame（Editorial），guide 标注「unofficial workaround」 |
+
+**🔴 编造**: 无。
+
+## 一致性
+
+- related slugs（coop-strategy-guide/faq-content/performance-fps-fix-guide/extraction-guide）全部有效 ✅
+- 6 位 lobby code、crossplay 状态、password rooms 口径与 coop-strategy-guide / faq-content 一致 ✅
+- home-content.md quick-nav 新增行指向 `/guides/multiplayer-connection-fix-guide`，路径与文件名一致 ✅
+- frontmatter `updated: 2026-09-02`；sitemap 由 fs.readdirSync 自动发现 → 无需手动注册 ✅
+
+## 部署验证
+
+| 检查项 | 结果 |
+|--------|:--:|
+| 本地 `npm run build` | ✅ exit 0（themoundwiki 已切 geist 自托管字体，无 Google Fonts 阻断） |
+| `/guides/multiplayer-connection-fix-guide` HTTP 200 | ✅ 线上验证 |
+| sitemap.xml `<loc>` 计数 | ✅ 42（前 41 → 42，含新 guide） |
+| `/guides` 列表包含新 slug | ✅ |
+| `vercel inspect themoundwiki.vercel.app` | ✅ 指向最新生产部署 |
+
+## 判定
+
+✅ **PASS**（0 🔴 / 0 🟡 阻断）— 可提交上线。
+
+## 记录项
+
+1. Steam 官方补丁正文（Patch 1.03 完整公告文本）因 age-gate / ECONNREFUSED 无法直抓，官方声明仅引用 announcement 页面标题级事实；已用 honesty note 明确声明，未编造引语
+2. 新增 guide 正文 1708 词，超出 800-1500 SOP 目标——与站内既有指南（coop-strategy ~3000、performance ~1800）一致，内容密实无注水，保留
+3. themoundwiki 本轮与 spiritvalewiki 同批完成 geist 自托管字体切换（基建变更，见 QA Deep 记录）

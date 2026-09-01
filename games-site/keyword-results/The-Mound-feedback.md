@@ -144,3 +144,66 @@
 ---
 
 **交接物说明**：主 Agent 读本文件后，建议优先派发 **候选 1（武器耐久，P0，唯一"完全没有"缺口）**；候选 2/3 作为 P1/P2 补充。
+
+---
+
+## EXPAND-011 增量（2026-09-02）
+
+> 模式: quick | 任务: EXPAND-011-FEEDBACK | 站点: themoundwiki（PV 4916，33 篇攻略）
+> 选题: 痛点 5「联机/跨平台邀请 Bug + Multiplayer Connection Failed / Lobby Error」专项验证与扩充
+> 数据源: Steam 官方公告（补丁 1.02/1.03/首个热修/大补丁）+ 独立编辑来源（2UpSkill、tposegaming、gamerblurb、lagofast、thecpuguide、gamersocialclub、ingamenews）+ 服务器状态站用户报告（outagescope）+ 中文编辑来源（18183、duotegame/dvg.cn）
+
+### 1. 联机问题高频证据表（独立来源 ≥3 已满足，实际 11 个）
+
+| # | 来源（类型） | 链接 | 证据 / 频次 | 时间 |
+|---|--------------|------|-------------|------|
+| 1 | **官方公告 Patch 1.03**（Official） | [steamcommunity.com/app/2569760/allnews](https://steamcommunity.com/app/2569760/allnews/) | 官方原话："Crossplay is working fine, but we have identified an issue whereby you cannot invite your friends to play via Crossplay. We are currently working on a fix." 官方绕法=在线服务器列表找房 | 2026-07 中下旬 |
+| 2 | 2UpSkill 专文（Editorial） | [How to Fix Multiplayer Connection Failed / Lobby Error](https://2upskill.com/how-to-fix-the-mound-omen-of-cthulhu-multiplayer-connection-failed-lobby-error/) | 整篇专文专治 "Multiplayer Connection Failed" / "Lobby Connection Error" / "Fatal Error"；附症状→修法对照表；作者称基于 Steam/Reddit/社区论坛报告 | 2026-07-13 |
+| 3 | tposegaming 跨平台专文（Editorial） | [Is The Mound Crossplay? How Does It Work?](https://tposegaming.com/the-mound-omen-of-cthulhu-crossplay/) | 确认跨平台邀请菜单失效（PS5 玩家只见 PS 好友）；实例：Steam/Xbox 组耗时 35 分钟才互见、PC 玩家刷 10 次才看到房；无按名字搜房 | 2026-07 起 |
+| 4 | gamerblurb 跨平台加好友（Editorial） | [How to Crossplay & Join Friends](https://gamerblurb.com/articles/the-mound-omen-of-cthulhu-how-to-crossplay-join-friends) | Public 房 + 服务器列表反复刷新绕法；无玩家名/房名搜索 | 2026-07 |
+| 5 | outagescope 服务器状态（Server status + **10+ 条用户原始报告**） | [Check The Mound Server Status](https://outagescope.com/status/the-mound-omen-of-cthulhu) | 用户报告原话摘录："Connection errors in multiplayer on PS5 and PC"；"Can't matchmaking since new update of 18 august"；"Game acts like there's a network connection error and boots me from game. Happened twice in half an hour"；"At the end of a multiplayer mission... keeps kicking 1-2 people out of a 4 person game"；"stuck in a loading screen for 15 minutes"；"lost connection in game, match list cant load. Internet is fine" | 2026-08 持续（含 8-18 更新后） |
+| 6 | lagofast（Editorial，加速器方） | [Play with Friends & Fix Invite Issues](https://www.lagofast.com/en/blog/the-mound-omen-of-cthulhu-play-with-friends-matchmaking/) | "Play with Friends & Fix Invite Issues" 专文：P2P 架构 / NAT / VPN 干扰 / 同平台 Join 操作 | 2026-07 |
+| 7 | thecpuguide（Editorial） | [FIX: Lagging In Multiplayer on PC](https://www.thecpuguide.com/gaming/the-mound-omen-of-cthulhu-lagging-in-multiplayer-pc/) | 联机连接/卡顿修法（体现 PC 联机故障是独立选题） | 2026-07 |
+| 8 | gamersocialclub 大补丁汇总（Editorial） | [Receives First Major Patch](https://gamersocialclub.ca/2026/07/22/the-mound-omen-of-cthulhu-receives-first-major-patch/) | 大补丁（~7-22）新增"用密码找房加入 session"服务器设置；跨平台好友查找/大厅功能改进；性能优化 | 2026-07-22 |
+| 9 | ingamenews 首个 Steam 热修（Editorial） | [Receives First Steam Hotfix](https://ingamenews.com/pc-gaming/the-mound-omen-of-cthulhu-receives-first-steam-hotfix/) | 首个热修即含"crossplay lobby functionality improved" | 2026-07 |
+| 10 | 18183（Editorial，中文） | [联机失败解决方法](https://m.18183.com/gonglue/202607/55n024ep.html) | 中文区"联机失败"修法专文 | 2026-07 |
+| 11 | duotegame / dvg.cn 游侠对战平台（Editorial，中文） | [游侠对战平台联机教程](https://m.duotegame.com/mgl/223696.html) | 国区玩家用 LAN 平台绕开官方联机（从侧面印证官方联机失败是普发问题） | 2026-07 |
+
+**频次判定**：✅ **高频**。独立来源 = 官方（1）+ 编辑来源（7 个）+ 服务器状态站用户报告（10+ 条原始留言）= **11 个独立来源**，远超 3 条门槛。新增证据相比 EXPAND-006 主要补强：① outagescope 的 10+ 条用户原始措辞（尤其 **8-18 更新后匹配/匹配列表再次失效**的回归报告）；② 密码房/Server Finder 已从 beta 分支进入正式大补丁的时间线；③ 同平台加好友操作（Steam Overlay / Join Game）。
+
+**诚实局限（MUST NOT 编造）**：本次 quick 采集**未能直接抓取 Steam 社区讨论帖正文与 Steam 负面评测原文**（Steam 商店页有年龄门、steamcommunity reviews 接口 ECONNREFUSED、社区搜索仅返回公告而非具体帖子），因此**无具体帖子 URL、无具体发帖人 ID**可引用；发帖人措辞以上表 outagescope 用户报告原文 + 编辑来源转述为准。样本总量与来源多样性足以支撑"高频"结论，但攻略写作时如需引用玩家原话，须基于已抓取的 outagescope 报告与既有反馈文件中的 Steam 评测引用，不得凭印象补写。
+
+### 2. 官方修复进展（Server Finder / 密码房 / 跨平台邀请）
+
+| 阶段 | 内容 | 来源 |
+|------|------|------|
+| Patch 1.02（7 月下旬） | 格挡 + 进度恢复工具（非联机主题） | [Steam 公告](https://steamcommunity.com/app/2569760/allnews/) |
+| Beta 分支（7-17） | 密码型 Server Finder 上 Steam beta 测试；**注意：beta 分支 Steam-only，开启会关闭跨平台** | [tposegaming](https://tposegaming.com/the-mound-omen-of-cthulhu-crossplay/)、[Steam 公告 "Test next week's patch on a Beta Branch"](https://steamcommunity.com/app/2569760/allnews/) |
+| 首个热修 / 大补丁（~7-22） | 新增"用密码找房加入 session"的服务器设置；跨平台好友查找/大厅功能改进；性能优化 | [gamersocialclub](https://gamersocialclub.ca/2026/07/22/the-mound-omen-of-cthulhu-receives-first-major-patch/)、[ingamenews](https://ingamenews.com/pc-gaming/the-mound-omen-of-cthulhu-receives-first-steam-hotfix/) |
+| Patch 1.03（QoL 热修） | 官方确认跨平台邀请 bug 仍在修，绕法=在线服务器列表；另加观战离房、语音 3D 空间化、牛车库存多人互动 | [Steam 公告 Patch 1.03](https://steamcommunity.com/app/2569760/allnews/) |
+| 8-18 更新（社区报告，非官方确认） | 用户报告匹配/匹配列表再次失效、频繁被踢 → 联机稳定性仍有回归风险，攻略须含"更新后匹配坏了的自查" | [outagescope 用户报告](https://outagescope.com/status/the-mound-omen-of-cthulhu) |
+
+**结论**：官方已在正式补丁内置**密码房（password room）+ Server Finder**，但**跨平台直邀仍未官方宣布完全修复**（1.03 仍标注 "working on a fix"）；8-18 更新后仍有社区匹配回归报告。因此攻略的"现状陈述"应写为：*跨平台直邀仍不稳定，官方推荐绕法=Public 房 + 服务器列表/密码房*，而非宣称已彻底修复。
+
+### 3. 推荐攻略大纲：multiplayer-connection-fix-guide
+
+> **标题（问题导向）**：The Mound: Omen of Cthulhu Multiplayer Connection Fix — "Connection Failed" / Lobby Errors & How to Join Friends (Crossplay)
+> **字数目标**：800–1500 词 | **URL slug 建议**：`multiplayer-connection-fix-guide`
+
+| Section | 内容要点 | 素材来源 |
+|---------|----------|----------|
+| Intro + 现状框 | 联机是 4 人合作生命线；官方已确认跨平台邀请 bug（引用 1.03 原话）；跨平台直邀仍不稳定，绕法=服务器列表/密码房 | [官方 1.03](https://steamcommunity.com/app/2569760/allnews/)、[tposegaming](https://tposegaming.com/the-mound-omen-of-cthulhu-crossplay/) |
+| 常见错误速查表 | "Multiplayer Connection Failed"（网络握手失败/VPN）、"Lobby Connection Error"（房态/防火墙）、"Failed to join lobby"（版本不一致）、"Unable to join session"（房满/隐私）、"Fatal Error 进房闪退"（混合显卡）各自成因 | [2UpSkill 诊断表](https://2upskill.com/how-to-fix-the-mound-omen-of-cthulhu-multiplayer-connection-failed-lobby-error/)、[lagofast](https://www.lagofast.com/en/blog/the-mound-omen-of-cthulhu-play-with-friends-matchmaking/) |
+| 修复第 1 步：关 VPN/WARP/代理 | 最高成功率修法；完全退出 VPN/Cloudflare WARP/Hamachi，任务管理器清后台，重启 Steam | [2UpSkill](https://2upskill.com/how-to-fix-the-mound-omen-of-cthulhu-multiplayer-connection-failed-lobby-error/) |
+| 修复第 2 步：防火墙 + 验证文件 + DNS/Winsock | Windows Defender 放行（Private+Public）；Steam 验证完整性；`ipconfig /flushdns` + `netsh winsock reset` | [2UpSkill](https://2upskill.com/how-to-fix-the-mound-omen-of-cthulhu-multiplayer-connection-failed-lobby-error/) |
+| 修复第 3 步：Public 房 + 服务器列表刷新（跨平台核心绕法） | 主机开 Public（非仅好友）房→先建房再让队友搜→列表反复刷新（10+ 次 / 最长 35 分钟）→无按名搜房；换房主可破 | [官方 1.03 绕法](https://steamcommunity.com/app/2569760/allnews/)、[tposegaming](https://tposegaming.com/the-mound-omen-of-cthulhu-crossplay/)、[gamerblurb](https://gamerblurb.com/articles/the-mound-omen-of-cthulhu-how-to-crossplay-join-friends) |
+| 修复第 4 步：密码房 / Server Finder 用法 | 现版本已内置密码房设置：主机设密码→好友在服务器列表用密码加入；beta 分支=Steam-only 且关跨平台，勿用于混合平台车队 | [gamersocialclub](https://gamersocialclub.ca/2026/07/22/the-mound-omen-of-cthulhu-receives-first-major-patch/)、[ingamenews](https://ingamenews.com/pc-gaming/the-mound-omen-of-cthulhu-receives-first-steam-hotfix/) |
+| 同平台（Steam↔Steam）加好友 | Steam 悬浮窗 (Shift+Tab) 聊天里 Join Lobby；右键好友 Join Game；检查 Steam Overlay 已开启 | [lagofast](https://www.lagofast.com/en/blog/the-mound-omen-of-cthulhu-play-with-friends-matchmaking/)、[gamerblurb](https://gamerblurb.com/articles/the-mound-omen-of-cthulhu-how-to-crossplay-join-friends) |
+| 进阶排查 | Change Character 刷新房态；混合显卡强制独显；NAT/P2P 房主带宽；版本一致性；国区 LAN 平台备选（游侠对战平台） | [2UpSkill](https://2upskill.com/how-to-fix-the-mound-omen-of-cthulhu-multiplayer-connection-failed-lobby-error/)、[duotegame](https://m.duotegame.com/mgl/223696.html) |
+| 官方修复进展时间线 + FAQ | 1.02→beta Server Finder→大补丁密码房→1.03→8-18 更新后社区匹配回归报告；FAQ："更新后匹配列表加载不出怎么办"、"为何刷不出好友的房" | [gamersocialclub](https://gamersocialclub.ca/2026/07/22/the-mound-omen-of-cthulhu-receives-first-major-patch/)、[outagescope](https://outagescope.com/status/the-mound-omen-of-cthulhu) |
+
+### 4. 结论与交接
+
+✅ **建议写 `multiplayer-connection-fix-guide`**（P1，独立成篇）。证据强度高于 EXPAND-006 判断：官方公开承认 + 7 个独立编辑来源专文 + 服务器状态站 10+ 条用户报告 = 高频验证充分，且当前 33 篇攻略中**无任何独立联机故障排查文**（仅 `coop-strategy-guide` 3 行清单 + `faq-content`/`extraction-guide`/`price-platforms`/`updates-patch-notes` 顺带提及）。
+- 已确认 `weapon-durability-repair-guide.md` 存在（痛点 3 已覆盖），本选题不与其重复。
+- 交接给主 Agent/建站协调员：按上表大纲写正文（800–1500 词），素材来源均已标注 Official/Editorial/Community；Steam 社区帖子原文需在写正文时基于已抓取内容引用，不得虚构。

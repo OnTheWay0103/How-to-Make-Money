@@ -1,6 +1,24 @@
 {
  "builds": [
   {
+   "game": "The Mound: Omen of Cthulhu",
+   "date": "2026-09-02",
+   "genre": "1-4 Player Co-op Lovecraftian Extraction Horror (ACE Team / NACON)",
+   "template": "themoundwiki existing (no template change)",
+   "mode": "expand-feedback (EXPAND-011, daily rotation #5-of-5, feedback-driven)",
+   "guidesAdded": 1,
+   "guides": 34,
+   "deployed": true,
+   "pipeline": "EXPAND-011 (feedback analyst quick 9/2 → multiplayer-connection-fix-guide → QA quick → deploy 9/2 → verified live HTTP 200)",
+   "qa": "QA-QUICK-013 9/2 — PASS (0 🔴 / 0 🟡 blocking). 11 independent sources verified the multiplayer-connection gap (official Patch 1.03 + 7 editorial + outagescope user reports). Related slugs valid; 6-char lobby code & crossplay status consistent with coop-strategy-guide/faq; no cross-site contamination; honest-sourcing note included (Steam post bodies not directly capturable).",
+   "issues": [
+    "Crossplay direct invites confirmed broken by devs (Patch 1.03 'working on a fix') — guide documents Public-lobby/server-list workaround + password rooms, does NOT claim it's fixed",
+    "Community reports of matchmaking regression after Aug-18 update (outagescope) — guide includes self-check steps",
+    "Steam community post bodies / review quotes not directly capturable (age gate + ECONNREFUSED) — all Community claims sourced from outagescope user reports + editorial articles, no invented quotes"
+   ],
+   "lessons": "EXPAND-011 (9/2, themoundwiki 34 guides): +1 multiplayer-connection-fix-guide (problem-oriented: 'Connection Failed'/lobby errors + crossplay join workarounds). Feedback analyst verified the gap is real (33 guides had NO standalone connection troubleshooting — coop-strategy-guide only 3-line checklist). High-frequency proof: 11 independent sources. Structure: error quick-reference table → 4 fix steps (VPN/WARP → firewall+verify+DNS/Winsock → Public lobby+server-list refresh → password rooms/Server Finder) → same-platform Steam joins → advanced (NAT/hybrid-GPU/LAN-platform) → official fix timeline → FAQ. Honesty: official quote only where official (Patch 1.03); Community claims tied to outagescope/editorial reports; no invented player quotes. Build exit 0; deploy verified guide HTTP 200 + sitemap 42 locs + guides listing includes new slug. Font: themoundwiki switched to geist package (self-hosted) to unblock builds on GFW-blocked machine — same fix as spiritvalewiki."
+  },
+  {
    "game": "BOMBANANA!",
    "date": "2026-09-02",
    "genre": "3-Player Co-op Bomb-Defusal Party Game (Lefto Studio / TARK)",

@@ -23,6 +23,7 @@ The Mound: Omen of Cthulhu launched on July 15, 2026 on Steam, PS5, and Xbox Ser
 | [Beginner Guide](/guides/beginner-guide) | First-time players | Starter |
 | [Weapons Guide](/guides/weapons-guide) | Loadout planning | Starter |
 | [Co-op Strategy Guide](/guides/coop-strategy-guide) | Team play | Starter |
+| [Multiplayer Connection Fix](/guides/multiplayer-connection-fix-guide) | Fix "Connection Failed" & join friends | Fixes |
 | [Extraction Guide](/guides/extraction-guide) | Surviving expeditions | Intermediate |
 | [Sanity Guide](/guides/sanity-guide) | Madness system | Intermediate |
 | [Enemy Bestiary](/guides/enemy-bestiary) | Combat tactics | Intermediate |
