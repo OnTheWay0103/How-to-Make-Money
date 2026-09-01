@@ -64,11 +64,11 @@ export function videoGameSchema(): Record<string, unknown> {
     genre: ['MMORPG', 'RPG', 'Fantasy', 'Multiplayer', 'Free-to-Play'],
     author: {
       '@type': 'Organization',
-      name: 'SpiritVale Studio',
+      name: 'Baikun Interactive',
     },
     publisher: {
       '@type': 'Organization',
-      name: 'SpiritVale Studio',
+      name: 'Baikun Interactive',
     },
     offers: {
       '@type': 'Offer',
