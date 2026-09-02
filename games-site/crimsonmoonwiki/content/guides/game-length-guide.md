@@ -28,7 +28,7 @@ sources:
 
 ## The Short Answer
 
-**Official playtime estimates for Crimson Moon had not been published as of August 28, 2026 [Unconfirmed].** The game launches September 1, 2026, and "how long to beat" data will only be reliable once players finish it — typically a week or two after launch.
+**Official playtime estimates for Crimson Moon had not been published as of the September 1 launch [Unconfirmed].** "How long to beat" data is only reliable once players finish it — typically a week or two after release.
 
 This page explains the **structure that determines playtime** so you can set expectations, and will be updated with real hour counts as soon as the community reports them.
 
@@ -56,7 +56,7 @@ This is the "main story" track. Its hour count depends on:
 
 ## Reasonable Expectations (Editorial)
 
-Without official numbers, here is how to think about it before launch:
+Without official numbers yet, here is how to think about Crimson Moon's length:
 
 - **A focused main progression run** is likely in the range you'd expect from a $19.99 AA soulslike — the Wards are a finite campaign, not an endless open world.
 - **Total time with Incursions** is much higher — the game is explicitly built around repeatable runs, so "how long to beat" and "how long you'll play" are very different numbers.

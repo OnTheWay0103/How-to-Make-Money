@@ -12,7 +12,7 @@ related: ["beginner-guide", "coop-multiplayer-guide", "builds-guide", "incursion
 
 **Everything you need to fight through Gildenarch in the ProbablyMonsters soulslike action RPG.**
 
-Crimson Moon launches on **September 1, 2026** on PC (Steam + Epic Games Store), PS5, and Xbox Series X|S for **$19.99** (Deluxe **$29.99**). This wiki covers the core systems, co-op, builds, and boss structure confirmed from official materials and hands-on previews. Because the game has not launched yet, anything not yet officially detailed is clearly marked **[Unconfirmed]**.
+Crimson Moon launches on **September 1, 2026** on PC (Steam + Epic Games Store), PS5, and Xbox Series X|S for **$19.99** (Deluxe **$29.99**). This wiki covers the core systems, co-op, builds, and boss structure confirmed from official materials and hands-on previews. The game is now available; anything not yet officially detailed is clearly marked **[Unconfirmed]**.
 
 ---
 

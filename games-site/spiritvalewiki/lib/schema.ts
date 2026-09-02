@@ -48,7 +48,7 @@ export function websiteSchema(): Record<string, unknown> {
 /**
  * VideoGame schema for the homepage.
  *
- * Describes Echoes of Aincrad as a software application / video game so
+ * Describes the game as a software application / video game so
  * rich results can display the Steam link, genre, platform, etc.
  */
 export function videoGameSchema(): Record<string, unknown> {
@@ -92,7 +92,7 @@ export function videoGameSchema(): Record<string, unknown> {
  *
  * @example
  *   faqPageSchema([
- *     { question: 'Is Echoes of Aincrad free?', answer: 'No, it is a paid game on Steam.' },
+ *     { question: 'Is the game free?', answer: 'No, it is a paid game on Steam.' },
  *     { question: 'Can I play solo?',   answer: 'Yes — the game scales for 1–4 players.' },
  *   ])
  */

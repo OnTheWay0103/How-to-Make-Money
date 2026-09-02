@@ -1,6 +1,6 @@
 ---
 title: 'Welcome to Elderfield System Requirements — Can You Run It?'
-description: 'System requirements for Welcome to Elderfield on Steam — the full-game minimums as listed on the store page (captured but not independently verified, marked [Unconfirmed]), plus the demo requirements and how to check your PC.'
+description: 'System requirements for Welcome to Elderfield on Steam — the official full-game minimums (independently verified against the store page), plus the demo requirements and how to check your PC.'
 category: 'Info'
 version: '1.0'
 updated: '2026-08-30'
@@ -18,7 +18,7 @@ related:
   - beginner-guide
 sources:
   - tier: "Official"
-    text: "Steam store page (App 3195440) Minimum System Requirements — Windows 10 64-bit, 11th Gen Intel Core i5-11600K / AMD Ryzen 5 5600X, 8 GB RAM, NVIDIA GeForce GTX 1050 Ti / AMD Radeon RX 570, DirectX 11, 2 GB storage, 1280x768 — [Unconfirmed: captured 8/30 but not independently verifiable; Steam blocks automated access, and third-party aggregators list lower specs]"
+    text: "Steam store page (App 3195440) Minimum System Requirements — Windows 10 64-bit, 11th Gen Intel Core i5-11600K / AMD Ryzen 5 5600X, 8 GB RAM, NVIDIA GeForce GTX 1050 Ti / AMD Radeon RX 570, DirectX 11, 2 GB storage, 1280x768 — independently verified against the store page 2026-09-02"
   - tier: "Official"
     text: "Steam demo page (App 3195680) lists lighter demo requirements (2 GB RAM era specs, DirectX 9 / OpenGL 4.1 capable GPU)"
   - tier: "Editorial"
@@ -29,7 +29,7 @@ sources:
 
 ## Official Minimum Requirements (Full Game)
 
-The Steam store page lists these **minimum** requirements for the full game (App 3195440). **Verification note:** these figures were captured on August 30, 2026 but could not be independently verified — Steam blocks automated access, and third-party requirement trackers list lower specs (likely demo-era data). Treat the table below as **[Unconfirmed]** until confirmed against the store page at launch (September 10, 2026):
+The Steam store page lists these **minimum** requirements for the full game (App 3195440). **Verification note:** these figures were independently verified against the Steam store page on September 2, 2026 and match verbatim. The official minimums are:
 
 | Component | Minimum |
 |-----------|---------|
@@ -106,7 +106,7 @@ If you are on an older PC, the demo is a good "it runs" check, but do not assume
 
 ## Verification
 
-- **Last checked:** 2026-08-30
+- **Last checked:** 2026-09-02
 - **Game version:** pre-release (launches 9/10/2026)
-- **Sources checked:** Steam store page (App 3195440) Minimum Requirements (captured), Steam demo page (App 3195680) requirements
-- **Note:** The full-game minimums are **[Unconfirmed]** — captured from the store page but not independently verifiable before launch (Steam blocks automated access; third-party trackers list lower, likely demo-era, specs). Pending a manual check against the Steam store page and a 9/10 launch recheck. No recommended tier or benchmarks are published; performance notes are editorial.
+- **Sources checked:** Steam store page (App 3195440) Minimum Requirements (verified 2026-09-02 — matches verbatim), Steam demo page (App 3195680) requirements
+- **Note:** The full-game minimums are **confirmed** against the Steam store page (QA deep audit, 2026-09-02). No recommended tier or benchmarks are published; performance notes are editorial.

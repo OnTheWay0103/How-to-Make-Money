@@ -45,7 +45,7 @@ Gildenarch is split into **three Wards** (districts). Each Ward is a major chunk
 
 After all three Ward bosses fall, the **final encounter — the Dead Gods** — unlocks. See the [Dead Gods & World Bosses Guide](/guides/dead-gods-boss-guide) for the boss ladder.
 
-**Ward names and zone-by-zone details were not published as of August 28, 2026 [Unconfirmed].** This guide documents the confirmed framework; the specifics will be filled in after launch.
+**Ward names and zone-by-zone details were not published before launch [Unconfirmed].** This guide documents the confirmed framework; the specifics will be filled in as players map Gildenarch post-launch.
 
 ## How Progression Works
 

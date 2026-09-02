@@ -1,9 +1,9 @@
 ---
 title: 'Crimson Moon Release Date, Price & Editions — How to Buy'
-description: 'When does Crimson Moon come out, how much does it cost, and which platforms is it on? All editions, prices, pre-order and Game Pass status for the ProbablyMonsters soulslike launching September 1, 2026.'
+description: 'How much does Crimson Moon cost and where can you buy it? Editions and prices, platform availability, and Game Pass status for the ProbablyMonsters soulslike released September 1, 2026.'
 category: 'Info'
 version: '1.0'
-updated: '2026-08-28'
+updated: '2026-09-02'
 keywords:
   - crimson moon release date
   - crimson moon price
@@ -31,7 +31,7 @@ sources:
 
 ## When Does Crimson Moon Come Out?
 
-**Crimson Moon releases on September 1, 2026.** The date was confirmed on August 4, 2026 alongside the release-date trailer, after the game was first revealed at PlayStation's State of Play on February 12, 2026 and made playable at Summer Game Fest Play Days in June.
+**Crimson Moon released on September 1, 2026** and is available now on PC, PS5, and Xbox Series X|S. The date was confirmed on August 4, 2026 alongside the release-date trailer, after the game was first revealed at PlayStation's State of Play on February 12, 2026 and made playable at Summer Game Fest Play Days in June.
 
 ## How Much Does Crimson Moon Cost?
 
@@ -57,20 +57,20 @@ There is **no announced Nintendo Switch version** as of August 28, 2026.
 
 ### Is There a PS5 Physical Copy?
 
-A physical PS5 release had not been fully detailed as of August 28, 2026 [Unconfirmed]. Check the official PlayStation Store page for the latest pre-order and physical-copy information.
+A physical PS5 release has not been announced [Unconfirmed] — the game is available digitally via the PlayStation Store. Check the official store page for any later physical-copy announcement.
 
-## Can You Pre-Order Crimson Moon?
+## How to Buy Crimson Moon Now
 
-Pre-order availability varies by platform. On Steam, the store page supports wishlisting (App ID 4317690), which is the safest way to get a launch notification and avoid the same-name SERP confusion when searching. PS5 and Xbox pre-order status should be confirmed on the respective store pages [Unconfirmed].
+Crimson Moon is **available now** on all announced platforms. On Steam, the store page is [App ID 4317690](https://store.steampowered.com/app/4317690/Crimson_Moon/) — use the App ID to avoid the same-name SERP confusion (several unrelated games share the "Crimson Moon" name). Standard ($19.99) and Deluxe ($29.99) are both live; Standard buyers can upgrade to Deluxe later for $10.
 
 ## Is Crimson Moon on Game Pass or PlayStation Plus?
 
-As of August 28, 2026, **no Game Pass or PlayStation Plus day-one inclusion has been announced** for Crimson Moon. It is a paid title ($19.99). This guide will be updated if that changes.
+As of September 2, 2026, **no Game Pass or PlayStation Plus inclusion has been announced** for Crimson Moon. It is a paid title ($19.99). This guide will be updated if that changes.
 
 ## Where to Buy Crimson Moon
 
 - **Steam**: [store.steampowered.com/app/4317690/Crimson_Moon/](https://store.steampowered.com/app/4317690/Crimson_Moon/)
-- **Epic Games Store**: Search "Crimson Moon" — releasing September 1, 2026
+- **Epic Games Store**: Search "Crimson Moon" — now available
 - **PlayStation Store**: Available on PS5 at launch
 - **Xbox Store**: Available on Xbox Series X|S at launch
 
@@ -88,15 +88,15 @@ The Steam App ID is **4317690**. If you see other "Crimson Moon" results on Stea
 - A $19.99 entry price with planned post-launch content
 
 **Maybe wait, if you:**
-- Only play games with fully verified reviews at launch (Crimson Moon has no reviews yet — it is unreleased)
-- Expect crossplay or local co-op to be confirmed before you commit (those were still [Unconfirmed] as of August 28, 2026)
+- Prefer to buy only after you have read verified reviews (review embargoes lifted September 2, 2026 — scores are now appearing)
+- Need **crossplay** confirmed before you commit (cross-platform play and local co-op are still [Unconfirmed]; online 2-player co-op is confirmed)
 - Prefer a longer single-player campaign without repeated runs
 
 ---
 
 ## Verification
 
-- **Last checked:** 2026-08-28
-- **Game version:** pre-release (launches 9/1/2026)
-- **Sources checked:** Official press release (BusinessWire), Steam store page (App 4317690), IGN, GamesBeat, OpenCritic
-- **Note:** Release date, pricing, and platforms are confirmed by the official announcement. Pre-order details, physical copies, and Game Pass status are marked [Unconfirmed] where not yet official.
+- **Last checked:** 2026-09-02
+- **Game version:** released 9/1/2026
+- **Sources checked:** Official press release (BusinessWire), Steam store page (App 4317690), Epic Games Store, Wccftech / TechTimes / 2UpSkill
+- **Note:** Release date, pricing, and platforms are confirmed by the official announcement. Crossplay, local co-op, and a physical PS5 release remain [Unconfirmed] where not yet official.

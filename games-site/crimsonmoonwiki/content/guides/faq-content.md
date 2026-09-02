@@ -23,7 +23,7 @@ sources:
   - tier: "Community"
     text: "Hands-on previews from IGN, GamesBeat, OpenCritic, Noisy Pixel"
   - tier: "Editorial"
-    text: "Answers marked [Unconfirmed] will be verified after launch"
+    text: "Answers marked [Unconfirmed] reflect the current state; verified where possible after the September 1 release"
 ---
 
 # Crimson Moon FAQ — Release, Co-op, Builds & Systems
@@ -90,7 +90,7 @@ The **final boss encounter**, unlocked after defeating the world boss in each of
 ## Practical Questions
 
 ### What are the PC system requirements?
-**Not published as of August 28, 2026 [Unconfirmed].** PS5 Pro PSSR is confirmed; PC specs will be added to the Steam page. ([System Requirements Guide](/guides/system-requirements))
+**Published at launch** — see the [System Requirements Guide](/guides/system-requirements) for the full minimum/recommended table (Windows 11 64-bit; 16 GB min / 32 GB rec; GTX 1070 / RTX 3070-class GPUs).
 
 ### How long is Crimson Moon?
 **No official estimate [Unconfirmed].** Three Wards + the Dead Gods campaign, plus repeatable Incursions. ([How Long to Beat](/guides/game-length-guide))

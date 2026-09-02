@@ -3,7 +3,7 @@ title: 'Welcome to Elderfield FAQ — Release, Demo, Platforms & Gameplay Answer
 description: 'Quick answers to the most-asked Welcome to Elderfield questions — release date, price, demo, platforms, difficulty modes, romance status, combat, and system requirements, with sources and [Unconfirmed] markers where needed.'
 category: 'FAQ'
 version: '1.0'
-updated: '2026-08-30'
+updated: '2026-09-02'
 keywords:
   - welcome to elderfield faq
   - welcome to elderfield questions
@@ -43,7 +43,7 @@ The official price **has not been announced** as of August 30, 2026 [Unconfirmed
 
 ## Is there a demo?
 
-Yes — free on Steam (App ID **3195680**), first released **October 7, 2024**. It is a vertical slice of roughly **1/6** of the planned game: one town area, the farm and ranch, the first dungeon (a local mall), the sewer/lake area, and several smaller locations. It holds ~96% positive across ~550 reviews.
+Yes — free on Steam (App ID **3195680**), first released **October 7, 2024**. It is a vertical slice of roughly **1/6** of the planned game: one town area, the farm and ranch, the first dungeon (a local mall), the sewer/lake area, and several smaller locations. It holds ~95% positive across ~600 reviews.
 
 ## What platforms is it on?
 

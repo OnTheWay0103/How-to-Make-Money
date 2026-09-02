@@ -1,5 +1,5 @@
 /**
- * Next.js Metadata API helpers for Witchspire Wiki.
+ * Next.js Metadata API helpers for this wiki.
  *
  * Provides a single `generateGuideMetadata()` factory so every
  * guide page produces consistent <title>, meta description, OG

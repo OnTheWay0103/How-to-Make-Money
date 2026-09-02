@@ -86,7 +86,7 @@ The [Three Wards Guide](/guides/wards-gildenarch-guide) covers the main progress
 - **Modifiers and difficulty options** inside runs [Unconfirmed]
 - **Reward quality scaling** with difficulty or mission tier [Unconfirmed]
 
-The "How Runs Work" explainer confirmed the core structure (15–45 min, dynamic, run-based). The specific mission catalogue and modifiers will be documented after launch.
+The "How Runs Work" explainer confirmed the core structure (15–45 min, dynamic, run-based). The specific mission catalogue and modifiers will be documented as the community maps them post-launch.
 
 ---
 

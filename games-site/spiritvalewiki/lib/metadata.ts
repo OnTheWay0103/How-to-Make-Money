@@ -21,7 +21,7 @@ import { SITE_CONFIG } from './seo-config';
 /**
  * Catch‑all metadata applied to every page unless a page overrides it.
  *
- * - title uses a template so child pages produce `Page Name · Aincrad Wiki`
+ * - title uses a template so child pages produce `Page Name · SpiritVale Wiki`
  * - robots defaults to index,follow
  * - Open Graph and Twitter card are configured with the site logo
  */

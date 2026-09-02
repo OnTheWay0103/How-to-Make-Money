@@ -92,7 +92,7 @@ export function videoGameSchema(): Record<string, unknown> {
  *
  * @example
  *   faqPageSchema([
- *     { question: 'Is Echoes of Aincrad free?', answer: 'No, it is a paid game on Steam.' },
+ *     { question: 'Is the game free?', answer: 'No, it is a paid game on Steam.' },
  *     { question: 'Can I play solo?',   answer: 'Yes — the game scales for 1–4 players.' },
  *   ])
  */

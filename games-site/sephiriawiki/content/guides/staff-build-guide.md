@@ -10,7 +10,7 @@ related: ["weapons-guide", "mystic-pot-guide", "hard-mode-guide", "chapter-6-fin
 
 # Staff Build Guide — Element Synergy & Tablets
 
-**Sephiria 1.0 / Updated: August 11, 2026**
+**Sephiria 1.0 / Updated: August 21, 2026**
 
 The Staff is the **element-synergy weapon** of Sephiria — and in the 1.0 meta it sits at the top alongside Sword & Shield. Where other weapons win on raw stats, the Staff wins on **stacking**: the right element, the right tablets, and the right artifacts give it a high skill ceiling. The flip side is that the Staff asks more of your build than any other weapon — if your tablets and artifacts don't match its element, it underperforms.
 
