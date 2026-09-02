@@ -2,7 +2,7 @@
 title: 'Skill Tree & Spire Guide — How the World-Built Skill Tree Works in Ardent Wilds'
 description: 'Complete guide to the world-built skill tree in Ardent Wilds. How restoring ancient Spires and Forgotten Facilities unlocks passive bonuses and fast travel, restoration strategy, and the confirmed endgame goal.'
 category: 'Guides'
-version: '1.0'
+version: 'Demo/Pre-release'
 updated: '2026-08-01'
 keywords: ['ardent wilds skill tree', 'ardent wilds spire locations', 'ardent wilds ancient spires', 'ardent wilds skills', 'ardent wilds fast travel']
 related:

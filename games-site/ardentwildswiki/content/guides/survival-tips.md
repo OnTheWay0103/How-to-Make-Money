@@ -2,7 +2,7 @@
 title: 'Survival Tips & Tricks — Advanced Ardent Wilds Strategies'
 description: 'Advanced survival tips and tricks for Ardent Wilds. Expert strategies for resource efficiency, base defense, combat optimization, exploration shortcuts, and honest notes on rumored mechanics.'
 category: 'Guides'
-version: '1.0'
+version: 'Demo/Pre-release'
 updated: '2026-08-01'
 keywords: ['ardent wilds tips', 'ardent wilds tricks', 'ardent wilds advanced guide', 'ardent wilds strategies', 'ardent wilds hidden mechanics']
 related:

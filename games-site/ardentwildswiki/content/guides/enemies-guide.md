@@ -2,7 +2,7 @@
 title: 'Enemies & Eldran Guide — Every Threat in Ardent Wilds'
 description: 'Complete enemies guide for Ardent Wilds. What the Eldran hivemind is, corrupted creatures, tentacly invaders, elite enemies, boss encounters like Zyrrhak, and how to fight every threat the demo throws at you.'
 category: 'Guides'
-version: '1.0'
+version: 'Demo/Pre-release'
 updated: '2026-08-04'
 keywords: ['ardent wilds enemies', 'ardent wilds eldran', 'ardent wilds corrupted creatures', 'ardent wilds monsters', 'ardent wilds how to fight', 'ardent wilds zyrrhak']
 related:

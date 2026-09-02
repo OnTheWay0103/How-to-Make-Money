@@ -2,7 +2,7 @@
 title: 'Modding Guide — Lua API & Community Mods in Ardent Wilds'
 description: 'Complete modding guide for Ardent Wilds. Confirmed facts about the Lua API, what can be modded, how to install community mods, and scripting basics for a game that ships all its content scripts with the game.'
 category: 'Guides'
-version: '1.0'
+version: 'Demo/Pre-release'
 updated: '2026-08-01'
 keywords: ['ardent wilds modding', 'ardent wilds mods', 'ardent wilds lua api', 'ardent wilds custom content', 'ardent wilds steam workshop']
 related:

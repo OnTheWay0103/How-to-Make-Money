@@ -2,7 +2,7 @@
 title: "Ardent Wilds Advanced Guide — Late-Game Survival & Base Defense"
 description: "Advanced guide for Ardent Wilds. Learn late-game survival tactics, defending your base against the Eldran, base layouts, Ancient Spire restoration strategy, endgame crafting, and co-op role strategy."
 category: "Guides"
-version: "1.0"
+version: "Demo/Pre-release"
 updated: "2026-08-01"
 keywords: ["Ardent Wilds advanced guide", "Ardent Wilds Eldran raids", "Ardent Wilds base defense", "Ardent Wilds Ancient Spires", "Ardent Wilds late game", "Ardent Wilds co-op roles"]
 related:

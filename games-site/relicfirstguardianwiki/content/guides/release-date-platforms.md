@@ -63,20 +63,21 @@ There is **no confirmed free-to-play model** and no confirmed subscription offer
 
 ### PC (Steam) — System Requirements (as listed on the official Steam store page)
 
-**Minimum (1080p / low / 30 FPS):**
-- OS: Windows 10 64-bit
-- CPU: Intel Core i5-8400 / AMD Ryzen 5 2600
-- RAM: 12 GB
-- GPU: NVIDIA GTX 1060 (6 GB) / AMD RX 580 (8 GB)
-- Storage: 50 GB SSD (SSD required)
-- Supports DLSS / FSR 2
-
-**Recommended (1080p / high / 60 FPS):**
-- OS: Windows 11 64-bit
-- CPU: Intel Core i7-9700K / AMD Ryzen 7 3700X
+**Minimum (per the official Steam store page):**
+- OS: Not listed on the store page [Unconfirmed]
+- CPU: Intel Core i5-11400 / AMD Ryzen 7 4800H
 - RAM: 16 GB
-- GPU: NVIDIA RTX 2070 (8 GB) / AMD RX 5700 XT (8 GB)
-- Storage: 50 GB SSD (plus ~10 GB for updates)
+- GPU: Not listed on the store page [Unconfirmed]
+- Storage: Not listed on the store page [Unconfirmed] (third-party trackers report ~28.5 GB [Community])
+- Supports 21:9 ultrawide
+
+**Recommended (per the official Steam store page):**
+- CPU: Intel Core i5-12650H / AMD Ryzen 7 5800
+- RAM: 16 GB
+- GPU / Storage / OS: Not listed on the store page [Unconfirmed]
+- Supports 21:9 ultrawide
+
+**Honest note:** The official Steam store page only lists CPU, RAM, and ultrawide support. Any GPU or storage figure — including the ~28.5 GB install size reported by third-party trackers — is not official and should be treated as [Community]/[Unconfirmed] until published.
 
 ### PlayStation 5
 A native PS5 release. **Specific performance modes (resolution/60 FPS targets) are unconfirmed** — guides claiming "1440p/60 Performance mode" or "ray-traced Quality mode" are speculative.

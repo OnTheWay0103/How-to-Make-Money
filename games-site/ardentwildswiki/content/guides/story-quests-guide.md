@@ -2,7 +2,7 @@
 title: 'Story & Quests Guide — How the Ardent Wilds Campaign Works'
 description: 'Ardent Wilds story and quests guide — the confirmed campaign structure, the Eldran invasion, restoring the four ancient spires, the Zyrrhak fight, and what the progression path looks like in pre-release.'
 category: 'Guides'
-version: '1.0'
+version: 'Demo/Pre-release'
 updated: '2026-08-05'
 keywords: ['ardent wilds story', 'ardent wilds quests', 'ardent wilds walkthrough', 'ardent wilds campaign', 'ardent wilds what to do next', 'ardent wilds zyrrhak', 'ardent wilds spires']
 related:

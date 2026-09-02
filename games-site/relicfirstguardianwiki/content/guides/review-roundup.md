@@ -45,7 +45,7 @@ The core innovation is confirmed across reviews: **attacks cost zero stamina** (
 **70-80 "Brutal" bosses**, each with a tragic backstory. Even negative reviews acknowledge the roster concept — "some interesting boss fights" (Navigames) — and the parry-gate/dodge-gate design split (reviews describe some fights requiring long parry chains to break guard) gives the fights a distinct identity.
 
 ### 3. The Atmosphere
-GamingBolt and others praise the **Korean-folklore-inspired dark fantasy world**: the ruined land of Arsiltus, fragmented storytelling through letters and murals, and a melancholic tone. For atmosphere-first players, this lands.
+GamingBolt and others praise the **Korean-folklore-inspired dark fantasy world**: the ruined land of Arsilthus, fragmented storytelling through letters and murals, and a melancholic tone. For atmosphere-first players, this lands.
 
 ### 4. The Unique-Gear Progression Idea
 Every weapon and armor piece is unique — no duplicate drops — and some carry Drawbacks. Reviewers found the hand-placed loot concept refreshing, even where execution faltered.

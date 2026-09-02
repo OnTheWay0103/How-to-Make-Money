@@ -2,7 +2,7 @@
 title: 'Multiplayer & Co-op Guide — How to Play Ardent Wilds With Friends'
 description: 'Complete co-op and multiplayer guide for Ardent Wilds. Confirmed facts about online and LAN co-op for up to 6 players, team composition, shared base strategies, communication tips, and survival tactics.'
 category: 'Guides'
-version: '1.0'
+version: 'Demo/Pre-release'
 updated: '2026-08-01'
 keywords: ['ardent wilds co-op', 'ardent wilds multiplayer', 'ardent wilds play with friends', 'ardent wilds LAN', 'ardent wilds co op guide']
 related:

@@ -4,7 +4,7 @@ import JsonLd from '@/components/JsonLd';
 import GuideCard from '@/components/GuideCard';
 
 const FEATURED_GUIDES = [
-  { title: 'Beginner Guide — Getting Started', description: 'New to The Relic: First Guardian? Learn the basics — choose your first weapon, understand the relic system, and survive your first hours in Arsiltus.', slug: 'beginner-guide', category: 'Beginner', updated: '2026-08-11' },
+  { title: 'Beginner Guide — Getting Started', description: 'New to The Relic: First Guardian? Learn the basics — choose your first weapon, understand the relic system, and survive your first hours in Arsilthus.', slug: 'beginner-guide', category: 'Beginner', updated: '2026-08-11' },
   { title: 'Weapons Guide — All 5 Families', description: 'Complete breakdown of Sword & Shield, Longsword, Dagger, Two-Handed, and Battle Staff — and the 12 skill trees (two per family). Find your playstyle.', slug: 'weapons-guide', category: 'Weapons', updated: '2026-08-11' },
   { title: 'Best Builds — Top Builds for Every Weapon', description: 'Optimal relic combinations, artifact pairings, and skill tree synergies for maximum damage output across all 5 weapon families.', slug: 'builds-guide', category: 'Builds', updated: '2026-08-11' },
   { title: 'Boss Strategies — How to Fight the Brutals', description: 'The 70-80 Brutal boss fights, the parry-gate vs dodge-gate split, and the confirmed general strategies that win fights.', slug: 'boss-strategies', category: 'Bosses', updated: '2026-08-11' },
@@ -13,7 +13,7 @@ const FEATURED_GUIDES = [
 ];
 
 const FAQ_ITEMS = [
-  { question: 'What is The Relic: First Guardian?', answer: 'The Relic: First Guardian is a Korean dark-fantasy soulslike action RPG developed by Project Cloud Games and published by Perp Games. Set in the ruined world of Arsiltus, you play as the last Guardian tasked with recovering shattered relic fragments and sealing the encroaching Void. It released July 31, 2026 on PC (Steam) and PS5 for around $49.99.' },
+  { question: 'What is The Relic: First Guardian?', answer: 'The Relic: First Guardian is a Korean dark-fantasy soulslike action RPG developed by Project Cloud Games and published by Perp Games. Set in the ruined world of Arsilthus, you play as the last Guardian tasked with recovering shattered relic fragments and sealing the encroaching Void. It released July 31, 2026 on PC (Steam) and PS5 for around $49.99.' },
   { question: 'Is it single-player or multiplayer?', answer: 'The Relic: First Guardian is a single-player-only experience. There is no co-op or multiplayer mode — it is a traditional solo soulslike, focused on mastering combat and exploration alone.' },
   { question: 'What are the weapon types?', answer: 'There are 5 weapon families: Sword & Shield (defensive), Longsword (balanced), Dagger / dual blades (fast), Two-Handed (heavy), and Battle Staff (skill-based). There are 12 skill trees total — two per weapon family — allowing deep build customization.' },
   { question: 'How does leveling work?', answer: 'There is no traditional leveling system. Character growth comes entirely from collecting relic fragments (runes) — 70+ unique passive effects that modify skills, combat behavior, and weapon performance, plus Relic Energy used to buy skills in weapon skill trees.' },

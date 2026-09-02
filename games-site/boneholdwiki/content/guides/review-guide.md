@@ -21,7 +21,7 @@ sources:
   - tier: "Official"
     text: "Very Positive Steam rating and price of about $9.99 USD (¥41.86 CN listing) are from the Steam store page, checked August 6, 2026; the percentage changes as review volume grows and is a snapshot, not a fixed number"
   - tier: "Official"
-    text: "98 Steam Achievements, procedurally generated weapons/spells/armor, legendary loot, and the charge-based combat are confirmed on the Steam store page; the store page currently lists '10 unique character classes' — the guide's 7-class count matches earlier store text and should be re-checked"
+    text: "98 Steam Achievements, procedurally generated weapons/spells/armor, legendary loot, and the charge-based combat are confirmed on the Steam store page; the store page lists '7 unique character classes' naming Knight, Barbarian, Scorcher, and Spellblade — the guide's 7-class count matches the current store text"
   - tier: "Community"
     text: "Reviewer praise and warnings (difficulty, permadeath, trap deaths, build variety) are from launch reviews and Steam Community discussion"
   - tier: "Editorial"

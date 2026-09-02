@@ -68,7 +68,7 @@ The main questline follows a "receive assignment → kill the baddie" structure 
 
 ## Post-Launch Reality Check
 
-- Steam reviews are **"Mixed"** (around 300 reviews at launch). Praise centers on exploration, world design, and build flexibility; criticism targets performance, the UI, and stiff combat.
+- Steam reviews are **"Mixed"** (around 300 reviews at launch, July 2026 snapshot). Praise centers on exploration, world design, and build flexibility; criticism targets performance, the UI, and stiff combat.
 - Director **Craig Smith** (Titan Roc) has publicly acknowledged the mixed reception and announced priorities: **performance optimization, widescreen support, customizable shortcut-wheel keybindings for mouse/keyboard, and improved localization**. Free DLC work will follow once fixes ship.
 - Average playtime reported by aggregators is around **22 hours**, with about 20% of players exceeding 35 hours through side content.
 

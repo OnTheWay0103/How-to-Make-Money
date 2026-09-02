@@ -2,7 +2,7 @@
 title: 'Biomes & Resource Locations Guide — Every Region in Ardent Wilds'
 description: 'Complete biome guide for Ardent Wilds — what is confirmed about regions and resource locations, how procedural generation works, underground cave and mine exploration, and how to find rare materials safely.'
 category: 'Guides'
-version: '1.0'
+version: 'Demo/Pre-release'
 updated: '2026-08-01'
 keywords: ['ardent wilds biomes', 'ardent wilds resource locations', 'ardent wilds map', 'ardent wilds where to find', 'ardent wilds regions']
 related:

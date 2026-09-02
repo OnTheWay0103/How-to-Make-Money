@@ -14,7 +14,7 @@ const FEATURED_GUIDES = [
 
 const FAQ_ITEMS = [
   { question: 'What is DragonSword: Awakening?', answer: 'DragonSword: Awakening is a buy-to-play anime open-world action RPG developed by South Korean studio HOUND13. Set on the continent of Orbis, you lead a party of heroes to defeat a dragon reawakened after 60 years. It launched July 22, 2026 on Steam for $29.99.' },
-  { question: 'Is it free-to-play or buy-to-play?', answer: 'Buy-to-play — $29.99 once ($44.98 Deluxe Edition), no gacha, no microtransactions for power. All 19 heroes are unlocked through gameplay. Four more free heroes are coming post-launch.' },
+  { question: 'Is it free-to-play or buy-to-play?', answer: 'Buy-to-play — $29.99 once ($49.99 Deluxe Edition), no gacha, no microtransactions for power. All 19 heroes are unlocked through gameplay. Four more free heroes are coming post-launch.' },
   { question: 'How many playable characters are there?', answer: '19 heroes at launch, each with unique weapons, abilities, and playstyles. You control a party of 3 and can swap between them mid-combat. Four additional heroes (Ryza, Jerome, Veronica, Logan) will be added for free in the second half of 2026.' },
   { question: 'How does the combat system work?', answer: 'Real-time tag-team combat built around Status Ailments and Signal Skills. Stack confirmed ailments (Stun, Break, Bleed, Burn, Airborne, Electrocution, Knockdown) on enemies, then switch heroes under the ailment state to trigger Signal Skills — there are no ultimate bars.' },
   { question: 'What are Familiars?', answer: 'Collectible companion creatures. The Abyssal Direwolf is confirmed as a free DLC familiar. System details (count, mounting, combat role) are still unconfirmed and will be documented as they are verified.' },

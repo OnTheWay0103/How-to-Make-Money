@@ -19,7 +19,7 @@ sources:
 
 > Early Access Version / Updated: August 1, 2026
 
-Boss fights in Taival test everything you have learned — your combat skills, your Henki form mastery, and your party coordination. What we know about bosses is still limited, because the game launched in Early Access on July 14–15, 2026 and Bonobo Software has not published detailed boss documentation. This guide collects everything that is confirmed about boss encounters in the Early Access build, and clearly marks everything that is still unconfirmed.
+Boss fights in Taival test everything you have learned — your combat skills, your Henki form mastery, and your party coordination. What we know about bosses is still limited, because the game launched in Early Access on July 14, 2026 and Bonobo Software has not published detailed boss documentation. This guide collects everything that is confirmed about boss encounters in the Early Access build, and clearly marks everything that is still unconfirmed.
 
 **Important honesty note:** earlier community wikis listed a full roster of named bosses with HP values, enrage timers, and loot drop rates. **None of that was real.** As of August 2026, no named boss roster has been published by the developer, and no boss stats exist in official materials. Treat any guide that gives you exact boss HP or drop percentages as unverified speculation.
 

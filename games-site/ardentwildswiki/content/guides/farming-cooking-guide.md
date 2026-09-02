@@ -2,7 +2,7 @@
 title: 'Farming & Cooking Guide — Grow Crops, Cook Meals & Brew Elixirs in Ardent Wilds'
 description: 'How farming, cooking, and elixir brewing work in Ardent Wilds — setting up your first farm, cooking food for survival, brewing elixirs for combat, and building a food loop that keeps you alive.'
 category: 'Guides'
-version: '1.0'
+version: 'Demo/Pre-release'
 updated: '2026-08-01'
 keywords: ['ardent wilds farming', 'ardent wilds cooking', 'ardent wilds food', 'ardent wilds elixirs', 'ardent wilds potions', 'ardent wilds crops', 'ardent wilds how to farm']
 related:

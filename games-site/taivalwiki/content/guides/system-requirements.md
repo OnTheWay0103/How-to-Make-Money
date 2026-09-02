@@ -50,7 +50,7 @@ Taival is a handcrafted voxel-style open world for 1–4 players — the art sty
 
 | Platform | Status |
 |----------|--------|
-| **PC (Steam)** | ✅ Confirmed — released July 14–15, 2026 Early Access |
+| **PC (Steam)** | ✅ Confirmed — released July 14, 2026 Early Access (July 15 in Asia due to time zone) |
 | **Steam Deck** | ❌ Not officially confirmed (no announcement found) |
 | **macOS / Linux** | ❌ Not announced |
 | **Console** | ❌ Consoles planned later (Xbox, PlayStation, Nintendo Switch 2), not yet released |

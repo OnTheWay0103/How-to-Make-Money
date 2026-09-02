@@ -2,7 +2,7 @@
 title: 'Full Release & Roadmap Guide — What Is Coming to Ardent Wilds'
 description: 'Ardent Wilds release date status and roadmap — full release is TBA, demo out since July 30 2026, the confirmed development timeline from alpha playtest to v0.5.9, and what features are confirmed for the full game.'
 category: 'Guides'
-version: '1.0'
+version: 'Demo/Pre-release'
 updated: '2026-08-08'
 keywords: ['ardent wilds release date', 'ardent wilds full release', 'ardent wilds roadmap', 'ardent wilds updates', 'ardent wilds early access', 'ardent wilds 1.0', 'ardent wilds development']
 related:

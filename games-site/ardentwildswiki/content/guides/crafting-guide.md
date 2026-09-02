@@ -2,7 +2,7 @@
 title: 'Complete Crafting Guide — All Recipes & Materials in Ardent Wilds'
 description: 'Everything confirmed about crafting in Ardent Wilds — crafting stations, materials, smelting, cooking, elixir brewing, and how the craft-vs-loot gear loop works. No invented recipes; honest guidance for a pre-release game.'
 category: 'Guides'
-version: '1.0'
+version: 'Demo/Pre-release'
 updated: '2026-08-01'
 keywords: ['ardent wilds crafting', 'ardent wilds recipes', 'ardent wilds materials', 'ardent wilds workstation', 'ardent wilds how to craft']
 related:

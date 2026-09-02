@@ -2,7 +2,7 @@
 title: 'Armor Guide — Every Armor Set & How to Get It in Ardent Wilds'
 description: 'Complete armor guide for Ardent Wilds — confirmed armor facts, how to get armor through crafting and looting, the confirmed Frayed Apprentice and Krell War armor sets, and defense strategy for dodge-based combat.'
 category: 'Guides'
-version: '1.0'
+version: 'Demo/Pre-release'
 updated: '2026-08-06'
 keywords: ['ardent wilds armor', 'ardent wilds armor guide', 'ardent wilds best armor', 'ardent wilds armor sets', 'ardent wilds how to get armor', 'ardent wilds defense', 'ardent wilds frayed apprentice']
 related:

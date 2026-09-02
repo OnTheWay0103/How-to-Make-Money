@@ -14,7 +14,7 @@ sources:
 
 ## DragonSword: Awakening System Requirements & PC Specs Guide
 
-DragonSword: Awakening (HOUND13's gacha-free action RPG, released July 22/23, 2026 on PC via Steam) is a fast, anime-style combat game — and it has a hard requirement many players miss: **an SSD**. This guide covers the minimum and recommended specs published on the game's **Steam store page**, the SSD rule, and what they mean in practice.
+DragonSword: Awakening (HOUND13's gacha-free action RPG, released July 22, 2026 on PC via Steam) is a fast, anime-style combat game — and it has a hard requirement many players miss: **an SSD**. This guide covers the minimum and recommended specs published on the game's **Steam store page**, the SSD rule, and what they mean in practice.
 
 ## Official Minimum Requirements
 
@@ -50,7 +50,7 @@ Most sources list **25 GB**; one third-party wiki lists 60 GB. The 25 GB figure 
 
 | Platform | Status |
 |----------|--------|
-| **PC (Steam)** | ✅ Released July 22/23, 2026 |
+| **PC (Steam)** | ✅ Released July 22, 2026 |
 | **Steam Deck** | 🟡 Reported in preparation via Proton — not officially confirmed at launch |
 | **Console / mobile** | ❌ Not planned at launch |
 

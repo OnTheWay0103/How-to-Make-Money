@@ -15,7 +15,7 @@ export default function AboutPage() {
         The Relic: First Guardian Wiki is an <strong>unofficial fan-made resource</strong> dedicated to &quot;The Relic: First Guardian,&quot; the Korean dark-fantasy soulslike action RPG developed by <strong>Project Cloud Games</strong> and published by <strong>Perp Games</strong>. The game released July 31, 2026 on PC (Steam) and PlayStation 5, with Xbox Series X|S and Nintendo Switch 2 versions arriving later in summer 2026.
       </p>
       <p>
-        We are a small team of passionate players who research and write guides for the game&apos;s community: the 5 weapon families and their 12 skill trees, the 70+ relic fragments, the unique one-of-a-kind gear system, and the 70-80 &quot;Brutal&quot; boss fights across the ruined world of Arsiltus. Our mission is to be a helpful and honest guide resource — including clearly flagging what is not yet verified.
+        We are a small team of passionate players who research and write guides for the game&apos;s community: the 5 weapon families and their 12 skill trees, the 70+ relic fragments, the unique one-of-a-kind gear system, and the 70-80 &quot;Brutal&quot; boss fights across the ruined world of Arsilthus. Our mission is to be a helpful and honest guide resource — including clearly flagging what is not yet verified.
       </p>
 
       <h2>What We Offer</h2>

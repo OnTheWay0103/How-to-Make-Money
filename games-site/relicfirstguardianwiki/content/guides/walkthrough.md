@@ -18,7 +18,7 @@ This walkthrough covers what is **confirmed** about The Relic: First Guardian's 
 
 The game opens with a classic soulslike setup, confirmed by official material:
 
-- You are the **last Guardian** in **Arsiltus**, a once-prosperous land destroyed when the **great Relic shattered**.
+- You are the **last Guardian** in **Arsilthus**, a once-prosperous land destroyed when the **great Relic shattered**.
 - The land is being **swallowed by a Void**, and the world's people have been twisted into monsters.
 - You collect **relic fragments imbued with the memories and emotions of the dead**.
 - Your goal: seal the Void and restore the world.
@@ -29,7 +29,7 @@ Storytelling is fragmented — the game tells its story through **letters, mural
 
 ## The Confirmed World: 6 Regions
 
-Arsiltus is a **semi-open world** with **six seamlessly connected regions**, separated by natural obstacles (mountains, valleys) rather than corridor gates:
+Arsilthus is a **semi-open world** with **six seamlessly connected regions**, separated by natural obstacles (mountains, valleys) rather than corridor gates:
 
 | Region | Confirmed Theme |
 |--------|-----------------|
@@ -95,7 +95,7 @@ Be honest with yourself when reading other sites: as of this writing (August 202
 ## Common Questions
 
 **Q: Where does the game start?**
-A: You awaken as the last Guardian in the ruined world of Arsiltus. The exact starting area name is unconfirmed.
+A: You awaken as the last Guardian in the ruined world of Arsilthus. The exact starting area name is unconfirmed.
 
 **Q: Is the world open or linear?**
 A: **Semi-open** — six large, seamlessly connected regions separated by natural obstacles.

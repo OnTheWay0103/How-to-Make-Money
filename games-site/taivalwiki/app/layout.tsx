@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from 'next';
-import { Geist, Geist_Mono } from 'next/font/google';
+import { GeistSans } from 'geist/font/sans';
+import { GeistMono } from 'geist/font/mono';
 import './globals.css';
 import { defaultViewport } from '@/lib/seo-config';
 import { defaultMetadata as dm } from '@/lib/metadata';
@@ -9,15 +10,9 @@ import GoogleAnalytics from '@/components/GoogleAnalytics';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
-const geistSans = Geist({
-  variable: '--font-geist-sans',
-  subsets: ['latin'],
-});
+const geistSans = GeistSans;
 
-const geistMono = Geist_Mono({
-  variable: '--font-geist-mono',
-  subsets: ['latin'],
-});
+const geistMono = GeistMono;
 
 export const viewport: Viewport = defaultViewport;
 

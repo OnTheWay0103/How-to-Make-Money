@@ -2,7 +2,7 @@
 title: 'Combat Guide — Weapons, Artifacts, Builds & Abilities in Ardent Wilds'
 description: 'Master combat in Ardent Wilds — confirmed combat systems, weapon and artifact mechanics, the classless build system, terrain-destroying spells, and advanced combat techniques for solo and co-op.'
 category: 'Guides'
-version: '1.0'
+version: 'Demo/Pre-release'
 updated: '2026-08-01'
 keywords: ['ardent wilds combat guide', 'ardent wilds weapons', 'ardent wilds best builds', 'ardent wilds artifacts', 'ardent wilds abilities']
 related:

@@ -2,7 +2,7 @@
 title: 'Caves & Underground Mining Guide — Ores, Mines & Secrets in Ardent Wilds'
 description: 'Complete caves and mining guide for Ardent Wilds — what is confirmed about ancient caves and underground mines, the digging and mining systems, trap survival, Aetherium Conflux events, and how to find rare materials and artifacts.'
 category: 'Guides'
-version: '1.0'
+version: 'Demo/Pre-release'
 updated: '2026-08-06'
 keywords: ['ardent wilds caves', 'ardent wilds mining guide', 'ardent wilds underground', 'ardent wilds ores', 'ardent wilds mines', 'ardent wilds minecarts', 'ardent wilds rare materials']
 related:

@@ -1,10 +1,10 @@
 ---
-title: "Beginner Guide — Getting Started in Arsiltus"
+title: "Beginner Guide — Getting Started in Arsilthus"
 description: "Complete beginner guide for The Relic: First Guardian. First hours tips, best starting weapon, stamina and relic basics, and the early progression path — with confirmed mechanics and honest unconfirmed notes."
 category: "Guides"
 version: "1.0"
 updated: "2026-08-11"
-keywords: ["the relic first guardian beginner guide", "relic first guardian getting started", "Arsiltus beginners", "how to start relic first guardian", "relic first guardian tips", "best starting weapon relic first guardian"]
+keywords: ["the relic first guardian beginner guide", "relic first guardian getting started", "Arsilthus beginners", "how to start relic first guardian", "relic first guardian tips", "best starting weapon relic first guardian"]
 related: ["weapons-guide", "combat-guide", "runes-guide"]
 sources:
   - tier: "Official"
@@ -17,9 +17,9 @@ sources:
     text: "The Sword & Shield starter recommendation, early-priority checklist, and common-mistakes list are our recommendations"
 ---
 
-# Beginner Guide — Getting Started in Arsiltus
+# Beginner Guide — Getting Started in Arsilthus
 
-The ruined world of Arsiltus is unforgiving. As the **last Guardian**, you wake with fragmented memories, collect **relic fragments** imbued with the dead's emotions, and fight to seal the Void. The Relic: First Guardian is a soulslike with one crucial difference from the classics: **no XP and no levels** — your growth comes from relics, skills, and unique gear. This guide covers what is confirmed about the opening hours and the systems you need to master.
+The ruined world of Arsilthus is unforgiving. As the **last Guardian**, you wake with fragmented memories, collect **relic fragments** imbued with the dead's emotions, and fight to seal the Void. The Relic: First Guardian is a soulslike with one crucial difference from the classics: **no XP and no levels** — your growth comes from relics, skills, and unique gear. This guide covers what is confirmed about the opening hours and the systems you need to master.
 
 ---
 

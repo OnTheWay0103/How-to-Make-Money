@@ -18,21 +18,21 @@ This guide covers the **official system requirements** for PC (as listed on the 
 
 The requirements below are **as listed on the official Steam store page** (PS5 specs are listed officially on the PlayStation Store):
 
-**Minimum (1080p / low / 30 FPS):**
-- OS: Windows 10 64-bit
-- CPU: Intel Core i5-8400 / AMD Ryzen 5 2600
-- RAM: 12 GB
-- GPU: NVIDIA GTX 1060 (6 GB) / AMD RX 580 (8 GB)
-- Storage: 50 GB SSD (SSD required)
-- Upscaling: DLSS / FSR 2 supported
-
-**Recommended (1080p / high / 60 FPS):**
-- OS: Windows 11 64-bit
-- CPU: Intel Core i7-9700K / AMD Ryzen 7 3700X
+**Minimum (per the official Steam store page):**
+- OS: Not listed on the store page [Unconfirmed]
+- CPU: Intel Core i5-11400 / AMD Ryzen 7 4800H
 - RAM: 16 GB
-- GPU: NVIDIA RTX 2070 (8 GB) / AMD RX 5700 XT (8 GB)
-- Storage: 50 GB SSD (plus ~10 GB for updates)
-- Upscaling: **DLSS and FSR 2 supported**
+- GPU: Not listed on the store page [Unconfirmed]
+- Storage: Not listed on the store page [Unconfirmed] (third-party trackers report ~28.5 GB [Community])
+- Supports 21:9 ultrawide
+
+**Recommended (per the official Steam store page):**
+- CPU: Intel Core i5-12650H / AMD Ryzen 7 5800
+- RAM: 16 GB
+- GPU / Storage / OS: Not listed on the store page [Unconfirmed]
+- Supports 21:9 ultrawide
+
+**Honest note:** The official Steam store page only lists CPU, RAM, and ultrawide support. Any GPU or storage figure — including the ~28.5 GB install size reported by third-party trackers — is not official and should be treated as [Community]/[Unconfirmed] until published.
 
 **Interpretation**: the game is GPU-light and CPU-demanding relative to most current titles — an older 8-core CPU (2018-era) and a mid-range GPU from the RTX 20-series era are the target baseline. The SSD requirement is absolute: do not install on an HDD.
 
@@ -140,7 +140,7 @@ A: Confirmed launch-build performance problem (IGN and others). Patches are the 
 A: **Yes** — DLSS and FSR 2 are confirmed in the Steam listing.
 
 **Q: Is an SSD really required?**
-A: **Yes** — the official minimum requirements state SSD required (50 GB).
+A: The official store page lists CPU (i5-11400 / Ryzen 7 4800H) and 16 GB RAM; storage is not published on the store page [Unconfirmed].
 
 **Q: Will my GTX 1060 run it?**
 A: At minimum settings, around 30 FPS — with drops. It meets the listed minimum.

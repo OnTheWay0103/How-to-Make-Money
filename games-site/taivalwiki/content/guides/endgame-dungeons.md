@@ -10,7 +10,7 @@ related: ["boss-guide", "skill-trees-guide", "crafting-professions-guide", "biom
 
 ## Endgame & Companion Dungeons Guide
 
-Taival's "endgame" is a work in progress — the game launched in Early Access on July 14–15, 2026, and the developer states the current build offers "a complete gameplay experience, but with the world and story not yet finished." This guide explains what endgame-adjacent content exists now, what the 1.0 roadmap promises, and how to prepare.
+Taival's "endgame" is a work in progress — the game launched in Early Access on July 14, 2026, and the developer states the current build offers "a complete gameplay experience, but with the world and story not yet finished." This guide explains what endgame-adjacent content exists now, what the 1.0 roadmap promises, and how to prepare.
 
 **Honesty note:** an earlier version of this page described a four-tier instanced dungeon system (levels 20–50) with spawn keys, weekly world boss rotations, and named bosses (Tide Serpent, Ember Colossus...). **None of that was real.** No dungeon tiers, level caps, or spawn-key systems have been published. This page has been corrected.
 

@@ -2,7 +2,7 @@
 title: 'Weapons Guide — Every Weapon Type in Ardent Wilds and How to Get Them'
 description: 'Ardent Wilds weapons guide — the three confirmed weapon families (melee, ranged, magic), how to get weapons through crafting, looting and legendary boss drops, and how weapon progression works in pre-release.'
 category: 'Guides'
-version: '1.0'
+version: 'Demo/Pre-release'
 updated: '2026-08-05'
 keywords: ['ardent wilds weapons', 'ardent wilds weapon guide', 'ardent wilds melee weapons', 'ardent wilds ranged weapons', 'ardent wilds magic weapons', 'ardent wilds how to get weapons']
 related:

@@ -20,7 +20,7 @@ related: ["walkthrough", "all-bosses-list", "trophy-guide", "game-length-guide"]
 
 From official material, the arc of the game is confirmed:
 
-- Arsiltus was destroyed when the **great Relic shattered**, and the land is being **swallowed by a Void**.
+- Arsilthus was destroyed when the **great Relic shattered**, and the land is being **swallowed by a Void**.
 - You play the **last Guardian**, collecting **relic fragments imbued with the memories and emotions of the dead**.
 - The narrative resolves around the Guardian's relationship with the shattered relic and the Void.
 
@@ -32,7 +32,7 @@ Beyond this, the ending structure is **unknown**. Pre-launch coverage described 
 
 Multiple guides published before and just after launch claim specific endings — for example:
 
-- "The game has 3 endings: The Seal, Arsiltus Reborn, and The Truth"
+- "The game has 3 endings: The Seal, Arsilthus Reborn, and The Truth"
 - "Collect 24 Memory Fragments and 12 Journal Pages to unlock the secret ending"
 - "NG+ endings with remixed bosses"
 

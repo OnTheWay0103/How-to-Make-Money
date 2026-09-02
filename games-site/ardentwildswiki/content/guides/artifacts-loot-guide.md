@@ -2,7 +2,7 @@
 title: 'Artifacts & Legendary Loot Guide — Rare Items in Ardent Wilds'
 description: 'Complete artifacts guide for Ardent Wilds. How rare artifacts unlock unique abilities, where to find legendary loot and powerful weapons, the Tome of Ice and demo item examples, and how to build around what you find.'
 category: 'Guides'
-version: '1.0'
+version: 'Demo/Pre-release'
 updated: '2026-08-04'
 keywords: ['ardent wilds artifacts', 'ardent wilds legendary loot', 'ardent wilds rare items', 'ardent wilds tome of ice', 'ardent wilds where to find loot', 'ardent wilds weapons']
 related:

@@ -2,7 +2,7 @@
 title: 'Beginner Guide — Survive Your First Days in Ardent Wilds'
 description: 'A complete beginner guide for Ardent Wilds covering gathering, crafting your first tools, building a shelter, understanding the world-built skill tree, and surviving your first nights against the Eldran.'
 category: 'Guides'
-version: '1.0'
+version: 'Demo/Pre-release'
 updated: '2026-08-01'
 keywords: ['ardent wilds beginner guide', 'ardent wilds getting started', 'ardent wilds tips', 'ardent wilds first day', 'ardent wilds survival guide']
 related:

@@ -2,7 +2,7 @@
 title: 'Dedicated Server Guide — Host & Run an Ardent Wilds Server'
 description: 'How to host an Ardent Wilds dedicated server — the experimental ArdentWilds_Server.exe, peer-host vs dedicated comparison, setup steps, networking, and why a persistent server changes co-op.'
 category: 'Guides'
-version: '1.0'
+version: 'Demo/Pre-release'
 updated: '2026-08-08'
 keywords: ['ardent wilds dedicated server', 'ardent wilds server hosting', 'ardent wilds server setup', 'ardent wilds host game', 'ardent wilds multiplayer server', 'ardent wilds 24 7 server']
 related:

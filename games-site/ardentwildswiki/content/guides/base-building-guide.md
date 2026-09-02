@@ -2,7 +2,7 @@
 title: 'Base Building Guide — Best Locations, Defense & Design in Ardent Wilds'
 description: 'Complete base building guide for Ardent Wilds. Best locations to build, how to fortify against Eldran attacks, furniture and decoration, resource optimization, and advanced base designs for solo and co-op teams.'
 category: 'Guides'
-version: '1.0'
+version: 'Demo/Pre-release'
 updated: '2026-08-01'
 keywords: ['ardent wilds base building', 'ardent wilds best base location', 'ardent wilds base defense', 'ardent wilds building guide', 'ardent wilds fortification']
 related:

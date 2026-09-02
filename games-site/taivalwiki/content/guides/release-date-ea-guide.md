@@ -1,6 +1,6 @@
 ---
 title: "Taival Release Date & Early Access Guide — Launch Info"
-description: "When Taival launched (July 15, 2026 Steam Early Access), what it costs, the free demo, platforms, developer Bonobo Software, the 20% launch discount, and what Early Access includes for the co-op Henki RPG."
+description: "When Taival launched (July 14, 2026 Steam Early Access), what it costs, the free demo, platforms, developer Bonobo Software, the 20% launch discount, and what Early Access includes for the co-op Henki RPG."
 category: "Guides"
 version: "1.0"
 updated: "2026-08-08"
@@ -19,7 +19,7 @@ sources:
 
 ## Taival Release Date & Early Access Guide
 
-**Taival entered Steam Early Access in July 2026** — announced available July 14–15, 2026 (press coverage dated the announcement July 14; the Early Access launch was reported as July 15). If you are deciding when to jump into this 1–4 player co-op adventure RPG, this page rounds up everything confirmed: the launch, price, platforms, demo, and what the Early Access state actually includes.
+**Taival entered Steam Early Access in July 2026** — announced available July 14, 2026 (July 15 in Asian time zones due to the global unlock). If you are deciding when to jump into this 1–4 player co-op adventure RPG, this page rounds up everything confirmed: the launch, price, platforms, demo, and what the Early Access state actually includes.
 
 **Honesty note:** "Taival" means **"journey"** in Finnish — fitting for a game about a shapeshifting companion and a quest across four realms. Where launch details below come from press coverage rather than the Steam page itself, they are marked as reported.
 
@@ -27,7 +27,7 @@ sources:
 
 | Fact | Detail |
 |------|--------|
-| **Early Access launch** | July 2026 — announced July 14; EA live July 15 (per press coverage) |
+| **Early Access launch** | July 14, 2026 (July 15 in Asian time zones due to the global unlock) |
 | **Developer** | Bonobo Software — Finnish indie studio founded 2022, four-person team |
 | **Publisher** | Level Up Gaming |
 | **Platform** | PC via Steam (only confirmed platform) |
@@ -69,7 +69,7 @@ The developer has stated Early Access will last **6–12 months**, and that the 
 ## Frequently Asked Questions
 
 **When did Taival release?**
-July 15, 2026 into Steam Early Access (announced July 14).
+July 14, 2026 into Steam Early Access (July 15 in Asian time zones due to the global unlock).
 
 **Is Taival free?**
 No — it is paid (¥77 RMB / ~$11 USD base, with a 20% launch discount). A free demo was available from June 2026.

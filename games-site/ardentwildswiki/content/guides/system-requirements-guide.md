@@ -2,7 +2,7 @@
 title: 'System Requirements & Performance Guide — FPS & Settings in Ardent Wilds'
 description: 'Ardent Wilds system requirements and performance guide — verified minimum specs from Steam, what is known about recommended specs, hardware notes for the voxel world, and FPS tips for low-end PCs.'
 category: 'Guides'
-version: '1.0'
+version: 'Demo/Pre-release'
 updated: '2026-08-08'
 keywords: ['ardent wilds system requirements', 'ardent wilds minimum requirements', 'ardent wilds recommended specs', 'ardent wilds performance', 'ardent wilds fps', 'ardent wilds low end pc', 'ardent wilds steam deck']
 related:

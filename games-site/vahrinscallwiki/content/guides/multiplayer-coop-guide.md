@@ -70,7 +70,7 @@ Since co-op is off the table, the relevant question is: what does the solo exper
 
 Launch data, straight:
 
-- Steam reviews: **"Mixed"** (~300 reviews at launch). Praise: world, exploration, build flexibility. Criticism: combat feel, performance, UI.
+- Steam reviews: **"Mixed"** (~300 reviews at launch, July 2026 snapshot). Praise: world, exploration, build flexibility. Criticism: combat feel, performance, UI.
 - Average playtime: ~**22 hours** (PlayPile aggregate), with ~20% of players passing 35 hours.
 - The developers are actively responding — fixes announced before free DLC.
 

@@ -7,7 +7,7 @@ version: '1.0'
 updated: '2026-08-11'
 sources:
   - tier: "Official"
-    text: "Buy-to-play open-world action RPG by South Korean studio Hound13 Inc.; launched July 22-23, 2026 on Steam; $29.99 base with a Deluxe Edition bundle; no gacha, and all 19 heroes earnable in-game — Steam store page"
+    text: "Buy-to-play open-world action RPG by South Korean studio Hound13 Inc.; launched July 22, 2026 on Steam; $29.99 base with a Deluxe Edition bundle; no gacha, and all 19 heroes earnable in-game — Steam store page"
   - tier: "Editorial"
     text: "FAQ answers on this page are the site's own summaries of the confirmed facts"
 ---
@@ -24,7 +24,7 @@ A buy-to-play, anime-style **open-world action RPG** developed by South Korean s
 
 ### How much does it cost?
 
-**$29.99** for the base game, **$44.98** for the Deluxe Edition. The game is buy-to-play: **no gacha, no loot boxes, no microtransactions, no season pass**. Paid DLC is planned.
+**$29.99** for the Standard Edition and **$49.99** for the Deluxe Edition ($29.99 Standard + a $19.99 Deluxe Pack adding an artbook, soundtrack, and the Brave Baby Dragon familiar). The game is buy-to-play: **no gacha, no loot boxes, no microtransactions, no season pass**. Paid DLC is planned.
 
 ### What platforms is it on?
 
@@ -36,7 +36,7 @@ No. There is no gacha, no premium currency for power, and no paid heroes. All **
 
 ### What are the system requirements?
 
-The verified **minimum** specs: Windows 10, Intel Core i5-9400F, 8 GB RAM, NVIDIA GTX 1660, DirectX 12, and ~60 GB of storage (SSD recommended). Recommended specs have not been officially published.
+The verified **minimum** specs: Windows 10, Intel Core i5-9400F, 8 GB RAM, NVIDIA GTX 1660, DirectX 12, and 25 GB of storage (SSD strictly required). Recommended specs are also published on the store page (i7-9700F, 16 GB RAM, RTX 3060).
 
 ### Does it run on Steam Deck?
 

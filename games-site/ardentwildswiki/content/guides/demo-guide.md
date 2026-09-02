@@ -2,7 +2,7 @@
 title: 'Demo Guide — What is in the Ardent Wilds Free Demo'
 description: 'Everything you need to know about the Ardent Wilds free demo on Steam — what is confirmed about the demo content, system requirements, how to access it, and tips to get the most out of it before the full release.'
 category: 'Guides'
-version: '1.0'
+version: 'Demo/Pre-release'
 updated: '2026-08-01'
 keywords: ['ardent wilds demo', 'ardent wilds free demo', 'ardent wilds demo content', 'ardent wilds demo guide', 'ardent wilds steam demo']
 related:

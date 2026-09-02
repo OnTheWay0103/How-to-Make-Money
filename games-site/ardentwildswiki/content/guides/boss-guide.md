@@ -2,7 +2,7 @@
 title: 'Boss Guide — How to Beat Every Boss in Ardent Wilds'
 description: 'Boss guide for Ardent Wilds — confirmed boss information, preparation checklists, and strategy principles for the Eldran hivemind and Yorgoroth, the Devourer of Worlds. Honest, up-to-date, no invented numbers.'
 category: 'Guides'
-version: '1.0'
+version: 'Demo/Pre-release'
 updated: '2026-08-01'
 keywords: ['ardent wilds boss guide', 'ardent wilds bosses', 'ardent wilds how to beat', 'ardent wilds yorgoroth', 'ardent wilds boss strategy']
 related:

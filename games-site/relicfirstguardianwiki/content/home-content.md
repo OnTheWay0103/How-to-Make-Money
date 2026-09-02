@@ -12,7 +12,7 @@ related: ["beginner-guide", "weapons-guide", "builds-guide", "boss-strategies", 
 
 **The ultimate resource for mastering The Relic: First Guardian — launched July 31, 2026 on Steam and PS5. The game is out now.**
 
-Set in the ruined world of Arsiltus, The Relic: First Guardian is a Korean dark-fantasy soulslike action RPG developed by Project Cloud Games and published by Perp Games. As the last Guardian, you must recover shattered relic fragments, master 5 weapon families with 12 skill trees (two per family), collect 70+ relic fragments, and defeat 70-80 "Brutal" bosses to seal the encroaching Void.
+Set in the ruined world of Arsilthus, The Relic: First Guardian is a Korean dark-fantasy soulslike action RPG developed by Project Cloud Games and published by Perp Games. As the last Guardian, you must recover shattered relic fragments, master 5 weapon families with 12 skill trees (two per family), collect 70+ relic fragments, and defeat 70-80 "Brutal" bosses to seal the encroaching Void.
 
 ---
 
@@ -62,7 +62,7 @@ All 70+ memory fragment effects explained — passive bonuses that reshape your 
 
 The Relic: First Guardian is a hardcore soulslike action RPG developed by South Korean studio Project Cloud Games and published by Perp Games. It launched on **July 31, 2026** for **PC (Steam)** and **PlayStation 5**, with Xbox Series X|S and Nintendo Switch 2 versions planned for later in summer 2026.
 
-The game is set in **Arsiltus**, a once-prosperous land reduced to wasteland after an ancient relic shattered and unleashed the creeping Void blight. You play as the **last Guardian**, the world's last hope, tasked with recovering scattered relic fragments and sealing the void before all is consumed.
+The game is set in **Arsilthus**, a once-prosperous land reduced to wasteland after an ancient relic shattered and unleashed the creeping Void blight. You play as the **last Guardian**, the world's last hope, tasked with recovering scattered relic fragments and sealing the void before all is consumed.
 
 The game blends **dark fantasy with Korean folklore**, featuring quests inspired by traditional Korean tales told through environmental storytelling.
 

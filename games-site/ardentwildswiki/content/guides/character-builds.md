@@ -2,7 +2,7 @@
 title: 'Character Customization & Builds Guide — Create Your Survivor in Ardent Wilds'
 description: 'Complete character customization guide for Ardent Wilds. Confirmed appearance options, how the classless build system works, starting strategies for different playstyles, and how to adapt your build on the fly.'
 category: 'Guides'
-version: '1.0'
+version: 'Demo/Pre-release'
 updated: '2026-08-01'
 keywords: ['ardent wilds character creation', 'ardent wilds customization', 'ardent wilds builds', 'ardent wilds playstyles', 'ardent wilds classes']
 related:

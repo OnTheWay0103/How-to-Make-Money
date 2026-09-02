@@ -2,7 +2,7 @@
 title: 'World Generation & Seeds Guide — How Worlds Are Created in Ardent Wilds'
 description: 'How world generation works in Ardent Wilds — the procedurally generated voxel world, the April 2026 custom WorldGen rebuild, the June 2026 v0.5.9 pre-generated worlds change, and what seeds do.'
 category: 'Guides'
-version: '1.0'
+version: 'Demo/Pre-release'
 updated: '2026-08-08'
 keywords: ['ardent wilds world generation', 'ardent wilds seeds', 'ardent wilds world seed', 'ardent wilds procedural generation', 'ardent wilds world settings', 'ardent wilds new world', 'ardent wilds floating islands']
 related:

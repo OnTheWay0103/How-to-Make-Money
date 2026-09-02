@@ -16,7 +16,7 @@ The Relic: First Guardian is a **boss-heavy soulslike** — developers describe 
 
 ## The Big Picture: A World of Transformed People
 
-The lore, confirmed by official material: the destruction of the **Great Relic** plunged the land of Arsiltus into the **Void**, transforming people into monsters called **Brutals**. That framing matters for gameplay — these are not faceless mobs:
+The lore, confirmed by official material: the destruction of the **Great Relic** plunged the land of Arsilthus into the **Void**, transforming people into monsters called **Brutals**. That framing matters for gameplay — these are not faceless mobs:
 
 - **Enemies are storytelling first** — bandits, knights, and mad villagers are the remnants of the world, and their placement tells you what happened to each region.
 - **No XP, no levels** — regular enemies drop **gold and materials**, not experience. They are not worth farming for power; see the [Resources & Loot Guide](/guides/resource-loot-guide) for why.

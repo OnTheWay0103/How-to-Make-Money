@@ -10,7 +10,7 @@ related: ["walkthrough", "boss-guide", "runes-guide", "all-bosses-list"]
 
 # Secret Areas & Hidden Content — What's Confirmed
 
-The Relic: First Guardian is a game built on exploration. Official descriptions confirm that the semi-open world of Arsiltus rewards thorough play with **hidden paths, secret bosses, and rare relics** — and that the game gives you **minimal guidance**, expecting you to find things yourself.
+The Relic: First Guardian is a game built on exploration. Official descriptions confirm that the semi-open world of Arsilthus rewards thorough play with **hidden paths, secret bosses, and rare relics** — and that the game gives you **minimal guidance**, expecting you to find things yourself.
 
 This guide separates what is **confirmed** about hidden content at launch (August 2026) from what is **unconfirmed** — because many "secret location" guides circulating online are fabricated, with invented area names, puzzles, and rewards.
 

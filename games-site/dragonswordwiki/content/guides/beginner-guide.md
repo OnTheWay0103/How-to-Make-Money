@@ -7,7 +7,7 @@ version: '1.0'
 updated: '2026-08-11'
 sources:
   - tier: "Official"
-    text: "Anime-style open-world action RPG built on Unreal Engine 5, developed and self-published by Hound13 Inc.; released July 22-23, 2026 on Steam as a buy-to-play title with no gacha — Steam store page"
+    text: "Anime-style open-world action RPG built on Unreal Engine 5, developed and self-published by Hound13 Inc.; released July 22, 2026 on Steam as a buy-to-play title with no gacha — Steam store page"
   - tier: "Official"
     text: "Story follows Lute, a boy who becomes a mercenary; a Dragon reawakened 60 years after six Heroes saved the Continent of Orbis; 19 Heroes with distinct Status Ailment abilities and tag-team 'Switching Signals' combat — Steam store page"
   - tier: "Editorial"
@@ -16,7 +16,7 @@ sources:
 
 ## Welcome to DragonSword: Awakening
 
-DragonSword: Awakening is a buy-to-play anime open-world action RPG developed by South Korean studio **HOUND13**, released on July 22, 2026 for **$29.99** on Steam (Deluxe Edition $44.98). It features **19 playable heroes**, a tag-team combat system built on status ailments and Signal Skills, and — uniquely for the genre — **no gacha and no microtransactions**. Every hero and item is earned through gameplay.
+DragonSword: Awakening is a buy-to-play anime open-world action RPG developed by South Korean studio **HOUND13**, released on July 22, 2026 for **$29.99** on Steam (Deluxe Edition $49.99). It features **19 playable heroes**, a tag-team combat system built on status ailments and Signal Skills, and — uniquely for the genre — **no gacha and no microtransactions**. Every hero and item is earned through gameplay.
 
 The game sits at **"Very Positive"** on Steam, per the store page. It earned that reputation: the combat is fluid, and the buy-to-play model means you never hit a paywall.
 

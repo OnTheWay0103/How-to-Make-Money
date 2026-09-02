@@ -2,7 +2,7 @@
 title: 'Elixirs & Alchemy Guide — Brewing Potions in Ardent Wilds'
 description: 'Ardent Wilds elixir and alchemy guide — how potion brewing works, the confirmed "powerful elixirs" system, elixir categories, ingredient sources, and how to use brews for healing and combat buffs.'
 category: 'Guides'
-version: '1.0'
+version: 'Demo/Pre-release'
 updated: '2026-08-08'
 keywords: ['ardent wilds elixirs', 'ardent wilds alchemy', 'ardent wilds potions', 'ardent wilds elixir recipes', 'ardent wilds brewing', 'ardent wilds potion guide']
 related:

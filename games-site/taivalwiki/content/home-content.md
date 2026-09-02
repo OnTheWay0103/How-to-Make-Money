@@ -12,7 +12,7 @@ related: ["beginner-guide", "henki-companion-guide", "coop-multiplayer-guide", "
 
 **Everything you need to explore the hand-crafted voxel world of Taival with your shapeshifting Henki companion.**
 
-Taival launched in Steam Early Access on July 15, 2026 by Bonobo Software (Finland) and Level Up Gaming. This wiki covers all core systems, strategies, and secrets for the Early Access build. Whether you are a solo adventurer or running a 4-player co-op party, you will find practical, up-to-date information here.
+Taival launched in Steam Early Access on July 14, 2026 by Bonobo Software (Finland) and Level Up Gaming. This wiki covers all core systems, strategies, and secrets for the Early Access build. Whether you are a solo adventurer or running a 4-player co-op party, you will find practical, up-to-date information here.
 
 ---
 
@@ -53,7 +53,7 @@ All 4 biomes — highlands, forests, mountains, and ruins. Discover hidden secre
 
 ## What is Taival?
 
-Taival ("journey" in Finnish) is a 1-4 player cooperative adventure RPG set in a hand-crafted voxel-style open world. Developed by the Finnish indie studio Bonobo Software and published by Level Up Gaming, it launched in Steam Early Access on July 14–15, 2026 at ¥77 (~US$16, with a 20% launch discount).
+Taival ("journey" in Finnish) is a 1-4 player cooperative adventure RPG set in a hand-crafted voxel-style open world. Developed by the Finnish indie studio Bonobo Software and published by Level Up Gaming, it launched in Steam Early Access on July 14, 2026 at ¥77 (~US$16, with a 20% launch discount).
 
 The game's defining feature is your **Henki** — a shapeshifting companion with no fixed form that can absorb creature essences to transform into combat beasts, swift mounts, stealth predators, gliders, and more. You and your Henki grow in parallel through dual progression systems, unlocking new abilities and forms as you explore the world.
 

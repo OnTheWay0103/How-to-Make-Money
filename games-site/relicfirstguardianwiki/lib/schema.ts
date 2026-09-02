@@ -57,7 +57,7 @@ export function videoGameSchema(): Record<string, unknown> {
     '@type': 'VideoGame',
     name: 'The Relic: First Guardian',
     description:
-      'A Korean dark-fantasy soulslike action RPG set in the ruined world of Arsiltus. Wield 5 weapon families with 12 skill trees (two per family), collect 70+ relic fragments, and defeat 70-80 Brutal bosses to seal the Void as the last Guardian. Single-player only.',
+      'A Korean dark-fantasy soulslike action RPG set in the ruined world of Arsilthus. Wield 5 weapon families with 12 skill trees (two per family), collect 70+ relic fragments, and defeat 70-80 Brutal bosses to seal the Void as the last Guardian. Single-player only.',
     url: 'https://store.steampowered.com/app/2827820/The_Relic_First_Guardian/',
     applicationCategory: 'Game',
     operatingSystem: 'Windows',
