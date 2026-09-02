@@ -13,30 +13,25 @@
     </array>
 
     <!--
-      每天运行两次，以美国东部时间 (ET = UTC-4 夏令时) 为准：
+      每天运行一次（2026-08-24 起调整为每天 1 次）：
 
-      🌅 Morning run: 10 AM ET  = 14:00 UTC = 22:00 China
-         覆盖美国用户早间搜索高峰 + Steam 日间内容更新
+      🌅 每天 05:00 (北京时间) = 纽约 17:00 (夏令时) / 16:00 (冬令时)
+         建站时刻全年落在美国下班前后（下午 4-5 点），覆盖「下班后打游戏」时段
 
-      🌙 Evening run: 7 PM ET   = 23:00 UTC = 07:00 China (次日)
-         覆盖美国晚间游戏高峰（下班/放学后打游戏、搜攻略）
+      变更记录：
+      - 2026-09-02: 07:07 → 05:00（改打美国下班时段；04:30 在冬令时会落到 15:30 偏早，故取 05:00）
+      - 2026-08-24: 每天 2 次（07:07 + 22:07）→ 每天 1 次（07:07）
+      原因：AdSense 合规改造后以稳为主，每天最多新增 1 个站点
     -->
 
     <key>StartCalendarInterval</key>
     <array>
-        <!-- Morning: 每天 22:07 (北京时间) = 10:07 AM ET -->
+        <!-- 每天 05:00 (北京时间) -->
         <dict>
             <key>Hour</key>
-            <integer>22</integer>
+            <integer>5</integer>
             <key>Minute</key>
-            <integer>7</integer>
-        </dict>
-        <!-- Evening: 每天 07:07 (北京时间) = 7:07 PM ET -->
-        <dict>
-            <key>Hour</key>
-            <integer>7</integer>
-            <key>Minute</key>
-            <integer>7</integer>
+            <integer>0</integer>
         </dict>
     </array>
 
