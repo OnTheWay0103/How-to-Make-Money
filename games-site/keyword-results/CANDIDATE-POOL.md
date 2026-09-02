@@ -1,7 +1,7 @@
 # 候选游戏池
 
 > 侦察 Agent 发现的新游戏候选。主管 Agent 读取此文件做建站决策。
-> 最后更新: 2026-08-25
+> 最后更新: 2026-09-03（BUILD-GATE 侦察：门禁复核 6 候选，推荐 Anomaly President）
 > 位置：`keyword-results/CANDIDATE-POOL.md` — 随 git 同步，跨机器共享
 
 ## 候选清单
@@ -11,12 +11,12 @@
 | ~~4~~ | ~~Waterpark Simulator~~ | ~~水上乐园管理模拟 (CayPlay)~~ | ~~17~~ | ~~7/31 1.0~~ | ~~❌ 无~~ | 8/8 | ✅ 已建站（8/8）→ waterparksimulatorwiki，14 guides |
 | 5 | Ex Sanguis | 回合制战术 Roguelite (Lightbulb Crew/Othercide 团队) | 16 | 9/10 EA | ❌ 无 | 8/8 | 观望（wishlist 未验证；Zero wiki；时间线操纵+XCOM 式环境系统 = 策略攻略需求；5 周后 EA） |
 | 6 | Neverway | 恐怖生活模拟 RPG (Coldblood/Celeste 合作者) | 16 | 10月 窗口未定 | ❌ 无 | 8/8 | 观望（300K+ wishlist；Celeste 联创 + Disasterpeace 配乐；免费 prologue 已上；日期未定 → 9 月中旬复查决定建站） |
-| 7 | Moonlighter 2: The Endless Vault | 肉鸽 + 商店经营 (Digital Sun/11bit) | 16 | 9/2 1.0 | ⚠️ 原版 Fandom 存在 | 8/8 | 观望（系列名 SEO 强、Game Pass 首日；但原版 moonlighter.fandom 生态 + 攻略站密集覆盖风险；ML2 专属 wiki 未见） |
-| 8 | Machine Party | 暴力派对游戏（Buckshot Roulette 作者） | 16 | 7/30 已上线 | ❌ 无 | 8/8 | 观望（22.5K 峰值 CCU 爆发；15 个小游戏内容偏浅；竞技派对 = BOMBANANA 同款顾虑） |
+| 7 | Moonlighter 2: The Endless Vault | 肉鸽 + 商店经营 (Digital Sun/11bit) | 16 | 9/2 1.0 | ⚠️ 原版 Fandom 存在 | 8/8 | ⏸️ 不建站 — 9/3 复核（1.0 发售次日）：moonlighter.fandom 已并入 ML2 内容（Weapons 页覆盖），TechRaptor/TheGamer/NoobFeed/Game8 等大站发售即铺满攻略；需求极强（Game Pass+5 平台）但零 wiki 窗口已关，大站生态主导 → 放弃建站 |
+| 8 | Machine Party | 暴力派对游戏（Buckshot Roulette 作者） | ~~16~~ **13** | 7/30 已上线 | ❌ 无 | 8/8 | ⏸️ 降级 — 9/3 复核：Very Positive 87-89%（2,718 评测）、百万销量、v2.0 加本地同屏；但内容=15 小游戏，攻略文章已铺满（deltiasgaming/allthings.how/phrasemaker 全量覆盖「怎么赢全 15 个」）；血腥虐杀主题 AdSense 风险；与已建 BOMBANANA 同品类 → 不建站 |
 | 9 | Corsair Cove | 海盗城市建造 + 海军回合战斗 (Limbic/Hooded Horse) | 15 | 7/31 已上线 | ⚠️ thegameswiki 已有 | 8/8 | 观望（Game Pass 首日、9.8K CCU；城市建造品类已验证；thegameswiki 已有 wiki（尚小）；单机） |
 | 10 | The Walking Dead: Streets of Survival | 横版清版打斗 (AMC IP) | 15 | 9/18 | ⚠️ 无专属，系列 fandom 生态 | 8/8 | 观望（TWD IP 搜索量大、$19.99；3 角色技能树+4 Boss 内容有限；大 IP 有 wiki 快速出现风险；免费 demo 已上） |
-| 11 | Luminary | ARPG-lite Co-op (2人) | 19 | 8/11 EA | ❌ 无 | 8/3 | 观望（50K wishlist；名字泛化 SEO 弱；2人团队） |
-| 12 | Sir, We Have an Orc Problem | TD + 增量 (2人) | 19 | ~8/1 已上线 | ❌ 无 | 8/3 | 观望（首发 $360K/天、峰值 7.6K CCU 爆款，仅 ProdigyGamers 一篇攻略；2人团队） |
+| 11 | Luminary | ARPG-lite Co-op (2人) | ~~19~~ **14** | 8/11 EA | ❌ 无 | 8/3 | ⏸️ 降级 — 9/3 复核：EA 满 3 周 ~325 评测 73-74% Mostly Positive（发售时 71% Mixed 回升有限）；批评「Enshrouded clone / barely any content」，世界空、敌人种类少；首周 $100K 商业尚可但内容薄、泛名 SEO 弱 → 等重大内容更新后复查 |
+| 12 | Sir, We Have an Orc Problem | TD + 增量 (2人) | 19 | 7/28 已上线 | ⚠️ 第三方 Guide Hub 已现 | 8/3 | 观望 — 9/3 复核：Very Positive 87-89%（首周 2,000+ 评测）、首周 $1M/12.8 万销量、峰值 7.6K CCU；但内容 ~10h 有限（敌人种类少、无 respec），已现 whisperofthehouse 深度 Guide Hub（塔 tier/走位/技能表）+ player.gg 补丁页 → 无组织化 wiki 但竞争渐起；1.0 完整无后续内容钩子 → 暂不优先 |
 | ~~13~~ | ~~BOMBANANA!~~ | ~~3人 Co-op 拆弹~~ | ~~19~~ | ~~9/2~~ | ~~❌ 无~~ | 8/3 | ✅ 已建站（9/1）→ bombananawiki，10 guides，9/2 发售，demo 97% 好评/600 万试玩/峰值 CCU 4 万/1M+ wishlist |
 | 14 | Blood Dungeon | Bullet Heaven 平台跳跃 (Messhof) | ~~17~~ **16** | 8/25 已上线 | ❌ 无 | 8/3 | ⏸️ 观望（9/1 复查）— 8/25 复查：今日如期发售；Steam 用户评测暂无数据、价格 [待确认]；critic 两极（PC Gamer 66 vs Game Informer 8/10）；⚠️ 含裸体/粗俗内容，AdSense 合规风险；英中日零 wiki |
 | 15 | Mortal Shell II | Souls-like ARPG | 16 | 8/20 | ⚠️ 竞争激烈 | 8/1 | 观望（IGN/Ludo.guide/社区Wiki已存在） |
@@ -39,9 +39,9 @@
 | ~~33~~ | ~~Crimson Moon~~ | ~~魂系动作 RPG (ProbablyMonsters)~~ | ~~19~~ **18** | ~~9/1~~ | ~~❌ 无~~ | 8/10 | ✅ 已建站（8/28）→ crimsonmoonwiki，16 guides，QA 有条件 PASS，已部署；9/1 发售，~365K wishlist 榜#130，英中日韩零 wiki，同名污染→专属长尾 SEO |
 | 34 | Dressmaker | 缝纫模拟 (Free Lives/Cozy Lives) | 19 | 9/21 | ❌ 无 | 8/10 | 推荐 — 200K+ wishlist、itch 原型 155K 下载；名字泛化风险；9 月中旬建站 |
 | 35 | Ledgerbound | 战术 RPG + 恋爱 (OmniMegaSuperCorp) | ~~19~~ **16** | 8/13 已上线 | ❌ 无 | 8/10 | ⏸️ 观望（9/15 复查）— 8/25 复查：8/13 才发售（原定 8/11，Steam 内容审查延迟 2 天）；~236 评测 91% 特别好评但 12 天增速慢；$29.99 高价；存档损坏/无手动存档 bug 口碑风险；英中日零 wiki |
-| 36 | Anomaly President | Roguelike 动作 + 竞选管理 (Phew Phew) | 19 | 8/3 EA | ❌ 无 | 8/10 | 推荐 — 690+ 评测 93% Very Positive；EA 内容有限；观察首月更新后建站 |
+| 36 | Anomaly President | Roguelike 动作 + 竞选管理 (Phew Phew) | 19 | 8/3 EA | ❌ 无 | 8/10 | ✅ **9/3 门禁开 → 推荐建站**：EA 满月（首月 8/20 更新 Food Truck/平衡 已发；roadmap 至 9 月+ 新武器/敌人）；评测 690→~1,300（92% Very Positive）持续增长；英日中零 wiki，仅 2 篇轻量第三方攻略；双循环系统（竞选管理+夜间动作）+ Anomaly Powers/Boss/武器 = 充足长尾题材；卡通化暴力无 R18，AdSense 干净 |
 | 37 | Silver Pines | 恐怖 Metroidvania (Wych Elm/Team17) | 19 | 10/8 | ❌ 无 | 8/10 | 观望 — 83-112K wishlist、社区 10-11K 成员；银河城长尾 + Team17 营销；9 月底复查 |
-| 38 | Combolands | 肉鸽城市建造 (Crux/Landfall) | ~~18~~ **16** | 8/24 已上线 | ❌ 无 | 8/10 | ⏸️ 观望（9/1 复查）— 8/25 复查：8/24 如期发售、首日 100% 好评但评测量未公开；峰值 CCU >1K；$9.99（-20% 至 8/31）；2 人团队+低价限制生命周期；英中日零 wiki |
+| 38 | Combolands | 肉鸽城市建造 (Crux/Landfall) | ~~18~~ **16** | 8/24 已上线 | ⚠️ ProdigyGamers 攻略已现 | 8/10 | ⏸️ 观望 — 9/3 补做 9/1 复查：97% 好评维持（评测量[待核]）、Polygon「best new roguelite in years」背书；ProdigyGamers 9/1 出隐藏公会解锁攻略；内容深度尚可（7+2 公会/120 建筑）但 2 人团队+$8-10 低价+单人+仅英文 → 需求上限受限；英中日零组织化 wiki → 维持观望 |
 | 39 | Entropy | 战术回合制 RPG (Lovely Hellplace) | 18 | 8/18 EA | ❌ 无 | 8/10 | 观望 — Dread Delusion 开发者、~67K wishlist；名字泛化 SEO 弱、EA 仅 Act 1；EA 后复查 |
 | 40 | Nimbit Frontier | 怪物养成生活模拟 (Megasploot) | 18 | 8/17 EA | ❌ 无 | 8/10 | 观望 — 20.5K wishlist 偏弱；EA 1.5 年；首周 >300 评测可升级 |
 | 41 | Tiny Monster Haven | Idle 怪物收集+农场 (Digging Dino) | 17 | 8/11 | ❌ 无 | 8/10 | 观望 — 50 怪物+回合战斗+迷你战役；idle 品类浅、wishlist 无数据 |

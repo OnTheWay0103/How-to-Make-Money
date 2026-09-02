@@ -4,11 +4,37 @@
   "ruleUpdated": "2026-09-02",
   "pvSnapshotDate": "2026-09-02",
   "sites": [
-    { "site": "sephiriawiki", "pv": 11110, "lastExpanded": "2026-09-01" },
-    { "site": "themoundwiki", "pv": 4916, "lastExpanded": "2026-09-02" },
-    { "site": "spiritvalewiki", "pv": 4904, "lastExpanded": "2026-08-28" },
-    { "site": "tearsofmetalwiki", "pv": 1837, "lastExpanded": "2026-08-30" },
-    { "site": "grainrotwiki", "pv": 1101, "lastExpanded": "2026-08-31" }
+    {
+      "site": "sephiriawiki",
+      "pv": 11110,
+      "lastExpanded": "2026-09-03"
+    },
+    {
+      "site": "themoundwiki",
+      "pv": 4916,
+      "lastExpanded": "2026-09-03"
+    },
+    {
+      "site": "spiritvalewiki",
+      "pv": 4904,
+      "lastExpanded": "2026-08-28"
+    },
+    {
+      "site": "tearsofmetalwiki",
+      "pv": 1837,
+      "lastExpanded": "2026-09-03"
+    },
+    {
+      "site": "grainrotwiki",
+      "pv": 1101,
+      "lastExpanded": "2026-09-03"
+    }
   ],
-  "skips": []
+  "skips": [
+    {
+      "site": "spiritvalewiki",
+      "date": "2026-09-03",
+      "reason": "素材/缺口双不足：站内 40 篇已覆盖全部候选缺口（trading-market-guide 已深挖拍卖行、refinement 成功率三页覆盖、Weaver [Unconfirmed] 无数据、Grimoires 未确认在当前 EA build 上线、区域命名外部来源互相矛盾）。Steam/Reddit/媒体采集均不满足高频≥3 独立来源+真缺口+不编造四条件。按规则宁缺毋滥跳过，次日优先补该站。"
+    }
+  ]
 }

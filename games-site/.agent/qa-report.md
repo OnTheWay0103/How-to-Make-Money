@@ -757,3 +757,108 @@ QA deep: 上次 8/25，未超 7 天，跳过
 1. Steam 官方补丁正文（Patch 1.03 完整公告文本）因 age-gate / ECONNREFUSED 无法直抓，官方声明仅引用 announcement 页面标题级事实；已用 honesty note 明确声明，未编造引语
 2. 新增 guide 正文 1708 词，超出 800-1500 SOP 目标——与站内既有指南（coop-strategy ~3000、performance ~1800）一致，内容密实无注水，保留
 3. themoundwiki 本轮与 spiritvalewiki 同批完成 geist 自托管字体切换（基建变更，见 QA Deep 记录）
+
+# QA Report — 2026-09-03（每日内容扩充 EXPAND-012/013/015/016，spiritvalewiki 跳过）
+
+## 执行摘要
+
+- **模式**: quick × 4（每篇扩充一站独立审查）+ 1 站跳过（素材/缺口不足，宁缺毋滥）
+- **审核对象**: sephiriawiki（EXPAND-012 katana-build-guide）/ themoundwiki（EXPAND-013 isolation-guide）/ tearsofmetalwiki（EXPAND-015 crash-launch-fix-guide）/ grainrotwiki（EXPAND-016 multiplayer-matchmaking-guide）
+- **结果**: 4/4 站 ✅ **PASS**（0 🔴 阻断 / 0 🟡 阻断；少量记录项），均已部署并线上验证 HTTP 200。spiritvalewiki 当日跳过（理由见 expand-daily.json）。
+
+---
+
+## 一、QA-QUICK-014 — sephiriawiki（EXPAND-012，katana-build-guide）
+
+### 审查范围
+- **新增** `content/guides/katana-build-guide.md`（1,498 词）— 问题导向：Is the Katana Good in 1.0? Best Katana Evolutions (Heidi vs Blazing Helbanus)
+
+### 选题缺口核实
+- Katana 是 6 武器中唯一没有独立 build 页的武器（crossbow/dagger/greatsword/staff/sword-shield 均有）
+- 高频证据：Steam Community 帖「Katana feed back」（Muramasa Swift Slash 慢/疑似 bug、Library Spectral dash 失效、推荐 Heidi + Blazing Helbanus）+ GrindNStrat / Destructoid / SlashSkill / XModHub 四家 1.0 武器 tier list（Katana B-tier、执行依赖）+ bilibili 中文全武器榜独立佐证
+
+### 残留 / 编造 / 一致性
+| 检查项 | 结果 |
+|--------|:--:|
+| 他站游戏名/域名/模板残留 | ✅ 0 命中 |
+| 虚构玩家引语 | ✅ 0（honesty note 说明 Steam 正文无法直抓，Community 均带来源） |
+| 进化机制断言（Muramasa/Library Spectral/Heidi/Helbanus） | ✅ Community/Editorial 可溯源；单一来源细节（60% Swift Slash buff、overheat 窗口、Lava Bead 叠加、Spectral dash bug）标 [Unconfirmed] |
+| related[] 8 个 slug | ✅ 全部真实存在 |
+| 术语口径 | ✅ 与 faq/weapons/builds 一致（combo flow、skill-gated、Glass Cannon Melee、Mystic Pot） |
+| 自噬检查 | ✅ 进化名 Heidi/Helbanus/Muramasa 不在其他 guide 出现；weapons-guide 仅泛述 Katana |
+| frontmatter updated | ✅ 2026-09-03 |
+
+**判定**: ✅ **PASS**。🟡 记录项：若干进化级机制为单一社区帖来源（已 [Unconfirmed]），待下个动 Katana 的平衡补丁后复核。
+
+## 二、QA-QUICK-015 — themoundwiki（EXPAND-013，isolation-guide）
+
+### 审查范围
+- **新增** `content/guides/isolation-guide.md`（1,500 词）— 组队离队/落单触发 Isolation 惩罚（屏边变灰/画面扭曲/根束缚/定向刷怪），原 34 篇全未覆盖
+
+### 选题缺口核实
+- 证据 ≥6 独立来源：Steam 社区帖（西语新手帖）+ NoobFeed「How Isolation Works」+ OutputLag co-op 攻略 + 2UpSkill（惩罚落单者）+ ChapterCheats 首局失误 + TheSixthAxis/GamerScout/Xbox Nation/Gazettely 评测（分离致语音切断/森林模仿队友/尸体腐化追猎）+ Backloggd 评测（官方不解释机制）
+
+### 残留 / 编造 / 一致性
+| 检查项 | 结果 |
+|--------|:--:|
+| 他站游戏名/域名/模板/中文残留 | ✅ 0 命中 |
+| 单一来源机制（Whispering Statue、根/蜘蛛袭击细节、Luz del Sur 蘑菇、solo 差异） | ✅ 全部 [Unconfirmed] |
+| Isolation 与 Sanity 系统关系 | ✅ 各源说法不一（NoobFeed=独立系统 vs OutputLag/Steam=Sanity 惩罚）→ 如实呈现矛盾，未强行定论 |
+| related[] 6 个 slug | ✅ sanity/coop-strategy/solo/extraction/maps-locations/enemy-bestiary 全部存在 |
+| 术语口径 | ✅ Ox Cart/Ox Wagon、Sanity、Galleon 与 sanity-guide/coop-guide 一致 |
+
+**判定**: ✅ **PASS**。🟡 记录项：Isolation↔Sanity 从属关系跨源冲突，文内已双说并存并标注。
+
+## 三、QA-QUICK-016 — tearsofmetalwiki（EXPAND-015，crash-launch-fix-guide）
+
+### 审查范围
+- **新增** `content/guides/crash-launch-fix-guide.md`（1,498 词）— 启动崩溃/黑屏修复；此前仅 steam-deck-guide 内一行带过
+
+### 选题缺口核实
+- 证据：2UpSkill（Black Screen 9 Ways）+ The CPU Guide（8 Quick FIXES）+ XModHub（Crash/FPS）+ 官方 Steam 补丁史（v0.10.57598 7/31、v0.14.58630 8/14 稳定性修复）+ Steam Support 技术流程
+
+### 残留 / 编造 / 一致性
+| 检查项 | 结果 |
+|--------|:--:|
+| 他站游戏名/域名/模板残留 | ✅ 0 命中 |
+| 未验证值（AppData 路径、驱动版本、-dx11 开关） | ✅ [Unconfirmed] 或标准修复标注 |
+| related[] | ✅ 全部存在 |
+| 一致性 | ✅ 与 steam-deck-guide 技术口径一致，正文出现 -dx11/verify integrity/launch option 均渲染验证 |
+
+**判定**: ✅ **PASS**。🟡 记录项：Reddit 无直达来源，社区层由第三方修复指南 + 官方补丁构成（guide 已说明）。
+
+## 四、QA-QUICK-017 — grainrotwiki（EXPAND-016，multiplayer-matchmaking-guide）
+
+### 审查范围
+- **新增** `content/guides/multiplayer-matchmaking-guide.md`（1,499 词，自 1,796 压到 SOP 上限内）— 联机仅邀请制、无公开匹配/服务器浏览器（社区第一诉求）
+
+### 选题缺口核实
+- 证据：Steam Community 发售讨论帖（invite only / matchmaking must have / server browser 期待）+ VaporLens 差评统计（No public matchmaking 列 top negatives）+ 官方商店页（Online Co-Op only、无 matchmaking tag）+ vgspoilers Patch 1.04（加 lobby privacy/max-player/view-lobby 但仍无匹配）
+
+### 残留 / 编造 / 一致性
+| 检查项 | 结果 |
+|--------|:--:|
+| 他站游戏名/域名/HTML/Hugo/中文残留 | ✅ 0 命中 |
+| 未验证细节（Tab+Shift 呼出、guest 存档进度） | ✅ [Unconfirmed]（guest-save 社区报告） |
+| 相关 slug + 行内 /guides/* 引用 | ✅ 全部存在 |
+| frontmatter 单引号风格 | ✅ 与站内一致 |
+
+**判定**: ✅ **PASS**。🟡 记录项：无 Reddit 子版（该游戏没有）；guest 存档进度社区层 → 已 [Unconfirmed]；待官方出服务器浏览器后此页需第一时间更新。
+
+## 五、跳过记录 — spiritvalewiki（EXPAND-014）
+
+- **原因**: 站内 40 篇覆盖极广且已同步至 8/17 v0.30.14。逐一核验候选缺口均不满足「高频 ≥3 独立来源 + 真缺口 + 不编造」：trading-market-guide 已深挖拍卖行（5% 卖家税/30 上架/Listing Types/Premium Pass/倒卖）；refinement 成功率已被 gear-progression/endgame/weapons 三处覆盖且站内刻意模糊口径（外部 100%/70%/40%/20% 与站内不一致，写细则=编造数值风险）；Weaver 进阶站内已 [Unconfirmed] 无数据；Grimoires 属 0.17.0 Playtest / roadmap（MassivelyOP 8/17 列为 next major update），当前 EA 未确认上线；区域命名外部来源互相矛盾（Vale's Rest vs Nearis 等）；移动输入 bug/服务器/回档/银行扩容均已覆盖。
+- **尝试来源**: Steam Community/评测、Reddit（site:reddit.com 零索引）、MassivelyOP 7/21+7/22+8/17、pcgames.de、automaton、primagames、gameguidesbox、exitlag、gamerhour、online-station、2upskill、prodigygamers、lagofast、mmochronicles、SteamDB。
+- **处理**: 跳过原因已记入 `.agent/expand-daily.json` skips，**次日优先补该站**。
+
+## QA 结果汇总（供主 Agent 决策）
+
+| 站点 | 任务 | 新增 guide | 判定 | 阻断 |
+|------|------|-----------|:--:|:--:|
+| sephiriawiki | EXPAND-012 | katana-build-guide | ✅ PASS | 0 |
+| themoundwiki | EXPAND-013 | isolation-guide | ✅ PASS | 0 |
+| spiritvalewiki | EXPAND-014 | —（跳过） | ⏭️ 记录原因 | — |
+| tearsofmetalwiki | EXPAND-015 | crash-launch-fix-guide | ✅ PASS | 0 |
+| grainrotwiki | EXPAND-016 | multiplayer-matchmaking-guide | ✅ PASS | 0 |
+
+**结论**: 4/4 站 PASS，0 🔴；全部已部署，新页线上 HTTP 200。可提交上线。次日扩充优先补 spiritvalewiki。

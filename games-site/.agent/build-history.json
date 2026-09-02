@@ -1,6 +1,71 @@
 {
  "builds": [
   {
+   "game": "Grain Rot",
+   "date": "2026-09-03",
+   "genre": "Horror co-op extraction builder (Beck & Branch Games)",
+   "template": "grainrotwiki existing (no template change)",
+   "mode": "expand-feedback (EXPAND-016, daily per-site, feedback-driven)",
+   "guidesAdded": 1,
+   "guides": 27,
+   "deployed": true,
+   "pipeline": "EXPAND-016 (feedback analyst 9/3 → multiplayer-matchmaking-guide → QA quick PASS → deploy 9/3 → live HTTP 200)",
+   "qa": "QA quick 9/3 — PASS (0 🔴 / 0 🟡 blocking). Gap: invite-only multiplayer / no public matchmaking only had a passing 8/11 FAQ line. Steam Community launch discussion + VaporLens negative-review stats + official store page (Online Co-Op only, no matchmaking tag) + vgspoilers Patch 1.04. 1,499 words (trimmed from 1,796 to SOP cap). [Unconfirmed] on Tab+Shift bind + guest-save progression (no Reddit subreddit exists — noted). No cross-site residue.",
+   "issues": [
+    "Guest-save progression community-reported → [Unconfirmed]",
+    "No public matchmaking remains the top community request — revisit when devs ship a server browser"
+   ],
+   "lessons": "EXPAND-016 (9/3, grainrotwiki 27 guides): +1 multiplayer-matchmaking-guide. Most-requested feature gap (invite-only/no matchmaking) documented as a live page to update the moment a server browser ships."
+  },
+  {
+   "game": "Tears of Metal",
+   "date": "2026-09-03",
+   "genre": "Scottish action roguelike (Paper Cult)",
+   "template": "tearsofmetalwiki existing (no template change)",
+   "mode": "expand-feedback (EXPAND-015, daily per-site, feedback-driven)",
+   "guidesAdded": 1,
+   "guides": 29,
+   "deployed": true,
+   "pipeline": "EXPAND-015 (feedback analyst 9/3 → crash-launch-fix-guide → QA quick PASS → deploy 9/3 → live HTTP 200)",
+   "qa": "QA quick 9/3 — PASS (0 🔴 / 0 🟡 blocking). Gap: startup/black-screen crash cluster only had a one-liner inside steam-deck-guide. 2UpSkill + The CPU Guide + XModHub + official Steam patch history (v0.10.57598 7/31, v0.14.58630 8/14). 1,498 words. [Unconfirmed] on AppData path / driver versions. No cross-site residue.",
+   "issues": [
+    "Reddit source not reachable; community layer = third-party fix guides + official Steam patch notes (noted in guide)"
+   ],
+   "lessons": "EXPAND-015 (9/3, tearsofmetalwiki 29 guides): +1 crash-launch-fix-guide. Launch-stability problems from the 7/22 EA launch were a real gap the site only touched inside the Steam Deck guide."
+  },
+  {
+   "game": "The Mound: Omen of Cthulhu",
+   "date": "2026-09-03",
+   "genre": "1-4 Player Co-op Lovecraftian Extraction Horror (ACE Team / NACON)",
+   "template": "themoundwiki existing (no template change)",
+   "mode": "expand-feedback (EXPAND-013, daily per-site, feedback-driven)",
+   "guidesAdded": 1,
+   "guides": 35,
+   "deployed": true,
+   "pipeline": "EXPAND-013 (feedback analyst 9/3 → isolation-guide → QA quick PASS → deploy 9/3 → live HTTP 200)",
+   "qa": "QA quick 9/3 — PASS (0 🔴 / 0 🟡 blocking). Gap: co-op separation 'Isolation' penalty (screen grays/roots grab when leaving the group) was uncovered by all 34 existing guides. Evidence: Steam Community thread + NoobFeed 'How Isolation Works' + OutputLag + 2UpSkill + ChapterCheats + media reviews (6+ independent). 1,500 words. Conflicting Isolation-vs-Sanity relationship across sources presented honestly, not forced to one answer; single-source mechanics [Unconfirmed]. No residue.",
+   "issues": [
+    "Isolation/Sanity relationship differs by source (NoobFeed treats Isolation as separate; OutputLag/Steam thread fold it into Sanity) — guide presents both and marks the discrepancy"
+   ],
+   "lessons": "EXPAND-013 (9/3, themoundwiki 35 guides): +1 isolation-guide. Second straight daily expand for themound hit a real system the wiki never explained — unexplained co-op penalty systems are a rich feedback vein."
+  },
+  {
+   "game": "Sephiria",
+   "date": "2026-09-03",
+   "genre": "Pixel-art action roguelite (TEAM HORAY)",
+   "template": "sephiriawiki existing (no template change)",
+   "mode": "expand-feedback (EXPAND-012, daily per-site, feedback-driven)",
+   "guidesAdded": 1,
+   "guides": 31,
+   "deployed": true,
+   "pipeline": "EXPAND-012 (feedback analyst 9/3 → katana-build-guide → QA quick PASS → deploy 9/3 → live HTTP 200)",
+   "qa": "QA quick 9/3 — PASS (0 🔴 / 0 🟡 blocking). Gap: Katana was the only one of the 6 weapons without a dedicated build guide. Evidence: Steam Community thread 'Katana feed back' + GrindNStrat/Destructoid/SlashSkill/XModHub 1.0 tier lists + bilibili CN ranking. 1,498 words. Evolution claims (Muramasa Swift Slash slow/bugged, Library Spectral dash, Heidi burst, Blazing Helbanus burn) Community/Editorial-sourced with [Unconfirmed] markers; honesty note included. No cross-site residue.",
+   "issues": [
+    "Some Katana evolution mechanics single-thread-sourced → [Unconfirmed]; re-check after next balance patch touches Katana"
+   ],
+   "lessons": "EXPAND-012 (9/3, sephiriawiki 31 guides): +1 katana-build-guide. Weapon-coverage self-audit gap (5 of 6 weapons had build guides) surfaced by live player criticism of the Katana's 1.0 evolutions."
+  },
+  {
    "game": "The Mound: Omen of Cthulhu",
    "date": "2026-09-02",
    "genre": "1-4 Player Co-op Lovecraftian Extraction Horror (ACE Team / NACON)",
