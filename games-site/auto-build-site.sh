@@ -89,14 +89,15 @@ if [ "$DRY_RUN" = true ]; then
     CLAUDE_PROMPT="Use the discover-games skill. Search for trending Steam games, check Wiki coverage, score candidates, output to .agent/candidate-pool.md. Do NOT build any sites."
 else
     log "🧠 运行主管 Agent（多Agent协作模式）..."
-    CLAUDE_PROMPT="Use the coordinator skill. Read the stats doc, candidate pool, and performance data. Decide what to do: discover new games if pool is empty, build new sites for high-score candidates, or expand content for high-PV sites. Dispatch sub-agents as needed. IMPORTANT: After every build or expand, run quality-assurance (quick mode) on the affected site. If QA deep is >7 days overdue, run full audit. Write QA results to .agent/qa-report.md. Commit and push any changes."
+    CLAUDE_PROMPT="Use the coordinator skill. Read the stats doc, candidate pool, and performance data. FIRST and MANDATORY: run daily content expansion — write one new feedback-driven article for EVERY site in the PV>1000 list (.agent/expand-daily.json, currently: sephiriawiki, themoundwiki, spiritvalewiki, tearsofmetalwiki, grainrotwiki). Run the expansions in parallel (1-2 sites per sub-agent); for each site: collect real player feedback (Steam/Reddit/reviews) → pick 1 high-frequency, specific, uncovered problem → write the 800-1500 word guide → QA quick → deploy. If a site has no usable material today, record the skip reason in .agent/expand-daily.json and catch it up next day; do NOT write without real feedback. After expansions are done, then: discover new games only if the pool is empty, or build a new site only if a candidate scores >=15 (max 1 new site/day). IMPORTANT: After every build or expand, run quality-assurance (quick mode) on the affected site. If QA deep is >7 days overdue, run full audit. Write QA results to .agent/qa-report.md. Commit incrementally during long runs (so partial work is not lost if the run is interrupted), then a final commit+push."
 fi
 
 log "执行: claude -p '$CLAUDE_PROMPT' --permission-mode bypassPermissions"
 log ""
 
 # 执行 Claude Code（非交互模式）
-# timeout: 30 分钟（足够 Agent 完成搜索+评估+建站+部署全流程）
+# 预期耗时（2026-09-02 起）：每日内容扩充 5 站并行约 1-2 小时，加建站/侦察可达 2-3 小时。
+# 不设硬超时；长跑中断丢工作的风险由 coordinator 分批 commit 兜底。日志见 LOG_DIR。
 cd "$PROJECT_DIR"
 
 # 使用临时文件捕获 exit code，避免 PIPESTATUS 在 pipefail 下未定义
