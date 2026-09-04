@@ -36,8 +36,10 @@ Tears of Metal launched on July 22, 2026 on Steam Early Access at $24.99, and ho
 | [Threat Level & Difficulty Guide](/guides/threat-level-difficulty-guide) | Why the game gets harder | Advanced |
 | [Save System Guide](/guides/save-system-guide) | Mid-run saves & recovery | Intermediate |
 | [Multiplayer & Connection Fixes](/guides/multiplayer-connection-fix-guide) | Desync & crossplay fixes | Fixes |
+| [Low FPS & Stutter Fix](/guides/low-fps-fix-guide) | PC performance in big battles | Fixes |
 | [Village Upgrade Guide](/guides/village-upgrade-guide) | Progression planning | Intermediate |
 | [Boss Guide](/guides/boss-guide) | Boss encounters | Intermediate |
+| [Armor & Shield Break Guide](/guides/armor-break-guide) | Armored enemies & grey bars | Intermediate |
 | [Healing Guide](/guides/healing-guide) | Recovery & coin budgeting | Intermediate |
 | [Emblem & Artifact Guide](/guides/emblem-artifact-guide) | Synergy systems | Advanced |
 | [Co-op Guide](/guides/co-op-guide) | Team play | Starter |

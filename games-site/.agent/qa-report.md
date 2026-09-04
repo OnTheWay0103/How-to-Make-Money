@@ -862,3 +862,49 @@ QA deep: 上次 8/25，未超 7 天，跳过
 | grainrotwiki | EXPAND-016 | multiplayer-matchmaking-guide | ✅ PASS | 0 |
 
 **结论**: 4/4 站 PASS，0 🔴；全部已部署，新页线上 HTTP 200。可提交上线。次日扩充优先补 spiritvalewiki。
+
+---
+
+## QA — 9/4 中断批次恢复 + 9/5 每日扩充（2026-09-05）
+
+> 背景：9/4 run 被 600s 超时终止，4 站扩充指南写好未 QA/commit/部署；9/3 run 的 BUILD-007 anomalypresidentwiki 亦未收尾。本日先恢复 9/4 批次，再跑 9/5 周期扩充。QA 明细见 `.agent/qa-orphans-{A,B}.md` 与 `.agent/qa-expand-{sephiria,grainrot,tearsofmetal}-9-5.md`。
+
+### 一、9/4 批次恢复（4 篇，QA quick）
+
+| 站点 | guide | 判定 | 说明 |
+|------|-------|:--:|------|
+| grainrotwiki | performance-lag-fix-guide | ✅ PASS | WebSearch 抽查 5 组断言全命中（app 4450620/最低配置/VaporLens Poor optimization/thecpuguide 等）；1188 词 |
+| themoundwiki | blood-moon-guide | ✅ PASS | 抽查全命中（app 2569760/NoobFeed/Gameplay.tips/nerdschalk/gamerguides）；已上线 200 + sitemap，无需重部署 |
+| sephiriawiki | coop-freeze-recovery-guide | ✅ PASS | 抽查 6 项全命中（Steam 帖 URL 逐字/补丁链 1.0.23-1.0.30/log 路径与 save-file-guide 一致）；1473 词 |
+| tearsofmetalwiki | armor-break-guide | ✅ PASS | 三英雄 Wallace/Ruadh/Brienne 身份武器全对；灰条/破甲/补丁 0.11.57863 验证；1390 词 |
+
+### 二、9/5 周期扩充（3 篇新指南 + 2 站跳过，QA quick）
+
+| 站点 | 任务 | 新增 guide | 判定 | QA 发现与处理 |
+|------|------|-----------|:--:|------|
+| sephiriawiki | EXPAND-017 | controller-casting-keybind-fix-guide | 🟡→修复→✅ | 🟡-HIGH 补丁误归因（quick-cast 实为 1.0.26 8/13 实装，误标 1.0.30）→ FIX 后 1.0.30 仅 recap 语境；1498 词 |
+| grainrotwiki | EXPAND-018 | survive-enemy-chase-guide | 🔴→修复→✅ | 🔴 编造残留：Vanguard "Iron Bastion" 无来源（本站 co-op-guide 已回撤该命名）→ 已剔除改通用表述；🟡 aggro 归因 [Unconfirmed] 合规；🟢 引用/related 修正；1442 词 |
+| tearsofmetalwiki | EXPAND-019 | low-fps-fix-guide | 🟡→修复→✅ | 🟡×3：GPU 帧率数值误挂 2UpSkill→改挂 XModHub；补丁版本表述一致化（v0.8.57278 精确标注 120→60 cap）；1789→1442 词压回区间 |
+| themoundwiki | EXPAND-018 | —（9/5 新鲜题 SKIP） | ⏭️ | 30 条负面评测主题全被 35 篇覆盖；blood-moon（9/4 周期）本日已上线 |
+| spiritvalewiki | EXPAND-019 | —（SKIP，3 连） | ⏭️ | 0.31.0 Dark Fortress 仅单官方源，宁缺毋滥；updates-patch-notes 滞后 P0 待校准 |
+
+### 三、线上验证（部署后）
+
+| 站点 | 路径 | 结果 |
+|------|------|:--:|
+| grainrotwiki | /guides/performance-lag-fix-guide, /guides/survive-enemy-chase-guide | ✅ HTTP 200 + 内容标记 |
+| sephiriawiki | /guides/coop-freeze-recovery-guide, /guides/controller-casting-keybind-fix-guide | ✅ HTTP 200 + 内容标记（1.0.26 已上线） |
+| tearsofmetalwiki | /guides/armor-break-guide, /guides/low-fps-fix-guide | ✅ HTTP 200 + 内容标记 |
+| themoundwiki | /guides/blood-moon-guide | ✅ 9/4 已上线（本日核对一致） |
+
+### QA 结果汇总（供主 Agent 决策）
+
+| 站点 | 任务 | 判定 | 阻断 |
+|------|------|:--:|:--:|
+| grainrotwiki | 9/4 恢复 perf-lag + EXPAND-018 enemy-chase | ✅ PASS（1 🔴 已修） | 0 |
+| sephiriawiki | 9/4 恢复 coop-freeze + EXPAND-017 controller-casting | ✅ PASS（🟡 已修） | 0 |
+| tearsofmetalwiki | 9/4 恢复 armor-break + EXPAND-019 low-fps | ✅ PASS（🟡 已修） | 0 |
+| themoundwiki | 9/4 恢复 blood-moon（已上线） | ✅ PASS | 0 |
+| spiritvalewiki | EXPAND-019 | ⏭️ SKIP（0.31.0 单源） | — |
+
+**结论**: 9/4 恢复批次 4/4 PASS、9/5 扩充 3/3 PASS（含 2 次 🔴/🟡 修复后复检），5 站均已部署/核对，新页线上 HTTP 200。次日扩充仍优先补 spiritvalewiki（等 0.31.0 独立来源）。BUILD-007 anomalypresidentwiki 单独 QA（进行中）。

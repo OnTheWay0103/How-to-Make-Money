@@ -7,12 +7,12 @@
     {
       "site": "sephiriawiki",
       "pv": 11110,
-      "lastExpanded": "2026-09-03"
+      "lastExpanded": "2026-09-05"
     },
     {
       "site": "themoundwiki",
       "pv": 4916,
-      "lastExpanded": "2026-09-03"
+      "lastExpanded": "2026-09-04"
     },
     {
       "site": "spiritvalewiki",
@@ -22,12 +22,12 @@
     {
       "site": "tearsofmetalwiki",
       "pv": 1837,
-      "lastExpanded": "2026-09-03"
+      "lastExpanded": "2026-09-05"
     },
     {
       "site": "grainrotwiki",
       "pv": 1101,
-      "lastExpanded": "2026-09-03"
+      "lastExpanded": "2026-09-05"
     }
   ],
   "skips": [
@@ -35,6 +35,21 @@
       "site": "spiritvalewiki",
       "date": "2026-09-03",
       "reason": "素材/缺口双不足：站内 40 篇已覆盖全部候选缺口（trading-market-guide 已深挖拍卖行、refinement 成功率三页覆盖、Weaver [Unconfirmed] 无数据、Grimoires 未确认在当前 EA build 上线、区域命名外部来源互相矛盾）。Steam/Reddit/媒体采集均不满足高频≥3 独立来源+真缺口+不编造四条件。按规则宁缺毋滥跳过，次日优先补该站。"
+    },
+    {
+      "site": "spiritvalewiki",
+      "date": "2026-09-04",
+      "reason": "9/4 run 被 600s 超时终止，未轮到该站即中断（该 run 整体未完成 QA/commit）。"
+    },
+    {
+      "site": "spiritvalewiki",
+      "date": "2026-09-05",
+      "reason": "采集后确认无合规选题：Reddit 仍无活跃 subreddit；Steam 讨论区 9/3 后无新串；发现官方 0.31.0 Dark Fortress（8/25）大更（新地图/Dusk 武器/Echo 套/Grimoires 角色绑定/Bond Targets/PvP 跨服排队），但 WebSearch 对 Dark Fortress/Dusk/Bond Targets 零独立佐证——仅单一官方来源，不满足 ≥3 独立来源，展开写即滑向单源转写/编造。附：updates-patch-notes 页已滞后于 0.31.0（P0 校准建议）。下次触发条件：0.31.0 出现 ≥2 独立来源即可写 Dark Fortress 深度指南。"
+    },
+    {
+      "site": "themoundwiki",
+      "date": "2026-09-05",
+      "reason": "9/5 新鲜选题素材不足：采集 30 条负面 Steam 评测 + 多家媒体评测（IGN/NoobFeed/digitalchumps/cogconnected 等），逐主题映射 35 篇已有指南——崩溃/fatal error 已覆盖（progress-save-recovery 崩溃表/performance config-reset/multiplayer-connection Fatal Error/controls 启动崩溃）、难度尖峰（contracts host-scaling + combat-survival）、雨天枪械失效（weapons-guide）、武器消失/进度（progression-system）、近距离语音（coop-strategy Communication + controls troubleshooting 自噬风险）。Nine Guardians 收集物/Hound of Tindalos 等候选 <3 独立来源或高编造风险。注：9/4 周期 blood-moon-guide 已于本日恢复上线，本站仍有内容产出。"
     }
   ]
 }
