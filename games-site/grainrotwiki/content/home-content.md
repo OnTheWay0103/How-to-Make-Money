@@ -2,7 +2,7 @@
 title: "Grain Rot Wiki — Complete Guide Hub"
 description: "The ultimate community wiki for Grain Rot — the horror co-op extraction builder by Beck & Branch Games. Find vessel guides, enemy strategies, biome walkthroughs, outpost upgrades, and more."
 category: "Home"
-updated: "2026-08-31"
+updated: "2026-09-04"
 keywords: ["Grain Rot", "Grain Rot wiki", "Grain Rot guide", "Beck & Branch Games", "co-op extraction builder", "horror co-op", "Steam"]
 related: ["beginner-guide", "all-enemies-guide", "best-vessels-guide", "co-op-guide"]
 ---
@@ -32,6 +32,8 @@ Grain Rot launched on Steam on August 7, 2026, with nearly 200,000 wishlists and
 | [Release Date & FAQ](/guides/release-date-faq) | Game info | All |
 | [Demo Guide](/guides/demo-guide) | Free demo content | Starter |
 | [Tips & Tricks](/guides/tips-and-tricks) | Advanced strategies | Advanced |
+| [Enemy Chase & Escape Guide](/guides/survive-enemy-chase-guide) | Survive when the Corrupted won't stop chasing | Advanced |
+| [Performance & Lag Fix Guide](/guides/performance-lag-fix-guide) | Low FPS, stutter & co-op lag | Fixes |
 | [FAQ](/faq) | Quick answers | All |
 | [Tier List](/tier-list) | Meta analysis | Advanced |
 
@@ -53,6 +55,9 @@ When to push deeper, when to bail, and how to protect the haul on the way out. [
 
 ### The Rot Debuff
 Why is my vessel vomiting green liquid? What the Rot meter does, how to clear it in sunlight, and the disputed skull symbol — every claim sourced. [Clear the Rot →](/guides/rot-debuff-guide)
+
+### Performance & Lag Fixes
+Low FPS, stutter, and co-op lag — how to tell which kind you have, then fix it: host selection, Ethernet, graphics settings, SSD installs, and shader-cache resets. [Fix the lag →](/guides/performance-lag-fix-guide)
 
 ---
 
