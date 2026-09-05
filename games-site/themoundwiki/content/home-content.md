@@ -38,6 +38,7 @@ The Mound: Omen of Cthulhu launched on July 15, 2026 on Steam, PS5, and Xbox Ser
 | [Solo Guide](/guides/solo-guide) | Playing alone | Intermediate |
 | [Game Length Guide](/guides/game-length-guide) | Content overview | Starter |
 | [Performance & FPS Fix Guide](/guides/performance-fps-fix-guide) | Fix lag, stutter, low FPS | Fixes |
+| [Motion Sickness Fix](/guides/motion-sickness-camera-fix-guide) | Stop camera nausea & head bob | Fixes |
 | [Progress Loss & Save Recovery](/guides/progress-save-recovery-guide) | Recover lost progress | Fixes |
 | [Progression Guide](/guides/progression-system-guide) | What carries over | Intermediate |
 | [FAQ](/faq) | Quick answers | All |
