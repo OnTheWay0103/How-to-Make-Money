@@ -32,6 +32,7 @@ Sephiria 1.0 launched on **July 31, 2026** on Steam with a **Very Positive** rat
 | [Save File Guide](/guides/save-file-guide) | Backup & corrupted-save recovery | Fixes |
 | [Co-op Freeze & Disconnect Recovery](/guides/coop-freeze-recovery-guide) | Mid-run stuck/freeze & dropped runs | Fixes |
 | [Controller Casting & Keybind Fixes](/guides/controller-casting-keybind-fix-guide) | Gamepad cast/dodge & rebind fixes | Fixes |
+| [Crash on Startup / Black Screen Fix](/guides/crash-launch-black-screen-fix-guide) | Won't launch / black screen at boot | Fixes |
 | [Co-op Guide](/guides/coop-guide) | Team play | Intermediate |
 | [Hard Mode Guide](/guides/hard-mode-guide) | Level 60 & all 6 modifiers | Advanced |
 | [Mystic Pot Guide](/guides/mystic-pot-guide) | Artifact re-rolling in 1.0 | Intermediate |
