@@ -1039,6 +1039,27 @@
         "themound home-content Quick Navigation has pre-existing duplicate 'Weapons Guide' row — cleanup candidate."
       ],
       "lessons": "EXPAND-022 (9/6): motion-sickness camera guide. Camera settings as legit high-frequency complaint; official Patch 1.03 FOV/central-dot change is the anchor fact."
+    },
+    {
+      "game": "Anomaly President",
+      "date": "2026-09-06",
+      "genre": "Roguelike action + campaign-management dual loop (Phew Phew Games)",
+      "template": "themoundwiki lineage (cleanest per bestTemplates) + EA honesty/[Unconfirmed] pattern",
+      "mode": "new-build (BUILD-007, gate opened 19/20 on 9/3, EA since 8/3, zero wiki EN/CN/JP)",
+      "guides": 16,
+      "guidesAdded": 16,
+      "deployed": true,
+      "score": 19,
+      "pipeline": "BUILD-007 (scout candidate #36 8/10 → gate 9/3 → keyword-results/anomaly-president.md → build v3 (16 guides) → QA-A 9/5 PASS 8/8 → QA-B 9/5 FAIL (similar-games 5-name fabrication) → fixes → QA-BUILD-007-FINAL 9/6 PASS → deploy 9/6 → live homepage/5 guide slugs//faq//guides all 200 + sitemap 24 locs = 16 guide slugs)",
+      "qa": "QA-BUILD-007-FINAL 9/6 — PASS (🔴 0 / 🟡 0 blocking / 🟢 2). Evidence: .agent/qa-build007-final.md. QA-A 8/8 PASS + QA-B 1 🔴 + 5 🟡/🟢 all closed: similar-games lists re-verified page-by-page vs WeLoveIt/Nodal/WASDland (fabricated 5 names 0 hits on live page), Anomaly Agent re-sourced (N24 120k+ sold; ~95%/~9.5K reviews = Overwhelmingly Positive), PR-chief pronouns unified to she (Steam demo '...and her lovely friend'), v0.5.0.12 row re-verified + v0.5.0.10 row added (8/6 hotfix), GameBrief difficulty misattribution removed. Residue CLEAN, frontmatter 16/16, links 0 BROKEN, body 908-1185 words, 9 fabrication spot-checks all confirmed. Steam Deck presented dual-viewpoint (Verified-positive reviews vs SDHQ 8/18 stability critique).",
+      "issues": [
+        "GA4 not yet — lib/seo-config.ts G-PLACEHOLDER; dashboard registered propertyId PENDING / gaId G-PLACEHOLDER (human creates GA4 property then backfills both)",
+        "GSC verification file MISSING — anomalypresidentwiki/public has only ads.txt, no google12f8715471cef7b7.html (every other site deploys the account-level token); add file + redeploy + submit to GSC",
+        "EA patch cadence high — guide verifies through v0.5.0.18 (8/20); store-tracker already past .18 → re-verify patch-notes-roadmap-guide against Steam News hub on next content refresh",
+        "enemies-guide lists 'two' WIP enemies (Viking/Gentleman) per CultureCombine; some Road-to-EA coverage shows a third 'Werewolf' → reconcile at next expand",
+        "Static /faq vs faq-guide keyword overlap stays an observe item (re-check with GSC data once traffic accrues)"
+      ],
+      "lessons": "BUILD-007 (score 19/20, EA-mid-cycle build ~1 month after 8/3 EA, Phew Phew Games Turkish studio / Anomaly Agent follow-up, App 3156330 $14.99). 16 guides = 5 P0 (beginner, price-platforms, controls-settings, similar-games, patch-notes-roadmap) + campaign-management/campaign-bus dual-loop core + combat/bosses/weapons/enemies/builds-strategy/anomaly-powers/fluffy/night-combat/faq. Zero wiki EN/CN/JP (only 2 lightweight third-party articles at build time) + EA review growth 690→~1,300 (92% Very Positive) = first-mover. Honesty rule: EA unknowns (Bigman live?, Dance/Gift/Marketing rooms, full weapon roster, WIP enemies, HEART details, Epic/GOG/console/mobile, save reset) kept [Unconfirmed]; 3-layer sources (Official/Community/Editorial) in frontmatter; no invented numbers/patch lines. QA-B's single 🔴 (aggregator 5-name attribution) fixed pre-deploy + live-verified 0 hits. Build exit 0 (Next 16.3.4, 29 routes); deploy verified via curl (script health-check race benign). Dashboard registered (PENDING). GA4 + GSC file are the two pre-traffic human tasks."
     }
   ],
   "knownIssues": [

@@ -1,7 +1,7 @@
 # 候选游戏池
 
 > 侦察 Agent 发现的新游戏候选。主管 Agent 读取此文件做建站决策。
-> 最后更新: 2026-09-03（BUILD-GATE 侦察：门禁复核 6 候选，推荐 Anomaly President）
+> 最后更新: 2026-09-06（Anomaly President 9/6 已建站 → anomalypresidentwiki，16 guides，QA PASS 已部署；9/3 BUILD-GATE 门禁开 19/20）
 > 位置：`keyword-results/CANDIDATE-POOL.md` — 随 git 同步，跨机器共享
 
 ## 候选清单
@@ -39,7 +39,7 @@
 | ~~33~~ | ~~Crimson Moon~~ | ~~魂系动作 RPG (ProbablyMonsters)~~ | ~~19~~ **18** | ~~9/1~~ | ~~❌ 无~~ | 8/10 | ✅ 已建站（8/28）→ crimsonmoonwiki，16 guides，QA 有条件 PASS，已部署；9/1 发售，~365K wishlist 榜#130，英中日韩零 wiki，同名污染→专属长尾 SEO |
 | 34 | Dressmaker | 缝纫模拟 (Free Lives/Cozy Lives) | 19 | 9/21 | ❌ 无 | 8/10 | 推荐 — 200K+ wishlist、itch 原型 155K 下载；名字泛化风险；9 月中旬建站 |
 | 35 | Ledgerbound | 战术 RPG + 恋爱 (OmniMegaSuperCorp) | ~~19~~ **16** | 8/13 已上线 | ❌ 无 | 8/10 | ⏸️ 观望（9/15 复查）— 8/25 复查：8/13 才发售（原定 8/11，Steam 内容审查延迟 2 天）；~236 评测 91% 特别好评但 12 天增速慢；$29.99 高价；存档损坏/无手动存档 bug 口碑风险；英中日零 wiki |
-| 36 | Anomaly President | Roguelike 动作 + 竞选管理 (Phew Phew) | 19 | 8/3 EA | ❌ 无 | 8/10 | ✅ **9/3 门禁开 → 推荐建站**：EA 满月（首月 8/20 更新 Food Truck/平衡 已发；roadmap 至 9 月+ 新武器/敌人）；评测 690→~1,300（92% Very Positive）持续增长；英日中零 wiki，仅 2 篇轻量第三方攻略；双循环系统（竞选管理+夜间动作）+ Anomaly Powers/Boss/武器 = 充足长尾题材；卡通化暴力无 R18，AdSense 干净 |
+| ~~36~~ | ~~Anomaly President~~ | ~~Roguelike 动作 + 竞选管理 (Phew Phew Games)~~ | ~~19~~ | ~~8/3 EA~~ | ~~❌ 无~~ | 8/10 | ✅ 已建站（9/6）→ anomalypresidentwiki，16 guides，QA PASS 已部署；9/3 门禁开（19/20）：EA 满月评测 ~1,300（92% Very Positive）、英日中零 wiki、双循环（竞选管理+夜间动作）+ Anomaly Powers/Boss/武器 长尾充足，AdSense 干净 |
 | 37 | Silver Pines | 恐怖 Metroidvania (Wych Elm/Team17) | 19 | 10/8 | ❌ 无 | 8/10 | 观望 — 83-112K wishlist、社区 10-11K 成员；银河城长尾 + Team17 营销；9 月底复查 |
 | 38 | Combolands | 肉鸽城市建造 (Crux/Landfall) | ~~18~~ **16** | 8/24 已上线 | ⚠️ ProdigyGamers 攻略已现 | 8/10 | ⏸️ 观望 — 9/3 补做 9/1 复查：97% 好评维持（评测量[待核]）、Polygon「best new roguelite in years」背书；ProdigyGamers 9/1 出隐藏公会解锁攻略；内容深度尚可（7+2 公会/120 建筑）但 2 人团队+$8-10 低价+单人+仅英文 → 需求上限受限；英中日零组织化 wiki → 维持观望 |
 | 39 | Entropy | 战术回合制 RPG (Lovely Hellplace) | 18 | 8/18 EA | ❌ 无 | 8/10 | 观望 — Dread Delusion 开发者、~67K wishlist；名字泛化 SEO 弱、EA 仅 Act 1；EA 后复查 |
@@ -50,6 +50,7 @@
 
 | 游戏 | 评分 | 建站日 | 站点 |
 |------|:--:|------|------|
+| Anomaly President | 19 | 9/6 | anomalypresidentwiki — 8/3 EA（Phew Phew Games，Roguelike 动作 + 竞选管理双循环）；EA 满月评测 ~1,300（92% Very Positive）、英日中零 wiki；16 guides，QA PASS（.agent/qa-build007-final.md），9/6 首部署已上线 |
 | BOMBANANA! | 19 | 9/1 | bombananawiki — 9/2 发售（Lefto Studio/TARK，3人 Co-op 拆弹派对），demo 97% Overwhelmingly Positive（5,000+ 评测）、600 万试玩、峰值 CCU 4 万、1M+ wishlist，零 wiki；10 guides（P0：入门/三角角色/模块/手册/发售FAQ），QA 待审核，已部署 |
 | Fallen Tear: The Ascension | 18 | 8/31 | fallentearwiki — 9/16 1.0 发售（Winter Crew/CMD 手绘 Metroidvania），EA 2026-03 $19.99 → 1.0 $24.99（-10% 前 14 天），20 区域/33 Boss/21 Fated Bonds，零 wiki（仅 Game8 发售文 + Fextralife 2022 新闻稿）；17 guides，QA PASS，已部署 |
 | Welcome to Elderfield | 20 | 8/30 | welcomeelderfieldwiki — 9/10 发售（Chris Cote/Kwalee cosy horror RPG），~85.1K wishlist + 6.2K 关注，demo 96% 好评 400+ 评测；wiki.gg 官方 wiki 早期占位（非零 wiki，主打 demo 实测 + [Unconfirmed] 诚实标注）；17 guides，20/20 |
@@ -66,7 +67,7 @@
 | Moonlight Peaks | 17 | 7/31 | moonlightpeakswiki |
 | Go-Go Town! | 15 | 8/1 | gotownwiki |
 
-> ⚠️ 完整已建站清单（34 站）见 `dashboard/lib/sites.ts` 与 `.agent/build-history.json`。
+> ⚠️ 完整已建站清单（41 站）见 `dashboard/lib/sites.ts` 与 `.agent/build-history.json`。
 > 注意：**Echoes of Mystralia**（mystraliawiki）与 **Grain Rot**（grainrotwiki）已建站（7 月底），勿重复推荐。
 
 ---

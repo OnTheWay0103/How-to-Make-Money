@@ -1,6 +1,6 @@
 # 游戏攻略站 — 站点统计
 
-> 最后更新：2026-09-03 | 40 站 · 936 篇攻略
+> 最后更新：2026-09-06 | 41 站 · 962 篇攻略
 
 ---
 
@@ -12,15 +12,15 @@
 | 1 | Witchspire | 6/29 | 34 | witchspirewiki.vercel.app | ✅ | ✅ | ✅ | 8/1 反馈驱动 +3 新 +4 纠错；8/11 AdSense Phase1 合规：46→34，8 组合并（精灵/事件/配方/飞行/基建等），去 Patch 版本声明，虚构数字/元素清理 |
 | 2 | Mistfall Hunter | 7/01 | 38 | mistfallhunterwiki.vercel.app | ✅ | ✅ | ✅ | 8/11 AdSense Phase1 合规：53→38，9 组合并（PvP/新手/经济/撤离/赛季等），清除虚构职业/地图/Boss，patch-notes 重写为可验证模式 |
 | 3 | Aincrad | 7/07 | 38 | aincradwiki.vercel.app | ✅ | ✅ | ✅ | 8/11 AdSense Phase1 合规：47→38，9 组合并（伙伴/EX-Mod/Boss/楼层/成长等），武器/Boss/楼层设定校准，去 Patch 版本声明 |
-| 4 | The Mound | 7/14 | 35 | themoundwiki.vercel.app | ✅ | ✅ | ✅ | 8/11 AdSense Phase1 合规：54→32，12 组合并，系统配置对齐 Steam 官方，Patch Notes 去 1.02 未验证声明；8/27 反馈驱动扩充 +1（weapon-durability-repair-guide，QA quick PASS 已部署）；9/2 EXPAND-011 反馈驱动扩充 +1（multiplayer-connection-fix-guide，QA quick PASS 已部署，geist 字体自托管）；9/3 EXPAND-013 反馈驱动扩充 +1（isolation-guide 离队隔离惩罚，QA quick PASS 已部署） |
+| 4 | The Mound | 7/14 | 37 | themoundwiki.vercel.app | ✅ | ✅ | ✅ | 8/11 AdSense Phase1 合规：54→32，12 组合并，系统配置对齐 Steam 官方，Patch Notes 去 1.02 未验证声明；8/27 反馈驱动扩充 +1（weapon-durability-repair-guide，QA quick PASS 已部署）；9/2 EXPAND-011 反馈驱动扩充 +1（multiplayer-connection-fix-guide，QA quick PASS 已部署，geist 字体自托管）；9/3 EXPAND-013 反馈驱动扩充 +1（isolation-guide 离队隔离惩罚，QA quick PASS 已部署） |
 | 5 | SpiritVale | 7/12 | 40 | spiritvalewiki.vercel.app | ✅ | ✅ | ✅ | 8/1 内容配比规则 +1 世界 Boss 速查表（Echoing Spire）；8/28 EXPAND-007 反馈驱动扩充 +1（echoing-spire-endgame-guide 终点爬塔）+ P0 事实校准（免费→$14.99 买断、拍卖行 8/4 回归、职业名 Scout→Gunslinger/Weaver），QA 有条件 PASS 已部署；8/30 R1 P0 职业名旧体系批量修正完成（19 文件：Sniper 虚构职业全清、Gunslinger=Scout 进阶、Weaver=特殊进阶，QA PASS 已部署） |
 | 6 | Skills & Raids | 7/15 | 18 | skillsandraidswiki.vercel.app | ✅ | ✅ | ✅ | 7/27 游戏上线 |
 | 7 | MineGeon | 7/20 | 27 | minegeonwiki.vercel.app | ✅ | ✅ | ✅ | 7/28 游戏上线；8/3 Coordinator 扩充 +2（Walkthrough、Review） |
-| 8 | Sephiria | 7/21 | 32 | sephiriawiki.vercel.app | ✅ | ✅ | ✅ | 7/31 1.0 上线；8/11 AdSense Phase1 合规：48→29，5 组合并（武器/Boss/章节/Builds/物品/更新），清除虚构武器/Boss/神器目录/NG+/第七章，去 Patch 版本声明；8/26 每日扩充 +1（save-file-guide 存档备份恢复，反馈驱动，QA quick PASS）；9/1 EXPAND-010 反馈驱动扩充 +1（dagger-build-guide）；9/3 EXPAND-012 反馈驱动扩充 +1（katana-build-guide，QA quick PASS 已部署） |
+| 8 | Sephiria | 7/21 | 35 | sephiriawiki.vercel.app | ✅ | ✅ | ✅ | 7/31 1.0 上线；8/11 AdSense Phase1 合规：48→29，5 组合并（武器/Boss/章节/Builds/物品/更新），清除虚构武器/Boss/神器目录/NG+/第七章，去 Patch 版本声明；8/26 每日扩充 +1（save-file-guide 存档备份恢复，反馈驱动，QA quick PASS）；9/1 EXPAND-010 反馈驱动扩充 +1（dagger-build-guide）；9/3 EXPAND-012 反馈驱动扩充 +1（katana-build-guide，QA quick PASS 已部署） |
 | 9 | DinoBlade | 7/21 | 15 | dinobladewiki.vercel.app | ✅ | ✅ | ✅ | 8/3 Coordinator 扩充 +3；8/11 AdSense Phase1 合规：27→15，8 组合并，清除 The Mound 残留/虚构 Boss/机制名/联机 PvP，价格对齐 $19.99 |
 | 10 | Mystralia | 7/22 | 29 | mystraliawiki.vercel.app | ✅ | ✅ | ✅ | 8/11 EA 上线；8/11 AdSense Phase1 合规：40→29，8 组合并，虚构区域/法术/地牢/货币清理，Memories 110→100+ 校准，系统配置对齐 Steam 官方 |
-| 11 | Tears of Metal | 7/23 | 29 | tearsofmetalwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 反馈驱动 +3 新 +2 纠错（英雄名校准）；8/1 内容配比 +5（Wallace/Brienne/Ruadh 独立 Build 页、Corruption 机制、装备指南）+ 修复旧英雄/Boss 名残留；8/30 EXPAND-008 反馈驱动扩充 +1（healing-guide 治疗与回血经济，QA 有条件 PASS 已部署）；9/3 EXPAND-015 反馈驱动扩充 +1（crash-launch-fix-guide，QA quick PASS 已部署） |
-| 12 | Grain Rot | 7/24 | 27 | grainrotwiki.vercel.app | ✅ | ✅ | ✅ | 8/7 游戏上线；8/3 1.0 内容更新（全量内容清单、生物群系+2、wishlist 25万→250k）；8/31 EXPAND-009 反馈驱动扩充 +1（rot-debuff-guide，QA PASS 已部署）；9/3 EXPAND-016 反馈驱动扩充 +1（multiplayer-matchmaking-guide，QA quick PASS 已部署） |
+| 11 | Tears of Metal | 7/23 | 32 | tearsofmetalwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 反馈驱动 +3 新 +2 纠错（英雄名校准）；8/1 内容配比 +5（Wallace/Brienne/Ruadh 独立 Build 页、Corruption 机制、装备指南）+ 修复旧英雄/Boss 名残留；8/30 EXPAND-008 反馈驱动扩充 +1（healing-guide 治疗与回血经济，QA 有条件 PASS 已部署）；9/3 EXPAND-015 反馈驱动扩充 +1（crash-launch-fix-guide，QA quick PASS 已部署） |
+| 12 | Grain Rot | 7/24 | 29 | grainrotwiki.vercel.app | ✅ | ✅ | ✅ | 8/7 游戏上线；8/3 1.0 内容更新（全量内容清单、生物群系+2、wishlist 25万→250k）；8/31 EXPAND-009 反馈驱动扩充 +1（rot-debuff-guide，QA PASS 已部署）；9/3 EXPAND-016 反馈驱动扩充 +1（multiplayer-matchmaking-guide，QA quick PASS 已部署） |
 | 13 | DragonSword | 7/25 | 22 | dragonswordwiki.vercel.app | ✅ | ✅ | ✅ | 7/22 游戏上线；8/3 Coordinator 扩充 +3（Reina/Kalsion/Cerese 角色指南） |
 | 14 | Dwarf Delve | 7/26 | 17 | dwarfdelvewiki.vercel.app | ✅ | ✅ | ✅ |  |
 | 15 | Lunarium | 7/26 | 19 | lunariumwiki.vercel.app | ✅ | ✅ | ✅ |  |
@@ -49,6 +49,7 @@
 | 38 | Welcome to Elderfield | 8/30 | 17 | welcomeelderfieldwiki.vercel.app | ✅ | ❌ | ✅ | 8/30 BUILD-004，20/20，9/10 发售（Chris Cote/Kwalee cosy horror RPG，单人开发），~85.1K wishlist + 6.2K 关注，demo（App 3195680）96% 好评 ~550 评测，双难度 Cozy/Challenge，最低配置 [Unconfirmed] 待人工核验；wiki.gg 官方 wiki 早期占位（非零 wiki，主打 demo 实测 + 预发售诚实标注）；17 guides，QA 有条件 PASS（R1 配置人工核验已登记、R2 顺手修、已重部署）；GA4 ⏳ 待人工配置 |
 | 39 | Fallen Tear: The Ascension | 9/16 | 17 | fallentearwiki.vercel.app | ✅ | ❌ | ✅ | 8/31 BUILD-005，18/20，9/16 1.0 发售（Winter Crew Studios/CMD Studios，手绘 2D Metroidvania），EA 2026-03 $19.99、1.0 $24.99（前 14 天 -10%），20 区域 / 33 Boss（11 主+22 支）/ 21 Fated Bonds、主线 35-40h 全收集 80h、Temple of Oras 枢纽；零 wiki（预发售，仅 Game8 发售文 + Fextralife 2022 新闻稿）；17 guides，QA PASS（6 🟡 中 4 项已修复，home-content 孤儿文件记录在案）；GA4 ⏳ 待人工配置 |
 | 40 | BOMBANANA! | 9/2 | 10 | bombananawiki.vercel.app | ✅ | ❌ | ✅ | 9/1 BUILD-006，19/20，9/2 发售（Lefto Studio/TARK，3人 Co-op 拆弹派对），demo 97% Overwhelmingly Positive（5,000+ 评测）、600 万试玩、峰值 CCU 4 万、1M+ wishlist，零 wiki；10 guides（入门/三角角色/模块/手册/发售FAQ），QA 待审核；GA4 ⏳ 待人工配置 |
+| 41 | Anomaly President | 9/6 | 16 | anomalypresidentwiki.vercel.app | ✅ | ❌ | ❌ | 9/6 BUILD-007，9/3 门禁开（19/20），Phew Phew Games EA roguelike（Roguelike 动作+竞选管理双循环），EA 满月评测 ~1,300（92% Very Positive）、英日中零 wiki，9/6 首部署 QA PASS（16 guides）；GA4 ⏳ 待人工配置；⚠️ GSC 验证文件缺失待补 |
 <!-- AUTO-END:overview-table -->
 
 ---
@@ -98,6 +99,7 @@
 | 38 | Welcome to Elderfield | 8/30 | ✅ | ✅ 报告 | ✅ | ❓ | ✅ | ❓ | ✅ | ✅ |
 | 39 | Fallen Tear: The Ascension | 9/16 | ✅ | ✅ 报告 | ✅ | ❓ | ✅ | ❓ | ✅ | ✅ |
 | 40 | BOMBANANA! | 9/2 | ✅ | ✅ 报告 | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ |
+| 41 | Anomaly President | 9/6 | ✅ | ✅ 报告 | ✅ | ❌ | ✅ | ❌ | ✅ | ✅ |
 <!-- AUTO-END:sop-table -->
 
 
@@ -111,7 +113,7 @@
 
 ### 🟡 P1 — 需要你处理
 
-**GSC 验证**：34 站均已部署 GSC 验证文件，但实际 GSC 后台验证状态无法从代码确认。建议登录 GSC 逐站检查。
+**GSC 验证**：40/41 站均已部署 GSC 验证文件（anomalypresidentwiki 缺 `google12f8715471cef7b7.html` 待补，9/6 BUILD-007 记录），实际 GSC 后台验证状态无法从代码确认。建议登录 GSC 逐站检查。
 
 > ✅ **GA4 已全部完成**（34/34）— 8/9 最后一批 8 站已填入。<br>
 > ✅ **Dashboard propertyId 已全部补齐**（34/34）。
@@ -137,16 +139,16 @@
 <!-- AUTO-START:summary -->
 | 指标 | 数值 |
 |------|:--:|
-| **总站点数** | 40 |
-| **总攻略数** | 936 |
-| **Vercel 部署** | 40/40 ✅ |
-| **GA4 已配置** | 34/40 |
-| **GA4 真缺失** | 6（bombananawiki（空）、crimsonmoonwiki（空）、doloctownwiki（空）、fallentearwiki（空）、sovereigntowerwiki（空）、welcomeelderfieldwiki（空）） |
-| **GSC 文件部署** | 40/40 ✅（账户级令牌，所有站共用同一文件） |
+| **总站点数** | 41 |
+| **总攻略数** | 962 |
+| **Vercel 部署** | 41/41 ✅ |
+| **GA4 已配置** | 34/41 |
+| **GA4 真缺失** | 7（anomalypresidentwiki（G-PLACEHOLDER）、bombananawiki（空）、crimsonmoonwiki（空）、doloctownwiki（空）、fallentearwiki（空）、sovereigntowerwiki（空）、welcomeelderfieldwiki（空）） |
+| **GSC 文件部署** | 40/41 ❌（账户级令牌，所有站共用同一文件） |
 <!-- AUTO-END:summary -->
 
-| **Dashboard 注册** | 40/40（bombananawiki/crimsonmoonwiki/doloctownwiki/sovereigntowerwiki/welcomeelderfieldwiki/fallentearwiki 待 GA4 Property 创建后补 propertyId） |
-| **GSC 后台验证** | 验证文件 40/40 已部署 · 后台手动验证进行中 |
+| **Dashboard 注册** | 39/41（anomalypresidentwiki 本次已加入，PENDING；⚠️ doloctownwiki/sovereigntowerwiki 未注册 dashboard——预存在缺口，待主 Agent 补）；PENDING 待 GA4 Property 后补 propertyId：bombananawiki/crimsonmoonwiki/welcomeelderfieldwiki/fallentearwiki/anomalypresidentwiki |
+| **GSC 后台验证** | 验证文件 40/41 已部署（anomalypresidentwiki 待补 google12f8715471cef7b7.html）· 后台手动验证进行中 |
 | **关键词待采集** | 3（Shift At Midnight、Bonehold、Phantom Tower） |
 
 ---

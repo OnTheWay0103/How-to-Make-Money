@@ -202,4 +202,9 @@ export const SITES: SiteConfig[] = [
     propertyId: 'PENDING',
     gaId: 'G-PLACEHOLDER',
   },
+  {
+    name: 'Anomaly President Wiki',
+    propertyId: 'PENDING',
+    gaId: 'G-PLACEHOLDER',
+  },
 ];
