@@ -7,12 +7,12 @@
     {
       "site": "sephiriawiki",
       "pv": 11110,
-      "lastExpanded": "2026-09-05"
+      "lastExpanded": "2026-09-06"
     },
     {
       "site": "themoundwiki",
       "pv": 4916,
-      "lastExpanded": "2026-09-04"
+      "lastExpanded": "2026-09-06"
     },
     {
       "site": "spiritvalewiki",
@@ -22,7 +22,7 @@
     {
       "site": "tearsofmetalwiki",
       "pv": 1837,
-      "lastExpanded": "2026-09-05"
+      "lastExpanded": "2026-09-06"
     },
     {
       "site": "grainrotwiki",
@@ -47,9 +47,19 @@
       "reason": "采集后确认无合规选题：Reddit 仍无活跃 subreddit；Steam 讨论区 9/3 后无新串；发现官方 0.31.0 Dark Fortress（8/25）大更（新地图/Dusk 武器/Echo 套/Grimoires 角色绑定/Bond Targets/PvP 跨服排队），但 WebSearch 对 Dark Fortress/Dusk/Bond Targets 零独立佐证——仅单一官方来源，不满足 ≥3 独立来源，展开写即滑向单源转写/编造。附：updates-patch-notes 页已滞后于 0.31.0（P0 校准建议）。下次触发条件：0.31.0 出现 ≥2 独立来源即可写 Dark Fortress 深度指南。"
     },
     {
+      "site": "spiritvalewiki",
+      "date": "2026-09-06",
+      "reason": "新指南再 SKIP（4 连，宁缺毋滥）：9/6 新增检索（Duskbreaker/Duskmire/Echo set/Bond Targets 精确词条、SteamDB、mein-mmo 日期核实、Dark Fortress 地图定向、Steam 讨论关键词）后 0.31.0 仍仅单一官方源（Steam RSS），vgspoilers 停 0.30.14、MassivelyOP 停 8/17、Reddit/攻略站 0 收录 → 未达 ≥2 独立来源门槛。本轮改走任务允许的 P0 校准：updates-patch-notes 已补至 0.31.0 Dark Fortress（Dusk 武器线/Echo 套/Grimoires 绑定/Bond Targets/Sanctum 重建，官方公告逐条如实呈现，QA PASS 已部署）。重要事实修正：官方 0.31.0 未确认可游玩 Dark Fortress 新地图（仅外观/商店+Sanctum 重建），9/5 记录系过度解读。下次触发条件不变：0.31.0 出现 ≥2 独立来源 → 写 Dark Fortress 深度指南。"
+    },
+    {
       "site": "themoundwiki",
       "date": "2026-09-05",
       "reason": "9/5 新鲜选题素材不足：采集 30 条负面 Steam 评测 + 多家媒体评测（IGN/NoobFeed/digitalchumps/cogconnected 等），逐主题映射 35 篇已有指南——崩溃/fatal error 已覆盖（progress-save-recovery 崩溃表/performance config-reset/multiplayer-connection Fatal Error/controls 启动崩溃）、难度尖峰（contracts host-scaling + combat-survival）、雨天枪械失效（weapons-guide）、武器消失/进度（progression-system）、近距离语音（coop-strategy Communication + controls troubleshooting 自噬风险）。Nine Guardians 收集物/Hound of Tindalos 等候选 <3 独立来源或高编造风险。注：9/4 周期 blood-moon-guide 已于本日恢复上线，本站仍有内容产出。"
+    },
+    {
+      "site": "grainrotwiki",
+      "date": "2026-09-06",
+      "reason": "采集后无选题满足四条件：①符号含义 Steam 串已被 rot-debuff-guide 覆盖（含同串引用，写=自噬）；②工具耐久差评（MKAU/technetbooks/cinelinx）与 weapons-tools-guide「construct 名称未验证」编辑准则冲突，写细则=编造风险；③v1.08/v1.09 仅 pc6 单一转载站、不可溯源，不满足 ≥3 独立来源；④VaporLens 流失标签（难度/联机掉线/优化）均已有对应指南覆盖。零改动。下次触发条件：官方可溯源的 v1.08/v1.09+ 更新公告（≥2 独立来源）。"
     }
   ]
 }

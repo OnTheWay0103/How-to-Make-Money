@@ -1,1099 +1,1148 @@
 {
- "builds": [
-  {
-   "game": "Grain Rot",
-   "date": "2026-09-03",
-   "genre": "Horror co-op extraction builder (Beck & Branch Games)",
-   "template": "grainrotwiki existing (no template change)",
-   "mode": "expand-feedback (EXPAND-016, daily per-site, feedback-driven)",
-   "guidesAdded": 1,
-   "guides": 27,
-   "deployed": true,
-   "pipeline": "EXPAND-016 (feedback analyst 9/3 → multiplayer-matchmaking-guide → QA quick PASS → deploy 9/3 → live HTTP 200)",
-   "qa": "QA quick 9/3 — PASS (0 🔴 / 0 🟡 blocking). Gap: invite-only multiplayer / no public matchmaking only had a passing 8/11 FAQ line. Steam Community launch discussion + VaporLens negative-review stats + official store page (Online Co-Op only, no matchmaking tag) + vgspoilers Patch 1.04. 1,499 words (trimmed from 1,796 to SOP cap). [Unconfirmed] on Tab+Shift bind + guest-save progression (no Reddit subreddit exists — noted). No cross-site residue.",
-   "issues": [
-    "Guest-save progression community-reported → [Unconfirmed]",
-    "No public matchmaking remains the top community request — revisit when devs ship a server browser"
-   ],
-   "lessons": "EXPAND-016 (9/3, grainrotwiki 27 guides): +1 multiplayer-matchmaking-guide. Most-requested feature gap (invite-only/no matchmaking) documented as a live page to update the moment a server browser ships."
+  "builds": [
+    {
+      "game": "Grain Rot",
+      "date": "2026-09-03",
+      "genre": "Horror co-op extraction builder (Beck & Branch Games)",
+      "template": "grainrotwiki existing (no template change)",
+      "mode": "expand-feedback (EXPAND-016, daily per-site, feedback-driven)",
+      "guidesAdded": 1,
+      "guides": 27,
+      "deployed": true,
+      "pipeline": "EXPAND-016 (feedback analyst 9/3 → multiplayer-matchmaking-guide → QA quick PASS → deploy 9/3 → live HTTP 200)",
+      "qa": "QA quick 9/3 — PASS (0 🔴 / 0 🟡 blocking). Gap: invite-only multiplayer / no public matchmaking only had a passing 8/11 FAQ line. Steam Community launch discussion + VaporLens negative-review stats + official store page (Online Co-Op only, no matchmaking tag) + vgspoilers Patch 1.04. 1,499 words (trimmed from 1,796 to SOP cap). [Unconfirmed] on Tab+Shift bind + guest-save progression (no Reddit subreddit exists — noted). No cross-site residue.",
+      "issues": [
+        "Guest-save progression community-reported → [Unconfirmed]",
+        "No public matchmaking remains the top community request — revisit when devs ship a server browser"
+      ],
+      "lessons": "EXPAND-016 (9/3, grainrotwiki 27 guides): +1 multiplayer-matchmaking-guide. Most-requested feature gap (invite-only/no matchmaking) documented as a live page to update the moment a server browser ships."
+    },
+    {
+      "game": "Tears of Metal",
+      "date": "2026-09-03",
+      "genre": "Scottish action roguelike (Paper Cult)",
+      "template": "tearsofmetalwiki existing (no template change)",
+      "mode": "expand-feedback (EXPAND-015, daily per-site, feedback-driven)",
+      "guidesAdded": 1,
+      "guides": 29,
+      "deployed": true,
+      "pipeline": "EXPAND-015 (feedback analyst 9/3 → crash-launch-fix-guide → QA quick PASS → deploy 9/3 → live HTTP 200)",
+      "qa": "QA quick 9/3 — PASS (0 🔴 / 0 🟡 blocking). Gap: startup/black-screen crash cluster only had a one-liner inside steam-deck-guide. 2UpSkill + The CPU Guide + XModHub + official Steam patch history (v0.10.57598 7/31, v0.14.58630 8/14). 1,498 words. [Unconfirmed] on AppData path / driver versions. No cross-site residue.",
+      "issues": [
+        "Reddit source not reachable; community layer = third-party fix guides + official Steam patch notes (noted in guide)"
+      ],
+      "lessons": "EXPAND-015 (9/3, tearsofmetalwiki 29 guides): +1 crash-launch-fix-guide. Launch-stability problems from the 7/22 EA launch were a real gap the site only touched inside the Steam Deck guide."
+    },
+    {
+      "game": "The Mound: Omen of Cthulhu",
+      "date": "2026-09-03",
+      "genre": "1-4 Player Co-op Lovecraftian Extraction Horror (ACE Team / NACON)",
+      "template": "themoundwiki existing (no template change)",
+      "mode": "expand-feedback (EXPAND-013, daily per-site, feedback-driven)",
+      "guidesAdded": 1,
+      "guides": 35,
+      "deployed": true,
+      "pipeline": "EXPAND-013 (feedback analyst 9/3 → isolation-guide → QA quick PASS → deploy 9/3 → live HTTP 200)",
+      "qa": "QA quick 9/3 — PASS (0 🔴 / 0 🟡 blocking). Gap: co-op separation 'Isolation' penalty (screen grays/roots grab when leaving the group) was uncovered by all 34 existing guides. Evidence: Steam Community thread + NoobFeed 'How Isolation Works' + OutputLag + 2UpSkill + ChapterCheats + media reviews (6+ independent). 1,500 words. Conflicting Isolation-vs-Sanity relationship across sources presented honestly, not forced to one answer; single-source mechanics [Unconfirmed]. No residue.",
+      "issues": [
+        "Isolation/Sanity relationship differs by source (NoobFeed treats Isolation as separate; OutputLag/Steam thread fold it into Sanity) — guide presents both and marks the discrepancy"
+      ],
+      "lessons": "EXPAND-013 (9/3, themoundwiki 35 guides): +1 isolation-guide. Second straight daily expand for themound hit a real system the wiki never explained — unexplained co-op penalty systems are a rich feedback vein."
+    },
+    {
+      "game": "Sephiria",
+      "date": "2026-09-03",
+      "genre": "Pixel-art action roguelite (TEAM HORAY)",
+      "template": "sephiriawiki existing (no template change)",
+      "mode": "expand-feedback (EXPAND-012, daily per-site, feedback-driven)",
+      "guidesAdded": 1,
+      "guides": 31,
+      "deployed": true,
+      "pipeline": "EXPAND-012 (feedback analyst 9/3 → katana-build-guide → QA quick PASS → deploy 9/3 → live HTTP 200)",
+      "qa": "QA quick 9/3 — PASS (0 🔴 / 0 🟡 blocking). Gap: Katana was the only one of the 6 weapons without a dedicated build guide. Evidence: Steam Community thread 'Katana feed back' + GrindNStrat/Destructoid/SlashSkill/XModHub 1.0 tier lists + bilibili CN ranking. 1,498 words. Evolution claims (Muramasa Swift Slash slow/bugged, Library Spectral dash, Heidi burst, Blazing Helbanus burn) Community/Editorial-sourced with [Unconfirmed] markers; honesty note included. No cross-site residue.",
+      "issues": [
+        "Some Katana evolution mechanics single-thread-sourced → [Unconfirmed]; re-check after next balance patch touches Katana"
+      ],
+      "lessons": "EXPAND-012 (9/3, sephiriawiki 31 guides): +1 katana-build-guide. Weapon-coverage self-audit gap (5 of 6 weapons had build guides) surfaced by live player criticism of the Katana's 1.0 evolutions."
+    },
+    {
+      "game": "The Mound: Omen of Cthulhu",
+      "date": "2026-09-02",
+      "genre": "1-4 Player Co-op Lovecraftian Extraction Horror (ACE Team / NACON)",
+      "template": "themoundwiki existing (no template change)",
+      "mode": "expand-feedback (EXPAND-011, daily rotation #5-of-5, feedback-driven)",
+      "guidesAdded": 1,
+      "guides": 34,
+      "deployed": true,
+      "pipeline": "EXPAND-011 (feedback analyst quick 9/2 → multiplayer-connection-fix-guide → QA quick → deploy 9/2 → verified live HTTP 200)",
+      "qa": "QA-QUICK-013 9/2 — PASS (0 🔴 / 0 🟡 blocking). 11 independent sources verified the multiplayer-connection gap (official Patch 1.03 + 7 editorial + outagescope user reports). Related slugs valid; 6-char lobby code & crossplay status consistent with coop-strategy-guide/faq; no cross-site contamination; honest-sourcing note included (Steam post bodies not directly capturable).",
+      "issues": [
+        "Crossplay direct invites confirmed broken by devs (Patch 1.03 'working on a fix') — guide documents Public-lobby/server-list workaround + password rooms, does NOT claim it's fixed",
+        "Community reports of matchmaking regression after Aug-18 update (outagescope) — guide includes self-check steps",
+        "Steam community post bodies / review quotes not directly capturable (age gate + ECONNREFUSED) — all Community claims sourced from outagescope user reports + editorial articles, no invented quotes"
+      ],
+      "lessons": "EXPAND-011 (9/2, themoundwiki 34 guides): +1 multiplayer-connection-fix-guide (problem-oriented: 'Connection Failed'/lobby errors + crossplay join workarounds). Feedback analyst verified the gap is real (33 guides had NO standalone connection troubleshooting — coop-strategy-guide only 3-line checklist). High-frequency proof: 11 independent sources. Structure: error quick-reference table → 4 fix steps (VPN/WARP → firewall+verify+DNS/Winsock → Public lobby+server-list refresh → password rooms/Server Finder) → same-platform Steam joins → advanced (NAT/hybrid-GPU/LAN-platform) → official fix timeline → FAQ. Honesty: official quote only where official (Patch 1.03); Community claims tied to outagescope/editorial reports; no invented player quotes. Build exit 0; deploy verified guide HTTP 200 + sitemap 42 locs + guides listing includes new slug. Font: themoundwiki switched to geist package (self-hosted) to unblock builds on GFW-blocked machine — same fix as spiritvalewiki."
+    },
+    {
+      "game": "BOMBANANA!",
+      "date": "2026-09-02",
+      "genre": "3-Player Co-op Bomb-Defusal Party Game (Lefto Studio / TARK)",
+      "template": "themoundwiki (cleanest per bestTemplates) + pre-release honesty pattern",
+      "mode": "new-build (BUILD-006, scout re-check 19/20, release-day 9/2, zero wiki EN/CN/JP/KR)",
+      "guides": 10,
+      "guidesAdded": 10,
+      "deployed": true,
+      "score": 19,
+      "pipeline": "BUILD-006 (SCOUT-REV 8/25 → keyword-results/BOMBANANA.md 9/1 → build 9/1 → deploy 9/1 → QA-QUICK-012 9/2)",
+      "qa": "QA-QUICK-012 9/2 — PASS (0 🔴 / 0 🟡 blocking); 25 fact anchors verified vs Steam App 4656000; 2 non-blocking ⚠️ (full release 14 modules vs 5 demo-documented; price [Unconfirmed] until live)",
+      "issues": [
+        "Pre-release build (1 day before 9/2 launch) — content from demo/official/trailers/Steam page; unconfirmed mechanics marked [Unconfirmed] (price, Mac support, system requirements)",
+        "No GA4 yet — googleAnalyticsId empty, dashboard registered propertyId PENDING / gaId G-PLACEHOLDER (zero-filled until human creates GA4 property)",
+        "Post-launch follow-up: confirm price once live, expand module compendium to full-release 14 modules, verify emotes unlock for all monkeys"
+      ],
+      "lessons": "BUILD-006 (score 19/20, release-day build for 9/2 launch, zero wiki EN/CN/JP/KR). 10 guides: 5 P0 (price-platforms-faq, beginner-guide, roles-guide, modules-guide, manual-guide) + 5 aux (co-op-guide, levels-guide, free-mode-guide, demo-guide, faq-content). BOMBANANA! name is unique (zero SERP pollution) — bare keyword safe, unlike Crimson Moon. Demo-driven content (6M players, 97% positive, 40K peak CCU) = pre-release facts well-sourced; price correctly held [Unconfirmed] (Steam showed no price pre-launch, Game*Spark 価格は未定). SEO differentiation vs article-level competitors (Mobalytics/whisperofthehouse) = systemized coverage (module compendium, manual quick-reference, gesture dictionary). Honesty rule: 25 game-specific facts all independently verified; [Unconfirmed] discipline maintained. Build exit 0, 23 pages; deploy verified homepage + guides + sitemap 18 URLs; alias verified to production."
+    },
+    {
+      "game": "Grain Rot",
+      "date": "2026-08-31",
+      "genre": "Co-op Survival Horror",
+      "template": "grainrotwiki (daily expansion rotation, EXPAND-009)",
+      "mode": "expand-feedback",
+      "guidesAdded": 1,
+      "guides": 26,
+      "deployed": true,
+      "pipeline": "EXPAND-009 (daily rotation #5, feedback-driven) → QA quick PASS → deploy verified",
+      "qa": "PASS — 0 fabrication; all community numbers [Unconfirmed] w/ named sources (gamerblurb/finalboss/Steam discussion 573793023877537271); Rot 100-cap/sunlight-clear/Outpost-cleanse cross-verified; 3 non-blocking notes (1 quote-verbatim fixed pre-deploy, 2 observed)",
+      "issues": [
+        "Rot debuff was the game's namesake mechanic but had no dedicated guide — existing guides referenced it only as a soft timer ('thresholds/cleansing unverified')",
+        "Feedback: Steam 'Symbols meaning' discussion + GamerBlurb + FinalBoss = >=3 independent sources on the Rot meter/cleanse pain point",
+        "L37 'Corrupted enemies are another source' presented as verbatim quote but GamerBlurb reads 'Corrupted enemies can also inflict Rot…' — fixed pre-deploy (paraphrase outside quotes)"
+      ],
+      "lessons": "EXPAND-009 (8/31): +1 rot-debuff-guide (1,367 words, How to Clear the Rot Debuff — Why Am I Vomiting Green Liquid?). Steam discussion 573793023877537271 (skull-symbol controversy) + GamerBlurb + FinalBoss cross-verified. All 14 community-reported numbers carry [Unconfirmed]. QA quick PASS. Deployed 8/31, grainrotwiki.vercel.app/guides/rot-debuff-guide HTTP 200."
+    },
+    {
+      "game": "Fallen Tear: The Ascension",
+      "date": "2026-08-31",
+      "genre": "Hand-drawn 2D Metroidvania (Winter Crew Studios / CMD Studios)",
+      "template": "themoundwiki (cleanest) + crimsonmoonwiki/welcomeelderfieldwiki pre-release honesty pattern",
+      "mode": "new-build (BUILD-005, scout re-check 18/20, pre-release 16 days before 9/16 1.0 launch)",
+      "guides": 17,
+      "guidesAdded": 17,
+      "deployed": true,
+      "score": 18,
+      "pipeline": "BUILD-005 (SCOUT-REV 8/31 → keyword research → build → QA quick PASS → deploy verified)",
+      "qa": "PASS — 17/17 guides read in full; all load-bearing numbers externally verified (themagicrain/mxdwn/Joypad/Steam/官网); 22-vs-21 allies discrepancy honestly labeled; 6 non-blocking notes, 4 fixed pre-deploy (dangling related slug, duplicated FAQ section, 'free EA build'→demo, 9-total [Official]→[Editorial]); home-content orphan + Blink-Strike post-launch recheck noted",
+      "issues": [
+        "Pre-release (1.0 launches 9/16/2026, 16 days after build) — content from Steam page (App 1446900)/1.0 press release/previews; [Unconfirmed]: individual Fated Bond abilities, boss weaknesses, ending unlock conditions, Blink-Strike",
+        "Zero wiki re-verified — only Game8 release-date article + Fextralife 2022 press coverage; no Fandom/Fextralife/wiki.gg site",
+        "Steam marketing 'up to 22 allies' vs 1.0 press release 21 (10 EA + 11 new) — discrepancy documented honestly in fated-bonds-guide + FAQ as [Unconfirmed], resolve post-launch",
+        "No GA4 yet — googleAnalyticsId empty, dashboard registered propertyId PENDING / gaId G-PLACEHOLDER",
+        "home-content.md orphan file (homepage hardcoded in app/page.tsx, same as crimsonmoon/themound template lineage) — noted as maintenance risk, not blocker"
+      ],
+      "lessons": "BUILD-005 (score 18/20, pre-release build 16 days before 9/16 launch, Winter Crew/CMD Studios hand-drawn Metroidvania, EA since 3/17/2026 $19.99 → 1.0 $24.99 -10% first 14 days). 17 guides: 8 base (beginner/combat/map-regions/fated-bonds/progression-ascension/controls-techniques/resources-economy/faq) + 7 keyword (boss-guide/endings/temple-of-oras/ea-to-10-version/walkthrough/hunter-skills/tier-list Fated Bonds+Role Archetypes) + 3 aux (price-platforms/game-length/system-requirements). Honesty rule: no fabricated boss/weapon/stats; every unconfirmed mechanic [Unconfirmed]; 22-vs-21 allies discrepancy labeled. Build exit 0 (Next.js 16.2.10, 30 pages), deploy verified homepage + beginner-guide + boss-guide + tier-list + sitemap all HTTP 200; fallentearwiki.vercel.app live. Dashboard registered (PENDING placeholder)."
+    },
+    {
+      "game": "Welcome to Elderfield",
+      "date": "2026-08-30",
+      "genre": "Cosy Horror RPG (Chris Cote / Kwalee)",
+      "template": "moonlightpeakswiki + crimsonmoonwiki (BUILD-003, cleanest lifecycle-sim + honesty patterns)",
+      "mode": "new-build (BUILD-004, scout re-check 20/20, pre-release 11 days before 9/10 launch)",
+      "guides": 17,
+      "guidesAdded": 17,
+      "deployed": true,
+      "score": 20,
+      "pipeline": "BUILD-004 (SCOUT 20/20 → keyword research → build → QA pending → deploy verified)",
+      "qa": "有条件 PASS (0 fabrication; R1 system-requirements full-game minimums [Unconfirmed] + human-verify logged; R2 demo reviews 400+→~550 fixed; R3 demo-length variance noted; R4 publisher Kwalee correct)",
+      "issues": [
+        "Pre-release (launches 9/10/2026, 11 days after build) — all content from Steam page (App 3195440), Steam demo page (App 3195680), demo play reports, developer statements; unconfirmed mechanics marked [Unconfirmed]: price (not announced), romance/marriage (planned, not implemented per Chris Cote), save carryover, full-game scope (~3x town, at least two more dungeons), full NPC roster",
+        "Official wiki exists (welcometoelderfield.wiki.gg) but is early placeholder — NOT a zero-wiki build; SEO must anchor on demo-verified guides (fishing rod route, 7 mysteries, mall dungeon) + honest pre-release framing instead of claiming zero competition",
+        "Full-game minimum requirements are unusually high for a 2D pixel RPG (i5-11600K/Ryzen 5 5600X, 8GB, GTX 1050 Ti) vs very light demo specs (2GB, DX9) — guides explain the gap editorially without inventing benchmarks",
+        "No GA4 yet — googleAnalyticsId empty, dashboard registered with propertyId PENDING / gaId G-PLACEHOLDER (zero-filled until human creates GA4 property)",
+        "QA R1: full-game minimum specs (i5-11600K/5600X, 8GB, GTX 1050 Ti/RX 570, DX11, 2GB, 1280x768) unverifiable — Steam blocks automation, aggregators list lower (demo-era) specs; marked [Unconfirmed], human-verify task logged",
+        "QA R2: demo review count updated 400+ → ~550 (96% unchanged)",
+        "QA R3: demo length 2-4h vs some ~20h reports (both community-sourced, noted)"
+      ],
+      "lessons": "BUILD-004 (score 20/20, pre-release build 11 days before 9/10 launch, Chris Cote/Kwalee cosy horror RPG, ~85.1K wishlist + 6.2K follow, demo 96% Overwhelmingly Positive 400+ reviews). 17 guides (18 content units incl. tier-list Activity Priorities): 4 P0 (beginner-guide, demo-guide, price-platforms, system-requirements) + 10 P1 (core-mechanics-guide, farming-economy-guide, combat-guide, difficulty-modes-guide, npcs-romance-guide, map-regions-guide, mysteries-guide, fishing-guide, rest-sleep-guide, money-making-guide) + 3 aux (progression-upgrades-guide, game-length-guide, faq-content). All 17 bodies >=800 words (body-only awk count, frontmatter excluded). Honesty rule: price/romance/save-carryover/scope all [Unconfirmed]; tier-list adapted to pre-release Activity Priorities (no fabricated numbers/ratings); 3-layer sources (Official/Community/Editorial) in every frontmatter. Build exit 0 (Next.js 16.2.10, 30 pages), deploy verified homepage + 6 sample guide slugs + faq + tier-list + sitemap + robots all HTTP 200; alias verified (welcomeelderfieldwiki.vercel.app -> welcomeelderfieldwiki-neyonntj2-zhaoq0103s-projects.vercel.app). Dashboard registered (PENDING placeholder). GA4 pending human task (recorded in docs/人工任务清单.md)."
+    },
+    {
+      "game": "Tears of Metal",
+      "date": "2026-08-30",
+      "genre": "Co-op Action Roguelike (EA)",
+      "template": "tearsofmetalwiki (feedback-driven expansion, EXPAND-008)",
+      "mode": "expand-feedback",
+      "guidesAdded": 1,
+      "guides": 28,
+      "deployed": true,
+      "issues": [
+        "P0 gap: healing/HP economy was the only high-frequency pain point (>=6 independent sources) with zero dedicated guide — Healing Font/Chicken/salves/coin budgeting/max-HP reduction/co-op revive all uncovered",
+        "Stamina potion '75' initially written without external source — marked [Unconfirmed] (2upskill has no potion prices; value cross-referenced from village-upgrade-guide L131)"
+      ],
+      "lessons": "EXPAND-008 (8/30): +1 healing-guide (Healing Fonts, Chicken, Salves & Coin Budgeting). Feedback report 8/29 (21+ samples: Steam reviews + Kotaku/Smashpad/whisperofthehouse/2upskill). QA conditional PASS (R5 wording note, fixed pre-deploy). Deployed 8/30, alias verified, /guides/healing-guide HTTP 200."
+    },
+    {
+      "game": "ReStory: Chill Electronics Repairs",
+      "date": "2026-08-08",
+      "genre": "怀旧电器维修模拟 (Mandragora/tinyBuild)",
+      "guides": 14,
+      "score": 18,
+      "deployed": true
+    },
+    {
+      "game": "Waterpark Simulator",
+      "date": "2026-08-08",
+      "genre": "Waterpark Management Simulator (CayPlay)",
+      "template": "lowbudgetrepairswiki (sim management genre match)",
+      "guides": 14,
+      "keywords": 5,
+      "score": 17,
+      "deployed": true,
+      "issues": [
+        "1.0 released 7/31/2026 (8 days ago) — PC/PS5/Xbox, $12.99, 1M+ downloads, 96% Overwhelmingly Positive, 10.5K peak CCU, zero wiki competition",
+        "No GA4 yet — empty googleAnalyticsId, G-PLACEHOLDER in dashboard registry",
+        "No fixed ride catalogue — slides are built piece-by-piece, so tier list and attractions reference rank types instead of named rides (documented honestly in content)",
+        "npm install failed once (network) — succeeded on retry"
+      ],
+      "lessons": "8/8 auto-build (score 17/20). 14 guides: 8 reference (slide-ride-tier-list, attractions-reference, staff-management-guide, research-tree-guide, visitor-happiness-guide, money-making-guide, museum-questline-guide, co-op-multiplayer-guide) + 4 search (beginner 1000+ words, faq, price-platforms-system-requirements, controls) + 2 deep (park-design-layout, endgame). 1.0 content verified via web research: Museum questline (Poseidon't/Clara Loft/Goldie, 2.5-star unlock, Yogi endgame), staff (cashier/janitor/vendor/handyman/lifeguard/security/mascot, Hiring Levels, 4 slots start), research trees (Attractions/Park/Maintenance), 4-player co-op, night mode, beach map, Diamond Stars. Genre is sandbox management sim — tier list ranks attraction TYPES (no named ride catalogue), museum guide in table format. Deployed 8/8 evening, alias verified live."
+    },
+    {
+      "game": "Nivalis Nights",
+      "date": "2026-08-07",
+      "genre": "Cyberpunk Life Simulator (ION LANDS / 505 Games)",
+      "template": "themoundwiki (via bigwalkwiki)",
+      "guides": 10,
+      "keywords": 10,
+      "score": 18,
+      "deployed": true,
+      "issues": [
+        "Pre-release (9/29 launch) — 932K wishlist, zero independent wiki competition (only thegameswiki.com, early stage)",
+        "No GA4 yet — G-PLACEHOLDER in dashboard registry",
+        "No combat system — tier-list page adapted to Business Tier List, content shifts to economy/NPC/exploration guides"
+      ],
+      "lessons": "8/7 Coordinator auto-build (score 22/20). 10 guides: beginner (7 businesses, 100+ NPCs, day-night), best-business (profit $/h ranking), apartment-customization, fishing, chess, sailing/boat, relationship-social, money-making, FAQ, system requirements. Genre is cyberpunk life-sim — no combat content, guides focus on economy optimization, social systems, and exploration. 932K wishlist level demand with near-zero wiki competition = strongest candidate since Big Walk. Deployed evening 8/7 (initial build missed Vercel step)."
+    },
+    {
+      "game": "IRON NEST: Heavy Turret Simulator",
+      "date": "2026-08-06",
+      "genre": "Heavy Turret Simulator (Dieselpunk Artillery)",
+      "template": "themoundwiki (via bigwalkwiki)",
+      "guides": 10,
+      "keywords": 60,
+      "score": 18,
+      "issues": [
+        "Launched TODAY (Aug 6, 2026) — peak search window. Zero wiki competition (no Fandom, no community wiki; only article-style guide sites like ProGameGuides/2UpSkill)",
+        "Price not listed on Steam at launch — guides honestly marked price TBD",
+        "Some advanced ballistics figures (MOA clicks, PSI ranges, spotter error margins) are community-reported from demo guides, not officially documented — labeled as such in guides",
+        "No GA4 yet — G-PLACEHOLDER in dashboard registry",
+        "30 advertised ammo types/abilities — only 7 shells confirmed at launch; guide marked for updates as community unlocks the rest"
+      ],
+      "lessons": "Launch-day build (score 18/20, upgraded from wait-and-see at 843K wishlist). 10 guides: beginner (core loop + 6 stations), controls/keybindings, tactical map (20x10 grid, tokens, pencils, compass), target spotting/triangulation, ballistic calculator, shell types (HE/HCHE/AP/S.T.A.R./SMOKE/PHOSGENE/TEAR GAS), loading & aiming, requisition & upgrade path, counter-battery survival, system requirements. Genre is deep simulation — tier-list page adapted to Shell Tier List (overall, by target type, beginner purchase priority). Content ratio: 30% entry (beginner/controls/specs), 40% deep (map/targeting/ballistics/loading/counter-battery), 30% reference (shell list, upgrades, FAQ). Honesty rule applied — community-reported ballistics and unconfirmed price clearly labeled."
+    },
+    {
+      "game": "Vahrin's Call",
+      "date": "2026-08-06",
+      "genre": "Single-player Action RPG (Dark Souls-like)",
+      "mode": "expand",
+      "guidesAdded": 3,
+      "guides": 26,
+      "deployed": false,
+      "issues": [
+        "Existing guides were launch-era (7/27-8/1) with minimal verified detail — community has since mapped 30+ skill book locations, 15 named NPCs, and verified unique weapons",
+        "skill-book-locations.md was placeholder text ('no locations published') despite real locations being documented by TechRaptor/gamesnight.nz"
+      ],
+      "lessons": "Expand run: +3 guides (skill-book-hunting, npcs-characters, unique-weapons). 203 PV ⭐⭐ growth site. Skill books 'for Oafs' series mapped across 6 zones. NPC guide covers all 15 South Vale Hamlet characters + 4 named minibosses. Unique weapons guide covers Colosseum Victor Sword/Shield with verified stats. All content search-verified via TechRaptor interactive maps. Developer is Titan Roc (7-person studio, self-published) — corrected from brief. Game is 'Forsaken Realms: Vahrin's Call' full title. Reviews Mixed at launch (68%), not 88%."
+    },
+    {
+      "game": "Bonehold",
+      "date": "2026-08-06",
+      "genre": "Roguelike Dungeon Crawler ARPG",
+      "mode": "expand",
+      "guidesAdded": 3,
+      "guides": 17,
+      "deployed": false,
+      "issues": [
+        "No technical/system-requirements content existed — players searching 'can I run Bonehold' had zero coverage",
+        "Steam store page has conflicting class counts: demo page says '7 classes… Scorcher' vs full game page '10 classes… Sorcerer' — documented honestly as 待验证",
+        "Existing guides use single-line array frontmatter format that the parser reads as strings — Related Guides sections broken on all 14 existing guides"
+      ],
+      "lessons": "Expand run: +3 guides (system-requirements, review-guide, similar-games). 106 PV ⭐⭐ growth site. System requirements verified from Steam page (Win 7 min, GTX 470 min, full controller + DualShock/DualSense, Steam Deck status, 10 languages, free demo). Review guide: Very Positive 86% of 97 reviews, ~$9.99, 98 achievements, bundles documented. Similar games: 8 games with comparison table (Barony/Mortal Sin/Verho bundles + Hades/Dead Cells/Isaac/Rogue Legacy 2 genre neighbors). Agent noted frontmatter parser bug: single-line `related: [guide-a, guide-b]` is read as string — new guides use multi-line format that works."
+    },
+    {
+      "game": "Big Walk",
+      "date": "2026-08-04",
+      "genre": "Co-op Open World Puzzle Adventure",
+      "template": "themoundwiki",
+      "guides": 10,
+      "keywords": 12,
+      "score": 17,
+      "issues": [
+        "Launched TODAY (Aug 4, 2026) — peak search window. Zero wiki competition (no Fandom, no community wiki)",
+        "No full walkthrough/puzzle solutions published yet — guides honestly marked TBD / unverified where community confirmation pending (cutter machine quest, golden head, game length, Steam Deck)",
+        "Price corrected vs pre-launch estimate: $19.99 USD launch price (25% discount), not $24.99. Platforms include Switch 2 + Mac in addition to Steam/PS5",
+        "No GA4 yet — G-PLACEHOLDER in dashboard registry"
+      ],
+      "lessons": "Launch-day build (score 21/20). 10 guides: beginner, multiplayer/co-op (2-12 players, crossplay, PS Plus day-one), tools (walkie-talkie/binoculars/laser pointer/megaphone/flares/flashlight/whiteboard/cowbell/golden head), puzzles, hidden secrets (gourd rewards, cutter machine reported), island exploration (1.4km² island, no map, tunnels/ski lifts), FAQ, walkthrough (structure only — no spoilers), tips & tricks, system requirements. No-combat genre → tier-list page adapted to Tool Tier List. Content ratio: 50% entry (beginner/FAQ/specs), 30% deep (tools/puzzles/exploration), 20% reference. Honesty rule applied — unverified launch-day reports clearly labeled."
+    },
+    {
+      "game": "Low-Budget Repairs",
+      "date": "2026-08-03",
+      "genre": "Renovation Simulator",
+      "template": "themoundwiki",
+      "guides": 10,
+      "keywords": 65,
+      "score": 17,
+      "issues": [
+        "Pre-release game (Aug 13 launch) — all guides based on July 2026 demo + pre-release coverage. Post-launch updates needed for exact mechanics",
+        "No real wiki competition confirmed — first-mover advantage",
+        "Simulation genre is new to portfolio — no genreInsights for renovation sims yet"
+      ],
+      "lessons": "1M+ wishlist, Aug 13 launch, zero wiki competition. Coordinator auto-build (score 21/20). 10 guides: beginner, money-making, cost-cutting tips, tool guide, hardware store, painting, tiling, renovation jobs reference, FAQ, system requirements. Content ratio: 50% reference tables (tool comparison, job reference, cost-cutting methods), 30% entry (beginner/FAQ/specs), 20% deep (painting/tiling guides)."
+    },
+    {
+      "game": "Delverium",
+      "date": "2026-08-02",
+      "genre": "Co-op Survival Sandbox",
+      "template": "themoundwiki",
+      "guides": 7,
+      "keywords": 13,
+      "score": 19,
+      "issues": [],
+      "lessons": "Pre-release game (9/22 EA). Only 13 info-class keywords — gameplay keywords expected 1-3 months post-EA. Built 7 guides covering release date, demo, platforms, co-op, crafting, builds, dungeons. 88% noise rate typical for pre-release names. Coordinator auto-build."
+    },
+    {
+      "game": "Expeditions: Samurai",
+      "date": "2026-08-01",
+      "genre": "Party-Based Tactical CRPG (Sengoku Japan)",
+      "template": "themoundwiki (Agent auto, skill-driven)",
+      "guides": 12,
+      "keywords": 25,
+      "score": 20,
+      "issues": [
+        "Pre-launch game (EA Aug 7) — guides based on official confirms + series precedent, gameplay details to be verified post-launch",
+        "Village management not in EA launch build (arrives during EA) — guide covers confirmed info + roadmap only",
+        "Class names and 3 of 8 companion names unconfirmed — guides honestly mark them TBD",
+        "First build hit a transient exit-code-1 on back-to-back npm builds (.next cache race) — clean rebuild passed exit 0"
+      ],
+      "lessons": [
+        "20/20 game: series pedigree (1.3M+ sales, Expeditions Rome/Viking/Conquistador) + EA in 6 days + ZERO wiki competition + CRPG guide demand = perfect candidate",
+        "CRPG guide structure confirmed: builds, classes, companions, romance, stealth, combat, weapons, co-op, walkthrough, tips all verified real search terms",
+        "Pre-launch guides must separate confirmed facts from series-precedent expectations — no fabrication, mark TBD items honestly",
+        "12-file checklist + build gate + residue scan = zero-miss deployment (only 1 residual comment fixed)",
+        "Deploy verify needs re-check after edge-cache propagation — first curl can return stale transitional response"
+      ],
+      "fixes_applied": []
+    },
+    {
+      "game": "Go-Go Town!",
+      "date": "2026-08-01",
+      "genre": "Co-op City Builder / Management Sim",
+      "template": "themoundwiki (Coordinator Branch B auto-build, skill-driven)",
+      "guides": 10,
+      "keywords": 25,
+      "score": 15,
+      "issues": [
+        "WebSearch-compiled game knowledge (no Google Suggest API without proxy)",
+        "Official community wiki (gogotown.wiki.gg) exists but is early-stage — no independent wiki site, competition scored low",
+        "G-PLACEHOLDER GA ID — GA4 property not yet created"
+      ],
+      "lessons": [
+        "15/20 game: 1.0 launched July 16 + 93% Very Positive (2200+ reviews) + Steam Deck Verified = solid city-builder candidate",
+        "City builders have distinct keyword structure vs RPG/soulslike: layout, build order, money, automation, tourists — all verified real search terms",
+        "Cozy/management sims have no combat guide demand — content shifts to production chains, worker AI, and economy",
+        "Genre insights from build-history didn't cover city builders — added Cozy/Management pattern to guide planning",
+        "12-file checklist + build gate + residue scan = zero-miss deployment (18/18 checklist items passed, build exit 0, deploy verified 200)"
+      ],
+      "fixes_applied": []
+    },
+    {
+      "game": "Moonlight Peaks",
+      "date": "2026-07-31",
+      "genre": "Cozy Vampire Farming Life Sim",
+      "template": "themoundwiki (Coordinator auto, skill-driven)",
+      "guides": 12,
+      "keywords": 20,
+      "score": 17,
+      "issues": [
+        "WebSearch-compiled game knowledge (no Google Suggest API without proxy)",
+        "Order Automatica (0 reviews) and Stoneguard (~121 copies) candidates rejected for insufficient player base",
+        "Fandom wiki exists for Moonlight Peaks but is early-stage placeholder — scored competition 3/5"
+      ],
+      "lessons": [
+        "17/20 game: 200K+ copies in 3 weeks + 89% Very Positive + farming-sim keyword structure = strongest candidate found",
+        "Farming/life sims have Stardew-style guide demand: romance, gifts, potions, quests, crops all verified real search terms",
+        "200K+ player base with only scattered guides = no competition problem despite early-stage Fandom",
+        "12-file checklist + build gate + residual scan = zero-miss deployment again",
+        "Candidate pool empty -> full discovery cycle produced 5 candidates; only 1 passed the 15 threshold"
+      ],
+      "fixes_applied": []
+    },
+    {
+      "game": "Bonehold",
+      "date": "2026-07-30",
+      "genre": "Roguelike Dungeon Crawler ARPG",
+      "template": "themoundwiki (Agent auto, skill-driven)",
+      "guides": 10,
+      "keywords": 40,
+      "score": 17,
+      "issues": [
+        "WebSearch-compiled game knowledge (no Google Suggest API available without proxy)",
+        "App/guides/page.tsx had 2 The Mound residuals — caught and fixed by residue scan"
+      ],
+      "lessons": [
+        "17/20 game: released 2 days ago (July 28) + 7 classes + zero wiki = perfect timing",
+        "Roguelike ARPG with charge combat and item prefixes = excellent build guide potential",
+        "88% positive on Steam, 98 achievements = deep game with player engagement",
+        "12-file checklist + build gate + residual scan = zero-miss deployment"
+      ],
+      "fixes_applied": []
+    },
+    {
+      "game": "Shift At Midnight",
+      "date": "2026-07-29",
+      "genre": "Co-op Horror Detective",
+      "template": "themoundwiki (Agent auto, skill-driven)",
+      "guides": 12,
+      "keywords": 0,
+      "score": 18,
+      "issues": [
+        "WebSearch-compiled game knowledge (no Google Suggest API available)",
+        "Template residue in guides/page.tsx and metadata.ts caught and fixed by residue scan"
+      ],
+      "lessons": [
+        "18/20 game: 37K concurrent, 90% positive, viral co-op horror = massive search demand",
+        "No dedicated wiki — content scattered across VGtimes/TheGamer/Destructoid only",
+        "Co-op horror detective unique blend = diverse guide topics (doppelganger, entity, co-op, money, endings)",
+        "12-file checklist + build gate + residue scan = zero-miss deployment"
+      ],
+      "fixes_applied": []
+    },
+    {
+      "game": "Graphite",
+      "date": "2026-07-29",
+      "genre": "Pen-and-Ink Tactical Roguelike RPG",
+      "template": "themoundwiki (Agent auto, skill-driven)",
+      "guides": 11,
+      "keywords": 65,
+      "score": 15,
+      "issues": [
+        "Game name 'Graphite' is too generic — 65 keywords harvested but noise rate ~50% (graphite material/pencil/golf shaft matches)",
+        "Google Suggest API returned mostly irrelevant suggestions for the word 'graphite'"
+      ],
+      "lessons": [
+        "15/20 game: 7 heroes × unlimited artifact stacking + Break system + 4-act campaign = deep guide potential",
+        "Zero wiki competition confirmed — no Fandom, no Fextralife, no guide sites",
+        "Tactical roguelike RPGs have strong search intent — players actively search for builds/strategies",
+        "Generic game names need manual keyword curation rather than Google Suggest alone",
+        "12-file checklist + build gate + residual scan = zero-miss deployment"
+      ],
+      "fixes_applied": []
+    },
+    {
+      "game": "The Relic: First Guardian",
+      "date": "2026-07-28",
+      "genre": "Korean Dark-Fantasy Soulslike Action RPG",
+      "template": "themoundwiki (Agent auto, skill-driven)",
+      "guides": 11,
+      "keywords": 44,
+      "score": 18,
+      "issues": [
+        "Pre-launch game (releases July 31) — 0 search traffic expected initially",
+        "Google Suggest API unavailable without proxy — used WebFetch to harvest keywords (44 words)"
+      ],
+      "lessons": [
+        "18/20 game: 5 weapons × 12 trees + 70 bosses + 70 runes = 150+ guide potential",
+        "Zero wiki competition confirmed (no Fextralife, no Fandom, no Reddit guides)",
+        "Soulslike games have excellent search long-tail — players search boss guides for years",
+        "12-file checklist + build gate + residual scan = zero-miss deployment"
+      ],
+      "fixes_applied": []
+    },
+    {
+      "game": "Taival",
+      "date": "2026-07-27",
+      "genre": "Co-op Adventure RPG",
+      "template": "themoundwiki (Agent auto, skill-driven)",
+      "guides": 12,
+      "keywords": 45,
+      "score": 15,
+      "issues": [
+        "Vercel project link was stale (themoundwiki) — required .vercel cleanup and relink"
+      ],
+      "lessons": [
+        "15/20 games hit auto-continue threshold — Phase 0 discovery found it without human input",
+        "Co-op RPG with unique companion mechanic = good search differentiation",
+        "Template .vercel/project.json must be cleaned before deploying to new project",
+        "12-file checklist + build gate + residual scan = zero-miss deployment"
+      ],
+      "fixes_applied": []
+    },
+    {
+      "game": "Witchspire",
+      "date": "2026-06-29",
+      "genre": "Co-op Survival RPG",
+      "template": "fresh build (first site)",
+      "guides": 20,
+      "keywords": 88,
+      "score": 16,
+      "issues": [
+        "首次建站，模板从零搭建"
+      ],
+      "lessons": [
+        "RPG 类 Tier List + Build 搜索量最高",
+        "Co-op 攻略不可缺"
+      ],
+      "fixes_applied": []
+    },
+    {
+      "game": "Mistfall Hunter",
+      "date": "2026-07-01",
+      "genre": "PvPvE Extraction ARPG",
+      "template": "witchspirewiki derivative",
+      "guides": 25,
+      "keywords": 89,
+      "score": 17,
+      "issues": [
+        "Root Directory 配置导致部署失败"
+      ],
+      "lessons": [
+        "Extraction 类游戏 Build 攻略搜索量极高",
+        "PvPvE 需要 solo + team 分开写"
+      ],
+      "fixes_applied": [
+        "Root Directory 通过 API 修复"
+      ]
+    },
+    {
+      "game": "Echoes of Aincrad",
+      "date": "2026-07-07",
+      "genre": "Action JRPG",
+      "template": "witchspirewiki derivative",
+      "guides": 20,
+      "keywords": 107,
+      "score": 16,
+      "issues": [
+        "GSC 验证文件延迟"
+      ],
+      "lessons": [
+        "大 IP 游戏 Co-op 搜索量很高",
+        "Demo 攻略意外热门"
+      ],
+      "fixes_applied": []
+    },
+    {
+      "game": "The Mound: Omen of Cthulhu",
+      "date": "2026-07-14",
+      "genre": "Co-op Horror Extraction",
+      "template": "aincradwiki",
+      "guides": 14,
+      "keywords": 46,
+      "score": 14,
+      "issues": [
+        "Root Directory 导致部署失败",
+        "模板残留严重（Aincrad 内容未清理）"
+      ],
+      "lessons": [
+        "上线前 1 天建站关键词少，上线后逐渐增长",
+        "模板复制后必须做残留清理"
+      ],
+      "fixes_applied": [
+        "API 修复 Root Directory",
+        "sed 批量替换模板残留"
+      ]
+    },
+    {
+      "game": "SpiritVale",
+      "date": "2026-07-12",
+      "genre": "MMORPG",
+      "template": "themoundwiki（最干净模板）",
+      "guides": 13,
+      "keywords": 116,
+      "score": 18,
+      "issues": [
+        "Dashboard 新增站点不显示（fetchSiteData 返回 null）"
+      ],
+      "lessons": [
+        "MMORPG 关键词极多（116）",
+        "fetchSiteData 不能用 null，应返回零填充数据",
+        "Free-to-Play 游戏搜索量高于付费游戏"
+      ],
+      "fixes_applied": [
+        "修复 fetchSiteData 返回零填充数据"
+      ]
+    },
+    {
+      "game": "Skills & Raids",
+      "date": "2026-07-15",
+      "genre": "Party-based Extraction RPG",
+      "template": "themoundwiki",
+      "guides": 13,
+      "keywords": 20,
+      "score": 12,
+      "issues": [
+        "游戏名太通用导致关键词噪声率 ~60%",
+        "单人开发者，游戏体量不确定"
+      ],
+      "lessons": [
+        "通用名称的游戏需要更长尾的标题策略",
+        "单人开发游戏搜索量上限低"
+      ],
+      "fixes_applied": []
+    },
+    {
+      "game": "MineGeon: Renegades",
+      "date": "2026-07-20",
+      "genre": "Co-op Roguelite Mining",
+      "template": "skillsandraidswiki",
+      "guides": 11,
+      "keywords": 0,
+      "score": 15,
+      "issues": [
+        "手动建站（非Agent），Agent建站流程的对照参考"
+      ],
+      "lessons": [
+        "构建验证 Gate 可以防止漏掉 package.json/tsconfig.json",
+        "cp -r 模板比逐文件创建更可靠"
+      ],
+      "fixes_applied": []
+    },
+    {
+      "game": "Sephiria",
+      "date": "2026-07-21",
+      "genre": "Action Roguelite",
+      "template": "themoundwiki (Agent auto)",
+      "guides": 10,
+      "keywords": 79,
+      "score": 14,
+      "issues": [
+        "Agent 漏掉 package.json/tsconfig.json/vercel.json 三个构建配置文件",
+        "Agent commit message 虚假声称 deployed（实际未部署）",
+        "未执行 npm build 验证",
+        "未更新 build-history.json",
+        "未注册 Dashboard"
+      ],
+      "lessons": [
+        "Agent '项目初始化' 步骤需要显式文件清单，不能只说'初始化+配置'",
+        "12 文件逐项检查清单必须明确定义",
+        "部署前必须有构建验证 Gate",
+        "commit message 规则：未部署不得写 deployed"
+      ],
+      "fixes_applied": [
+        "手动补 package.json + tsconfig.json + vercel.json",
+        "手动执行 vercel --prod 部署",
+        "更新 build-game-site.md Agent 设计"
+      ]
+    },
+    {
+      "game": "Dinoblade",
+      "date": "2026-07-21",
+      "genre": "Soulslike Action RPG",
+      "template": "themoundwiki (Agent auto)",
+      "guides": 10,
+      "keywords": 0,
+      "score": 13,
+      "issues": [
+        "与 Sephiria 相同的缺陷模式：缺构建文件、未部署、build-history 未更新",
+        "Agent commit message 写 deployed 但未部署",
+        "git push 冲突导致文件丢失，需重建"
+      ],
+      "lessons": [
+        "Agent 缺陷是系统性的，非偶发 — Sephiria 和 Dinoblade 完全相同的遗漏模式",
+        "git push 前必须 pull --rebase",
+        "Agent 需要在每个 Phase 结束时做自检"
+      ],
+      "fixes_applied": [
+        "手动补 package.json + tsconfig.json + vercel.json",
+        "手动执行 vercel --prod 部署",
+        "修复 build-game-site.md 防止复发"
+      ]
+    },
+    {
+      "game": "Tears of Metal",
+      "date": "2026-07-23",
+      "genre": "Action Roguelike, Co-op",
+      "template": "themoundwiki (Agent auto, skill-driven)",
+      "guides": 11,
+      "keywords": 55,
+      "score": 19.5,
+      "issues": [
+        "npm install 需要重做（模板复制的 node_modules 损坏）",
+        "git push 冲突需要 pull --rebase"
+      ],
+      "lessons": [
+        "19.5/20 分游戏：EA 刚上线 1 天 + 92% 好评 + 无 Wiki + 深系统 = 完美候选",
+        "模板复制后 node_modules 不能直接复用，必须 rm -rf 重装",
+        "12 文件检查清单 + 构建验证 Gate + 残留扫描全部通过后才可提交",
+        "Google Suggest API 无代理时用 WebSearch 编译关键词可行（55 词）"
+      ],
+      "fixes_applied": []
+    },
+    {
+      "game": "DragonSword: Awakening",
+      "date": "2026-07-24",
+      "genre": "Anime Open-World Action RPG",
+      "template": "themoundwiki (Agent auto, 2-agent parallel)",
+      "guides": 12,
+      "keywords": 62,
+      "score": 19,
+      "issues": [
+        "Google Suggest API 无代理，WebSearch 编译关键词",
+        "Phantom Tower 初始候选被驳回（零搜索需求数据），改用 DragonSword"
+      ],
+      "lessons": [
+        "19/20 分游戏：发售 2 天 + 85% 好评 + 无 Wiki + 19 英雄 = 优质候选",
+        "游戏发现 Phase 0 需要两轮筛选：第一轮广度搜索，第二轮验证搜索需求",
+        "候选游戏必须验证实际搜索需求（Google Suggest/WebSearch 有关键词才算合格）",
+        "双 Agent 并行（配置 + 内容）比单 Agent 快 ~40%",
+        "12 文件检查清单 + 构建验证 Gate + 残留扫描 = 零遗漏上线"
+      ],
+      "fixes_applied": []
+    },
+    {
+      "game": "The Mound",
+      "date": "2026-08-01",
+      "genre": "Co-op Horror Extraction",
+      "template": "themoundwiki (Builder agent, feedback-driven expansion)",
+      "mode": "expand (feedback-driven)",
+      "guidesAdded": 3,
+      "guides": 41,
+      "deployed": true,
+      "issues": [
+        "First vercel --prod deploy hit the known root-directory-double-path error (project Root Directory 'games-site/themoundwiki' + CLI cwd) — cleared rootDirectory via API, deployed, restored it",
+        "Guide length creep: performance/progress drafts exceeded the 6-9K target (13.4K/10.5K) — trimmed to ~10-12K to stay near existing guide range (max 11.4K)",
+        "Stats doc was stale (Mound listed 24 guides vs 38 actual) — corrected to 41 with this expansion"
+      ],
+      "lessons": [
+        "Feedback-driven expansion pattern works: 3 highest-demand gaps (performance fixes, progress recovery, progression/meta) were all zero-coverage before this build",
+        "Patch 1.02 content (Block ability, achievement/trophy-based progress recovery tool, PS5 fix) is high-search-intent '差评救援' material — patch notes, crossplay, contracts and combat guides all updated to 1.02 state",
+        "Crossplay guide rewritten honestly: PC<->Xbox confirmed, PS5 inconsistent — reconcile existing 'full crossplay' claims rather than repeating them",
+        "Contract difficulty follows HOST level — new section in contracts-guide resolves the 'can't open easy maps for newbies' complaint",
+        "Build exit 0, residue scan clean, deploy verified: homepage 200, sitemap contains all 3 new slugs, all guide pages 200"
+      ],
+      "fixes_applied": [
+        "rootDirectory cleared via API before deploy and restored after (documented knownIssue root-directory-double-path)"
+      ]
+    },
+    {
+      "game": "SpiritVale",
+      "date": "2026-08-01",
+      "genre": "Class-based MMORPG (buy-to-play EA)",
+      "template": "spiritvalewiki (Coordinator agent, feedback-driven expansion)",
+      "mode": "expand (feedback-driven)",
+      "guidesAdded": 3,
+      "guides": 41,
+      "deployed": true,
+      "issues": [
+        "Highest-PV site (3683 PV) had critical fact errors: FAQ claimed free-to-play (real: $14.99 buy-to-play), denied the Auction Hall exists, listed a nonexistent 'Sniper' class (real: Gunslinger; special class is Weaver), described a main quest line that doesn't exist, and claimed solo can clear all content (community consensus: solo is rough after early game)"
+      ],
+      "lessons": [
+        "Fact-correction work outranks new content on high-PV sites — beginners landing on wrong F2P/class info lose trust in the whole wiki",
+        "New guides answered the biggest real searches: connection/server guide (launch rollback timeline, NA-server advice), solo-party guide (honest solo limits + Paladin #1, Discord LFG), updates-patch-notes (0.30.0, Auction Hall rework timeline)",
+        "beginner-guide rewritten around the real opening (Waystone from Waybinder, Fast Casting, Novice Set farming, ASPD 193 cap, element chart) — no fake main quest",
+        "class-tier-list rewritten with community consensus (Summoner 'extremely OP', Warrior S, Acolyte bottom solo) + EA balance-churn warning",
+        "Deploy needed the rootDirectory clear/restore workaround (documented knownIssue root-directory-double-path)"
+      ],
+      "fixes_applied": [
+        "faq-content: F2P->buy-to-play, Auction Hall exists (down for rebuild), Sniper->Gunslinger, solo->partial, no-wipe promise added",
+        "class-tier-list: Sniper/Gunslinger/Weaver corrections",
+        "home-content quick-nav +3 new guides"
+      ]
+    },
+    {
+      "game": "Sephiria",
+      "date": "2026-08-01",
+      "genre": "Action Roguelite (1.0 launched 7/31)",
+      "template": "sephiriawiki (Coordinator agent, 1.0 fact-correction)",
+      "mode": "expand (feedback-driven, delta)",
+      "guidesAdded": 2,
+      "guides": 30,
+      "deployed": true,
+      "issues": [
+        "Existing 1.0 guides were almost entirely fabricated: 'Chapter 7 Astral Vault', 'Tome/Greatsword weapons (8 total)', 'Corruption System', 'Infinite Mode', wrong developer 'Sephiria Studio' (real: TEAM HORAY), wrong EA timeline (real: April 2025, 484 days, 58 updates), invented boss/chapter names"
+      ],
+      "lessons": [
+        "1.0-launch coverage is a trust race: the wiki was the only '1.0 guide' source — fabricated facts (fake weapons, fake chapter) destroyed its credibility vs the real patch records",
+        "Rewrote full-release-guide + weapons-tier-list to real 1.0 content (final Chapter 6 + ending, 6 weapons/200+ upgrades, Side Bag, Mystic Pot rework, Hard Mode to 60, 1.0.21 hotfix)",
+        "New chapter-6-final-boss-guide (real ending content, 1.0.21 telegraphing/blocking changes) and multiplayer-connection-fix-guide (ping spikes, desync, player.log submission path)",
+        "FAQ corrected: TEAM HORAY, EA timeline, 6 weapons, EA save carryover official answer (7/9 announcement) vs the conflicting 1.0.19 summary line",
+        "No rootDirectory workaround needed (project had none set) — deployed directly"
+      ],
+      "fixes_applied": [
+        "full-release-guide rewrite (removed fabricated Chapter 7/Tome/Infinite Mode)",
+        "weapons-tier-list rewrite (real 6-weapon roster + 1.0 balance patch details)",
+        "faq-content fact fixes (developer, timeline, weapon count, save carryover)",
+        "home-content quick-nav +2 new guides"
+      ]
+    },
+    {
+      "game": "Tears of Metal",
+      "date": "2026-08-01",
+      "genre": "Co-op Action Roguelike (EA)",
+      "template": "tearsofmetalwiki (Coordinator agent, feedback-driven expansion)",
+      "mode": "expand (feedback-driven)",
+      "guidesAdded": 3,
+      "guides": 20,
+      "deployed": true,
+      "issues": [
+        "Whole site used invented hero names (Vanguard/Berserker/Marksman, 160 occurrences) — real heroes are Wallace (longsword), Brienne (unarmed), Ruadh Stonecrusher (giant hammer); every real-name search was unreachable",
+        "boss-guide/boss-strategies also use self-named bosses; real confirmed bosses (Gilles the Hog, Iseult the Banshee) uncovered"
+      ],
+      "lessons": [
+        "Hero/class naming accuracy is the #1 search-reachability fix for new-game wikis — corrected heroes-tier-list + beginner-guide hero section with real roster",
+        "New guides hit the biggest active pain points: threat-level-difficulty-guide (why clearing maps makes the game harder — the 'self-destructive loop'), save-system-guide (#1 community request, no mid-campaign saves yet + save recovery system), multiplayer-connection-fix-guide (dev-confirmed desync #2 priority, host choice, crossplay)",
+        "92% Very Positive game = 'mechanic explanation + decision' traffic, not rescue traffic",
+        "RootDirectory workaround applied for deploy"
+      ],
+      "fixes_applied": [
+        "heroes-tier-list rewritten with real heroes + honest skill-floor ratings",
+        "beginner-guide hero selection section corrected (Wallace recommended starter)",
+        "home-content quick-nav +3 new guides"
+      ]
+    },
+    {
+      "game": "Witchspire",
+      "date": "2026-08-01",
+      "genre": "Co-op Survival RPG (EA 0.1.4)",
+      "template": "witchspirewiki (Coordinator agent, feedback-driven expansion)",
+      "mode": "expand (feedback-driven)",
+      "guidesAdded": 3,
+      "guides": 44,
+      "deployed": true,
+      "issues": [
+        "all-familiars-guide had completely wrong bonding mechanics (capture orbs / weaken-to-30% / press Q — real mechanic is kill -> spirit lingers -> hold F) plus invented familiar names (Emberpuff/Sproutling vs real Rockling/Quol/Locto/Bril/Fien...)",
+        "pvp-guide.md described nonexistent PvP modes (game has NO PvP) with wrong coven names; tier-list.md same fabricated source",
+        "coop-multiplayer-guide described a nonexistent in-game Session Code system (real flow: Steam friends list invite); all guides frozen at v0.1.1d while game was at 0.1.4"
+      ],
+      "lessons": [
+        "Very Positive EA game = 'guide-demand' traffic; the #1 search cluster (familiar taming, 8+ competitor guides) was covered by wrong mechanics — rewriting to the real kill->spirit->hold F loop plus incense table (0.1.4 duration buffs) + Spirit Charmer/Luck/Foretellers modifiers",
+        "Freshness is credibility for EA wikis: new patch-notes-updates page tracks 0.1.0h->0.1.4 + 2027 roadmap; all guides now version-stamped 0.1.4",
+        "Fabricated pages (PvP, tier list) rewritten as honest pages — 'Is there PvP? No' answers the searcher truthfully and preserves the slug",
+        "coop-troubleshooting-guide covers the real friction points: server-side chests, world-bound characters, host requirements, version matching, desync status",
+        "RootDirectory workaround applied for deploy"
+      ],
+      "fixes_applied": [
+        "familiar-taming-guide (new) + all-familiars-guide rewritten with real roster and crafting-station roles",
+        "patch-notes-updates (new) — 0.1.4 changelog + roadmap (A Touch of Magic -> Frozen Tundra -> Throne of Corruption)",
+        "coop-troubleshooting-guide (new) + coop-multiplayer-guide invite flow corrected to Steam-friends model",
+        "tier-list rewritten with real covens (Cloudpiercers/Starsmiths/Foretellers/Wildroots/Tomekeepers/Nightscribes), pvp-guide rewritten as honest PvP-status page",
+        "home-content quick-nav +4 guides"
+      ]
+    },
+    {
+      "game": "Mistfall Hunter",
+      "date": "2026-08-01",
+      "genre": "PvPvE Extraction ARPG (1.0, day-one Game Pass)",
+      "template": "mistfallhunterwiki (Coordinator agent, feedback-driven expansion)",
+      "mode": "expand (feedback-driven)",
+      "guidesAdded": 1,
+      "guides": 46,
+      "deployed": true,
+      "issues": [
+        "patch-notes was stuck at Playtest 0.7.2 (July 20) — 3 versions behind (1.0 release + July 30 day-one hotfix)",
+        "solo-play-guide written pre-launch: missed the biggest post-launch controversy (second map is trio-only, no Duo queue)",
+        "home-content.md still contained Witchspire template residue (title/description/full content were Witchspire's)"
+      ],
+      "lessons": [
+        "48-hour-release-window content wins: server-regions-ping-guide (new) captures the #1 complaint (no OCE/EU server, 120-180ms, stuck-at-queue fixes, client-vs-server diagnosis) — highest search intent at launch",
+        "patch-notes updated to 1.0 + day-one hotfix (Withered Knight buffs, Soul of Return fix, console reconnect) with version history table; solo-play-guide updated with trio-only map reality + post-launch class ratings (Withered Knight A, Sorcerer B)",
+        "Residue scan matters: mistfallhunterwiki (and aincradwiki) home-content.md were Witchspire-branded copies — rewritten with correct game facts",
+        "RootDirectory workaround applied for deploy"
+      ],
+      "fixes_applied": [
+        "server-regions-ping-guide (new) — regions, queue fixes, client/server diagnosis table",
+        "patch-notes -> 1.0 + hotfix; solo-play-guide -> trio-only lockout + 1.0 class ratings",
+        "home-content.md rewritten (was Witchspire residue) + quick-nav"
+      ]
+    },
+    {
+      "game": "Echoes of Aincrad",
+      "date": "2026-08-01",
+      "genre": "Single-player Action JRPG (SAO)",
+      "template": "aincradwiki (Coordinator agent, fabrication cleanup)",
+      "mode": "expand (feedback-driven)",
+      "guidesAdded": 0,
+      "guides": 41,
+      "deployed": true,
+      "issues": [
+        "pvp-duel-guide described a ranked PvP arena with MMR/seasonal rewards — the game is single-player only and has NO PvP",
+        "multiplayer-coop-guide described co-op rooms, boss-rush co-op and room IDs — NO multiplayer exists in the game",
+        "update-patch-notes claimed a June 22 launch and a 1.1.0 with Floors 11-12 — no official source shows these; real launch was July 9-10 with 1.0.3 (day-one combat overhaul) and 1.0.4 (July 16)",
+        "home-content.md still contained Witchspire template residue"
+      ],
+      "lessons": [
+        "'Is it multiplayer?' is a real high-volume query for this game (SAO fans expected an MMO) — answering it honestly captures the search rather than feeding a fake guide to searchers",
+        "Rewrote both fabricated pages as honest status pages (PvP: no; Multiplayer: no, single-player only, partner system is the replacement) — same slug, search equity kept, trust restored",
+        "update-patch-notes rewritten to the real 1.0.3/1.0.4 history + Expansion DLC (end of 2026) roadmap",
+        "home-content.md rewritten with correct game facts + full quick-nav",
+        "RootDirectory workaround applied for deploy"
+      ],
+      "fixes_applied": [
+        "pvp-duel-guide -> honest 'Is There PvP?' page",
+        "multiplayer-coop-guide -> honest single-player status + partner system page",
+        "update-patch-notes -> real 1.0.3/1.0.4 history",
+        "home-content.md rewritten (was Witchspire residue)"
+      ]
+    },
+    {
+      "game": "Beast of Reincarnation",
+      "date": "2026-08-08",
+      "genre": "Single-player Action RPG (Game Freak, hybrid parry combat)",
+      "template": "themoundwiki (cleanest per bestTemplates)",
+      "mode": "new-build (auto-build, score 21/20, zero wiki competition)",
+      "guides": 14,
+      "guidesAdded": 14,
+      "deployed": true,
+      "score": 17,
+      "issues": [
+        "Late-game bosses (Ch 8-13: Ursa, Erymanth, Shidou & Nue, Kunai & Kirin, Koo Nushi form, final Beast) not yet documented by any outlet — marked awaiting confirmation instead of fabricating",
+        "Steam reviews Mixed (~52%) at launch due to performance; Game Freak announced patches — tier list versioned for future balance changes",
+        "GA4 property not created yet — googleAnalyticsId empty, dashboard uses G-PLACEHOLDER"
+      ],
+      "lessons": [
+        "Beast of Reincarnation facts verified across 5 searches: 13 chapters + epilogue, 40+ Nushi encounters, hybrid combat verified",
+        "Game launched 8/4 — only 4 days old, zero wiki competition; strongest first-mover position in the matrix",
+        "Content ratio: 9 reference / 3 search-entry / 2 deep-dive (64/21/14%) — meets the >=50% reference rule"
+      ]
+    },
+    {
+      "game": "DOLOC TOWN",
+      "date": "2026-08-22",
+      "genre": "后末日温馨农场模拟 (RedSaw Games/Logoi Games)",
+      "guides": 20,
+      "score": 22,
+      "deployed": true,
+      "pipeline": "BUILD-001 (Coordinator + QA PASS, relay format)",
+      "qa": "PASS — 12/20 sampled, 18 fact checks matched, 48 [待确认] markers, zero fabrication"
+    },
+    {
+      "game": "Sovereign Tower",
+      "date": "2026-08-25",
+      "genre": "圆桌管理模拟 RPG (WILD WITS/Curve Games)",
+      "template": "doloctownwiki (newest QA-PASS)",
+      "mode": "new-build (BUILD-002, scout re-check 18/20, zero wiki EN/CN/JP)",
+      "guides": 18,
+      "guidesAdded": 18,
+      "deployed": true,
+      "score": 18,
+      "pipeline": "BUILD-002 (SCOUT-REV → build → QA quick PASS → deploy verified)",
+      "qa": "PASS — 6/18 sampled, zero fabrication, $19.99/5 factions fact-checked, GA4 pending human task"
+    },
+    {
+      "game": "Shift At Midnight",
+      "date": "2026-08-25",
+      "genre": "Co-op horror detective (Bun Muen/Kwalee)",
+      "template": "shiftatmidnightwiki",
+      "mode": "expand (keyword-driven +5: endings/ending-explained/characters/multiplayer-FAQ)",
+      "guides": 31,
+      "guidesAdded": 3,
+      "deployed": true,
+      "pipeline": "EXPAND-003 → QA quick FAIL (station-level fabricated metadata) → FIX-SAM (4 files) → redeployed live-verified",
+      "qa": "New guides PASS; site-level FAIL fixed (Fiddlesticks Games/6 endings/$12.99 → Bun Muen/Kwalee/3 endings/$9.99, app 3722330)"
+    },
+    {
+      "game": "Phantom Tower",
+      "date": "2026-08-25",
+      "genre": "Roguelite (Horien Studio)",
+      "template": "phantomtowerwiki",
+      "mode": "expand (keyword-driven +4: platforms-purchase/items-catalog/review-community/best-builds)",
+      "guides": 20,
+      "guidesAdded": 3,
+      "deployed": true,
+      "pipeline": "EXPAND-004 → QA quick PASS → redeployed",
+      "qa": "PASS — 2 new + 2 updated sampled, zero fabrication, 7 item names ruled same-name confusion [Unconfirmed]"
+    },
+    {
+      "game": "Sephiria",
+      "date": "2026-08-26",
+      "genre": "Action Roguelite (TEAM HORAY)",
+      "template": "sephiriawiki",
+      "mode": "expand (feedback-driven +1: save-file-guide)",
+      "guides": 30,
+      "guidesAdded": 1,
+      "deployed": true,
+      "pipeline": "EXPAND-005 → QA quick PASS → deploy verified"
+    },
+    {
+      "game": "The Mound: Omen of Cthulhu",
+      "date": "2026-08-27",
+      "genre": "Co-op Horror Extraction",
+      "template": "themoundwiki",
+      "mode": "expand (feedback-driven +1: weapon-durability-repair-guide)",
+      "guidesAdded": 1,
+      "guides": 33,
+      "deployed": true,
+      "issues": null,
+      "lessons": "EXPAND-006 daily expansion (rotation #2). P0 gap from EXPAND-006-FEEDBACK (weapon durability never taught in-game, breaks after few hits). 1234-word guide: durability explained, Galleon Weapon Upgrade Anvil repair flow, durability ratings table (crossbow/Francesca axe most reliable), 6 maintenance habits. QA quick PASS (0 blocking / 2 warnings: ChubbiChibbai attribution precision, anvil-persistence wording vs weapons-guide). Deployed 8/27. Rule closure: deploy-wiki-site.sh auth.json token expired (403) while CLI session valid — script now uses CLI default auth instead of explicit --token."
+    },
+    {
+      "game": "Crimson Moon",
+      "date": "2026-08-28",
+      "genre": "Soulslike Action RPG (ProbablyMonsters)",
+      "template": "themoundwiki (cleanest per bestTemplates)",
+      "mode": "new-build (BUILD-003, scout re-check 18/20, zero wiki EN/CN/JP/KR)",
+      "guides": 16,
+      "guidesAdded": 16,
+      "deployed": true,
+      "score": 18,
+      "pipeline": "BUILD-003 (SCOUT-REV 8/28 → build → QA quick → deploy verified)",
+      "qa": "PENDING — QA agent (05/06) to review site dir",
+      "issues": [
+        "Pre-release (launches 9/1/2026, 4 days after build) — all content from official announcement/trailers/Steam page/previews; unconfirmed mechanics marked [Unconfirmed] (crossplay, couch co-op, system requirements, playtime, boss names)",
+        "No GA4 yet — googleAnalyticsId empty, dashboard registered with propertyId 'PENDING' / gaId 'G-PLACEHOLDER' (zero-filled until human creates GA4 property)",
+        "Deploy script alias-verify step exited 1 on first run (sleep 5 too short / ANSI-code grep mismatch) — manual re-verify confirmed alias → new deployment (dpl_4PtSBUHAWQHM9NkwPViKdvu9vAb5)"
+      ],
+      "lessons": "BUILD-003 (score 18/20, pre-release build 4 days before 9/1 launch, zero wiki competition EN/CN/JP/KR). 16 guides: 4 P0 (price-platforms, beginner-guide, coop-multiplayer-guide highest-density topic, system-requirements) + 8 P1 (builds-guide, weapon-arts-guide, boons-guide, purification-guide, equipment-sets-guide, incursions-guide, dead-gods-boss-guide, wards-gildenarch-guide) + 4 aux (sanctus-clypeus-hub-guide, solo-guide, game-length-guide, faq-content). SEO disambiguation MUST: bare 'Crimson Moon' is cross-IP polluted (Type-Moon/GARO/FFCC/Genshin) — all titles/metadata anchor 'Crimson Moon {topic}' + 'ProbablyMonsters'/'Gildenarch'; tier-list page adapted to Build Pillars Tier List (pre-release, no fabricated weapon/boon stats). Honesty rule: no boss weaknesses/numbers/review scores invented; every unconfirmed mechanic carries [Unconfirmed]; 3-layer sources (Official/Community/Editorial). Build exit 0, 29 pages, 0 errors; deploy verified homepage + 16 guide slugs + sitemap all 200; alias verified via dpl id match (grep on URL unreliable due to ANSI codes). Dashboard registered (PENDING placeholder)."
+    },
+    {
+      "game": "Sephiria",
+      "date": "2026-09-06",
+      "genre": "pixel-art action roguelite (TEAM HORAY)",
+      "template": "sephiriawiki existing (no template change)",
+      "mode": "expand-feedback (EXPAND-020, daily per-site, feedback-driven)",
+      "guidesAdded": 1,
+      "guides": 35,
+      "deployed": true,
+      "pipeline": "EXPAND-020 (feedback 9/6 → crash-launch-black-screen-fix-guide → QA quick PASS → deploy 9/6 → live HTTP 200 + sitemap)",
+      "qa": "QA quick 9/6 — PASS (0 🔴). Topic: crash on startup / black screen on DX12-limited configs. Sources ≥4 independent: gameplay.tips Sephiria troubleshooting guide (fetched), official 0.12.3 patch (7/1) fixing black-screen crash under limited DX12, official 1.0.30 (8/20) fixing Steam Deck close, Steam Technical Support FAQ pin; macOS logo-hang case single-source → [Unconfirmed]. 1,344 words. No cross-site residue; related[]/links 0 broken; [Unconfirmed] discipline honored.",
+      "issues": [
+        "No post-9/3 fresh player feedback exists (latest patch still 1.0.30, 8/20) — topic is evergreen but evidence leans on patch history + troubleshooting pages; disclosed. Next day: SKIP unless 1.0.31+ or ≥3 new independent sources."
+      ],
+      "lessons": "EXPAND-020 (9/6): startup/black-screen fix. Reuses crash-launch pattern from tearsofmetal EXPAND-015 — cross-site topic template validated."
+    },
+    {
+      "game": "Tears of Metal",
+      "date": "2026-09-06",
+      "genre": "Scottish action roguelike (Paper Cult)",
+      "template": "tearsofmetalwiki existing (no template change)",
+      "mode": "expand-feedback (EXPAND-021, daily per-site, feedback-driven)",
+      "guidesAdded": 1,
+      "guides": 32,
+      "deployed": true,
+      "pipeline": "EXPAND-021 (feedback 9/6 → co-op-revive-guide → QA quick PASS → deploy 9/6 → live HTTP 200 + sitemap)",
+      "qa": "QA quick 9/6 — PASS (0 🔴). Topic: co-op revive cost changed gold → health in official v0.12.58540 (8/13). Sources ≥3 independent: Paper Cult official announcement + dev rationale (gold-hoarding vs Charm economy), thegameswiki update-history (two independent fetches cross-checked: 50%/10%/proportional heal/-5s window), ingamenews/gamereactor.se/primagames/163.com coverage. 1,139 words. No residue; links 0 broken. Flag: existing healing-guide §6 still documents pre-v0.12 gold-based revive → new page added pointer bar; healing-guide needs separate calibration.",
+      "issues": [
+        "healing-guide.md §6 contradicts v0.12 revive economy (gold vs health) — calibration task pending (P0 site accuracy)."
+      ],
+      "lessons": "EXPAND-021 (9/6): co-op revive guide. Version-sensitive mechanic change (gold→health) → cross-page consistency check needed (healing-guide §6)."
+    },
+    {
+      "game": "The Mound: Omen of Cthulhu",
+      "date": "2026-09-06",
+      "genre": "1-4 player co-op extraction horror (ACE Team / NACON)",
+      "template": "themoundwiki existing (no template change)",
+      "mode": "expand-feedback (EXPAND-022, daily per-site, feedback-driven)",
+      "guidesAdded": 1,
+      "guides": 37,
+      "deployed": true,
+      "pipeline": "EXPAND-022 (feedback 9/6 → motion-sickness-camera-fix-guide → QA quick PASS → deploy 9/6 → live HTTP 200 + sitemap)",
+      "qa": "QA quick 9/6 — PASS (0 🔴 / 0 🟡 / 1 🟢). Topic: camera/motion-sickness. Sources ≥3 independent: Steam CN negative review 'very nauseating', revillution discussion thread, official Patch 1.03 adding central dot + FOV range 75–125 explicitly for motion-sickness relief, GamerSocialClub reporting standard camera 'may help with motion sickness'. 1,452 words. No residue; links 0 broken. Deploy script health-check exited 1 twice (sleep-5 alias propagation race) — manually re-verified production serves new guide (HTTP 200 + markers + sitemap); benign.",
+      "issues": [
+        "themound updates-patch-notes-guide version log lags at 1.0.1 while 1.02/1.03 are cited as fact elsewhere on site — calibration pending (P0).",
+        "themound home-content Quick Navigation has pre-existing duplicate 'Weapons Guide' row — cleanup candidate."
+      ],
+      "lessons": "EXPAND-022 (9/6): motion-sickness camera guide. Camera settings as legit high-frequency complaint; official Patch 1.03 FOV/central-dot change is the anchor fact."
+    }
+  ],
+  "knownIssues": [
+    {
+      "id": "root-directory-double-path",
+      "description": "Vercel 项目 Root Directory 与 CLI cwd 叠加导致部署 404",
+      "fix": "部署前 API 清空 rootDirectory，部署后恢复",
+      "frequency": 5
+    },
+    {
+      "id": "null-site-filter",
+      "description": "Dashboard fetchSiteData 返回 null 导致新站点不显示",
+      "fix": "返回零填充数据而非 null",
+      "status": "fixed",
+      "frequency": 1
+    },
+    {
+      "id": "template-residual",
+      "description": "模板复制后 Header/Footer/Metadata 残留原站名称",
+      "fix": "sed 批量替换 + 手动检查",
+      "frequency": 3
+    },
+    {
+      "id": "agent-missing-build-config",
+      "description": "Agent 建站时漏掉根目录构建配置文件（package.json, tsconfig.json, vercel.json），导致无法 npm build 和 Vercel 部署",
+      "fix": "build-game-site.md Phase 2 中明确定义 12 文件必检清单 + 构建验证 Gate",
+      "status": "fixed",
+      "frequency": 2
+    },
+    {
+      "id": "agent-skip-deployment",
+      "description": "Agent 创建文件后跳过 Vercel 部署步骤，commit message 却虚假声称 deployed",
+      "fix": "部署步骤加 '不可跳过' 标记 + commit message 规则（未部署禁写 deployed）",
+      "status": "fixed",
+      "frequency": 2
+    },
+    {
+      "id": "npm-install-slow",
+      "description": "npm install 耗时 10-20 分钟",
+      "fix": "后台运行，不阻塞其他操作",
+      "frequency": 6
+    },
+    {
+      "id": "spiritvale-class-name-residual",
+      "description": "SpiritVale 职业名旧体系残留：12+ 页仍用 Scout→Sniper（真实游戏中不存在）、Gunslinger=特殊、无 Weaver；与 FAQ/home 新体系（Scout→Gunslinger、Weaver=特殊进阶）矛盾。8/28 EXPAND-007 只改了 faq/home/新攻略 3 处。",
+      "fix": "P0 批量修正：先改 classes-guide 权威页，再 class-tier-list/advanced-classes-guide/gunslinger-guide/party-composition/world-boss-chart/solo-guide/beginner-guide/builds-guide；gunslinger-guide 需基于正确前提重写。派子 Agent。",
+      "status": "fixed",
+      "detected": "2026-08-28",
+      "resolved": "2026-08-30 — R1 P0 完成：19 文件批量修正（Scout→Gunslinger/Weaver、Sniper 全清），QA-QUICK-R1 PASS（Sniper 残留 0、映射/费用/名册全站一致）"
+    },
+    {
+      "id": "crimsonmoon-prerelease-unverified",
+      "description": "Crimson Moon（9/1 发售，预发售建站）2 项内容写成 confirmed 但无来源：Manuscript translation（hub 进度系统，3 篇 guide）、vampire blacksmith（铁匠确认但吸血鬼属性无来源）。9/1 发售前需改标 [Unconfirmed] 或二次确认。",
+      "fix": "9/1 发售日复查：a) manuscript translation 改 [Unconfirmed] 或从官方 explainer 二次确认；b) vampire→blacksmith 或 [Unconfirmed]。随 deep QA 一并处理。",
+      "status": "open",
+      "detected": "2026-08-28",
+      "recheck": "2026-09-01"
+    }
+  ],
+  "bestTemplates": {
+    "cleanest": "themoundwiki",
+    "note": "themoundwiki 是最干净的模板，残留最少。aincradwiki 和 witchspirewiki 残留较多，不推荐作为模板。"
   },
-  {
-   "game": "Tears of Metal",
-   "date": "2026-09-03",
-   "genre": "Scottish action roguelike (Paper Cult)",
-   "template": "tearsofmetalwiki existing (no template change)",
-   "mode": "expand-feedback (EXPAND-015, daily per-site, feedback-driven)",
-   "guidesAdded": 1,
-   "guides": 29,
-   "deployed": true,
-   "pipeline": "EXPAND-015 (feedback analyst 9/3 → crash-launch-fix-guide → QA quick PASS → deploy 9/3 → live HTTP 200)",
-   "qa": "QA quick 9/3 — PASS (0 🔴 / 0 🟡 blocking). Gap: startup/black-screen crash cluster only had a one-liner inside steam-deck-guide. 2UpSkill + The CPU Guide + XModHub + official Steam patch history (v0.10.57598 7/31, v0.14.58630 8/14). 1,498 words. [Unconfirmed] on AppData path / driver versions. No cross-site residue.",
-   "issues": [
-    "Reddit source not reachable; community layer = third-party fix guides + official Steam patch notes (noted in guide)"
-   ],
-   "lessons": "EXPAND-015 (9/3, tearsofmetalwiki 29 guides): +1 crash-launch-fix-guide. Launch-stability problems from the 7/22 EA launch were a real gap the site only touched inside the Steam Deck guide."
-  },
-  {
-   "game": "The Mound: Omen of Cthulhu",
-   "date": "2026-09-03",
-   "genre": "1-4 Player Co-op Lovecraftian Extraction Horror (ACE Team / NACON)",
-   "template": "themoundwiki existing (no template change)",
-   "mode": "expand-feedback (EXPAND-013, daily per-site, feedback-driven)",
-   "guidesAdded": 1,
-   "guides": 35,
-   "deployed": true,
-   "pipeline": "EXPAND-013 (feedback analyst 9/3 → isolation-guide → QA quick PASS → deploy 9/3 → live HTTP 200)",
-   "qa": "QA quick 9/3 — PASS (0 🔴 / 0 🟡 blocking). Gap: co-op separation 'Isolation' penalty (screen grays/roots grab when leaving the group) was uncovered by all 34 existing guides. Evidence: Steam Community thread + NoobFeed 'How Isolation Works' + OutputLag + 2UpSkill + ChapterCheats + media reviews (6+ independent). 1,500 words. Conflicting Isolation-vs-Sanity relationship across sources presented honestly, not forced to one answer; single-source mechanics [Unconfirmed]. No residue.",
-   "issues": [
-    "Isolation/Sanity relationship differs by source (NoobFeed treats Isolation as separate; OutputLag/Steam thread fold it into Sanity) — guide presents both and marks the discrepancy"
-   ],
-   "lessons": "EXPAND-013 (9/3, themoundwiki 35 guides): +1 isolation-guide. Second straight daily expand for themound hit a real system the wiki never explained — unexplained co-op penalty systems are a rich feedback vein."
-  },
-  {
-   "game": "Sephiria",
-   "date": "2026-09-03",
-   "genre": "Pixel-art action roguelite (TEAM HORAY)",
-   "template": "sephiriawiki existing (no template change)",
-   "mode": "expand-feedback (EXPAND-012, daily per-site, feedback-driven)",
-   "guidesAdded": 1,
-   "guides": 31,
-   "deployed": true,
-   "pipeline": "EXPAND-012 (feedback analyst 9/3 → katana-build-guide → QA quick PASS → deploy 9/3 → live HTTP 200)",
-   "qa": "QA quick 9/3 — PASS (0 🔴 / 0 🟡 blocking). Gap: Katana was the only one of the 6 weapons without a dedicated build guide. Evidence: Steam Community thread 'Katana feed back' + GrindNStrat/Destructoid/SlashSkill/XModHub 1.0 tier lists + bilibili CN ranking. 1,498 words. Evolution claims (Muramasa Swift Slash slow/bugged, Library Spectral dash, Heidi burst, Blazing Helbanus burn) Community/Editorial-sourced with [Unconfirmed] markers; honesty note included. No cross-site residue.",
-   "issues": [
-    "Some Katana evolution mechanics single-thread-sourced → [Unconfirmed]; re-check after next balance patch touches Katana"
-   ],
-   "lessons": "EXPAND-012 (9/3, sephiriawiki 31 guides): +1 katana-build-guide. Weapon-coverage self-audit gap (5 of 6 weapons had build guides) surfaced by live player criticism of the Katana's 1.0 evolutions."
-  },
-  {
-   "game": "The Mound: Omen of Cthulhu",
-   "date": "2026-09-02",
-   "genre": "1-4 Player Co-op Lovecraftian Extraction Horror (ACE Team / NACON)",
-   "template": "themoundwiki existing (no template change)",
-   "mode": "expand-feedback (EXPAND-011, daily rotation #5-of-5, feedback-driven)",
-   "guidesAdded": 1,
-   "guides": 34,
-   "deployed": true,
-   "pipeline": "EXPAND-011 (feedback analyst quick 9/2 → multiplayer-connection-fix-guide → QA quick → deploy 9/2 → verified live HTTP 200)",
-   "qa": "QA-QUICK-013 9/2 — PASS (0 🔴 / 0 🟡 blocking). 11 independent sources verified the multiplayer-connection gap (official Patch 1.03 + 7 editorial + outagescope user reports). Related slugs valid; 6-char lobby code & crossplay status consistent with coop-strategy-guide/faq; no cross-site contamination; honest-sourcing note included (Steam post bodies not directly capturable).",
-   "issues": [
-    "Crossplay direct invites confirmed broken by devs (Patch 1.03 'working on a fix') — guide documents Public-lobby/server-list workaround + password rooms, does NOT claim it's fixed",
-    "Community reports of matchmaking regression after Aug-18 update (outagescope) — guide includes self-check steps",
-    "Steam community post bodies / review quotes not directly capturable (age gate + ECONNREFUSED) — all Community claims sourced from outagescope user reports + editorial articles, no invented quotes"
-   ],
-   "lessons": "EXPAND-011 (9/2, themoundwiki 34 guides): +1 multiplayer-connection-fix-guide (problem-oriented: 'Connection Failed'/lobby errors + crossplay join workarounds). Feedback analyst verified the gap is real (33 guides had NO standalone connection troubleshooting — coop-strategy-guide only 3-line checklist). High-frequency proof: 11 independent sources. Structure: error quick-reference table → 4 fix steps (VPN/WARP → firewall+verify+DNS/Winsock → Public lobby+server-list refresh → password rooms/Server Finder) → same-platform Steam joins → advanced (NAT/hybrid-GPU/LAN-platform) → official fix timeline → FAQ. Honesty: official quote only where official (Patch 1.03); Community claims tied to outagescope/editorial reports; no invented player quotes. Build exit 0; deploy verified guide HTTP 200 + sitemap 42 locs + guides listing includes new slug. Font: themoundwiki switched to geist package (self-hosted) to unblock builds on GFW-blocked machine — same fix as spiritvalewiki."
-  },
-  {
-   "game": "BOMBANANA!",
-   "date": "2026-09-02",
-   "genre": "3-Player Co-op Bomb-Defusal Party Game (Lefto Studio / TARK)",
-   "template": "themoundwiki (cleanest per bestTemplates) + pre-release honesty pattern",
-   "mode": "new-build (BUILD-006, scout re-check 19/20, release-day 9/2, zero wiki EN/CN/JP/KR)",
-   "guides": 10,
-   "guidesAdded": 10,
-   "deployed": true,
-   "score": 19,
-   "pipeline": "BUILD-006 (SCOUT-REV 8/25 → keyword-results/BOMBANANA.md 9/1 → build 9/1 → deploy 9/1 → QA-QUICK-012 9/2)",
-   "qa": "QA-QUICK-012 9/2 — PASS (0 🔴 / 0 🟡 blocking); 25 fact anchors verified vs Steam App 4656000; 2 non-blocking ⚠️ (full release 14 modules vs 5 demo-documented; price [Unconfirmed] until live)",
-   "issues": [
-    "Pre-release build (1 day before 9/2 launch) — content from demo/official/trailers/Steam page; unconfirmed mechanics marked [Unconfirmed] (price, Mac support, system requirements)",
-    "No GA4 yet — googleAnalyticsId empty, dashboard registered propertyId PENDING / gaId G-PLACEHOLDER (zero-filled until human creates GA4 property)",
-    "Post-launch follow-up: confirm price once live, expand module compendium to full-release 14 modules, verify emotes unlock for all monkeys"
-   ],
-   "lessons": "BUILD-006 (score 19/20, release-day build for 9/2 launch, zero wiki EN/CN/JP/KR). 10 guides: 5 P0 (price-platforms-faq, beginner-guide, roles-guide, modules-guide, manual-guide) + 5 aux (co-op-guide, levels-guide, free-mode-guide, demo-guide, faq-content). BOMBANANA! name is unique (zero SERP pollution) — bare keyword safe, unlike Crimson Moon. Demo-driven content (6M players, 97% positive, 40K peak CCU) = pre-release facts well-sourced; price correctly held [Unconfirmed] (Steam showed no price pre-launch, Game*Spark 価格は未定). SEO differentiation vs article-level competitors (Mobalytics/whisperofthehouse) = systemized coverage (module compendium, manual quick-reference, gesture dictionary). Honesty rule: 25 game-specific facts all independently verified; [Unconfirmed] discipline maintained. Build exit 0, 23 pages; deploy verified homepage + guides + sitemap 18 URLs; alias verified to production."
-  },
-  {
-   "game": "Grain Rot",
-   "date": "2026-08-31",
-   "genre": "Co-op Survival Horror",
-   "template": "grainrotwiki (daily expansion rotation, EXPAND-009)",
-   "mode": "expand-feedback",
-   "guidesAdded": 1,
-   "guides": 26,
-   "deployed": true,
-   "pipeline": "EXPAND-009 (daily rotation #5, feedback-driven) → QA quick PASS → deploy verified",
-   "qa": "PASS — 0 fabrication; all community numbers [Unconfirmed] w/ named sources (gamerblurb/finalboss/Steam discussion 573793023877537271); Rot 100-cap/sunlight-clear/Outpost-cleanse cross-verified; 3 non-blocking notes (1 quote-verbatim fixed pre-deploy, 2 observed)",
-   "issues": [
-    "Rot debuff was the game's namesake mechanic but had no dedicated guide — existing guides referenced it only as a soft timer ('thresholds/cleansing unverified')",
-    "Feedback: Steam 'Symbols meaning' discussion + GamerBlurb + FinalBoss = >=3 independent sources on the Rot meter/cleanse pain point",
-    "L37 'Corrupted enemies are another source' presented as verbatim quote but GamerBlurb reads 'Corrupted enemies can also inflict Rot…' — fixed pre-deploy (paraphrase outside quotes)"
-   ],
-   "lessons": "EXPAND-009 (8/31): +1 rot-debuff-guide (1,367 words, How to Clear the Rot Debuff — Why Am I Vomiting Green Liquid?). Steam discussion 573793023877537271 (skull-symbol controversy) + GamerBlurb + FinalBoss cross-verified. All 14 community-reported numbers carry [Unconfirmed]. QA quick PASS. Deployed 8/31, grainrotwiki.vercel.app/guides/rot-debuff-guide HTTP 200."
-  },
-  {
-   "game": "Fallen Tear: The Ascension",
-   "date": "2026-08-31",
-   "genre": "Hand-drawn 2D Metroidvania (Winter Crew Studios / CMD Studios)",
-   "template": "themoundwiki (cleanest) + crimsonmoonwiki/welcomeelderfieldwiki pre-release honesty pattern",
-   "mode": "new-build (BUILD-005, scout re-check 18/20, pre-release 16 days before 9/16 1.0 launch)",
-   "guides": 17,
-   "guidesAdded": 17,
-   "deployed": true,
-   "score": 18,
-   "pipeline": "BUILD-005 (SCOUT-REV 8/31 → keyword research → build → QA quick PASS → deploy verified)",
-   "qa": "PASS — 17/17 guides read in full; all load-bearing numbers externally verified (themagicrain/mxdwn/Joypad/Steam/官网); 22-vs-21 allies discrepancy honestly labeled; 6 non-blocking notes, 4 fixed pre-deploy (dangling related slug, duplicated FAQ section, 'free EA build'→demo, 9-total [Official]→[Editorial]); home-content orphan + Blink-Strike post-launch recheck noted",
-   "issues": [
-    "Pre-release (1.0 launches 9/16/2026, 16 days after build) — content from Steam page (App 1446900)/1.0 press release/previews; [Unconfirmed]: individual Fated Bond abilities, boss weaknesses, ending unlock conditions, Blink-Strike",
-    "Zero wiki re-verified — only Game8 release-date article + Fextralife 2022 press coverage; no Fandom/Fextralife/wiki.gg site",
-    "Steam marketing 'up to 22 allies' vs 1.0 press release 21 (10 EA + 11 new) — discrepancy documented honestly in fated-bonds-guide + FAQ as [Unconfirmed], resolve post-launch",
-    "No GA4 yet — googleAnalyticsId empty, dashboard registered propertyId PENDING / gaId G-PLACEHOLDER",
-    "home-content.md orphan file (homepage hardcoded in app/page.tsx, same as crimsonmoon/themound template lineage) — noted as maintenance risk, not blocker"
-   ],
-   "lessons": "BUILD-005 (score 18/20, pre-release build 16 days before 9/16 launch, Winter Crew/CMD Studios hand-drawn Metroidvania, EA since 3/17/2026 $19.99 → 1.0 $24.99 -10% first 14 days). 17 guides: 8 base (beginner/combat/map-regions/fated-bonds/progression-ascension/controls-techniques/resources-economy/faq) + 7 keyword (boss-guide/endings/temple-of-oras/ea-to-10-version/walkthrough/hunter-skills/tier-list Fated Bonds+Role Archetypes) + 3 aux (price-platforms/game-length/system-requirements). Honesty rule: no fabricated boss/weapon/stats; every unconfirmed mechanic [Unconfirmed]; 22-vs-21 allies discrepancy labeled. Build exit 0 (Next.js 16.2.10, 30 pages), deploy verified homepage + beginner-guide + boss-guide + tier-list + sitemap all HTTP 200; fallentearwiki.vercel.app live. Dashboard registered (PENDING placeholder)."
-  },
-  {
-   "game": "Welcome to Elderfield",
-   "date": "2026-08-30",
-   "genre": "Cosy Horror RPG (Chris Cote / Kwalee)",
-   "template": "moonlightpeakswiki + crimsonmoonwiki (BUILD-003, cleanest lifecycle-sim + honesty patterns)",
-   "mode": "new-build (BUILD-004, scout re-check 20/20, pre-release 11 days before 9/10 launch)",
-   "guides": 17,
-   "guidesAdded": 17,
-   "deployed": true,
-   "score": 20,
-   "pipeline": "BUILD-004 (SCOUT 20/20 → keyword research → build → QA pending → deploy verified)",
-   "qa": "有条件 PASS (0 fabrication; R1 system-requirements full-game minimums [Unconfirmed] + human-verify logged; R2 demo reviews 400+→~550 fixed; R3 demo-length variance noted; R4 publisher Kwalee correct)",
-   "issues": [
-    "Pre-release (launches 9/10/2026, 11 days after build) — all content from Steam page (App 3195440), Steam demo page (App 3195680), demo play reports, developer statements; unconfirmed mechanics marked [Unconfirmed]: price (not announced), romance/marriage (planned, not implemented per Chris Cote), save carryover, full-game scope (~3x town, at least two more dungeons), full NPC roster",
-    "Official wiki exists (welcometoelderfield.wiki.gg) but is early placeholder — NOT a zero-wiki build; SEO must anchor on demo-verified guides (fishing rod route, 7 mysteries, mall dungeon) + honest pre-release framing instead of claiming zero competition",
-    "Full-game minimum requirements are unusually high for a 2D pixel RPG (i5-11600K/Ryzen 5 5600X, 8GB, GTX 1050 Ti) vs very light demo specs (2GB, DX9) — guides explain the gap editorially without inventing benchmarks",
-    "No GA4 yet — googleAnalyticsId empty, dashboard registered with propertyId PENDING / gaId G-PLACEHOLDER (zero-filled until human creates GA4 property)",
-    "QA R1: full-game minimum specs (i5-11600K/5600X, 8GB, GTX 1050 Ti/RX 570, DX11, 2GB, 1280x768) unverifiable — Steam blocks automation, aggregators list lower (demo-era) specs; marked [Unconfirmed], human-verify task logged",
-    "QA R2: demo review count updated 400+ → ~550 (96% unchanged)",
-    "QA R3: demo length 2-4h vs some ~20h reports (both community-sourced, noted)"
-   ],
-   "lessons": "BUILD-004 (score 20/20, pre-release build 11 days before 9/10 launch, Chris Cote/Kwalee cosy horror RPG, ~85.1K wishlist + 6.2K follow, demo 96% Overwhelmingly Positive 400+ reviews). 17 guides (18 content units incl. tier-list Activity Priorities): 4 P0 (beginner-guide, demo-guide, price-platforms, system-requirements) + 10 P1 (core-mechanics-guide, farming-economy-guide, combat-guide, difficulty-modes-guide, npcs-romance-guide, map-regions-guide, mysteries-guide, fishing-guide, rest-sleep-guide, money-making-guide) + 3 aux (progression-upgrades-guide, game-length-guide, faq-content). All 17 bodies >=800 words (body-only awk count, frontmatter excluded). Honesty rule: price/romance/save-carryover/scope all [Unconfirmed]; tier-list adapted to pre-release Activity Priorities (no fabricated numbers/ratings); 3-layer sources (Official/Community/Editorial) in every frontmatter. Build exit 0 (Next.js 16.2.10, 30 pages), deploy verified homepage + 6 sample guide slugs + faq + tier-list + sitemap + robots all HTTP 200; alias verified (welcomeelderfieldwiki.vercel.app -> welcomeelderfieldwiki-neyonntj2-zhaoq0103s-projects.vercel.app). Dashboard registered (PENDING placeholder). GA4 pending human task (recorded in docs/人工任务清单.md)."
-  },
-  {
-   "game": "Tears of Metal",
-   "date": "2026-08-30",
-   "genre": "Co-op Action Roguelike (EA)",
-   "template": "tearsofmetalwiki (feedback-driven expansion, EXPAND-008)",
-   "mode": "expand-feedback",
-   "guidesAdded": 1,
-   "guides": 28,
-   "deployed": true,
-   "issues": [
-    "P0 gap: healing/HP economy was the only high-frequency pain point (>=6 independent sources) with zero dedicated guide — Healing Font/Chicken/salves/coin budgeting/max-HP reduction/co-op revive all uncovered",
-    "Stamina potion '75' initially written without external source — marked [Unconfirmed] (2upskill has no potion prices; value cross-referenced from village-upgrade-guide L131)"
-   ],
-   "lessons": "EXPAND-008 (8/30): +1 healing-guide (Healing Fonts, Chicken, Salves & Coin Budgeting). Feedback report 8/29 (21+ samples: Steam reviews + Kotaku/Smashpad/whisperofthehouse/2upskill). QA conditional PASS (R5 wording note, fixed pre-deploy). Deployed 8/30, alias verified, /guides/healing-guide HTTP 200."
-  },
-  {
-   "game": "ReStory: Chill Electronics Repairs",
-   "date": "2026-08-08",
-   "genre": "怀旧电器维修模拟 (Mandragora/tinyBuild)",
-   "guides": 14,
-   "score": 18,
-   "deployed": true
-  },
-  {
-   "game": "Waterpark Simulator",
-   "date": "2026-08-08",
-   "genre": "Waterpark Management Simulator (CayPlay)",
-   "template": "lowbudgetrepairswiki (sim management genre match)",
-   "guides": 14,
-   "keywords": 5,
-   "score": 17,
-   "deployed": true,
-   "issues": [
-    "1.0 released 7/31/2026 (8 days ago) — PC/PS5/Xbox, $12.99, 1M+ downloads, 96% Overwhelmingly Positive, 10.5K peak CCU, zero wiki competition",
-    "No GA4 yet — empty googleAnalyticsId, G-PLACEHOLDER in dashboard registry",
-    "No fixed ride catalogue — slides are built piece-by-piece, so tier list and attractions reference rank types instead of named rides (documented honestly in content)",
-    "npm install failed once (network) — succeeded on retry"
-   ],
-   "lessons": "8/8 auto-build (score 17/20). 14 guides: 8 reference (slide-ride-tier-list, attractions-reference, staff-management-guide, research-tree-guide, visitor-happiness-guide, money-making-guide, museum-questline-guide, co-op-multiplayer-guide) + 4 search (beginner 1000+ words, faq, price-platforms-system-requirements, controls) + 2 deep (park-design-layout, endgame). 1.0 content verified via web research: Museum questline (Poseidon't/Clara Loft/Goldie, 2.5-star unlock, Yogi endgame), staff (cashier/janitor/vendor/handyman/lifeguard/security/mascot, Hiring Levels, 4 slots start), research trees (Attractions/Park/Maintenance), 4-player co-op, night mode, beach map, Diamond Stars. Genre is sandbox management sim — tier list ranks attraction TYPES (no named ride catalogue), museum guide in table format. Deployed 8/8 evening, alias verified live."
-  },
-  {
-   "game": "Nivalis Nights",
-   "date": "2026-08-07",
-   "genre": "Cyberpunk Life Simulator (ION LANDS / 505 Games)",
-   "template": "themoundwiki (via bigwalkwiki)",
-   "guides": 10,
-   "keywords": 10,
-   "score": 18,
-   "deployed": true,
-   "issues": [
-    "Pre-release (9/29 launch) — 932K wishlist, zero independent wiki competition (only thegameswiki.com, early stage)",
-    "No GA4 yet — G-PLACEHOLDER in dashboard registry",
-    "No combat system — tier-list page adapted to Business Tier List, content shifts to economy/NPC/exploration guides"
-   ],
-   "lessons": "8/7 Coordinator auto-build (score 22/20). 10 guides: beginner (7 businesses, 100+ NPCs, day-night), best-business (profit $/h ranking), apartment-customization, fishing, chess, sailing/boat, relationship-social, money-making, FAQ, system requirements. Genre is cyberpunk life-sim — no combat content, guides focus on economy optimization, social systems, and exploration. 932K wishlist level demand with near-zero wiki competition = strongest candidate since Big Walk. Deployed evening 8/7 (initial build missed Vercel step)."
-  },
-  {
-   "game": "IRON NEST: Heavy Turret Simulator",
-   "date": "2026-08-06",
-   "genre": "Heavy Turret Simulator (Dieselpunk Artillery)",
-   "template": "themoundwiki (via bigwalkwiki)",
-   "guides": 10,
-   "keywords": 60,
-   "score": 18,
-   "issues": [
-    "Launched TODAY (Aug 6, 2026) — peak search window. Zero wiki competition (no Fandom, no community wiki; only article-style guide sites like ProGameGuides/2UpSkill)",
-    "Price not listed on Steam at launch — guides honestly marked price TBD",
-    "Some advanced ballistics figures (MOA clicks, PSI ranges, spotter error margins) are community-reported from demo guides, not officially documented — labeled as such in guides",
-    "No GA4 yet — G-PLACEHOLDER in dashboard registry",
-    "30 advertised ammo types/abilities — only 7 shells confirmed at launch; guide marked for updates as community unlocks the rest"
-   ],
-   "lessons": "Launch-day build (score 18/20, upgraded from wait-and-see at 843K wishlist). 10 guides: beginner (core loop + 6 stations), controls/keybindings, tactical map (20x10 grid, tokens, pencils, compass), target spotting/triangulation, ballistic calculator, shell types (HE/HCHE/AP/S.T.A.R./SMOKE/PHOSGENE/TEAR GAS), loading & aiming, requisition & upgrade path, counter-battery survival, system requirements. Genre is deep simulation — tier-list page adapted to Shell Tier List (overall, by target type, beginner purchase priority). Content ratio: 30% entry (beginner/controls/specs), 40% deep (map/targeting/ballistics/loading/counter-battery), 30% reference (shell list, upgrades, FAQ). Honesty rule applied — community-reported ballistics and unconfirmed price clearly labeled."
-  },
-  {
-   "game": "Vahrin's Call",
-   "date": "2026-08-06",
-   "genre": "Single-player Action RPG (Dark Souls-like)",
-   "mode": "expand",
-   "guidesAdded": 3,
-   "guides": 26,
-   "deployed": false,
-   "issues": [
-    "Existing guides were launch-era (7/27-8/1) with minimal verified detail — community has since mapped 30+ skill book locations, 15 named NPCs, and verified unique weapons",
-    "skill-book-locations.md was placeholder text ('no locations published') despite real locations being documented by TechRaptor/gamesnight.nz"
-   ],
-   "lessons": "Expand run: +3 guides (skill-book-hunting, npcs-characters, unique-weapons). 203 PV ⭐⭐ growth site. Skill books 'for Oafs' series mapped across 6 zones. NPC guide covers all 15 South Vale Hamlet characters + 4 named minibosses. Unique weapons guide covers Colosseum Victor Sword/Shield with verified stats. All content search-verified via TechRaptor interactive maps. Developer is Titan Roc (7-person studio, self-published) — corrected from brief. Game is 'Forsaken Realms: Vahrin's Call' full title. Reviews Mixed at launch (68%), not 88%."
-  },
-  {
-   "game": "Bonehold",
-   "date": "2026-08-06",
-   "genre": "Roguelike Dungeon Crawler ARPG",
-   "mode": "expand",
-   "guidesAdded": 3,
-   "guides": 17,
-   "deployed": false,
-   "issues": [
-    "No technical/system-requirements content existed — players searching 'can I run Bonehold' had zero coverage",
-    "Steam store page has conflicting class counts: demo page says '7 classes… Scorcher' vs full game page '10 classes… Sorcerer' — documented honestly as 待验证",
-    "Existing guides use single-line array frontmatter format that the parser reads as strings — Related Guides sections broken on all 14 existing guides"
-   ],
-   "lessons": "Expand run: +3 guides (system-requirements, review-guide, similar-games). 106 PV ⭐⭐ growth site. System requirements verified from Steam page (Win 7 min, GTX 470 min, full controller + DualShock/DualSense, Steam Deck status, 10 languages, free demo). Review guide: Very Positive 86% of 97 reviews, ~$9.99, 98 achievements, bundles documented. Similar games: 8 games with comparison table (Barony/Mortal Sin/Verho bundles + Hades/Dead Cells/Isaac/Rogue Legacy 2 genre neighbors). Agent noted frontmatter parser bug: single-line `related: [guide-a, guide-b]` is read as string — new guides use multi-line format that works."
-  },
-  {
-   "game": "Big Walk",
-   "date": "2026-08-04",
-   "genre": "Co-op Open World Puzzle Adventure",
-   "template": "themoundwiki",
-   "guides": 10,
-   "keywords": 12,
-   "score": 17,
-   "issues": [
-    "Launched TODAY (Aug 4, 2026) — peak search window. Zero wiki competition (no Fandom, no community wiki)",
-    "No full walkthrough/puzzle solutions published yet — guides honestly marked TBD / unverified where community confirmation pending (cutter machine quest, golden head, game length, Steam Deck)",
-    "Price corrected vs pre-launch estimate: $19.99 USD launch price (25% discount), not $24.99. Platforms include Switch 2 + Mac in addition to Steam/PS5",
-    "No GA4 yet — G-PLACEHOLDER in dashboard registry"
-   ],
-   "lessons": "Launch-day build (score 21/20). 10 guides: beginner, multiplayer/co-op (2-12 players, crossplay, PS Plus day-one), tools (walkie-talkie/binoculars/laser pointer/megaphone/flares/flashlight/whiteboard/cowbell/golden head), puzzles, hidden secrets (gourd rewards, cutter machine reported), island exploration (1.4km² island, no map, tunnels/ski lifts), FAQ, walkthrough (structure only — no spoilers), tips & tricks, system requirements. No-combat genre → tier-list page adapted to Tool Tier List. Content ratio: 50% entry (beginner/FAQ/specs), 30% deep (tools/puzzles/exploration), 20% reference. Honesty rule applied — unverified launch-day reports clearly labeled."
-  },
-  {
-   "game": "Low-Budget Repairs",
-   "date": "2026-08-03",
-   "genre": "Renovation Simulator",
-   "template": "themoundwiki",
-   "guides": 10,
-   "keywords": 65,
-   "score": 17,
-   "issues": [
-    "Pre-release game (Aug 13 launch) — all guides based on July 2026 demo + pre-release coverage. Post-launch updates needed for exact mechanics",
-    "No real wiki competition confirmed — first-mover advantage",
-    "Simulation genre is new to portfolio — no genreInsights for renovation sims yet"
-   ],
-   "lessons": "1M+ wishlist, Aug 13 launch, zero wiki competition. Coordinator auto-build (score 21/20). 10 guides: beginner, money-making, cost-cutting tips, tool guide, hardware store, painting, tiling, renovation jobs reference, FAQ, system requirements. Content ratio: 50% reference tables (tool comparison, job reference, cost-cutting methods), 30% entry (beginner/FAQ/specs), 20% deep (painting/tiling guides)."
-  },
-  {
-   "game": "Delverium",
-   "date": "2026-08-02",
-   "genre": "Co-op Survival Sandbox",
-   "template": "themoundwiki",
-   "guides": 7,
-   "keywords": 13,
-   "score": 19,
-   "issues": [],
-   "lessons": "Pre-release game (9/22 EA). Only 13 info-class keywords — gameplay keywords expected 1-3 months post-EA. Built 7 guides covering release date, demo, platforms, co-op, crafting, builds, dungeons. 88% noise rate typical for pre-release names. Coordinator auto-build."
-  },
-  {
-   "game": "Expeditions: Samurai",
-   "date": "2026-08-01",
-   "genre": "Party-Based Tactical CRPG (Sengoku Japan)",
-   "template": "themoundwiki (Agent auto, skill-driven)",
-   "guides": 12,
-   "keywords": 25,
-   "score": 20,
-   "issues": [
-    "Pre-launch game (EA Aug 7) — guides based on official confirms + series precedent, gameplay details to be verified post-launch",
-    "Village management not in EA launch build (arrives during EA) — guide covers confirmed info + roadmap only",
-    "Class names and 3 of 8 companion names unconfirmed — guides honestly mark them TBD",
-    "First build hit a transient exit-code-1 on back-to-back npm builds (.next cache race) — clean rebuild passed exit 0"
-   ],
-   "lessons": [
-    "20/20 game: series pedigree (1.3M+ sales, Expeditions Rome/Viking/Conquistador) + EA in 6 days + ZERO wiki competition + CRPG guide demand = perfect candidate",
-    "CRPG guide structure confirmed: builds, classes, companions, romance, stealth, combat, weapons, co-op, walkthrough, tips all verified real search terms",
-    "Pre-launch guides must separate confirmed facts from series-precedent expectations — no fabrication, mark TBD items honestly",
-    "12-file checklist + build gate + residue scan = zero-miss deployment (only 1 residual comment fixed)",
-    "Deploy verify needs re-check after edge-cache propagation — first curl can return stale transitional response"
-   ],
-   "fixes_applied": []
-  },
-  {
-   "game": "Go-Go Town!",
-   "date": "2026-08-01",
-   "genre": "Co-op City Builder / Management Sim",
-   "template": "themoundwiki (Coordinator Branch B auto-build, skill-driven)",
-   "guides": 10,
-   "keywords": 25,
-   "score": 15,
-   "issues": [
-    "WebSearch-compiled game knowledge (no Google Suggest API without proxy)",
-    "Official community wiki (gogotown.wiki.gg) exists but is early-stage — no independent wiki site, competition scored low",
-    "G-PLACEHOLDER GA ID — GA4 property not yet created"
-   ],
-   "lessons": [
-    "15/20 game: 1.0 launched July 16 + 93% Very Positive (2200+ reviews) + Steam Deck Verified = solid city-builder candidate",
-    "City builders have distinct keyword structure vs RPG/soulslike: layout, build order, money, automation, tourists — all verified real search terms",
-    "Cozy/management sims have no combat guide demand — content shifts to production chains, worker AI, and economy",
-    "Genre insights from build-history didn't cover city builders — added Cozy/Management pattern to guide planning",
-    "12-file checklist + build gate + residue scan = zero-miss deployment (18/18 checklist items passed, build exit 0, deploy verified 200)"
-   ],
-   "fixes_applied": []
-  },
-  {
-   "game": "Moonlight Peaks",
-   "date": "2026-07-31",
-   "genre": "Cozy Vampire Farming Life Sim",
-   "template": "themoundwiki (Coordinator auto, skill-driven)",
-   "guides": 12,
-   "keywords": 20,
-   "score": 17,
-   "issues": [
-    "WebSearch-compiled game knowledge (no Google Suggest API without proxy)",
-    "Order Automatica (0 reviews) and Stoneguard (~121 copies) candidates rejected for insufficient player base",
-    "Fandom wiki exists for Moonlight Peaks but is early-stage placeholder — scored competition 3/5"
-   ],
-   "lessons": [
-    "17/20 game: 200K+ copies in 3 weeks + 89% Very Positive + farming-sim keyword structure = strongest candidate found",
-    "Farming/life sims have Stardew-style guide demand: romance, gifts, potions, quests, crops all verified real search terms",
-    "200K+ player base with only scattered guides = no competition problem despite early-stage Fandom",
-    "12-file checklist + build gate + residual scan = zero-miss deployment again",
-    "Candidate pool empty -> full discovery cycle produced 5 candidates; only 1 passed the 15 threshold"
-   ],
-   "fixes_applied": []
-  },
-  {
-   "game": "Bonehold",
-   "date": "2026-07-30",
-   "genre": "Roguelike Dungeon Crawler ARPG",
-   "template": "themoundwiki (Agent auto, skill-driven)",
-   "guides": 10,
-   "keywords": 40,
-   "score": 17,
-   "issues": [
-    "WebSearch-compiled game knowledge (no Google Suggest API available without proxy)",
-    "App/guides/page.tsx had 2 The Mound residuals — caught and fixed by residue scan"
-   ],
-   "lessons": [
-    "17/20 game: released 2 days ago (July 28) + 7 classes + zero wiki = perfect timing",
-    "Roguelike ARPG with charge combat and item prefixes = excellent build guide potential",
-    "88% positive on Steam, 98 achievements = deep game with player engagement",
-    "12-file checklist + build gate + residual scan = zero-miss deployment"
-   ],
-   "fixes_applied": []
-  },
-  {
-   "game": "Shift At Midnight",
-   "date": "2026-07-29",
-   "genre": "Co-op Horror Detective",
-   "template": "themoundwiki (Agent auto, skill-driven)",
-   "guides": 12,
-   "keywords": 0,
-   "score": 18,
-   "issues": [
-    "WebSearch-compiled game knowledge (no Google Suggest API available)",
-    "Template residue in guides/page.tsx and metadata.ts caught and fixed by residue scan"
-   ],
-   "lessons": [
-    "18/20 game: 37K concurrent, 90% positive, viral co-op horror = massive search demand",
-    "No dedicated wiki — content scattered across VGtimes/TheGamer/Destructoid only",
-    "Co-op horror detective unique blend = diverse guide topics (doppelganger, entity, co-op, money, endings)",
-    "12-file checklist + build gate + residue scan = zero-miss deployment"
-   ],
-   "fixes_applied": []
-  },
-  {
-   "game": "Graphite",
-   "date": "2026-07-29",
-   "genre": "Pen-and-Ink Tactical Roguelike RPG",
-   "template": "themoundwiki (Agent auto, skill-driven)",
-   "guides": 11,
-   "keywords": 65,
-   "score": 15,
-   "issues": [
-    "Game name 'Graphite' is too generic — 65 keywords harvested but noise rate ~50% (graphite material/pencil/golf shaft matches)",
-    "Google Suggest API returned mostly irrelevant suggestions for the word 'graphite'"
-   ],
-   "lessons": [
-    "15/20 game: 7 heroes × unlimited artifact stacking + Break system + 4-act campaign = deep guide potential",
-    "Zero wiki competition confirmed — no Fandom, no Fextralife, no guide sites",
-    "Tactical roguelike RPGs have strong search intent — players actively search for builds/strategies",
-    "Generic game names need manual keyword curation rather than Google Suggest alone",
-    "12-file checklist + build gate + residual scan = zero-miss deployment"
-   ],
-   "fixes_applied": []
-  },
-  {
-   "game": "The Relic: First Guardian",
-   "date": "2026-07-28",
-   "genre": "Korean Dark-Fantasy Soulslike Action RPG",
-   "template": "themoundwiki (Agent auto, skill-driven)",
-   "guides": 11,
-   "keywords": 44,
-   "score": 18,
-   "issues": [
-    "Pre-launch game (releases July 31) — 0 search traffic expected initially",
-    "Google Suggest API unavailable without proxy — used WebFetch to harvest keywords (44 words)"
-   ],
-   "lessons": [
-    "18/20 game: 5 weapons × 12 trees + 70 bosses + 70 runes = 150+ guide potential",
-    "Zero wiki competition confirmed (no Fextralife, no Fandom, no Reddit guides)",
-    "Soulslike games have excellent search long-tail — players search boss guides for years",
-    "12-file checklist + build gate + residual scan = zero-miss deployment"
-   ],
-   "fixes_applied": []
-  },
-  {
-   "game": "Taival",
-   "date": "2026-07-27",
-   "genre": "Co-op Adventure RPG",
-   "template": "themoundwiki (Agent auto, skill-driven)",
-   "guides": 12,
-   "keywords": 45,
-   "score": 15,
-   "issues": [
-    "Vercel project link was stale (themoundwiki) — required .vercel cleanup and relink"
-   ],
-   "lessons": [
-    "15/20 games hit auto-continue threshold — Phase 0 discovery found it without human input",
-    "Co-op RPG with unique companion mechanic = good search differentiation",
-    "Template .vercel/project.json must be cleaned before deploying to new project",
-    "12-file checklist + build gate + residual scan = zero-miss deployment"
-   ],
-   "fixes_applied": []
-  },
-  {
-   "game": "Witchspire",
-   "date": "2026-06-29",
-   "genre": "Co-op Survival RPG",
-   "template": "fresh build (first site)",
-   "guides": 20,
-   "keywords": 88,
-   "score": 16,
-   "issues": [
-    "首次建站，模板从零搭建"
-   ],
-   "lessons": [
-    "RPG 类 Tier List + Build 搜索量最高",
-    "Co-op 攻略不可缺"
-   ],
-   "fixes_applied": []
-  },
-  {
-   "game": "Mistfall Hunter",
-   "date": "2026-07-01",
-   "genre": "PvPvE Extraction ARPG",
-   "template": "witchspirewiki derivative",
-   "guides": 25,
-   "keywords": 89,
-   "score": 17,
-   "issues": [
-    "Root Directory 配置导致部署失败"
-   ],
-   "lessons": [
-    "Extraction 类游戏 Build 攻略搜索量极高",
-    "PvPvE 需要 solo + team 分开写"
-   ],
-   "fixes_applied": [
-    "Root Directory 通过 API 修复"
-   ]
-  },
-  {
-   "game": "Echoes of Aincrad",
-   "date": "2026-07-07",
-   "genre": "Action JRPG",
-   "template": "witchspirewiki derivative",
-   "guides": 20,
-   "keywords": 107,
-   "score": 16,
-   "issues": [
-    "GSC 验证文件延迟"
-   ],
-   "lessons": [
-    "大 IP 游戏 Co-op 搜索量很高",
-    "Demo 攻略意外热门"
-   ],
-   "fixes_applied": []
-  },
-  {
-   "game": "The Mound: Omen of Cthulhu",
-   "date": "2026-07-14",
-   "genre": "Co-op Horror Extraction",
-   "template": "aincradwiki",
-   "guides": 14,
-   "keywords": 46,
-   "score": 14,
-   "issues": [
-    "Root Directory 导致部署失败",
-    "模板残留严重（Aincrad 内容未清理）"
-   ],
-   "lessons": [
-    "上线前 1 天建站关键词少，上线后逐渐增长",
-    "模板复制后必须做残留清理"
-   ],
-   "fixes_applied": [
-    "API 修复 Root Directory",
-    "sed 批量替换模板残留"
-   ]
-  },
-  {
-   "game": "SpiritVale",
-   "date": "2026-07-12",
-   "genre": "MMORPG",
-   "template": "themoundwiki（最干净模板）",
-   "guides": 13,
-   "keywords": 116,
-   "score": 18,
-   "issues": [
-    "Dashboard 新增站点不显示（fetchSiteData 返回 null）"
-   ],
-   "lessons": [
-    "MMORPG 关键词极多（116）",
-    "fetchSiteData 不能用 null，应返回零填充数据",
-    "Free-to-Play 游戏搜索量高于付费游戏"
-   ],
-   "fixes_applied": [
-    "修复 fetchSiteData 返回零填充数据"
-   ]
-  },
-  {
-   "game": "Skills & Raids",
-   "date": "2026-07-15",
-   "genre": "Party-based Extraction RPG",
-   "template": "themoundwiki",
-   "guides": 13,
-   "keywords": 20,
-   "score": 12,
-   "issues": [
-    "游戏名太通用导致关键词噪声率 ~60%",
-    "单人开发者，游戏体量不确定"
-   ],
-   "lessons": [
-    "通用名称的游戏需要更长尾的标题策略",
-    "单人开发游戏搜索量上限低"
-   ],
-   "fixes_applied": []
-  },
-  {
-   "game": "MineGeon: Renegades",
-   "date": "2026-07-20",
-   "genre": "Co-op Roguelite Mining",
-   "template": "skillsandraidswiki",
-   "guides": 11,
-   "keywords": 0,
-   "score": 15,
-   "issues": [
-    "手动建站（非Agent），Agent建站流程的对照参考"
-   ],
-   "lessons": [
-    "构建验证 Gate 可以防止漏掉 package.json/tsconfig.json",
-    "cp -r 模板比逐文件创建更可靠"
-   ],
-   "fixes_applied": []
-  },
-  {
-   "game": "Sephiria",
-   "date": "2026-07-21",
-   "genre": "Action Roguelite",
-   "template": "themoundwiki (Agent auto)",
-   "guides": 10,
-   "keywords": 79,
-   "score": 14,
-   "issues": [
-    "Agent 漏掉 package.json/tsconfig.json/vercel.json 三个构建配置文件",
-    "Agent commit message 虚假声称 deployed（实际未部署）",
-    "未执行 npm build 验证",
-    "未更新 build-history.json",
-    "未注册 Dashboard"
-   ],
-   "lessons": [
-    "Agent '项目初始化' 步骤需要显式文件清单，不能只说'初始化+配置'",
-    "12 文件逐项检查清单必须明确定义",
-    "部署前必须有构建验证 Gate",
-    "commit message 规则：未部署不得写 deployed"
-   ],
-   "fixes_applied": [
-    "手动补 package.json + tsconfig.json + vercel.json",
-    "手动执行 vercel --prod 部署",
-    "更新 build-game-site.md Agent 设计"
-   ]
-  },
-  {
-   "game": "Dinoblade",
-   "date": "2026-07-21",
-   "genre": "Soulslike Action RPG",
-   "template": "themoundwiki (Agent auto)",
-   "guides": 10,
-   "keywords": 0,
-   "score": 13,
-   "issues": [
-    "与 Sephiria 相同的缺陷模式：缺构建文件、未部署、build-history 未更新",
-    "Agent commit message 写 deployed 但未部署",
-    "git push 冲突导致文件丢失，需重建"
-   ],
-   "lessons": [
-    "Agent 缺陷是系统性的，非偶发 — Sephiria 和 Dinoblade 完全相同的遗漏模式",
-    "git push 前必须 pull --rebase",
-    "Agent 需要在每个 Phase 结束时做自检"
-   ],
-   "fixes_applied": [
-    "手动补 package.json + tsconfig.json + vercel.json",
-    "手动执行 vercel --prod 部署",
-    "修复 build-game-site.md 防止复发"
-   ]
-  },
-  {
-   "game": "Tears of Metal",
-   "date": "2026-07-23",
-   "genre": "Action Roguelike, Co-op",
-   "template": "themoundwiki (Agent auto, skill-driven)",
-   "guides": 11,
-   "keywords": 55,
-   "score": 19.5,
-   "issues": [
-    "npm install 需要重做（模板复制的 node_modules 损坏）",
-    "git push 冲突需要 pull --rebase"
-   ],
-   "lessons": [
-    "19.5/20 分游戏：EA 刚上线 1 天 + 92% 好评 + 无 Wiki + 深系统 = 完美候选",
-    "模板复制后 node_modules 不能直接复用，必须 rm -rf 重装",
-    "12 文件检查清单 + 构建验证 Gate + 残留扫描全部通过后才可提交",
-    "Google Suggest API 无代理时用 WebSearch 编译关键词可行（55 词）"
-   ],
-   "fixes_applied": []
-  },
-  {
-   "game": "DragonSword: Awakening",
-   "date": "2026-07-24",
-   "genre": "Anime Open-World Action RPG",
-   "template": "themoundwiki (Agent auto, 2-agent parallel)",
-   "guides": 12,
-   "keywords": 62,
-   "score": 19,
-   "issues": [
-    "Google Suggest API 无代理，WebSearch 编译关键词",
-    "Phantom Tower 初始候选被驳回（零搜索需求数据），改用 DragonSword"
-   ],
-   "lessons": [
-    "19/20 分游戏：发售 2 天 + 85% 好评 + 无 Wiki + 19 英雄 = 优质候选",
-    "游戏发现 Phase 0 需要两轮筛选：第一轮广度搜索，第二轮验证搜索需求",
-    "候选游戏必须验证实际搜索需求（Google Suggest/WebSearch 有关键词才算合格）",
-    "双 Agent 并行（配置 + 内容）比单 Agent 快 ~40%",
-    "12 文件检查清单 + 构建验证 Gate + 残留扫描 = 零遗漏上线"
-   ],
-   "fixes_applied": []
-  },
-  {
-   "game": "The Mound",
-   "date": "2026-08-01",
-   "genre": "Co-op Horror Extraction",
-   "template": "themoundwiki (Builder agent, feedback-driven expansion)",
-   "mode": "expand (feedback-driven)",
-   "guidesAdded": 3,
-   "guides": 41,
-   "deployed": true,
-   "issues": [
-    "First vercel --prod deploy hit the known root-directory-double-path error (project Root Directory 'games-site/themoundwiki' + CLI cwd) — cleared rootDirectory via API, deployed, restored it",
-    "Guide length creep: performance/progress drafts exceeded the 6-9K target (13.4K/10.5K) — trimmed to ~10-12K to stay near existing guide range (max 11.4K)",
-    "Stats doc was stale (Mound listed 24 guides vs 38 actual) — corrected to 41 with this expansion"
-   ],
-   "lessons": [
-    "Feedback-driven expansion pattern works: 3 highest-demand gaps (performance fixes, progress recovery, progression/meta) were all zero-coverage before this build",
-    "Patch 1.02 content (Block ability, achievement/trophy-based progress recovery tool, PS5 fix) is high-search-intent '差评救援' material — patch notes, crossplay, contracts and combat guides all updated to 1.02 state",
-    "Crossplay guide rewritten honestly: PC<->Xbox confirmed, PS5 inconsistent — reconcile existing 'full crossplay' claims rather than repeating them",
-    "Contract difficulty follows HOST level — new section in contracts-guide resolves the 'can't open easy maps for newbies' complaint",
-    "Build exit 0, residue scan clean, deploy verified: homepage 200, sitemap contains all 3 new slugs, all guide pages 200"
-   ],
-   "fixes_applied": [
-    "rootDirectory cleared via API before deploy and restored after (documented knownIssue root-directory-double-path)"
-   ]
-  },
-  {
-   "game": "SpiritVale",
-   "date": "2026-08-01",
-   "genre": "Class-based MMORPG (buy-to-play EA)",
-   "template": "spiritvalewiki (Coordinator agent, feedback-driven expansion)",
-   "mode": "expand (feedback-driven)",
-   "guidesAdded": 3,
-   "guides": 41,
-   "deployed": true,
-   "issues": [
-    "Highest-PV site (3683 PV) had critical fact errors: FAQ claimed free-to-play (real: $14.99 buy-to-play), denied the Auction Hall exists, listed a nonexistent 'Sniper' class (real: Gunslinger; special class is Weaver), described a main quest line that doesn't exist, and claimed solo can clear all content (community consensus: solo is rough after early game)"
-   ],
-   "lessons": [
-    "Fact-correction work outranks new content on high-PV sites — beginners landing on wrong F2P/class info lose trust in the whole wiki",
-    "New guides answered the biggest real searches: connection/server guide (launch rollback timeline, NA-server advice), solo-party guide (honest solo limits + Paladin #1, Discord LFG), updates-patch-notes (0.30.0, Auction Hall rework timeline)",
-    "beginner-guide rewritten around the real opening (Waystone from Waybinder, Fast Casting, Novice Set farming, ASPD 193 cap, element chart) — no fake main quest",
-    "class-tier-list rewritten with community consensus (Summoner 'extremely OP', Warrior S, Acolyte bottom solo) + EA balance-churn warning",
-    "Deploy needed the rootDirectory clear/restore workaround (documented knownIssue root-directory-double-path)"
-   ],
-   "fixes_applied": [
-    "faq-content: F2P->buy-to-play, Auction Hall exists (down for rebuild), Sniper->Gunslinger, solo->partial, no-wipe promise added",
-    "class-tier-list: Sniper/Gunslinger/Weaver corrections",
-    "home-content quick-nav +3 new guides"
-   ]
-  },
-  {
-   "game": "Sephiria",
-   "date": "2026-08-01",
-   "genre": "Action Roguelite (1.0 launched 7/31)",
-   "template": "sephiriawiki (Coordinator agent, 1.0 fact-correction)",
-   "mode": "expand (feedback-driven, delta)",
-   "guidesAdded": 2,
-   "guides": 30,
-   "deployed": true,
-   "issues": [
-    "Existing 1.0 guides were almost entirely fabricated: 'Chapter 7 Astral Vault', 'Tome/Greatsword weapons (8 total)', 'Corruption System', 'Infinite Mode', wrong developer 'Sephiria Studio' (real: TEAM HORAY), wrong EA timeline (real: April 2025, 484 days, 58 updates), invented boss/chapter names"
-   ],
-   "lessons": [
-    "1.0-launch coverage is a trust race: the wiki was the only '1.0 guide' source — fabricated facts (fake weapons, fake chapter) destroyed its credibility vs the real patch records",
-    "Rewrote full-release-guide + weapons-tier-list to real 1.0 content (final Chapter 6 + ending, 6 weapons/200+ upgrades, Side Bag, Mystic Pot rework, Hard Mode to 60, 1.0.21 hotfix)",
-    "New chapter-6-final-boss-guide (real ending content, 1.0.21 telegraphing/blocking changes) and multiplayer-connection-fix-guide (ping spikes, desync, player.log submission path)",
-    "FAQ corrected: TEAM HORAY, EA timeline, 6 weapons, EA save carryover official answer (7/9 announcement) vs the conflicting 1.0.19 summary line",
-    "No rootDirectory workaround needed (project had none set) — deployed directly"
-   ],
-   "fixes_applied": [
-    "full-release-guide rewrite (removed fabricated Chapter 7/Tome/Infinite Mode)",
-    "weapons-tier-list rewrite (real 6-weapon roster + 1.0 balance patch details)",
-    "faq-content fact fixes (developer, timeline, weapon count, save carryover)",
-    "home-content quick-nav +2 new guides"
-   ]
-  },
-  {
-   "game": "Tears of Metal",
-   "date": "2026-08-01",
-   "genre": "Co-op Action Roguelike (EA)",
-   "template": "tearsofmetalwiki (Coordinator agent, feedback-driven expansion)",
-   "mode": "expand (feedback-driven)",
-   "guidesAdded": 3,
-   "guides": 20,
-   "deployed": true,
-   "issues": [
-    "Whole site used invented hero names (Vanguard/Berserker/Marksman, 160 occurrences) — real heroes are Wallace (longsword), Brienne (unarmed), Ruadh Stonecrusher (giant hammer); every real-name search was unreachable",
-    "boss-guide/boss-strategies also use self-named bosses; real confirmed bosses (Gilles the Hog, Iseult the Banshee) uncovered"
-   ],
-   "lessons": [
-    "Hero/class naming accuracy is the #1 search-reachability fix for new-game wikis — corrected heroes-tier-list + beginner-guide hero section with real roster",
-    "New guides hit the biggest active pain points: threat-level-difficulty-guide (why clearing maps makes the game harder — the 'self-destructive loop'), save-system-guide (#1 community request, no mid-campaign saves yet + save recovery system), multiplayer-connection-fix-guide (dev-confirmed desync #2 priority, host choice, crossplay)",
-    "92% Very Positive game = 'mechanic explanation + decision' traffic, not rescue traffic",
-    "RootDirectory workaround applied for deploy"
-   ],
-   "fixes_applied": [
-    "heroes-tier-list rewritten with real heroes + honest skill-floor ratings",
-    "beginner-guide hero selection section corrected (Wallace recommended starter)",
-    "home-content quick-nav +3 new guides"
-   ]
-  },
-  {
-   "game": "Witchspire",
-   "date": "2026-08-01",
-   "genre": "Co-op Survival RPG (EA 0.1.4)",
-   "template": "witchspirewiki (Coordinator agent, feedback-driven expansion)",
-   "mode": "expand (feedback-driven)",
-   "guidesAdded": 3,
-   "guides": 44,
-   "deployed": true,
-   "issues": [
-    "all-familiars-guide had completely wrong bonding mechanics (capture orbs / weaken-to-30% / press Q — real mechanic is kill -> spirit lingers -> hold F) plus invented familiar names (Emberpuff/Sproutling vs real Rockling/Quol/Locto/Bril/Fien...)",
-    "pvp-guide.md described nonexistent PvP modes (game has NO PvP) with wrong coven names; tier-list.md same fabricated source",
-    "coop-multiplayer-guide described a nonexistent in-game Session Code system (real flow: Steam friends list invite); all guides frozen at v0.1.1d while game was at 0.1.4"
-   ],
-   "lessons": [
-    "Very Positive EA game = 'guide-demand' traffic; the #1 search cluster (familiar taming, 8+ competitor guides) was covered by wrong mechanics — rewriting to the real kill->spirit->hold F loop plus incense table (0.1.4 duration buffs) + Spirit Charmer/Luck/Foretellers modifiers",
-    "Freshness is credibility for EA wikis: new patch-notes-updates page tracks 0.1.0h->0.1.4 + 2027 roadmap; all guides now version-stamped 0.1.4",
-    "Fabricated pages (PvP, tier list) rewritten as honest pages — 'Is there PvP? No' answers the searcher truthfully and preserves the slug",
-    "coop-troubleshooting-guide covers the real friction points: server-side chests, world-bound characters, host requirements, version matching, desync status",
-    "RootDirectory workaround applied for deploy"
-   ],
-   "fixes_applied": [
-    "familiar-taming-guide (new) + all-familiars-guide rewritten with real roster and crafting-station roles",
-    "patch-notes-updates (new) — 0.1.4 changelog + roadmap (A Touch of Magic -> Frozen Tundra -> Throne of Corruption)",
-    "coop-troubleshooting-guide (new) + coop-multiplayer-guide invite flow corrected to Steam-friends model",
-    "tier-list rewritten with real covens (Cloudpiercers/Starsmiths/Foretellers/Wildroots/Tomekeepers/Nightscribes), pvp-guide rewritten as honest PvP-status page",
-    "home-content quick-nav +4 guides"
-   ]
-  },
-  {
-   "game": "Mistfall Hunter",
-   "date": "2026-08-01",
-   "genre": "PvPvE Extraction ARPG (1.0, day-one Game Pass)",
-   "template": "mistfallhunterwiki (Coordinator agent, feedback-driven expansion)",
-   "mode": "expand (feedback-driven)",
-   "guidesAdded": 1,
-   "guides": 46,
-   "deployed": true,
-   "issues": [
-    "patch-notes was stuck at Playtest 0.7.2 (July 20) — 3 versions behind (1.0 release + July 30 day-one hotfix)",
-    "solo-play-guide written pre-launch: missed the biggest post-launch controversy (second map is trio-only, no Duo queue)",
-    "home-content.md still contained Witchspire template residue (title/description/full content were Witchspire's)"
-   ],
-   "lessons": [
-    "48-hour-release-window content wins: server-regions-ping-guide (new) captures the #1 complaint (no OCE/EU server, 120-180ms, stuck-at-queue fixes, client-vs-server diagnosis) — highest search intent at launch",
-    "patch-notes updated to 1.0 + day-one hotfix (Withered Knight buffs, Soul of Return fix, console reconnect) with version history table; solo-play-guide updated with trio-only map reality + post-launch class ratings (Withered Knight A, Sorcerer B)",
-    "Residue scan matters: mistfallhunterwiki (and aincradwiki) home-content.md were Witchspire-branded copies — rewritten with correct game facts",
-    "RootDirectory workaround applied for deploy"
-   ],
-   "fixes_applied": [
-    "server-regions-ping-guide (new) — regions, queue fixes, client/server diagnosis table",
-    "patch-notes -> 1.0 + hotfix; solo-play-guide -> trio-only lockout + 1.0 class ratings",
-    "home-content.md rewritten (was Witchspire residue) + quick-nav"
-   ]
-  },
-  {
-   "game": "Echoes of Aincrad",
-   "date": "2026-08-01",
-   "genre": "Single-player Action JRPG (SAO)",
-   "template": "aincradwiki (Coordinator agent, fabrication cleanup)",
-   "mode": "expand (feedback-driven)",
-   "guidesAdded": 0,
-   "guides": 41,
-   "deployed": true,
-   "issues": [
-    "pvp-duel-guide described a ranked PvP arena with MMR/seasonal rewards — the game is single-player only and has NO PvP",
-    "multiplayer-coop-guide described co-op rooms, boss-rush co-op and room IDs — NO multiplayer exists in the game",
-    "update-patch-notes claimed a June 22 launch and a 1.1.0 with Floors 11-12 — no official source shows these; real launch was July 9-10 with 1.0.3 (day-one combat overhaul) and 1.0.4 (July 16)",
-    "home-content.md still contained Witchspire template residue"
-   ],
-   "lessons": [
-    "'Is it multiplayer?' is a real high-volume query for this game (SAO fans expected an MMO) — answering it honestly captures the search rather than feeding a fake guide to searchers",
-    "Rewrote both fabricated pages as honest status pages (PvP: no; Multiplayer: no, single-player only, partner system is the replacement) — same slug, search equity kept, trust restored",
-    "update-patch-notes rewritten to the real 1.0.3/1.0.4 history + Expansion DLC (end of 2026) roadmap",
-    "home-content.md rewritten with correct game facts + full quick-nav",
-    "RootDirectory workaround applied for deploy"
-   ],
-   "fixes_applied": [
-    "pvp-duel-guide -> honest 'Is There PvP?' page",
-    "multiplayer-coop-guide -> honest single-player status + partner system page",
-    "update-patch-notes -> real 1.0.3/1.0.4 history",
-    "home-content.md rewritten (was Witchspire residue)"
-   ]
-  },
-  {
-   "game": "Beast of Reincarnation",
-   "date": "2026-08-08",
-   "genre": "Single-player Action RPG (Game Freak, hybrid parry combat)",
-   "template": "themoundwiki (cleanest per bestTemplates)",
-   "mode": "new-build (auto-build, score 21/20, zero wiki competition)",
-   "guides": 14,
-   "guidesAdded": 14,
-   "deployed": true,
-   "score": 17,
-   "issues": [
-    "Late-game bosses (Ch 8-13: Ursa, Erymanth, Shidou & Nue, Kunai & Kirin, Koo Nushi form, final Beast) not yet documented by any outlet — marked awaiting confirmation instead of fabricating",
-    "Steam reviews Mixed (~52%) at launch due to performance; Game Freak announced patches — tier list versioned for future balance changes",
-    "GA4 property not created yet — googleAnalyticsId empty, dashboard uses G-PLACEHOLDER"
-   ],
-   "lessons": [
-    "Beast of Reincarnation facts verified across 5 searches: 13 chapters + epilogue, 40+ Nushi encounters, hybrid combat verified",
-    "Game launched 8/4 — only 4 days old, zero wiki competition; strongest first-mover position in the matrix",
-    "Content ratio: 9 reference / 3 search-entry / 2 deep-dive (64/21/14%) — meets the >=50% reference rule"
-   ]
-  },
-  {
-   "game": "DOLOC TOWN",
-   "date": "2026-08-22",
-   "genre": "后末日温馨农场模拟 (RedSaw Games/Logoi Games)",
-   "guides": 20,
-   "score": 22,
-   "deployed": true,
-   "pipeline": "BUILD-001 (Coordinator + QA PASS, relay format)",
-   "qa": "PASS — 12/20 sampled, 18 fact checks matched, 48 [待确认] markers, zero fabrication"
-  },
-  {
-   "game": "Sovereign Tower",
-   "date": "2026-08-25",
-   "genre": "圆桌管理模拟 RPG (WILD WITS/Curve Games)",
-   "template": "doloctownwiki (newest QA-PASS)",
-   "mode": "new-build (BUILD-002, scout re-check 18/20, zero wiki EN/CN/JP)",
-   "guides": 18,
-   "guidesAdded": 18,
-   "deployed": true,
-   "score": 18,
-   "pipeline": "BUILD-002 (SCOUT-REV → build → QA quick PASS → deploy verified)",
-   "qa": "PASS — 6/18 sampled, zero fabrication, $19.99/5 factions fact-checked, GA4 pending human task"
-  },
-  {
-   "game": "Shift At Midnight",
-   "date": "2026-08-25",
-   "genre": "Co-op horror detective (Bun Muen/Kwalee)",
-   "template": "shiftatmidnightwiki",
-   "mode": "expand (keyword-driven +5: endings/ending-explained/characters/multiplayer-FAQ)",
-   "guides": 31,
-   "guidesAdded": 3,
-   "deployed": true,
-   "pipeline": "EXPAND-003 → QA quick FAIL (station-level fabricated metadata) → FIX-SAM (4 files) → redeployed live-verified",
-   "qa": "New guides PASS; site-level FAIL fixed (Fiddlesticks Games/6 endings/$12.99 → Bun Muen/Kwalee/3 endings/$9.99, app 3722330)"
-  },
-  {
-   "game": "Phantom Tower",
-   "date": "2026-08-25",
-   "genre": "Roguelite (Horien Studio)",
-   "template": "phantomtowerwiki",
-   "mode": "expand (keyword-driven +4: platforms-purchase/items-catalog/review-community/best-builds)",
-   "guides": 20,
-   "guidesAdded": 3,
-   "deployed": true,
-   "pipeline": "EXPAND-004 → QA quick PASS → redeployed",
-   "qa": "PASS — 2 new + 2 updated sampled, zero fabrication, 7 item names ruled same-name confusion [Unconfirmed]"
-  },
-  {
-   "game": "Sephiria",
-   "date": "2026-08-26",
-   "genre": "Action Roguelite (TEAM HORAY)",
-   "template": "sephiriawiki",
-   "mode": "expand (feedback-driven +1: save-file-guide)",
-   "guides": 30,
-   "guidesAdded": 1,
-   "deployed": true,
-   "pipeline": "EXPAND-005 → QA quick PASS → deploy verified"
-  },
-  {
-   "game": "The Mound: Omen of Cthulhu",
-   "date": "2026-08-27",
-   "genre": "Co-op Horror Extraction",
-   "template": "themoundwiki",
-   "mode": "expand (feedback-driven +1: weapon-durability-repair-guide)",
-   "guidesAdded": 1,
-   "guides": 33,
-   "deployed": true,
-   "issues": null,
-   "lessons": "EXPAND-006 daily expansion (rotation #2). P0 gap from EXPAND-006-FEEDBACK (weapon durability never taught in-game, breaks after few hits). 1234-word guide: durability explained, Galleon Weapon Upgrade Anvil repair flow, durability ratings table (crossbow/Francesca axe most reliable), 6 maintenance habits. QA quick PASS (0 blocking / 2 warnings: ChubbiChibbai attribution precision, anvil-persistence wording vs weapons-guide). Deployed 8/27. Rule closure: deploy-wiki-site.sh auth.json token expired (403) while CLI session valid — script now uses CLI default auth instead of explicit --token."
-  },
-  {
-   "game": "Crimson Moon",
-   "date": "2026-08-28",
-   "genre": "Soulslike Action RPG (ProbablyMonsters)",
-   "template": "themoundwiki (cleanest per bestTemplates)",
-   "mode": "new-build (BUILD-003, scout re-check 18/20, zero wiki EN/CN/JP/KR)",
-   "guides": 16,
-   "guidesAdded": 16,
-   "deployed": true,
-   "score": 18,
-   "pipeline": "BUILD-003 (SCOUT-REV 8/28 → build → QA quick → deploy verified)",
-   "qa": "PENDING — QA agent (05/06) to review site dir",
-   "issues": [
-    "Pre-release (launches 9/1/2026, 4 days after build) — all content from official announcement/trailers/Steam page/previews; unconfirmed mechanics marked [Unconfirmed] (crossplay, couch co-op, system requirements, playtime, boss names)",
-    "No GA4 yet — googleAnalyticsId empty, dashboard registered with propertyId 'PENDING' / gaId 'G-PLACEHOLDER' (zero-filled until human creates GA4 property)",
-    "Deploy script alias-verify step exited 1 on first run (sleep 5 too short / ANSI-code grep mismatch) — manual re-verify confirmed alias → new deployment (dpl_4PtSBUHAWQHM9NkwPViKdvu9vAb5)"
-   ],
-   "lessons": "BUILD-003 (score 18/20, pre-release build 4 days before 9/1 launch, zero wiki competition EN/CN/JP/KR). 16 guides: 4 P0 (price-platforms, beginner-guide, coop-multiplayer-guide highest-density topic, system-requirements) + 8 P1 (builds-guide, weapon-arts-guide, boons-guide, purification-guide, equipment-sets-guide, incursions-guide, dead-gods-boss-guide, wards-gildenarch-guide) + 4 aux (sanctus-clypeus-hub-guide, solo-guide, game-length-guide, faq-content). SEO disambiguation MUST: bare 'Crimson Moon' is cross-IP polluted (Type-Moon/GARO/FFCC/Genshin) — all titles/metadata anchor 'Crimson Moon {topic}' + 'ProbablyMonsters'/'Gildenarch'; tier-list page adapted to Build Pillars Tier List (pre-release, no fabricated weapon/boon stats). Honesty rule: no boss weaknesses/numbers/review scores invented; every unconfirmed mechanic carries [Unconfirmed]; 3-layer sources (Official/Community/Editorial). Build exit 0, 29 pages, 0 errors; deploy verified homepage + 16 guide slugs + sitemap all 200; alias verified via dpl id match (grep on URL unreliable due to ANSI codes). Dashboard registered (PENDING placeholder)."
+  "genreInsights": {
+    "MMORPG": {
+      "avgKeywords": 116,
+      "topGuides": [
+        "tier list",
+        "classes",
+        "leveling"
+      ]
+    },
+    "Extraction": {
+      "avgKeywords": 52,
+      "topGuides": [
+        "builds",
+        "weapons",
+        "extraction"
+      ]
+    },
+    "RPG": {
+      "avgKeywords": 88,
+      "topGuides": [
+        "builds",
+        "beginner",
+        "weapons"
+      ]
+    },
+    "Horror": {
+      "avgKeywords": 46,
+      "topGuides": [
+        "guide",
+        "co-op",
+        "weapons"
+      ]
+    },
+    "City Builder": {
+      "avgKeywords": 25,
+      "topGuides": [
+        "layout",
+        "money",
+        "automation"
+      ],
+      "note": "Go-Go Town! (8/1) — 无战斗类攻略，内容侧重生产链、工人 AI、经济与游客满意度"
+    }
   }
- ],
- "knownIssues": [
-  {
-   "id": "root-directory-double-path",
-   "description": "Vercel 项目 Root Directory 与 CLI cwd 叠加导致部署 404",
-   "fix": "部署前 API 清空 rootDirectory，部署后恢复",
-   "frequency": 5
-  },
-  {
-   "id": "null-site-filter",
-   "description": "Dashboard fetchSiteData 返回 null 导致新站点不显示",
-   "fix": "返回零填充数据而非 null",
-   "status": "fixed",
-   "frequency": 1
-  },
-  {
-   "id": "template-residual",
-   "description": "模板复制后 Header/Footer/Metadata 残留原站名称",
-   "fix": "sed 批量替换 + 手动检查",
-   "frequency": 3
-  },
-  {
-   "id": "agent-missing-build-config",
-   "description": "Agent 建站时漏掉根目录构建配置文件（package.json, tsconfig.json, vercel.json），导致无法 npm build 和 Vercel 部署",
-   "fix": "build-game-site.md Phase 2 中明确定义 12 文件必检清单 + 构建验证 Gate",
-   "status": "fixed",
-   "frequency": 2
-  },
-  {
-   "id": "agent-skip-deployment",
-   "description": "Agent 创建文件后跳过 Vercel 部署步骤，commit message 却虚假声称 deployed",
-   "fix": "部署步骤加 '不可跳过' 标记 + commit message 规则（未部署禁写 deployed）",
-   "status": "fixed",
-   "frequency": 2
-  },
-  {
-   "id": "npm-install-slow",
-   "description": "npm install 耗时 10-20 分钟",
-   "fix": "后台运行，不阻塞其他操作",
-   "frequency": 6
-  },
-  {
-   "id": "spiritvale-class-name-residual",
-   "description": "SpiritVale 职业名旧体系残留：12+ 页仍用 Scout→Sniper（真实游戏中不存在）、Gunslinger=特殊、无 Weaver；与 FAQ/home 新体系（Scout→Gunslinger、Weaver=特殊进阶）矛盾。8/28 EXPAND-007 只改了 faq/home/新攻略 3 处。",
-   "fix": "P0 批量修正：先改 classes-guide 权威页，再 class-tier-list/advanced-classes-guide/gunslinger-guide/party-composition/world-boss-chart/solo-guide/beginner-guide/builds-guide；gunslinger-guide 需基于正确前提重写。派子 Agent。",
-   "status": "fixed",
-   "detected": "2026-08-28",
-   "resolved": "2026-08-30 — R1 P0 完成：19 文件批量修正（Scout→Gunslinger/Weaver、Sniper 全清），QA-QUICK-R1 PASS（Sniper 残留 0、映射/费用/名册全站一致）"
-  },
-  {
-   "id": "crimsonmoon-prerelease-unverified",
-   "description": "Crimson Moon（9/1 发售，预发售建站）2 项内容写成 confirmed 但无来源：Manuscript translation（hub 进度系统，3 篇 guide）、vampire blacksmith（铁匠确认但吸血鬼属性无来源）。9/1 发售前需改标 [Unconfirmed] 或二次确认。",
-   "fix": "9/1 发售日复查：a) manuscript translation 改 [Unconfirmed] 或从官方 explainer 二次确认；b) vampire→blacksmith 或 [Unconfirmed]。随 deep QA 一并处理。",
-   "status": "open",
-   "detected": "2026-08-28",
-   "recheck": "2026-09-01"
-  }
- ],
- "bestTemplates": {
-  "cleanest": "themoundwiki",
-  "note": "themoundwiki 是最干净的模板，残留最少。aincradwiki 和 witchspirewiki 残留较多，不推荐作为模板。"
- },
- "genreInsights": {
-  "MMORPG": {
-   "avgKeywords": 116,
-   "topGuides": [
-    "tier list",
-    "classes",
-    "leveling"
-   ]
-  },
-  "Extraction": {
-   "avgKeywords": 52,
-   "topGuides": [
-    "builds",
-    "weapons",
-    "extraction"
-   ]
-  },
-  "RPG": {
-   "avgKeywords": 88,
-   "topGuides": [
-    "builds",
-    "beginner",
-    "weapons"
-   ]
-  },
-  "Horror": {
-   "avgKeywords": 46,
-   "topGuides": [
-    "guide",
-    "co-op",
-    "weapons"
-   ]
-  },
-  "City Builder": {
-   "avgKeywords": 25,
-   "topGuides": [
-    "layout",
-    "money",
-    "automation"
-   ],
-   "note": "Go-Go Town! (8/1) — 无战斗类攻略，内容侧重生产链、工人 AI、经济与游客满意度"
-  }
- }
 }

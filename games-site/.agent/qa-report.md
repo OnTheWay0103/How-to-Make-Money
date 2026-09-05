@@ -908,3 +908,47 @@ QA deep: 上次 8/25，未超 7 天，跳过
 | spiritvalewiki | EXPAND-019 | ⏭️ SKIP（0.31.0 单源） | — |
 
 **结论**: 9/4 恢复批次 4/4 PASS、9/5 扩充 3/3 PASS（含 2 次 🔴/🟡 修复后复检），5 站均已部署/核对，新页线上 HTTP 200。次日扩充仍优先补 spiritvalewiki（等 0.31.0 独立来源）。BUILD-007 anomalypresidentwiki 单独 QA（进行中）。
+
+---
+
+## QA — 9/6 每日扩充（2026-09-06）
+
+> 3 个子 Agent 并行执行（每 1-2 站）；每站完整流水线：反馈采集 → 四条件选题 → 写/校准 → QA quick → 部署 → 线上验证。明细见 `.agent/qa-expand-{site}-9-6.md`。
+
+### 一、9/6 扩充结果
+
+| 站点 | 任务 | 新增/改动 | 判定 | 说明 |
+|------|------|-----------|:--:|------|
+| sephiriawiki | EXPAND-020 | crash-launch-black-screen-fix-guide（1344 词） | ✅ PASS | 启动黑屏/DX12 修复；≥4 独立来源（gameplay.tips 专项 + 官方 0.12.3 DX12 黑屏 + 1.0.30 Deck 关闭 + Steam FAQ）。⚠️ 9/3 后无新素材，明日无新源应 SKIP（已披露） |
+| tearsofmetalwiki | EXPAND-021 | co-op-revive-guide（1139 词） | ✅ PASS | v0.12 复活金币→生命值；官方公告 + thegameswiki 双核对 + 多站报道。⚠️ 既有 healing-guide §6 仍写旧金币复活制 → 待单独校准（P0） |
+| themoundwiki | EXPAND-022 | motion-sickness-camera-fix-guide（1452 词） | ✅ PASS | 相机晕动修复；Steam 差评 + 官方 Patch 1.03 FOV/中央圆点 + GamerSocialClub。部署脚本 sleep-5 健康检查竞态 exit1×2 → 人工复验线上 200 + sitemap（良性） |
+| spiritvalewiki | EXPAND-021(校准) | updates-patch-notes 补至 0.31.0 Dark Fortress | ✅ PASS | 新指南 4 连 SKIP（0.31.0 仅单官方源，宁缺毋滥）；改走 P0 校准：官方公告逐条如实补页。事实修正：0.31.0 无可玩 Dark Fortress 新地图（9/5 记录过度解读） |
+| grainrotwiki | —（SKIP） | 零改动 | ⏭️ | 四条件均不满足：符号含义已覆盖/工具耐久差评与站内编辑准则冲突/v1.08-09 仅单一转载站不可溯源。触发条件：官方可溯源 ≥2 独立来源 |
+
+### 二、线上验证（部署后）
+
+| 站点 | 路径 | 结果 |
+|------|------|:--:|
+| sephiriawiki | /guides/crash-launch-black-screen-fix-guide | ✅ HTTP 200 + sitemap |
+| tearsofmetalwiki | /guides/co-op-revive-guide | ✅ HTTP 200 + sitemap |
+| themoundwiki | /guides/motion-sickness-camera-fix-guide | ✅ HTTP 200 + sitemap（人工复验） |
+| spiritvalewiki | /guides/updates-patch-notes | ✅ HTTP 200 + Dark Fortress/0.31.0 标记 |
+
+### 三、待办（校准/规则闭环）
+
+- [ ] tearsofmetal healing-guide §6 复活机制与 v0.12 冲突 → 全站 grep revive/复活 一次改齐
+- [ ] themound updates-patch-notes-guide 版本记录滞后（停 1.0.1，站内已引用 1.02/1.03）→ 补版本史
+- [ ] themound home-content 既有重复「Weapons Guide」行清理
+- [ ] spiritvalewiki：0.31.0 出现 ≥2 独立来源后写 Dark Fortress 深度指南（触发条件已记录）
+
+### QA 结果汇总（供主 Agent 决策）
+
+| 站点 | 判定 | 阻断 |
+|------|:--:|:--:|
+| sephiriawiki | ✅ PASS | 0 |
+| tearsofmetalwiki | ✅ PASS | 0（healing-guide 校准待办） |
+| themoundwiki | ✅ PASS | 0 |
+| spiritvalewiki | ✅ PASS（校准） | 0 |
+| grainrotwiki | ⏭️ SKIP | — |
+
+**结论**: 9/6 扩充 3/3 新指南 PASS + 1 校准 PASS，均已部署并线上 200；grainrot 记 SKIP。BUILD-007 anomalypresidentwiki 收尾 QA 另见 `.agent/qa-build007-{a,b,final}.md`。
