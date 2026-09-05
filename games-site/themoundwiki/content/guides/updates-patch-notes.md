@@ -3,14 +3,14 @@ title: "The Mound Update Log and Patch Notes — Version History and Changes"
 description: "Update history and patch notes for The Mound: Omen of Cthulhu. Tracking confirmed updates, balance changes, and bug fixes. Information sourced from official channels and community verification."
 category: "Guides"
 version: "1.0"
-updated: "2026-08-10"
+updated: "2026-09-06"
 keywords: ["themound patch notes", "themound update history", "themound version log", "themound changelog", "themound latest update"]
 related: ["faq-content", "game-length-guide", "controls-settings-guide"]
 ---
 
 # Update Log and Patch Notes — Version History and Changes
 
-> Last verified: August 10, 2026
+> Last verified: September 6, 2026
 
 This page tracks confirmed updates for **The Mound: Omen of Cthulhu**. We only include information that can be verified against official developer announcements or consistent community reports.
 
@@ -19,6 +19,33 @@ This page tracks confirmed updates for **The Mound: Omen of Cthulhu**. We only i
 ---
 
 ## Confirmed Updates
+
+### Version 1.03 — Quality of Life Hotfixes
+
+**Released:** ~Late July 2026 ([Unconfirmed] exact date)
+
+The third post-launch patch (titled *"Patch 1.03 — Quality of Life Hotfixes"* on Steam) bundled accessibility, single-player, co-op and stability improvements:
+
+- **Accessibility / motion sickness:** added a small **dot at the centre of the screen** as an accessibility option to help with motion sickness, and expanded the **FOV slider range from 85–115 to 75–125** — the comfort options detailed in the [Motion Sickness Fix Guide](/guides/motion-sickness-camera-fix-guide).
+- **Multiplayer:** multiple players can now interact with the ox-wagon inventory simultaneously; players can leave game sessions while spectating; improved voice 3D spatialization.
+- **Single player:** new gestures to command your bot companion to switch between silent weapons and a louder rifle.
+- **Story / missions:** the prologue-ending cinematic gained extra narration; contracts now display more mission information and a greater variety of treasure requirements.
+- **AI / effects:** improvements to doppelganger behaviour and multiple sanity-effect improvements.
+- **Bug fixes:** various bug and crash fixes, replication fixes for foliage and other in-game actions, and multiple visual/screen-loading optimizations.
+- **Known issue:** the developers confirmed crossplay friend invites were still being worked on (official workaround: find friends via the online server list) — see the [Multiplayer Connection Fix Guide](/guides/multiplayer-connection-fix-guide).
+
+### Version 1.02 — Block Ability & Hotfixes
+
+**Released:** ~Late July 2026 ([Unconfirmed] exact date)
+
+*"Patch 1.02 — Block Ability & Hotfixes"* added a defensive option and repaired several launch-window regressions:
+
+- **New Block ability** — lets players block to avoid being overrun by approaching enemies.
+- **Progress recovery tool** — an achievement/trophy-based tool on all platforms that rebuilds lost permanent progression (see the [Progress Loss & Save Recovery Guide](/guides/progress-save-recovery-guide)).
+- **PS5 progress-loss fix** — addressed the console-specific profile-reset scenario.
+- **Performance fix** — PC players no longer get low performance on the Ultra preset after relaunching the game.
+- **Single-player & ally fixes** — fixed knives not appearing in solo play, and Saints not loading after missions (a regression introduced in 1.01).
+- **Other fixes** — duplicate same-class enemy spawns in some missions, weapon appearance on ultrawide setups, local voice chat improvements, and torches losing their flame, plus small balance changes (reduced Saints blessing costs, slight contract-tier token increases).
 
 ### Version 1.0.1 — First Post-Launch Patch
 
@@ -89,6 +116,8 @@ For the most current roadmap, check the official developer channels on Steam.
 
 | Version | Approximate Date | Type |
 |---------|------|------|
+| 1.03 | ~Late July 2026 [Unconfirmed] | Quality of Life Hotfixes |
+| 1.02 | ~Late July 2026 [Unconfirmed] | Block Ability & Hotfixes |
 | 1.0.1 | ~July 20, 2026 | First post-launch patch |
 | 1.0.0 | July 15, 2026 | Launch |
 
@@ -96,8 +125,8 @@ For the most current roadmap, check the official developer channels on Steam.
 
 ## Verification
 
-**Last checked:** August 10, 2026
-**Sources checked:** Steam store page, Steam Community discussions, developer announcements
+**Last checked:** September 6, 2026
+**Sources checked:** Steam store page, Steam Community announcements ("Patch 1.02 — Block Ability & Hotfixes", "Patch 1.03 — Quality of Life Hotfixes"), and internal cross-references (Motion Sickness Fix, Multiplayer Connection Fix, Progress Loss & Save Recovery, Performance & FPS Fix guides)
 
 **Note:** This page is updated as confirmed information becomes available. Some details from earlier versions of this page have been removed pending verification. If you have official patch notes or confirmed information, please [contact us](/contact).
 

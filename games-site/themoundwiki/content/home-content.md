@@ -3,7 +3,7 @@ title: "The Mound Wiki — Complete Guide Hub"
 description: "The ultimate community wiki for The Mound: Omen of Cthulhu — the 1-4 player co-op extraction horror by ACE Team / NACON. Find weapons guides, enemy strategies, sanity system tips, contracts, extraction tactics and more."
 category: "Home"
 version: "1.0"
-updated: "2026-09-04"
+updated: "2026-09-06"
 keywords: ["The Mound", "The Mound wiki", "The Mound Omen of Cthulhu", "ACE Team", "co-op horror extraction", "Lovecraftian game"]
 related: ["beginner-guide", "weapons-guide", "coop-strategy-guide", "extraction-guide"]
 ---
@@ -30,7 +30,6 @@ The Mound: Omen of Cthulhu launched on July 15, 2026 on Steam, PS5, and Xbox Ser
 | [Enemy Bestiary](/guides/enemy-bestiary) | Combat tactics | Intermediate |
 | [Maps & Locations Guide](/guides/maps-locations-guide) | Every island & loot route | Intermediate |
 | [Stealth Guide](/guides/stealth-guide) | Silent kills & detection | Intermediate |
-| [Weapons Guide](/guides/weapons-guide) | Crossbow & firearms deep dive | Intermediate |
 | [Weapon Durability & Repair Guide](/guides/weapon-durability-repair-guide) | Why weapons break & how to fix them | Starter |
 | [Money Guide](/guides/money-guide) | Earn Gyldenblood & Tokens | Intermediate |
 | [Contracts Guide](/guides/contracts-guide) | Mission types | Intermediate |

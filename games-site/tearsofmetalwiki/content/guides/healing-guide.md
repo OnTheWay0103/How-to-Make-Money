@@ -1,16 +1,16 @@
 ---
 title: "Tears of Metal Healing Guide — Healing Fonts, Chicken, Salves & Coin Budgeting"
-description: "How to heal in Tears of Metal: the three recovery sources (Healing Fonts, Chicken, Salves), why healing is so expensive, coin budgeting between healing and gear, max-HP reduction, co-op revive costs, and Apothecary upgrades."
+description: "How to heal in Tears of Metal: the three recovery sources (Healing Fonts, Chicken, Salves), why healing is so expensive, coin budgeting between healing and gear, max-HP reduction, the health-based co-op revive rules (post-v0.12), and Apothecary upgrades."
 category: "Guides"
 version: "Early Access"
-updated: "2026-08-29"
+updated: "2026-09-06"
 keywords: ["Tears of Metal healing guide", "Tears of Metal how to heal", "Tears of Metal healing font", "Tears of Metal chicken", "Tears of Metal salves", "Tears of Metal coins", "Tears of Metal health guide"]
 related: ["survival-tips", "boss-guide", "village-upgrade-guide", "equipment-guide", "co-op-guide", "corruption-guide"]
 sources:
   - tier: "Official"
     text: "The Village Hub is the permanent meta-progression system between runs, and its Apothecary crafts potions and consumables — official description (also covered in the Village Upgrade Guide)"
   - tier: "Community"
-    text: "Healing Font costs, free chicken recovery, non-inherited run coins, co-op revive costs and max-HP reduction are community-measured from whisperofthehouse and 2upskill guides, checked August 2026"
+    text: "Healing Font costs, free chicken recovery, non-inherited run coins and max-HP reduction are community-measured from whisperofthehouse and 2upskill guides, checked August 2026. The co-op revive section was corrected September 2026 to the v0.12.58540 health-based rules (reviver gives 50% of current health, >10% max HP required, revival HP proportional to max-health share surrendered, revive window -5s per revive) per Paper Cult's official patch and the Tears of Metal update-history wiki — see the Co-op Revive Guide."
   - tier: "Editorial"
     text: "The coin-budgeting framework and pre-boss healing checklist are this guide's editorial recommendations"
 ---
@@ -95,14 +95,23 @@ The same logic extends to later bosses, which arrive with Threat Level pressure 
 
 ---
 
-## 6. Co-op Revive Costs — Budget for Resurrections
+## 6. Co-op Revive Rules — Health Is the Currency, Not Coins
 
-In co-op, reviving a fallen teammate costs **250 / 350 coins, paid by the surviving player(s)** ([whisperofthehouse co-op guide](https://www.whisperofthehouse.com/tears-of-metal/co-op-guide)). Two things follow:
+Co-op revives **no longer cost coins**. Patch **v0.12.58540 (August 13, 2026)** replaced the old coin-based revive (roughly 250 / 350 coins in the launch build) with a **health-based** system ([official announcement](https://steamcommunity.com/app/1913120/allnews/); numbers below from the [update-history wiki](https://thegameswiki.com/tears-of-metal/wiki/update-history) and the [Co-op Revive Guide](/guides/co-op-revive-guide)):
 
-- **Keep a coin reserve in co-op.** The most expensive revive is the one nobody can afford because the whole party spent its coins on fonts before the boss.
-- **Decide who carries the revive fund.** Agree before a boss arena on who keeps coins in reserve, so a downed teammate is a 250-coin fix, not a party wipe.
+| Rule | Detail |
+|------|--------|
+| **Cost to revive** | The reviver gives up **50% of their current health** — not 50% of max HP. |
+| **Minimum to revive** | You must have **more than 10% of your max HP**, or the revive option is unavailable. |
+| **Revived player's HP** | The teammate returns with health **proportional to the share of your max health you actually surrendered**. |
+| **Revive window** | Every revive in a run **shortens the window by 5 seconds**. |
 
-See the [Co-op Guide](/guides/co-op-guide) for the full team-play picture.
+Because the currency is now health, the old "coin reserve" discipline is obsolete. What matters for a healing guide:
+
+- **The reviver is the resource.** A revive draws on the reviver's HP, so heals should keep your designated reviver (usually the tank) above half — a reviver at 20% HP brings a teammate back at a sliver that often goes down again immediately.
+- **Healing now fuels revival.** Fonts, chicken and salves restore the HP that revives spend, tying the revive system into this guide's healing budget: spending your coins on a pre-boss font no longer risks an unaffordable revive — but it *does* leave the reviver healthy enough to give a real revival.
+
+See the [Co-op Revive Guide](/guides/co-op-revive-guide) for the current rules, and the [Co-op Guide](/guides/co-op-guide) for the full team-play picture.
 
 ---
 
@@ -126,7 +135,7 @@ The summary list for every boss attempt:
 
 - [ ] **Top off HP** at a font or with a salve before entering the arena
 - [ ] **Carry at least one heal consumable** into the fight where the arena allows it
-- [ ] **In co-op:** confirm who holds the revive reserve (250/350 coins)
+- [ ] **In co-op:** keep the designated reviver above 50% HP — a revive costs the reviver 50% of current health (v0.12+), not coins
 - [ ] **Check Threat Level** — a high-Threat boss punishes a smaller pool harder; take the lower-risk route if your HP is already reduced
 - [ ] **Check your max HP** — if the run has been punishing, treat the fight as a full-commit decision, not a gamble
 
@@ -139,4 +148,5 @@ The summary list for every boss attempt:
 - [Village Upgrade Guide](/guides/village-upgrade-guide) — Apothecary costs and the full upgrade priority
 - [Equipment Guide](/guides/equipment-guide) — block efficiency and defensive stats that reduce healing demand
 - [Co-op Guide](/guides/co-op-guide) — team roles and revive coordination
+- [Co-op Revive Guide](/guides/co-op-revive-guide) — the v0.12 health-cost revive rules that supersede the old coin costs
 - [Corruption Guide](/guides/corruption-guide) — Act 3 health-drain and Corruption Resist
