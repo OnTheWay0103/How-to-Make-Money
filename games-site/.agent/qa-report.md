@@ -952,3 +952,48 @@ QA deep: 上次 8/25，未超 7 天，跳过
 | grainrotwiki | ⏭️ SKIP | — |
 
 **结论**: 9/6 扩充 3/3 新指南 PASS + 1 校准 PASS，均已部署并线上 200；grainrot 记 SKIP。BUILD-007 anomalypresidentwiki 收尾 QA 另见 `.agent/qa-build007-{a,b,final}.md`。
+
+---
+
+# QA Report — 2026-09-07（每日扩充 SKIP ×5）
+
+- 日期: 2026-09-07 | 模式: quick（本轮全站无内容变更）
+- 范围: 5 个 PV>1000 重点站（sephiria / themound / spiritvale / tearsofmetal / grainrot）各做一轮反馈采集+选题评审
+- 执行: 3 个子 Agent 并行（sephiria+themound / tearsofmetal+grainrot / spiritvale），每站走 反馈采集 → 四条件选题 → QA quick →（无产出故无部署）全流程
+- 明细: `.agent/qa-expand-{site}-9-7.md` ×5 + `keyword-results/{site}wiki-expand-9-7.md` ×5
+
+## 一、9/7 扩充结果（全 SKIP — 宁缺毋滥，无内容改动、无部署）
+
+| 站点 | 任务 | 结果 | QA | 核心否决理由 |
+|------|------|:--:|:--:|------|
+| sephiriawiki | — | ⏭️ SKIP（非连续，9/6 有产出） | ✅ | 最新补丁仍 1.0.30（8/20）无 1.0.31；联机 netcode / 终局弹幕 / evasion meta / 服装刷取 逐一命中既有指南或 <3 源/编造风险。P0 线索：WeMod 暗示或有未公告静默热更 |
+| themoundwiki | — | ⏭️ SKIP（9/5 亦 SKIP） | ✅ | 官方补丁止 7 月（1.03），「1.0.4」单源不可验证；跨平台加入 / 近战 / 性能 / 库存 全被既有指南覆盖且无 9 月新事实。P0 线索：人工核对 1.0.4 是否存在 |
+| spiritvalewiki | — | ⏭️ SKIP（5 连） | ✅ | 官方 RSS 最新仍 [0.31.0] Dark Fortress（8/25）；0.31.0 机制仍仅单一官方源，未达 ≥2 独立来源触发。19 检索（4 新角度）零佐证 |
+| tearsofmetalwiki | — | ⏭️ SKIP（非连续，9/6 有产出） | ✅ | 版本史止 8/14 v0.14.58630 无 9 月补丁；治疗/难度/复活/FPS 全被覆盖（9/5–9/6 刚产出两篇）；Aodh/货币/Trials 仅 1–2 源不可溯源 |
+| grainrotwiki | — | ⏭️ SKIP（2 连） | ✅ | v1.08/v1.09+ 仍无 ≥2 独立来源（vgspoilers 止 1.07、SteamDB 0、pc6 单一无内容）；9/7 触发重评估执行 |
+
+## 二、QA 判定依据（quick — 零变更评审）
+
+- 所有 5 站 git 工作树确认 **content/home-content 零改动**（仅新增记录性交接文件）
+- 每站候选否决均逐条对照既有 slug 复核，否决主因集中在三类：**已被既有指南覆盖（内容自噬）** / **<3 独立来源或细节不可溯源（编造风险）** / **版本锚点缺失（无官方新补丁）**
+- 关键事实独立复核通过：sephiria 最新 1.0.30 三路命中；themound 补丁史止 1.03；spiritvale 官方 RSS 无 0.31.0 后条目；grainrot vgspoilers 止 1.07
+- 记录文件含中文属正常（keyword-results/.agent 惯用），非站点内容，无残留下游风险
+
+## 三、待办（P0 建议 — 需人工核对，超出 expand 范围）
+
+- [ ] **sephiria**：人工核对 Steam 公告页确认 8/31–9/6 间是否真有未公告静默热更（WeMod ~9/6「cheats stopped working」为唯一线索）；若出 1.0.31 → 校准 updates/patch 类页面
+- [ ] **themound**：人工核对 Steam 公告确认「1.0.4」是否存在（单条 9/5 差评引用）；若属实 → updates-patch-notes 版本行 + multiplayer-connection-fix Official Fix Timeline 需校准
+- [ ] **spiritvalewiki**：0.31.0 一旦出现 ≥2 独立非官方来源 → 写 Dark Fortress 深度指南（触发已记录，未变）
+- [ ] **grainrot**：官方可溯源 v1.08/v1.09+ 补丁说明出现（≥2 独立来源）→ 写更新指南（触发未变）
+
+## QA 结果汇总（供主 Agent 决策）
+
+| 站点 | 判定 | 阻断 |
+|------|:--:|:--:|
+| sephiriawiki | ✅ SKIP（零变更） | 0 |
+| themoundwiki | ✅ SKIP（零变更） | 0 |
+| spiritvalewiki | ✅ SKIP（零变更） | 0 |
+| tearsofmetalwiki | ✅ SKIP（零变更） | 0 |
+| grainrotwiki | ✅ SKIP（零变更） | 0 |
+
+**结论**: 9/7 为全站无新素材日（5/5 SKIP，宁缺毋滥），无新增指南、无部署、无 build-history 条目。各站连续跳过状态：spiritvale 5 连（上次产出 8/28）、grainrot 2 连；themound/sephiria/tearsofmetal 均为非连续跳过（9/6 刚产出，themound 9/5 亦曾 SKIP）。质量红线优先于产量节奏；触发条件均已记录于 `.agent/expand-daily.json` 供次日判断。

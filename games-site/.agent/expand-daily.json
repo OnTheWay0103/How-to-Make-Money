@@ -60,6 +60,31 @@
       "site": "grainrotwiki",
       "date": "2026-09-06",
       "reason": "采集后无选题满足四条件：①符号含义 Steam 串已被 rot-debuff-guide 覆盖（含同串引用，写=自噬）；②工具耐久差评（MKAU/technetbooks/cinelinx）与 weapons-tools-guide「construct 名称未验证」编辑准则冲突，写细则=编造风险；③v1.08/v1.09 仅 pc6 单一转载站、不可溯源，不满足 ≥3 独立来源；④VaporLens 流失标签（难度/联机掉线/优化）均已有对应指南覆盖。零改动。下次触发条件：官方可溯源的 v1.08/v1.09+ 更新公告（≥2 独立来源）。"
+    },
+    {
+      "site": "sephiriawiki",
+      "date": "2026-09-07",
+      "reason": "9/6 预判成立：采集近期英文差评（Steam recent negative 8/16–9/7）+ 补丁核验，最新仍 1.0.30（8/20，Steam koreana/dutch + 17173 三路命中），无 1.0.31。候选逐一否决：联机 server-side 命中/高 ping（≥4 源）→ multiplayer-connection-fix + coop-freeze（Freeze vs Lag vs Desync）已覆盖；终局/Boss 弹幕海 → chapter-6-final-boss/boss/hard-mode/endgame 覆盖（9/5 判自噬）；evasion 必选 meta（≥6 源）→ 泛化批评 + i-frame 无数值来源（编造风险）+ builds 重叠；服装刷取 1 源 + costumes 已覆盖；启动卡 Logo 单源 + 与 9/6 crash-launch 同题族。P0 线索：WeMod ~9/6 帖暗示 8/31–9/6 或有未公告静默热更，需人工核对 Steam 公告。零改动。触发：官方 1.0.31+ 或 ≥3 独立来源新反馈。"
+    },
+    {
+      "site": "themoundwiki",
+      "date": "2026-09-07",
+      "reason": "采集近期差评（8/29–9/6）+ 补丁核验：官方补丁止于 7 月（Patch#1/1.01、1.02 Block Ability、1.03 QoL），9/1 后无公告；「1.0.4」仅单条差评（offlineuse2020 ~9/5）零佐证、不可验证。跨平台/好友加入失败（≥3 差评 + gamerblurb/tposegaming/lagofast/2upskill 四编辑同题）→ multiplayer-connection-fix Step 3-4 已覆盖且无 9 月新事实；近战/block/entangled → combat-survival + weapons（9/5 映射）；性能 → performance-fps；无进度/重复 → progression/walkthrough/maps；库存/6 格/cart → loadout/beginner-loadouts/extraction 等 12 篇散覆盖。P0 线索：人工核对是否真出 1.0.4；若属实 → updates-patch-notes + multiplayer-connection-fix Official Fix Timeline 校准。零改动。触发：确认新补丁或 ≥3 源 9 月新事实。"
+    },
+    {
+      "site": "spiritvalewiki",
+      "date": "2026-09-07",
+      "reason": "5 连 SKIP（宁缺毋滥）。当日 19 检索含 4 个新角度（官方 RSS / 域限 reddit·steam·youtube / 日文 wiki / 攻略站域限）：官方 RSS 最新仍 [0.31.0] Dark Fortress（8/25）无 0.31.x/0.32.x；0.31.0 机制仍仅单一官方源（vgspoilers 止 0.30.14、MassivelyOP 停 8/17、SteamDB 仅 playtest 时代、日文/攻略站 0 收录）→ 触发未达（需 ≥2 独立非官方来源）。无其他 ≥3 源高频缺口（grind/AFK/机器人/lag/ping 均映射既有指南；Dragon Knight 单源未发售）。无 P0 校准需求。下次触发不变：0.31.0 出现 ≥2 独立来源描述实际机制 → 写 Dark Fortress 深度指南。"
+    },
+    {
+      "site": "tearsofmetalwiki",
+      "date": "2026-09-07",
+      "reason": "采集后无选题满足四条件：版本史仍止于 8/14 v0.14.58630，无 9 月官方补丁作事实锚点。治疗稀缺 → healing-guide（§6 已按 v0.12 校准）覆盖；敌人数值/精英/低血无翻盘 → threat-level-difficulty + combat-tips + elite-enemy + survival-tips 覆盖；复活/FPS → 9/6 co-op-revive 与 9/5 low-fps 刚产出，复写=站内自我复制；Aodh 同伴解锁/六货币/Trials of the Mother/i-frame → 仅 1–2 第三方源或官方未公开（thegameswiki 明言 Aodh 解锁条件未公开）→ <3 独立来源 + 编造风险。零改动。触发：官方 v0.15+/9 月补丁或 ≥3 源新反馈。"
+    },
+    {
+      "site": "grainrotwiki",
+      "date": "2026-09-07",
+      "reason": "2 连 SKIP（9/6 后触发重评估执行）。v1.08/v1.09+ 官方/可溯源来源仍无 ≥2 独立来源：vgspoilers 止 1.07（8/12）且仅版本号无变更描述；SteamDB/检索 0；官方公告无 9 月条目被索引；编辑/媒体零 9 月覆盖；pc6.com v1.09 仍为唯一标注源且无内容 → 不可溯源，判定同 9/6。launch 期 eventcomments 功能请求（服务器浏览器/反破坏权限/家具/FPS）逐条已覆盖或纯功能请求。零改动。下次触发不变：官方可溯源 v1.08/v1.09+ 补丁说明（≥2 独立来源）。"
     }
   ]
 }
