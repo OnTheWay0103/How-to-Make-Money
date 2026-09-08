@@ -85,6 +85,31 @@
       "site": "grainrotwiki",
       "date": "2026-09-07",
       "reason": "2 连 SKIP（9/6 后触发重评估执行）。v1.08/v1.09+ 官方/可溯源来源仍无 ≥2 独立来源：vgspoilers 止 1.07（8/12）且仅版本号无变更描述；SteamDB/检索 0；官方公告无 9 月条目被索引；编辑/媒体零 9 月覆盖；pc6.com v1.09 仍为唯一标注源且无内容 → 不可溯源，判定同 9/6。launch 期 eventcomments 功能请求（服务器浏览器/反破坏权限/家具/FPS）逐条已覆盖或纯功能请求。零改动。下次触发不变：官方可溯源 v1.08/v1.09+ 补丁说明（≥2 独立来源）。"
+    },
+    {
+      "site": "sephiriawiki",
+      "date": "2026-09-08",
+      "reason": "SKIP（9/8 run，非连续）：采集 8/22–9/6 近期差评，全部高频主题（联机 netcode/Boss 弹幕海/evasion 必选/grid 摆放）仍命中既有 35 篇；官方补丁仍止 1.0.30（8/20），无 1.0.31/9 月补丁。9/7 P0 线索『静默热更』经 QA 复核关闭（WeMod 帖实为 8/31 适配 1.0.30，非新版本证据）。零改动、无部署。详见 .agent/qa-expand-sephiria-9-8.md。"
+    },
+    {
+      "site": "tearsofmetalwiki",
+      "date": "2026-09-08",
+      "reason": "SKIP（9/8 run，非连续）：版本史仍止 8/14 v0.14.58630，无 v0.15+/9 月官方补丁作事实锚点；候选（治疗/难度/复活/FPS/desync/存档/神秘英雄/Boss 名/视觉可读性）全部已覆盖、9/5–9/6 刚产出同类、或单源不可溯源。零改动、无部署。详见 .agent/qa-expand-tearsofmetal-9-8.md。"
+    },
+    {
+      "site": "grainrotwiki",
+      "date": "2026-09-08",
+      "reason": "SKIP（3 连）：v1.08/v1.09+ 仍无 ≥2 独立来源（vgspoilers patches 页 WebFetch 直读确认止 1.07，SteamDB/检索 0，pc6 单一无内容）；9/8 新候选 compass-as-fuse 经专项核验为同内容链单源转写 + 与 weapons-tools 编辑准则冲突 → 否决。零改动、无部署。详见 .agent/qa-expand-grainrot-9-8.md。"
+    },
+    {
+      "site": "themoundwiki",
+      "date": "2026-09-08",
+      "reason": "9/8 run 中断（当日仅覆盖 sephiria/tearsofmetal/grainrot 3 站即停止），未轮到本站；9/9 优先补跑。"
+    },
+    {
+      "site": "spiritvalewiki",
+      "date": "2026-09-08",
+      "reason": "9/8 run 中断（当日仅覆盖 sephiria/tearsofmetal/grainrot 3 站即停止），未轮到本站；0.31.0 ≥2 独立来源触发复检顺延至 9/9。"
     }
   ]
 }

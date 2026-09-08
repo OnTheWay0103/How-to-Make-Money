@@ -997,3 +997,39 @@ QA deep: 上次 8/25，未超 7 天，跳过
 | grainrotwiki | ✅ SKIP（零变更） | 0 |
 
 **结论**: 9/7 为全站无新素材日（5/5 SKIP，宁缺毋滥），无新增指南、无部署、无 build-history 条目。各站连续跳过状态：spiritvale 5 连（上次产出 8/28）、grainrot 2 连；themound/sephiria/tearsofmetal 均为非连续跳过（9/6 刚产出，themound 9/5 亦曾 SKIP）。质量红线优先于产量节奏；触发条件均已记录于 `.agent/expand-daily.json` 供次日判断。
+
+---
+
+# QA Report — 2026-09-08（每日扩充 3/5 SKIP，run 中断）
+
+- 日期: 2026-09-08 | 模式: quick（本轮 3 站无内容变更，2 站未轮到）
+- 范围: 5 个 PV>1000 重点站中 3 站完成采集评审（sephiria / tearsofmetal / grainrot），run 在 3/5 站完成后中断；themound / spiritvale 未覆盖（9/9 优先补跑）
+- 执行: 反馈采集 → 四条件选题 → QA quick，3 站均无新素材
+- 明细: `.agent/qa-expand-{site}-9-8.md` ×3 + `keyword-results/{site}wiki-expand-9-8.md` ×3（本轮未 commit，9/9 归账时一并提交）
+
+## 一、9/8 扩充结果（3/3 SKIP — 宁缺毋滥，无内容改动、无部署）
+
+| 站点 | 结果 | QA | 核心否决理由 |
+|------|:--:|:--:|------|
+| sephiriawiki | ⏭️ SKIP（非连续） | ✅ | 采集 8/22–9/6 差评与 9/7 窗口高度重叠；netcode/Boss 弹幕/evasion/grid 摆放全命中既有 35 篇；补丁仍止 1.0.30（8/20）。P0「静默热更」复核**关闭**（WeMod 帖实为 8/31 适配 1.0.30，非新版本证据） |
+| tearsofmetalwiki | ⏭️ SKIP（非连续） | ✅ | 版本史仍止 8/14 v0.14.58630，无 v0.15+/9 月补丁；候选全已覆盖 / 9/5–9/6 刚产出同类 / 单源不可溯源 |
+| grainrotwiki | ⏭️ SKIP（3 连） | ✅ | v1.08/v1.09+ 仍无 ≥2 独立来源（vgspoilers WebFetch 直读止 1.07）；新候选 compass-as-fuse 核验为同内容链单源 + 编辑准则冲突 |
+| themoundwiki | —（run 中断未覆盖） | — | 9/9 优先补跑（含「1.0.4」真伪人工核对线索） |
+| spiritvalewiki | —（run 中断未覆盖） | — | 9/9 优先补跑（0.31.0 ≥2 独立来源触发复检） |
+
+## 二、QA deep 状态
+
+- 上次 deep 全量审计：2026-09-02 → 距今 7 天，**未超 7 天**，本轮无需 full audit ✅
+- ⚠️ 9/10 起进入 >7 天窗口，若 9/10 run 无 deep audit 计划需触发 full audit
+
+## QA 结果汇总（供主 Agent 决策）
+
+| 站点 | 判定 | 阻断 |
+|------|:--:|:--:|
+| sephiriawiki | ✅ SKIP（零变更） | 0 |
+| tearsofmetalwiki | ✅ SKIP（零变更） | 0 |
+| grainrotwiki | ✅ SKIP（零变更） | 0 |
+| themoundwiki | ⏸️ 9/8 未覆盖（run 中断） | 9/9 补跑 |
+| spiritvalewiki | ⏸️ 9/8 未覆盖（run 中断） | 9/9 补跑 |
+
+**结论**: 9/8 为低素材日（3/3 检查站 SKIP，宁缺毋滥）。连续跳过状态更新：sephiria/tearsofmetal 非连续、grainrot 3 连。QA deep 距今 7 天，9/10 起需触发 full audit（纪律记录）。
