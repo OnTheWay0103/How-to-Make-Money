@@ -47,12 +47,15 @@ MUST 检查 app 页面（FAQ/tier-list/guides）无他站内容残留
 MUST 三步配置齐全：GA4（propertyId）+ GSC（验证文件）+ Dashboard 注册
 MUST ads.txt 使用正确 publisher ID
 MUST 更新 STATS.md（站点表 + 汇总）
+MUST 新增 `public/` 下任何资源后用 `git add -f` 强制暂存，并用 `git status` 确认已跟踪（教训：9/9 AdSense 整改新增 41 个 `public/icon.png` 被全局 gitignore 静默排除——`~/.gitignore_global` 含 `Public/` 规则，macOS 大小写不敏感故匹配 `public/`；不 `-f` 则资源不进版本库）
+MUST 引用某个静态资源前确认该文件真实存在（教训：`lib/seo-config.ts` 长期引用 `/icon.png` 而文件从未创建，og:image 全站 404 多轮审计未发现）
 
 ## 部署规则
 
 MUST 构建零错误才部署
-MUST 部署后 curl 验证线上可访问（HTTP 200）
+MUST 部署后 curl 验证线上可访问（HTTP 200），且**新增/修改的静态资源逐个验证**（如 `/icon.png`）
 MUST NOT 设置 rootDirectory（CLI 部署模式，见部署教训）
+MUST 用 `vercel inspect` 确认生产 alias 指向本次新部署，MUST NOT 只查首页 200（旧部署同样返回 200）
 
 ## 恢复规则
 

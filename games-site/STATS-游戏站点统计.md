@@ -185,6 +185,27 @@
 | 4 站 Next.js 版本落后（^16.0.0 vs ^16.2.9） | 统一升级至 ^16.2.9，构建验证通过 |
 | 根目录残留 `games-site/package-lock.json` | 删除，消除 Turbopack 多 lockfile 警告 |
 
+### 5.6 AdSense P0 合规整改（9/9 已完成）
+
+**触发**：themoundwiki 2026-08-10 被拒（低价值内容）。诊断发现两类**与事实不符的信任页表述**：
+
+| 问题 | 范围 | 修复 |
+|------|:--:|------|
+| `We use Google AdSense to display advertisements`（未过审 + 0 广告位 = 不实陈述） | 33 站 | 统一为条件语气 `We may display advertisements … Where advertising is enabled …` |
+| `We intend to apply for Google AdSense`（与 ads.txt + layout loader 自相矛盾） | 8 站 | 同上 |
+| `og:image` 全站 404（`lib/seo-config.ts` 引用 `/icon.png` 但文件缺失） | 41 站 | 新增 `scripts/generate-site-icons.py`，按站名 SHA-256 生成差异化图标 |
+
+- 变更范围：41 个 `app/privacy/page.tsx`（+82/-82）+ 41 个 `public/icon.png`；opt-out 链接 41/41 保留。
+- 提交：`ab0cc774`；审计报告：`.agent/qa-adsense-privacy-A1.md`。
+- ⚠️ **注意**：`public/` 目录被全局 gitignore（`~/.gitignore_global` 的 `Public/` 规则，macOS 大小写不敏感）排除，新增 public 资源需 `git add -f`。
+
+**仍未解决的 AdSense 结构性风险**（见 `docs/AdSense复审申请清单-themoundwiki.md`）：
+
+1. **41 站共用同一 AdSense 账号** `ca-pub-7211682665758448` —— 账号级连带风险。
+2. **41 站均为 `*.vercel.app` 免费子域** —— 无域名所有权，且可被零成本聚类为同一实体。
+3. **同模板复制 41 份** —— 对应 Google 2026-08 spam update 的 scaled content abuse 判定形态。
+4. **内容层 0 图片 / 0 作者 / 30-37 篇零来源** —— 待按 `docs/themoundwiki-去模板化改造方案.md` 执行。
+
 ---
 
 ## 六、上线日历
