@@ -17,7 +17,7 @@
     {
       "site": "spiritvalewiki",
       "pv": 4904,
-      "lastExpanded": "2026-08-28"
+      "lastExpanded": "2026-09-09"
     },
     {
       "site": "tearsofmetalwiki",
@@ -110,6 +110,26 @@
       "site": "spiritvalewiki",
       "date": "2026-09-08",
       "reason": "9/8 run 中断（当日仅覆盖 sephiria/tearsofmetal/grainrot 3 站即停止），未轮到本站；0.31.0 ≥2 独立来源触发复检顺延至 9/9。"
+    },
+    {
+      "site": "sephiriawiki",
+      "date": "2026-09-09",
+      "reason": "SKIP（3 连）：9/9 实采 ≥6 组检索——官方补丁仍 1.0.30（8/20）多语言镜像一致，无 1.0.31/9 月补丁/roadmap（9 月唯一活动=TGS 参展非更新）；负面评测止 9/6，9/7–9/8 仅正面短评爆发无新问题；候选（格挡特殊攻击已覆盖+单源、联机漏 EXP 单串不可验）否决；武器升级材料刷取=站内真实空白（Copper/Luminous/Apex 全站 0 命中）但仅 xmodhub 单源且 tier 命名冲突（Lunar vs Luminous）→ 不可验不写。『静默热更』线索连续 3 日确认关闭。触发：武器升级材料题出现 ≥2 独立来源一致命名可写 How to Farm Weapon Upgrade Materials；或官方 1.0.31+。详见 .agent/qa-expand-sephiria-9-9.md。"
+    },
+    {
+      "site": "themoundwiki",
+      "date": "2026-09-09",
+      "reason": "SKIP（9/8 补跑）：P0『1.0.4』查实为真——官方 Steam 公告 Patch 1.04 Content Update（多语言镜像）+ addictinggames 独立报道（3 新敌人含枯萎秃鹫/jewel box 挖 Rosary/指令轮盘增强/lobby code 自动生成/Galleon 卡死修复）；但细节仅 官方+1 编辑 = 2 通道 <3 独立来源，写=单源当事实；落点均已被 multiplayer-connection-fix / weapon-durability-repair 覆盖。零改动。P0 待人工核 1.04 精确日期 → updates-patch-notes-guide 补版本行 + multiplayer-connection-fix Official Fix Timeline 加注 lobby code 自动生成。详见 .agent/qa-expand-themound-9-9.md。"
+    },
+    {
+      "site": "tearsofmetalwiki",
+      "date": "2026-09-09",
+      "reason": "SKIP（非连续）：9/9 核验 v0.15+/9 月官方补丁仍 0（thegameswiki 版本史止 v0.14.58630/8-14、Steam 公告止 8/14、9 月新闻定向 0、Reddit 无 sub）。新增发现 ~8/26 官方三阶段 EA 路线图（Phase 2 build-crafting/Emblems/meta 重做、Phase 3 Plague Doctor、考虑 Beta Branch；primagames/ingamenews/gamereactor ≥3 转载）但属官方计划非实装、无机制/ETA → 只够 P0。其余候选全已覆盖或 9/5–9/6 刚产出。P0：patch-notes.md 滞后 3 个实装补丁（v0.11.57874.1·8/9、v0.12.58540·8/13、v0.14.58630·8/14）+ 缺路线图/Plague Doctor。详见 .agent/qa-expand-tearsofmetal-9-9.md。"
+    },
+    {
+      "site": "grainrotwiki",
+      "date": "2026-09-09",
+      "reason": "SKIP（4 连）：9/9 核验 v1.08/v1.09 溯源升级为『可溯源但不可采信』——player.gg 镜像给出实际内容（v1.09 compass 重校准/Vibe Modulator 修复、v1.08 新 small vessel Boing + 7 constructs + 携带 1 物）但归因冲突（player.gg 主张 1.07 实装 public server browser，与 vgspoilers 1.07、站内 multiplayer-matchmaking-guide（9/3）、VaporLens、玩家反馈全部冲突）+ v1.08 单链无日期 + 官方 hub ECONNREFUSED + 零独立佐证 → 不硬写。P0 人工核验官方 Steam 公告：①v1.07 是否实装 public server browser（若属实 multiplayer-matchmaking-guide 需校准）；②v1.08/1.09 准确日期与完整 changelog；核验后 patch-notes/update-history 页是站内真缺口。详见 .agent/qa-expand-grainrot-9-9.md。"
     }
   ]
 }

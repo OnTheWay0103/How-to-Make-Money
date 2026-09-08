@@ -1033,3 +1033,47 @@ QA deep: 上次 8/25，未超 7 天，跳过
 | spiritvalewiki | ⏸️ 9/8 未覆盖（run 中断） | 9/9 补跑 |
 
 **结论**: 9/8 为低素材日（3/3 检查站 SKIP，宁缺毋滥）。连续跳过状态更新：sephiria/tearsofmetal 非连续、grainrot 3 连。QA deep 距今 7 天，9/10 起需触发 full audit（纪律记录）。
+
+---
+
+# QA Report — 2026-09-09（每日扩充：1 产出 + 4 SKIP）
+
+- 日期: 2026-09-09 | 模式: quick（1 篇新指南 + home-content 1 行；其余站零变更）
+- 范围: 5 个 PV>1000 重点站全部覆盖（含 9/8 中断的 themound/spiritvale 补跑）
+- 执行: 3 个子 Agent 并行（sephiria / themound+spiritvale / tearsofmetal+grainrot），每站走 反馈采集 → 四条件选题 → QA quick →（有产出时部署）
+- 明细: `.agent/qa-expand-{site}-9-9.md` ×5 + `keyword-results/{site}wiki-expand-9-9.md` ×5
+
+## 一、9/9 扩充结果
+
+| 站点 | 结果 | QA | 核心结论 |
+|------|:--:|:--:|------|
+| spiritvalewiki | ✅ **产出 1 篇** | PASS | **account-ban-appeal-guide**（约 1,500 词）——站内 grep ban/appeal 0 命中真缺口；≥3 独立来源（官方执法公告经 MassivelyOP 8/17 + MassivelyOP 7/21 + Steam 社区）。结束 5 连 SKIP。已部署，生产 200 |
+| sephiriawiki | ⏭️ SKIP（3 连） | ✅ | 官方补丁仍 1.0.30（8/20）；负面评测止 9/6；武器升级材料刷取=真实空白但仅 xmodhub 单源且命名冲突 → 触发已记录 |
+| themoundwiki | ⏭️ SKIP（9/8 补跑） | ✅ | **P0『1.0.4』查实为真**（官方 Patch 1.04 Content Update + addictinggames）；细节 2 通道 <3 源 + 落点已覆盖 → 不写。P0：补 1.04 版本行待人工核精确日期 |
+| tearsofmetalwiki | ⏭️ SKIP（非连续） | ✅ | v0.15+/9 月补丁仍 0；新发现 ~8/26 官方三阶段 EA 路线图（未实装，只够 P0）。P0：patch-notes.md 滞后 3 实装补丁 + 缺路线图 |
+| grainrotwiki | ⏭️ SKIP（4 连） | ✅ | v1.08/v1.09 升级为「可溯源但不可采信」（player.gg 归因冲突）；P0：人工核 v1.07 public server browser + v1.08/1.09 日期 |
+
+## 二、QA 判定依据（quick）
+
+- 产出站（spiritvale）：残留扫描 0 命中；编造核查核心断言全可溯源（执法数字 3,821/1,106/65 定级 Official-经 MassivelyOP；封禁阶梯/误封个案/ticket 体验全标 [Unconfirmed]，11 处）；内链 5 个 0 BROKEN；frontmatter schema 与 spiritvale sources tier/text 约定一致（15 篇既有同款）；正文约 1,500 词。部署后线上 curl 200 + 标志词命中。
+- SKIP 站：git 工作树确认对应 site 目录零改动（仅记录文件）；否决均逐条对照既有 slug 复核，主因三类：已覆盖（自噬）/ 单源或归因冲突（编造风险）/ 官方无新补丁（版本锚点缺失）。
+
+## 三、待办（P0 — 需人工核验或下轮触发，超出 expand 范围）
+
+- [ ] **sephiria**：武器升级材料题（Copper/Luminous/Apex）出现 ≥2 独立来源一致命名 → 写 How to Farm Weapon Upgrade Materials（站内真实空白）
+- [ ] **themound**：人工核 Patch 1.04 精确日期 → updates-patch-notes-guide 补版本行（现止 1.03）+ multiplayer-connection-fix Official Fix Timeline 加注「1.04 起 lobby code 自动生成」
+- [ ] **tearsofmetal**：patch-notes.md 补 3 个实装补丁（v0.11.57874.1·8/9 / v0.12.58540·8/13 / v0.14.58630·8/14）+ ~8/26 官方三阶段 EA 路线图（Phase 2/3、Plague Doctor）
+- [ ] **grainrot**：人工核官方 Steam 公告——v1.07 是否实装 public server browser（若属实 multiplayer-matchmaking-guide 需校准）+ v1.08/1.09 准确日期/changelog；核验后 patch-notes/update-history 页为站内真缺口
+- [ ] **spiritvale**：0.31.0 长期无独立非官方来源时，updates-patch-notes 0.31.0 章节保持「官方单源未社区佐证」措辞；开发组预告 PvP 重做/Dragon Knight 落地后联动更新
+
+## QA 结果汇总（供主 Agent 决策）
+
+| 站点 | 判定 | 阻断 |
+|------|:--:|:--:|
+| spiritvalewiki | ✅ PASS（1 新指南，已部署） | 0 |
+| sephiriawiki | ✅ SKIP（零变更） | 0 |
+| themoundwiki | ✅ SKIP（零变更） | 0 |
+| tearsofmetalwiki | ✅ SKIP（零变更） | 0 |
+| grainrotwiki | ✅ SKIP（零变更） | 0 |
+
+**结论**: 9/9 扩充 1/5 有产出（spiritvale account-ban-appeal-guide，结束 5 连 SKIP），已部署线上验证 200；其余 4 站 SKIP（宁缺毋滥，无一处硬写）。连续跳过状态：sephiria 3 连、grainrot 4 连、spiritvale 已归零。4 项 P0 待办（themound 1.04 版本行、tearsofmetal patch-notes 滞后、grainrot v1.07/v1.08+ 人工核验、sephiria 武器材料触发）均已记录，供人工核对或次日触发。QA deep 纪律：上次 9/2，9/9 为第 7 天（未超限）；**9/10 起须触发 full audit**。

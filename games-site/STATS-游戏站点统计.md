@@ -1,6 +1,6 @@
 # 游戏攻略站 — 站点统计
 
-> 最后更新：2026-09-06 | 41 站 · 962 篇攻略
+> 最后更新：2026-09-09 | 41 站 · 963 篇攻略
 
 ---
 
@@ -13,7 +13,7 @@
 | 2 | Mistfall Hunter | 7/01 | 38 | mistfallhunterwiki.vercel.app | ✅ | ✅ | ✅ | 8/11 AdSense Phase1 合规：53→38，9 组合并（PvP/新手/经济/撤离/赛季等），清除虚构职业/地图/Boss，patch-notes 重写为可验证模式 |
 | 3 | Aincrad | 7/07 | 38 | aincradwiki.vercel.app | ✅ | ✅ | ✅ | 8/11 AdSense Phase1 合规：47→38，9 组合并（伙伴/EX-Mod/Boss/楼层/成长等），武器/Boss/楼层设定校准，去 Patch 版本声明 |
 | 4 | The Mound | 7/14 | 37 | themoundwiki.vercel.app | ✅ | ✅ | ✅ | 8/11 AdSense Phase1 合规：54→32，12 组合并，系统配置对齐 Steam 官方，Patch Notes 去 1.02 未验证声明；8/27 反馈驱动扩充 +1（weapon-durability-repair-guide，QA quick PASS 已部署）；9/2 EXPAND-011 反馈驱动扩充 +1（multiplayer-connection-fix-guide，QA quick PASS 已部署，geist 字体自托管）；9/3 EXPAND-013 反馈驱动扩充 +1（isolation-guide 离队隔离惩罚，QA quick PASS 已部署） |
-| 5 | SpiritVale | 7/12 | 40 | spiritvalewiki.vercel.app | ✅ | ✅ | ✅ | 8/1 内容配比规则 +1 世界 Boss 速查表（Echoing Spire）；8/28 EXPAND-007 反馈驱动扩充 +1（echoing-spire-endgame-guide 终点爬塔）+ P0 事实校准（免费→$14.99 买断、拍卖行 8/4 回归、职业名 Scout→Gunslinger/Weaver），QA 有条件 PASS 已部署；8/30 R1 P0 职业名旧体系批量修正完成（19 文件：Sniper 虚构职业全清、Gunslinger=Scout 进阶、Weaver=特殊进阶，QA PASS 已部署） |
+| 5 | SpiritVale | 7/12 | 41 | spiritvalewiki.vercel.app | ✅ | ✅ | ✅ | 8/1 内容配比规则 +1 世界 Boss 速查表（Echoing Spire）；8/28 EXPAND-007 反馈驱动扩充 +1（echoing-spire-endgame-guide 终点爬塔）+ P0 事实校准（免费→$14.99 买断、拍卖行 8/4 回归、职业名 Scout→Gunslinger/Weaver），QA 有条件 PASS 已部署；8/30 R1 P0 职业名旧体系批量修正完成（19 文件：Sniper 虚构职业全清、Gunslinger=Scout 进阶、Weaver=特殊进阶，QA PASS 已部署）；9/9 EXPAND-023 反馈驱动扩充 +1（account-ban-appeal-guide 封禁原因与申诉，结束 5 连 SKIP，QA quick PASS 已部署） |
 | 6 | Skills & Raids | 7/15 | 18 | skillsandraidswiki.vercel.app | ✅ | ✅ | ✅ | 7/27 游戏上线 |
 | 7 | MineGeon | 7/20 | 27 | minegeonwiki.vercel.app | ✅ | ✅ | ✅ | 7/28 游戏上线；8/3 Coordinator 扩充 +2（Walkthrough、Review） |
 | 8 | Sephiria | 7/21 | 35 | sephiriawiki.vercel.app | ✅ | ✅ | ✅ | 7/31 1.0 上线；8/11 AdSense Phase1 合规：48→29，5 组合并（武器/Boss/章节/Builds/物品/更新），清除虚构武器/Boss/神器目录/NG+/第七章，去 Patch 版本声明；8/26 每日扩充 +1（save-file-guide 存档备份恢复，反馈驱动，QA quick PASS）；9/1 EXPAND-010 反馈驱动扩充 +1（dagger-build-guide）；9/3 EXPAND-012 反馈驱动扩充 +1（katana-build-guide，QA quick PASS 已部署） |
@@ -140,7 +140,7 @@
 | 指标 | 数值 |
 |------|:--:|
 | **总站点数** | 41 |
-| **总攻略数** | 962 |
+| **总攻略数** | 963 |
 | **Vercel 部署** | 41/41 ✅ |
 | **GA4 已配置** | 34/41 |
 | **GA4 真缺失** | 7（anomalypresidentwiki（G-PLACEHOLDER）、bombananawiki（空）、crimsonmoonwiki（空）、doloctownwiki（空）、fallentearwiki（空）、sovereigntowerwiki（空）、welcomeelderfieldwiki（空）） |

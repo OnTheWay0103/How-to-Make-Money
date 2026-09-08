@@ -37,6 +37,7 @@ SpiritVale is currently in Early Access. This wiki covers all core systems, stra
 | [Connection & Server Guide](/guides/connection-server-guide) | Lag, rollbacks, server choice | Fixes |
 | [Echoing Spire Guide](/guides/echoing-spire-endgame-guide) | Endgame tower climb, party comp, resets | Advanced |
 | [Update & Patch Notes](/guides/updates-patch-notes) | Auction Hall status, update channels | All |
+| [Account Ban Appeal Guide](/guides/account-ban-appeal-guide) | Why you were banned & how to appeal | Fixes |
 | [FAQ](/faq) | Quick answers | All |
 | [Tier List](/tier-list) | Meta analysis | Advanced |
 
