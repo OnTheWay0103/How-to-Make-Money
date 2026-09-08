@@ -56,6 +56,7 @@ MUST 构建零错误才部署
 MUST 部署后 curl 验证线上可访问（HTTP 200），且**新增/修改的静态资源逐个验证**（如 `/icon.png`）
 MUST NOT 设置 rootDirectory（CLI 部署模式，见部署教训）
 MUST 用 `vercel inspect` 确认生产 alias 指向本次新部署，MUST NOT 只查首页 200（旧部署同样返回 200）
+MUST 并发部署（≥2 站同时）时以**内容级验证**判定成败（首页 200 + 新增资源 200 + 目标页新文本），MUST NOT 以 `deploy-wiki-site.sh` 退出码为准（教训：9/9 批量 41 站 4 并发，脚本第 3 步 `vercel inspect` 在并发下返回空 → `pipefail`+`set -e` 使脚本 exit 1，40 站全部误报 FAIL，经内容级复核实际均已成功部署）
 
 ## 恢复规则
 
