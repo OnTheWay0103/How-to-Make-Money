@@ -27,13 +27,13 @@ export default function PrivacyPage() {
       <p>We use the collected information to:</p>
       <ul>
         <li>Analyze site traffic and user behavior to improve our content</li>
-        <li>Display relevant advertisements via Google AdSense (if approved for the program)</li>
+        <li>Display relevant advertisements via Google AdSense (where advertising is enabled)</li>
         <li>Understand which game guides are most helpful to our readers</li>
       </ul>
 
       <h2>4. Google AdSense & Third-Party Advertising</h2>
       <p>
-        We intend to apply for Google AdSense to display advertisements on our website. If approved, Google may use cookies to serve ads based on your prior visits to our site and other websites. Google's use of advertising cookies enables it and its partners to serve ads based on your visit to our site and/or other sites on the Internet.
+        We may display advertisements on this website through Google AdSense. Where advertising is enabled, Google uses cookies to serve ads based on your prior visits to our site and other websites. Google's use of advertising cookies enables it and its partners to serve ads based on your visit to our site and/or other sites on the Internet.
       </p>
       <p>Specifically:</p>
       <ul>
