@@ -95,7 +95,7 @@ Agent 之间通过共享文件系统通信，不需要进程间通信：
 ```
 Build Gate (提交前):
   [ ] package.json / tsconfig.json / vercel.json 存在
-  [ ] npm run build 通过
+  [ ] pnpm build 通过
 
 Deploy Gate (部署后):
   [ ] curl 首页 200
@@ -120,7 +120,7 @@ QA Agent 在 Build Agent 完成后由 Coordinator 调度，以"第二双眼睛"�
   [ ] 诚实标注 — 不确定信息有"待验证"标记
 
 🔧 基建复查:
-  [ ] npm run build 仍然通过
+  [ ] pnpm build 仍然通过
   [ ] curl 首页 + sitemap + ads.txt → 全部 200
   [ ] GA4 ID 非空/非 PLACEHOLDER
   [ ] GSC 文件存在
@@ -223,7 +223,7 @@ QA Agent 在 Build Agent 完成后由 Coordinator 调度，以"第二双眼睛"�
 3. 写 {N} 篇攻略
 4. 创建 AdSense 合规页面
 5. Gate 检查 (build + deploy + cleanup)
-6. npm install → npm run build
+6. pnpm install → pnpm build
 7. Vercel 部署
 8. Dashboard 注册
 9. 更新统计文档 + build-history.json
@@ -312,7 +312,7 @@ QA Agent 在 Build Agent 完成后由 Coordinator 调度，以"第二双眼睛"�
    c. 诚实标注: 不确定信息是否有"待验证"标记
 3. 跨文件一致性: 同站 guide 之间名词/数据/机制是否一致
 4. 基建复查:
-   - 目标站 npm run build 通过
+   - 目标站 pnpm build 通过
    - curl 首页 / sitemap.xml / ads.txt → 全部 200
    - GA4 ID 非空/非 PLACEHOLDER
 5. 输出结构化 QA 报告 → .agent/qa-report.md

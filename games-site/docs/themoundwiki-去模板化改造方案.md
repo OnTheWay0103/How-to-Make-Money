@@ -284,7 +284,7 @@ verified_against_game_version: "1.03 [已按 updates-patch-notes 核]"
 #8 controls、#10 crafting、#13 enemy-bestiary、#15 faq-content（/faq 合一）、#16 game-length、#27 price-platforms、#33 trophy、#34 updates（保留）、/tier-list 徽标修正。
 完成标准：资讯类完成官方来源逐条标注（§6.2）；陈旧占位文案清零；双 FAQ/Tier 合流；#33 截图归档。
 
-**批次纪律（MUST）**：任何一批内，先跑 §6.1 高危清单核验 → 再改正文 → 最后换 intro → `npm run build` 零错误 → 更新页脚 checked 日期。**MUST NOT** 在数值未核验前把新 intro 里的对应断言上线。全部完成后：等 2-3 周（复审建议间隔）→ 主 Agent 提交复审。
+**批次纪律（MUST）**：任何一批内，先跑 §6.1 高危清单核验 → 再改正文 → 最后换 intro → `pnpm build` 零错误 → 更新页脚 checked 日期。**MUST NOT** 在数值未核验前把新 intro 里的对应断言上线。全部完成后：等 2-3 周（复审建议间隔）→ 主 Agent 提交复审。
 
 ---
 

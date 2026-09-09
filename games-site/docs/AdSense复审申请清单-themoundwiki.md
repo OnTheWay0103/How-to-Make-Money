@@ -27,7 +27,7 @@
 | 0.5 | 无过期时态文案 | `grep -rn 'It launches\|check official documentation at launch' app/` = 0 | ☐ |
 | 0.6 | 无跨站污染 / 模板残留 | `grep -rn 'Witchspire\|Mistfall\|Aincrad' app/ lib/ content/` = 0 | ☐ |
 | 0.7 | ads.txt 与实际情况一致 | `public/ads.txt` 内容为 `google.com, pub-7211682665758448, DIRECT, ...` | ☐ |
-| 0.8 | 构建零错误 | `npm run build` 退出码 0，静态页数 = 50 | ☐ |
+| 0.8 | 构建零错误 | `pnpm build` 退出码 0，静态页数 = 50 | ☐ |
 | 0.9 | 线上已部署本次全部改动 | `./deploy-wiki-site.sh themoundwiki` 后 alias 指向新部署 | ☐ |
 | 0.10 | 未被同一账号的其他站牵连 | 确认申请使用**独立域名**，且该账号下无其他站同期被拒 | ☐ |
 

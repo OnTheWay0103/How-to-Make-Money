@@ -345,10 +345,12 @@ grep -r "SpiritVale\|Witchspire\|mistfall\|aincrad\|The Mound\|Skills & Raids" {
 > 
 > **这是第一级基础设施自查。** 提交后 Coordinator 会调度 QA Agent（`quality-assurance`）进行独立的第二级审核——包括内容质量（虚构检测、一致性、残留）和基建复查。Build Agent 专注创作，QA Agent 专注验证。
 
+> **磁盘策略（2026-09-09 起）**：wiki 站日常不保留 node_modules（省 ~18.7G）。一律用 pnpm——全站共享同一 store，首次一次下载，之后各站秒级硬链接，**不要用 npm**（npm 平铺布局会每站复制 ~460M）。
+
 ```bash
 cd {project}
-npm install        # 必须成功
-npm run build      # 必须成功，exit code 0
+pnpm install        # 必须成功（无本地 node_modules 属正常）
+pnpm build          # 必须成功，exit code 0
 ```
 
 **build 输出中必须看到**：
@@ -421,7 +423,7 @@ Step 7: 输出用户待办清单
 | 错误 | 处理 |
 |------|------|
 | 代理不通 | 提示 proxyon |
-| npm install 超时 | 后台重试 × 3 |
+| pnpm install 超时/网络 | 后台重试 × 3 |
 | Google Suggest 超时 | SOCKS5 → 降级 WebSearch |
 | 构建失败 | 自动修复 × 3 |
 | Token 过期 | 预检拦截 → 提示 vercel login |

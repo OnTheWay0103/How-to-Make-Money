@@ -159,9 +159,13 @@ grep -rn "published by NACON" \
 
 ### 3.1 构建验证
 
+> 磁盘策略（2026-09-09 起）：wiki 站**日常不保留 node_modules**（省 ~18.7G）。
+> 用 pnpm 安装——全站共享同一内容寻址 store，首次装进 store 一次下载，之后各站秒级链接，不重复占盘。
+
 ```bash
 cd {site}
-npm run build 2>&1 | tail -20
+pnpm install 2>&1 | tail -5     # 目录无 node_modules 属正常，装完即用
+pnpm build 2>&1 | tail -20
 # 必须看到 ✓ Compiled successfully
 # Exit code 必须为 0
 ```
