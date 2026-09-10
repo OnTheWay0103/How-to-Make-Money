@@ -60,6 +60,19 @@ Agent 之间不直接对话，通过**文件契约**交接：
 
 Next.js 16 + React 19 + TypeScript + Tailwind CSS 4 + Vercel + GA4 + GSC + Recharts
 
+## 依赖与磁盘约定（MUST 遵守）
+
+> 2026-09-09 起生效。此前 41 站各自 npm 平铺 node_modules 共占 ~18.7G；改用 pnpm 全局 store 后全部依赖仅占 **~479M**（唯一副本 + 硬链接共享）。
+
+- wiki 站依赖管理 **MUST 用 pnpm**，MUST NOT 用 npm（npm 平铺会每站复制 ~460M）
+- 每站 `pnpm-lock.yaml` MUST 入库；MUST NOT 提交 `node_modules/`
+- wiki 站**日常不保留 node_modules**（省磁盘）；QA/build 前在目标站 `pnpm install`，store 秒级链接
+- 各站 node_modules 用 `du` 相加会偏大，属硬链接统计错觉，实际磁盘只有一份
+- `dashboard/` 与仓库根目录保留 npm，不纳入 pnpm 范围
+- **字体 MUST 用 geist 自托管**（`geist/font/sans` + `geist/font/mono`）；MUST NOT 用 `next/font/google`（fonts.googleapis 被墙，本地 build 必挂）
+- 各站 `vercel.json` 的 `installCommand` MUST 为 `pnpm install`
+- `.next/` 构建产物可随时清理（可再生），排查磁盘占用时优先查它
+
 ## 项目结构
 
 ```
