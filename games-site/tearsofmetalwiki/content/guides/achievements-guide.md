@@ -293,7 +293,7 @@ Most achievements are per-player, but co-op changes the grind significantly:
 
 **Co-op caveats:**
 - **Host progression gates:** unlock state (e.g., Ruadh) follows the host's progression — see the [Multiplayer & Connection Fix Guide](/guides/multiplayer-connection-fix-guide)
-- **Platform note:** the Xbox Series X|S + Game Pass version is announced for later in 2026 but not yet released — keep parties on Steam for now (see [Patch Notes & Roadmap](/guides/patch-notes))
+- **Platform note:** the game is live on Steam, the Microsoft Store and PC Game Pass, and those two PC builds crossplay — but Steam patches ahead of the Microsoft Store build, so mixed parties should version-match via the Steam "crossplay" beta branch. The **Xbox Series X|S console version** is announced for later in 2026 and is not out yet (see [Patch Notes & Roadmap](/guides/patch-notes))
 - **Don't chase "Not One Left Behind" in random co-op** — other players' allies count, and randoms won't protect your soldiers. That one's a solo (or trusted-group) hunt
 
 ---

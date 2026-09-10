@@ -14,8 +14,8 @@ const FEATURED_GUIDES = [
 
 const FAQ_ITEMS = [
   { question: 'What is Tears of Metal?', answer: 'Tears of Metal is a Scottish action roguelike hack-and-slash developed by Paper Cult. Build a village, forge weapons, collect emblems, and fight through procedurally generated expeditions in solo or 4-player co-op. Early Access launched July 22, 2026 on Steam for $24.99.' },
-  { question: 'Is Tears of Metal free?', answer: 'No. Tears of Metal costs $24.99 on Steam. There is no free-to-play version or microtransaction system.' },
-  { question: 'Is it on console?', answer: 'Tears of Metal is currently PC-only via Steam. An Xbox Series X|S and Game Pass version has been announced for later in 2026 but is not out yet.' },
+  { question: 'Is Tears of Metal free?', answer: 'No. Tears of Metal costs $24.99 on Steam. There is no free-to-play version and no microtransaction system, though the game is included with a PC Game Pass subscription.' },
+  { question: 'Is it on console?', answer: 'Not on console yet. Tears of Metal is available on PC via Steam and the Microsoft Store, and it is included with PC Game Pass from day one. An Xbox Series X|S version has been announced for later in 2026 and will join Xbox Game Pass then.' },
   { question: 'Can I play solo?', answer: 'Yes. All 3 heroes (Wallace, Brienne, Ruadh Stonecrusher) are viable solo. Wallace is especially recommended for new solo players thanks to his forgiving block/parry timing and survivability.' },
   { question: 'How does co-op work?', answer: 'Up to 4 players can team up in online co-op. Progression is shared between party members — village upgrades apply to all. There is no local/couch co-op.' },
   { question: 'How long is the game?', answer: 'A single campaign run through all 3 acts takes 1-2 hours depending on how much you clear. Village upgrades carry over between runs, so total playtime stretches across many campaigns.' },
@@ -24,7 +24,7 @@ const FAQ_ITEMS = [
   { question: 'What heroes are available?', answer: 'There are 3 heroes at launch: Wallace (longsword all-rounder, best for beginners), Brienne (unarmed, fastest attacks, high skill ceiling), and Ruadh Stonecrusher (giant hammer, highest stagger and single-hit damage).' },
   { question: 'What are emblems?', answer: 'Emblems are passive modifiers you equip to customize your hero\'s playstyle. There are 18 emblems covering physical builds, elemental damage, support, and defensive strategies.' },
   { question: 'Can I respec my village upgrades?', answer: 'Currently there is no respec system for village upgrades. Choose wisely or plan your upgrade path with the village upgrade guide.' },
-  { question: 'Is there crossplay?', answer: 'All current co-op is Steam PC — there is no console version to crossplay with yet. An Xbox Series X|S and Game Pass version is announced for later in 2026.' },
+  { question: 'Is there crossplay?', answer: 'Yes, between PC stores: Steam and Microsoft Store / PC Game Pass players can play together. Bear in mind Steam patches ahead of the Microsoft Store build, so crossplay is briefly unavailable after each patch unless you switch to the Steam "crossplay" beta branch. There is no console version to crossplay with yet — an Xbox Series X|S version is announced for later in 2026.' },
 ];
 
 export default function Home() {

@@ -10,8 +10,8 @@ export const metadata: Metadata = {
 
 const FAQ_ITEMS = [
   { question: 'What is Tears of Metal?', answer: 'Tears of Metal is a Scottish action roguelike hack-and-slash developed and published by Paper Cult. You build a village, forge legendary weapons, collect emblems, and fight through procedurally generated expeditions in solo or 4-player co-op. Early Access launched July 22, 2026 on Steam for $24.99.' },
-  { question: 'Is Tears of Metal free?', answer: 'No, Tears of Metal is a paid game — $24.99 on Steam. There are no microtransactions or free-to-play elements.' },
-  { question: 'Is it on console?', answer: 'Tears of Metal is currently PC-only via Steam. An Xbox Series X|S and Game Pass version has been announced for later in 2026 but is not out yet.' },
+  { question: 'Is Tears of Metal free?', answer: 'No, Tears of Metal is a paid game — $24.99 on Steam. There are no microtransactions or free-to-play elements, though the game is included with a PC Game Pass subscription.' },
+  { question: 'Is it on console?', answer: 'Not on console yet. Tears of Metal is available on PC via Steam and the Microsoft Store, and it is included with PC Game Pass from day one. An Xbox Series X|S version has been announced for later in 2026 and will join Xbox Game Pass then.' },
   { question: 'Can I play solo?', answer: 'Yes. All 3 heroes are fully viable in solo play. Wallace (longsword) is recommended for beginners due to his forgiving block/parry timing and survivability. Ruadh Stonecrusher offers high-risk, high-reward burst. Brienne is the fastest but has the highest skill floor.' },
   { question: 'How does co-op work?', answer: 'Up to 4 players can team up in online co-op on Steam. The campaign is shared, while village upgrades are individual to each player. There is no local split-screen or couch co-op.' },
   { question: 'How long is the game?', answer: 'A single campaign run through all 3 acts takes 1-2 hours, depending on how much you clear. Village upgrades carry over between runs, so total playtime stretches across many campaigns.' },

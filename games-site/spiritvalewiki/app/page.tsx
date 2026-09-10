@@ -5,7 +5,7 @@ import GuideCard from '@/components/GuideCard';
 
 const FEATURED_GUIDES = [
   { title: 'Beginner Guide — First 5 Hours in SpiritVale', description: 'New to SpiritVale? Master the basics — choose your class, level fast, upgrade gear, and avoid common mistakes.', slug: 'beginner-guide', category: 'Beginner', updated: '2026-07-12' },
-  { title: 'Weapon Tier List — Best Weapons by Class', description: 'Complete SpiritVale weapon rankings for PvE, PvP, and solo play. S-Tier to C-Tier with explanations for every weapon type.', slug: 'tier-list', category: 'Weapons', updated: '2026-07-12' },
+  { title: 'Class Tier List — Best Classes & Advanced Jobs', description: 'Community consensus class rankings for SpiritVale Early Access — best picks for farming, bossing, PvP, and solo play.', slug: 'class-tier-list', category: 'Classes', updated: '2026-08-09' },
   { title: 'Classes Guide — All Jobs, Roles & Skills', description: 'Complete breakdown of all 7 base classes and 8 advanced jobs. Stats, skills, best builds, and role recommendations.', slug: 'classes-guide', category: 'Classes', updated: '2026-07-12' },
   { title: 'Leveling Guide — Fastest Way to Max Level', description: 'Optimal leveling route from 1 to max. Best grinding spots, quest priorities, and XP boost strategies.', slug: 'leveling-guide', category: 'Progression', updated: '2026-07-12' },
   { title: 'Cards Guide — All 227 Cards & Best Combos', description: 'Complete card database with stats, effects, and best combinations. How to farm rare cards efficiently.', slug: 'cards-guide', category: 'Items', updated: '2026-07-12' },

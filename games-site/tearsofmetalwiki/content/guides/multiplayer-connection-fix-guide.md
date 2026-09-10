@@ -1,16 +1,16 @@
 ---
 title: "Tears of Metal Multiplayer & Connection Fix Guide — Desync, Lag & Crossplay"
-description: "Fix Tears of Metal co-op problems: the known desync issues (developer-confirmed, being fixed), who should host, the crossplay situation (the Xbox/Game Pass version is announced for later in 2026), and every connection workaround that helps until the fix lands."
+description: "Fix Tears of Metal co-op problems: the known desync issues (developer-confirmed, being fixed), who should host, how crossplay works between Steam and Microsoft Store / PC Game Pass (and why it breaks after each patch), and every connection workaround that helps until the fix lands."
 category: "Guides"
 version: "Early Access"
-updated: "2026-08-11"
+updated: "2026-09-11"
 keywords: ["tears of metal desync fix", "tears of metal multiplayer lag", "tears of metal co-op not working", "tears of metal crossplay", "tears of metal multiplayer fix", "tears of metal game pass co-op"]
 related: ["co-op-guide", "beginner-guide", "patch-notes", "save-system-guide"]
 ---
 
 # Tears of Metal Multiplayer & Connection Fix Guide — Desync, Lag & Crossplay
 
-> **Early Access / Updated: August 11, 2026**
+> **Early Access / Updated: September 11, 2026**
 
 Tears of Metal is built for 4-player co-op — and "**Multiplayer has technical issues**" is a recurring theme in its reviews. The good news: the developers have **publicly confirmed desync fixes are their #2 priority** (behind mid-campaign saves), and a recent update already improved things. This guide covers the current state, who should host, the crossplay situation, and every workaround that helps today.
 
@@ -21,7 +21,8 @@ Tears of Metal is built for 4-player co-op — and "**Multiplayer has technical 
 | Issue | Status | Notes |
 |-------|--------|-------|
 | Desync between players | **Acknowledged, being fixed** | Developer-confirmed #2 priority; multiplayer desync issues explicitly named |
-| Crossplay (PC / Xbox / Game Pass) | Not applicable yet | The Xbox Series X\|S + Game Pass version is announced for later in 2026 and not yet released — all co-op is currently Steam PC |
+| Crossplay (Steam ↔ Microsoft Store / PC Game Pass) | **Works — with a version caveat** | The two PC builds can play together, but Steam patches ahead of the Microsoft Store, so crossplay is briefly broken on the default Steam branch after each patch. Switch the Steam player to the **"crossplay" beta branch** to match the Game Pass build |
+| Crossplay with Xbox consoles | Not applicable yet | The Xbox Series X\|S console version is announced for later in 2026 and not yet released |
 | Launch bugs affecting co-op | Fixed in a recent update | The Iseult the Banshee softlock is fixed; health-bar display fixes also shipped |
 
 ---
@@ -43,7 +44,9 @@ Like most small-studio co-op games, Tears of Metal is **host-based**: the host's
 
 ## Crossplay: What's Real Today
 
-- **There is no crossplay yet:** the game is currently **Steam PC-only**. The **Xbox Series X|S + Game Pass version has been announced for later in 2026** but is not released — no crossplay details have been announced for it.
+- **Steam ↔ Microsoft Store / PC Game Pass: yes, crossplay works.** The game is out on all three at once (Steam, Microsoft Store, PC Game Pass since the July 22, 2026 launch), and the two PC builds can party together.
+- **The catch is the version, not the platform.** Steam approves builds faster than the Microsoft Store pipeline, so after every patch the Steam build briefly runs ahead and crossplay stops working until the Microsoft Store build catches up. The fix is a **Steam beta branch named "crossplay"** that is kept matched to the Game Pass build — opt into it if you are the Steam player in a mixed party.
+- **Xbox consoles: not yet.** The **Xbox Series X|S console version** is announced for later in 2026; no crossplay details have been announced for it. There is no announced PlayStation version.
 - **Invites:** use the in-game party/friends flow. If an invite fails, version-match first (see below).
 
 ## Connection Workarounds That Work Today
@@ -59,7 +62,7 @@ Like most small-studio co-op games, Tears of Metal is **host-based**: the host's
 
 ## What a Recent Update Already Fixed
 
-A recent post-launch update shipped: the **save recovery system**, the **Iseult the Banshee softlock fix**, texture-size reductions (Steam Deck help), and health-bar display fixes. Multiplayer desync remains on the confirmed list — the [Patch Notes & Roadmap](/guides/patch-notes) page tracks when the next netcode fix lands (we update within 48 hours).
+Post-launch updates have already shipped the **save recovery system** and the **Iseult the Banshee softlock fix** (both in **v0.9.57408**, July 28, 2026), a **networking overhaul** plus the health-cost co-op revive (**v0.12.58540**, August 13, 2026), and a further round of **multiplayer desync, boss-spawn and campaign-map fixes** (**v0.14.58630**, August 14, 2026 — the current build). Multiplayer desync remains on the confirmed list: the next patch is an announced "big push for stability," with no date. The [Patch Notes & Roadmap](/guides/patch-notes) page tracks it (we update within 48 hours).
 
 ---
 
@@ -69,7 +72,7 @@ A recent post-launch update shipped: the **save recovery system**, the **Iseult 
 Not yet — confirmed as the developer's #2 priority, in progress with no date. Host choice and the workarounds above are the best mitigations today.
 
 **Q: Can PC and Xbox players play together?**
-Not yet — the game is currently Steam PC-only. The Xbox Series X|S + Game Pass version is announced for later in 2026; no crossplay details have been announced.
+Not on console yet — the Xbox Series X|S console version is announced for later in 2026. On PC, though, **Steam and Microsoft Store / PC Game Pass players can play together today**; the only requirement is that both sides are on the same build (see the "crossplay" beta branch note above).
 
 **Q: Why does the game lag only in co-op?**
 Host-based networking: the host's connection is everyone's connection. Swap hosts and go wired.
