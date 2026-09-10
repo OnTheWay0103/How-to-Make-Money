@@ -7,7 +7,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'All Guides',
   description:
-    'Complete The Mound: Omen of Cthulhu guide collection — weapon classes, builds, boss strategies, EX-Mod crafting, progression tips, and more.',
+    'Complete The Mound: Omen of Cthulhu guide collection — weapon classes and loadouts, builds, enemy and boss strategies, crafting recipes, sanity, contracts and extraction tips.',
 };
 
 export default function GuidesPage() {

@@ -14,7 +14,7 @@ related: ["coop-strategy-guide", "faq-content", "performance-fps-fix-guide", "ex
 
 This guide walks through the fixes in the order that solves them most often — from the one-step fix that works for most PC players, to the official workaround for crossplay invites, to the password-room features added in the major patches.
 
-> **Current state (as of 2026-09-02):** The developers have confirmed the crossplay invite bug in official patch notes and are "working on a fix" (Official, Patch 1.03). In the meantime, the officially recommended way to group across platforms is to **host a Public lobby and join through the online server list**, or use **password rooms** added in the late-July major patch. Some players report matchmaking regressions after the August 18 update (Community) — if the server list suddenly stops loading for you, jump to [Fix Step 3](#fix-step-3-public-lobby--server-list-refresh-the-crossplay-workaround) and the [FAQ](#quick-faq).
+> **Current state (as of 2026-09-11):** The developers confirmed the crossplay invite bug in official patch notes and said they were "working on a fix" (Official, Patch 1.03). The officially recommended way to group across platforms is to **host a Public lobby and join through the online server list**. Since **Patch 1.04 (August 31, 2026)** that lookup uses **automatically generated lobby codes** rather than a password the host types in, with an optional encrypted password still available for private sessions. Some players report matchmaking regressions after the August 18 update (Community) — if the server list suddenly stops loading for you, jump to [Fix Step 3](#fix-step-3-public-lobby--server-list-refresh-the-crossplay-workaround) and the [FAQ](#quick-faq).
 
 ---
 
@@ -90,6 +90,8 @@ A major patch in late July added **password rooms**: a host can set a password o
 - Host: create a lobby → enable a **server password** under the session settings → share it with your group.
 - Friends: **Join Game → Server list → enter password**.
 
+> **Changed in Patch 1.04 (August 31, 2026):** the game now uses **automatically generated lobby codes** instead of manual passwords for looking up a specific lobby, and a separate optional encrypted password can be added for private sessions. If you are on 1.04 or newer, share the **lobby code** the host sees on screen rather than a password the host typed in. [Official]
+
 ⚠️ **Beta branch caveat:** the password-based Server Finder was first tested on a **Steam beta branch** (mid-July). Switching to the beta branch makes the game **Steam-only and disables crossplay**, so do **not** use the beta branch for a mixed-platform squad — use the password rooms in the current stable build instead.
 
 Sources: [gamersocialclub — Receives First Major Patch](https://gamersocialclub.ca/2026/07/22/the-mound-omen-of-cthulhu-receives-first-major-patch/) and [ingamenews — Receives First Steam Hotfix](https://ingamenews.com/pc-gaming/the-mound-omen-of-cthulhu-receives-first-steam-hotfix/) (Editorial); beta-branch caveat via [tposegaming](https://tposegaming.com/the-mound-omen-of-cthulhu-crossplay/) and the [Steam announcements](https://steamcommunity.com/app/2569760/allnews/) (Official).
@@ -138,13 +140,15 @@ A: No — same-platform groups can use Steam invites/overlay joins, or simply se
 | Date | Update | Multiplayer relevance |
 |------|--------|----------------------|
 | Launch (Jul 15, 2026) | 1.0 | Crossplay live; invite bugs reported immediately |
-| Mid-July | Patch 1.02 | Block + progress recovery; not network-focused |
-| Jul 17 | Beta branch | Password-type **Server Finder** tested (Steam-only; disables crossplay) |
-| ~Jul 22 | Major patch | **Password rooms** added; crossplay lobby/lookup improvements |
-| Late Jul | Patch 1.03 | Official: invite bug still "being worked on"; server-list workaround stated |
-| Aug 18 | Update | Community reports of matchmaking/list regressions (unofficial) |
+| Jul 17, 2026 | Beta branch | Password-type **Server Finder** tested (Steam-only; disables crossplay) |
+| Jul 21, 2026 | Patch 1.01 | **Server password setting** added so sessions can be found by password; crossplay friend-finder work; key bindings saved between sessions |
+| Jul 29, 2026 | Patch 1.02 | Block ability + progress recovery; not network-focused; local voice improvements with "some issues remain" |
+| Aug 13, 2026 | Patch 1.03 | **Quickmatch** + matchmaking filters (region, language); improved voice audio spatialization. Official: crossplay invites still "being worked on"; server-list workaround stated |
+| Aug 18, 2026 | Unannounced | Community reports of matchmaking/list regressions (unofficial) |
+| Aug 31, 2026 | Patch 1.04 | **New Lobby Codes — automatically generated join codes replace manual passwords** for finding a specific lobby; optional encrypted passwords for private sessions; more crash/freeze fixes including getting stuck in the Galleon's shops |
+| Sep 9, 2026 | Patch 1.05 | Voice chat rework — fixed **voice chat corruption during crossplay and on certain systems**; fixed TSR/XeSS profile settings; fixed the Mound level orb not handling damage |
 
-Sources: [Steam announcements](https://steamcommunity.com/app/2569760/allnews/) (Official), [gamersocialclub](https://gamersocialclub.ca/2026/07/22/the-mound-omen-of-cthulhu-receives-first-major-patch/), [ingamenews](https://ingamenews.com/pc-gaming/the-mound-omen-of-cthulhu-receives-first-steam-hotfix/) (Editorial), [outagescope](https://outagescope.com/status/the-mound-omen-of-cthulhu) (Community).
+Sources: [Steam announcements — The Mound: Omen of Cthulhu](https://store.steampowered.com/news/app/2569760) (Official — patch titles and dates for 1.01 through 1.05), [gamersocialclub](https://gamersocialclub.ca/2026/07/22/the-mound-omen-of-cthulhu-receives-first-major-patch/), [ingamenews](https://ingamenews.com/pc-gaming/the-mound-omen-of-cthulhu-receives-first-steam-hotfix/) (Editorial), [outagescope](https://outagescope.com/status/the-mound-omen-of-cthulhu) (Community).
 
 ---
 

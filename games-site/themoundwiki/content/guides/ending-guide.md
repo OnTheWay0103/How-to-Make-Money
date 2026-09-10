@@ -144,7 +144,7 @@ Lore Pages are hidden throughout the game world. They provide background on the 
 | 8 | Mound exterior | The Mound approach | In a dead Y'm-bhi's pack |
 | 9 | Mound interior — library | The Mound | On a reading lectern |
 | 10 | Mound interior — prison | The Mound | In a cell with a skeletal prisoner |
-| 11 | Secret cave behind waterfall | Mira Isle equivalent (Eastern Waterfall) | Requires rope to descend |
+| 11 | Secret cave behind waterfall | Forest **[Unconfirmed]** | Requires rope to descend |
 | 12 | High Priest's chamber | The Mound (before boss fight) | On the altar, can be grabbed during boss intro |
 
 **Tip**: Lore Pages glow with a faint purple aura when you are within 10m. Use the Crystal Moth Familiar mount if you have one — its glow trail reveals Lore Page locations.
@@ -225,8 +225,8 @@ Yes. Your save file is marked after completing any ending. You can:
 
 ## Related Guides
 
-- [Story Walkthrough Guide](/themound/content/guides/walkthrough-guide)
-- [Contracts Guide — Faction Reputation](/themound/content/guides/contracts-guide)
-- [Enemy Bestiary](/themound/content/guides/enemy-bestiary)
-- [FAQ & Common Questions](/themound/content/guides/faq-content)
-- [Game Length Guide](/themound/content/guides/game-length-guide)
+- [Story Walkthrough Guide](/guides/walkthrough-guide)
+- [Contracts Guide — Faction Reputation](/guides/contracts-guide)
+- [Enemy Bestiary](/guides/enemy-bestiary)
+- [FAQ & Common Questions](/guides/faq-content)
+- [Game Length Guide](/guides/game-length-guide)

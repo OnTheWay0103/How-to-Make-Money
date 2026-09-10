@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from 'next';
 import { GeistSans } from 'geist/font/sans';
 import { GeistMono } from 'geist/font/mono';
 import './globals.css';
-import { defaultViewport } from '@/lib/seo-config';
+import { defaultViewport, SITE_CONFIG } from '@/lib/seo-config';
 import { defaultMetadata as dm } from '@/lib/metadata';
 import { websiteSchema } from '@/lib/schema';
 import JsonLd from '@/components/JsonLd';
@@ -29,12 +29,14 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-[#0f0f23] text-gray-200">
-        {/* Google AdSense */}
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7211682665758448"
-          crossOrigin="anonymous"
-        />
+        {/* Google AdSense — publisher ID comes from lib/seo-config.ts */}
+        {SITE_CONFIG.googleAdsenseId && (
+          <script
+            async
+            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${SITE_CONFIG.googleAdsenseId}`}
+            crossOrigin="anonymous"
+          />
+        )}
         <JsonLd data={websiteSchema()} />
         <GoogleAnalytics />
         <Header />

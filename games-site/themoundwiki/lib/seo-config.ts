@@ -14,5 +14,5 @@ export const SITE_CONFIG = {
   locale: 'en_US',
   twitterHandle: '',
   googleAnalyticsId: 'G-KDMF9VH9EZ',
-  googleAdsenseId: '',
+  googleAdsenseId: 'ca-pub-7211682665758448',
 } as const;
