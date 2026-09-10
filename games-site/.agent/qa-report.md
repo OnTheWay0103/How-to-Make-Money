@@ -1077,3 +1077,72 @@ QA deep: 上次 8/25，未超 7 天，跳过
 | grainrotwiki | ✅ SKIP（零变更） | 0 |
 
 **结论**: 9/9 扩充 1/5 有产出（spiritvale account-ban-appeal-guide，结束 5 连 SKIP），已部署线上验证 200；其余 4 站 SKIP（宁缺毋滥，无一处硬写）。连续跳过状态：sephiria 3 连、grainrot 4 连、spiritvale 已归零。4 项 P0 待办（themound 1.04 版本行、tearsofmetal patch-notes 滞后、grainrot v1.07/v1.08+ 人工核验、sephiria 武器材料触发）均已记录，供人工核对或次日触发。QA deep 纪律：上次 9/2，9/9 为第 7 天（未超限）；**9/10 起须触发 full audit**。
+
+---
+
+# QA Report — 2026-09-11（每日扩充 5 站 + QA Deep 9/10 P0 遗留项修复 + 部署脚本修复）
+
+## 执行摘要
+
+- **模式**: QA quick ×（5 扩充站 + 9 站 P0 修复 + 1 站版本一致性），QA deep 状态复核
+- **本轮产出**: 2 站新增攻略（grainrotwiki / sephiriawiki）+ 3 站 SKIP（themound / spiritvale / tearsofmetal，均附 P0 校准）
+- **QA 结果**: **全部 PASS**（0 🔴 阻断遗留；P0 修复 9 站线上验证通过）
+- **一句话结论**: 本轮最大价值不在新增篇数，而在**改掉了 3 处已上线的存量事实错误**（grainrot 联机功能、tearsofmetal 平台/crossplay、themound 跨站机制污染）——这些是既有审计未捕获的错误陈述，直接关系 AdSense「不实陈述」风险。
+
+## 一、扩充站 QA quick（每站独立报告）
+
+| 站点 | 结果 | QA 报告 | 关键动作 |
+|------|:--:|------|------|
+| grainrotwiki | ✅ **EXPANDED** | `.agent/qa-expand-grainrot-9-11.md` | 新增 patch-notes-guide；**事实纠错** multiplayer-matchmaking-guide（v1.07 确已实装 public server browser，原文断言「no public matchmaking has shipped」为错误）+ 3 处衍生引用；页脚/Terms IP 归属修正 |
+| sephiriawiki | ✅ **EXPANDED** | `.agent/qa-expand-sephiria-9-11.md` | 新增 patch-1-0-31-build-changes-guide（1.0.31 = 9/10，官方 news API + RSS 双通道） |
+| sephiriawiki | ✅ **PASS（追加）** | `.agent/qa-expand-sephiria-9-11-version.md` | 跨页版本一致性：20 命中 / 5 文件 → 改 8（「latest build」断言）/ 不改 12（版本史，改则制造错误）；消除今日扩充引入的站内矛盾 |
+| themoundwiki | ✅ **SKIP + P0 7/7** | `.agent/qa-expand-themound-9-11.md` | Patch 1.04 = 8/31（双通道同戳）、新发现 1.05 = 9/9，但第三方零覆盖 → 单通道，严格按 9/9 同一把尺子否决；P0：EX-Mod 跨站污染、5 处 Hugo 式内链、编造地名 Mira Isle、AdSense ID 双源、补丁史 1.01–1.05 |
+| spiritvalewiki | ✅ **SKIP + 线上 🔴 404 修复** | `.agent/qa-expand-spiritvale-9-11.md` | `/guides/tier-list` 线上 404 → slug 修正 + title/description 一并对齐（只换 slug 会引入同类事实不符） |
+| tearsofmetalwiki | ✅ **SKIP + P0 + 🔴 平台纠错** | `.agent/qa-expand-tearsofmetal-9-11.md` | patch-notes 扩为完整版本表 v0.8→v0.14 + 官方路线图（标注「plan, not shipped」）；**纠错 7 文件**「Steam PC-only / no crossplay」= 错误，实际 7/22 首发即 Steam + Microsoft Store + PC Game Pass 且互通 |
+
+## 二、QA Deep 9/10 遗留项修复（FIX-9/11-P0）
+
+9/10 full audit 的 🔴/🟡 项**此前均未修复**（git log 无对应 commit），本轮全部闭环：
+
+| 项 | 站点 | 结果 |
+|------|------|:--:|
+| 页脚 + Terms IP 归属错填（渲染于全站每页 + 法律页） | lunarium / mistfallhunter / shiftatmidnight / taival / bonehold / ironnest | ✅ FIXED |
+| 生产环境渲染 `G-PLACEHOLDER`（每次访问发无效测量 ID） | anomalypresidentwiki | ✅ FIXED |
+| related 悬空 slug（渲染） | relicfirstguardianwiki | ✅ FIXED |
+| README 整篇为他站内容 | minegeonwiki | ✅ FIXED |
+| 跨站机制污染（EX-Mod）/ 5 处 404 内链 / 编造地名 | themoundwiki | ✅ FIXED（并入扩充 Agent） |
+| Footer/Terms 归属错填 | grainrotwiki | ✅ FIXED（并入扩充 Agent） |
+| 线上 404 | spiritvalewiki | ✅ FIXED（并入扩充 Agent） |
+
+**验收方法（MUST 证据链）**: 归属值**未直接采信审计报告**，逐站用 Steam / 官方 / 独立媒体重新核验；线上逐一 `curl` 页脚 + `/terms` 正文确认新值渲染、旧值残留 0。**发现 1 处分歧**：审计写 bonehold 发行商为「Pixel Jackal（+SaikingS）」，外部来源显示发行商**仅 Pixel Jackal**，已按外部来源修正；另发现 mistfallhunter 的 JSON-LD 亦错（审计称「多数正确」的漏网）。报告：`.agent/fix-p0-9-11.md`。
+
+## 三、工具缺陷修复（本轮附带）
+
+`deploy-wiki-site.sh` 的 `VAR=$(... | grep -o ... | head -1)` 在 `set -euo pipefail` 下：grep 无匹配退出 1，且 `head` 提前关管道使 grep 收 SIGPIPE(141)，两者经 pipefail 传播 → **errexit 在脚本自身错误处理之前静默退出**。后果：alias 告警不打印、成功部署被误报失败（9/11 实测 8 个成功部署全报 FAIL；亦为 9/9「40 站误报」的真正机理）。L77/L88 补 `|| true`，已用最小复现验证。规则已入 04 Profile。
+
+## 四、线上内容级验证证据（非仅首页 200）
+
+| 站点 | 验证内容 | 结果 |
+|------|------|:--:|
+| grainrotwiki | 新路由 200 + 5 页文本；页脚/Terms 新值；`Vaulted Sky` 残留 | ✅ 0 残留 |
+| sephiriawiki | 新路由 200 / 70,470 B，19 项特征串全中；版本页 4 页 1.0.31 已渲染、`latest…1.0.30` 残留 0 | ✅ |
+| themoundwiki | 4 页 200；`mira isle\|ex-mod\|themound/content` 合并 | ✅ 0 命中 |
+| spiritvalewiki | home 200 / 7,617 B 含 class-tier-list 链接；`/guides/tier-list` 已无链接 | ✅ |
+| tearsofmetalwiki | 5 页 200；陈旧断言 5 页合并 0；路线图标注已渲染 | ✅ |
+| P0 六站 | 页脚 + Terms 新值渲染、旧值残留 | ✅ 0 残留 |
+| anomalypresidentwiki | `G-PLACEHOLDER` / `googletagmanager` 计数 | ✅ 0 / 0 |
+
+## 五、QA Deep 状态
+
+上次 full audit = **2026-09-10**（Part A 8 站 + Part B 41 站脚本化扫描），距今 **1 天**，**未逾期**，本轮不触发。9/10 报告的遗留项已在本轮闭环（见 §二）。下一轮 deep 触发条件：2026-09-17 后。
+
+## 六、遗留与风险
+
+1. **Reddit 通道连续多日不可用**（`opencli reddit` AUTH_REQUIRED / `/api/me.json` 403，Chrome 未登录）→ 5 站反馈采集均缺该平台维度，如实记录未编造。建议排查登录态。
+2. **tearsofmetalwiki patch-notes 篇幅 1,994 → 3,623 词**，超 800–1500 常规范式；QA 判非 FAIL（hub/tracker 参考页，增量均为任务指定）。若认为过长，建议后续拆出独立 roadmap 页。
+3. **站级渲染文件互相矛盾（未动）**: tearsofmetal `app/page.tsx` 与 `app/faq/page.tsx` 对「village upgrades 是否全队共享」表述冲突 —— 无可靠来源裁决，改动即编造风险，保留待人工。
+4. **spiritvale 0.31.0 长期单源** —— 已声明 developer-published but not player-corroborated，合规审计时保持该口径。
+5. **待触发选题**: spiritvale「交易锁」（需第二独立平台来源，且须与 account-ban-appeal-guide 分工避免自噬）；themound Patch 1.05 语音聊天重做（需第 3 独立来源）；sephiria 武器升级材料刷取（需 ≥2 来源命名一致）。
+6. **crimsonmoon / welcomeelderfield 发售后措辞过期**（9/10 deep 观察项，非阻断）—— 建议排「发售后刷新」专项，本轮未扩大改动面。
+
+**结论**: 5 扩充站全部处置完毕（2 产出 / 3 SKIP，无一处硬写）；QA deep 遗留 🔴 项 100% 闭环并线上验证；新增 3 处存量事实错误修正。**宁缺毋滥纪律保持**。

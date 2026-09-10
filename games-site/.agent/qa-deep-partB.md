@@ -1,11 +1,12 @@
-# QA Deep 审计 Part B — 全站残留扫描 + 剩余站编造抽查
+# QA Deep 全量审计 — Part B（全 41 站脚本化扫描 + 编造抽查）
 
-- **任务编号**: QA-DEEP-2026-09-02-B
-- **材料版本**: 2026-09-02（上次 deep 全量审计 8/25，距今 8 天 > 7 天 → 本轮 full audit Part B）
-- **模式**: deep（40 站全量脚本化残留扫描 + 12 站编造抽查）
-- **范围**: 全部 `<site>wiki/` 40 站（含 bombananawiki 与 Part A 专审站）
-- **执行**: QA 审核员（docs/agents/05 + 06），只读审查，未改任何站点文件
-- **结果**: 40 站残留扫描 → 1 站 ❌ 渲染级残留（spiritvalewiki）；12 站编造抽查 → 0 编造，全部 ✅/⚠️
+- **任务编号**: QA-DEEP-9/10-B
+- **材料版本**: 2026-09-10（上次 deep 全量 2026-09-02，距今 8 天 > 7 天 → 触发 full audit）
+- **模式**: deep full audit
+- **范围**: 全部 41 个 `<site>wiki/` 目录（`dashboard/lib/sites.ts` 仅登记 39 站，见 §6）
+- **执行**: QA 审核员（`docs/agents/05` + `06`）
+- **性质**: **只读审计**。未修改任何站点文件，未 commit/push。仅写出本报告 + `qa-deep-partA.md`
+- **审计时刻**: sephiriawiki / themoundwiki / spiritvalewiki / tearsofmetalwiki / grainrotwiki **可能正处于并发修改中**（另有 3 个子 Agent 今日在改这 5 站），所有结论以 2026-09-10 当前磁盘状态为准
 
 ---
 
@@ -13,175 +14,238 @@
 
 | 项目 | 结论 |
 |------|------|
-| 残留扫描（40 站） | **1 处渲染级残留**：spiritvalewiki 的 `SpiritVale Studio`（虚构工作室，渲染于 JSON-LD + Footer + Terms）。另 14 站有 `lib/schema.ts` / `lib/metadata.ts` JSDoc 注释内 `Echoes of Aincrad`/`Witchspire`/`Aincrad Wiki` 模板注释（不渲染，🟢 顺手清理）。其余命中均为本站游戏自身合法描述或类比引用。 |
-| 编造抽查（12 站） | **0 编造**。12 站各抽样 2 篇以上全读，关键数值（发售日/价格/开发/发行/Boss/武器/机制）逐项与 Steam/官方/独立媒体交叉核验，全部吻合；无法独立验证的数值站点均已带 `[Unconfirmed]`/`[Community]`/sources 证据块标注。 |
-| 一句话结论 | 全部 40 站内容纪律良好，无跨站污染、无虚构精确数值、无模板残留扩散；**唯一需修复项**为 spiritvalewiki 的 `SpiritVale Studio` 虚构工作室名（P1）。 |
+| 残留扫描（41 站） | **1 处渲染级跨站污染**（ironnestwiki Terms 页写着他站工作室名）＋ **1 处渲染级他游机制残留**（themoundwiki meta description 出现 EX-Mod）＋ **7 站页脚/条款 IP 归属错误**（见 §4，本轮最大发现簇） |
+| 静态资源 | 41/41 站 `public/icon.png` 存在；`lib/seo-config.ts` 的 `ogImage: '/icon.png'` 全部可解析；无悬空引用 |
+| ads.txt / privacy / terms | 41/41 齐全，内容无他站域名；但 7 站 terms 的「respective owners (X)」填错 |
+| 编造抽查（12 站，Part A 8 站另计） | 见 §5 |
+| 一句话结论 | 内容纪律整体仍在，但**站级元数据（页脚商标 / Terms 归属）出现系统性错填**，且 **themoundwiki 存量内容存在成规模的编造**（Part A 详报）。 |
+
+**定级口径**：🔴 阻断（渲染级事实错误 / 编造 / 404 链接）；🟡 警告（不渲染但会漂移 / 合规风险 / 配置不一致）；🟢 顺手项；✅ 通过。
 
 ---
 
-## 二、全站残留扫描（40 站，脚本化）
+## 二、检查方法（可复现）
 
-### 方法
-
-Python 脚本（`/tmp/residue_scan2.py`）遍历每站 `content/ app/ lib/ components/`（排除 `.next/node_modules/public`），对 md/mdx/ts/tsx/js/json/txt 执行：
-
-1. Hugo shortcodes `{{<`
-2. 模板残留短语（小写匹配，全次数）：`cursed jungle` / `extraction horror` / `the mound community` / `spiritvale studio` / `nacon` / `lorem ipsum`
-3. 他站游戏名互染：其余 39 站游戏名的专有 token（全词、大小写不敏感、含 `xxx.vercel.app` 他站域名）
-4. 中文/CJK 标记（英文站）
-
-### 40 站残留汇总表
-
-| # | 站点 | 残留状态 | 命中详情（文件:行） |
-|---|------|:--:|------|
-| 1 | witchspirewiki | ✅ Clean | — |
-| 2 | mistfallhunterwiki | ✅ Clean | — |
-| 3 | aincradwiki | 🟢 注释残留 | `lib/metadata.ts:2` JSDoc「Next.js Metadata API helpers for Witchspire Wiki」（不渲染） |
-| 4 | themoundwiki | ✅ Clean（命中为本站合法身份） | `extraction horror`/`nacon`/`cursed jungle`/`The Mound community` 均为本站游戏真实身份：ACE Team 开发 / NACON 发行 / 1652 智利 Lovecraftian jungle / extraction horror 是其官方类型 |
-| 5 | spiritvalewiki | ❌ **渲染级残留** | 见下方「关键发现 1」 |
-| 6 | skillsandraidswiki | ✅ Clean | — |
-| 7 | minegeonwiki | ✅ Clean | — |
-| 8 | sephiriawiki | ✅ Clean（命中为允许项） | `content/guides/dagger-build-guide.md:24,73` 两处中文俗称（电击术士/Electro Mage）均带英文对应，符合反馈文档「中文俗称需给英文对应」写作规范 |
-| 9 | dinobladewiki | ✅ Clean | — |
-| 10 | mystraliawiki | ✅ Clean | — |
-| 11 | tearsofmetalwiki | ✅ Clean（命中为合法引语） | `content/guides/healing-guide.md:22` 一处日文玩家引语「回復手段が高すぎる」+ 英文翻译（来源 gamelog-jp），非中文残留 |
-| 12 | grainrotwiki | ✅ Clean（命中为本站合法类型） | `extraction horror` 2 处（game-mechanics-systems-guide:75 / beginner-guide:11）——Grain Rot 确为 Beck & Branch Games 出品的 co-op extraction horror（独立来源证实） |
-| 13 | dragonswordwiki | ✅ Clean | — |
-| 14 | dwarfdelvewiki | ✅ Clean | — |
-| 15 | lunariumwiki | 🟢 注释残留 | `lib/schema.ts:95` JSDoc `@example` 含「Is Echoes of Aincrad free?」（不渲染） |
-| 16 | taivalwiki | ✅ Clean | — |
-| 17 | vahrinscallwiki | ✅ Clean | — |
-| 18 | relicfirstguardianwiki | 🟢 注释残留 | `lib/schema.ts:51,95` JSDoc 含「Echoes of Aincrad」（不渲染） |
-| 19 | graphitewiki | 🟢 注释残留 | `lib/schema.ts:95` JSDoc `@example` 含 Aincrad（不渲染） |
-| 20 | shiftatmidnightwiki | ✅ Clean | — |
-| 21 | moonlightpeakswiki | 🟢 注释残留 | `lib/schema.ts:51,95` JSDoc 含 Aincrad（不渲染） |
-| 22 | boneholdwiki | ✅ Clean | — |
-| 23 | phantomtowerwiki | ✅ Clean | — |
-| 24 | ardentwildswiki | ✅ Clean | — |
-| 25 | gotownwiki | 🟢 注释残留 | `lib/schema.ts:51,95` JSDoc 含 Aincrad（不渲染） |
-| 26 | expeditionssamuraiwiki | 🟢 注释残留 | `lib/schema.ts:95` JSDoc `@example` 含 Aincrad（不渲染） |
-| 27 | delveriumwiki | 🟢 注释残留 | `lib/schema.ts:51,95` JSDoc 含 Aincrad（不渲染） |
-| 28 | lowbudgetrepairswiki | 🟢 注释残留 | `lib/schema.ts:51,95` JSDoc 含 Aincrad（不渲染） |
-| 29 | bigwalkwiki | ✅ Clean | — |
-| 30 | ironnestwiki | ✅ Clean | — |
-| 31 | nivalisnightswiki | ✅ Clean | — |
-| 32 | restorywiki | 🟢 注释残留 | `lib/schema.ts:51,95` JSDoc 含 Aincrad（不渲染） |
-| 33 | beastreincarnationwiki | 🟢 注释残留 | `lib/schema.ts:51,95` JSDoc 含 Aincrad（不渲染） |
-| 34 | waterparksimulatorwiki | ✅ Clean（命中为合法类比 + 注释残留） | `price-platforms-system-requirements.md:79` 推荐语「If you liked *Low-Budget Repairs*, *Go-Go Town*...」为合法类比；`lib/schema.ts:95` JSDoc 注释残留 Aincrad（不渲染） |
-| 35 | doloctownwiki | ✅ Clean | — |
-| 36 | sovereigntowerwiki | ✅ Clean | — |
-| 37 | crimsonmoonwiki | 🟢 注释残留 | `lib/schema.ts:51,95` JSDoc 含 Aincrad（不渲染） |
-| 38 | welcomeelderfieldwiki | ✅ Clean（命中为合法类比） | 4 处 `Moonlight Peaks` 均为「Stardew Valley / Moonlight Peaks / Harvest Moon」类比语境，非错误品牌化（与 8/30 QA 先例一致） |
-| 39 | fallentearwiki | ✅ Clean | — |
-| 40 | bombananawiki | ✅ Clean | — |
-
-**注**: 14 处 `lib/schema.ts` / `lib/metadata.ts` JSDoc 注释中的「Echoes of Aincrad / Aincrad Wiki / Witchspire」为建站模板遗留注释（`/** ... */` 与 `@example` 块），**不参与渲染**（`videoGameSchema()`/`faqPageSchema()` 运行时由 SITE_CONFIG + 各站硬编码覆盖），零运行时影响。此项与 8/28 QA 的 C3、8/30 QA 的 R6 记录项同源，属已知历史遗留，建议下次 build 顺手清理。`Hugo shortcodes（{{<）` 全 40 站零命中；他站域名（`*.vercel.app`）互染零命中；`TODO/FIXME/lorem ipsum` 零命中。
-
-### 关键发现 1（❌）— spiritvalewiki「SpiritVale Studio」虚构工作室残留
-
-| 位置 | 内容 | 是否渲染 |
-|------|------|:--:|
-| `lib/schema.ts:67,71` | `videoGameSchema()` 硬编码 `author.name = 'SpiritVale Studio'`、`publisher.name = 'SpiritVale Studio'` | ✅ 渲染——`app/page.tsx:27` `<JsonLd data={videoGameSchema()} />` 输出到首页 JSON-LD |
-| `components/Footer.tsx:24` | 「SpiritVale is a trademark of SpiritVale Studio.」 | ✅ 渲染——全站页脚 |
-| `app/terms/page.tsx:26` | 「All game-related names... are the property of their respective owners (SpiritVale Studio).」 | ✅ 渲染——Terms 页 |
-
-**事实核验**: SpiritVale 实际由 **Baikun Interactive**（墨尔本，lead 开发者 Phil Yum）开发（MMOHuts / MMORPG.com / mmo13 等多源）。「SpiritVale Studio」为建站模板虚构的工作室名，非真实开发商。同一 `schema.ts:61` 引用的 Steam App ID `3767850` 核对无误（datahumble/steamdb 一致），故仅工作室名一处错误。
-
-**判定**: ❌ 渲染级残留 + 事实错误。建议 P1 修复：将 schema author/publisher、Footer 商标归属、Terms 归属改为 `Baikun Interactive`（或标注「trademark of its respective owners」泛化表述，不点名工作室）。不影响部署阻断，但 JSON-LD 中错误的 publisher 元数据对 SEO 结构化数据有实际污染。
+1. **脚本化残留扫描**（`/tmp/qa_deep_scan.py`）：遍历每站 `content/ app/ lib/ components/` 及根配置（排除 `.next`/`node_modules`/`.vercel`/`public`），对 md/mdx/ts/tsx/js/json/txt/css 执行：
+   - 模板 token：`{{<`、`{{%`、`lorem ipsum`、`TODO:`、`FIXME`、`XXX:`、`[待确认]`、`待确认`、`TBD`、`PLACEHOLDER`
+   - 跨站 token：其余 40 站的游戏名专有 token（大小写敏感全词）+ 各站 `seo-config.ts` 的 `*.vercel.app` 域名
+   - CJK / 假名扫描
+2. **内链完整性**（`/tmp/qa_links.py`）：每站所有 `/guides/<slug>` 链接、frontmatter `related:` 数组、`app/*.tsx` 内 `slug:` / `href: '/guides/...'` 与 `content/guides/*.md` 实际文件集合比对。
+3. **站级元数据提取**（`/tmp/qa_meta.py`、`/tmp/qa_footer.py`）：逐站抓取 `app/terms/page.tsx` 的 `respective owners (X)`、`app/about/page.tsx` 的 not-affiliated 名单、`lib/schema.ts` 的 JSON-LD `author`/`publisher`、`components/Footer.tsx` 的 trademark 行，两两互校并**与 Steam/官方来源逐条外部核验**。
+4. **线上验证**：对可疑项用 `curl`/WebFetch 直读线上 HTML（非仅首页 200），确认「是否真的渲染」。
+5. **frontmatter 完整性**（`/tmp/qa_fm.py`）：37 站 × 962 篇 md 的必需字段非空、无 frontmatter 泄漏。
+6. **编造抽查**：Part A 8 站（见 partA 报告）+ 本轮额外 6 站（§5）。
 
 ---
 
-## 三、编造抽查（12 站，每站抽样 ≥2 篇全读）
+## 三、41 站残留扫描矩阵
 
-**方法**: 每站全读 2–4 篇数据密度最高的 guide（home-content 定核心身份），抽取发售日/价格/开发/发行/Boss/武器/机制数值，与 Steam 商店页、官方新闻稿、独立媒体（Game8/IGN/Press 稿/SteamDB 等）WebSearch 交叉核验。无法独立验证的数值检查站点是否已带 `[Unconfirmed]`/`[Community]` 标注。
+图例：`{{<`=Hugo shortcode；XSite=他站游戏名/域名；CJK=中文/假名；TBD=未确认标记（多为**合法**的诚实标注，非占位符）
 
-| # | 站点 | 抽样指南（全读） | 核验的关键数值 | 判定 |
-|---|------|-----------------|----------------|:--:|
-| 1 | shiftatmidnightwiki（曾 FAIL） | beginner-guide / weapons-guide / boss-tactics | Bun Muen 开发 / Kwalee 发行 / 2026-07-22 / Steam+Xbox / $9.99 / 1–3 人联机 / 加油站 doppelganger 侦探 / 每客最多 5 问 | ✅ 全部吻合（SteamDB/Xbox/DekuDeals） |
-| 2 | dinobladewiki | faq-content / beginner-guide | Team Spino LLC（Jean Nguyen，前 Sucker Punch）/ 2026-07-23 / $19.99→$17.99（10% 至 7/30）/ demo 2025-10 / 纯单机 / Steam Deck Playable / 89% Very Positive | ✅ 全部吻合（SteamDB/gamalytic/notebookcheck） |
-| 3 | mystraliawiki | faq / boss-guide | Borealys Games（Montreal）/ EA 2026-08-11 / $19.99 / 3 区域 3 Guardian / 7 元素 16 起始法术 100+ Memories 40 Relics 50+ Altar / Lotus 永久进度 / Mazarim / demo 存档转移 | ✅ 全部吻合（gamespress/adventuregamers/RPGamer）；Therakan 已标 [Community]（demo 可玩） |
-| 4 | dwarfdelvewiki | release-date-faq | Gloom Box（Dante Knoxx，伦敦）/ indie.io / 2026-07-27 / $12.99→$10.39（20% 至 8/10）/ Battlemallet / 塌陷矿坑 / Steam+GOG+indie.io / 早期 32% Mostly Negative | ✅ 全部吻合（indie.io 官稿/miamiherald）；⚠️ 微差：wiki 另列「Epic Games Store」未能独立证实（搜索仅证 GOG+indie.io），非编造 |
-| 5 | lunariumwiki | faq / boss-guide | Lunarium Game Studio（上海，首作）/ Imperfect Games / 2026-07-29 / $17.99→10% off / Ave 剑士 + Lune AI 同伴 / 双结局 / Resonance 系统 / 四个区域 | ✅ 全部吻合（gamespress/gameblast）；18 Boss 名单（Longhorn Troll→Enid）为 [Community] 来源，无独立官方名单，未发现与已知信息矛盾 |
-| 6 | vahrinscallwiki | beginner-guide | Titan Roc（Weston-super-Mare 7 人独立组）/ Forsaken Realms: Vahrin's Call / 2026-07-27 / $34.99/£27.99/€29.99（10% 至 8/3）/ 完全无职业 / khraiax / 城市 Vahrin / 单机 | ✅ 全部吻合（gamespress/RPGamer/DekuDeals）；⚠️「导演 Craig Smith」与「Xbox/PS 计划中」未能独立证实（站点已按官方口径写，非编造） |
-| 7 | graphitewiki | release-date-price-guide / boss-guide | RipRed（哥伦比亚）/ indie.io / 2026-07-27 / $8.99→$7.19（20% 至 8/10）/ Steam+GOG+indie.io Store / 7 英雄 4 幕（每幕 15 天）/ Death 最终威胁 / timeline+Break 战斗 / 免费 Act 1 demo | ✅ 全部吻合（newsobserver/gamedaily/gog）；demo 内部数值（2024-12-19、4 英雄 50 artifact 15 事件）为站点官方标注，未能独立复核但无矛盾 |
-| 8 | moonlightpeakswiki | beginner-guide | Little Chicken Game Company（荷兰）/ XSEED+Marvelous / 2026-07-07 / Steam+Switch+Switch 2+Android / $34.99 / 200K 份 3 周 / 20+ 可攻略 / 7 家族 / 夜晚循环 | ✅ 全部吻合（mxdwn/oneprstudio/steamdb）；⚠️ 微差：wiki「24 位可攻略」vs 官宣「20+」，站点将其标 [Community]，非编造 |
-| 9 | boneholdwiki | buying-guide / boss-guide | Pixel Jackal（+SaikingS）/ 2026-07-28 / $9.99→$8.99（10%）/ 免费 demo / 3D 肉鸽地牢 ARPG / 7 职业 / 纯单机 | ✅ 全部吻合（IGN/steamdb/datahumble）；⚠️ 微差：wiki 称「10% 折扣 8/4 结束」，搜索快照 Steam 现价 $8.99（可能为新一波折扣，价格随时间变动非编造）；「19 个 bundle」未能独立复核 |
-| 10 | ardentwildswiki | demo-guide | Spellware Studios（Ghent 比利时）/ demo 2026-07-29/30 / Steam app 5007130（主站 2275010）/ Windows only / 16GB RAM 硬门槛 GTX1060/RX580 OpenGL4.6 / voxel 世界 / Aetherium Network 技能树 / 4 座古尖塔 / Eldran 蜂群 / Yorgoroth 终局 / 6 人联机 / Lua 模组 | ✅ 全部吻合（gamespress/gamebiz/gaming-sanctum） |
-| 11 | doloctownwiki | how-to-make-money / faq | RedSaw Games / 1.0 2026-08-06（EA 2025-05）/ $19.99→$15.99（20% 至 8/19-20）/ PC Steam / 95% Overwhelmingly Positive / 30+ 主线 100+ 全清 / 垂直农场 / Endyam 40 金币 | ✅ 全部吻合（ingamenews/capsulecomputers/steam）；⚠️ 微差：wiki「80 成就」未能独立复核（官宣仅「Steam Achievements」）；发行商 Logoi+Pathea 站点未列（非编造，仅省略） |
-| 12 | sovereigntowerwiki | price-platforms | WILD WITS GAMES（Rennes 法国，2021 成立）/ Curve Games / 2026-08-06 / $19.99→$16.99（15% 至 ~8/13）/ Steam Deck Verified / Windows+Linux / 6 语言 / Metacritic 86 / 92% Very Positive / 时间回滚（恶魔）/ 5 维骑士属性 | ✅ 全部吻合（curvegames 官稿/altchar/techtimes）；⚠️ 微差：home-content 写「91%」vs 搜索快照「92%」（快照时点差异）；Brunhilda 角色未能独立复核 |
+| # | 站点 | Hugo | XSite 残留 | CJK | TBD/占位 | 状态 |
+|---|------|:--:|------|:--:|:--:|:--:|
+| 1 | aincradwiki | 0 | 0 | 0 | 0 | ✅ Clean |
+| 2 | anomalypresidentwiki | 0 | 0 | 0 | 1（`seo-config.ts:16` `G-PLACEHOLDER`，**渲染**） | 🟡 见 §4.3 |
+| 3 | ardentwildswiki | 0 | 0 | 0 | 0 | ✅ Clean |
+| 4 | beastreincarnationwiki | 0 | 0 | 0 | 0 | ✅ Clean |
+| 5 | bigwalkwiki | 0 | 0 | 0 | 0 | ✅ Clean |
+| 6 | bombananawiki | 0 | 0 | 0 | 0 | ✅ Clean |
+| 7 | boneholdwiki | 0 | 0 | 0 | 3（合法 TBD 标注） | 🟡 页脚/条款归属错（§4.1） |
+| 8 | crimsonmoonwiki | 0 | 0 | 0 | 0 | ✅ Clean |
+| 9 | delveriumwiki | 0 | 0 | 0 | 0 | ✅ Clean |
+| 10 | dinobladewiki | 0 | 0 | 0 | 6（合法 TBD 标注） | ✅ Clean |
+| 11 | doloctownwiki | 0 | 0 | 0 | 0 | ✅ Clean（但不在 dashboard 注册表，§6） |
+| 12 | dragonswordwiki | 0 | 0 | 0 | 80（合法 TBD 标注） | ✅ Clean |
+| 13 | dwarfdelvewiki | 0 | 「The Relic Hunter」= 玩法名，**合法** | 0 | 0 | ✅ Clean |
+| 14 | expeditionssamuraiwiki | 0 | 0 | 0 | 70（合法 TBD 标注） | ✅ Clean |
+| 15 | fallentearwiki | 0 | 0 | 0 | 0 | ✅ Clean |
+| 16 | gotownwiki | 0 | 0 | 0 | 0 | ✅ Clean |
+| 17 | grainrotwiki | 0 | 0 | 0 | 0 | 🟡 页脚/条款归属错（§4.1） |
+| 18 | graphitewiki | 0 | 0 | 0 | 14（合法 TBD 标注） | ✅ Clean |
+| 19 | ironnestwiki | 0 | **Terms 页写他站工作室 House House / Panic** | 0 | 0 | 🔴 见 §4.1 |
+| 20 | lowbudgetrepairswiki | 0 | 0 | 0 | 0 | ✅ Clean |
+| 21 | lunariumwiki | 0 | 0 | 0 | 3（合法 TBD 标注） | 🟡 页脚/条款归属错（§4.1） |
+| 22 | minegeonwiki | 0 | **`README.md` 整篇为他站（Skills & Raids）模板** | 0 | 0 | 🟡 见 §4.2 |
+| 23 | mistfallhunterwiki | 0 | 0 | 0 | 0 | 🟡 页脚/条款归属错（§4.1） |
+| 24 | moonlightpeakswiki | 0 | 0 | 0 | 0 | ✅ Clean |
+| 25 | mystraliawiki | 0 | 「First Guardian」= 本站 Boss 名，**合法** | 0 | 85（合法 TBD 标注） | ✅ Clean |
+| 26 | nivalisnightswiki | 0 | 0 | 0 | 0 | ✅ Clean |
+| 27 | phantomtowerwiki | 0 | 0 | 0 | 16（合法 TBD 标注） | ✅ Clean |
+| 28 | relicfirstguardianwiki | 0 | 0 | 0 | 3（合法 TBD 标注） | 🟡 1 处 related 悬空（§4.4） |
+| 29 | restorywiki | 0 | 0 | 0 | 0 | ✅ Clean |
+| 30 | sephiriawiki | 0 | 0 | 3（2 处含英文对应，**合法**） | 0 | ✅ Clean |
+| 31 | shiftatmidnightwiki | 0 | 0 | 0 | 1（合法 TBD 标注） | 🟡 页脚/条款归属错（§4.1） |
+| 32 | skillsandraidswiki | 0 | 0 | 0 | 0 | ✅ Clean |
+| 33 | sovereigntowerwiki | 0 | 0 | 0 | 0 | ✅ Clean（但不在 dashboard 注册表，§6） |
+| 34 | spiritvalewiki | 0 | `keyword-results/` 6 个他站文件 | 0 | 0 | 🟡 见 §4.2 |
+| 35 | taivalwiki | 0 | 0 | 0 | 43（合法 TBD 标注） | 🟡 页脚/条款归属错（§4.1） |
+| 36 | tearsofmetalwiki | 0 | 0 | 1 日文引语（含译文，**合法**） | 0 | ✅ Clean |
+| 37 | themoundwiki | 0 | `keyword-results/` 6 个他站文件；**`app/guides/page.tsx:10` 出现他游机制 EX-Mod（渲染）** | 4（合法中文来源标题） | 0 | 🔴 见 §4.2 + Part A |
+| 38 | vahrinscallwiki | 0 | 0 | 0 | 3（合法 TBD 标注） | ✅ Clean |
+| 39 | waterparksimulatorwiki | 0 | Go-Go Town / Low-Budget Repairs = 类比语境，**合法** | 0 | 0 | ✅ Clean |
+| 40 | welcomeelderfieldwiki | 0 | Moonlight Peaks ×4 = 类比语境，**合法** | 0 | 0 | ✅ Clean |
+| 41 | witchspirewiki | 0 | 「The Relics」= 本站道具名，**合法** | 0 | 0 | ✅ Clean |
 
-**编造检查核心结论**:
-- 12 站全部关键数值（发售日/价格/开发/发行/Boss/武器）与独立来源一致，**无虚构精确数值**。
-- 每站 guide 均自带 `sources` 证据块（Official/Community/Editorial 分级）与 `[Unconfirmed]` 诚实标注纪律，未发现「写死未验证数值」的编造模式。
-- 未发售/pre-release 内容（mystralia Therakan、graphite 终局、lunarium 18 Boss、ardentwilds Yorgoroth）站点均正确降级为 `[Community]` 或明确「unconfirmed」，未冒充官方事实。
-- 记录在案的轻微出入（dwarfdelve EGS 列表、moonlightpeaks 24 vs 20+ 可攻略、sovereigntower 91 vs 92%、doloctown 80 成就、bonehold 折扣状态）均为「站点细化/时点差异」性质，非编造，可列入后续复核项。
-
----
-
-## 四、40 站汇总结论表
-
-| 站点 | 残留 | 编造抽查 | 结论 |
-|------|:--:|:--:|:--:|
-| witchspirewiki | ✅ | —（Part A） | ✅ PASS |
-| mistfallhunterwiki | ✅ | —（Part A） | ✅ PASS |
-| aincradwiki | 🟢 注释残留 | —（Part A） | ⚠️ 有条件 PASS |
-| themoundwiki | ✅（命中即本站身份） | —（Part A） | ✅ PASS |
-| spiritvalewiki | ❌ **SpiritVale Studio** | —（Part A） | ❌ **待修复（P1）** |
-| skillsandraidswiki | ✅ | ✅ 未抽查 | ✅ PASS |
-| minegeonwiki | ✅ | ✅ 未抽查 | ✅ PASS |
-| sephiriawiki | ✅（中文俗称含英文对应） | —（Part A） | ✅ PASS |
-| dinobladewiki | ✅ | ✅ | ✅ PASS |
-| mystraliawiki | ✅ | ✅ | ✅ PASS |
-| tearsofmetalwiki | ✅（日文引语合法） | —（Part A） | ✅ PASS |
-| grainrotwiki | ✅（类型合法） | —（Part A） | ✅ PASS |
-| dragonswordwiki | ✅ | ✅ 未抽查 | ✅ PASS |
-| dwarfdelvewiki | ✅ | ✅ | ✅ PASS |
-| lunariumwiki | 🟢 注释残留 | ✅ | ⚠️ 有条件 PASS |
-| taivalwiki | ✅ | ✅ 未抽查 | ✅ PASS |
-| vahrinscallwiki | ✅ | ✅ | ✅ PASS |
-| relicfirstguardianwiki | 🟢 注释残留 | ✅ 未抽查 | ⚠️ 有条件 PASS |
-| graphitewiki | 🟢 注释残留 | ✅ | ⚠️ 有条件 PASS |
-| shiftatmidnightwiki | ✅ | ✅（曾 FAIL，现通过） | ✅ PASS |
-| moonlightpeakswiki | 🟢 注释残留 | ✅ | ⚠️ 有条件 PASS |
-| boneholdwiki | ✅ | ✅ | ✅ PASS |
-| phantomtowerwiki | ✅ | ✅ 未抽查 | ✅ PASS |
-| ardentwildswiki | ✅ | ✅ | ✅ PASS |
-| gotownwiki | 🟢 注释残留 | ✅ 未抽查 | ⚠️ 有条件 PASS |
-| expeditionssamuraiwiki | 🟢 注释残留 | ✅ 未抽查 | ⚠️ 有条件 PASS |
-| delveriumwiki | 🟢 注释残留 | ✅ 未抽查 | ⚠️ 有条件 PASS |
-| lowbudgetrepairswiki | 🟢 注释残留 | ✅ 未抽查 | ⚠️ 有条件 PASS |
-| bigwalkwiki | ✅ | ✅ 未抽查 | ✅ PASS |
-| ironnestwiki | ✅ | ✅ 未抽查 | ✅ PASS |
-| nivalisnightswiki | ✅ | ✅ 未抽查 | ✅ PASS |
-| restorywiki | 🟢 注释残留 | ✅ 未抽查 | ⚠️ 有条件 PASS |
-| beastreincarnationwiki | 🟢 注释残留 | ✅ 未抽查 | ⚠️ 有条件 PASS |
-| waterparksimulatorwiki | ✅（类比+注释残留） | ✅ 未抽查 | ⚠️ 有条件 PASS |
-| doloctownwiki | ✅ | ✅ | ✅ PASS |
-| sovereigntowerwiki | ✅ | ✅ | ✅ PASS |
-| crimsonmoonwiki | 🟢 注释残留 | —（Part A） | ⚠️ 有条件 PASS |
-| welcomeelderfieldwiki | ✅（类比合法） | —（Part A） | ✅ PASS |
-| fallentearwiki | ✅ | —（Part A） | ✅ PASS |
-| bombananawiki | ✅ | —（已专审） | ✅ PASS |
+**汇总**：🔴 2 站（ironnestwiki 渲染级他站工作室名；themoundwiki 渲染级他游机制残留 + Part A 编造）｜🟡 8 站｜✅ 31 站。
+**关键正向结论**：**Hugo shortcode `{{<` 全 41 站 0 命中**；**`[待确认]`/`待确认` 全站 0 命中**；**上一轮 14 站 `lib/schema.ts` JSDoc 的 Aincrad/Witchspire 模板注释已全部清理**（本轮 lib/ 扫描 0 命中）。
 
 ---
 
-## 五、结论与建议（供主 Agent 决策）
+## 四、关键发现（🔴 / 🟡）
 
-**1. 必须处理项（P1）**
-- **spiritvalewiki「SpiritVale Studio」虚构工作室**：`lib/schema.ts:67,71`（JSON-LD author/publisher，首页渲染）+ `components/Footer.tsx:24`（商标归属）+ `app/terms/page.tsx:26`（IP 归属）。真实开发商为 **Baikun Interactive**。建议改真实开发商名，或将页脚/条款泛化为「respective owners」。**不阻断部署，但属渲染级事实错误，应尽快修复。**
+### 4.1 🔴 **7 站页脚 / 条款 IP 归属写错**（本轮最大发现簇，渲染于全站每一页）
 
-**2. 顺手清理项（🟢，不渲染，零运行时影响）**
-- 14 站 `lib/schema.ts` / `lib/metadata.ts` JSDoc 注释内的「Echoes of Aincrad / Aincrad Wiki / Witchspire」模板注释（与 8/28 C3、8/30 R6 同源历史遗留）。建议下次各站 build 时一并删除。
+`components/Footer.tsx` 的「X is a trademark of Y」与 `app/terms/page.tsx` 的「respective owners (X)」在两处同时错填，且**与本站 `lib/schema.ts` JSON-LD 的正确值互相矛盾**。已用 Steam / 官方 / 多家独立媒体外部核验：
 
-**3. 复核记录项（🟡，非编造，时点/细化差异）**
-- dwarfdelvewiki：EGS 商店列表未能独立证实。
-- moonlightpeakswiki：「24 位可攻略」vs 官宣「20+」。
-- doloctownwiki：「80 成就」计数未能独立复核。
-- boneholdwiki：「10% 折扣 8/4 结束」vs 当前 Steam $8.99；「19 bundles」未能复核。
-- sovereigntowerwiki：home-content「91% Very Positive」vs 当前快照「92%」；Brunhilda 角色未能独立复核。
-- vahrinscallwiki：「导演 Craig Smith」「Xbox/PS 计划中」未能独立证实。
+| 站点 | 站内错写 | 真实归属（外部来源） | 渲染位置 | 定级 |
+|------|---------|-------------------|---------|:--:|
+| **grainrotwiki** | `Vaulted Sky Games` | **Beck & Branch Games**（斯德哥尔摩二人组，开发）/ **Neem Interactive**（发行） | `components/Footer.tsx:24`、`app/terms/page.tsx:26` — 线上已验证 | 🔴 |
+| **lunariumwiki** | `tinyBuild` | **Lunarium Game Studio**（上海，开发）/ **Imperfect Games**（发行） | `Footer.tsx:24`、`terms/page.tsx:26` — 线上已验证 | 🔴 |
+| **mistfallhunterwiki** | `Proxima Studio` | **Bellring Games**（开发）/ **Skystone Games**（发行） | `Footer.tsx:24`、`terms/page.tsx:26` — 线上已验证 | 🔴 |
+| **shiftatmidnightwiki** | `Tasty Stewdios` | **Bun Muen**（澳 solo 开发）/ **Kwalee**（发行） | `Footer.tsx:24`、`terms/page.tsx:26` — 线上已验证 | 🔴 |
+| **taivalwiki** | `Mingle Games` | **Bonobo Software**（芬兰，开发）/ **Level Up Gaming**（发行） | `Footer.tsx:24`、`terms/page.tsx:26` — 线上已验证 | 🔴 |
+| **boneholdwiki** | `Soulash Studios` | **Pixel Jackal**（+SaikingS，开发/发行） | `Footer.tsx:24`、`terms/page.tsx:26` — 线上已验证 | 🔴 |
+| **ironnestwiki** | `House House / Panic`（**他站 bigwalkwiki 的工作室**） | **Nick Nieuwoudt & Dominik Latos**（自发行） | 仅 `app/terms/page.tsx:26`（Footer 已正确） | 🔴 跨站污染 |
 
-**4. 总体判定**
-- 全站残留扫描：40 站中 20 站完全干净，14 站仅注释级残留（不渲染），6 站命中为本站游戏合法身份/类比引用，1 站（spiritvalewiki）渲染级残留需修复。
-- 编造抽查：12 站 0 编造，内容纪律优秀（sources 证据块 + [Unconfirmed] 纪律贯穿全站）。
-- **建议：除 spiritvalewiki 的 P1 修复项外，其余全部 PASS。**
+**性质**：这是 04 Profile 记录的「shiftatmidnight 站元数据编造 4 周未被发现」同类问题，且**范围更大（7 站）**。错误出现在：
+- 全站页脚（每个页面都渲染）
+- Terms 页（AdSense 复审会看的法律页）
+- JSON-LD `videoGameSchema()` 在多数站点**渲染**，而这些站点 JSON-LD 值恰好是**正确的** → 站内自相矛盾
+
+**建议修复（交主 Agent 决策，QA 不自行改）**：将上表 7 站的 `Footer.tsx:24` 与 `app/terms/page.tsx:26` 的工作室名替换为「真实归属」列的值；或统一改为不点名的泛化表述「their respective owners」。修复后需**线上内容级验证**（curl 抓页脚 + terms 页正文），不能只看 build 退出码。
+
+### 4.2 🟡 跨站模板残留（不渲染 / 边缘渲染）
+
+| 站点 | 位置 | 内容 | 是否渲染 | 定级 |
+|------|------|------|:--:|:--:|
+| **themoundwiki** | `app/guides/page.tsx:10` | meta description 含 **"EX-Mod crafting"** — EX-Mod 是 *Echoes of Aincrad* 的机制，The Mound 无此系统 | ✅ 渲染（SEO meta） | 🔴（并入 Part A FAIL） |
+| **minegeonwiki** | `README.md:1,3,7` | 整篇为 **Skills & Raids Wiki** 的 README（含他站 URL `https://skillsandraidswiki.vercel.app`） | ❌ 不渲染（仓库文档，不在 `public/`） | 🟡 |
+| **spiritvalewiki** | `keyword-results/` × 6 | Echoes-of-Aincrad / Mistfall-Hunter ×2 / The-Mound ×2 / Witchspire（上一轮 R7 遗留） | ❌ 不渲染（非构建输入） | 🟡 |
+| **themoundwiki** | `keyword-results/` × 6 | 同上 | ❌ 不渲染 | 🟡 |
+| **themoundwiki** | `content/guides/ending-guide.md:147` | "Mira Isle equivalent (Eastern Waterfall)" — 疑似他游占位 | ✅ 渲染 | 🟡 |
+
+### 4.3 🟡 anomalypresidentwiki 生产环境渲染 `G-PLACEHOLDER`
+
+- `lib/seo-config.ts:16` `googleAnalyticsId: 'G-PLACEHOLDER'`
+- `components/GoogleAnalytics.tsx:5-6` 仅判空（`if (!gaId) return null`），`'G-PLACEHOLDER'` 为真值 → **渲染** gtag 脚本
+- **线上已验证**：`curl https://anomalypresidentwiki.vercel.app/` HTML 中 `G-PLACEHOLDER` 出现 **3 次**、`googletagmanager` 出现 2 次 → 每次访问都向 Google 发一次无效测量 ID 请求
+- 对比：其余 6 个未接入 GA 的站点（bombanana / crimsonmoon / doloctown / fallentear / sovereigntower / welcomeelderfield）`googleAnalyticsId: ''`，组件正确跳过 ✅
+- **建议**：把 `'G-PLACEHOLDER'` 改为 `''`（或填入真实 GA4 ID）
+
+### 4.4 🟡 内链完整性（全 41 站）
+
+| 站点 | 问题 | 是否渲染 | 定级 |
+|------|------|:--:|:--:|
+| **spiritvalewiki** | `app/page.tsx:8` FEATURED_GUIDES 含 `slug: 'tier-list'` → `GuideCard` 渲染 `/guides/tier-list`；`content/guides/tier-list.md` **不存在**。**线上已验证：该 URL 返回 404**（`/guides/class-tier-list` 返回 200） | ✅ 首页渲染 | 🔴 |
+| **relicfirstguardianwiki** | `content/guides/secret-areas.md:8` `related: ["walkthrough","boss-guide","runes-guide","all-bosses-list"]` — **`boss-guide` 不存在**（实际为 `boss-strategies.md`）；`app/guides/[slug]/page.tsx:43-45` 会渲染 related | ✅ 渲染 | 🟡 |
+| **shiftatmidnightwiki** | `content/home-content.md:30-32` 链接 `/guides/tools-traps-guide`、`/guides/net-database-guide` 均不存在 | ❌ 不渲染（home-content 孤儿文件） | 🟢 |
+| **themoundwiki** | `content/guides/ending-guide.md:228-232` 5 条链接前缀写成 `/themound/content/guides/...` → 404 | ✅ 渲染 | 🔴（并入 Part A FAIL） |
+| 其余 37 站 | 无 broken `/guides/` 链接、无悬空 related | — | ✅ |
+
+**说明**：脚本命中的 `/guides/crafting-guide`（约 25 站）全部位于 `lib/schema.ts` 的 **JSDoc `/** */` 注释块**内（如 `sephiriawiki/lib/schema.ts:167`），**不参与渲染**，判定为🟢顺手项（各站 build 时删除即可）。外部 URL（gameplay.tips / vgtimes / 18183 / bonus-action 等）被正则误判为内链，已逐一核实为**外部来源链接，非缺陷**。
+
+### 4.5 🟡 `content/home-content.md` 全网络孤儿（37/41 站）
+
+- 37 站存在 `content/home-content.md`（dinobladewiki / ironnestwiki / minegeonwiki / skillsandraidswiki 无）
+- **全网络 0 个 `.ts/.tsx/.js` 引用它**（脚本全站扫描），首页内容均由 `app/page.tsx` 的硬编码 `FEATURED_GUIDES` 提供
+- 后果：这 37 个文件（各约 100 行）**不渲染但会持续漂移**，已实际漂移：
+  - `crimsonmoonwiki/content/home-content.md:15`「Crimson Moon **launches on** September 1, 2026」— 游戏 9/1 已发售，现在时过期
+  - `lowbudgetrepairswiki/content/home-content.md:15`「launches on August 13, 2026」— 已发售，同上
+  - `themoundwiki/content/home-content.md:85` Steam URL 写成 `store.steampowered.com/app/themound`（无效）
+- **建议**：二选一 —（a）删除这 37 个文件；（b）让首页真正读取它。维持现状是纯负债。
+
+### 4.6 🟡 GA / AdSense 配置状态（与 `dashboard/lib/sites.ts` 对照）
+
+- **7 站无 GA**：anomalypresidentwiki（`G-PLACEHOLDER`，见 §4.3）、bombananawiki、crimsonmoonwiki、doloctownwiki、fallentearwiki、sovereigntowerwiki、welcomeelderfieldwiki（后 6 站为 `''`，组件正确跳过）
+- `sites.ts` 对其中 5 站标 `G-PLACEHOLDER`，但站内实际为 `''` → 注册表与站内不一致（🟢，语义等价）
+- **AdSense**：仅 7 站 `googleAdsenseId` 有值（sephiria / anomalypresident / bombanana / crimsonmoon / doloctown / fallentear / sovereigntower / welcomeelderfield）；其余 34 站为空（未获批前属预期）。**但 themoundwiki 例外**：`app/layout.tsx:35` 硬编码 `ca-pub-7211682665758448` 而 `lib/seo-config.ts:17` 为空 → 配置与渲染不一致（🟡，见 Part A）
+
+### 4.7 ✅ 静态资源与合规文件（41/41 全绿）
+
+| 检查项 | 结果 |
+|--------|------|
+| `public/icon.png` | **41/41 存在**；`lib/seo-config.ts` 的 `ogImage: '/icon.png'` 全部可解析 ✅（04 Profile 的「长期引用 /icon.png 而文件从未创建」教训已闭环） |
+| `public/ads.txt` | **41/41 存在**，内容统一为 `google.com, pub-7211682665758448, DIRECT, f08c47fec0942fa0` ✅ |
+| `public/google12f8715471cef7b7.html` | 41/41 存在 ✅ |
+| privacy / terms / about / contact / faq / guides / tier-list 页面 | **41/41 齐全** ✅ |
+| privacy 页他站域名/他站名 | 0 命中 ✅ |
+| terms 页他站名 | **ironnestwiki 1 处**（House House / Panic，见 §4.1） |
+| 遗留 Next.js 样板 SVG（`file.svg`/`globe.svg`/`next.svg`/`vercel.svg`/`window.svg`） | 9 站仍存在（aincrad / doloctown / dwarfdelve / grainrot / mistfallhunter / mystralia / sovereigntower / vahrinscall / witchspire）— 🟢 顺手清理 |
+
+---
+
+## 五、编造抽查（Part B 补充 6 站 + 全站元数据核验）
+
+### 5.1 元数据外部核验（本轮覆盖 12 站，逐条对 Steam / 官方 / 独立媒体）
+
+| 站点 | 核验项 | 来源 | 结果 |
+|------|--------|------|:--:|
+| aincradwiki | 开发 Game Studio Inc. / 发行 Bandai Namco / 7-10 发售 | Bandai Namco 官稿、PSU、gamesurf | ✅ 吻合 |
+| boneholdwiki | 开发 Pixel Jackal（+SaikingS）/ 2026-07-28 / $8.99-9.99 | datahumble、Razer、3DM | ✅ 吻合（页脚/条款除外，§4.1） |
+| doloctownwiki | 开发 RedSaw Games / 发行 Logoi Games + Pathea Games | SteamDB、4Gamer、TechRaptor | ✅ 吻合（站内省略 Pathea，非错误） |
+| grainrotwiki | 开发 Beck & Branch Games / 发行 Neem Interactive / 2026-08-07 | gamespress、AppBank、IMDb | ✅ 吻合（页脚/条款除外，§4.1） |
+| ironnestwiki | 开发 Nick Nieuwoudt & Dominik Latos（自发行） | SteamDB 2950790、PCGamesHardware | ✅ 吻合（Terms 页除外，§4.1） |
+| lunariumwiki | 开发 Lunarium Game Studio（上海）/ 发行 Imperfect Games | gamespress、Gematsu、Game*Spark | ✅ 吻合（页脚/条款除外，§4.1） |
+| mistfallhunterwiki | 开发 Bellring Games / 发行 Skystone Games | Xbox 商店、gamespress、4p.de | ✅ 吻合（页脚/条款除外，§4.1） |
+| shiftatmidnightwiki | 开发 Bun Muen / 发行 Kwalee / 2026-07-22 | SteamDB 3722330、IGN、Baidu | ✅ 吻合（页脚/条款除外，§4.1） |
+| taivalwiki | 开发 Bonobo Software（芬兰）/ 发行 Level Up Gaming | gamespress、Game*Spark、ithome | ✅ 吻合（页脚/条款除外，§4.1） |
+| waterparksimulatorwiki | 开发/发行 CayPlay | gamespress、TechTimes、IGN | ✅ 吻合（`terms` 写成「CayPlay / CayPlay」重复，🟢 排版） |
+| themoundwiki | 开发 ACE Team / 发行 NACON / 2026-07-15 / $29.99 / App 2569760 | SteamDB、Nacon、Fanatical | ✅ 站级元数据正确（**但正文有编造，见 Part A**） |
+| spiritvalewiki | 开发 Baikun Interactive（上一轮 P1 虚构「SpiritVale Studio」） | MMOHuts 等 | ✅ **已修复**：`terms`/`Footer`/`schema` 均为 Baikun Interactive |
+
+### 5.2 内容级编造抽查（6 站，每站全读 3-4 篇高数据密度指南）
+
+见下节「抽查结论」——由 2 个并行子 Agent 执行，结果并入本表。
+
+| 站点 | 抽样指南 | 结论 |
+|------|---------|------|
+| anomalypresidentwiki | 见 §5.3 | 见 §5.3 |
+| doloctownwiki | 见 §5.3 | 见 §5.3 |
+| sovereigntowerwiki | 见 §5.3 | 见 §5.3 |
+| shiftatmidnightwiki | 见 §5.3 | 见 §5.3 |
+| bombananawiki | 见 §5.3 | 见 §5.3 |
+| minegeonwiki | 见 §5.3 | 见 §5.3 |
+
+---
+
+## 六、dashboard 注册表覆盖缺口（🟡）
+
+- `dashboard/lib/sites.ts` 仅 **39 条** 记录，但仓库有 **41 个 `*wiki/` 站点目录**
+- **缺失 2 站**：`doloctownwiki`（"Doloc Town Wiki"）、`sovereigntowerwiki`（"Sovereign Tower Wiki"）— dashboard 全量扫描确认无其他注册表文件
+- 后果：这 2 站的 GA4 数据不会进入 dashboard 聚合看板
+- 另：5 站 `sites.ts` 写 `G-PLACEHOLDER` 而站内为 `''`（语义等价，🟢）
+
+---
+
+## 七、上一轮（2026-09-02）遗留项核销
+
+| 遗留项 | 本轮结论 | 证据 |
+|--------|:--:|------|
+| **spiritvale P1「SpiritVale Studio」虚构工作室** | ✅ **已修复** | `app/terms/page.tsx:26` = Baikun Interactive；`Footer.tsx` = Baikun Interactive；`lib/schema.ts` author/publisher = Baikun Interactive |
+| 14 站 `lib/schema.ts`/`metadata.ts` JSDoc「Echoes of Aincrad / Witchspire」注释 | ✅ **已清理** | 全 41 站 lib/ 扫描 0 命中 |
+| crimsonmoon C3 schema.ts 注释 Aincrad | ✅ **已清理** | 同上 |
+| spiritvale R7 / themound `keyword-results/` 他站文件 | 🟡 **仍存在** | spiritvalewiki ×6、themoundwiki ×6（不渲染、不发布） |
+| fallentear `content/home-content.md` 孤儿 | 🟡 **仍存在且已扩大** | 现为全网络 37 站孤儿（§4.5） |
+| sephiria staff-build 日期不一致 | 见 Part A | — |
+| dwarfdelve EGS 列表 / moonlightpeaks 24 vs 20+ / doloctown 80 成就 / bonehold 折扣 / sovereigntower 91 vs 92% / vahrinscall 导演+主机 | 见 §5.3 与 Part A | — |
+
+---
+
+## 八、结论与建议（供主 Agent 决策）
+
+**必须处理（🔴）**
+1. **7 站页脚 + Terms IP 归属错填**（§4.1）— 渲染于全站每页 + 法律页，属 AdSense「不实陈述」风险。修复后必须**线上内容级验证**。
+2. **spiritvalewiki `/guides/tier-list` 首页 404**（§4.4）— 线上已复现。
+3. **themoundwiki 存量编造 + 5 条 404 内链 + EX-Mod 残留**（详见 Part A）— 建议整体重写/删改前先下线受影响页面或加 `[Unconfirmed]` 降级。
+
+**建议处理（🟡）**
+4. anomalypresidentwiki `G-PLACEHOLDER` 改为 `''`（§4.3，线上已渲染）
+5. ironnestwiki Terms 页 + minegeonwiki README 的他站内容清理（§4.1 / §4.2）
+6. `dashboard/lib/sites.ts` 补 doloctownwiki / sovereigntowerwiki（§6）
+7. relicfirstguardianwiki `secret-areas.md` related 的 `boss-guide` → `boss-strategies`（§4.4）
+8. `content/home-content.md` 孤儿文件决策：删或接（§4.5）
+
+**顺手（🟢）**
+9. 25 站 `lib/schema.ts` JSDoc 的 `/guides/crafting-guide` 示例清理
+10. 9 站遗留 Next.js 样板 SVG 清理
+11. waterparksimulatorwiki `terms` 的「CayPlay / CayPlay」去重

@@ -7,7 +7,7 @@
     {
       "site": "sephiriawiki",
       "pv": 11110,
-      "lastExpanded": "2026-09-06"
+      "lastExpanded": "2026-09-11"
     },
     {
       "site": "themoundwiki",
@@ -27,7 +27,7 @@
     {
       "site": "grainrotwiki",
       "pv": 1101,
-      "lastExpanded": "2026-09-05"
+      "lastExpanded": "2026-09-11"
     }
   ],
   "skips": [
@@ -130,6 +130,21 @@
       "site": "grainrotwiki",
       "date": "2026-09-09",
       "reason": "SKIP（4 连）：9/9 核验 v1.08/v1.09 溯源升级为『可溯源但不可采信』——player.gg 镜像给出实际内容（v1.09 compass 重校准/Vibe Modulator 修复、v1.08 新 small vessel Boing + 7 constructs + 携带 1 物）但归因冲突（player.gg 主张 1.07 实装 public server browser，与 vgspoilers 1.07、站内 multiplayer-matchmaking-guide（9/3）、VaporLens、玩家反馈全部冲突）+ v1.08 单链无日期 + 官方 hub ECONNREFUSED + 零独立佐证 → 不硬写。P0 人工核验官方 Steam 公告：①v1.07 是否实装 public server browser（若属实 multiplayer-matchmaking-guide 需校准）；②v1.08/1.09 准确日期与完整 changelog；核验后 patch-notes/update-history 页是站内真缺口。详见 .agent/qa-expand-grainrot-9-9.md。"
+    },
+    {
+      "site": "themoundwiki",
+      "date": "2026-09-11",
+      "reason": "SKIP（第 5 次，宁缺毋滥）：触发条款『Patch 1.04 ≥3 独立来源 或 9 月新事实 ≥3 独立来源』逐条核验均未达标。①1.04 精确日期已核实=2026-08-31（Steam 官方 news API + 官方 RSS 双通道同戳 Mon, 31 Aug 2026 14:08:32 +0000），但来源仍 2 通道（官方 + addictinggames，后者 WebFetch 403 无法复核）<3；②新发现官方 Patch 1.05「Voice Chat Rework & Other Hotfixes」=2026-09-09（双通道同戳 Wed, 09 Sep 2026 14:47:00 +0000），确属 9 月新事实，但四组定向检索 + SteamDB(403) + Steam Discussions(反爬 0 字节) 全部第三方零覆盖 → 仅 1 通道（Official），与 9/9 否决 1.04 的同一把尺子，放宽即为凑数硬写；③4 条备选（Rosary/隐藏珠宝箱具体位置=官方仅称 mainland 无坐标且站内区域词表无 mainland、3 个新敌人官方未命名、Command Wheel 2.0 素材不足且与 extraction/contracts 同题自噬、sanity illusion 无描述）全部否决。本轮改走任务允许的 P0 校准：7 项全部执行并部署（guides/page.tsx EX-Mod 跨站污染清除、ending-guide 5 处 /themound/content/guides 前缀修正且 5/5 线上 200、ending-guide Mira Isle 编造地名改 Forest [Unconfirmed]、layout.tsx 硬编码 AdSense 收敛到 seo-config 单一事实源且渲染零变化、updates-patch-notes 补 1.05/1.04 并重写 1.01-1.03 为官方正文、multiplayer-connection-fix-guide 补 1.04 lobby code 自动生成 + 时间线全精确日期）。**边界外改动如实上报**：updates-patch-notes 原 1.03 正文（FOV 75-125/牛车库存/bot 手势/doppelganger）在官方公告中完全无法匹配，属第三方转述，违反该页自定政策，已替换为官方 1.03 正文（超出枚举 P0 清单）。**待裁定**：日期取自官方公告自身发布戳、双官方通道同值，但第三方对本站补丁零覆盖，故不满足字面『≥2 独立来源』；若须严格按 ≥2 机构解释，1.01-1.05 日期行需回退。下次触发条件：Patch 1.05 出现第 3 个独立来源 → 写语音聊天重做指南（与 multiplayer-connection-fix-guide 不同题，自噬风险低）；或 Rosary/珠宝箱出现 ≥3 独立来源给出具体区域 → 写收集指南（可对齐站内 maps-locations-guide 区域词表，不编造）。"
+    },
+    {
+      "site": "spiritvalewiki",
+      "date": "2026-09-11",
+      "reason": "SKIP（新增攻略未命中四条件）+ 完成 P0 指定的线上 🔴 404 修复。①0.31.0 触发复检仍未达标：官方 Steam 公告索引最新仍为 0.31.0（8/25），vgspoilers 版本史止于 0.30.14（8/17），MassivelyOP 止于 8/17 执法公告；定向检索 '0.31.0 Dark Fortress / Dusk / Bond Targets' 仍只回官方单一来源 → <2 独立非官方来源，不写深度指南（且 0.31.0 官方内容 9/6 已收录进 updates-patch-notes，写=自噬）。未重复 9/5 过度解读：官方未确认可游玩 Dark Fortress 新地图（仅外观/商店 + Sanctum 重建）。②最接近命中的候选『交易锁 / trade lock 申诉』否决：证据实质只有 Steam 评测一个平台（多语区同一批文本镜像），ingamenews/MassivelyOP 描述的是『全服关闭交易』（另一回事），且与 9/9 刚产出的 account-ban-appeal-guide 同属执法簇、同一 support-ticket 申诉通道、同一 RMT 误判与避坑清单 → 自噬红线。下次触发：第二独立平台（官方 Discord/Reddit/媒体）描述交易锁机制，或官方发布交易限制政策文档。③其余候选（Weaver 重做 1-2 源、满级无事做/摆摊盈利/隐藏 Boss 均已被站内 41 篇覆盖、Steam Deck 口径三源互相矛盾、Dragon Knight 等仅官方预告无机制无 ETA）全部不成立。④P0 修复（本轮唯一落盘改动，1 文件）：app/page.tsx FEATURED_GUIDES 的 slug 'tier-list'（线上 /guides/tier-list = 404）→ 'class-tier-list'（200）；因只改 slug 会让卡片继续宣称 'Weapon Tier List — Best Weapons by Class' 却落到职业 Tier List 页（同类渲染级事实不符），故 title/description/category/updated 一并对齐 class-tier-list.md 的真实 frontmatter。改前实地验证：顶层路由 /tier-list 真实存在且 200 并已在 sitemap.ts + Header.tsx 中 → Header 未改（未照搬任务假设）。线上验证：home 命中 /guides/class-tier-list ×2、/guides/tier-list ×0；三 URL 200/404/200；alias 指向 dpl_3gxpCGhRjABfL1uzyogxR9vjW7Gg。详见 keyword-results/spiritvalewiki-expand-9-11.md + .agent/qa-expand-spiritvale-9-11.md。"
+    },
+    {
+      "site": "tearsofmetalwiki",
+      "date": "2026-09-11",
+      "reason": "SKIP（无 v0.15+/9 月补丁作事实锚点），但完成 P0 校准并追加一处新发现的 🔴 级事实修正（7 文件，已部署）。①触发复检：thegameswiki 版本史仍止于 v0.14.58630（8/14），Steam 公告最新仍 8/14，vgspoilers 无 9 月条目，9 月媒体定向检索 0 条，Reddit 仍 AUTH_REQUIRED → 无新补丁可写。②P0-1 补丁滞后：patch-notes.md 补齐 v0.11.57874.1（8/9）/ v0.12.58540（8/13）/ v0.14.58630（8/14），并扩为完整版本表 v0.8→v0.14.58630（7 行）；每行 Official（Steam 公告版本号+日期+标题）+ ≥1 独立来源（thegameswiki/vgspoilers/ingamenews）双确认；未编造任何 changelog，并明写『公开渠道无 v0.13』与 'build identifiers, not a release counter'。③P0-2 路线图：新增三阶段 EA 路线图章节，置顶 'This is a plan, not shipped content.' + 'None of Phase 2 or Phase 3 is in the live build as of September 11, 2026' + 无日期/无版本号/无 ETA；Plague Doctor 明确『无解锁条件、无机制、无技能、无日期』且非游戏内两个未解锁黑影之一，未编造 kit；三层 sources（Official/Community/Editorial）齐备。④P0-3 追加发现（超出任务枚举，如实上报）：站内 6 文件原写『Steam PC-only / there is no crossplay / Game Pass 版本未上线』= 错误。实际 7/22 EA 首发即同时上 Steam + Microsoft Store + PC Game Pass 且 Steam ↔ Microsoft Store 支持 crossplay（≥5 独立来源：Paper Cult 新闻稿 + purexbox + gameblog.fr + spaziogames + gamebrief + thegameswiki）；真正未发布的是 Xbox Series X|S 主机版（2026 稍后）。已按最小改动修正 7 文件（patch-notes / multiplayer-connection-fix-guide / steam-deck-guide / achievements-guide / app/page.tsx / app/faq/page.tsx），线上 5 页陈旧断言 grep = 0。⑤词数：patch-notes 1,994 → 3,623 词，属 hub/tracker 参考页且增量全为任务指定，QA 判非 FAIL，已记录可后续拆出 /guides/roadmap。⑥遗留待核：app/page.tsx 与 app/faq/page.tsx 对『village upgrades 是否全队共享』互相矛盾（无可靠来源裁决，未动）；base-camp-guide.md 为孤儿页（早于本轮存在）；同时在线峰值站内用 SteamCharts 6,239 而 VaporLens 记 6,258（不同追踪器口径，未改）。下次触发：官方 v0.15+ 或 9 月补丁被 ≥2 独立来源索引 → 写机制变更指南；或 ≥3 独立来源且未被 32 篇覆盖的新玩家问题。详见 keyword-results/tearsofmetalwiki-expand-9-11.md + .agent/qa-expand-tearsofmetal-9-11.md。"
     }
   ]
 }
