@@ -74,7 +74,10 @@ if [ $DEPLOY_EXIT -ne 0 ]; then
 fi
 
 # 2b. 从输出捕获新部署 URL；拿不到就失败（不静默继续）
-NEW_URL=$(grep -o 'https://[a-z0-9-]*\.vercel\.app' "$DEPLOY_LOG" | head -1)
+# ⚠️ 末尾 `|| true` 必需：set -euo pipefail 下 grep 无匹配（或 head 提前关闭管道
+#    致 grep 收 SIGPIPE）都会让命令替换非零 → errexit 在错误处理之前静默退出。
+#    2026-09-11 教训：alias 校验行的同一缺陷把 8 个实际成功的部署误报为 FAIL。
+NEW_URL=$(grep -o 'https://[a-z0-9-]*\.vercel\.app' "$DEPLOY_LOG" | head -1 || true)
 if [[ -z "$NEW_URL" ]]; then
   echo "❌ 部署输出中未找到新 deployment URL，输出末尾："
   tail -20 "$DEPLOY_LOG"
@@ -85,7 +88,7 @@ echo "  新部署: $NEW_URL"
 
 # 3. 验证生产 alias 已指向新部署（而非只查首页 200——旧部署同样返回 200）
 sleep 5
-ALIAS_URL=$(vercel inspect "$PROJECT_NAME.vercel.app" 2>/dev/null | grep -o 'https://[a-z0-9-]*\.vercel\.app' | head -1)
+ALIAS_URL=$(vercel inspect "$PROJECT_NAME.vercel.app" 2>/dev/null | grep -o 'https://[a-z0-9-]*\.vercel\.app' | head -1 || true)
 HTTP=$(curl -s -o /dev/null -w "%{http_code}" -m 15 "https://$PROJECT_NAME.vercel.app/")
 echo "✅ 部署完成: https://$PROJECT_NAME.vercel.app/ (HTTP $HTTP, alias → ${ALIAS_URL:-未知})"
 if [[ -n "$ALIAS_URL" && "$ALIAS_URL" != "$NEW_URL" ]]; then
