@@ -107,7 +107,7 @@ Yes — Single-player is confirmed on the Steam page alongside Online Co-op.
 The official description says you descend "with your friends"; press materials describe "you and up to four friends." The Steam page confirms online co-op but doesn't list an exact cap. Most coverage treats it as 4-player co-op. See the [player count guide](/guides/player-count-guide) for full details.
 
 ### Is there matchmaking?
-Unconfirmed. The game supports online co-op (friend-based play); no public matchmaking system has been announced.
+Yes — Patch 1.07 (August 12, 2026) added a public server browser so public servers can be joined in-game, alongside the existing friends-only and invite-only co-op modes. See the [Multiplayer & Matchmaking Guide](/guides/multiplayer-matchmaking-guide).
 
 ### What languages are supported?
 11 with full interface/audio/subtitles at launch: English, German, Japanese, Korean, Portuguese-Brazil, Russian, Simplified Chinese, Ukrainian, French, Spanish-Latin America, Traditional Chinese.

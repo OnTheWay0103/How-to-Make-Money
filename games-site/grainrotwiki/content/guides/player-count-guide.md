@@ -25,7 +25,7 @@ sources:
 | Is online co-op supported? | ✅ **Confirmed** — Steam page lists Online Co-op |
 | Official description mentions co-op? | ✅ **Confirmed** — "Descend with your friends into shifting ruins" |
 | Max party size | ✅ **Confirmed at 4** — press materials describe "you and up to four friends," and 1-4 player online co-op is the supported range |
-| Public matchmaking | ❓ **Unconfirmed** — no announcement |
+| Public matchmaking | ✅ **Confirmed** — public server browser added in Patch 1.07 (Aug 12, 2026); friends-only and invite-only modes also remain |
 | Crossplay | ❓ **Unconfirmed** — PC/Steam is the only announced platform |
 
 **The practical answer:** plan for **1-4 players** — solo works, and co-op parties of up to four are the game's design center. No source claims more than four.
@@ -56,7 +56,7 @@ The trade-offs are real: no one to revive you, no one to draw attention, and "if
 For the co-op side, here's what's confirmed:
 
 - **Online co-op only** — there's no announced split-screen or local multiplayer. The Steam page lists Online Co-op, and the game requires broadband internet in its system requirements.
-- **Friend-based play.** The official pitch is descending "with your friends"; public matchmaking has not been announced. Expect to organize your crew (the official Discord is linked on the Steam page).
+- **Public servers and friend-based play.** The official pitch is descending "with your friends," and since Patch 1.07 (August 12, 2026) public servers can also be joined through an in-game browser. Friends-only and invite-only modes remain if you would rather organize your own crew (the official Discord is linked on the Steam page).
 - **Shared stakes.** "If everyone breaks, your loot is lost" — co-op means the whole team's haul is one shared bet.
 - **Shared progression.** "Everything you haul back rebuilds your Outpost" — the persistent hub is a team project.
 - **Chaos is a feature.** Dropkicking allies' Sparks, blocking them in corridors, and "rage-baiting" with cursed emotes are all official mechanics. Player count doesn't just change difficulty — it changes the genre.
@@ -99,7 +99,7 @@ Yes — online co-op is confirmed. There is no announced local/split-screen mode
 Unconfirmed. The only announced platform is PC via Steam, so crossplay isn't on the table until other platforms are announced.
 
 ### Does Grain Rot have matchmaking?
-Unannounced. The game is pitched around playing with friends; no public matchmaking system has been announced.
+Yes — Patch 1.07 (August 12, 2026) added a public server browser for joining public servers, and Patch 1.04 added a host control for capping the player count below the four-player maximum. See the [Multiplayer & Matchmaking Guide](/guides/multiplayer-matchmaking-guide).
 
 ### Can you play Grain Rot with 5 players?
 No — 1-4 players is the confirmed supported range. Press materials say "up to four friends," and no source claims more than four.

@@ -29,6 +29,7 @@ Grain Rot launched on Steam on August 7, 2026, with nearly 200,000 wishlists and
 | [All Biomes Guide](/guides/all-biomes-guide) | Exploration | Reference |
 | [Weapons & Tools Guide](/guides/weapons-tools-guide) | Loadout planning | Intermediate |
 | [Crafting & Resources Guide](/guides/crafting-resources-guide) | Resource farming | Intermediate |
+| [Patch Notes & Update History](/guides/patch-notes-guide) | Every update 1.01–1.09 + roadmap | All |
 | [Release Date & FAQ](/guides/release-date-faq) | Game info | All |
 | [Demo Guide](/guides/demo-guide) | Free demo content | Starter |
 | [Tips & Tricks](/guides/tips-and-tricks) | Advanced strategies | Advanced |

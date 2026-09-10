@@ -21,7 +21,7 @@ export default function Footer() {
         <div className="flex flex-col items-center gap-4">
           {/* Copyright */}
           <p className="text-sm text-gray-500 text-center">
-            &copy; 2026 Grain Rot Wiki. Unofficial fan wiki. Grain Rot is a trademark of Vaulted Sky Games.
+            &copy; 2026 Grain Rot Wiki. Unofficial fan wiki. Grain Rot is a trademark of Beck &amp; Branch Games and Neem Interactive.
           </p>
 
           {/* Nav Links */}

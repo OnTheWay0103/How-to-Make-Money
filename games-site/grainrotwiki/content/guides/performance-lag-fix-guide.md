@@ -117,7 +117,7 @@ Not if the problem is network lag or storage. Diagnose first (table above), then
 ## Related Guides
 
 - [System Requirements Guide](/guides/system-requirements) — official specs and baseline settings
-- [Multiplayer & Matchmaking Guide](/guides/multiplayer-matchmaking-guide) — invite-only co-op and how hosting works
+- [Multiplayer & Matchmaking Guide](/guides/multiplayer-matchmaking-guide) — public servers, invites and how hosting works
 - [Co-op Guide](/guides/co-op-guide) — team roles once you are in a session
 - [Stealth & Sound Guide](/guides/stealth-sound-guide) — why you should not lower audio for performance
 - [Full Release Guide](/guides/full-release-guide) — what shipped at 1.0 and what changed after launch

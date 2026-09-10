@@ -1,25 +1,27 @@
 ---
-title: 'Grain Rot Multiplayer & Matchmaking — Why Co-op Is Invite-Only and How to Play With Friends'
-description: 'Why Grain Rot has no public matchmaking or server browser, how to actually play with friends in invite-only co-op, the Patch 1.04 lobby settings, and what to do when you cannot join random players.'
+title: 'Grain Rot Multiplayer & Matchmaking — How to Join Public Servers and Play With Friends'
+description: 'Grain Rot now has a public server browser (Patch 1.07, August 12) alongside friends-only and invite-only co-op. How to find and join public lobbies, how password-protected servers work, how to play with friends, and what to do when a join fails.'
 category: 'Co-op'
 version: '1.0'
-updated: '2026-09-03'
-keywords: ['grain rot matchmaking', 'grain rot no matchmaking', 'grain rot invite only', 'grain rot server browser', 'grain rot how to play with friends', 'grain rot multiplayer', 'grain rot can I join randoms', 'grain rot lobby']
-related: ['co-op-guide', 'player-count-guide', 'full-release-guide', 'release-date-faq', 'solo-guide', 'demo-guide']
+updated: '2026-09-11'
+keywords: ['grain rot matchmaking', 'grain rot server browser', 'grain rot public servers', 'grain rot join randoms', 'grain rot how to play with friends', 'grain rot multiplayer', 'grain rot invite only', 'grain rot lobby']
+related: ['patch-notes-guide', 'co-op-guide', 'player-count-guide', 'full-release-guide', 'release-date-faq', 'solo-guide']
 sources:
   - tier: "Official"
-    text: "Grain Rot is listed with Single-player and Online Co-Op on Steam, and the official pitch is to 'descend with your friends' — Steam store page (store.steampowered.com/app/4450620). Patch 1.04 added lobby privacy, a max-player-count control, and a 'view lobby' menu, but no public matchmaking — vgspoilers.com Grain Rot patch tracker"
+    text: "Patch 1.07 — 'Public servers are now available to join via an in-game browser', plus more host game settings under the multiplayer options tab, support for password protected servers, and friends-of-anyone-in-the-server joining for friends-only and invite-only modes — Grain Rot official Steam announcement, August 12, 2026 (store.steampowered.com/news/app/4450620)"
+  - tier: "Official"
+    text: "Patch 1.08 — search filter and an icon for password protected servers, ban players now persistent across sessions, and grief protection implemented as a per-player setting that can be turned off and that limits harmful actions outside the Deep Layers — Grain Rot official Steam announcement, August 26, 2026. Patch 1.04 added lobby privacy, max player count, and a 'view lobby' menu with mic volume and kick/ban — official Steam announcement, August 10, 2026"
   - tier: "Community"
-    text: "Players on the Steam Community launch thread report the game is 'invite only making this hard to play,' call a 'matchmaking/lobbylist' a must-have, and say they are 'looking forward to see the server browser update' — steamcommunity.com/app/4450620/eventcomments/582804662258966856; VaporLens review trends list 'No public matchmaking available' among the top negatives — vaporlens.app/app/4450620/grain_rot/stats"
+    text: "Launch-window players (pre-1.07) report the game was 'invite only making this hard to play,' call a 'matchmaking/lobbylist' a must-have, and say they are 'looking forward to see the server browser update' — steamcommunity.com/app/4450620/eventcomments/582804662258966856; VaporLens review trends still list 'No public matchmaking available' among top negatives, on data stamped August 8, 2026 — vaporlens.app/app/4450620/grain_rot/stats"
   - tier: "Editorial"
-    text: "The practical 'how to play with friends' steps, the invite-failure checklist, and the reading of the Patch 1.04 changes are this guide's editorial assembly of the community-reported picture"
+    text: "The join-failure checklist, the reading of what each patch changed for multiplayer, and the caveats around guest progress are this guide's editorial assembly of the official and community sources above"
 ---
 
-# Grain Rot Multiplayer & Matchmaking — Why Co-op Is Invite-Only and How to Play With Friends
+# Grain Rot Multiplayer & Matchmaking — How to Join Public Servers and Play With Friends
 
-You open Grain Rot expecting a lobby list or a matchmaking button — and there is nothing there. This is the game's most common complaint, and it is not a bug on your end. **Grain Rot does not have public matchmaking or a server browser.** Co-op is **invite-only**: you organize the group yourself, and the host invites everyone into the run.
+Here is the correction that matters: **Grain Rot does have public servers.** Patch **1.07 (August 12, 2026)** added an in-game browser for joining them. If you read a launch-window review or an older guide saying the game is invite-only with no way to play with strangers, that was true for the first five days after the August 7 launch — and it has not been true since.
 
-> **Scope note:** this guide is about *getting into a game with other people* — the matchmaking, invite, and lobby reality. For team roles and chaos once you are in a session, see the [Co-op Guide](/guides/co-op-guide).
+> **Scope note:** this guide covers *getting into a game with other people* — public servers, passwords, invites and lobbies. For team roles and the chaos once you are in a session, see the [Co-op Guide](/guides/co-op-guide). For the full patch history, see the [Patch Notes & Update History](/guides/patch-notes-guide).
 
 ---
 
@@ -27,15 +29,16 @@ You open Grain Rot expecting a lobby list or a matchmaking button — and there 
 
 | Question | Answer |
 |----------|--------|
-| Does Grain Rot have public matchmaking? | **No** — no matchmaking queue or server browser has shipped. Multiplayer is friend-based and invite-only. |
-| Can I join random players? | Not yet. A lobby list / server browser has been requested since launch. |
-| How do I play with friends? | A host starts a session and invites Steam friends; friends accept and join (details below). |
+| Does Grain Rot have public matchmaking? | **Yes** — since Patch 1.07 (Aug 12, 2026) public servers can be joined through an in-game browser. |
+| Can I join random players? | Yes, via the in-game server browser. Password-protected servers are listed too and show a **lock icon** (Patch 1.08). |
+| Can I still play only with friends? | Yes. **Friends-only** and **invite-only** privacy modes remain, and friends of *anyone* in the server can now join, not just the host's friends. |
+| How many players? | Up to four. See the [Player Count Guide](/guides/player-count-guide). |
 
 ---
 
-## Why Co-op Is Invite-Only Right Now
+## The Timeline: Why Older Sources Say "Invite-Only"
 
-Grain Rot launched on **August 7, 2026** with online co-op for up to four players, and the Steam page lists **Single-player** and **Online Co-Op** — but no matchmaking. The official pitch is to "descend with your friends," so the game is built around playing with people you know. That collides with reality for solo players who want a group. On the Steam Community launch thread, players are blunt:
+Grain Rot launched on **August 7, 2026** with online co-op but no way to find strangers. The Steam Community launch thread was blunt about it:
 
 - *"As of right now it's invite only, making this hard to play."*
 - *"A matchmaking/lobbylist is a must have"* — one level-20 solo player called the game *"kinda bad without it."*
@@ -43,121 +46,112 @@ Grain Rot launched on **August 7, 2026** with online co-op for up to four player
 
 ([Steam Community launch discussion](https://steamcommunity.com/app/4450620/eventcomments/582804662258966856))
 
-Independent review-trend analysis agrees: VaporLens lists **"No public matchmaking available"** among the game's top negatives ([VaporLens review stats](https://vaporlens.app/app/4450620/grain_rot/stats)). If you expected to queue with strangers, this is the community's single biggest ask — and it has not shipped yet.
+Review-trend analysis captured the same complaint: VaporLens lists **"No public matchmaking available"** among the game's top negatives ([VaporLens](https://vaporlens.app/app/4450620/grain_rot/stats)) — but that snapshot is stamped **August 8, 2026**, the day after launch. The developer answered four days later. In the **August 12** roadmap post they confirmed they were *"testing a public lobby browser, alongside improvements to the way friends can join a session,"* and shipped it the same day in **Patch 1.07**.
+
+That is the whole story: the most-repeated Grain Rot complaint is a launch-week problem that was fixed within five days, and it is still being repeated by sources that never updated.
 
 ---
 
-## How to Play With Friends (The Invite-Only Flow)
+## Joining Public Servers (Patch 1.07+)
 
-Because there is no server list, the only way into a shared run is a direct invite. The community-documented flow is:
+The in-game browser is the intended route to playing with strangers:
+
+1. **Open the multiplayer / server browser menu.** Patch 1.07 describes it as an in-game browser for public servers; the exact menu label is **[Unconfirmed]** as the developer has not published a controls reference.
+2. **Filter the list.** Patch 1.08 added a **search filter** and a **lock icon** marking password-protected servers, so you can separate open servers from locked ones.
+3. **Join an open server**, or pick a password-protected one if you have the password.
+4. **Host your own.** Hosts get a fuller settings tab (expanded in 1.07) covering lobby privacy, max player count, and session management.
+
+**Hosts also have real moderation tools now.** Patch 1.04 added a **"view lobby" menu** for mic volume and kick/ban, and Patch 1.08 made **bans persistent across sessions** — so a kicked player stays kicked when the session reloads.
+
+### Grief Protection Is Now a Setting
+
+Worried about strangers wrecking your Outpost? Patch 1.08 made **grief protection a per-player setting you can turn off**, and it *"hinders players to perform potential harmful actions outside of the Deep Layers."* In plain terms: the game now has a built-in guard against base-wrecking, and it applies outside the Deep Layers by default. If you are hosting for strangers, leave it on.
+
+---
+
+## Playing With Friends (The Invite Flow)
+
+Friends-only and invite-only modes still exist for a controlled game, and 1.07 loosened them usefully: **the friends of anyone in the server can join, not just the host's friends.** That means one player can pull their own group into an existing session.
+
+The community-documented flow is:
 
 1. **Designate a host.** One player starts the session at the Sanctuary Outpost.
-2. **The host invites** friends from the in-game lobby/party panel. A community co-op tutorial describes opening this panel with **Tab+Shift**, then right-clicking a friend and choosing invite — the exact keybind is **[Unconfirmed]**, as the developer has not published a controls reference.
-3. **Friends accept** from the same panel (or the Steam invite) and load into the host's Outpost.
+2. **The host invites** friends from the in-game lobby/party panel — a community co-op tutorial describes opening it with **Tab+Shift**, then right-clicking a friend and choosing invite. The exact keybind is **[Unconfirmed]**, as the developer has not published a controls reference.
+3. **Friends accept** and load into the host's Outpost.
 4. **Everyone needs a copy.** Co-op is online only — no local split-screen (see the [Player Count Guide](/guides/player-count-guide)).
 
-**If the in-game buttons differ on your build**, use Steam's own invite: press **Shift+Tab** to open the Steam Overlay, then right-click a friend and choose **Invite to Game**. That route is the reliable fallback.
-
-### Before You Try: Quick Prerequisites
-
-- **Same game version** — mismatched builds cause invisible join failures. Update through Steam first.
-- **Steam set to Online** — friends who appear Offline/Invisible cannot receive invites.
-- **Party size ≤ 4** — the confirmed maximum is four players.
+**If the in-game buttons differ on your build**, use Steam's own invite as a fallback: press **Shift+Tab** for the Steam Overlay, then right-click a friend and choose **Invite to Game**.
 
 ---
 
-## Patch 1.04: The Lobby Settings That Now Exist
+## If a Join Fails (Troubleshooting Checklist)
 
-The developer has been iterating on multiplayer. **Patch 1.04** added host-side lobby controls ([Patch 1.04 notes](https://www.vgspoilers.com/game/grain-rot/patches/1.04)):
+Join failures are usually connection or version problems, not missing features. Work through these before assuming the game is broken:
 
-| Setting | What it does |
-|---------|--------------|
-| **Lobby privacy options** | The host can control who can see/join the lobby |
-| **Max player count control** | Set the session to fewer than the four-player cap |
-| **"View lobby" menu** | Adjust player mic volume and manage who is in the session |
-
-The same patch fixed real co-op annoyances: items owned by a client who leaves are **no longer destroyed** — they drop on the ground or move to the **lost-and-found crate** — and a **respawn blockage** that could stop a broken teammate from coming back was fixed.
-
-**What Patch 1.04 did not add:** public matchmaking or a server browser. These lobby settings give hosts *control* over their session — not a way to find strangers.
-
----
-
-## "Why Can't I Find a Game?" — The Honest Answer
-
-If you are looking for randoms and finding nothing, that is expected:
-
-- There is **no queue** and **no server list** to browse. Multiplayer is host-and-invite.
-- The community is actively asking for a **lobby list / server browser** so players can "join for missions" and "join randoms" — both are requests, not features yet.
-
-**What you can do today:**
-
-1. **Find a crew on the official Discord.** The developer links it on the Steam page, and it is where players organize runs — the de facto matchmaking until a real one ships.
-2. **Post or reply in the Steam Community discussions** — players are actively looking for groups there.
-3. **Play solo.** Single-player is confirmed and fully supported — quieter and harder, but it needs no crew. See the [Solo Guide](/guides/solo-guide).
-
----
-
-## If Invites Are Failing (Troubleshooting Checklist)
-
-Join failures can also be plain connection problems. Work through these before assuming the game is broken:
-
-1. **Version-match the party** — everyone updates, then restart the lobby.
-2. **Restart the host's session** — a stale lobby causes most persistent failures.
+1. **Version-match the party.** Grain Rot patches frequently (nine patches between Aug 8 and Aug 28). Mismatched builds cause silent join failures — everyone updates, then the host restarts the lobby.
+2. **Restart the host's session.** A stale lobby causes most persistent failures.
 3. **Use the Steam Overlay invite** (Shift+Tab → friends → Invite to Game) when the in-game panel fails.
-4. **Wired host** — the host's connection carries the session; unstable Wi-Fi makes every join flaky.
+4. **Wired host.** The host's connection carries the session; unstable Wi-Fi makes every join flaky.
 
-Grain Rot's networking details are not publicly documented, so there is no game-specific netcode fix — the checklist above resolves most join failures.
-
----
-
-## Co-op Progress: A Caveat Worth Knowing
-
-Reviews of the launch build describe co-op progression as **tied to the host's save**: the Outpost you rebuild in a friend's session belongs to that host's world, and guests should not expect that progress to appear in their own solo game. Community members asking to "join randoms while keeping your house upgrade percentage" implies guest progress does not follow you today.
-
-This is **[Unconfirmed]** — the developer has not published a clear statement on cross-session Outpost progress, and the wiki's [Outpost Guide](/guides/outpost-upgrade-guide) flags the sharing rules as unverified. Host your own runs for your own progression.
+Grain Rot's networking internals are not publicly documented, so there is no game-specific netcode fix. For frame-rate and lag problems rather than join problems, see the [Performance & Lag Fix Guide](/guides/performance-lag-fix-guide).
 
 ---
 
-## Roadmap: What Players Are Asking For
+## Co-op Progress: Still a Caveat
 
-| Request | Status |
-|---------|--------|
-| **Server browser / lobby list** (join randoms) | Most-requested; not shipped or officially announced |
-| **Lobby privacy, max players, view lobby** | ✅ Added in Patch 1.04 |
-| **Host building-permission lock** (anti-grief) | Requested; no confirmed implementation |
-| **Guest progress carrying to their own world** | Requested; unclear, [Unconfirmed] |
+Reviews of the launch build describe co-op progression as **tied to the host's save**: the Outpost you rebuild in someone else's session belongs to that host's world, and guests should not expect it to appear in their own solo game. Players asking to "join randoms while keeping your house upgrade percentage" imply guest progress does not follow you.
 
-The developer's pattern since launch has been fast iteration, but until a server browser is officially announced, treat "can I queue with randoms?" as **no**.
+This remains **[Unconfirmed]** — the developer has not published a clear statement on cross-session Outpost progress, and the [Outpost Guide](/guides/outpost-upgrade-guide) flags the sharing rules as unverified. Host your own runs if you want your own progression.
+
+---
+
+## What Changed, Patch by Patch
+
+| Patch | Date | Multiplayer change |
+|-------|------|-------------------|
+| 1.04 | Aug 10 | Lobby privacy + max player count settings; "view lobby" menu with mic volume and kick/ban |
+| 1.05 | Aug 10 | Fixed joining friends when lobby privacy was set to friends |
+| **1.07** | **Aug 12** | **Public servers joinable via in-game browser**; password-protected servers; more host settings; friends of anyone in-server can join |
+| 1.08 | Aug 26 | Search filter + lock icon for password-protected servers; persistent bans; per-player grief protection setting |
+| 1.09 | Aug 28 | No multiplayer changes — compass, Vibe Modulator and resting fixes |
+
+Full change lists are in the [Patch Notes & Update History](/guides/patch-notes-guide).
 
 ---
 
 ## FAQ
 
 **Q: Does Grain Rot have matchmaking? Can I play with random people?**
-No. As of the current build there is no public matchmaking queue or server browser — co-op is invite-only through Steam friends. To find strangers, players organize runs through the official Discord and Steam discussions, but there is no in-game way to find them.
+Yes. Since Patch 1.07 (August 12, 2026) public servers can be joined through an in-game browser. Launch-week sources saying otherwise are describing the pre-1.07 build.
+
+**Q: Is Grain Rot still invite-only?**
+No, but invite-only still exists as an option. Friends-only and invite-only privacy modes remain for hosts who want a controlled session — and friends of anyone in the server can now join those too.
+
+**Q: How do I join a server with a password?**
+Patch 1.08 added a lock icon and a search filter so password-protected servers are identifiable in the browser. You still need the password from the host.
 
 **Q: How do I invite a friend?**
-The host invites from the in-game lobby panel (community guides report **Tab+Shift** to open it — [Unconfirmed]), or uses the Steam Overlay invite (Shift+Tab → friends → Invite to Game).
+The host invites from the in-game lobby panel (community guides report **Tab+Shift** — [Unconfirmed]), or uses the Steam Overlay invite (Shift+Tab → friends → Invite to Game).
 
-**Q: Did Patch 1.04 add matchmaking?**
-No. Patch 1.04 added lobby privacy options, a max-player-count control, and a "view lobby" management menu — host controls, not public matchmaking.
+**Q: Can random players destroy my Outpost?**
+Patch 1.08 added **grief protection** as a per-player setting that limits harmful actions outside the Deep Layers. Leave it on when hosting for strangers.
 
-**Q: Is solo play a real option if I have no friends?**
-Yes — single-player is fully supported. It is harder and quieter, but needs no crew. See the [Solo Guide](/guides/solo-guide).
+**Q: Is solo play a real option?**
+Yes — single-player is fully supported. See the [Solo Guide](/guides/solo-guide).
 
 ---
 
 ## Sources
 
-- **Official:** Steam store page for GRAIN ROT — Single-player + Online Co-Op listing and "descend with your friends" pitch ([store.steampowered.com/app/4450620](https://store.steampowered.com/app/4450620/GRAIN_ROT/)). Patch 1.04 lobby changes and fixes, via the community patch tracker ([vgspoilers.com](https://www.vgspoilers.com/game/grain-rot/patches/1.04)).
-- **Community:** Steam Community launch discussion — invite-only complaints and matchmaking/server-browser requests ([steamcommunity.com/app/4450620/eventcomments/582804662258966856](https://steamcommunity.com/app/4450620/eventcomments/582804662258966856)). VaporLens review trends — "No public matchmaking available" as a top negative ([vaporlens.app/app/4450620/grain_rot/stats](https://vaporlens.app/app/4450620/grain_rot/stats)).
-- **Editorial (community-derived):** the invite-flow steps, co-op progress caveat, and troubleshooting checklist are assembled from community reports and review coverage of the launch build, marked **[Unconfirmed]** where the developer has not documented them.
+- **Official:** Grain Rot official Steam announcements — Patch 1.07, August 12, 2026 (public servers via in-game browser, host settings, password-protected servers, friends-of-anyone joining), Patch 1.08, August 26, 2026 (search filter, lock icon, persistent bans, per-player grief protection), Patch 1.04, August 10, 2026 (lobby privacy, max players, view lobby) ([store.steampowered.com/news/app/4450620](https://store.steampowered.com/news/app/4450620/)). "What's Next for GRAIN ROT" developer roadmap, August 12, 2026 (public lobby browser in testing).
+- **Community:** Steam Community launch discussion — launch-week invite-only complaints and server-browser requests ([steamcommunity.com/app/4450620/eventcomments/582804662258966856](https://steamcommunity.com/app/4450620/eventcomments/582804662258966856)). VaporLens review trends — "No public matchmaking available" as a top negative, data stamped August 8, 2026 ([vaporlens.app](https://vaporlens.app/app/4450620/grain_rot/stats)).
+- **Editorial (community-derived):** the join-failure checklist, the menu-step descriptions marked **[Unconfirmed]**, and the co-op progress caveat are assembled from the sources above. The developer has not published a controls or menu reference.
 
 ## Related Guides
 
+- [Patch Notes & Update History](/guides/patch-notes-guide) — every patch from 1.01 to 1.09, and the roadmap ahead
 - [Co-op Guide](/guides/co-op-guide) — team roles and the chaos mechanics once you are in a session
 - [Player Count Guide](/guides/player-count-guide) — solo, party size, and the confirmed player-count facts
 - [Solo Guide](/guides/solo-guide) — playing alone when you have no crew
-- [Full Release Guide](/guides/full-release-guide) — what shipped at 1.0 and what changed after launch
-- [Release Date & FAQ](/guides/release-date-faq) — platforms and crossplay status
-- [Demo Guide](/guides/demo-guide) — test the co-op reality for free
+- [Outpost Upgrade Guide](/guides/outpost-upgrade-guide) — base building and the shared-progress question
+- [Performance & Lag Fix Guide](/guides/performance-lag-fix-guide) — when the problem is frames, not matchmaking
