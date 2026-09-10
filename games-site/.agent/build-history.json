@@ -1077,6 +1077,61 @@
         "Developer-previewed PvP revamp + Dragon Knight class (pre-launch) not yet dated; revisit when announced (P0 watch)."
       ],
       "lessons": "EXPAND-023 (9/9): account ban/appeal as a legitimate support-topic gap — official enforcement numbers are the anchor fact (via editorial relay), all community-sourced specifics stay [Unconfirmed]."
+    },
+    {
+      "game": "Grain Rot",
+      "date": "2026-09-11",
+      "genre": "Co-op Survival Horror",
+      "template": "grainrotwiki existing (no template change)",
+      "mode": "expand-feedback (EXPAND-024, daily per-site, feedback-driven)",
+      "guidesAdded": 1,
+      "guides": 30,
+      "deployed": true,
+      "pipeline": "EXPAND-024 (official Steam news hub direct fetch → patch-notes-guide → 事实纠错 multiplayer-matchmaking-guide + 3 衍生引用 + Footer/Terms IP 归属 → QA quick PASS → deploy → live content-level verify)"
+    },
+    {
+      "game": "Sephiria",
+      "date": "2026-09-11",
+      "genre": "pixel-art action roguelite (TEAM HORAY)",
+      "template": "sephiriawiki existing (no template change)",
+      "mode": "expand-feedback (EXPAND-025, daily per-site, feedback-driven)",
+      "guidesAdded": 1,
+      "guides": 36,
+      "deployed": true,
+      "pipeline": "EXPAND-025 (官方 1.0.31 = 9/10，news API + RSS 双通道 → patch-1-0-31-build-changes-guide → 跨页版本一致性刷新 8 处 → QA quick PASS ×2 → deploy → live verify)"
+    },
+    {
+      "game": "The Mound: Omen of Cthulhu",
+      "date": "2026-09-11",
+      "genre": "1-4 player co-op extraction horror (ACE Team / NACON)",
+      "template": "themoundwiki existing (no template change)",
+      "mode": "expand-skip + P0 calibration",
+      "guidesAdded": 0,
+      "guides": 37,
+      "deployed": true,
+      "pipeline": "SKIP（1.04 双通道同戳 8/31、新发现 1.05 = 9/9 但第三方零覆盖 → 单通道，严格同尺否决）+ P0 7/7（EX-Mod 跨站污染、5 处 Hugo 式 404 内链、编造地名 Mira Isle、AdSense ID 双源、补丁史 1.01–1.05、join code 时间线）→ QA quick PASS → live verify"
+    },
+    {
+      "game": "Tears of Metal",
+      "date": "2026-09-11",
+      "genre": "Scottish action roguelike (Paper Cult)",
+      "template": "tearsofmetalwiki existing (no template change)",
+      "mode": "expand-skip + P0 calibration + 平台事实纠错",
+      "guidesAdded": 0,
+      "guides": 32,
+      "deployed": true,
+      "pipeline": "SKIP（版本史仍止 v0.14.58630 / 8-14）+ patch-notes 扩为完整版本表 v0.8→v0.14 + 官方三阶段路线图（标注 plan not shipped）+ 🔴 纠错 7 文件『Steam PC-only / no crossplay』→ 实为 7/22 首发即 Steam + Microsoft Store + PC Game Pass 且互通 → QA quick PASS → live verify"
+    },
+    {
+      "game": "SpiritVale",
+      "date": "2026-09-11",
+      "genre": "Class-based MMORPG (buy-to-play EA)",
+      "template": "spiritvalewiki existing (no template change)",
+      "mode": "expand-skip + 线上 404 修复",
+      "guidesAdded": 0,
+      "guides": 41,
+      "deployed": true,
+      "pipeline": "SKIP（0.31.0 仍仅官方单源）+ 线上 🔴 /guides/tier-list 404 → slug 修正为 class-tier-list 并一并对齐 title/description → QA quick PASS → live verify（home 含 class-tier-list、0 个 tier-list 链接）"
     }
   ],
   "knownIssues": [
