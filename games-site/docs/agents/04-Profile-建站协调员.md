@@ -58,6 +58,8 @@ MUST 部署后 curl 验证线上可访问（HTTP 200），且**新增/修改的�
 MUST NOT 设置 rootDirectory（CLI 部署模式，见部署教训）
 MUST 用 `vercel inspect` 确认生产 alias 指向本次新部署，MUST NOT 只查首页 200（旧部署同样返回 200）
 MUST 并发部署（≥2 站同时）时以**内容级验证**判定成败（首页 200 + 新增资源 200 + 目标页新文本），MUST NOT 以 `deploy-wiki-site.sh` 退出码为准（教训：9/9 批量 41 站 4 并发，脚本第 3 步 `vercel inspect` 在并发下返回空 → `pipefail`+`set -e` 使脚本 exit 1，40 站全部误报 FAIL，经内容级复核实际均已成功部署）
+MUST NOT 在 shell 脚本里写 `VAR=$(... | grep ... | head -1)` 而不加 `|| true`（教训：9/11 复现并定位 9/9 误报的**真正机理**——`set -euo pipefail` 下 grep 无匹配退出 1，且 `head` 提前关闭管道使 grep 收 SIGPIPE(141)，两者都经 pipefail 传播为非零 → **errexit 在脚本自身的错误处理之前静默退出**，告警不打印、成功被误报为失败；9/11 实测 8 个成功部署全被误报 FAIL。已在 `deploy-wiki-site.sh` L77/L88 补 `|| true` 修复）
+MUST 对 `vercel deploy` 的瞬时 `Not authorized` 自动重试 1 次（教训：9/11 并发部署时 CLI 会话 token 刷新被抢占，首次部署报 Not authorized，立即重试即成功）
 
 ## 恢复规则
 

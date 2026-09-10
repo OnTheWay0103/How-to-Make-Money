@@ -18,6 +18,9 @@ MUST NOT 编造玩家反馈
 SHOULD 补充：Steam 评测（负面评测的信息量最大）、Discord 公开讨论
 MAY 纳入用户邮件反馈：主 Agent 转交的用户邮件内容按同等标准分析（来源标注「用户邮件」）
 MAY 用户邮件反馈样本不足时降级为补充参考，不单独支撑结论
+MUST 优先直采**一手来源**（官方公告/补丁说明、Steam 评测与讨论区），聚合站/镜像站仅作交叉核对
+MUST NOT 把「聚合站缺少某条目」判定为「与该聚合站冲突」（教训：9/6–9/9 grainrotwiki 连续 4 轮 SKIP，理由是 player.gg 主张 v1.07 实装 public server browser「与 vgspoilers 冲突」；9/11 直连官方 Steam 公告 hub 证实 **v1.07 确有该功能**，真相是 vgspoilers 条目漏项。镜像缺版应优先解读为**滞后**，只有两个来源对**同一事实给出互斥陈述**才算冲突）
+MUST 官方公告 hub 直连失败（ECONNREFUSED/403/超时）时，改试其他官方入口或稍后重试，MUST NOT 因一次失败就降级为「仅聚合站可用」并据此判定 SKIP（教训：同上，前几轮 ECONNREFUSED，9/11 重试即 200 并取全 Patch 1.01–1.09 全文）
 
 ## 分析规则
 
