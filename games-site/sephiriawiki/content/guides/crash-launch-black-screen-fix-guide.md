@@ -3,7 +3,7 @@ title: "Sephiria Crash on Startup / Black Screen Fix — Won't Launch? Force Dir
 description: "Why Sephiria crashes to desktop at launch, hangs on a black screen, or gets stuck on the publisher logo — and how to fix it. Covers the -force-d3d11 launch option, renaming the D3D12 folder, verifying game files, reading the Player.log, save-folder permissions, and the Steam Deck / macOS cases, in priority order."
 category: "Guides"
 version: "1.0"
-updated: "2026-09-06"
+updated: "2026-09-11"
 keywords: ["Sephiria crash on startup", "Sephiria won't launch", "Sephiria black screen", "Sephiria crash fix", "Sephiria force d3d11", "Sephiria D3D12 folder", "Sephiria stuck on logo", "Sephiria launch options"]
 related: ["beginner-guide", "controls-settings-guide", "save-file-guide", "multiplayer-connection-fix-guide", "full-release-guide"]
 sources:
@@ -102,7 +102,7 @@ A black screen or a failure to launch cleanly on the very first run can come fro
 
 ### Fix 7: Steam Deck and macOS specifics
 
-- **Steam Deck:** the 1.0.30 update (August 20, 2026) improved a case where the game could close under certain circumstances on Deck ([Official](https://news.17173.com/content/08202026/224633949.shtml)). Make sure Sephiria is on 1.0.30 or newer, and test with the Deck's per-game compatibility settings at their defaults before changing anything else.
+- **Steam Deck:** the 1.0.30 update (August 20, 2026) improved a case where the game could close under certain circumstances on Deck ([Official](https://news.17173.com/content/08202026/224633949.shtml)). Make sure Sephiria is on the current build (**1.0.31**, September 10, 2026 — the Deck fix itself landed in 1.0.30) or newer, and test with the Deck's per-game compatibility settings at their defaults before changing anything else.
 - **macOS:** one Steam thread reports the game getting **stuck on the publisher logo** with menu music playing on an M2 MacBook Air, with players trying launch options such as `-force-metal` or `-autoconfig`. This is a **single community report** — treat the specific workarounds as **[Unconfirmed]** — but if you hit the logo hang on a Mac, those two launch options are the known attempts.
 
 ---

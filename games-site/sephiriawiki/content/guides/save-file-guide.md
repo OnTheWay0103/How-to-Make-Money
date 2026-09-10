@@ -3,7 +3,7 @@ title: "Sephiria Save File Guide — How to Backup & Restore Progress (Fix Corru
 description: "Where Sephiria saves are stored, how to back them up manually, and how to recover progress after a crash or a corrupted save — including the Steam Cloud sync pitfalls and the official 1.0.24/1.0.28 backup-loading fixes."
 category: "Guides"
 version: "1.0"
-updated: "2026-08-26"
+updated: "2026-09-11"
 keywords: ["sephiria save file", "sephiria save file location", "sephiria backup save", "sephiria corrupted save fix", "sephiria restore save", "sephiria cloud save", "sephiria steam cloud", "sephiria save slots"]
 related: ["faq-content", "full-release-guide", "multiplayer-connection-fix-guide", "endgame-guide"]
 sources:
@@ -60,7 +60,7 @@ Players have reported two failure modes: a crash corrupting the save so the game
 
 ### Official fixes: 1.0.24 and 1.0.28
 
-The developers have patched this exact failure chain. **Patch 1.0.24 (Aug 7, 2026)** fixed, among other things, "backup save loading failure when the save is corrupted" — the game's built-in backup-restore path now loads properly in that scenario. **Hotfix 1.0.28 (Aug 14, 2026)** continued work on backup-save loading. [Official: 17173 mirror of patch notes, vgspoilers patch list] Version 1.0.29 has no separate patch note found so far [Unconfirmed]; the latest confirmed build as of Aug 20, 2026 is **1.0.30** [Official]. So if you're on an older build, update first — the crash you're recovering from may already be fixed, and the built-in backup path may handle the load for you.
+The developers have patched this exact failure chain. **Patch 1.0.24 (Aug 7, 2026)** fixed, among other things, "backup save loading failure when the save is corrupted" — the game's built-in backup-restore path now loads properly in that scenario. **Hotfix 1.0.28 (Aug 14, 2026)** continued work on backup-save loading. [Official: 17173 mirror of patch notes, vgspoilers patch list] Version 1.0.29 has no separate patch note found so far [Unconfirmed]; 1.0.30 landed on Aug 20, 2026, and the latest confirmed build as of **September 10, 2026** is **1.0.31** [Official]. So if you're on an older build, update first — the crash you're recovering from may already be fixed, and the built-in backup path may handle the load for you.
 
 ## Steam Cloud Sync: What It Does and the Traps
 
@@ -85,7 +85,7 @@ Community reports say 3 slots total and no in-game deletion option [Unconfirmed]
 Because sync can upload the corrupted file over your restored save. Community tutorials are unanimous on this: close the game, disable sync, restore, verify, then re-enable.
 
 **Q: Did the developers fix corrupted saves?**
-Yes — patch 1.0.24 (Aug 7, 2026) and hotfix 1.0.28 (Aug 14, 2026) both addressed backup-save loading after save corruption [Official]. Update to the latest build (1.0.30 as of Aug 20, 2026) before troubleshooting.
+Yes — patch 1.0.24 (Aug 7, 2026) and hotfix 1.0.28 (Aug 14, 2026) both addressed backup-save loading after save corruption [Official]. Update to the latest build — **1.0.31**, posted September 10, 2026, following 1.0.30 on Aug 20, 2026 [Official] — before troubleshooting.
 
 **Q: My save broke after a crash — what should I do first?**
 Update the game, then try loading normally — the built-in backup path may recover you. If not, close the game, disable Steam Cloud sync, and restore from a manual backup using the steps above.
