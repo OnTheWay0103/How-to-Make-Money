@@ -21,7 +21,7 @@ export default function Footer() {
         <div className="flex flex-col items-center gap-4">
           {/* Copyright */}
           <p className="text-sm text-gray-500 text-center">
-            &copy; 2026 Shift At Midnight Wiki. Unofficial fan wiki. Shift At Midnight is a trademark of Tasty Stewdios.
+            &copy; 2026 Shift At Midnight Wiki. Unofficial fan wiki. Shift At Midnight is a trademark of Bun Muen / Kwalee.
           </p>
 
           {/* Nav Links */}

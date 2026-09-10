@@ -21,7 +21,7 @@ export default function Footer() {
         <div className="flex flex-col items-center gap-4">
           {/* Copyright */}
           <p className="text-sm text-gray-500 text-center">
-            &copy; 2026 Bonehold Wiki. Unofficial fan wiki. Bonehold is a trademark of Soulash Studios.
+            &copy; 2026 Bonehold Wiki. Unofficial fan wiki. Bonehold is a trademark of Pixel Jackal / SaikingS.
           </p>
 
           {/* Nav Links */}

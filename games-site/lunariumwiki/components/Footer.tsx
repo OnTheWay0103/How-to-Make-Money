@@ -21,7 +21,7 @@ export default function Footer() {
         <div className="flex flex-col items-center gap-4">
           {/* Copyright */}
           <p className="text-sm text-gray-500 text-center">
-            &copy; 2026 Lunarium Wiki. Unofficial fan wiki. Lunarium is a trademark of tinyBuild.
+            &copy; 2026 Lunarium Wiki. Unofficial fan wiki. Lunarium is a trademark of Lunarium Game Studio / Imperfect Games.
           </p>
 
           {/* Nav Links */}

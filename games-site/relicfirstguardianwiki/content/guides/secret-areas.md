@@ -5,7 +5,7 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["relic first guardian secret areas", "relic first guardian hidden rooms", "relic first guardian optional bosses", "relic first guardian secrets", "relic first guardian exploration", "relic first guardian hidden content"]
-related: ["walkthrough", "boss-guide", "runes-guide", "all-bosses-list"]
+related: ["walkthrough", "boss-strategies", "runes-guide", "all-bosses-list"]
 ---
 
 # Secret Areas & Hidden Content — What's Confirmed

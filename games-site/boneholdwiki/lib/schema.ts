@@ -59,7 +59,7 @@ export function videoGameSchema(): Record<string, unknown> {
     genre: ['Action', 'RPG', 'Indie', 'Roguelike', 'Dungeon Crawler', 'Hack and Slash', 'Dark Fantasy'],
     author: {
       '@type': 'Organization',
-      name: 'Pixel Jackal',
+      name: 'Pixel Jackal & SaikingS',
     },
     publisher: {
       '@type': 'Organization',

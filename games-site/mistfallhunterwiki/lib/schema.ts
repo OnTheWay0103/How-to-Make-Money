@@ -64,11 +64,11 @@ export function videoGameSchema(): Record<string, unknown> {
     genre: ['Action RPG', 'Extraction', 'PvPvE', 'Dark Fantasy', 'Multiplayer'],
     author: {
       '@type': 'Organization',
-      name: 'Unknown',
+      name: 'Bellring Games',
     },
     publisher: {
       '@type': 'Organization',
-      name: 'Unknown',
+      name: 'Skystone Games',
     },
     offers: {
       '@type': 'Offer',

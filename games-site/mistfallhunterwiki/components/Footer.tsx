@@ -21,7 +21,7 @@ export default function Footer() {
         <div className="flex flex-col items-center gap-4">
           {/* Copyright */}
           <p className="text-sm text-gray-500 text-center">
-            &copy; 2026 Mistfall Hunter Wiki. Unofficial fan wiki. Mistfall Hunter is a trademark of Proxima Studio.
+            &copy; 2026 Mistfall Hunter Wiki. Unofficial fan wiki. Mistfall Hunter is a trademark of Bellring Games / Skystone Games.
           </p>
 
           {/* Nav Links */}

@@ -21,7 +21,7 @@ export default function Footer() {
         <div className="flex flex-col items-center gap-4">
           {/* Copyright */}
           <p className="text-sm text-gray-500 text-center">
-            &copy; 2026 Taival Wiki. Unofficial fan wiki. Taival is a trademark of Mingle Games.
+            &copy; 2026 Taival Wiki. Unofficial fan wiki. Taival is a trademark of Bonobo Software / Level Up Gaming.
           </p>
 
           {/* Nav Links */}

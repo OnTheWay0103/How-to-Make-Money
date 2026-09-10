@@ -1,38 +1,57 @@
-# Skills & Raids Wiki
+# MineGeon Wiki
 
-Unofficial wiki and guide hub for **Skills & Raids**, the team-based extraction RPG by Lootsurvivor. Built with Next.js 16 + Vercel.
+Unofficial wiki and guide hub for **MineGeon: Renegades**, the 1-3 player co-op sci-fi bullet-hell mining roguelite. Built with Next.js 16 + Vercel.
 
 ## Site
 
-**URL**: https://skillsandraidswiki.vercel.app
+**URL**: https://minegeonwiki.vercel.app
 
 ## Content
+
+27 guides in `content/guides/`, rendered at `/guides/<slug>`.
 
 | Guide | Category |
 |-------|----------|
 | Beginner Guide | Beginner |
+| Demo Guide | Beginner |
+| Classes Guide | Classes |
+| Class Builds | Guides |
+| Endgame Builds | Guides |
+| Walkthrough Guide | Guides |
 | Tier List | Tier List |
-| Builds Guide | Builds |
-| Extraction Guide | Gameplay |
-| Skills Guide | Skills |
-| Crafting Guide | Crafting |
-| Weapons Guide | Items |
-| Maps Guide | Maps |
-| Enemies Guide | Enemies |
+| Boss Guide | Bosses |
+| Enemy Guide | Enemies |
+| Biomes Guide | Biomes |
+| Cave Navigation | Exploration |
+| Mining Guide | Mining |
+| Extraction Guide | Mining |
+| Resource Farming Guide | Mining |
+| Progression Guide | Progression |
+| Upgrades Guide | Upgrades |
+| Weapons Guide | Weapons |
+| Gadgets Guide | Gadgets |
+| Base Building Guide | Base Building |
+| Co-op & Multiplayer Guide | Multiplayer |
+| Solo Strategy Guide | Solo |
+| Secrets & Easter Eggs | Secrets |
+| Achievements Guide | Achievements |
+| How Long to Beat | Info |
+| Platforms Guide | Info |
+| Review Guide | Info |
 | FAQ | FAQ |
 
 ## Tech Stack
 
-Next.js 16 + React 19 + TypeScript + Tailwind CSS 4
+Next.js 16 + React 19 + TypeScript + Tailwind CSS 4 (Geist self-hosted via `geist/font`).
 
 ## Development
 
 ```bash
-npm install
-npm run dev     # http://localhost:3000
-npm run build   # Static export
+pnpm install
+pnpm dev     # http://localhost:3000
+pnpm build
 ```
 
 ## Deployment
 
-Connected to Vercel for automatic deployment on push to main.
+Connected to Vercel (`vercel.json` sets `installCommand` to `pnpm install`). Deploy from the `games-site` repo root with `./deploy-wiki-site.sh minegeonwiki`.
