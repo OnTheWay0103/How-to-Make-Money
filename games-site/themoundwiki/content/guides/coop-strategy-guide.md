@@ -357,9 +357,9 @@ Use when engaging a strong enemy or group.
 | Console players can't find PC rooms | Have the PC player join the console player's room instead, or use the lobby code/invite flow directly |
 | No match ID system | There is no visible match ID — random search is the only "public" path; always use the 6-character lobby code |
 | Mixed-language lobbies | Random matchmaking can drop you into lobbies with players who speak a different language — no region or language filter exists; play with friends |
-| Cross-platform voice broken | In-game voice chat is unreliable across platforms — use a third-party voice app (Discord/Party Chat) |
+| Cross-platform voice broken | Patch 1.05 fixed voice chat corruption during crossplay — see the [Voice Chat Fix Guide](/guides/voice-chat-fix-guide); use a third-party voice app only as a fallback |
 | No in-game friends list across platforms | The game has no cross-platform friend system — exchange lobby codes on Discord/other chat before launching |
-| Voice chat inaudible | Proximity voice only — get within 5 meters, or use the gesture wheel; headphones strongly recommended |
+| Voice chat inaudible | Proximity voice only — get within 5 meters, or use the gesture wheel; headphones strongly recommended. Robotic or corrupted audio is a separate patch-level issue — see the [Voice Chat Fix Guide](/guides/voice-chat-fix-guide) |
 
 ### Crossplay Troubleshooting Checklist
 

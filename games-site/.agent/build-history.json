@@ -1167,6 +1167,23 @@
         "已知待触发选题『武器升级材料』仍未达标：'Sephiria Tower Copper' 独立搜索零结果，三语文章全为 xmodhub 同源且该源自身中英版本 tablet 名冲突（Thief's Satchel vs Scavenger），中英侧『武器铁砧 vs 村庄铁匠铺』互斥 → 按 9/9 同一标准判不可验。"
       ],
       "lessons": "EXPAND-027 (9/12)：新规则的第二次验证——抱怨驱动 7 类高频抱怨全部落在既有页（netcode ≥6 源 / 掉线重连 ≥4 / 崩溃丢档 ≥3 / 弹幕海 ≥6 / evasion meta ≥5 / 硬模式 2 / 控制器 2），切②系统清单驱动后命中 Costumes。另：采集通道备忘——api.steampowered.com 与 store/api/appdetails 本机 ECONNREFUSED，但商店页 HTML 内嵌官方公告 JSON，一次可取 1.0.31 + 1.0.33 全文，建议登记为 sephiriawiki 稳定一手入口。"
+    },
+    {
+      "game": "The Mound: Omen of Cthulhu",
+      "date": "2026-09-12",
+      "genre": "1-4 player co-op extraction horror (ACE Team / NACON)",
+      "template": "themoundwiki existing (no template change)",
+      "mode": "expand-feedback (EXPAND-028, daily per-site, feedback-driven)",
+      "guidesAdded": 1,
+      "guides": 38,
+      "deployed": true,
+      "pipeline": "EXPAND-028 (官方语音修复时间线 1.01→1.02→1.03→1.05 取自 ISteamNews appid 2569760 → voice-chat-fix-guide → QA quick PASS → 顺修 coop-strategy 站内自相矛盾 → deploy 9/12 → live HTTP 200 69,428B + 标题串 ×3 + 官方原文串 + sitemap 38 条)",
+      "qa": "QA quick 9/12 — PASS。选题：语音聊天不可用/机器人音是否为 bug。来源 Official 5 / Community 1 / Editorial 2（玩家问题层 4 通道）。1,496 词。",
+      "issues": [
+        "⚖️ 主 Agent 裁定（记录在案）：本轮的『≥3 独立来源』按玩家问题层计（官方 1.05 + Steam 评测 + TposeGaming + TheSixthAxis = 4 通道）成立 → UPHELD，不回退 SKIP。Patch 1.05 本身第三方报道仍为 0，但官方公告对自身补丁内容是权威一手来源，逐字锚定即合规。该口径已写入 docs/每日内容扩充计划.md §五（themound 已三次触发同一歧义）。",
+        "顺修站内自相矛盾：coop-strategy-guide L72『Voice chat and lobby codes work across platforms』vs 排障表『Cross-platform voice broken → 用第三方语音』；后者 1.05 后过时且与官方建议（用游戏内语音，空间音频+理智效果）冲突 → 已指向 1.05 官方修复并链新页；controls-settings-guide 排障条目追加链出。改动 3 处，均在本站内。"
+      ],
+      "lessons": "EXPAND-028 (9/12)：路径②（系统清单驱动）本轮**跑过且无空白**——Steam appdetails / NACON 官方商品页所列系统逐条对站内 37 篇均已有页面（唯一半空白 Occult Item 珠宝箱商店因官方无坐标、<3 来源维持否决）。说明②不是万能钥匙，跑过即可判 SKIP。采集通道恶化：Reddit 全域不可达、steamcommunity.com 全域 ECONNREFUSED → 改用官方评测 API 取 100 条一手样本，正文 Sources 段加 Honesty note 明示读者，未编造。"
     }
   ],
   "knownIssues": [

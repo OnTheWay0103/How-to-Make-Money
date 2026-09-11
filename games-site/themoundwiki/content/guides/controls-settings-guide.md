@@ -210,7 +210,7 @@ Setting up your controls and graphics correctly before your first expedition can
 **Fix:** Lower Volumetric Fog and Shadow Quality. Enable DLSS or FSR. Close background applications. Check CPU/GPU temperatures.
 
 ### Issue: Voice chat not working
-**Fix:** Check voice chat is enabled in audio settings. Verify microphone permissions in OS settings. Test push-to-talk keybind. Check NAT type (cross-platform voice requires open NAT).
+**Fix:** Check voice chat is enabled in audio settings. Verify microphone permissions in OS settings. Test push-to-talk keybind. Check NAT type (cross-platform voice requires open NAT). For robotic or corrupted audio, and for the official Patch 1.05 voice chat rework, see the [Voice Chat Fix Guide](/guides/voice-chat-fix-guide).
 
 ### Issue: Spatial audio not working
 **Fix:** Ensure spatial audio is enabled in Windows sound settings. Set game to Headphone mode. Stereo vs surround — the game uses stereo spatial, do not force 7.1.
