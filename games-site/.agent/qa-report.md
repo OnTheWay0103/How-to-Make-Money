@@ -1146,3 +1146,128 @@ QA deep: 上次 8/25，未超 7 天，跳过
 6. **crimsonmoon / welcomeelderfield 发售后措辞过期**（9/10 deep 观察项，非阻断）—— 建议排「发售后刷新」专项，本轮未扩大改动面。
 
 **结论**: 5 扩充站全部处置完毕（2 产出 / 3 SKIP，无一处硬写）；QA deep 遗留 🔴 项 100% 闭环并线上验证；新增 3 处存量事实错误修正。**宁缺毋滥纪律保持**。
+
+---
+
+# QA Report — 2026-09-12（每日扩充 5 站 + BUILD-008 + 全网面组件缺陷）
+
+> 本日为 9/2 改版「所有 PV>1000 站每站每天 1 篇」以来**第一次 5/5 全产出**
+> （此前连续多日出现 SKIP，9/11 为 2 产出 / 3 SKIP）。
+
+## 一、执行摘要
+
+- **模式**: quick × 6（5 站扩充 + BUILD-008 新站）
+- **扩充**: `sephiriawiki` `themoundwiki` `spiritvalewiki` `tearsofmetalwiki` `grainrotwiki`
+- **新站**: `dressmakerwiki`（BUILD-008，12 篇，score 19）
+- **扩充结果**: **5/5 EXPANDED，全部 QA PASS**，无一件硬写
+- **附带**: 发现并修复**全网络共享组件缺陷**（42/42 站，详见 §四）
+
+**一句话结论**: 扩充首次实现满产且零 SKIP；5 站 QA 全 PASS；当日额外挖出一个
+存在已久、覆盖全部 42 站的渲染缺陷并完成修复与分批部署。
+
+## 二、扩充 5 站 QA 结果
+
+| 站点 | 新增攻略 | 词数 | 选题路径 | QA 结论 | 报告 |
+|------|---------|:--:|:--:|:--:|------|
+| spiritvalewiki | `artifact-sets-guide` | 1,493 | ② 系统清单驱动 | ✅ PASS | `qa-expand-spiritvale-9-12.md` |
+| sephiriawiki | `costume-stats-and-character-unlocks-guide` | 1,329 | ② 系统清单驱动 | ✅ EXPANDED — PASS | `qa-expand-sephiria-9-12.md` |
+| themoundwiki | `voice-chat-fix-guide` | — | ① 官方补丁时间线 | ✅ PASS | `qa-expand-themound-9-12.md` |
+| tearsofmetalwiki | `coop-join-failures-guide` | 1,454 | ② 系统清单驱动 | ✅ PASS | `qa-expand-tearsofmetal-9-12.md` |
+| grainrotwiki | `elevator-modifiers-fuse-guide` | 1,449 | ② 系统清单驱动 | ✅ PASS | `qa-expand-grainrot-9-12.md` |
+
+**选题路径分布值得记录**：5 站中 **4 站由路径②（官方系统清单 × 站内覆盖）
+命中**，仅 1 站走路径①（抱怨驱动）。这直接验证了 9/12 新写入
+`docs/每日内容扩充计划.md` §五与 `04-Profile` 的规则：**抱怨收敛 ≠ 没有缺口**。
+最典型的是 spiritvalewiki —— 路径①已连续 6 次判定「抱怨均落在既有页面」，
+按旧规则即 SKIP；转路径②后**第一次检索即命中**官方明列、站内整块缺失的
+Artifacts 系统。grainrot 同理（路径①收敛，②命中官方商店页明列但站内零命中的
+Elevator modifiers）。**若沿用旧的单路径规则，本日将是 3-4 个 SKIP 而非 5 篇产出。**
+
+**排除编造（重要，防后续误采）**：tearsofmetal 扩充中发现 xmodhub 系站点给出的
+错误码 `0x0001/0004/0012/0029` **无任何来源**，特征符合 AI 生成的 SEO 内容 →
+**刻意未写入**，并已记入该站报告，防止后续 Agent 误当作一手来源采信。
+
+**长期 SKIP 前提被推翻**：tearsofmetal 此前多轮以「9 月无补丁」为由 SKIP，
+本轮核验官方 ISteamNews（appid 1913120）发现 **9/8 存在 'New Bug Fixing Pass'**
+（官方未公布版本号）→ 前提本身是错的。**教训：SKIP 结论的前提 MUST 每轮重新核验，
+MUST NOT 把上一轮的 SKIP 理由当作本轮的事实基础。**
+
+## 三、BUILD-008 — dressmakerwiki
+
+- 12 篇（P0 5 + P1 7），800–1500 词区间内无超标；hub-spoke 互链，独立搜索意图，无自噬
+- 发售前纪律：游戏 **9/21 才发售**，所有源自 demo/prototype 的机制均句内标注
+  `preview-sourced` / `community-reported from the prototype` + 英文 `[Unconfirmed]`；
+  价格、数值、NPC 名、成就、配方一律未编造
+- 归属红线：统一 "developed by **Cozy Lives** and published by **Free Lives**"；
+  `dressmaker-vs-dressmaker-pro.md` 中的错误写法出现在**纠错段**内，属正确用法
+  （**naive grep 会误报，MUST 读上下文再判定**）
+- build gate PASS，25/25 静态页，12 条 `/guides/[slug]` 全 SSG
+- 线上复验：12 条路由 200，sitemap `<loc>` 13 → **20**
+- **QA 结论**：见 `.agent/qa-dressmaker-9-12.md`
+
+## 四、🔴 全网络共享组件缺陷（本日最重要发现）
+
+**缺陷**：`components/ReactMarkdown.tsx` 表格分隔行判定正则
+`/^\|[\s\-:]+\|$/` 的字符类**漏了 `|`**。markdown 分隔行形如 `|---|---|`，
+中间含 `|`，故**永不匹配** → 落入数据行分支被 `split('|')` 切成单元格 →
+渲染为垃圾行 `<td>-------</td>`。**即每站每篇攻略的每张表格，tbody 首行都是这条。**
+
+| 项 | 值 |
+|---|---|
+| 命中面 | **42 / 42 站**（组件为复制关系，无共享包） |
+| 发现路径 | BUILD-008 phase 2 子 Agent 在交接物中主动上报（非本批引入） |
+| 复核 | 主 Agent **未采信单方结论**，独立复核后确认 |
+| 线上实证 | dressmakerwiki P0 release-date 页 **14 处** `<td>-------</td>` |
+| 产物级验证 | 本地构建 grep `<td>-{3,}</td>`：修复前 14 → **修复后 0** |
+| 正则单测 | 8 例全过 — 4 种分隔行判中；4 种数据行（含 `\| Release date \| … \|`）**均未误判** |
+| 线上复验 | 6 站 HTTP 200 / 表格 thead+tbody 正常 / **JUNK=0** |
+| 未覆盖 | **36 站源码已修但未重新部署，线上仍为旧行为**（实测 witchspire 5 / mistfallhunter 10 / aincrad 21 处垃圾单元格） |
+
+**修复**：字符类改为 `[\s\-:|]`，commit `d0a86db`（42 站源码全改）。
+**已重发 6 站**：dressmakerwiki + 5 个扩充站（皆为当日已在途站点，属本次运行范围）。
+**其余 36 站**为纯视觉缺陷、不阻断功能与 AdSense 政策，已连同批量命令记入
+`docs/人工任务清单.md`，待按批次重发（静态站须重建部署才生效）。
+
+**为何长期未被发现（根因，已固化为规则）**：历次 QA 只抽**单站**、只读**源码**、
+未做**产物级**与**全网面**验证。已向 `06-Profile-QA审核员.md` 新增
+「共享组件回归规则」：站级组件 MUST 当 **42 份复制体**看，发现缺陷 MUST 立即
+全站 grep 报**命中站数**，且 MUST 做产物级验证（源码改对而产物未变 = 没修）。
+
+## 五、部署校验的 DNS 陷阱（本日第二次误判拦截）
+
+`tearsofmetalwiki.vercel.app` 本地解析被投毒至 `199.96.63.177`
+（权威 `@8.8.8.8` 应为 `64.29.17.195`）→ 部署脚本校验 curl **exit 28**
+（`m=15` 超时），**表现为「站点挂了」**。经 `--resolve` 改用真实 IP 后
+**HTTP 200 / 55,794 B，内容完全正常**——站点从未故障。
+
+⚠️ **叠加陷阱（已防线化）**：首次巡检时该站 `curl` 返回**空 body**，
+而我当时的判据是「grep 缺陷特征 = 0 命中 → 通过」→ **空响应会让
+「未验证」伪装成「无缺陷」**。已向 `12-Profile-游戏侦察员.md` 补纪律：
+`HTTP=000 / size=0` 一律视为**未验证**，MUST NOT 记为 PASS；
+MUST 同时断言 HTTP 200 与非零 body 长度。**本报告 §二、§四 的所有线上结论
+均已按此重跑。**
+
+## 六、QA Deep 状态
+
+上次 full audit = **2026-09-10**（Part A 8 站 + Part B 41 站脚本化扫描），
+距今 **2 天**，**未逾期**，本轮不触发。下一轮 deep 触发条件：2026-09-17 后。
+
+## 七、遗留与风险
+
+1. **36 站表格缺陷待重发**（见 §四）——已入库、已给命令，纯视觉，非阻断。
+2. **Reddit 通道连续多日不可用** + **9/12 起 Steam 社区通道亦 ECONNREFUSED**
+   → 反馈采集的两大一手来源同时缺失，本轮 5 站均改用官方评测 API
+   （`appreviews`）与官方公告（`ISteamNews`）取得一手样本，**未编造任何
+   Reddit/讨论区内容**，并在涉及页面 Sources 段加 Honesty note 向读者明示缺失维度。
+   建议正式把「官方评测 API + 官方公告 RSS」登记为**降级通道**写入 Profile 18，
+   避免每天重新发现同一问题。
+3. **GA4 凭据不可 pull**（`dashboard/.env.ga4` 两值为空，Vercel 侧被标 Sensitive
+   无法经 CLI 找回）→ PV>1000 名单自 9/2 快照后**无法刷新**，监控员链路仍 ⏸️。
+   须在 GCP 重新签发 service account key（详见人工任务清单）。
+4. **dressmakerwiki 发售日刷新**：价格/成就/itch 原型状态仍为 `[Unconfirmed]`，
+   9/21 发售日须复核转 confirmed；关键词报告建议 9/22–9/25 重跑采集
+   （发售前 72% 种子词零 suggestion）。
+5. **跨站/站内一致性遗留（未动，改动即编造风险）**：spiritvalewiki 的 Corporeal
+   套装描述与社区 DB 冲突（须对游戏内 tooltip 做合规复核）；tearsofmetal
+   `app/page.tsx` 与 `app/faq/page.tsx` 对「village upgrades 是否全队共享」表述冲突。
+6. **sephiriawiki 1.0.33 Known Issues**（敌人穿墙）本轮未展开，候选选题。
