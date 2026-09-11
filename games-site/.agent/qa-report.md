@@ -1203,7 +1203,25 @@ MUST NOT 把上一轮的 SKIP 理由当作本轮的事实基础。**
   （**naive grep 会误报，MUST 读上下文再判定**）
 - build gate PASS，25/25 静态页，12 条 `/guides/[slug]` 全 SSG
 - 线上复验：12 条路由 200，sitemap `<loc>` 13 → **20**
-- **QA 结论**：见 `.agent/qa-dressmaker-9-12.md`
+- **QA 结论**: ✅ **PASS — 0 🔴 / 7 🟡 / 3 🟢**（报告 `.agent/qa-dressmaker-9-12.md`）
+- **独立复核（主 Agent 未采信单方结论）**：QA 拉取线上 Steam `appdetails`（appid 4019220）
+  逐条交叉核验，**零编造** —— 开发/发行归属、发售日、价格为空、`is_free:false`、
+  Windows+macOS 无 Linux、类型、单机、辅助功能分类、配置要求、五类面料全部成立。
+  两项**事实基线未覆盖却被写对**的断言（Steam 成就、三语全音频）经线上复核亦成立。
+- **本批已修 3 项（commit `c06d833`，均已重部署 + 线上复验）**：
+  ① 事实错误——对比表把他站类型写作 "Utilities"，实测应为 Casual / Animation & Modeling /
+  Design & Illustration / Game Development（1487080、1599300 两站一致）；
+  ② meta description 把绿色对齐提示写成既定事实（正文已 hedge，description 漏 hedge，
+  且搜索结果摘要比正文更显眼）；
+  ③ "The game has no failure state" 平铺直断，与另外 4 篇的 "has been described" 口径冲突。
+  ⚠️ 其中 ①**主 Agent 自行拉取 Steam API 复核后才改**，未直接采信 QA 结论。
+- **未修（网络级约定缺口，不宜单站私补）**：12 篇全缺 `sources:` frontmatter 渲染链路 ——
+  `dressmakerwiki/lib/guides.ts` 无该字段、`GuideLayout.tsx` 无 sources 区块，故**即使补了
+  也不会渲染**；新站已端到端支持（`sephiriawiki/lib/guides.ts:18`、
+  `grainrotwiki/lib/guides.ts:18`，渲染于 `sephiriawiki/components/GuideLayout.tsx:72-80`）。
+  属**全站规范决策**，须先定标准再统一推，已列待办。
+- **P0 两篇超词数上限**（beginner-guide 2,213 / release-date 1,798）——800-1500 红线
+  针对**每日扩充精写稿**；hub 类长文性质不同，本轮判**非阻断**，记录待议。
 
 ## 四、🔴 全网络共享组件缺陷（本日最重要发现）
 
@@ -1271,3 +1289,8 @@ MUST 同时断言 HTTP 200 与非零 body 长度。**本报告 §二、§四 的
    套装描述与社区 DB 冲突（须对游戏内 tooltip 做合规复核）；tearsofmetal
    `app/page.tsx` 与 `app/faq/page.tsx` 对「village upgrades 是否全队共享」表述冲突。
 6. **sephiriawiki 1.0.33 Known Issues**（敌人穿墙）本轮未展开，候选选题。
+7. **`sources:` frontmatter 渲染链路缺口（网络级）**：dressmakerwiki 12 篇全部只有行内
+   `*Sources: …*` 页脚，无 frontmatter `sources:` 字段，且组件层不支持渲染。新站（sephiria /
+   grainrot）已端到端打通。**需先定全站规范再统一推**，MUST NOT 单站私自补（补了也不渲染）。
+8. **P0 长文词数**：dressmakerwiki beginner-guide 2,213 词 / release-date 1,798 词超
+   800-1500 —— 该红线针对每日扩充**精写稿**，hub 长文是否一并约束待定，本轮未改。
