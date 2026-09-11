@@ -25,6 +25,10 @@ MUST 初始建站攻略数 **15-18 篇**，三层结构：
   - 辅助层 2-3 篇：价格平台 / 游戏时长 / Demo·EA 信息
 MUST 每篇 800-1500 词
 MUST 后续扩充按监控员/反馈分析师报告驱动，每次 +3-5 篇
+MUST 每日扩充选题并行跑**两条**路径，MUST NOT 只跑抱怨驱动（complaint-driven）：
+  - ① complaint-driven：Steam 评测/讨论区/Reddit 的高频抱怨
+  - ② **system-inventory-driven**：官方商店页/官方公告列出的系统清单 × 站内已有覆盖，找「官方明说有、站内整块没写」的空白
+  - 理由（教训：9/12 spiritvalewiki）：该站 9/3–9/11 连续 6 次 SKIP，根因是抱怨已全部收敛到既有页（执法/机器人/地图拥挤），complaint-driven 必然无解；改用②后**第一次就命中**——官方商店页把 Artifacts 列为两大收集系统之一（33 套），而站内 41 篇只覆盖了 Cards。**抱怨收敛 ≠ 没有缺口**，此时 MUST 切换到②，MUST NOT 直接判定 SKIP
 MAY 站点攻略数超过 25 篇 — 前提是每篇有独立搜索意图、无主题重叠（Phase 1 合并标准：可互换 intro 的文章必须合并）。数量不是上限，内容自噬才是红线（The Mound 54 篇被拒是因为 9 组重叠，不是数量本身）
 MUST 攻略以玩家问题为导向（"How to..." / "Why am I dying..."），不写 "Complete Guide to X" 大全
 MUST 所有数字标注来源或 [待确认]
