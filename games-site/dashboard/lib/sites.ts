@@ -207,4 +207,9 @@ export const SITES: SiteConfig[] = [
     propertyId: 'PENDING',
     gaId: '',
   },
+  {
+    name: 'Dressmaker Wiki',
+    propertyId: 'PENDING',
+    gaId: '',
+  },
 ];
