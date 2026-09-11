@@ -391,7 +391,7 @@ Step 4: 更新 build-history.json（必须）
 Step 5: Dashboard 注册（必须）
   编辑 games-site/dashboard/lib/sites.ts
   添加新站点的 SiteConfig（name, propertyId, gaId）
-  GA ID 未创建时用 "G-PLACEHOLDER" 占位
+  GA ID 未创建时用**空串 `''`**（MUST NOT 用 `"G-PLACEHOLDER"`）——教训：anomalypresidentwiki 曾因 `G-PLACEHOLDER` 在**生产环境每个页面**渲染并发出无效 measurement ID，9/11 才修复。空串会让 GA 组件不渲染，安全；占位符会渲染进线上。
 
 Step 6: 更新站点统计文档（必须）
   编辑 games-site/STATS-游戏站点统计.md
