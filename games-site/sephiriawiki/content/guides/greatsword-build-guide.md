@@ -10,7 +10,7 @@ related: ["weapons-guide", "chapter-6-final-boss-guide", "hard-mode-guide", "mys
 
 # Greatsword Build Guide — Stagger Chains & Boss Shutdown
 
-**Sephiria 1.0 / Updated: August 11, 2026**
+**Sephiria 1.0 / Updated: August 21, 2026**
 
 The Greatsword is the **raw damage and stagger weapon** of Sephiria — a top-tier pick in the 1.0 meta, and a strong answer to boss fights. Where the Staff wins on element stacking and the Crossbow wins on safety, the Greatsword wins by **not letting bosses play the game**: its stagger chains lock enemies down and turn fights into mechanics drills.
 

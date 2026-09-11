@@ -10,7 +10,7 @@ related: ["weapons-guide", "hard-mode-guide", "chapter-6-final-boss-guide", "mys
 
 # Crossbow Build Guide — Sustained DPS & the Safest Hard Mode Weapon
 
-**Sephiria 1.0 / Updated: August 11, 2026**
+**Sephiria 1.0 / Updated: August 21, 2026**
 
 The Crossbow is the **ranged sustained-DPS weapon** of Sephiria — and after the 1.0 launch it sits near the top of the meta, one step below the Staff and Sword & Shield. The reason is simple: the **new upgrade line** added at 1.0 turned it into a weapon with real endgame output, and its range gives it an answer to the two hardest things in the game — the Hard Mode lifesteal modifiers and the Chapter 6 final boss's bullet-hell.
 

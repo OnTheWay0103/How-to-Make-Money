@@ -10,7 +10,7 @@ related: ["weapons-guide", "beginner-guide", "chapter-6-final-boss-guide", "hard
 
 # Sword & Shield Build Guide — The Consistent All-Rounder
 
-**Sephiria 1.0 / Updated: August 11, 2026**
+**Sephiria 1.0 / Updated: August 21, 2026**
 
 Sword & Shield is a **forgiving all-round weapon for most situations** — our assessment of the 1.0 meta. Where other weapons spike and dip depending on their build support, Sword & Shield rarely hits a bad matchup: every upgrade direction is useful, the block keeps you alive through everything, and the 1.0 branch expansion only made it stronger. It's a common recommendation for new players, and it's a completely legitimate pick at the endgame.
 

@@ -15,7 +15,7 @@ sources:
 
 # Hard Mode Guide — the 60-Level Endgame & All 6 Modifiers (1.0)
 
-**Sephiria 1.0 / Updated: August 11, 2026**
+**Sephiria 1.0 / Updated: August 21, 2026**
 
 Hard Mode is Sephiria's endgame challenge — **expanded to level 60 at the 1.0 launch on July 31, 2026**, with **6 modifiers** that change how every run plays. It's the post-ending arc: beat the game, climb again against a harder tower, and push your builds to their ceiling.
 
