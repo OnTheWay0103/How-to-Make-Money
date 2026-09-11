@@ -1150,6 +1150,23 @@
         "FOR HUMAN ADJUDICATION: summoner-guide + necromancer-build-guide describe Corporeal set as 'strengthens summons directly'; community DB documents elemental damage bonuses. Needs a compliance pass against in-game tooltips."
       ],
       "lessons": "EXPAND-026 (9/12): complaint-driven topic selection had converged (6 straight SKIPs) because this game's complaints all map to existing pages. Switching to system-inventory-driven selection (official store page systems × existing guide coverage) found a real gap on the first pass. Recommend adding this step to the daily expansion flow (04-Profile)."
+    },
+    {
+      "game": "Sephiria",
+      "date": "2026-09-12",
+      "genre": "pixel-art action roguelite (TEAM HORAY)",
+      "template": "sephiriawiki existing (no template change)",
+      "mode": "expand-feedback (EXPAND-027, daily per-site, feedback-driven)",
+      "guidesAdded": 1,
+      "guides": 37,
+      "deployed": true,
+      "pipeline": "EXPAND-027 (两路径选题 → costume-stats-and-character-unlocks-guide → QA quick PASS → 修订 costumes-guide 事实错误 → deploy 9/12 → live HTTP 200 70,848B + marker strings + sitemap 45 URL + alias 指向本次部署)",
+      "qa": "QA quick 9/12 — PASS。选题：服装=职业（非皮肤），有真实属性加成/惩罚。官方 1.0.33 公告原文用词 'the costume effect'；站内唯一 costumes-guide 反写「纯外观、无数值」且零服装名/数值/解锁条件 → 新页上线即与旧页互斥（QA 🔴）→ 一并对旧页做事实修订（slug 未改，避免线上 404）。来源 Official 1 / Community 2 / Editorial 4。1,329 词。命名冲突 1 处（White Wolf 解锁 Boss：英文侧 Rataka vs 韩文社区 wiki Lataka，R/L 罗马化歧义）标 [Unconfirmed]；3 处源间数值分歧（Skeleton 效果 / White Rabbit 数值 / 服装总数 19 vs 27）显式标注未挑单方。",
+      "issues": [
+        "⚠️ 版本滞后（需处置）：官方 1.0.33 已于 9/11 发布，但站内 patch 页仍停在 1.0.31；9/11 刚做的『跨页版本一致性刷新』所依据的 1.0.31=最新 已过期。1.0.33 内容量不足以单独成篇（1 Boss 弹幕 + 2 神器 + Heidi 文案 + Scholar Lizard 修复 + UI 文案）。",
+        "已知待触发选题『武器升级材料』仍未达标：'Sephiria Tower Copper' 独立搜索零结果，三语文章全为 xmodhub 同源且该源自身中英版本 tablet 名冲突（Thief's Satchel vs Scavenger），中英侧『武器铁砧 vs 村庄铁匠铺』互斥 → 按 9/9 同一标准判不可验。"
+      ],
+      "lessons": "EXPAND-027 (9/12)：新规则的第二次验证——抱怨驱动 7 类高频抱怨全部落在既有页（netcode ≥6 源 / 掉线重连 ≥4 / 崩溃丢档 ≥3 / 弹幕海 ≥6 / evasion meta ≥5 / 硬模式 2 / 控制器 2），切②系统清单驱动后命中 Costumes。另：采集通道备忘——api.steampowered.com 与 store/api/appdetails 本机 ECONNREFUSED，但商店页 HTML 内嵌官方公告 JSON，一次可取 1.0.31 + 1.0.33 全文，建议登记为 sephiriawiki 稳定一手入口。"
     }
   ],
   "knownIssues": [

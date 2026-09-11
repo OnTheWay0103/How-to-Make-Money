@@ -46,6 +46,7 @@ Sephiria 1.0 launched on **July 31, 2026** on Steam with a **Very Positive** rat
 | [Talents Guide](/guides/talents-guide) | 1.0 talent trees | Intermediate |
 | [Game Length Guide](/guides/game-length-guide) | How long to beat | Starter |
 | [Costumes Guide](/guides/costumes-guide) | Cosmetics & unlocks | Starter |
+| [Costume Stats & Character Unlocks](/guides/costume-stats-and-character-unlocks-guide) | Every costume's stats & hidden unlocks | Starter |
 | [FAQ](/faq) | Quick answers | All |
 
 ---
