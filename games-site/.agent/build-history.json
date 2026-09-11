@@ -1132,6 +1132,24 @@
       "guides": 41,
       "deployed": true,
       "pipeline": "SKIP（0.31.0 仍仅官方单源）+ 线上 🔴 /guides/tier-list 404 → slug 修正为 class-tier-list 并一并对齐 title/description → QA quick PASS → live verify（home 含 class-tier-list、0 个 tier-list 链接）"
+    },
+    {
+      "game": "SpiritVale",
+      "date": "2026-09-12",
+      "genre": "Class-based MMORPG (buy-to-play EA)",
+      "template": "spiritvalewiki existing (no template change)",
+      "mode": "expand-feedback (EXPAND-026, daily per-site, feedback-driven)",
+      "guidesAdded": 1,
+      "guides": 42,
+      "deployed": true,
+      "pipeline": "EXPAND-026 (system-inventory-driven selection → artifact-sets-guide → QA quick PASS → deploy 9/12 → live HTTP 200 69,842B + 11 marker strings + sitemap + 9/9 internal links 200)",
+      "qa": "QA quick 9/12 — PASS. Topic: Artifact sets (which set to wear / where each drops). Selection method switched from complaint-driven to system-inventory-driven (official store page systems × site coverage): official store page names Artifacts as one of two collection systems (33 sets) but all 41 prior guides covered only Cards. Sources Official 3 / Community 1 / Editorial 1. 1,493 words (markdown-stripped). 5 source conflicts disclosed in-page rather than smoothed; Corporeal set described as elemental bonuses with 'summon-specific?' marked [Unconfirmed] (does not contradict existing summoner/necromancer pages).",
+      "issues": [
+        "spiritvale 0.31.0 Dark Fortress: JP wiki now catalogues 0.31.0 (2nd source beyond official) but carries only a 3-line summary, zero mechanic depth → ≥2-independent-source bar still unmet for a depth piece; and official content already sits in updates-patch-notes (self-cannibalization). Not written.",
+        "Trade-lock: evidence still Steam-only (multi-language mirrors of one text batch); same enforcement cluster + same support-ticket channel as account-ban-appeal-guide → self-cannibalization red line. Not written.",
+        "FOR HUMAN ADJUDICATION: summoner-guide + necromancer-build-guide describe Corporeal set as 'strengthens summons directly'; community DB documents elemental damage bonuses. Needs a compliance pass against in-game tooltips."
+      ],
+      "lessons": "EXPAND-026 (9/12): complaint-driven topic selection had converged (6 straight SKIPs) because this game's complaints all map to existing pages. Switching to system-inventory-driven selection (official store page systems × existing guide coverage) found a real gap on the first pass. Recommend adding this step to the daily expansion flow (04-Profile)."
     }
   ],
   "knownIssues": [
