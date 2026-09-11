@@ -3,7 +3,7 @@ title: "Sephiria Crash on Startup / Black Screen Fix — Won't Launch? Force Dir
 description: "Why Sephiria crashes to desktop at launch, hangs on a black screen, or gets stuck on the publisher logo — and how to fix it. Covers the -force-d3d11 launch option, renaming the D3D12 folder, verifying game files, reading the Player.log, save-folder permissions, and the Steam Deck / macOS cases, in priority order."
 category: "Guides"
 version: "1.0"
-updated: "2026-09-11"
+updated: "2026-09-12"
 keywords: ["Sephiria crash on startup", "Sephiria won't launch", "Sephiria black screen", "Sephiria crash fix", "Sephiria force d3d11", "Sephiria D3D12 folder", "Sephiria stuck on logo", "Sephiria launch options"]
 related: ["beginner-guide", "controls-settings-guide", "save-file-guide", "multiplayer-connection-fix-guide", "full-release-guide"]
 sources:
@@ -17,7 +17,7 @@ sources:
 
 # Sephiria Crash on Startup / Black Screen — PC Fixes
 
-> **Sephiria 1.0 / Updated: September 6, 2026**
+> **Sephiria 1.0 / Updated: September 12, 2026**
 
 Your game shows the TEAM HORAY splash for a moment, then drops back to the desktop. Or it opens to a **black screen** — sometimes with the menu music playing, sometimes silent — and never reaches the title. Or it sits on the **publisher logo**, flickering, while the music plays. Startup failures like these have been a recurring support topic for Sephiria since Early Access: the developers have patched them at least twice, a pinned technical-support thread exists on the Steam hub, and at least one dedicated troubleshooting guide has been written for the game ([gameplay.tips](https://gameplay.tips/fixed-solved/sephiria-troubleshooting-guide.html)).
 
@@ -102,7 +102,7 @@ A black screen or a failure to launch cleanly on the very first run can come fro
 
 ### Fix 7: Steam Deck and macOS specifics
 
-- **Steam Deck:** the 1.0.30 update (August 20, 2026) improved a case where the game could close under certain circumstances on Deck ([Official](https://news.17173.com/content/08202026/224633949.shtml)). Make sure Sephiria is on the current build (**1.0.31**, September 10, 2026 — the Deck fix itself landed in 1.0.30) or newer, and test with the Deck's per-game compatibility settings at their defaults before changing anything else.
+- **Steam Deck:** the 1.0.30 update (August 20, 2026) improved a case where the game could close under certain circumstances on Deck ([Official](https://news.17173.com/content/08202026/224633949.shtml)). Make sure Sephiria is on the current build (**1.0.33**, September 11, 2026 — the Deck fix itself landed in 1.0.30) or newer, and test with the Deck's per-game compatibility settings at their defaults before changing anything else.
 - **macOS:** one Steam thread reports the game getting **stuck on the publisher logo** with menu music playing on an M2 MacBook Air, with players trying launch options such as `-force-metal` or `-autoconfig`. This is a **single community report** — treat the specific workarounds as **[Unconfirmed]** — but if you hit the logo hang on a Mac, those two launch options are the known attempts.
 
 ---

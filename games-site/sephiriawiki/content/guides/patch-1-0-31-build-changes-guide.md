@@ -3,8 +3,8 @@ title: "Sephiria 1.0.31 Patch Guide — How to Rework Your Build After the Septe
 description: "Sephiria 1.0.31 (September 10, 2026) added six new weapon upgrades, eight new artifacts and a Comprehensive Training Grounds, and rewrote eleven artifacts and seventeen weapons. Here is what actually changed, which builds it hits, and how to re-test before you spend materials."
 category: "Guides"
 version: "1.0"
-updated: "2026-09-11"
-keywords: ["sephiria 1.0.31", "sephiria patch notes", "sephiria 1.0.31 new artifacts", "sephiria update september 2026", "sephiria build changes", "sephiria blinding silence", "sephiria garden of needle ice", "sephiria bloodletting gearblade", "sephiria cerulean cloud sword arges", "sephiria m-9200 crossbow", "sephiria training grounds"]
+updated: "2026-09-12"
+keywords: ["sephiria 1.0.31", "sephiria patch notes", "sephiria 1.0.33", "sephiria 1.0.31 new artifacts", "sephiria update september 2026", "sephiria build changes", "sephiria blinding silence", "sephiria garden of needle ice", "sephiria bloodletting gearblade", "sephiria cerulean cloud sword arges", "sephiria m-9200 crossbow", "sephiria training grounds"]
 related: ["weapons-guide", "artifacts-guide", "builds-guide", "sword-shield-build-guide", "greatsword-build-guide", "katana-build-guide", "crossbow-build-guide"]
 sources:
   - tier: "Official"
@@ -13,6 +13,8 @@ sources:
     text: "The 1.0.31 notes carry the developers' own community-feedback marker: the announcement states that a carrot icon indicates improvements made based on community feedback. Ten entries in this patch are carrot-marked, including restoration of weapon-slot skills to quick slots when weapon input customisation is disabled, quest-progression fixes when several quests run at once, a Chapter 1 costume that could not be unlocked, the Chapter 6 earthquake cutscene replaying after visiting another area, potions dropping on the ground when potion slots decrease, and three multiplayer changes (spectating ending when the spectated player changes area, dropped bound items becoming visible to all players, and a chat character limit with tag formatting blocked). TEAM HORAY collects reports on their Discord and on the Steam Discussions hub for the game, which is also the channel the announcement points players to"
   - tier: "Editorial"
     text: "Aggregated player-sentiment analysis for Sephiria has consistently flagged weapon-balance diversity and boss health as the two most-cited design complaints, which is the context these weapon rewrites land in (VaporLens churn and retention analysis, app 2436940; data snapshot through August 2026, so it predates 1.0.31). September 2026 coverage of the game is otherwise positive: a September 5, 2026 blog review published during the same window as this patch treats the game favourably and focuses on its Steam Deck performance rather than on build mechanics. No third-party outlet had published a breakdown of the 1.0.31 contents at the time this guide was written, so nothing here is restated from secondary coverage"
+  - tier: "Official"
+    text: "The '1.0.33 Update' Steam announcement (Steam app 2436940) was posted September 11, 2026, and its full text was read for the appendix at the end of this guide: the Demonic Grimoire miniboss-pattern improvement, the Qliphoth pause/abandon fix, the two Meteorite Pauldrons Solar Blade fixes, the Master's Tsuba effect change (Sheath and Unsheath invincibility from a flat 0.05/0.15/0.25 seconds to 40/70/120%), the Heidi effect-text update, the Scholar Lizard costume fix, the UI text pass, the Comprehensive Training Grounds tutorial-popup fix, and the opening Known Issues note about enemies moving outside walls. No 1.0.32 announcement sits between 1.0.31 and 1.0.33"
 ---
 
 # Sephiria 1.0.31 Patch Guide — How to Rework Your Build After the September 10 Update
@@ -40,7 +42,7 @@ Four of the eight **evolve** after a counted trigger, which is the theme of this
 | Artifact | Base | Evolves into |
 |---|---|---|
 | **Faded Shield Crest** | Weapon Damage +5/10/15 | After **50 Perfect guards** → **Crest of the Iron Wall**: Weapon Damage +15/20/25, Block cost −20/30/40% |
-| **Rusty Tsuba** | Weapon Damage +2/4/6 | After **30 blocks with Unsheath/Sheath** → **Master's Tsuba**: Weapon Damage +5/10/15, Sheath/Unsheath invincibility +0.05/0.15/0.25 s |
+| **Rusty Tsuba** | Weapon Damage +2/4/6 | After **30 blocks with Unsheath/Sheath** → **Master's Tsuba**: Weapon Damage +5/10/15, Sheath/Unsheath invincibility +0.05/0.15/0.25 s **[superseded by 1.0.33 — see the appendix]** |
 | **Trainee Duelist's Epaulette** | Fires a sword spirit at the nearest enemy on a successful **Special Attack: Parry** | → **Duelist's Epaulette**: also fires on a **Fury** hit or the **final strike of the Normal Attack combo** (350%) |
 | **Dull Resonance Stone** | Highest Elemental Damage +2/4/6/8 | At **140%+ Move Speed** → **Resonance Stone**: Highest Elemental Damage +8/10/12/14 |
 | **Stiff Crank** | Crossbow Reload Speed +5/10 | After **50 Reloads** → **Marksman's Crank**: Reload Speed +10/20, **+30/40%** Normal and Special Attack damage for **10 s** after a Reload |
@@ -75,7 +77,36 @@ A: Yes. 1.0.31 removed **Magic Wand** and replaced it with **Prismatic Magic Wan
 A: **Blood Stone Ring** and **Vital Touch** are full rewrites, not tuning. If either sat in your grid for its old behaviour, the old advice no longer applies. [Official]
 
 **Q: Is 1.0.31 the latest build?**
-A: Yes, as of **September 11, 2026** — posted **September 10, 2026**, three weeks after **1.0.30** (August 20, 2026). [Official]
+A: No. The current build is **1.0.33**, posted **September 11, 2026** — the day after 1.0.31 (**September 10, 2026**, which was itself three weeks after **1.0.30** on August 20, 2026). 1.0.33 is a small follow-up that fixes a boss pattern and a handful of artifact, costume and UI issues rather than adding content, so everything in this 1.0.31 guide still stands — with the single exception flagged in the appendix below. [Official]
+
+## Appendix: What 1.0.33 Changed (September 11, 2026)
+
+**1.0.33 is a correction pass, not a second feature patch.** It landed the day after 1.0.31, adds **no** weapon upgrades, **no** new artifacts and **no** new areas, and mostly cleans up things 1.0.31 introduced or disturbed. If you already reworked your build for 1.0.31, nothing here sends you back to the blacksmith. [Official]
+
+**Bosses**
+
+- **Demonic Grimoire** — improved a miniboss pattern that could hit the player repeatedly in quick succession. [Official]
+- **Qliphoth** — fixed an issue where the game could not be paused or abandoned when the player and the boss died at the same time. (Carrot-marked: community-reported.) [Official]
+
+**Artifacts**
+
+- **Meteorite Pauldrons** — fixed an issue where certain Solar Blade-related bonuses were not applied to the damage dealt on retrieving the Solar Blade, and a separate issue where that retrieval damage was **doubled** in certain situations. If you run the Solar Blade package from the 1.0.31 table above, this is a straight correction in your favour. [Official]
+- **Master's Tsuba** — effect changed. Weapon Damage stays **+5/10/15**, but the Sheath and Unsheath invincibility bonus moves from a flat **+0.05/0.15/0.25 seconds** to **+40/70/120%**. Master's Tsuba is the evolved form of **Rusty Tsuba**, so this is the one line in the 1.0.31 table above that 1.0.33 supersedes; the percentage version scales with your build instead of being a fixed window. [Official]
+
+**Weapons**
+
+- **Heidi** — effect text updated to match the actual effect. No numeric change was announced, so the 1.0.31 Heidi description in this guide still describes her behaviour; only the in-game wording moved. [Official]
+
+**Costumes**
+
+- **Scholar Lizard** — fixed an issue where the costume effect could be removed by a certain weapon. (Carrot-marked.) [Official]
+
+**UI and bug fixes**
+
+- Adjusted some text to read more naturally. (Carrot-marked.) [Official]
+- Fixed an issue where the **Comprehensive Training Grounds** tutorial popup could appear while the ending popup was open — a follow-up to the Training Grounds added in 1.0.31. (Carrot-marked.) [Official]
+
+**Known issues the announcement opens with:** enemies moving outside of walls. TEAM HORAY suspects the new collision system introduced in **1.0.31** to fix the final-stage corner-stuck problem, states they have not been able to reproduce it, and is asking players for video footage. That is an open issue, not a regression that invalidates the 1.0.31 build advice above. [Official]
 
 ## Related Guides
 
@@ -86,3 +117,4 @@ A: Yes, as of **September 11, 2026** — posted **September 10, 2026**, three we
 - [Great Sword Build Guide](/guides/greatsword-build-guide) — where Bloodletting Gearblade fits
 - [Katana Build Guide](/guides/katana-build-guide) — the Blade branch and the Arges node
 - [Crossbow Build Guide](/guides/crossbow-build-guide) — M-9200 and the Stiff Crank line
+- [Artifacts Guide](/guides/artifacts-guide) and [Costumes Guide](/guides/costumes-guide) — where the 1.0.33 Meteorite Pauldrons and Scholar Lizard fixes land

@@ -3,7 +3,7 @@ title: "Sephiria Co-op Freeze Fix — 'Can't Interact' Bug, Missing Reconnect & 
 description: "In Sephiria co-op a client can freeze mid-run: you keep moving but can't attack, interact, or see your teammates, and because there is no reconnect option a drop usually ends the run. Covers what the freeze bug is, why Steam friend invites beat room codes, and the host-save recovery flow for dropped runs."
 category: "Guides"
 version: "1.0"
-updated: "2026-09-11"
+updated: "2026-09-12"
 keywords: ["sephiria co-op freeze", "sephiria co-op stuck bug", "sephiria can't interact multiplayer", "sephiria disconnect lost run", "sephiria reconnect", "sephiria co-op bug fix", "sephiria friend invite room code", "sephiria multiplayer frozen", "sephiria desync vs freeze"]
 related: ["multiplayer-connection-fix-guide", "coop-guide", "save-file-guide", "controls-settings-guide", "full-release-guide", "beginner-guide"]
 sources:
@@ -52,14 +52,14 @@ Players and patch notes point to several triggers:
 - **A Chapter 6 co-op game over freezing progress** — fixed in **1.0.28 / 1.0.29 (Aug 14)**. [Official]
 - **Chapter 5 kick issues** — patched in **1.0.30 (Aug 20, 2026)**. [Official]
 
-The honest read: "the freeze" is a family of bugs fixed one variant at a time through August (1.0.23 → 1.0.30), so new triggers can still surface and prevention matters even on the current build (**1.0.31**, September 10, 2026).
+The honest read: "the freeze" is a family of bugs fixed one variant at a time through August (1.0.23 → 1.0.30), so new triggers can still surface and prevention matters even on the current build (**1.0.33**, September 11, 2026 — 1.0.31 landed September 10 and neither changed the freeze class).
 
 ## The Missing Reconnect Feature
 
 A drop is so punishing because Sephiria has **no way to rejoin a live session**. If a client disconnects or crashes, the character is gone for that run — in a boss fight that often means death and a lost run.
 
 - "Missing reconnection" repeatedly ranks among the **top negative themes** in review aggregation; model estimates put the disconnect rate near **4 in 10 sessions for some hosts** — treat as a heuristic, not a measurement. [Editorial — VaporLens model output, **[Unconfirmed]**]
-- The developers said in a **late-June 2026 announcement** that a reconnect feature was **in development and being QA-tested**. It has not appeared in any patch note through **1.0.30** (August 20, 2026), so it is planned, not available; whether 1.0.31 (September 10, 2026) shipped one is **[Unconfirmed]** to us. [Official — announcement summary, **[Unconfirmed]** status]
+- The developers said in a **late-June 2026 announcement** that a reconnect feature was **in development and being QA-tested**. It has not appeared in any patch note through **1.0.33** (September 11, 2026), so it is still planned, not available. [Official — announcement summary, **[Unconfirmed]** status]
 - Third-party players have built **BepInEx-based mods** adding IP co-op and reconnection for the Chinese community — at your own risk and outside official support, their existence mainly shows demand for the feature. [Community]
 
 Until reconnect ships, the recovery flow below is the only supported way to resume a broken session.
@@ -97,18 +97,18 @@ For file-level backup and restore — the save folder, Steam Cloud pitfalls, SLO
 A: Almost certainly not normal lag — that matches the co-op freeze bug. Ask your teammates if you appear frozen, then hard-close and rejoin via a fresh host invite. [Community]
 
 **Q: Can a dropped friend rejoin the same session?**
-A: Not live as of 1.0.30 (August 20, 2026) — no reconnect option; whether 1.0.31 (September 10, 2026) changed that is **[Unconfirmed]**. The host saves at a rest zone, closes and recreates the lobby, and sends a fresh invite. [Editorial / Official]
+A: Not live as of 1.0.33 (September 11, 2026) — no reconnect option appears in any patch note through that build. The host saves at a rest zone, closes and recreates the lobby, and sends a fresh invite. [Editorial / Official]
 
 **Q: Room codes or friend invites?**
 A: Use Steam friend invites — the community's main co-op bug thread found room codes froze far more often. [Community]
 
 **Q: Has the co-op freeze been fixed?**
-A: Specific variants were fixed across 1.0.23 → 1.0.30 [Official], but the bug class persisted into late August. The current build is **1.0.31** (September 10, 2026); whether the freeze class still reproduces there is **[Unconfirmed]**, so use the prevention and recovery steps above.
+A: Specific variants were fixed across 1.0.23 → 1.0.30 [Official], but the bug class persisted into late August. The current build is **1.0.33** (September 11, 2026), and no freeze-class fix is listed in the 1.0.31 or 1.0.33 notes; whether the freeze class still reproduces there is **[Unconfirmed]**, so use the prevention and recovery steps above.
 
 **Q: Is there a reconnect feature?**
-A: Not yet — announced in development in late June 2026, but no patch note through 1.0.30 (August 20, 2026) lists it, and whether 1.0.31 (September 10, 2026) added one is **[Unconfirmed]**. Until it ships, a drop means the run is on the host's save. [Official / **[Unconfirmed]** status]
+A: Not yet — announced in development in late June 2026, but no patch note through 1.0.33 (September 11, 2026) lists it. Until it ships, a drop means the run is on the host's save. [Official / **[Unconfirmed]** status]
 
-**Source note:** The Steam Community thread "Fun game, but a reeeally bad coop bug" ([steamcommunity.com/app/2436940/discussions/0/596283752196609510](https://steamcommunity.com/app/2436940/discussions/0/596283752196609510/)) is the anchor Community source — it exists in English, French and Chinese, includes multiple players and a developer reply, and was still indexed on 2026-09-04. Steam post bodies could not be captured directly (age-gate), so only indexed content was used and no player quotes were invented. Official patch references are to the [17173 mirrors](https://news.17173.com/tag/%E8%B5%9B%E8%8F%B2%E8%8E%89%E5%A8%85) of 1.0.23/1.0.24/1.0.28/1.0.30 and Steam announcements; editorial synthesis draws on the xboxplay.games fix guide (Aug 11, 2026) and VaporLens aggregation. Single-source or model-derived details are marked **[Unconfirmed]**.
+**Source note:** The Steam Community thread "Fun game, but a reeeally bad coop bug" ([steamcommunity.com/app/2436940/discussions/0/596283752196609510](https://steamcommunity.com/app/2436940/discussions/0/596283752196609510/)) is the anchor Community source — it exists in English, French and Chinese, includes multiple players and a developer reply, and was still indexed on 2026-09-04. Steam post bodies could not be captured directly (age-gate), so only indexed content was used and no player quotes were invented. Official patch references are to the [17173 mirrors](https://news.17173.com/tag/%E8%B5%9B%E8%8F%B2%E8%8E%89%E5%A8%85) of 1.0.23/1.0.24/1.0.28/1.0.30 and the Steam "1.0.31 Update" (September 10, 2026) and "1.0.33 Update" (September 11, 2026) announcements, both read in full — neither lists a reconnect feature or a freeze-class fix; editorial synthesis draws on the xboxplay.games fix guide (Aug 11, 2026) and VaporLens aggregation. Single-source or model-derived details are marked **[Unconfirmed]**.
 
 ## Related Guides
 
