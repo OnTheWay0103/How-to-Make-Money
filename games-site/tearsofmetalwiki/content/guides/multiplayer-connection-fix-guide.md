@@ -3,14 +3,14 @@ title: "Tears of Metal Multiplayer & Connection Fix Guide — Desync, Lag & Cros
 description: "Fix Tears of Metal co-op problems: the known desync issues (developer-confirmed, being fixed), who should host, how crossplay works between Steam and Microsoft Store / PC Game Pass (and why it breaks after each patch), and every connection workaround that helps until the fix lands."
 category: "Guides"
 version: "Early Access"
-updated: "2026-09-11"
+updated: "2026-09-12"
 keywords: ["tears of metal desync fix", "tears of metal multiplayer lag", "tears of metal co-op not working", "tears of metal crossplay", "tears of metal multiplayer fix", "tears of metal game pass co-op"]
-related: ["co-op-guide", "beginner-guide", "patch-notes", "save-system-guide"]
+related: ["co-op-guide", "beginner-guide", "patch-notes", "save-system-guide", "coop-join-failures-guide"]
 ---
 
 # Tears of Metal Multiplayer & Connection Fix Guide — Desync, Lag & Crossplay
 
-> **Early Access / Updated: September 11, 2026**
+> **Early Access / Updated: September 12, 2026**
 
 Tears of Metal is built for 4-player co-op — and "**Multiplayer has technical issues**" is a recurring theme in its reviews. The good news: the developers have **publicly confirmed desync fixes are their #2 priority** (behind mid-campaign saves), and a recent update already improved things. This guide covers the current state, who should host, the crossplay situation, and every workaround that helps today.
 
@@ -62,7 +62,7 @@ Like most small-studio co-op games, Tears of Metal is **host-based**: the host's
 
 ## What a Recent Update Already Fixed
 
-Post-launch updates have already shipped the **save recovery system** and the **Iseult the Banshee softlock fix** (both in **v0.9.57408**, July 28, 2026), a **networking overhaul** plus the health-cost co-op revive (**v0.12.58540**, August 13, 2026), and a further round of **multiplayer desync, boss-spawn and campaign-map fixes** (**v0.14.58630**, August 14, 2026 — the current build). Multiplayer desync remains on the confirmed list: the next patch is an announced "big push for stability," with no date. The [Patch Notes & Roadmap](/guides/patch-notes) page tracks it (we update within 48 hours).
+Post-launch updates have already shipped the **save recovery system** and the **Iseult the Banshee softlock fix** (both in **v0.9.57408**, July 28, 2026), a **networking overhaul** plus the health-cost co-op revive (**v0.12.58540**, August 13, 2026), a further round of **multiplayer desync, boss-spawn and campaign-map fixes** (**v0.14.58630**, August 14, 2026), and then — three and a half weeks later — the **September 8, 2026 "Big Bug Fixing Pass"** (published with no version number), which improved **Epic Online Services connection handling** and added **clearer player-facing error messages for common multiplayer problems**. If your problem is getting *into* a lobby rather than lagging once you are in it, the [Co-op Join Failures Guide](/guides/coop-join-failures-guide) covers that separately. Multiplayer desync itself remains on the confirmed list — improved, not eliminated. The [Patch Notes & Roadmap](/guides/patch-notes) page tracks every build (we update within 48 hours).
 
 ---
 

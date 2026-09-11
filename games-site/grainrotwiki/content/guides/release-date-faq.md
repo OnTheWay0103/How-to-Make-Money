@@ -122,7 +122,7 @@ No official statement. Runs are extraction-based; expect session lengths to depe
 The setting is confirmed (a scorched wasteland where everything burns; the Rot; the cursed elevator; the Living Sparks; survivors to rescue). A narrative campaign, endings, or story modes have not been detailed.
 
 ### Will there be post-launch content?
-Unannounced. No roadmap, seasons, or DLC have been confirmed.
+Yes — the developer published a post-launch plan, **"What's Next for GRAIN ROT,"** on **August 12, 2026**: a public lobby browser, a new construct batch and vessel, a **September "Deep Layers Update"** (one new biome, several new enemies) and an **October "Halloween Update"** (third Outpost floor, new questline). No seasons, paid DLC or microtransactions have been announced. See the [Patch Notes & Update History](/guides/patch-notes-guide).
 
 ### What do I need to play?
 See the system requirements above. Broadband internet is required for co-op.

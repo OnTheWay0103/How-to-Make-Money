@@ -73,7 +73,7 @@ const FAQ_ITEMS = [
   {
     question: 'Will there be post-launch content?',
     answer:
-      'Unannounced. No roadmap, seasons, DLC, or microtransactions have been confirmed. The launch package is the full game.',
+      'Yes. The developer published a post-launch plan ("What\'s Next for GRAIN ROT", August 12, 2026): a public lobby browser, a new construct batch and vessel, a September "Deep Layers Update" with one new biome and several new enemies, and an October "Halloween Update" with a third Outpost floor and a new questline. No seasons, paid DLC or microtransactions have been announced. See the Patch Notes & Update History guide for the full breakdown.',
   },
   {
     question: 'How do I report bugs or give feedback?',

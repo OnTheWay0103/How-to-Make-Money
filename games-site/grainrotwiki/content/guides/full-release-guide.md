@@ -126,7 +126,7 @@ If you played the demo, you have a real head start — on *skill*, not progressi
 
 ## What About Post-Launch Content?
 
-The developers have not announced a roadmap, DLC, seasons, or live events. The confirmed launch package is the game itself, and no microtransactions have been announced. We'll update this page (and the rest of the wiki) with verified post-launch data as it appears.
+**Update (September 12, 2026):** this section originally read that no roadmap had been announced. That is no longer correct — the developer published a post-launch plan, **"What's Next for GRAIN ROT,"** on **August 12, 2026**, covering a public lobby browser, a new construct batch and vessel, a **September "Deep Layers Update"** (one new biome, several new enemies) and an **October "Halloween Update"** (third Outpost floor, new questline). No seasons, paid DLC or live-service events have been announced, and still no microtransactions. The full breakdown lives on the [Patch Notes & Update History](/guides/patch-notes-guide) page.
 
 ## FAQ
 

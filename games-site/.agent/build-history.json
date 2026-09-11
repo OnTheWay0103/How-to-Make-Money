@@ -1184,6 +1184,41 @@
         "顺修站内自相矛盾：coop-strategy-guide L72『Voice chat and lobby codes work across platforms』vs 排障表『Cross-platform voice broken → 用第三方语音』；后者 1.05 后过时且与官方建议（用游戏内语音，空间音频+理智效果）冲突 → 已指向 1.05 官方修复并链新页；controls-settings-guide 排障条目追加链出。改动 3 处，均在本站内。"
       ],
       "lessons": "EXPAND-028 (9/12)：路径②（系统清单驱动）本轮**跑过且无空白**——Steam appdetails / NACON 官方商品页所列系统逐条对站内 37 篇均已有页面（唯一半空白 Occult Item 珠宝箱商店因官方无坐标、<3 来源维持否决）。说明②不是万能钥匙，跑过即可判 SKIP。采集通道恶化：Reddit 全域不可达、steamcommunity.com 全域 ECONNREFUSED → 改用官方评测 API 取 100 条一手样本，正文 Sources 段加 Honesty note 明示读者，未编造。"
+    },
+    {
+      "game": "Tears of Metal",
+      "date": "2026-09-12",
+      "genre": "Scottish action roguelike (Paper Cult)",
+      "template": "tearsofmetalwiki existing (no template change)",
+      "mode": "expand-feedback (EXPAND-029, daily per-site, feedback-driven)",
+      "guidesAdded": 1,
+      "guides": 33,
+      "deployed": true,
+      "pipeline": "EXPAND-029 (路径①收敛 → 路径②系统清单驱动 → coop-join-failures-guide → QA quick PASS → deploy 9/12 → live 200 64,592B + 公告逐字串 + alias 指向本次部署)",
+      "qa": "QA quick 9/12 — PASS。选题：Join 后卡 Lobby / 房间不出现 / 秒超时。根因=每次补丁后 Steam 构建跑在 MS Store/PC Game Pass 构建之前，跨平台兼容被官方临时禁用（逐字：'Crossplay compatibility is temporarily disabled on this version'）→ 需切 crossplay beta 分支。来源 Official 2 / Community 1 / Editorial 1。1,454 词。与新页/旧页之间加双向 Scope note（新页只管「进不去」，旧页管「进去后 desync/lag/host」）避免自噬。",
+      "issues": [
+        "🔴 既有判断被推翻：长期认为『Tears of Metal 9 月无补丁』是**错的**——官方 ISteamNews（appid 1913120）显示 **9/8 有 'New Patch - Big Bug Fixing Pass'**（未公布版本号）。此前多轮 SKIP 均建立在错误前提上。",
+        "⚠️ 排除编造：xmodhub 系错误码 0x0001/0x0004/0x0012/0x0029 无可核验来源（疑似 AI 生成 SEO 内容）→ 刻意未写入；建议记入反馈报告防后续误采。",
+        "顺修两处已失真上线页：patch-notes.md 原称最新构建 v0.14.58630 并标 'This is the current build'（改为按日期记账 + 明确提示「指南里标的 v0.15 不是开发者版本号」）；multiplayer-connection-fix-guide.md 未含 9/8 补丁。"
+      ],
+      "lessons": "EXPAND-029 (9/12)：**长期 SKIP 判断本身可能是错的**——多轮以「9 月无补丁」为由 SKIP，实际官方 news API 一直有 9/8 补丁。教训：SKIP 结论 MUST 每轮重新核验其前提，MUST NOT 把上轮的 SKIP 理由当作本轮的事实基础。"
+    },
+    {
+      "game": "Grain Rot",
+      "date": "2026-09-12",
+      "genre": "Co-op Survival Horror (Beck & Branch Games / Neem Interactive)",
+      "template": "grainrotwiki existing (no template change)",
+      "mode": "expand-feedback (EXPAND-030, daily per-site, feedback-driven)",
+      "guidesAdded": 1,
+      "guides": 31,
+      "deployed": true,
+      "pipeline": "EXPAND-030 (路径①判定收敛 → 路径②命中官方明列但站内整块缺失的 Elevator modifiers → elevator-modifiers-fuse-guide → QA quick PASS → deploy 9/12 → live 200 61,300B + 商店页逐字串 + alias 指向本次部署)",
+      "qa": "QA quick 9/12 — PASS。选题：清完层回电梯门关不上（备用引信找不到 → 整队出不去，一局收益全废）。来源 Official 2 / Community 1 / Editorial 1；符号含义逐条标 [Unconfirmed]。1,449 词。与 rot-debuff-guide 加双向 Scope note 避免自噬。",
+      "issues": [
+        "✅ 路径②有效性第二次证明：官方商店页 1.0 清单与 8/12 官方 roadmap 逐项对照，发现官方明列的 **Elevator modifiers 系统站内整块缺失**（全站 grep fuse/elevator/modifier/symbol 零命中）。**路径②不依赖新补丁**——Grain Rot 9 月确无新补丁（最新仍 1.09 / 8/28），该题依然成立。",
+        "顺修三处自相矛盾：full-release-guide.md / release-date-faq.md / app/faq/page.tsx 仍称「无 roadmap / DLC / 赛季」，而站内 patch-notes-guide.md 早已记录 8/12 官方 roadmap → 全部同步为官方计划摘要并互链。"
+      ],
+      "lessons": "EXPAND-030 (9/12)：路径①跑出「高频抱怨已被现有页面吃掉」**不构成 SKIP 信号**（按 9/12 新规则转②），②随即命中官方明列却整块缺失的系统。『抱怨收敛 ≠ 没有缺口』第二次实证。"
     }
   ],
   "knownIssues": [
