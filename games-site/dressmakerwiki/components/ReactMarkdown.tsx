@@ -76,7 +76,7 @@ function parseMarkdown(md: string): string {
         headerRow = line;
         continue;
       }
-      if (line.match(/^\|[\s\-:]+\|$/)) {
+      if (line.match(/^\|[\s\-:|]+\|$/)) {
         // Separator row, skip
         continue;
       }
