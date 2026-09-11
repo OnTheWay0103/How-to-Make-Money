@@ -16,6 +16,24 @@ MUST 种子词覆盖：游戏名 / 游戏名+guide / 游戏名+wiki / 游戏名+
 MUST NOT 凭空编造关键词
 MUST NOT 直接复制其他网站的关键词列表（如 semrush/ahrefs 抓取的数据）
 
+### 采集前置：DNS 投毒排查（2026-09-12 实测，MUST 先做）
+
+MUST NOT 把 Suggest 请求失败直接判为「被墙 / 需要代理」。本机 DNS 会把
+`suggestqueries.google.com` 解析到 `69.63.176.59`（Meta 的 IP）→ curl 报 SSL 错误。
+真实机理是 **DNS 投毒**，用 `--resolve` 指定真实 Google IP 即可直连，**不需要代理**：
+
+```
+# 取真实 IP（8.8.8.8 解析）
+dig +short @8.8.8.8 suggestqueries.google.com   # → 172.217.194.139 / .113 / .101
+# 直连
+curl --resolve suggestqueries.google.com:443:172.217.194.139 'https://suggestqueries.google.com/...'
+```
+
+同一手法适用于 Steam API（`api.steampowered.com` / `store.steampowered.com/api/...`
+本机 ECONNREFUSED 时，改用商店页 HTML 内嵌 JSON 或 `--resolve`）。
+注意：**harvest 脚本已归档到 `docs/archive/`**（根目录不再有 `harvest-*.mjs`）——
+采集器需按需自建（纯 node，无 npm 依赖），MUST NOT 假设旧路径存在。
+
 ## 去噪规则
 
 MUST 过滤：无搜索意图的词、明显属于其他同名游戏的词

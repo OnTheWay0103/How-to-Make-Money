@@ -83,11 +83,17 @@ games-site/
     app/api/                     # GA4 数据代理 API
     components/                  # React 组件
     lib/                         # GA4 客户端、站点注册表
-  harvest-keywords.mjs           # 关键词采集（Google Suggest API）
-  harvest-light.mjs              # 轻量版采集
-  harvest-curl.sh                # curl 快速验证
   keyword-results/               # 关键词调研数据
 ```
+
+> ⚠️ **harvest 脚本已归档**（`e95cfe1`，7/31）。根目录不再有 `harvest-keywords.mjs` /
+> `harvest-light.mjs` / `harvest-curl.sh` —— 全部移入 `docs/archive/`，采集改走
+> `.claude/skills/harvest-keywords.md`（Agent 驱动）。**别再按旧路径找脚本**（9/12 有 Agent
+> 因此白写了一个采集器）。
+>
+> 采集前必读（2026-09-12 实测）：本机 DNS 会把 `suggestqueries.google.com` 污染到
+> `69.63.176.59`（Meta IP）导致 SSL 失败 —— **这不是"被墙"，是 DNS 投毒**，
+> 用 `--resolve` 指定真实 IP 即可直连，不需要代理。
 
 ## 核心文档
 
