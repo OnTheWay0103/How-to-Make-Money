@@ -34,6 +34,35 @@ MUST 搜索范围包含**非英文 wiki**：
 MUST NOT 写「零 wiki」除非已完成上述全面检查
 MUST 若发现非英文 wiki，标注「英文零竞争，中文/日文已有 wiki（不构成英文 SEO 竞争）」
 
+## 采集通道规则（2026-09-12 实测固化）
+
+MUST NOT 把 Steam / Google API 的请求失败直接判为「被墙 / 需要代理」——**本机 DNS 被投毒**，
+解析会指向无关 IP（实测：`store.steampowered.com`→`59.151.137.185`、
+`steamcommunity.com`→`31.13.88.26`、`suggestqueries.google.com`→`69.63.176.59`(Meta)），
+表现为 SSL 错误或 ECONNREFUSED。**这不是封锁，用 `--resolve` 指定真实 IP 即可直连**：
+
+```
+dig +short @8.8.8.8 store.steampowered.com     # 或走 AliDNS DoH 取真实 IP
+curl --resolve store.steampowered.com:443:<真实IP> 'https://store.steampowered.com/...'
+```
+
+备用入口（DNS 修不好时）：`api.steampowered.com/ISteamNews`（官方公告，
+实测可用）、Steam 商店页 HTML 内嵌 JSON、第三方镜像（须与一手来源交叉核对）。
+⚠️ 若某通道确实全域不可达，MUST 如实记录该维度缺失，MUST NOT 编造数据补齐。
+
+**投毒是逐域名的、会变，MUST NOT 用「别的域名能通」推断本域名也通**
+（2026-09-12 补充）：同日 `dressmakerwiki.vercel.app` 本地解析正常、
+`tearsofmetalwiki.vercel.app` 却被解析到 `199.96.63.177`（权威答案应为
+`64.29.17.195`）→ 部署校验脚本的 curl 超时（exit 28），**看起来像「站点挂了」，
+实际站点 200 且内容完全正常**。
+
+MUST 对**部署后校验/线上验收**同样执行本节的 `--resolve` 手法，MUST NOT 因
+curl 失败就判定部署失败或站点故障；判定故障前 MUST 先 `dig +short @8.8.8.8`
+比对权威解析。
+⚠️ 推论：`curl` 返回空 body 时**不得**把它当作「检查通过」——空响应会让
+「grep 缺陷特征 = 0 命中」伪装成「无缺陷」。MUST 同时断言 HTTP 200 与
+非零 body 长度，`HTTP=000 / size=0` 一律视为**未验证**，MUST NOT 记为 PASS。
+
 ## 数据真实性规则
 
 MUST 所有数据（wishlist/评测数/CCU/销量）标注来源

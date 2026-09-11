@@ -1219,6 +1219,26 @@
         "顺修三处自相矛盾：full-release-guide.md / release-date-faq.md / app/faq/page.tsx 仍称「无 roadmap / DLC / 赛季」，而站内 patch-notes-guide.md 早已记录 8/12 官方 roadmap → 全部同步为官方计划摘要并互链。"
       ],
       "lessons": "EXPAND-030 (9/12)：路径①跑出「高频抱怨已被现有页面吃掉」**不构成 SKIP 信号**（按 9/12 新规则转②），②随即命中官方明列却整块缺失的系统。『抱怨收敛 ≠ 没有缺口』第二次实证。"
+    },
+    {
+      "game": "Dressmaker",
+      "date": "2026-09-12",
+      "genre": "Cozy tailor/life-sim — design, cut and sew dresses to customer orders (Cozy Lives / Free Lives)",
+      "template": "welcomeelderfieldwiki scaffold lineage + pre-release honesty/[Unconfirmed] pattern",
+      "mode": "new-build (BUILD-008, score 19, zero wiki EN/CN/JP; pre-release, launches 2026-09-21)",
+      "guides": 12,
+      "guidesAdded": 12,
+      "deployed": true,
+      "score": 19,
+      "pipeline": "BUILD-008 (scout → keyword-results/Dressmaker.md 1083 raw → 848 unique → 73 game-intent → 12 suggested, P0 5 + P1 7 → phase 1 P0 5 guides + scaffold + GA '' + dashboard register → phase 2 P1 7 guides → build gate PASS → deploy → live verify 12 routes 200, sitemap 13→20 locs)",
+      "qa": "QA quick dispatched 2026-09-12 → .agent/qa-dressmaker-9-12.md (verdict pending at time of writing)",
+      "issues": [
+        "Pre-release (launches 2026-09-21, 9 days after build): price unannounced, achievements unpublished, whether the itch prototype stays live unknown — all carried as [Unconfirmed] (English marker). Manual task logged for a 9/21 launch-day refresh; keyword report recommends re-harvesting 9/22-9/25 (72% of seed terms returned zero suggestions pre-launch).",
+        "GA4 not yet created — lib/seo-config.ts googleAnalyticsId is the empty string '' (deliberately NOT 'G-PLACEHOLDER'); dashboard registered propertyId 'PENDING'. Human task logged.",
+        "No verified itch.io deep link could be obtained (curl + WebFetch both blocked from sandbox, and neither the fact sheet nor the keyword report contained a verified URL) → the site links https://itch.io/search?q=dressmaker rather than hard-coding a guessed deep link. Human task logged.",
+        "GSC property not yet added for dressmakerwiki (verification file public/google12f8715471cef7b7.html is deployed and returns 200). Human task logged."
+      ],
+      "lessons": "BUILD-008. Score 19/20, zero wiki competition in EN/CN/JP, built 9 days pre-launch. Content split P0 5 (release-date-price-platforms, beginner-guide, platforms-mac-console-mobile, free-steam-vs-itch-prototype, vs-dressmaker-pro) + P1 7 mechanic-depth (fabric, grain-direction-bias-cut, pattern-placement-cutting, sewing-clean-seams, customer-requests-style-tags, sketchbook-dress-parts, decoration-placement) forming a hub-spoke over 12 mutually-linked real slugs, each with an independent search intent and no self-cannibalisation. Highest-differentiation bet is grain-direction/bias-cut — lowest competition, no wiki covers it. ATTRIBUTION RED LINE: the game is developed by Cozy Lives and PUBLISHED by Free Lives; the phrase 'developed by Free Lives' is wrong. Note vs-dressmaker-pro.md legitimately contains that phrase inside a refutation paragraph — a naive grep will flag it as a violation; MUST read context before acting. DISAMBIGUATION: the bare name 'Dressmaker' is polluted by DressMaker / DressMaker Pro (unrelated dress-up games) — the vs- page exists to capture and redirect that traffic; pool entry records the bare-name risk."
     }
   ],
   "knownIssues": [
@@ -1276,6 +1296,12 @@
       "status": "open",
       "detected": "2026-08-28",
       "recheck": "2026-09-01"
+    },
+    {
+      "id": "all-sites-reactmarkdown-table-separator",
+      "description": "全网络共享组件缺陷（42/42 站）：components/ReactMarkdown.tsx 的表格分隔行判定正则 /^\\|[\\s\\-:]+\\|$/ 字符类漏了 `|`，而 markdown 分隔行形如 `|---|---|`（中间含 `|`），故永不匹配 → 落进数据行分支被 split('|') 切成单元格，渲染为垃圾行 `<td>-------</td>`。即每站每篇攻略的每张表格 tbody 首行都是这条。存在已久，长期未被发现。",
+      "fix": "已修：字符类改为 [\\s\\-:|]（commit d0a86db，42 站源码全改）。已完成产物级验证：dressmakerwiki 本地构建 grep `<td>-{3,}</td>` 修复前 14 → 修复后 0；正则单测 8 例全过（4 种分隔行判中、4 种数据行均未误判）。已重新部署并线上复验今日在途 6 站（dressmaker/sephiria/themound/spiritvale/tearsofmetal/grainrot）：HTTP 200、表格 thead+tbody 正常、JUNK=0。**剩余 36 站源码已修但尚未重新部署，线上仍为旧行为** —— 静态站须重建部署才生效，批量重发命令与站名见 docs/人工任务清单.md。",
+      "status": "partially-deployed"
     }
   ],
   "bestTemplates": {
