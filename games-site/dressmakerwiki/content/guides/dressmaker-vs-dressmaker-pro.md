@@ -73,7 +73,7 @@ Other quick checks:
 
 | Check | Dressmaker (the game) | DressMaker / DressMaker Pro (the tools) |
 |-------|----------------------|------------------------------------------|
-| Genre on the page | Casual, Simulation | Utilities / avatar texturing |
+| Genre on the page | Casual, Simulation | Casual, Animation & Modeling, Design & Illustration, Game Development |
 | Release year | 2026 | 2021 |
 | Studio named | Cozy Lives (developer), Free Lives (publisher) | Suzuki Cecil (developer), Dream Factory Co., Ltd. (publisher) |
 | Price | Not yet listed | $9.99 / $54.99 |

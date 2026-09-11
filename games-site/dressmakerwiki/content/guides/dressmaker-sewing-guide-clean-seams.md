@@ -116,7 +116,7 @@ The panels of one dress should look like they belong together, and that is a sew
 
 - **Keep your technique identical across panels.** A bodice sewn carefully and a skirt sewn quickly do not match.
 - **Watch where panels meet.** The join between bodice and skirt is the seam people look at first.
-- **Do not chase perfection on a first attempt.** The game has no failure state, so an imperfect dress is a dress — not a loss.
+- **Do not chase perfection on a first attempt.** No failure state has been described, so an imperfect dress is a dress — not a loss.
 
 **Whether thread colour, stitch length or seam type are adjustable in the release is not documented [Unconfirmed].** The official description mentions the sewing machine but does not describe its controls.
 

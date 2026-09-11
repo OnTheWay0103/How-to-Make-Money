@@ -1,6 +1,6 @@
 ---
 title: 'Dressmaker Grain Direction and Bias Cut Explained — Stop Losing Quality Score'
-description: 'Grain alignment is the single biggest lever on a Dressmaker garment quality score. What the grain is, how the green alignment cue works, when to cut on the bias instead, and what is still unconfirmed before the September 21, 2026 release.'
+description: 'Grain alignment is the single biggest lever on a Dressmaker garment quality score. What the grain is, how the reported green alignment cue works, when to cut on the bias instead, and what is still unconfirmed before the September 21, 2026 release.'
 category: 'Mechanics'
 version: '1.0'
 updated: '2026-09-12'
