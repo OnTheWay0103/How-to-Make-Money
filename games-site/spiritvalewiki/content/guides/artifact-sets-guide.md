@@ -10,7 +10,9 @@ sources:
   - tier: "Official"
     text: "SpiritVale Steam store description (app 3767850): \"Cards and Artifacts are 2 important features in SpiritVale, both allow you to build your character the way you want or need for specific content! With more than 220 cards and 33 Artifact Sets, you can freely mix and match to adapt to any build or biome.\" The same text appears on the official SpiritVale Demo store page."
   - tier: "Official"
-    text: "Official [0.31.0] \"Dark Fortress\" announcement (August 25, 2026), already summarized on the Update & Patch Notes page: Grimoires are now character bound and can no longer be converted into cosmetics, the Oathbound Artifact Set grants +1 Bond Targets, and \"Advanced Artifacts and Grimoires\" are named as in-development work."
+    text: "Official [0.31.0] \"Dark Fortress\" announcement (August 25, 2026), already summarized on the Update & Patch Notes page: Grimoires are now character bound and can no longer be converted into cosmetics, and the Oathbound Artifact Set grants +1 Bond Targets."
+  - tier: "Official"
+    text: "Official \"Updates on what's happening this weeks.\" announcement (August 2, 2026): \"I've been working on Dark Fortress, Advanced Artifacts and Grimoires with some of the team.\" — the source that names Advanced Artifacts and Grimoires as in-development work. Official \"Help us test in PTR version!\" announcement (September 10, 2026): \"This version includes Advanced Artifacts and Grimoires.\" — they are in the public test build (publictest branch) as of that date, not in the live build."
   - tier: "Official"
     text: "Official playtest patch notes for [Update 0.17.0] \"The Echoing Spire\" (May 24, 2026) and [Update 0.18.0] \"New and Revamped Maps\" (June 2, 2026), read via the SteamDB patch-note archive: a full artifact set can be traded in for a Grimoire, base-class Grimoires come from Box of Origin sets and advanced-class ones from Box of Mastery sets, Grimoires are class-locked with three equipped at a time, and Nevaris Sewers is named among the revamped maps."
   - tier: "Community"
@@ -117,7 +119,7 @@ Arcane Origin (Mage), Far Sight (Scout), Holy Vow (Acolyte), Honored Oath (Knigh
 
 These behave differently. The database describes them as material for **grimoires**, and the playtest patch notes for the Echoing Spire update spell out the trade: you hand in a full artifact set for a Grimoire, with **base-class Grimoires coming from Box of Origin sets** and advanced-class ones from Box of Mastery sets. Boxes of Origins themselves drop from monsters (the database records Ruby Gazer at 1%). Their numbers are larger too — around **+2% per enhancement** and a set bonus of **All Stats +3** instead of +1.
 
-Grimoires are their own class-locked equip slot — three at a time, each granting a unique passive. The official 0.31.0 Dark Fortress notes add that **Grimoires are now character bound** (the old "convert Grimoires into cosmetics" route is closed) and preview "**Advanced Artifacts and Grimoires**" as work in progress. So do not vendor a Box of Origins — but none of these sets' unlock conditions is officially documented. **[Unconfirmed]**
+Grimoires are their own class-locked equip slot — three at a time, each granting a unique passive. The official 0.31.0 Dark Fortress notes add that **Grimoires are now character bound** (the old "convert Grimoires into cosmetics" route is closed). "**Advanced Artifacts and Grimoires**" were named as in-development work in the developer's August 2, 2026 update, and the September 10, 2026 announcement confirms they are now included in the **PTR / publictest build** — they are not in the live build yet (see the [PTR Test Server Guide](/guides/ptr-test-server-guide)). So do not vendor a Box of Origins — but none of these sets' unlock conditions is officially documented. **[Unconfirmed]**
 
 ---
 
