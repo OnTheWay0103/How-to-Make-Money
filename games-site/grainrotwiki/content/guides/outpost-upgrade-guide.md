@@ -76,6 +76,8 @@ Confirmed to exist. Stat upgrades are permanent, run-agnostic power — they imp
 
 **Priority logic:** room upgrades presumably gate other unlocks (constructs, stats, survivors). Expect to invest here constantly.
 
+> **Where to go next:** this section covers *why* rooms matter in the upgrade order. For the room system itself — how placing decor is reported to raise a room's level and its stat, why every Outpost converges on one pattern, and what can undo a room — see the [Outpost Decoration & Room Stats Guide](/guides/outpost-decoration-stats-guide).
+
 ### 5. Cosmetics
 
 "Questionable cosmetics" — hats, paints, and looks. Confirmed to exist, zero gameplay impact.
@@ -115,6 +117,7 @@ We are replacing this framework with verified data — real room names, costs, u
 
 ## Related Guides
 
+- [Outpost Decoration & Room Stats Guide](/guides/outpost-decoration-stats-guide) — how decorating raises a room's level and its stat
 - [Crafting & Resources Guide](/guides/crafting-resources-guide) — what to haul back and convert
 - [Beginner Guide](/guides/beginner-guide) — the loop the Outpost sits at the end of
 - [Game Mechanics & Systems Guide](/guides/game-mechanics-systems-guide) — how meta-progression fits

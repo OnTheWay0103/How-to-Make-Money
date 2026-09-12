@@ -2,7 +2,7 @@
 title: "Grain Rot Wiki — Complete Guide Hub"
 description: "The ultimate community wiki for Grain Rot — the horror co-op extraction builder by Beck & Branch Games. Find vessel guides, enemy strategies, biome walkthroughs, outpost upgrades, and more."
 category: "Home"
-updated: "2026-09-04"
+updated: "2026-09-13"
 keywords: ["Grain Rot", "Grain Rot wiki", "Grain Rot guide", "Beck & Branch Games", "co-op extraction builder", "horror co-op", "Steam"]
 related: ["beginner-guide", "all-enemies-guide", "best-vessels-guide", "co-op-guide"]
 ---
@@ -26,6 +26,7 @@ Grain Rot launched on Steam on August 7, 2026, with nearly 200,000 wishlists and
 | [Extraction Guide](/guides/extraction-guide) | Survival tactics | Intermediate |
 | [Rot Debuff Guide](/guides/rot-debuff-guide) | Why am I vomiting green? | Intermediate |
 | [Outpost Guide](/guides/outpost-upgrade-guide) | Base building | Intermediate |
+| [Outpost Decoration & Room Stats](/guides/outpost-decoration-stats-guide) | Decoration, room levels & stat bonuses | Intermediate |
 | [All Biomes Guide](/guides/all-biomes-guide) | Exploration | Reference |
 | [Weapons & Tools Guide](/guides/weapons-tools-guide) | Loadout planning | Intermediate |
 | [Crafting & Resources Guide](/guides/crafting-resources-guide) | Resource farming | Intermediate |
