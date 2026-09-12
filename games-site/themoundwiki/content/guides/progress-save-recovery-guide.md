@@ -118,7 +118,7 @@ After verifying, let shader compilation reach 100% and restart once (see the [Pe
 | **Crash during the Logbook Camp centipede attack** | Known — the centipede encounter in Logbook Camp had a crash bug at launch. 1.02 did not explicitly list it as fixed; avoid triggering the attack mid-heavy-fight, and if it crashes, relaunch + run the recovery tool |
 | Hard crash discarding 30–60 min of run progress | Ongoing risk at launch; recovery tool + SSD/performance fixes mitigate (crashes are often performance-related) |
 | Alt+F4 during extraction corrupting saves | **Fixed in 1.0.1** |
-| **Saints not loading** in expeditions | **Fixed in 1.02** — Saints allies now appear correctly |
+| **Saints not loading** in expeditions | **Fixed in 1.02** — equipped Saints blessings now load correctly (see the [Patron Saints Guide](/guides/patron-saints-guide)) |
 | **Solo runs starting without a weapon** | **Fixed in 1.02** |
 | Duplicate same-class enemies spawning stacked | **Fixed in 1.02** — duplicate enemy spawns of the same class no longer appear |
 
