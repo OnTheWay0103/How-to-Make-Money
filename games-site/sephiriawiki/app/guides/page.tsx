@@ -7,7 +7,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'All Guides',
   description:
-    'Complete Sephiria guide collection — weapon classes, builds, boss strategies, EX-Mod crafting, progression tips, and more.',
+    'Complete Sephiria guide collection — weapon classes, builds, boss strategies, artifact and tablet systems, progression tips, and more.',
 };
 
 export default function GuidesPage() {
