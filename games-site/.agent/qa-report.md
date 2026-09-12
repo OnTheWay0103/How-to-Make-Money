@@ -1294,3 +1294,125 @@ MUST 同时断言 HTTP 200 与非零 body 长度。**本报告 §二、§四 的
    grainrot）已端到端打通。**需先定全站规范再统一推**，MUST NOT 单站私自补（补了也不渲染）。
 8. **P0 长文词数**：dressmakerwiki beginner-guide 2,213 词 / release-date 1,798 词超
    800-1500 —— 该红线针对每日扩充**精写稿**，hub 长文是否一并约束待定，本轮未改。
+
+---
+
+# QA Report — 2026-09-13（每日扩充 5 站全产出 + 事实核验 + 跨站残留全网面清扫）
+
+> 模式：QA quick ×5（每篇扩充稿）+ 独立复核（主 Agent 亲自验证，不采信子 Agent 自述）
+> 范围：5 站 5 篇新增 guide + 4 处站级修正
+> 结论：**✅ 5/5 PASS，0 🔴 阻断**（1 项 🔴 在站内自行发现并修复）
+
+## 一、扩充产出（PV>1000 名单，5/5 全产出，无 SKIP）
+
+| 站点 | slug | 词数 | QA | 线上实测（主 Agent 独立复验） |
+|------|------|:--:|:--:|------|
+| sephiriawiki | `price-increase-and-worth-it-guide` | 1,486 | ✅ PASS 🔴0 | 200 / 68,555 B |
+| themoundwiki | `patron-saints-guide` | 1,356 | ✅ PASS 🔴0 | 200 / 69,498 B |
+| spiritvalewiki | `ptr-test-server-guide` | 1,316 | ✅ PASS 🔴0 | 200 / 62,381 B |
+| tearsofmetalwiki | `charms-guide` | 1,490 | ✅ PASS 🔴1(已修) | 200 / 72,836 B |
+| grainrotwiki | `outpost-decoration-stats-guide` | 1,471 | ✅ PASS 🔴0 | 200 / 67,869 B |
+
+**主 Agent 复验方式**：逐站 `dig @8.8.8.8` 取权威 IP + `curl --resolve` 抓取，
+断言 HTTP 200 **且** body 非零，并核对 `<title>` 与 sitemap 收录。
+五站 size 与子 Agent 自报数字**逐字节一致** → 自报可信。
+
+## 二、选题路径：4/5 走「系统清单驱动」（重要模式）
+
+本站群多数游戏的**抱怨驱动路径已被榨干**——4 站的 Steam 评测聚类后，
+高频抱怨 100% 收敛到既有 guide（themound 631 条评测：近战 65 / 性能 61 /
+难度 35 / 进度 30 / 联机 29，全部已覆盖）。按 Profile 04 规则切换到
+**system-inventory-driven**（官方公告机制清单 × 站内覆盖比对），5 站中 4 站由此命中：
+
+| 站点 | 命中系统 | 站内覆盖证据 |
+|------|---------|------|
+| sephiria | 价格/商业层 | 官方 9/12 `Price Update Notice`（$14.99→$17.99，9/14 14:00 KST 生效）；38 篇价格覆盖 = 0 |
+| themound | Patron Saints | 官方 1.01/1.02 公告逐字提及 ×3；38 篇 `patron`/`sacred figure`/`nine guardians` = 0 命中 |
+| spiritvale | PTR / `publictest` | 全站 grep「PTR」仅 7 处，**全部**为顺带一句，无专页 |
+| tearsofmetal | Charms | 全站仅 4 处非实质命中；`healing-guide` 金币预算表完全漏掉 Charm |
+
+**结论**：抱怨驱动的边际产出已接近 0，系统清单驱动是当前主力路径。
+建议写入 `04-Profile-建站协调员.md`，避免每站重复「先榨抱怨再换路径」的弯路。
+
+## 三、本轮附带修正（超出「每日 1 篇」但属实证缺陷，均已线上验证）
+
+| # | 站点 | 文件 | 问题 | 处置 |
+|---|------|------|------|------|
+| 1 | spiritvalewiki | `artifact-sets-guide.md` | **归因错误**：称 "Advanced Artifacts and Grimoires" 出自 0.31.0（8/25）公告，实际 0.31.0 全文 `Advanced` 命中 **0** | 订正为 8/2 公告（研发中）+ 9/10 公告（**已进 PTR**）；顺带修正「work in progress」的时效偏差 |
+| 2 | sephiriawiki | `app/guides/page.tsx` | `EX-Mod crafting` 跨站模板残留 | → `artifact and tablet systems` |
+| 3 | tearsofmetalwiki | `app/guides/page.tsx` | 同上 | 清除 |
+| 4 | **taivalwiki** | `app/guides/page.tsx` | 同上（**本次全网面 grep 新发现的第 4 站**） | → `crafting professions`（站内确有该 guide） |
+
+**#1 的核验链**（主 Agent 亲自复现，未采信子 Agent）：
+`ISteamNews` 取 0.31.0 全文扫描 → `Advanced`/`develop` 命中 0；
+8/2 公告命中 `"I've been working on Dark Fortress, Advanced Artifacts and Grimoires
+with some of the team."`；9/10 公告命中 `"This version includes Advanced Artifacts
+and Grimoires."`（PTR 分支）。**事实为真、官方，属归错误而非编造**，
+但存在实质时效偏差（已进 PTR，非仅在研）。
+
+## 四、本轮新增的规则级发现（MUST 闭环，勿只「下次注意」）
+
+### 1. 🔴 `content/home-content.md` 是**死文件**（38 站全体）
+全仓 `grep -rl "home-content"` 于 `*.ts`/`*.tsx` = **0 命中**；唯一非 md 引用是
+`.agent/build-history.json`（历史记录）。`lib/guides.ts` 只读 `content/guides/*.md`，
+首页 `app/page.tsx` 用硬编码 `FEATURED_GUIDES`。
+**本轮 4 站的「导航登记」全部零渲染效果**（themound 已自行回退，其余保留但无效）。
+新页可发现性实际由自动发现的 `/guides` 索引 + `sitemap.xml` 承担（两路径均已线上验证）。
+→ **待决策**：38 站该文件归档，或接入为真实数据源。**在那之前，MUST NOT
+再把「导航登记」当作新页上线步骤**。
+
+### 2. 🟡 EX-Mod 残留是**多站模板缺陷**，非单站问题
+命中 4 站：themound（9/11 修）、sephiria + tearsofmetal（9/13 修）、taival（9/13 修）。
+已全网面 grep 确认**当前 0 站残留**（aincradwiki 为合法拥有者，未动）。
+→ 写入 `06-Profile-QA审核员.md` 的残留检测清单，作为固定 grep 项。
+
+### 3. 🟡 残留修复 MUST 以 `git log` 佐证，而非凭当轮声明
+tearsofmetal 本轮 `git log` 显示 `app/guides/page.tsx` **自脚手架提交 `4be99c0`
+起从未改动**，即 9/11 报告的该文件「已清理」声明**不成立**（该轮实际未改）。
+→ 写入 `06-Profile`：**修复类声明 MUST 附 `git log`/`git diff` 证据**。
+
+### 4. 🟡 工具链两坑（文档过时，MUST 更新）
+- `npx vercel --prod --yes` 在本机被解析为 `npm run vercel` → `Missing script: "vercel"`。
+  **MUST 用全局 `vercel` 二进制**（CLI 58.9.4）。SOP 与各 skill 文档中的 `npx vercel` 写法**在本机不可用**。
+- **DNS 投毒是间歇性且会漂移的**：同一域名本轮先后解析到 `64.29.17.3`/`216.198.79.3`（投毒）
+  与 `64.29.17.67`（真值）；tearsofmetal 域曾得 `199.96.59.95`/`216.198.79.195`（投毒）
+  与 `216.198.79.131`（真值）。即 `--resolve` **不是绕坑技巧，而是取确定性的必需品**。
+  `HTTP=000`/`size=0` 一律记「未验证」，MUST NOT 记为 PASS。
+
+### 5. 🟢 采集通道状态变化
+`api.steampowered.com` 与 `store.steampowered.com/appreviews` **本轮恢复 HTTP 200**
+（此前数轮 ECONNREFUSED）→ 采信前 MUST 实测，勿沿用「不可用」的旧结论。
+`massivelyop.com` / `steamdb.info` / `Gamer Guides` / `TrophiesHunter` WebFetch 仍 403
+→ 建议登记为「索引级交叉参考，MUST 在 sources 显式披露 403」，避免把 403 误判为零信息而假 SKIP。
+
+## 五、QA deep 状态
+
+上次 full audit = **2026-09-10**（Part A 8 站 + Part B 41 站脚本化扫描），
+距今 **3 天**，**未逾期**（>7 天触发）。下一轮 deep 触发条件：**2026-09-17 后**。
+
+## 六、待人工 / 待决策（本轮只记录，未擅改）
+
+1. **🔴 themoundwiki `characters-classes.md` 疑似编造**（最高优先）——该页给 4 名角色配了独有
+   Trait 与数值（如 "Iron Will — 15% less Sanity damage"），但站级 `app/page.tsx` 与
+   `faq-content.md` 均写「characters are purely cosmetic」，且 631 条评测语料（≥3 条独立评测）
+   支持 cosmetic 一侧。**若证实为编造即为 AdSense 合规红线**。已派 fact-sweep 专项核验。
+2. **🟡 tearsofmetalwiki 村庄升级共享性两页对立**——`app/page.tsx:20`「apply to all」
+   vs `app/faq/page.tsx:16`「individual to each player」，两页线上均 200，属信任风险，建议优先定调。
+   （9/11 已记录，本轮仍未定调）
+3. **🟡 sephiriawiki Steam 评价标签**——站内 6 文件 7 处写 "Very Positive"。实测**取决于语言口径**：
+   商店页英文视图 → Overwhelmingly Positive（97% of 2,693）；Recent → Overwhelmingly Positive
+   （95% of 2,851）；评测 API 全语言聚合 → Very Positive（11,552/12,243 = 94.4%）。
+   **MUST NOT 全局替换标签**（会在全语言口径下制造新错误），需带范围限定的表述。已派 fact-sweep。
+4. **🟡 sephiriawiki** `app/page.tsx:39` 与 `lib/schema.ts:61,78` 的 "Buy on Steam" 疑指向商店首页。
+5. **🟡 themoundwiki** `contracts-guide.md` 牛车「follows a fixed path」疑与官方 1.04 公告冲突。
+6. **🟡 themoundwiki** `updates-patch-notes.md` PTR 起始日 8/2 vs 更早的 7/31 公告，口径待统一。
+7. **时效提醒**：sephiriawiki `price-increase-and-worth-it-guide` 时效极强，
+   **9/15 MUST 复核**——把 "still showed $14.99" 改为涨价后实测值，决策段转回顾式。
+8. **tearsofmetalwiki** `content/guides/base-camp-guide.md` 孤儿页（早于本轮存在，无入链）。
+9. **GA4 凭据不可 pull** → PV>1000 名单自 9/2 快照后无法刷新（既有遗留，未变）。
+
+## 七、提交
+
+本轮增量提交：`9036fe8` `f2381c7`（spiritvale）、`55a4f0e`（sephiria）、
+`5aed04d`（themound）、`b71ad14`（grainrot）、`1a5ee5a`（tearsofmetal）、
+`05a5a77`（taival 残留全网面清扫）。
