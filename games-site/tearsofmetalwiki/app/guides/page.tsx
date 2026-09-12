@@ -7,7 +7,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'All Guides',
   description:
-    'Complete Tears of Metal guide collection — weapon classes, builds, boss strategies, EX-Mod crafting, progression tips, and more.',
+    'Complete Tears of Metal guide collection — hero builds, emblems, charms, boss strategies, village upgrades, co-op fixes and more.',
 };
 
 export default function GuidesPage() {
