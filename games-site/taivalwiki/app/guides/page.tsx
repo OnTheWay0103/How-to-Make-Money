@@ -7,7 +7,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'All Guides',
   description:
-    'Complete Taival guide collection — weapon classes, builds, boss strategies, EX-Mod crafting, progression tips, and more.',
+    'Complete Taival guide collection — weapon classes, builds, boss strategies, crafting professions, progression tips, and more.',
 };
 
 export default function GuidesPage() {
