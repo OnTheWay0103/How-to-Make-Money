@@ -81,15 +81,17 @@ The ruined barracks courtyard is the exterior's densest pull, with a corner to b
 | Source | Bonus | Notes |
 |--------|-------|-------|
 | Full party (6 players) | Large XP bonus | Stacks with other bonuses |
-| Premium booster (cash shop) | Large XP bonus | Lasts a couple of hours real-time |
 | Daily login reward | Moderate XP buff | 1-hour buff, resets daily |
 | Guild bonus (level 3+) | Small XP bonus | Passive while in guild territory |
 | Card set bonus | Small XP bonus | Certain card combinations |
 
-**The stacking rule:** the party bonus plus the daily login buff plus an XP potion together turn any spot into a fast grinding session. Activate the potion right before the daily login buff expires so they overlap.
+> **No paid XP boost is documented.** The Steam store page states, under the heading "Fair-To-Play. Never Pay-To-Win.", that "All Microtransactions in SpiritVale are purely cosmetic and do not affect gameplay," and no official patch note lists an XP-boost item for sale. An earlier version of this page listed a "Premium booster (cash shop)" — no official announcement, patch note, store-page statement or Steam review we checked supports it, so it has been removed. The shop does sell the premium currency ("p") and non-power convenience purchases such as a storage expansion and character slots.
 
-### XP Potions
-Available from the General Goods NPC or crafted via Alchemy:
+**The stacking rule:** the party bonus plus the daily login buff plus any XP potion you have access to turn any spot into a fast grinding session. Activate the potion right before the daily login buff expires so they overlap.
+
+### XP Potions [Unconfirmed]
+
+We could not verify the in-game source of XP potions against an official announcement, so treat the following as **community-reported [Unconfirmed]** rather than confirmed:
 - **Minor XP Potion:** Small XP bonus for 30 minutes
 - **Major XP Potion:** Larger XP bonus for 30 minutes
 

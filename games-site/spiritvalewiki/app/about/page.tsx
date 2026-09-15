@@ -12,7 +12,7 @@ export default function AboutPage() {
 
       <h2>Who We Are</h2>
       <p>
-        SpiritVale Wiki is an <strong>unofficial fan-made resource</strong> dedicated to SpiritVale — a free-to-play, class-based MMORPG inspired by Ragnarok Online, available now on Steam Early Access.
+        SpiritVale Wiki is an <strong>unofficial fan-made resource</strong> dedicated to SpiritVale — a buy-to-play, class-based MMORPG inspired by Ragnarok Online, available now on Steam Early Access.
       </p>
       <p>
         We are a small team of passionate players who create comprehensive guides, strategies, and resources to help the SpiritVale community. The game features 7 base classes, 8 advanced specializations, 227 cards, 35+ maps, and 20+ bosses — and we cover all of it.

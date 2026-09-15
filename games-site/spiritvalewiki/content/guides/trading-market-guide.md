@@ -34,7 +34,7 @@ The Auction House (AH) is the central trading hub accessible from any major city
 
 - **Listing Fee:** Non-refundable percentage of the starting price.
 - **Success Fee:** Additional 5% deducted from the final sale price.
-- **Premium Pass:** Reduces all fees by 50%. Available from the cash shop or earned via achievement milestones.
+- **No fee-reduction item exists.** An earlier version of this page listed a "Premium Pass" that halved all fees. No official announcement, patch note, store-page statement or Steam review we checked supports a purchasable fee reduction, so it has been removed. The official fee figures are the 5% listing tax and the 30-listing cap; the store page states that "All Microtransactions in SpiritVale are purely cosmetic and do not affect gameplay."
 
 **The 25% rule:** if your expected net margin is under 25% after fees, it is not a flip — it is a gamble. Move to the next item.
 
@@ -109,7 +109,7 @@ Undercutting wars are where flippers lose margins to each other. The counter-dis
 | New raid tier announced | Old gear will crash | Sell old-meta now, buy after the crash |
 | World boss train schedule | Card drop supply spike | Buy during the train, sell after it ends |
 | Seasonal event live | Event materials flood in | Buy cheap, hold, sell post-event |
-| Premium Pass holders flooding | Fee-reduced sellers dump stock | Buy — their volume is your discount |
+| Post-patch relisting wave | Everyone re-prices at once after a trade fix | Buy the dip before prices settle |
 
 ---
 
@@ -123,7 +123,7 @@ Undercutting wars are where flippers lose margins to each other. The counter-dis
 ### Stage 2: 10,000–100,000 Gold — The Gear Flipper
 - Start flipping epic gear. Focus on weapons; they sell fastest. Add Refinement Stones to your book
 - Buy in bulk from dungeon farmers at off-peak prices, resell in smaller lots
-- Invest in the Premium Pass to cut every fee — it pays for itself in roughly 20 flips
+- Size your flips around the 5% listing tax and the 30-listing cap — those two numbers set your real break-even, not any shop perk
 
 ### Stage 3: 100,000+ Gold — The Market Player
 - Corner the market on a single material during off-peak hours and resell at peak

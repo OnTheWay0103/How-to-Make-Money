@@ -157,13 +157,13 @@ Rogue has the highest skill floor and the harshest leveling curve. If you insist
 | Party Bonus (4+ players) | Large | While grouped |
 | Card Set Bonus — Adventurer | Small | Equipped |
 
-### Paid Items
+### Shop-Bought Items
 
-| Item | XP Bonus | Source |
-|------|----------|--------|
-| XP Scroll (Small) | Moderate boost for 1 hour | Cash Shop / Player Market |
-| XP Scroll (Large) | Strong boost for 1 hour | Cash Shop |
-| Premium Subscription | Permanent small boost | Cash Shop |
+There is **no documented XP-boost item for sale** in SpiritVale. The Steam store page states, under the heading "Fair-To-Play. Never Pay-To-Win.", that "All Microtransactions in SpiritVale are purely cosmetic and do not affect gameplay," and none of the official patch notes that enumerate the cosmetics store list an XP item. A search of the official announcements and of the Steam review corpus returns no "XP Scroll", no XP booster and no XP subscription.
+
+The shop does sell the premium shop currency ("p") and non-power convenience purchases — official notes list a storage expansion and character slots. Neither changes your XP rate.
+
+> **Correction:** an earlier version of this page listed "XP Scroll (Small)", "XP Scroll (Large)" and a "Premium Subscription" as cash-shop XP boosts. No official announcement, patch note, store-page statement or Steam review we checked supports those items, so they have been removed.
 
 **Best value:** Use the free Waystone XP buff every day before your grinding session, and stay grouped for the party bonus.
 
@@ -201,7 +201,7 @@ Rogue has the highest skill floor and the harshest leveling curve. If you insist
 2. **Always use the Waystone XP buff.** It's free and refreshes daily.
 3. **Party up for dungeons.** The large party XP bonus in Shadowfen Depths (45-50) is critical for the final stretch.
 4. **Upgrade your weapon every 10 levels.** A Knight with a Level 40 sword kills noticeably faster than one with a Level 30 sword.
-5. **Use XP Scrolls during XP events.** Stacking boosts during events gives the best return.
+5. **Play during XP events.** Stack the free boosts — Waystone buff, daily first-kill bonus and party bonus — during event windows for the best return.
 6. **Don't hoard reset points.** The Waybinder NPC respecs for free — experiment freely.
 
 ---

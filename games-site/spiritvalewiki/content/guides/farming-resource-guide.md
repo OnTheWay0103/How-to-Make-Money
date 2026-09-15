@@ -30,7 +30,7 @@ Farming efficiency is measured by kills per hour, downtime between pulls, and th
 | B | Rogue → Shinobi | ★★★ | ★★ | ★★ | Mob farming with stealth |
 | C | Acolyte → Priest | ★★ | ★★★★★ | ★ | Party farming support |
 
-**Top Gold Farming Class:** Mage → Wizard. Meteor Shower clears entire spawn packs in seconds. Combine with XP Scrolls to earn gold and XP simultaneously.
+**Top Gold Farming Class:** Mage → Wizard. Meteor Shower clears entire spawn packs in seconds. Group up for the party XP bonus while you farm so gold and XP come in together.
 
 **Top Sustainable Farming Class:** Knight → Paladin. The Retribution Aura + HP regen combo lets you farm indefinitely without consumables. Best for overnight or long sessions.
 

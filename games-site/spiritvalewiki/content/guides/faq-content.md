@@ -1,10 +1,10 @@
 ---
 title: "SpiritVale FAQ — Most Common Questions (EA)"
-description: "Frequently asked questions about SpiritVale Early Access. Covers the F2P model, class choices, respecs, PvP, level caps, cards, trading, and whether progress will be wiped."
+description: "Frequently asked questions about SpiritVale Early Access. Covers the buy-to-play price model, class choices, respecs, PvP, level caps, cards, trading, and whether progress will be wiped."
 category: "Guides"
 version: "EA"
 updated: "2026-08-28"
-keywords: ["SpiritVale FAQ", "SpiritVale F2P", "SpiritVale wipe", "SpiritVale PvP", "SpiritVale level cap", "SpiritVale trading"]
+keywords: ["SpiritVale FAQ", "SpiritVale buy to play", "SpiritVale wipe", "SpiritVale PvP", "SpiritVale level cap", "SpiritVale trading"]
 related: ["beginner-guide", "classes-guide", "class-tier-list", "cards-guide"]
 sources:
   - tier: "Official"
@@ -25,7 +25,7 @@ Quick answers to the most frequently asked questions about SpiritVale Early Acce
 
 ## 1. Is SpiritVale free to play?
 
-**No — SpiritVale is a buy-to-play game on Steam Early Access**, priced at **$14.99** (a one-time purchase; no subscription). The in-game shop is cosmetics-only — no pay-to-win items.
+**No — SpiritVale is a buy-to-play game on Steam Early Access**, priced at **$14.99** (a one-time purchase; no subscription). The game does have a premium shop currency ("p"), and the store page states under the heading "Fair-To-Play. Never Pay-To-Win." that "All Microtransactions in SpiritVale are purely cosmetic and do not affect gameplay." Official notes also list non-power convenience purchases such as a storage expansion and character slots — no pay-to-win items are documented.
 
 ---
 

@@ -12,7 +12,9 @@ related: ["farming-resource-guide", "solo-guide", "leveling-guide", "class-level
 
 **SpiritVale EA / Updated: August 11, 2026**
 
-Pets and mounts are more than cosmetic in SpiritVale. Pets provide combat bonuses and utility skills, while mounts dramatically improve travel speed and unlock access to remote areas. This guide covers acquisition methods, training systems, and how to build the best collection.
+> **⚠️ [Unconfirmed] — read this first.** Official SpiritVale material describes pets and mounts primarily as **cosmetics**: the Early Access launch notes (July 15, 2026) list "Mounts & Pets" inside the Cosmetics section, and the March 2026 cosmetics notes say world-drop pet and mount cosmetics go into your wardrobe and remain tradable. The only pet and mount **effects** we can confirm from official sources are that pets periodically pick up items for you and that mounts grant a **40% movement-speed bonus out of combat**. The rarity tiers, stat bonuses, XP leveling, evolution materials, mount speed tiers and training tables below come from community reporting — they appear in **no** official announcement or patch note we checked, and the named companions in them (Iron Shell Turtle, Ember Fox, Luminous Sprite, Wind Runner Cub, Celestial Griffin, Void Stalker and others) are unverified. Treat every table on this page as **[Unconfirmed]** and check the in-game wardrobe and stable before relying on it.
+
+Pets and mounts in SpiritVale have a cosmetic layer and a quality-of-life layer: your companion is an appearance you keep in the wardrobe, and it also does something for you in the world — pets periodically pick items up, and mounts move you faster outside combat. This guide covers acquisition, the systems players report around them, and how to build a collection.
 
 ---
 
@@ -20,7 +22,7 @@ Pets and mounts are more than cosmetic in SpiritVale. Pets provide combat bonuse
 
 Pets follow your character and provide passive stat bonuses alongside an active ability on a cooldown.
 
-### 1.1 Pet Rarity and Base Stats
+### 1.1 Pet Rarity and Base Stats [Unconfirmed]
 
 | Rarity | Stat Bonus (Max Level) | Active Ability Slots | Acquisition Method |
 |--------|----------------------|---------------------|-------------------|
@@ -30,7 +32,7 @@ Pets follow your character and provide passive stat bonuses alongside an active 
 | Epic | Large bonus to two stats | 2 | World boss, raid drop |
 | Legendary | Very large bonus to two stats + special effect | 3 | Rare world spawn, events |
 
-### 1.2 Best Pet Types by Role
+### 1.2 Best Pet Types by Role [Unconfirmed]
 
 | Role | Recommended Pet | Bonus Provided |
 |------|----------------|---------------|
@@ -45,7 +47,7 @@ Pets follow your character and provide passive stat bonuses alongside an active 
 
 Pets level up through combat experience. At max level, they can evolve to unlock higher rarity tiers.
 
-### 2.1 Leveling Table
+### 2.1 Leveling Table [Unconfirmed]
 
 | Pet Level | XP Required | Stat Bonus Growth |
 |-----------|------------|-------------------|
@@ -54,7 +56,7 @@ Pets level up through combat experience. At max level, they can evolve to unlock
 | 21–30 | High per level | Larger growth per level |
 | 31–40 | Very high per level | Largest growth per level |
 
-### 2.2 Evolution Requirements
+### 2.2 Evolution Requirements [Unconfirmed]
 
 - **Common to Uncommon:** Level 20 + a few Evolution Stones
 - **Uncommon to Rare:** Level 30 + a good number of Evolution Stones + Gold
@@ -67,7 +69,7 @@ Pets level up through combat experience. At max level, they can evolve to unlock
 
 Mounts provide significant movement speed bonuses and, for rare varieties, combat utility while mounted.
 
-### 3.1 Mount Speed Tiers
+### 3.1 Mount Speed Tiers [Unconfirmed]
 
 | Speed Tier | Base Speed | Sprint Speed | Example Mounts |
 |------------|-----------|-------------|---------------|
@@ -76,7 +78,7 @@ Mounts provide significant movement speed bonuses and, for rare varieties, comba
 | Epic | Fast | Very strong | Shadow Panther, Crystal Drake |
 | Legendary | Very fast | The strongest | Celestial Griffin, Void Stalker |
 
-### 3.2 Mount Acquisition
+### 3.2 Mount Acquisition [Unconfirmed]
 
 | Method | Example Mount | Difficulty | Time Investment |
 |--------|--------------|------------|----------------|
@@ -88,11 +90,11 @@ Mounts provide significant movement speed bonuses and, for rare varieties, comba
 
 ---
 
-## 4. Mount Training and Customization
+## 4. Mount Training and Customization [Unconfirmed]
 
 Once acquired, mounts can be trained to improve speed and unlock cosmetic variants.
 
-### 4.1 Mount Training Tiers
+### 4.1 Mount Training Tiers [Unconfirmed]
 
 | Training Level | Sprint Speed Bonus | Materials Required | Time |
 |---------------|-------------------|-------------------|------|
@@ -112,7 +114,7 @@ Once acquired, mounts can be trained to improve speed and unlock cosmetic varian
 
 ---
 
-## 5. Collector's Checklist
+## 5. Collector's Checklist [Unconfirmed]
 
 For completionists, SpiritVale has dozens of pets and mounts to collect.
 

@@ -57,11 +57,11 @@ export function videoGameSchema(): Record<string, unknown> {
     '@type': 'VideoGame',
     name: 'SpiritVale',
     description:
-      'A free-to-play class-based MMORPG inspired by Ragnarok Online. Choose from 7 base classes, advance to 8 specializations, collect 227 cards, fight 20+ bosses across 35+ maps.',
+      'A buy-to-play class-based MMORPG inspired by Ragnarok Online. Choose from 7 base classes, advance to 8 specializations, collect 227 cards, fight 20+ bosses across 35+ maps.',
     url: 'https://store.steampowered.com/app/3767850/SpiritVale/',
     applicationCategory: 'Game',
     operatingSystem: 'Windows',
-    genre: ['MMORPG', 'RPG', 'Fantasy', 'Multiplayer', 'Free-to-Play'],
+    genre: ['MMORPG', 'RPG', 'Fantasy', 'Multiplayer'],
     author: {
       '@type': 'Organization',
       name: 'Baikun Interactive',
@@ -72,7 +72,7 @@ export function videoGameSchema(): Record<string, unknown> {
     },
     offers: {
       '@type': 'Offer',
-      price: '0',
+      price: '14.99',
       priceCurrency: 'USD',
       availability: 'https://schema.org/InStock',
       url: 'https://store.steampowered.com/app/3767850/SpiritVale/',
