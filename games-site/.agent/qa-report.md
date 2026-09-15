@@ -1622,3 +1622,106 @@ MUST 以官方"a handful of weapons … a single lamp / a shared arsenal"的表�
 5. **tearsofmetalwiki 待清扫面**：伪单位系统（10 文件）+ Recruitment Tent（8 文件）+ village-upgrade 精确价格。
 6. **spiritvalewiki 遗留**：等级上限 99 vs 100+（9/11 起挂起）。
 7. **全站**：按新 Profile 规则复核「以 [Unconfirmed] 块降级保留」的页面是否实为删除候选。
+
+---
+
+# QA Report — 2026-09-16（BUILD-009 silverpineswiki，新站 10 篇）
+
+> 岗位：QA 审核员（`docs/agents/05` + `06`）｜模式：quick（新站全检）
+> 独立报告：`.agent/qa-build009-silverpines.md`
+> **结论：✅ PASS —— 0 🔴 阻断 / 5 🟡 警告 / 3 🟢 建议**
+
+## 一、Residue Scan
+
+| 站点 | 攻略数 | 模板残留 | 状态 |
+|------|:--:|:--:|:--:|
+| silverpineswiki | 10（+8 站级页） | 0 | ✅ Clean |
+
+逐项 0 命中：他站游戏名/站名（12 个词表全扫）、**EX-Mod 跨站模板残留**、
+`rose-` 调色板残留（1 处 `prose-invert` 假阳性已排除）、`next/font/google`、
+假 GA4 回退值（`G-XXXXXXX`）、CJK 泄漏（`美工刀` 类）、
+`localhost`/`example.com`/`TODO`/`lorem ipsum`。
+**并做了线上独立复验**：`--resolve` 抓取全部渲染后 HTML 复查，产物中亦无残留。
+
+## 二、Content Quality Sampling（编造检查 —— 本轮最高风险区）
+
+⚠️ 背景：**该游戏尚未发售**，商店页无价格、无武器清单、无伤害值、无金币成本、无 Memento 清单——
+正是今日在另三个站查出的编造类别。故本项为**专项全检**，非抽样。
+
+| 检查项 | 结果 |
+|------|:--:|
+| 价格编造 | ✅ 无 —— 标注「Price — Not Announced Yet」，无 `$`、无区域定价、无「estimated」 |
+| 销量/CCU/评测数编造 | ✅ 无 —— 本体明确记 **0 评测**（未发售）；802 条 / 95.9% 仅属 **demo** 且注明出处 |
+| wishlist 口径混淆 | ✅ **处理得异常好** —— 「200K+ 全平台」（官方公告 6/19）与「~83K 仅 Steam」（第三方 Raijin，标 `[Unverified]`）**同行分列**，`home-content.md` 另加显式说明「MUST NOT 相加、平均或当作唯一数字」 |
+| 武器名/伤害值编造 | ✅ 无 —— 全站不存在任何武器数值断言；仅提及 cutter/pistol/shotgun 且标 `[Community-reported]`，并声明**官方武器清单不存在** |
+| 机制数值编造 | ✅ 无 —— 每页带来源注记 + `[Unconfirmed]` 数值表；10 篇含 **0** 个编造数字 |
+| 来源编造 | ✅ 无 —— 10/10 页脚仅引 Steam 商店页/App ID 2333000 + demo 4540100、Steam appreviews、Game8 对 Mattias Snygg 的访谈、Wych Elm/Team17 联合发布物料 |
+| 玩家声音编造 | ✅ 无 —— 无任何具名或改写后归属于真人的引语；社区材料一律集合式表述并标注 |
+| **门禁机制被照抄** | ✅ **无，且为正面发现** —— 门禁 12 条机制中 **5 条本轮无法复核**（`gun locker code`/`herbs`·`glass bottle`/`camera photo map`/`hip pouch`/`stiletto`），建站方**选择省略或如实回答「无可验证来源」，而非当事实写出** |
+| `[Unconfirmed]` 标记 | ✅ 10/10 篇共 **123 处**，0 篇缺失 |
+
+> **本轮特别审计了 `shotgun code` 一项**：搜索建议中出现 `silver pines demo shotgun code`
+> （真实秘籍意图），但无可核验来源 → 页面据实处理，未编造代码。
+
+## 三、合规与一致性
+
+| 项 | 结果 |
+|------|:--:|
+| AdSense 合规页 9/9 | ✅ |
+| 归属红线（wishlist/评测口径） | ✅ |
+| 裸词政策 | ✅ |
+| 站内一致性 | ✅ 无矛盾 |
+| 死链/自链 | ✅ Clean |
+| 词数 | 7/10 在 1000–1500；3 篇超（`release-date` 2,180 / `demo` 1,653 / `map` 1,570）—— 均属**交易意图页**，长度来自 FAQ 块与 `[Unconfirmed]` 表而非灌水，**不阻断**，已记录 |
+
+## 四、审计中修复 1 处（W-3，实质性）
+
+`app/privacy/page.tsx:22` 原为**无条件**断言：*"This data is collected via Google Analytics…"*，
+而本站 GA4 是**故意未配置**的（`googleAnalyticsId: ''`）→ **合规页上的事实错误**。
+已改为条件式表述并**重新构建、重新部署、线上复验**（`/privacy` 200 / 29,514B，新措辞已在渲染 HTML 中确认）。
+
+## 五、基建与线上验证
+
+| 项 | 结果 |
+|------|:--:|
+| `pnpm install` / `pnpm build` | ✅ exit 0 |
+| 部署（全局 `vercel --prod --yes` 58.9.4，**未用 npx**） | ✅ `dpl_4hY8dy6q3ZGMqzFbDVgjW6hGAV1K` |
+| 别名 | ✅ `silverpineswiki.vercel.app` |
+| 线上路由（`--resolve 64.29.17.195`） | ✅ **23/23 HTTP 200，0 未验证，0 `HTTP=000`，0 `size=0`** |
+| sitemap 18 条 `<loc>` | ✅ 逐条单独 fetch |
+| GA4 | ⏳ 未配置 —— `googleAnalyticsId = ''` 空串，**无 `G-XXX` 假回退值**；线上 `gtag(` 0 次 |
+| GSC | ⏳ 未提交（验证文件线上 200，可直接提交） |
+
+## 六、🟡 警告 5 项 / 🟢 建议 3 项（摘要）
+
+| # | 项 | 建议 |
+|---|----|------|
+| W-1 | 10/10 篇 frontmatter 无 `sources:` 字段（来源置于正文页脚；`lib/guides.ts` 不读该字段，无破绽） | 全网面统一约定，或从 schema 正式移除。与 dressmakerwiki 同一处约定漂移 |
+| W-2 | 3 篇超词数目标 | 发布前无需动作；若日后需分平台页再拆 release 页 |
+| W-3 | privacy §2 无条件 GA 断言 | ✅ **已修复并线上复验** |
+| W-4 | `<title>` 未字面含 `silver pines game` | 可接受（强塞 `game` 会伤 CTR）；已记录为**有意识选择**而非疏漏 |
+| W-5 | 802 / 95.9% demo 数字本轮**无法复取**（`appreviews` curl 失败） | **发布日（10/8）前必须重验**并更新数字+日期+出处 |
+| S-1 | `/tier-list` 是**刻意的非 tier list**（官方武器清单不存在，改排生存优先级 + 24 行系统状态表） | 正确处置；记录下来以免日后被「修」成编造 tier list |
+| S-2 | `public/` 实际未被 gitignore | ✅ 已据此更正 STATS 与 CLAUDE.md 的陈旧规则 |
+| S-3 | dashboard 注册用注释块 + `PENDING`，**无 `G-PLACEHOLDER` 回退** | 正确（规避 STATS §5.1 那类 15 站硬编码回退缺陷） |
+
+## 七、🟠 门禁与现实不符 4 处（本轮最重要的建站侧发现）
+
+| # | 门禁说法 | 实际 | 处置 |
+|---|---------|------|------|
+| 1 | 「12 条已验证机制」 | **5 条本轮无法复核**（gun locker code / herbs·glass bottle / camera photo map / hip pouch / stiletto） | 已降级为不写或标注，**MUST NOT 当事实写出** |
+| 2 | 未提示机制词搜索量 | 20 条机制种子 **17 条零建议** | 机制页改以「发售后抢位」定位，**不是当前流量来源** |
+| 3 | CJK 渠道可用 | zh-CN 3/5 响应字节层截断、ja 3/4 空建议 | **记为「未验证」而非「零建议」** |
+| 4 | Steam appreviews 可用 | 本轮不可复现（curl 失败） | 沿用门禁 9/16 记录值并注明，**未声称本轮重验** |
+
+**根因判定**：门禁的「已验证机制」清单**来源是搜索建议而非可核验来源** ——
+搜索建议能证明「有人在搜」，**不能**证明「该机制存在」。
+→ **MUST 写入 04/12 Profile**：预售期建站的门禁 MUST 把「建议里出现的机制」与
+「有可核验来源的机制」**分列**，MUST NOT 合并计数。
+
+## 八、发布日（2026-10-08）必须更新项（登记，勿漏）
+
+价格与首发折扣 · 本体评测数与好评率（现为 **0**）· 平台实机表现 / Steam Deck 评级 / 成就表 ·
+仍标 `[Community-reported]` 的 demo 机制（部分可由正式版确认）· W-5 的 demo 数字重验。
+
+> ⚠️ 本站**预售期建站**（早于发售 22 天），123 处 `[Unconfirmed]` **不是灌水，是 9/16 的正确认知状态**。
