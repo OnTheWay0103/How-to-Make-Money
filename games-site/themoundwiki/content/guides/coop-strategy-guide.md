@@ -216,7 +216,7 @@ Keep callouts short, specific, and repeated — the team needs to act on them in
 | Sanity event | "Hallucinating, don't trust my left call" | Team verifies visuals before acting |
 | Impostor / false ally | "He's not a teammate, don't engage" | Wait for second confirmation before shooting |
 | Boss / elite pull | "Elite on me, need the Point Man" | Point Man moves, others hold the line |
-| Extraction decision | "Extracting now, moving to flare" | Everyone moves; no solo heroics |
+| Extraction decision | "Extracting now, heading for the shore" | Everyone moves; no solo heroics |
 | Firearm noise | "Shot fired at 3 o'clock" | Assume the area is alerted |
 | "Contact front / left / right / rear" | Enemy direction | Prepare or reposition |
 | "Mask on / off" | Nyarlathotep activation | Do not shoot the masked player |
@@ -383,7 +383,7 @@ Work through these in order when crossplay fails:
 - [ ] Squad leader designated before the boat departs
 - [ ] Squad roles assigned and called out on voice chat (Point Man, Support, Rearguard, Pack Mule)
 - [ ] Shared arsenal divided — nobody holds two weapons they can't use
-- [ ] Callout vocabulary agreed (enemy, extract, hallucination, flare)
+- [ ] Callout vocabulary agreed (enemy, extract, hallucination, shore)
 - [ ] Sanity reporting interval agreed (every area transition)
 - [ ] No-split rule confirmed — stick to visual/voice range
 - [ ] Extraction trigger decided ("30 minutes or first hallucination")

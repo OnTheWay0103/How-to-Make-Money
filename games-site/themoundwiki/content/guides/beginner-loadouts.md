@@ -29,7 +29,7 @@ Your loadout is the difference between extracting with loot and feeding the fore
 | Special Item | 2 slots | Varies |
 | Loot Slots | 8 slots | N/A |
 
-**The weight law:** exceeding **70% weight capacity** cuts movement speed by 15%. Exceeding **90%** cuts speed by 30% **and disables sprinting** — in a game where extraction is a 60-90 second sprint to the flare, being overweight is a death sentence. Beginner rule: leave the expedition at or under 70% so you have headroom for loot.
+**The weight law:** exceeding **70% weight capacity** cuts movement speed by 15%. Exceeding **90%** cuts speed by 30% **and disables sprinting** — and the walk back to the shore is the one stretch of the run where you cannot afford to be slow. Beginner rule: leave the expedition at or under 70% so you have headroom for loot.
 
 ---
 
@@ -81,7 +81,7 @@ Your loadout is the difference between extracting with loot and feeding the fore
 | 2 | Salve (healing) | Reserve; only if the first is consumed |
 | 3 | Sanity Tonic | Sanity below 40% — before it becomes hallucinations (see the [Sanity Guide](/guides/sanity-guide)) |
 | 4 | Bandage | Cheap secondary heal for late expedition |
-| 5 | Flare | Extraction signal backup — if your extraction point shifts (see the [Extraction Guide](/guides/extraction-guide)) |
+| 5 | Flare | Light and area denial on the walk out, when the squad is strung out and visibility drops (see the [Extraction Guide](/guides/extraction-guide)) |
 | 6 | Lockpick | Opens locked chests for bonus loot |
 
 **Consumable discipline:** two healing items minimum on every loadout. The cheapest mistake in The Mound is a full loot bag and an empty health bar.

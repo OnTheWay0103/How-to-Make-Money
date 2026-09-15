@@ -37,7 +37,6 @@ Each Nightmare contract rolls 3 modifiers (always different) from the pool below
 |----------|--------|---------|
 | **Thicker Dark** | Sanity drains 40% faster | Sanity-heavy loadout, keep lanterns lit |
 | **Bloodthirst** | Enemies heal on hit for 3s after damage | Hit-and-run; never trade blows |
-| **Iron Coffins** | Extraction beacon takes 50% longer | Start extraction early, hold position |
 | **Hollow Veil** | 50% of hallucination fakes are perfect copies | Slower checks, call every object to the team |
 | **Ravenous** | Healing items restore 30% less | Stack bandages, prioritize dodging |
 | **Mourning Bells** | Boss phases rotate in random order | Learn every phase, not just the opener |
@@ -67,7 +66,7 @@ The modifier set is shown on the contract card. Read it at the Galleon — backi
 ### Extraction
 
 - The hidden timer warning appears earlier
-- Beacons in Nightmare can be jammed by elite spawns — clear the approach before starting extraction
+- The walk back to the shore is where elite spawns punish a squad that left it late — clear the approach before you commit to the walk out
 - The Mask of Nyarlathotep trick (walking through patrols) still works, but patrols have wider vision cones
 
 ---
@@ -80,7 +79,7 @@ The modifier set is shown on the contract card. Read it at the Galleon — backi
 | Secondary | Swap for a sanity item or flare | Utility beats backup DPS |
 | Healing | 3 Healing Salve + 3 Bandages minimum | Ravenous cuts effectiveness |
 | Weight | Stay under 60% | Weight of the Mound stacks on top |
-| Team role | Assign beacon guard + sanity caller | Coordination is mandatory |
+| Team role | Assign rear guard + sanity caller | Coordination is mandatory |
 
 **Team composition for Nightmare:**
 
@@ -88,7 +87,7 @@ The modifier set is shown on the contract card. Read it at the Galleon — backi
 |------|-----|---------------|
 | Pointman | Pulls, calls hallucinations | Sanity items, mid-range weapon |
 | Guard | Protects extractor, holds chokepoints | Tanky kit, flares |
-| Extractor | Carries loot, starts beacon | Weight-light, speed boots |
+| Extractor | Carries loot, leads the walk out | Weight-light, speed boots |
 | Caller (if 4th) | Reads modifiers, manages timer | Anything, pure awareness |
 
 ---
@@ -112,7 +111,6 @@ Modifiers do not exist in isolation — pairs can stack into run-ending threats.
 |-------|--------------|----------|
 | Thicker Dark + Hollow Veil | Faster sanity drain plus perfect fakes means checks fail constantly | Double sanity items; caller checks every object, slowly |
 | Ravenous + Bloodthirst | Your heals are weaker while enemies heal on hit — trading blows loses | Hit-and-run only; flares to break enemy focus |
-| Iron Coffins + Twin Shadows | Slow extraction while elites spawn in pairs — the beacon becomes a killbox | Clear the zone fully before starting extraction; guard rotates |
 | Weight of the Mound + Mourning Bells | Reduced carry weight plus randomized boss phases forces retries | Minimal loadout; study all boss phases before the run |
 
 If a rolled combo includes Thicker Dark, consider skipping the contract — sanity pressure is the leading cause of Nightmare deaths, and it compounds with every other modifier.

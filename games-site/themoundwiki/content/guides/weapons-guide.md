@@ -100,7 +100,7 @@ The Flintlock is not a primary weapon. It is the "oh sh—" button that lives in
 **Flintlock Tactics**
 1. **Holster it by default.** If you are firing the Flintlock, something has already gone wrong.
 2. **Fire once, switch to melee.** The pistol's job is to stagger or finish a single pursuer — then the Machete takes over.
-3. **Save it for extraction.** A window of "one pursuer too many" is exactly what the pistol solves during the waiting period.
+3. **Save it for the walk out.** A window of "one pursuer too many" is exactly what the pistol solves on the way back to the shore.
 4. **Never rely on it in rain.** Same fuse problem as the Matchlock.
 
 ### Francesca Axe — The Precision Throwable

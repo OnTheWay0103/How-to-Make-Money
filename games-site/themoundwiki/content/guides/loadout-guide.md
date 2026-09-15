@@ -126,7 +126,7 @@ The Mound's healing items are limited and weigh real slots. Spend them like mone
 | Healing Salve | ~60% HP | 2 | Bosses, post-fight top-ups |
 | Bandage | ~30% HP | 1 | Mid-combat patches, cheap upkeep |
 | Stamina Tonic | Full stamina | 1 | Escape sprints, emergency dodges |
-| Flare | (utility) | 1 | Extraction signal, area denial |
+| Flare | (utility) | 1 | Light on the walk out, area denial |
 
 **Economy rules:**
 
@@ -216,7 +216,7 @@ Weight is the silent killer. Exceeding 70% capacity slows you 15%; 90% slows 30%
 |----------------|-------|---------|
 | Under 50% | Full speed | Ideal for loot-runner and pointman |
 | 50–70% | Normal | Standard fighter loadout |
-| 70–90% | -15% | Tank builds only — never in extraction zones |
+| 70–90% | -15% | Tank builds only — never on the walk out |
 | 90%+ | -30%, no sprint | Death sentence in any expedition |
 
 **Trim order:** second weapon → utility duplicates → low-value loot slots → bandages (keep 2 minimum).
@@ -283,7 +283,7 @@ Swamp terrain slows movement and hides pitfalls:
 
 | Expedition Type | Adjustments | Why |
 |-----------------|-------------|-----|
-| Extraction-heavy zones | +1 Flare, -1 Salve, keep weight under 40% | Speed and detection matter more than raw healing |
+| Extraction-heavy runs | +1 Flare, -1 Salve, keep weight under 40% | Speed and detection matter more than raw healing |
 | Boss contracts | +1 Salve, +1 Tonic, drop the second weapon | Boss fights are healing checks, not weapon checks |
 | Co-op runs | Coordinate: one salve carrier, one tonic carrier | Duplicated consumables waste party slots |
 | Nightmare modifiers | Check the modifier card, then build | Thicker Dark demands sanity items; Ravenous demands more bandages |

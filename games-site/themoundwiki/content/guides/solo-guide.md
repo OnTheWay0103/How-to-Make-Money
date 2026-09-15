@@ -170,7 +170,7 @@ Sanity management is arguably harder solo because no one can confirm hallucinati
 |-----------|---------------|
 | No one to confirm hallucinations | Close your eyes for 3 seconds. Hallucinations despawn. Real enemies stay. |
 | Faster Sanity drain | Sanity drains faster solo. Bring extra Prayer Beads. |
-| False extraction markers | Hallucination-caused. Check your compass — if the needle is spinning, it is fake. |
+| Losing the way out | Hallucinations corrupt your sense of direction. Navigate by the Ox Wagon's trail to the shore, not by memory. |
 | Auditory hallucinations | You hear whispers, footsteps, or gunfire that is not real. Ignore all audio cues at low Sanity. |
 
 ### Sanity Management Priority
@@ -217,8 +217,8 @@ Sanity management is arguably harder solo because no one can confirm hallucinati
 - Start heading to extraction at the FIRST wind shift (not the second)
 - You cannot afford to fight through a "Forest Awakened" swarm alone
 - Use Mask of Nyarlathotep (if you brought one) to walk through the final patrols
-- During the extraction waiting period, find a defensible corner — do not stand in the open
-- Keep your Oil Lamp on during the final countdown to deter Ghost Bats
+- On the walk out, keep to cover and move in short bounds — do not cross open ground alone
+- Keep your Oil Lamp on for the final stretch — the light is the only thing that reliably keeps the dark at arm's length
 
 ---
 

@@ -16,7 +16,7 @@ The Galleon serves as your mobile base of operations in The Mound: Omen of Cthul
 
 The crafting station is located on the lower deck of the Galleon, near the medallion upgrade bench. It has three main categories:
 
-- **Tools** — Medallion upgrades, compass enhancements, lantern improvements
+- **Tools** — Medallion upgrades, lantern improvements, expedition gear
 - **Consumables** — Healing salves, Sanity restoratives, temporary buffs
 - **Ammunition** — Standard rounds, silver bullets, explosive shot, blessed ammunition
 
@@ -28,10 +28,10 @@ Your crafting tier is tied to your Personal Rank. Each tier unlocks new recipes 
 
 | Tier | Rank Required | New Unlocks | Material Quality |
 |------|---------------|-------------|------------------|
-| I | Rank 1-5 | Basic salves, standard ammo, compass calibration | Common scrap only |
+| I | Rank 1-5 | Basic salves, standard ammo, lantern oil | Common scrap only |
 | II | Rank 6-10 | Silver bullets, medallion upgrades, lantern oil | Common + Uncommon |
 | III | Rank 11-15 | Explosive ammunition, advanced salves, storm gear | Uncommon + Rare |
-| IV | Rank 16-20 | Blessed ammunition, medallion teleport, sanctuary beacons | Rare + Exotic |
+| IV | Rank 16-20 | Blessed ammunition, medallion teleport, advanced expedition gear | Rare + Exotic |
 | V | Rank 21+ | Legendary tools, artifact crafting, permanent upgrades | Exotic + Legendary |
 
 ### Important Recipes
@@ -79,8 +79,6 @@ The Medallion is a utility item that detects nearby treasure chests and points o
 | Lantern Oil Refill | 3 Animal Fat, 1 Cloth Scrap | Full lantern refill (essential for dark zones) |
 | Storm Cloak (Tier I) | 8 Treated Leather, 4 Iron Ingot, 2 Storm Essence | 20% storm resistance |
 | Storm Cloak (Tier II) | 12 Treated Leather, 6 Iron Ingot, 4 Storm Essence, 1 Rare Crystal | 40% storm resistance + move speed in storm |
-| Compass Calibration Kit | 4 Copper Wire, 2 Iron Ingot, 1 Lodestone | Reduces compass cooldown by 15% |
-| Extraction Beacon | 10 Scrap Metal, 5 Iron Ingot, 2 Gunpowder, 1 Artifact Fragment | Creates a temporary extraction point anywhere |
 
 ### Material Farming Locations
 

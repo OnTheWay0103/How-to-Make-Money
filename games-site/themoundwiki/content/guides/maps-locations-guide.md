@@ -189,25 +189,25 @@ The Interior is a resource war, not a firefight. Enter with full Sanity-restore 
 
 | Tool / Mechanic | How It Helps | Where It Comes From |
 |-----------------|--------------|---------------------|
-| Compass (Standard / Survey) | Points to the nearest active zone; Survey reveals all active points for 10s (90s cooldown) | Starting tool |
-| Map (M key) | Pulsing icons mark active zones; gray = inactive | Always available |
-| Medallion portal | Shortcuts across any map — save one charge for extraction | Vendor purchase / crafting |
-| Map fragments | Unlock Hidden Cache exits (high risk, high value) | Found loot, secret rooms |
-| Flare colors | Green = Primary, Blue = Secondary, Red = Storm extraction | Read them from any high ground |
+| Forest timer (Tab) | Shows how many in-game hours are left before the forest wakes; top-left of the screen when you press Tab | Always available |
+| The Ox Wagon's trail | The wagon leaves a streak of paint / wheel tracks as it moves; follow it back to the start point | Comes with the expedition |
+| The Medallion | Helps you locate artifacts and orbs during a run | Bought with tokens before an expedition |
+| Fort logbooks | Recovering a fort's logbook unlocks it as a new starting point | Found inside forts |
+| The shoreline | The map's landing point is where an expedition ends — the Boatman is there | Always available |
 
 ### Route Planning Rules
 
-1. **Mark your extraction point early** — waypoint it as soon as you know which zones are active.
+1. **Mark the way back early** — fix the landing point and the wagon's position in your head as soon as you are ashore.
 2. **Clear a return path** — push in on one side, keep the other side clean for the way out.
-3. **Keep the Ox Cart between you and extraction** in the second half — never let valuable loot sit deeper than you are.
-4. **Learn one route per map, then optimize it** — consistent extractors are the ones who know exactly what each zone holds.
+3. **Keep the Ox Wagon between you and the shore** in the second half — never let valuable loot sit deeper than you are. See the [Ox Cart Guide](/guides/ox-cart-guide).
+4. **Learn one route per map, then optimize it** — consistent extractors are the ones who know the walk out, not the ones who know the loot.
 
 ---
 
 ## Related Guides
 
 - [Enemy Bestiary](/guides/enemy-bestiary) — what you will fight on every map
-- [Extraction Guide](/guides/extraction-guide) — zone types, compass modes, and safe exits
+- [Extraction Guide](/guides/extraction-guide) — the walk out, the forest timer, and safe exits
 - [Walkthrough Guide](/guides/walkthrough-guide) — story progression through each location
 - [Contracts Guide](/guides/contracts-guide) — which contracts send you where
 - [Legendary Hunts Guide](/guides/legendary-hunts) — the four hunt lairs and their targets

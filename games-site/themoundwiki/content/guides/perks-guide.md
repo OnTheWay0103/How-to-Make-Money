@@ -102,7 +102,6 @@ Perks are unlocked by completing specific in-game achievements rather than spend
 | **Scavenger** | 25% chance to find additional loot when looting containers | Open 50 containers | 1 |
 | **Field Medic** | Healing items restore 25% more HP | Use 30 healing items total | 2 |
 | **Artisan** | Crafting speed increased by 50%, crafted items have 20% chance to be duplicate | Craft 50 items at camp | 2 |
-| **Quick Exit** | Extraction timer reduced by 15 seconds | Extract successfully 20 times | 3 |
 
 ### Utility Perk Recommendations
 
@@ -174,12 +173,11 @@ Perks are unlocked by completing specific in-game achievements rather than spend
 
 **Best paired with:** Cultist Robes, Dark Lantern, Spirit Bell
 
-### "The Speedrunner" (Extraction Rush)
+### "The Speedrunner" (Fast Runs)
 
 | Slot | Perk | Why |
 |------|------|-----|
-| 1 | Quick Exit | -15s extraction timer |
-| 2 | Pack Mule | +2 inventory |
+| 1 | Pack Mule | +2 inventory |
 | 3 | Ghost | Silent movement while crouched |
 | 4 | Second Wind | Safety net for risky plays |
 | 5 | Slippery | Lose aggro faster |
