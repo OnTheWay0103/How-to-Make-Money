@@ -106,7 +106,6 @@ The official Steam store page does not publish a roster, and the Steam announcem
 Characters don't have traditional level-ups. Instead, progression comes from:
 - **Equipment** — Better weapons and armor found or crafted
 - **Perks** — Unlocked through achievements and milestones
-- **Expedition Rank** — Increases with successful extractions, unlocking new loadout slots
 - **Logbook** — Records discoveries; completing entries grants permanent bonuses
 
 ---
