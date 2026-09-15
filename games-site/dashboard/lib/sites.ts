@@ -212,4 +212,17 @@ export const SITES: SiteConfig[] = [
     propertyId: 'PENDING',
     gaId: '',
   },
+  {
+    // BUILD-009 — deployed 2026-09-16, pre-release (Steam launch 2026-10-08).
+    // No GA4 property exists yet, so `gaId` is deliberately an empty string:
+    // SITE_CONFIG.googleAnalyticsId is '' and components/GoogleAnalytics.tsx
+    // returns null when it is falsy, so no gtag script is emitted at all.
+    // MANUAL CONFIG REQUIRED: create the GA4 property, then fill in both
+    // `propertyId` (numeric) and `gaId` (G-XXXXXXXXXX), and set
+    // silverpineswiki/lib/seo-config.ts → SITE_CONFIG.googleAnalyticsId.
+    // Do NOT insert a placeholder value — that was the §5.1 hardcoded-fallback bug.
+    name: 'Silver Pines Wiki',
+    propertyId: 'PENDING',
+    gaId: '',
+  },
 ];

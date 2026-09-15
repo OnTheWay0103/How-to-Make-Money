@@ -51,7 +51,7 @@
 | 40 | BOMBANANA! | 9/2 | 10 | bombananawiki.vercel.app | ✅ | ❌ | ✅ | 9/1 BUILD-006，19/20，9/2 发售（Lefto Studio/TARK，3人 Co-op 拆弹派对），demo 97% Overwhelmingly Positive（5,000+ 评测）、600 万试玩、峰值 CCU 4 万、1M+ wishlist，零 wiki；10 guides（入门/三角角色/模块/手册/发售FAQ），QA 待审核；GA4 ⏳ 待人工配置 |
 | 41 | Anomaly President | 9/6 | 16 | anomalypresidentwiki.vercel.app | ✅ | ❌ | ✅ | 9/6 BUILD-007，9/3 门禁开（19/20），Phew Phew Games EA roguelike（Roguelike 动作+竞选管理双循环），EA 满月评测 ~1,300（92% Very Positive）、英日中零 wiki，9/6 首部署 QA PASS（16 guides）；GA4 ⏳ 待人工配置；GSC 验证文件已核实到位（9/16 更正此前「缺失待补」的错误记录） |
 | 42 | 🆕 dressmakerwiki | ❓ | 12 | dressmakerwiki.vercel.app | ✅ | ❌ | ✅ | ⚠️ 新站点，需手动补全信息 |
-| 43 | 🆕 silverpineswiki | ❓ | 10 | silverpineswiki.vercel.app | ✅ | ❌ | ✅ | ⚠️ 新站点，需手动补全信息 |
+| 43 | Silver Pines | 9/16 | 10 | silverpineswiki.vercel.app | ✅ | ❌ | ✅ | 9/16 BUILD-009（门禁 17/20 开），Wych Elm/Team17 恐怖 Metroidvania，10/8 发售（**预售期建站，早于发售 22 天**）；~83–112K wishlist；英中日零 wiki；**裸词污染已独立复现**（裸词探针 10 条建议仅 3 条指向本作，锚词 `silver pines game` 下 10/10 命中）；10 篇 P0 共 15,129 词，QA PASS（0 🔴 / 5 🟡 / 3 🟢），线上 23/23 路由 200；⚠️ 门禁的「12 条已验证机制」有 **5 条本轮无法复核**（gun locker code / herbs / camera photo map / hip pouch / stiletto）→ 已降级为不写或标注，**未当事实写出**；⚠️ 20 条机制种子 **17 条零建议** → 机制页定位为发售后抢位，非当前流量来源；价格/通关时长/区域名/武器清单/伤害值全站 [Unconfirmed]（123 处）；GA4 ⏳ 待人工配置（`googleAnalyticsId=''` 空串，**无 G-XXX 假回退值**）；GSC 文件已就位待提交；Phase 2（P1 攻略）未做 |
 <!-- AUTO-END:overview-table -->
 
 ---
