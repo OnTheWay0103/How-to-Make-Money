@@ -23,6 +23,77 @@ MUST 检查编造痕迹：虚构 Boss/武器/角色名、无法验证的精确�
 MUST 用 Steam 官方信息做交叉验证基准
 SHOULD 使用 WebSearch/WebFetch 验证可疑数据
 
+## 编造检测规则（2026-09-16 事故固化）
+
+⚠️ 背景：9/16 单轮在**三个站**查出同一失效模式的编造内容，且全部逃过了
+此前多轮 QA。故固化以下规则。
+
+### 语料零命中判定（最有效的单一工具）
+
+MUST 对每个**具名实体**（角色/同伴/兵种/技能/地名/建筑）与**每组精确数值**
+（HP/秒数/价格/等级表/掉落率）做全语料检索，统计命中数：
+
+MUST 检索的语料面（按可达性尽力）：
+- 官方公告**全量**（ISteamNews / store news RSS，非抽样）
+- Steam 商店页正文
+- Steam 评测 API **全量翻页**（带 `json=1`；不带会静默返回空数组）
+- 可达的编辑源全文
+
+判定：
+- **官方与全部可达社区来源均 0 命中 → MUST 直接删除**，MUST NOT 走「标注
+  来源层级」的降级路径。§「免责句」条同理
+- 官方 0 命中但社区 ≥3 独立来源一致 → 可保留，标 Community 层 + 追溯链接
+- 官方 0 命中且社区仅 1 源 → 标 `[Unconfirmed]` 或删除；MUST NOT 写成确定事实
+
+⚠️ **反向证据优先**：若某术语的**唯一**命中是玩家在「要求加入该功能」，
+则它是缺口证据而非存在证据（9/16 themoundwiki Compass：3 条命中全是
+"give me a compass, could be implemented as…"）。
+
+### 免责句不可漂白精确数值
+
+MUST NOT 接受一句 `community-reported` / `据社区反馈` 总免责覆盖整张数值表。
+**免责只能覆盖它所修饰的那一条断言**；精确数字 MUST 各自有可追溯来源。
+（9/16 tearsofmetalwiki：页面有免责句，随后仍给出兵种 HP、技能树每级数值、
+各 Act 招募数、Tent 解锁表——全为编造。）
+
+### 复合断言必须原子化裁定
+
+MUST 把整句断言**拆成原子子断言后逐条裁定**，MUST NOT 整句判对错。
+一个句子可同时含「真 / 假 / 无证据」三种子断言。
+（9/16 spiritvalewiki `no subscription, battle pass, or premium currency`：
+`no subscription` 为真、`no premium currency` 为假（官方补丁有 premium
+currency）、`no battle pass` 无证据 → 处置各不相同。）
+
+### 范围限定不可省
+
+MUST 对 Steam 评价标签类断言保留**语言/时间口径限定词**。
+英文池与全语言池是**不同的数字且不同的标签**（9/16 sephiriawiki：英文
+2,742 @ 97% Overwhelmingly Positive vs 全语言 11,703 @ 94.4% Very Positive）。
+MUST NOT 全局替换标签，MUST NOT 两个口径互换引用。
+
+### 模板层扩散检查
+
+MUST 在确认一处编造后，**grep 同类术语的全站命中面**并报告**文件数**，
+MUST NOT 只修当前页。
+（9/16 themoundwiki：提取系统清理后暴露同一失效模式散落 10 个文件——
+Compass 表 / 冷却秒数 / 配方 / nightmare modifier / perk 数值。）
+
+MUST 把「无依据的精确数值」**删除**，MUST NOT 「改通名保留」，MUST NOT
+换成另一个无依据的效果（那只是把编造搬了个位置）。
+
+## 导航登记与孤儿文件规则（2026-09-16 固化）
+
+⚠️ `content/home-content.md` 在**至少 38 站**是**孤儿文件**——无任何代码读取，
+首页导航实际硬编码在 `app/page.tsx` 的 `FEATURED_GUIDES`。
+
+MUST NOT 再把「导航登记」当作新页上线步骤；它零渲染效果。
+MUST 验证「新页可发现性」时走**产物级/线上**证据（`/guides` 索引 +
+`sitemap.xml`），MUST NOT 以「已写入 home-content.md」为据。
+
+MUST 对新增/修改的 content 文件确认**存在读取方**（`rg` 文件名或 frontmatter
+字段），否则报告为孤儿并登记处置（接入渲染 or 归档）。
+（9/16 grainrotwiki 实证：9/11、9/13 两轮对该文件的导航改动对线上零影响。）
+
 ## 共享组件回归规则（2026-09-12 事故固化）
 
 MUST 把「站级组件」当作**42 份复制体**看待，MUST NOT 当作单站文件审查：
