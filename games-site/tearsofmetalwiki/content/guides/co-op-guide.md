@@ -100,7 +100,7 @@ Tears of Metal supports up to 4-player co-op, and the game changes significantly
 | Triskelle earned | Yes — each player gets full drops | Everyone earns independently |
 | Artifact drops | No — each player sees their own drops | No fighting over loot |
 | Dragon Stone Shards | Yes — each player gets their own shards | Boss kills grant shards to all |
-| Village upgrades | No — each player upgrades their own village | Progression is individual — your upgrades do not apply to teammates |
+| Village upgrades | Not officially documented | Bought per player account. Community reports say the **host's** purchased upgrades are the ones active in a shared campaign, and that guests' village purchases do not carry into the session *[Unconfirmed]* — Paper Cult has published no rule either way |
 | Battalion soldiers | No — each player has their own battalion | Soldiers are per-player |
 | Weapon merges | No — per-run for each player | Bring your own merge plan; squads just multiply the drops feeding it |
 
@@ -110,6 +110,7 @@ The player who hosts the session gets slightly more control:
 
 - **Threat Level** visibility is shared, but the host controls when to advance
 - **Village access** between runs is per-player, but the host can pause or end the session
+- **Campaign pool** — community reports say the host's owned upgrades and unlocks are what the shared campaign runs on, so the player with the deeper progression pool should usually host *[Unconfirmed]*
 
 ---
 

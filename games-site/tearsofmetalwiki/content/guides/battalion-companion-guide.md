@@ -19,6 +19,8 @@ sources:
 
 > **Applies to Early Access / Updated: August 11, 2026**
 
+> **Scope:** in-run battalion management — recruiting soldiers during a campaign, protecting veterans from permadeath, and issuing battlefield commands. The **between-run, army-side** permanent upgrades (the Barracks, the Statue currency, Commander roster expansion and Companion slots) are covered in the [Barracks & Statues Guide](/guides/barracks-statues-guide).
+
 Your battalion is your army. These procedurally generated Scottish soldiers accompany you on every expedition, and unlike the heroes, they can die permanently. Managing your battalion effectively — recruiting the right soldiers, pairing them with the right hero, protecting your veterans, and unlocking unique companions — is one of the most important skills in Tears of Metal.
 
 ---
@@ -272,6 +274,7 @@ The companion system compounds with your hero build: Wallace's Pure Physical bui
 
 ## Related Guides
 
+- [Barracks & Statues Guide](/guides/barracks-statues-guide) — the permanent army-upgrade layer between runs
 - [Village Upgrade Guide: Recruitment Tent Priority](/guides/village-upgrade-guide)
 - [Beginner Guide: Understanding Permadeath](/guides/beginner-guide)
 - [Progression Walkthrough: Act-by-Act Guide](/guides/progression-walkthrough)

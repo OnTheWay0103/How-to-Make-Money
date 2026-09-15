@@ -5,7 +5,7 @@ category: "Guides"
 version: "Early Access"
 updated: "2026-08-11"
 keywords: ["Tears of Metal village upgrade", "Tears of Metal upgrade priority", "Tears of Metal Armory", "Tears of Metal Smithy upgrade", "how to unlock Tears of Metal village buildings"]
-related: ["beginner-guide", "weapon-merge-guide", "emblem-artifact-guide", "battalion-companion-guide"]
+related: ["barracks-statues-guide", "beginner-guide", "weapon-merge-guide", "emblem-artifact-guide", "battalion-companion-guide", "base-camp-guide"]
 sources:
   - tier: "Official"
     text: "The village is the permanent meta-progression hub between runs; resources are spent to expand the settlement and upgrade facilities — official description"
@@ -22,6 +22,8 @@ sources:
 The Village Hub is your permanent progression system in Tears of Metal. Every triskelle and Dragon Stone Shard spent here carries forward to every future run. This guide breaks down the five buildings, their upgrade costs, and the optimal priority order so you never waste resources.
 
 > **Values caveat:** upgrade costs below are community-documented and unverified — exact prices may differ in current builds. The order matters more than the numbers.
+
+> **Scope:** the five buildings funded by Triskeles and Dragon Stone Shards. The **army-side** permanent layer — the Barracks, the Statue currency, Commander roster and Companion slots — is covered separately in the [Barracks & Statues Guide](/guides/barracks-statues-guide), because it is bought with a different currency and is absent from this page's building list.
 
 ---
 
@@ -208,6 +210,8 @@ Dragon Stone Shards are the rare currency in Tears of Metal. They are required f
 
 ## Related Guides
 
+- [Barracks & Statues Guide](/guides/barracks-statues-guide) — the army-side upgrades this page's five building list does not cover
+- [Base Camp Guide: Pre-Run Preparation](/guides/base-camp-guide) — what to do at the Village hub before the first gate
 - [Beginner Guide: What to Upgrade First](/guides/beginner-guide)
 - [Weapon Merge Guide: Merge System Explained](/guides/weapon-merge-guide)
 - [Emblem & Artifact Guide: Complete Reference](/guides/emblem-artifact-guide)
