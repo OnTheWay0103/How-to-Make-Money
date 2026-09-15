@@ -199,7 +199,7 @@
 
 - 变更范围：41 个 `app/privacy/page.tsx`（+82/-82）+ 41 个 `public/icon.png`；opt-out 链接 41/41 保留。
 - 提交：`ab0cc774`；审计报告：`.agent/qa-adsense-privacy-A1.md`。
-- ⚠️ **注意**：`public/` 目录被全局 gitignore（`~/.gitignore_global` 的 `Public/` 规则，macOS 大小写不敏感）排除，新增 public 资源需 `git add -f`。
+- ✅ **更正（2026-09-16）**：`public/` 在本仓**并未被 gitignore**。实测 `git check-ignore` 对 `*/public/*` 无命中；`~/.gitignore_global` 与 `~/.config/git/ignore` 中**均无** `Public/` 规则；库中已有 **171 个** public 文件在跟踪中。新增 public 资源用普通 `git add` 即可（9/16 BUILD-009 的 3 个 public 文件即如此入库）。此前「需 `git add -f`」的说法为**陈旧信息**，已作废——它会让 Agent 白做一遍强制添加。
 
 **仍未解决的 AdSense 结构性风险**（见 `docs/AdSense复审申请清单-themoundwiki.md`）：
 

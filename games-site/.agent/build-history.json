@@ -1429,6 +1429,26 @@
         "频率不足被否决的候选（如实记录，不写）：**Steam Cloud 存档缺失** —— 全 850 条评测中仅 1 条提及（9/13，0 赞），官方商店页 Features 确无 Steam Cloud 标识可作官方旁证 → 频率不足 ≥3 独立来源，否决，若后续出现第 2、3 条再立题；**画面降级 /「ripples like water」** —— 仅 1 条实质指控（13 赞，8/22「They changed the graphics recently which greatly reduced how good it looks」），其余 53 条命中全是正面称赞画面 → 否决（1 条 ≠ 高频）。另：路径② 本轮已跑但未命中更优（官方商店页 Features 仅 3 项：Single-player / Online Co-op / Family Sharing），其净产出是为路径① 的 Steam Cloud 候选提供「官方无该标识」旁证。"
       ],
       "lessons": "EXPAND-9/16（grainrotwiki）：**聚合站 / 商店页是多游戏混合页** —— 推荐位、捆绑包、more like this 都会带入**其他 appid** 的字段，全文 grep 官方字段（如 early_access）MUST 绑定 appid 上下文，否则会得出「本作是 EA 发行」这类反向错误结论。第二个可迁移点：官方内容量单薄（商店页 Features 仅 3 项）时，路径② 的净产出可能只是为路径① 的候选提供官方旁证，而非独立命中 —— 此时应以①的候选为准，并如实记录「② 跑过、无更优」，而不是为了凑路径② 而写一个材料不足的题。"
+    },
+    {
+      "game": "Silver Pines",
+      "date": "2026-09-16",
+      "genre": "Horror Metroidvania (Wych Elm / Team17)",
+      "template": "welcomeelderfieldwiki scaffold lineage + pre-release honesty/[Unconfirmed] pattern",
+      "mode": "new-build (BUILD-009, gate 17/20, zero wiki EN/CN/JP; pre-release, launches 2026-10-08)",
+      "guides": 10,
+      "guidesAdded": 10,
+      "deployed": true,
+      "score": 17,
+      "pipeline": "BUILD-009（门禁 2026-09-16 开 17/20 → 关键词 keyword-results/Silver-Pines.md：62 查询 → 102 建议 → 67 唯一 → 剔噪 18（26.9%）→ 游戏意图 45 → 采纳 10 篇 P0 → scaffold + GA '' + dashboard 注册（propertyId PENDING）→ pnpm build → 全局 vercel --prod --yes（58.9.4，未用 npx）→ dpl_4hY8dy6q3ZGMqzFbDVgjW6hGAV1K → 别名 silverpineswiki.vercel.app → 线上 23/23 路由 200，0 未验证）",
+      "qa": "QA PASS（.agent/qa-build009-silverpines.md）—— 0 🔴 / 5 🟡 / 3 🟢。残留全清：他站游戏名 0、EX-Mod 跨站模板残留 0、next/font/google 0、假 GA id 0、CJK 泄漏 0、rose- 0（1 处 prose-invert 假阳性）。编造检查未发现编造：价格未公布、本体 0 评测、wishlist 两口径分列未混写、武器名/伤害值/金币成本/Memento 清单全站 0 处编造数值；[Unconfirmed] 共 123 处。审计中修复 1 处（W-3）：privacy 页原为无条件「data is collected via Google Analytics」，而本站 GA4 故意未配置 → 改条件式表述，重新构建+部署+线上复验。10 篇 P0 共 15,129 词（release-date 2,180 / demo 1,653 / save-system 1,386 / coins 1,412 / inventory 1,382 / melee 1,375 / guns 1,374 / stamina 1,283 / map 1,570 / beginner 1,514）。",
+      "issues": [
+        "⚠️ 门禁与现实不符 **4 处**（本轮最重要发现，已上报）：①门禁称「12 条已验证机制」，其中 **5 条本轮无法复核**（`gun locker code` / `herbs`、`glass bottle` / `camera photo map` / `hip pouch` / `stiletto`）→ 已降级为「无可验证来源」或不写，**MUST NOT 当事实写出**；②门禁未提示「机制词当前零搜索量」——20 条机制种子 **17 条零建议**，机制页因此明确以「发售后抢位」定位，不是当前流量来源；③CJK 渠道实际可用性低于门禁描述（zh-CN 3/5 响应字节层截断、ja 3/4 空建议）；④Steam `appreviews` 本轮不可复现（curl 失败）→ 沿用门禁 9/16 记录值并注明来源，**未声称本轮重新验证**。",
+        "✅ 门禁的裸词污染判断被**独立复现**：裸词探针 10 条建议中仅 3 条指向本作，与门禁「前 10 条仅 3 条」逐条吻合；锚词 `silver pines game` 下 10/10 全部指向本作。最强需求是**发售窗口**（release date ×5、ps5 ×5、switch/xbox ×4）与 **Demo**（含真实秘籍意图 `silver pines demo shotgun code`）。",
+        "设计取舍：FAQ 未按门禁建议单独立篇，改为 `/faq` 专页（31 条）+ 首页 FAQ 区块（17 条），**主动避免与 10 篇 P0 的问答段落自噬**。",
+        "⚠️ 待人工：GA4 Measurement ID **未配置**（`SITE_CONFIG.googleAnalyticsId = ''` 空串，**无 G-XXX 假回退值** —— 刻意避开 §5.1 硬编码回退缺陷）；dashboard `propertyId='PENDING'`；GSC 未提交（验证文件线上 200，可直接提交）。**Phase 2（P1 攻略）本轮未做**。"
+      ],
+      "lessons": "BUILD-009 (9/16)：①**预售期建站的门禁分数会高估内容可写性** —— 门禁列的「已验证机制」有 5/12 在写稿时无法复核，说明门禁的机制清单来自搜索建议而非可核验来源；后续预售期建站 MUST 在门禁阶段就区分「建议里出现的机制」与「有可核验来源的机制」。②**机制词的发售前搜索量为零是常态**（20 条种子 17 条零建议），预售期建站的流量来源是**发售窗口词**（release date / price / platform），机制页是发售后抢位资产，两者 MUST 分开定位、分开定 KPI。③裸词污染判断这次被独立复现，说明门禁的裸词探针方法**可复现、可信**。④`public/` 在本仓并未被 gitignore —— CLAUDE.md 的「需 git add -f」告诫为陈旧信息，已更正。"
     }
   ],
   "knownIssues": [
