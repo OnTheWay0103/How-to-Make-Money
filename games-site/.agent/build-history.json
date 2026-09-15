@@ -1520,12 +1520,12 @@
       "status": "mitigated-needs-full-sweep",
       "detected": "2026-09-16",
       "recheck": "2026-09-17",
-      "residual": "全部 43 站尚未按新规则做全量复扫。已登记的未清扫面：themoundwiki（perk 树 / Nightmare modifiers / crafting recipes / weight thresholds / 8 个岛屿地名 / characters-classes.md:109 无源行）、tearsofmetalwiki（伪单位系统 10 文件 / Recruitment Tent 8 文件 / village-upgrade 精确价格）、spiritvalewiki（pets-mounts-guide.md 稀有度与进化表——按新规则为删除候选；等级上限 99 vs 100+）。"
+      "residual": "全部 43 站尚未按新规则做全量复扫。已清扫：spiritvalewiki pets-mounts-guide.md（20 具名实体 + 8 套编造系统 + 总括免责横幅，提交 8ac2b7e）、themoundwiki characters-classes.md `Expedition Rank` 行、以及前述三站 fact-sweep。**仍待清扫**：themoundwiki（perk 树 / Nightmare modifiers / crafting recipes / weight thresholds / 8 个岛屿地名 / **characters-classes.md 进度列表的 Perks 与 Logbook 两条**——Perks 官方 0 命中且其 25 处评测命中**全是玩家「要求加入该功能」**即反向证据；Logbook 真实但「completing entries grants permanent bonuses」0 命中；武器清单不一致见 themound-weapon-list-inconsistent）、tearsofmetalwiki（伪单位系统 10 文件 / Recruitment Tent 8 文件 / village-upgrade 精确价格）、spiritvalewiki（等级上限 99 vs 100+）。"
     },
     {
       "id": "zero-hit-false-positive-risk",
-      "description": "编造检测工具（语料零命中）本身有误伤风险，2026-09-16 当日即出现实例：themoundwiki fact-sweep 报告记「Oil Lamp = 0 命中」并作为编造证据，复核官方 39 篇公告（appid 2569760）实为 **2 命中**，其中一条是官方对该道具的正面描述（\"The oil lamp isn't just a light source… Unlike the torch, it won't flicker or die under the rain\"）。当时未执行删除，故未造成损失；但同批判定若被机械执行，会把官方内容当编造删掉。",
-      "fix": "已在 docs/agents/06-Profile-QA审核员.md 追加「零命中误判防线」三条（提交 fe9fb00）：①计数 MUST 写明「检索面 + 检索式 + 命中数」三元组，MUST NOT 只写孤立的 X=0；②按实体类别分级证据强度——具名角色/成套系统公告 0 命中是强证据，单件武器/道具是弱证据（补丁公告只提有变化的东西），MUST 补商店页 + 评测；③站内两份清单矛盾 = 站内不一致确证（可修），≠ 至少一份是编造（须另行取证）。",
+      "description": "编造检测工具（语料零命中）本身有误伤风险，2026-09-16 当日即出现实例：themoundwiki fact-sweep 报告记「Oil Lamp = 0 命中」并作为编造证据，复核官方 39 篇公告（appid 2569760）实为 **2 命中**，其中一条是官方对该道具的正面描述（\"The oil lamp isn't just a light source… Unlike the torch, it won't flicker or die under the rain\"）。当时未执行删除，故未造成损失；但同批判定若被机械执行，会把官方内容当编造删掉。 同日第二个实例（**假零命中**）：SpiritVale 官方公告流**分属两个 appid** —— 正式版 3767850 的公告在 2026-02-06 → 2026-04-19 **直接跳空**，March 2026 cosmetics 公告实际挂在 **Playtest app 3918510**。只查正式版会得出一整段官方历史「不存在」的结论，进而误删官方内容（该专项 sweep 首轮语料不完整，一度险些误驳正确结论）。",
+      "fix": "已在 docs/agents/06-Profile-QA审核员.md 追加「零命中误判防线」三条（提交 fe9fb00）：①计数 MUST 写明「检索面 + 检索式 + 命中数」三元组，MUST NOT 只写孤立的 X=0；②按实体类别分级证据强度——具名角色/成套系统公告 0 命中是强证据，单件武器/道具是弱证据（补丁公告只提有变化的东西），MUST 补商店页 + 评测；③站内两份清单矛盾 = 站内不一致确证（可修），≠ 至少一份是编造（须另行取证）。 追加：零命中判定 MUST 先确认该游戏有几个 Steam appid（试玩/Playtest/Demo 版是独立 app、有各自公告流），检索面 MUST 写明全部 appid 与各自篇数；评测 MUST 报覆盖比例（如「5,211 条 = 该 app 列出的 100%」），MUST NOT 用抽样冒充全量。另固化「词频 ≠ 支持证据」：MUST 逐处读上下文，三类陷阱为同形不同指（Level 20/30/40/50 全指角色/怪物等级）、同词不同域（Rarity 仅用于精华稀有度与 Boss 掉落）、张冠李戴（Shield Bash 是公告中的 Paladin 技能，被误当宠物主动技能）。提交 9bf7637。",
       "status": "rule-closed",
       "detected": "2026-09-16"
     },
@@ -1536,6 +1536,13 @@
       "status": "open",
       "detected": "2026-09-16",
       "recheck": "2026-09-17"
+    },
+    {
+      "id": "spiritvale-pets-mounts-missing-system-cause",
+      "description": "线索（**未验证**，非零命中）：搜索摘要提示存在一个 Kickstarter「enhanced pets and mounts」**未达成**的众筹目标 —— 若属实，可解释 SpiritVale 为何没有宠物/坐骑成长系统（即该系统从未被做出来，而非玩家没找到）。",
+      "fix": "待办：MassivelyOP / Kickstarter / MMO.Net 本轮均 403/404，**故未作任何断言**。若日后可达，可作为「该系统不存在」的正向解释补入 pets-mounts-guide.md。",
+      "status": "open-unverified",
+      "detected": "2026-09-16"
     }
   ],
   "bestTemplates": {
