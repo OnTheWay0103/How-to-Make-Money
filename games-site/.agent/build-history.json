@@ -1239,6 +1239,196 @@
         "GSC property not yet added for dressmakerwiki (verification file public/google12f8715471cef7b7.html is deployed and returns 200). Human task logged."
       ],
       "lessons": "BUILD-008. Score 19/20, zero wiki competition in EN/CN/JP, built 9 days pre-launch. Content split P0 5 (release-date-price-platforms, beginner-guide, platforms-mac-console-mobile, free-steam-vs-itch-prototype, vs-dressmaker-pro) + P1 7 mechanic-depth (fabric, grain-direction-bias-cut, pattern-placement-cutting, sewing-clean-seams, customer-requests-style-tags, sketchbook-dress-parts, decoration-placement) forming a hub-spoke over 12 mutually-linked real slugs, each with an independent search intent and no self-cannibalisation. Highest-differentiation bet is grain-direction/bias-cut — lowest competition, no wiki covers it. ATTRIBUTION RED LINE: the game is developed by Cozy Lives and PUBLISHED by Free Lives; the phrase 'developed by Free Lives' is wrong. Note vs-dressmaker-pro.md legitimately contains that phrase inside a refutation paragraph — a naive grep will flag it as a violation; MUST read context before acting. DISAMBIGUATION: the bare name 'Dressmaker' is polluted by DressMaker / DressMaker Pro (unrelated dress-up games) — the vs- page exists to capture and redirect that traffic; pool entry records the bare-name risk."
+    },
+    {
+      "game": "Sephiria",
+      "date": "2026-09-13",
+      "genre": "pixel-art action roguelite (TEAM HORAY)",
+      "template": "sephiriawiki existing (no template change)",
+      "mode": "expand-feedback (EXPAND-9/13, daily per-site, feedback-driven)",
+      "guidesAdded": 1,
+      "guides": 39,
+      "deployed": true,
+      "pipeline": "EXPAND-9/13 (路径①抱怨驱动先跑 —— 136 条去重 Steam 评测样本全部收敛既有页 → 按 Profile 切路径②官方公告机制清单 × 站内覆盖 → 命中商业层真空：官方 9/12 Price Update Notice（$14.99→$17.99，2026-09-14 14:00 KST 生效），站内 38 篇价格/购买覆盖 = 0 → price-increase-and-worth-it-guide → QA quick PASS（🔴0 / 🟡3 已归档）→ 顺修 app/guides/page.tsx 跨站模板残留 EX-Mod crafting → artifact and tablet systems → deploy 9/13 vercel --prod → 主 Agent 独立复验线上 200 / 68,555 B + sitemap 46 URL = 8 静态 + 38 篇攻略，与 content/guides 实际 38 个文件一致；9/13 归账：5/5 全产出 0 SKIP，逐站独立复验、线上 size 与子 Agent 自报逐字节一致）",
+      "qa": "QA quick 9/13 — PASS（EXPANDED，🔴 0 / 🟡 3 已归档）。选题：定价与购买决策（何时涨 / 涨多少 / 现在买还是等 / $17.99 值不值）。四条件核验：① 高频 = 5 类去重后互不派生的来源（Official-A 9/12「Price Update Notice」全文经 ISteamNews 取回，5 币种对照表 + 生效时点；Official-B 7/29「Launch Time Details」独立预告「once the discount ends … the price will be increased」；Official-C 商店页购买区实测 itemprop price=14.99 / data-discount=0；Media-D 独立媒体 17173 同文 5 币种表逐字一致；Community-E ≥6 条独立 Steam 评测给出明确价格/价值判断）；② 具体；③ 真缺口（先 ls 列全 38 slug，再全站 grep 价格词仅 2 处语义无关命中；keyword-results/Sephiria-feedback.md 2026-08-01 已把「Is Sephiria worth it / should I buy」列为无覆盖目标搜索语）；④ 可溯源（百分比与 KST→UTC/PDT/EDT 换算标 [Editorial]，未来是否打折回 $14.99 标 [Unconfirmed]，未挑单方）。1,486 词（脚本实测，红线 800–1500 内）。frontmatter sources 三层 Official / Community / Editorial。与 full-release-guide（1.0 新增了什么）、game-length-guide（通关时长）搜索意图不同，不自噬。站内攻略 37 → 38。",
+      "issues": [
+        "🔴 跨站残留（本轮发现并修复）：app/guides/page.tsx 的 meta description 含他站专有术语 `EX-Mod crafting`（EX-Mod 是 aincradwiki 的真实系统）→ 改为 `artifact and tablet systems`。全仓 grep 同串仅 2 站命中：aincradwiki（合法，未触碰）与 sephiriawiki（本残留）。线上复验 /guides 页 `EX-Mod` 计数 0、`artifact and tablet systems` 计数 1。",
+        "🟡 已归档未修（跨 6 文件批量事实修正，超当日「1 篇」范围）：站内 Steam 评分标签过时 —— 商店页 2026-09-13 实测 English Reviews: Overwhelmingly Positive (97% of 2,693)，appreviews API review_score_desc 同名，但 7 处 / 6 文件仍写 Very Positive（faq-content.md:20、full-release-guide.md:13、beginner-guide.md:13、home-content.md:15 与 :93、app/faq/page.tsx:12、app/page.tsx:16 与 :89-90），其中 home-content.md:93 自相矛盾（「Very Positive — Overwhelmingly positive player reception」）。",
+        "🟡 已归档未修：app/page.tsx:39 与 lib/schema.ts:61,78 的「Buy on Steam」指向商店首页 store.steampowered.com/ 而非 app 页 app/2436940/Sephiria/（正确写法见 components/Footer.tsx:9）；content/home-content.md:100 链接 reddit.com/r/SephiriaGame 与 Reddit 维度连续缺失（未找到活跃 subreddit）存在张力，疑似死链。",
+        "时效待办（QA 建议，非本轮缺陷）：本页时效极强 —— 2026-09-14 14:00 KST 后「现在买还是等」转为历史事实，建议 9/15 复核一次，把「still showed $14.99」改为涨价后实测值。未验证项：涨价后是否进入常规折扣周期**无任何官方来源**，本轮未写，维持 [Unconfirmed]（下次复检条件：商店页出现首次 post-launch 折扣 data-discount > 0）。武器升级材料题（Copper / Luminous / Apex）触发条件仍不满足（单源 xmodhub + 命名冲突 Lunar vs Luminous），继续不写。"
+      ],
+      "lessons": "EXPAND-9/13（sephiriawiki）：**时效性极强的页面 MUST 在产出时挂一个明确的复核日与复核动作**（本页的结论在生效时点后即由「建议」转为「历史」），否则上线即开始过期。另：同一事实链上的多则官方公告要分别锚定并互相引证 —— 7/29「Launch Time Details」独立预告了 9/12「Price Update Notice」的涨价，只看最新一则会漏掉「官方早就说过要涨」这条证据，站内 38 篇零价格覆盖的判断正是靠这条才成立。"
+    },
+    {
+      "game": "The Mound: Omen of Cthulhu",
+      "date": "2026-09-13",
+      "genre": "1-4 player co-op extraction horror (ACE Team / NACON)",
+      "template": "themoundwiki existing (no template change)",
+      "mode": "expand-feedback (EXPAND-9/13, daily per-site, feedback-driven)",
+      "guidesAdded": 1,
+      "guides": 40,
+      "deployed": true,
+      "pipeline": "EXPAND-9/13 (路径①抱怨驱动先跑 —— 拉全 631 条独立 Steam 评测（7/15–9/12）聚类，高频抱怨近战 65 / 性能 61 / 难度 35 / 进度 30 / 联机 29 全部已进既有 38 篇 → 按 Profile「抱怨收敛 ≠ 没有缺口，此时 MUST 切换到②」转路径②官方公告机制清单 × 站内覆盖 → 命中 Patron Saints 系统（官方 1.01/1.02 公告逐字提及 3 次；站内 38 篇 patron / sacred figure / nine guardians 全 0 命中）→ patron-saints-guide → progress-save-recovery-guide 1 行事实修正 → QA quick PASS（🔴0 / 🟡2 既有）→ deploy vercel --prod → 主 Agent 独立复验线上 200 / 69,498 B，sitemap guide URL 39 条（原 38），生产 alias 经 vercel inspect 指向本次部署；9/13 归账：5/5 全产出 0 SKIP，线上 size 与子 Agent 自报逐字节一致）",
+      "qa": "QA quick 9/13 — PASS（🔴 0 / 🟡 2 项既有缺陷，均非本轮引入）。选题：守护圣徒（Patron Saints）—— 祝福如何解锁与装备、为何只生效一个、花什么货币。依据：官方 patch 说明中反复出现、站内 38 篇零覆盖。真缺口证据 = patron / sacred figure / nine guardians 全 0 命中，38 篇无一同主题；内链 7 个目标 7/7 存在且线上逐条 200，反向内链 progress-save-recovery-guide 线上含新 slug ×2。Sources 三层齐备（Official / Community / Editorial），每条带可点击链接 + 1 段 Honesty note：官方 3 条（1.01 公告「Saints are now equipped for a smaller cost at the ox wagon before an expedition」+ 已知问题「Saints are disappearing after one expedition unless you restart a lobby」；1.02 公告「Reduced Saints blessing costs」+「Fixed Saints not loading after missions」；Steam news hub app 2569760 全文），社区/编辑 3 家（GrindNStrat 九圣徒与祝福列表 + 一次一个的限制 + ox-wagon Token 花费 + 找雕像再雕刻的流程；NerdsChalk 解锁条件「tied to the Woodworker crafting 9 Sacred Figures」+ 九个雕像名；NoobFeed Saint Dymphna 解锁链与祈祷行为），奖杯站 3 家（PSNProfiles / TrophiesHunter / VGTimes，Nine Guardians 金奖杯描述交叉）。词数 1,356（正文，含 Sources/Related 全文 1,743）—— 红线内。产物级验证关键串：Patron Saints ×7、Nine Guardians ×5、官方原文 ×3、Saint Dymphna ×5、Unconfirmed ×3。站内攻略 38 → 39。",
+      "issues": [
+        "⚖️ 须主 Agent 裁定（QA 8.1）：本轮「≥3 独立来源」是按**系统存在性 + 站内零覆盖**计（官方 2 通道 + 编辑/社区 3 家 + 奖杯站 3 家），不是按抱怨频率计。这是 Profile 路径② 的正当用法（同 9/12 spiritvalewiki 判例），但若采用严格的「必须是负面抱怨聚类」解释，本轮应回退 SKIP。",
+        "🟡 证据分级如实交代：系统存在 / 解锁链 / 成就为多通道确证，但 9 条祝福**效果**主要来自 GrindNStrat 单通道（官方无表）→ 正文整表降级为 community-reported 并明写「ACE Team has not printed an official table」；花费货币 Token 标 [Unconfirmed]（官方只说 a cost / blessing costs，从不点名货币）；拒绝转述 Sacred Figure 坐标（社区区域名与站内区域词表无法互验）。Gamer Guides「Sacred Figures」数据库 WebFetch 403、TrophiesHunter 403 → 均未作为逐字来源（Honesty note 已显式声明 403）；Reddit 与 Steam 讨论区仍不可达。",
+        "🔴 基建发现（当轮上报，本轮未改）：content/home-content.md 是**死文件** —— 本轮全网面复核 grep -rln \"home-content\" 覆盖全部 42 站（*.ts/*.tsx）0 命中，有该文件的站点 38 个，任何「登记新 guide 一行」都不会被渲染（lib/guides.ts 只读 content/guides/*.md，首页 app/page.tsx 用硬编码 FEATURED_GUIDES）。themound 本轮已自行回退该登记；新页可发现性实际由自动发现的 /guides 索引 + sitemap.xml 承担，两路径均已线上验证。",
+        "🟡 既有缺陷本轮未改（超选题范围，已如实上报）：characters-classes-guide 的角色 Trait 表与数值（如「Iron Will — 15% less Sanity damage」）与站级 app/page.tsx + FAQ 互斥，QA 判定该表**很可能属编造**，建议列 P0 单独处理；contracts-guide.md 对牛车行为的描述可疑，属 9/11 已否决的牛车主题范畴，建议后续工单。"
+      ],
+      "lessons": "EXPAND-9/13（themoundwiki）：**抱怨收敛不等于没有缺口** —— 631 条评测聚类出的高频抱怨 100% 落到既有 38 篇，但切到「官方公告机制清单 × 站内覆盖」后立刻命中一个官方逐字提及 3 次、站内 grep 全 0 的整块系统。路径② **不依赖新补丁**（本站 9 月确无新补丁仍成立），因此它是抱怨路径榨干后的常规续接动作，而非「等新版本」的替代品。"
+    },
+    {
+      "game": "SpiritVale",
+      "date": "2026-09-13",
+      "genre": "Class-based MMORPG (buy-to-play EA)",
+      "template": "spiritvalewiki existing (no template change)",
+      "mode": "expand-feedback (EXPAND-9/13, daily per-site, feedback-driven)",
+      "guidesAdded": 1,
+      "guides": 44,
+      "deployed": true,
+      "pipeline": "EXPAND-9/13 (路径①抱怨驱动先跑 —— recent 100 + negative 100 条样本去重后抱怨全部收敛既有 42 篇（与 9/3–9/11 六连 SKIP 判定一致），**不因抱怨无解而 SKIP** → 按 Profile 转系统清单路径 → 命中零覆盖项 PTR / publictest 测试分支（官方公告出现 3 次：7/31 完整定义 + 四规则 + 加入步骤、8/2、9/10 当前状态；全站 grep「PTR」仅 7 处且全部为「PTR-tested August 2」式顺带一句，无专页）→ ptr-test-server-guide → QA quick PASS（🔴0 / 🟡1 为他页既有）→ deploy 9/13（首次 vercel --prod 瞬时 Not authorized，按 Profile 自动重试 1 次成功，与 9/11 同因）→ 主 Agent 独立复验线上 200 / 62,381 B，默认 DNS 与 --resolve 双通道一致；同日 f2381c7 订正 artifact-sets-guide 归因错误并线上复验 200 / 71,087 B；9/13 归账：5/5 全产出 0 SKIP，线上 size 与子 Agent 自报逐字节一致）",
+      "qa": "QA quick 9/13 — PASS（已部署，线上验证通过；🔴 0 / 🟡 1 为他页既有问题，已上报未擅改）。选题：PTR / 公开测试服是什么、怎么进、进去是什么状态、现在测什么、多久上线。四条件：① 高频 ≥3 独立来源 = 官方 3 则公告（7/31「We got some news!」完整定义 + 8/2 + 9/10「Help us test in PTR version!」）+ 独立编辑媒体 MassivelyOP 3 篇（8/2、8/4、8/17）+ SteamDB 补丁存档，且 PTR 的**实际机制**同时被官方公告与独立非官方媒体描述，满足本站史上用于 0.31.0 的「≥2 独立非官方来源描述实际机制」门槛；② 具体（怎么进 / 进去后状态 / 现在测什么 / 多久上线）；③ 真缺口（先 ls 全 42 slug 再全文 grep，0/42 篇解释 PTR，与 updates-patch-notes / artifact-sets-guide / connection-server-guide / account-ban-appeal-guide / trading-market-guide 搜索意图互不重叠，自噬未发现）；④ 可溯源（直连 Steam 官方 news API 逐字）。来源三层 Official 4 / Editorial 3（本轮无 Community 层）。1,316 词（markdown 剥离后脚本实测；raw body 1,342）—— 红线内。CJK 字符 0。内链 7 条正文 + 6 个 related，线上 7/7 = 200。站内攻略 42 → 43。",
+      "issues": [
+        "🟡 他页既有事实**归因错误**（非本轮引入，本轮未改他页，同日 f2381c7 单独订正）：artifact-sets-guide.md 两处（sources L13 + 正文 §5）称「Advanced Artifacts and Grimoires」出自官方 0.31.0 Dark Fortress 公告（8/25）。直连 Steam news API 取 0.31.0 全文（8,219 字符）扫描，Advanced / develop 命中 **0** —— 事实为真且官方，属**来源归因错误而非编造**（疑因 8/2 公告同时提到 Dark Fortress 而混淆）。f2381c7 订正为 8/2 公告（研发中）+ 9/10 公告（已进 PTR），顺带修正一处实质时效偏差（原文写 work in progress，实际 9/10 起已进 PTR）；0.31.0 公告对 Grimoires 的唯一表述「Grimoires are now character bound」保留不动。线上复验：旧错误表述 grep=0、订正文本 grep=2。",
+        "⚠️ 未解决待决（[Unconfirmed] 类，QA 建议合规审计员合并时统一口径）：PTR 首次公开日期 —— updates-patch-notes L102 记「On August 2 the developers opened a PTR」，本轮实测存在**更早**的独立官方公告 7/31「We got some news!」（完整 PTR 定义 + 四规则 + 加入步骤）。两者非互斥（7/31 建立并说明、8/2 周报再次提及），新页按 7/31 书写并在 sources 列明两则公告的日期与标题，未否认既有页，故不构成站内可见矛盾。",
+        "长期阻塞触发条款复检**仍未达标**：0.31.0 Dark Fortress 仍无 ≥2 独立非官方来源描述**实际机制**（官方 news API 最新 = 9/10 PTR、8/25 0.31.0，无 0.31.x/0.32.x；定向检索只回官方/Steam 多语区镜像，属同一帖镜像；JP wiki misc:update 最后更新 2026/08/25 仅 3 行摘要无机制细节；vgspoilers 止 0.30.14、MassivelyOP 止 8/17）→ **不写** 0.31.0 机制深度指南（且 0.31.0 已入 updates-patch-notes，再写即自噬）。",
+        "采集通道如实记录：Reddit 与 Steam 讨论区不可用（未编造任何 Reddit 内容，也未把 403 等同于零信息）；massivelyop.com / steamdb.info WebFetch 均返回 **403** → 按规则降级为「不可作一手直读，仍可作索引级交叉参考」，并在页面 sources 中显式披露该降级。样本侧：Steam 总体评价 Mixed（1,175 正 / 727 负 / 1,902 总）；SteamDB 补丁存档为索引级、未当一手直读。"
+      ],
+      "lessons": "EXPAND-9/13（spiritvalewiki）：建议在选题路径中增列第③ 路 —— **官方公告的「流程 / 机制」清单 × 站内覆盖**。不只是「官方商店页声明了哪些**系统**」（9/12 路径②），还包括「官方公告描述过哪些**运行机制**」（测试服如何运作、补丁如何从测试走到线上、反馈如何影响发布节奏）。依据：PTR 在官方公告出现 3 次、被独立媒体 MassivelyOP 报道 3 次，且是**唯一**能让玩家提前看到 Advanced Artifacts and Grimoires 的通道，但站内 42 篇只有顺带一句，6 轮抱怨驱动检索从未枚举到它。该路径与玩家情绪无关，因此**不会**被「抱怨已收敛」这一判据否掉 —— 而后者正是本站 9/3–9/11 六连 SKIP 的唯一根因。"
+    },
+    {
+      "game": "Tears of Metal",
+      "date": "2026-09-13",
+      "genre": "Scottish action roguelike (Paper Cult)",
+      "template": "tearsofmetalwiki existing (no template change)",
+      "mode": "expand-feedback (EXPAND-9/13, daily per-site, feedback-driven)",
+      "guidesAdded": 1,
+      "guides": 35,
+      "deployed": true,
+      "pipeline": "EXPAND-9/13 (路径②系统清单驱动 —— 把 20 条官方公告中**全部**含 Charm 的行抽出与站内 33 篇逐一对照，确认 Charms 是与 Emblems/artifacts 并列的独立系统却在站内实质零覆盖（区分大小写 Charm 全站仅 4 处命中 2 文件且非实质：co-op-revive-guide 的 Charm economy 提及、emblem-artifact-guide 把 Storm-Chaser's Charm 当 artifact 列、patch-notes 仅顺带提 Tier 重分类 —— healing-guide 的金币预算表**完全没有 Charm 列**）→ charms-guide → 自捕归属修正后**重跑构建重部署**（首次部署早于修正）→ QA quick PASS（🔴1 已修 / 🟡1 / 🟢5）→ 主 Agent 独立复验线上 200 / 72,836 B；9/13 归账：5/5 全产出 0 SKIP，线上 size 与子 Agent 自报逐字节一致）",
+      "qa": "QA quick 9/13 — PASS（批准部署）。选题：Charm 能否叠加、稀有度分档、从哪来。刻意避开密集联机簇（自噬红线）；与 9/7–9/11 七个已否决题材零重合。四条件：① 高频 ≥3 独立来源 = 官方公告 Charm 相关条目横跨 v0.8.57278 / v0.9.57408 / v0.10.57598 / v0.11.57863 / v0.12.58540 / 9-8 补丁共 **6 次**独立发布 + Steam 社区讨论 2 帖（摘要与官方补丁文本互相印证，已按 community-reported / thread 定级）+ 第三方 cheatbook.de（WebFetch 200，两条主张命中原文）+ Steam 近期/差评中「coin 该买 charm 还是买血」聚类；④ 可溯源 = 页内每处官方引用**逐字回验 23/23 命中**，两条第三方主张（Act 3 无商店 / Market 加 Tier 1-3 Merchant Charm slots，官方 changelog 无对应条目）标 [Unconfirmed]，无来源数字一律未写入。来源三层 Official 4 / Community 2 / Editorial 1。1,490 词（全文，按 9/12 同一测法；主要正文不含 Sources/Related 为 1,360）—— 红线内。页脚与 /terms 的 IP 归属均实测为 Paper Cult。站内攻略 33 → 34；/guides 索引渲染为「34 guides covering every aspect」。",
+      "issues": [
+        "🔴 自捕硬事实错误（本轮发现并已修；修在首次部署之后 → 已重跑构建重部署）：初稿第 7 节把「HP 阈值 Charm 改为关卡开始时判定」写成 9/8 补丁的修复之一，标题写「Three fixes from the September 8, 2026 pass」。逐条回验定位后确认该行出自 **v0.12.58540（2026-08-13）**，9/8 补丁只有 2 条 Charm 行为类修复。已改写为「from two different patches」并逐条挂版本号与日期。线上复验命中 from two different patches ×2 / HP-threshold ×2 / v0.12.58540 ×4，证明线上为修订后源码。",
+        "🔴 跨站残留（本轮发现并就地修复；9/13 归账定性为**多站模板缺陷**）：tearsofmetalwiki/app/guides/page.tsx 的 /guides 页元描述含他站术语 EX-Mod crafting → 清除为「hero builds, emblems, charms, boss strategies, village upgrades, co-op fixes and more.」。归账复核 git log 显示该文件自脚手架提交 4be99c0 起**从未改动**，即 9/11 报告的「已清理」声明**不成立**（该轮实际未改）。",
+        "🟡 导航登记失效（只记录不改）：content/home-content.md 的 Quick Navigation 表本轮新增 Charms 一行，但全仓 grep 确认该文件 **NOT REFERENCED** —— lib/guides.ts 只读 content/guides/*.md，app/page.tsx 用硬编码的 FEATURED_GUIDES（固定 6 张卡）与 FAQ_ITEMS。该行**不产生任何线上效果**，保留仅为表意完整；新页可发现性由自动发现的 /guides 索引（34 篇）与 sitemap.xml 承担，均已线上验证。",
+        "🟡 既有矛盾未修（建议主 Agent 优先定调后单点修一页）：村庄升级是否全队共享 —— app/page.tsx:20（「Progression is shared between party members — village upgrades apply to all.」）与 app/faq/page.tsx:16（「The campaign is shared, while village upgrades are individual to each player.」）**直接对立**，两页线上均 HTTP 200，属 AdSense 合规与读者信任风险。另：gamesmoler.com 的「Charms 跨战役保留」主张刻意不引用（内容特征符合 AI 生成 SEO 内容，无官方对应），页内 FAQ 反而把该点显式标 [Unconfirmed]；steamcommunity.com 直连 000（不可达），两帖仅经检索摘要取得。"
+      ],
+      "lessons": "EXPAND-9/13（tearsofmetalwiki）：**引文 MUST 逐条回验定位到具体版本** —— 初稿凭印象把 A 补丁的修复挂到 B 补丁名下（9/8 vs v0.12.58540），若不修即为把 A 补丁的修复记到 B 名下的硬事实错误；本轮把页内 23 处官方引号逐条回验 23/23 命中。配套规则：**自捕的事实错误若修在部署之后，MUST 重跑构建并重部署，再线上复验修订后的特征串**，否则线上仍是旧错误版本。"
+    },
+    {
+      "game": "Grain Rot",
+      "date": "2026-09-13",
+      "genre": "Co-op Survival Horror (Beck & Branch Games / Neem Interactive)",
+      "template": "grainrotwiki existing (no template change)",
+      "mode": "expand-feedback (EXPAND-9/13, daily per-site, feedback-driven)",
+      "guidesAdded": 1,
+      "guides": 33,
+      "deployed": true,
+      "pipeline": "EXPAND-9/13 (路径①抱怨驱动跑出「高频抱怨已基本被现有页面吃下」（Early Access 未完成 → release-date-faq / full-release-guide / patch-notes-guide；难度 → tips-and-tricks / beginner-guide；单人 → co-op-guide；Spark/附身 → beginner-guide；服务器浏览 → multiplayer-matchmaking-guide；恶意玩家 → co-op-guide；存档丢失 → progress-save-recovery）→ **未直接判 SKIP**，转路径②把官方商店页 1.0 解锁清单逐项对照站内覆盖 → 命中 `stat upgrades` / `interactive furniture` / `best Outpost room` 这一整块官方明列系统的零覆盖 + 社区 ~10 条时间戳分散（8/11–9/9）独立评测的实证描述（官方锚 + 社区实证同时成立）→ outpost-decoration-stats-guide → outpost-upgrade-guide 关联更新 + home-content.md 导航登记 → QA quick PASS（0 🔴 / 0 🟡 / 0 🟢）→ 产物级表格回归 32 篇全查 0 命中（9/12 归档缺陷未复发）→ 主 Agent 独立复验线上 200 / 67,869 B + sitemap　40 loc；9/13 归账：5/5 全产出 0 SKIP，线上 size 与子 Agent 自报逐字节一致）",
+      "qa": "QA quick 9/13 — PASS（0 🔴 / 0 🟡 / 0 🟢，批准部署）。选题：前哨装饰数值 —— 装饰如何转成属性、房间等级、物品互斥。四条件：① 高频 ≥3 独立来源 = 官方商店页解锁文案（stat upgrades + interactive furniture，另有 Persistent Outpost rebuilding and progression / Tactical carpentry with interactive furniture）+ 官方 demo 公告「Share 2 to 3 screenshots of your best Outpost room」与 Patch 1.08（新增 7 个可建造构造）+ ~10 条相互独立、时间戳分散（8/11–9/9）的 Steam 评测分别描述「装饰→房间等级→属性」，含正面与抱怨两侧；④ 可溯源 = 官方 4 条（Outpost 有 stat upgrades / 强度门控深度 / 永久性 / 房间被官方展示）与社区主张严格分层。来源三层 Official 2 / Community 1 / Editorial 1。1,471 词（正文去 markdown、链接文本保留，脚本实测；同脚本对 9/12 页 elevator-modifiers-fuse-guide 得 1,439 而 9/12 QA 报该页 1,449 → 折算本轮 ≈ 1,481，两种口径均 ≤1,500 且 ≥800）。**主动留空**：无任何房间名、属性名、费用、等级上限、物品-加成数值（核实为不存在可溯源来源，按站内 weapons-tools-guide 既有编辑准则一律不写，页面 What Nobody Has Confirmed 明写「Any guide quoting exact costs is guessing」）。新页 6 处 [Unconfirmed]。站内攻略 31 → 32；内链 32 篇全量 BROKEN_LINKS: 0；sitemap 40 loc。",
+      "issues": [
+        "🟡 导航登记失效（如实上报，未修）：任务要求「若存在 content/home-content.md 一类导航注册机制 → 先确认再按机制注册」，实测该文件**被孤立** —— grep -rn \"home-content\" app/ lib/ components/ 零命中，无任何代码读取它，注册后**无渲染效果**。本轮已按要求登记一行，但它不是有效导航面；真正的 /guides 索引由 lib/guides.ts 的 fs.readdirSync 自动发现（32 张卡片已实测）。",
+        "未验证项与下次触发条件（如实标注，未编造）：6 处 [Unconfirmed] 社区主张 —— 房间等级、物品数（12 房间 / ~40 件装饰）、物理掉落（NPC 撞飞物件「destroys both your room bonuses and the objects themselves」，加限定语 worst in the entrance and basement rooms）、合作队友放物品致房间 Level 2 → Level 1（单条报告，页面明写「A single report, possibly a bug」）、物品互斥（good luck figuring out how to setup a room without seeing if stuff Syncs for a boost or ruins each other）。另：1.0 新增**第二层 Outpost** 来自发布方上线公告 + 媒体覆盖（TechTimes 上线周报道交叉印证），frontmatter 与正文 Sources 均已如实标注归属，**未升格为商店页逐字**。触发条件：官方发布房间/属性清单，或 10 月 Halloween Update 开第三层 Outpost → 回填数值并撤标。",
+        "DNS 诚实记录（本条影响线上验证方法）：本轮运行期间本机默认解析器曾对 grainrotwiki.vercel.app 返回 HTTP:000 / size=0（同一现象本轮也命中 reddit.com 与 steamcommunity.com）。按规则 000/0 一律视为「未验证」MUST NOT 记为 PASS，故全部线上数据改用 dig @8.8.8.8 取真实边缘 IP（216.198.79.131）+ curl --resolve 实测，不依赖默认解析器。落盘后复测默认解析器已恢复（HTTP:200 SIZE:67869），与 --resolve 结果**逐字节一致**，构成互证 —— 说明该故障是**间歇性**而非持续性。Reddit 与 Steam 讨论区今日 000，按规则记为「不可用」，未作为任何断言来源（全页玩家侧主张 100% 来自 Steam 评测通道，可回溯到具体评测日期），也**不声称**「已验证不可达」（可能部分源于本机 DNS 投毒）。",
+        "产物级回归（9/12 归档缺陷复检）与补丁史：9/12 归档的「全站表格分隔行缺陷」本轮在 32 篇攻略产物中命中 **0**，未复发（另验证新页 `<table>` × 1、`<em>` × 3、无字面下划线泄漏 —— 该处曾在首次构建中渲染为字面 `_..._`，已由 `*...*` 修正并重建复验）。9 月确认无新补丁（最新仍 1.09 / 8/28）—— 本题成立**不依赖新补丁**。"
+      ],
+      "lessons": "EXPAND-9/13（grainrotwiki）：路径① 跑出「高频抱怨已被现有页面吃下」**不构成 SKIP 信号**（按 9/12 新规则转②），②随即命中官方明列却整块缺失的系统。第二个可迁移点是**验证方法**：本机 DNS 投毒是**间歇性**的 —— 同一次运行里默认解析器可能先返回 000、落盘后复测又恢复正常，因此「验证时恰好 200」不足以证明通道稳定，MUST 用 `--resolve` + 权威解析器（@8.8.8.8）取确定性 IP 才能构成互证。"
+    },
+    {
+      "game": "Sephiria",
+      "date": "2026-09-16",
+      "genre": "pixel-art action roguelite (TEAM HORAY)",
+      "template": "sephiriawiki existing (no template change)",
+      "mode": "expand-feedback (EXPAND-9/16, daily per-site, feedback-driven)",
+      "guidesAdded": 1,
+      "guides": 39,
+      "deployed": true,
+      "pipeline": "EXPAND-9/16（报告内任务编号 EXPAND-2026-09-16；路径①抱怨驱动先跑 → 收敛，全部落点已有页 ⇒ 无新缺口，按红线 MUST NOT 直接判 SKIP → 切路径②：用官方 partner-events API（events/ajaxgetpartnereventspageable/?appid=2436940&count=50）取回 **50 条公告全文**（覆盖 0.7.50 → 1.0.33 全量更新史）列官方系统清单 × 站内 38 slug 比对 → 命中 **Combo System**（官方原话「one of Sephiria's core systems」；站内 combo 仅出现在「attack combo」连招义，0 篇）→ combo-system-guide → 防自噬双向 Scope note（artifacts-guide / tablets-guide 各加 FAQ + 反向链接、patch-1-0-31-build-changes-guide 加 related）+ P0 校准 4 项 → QA quick PASS（🔴 0 / 🟡 2）→ deploy 9/16 dpl_8qj1anerXKHpqFDzEMMRvd7UZXpk（READY / production，created 2026-09-16 05:13:53 CST）→ 线上复验（curl --resolve sephiriawiki.vercel.app:443:64.29.17.3）新篇 200 / 70,024 B、价格页 200 / 80,921 B、首页 200 / 51,078 B）",
+      "qa": "QA quick 9/16 — PASS（批准部署，线上下线已复验；🔴 0 / 🟡 2 均不阻断）。选题：Combo 系统（等级阶梯 + 具名 combo 表 + Bond Artifact + Fruit Skewer + 排障）。决策依据：① 官方把它定义为**核心系统**，0.9.1 是专门为它做的公开 beta 转正（0.9.3 公告原话「The 0.9.1 update is the official version that incorporates the final changes from the 'Combo System' public beta.」）—— 官方级别如此之高而站内整块空白；② 官方公告对自身系统定义是一手权威来源，逐字锚定即合规；③ 内容量足够。来源三层：Official（「Combo System」公开 beta 公告全文 + 0.900.6 Beta / 0.9.1 / 0.9.8 / 0.10.0 / 0.10.6 / 0.10.8 / 0.10.10 / 0.10.13 / 0.10.15 公告（正文含 0.10.14 与 0.10.16 小节）/ 0.11.0 / 0.11.7 / 1.0 / 1.0.23 / 1.0.26 / 1.0.31 / 1.0.33 逐条核验）/ Community（namu.wiki 神器页 tag 列表与 2/4/6/8/10 阶梯、doyo.cn 两篇中文 build 文、note.com 日文属性 build 文）/ Editorial（标签层与掉落层关系的白话解释、「进本前设、不是本中设」框架、[Unconfirmed] 判定规则）。1,495 词。站内攻略 38 → 39；内链集合比对 38 个被引用 slug **全部存在、0 悬空**。同轮 P0 校准 4 项：Steam 标签实测（2,690 → 2,742）、价格页时效校准（涨价已落地，决策章节改回顾性，新增 -10% 捆绑包实测表与 $16.19 分摊价）、FAQ 一致性、站内 Very Positive 清零（grep -rniE \"very positive\" = 0 命中）。产物级验证：本地 .next/server/app/guides/combo-system-guide.html 69,704 B，线上 70,024 B，表格渲染缺陷 0 命中。",
+      "issues": [
+        "🟡 词数红线（交主 Agent 决策）：价格页改版后约 2,100 词，超出 800–1500 的日常扩充红线。属**既有页校准**（涨价落地 + 新增捆绑包决策信息），非新写；若强行压到 1500 需删除已核实的事实。建议明确「校准类改动不受 1500 词上限约束」，否则下次遇到同类过期页会陷入「保事实 vs 保字数」的两难。",
+        "版本归属错误（本轮自捕并已修）：初稿把「Chalcedony Key / White Paper 显示虚高」的修复归到 0.10.15。实际该行位于「0.10.15 Update」**公告正文里的 0.10.16 小节**（该公告同时携带 0.10.14 / 0.10.15 / 0.10.16 三节）→ 已改为 **0.10.16**，并在 sources 内注明该公告的分节结构，避免后续复核再误读。",
+        "表述收紧（本轮自捕并已修）：0.10.10 的 Bond Artifact 外观规则官方原文是两个并列 bullet（both / one），初稿写成「now adds them when either related combo is active, not only when both are」属**超出原文的推断** → 改为逐字锚定原文两条 bullet，另起一句 [Editorial] 才给出合并解读。",
+        "采集通道与历史线索：namu.wiki 页面 WebFetch ECONNRESET → 改用检索索引摘要（doyo.cn / note.com 作 Community 层）；武器升级素材刷取线索（Copper / Luminous / Apex，站内 0 命中）本轮复核仍未找到 ≥2 条一致来源、命名冲突（Lunar vs Luminous）未解决 → **维持 9/9 否决，不留待办**。另：Steam 标签计数与日期词元当轮同步为 2,742 / checked September 16, 2026，全站 2,690 与 checked September 13 均 0 命中；唯一 [Unconfirmed] 是 frontmatter Editorial 层声明的标注规则本身，正文无未标来源的精确数值。"
+      ],
+      "lessons": "EXPAND-9/16（sephiriawiki）：**官方公告的分节结构是归因陷阱** —— 0.10.15 公告的正文同时携带 0.10.14 / 0.10.15 / 0.10.16 三节，凭公告标题挂版本号会把 0.10.16 的修复记到 0.10.15 名下（同类错误 9/13 在 spiritvalewiki 也发生过一次，属 8/2 公告与 0.31.0 公告混淆）。回验引文 MUST 定位到公告内的**小节**，MUST NOT 以公告标题为准；新来源若带分节结构，应在 sources 里明写该结构，避免后续复核重复误读。"
+    },
+    {
+      "game": "The Mound: Omen of Cthulhu",
+      "date": "2026-09-16",
+      "genre": "1-4 player co-op extraction horror (ACE Team / NACON)",
+      "template": "themoundwiki existing (no template change)",
+      "mode": "expand-feedback (EXPAND-9/16, daily per-site, feedback-driven)",
+      "guidesAdded": 1,
+      "guides": 40,
+      "deployed": true,
+      "pipeline": "EXPAND-9/16（报告内任务编号 EXPAND-2026-09-16-themound；两条路径并行 —— 路径①抱怨驱动（Steam 评测负面优先聚类）× 路径②官方商店页/公告系统清单 × 站内 39 slug → 命中 Ox Cart 行为与控制（站内 ox cart / ox wagon / command wheel 主题 0 覆盖，确认真缺口）→ ox-cart-guide → P0 先行（9/13 遗留的 3 个未提交改动核对 + 修正 4 处，与本轮新增页一同 build + deploy）→ QA quick PASS（0 🔴 / 3 🟡 均既有遗留不阻断）→ 全局 vercel 58.9.4（未用 npx vercel）deploy 9/16 → 生产 alias 经 vercel inspect 指向本次新部署（created 43s ago / Ready）→ 线上 /guides/ox-cart-guide 200 / 72,266 B，sitemap 200 / 8,728 含 ox-cart-guide，共 48 URL；无 HTTP=000 / size=0 记录为 PASS 的情形）",
+      "qa": "QA quick 9/16 — PASS（0 🔴 blocking / 3 🟡 warning）。选题：Ox Cart 行为与控制（「为什么牛车不跟我 / 怎么控制它」）。四条件：① 高频 = 1,185 条英文评测样本中 74 条提及牛车、45 条负面（负面率 60.8% vs 基线 36.5%），61 条不重复抱怨句；② 具体（5 个不跟随原因 + Command Wheel 2.0 + 5 项功能 + 送不送回）；③ 缺口（站内 0 专页）；④ **官方锚定** = Patch 1.04 公告逐字给出 Command Wheel 2.0（「Command Wheel 2.0: By popular demand we have added a new function to allow you to stop the cart and give it instructions. Proximity determines whether or not you use the horn.」）；⑤ 编辑层 ≥3 独立来源（ChapterCheats / NoobFeed ×2 / OutputLag / 2UpSkill）。来源三层 Official ×4 / Community ×10 / Editorial ×5，全部附可追溯链接；所有数字标来源，单一来源 / 单一玩家报告一律标 [Unconfirmed]（共 5 处）。1,487 词（去 markdown 标记后）。frontmatter 与站内既有指南对齐。抽样率 100%（本轮仅 1 篇新增 + 4 处修正，全检）。数字（74 / 45 / 1,185 / 36.5%）均由官方 reviews API 实测复算。产物级验证 ox-cart-guide.html 71,933 B、表格分隔行垃圾 `<td>---</td>` 0 命中（9/12 组件缺陷未复发）。站内攻略 39 → 40。",
+      "issues": [
+        "🔴 P0 已闭合（本轮最重要产出）：characters-classes.md 的角色名单与独有 Trait **判定为编造** —— 旧版 4 名角色（Alonso de Medina / Father Miguel / Catalina de Vega / Rodrigo de Silva）配 4 个独有 Trait，经 **1,396 条**独立评测（全语言、filter=recent / filter=all 双口径、8 页游标翻页）全文检索该串 **0 命中**，判定不可追溯。已重写为 2 条带 permalink 的可溯引文 + 补 roster 来源 + [Unconfirmed]。全站复扫 Alonso|Miguel|Catalina|Rodrigo 与 Iron Will|Divine Protection|Keen Eyes|Berserker Rage 均 0 命中；unique ability|innate trait|character-specific|per-class 仅命中新页自身的否定句。",
+        "🟡 一致性争议（本轮未擅改他页）：isolation-guide.md:79 断言「靠近牛车降 Insanity」只被编辑层支持，实测有 1 条 10-vote 玩家评测明确反证（「Staying near the cart seems to do nothing for sanity.」）→ 本轮未改该页既有结论，改为在 ox-cart-guide 中如实并列双方并标 [Unconfirmed]，并加 Scope note 指向该争议。建议下次 fact-sweep 统一：要么给该断言降级，要么把反证一并写入 isolation-guide。",
+        "🟡 既有遗留未改（超本轮授权范围，建议立专项）：extraction-guide.md:21-59 的「Extraction Zones」四型表 + 精确提取秒数 + Compass 三模式，在本轮取到的官方公告与全部编辑来源中**均无佐证**；且该页提取流程完全未提「送回牛车」这一步，而实测 4 条独立评测描述 in-game 教学要求送回牛车。characters-classes.md:107 的「Expedition Rank — … unlocking new loadout slots」无来源（该页其余部分已重写，此行属重写遗漏的旧句）→ 建议删除或标 [Unconfirmed]。",
+        "跨站待办误挂更正（本轮发现）：9/13 QA 待办 #6「PTR 起始日 8/2」经核实属**跨站误挂** —— themoundwiki 全站 grep PTR = 0 命中，updates-patch-notes.md 也无 8/2 这个日期；themound 的测试通道是 **Open Beta branch**（官方 7/17）→ 本站口径正确无需改动，建议主 Agent 改派 spiritvalewiki 或关单。采集侧：本轮官方公告 1.01–1.05 全文取自 ISteamNews（首次 000 → 重试 HTTP 200）；steamcommunity.com 公告/讨论区 HTTP 000，故所有评测引文走官方 reviews API + 作者主页 permalink；WebFetch chaptercheats / noobfeed / outputlag / 2upskill 均 200。"
+      ],
+      "lessons": "EXPAND-9/16（themoundwiki）：**判定「编造」而非「尚未证实」的取证方法** —— 对存疑的角色名 / 独有技能串，取其原句在**全部可得的独立评测**（本轮 1,396 条，全语言、双 filter、游标翻页）中做全文检索，0 命中即可判「不可追溯」，据此本轮把 9/13 即已存疑的角色 Trait 表整层清除。配套：本轮还自捕并回退了草稿自己引入的一处新推断 —— 官方 pre-launch 公告只说「escort your ox cart」，草稿写成「follows your squad through the map」属超出原文，已回退为官方逐字。**修正草稿本身也要按同一标准回验，不能只核旧内容。**"
+    },
+    {
+      "game": "SpiritVale",
+      "date": "2026-09-16",
+      "genre": "Class-based MMORPG (buy-to-play EA)",
+      "template": "spiritvalewiki existing (no template change)",
+      "mode": "expand-feedback (EXPAND-9/16, daily per-site, feedback-driven)",
+      "guidesAdded": 1,
+      "guides": 44,
+      "deployed": true,
+      "pipeline": "EXPAND-9/16（报告内任务编号 EXPAND-2026-09-16-spiritvale；路径①抱怨驱动先跑 —— 142 条去重 Steam 评测（日期覆盖 2026-08-23 → 09-15）抱怨仍全面收敛于既有 43 篇（与 9/3–9/13 判定一致，不因此 SKIP）→ 切路径②系统清单驱动：官方商店页 About This Game + 30 则公告（最新 = 2026-09-10，无 9/11 之后新公告）× 站内 44 slug 矩阵 → Cards / Artifacts / Classes / Crafting / Economy / PvP / Pets-Mounts / PTR / Bosses / Dungeons 均已覆盖，**唯一零覆盖项 = 外观层（wardrobe / cosmetic shop）** → cosmetics-wardrobe-guide → 与 pets-mounts-guide、trading-market-guide 各加一条双向 Scope note → QA quick PASS（🔴 0（本轮产物）/ 🟡 2 均他页既有）→ build 产物级验证（.next/server/app/guides/cosmetics-wardrobe-guide.html 含 wardrobe ×56、cosmetic shop ×22、pay-to-win ×10、Mystery Pet Box ×6、100p ×6、account bound ×4、Unconfirmed ×2）→ deploy 9/16 dpl_8JyPeBpjp4JQg18a6Z1ZvNiQndEH（status=Ready / target=production）→ 线上复验（--resolve spiritvalewiki.vercel.app:443:64.29.17.67）新篇 200 / 67,846 B，新页 6 条站内出链 6/6 = 200）",
+      "qa": "QA quick 9/16 — PASS（已部署，线上验证通过；🔴 0（本轮产物）/ 🟡 2 为他页既有问题，已上报未擅改）。选题：外观/衣柜系统 —— 商城卖什么、外观怎么来（掉落 / 转换 / 购买）、绑定与可交易规则、是否 pay-to-win。四条件：① 高频 ≥3 独立来源 = Official 3（商店页 Fair-To-Play 原文「almost limitless number of cosmetic options」「All Microtransactions … purely cosmetic」；0.14.0 Cosmetics Update 全系统定义；0.31.0（2026-08-25）三条 cosmetic shop bug 修复 + 一整块 Cosmetics 新增清单，作为「商城在线上存在」的**存在性证据**）/ Community 3（3 位不同账号、不同日期/时长的 Steam 评测**原文直读**）/ Editorial 2（2UpSkill、JeuxOnline **全文直读**），三者围绕同一玩家问题；③ 真缺口（wardrobe / cosmetic conversion / Mystery Pet Box / Mystery Mount Box / 100p / appearance 在 content/ + app/ + components/ 全站 grep **0 命中**，43 篇无一篇讲外观层，与 pets-mounts-guide（宠物/坐骑本体）、trading-market-guide（经济）搜索意图不重叠）；④ 可溯源（引语逐字来自官方公告原文 / 评测 API / 编辑站全文，2 处不确定项标 [Unconfirmed]）。来源三层 Official 3 / Community 3 / Editorial 2（共 8 条，含可点击可追溯链接）。1,471 词（markdown 剥离后脚本实测；raw body 1,490）—— 红线内。站内攻略 43 → 44；内链 6 条正文 + 6 个 related，线上 6/6 = 200。抗编造：起草中**主动删除**一条拟写入的「怪物 pet 掉率约 0.01%」——来源为 steamcommunity 公告评论区，本机两个候选 IP 均 HTTP=000 无法直读复核，仅得自检索摘要 → 按「MUST NOT 编造数字/来源」整条删除，改以官方可溯源的「Mystery Box 随机开出」表述替代。",
+      "issues": [
+        "🔴 既有页事实冲突（已上报未擅改，建议单独立「事实核验」任务）：app/faq/page.tsx:13 断言「There is no subscription, battle pass, or premium currency」，而官方 0.14.0 Cosmetics Update 明确记录了一个 premium currency（`p`，Equip conversion to cosmetic (100p)）；同时站内 class-leveling-guide.md:166 写 Premium Subscription / Cash Shop、trading-market-guide.md:37 写 Premium Pass / from the cash shop —— **FAQ 与站内另外两页亦互相矛盾**。未擅改理由：无权威当前来源可裁决线上商城是否仍用 `p`（0.14.0 公告明言计划 EA 后由 Ko-fi 改为 Steam 购买，切换与否未验证），擅改即编造风险；新页已用 [Unconfirmed] 如实标注（`100p` 标注为 2026-03 快照、线上现值 [Unconfirmed]）。",
+        "🔴 疑似编造的 P2W 商城条目（建议列入下一轮 QA deep 的编造检查）：class-leveling-guide.md:164-166（XP Scroll Small/Large、Premium Subscription）、leveling-guide.md:84（Premium booster）、trading-market-guide.md:37（Premium Pass，Reduces all fees by 50%）均声称「可从 cash shop 买到影响数值/经济的物品」，与商店页 All Microtransactions … purely cosmetic and do not affect gameplay、2 条 Steam 评测（「只有外观、无隐藏属性」）及 2UpSkill 结论**直接冲突**；且 leveling-guide.md:84 与 class-leveling-guide.md 对 XP 药水来源口径不一致（NPC/Alchemy vs Cash Shop），措辞与数值呈明显模板化特征。",
+        "🟡 需核验（本轮只加 scope note，未改该页）：pets-mounts-guide.md 的稀有度/属性/进化表**无可溯源来源** —— Iron Shell Turtle / Ember Fox / Evolution Stones / Mythic Core / 逐级进化表在官方公告、Steam 评测、JP Wiki 中**均无踪迹**；官方与社区证据一致指向「pets 是 world-drop cosmetic，存于 wardrobe，怪物可掉落自身 pet 版本，Mystery Pet Box 随机开出」。建议单独立项核验。",
+        "历史触发条款复检（MUST，均维持否决）：0.31.0 Dark Fortress 深度指南仍不达标 —— 官方 news API 最新条目 = 2026-09-10 PTR，无 0.31.x / 0.32.x，0.31.0 之后无新补丁；JP wiki misc:update 最后更新 2026/08/25 且条目仅到 0.30.10 为摘要无机制细节；第三方对 0.31.0 机制的描述仍未出现第二家 → 不写（且 0.31.0 官方内容 9/6 已入 updates-patch-notes，再写即自噬）。交易锁申诉指南仍单平台（Steam 评测同批文本镜像）+ 同执法簇自噬 → 不写。Gems 系统来源密度不足（142 条评测 0 次提及、JP wiki 无 gems 分类、官方仅 0.31.0 一次 Tenacity Gem 平衡改动）→ 写则必然编造，不写。另：本轮 api.steampowered.com 首轮瞬时 HTTP=000，加 --resolve 后 200（间歇性），未据此判定通道不可用；Reddit 缺失记为中置信但不影响结论成立（本轮选题不依赖抱怨样本）。"
+      ],
+      "lessons": "EXPAND-9/16（spiritvalewiki）：建议把「系统清单驱动」固化为标准动作 —— 对官方商店页 **+ 全部官方公告**做系统名词抽取，与站内 slug 列表做成矩阵，逐个系统名在 content/ + app/ + components/ 里 grep，**0 命中即零覆盖候选**。该法已连续三次命中（9/12 Artifacts、9/13 PTR、9/16 外观层），而抱怨驱动在同一站已连续 6 轮以上 SKIP。配套的反向经验同样重要：**来源密度不足的候选（如 Gems）宁可判 SKIP，写则必然编造** —— 命中缺口不等于有足够材料填缺口。"
+    },
+    {
+      "game": "Tears of Metal",
+      "date": "2026-09-16",
+      "genre": "Scottish action roguelike (Paper Cult)",
+      "template": "tearsofmetalwiki existing (no template change)",
+      "mode": "expand-feedback (EXPAND-9/16, daily per-site, feedback-driven)",
+      "guidesAdded": 1,
+      "guides": 35,
+      "deployed": true,
+      "pipeline": "EXPAND-9/16（报告内任务编号 EXPAND-2026-09-16-tearsofmetal；任务书强制两条采集路径 MUST 双跑且渠道可用性 MUST 当轮实测 → ①抱怨驱动全部自噬否决（含「军队侧永久升级无处可查」明确指向空白系统）→ ②系统盘点驱动命中全站零覆盖的完整系统层 → barracks-statues-guide → P0 两项闭环（村庄升级共享性一处改齐 3 位置；孤儿页 0 → 2 入站）→ QA quick PASS（🔴 0 / 🟡 4，其中 3 项为存量或采集约束、1 项误报）→ build 35 条 guide 路径 + 脚本扫描全部构建 HTML 的 /guides/* href × 35 slug **0 断链** → 全局 vercel deploy 9/16 dpl_Di8stiPke1c5xiHq6ksMfqYsgcXE（生产别名 tearsofmetalwiki.vercel.app 已指向本部署）→ 线上 9/9 URL HTTP 200，新页 200 / 72,986 B）",
+      "qa": "QA quick 9/16 — PASS（🔴 0 / 🟡 4）。选题：兵营与雕像系统（Barracks / Statue / Commander / Companion 槽位 —— 军队侧永久升级）。路径判定（本轮最重要结论）：**只跑①会得出 SKIP**，而②命中全站零覆盖的完整系统层 —— 这正是计划书警告的模式。补丁史重新实测：9/8 仍是最新，9/8→9/16 无新补丁，9/12 的推翻结论（「Tears of Metal 9 月无补丁」是错的）成立且仍然成立；9/8 补丁正文被本轮新指南直接引用（Companion ×3 前置条件放宽）。查重关键结论：village-upgrade-guide 只覆盖 5 栋建筑（Triskeles / Dragon Stone Shards 体系），**完全不含** Barracks / Statue / Commander / Companion 槽位 —— 属**不完整**而非错误，故按 scope 注记处理，未重写。来源三层 8 条（4 Official / 3 Community / 1 Editorial），全部带可追溯链接（官方均指向 store.steampowered.com/news/app/1913120）。1,496 词（剥离 frontmatter 后计词，区间 800–1500）。数字有源：Barracks 2 Statues → [Unconfirmed]；+20% Ally Command Damage → community-reported；Companion「0 of 2」→ 社区截图；每级 Statue 价格 → [Unconfirmed]；全文 7 处 [Unconfirmed]（构建后 HTML 16 处，含 frontmatter/related 渲染重复）。站内攻略 34 → 35。",
+      "issues": [
+        "🟡 存量「community-reported 免死金牌」问题（建议写入 06 Profile）：某页虽有一句 Community-reported section 免责，随后却给出**看似精确的数值与解锁路径**，属 AdSense 合规风险等级。规则建议：**社区来源给出的具体数值 / 具名清单，若官方存在但未公布对应内容，MUST 整体删除或降级为无数字的描述，MUST NOT 只加一句免责后照写。**（与前几轮「角色编造内容闭合」同类，themoundwiki 9/16 已有先例。）本轮新指南刻意只采用官方兵种名（Infantry / Spearmen / Archers），并在命名警示段落明确指出 Early Access 来源词汇混乱 —— 未与该页正面冲突，但两页并存时读者会发现口径不一。",
+        "🟡 采集渠道当轮受限（已显式披露，未冒充已读原文）：gameshorizon.com HTTP **503**、thegameswiki.com HTTP **429**、Steam 社区讨论 HTTP=000 → 新页已注明经搜索索引取用（原文「via search index (the live page returned HTTP 503 on September 16, 2026)」）。",
+        "🟡 误报（不改）：healing-guide.md:22 的 CJK 告警经核查为**合法引用** —— 是日语 Steam 评测原文「回復コストが高すぎる」带英文翻译与来源链接，符合「社区来源需可追溯」的要求，不是残留、不是漏水。",
+        "P0 已闭环两项：① 村庄升级是否全队共享的矛盾**一处改齐 3 位置** —— app/page.tsx（apply to all）、app/faq/page.tsx（individual to each player）、content/guides/co-op-guide.md（Not officially documented + 暗示 guest 不生效），统一为同一 [Unconfirmed] 措辞，三处**逐字一致**且线上复验全部通过（官方商店页、补丁 note、公告均未定义共享规则 → 无法用可靠来源裁决，故不挑单方）；其中 co-op-guide.md 是此前未知的第三处。② 孤儿页 0 → 2 入站。"
+      ],
+      "lessons": "EXPAND-9/16（tearsofmetalwiki）：**两条采集路径 MUST 双跑，且渠道可用性 MUST 当轮实测、MUST NOT 继承旧结论** —— 本轮只跑①会得出 SKIP，而②命中全站零覆盖的完整系统层；「只跑一条路径」正是计划书警告的失败模式。渠道侧同一教训：本轮实测出 503 / 429 / 000 三种降级，处理方式是如实披露「经搜索索引取用」而非冒充已读原文；同时 SKIP 结论 MUST 每轮重新核验其前提（9/8 补丁曾被长期误判为不存在）。"
+    },
+    {
+      "game": "Grain Rot",
+      "date": "2026-09-16",
+      "genre": "Co-op Survival Horror (Beck & Branch Games / Neem Interactive)",
+      "template": "grainrotwiki existing (no template change)",
+      "mode": "expand-feedback (EXPAND-9/16, daily per-site, feedback-driven)",
+      "guidesAdded": 1,
+      "guides": 33,
+      "deployed": true,
+      "pipeline": "EXPAND-9/16（报告内任务编号 EXPAND-2026-09-16-grainrot；两条路径均跑完，**路径①命中** —— Steam 评测 API（appreviews/4450620，cursor 翻页 8 页）合并去重 **850 条英文评测**（日期覆盖 2026-08-07 → 09-15），主题聚类后三楼锁定 / 任务线终止为 #1 抱怨簇（8 条独立玩家报告，全部保留 permalink）→ third-floor-locked-guide → 4 页双向 Scope note + home-content.md 导航登记 → QA quick PASS（🔴 0 / 🟡 2 / 🟢 1）→ 全局 vercel deploy 9/16（grainrotwiki-mw65sebfb-…vercel.app，vercel ls 显示 48s / Ready / Production；生产 alias 经 vercel inspect 指向本次新部署）→ 线上复验 --resolve 两个可用边缘 IP：/guides/third-floor-locked-guide 均 200 / 72,169 B，sitemap 200 / 7,476 含新 slug、共 41 个 <url；76.76.21.21 返回 HTTP=000 未计入 PASS）",
+      "qa": "QA quick 9/16 — PASS（🔴 阻断 0 / 🟡 警告 2 / 🟢 建议 1）。选题：三楼锁定的原因与任务线在哪断（命中搜索意图 grain rot third floor locked / grain rot quests stopped / is grain rot early access）。四条件：① 高频**远超阈值** —— 8 条独立玩家报告（全部带 permalink）；② 具体（问题导向问答型）；③ 真缺口（全站 grep third floor / 3rd floor / 3rd level 唯一命中是 patch-notes-guide.md:109 的 roadmap 表格一格「October | The Halloween Update — opens the third floor of the Outpost」）；④ 可溯源。来源三层 Official ×3（商店页 / roadmap 公告 / 上线前公告 + Patch 1.06/1.09）/ Community ×1（8 条评测，逐条带 permalink + 赞数 + 日期）/ Editorial ×1。1,324 词（去 URL / 链接目标后计数，与站内既有篇 1384 / 1408 / 1453 同量级）。内容量三个数字（3-4h、约 6h、35 个解锁物）**全部按玩家个人计数标 [Unconfirmed]**（新页共 6 处）。编造检查 18/18 通过、0 条无源。站内攻略 32 → 33；本轮修改的 4 个既有页线上复核全部 200 且入链命中 2 次；新页线上残留扫描他站游戏名 0 命中。",
+      "issues": [
+        "🟡 基建发现（当轮实测，本轮未改；不阻断提交）：content/home-content.md 是**孤儿文件** —— 全站 rg \"home-content|homeContent\"（排除 node_modules/.next）**0 命中**，无任何代码读取它；首页导航实际来自 app/page.tsx 里硬编码的 FEATURED_GUIDES 数组（产物级验证：首页 HTML 不含 Quick Navigation 字样）。**9/11 与 9/13 两轮都改了该文件以为在更新导航，实际对线上零影响。** → 建议二选一：把 home-content.md 接进首页渲染，或在 03/04 Profile 标注其「已废弃，导航改动请改 app/page.tsx」。新页已通过 /guides 索引 + 4 页交叉链接可达。",
+        "🟡 采集通道：Reddit 维度**连续两轮不可用**（9/11、9/16）—— 直连 403；agent-reach OpenCLI 的 reddit subreddit → Failed to fetch、search → Navigation rejected、hot → TIMEOUT 60s。本轮以 Steam 评测 API（850 条一手原文，覆盖度**优于** 9/11 的检索索引二手摘要路径）替代，未编造任何 Reddit 内容 → 交主 Agent 排查 OpenCLI 浏览器登录态。",
+        "商店页「轮子字段」归属教训（本轮实测）：商店页 HTML 里全文搜 Early Access 只有 **1 处**命中，位于 \"early_access\":true —— 该字段属于 **appid 108600（Project Zomboid）**，出现在 more like this 推荐位，**不是 Grain Rot**。Grain Rot 商店页 release_date 字段为 7 Aug, 2026、**无 Early Access 标识** → 结论：Grain Rot 确非 EA 发行（这正是玩家争议焦点「标 1.0 却像 EA」）。教训：商店页是**多游戏混合页**（推荐位 / 捆绑包），全文 grep 官方字段 MUST 绑定 appid 上下文，否则会得出反向错误结论。",
+        "频率不足被否决的候选（如实记录，不写）：**Steam Cloud 存档缺失** —— 全 850 条评测中仅 1 条提及（9/13，0 赞），官方商店页 Features 确无 Steam Cloud 标识可作官方旁证 → 频率不足 ≥3 独立来源，否决，若后续出现第 2、3 条再立题；**画面降级 /「ripples like water」** —— 仅 1 条实质指控（13 赞，8/22「They changed the graphics recently which greatly reduced how good it looks」），其余 53 条命中全是正面称赞画面 → 否决（1 条 ≠ 高频）。另：路径② 本轮已跑但未命中更优（官方商店页 Features 仅 3 项：Single-player / Online Co-op / Family Sharing），其净产出是为路径① 的 Steam Cloud 候选提供「官方无该标识」旁证。"
+      ],
+      "lessons": "EXPAND-9/16（grainrotwiki）：**聚合站 / 商店页是多游戏混合页** —— 推荐位、捆绑包、more like this 都会带入**其他 appid** 的字段，全文 grep 官方字段（如 early_access）MUST 绑定 appid 上下文，否则会得出「本作是 EA 发行」这类反向错误结论。第二个可迁移点：官方内容量单薄（商店页 Features 仅 3 项）时，路径② 的净产出可能只是为路径① 的候选提供官方旁证，而非独立命中 —— 此时应以①的候选为准，并如实记录「② 跑过、无更优」，而不是为了凑路径② 而写一个材料不足的题。"
     }
   ],
   "knownIssues": [
@@ -1302,6 +1492,30 @@
       "description": "全网络共享组件缺陷（42/42 站）：components/ReactMarkdown.tsx 的表格分隔行判定正则 /^\\|[\\s\\-:]+\\|$/ 字符类漏了 `|`，而 markdown 分隔行形如 `|---|---|`（中间含 `|`），故永不匹配 → 落进数据行分支被 split('|') 切成单元格，渲染为垃圾行 `<td>-------</td>`。即每站每篇攻略的每张表格 tbody 首行都是这条。存在已久，长期未被发现。",
       "fix": "已修：字符类改为 [\\s\\-:|]（commit d0a86db，42 站源码全改）。已完成产物级验证：dressmakerwiki 本地构建 grep `<td>-{3,}</td>` 修复前 14 → 修复后 0；正则单测 8 例全过（4 种分隔行判中、4 种数据行均未误判）。已重新部署并线上复验今日在途 6 站（dressmaker/sephiria/themound/spiritvale/tearsofmetal/grainrot）：HTTP 200、表格 thead+tbody 正常、JUNK=0。**剩余 36 站源码已修但尚未重新部署，线上仍为旧行为** —— 静态站须重建部署才生效，批量重发命令与站名见 docs/人工任务清单.md。",
       "status": "partially-deployed"
+    },
+    {
+      "id": "template-layer-fabricated-specifics",
+      "description": "建站模板的「生成细节」倾向产出的编造内容，散布多站多文件，且逃过历次 QA。2026-09-16 单轮在三个互不相关的站同时暴露同一失效模式：themoundwiki（提取系统整层——Compass 表/冷却秒数/配方/nightmare modifier/perk 数值，散落 10 个文件；另有 4 个角色名 + 4 项独有 Trait，1,396 条评测 0 命中）/ spiritvalewiki（$14.99 买断制游戏被写成 free-to-play，且 lib/schema.ts 的 offers.price:'0' 会在 Google 富媒体结果中渲染成一个价格；另有 P2W 商城条目）/ tearsofmetalwiki（5 个具名 Companion + 解锁条件 + 兵种 HP + 技能树逐级数值 + 各 Act 招募数 + Tent 解锁表；官方补丁只用 Infantry/Spearmen/Archers，仅点名过 Aodh）。根因判定为**模板层**而非页面局部：themoundwiki 清理提取页后暴露同模式散落 10 个文件。最危险的性质是「免责句漂白」——tearsofmetalwiki 该页带 community-reported 免责句后照样给出精确数值。",
+      "fix": "三站 fact-sweep 已清除（提交 6e9fe0b / a6a853f / 1cc284e），线上复验通过（spiritvalewiki 首页 JSON-LD 已为 \"price\":\"14.99\" 且 genre 无 Free-to-Play；tearsofmetalwiki 5 个具名 Companion 线上全 0）。规则闭环已写入 docs/agents/06-Profile-QA审核员.md「编造检测规则」节（提交 ca182ae）：零命中即删除、反向证据优先、免责句不可漂白精确数值、复合断言原子化裁定、范围限定不可省、模板层扩散检查。",
+      "status": "mitigated-needs-full-sweep",
+      "detected": "2026-09-16",
+      "recheck": "2026-09-17",
+      "residual": "全部 43 站尚未按新规则做全量复扫。已登记的未清扫面：themoundwiki（perk 树 / Nightmare modifiers / crafting recipes / weight thresholds / 8 个岛屿地名 / characters-classes.md:109 无源行）、tearsofmetalwiki（伪单位系统 10 文件 / Recruitment Tent 8 文件 / village-upgrade 精确价格）、spiritvalewiki（pets-mounts-guide.md 稀有度与进化表——按新规则为删除候选；等级上限 99 vs 100+）。"
+    },
+    {
+      "id": "zero-hit-false-positive-risk",
+      "description": "编造检测工具（语料零命中）本身有误伤风险，2026-09-16 当日即出现实例：themoundwiki fact-sweep 报告记「Oil Lamp = 0 命中」并作为编造证据，复核官方 39 篇公告（appid 2569760）实为 **2 命中**，其中一条是官方对该道具的正面描述（\"The oil lamp isn't just a light source… Unlike the torch, it won't flicker or die under the rain\"）。当时未执行删除，故未造成损失；但同批判定若被机械执行，会把官方内容当编造删掉。",
+      "fix": "已在 docs/agents/06-Profile-QA审核员.md 追加「零命中误判防线」三条（提交 fe9fb00）：①计数 MUST 写明「检索面 + 检索式 + 命中数」三元组，MUST NOT 只写孤立的 X=0；②按实体类别分级证据强度——具名角色/成套系统公告 0 命中是强证据，单件武器/道具是弱证据（补丁公告只提有变化的东西），MUST 补商店页 + 评测；③站内两份清单矛盾 = 站内不一致确证（可修），≠ 至少一份是编造（须另行取证）。",
+      "status": "rule-closed",
+      "detected": "2026-09-16"
+    },
+    {
+      "id": "themound-weapon-list-inconsistent",
+      "description": "themoundwiki 存在两份互相矛盾的武器清单，且官方对其中一项的归类与站内相反。loadout-guide.md:51 称「the game's six weapons — Crossbow, Matchlock Arquebus, Flintlock Pistol, Francesca Axe, Machete, Oil Lamp」；content/home-content.md:74 称「6 Weapons — Crossbow, Flintlock Pistol, Matchlock Arquebus, Oil Lamp, Medallion, Healing Salves」。官方公告（appid 2569760，全 39 篇）明确把 Medallion 定义为 support item 而非武器：\"you can obtain powerful support items like The Medallion to uncover hidden treasures\"。另官方把 torch 作为与 oil lamp 并列的光源（\"Unlike the torch…\"；补丁 \"Fix for torches losing flame\"、\"lantern/torch light of the host\"），而两份清单都缺 torch。Flintlock Pistol 与 Healing Salves 在公告中 0 命中（属弱证据，未判编造）。",
+      "fix": "待办：以官方表述（\"a handful of weapons … a single lamp\" / \"These are not individual loadouts; they are a shared arsenal\"）为基准统一两份清单，Medallion 移出武器类，补入 torch（若可达来源支持）。MUST NOT 在未取证情况下把 Flintlock Pistol / Healing Salves 判为编造删除。已转 2026-09-17 QA deep，详见 .agent/qa-report.md 收尾复核追加节。",
+      "status": "open",
+      "detected": "2026-09-16",
+      "recheck": "2026-09-17"
     }
   ],
   "bestTemplates": {
