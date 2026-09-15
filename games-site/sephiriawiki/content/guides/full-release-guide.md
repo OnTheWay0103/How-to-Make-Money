@@ -10,7 +10,7 @@ related: ["beginner-guide", "hard-mode-guide", "weapons-guide", "chapter-6-final
 
 # Sephiria 1.0 Full Release Guide — What's Actually New in the Launch
 
-Sephiria **1.0 launched July 31, 2026** on Steam. Developed by **TEAM HORAY** (the Dungreed studio), the full release ends **484 days of Early Access (April 2025 → July 2026) and 58 EA updates**. The Steam rating remains **Very Positive** — reflecting strong player reception through Early Access and into 1.0.
+Sephiria **1.0 launched July 31, 2026** on Steam. Developed by **TEAM HORAY** (the Dungreed studio), the full release ends **484 days of Early Access (April 2025 → July 2026) and 58 EA updates**. The Steam rating sits at **Overwhelmingly Positive** across the store page's English-language reviews (**97% of 2,742**, checked September 16, 2026) — reflecting strong player reception through Early Access and into 1.0.
 
 The game has **6 chapters and 6 weapons**, and the story ends at **Chapter 6** — there is no seventh chapter.
 

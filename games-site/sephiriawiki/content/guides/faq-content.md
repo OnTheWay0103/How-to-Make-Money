@@ -17,7 +17,7 @@ sources:
 
 ## 1. What is Sephiria?
 
-Sephiria is a **pixel-art action roguelite** developed by **TEAM HORAY** — the studio behind Dungreed. You play a rabbit warrior climbing the Tower of Sephiria, fighting through procedurally-arranged rooms across **6 chapters** with **6 weapons** and ~300 artifacts. It supports 1–4 player online co-op and carries a **Very Positive** Steam rating (very positive overall).
+Sephiria is a **pixel-art action roguelite** developed by **TEAM HORAY** — the studio behind Dungreed. You play a rabbit warrior climbing the Tower of Sephiria, fighting through procedurally-arranged rooms across **6 chapters** with **6 weapons** and ~300 artifacts. It supports 1–4 player online co-op and carries an **Overwhelmingly Positive** rating across the store page's English-language Steam reviews (**97% of 2,742**, checked September 16, 2026).
 
 ## 2. When is the 1.0 full release?
 

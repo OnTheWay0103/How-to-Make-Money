@@ -111,6 +111,7 @@ A: No. The current build is **1.0.33**, posted **September 11, 2026** — the da
 ## Related Guides
 
 - [Weapons Guide](/guides/weapons-guide) — every branch, including the effects 1.0.31 rewrote
+- [Combo System Guide](/guides/combo-system-guide) — the combo bugs this patch line fixed, and the White Paper combo-icon change
 - [Artifacts Guide](/guides/artifacts-guide) — the pool the eight new items joined
 - [Builds Guide](/guides/builds-guide) — how upgrades, artifacts and tablets fit together
 - [Sword & Shield Build Guide](/guides/sword-shield-build-guide) — the branch hit hardest

@@ -13,7 +13,7 @@ const FEATURED_GUIDES = [
 ];
 
 const FAQ_ITEMS = [
-  { question: 'What is Sephiria?', answer: 'Sephiria is a pixel-art action roguelite developed by TEAM HORAY (the Dungreed studio). You play as a rabbit warrior climbing the Tower of Sephiria through 6 chapters with 6 weapons and ~300 artifacts. It supports 1-4 player co-op and carries a Very Positive rating on Steam. Sephiria 1.0 launched on July 31, 2026.' },
+  { question: 'What is Sephiria?', answer: 'Sephiria is a pixel-art action roguelite developed by TEAM HORAY (the Dungreed studio). You play as a rabbit warrior climbing the Tower of Sephiria through 6 chapters with 6 weapons and ~300 artifacts. It supports 1-4 player co-op and carries an Overwhelmingly Positive rating across English-language Steam reviews (97% of 2,742, checked September 16, 2026). Sephiria 1.0 launched on July 31, 2026.' },
   { question: 'Is it single-player or multiplayer?', answer: 'Both. You can play solo or in online co-op with up to 4 players. Enemy health and damage scale with player count, so solo is balanced and fully viable.' },
   { question: 'How many weapons are there?', answer: '6 weapon types: Sword & Shield, Greatsword, Dagger, Katana, Crossbow, and Staff. Each weapon branch has dozens of upgrades and unique mastery perks.' },
   { question: 'What are artifacts and inscriptions?', answer: 'Artifacts are per-run passive items (~300 at 1.0). Inscriptions are permanent socketable bonuses that persist between runs — like runes that permanently upgrade your character. The 1.0 launch adds Talents and Artifacts as new permanent progression systems.' },
@@ -36,7 +36,7 @@ export default function Home() {
         </p>
         <p className="text-sm text-gray-600 mb-8">1.0 Now Live — PC, Steam</p>
         <div className="flex items-center justify-center gap-4">
-          <a href="https://store.steampowered.com/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-purple-600 hover:bg-purple-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors text-sm">
+          <a href="https://store.steampowered.com/app/2436940/Sephiria/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-purple-600 hover:bg-purple-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors text-sm">
             Buy on Steam
           </a>
           <Link href="/guides/beginner-guide" className="inline-flex items-center gap-2 border border-gray-600 hover:border-purple-500 text-gray-300 hover:text-purple-400 px-6 py-3 rounded-lg transition-colors text-sm">
@@ -86,8 +86,8 @@ export default function Home() {
           </div>
           <div className="bg-[#1a0a2e] rounded-lg border border-[#2a1a4e] p-5 text-center">
             <div className="text-3xl mb-2">🎮</div>
-            <h3 className="text-white font-semibold mb-1">Very Positive</h3>
-            <p className="text-gray-400 text-sm">Very Positive on Steam</p>
+            <h3 className="text-white font-semibold mb-1">Overwhelmingly Positive</h3>
+            <p className="text-gray-400 text-sm">97% positive across 2,742 English Steam reviews (checked Sep 16, 2026)</p>
           </div>
         </div>
       </section>

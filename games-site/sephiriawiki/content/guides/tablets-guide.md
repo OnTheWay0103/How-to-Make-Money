@@ -92,10 +92,14 @@ No. A tablet touching 3 good artifacts is worth more than 2 tablets each touchin
 **Q: Which element should I commit to?**
 Whichever fits your weapon and playstyle — fire for pressure, ice for control, storm for speed, corrosion for bosses. The [Staff Build Guide](/guides/staff-build-guide) and [Builds Guide](/guides/builds-guide) break down each direction.
 
+**Q: Are tablets the same thing as combos?**
+No, and this is the most common mix-up. Tablets act on *placement* — they empower whichever artifacts sit next to them on the grid. Combos act on *tags* — they count how many artifacts in your inventory share a tag, wherever those artifacts are placed. An artifact can be perfectly placed and still off-combo. See the [Combo System Guide](/guides/combo-system-guide).
+
 ---
 
 ## Related Guides
 
+- [Combo System Guide](/guides/combo-system-guide) — the tag layer, which is not the same as grid placement
 - [Artifacts Guide](/guides/artifacts-guide) — The grid items tablets empower
 - [Builds Guide](/guides/builds-guide) — Complete builds for each element direction
 - [Staff Build Guide](/guides/staff-build-guide) — The tablet-most-dependent weapon

@@ -90,10 +90,14 @@ Yes. Multiple artifacts with the same effect stack additively, and tablets multi
 **Q: What's the difference between artifacts and tablets?**
 Artifacts are the passive items themselves; tablets are grid-enhancement items that boost adjacent artifacts. See the [Tablets Guide](/guides/tablets-guide).
 
+**Q: Do artifacts trigger combos?**
+Yes — most artifacts carry combo tags, and enough artifacts sharing a tag fire a combo that grants bonus stats on top of what the artifacts do individually. That tag layer is a separate system from the artifacts themselves and is covered in the [Combo System Guide](/guides/combo-system-guide).
+
 ---
 
 ## Related Guides
 
+- [Combo System Guide](/guides/combo-system-guide) — the tag layer: combo tiers, Bond Artifacts and the Fruit Skewer
 - [Tablets Guide](/guides/tablets-guide) — The grid puzzle and best combos
 - [Builds Guide](/guides/builds-guide) — Turning artifacts into a build
 - [Mystic Pot Guide](/guides/mystic-pot-guide) — Re-rolling and upgrading artifacts
