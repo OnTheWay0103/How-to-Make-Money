@@ -33,6 +33,7 @@ The Mound: Omen of Cthulhu launched on July 15, 2026 on Steam, PS5, and Xbox Ser
 | [Weapon Durability & Repair Guide](/guides/weapon-durability-repair-guide) | Why weapons break & how to fix them | Starter |
 | [Money Guide](/guides/money-guide) | Earn Gyldenblood & Tokens | Intermediate |
 | [Contracts Guide](/guides/contracts-guide) | Mission types | Intermediate |
+| [Ox Cart Guide](/guides/ox-cart-guide) | Why the cart wanders & how to control it | Intermediate |
 | [Controls & Settings Guide](/guides/controls-settings-guide) | PC/PS5/Xbox setup | Starter |
 | [Solo Guide](/guides/solo-guide) | Playing alone | Intermediate |
 | [Game Length Guide](/guides/game-length-guide) | Content overview | Starter |

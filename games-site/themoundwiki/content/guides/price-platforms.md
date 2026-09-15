@@ -19,7 +19,7 @@ The Mound: Omen of Cthulhu launched on **July 15, 2026** with two editions:
 | Edition | Price | Includes |
 |---------|-------|----------|
 | **Standard Edition** | $29.99 | Base game, all 4 characters |
-| **Deluxe Edition** | $39.99 | Base game + Fortune Hunters Character Pack (2 bonus characters) + Digital Artbook + Soundtrack |
+| **Deluxe Edition** | $39.99 | Base game + Fortune Hunters Character Pack + Digital Artbook + Soundtrack |
 
 ### Xbox Game Pass
 
@@ -42,7 +42,7 @@ A **free demo** is available on Steam. It is a standalone experience designed to
 
 | Included | Not Included |
 |----------|--------------|
-| All 4 base characters: Alonso, Father Miguel, Catalina, Rodrigo | Only the introductory jungle zone (full game has multiple zones) |
+| All 4 base characters | Only the introductory jungle zone (full game has multiple zones) |
 | 1 expedition zone (the introductory jungle area) | No character progression or rank system |
 | Full online co-op with up to 4 players | Limited enemy variety |
 | Basic weapons and equipment (the base weapon set — Crossbow, Matchlock Arquebus, Flintlock Pistol, Francesca Axe, Machete, Oil Lamp) | No crafting or base upgrades |
@@ -68,7 +68,7 @@ To play demo co-op:
 
 ### Demo Tips
 
-1. **Try all 4 characters** — Find which playstyle suits you
+1. **Try all 4 characters** — They play identically, so pick the look you like
 2. **Test co-op** — Play with friends to see if your group enjoys it
 3. **Learn the sanity mechanic** — It's unique to this game and takes practice
 4. **Experiment with weapons** — Melee vs ranged feels very different

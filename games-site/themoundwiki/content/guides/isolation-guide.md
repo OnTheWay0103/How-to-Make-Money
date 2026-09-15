@@ -76,7 +76,7 @@ Source: [NoobFeed](https://noobfeed.com/articles/the-mound-omen-of-cthulhu-isola
 
 Community-reported counters, in order:
 
-1. **Close distance to a teammate or the Ox Cart.** The universal fix. OutputLag: *"Staying close to your group also slows sanity loss."* The wiki's [Co-op Strategy Guide](/guides/coop-strategy-guide) already notes standing near the Ox Wagon reduces Insanity — treat the wagon as a mobile safe zone.
+1. **Close distance to a teammate or the Ox Cart.** The universal fix. OutputLag: *"Staying close to your group also slows sanity loss."* The wiki's [Co-op Strategy Guide](/guides/coop-strategy-guide) already notes standing near the Ox Wagon reduces Insanity — treat the wagon as a mobile safe zone. **Scope note:** whether the wagon itself reduces Sanity is disputed in player reports; the cart's own behaviour, controls and functions are covered in the [Ox Cart Guide](/guides/ox-cart-guide), and the Sanity meter itself in the [Sanity Guide](/guides/sanity-guide).
 2. **Whistle to regroup and verify.** If the shapes near you might be hallucinations, whistle: *"a real teammate will respond; a hallucination won't."* If a teammate wanders, whistle them back.
 3. **Eat a glowing cave mushroom.** NoobFeed names a green-glowing **Luz del Sur Mushroom** (caves and dark areas) that *"removes accumulated Isolation and provides short-term resistance"*; OutputLag describes a **blue glowing mushroom** that restores Sanity and clears hallucinations. **[Unconfirmed]** Carry one or two on solo detours.
 4. **Fall back to the Ox Cart before pushing again.** It anchors navigation and staging (see the [Maps & Locations Guide](/guides/maps-locations-guide)).

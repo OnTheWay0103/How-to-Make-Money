@@ -190,7 +190,7 @@ If the ideal contract for your goal isn't on the board, the second pick beats wa
 The Ox Cart is one of the most valuable tools in the game, but it is frequently misused.
 
 ### How It Works
-- The Ox Cart is a slow-moving vehicle that follows a fixed path through the map
+- The Ox Cart is a slow-moving vehicle you escort through the map — since **Patch 1.04** (August 31, 2026), **Command Wheel 2.0** lets you "stop the cart and give it instructions", and "proximity determines whether or not you use the horn" ([official 1.04 patch notes](https://store.steampowered.com/news/app/2569760/view/1842212951310330)). Cart behaviour, summoning and the common "why won't it follow me" problems are covered in the [Ox Cart Guide](/guides/ox-cart-guide)
 - You can deposit items into the cart as you explore
 - If you extract successfully, the cart contents are added to your haul
 - If you die, the cart is lost
@@ -200,7 +200,7 @@ The Ox Cart is one of the most valuable tools in the game, but it is frequently 
 | Do | Don't |
 |----|-------|
 | Use the cart for overflow when your 6-slot pack is full | Load the cart with low-value items |
-| Plan your route to intersect the cart path | Chase the cart across dangerous territory |
+| Keep the cart between you and extraction | Chase the cart across dangerous territory |
 | Assign one player to guard the cart when it stops | Leave the cart unattended near enemy patrols |
 | Use the cart as a resupply point | Expect the cart to keep up with a fast squad |
 | Prioritize cart safety over loot | Sacrifice extraction to save a nearly-full cart |

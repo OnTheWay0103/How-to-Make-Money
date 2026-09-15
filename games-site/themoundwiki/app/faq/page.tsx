@@ -20,7 +20,7 @@ const FAQ_ITEMS = [
   { question: 'How long is an expedition?', answer: 'Missions last approximately 20 minutes. A hidden timer governs the forest\'s awakening — the longer you stay, the more dangerous it becomes.' },
   { question: 'How long is The Mound: Omen of Cthulhu?', answer: 'The game launched on July 15, 2026 with approximately 15-20 hours of main content. A single expedition lasts roughly 20 minutes. The game will receive post-launch updates with additional content.' },
   { question: 'What happens when you die?', answer: 'If not revived in time, your body is swallowed by the forest and reborn as a corrupted, AI-controlled version that hunts your surviving teammates.' },
-  { question: 'Are there microtransactions?', answer: 'No in-game microtransactions. The Standard Edition is $29.99. The Deluxe Edition ($39.99) includes the Fortune Hunters Character Pack with 2 additional characters.' },
+  { question: 'Are there microtransactions?', answer: 'No in-game microtransactions. The Standard Edition is $29.99. The Deluxe Edition ($39.99) includes the Fortune Hunters Character Pack.' },
   { question: 'What are the PC system requirements?', answer: 'Minimum: i7-8700k / Ryzen 5 1600x, GTX 1660 SUPER 6GB / RX 5600 XT 6GB, 16GB RAM. Recommended: i7-11700k / Ryzen 5 5500, RTX 3070 8GB / RX 6750 XT 12GB, 16GB RAM.' },
   { question: 'Is there a demo?', answer: 'Yes. A free demo is available on Steam. It lets you experience the core expedition loop before purchasing.' },
   { question: 'How long is the demo?', answer: 'The free Steam demo includes a limited number of expeditions. A typical demo session lasts 20-30 minutes. Progress does not carry over to the full game.' },

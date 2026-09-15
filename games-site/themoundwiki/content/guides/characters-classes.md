@@ -1,6 +1,6 @@
 ---
-title: 'Characters & Classes Guide — All Playable Characters in The Mound'
-description: 'Complete guide to all 4 playable characters in The Mound: Omen of Cthulhu — traits, stats, recommended builds with weapons, armor and perks, co-op role fit, and who to pick for solo and co-op play.'
+title: 'Characters & Classes Guide — Playable Characters in The Mound'
+description: 'How characters work in The Mound: Omen of Cthulhu — how many are playable, why there are no classes, traits or character stats, and how to build each squad role with weapons, armor and perks instead.'
 keywords: ['the mound omen of cthulhu characters', 'the mound characters guide', 'the mound best character', 'the mound character abilities', 'the mound who to play', 'the mound character builds']
 category: Characters
 version: '1.0'
@@ -16,82 +16,49 @@ related:
 
 ## Characters Overview
 
-The Mound: Omen of Cthulhu features four playable conquistador characters, each with unique stats, starting equipment, and special abilities. While no character is locked to a specific playstyle, their innate traits make them naturally suited to different roles. There are no classes — your loadout defines your role — but each character's trait makes one role a natural fit.
+The Mound: Omen of Cthulhu launched on July 15, 2026 with **four playable conquistador characters**. More become playable through progression and by rescuing stranded survivors on expeditions, and the Deluxe Edition adds the **Fortune Hunters Characters Pack** (see [Price & Platforms](/guides/price-platforms)).
 
-## All Four Characters
+The one thing to know before you plan a build: **there are no classes and no character stats.** Characters are cosmetic — an appearance and a short backstory. No character has a unique trait, ability, or bonus to health, stamina, damage or sanity, and every character moves, fights and goes mad at the same rates. **Your role is defined entirely by the weapons, armor and perks you carry into the expedition** — the same design as Left 4 Dead.
 
-### Alonso de Medina — The Veteran Soldier
-- **Role**: Tank / Frontline
-- **HP**: Highest
-- **Stamina**: High
-- **Special Trait**: *Iron Will* — Takes 15% less sanity damage from eldritch horrors
-- **Starting Weapon**: Machete (front-line melee and backstabs)
-- **Best For**: Beginners, tanking in co-op, solo survival
+Players describe the same thing in Steam reviews — *"the characters don't have unique special abilities—they all feel the same"* [Community, [Steam review, August 6, 2026](https://steamcommunity.com/profiles/76561198009669889/recommended/2569760/)]. The recurring complaint from players who *want* character variety is worded as a request, not a description of what exists: *"Why have the ability to rescue different characters if they are just skins?"* [Community, [Steam review, August 17, 2026](https://steamcommunity.com/profiles/76561198003079070/recommended/2569760/)]. Our [FAQ](/guides/faq-content) covers the same question.
 
-### Father Miguel — The Jesuit Priest
-- **Role**: Support / Healer
-- **HP**: Medium
-- **Stamina**: Medium
-- **Special Trait**: *Divine Protection* — Healing items are 25% more effective
-- **Starting Weapon**: Oil Lamp (light + fire utility, self-defense fallback)
-- **Best For**: Co-op support, keeping teammates alive, exorcising spirits
-
-### Catalina de Vega — The Scout
-- **Role**: DPS / Scout
-- **HP**: Low
-- **Stamina**: Highest
-- **Special Trait**: *Keen Eyes* — Can spot traps, treasures, and enemies from further away
-- **Starting Weapon**: Crossbow (silent kills, rain-proof)
-- **Best For**: Exploration, finding hidden loot, hit-and-run combat
-
-### Rodrigo de Silva — The Heavy Hitter
-- **Role**: Burst DPS
-- **HP**: High
-- **Stamina**: Low
-- **Special Trait**: *Berserker Rage* — Deal 30% more damage when below 50% HP
-- **Starting Weapon**: Matchlock Arquebus (highest single-shot damage)
-- **Best For**: Boss killing, high-risk/high-reward play, experienced players
-
-## Character Comparison
-
-| Character | HP | Stamina | Damage | Sanity Resist | Difficulty |
-|-----------|:--:|:--:|:--:|:--:|:--:|
-| Alonso | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐ | Easy |
-| Father Miguel | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐⭐⭐ | Medium |
-| Catalina | ⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐ | Medium |
-| Rodrigo | ⭐⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | Hard |
+**Bottom line:** pick the character whose look you like. Then build the role you actually want to play with your loadout.
 
 ---
 
-## Build Chart — All 4 Characters
+## The Four Squad Roles — Built From Your Loadout
 
-| Character | Natural Role | Primary Weapon | Secondary / Tool | Armor | Core Perks | Co-op Fit |
-|-----------|--------------|----------------|-------------------|-------|------------|-----------|
-| **Alonso de Medina** (Veteran Soldier) | Tank / Frontline | Machete (melee front line, backstabs) | Matchlock Arquebus (burst on elites) | Militia Coat (high protection — he will take hits) | Tough Hide, Bulwark, Unyielding, Adrenaline Rush | Point Man — leads the advance, takes the first hit |
-| **Father Miguel** (Jesuit Priest) | Support / Healer | Oil Lamp (light + fire utility) | Machete (self-defense fallback) | Cultist Robes (sanity protection on long expeditions) | Field Medic, Restful Sleep, Numbed Mind, Unyielding | Support — the squad's healer in the center |
-| **Catalina de Vega** (Scout) | DPS / Scout | Crossbow (silent kills, rain-proof) | Machete (silent melee finish) | Traveler's Garb (stealth-first, lightest weight) | Cat's Paws, Shadow Dweller, Scavenger, Pack Mule | Point Man / Pack Mule — scouting and loot duties fold by squad composition |
-| **Rodrigo de Silva** (Heavy Hitter) | Burst DPS | Matchlock Arquebus (highest single-shot damage) | Francesca Axe (silent headshot payoff) | Militia Coat (survive the aggression his playstyle draws) | Blade Master or Marksman, Executioner, Adrenaline Rush, Second Wind | Flex / Boss DPS — answers elite threats |
+Because no character is locked to a playstyle, "character build" in The Mound really means **loadout archetype**. These are the four roles a full squad usually covers, with the gear that does the work. Weapon stats live in the [Weapons Guide](/guides/weapons-guide), every perk in the [Perks Guide](/guides/perks-guide), and armor sets and weight limits in the [Loadout Guide](/guides/loadout-guide).
+
+| Squad Role | Primary Weapon | Secondary / Tool | Armor | Core Perks | Job on the Team |
+|------------|----------------|-------------------|-------|------------|-----------------|
+| **Point Man / Tank** | Machete (melee front line, backstabs) | Matchlock Arquebus (burst on elites) | Militia Coat (high protection — you will take hits) | Tough Hide, Bulwark, Unyielding, Adrenaline Rush | Leads the advance, takes the first hit, holds the line against sanity-draining bosses |
+| **Support / Healer** | Oil Lamp (light + fire utility) | Machete (self-defense fallback) | Cultist Robes (sanity protection on long expeditions) | Field Medic, Restful Sleep, Numbed Mind, Unyielding | Keeps the squad alive and sane in the center of the formation |
+| **Scout / Loot** | Crossbow (silent kills, rain-proof) | Machete (silent melee finish) | Traveler's Garb (stealth-first, lightest weight) | Cat's Paws, Shadow Dweller, Scavenger, Pack Mule | Finds threats and treasure first; carries the squad's loot |
+| **Burst DPS / Boss Killer** | Matchlock Arquebus (highest single-shot damage) | Francesca Axe (silent headshot payoff) | Militia Coat (survive the aggression this playstyle draws) | Blade Master or Marksman, Executioner, Adrenaline Rush, Second Wind | Answers elite threats and burns down bosses |
 
 ### How to Read This Chart
 
 | Column | Meaning |
 |--------|---------|
-| **Natural Role** | The role this character's trait best supports |
-| **Primary / Secondary** | Weapon pair that plays to the trait (see [Weapons Guide](/guides/weapons-guide)) |
+| **Squad Role** | The job this loadout does in a four-player team |
+| **Primary / Secondary** | Weapon pair that does the work (see [Weapons Guide](/guides/weapons-guide)) |
 | **Armor** | Recommended set from the [Loadout Guide](/guides/loadout-guide) |
-| **Core Perks** | 3-4 perks that multiply the trait (see [Perks Guide](/guides/perks-guide)) |
-| **Co-op Fit** | Position in the 4-player squad role system (see [Co-op Strategy Guide](/guides/coop-strategy-guide)) |
+| **Core Perks** | 3-4 perks that make the role work (see [Perks Guide](/guides/perks-guide)) |
+| **Job on the Team** | Position in the 4-player squad role system (see [Co-op Strategy Guide](/guides/coop-strategy-guide)) |
 
 ---
 
-## Why These Builds Work — Trait-to-Build Logic
+## Why There Are No Character Builds
 
-| Character | Trait | Why the Build Plays Into It |
-|-----------|-------|------------------------------|
-| **Alonso** | *Iron Will* — 15% less Sanity damage from eldritch horrors | Lets him hold the front line against sanity-draining bosses; Militia Coat + Tough Hide stack survivability; Unyielding makes his bleedout time forgiving for the team |
-| **Father Miguel** | *Divine Protection* — healing items 25% more effective | Every bandage and salve he carries is worth 25% more; Field Medic stacks another 25% on top; Cultist Robes keep him sane enough to keep the squad sane |
-| **Catalina** | *Keen Eyes* — spots traps, treasures and enemies from further away | The Crossbow lets her act on what she spots first, silently; stealth perks (Cat's Paws, Shadow Dweller) keep her scouting ahead undetected; Pack Mule + Scavenger turn scouting into loot |
-| **Rodrigo** | *Berserker Rage* — 30% more damage below 50% HP | The Arquebus's single-shot burst is the biggest window for the bonus; Executioner adds 25% more against low-HP enemies; Second Wind saves him when the low-HP gamble goes wrong |
+Guides that hand each character a trait — "takes less sanity damage", "heals more", "spots traps further away" — are not describing *The Mound*. There is no trait table in this game, so there is no "trait-to-build logic" to follow: nothing about your chosen conqueror changes a single number on your character sheet.
+
+What actually varies between two players on the same expedition is gear. That is why the same four roles keep appearing in every squad guide on this site — they describe **what you brought**, not **who you picked**:
+
+- **Survivability** comes from armor choice and defensive perks such as Tough Hide, Bulwark and Unyielding.
+- **Sustain** comes from healing items plus Field Medic and Restful Sleep, not from a chosen character.
+- **Information** comes from scouting tools and perks like Cat's Paws and Shadow Dweller.
+- **Burst damage** comes from the Arquebus or Francesca Axe plus Executioner and Adrenaline Rush.
 
 ---
 
@@ -99,10 +66,10 @@ The Mound: Omen of Cthulhu features four playable conquistador characters, each 
 
 | Squad Size | Recommended Change |
 |------------|--------------------|
-| **Solo (1)** | Alonso or Catalina only — Alonso for survival, Catalina for loot; Rodrigo's low stamina makes solo play punishing |
-| **Duo (2)** | Alonso + Catalina (tank + scout), or Catalina + Rodrigo (burst when the scout controls the pull) |
-| **Trio (3)** | Alonso (Point Man) + Catalina (Scout) + Father Miguel (Support) — the classic safety triangle |
-| **Full (4)** | All four characters, one per squad role — the intended experience |
+| **Solo (1)** | Take the Point Man or Scout loadout — the tank build for survival, the scout build for loot; the Burst DPS build's low stamina makes solo play punishing |
+| **Duo (2)** | Point Man + Scout (tank + information), or Scout + Burst DPS (burst when the scout controls the pull) |
+| **Trio (3)** | Point Man + Scout + Support — the classic safety triangle |
+| **Full (4)** | One of each of the four roles — the intended experience |
 
 ---
 
@@ -110,26 +77,27 @@ The Mound: Omen of Cthulhu features four playable conquistador characters, each 
 
 | I Want To... | Pick |
 |--------------|------|
-| Survive my mistakes and learn the game | **Alonso** — highest HP + Sanity resistance, easiest difficulty |
-| Keep my team alive through madness | **Father Miguel** — 25% stronger healing, sanity protection gear |
-| Find every secret and maximize loot | **Catalina** — Keen Eyes + stealth + loot perks |
-| Kill bosses fast, accept the risk | **Rodrigo** — Berserker Rage burst windows on elite fights |
+| Survive my mistakes and learn the game | **Point Man / Tank loadout** — Militia Coat plus survivability perks is the most forgiving setup |
+| Keep my team alive through madness | **Support / Healer loadout** — healing items, Field Medic and sanity-protection gear |
+| Find every secret and maximize loot | **Scout / Loot loadout** — stealth perks plus Pack Mule and Scavenger |
+| Kill bosses fast, accept the risk | **Burst DPS loadout** — Arquebus burst windows on elite fights |
+
+## Choosing a Character
+
+Since there are no mechanical differences, the only real criteria are cosmetic and narrative:
+
+- **Pick the look you enjoy** — you will be looking at the same character for dozens of expeditions. Characters display the weapons and armor you equip, so the silhouette changes with your loadout anyway.
+- **More characters are content, not power** — the ones you rescue, unlock through progression, or get from the Deluxe Edition's Fortune Hunters pack play the same as the starting four.
+
+If you want a difficulty lever, use the squad-size and contract-difficulty systems instead — contract difficulty scales with the **host's** level, which matters far more than who anyone picked.
 
 ---
 
-## Best Character for Solo Play
+## How Many Characters Are There?
 
-**Alonso de Medina** is the best solo character. His high HP and sanity resistance let you survive mistakes that would kill other characters. The Machete + Matchlock pairing provides both offense and defense.
+Four are playable from launch. Additional characters are unlocked by rescuing stranded survivors during expeditions and through progression, and the Deluxe Edition's **Fortune Hunters Characters Pack** adds more. There is an achievement tied to unlocking seven of them in total [Unconfirmed — reported by a single community character guide, not stated in any official Steam announcement we checked].
 
-**Catalina** is the best for experienced solo players who want to find every secret and maximize loot per expedition.
-
-## Best Character for Co-op
-
-A balanced team of four covers all roles:
-- **Alonso** (Point Man / Tank) — Frontline, draws enemy attention
-- **Catalina** (Scout) — Finds threats and treasures early
-- **Rodrigo** (Boss DPS) — Melts bosses and elites
-- **Father Miguel** (Support) — Keeps everyone alive and sane
+The official Steam store page does not publish a roster, and the Steam announcements do not list character names beyond the rescue mechanic. A [community character guide](https://tposegaming.com/the-mound-omen-of-cthulhu-characters/) lists **eight** playable characters — four available immediately, two from the Deluxe Edition / "Characters & Items Pack", two from progression [Unconfirmed — single editorial source, unverified against an official roster]. We do not name them here because no official source confirms the list.
 
 ---
 
