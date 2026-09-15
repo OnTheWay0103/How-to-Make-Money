@@ -30,7 +30,7 @@ From the official Steam page:
 - It unlocks **interactive furniture** — the "tactical carpentry" loop extends to your hub.
 - It provides **stat upgrades** — permanent character or vessel improvements.
 - It houses **rescued survivors** — "rescue survivors trapped in the Deep Layers" is an official feature, and the Steam copy confirms survivors are an Outpost unlock.
-- The 1.0 release adds a **second Outpost floor** and an **enchantment and repair machine** (confirmed additions from the publisher's launch announcement).
+- The 1.0 release adds a **second Outpost floor** and an **enchantment and repair machine** (confirmed additions from the publisher's launch announcement). The **third floor is closed** in the current build and is scheduled to open in the October update — see [Why the Third Floor Is Locked](/guides/third-floor-locked-guide).
 
 **Specific room names, upgrade costs, and unlock trees are not officially documented as of this writing.** Any guide with precise gold/wood costs and level tables is fabricating data.
 

@@ -119,7 +119,7 @@ The game's corruption system distorts voices — "Bodies warp. Voices distort. E
 No official statement. Runs are extraction-based; expect session lengths to depend on depth and team discipline. Unconfirmed numbers circulating online are speculation.
 
 ### Is there a story?
-The setting is confirmed (a scorched wasteland where everything burns; the Rot; the cursed elevator; the Living Sparks; survivors to rescue). A narrative campaign, endings, or story modes have not been detailed.
+The setting is confirmed (a scorched wasteland where everything burns; the Rot; the cursed elevator; the Living Sparks; survivors to rescue), and 1.0 shipped a "Complete 1.0 Quest Flow" per the pre-launch announcement. What the quest line does *not* do is run to a finished conclusion: players consistently report it stops partway, with the third Outpost floor still locked and scheduled to open in the October update. Full breakdown in [Why the Third Floor Is Locked](/guides/third-floor-locked-guide).
 
 ### Will there be post-launch content?
 Yes — the developer published a post-launch plan, **"What's Next for GRAIN ROT,"** on **August 12, 2026**: a public lobby browser, a new construct batch and vessel, a **September "Deep Layers Update"** (one new biome, several new enemies) and an **October "Halloween Update"** (third Outpost floor, new questline). No seasons, paid DLC or microtransactions have been announced. See the [Patch Notes & Update History](/guides/patch-notes-guide).

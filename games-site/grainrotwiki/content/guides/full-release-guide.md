@@ -128,6 +128,8 @@ If you played the demo, you have a real head start — on *skill*, not progressi
 
 **Update (September 12, 2026):** this section originally read that no roadmap had been announced. That is no longer correct — the developer published a post-launch plan, **"What's Next for GRAIN ROT,"** on **August 12, 2026**, covering a public lobby browser, a new construct batch and vessel, a **September "Deep Layers Update"** (one new biome, several new enemies) and an **October "Halloween Update"** (third Outpost floor, new questline). No seasons, paid DLC or live-service events have been announced, and still no microtransactions. The full breakdown lives on the [Patch Notes & Update History](/guides/patch-notes-guide) page.
 
+**Update (September 16, 2026):** the "Complete 1.0 Quest Flow" listed above is the launch quest chain, not a finished story. The quest line stops partway through the launch content and the third Outpost floor is still locked, with the developer's roadmap scheduling it to open in October. See [Why the Third Floor Is Locked](/guides/third-floor-locked-guide) for what that means in practice.
+
 ## FAQ
 
 **Is Grain Rot 1.0 free to existing demo players?** No — the demo is a separate free build; the full game is a paid release at **$9.99** (10% launch-week discount to $8.99 at launch).

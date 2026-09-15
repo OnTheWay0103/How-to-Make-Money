@@ -21,7 +21,7 @@ sources:
 
 Grain Rot has shipped **nine patches since its August 7, 2026 launch** — and the two that matter most to how you actually play (a public server browser and a batch of new buildables) landed *after* most reviews and guides were written. This page is the full, dated update history taken from the developer's own Steam announcements, plus the official roadmap for what is still coming.
 
-> **Scope note:** this page is the *version history* — what changed and when. For playing with other people now that public servers exist, see the [Multiplayer & Matchmaking Guide](/guides/multiplayer-matchmaking-guide); for what shipped at 1.0, the [Full Release Guide](/guides/full-release-guide).
+> **Scope note:** this page is the *version history* — what changed and when. For playing with other people now that public servers exist, see the [Multiplayer & Matchmaking Guide](/guides/multiplayer-matchmaking-guide); for what shipped at 1.0, the [Full Release Guide](/guides/full-release-guide); for what the locked third Outpost floor means for the end of the current content, see [Why the Third Floor Is Locked](/guides/third-floor-locked-guide).
 
 ---
 
