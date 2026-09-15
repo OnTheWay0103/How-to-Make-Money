@@ -1564,3 +1564,61 @@ QA quick 明细（各站独立报告）：`.agent/qa-expand-{site}-9-16.md` ×5�
 | `ca182ae` | QA Profile 规则闭环（编造检测 / 孤儿文件） |
 
 **站点账**：43 站 · 1002 篇攻略（本轮 +5 扩充 +10 BUILD-009）。
+
+---
+
+# QA Report — 2026-09-16 收尾复核追加（武器清单不一致 + 一处零命中误判纠正）
+
+> 触发：主 Agent 在提交后做**线上产物级复核**，对三处 fact-sweep 逐条复验时发现。
+> 结论：**fact-sweep 的清除结果本身正确**，但**其中一条证据是错的**，且暴露出一处尚未登记的站内不一致。
+
+## 一、线上复验结果（`--resolve` 真实 IP）
+
+| 站点 | 复验对象 | 结果 |
+|------|---------|------|
+| spiritvalewiki | 首页 JSON-LD（本轮最严重单项） | ✅ `"price":"14.99"`、`"genre"` 已无 `Free-to-Play`、正文 `buy-to-play`。**线上确证修复** |
+| themoundwiki | `/guides/extraction-guide` | ✅ `Compass Calibration Kit` **0**、`Holy Water` **0**、`Nightmare` **0** —— 整层清除生效 |
+| tearsofmetalwiki | `/guides/battalion-companion-guide` | ✅ 5 个具名 Companion（Fergus/Morag/Brochan/Ailsa/Torcall）**全部 0**；官方兵种名在（Infantry 14 / Spearmen 14 / Archers 26 / Aodh 10） |
+
+## 二、⚠️ 一处零命中误判（MUST 记录，防止后续误删）
+
+`pets-mounts` 同类判定之外，本轮发现 **fact-sweep 报告中的一条证据是错的**：
+
+| 项 | 报告原文 | 复核实测 |
+|----|---------|---------|
+| `Oil Lamp` | `.agent/fact-sweep-themound-9-16.md:295` 记为「**0**」 | 官方 39 篇公告中 **2 命中**，且一条是官方对该道具的正面描述：*"The oil lamp isn't just a light source: it's a reliable companion against the jungle's unnatural dark. Unlike the torch, it won't flicker or die under the rain"* |
+
+**处置：未删除 Oil Lamp —— 这是正确的。** 但同批判定若被机械执行，会**把官方内容当编造删掉**。
+已据此在 06 Profile 追加「零命中误判防线」三条：计数必须写明「检索面+检索式+命中数」三元组；
+公告语料对**单件武器/道具**是**弱证据**（按实体类别分级）；站内两份清单矛盾 ≠ 至少一份编造。
+
+⚠️ **同日教训**：本轮的编造检测工具（零命中）与它可能造成的误伤是**同一枚硬币的两面**，
+Profile 已同时固化「MUST 删」与「MUST NOT 误删」两侧。
+
+## 三、新发现：themoundwiki 武器清单站内互相矛盾（转 9/17 deep）
+
+官方公告 `appid 2569760` 全 39 篇逐条复核后，站内存在**两份互相矛盾**的武器清单：
+
+| 位置 | 断言 | 官方佐证 |
+|------|------|---------|
+| `loadout-guide.md:51` | 「the game's six weapons — Crossbow, Matchlock Arquebus, **Flintlock Pistol**, Francesca Axe, Machete, Oil Lamp」 | Crossbow ✅ / Matchlock Arquebus ✅（官方称 "the most iconic firearm"）/ Francesca Axe ✅ / Machete ✅（"Added a machete to starting gear"）/ Oil Lamp ✅ / **Flintlock Pistol：公告 0 命中**（弱证据，未判编造） |
+| `content/home-content.md:74` | 「6 Weapons — Crossbow, Flintlock Pistol, Matchlock Arquebus, Oil Lamp, **Medallion**, **Healing Salves**」 | **Medallion 官方明确定义为 support item 而非武器**：*"you can obtain powerful support items like The Medallion to uncover hidden treasures"* → 此清单把支援道具列为武器，**为误**。Healing Salves 公告 0 命中 |
+
+**另**：官方明确把 **torch（火把）** 作为与 oil lamp 并列的光源（*"Unlike the torch…"*；另有补丁
+"Fix for torches losing flame"、"lantern/torch light of the host"），而**两份站内清单都没有 torch**。
+
+**性质判定**：这是**站内不一致 + 一处可确证的分类错误（Medallion）**，按 Profile 新规
+**不等同于编造**。MUST NOT 在未取证的情况下把 Flintlock Pistol / Healing Salves 判为编造删除；
+MUST 以官方"a handful of weapons … a single lamp / a shared arsenal"的表述为基准重写清单。
+
+**已转 9/17 QA deep**，并加入下方强制项清单。
+
+## 四、9/17 deep 强制项（更新，覆盖前文第五节）
+
+1. **🔴 spiritvalewiki `pets-mounts-guide.md`** —— 零命中即删除规则下的删除候选（专项 sweep 进行中）。
+2. **🟠 themoundwiki 武器清单统一** —— 两份矛盾清单 + Medallion 分类错误 + torch 缺失（见上）。
+3. **🟡 themoundwiki `characters-classes.md:109`** —— "Expedition Rank…loadout slots" 无源。
+4. **themoundwiki 待清扫面**：perk 树、Nightmare modifiers、crafting recipes、weight thresholds、8 个岛屿/地名。
+5. **tearsofmetalwiki 待清扫面**：伪单位系统（10 文件）+ Recruitment Tent（8 文件）+ village-upgrade 精确价格。
+6. **spiritvalewiki 遗留**：等级上限 99 vs 100+（9/11 起挂起）。
+7. **全站**：按新 Profile 规则复核「以 [Unconfirmed] 块降级保留」的页面是否实为删除候选。
