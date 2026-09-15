@@ -56,6 +56,8 @@ Not all items are equally profitable. The table below shows the best categories 
 
 **The two-tier strategy:** run a high-volume, low-margin book (reagents, Refinement Stones) for steady income, and keep a small high-margin book (cards, cosmetics) for the spikes.
 
+> **Scope note:** cosmetics appear here as a **market category** only — how they are unlocked, converted and account-bound is covered in the [Cosmetics & Wardrobe Guide](/guides/cosmetics-wardrobe-guide). The one rule that matters for pricing: anything bought from the cosmetic shop is account bound, while world-drop monster pet and mount cosmetics stay tradable.
+
 ---
 
 ## 3. Timing: When the Market Bleeds and Feasts

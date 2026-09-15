@@ -108,6 +108,8 @@ Once acquired, mounts can be trained to improve speed and unlock cosmetic varian
 - **Dye System:** Customize your mount's color using dyes crafted or bought from player stalls.
 - **Mount Flourishes:** Unlock special animations (rear, roar, glow) from achievements.
 
+> **Scope note:** this section covers appearance options that travel with the mount itself. The separate, account-wide cosmetic layer — the wardrobe, converting your own equipment into a cosmetic, and what the cosmetic shop sells — is covered in the [Cosmetics & Wardrobe Guide](/guides/cosmetics-wardrobe-guide).
+
 ---
 
 ## 5. Collector's Checklist
