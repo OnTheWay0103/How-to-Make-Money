@@ -1416,3 +1416,151 @@ tearsofmetal 本轮 `git log` 显示 `app/guides/page.tsx` **自脚手架提交 
 本轮增量提交：`9036fe8` `f2381c7`（spiritvale）、`55a4f0e`（sephiria）、
 `5aed04d`（themound）、`b71ad14`（grainrot）、`1a5ee5a`（tearsofmetal）、
 `05a5a77`（taival 残留全网面清扫）。
+
+---
+
+# QA Report — 2026-09-16（每日扩充 5/5 全产出 + 三项事实清扫 + 规则闭环 + BUILD-009）
+
+> 岗位：QA 审核员（`docs/agents/05-岗位卡-QA审核员.md` / `06-Profile-QA审核员.md`）
+> 模式：quick × 5（逐站）+ 三项专项 fact-sweep 复验
+> 结论：**5/5 站 PASS（0 🔴 阻断）**；本轮另**清除三个站的整层编造内容**（存量，非本轮引入）
+
+**一句话结论**：扩充侧 5/5 全部产出且 QA quick 全 PASS；但**同一失效模式的编造内容在三个站同时暴露且逃过了历次 QA** —— 这是本轮真正的发现，已全部清除并固化为 Profile 规则。
+
+---
+
+## 一、每日扩充（名单 5 站，5/5 产出，0 SKIP）
+
+| 站点 | 新增指南 | 词数 | 选题依据 | QA quick |
+|------|---------|:--:|---------|:--:|
+| themoundwiki | `ox-cart-guide.md` 牛车控制 | — | 官方 1.04 + 社区反证并列 | ✅ PASS |
+| spiritvalewiki | `cosmetics-wardrobe-guide.md` 外观/衣柜 | 1,471 | **路径②** 系统清单命中 | ✅ PASS |
+| sephiriawiki | `combo-system-guide.md` 连招系统 | 1,495 | 反馈驱动 | ✅ PASS |
+| tearsofmetalwiki | `barracks-statues-guide.md` 兵营与雕像 | 1,496 | 官方明列、站内整块缺失 | ✅ PASS |
+| grainrotwiki | `third-floor-locked-guide.md` 三楼锁定 | 1,324 | 反馈驱动 | ✅ PASS |
+
+QA quick 明细（各站独立报告）：`.agent/qa-expand-{site}-9-16.md` ×5。
+
+**路径②第三次生效**：spiritvalewiki 与 tearsofmetalwiki 的落点均非「抱怨聚类」直接给出，而是
+「官方明列的系统 × 站内覆盖」比对命中。**再次证明「抱怨收敛 ≠ 没有缺口」**。
+
+### 逐站 🟡 发现（均不阻断，已登记）
+
+| 站点 | 🟡 | 内容 | 处置 |
+|------|:--:|------|------|
+| themoundwiki | 3 | ①`isolation-guide.md` 牛车降 sanity 有 1 条 10-vote 玩家明确反证；②`extraction-guide.md` 提取区四型表 + Compass 三模式无源；③`characters-classes.md:109` "Expedition Rank…unlocking new loadout slots" 无源 | ①已并列双方 + Scope note；②由 fact-sweep 整层清除；③**未闭合**，转 9/17 deep |
+| spiritvalewiki | 3 | ①FAQ「no premium currency」与官方 premium currency + 站内 3 页商城条目冲突；②cash shop 售卖影响数值物品（模板特征）；③`pets-mounts-guide.md` 稀有度/属性/进化表无可溯源来源 | ①②由 fact-sweep 清除；③**未闭合**，转 9/17 deep（按新规则应为删除候选） |
+| sephiriawiki | 2 | ①价格页改版后 ~2,100 词超 800–1500 红线（属校准类，非新写）；②Steam 评分口径未固化 | ②已写入 Profile；①建议明确豁免规则 |
+| tearsofmetalwiki | 4 | ①`battalion-companion-guide.md` 具名 Companion/兵种数值编造（存量）；②`village-upgrade-guide.md` 建筑覆盖不全；③3 个来源当轮 503/429/000；④CJK 误报 | ①由 fact-sweep 清除；②已加 Scope 注记；③**未冒充已读原文**（如实标注经索引取用）；④排除 |
+| grainrotwiki | 2 | ①`content/home-content.md` 死文件；②Reddit 通道连续两轮不可用 | ①已写入 Profile；②**未编造任何 Reddit 内容**，以 850 条 Steam 评测替代 |
+
+---
+
+## 二、🔴 本轮最重要发现：三站同源编造（存量，已清除）
+
+三个**互不相关**的站在同日暴露出**同一失效模式**，且**全部逃过了此前多轮 QA**：
+
+| 站点 | 编造内容 | 语料证据 | 清除提交 |
+|------|---------|---------|---------|
+| themoundwiki | 4 个角色名 + 4 项独有 Trait；提取系统整层（Compass 表/冷却秒数/配方/nightmare modifier/perk 数值），**散落 10 个文件** | 1,396 条评测中 0 命中；39 篇公告 + 1,925 条评测中 `perk`=2、`craft`=4、`Holy Water`=0、`Oil Lamp`=0 | `a6a853f`（跨 11 文件） |
+| spiritvalewiki | 付费模式确证错误（**$14.99 买断制游戏被写成 free-to-play，含 `offers.price: '0'` 结构化数据**）+ P2W 商城条目 | 商店页 `All Microtransactions … purely cosmetic` + 173 条评测反证 | `6e9fe0b` |
+| tearsofmetalwiki | 5 个具名 Companion + 解锁条件 + 兵种 HP + 技能树逐级数值 + 各 Act 招募数 + Tent 解锁表 | 官方补丁只用 Infantry/Spearmen/Archers，仅点名过 Aodh | `1cc284e` |
+
+**根因判定**：**模板层**，非页面局部。themoundwiki 的提取页清理后暴露同模式散落 10 个文件，
+证明污染来自建站模板的「生成细节」倾向，而非某次编辑失误。
+
+**本轮最严重单项**：spiritvalewiki 把 $14.99 买断制游戏呈现为免费游戏，且
+`lib/schema.ts` 的 `offers.price: '0'` 会在 Google 富媒体结果中**渲染成一个价格**。
+已改为 buy-to-play / `14.99`（`genre` 同步移除 `Free-to-Play`）。
+
+**免责句漏洞（已固化）**：tearsofmetalwiki 该页带 `community-reported` 免责句，随后照样给出精确数值。
+**一句总免责不能漂白一张数值表** —— 免责只覆盖它所修饰的那一条断言。
+
+---
+
+## 三、QA 规则闭环（已写入 `docs/agents/06-Profile-QA审核员.md`，提交 `ca182ae`）
+
+按 CLAUDE.md「出现新问题 MUST 更新 Profile，MUST NOT 只说『下次注意』」：
+
+1. **语料零命中判定**——具名实体与精确数值 MUST 做全语料计数；**官方与全部可达社区来源均 0 命中 → MUST 直接删除**，MUST NOT 走「标注来源层级」降级路径。
+2. **反向证据优先**——某术语的唯一命中若是玩家**要求加入**该功能，则是缺口证据，**不是**存在证据。
+3. **免责句不可漂白精确数值**——见上。
+4. **复合断言必须原子化裁定**——一句可含「真/假/无证据」三种子断言，MUST NOT 整句判对错（spiritvalewiki 的 `no subscription, battle pass, or premium currency` 三子断言裁定各不相同）。
+5. **范围限定不可省**——Steam 评分 MUST 带语言/时间口径；英文池（97%/2,742/Overwhelmingly Positive）与全语言池（94.4%/11,703/Very Positive）是**两个数、两个标签**，MUST NOT 互换或全局替换。
+6. **模板层扩散检查**——确认一处编造后 MUST grep 全站命中面并报**文件数**。
+7. **导航登记与孤儿文件规则**——`content/home-content.md` 在 ≥38 站是孤儿文件；MUST NOT 再把「导航登记」当作上线步骤，可发现性 MUST 走产物级/线上证据。
+
+---
+
+## 四、基建与产物级验证（Profile 06 强制）
+
+| 项 | 结果 |
+|------|:--:|
+| `pnpm install`（**未用 npm**） | ✅ 5/5 站 |
+| `pnpm build` exit 0 | ✅ 5/5 站，静态页各 +1 |
+| 产物级验证（`grep .next/server/app/**/*.html`） | ✅ 新页特征串命中；**表格分隔行垃圾 `<td>---</td>` = 0 命中**（9/12 组件缺陷未复发） |
+| 部署（全局 `vercel` 58.9.4，**未用 `npx vercel`**） | ✅ 5/5 站 |
+| 生产 alias 指向本次新部署 | ✅ `vercel inspect` 确认 |
+| 线上验证（`--resolve` 真实 IP） | ✅ 新页 200；**无 `HTTP=000`/`size=0` 记为 PASS 的情形** |
+
+**DNS 投毒佐证（本轮新增）**：系统 DNS 把 `themoundwiki.vercel.app` 解析到 Meta 污染 IP
+`157.240.7.5`、`spiritvalewiki` 解析处理同样异常 → `--resolve` 为**确定性必要条件**，非可选技巧。
+
+---
+
+## 五、QA deep 状态
+
+上次 full audit = **2026-09-10**（Part A 8 站 + Part B 41 站脚本化扫描）。
+今日 **2026-09-16 = 第 6 天**，**未逾期**（>7 天触发）。**下一轮 deep 触发：2026-09-17**。
+
+**已排入 9/17 deep 的强制项**（本轮未闭合，MUST NOT 遗漏）：
+
+1. **🔴 spiritvalewiki `pets-mounts-guide.md`** —— 按本轮新固化的「零命中即删除」规则，
+   该页的具名宠物/坐骑与进化表属**删除候选**，当前仅靠 `[Unconfirmed]` 块降级保留，
+   **与新规则不符**。已派专项 sweep 复验（`.agent/fact-sweep-pets-mounts-9-16.md`）。
+2. **🟡 themoundwiki `characters-classes.md:109`** —— "Expedition Rank…unlocking new loadout slots" 无源，与同页「角色无成长属性」基调冲突。
+3. **themoundwiki 待清扫面**：perk 树、Nightmare modifiers、crafting recipes、weight thresholds、8 个岛屿/地名。
+4. **tearsofmetalwiki 待清扫面**：伪单位系统（10 文件）+ Recruitment Tent（8 文件）+ village-upgrade 精确价格。
+5. **spiritvalewiki 遗留**：等级上限 99 vs 100+（9/11 起挂起）。
+
+---
+
+## 六、采集通道状态（如实登记，未以「不可用」冒充「无数据」）
+
+| 通道 | 状态 |
+|------|------|
+| Steam 评测 API（`appreviews`） | ✅ 200 —— ⚠️ **MUST 带 `json=1`**；缺该参数时 `cursor` 有值但 `reviews` 返回空数组，**极易被误判为「该游戏无评测」** |
+| Steam 官方公告（`ISteamNews`） | ✅ 200 |
+| Reddit | ❌ 连续两轮不可用（直连 403；OpenCLI `subreddit`→Failed to fetch、`search`→Navigation rejected、`hot`→TIMEOUT 60s）→ 本轮**以 Steam 评测替代，未编造任何 Reddit 内容**。待排查 OpenCLI 登录态 |
+| Steam 社区讨论 | ❌ 长期 HTTP=000（DNS 投毒）→ 降级为**经搜索索引取用并强制标注**，MUST NOT 把索引摘要当原文引用 |
+| `massivelyop` / `steamdb` / `Gamer Guides` / `TrophiesHunter` | ❌ 403（既有） |
+| `gameshorizon.com` / `thegameswiki.com` | ⚠️ 本轮 503 / 429（单轮） |
+
+---
+
+## 七、待人工 / 待决策（本轮只记录，未擅改）
+
+1. **GA4 凭据不可 pull** → PV>1000 名单自 9/2 快照后无法刷新（既有遗留，未变）。
+2. **Dashboard 注册**：`doloctownwiki` / `sovereigntowerwiki` 未注册（预存在缺口）；
+   `silverpineswiki` 本轮新建，待注册 + GA4 Property。
+3. **Reddit / OpenCLI 登录态**：连续两轮不可用，建议排查。
+4. **STATS 已更正一处长期错误信息**：此前记「anomalypresidentwiki 缺 GSC 验证文件待补」——
+   9/16 逐目录复核确认**43/43 站该文件均在位**，该条为误记，已更正（含 P1 段与网站点总览表）。
+
+---
+
+## 八、提交
+
+| 提交 | 内容 |
+|------|------|
+| `9fab583` | themoundwiki EXPAND-9/16 + 🔴 角色编造闭合 |
+| `59a0a20` | spiritvalewiki EXPAND-9/16（路径②命中） |
+| `dbcb77b` | sephiriawiki EXPAND-9/16 + 价格页时效校准 |
+| `ac759e7` | tearsofmetalwiki EXPAND-9/16 + P0 两处闭环 |
+| `ef90310` | grainrotwiki EXPAND-9/16 |
+| `6e9fe0b` | spiritvalewiki fact-sweep（付费模式 + P2W） |
+| `a6a853f` | themoundwiki fact-sweep（跨 11 文件） |
+| `1cc284e` | tearsofmetalwiki fact-sweep |
+| `ca182ae` | QA Profile 规则闭环（编造检测 / 孤儿文件） |
+
+**站点账**：43 站 · 1002 篇攻略（本轮 +5 扩充 +10 BUILD-009）。
