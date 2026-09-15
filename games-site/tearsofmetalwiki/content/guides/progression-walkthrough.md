@@ -48,7 +48,7 @@ The Scottish Coast is your introduction to Tears of Metal. Rolling green hills, 
 1. **Kill Banner Bearers first** — They are marked by a glowing banner. Any enemy near a Banner Bearer deals more damage. Clear them before engaging groups.
 2. **Clear Trebuchet Spotters second** — Their mark ability amplifies damage against the marked unit. Do not let them mark your Shield Bearer.
 3. **Loot every building** — The ruined village has buildings with breakable crates. Each crate has a chance to drop artifacts or weapons — and every duplicate weapon is merge material (see the [Weapon Merge Guide](/guides/weapon-merge-guide)).
-4. **Find the breakable wall** — Near the village well, look for a cracked wall section. Breaking it reveals **Fergus the Unyielding's** shield (see the [Battalion & Companion Guide](/guides/battalion-companion-guide)).
+4. **Check the breakable walls** — Near the village well, look for a cracked wall section. Destructible walls hide loot rooms and caches; break every one you pass. (Some early community write-ups attached a named companion unlock to one of these walls — Paper Cult has never confirmed a companion unlock in Act 1, so treat that specific claim as unverified. See the [Battalion & Companion Guide](/guides/battalion-companion-guide).)
 
 ### Optimal Route
 
@@ -199,7 +199,7 @@ Replay the campaign with more aggressive clearing — the **Threat Level system*
 
 Hidden objectives worth pursuing (see the [Achievements Guide](/guides/achievements-guide) for the full list):
 
-- **No Soldier Lost** — Complete all three acts without a single soldier death (community-reported unlock: Morag of the Mist)
+- **No Soldier Lost** — Complete all three acts without a single soldier death. (An earlier version of this page attributed a *specific named* companion unlock to this objective; Paper Cult has never published companion unlock conditions, so no companion name is claimed here. See the [Battalion & Companion Guide](/guides/battalion-companion-guide).)
 - **Emblem Master** — Unlock all 18 emblems
 - **Pure Solo** — Complete all three acts without recruiting any soldiers
 

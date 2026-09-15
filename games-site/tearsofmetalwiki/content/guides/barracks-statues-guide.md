@@ -76,7 +76,7 @@ Community reporting (Whisper of the House, GamesHorizon) describes the Barracks 
 
 The Barracks itself is reported to cost **2 Statues to unlock** *[Unconfirmed]* — that number appears in one community source and nowhere in Paper Cult's patch notes. The per-tier Statue prices, and how far each training line extends, are likewise unpublished *[Unconfirmed]*.
 
-⚠️ Naming caution: Early Access sources describe your army with several different vocabularies. Paper Cult's own notes use **Infantry, Spearmen and Archers**, and name one command outright — *"Fixed the Archers' Volley Ally Command, sometimes stopping its damage prematurely."* This page uses the official terms.
+⚠️ Naming caution: Early Access sources describe your army with several different vocabularies, and they do not all carry the same authority. Paper Cult's own notes name **one** troop command outright — *"Fixed the Archers' Volley Ally Command, sometimes stopping its damage prematurely."* The wider troop vocabulary **Infantry, Spearmen and Archers** comes from community guides (Whisper of the House) and is used by Steam reviewers describing their own armies; "Spearmen" appears nowhere in Paper Cult's published patch notes. Note also that "Infantry" and "Pikeman" do appear in official notes, but as **enemy** Captains (*"Fixed Infantry Captain II overshooting his reach attack"*), not as your troops. This page uses the community troop-family vocabulary for commands and flags it as such. For the same vocabulary applied to your soldiers rather than the Barracks, see the [Battalion & Companion Guide](/guides/battalion-companion-guide).
 
 ---
 
