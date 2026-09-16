@@ -3,7 +3,7 @@ title: "Controls & Settings Guide — Keybinds, Controller Setup & Performance"
 description: "Sephiria controls guide: core actions and keybinds, controller setup and fixes, performance and accessibility settings, and co-op performance tips."
 category: "Beginner"
 version: "1.0"
-updated: "2026-08-11"
+updated: "2026-09-17"
 keywords: ["sephiria controls", "sephiria controller", "sephiria keybinds", "sephiria settings", "sephiria controller not working", "sephiria performance"]
 related: ["beginner-guide", "hard-mode-guide", "boss-guide", "faq-content", "multiplayer-connection-fix-guide"]
 ---
@@ -86,6 +86,8 @@ Sephiria is an action game — most of it is inputs. If you want a less demandin
 - **Use block (hold, not tap) as your primary defense** — holding a button is less input-intensive than constant dashing.
 - **Pick a weapon that suits your play rhythm** — Sword & Shield rewards steady blocking; Crossbow rewards kiting. See the [Weapons Guide](/guides/weapons-guide).
 - **Passive-damage artifact setups** reduce how much active input you need per room (see the [Artifacts Guide](/guides/artifacts-guide)).
+
+This section covers **input** comfort. If you need to reduce on-screen flashing and effects instead, see the [Photosensitivity & Flashing Effects Guide](/guides/photosensitivity-flashing-effects-guide).
 
 ---
 
