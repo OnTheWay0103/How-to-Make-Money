@@ -3,21 +3,21 @@ title: "Tears of Metal Updates & Roadmap — Early Access Patch Tracker (Septemb
 description: "Tears of Metal patch tracker: the full v0.8 → v0.14.58630 build history plus the September 8, 2026 Big Bug Fixing Pass (no version number published), the July 22 2026 launch on Steam + Microsoft Store + PC Game Pass, the 100K sales milestone, and Paper Cult's announced three-phase Early Access roadmap — Phase 1 stability, Phase 2 system reworks, Phase 3 content including the Plague Doctor."
 category: "Guides"
 version: "Early Access"
-updated: "2026-09-12"
+updated: "2026-09-17"
 keywords: ["Tears of Metal patch notes", "Tears of Metal updates", "Tears of Metal roadmap", "Tears of Metal Early Access", "Tears of Metal new heroes", "Tears of Metal Plague Doctor", "Tears of Metal mid-campaign saves", "Tears of Metal latest update", "Tears of Metal version"]
 related: ["save-system-guide", "multiplayer-connection-fix-guide", "heroes-tier-list", "co-op-revive-guide", "beginner-guide"]
 sources:
   - tier: "Official"
-    text: "Patch version numbers, dates and headlines — Paper Cult's Steam Community announcements (steamcommunity.com/app/1913120/allnews). The September 8, 2026 patch (\"New Patch - Big Bug Fixing Pass\", posted by WoofgangPCG; full change list and the \"Crossplay compatibility is temporarily disabled on this version\" notice) — Steam Community announcement, retrieved September 12, 2026. The three-phase Early Access roadmap is Paper Cult's own developer post, reported consistently by primagames.com, ingamenews.com and gamereactor.se (checked September 11, 2026). Launch platform list (Steam + Microsoft Store, PC Game Pass day one, $24.99) — Paper Cult press release, July 22, 2026"
+    text: "Patch version numbers, dates and headlines — Paper Cult's Steam Community announcements (steamcommunity.com/app/1913120/allnews). The September 8, 2026 patch (\"New Patch - Big Bug Fixing Pass\", posted by WoofgangPCG; full change list and the \"Crossplay compatibility is temporarily disabled on this version\" notice) — Steam Community announcement, retrieved September 12, 2026 and re-verified against the live announcement feed September 17, 2026 (the announcement remains the newest post on the feed, dated September 8, 2026 17:05 UTC). The three-phase Early Access roadmap is Paper Cult's own developer post, reported consistently by primagames.com, ingamenews.com and gamereactor.se (checked September 11, 2026). Launch platform list (Steam + Microsoft Store, PC Game Pass day one, $24.99) — Paper Cult press release, July 22, 2026"
   - tier: "Community"
     text: "Per-patch change details and the version history table are cross-checked against the community-maintained Tears of Metal update-history wiki (thegameswiki.com/tears-of-metal/wiki/update-history), vgspoilers patch pages (vgspoilers.com/game/tears-of-metal) and independent patch coverage (ingamenews.com). All-time concurrent-player peak (6,239) tracked by SteamCharts (steamcharts.com/app/1913120), checked August 25, 2026"
   - tier: "Editorial"
-    text: "The phase-by-phase reading of the roadmap (what is a plan versus what has actually shipped in the live build) is this guide's editorial assessment, dated September 12, 2026. The decision to record the September 8, 2026 patch by date instead of assigning it an invented version number is also editorial"
+    text: "The phase-by-phase reading of the roadmap (what is a plan versus what has actually shipped in the live build) is this guide's editorial assessment, dated September 12, 2026. The decision to record the September 8, 2026 patch by date instead of assigning it an invented version number is also editorial. The non-multiplayer changelog sections were added September 17, 2026 as a verbatim transcription of the same official announcement, not as new commentary"
 ---
 
 # Tears of Metal Updates & Roadmap — Early Access Patch Tracker
 
-> **Applies to Early Access / Updated: September 12, 2026**
+> **Applies to Early Access / Updated: September 17, 2026**
 
 Tears of Metal shipped its Early Access launch build on **July 22, 2026** on Steam, the Microsoft Store and PC Game Pass, and the game has already sold over **100,000 copies on Steam**. This page is the site's tracking hub for every update: what shipped build by build, what's confirmed in development, and where to watch for the next announcement.
 
@@ -57,7 +57,7 @@ The Early Access launch build introduced the full campaign:
 
 ### Patch History — Every Confirmed Build (July 22 – September 8, 2026)
 
-Paper Cult shipped seven public numbered builds in the first three weeks of Early Access, then went quiet for three and a half weeks before returning with an unnumbered bug-fixing patch. This is the version history as it stands on **September 12, 2026** — **the September 8, 2026 "Big Bug Fixing Pass" is the newest confirmed patch**, and it is the first update since v0.14.58630 (August 14, 2026).
+Paper Cult shipped seven public numbered builds in the first three weeks of Early Access, then went quiet for three and a half weeks before returning with an unnumbered bug-fixing patch. This is the version history as it stands on **September 17, 2026** — **the September 8, 2026 "Big Bug Fixing Pass" is the newest confirmed patch**, and it is the first update since v0.14.58630 (August 14, 2026).
 
 | Version | Date | Headline |
 |---------|------|----------|
@@ -78,6 +78,82 @@ Paper Cult shipped seven public numbered builds in the first three weeks of Earl
 
 **Still not fixed:** multiplayer desync (improved, not eliminated) and mid-campaign saves remain on the confirmed to-do list — details below.
 
+### Full Changelog — September 8, 2026 (Non-Multiplayer Sections, Verbatim)
+
+The patch table above summarises this update; what follows is the rest of the official changelog, transcribed word for word from the announcement. The **Multiplayer** section is already covered in the table row above, so it is not repeated here. Paper Cult published **no version number** for this build — these are the developer's own bullet points, not a paraphrase.
+
+#### Gameplay
+
+- Fixed an issue where a reward could be lost if a reward screen was still open when a level ended. The pending reward will now be presented after collecting the level reward.
+- Adjusted the attacks variations odds and counters frequency of The Black Shield.
+- Enemy Status damage multipliers no longer scale aggressively between Acts and now use the same multiplier throughout all three Acts.
+- The Companion x3 Barracks upgrade now only requires Companion x2, rather than also requiring an upgrade from the previous row.
+- The item requested by H.W. in a barrel (item buyer interactible) is now completely random.
+- The amount offered by H.W. in a barrel (item buyer interactible) now varies based on the item’s rarity and the current Act.
+- The Poison Trail Enemy Captain modifier no longer damages Allies.
+- Giant II’s jump-back counter landing no longer deals damage.
+- Elite enemies now reconsider their targets more frequently and are more likely to attack players dealing high amounts of damage to them.
+- Fixed Brienne’s Combo 3 with the Bladed Vambrace not triggering Emblem Finisher effects.
+- Prevented Multi-Fuse Bomb from triggering itself with its own bombs.
+- Fixed Healing Fountains not benefiting from Healing Power gained during the same battle.
+- Fixed destroying one Beacon incorrectly removing its effect while another identical Beacon was still active.
+- Fixed Wilderness’ Wisdom and Delicate Dyes continuing to generate Special Charge while a Morale Beacon was active.
+- Added a fallback when generating Ally Emblem rewards. If no valid unit from the intended family can receive the Emblem, another eligible unit can now be selected instead of offering no reward.
+- The Heart of Wood Charm now visually disappears after being consumed to revive the player.
+- Fixed Oak Barrels sometimes granting the wrong number of Emblem rerolls.
+- Fixed Ally Archers sometimes failing to snap correctly to the ground during an Archer Ally Command.
+- Fixed Bomber bombs failing to explode or deal damage if the Bomber was killed before beginning its attack.
+- Fixed an edge case where The Cook’s Special Attack could lose its target.
+
+#### Shops & Economy
+
+- Fixed shops containing items that became impossible to purchase when their discount was too high.
+- Fixed Travelling Merchant shop discounts displaying an incorrect discounted value.
+
+#### Progression, Saves & Codex
+
+- Fixed Castle Records sometimes showing already unlocked Charms as locked.
+- Boss projectiles now correctly count as Ranged Damage for relevant unlocks and Achievements.
+- Fixed a Companion not appearing correctly in the Codex.
+- Fixed a save timing issue at the end of a Campaign that could cause game statistics to be saved incorrectly.
+- Fixed a situation where starting a first Campaign with Brienne under specific progression conditions could result in an incompletable Ally Command tutorial.
+- Fixed the ordering of the Alchemist and Lightweaver Block and Dash entries in the Codex.
+
+#### Objectives & Levels
+
+- Fixed some objectives spawning outside the playable area in Glenfinnan Castle.
+- Fixed various objective placement issues across gameplay scenes in Acts 1, 2, and 3.
+- Fixed a collision issue with Defiled Heirloom.
+- Fixed timed objective hazards sometimes spawning all of their objectives immediately when a level began.
+- Fixed Hunt Captain objectives sometimes spawning Captains without their Minimap indicators.
+- Various collision, art, and Castle area improvements.
+
+#### UI & Localization
+
+- Fixed the Reset button in Controller Rebinding incorrectly setting all toggles to Off instead of restoring their proper default values.
+- Fixed hold-to-confirm buttons, such as Leave Battlefield, sometimes appearing invisible or partially transparent.
+- Fixed Invincible status visuals not disappearing immediately after the status expired.
+- Updated several Weapon descriptions.
+- Updated Character Shop item descriptions.
+- Updated descriptions for the Lucky & Burning Block and Explosive & Linked Heavy Emblems.
+- Fixed incorrect text wrapping on the Apply button in Lobby Settings in some languages.
+- Fixed several broken translations throughout the Village and gameplay.
+- Fixed a localization parsing issue that could cause some item unlock descriptions to be cut off.
+- Fixed the localization of Marriott’s Whetstone quest item.
+- Added the missing left quotation mark to the Latin font.
+- Added the proper Russian translation for the Sacred Heart Charm.
+- Fixed the CoinCount placeholder appearing in the Alluring Depths map event in German and Russian.
+- Increased the resolution of the Shout comic-book VFX texture.
+
+#### Audio & Visuals
+
+- Fixed an incorrect audio event call for Dragon Geyser attacks.
+- Fixed 3D positional audio while Spectating.
+- Updated Act 3 fodder textures.
+- Further optimized grass.
+
+> **Recorded verbatim, not yet reconciled elsewhere on this site.** A few of these entries change numbers that other guides state — most notably the **Companion x3 Barracks upgrade** requirement above, which affects pages covering the Barracks and village upgrades. This tracker is the official record; those pages have not been adjusted against it.
+
 ### 100K Sales Milestone (August 2026)
 
 Paper Cult announced Tears of Metal passed **100,000 copies sold on Steam** in the first weeks of Early Access. The announcement doubled as a roadmap update: the studio confirmed **mid-campaign saves are their top community request and top priority**, and reiterated that netcode/desync fixes come next — then followed it with the three-phase plan below.
@@ -86,7 +162,7 @@ Paper Cult announced Tears of Metal passed **100,000 copies sold on Steam** in t
 
 ## The Official Early Access Roadmap (Announced Late August 2026)
 
-> **This is a plan, not shipped content.** In the same news cycle as the 100K sales announcement (late August 2026), Paper Cult outlined a **three-phase plan** for the rest of Early Access. **None of Phase 2 or Phase 3 is in the live build as of September 12, 2026**, and the studio attached no dates, no version numbers and no ETAs to any of it. Treat everything in this section as intent, not as a feature list you can play today.
+> **This is a plan, not shipped content.** In the same news cycle as the 100K sales announcement (late August 2026), Paper Cult outlined a **three-phase plan** for the rest of Early Access. **None of Phase 2 or Phase 3 is in the live build as of September 17, 2026**, and the studio attached no dates, no version numbers and no ETAs to any of it. Treat everything in this section as intent, not as a feature list you can play today.
 
 | Phase | Focus | What Paper Cult actually said |
 |-------|-------|-------------------------------|
@@ -220,7 +296,7 @@ If a future update moves unlock gates again, we'll flag it here the day it lands
 
 Paper Cult has published a **phased** roadmap — Phase 1 stability, Phase 2 system reworks, Phase 3 content — but **no dates and no version numbers**, and announcements otherwise come through patch notes and Steam news. What the community is watching for:
 
-| Watch item | Status as of September 12, 2026 |
+| Watch item | Status as of September 17, 2026 |
 |------------|----------------------------------|
 | Next patch ("big push for stability") | Announced as the patch after v0.14.58630 — no date |
 | Mid-campaign saves | Confirmed in development — the single most-watched item; tied to the Phase 2 meta-progression rework |
