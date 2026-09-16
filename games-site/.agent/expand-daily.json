@@ -7,27 +7,32 @@
     {
       "site": "sephiriawiki",
       "pv": 11110,
-      "lastExpanded": "2026-09-16"
+      "lastExpanded": "2026-09-17",
+      "lastProduced": "photosensitivity-flashing-effects-guide (1,499w)"
     },
     {
       "site": "themoundwiki",
       "pv": 4916,
-      "lastExpanded": "2026-09-16"
+      "lastExpanded": "2026-09-17",
+      "lastProduced": "inventory-management-guide (1,195w)"
     },
     {
       "site": "spiritvalewiki",
       "pv": 4904,
-      "lastExpanded": "2026-09-16"
+      "lastExpanded": "2026-09-17",
+      "lastProduced": "dark-fortress-guide (1,447w prose) — 终结 6 连 SKIP"
     },
     {
       "site": "tearsofmetalwiki",
       "pv": 1837,
-      "lastExpanded": "2026-09-16"
+      "lastExpanded": "2026-09-17",
+      "lastProduced": "visual-clarity-guide (1,486w) + patch-notes 9/8 逐字补全"
     },
     {
       "site": "grainrotwiki",
       "pv": 1101,
-      "lastExpanded": "2026-09-16"
+      "lastExpanded": "2026-09-17",
+      "lastProduced": "spark-mode-guide (1,470w excl tables)"
     }
   ],
   "skips": [
@@ -157,5 +162,11 @@
       "caughtUpOn": "2026-09-16",
       "caughtUpResult": "名单内 5/5 全部补齐：sephiriawiki / themoundwiki / spiritvalewiki / tearsofmetalwiki / grainrotwiki 各 +1 篇，无 SKIP。"
     }
-  ]
+  ],
+  "lastRun": {
+    "date": "2026-09-17",
+    "produced": 5,
+    "skipped": 0,
+    "note": "名单内 5/5 全部产出，无 SKIP。"
+  }
 }
