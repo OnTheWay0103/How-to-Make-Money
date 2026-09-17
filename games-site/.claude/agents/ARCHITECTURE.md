@@ -134,7 +134,7 @@ QA Agent 在 Build Agent 完成后由 Coordinator 调度，以"第二双眼睛"�
 
 ### 3.1 🧠 主管 Agent (coordinator)
 
-**触发**: 每天 05:00（launchd 定时，每天 1 次）
+**触发**: 每天 05:00（launchd 定时，每天 1 次）—— ⏸️ **2026-09-17 起已暂停**，launchd job 已 bootout，仅人工显式调用时执行（恢复命令见 `.claude/skills/coordinator.md` 头部）
 
 **决策流程**:
 
