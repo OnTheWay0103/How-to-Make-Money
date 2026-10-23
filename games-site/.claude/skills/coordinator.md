@@ -7,9 +7,10 @@ description: 🧠 主管 Agent — 每天定时运行，读取状态、调度子
 
 > 多 Agent 架构的调度中心。每天 05:00 由 launchd 触发（2026-08-24 起每天 1 次；2026-09-02 由 07:07 调整为 05:00）。
 >
-> ⏸️ **定时任务已暂停（2026-09-17）** —— launchd job 已 `bootout`，每日 05:00 自动运行**不再触发**。
-> 暂停期间本 skill 仅在人工显式调用时执行；MUST NOT 假设每日扩充/建站仍在后台自动跑。
-> 恢复：`launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.games-site.auto-build-site.plist`
+> ▶️ **定时任务已恢复（2026-10-23）** —— launchd job `com.games-site.auto-build-site` 处于 loaded/enabled，
+> 每日 05:00 自动运行。2026-09-17 → 2026-10-23 期间因 API 余额不足（402）停跑，已恢复。
+> 检查：`launchctl list | grep games-site`；日志：`~/Library/Logs/auto-build-site/`。
+> 2026-10-23 起每日任务新增「新词探索」为必做项（见 `auto-build-site.sh` 的 CLAUDE_PROMPT）。
 > 
 > **核心职责**: 读取状态 → 决策 → 调度子 Agent → 汇总 → 提交
 >
