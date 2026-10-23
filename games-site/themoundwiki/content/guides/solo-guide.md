@@ -1,318 +1,231 @@
 ---
-title: "The Mound Solo Guide — Playing Alone in the Horror"
-description: "Complete solo play guide for The Mound: Omen of Cthulhu. AI companions, stealth fundamentals, resource and Sanity management alone, best solo loadouts, and extraction strategies that keep solo runs profitable."
+title: "The Mound Solo Guide — Playing Alone with One Unreliable Bot"
+description: "Honest solo guide for The Mound: Omen of Cthulhu. You get exactly one bot companion, you cannot turn it off, and it will not always revive you. What the developer confirms about single-player, what solo players report, and the fabricated companion commands, items and hallucination trick this page used to print."
 category: "Guides"
 version: "1.0"
-updated: "2026-08-10"
-keywords: ["themound solo", "themound solo guide", "themound play alone", "themound AI companion", "themound single player", "themound solo survival"]
+updated: "2026-09-17"
+keywords: ["themound solo", "themound solo guide", "themound play alone", "themound bot companion", "themound single player", "themound solo survival"]
 related: ["beginner-guide", "extraction-guide", "weapons-guide", "combat-survival-guide", "sanity-guide"]
 ---
 
-# The Mound Solo Guide — Playing Alone in the Horror
+# The Mound Solo Guide — Playing Alone with One Unreliable Bot
 
-> Launch Version / Updated: August 10, 2026
+> **Rewritten September 17, 2026.** This page previously described **1–3 configurable AI companions** with a ping-command menu (Follow / Hold / Attack / Retreat / Loot), a **~12-second AI revival** versus **~8 seconds** for a human, fabricated items ("Prayer Beads", "Healing Salves", "Purified Water", "Ancient Relic"), a fabricated location (*Isle of Voices*), a "Ghost Bat swarm", and a Sanity trick — *"Close your eyes for 3 seconds. Hallucinations despawn."* **All of it is unverified.** Solo play gives you exactly **one** bot, it cannot be switched off, and no source mentions closing your eyes or hallucinations despawning.
 
-**The Mound: Omen of Cthulhu** supports solo play, but it is a fundamentally different experience from team play. Without teammates to confirm hallucinations, cover your flanks, or revive you, every decision carries higher stakes. This guide covers everything you need to know to survive the New World alone — from stealth and resource discipline to knowing exactly when to leave.
-
----
-
-## The Four Pillars of Solo Survival
-
-| Pillar | Priority | Why It Matters |
-|--------|----------|----------------|
-| **Stealth** | Highest | Avoid fights you cannot win — detection is death |
-| **Resource Management** | High | Solo loot economy is unforgiving; waste nothing |
-| **Sanity Maintenance** | High | Low Sanity kills more solo players than enemies |
-| **Extraction Planning** | Critical | Know your exit before you enter |
+Solo is supported in **The Mound: Omen of Cthulhu** — but "supported" is doing careful work in that sentence. You do not get a squad. You get one companion who is not fully under your control, and the developer's own patch notes describe the relationship in terms of *gestures* rather than commands.
 
 ---
 
-## AI Companion System
+## The bot companion — what is actually documented
 
-When playing solo, the game provides AI-controlled companions to assist you.
+There is exactly **one** official statement about single-player companions in all 39 announcements, from the "What's new since the demo?" update:
 
-### AI Companion Overview
+> *"**Single Player:** New gestures to command your bot companion to switch between silent weapons and a rifle - more effective but noisier."*
 
-| Aspect | Detail |
-|--------|--------|
-| **Number** | 1-3 AI companions, configurable before deployment |
-| **Behavior** | Follow, engage, or hold position (basic commands) |
-| **Combat** | Will fight enemies but not as effectively as human players |
-| **Sanity** | AI companions do not have a Sanity meter |
-| **Revival** | AI can revive you, but slower than a human player |
-| **Limitations** | Cannot use tools (Medallion, Mask, Ox Cart management) |
-| **Communication** | No voice chat — ping commands only |
+Read it closely, because every word matters:
 
-### AI Companion Commands
+| The developer's wording | What it actually tells you |
+|-------------------------|----------------------------|
+| *"your **bot** companion"* — singular | **One** companion. Not a configurable squad. |
+| *"**gestures**"* | You do not have a command menu. You have gestures. |
+| *"to switch between **silent weapons and a rifle**"* | The one thing you can influence is its weapon mode — and the trade is explicit: the rifle is *"more effective but noisier"*. |
+| Added in a **post-demo patch** | Gesture control was **added later**. It did not ship at launch. |
 
-| Command | How to Issue | AI Response |
-|---------|-------------|-------------|
-| Follow | Ping "Follow" on yourself | AI moves to your position and follows |
-| Hold | Ping ground location | AI stays at that position |
-| Attack | Ping an enemy | AI engages the target |
-| Retreat | Ping "Retreat" | AI falls back to your position |
-| Loot | Ping a container | AI will loot the container (slowly) |
+That is the complete official surface. Everything else you read about the bot — including on this page — is player testimony.
 
-### AI Companion Limitations to Know
+### What solo players report about the bot
 
-- **AI does not scout ahead.** You are the Point Man and everything else.
-- **AI does not manage loot.** You must handle the Ox Cart and inventory yourself.
-- **AI attracts attention.** An AI companion walking through a zone can draw enemy patrols.
-- **AI cannot confirm hallucinations.** This is the single biggest solo disadvantage.
-- **AI revival is ~12 seconds** (vs ~8 seconds for human revival).
+This is where the real picture is, and it is not flattering. The most-upvoted account (1,230 upvotes) describes behaviour the developer has never documented:
+
+| Reported behaviour | Why it matters solo |
+|--------------------|---------------------|
+| *"Sometimes he won't revive you because he doesn't feel like it."* | **You cannot rely on the bot for revival.** This is the single most important fact about solo play. |
+| *"He will not carry things like deer back to the wagon, but he has a special obsession with firewood... He prioritizes firewood over anything else, including you."* | Do not plan around the bot hauling loot. |
+| *"you are losing sanity much faster as you are alone"* | Solo Sanity drain is genuinely worse — players report it, and it is the reason solo feels different. |
+| *"unlock progress seems to be limited to whoever is hosting"* | Relevant if you later move to co-op — see the [Contracts Guide](/guides/contracts-guide). |
+
+And the blunt version, from another review:
+
+> *"If you are anything like me and like playing solo be warned. **The bot can't be turned off** and is USELESS. I have never seen a CPU so loud and careless. He even hits me if there is a creature between us."*
+
+> *"Wish the devs would add the ability to take more than 1 bot with you in solo."* — a third reviewer, confirming the count is one.
+
+### The corrected companion picture
+
+| Aspect | Honest answer |
+|--------|---------------|
+| How many companions? | **One.** |
+| Can you turn it off? | **No** — reported by players, and the developer offers no opt-out. |
+| Can you command it? | Only to switch weapon modes, via gestures (patch-confirmed). No Follow/Hold/Attack menu exists. |
+| Will it revive you? | **Sometimes.** Not reliably. |
+| Will it carry loot? | **No** — it collects firewood instead. |
+| Does it have a Sanity meter? | Unverified. No source addresses this. |
+| Is it stealthy? | **No.** Reviewers describe it as loud and careless, which is directly counter to how solo play is supposed to work. |
+
+> **Plan accordingly:** the bot is a liability you manage, not a teammate you deploy. Treat every solo run as if you are alone, because in the moments that matter, you are.
 
 ---
 
-## Solo vs Co-op Difficulty Comparison
+## Solo is a different game
 
-| Factor | Solo | Co-op (4 Players) | Why It Differs |
-|--------|------|-------------------|----------------|
-| Enemy density | Reduced | Full spawn rate | Fewer players = fewer agro triggers |
-| Enemy health | Standard | Scaled up slightly | Primarily spawn-based scaling |
-| Sanity management | Harder | Easier | No one to confirm hallucinations |
-| Loot competition | None | Shared | All loot is yours |
-| Ox Cart utility | Limited | Shared workload | You manage it alone |
-| Extraction danger | Higher | Lower | No one to cover your extraction wait |
-| Death penalty | Permanent (no AI can replace you) | Revivable | Solo death ends the expedition |
+| Factor | Solo | Co-op (up to 4) | Basis |
+|--------|------|-----------------|-------|
+| **Revives** | Effectively none — the bot may decline | Human teammates can revive you | Player-reported |
+| **Sanity drain** | **Faster** | Shared load | Player-reported, corroborated |
+| **Hallucination checks** | No one to confirm what is real | Voice chat resolves it | Official: hallucinations are *"designed to break your team's communication"* |
+| **Noise discipline** | Easier — one person makes less noise | Harder — four people make more | Official: the forest escalates on noise |
+| **Loot** | All yours | Shared | — |
+| **Corruption spiral** | Fatal — no one revives you, so you simply die | A downed teammate becomes an undead hostile if not revived | Official, see below |
+
+That last row is the real solo killer, and it is officially documented:
+
+> *"If a teammate dies and isn't promptly revived, they will become corrupted, returning as an undead hostile to hunt down the rest of the squad."*
+
+Solo, that mechanic does not produce an undead hunting your squad — it produces a dead run.
 
 ---
 
-## Stealth — Your Primary Defense
+## Stealth — your primary defence
 
-Without teammates to draw aggro or cover your flanks, stealth is your most important survival tool.
+Without a reliable teammate, avoiding fights is not a preference; it is the entire strategy.
 
-### Stealth Fundamentals
+| Mechanic | What to do | Basis |
+|----------|-----------|-------|
+| **Crouch** | Default movement near enemies. | Consensus technique. |
+| **Light** | Carry light for the dark, but understand the trade: *"Light can briefly blind Y'm-bhi in darkness **unless they carry light of their own**."* | Official Y'm-bhi post. |
+| **Noise** | Firearms are the loudest thing you can do. Rain disables them — which is a stealth opportunity, not just a handicap. | Official: soaked fuses. |
+| **The Tue Tue** | Do not throw anything near it. Its scream is *"the kind of noise that tells every creature in the area exactly where you are"*. | Official Tue Tue post. |
+| **Sightlines** | Break them, then hold still. Y'm-bhi *"may enter a pursuit state, becoming slightly faster than you"* — you cannot outrun them. | Official Y'm-bhi post. |
 
-| Mechanic | Detail |
-|----------|--------|
-| **Crouch** | Reduces your detection range significantly — use it as your default movement |
-| **Light sources** | Torches and lanterns increase detection range. Turn them off when near enemies. |
-| **Movement speed** | Walking is silent. Running is audible from a distance; sprinting from much farther. |
-| **Noise sources** | Gunfire carries the farthest, then melee, opening chests, and river wading |
-| **Enemy vision** | Y'm-bhi have a wide vision cone during the day and poor night vision |
-
-### Solo Stealth Priority
+### Solo stealth priority
 
 | Situation | Action |
 |-----------|--------|
-| You hear enemy patrol sounds | Crouch, stop moving, locate the source |
-| Enemy is far away (30m+) | Circle around (wide berth) |
-| Enemy is mid-distance (15-30m) | Hide behind terrain, wait for patrol to pass |
-| Enemy is close (<15m) | Do not move. Wait. They may pass without detecting you. |
-| Enemy has detected you | Run to the nearest obstacle that breaks line-of-sight, then hide and wait ~30s |
-
-### The Solo Stealth Route
-
-1. **Spawn → first cover**: Move immediately to dense foliage or rock cover within 10s of spawning
-2. **Initial scan**: Wait 15s in cover. Listen for patrol sounds. Identify nearest enemy positions.
-3. **Route planning**: Plot a path that uses terrain (trees, rocks, ruins) to break line-of-sight
-4. **Objectives**: Complete contract objectives only if they are on your extraction route
-5. **Extraction**: Move to extraction point using the least-traveled path — even if it takes twice as long
+| You hear a patrol | Stop. Crouch. Locate it before you move again. |
+| Enemy is unaware and distant | Circle wide. Do not test the detection range. |
+| Enemy is probing you (watching, not attacking) | **Leave during the probe.** It is still deciding. |
+| Enemy is committed and charging | Break line of sight and hold still. Do not sprint — it is faster than you. |
+| Enemy is a Y'm-bhi holding a lamp | Do not rely on blinding it. Expect fire. |
 
 ---
 
-## Best Solo Loadout
+## Loadout — you do not choose it
 
-Solo play demands a loadout that is self-sufficient, silent, and allows for quick escapes.
+The most important solo loadout fact is not which weapon is best. It is this, from the developer's own description of a contract:
 
-### Recommended Loadout
+> *"Each contract comes with a selection of equipment for your party — a handful of weapons, a few precious supplies, a single lamp against the oppressive dark. These are not individual loadouts; they are a shared arsenal."*
 
-| Slot | Item | Why |
-|------|------|-----|
-| Primary Weapon | Crossbow | Silent, rain-proof, retrievable ammo |
-| Secondary Weapon | Flintlock Pistol | Reliable backup for emergencies |
-| Melee | Machete | Silent, infinite use, backstab capability |
-| Tool 1 | Oil Lamp | Essential for caves, stuns enemies |
-| Tool 2 | Medallion | Detects loot, marks positions |
-| Consumable | Healing Salves x3 | Health and Sanity recovery — use below 50% HP |
-| Consumable | Prayer Beads x2 | Sanity recovery for critical moments |
-| Consumable | Extra Oil | Lamp fuel is life |
+Solo, the "shared arsenal" is simply **your arsenal** — which sounds like an advantage and is partly a trap: if the contract gives you no silent ranged option, you do not get to swap one in. Pick your contract with your loadout in mind, not the other way round.
 
-### Why This Loadout Works
+| Priority | What to look for | Why |
+|----------|------------------|-----|
+| 1 | **A silent ranged option** (Crossbow if offered) | The only way to remove a threat without raising the forest. |
+| 2 | **A melee fallback** (Machete) | No ammo, no weather dependency, works when firearms will not. |
+| 3 | **A light source** (Oil Lamp preferred — it is rain-proof; torches flicker) | Dark zones and Sanity. |
+| 4 | **A Rifle / Matchlock**, if the bot can carry one | The patch note explicitly frames the rifle mode as *"more effective but noisier"* — useful, but it costs you quiet. |
 
-- **Maximum stealth:** Crossbow + Machete = no noise. You never need to fire a gun.
-- **Self-sufficiency:** Healing items cover both HP and Sanity.
-- **Loot efficiency:** Medallion ensures you find the best loot fast, since every trip counts more solo.
-- **Escape power:** Oil Lamp stuns pursuers, Crossbow picks off chasers.
+> **Not in the game:** "Prayer Beads", "Healing Salves" and "Purified Water". All three return **0 hits** in 39 announcements and 576 reviews. The healing item players actually name is **bandages** — and one 50-upvote review's central complaint is that the bandages live in the ox cart while you are bleeding somewhere else. Keep the cart near you, or carry what you need.
 
 ---
 
-## Resource Management
+## Sanity — what is real, and the trick that is not
 
-Solo players must be ruthless about resource efficiency. You have no one to share inventory with and no one to carry extra supplies.
+Sanity is officially a combat resource:
 
-### Resources to Prioritize
+> *"Taking damage drains your sanity, causing reality to warp around you. You will experience hallucinations designed to break your team's communication, hide deadly traps, and even make your allies look like terrifying monsters."*
 
-| Resource | Priority | Use |
-|----------|----------|-----|
-| Herbs (all types) | High | Craft healing salves and sanity restoratives |
-| Ammo (crossbow bolts) | High | Ammo is scarce in solo — every shot counts |
-| Purified Water | Medium | Sanity restoration, healing base |
-| Ancient Relics | Medium | High sell value, but weigh a lot |
-| Lore Pages | Low (solo) | Useful for story but no survival benefit |
+Solo, you lose the thing the system is designed to attack: *"your team's communication"*. There is no one to ask whether the figure at the treeline is your friend.
 
-### Resource Conservation Rules
+### The claim that has been removed
 
-- **Do not engage groups larger than 2 enemies** — the resource cost is never worth it
-- **Harvest only what you need** — ~10 herbs is a full expedition supply
-- **Repair gear between expeditions**, not during — carrying repair kits wastes inventory space
-- **Drop low-value loot** to make room for high-value items (see our [Extraction Guide](/guides/extraction-guide) for loot value tiers)
+The previous version of this page advised: *"No one to confirm hallucinations → Close your eyes for 3 seconds. Hallucinations despawn. Real enemies stay."*
 
----
+**This is not supported by anything.** Verifying it:
 
-## Sanity Maintenance
+| Query | News hits | Review hits |
+|-------|-----------|-------------|
+| `despawn` | **0** (39 announcements) | **1** (576 reviews) |
+| `close your eyes`, `blink`, `eyes closed` | **0** | **1** — and that hit is the idiom *"in the blink of an eye"*, unrelated |
 
-Sanity management is arguably harder solo because no one can confirm hallucinations for you.
+The single `despawn` review hit is a **bug report** about enemies *"glitch[ing] out or despawn"* during network problems — the opposite of a reliable mechanic. There is no documented way to dismiss a hallucination.
 
-### Solo Sanity Tips
+**What you can actually do instead:**
 
-| Challenge | Solo Solution |
+| Situation | Honest advice |
 |-----------|---------------|
-| No one to confirm hallucinations | Close your eyes for 3 seconds. Hallucinations despawn. Real enemies stay. |
-| Faster Sanity drain | Sanity drains faster solo. Bring extra Prayer Beads. |
-| Losing the way out | Hallucinations corrupt your sense of direction. Navigate by the Ox Wagon's trail to the shore, not by memory. |
-| Auditory hallucinations | You hear whispers, footsteps, or gunfire that is not real. Ignore all audio cues at low Sanity. |
+| You cannot tell if a figure is real | Use **voice** — this is what the system is designed to defeat, and in solo you are the only check. If you have no voice channel, treat unknown figures as real and disengage. |
+| Sanity is draining fast | **Leave.** You cannot out-sustain it solo; players report solo drain is faster. |
+| The environment is lying to you | Navigate by landmarks you noted on the way in, not by the terrain in front of you. |
+| You need to know where you stand | One reviewer's complaint is exactly this: *"Some indication of which way the sanity meter is moving. Right now it's unclear whether sitting by the cart is doing anything at all."* **The game does not give you a clear Sanity reading.** Do not expect a gauge. |
 
-### Sanity Management Priority
-
-| Sanity Level | Action |
-|-------------|--------|
-| **100-60% (Stage 1)** | Normal gameplay. Minor visual distortion — ignore it. |
-| **60-25% (Stage 2)** | Use Prayer Beads. Hallucinations begin. Do not trust what you see. |
-| **Below 25% (Stage 3)** | Extract immediately. You are at a severe disadvantage. |
-
-### Sanity Restoration Methods
-
-| Method | Sanity Restored | Resource Cost | Solo Viability |
-|--------|----------------|---------------|----------------|
-| Prayer Beads | High | Crafted / found | Best option — carry 2 minimum |
-| Campfire (rest) | Moderate | 3 Wood | Good — find or build a campfire |
-| Shrine offering | Large | 1 Ancient Relic | Viable if you have spare relics |
-| Completing contract objective | Small | None (objective-based) | Always worth doing |
-| Extracting | Full restore | None | End-of-run refresh |
+> **On the ox cart and Sanity:** the previous version of this page claimed *"Staying near the wagon reduces insanity; its white paint trail guides you back to extraction."* Neither is sourced — `white paint` returns 0 hits in both corpora, and the reviewer above explicitly says it is unclear whether sitting by the cart does anything. The cart is a mobile supply cache; treat it as nothing more. A reviewer notes you can *"walk back safely instead and just extract without the wagon there"*.
 
 ---
 
-## Solo Strategy Guide
+## Resource management
 
-### Phase 1: Approach
-- Use crouch movement at all times
-- Watch patrol routes for 30 seconds before moving
-- Mark enemy positions using Medallion pings
-- Let AI companions hang back (hold position) while you scout
+Solo, everything you spend is your own.
 
-### Phase 2: Engagement
-- Backstab is your best friend. Wait for patrol openings.
-- Use Crossbow for ranged picks — one bolt, one kill
-- If you must engage multiple enemies, use the Oil Lamp to stun one while you kill the other
-- Do not let enemies get close enough to trigger the tentacle grab
-
-### Phase 3: Looting
-- Medallion ping to find chests
-- Loot fast — every second solo counts more
-- Prioritize high-value items over filling all 6 slots
-- Use the Ox Cart as a mid-point stash, but do not go deep for it
-
-### Phase 4: Extraction
-- Start heading to extraction at the FIRST wind shift (not the second)
-- You cannot afford to fight through a "Forest Awakened" swarm alone
-- Use Mask of Nyarlathotep (if you brought one) to walk through the final patrols
-- On the walk out, keep to cover and move in short bounds — do not cross open ground alone
-- Keep your Oil Lamp on for the final stretch — the light is the only thing that reliably keeps the dark at arm's length
+- **Bandages are the priority consumable.** Bleeding is real and bandages are the documented answer — one review's extended complaint is bleeding out while the bandages sat in the cart.
+- **Do not engage groups.** With no reliable revive, a two-enemy fight is a coin flip and a three-enemy fight is a loss.
+- **Loot what you need, then leave.** *"Don't be afraid to leave a level early and without your treasure goal if you picked up a survivor/idol/logbook"* — the Logbook is the one documented permanent unlock.
+- **Purchased items are mission-only.** *"you don't keep the items you bought to bring in... it's for the one expedition you bought it for and disappears when you get back."* Do not buy gear expecting to keep it.
 
 ---
 
-## Solo Extraction Planning
+## Extraction
 
-Extraction in solo is harder than in co-op. The hidden timer ("The Forest Awakens") makes late-game escapes much more dangerous without a teammate covering your back.
+The documented escalation to plan around: the forest wakes up, and *"Enemies take longer to spawn when the forest wakes up"* (patch 1.01). Note the direction of that patch — the **gap between spawns grew**, it did not shrink. There is no forced end-of-mission timer: *"The mandatory hard cap at the end of missions has been removed: players can now remain on the mainland as long as they can survive."*
 
-### Solo Extraction Strategy
+Your run ends when you decide, or when you die. Solo, decide early.
 
-| Phase | Action |
-|-------|--------|
-| **Pre-drop** | Memorize 2-3 extraction point locations on your map before entering |
-| **Early (0-10 min)** | Loot edge areas. Do not go deep. Keep extraction route open. |
-| **Mid (10-20 min)** | If you have good loot, extract now. Most solo deaths happen late-run. |
-| **Late (20+ min)** | The Forest Awakens. Enemies respawn, become more aggressive, and new patrols appear. Extract at the nearest point immediately. |
-
-### When to Abandon
+### When to abandon
 
 | Signal | Action |
 |--------|--------|
-| Below 50% HP with no Healing Salve | Abandon objective. Extract now. |
-| Sanity below 25% | Abandon everything. Extract now. |
-| More than 3 enemies between you and objective | Not worth fighting through. Extract with what you have. |
-| You hear gunfire near your extraction point | Wait a couple of minutes or find a different extraction point |
-| Inventory full of high-value loot | Extract immediately — a full bag is worth more than a death bag |
-
-### Solo Extraction Priority
-
-1. **Full inventory of useful loot?** → Extract
-2. **Contract completed?** → Extract
-3. **Sanity low?** → Extract
-4. **Heard The Forest Awakens?** → Extract at nearest point
-5. **Empty inventory, early in run?** → Keep looting for 5 more minutes, then extract
+| Bleeding with no bandage on you | Leave now. The bandages in the cart are not in your hands. |
+| You cannot identify a figure and have no voice check | Disengage and extract. |
+| More than two enemies between you and the objective | Not worth it solo. Extract with what you have. |
+| Full inventory of good loot | Extract. A full bag beats a death bag. |
+| The forest is awake and you have no silent weapon left | Extract. |
 
 ---
 
-## Solo-Specific Threats
+## What was removed from this page
 
-| Threat | Why Worse Solo | Mitigation |
-|--------|---------------|------------|
-| Hallucinations | No one to confirm | Assume everything is fake until proven real. Double-check with map. |
-| Tentacle Grab | No one to free you | Stay at range. Crossbow keeps distance. |
-| Self-immolating Berserker | No one to draw aggro | Run perpendicular. Do not attempt to fight. |
-| Ghost Bat swarm | Limited fire coverage | Oil Lamp flash kills them instantly. |
-| Ox Cart ambush | Cannot guard and loot simultaneously | Only use the cart as a drop-off point, not a mobile base. |
+| Removed claim | Query | News | Reviews |
+|---------------|-------|------|---------|
+| "1–3 AI companions, configurable before deployment" | `companion` | 1 (says *one*, *"your bot companion"*) | Players confirm **one** |
+| Ping-command menu: Follow / Hold / Attack / Retreat / Loot | — | 0 | 0. The real mechanic is *gestures* to switch weapon mode. |
+| "AI revival is ~12 seconds (vs ~8 seconds for human)" | `12 seconds` | 0 | 0 |
+| "AI companions do not have a Sanity meter" | `Sanity meter` | 0 | 0 |
+| "Close your eyes for 3 seconds. Hallucinations despawn." | `despawn` | **0** | **1**, and it is a bug report |
+| "Prayer Beads" (Sanity restorative) | `Prayer Beads` | **0** | **0** |
+| "Healing Salves x3" | `Healing Salve` | **0** | **0** |
+| "Purified Water" | `Purified Water` | **0** | **0** |
+| "Campfire (rest) — 3 Wood", "Shrine offering — 1 Ancient Relic" | `Campfire`, `Ancient Relic` | **0** | **0** |
+| "Ghost Bat swarm" | `Ghost Bat` | **0** | **0** |
+| "Self-immolating Berserker" | `Berserker` | **0** | **0** — the real mechanic is a Y'm-bhi with an oil lamp setting itself ablaze (official) |
+| "Isle of Voices" as a solo training ground | `Isle of Voices` | **0** | **0** |
+| "Navigate by the Ox Wagon's white paint trail" | `white paint` | **0** | **0** |
 
----
+**Kept and corrected:** the bot exists (official), you can gesture it between silent weapons and a rifle (official), it is singular (official wording), and it is unreliable (heavily corroborated player testimony).
 
-## Solo Survival Quick Reference — Do's and Don'ts
+### Method
 
-| Do | Don't |
-|----|-------|
-| Crouch as your default movement | Sprint through open areas |
-| Carry 2 Prayer Beads minimum | Engage groups of 3+ enemies |
-| Memorize extraction points | Go deep without a clear exit plan |
-| Abandon fights that take too long | Waste resources on optional enemies |
-| Use the environment for cover | Stay in one position for more than 5 minutes |
-| Extract with good loot early | Push deeper just because you are still alive |
+1. `/tmp/mound_news.txt` — complete Steam news for appid `2569760`, split on `^===== ` → **39 blocks**. The four add-on appids (`4630450`, `4630440`, `4630460`, `4925780`) each have **0 news items**; no separate demo or playtest appid exists.
+2. `/tmp/mrev/reviews.txt` — **576 unique reviews**, split on `^=== `.
 
----
+Query form: case-insensitive regex, hit count plus ±120 characters of context, **every hit read in context**. The context pass is what caught the two traps on this page: `despawn`'s single review hit is a networking bug report rather than a mechanic, and `companion`'s single official hit says *"your bot companion"* — singular — which contradicts the "1–3 companions" claim the page used to make.
 
-## When to Choose Solo vs Co-op
-
-| You Should Play Solo If | You Should Play Co-op If |
-|------------------------|-------------------------|
-| You want to learn the map at your own pace | You want to progress faster |
-| You enjoy stealth-focused gameplay | You enjoy combat-heavy runs |
-| You have limited time for short sessions | You have 2+ hours for a full session |
-| You struggle with spatial voice chat | You have friends with mics |
-| You want all the loot for yourself | You want safety in numbers |
+**Evidence-strength note:** companion behaviour is the hardest thing to source in this game. The developer has published **one line** about it. Everything else here is player testimony, labelled as such, and no revival timings, Sanity rates or loot values are quoted because none can be reproduced.
 
 ---
 
-## Solo Progression Tips
+## Related Guides
 
-1. **Start with Reconnaissance contracts.** They have lower enemy density and teach you the map.
-2. **Do not attempt Hard contracts solo until you have plenty of experience** — 20+ hours is a good rule of thumb.
-3. **Always bring an Oil Lamp.** Caves and night zones are deadly without it.
-4. **You cannot carry everything.** Learn to prioritize: Rare Items > Currency > Materials > Common Items.
-5. **The first extraction is the hardest.** Once you successfully extract once, the anxiety diminishes.
-6. **AI companions are meat shields first, helpers second.** Do not rely on them for combat results.
-
-| Stage | Hours Played | Focus | Goal |
-|-------|-------------|-------|------|
-| New Solo | 0-10 | Learn stealth routes on Isle of Voices | Extract reliably, most runs |
-| Competent Solo | 10-30 | Resource management + Sanity discipline | Complete contracts solo |
-| Veteran Solo | 30+ | Speed + efficiency | Farm high-value loot efficiently |
-
----
-
-### Related Guides
-
-- [Beginner's Guide](/guides/beginner-guide) — Core mechanics for new solo players
-- [Extraction Guide](/guides/extraction-guide) — Critical extraction how-to for solo runs
-- [Weapons Guide](/guides/weapons-guide) — Solo-friendly weapon recommendations
-- [Combat & Survival Guide](/guides/combat-survival-guide) — Blocking, parrying and staying alive
-- [Sanity Guide](/guides/sanity-guide) — Surviving the madness alone
+- [Beginner's Guide](/guides/beginner-guide) — Core mechanics before you go in alone
+- [Extraction Guide](/guides/extraction-guide) — The escalation state and getting out
+- [Weapons Guide](/guides/weapons-guide) — What the contract is likely to hand you
+- [Combat & Survival Guide](/guides/combat-survival-guide) — The block, and why you cannot parry or dodge
+- [Sanity Guide](/guides/sanity-guide) — Hallucinations, doppelgängers and the missing gauge

@@ -150,7 +150,7 @@ The **Mask of Nyarlathotep** is a powerful tool that allows you to blend in with
 | Need to cross an open area | Yes — but warn teammates first |
 | Sanity is already low | No — danger of critical Sanity |
 | Escaping to extraction | Yes — last resort |
-| Boss or legendary-hunt fight | Yes — but unequip immediately after; the continuous drain adds up |
+| A hard contract with an elite spawn | Yes — but unequip immediately after; the continuous drain adds up |
 
 ### Mask Safety Rules
 1. **Verbally announce** "Mask on" to your team every time you activate it
@@ -162,12 +162,14 @@ The **Mask of Nyarlathotep** is a powerful tool that allows you to blend in with
 
 ## Sanity Restoration Items
 
-| Item | Sanity Restored | Rarity | Notes |
-|------|----------------|--------|-------|
-| Healing Salve | Moderate | Common | Also restores HP |
-| Prayer Beads | High | Uncommon | One-time use, slow animation |
-| Holy Water | Very High | Rare | Cures all negative Sanity effects |
-| Galleon Rest | Full | Always at Hub | Free, available between expeditions |
+| Item | Rough effect | Notes |
+|------|--------------|-------|
+| Healing Salve | The larger heal | Also restores HP |
+| Prayer Beads | A big Sanity restore | One-time use, slow animation |
+| Holy Water | The emergency cure | Reported to clear active Sanity effects |
+| Rest on the Galleon | Full reset | Free, between expeditions |
+
+> **No exact values are published.** The old table on this page gave a confidence column ("Moderate / High / Very High / Full") and a rarity tier as though they were data. No official source states Sanity restore amounts or item rarities, so the numbers have been removed rather than replaced with different invented ones. The items themselves are player-reported.
 
 - **Prayer Beads are your 40% threshold item** — keep one ready for the extraction phase, which is the hardest part of any run.
 - **Holy Water is the emergency cure** — save it for when hallucinations are actively dangerous (fake extraction markers, teammates as monsters).
@@ -184,7 +186,7 @@ The **Mask of Nyarlathotep** is a powerful tool that allows you to blend in with
 4. **Silent squads.** The only defense against personal hallucinations is team confirmation — a quiet team dies to ghosts of its own making.
 5. **Failing to rest on the Galleon.** Starting at 60% Sanity is starting already in danger.
 
-**Nightmare Mode adjustments:** Nightmare difficulty (see the [Nightmare Mode Guide](/guides/nightmare-mode)) increases all drain rates and lowers hallucination confirmation windows — the two-rule protocol becomes a one-step team callout, and the Sanity officer role becomes mandatory, not optional.
+**There is no difficulty setting to adjust for.** This section used to describe "Nightmare Mode" increasing drain rates and shrinking hallucination windows. No such mode exists — `nightmare` appears once in all 39 official announcements and it is figurative (*"they're all leading to a new nightmare"*), and `modifier` appears zero times. The levers that really raise the pressure are the contract you accept and how long you stay on the mainland once the forest wakes up. See the [Difficulty Guide](/guides/nightmare-mode) for the full correction.
 
 ---
 
@@ -193,5 +195,6 @@ The **Mask of Nyarlathotep** is a powerful tool that allows you to blend in with
 - [Beginner's Guide](/guides/beginner-guide) — Common beginner sanity mistakes
 - [Enemy Bestiary](/guides/enemy-bestiary) — Which enemies drain sanity fastest
 - [Co-op Strategy Guide](/guides/coop-strategy-guide) — Team sanity management
-- [Perks Guide](/guides/perks-guide) — Sanity-related perks and builds
-- [Nightmare Mode Guide](/guides/nightmare-mode) — How Sanity rules change at high difficulty
+- [Perks & Progression](/guides/perks-guide) — what progression actually is (there is no perk tree)
+- [Difficulty Guide](/guides/nightmare-mode) — why there is no Nightmare Mode, and what escalates instead
+- [Blood Moon Guide](/guides/blood-moon-guide) — what the red moon does to enemy pressure

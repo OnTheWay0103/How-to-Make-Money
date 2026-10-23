@@ -143,16 +143,18 @@ Before you even think about extracting, set yourself up for success:
 1. **Communicate with your team.** Call out enemy positions, obstacles, and your intended route. The spatial voice chat carries distance, so stay close enough to hear each other.
 2. **Use terrain to your advantage.** High ground gives you sightlines to approaching threats. Cliff edges funnel enemies into kill zones.
 3. **Save your sprint.** Running triggers the Sanity drain mechanic. Walk when possible and sprint only when enemies are in pursuit.
-4. **Drop non-essential loot.** If you are carrying too much weight, your movement speed decreases. Dump low-value items to maintain mobility.
+4. **Drop non-essential loot.** There is no published weight system, but your **slots** are finite and the wagon is your only overflow. Stash heavy treasure in the Ox Wagon as you pass it, and dump low-value items rather than arriving at the shore with no room for the haul.
 
 ### Dealing with Threats During Extraction
 
 | Threat | How to Handle |
 |--------|---------------|
 | Standard enemies | Kite them off the line of retreat, then loop back onto it |
-| Elite enemies | Use crowd control tools (Oil Lamp fire, traps) to buy time |
-| Boss aggro | One player kites the boss while the rest keep moving, then breaks line of sight and loops back |
+| Elite enemies | Use fire (Oil Lamp) and chokepoints to buy time; block instead of trying to dodge — there is no dodge |
+| Elite aggro | One player kites the elite while the rest keep moving, then breaks line of sight and loops back |
 | Forest Awakens | Stop looting and commit to the walk out — the longer you stay, the worse the spawns get |
+
+> **Fighting elites on the way out?** See the [Threat & Weakness Chart](/guides/boss-weakness-drops-chart) for what the developer does and does not confirm about the game's toughest enemies.
 
 ---
 

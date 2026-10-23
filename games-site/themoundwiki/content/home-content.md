@@ -28,10 +28,10 @@ The Mound: Omen of Cthulhu launched on July 15, 2026 on Steam, PS5, and Xbox Ser
 | [Blood Moon Guide](/guides/blood-moon-guide) | Why the moon turns red & enemy swarms | Intermediate |
 | [Sanity Guide](/guides/sanity-guide) | Madness system | Intermediate |
 | [Enemy Bestiary](/guides/enemy-bestiary) | Combat tactics | Intermediate |
-| [Maps & Locations Guide](/guides/maps-locations-guide) | Every island & loot route | Intermediate |
+| [Maps & Locations Guide](/guides/maps-locations-guide) | Navigation, landmarks & loot routes | Intermediate |
 | [Stealth Guide](/guides/stealth-guide) | Silent kills & detection | Intermediate |
 | [Weapon Durability & Repair Guide](/guides/weapon-durability-repair-guide) | Why weapons break & how to fix them | Starter |
-| [Money Guide](/guides/money-guide) | Earn Gyldenblood & Tokens | Intermediate |
+| [Money Guide](/guides/money-guide) | Coins, tokens & the occult shop | Intermediate |
 | [Contracts Guide](/guides/contracts-guide) | Mission types | Intermediate |
 | [Ox Cart Guide](/guides/ox-cart-guide) | Why the cart wanders & how to control it | Intermediate |
 | [Controls & Settings Guide](/guides/controls-settings-guide) | PC/PS5/Xbox setup | Starter |
@@ -48,7 +48,7 @@ The Mound: Omen of Cthulhu launched on July 15, 2026 on Steam, PS5, and Xbox Ser
 ## Featured Guides
 
 ### Weapons Guide
-Master all 6 weapons — Crossbow, Flintlock Pistol, Matchlock Arquebus, and more. Best loadouts for every situation. [Read the full guide →](/guides/weapons-guide)
+Every weapon a contract can issue — Crossbow, Matchlock Arquebus, Francesca Axe, Machete, pole weapons and the Oil Lamp — and how to use each. [Read the full guide →](/guides/weapons-guide)
 
 ### Sanity System
 Understand the madness meter, hallucinations, and how to keep your crew sane in the New World. [Full sanity guide →](/guides/sanity-guide)
@@ -71,7 +71,7 @@ The game combines extraction-shooter tension with psychological horror. Your San
 
 ## Key Systems at a Glance
 
-- **6 Weapons** — Crossbow, Flintlock Pistol, Matchlock Arquebus, Oil Lamp, Medallion, Healing Salves
+- **Shared weapon rack** — each contract issues the party "a handful of weapons … a shared arsenal". Named by the developer: Crossbow, Matchlock Arquebus, Francesca Axe, Machete, pole weapons, and the Oil Lamp (plus torch/lantern as light sources). The Medallion is a **support item**, not a weapon
 - **Sanity System** — Hallucinations, spatial voice distortion, sanity-restoring items
 - **Contract Board** — Mission types with varying objectives, difficulty, and risk levels
 - **Extraction Loop** — Deploy → Loot → Survive → Extract (lose everything if you fail)

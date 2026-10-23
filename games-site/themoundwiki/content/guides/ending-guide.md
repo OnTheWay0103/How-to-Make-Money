@@ -1,232 +1,173 @@
 ---
-title: "The Mound Ending Guide — All Endings and How to Get Them"
-description: "Complete ending guide for The Mound: Omen of Cthulhu. All 3 endings, requirements, decision points, and walkthrough for each ending path. How to unlock the secret ending and what happens in each finale."
+title: "The Mound Ending Guide — What Actually Happens and Why There Is Only One"
+description: "Honest ending guide for The Mound: Omen of Cthulhu. There is no three-ending system, no Reputation gate and no final boss. What the developer has said about the finale, what the last mission actually involves, what players say about the ending, and the full list of fabricated ending claims removed from this page."
 category: "Guides"
 version: "1.0"
-updated: "2026-07-27"
-keywords: ["themound ending", "themound endings guide", "themound how to get ending", "themound ending requirements", "themound secret ending", "themound story ending", "themound final boss", "themound true ending"]
+updated: "2026-09-17"
+keywords: ["themound ending", "themound ending explained", "themound how does it end", "themound final mission", "themound story ending", "themound zamacona", "themound temple of yig"]
 related: ["walkthrough-guide", "contracts-guide", "enemy-bestiary", "faq-content", "game-length-guide"]
 ---
 
-# The Mound Ending Guide — All Endings and How to Get Them
+# The Mound Ending Guide — What Actually Happens and Why There Is Only One
 
-> **Launch Version / Updated: July 27, 2026**
+> **Rewritten September 17, 2026.** The previous version of this page described three endings ("The Escape", "The Containment", "The Revelation"), gated behind **8,000** and **12,000 Faction Reputation**, unlocked by defeating the **High Priest of Cthulhu**, with New Game+ bonuses, a **Corrupted Key**, a **Legendary Amulet**, 12 numbered Lore Page locations and per-ending achievement values. **None of it exists.** "Reputation" returns 0 hits in all 39 official announcements and all 576 Steam reviews. "High Priest" returns 0 hits in both. There is no ending-selection system in this game. This page now says so, and explains what is actually there.
 
-**The Mound: Omen of Cthulhu** has 3 distinct endings, each determined by choices you make throughout the story. Your ending is decided by a combination of your Faction reputation, key item collection, and a critical decision during the final boss encounter. This guide explains every ending, how to achieve it, and what you need to know before making your choice.
-
-**Spoiler Warning**: This guide contains major story spoilers for all 3 endings. Read at your own risk.
+This is a shorter guide than the one it replaces, because the truth is shorter than the fiction. What follows is everything that can be sourced about how **The Mound: Omen of Cthulhu** ends — and a clear account of why the honest answer is "there is one ending, and players have opinions about it".
 
 ---
 
-## Ending Overview
+## The short version
 
-| Ending | Name | Difficulty | Requirements | Reward |
-|--------|------|------------|-------------|--------|
-| Ending A | "The Escape" | Easy | Minimum story completion | Title: "Survivor" |
-| Ending B | "The Containment" | Medium | Faction reputation 8,000+ | Title: "The Warden" + Unique Machete Skin |
-| Ending C (True) | "The Revelation" | Hard | All all Lore Pages + Faction rep 12,000 | Title: "Truthseeker" + Legendary Amulet + Secret Cutscene |
-
----
-
-## How Endings Are Determined
-
-Your ending is locked in during the final expedition to The Mound interior. Three factors are evaluated:
-
-| Factor | Weight | How to Influence |
-|--------|--------|------------------|
-| **Faction Reputation** | High | Complete Faction Contracts throughout the game |
-| **Lore Pages Collected** | Medium | Find hidden Lore Pages in each region |
-| **Final Boss Decision** | Critical | The choice you make after defeating the High Priest |
-
-The game evaluates these three factors and assigns the highest ending you qualify for. If you meet the requirements for Ending C, you get Ending C. Otherwise, it checks Ending B, then defaults to Ending A.
+| Question | Honest answer | Basis |
+|----------|---------------|-------|
+| How many endings are there? | **One.** No source describes an ending-selection system. | Zero hits for "ending" choices, "Reputation" thresholds or branch flags across 39 announcements. |
+| Is there a final boss? | **No boss is named or referred to in any official material.** "boss" returns **0 hits in all 39 announcements**. | See the reverse-evidence note below — players *ask* for bosses, which means there were none to fight. |
+| Can I unlock a "true ending"? | No. There is no true ending, no secret ending and no post-credits unlock documented anywhere. | — |
+| Does New Game+ exist? | **No.** `New Game+` returns 0 hits in both corpora. | — |
+| Is the ending influenced by Reputation? | **No such system exists.** | `Reputation` = 0 news hits, 0 review hits. |
+| What actually ends the game? | The final mission: *"entering the mound"*. | Review and official patch language both use this framing. |
 
 ---
 
-## Ending A: "The Escape"
+## What the developer has actually said about the ending
 
-**Requirements**: None — this is the default ending.
+There is exactly **one** official statement about the ending in the entire 39-post announcement corpus, and it is a patch note. From the "What's new since the demo?" update:
 
-### How to Get It
+> *"Prologue ending cinematic extended with additional narration."*
 
-Simply complete the main story questline:
-1. Complete the tutorial on Isle of Voices
-2. Complete Phase 1 contracts (reach 2,000 reputation)
-3. Complete Phase 2 contracts (reach 6,000 reputation)
-4. Complete Phase 3 contracts (reach 10,000 reputation)
-5. Defeat the High Priest of Cthulhu
-6. Choose to **escape** after the boss fight
+That is the complete official record. Note what it says: the **prologue's** ending cinematic was extended with narration. It is a content addition to a cinematic, not a statement about multiple endings — and it is the only time the word "ending" appears in official material.
 
-### What Happens
+There is also one spoiler-tagged mechanical fix in **patch 1.05**, which tells you something concrete about the finale's structure:
 
-After defeating the High Priest, a portal to the surface opens. You have a choice: enter the portal immediately or explore deeper. If you enter the portal, you escape the New World.
+> *"Fixed the [spoiler]orb from the Mound level not handling damage properly[/spoiler]"*
 
-**Epilogue**: You return to civilization, but the nightmares never stop. The entity's call still echoes in your mind. You are physically free, but spiritually bound. The closing shot shows you looking at the ocean, knowing something stirs beneath.
-
-### Ending Rewards
-
-| Reward | Details |
-|--------|---------|
-| Title | "Survivor" |
-| Cosmetic | None |
-| New Game+ | Unlocked |
-| Achievement | "Back to the Surface" (20G) |
-
-**Note**: Ending A locks you out of further exploration. Your save file is marked as "Completed (Ending A)" and you cannot continue with the same character. New Game+ is available.
+So the Mound level contains an **orb that can take damage**. The developer spoiler-tagged it, which is why this page keeps it vague. If you are looking for "the thing you interact with at the end", that is the only officially confirmed object, and the developer chose not to explain it.
 
 ---
 
-## Ending B: "The Containment"
+## The final mission, and a common mix-up
 
-**Requirements**:
-- 8,000+ Faction Reputation
-- Endgame decision: Choose to **seal the chamber** after defeating the High Priest
+Two different things get conflated constantly, including by the fabricated version of this page.
 
-### How to Get It
+| Mission | What it is | Source |
+|---------|------------|--------|
+| **The final mission** | *"entering the mound"*. Players place **Tulu Cylinders** in pedestals to open the passage. | Review 234975735: *"Then came the final mission, entering the mound. It was disappointing enough that we didn't actually have to place the Tulu Cylinders in the pedestals and open the passage ourselves"* |
+| **Temple of Yig Exclusive Mission** | A **free DLC side mission**, not the finale. *"Unearth ancient mysteries in a unique area of the cursed jungle."* Only the host needs to own it for the whole party to play. | Official "Pricing & Early Adopters Bonus" post and launch post. |
 
-1. Reach 8,000+ reputation before the final expedition
-2. Complete the High Priest boss fight
-3. When given the choice after the fight, select **"Seal the Chamber"**
-4. Complete the sealing ritual (defend the seal for 3 waves of Y'm-bhi)
-
-### What Happens
-
-Instead of escaping, you perform an ancient sealing ritual to contain the entity within The Mound. You know you cannot destroy it, but you can trap it again — for a time.
-
-The ritual costs you dearly. Using ancient artifacts found throughout your journey, you inscribe binding runes around the High Priest's chamber. As the seal closes, the Y'm-bhi launch a desperate attack — you must hold the line for 3 waves while the ritual completes.
-
-**Epilogue**: You emerge from The Mound changed. The entity is sealed, but the seal is not permanent. You establish a watch — a secret order dedicated to ensuring The Mound remains sealed. The final scene shows you placing a new lock on the entrance, knowing you bought humanity a few more years.
-
-### Unique Mechanics in This Ending
-
-| Phase | Encounter | Difficulty |
-|-------|-----------|------------|
-| Phase 1 | 4 Y'm-bhi Sentries + 1 Berserker | Medium |
-| Phase 2 | 6 Sentries + 2 Berserkers + 1 Wraith | Hard |
-| Phase 3 | 8 Sentries + 3 Berserkers + 2 Wraiths + 1 Priest | Very Hard |
-
-You have unlimited ammo during the sealing waves (supplied by the ritual), but your HP and Sanity carry over from the boss fight. Stock up before entering.
-
-### Ending Rewards
-
-| Reward | Details |
-|--------|---------|
-| Title | "The Warden" |
-| Cosmetic | Unique Machete Skin: "Seal-Bound Blade" (glows faint blue) |
-| New Game+ | Unlocked with bonus starting reputation (2,000) |
-| Achievement | "Eternal Vigil" (50G) |
+> **Why this matters:** "Temple of Yig" appears in an official announcement, which makes it look like the endgame. It is not. It is a free add-on mission with *"literally 0 story connection"* to the main plot, as one reviewer put it — and one reviewer notes its assets are **reused from the final mission**, so playing the DLC first spoils the finale's look.
 
 ---
 
-## Ending C: "The Revelation" (True Ending)
+## Zamacona — the one character worth knowing about
 
-**Requirements**:
-- All all Lore Pages collected
-- 12,000+ Faction Reputation
-- Endgame decision: Choose to **descend further** after defeating the High Priest
+**Pánfilo de Zamacona** is a real character and the clearest connection between the game and its source text. He is the narrator of **H.P. Lovecraft's 1922 novella "The Mound"**, which the developer quotes directly in its *"Lovecraft in the Age of..."* post:
 
-### How to Get It
+> *"Before that gulf Pánfilo de Zamacona and I stood side by side; just as Aristotle and I, or Cheops and I, might have stood."* — H.P. Lovecraft, *The Mound*
 
-This is the most complex ending and requires significant preparation.
+What the game does with him is confirmed by a high-vote player review:
 
-#### Step 1: Collect All all Lore Pages
+> *"Zamacona being alive at the end is cool, but the fact we can't see him on the ship or play as him is kind of sadge. And, I think more should be done with him, possibly in a DLC."* — Steam review, 449 upvotes
 
-Lore Pages are hidden throughout the game world. They provide background on the entity, the original Y'm-bhi expedition, and the nature of the corruption.
-
-| # | Location | Region | Notes |
-|---|----------|--------|-------|
-| 1 | Tutorial cave | Isle of Voices | Near the logbook, cannot be missed |
-| 2 | Ruined church altar | Isle of Voices | Behind the collapsed pew |
-| 3 | Catacombs entrance | Forest | On a skeleton at the gate |
-| 4 | Deep Catacombs shrine | Catacombs | On the altar, guarded by Centipede |
-| 5 | Sunken Grotto wreckage | Sunken Grotto | Inside the ship captain's cabin |
-| 6 | Sunken Grotto deep pool | Sunken Grotto | Underwater, requires 30s breath hold |
-| 7 | Forest hermit's hut | Forest (western edge) | On the desk, hidden under a floorboard |
-| 8 | Mound exterior | The Mound approach | In a dead Y'm-bhi's pack |
-| 9 | Mound interior — library | The Mound | On a reading lectern |
-| 10 | Mound interior — prison | The Mound | In a cell with a skeletal prisoner |
-| 11 | Secret cave behind waterfall | Forest **[Unconfirmed]** | Requires rope to descend |
-| 12 | High Priest's chamber | The Mound (before boss fight) | On the altar, can be grabbed during boss intro |
-
-**Tip**: Lore Pages glow with a faint purple aura when you are within 10m. Use the Crystal Moth Familiar mount if you have one — its glow trail reveals Lore Page locations.
-
-#### Step 2: Reach 12,000 Faction Reputation
-
-Complete all available Faction Contracts. The 12,000 cap requires:
-- All main story contracts completed
-- At least 6 side contracts completed
-- 3+ optional boss kills
-
-#### Step 3: Choose "Descend Further"
-
-After defeating the High Priest, a new passage opens behind the altar. Choose to descend instead of escaping or sealing.
-
-#### Step 4: Face the Entity
-
-The descent leads to a massive underground cavern where you glimpse the true form of the entity. This is a scripted sequence with no combat — a lore-heavy revelation that explains the true nature of the corruption, the Y'm-bhi, and your role in the cycle.
-
-### What Happens
-
-You descend into the darkness beneath The Mound and witness the entity's true form. The revelation is twofold:
-
-1. **The entity is not Cthulhu, but an avatar** — a fragment of a far greater cosmic being that has been imprisoned beneath the New World for millennia
-2. **The Y'm-bhi were not corrupted; they were chosen** — as guardians of this seal, tasked with preventing anyone from reaching this depth
-
-The entity speaks to you and offers a choice within the choice: leave with the knowledge, or stay and become the new guardian of the seal.
-
-- **Leave with knowledge**: You return to the surface, but the knowledge drives you to madness over time. The final scene shows you beginning to write a book — the same book that inspired the original expedition.
-- **Become the guardian**: You take the Y'm-bhi Priest's place, becoming the new immortal guardian of The Mound. Your consciousness persists for centuries as you watch civilizations rise and fall.
-
-### Ending Rewards
-
-| Reward | Details |
-|--------|---------|
-| Title | "Truthseeker" |
-| Cosmetic | Legendary Amulet: "Eye of the Abyss" (grants +10% Sanity resistance in all future playthroughs) |
-| New Game+ | Unlocked with bonus starting reputation (5,000) + all Lore Pages carry over |
-| Achievement | "Beneath the Mound" (100G) |
-| Item for NG+ | Corrupted Key — unlocks a hidden room in the tutorial area containing a Legendary weapon |
-| Secret Cutscene | Post-credits scene showing the entity's influence spreading to other parts of the world |
+So: **Zamacona survives the ending.** That is a real story beat, confirmed by a player, and it is the only character-specific ending fact available. Everything else about his role in the finale is the reviewer's opinion, not documentation.
 
 ---
 
-## Ending Comparison
+## What players say about the ending
 
-| Aspect | Ending A (Escape) | Ending B (Containment) | Ending C (Revelation) |
-|--------|-------------------|----------------------|----------------------|
-| Difficulty | Easy | Medium | Hard |
-| Time Investment | 15-20 hours | 20-30 hours | 30-40 hours |
-| Lore Revealed | Minimal | Moderate | Complete |
-| New Game+ Bonus | Basic | +2,000 reputation | +5,000 reputation + Corrupted Key |
-| Exclusive Item | None | Machete Skin | Legendary Amulet |
-| Replay Value | Low | Medium | High (new context for story) |
+This matters more than usual here, because the ending is the single most-discussed complaint in the review corpus. The consensus is not that the ending is *bad writing* — it is that it is **underexperienced**, with no climax to earn it.
+
+| Review sentiment | Quote |
+|------------------|-------|
+| No boss, wanted one | *"was dissapointed in ending, was hoping a boss fight or something more. But overall great journey"* |
+| Build-up with no payoff | *"it left us feeling like there was a lot of build-up then it just dropped off."* |
+| The writing is fine, the level design is not | *"Don't get me wrong, from a writing perspective? the ending was fine. But because the level design for the last few missions were unsatisfying it just felt like it came out of nowhere."* |
+| The last mission is too easy | *"The Temple of Yig and the last mission are too easy despite being..."* (a 422-upvote review) |
+| The finale is anticlimactic | *"it was disappointing enough that we didn't actually have to place the Tulu Cylinders in the pedestals and open the passage ourselves"* |
+
+### The reverse-evidence point, stated carefully
+
+`boss` returns **0 hits in all 39 official announcements**. The review corpus uses the word, and the uses split into two kinds — which is why this page will not tell you either "there are bosses" or "there are definitely no bosses":
+
+| Kind of use | Example | What it proves |
+|-------------|---------|----------------|
+| **Gap signals** (the majority) — players asking for a feature | *"no bosses, every mission is pretty much the same, no real progression"*<br>*"More enemies, events, weapons, bosses, equipment and progression would give players more reasons to keep coming back"*<br>*"We need some mini bosses or more of a threat from certain baddies"*<br>*"was hoping a boss fight or something more"* | Nothing exists yet. A player requesting a feature is evidence of its **absence**. |
+| **Descriptive uses** — players labelling something they fought | *"Boss combat is a joke -- this just needs to be torn down and rethought"* (704 upvotes)<br>*"boss creatures such as the prowler, the haunter, and the Tree creature are ALL on Basic"* | Ambiguous. Some players evidently call certain enemies "bosses" — but they name **third-party-only creature names**, and no official source uses the term. |
+
+**Conclusion this page will stand behind:** the developer has never used the word "boss". Players who want bosses write reviews asking for them. Some players loosely call tough creatures bosses. **Do not plan an expedition around defeating a named boss, because no named boss is documented.**
 
 ---
 
-## Can You Get Multiple Endings?
+## What was removed from this page, and why
 
-Yes. Your save file is marked after completing any ending. You can:
-1. Complete Ending A → New Game+ → make different choices for Ending B or C
-2. Complete Ending C → New Game+ → try the other endings with full knowledge
-3. Start a fresh character and pursue a different ending from scratch
+Every row below was asserted as fact by the previous version of this page and returns zero hits in both corpora.
 
-**Tip**: Complete Ending C first for the best New Game+ bonuses (Corrupted Key + 5,000 starting reputation), then play again for the other endings.
+| Removed claim | Query | News | Reviews |
+|---------------|-------|------|---------|
+| Three endings (Escape / Containment / Revelation) | `Containment`, `Revelation`, `true ending` | 0 | 0 |
+| Faction Reputation (2,000 / 6,000 / 8,000 / 12,000 thresholds) | `Reputation` | **0** | **0** |
+| High Priest of Cthulhu (final boss) | `High Priest` | **0** | **0** |
+| New Game+ and its bonus reputation | `New Game+` | **0** | **0** |
+| Corrupted Key | `Corrupted Key` | **0** | **0** |
+| The Purifier (blueprint / endgame weapon) | `The Purifier` | **0** | **0** |
+| Mask of Dagon | `Mask of Dagon` | **0** | **0** |
+| Legendary Amulet "Eye of the Abyss" (+10% Sanity resistance) | `Eye of the Abyss` | 0 | 0 |
+| 12 numbered Lore Page locations | `Isle of Voices`, `Sunken Grotto` | **0** | **0** |
+| Crystal Moth Familiar mount | `Crystal Moth` | 0 | 0 |
+| Achievements "Back to the Surface" (20G), "Eternal Vigil" (50G), "Beneath the Mound" (100G) | `Eternal Vigil`, `Back to the Surface` | 0 | 0 |
+| Ending B wave tables ("8 Sentries + 3 Berserkers + 2 Wraiths + 1 Priest") | `Berserker`, `Wraith` | **0** | **0** |
+| "Developers have stated all three are equally valid" | — | No such statement exists. | |
+
+Real place-and-object names from the same page that **do** survive, because they appear in official or review material: the **Mound**, the **Temple of Yig** (free DLC mission), the **Galleon** (the ship), the **Tulu Cylinders**, the **Tulu-metal Medallion**, **Moab**/*The Mound* as the source novella, and **Zamacona**.
+
+### Method
+
+Counts above come from two corpora, reproduced this session:
+
+1. `/tmp/mound_news.txt` — the complete Steam news feed for appid `2569760`, split on `^===== ` → **39 blocks**. The four add-on appids (`4630450`, `4630440`, `4630460`, `4925780`) each have **0 news items**, and no separate demo/playtest appid exists, so this is the full official surface.
+2. `/tmp/mrev/reviews.txt` — **576 unique reviews**, split on `^=== `.
+
+Query form: case-insensitive regex, hit count plus ±120 characters of context, **every hit read in context**. One correction the context-reading produced: in this corpus `Priest` looks like an enemy class, but its only news hit is a mocap credit (*"Cédric Lalanne as The Priest"*) and its review hits are the player character who drives the ox cart. It was never a boss or an enemy, and it is not an ending gate.
 
 ---
 
-## Frequently Asked Questions
+## What to do at the end of the game
 
-| Question | Answer |
-|----------|--------|
-| Can I save before the final choice? | Yes. The game creates an autosave before the High Priest boss fight. You can reload to try different endings. |
-| Do Lore Pages carry over in New Game+? | Only the Location unlock carries over (no need to re-collect physical pages). |
-| Can I get Ending B after Ending C? | Yes — load your pre-boss save or start New Game+ and choose the seal option. |
-| Is there a "bad" ending? | No. Each ending is morally ambiguous with valid narrative justifications. |
-| Which ending is canon? | Ending C is the "True Ending" with the most content, but the developers have stated all three are equally valid. |
+There is no choice to agonise over, so the practical advice is short:
+
+1. **Play the final mission when you have the party you want.** There is no post-finale free roam to clean up in — reviewers describe the last mission *"entering the mound"* and then the credits.
+2. **Do the Temple of Yig DLC **before** the final mission if you care about the finale's presentation.** Its assets are reused from the final mission; one reviewer notes that playing it first makes the finale look *"1000% less cool"*.
+3. **Do not grind for Reputation.** It does not exist. Spend tokens on the **Weapon Upgrade Anvil** and the occult shop instead.
+4. **Expect the ending to be a narrative beat, not a fight.** The most common complaint is that the last missions are too easy and the payoff is unearned. Knowing that going in is better than waiting for a boss that never spawns.
+5. **If you want more, ask for it.** The developer has shipped five patches in the eight weeks since launch and explicitly works from feedback — the block ability (1.02) exists because players asked. Boss fights are the most-requested missing feature in the review corpus. That is how a boss would get added.
+
+---
+
+## FAQ
+
+**Q: How do I get the true ending?**
+A: There is no true ending. There is one ending.
+
+**Q: I read that I need 12,000 Reputation for the secret ending.**
+A: That page was fabricated. `Reputation` returns 0 hits in 39 official announcements and 0 in 576 reviews. There is no reputation system and no ending gate.
+
+**Q: Who is the final boss?**
+A: No boss is named or referenced in any official material. `boss` = 0 hits in all 39 announcements. Players requesting *"a boss fight or something more"* are the strongest evidence that none exists.
+
+**Q: Does the game have New Game+?**
+A: No. `New Game+` = 0 news hits, 0 review hits.
+
+**Q: Does Zamacona survive?**
+A: Yes — confirmed by a 449-upvote review. Note that the review also complains you never see him on the ship and cannot play as him, so his survival is a story beat rather than a gameplay unlock.
+
+**Q: Is the ending worth it?**
+A: Reviewers broadly say the writing lands and the level design does not. Go in expecting a reveal, not a climax.
+
+---
 
 ## Related Guides
 
-- [Story Walkthrough Guide](/guides/walkthrough-guide)
-- [Contracts Guide — Faction Reputation](/guides/contracts-guide)
-- [Enemy Bestiary](/guides/enemy-bestiary)
-- [FAQ & Common Questions](/guides/faq-content)
-- [Game Length Guide](/guides/game-length-guide)
+- [Story Walkthrough Guide](/guides/walkthrough-guide) — the mission-by-mission path, including the final mission
+- [Contracts Guide](/guides/contracts-guide) — contract tiers, and why there is no Reputation gate
+- [Enemy Bestiary](/guides/enemy-bestiary) — the creatures that are real, and the bosses that are not
+- [FAQ & Common Questions](/guides/faq-content) — quick answers, including myths this wiki used to repeat
+- [Game Length Guide](/guides/game-length-guide) — how long the run to the ending actually takes

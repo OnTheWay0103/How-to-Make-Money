@@ -1,133 +1,160 @@
 ---
-title: "Daily Challenges Guide — Contracts, Rewards & Efficient Completion"
-description: "Complete guide to daily challenges in The Mound: Omen of Cthulhu. Learn how daily contracts work, reward rotation schedules, strategies for efficient completion, and how they fit into progression."
+title: "The Mound Daily Challenges — Is There a Daily System?"
+description: "The Mound: Omen of Cthulhu has no daily challenges, no streak bonuses, no leaderboards and no Personal Rank. What the contract board actually offers, verified against all 39 official announcements."
 category: "Guides"
 version: "1.0"
-updated: "2026-07-29"
-keywords: ["The Mound daily challenges", "The Mound daily contracts", "The Mound daily rewards", "The Mound contract types", "The Mound progression loop"]
-related: ["extraction-guide", "crafting-recipes", "beginner-guide", "controls-settings-guide"]
+updated: "2026-09-17"
+keywords: ["The Mound daily challenges", "The Mound daily contracts", "The Mound contract board", "The Mound contract tiers", "The Mound progression loop"]
+related: ["contracts-guide", "extraction-guide", "crafting-recipes", "beginner-guide"]
 ---
 
-## Daily Challenges Guide — The Mound
+# Daily Challenges — Is There a Daily System?
 
-Daily challenges, called **Contracts**, are the primary repeatable content in The Mound: Omen of Cthulhu. They provide structure to each expedition, offer targeted rewards, and drive the core progression loop. This guide explains how contracts work, how rewards rotate, and how to complete them efficiently.
+> **Rewritten September 17, 2026.** This page used to describe a live-service daily loop: a board that
+> refreshes at 00:00 UTC, five Easy / three Medium / one Hard contract per day, Contract Streaks,
+> weekly rotations, a monthly leaderboard, seasonal currency and a Personal Rank. **None of it exists.**
+> See [Why this page was rewritten](#why-this-page-was-rewritten).
 
-### How Daily Contracts Work
+**No.** The Mound: Omen of Cthulhu has no daily challenges, no weekly rotation, no streak bonus, no
+leaderboard, no seasonal currency and no Personal Rank. `daily challenge` returns **0 hits** across all
+39 official Steam announcements and **0** across the 576-review corpus, and no third-party guide
+describes such a system either.
 
-Contracts are available from the Contract Board on the Galleon's upper deck. Each day at 00:00 UTC, the board refreshes with a new set of contracts. There are three tiers of contracts available:
+What the game has is a **contract board**, and contracts are the whole of the repeatable content. That is
+not a criticism — it is the design. This game is a session-based extraction game, not a live-service
+game, and nothing about it resets on a timer.
 
-| Contract Tier | Daily Limit | Difficulty | Base Rewards | Risk Modifier |
-|---------------|-------------|------------|--------------|---------------|
-| Easy (Green) | 5 per day | Low | Scrap, basic materials, small gold | x1.0 |
-| Medium (Blue) | 3 per day | Medium | Rare materials, moderate gold, XP | x1.5 |
-| Hard (Red) | 1 per day | High | Exotic materials, large gold, exclusive items | x2.5 |
+---
 
-You can hold up to 3 active contracts at once. Completing a contract rewards you immediately and progresses your Personal Rank. Contracts do not expire once accepted — you can hold them for multiple days if needed.
+## What the contract board actually is
 
-### Reward Rotation
+You take a contract from the Captain on the Galleon before each expedition. The developer's framing of
+what a contract gives you is the best summary of the whole loop:
 
-The Mound uses a daily, weekly, and monthly reward rotation to keep gameplay fresh:
+> *"The Captain provides, but he is not generous. Each contract comes with a selection of equipment for
+> your party — a handful of weapons, a few precious supplies, a single lamp against the oppressive dark.
+> These are not individual loadouts; they are a shared arsenal."*
+> — *The Captain's bargain: Choosing your contract*
 
-**Daily Rotation (resets every 24 hours):**
-- 5 new Easy contracts with randomized objectives
-- 3 new Medium contracts
-- 1 new Hard contract
-- Bonus gold for completing all contracts of a tier (Contract Streak)
+There is no lockout, no daily allowance, and no reason you cannot run ten contracts in an evening.
 
-**Weekly Rotation (resets every Monday):**
-- 1 Weekly Challenge contract (unique boss variant or special condition)
-- Bonus reward cache for completing 20 daily contracts in a week
-- Featured material type (e.g., "Silver Ore Week" with increased rewards)
+### Contract tiers
 
-**Monthly Rotation (resets on the 1st):**
-- 1 Legendary Contract (extremely difficult, exclusive cosmetic reward)
-- Monthly leaderboard based on contract completion speed
-- Seasonal currency that can be traded for limited items
+Tiers are the game's difficulty axis. **All of the following is player-reported** — the official
+announcements mention *"contract tiers"* only once, and only in the context of payouts (patch 1.02:
+*"Slight increase for tokens given for contract tiers"*):
 
-### Contract Types and Typical Rewards
+| Tier (player-reported) | What it looks like |
+|------------------------|--------------------|
+| **Basic** | Short objectives, lighter spawn pressure |
+| **Legendary** | Richer treasure objectives, harder pressure — one player notes a Legendary treasure-mission can be easier than a Basic portal-mission, i.e. the ladder is not clean |
+| **Portal** | Portal contracts; players ask for these to matter more |
+| **Final mission** | The story's closing contract |
 
-| Challenge Type | Objective | Typical Rewards | Difficulty |
-|----------------|-----------|-----------------|------------|
-| Salvage Run | Collect X scrap from designated zone | 12-20 Scrap Metal, 50 Gold | Easy |
-| Elimination | Kill X enemies of a specific type | 30-50 Gold, XP scroll | Easy |
-| Boss Hunt | Defeat a specific boss | Rare material, 100 Gold | Medium |
-| Artifact Retrieval | Recover a specific artifact and extract | Exotic material, 150 Gold | Medium |
-| Speed Run | Complete an expedition in under X minutes | Gold cache, crafting blueprint | Hard |
-| No-Damage Run | Extract without taking damage | Exclusive cosmetic, large XP | Hard |
-| Storm Survival | Extract during a full storm | Storm Essence, storm gear piece | Hard |
-| Ritual Disruption | Interrupt X rituals on a single expedition | Artifact Fragment, 200 Gold | Medium |
-| Full Clear | Kill all enemies on a map | Gold cache, rare ammo blueprint | Hard |
-| Co-op Challenge | Complete objectives with a full squad | Bonus XP, squad banner cosmetic | Medium |
+`[Unconfirmed — the tiers above come from player reviews, not from the developer. No official source
+publishes a tier list, a per-tier limit, or a per-tier reward multiplier beyond the patch-1.02 note.]`
 
-### Strategies for Efficient Completion
+### Contract objectives
 
-#### Stacking Contracts
+Players describe the objective set as narrow, and they are right:
 
-The most efficient approach is to **stack compatible contracts**. Before deploying, review all active contracts and look for overlaps:
+> *"The mission variety is basically nonexistent, it's retrieve a logbook, reclaim a fort, or retrieve a
+> steel canister, over and over."*
+> — Steam review
 
-- A Salvage Run in Zone A + an Elimination contract in Zone A means one expedition completes two contracts.
-- A Boss Hunt + Artifact Retrieval on the same island saves an entire expedition.
-- Speed Run contracts can be combined with any Easy contract since Easy zones are small and fast.
+> *"Having only 'Find the Treasures,' 'Find the Fort,' and 'Close the Portal' as mission types is very
+> limited. Later on, there are 'Find a specific Item' missions, plus the final mission."*
+> — Steam review
 
-Always aim to complete 2-3 contracts per expedition. This is the fastest path to Personal Rank progression.
+The official record adds texture rather than new types: patch 1.0 notes that *"Contracts now display
+more mission information and a greater variety of treasure requirements"* and added *"better diversity
+of treasure shrines and additional treasure pickups in missions."*
 
-#### Optimal Expedition Flow
+---
 
-1. **Accept contracts at the Galleon** before deploying. Never deploy without checking the board first.
-2. **Plan your route** around contract objectives. Mark all objective locations on your map before moving out.
-3. **Complete the hardest objective first.** If a contract requires a boss kill, do that while your resources are full. Loot secondary objectives on the way back.
-4. **Extract immediately** after the last objective is complete. Do not get greedy with extra looting.
+## Rewards: what a contract pays
 
-#### Speed Run Specifics
+| Reward | Detail | Source |
+|--------|--------|--------|
+| **Tokens** | The permanent currency; scales with contract tier | Patch 1.02; player reports |
+| **Experience** | The official launch post names it: *"Experience to sharpen your skills"* | Official launch announcement |
+| **Bonus for overshooting** | One player reports extra money and XP for exceeding the treasure target, capping around 2x | Player report |
+| **The haul itself** | Only converts if you extract. Die on the mainland and the run paid nothing | Player-reported, consistent |
 
-Speed Run contracts require completing an expedition in under 15 minutes (Easy), 20 minutes (Medium), or 25 minutes (Hard). Key strategies:
+There is no streak bonus, no "complete all five Easy contracts for a cache" reward, and no weekly or
+monthly meta-reward. The board does not refresh on a schedule — it reflects the contracts available in
+your current progression.
 
-- **Travel light.** Only bring essential gear. Every extra kilogram slows you down.
-- **Skip side loot.** Ignore crates and secondary resource nodes. Only touch contract objectives.
-- **Know the map.** Learn spawn patterns and shortest routes between objectives.
-- **Use the Medallion liberally.** Portal cooldowns reset between expeditions, so use every charge.
-- **Sprint on safe ground.** Open fields and previously cleared areas are safe to sprint through.
+---
 
-#### Hard Contract Preparation
+## The real efficiency question
 
-Hard contracts are significantly more difficult and should not be attempted unprepared:
+Since there is no daily reset to optimise around, the only question that matters is **which contract to
+take next**:
 
-- **Full gear check.** Bring silver bullets, advanced healing salves, and Sanity restoratives.
-- **Coordinate with a squad.** Hard contracts are designed for 4-player teams. Solo completion is possible but extremely challenging.
-- **Study the map.** Hard contract maps have different enemy spawns and objective layouts than standard versions.
-- **Set a mental timer.** If you have not reached the first objective within 10 minutes, abort and try again.
+1. **Take the richest tier you can actually finish.** Token payout scales with tier.
+2. **Match the contract to the weather.** Rain silences gunpowder weapons outright, so a Matchlock
+   contract in a downpour is a wasted slot.
+3. **Extract on a schedule, not a whim.** Patch 1.01 removed the mandatory end-of-mission hard cap —
+   *"players can now remain on the mainland as long as they can survive"* — which makes staying too long
+   *your* decision, with the forest as the clock.
+4. **Logbook contracts first if you want the map to open up.** The store page is explicit:
+   *"Discover abandoned forts during your expedition and recover their logbooks to unlock them as new
+   starting point for future expeditions."*
+5. **Treat every contract as a fresh allocation.** Nothing you carried in survives the run —
+   *"the flintlock that kept you alive on that same run just evaporates."*
 
-### Contracts and the Progression Loop
+---
 
-Contracts are the engine that drives The Mound's progression:
+## Why this page was rewritten
 
-- **Personal Rank XP** comes primarily from contract completions. Grinding contracts is the fastest way to rank up.
-- **Material income** from contracts funds your crafting. Without contract rewards, you will run out of ammunition and consumables.
-- **Gold accumulation** from contracts lets you purchase blueprints and cosmetic items from the Quartermaster.
-- **Exclusive rewards** from Hard and Legendary contracts cannot be obtained any other way. If you want the full cosmetic collection, you must run hard content.
+The old page described a live-service progression layer that does not exist:
 
-A healthy progression loop looks like this:
+| Old claim | Evidence |
+|-----------|----------|
+| Daily challenges / daily contracts refreshing at 00:00 UTC | `daily challenge` = **0 hits** in all 39 official announcements and **0** across 576 reviews |
+| 5 Easy / 3 Medium / 1 Hard per day, "x1.0 / x1.5 / x2.5" risk modifiers | No official source publishes per-tier daily limits or multipliers |
+| Contract Streaks, weekly rotation, "Silver Ore Week", monthly leaderboard, seasonal currency | None appear in any corpus. `seasonal` and `leaderboard` = 0 hits in both |
+| A **Personal Rank** that contracts progress | `rank` = **0 hits** in all 39 announcements. (Third-party guides do describe a separate XP **Rank Rewards** ladder — see the note below.) |
+| Ten named objective types (Salvage Run, Elimination, Boss Hunt, Ritual Disruption, Storm Survival, Full Clear, No-Damage Run…) | Matches the game's actual objective set almost not at all. The real set is treasure retrieval, logbook retrieval, fort reclamation and portal contracts |
+| "Boss Hunt — defeat a specific boss" | `boss` = **0 hits** in all 39 announcements, and players complain there are none |
+| Crafting consumables and ammunition from contract materials | There is no crafting system — see the [Crafting Guide](/guides/crafting-recipes) |
+| Buying blueprints from a Quartermaster | No Quartermaster and no blueprint system appears anywhere in the record |
+| Storm Essence, storm gear, Artifact Fragment, Scrap Metal as named currencies/materials | All **0 hits** in both corpora |
 
-1. Deploy and complete 2-3 stacked contracts
-2. Extract with materials and rewards
-3. Craft consumables and ammunition from gathered materials
-4. Upgrade Medallion or gear using contract gold
-5. Accept new contracts and repeat
+### Method
 
-### Daily Schedule for Maximum Efficiency
+- **Official corpus:** Steam `ISteamNews` for app ID `2569760`, all **39** items, full text —
+  `daily challenge` 0, `streak` 0, `leaderboard` 0, `seasonal` 0, `rank` 0.
+- **App-ID check:** `2569760` plus four add-on apps (`4630450`, `4630440`, `4630460`, `4925780`), each
+  queried for its own news feed and returning **0 items** — no second announcement stream exists.
+- **Store page:** `appdetails` for `2569760`, English.
+- **Community corpus:** Steam `appreviews` with `json=1`; 576 unique reviews retained with IDs.
+- **Web cross-check:** an independent search pass across editorial guides found no daily-challenge,
+  streak, or leaderboard system.
 
-| Time | Activity |
-|------|----------|
-| Login | Accept all contracts from the board |
-| Expedition 1 | Stack 2-3 Easy contracts on one island |
-| Expedition 2 | Complete Medium contract + leftover Easy |
-| Expedition 3 | Hard contract with full squad |
-| Between runs | Craft consumables, upgrade gear |
-| Before logout | Spend gold, store excess materials |
+### One honest caveat — the Rank Rewards ladder
 
-### Related Guides
+This page previously claimed a **Personal Rank** that contracts progress. That, as stated, is wrong
+(`rank` = **0 hits** in the official corpus). But third-party guides do describe an **XP Rank Rewards**
+ladder — Rank 2 Extra Knife, Rank 4 Extra Inventory Slot, Rank 10 improved ally revival health, Rank
+14/26 Weapon Grip Bonus, Rank 18 Extra Inventory Slot, Rank 30 Ring of Isolation Resistance — and
+in-game trophies named *Proven in the Field* (Rank 10), *Scarred but Standing* (Rank 20) and *Tempered by
+Madness* (Rank 30).
 
-- [Extraction Guide](/guides/extraction-guide) — How to extract with your rewards
-- [Crafting Recipes Guide](/guides/crafting-recipes) — Craft tools and consumables for contract runs
-- [Beginner's Guide](/guides/beginner-guide) — Getting started with The Mound
-- [Controls and Settings Guide](/guides/controls-settings-guide) — Complete reference for all settings
+`[Unconfirmed — reported by third-party guides only. Those reward names return 0 hits in the official
+announcement corpus and 0 in the 576-review corpus, so this wiki does not present them as fact. It is
+recorded here so the page is not silent about a system that may exist.]`
+
+What is *not* in doubt: a levelling path exists, and the permanent rewards along it are scarce — one
+player summarises it as *"no permanent unlocks aside from skins and a couple of inventory slots."*
+
+---
+
+## Related Guides
+
+- [Contracts Guide](/guides/contracts-guide) — the contract types and how to choose one
+- [Extraction Guide](/guides/extraction-guide) — the walk out, and why it decides the payout
+- [Crafting Guide](/guides/crafting-recipes) — why there is no crafting system, and what replaces it
+- [Progression Guide](/guides/progression-system-guide) — what actually carries over between runs
+- [Beginner Guide](/guides/beginner-guide) — the core loop from the first expedition

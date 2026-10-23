@@ -1,243 +1,204 @@
 ---
-title: "The Mound Contracts Guide — Mission Types and Rewards"
-description: "Complete guide to The Mound contract system: how contracts work, host-level difficulty scaling, all mission types with reward tables, how to pick the right contract, the optimization loop for money, rank or materials, and Ox Cart management."
+title: "The Mound Contracts Guide — Tiers, Mission Types and Rewards"
+description: "Evidence-based contracts guide for The Mound: Omen of Cthulhu. The real mission types (find the treasure, find the fort, close the portal), the Basic/Advanced/Legendary tier framing as players report it, the shared arsenal, Token rewards, and the fabricated Reputation and Gold Doubloon systems this page used to describe."
 category: "Guides"
 version: "1.0"
-updated: "2026-08-10"
-keywords: ["themound contracts", "themound missions", "ox cart themound", "themound contract rewards", "themound expedition types", "themound contract optimization"]
+updated: "2026-09-17"
+keywords: ["themound contracts", "themound missions", "ox cart themound", "themound contract rewards", "themound expedition types", "themound contract tiers", "themound legendary contract"]
 related: ["extraction-guide", "coop-strategy-guide", "beginner-guide", "money-guide", "legendary-hunts", "daily-challenges"]
 ---
 
-# The Mound Contracts Guide — Mission Types and Rewards
+# The Mound Contracts Guide — Tiers, Mission Types and Rewards
 
-> Launch Version / Updated: August 10, 2026
+> **Rewritten September 17, 2026.** This page previously organised contracts into six invented categories (Salvage / Hunt / Reconnaissance / Rescue / Story / Legendary Hunt) with per-difficulty reward tables, a **Reputation** currency and its 50–300 point payouts, and a **Gold Doubloons** reward scale. `Reputation` returns **0 hits** in all 39 official announcements and all 576 Steam reviews. `Doubloon` returns **0 hits** in both. The reward currency is **Tokens** — the developer says so in patch 1.02. The invented categories have been replaced with the mission types players actually describe.
 
-Contracts are the backbone of every expedition in **The Mound: Omen of Cthulhu**. Before you set sail from the Galleon, you choose a Contract from the board. This determines your objective, the difficulty, the map layout, and the reward tier. Most players pick contracts by vibes — this guide fixes that: how contracts work, which types pay what, the host-level scaling rule that silently ruins mixed-level squads, and a pick order that optimizes your time for money, rank, or materials.
+Contracts are the backbone of every expedition in **The Mound: Omen of Cthulhu**. You pick one at the Galleon before you set out, and it decides your objective, your gear, and what the jungle does to you.
 
----
-
-## How Contracts Work
-
-| Aspect | Detail |
-|--------|--------|
-| **Location** | Contract Board on the Galleon, near the navigation table |
-| **Availability** | Multiple contracts available per expedition cycle; the board rotates each cycle |
-| **Shared Progress** | Story progress is shared across the entire team |
-| **Personal Rank** | Each player maintains their own rank and unlocks |
-| **Risk vs Reward** | Higher difficulty = better loot and more progression experience |
-
-Two rules shape everything else: **contract difficulty scales with the HOST's personal level** (not the team average), and **personal rank** — not team progress — unlocks your long-term rewards.
+The honest problem with writing this guide: **the developer has never published a contract taxonomy.** There is no official list of contract types. What exists is a handful of official patch lines about contract mechanics, plus a player base that has been describing the same three or four mission shapes for two months. This page keeps those two evidence tiers strictly separate.
 
 ---
 
-## Difficulty Scaling — Contracts Follow the Host
+## How contracts actually work
 
-One of the most important and least explained rules: **contract difficulty scales with the HOST's personal level**, not the team average and not a per-player choice. When a squad opens the Contract Board, the difficulty bracket is set by whoever is hosting the game.
+Four things about contracts are documented officially. They are the foundation, and everything else is inference.
 
-| Situation | What Happens |
-|-----------|--------------|
-| High-level player hosts | All contracts present at high difficulty — even the "Easy" options scale up |
-| Low-level player hosts | Contracts scale to their level — genuinely easier maps |
-| Mixed-level squad | Difficulty matches the host, which may be brutal for the low-level player or trivial for the high-level one |
-| Solo play | Difficulty always matches your own level (no surprise) |
+| Fact | Official wording | Source |
+|------|------------------|--------|
+| **The contract supplies the gear** | *"Each contract comes with a selection of equipment for your party — a handful of weapons, a few precious supplies, a single lamp against the oppressive dark. These are not individual loadouts; they are a shared arsenal."* | "The Captain's bargain: Choosing your contract" |
+| **Contracts have tiers, and tiers pay Tokens** | *"Slight increase for tokens given for contract tiers."* | Patch 1.02 |
+| **Contract briefings were improved** | *"Contracts now display more mission information and a greater variety of treasure requirements."* | Demo update patch notes |
+| **A rescue can substitute for the treasure** | *"Rescuing a character in the mainland means a contract is successful regardless of whether or not the treasure was returned."* | Patch 1.02 |
 
-### Why This Matters for Playing with Newcomers
+Read the first one twice. It is the single most important and most-missed rule in the game: **you do not choose your own loadout.** The contract chooses it for the whole party, and the party then divides it. This is why "best weapon" discussions miss the point — see the [Weapons Guide](/guides/weapons-guide).
 
-If you are a high-level player trying to introduce a friend to the game, hosting the lobby yourself means **you cannot open an easy map for them** — the board will only show contracts at your difficulty. This is a common complaint from veterans bringing new players, and it is working as designed, not a bug.
-
-### Workarounds for Playing with Newcomers
-
-| Workaround | How It Works | Best For |
-|------------|--------------|----------|
-| **Let the low-level player host** | The newcomer creates the lobby and hosts — contracts scale to their level, and the whole squad plays an easier map | Bringing one or two new players; the standard fix |
-| **Host a Reconnaissance or Easy Salvage contract as the newcomer's host** | These types are the most forgiving at any difficulty bracket | Learning the map and the basics |
-| **Hand the controller/keyboard to the newcomer for the contract selection** | If you must host, let the new player pick the contract so they choose something comfortable | Quick sessions, but difficulty still scales to you |
-| **Play on the newcomer's profile progression** | If the new player has already played a few runs, their own host difficulty is already moderate | Newcomers who have completed a handful of expeditions |
-| **Squads of mixed levels: expect higher difficulty, bring more heals** | When a high-level player hosts, everyone should bring extra Salves and treat the run as a harder contract than labeled | Short sessions where hosting is fixed |
-
-**Bottom line:** for teaching sessions, always have the new player host. The contract board's difficulty follows them, and your high-level character still contributes gear, knowledge, and firepower — just with maps scaled to their level.
+The second one settles a question this page used to get wrong: contract **tiers exist** (the developer says "contract tiers" in the plural and adjusts their Token payout) but the developer has never named them.
 
 ---
 
-## Contract Types
+## Contract tiers — what players call them
 
-### 1. Salvage Contracts
-| Difficulty | Objective | Rewards | Risk Level |
-|------------|-----------|---------|------------|
-| Easy | Retrieve 1 marked chest | Currency, Common Materials | Low |
-| Medium | Retrieve 3 marked chests | Currency, Uncommon Materials, Tools | Medium |
-| Hard | Retrieve 5 marked chests from guarded zones | Rare Materials, Weapons, High Currency | High |
+No official source names the tiers. Players do, consistently, and they use three labels.
 
-**Best for:** Farming resources, gearing up between story missions.
+**This framing is player-reported, not developer-confirmed.** It comes from Steam reviews, most clearly this one:
 
-### 2. Hunt Contracts
-| Difficulty | Objective | Rewards | Risk Level |
-|------------|-----------|---------|------------|
-| Easy | Defeat 5 Y'm-bhi | Currency, Basic Ammo | Low |
-| Medium | Defeat a named Y'm-bhi Berserker | Uncommon Weapon, Currency | Medium-High |
-| Hard | Defeat a Giant Centipede or Boss enemy | Rare Weapon, High Currency, Cosmetic | Very High |
+> *"You can be clear-cutting your way through the jungle on **Legendary** treasure-missions, then you take-on a **Basic** portal-mission and the jungle decides to get a lot more difficult."* — Steam review, 50 upvotes
 
-**Best for:** Players who want combat-focused runs. Avoid if your gear is low-tier.
+Corroborating uses: *"The Portal starting as a **basic** mission despite it absolutely bombarding you with enemies"*; *"If I picked **basic** relic gathering... If I pick the **advanced** version, it will change to fit the difficulty"* (449-upvote review); *"The problem is — I'm seeing them on even **BASIC** missions as well as boss creatures..."*.
 
-### 3. Reconnaissance Contracts
-| Difficulty | Objective | Rewards | Risk Level |
-|------------|-----------|---------|------------|
-| Easy | Reach a marked location and survey | Currency, Map Fragments | Low |
-| Medium | Survey 3 locations and return | Uncommon Tools, Currency | Medium |
-| Hard | Map a full zone including hidden areas | Rare Items, Permanent Map Unlock | High |
+| Tier (player-reported) | What players say it means | Confidence |
+|------------------------|---------------------------|------------|
+| **Basic** | Lowest tier. Still capable of spawning genuinely hard creatures — a recurring complaint, not a guarantee of an easy run. | Player-reported, multiple independent reviews |
+| **Advanced** | Middle tier. The same mission type with harder parameters. | Player-reported, single detailed review |
+| **Legendary** | Top tier. Long, high-value runs. | Player-reported, one strong review + the [Legendary-tier contracts page](/guides/legendary-hunts) |
 
-**Best for:** Learning the map layout, unlocking fast travel points, low-combat runs.
-
-### 4. Rescue Contracts
-| Difficulty | Objective | Rewards | Risk Level |
-|------------|-----------|---------|------------|
-| Easy | Find a stranded NPC | Currency, Reputation | Low |
-| Medium | Escort NPC to extraction | Uncommon Reward, High Reputation | Medium |
-| Hard | Rescue multiple NPCs under attack | Rare Reward, Reputation, Unlock | Very High |
-
-**Best for:** Reputation grinding and unlocking Galleon upgrades. Escort-style Rescue contracts pay the best money in the game — and require the most coordination, so read the briefing and confirm your squad has heals before accepting.
-
-### 5. Story Contracts
-| Difficulty | Objective | Rewards | Risk Level |
-|------------|-----------|---------|------------|
-| Variable | Progress the narrative | Unique items, Lore, Zone unlocks | Variable |
-
-**Best for:** All teams. Story contracts advance the shared narrative and unlock new areas and items.
-
-### 6. Legendary Hunts (Endgame)
-
-At high Rank, the board offers **Legendary Hunts** — long, raid-like contracts (40+ minutes) with legendary loot and exclusive materials. Treat them like raids, not pick-up runs. See the [Legendary Hunts Guide](/guides/legendary-hunts).
+> **The mistake to avoid:** the tier label describes the **contract**, not the difficulty you will experience. The most-upvoted complaint in this area is that a Basic contract can be harder than a Legendary one, because the jungle's own escalation state stacks on top of the tier. See the [Extraction Guide](/guides/extraction-guide).
 
 ---
 
-## What Each Contract Type Actually Pays
+## Mission types — what players actually do
 
-| Contract Type | Difficulty | Time | Best Reward | Best For |
-|---------------|-----------|------|-------------|----------|
-| Reconnaissance | Low | 10-15 min | Rank XP, map knowledge | Learning routes, low-risk ranking |
-| Salvage | Low-Medium | 15-20 min | Materials, coin | Farming crafting resources |
-| Hunt | Medium | 20-30 min | Enemy drops, weapon materials | Combat practice, loot density |
-| Rescue (Escort) | Medium-High | 25-35 min | High coin, unique gear | Money runs with a competent squad |
-| Legendary Hunt | High | 40+ min | Legendary loot, exclusive materials | Endgame players |
+Again: no official taxonomy. What follows is the set of mission objectives that reviewers describe, cross-checked against official language where it exists. Every quote below is from a Steam review.
 
-**The optimization rule:** match contract type to your goal. Money → Rescue. Materials → Salvage. Rank → Reconnaissance (fastest rank-per-minute). Trying to do all three in one contract type is how players waste evenings.
+| Mission type | Player description | Official cross-check |
+|--------------|--------------------|----------------------|
+| **Find the Treasures** | *"having only 'Find the Treasures,' 'Find the Fort,' and 'Close the Portal' as mission types is very limited"* | Patch 1.01 mentions *"a greater variety of treasure requirements"*; patch 1.01 also mentions the *"Censer mission"*. |
+| **Find the Fort** | Same review. *"reclaim a fort"* appears in another: *"it's retrieve a logbook, reclaim a fort, or retrieve a steel canister, over and over"* | Official store text: *"Discover abandoned forts during your expedition and recover their logbooks to unlock them as new starting point for future expeditions."* The demo had *"5 forts... available for exploration"*. |
+| **Close the Portal** | Same review. One reviewer calls it *"The Portal"* and complains it starts at Basic. | Portals are player-described only. |
+| **Retrieve a Logbook** | *"Remember to collect Logbooks whenever you enter a new area — they unlock additional locations"* (425 upvotes) | **Officially confirmed.** *"recover their logbooks to unlock them as new starting point for future expeditions."* |
+| **Retrieve a Steel Canister** | *"it's retrieve a logbook, reclaim a fort, or retrieve a steel canister, over and over"* | Not in official material. Player-reported. |
+| **Find a specific item** | *"Later on, there are 'Find a specific Item' missions, plus the final mission"* | Player-reported. |
+| **Rescue a character** | — | **Officially confirmed** by patch 1.02: *"Rescuing a character in the mainland means a contract is successful regardless of whether or not the treasure was returned."* |
+| **The final mission** | *"Then came the final mission, entering the mound"* | See the [Ending Guide](/guides/ending-guide). |
 
----
+> **Mission variety is the most common criticism of this game.** Two separate reviews say the same thing in nearly the same words — *"the mission variety is basically nonexistent"* and *"having only three mission types is very limited"*. Plan for repetition rather than being surprised by it.
 
-## How to Choose the Right Contract
-
-### By Team Size
-
-| Team Size | Recommended Contract | Why |
-|-----------|---------------------|-----|
-| Solo | Reconnaissance or Easy Salvage | Lower enemy density, clear objectives, easier extraction |
-| Duo | Medium Salvage or Easy Hunt | Two players can handle moderate combat and looting |
-| Trio | Any Medium contract | Balanced coverage for combat, looting, and support |
-| Full Squad (4) | Hard contracts, Story missions | Maximum firepower and coverage for high-risk zones |
-
-### By Goal
-
-| Your Goal | Best Contract |
-|-----------|--------------|
-| Farming currency | Salvage (Easy or Medium), or Rescue for big money runs |
-| Gear upgrades | Hunt (Medium) |
-| Map knowledge | Reconnaissance |
-| Story progression | Story contracts |
-| Reputation farming | Rescue (Easy) |
+**Practical consequence of the logbook rule:** a Logbook is worth more than the treasure objective on a first visit to an area, because it permanently unlocks a starting point. And per one reviewer's advice: *"Don't be afraid to leave a level early and without your treasure goal if you picked up a survivor/idol/logbook."*
 
 ---
 
-## The Optimization Loop (Per Session)
+## Rewards — Tokens, and the fabricated currencies
 
-1. **Check the board for your goal.** Money night? Rescue. Materials? Salvage. Rank push? Reconnaissance chain.
-2. **Check the host.** If you're in a mixed-level squad, confirm who's hosting before anything else.
-3. **Plan the extraction from the contract.** Salvage contracts can be abandoned at the objective — but an early extraction forfeits the material bonus, so weigh it against the Forest Awakens timer (see the [Extraction Guide](/guides/extraction-guide)).
-4. **Bank the rank.** Personal rank unlocks better board options over time — run the fastest contract you can clear cleanly, not the hardest you can survive.
-5. **Stack with the daily rotation.** Daily challenges (see the [Daily Challenges Guide](/guides/daily-challenges)) often share objectives with board contracts — completing both in one expedition doubles your rewards per hour.
+The reward economy that is documented:
 
-### Contract Pick Order — Quick Reference
+| Reward | Status | Evidence |
+|--------|--------|----------|
+| **Tokens** | **Official, and the real currency.** Spent on the Weapon Upgrade Anvil and the occult shop. | Patch 1.02: *"Slight increase for tokens given for contract tiers."* Demo update: *"a new station on the main ship lets you spend tokens to improve or upgrade weapons given by contracts."* |
+| **Logbooks** | **Official.** Unlock new starting points. | Store page. |
+| **Treasure / relics / idol** | **Official.** The treasure objective; relics are found loot. | Patch notes; review consensus. |
+| **Saints** | **Official**, and reworked. | Patch 1.01: *"Saints are now equipped for a smaller cost at the ox wagon before an expedition."* Patch 1.02: *"Reduced Saints blessing costs."* |
+| **Reputation** | ❌ **Does not exist.** | `Reputation` = **0 news hits, 0 review hits.** |
+| **Gold Doubloons** | ❌ **Does not exist.** | `Doubloon` = **0 news hits, 0 review hits.** The currency is Tokens. |
 
-| Your Goal | First Pick | Backup | Avoid |
-|-----------|-----------|--------|-------|
-| Money | Rescue | Hunt | Reconnaissance (pays nothing) |
-| Materials | Salvage | Hunt | Rescue (loot-poor) |
-| Rank | Reconnaissance | Salvage | Rescue (slow per rank) |
-| New player learning | Reconnaissance (low host) | Easy Salvage | Legendary Hunt |
-| Veteran with fresh friends | Easy Salvage (newcomer hosts) | Reconnaissance | Anything with a high-level host |
+### Are rewards permanent?
 
-If the ideal contract for your goal isn't on the board, the second pick beats waiting around on the Galleon.
+A documented and slightly awkward split:
 
----
+- **Tokens and unlocks persist.** *"You keep your level and money between sessions"* (review).
+- **Bought items do not.** One reviewer: *"you don't keep the items you bought to bring in, if you buy the medallion... then it's for the one expedition you bought it for and disappears when you get back."*
+- **Unlocks may be host-tied.** *"unlock progress seems to be limited to whoever is hosting, not shared between players... map and character unlocks only appear to persist if you are the one hosting the multiplayer session"* (review).
 
-## Contract Reward Table
-
-| Reward Type | Contracts | Typical Amount |
-|-------------|-----------|---------------|
-| Gold Doubloons | All | 50-500 depending on difficulty |
-| Common Materials | Salvage, Recon | 2-10 units |
-| Uncommon Materials | Salvage (Medium+), Hunt | 1-5 units |
-| Rare Materials | Hunt (Hard), Story | 1-2 units |
-| Weapons | Hunt, Story | Tier 1-3 |
-| Tools | Recon, Salvage | 1-3 items |
-| Cosmetic Items | Hunt (Hard), Story | Uncommon to Rare |
-| Map Fragments | Recon | 1 per survey point |
-| Reputation | Rescue, Story | 50-300 points |
+That last point is player-reported, and it is the reason the "who hosts" question below matters.
 
 ---
 
-## The Ox Cart — Your Mobile Storage
+## Difficulty and unlock scaling — what is and is not documented
 
-The Ox Cart is one of the most valuable tools in the game, but it is frequently misused.
+The previous version of this page stated as fact that *"contract difficulty scales with the HOST's personal level"*, with a five-row workaround table for bringing in newcomers.
 
-### How It Works
-- The Ox Cart is a slow-moving vehicle you escort through the map — since **Patch 1.04** (August 31, 2026), **Command Wheel 2.0** lets you "stop the cart and give it instructions", and "proximity determines whether or not you use the horn" ([official 1.04 patch notes](https://store.steampowered.com/news/app/2569760/view/1842212951310330)). Cart behaviour, summoning and the common "why won't it follow me" problems are covered in the [Ox Cart Guide](/guides/ox-cart-guide)
-- You can deposit items into the cart as you explore
-- If you extract successfully, the cart contents are added to your haul
-- If you die, the cart is lost
+**There is no official statement supporting difficulty scaling by host.** `/host/` returns 0 relevant announcement hits; the only official uses of "host" are about needing the DLC to host the Temple of Yig mission and about hosting a lobby at all.
 
-### Ox Cart Management Strategy
+What *is* player-reported is a **host-tied unlock** behaviour, which is easy to confuse with difficulty scaling:
 
-| Do | Don't |
-|----|-------|
-| Use the cart for overflow when your 6-slot pack is full | Load the cart with low-value items |
-| Keep the cart between you and extraction | Chase the cart across dangerous territory |
-| Assign one player to guard the cart when it stops | Leave the cart unattended near enemy patrols |
-| Use the cart as a resupply point | Expect the cart to keep up with a fast squad |
-| Prioritize cart safety over loot | Sacrifice extraction to save a nearly-full cart |
+> *"unlock progress seems to be limited to whoever is hosting, not shared between players. You keep your level and money between sessions, but map and character unlocks only appear to persist if you are the one hosting the multiplayer session."* — Steam review, 2026-09-09
 
-### Optimal Cart Usage
-1. **Phase 1:** Scout ahead with the squad. Clear the initial area.
-2. **Phase 2:** Bring the cart forward. Deposit first-wave loot.
-3. **Phase 3:** Push deeper. Use the cart as a fallback point.
-4. **Phase 4:** On the way to extraction, empty the cart into your pack (high-value items only).
+So the honest position:
+
+| Claim | Verdict |
+|-------|---------|
+| "Contract difficulty scales with the host's personal level" | **[Unconfirmed — no source.]** Do not plan around it. |
+| "Map and character unlocks are host-tied, not shared" | **Player-reported.** Single detailed review. Treat as plausible, not proven. |
+| "There is a host at all, and the host's lobby governs the session" | **Official.** Lobby codes and host-DLC rules are in the patch notes. |
+
+> If you are introducing a new player, the safe advice is the boring one: **play the mission type you all know**, and let the newcomer take the logbook so the trip unlocks something regardless of how the run ends.
 
 ---
 
-## Common Contract Mistakes
+## The Ox Cart — what is documented
 
-1. **Always picking the hardest available contract.** Rank scales with *completions*, not difficulty — a clean Reconnaissance run outranks a failed Hunt.
-2. **Ignoring host scaling with newcomers.** A high-level host quietly triples the difficulty for the new player — and then wonders why they died to a patrol.
-3. **Abandoning Salvage before the objective.** The material bonus is the entire point of the contract type; the coin is secondary.
-4. **Doing Rescue without a plan.** Escort contracts pay the best money but require the most coordination — read the contract briefing before accepting, and confirm your squad has heals.
-5. **Not stacking daily + contract objectives.** Free rewards per hour, wasted by most players.
+The Ox Cart is real, and one part of it was overhauled in patch 1.04.
+
+### Official facts
+
+- **Command Wheel 2.0 (patch 1.04):** *"By popular demand we have added a new function to allow you to stop the cart and give it instructions. Proximity determines whether or not you use the horn."*
+- **Multiple players can interact with it:** *"Multiple players can now interact with the ox-wagon inventory simultaneously"* (demo update).
+- **It is the pre-expedition shopping point:** Saints are *"equipped for a smaller cost at the ox wagon before an expedition"* (patch 1.01).
+- The ox is named **Carlito** and *"You can now pet 'Carlito' the Ox on the ship"* (patch 1.03).
+
+### What players say, and one honest warning
+
+> *"There is really no point in sending the cart back."* — Steam review
+
+> *"If playing single-player, your assistant is just as worthless... you need a bandage to stop the bleeding (and the bandages are in the cart)."* — Steam review, 50 upvotes
+
+The practical reading: the cart is a moving supply cache and an emergency stash, but reviewers do not treat it as a core loop. Use it as overflow and as the place your bandages live — and remember your single bot companion comes with you whether you want it or not (see the [Solo Guide](/guides/solo-guide)).
 
 ---
 
-## Contract Progression Tips
+## Choosing a contract — a defensible pick order
 
-- **Rotate contract types.** Focusing on one type leaves gaps in your equipment and map knowledge.
-- **Read the contract details.** Some contracts specify weather conditions or enemy types — plan your loadout accordingly.
-- **Story contracts are time-limited in some cases.** If a Story contract warns about urgency, prioritize it.
-- **Reputation unlocks Galleon upgrades.** Do not skip Rescue contracts entirely — the long-term payoff is significant.
-- **Let the lowest-ranked player host.** Contract difficulty scales with the host's level, so a new player hosting keeps the maps beatable — the opposite of the old assumption that the strongest player should lead. See the Difficulty Scaling section above.
+Given how thin the documented surface is, this is deliberately framed as heuristics rather than a reward table.
+
+| Your goal | Reasonable pick | Why |
+|-----------|-----------------|-----|
+| **Unlock new starting points** | Anything that yields a **Logbook**, any tier | The only officially confirmed permanent unlock from a contract. |
+| **Build Token reserves** | Higher tiers, completed cleanly | Patch 1.02 increased Tokens *"given for contract tiers"* — tier is the documented lever. |
+| **Learning the map** | The mission type you already know, lowest tier | Tier is player-reported; do not assume "Basic" means safe. |
+| **Playing with a newcomer** | A Logbook run, and let them carry it | Guarantees the run produces a permanent unlock for them. |
+| **A long session** | Legendary-tier contracts | See the [Legendary-tier contracts page](/guides/legendary-hunts). |
+
+### Common contract mistakes
+
+1. **Assuming "Basic" means easy.** Reviewers repeatedly report Basic missions spawning the worst creatures in the game.
+2. **Buying gear expecting to keep it.** Purchased items are mission-only unless they are permanent unlocks.
+3. **Skipping Logbooks.** They are the one confirmed permanent reward.
+4. **Firing at everything.** The jungle's escalation responds to noise, and a harder tier is not the only thing that makes a run hard.
+5. **Forgetting who is hosting.** Unlock persistence is reported to follow the host.
 
 ---
 
-### Related Guides
+## What was removed from this page
+
+| Removed claim | Query | News | Reviews |
+|---------------|-------|------|---------|
+| **Reputation** currency and 50–300 point payouts | `Reputation` | **0** | **0** |
+| **Gold Doubloons** (50–500 per contract) | `doubloon` | **0** | **0** |
+| Six contract categories: Salvage, Hunt, Reconnaissance, Rescue, Story, Legendary Hunt | `Salvage`, `Reconnaissance` | 0 | 0 as named categories |
+| "Named Y'm-bhi Berserker" as a Hunt objective | `Berserker` | **0** | **0** |
+| "Defeat a Giant Centipede or Boss enemy" as a Hunt objective | `Giant Centipede`, `boss` | **0** | **0** |
+| "Map Fragments — 1 per survey point" | `Map Fragment` | 0 | 0 |
+| "Reputation unlocks Galleon upgrades" | `Reputation` | **0** | **0** |
+| Contract difficulty scaling with the host's personal level | `host` | 0 relevant | Not supported |
+| "Weapons Tier 1-3", "6-slot pack" as documented values | — | 0 | Not documented |
+
+**What survives and is now sourced:** the shared arsenal (official), contract tiers paying Tokens (official), improved contract briefings (official), rescue-as-success (official), the Logbook unlock (official), Command Wheel 2.0 (official), Saints at the ox wagon (official), and the player-reported Basic/Advanced/Legendary tier names and mission-type list.
+
+### Method
+
+1. `/tmp/mound_news.txt` — complete Steam news for appid `2569760`, split on `^===== ` → **39 blocks**. The four add-on appids (`4630450`, `4630440`, `4630460`, `4925780`) each have **0 news items**; no separate demo or playtest appid exists.
+2. `/tmp/mrev/reviews.txt` — **576 unique reviews**, split on `^=== `.
+
+Query form: case-insensitive regex, hit count plus ±120 characters of context, every hit read in context before being accepted. Two context traps caught here: `host` looks like it supports the difficulty-scaling claim but every official use is about lobby hosting or DLC entitlement; and `tier` in reviews is overwhelmingly the phrase *"top-tier"* used as praise (*"The hallucinations are top-tier"*), not a contract tier. Only patch 1.02's *"tokens given for contract tiers"* is real evidence that tiers exist.
+
+**Evidence-strength note:** mission **types** and **tier names** are the weakest class of claim on this page — they are player vocabulary, not documentation. They are labelled as such throughout, and no numeric reward table is given, because none can be sourced.
+
+---
+
+## Related Guides
 
 - [Extraction Guide](/guides/extraction-guide) — How to bring your contract rewards home
-- [Co-op Strategy Guide](/guides/coop-strategy-guide) — Team coordination for contracts
-- [Beginner's Guide](/guides/beginner-guide) — First contract recommendations
-- [Money Guide](/guides/money-guide) — Income loops and what to spend on
-- [Legendary Hunts Guide](/guides/legendary-hunts) — The endgame contract type
-- [Daily Challenges Guide](/guides/daily-challenges) — Daily objectives that stack with contracts
+- [Co-op Strategy Guide](/guides/coop-strategy-guide) — Team coordination, the shared arsenal and who hosts
+- [Beginner's Guide](/guides/beginner-guide) — Your first contract
+- [Money Guide](/guides/money-guide) — Tokens, and what is worth buying
+- [Legendary-tier Contracts](/guides/legendary-hunts) — The top contract tier
+- [Ox Cart Guide](/guides/ox-cart-guide) — Command Wheel 2.0 and cart management
+- [Daily Challenges Guide](/guides/daily-challenges) — Objectives that stack with contracts

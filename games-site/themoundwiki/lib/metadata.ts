@@ -43,7 +43,7 @@ export const defaultMetadata: Metadata = {
     'The Mound: Omen of Cthulhu weapons',
     'The Mound: Omen of Cthulhu beginner guide',
     'The Mound: Omen of Cthulhu tips',
-    'The Mound: Omen of Cthulhu bosses',
+    'The Mound: Omen of Cthulhu creatures',
   ],
 
   authors: [{ name: SITE_CONFIG.name }],

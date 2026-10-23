@@ -21,7 +21,7 @@ export default function AboutPage() {
       <h2>What We Offer</h2>
       <ul>
         <li><strong>Game Guides:</strong> Beginner guides, weapon breakdowns, enemy bestiaries, and extraction strategies</li>
-        <li><strong>Boss Strategies:</strong> Tactics for enemy and boss encounters</li>
+        <li><strong>Creature Strategies:</strong> Tactics for the elites and creature types the game actually ships</li>
         <li><strong>Co-op Tips:</strong> Team compositions, communication strategies, and multiplayer guides</li>
         <li><strong>Regular Updates:</strong> Content updated as the game receives patches and new content</li>
       </ul>

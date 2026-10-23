@@ -3,18 +3,20 @@ title: "The Mound Blood Moon Guide — Why the Moon Turns Red, Enemies Swarm, an
 description: "Why does the moon turn red and the forest suddenly swarm you in The Mound: Omen of Cthulhu? This guide explains the community-documented 'Blood Moon' escalation: the noise meter that feeds it, the gray-to-red indicator and heartbeat warnings, the rule that going quiet can't cancel it once it starts, scripted triggers, and how to survive one."
 category: "Guides"
 version: "1.0"
-updated: "2026-09-04"
+updated: "2026-09-17"
 keywords: ["the mound blood moon", "the mound why does the moon turn red", "the mound enemies swarm suddenly", "the mound red moon event", "the mound how to avoid blood moon", "the mound noise meter", "the mound forest aggression"]
 related: ["combat-survival-guide", "extraction-guide", "coop-strategy-guide", "stealth-guide", "enemy-bestiary", "isolation-guide"]
 ---
 
 # The Mound Blood Moon Guide — Why the Moon Turns Red, Enemies Swarm, and Going Quiet Won't Save You
 
-You spend twenty minutes doing fine: silent backstabs, one kicked chest, a single musket shot at a Berserker you did not want to melee. Then the heartbeat starts, the moon turns red, and the forest vomits out a wave of enemies that keeps coming no matter how still you stand.
+> **Corrected September 17, 2026.** This page previously described the player as having been shot at *"a Berserker"* — a creature name that appears nowhere in the developer's announcements or in the Steam review corpus (0 hits in both). It has been removed. Everything else on this page already carried explicit sourcing and honesty labels and has been kept.
+
+You spend twenty minutes doing fine: silent backstabs, one kicked chest, a single musket shot at a creature you did not want to melee. Then the heartbeat starts, the moon turns red, and the forest vomits out a wave of enemies that keeps coming no matter how still you stand.
 
 Community guides call this event a **Blood Moon** — the visible payoff of a hidden meter that fills as you make noise. The game never explains it, and the first thing most players try, going quiet and hiding, is exactly what does *not* work once it has begun.
 
-Honesty note: **ACE Team has not published an official Blood Moon breakdown**, and the UI never prints the name. "Blood Moon" is the term the guide that covers it most directly uses; other sources describe the same red-moon event differently. Single-guide details are marked **[Unconfirmed]** below.
+Honesty note: **ACE Team has not published an official Blood Moon breakdown**, and the UI never prints the name. "Blood Moon" is the term the guide that covers it most directly uses; other sources describe the same red-moon event differently. Single-guide details are marked **[Unconfirmed]** below. One piece of player testimony does use the exact term — see the note under "Warning Signs".
 
 ---
 
@@ -58,6 +60,8 @@ The game warns you *before* the wave:
 
 Gameplay.tips matches the sky-tell: *"Red or purple moons generally indicate extremely dangerous conditions."*
 
+> **Player testimony confirms the name.** A Steam review captured for this correction lists the mechanic by name alongside the game's other undocumented systems: *"Sanity, Isolation, **Blood-Moon**, and other game-mechanics don't have a gauge or progress-bar to keep the player informed."* That is one player using the term — enough to show the community recognises the name, not enough to confirm the meter model below. The reviewer's complaint (no gauge) is itself a useful warning: **the game will not tell you where you are on the meter.** Watch the sky and the screen edges, not a bar.
+
 When the heartbeat starts, **stop making noise and back off** — wait in a safe area until the warning fades. That can prevent the event entirely.
 
 ---
@@ -100,11 +104,11 @@ After it ends, the noise meter has reset, but the expedition timer from the [Ext
 
 ## Blood Moon vs. the "Forest Awakens" Timer
 
-Readers of this wiki will notice overlap with the timed escalation our [Extraction Guide](/guides/extraction-guide) and [Combat & Survival Guide](/guides/combat-survival-guide) call the **Forest Awakens** — the ~30–35 minute hidden timer that multiplies spawns and can relocate the extraction point.
+Readers of this wiki will notice overlap with the timed escalation our [Extraction Guide](/guides/extraction-guide) and [Combat & Survival Guide](/guides/combat-survival-guide) call the **Forest Awakens** — the hidden escalation state that multiplies spawns and can relocate the extraction point. The only thing the developer says about it by name is that it is tunable: *"Enemies take longer to spawn when the forest wakes up"* (patch 1.01). **No source publishes a duration for it, so any specific minute figure you read — including on this wiki — is unsourced.**
 
 The honest relationship: **editorial sources do not cleanly separate the two.** Gameplay.tips treats "the forest begins to awaken" and "the timer expires" as two triggers for the same continuous-spawn outcome. NoobFeed treats the Blood Moon as noise-driven and never mentions a timer. The game may have two escalation triggers (a noise meter and a mission timer) that overlap — or different guides may describe one system with two names. **We do not have an official answer.**
 
-What you can rely on regardless of naming: noise discipline prevents the red-moon wave; extracting before ~30 minutes prevents the timed awakening. If the moon is red *and* you are past the half-hour mark, you are in the worst case — fight to the wagon and extract.
+What you can rely on regardless of naming: noise discipline reduces how fast the forest escalates, and extracting early avoids the late-run state entirely. If the moon is red *and* the forest is awake, you are in the worst case — fight to the wagon and extract.
 
 ---
 
@@ -143,7 +147,7 @@ A: Guides disagree. Treat both as "the forest escalating" and respect both trigg
 - [Gameplay.tips — Essential Survival Tips](https://gameplay.tips/guides/the-mound-omen-of-cthulhu-essential-survival-tips.html) — the "forest aggression" trigger list and the red/purple-moon danger tell.
 - [ChapterCheats — Managing Noise During Expeditions](https://www.chaptercheats.com/cheat/playstation5/702343/the-mound-omen-of-cthulhu/hint/219169) — the "hidden danger meter" and the hostile wave it triggers.
 
-> **Honesty note:** The name "Blood Moon" comes from a single editorial guide (NoobFeed); Gameplay.tips corroborates the red-moon danger tell and ChapterCheats corroborates the noise meter, but neither uses the exact term. Steam Community thread bodies and review quotes could not be captured at the time of writing (Steam blocks community pages to automated tools), so no player quotes were used. Single-guide details (teleporting waves, Black Ichor distraction, the Tulu cylinder trigger) are marked **[Unconfirmed]**.
+> **Honesty note:** The name "Blood Moon" comes from a single editorial guide (NoobFeed); Gameplay.tips corroborates the red-moon danger tell and ChapterCheats corroborates the noise meter, but neither uses the exact term. **Player testimony:** one Steam review, captured for this correction, does use the term — *"Sanity, Isolation, Blood-Moon, and other game-mechanics don't have a gauge or progress-bar"* — which is evidence the community uses the name, and simultaneously evidence that the game never shows you the meter. The developer has never used the term (0 hits across all 39 announcements for appid `2569760`). Single-guide details (teleporting waves, Black Ichor distraction, the Tulu cylinder trigger) are marked **[Unconfirmed]**.
 
 ---
 

@@ -123,7 +123,7 @@ The Mound's durability system is simple to understand once you know it exists: g
 
 ## Related Guides
 
-- [Weapons Guide — All 6 Weapons & Best Loadouts](/guides/weapons-guide)
+- [Weapons Guide — Every Weapon & Best Loadouts](/guides/weapons-guide)
 - [Loadout Guide — Best Equipment for Every Expedition](/guides/loadout-guide)
 - [Crafting Recipes Guide — Galleon Station & Item Crafting](/guides/crafting-recipes)
 - [Beginner Guide — First 5 Hours](/guides/beginner-guide)

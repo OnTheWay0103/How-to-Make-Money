@@ -60,9 +60,7 @@ Setting up your controls and graphics correctly before your first expedition can
 | Sprint | Left Shift |
 | Crouch | Left Ctrl |
 | Walk (Slow) | Alt |
-| Jump | Space |
 | Interact | E |
-| Use Item | Q |
 
 ### Combat
 
@@ -74,7 +72,7 @@ Setting up your controls and graphics correctly before your first expedition can
 | Swap Weapon | 1 / 2 |
 | Melee Attack | V |
 | Throw Item | G |
-| Block / Parry | Q |
+| Block | Q (added in patch 1.02 — official binding) |
 | Toggle Weapon Light | F |
 
 ### Inventory and Tools
@@ -110,14 +108,13 @@ Setting up your controls and graphics correctly before your first expedition can
 | Look / Aim | Right Stick |
 | Sprint | L3 (click left stick) |
 | Crouch | R3 (click right stick) |
-| Jump | Cross (X) |
 | Interact | Circle (O) |
 | Primary Attack | R2 |
 | Aim / Secondary Attack | L2 |
 | Reload | Square |
 | Use Item | Triangle |
-| Melee Attack | R1 |
-| Block / Parry | R1 |
+| Melee Attack | R1 `[Unconfirmed — conflicts with the officially documented block binding below]` |
+| Block | R1 (added in patch 1.02 — official binding) |
 | Open Inventory | Touch Pad |
 | Open Map | D-Pad Up |
 | Quick Slot Cycle | D-Pad Left / Right |
@@ -137,14 +134,13 @@ Setting up your controls and graphics correctly before your first expedition can
 | Look / Aim | Right Stick |
 | Sprint | L3 (click left stick) |
 | Crouch | R3 (click right stick) |
-| Jump | A |
 | Interact | B |
 | Primary Attack | RT |
 | Aim / Secondary Attack | LT |
 | Reload | X |
 | Use Item | Y |
-| Melee Attack | RB |
-| Block / Parry | RB |
+| Melee Attack | RB `[Unconfirmed — conflicts with the officially documented block binding below]` |
+| Block | RB (added in patch 1.02 — official binding) |
 | Open Inventory | View Button (select) |
 | Open Map | D-Pad Up |
 | Quick Slot Cycle | D-Pad Left / Right |

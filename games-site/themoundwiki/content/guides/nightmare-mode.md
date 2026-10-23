@@ -1,135 +1,125 @@
 ---
-title: "The Mound Nightmare Mode Guide — Modifiers, Builds, and Rewards"
-description: "Complete Nightmare Mode guide for The Mound: Omen of Cthulhu. How to unlock Nightmare contracts, every modifier, sanity pressure changes, required loadouts, and the reward table."
+title: "The Mound Difficulty Guide — Is There a Nightmare Mode?"
+description: "The Mound: Omen of Cthulhu has no Nightmare Mode and no modifier pool. What difficulty actually looks like — contract tiers, the Forest Awakens escalation, and squad scaling — verified against all 39 official announcements."
 category: "Guides"
 version: "1.0"
-updated: "2026-07-31"
-keywords: ["themound nightmare mode", "themound nightmare contracts", "themound hard difficulty", "themound modifiers", "themound nightmare rewards", "themound endgame"]
-related: ["contracts-guide", "sanity-guide", "extraction-guide", "daily-challenges", "combat-survival-guide"]
+updated: "2026-09-17"
+keywords: ["themound nightmare mode", "themound difficulty", "themound hard mode", "themound forest awakens", "themound contract tiers", "themound endgame"]
+related: ["contracts-guide", "sanity-guide", "extraction-guide", "progression-system-guide", "characters-classes"]
 ---
 
-# Nightmare Mode Guide — Modifiers, Builds, and Rewards
+# Difficulty Guide — Is There a Nightmare Mode?
 
-> Launch Version / Updated: July 31, 2026
+> **Rewritten September 17, 2026.** This page used to describe a "Nightmare Mode" with a seven-card
+> modifier pool, an unlock checklist, a reward table and modifier combos. None of it exists. See
+> [Why this page was rewritten](#why-this-page-was-rewritten).
 
-Nightmare Mode is The Mound's endgame difficulty. Unlocked after you complete every contract tier at least once (including a Legendary contract), it re-rolls the expedition with stacked modifiers that punish everything the base game taught you. It is also the only reliable source of the highest-tier gear and the season's exclusive cosmetics. This guide covers the unlock, the modifier pool, and what changes in your loadout.
+**No.** The Mound: Omen of Cthulhu has no Nightmare Mode, no hard mode, no difficulty selector, and
+no modifier pool. There is no menu option, no unlock, and no contract board seal. If you are looking
+for a harder mode to switch on, it was never added.
 
----
-
-## Unlocking Nightmare Mode
-
-| Requirement | Detail |
-|-------------|--------|
-| Galleon level | Galleon Rank 4 |
-| Contract progress | Complete one contract of every tier, including Legendary |
-| Daily challenges | Complete 10 Hard daily challenges |
-| First clear | Solo or co-op Nightmare run for the permanent unlock |
-
-After unlock, Nightmare contracts appear on the contract board with a red seal and a skull marker. They replace the board's top tier until the expedition cycle ends.
+That is not a criticism — it is a design fact worth understanding, because **the pressure in this
+game comes from the clock and the contract, not from a difficulty setting.** Players do ask for one:
+*"I would not recommend this until they add a difficulty level or level options"* is a recurring
+note in the review corpus. As of patch 1.05 that request is still open.
 
 ---
 
-## Nightmare Modifiers
+## What actually makes a run harder
 
-Each Nightmare contract rolls 3 modifiers (always different) from the pool below:
+### Contract tiers
 
-| Modifier | Effect | Counter |
-|----------|--------|---------|
-| **Thicker Dark** | Sanity drains 40% faster | Sanity-heavy loadout, keep lanterns lit |
-| **Bloodthirst** | Enemies heal on hit for 3s after damage | Hit-and-run; never trade blows |
-| **Hollow Veil** | 50% of hallucination fakes are perfect copies | Slower checks, call every object to the team |
-| **Ravenous** | Healing items restore 30% less | Stack bandages, prioritize dodging |
-| **Mourning Bells** | Boss phases rotate in random order | Learn every phase, not just the opener |
-| **Twin Shadows** | Elite enemies spawn in pairs | Split them with aggro or pull with flare |
-| **Weight of the Mound** | Carry capacity reduced by 15% | Trim loadout — drop second weapon |
+Contracts are the game's difficulty axis. The Captain offers a selection each cycle, and the
+further you push the deeper the danger — the developer's framing is that *"The further you venture,
+the greater the dangers you will face."* Contract tiers pay differently too: patch 1.02 includes
+*"Slight increase for tokens given for contract tiers."*
 
-The modifier set is shown on the contract card. Read it at the Galleon — backing out of a run you cannot handle is not a failure; dying inside is.
+Richer contracts also come with richer objectives. Official examples of how contract content got
+harder over patches:
 
----
+- Patch 1.0: *"Contracts now display more mission information and a greater variety of treasure requirements"*
+- Patch 1.0: *"Better diversity of treasure shrines and additional treasure pickups in missions"*
+- Patch 1.02: *"Rescuing a character in the mainland means a contract is successful regardless of whether or not the treasure was returned"*
+- Patch 1.0: *"The mandatory hard cap at the end of missions has been removed: players can now remain on the mainland as long as they can survive"*
 
-## What Changes in Nightmare
+That last one is the real difficulty dial, and it is player-controlled: **you decide how long to
+stay.** Nothing forces you out except the forest.
 
-### Sanity Pressure
+### The Forest Awakens — the escalating clock
 
-- Sanity drains ~40% faster baseline, and faster with Thicker Dark
-- Hallucination checks are harsher; failing one drains a large chunk
-- Regeneration between fights is nearly nonexistent — items and Galleon rest are the only recovery
+This is the game's genuine endgame pressure, and it is official:
 
-**Rule**: every Nightmare loadout carries a sanity item (Candle Lantern or equivalent) even if your normal loadout does not. Sanity is the death clock here, not your health bar.
+> *"Enemies take longer to spawn when the forest wakes up."* — Patch 1.01 notes
 
-### Enemy Behavior
+The forest waking up is a timed escalation inside every expedition. The press briefing for the game
+describes the AI Director behind it: *"Cthulhu's new gig as an AI Director"* (Rock, Paper, Shotgun,
+a feed item on the game's own Steam news page). The best available evidence for the *timing* is
+player-reported and inconsistent:
 
-- Mobs detect you from further away and path more aggressively
-- Elites gain one new attack each (telegraphed, but fast)
-- Bosses enrage below 30% HP — burst them down, do not extend the fight
+| Phase | What changes | Source |
+|-------|--------------|--------|
+| Quiet | Standard patrol spacing, predictable routes | Official gameplay descriptions |
+| Waking | Spawn rate climbs; enemies converge on noise | Patch 1.01 (spawn timing), player reports |
+| Awake | Sustained pressure — the run is over when you decide it is | Player reports |
 
-### Extraction
+`[Unconfirmed — community reports put the onset loosely in the 30–45 minute window, but no official
+figure exists and reports are not consistent]`
 
-- The hidden timer warning appears earlier
-- The walk back to the shore is where elite spawns punish a squad that left it late — clear the approach before you commit to the walk out
-- The Mask of Nyarlathotep trick (walking through patrols) still works, but patrols have wider vision cones
+There is one other documented way to escalate a run on purpose: **send the Ox Wagon back.** Players
+report the driver blows a horn and *"enemy spawns drastically increase"* — which is why the same
+players advise against it. See the [Extraction Guide](/guides/extraction-guide).
 
----
+### Squad scaling
 
-## Nightmare Loadout Changes
+The game scales pressure against your group in ways the patch notes document directly:
 
-| Item | Change | Reason |
-|------|--------|--------|
-| Primary weapon | Keep your best; upgrade durability items | Damage check is real |
-| Secondary | Swap for a sanity item or flare | Utility beats backup DPS |
-| Healing | 3 Healing Salve + 3 Bandages minimum | Ravenous cuts effectiveness |
-| Weight | Stay under 60% | Weight of the Mound stacks on top |
-| Team role | Assign rear guard + sanity caller | Coordination is mandatory |
-
-**Team composition for Nightmare:**
-
-| Role | Job | Loadout Focus |
-|------|-----|---------------|
-| Pointman | Pulls, calls hallucinations | Sanity items, mid-range weapon |
-| Guard | Protects extractor, holds chokepoints | Tanky kit, flares |
-| Extractor | Carries loot, leads the walk out | Weight-light, speed boots |
-| Caller (if 4th) | Reads modifiers, manages timer | Anything, pure awareness |
+- *"Migo enemy captures players for less time in Single-Player"* — patch 1.02. Solo play gets a softer version of at least one grab attack.
+- *"Fix for multiple enemies of the same class spawning in some missions"* — patch 1.02. Spawn composition was bugged at launch, so "too many of the same elite" was a defect being fixed, not a difficulty tier.
+- *"Rescuing a character in the mainland means a contract is successful regardless of whether or not the treasure was returned"* — patch 1.02, a mercy rule, not a modifier.
 
 ---
 
-## Rewards Table
+## How to make the game harder on yourself
 
-| Reward | Drop Source | Notes |
-|--------|-------------|-------|
-| Nightmare-tier weapons | Boss + extraction chest | Highest base damage in the game |
-| Nightmare sigils | Contract completion | Material for the Galleon upgrade tier |
-| Exclusive cosmetics | First Nightmare clear of the week | Resets weekly |
-| Bonus Gyldenblood | Extraction bonus scaling | 1.5x normal payout per contract |
+There is no setting, but the levers are real and they compound:
 
----
-
-## Dangerous Modifier Combos
-
-Modifiers do not exist in isolation — pairs can stack into run-ending threats. Know these before you accept a contract:
-
-| Combo | Why It Hurts | Response |
-|-------|--------------|----------|
-| Thicker Dark + Hollow Veil | Faster sanity drain plus perfect fakes means checks fail constantly | Double sanity items; caller checks every object, slowly |
-| Ravenous + Bloodthirst | Your heals are weaker while enemies heal on hit — trading blows loses | Hit-and-run only; flares to break enemy focus |
-| Weight of the Mound + Mourning Bells | Reduced carry weight plus randomized boss phases forces retries | Minimal loadout; study all boss phases before the run |
-
-If a rolled combo includes Thicker Dark, consider skipping the contract — sanity pressure is the leading cause of Nightmare deaths, and it compounds with every other modifier.
-
-## Nightmare Checklist
-
-- [ ] Read the modifier card before accepting
-- [ ] Confirm every player has a sanity item equipped
-- [ ] Trim weight under 60% before leaving the Galleon
-- [ ] Assign roles: pointman, guard, extractor
-- [ ] Call hallucinations out loud — never assume they are real
-- [ ] Expect the timer warning earlier; extract with margin
+1. **Stay longer.** The forest clock is the difficulty. Extracting early is easy mode.
+2. **Take the richest contract on the board.** Token payout scales with tier; so does the danger.
+3. **Send the Ox Wagon home.** Documented to spike enemy spawns — the community's standard "why would you ever" button.
+4. **Bring the wrong guns when it rains.** A soaked fuse means gunpowder weapons will not fire; *"A soaked fuse means your gunpowder weapons won't fire when you need them most."*
+5. **Split the party.** Sanity effects are per-player, but the errors they cause are team-wide, and the game has no dodge to escape a bad position.
 
 ---
 
-## Related Guides
+## Why this page was rewritten
 
-- [Contracts Guide — Choosing the Right Contract](/guides/contracts-guide)
-- [Sanity Guide — Surviving the Madness System](/guides/sanity-guide)
-- [Extraction Guide — How to Get Out Alive](/guides/extraction-guide)
-- [Daily Challenges Guide — Rewards and Tiers](/guides/daily-challenges)
-- [Combat & Survival Guide — Combat Fundamentals](/guides/combat-survival-guide)
+The old page described a full difficulty mode. Every element was invented:
+
+| Old claim | Evidence |
+|-----------|----------|
+| A "Nightmare Mode" unlocked after completing every contract tier | `nightmare` = **1 hit** in all 39 official announcements, and it is figurative — *"they're all leading to a new nightmare"* |
+| Unlock requirements: "Galleon Rank 4", "10 Hard daily challenges", "Legendary contract" | No official source mentions a Galleon Rank, Hard daily challenges, or a Legendary contract tier |
+| Seven modifiers — Thicker Dark, Bloodthirst, Hollow Veil, Ravenous, Mourning Bells, Twin Shadows, Weight of the Mound | `modifier` = **0 hits** in all 39 announcements and **0** on the store page. Not one of these names appears anywhere |
+| Precise modifier effects (40% faster Sanity drain, 3s enemy heal-on-hit, 50% perfect fakes, 30% weaker healing, 15% carry reduction) | No official source publishes any of these numbers |
+| A rewards table (Nightmare sigils, weekly exclusive cosmetics, 1.5× Gyldenblood) | Invented |
+| "Dangerous modifier combos" | Built on the invented modifiers |
+| A "Galleon level / Galleon Rank 4" progression gate | The game has no documented Galleon rank |
+
+**The only community uses of "nightmare" in the review corpus are idiomatic** — *"100% nightmare
+fuel - love it"* and *"getting a mixed group together is a nightmare"* — plus one *request* for
+random modifiers: *"higher tiers of weapons maybe even with random modifiers to create that sense of
+tension."* A request is a gap signal, not evidence the feature exists.
+
+### Method
+
+- **Official corpus:** Steam `ISteamNews` for app ID `2569760`, all **39** items, full text.
+- **App-ID check:** `2569760` plus four add-on apps (`4630450`, `4630440`, `4630460`, `4925780`), each queried for its own news feed and returning **0 items** — no second announcement stream exists.
+- **Store page:** `appdetails` for `2569760`, English — `nightmare` 0, `modifier` 0.
+- **Community corpus:** Steam `appreviews` with `json=1`, independent review IDs retained.
+
+## See also
+
+- [Contracts Guide](/guides/contracts-guide) — how contract tiers work
+- [Extraction Guide](/guides/extraction-guide) — the walk out and the forest clock
+- [Perks & Progression](/guides/perks-guide) — what progression actually is
+- [Characters & Classes](/guides/characters-classes) — no classes, no difficulty tiers

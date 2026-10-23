@@ -1,187 +1,230 @@
 ---
-title: "The Mound Walkthrough Guide — Complete Story & Mission Progression"
-description: "Complete The Mound: Omen of Cthulhu walkthrough. The story so far, how story progression works, every chapter and boss encounter explained with strategies, the truth beneath the mound, all three endings, and what to do after the story."
+title: "The Mound Walkthrough — How the Story Actually Unfolds"
+description: "An honest walkthrough of The Mound: Omen of Cthulhu. The prologue, the contract loop run from the Galleon, the mission types players actually report, how logbooks unlock new areas and carry the story, and the real final mission — with the three-phase, Reputation and six-boss structure removed and explained."
 category: "Guides"
 version: "1.0"
-updated: "2026-08-10"
-keywords: ["The Mound Omen of Cthulhu walkthrough", "The Mound Omen of Cthulhu how to play", "The Mound Omen of Cthulhu guide", "The Mound Omen of Cthulhu story guide", "The Mound walkthrough", "The Mound main quest", "The Mound endings"]
-related: ["beginner-guide", "contracts-guide", "extraction-guide", "enemy-bestiary", "coop-strategy-guide", "ending-guide", "trophy-achievement-guide"]
+updated: "2026-09-17"
+keywords: ["The Mound Omen of Cthulhu walkthrough", "The Mound Omen of Cthulhu story guide", "The Mound mission types", "The Mound prologue", "The Mound logbook", "The Mound final mission", "The Mound how long to beat"]
+related: ["beginner-guide", "contracts-guide", "extraction-guide", "enemy-bestiary", "maps-locations-guide", "boss-weakness-drops-chart"]
 ---
 
-# The Mound: Omen of Cthulhu — Walkthrough & Story Guide
+# Walkthrough — How the Story Actually Unfolds
 
-> **Launch Version / Updated: August 10, 2026**
+> **Rewritten September 17, 2026.** This page used to describe a three-phase story with a Reputation
+> ladder, six boss encounters and three endings. There is no Reputation system, there are no bosses,
+> and no source documents three endings. See [Why this page was rewritten](#why-this-page-was-rewritten).
 
-Story progression in The Mound is driven by Contracts you accept from the Galleon's Contract Board. As your faction reputation grows, new islands, enemies, and story revelations unlock. This walkthrough covers the story so far, the critical path through all three phases, every boss encounter with strategies, the three endings, and what comes after.
+The Mound: Omen of Cthulhu tells its story **through contracts**, not through chapters. You accept a
+job from the Captain aboard the Galleon, land on the mainland, do the job, and walk back out. What
+advances the plot is not a Reputation score — it is the **logbooks you carry home.** That is the whole
+structure, and once you understand it the game stops feeling shapeless.
 
----
-
-## The Story So Far — 1652, the New World
-
-The Mound: Omen of Cthulhu is set in **1652**, adapted from H.P. Lovecraft's novella *The Mound*. You play one of four conquistador explorers who have sailed to the New World chasing rumors of gold. What they find beneath a cursed mountain is far older than any empire — and it has been waiting.
-
-The game opens with a short, single-player **prologue as Zamacona**, the expedition's leader: a sub-three-minute walking sequence that ends in a mental scar. It is the game's first lesson — the island gets into your head long before the monsters appear. From there, the story is told entirely through expeditions you run from the Galleon.
-
----
-
-## How Story Progression Works
-
-Story progress in The Mound is not linear — it is driven by the contracts you take from the **Captain's table on the Galleon's top deck**:
-
-1. **Choose a contract** — most ask you to find treasure worth a set amount (e.g., 1,700 gold) or retrieve a specific item.
-2. **Pick a location and modifiers** — weather and time of day matter: rain disables firearms, night and fog cut visibility.
-3. **Complete the expedition** and return to the **Boatman** at the starting location to extract.
-4. **The Captain tallies your haul** and rewards Reputation, Upgrade Tokens, and XP.
-
-Reputation unlocks new islands and story stages. Some contracts — especially **logbook retrievals from forts** — unlock entirely new locations and advance the narrative, so prioritize them if you want to see the story through quickly.
-
-### Story Progression Overview
-
-| Phase | Reputation | Key Events |
-|-------|-----------|------------|
-| **Phase 1: First Contact** | 0 – 2,000 | Tutorial, Isle of Voices, basic Y'm-bhi |
-| **Phase 2: The Deeper Dark** | 2,000 – 6,000 | Sunken Grotto, Wraiths, first boss: The Lurker Below |
-| **Phase 3: The Mound Awakens** | 6,000 – 12,000 | The Mound interior, elite enemies, final boss: High Priest of Cthulhu |
-
-Focus on Faction Contracts (marked with a faction emblem) for fastest story progression.
+Here is the honest walkthrough, in the order the game actually gives it to you.
 
 ---
 
-## Chapter 1 — The Lost Patrol (Tutorial, Phase 1)
+## Step 0 — The prologue
 
-Locate a missing scouting party on the Isle of Voices and retrieve their logbook. It teaches the core loop: follow the shoreline, sneak past the first Y'm-bhi, and reach the cave at the island's center.
+The game opens with a short, scripted, single-player sequence before the co-op loop begins. It is the
+one piece of the game that is not a contract.
 
-1. Follow the shoreline path northeast from the Galleon landing.
-2. Encounter Y'm-bhi Scouts — slow, easily backstabbed with the Machete.
-3. The logbook is inside a cave at the island's center. Expect a scripted Sanity hallucination sequence.
-4. Extraction point spawns on the southern beach. **No hidden timer.**
+- **It is short.** The most useful measurement comes from a player: *"The prologue is like 2 minutes
+  long and could use a little more to introduce you to the game"* — review `234246354`, 1 Sep 2026.
+- **The developer extended it after launch.** Launch update notes list *"Prologue ending cinematic
+  extended with additional narration"* — so if you played at release and found it abrupt, that is why.
+- **It does not teach you the game.** This is the most consistent complaint in the corpus:
+  *"The game has no proper tutorial, you'd think that the prologue would teach you the basics but
+  it's absolutely nothing. No idea why it isn't just a cutscene that plays when you start a new game.
+  You need to go to the guidebook in the pause menu to learn to play"* — review `230777045`,
+  18 Jul 2026, **1,230 upvotes**. A second reviewer (131 upvotes) is blunter: *"DO NOT Play the
+  Prologue. Idk why you added it, it's such a goofy waste of time where you pick up a machete for no
+  reason to do literally nothing."*
 
-**Story hook:** the logbook reveals fragments of a *previous* expedition that encountered "the thing beneath the mountain." Nobody who saw it came back unchanged.
-
-**Reward:** 200 Reputation, Crossbow blueprint, 50 Currency.
-
----
-
-## Chapter 2 — First Contact (Phase 1)
-
-After the tutorial, run Recon contracts on the Isle of Voices: mapping landmarks, collecting lore pages, and learning how the Y'm-bhi behave. Lore pages scattered across the island fill in the backstory — a prior conquistador crew, an ancient underground city, and a cult that still serves the thing below.
-
-| Difficulty | Recommended | Objectives |
-|------------|-------------|-----------|
-| Easy | Crossbow + Machete | Map 2 landmarks, return 3 caches |
-| Medium | Crossbow + Flintlock | Collect 3 lore pages, kill 5 Y'm-bhi |
-| Hard | Oil Lamp + Matchlock | Survive 15 min, extract with relic |
-
-**Milestone:** reach 2,000 Reputation to unlock the next stage of the story.
+> **Zamacona.** The expedition's leader is named after **Pánfilo de Zamacona** from Lovecraft's
+> novella *The Mound* — the developer quotes the line directly in its *"Lovecraft in the Age of
+> Discovery"* post: *"Before that gulf Pánfilo de Zamacona and I stood side by side."* He is a real,
+> named character in the game, and a player who finished it confirms *"Zamacona being alive at the end
+> is cool"* (review `231567935`, 29 Jul 2026, **449 upvotes**).
+> *[Unconfirmed — which character the prologue hands you control of is not stated in any official
+> announcement, and no review examined for this page names the playable prologue character.]*
 
 ---
 
-## Chapter 3 — The Deeper Dark (Phase 2)
+## Step 1 — The contract loop
 
-At 2,000 Reputation, **The Sunken Grotto** unlocks — a flooded cave system with tighter corridors and tougher enemies.
+Everything after the prologue runs on one loop. The developer's own description is the best guide:
 
-**New Enemies:** Wraith Scouts (patrol in pairs), Y'm-bhi Stalkers (detect from range, pursue through rooms), Leech Swarms (in water, damage over time).
+> *"Each contract comes with a selection of equipment for your party — a handful of weapons, a few
+> precious supplies, a single lamp against the oppressive dark. These are not individual loadouts;
+> they are a shared arsenal."*
+> — *The Captain's bargain: Choosing your contract*
 
-### Critical Contract — "Whispers in the Deep"
+And the objective structure, also official:
 
-Your first boss encounter. Clear three side chambers to disable spore vent traps, then proceed to the lowest chamber.
+> *"Sometimes, your goal will be one of pure value: 'Bring at least 800 worth of value' in treasures
+> and relics. Other times, the demand will be specific: a list of resources the jungle holds, such as
+> '15 mushrooms, 5 logs, and 2 small animals.'"*
 
-### Boss: The Lurker Below
+The loop:
 
-| Stat | Detail |
-|------|--------|
-| **HP** | ~1,200 (solo), scales with group |
-| **Weakness** | Oil Lamp fire (bonus damage + stagger) |
-| **Resistance** | 50% ballistic damage reduction |
-| **Phase 1** | Tentacle sweep, ink spit (blind 3s) |
-| **Phase 2 (50%)** | Summons 4 Leech Swarms, rising flood |
-
-**Strategy, Phase 1:** Stay at mid-range. Dodge the tentacle sweep by rolling *toward* it. Use Crossbow for consistent DPS.
-
-**Strategy, Phase 2:** Move to raised platforms. One Oil Lamp throw kills an entire Leech Swarm. Staying dry prevents rapid Sanity drain. One player kites the Lurker while others clear swarms.
-
-**Reward:** 800 Reputation, Grotto Key (unlocks Phase 3), Mask of Dagon cosmetic.
+1. **Board the Galleon.** Buy gear, equip Saints at the ox wagon (patch 1.01 moved them there; patch 1.02 cut their cost), and spend tokens at the Weapon Upgrade Anvil.
+2. **Take a contract from the Captain.** Contracts show an objective, a payout of *"Experience… and Tokens to spend at the occult shop"*, and — since the launch update — *"more mission information and a greater variety of treasure requirements"*.
+3. **Pick a destination and row out to the mainland.** The demo briefing describes the loop as *"select your destination before rowboating into the unknown"* — the destination is chosen at the Galleon, and forts are the headline target: the same briefing promises *"5 forts are available for exploration!"* Once ashore, you escort the ox cart. *"The deeper you go, the more the jungle changes."*
+4. **Complete the objective** while the forest wakes up around you.
+5. **Walk back to the landing point and extract.** Patch 1.01 removed the mandatory mission time cap: *"players can now remain on the mainland as long as they can survive."*
 
 ---
 
-## Chapter 4 — The Mound Awakens (Phase 3)
+## Step 2 — What the missions actually are
 
-At 6,000 Reputation, **The Mound Interior** unlocks — the final area with permanent darkness, elite enemy variants, and 25% faster Sanity drain.
+Mission variety is thin, and players say so. The canonical list comes from a review:
 
-### Critical Contract — "Descent into the Mountain"
+> *"the mission variety is basically nonexistent, it's retrieve a logbook, reclaim a fort, or retrieve
+> a steel canister, over and over"* — review `233098870`, 18 Aug 2026
 
-A three-floor multi-stage expedition requiring a key item from each floor.
+A more generous and more complete account from another player:
 
-**Floor 1 — The Antechamber:** Activate three glyph pedestals (order hinted in Phase 2 lore pages). Elite Stalkers and Wraith Archers guard this floor. **Key:** Stone Tablet.
+> *"having only 'Find the Treasures,' 'Find the Fort,' and 'Close the Portal' as mission types is very
+> limited. Later on, there are 'Find a specific Item' missions, plus the final mission"*
+> — review `234866801`, 9 Sep 2026
 
-**Floor 2 — The Hall of Whispers:** Whispering walls drain Sanity rapidly. Enemy density peaks here — pull groups carefully. **Key:** Obsidian Seal.
+And a third adds the variant types: *"Most of the time its to find treasure, but others it's hunt a
+monster or extract a survivor."* (review `230777045`, 1,230 upvotes)
 
-**Floor 3 — The Inner Sanctum:** Short corridor with constant Sanity drain. Stock up on recovery before entering the boss arena.
+| Mission family | What you do | Source |
+|----------------|-------------|--------|
+| **Find the Treasures** | Hit a target value in loot and carry it out | Player-reported; objectives confirmed by the developer's contract briefing |
+| **Find / reclaim the Fort** | Take a fort and recover its logbook | Player-reported as a mission type; **forts themselves are official** — the demo briefing announced *"5 forts are available for exploration!"*, and the store page ties them to the logbook unlocks |
+| **Close the Portal** | Shut down a portal objective | Player-reported. The developer's patch 1.01 references a *"Censer mission"* with *"purple corruption areas"*, which matches what players describe |
+| **Retrieve a specific item** | Bring back one named object, e.g. a steel canister | Player-reported |
+| **Hunt a monster / extract a survivor** | Kill a target, or find and bring a survivor home | Player-reported. The survivor route is officially blessed: patch 1.02 — *"Rescuing a character in the mainland means a contract is successful regardless of whether or not the treasure was returned"* |
+| **The final mission** | The last contract of the main story | Player-reported |
 
-### Final Boss: High Priest of Cthulhu
-
-| Stat | Detail |
-|------|--------|
-| **HP** | ~3,500 (solo), scales with group |
-| **Weakness** | Fire (Oil Lamp, explosives) |
-| **Resistances** | Immune to backstab, high ballistic resistance |
-| **Phase 1** | Shadow bolt, summon 2 Wraiths, teleport slam |
-| **Phase 2 (60%)** | AoE Sanity scream, spawn 4 Wraiths, darkness pulse |
-| **Phase 3 (25%)** | Enrage — double attack speed, constant Sanity drain |
-
-**Strategy:**
-- **Phase 1:** Disperse to avoid AoE. Roll the moment you see the shadow beneath a teleport. Kill summoned Wraiths immediately.
-- **Phase 2:** Ensure all players are above 60% Sanity before crossing the threshold — the scream breaks anyone below 40%. Pop Salves proactively.
-- **Phase 3:** Burn all remaining resources. Oil Lamp throws are your highest DPS.
-
-**Reward:** 3,000 Reputation, "The Mound Cleared" title, The Purifier (fire-enhanced Crossbow blueprint).
+> **Read that table as player-reported.** The developer publishes the *contract framework* and the
+> objective grammar — value thresholds, resource lists — but not a mission-type menu. The names above
+> are what the player base calls them.
 
 ---
 
-## The Truth Beneath the Mound
+## Step 3 — Logbooks are the real progression
 
-The story's central revelation, buried in lore pages and the final descent, is that **the entity is not Cthulhu itself but an avatar** — a fragment of a far greater cosmic being imprisoned beneath the New World for millennia. And the Y'm-bhi were never corrupted; they were **chosen as guardians** of the seal, killing anyone who gets too close to the truth.
+If you take one thing from this walkthrough, take this: **logbooks open the map.**
 
----
+> *"Remember to collect Logbooks whenever you enter a new area — they unlock additional locations and
+> are essential for progressing further"* — review `230534657`, 15 Jul 2026, **425 upvotes**
 
-## Three Endings
+The store page states the same mechanic from the developer's side: *"Discover abandoned forts during
+your expedition and recover their logbooks to unlock them as new starting point for future
+expeditions."*
 
-After defeating the High Priest, your choice (plus your Reputation and Lore Page collection) determines which of the three endings you get:
+Fort logbooks are also where the narrative lives: the launch update added *"hand-drawn art pieces…
+accompany logbook narrations on the rowboat map"*, and the demo update added *"guidebook codex pages…
+discovered across the mainland"* so you *"piece together more of what The Mound doesn't want you to
+know."*
 
-| Ending | Requirement | Result |
-|--------|-------------|--------|
-| **The Escape** | Default | You flee through the portal — free in body, bound in mind |
-| **The Containment** | 8,000+ Reputation | You seal the chamber and defend it for 3 waves, becoming the Mound's new warden |
-| **The Revelation** (True) | All Lore Pages + 12,000 Reputation | You descend and witness the entity's true form — and choose what you become |
-
-Full unlock paths are in our [Ending Guide](/guides/ending-guide).
-
----
-
-## After the Story
-
-Clearing the story unlocks **Endless Expeditions** — harder versions of all three phases with exclusive loot: Cursed Relic weapons (Blighted Mound), Shadow Armor set (Nocturnal Hunt), and the "Survivor" title (The Gauntlet). It also unlocks **New Game+** with bonuses that carry over, including the **Corrupted Key**, which opens a hidden Legendary weapon room in the tutorial area.
+**There is no Reputation system.** `reputation` returns 0 hits in the 39 official announcements and 0
+in the 576 reviews. Nothing is gated behind a score.
 
 ---
 
-## Critical Path (Minimum Expeditions)
+## Step 4 — The late game and the final mission
 
-1. "The Lost Patrol" (tutorial) — 200 Rep
-2. 5 – 6 Easy Recon Contracts — ~2,000 Rep
-3. "Whispers in the Deep" — +800 Rep
-4. Hard Recon + Escort Contracts — ~3,200 Rep
-5. "Descent into the Mountain" — +3,000 Rep
+Late in the story, contracts start sending you after specific artifacts players call **Tulu Cylinders**
+(player-reported name — three review mentions, zero official uses). The stretch ends with a mission
+inside the Mound itself:
 
-**Total:** 10 – 12 expeditions | Story completion: 8 – 12 hours.
+> *"Then came the final mission, entering the mound. It was disappointing enough that we didn't
+> actually have to place the Tulu Cylinders in the pedestals and open the passage ourselves — which
+> had the potential to be actually difficult… the mission itself took us 15 minutes."*
+> — review `234975735`, 11 Sep 2026
+
+Around it sits a section players call **Kn'yan** (2 review mentions, 0 official), and the free
+**Temple of Yig** DLC mission, which the developer describes as *"a unique area of the cursed jungle."*
+
+**There is no final boss.** No boss of any kind is documented in this game — that finding is written
+up in full on [Is There Boss Content?](/guides/boss-weakness-drops-chart).
+
+### What players say about the ending
+
+Reception is genuinely mixed, and the pattern is worth knowing before you invest 20 hours:
+
+- *"was dissapointed in ending, was hoping a boss fight or something more"* — review `234630362`, 6 Sep 2026
+- *"super underwhelming ending. Feeling no sense of accomplishment or special rewards for beating the final mission"*
+- *"The Temple of Yig and the last mission are too easy despite being a feast for the eyes. One of the worse finales I've played."*
+- *"[spoiler] Zamacona being alive at the end is cool"* — review `231567935`, 449 upvotes
+
+> **On "three endings":** the string `endings` returns **0 hits** in the announcements and **0 hits**
+> in the reviews. The verified player reports describe **one** scripted finale. The three-ending table
+> this page used to carry — "The Escape", "The Containment", "The Revelation", gated on 8,000 and
+> 12,000 Reputation — was invented, and the [Ending Guide](/guides/ending-guide) should be read with
+> that in mind until it is rewritten.
 
 ---
 
-### Related Guides
+## A realistic critical path
 
-- [Beginner Guide: First Expeditions](/guides/beginner-guide) — Core loop and starting tips
-- [Contracts Guide](/guides/contracts-guide) — All contract types explained
-- [Extraction Guide — When and How to Escape](/guides/extraction-guide) — Survival and escape tactics
-- [Enemy Bestiary — All Y'm-bhi & Creature Types](/guides/enemy-bestiary) — Enemy behavior and weaknesses
-- [Co-op Strategy Guide](/guides/coop-strategy-guide) — Team coordination and loadout synergy
-- [Ending Guide](/guides/ending-guide) — All 3 endings and how to get them
-- [Trophy Guide](/guides/trophy-achievement-guide) — All 28 achievements
+There is no documented act structure, so here is the shape the corpus supports rather than a chapter
+list.
+
+| Stage | What you are doing | What ends it |
+|-------|--------------------|--------------|
+| **Prologue** | A short scripted opening sequence | It ends; the co-op loop begins |
+| **Early contracts** | Learning the objectives, the cart, and the noise system | You stop dying to the forest |
+| **Logbook phase** | Chasing fort logbooks to open new starting points and locations | New areas unlock |
+| **Artifact phase** | Contracts for specific items (player-reported: the Tulu Cylinders) | The last contract appears |
+| **Final mission** | Entering the Mound | The finale |
+
+One number worth calibrating against: a player reports *"we had to play for about 20 hours to reach"*
+the "Find a specific Item" missions and the final mission. Another describes the final mission itself
+as about 15 minutes. The bulk of your time is the middle, not the end.
+
+---
+
+## Why this page was rewritten
+
+| Removed claim | Evidence |
+|---------------|----------|
+| A three-phase story (Phase 1 / 2 / 3) gated on Reputation | `reputation` = **0 hits** in the 39 announcements and **0** in the 576 reviews. The only announcement uses of "phase" are *"during this testing phase"* and *"the current phase of The Mound"* — neither is a story act |
+| "Reputation unlocks new islands and story stages" | Invented. Location unlocks come from fort logbooks |
+| Chapter 1 "The Lost Patrol" tutorial on the "Isle of Voices" | `Isle of Voices` = **0/0**. There is a prologue, and it is not on a named island |
+| Chapter 3 "Whispers in the Deep" and boss **The Lurker Below** | Contract name **0/0**; boss **0/0**. Its stats ("~1,200 HP", "50% ballistic reduction", "Phase 2 at 50%: summons 4 Leech Swarms") were invented — *"Leech Swarm"* is **0/0** |
+| Chapter 4 "Descent into the Mountain" and final boss **High Priest of Cthulhu** | Contract name **0/0**; boss **0/0**. "3,500 HP", the three floor names (The Antechamber / The Hall of Whispers / The Inner Sanctum) and the keys (Stone Tablet, Obsidian Seal, Grotto Key) are all **0/0** |
+| "Roll the moment you see the shadow beneath a teleport" | **The game has no dodge roll.** No roll, no dodge and no jump are documented; players ask for them repeatedly. This line was carried over from a boss strategy for a boss that does not exist |
+| "The entity is not Cthulhu itself but an avatar" / "the Y'm-bhi were chosen as guardians of the seal" | Invented lore. The official Y'm-bhi profile describes *"reanimated bodies bound to the jungle"* that *"behave less like mindless undead and more like sentries"* — no guardian role is stated |
+| Three endings: The Escape / The Containment / The Revelation | `endings` = **0/0**. Requirements ("8,000+ Reputation", "All Lore Pages + 12,000 Reputation") are invented |
+| **Endless Expeditions** with Cursed Relic weapons, Shadow Armor and a "Survivor" title | `Endless Expedition` = **0/0**; the item names are **0/0** |
+| **New Game+** with a **Corrupted Key** opening a hidden Legendary weapon room | `New Game` = 0 announcement hits; the one review hit is the phrase "when you start a new game". `Corrupted Key` = **0/0** |
+| "200 Reputation, Crossbow blueprint, 50 Currency" chapter rewards | Invented. Contract payouts are experience and tokens |
+| "Story completion: 8 – 12 hours" and "10 – 12 expeditions" | Invented precision. No announcement states a length; players report ~20 hours to reach the late missions |
+
+### Method
+
+- **Official corpus:** Steam `ISteamNews` for app ID `2569760`, all **39** items, full text.
+  Reproduced with case-insensitive regex over the 39 news blocks: `reputation` = **0**;
+  `Isle of Voices` = **0**; `High Priest` = **0**; `Lurker Below` = **0**; `Endless Expedition` = **0**;
+  `Corrupted Key` = **0**; `New Game` = **0**; `endings` = **0**; `phase` = **2**, both non-story
+  (*"during this testing phase"*, *"the current phase of The Mound"*).
+- **Positive controls in the same pass:** `prologue` = **1** (*"Prologue ending cinematic extended
+  with additional narration"*); `Zamacona` = **1** (the Lovecraft quotation); `logbook` = **2**;
+  `mainland` = **4**; `\bfort` = **3** (the two extra substring hits are inside "Fortune Hunters" and
+  "comfort"). The script returns real hits for real terms and zero for invented ones.
+- **App-ID check:** `2569760` plus four add-on apps (`4630450`, `4630440`, `4630460`, `4925780`), each
+  returning **0 news items** — no second announcement stream exists, and there is no separate demo or
+  playtest app feed.
+- **Community corpus:** Steam reviews, **576** unique items, IDs, dates and vote counts retained for
+  every quote. `boss` = **8 hits**, all inspected: six are players *asking for* bosses, one uses the
+  word loosely for large enemies, one is an ending complaint. `endings` = **0**; `reputation` = **0**;
+  `New Game` = **1** (the phrase "when you start a new game"); `prologue` = **6**, all read.
+- **Context, not counts:** `dodge` and `roll` together return 22 review hits; every one was read, and
+  they are players asking for a roll/dodge that does not exist plus "roll" as in *"a roll of the dice"*
+  and *"equipment roll"*. No review describes a dodge roll as a mechanic.
+- **Web cross-check:** performed by the audit lead; cited, not re-run for this page.
+
+## See also
+
+- [Is There Boss Content?](/guides/boss-weakness-drops-chart) — why there is no final boss
+- [Contracts Guide](/guides/contracts-guide) — objectives, payouts and picking a contract
+- [Maps & Navigation Guide](/guides/maps-locations-guide) — the mainland, the cart and the landing point
+- [Enemy Bestiary](/guides/enemy-bestiary) — what you meet on the way
+- [Extraction Guide](/guides/extraction-guide) — the walk back to the boat
+- [Beginner Guide](/guides/beginner-guide) — the first expedition, step by step

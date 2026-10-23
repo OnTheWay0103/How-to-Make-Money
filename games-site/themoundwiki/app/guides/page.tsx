@@ -7,7 +7,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'All Guides',
   description:
-    'Complete The Mound: Omen of Cthulhu guide collection — weapon classes and loadouts, builds, enemy and boss strategies, crafting recipes, sanity, contracts and extraction tips.',
+    'Complete The Mound: Omen of Cthulhu guide collection — the shared arsenal and loadouts, enemy and elite strategies, the sanity system, contracts, extraction tips, and honest corrections of the systems the game does not have.',
 };
 
 export default function GuidesPage() {

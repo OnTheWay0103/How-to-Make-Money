@@ -80,7 +80,7 @@ Two things are absent from all 39 announcements:
 - **No general reorder.** Reordering stays tied to the wagon (PC) and the hotbar (controller). No standalone inventory screen is announced.
 - **No capacity upgrade.** No backpack, pouch or slot expansion has ever been announced, despite repeated requests in July.
 
-If inventory space is your bottleneck, the answers available are loadout discipline and the wagon — a [weight-budgeting question](/guides/loadout-guide), not an inventory-management one.
+If inventory space is your bottleneck, the answers available are loadout discipline and the wagon — a [slot-budgeting question](/guides/loadout-guide), not an inventory-management one. (Note: the game has no weight system. `weight`, as a mechanic, returns **0 hits** across all 39 official announcements and **0** on the store page — what constrains you is slots.)
 
 ## Practical Inventory Workflow
 
@@ -117,7 +117,7 @@ If inventory space is your bottleneck, the answers available are loadout discipl
 
 ## Related Guides
 
-- [Loadout Guide — What to Bring, Slots and Weight Budgeting](/guides/loadout-guide)
+- [Loadout Guide — What to Bring, and How to Budget Your Slots](/guides/loadout-guide)
 - [Ox Cart Guide — Why It Won't Follow You and How to Control It](/guides/ox-cart-guide)
 - [Controls & Settings Guide — Keybindings, Graphics and Technical Fixes](/guides/controls-settings-guide)
 - [Update Log and Patch Notes — Version History](/guides/updates-patch-notes)

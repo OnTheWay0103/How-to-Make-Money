@@ -1,18 +1,26 @@
 ---
-title: "The Mound Weapons Guide — All 6 Weapons & Best Loadouts"
-description: "Complete weapons guide for The Mound: Omen of Cthulhu. All 6 weapons — Crossbow, Matchlock Arquebus, Flintlock Pistol, Francesca Axe, Machete and Oil Lamp — with deep dives, a tier list, ammo economy, how to unlock each weapon, and loadout recommendations for every squad size."
+title: "The Mound Weapons Guide — Every Weapon & Best Loadouts"
+description: "Complete weapons guide for The Mound: Omen of Cthulhu. The weapons the developer actually names — Crossbow, Matchlock Arquebus, Francesca Axe, Machete, pole weapons and the Oil Lamp — with role breakdowns, a loadout tier list, the shared-arsenal ammo economy, and loadout recommendations for every squad size."
 category: "Weapons"
 version: "1.0"
-updated: "2026-08-10"
+updated: "2026-09-17"
 keywords: ["The Mound weapons", "The Mound best weapons", "The Mound loadout", "The Mound Matchlock", "The Mound Crossbow", "The Mound Francesca Axe", "The Mound ranged weapons", "The Mound weapons tier list"]
 related: ["beginner-guide", "coop-strategy-guide", "extraction-guide", "enemy-bestiary", "solo-guide", "loadout-guide"]
 ---
 
-# The Mound Weapons Guide — All 6 Weapons & Best Loadouts
+# The Mound Weapons Guide — Every Weapon & Best Loadouts
 
-> **Launch Version / Updated: August 10, 2026**
+> **Updated: September 17, 2026 (covers patches 1.01–1.05)**
+>
+> **Enemy-name correction, September 17, 2026.** The weapon sections below are unchanged. The enemy references they used to carry — "Y'm-bhi Sentry", "Y'm-bhi Berserker", "Y'm-bhi Priest", "Giant Centipede", "Ghost Bat", "Wraith", "Leech Swarm", "The Lurker Below", "High Priest of Cthulhu" and the "Purifier" boss-drop — have been replaced with the creatures the developer actually names, or removed. See the [Enemy Bestiary](/guides/enemy-bestiary) for the full removal table and the evidence behind it.
 
-The Mound features six distinct weapons: the Crossbow, the Matchlock Arquebus, the Flintlock Pistol, the Francesca Axe, the Machete, and the Oil Lamp. Your loadout defines your role — there are no classes. Understanding each weapon's traits is essential for surviving expeditions.
+The Mound does not ship a fixed roster of six weapons. The developer's own description of a contract is *"a handful of weapons, a few precious supplies, a single lamp against the oppressive dark"* — and, crucially, *"These are not individual loadouts; they are a shared arsenal."* Which weapons you get is decided per contract, not per player, so the useful question is not "what is the best weapon" but "who takes which piece of the shared rack."
+
+**Weapons the developer names directly:** the **Matchlock Arquebus** (*"the most iconic firearm"*), the **Crossbow** (*"brings control to the squad"*), the **Francesca Axe** (*"a weapon of precision"*), the **Machete**, **knives**, **pole weapons**, and the **Oil Lamp** (*"a weapon of desperation"* — throwable). Light sources the game treats as gear include the **torch** and the **lantern**.
+
+> **Not a weapon: the Medallion.** The developer lists it under *"powerful support items like The Medallion to uncover hidden treasures."* Older versions of this page called it a weapon; that was wrong.
+
+Your loadout defines your role — there are no classes. Understanding each weapon's traits is essential for surviving expeditions.
 
 ---
 
@@ -38,7 +46,7 @@ The Crossbow is the best weapon in the game for most expeditions: silent, rain-p
 **Strengths**
 - **Silent** — no gunshot noise; picks off Y'm-bhi without alerting their patrol
 - **Rain-proof** — the only strong ranged option when firearms misfire
-- **Armor-piercing at close range** — three headshots kill a Berserker
+- **Armor-piercing at close range** — *"bolts can pierce armor at very close range"* (official)
 - **Reusable bolts** — a well-aimed fight costs you nothing
 
 **Weaknesses**
@@ -49,14 +57,15 @@ The Crossbow is the best weapon in the game for most expeditions: silent, rain-p
 
 | Situation | What to Do |
 |-----------|-----------|
-| Y'm-bhi Sentry patrol | Headshot from cover; the body drops silently |
-| Y'm-bhi Berserker | 3 headshots; keep the range — his charge has a long recovery you can punish |
-| Y'm-bhi Priest | Headshot + melee follow-up before his 3-second summon completes |
-| Giant Centipede | Headshot in the 1-second pause after it surfaces |
-| Rain / storm contract | Your primary; carry extra bolts and expect to use them |
-| Ghost Bats | Do not bother — one lamp flash kills them for free |
+| Y'm-bhi patrol | Headshot from cover. Note that *"Headshots aren't always fatal - even devastating ones"* (official) — budget a follow-up. |
+| Y'm-bhi that has spotted you | It probes before it commits. You can still disengage; do not spend bolts to win a fight you can walk away from. |
+| Y'm-bhi wielding an oil lamp | Kill it at range if you can. It may *"set [itself] ablaze and charge players in flames"* (official). |
+| Y'm-bhi in darkness | Blinding with light works — *"unless they carry light of their own"*. The Crossbow is the safe answer to that exception. |
+| Rain / storm contract | Your primary; firearms will not fire at all on a soaked fuse. Carry extra bolts. |
+| Mi-Go | It **captures** players (official patch 1.02). Range is your answer to a grab. |
+| Tue Tue | *"A ranged weapon can bring it down before the cloud fully closes in"* (official) — but it *"screams again when it dies"*. |
 
-**The Purifier (Endgame Crossbow):** defeating the High Priest of Cthulhu rewards the **Purifier** blueprint — a fire-enhanced Crossbow that keeps the silent profile and adds burn damage. It is the ranged answer to every boss with a fire weakness.
+> **Removed:** this table previously listed named sub-classes ("Y'm-bhi Sentry", "Y'm-bhi Priest", "Y'm-bhi Berserker") and creatures that appear in no source, including "Giant Centipede" and "Ghost Bats". The developer describes Y'm-bhi **behaviour**, not unit tiers. See the [Enemy Bestiary](/guides/enemy-bestiary).
 
 ### Matchlock Arquebus — The Burst Cannon
 
@@ -64,7 +73,7 @@ The Matchlock is the highest single-shot damage in the game. It deletes armored 
 
 **Strengths**
 - Devastating single shot with armor-piercing power at close range
-- The best boss damage in clear weather
+- The highest burst damage in clear weather
 - One clean shot removes the worst threat on the field
 
 **Weaknesses**
@@ -76,8 +85,9 @@ The Matchlock is the highest single-shot damage in the game. It deletes armored 
 
 | Situation | What to Do |
 |-----------|-----------|
-| Clear-weather boss fight | Save the shot for the boss or the Berserker; do not waste it on Sentries |
-| Armored Y'm-bhi | Close-range punch-through — fire from shelter, then fall back behind the team |
+| Clear weather, hard target | Save the shot for the creature that is actually threatening the squad — not the first Y'm-bhi you see |
+| Y'm-bhi in the open | Fire from shelter, then fall back behind the team through the reload |
+| Someone is being pinned | A Y'm-bhi *"can deploy tentacles to pin a player, forcing allies to intervene"* (official). A single Matchlock shot is a legitimate rescue. |
 | Rain starts mid-fight | Stop firing immediately; swap to the Crossbow or Machete |
 | Reload window | Reload only in cover — the animation leaves you defenseless |
 
@@ -145,21 +155,24 @@ The Machete is the one weapon you should never leave behind. Silent, weatherproo
 The Oil Lamp is not a damage weapon — it is light, fire crowd-control, and the only tool that keeps night expeditions safe.
 
 **Strengths**
-- Steady light (rain-proof), weakens light-sensitive creatures
-- Throwable for a fire burst — one throw within 2m kills an entire Leech Swarm
-- Fire barriers stop enemy pursuit for 4–5 seconds
+- Steady light (rain-proof) — *"Unlike the torch, it won't flicker or die under the rain"* (official)
+- Throwable: *"you can throw your lamp to ignite a small burst of flame, sacrificing sight for survival"* (official)
+- **It is the documented answer to self-immolating Y'm-bhi** — they carry lamps of their own and set themselves ablaze
 
 **Weaknesses**
 - Flickers in moisture, limited fuel
 - Not a primary weapon
+- Throwing it costs you your light source
 
-**Tactics:** throw at Y'm-bhi carrying lamps — they self-immolate. Use it to illuminate dark areas. Essential for teams without a dedicated light-bearer.
+**Tactics:** use light to break up a Y'm-bhi approach — *"Light can briefly blind Y'm-bhi in darkness - unless they carry light of their own."* For the ones already carrying lamps, keep your distance instead: throwing your lamp at a creature that is about to set itself on fire does not improve your position. Essential for teams without a dedicated light-bearer.
+
+> **Removed from this section:** *"one throw within 2m kills an entire Leech Swarm"* and *"Fire barriers stop enemy pursuit for 4–5 seconds."* `Leech Swarm` returns **0 hits** in all 39 announcements and all 576 reviews, and no source publishes a fire-duration figure.
 
 ---
 
 ## Weapon Tier List
 
-The Mound features six weapons, and each contract offers a fixed selection from the Galleon's weapons rack. Here is how they rank for most expeditions, based on damage, reliability, and weather resilience:
+Each contract offers a fixed selection from the Galleon's weapons rack, and the rack is shared — so this ranks the pieces you will actually be allocating, by damage, reliability, and weather resilience:
 
 | Tier | Weapon | Why |
 |:--:|--------|-----|
@@ -199,9 +212,12 @@ The Mound features six weapons, and each contract offers a fixed selection from 
 
 ## How to Get Weapons
 
-- **Contract gear:** each contract on the Galleon has a fixed weapon selection — some offer choices, others do not. Weapons are drawn from a **shared party pool**: if there is one Flintlock Pistol, only one player can carry it. Plan who takes what before departure.
-- **Vendor purchases:** spend Upgrade Tokens at the Galleon vendor to buy new gear — torches, the Medallion, maps — and to **upgrade or trade in** weapons between expeditions.
-- **Blueprints and crafting:** story and challenge rewards unlock craftable gear — the Crossbow (tutorial reward), The Purifier fire-crossbow (defeat the High Priest), and the Shadow Armor set (five Nocturnal Hunt expeditions).
+- **Contract gear:** each contract on the Galleon comes with a fixed selection — some offer choices, others do not. Weapons are drawn from a **shared arsenal**: the developer's own example is *"Will you entrust the only arquebus to the marksman with the steadiest hand? Who carries the lantern when the shadows begin to crawl?"* Decide who takes what **before** departure.
+- **Weapon Upgrade Anvil (patch 1.0 launch update):** *"a new station on the main ship lets you spend tokens to improve or upgrade weapons given by contracts."* Note the limitation — you upgrade what the contract gave you, not a personal collection.
+- **Occult shop purchases:** the Galleon's shop sells support items and relics rather than a weapon catalogue. Officially named stock includes **The Medallion** (a support item for uncovering hidden treasures), the **Mask of Nyarlathotep** (*"allows its wearer to move among the Y'm-bhi unnoticed"*), the **Crucifix**, and — added in patch 1.04 — **The Rosary**.
+- **Weapon looting (demo update, carried into launch):** *"you can now pick up weapons directly from enemy bodies."*
+
+> **A note on "crafting":** no official source describes a crafting system for The Mound — no station, no recipes, no materials. The **Weapon Upgrade Anvil** is a token-spend upgrade station, not a crafting bench. Anything you read elsewhere about crafting recipes is unsourced.
 
 ### Are Weapon Upgrades Permanent?
 
@@ -241,16 +257,20 @@ The practical rule: spend Tokens on upgrades and blueprints early (they are perm
 
 ## Ranged Matchups Quick Reference
 
-| Enemy | Best Ranged Answer | Notes |
-|-------|--------------------|-------|
-| Y'm-bhi Sentry | Crossbow headshot | Silent, one or two bolts |
-| Y'm-bhi Berserker | Crossbow (3 headshots) or Matchlock shot | Keep range; punish the charge recovery |
-| Y'm-bhi Priest | Crossbow headshot + melee | Interrupt the 3s summon cast |
-| Ghost Bat | Oil Lamp flash | Any ranged weapon is a waste of ammo |
-| Wraith | Fire (Oil Lamp), Crossbow as backup | Takes 50% less physical damage |
-| Giant Centipede | Crossbow headshot after surface pause | Matchlock works but the reload window is risky |
-| The Lurker Below | Oil Lamp fire (bonus damage) | 50% ballistic resistance — Crossbow is slow DPS, lamp throws win |
-| High Priest of Cthulhu | Oil Lamp / explosives (fire) | High ballistic resistance; The Purifier is the ideal endgame pick |
+Only creatures the developer names by name are listed here. For everything else, see the [Enemy Bestiary](/guides/enemy-bestiary) — including the third-party-reported roster, which is labelled as unverified.
+
+| Target | Best Ranged Answer | Notes |
+|--------|--------------------|-------|
+| **Y'm-bhi** | Crossbow headshot from cover | Silent. Remember *"Headshots aren't always fatal"* — plan a follow-up. They parry melee, so range beats closing. |
+| **Y'm-bhi with an oil lamp** | Crossbow, at distance | It may set itself ablaze and charge. Do not let it close. |
+| **Y'm-bhi with tentacles** | Matchlock, if a teammate is pinned | The pin *"forc[es] allies to intervene"* — this is the clearest case for spending a loud shot. |
+| **Mi-Go / Migo** | Any ranged weapon; keep the range | Official: it **captures** players. Being grabbed at range is not a risk; being grabbed in melee is. |
+| **Crawling Canopy** | Crossbow or Matchlock | Official name, officially nerfed: *"Crawling canopy enemy (spider) does 50% less damage."* (patch 1.01) |
+| **Centipede** | Any weapon — they are small | Official text calls them *"small centipedes"*. They also spawn during a **hallucination sequence**, so confirm the target is real before spending ammo. |
+| **Tue Tue** | Any ranged weapon | *"Kill it. A ranged weapon can bring it down before the cloud fully closes in."* But *"the Tue Tue screams again when it dies."* |
+| **Huemul** | Silent option preferred | Officially named, and its behaviour was patched — but the developer has published nothing else about it. Do not assume it is dangerous. |
+
+> **What was removed from this table:** "Y'm-bhi Sentry", "Y'm-bhi Berserker", "Y'm-bhi Priest", "Ghost Bat", "Wraith", "Giant Centipede", "The Lurker Below" and "High Priest of Cthulhu" — along with the *"50% ballistic resistance"* figures attached to the last two. All of those names return **0 hits** in the 39 official announcements and the 576-review corpus. The boss rows described enemies that do not appear anywhere, and the Crossbow's "Purifier" endgame upgrade was a drop from one of them. None of it was real.
 
 ---
 

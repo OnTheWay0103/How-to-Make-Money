@@ -37,7 +37,7 @@ The recovery tool works differently from a normal "load save" flow:
 
 - **It rebuilds your progress from your earned achievements/trophies**, not just the save file. If your profile is damaged but your platform account still records your achievements, the tool reconstructs what you are owed.
 - **Available on all platforms** — PC (Steam), PS5, and Xbox Series X|S — because every platform records achievements server-side, which is exactly what makes recovery possible.
-- **It restores what achievements can prove** — personal level, permanent store unlocks, cosmetics, and perks. In-run loot (weapons, armor) is run-based by design and is not part of this tool; see the [Progression Guide](/guides/progression-system-guide) for what carries over.
+- **It restores what achievements can prove** — personal level, coins/tokens, and permanent unlocks. In-run loot (weapons, armour) is run-based by design and is not part of this tool; see the [Progression Guide](/guides/progression-system-guide) for what carries over. Note that this page previously listed "perks" among the recovered items — the game has no perks, so that was wrong.
 
 Think of achievements as your save's insurance policy — the recovery tool lets you cash it in.
 

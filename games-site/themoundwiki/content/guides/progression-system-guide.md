@@ -23,9 +23,9 @@ That design makes many players feel like successful runs are pointless. They are
 | What Persists | How It Works |
 |---------------|--------------|
 | **Tokens** | The meta currency. Earned by extracting with loot — the loot converts to tokens at the results screen. Tokens are banked permanently |
-| **Permanent store unlocks** | Weapons, cosmetics, and perks bought with tokens stay unlocked forever |
+| **Permanent store unlocks** | Cosmetics and the scarce permanent unlocks bought with tokens stay unlocked forever |
 | **Personal level** | Your level and its progression persist across every run, win or lose |
-| **Cosmetics & perks** | Once purchased from the store, always available in your loadout |
+| **Cosmetics** | Once purchased from the store, always available |
 | **Achievements / trophies** | Platform-side records — they even act as a backup for recovery (see below) |
 
 ## What Does NOT Carry Over
@@ -36,7 +36,7 @@ That design makes many players feel like successful runs are pointless. They are
 | **Armor** | Run-only, same as weapons |
 | **In-run loot** | Materials, consumables, and treasures found during the expedition convert to tokens — they do not persist as items |
 | **Ox Cart contents** | Converted at extract like the rest; if the cart or the run is lost, that loot is gone |
-| **In-run perks & buffs** | Temporary, gone when the expedition ends |
+| **Gear and consumables** | Issued per contract and consumed on the run — gone when the expedition ends |
 
 The key sentence: **items are tools for the run, tokens are the profit.** If you extract, everything you carried becomes wealth. If you die, the run's loot is lost — but your already-banked tokens, unlocks, and level are untouched.
 
@@ -70,7 +70,7 @@ Because gear never leaves the run, every expedition is a *resource run* that fun
 
 **How you lose them:** you don't. Banked tokens never decay, and only unextracted loot fails to convert. Die in the jungle and you lose that run's potential — but never what is already in the bank.
 
-**What you spend them on:** the permanent store — weapons (permanent unlock, so you can bring them on future runs), cosmetics, perks, and quality-of-life upgrades.
+**What you spend them on:** the token sinks the game actually documents — the **Weapon Upgrade Anvil** on the main ship (*"lets you spend tokens to improve or upgrade weapons given by contracts"*), the occult shop's support items and relics, and contract blessings (*"Reduced Saints blessing costs"*, patch 1.02). There is no perk to buy; there is no permanent weapon arsenal to buy either — the arsenal is shared per contract.
 
 ---
 
@@ -81,12 +81,12 @@ Because tokens are earned slowly at first, spend them in this order:
 | Priority | Unlock Type | Why |
 |:--:|------------|-----|
 | 1 | **Inventory / backpack upgrades** | More slots = more loot per run = more tokens per run. The compounding investment |
-| 2 | **Perk unlocks** | Permanent power that affects every run |
-| 3 | **Weapon unlocks** | Build variety and a stronger starting arsenal for your playstyle |
-| 4 | **Quality-of-life unlocks** | Anything that reduces friction (repair, ammo economy) |
+| 2 | **Occult-shop support items** | The Medallion and relics change how a run plays; see the [Perks & Progression Guide](/guides/perks-guide) |
+| 3 | **Weapon Upgrade Anvil** | Upgrades the weapons a contract issued — so it pays off every run you take that weapon |
+| 4 | **Contract blessings** | Cheaper since patch 1.02; a small per-run edge |
 | 5 | **Cosmetics** | Last — they change nothing gameplay-wise |
 
-**The compounding logic:** prioritize anything that increases how much loot you extract per run *first*. Every slot and every perk you buy makes the next run pay out more, which buys the next unlock faster.
+**The compounding logic:** prioritize anything that increases how much loot you extract per run *first*. Every extra slot makes the next run pay out more, which buys the next unlock faster. Note that **capacity upgrades are not sold** — players report *"no permanent unlocks aside from skins and a couple of inventory slots"*, and those slots come from levelling, not from the shop.
 
 ---
 
@@ -108,8 +108,8 @@ Players who internalize this stop judging runs by "what did I keep" and start ju
 | Loop | Timeframe | What Progresses |
 |------|-----------|-----------------|
 | **Short loop** | One expedition | Loot → extract → tokens |
-| **Mid loop** | Several expeditions | Tokens → store unlocks → better loadouts |
-| **Long loop** | Weeks | Personal level → perk slots → harder contracts → higher token multipliers |
+| **Mid loop** | Several expeditions | Tokens → Weapon Upgrade Anvil and occult-shop stock → better contracts |
+| **Long loop** | Weeks | Level → the handful of inventory slots levelling grants → harder contracts → higher token payouts |
 | **Backup loop** | Always | Achievements/trophies recorded server-side → recovery tool in 1.02 |
 
 Patch 1.02 (late July 2026) strengthened the long game in one important way: the **achievement/trophy-based progress recovery tool** means your permanent progression has a safety net on all platforms, and the PS5 progress loss issue was fixed. The bank is safer now — which makes depositing in it a much better bet. See the [Patch Notes](/guides/updates-patch-notes) for the full changelog.

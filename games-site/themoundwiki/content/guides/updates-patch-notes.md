@@ -107,21 +107,21 @@ The launch version introduced the core game systems:
 - **Sanity System:** Psychological horror mechanics affecting perception and gameplay
 - **Contracts System:** Multiple contract types with varying objectives
 - **Co-op:** 1-4 player online cooperative play with full crossplay
-- **Perk System:** Unlockable passive abilities
-- **Crafting System:** Camp-based item creation and repair
+- **Block:** Added in patch 1.02 (Q / RB / R1) — the game's only defensive ability
+- **Weapon Upgrade Anvil:** Added post-launch on the main ship, spending tokens on contract-issued weapons
 
 **Launch Content:**
 
 | Content Type | Notes |
 |-------------|-------|
 | Maps | Multiple expedition zones |
-| Contract types | Stealth, combat, collection, boss hunt |
+| Contract types | Treasure retrieval, logbook retrieval, fort reclamation, portal contracts (player-reported) |
 | Enemy types | Multiple variants including Y'm-bhi |
-| Boss encounters | Several major encounters |
+| Boss encounters | **None.** `boss` appears 0 times in all 39 official announcements, and players complain about the absence |
 | Weapons | Melee, ranged, and tools |
-| Perks | Multiple unlockable abilities |
+| Perks | **None.** `perk` appears 0 times in all 39 official announcements and 0 times on the store page |
 
-> **Note:** Exact content counts (number of weapons, perks, achievements, etc.) have not been independently verified against official sources. These numbers may vary and will be updated as confirmed information becomes available.
+> **Note:** This table was previously padded with a Perk System, a Crafting System and several boss encounters. None of them exist — each was checked against all 39 official announcements and the store page and returned **0 hits**. A blanket disclaimer is not a source: an unsourced claim does not become acceptable because a footnote admits it is unverified. See the [Crafting Guide](/guides/crafting-recipes), the [Perks & Progression Guide](/guides/perks-guide) and the [Difficulty Guide](/guides/nightmare-mode) for the corrected versions.
 
 ---
 

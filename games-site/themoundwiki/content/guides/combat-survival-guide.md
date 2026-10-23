@@ -1,78 +1,106 @@
 ---
-title: "The Mound Combat & Survival Guide — Blocking, Parrying & Staying Alive"
-description: "Master The Mound: Omen of Cthulhu combat and survival. Blocking, parrying, dodge timing, stamina, noise discipline, backstabs, enemy attack patterns, and every environmental hazard — weather, water, darkness, fire and traps — with counters and loadout advice."
+title: "The Mound Combat & Survival Guide — Blocking, Noise Discipline & Staying Alive"
+description: "Master The Mound: Omen of Cthulhu combat and survival. The block ability added in patch 1.02, stamina, noise discipline, backstabs, enemy behaviour, and every environmental hazard — weather, water, darkness, fire and traps — with counters and loadout advice."
 category: "Guides"
 version: "1.0"
-updated: "2026-08-10"
-keywords: ["The Mound Omen of Cthulhu how to block", "The Mound Omen of Cthulhu combat guide", "The Mound survival tips", "The Mound combat mechanics", "The Mound how to survive", "The Mound environmental hazards", "The Mound parry guide"]
+updated: "2026-09-17"
+keywords: ["The Mound Omen of Cthulhu how to block", "The Mound Omen of Cthulhu combat guide", "The Mound survival tips", "The Mound combat mechanics", "The Mound how to survive", "The Mound environmental hazards", "The Mound block ability"]
 related: ["weapons-guide", "enemy-bestiary", "sanity-guide", "coop-strategy-guide", "extraction-guide"]
 ---
 
 # The Mound: Omen of Cthulhu — Combat & Survival Mechanics Guide
 
-> **Launch Version / Updated: August 10, 2026**
+> **Updated: September 17, 2026 (covers patches 1.01–1.05)**
 
-Combat in The Mound is slow, deliberate, and punishing. Victory comes from understanding the mechanics — blocking, parrying, Stamina management, noise discipline, and positioning — not reflexes alone. And when the fight isn't what kills you, the environment will: storms, floodwater, darkness, and traps all end runs that combat never touched. This guide breaks down every system so you can survive any encounter, and every hazard.
+Combat in The Mound is slow, deliberate, and punishing. Victory comes from understanding the mechanics you actually have — blocking, Stamina management, noise discipline, and positioning — not reflexes alone. And when the fight isn't what kills you, the environment will: storms, floodwater, darkness, and traps all end runs that combat never touched. This guide breaks down every system so you can survive any encounter, and every hazard.
 
 ---
 
 ## Core Combat Mechanics
 
-### Stamina System
+> **What combat does *not* have (verified September 17, 2026).** This page previously described a
+> player **parry** with a ~200 ms timing window, a **dodge roll** with i-frames, and per-action
+> **Stamina cost percentages**. None of those exist in any official source or in the player base's
+> reports, and they have been removed. The game has **no parry, no dodge roll, and no jump**; the
+> only defensive tool added since launch is the **block** (patch 1.02). See
+> [Corrections](#corrections-september-17-2026) at the foot of this page for exactly what was
+> removed and why.
 
-Everything costs Stamina: attacking, blocking, sprinting, and dodging. Never let it drop below 30% in combat — you need that reserve for an emergency block or dodge. Stamina also regenerates slower while moving and faster when standing still, so pause briefly between exchanges.
+### Stamina
 
-| Action | Stamina Cost |
-|--------|-------------|
-| Light Attack (Machete) | 10% |
-| Heavy Attack (Machete) | 30% |
-| Block (any weapon) | 15% per hit absorbed |
-| Parry | 25% (whether successful or not) |
-| Dodge Roll | 20% |
-| Sprint | 5% per second |
+Stamina is a real resource — patch 1.01 lists *"Slightly buffed stamina and run speed when tired"*
+among its balance changes — and running out of it is what turns a recoverable fight into a wipe.
+What the game does **not** publish is a per-action cost table: no official source gives Stamina
+costs for attacking, blocking, sprinting or anything else, and players routinely ask for a Stamina
+HUD readout because the game does not surface the number. **Treat your Stamina bar as a soft
+limit, not a spreadsheet**: disengage and let it refill before you commit to another exchange.
+
+Sprinting is the single biggest drain and the one you control. Since you cannot outrun anything
+(see below), spending the whole bar on a sprint you didn't need is the most common way to lose the
+option of fighting back at all.
 
 ### Blocking
 
-Blocking reduces damage but does not eliminate it. The reduction depends on your weapon. Hold Q (RB on Xbox / R1 on PS5) to enter a brief (1s) guard stance — you must time it to the enemy's attack.
+**Block was added in patch 1.02** — the patch is literally titled *"Patch 1.02 – Block Ability &
+Hotfixes"*, and the notes list *"New block function (Q on Keyboard or RB/R1 on controller)"*. The
+developer described it at the time as *"the addition of a block ability, that will help you avoid
+getting overrun by the creatures coming for you."*
 
-| Weapon | Block Damage Reduction |
-|--------|----------------------|
-| Machete | 60% |
-| Matchlock (melee block) | 50% |
-| Crossbow (melee block) | 40% |
-| Oil Lamp | 30% |
+| Aspect | Detail | Source |
+|----------|--------|--------|
+| Key bind | **Q** on keyboard, **RB / R1** on controller | Patch 1.02 notes |
+| Effect on enemies | *"Added a minor stun to enemies when they are blocked, improving the blocking ability."* | Patch 1.03 notes |
+| Weapon restriction | Not every weapon can block — players report the block is limited to certain weapons | Community reports |
+| Timing reward | **None implemented.** There is no timing window, no perfect-block, and no counter-attack as of patch 1.05 | Community reports; developer statement |
 
-**What can and cannot be blocked:**
+Blocking is a damage-mitigation tool, not a parry. The developer's own description of where it is
+going confirms this: in *"What's new since the demo?"* they wrote that they are **"working on a
+block and counterattack system for certain weapons"** — i.e. the counterattack is *planned work*,
+not shipped behaviour. Do not build a game plan around timing a perfect block; build it around
+putting the weapon up early and not being surrounded.
 
-| Attack Type | Blockable? | Notes |
-|-------------|:--:|------|
-| Melee slashes | Yes | Full damage reduction |
-| Melee heavy attacks | Partial | Reduced reduction, heavy Stamina cost |
-| Projectiles | No | Must dodge |
-| Eldritch / Sanity-based attacks | No | Must dodge or avoid |
-| Boss grab attacks | No | Must dodge |
+**What block does and does not solve:**
 
-Blocking drains Stamina per hit absorbed — when Stamina empties, your **guard breaks** and you stagger, so an empty bar is worse than not blocking at all. And blocking does NOT work against projectiles, AoE attacks, or Sanity-based damage: against the High Priest's shadow bolt, dodge — do not block.
+| Situation | Reliable answer |
+|-----------|-----------------|
+| A single melee enemy in front of you | Block, then punish during the stun (patch 1.03) |
+| Two or more melee enemies | Block is not enough — reposition to a chokepoint |
+| Ranged attacks | No defensive answer; break line of sight |
+| Grabs and lunges that lock you in an animation | No defensive answer. Players report being grabbed with no option to react — avoid the animation entirely |
+| Being surrounded | Retreat. This is the failure state the block was added to soften, not remove |
 
-### Parrying
+The developer's own framing is the honest summary: block gives you *"more tools in critical
+moments without removing the threat that close-range combat should feel like."* It was not
+intended to make melee safe, and by player consensus it did not.
 
-Time your block just before an attack lands to execute a perfect parry. A successful parry staggers the enemy (2s), deals 20 Sanity damage, and opens them to a critical hit (your next attack hits for double damage). The timing window is ~200ms — tight, so practice on Y'm-bhi Scouts first. Parries work on most melee attacks, including some boss attacks.
+### There is no dodge roll, no parry, and no jump
 
-| Situation | Verdict |
-|-----------|---------|
-| Y'm-bhi Scout single attack | Parry (easy timing, big reward) |
-| Elite Stalker 3-hit combo | Block first two, parry the third |
-| Wraith Archer | Dodge (cannot parry ranged) |
-| Leech Swarm | Dodge or run |
-| Boss heavy attack | Block (parry window is too risky) |
+These three are the most common false assumptions about The Mound, because almost every other
+co-op action game has them. They are not in this one, and the evidence is unusually direct:
 
-### Dodging
+- **No dodge roll.** No official announcement or store-page text mentions a dodge, roll, or
+  i-frames at any point — launch through patch 1.05. Players describe its absence as the game's
+  defining limitation, and post-1.02 reviews still ask for one: *"it could use something else
+  like maybe a side dodge or something"*, *"some movement additions like a roll or dodge would
+  be much appreciated and needed"*.
+- **No parry.** The word "parry" appears exactly once in 39 official announcements, and it
+  describes **enemy** behaviour, not yours: *"They can parry melee attacks, sometimes disarming
+  players."* The only player-side uses of the word in the wider corpus are requests or
+  confirmations of absence — e.g. *"There is no traditional block, dodge, or parry system."*
+- **No jump.** No official source mentions a jump. Players confirm it is missing:
+  *"No jump button? That's literally just basic QoL at this point"*, *"Let me move, let me jump"*.
 
-The dodge roll has i-frames for the first ~300ms on dry ground. Reduced to ~200ms in shallow water. **No i-frames in deep water** — avoid fighting there entirely. Dodge is also your only answer to unblockable attacks and grapples: large twisted beasts can grapple, draining your health and breaking armor — the roll is your only counter, and early on the safest answer to a grapple beast is to avoid it entirely.
+Practically, that means **your only movement options are walk, run, crouch, and turning** — plan
+routes as if you cannot dodge out of anything, because you can't.
 
-**Dodge vs block:**
-- **Block:** predictable melee attacks, conserving stamina, setting up parries
-- **Dodge:** unblockable attacks, AoE attacks, repositioning, escaping grabs
+**What replaced the dodge in practice:**
+
+| You wanted to… | What actually works |
+|----------------|---------------------|
+| Avoid a melee swing | Break line of sight, use terrain, or block it |
+| Escape a grab | Don't get grabbed — grabs are animation locks with no escape |
+| Create distance | Walk away while facing the enemy; the game is designed around retreating under pressure |
+| Reposition mid-fight | Terrain. Chokepoints, doorways and fallen trees are the real dodge |
 
 ---
 
@@ -113,29 +141,35 @@ Every enemy hit on *you* triggers a brief stumble where you cannot act — which
 
 | Attack | Tell | Counter |
 |--------|------|---------|
-| Claw Swipe | Raises right arm, 0.5s pause | Parry → critical hit |
-| Lunge | Crouches forward | Dodge sideways, punish from behind |
-| Grab | Arms spread wide | Backpedal (breaks Stamina) |
+| Claw Swipe | Raises an arm and pauses | Block it, then punish during the stun |
+| Lunge | Crouches forward | Sidestep by walking, punish from behind |
+| Grab | Arms spread wide | Backpedal immediately — a grab is an animation lock you cannot escape |
 
-Scouts always open with Claw Swipe, then alternate Lunge and Claw Swipe. Below 30% HP they attempt a Grab — backstab them during recovery for a one-shot kill.
+Expect a Claw Swipe to open the fight. Once enemies close in numbers, stop trading and move to a
+chokepoint: the block handles one attacker, not three.
 
-### Y'm-bhi Stalkers (Elite)
+### Y'm-bhi Elites
 
 | Attack | Tell | Counter |
 |--------|------|---------|
-| Double Claw | Quick two-hit combo | Block both |
-| Leaping Slam | Jumps high, lands after 1.0s | Dodge roll through landing point |
-| Scream (AoE) | Reels head back, glows red | Back away 8m+ (Sanity damage) |
+| Multi-hit combo | Wind-up into a fast chain | Block the opener, break off rather than eat the chain |
+| Leaping slam | Leaves the ground | Step out of the landing zone as it comes down |
+| Area scream | Reels head back | Back away — it is a Sanity hit, not a health hit |
 
-Aggressive pursuers. The Scream has a 12s cooldown — close distance and punish with heavy attacks during recovery.
+Aggressive pursuers that punish standing still. Because there is no dodge, the answer to a
+multi-hit combo is **distance**, not timing.
 
-### Wraith Archers (Ranged)
+### Ranged enemies
 
-Priority targets. They phase away when approached — you cannot melee them until they materialize to fire. Hit them with Crossbow or Flintlock the moment they appear (one headshot interrupts the draw). Dodge arrows sideways, not backward.
+Priority targets. Some phase out of reach and only become melee-able when they materialise to
+fire. Hit them the moment they appear — a headshot interrupts the shot. Against incoming
+projectiles there is no dodge: **break line of sight** behind terrain instead of trying to step
+out of the way.
 
-### Leech Swarms (Environmental)
+### Swarms
 
-Appear in water. Die instantly to any fire source — one Oil Lamp throw within 2m kills an entire swarm. Do not waste bolts on them.
+Swarms appear in water and around carrion. Fire is the answer — that is what the Oil Lamp's throw
+is for (see the [Weapons Guide](/guides/weapons-guide)). Do not spend bolts on a swarm.
 
 ---
 
@@ -145,64 +179,76 @@ The environment is a second enemy that never sleeps. You can play perfectly — 
 
 | Hazard | Where It Appears | Danger Level | Counter |
 |--------|------------------|--------------|---------|
-| Rain / storm | Contract modifiers | Medium | Crossbow, melee, Oil Lamp |
-| Night / fog | Contract modifiers | Medium | Oil Lamp, formation discipline |
-| Deep water | Flooded Cave (2,000 Rep unlock) | High | Stay dry, fire kills swarms |
+| Rain / storm | Weather during a contract | Medium | Crossbow, melee, Oil Lamp |
+| Night / fog | Low-light contracts | Medium | Oil Lamp, formation discipline |
+| Deep water | Flooded interiors | High | Stay dry, fire kills swarms |
 | Darkness | All interiors, deep floors | High | Any light source negates drain |
 | Fire hazards | Spore vents, wraith encounters | Medium | Oil Lamp use, vent disarming |
-| Traps | Flooded Cave, hallucinated spikes | High | Awareness, team verification |
-| Forest Awakening | Every expedition, 30+ min | Very High | Extract before it triggers |
+| Traps | Interiors, hallucinated spikes | High | Awareness, team verification |
+| Forest Awakening | Every expedition, over time | Very High | Extract before it triggers |
 
-### Weather Conditions (Contract Modifiers)
+### Weather
 
-Always check the contract modifiers **before** choosing a loadout — they change what works.
+Weather changes what your firearms can do, and it is the one condition you must check **before** picking a loadout. The Matchlock Arquebus uses a smouldering fuse, and the developer is explicit that *"The weapon's smouldering fuse — a lifeline for ignition — is extinguished under rain. When the skies weep, the arquebus falls silent."* The design notes add that *"A soaked fuse means your gunpowder weapons won't fire when you need them most."*
 
 | Condition | Effect | Counter |
 |-----------|--------|---------|
-| Clear | All weapons work | Matchlock + Flintlock |
-| Light Rain | Firearms disabled (fuse dies) | Crossbow + Machete |
-| Heavy Storm | Firearms disabled, Oil Lamp dim | Crossbow + Axe |
-| Fog | Visibility cut, enemies detect at half range | Crossbow + Medallion |
-| Night | Low visibility, Y'm-bhi more aggressive | Crossbow + Oil Lamp (mandatory) |
-| Deep water | Reduced dodge i-frames, Leech Swarms | Avoid fighting in water; fire kills swarms |
+| Clear | All weapons work | Matchlock + melee |
+| Rain / storm | **Gunpowder weapons will not fire** (soaked fuse) | Crossbow + Machete |
+| Fog | Visibility cut — you spot enemies late | Crossbow + a light source |
+| Night | Low visibility, harder to read tells | Oil Lamp (and stay together) |
 
-**Rain rules:** if the contract shows a storm, leave the Matchlock and Flintlock at the Galleon. Every shot you can't take changes your engagement math — pull with the Crossbow and finish with the blade instead. The Oil Lamp stays lit in rain, which makes it your only reliable light source on storm nights.
+**Rain rules:** if the weather turns, your guns are dead weight. Every shot you can't take changes
+your engagement math — pull with the Crossbow and finish with the blade instead. The Oil Lamp is
+the exception: the developer notes it *"won't flicker or die under the rain"*, which makes it the
+reliable light source on storm nights.
 
-### Deep Water and Leech Swarms
+### Deep Water and Swarms
 
-The Flooded Cave system (unlocked at **2,000 Reputation**) is the game's water hazard showcase: corridors flood, Leech Swarms drift through pools, and staying dry is a survival mechanic on its own.
+Water is a hazard because of what lives in it and because it slows you down with no dodge to
+compensate.
 
-- **Rising water** — the lower flooded level leaves raised platforms as the only dry ground. Route between platforms; never wade blindly.
-- **Leech Swarms** — they attack in water and are **killed by fire**. An Oil Lamp held up against a swarm burns it off; melee in water is a losing trade.
-- **Reduced dodge i-frames** — in deep water your dodge roll is slower and less forgiving. Pull enemies to dry ground before fighting.
+- **Rising water** — flooded levels leave raised platforms as the only dry ground. Route between platforms; never wade blindly.
+- **Swarms** — they attack in water and are **killed by fire**. An Oil Lamp held up against a swarm burns it off; melee in water is a losing trade.
 
 ### Darkness and the Sanity Drain
 
-Darkness is the most persistent hazard in the game: **entering deep darkness without a light source drains Sanity at roughly −2/sec, doubled on the deepest floors**. The drain is completely negated while any light source is active — even a basic candle.
+Darkness is the most persistent hazard in the game. Being in deep darkness without a light source
+drains Sanity, and the drain stops while any light source is active. Light is also a weapon: the
+developer notes that *"Some of the creatures haunting the jungle are sensitive to light, weakening
+under its glare"*, and that *"Light can briefly blind Y'm-bhi in darkness — unless they carry light
+of their own."*
 
-- **The Oil Lamp is mandatory** in permanent-darkness interiors (such as the Interior expedition). Assign a dedicated light-bearer in co-op; pull groups with the Crossbow from range.
-- **Every loadout should carry a light source.** Sanity loss cascades: darkness drains Sanity → low Sanity produces hallucinations → a hallucinated spike or monster causes physical damage.
+- **Carry a light source in every loadout.** Sanity loss cascades: darkness drains Sanity → low Sanity produces hallucinations → a hallucinated threat causes real damage.
+- **Assign a dedicated light-bearer in co-op.** The developer frames this as the core co-op loop: *"which one of [you] will hold the lamp steady, while another delivers the finishing strike?"*
 - **Team rule:** never split up in the dark. Sanity effects are per-player, but the errors they cause are team-wide.
 
 ### Fire Hazards and Traps
 
-- **Spore vent chambers** — the Flooded Cave has three side chambers with vent traps. The "Whispers in the Deep" contract requires disabling all three before the boss; a vent you miss adds hazard damage to an already hard fight.
+- **Vent and fire traps** — interiors contain environmental hazards that punish standing still or moving blind. Clear the approach before committing.
 - **Hallucinated traps** — at low Sanity, one player may see spikes where another sees a clear path. **Verify before you step** — the game punishes lone decisions.
-- **Fire as a tool** — fire is also your best crowd control: it kills Leech Swarms, hurts wraiths (which phase through walls), and the Lurker Below boss is weak to Oil Lamp fire (50% ballistic resistance makes guns a poor choice against it).
+- **Fire as a tool** — fire is your best crowd control: it kills swarms and hurts the things that phase. The Oil Lamp doubles as a thrown incendiary: *"you can throw your lamp to ignite a small burst of flame, sacrificing sight for survival."*
 
 ### The Forest Awakens (Escalation Hazard)
 
-Every expedition has a hidden timer. Around the **30–35 minute mark**, the "Forest Awakens" phase begins:
+Every expedition runs on a hidden clock. Patch 1.01 includes *"Enemies take longer to spawn when
+the forest wakes up"* — confirming both that the forest does wake up and that its ramp is tuned
+per patch. There is also a fixed interaction with the Ox Wagon: players who send the cart back to
+the start report that it blows a horn and *"enemy spawns drastically increase"*.
 
 | Before Awakening | After Awakening |
 |------------------|-----------------|
-| Standard patrol density | 3x enemy spawns |
-| Predictable patrol routes | Enemies hunt player positions |
-| Static extraction point | Extraction point may relocate |
-| Normal Y'm-bhi | Berserkers more common |
-| Safe Ox Cart path | Ox Cart may be overrun |
+| Standard patrol density | Denser spawns |
+| Predictable patrol routes | Enemies converge on noise |
+| Calmer Ox Wagon route | Ox Wagon becomes a liability |
 
-The Forest Awakening is the one hazard you cannot counter — only leave before it. When the wind picks up and the howls start, treat it as the final warning. See the [Extraction Guide](/guides/extraction-guide) for the full timing breakdown.
+**Player-reported timing.** There is no official timer, and community reports are not tightly
+consistent — estimates cluster loosely in the 30–45 minute range depending on contract and squad
+behaviour `[Unconfirmed — community reports, no official figure]`. Treat the wind picking up and
+the howls starting as the real warning, not a stopwatch.
+
+The Forest Awakening is the one hazard you cannot counter — only leave before it. See the
+[Extraction Guide](/guides/extraction-guide) for the walk-out.
 
 ### The Ox Wagon as a Survival Tool
 
@@ -219,14 +265,14 @@ The ox wagon is your best non-combat survival tool:
 
 | Weapon | Role | Best Against | Avoid Against |
 |--------|------|-------------|---------------|
-| Matchlock | Burst opener | Stalkers, Bosses | Swarms, rain |
-| Flintlock | Emergency stagger | Interrupting archers | Armored enemies |
-| Crossbow | Sustained stealth DPS | Any mid-range target | Close-quarters groups |
-| Francesca Axe | Precision execution | Isolated Scouts | Moving targets |
-| Machete | All-purpose melee | Any melee enemy | Ranged enemies |
-| Oil Lamp | Crowd control | Leech Swarms, darkness | Not a primary weapon |
+| Matchlock Arquebus | Burst opener — *"the most iconic firearm"*, pierces armour up close | Elites, bosses | Rain (fuse dies), swarms |
+| Flintlock | Backup firearm | Interrupting ranged enemies | Armoured enemies |
+| Crossbow | Sustained ranged control — *"brings control to the squad"* | Any mid-range target | Close-quarters groups |
+| Francesca Axe | Thrown precision — *"a weapon of precision"* | Isolated enemies | Moving targets |
+| Machete | All-purpose melee, added to starting gear in 1.01 | Any melee enemy | Ranged enemies |
+| Oil Lamp | Light, crowd control and a thrown incendiary | Swarms, darkness | Not a primary weapon |
 
-**Safest loadout:** Crossbow + Machete (works in all weather, silent). **Most aggressive:** Matchlock + Oil Lamp (clear weather only).
+**Safest loadout:** Crossbow + Machete (works in all weather, silent). **Most aggressive:** Matchlock + Oil Lamp (clear weather only). The developer's own framing of the gear you get is worth internalising: each contract hands the party *"a handful of weapons, a few precious supplies, a single lamp against the oppressive dark"* — and those are *"a shared arsenal"*, not individual loadouts.
 
 ---
 
@@ -236,24 +282,30 @@ Combat in The Mound is famously punishing — reviews and players describe it as
 
 ### 1. Positioning — The First Cause of Death
 
-Most deaths happen before a single swing: fighting in open ground where enemies can flank, or near water where your dodge i-frames shrink. The fix is boring and effective:
+Most deaths happen before a single swing: fighting in open ground where enemies can flank, or fighting with your back to water. With no dodge and no jump, positioning is not a skill you can improvise — it is the whole fight. The fix is boring and effective:
 
 - **Fight at chokepoints** — doorways, fallen trees, narrow paths. One enemy can block the rest
-- **Never fight in deep water** — no i-frames there, and Leech Swarms spawn
+- **Never fight in deep water** — swarms spawn there and there is no escape move
 - **Backpedal toward an escape route**, not into a corner
 - If you are surrounded, don't trade hits — disengage and reset. The [Extraction Guide](/guides/extraction-guide) covers when to just leave
 
 ### 2. Stamina Discipline
 
-Every attack, block, dodge, and sprint costs Stamina, and Stamina starvation is the #2 death cause. The rule is simple: **never drop below 30% in combat**. That reserve is your emergency block or dodge. If you are mid-fight and under half, stop attacking and reposition — recovery is faster than death.
+Attacking, blocking and sprinting all draw on Stamina, and Stamina starvation is a leading cause
+of death because it removes your only defensive option. The game does not publish the costs, so
+budget by feel: **if you are sprinting mid-fight, you are already losing.** Walk, block, punish,
+and let the bar come back between exchanges.
 
 ### 3. Enemy Speed — You Can't Outrun Them
 
-Enemies are faster than the player, and sprinting away with your back turned gets you grabbed. This is by design: the game wants you to *stand and fight* or *fight while retreating through terrain*, not to kite.
+Enemies are faster than the player, and *"you can't outrun it"* is one of the most common launch
+complaints for a reason: sprinting away with your back turned ends in a grab, and a grab is an
+animation lock with no escape. This is by design — the game wants you to stand and fight, or fight
+while retreating through terrain, not to kite.
 
-- Don't sprint away — use the dodge roll to create distance through a chokepoint
+- Don't sprint away — walk backwards through a chokepoint instead
 - Break line of sight around trees to reset pursuit
-- Oil Lamp fire barriers stop pursuit for 4–5 seconds — the best escape tool in the game
+- Use fire to buy space: an Oil Lamp thrown down between you and a pursuer is the closest thing this game has to an escape tool
 
 ### 4. Melee Whiffs — Why Your Swings Miss
 
@@ -266,7 +318,7 @@ The melee swings are slower than they look and attacks have travel time. "The hi
 | Swinging while the enemy is mid-dash/lunge | Wait for the lunge to land, then punish |
 | Chasing a moving target | Hold position and let them come to you |
 
-Melee in The Mound is a *counter* game: wait for the enemy's attack, then hit them during recovery. Blocking makes this loop safe — block the first hit of a combo, punish the end.
+Melee in The Mound is a *counter* game in the sense that you punish recovery windows — but note the word carefully: this is not a parry system. There is no timing-based counter (the developer's *"block and counterattack system"* is still in development). You block the first hit of a combo if your weapon can block, then punish the end when it is safe to.
 
 ### 5. Mindset: Death Is Cheap, Progress Is Permanent
 
@@ -275,7 +327,7 @@ The single most important reframe: **dying costs you the run, not the account.**
 - Every death teaches a pattern — treat each expedition as a scouting run
 - If a contract is too hard, you aren't under-leveled, you're under-supplied: bring more Salves, better loadout (see the [Weapons Guide](/guides/weapons-guide))
 - Sanity below 40% is usually the real killer — hallucinations create fake threats and fake escapes. Manage it first ([Sanity Guide](/guides/sanity-guide))
-- And if combat still feels unfair, remember the full toolkit: block, parry, and dodge — use all three.
+- And if combat still feels unfair, remember the actual toolkit: **block, position, and leave.** There is no parry and no dodge to fall back on — the fight you win is usually the one you picked the ground for.
 
 ---
 
@@ -283,33 +335,59 @@ The single most important reframe: **dying costs you the run, not the account.**
 
 | Situation | Action |
 |-----------|--------|
-| Surrounded by 3+ Scouts | Backpedal to choke point. Oil Lamp at ground (fire barrier). Crossbow nearest one. Machete the survivor. |
-| Boss room, low supplies | Leave the room to reset (bosses rarely follow past 10m). Heal up. Re-enter with full Stamina + Sanity. One safe hit per opening. |
-| Teammate downed | Oil Lamp between you and them (buys 4–5s). One revives, others hold. Bandage the revived teammate immediately. Retreat as a group. |
+| Surrounded by 3+ enemies | Backpedal to a choke point. Oil Lamp on the ground between you and them. Crossbow the nearest one. Machete the survivor. |
+| Low supplies | Break contact and reset. Re-engage only when your Stamina and Sanity are both back up, and take one safe hit per opening. |
+| Teammate downed | Put fire between the enemy and the body. One revives, the others hold. Heal the revived teammate immediately, then retreat as a group. |
 
 ---
 
 ## Hazard-Proof Loadout Checklist
 
-- [ ] Light source (Oil Lamp or candle) in every loadout
-- [ ] Contract modifiers checked before gear selection
-- [ ] Crossbow or melee plan if the contract is a storm
-- [ ] Fire option (Oil Lamp) for swarms and wraiths
-- [ ] Sanity-restore consumables for darkness-heavy maps
+- [ ] Light source (Oil Lamp or lantern) in every loadout
+- [ ] Weather checked before gear selection — guns die in the rain
+- [ ] Crossbow or melee plan if the weather is turning
+- [ ] Fire option (Oil Lamp) for swarms
+- [ ] Sanity-restore consumables for darkness-heavy contracts
 - [ ] Escape route identified before any hazard crossing
 
 ## Final Checklist
 
-- [ ] Stamina above 50%
-- [ ] Sanity above 60%
+- [ ] Stamina not drained — you cannot sprint or block on an empty bar
+- [ ] Sanity holding
 - [ ] Weapon loaded
 - [ ] Escape route identified
-- [ ] Oil Lamp in hand (if dark)
+- [ ] Light source in hand (if dark)
 - [ ] One heal item on quick-select
+
+---
+
+## Corrections (September 17, 2026)
+
+This page was audited against every official Steam announcement for *The Mound: Omen of Cthulhu*
+(39 items on app ID `2569760` — 36 developer announcements, 2 press items, 1 SteamDB feed), the
+Steam store page text, and a full-text pass over the public Steam review corpus. The following
+material was **removed** because no official or community source supports it:
+
+| Removed claim | Evidence |
+|---------------|----------|
+| A player **parry**: ~200 ms timing window, 20 Sanity damage, double-damage follow-up, 2s stagger | `parry` appears **once** in 39 announcements — and it describes **enemies**: *"They can parry melee attacks, sometimes disarming players."* The only player-side uses in the review corpus are statements that it does not exist, or requests to add it |
+| A **dodge roll** with ~300 ms / ~200 ms i-frames, and "no i-frames in deep water" | `dodge` and `i-frame`: **0 hits** across all 39 announcements and the store page. Reviews either state *"There is no dodge, no parry, no mercy"* or ask for one to be added |
+| A **Stamina cost table** (Light 10% / Heavy 30% / Block 15% / Parry 25% / Dodge 20% / Sprint 5%) | No official source publishes any Stamina cost. Stamina itself is real — patch 1.01 says *"Slightly buffed stamina and run speed when tired"* — but every number in that table was invented |
+| A **block damage-reduction table** (Machete 60% / Matchlock 50% / Crossbow 40% / Oil Lamp 30%) and a "1s guard stance you must time" | No official source gives reduction values. The 1.02 notes give only the key bind, and the 1.03 notes add only *"a minor stun to enemies when they are blocked"* |
+| **3× enemy spawns** after the Forest Awakens, and an exact "30–35 minute" trigger | No official figure. Player timings are inconsistent; the page now reports a labelled range instead |
+
+**What the official record does support** (all quoted above in context): the block ability added in
+patch 1.02 on **Q / RB / R1**; the stun-on-block added in patch 1.03; the developer's statement
+that a *"block and counterattack system for certain weapons"* is **in development**; the absence of
+parry, dodge and jump; rain disabling gunpowder weapons; and the Oil Lamp's light, anti-swarm and
+throwable properties.
+
+> This page previously described mechanics that do not exist in the game. If you are here from an
+> older copy, the version above is the one checked against primary sources.
 
 ### Related Guides
 
-- [Weapons Guide — All 6 Weapons & Best Loadouts](/guides/weapons-guide) — Full weapon stats and loadout synergy
+- [Weapons Guide — Every Weapon & Best Loadouts](/guides/weapons-guide) — Weapon roles and shared-arsenal allocation
 - [Enemy Bestiary — Complete Creature Database](/guides/enemy-bestiary) — Detailed enemy behaviors and weaknesses
 - [Sanity Guide — Survive the Madness](/guides/sanity-guide) — Deep dive into the Sanity system
 - [Co-op Strategy — 4-Player Team Guide](/guides/coop-strategy-guide) — Team combat coordination

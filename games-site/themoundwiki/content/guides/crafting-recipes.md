@@ -1,109 +1,139 @@
 ---
-title: "Crafting Recipes Guide — Galleon Station & Item Crafting"
-description: "Complete crafting recipes guide for The Mound: Omen of Cthulhu. Learn the Galleon crafting station, materials for medallions, healing salves, ammo types, and crafting tier progression."
+title: "The Mound Crafting Guide — Is There a Crafting System?"
+description: "The Mound: Omen of Cthulhu has no crafting system and no recipes. What gear progression actually is — contract gear, the Weapon Upgrade Anvil, tokens and the occult shop — verified against all 39 official announcements."
 category: "Guides"
 version: "1.0"
-updated: "2026-07-29"
-keywords: ["The Mound crafting recipes", "The Mound Galleon crafting", "The Mound medallion recipe", "The Mound healing salve", "The Mound ammo crafting", "The Mound crafting tiers"]
-related: ["extraction-guide", "beginner-guide", "daily-challenges", "controls-settings-guide"]
+updated: "2026-09-17"
+keywords: ["The Mound crafting", "The Mound crafting recipes", "The Mound weapon upgrade anvil", "The Mound gear upgrades", "The Mound tokens", "The Mound occult shop"]
+related: ["extraction-guide", "beginner-guide", "money-guide", "loadout-guide", "weapons-guide"]
 ---
 
-## Crafting Recipes Guide — The Mound
+# Crafting Guide — Is There a Crafting System?
 
-The Galleon serves as your mobile base of operations in The Mound: Omen of Cthulhu. Its crafting station is where you transform raw materials into essential tools, consumables, and upgrades. This guide covers every important recipe, material source, and tier progression path.
+> **Rewritten September 17, 2026.** This page used to be a recipe book — a Galleon crafting station,
+> five crafting tiers, ~20 recipes with material lists, and material farming locations. None of it
+> exists. See [Why this page was rewritten](#why-this-page-was-rewritten).
 
-### The Galleon Crafting Station
+**No.** The Mound: Omen of Cthulhu has no crafting system. There is no crafting station, no recipe
+list, no material tiers, and no craftable ammunition. You cannot combine items to produce a new one.
 
-The crafting station is located on the lower deck of the Galleon, near the medallion upgrade bench. It has three main categories:
+What exists instead is an **upgrade-and-purchase economy** run from the Galleon. It is smaller than
+a crafting system, but it is real and it is documented — so this page now describes it properly.
 
-- **Tools** — Medallion upgrades, lantern improvements, expedition gear
-- **Consumables** — Healing salves, Sanity restoratives, temporary buffs
-- **Ammunition** — Standard rounds, silver bullets, explosive shot, blessed ammunition
+---
 
-Crafting requires **Scrap Materials** (found in crates and enemy drops), **Rare Components** (from elite enemies and boss kills), and **Artifact Fragments** (from completing objectives and looting special locations).
+## The Galleon economy
 
-### Crafting Tier Progression
+The Galleon is your hub between expeditions: *"your last bastion of sanity before the unknown —
+where you can purchase equipment, weapons, and gear up."* Everything you do between runs happens
+here.
 
-Your crafting tier is tied to your Personal Rank. Each tier unlocks new recipes and improves existing ones:
+### 1. Contract gear is issued, not crafted
 
-| Tier | Rank Required | New Unlocks | Material Quality |
-|------|---------------|-------------|------------------|
-| I | Rank 1-5 | Basic salves, standard ammo, lantern oil | Common scrap only |
-| II | Rank 6-10 | Silver bullets, medallion upgrades, lantern oil | Common + Uncommon |
-| III | Rank 11-15 | Explosive ammunition, advanced salves, storm gear | Uncommon + Rare |
-| IV | Rank 16-20 | Blessed ammunition, medallion teleport, advanced expedition gear | Rare + Exotic |
-| V | Rank 21+ | Legendary tools, artifact crafting, permanent upgrades | Exotic + Legendary |
+Each contract comes with a fixed equipment selection for the party. The developer's framing:
 
-### Important Recipes
+> *"Each contract comes with a selection of equipment for your party — a handful of weapons, a few
+> precious supplies, a single lamp against the oppressive dark. These are not individual loadouts;
+> they are a shared arsenal."*
+> — *The Captain's bargain: Choosing your contract*
 
-#### Medallion Recipes
+Gear is not permanent. Players note the consequence bluntly: *"the flintlock that kept you alive on
+that same run just evaporates."* Plan around the contract in front of you.
 
-#### Medallion Upgrades
+### 2. The Weapon Upgrade Anvil — the real "crafting" analogue
 
-The Medallion is a utility item that detects nearby treasure chests and points of interest. It can be enhanced through crafting:
+The launch update added a station on the main ship:
 
-| Upgrade | Materials Required | Effect |
-|---------|-------------------|--------|
-| Medallion: Extended Range | Scrap Metal, Copper Wire | Increases treasure detection range |
-| Medallion: Enhanced Signal | Scrap Metal, Rare Crystal | Stronger ping signal, easier to locate direction |
-| Medallion: Duration Boost | Scrap Metal, Iron Ingot | Ping effect lasts longer |
+> *"**Weapon Upgrade Anvil** — a new station on the main ship lets you spend tokens to improve or
+> upgrade weapons given by contracts."*
+> — *What's new since the demo?*
 
-> **Note:** Exact material quantities and upgrade effects have not been independently verified. The Medallion's core function is treasure and point-of-interest detection — use it to find hidden loot and secrets during expeditions.
+This is the closest thing the game has to a crafting bench. Three things define it:
 
-#### Healing and Restoration Consumables
+| Property | Detail |
+|----------|--------|
+| Currency | **Tokens**, not raw materials |
+| Scope | **Weapons given by contracts** — you upgrade what you were issued, not a personal collection |
+| Location | On the main ship (the Galleon) |
 
-| Item | Materials Required | Effect |
-|------|-------------------|--------|
-| Basic Healing Salve | 5 Medicinal Herbs, 2 Clean Water | Restores 30% HP over 10 seconds |
-| Advanced Healing Salve | 8 Medicinal Herbs, 3 Clean Water, 1 Alchemical Base | Restores 50% HP over 8 seconds |
-| Sanity Restorative | 4 Dreamweed, 2 Purified Water | Restores 25% Sanity immediately |
-| Purifying Tonic | 6 Dreamweed, 3 Purified Water, 1 Moonstone Dust | Restores 40% Sanity + removes one hallucination |
-| Field Bandage | 3 Cloth Scrap, 1 Medicinal Herb | Stops bleeding (consumable, instant use) |
-| Stimulant Injector | 2 Iron Ingot, 3 Alchemical Base, 1 Adrenal Gland | 20% move speed + 15% damage for 30 seconds |
+### 3. Tokens — where they come from and where they go
 
-#### Ammunition Types
+| Flow | Detail | Source |
+|------|--------|--------|
+| **In** | Contract completion, scaled by tier — patch 1.02: *"Slight increase for tokens given for contract tiers"* | Patch 1.02 notes |
+| **In** | Extraction with treasure; the Captain *"will tally your haul and will reward you depending on your performance"* | Editorial walkthroughs |
+| **Out** | Weapon Upgrade Anvil | Launch update |
+| **Out** | Occult shop stock | *The Captain's bargain* |
+| **Out** | Contract blessings — patch 1.02: *"Reduced Saints blessing costs"* | Patch 1.02 notes |
 
-| Ammo Type | Materials Required | Effect |
-|-----------|-------------------|--------|
-| Standard Rounds (x20) | 4 Scrap Metal, 2 Gunpowder Dust | Standard damage, no special effect |
-| Silver Bullets (x15) | 6 Scrap Metal, 3 Silver Ore, 2 Gunpowder Dust | +40% damage to eldritch enemies |
-| Explosive Shot (x8) | 8 Scrap Metal, 4 Gunpowder Dust, 2 Sulfur | Area damage on impact, can stagger elites |
-| Blessed Ammunition (x10) | 6 Scrap Metal, 3 Silver Ore, 2 Holy Water, 1 Artifact Fragment | +60% damage to eldritch + prevents regeneration |
-| Piercing Rounds (x15) | 5 Scrap Metal, 3 Iron Ingot, 2 Gunpowder Dust | Ignores 30% of enemy armor |
-| Phosphor Flare (x5) | 4 Scrap Metal, 2 Phosphorus, 1 Cloth Scrap | Reveals hidden enemies and traps in a radius |
+Officially named items available through the shop system:
 
-#### Tools and Gear Upgrades
+| Item | What it is | Source quote |
+|------|-----------|--------------|
+| **The Medallion** | Support item — locates hidden treasure | *"you can obtain powerful support items like The Medallion to uncover hidden treasures"* |
+| **The Mask of Nyarlathotep** | Disguise relic | *"allows its wearer to move among the Y'm-bhi unnoticed"* |
+| **The Crucifix** | Reveals enemy stress | *"Using a crucifix reveals their stress level through the glow of their eyes"* |
+| **The Rosary** | New occult item, patch 1.04 | *"Find them all using the map to unlock a new Occult Item from the shop!"* |
+| **Lantern / Torch / Oil Lamp** | Light sources — the developer treats these as gear you allocate, not consumables you craft | *"Who carries the lantern when the shadows begin to crawl?"* |
 
-| Item | Materials Required | Effect |
-|------|-------------------|--------|
-| Lantern Oil Refill | 3 Animal Fat, 1 Cloth Scrap | Full lantern refill (essential for dark zones) |
-| Storm Cloak (Tier I) | 8 Treated Leather, 4 Iron Ingot, 2 Storm Essence | 20% storm resistance |
-| Storm Cloak (Tier II) | 12 Treated Leather, 6 Iron Ingot, 4 Storm Essence, 1 Rare Crystal | 40% storm resistance + move speed in storm |
+### 4. Ammunition
 
-### Material Farming Locations
+Ammunition exists — players discuss it constantly, and running dry is a real failure mode. What does
+**not** exist is ammunition *crafting*: there is no recipe, no powder-and-lead combination, no
+specialty ammo tier. Ammo is found, looted from enemy bodies (the demo update added *"weapon looting
+from corpses"* and *"more bullets per pickup"*), and bought with tokens.
 
-Knowing where to farm specific materials saves enormous time:
+### 5. The upgrade path you do have
 
-- **Scrap Metal** — Found in crates throughout all islands. Prioritize warehouse and docks areas.
-- **Medicinal Herbs** — Coastal cliffs and forest clearings on Island 1 and 2.
-- **Dreamweed** — Underground caves and near eldritch corruption sites. The deeper the cave, the more Dreamweed.
-- **Silver Ore** — Mining nodes on Islands 3 and 4. Often guarded by elite enemies.
-- **Essence of Time** — Dropped by the Timekeeper boss on Island 4. Also found in time-distorted zones.
-- **Artifact Fragments** — Completing major objectives and looting boss arenas.
-- **Gunpowder Dust** — Drops from gun-wielding humanoid enemies and found in armories.
-- **Alchemical Base** — Crafted from 3 Medicinal Herbs + 1 Clean Water at the Galleon station.
+Put together, the real progression loop is:
 
-### Crafting Tips and Strategies
+1. **Take a contract** → receive a shared gear allocation
+2. **Run the expedition** → collect treasure, logbooks, and loot weapons from bodies
+3. **Extract** → the Captain tallies your haul and pays tokens
+4. **Spend tokens at the Galleon** → Weapon Upgrade Anvil, occult shop, contract blessings
+5. **Take a harder contract** → richer payouts, deeper danger
 
-1. **Always craft ammunition before deploying.** Running out of ammo mid-expedition is the most common cause of failed extractions. Craft at least 40 standard rounds and 15 silver bullets before each expedition.
-2. **Prioritize Medallion upgrades.** Extended detection range helps you find more hidden loot, which means better gear and more extraction value.
-3. **Share crafting duties in co-op.** Have one player focus on healing consumables and another on ammunition. This doubles your effective output.
-4. **Don't hoard rare materials.** Use them between expeditions. Unused materials in storage help nobody.
-5. **The Storm Cloak is worth the investment.** If you regularly push into late expeditions, the storm resistance saves more resources than the cloak costs to craft.
+That is the whole loop. There is no intermediate crafting step, and no material economy between
+steps 3 and 4.
 
-### Related Guides
+---
 
-- [Extraction Guide](/guides/extraction-guide) — Extract safely with your crafted gear
-- [Beginner's Guide](/guides/beginner-guide) — Getting started with The Mound
-- [Daily Challenges Guide](/guides/daily-challenges) — Earn materials through contracts
-- [Controls and Settings Guide](/guides/controls-settings-guide) — Complete reference for all settings
+## Why this page was rewritten
+
+The old page described a crafting system that does not exist. Every element was invented:
+
+| Old claim | Evidence |
+|-----------|----------|
+| A "Galleon Crafting Station" on the lower deck with Tools / Consumables / Ammunition categories | No official source describes a crafting station of any kind |
+| Material types: Scrap Materials, Rare Components, Artifact Fragments | **0 hits** in all 39 official announcements and **0** on the store page |
+| Five crafting tiers gated on "Personal Rank" (Rank 1-5, 6-10, 11-15, 16-20, 21+) | The game has no documented Personal Rank |
+| Medallion upgrade recipes (Extended Range / Enhanced Signal / Duration Boost) | Invented |
+| Consumable recipes with material lists — 5 Medicinal Herbs + 2 Clean Water, Dreamweed, Moonstone Dust, Adrenal Gland, Alchemical Base | **Medicinal Herbs 0, Dreamweed 0, Moonstone Dust 0, Adrenal Gland 0, Alchemical Base 0** |
+| Ammunition recipes — Silver Bullets, Explosive Shot, Blessed Ammunition, Piercing Rounds, Phosphor Flare | **0 hits** each. Ammo exists; ammo *crafting* does not. The old page's own note even said quantities were "not independently verified" — a disclaimer does not make an invented table acceptable |
+| Storm Cloak Tier I / Tier II with storm resistance percentages | **0 hits**; `storm cloak` does not appear anywhere |
+| Material farming locations, incl. "Essence of Time — dropped by the Timekeeper boss on Island 4" | **Essence of Time 0, Timekeeper 0.** The boss does not exist |
+
+Two structural traps are worth naming, because they are how a page like this survives review:
+
+- **A blanket disclaimer is not a source.** The old page carried a note that "exact material
+  quantities and upgrade effects have not been independently verified" while presenting twenty
+  recipes as fact. A disclaimer cannot launder invented numbers — the numbers must have a source.
+- **Substring hits inflate apparent support.** A raw search for `craft` in the review corpus returns
+  **87 hits** — but **80 of them are inside the word "Lovecraftian"**. Only 5 are the standalone
+  word, and of those exactly one is a player *wishing* for crafting: *"es wäre toll, wenn man …
+  einfache Waffen selber craften [kann]"* — "it would be nice if you could craft simple weapons
+  yourself." A wish is a gap signal, not evidence the feature exists.
+
+### Method
+
+- **Official corpus:** Steam `ISteamNews` for app ID `2569760`, all **39** items, full text — `craft` (as a system) 0, `recipe` 0, `crafting station` 0.
+- **App-ID check:** `2569760` plus four add-on apps (`4630450`, `4630440`, `4630460`, `4925780`), each queried for its own news feed and returning **0 items** — no second announcement stream exists.
+- **Store page:** `appdetails` for `2569760`, English.
+- **Community corpus:** Steam `appreviews` with `json=1`; `crafting` as a standalone word = **0 hits**; `recipe` = **0 hits**.
+
+## See also
+
+- [Money Guide](/guides/money-guide) — tokens, payouts and what things cost
+- [Weapons Guide](/guides/weapons-guide) — the shared arsenal
+- [Loadout Guide](/guides/loadout-guide) — allocating gear per contract
+- [Extraction Guide](/guides/extraction-guide) — getting the haul home so it pays out

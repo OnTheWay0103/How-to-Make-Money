@@ -1,6 +1,6 @@
 ---
 title: "The Mound Loadout Guide — Best Equipment for Every Expedition"
-description: "Complete loadout guide for The Mound: Omen of Cthulhu. Equipment slots, healing and Sanity item economy, weight budgeting, armor sets, consumable kits, expedition-specific adjustments, and loadout presets for solo, co-op and hard runs."
+description: "Complete loadout guide for The Mound: Omen of Cthulhu. Equipment slots, the shared arsenal, healing and Sanity item economy, armour sets, consumable kits, expedition-specific adjustments, and loadout presets for solo, co-op and hard contracts."
 category: "Guides"
 version: "1.0"
 updated: "2026-08-10"
@@ -12,7 +12,7 @@ related: ["weapons-guide", "extraction-guide", "coop-strategy-guide", "contracts
 
 > Launch Version / Updated: August 10, 2026
 
-Your loadout in **The Mound: Omen of Cthulhu** determines how effectively you can explore, fight, and extract. With limited inventory space and equipment durability, every slot must earn its keep. This guide covers each equipment slot, the survival half of the loadout screen — healing economy, Sanity management, weight discipline — and how to adapt your gear to specific expeditions.
+Your loadout in **The Mound: Omen of Cthulhu** determines how effectively you can explore, fight, and extract. With limited inventory space and equipment durability, every slot must earn its keep. This guide covers each equipment slot, the survival half of the loadout screen — healing economy, Sanity management, slot discipline — and how to adapt your gear to specific contracts.
 
 ---
 
@@ -29,7 +29,7 @@ Your loadout in **The Mound: Omen of Cthulhu** determines how effectively you ca
 | **Special Item** | Artifacts, keys, quest items | 2 slots | Varies |
 | **Loot Slots** | Extracted items | 8 slots | N/A |
 
-**Key constraint:** Every equipment item has weight. Exceeding 70% weight capacity reduces movement speed by 15%. Exceeding 90% reduces speed by 30% and prevents sprinting.
+**Key constraint:** inventory space is the real budget. The starting inventory is deliberately tight and *"additional inventory slots are gradually unlocked as you level"* — but the game communicates the level rewards poorly, so assume you will be making hard drop choices for a long time. Wearable armour and heavy loot compete for the same slots.
 
 ---
 
@@ -41,14 +41,14 @@ Every expedition ends one of two ways: extraction or death. The difference is ra
 |----------|------------------|----------------|
 | Health items | Surviving damage | Overhealing on trash, empty pockets at the boss |
 | Sanity items | Surviving the madness system | Bringing none, dying to fakes |
-| Weight budget | Speed + carry capacity | 90%+ weight, cannot sprint from a patrol |
+| Inventory slots | Carry capacity for loot and supplies | Filling every slot with consumables and having nowhere to put the haul |
 | Durability | Weapon not breaking mid-fight | Ignoring degradation until it fails |
 
 ---
 
 ## Weapon Loadouts
 
-All loadouts below use the game's six weapons — Crossbow, Matchlock Arquebus, Flintlock Pistol, Francesca Axe, Machete, and Oil Lamp. For per-weapon deep dives see the [Weapons Guide](/guides/weapons-guide).
+Every loadout below draws from the weapons a contract hands the party — **Crossbow, Matchlock Arquebus, Francesca Axe, Machete, pole weapons, and the Oil Lamp**, plus the light sources the game treats as gear (torch, lantern). The developer's framing is the one to plan around: each contract gives *"a handful of weapons, a few precious supplies, a single lamp against the oppressive dark"*, and *"These are not individual loadouts; they are a shared arsenal."* **The Medallion is a support item, not a weapon** — see the [Weapons Guide](/guides/weapons-guide) for the full breakdown.
 
 ### Stealth Loadout (Recommended for Beginners)
 
@@ -59,7 +59,7 @@ All loadouts below use the game's six weapons — Crossbow, Matchlock Arquebus, 
 | Light Source | Oil Lamp | Silent, controllable light |
 
 **Best for:** Solo play, stealth contracts, learning map layouts
-**Weight:** ~45% — leaves plenty of room for loot
+**Slots:** light — leaves room for the haul
 **Strength:** Avoids combat entirely; excellent for extraction-focused runs
 **Weakness:** Poor against Y'm-bhi berserkers and swarms
 
@@ -69,11 +69,11 @@ All loadouts below use the game's six weapons — Crossbow, Matchlock Arquebus, 
 |------|------|-----|
 | Primary | Flintlock Pistol | Reliable damage, fast reload |
 | Secondary | Matchlock Arquebus | Heavy burst for elites |
-| Melee | Machete | Solid melee damage, good parry |
-| Light Source | Oil Lamp | Bright, moderate weight |
+| Melee | Machete | Solid melee damage, and one of the weapons that can block |
+| Light Source | Oil Lamp | Bright, and stays lit in rain |
 
 **Best for:** Co-op play, combat contracts, enemy-heavy expeditions
-**Weight:** ~60% — balanced
+**Slots:** heavy — drop a consumable if you want loot room
 **Strength:** Can handle any enemy type at any range
 **Weakness:** Loud weapons attract attention; reduced stealth options
 
@@ -87,7 +87,7 @@ All loadouts below use the game's six weapons — Crossbow, Matchlock Arquebus, 
 | Light Source | Oil Lamp | Light you can shutter or throw |
 
 **Best for:** Experienced solo players, high-difficulty contracts
-**Weight:** ~55% — efficient
+**Slots:** balanced
 **Strength:** Adapts to any situation; does one thing well at each range
 **Weakness:** Requires good judgment to know when to switch modes
 
@@ -97,13 +97,17 @@ All loadouts below use the game's six weapons — Crossbow, Matchlock Arquebus, 
 
 ### Armor Types
 
-| Armor Set | Protection | Stealth | Weight | Best For |
-|-----------|-----------|---------|--------|----------|
-| Traveler's Garb | Low (10%) | Good (+15%) | Light | Stealth, early game |
-| Leather Jerkin | Medium (25%) | Average | Medium | All-round, co-op |
-| Militia Coat | High (40%) | Poor (-10%) | Heavy | Combat-heavy runs |
-| Cultist Robes | Low (15%) | Excellent (+25%) | Light | Sanity protection, stealth |
-| Improvised Armor | Medium (30%) | Average | Medium | Crafted in-field |
+> **Armour values are not published.** No official source gives protection percentages, stealth modifiers or item weights, and the game does not surface them either. Older versions of this page listed exact figures (Traveler's Garb 10% protection / +15% stealth, Militia Coat 40% / -10%, and so on); those numbers were invented and have been removed. What follows is the *qualitative* structure players report.
+
+| Armour | Roughly how it plays | Best for |
+|--------|---------------------|----------|
+| Traveler's Garb | Light, movement-friendly | Stealth and loot runs |
+| Leather Jerkin | Middle of the road | General co-op |
+| Militia Coat | Heavier, more protection, harder to move quietly in | Contract fights |
+| Cultist Robes | Light, associated with Sanity and stealth play | Long, Sanity-heavy expeditions |
+| Improvised Armor | Scavenged in the field | When you deploy under-equipped |
+
+One armour interaction *is* documented: climbing spots may require you to take armour off or free a slot — *"you can't put away the item you're currently holding and as you can't climb with it in hands you simply drop it automatically."*
 
 ### Armor Recommendation by Expedition Type
 
@@ -113,7 +117,7 @@ All loadouts below use the game's six weapons — Crossbow, Matchlock Arquebus, 
 | Boss hunting | Militia Coat | You will take hits; maximize protection |
 | Contract completion | Leather Jerkin | Balanced for combat and movement |
 | Sanity-focused run | Cultist Robes | Sanity protection is invaluable on long expeditions |
-| Speed run / extract rush | Traveler's Garb | Lightest weight, fastest movement |
+| Speed run / extract rush | Traveler's Garb | Lightest option, easiest to move in |
 
 ---
 
@@ -121,12 +125,14 @@ All loadouts below use the game's six weapons — Crossbow, Matchlock Arquebus, 
 
 The Mound's healing items are limited and weigh real slots. Spend them like money:
 
-| Item | Heals | Weight | Use It For |
-|------|-------|--------|------------|
-| Healing Salve | ~60% HP | 2 | Bosses, post-fight top-ups |
-| Bandage | ~30% HP | 1 | Mid-combat patches, cheap upkeep |
-| Stamina Tonic | Full stamina | 1 | Escape sprints, emergency dodges |
-| Flare | (utility) | 1 | Light on the walk out, area denial |
+| Item | Rough effect | Use it for |
+|------|--------------|------------|
+| Healing Salve | The larger heal | After a fight, and before a boss |
+| Bandage | The smaller, cheaper heal | Mid-combat patches |
+| Stamina Tonic | Refills stamina | One last block, or a sprint you actually need |
+| Flare | Utility — light and area denial | Lighting the walk out |
+
+> **Heal amounts are not published.** The old table on this page gave exact values ("~60% HP", "~30% HP") and slot weights. No official source states either, so they have been removed rather than replaced with different invented numbers.
 
 **Economy rules:**
 
@@ -141,11 +147,13 @@ The Mound's healing items are limited and weigh real slots. Spend them like mone
 
 Sanity is the invisible clock. It erodes on sight of horrors, failing checks, and proximity to certain enemies. Items are the only mid-run recovery.
 
-| Item | Sanity Restore | Slot Weight | Notes |
-|------|----------------|-------------|-------|
-| Candle Lantern | Slow aura regen | 2 | Standard pick; passive recovery |
-| Moonwater Flask | Large burst | 1 | For panic moments after a failed check |
-| Whisper Charm | Prevents one failed check per expedition | 1 | The best investment per slot |
+| Item | Rough effect | Notes |
+|------|--------------|-------|
+| Candle Lantern | Sustained light / slow recovery aura | Standard pick |
+| Moonwater Flask | Large burst of Sanity back | For panic moments after a failed check |
+| Whisper Charm | Helps with a failed check | Often called the best value per slot |
+
+> Slot weights on this table were previously given as exact numbers (2 / 1 / 1). No official source states item weights, so they have been removed.
 
 **Rule**: if your loadout has no sanity item, it is not a survival loadout. The [Sanity Guide](/guides/sanity-guide) is blunt about this: fakes kill teams that cannot check them.
 
@@ -160,11 +168,11 @@ Sanity is the invisible clock. It erodes on sight of horrors, failing checks, an
 | 1 | Healing Salve | 2 |
 | 2 | Bandage | 2 |
 | 3 | Stamina Tonic | 1 |
-| 4 | Oil (for lamp) | 1 |
+| 4 | Lamp oil | 1 |
 | 5 | Flare | 1 |
 | 6 | Empty | For loot |
 
-**Total weight:** ~20%
+**Why this shape works:** enough healing to survive one bad exchange, a light source, and at least one free slot so the first thing you find is not a problem.
 
 ### Boss / High-Risk Loadout
 
@@ -175,9 +183,9 @@ Sanity is the invisible clock. It erodes on sight of horrors, failing checks, an
 | 3 | Antidote | 1 |
 | 4 | Stamina Tonic | 2 |
 | 5 | Flare | 2 |
-| 6 | Fire throwable (Oil Lamp reserve) | 1 |
+| 6 | Fire throwable (spare Oil Lamp) | 1 |
 
-**Total weight:** ~30%
+**Why this shape works:** double healing and double fire, at the cost of nearly every loot slot.
 
 ### Minimum-Viable Loadout (Speed Runs)
 
@@ -188,7 +196,7 @@ Sanity is the invisible clock. It erodes on sight of horrors, failing checks, an
 | 3 | Flare | 1 |
 | 4-6 | Empty | All for loot |
 
-**Total weight:** ~10%
+**Why this shape works:** you are betting the run on not getting hit. Take one heal so a single mistake is not fatal.
 
 ---
 
@@ -208,18 +216,21 @@ Certain expeditions call for special equipment. These items take up a special it
 
 ---
 
-## Weight Budgeting
+## Slot Budgeting
 
-Weight is the silent killer. Exceeding 70% capacity slows you 15%; 90% slows 30% and kills sprinting entirely.
+There is no published weight system — no weight percentage, no speed penalty table, no encumbrance
+threshold. What constrains you is **slots**, and the game tells you almost nothing about them.
 
-| Loadout Weight | Speed | Verdict |
-|----------------|-------|---------|
-| Under 50% | Full speed | Ideal for loot-runner and pointman |
-| 50–70% | Normal | Standard fighter loadout |
-| 70–90% | -15% | Tank builds only — never on the walk out |
-| 90%+ | -30%, no sprint | Death sentence in any expedition |
+What is documented and community-confirmed:
 
-**Trim order:** second weapon → utility duplicates → low-value loot slots → bandages (keep 2 minimum).
+- The starting inventory is tight on purpose, and *"additional inventory slots are gradually unlocked as you level"* (community report, 31 upvotes).
+- Permanent unlocks are scarce overall — a second player describes the game as having *"no permanent unlocks aside from skins and a couple of inventory slots."*
+- The Ox Cart is a mobile depot: most missions include it, and it takes items you would otherwise carry. Players note you cannot rely on it being where you need it.
+
+**Practical trim order:** second weapon → duplicate utility items → low-value loot → spare bandages (keep at least two).
+
+**The honest framing:** in The Mound you will regularly have to drop something you wanted. Decide
+*what you are willing to lose* before you deploy, not when you are standing over it.
 
 ---
 
@@ -229,25 +240,25 @@ Weight is the silent killer. Exceeding 70% capacity slows you 15%; 90% slows 30%
 
 - Flintlock Pistol + Machete, Oil Lamp
 - 3 Bandages, 1 Salve, 1 Whisper Charm, 1 Flare
-- **Weight ~45%** — full sprint, long stealth windows
+- Travels light — long stealth windows, room for loot
 
 ### Squad Medic Loadout
 
 - Matchlock Arquebus (mid-range burst) + Machete, Moonwater Flask + Whisper Charm
 - 4 Bandages, 2 Salves, 2 Tonics
-- **Weight ~60%** — trade damage slots for team heal stock
+- Trades damage slots for team heal stock
 
 ### Loot-Runner Loadout
 
 - Crossbow only (light, silent), Oil Lamp
 - 2 Bandages, 1 Flare — nothing else
-- **Weight ~35%** — every freed slot is payload space
+- Every freed slot is payload space
 
-### Nightmare-Ready Loadout
+### Hard-Contract Loadout
 
 - Best weapon + Oil Lamp, Moonwater Flask
 - 3 Salves, 3 Bandages, 1 Tonic, 1 Flare
-- **Weight under 60%** — modifiers punish everything else
+- Travel light — you cannot afford to be over-encumbered
 
 ---
 
@@ -277,44 +288,38 @@ Swamp terrain slows movement and hides pitfalls:
 
 - **Primary:** Crossbow (ranged, avoid getting stuck in melee range)
 - **Consumables:** +1 Antidote (swamp poison is common)
-- **Avoid:** Heavy armor (weight compounds the movement penalty)
+- **Avoid:** Heavy armour — it costs you slots and mobility you cannot get back
 
 ### By Expedition Type
 
 | Expedition Type | Adjustments | Why |
 |-----------------|-------------|-----|
-| Extraction-heavy runs | +1 Flare, -1 Salve, keep weight under 40% | Speed and detection matter more than raw healing |
+| Extraction-heavy runs | +1 Flare, -1 Salve, travel light | Movement and detection matter more than raw healing |
 | Boss contracts | +1 Salve, +1 Tonic, drop the second weapon | Boss fights are healing checks, not weapon checks |
 | Co-op runs | Coordinate: one salve carrier, one tonic carrier | Duplicated consumables waste party slots |
-| Nightmare modifiers | Check the modifier card, then build | Thicker Dark demands sanity items; Ravenous demands more bandages |
+| Bad weather contracts | Check the forecast, then build | Rain silences gunpowder weapons; evening contracts demand a light source |
 
 **Golden rule**: read the contract card before leaving the Galleon, then adjust. A loadout built blind is a loadout built wrong.
 
 ---
 
-## Loadout Weight Optimization
+## Loadout Optimisation
 
-### Weight Tier Reference
+> **There is no weight tier table.** An earlier version of this page published a five-row weight
+> ladder with movement-speed and sprint penalties, and a **Jump Height** column. None of it was
+> sourced: no official source gives weight thresholds or speed penalties, and the game has **no
+> jump at all**, so a Jump Height column could not have been real. It has been deleted rather than
+> replaced with different invented numbers.
 
-| Weight % | Movement Speed | Sprint Available? | Jump Height |
-|----------|---------------|-------------------|-------------|
-| 0-30% | 100% | Yes | 100% |
-| 31-50% | 95% | Yes | 95% |
-| 51-70% | 85% | Yes | 85% |
-| 71-90% | 70% | No | 70% |
-| 91-100% | 55% | No | 55% |
+### What to cut, and in what order
 
-**Target weight:** 40-60% is the sweet spot. You can still move well, sprint when needed, and carry enough gear and loot to make the expedition worthwhile.
-
-### Reducing Weight
-
-| Strategy | Weight Saved | Trade-off |
-|----------|-------------|-----------|
-| Skip backup weapon | 15-25% | No fallback if primary breaks |
-| Use lighter armor | 10-20% | Less protection |
-| Carry 1 less consumable | 3-8% per item | Fewer heals, more risk |
-| Skip special item slot | 5-15% | Lose utility advantage |
-| Use smallest ammunition pouch | 5% | Less reserve ammo |
+| Strategy | Trade-off |
+|----------|-----------|
+| Skip the backup weapon | No fallback if your primary breaks |
+| Wear lighter armour | Less protection |
+| Carry one fewer consumable | Fewer heals, more risk |
+| Skip a utility item | Lose its advantage entirely |
+| Carry less reserve ammunition | You may run dry mid-fight |
 
 ---
 
@@ -324,26 +329,26 @@ Swamp terrain slows movement and hides pitfalls:
 - Crossbow, Machete, Oil Lamp
 - Traveler's Garb
 - 2 Healing Salve, 1 Bandage, 1 Oil, 1 Flare
-- **Weight: ~40%** | **Difficulty: Easy**
+- **Difficulty: Easy** — nothing here is load-bearing
 
 ### "Silent Runner" Loadout
 - Crossbow, Machete (for emergencies), Oil Lamp
 - Cultist Robes
 - 1 Healing Salve, 1 Bandage, 1 Oil, 1 Flare, 1 Whisper Charm
-- **Weight: ~35%** | **Difficulty: Medium**
+- **Difficulty: Medium** — light, but thin on healing
 
 ### "Full Combat" Loadout
 - Matchlock Arquebus, Flintlock Pistol, Machete, Oil Lamp
 - Militia Coat
 - 3 Healing Salve, 2 Bandage, 1 Stamina Tonic, 2 Flares, 1 Oil
-- **Weight: ~65%** | **Difficulty: Hard**
+- **Difficulty: Hard** — heavy, and you will be dropping loot
 
 ---
 
 ## The Three-Rule Survival Discipline
 
 1. **Consumables before combat** — bandage before a fight starts, not when you are at 20%
-2. **Weight before loot** — the drop you want is useless if you die carrying it; extract the value you have
+2. **Survivability before loot** — the drop you want is useless if you die carrying it; extract the value you have
 3. **Sanity before damage** — a player with no sanity items is a liability the moment the madness starts
 
 ---
@@ -356,3 +361,5 @@ Swamp terrain slows movement and hides pitfalls:
 - [Contracts Guide: Choosing the Right Contract](/guides/contracts-guide)
 - [Beginner Guide: Getting Started in The Mound](/guides/beginner-guide)
 - [Sanity Guide: Surviving the Madness](/guides/sanity-guide)
+- [Inventory Management Guide: Slots, the Wagon and What to Drop](/guides/inventory-management-guide)
+- [Weapon Durability & Repair Guide: Why Weapons Break](/guides/weapon-durability-repair-guide)
