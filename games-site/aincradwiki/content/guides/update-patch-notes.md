@@ -4,18 +4,19 @@ description: 'Update history and patch notes for Echoes of Aincrad. Tracking con
 keywords: ['echoes of aincrad patch notes', 'aincrad update history', 'aincrad version log', 'aincrad changelog', 'aincrad latest update']
 category: Guides
 version: '1.0'
-updated: '2026-08-10'
+updated: '2026-10-24'
 related:
   - hidden-mechanics
   - game-modes-guide
   - bosses-guide
   - ex-mod-guide
   - tips-and-tricks
+  - genesis-maidens-dlc-guide
 ---
 
 # Update Log and Patch Notes — Version History and Changes
 
-> Last verified: August 10, 2026
+> Last verified: October 24, 2026
 
 This page tracks confirmed updates for **Echoes of Aincrad**. We only include information that can be verified against official developer announcements or consistent community reports.
 
@@ -27,11 +28,26 @@ This page tracks confirmed updates for **Echoes of Aincrad**. We only include in
 
 ## Confirmed Updates
 
-### Current Build: 1.0.4
+### Current Build: 1.0.6
+
+**Released:** September 28, 2026
+
+The September 28 patch is the preparation pass for the **Genesis Maidens** expansion (see the [Genesis Maidens DLC Guide](/guides/genesis-maidens-dlc-guide)). Confirmed changes:
+
+- **Sell All for weapons**, plus a **Weapon Chest full** notification — the game now stops you leaving Town with a full Chest, so clear it before departing on a quest
+- **Improved save stability**
+- **Attack speed and ATK buffs** for maces, two-handed swords, and two-handed axes
+- **Partner revive cooldown reduced from 30 to 25 seconds**
+- **Golden Gate boss weapons** now roll from the full universal EX-MOD pool
+- **Boss HP and ATK increased** for select bosses, and **elite/boss HP multipliers raised on Hard and Very Hard**
+
+Sources: [Patchnote v1.0.6](https://store.steampowered.com/news/app/2244210/view/679636495422719770) (Steam News, September 28, 2026) and Bandai Namco's [Update File Ver. 1.0.6 announcement](https://www.bandainamcoent.com/news/echoes-of-aincrad-update-file-ver-1-0-6-distribution-announcement).
+
+### Version 1.0.4
 
 **Released:** Approximately July 16, 2026
 
-The current public build as of this writing. It is a bug-fix pass that addressed issues reported during the launch week:
+The launch-window bug-fix pass that addressed issues reported during the first week:
 
 - Combat and stability fixes following the day-one overhaul (see 1.0.3 below)
 - Various quest and progression bug fixes

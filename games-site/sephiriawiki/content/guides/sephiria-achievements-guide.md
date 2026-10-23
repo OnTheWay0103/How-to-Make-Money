@@ -41,6 +41,8 @@ sources:
 
 # How to Get All 27 Sephiria Achievements — Hidden Triggers and the Hard Mode Grind
 
+> **Build-number note (October 24, 2026):** this guide cites **1.0.33** as the current build. The 1.0.33 announcement link could not be reopened during a QA pass on October 23, 2026, so treat the exact build number as **[Unconfirmed]**. The achievement list itself is unchanged and is cross-checked against two independent community sources.
+
 Sephiria has **27 Steam achievements** as of the 1.0.33 build, and they are not one list — they are two. Fifteen unlock by playing the campaign, and twelve require optional bosses, hidden rooms, a two-step conversation, or a Hard Mode climb. The official Steam global stats also show a clean difficulty curve: **77.2%** of players finish Chapter 1, **32.4%** watch the ending, and only **26.2%** clear Hard Mode tier 30. [Official]
 
 That gap is the useful part. Most players are not stuck on the story achievements — they are missing the optional layer on top. This guide separates the two lists, explains the triggers that the game does not explain, and gives an order that avoids re-running content you have already cleared.

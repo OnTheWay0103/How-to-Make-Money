@@ -43,6 +43,8 @@ sources:
 
 MineGeon: Renegades used to treat a descent as one unbroken sitting. **Patch 3 on August 28, 2026** ended that, but it did so with **two separate features**, and most players conflate them:
 
+> **Source note (October 24, 2026):** the Patch 3 announcement could not be reopened during the October 23 QA pass, and external searches returned no independent coverage of it. The systems below are quoted from Kickstone Studio's Patch 3 post; verify the exact wording in-game or on the Steam news page before relying on edge cases.
+
 - **Rest** is voluntary. You choose it after killing a biome boss, and it ends the run cleanly.
 - **Room checkpoints** are automatic. They exist so an interrupted run can be resumed where it stopped. [Official]
 

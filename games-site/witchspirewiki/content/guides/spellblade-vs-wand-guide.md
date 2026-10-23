@@ -3,14 +3,20 @@ title: "Witchspire Spellblade vs Wand Guide — Weapon Comparison"
 description: "Detailed comparison of Spellblade vs Wand in Witchspire. Range, playstyle, resource management, and which weapon is best for each Coven and playstyle."
 category: "Guides"
 version: "0.1.4"
-updated: "2026-08-10"
+updated: "2026-10-24"
 keywords: ["Witchspire Spellblade", "Witchspire Wand", "Spellblade vs Wand", "Witchspire weapons", "Witchspire best weapon", "Witchspire melee vs ranged"]
-related: ["best-coven-guide", "luminary-skill-tree-guide", "beginner-guide", "tier-list"]
+related:
+  - "best-coven-guide"
+  - "luminary-skill-tree-guide"
+  - "beginner-guide"
+  - "tier-list"
 ---
 
 # Spellblade vs Wand Guide — Which Weapon is Better?
 
 > Last verified: August 10, 2026
+
+> **Outdated mechanics warning (October 24, 2026):** this guide was written for **0.1.4**. Witchspire is now on **0.3.2** (October 23, 2026), and the 0.3.0 update reworked the weapon system. Treat the weapon-specific numbers and combo advice below as historical. For current 0.3.x systems, see the [Spell Gems Guide](/guides/spell-gems-guide).
 
 Your starting weapon comes from your Coven choice. Cloudpiercers, Starsmiths, and Foretellers start with the Spellblade. Wildroots, Tomekeepers, and Nightscribes start with the Wand. But which one is actually better? The answer depends on your playstyle, situation, and team composition.
 

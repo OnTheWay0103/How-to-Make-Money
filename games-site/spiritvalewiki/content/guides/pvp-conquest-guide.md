@@ -29,6 +29,8 @@ sources:
 
 > **Last verified: October 23, 2026 — SpiritVale 0.34.2.**
 
+> **Patch-detail note (October 24, 2026):** the 0.34.1 and 0.34.2 announcements could not be reopened during the October 23 QA pass. The 0.34.0 Conquest mode itself is confirmed by multiple sources; the specific 0.34.1/0.34.2 details below (level scaling 100→150, max party 2, consolidated queues) are taken from those patch notes and should be treated as **[Unconfirmed]** until you see them in-game.
+
 SpiritVale's 0.34 update added a real competitive mode, and it is not the Colosseum. **PvP Conquest** is a **5v5 fight over three capture points**, with its own lobby, its own currency, and a rule set that deliberately flattens burst damage.
 
 It also has a restriction that surprises people on their first queue: **you cannot enter as a five-stack.** Since 0.34.2, the maximum PvP party size is **two**. The mode is five versus five, but you queue as a solo or a duo and the rest of the team is filled from the consolidated queue.

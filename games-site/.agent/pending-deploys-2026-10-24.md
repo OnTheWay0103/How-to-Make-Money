@@ -8,6 +8,11 @@
 | nivalisnightswiki | `content/guides/greenhouse-automation-guide.md` | Update #4 档位（gid 1846018067933485）与 10/16 小补丁（gid 1846651706681865）写入可渲染的 `sources[].text` | 仍为旧版（官方链接只在 frontmatter `url`，页面不渲染） |
 | waterparksimulatorwiki | `content/guides/shelves-multistand-staff-guide.md` | 8/28 补丁来源（gid 1842212951303274）写入可渲染的 `sources[].text` | 仍为旧版 |
 | silverpineswiki | `content/guides/silver-pines-camera-photo-map-guide.md` | 正文末尾补可点击的 Hotfix 2 官方来源行（gid 1846651706681087） | 仍为旧版 |
+| aincradwiki | `content/guides/update-patch-notes.md` | 补 1.0.6（9/28）条目并更新 Current Build；新增 related 指向 DLC 指南 | 仍为旧版 |
+| witchspirewiki | `content/guides/spellblade-vs-wand-guide.md` | 0.1.4 过时横幅 + related 改块状数组 | 仍为旧版 |
+| sephiriawiki | `content/guides/sephiria-achievements-guide.md` | 1.0.33 版本号加 `[Unconfirmed]` 说明 | 仍为旧版 |
+| spiritvalewiki | `content/guides/pvp-conquest-guide.md` | 0.34.1/0.34.2 细项加 `[Unconfirmed]` 说明 | 仍为旧版 |
+| minegeonwiki | `content/guides/minegeon-save-rest-resume-guide.md` | Patch 3 单源加复核提示 | 仍为旧版 |
 
 ## 恢复后执行
 
@@ -16,6 +21,11 @@ cd /Users/zhaoq0103/DEV/Personal/How-to-Make-Money/games-site
 ./deploy-wiki-site.sh nivalisnightswiki
 ./deploy-wiki-site.sh waterparksimulatorwiki
 ./deploy-wiki-site.sh silverpineswiki
+./deploy-wiki-site.sh aincradwiki
+./deploy-wiki-site.sh witchspirewiki
+./deploy-wiki-site.sh sephiriawiki
+./deploy-wiki-site.sh spiritvalewiki
+./deploy-wiki-site.sh minegeonwiki
 ```
 
 验证：
