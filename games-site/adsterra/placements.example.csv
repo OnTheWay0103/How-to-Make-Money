@@ -1,0 +1,3 @@
+site_dir,domain,slot,format,placement_name,placement_id,status,code,notes
+witchspirewiki,witchspirewiki.vercel.app,global,Social Bar,witchspire-global,0000000,pending,"<script data-cfasync=""false"" src=""https://替换为真实域名/14/替换为真实路径""></script>",示例行：拿到代码后把 status 改为 ready
+witchspirewiki,witchspirewiki.vercel.app,guide,Native Banner,witchspire-native,0000001,pending,"<script async data-cfasync=""false"" src=""https://替换为真实域名/21/替换为真实路径""></script><div id=""container-替换为真实hash""></div>",示例行：拿到代码后把 status 改为 ready

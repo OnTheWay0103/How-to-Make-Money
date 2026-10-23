@@ -1,4 +1,5 @@
 import VersionBadge from './VersionBadge';
+import AdsterraNativeBanner from './AdsterraNativeBanner';
 
 interface EvidenceSource {
   tier: string;
@@ -61,6 +62,9 @@ export default function GuideLayout({ frontmatter, children }: GuideLayoutProps)
       ">
         {children}
       </div>
+
+      {/* Ad slot */}
+      <AdsterraNativeBanner />
 
       {/* Verification */}
       <footer className="mt-12 pt-6 border-t border-[#2a2a5e]">

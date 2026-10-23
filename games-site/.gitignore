@@ -1,2 +1,5 @@
 .vercel
 .env*
+# Adsterra 收益报告（含收入数据，不入库）
+.agent/adsterra-report.md
+.agent/adsterra-raw.json

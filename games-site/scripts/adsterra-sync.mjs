@@ -1,0 +1,511 @@
+#!/usr/bin/env node
+/**
+ * adsterra-sync.mjs — read adsterra/placements.csv and inject Adsterra snippets
+ * into the matching wiki sites.
+ *
+ * Usage:
+ *   node scripts/adsterra-sync.mjs                     # dry-run report
+ *   node scripts/adsterra-sync.mjs --print             # dry-run + show patched files
+ *   node scripts/adsterra-sync.mjs --apply             # write files
+ *   node scripts/adsterra-sync.mjs --apply --build     # write + pnpm build
+ *   node scripts/adsterra-sync.mjs --apply --build --deploy
+ *
+ * Options:
+ *   --root <dir>      read sites from <dir> instead of the repo root (testing)
+ *   --csv <path>      read placements from <path> instead of adsterra/placements.csv
+ *   --feishu <url>    read placements straight from a Feishu sheet (needs lark-cli)
+ *   --feishu-sheet <name>  sub-sheet name (default: first visible sheet)
+ *   --site <name>     only process one site directory
+ *
+ * CSV columns:
+ *   site_dir,domain,slot,format,placement_name,placement_id,status,code,notes
+ *
+ * slot:
+ *   global -> app/layout.tsx, before </body>
+ *   guide  -> components/GuideLayout.tsx, before {/* Verification *\/}
+ */
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import { spawnSync, execFileSync } from 'child_process';
+
+const REPO = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const args = process.argv.slice(2);
+const flag = (name) => args.includes(name);
+const opt = (name, fallback) => {
+  const i = args.indexOf(name);
+  return i !== -1 && args[i + 1] ? args[i + 1] : fallback;
+};
+
+const APPLY = flag('--apply');
+const PRINT = flag('--print');
+const BUILD = flag('--build');
+const DEPLOY = flag('--deploy');
+const SITES_ROOT = path.resolve(opt('--root', REPO));
+const ONLY_SITE = opt('--site', null);
+const FEISHU_URL = opt('--feishu', null);
+const FEISHU_SHEET = opt('--feishu-sheet', null);
+
+const CSV_PATH = path.resolve(opt('--csv', path.join(REPO, 'adsterra', 'placements.csv')));
+const TEMPLATE_PATH = path.join(REPO, 'adsterra', 'templates', 'AdsterraSlot.tsx');
+
+/* ─── CSV parser (RFC 4180, multiline cells supported) ────────────── */
+
+function parseCsv(text) {
+  const rows = [];
+  let row = [];
+  let field = '';
+  let quoted = false;
+
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i];
+    if (quoted) {
+      if (c === '"') {
+        if (text[i + 1] === '"') {
+          field += '"';
+          i++;
+        } else {
+          quoted = false;
+        }
+      } else {
+        field += c;
+      }
+    } else if (c === '"') {
+      quoted = true;
+    } else if (c === ',') {
+      row.push(field);
+      field = '';
+    } else if (c === '\n') {
+      row.push(field);
+      rows.push(row);
+      row = [];
+      field = '';
+    } else if (c !== '\r') {
+      field += c;
+    }
+  }
+  if (field.length > 0 || row.length > 0) {
+    row.push(field);
+    rows.push(row);
+  }
+  return rows.filter((r) => r.some((v) => v.trim() !== ''));
+}
+
+function loadRows() {
+  if (!fs.existsSync(CSV_PATH)) {
+    throw new Error(`missing ${path.relative(REPO, CSV_PATH)}`);
+  }
+  return rowsFromCsv(fs.readFileSync(CSV_PATH, 'utf8'));
+}
+
+/** Both placements.csv and the Feishu sheet may use Chinese or English headers. */
+const HEADER_ALIASES = {
+  site_dir: ['site_dir', 'site dir', '站点目录', '站点', '目录'],
+  domain: ['domain', '域名'],
+  slot: ['slot', '广告位类型', '广告位', '位置', '槽位'],
+  format: ['format', '广告格式', '格式'],
+  placement_name: ['placement_name', 'placement name', '广告位名称', '名称'],
+  placement_id: ['placement_id', 'placement id', '广告位id', '广告位编号', 'id'],
+  status: ['status', '状态'],
+  code: ['code', '广告代码', '广告代码（完整）', '代码'],
+  notes: ['notes', '备注'],
+};
+
+function canonicalHeader(raw) {
+  const key = raw.trim().toLowerCase().replace(/\s+/g, ' ');
+  for (const [canon, aliases] of Object.entries(HEADER_ALIASES)) {
+    if (aliases.some((alias) => alias.toLowerCase() === key)) return canon;
+  }
+  return key;
+}
+
+function rowsFromCsv(text) {
+  const [header, ...body] = parseCsv(text);
+  if (!header) {
+    throw new Error(
+      '表格是空的，第一行必须是表头：站点目录,域名,广告位类型,广告格式,广告位名称,广告位ID,状态,广告代码,备注',
+    );
+  }
+  const cols = header.map(canonicalHeader);
+  const required = ['site_dir', 'slot', 'status', 'code'];
+  for (const col of required) {
+    if (!cols.includes(col)) {
+      throw new Error(
+        `表格缺少列：${col}\n当前表头：${cols.join(', ')}\n` +
+          '第一行请填：站点目录,域名,广告位类型,广告格式,广告位名称,广告位ID,状态,广告代码,备注',
+      );
+    }
+  }
+  return body.map((values, index) => {
+    const row = {};
+    cols.forEach((col, i) => (row[col] = (values[i] ?? '').trim()));
+    row.__line = index + 2;
+    return row;
+  });
+}
+
+/* ─── Feishu sheet source (via lark-cli) ──────────────────────────── */
+
+function lark(args) {
+  const out = execFileSync('lark-cli', args, {
+    encoding: 'utf8',
+    env: {
+      ...process.env,
+      LARKSUITE_CLI_NO_UPDATE_NOTIFIER: '1',
+      LARKSUITE_CLI_NO_SKILLS_NOTIFIER: '1',
+    },
+  });
+  const envelope = JSON.parse(out);
+  if (!envelope.ok) {
+    throw new Error(envelope.error?.message || JSON.stringify(envelope));
+  }
+  return envelope.data;
+}
+
+function columnLetter(n) {
+  let s = '';
+  while (n > 0) {
+    const r = (n - 1) % 26;
+    s = String.fromCharCode(65 + r) + s;
+    n = Math.floor((n - 1) / 26);
+  }
+  return s;
+}
+
+function loadFromFeishu(url, sheetName) {
+  const info = lark(['sheets', '+workbook-info', '--url', url, '--format', 'json']);
+  const sheet = sheetName
+    ? info.sheets.find((s) => s.sheet_name === sheetName)
+    : info.sheets.find((s) => !s.is_hidden);
+  if (!sheet) {
+    throw new Error(
+      `找不到子表「${sheetName ?? '默认'}」，现有：${info.sheets.map((s) => s.sheet_name).join(', ')}`,
+    );
+  }
+  const range = `A1:${columnLetter(Math.min(sheet.column_count || 20, 26))}${Math.max(
+    sheet.row_count || 200,
+    20,
+  )}`;
+  const data = lark([
+    'sheets',
+    '+csv-get',
+    '--url',
+    url,
+    '--sheet-id',
+    sheet.sheet_id,
+    '--range',
+    range,
+    '--format',
+    'json',
+  ]);
+  const csv = data.csv ?? data.annotated_csv ?? '';
+  // annotated_csv prefixes each line with [row=N]; strip it before parsing.
+  return csv.replace(/^\[row=\d+\] ?/gm, '');
+}
+
+/* ─── Patch helpers ───────────────────────────────────────────────── */
+
+const IMPORT_SLOT = "import AdsterraSlot from '@/components/AdsterraSlot';";
+const IMPORT_ZONES = "import { ADSTERRA_ZONES } from '@/lib/adsterra-zones';";
+
+const SLOT_MARKERS = {
+  global: {
+    start: '{/* ADSTERRA:GLOBAL:START */}',
+    end: '{/* ADSTERRA:GLOBAL:END */}',
+    anchor: '</body>',
+  },
+  guide: {
+    start: '{/* ADSTERRA:GUIDE:START */}',
+    end: '{/* ADSTERRA:GUIDE:END */}',
+    anchor: '{/* Verification */}',
+  },
+};
+
+function blockFor(slot, indent) {
+  const variant = slot === 'global' ? ' variant="global"' : '';
+  return [
+    `${indent}${SLOT_MARKERS[slot].start}`,
+    `${indent}{ADSTERRA_ZONES.${slot}.map((zone) => (`,
+    `${indent}  <AdsterraSlot key={zone.name}${variant} html={zone.html} />`,
+    `${indent}))}`,
+    `${indent}${SLOT_MARKERS[slot].end}`,
+  ].join('\n');
+}
+
+function indentAt(src, index) {
+  const lineStart = src.lastIndexOf('\n', index) + 1;
+  return src.slice(lineStart, index);
+}
+
+function applySlotBlock(src, slot, hasZones, anchorOverride) {
+  const { start, end, anchor } = SLOT_MARKERS[slot];
+  const startIndex = src.indexOf(start);
+
+  if (startIndex !== -1) {
+    const endIndex = src.indexOf(end, startIndex);
+    if (endIndex === -1) throw new Error(`unclosed marker ${start}`);
+    const indent = indentAt(src, startIndex);
+    const block = hasZones ? blockFor(slot, indent) : '';
+    let after = endIndex + end.length;
+    if (!hasZones && src[after] === '\n') after++;
+    return src.slice(0, src.lastIndexOf('\n', startIndex) + 1) + block + src.slice(after);
+  }
+
+  if (!hasZones) return src;
+
+  const anchorText = anchorOverride ?? anchor;
+  const anchorIndex = src.indexOf(anchorText);
+  if (anchorIndex === -1) return null;
+
+  // A closing tag's children sit one level deeper than the tag itself.
+  const baseIndent = indentAt(src, anchorIndex);
+  const indent = anchorText.startsWith('</') ? `${baseIndent}  ` : baseIndent;
+  const block = blockFor(slot, indent);
+  const lineStart = src.lastIndexOf('\n', anchorIndex) + 1;
+  return src.slice(0, lineStart) + block + '\n' + src.slice(lineStart);
+}
+
+function insertImport(src, line) {
+  if (src.includes(line)) return src;
+  const lines = src.split('\n');
+  let last = -1;
+  lines.forEach((l, i) => {
+    if (/^import\b/.test(l.trim())) last = i;
+  });
+  if (last === -1) return `${line}\n${src}`;
+  lines.splice(last + 1, 0, line);
+  return lines.join('\n');
+}
+
+function removeImport(src, line) {
+  return src
+    .split('\n')
+    .filter((l) => l.trim() !== line)
+    .join('\n');
+}
+
+function syncImports(src, needsSlot, needsZones) {
+  let out = src;
+  out = needsSlot ? insertImport(out, IMPORT_SLOT) : removeImport(out, IMPORT_SLOT);
+  out = needsZones ? insertImport(out, IMPORT_ZONES) : removeImport(out, IMPORT_ZONES);
+  return out;
+}
+
+/* ─── Generated files ─────────────────────────────────────────────── */
+
+function zonesSource(zones) {
+  const fmt = (list) =>
+    list.length === 0
+      ? '[]'
+      : `[\n${list
+          .map(
+            (z) =>
+              `    { name: ${JSON.stringify(z.name)}, html: ${JSON.stringify(
+                z.code,
+              )} },`,
+          )
+          .join('\n')}\n  ]`;
+  return `// AUTO-GENERATED by scripts/adsterra-sync.mjs — do not edit by hand.\nexport const ADSTERRA_ZONES = {\n  global: ${fmt(
+    zones.global,
+  )},\n  guide: ${fmt(zones.guide)},\n} as const;\n`;
+}
+
+/* ─── Main ────────────────────────────────────────────────────────── */
+
+let rows;
+try {
+  rows = FEISHU_URL
+    ? rowsFromCsv(loadFromFeishu(FEISHU_URL, FEISHU_SHEET))
+    : loadRows();
+} catch (err) {
+  console.error(`读取广告位表格失败：${err.message}`);
+  process.exit(1);
+}
+const bySite = new Map();
+const skipped = [];
+
+/**
+ * Statuses that mean "already integrated by hand — never auto-inject".
+ * Everything else with a non-empty code is treated as injectable, so a
+ * human can paste the code and leave the status at pending.
+ */
+const MANUAL_STATUSES = new Set(['已接入', '已手工接入', 'manual']);
+
+for (const row of rows) {
+  const code = (row.code || '').trim();
+  if (!code || MANUAL_STATUSES.has((row.status || '').trim())) {
+    skipped.push(row);
+    continue;
+  }
+  if (!['global', 'guide'].includes(row.slot)) {
+    throw new Error(`line ${row.__line}: unknown slot "${row.slot}" (use global|guide)`);
+  }
+  if (ONLY_SITE && row.site_dir !== ONLY_SITE) continue;
+  if (!bySite.has(row.site_dir)) bySite.set(row.site_dir, { global: [], guide: [] });
+  bySite.get(row.site_dir)[row.slot].push({
+    name: row.placement_name || `placement-${row.placement_id || row.__line}`,
+    code: row.code,
+    domain: row.domain,
+    format: row.format,
+  });
+}
+
+if (skipped.length > 0) {
+  const byStatus = skipped.reduce((acc, row) => {
+    const key = row.status || '(空)';
+    acc[key] = (acc[key] || 0) + 1;
+    return acc;
+  }, {});
+  console.log(
+    `跳过 ${skipped.length} 行（没有代码，或标记为已手工接入）：${Object.entries(byStatus)
+      .map(([k, v]) => `${k || '(空)'} × ${v}`)
+      .join('，')}`,
+  );
+  for (const row of skipped.slice(0, 10)) {
+    console.log(`  - ${row.site_dir} / ${row.slot} / ${row.status || 'no-status'}`);
+  }
+  if (skipped.length > 10) console.log(`  … 其余 ${skipped.length - 10} 行省略`);
+  console.log('');
+}
+
+if (bySite.size === 0) {
+  console.log('没有可注入的行（广告代码为空，或标记为已手工接入）。');
+  process.exit(0);
+}
+
+const template = fs.readFileSync(TEMPLATE_PATH, 'utf8');
+const changes = [];
+const failures = [];
+
+for (const [siteDir, zones] of bySite) {
+  const sitePath = path.join(SITES_ROOT, siteDir);
+  if (!fs.existsSync(path.join(sitePath, 'app', 'layout.tsx'))) {
+    failures.push(`${siteDir}: 目录不存在或不是 Next.js 站点`);
+    continue;
+  }
+
+  const files = [];
+  const zonesFile = path.join(sitePath, 'lib', 'adsterra-zones.ts');
+  const slotFile = path.join(sitePath, 'components', 'AdsterraSlot.tsx');
+  const layoutFile = path.join(sitePath, 'app', 'layout.tsx');
+  const guideFile = path.join(sitePath, 'components', 'GuideLayout.tsx');
+
+  // 1) generated zones config
+  const zonesContent = zonesSource(zones);
+  files.push({ file: zonesFile, next: zonesContent });
+
+  // 2) generated slot component
+  files.push({ file: slotFile, next: template });
+
+  // 3) layout.tsx — global slot only
+  let layout = fs.readFileSync(layoutFile, 'utf8');
+  let nextLayout = applySlotBlock(layout, 'global', zones.global.length > 0);
+  if (nextLayout === null) {
+    failures.push(`${siteDir}: layout.tsx 找不到 </body>`);
+    continue;
+  }
+  nextLayout = syncImports(
+    nextLayout,
+    zones.global.length > 0,
+    zones.global.length > 0,
+  );
+  files.push({ file: layoutFile, next: nextLayout });
+
+  // 4) GuideLayout.tsx — guide slot only
+  let guide = fs.readFileSync(guideFile, 'utf8');
+  let nextGuide = applySlotBlock(
+    guide,
+    'guide',
+    zones.guide.length > 0,
+    '{/* Verification */}',
+  );
+  if (nextGuide === null) {
+    nextGuide = applySlotBlock(guide, 'guide', zones.guide.length > 0, '</article>');
+  }
+  if (nextGuide === null) {
+    failures.push(`${siteDir}: GuideLayout.tsx 找不到注入锚点`);
+    continue;
+  }
+  nextGuide = syncImports(
+    nextGuide,
+    zones.guide.length > 0,
+    zones.guide.length > 0,
+  );
+  files.push({ file: guideFile, next: nextGuide });
+
+  const changed = files.filter(({ file, next }) => {
+    const prev = fs.existsSync(file) ? fs.readFileSync(file, 'utf8') : '';
+    return prev !== next;
+  });
+
+  if (changed.length === 0) {
+    console.log(`= ${siteDir}: 无变化 (global ${zones.global.length}, guide ${zones.guide.length})`);
+    continue;
+  }
+
+  console.log(
+    `+ ${siteDir}: global ${zones.global.length}, guide ${zones.guide.length} → ${changed
+      .map((c) => path.relative(sitePath, c.file))
+      .join(', ')}`,
+  );
+
+  if (PRINT) {
+    for (const { file, next } of changed) {
+      console.log(`\n--- ${path.relative(SITES_ROOT, file)} ---`);
+      console.log(next);
+    }
+  }
+
+  if (APPLY) {
+    for (const { file, next } of changed) {
+      fs.mkdirSync(path.dirname(file), { recursive: true });
+      fs.writeFileSync(file, next);
+    }
+  }
+  changes.push(siteDir);
+}
+
+console.log('');
+if (failures.length > 0) {
+  console.error('失败：');
+  for (const f of failures) console.error(`  - ${f}`);
+}
+
+if (!APPLY) {
+  console.log(`dry-run：${changes.length} 个站点会变更。加 --apply 写入。`);
+  process.exit(failures.length > 0 ? 1 : 0);
+}
+
+if (BUILD || DEPLOY) {
+  for (const siteDir of changes) {
+    const sitePath = path.join(SITES_ROOT, siteDir);
+    console.log(`\n▶ ${siteDir}: pnpm install && pnpm build`);
+    const install = spawnSync('pnpm', ['install', '--prefer-offline'], {
+      cwd: sitePath,
+      stdio: 'inherit',
+    });
+    if (install.status !== 0) {
+      failures.push(`${siteDir}: pnpm install failed`);
+      continue;
+    }
+    const build = spawnSync('pnpm', ['build'], { cwd: sitePath, stdio: 'inherit' });
+    if (build.status !== 0) {
+      failures.push(`${siteDir}: build failed`);
+      continue;
+    }
+    if (DEPLOY) {
+      console.log(`▶ ${siteDir}: deploy`);
+      const deploy = spawnSync('./deploy-wiki-site.sh', [siteDir], {
+        cwd: REPO,
+        stdio: 'inherit',
+      });
+      if (deploy.status !== 0) failures.push(`${siteDir}: deploy failed`);
+    }
+  }
+}
+
+if (failures.length > 0) {
+  console.error('\n有失败项，见上方。');
+  process.exit(1);
+}
+console.log(`\n完成：${changes.length} 个站点已更新${BUILD ? ' 并构建' : ''}${DEPLOY ? ' 并部署' : ''}。`);
