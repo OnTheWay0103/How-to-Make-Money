@@ -5,10 +5,10 @@ description: 🧠 主管 Agent — 每天定时运行，读取状态、调度子
 
 # Coordinator — 主管 Agent
 
-> 多 Agent 架构的调度中心。每天 05:00 由 launchd 触发（2026-08-24 起每天 1 次；2026-09-02 由 07:07 调整为 05:00）。
+> 多 Agent 架构的调度中心。每天 08:30 由 launchd 触发（2026-08-24 起每天 1 次；2026-09-02 由 07:07 调整为 05:00；2026-10-24 改为 08:30，避开 Vercel 免费部署额度 08:00 重置窗口）。
 >
 > ▶️ **定时任务已恢复（2026-10-23）** —— launchd job `com.games-site.auto-build-site` 处于 loaded/enabled，
-> 每日 05:00 自动运行。2026-09-17 → 2026-10-23 期间因 API 余额不足（402）停跑，已恢复。
+> 每日 08:30 自动运行。2026-09-17 → 2026-10-23 期间因 API 余额不足（402）停跑，已恢复。
 > 检查：`launchctl list | grep games-site`；日志：`~/Library/Logs/auto-build-site/`。
 > 2026-10-23 起每日任务新增「新词探索」为必做项（见 `auto-build-site.sh` 的 CLAUDE_PROMPT）。
 > 
