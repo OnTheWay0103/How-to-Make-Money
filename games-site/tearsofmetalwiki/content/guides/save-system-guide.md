@@ -3,16 +3,16 @@ title: "Tears of Metal Save System Guide — Mid-Campaign Saves, Save Recovery &
 description: "How saving works in Tears of Metal: no mid-campaign saves (1-2 hour campaigns are all-or-nothing), the save recovery system added in a recent update, what causes progress loss, and the developer's mid-campaign save plans."
 category: "Guides"
 version: "Early Access"
-updated: "2026-08-11"
+updated: "2026-10-23"
 keywords: ["tears of metal save", "tears of metal mid-campaign save", "can i save mid-run tears of metal", "tears of metal save recovery", "tears of metal lost progress", "tears of metal how long is a run"]
 related: ["beginner-guide", "threat-level-difficulty-guide", "patch-notes", "progression-walkthrough"]
 ---
 
 # Tears of Metal Save System Guide — Mid-Campaign Saves, Save Recovery & What You Lose
 
-> **Early Access / Updated: August 11, 2026**
+> **Early Access / Updated: October 23, 2026**
 
-"Can I save mid-run?" is the **#1 player request** for Tears of Metal — and the answer today is **no**. Campaigns run 1–2 hours with no mid-campaign save: quit or fail and the run is gone. The good news: the developers have publicly confirmed **mid-campaign saves are their top priority** (in development, no date yet), and a recent update shipped a **save recovery system** that prevents corruption-based losses. Here's the exact current state and how to plan around it.
+"Can I save mid-run?" is the **#1 player request** for Tears of Metal — and the answer now depends on which branch you play. On the **default branch**, campaigns still run 1–2 hours with no mid-campaign save: quit or fail and the run is gone. On the **experimental branch opened October 21, 2026**, solo campaigns can be saved mid-run; multiplayer mid-campaign saves are still in development. This page covers the default branch. For the opt-in steps and the branch's save-backup rules, see the [Experimental Branch Guide](/guides/tears-of-metal-experimental-branch-guide). The good news for everyone: a recent update shipped a **save recovery system** that prevents corruption-based losses.
 
 ---
 
@@ -20,7 +20,7 @@ related: ["beginner-guide", "threat-level-difficulty-guide", "patch-notes", "pro
 
 | Question | Answer |
 |----------|--------|
-| Mid-campaign saves? | **No** — campaigns are all-or-nothing, 1–2 hours per run |
+| Mid-campaign saves? | **No on the default branch** — campaigns are all-or-nothing, 1–2 hours per run. Solo saves exist on the experimental branch |
 | What if I quit mid-run? | The run ends; you lose the run's progress (you keep meta progression, see below) |
 | What if I crash / the game closes? | Same — the run is lost, like a death |
 | Meta progression between runs? | **Yes** — permanent unlocks, village upgrades, and progression persist (see the [Progression Walkthrough](/guides/progression-walkthrough)) |
@@ -42,9 +42,9 @@ A recent update added **save recovery** — an anti-corruption safety net:
 
 ---
 
-## Why Mid-Campaign Saves Don't Exist Yet
+## Why Mid-Campaign Saves Are Still Off the Default Branch
 
-The developer's own announcement explains the delay honestly: mid-campaign saves **require reworking the meta progression system** so that save-scumming can't be abused (the run's artifacts/battalion state would otherwise become free rerolls). It's not laziness — it's a systems change, and it's officially listed as the **top community request, confirmed as the highest priority** with no time window.
+Solo mid-campaign saves are now live on the experimental branch, but Paper Cult has not moved them to the default branch as of October 23, 2026. The developer's own earlier announcement explains the delay honestly: mid-campaign saves **require reworking the meta progression system** so that save-scumming can't be abused (the run's artifacts/battalion state would otherwise become free rerolls). It's not laziness — it's a systems change. The branch is the public test of that change.
 
 **Timeline status:** confirmed "in development," with no release date announced. Track the [Patch Notes & Roadmap](/guides/patch-notes) page for the release announcement.
 
@@ -67,7 +67,7 @@ Until mid-campaign saves land, treat every campaign as a commitment:
 ## FAQ
 
 **Q: Can I save mid-run in Tears of Metal?**
-Not yet. Mid-campaign saves are confirmed as the #1 player request and top developer priority, but no release date.
+Not on the default branch. Solo mid-campaign saves are available on the experimental branch (opened October 21, 2026); multiplayer saves are still in development.
 
 **Q: Will I lose everything if I quit?**
 You lose the *run*. Permanent meta progression — village upgrades, unlocks, progression — is saved between campaigns.

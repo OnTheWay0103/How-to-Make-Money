@@ -33,7 +33,7 @@ This guide covers everything you need to survive your first five hours — and a
 - **Platforms**: PC (Steam/Microsoft Store), PS5, Xbox Series X|S; day-one on Xbox Game Pass Ultimate
 - **Price**: $59.99 Standard / $69.99 Deluxe
 - **Length**: 25–28 hours average; 30–35 completionist
-- **Difficulty**: Story, Normal, Hard — changeable any time with no penalty
+- **Difficulty**: Story, Normal, Hard, Very Hard and Ruthless (the last two added in v1.1.0) — changeable any time with no penalty
 - **Important**: **English voice acting is off by default.** Enable it in the main menu settings before you start if you don't want Japanese audio (Yui Ishikawa voices Emma).
 
 ---

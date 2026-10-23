@@ -42,9 +42,9 @@ The store's weapon shop, confirmed facts:
 
 **Practical rule**: check the Arsenal's availability at the start of every shift, and don't plan a fight strategy around Arsenal weapons on blood-rain nights.
 
-## Melee Weapons — Unconfirmed
+## Melee Weapons — Chainsaw Confirmed, Others Unconfirmed
 
-You may see references to a brick or baseball bat as melee options. The community has **not confirmed** a melee weapon tier list, damage values, or prices for Shift At Midnight. Until reliable documentation exists, assume the gun is your weapon and treat melee claims elsewhere as unverified.
+The **Chainsaw** is confirmed: it was added in the September 1, 2026 patch and is required for the LOCKED AND LOADED achievement. See the [Chainsaw Guide](/guides/chainsaw-guide) for where to find it and how to use it. Other melee claims — a brick or a baseball bat — remain community reports without a confirmed tier list, damage values, or prices. Treat those as unverified until reliable documentation exists.
 
 ## Confirmed Tools
 

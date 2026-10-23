@@ -44,7 +44,7 @@ Gauntlet Mode is the endless challenge: **wave-based survival with a score leade
 The long-tail endgame:
 
 - **Weapon mastery** — each weapon has its own mastery progression that grows only while you use it. Mastering every weapon unlocks the full perk set and makes you a flexible co-op partner.
-- **Achievements** — 27 achievements total; some unlock permanent artifacts with build-defining effects.
+- **Achievements** — 27 achievements total; some unlock permanent artifacts with build-defining effects. Hidden triggers and the Hard Mode ladder are covered in the [Achievements Guide](/guides/sephiria-achievements-guide).
 - **Artifact collection** — ~300 artifacts at 1.0. Permanent artifacts are unlocked through specific achievements, not random drops (see the [Artifacts Guide](/guides/artifacts-guide) for unlock farming).
 
 ## A Sustainable Endgame Session

@@ -19,7 +19,7 @@ related: ["elemental-builds-guide", "endings-guide", "chapter-progression-guide"
 - **13 chapters + epilogue** ("Epilogue: Bearing Fruit") finish the main story.
 - Completing the story unlocks:
   - **New Game+** — available from the main menu with your completed save
-  - **Reincarnation+ difficulty** — the game's hardest setting, required for the Platinum trophy
+  - **Reincarnation+ difficulty** — the New Game+ difficulty layer required for the Platinum trophy; since v1.1.0 its default corresponds to Normal, with Hard, Very Hard and Ruthless selectable
   - Post-game clean-up opportunities — no missables exist; every trophy is collectible after the story
 
 ---
@@ -51,7 +51,7 @@ The build-defining list is confirmed by post-launch coverage:
 
 ## Reincarnation+ Difficulty
 
-- NG+ forces **Reincarnation+** — a challenge tier **above Hard**: enemies hit harder, last longer, and aggression rises.
+- NG+ uses **Reincarnation+**. Since patch v1.1.0, its default difficulty corresponds to **Normal**, and you can select **Hard**, **Very Hard** or **Ruthless** within it (official v1.1.0 notes).
 - One outlet reports it feels roughly equivalent to the first playthrough's **Normal** — so the jump is most noticeable if you played the base game on Easy or Story.
 - **No trophies are difficulty-locked**, so you can play Reincarnation+ on the easiest available settings for achievement purposes.
 - The game reportedly gets harder with each additional cycle — suggesting **multiple NG+ cycles** are possible (exact scaling is unverified).

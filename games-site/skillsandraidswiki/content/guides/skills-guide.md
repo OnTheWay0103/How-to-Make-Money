@@ -3,14 +3,26 @@ title: "Skills & Raids Skills Guide — Ability System Explained"
 description: "Complete guide to the skill system in Skills & Raids. How abilities work, two abilities per character, skill drops, the 5 rarity tiers, and how to build synergies."
 category: "Skills"
 version: "Current"
-updated: "2026-08-11"
-keywords: ["Skills & Raids skills guide", "Skills & Raids abilities", "Skills & Raids skill drops", "Skills & Raids skill rarity", "Skills & Raids skill combos", "Skills & Raids best skills"]
-related: ["character-guide", "builds-guide", "team-compositions-guide", "beginner-guide"]
+updated: "2026-10-23"
+keywords:
+  - "Skills & Raids skills guide"
+  - "Skills & Raids abilities"
+  - "Skills & Raids skill drops"
+  - "Skills & Raids skill rarity"
+  - "Skills & Raids skill combos"
+  - "Skills & Raids best skills"
+related:
+  - "character-guide"
+  - "builds-guide"
+  - "team-compositions-guide"
+  - "beginner-guide"
 ---
 
 # Skills & Raids Skills Guide — The Ability System Explained
 
-**Updated: August 11, 2026**
+**Updated: October 23, 2026**
+
+> **Patch note:** the **Big Skill Rework Update (August 2, 2026)** changed cooldowns and cast times across the roster — 22 skills were set to a 10-second cooldown, five sustain skills to 6 seconds, and most cast times were standardised. The system described below is unchanged, but the timing layer is not. See the [Skill Rework Guide](/guides/skills-and-raids-skill-rework-guide) for the full change list.
 
 Skills are the heart of Skills & Raids — the game is literally built around them. Your heroes use abilities in real-time combat, enemies drop their own skills, and combining skills into builds is the main form of character progression. This guide explains everything that is publicly confirmed about the skill system, and clearly marks what is still unconfirmed.
 

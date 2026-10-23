@@ -32,7 +32,7 @@ A single-player action RPG by **Game Freak** (creators of Pokémon), published b
 **No.** Beast of Reincarnation is exclusively single-player — no co-op, multiplayer, or PvP. The whole game is built around the one-person, one-dog bond between Emma and Koo.
 
 ### Is it a Soulslike?
-It has Soulslike elements (parry combat, campsite checkpoints, boss arenas), but it's more accessible: three difficulty settings, a wide-parry-window Story Mode, no penalty for difficulty changes, and no death-run corpse runs. Reviewers compare it to Sekiro and NieR: Automata.
+It has Soulslike elements (parry combat, campsite checkpoints, boss arenas), but it's more accessible: five difficulty settings as of v1.1.0 (Story, Normal, Hard, Very Hard and one-hit Ruthless), a wide-parry-window Story Mode, no penalty for difficulty changes, and no death-run corpse runs. Reviewers compare it to Sekiro and NieR: Automata.
 
 ### What platforms is it on?
 PC (Steam + Microsoft Store), **PS5**, and **Xbox Series X|S**. Physical editions exist for PS5 and Xbox; PC is digital-only.

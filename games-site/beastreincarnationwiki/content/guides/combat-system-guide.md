@@ -114,6 +114,8 @@ Statuses out-damage raw parry chains on bosses:
 
 Story, Normal, and Hard are available from the start; you can change at any time with **no penalty**. Story Mode widens the parry window and lowers incoming damage — the recommended way to learn the system.
 
+**Patch v1.1.0 (October 1, 2026)** added **Very Hard**, above Hard, and **Ruthless**, a bonus mode where Emma dies from a single hit. See the [Difficulty Modes Guide](/guides/difficulty-modes-guide) for the full comparison and New Game+ options.
+
 ---
 
 ## Common Mistakes

@@ -3,7 +3,7 @@ title: 'Welcome to Elderfield Demo Guide — What’s in the Free Vertical Slice
 description: 'What is included in the free Welcome to Elderfield demo on Steam, how to download it, how long it takes, what carries over to the full release, and what to prioritize while you play.'
 category: 'Demo'
 version: '1.0'
-updated: '2026-08-30'
+updated: '2026-10-23'
 keywords:
   - welcome to elderfield demo
   - welcome to elderfield demo content
@@ -32,7 +32,7 @@ sources:
 
 Yes. **Welcome to Elderfield has a free demo on Steam** (App ID **3195680**), first released on **October 7, 2024**. It is a **vertical slice** of the full game — the developer has said it covers roughly **1/6** of the planned content, so it is a real chunk of Elderfield rather than a timed teaser.
 
-The demo currently holds a **~96% positive** rating across **~550 reviews** on Steam — "Overwhelmingly Positive" — which is unusually strong for a pre-release slice.
+The demo currently holds a **~96% positive** rating across **~550 reviews** on Steam — "Overwhelmingly Positive" — which is unusually strong for a demo slice.
 
 ## How to Download the Demo
 
@@ -40,7 +40,7 @@ The demo currently holds a **~96% positive** rating across **~550 reviews** on S
 2. Click **"Download Demo"** (free).
 3. Install and launch from your Steam library.
 
-You do **not** need to own the full game or wishlist it to play the demo, though wishlisting the full game (App 3195440) is the easiest way to get a launch notification.
+You do **not** need to own the full game or wishlist it to play the demo, though wishlisting the full game (App 3195440) is still the easiest way to follow it.
 
 ## What Is in the Demo?
 
@@ -69,13 +69,13 @@ There is no official time estimate. Community reports suggest a thorough playthr
 - **Grab the fishing rod early.** It is at the lake, reached through the sewer at the playground manhole (community-verified route; expect a couple of fights on the way).
 - **Clear the mall at least once.** It is the demo's only dungeon and the best preview of the full game's combat.
 - **Find the 7 mysteries.** They are community-verified and give you a feel for how investigation works in the full game. See the [Mysteries Guide](/guides/mysteries-guide) for locations.
-- **Test both difficulty modes.** If you are deciding between Cozy and Challenge for launch, the demo is your only hands-on chance before September 10.
+- **Test both difficulty modes.** If you are deciding between Cozy and Challenge, the demo is a hands-on way to try both before you buy the full game.
 
 ## Demo vs Full Game at a Glance
 
-A quick pre-release comparison so you know what the slice does and does not represent [Official/Unconfirmed]:
+A quick demo-versus-full-game comparison so you know what the slice does and does not represent [Official/Unconfirmed]:
 
-| Aspect | Demo | Full Game (Expected) |
+| Aspect | Demo | Full Game |
 |--------|------|----------------------|
 | **Price** | Free | Not announced [Unconfirmed] |
 | **Town size** | One area | ~3x the demo [Unconfirmed] |
@@ -84,7 +84,7 @@ A quick pre-release comparison so you know what the slice does and does not repr
 | **Romance** | Not present | Planned, not implemented [Unconfirmed] |
 | **Save carryover** | Separate Steam app | Not confirmed [Unconfirmed] |
 
-Use this table to set expectations: the demo is a genuine sample of the systems, but the town, story, and scope are much larger at launch.
+Use this table to set expectations: the demo is a genuine sample of the systems, but the town, story, and scope are much larger in the full game.
 
 ## Frequently Asked
 
@@ -94,7 +94,7 @@ Use this table to set expectations: the demo is a genuine sample of the systems,
 
 **Does the demo include all of the farm systems?** It includes the core farm loop (crops, ranch, tentacles) but not the full upgrade/expansion tree [Unconfirmed].
 
-**Will the demo be updated before launch?** The developer has not announced further demo updates; the full game launches September 10, 2026 [Unconfirmed].
+**Will the demo be updated?** The developer has not announced further demo updates; the full game launched on September 10, 2026 [Unconfirmed].
 
 ## Should You Play the Demo?
 
@@ -105,13 +105,13 @@ Play it if you:
 
 Maybe skip or wait if you:
 - Prefer to experience games completely fresh at launch without spoiling the town.
-- Only buy games after verified full-release reviews (the demo is strong, but the full game is unreleased).
+- Only buy games after verified full-release reviews (the demo is strong, but check post-launch reviews before buying).
 
 ---
 
 ## Verification
 
-- **Last checked:** 2026-08-30
-- **Game version:** demo (App 3195680), pre-release
+- **Last checked:** 2026-10-23
+- **Game version:** demo (App 3195680); full game launched 9/10/2026
 - **Sources checked:** Steam demo store page, Steam Community discussions, Steam reviews, TechTimes / ScreenRant / Game8 coverage
 - **Note:** Demo contents, release date, and rating are confirmed. Save carryover, full-game scope, and romance are marked [Unconfirmed].

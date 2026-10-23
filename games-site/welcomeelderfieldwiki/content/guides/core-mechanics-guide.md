@@ -3,7 +3,7 @@ title: 'Welcome to Elderfield Core Mechanics Explained — Farming, Combat, Rest
 description: 'How the core systems of Welcome to Elderfield fit together — the farming loop, turn-based AP combat, rest tradeoffs, probabilistic interactions, and daily mystery investigation, based on the Steam description and demo play.'
 category: 'Mechanics'
 version: '1.0'
-updated: '2026-08-30'
+updated: '2026-10-23'
 keywords:
   - welcome to elderfield mechanics
   - welcome to elderfield core systems
@@ -28,7 +28,7 @@ sources:
 
 # Welcome to Elderfield Core Mechanics
 
-Welcome to Elderfield is a **day-based cosy horror life-sim**: you manage a farm, gather resources, befriend odd townsfolk, investigate mysteries, and survive nights that are never quite safe. This guide explains how the core systems connect, using the official Steam description and community-verified demo reports. Because the full game launches September 10, 2026, some depth is still [Unconfirmed].
+Welcome to Elderfield is a **day-based cosy horror life-sim**: you manage a farm, gather resources, befriend odd townsfolk, investigate mysteries, and survive nights that are never quite safe. This guide explains how the core systems connect, using the official Steam description and community-verified demo reports. The full game launched on September 10, 2026, but some depth is still [Unconfirmed].
 
 ## The Daily Loop
 
@@ -111,20 +111,20 @@ Every system eventually routes back into the farm or the combat kit, so there is
 
 ## What Is Still [Unconfirmed]
 
-Because the full game is unreleased, these are not yet confirmed:
+These are not yet confirmed:
 
 - **Old God alignment** — a progression layer mentioned in coverage [Unconfirmed]
 - **Calendar-based events** — seasonal/festival events [Unconfirmed]
 - **Full town scope** — the full game is expected to be ~3x the demo town [Unconfirmed]
 - **Romance implementation** — planned, not yet implemented [Unconfirmed]
 
-These will be verified and documented after the September 10 launch.
+These remain to be verified and documented in the live release.
 
 ---
 
 ## Verification
 
-- **Last checked:** 2026-08-30
-- **Game version:** pre-release (launches 9/10/2026)
+- **Last checked:** 2026-10-23
+- **Game version:** released (launched 9/10/2026)
 - **Sources checked:** Steam store page (App 3195440), Steam demo page, Steam Community discussion reports, TechTimes / ScreenRant / Game8 coverage
 - **Note:** The daily loop, farming, combat (turn-based AP), rest tradeoffs, probabilistic interactions, and mysteries are confirmed from official descriptions and demo reports. Deeper systems are marked [Unconfirmed].

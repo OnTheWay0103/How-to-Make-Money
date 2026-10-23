@@ -7,32 +7,32 @@
     {
       "site": "sephiriawiki",
       "pv": 11110,
-      "lastExpanded": "2026-09-17",
-      "lastProduced": "photosensitivity-flashing-effects-guide (1,499w)"
+      "lastExpanded": "2026-10-23",
+      "lastProduced": "sephiria-achievements-guide (1,131w)"
     },
     {
       "site": "themoundwiki",
       "pv": 4916,
-      "lastExpanded": "2026-09-17",
-      "lastProduced": "inventory-management-guide (1,195w)"
+      "lastExpanded": "2026-10-23",
+      "lastProduced": "temple-of-yig-dlc-guide (1,481w)"
     },
     {
       "site": "spiritvalewiki",
       "pv": 4904,
-      "lastExpanded": "2026-09-17",
-      "lastProduced": "dark-fortress-guide (1,447w prose) — 终结 6 连 SKIP"
+      "lastExpanded": "2026-10-23",
+      "lastProduced": "pvp-conquest-guide (1,500w)"
     },
     {
       "site": "tearsofmetalwiki",
       "pv": 1837,
-      "lastExpanded": "2026-09-17",
-      "lastProduced": "visual-clarity-guide (1,486w) + patch-notes 9/8 逐字补全"
+      "lastExpanded": "2026-10-23",
+      "lastProduced": "tears-of-metal-experimental-branch-guide (1,473w)"
     },
     {
       "site": "grainrotwiki",
       "pv": 1101,
-      "lastExpanded": "2026-09-17",
-      "lastProduced": "spark-mode-guide (1,470w excl tables)"
+      "lastExpanded": "2026-10-23",
+      "lastProduced": "grainrot-expedition-mode-guide (1,498w)"
     }
   ],
   "skips": [
@@ -161,12 +161,30 @@
       "reason": "该两日无任何扩充产出：expand-daily.json 无对应 lastExpanded 更新或 skip 记录，git log 该区间亦无对应提交。**原因未知，未臆测**——如实登记为运行缺口，非站点素材不足（故不写入 skips，避免与「宁缺毋滥跳过」语义混淆）。",
       "caughtUpOn": "2026-09-16",
       "caughtUpResult": "名单内 5/5 全部补齐：sephiriawiki / themoundwiki / spiritvalewiki / tearsofmetalwiki / grainrotwiki 各 +1 篇，无 SKIP。"
+    },
+    {
+      "dates": [
+        "2026-09-18",
+        "2026-10-22"
+      ],
+      "reason": "定时任务停跑：2026-09-17 05:00 运行因 API 402 Insufficient Balance 失败，此后无 scheduled run。非站点素材不足。",
+      "caughtUpOn": "2026-10-23",
+      "caughtUpResult": "全站 43 个站点各 +1 篇；名单内 5 站 lastExpanded 已更新为 2026-10-23；无 SKIP。"
     }
   ],
   "lastRun": {
-    "date": "2026-09-17",
-    "produced": 5,
+    "date": "2026-10-23",
+    "produced": 43,
     "skipped": 0,
-    "note": "名单内 5/5 全部产出，无 SKIP。"
-  }
+    "note": "全站补更：43 个站点各新增 1 篇（一次性 catch-up）；名单内 PV>1000 的 5 站已更新 lastExpanded。"
+  },
+  "catchUps": [
+    {
+      "date": "2026-10-23",
+      "scope": "all-sites",
+      "sites": 43,
+      "articles": 43,
+      "reason": "定时任务 2026-09-17 后因 API 余额不足（402）停跑；2026-10-23 恢复调度并执行一次全站补更。"
+    }
+  ]
 }

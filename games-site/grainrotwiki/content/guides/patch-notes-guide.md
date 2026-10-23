@@ -3,7 +3,7 @@ title: 'Grain Rot Patch Notes & Update History — What Changed in 1.01–1.09 a
 description: 'Every Grain Rot patch since launch with dates and full changes — the Patch 1.07 public server browser, the 1.08 Boing vessel and 7 new constructs, the 1.09 compass recalibration — plus the official September and October update roadmap.'
 category: 'Game Info'
 version: '1.0'
-updated: '2026-09-11'
+updated: '2026-10-23'
 keywords: ['grain rot patch notes', 'grain rot update history', 'grain rot 1.09', 'grain rot 1.08', 'grain rot 1.07 server browser', 'grain rot latest update', 'grain rot deep layers update', 'grain rot roadmap', 'grain rot update notes']
 related: ['full-release-guide', 'release-date-faq', 'multiplayer-matchmaking-guide', 'outpost-upgrade-guide', 'weapons-tools-guide', 'performance-lag-fix-guide']
 sources:
@@ -21,6 +21,8 @@ sources:
 
 Grain Rot has shipped **nine patches since its August 7, 2026 launch** — and the two that matter most to how you actually play (a public server browser and a batch of new buildables) landed *after* most reviews and guides were written. This page is the full, dated update history taken from the developer's own Steam announcements, plus the official roadmap for what is still coming.
 
+> **Update (October 23, 2026):** this page stops at **Patch 1.09**. Update **1.1** landed on **September 24, 2026** with **Expedition Mode**, the **Rainbow Ward** biome and colour-pattern cosmetics, followed by **Patches 1.11 (September 28), 1.12 (September 29) and 1.13 (September 30)**. The mode and its patch changes are covered in the [Grain Rot Expedition Mode Guide](/guides/grainrot-expedition-mode-guide). The 1.01–1.09 body below is left as the historical record.
+
 > **Scope note:** this page is the *version history* — what changed and when. For playing with other people now that public servers exist, see the [Multiplayer & Matchmaking Guide](/guides/multiplayer-matchmaking-guide); for what shipped at 1.0, the [Full Release Guide](/guides/full-release-guide); for what the locked third Outpost floor means for the end of the current content, see [Why the Third Floor Is Locked](/guides/third-floor-locked-guide).
 
 ---
@@ -29,7 +31,7 @@ Grain Rot has shipped **nine patches since its August 7, 2026 launch** — and t
 
 | Question | Answer |
 |----------|--------|
-| What is the current Grain Rot version? | **1.09**, released **August 28, 2026** |
+| What is the current Grain Rot version? | **1.13**, released **September 30, 2026** (the 1.1 content update shipped September 24; see the [Expedition Mode Guide](/guides/grainrot-expedition-mode-guide)) |
 | When was the last update? | 1.09 on August 28 — no 1.10 or September patch has shipped as of September 11, 2026 |
 | Does Grain Rot have a server browser? | **Yes** — Patch 1.07 (August 12) added public servers you join through an in-game browser |
 | What is the next big update? | The **Deep Layers Update** — one new biome and several new enemies, planned by the developer for September 2026 |

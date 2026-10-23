@@ -3,7 +3,7 @@ title: 'Welcome to Elderfield Beginner Guide — First Steps in the Demo & Full 
 description: 'New to Welcome to Elderfield? How to start your first days in the town — the core loop (farm, mine, forage, fight, investigate), how to pick between Cozy Mode and Challenge Mode, and what you can try right now in the free demo.'
 category: 'Beginner'
 version: '1.0'
-updated: '2026-08-30'
+updated: '2026-10-23'
 keywords:
   - welcome to elderfield beginner guide
   - welcome to elderfield how to start
@@ -24,7 +24,7 @@ sources:
   - tier: "Community"
     text: "Demo play reports on Steam Community discussions (fishing rod route, mystery locations); demo holds ~96% positive across ~550 reviews"
   - tier: "Editorial"
-    text: "The recommended first-days path is editorial and will be refined after launch"
+    text: "The recommended first-days path is editorial and reflects the post-launch state"
 ---
 
 # Welcome to Elderfield Beginner Guide
@@ -35,7 +35,7 @@ sources:
 
 The game pairs **Stardew Valley-style farming and life-sim** mechanics with **Lovecraftian turn-based combat**, hand-drawn horror-manga art, a dark lofi soundtrack by **Dated**, and daily mystery investigation. It is often described as "cozy horror": relaxing on the surface, unsettling underneath.
 
-It launches **September 10, 2026** on Steam (PC, Windows only, single-player). A free **demo** covering roughly **1/6** of the planned game is available now.
+It launched **September 10, 2026** on Steam (PC, Windows only, single-player). A free **demo** covering roughly **1/6** of the planned game is available now.
 
 ## Before You Start
 
@@ -94,7 +94,7 @@ Turn-based **combat** is triggered by exploring: cutting grass or breaking rocks
 
 ## Verification
 
-- **Last checked:** 2026-08-30
-- **Game version:** pre-release (launches 9/10/2026)
+- **Last checked:** 2026-10-23
+- **Game version:** released (launched 9/10/2026)
 - **Sources checked:** Official Steam store page (App 3195440), Steam demo page (App 3195680), Steam Community discussion replies from developer Chris Cote, TechTimes / ScreenRant / Game8 coverage
-- **Note:** Core loop (farming, turn-based combat, two difficulty modes, rest tradeoffs) is confirmed from official descriptions and demo play. Exact mechanics, price, and romance implementation will be verified at launch.
+- **Note:** Core loop (farming, turn-based combat, two difficulty modes, rest tradeoffs) is confirmed from official descriptions and demo play. Exact mechanics, price, and romance implementation remain to be verified in the live release.

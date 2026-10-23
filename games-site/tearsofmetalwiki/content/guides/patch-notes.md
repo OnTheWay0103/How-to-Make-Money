@@ -3,7 +3,7 @@ title: "Tears of Metal Updates & Roadmap — Early Access Patch Tracker (Septemb
 description: "Tears of Metal patch tracker: the full v0.8 → v0.14.58630 build history plus the September 8, 2026 Big Bug Fixing Pass (no version number published), the July 22 2026 launch on Steam + Microsoft Store + PC Game Pass, the 100K sales milestone, and Paper Cult's announced three-phase Early Access roadmap — Phase 1 stability, Phase 2 system reworks, Phase 3 content including the Plague Doctor."
 category: "Guides"
 version: "Early Access"
-updated: "2026-09-17"
+updated: "2026-10-23"
 keywords: ["Tears of Metal patch notes", "Tears of Metal updates", "Tears of Metal roadmap", "Tears of Metal Early Access", "Tears of Metal new heroes", "Tears of Metal Plague Doctor", "Tears of Metal mid-campaign saves", "Tears of Metal latest update", "Tears of Metal version"]
 related: ["save-system-guide", "multiplayer-connection-fix-guide", "heroes-tier-list", "co-op-revive-guide", "beginner-guide"]
 sources:
@@ -17,7 +17,9 @@ sources:
 
 # Tears of Metal Updates & Roadmap — Early Access Patch Tracker
 
-> **Applies to Early Access / Updated: September 17, 2026**
+> **Applies to Early Access / Updated: October 23, 2026**
+>
+> **Newer builds than the table below:** the main branch received a meta-progression patch on **September 24, 2026** and **v0.17.60380 on September 30, 2026**. On **October 21, 2026**, Paper Cult opened a public **experimental branch** with solo mid-campaign saves, an Emblem Power rework and an F3 bug-report tool. The branch is not the default build. See the [Experimental Branch Guide](/guides/tears-of-metal-experimental-branch-guide) for the opt-in steps and full changelog. The version table below remains the September 8 main-branch snapshot and has not been rewritten.
 
 Tears of Metal shipped its Early Access launch build on **July 22, 2026** on Steam, the Microsoft Store and PC Game Pass, and the game has already sold over **100,000 copies on Steam**. This page is the site's tracking hub for every update: what shipped build by build, what's confirmed in development, and where to watch for the next announcement.
 

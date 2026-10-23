@@ -3,7 +3,7 @@ title: "Co-op & Invites — How to Play BOMBANANA! With Friends"
 description: "How to play BOMBANANA! with friends — the exactly-three-players rule, the in-game invite flow, the Steam overlay backup invite, matchmaking for a third, and troubleshooting connection issues."
 category: "Co-op"
 version: "Pre-release"
-updated: "2026-09-01"
+updated: "2026-10-23"
 keywords:
   - bombanana co op
   - how to play bombanana with friends
@@ -19,6 +19,8 @@ related:
 sources:
   - tier: "Official"
     text: "Steam store page (App 4656000) — Online Co-op, exactly three players, Steam features"
+  - tier: "Official"
+    text: "The BOMBANANA! demo is live on Playstation (Steam announcement, 2026-10-22) — crossplay not currently available — https://steamcommunity.com/ogg/4656000/announcements/detail/1847286114032768"
   - tier: "Community"
     text: "Demo player guides on invite flow (create room, invite friends, Steam overlay), troubleshooting, matchmaking third slot"
   - tier: "Editorial"
@@ -105,8 +107,12 @@ The official line is **exactly three players required** [Official]. Some communi
 
 ## Cross-Play and Local Play
 
-- **No cross-platform play** — the game is PC-only (Windows and macOS), so there is no cross-console scenario to worry about [Unconfirmed].
-- **No local split-screen** has been reported; the game is online co-op via Steam [Unconfirmed].
+- **No crossplay at the time of writing** — the official PlayStation demo announcement (October 22, 2026) says crossplay is not currently available, though it may be considered later [Official].
+- **Steam PC and Mac players share lobbies** because both are on the same Steam ecosystem [Community].
+- **PlayStation players cannot currently join Steam lobbies.** The PS5 demo is live, but crossplay is not available [Official].
+- **No local split-screen** has been reported; the game is online co-op [Unconfirmed].
+
+See the [BOMBANANA Crossplay Guide](/guides/crossplay-playstation-guide) for the full platform breakdown.
 
 ---
 

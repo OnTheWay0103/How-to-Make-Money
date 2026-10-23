@@ -45,7 +45,7 @@ Big Walk launched August 4, 2026 on five platforms at once (PC, Mac, PS5, Switch
 
 **Fixes:**
 
-1. **Know the invite system.** Big Walk has **no matchmaking** — sessions are created through platform invites (Steam friends, PlayStation party chat, Switch friends). The invite must come through the platform, not an in-game code. See the [Multiplayer & Co-op Guide](/guides/multiplayer-coop-guide).
+1. **Know the invite system.** Big Walk has **no matchmaking** — sessions are created through platform invites (Steam friends, PlayStation party chat, Switch friends) or joined with the host's **Join Code** (letters and numbers since patch 1.6.0). See the [Join Code Guide](/guides/join-code-guide) for where the host finds the code and how the separate Session Password works.
 2. **Crossplay specifics (PC ↔ PS5):** both players need the same game version, and PS5 players need an active **PlayStation Plus subscription**.
 3. **Same-version check.** Mixed Steam/Epic-style version skew doesn't apply (Steam is the only PC storefront confirmed), but *console patches can lag PC* — if one side updated, both must update.
 4. **NAT issues (PS5):** if you can't connect to one specific friend, check your PS5 network settings — strict NAT blocks peer-to-peer sessions. Setting the console to a DMZ or enabling UPnP on the router is the community-verified fix.

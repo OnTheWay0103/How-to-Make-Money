@@ -84,7 +84,7 @@ What we do have:
 
 - **Materials** are the confirmed currency of gear — harvested, extracted, forged.
 - The Steam achievement **"Billionaire"** is officially listed (name revealed; requirement not published), which hints at a wealth or economy system — but that is inference, not confirmation `[Unconfirmed]`.
-- The mobile version has its own separate systems (a Necromancer class that collects souls from enemies, rune sockets on gear), but the mobile and Steam versions are separate products — do not assume mobile systems exist on Steam.
+- The mobile version has its own separate systems (a Necromancer class that collects souls from enemies). Rune sockets themselves are confirmed on the Steam version — see the [Runes Guide](/guides/runes-guide) — but do not assume other mobile-only systems carry over to Steam.
 
 Any guide naming a specific currency ("Phantom Coins," "Tower Souls") and quoting prices for it is inventing the numbers.
 

@@ -4,7 +4,7 @@ description: 'Everything about the current Mistfall Hunter season. Season of the
 keywords: ['season guide', 'season pass', 'season rewards', 'meta changes', 'balance update', 'current season', 'withering affixes', 'season meta']
 category: Gameplay
 version: '1.0'
-updated: '2026-08-10'
+updated: '2026-10-23'
 related:
   - tier-list-guide
   - economy-guide
@@ -25,7 +25,7 @@ Mistfall Hunter operates on seasonal content cycles. Each season introduces new 
 | Duration | Approximately 3 months per season |
 | Season Pass Tiers | 50 tiers (Free) + 50 tiers (Premium) |
 | Leaderboard Reset | Yes — rank and ladder position |
-| Stash/Camp Reset | No — camp upgrades and warehouse persist |
+| Stash/Camp Reset | Seasonal reset — inventory and warehouse items convert to Contribution; six camp buildings reset (see [Season 1 Reset Guide](/guides/season-1-reset-guide)) |
 | New Content | New gear, sometimes a new class or map |
 
 ## Current Season: Season of the Withering

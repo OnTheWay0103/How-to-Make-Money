@@ -3,7 +3,7 @@ title: 'Walkthrough — A Full Run From Descend to Extraction in MineGeon: Reneg
 description: 'A step-by-step walkthrough of a MineGeon: Renegades run — ship prep, descending into procedural minegeons, mining, monolith path votes, the biome boss, and extracting your minerals. Confirmed mechanics only.'
 category: Guides
 version: '1.0'
-updated: '2026-08-03'
+updated: '2026-10-23'
 keywords: ['minegeon renegades walkthrough', 'minegeon walkthrough', 'minegeon renegades how to play', 'minegeon run guide', 'minegeon run structure', 'minegeon renegades monolith']
 related:
   - beginner-guide
@@ -44,7 +44,7 @@ Every run starts on the **Galactic Express**, your ship and base between expedit
 
 Launch an expedition — solo or with up to two friends in online co-op — and enter a **procedurally generated "minegeon."** The layout, mineral placement, and hazards change every run. Treat each descent as a new puzzle: there are no memorized routes in this game.
 
-**Confirmed structure:** six hand-crafted biomes, each explored through generated minegeons, each ending in a boss (see the [Biomes Guide](/guides/biomes-guide)). A full descent is a substantial time investment, and the only thing that matters at the end of it is what you manage to extract — there is no mid-run save for the minerals you are carrying.
+**Confirmed structure:** six hand-crafted biomes, each explored through generated minegeons, each ending in a boss (see the [Biomes Guide](/guides/biomes-guide)). A full descent is a substantial time investment, and the only thing that matters at the end of it is what you manage to extract. Since Patch 3 (August 28, 2026), the game checkpoints every room entry and offers a voluntary Rest after each biome boss, but those systems protect the run, not the minerals you are carrying — a death still loses the haul. See the [Save, Rest & Resume Guide](/guides/minegeon-save-rest-resume-guide) for the exact rules.
 
 ## Stage 2 — Mining
 

@@ -1,9 +1,9 @@
 ---
 title: 'Welcome to Elderfield Combat Guide — Turn-Based AP, Buffs, Equipment & Fleeing'
-description: 'How turn-based combat works in Welcome to Elderfield — action points, using gathered resources and buffs, equipment, triggering fights, and when to flee. A pre-release overview based on the official description and demo play.'
+description: 'How turn-based combat works in Welcome to Elderfield — action points, using gathered resources and buffs, equipment, triggering fights, and when to flee. An overview based on the official description and demo play.'
 category: 'Combat'
 version: '1.0'
-updated: '2026-08-30'
+updated: '2026-10-23'
 keywords:
   - welcome to elderfield combat
   - welcome to elderfield turn-based combat
@@ -28,7 +28,7 @@ sources:
 
 # Welcome to Elderfield Combat Guide
 
-Welcome to Elderfield's combat is **turn-based** and resource-driven. The official Steam description calls it **"in-depth turn based combat"** and frames Challenge Mode around testing your **skills and resource building**. Because the full game launches September 10, 2026, exact skill names, damage values, and enemy stats are [Unconfirmed] — this guide covers the confirmed structure and how to approach it.
+Welcome to Elderfield's combat is **turn-based** and resource-driven. The official Steam description calls it **"in-depth turn based combat"** and frames Challenge Mode around testing your **skills and resource building**. The full game launched on September 10, 2026; exact skill names, damage values, and enemy stats are still [Unconfirmed] — this guide covers the confirmed structure and how to approach it.
 
 ## When Do You Fight?
 
@@ -48,7 +48,7 @@ Combat uses **action points (AP)** that gate what you can do in a turn [Communit
 - **Resource use matters** — the store description emphasizes "resource building," so your gathered materials are effectively your combat fuel.
 - **Strategic buffs** — buffs are a named mechanic; applying them before/while attacking is expected to matter in harder fights.
 
-Exact AP pools, per-action costs, and turn order rules are **not published** — expect them to be verified right after launch [Unconfirmed].
+Exact AP pools, per-action costs, and turn order rules are **not published** — expect them to be verified in the live build [Unconfirmed].
 
 ## Equipment & Items
 
@@ -86,7 +86,7 @@ In Challenge Mode, fleeing may cost you rewards or progress [Unconfirmed] — we
 - Prepare for every encounter: stock items, keep equipment upgraded, use buffs.
 - Expect fights to be the main progression gate — "the Old Gods are waiting."
 
-## Building a Combat Kit (Pre-Release)
+## Building a Combat Kit
 
 Because combat draws on "diverse equipment" and gathered resources, your **farm and craft loop is your loadout**:
 
@@ -99,7 +99,7 @@ A simple rule: **never enter a dungeon without at least one full heal and one bu
 
 ## Reading a Fight (When to Stay vs Flee)
 
-Pre-release decision framework based on the confirmed systems [Editorial]:
+Decision framework based on the confirmed systems [Editorial]:
 
 **Stay and fight when:**
 - You have full AP, items, and health.
@@ -113,15 +113,15 @@ Pre-release decision framework based on the confirmed systems [Editorial]:
 
 The cozy-horror tone rewards **avoidance as a strategy** — dying less is a real advantage in a game where rest itself carries costs.
 
-## What to Expect After Launch
+## What to Expect From Post-Launch Updates
 
-Once the game launches, this guide will be updated with: exact AP values, skill/ability names, enemy types, boss fights, and damage numbers — all verified rather than guessed. Until then, everything numeric is [Unconfirmed].
+As the live build is documented, this guide will be updated with: exact AP values, skill/ability names, enemy types, boss fights, and damage numbers — all verified rather than guessed. Until then, everything numeric is [Unconfirmed].
 
 ---
 
 ## Verification
 
-- **Last checked:** 2026-08-30
-- **Game version:** pre-release (launches 9/10/2026)
+- **Last checked:** 2026-10-23
+- **Game version:** released (launched 9/10/2026)
 - **Sources checked:** Steam store page (App 3195440), Steam demo page, Steam Community discussion reports
 - **Note:** Turn-based AP combat, resource use, buffs, equipment, ambient fight triggers, and fleeing are confirmed. Exact numbers, skill names, and enemy stats are [Unconfirmed].

@@ -1,9 +1,9 @@
 ---
 title: "BOMBANANA! Price, Platforms & Release FAQ — When, Where & How to Play"
-description: "When does BOMBANANA! release, how much does it cost, and what platforms is it on? Full answer — release date, price, Windows and Mac system requirements, why there is no mobile or console version, and the free demo."
+description: "When does BOMBANANA! release, how much does it cost, and what platforms is it on? Full answer — release date, price, Windows and Mac system requirements, the PlayStation demo, the planned Xbox version, the free demo, and the crossplay situation."
 category: "Info"
 version: "Pre-release"
-updated: "2026-09-01"
+updated: "2026-10-23"
 keywords:
   - bombanana release date
   - bombanana price
@@ -56,12 +56,12 @@ BOMBANANA! releases on **September 2, 2026** on Steam [Official]. The game is cu
 |----------|---------|
 | **Windows** | ✅ Yes — Windows 10/11 64-bit [Official] |
 | **macOS** | ✅ Yes — macOS 11.0 (Big Sur) or later [Official] |
-| **PlayStation 5** | ❌ No version announced [Unconfirmed] |
-| **Xbox** | ❌ No version announced [Unconfirmed] |
+| **PlayStation 5** | ⚠️ Free demo live since October 22, 2026; full version not announced [Official] |
+| **Xbox** | ⚠️ Planned per October 2026 reporting; no date announced [Community] |
 | **Nintendo Switch** | ❌ No version announced [Unconfirmed] |
-| **Mobile (Android / iOS / APK)** | ❌ No — the game is PC-only; there is no mobile version and no APK. Beware of fake "BOMBANANA APK" downloads [Official] |
+| **Mobile (Android / iOS / APK)** | ❌ No official version confirmed; beware fake APK downloads [Community] |
 
-The game is **PC-only via Steam**. Keyword searches for "bombanana PS5," "bombanana Xbox," and "bombanana mobile/APK" are common — the answer to all three is the same: **there is no console or mobile version.**
+Steam on PC and Mac is the only confirmed **full-release** platform. PlayStation has a **free demo** as of October 22, 2026, but no full release date. Xbox is reported as planned with no date. Crossplay is **not currently available** — see the [BOMBANANA Crossplay Guide](/guides/crossplay-playstation-guide) for the platform-by-platform breakdown.
 
 ## Can You Play Solo?
 
@@ -110,9 +110,9 @@ Online Co-op, Steam Achievements, and Steam Family Sharing are listed on the sto
 
 ## Quick Answers
 
-- **Where can I play BOMBANANA!?** Steam on PC (Windows and macOS).
-- **Is there a mobile version?** No. No APK, no Android, no iOS.
-- **Is there a console version?** No PS5, Xbox, or Switch version announced [Unconfirmed].
+- **Where can I play BOMBANANA!?** Steam on PC (Windows and macOS); a free demo is live on PlayStation.
+- **Is there a mobile version?** No official version confirmed. No APK, no official Android or iOS release.
+- **Is there a console version?** A PS5 demo is live; the full PS5 version has no announced date. Xbox is planned with no date [Community].
 - **Can I play with just one friend?** No — exactly three players are required.
 - **Does it work on Mac?** Yes — macOS 11.0 or later [Official].
 - **How big is the download?** About 300 MB on Windows, 600 MB on macOS [Official].
@@ -121,7 +121,7 @@ Online Co-op, Steam Achievements, and Steam Family Sharing are listed on the sto
 
 ## Verification
 
-- **Last checked:** 2026-09-01
-- **Game version:** Pre-release (launches 9/2/2026)
-- **Sources checked:** Steam store page (App 4656000), Steam demo page (App 4747510), third-party price/release coverage
-- **Note:** Release date, platforms, system requirements, languages, and game size are [Official]. The price and any console/mobile plans are [Unconfirmed].
+- **Last checked:** 2026-10-23
+- **Game version:** 1.0.2 (post-launch)
+- **Sources checked:** Steam store page (App 4656000), Steam demo page (App 4747510), PlayStation demo announcement (2026-10-22), Xbox release reporting (2026-10-17)
+- **Note:** Release date, Steam platforms, system requirements, languages, and game size are [Official]. The PlayStation demo is [Official]; the full PS5 date and Xbox date are not announced. Mobile remains [Unconfirmed].
