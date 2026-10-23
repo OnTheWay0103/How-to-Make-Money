@@ -1,7 +1,7 @@
 # 候选游戏池
 
 > 侦察 Agent 发现的新游戏候选。主管 Agent 读取此文件做建站决策。
-> 最后更新: 2026-09-16（Silver Pines 9/16 已建站 → silverpineswiki，BUILD-009 门禁 17/20，10 篇 P0，QA PASS 已部署；候选清单现有分 ≥15 者见下）
+> 最后更新: **2026-10-23**（侦察 DISCOVERY-10/23：新增 14 个候选 #42–#55；其中 9 个落在 9–10 月窗口，5 个为 11–12 月窗口补充；同步更新 Ex Sanguis / Neverway / TWD / Tiny Eden / Cosmic Fear 的发售状态。详见 `keyword-results/discovery-2026-10-23.md`）
 > 位置：`keyword-results/CANDIDATE-POOL.md` — 随 git 同步，跨机器共享
 
 ## 候选清单
@@ -9,12 +9,12 @@
 | # | 游戏 | 类型 | 评分 | 上线日 | Wiki | 发现日 | 状态 |
 |---|------|------|:--:|------|:--:|------|------|
 | ~~4~~ | ~~Waterpark Simulator~~ | ~~水上乐园管理模拟 (CayPlay)~~ | ~~17~~ | ~~7/31 1.0~~ | ~~❌ 无~~ | 8/8 | ✅ 已建站（8/8）→ waterparksimulatorwiki，14 guides |
-| 5 | Ex Sanguis | 回合制战术 Roguelite (Lightbulb Crew/Othercide 团队) | 16 | 9/10 EA | ❌ 无 | 8/8 | 观望（wishlist 未验证；Zero wiki；时间线操纵+XCOM 式环境系统 = 策略攻略需求；5 周后 EA） |
-| 6 | Neverway | 恐怖生活模拟 RPG (Coldblood/Celeste 合作者) | 16 | 10月 窗口未定 | ❌ 无 | 8/8 | 观望（300K+ wishlist；Celeste 联创 + Disasterpeace 配乐；免费 prologue 已上；日期未定 → 9 月中旬复查决定建站） |
+| 5 | Ex Sanguis | 回合制战术 Roguelite (Lightbulb Crew/Othercide 团队) | 16 | 9/10 EA | ❌ 无 | 8/8 | 已上线（9/10 EA，$19.99）— 观望：早期 ~14 条评测 64% 好评，3 职业/敌人种类少、meta 薄；官方 roadmap 秋季/冬季更新；wiki 仍无，但内容量暂不足以支撑大站 |
+| 6 | Neverway | 恐怖生活模拟 RPG (Coldblood/Celeste 合作者) | 16 | 10月 窗口未定（截至 10/23 仍无具体日） | ❌ 无 | 8/8 | 观望 — 10 月已过大半仍只有窗口；500K+ wishlist、免费 prologue；日期风险高，等定档再评估 |
 | 7 | Moonlighter 2: The Endless Vault | 肉鸽 + 商店经营 (Digital Sun/11bit) | 16 | 9/2 1.0 | ⚠️ 原版 Fandom 存在 | 8/8 | ⏸️ 不建站 — 9/3 复核（1.0 发售次日）：moonlighter.fandom 已并入 ML2 内容（Weapons 页覆盖），TechRaptor/TheGamer/NoobFeed/Game8 等大站发售即铺满攻略；需求极强（Game Pass+5 平台）但零 wiki 窗口已关，大站生态主导 → 放弃建站 |
 | 8 | Machine Party | 暴力派对游戏（Buckshot Roulette 作者） | ~~16~~ **13** | 7/30 已上线 | ❌ 无 | 8/8 | ⏸️ 降级 — 9/3 复核：Very Positive 87-89%（2,718 评测）、百万销量、v2.0 加本地同屏；但内容=15 小游戏，攻略文章已铺满（deltiasgaming/allthings.how/phrasemaker 全量覆盖「怎么赢全 15 个」）；血腥虐杀主题 AdSense 风险；与已建 BOMBANANA 同品类 → 不建站 |
 | 9 | Corsair Cove | 海盗城市建造 + 海军回合战斗 (Limbic/Hooded Horse) | 15 | 7/31 已上线 | ⚠️ thegameswiki 已有 | 8/8 | 观望（Game Pass 首日、9.8K CCU；城市建造品类已验证；thegameswiki 已有 wiki（尚小）；单机） |
-| 10 | The Walking Dead: Streets of Survival | 横版清版打斗 (AMC IP) | 15 | 9/18 | ⚠️ 无专属，系列 fandom 生态 | 8/8 | 观望（TWD IP 搜索量大、$19.99；3 角色技能树+4 Boss 内容有限；大 IP 有 wiki 快速出现风险；免费 demo 已上） |
+| 10 | The Walking Dead: Streets of Survival | 横版清版打斗 (AMC IP) | 15 | 9/18 已上线 | ⚠️ 无专属，系列 fandom 生态 | 8/8 | ⏸️ 不建站 — 9/18 发售：~81% 好评但仅 ~23 评测、峰值 48 CCU；2–3 小时 11–12 关、无合作；媒体均分 ~60；内容量不足 |
 | 11 | Luminary | ARPG-lite Co-op (2人) | ~~19~~ **14** | 8/11 EA | ❌ 无 | 8/3 | ⏸️ 降级 — 9/3 复核：EA 满 3 周 ~325 评测 73-74% Mostly Positive（发售时 71% Mixed 回升有限）；批评「Enshrouded clone / barely any content」，世界空、敌人种类少；首周 $100K 商业尚可但内容薄、泛名 SEO 弱 → 等重大内容更新后复查 |
 | 12 | Sir, We Have an Orc Problem | TD + 增量 (2人) | 19 | 7/28 已上线 | ⚠️ 第三方 Guide Hub 已现 | 8/3 | 观望 — 9/3 复核：Very Positive 87-89%（首周 2,000+ 评测）、首周 $1M/12.8 万销量、峰值 7.6K CCU；但内容 ~10h 有限（敌人种类少、无 respec），已现 whisperofthehouse 深度 Guide Hub（塔 tier/走位/技能表）+ player.gg 补丁页 → 无组织化 wiki 但竞争渐起；1.0 完整无后续内容钩子 → 暂不优先 |
 | ~~13~~ | ~~BOMBANANA!~~ | ~~3人 Co-op 拆弹~~ | ~~19~~ | ~~9/2~~ | ~~❌ 无~~ | 8/3 | ✅ 已建站（9/1）→ bombananawiki，10 guides，9/2 发售，demo 97% 好评/600 万试玩/峰值 CCU 4 万/1M+ wishlist |
@@ -27,8 +27,8 @@
 | 20 | Polylithic | 石器时代生存 Co-op | 13 | 8/25 1.0 | ❌ 无 | 8/1 | 观望（EA已3年，1.0新窗口） |
 | 21 | Pax Autocratica | 殖民模拟 FPS Roguelite | 13 | 8/10 EA | ❌ 无 | 8/1 | 观望 |
 | 22 | Lootbound | 回合制战术 Roguelite | 13 | 8/14 | ❌ 无 | 8/1 | 观望 |
-| 23 | Tiny Eden | 室内温馨农场模拟 (Bajka Games) | 14 | 9/7 | ❌ 无 | 8/8 | 观望（wishlist 无数据；demo 已上；名字"Tiny Eden"泛化风险；Moonlight Peaks 先例但体量偏小） |
-| 24 | Cosmic Fear | Lovecraft 恐怖冒险（单人开发） | 13 | 9/9 | ❌ 无 | 8/8 | 观望（Land of Pain/Alien Cube 系列小众；线性恐怖解谜内容有限） |
+| 23 | Tiny Eden | 室内温馨农场模拟 (Bajka Games) | 14 | 9/7 已上线 | ❌ 无 | 8/8 | 观望/降级 — 9/7 发售：~74% 好评（933 评测），存档损坏 9/9 修复；经济/声望 grind 慢、NPC 弱；有基础但不足以优先建站 |
+| 24 | Cosmic Fear | Lovecraft 恐怖冒险（单人开发） | 13 | 9/9 已上线 | ❌ 无 | 8/8 | 观望 — 9/9 发售：~81.6% 好评（~40 评测），均时长 3.6h；氛围强但玩法薄、追逐战不可关闭；内容不足以支撑站点 |
 | 25 | Pass the Fear | Co-op Roguelite 弹幕 | ~~16~~ **12** | 7/22 已上线 | ⚠️ 已有 wiki | 8/1 | ⚠️ 降级 — 8/1 深度调研发现 passthefear.wiki 已存在（含 build planner），关键词仅 18 个 |
 | 26 | FEED IT | PSX-Style Horror | 12 | 8/17 | ❌ 无 | 7/31 | 观望（wishlist 偏低） |
 | 27 | Stoneguard | Horde Survival EA | 11 | 7/30 | ❌ 无 | 7/31 | 低分（~121 销量） |
@@ -45,6 +45,22 @@
 | 39 | Entropy | 战术回合制 RPG (Lovely Hellplace) | 18 | 8/18 EA | ❌ 无 | 8/10 | 观望 — Dread Delusion 开发者、~67K wishlist；名字泛化 SEO 弱、EA 仅 Act 1；EA 后复查 |
 | 40 | Nimbit Frontier | 怪物养成生活模拟 (Megasploot) | 18 | 8/17 EA | ❌ 无 | 8/10 | 观望 — 20.5K wishlist 偏弱；EA 1.5 年；首周 >300 评测可升级 |
 | 41 | Tiny Monster Haven | Idle 怪物收集+农场 (Digging Dino) | 17 | 8/11 | ❌ 无 | 8/10 | 观望 — 50 怪物+回合战斗+迷你战役；idle 品类浅、wishlist 无数据 |
+| 42 | Emberville | 像素暗黑 ARPG + 种田/城镇建设 (Cygnus Cross) | 18 | 10/27 EA | ⚠️ 英文 2 套（thegameswiki / emberville-wiki.wiki） | 10/23 | 推荐 — 251 条含游戏名建议/233 条有效；联机 19、配音 28、职业 8；英文 wiki 已起，主攻其未覆盖的联机/配音/职业长尾 |
+| 43 | DREADMOOR | 末日钓鱼生存恐怖 (Dream Dock/Digital Vortex) | 17 | 11/9 EA（窗口外补充） | ❌ 无（日文仅 gamewith 新闻页） | 10/23 | 推荐 — 183 条含游戏名/161 条有效；零组织化 wiki；钓鱼/存档/装备长尾明确，11/9 前是最佳窗口 |
+| 44 | Loftia | 天空岛生活模拟 MMO (Qloud Games) | 16 | 11/3 EA（窗口外补充） | ⚠️ thegameswiki stub | 10/23 | 观望 — 9 月 demo 第 7 最热玩/第 8 趋势；wiki stub 已现；等 EA 后看内容量 |
+| 45 | Chained Beasts | 1–4 人角斗士 Roguelike (Featherweight) | 16 | 10/15 已上线 | ❌ 无 | 10/23 | 观望/推荐 — Game Pass 首发、零 wiki；上线一周，评测/内容量待复核 |
+| 46 | Cozy Game Restoration | 复古卡带清洁/修复模拟 (Parasol Corp) | 16 | 11/4（窗口外补充） | ❌ 无 | 10/23 | 推荐 — 400K+ wishlist、$14.99、19 语言；零 wiki；单机模拟内容深度待验证 |
+| 47 | Dimraeth | 8 人像素奇幻 ARPG (Mudtek) | 15 | 9/15 EA | ⚠️ 英文 1 套（thegameswiki） | 10/23 | 观望 — 首日 10K CCU/特别好评；英文 wiki 已起，需差异化 |
+| 48 | Valor Mortis | 第一人称魂类 (One More Level) | 15 | 10/13 已上线 | ⚠️ 英文多家（thegameswiki/metabot）+ 中文攻略 | 10/23 | 观望 — Ghostrunner 团队、高愿望单；竞争强，非零 wiki 打法 |
+| 49 | over the hill | 越野驾驶 (Funselektor/Streika) | 15 | 10/14 已上线 | ❌ 无 | 10/23 | 观望 — 1M+ wishlist；玩法/内容偏轻，攻略面窄 |
+| 50 | ANOMALITH | 生存 TPS (FuRyu/Winning) | 15 | 10/29 | ❌ 无（日文仅新闻/预览） | 10/23 | 观望 — 90K wishlist；武器/异常技能/200+ 报告长尾多，但日文媒体已密集覆盖 |
+| 51 | Littlelands | 农场 + 地牢 (HyperMegaPixel/Apogee) | 15 | 11/16 EA（窗口外补充） | ❌ 无（同名污染 Littlewood） | 10/23 | 观望 — demo ~2h、Zelda×Stardew；EA 窗口，等内容量 |
+| 52 | Drunken Goddess Reflux | 醉酒 Roguelike 生存 (Alliance Arts) | 14 | 12/8（窗口外补充） | ❌ 无（中文攻略站 1 篇） | 10/23 | 观望 — 500K+ wishlist、7 结局；窗口远，且 demo 因 AI 克隆担忧取消 |
+| 53 | Echo Weaver | 时间循环 Metroidvania (Moonlight Kids) | 13 | 10/8 已上线 | ❌ 无 | 10/23 | 观望 — Game Pass 首发；内容量偏小，攻略面有限 |
+| 54 | Deep Dish Dungeon | 合作地牢生存 (Behold Studios) | 13 | 10/13 已上线 | ❌ 无 | 10/23 | 观望 — Game Pass 首发；媒体评价 mixed，需求上限有限 |
+| 55 | Fright Train | 雪国列车生存恐怖 | 13 | 9/16 已上线 | ❌ 无（中文攻略站 1 篇） | 10/23 | 观望 — RPS 好评；小众题材、内容有限 |
+
+> **Wiki 列说明**：`❌ 无` = 本次已用英文（`{game} wiki fandom wiki.gg`）与中文/日文（`{game} 攻略 wiki 灰机 bilibili wikiwiki atwiki`）两组查询，**未检索到专属 wiki 页**；不等于绝对不存在。逐候选证据见 `keyword-results/discovery-2026-10-23.md` 第三节。
 
 ## 已建站（从候选池移除）
 

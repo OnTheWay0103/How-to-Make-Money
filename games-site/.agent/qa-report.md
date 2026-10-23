@@ -1812,3 +1812,22 @@ Green Whale / Mystery Pet Box / Mount Box / 0.31.0 赞助者设计款）并加 `
    Kickstarter「enhanced pets and mounts」**未达成**的众筹目标 —— 若属实，
    可解释宠物/坐骑成长系统为何缺失。但 MassivelyOP / Kickstarter / MMO.Net
    本轮 **403/404**，**故未作任何断言**。
+
+---
+
+# 新词探索 — 2026-10-23（定时任务恢复首日）
+
+> 完整报告：`keyword-results/discovery-2026-10-23.md`；候选池：`keyword-results/CANDIDATE-POOL.md`
+> 说明：本段由主 Agent 按 `auto-build-site.sh` 每日协议补录（原探索 Agent 未追加到本文件）。
+
+## Top 3 机会
+
+| # | 候选 | 评分 | 建站窗口 | 竞争现状 | 建议 |
+|---|------|------|----------|----------|------|
+| 1 | **DREADMOOR** | 17/20 | 预发布，窗口内 | 真正的零组织化 wiki（日文仅 gamewith 新闻页） | 优先建站；发布窗口词先做，机制页售后补 |
+| 2 | **Emberville** | 18/20 | 预发布，窗口内 | **非零 wiki**：已有 thegameswiki / emberville-wiki.wiki 两套英文站 | 需差异化（计算器/数据库/版本追踪），否则不做 |
+| 3 | **Cozy Game Restoration** | 16/20 | 10 月窗口 | 未检索到 Fandom/wiki.gg，仅零散攻略文 | 可做，规模小、维护成本低 |
+
+## 现有站新词缺口
+
+`keyword-results/new-keywords-2026-10-23.md` 记录 3 个高 PV 站的 24 个缺口词，已并入下一轮扩充排期。
