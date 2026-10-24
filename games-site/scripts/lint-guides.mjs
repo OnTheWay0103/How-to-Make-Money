@@ -162,9 +162,13 @@ for (const file of files) {
     add('WARN', file, 'length', `正文 ${words} 字，超出 800–1600 的建议区间`);
   }
 
-  // 正文里不能有占位符
-  if (/\b(TODO|TBD|FIXME|lorem ipsum)\b/i.test(body)) {
-    add('ERROR', file, 'placeholder', '正文含 TODO/TBD 等占位符');
+  // 正文里不能有未清理的占位符。
+  // TODO/FIXME/lorem ipsum 是模板残留，阻断；
+  // TBD 往往是诚实标注（"specifics are TBD"），只提示不阻断（见 QA skill 2.4）。
+  if (/\b(TODO|FIXME)\b|lorem ipsum/i.test(body)) {
+    add('ERROR', file, 'placeholder', '正文含 TODO/FIXME/lorem ipsum 等占位符');
+  } else if (/\bTBD\b/.test(body)) {
+    add('WARN', file, 'tbd', '正文含 TBD，确认属于诚实标注而非未填内容');
   }
 }
 
