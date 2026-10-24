@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: "2026-09-17"
 keywords: ["the mound beginner loadout", "the mound best starting loadout", "the mound inventory slots", "the mound budget gear", "the mound stealth loadout", "the mound starting equipment"]
-related: ["loadout-guide", "weapons-guide", "coop-strategy-guide", "money-guide"]
+related:
+  - loadout-guide
+  - weapons-guide
+  - coop-strategy-guide
+  - money-guide
 ---
 
 # The Mound Beginner Loadouts — Survive Your First Expeditions

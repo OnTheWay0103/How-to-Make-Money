@@ -5,7 +5,10 @@ category: "Guides"
 version: "1.0"
 updated: '2026-08-01'
 keywords: ["shift at midnight beginner guide", "first shift tips", "how to play shift at midnight", "shift at midnight getting started", "shift at midnight tutorial"]
-related: ["doppelganger-guide", "coop-strategy-guide", "entity-survival-guide"]
+related:
+  - doppelganger-guide
+  - coop-strategy-guide
+  - entity-survival-guide
 sources:
   - tier: "Official"
     text: "Released July 22, 2026; developed by Bun Muen, published by Kwalee; gas-station co-op detective horror with doppelganger screening, ID checks, and the NET database; 'Very Positive' rating — Steam store page"

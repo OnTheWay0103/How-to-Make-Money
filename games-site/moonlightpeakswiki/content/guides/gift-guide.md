@@ -5,7 +5,10 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-01"
 keywords: ["moonlight peaks gift guide", "moonlight peaks loved gifts", "moonlight peaks birthdays", "moonlight peaks friendship"]
-related: ["romance-guide", "characters-guide", "fishing-guide"]
+related:
+  - romance-guide
+  - characters-guide
+  - fishing-guide
 ---
 
 # Moonlight Peaks — Gift Guide: Loved Gifts & Birthdays

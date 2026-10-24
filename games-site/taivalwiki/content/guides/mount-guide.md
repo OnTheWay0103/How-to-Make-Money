@@ -5,7 +5,12 @@ category: 'Exploration'
 version: '1.0'
 updated: '2026-08-01'
 keywords: ['Taival mounts', 'Taival Henki mount', 'how to get a mount in Taival', 'Taival swift mount', 'Taival travel fast', 'Taival climbing form', 'Taival gliding']
-related: ['henki-companion-guide', 'best-henki-forms', 'biomes-exploration-guide', 'coop-multiplayer-guide', 'beginner-guide']
+related:
+  - henki-companion-guide
+  - best-henki-forms
+  - biomes-exploration-guide
+  - coop-multiplayer-guide
+  - beginner-guide
 ---
 
 # Taival Mount Guide — How to Unlock Riding & Traversal Forms

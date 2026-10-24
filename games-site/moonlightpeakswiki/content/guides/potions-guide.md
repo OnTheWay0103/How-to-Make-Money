@@ -5,7 +5,10 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-01"
 keywords: ["moonlight peaks potions", "moonlight peaks cauldron", "moonlight peaks love potion", "moonlight peaks luck dust"]
-related: ["farming-guide", "money-guide", "quests-guide"]
+related:
+  - farming-guide
+  - money-guide
+  - quests-guide
 sources:
   - tier: "Official"
     text: "Potion-making and spell-casting are confirmed features per the Steam store description"

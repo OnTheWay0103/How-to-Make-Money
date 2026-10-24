@@ -5,7 +5,13 @@ category: "Guides"
 version: "1.0"
 updated: "2026-09-12"
 keywords: ["sephiria co-op freeze", "sephiria co-op stuck bug", "sephiria can't interact multiplayer", "sephiria disconnect lost run", "sephiria reconnect", "sephiria co-op bug fix", "sephiria friend invite room code", "sephiria multiplayer frozen", "sephiria desync vs freeze"]
-related: ["multiplayer-connection-fix-guide", "coop-guide", "save-file-guide", "controls-settings-guide", "full-release-guide", "beginner-guide"]
+related:
+  - multiplayer-connection-fix-guide
+  - coop-guide
+  - save-file-guide
+  - controls-settings-guide
+  - full-release-guide
+  - beginner-guide
 sources:
   - tier: "Official"
     text: "Patch 1.0.23 (Aug 4), 1.0.24 (Aug 7), 1.0.28 (Aug 14) and 1.0.30 (Aug 20, 2026) each fixed multiplayer freeze/stuck variants (NPC-dialogue forced-move freeze, Training Grounds freeze, Chapter 6 co-op game-over progress freeze, Chapter 5 kick issues) — 17173 mirrors of the patch notes and Steam announcements; a late-June 2026 pre-1.0 announcement said a reconnect feature was in development"

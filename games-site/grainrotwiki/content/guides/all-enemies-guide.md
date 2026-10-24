@@ -5,7 +5,12 @@ category: 'Enemies'
 version: '1.0'
 updated: '2026-08-11'
 keywords: ['grain rot enemies', 'grain rot corrupted', 'grain rot enemy guide', 'grain rot all enemies', 'grain rot monsters', 'grain rot demo enemies', 'grain rot enemy types', 'enemy behaviors', 'grain rot combat', 'grain rot threats']
-related: ['all-biomes-guide', 'stealth-sound-guide', 'demo-guide', 'beginner-guide', 'survival-tips']
+related:
+  - all-biomes-guide
+  - stealth-sound-guide
+  - demo-guide
+  - beginner-guide
+  - survival-tips
 sources:
   - tier: "Official"
     text: "The demo contains 9 enemy types; the Corrupted react to sound, movement, and each other, and the Rot corrupts bodies — official demo announcement and Steam store page"

@@ -6,7 +6,11 @@ version: "1.0"
 updated: "2026-10-24"
 date: "2026-08-07"
 keywords: ["low-budget repairs job profit", "low-budget repairs most profitable jobs", "low-budget repairs profit per job", "low-budget repairs margin", "low-budget repairs which jobs to take"]
-related: ["money-making-guide", "renovation-jobs-guide", "bathroom-renovation-guide", "cost-cutting-tips"]
+related:
+  - money-making-guide
+  - renovation-jobs-guide
+  - bathroom-renovation-guide
+  - cost-cutting-tips
 ---
 
 # Low-Budget Repairs Job Profit Guide — Maximize Profit on Every Job

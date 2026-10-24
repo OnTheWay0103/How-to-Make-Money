@@ -5,7 +5,15 @@ category: "Content"
 version: "1.0"
 updated: "2026-09-16"
 keywords: ["sephiria price increase", "sephiria price", "sephiria 17.99", "sephiria price update notice", "is sephiria worth it", "should i buy sephiria", "sephiria sale", "sephiria discount", "sephiria buy before price increase"]
-related: ["full-release-guide", "game-length-guide", "beginner-guide", "multiplayer-connection-fix-guide", "save-file-guide", "costume-stats-and-character-unlocks-guide", "patch-1-0-31-build-changes-guide", "endgame-guide"]
+related:
+  - full-release-guide
+  - game-length-guide
+  - beginner-guide
+  - multiplayer-connection-fix-guide
+  - save-file-guide
+  - costume-stats-and-character-unlocks-guide
+  - patch-1-0-31-build-changes-guide
+  - endgame-guide
 sources:
   - tier: "Official"
     text: "The Steam announcement 'Price Update Notice' was posted by TEAM HORAY on the Sephiria hub (app 2436940) on September 12, 2026, and was read in full through the official ISteamNews endpoint: 'US Dollar: $14.99 → $17.99', 'Korean Won: ₩16,500 → ₩19,000', 'Japanese Yen: ¥1,700 → ¥1,980', 'Chinese Yuan: ¥58 → ¥68', 'Euro: €14.79 → €18.25', effective 'September 14, 2026, at 2:00 PM (KST)'. The same notice closes with 'see you in Bunnyville!'. The prior warning is the official announcement 'Launch Time Details' (July 29, 2026), which states that 'once the discount ends and Steam's price-change cooldown (1 month) has passed, the price will be increased'. The live Steam store page for app 2436940 was re-read on September 16, 2026 and now carries game_purchase_price '$17.99' with data-price-final 1799, data-discount 0 and itemprop price 17.99 — that is, $17.99 at full price with no discount, confirming the September 14 increase took effect on schedule. An earlier read on September 13, 2026 had shown 1499 / itemprop 14.99 / data-discount 0. The same September 16, 2026 read is the source for the three bundles that include the game — 'Heroes of Hammerwatch II x Sephiria' at -10% $34.18, 'Dungreed + Sephiria' at -10% $25.18, and 'Ascend to ZERO x Sephiria' at -10% $26.98 — and for the per-package field m_nFinalPriceWithBundleDiscount 1619 on the Sephiria package (876926), i.e. $16.19 when the game is bought through a bundle. Content inventory, release date (Jul 31, 2026), developer/publisher (TEAM HORAY), feature list, system requirements, and the 'Download Sephiria Demo' entry all come from that same store page read"

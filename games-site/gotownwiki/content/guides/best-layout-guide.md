@@ -5,7 +5,10 @@ category: 'Layout'
 version: '1.0'
 updated: '2026-08-01'
 keywords: ['Go-Go Town best layout', 'Go-Go Town town layout', 'Go-Go Town road design', 'Go-Go Town zones', 'Go-Go Town building placement']
-related: ['beginner-guide', 'automation-guide', 'tourist-attraction-guide']
+related:
+  - beginner-guide
+  - automation-guide
+  - tourist-attraction-guide
 ---
 
 # Best Town Layout Guide for Go-Go Town!

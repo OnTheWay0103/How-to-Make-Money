@@ -5,7 +5,11 @@ category: "Guides"
 version: "0.1.4"
 updated: "2026-08-10"
 keywords: ["Witchspire farming guide", "Witchspire gold farm", "Witchspire XP farm", "Witchspire material farming", "Witchspire best farming routes", "Witchspire coin making"]
-related: ["crafting-guide", "all-familiars-guide", "beginner-guide", "hearth-upgrade-guide"]
+related:
+  - crafting-guide
+  - all-familiars-guide
+  - beginner-guide
+  - hearth-upgrade-guide
 ---
 
 # Farming Guide — Coins, XP, and Materials

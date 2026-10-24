@@ -5,7 +5,11 @@ category: 'Guides'
 version: '1.0'
 updated: '2026-08-08'
 keywords: ['Bonehold demo', 'Bonehold free demo', 'Bonehold demo download', 'Bonehold demo content', 'Bonehold demo vs full game', 'Bonehold try before buy', 'Bonehold Steam demo']
-related: ['system-requirements-guide', 'buying-guide', 'beginner-guide', 'review-guide']
+related:
+  - system-requirements-guide
+  - buying-guide
+  - beginner-guide
+  - review-guide
 ---
 
 # Bonehold Demo Guide - What the Free Demo Includes and How to Use It

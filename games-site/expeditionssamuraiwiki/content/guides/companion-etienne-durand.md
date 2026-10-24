@@ -5,7 +5,10 @@ category: "Companions"
 version: "1.0"
 updated: "2026-08-05"
 keywords: ["expeditions samurai etienne durand", "expeditions samurai etienne", "expeditions samurai companion guide", "expeditions samurai recruitment", "expeditions samurai loyalty", "expeditions samurai priest", "expeditions samurai diplomat"]
-related: ["companions-guide", "romance-guide", "classes-guide"]
+related:
+  - companions-guide
+  - romance-guide
+  - classes-guide
 ---
 
 # Expeditions: Samurai — Étienne Durand Companion Guide

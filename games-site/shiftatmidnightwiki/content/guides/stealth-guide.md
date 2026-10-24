@@ -5,7 +5,12 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-04"
 keywords: ["shift at midnight stealth", "shift at midnight avoid alert", "shift at midnight doppelganger stealth", "shift at midnight entity phase", "shift at midnight traps", "shift at midnight lock-up alert"]
-related: ["advanced-tactics", "survival-strategies", "entity-survival-guide", "doppelganger-guide", "enemy-bestiary"]
+related:
+  - advanced-tactics
+  - survival-strategies
+  - entity-survival-guide
+  - doppelganger-guide
+  - enemy-bestiary
 ---
 
 # Shift at Midnight Stealth Guide — The Night Nobody Notices

@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-04"
 keywords: ["vahrins call parry", "vahrins call parrying guide", "vahrins call block", "vahrins call dodge", "vahrins call counter attack"]
-related: ["combat-guide", "boss-guide", "weapons-guide", "attributes-stats-guide"]
+related:
+  - combat-guide
+  - boss-guide
+  - weapons-guide
+  - attributes-stats-guide
 ---
 
 # Parrying Guide — Should You Try to Parry?

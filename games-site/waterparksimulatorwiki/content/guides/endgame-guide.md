@@ -5,7 +5,11 @@ category: "Deep Dive"
 version: "1.0"
 updated: "2026-08-08"
 keywords: ["waterpark simulator endgame", "waterpark simulator late game", "waterpark simulator diamond stars", "waterpark simulator night mode", "waterpark simulator 1.0 content", "waterpark simulator beach map", "waterpark simulator yogi"]
-related: ["museum-questline-guide", "research-tree-guide", "park-design-layout-guide", "staff-management-guide"]
+related:
+  - museum-questline-guide
+  - research-tree-guide
+  - park-design-layout-guide
+  - staff-management-guide
 sources:
   - tier: "Official"
     text: "1.0 added Museum questlines, dynamic weather, night mode, and new map and pool themes — official announcements"

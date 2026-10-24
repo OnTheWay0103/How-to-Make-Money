@@ -5,7 +5,10 @@ category: "Guides"
 version: "1.0"
 updated: "2026-07-14"
 keywords: ["themound game length", "themound how long to beat", "themound campaign length", "themound demo length", "themound expedition length", "themound hours of content"]
-related: ["beginner-guide", "faq-content", "contracts-guide"]
+related:
+  - beginner-guide
+  - faq-content
+  - contracts-guide
 ---
 
 # The Mound Game Length Guide — How Long to Beat & Content Overview

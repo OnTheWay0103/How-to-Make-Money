@@ -5,7 +5,10 @@ category: 'Beginner'
 version: '1.0'
 updated: '2026-08-01'
 keywords: ['Go-Go Town beginner guide', 'Go-Go Town first hour', 'Go-Go Town how to start', 'Go-Go Town tutorial', 'Go-Go Town getting started']
-related: ['money-making-guide', 'best-layout-guide', 'tourist-attraction-guide']
+related:
+  - money-making-guide
+  - best-layout-guide
+  - tourist-attraction-guide
 sources:
   - tier: "Official"
     text: "Game facts (July 16, 2026 1.0 release, co-op limits, free demo) verified against the Steam store page and developer announcements"

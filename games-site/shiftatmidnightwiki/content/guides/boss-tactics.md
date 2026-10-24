@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: '2026-08-01'
 keywords: ["shift at midnight major encounters", "shift at midnight entity attack", "shift at midnight 60 second alert", "shift at midnight blood rain", "shift at midnight finale", "shift at midnight self doppelgangers"]
-related: ["enemy-bestiary", "weapons-guide", "survival-strategies", "entity-survival-guide"]
+related:
+  - enemy-bestiary
+  - weapons-guide
+  - survival-strategies
+  - entity-survival-guide
 ---
 
 ## Major Encounters — Set-Piece Threats & How to Handle Them

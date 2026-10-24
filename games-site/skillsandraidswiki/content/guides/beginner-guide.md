@@ -5,7 +5,11 @@ category: "Guides"
 version: "Current"
 updated: "2026-08-11"
 keywords: ["Skills & Raids beginner guide", "Skills & Raids getting started", "Skills & Raids new player", "Skills & Raids tips", "Skills & Raids first run"]
-related: ["character-guide", "extraction-guide", "skills-guide", "raid-progression-guide"]
+related:
+  - character-guide
+  - extraction-guide
+  - skills-guide
+  - raid-progression-guide
 ---
 
 # Skills & Raids Beginner Guide — Getting Started

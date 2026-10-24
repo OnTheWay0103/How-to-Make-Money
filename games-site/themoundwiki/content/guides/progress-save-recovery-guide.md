@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-01"
 keywords: ["the mound progress reset", "the mound lost progress", "the mound progress recovery tool", "the mound save file location", "the mound save file", "the mound progress lost"]
-related: ["updates-patch-notes", "progression-system-guide", "faq-content", "performance-fps-fix-guide"]
+related:
+  - updates-patch-notes
+  - progression-system-guide
+  - faq-content
+  - performance-fps-fix-guide
 ---
 
 # The Mound Progress Loss Fix & Save Recovery Guide

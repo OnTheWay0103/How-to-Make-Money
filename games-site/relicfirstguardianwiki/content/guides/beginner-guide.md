@@ -5,7 +5,10 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["the relic first guardian beginner guide", "relic first guardian getting started", "Arsilthus beginners", "how to start relic first guardian", "relic first guardian tips", "best starting weapon relic first guardian"]
-related: ["weapons-guide", "combat-guide", "runes-guide"]
+related:
+  - weapons-guide
+  - combat-guide
+  - runes-guide
 sources:
   - tier: "Official"
     text: "No-XP/no-levels progression, five weapon families with two skill trees each (12 total), zero-stamina attacks with defense-only stamina, cooldown-based skills, and over 70 relic fragments — Steam store page and official materials"

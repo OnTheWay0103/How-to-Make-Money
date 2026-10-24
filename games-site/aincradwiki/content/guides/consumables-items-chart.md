@@ -5,7 +5,13 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-10"
 keywords: ["Echoes of Aincrad consumables", "Aincrad healing potion", "Aincrad Light Resistance Potion", "Aincrad Attack Elixir", "Aincrad SP Regenerator", "Aincrad Luck Meal", "Aincrad drop rate buffs", "Aincrad crafting materials", "Aincrad items"]
-related: ["daily-quests", "floor-3-guide", "tips-and-tricks", "speedrun-tips", "gear-farming-guide", "hidden-mechanics"]
+related:
+  - daily-quests
+  - floor-3-guide
+  - tips-and-tricks
+  - speedrun-tips
+  - gear-farming-guide
+  - hidden-mechanics
 ---
 
 ## Consumables & Items Quick-Reference Chart — Echoes of Aincrad

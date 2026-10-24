@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: "2026-09-02"
 keywords: ["the mound multiplayer connection failed", "the mound lobby error fix", "the mound can't join friends", "the mound crossplay invite not working", "the mound how to play with friends", "the mound server finder password room", "the mound connection lost matchmaking"]
-related: ["coop-strategy-guide", "faq-content", "performance-fps-fix-guide", "extraction-guide"]
+related:
+  - coop-strategy-guide
+  - faq-content
+  - performance-fps-fix-guide
+  - extraction-guide
 ---
 
 # The Mound Multiplayer Connection Fix — "Connection Failed" & Lobby Errors, Plus Crossplay Join Workarounds

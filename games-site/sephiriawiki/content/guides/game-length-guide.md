@@ -5,7 +5,11 @@ category: "Content"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["how long to beat Sephiria", "Sephiria game length", "Sephiria playtime", "Sephiria hours", "Sephiria 100 percent", "Sephiria content"]
-related: ["full-release-guide", "chapter-guide", "endgame-guide", "beginner-guide"]
+related:
+  - full-release-guide
+  - chapter-guide
+  - endgame-guide
+  - beginner-guide
 ---
 
 ## Sephiria at a Glance

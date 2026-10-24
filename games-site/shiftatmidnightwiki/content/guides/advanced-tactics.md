@@ -5,7 +5,12 @@ category: "Guides"
 version: "1.0"
 updated: '2026-08-01'
 keywords: ["Shift at Midnight advanced tactics", "Shift at Midnight pro tips", "Shift at Midnight speedrun", "Shift at Midnight doppelganger list", "Shift at Midnight True Ending route"]
-related: ["entity-survival-guide", "doppelganger-guide", "money-guide", "endings-guide", "story-walkthrough"]
+related:
+  - entity-survival-guide
+  - doppelganger-guide
+  - money-guide
+  - endings-guide
+  - story-walkthrough
 ---
 
 ## Advanced Tactics Guide — Pro Night Shift Strategies

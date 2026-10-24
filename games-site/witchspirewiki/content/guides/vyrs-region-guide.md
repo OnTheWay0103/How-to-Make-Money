@@ -5,7 +5,12 @@ category: "Guides"
 version: "0.1.4"
 updated: "2026-08-10"
 keywords: ["Witchspire Vyrs", "Vyrs region guide", "Witchspire Vyrs collectibles", "Witchspire hidden chests", "Vyrs NPC locations", "Witchspire starting area"]
-related: ["beginner-guide", "main-quest-walkthrough", "alunean-golem-boss-guide", "flight-unlock-guide", "all-familiars-guide"]
+related:
+  - beginner-guide
+  - main-quest-walkthrough
+  - alunean-golem-boss-guide
+  - flight-unlock-guide
+  - all-familiars-guide
 ---
 
 # Vyrs Region Guide — Full Exploration

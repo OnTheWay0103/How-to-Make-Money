@@ -5,7 +5,11 @@ category: "Guides"
 version: "EA"
 updated: "2026-08-11"
 keywords: ["SpiritVale best farming class", "SpiritVale farming guide", "SpiritVale how to farm", "SpiritVale resource guide", "SpiritVale gold farming"]
-related: ["class-leveling-guide", "advanced-classes-guide", "builds-guide", "cards-guide"]
+related:
+  - class-leveling-guide
+  - advanced-classes-guide
+  - builds-guide
+  - cards-guide
 ---
 
 # SpiritVale Farming & Resource Guide — Gold, Materials, and Efficient Routes

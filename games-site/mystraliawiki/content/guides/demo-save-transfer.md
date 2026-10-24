@@ -5,7 +5,10 @@ category: "Game Info"
 version: "Early Access"
 updated: "2026-08-11"
 keywords: ["echoes of mystralia demo save transfer", "echoes of mystralia save carry over", "echoes of mystralia demo progress early access", "does echoes of mystralia demo progress carry over"]
-related: ["ea-launch-guide", "faq", "beginner-guide"]
+related:
+  - ea-launch-guide
+  - faq
+  - beginner-guide
 sources:
   - tier: "Official"
     text: "Demo save data transfers to Early Access, per developer announcements; Borealys reworked progression systems between the demo and Early Access"

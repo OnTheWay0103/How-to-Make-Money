@@ -5,7 +5,11 @@ category: 'Mechanics'
 version: '1.0'
 updated: '2026-08-11'
 keywords: ['grain rot stealth', 'grain rot sound guide', 'grain rot stealth tips', 'grain rot avoid combat', 'grain rot noise mechanics']
-related: ['solo-guide', 'tips-and-tricks', 'all-enemies-guide', 'beginner-guide']
+related:
+  - solo-guide
+  - tips-and-tricks
+  - all-enemies-guide
+  - beginner-guide
 ---
 
 # Stealth & Sound Guide — How to Avoid Combat in Grain Rot

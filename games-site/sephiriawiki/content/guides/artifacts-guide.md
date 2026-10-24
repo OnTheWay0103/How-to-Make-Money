@@ -5,7 +5,13 @@ category: "Artifacts"
 version: "1.0"
 updated: "2026-08-21"
 keywords: ["Sephiria artifacts", "artifacts guide", "Sephiria artifact catalog", "best artifacts", "how to get artifacts", "Sephiria artifact farming", "Sephiria artifact grid", "Sephiria mystic pot"]
-related: ["tablets-guide", "builds-guide", "mystic-pot-guide", "farming-guide", "endgame-guide", "full-release-guide"]
+related:
+  - tablets-guide
+  - builds-guide
+  - mystic-pot-guide
+  - farming-guide
+  - endgame-guide
+  - full-release-guide
 sources:
   - tier: "Community"
     text: "Specific artifact unlock conditions (e.g., Golden Maple Leaf after clearing Chapter 2) and the ~60% soft cap reports for crit rate and dodge i-frames"

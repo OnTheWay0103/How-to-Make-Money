@@ -5,7 +5,13 @@ category: "Guides"
 version: "0.1.4"
 updated: "2026-08-10"
 keywords: ["Witchspire main quest", "Witchspire walkthrough", "Witchspire Act I", "Witchspire Act II", "Witchspire boss order", "Witchspire story progression"]
-related: ["alunean-golem-boss-guide", "shudder-matriarch-boss-guide", "lumi-boss-guide", "hearth-upgrade-guide", "vyrs-region-guide", "flight-unlock-guide"]
+related:
+  - alunean-golem-boss-guide
+  - shudder-matriarch-boss-guide
+  - lumi-boss-guide
+  - hearth-upgrade-guide
+  - vyrs-region-guide
+  - flight-unlock-guide
 ---
 
 # Main Quest Walkthrough — Act I & II

@@ -5,7 +5,11 @@ category: "Reference"
 version: "1.0"
 updated: "2026-08-24"
 keywords: ["waterpark simulator visitors unhappy", "waterpark simulator guests angry", "waterpark simulator why is my rating dropping", "waterpark simulator visitor problems", "waterpark simulator troubleshooting", "waterpark simulator how to fix happiness"]
-related: ["visitor-happiness-guide", "staff-management-guide", "money-making-guide", "park-design-layout-guide"]
+related:
+  - visitor-happiness-guide
+  - staff-management-guide
+  - money-making-guide
+  - park-design-layout-guide
 ---
 
 # Why Are My Visitors Unhappy? Waterpark Simulator Problems Solved

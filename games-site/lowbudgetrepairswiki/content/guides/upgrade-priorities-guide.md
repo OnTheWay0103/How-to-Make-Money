@@ -6,7 +6,11 @@ version: "1.0"
 updated: "2026-10-24"
 date: "2026-08-07"
 keywords: ["low-budget repairs upgrade priorities", "low-budget repairs what to fix first", "low-budget repairs order of operations", "low-budget repairs room priority", "low-budget repairs what matters most"]
-related: ["inspection-guide", "renovation-jobs-guide", "tool-guide", "bathroom-renovation-guide"]
+related:
+  - inspection-guide
+  - renovation-jobs-guide
+  - tool-guide
+  - bathroom-renovation-guide
 ---
 
 # Low-Budget Repairs Upgrade Priorities — What to Fix First

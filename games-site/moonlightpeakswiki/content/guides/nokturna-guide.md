@@ -5,7 +5,10 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-01"
 keywords: ["moonlight peaks nokturna", "moonlight peaks card game", "moonlight peaks nokturna guide", "moonlight peaks deck"]
-related: ["characters-guide", "money-guide", "beginner-guide"]
+related:
+  - characters-guide
+  - money-guide
+  - beginner-guide
 ---
 
 # Moonlight Peaks — Nokturna Guide: Card Game Explained

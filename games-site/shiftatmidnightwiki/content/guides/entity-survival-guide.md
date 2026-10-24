@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: '2026-08-01'
 keywords: ["shift at midnight entity guide", "survive entity attack", "hunt survival shift at midnight", "barricade guide shift at midnight", "hide from entity shift at midnight", "shift at midnight 60 second alert"]
-related: ["doppelganger-guide", "enemy-bestiary", "weapons-guide", "story-walkthrough"]
+related:
+  - doppelganger-guide
+  - enemy-bestiary
+  - weapons-guide
+  - story-walkthrough
 sources:
   - tier: "Official"
     text: "The end-of-shift entity attack and the lock-up alert when a doppelganger completes its purchase — Steam store page and official description"

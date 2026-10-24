@@ -5,7 +5,13 @@ category: "Hard Mode"
 version: "1.0"
 updated: "2026-08-21"
 keywords: ["sephiria hard mode", "sephiria hard mode guide", "sephiria 1.0 hard mode", "sephiria level 60", "sephiria hard mode modifiers", "sephiria endgame"]
-related: ["full-release-guide", "chapter-6-final-boss-guide", "crossbow-build-guide", "mystic-pot-guide", "weapons-guide", "endgame-guide"]
+related:
+  - full-release-guide
+  - chapter-6-final-boss-guide
+  - crossbow-build-guide
+  - mystic-pot-guide
+  - weapons-guide
+  - endgame-guide
 sources:
   - tier: "Official"
     text: "The 6 modifiers and their effects (Festival of Blood, Pseudo-Vanguard, Decline, Tension, Heavy Heart, Proliferation) — 1.0 patch notes"

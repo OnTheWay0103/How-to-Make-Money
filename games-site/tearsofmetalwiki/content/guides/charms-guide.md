@@ -5,7 +5,12 @@ category: "Mechanics"
 version: "Early Access"
 updated: "2026-09-13"
 keywords: ["tears of metal charms", "tears of metal do charms stack", "tears of metal charm guide", "tears of metal charm tiers", "tears of metal charm chest", "tears of metal should i buy charms", "tears of metal cursed spealbone", "tears of metal charm merchant"]
-related: ["healing-guide", "emblem-artifact-guide", "equipment-guide", "village-upgrade-guide", "patch-notes"]
+related:
+  - healing-guide
+  - emblem-artifact-guide
+  - equipment-guide
+  - village-upgrade-guide
+  - patch-notes
 sources:
   - tier: "Official"
     text: "Charm rarity reclassification and its stated goal — Paper Cult, v0.11.57863, August 1, 2026: \"We changed which Charms belong to each rarity category and rebalanced some of them. The long-term goal is to create more meaningful differences between tiers.\" Its Charms changelog section lists \"Reclassified several Charm rarity tiers to reflect their utility\", \"Rebalanced Charms in relation to their rarity\" and \"Updated the functionality of several Charms.\"; its Campaign economy section lists \"Dragonstone Treasure Chests now cost one Dragonstone and guarantee a high-tier Charm\", \"Reduced the Health cost of receiving a Charm from the Cursed Spealbone\" and \"Rebalanced Charm Treasure Chest and Healing Fountain prices between Acts.\" (store.steampowered.com/news/app/1913120)"

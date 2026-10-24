@@ -5,7 +5,11 @@ category: "Bosses"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["taival rare spawns", "taival golden variant", "taival purple variant", "taival rare creatures", "taival shiny creatures"]
-related: ["henki-companion-guide", "best-henki-forms", "biomes-exploration-guide", "boss-guide"]
+related:
+  - henki-companion-guide
+  - best-henki-forms
+  - biomes-exploration-guide
+  - boss-guide
 ---
 
 # Rare Spawns Guide: Finding Legendary Creatures in Taival

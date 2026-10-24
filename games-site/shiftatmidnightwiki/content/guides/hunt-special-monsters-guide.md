@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: '2026-08-04'
 keywords: ["shift at midnight marionette", "shift at midnight demented", "shift at midnight shrieking doll", "shift at midnight jack in the box", "shift at midnight special monsters", "shift at midnight hunt monsters"]
-related: ["enemy-bestiary", "entity-survival-guide", "achievements-guide", "weapons-guide"]
+related:
+  - enemy-bestiary
+  - entity-survival-guide
+  - achievements-guide
+  - weapons-guide
 ---
 
 ## Special Monsters in Shift At Midnight

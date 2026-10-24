@@ -5,7 +5,14 @@ category: "Mechanics"
 version: "1.0"
 updated: "2026-09-16"
 keywords: ["sephiria combo system", "sephiria combos", "sephiria bond artifact", "sephiria fruit skewer", "sephiria combo not activating", "sephiria combo levels", "sephiria magitech combo", "sephiria ember combo", "sephiria glacier combo", "sephiria elemental combo", "sephiria combo effects journal"]
-related: ["artifacts-guide", "tablets-guide", "builds-guide", "beginner-guide", "mystic-pot-guide", "patch-1-0-31-build-changes-guide", "endgame-guide"]
+related:
+  - artifacts-guide
+  - tablets-guide
+  - builds-guide
+  - beginner-guide
+  - mystic-pot-guide
+  - patch-1-0-31-build-changes-guide
+  - endgame-guide
 sources:
   - tier: "Official"
     text: "The Steam announcement 'Combo System' Public Beta Announcement (TEAM HORAY, app 2436940, October 1, 2025) is the primary source and defines the system in the developers' own words: 'The combo system, which provides additional stats based on the number of artifacts, was first introduced through an update in the 2024 demo version and has since become one of Sephiria's core systems.' It also supplies the named-combo descriptions, the Bond Artifact definition ('unique artifacts that connect two combos'), the Fruit Skewer introduction ('tools that can increase or decrease the drop rates of related combo items, which you can set before entering an expedition'), the Magitech Electrocute debuff (180% lightning damage after 2 seconds, stacks up to 2), the Chaos damage redefinition, and 'You can now view the Combo Effects list in the journal'. Combo tier thresholds, the Bond Artifact drop rule, Fruit Skewer capacity and per-fruit percentages, and every combo bug fix below come from the official Steam announcement series read in full through the Steam partner-events API on September 16, 2026: 0.900.6 Beta, 0.9.1 (named in 0.9.3 as the official release of the beta), 0.9.8, 0.10.0, 0.10.6, 0.10.8, 0.10.10, 0.10.13, the 0.10.15 announcement (whose body also carries the 0.10.14 and 0.10.16 sections — the Chalcedony Key / White Paper display fix is under 0.10.16), 0.11.0, 0.11.7, 1.0, 1.0.23, 1.0.26, 1.0.31 and 1.0.33"

@@ -5,7 +5,11 @@ category: "FAQ"
 version: "1.0"
 updated: "2026-08-21"
 keywords: ["Sephiria FAQ", "frequently asked questions", "Sephiria help", "game questions", "common questions", "release date", "price"]
-related: ["beginner-guide", "weapons-guide", "coop-guide", "solo-guide"]
+related:
+  - beginner-guide
+  - weapons-guide
+  - coop-guide
+  - solo-guide
 sources:
   - tier: "Official"
     text: "1.0 launch date (July 31, 2026), Early Access timeline (April 2025 – July 2026, 484 days, 58 updates), system requirements, demo availability, and crossplay status — Steam store page"

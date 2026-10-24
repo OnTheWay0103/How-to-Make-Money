@@ -5,7 +5,11 @@ category: "Crafting"
 version: "Current"
 updated: "2026-08-11"
 keywords: ["Skills & Raids crafting guide", "Skills & Raids how to craft", "Skills & Raids materials", "Skills & Raids recipes", "Skills & Raids gear"]
-related: ["extraction-guide", "loot-guide", "skills-guide", "beginner-guide"]
+related:
+  - extraction-guide
+  - loot-guide
+  - skills-guide
+  - beginner-guide
 ---
 
 # Skills & Raids Crafting Guide — Turning Resources Into Gear and Skills

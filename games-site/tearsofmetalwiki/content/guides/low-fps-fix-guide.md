@@ -5,7 +5,12 @@ category: "Guides"
 version: "Early Access"
 updated: "2026-09-05"
 keywords: ["Tears of Metal low fps fix", "Tears of Metal stutter fix", "Tears of Metal performance", "Tears of Metal best settings", "Tears of Metal fps drop large battles", "Tears of Metal lag fix PC", "Tears of Metal pc optimization"]
-related: ["crash-launch-fix-guide", "multiplayer-connection-fix-guide", "steam-deck-guide", "save-system-guide", "patch-notes"]
+related:
+  - crash-launch-fix-guide
+  - multiplayer-connection-fix-guide
+  - steam-deck-guide
+  - save-system-guide
+  - patch-notes
 sources:
   - tier: "Official"
     text: "Paper Cult has shipped performance-focused patches that acknowledge the problem: both the July 31 hotfix (v.0.10.57598) and the August 1 patch (v.0.11.57863) carried Act 1–2 performance and stability optimizations, the July 24 hotfix (v.0.8.57278) made the maximum-framerate setting actually apply and cut the default cap from 120 to 60, and the August 9 hotfix (v.0.11.57874.1) disabled the Epic Online Services overlay to fix sudden mouse stutter — Steam Community announcements (steamcommunity.com/app/1913120/allnews)"

@@ -5,7 +5,13 @@ category: "Guides"
 version: "1.0"
 updated: '2026-08-09'
 keywords: ["shift at midnight marionette", "shift at midnight jack in the box", "shift at midnight music box guide", "rewind jack in the box shift at midnight", "last performance achievement shift at midnight", "marionette shift 9", "shift at midnight music box rewind"]
-related: ["hunt-special-monsters-guide", "entity-survival-guide", "enemy-bestiary", "achievements-guide", "weapons-guide", "coop-strategy-guide"]
+related:
+  - hunt-special-monsters-guide
+  - entity-survival-guide
+  - enemy-bestiary
+  - achievements-guide
+  - weapons-guide
+  - coop-strategy-guide
 ---
 
 # Shift At Midnight Marionette Guide — Rewind the Box or Face the Music

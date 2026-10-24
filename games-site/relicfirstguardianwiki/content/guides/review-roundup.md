@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["relic first guardian review", "the relic first guardian review", "is the relic first guardian worth it", "relic first guardian review score", "relic first guardian worth buying", "relic first guardian metacritic"]
-related: ["release-date-platforms", "game-length-guide", "difficulty-guide", "co-op-guide"]
+related:
+  - release-date-platforms
+  - game-length-guide
+  - difficulty-guide
+  - co-op-guide
 sources:
   - tier: "Official"
     text: "Game identity — Project Cloud Games / Perp Games, July 2026 launch on Steam and PS5, the no-leveling relic progression — Steam store page and official materials"

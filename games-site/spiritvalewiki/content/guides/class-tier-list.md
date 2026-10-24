@@ -5,7 +5,11 @@ category: "Guides"
 version: "EA"
 updated: "2026-08-09"
 keywords: ["SpiritVale tier list", "SpiritVale best class", "SpiritVale best dps class", "SpiritVale class ranking", "SpiritVale gunslinger", "SpiritVale weaver"]
-related: ["classes-guide", "beginner-guide", "builds-guide", "solo-guide"]
+related:
+  - classes-guide
+  - beginner-guide
+  - builds-guide
+  - solo-guide
 sources:
   - tier: "Community"
     text: "Rankings are community consensus drawn from the official Discord and Steam Community discussions"

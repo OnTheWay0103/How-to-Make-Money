@@ -5,7 +5,12 @@ category: 'Lore'
 version: '1.0'
 updated: '2026-08-01'
 keywords: ['Taival story explained', 'Taival lore guide', 'Taival Henki explained', 'Taival Heartstone', 'what is Taival about', 'Taival Finnish folklore', 'Taival ending explained']
-related: ['beginner-guide', 'henki-companion-guide', 'quests-walkthrough', 'biomes-exploration-guide', 'best-henki-forms']
+related:
+  - beginner-guide
+  - henki-companion-guide
+  - quests-walkthrough
+  - biomes-exploration-guide
+  - best-henki-forms
 ---
 
 # Taival Lore & Story Guide — The Henki, the Heartstone & the World

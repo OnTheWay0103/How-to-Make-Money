@@ -5,7 +5,11 @@ category: Guides
 version: '1.0'
 updated: '2026-08-01'
 keywords: ['minegeon renegades tank build', 'minegeon renegades gunslinger build', 'minegeon renegades engineer build', 'minegeon best build', 'minegeon renegades build guide', 'minegeon renegades best class for solo']
-related: ['classes-guide', 'gadgets-guide', 'coop-multiplayer-guide', 'tier-list']
+related:
+  - classes-guide
+  - gadgets-guide
+  - coop-multiplayer-guide
+  - tier-list
 ---
 
 ## Class Builds Guide — MineGeon: Renegades

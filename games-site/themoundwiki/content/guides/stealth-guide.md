@@ -5,7 +5,12 @@ category: "Guides"
 version: "1.0"
 updated: "2026-09-17"
 keywords: ["The Mound stealth guide", "The Mound how to sneak", "The Mound noise mechanics", "The Mound silent kills", "The Mound backstab guide", "The Mound avoid detection", "The Mound Mask of Nyarlathotep"]
-related: ["enemy-bestiary", "weapons-guide", "solo-guide", "combat-survival-guide", "sanity-guide"]
+related:
+  - enemy-bestiary
+  - weapons-guide
+  - solo-guide
+  - combat-survival-guide
+  - sanity-guide
 ---
 
 # The Mound Stealth Guide — Noise Control, Silent Kills, and Avoiding Detection

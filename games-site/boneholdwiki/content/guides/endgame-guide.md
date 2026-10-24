@@ -5,7 +5,13 @@ category: 'Endgame'
 version: '1.0'
 updated: '2026-08-01'
 keywords: ['Bonehold endgame', 'Bonehold legendary farming', 'Bonehold deep dungeon', 'Bonehold achievement guide', 'Bonehold post game', 'Bonehold hybrid builds', 'Bonehold advanced guide']
-related: ['progression-guide', 'tips-and-tricks', 'achievements-guide', 'best-builds', 'boss-guide', 'classes-guide']
+related:
+  - progression-guide
+  - tips-and-tricks
+  - achievements-guide
+  - best-builds
+  - boss-guide
+  - classes-guide
 sources:
   - tier: "Official"
     text: "98 Steam Achievements, procedurally generated loot, and legendary items are confirmed on the Steam store page; no official source documents New Game+, difficulty tiers, an Endless mode, or any meta-progression system"

@@ -5,7 +5,10 @@ category: "Achievements"
 version: "0.1.4"
 updated: "2026-08-10"
 keywords: ["witchspire achievements", "witchspire trophies", "witchspire steam achievements", "witchspire 100%", "witchspire completion", "witchspire secrets"]
-related: ["beginner-guide", "coop-multiplayer-guide", "all-familiars-guide"]
+related:
+  - beginner-guide
+  - coop-multiplayer-guide
+  - all-familiars-guide
 ---
 
 # Witchspire Achievements Guide — What We Know and How to Earn Them

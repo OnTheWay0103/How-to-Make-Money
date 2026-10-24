@@ -5,7 +5,12 @@ category: "Game Info"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["grain rot price", "grain rot cost", "grain rot editions", "grain rot how much", "grain rot buy", "grain rot discount", "grain rot worth it"]
-related: ["demo-guide", "release-date-faq", "full-release-guide", "beginner-guide", "co-op-guide"]
+related:
+  - demo-guide
+  - release-date-faq
+  - full-release-guide
+  - beginner-guide
+  - co-op-guide
 sources:
   - tier: "Official"
     text: "$9.99 USD on Steam with a 10% launch-week discount to $8.99; one standard edition with no pre-purchase and no announced DLC — Steam store page"

@@ -5,7 +5,11 @@ category: 'Beginner'
 version: '1.0'
 updated: '2026-08-01'
 keywords: ['Bonehold beginner guide', 'Bonehold tips', 'Bonehold starting class', 'Bonehold combat guide', 'Bonehold first boss']
-related: ['classes-guide', 'combat-guide', 'weapons-guide', 'coop-multiplayer-guide']
+related:
+  - classes-guide
+  - combat-guide
+  - weapons-guide
+  - coop-multiplayer-guide
 sources:
   - tier: "Official"
     text: "3D roguelike dungeon crawler by Pixel Jackal and SaikingS, released July 28, 2026; single-player only; 98 Steam Achievements; procedurally generated weapons, spells, and armor — Steam store page"

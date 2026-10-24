@@ -5,7 +5,13 @@ category: "Progression"
 version: "Early Access"
 updated: "2026-09-16"
 keywords: ["tears of metal barracks", "tears of metal statues", "tears of metal how to upgrade army", "tears of metal commander roster", "tears of metal companion slot", "tears of metal ally command damage", "tears of metal statues currency", "tears of metal hero or army upgrade"]
-related: ["village-upgrade-guide", "battalion-companion-guide", "base-camp-guide", "charms-guide", "healing-guide", "patch-notes"]
+related:
+  - village-upgrade-guide
+  - battalion-companion-guide
+  - base-camp-guide
+  - charms-guide
+  - healing-guide
+  - patch-notes
 sources:
   - tier: "Official"
     text: "The Barracks has numbered Companion upgrade tiers, and their prerequisites were relaxed — Paper Cult, \"New Patch - Big Bug Fixing Pass\", September 8, 2026: \"The Companion x3 Barracks upgrade now only requires Companion x2, rather than also requiring an upgrade from the previous row.\" The same patch refers to \"an Archer Ally Command\" and a \"Companion\" that must appear in the Codex. (store.steampowered.com/news/app/1913120)"

@@ -5,7 +5,14 @@ category: "Guides"
 version: "0.1.4"
 updated: "2026-08-10"
 keywords: ["Witchspire crafting", "Witchspire workbench", "Witchspire recipes", "Witchspire furnace", "Witchspire materials", "Witchspire tool upgrades", "Witchspire rare materials", "Witchspire Ethereal Dust", "Witchspire Astral Essence", "material farming"]
-related: ["hearth-upgrade-guide", "beginner-guide", "all-familiars-guide", "spellblade-vs-wand-guide", "food-cooking", "potions-guide", "tier-list"]
+related:
+  - hearth-upgrade-guide
+  - beginner-guide
+  - all-familiars-guide
+  - spellblade-vs-wand-guide
+  - food-cooking
+  - potions-guide
+  - tier-list
 sources:
   - tier: "Official"
     text: "Base building and crafting stations (Workbench, Garden Plot, Furnace, Witchcraft Circle) are core systems — Steam store page"

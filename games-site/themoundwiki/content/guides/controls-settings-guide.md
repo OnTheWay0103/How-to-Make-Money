@@ -5,7 +5,10 @@ category: "Guides"
 version: "1.0"
 updated: "2026-07-14"
 keywords: ["themound controls", "themound settings", "themound system requirements", "themound PS5", "themound Xbox", "themound keybinds"]
-related: ["beginner-guide", "coop-strategy-guide", "faq-content"]
+related:
+  - beginner-guide
+  - coop-strategy-guide
+  - faq-content
 ---
 
 # The Mound Controls and Settings Guide — PC, PS5, Xbox

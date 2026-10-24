@@ -5,7 +5,10 @@ category: "Guides"
 version: "1.0"
 updated: "2026-09-06"
 keywords: ["the mound motion sickness", "the mound nausea fix", "the mound camera too shaky", "the mound head bob", "the mound cinematic vs standard camera", "the mound fov settings", "the mound motion blur", "the mound camera comfort", "the mound makes me sick"]
-related: ["controls-settings-guide", "performance-fps-fix-guide", "faq-content"]
+related:
+  - controls-settings-guide
+  - performance-fps-fix-guide
+  - faq-content
 ---
 
 # The Mound Motion Sickness Fix — Camera Settings That Stop the Nausea

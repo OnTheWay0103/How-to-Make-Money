@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-01"
 keywords: ["vahrins call quest walkthrough", "vahrins call main quest", "vahrins call side quests", "vahrins call quest guide", "vahrins call story"]
-related: ["beginner-guide", "boss-guide", "zones-areas-guide", "endgame-content"]
+related:
+  - beginner-guide
+  - boss-guide
+  - zones-areas-guide
+  - endgame-content
 sources:
   - tier: "Official"
     text: "Story premise — the lone mercenary liberating Vahrin, the khraiax swarm, the slain king, the Combined Order, and 'a far greater danger rose from beneath the city's streets' — Steam store page and official lore"

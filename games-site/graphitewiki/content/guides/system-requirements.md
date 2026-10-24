@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["graphite system requirements", "graphite pc specs", "graphite minimum requirements", "graphite recommended specs", "graphite steam", "graphite gog", "graphite performance"]
-related: ["release-date-price-guide", "beginner-guide", "faq-content", "graphite-demo-guide"]
+related:
+  - release-date-price-guide
+  - beginner-guide
+  - faq-content
+  - graphite-demo-guide
 sources:
   - tier: "Official"
     text: "Official minimum and recommended PC specifications are published on the Steam store page"

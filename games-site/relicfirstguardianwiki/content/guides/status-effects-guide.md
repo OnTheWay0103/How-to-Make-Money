@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["relic first guardian status effects", "relic first guardian curse", "relic first guardian poison", "relic first guardian debuffs", "relic first guardian curse gauge", "relic first guardian resistance", "relic first guardian status guide"]
-related: ["combat-guide", "how-to-increase-health", "weapons-guide", "boss-strategies"]
+related:
+  - combat-guide
+  - how-to-increase-health
+  - weapons-guide
+  - boss-strategies
 ---
 
 # Status Effects Guide — Curse, Poison & Debuffs Explained

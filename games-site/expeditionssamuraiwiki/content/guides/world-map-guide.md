@@ -5,7 +5,9 @@ category: "Walkthrough"
 version: "1.0"
 updated: "2026-08-01"
 keywords: ["expeditions samurai world map", "expeditions samurai exploration", "expeditions samurai events", "expeditions samurai encounters", "expeditions samurai locations", "expeditions samurai free roam", "expeditions samurai levels"]
-related: ["walkthrough-act-one", "village-management-guide"]
+related:
+  - walkthrough-act-one
+  - village-management-guide
 ---
 
 # Expeditions: Samurai — World Map Guide

@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["relic first guardian release date", "relic first guardian ps5", "relic first guardian steam", "relic first guardian price", "relic first guardian physical copy", "relic first guardian xbox", "relic first guardian pre order", "relic first guardian editions"]
-related: ["beginner-guide", "controls-settings-guide", "game-length-guide", "review-roundup"]
+related:
+  - beginner-guide
+  - controls-settings-guide
+  - game-length-guide
+  - review-roundup
 sources:
   - tier: "Official"
     text: "Released July 2026 on Steam and PlayStation 5; developed by Project Cloud Games, published by Perp Games; Xbox Series X|S and Nintendo Switch 2 versions announced for later in summer 2026 — Steam store page and publisher announcements"

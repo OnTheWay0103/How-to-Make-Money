@@ -5,7 +5,13 @@ category: "Bosses"
 version: "Early Access"
 updated: "2026-08-11"
 keywords: ["Tears of Metal boss guide", "Tears of Metal Gilles the Hog", "Tears of Metal Iseult the Banshee", "Tears of Metal boss fight tips", "Tears of Metal Act 1 boss", "how to beat Tears of Metal bosses"]
-related: ["heroes-tier-list", "threat-level-difficulty-guide", "combat-tips", "corruption-guide", "battalion-companion-guide", "best-builds"]
+related:
+  - heroes-tier-list
+  - threat-level-difficulty-guide
+  - combat-tips
+  - corruption-guide
+  - battalion-companion-guide
+  - best-builds
 sources:
   - tier: "Official"
     text: "Each act ends with a unique boss encounter; Early Access includes three acts with bosses like Gilles the Hog and the Banshee — official description and press coverage"

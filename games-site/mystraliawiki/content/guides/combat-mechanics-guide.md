@@ -5,7 +5,12 @@ category: 'Combat'
 version: 'Early Access'
 updated: '2026-08-11'
 keywords: ['echoes of mystralia combat guide', 'echoes of mystralia combat mechanics', 'echoes of mystralia dodging', 'echoes of mystralia fighting', 'echoes of mystralia combat tips']
-related: ['boss-guide', 'spell-crafting-guide', 'ash-forest-guide', 'difficulty-settings-guide', 'beginner-guide']
+related:
+  - boss-guide
+  - spell-crafting-guide
+  - ash-forest-guide
+  - difficulty-settings-guide
+  - beginner-guide
 sources:
   - tier: "Official"
     text: "The game is described as an action-heavy spellcrafting ARPG roguelite where rapid combat meets deep customization; Memories are your only weapon against the Shadows of the Past — Steam store page"

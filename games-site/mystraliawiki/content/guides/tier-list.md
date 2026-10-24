@@ -5,7 +5,12 @@ category: 'Builds'
 version: 'Early Access'
 updated: '2026-08-11'
 keywords: ['echoes of mystralia tier list', 'echoes of mystralia best spells', 'mystralia memory tier list', 'echoes of mystralia best build', 'echoes of mystralia meta']
-related: ['best-spell-builds', 'spell-crafting-guide', 'memories-guide', 'character-playstyle-guide', 'faq']
+related:
+  - best-spell-builds
+  - spell-crafting-guide
+  - memories-guide
+  - character-playstyle-guide
+  - faq
 ---
 
 # Tier List — The Honest State of Rankings

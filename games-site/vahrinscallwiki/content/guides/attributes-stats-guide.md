@@ -5,7 +5,11 @@ category: 'Guides'
 version: '1.0'
 updated: '2026-08-01'
 keywords: ['vahrins call attributes guide', 'vahrins call stats guide', 'vahrins call character progression', 'vahrins call skill system', 'vahrins call leveling']
-related: ['beginner-guide', 'best-builds-guide', 'magic-guide', 'combat-guide']
+related:
+  - beginner-guide
+  - best-builds-guide
+  - magic-guide
+  - combat-guide
 sources:
   - tier: "Official"
     text: "Classless, use-based progression; playstyles switchable at any point; Skill Books required for full upgrades — official FAQ and developer updates"

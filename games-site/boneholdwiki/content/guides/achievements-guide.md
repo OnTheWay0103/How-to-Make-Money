@@ -5,7 +5,11 @@ category: 'Achievements'
 version: '1.0'
 updated: '2026-08-01'
 keywords: ['Bonehold achievements', 'Bonehold achievement guide', 'Bonehold 100% completion', 'Bonehold Steam achievements list', 'Bonehold achievements unlock', 'Bonehold trophy guide']
-related: ['endgame-guide', 'progression-guide', 'beginner-guide', 'tips-and-tricks']
+related:
+  - endgame-guide
+  - progression-guide
+  - beginner-guide
+  - tips-and-tricks
 ---
 
 # Bonehold Achievements Guide — All 98 Steam Achievements Explained

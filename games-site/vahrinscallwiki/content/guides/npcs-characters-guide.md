@@ -5,7 +5,12 @@ category: 'Guides'
 version: '1.0'
 updated: '2026-08-06'
 keywords: ['vahrins call npc guide', 'vahrins call characters', 'vahrins call south vale hamlet npc', 'vahrins call blacksmith', 'vahrins call merchants']
-related: ['zones-areas-guide', 'quest-walkthrough', 'lore-story-guide', 'boss-guide', 'enemies-bestiary-guide']
+related:
+  - zones-areas-guide
+  - quest-walkthrough
+  - lore-story-guide
+  - boss-guide
+  - enemies-bestiary-guide
 ---
 
 # NPCs & Characters Guide — Every Confirmed Character in the Vale of Vahrin

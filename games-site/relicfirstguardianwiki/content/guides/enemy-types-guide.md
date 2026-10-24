@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["relic first guardian enemy types", "relic first guardian bestiary", "relic first guardian brutals", "relic first guardian enemies list", "relic first guardian regular enemies", "relic first guardian mobs", "relic first guardian enemy guide"]
-related: ["all-bosses-list", "combat-guide", "walkthrough", "resource-loot-guide"]
+related:
+  - all-bosses-list
+  - combat-guide
+  - walkthrough
+  - resource-loot-guide
 ---
 
 # Enemy Types Guide — Brutals, Field Mobs & How to Fight Them

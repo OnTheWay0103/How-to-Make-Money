@@ -5,7 +5,12 @@ category: 'Progression'
 version: 'Early Access'
 updated: '2026-08-11'
 keywords: ['echoes of mystralia lotus', 'echoes of mystralia progression', 'echoes of mystralia permanent upgrades', 'mystralia hub upgrades', 'echoes of mystralia altar upgrades', 'echoes of mystralia meta progression']
-related: ['beginner-guide', 'ea-roadmap-guide', 'memories-guide', 'faq', 'relics-guide']
+related:
+  - beginner-guide
+  - ea-roadmap-guide
+  - memories-guide
+  - faq
+  - relics-guide
 sources:
   - tier: "Official"
     text: "The Lotus is the game's permanent progression system, spent at the Azimuth Temple hub, with 50+ Altar upgrades at Early Access launch — official Steam page"

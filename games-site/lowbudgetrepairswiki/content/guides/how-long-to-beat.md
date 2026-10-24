@@ -6,7 +6,11 @@ version: "1.0"
 updated: "2026-10-24"
 date: "2026-08-07"
 keywords: ["low-budget repairs how long to beat", "low budget repairs game length", "low budget repairs playtime", "low budget repairs hours of gameplay", "low budget repairs campaign length"]
-related: ["demo-guide", "renovation-jobs-guide", "faq", "release-hub"]
+related:
+  - demo-guide
+  - renovation-jobs-guide
+  - faq
+  - release-hub
 ---
 
 # How Long Is Low-Budget Repairs? Length, Playtime & Completion Time

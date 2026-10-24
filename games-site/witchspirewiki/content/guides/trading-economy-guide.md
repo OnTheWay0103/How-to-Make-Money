@@ -5,7 +5,11 @@ category: "Guides"
 version: "0.1.4"
 updated: "2026-08-10"
 keywords: ["Witchspire trading", "Witchspire economy", "Witchspire vendors", "Witchspire currency", "Witchspire what to sell", "Witchspire resource value", "Witchspire wealth"]
-related: ["farming-guide", "beginner-guide", "crafting-guide", "hearth-upgrade-guide"]
+related:
+  - farming-guide
+  - beginner-guide
+  - crafting-guide
+  - hearth-upgrade-guide
 ---
 
 # Trading and Economy Guide — Currency, Vendors, and Resource Value

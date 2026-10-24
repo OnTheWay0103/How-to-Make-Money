@@ -5,7 +5,12 @@ category: 'Exploration'
 version: 'Early Access'
 updated: '2026-08-11'
 keywords: ['echoes of mystralia exploration', 'echoes of mystralia hidden areas', 'echoes of mystralia secrets', 'echoes of mystralia world guide', 'mystralia exploration tips', 'echoes of mystralia hidden puzzles']
-related: ['ash-forest-guide', 'dungeon-guide', 'beginner-guide', 'memories-guide', 'endgame-guide']
+related:
+  - ash-forest-guide
+  - dungeon-guide
+  - beginner-guide
+  - memories-guide
+  - endgame-guide
 ---
 
 # Exploration Guide — Regions, Secrets & What's Confirmed

@@ -5,7 +5,9 @@ category: "Mechanics"
 version: "1.0"
 updated: "2026-08-01"
 keywords: ["expeditions samurai crafting", "expeditions samurai crafting guide", "expeditions samurai forge", "expeditions samurai blacksmith", "expeditions samurai custom gear", "expeditions samurai weapon mods", "expeditions samurai armor upgrades", "expeditions samurai materials", "expeditions samurai recipes"]
-related: ["weapons-armor-guide", "village-management-guide"]
+related:
+  - weapons-armor-guide
+  - village-management-guide
 ---
 
 # Expeditions: Samurai — Crafting Guide

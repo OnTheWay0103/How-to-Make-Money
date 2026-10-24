@@ -5,7 +5,13 @@ category: "Guides"
 version: "1.0"
 updated: "2026-09-17"
 keywords: ["the mound inventory management", "the mound how to reorder items", "the mound hotbar", "the mound inventory slots", "the mound can't rearrange items", "the mound ox wagon inventory", "themound item slot problem"]
-related: ["loadout-guide", "ox-cart-guide", "controls-settings-guide", "updates-patch-notes", "beginner-loadouts", "coop-strategy-guide"]
+related:
+  - loadout-guide
+  - ox-cart-guide
+  - controls-settings-guide
+  - updates-patch-notes
+  - beginner-loadouts
+  - coop-strategy-guide
 ---
 
 # The Mound Inventory Management Guide — How to Reorganise Your Hotbar and Items

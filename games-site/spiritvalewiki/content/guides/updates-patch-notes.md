@@ -5,7 +5,12 @@ category: "Guides"
 version: "EA"
 updated: "2026-09-06"
 keywords: ["spiritvale patch notes", "spiritvale update", "spiritvale 0.31.0", "spiritvale dark fortress", "spiritvale grimoires", "spiritvale bond targets", "spiritvale dusk weapons", "spiritvale auction hall", "spiritvale whats new"]
-related: ["connection-server-guide", "trading-market-guide", "echoing-spire-endgame-guide", "weapons-guide", "class-tier-list"]
+related:
+  - connection-server-guide
+  - trading-market-guide
+  - echoing-spire-endgame-guide
+  - weapons-guide
+  - class-tier-list
 sources:
   - tier: "Official"
     text: "Steam announcement '[0.31.0] Dark Fortress' (Aug 25, 2026) from the official SpiritVale Steam news feed (App 3767850)"

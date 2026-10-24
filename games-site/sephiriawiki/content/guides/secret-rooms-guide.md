@@ -5,7 +5,11 @@ category: "Secrets"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["Sephiria secret rooms", "how to find secret rooms", "hidden rooms", "secret areas", "Sephiria secrets", "hidden chambers"]
-related: ["chapter-guide", "artifacts-guide", "boss-guide", "farming-guide"]
+related:
+  - chapter-guide
+  - artifacts-guide
+  - boss-guide
+  - farming-guide
 ---
 
 ## How Secret Rooms Work

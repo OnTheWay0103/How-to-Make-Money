@@ -5,7 +5,14 @@ category: "Guides"
 version: "0.1.4"
 updated: "2026-08-10"
 keywords: ["Witchspire beginner guide", "Witchspire first 5 hours", "Witchspire tips", "Witchspire starter guide", "how to start Witchspire", "Witchspire survival", "Witchspire hunger", "Witchspire healing", "how to survive Witchspire"]
-related: ["best-coven-guide", "vyrs-region-guide", "crafting-guide", "hearth-upgrade-guide", "food-cooking", "all-familiars-guide", "flight-unlock-guide"]
+related:
+  - best-coven-guide
+  - vyrs-region-guide
+  - crafting-guide
+  - hearth-upgrade-guide
+  - food-cooking
+  - all-familiars-guide
+  - flight-unlock-guide
 sources:
   - tier: "Official"
     text: "Steam Early Access launch on June 10, 2026 — Steam store page"

@@ -5,7 +5,12 @@ category: 'Beginner'
 version: 'Early Access'
 updated: '2026-08-11'
 keywords: ['echoes of mystralia faq', 'echoes of mystralia questions', 'echoes of mystralia release date', 'echoes of mystralia price', 'echoes of mystralia steam', 'echoes of mystralia multiplayer', 'echoes of mystralia early access faq']
-related: ['beginner-guide', 'ea-launch-guide', 'ea-roadmap-guide', 'spell-crafting-guide', 'demo-save-transfer']
+related:
+  - beginner-guide
+  - ea-launch-guide
+  - ea-roadmap-guide
+  - spell-crafting-guide
+  - demo-save-transfer
 sources:
   - tier: "Official"
     text: "Developed and published by Borealys Games (Montreal); Steam Early Access launched August 11, 2026 at 15:00 UTC, PC only, single-player — Steam store page and press release"

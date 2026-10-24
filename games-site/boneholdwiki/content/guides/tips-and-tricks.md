@@ -5,7 +5,11 @@ category: 'Tips'
 version: '1.0'
 updated: '2026-08-01'
 keywords: ['Bonehold tips', 'Bonehold tricks', 'Bonehold hidden mechanics', 'Bonehold advanced techniques', 'Bonehold pro tips']
-related: ['combat-guide', 'beginner-guide', 'item-prefixes-guide', 'endgame-guide']
+related:
+  - combat-guide
+  - beginner-guide
+  - item-prefixes-guide
+  - endgame-guide
 ---
 
 # Bonehold Tips and Tricks — Advanced Mechanics and Hidden Systems

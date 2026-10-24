@@ -5,7 +5,12 @@ category: 'Beginner'
 version: 'Early Access'
 updated: '2026-08-11'
 keywords: ['echoes of mystralia beginner guide', 'echoes of mystralia getting started', 'echoes of mystralia tips', 'echoes of mystralia demo guide', 'mystralia new player guide', 'echoes of mystralia how to start', 'echoes of mystralia first hours']
-related: ['spell-crafting-guide', 'ea-launch-guide', 'faq', 'memories-guide', 'ash-forest-guide']
+related:
+  - spell-crafting-guide
+  - ea-launch-guide
+  - faq
+  - memories-guide
+  - ash-forest-guide
 sources:
   - tier: "Official"
     text: "Spellcrafting ARPG roguelite from Borealys Games, the studio behind Mages of Mystralia (2017); launched into Steam Early Access August 11, 2026 — press release and Steam store page"

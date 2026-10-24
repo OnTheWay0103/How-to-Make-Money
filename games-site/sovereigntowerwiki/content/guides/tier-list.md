@@ -5,7 +5,12 @@ category: 'Tier List'
 version: '1.0'
 updated: '2026-08-25'
 keywords: ['sovereign tower tier list', 'sovereign tower best knights', 'sovereign tower strongest knight', 'sovereign tower knight ranking', 'sovereign tower best party', 'sovereign tower victoria']
-related: ['knight-stats', 'knight-recruitment-guide', 'dragon-knight-guide', 'core-mechanics', 'faq']
+related:
+  - knight-stats
+  - knight-recruitment-guide
+  - dragon-knight-guide
+  - core-mechanics
+  - faq
 sources:
   - tier: "Community"
     text: "Stat values and totals per Tpose Gaming\'s community-collected knight table"

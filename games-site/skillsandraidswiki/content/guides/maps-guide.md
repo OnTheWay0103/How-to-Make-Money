@@ -5,7 +5,11 @@ category: "Maps"
 version: "Current"
 updated: "2026-08-11"
 keywords: ["Skills & Raids maps", "Skills & Raids biomes", "Skills & Raids combat areas", "Skills & Raids run navigation", "Skills & Raids secrets"]
-related: ["extraction-guide", "enemies-guide", "beginner-guide", "raid-progression-guide"]
+related:
+  - extraction-guide
+  - enemies-guide
+  - beginner-guide
+  - raid-progression-guide
 ---
 
 # Skills & Raids Maps Guide — Biomes and Combat Areas

@@ -5,7 +5,11 @@ category: 'Systems'
 version: '1.0'
 updated: '2026-08-22'
 keywords: ['doloc town energy', 'doloc town stamina', 'doloc town health', 'doloc town how to heal', 'doloc town pass out', 'doloc town best food']
-related: ['beginner-guide', 'cooking-recipes-guide', 'weather-guide', 'how-to-make-money']
+related:
+  - beginner-guide
+  - cooking-recipes-guide
+  - weather-guide
+  - how-to-make-money
 sources:
   - tier: "Official"
     text: "Energy, health, and stamina systems per official game description"

@@ -5,7 +5,10 @@ category: 'Social'
 version: '1.0'
 updated: '2026-08-22'
 keywords: ['doloc town gift guide', 'doloc town romance', 'doloc town townsfolk', 'doloc town festivals', 'doloc town villager tasks', 'doloc town relationships']
-related: ['beginner-guide', 'map-guide', 'how-to-make-money']
+related:
+  - beginner-guide
+  - map-guide
+  - how-to-make-money
 ---
 
 # Gifts & Friendship Guide — Befriending the Townsfolk

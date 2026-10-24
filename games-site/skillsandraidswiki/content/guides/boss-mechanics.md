@@ -5,7 +5,13 @@ category: "Guides"
 version: "Current"
 updated: "2026-08-11"
 keywords: ["Skills & Raids combat mechanics", "Skills & Raids combat guide", "Skills & Raids cooldowns", "Skills & Raids status effects", "Skills & Raids pause mechanic", "Skills & Raids resource management", "Skills & Raids inventory management"]
-related: ["character-guide", "extraction-guide", "skills-guide", "beginner-guide", "loot-guide", "raid-boss-guide"]
+related:
+  - character-guide
+  - extraction-guide
+  - skills-guide
+  - beginner-guide
+  - loot-guide
+  - raid-boss-guide
 ---
 
 ## Combat Mechanics Guide — Skills & Raids

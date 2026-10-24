@@ -5,7 +5,12 @@ category: "Guides"
 version: "1.0"
 updated: "2026-09-13"
 keywords: ["the mound patron saints", "the mound sacred figures", "the mound saints guide", "the mound nine guardians achievement", "the mound which saint to pick", "the mound saint dymphna", "the mound woodworker"]
-related: ["progression-system-guide", "sanity-guide", "trophy-achievement-guide", "loadout-guide", "updates-patch-notes"]
+related:
+  - progression-system-guide
+  - sanity-guide
+  - trophy-achievement-guide
+  - loadout-guide
+  - updates-patch-notes
 ---
 
 # The Mound Patron Saints — How to Unlock Every Blessing and Which One to Equip

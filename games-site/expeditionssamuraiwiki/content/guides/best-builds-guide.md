@@ -5,7 +5,10 @@ category: "Builds"
 version: "1.0"
 updated: "2026-08-01"
 keywords: ["expeditions samurai best build", "expeditions samurai build guide", "expeditions samurai character build", "expeditions samurai progression", "expeditions samurai skills"]
-related: ["classes-guide", "weapons-armor-guide", "combat-guide"]
+related:
+  - classes-guide
+  - weapons-armor-guide
+  - combat-guide
 ---
 
 # Expeditions: Samurai — Best Builds Guide

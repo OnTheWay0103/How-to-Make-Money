@@ -5,7 +5,11 @@ category: "Crafting"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["taival crafting", "taival professions", "taival crafting stations", "taival recipes", "taival materials", "taival crafting guide", "taival professions guide"]
-related: ["beginner-guide", "combat-system-guide", "henki-companion-guide", "fishing-guide"]
+related:
+  - beginner-guide
+  - combat-system-guide
+  - henki-companion-guide
+  - fishing-guide
 sources:
   - tier: "Official"
     text: "Professions and crafting are confirmed Early Access systems, with fishing explicitly named by the developer as a levelable skill — Steam store page and developer materials"

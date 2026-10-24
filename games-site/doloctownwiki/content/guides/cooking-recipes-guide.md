@@ -5,7 +5,11 @@ category: 'Cooking'
 version: '1.0'
 updated: '2026-08-22'
 keywords: ['doloc town cooking', 'doloc town cooking guide', 'doloc town recipes', 'doloc town all recipes', 'doloc town how to make cheese', 'doloc town pot recipes']
-related: ['how-to-make-money', 'energy-guide', 'crops-guide', 'tech-tree-guide']
+related:
+  - how-to-make-money
+  - energy-guide
+  - crops-guide
+  - tech-tree-guide
 ---
 
 # Cooking & Recipes Guide — How to Unlock All 80+ Recipes

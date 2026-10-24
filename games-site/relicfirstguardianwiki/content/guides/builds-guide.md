@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["relic first guardian builds", "best build relic first guardian", "relic first guardian build guide", "relic first guardian beginner builds", "relic first guardian first build", "relic first guardian dps guide", "relic first guardian weapon damage", "relic first guardian relic combinations", "relic first guardian tank build"]
-related: ["weapons-guide", "runes-guide", "artifacts-guide", "tier-list"]
+related:
+  - weapons-guide
+  - runes-guide
+  - artifacts-guide
+  - tier-list
 sources:
   - tier: "Official"
     text: "Build components — weapon families, 12 skill trees, 70+ freely swappable relic fragments, Relic Energy skills, and unique gear with Drawbacks — Steam store page and official materials"

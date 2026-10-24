@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-08"
 keywords: ["moonlight peaks cooking", "moonlight peaks recipes", "moonlight peaks best recipes", "moonlight peaks cookbook", "moonlight peaks mana recipes", "moonlight peaks keg", "moonlight peaks food guide"]
-related: ["potions-guide", "money-guide", "farming-guide", "festivals-events-guide"]
+related:
+  - potions-guide
+  - money-guide
+  - farming-guide
+  - festivals-events-guide
 ---
 
 # Moonlight Peaks — Cooking & Recipes Guide: Stamina, Mana & Money Dishes

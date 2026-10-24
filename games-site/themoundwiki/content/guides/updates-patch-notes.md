@@ -5,7 +5,10 @@ category: "Guides"
 version: "1.0"
 updated: "2026-09-11"
 keywords: ["themound patch notes", "themound update history", "themound version log", "themound changelog", "themound latest update"]
-related: ["faq-content", "game-length-guide", "controls-settings-guide"]
+related:
+  - faq-content
+  - game-length-guide
+  - controls-settings-guide
 ---
 
 # Update Log and Patch Notes — Version History and Changes

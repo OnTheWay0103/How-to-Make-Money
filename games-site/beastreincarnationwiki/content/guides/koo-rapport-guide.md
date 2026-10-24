@@ -5,7 +5,11 @@ category: "Reference"
 version: "1.0.6"
 updated: "2026-08-08"
 keywords: ["beast of reincarnation koo", "koo rapport guide", "how to raise koo rapport", "koo skills", "bloom arts beast of reincarnation"]
-related: ["skill-tree-overview", "combat-system-guide", "beginner-guide", "tier-list"]
+related:
+  - skill-tree-overview
+  - combat-system-guide
+  - beginner-guide
+  - tier-list
 ---
 
 # Koo Skills & Rapport Guide — Every Bloom Art Ranked

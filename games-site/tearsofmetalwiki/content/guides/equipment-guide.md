@@ -5,7 +5,12 @@ category: "Mechanics"
 version: "Early Access"
 updated: "2026-08-11"
 keywords: ["equipment", "armor", "gear", "gear slots", "stat priority", "best gear", "Tears of Metal equipment"]
-related: ["weapon-merge-guide", "emblem-artifact-guide", "corruption-guide", "combat-tips", "village-upgrade-guide"]
+related:
+  - weapon-merge-guide
+  - emblem-artifact-guide
+  - corruption-guide
+  - combat-tips
+  - village-upgrade-guide
 ---
 
 # Tears of Metal Equipment Guide — Armor, Gear Slots & Stat Priority

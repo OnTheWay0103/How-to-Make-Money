@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["relic first guardian walkthrough", "relic first guardian story guide", "relic first guardian main quest", "relic first guardian progression", "relic first guardian regions", "relic first guardian arsiltus"]
-related: ["boss-strategies", "beginner-guide", "all-bosses-list", "release-date-platforms"]
+related:
+  - boss-strategies
+  - beginner-guide
+  - all-bosses-list
+  - release-date-platforms
 ---
 
 # Walkthrough — Main Story & Progression

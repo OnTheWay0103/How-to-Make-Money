@@ -5,7 +5,11 @@ category: 'Combat'
 version: 'Early Access'
 updated: '2026-08-11'
 keywords: ['echoes of mystralia how to heal', 'echoes of mystralia healing', 'echoes of mystralia survive', 'echoes of mystralia restore hp', 'echoes of mystralia tips', 'mystralia how to stay alive']
-related: ['beginner-guide', 'boss-guide', 'ash-forest-guide', 'spell-crafting-guide']
+related:
+  - beginner-guide
+  - boss-guide
+  - ash-forest-guide
+  - spell-crafting-guide
 ---
 
 # How to Heal & Survive — HP Recovery in Echoes of Mystralia

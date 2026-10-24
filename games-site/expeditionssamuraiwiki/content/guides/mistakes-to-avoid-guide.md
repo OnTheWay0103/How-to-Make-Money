@@ -5,7 +5,11 @@ category: "Beginner"
 version: "1.0"
 updated: "2026-08-07"
 keywords: ["expeditions samurai mistakes", "expeditions samurai mistakes to avoid", "expeditions samurai things to know", "expeditions samurai before you play", "expeditions samurai common mistakes", "expeditions samurai beginner mistakes"]
-related: ["beginner-guide", "tips-and-tricks", "launch-day-guide", "injuries-healing-guide"]
+related:
+  - beginner-guide
+  - tips-and-tricks
+  - launch-day-guide
+  - injuries-healing-guide
 ---
 
 # Expeditions: Samurai — 12 Mistakes to Avoid (Early Access Edition)

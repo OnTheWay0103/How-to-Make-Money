@@ -5,7 +5,10 @@ category: "Classes"
 version: "1.0"
 updated: "2026-08-01"
 keywords: ["expeditions samurai classes", "expeditions samurai class guide", "expeditions samurai character creation", "expeditions samurai flynn class"]
-related: ["best-builds-guide", "beginner-guide", "combat-guide"]
+related:
+  - best-builds-guide
+  - beginner-guide
+  - combat-guide
 sources:
   - tier: "Official"
     text: "Four player classes at character creation are confirmed by official materials; class names and ability trees were scheduled to be revealed at the Early Access launch"

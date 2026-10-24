@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["relic first guardian runes", "relic first guardian relics", "relic first guardian memory fragments", "relic first guardian rune guide", "relic first guardian relic fragments", "best relics relic first guardian"]
-related: ["builds-guide", "upgrade-system", "weapons-guide", "beginner-guide"]
+related:
+  - builds-guide
+  - upgrade-system
+  - weapons-guide
+  - beginner-guide
 sources:
   - tier: "Official"
     text: "Over 70 unique passive relic fragments (no traditional leveling); relics reshape skills, alter combat tempo, buff weapons, improve survivability, and reduce cooldowns; freely swappable between fights — Steam store page and official materials"

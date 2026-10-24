@@ -5,7 +5,10 @@ category: "Guides"
 version: "0.1.4"
 updated: "2026-08-10"
 keywords: ["witchspire co-op not working", "witchspire can't join friend", "witchspire chest empty", "witchspire what carries over in co-op", "witchspire character tied to world", "witchspire desync", "witchspire multiplayer fix"]
-related: ["coop-multiplayer-guide", "beginner-guide", "patch-notes-updates"]
+related:
+  - coop-multiplayer-guide
+  - beginner-guide
+  - patch-notes-updates
 ---
 
 # Witchspire Co-op Troubleshooting Guide — Can't Join Friends, Chests Empty & Desync Fixes

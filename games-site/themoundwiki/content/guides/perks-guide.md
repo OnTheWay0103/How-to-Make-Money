@@ -5,7 +5,12 @@ category: "Guides"
 version: "1.0"
 updated: "2026-09-17"
 keywords: ["themound perks", "themound progression", "themound skill tree", "themound weapon upgrade anvil", "themound logbook unlock", "themound tokens"]
-related: ["loadout-guide", "sanity-guide", "combat-survival-guide", "solo-guide", "characters-classes"]
+related:
+  - loadout-guide
+  - sanity-guide
+  - combat-survival-guide
+  - solo-guide
+  - characters-classes
 ---
 
 # Perks & Progression Guide — What Actually Exists

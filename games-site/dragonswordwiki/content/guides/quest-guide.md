@@ -5,7 +5,12 @@ category: 'Quests'
 version: '1.0'
 updated: '2026-08-01'
 keywords: ['dragonsword awakening quest guide', 'dragonsword awakening main quest', 'dragonsword awakening side quests', 'dragonsword awakening promotion quest', 'dragonsword awakening missions', 'dragonsword awakening quests']
-related: ['beginner-guide', 'walkthrough', 'hero-unlock-guide', 'leveling-guide', 'boss-guide']
+related:
+  - beginner-guide
+  - walkthrough
+  - hero-unlock-guide
+  - leveling-guide
+  - boss-guide
 ---
 
 # Quest Guide — Main Story, Side Quests & Missions Explained

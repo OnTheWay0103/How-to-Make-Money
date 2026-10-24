@@ -5,7 +5,12 @@ category: "Guides"
 version: "EA"
 updated: "2026-08-01"
 keywords: ["SpiritVale beginner guide", "SpiritVale what to do first", "SpiritVale how to start", "SpiritVale first hours", "SpiritVale no main quest", "SpiritVale new player guide"]
-related: ["classes-guide", "leveling-guide", "class-tier-list", "cards-guide", "solo-guide"]
+related:
+  - classes-guide
+  - leveling-guide
+  - class-tier-list
+  - cards-guide
+  - solo-guide
 sources:
   - tier: "Official"
     text: "Steam Early Access launched July 15, 2026; developed by Baikun Interactive — Steam store page and official announcements"

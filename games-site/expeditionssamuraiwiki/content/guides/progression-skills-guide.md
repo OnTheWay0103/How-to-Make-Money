@@ -5,7 +5,11 @@ category: "Builds"
 version: "1.0"
 updated: "2026-08-07"
 keywords: ["expeditions samurai progression", "expeditions samurai leveling", "expeditions samurai skill points", "expeditions samurai skill tree", "expeditions samurai weapon skills", "expeditions samurai respec", "expeditions samurai how to level up"]
-related: ["best-builds-guide", "classes-guide", "combat-guide", "party-composition-guide"]
+related:
+  - best-builds-guide
+  - classes-guide
+  - combat-guide
+  - party-composition-guide
 ---
 
 # Expeditions: Samurai — Progression & Skill System Guide

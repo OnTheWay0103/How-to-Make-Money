@@ -5,7 +5,11 @@ category: "Secrets"
 version: "1.0.6"
 updated: "2026-08-08"
 keywords: ["beast of reincarnation secrets", "beast of reincarnation collectibles", "dragon shrines beast of reincarnation", "hidden items beast of reincarnation", "beast of reincarnation easter eggs"]
-related: ["beginner-guide", "nushi-boss-reference", "spirit-stones-guide", "chapter-progression-guide"]
+related:
+  - beginner-guide
+  - nushi-boss-reference
+  - spirit-stones-guide
+  - chapter-progression-guide
 ---
 
 # Hidden Secrets & Collectibles — Everything You Can Miss

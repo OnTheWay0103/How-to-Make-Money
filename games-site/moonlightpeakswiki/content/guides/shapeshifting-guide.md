@@ -5,7 +5,10 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-01"
 keywords: ["moonlight peaks shapeshift", "moonlight peaks bat form", "moonlight peaks hellkitten", "moonlight peaks forms"]
-related: ["beginner-guide", "quests-guide", "characters-guide"]
+related:
+  - beginner-guide
+  - quests-guide
+  - characters-guide
 sources:
   - tier: "Official"
     text: "Shapeshifting is a confirmed feature per the Steam store description"

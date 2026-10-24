@@ -5,7 +5,13 @@ category: "Guides"
 version: "EA"
 updated: "2026-10-24"
 keywords: ["spiritvale artifacts", "spiritvale artifact sets", "best artifacts spiritvale", "spiritvale steelheart set", "spiritvale arcanum set", "spiritvale stormquiver set", "spiritvale pioneer set", "spiritvale rune jewel scroll relic"]
-related: ["cards-guide", "gear-progression", "crafting-guide", "beginner-guide", "summoner-guide", "necromancer-build-guide"]
+related:
+  - cards-guide
+  - gear-progression
+  - crafting-guide
+  - beginner-guide
+  - summoner-guide
+  - necromancer-build-guide
 sources:
   - tier: "Official"
     text: "SpiritVale Steam store description (app 3767850): \"Cards and Artifacts are 2 important features in SpiritVale, both allow you to build your character the way you want or need for specific content! With more than 220 cards and 33 Artifact Sets, you can freely mix and match to adapt to any build or biome.\" The same text appears on the official SpiritVale Demo store page."

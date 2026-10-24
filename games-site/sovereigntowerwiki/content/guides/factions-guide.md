@@ -5,7 +5,12 @@ category: 'Factions'
 version: '1.0'
 updated: '2026-08-25'
 keywords: ['sovereign tower factions', 'sovereign tower affinity', 'sovereign tower nobles people merchants', 'sovereign tower diplomacy', 'sovereign tower treasury', 'sovereign tower uprising']
-related: ['core-mechanics', 'economy-guide', 'knight-recruitment-guide', 'romance-guide', 'rewind-guide']
+related:
+  - core-mechanics
+  - economy-guide
+  - knight-recruitment-guide
+  - romance-guide
+  - rewind-guide
 sources:
   - tier: "Official"
     text: "Affinity with the people, the nobles and other rulers; balancing the realm — official press release and store description"

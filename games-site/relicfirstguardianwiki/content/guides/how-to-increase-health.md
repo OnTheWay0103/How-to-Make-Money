@@ -5,7 +5,12 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["how to increase health in the relic first guardian", "relic first guardian max health", "relic first guardian health", "relic first guardian potions", "relic first guardian healing", "relic first guardian when to heal", "relic first guardian survival", "relic first guardian curse resistance", "relic first guardian survivability"]
-related: ["beginner-guide", "runes-guide", "upgrade-system", "combat-guide", "boss-strategies"]
+related:
+  - beginner-guide
+  - runes-guide
+  - upgrade-system
+  - combat-guide
+  - boss-strategies
 ---
 
 # How to Increase Health & Survivability in The Relic: First Guardian

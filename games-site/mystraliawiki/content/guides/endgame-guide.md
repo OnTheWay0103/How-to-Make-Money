@@ -5,7 +5,12 @@ category: 'Game Modes'
 version: 'Early Access'
 updated: '2026-08-11'
 keywords: ['echoes of mystralia endgame', 'echoes of mystralia post-game', 'echoes of mystralia endgame content', 'echoes of mystralia what to do after', 'mystralia endgame']
-related: ['difficulty-settings-guide', 'ea-roadmap-guide', 'memories-guide', 'best-spell-builds', 'relics-guide']
+related:
+  - difficulty-settings-guide
+  - ea-roadmap-guide
+  - memories-guide
+  - best-spell-builds
+  - relics-guide
 ---
 
 # Endgame Guide — What Comes After the Three Regions

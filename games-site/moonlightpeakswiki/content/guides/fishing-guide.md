@@ -5,7 +5,10 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-01"
 keywords: ["moonlight peaks fishing", "moonlight peaks fish locations", "moonlight peaks goliath fish", "moonlight peaks best fish"]
-related: ["mining-guide", "gift-guide", "money-guide"]
+related:
+  - mining-guide
+  - gift-guide
+  - money-guide
 sources:
   - tier: "Official"
     text: "Fishing is a confirmed feature per the Steam store description"

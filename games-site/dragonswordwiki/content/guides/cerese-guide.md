@@ -5,7 +5,12 @@ category: 'Builds'
 version: '1.0'
 updated: '2026-08-03'
 keywords: ['dragonsword awakening cerese', 'cerese guide', 'cerese build', 'dragonsword awakening frost team', 'dragonsword awakening ice hero', 'dragonsword awakening crowd control']
-related: ['reina-guide', 'tier-list', 'team-compositions', 'hero-unlock-guide', 'hero-builds-guide']
+related:
+  - reina-guide
+  - tier-list
+  - team-compositions
+  - hero-unlock-guide
+  - hero-builds-guide
 ---
 
 ## Cerese Guide — Frost Crowd Control & the Magic Knight Order Commander

@@ -5,7 +5,11 @@ category: "Reference"
 version: "1.0.6"
 updated: "2026-08-08"
 keywords: ["beast of reincarnation tier list", "beast of reincarnation boss tier list", "best bosses beast of reincarnation", "rangifer lacerta taurus tier", "beast of reincarnation best skills"]
-related: ["nushi-boss-reference", "skill-tree-overview", "combat-system-guide", "chapter-progression-guide"]
+related:
+  - nushi-boss-reference
+  - skill-tree-overview
+  - combat-system-guide
+  - chapter-progression-guide
 sources:
   - tier: "Official"
     text: "The Nushi boss hunt and absorbing boss powers are the core loop described on the official Steam store page"

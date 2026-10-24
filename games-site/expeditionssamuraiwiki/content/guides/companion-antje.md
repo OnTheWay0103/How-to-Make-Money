@@ -5,7 +5,9 @@ category: "Companions"
 version: "1.0"
 updated: "2026-08-01"
 keywords: ["expeditions samurai antje", "expeditions samurai companion guide", "expeditions samurai recruitment", "expeditions samurai loyalty", "expeditions samurai burglar", "expeditions samurai dutch companion"]
-related: ["companions-guide", "romance-guide"]
+related:
+  - companions-guide
+  - romance-guide
 ---
 
 # Expeditions: Samurai — Antje Companion Guide

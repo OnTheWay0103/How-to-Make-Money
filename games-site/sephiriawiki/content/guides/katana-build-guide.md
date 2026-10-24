@@ -5,7 +5,15 @@ category: "Weapons"
 version: "1.0"
 updated: "2026-09-03"
 keywords: ["sephiria katana build", "sephiria katana guide", "sephiria katana good", "sephiria katana weak", "sephiria best katana", "sephiria katana evolution", "sephiria Heidi build", "sephiria Blazing Helbanus", "sephiria katana 1.0", "sephiria katana burn build"]
-related: ["weapons-guide", "builds-guide", "artifacts-guide", "tablets-guide", "talents-guide", "mystic-pot-guide", "hard-mode-guide", "chapter-6-final-boss-guide"]
+related:
+  - weapons-guide
+  - builds-guide
+  - artifacts-guide
+  - tablets-guide
+  - talents-guide
+  - mystic-pot-guide
+  - hard-mode-guide
+  - chapter-6-final-boss-guide
 sources:
   - tier: "Official"
     text: "The Katana is one of Sephiria's six weapon branches (Sword & Shield, Greatsword, Dagger, Katana, Crossbow, Staff), each with 50+ upgrades in the 1.0 update — Steam store page"

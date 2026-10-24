@@ -5,7 +5,12 @@ category: "Guides"
 version: "1.0"
 updated: "2026-09-17"
 keywords: ["themound solo", "themound solo guide", "themound play alone", "themound bot companion", "themound single player", "themound solo survival"]
-related: ["beginner-guide", "extraction-guide", "weapons-guide", "combat-survival-guide", "sanity-guide"]
+related:
+  - beginner-guide
+  - extraction-guide
+  - weapons-guide
+  - combat-survival-guide
+  - sanity-guide
 ---
 
 # The Mound Solo Guide — Playing Alone with One Unreliable Bot

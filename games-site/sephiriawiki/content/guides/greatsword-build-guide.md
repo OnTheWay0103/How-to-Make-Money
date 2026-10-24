@@ -5,7 +5,13 @@ category: "Weapons"
 version: "1.0"
 updated: "2026-08-21"
 keywords: ["sephiria greatsword build", "sephiria greatsword guide", "sephiria thor greatsword s3g", "sephiria red snake crusher", "sephiria stagger build", "sephiria final boss weapon"]
-related: ["weapons-guide", "chapter-6-final-boss-guide", "hard-mode-guide", "mystic-pot-guide", "boss-guide", "builds-guide"]
+related:
+  - weapons-guide
+  - chapter-6-final-boss-guide
+  - hard-mode-guide
+  - mystic-pot-guide
+  - boss-guide
+  - builds-guide
 ---
 
 # Greatsword Build Guide — Stagger Chains & Boss Shutdown

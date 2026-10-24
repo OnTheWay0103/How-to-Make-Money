@@ -5,7 +5,10 @@ category: "Companions"
 version: "1.0"
 updated: "2026-08-05"
 keywords: ["expeditions samurai johan", "expeditions samurai companion guide", "expeditions samurai recruitment", "expeditions samurai loyalty", "expeditions samurai swordsman", "expeditions samurai captain legacy"]
-related: ["companions-guide", "romance-guide", "classes-guide"]
+related:
+  - companions-guide
+  - romance-guide
+  - classes-guide
 ---
 
 # Expeditions: Samurai — Johan Companion Guide

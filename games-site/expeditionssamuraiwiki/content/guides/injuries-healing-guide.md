@@ -5,7 +5,11 @@ category: "Mechanics"
 version: "1.0"
 updated: "2026-08-07"
 keywords: ["expeditions samurai injuries", "expeditions samurai healing", "expeditions samurai wounds", "expeditions samurai medicine", "expeditions samurai companion death", "expeditions samurai can companions die", "expeditions samurai permadeath", "expeditions samurai how to heal"]
-related: ["difficulty-guide", "tips-and-tricks", "beginner-guide", "progression-skills-guide"]
+related:
+  - difficulty-guide
+  - tips-and-tricks
+  - beginner-guide
+  - progression-skills-guide
 ---
 
 # Expeditions: Samurai — Injuries, Healing & Companion Death Guide

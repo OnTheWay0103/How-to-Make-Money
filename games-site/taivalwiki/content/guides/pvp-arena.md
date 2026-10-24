@@ -5,7 +5,11 @@ category: "Combat"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["taival pvp", "is taival pvp", "taival arena", "taival competitive", "taival pve"]
-related: ["coop-multiplayer-guide", "boss-guide", "combat-system-guide", "best-henki-forms"]
+related:
+  - coop-multiplayer-guide
+  - boss-guide
+  - combat-system-guide
+  - best-henki-forms
 ---
 
 # Is There PvP in Taival?

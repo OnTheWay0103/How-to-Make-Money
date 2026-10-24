@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: '2026-08-01'
 keywords: ["shift at midnight endless mode", "endless mode beta shift at midnight", "shift at midnight update", "shift at midnight roadmap", "shift at midnight new weapons", "shift at midnight Q4 2026"]
-related: ["story-walkthrough", "doppelganger-guide", "beginner-guide", "faq-content"]
+related:
+  - story-walkthrough
+  - doppelganger-guide
+  - beginner-guide
+  - faq-content
 sources:
   - tier: "Official"
     text: "Endless Mode in beta with a free major update planned for Q4 2026 adding new customers, weapons, traps, and monsters — Steam store page and official announcements"

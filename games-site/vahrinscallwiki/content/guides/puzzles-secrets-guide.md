@@ -5,7 +5,11 @@ category: 'Guides'
 version: '1.0'
 updated: '2026-08-06'
 keywords: ['vahrins call puzzle guide', 'vahrins call colosseum tomb solution', 'vahrins call secrets', 'vahrins call hidden treasure', 'vahrins call vault of vahrin']
-related: ['zones-areas-guide', 'skill-book-hunting-guide', 'quest-walkthrough', 'farming-resource-guide']
+related:
+  - zones-areas-guide
+  - skill-book-hunting-guide
+  - quest-walkthrough
+  - farming-resource-guide
 ---
 
 # Puzzles & Secrets Guide — Colosseum Tomb Solution and Hidden Rewards

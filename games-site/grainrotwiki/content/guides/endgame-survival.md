@@ -5,7 +5,12 @@ category: 'Advanced'
 version: '1.0'
 updated: '2026-08-11'
 keywords: ['grain rot endgame', 'grain rot deep layers', 'grain rot corruption', 'grain rot deep runs', 'grain rot extraction', 'grain rot late game']
-related: ['hard-mode-guide', 'extraction-guide', 'all-biomes-guide', 'game-mechanics-systems-guide', 'release-date-faq']
+related:
+  - hard-mode-guide
+  - extraction-guide
+  - all-biomes-guide
+  - game-mechanics-systems-guide
+  - release-date-faq
 ---
 
 # Endgame Survival Guide — Deep Layers, Corruption & Risk Management

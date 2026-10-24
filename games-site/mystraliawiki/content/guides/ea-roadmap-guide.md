@@ -5,7 +5,11 @@ category: 'Game Info'
 version: 'Early Access'
 updated: '2026-08-11'
 keywords: ['echoes of mystralia early access', 'echoes of mystralia roadmap', 'echoes of mystralia release date', 'echoes of mystralia ea content', 'echoes of mystralia full release', 'echoes of mystralia 1.0']
-related: ['ea-launch-guide', 'beginner-guide', 'spell-crafting-guide', 'faq']
+related:
+  - ea-launch-guide
+  - beginner-guide
+  - spell-crafting-guide
+  - faq
 sources:
   - tier: "Official"
     text: "Early Access announcement came July 17, 2026 after the game passed 175,000 Steam wishlists; Early Access is planned to last about a year before 1.0, with a new region and the final narrative act arriving later — press release and developer announcements"

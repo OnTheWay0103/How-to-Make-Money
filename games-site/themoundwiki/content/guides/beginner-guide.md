@@ -5,7 +5,10 @@ category: "Guides"
 version: "1.0"
 updated: "2026-07-14"
 keywords: ["the mound beginner guide", "getting started themound", "the mound omen of cthulhu tips", "themound extraction guide"]
-related: ["weapons-guide", "sanity-guide", "extraction-guide"]
+related:
+  - weapons-guide
+  - sanity-guide
+  - extraction-guide
 ---
 
 # The Mound: Omen of Cthulhu — Beginner's Guide (First 5 Hours)

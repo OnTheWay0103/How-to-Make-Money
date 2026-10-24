@@ -5,7 +5,13 @@ category: "Guides"
 version: "Early Access"
 updated: "2026-08-11"
 keywords: ["Tears of Metal walkthrough", "Tears of Metal progression guide", "Tears of Metal Act 1", "Tears of Metal Scottish Coast", "Tears of Metal The Scar", "Tears of Metal act by act"]
-related: ["boss-guide", "beginner-guide", "village-upgrade-guide", "weapon-merge-guide", "corruption-guide", "battalion-companion-guide"]
+related:
+  - boss-guide
+  - beginner-guide
+  - village-upgrade-guide
+  - weapon-merge-guide
+  - corruption-guide
+  - battalion-companion-guide
 ---
 
 # Tears of Metal Progression Walkthrough — Act-by-Act Guide

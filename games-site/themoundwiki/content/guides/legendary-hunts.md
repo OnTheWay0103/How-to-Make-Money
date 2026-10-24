@@ -5,7 +5,13 @@ category: "Guides"
 version: "1.0"
 updated: "2026-09-17"
 keywords: ["themound legendary hunts", "themound legendary contracts", "themound endgame", "themound contract tiers", "themound named monsters", "themound hard contracts", "themound late game"]
-related: ["contracts-guide", "boss-weakness-drops-chart", "nightmare-mode", "extraction-guide", "ox-cart-guide", "progression-system-guide"]
+related:
+  - contracts-guide
+  - boss-weakness-drops-chart
+  - nightmare-mode
+  - extraction-guide
+  - ox-cart-guide
+  - progression-system-guide
 ---
 
 # Legendary-Tier Contracts — What "Endgame" Actually Means

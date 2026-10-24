@@ -5,7 +5,11 @@ category: "Reference"
 version: "1.0"
 updated: "2026-08-08"
 keywords: ["waterpark simulator research", "waterpark simulator research points", "waterpark simulator research table", "waterpark simulator upgrades", "waterpark simulator unlock order", "waterpark simulator research tree"]
-related: ["staff-management-guide", "beginner-guide", "slide-ride-tier-list", "endgame-guide"]
+related:
+  - staff-management-guide
+  - beginner-guide
+  - slide-ride-tier-list
+  - endgame-guide
 sources:
   - tier: "Official"
     text: "Research table with unlock categories is confirmed in official 1.0 feature announcements"

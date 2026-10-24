@@ -5,7 +5,12 @@ category: 'Crafting'
 version: '1.0'
 updated: '2026-08-11'
 keywords: ['grain rot crafting', 'grain rot resources', 'grain rot farming', 'grain rot materials', 'grain rot grinder', 'grain rot loot', 'grain rot crafting recipes', 'grain rot recipes', 'grain rot what to craft', 'grain rot constructs', 'grain rot crafting guide']
-related: ['outpost-upgrade-guide', 'extraction-guide', 'demo-guide', 'game-mechanics-systems-guide', 'best-vessels-guide']
+related:
+  - outpost-upgrade-guide
+  - extraction-guide
+  - demo-guide
+  - game-mechanics-systems-guide
+  - best-vessels-guide
 ---
 
 # Crafting & Resources Guide — Recipes, Loot, Gold & Materials in Grain Rot

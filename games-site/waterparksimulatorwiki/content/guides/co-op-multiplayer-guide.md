@@ -5,7 +5,11 @@ category: "Reference"
 version: "1.0"
 updated: "2026-08-08"
 keywords: ["waterpark simulator multiplayer", "waterpark simulator co-op", "waterpark simulator 4 player", "waterpark simulator friends", "waterpark simulator walkie talkie", "waterpark simulator multiplayer guide", "waterpark simulator voice chat"]
-related: ["beginner-guide", "staff-management-guide", "park-design-layout-guide", "visitor-happiness-guide"]
+related:
+  - beginner-guide
+  - staff-management-guide
+  - park-design-layout-guide
+  - visitor-happiness-guide
 sources:
   - tier: "Official"
     text: "4-player online co-op added with 1.0, including walkie-talkie communication — official 1.0 announcements and patch notes"

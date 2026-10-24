@@ -5,7 +5,11 @@ category: "Builds"
 version: "Early Access"
 updated: "2026-08-11"
 keywords: ["Brienne build", "best Brienne build", "Brienne weapons", "Brienne emblems", "unarmed build", "Tears of Metal Brienne"]
-related: ["best-builds", "heroes-tier-list", "weapon-merge-guide", "emblem-artifact-guide"]
+related:
+  - best-builds
+  - heroes-tier-list
+  - weapon-merge-guide
+  - emblem-artifact-guide
 ---
 
 # Tears of Metal Brienne Build Guide — Best Weapons, Emblems & Strategy

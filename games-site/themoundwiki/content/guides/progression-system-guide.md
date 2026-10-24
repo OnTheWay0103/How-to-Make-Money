@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-01"
 keywords: ["the mound what carries over", "the mound tokens explained", "the mound progression guide", "the mound why can't i keep my weapons", "the mound meta progression", "the mound store unlock"]
-related: ["extraction-guide", "contracts-guide", "progress-save-recovery-guide", "updates-patch-notes"]
+related:
+  - extraction-guide
+  - contracts-guide
+  - progress-save-recovery-guide
+  - updates-patch-notes
 ---
 
 # The Mound Progression Guide — What Carries Over & Tokens Explained

@@ -5,7 +5,12 @@ category: 'Beginner'
 version: '1.0'
 updated: '2026-08-11'
 keywords: ['grain rot solo', 'grain rot single player', 'grain rot solo guide', 'grain rot solo tips', 'grain rot how to play alone']
-related: ['stealth-sound-guide', 'player-count-guide', 'extraction-guide', 'co-op-guide', 'demo-guide']
+related:
+  - stealth-sound-guide
+  - player-count-guide
+  - extraction-guide
+  - co-op-guide
+  - demo-guide
 ---
 
 # Solo Guide — How to Survive Alone in Grain Rot

@@ -5,7 +5,11 @@ category: "Guides"
 version: "EA"
 updated: "2026-08-09"
 keywords: ["SpiritVale advanced class", "SpiritVale how to become necromancer", "SpiritVale how to become paladin", "SpiritVale specialization guide", "SpiritVale class evolution"]
-related: ["classes-guide", "class-leveling-guide", "class-tier-list", "builds-guide"]
+related:
+  - classes-guide
+  - class-leveling-guide
+  - class-tier-list
+  - builds-guide
 ---
 
 # SpiritVale Advanced Classes & Specializations Guide — Unlock Necromancer, Paladin & More

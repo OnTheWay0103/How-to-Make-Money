@@ -5,7 +5,13 @@ category: "Guides"
 version: "Current"
 updated: "2026-08-11"
 keywords: ["Skills & Raids loot guide", "Skills & Raids items", "Skills & Raids rarities", "Skills & Raids drops", "Skills & Raids extraction loot", "Skills & Raids farming guide", "Skills & Raids farming routes", "Skills & Raids resource farming", "Skills & Raids skill drops"]
-related: ["extraction-guide", "crafting-guide", "skills-guide", "maps-guide", "gear-upgrade-guide", "raid-boss-guide"]
+related:
+  - extraction-guide
+  - crafting-guide
+  - skills-guide
+  - maps-guide
+  - gear-upgrade-guide
+  - raid-boss-guide
 ---
 
 # Skills & Raids Loot & Farming Guide — Items, Rarities, and Extraction Value

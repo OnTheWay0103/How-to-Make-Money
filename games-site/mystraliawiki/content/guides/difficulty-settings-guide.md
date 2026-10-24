@@ -5,7 +5,12 @@ category: 'Reference'
 version: 'Early Access'
 updated: '2026-08-11'
 keywords: ['echoes of mystralia difficulty', 'echoes of mystralia difficulty settings', 'echoes of mystralia settings guide', 'echoes of mystralia easy mode', 'echoes of mystralia hard mode', 'echoes of mystralia steam deck', 'echoes of mystralia challenge']
-related: ['system-requirements', 'controller-support-guide', 'beginner-guide', 'ea-launch-guide', 'endgame-guide']
+related:
+  - system-requirements
+  - controller-support-guide
+  - beginner-guide
+  - ea-launch-guide
+  - endgame-guide
 ---
 
 # Difficulty & Settings Guide — The Real Curve, No Menu

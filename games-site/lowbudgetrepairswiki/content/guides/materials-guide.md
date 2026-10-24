@@ -6,7 +6,11 @@ version: "1.0"
 updated: "2026-10-24"
 date: "2026-08-07"
 keywords: ["low-budget repairs materials", "low-budget repairs supplies", "low-budget repairs paint", "low-budget repairs what to buy", "low-budget repairs cheap materials"]
-related: ["hardware-store-guide", "tool-guide", "painting-guide", "tiling-guide"]
+related:
+  - hardware-store-guide
+  - tool-guide
+  - painting-guide
+  - tiling-guide
 ---
 
 # Low-Budget Repairs Materials Guide — What to Buy and Where to Save

@@ -5,7 +5,13 @@ category: "Builds"
 version: "Current"
 updated: "2026-08-11"
 keywords: ["Skills & Raids builds", "Skills & Raids build guide", "Skills & Raids best build", "Skills & Raids skill combos", "Skills & Raids synergy", "Skills & Raids loadout", "Skills & Raids Shelldon build", "Skills & Raids Clawrk build", "Skills & Raids Owlivia build", "Skills & Raids tank build", "Skills & Raids DPS build", "Skills & Raids healer build", "Skills & Raids build optimization", "Skills & Raids best skills"]
-related: ["beginner-guide", "character-guide", "skills-guide", "team-compositions-guide", "tier-list", "gear-upgrade-guide"]
+related:
+  - beginner-guide
+  - character-guide
+  - skills-guide
+  - team-compositions-guide
+  - tier-list
+  - gear-upgrade-guide
 ---
 
 # Skills & Raids Builds Guide — Team & Ability Setups

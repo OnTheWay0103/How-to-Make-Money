@@ -5,7 +5,12 @@ category: 'Guides'
 version: '1.0'
 updated: '2026-08-01'
 keywords: ['vahrins call zones', 'vahrins call map', 'vahrins call areas', 'vahrins call vale of vahrin', 'vahrins call dungeons']
-related: ['quest-walkthrough', 'enemies-bestiary-guide', 'exploration-navigation-guide', 'farming-resource-guide', 'beginner-guide']
+related:
+  - quest-walkthrough
+  - enemies-bestiary-guide
+  - exploration-navigation-guide
+  - farming-resource-guide
+  - beginner-guide
 sources:
   - tier: "Official"
     text: "Confirmed environments — the war-torn city of Vahrin, overgrown city streets, magical caverns, murky bogs, and dungeon-style areas; the world of Leyda and the 'Forsaken Realms' framing — Steam store page, official FAQ, and press releases"

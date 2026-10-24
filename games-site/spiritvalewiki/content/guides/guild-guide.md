@@ -5,7 +5,12 @@ category: "Guides"
 version: "EA"
 updated: "2026-07-23"
 keywords: ["SpiritVale guild guide", "SpiritVale guild system", "SpiritVale guild wars", "SpiritVale Warfront", "SpiritVale guild hall", "SpiritVale guild quests"]
-related: ["beginner-guide", "leveling-guide", "class-tier-list", "farming-resource-guide", "pvp-arena"]
+related:
+  - beginner-guide
+  - leveling-guide
+  - class-tier-list
+  - farming-resource-guide
+  - pvp-arena
 ---
 
 # SpiritVale Guild Guide — Join, Build, and Dominate

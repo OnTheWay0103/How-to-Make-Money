@@ -5,7 +5,11 @@ category: "Walkthrough"
 version: "1.0.6"
 updated: "2026-08-09"
 keywords: ["beast of reincarnation chapter 1 walkthrough", "chapter 1 seedling guide", "ogouchi buffer zone", "beast of reincarnation walkthrough", "where to find cirrus sword"]
-related: ["beginner-guide", "rangifer-boss-guide", "nushi-boss-reference", "chapter-2-walkthrough"]
+related:
+  - beginner-guide
+  - rangifer-boss-guide
+  - nushi-boss-reference
+  - chapter-2-walkthrough
 ---
 
 # Chapter 1 Walkthrough — Seedling (Ogouchi Buffer Zone)

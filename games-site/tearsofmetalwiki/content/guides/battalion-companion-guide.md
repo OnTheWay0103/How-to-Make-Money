@@ -5,7 +5,13 @@ category: "Guides"
 version: "Early Access"
 updated: "2026-09-16"
 keywords: ["Tears of Metal battalion", "Tears of Metal companion guide", "Tears of Metal soldiers", "Tears of Metal permadeath", "Tears of Metal recruitment", "Tears of Metal companions list", "Tears of Metal ally command"]
-related: ["village-upgrade-guide", "barracks-statues-guide", "beginner-guide", "progression-walkthrough", "heroes-tier-list", "co-op-guide"]
+related:
+  - village-upgrade-guide
+  - barracks-statues-guide
+  - beginner-guide
+  - progression-walkthrough
+  - heroes-tier-list
+  - co-op-guide
 sources:
   - tier: "Official"
     text: "Your army is a Scottish battalion that gains permanent skills between campaigns — Paper Cult's Steam store page for Tears of Metal (app 1913120, checked September 16, 2026): \"Fight solo or up to 4-player co-op to reclaim your island alongside your Scottish battalion.\" and \"IMPROVE YOUR SOLDIERS — Your soldiers gain permanent skills between campaigns. Recruit, upgrade and fight alongside them as they become essential assets in your upcoming battles.\""

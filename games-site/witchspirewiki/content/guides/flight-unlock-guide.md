@@ -5,7 +5,13 @@ category: "Guides"
 version: "0.1.4"
 updated: "2026-08-10"
 keywords: ["Witchspire flight unlock", "Witchspire broom", "Witchspire how to fly", "Flight Pillar locations", "Witchspire broom recipe", "Witchspire fast travel", "Witchspire teleport", "Witchspire mounts", "Witchspire travel guide"]
-related: ["hearth-upgrade-guide", "crafting-guide", "vyrs-region-guide", "mira-isles-guide", "weather-guide", "farming-guide"]
+related:
+  - hearth-upgrade-guide
+  - crafting-guide
+  - vyrs-region-guide
+  - mira-isles-guide
+  - weather-guide
+  - farming-guide
 ---
 
 # Witchspire Flight & Fast Travel Guide — Brooms, Mounts & Flight Pillars

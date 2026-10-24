@@ -5,7 +5,12 @@ category: 'Buying'
 version: '1.0'
 updated: '2026-08-25'
 keywords: ['sovereign tower price', 'sovereign tower steam', 'sovereign tower system requirements', 'is sovereign tower on switch', 'is sovereign tower on xbox', 'sovereign tower demo']
-related: ['faq', 'game-length', 'beginner-guide', 'knight-recruitment-guide', 'rewind-guide']
+related:
+  - faq
+  - game-length
+  - beginner-guide
+  - knight-recruitment-guide
+  - rewind-guide
 sources:
   - tier: "Official"
     text: "Price, platforms, demo dates, and system requirements per the Steam store page and official press release"

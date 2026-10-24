@@ -5,7 +5,12 @@ category: 'Advanced'
 version: '1.0'
 updated: '2026-08-11'
 keywords: ['grain rot hard mode', 'grain rot difficulty', 'grain rot endgame', 'grain rot challenge', 'grain rot corruption']
-related: ['endgame-survival', 'game-mechanics-systems-guide', 'demo-guide', 'release-date-faq', 'extraction-guide']
+related:
+  - endgame-survival
+  - game-mechanics-systems-guide
+  - demo-guide
+  - release-date-faq
+  - extraction-guide
 ---
 
 # Hard Mode Guide — Is There a Hard Mode in Grain Rot?

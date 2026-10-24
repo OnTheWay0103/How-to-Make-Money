@@ -5,7 +5,12 @@ category: 'Systems'
 version: 'Early Access'
 updated: '2026-08-11'
 keywords: ['echoes of mystralia farming guide', 'echoes of mystralia memory farming', 'echoes of mystralia where to farm', 'echoes of mystralia crafting', 'echoes of mystralia materials', 'echoes of mystralia grinding guide']
-related: ['memories-guide', 'relics-guide', 'ash-forest-guide', 'spell-crafting-guide', 'ea-launch-guide']
+related:
+  - memories-guide
+  - relics-guide
+  - ash-forest-guide
+  - spell-crafting-guide
+  - ea-launch-guide
 ---
 
 # Farming Guide — Memories, Relics & Efficient Grinding in Early Access

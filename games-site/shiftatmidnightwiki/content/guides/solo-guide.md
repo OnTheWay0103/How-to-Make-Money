@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: '2026-08-01'
 keywords: ["shift at midnight solo guide", "play alone shift at midnight", "solo tips shift at midnight", "single player shift at midnight", "solo strategy shift at midnight"]
-related: ["coop-strategy-guide", "beginner-guide", "entity-survival-guide", "money-guide"]
+related:
+  - coop-strategy-guide
+  - beginner-guide
+  - entity-survival-guide
+  - money-guide
 ---
 
 ## Shift At Midnight Solo Guide: Tips & Strategy for Playing Alone

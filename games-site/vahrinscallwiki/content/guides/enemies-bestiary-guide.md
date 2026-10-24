@@ -5,7 +5,11 @@ category: 'Guides'
 version: '1.0'
 updated: '2026-08-01'
 keywords: ['vahrins call enemies', 'vahrins call khraiax', 'vahrins call bestiary', 'vahrins call monsters', 'vahrins call bounties']
-related: ['combat-guide', 'boss-guide', 'zones-areas-guide', 'quest-walkthrough']
+related:
+  - combat-guide
+  - boss-guide
+  - zones-areas-guide
+  - quest-walkthrough
 ---
 
 # Enemies & Bestiary Guide

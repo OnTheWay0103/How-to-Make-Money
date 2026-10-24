@@ -5,7 +5,13 @@ category: "Guides"
 version: "1.0"
 updated: "2026-09-05"
 keywords: ["sephiria controller casting", "sephiria can't cast and dodge", "sephiria gamepad cast spell", "sephiria quick cast setup", "sephiria controller keybind fix", "sephiria rebind not working", "sephiria magic mode controller", "sephiria RT quick cast 1.0.26", "sephiria spell cast controller"]
-related: ["controls-settings-guide", "staff-build-guide", "crossbow-build-guide", "builds-guide", "weapons-guide", "full-release-guide"]
+related:
+  - controls-settings-guide
+  - staff-build-guide
+  - crossbow-build-guide
+  - builds-guide
+  - weapons-guide
+  - full-release-guide
 sources:
   - tier: "Official"
     text: "Patch 1.0.26 (Aug 13, 2026) added more quick-cast key slots in Options → Gamepad, made RT the default Quick Cast 1 key, added an on-screen gamepad skill UI, improved gamepad magic-cast usability, prevented analog-stick tilt being registered as a bindable key, fixed DualSense trigger-button bind icons, and gave DualShock controllers touchpad button images — 17173 mirror of the 1.0.26 patch notes (via the 17173 Sephiria tag page). The Steam 1.0.30 (Aug 20) announcement recaps these same August-patch-cycle additions, so it is a cumulative recap rather than the build that introduced them. Fixing magic-cast mode not canceling when the Steam overlay is open is listed in that Steam recap but not in the incremental 1.0.26 notes — [Unconfirmed] single-source. Patch 1.0.28 (Aug 14) also fixed gamepad users being unable to change Hard Mode difficulty"

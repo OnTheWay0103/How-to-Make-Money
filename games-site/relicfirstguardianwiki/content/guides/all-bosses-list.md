@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["relic first guardian all bosses", "relic first guardian bosses list", "relic first guardian how many bosses", "relic first guardian brutals", "relic first guardian optional bosses", "relic first guardian boss order"]
-related: ["boss-strategies", "walkthrough", "secret-areas", "difficulty-guide"]
+related:
+  - boss-strategies
+  - walkthrough
+  - secret-areas
+  - difficulty-guide
 sources:
   - tier: "Official"
     text: "'Confront Up to 80 Tragic Bosses' — the Brutal roster, most optional, each with a tragic backstory — Steam store page; 'Blood-Stained Shield' Branko is named in official preview material"

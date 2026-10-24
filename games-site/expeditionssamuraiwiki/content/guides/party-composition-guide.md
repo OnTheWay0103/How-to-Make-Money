@@ -5,7 +5,11 @@ category: "Builds"
 version: "1.0"
 updated: "2026-08-07"
 keywords: ["expeditions samurai party composition", "expeditions samurai best party", "expeditions samurai team setup", "expeditions samurai party roles", "expeditions samurai best lineup", "expeditions samurai active party", "expeditions samurai party building"]
-related: ["companions-guide", "best-builds-guide", "companion-recruitment-guide", "combat-guide"]
+related:
+  - companions-guide
+  - best-builds-guide
+  - companion-recruitment-guide
+  - combat-guide
 ---
 
 # Expeditions: Samurai — Best Party Composition Guide (Act One)

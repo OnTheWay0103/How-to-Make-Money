@@ -5,7 +5,11 @@ category: 'Fishing'
 version: '1.0'
 updated: '2026-08-22'
 keywords: ['doloc town fishing', 'doloc town fishing rods', 'doloc town fish locations', 'doloc town all fish', 'doloc town golden fish', 'doloc town golden fish location', 'doloc town art of fishing']
-related: ['how-to-make-money', 'beginner-guide', 'map-guide', 'energy-guide']
+related:
+  - how-to-make-money
+  - beginner-guide
+  - map-guide
+  - energy-guide
 ---
 
 # Fishing Guide — Rods, Fish & Locations in Doloc Town

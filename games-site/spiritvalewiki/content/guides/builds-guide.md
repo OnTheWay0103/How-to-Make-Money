@@ -5,7 +5,11 @@ category: "Guides"
 version: "EA"
 updated: "2026-07-12"
 keywords: ["SpiritVale builds", "SpiritVale Paladin build", "SpiritVale Berserker build", "SpiritVale Wizard build", "SpiritVale Gunslinger build"]
-related: ["classes-guide", "class-tier-list", "cards-guide", "boss-guide"]
+related:
+  - classes-guide
+  - class-tier-list
+  - cards-guide
+  - boss-guide
 sources:
   - tier: "Community"
     text: "Meta build reports (Paladin tank, Berserker DPS, Wizard AoE, Gunslinger boss killer) are community-informed"

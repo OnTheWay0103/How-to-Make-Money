@@ -5,7 +5,11 @@ category: 'Guides'
 version: '1.0'
 updated: '2026-08-01'
 keywords: ['vahrins call weapons guide', 'vahrins call best weapons', 'vahrins call bows', 'vahrins call melee weapons', 'vahrins call weapon skills']
-related: ['combat-guide', 'magic-guide', 'best-builds-guide', 'skill-book-hunting-guide']
+related:
+  - combat-guide
+  - magic-guide
+  - best-builds-guide
+  - skill-book-hunting-guide
 sources:
   - tier: "Official"
     text: "Confirmed fighting styles — melee weapons, bows, magic, traps, thrown potions — from the Steam store page, official FAQ, developer examples, and the March 2026 developer update"

@@ -5,7 +5,12 @@ category: 'Farming'
 version: '1.0'
 updated: '2026-08-22'
 keywords: ['doloc town crops', 'doloc town seeds', 'doloc town wheat seed', 'doloc town plant analyzer', 'doloc town best crops', 'doloc town gene system']
-related: ['beginner-guide', 'how-to-make-money', 'farm-layout-guide', 'weather-guide', 'tech-tree-guide']
+related:
+  - beginner-guide
+  - how-to-make-money
+  - farm-layout-guide
+  - weather-guide
+  - tech-tree-guide
 sources:
   - tier: "Official"
     text: "Seed and gene systems with weather hazards per official feature description"

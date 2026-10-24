@@ -6,7 +6,11 @@ version: "1.0"
 updated: "2026-10-24"
 date: "2026-08-07"
 keywords: ["low-budget repairs client management", "low-budget repairs tenants", "low-budget repairs complaints", "low-budget repairs reputation", "low-budget repairs repeat clients"]
-related: ["inspection-guide", "renovation-jobs-guide", "job-profit-guide", "beginner-guide"]
+related:
+  - inspection-guide
+  - renovation-jobs-guide
+  - job-profit-guide
+  - beginner-guide
 ---
 
 # Low-Budget Repairs Client Management — Handling Tenants, Requests & Complaints

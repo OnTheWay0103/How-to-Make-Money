@@ -5,7 +5,10 @@ category: "FAQ"
 version: "1.0.6"
 updated: "2026-08-08"
 keywords: ["beast of reincarnation price", "beast of reincarnation system requirements", "beast of reincarnation platforms", "beast of reincarnation deluxe edition", "beast of reincarnation game pass", "is beast of reincarnation on ps5"]
-related: ["faq", "beginner-guide", "endgame-post-game-guide"]
+related:
+  - faq
+  - beginner-guide
+  - endgame-post-game-guide
 sources:
   - tier: "Official"
     text: "Developer (Game Freak), publisher (Fictions), the August 3-4, 2026 release and the Chinese-region prices (248 CNY standard / 288 CNY Deluxe) are per official announcements and the Steam store page"

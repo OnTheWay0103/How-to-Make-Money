@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: '2026-08-01'
 keywords: ["shift at midnight all enemies", "shift at midnight monster types", "enemy guide shift at midnight", "shift at midnight doppelganger list", "shift at midnight dentist", "shift at midnight demented"]
-related: ["entity-survival-guide", "doppelganger-guide", "weapons-guide", "dentist-guide"]
+related:
+  - entity-survival-guide
+  - doppelganger-guide
+  - weapons-guide
+  - dentist-guide
 ---
 
 ## Shift At Midnight Enemy Bestiary

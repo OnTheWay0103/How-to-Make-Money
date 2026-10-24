@@ -5,7 +5,10 @@ category: "Info"
 version: "1.0"
 updated: "2026-08-08"
 keywords: ["waterpark simulator controls", "waterpark simulator keys", "waterpark simulator keyboard", "waterpark simulator keybindings", "waterpark simulator how to push visitors", "waterpark simulator build menu"]
-related: ["beginner-guide", "faq", "price-platforms-system-requirements"]
+related:
+  - beginner-guide
+  - faq
+  - price-platforms-system-requirements
 ---
 
 # Waterpark Simulator Controls Guide (PC)

@@ -5,7 +5,11 @@ category: "Guides"
 version: "EA"
 updated: "2026-08-28"
 keywords: ["SpiritVale crafting", "SpiritVale crafting stations", "SpiritVale material farming", "SpiritVale gear refinement", "SpiritVale equipment crafting"]
-related: ["beginner-guide", "leveling-guide", "boss-guide", "cards-guide"]
+related:
+  - beginner-guide
+  - leveling-guide
+  - boss-guide
+  - cards-guide
 ---
 
 # SpiritVale Crafting Guide — Gear Crafting, Refining & Materials

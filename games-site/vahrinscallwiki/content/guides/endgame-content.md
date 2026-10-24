@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-01"
 keywords: ["Vahrin's Call endgame", "Vahrin's Call post-story", "Vahrin's Call content after story", "Vahrin's Call free DLC", "Vahrin's Call how long"]
-related: ["boss-guide", "quest-walkthrough", "farming-resource-guide", "gear-enhancement"]
+related:
+  - boss-guide
+  - quest-walkthrough
+  - farming-resource-guide
+  - gear-enhancement
 ---
 
 # Endgame Content Guide — What's Confirmed After the Story

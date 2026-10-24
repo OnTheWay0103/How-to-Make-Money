@@ -5,7 +5,11 @@ category: "Guides"
 version: "Current"
 updated: "2026-08-11"
 keywords: ["Skills & Raids release date", "Skills & Raids launch", "Skills & Raids demo", "Skills & Raids how long to beat", "Skills & Raids game length", "Skills & Raids developer"]
-related: ["system-requirements", "beginner-guide", "skills-guide", "extraction-guide"]
+related:
+  - system-requirements
+  - beginner-guide
+  - skills-guide
+  - extraction-guide
 ---
 
 # Skills & Raids Release Info Guide — Launch Status & Game Length

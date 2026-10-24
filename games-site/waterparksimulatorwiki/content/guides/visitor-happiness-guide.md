@@ -5,7 +5,11 @@ category: "Reference"
 version: "1.0"
 updated: "2026-08-08"
 keywords: ["waterpark simulator visitor happiness", "waterpark simulator guests", "waterpark simulator troublemakers", "waterpark simulator cleanliness", "waterpark simulator how to increase happiness", "waterpark simulator visitor management"]
-related: ["staff-management-guide", "beginner-guide", "park-design-layout-guide", "endgame-guide"]
+related:
+  - staff-management-guide
+  - beginner-guide
+  - park-design-layout-guide
+  - endgame-guide
 sources:
   - tier: "Official"
     text: "Visitor needs and the star rating system per official description"

@@ -5,7 +5,12 @@ category: 'Game Info'
 version: '1.0'
 updated: '2026-08-11'
 keywords: ['grain rot demo', 'grain rot demo guide', 'grain rot demo content', 'grain rot demo progression', 'grain rot free demo', 'grain rot steam next fest']
-related: ['beginner-guide', 'release-date-faq', 'all-biomes-guide', 'all-enemies-guide', 'player-count-guide']
+related:
+  - beginner-guide
+  - release-date-faq
+  - all-biomes-guide
+  - all-enemies-guide
+  - player-count-guide
 sources:
   - tier: "Official"
     text: "Free demo released June 12, 2026 with 3 underground biomes, 9 enemy types, 20+ unlockable constructs, upgradeable Outpost rooms, dungeon modifiers, and full co-op — official announcement"

@@ -5,7 +5,11 @@ category: "Progression"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["taival skill tree", "taival progression", "taival skill points", "taival henki progression", "taival dual progression", "taival respec"]
-related: ["biomes-exploration-guide", "endgame-dungeons", "boss-guide", "housing-base-building"]
+related:
+  - biomes-exploration-guide
+  - endgame-dungeons
+  - boss-guide
+  - housing-base-building
 ---
 
 # Taival — Skill Trees & Progression Guide

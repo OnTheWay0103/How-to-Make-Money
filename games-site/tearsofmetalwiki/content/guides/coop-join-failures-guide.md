@@ -5,7 +5,12 @@ category: "Guides"
 version: "Early Access"
 updated: "2026-09-12"
 keywords: ["tears of metal can't join multiplayer", "tears of metal can't join friends", "tears of metal lobby not working", "tears of metal multiplayer not working", "tears of metal version mismatch", "tears of metal crossplay branch", "tears of metal stuck loading lobby", "tears of metal multiplayer error"]
-related: ["multiplayer-connection-fix-guide", "patch-notes", "co-op-guide", "save-system-guide", "crash-launch-fix-guide"]
+related:
+  - multiplayer-connection-fix-guide
+  - patch-notes
+  - co-op-guide
+  - save-system-guide
+  - crash-launch-fix-guide
 sources:
   - tier: "Official"
     text: "\"Crossplay compatibility is temporarily disabled on this version. Use the 'Crossplay' Beta branch to stay on the old version and to enable crossplay\"; \"Improved Epic Online Services (EOS) connection handling, including fixes for stale connections\"; \"Added detection and clearer player-facing error messages for several common multiplayer issues\" — Paper Cult, Steam Community announcement \"New Patch - Big Bug Fixing Pass\", September 8, 2026 (store.steampowered.com/news/app/1913120)"

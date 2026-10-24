@@ -5,7 +5,12 @@ category: "Guides"
 version: "1.0"
 updated: "2026-09-12"
 keywords: ["the mound voice chat not working", "the mound mic not working", "the mound voice chat fix", "the mound push to talk", "the mound can't hear teammates", "the mound crossplay voice chat", "the mound patch 1.05 voice chat"]
-related: ["coop-strategy-guide", "controls-settings-guide", "multiplayer-connection-fix-guide", "updates-patch-notes", "sanity-guide"]
+related:
+  - coop-strategy-guide
+  - controls-settings-guide
+  - multiplayer-connection-fix-guide
+  - updates-patch-notes
+  - sanity-guide
 ---
 
 # The Mound Voice Chat Not Working — How to Fix It

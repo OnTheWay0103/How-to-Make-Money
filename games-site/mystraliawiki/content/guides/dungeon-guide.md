@@ -5,7 +5,11 @@ category: 'Exploration'
 version: 'Early Access'
 updated: '2026-08-11'
 keywords: ['echoes of mystralia dungeons', 'echoes of mystralia regions', 'echoes of mystralia run structure', 'echoes of mystralia exploration', 'mystralia dungeon guide']
-related: ['exploration-guide', 'ash-forest-guide', 'ea-roadmap-guide', 'boss-guide']
+related:
+  - exploration-guide
+  - ash-forest-guide
+  - ea-roadmap-guide
+  - boss-guide
 ---
 
 # Regions & Runs Guide — Dungeons, Layouts & What's Confirmed

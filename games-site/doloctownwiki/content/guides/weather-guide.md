@@ -5,7 +5,11 @@ category: 'Systems'
 version: '1.0'
 updated: '2026-08-22'
 keywords: ['doloc town weather', 'doloc town acid rain', 'doloc town lightning rod', 'doloc town weather regulator', 'doloc town storms', 'doloc town heat']
-related: ['beginner-guide', 'crops-guide', 'farm-layout-guide', 'energy-guide']
+related:
+  - beginner-guide
+  - crops-guide
+  - farm-layout-guide
+  - energy-guide
 sources:
   - tier: "Official"
     text: "Extreme weather hazards including acid rain are central to the official game description"

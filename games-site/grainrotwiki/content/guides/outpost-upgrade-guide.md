@@ -5,7 +5,12 @@ category: 'Building'
 version: '1.0'
 updated: '2026-08-11'
 keywords: ['grain rot outpost', 'grain rot base building', 'grain rot upgrades', 'grain rot progression', 'grain rot outpost guide', 'grain rot building', 'grain rot outpost upgrades', 'grain rot base guide']
-related: ['crafting-resources-guide', 'beginner-guide', 'game-mechanics-systems-guide', 'co-op-guide', 'extraction-guide']
+related:
+  - crafting-resources-guide
+  - beginner-guide
+  - game-mechanics-systems-guide
+  - co-op-guide
+  - extraction-guide
 ---
 
 # Outpost Guide — Base Building, Progression & What to Upgrade First

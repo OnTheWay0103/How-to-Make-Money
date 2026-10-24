@@ -5,7 +5,11 @@ category: "Guides"
 version: "EA"
 updated: "2026-08-04"
 keywords: ["SpiritVale dungeons", "SpiritVale dungeon guide", "SpiritVale dungeon list", "SpiritVale best dungeon to farm", "SpiritVale heroic dungeon"]
-related: ["boss-guide", "raid-boss-guide", "gear-progression", "endgame-guide"]
+related:
+  - boss-guide
+  - raid-boss-guide
+  - gear-progression
+  - endgame-guide
 ---
 
 # SpiritVale Dungeon Guide — All Dungeons, Entrances, Bosses & Loot

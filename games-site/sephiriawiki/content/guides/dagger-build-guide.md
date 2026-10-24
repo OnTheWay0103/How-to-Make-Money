@@ -5,7 +5,14 @@ category: "Weapons"
 version: "1.0"
 updated: "2026-09-01"
 keywords: ["sephiria dagger build", "sephiria best dagger build", "sephiria lightning build", "sephiria dagger guide 1.0", "sephiria electric dagger", "sephiria electrocution build", "sephiria best build 2026"]
-related: ["weapons-guide", "builds-guide", "talents-guide", "mystic-pot-guide", "hard-mode-guide", "chapter-6-final-boss-guide", "coop-guide"]
+related:
+  - weapons-guide
+  - builds-guide
+  - talents-guide
+  - mystic-pot-guide
+  - hard-mode-guide
+  - chapter-6-final-boss-guide
+  - coop-guide
 sources:
   - tier: "Official"
     text: "Patch 1.0.26 (Aug 13, 2026): the Dagger's dash attack can now chain into Special Attack: Parry and Special Attack: Fury — 17173 mirror of the Steam patch notes"

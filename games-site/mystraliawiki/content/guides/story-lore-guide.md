@@ -5,7 +5,12 @@ category: 'Lore'
 version: 'Early Access'
 updated: '2026-08-11'
 keywords: ['echoes of mystralia story', 'echoes of mystralia lore', 'echoes of mystralia story explained', 'echoes of mystralia mazarim', 'echoes of mystralia watcher', 'echoes of mystralia cycle of memories', 'echoes of mystralia rift']
-related: ['companion-guide', 'character-playstyle-guide', 'echoes-of-mystralia-sequel-guide', 'ea-launch-guide', 'spell-crafting-guide']
+related:
+  - companion-guide
+  - character-playstyle-guide
+  - echoes-of-mystralia-sequel-guide
+  - ea-launch-guide
+  - spell-crafting-guide
 ---
 
 # Story & Lore Guide — Mazarim, the Cycle of Memories & the Rift

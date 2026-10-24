@@ -5,7 +5,13 @@ category: "Beginner"
 version: "1.0"
 updated: "2026-08-21"
 keywords: ["sephiria farming", "sephiria sapphire farming", "sephiria gold farming", "sephiria inscription shards", "sephiria how to farm", "sephiria meta progression", "sephiria destiny inscriptions", "sephiria resource guide"]
-related: ["beginner-guide", "inscriptions-guide", "talents-guide", "hard-mode-guide", "artifacts-guide", "secret-rooms-guide"]
+related:
+  - beginner-guide
+  - inscriptions-guide
+  - talents-guide
+  - hard-mode-guide
+  - artifacts-guide
+  - secret-rooms-guide
 sources:
   - tier: "Official"
     text: "Sapphires are earned from any run, win or lose; chapter boss kills and full clears pay the most — developer-documented"

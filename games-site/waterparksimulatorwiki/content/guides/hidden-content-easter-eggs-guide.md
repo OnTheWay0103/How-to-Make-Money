@@ -5,7 +5,11 @@ category: "Reference"
 version: "1.0"
 updated: "2026-08-24"
 keywords: ["waterpark simulator easter eggs", "waterpark simulator hidden items", "waterpark simulator golden beach ball", "waterpark simulator secrets", "waterpark simulator rare NPCs", "waterpark simulator hidden content"]
-related: ["beginner-guide", "endgame-guide", "co-op-multiplayer-guide", "park-design-layout-guide"]
+related:
+  - beginner-guide
+  - endgame-guide
+  - co-op-multiplayer-guide
+  - park-design-layout-guide
 ---
 
 # How to Find Hidden Items & Easter Eggs in Waterpark Simulator

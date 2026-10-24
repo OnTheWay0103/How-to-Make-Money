@@ -5,7 +5,9 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["relic first guardian freezing", "relic first guardian map freeze", "relic first guardian inventory freeze", "relic first guardian save progress lost", "relic first guardian crashes", "relic first guardian fps fix", "relic first guardian stuck", "relic first guardian bug"]
-related: ["controls-settings-guide", "release-date-platforms"]
+related:
+  - controls-settings-guide
+  - release-date-platforms
 ---
 
 # Troubleshooting Guide — Crashes, Freezes, Save Issues & Performance Fixes

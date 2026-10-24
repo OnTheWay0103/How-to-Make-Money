@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["relic first guardian weapons", "weapons guide relic first guardian", "sword and shield relic", "relic first guardian weapon types", "relic first guardian staff", "relic first guardian best weapon", "relic first guardian skill trees"]
-related: ["beginner-guide", "builds-guide", "tier-list", "combat-guide"]
+related:
+  - beginner-guide
+  - builds-guide
+  - tier-list
+  - combat-guide
 sources:
   - tier: "Official"
     text: "Five weapon masteries — Sword & Shield, Longsword, Daggers, Two-Handed Weapons, Battle Staff — with 12 skill trees (two per family); attacks cost zero stamina; skills run on cooldowns; every weapon is unique — Steam store page and official materials"

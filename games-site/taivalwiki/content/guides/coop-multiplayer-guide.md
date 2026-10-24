@@ -5,7 +5,11 @@ category: "Co-op"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["taival co-op", "taival multiplayer", "taival split screen", "taival online co-op", "taival party guide", "taival 4 player"]
-related: ["henki-companion-guide", "best-henki-forms", "combat-system-guide", "crafting-professions-guide"]
+related:
+  - henki-companion-guide
+  - best-henki-forms
+  - combat-system-guide
+  - crafting-professions-guide
 sources:
   - tier: "Official"
     text: "Up to 4 players with online co-op, LAN, shared/split-screen, mixed local+online sessions, and Remote Play Together; per-player characters and companions; group quest dialogue with voting — Steam store page and developer materials"

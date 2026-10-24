@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-10"
 keywords: ["Echoes of Aincrad Golden Gate", "Aincrad Golden Gate bosses", "Aincrad EX-Mod farming", "Aincrad Rank S legendary weapons", "Aincrad Gold Crystal boss", "Aincrad endgame bosses"]
-related: ["ex-mod-guide", "legendary-weapons", "boss-rush-mode", "builds-guide"]
+related:
+  - ex-mod-guide
+  - legendary-weapons
+  - boss-rush-mode
+  - builds-guide
 ---
 
 ## Golden Gate Bosses Guide — Echoes of Aincrad

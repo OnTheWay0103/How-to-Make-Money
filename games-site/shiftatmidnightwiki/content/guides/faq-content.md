@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: '2026-08-01'
 keywords: ["shift at midnight FAQ", "shift at midnight price", "shift at midnight crossplay", "shift at midnight game pass", "shift at midnight steam", "shift at midnight system requirements"]
-related: ["beginner-guide", "endings-guide", "coop-strategy-guide", "endless-mode-guide"]
+related:
+  - beginner-guide
+  - endings-guide
+  - coop-strategy-guide
+  - endless-mode-guide
 ---
 
 ## Shift At Midnight FAQ: Common Questions Answered

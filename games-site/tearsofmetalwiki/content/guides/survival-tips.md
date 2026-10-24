@@ -5,7 +5,12 @@ category: "Guides"
 version: "Early Access"
 updated: "2026-08-11"
 keywords: ["tears of metal survival tips", "tears of metal stamina", "tears of metal parry window", "tears of metal how to survive", "tears of metal retreat", "tears of metal elemental weakness"]
-related: ["combat-tips", "corruption-guide", "threat-level-difficulty-guide", "elite-enemy-guide", "battalion-companion-guide"]
+related:
+  - combat-tips
+  - corruption-guide
+  - threat-level-difficulty-guide
+  - elite-enemy-guide
+  - battalion-companion-guide
 ---
 
 # Tears of Metal Survival Tips — The Discipline That Keeps You Alive

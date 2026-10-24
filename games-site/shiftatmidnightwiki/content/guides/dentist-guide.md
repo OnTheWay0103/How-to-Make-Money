@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: '2026-08-01'
 keywords: ["shift at midnight dentist", "how to escape the dentist shift at midnight", "shift at midnight jawless killer", "dentist encounter shift at midnight", "shift at midnight survival guide", "who is the dentist shift at midnight"]
-related: ["doppelganger-guide", "story-walkthrough", "entity-survival-guide", "survival-strategies"]
+related:
+  - doppelganger-guide
+  - story-walkthrough
+  - entity-survival-guide
+  - survival-strategies
 ---
 
 # Shift At Midnight Dentist Guide — Identify and Escape

@@ -5,7 +5,15 @@ category: "Cosmetics"
 version: "1.0"
 updated: "2026-09-12"
 keywords: ["sephiria costume", "sephiria costumes stats", "sephiria best costume", "sephiria how to unlock costumes", "sephiria hidden costumes", "sephiria wingless bat", "sephiria ghost costume", "sephiria white wolf", "sephiria frog costume", "sephiria character unlock"]
-related: ["costumes-guide", "builds-guide", "beginner-guide", "talents-guide", "artifacts-guide", "full-release-guide", "hard-mode-guide", "endgame-guide"]
+related:
+  - costumes-guide
+  - builds-guide
+  - beginner-guide
+  - talents-guide
+  - artifacts-guide
+  - full-release-guide
+  - hard-mode-guide
+  - endgame-guide
 sources:
   - tier: "Official"
     text: "The Steam announcements for Sephiria (app 2436940) treat Costumes as a first-class system with gameplay effects. The 1.0.33 Update, posted September 11, 2026, carries a dedicated [Costumes] section whose only entry is 'Scholar Lizard — Fixed an issue where the costume effect could be removed by a certain weapon.' The 1.0.31 Update, posted September 10, 2026, includes 'Fixed an issue where a certain costume could not be unlocked in Chapter 1.' Both are improvements the developers mark with a carrot icon for community feedback. The wording 'the costume effect' is the developers' own: costumes in Sephiria carry functional effects, not appearance only. The official Steam store description lists the systems as artifacts/tablets, 6 weapons with over 50 upgrades, 60+ enemies, 10+ bosses, 6 chapters and 4-player online co-op; costumes are documented in the update notes rather than the store blurb"

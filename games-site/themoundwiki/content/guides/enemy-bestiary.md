@@ -5,7 +5,12 @@ category: "Guides"
 version: "1.0"
 updated: "2026-09-17"
 keywords: ["themound bestiary", "themound enemy list", "themound creature guide", "themound ymbhi", "themound tue tue", "themound mi-go", "themound all enemies", "themound enemy behaviour"]
-related: ["combat-survival-guide", "weapons-guide", "sanity-guide", "coop-strategy-guide", "stealth-guide"]
+related:
+  - combat-survival-guide
+  - weapons-guide
+  - sanity-guide
+  - coop-strategy-guide
+  - stealth-guide
 ---
 
 # The Mound Enemy Bestiary — What Is Actually Hunting You

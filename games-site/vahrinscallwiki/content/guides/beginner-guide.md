@@ -5,7 +5,11 @@ category: 'Guides'
 version: '1.0'
 updated: '2026-08-01'
 keywords: ['vahrins call beginner guide', 'vahrins call getting started', 'vahrins call tips', 'vahrins call starter guide', 'vahrins call first hours']
-related: ['combat-guide', 'attributes-stats-guide', 'quest-walkthrough', 'multiplayer-coop-guide']
+related:
+  - combat-guide
+  - attributes-stats-guide
+  - quest-walkthrough
+  - multiplayer-coop-guide
 sources:
   - tier: "Official"
     text: "Launch July 27, 2026 as a full premium release (not Early Access) at $34.99 / £27.99 / €29.99; developed and self-published by Titan Roc; single-player — Steam store page and official FAQ"

@@ -5,7 +5,12 @@ category: 'Mechanics'
 version: '1.0'
 updated: '2026-08-25'
 keywords: ['sovereign tower attributes', 'sovereign tower knight stats', 'sovereign tower strength agility charisma magic wit', 'sovereign tower luck', 'sovereign tower best stats', 'sovereign tower quest requirements']
-related: ['core-mechanics', 'tier-list', 'knight-recruitment-guide', 'dragon-knight-guide', 'beginner-guide']
+related:
+  - core-mechanics
+  - tier-list
+  - knight-recruitment-guide
+  - dragon-knight-guide
+  - beginner-guide
 sources:
   - tier: "Official"
     text: "Five attributes (Strength, Agility, Charisma, Magic, Wit) per the official press release"

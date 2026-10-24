@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["relic first guardian tips", "relic first guardian tips and tricks", "relic first guardian advice", "relic first guardian mistakes to avoid", "relic first guardian pro tips", "relic first guardian secrets"]
-related: ["beginner-guide", "combat-guide", "runes-guide", "upgrade-system"]
+related:
+  - beginner-guide
+  - combat-guide
+  - runes-guide
+  - upgrade-system
 ---
 
 # Tips & Tricks — 20 Essential Tips for New Players

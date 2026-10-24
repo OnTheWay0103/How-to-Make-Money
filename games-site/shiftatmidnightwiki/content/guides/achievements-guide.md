@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: '2026-08-01'
 keywords: ["shift at midnight achievements", "all achievements shift at midnight", "how to unlock achievements", "shift at midnight trophy guide", "100% completion shift at midnight"]
-related: ["endings-guide", "enemy-bestiary", "weapons-guide", "story-walkthrough"]
+related:
+  - endings-guide
+  - enemy-bestiary
+  - weapons-guide
+  - story-walkthrough
 sources:
   - tier: "Official"
     text: "Steam lists 10 achievements for Shift At Midnight — Steam store page"

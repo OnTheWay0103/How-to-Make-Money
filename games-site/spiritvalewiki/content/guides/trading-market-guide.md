@@ -5,7 +5,12 @@ category: "Guides"
 version: "EA"
 updated: "2026-08-28"
 keywords: ["SpiritVale trading market", "SpiritVale Auction House", "SpiritVale market flipping", "SpiritVale vending stalls", "SpiritVale gold farming", "SpiritVale market tips"]
-related: ["farming-resource-guide", "crafting-guide", "guild-guide", "daily-quests-guide", "leveling-guide"]
+related:
+  - farming-resource-guide
+  - crafting-guide
+  - guild-guide
+  - daily-quests-guide
+  - leveling-guide
 ---
 
 # SpiritVale Trading Market Guide — Buy, Sell, and Profit

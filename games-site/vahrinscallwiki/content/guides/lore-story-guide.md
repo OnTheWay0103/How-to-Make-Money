@@ -5,7 +5,11 @@ category: 'Guides'
 version: '1.0'
 updated: '2026-08-05'
 keywords: ['vahrins call lore', 'vahrins call story explained', 'vahrins call khraiax', 'vahrins call factions', 'vahrins call world of leyda', 'vahrins call story summary']
-related: ['zones-areas-guide', 'boss-guide', 'enemies-bestiary-guide', 'quest-walkthrough']
+related:
+  - zones-areas-guide
+  - boss-guide
+  - enemies-bestiary-guide
+  - quest-walkthrough
 ---
 
 # Lore & Story Summary — Vahrin, the Khraiax, and the World of Leyda

@@ -5,7 +5,11 @@ category: "Beginner"
 version: "1.0"
 updated: "2026-08-01"
 keywords: ["expeditions samurai beginner guide", "expeditions samurai getting started", "expeditions samurai first hours", "expeditions samurai tips for new players"]
-related: ["classes-guide", "companions-guide", "combat-guide", "stealth-guide"]
+related:
+  - classes-guide
+  - companions-guide
+  - combat-guide
+  - stealth-guide
 sources:
   - tier: "Official"
     text: "Game facts (Aug 7, 2026 Early Access launch, Campfire Cabal / THQ Nordic, the three pillars, 2-player co-op) verified against the Steam store page and THQ Nordic announcements"

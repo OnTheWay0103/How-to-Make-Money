@@ -5,7 +5,11 @@ category: "Mechanics"
 version: "1.0"
 updated: "2026-08-07"
 keywords: ["expeditions samurai initiative", "expeditions samurai turn order", "expeditions samurai hex grid", "expeditions samurai cover", "expeditions samurai flanking", "expeditions samurai attacks of opportunity", "expeditions samurai morale", "expeditions samurai stances", "expeditions samurai combat mechanics"]
-related: ["combat-guide", "stealth-guide", "weapons-armor-guide", "difficulty-guide"]
+related:
+  - combat-guide
+  - stealth-guide
+  - weapons-armor-guide
+  - difficulty-guide
 ---
 
 # Expeditions: Samurai — Combat Mechanics Deep Dive

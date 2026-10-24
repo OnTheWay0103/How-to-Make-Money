@@ -5,7 +5,12 @@ category: "Reference"
 version: "1.0"
 updated: "2026-09-04"
 keywords: ["grain rot low fps", "grain rot lag fix", "grain rot stutter fix", "grain rot lagging in multiplayer", "grain rot performance guide", "grain rot fps drop", "grain rot optimization", "grain rot stuttering"]
-related: ["system-requirements", "multiplayer-matchmaking-guide", "co-op-guide", "full-release-guide", "controller-guide"]
+related:
+  - system-requirements
+  - multiplayer-matchmaking-guide
+  - co-op-guide
+  - full-release-guide
+  - controller-guide
 sources:
   - tier: "Official"
     text: "Grain Rot lists modest PC requirements (i5-4590/Ryzen 5 2600 minimum) and has no published optimization guide; Steam Support runs a technical-issue flow for the game — Steam store page and help.steampowered.com (app 4450620)"

@@ -5,7 +5,10 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-01"
 keywords: ["moonlight peaks money", "moonlight peaks how to make money", "moonlight peaks coins", "moonlight peaks best money making"]
-related: ["potions-guide", "farming-guide", "mining-guide"]
+related:
+  - potions-guide
+  - farming-guide
+  - mining-guide
 sources:
   - tier: "Official"
     text: "No official economy figures are published; the Steam store description confirms farming, fishing, potions, and mining as core income systems"

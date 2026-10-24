@@ -5,7 +5,13 @@ category: "Guides"
 version: "EA"
 updated: "2026-09-17"
 keywords: ["spiritvale dark fortress", "spiritvale level 150 map", "spiritvale echo boss", "spiritvale duskbreaker", "spiritvale dusk gear", "spiritvale gravion crystal", "spiritvale endgame farming"]
-related: ["echoing-spire-endgame-guide", "updates-patch-notes", "weapons-guide", "gear-progression", "endgame-guide", "cards-guide"]
+related:
+  - echoing-spire-endgame-guide
+  - updates-patch-notes
+  - weapons-guide
+  - gear-progression
+  - endgame-guide
+  - cards-guide
 sources:
   - tier: "Official"
     text: "Steam announcement '[0.31.0] Dark Fortress' (August 25, 2026), official SpiritVale Steam news feed (App 3767850): names Dark Fortress as the update's content, itemises the eight Dusk-line weapons (Duskbreaker axe, Duskmire staff, Duskharvest scythe, Duskveil, Dusktome book, Duskedge shuriken, Duskscourge launcher, Duskbringer gatling gun) with their per-refine effects, the Echo Set in Atk and Matk versions, 'Boss gear drop rates rebalanced', and the Dark Fortress cosmetic and shop fixes."

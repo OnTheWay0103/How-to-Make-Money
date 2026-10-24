@@ -5,7 +5,12 @@ category: 'Survival'
 version: '1.0'
 updated: '2026-08-11'
 keywords: ['grain rot weather', 'grain rot environmental hazards', 'grain rot fire', 'grain rot rot hazard', 'grain rot dungeon modifiers', 'grain rot conditions']
-related: ['game-mechanics-systems-guide', 'all-biomes-guide', 'demo-guide', 'survival-tips', 'extraction-guide']
+related:
+  - game-mechanics-systems-guide
+  - all-biomes-guide
+  - demo-guide
+  - survival-tips
+  - extraction-guide
 ---
 
 # Weather & Environmental Conditions Guide — Fire, Smoke and the Rot

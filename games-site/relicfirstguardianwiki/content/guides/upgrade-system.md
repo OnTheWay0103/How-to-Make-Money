@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["relic first guardian upgrade system", "relic first guardian blacksmith", "relic first guardian upgrades", "relic first guardian shards of awakening", "relic first guardian shards of esser", "relic first guardian weapon upgrade", "relic first guardian relic slots"]
-related: ["runes-guide", "weapons-guide", "beginner-guide", "builds-guide"]
+related:
+  - runes-guide
+  - weapons-guide
+  - beginner-guide
+  - builds-guide
 ---
 
 # Upgrade System — Blacksmith Forging, Shards & Relic Slots

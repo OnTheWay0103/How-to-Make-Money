@@ -5,7 +5,13 @@ category: "Weapons"
 version: "1.0"
 updated: "2026-09-17"
 keywords: ["The Mound weapons", "The Mound best weapons", "The Mound loadout", "The Mound Matchlock", "The Mound Crossbow", "The Mound Francesca Axe", "The Mound ranged weapons", "The Mound weapons tier list"]
-related: ["beginner-guide", "coop-strategy-guide", "extraction-guide", "enemy-bestiary", "solo-guide", "loadout-guide"]
+related:
+  - beginner-guide
+  - coop-strategy-guide
+  - extraction-guide
+  - enemy-bestiary
+  - solo-guide
+  - loadout-guide
 ---
 
 # The Mound Weapons Guide — Every Weapon & Best Loadouts

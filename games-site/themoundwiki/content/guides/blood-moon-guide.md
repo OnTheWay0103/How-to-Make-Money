@@ -5,7 +5,13 @@ category: "Guides"
 version: "1.0"
 updated: "2026-09-17"
 keywords: ["the mound blood moon", "the mound why does the moon turn red", "the mound enemies swarm suddenly", "the mound red moon event", "the mound how to avoid blood moon", "the mound noise meter", "the mound forest aggression"]
-related: ["combat-survival-guide", "extraction-guide", "coop-strategy-guide", "stealth-guide", "enemy-bestiary", "isolation-guide"]
+related:
+  - combat-survival-guide
+  - extraction-guide
+  - coop-strategy-guide
+  - stealth-guide
+  - enemy-bestiary
+  - isolation-guide
 ---
 
 # The Mound Blood Moon Guide — Why the Moon Turns Red, Enemies Swarm, and Going Quiet Won't Save You

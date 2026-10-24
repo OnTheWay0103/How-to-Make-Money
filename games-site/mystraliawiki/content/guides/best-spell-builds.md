@@ -5,7 +5,12 @@ category: 'Builds'
 version: 'Early Access'
 updated: '2026-08-11'
 keywords: ['echoes of mystralia best builds', 'echoes of mystralia spell combinations', 'mystralia best spell loadout', 'echoes of mystralia build guide', 'echoes of mystralia spell build']
-related: ['spell-crafting-guide', 'character-playstyle-guide', 'tier-list', 'memories-guide', 'relics-guide']
+related:
+  - spell-crafting-guide
+  - character-playstyle-guide
+  - tier-list
+  - memories-guide
+  - relics-guide
 ---
 
 # Best Spell Builds & Combinations — Early Access Build Planning

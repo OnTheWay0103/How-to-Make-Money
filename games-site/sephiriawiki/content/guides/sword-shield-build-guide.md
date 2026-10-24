@@ -5,7 +5,13 @@ category: "Weapons"
 version: "1.0"
 updated: "2026-08-21"
 keywords: ["sephiria sword and shield build", "sephiria sword shield guide", "sephiria best weapon for beginners", "sephiria sword build 1.0", "sephiria block build"]
-related: ["weapons-guide", "beginner-guide", "chapter-6-final-boss-guide", "hard-mode-guide", "mystic-pot-guide", "builds-guide"]
+related:
+  - weapons-guide
+  - beginner-guide
+  - chapter-6-final-boss-guide
+  - hard-mode-guide
+  - mystic-pot-guide
+  - builds-guide
 ---
 
 # Sword & Shield Build Guide — The Consistent All-Rounder

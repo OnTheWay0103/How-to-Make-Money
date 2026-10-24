@@ -5,7 +5,10 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["relic first guardian combat guide", "relic first guardian parry", "relic first guardian parry timing", "relic first guardian how to parry", "relic first guardian stamina", "relic first guardian combat mechanics", "relic first guardian dodge"]
-related: ["boss-strategies", "weapons-guide", "beginner-guide"]
+related:
+  - boss-strategies
+  - weapons-guide
+  - beginner-guide
 sources:
   - tier: "Official"
     text: "The combat economy — attacks cost zero stamina, stamina is defense-only (dodge/block/parry), skills run on cooldown timers with no mana — Steam store page and official materials"

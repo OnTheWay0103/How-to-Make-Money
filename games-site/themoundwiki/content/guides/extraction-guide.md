@@ -5,7 +5,12 @@ category: "Guides"
 version: "1.0"
 updated: "2026-09-16"
 keywords: ["themound extraction", "how to extract themound", "themound hidden timer", "themound extraction tips", "forest awakening", "themound ox wagon trail"]
-related: ["contracts-guide", "ox-cart-guide", "beginner-guide", "solo-guide", "maps-locations-guide"]
+related:
+  - contracts-guide
+  - ox-cart-guide
+  - beginner-guide
+  - solo-guide
+  - maps-locations-guide
 ---
 
 # The Mound Extraction Guide — How to Get Out Alive

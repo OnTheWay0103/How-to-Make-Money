@@ -5,7 +5,11 @@ category: 'Exploration'
 version: '1.0'
 updated: '2026-08-22'
 keywords: ['doloc town map', 'doloc town how to get to wetlands', 'doloc town old city ruins', 'doloc town rivervalley', 'doloc town regions', 'doloc town locations']
-related: ['beginner-guide', 'materials-guide', 'fishing-guide', 'combat-guide']
+related:
+  - beginner-guide
+  - materials-guide
+  - fishing-guide
+  - combat-guide
 sources:
   - tier: "Official"
     text: "1.0 added the Old City Ruins map and concluded the main story — official 1.0 announcements"

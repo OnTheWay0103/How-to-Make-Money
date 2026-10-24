@@ -5,7 +5,12 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-01"
 keywords: ["moonlight peaks advanced guide", "moonlight peaks time management", "moonlight peaks potion economy", "moonlight peaks late game tips", "moonlight peaks shapeshift strategy", "moonlight peaks nokturna tips"]
-related: ["potions-guide", "money-guide", "shapeshifting-guide", "quests-guide", "nokturna-guide"]
+related:
+  - potions-guide
+  - money-guide
+  - shapeshifting-guide
+  - quests-guide
+  - nokturna-guide
 ---
 
 # Moonlight Peaks — Advanced Guide: Time Management & Late-Game Tips

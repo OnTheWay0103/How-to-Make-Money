@@ -5,7 +5,12 @@ category: 'Systems'
 version: 'Early Access'
 updated: '2026-08-11'
 keywords: ['echoes of mystralia spell crafting', 'echoes of mystralia spell crafting system', 'mystralia spell system guide', 'echoes of mystralia how to craft spells', 'echoes of mystralia magic system', 'echoes of mystralia elements']
-related: ['memories-guide', 'best-spell-builds', 'beginner-guide', 'relics-guide', 'weapons-guide']
+related:
+  - memories-guide
+  - best-spell-builds
+  - beginner-guide
+  - relics-guide
+  - weapons-guide
 sources:
   - tier: "Official"
     text: "Harvest Memories from defeated enemies and forge and customize spells by reordering and combining them; the design space is described as millions of possible combinations — official Steam page and developer materials"

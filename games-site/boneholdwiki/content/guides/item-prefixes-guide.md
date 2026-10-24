@@ -5,7 +5,11 @@ category: 'Items'
 version: '1.0'
 updated: '2026-08-01'
 keywords: ['Bonehold item prefixes', 'Bonehold loot guide', 'Bonehold legendary items', 'Bonehold items explained', 'Bonehold loot system', 'Bonehold item rarity', 'Bonehold build defining items']
-related: ['weapons-guide', 'best-builds', 'tips-and-tricks', 'endgame-guide']
+related:
+  - weapons-guide
+  - best-builds
+  - tips-and-tricks
+  - endgame-guide
 sources:
   - tier: "Official"
     text: "Procedurally generated loot and item prefixes that 'can twist playstyles in unexpected ways' are from the official Steam store description"

@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["relic first guardian tier list", "relic first guardian weapon tier list", "best weapon relic first guardian", "relic first guardian weapon rankings", "relic first guardian best weapon"]
-related: ["weapons-guide", "builds-guide", "beginner-guide", "classes-guide"]
+related:
+  - weapons-guide
+  - builds-guide
+  - beginner-guide
+  - classes-guide
 ---
 
 # Weapon Tier List — Early Impressions (Data Still Unconfirmed)

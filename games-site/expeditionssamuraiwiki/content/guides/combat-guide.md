@@ -5,7 +5,10 @@ category: "Mechanics"
 version: "1.0"
 updated: "2026-08-01"
 keywords: ["expeditions samurai combat", "expeditions samurai combat guide", "expeditions samurai turn-based", "expeditions samurai tactics", "expeditions samurai battle"]
-related: ["stealth-guide", "best-builds-guide", "weapons-armor-guide"]
+related:
+  - stealth-guide
+  - best-builds-guide
+  - weapons-armor-guide
 sources:
   - tier: "Official"
     text: "Simultaneous turn-based combat, interruptions, and dynamic combat initiation are confirmed by official materials and the Steam page"

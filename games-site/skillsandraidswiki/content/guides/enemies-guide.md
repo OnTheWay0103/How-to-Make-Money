@@ -5,7 +5,11 @@ category: "Enemies"
 version: "Current"
 updated: "2026-08-11"
 keywords: ["Skills & Raids enemies", "Skills & Raids enemy guide", "Skills & Raids enemy skill drops", "Skills & Raids combat tips", "Skills & Raids enemy teams"]
-related: ["maps-guide", "extraction-guide", "builds-guide", "skills-guide"]
+related:
+  - maps-guide
+  - extraction-guide
+  - builds-guide
+  - skills-guide
 ---
 
 # Skills & Raids Enemies Guide — Enemy Behavior & Skill Drops

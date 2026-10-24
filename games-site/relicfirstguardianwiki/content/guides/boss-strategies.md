@@ -5,7 +5,10 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["relic first guardian boss strategies", "relic first guardian advanced boss tactics", "relic first guardian parry boss", "relic first guardian unblockable attacks", "relic first guardian dodge timing", "relic first guardian build swapping"]
-related: ["combat-guide", "all-bosses-list", "builds-guide"]
+related:
+  - combat-guide
+  - all-bosses-list
+  - builds-guide
 sources:
   - tier: "Official"
     text: "Parry-gate vs dodge-gate boss design; bosses drop powerful special items, upgrades, and Relic Energy essential for progression — official materials"

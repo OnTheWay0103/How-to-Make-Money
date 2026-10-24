@@ -5,7 +5,13 @@ category: "Guides"
 version: "Early Access"
 updated: "2026-09-06"
 keywords: ["Tears of Metal healing guide", "Tears of Metal how to heal", "Tears of Metal healing font", "Tears of Metal chicken", "Tears of Metal salves", "Tears of Metal coins", "Tears of Metal health guide"]
-related: ["survival-tips", "boss-guide", "village-upgrade-guide", "equipment-guide", "co-op-guide", "corruption-guide"]
+related:
+  - survival-tips
+  - boss-guide
+  - village-upgrade-guide
+  - equipment-guide
+  - co-op-guide
+  - corruption-guide
 sources:
   - tier: "Official"
     text: "The Village Hub is the permanent meta-progression system between runs, and its Apothecary crafts potions and consumables — official description (also covered in the Village Upgrade Guide)"

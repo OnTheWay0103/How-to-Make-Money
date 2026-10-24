@@ -5,7 +5,11 @@ category: "Reference"
 version: "1.0.6"
 updated: "2026-08-08"
 keywords: ["beast of reincarnation chapters", "beast of reincarnation walkthrough", "chapter list beast of reincarnation", "how many chapters", "beast of reincarnation progression"]
-related: ["nushi-boss-reference", "beginner-guide", "endgame-post-game-guide", "combat-system-guide"]
+related:
+  - nushi-boss-reference
+  - beginner-guide
+  - endgame-post-game-guide
+  - combat-system-guide
 ---
 
 # Chapter Progression Guide — All 13 Chapters & Key Unlocks

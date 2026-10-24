@@ -5,7 +5,11 @@ category: 'Weapons'
 version: '1.0'
 updated: '2026-08-01'
 keywords: ['Bonehold weapons', 'Bonehold charge attack', 'Bonehold weapon prefixes', 'Bonehold legendary weapons', 'Bonehold weapon guide']
-related: ['combat-guide', 'item-prefixes-guide', 'classes-guide', 'best-builds']
+related:
+  - combat-guide
+  - item-prefixes-guide
+  - classes-guide
+  - best-builds
 sources:
   - tier: "Official"
     text: "Charge-based combat and procedurally generated weapons, spells, and armor are confirmed on the Steam store page"

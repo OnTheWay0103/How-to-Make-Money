@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: '2026-08-05'
 keywords: ["shift at midnight crashes fix", "shift at midnight performance", "shift at midnight best settings", "shift at midnight stutter fix", "shift at midnight system requirements", "shift at midnight fps", "shift at midnight lag fix"]
-related: ["faq-content", "beginner-guide", "coop-strategy-guide", "endless-mode-guide"]
+related:
+  - faq-content
+  - beginner-guide
+  - coop-strategy-guide
+  - endless-mode-guide
 ---
 
 ## Shift At Midnight PC Issues Fix Guide

@@ -5,7 +5,11 @@ category: 'Enemies'
 version: '1.0'
 updated: '2026-08-08'
 keywords: ['Bonehold enemies', 'Bonehold enemy types', 'Bonehold skeleton guide', 'Bonehold ghosts', 'Bonehold enemies list', 'Bonehold elite enemies', 'Bonehold monster guide']
-related: ['combat-guide', 'traps-guide', 'boss-guide', 'beginner-guide']
+related:
+  - combat-guide
+  - traps-guide
+  - boss-guide
+  - beginner-guide
 ---
 
 # Bonehold Enemies Guide - All Enemy Types and How to Fight Them

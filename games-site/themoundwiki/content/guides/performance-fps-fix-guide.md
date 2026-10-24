@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-01"
 keywords: ["the mound low fps fix", "the mound best graphics settings", "the mound stutter fix", "the mound steam deck", "the mound fps drop fix", "the mound performance guide"]
-related: ["controls-settings-guide", "updates-patch-notes", "price-platforms", "faq-content"]
+related:
+  - controls-settings-guide
+  - updates-patch-notes
+  - price-platforms
+  - faq-content
 ---
 
 # The Mound Performance & FPS Fix Guide — Best Settings for Max FPS

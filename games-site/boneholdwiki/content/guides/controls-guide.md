@@ -5,7 +5,11 @@ category: 'Reference'
 version: '1.0'
 updated: '2026-08-08'
 keywords: ['Bonehold controls', 'Bonehold keybindings', 'Bonehold settings', 'Bonehold keyboard controls', 'Bonehold controller support', 'Bonehold gamepad', 'Bonehold accessibility', 'Bonehold Steam Deck']
-related: ['system-requirements-guide', 'beginner-guide', 'combat-guide', 'demo-guide']
+related:
+  - system-requirements-guide
+  - beginner-guide
+  - combat-guide
+  - demo-guide
 ---
 
 # Bonehold Controls & Settings Guide - Inputs, Keybindings, and Accessibility

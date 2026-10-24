@@ -5,7 +5,12 @@ category: 'Beginner'
 version: 'Early Access'
 updated: '2026-08-11'
 keywords: ['echoes of mystralia launch guide', 'echoes of mystralia first session', 'echoes of mystralia what to do first', 'echoes of mystralia early access guide', 'echoes of mystralia first steps']
-related: ['ea-roadmap-guide', 'beginner-guide', 'faq', 'boss-guide', 'memories-guide']
+related:
+  - ea-roadmap-guide
+  - beginner-guide
+  - faq
+  - boss-guide
+  - memories-guide
 sources:
   - tier: "Official"
     text: "Early Access launched August 11, 2026 with 3 regions, 7 magical elements, 16 starting spells, 100+ Memories, 40+ Relics, 50+ Lotus Altar upgrades, and 25 Steam achievements — official Steam page"

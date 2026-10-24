@@ -5,7 +5,10 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-01"
 keywords: ["moonlight peaks mining", "moonlight peaks copper", "moonlight peaks cave of echoes", "moonlight peaks furnace"]
-related: ["quests-guide", "farming-guide", "money-guide"]
+related:
+  - quests-guide
+  - farming-guide
+  - money-guide
 ---
 
 # Moonlight Peaks — Mining Guide: Cave of Echoes, Copper & Furnaces

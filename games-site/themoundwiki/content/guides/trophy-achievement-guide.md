@@ -5,7 +5,12 @@ category: "Guides"
 version: "1.0"
 updated: "2026-09-17"
 keywords: ["The Mound Omen of Cthulhu trophy guide", "The Mound Omen of Cthulhu achievements", "The Mound trophies", "The Mound achievement list", "The Mound 100% completion"]
-related: ["beginner-guide", "extraction-guide", "solo-guide", "progress-save-recovery-guide", "updates-patch-notes"]
+related:
+  - beginner-guide
+  - extraction-guide
+  - solo-guide
+  - progress-save-recovery-guide
+  - updates-patch-notes
 ---
 
 # The Mound: Omen of Cthulhu — Trophy & Achievement Guide

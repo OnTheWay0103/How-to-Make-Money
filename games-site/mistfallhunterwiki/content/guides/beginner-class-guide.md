@@ -5,7 +5,12 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-10"
 keywords: ["mistfall hunter beginner class", "mistfall hunter best class", "mistfall hunter which class", "mistfall hunter class change", "mistfall hunter mercenary", "mistfall hunter starter class"]
-related: ["classes-guide", "class-change-guide", "tier-list-guide", "beginner-guide", "leveling-guide"]
+related:
+  - classes-guide
+  - class-change-guide
+  - tier-list-guide
+  - beginner-guide
+  - leveling-guide
 ---
 
 # Mistfall Hunter Beginner Class Guide — Pick Right, Extract More

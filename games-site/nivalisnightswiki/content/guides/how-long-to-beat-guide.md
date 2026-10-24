@@ -6,7 +6,11 @@ version: "Pre-release"
 updated: "2026-08-09"
 date: "2026-08-09"
 keywords: ["nivalis nights how long to beat", "nivalis nights playtime", "nivalis nights game length", "nivalis nights hours", "nivalis nights how many hours", "nivalis nights completionist", "nivalis nights how long is the game"]
-related: ["release-date-guide", "beginner-guide", "cloudpunk-comparison-guide", "best-business-guide"]
+related:
+  - release-date-guide
+  - beginner-guide
+  - cloudpunk-comparison-guide
+  - best-business-guide
 sources:
   - tier: "Official"
     text: "The confirmed feature scope this guide estimates from — seven business types, 135 voiced NPCs, weather, day-night cycles, fishing, boating, chess, apartment customization — comes from official announcements and developer Q&A"

@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: '2026-08-25'
 keywords: ["shift at midnight ending explained", "shift at midnight ending meaning", "shift at midnight explained", "shift at midnight story explained", "shift at midnight lore", "shift at midnight who is the dentist", "shift at midnight ending explained reddit"]
-related: ["endings-guide", "story-walkthrough", "characters-guide", "dentist-guide"]
+related:
+  - endings-guide
+  - story-walkthrough
+  - characters-guide
+  - dentist-guide
 sources:
   - tier: "Official"
     text: "13-shift story campaign at a rural 1993 gas station, the pet subplot, and Sheriff Clyde Dawson as the central supporting character — Steam store page and official materials"

@@ -5,7 +5,13 @@ category: "Updates"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["Sephiria 1.0", "Sephiria full release", "Sephiria what's new", "Sephiria launch guide", "Sephiria final chapter", "Sephiria 1.0 release date"]
-related: ["beginner-guide", "hard-mode-guide", "weapons-guide", "chapter-6-final-boss-guide", "mystic-pot-guide", "chapter-guide"]
+related:
+  - beginner-guide
+  - hard-mode-guide
+  - weapons-guide
+  - chapter-6-final-boss-guide
+  - mystic-pot-guide
+  - chapter-guide
 ---
 
 # Sephiria 1.0 Full Release Guide — What's Actually New in the Launch

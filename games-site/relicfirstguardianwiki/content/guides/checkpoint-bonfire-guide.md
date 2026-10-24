@@ -5,7 +5,12 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["relic first guardian checkpoint", "relic first guardian bonfire", "relic first guardian rest points", "tibelle's blessing", "relic first guardian camps", "relic first guardian elisa"]
-related: ["enemy-types-guide", "upgrade-system", "how-to-increase-health", "difficulty-guide", "beginner-guide"]
+related:
+  - enemy-types-guide
+  - upgrade-system
+  - how-to-increase-health
+  - difficulty-guide
+  - beginner-guide
 sources:
   - tier: "Official"
     text: "Tibelle's Blessing checkpoints and camps are confirmed systems; resting does not respawn enemies (cleared areas stay cleared); relics are swappable at rest points; Elisa unlocks relic slots with Shards of Awakening at camps — official materials"

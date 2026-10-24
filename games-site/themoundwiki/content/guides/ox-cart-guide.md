@@ -5,7 +5,13 @@ category: "Guides"
 version: "1.0"
 updated: "2026-09-16"
 keywords: ["the mound ox cart", "the mound ox wagon", "the mound cart won't follow", "the mound command wheel", "the mound how to call the wagon", "themound cart stuck", "the mound send cart back"]
-related: ["contracts-guide", "extraction-guide", "isolation-guide", "maps-locations-guide", "solo-guide", "updates-patch-notes"]
+related:
+  - contracts-guide
+  - extraction-guide
+  - isolation-guide
+  - maps-locations-guide
+  - solo-guide
+  - updates-patch-notes
 ---
 
 # The Mound Ox Cart Guide — Why It Won't Follow You and How to Control It

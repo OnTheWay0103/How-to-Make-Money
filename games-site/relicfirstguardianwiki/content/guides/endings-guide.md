@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["relic first guardian endings", "relic first guardian how many endings", "relic first guardian secret ending", "relic first guardian true ending", "relic first guardian story ending"]
-related: ["walkthrough", "all-bosses-list", "trophy-guide", "game-length-guide"]
+related:
+  - walkthrough
+  - all-bosses-list
+  - trophy-guide
+  - game-length-guide
 ---
 
 # Endings — How Many Endings Are There?

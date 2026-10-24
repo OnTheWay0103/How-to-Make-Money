@@ -5,7 +5,12 @@ category: 'Progression'
 version: '1.0'
 updated: '2026-08-25'
 keywords: ['sovereign tower upgrades', 'sovereign tower tower expansion', 'sovereign tower annexes', 'sovereign tower forge alchemy', 'sovereign tower map room', 'sovereign tower progression']
-related: ['economy-guide', 'core-mechanics', 'knight-stats', 'rewind-guide', 'factions-guide']
+related:
+  - economy-guide
+  - core-mechanics
+  - knight-stats
+  - rewind-guide
+  - factions-guide
 sources:
   - tier: "Official"
     text: "Tower expansion, annexes, upgrades and outwitting rival rulers — official press release"

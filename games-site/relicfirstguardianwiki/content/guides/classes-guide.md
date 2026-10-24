@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["relic first guardian classes", "relic first guardian best class", "relic first guardian archetypes", "relic first guardian playstyles", "relic first guardian best starting weapon"]
-related: ["beginner-guide", "weapons-guide", "builds-guide", "tier-list"]
+related:
+  - beginner-guide
+  - weapons-guide
+  - builds-guide
+  - tier-list
 sources:
   - tier: "Official"
     text: "No formal classes — the 'class system' is the 12 skill trees (two per weapon family) blended freely; five weapon families; over 70 relic fragments — Steam store page and official materials"

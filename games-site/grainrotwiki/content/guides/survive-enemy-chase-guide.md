@@ -5,7 +5,15 @@ category: 'Mechanics'
 version: '1.0'
 updated: '2026-09-05'
 keywords: ['grain rot enemies chase', 'grain rot how to escape enemies', 'grain rot enemies never lose aggro', 'grain rot too hard', 'grain rot run away', 'grain rot survive', 'grain rot corrupted chase', 'grain rot evasion']
-related: ['stealth-sound-guide', 'all-enemies-guide', 'extraction-guide', 'best-vessels-guide', 'survival-tips', 'tips-and-tricks', 'co-op-guide', 'solo-guide']
+related:
+  - stealth-sound-guide
+  - all-enemies-guide
+  - extraction-guide
+  - best-vessels-guide
+  - survival-tips
+  - tips-and-tricks
+  - co-op-guide
+  - solo-guide
 sources:
   - tier: "Official"
     text: "The Corrupted are vessels that react to sound, movement, and each other; your own vessel splinters, collapses, and catches fire, and when it breaks your Spark escapes to find another host before fading out completely; if the whole team breaks, the run's loot is lost — Steam store page (app 4450620)"

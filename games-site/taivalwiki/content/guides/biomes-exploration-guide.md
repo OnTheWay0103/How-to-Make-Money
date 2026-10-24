@@ -5,7 +5,12 @@ category: "Exploration"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["taival biomes", "taival realms", "taival exploration guide", "taival world map", "taival hidden secrets", "taival henki traversal", "taival four realms"]
-related: ["skill-trees-guide", "quests-walkthrough", "housing-base-building", "henki-companion-guide", "endgame-dungeons"]
+related:
+  - skill-trees-guide
+  - quests-walkthrough
+  - housing-base-building
+  - henki-companion-guide
+  - endgame-dungeons
 sources:
   - tier: "Official"
     text: "Four seamlessly connected realms — rolling highlands, dense forests, mountains, and ancient ruins — confirmed by official materials and the Steam store page"

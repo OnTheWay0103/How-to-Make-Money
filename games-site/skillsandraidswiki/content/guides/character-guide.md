@@ -5,7 +5,12 @@ category: "Guides"
 version: "Current"
 updated: "2026-08-11"
 keywords: ["Skills & Raids characters", "Skills & Raids Shelldon", "Skills & Raids Clawrk", "Skills & Raids Owlivia", "Skills & Raids heroes", "Skills & Raids party"]
-related: ["beginner-guide", "skills-guide", "builds-guide", "team-compositions-guide", "tier-list"]
+related:
+  - beginner-guide
+  - skills-guide
+  - builds-guide
+  - team-compositions-guide
+  - tier-list
 ---
 
 # Skills & Raids Characters Guide — Shelldon, Clawrk & Owlivia

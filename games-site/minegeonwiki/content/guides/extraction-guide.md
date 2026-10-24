@@ -5,7 +5,11 @@ category: Mining
 version: '1.0'
 updated: '2026-08-01'
 keywords: ['minegeon renegades how to extract', 'minegeon renegades extraction guide', 'minegeon renegades how to mine', 'minegeon extraction tips', 'minegeon renegades risk reward', 'minegeon renegades when to extract']
-related: ['mining-guide', 'beginner-guide', 'solo-strategy-guide', 'resource-farming-guide']
+related:
+  - mining-guide
+  - beginner-guide
+  - solo-strategy-guide
+  - resource-farming-guide
 sources:
   - tier: "Official"
     text: "Players can cash out minerals safely or push their luck for bigger rewards; the deeper you descend, the greater the risks and rewards — official game description"

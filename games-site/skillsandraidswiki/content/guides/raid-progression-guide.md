@@ -5,7 +5,11 @@ category: "Guides"
 version: "Current"
 updated: "2026-08-11"
 keywords: ["Skills and Raids progression guide", "Skills and Raids quests", "Skills and Raids what to do", "Skills and Raids raid unlock", "Skills and Raids endgame"]
-related: ["beginner-guide", "team-compositions-guide", "builds-guide", "skills-guide"]
+related:
+  - beginner-guide
+  - team-compositions-guide
+  - builds-guide
+  - skills-guide
 ---
 
 # Skills & Raids Progression Guide — Quests, Unlocks & Content Path

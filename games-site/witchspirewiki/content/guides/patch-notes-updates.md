@@ -5,7 +5,10 @@ category: "Guides"
 version: "0.1.4"
 updated: "2026-08-10"
 keywords: ["witchspire patch notes", "witchspire update", "witchspire roadmap", "witchspire 1.0 release date", "witchspire early access", "witchspire what's new"]
-related: ["all-familiars-guide", "beginner-guide", "coop-troubleshooting-guide"]
+related:
+  - all-familiars-guide
+  - beginner-guide
+  - coop-troubleshooting-guide
 ---
 
 # Witchspire Update Log & Roadmap — Version History and Changes

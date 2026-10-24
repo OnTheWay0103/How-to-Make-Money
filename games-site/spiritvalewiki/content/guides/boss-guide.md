@@ -5,7 +5,11 @@ category: "Guides"
 version: "EA"
 updated: "2026-07-12"
 keywords: ["SpiritVale bosses", "SpiritVale boss guide", "SpiritVale boss mechanics", "SpiritVale boss loot", "SpiritVale boss farming"]
-related: ["builds-guide", "cards-guide", "leveling-guide", "solo-guide"]
+related:
+  - builds-guide
+  - cards-guide
+  - leveling-guide
+  - solo-guide
 sources:
   - tier: "Official"
     text: "20+ bosses available in Early Access — official announcements"

@@ -5,7 +5,12 @@ category: "Cosmetics"
 version: "1.0"
 updated: "2026-09-12"
 keywords: ["Sephiria costume", "Sephiria costume unlock", "costume unlock", "Sephiria characters", "Sephiria cosmetics", "sephiria costume list"]
-related: ["costume-stats-and-character-unlocks-guide", "full-release-guide", "hard-mode-guide", "endgame-guide", "chapter-guide"]
+related:
+  - costume-stats-and-character-unlocks-guide
+  - full-release-guide
+  - hard-mode-guide
+  - endgame-guide
+  - chapter-guide
 ---
 
 ## How Costumes Work

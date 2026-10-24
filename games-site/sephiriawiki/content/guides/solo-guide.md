@@ -5,7 +5,12 @@ category: "Solo"
 version: "1.0"
 updated: "2026-08-21"
 keywords: ["Sephiria solo guide", "solo build", "how to solo Sephiria", "solo boss strategy", "single player tips"]
-related: ["beginner-guide", "builds-guide", "boss-guide", "chapter-guide", "artifacts-guide"]
+related:
+  - beginner-guide
+  - builds-guide
+  - boss-guide
+  - chapter-guide
+  - artifacts-guide
 sources:
   - tier: "Official"
     text: "Enemy health and damage scale with player count — developer-documented"

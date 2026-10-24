@@ -5,7 +5,11 @@ category: 'Guides'
 version: '1.0'
 updated: '2026-08-08'
 keywords: ['Bonehold price', 'Bonehold cost', 'Bonehold sale', 'Bonehold bundle', 'Bonehold DLC', 'Bonehold soundtrack', 'Bonehold where to buy', 'Bonehold discount']
-related: ['review-guide', 'demo-guide', 'similar-games-guide', 'system-requirements-guide']
+related:
+  - review-guide
+  - demo-guide
+  - similar-games-guide
+  - system-requirements-guide
 sources:
   - tier: "Official"
     text: "Base price of about $9.99 USD (¥41.86 CN listing), a free demo, a paid soundtrack DLC, and the bundle listings with partner games (e.g., the Baronehold bundle with Barony) are from the Steam store page and deal trackers, checked July–August 2026"

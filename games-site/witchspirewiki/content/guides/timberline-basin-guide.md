@@ -5,7 +5,12 @@ category: "Guides"
 version: "0.1.4"
 updated: "2026-08-10"
 keywords: ["Witchspire Timberline Basin", "Timberline Basin guide", "Witchspire Shard Caverns", "Witchspire Al'uunian Tower", "Witchspire Flight Pillars", "Timberline Basin collectibles"]
-related: ["vyrs-region-guide", "main-quest-walkthrough", "crafting-guide", "alunean-golem-boss-guide", "all-familiars-guide"]
+related:
+  - vyrs-region-guide
+  - main-quest-walkthrough
+  - crafting-guide
+  - alunean-golem-boss-guide
+  - all-familiars-guide
 ---
 
 # Timberline Basin Region Guide — Full Exploration

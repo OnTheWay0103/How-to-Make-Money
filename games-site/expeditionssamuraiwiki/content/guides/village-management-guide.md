@@ -5,7 +5,10 @@ category: "Progression"
 version: "1.0"
 updated: "2026-08-01"
 keywords: ["expeditions samurai village management", "expeditions samurai village", "expeditions samurai hatamoto", "expeditions samurai base building", "expeditions samurai lord"]
-related: ["beginner-guide", "tips-and-tricks", "walkthrough-act-one"]
+related:
+  - beginner-guide
+  - tips-and-tricks
+  - walkthrough-act-one
 sources:
   - tier: "Official"
     text: "Village management and the Hatamoto title are confirmed by official materials: arriving during Early Access development (not day one), part of the full 1.0 release"

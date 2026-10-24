@@ -5,7 +5,12 @@ category: 'Boss'
 version: '1.0'
 updated: '2026-08-25'
 keywords: ['sovereign tower how to beat dragon knight', 'sovereign tower dragon knight', 'sovereign tower act 1 boss', 'sovereign tower arron', 'sovereign tower dragon knights ultimatum', 'sovereign tower cycle 7']
-related: ['knight-recruitment-guide', 'knight-stats', 'tier-list', 'rewind-guide', 'recruit-chester']
+related:
+  - knight-recruitment-guide
+  - knight-stats
+  - tier-list
+  - rewind-guide
+  - recruit-chester
 sources:
   - tier: "Community"
     text: "Boss identity, quest timing, and the Arron reward per walkthroughs and community guides"

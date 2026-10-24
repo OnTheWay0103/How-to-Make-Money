@@ -5,7 +5,13 @@ category: 'Mechanics'
 version: '1.0'
 updated: '2026-09-17'
 keywords: ['grain rot spark mode', 'grain rot what happens when you die', 'grain rot new body', 'grain rot how to get a new vessel', 'grain rot possession', 'grain rot cant find a body', 'grain rot glow', 'grain rot respawn', 'grain rot death']
-related: ['survive-enemy-chase-guide', 'best-vessels-guide', 'game-mechanics-systems-guide', 'extraction-guide', 'beginner-guide', 'tips-and-tricks']
+related:
+  - survive-enemy-chase-guide
+  - best-vessels-guide
+  - game-mechanics-systems-guide
+  - extraction-guide
+  - beginner-guide
+  - tips-and-tricks
 sources:
   - tier: "Official"
     text: "Spark state and the fade window — 'When your vessel breaks, the Spark escapes', 'When your vessel breaks, you stay in the run as a Spark. Guide your team through the dark and search for another host with a new set of abilities. Force your way back in before you fade out completely', 'Possess and swap between fragile wooden vessels', and 'If everyone breaks, your loot is lost' — GRAIN ROT Steam store page, app 4450620 (store.steampowered.com/app/4450620), read 2026-09-17"

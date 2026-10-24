@@ -5,7 +5,13 @@ category: "Mechanics"
 version: "1.0"
 updated: "2026-08-21"
 keywords: ["sephiria potions", "sephiria consumables", "sephiria healing", "sephiria buff potions", "sephiria best potions", "sephiria health"]
-related: ["mystic-pot-guide", "beginner-guide", "boss-guide", "hard-mode-guide", "chapter-guide", "farming-guide"]
+related:
+  - mystic-pot-guide
+  - beginner-guide
+  - boss-guide
+  - hard-mode-guide
+  - chapter-guide
+  - farming-guide
 sources:
   - tier: "Editorial"
     text: "Recommended potion stock quantities per chapter and the usage strategy are our strategy"

@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: '2026-08-11'
 keywords: ["shift at midnight patch notes", "shift at midnight update", "shift at midnight network issues patch", "shift at midnight beta branch", "shift at midnight roadmap", "shift at midnight new update 2026", "shift at midnight endless mode beta"]
-related: ["faq-content", "pc-performance-guide", "endless-mode-guide", "coop-strategy-guide"]
+related:
+  - faq-content
+  - pc-performance-guide
+  - endless-mode-guide
+  - coop-strategy-guide
 sources:
   - tier: "Official"
     text: "Launch July 22, 2026 by Bun Muen / Kwalee on Steam and Game Pass; the network-issues beta branch (access code 'networkissues'); Endless Mode beta; Q4 2026 free update roadmap — official announcements and Steam"

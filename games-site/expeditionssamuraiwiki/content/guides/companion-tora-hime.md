@@ -5,7 +5,9 @@ category: "Companions"
 version: "1.0"
 updated: "2026-08-01"
 keywords: ["expeditions samurai tora-hime", "expeditions samurai tora hime", "expeditions samurai companion guide", "expeditions samurai recruitment", "expeditions samurai loyalty", "expeditions samurai onna-musha"]
-related: ["companions-guide", "romance-guide"]
+related:
+  - companions-guide
+  - romance-guide
 ---
 
 # Expeditions: Samurai — Tora-Hime Companion Guide

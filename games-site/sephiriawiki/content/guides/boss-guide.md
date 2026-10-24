@@ -5,7 +5,13 @@ category: "Bosses"
 version: "1.0"
 updated: "2026-08-21"
 keywords: ["Sephiria bosses", "boss guide", "Sephiria boss strategies", "Sephiria boss list", "Sephiria askard", "Sephiria qliphoth", "Sephiria pillar summoner", "Sephiria how to beat bosses", "Sephiria hard mode bosses"]
-related: ["chapter-guide", "chapter-6-final-boss-guide", "weapons-guide", "hard-mode-guide", "builds-guide", "coop-guide"]
+related:
+  - chapter-guide
+  - chapter-6-final-boss-guide
+  - weapons-guide
+  - hard-mode-guide
+  - builds-guide
+  - coop-guide
 sources:
   - tier: "Official"
     text: "Cliver is confirmed as a boss in the 1.0 patch notes"

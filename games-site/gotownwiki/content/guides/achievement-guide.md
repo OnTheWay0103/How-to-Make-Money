@@ -5,7 +5,11 @@ category: 'Collections'
 version: '1.0'
 updated: '2026-08-08'
 keywords: ['Go-Go Town achievements', 'Go-Go Town achievement guide', 'Go-Go Town 56 achievements', 'Go-Go Town tech tree achievement', 'Go-Go Town Grumbo', 'Go-Go Town Pill Bug', 'Go-Go Town 100 percent']
-related: ['one-point-zero-update-guide', 'treasure-hunting-guide', 'tips-and-tricks', 'building-unlock-guide']
+related:
+  - one-point-zero-update-guide
+  - treasure-hunting-guide
+  - tips-and-tricks
+  - building-unlock-guide
 sources:
   - tier: "Official"
     text: "The 56-achievement total (26 original plus 30 new at 1.0) is confirmed by the developer's 1.0 announcement"

@@ -5,7 +5,11 @@ category: "Boss"
 version: "1.0.6"
 updated: "2026-08-09"
 keywords: ["beast of reincarnation taurus boss", "how to beat taurus", "taurus weakness", "beast of reincarnation chapter 4 boss", "charging botan"]
-related: ["nushi-boss-reference", "chapter-progression-guide", "combat-system-guide", "elemental-builds-guide"]
+related:
+  - nushi-boss-reference
+  - chapter-progression-guide
+  - combat-system-guide
+  - elemental-builds-guide
 ---
 
 # Taurus Boss Guide — How to Beat the Bull Nushi

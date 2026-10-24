@@ -5,7 +5,12 @@ category: 'Building'
 version: '1.0'
 updated: '2026-09-13'
 keywords: ['grain rot decoration', 'grain rot outpost rooms', 'grain rot stat bonuses', 'grain rot room level', 'grain rot how to decorate', 'grain rot decor buffs', 'grain rot base stats', 'grain rot outpost guide']
-related: ['outpost-upgrade-guide', 'crafting-resources-guide', 'game-mechanics-systems-guide', 'beginner-guide', 'co-op-guide']
+related:
+  - outpost-upgrade-guide
+  - crafting-resources-guide
+  - game-mechanics-systems-guide
+  - beginner-guide
+  - co-op-guide
 sources:
   - tier: "Official"
     text: "The Outpost converts extracted loot into permanent power, and its unlocks include interactive furniture and stat upgrades: \"Unlock interactive furniture, stat upgrades, rescued survivors, and stranger ways to survive the next descent. The stronger the outpost becomes, the deeper you can afford to go.\" The store page also lists \"Persistent Outpost rebuilding and progression\" and \"Tactical carpentry with interactive furniture\" — GRAIN ROT Steam store page (store.steampowered.com/app/4450620/GRAIN_ROT/), read 2026-09-13. The 1.0 addition of a second Outpost floor comes from the publisher's launch announcement, as covered by launch-week press (TechTimes, August 2026)"

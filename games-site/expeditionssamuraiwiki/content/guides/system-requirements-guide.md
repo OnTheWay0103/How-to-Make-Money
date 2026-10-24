@@ -5,7 +5,9 @@ category: "Game Info"
 version: "1.0"
 updated: "2026-08-03"
 keywords: ["expeditions samurai system requirements", "expeditions samurai minimum requirements", "expeditions samurai recommended specs", "expeditions samurai performance", "expeditions samurai specs", "expeditions samurai steam deck", "expeditions samurai optimization", "expeditions samurai graphics settings", "expeditions samurai pc requirements"]
-related: ["early-access-guide", "beginner-guide"]
+related:
+  - early-access-guide
+  - beginner-guide
 sources:
   - tier: "Official"
     text: "Minimum and recommended system requirements mirrored from the Steam store page (Windows 10/11 64-bit, 12 GB minimum RAM, GTX 1070 / RX Vega 56 minimum GPU, 15 GB storage)"

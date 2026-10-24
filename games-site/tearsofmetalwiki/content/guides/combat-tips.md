@@ -5,7 +5,12 @@ category: "Combat"
 version: "Early Access"
 updated: "2026-08-11"
 keywords: ["Tears of Metal combat tips", "Tears of Metal parry", "Tears of Metal block", "Tears of Metal dodge", "Tears of Metal stamina", "Tears of Metal combat guide", "Tears of Metal best combat loadout"]
-related: ["boss-guide", "heroes-tier-list", "best-builds", "battalion-companion-guide", "elite-enemy-guide"]
+related:
+  - boss-guide
+  - heroes-tier-list
+  - best-builds
+  - battalion-companion-guide
+  - elite-enemy-guide
 ---
 
 # Tears of Metal Combat Tips — Block, Parry, Dodge & Hero Loadouts

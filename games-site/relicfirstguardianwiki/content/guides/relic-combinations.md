@@ -5,7 +5,12 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["relic first guardian relic combinations", "relic first guardian best relics", "relic first guardian relic builds", "relic first guardian relic energy", "relic first guardian build guide", "relic first guardian fragments"]
-related: ["artifacts-guide", "runes-guide", "builds-guide", "upgrade-system", "tier-list"]
+related:
+  - artifacts-guide
+  - runes-guide
+  - builds-guide
+  - upgrade-system
+  - tier-list
 ---
 
 # Relic First Guardian Relic Combinations — Build the Right Set for the Right Brutal

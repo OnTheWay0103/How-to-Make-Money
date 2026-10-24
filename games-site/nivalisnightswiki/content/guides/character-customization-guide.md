@@ -6,7 +6,11 @@ version: "Pre-release"
 updated: "2026-08-09"
 date: "2026-08-09"
 keywords: ["nivalis nights character creation", "nivalis nights character customization", "nivalis nights create character", "nivalis nights first person", "nivalis nights avatar", "nivalis nights wardrobe", "nivalis nights clothing"]
-related: ["apartment-customization-guide", "beginner-guide", "cloudpunk-comparison-guide", "npc-relationships-guide"]
+related:
+  - apartment-customization-guide
+  - beginner-guide
+  - cloudpunk-comparison-guide
+  - npc-relationships-guide
 sources:
   - tier: "Official"
     text: "First-person perspective with no avatar creator is confirmed by the developer; the quoted Discord statement is attributed to ION LANDS in pre-release coverage"

@@ -5,7 +5,12 @@ category: 'Game Info'
 version: '1.0'
 updated: '2026-08-11'
 keywords: ['grain rot events', 'grain rot timed content', 'grain rot dungeon modifiers', 'grain rot modifiers', 'grain rot seasonal events']
-related: ['demo-guide', 'extraction-guide', 'game-mechanics-systems-guide', 'hard-mode-guide', 'release-date-faq']
+related:
+  - demo-guide
+  - extraction-guide
+  - game-mechanics-systems-guide
+  - hard-mode-guide
+  - release-date-faq
 ---
 
 # Events & Timed Content Guide — Dungeon Modifiers and Live Content

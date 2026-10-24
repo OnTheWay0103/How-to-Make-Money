@@ -5,7 +5,10 @@ keywords: ['dwarf delve minecart', 'dwarf delve rail', 'dwarf delve rail network
 category: Building
 version: '1.0'
 updated: '2026-08-01'
-related: ['crafting-guide', 'mining-strategies-guide', 'extraction-guide']
+related:
+  - crafting-guide
+  - mining-strategies-guide
+  - extraction-guide
 sources:
   - tier: "Official"
     text: "The minecart and rail system is confirmed to shift and store heavy ores — Steam store page and official announcements"

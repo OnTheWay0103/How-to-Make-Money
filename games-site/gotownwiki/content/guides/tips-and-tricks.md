@@ -5,7 +5,10 @@ category: 'Advanced'
 version: '1.0'
 updated: '2026-08-01'
 keywords: ['Go-Go Town tips', 'Go-Go Town tricks', 'Go-Go Town secrets', 'Go-Go Town quality of life', 'Go-Go Town advanced strategies']
-related: ['beginner-guide', 'automation-guide', 'best-layout-guide']
+related:
+  - beginner-guide
+  - automation-guide
+  - best-layout-guide
 ---
 
 # Go-Go Town! Tips and Tricks — Advanced Strategies

@@ -5,7 +5,11 @@ category: "Reference"
 version: "1.0"
 updated: "2026-08-08"
 keywords: ["waterpark simulator museum", "waterpark simulator museum questline", "waterpark simulator poseidon't", "waterpark simulator clara loft", "waterpark simulator goldie", "waterpark simulator yogi", "waterpark simulator theme slides", "waterpark simulator aztec pirate ocean"]
-related: ["endgame-guide", "beginner-guide", "research-tree-guide", "slide-ride-tier-list"]
+related:
+  - endgame-guide
+  - beginner-guide
+  - research-tree-guide
+  - slide-ride-tier-list
 sources:
   - tier: "Official"
     text: "Museum questlines with themed routes (Yogi wellness, Ocean, Aztec) are confirmed via official patch notes and 1.0 announcements"

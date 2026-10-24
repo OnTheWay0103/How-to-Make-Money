@@ -6,7 +6,12 @@ version: "Pre-release"
 updated: "2026-08-09"
 date: "2026-08-09"
 keywords: ["nivalis nights vs cloudpunk", "nivalis nights cloudpunk comparison", "is nivalis nights cloudpunk 2", "nivalis nights cloudpunk connection", "cloudpunk sequel", "nivalis nights same universe"]
-related: ["release-date-guide", "city-districts-guide", "transportation-guide", "beginner-guide", "npc-relationships-guide"]
+related:
+  - release-date-guide
+  - city-districts-guide
+  - transportation-guide
+  - beginner-guide
+  - npc-relationships-guide
 sources:
   - tier: "Official"
     text: "Same developer (ION LANDS), same city of Nivalis from Cloudpunk, and the genre difference (life sim vs delivery adventure) are from official announcements"

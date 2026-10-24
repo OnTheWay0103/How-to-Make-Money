@@ -5,7 +5,12 @@ category: 'Buying'
 version: '1.0'
 updated: '2026-08-25'
 keywords: ['sovereign tower how long to beat', 'sovereign tower length', 'sovereign tower hours', 'sovereign tower replay', 'sovereign tower new game plus', 'sovereign tower endings']
-related: ['faq', 'price-platforms', 'rewind-guide', 'beginner-guide', 'dragon-knight-guide']
+related:
+  - faq
+  - price-platforms
+  - rewind-guide
+  - beginner-guide
+  - dragon-knight-guide
 sources:
   - tier: "Community"
     text: "Length estimates per IGN, Gamalytic average, and player reports on GCORES"

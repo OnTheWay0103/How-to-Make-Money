@@ -5,7 +5,10 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-01"
 keywords: ["moonlight peaks romance", "moonlight peaks marriage", "moonlight peaks dateable characters", "moonlight peaks proposal"]
-related: ["gift-guide", "characters-guide", "potions-guide"]
+related:
+  - gift-guide
+  - characters-guide
+  - potions-guide
 sources:
   - tier: "Official"
     text: "Romance is a confirmed feature with roughly 'two dozen romanceable characters' per the Steam store description"

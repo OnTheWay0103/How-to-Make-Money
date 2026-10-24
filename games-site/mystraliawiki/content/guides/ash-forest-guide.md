@@ -5,7 +5,11 @@ category: 'Exploration'
 version: 'Early Access'
 updated: '2026-08-11'
 keywords: ['echoes of mystralia ash forest', 'echoes of mystralia region guide', 'echoes of mystralia first region', 'echoes of mystralia therakan', 'echoes of mystralia demo region', 'mystralia ash forest walkthrough']
-related: ['boss-guide', 'beginner-guide', 'memories-guide', 'ea-launch-guide']
+related:
+  - boss-guide
+  - beginner-guide
+  - memories-guide
+  - ea-launch-guide
 ---
 
 # Ash Forest Region Guide — The Demo Region & Therakan

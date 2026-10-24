@@ -5,7 +5,12 @@ category: "Guides"
 version: "1.0"
 updated: "2026-09-17"
 keywords: ["The Mound money guide", "The Mound how to make money", "The Mound coins", "The Mound tokens", "The Mound occult shop", "The Mound upgrade tokens", "The Mound best farm"]
-related: ["progression-system-guide", "contracts-guide", "crafting-recipes", "perks-guide", "loadout-guide"]
+related:
+  - progression-system-guide
+  - contracts-guide
+  - crafting-recipes
+  - perks-guide
+  - loadout-guide
 ---
 
 # The Mound Money Guide — How to Earn Gyldenblood and Upgrade Tokens Fast

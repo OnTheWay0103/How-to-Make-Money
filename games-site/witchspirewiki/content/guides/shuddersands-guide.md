@@ -5,7 +5,12 @@ category: "Guides"
 version: "0.1.4"
 updated: "2026-08-10"
 keywords: ["Witchspire Shuddersands", "Shuddersands guide", "Witchspire Valas Oasis", "Witchspire Lost Oasis", "Witchspire Glimmering Dunes", "Witchspire desert region"]
-related: ["mira-isles-guide", "shudder-matriarch-boss-guide", "lumi-boss-guide", "crafting-guide", "all-familiars-guide"]
+related:
+  - mira-isles-guide
+  - shudder-matriarch-boss-guide
+  - lumi-boss-guide
+  - crafting-guide
+  - all-familiars-guide
 ---
 
 # Shuddersands Region Guide — Desert Survival

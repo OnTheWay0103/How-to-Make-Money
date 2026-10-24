@@ -5,7 +5,10 @@ category: 'Collection'
 version: '1.0'
 updated: '2026-08-22'
 keywords: ['doloc town ranching', 'doloc town animals', 'doloc town animal feed', 'doloc town how to get feathers', 'doloc town fish food', 'doloc town aquaculture']
-related: ['automation-drone-guide', 'cooking-recipes-guide', 'how-to-make-money']
+related:
+  - automation-drone-guide
+  - cooking-recipes-guide
+  - how-to-make-money
 sources:
   - tier: "Official"
     text: "Ranching and aquaculture added in the Pastoral Waves update — official update announcements"

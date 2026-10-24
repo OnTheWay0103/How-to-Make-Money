@@ -5,7 +5,12 @@ category: 'Guides'
 version: '1.0'
 updated: '2026-08-06'
 keywords: ['vahrins call skill book locations', 'vahrins call for oafs books', 'vahrins call skill books', 'vahrins call where to find skill books', 'vahrins call book hunting']
-related: ['weapons-guide', 'magic-guide', 'attributes-stats-guide', 'exploration-navigation-guide', 'puzzles-secrets-guide']
+related:
+  - weapons-guide
+  - magic-guide
+  - attributes-stats-guide
+  - exploration-navigation-guide
+  - puzzles-secrets-guide
 ---
 
 # Skill Book Hunting Guide — The "for Oafs" Series and Every Confirmed Location

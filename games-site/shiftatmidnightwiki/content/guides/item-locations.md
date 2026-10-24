@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: '2026-08-01'
 keywords: ["shift at midnight item locations", "shift at midnight weapon spawns", "shift at midnight where is the gun", "shift at midnight supplies", "shift at midnight store computer"]
-related: ["weapons-guide", "survival-strategies", "money-guide", "coop-strategy-guide"]
+related:
+  - weapons-guide
+  - survival-strategies
+  - money-guide
+  - coop-strategy-guide
 ---
 
 ## Item Locations — Weapons, Tools, and Supplies in the Gas Station

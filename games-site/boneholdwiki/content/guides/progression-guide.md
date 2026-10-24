@@ -5,7 +5,11 @@ category: 'Progression'
 version: '1.0'
 updated: '2026-08-01'
 keywords: ['Bonehold progression guide', 'Bonehold roguelike', 'Bonehold unlock classes', 'Bonehold achievements', 'Bonehold meta progression']
-related: ['beginner-guide', 'classes-guide', 'endgame-guide', 'achievements-guide']
+related:
+  - beginner-guide
+  - classes-guide
+  - endgame-guide
+  - achievements-guide
 ---
 
 # Bonehold Progression Guide — How Runs Build on Each Other

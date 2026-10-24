@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: '2026-08-01'
 keywords: ["shift at midnight doppelganger guide", "spot impostor shift at midnight", "NET database guide", "customer screening shift at midnight", "fake ID detection", "shift at midnight doppelganger tells"]
-related: ["beginner-guide", "entity-survival-guide", "story-walkthrough", "norbert-the-gnome-guide"]
+related:
+  - beginner-guide
+  - entity-survival-guide
+  - story-walkthrough
+  - norbert-the-gnome-guide
 sources:
   - tier: "Official"
     text: "Doppelganger mechanics — disguised impostors among customers, missed fakes returning as monsters, the 60-second lock-up alert — Steam store page and official description"

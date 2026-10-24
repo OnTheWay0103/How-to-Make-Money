@@ -5,7 +5,12 @@ category: "Guides"
 version: "EA"
 updated: "2026-08-28"
 keywords: ["SpiritVale Echoing Spire", "SpiritVale endgame tower", "SpiritVale Spire guide", "SpiritVale endgame party comp", "SpiritVale tower climb", "SpiritVale 0.30.14"]
-related: ["party-composition", "endgame-guide", "gear-progression", "updates-patch-notes", "trading-market-guide"]
+related:
+  - party-composition
+  - endgame-guide
+  - gear-progression
+  - updates-patch-notes
+  - trading-market-guide
 sources:
   - tier: "Official"
     text: "Patch 0.30.14 (Aug 17, 2026) notes reference the Spire — reset fixes and a new ability to kick members from Spire parties — via the vgspoilers patch log"

@@ -6,7 +6,13 @@ version: "Pre-release"
 updated: "2026-08-11"
 date: "2026-08-11"
 keywords: ["nivalis nights best business", "nivalis nights business types", "nivalis nights business guide", "nivalis nights business management", "nivalis nights make money", "nivalis nights nightclub", "nivalis nights supply chain", "nivalis nights manager"]
-related: ["beginner-guide", "faq", "day-night-cycle-guide", "fishing-guide", "greenhouse-guide", "npc-relationships-guide"]
+related:
+  - beginner-guide
+  - faq
+  - day-night-cycle-guide
+  - fishing-guide
+  - greenhouse-guide
+  - npc-relationships-guide
 sources:
   - tier: "Official"
     text: "The seven business types (food stalls, noodle bars, ramen bars, stim stores, bars, restaurants, nightclubs) and starting with an inherited noodle bar are from official descriptions and publisher material"

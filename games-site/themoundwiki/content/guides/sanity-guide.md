@@ -5,7 +5,12 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-10"
 keywords: ["themound sanity system", "hallucinations themound", "mask of nyarlathotep guide", "themound madness tips", "themound sanity management"]
-related: ["beginner-guide", "enemy-bestiary", "coop-strategy-guide", "nightmare-mode", "perks-guide"]
+related:
+  - beginner-guide
+  - enemy-bestiary
+  - coop-strategy-guide
+  - nightmare-mode
+  - perks-guide
 ---
 
 # The Mound Sanity Guide — Surviving the Madness System

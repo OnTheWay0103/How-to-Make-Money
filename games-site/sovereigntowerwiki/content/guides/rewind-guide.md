@@ -5,7 +5,12 @@ category: 'Mechanics'
 version: '1.0'
 updated: '2026-08-25'
 keywords: ['sovereign tower rewind', 'sovereign tower time travel', 'sovereign tower demon', 'sovereign tower rewind guide', 'sovereign tower fix mistakes', 'sovereign tower how to save knight']
-related: ['core-mechanics', 'beginner-guide', 'dragon-knight-guide', 'game-length', 'romance-guide']
+related:
+  - core-mechanics
+  - beginner-guide
+  - dragon-knight-guide
+  - game-length
+  - romance-guide
 sources:
   - tier: "Official"
     text: "A Demon in the crypts lets you rewind time to specific moments, enabling new paths, storylines, and dialogue options — official press release"

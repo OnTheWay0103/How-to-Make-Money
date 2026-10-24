@@ -6,7 +6,12 @@ version: "1.0"
 updated: "2026-10-24"
 date: "2026-08-08"
 keywords: ["low-budget repairs flooring", "low-budget repairs floor guide", "low-budget repairs tile floor", "low-budget repairs floor repair", "low-budget repairs how to fix floor"]
-related: ["tiling-guide", "materials-guide", "inspection-guide", "renovation-jobs-guide", "upgrade-priorities-guide"]
+related:
+  - tiling-guide
+  - materials-guide
+  - inspection-guide
+  - renovation-jobs-guide
+  - upgrade-priorities-guide
 ---
 
 # Low-Budget Repairs Flooring Guide — Cheap Fixes for Every Floor

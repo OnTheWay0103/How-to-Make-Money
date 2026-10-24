@@ -5,7 +5,12 @@ keywords: ["Tears of Metal best hero", "Tears of Metal hero tier list", "Tears o
 category: "Heroes"
 version: "Early Access"
 updated: "2026-08-11"
-related: ["best-builds", "boss-guide", "character-unlock-guide", "threat-level-difficulty-guide", "patch-notes"]
+related:
+  - best-builds
+  - boss-guide
+  - character-unlock-guide
+  - threat-level-difficulty-guide
+  - patch-notes
 sources:
   - tier: "Official"
     text: "Launch roster: Wallace (longsword), Brienne (unarmed fast attacks), and Ruadh Stonecrusher (giant hammer) — official materials"

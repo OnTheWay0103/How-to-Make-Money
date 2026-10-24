@@ -6,7 +6,9 @@ version: "Early Access"
 updated: "2026-08-11"
 date: "2026-08-11"
 keywords: ["echoes of mystralia system requirements", "echoes of mystralia pc specs", "echoes of mystralia steam deck", "echoes of mystralia minimum requirements", "echoes of mystralia download size", "echoes of mystralia performance"]
-related: ["ea-launch-guide", "faq"]
+related:
+  - ea-launch-guide
+  - faq
 ---
 
 # Echoes of Mystralia System Requirements — PC Specs & Performance

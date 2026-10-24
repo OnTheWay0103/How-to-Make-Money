@@ -5,7 +5,10 @@ category: "Companions"
 version: "1.0"
 updated: "2026-08-05"
 keywords: ["expeditions samurai piet ruisch", "expeditions samurai piet", "expeditions samurai companion guide", "expeditions samurai recruitment", "expeditions samurai loyalty", "expeditions samurai brawler", "expeditions samurai pistol"]
-related: ["companions-guide", "romance-guide", "classes-guide"]
+related:
+  - companions-guide
+  - romance-guide
+  - classes-guide
 ---
 
 # Expeditions: Samurai — Piet Ruisch Companion Guide

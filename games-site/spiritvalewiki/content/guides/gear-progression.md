@@ -5,7 +5,11 @@ category: "Guides"
 version: "EA"
 updated: "2026-08-11"
 keywords: ["SpiritVale gear progression", "SpiritVale gear score", "SpiritVale best gear", "SpiritVale gear upgrade path", "SpiritVale tier gear", "SpiritVale endgame gear"]
-related: ["endgame-guide", "crafting-guide", "farming-resource-guide", "trading-market-guide"]
+related:
+  - endgame-guide
+  - crafting-guide
+  - farming-resource-guide
+  - trading-market-guide
 ---
 
 # SpiritVale Gear Progression Guide — From Level 1 to Endgame

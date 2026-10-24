@@ -5,7 +5,11 @@ category: "Combat"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["taival combat", "taival weapons", "taival battle tactics", "taival combat guide", "taival weapon types", "taival dodge block"]
-related: ["henki-companion-guide", "best-henki-forms", "coop-multiplayer-guide", "crafting-professions-guide"]
+related:
+  - henki-companion-guide
+  - best-henki-forms
+  - coop-multiplayer-guide
+  - crafting-professions-guide
 sources:
   - tier: "Official"
     text: "Combat systems confirmed by official materials: 'different weapon types' backed by skill trees, combat skills, enemy and boss fights, and the Henki's combat forms (hulking beast, cunning predator) — Steam store page and developer materials"

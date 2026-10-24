@@ -5,7 +5,11 @@ category: 'Builds'
 version: 'Early Access'
 updated: '2026-08-11'
 keywords: ['echoes of mystralia build guide', 'echoes of mystralia best build', 'echoes of mystralia character guide', 'echoes of mystralia playstyle', 'echoes of mystralia watcher']
-related: ['best-spell-builds', 'spell-crafting-guide', 'tier-list', 'beginner-guide']
+related:
+  - best-spell-builds
+  - spell-crafting-guide
+  - tier-list
+  - beginner-guide
 ---
 
 # Character & Playstyle Guide — Mazarim, the Watcher

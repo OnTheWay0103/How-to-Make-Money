@@ -5,7 +5,10 @@ category: "Companions"
 version: "1.0"
 updated: "2026-08-01"
 keywords: ["expeditions samurai romance", "expeditions samurai romance guide", "expeditions samurai relationships", "expeditions samurai love interests", "expeditions samurai date"]
-related: ["companions-guide", "coop-multiplayer-guide", "beginner-guide"]
+related:
+  - companions-guide
+  - coop-multiplayer-guide
+  - beginner-guide
 ---
 
 # Expeditions: Samurai — Romance Guide

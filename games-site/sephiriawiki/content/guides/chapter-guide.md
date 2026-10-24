@@ -5,7 +5,13 @@ category: "Chapters"
 version: "1.0"
 updated: "2026-08-21"
 keywords: ["Sephiria chapters", "chapter guide", "chapter walkthrough", "tower climbing", "Sephiria chapter 3", "Sephiria mirrored library", "Sephiria chapter 6", "Sephiria difficulty spike"]
-related: ["boss-guide", "chapter-6-final-boss-guide", "weapons-guide", "beginner-guide", "builds-guide", "potions-consumables-guide"]
+related:
+  - boss-guide
+  - chapter-6-final-boss-guide
+  - weapons-guide
+  - beginner-guide
+  - builds-guide
+  - potions-consumables-guide
 sources:
   - tier: "Official"
     text: "The game has 6 chapters, and the story ends with Chapter 6"

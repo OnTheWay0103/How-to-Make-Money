@@ -6,7 +6,12 @@ version: "1.0"
 updated: "2026-10-24"
 date: "2026-08-08"
 keywords: ["low-budget repairs review", "low-budget repairs demo review", "is low-budget repairs good", "low-budget repairs impressions", "low-budget repairs score", "is low-budget repairs worth it", "should i buy low-budget repairs"]
-related: ["demo-guide", "games-like-low-budget-repairs", "release-hub", "how-long-to-beat", "price-editions-guide"]
+related:
+  - demo-guide
+  - games-like-low-budget-repairs
+  - release-hub
+  - how-long-to-beat
+  - price-editions-guide
 sources:
   - tier: "Community"
     text: "The demo's ~90% positive rating from ~330 ratings is attributed in the guide to GameGrin's demo roundup; 1M+ wishlist figures are store-reported as of August 2026; the release date, $19.99 price, and Steam review summary (Mixed, checked 2026-10-24) are verified against the Steam store page"

@@ -5,7 +5,12 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["Graphite advanced strategies", "Graphite artifact stacking", "Graphite tarot deck strategy", "Graphite enemy scaling", "Graphite team composition", "Graphite meta guide"]
-related: ["builds-artifacts-guide", "tarot-events-guide", "heroes-guide", "combat-guide", "beginner-guide"]
+related:
+  - builds-artifacts-guide
+  - tarot-events-guide
+  - heroes-guide
+  - combat-guide
+  - beginner-guide
 ---
 
 ## Advanced Strategies Guide — Stacking, Scaling, and Deck Play

@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["relic first guardian difficulty settings", "relic first guardian easy mode", "relic first guardian difficulty", "is relic first guardian hard", "relic first guardian too hard"]
-related: ["beginner-guide", "co-op-guide", "builds-guide", "combat-guide"]
+related:
+  - beginner-guide
+  - co-op-guide
+  - builds-guide
+  - combat-guide
 ---
 
 # Difficulty Settings & Easy Mode — The Honest Answer

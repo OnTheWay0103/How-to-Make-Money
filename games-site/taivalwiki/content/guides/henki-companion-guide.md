@@ -5,7 +5,11 @@ category: "Companions"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["taival henki", "taival companion", "taival henki forms", "taival henki traits", "taival shapeshifter", "taival taming"]
-related: ["best-henki-forms", "beginner-guide", "combat-system-guide", "coop-multiplayer-guide"]
+related:
+  - best-henki-forms
+  - beginner-guide
+  - combat-system-guide
+  - coop-multiplayer-guide
 sources:
   - tier: "Official"
     text: "The Henki absorbs creature essences and shifts into forms with unique combat and traversal abilities; confirmed archetypes include 'a hulking beast that absorbs damage, a swift mount that scales cliffsides, a cunning predator that strikes from the shadows'; traits Leech, Jump Pad, and Pack Mule named as examples — Steam store page and developer materials"

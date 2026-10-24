@@ -5,7 +5,12 @@ category: "Guides"
 version: "EA"
 updated: "2026-09-09"
 keywords: ["spiritvale banned", "spiritvale false ban", "spiritvale ban appeal", "why was my spiritvale account banned", "spiritvale macro ban", "spiritvale rmt ban", "spiritvale support ticket", "spiritvale bot ban"]
-related: ["connection-server-guide", "updates-patch-notes", "trading-market-guide", "faq-content", "guild-guide"]
+related:
+  - connection-server-guide
+  - updates-patch-notes
+  - trading-market-guide
+  - faq-content
+  - guild-guide
 sources:
   - tier: "Official"
     text: "SpiritVale developer enforcement update (August 17, 2026), published on the official Steam/Discord channel and reported by MassivelyOP: 3,821 accounts removed for unauthorized programs and macros, 1,106 for real-money trading (RMT), and 65 for code-of-conduct violations; the same update previewed the next content push (Asia servers, PvP revamp, Dragon Knight class)"

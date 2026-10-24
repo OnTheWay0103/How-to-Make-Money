@@ -5,7 +5,11 @@ category: 'Progression'
 version: '1.0'
 updated: '2026-08-08'
 keywords: ['Bonehold difficulty', 'Bonehold difficulty curve', 'Bonehold elite bosses', 'Bonehold difficulty settings', 'Bonehold hard game', 'Bonehold scaling', 'Bonehold challenge']
-related: ['progression-guide', 'boss-guide', 'endgame-guide', 'item-prefixes-guide']
+related:
+  - progression-guide
+  - boss-guide
+  - endgame-guide
+  - item-prefixes-guide
 ---
 
 # Bonehold Difficulty Guide - Scaling Curve, Elite Bosses, and Difficulty Options

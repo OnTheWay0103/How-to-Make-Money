@@ -5,7 +5,12 @@ category: "Guides"
 version: "Early Access"
 updated: "2026-09-17"
 keywords: ["tears of metal visual clarity", "tears of metal can't see attacks", "tears of metal visual clutter", "tears of metal attack indicators", "tears of metal camera too close", "tears of metal offscreen archers", "tears of metal guard break", "tears of metal what killed me"]
-related: ["combat-tips", "low-fps-fix-guide", "elite-enemy-guide", "survival-tips", "boss-guide"]
+related:
+  - combat-tips
+  - low-fps-fix-guide
+  - elite-enemy-guide
+  - survival-tips
+  - boss-guide
 sources:
   - tier: "Official"
     text: "Visual, audio and feedback fixes in the September 8, 2026 patch — \"Fixed Invincible status visuals not disappearing immediately after the status expired\"; \"Fixed 3D sounds sometimes not being audible while Spectating\"; \"Fixed an incorrect audio event call for Dragon Geyser attacks\"; \"Fixed Hunt Captain objectives sometimes spawning Captains without their Minimap indicators\"; \"Elite enemies now reconsider their targets more frequently and are more likely to attack players dealing high amounts of damage to them\"; \"Giant II's jump-back counter landing no longer deals damage\"; \"Updated Act 3 fodder textures\"; \"Further optimized grass\" — Paper Cult, Steam Community announcement \"New Patch - Big Bug Fixing Pass\", September 8, 2026 (store.steampowered.com/news/app/1913120)"

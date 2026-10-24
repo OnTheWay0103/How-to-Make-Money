@@ -5,7 +5,12 @@ category: 'Builds'
 version: '1.0'
 updated: '2026-08-03'
 keywords: ['dragonsword awakening kalsion', 'kalsion guide', 'kalsion build', 'kalsion skills', 'dragonsword awakening fire team', 'dragonsword awakening best melee']
-related: ['hero-builds-guide', 'tier-list', 'team-compositions', 'combat-guide', 'hero-unlock-guide']
+related:
+  - hero-builds-guide
+  - tier-list
+  - team-compositions
+  - combat-guide
+  - hero-unlock-guide
 ---
 
 ## Kalsion Guide — Fire Melee DPS & the King of Orbis

@@ -6,7 +6,12 @@ version: "1.0"
 updated: "2026-10-24"
 date: "2026-08-08"
 keywords: ["low-budget repairs furniture assembly", "low-budget repairs how to assemble furniture", "low-budget repairs flat pack", "low-budget repairs furniture", "low-budget repairs how to get rid of furniture"]
-related: ["materials-guide", "tool-guide", "renovation-jobs-guide", "money-making-guide", "hardware-store-guide"]
+related:
+  - materials-guide
+  - tool-guide
+  - renovation-jobs-guide
+  - money-making-guide
+  - hardware-store-guide
 ---
 
 # Low-Budget Repairs Furniture Assembly Guide — Flat-Pack & Fast Fixes

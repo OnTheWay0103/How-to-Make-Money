@@ -5,7 +5,12 @@ category: "Guides"
 version: "1.0"
 updated: "2026-09-17"
 keywords: ["themound nightmare mode", "themound difficulty", "themound hard mode", "themound forest awakens", "themound contract tiers", "themound endgame"]
-related: ["contracts-guide", "sanity-guide", "extraction-guide", "progression-system-guide", "characters-classes"]
+related:
+  - contracts-guide
+  - sanity-guide
+  - extraction-guide
+  - progression-system-guide
+  - characters-classes
 ---
 
 # Difficulty Guide — Is There a Nightmare Mode?

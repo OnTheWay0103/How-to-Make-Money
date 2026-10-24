@@ -5,7 +5,14 @@ category: "Builds"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["Sephiria builds", "best builds Sephiria", "Sephiria build guide", "Sephiria artifact builds", "Sephiria tablet builds", "Sephiria weapon builds", "Sephiria tank build", "Sephiria mage build"]
-related: ["weapons-guide", "artifacts-guide", "tablets-guide", "inscriptions-guide", "talents-guide", "solo-guide", "coop-guide"]
+related:
+  - weapons-guide
+  - artifacts-guide
+  - tablets-guide
+  - inscriptions-guide
+  - talents-guide
+  - solo-guide
+  - coop-guide
 ---
 
 # Best Builds — Weapon & Artifact Synergies for Every Playstyle

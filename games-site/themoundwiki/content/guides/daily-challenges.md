@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: "2026-09-17"
 keywords: ["The Mound daily challenges", "The Mound daily contracts", "The Mound contract board", "The Mound contract tiers", "The Mound progression loop"]
-related: ["contracts-guide", "extraction-guide", "crafting-recipes", "beginner-guide"]
+related:
+  - contracts-guide
+  - extraction-guide
+  - crafting-recipes
+  - beginner-guide
 ---
 
 # Daily Challenges — Is There a Daily System?

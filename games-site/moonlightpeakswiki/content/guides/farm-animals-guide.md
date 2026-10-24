@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-08"
 keywords: ["moonlight peaks farm animals", "moonlight peaks barn", "moonlight peaks rabbicula", "moonlight peaks cheeken", "moonlight peaks cowcula", "moonlight peaks fodder", "moonlight peaks livestock"]
-related: ["farming-guide", "cooking-recipes-guide", "money-guide", "potions-guide"]
+related:
+  - farming-guide
+  - cooking-recipes-guide
+  - money-guide
+  - potions-guide
 ---
 
 # Moonlight Peaks — Farm Animals Guide: All 7 Animals, Barns & Fodder

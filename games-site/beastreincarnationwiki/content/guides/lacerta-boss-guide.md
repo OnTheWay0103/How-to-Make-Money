@@ -5,7 +5,11 @@ category: "Boss"
 version: "1.0.6"
 updated: "2026-08-09"
 keywords: ["beast of reincarnation lacerta boss", "how to beat lacerta", "lacerta weakness", "beast of reincarnation chapter 2 boss", "dokuzeri fang"]
-related: ["nushi-boss-reference", "chapter-progression-guide", "combat-system-guide", "elemental-builds-guide"]
+related:
+  - nushi-boss-reference
+  - chapter-progression-guide
+  - combat-system-guide
+  - elemental-builds-guide
 ---
 
 # Lacerta Boss Guide — How to Beat the Giant Newt

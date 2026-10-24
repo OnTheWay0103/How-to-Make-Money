@@ -5,7 +5,12 @@ category: 'Mechanics'
 version: '1.0'
 updated: '2026-08-25'
 keywords: ['sovereign tower mechanics', 'sovereign tower daily cycle', 'sovereign tower audience', 'sovereign tower round table', 'sovereign tower quests', 'sovereign tower affinity']
-related: ['beginner-guide', 'knight-stats', 'factions-guide', 'economy-guide', 'rewind-guide']
+related:
+  - beginner-guide
+  - knight-stats
+  - factions-guide
+  - economy-guide
+  - rewind-guide
 sources:
   - tier: "Official"
     text: "Core loop of audiences, Round Table, quests, and the Demon rewind per the official press release and store page"

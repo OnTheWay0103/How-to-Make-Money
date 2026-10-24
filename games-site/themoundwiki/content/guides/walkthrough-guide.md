@@ -5,7 +5,13 @@ category: "Guides"
 version: "1.0"
 updated: "2026-09-17"
 keywords: ["The Mound Omen of Cthulhu walkthrough", "The Mound Omen of Cthulhu story guide", "The Mound mission types", "The Mound prologue", "The Mound logbook", "The Mound final mission", "The Mound how long to beat"]
-related: ["beginner-guide", "contracts-guide", "extraction-guide", "enemy-bestiary", "maps-locations-guide", "boss-weakness-drops-chart"]
+related:
+  - beginner-guide
+  - contracts-guide
+  - extraction-guide
+  - enemy-bestiary
+  - maps-locations-guide
+  - boss-weakness-drops-chart
 ---
 
 # Walkthrough — How the Story Actually Unfolds

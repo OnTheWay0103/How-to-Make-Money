@@ -6,7 +6,12 @@ version: "1.0"
 updated: "2026-10-24"
 date: "2026-08-08"
 keywords: ["low-budget repairs wallpaper", "low-budget repairs how to remove wallpaper", "low-budget repairs how to hang wallpaper", "low-budget repairs wallpaper guide", "low-budget repairs paint over wallpaper"]
-related: ["painting-guide", "materials-guide", "tool-guide", "renovation-jobs-guide", "bathroom-renovation-guide"]
+related:
+  - painting-guide
+  - materials-guide
+  - tool-guide
+  - renovation-jobs-guide
+  - bathroom-renovation-guide
 ---
 
 # Low-Budget Repairs Wallpaper Guide — Hang, Scrape & Paint Over

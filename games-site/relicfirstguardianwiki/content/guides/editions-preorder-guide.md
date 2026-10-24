@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["relic first guardian pre order bonus", "relic first guardian editions", "relic first guardian night of the unextinguished flame", "relic first guardian deluxe", "relic first guardian how to claim bonus", "relic first guardian sanctuary of the forgotten light"]
-related: ["release-date-platforms", "weapons-guide", "relic-combinations", "beginner-guide"]
+related:
+  - release-date-platforms
+  - weapons-guide
+  - relic-combinations
+  - beginner-guide
 ---
 
 # Editions & Pre-Order Guide — Bonuses, Platforms & How to Claim

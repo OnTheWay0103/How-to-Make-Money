@@ -5,7 +5,13 @@ category: "Mechanics"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["sephiria tablets", "sephiria tablet guide", "sephiria tablet combinations", "sephiria tablet builds", "sephiria inventory grid", "sephiria best tablets"]
-related: ["artifacts-guide", "builds-guide", "inscriptions-guide", "endgame-guide", "weapons-guide", "staff-build-guide"]
+related:
+  - artifacts-guide
+  - builds-guide
+  - inscriptions-guide
+  - endgame-guide
+  - weapons-guide
+  - staff-build-guide
 ---
 
 # Tablets Guide — Inventory Grid Power & Best Tablet Combos

@@ -5,7 +5,11 @@ category: 'Exploration'
 version: 'Early Access'
 updated: '2026-08-11'
 keywords: ['echoes of mystralia npcs', 'echoes of mystralia characters', 'azimuth temple', 'echoes of mystralia hub', 'mystralia watchers']
-related: ['beginner-guide', 'ea-roadmap-guide', 'memories-guide', 'faq']
+related:
+  - beginner-guide
+  - ea-roadmap-guide
+  - memories-guide
+  - faq
 ---
 
 # Hub & Characters Guide — The Azimuth Temple & Fellow Watchers

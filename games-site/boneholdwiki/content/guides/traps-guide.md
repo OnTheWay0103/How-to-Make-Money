@@ -5,7 +5,11 @@ category: 'Traps'
 version: '1.0'
 updated: '2026-08-08'
 keywords: ['Bonehold traps', 'Bonehold hazards', 'Bonehold spike traps', 'Bonehold flame wall', 'Bonehold pit traps', 'Bonehold fire traps', 'Bonehold trap guide']
-related: ['enemies-guide', 'combat-guide', 'beginner-guide', 'tips-and-tricks']
+related:
+  - enemies-guide
+  - combat-guide
+  - beginner-guide
+  - tips-and-tricks
 ---
 
 # Bonehold Traps Guide - Every Hazard Type and How to Use Them

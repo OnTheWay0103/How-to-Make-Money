@@ -5,7 +5,11 @@ category: "Guides"
 version: "EA"
 updated: "2026-08-11"
 keywords: ["SpiritVale paladin leveling guide", "SpiritVale warrior leveling guide", "SpiritVale class leveling", "SpiritVale leveling guide", "SpiritVale best leveling class"]
-related: ["beginner-guide", "classes-guide", "advanced-classes-guide", "builds-guide"]
+related:
+  - beginner-guide
+  - classes-guide
+  - advanced-classes-guide
+  - builds-guide
 ---
 
 # SpiritVale Class Leveling & Progression Guide — Best Classes for Leveling

@@ -5,7 +5,11 @@ category: "Reference"
 version: "1.0.6"
 updated: "2026-08-08"
 keywords: ["beast of reincarnation boss list", "nushi weaknesses", "beast of reincarnation all bosses", "rangifer weakness", "taurus weakness", "corvus boss", "nue malefact weakness"]
-related: ["tier-list", "combat-system-guide", "elemental-builds-guide", "chapter-progression-guide"]
+related:
+  - tier-list
+  - combat-system-guide
+  - elemental-builds-guide
+  - chapter-progression-guide
 sources:
   - tier: "Official"
     text: "The Nushi boss hunt as the core loop, absorbing bosses' powers, and the final Beast of Reincarnation fight are described on the official Steam store page and in launch coverage"

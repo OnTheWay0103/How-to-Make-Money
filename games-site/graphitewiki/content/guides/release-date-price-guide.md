@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["graphite release date", "graphite price", "graphite steam", "graphite gog", "graphite launch discount", "graphite act 1 demo", "graphite how long to beat"]
-related: ["system-requirements", "graphite-demo-guide", "beginner-guide", "heroes-guide"]
+related:
+  - system-requirements
+  - graphite-demo-guide
+  - beginner-guide
+  - heroes-guide
 sources:
   - tier: "Official"
     text: "Launched July 27, 2026 on Steam and GOG at $8.99 with a 20% launch discount — official store listings and press announcements"

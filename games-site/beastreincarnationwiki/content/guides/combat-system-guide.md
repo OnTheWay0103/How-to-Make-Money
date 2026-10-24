@@ -5,7 +5,11 @@ category: "Reference"
 version: "1.0.6"
 updated: "2026-08-08"
 keywords: ["beast of reincarnation combat", "parry guide beast of reincarnation", "koo commands", "fp florescence points", "down gauge", "beast of reincarnation mechanics"]
-related: ["skill-tree-overview", "beginner-guide", "nushi-boss-reference", "elemental-builds-guide"]
+related:
+  - skill-tree-overview
+  - beginner-guide
+  - nushi-boss-reference
+  - elemental-builds-guide
 sources:
   - tier: "Official"
     text: "The hybrid combat system — real-time swordplay with turn-based-style Bloom Art commands via a slow-motion menu, and parrying to restore FP — matches the official Steam store description and launch coverage"

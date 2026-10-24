@@ -5,7 +5,11 @@ category: "Walkthrough"
 version: "1.0.6"
 updated: "2026-08-09"
 keywords: ["beast of reincarnation chapter 2 walkthrough", "chapter 2 creeping tendrils", "ancient civilization zone", "thunderwave sword location", "beast of reincarnation lacerta"]
-related: ["lacerta-boss-guide", "chapter-1-walkthrough", "chapter-progression-guide", "weapons-armor-guide"]
+related:
+  - lacerta-boss-guide
+  - chapter-1-walkthrough
+  - chapter-progression-guide
+  - weapons-armor-guide
 ---
 
 # Chapter 2 Walkthrough — Creeping Tendrils (Ancient Civilization Zone)

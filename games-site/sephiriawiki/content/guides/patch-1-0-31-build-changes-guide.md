@@ -5,7 +5,14 @@ category: "Guides"
 version: "1.0"
 updated: "2026-09-12"
 keywords: ["sephiria 1.0.31", "sephiria patch notes", "sephiria 1.0.33", "sephiria 1.0.31 new artifacts", "sephiria update september 2026", "sephiria build changes", "sephiria blinding silence", "sephiria garden of needle ice", "sephiria bloodletting gearblade", "sephiria cerulean cloud sword arges", "sephiria m-9200 crossbow", "sephiria training grounds"]
-related: ["weapons-guide", "artifacts-guide", "builds-guide", "sword-shield-build-guide", "greatsword-build-guide", "katana-build-guide", "crossbow-build-guide"]
+related:
+  - weapons-guide
+  - artifacts-guide
+  - builds-guide
+  - sword-shield-build-guide
+  - greatsword-build-guide
+  - katana-build-guide
+  - crossbow-build-guide
 sources:
   - tier: "Official"
     text: "Patch 1.0.31 was posted as the Steam Community announcement '1.0.31 Update' on September 10, 2026 (Steam app 2436940). Every upgrade name, artifact name, stat line and effect rewrite in this guide is taken from that announcement: the two new Sword and Shield upgrades (Blinding Silence, Garden of Needle Ice), the Magic Wand removal and its replacement Prismatic Magic Wand, the Great Sword upgrade Bloodletting Gearblade, the Crossbow upgrade M-9200, the Blade upgrade Cerulean Cloud Sword Arges, the eight new artifacts, the eleven reworked artifacts, the seventeen reworked weapons, and the Comprehensive Training Grounds addition. The previous build, 1.0.30, was posted on August 20, 2026, making 1.0.31 the first update in three weeks. The Training Grounds freeze history referenced here comes from the same announcement series (known issue in 1.0.24, fixed in 1.0.25)"

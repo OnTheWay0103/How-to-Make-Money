@@ -5,7 +5,12 @@ category: "Guides"
 version: "EA"
 updated: "2026-08-09"
 keywords: ["SpiritVale world boss chart", "SpiritVale boss summons", "SpiritVale Spirit of the Vale", "SpiritVale boss drops", "SpiritVale endgame boss party", "SpiritVale world bosses"]
-related: ["raid-boss-guide", "boss-guide", "party-composition", "endgame-guide", "farming-resource-guide"]
+related:
+  - raid-boss-guide
+  - boss-guide
+  - party-composition
+  - endgame-guide
+  - farming-resource-guide
 sources:
   - tier: "Official"
     text: "20+ bosses including world bosses at Early Access launch — official announcements"

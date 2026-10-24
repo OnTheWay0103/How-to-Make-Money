@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: '2026-08-01'
 keywords: ["shift at midnight norbert", "don't shoot norbert shift at midnight", "shift at midnight gnome", "norbert the gnome guide", "shift at midnight lemonade stand", "shift at midnight pranks"]
-related: ["doppelganger-guide", "story-walkthrough", "beginner-guide", "endings-guide"]
+related:
+  - doppelganger-guide
+  - story-walkthrough
+  - beginner-guide
+  - endings-guide
 ---
 
 # Shift At Midnight Norbert Guide — Don't Shoot the Gnome

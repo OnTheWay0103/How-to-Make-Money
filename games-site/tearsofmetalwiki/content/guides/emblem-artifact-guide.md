@@ -5,7 +5,12 @@ category: "Mechanics"
 version: "Early Access"
 updated: "2026-08-11"
 keywords: ["Tears of Metal emblems", "Tears of Metal artifacts", "Tears of Metal emblem combinations", "Tears of Metal best artifacts", "Tears of Metal emblem guide"]
-related: ["best-builds", "corruption-guide", "weapon-merge-guide", "village-upgrade-guide", "beginner-guide"]
+related:
+  - best-builds
+  - corruption-guide
+  - weapon-merge-guide
+  - village-upgrade-guide
+  - beginner-guide
 sources:
   - tier: "Official"
     text: "Emblems are temporary within-run choices that reset each run; the game ships with 100+ artifacts for build variety — official description and launch coverage"

@@ -6,7 +6,10 @@ date: "2026-08-03"
 keywords: ["low-budget repairs jobs", "low budget repairs job list", "low budget repairs renovation jobs", "low budget repairs flooded bathroom", "low budget repairs kitchen renovation", "low budget repairs plumbing"]
 updated: "2026-10-24"
 version: "1.0"
-related: ["painting-guide", "tiling-guide", "faq"]
+related:
+  - painting-guide
+  - tiling-guide
+  - faq
 sources:
   - tier: "Community"
     text: "The five demo job types and their shortcut strategies are documented from the July 2026 demo by players"

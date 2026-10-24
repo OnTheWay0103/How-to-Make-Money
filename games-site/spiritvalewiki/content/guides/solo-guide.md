@@ -5,7 +5,12 @@ category: "Guides"
 version: "EA"
 updated: "2026-08-09"
 keywords: ["SpiritVale solo guide", "SpiritVale solo class", "SpiritVale solo boss", "SpiritVale party finder", "SpiritVale solo leveling"]
-related: ["beginner-guide", "class-tier-list", "leveling-guide", "boss-guide", "world-boss-chart"]
+related:
+  - beginner-guide
+  - class-tier-list
+  - leveling-guide
+  - boss-guide
+  - world-boss-chart
 ---
 
 # SpiritVale Solo Guide — Best Classes & Strategies for Solo Players

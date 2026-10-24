@@ -5,7 +5,12 @@ category: 'Mechanics'
 version: '1.0'
 updated: '2026-08-11'
 keywords: ['grain rot mechanics', 'grain rot systems guide', 'grain rot corruption system', 'grain rot how to play', 'grain rot vessel system', 'grain rot explained']
-related: ['beginner-guide', 'tips-and-tricks', 'extraction-guide', 'outpost-upgrade-guide', 'crafting-resources-guide']
+related:
+  - beginner-guide
+  - tips-and-tricks
+  - extraction-guide
+  - outpost-upgrade-guide
+  - crafting-resources-guide
 ---
 
 # Game Mechanics & Systems Guide — How Grain Rot Really Works

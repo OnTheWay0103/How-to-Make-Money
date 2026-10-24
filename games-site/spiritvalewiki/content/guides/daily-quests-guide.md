@@ -5,7 +5,13 @@ category: "Guides"
 version: "EA"
 updated: "2026-08-09"
 keywords: ["SpiritVale daily quests", "SpiritVale weekly quests", "SpiritVale weekly reset", "SpiritVale daily routine", "SpiritVale repeatable quests", "SpiritVale quest guide"]
-related: ["leveling-guide", "farming-resource-guide", "cards-guide", "crafting-guide", "world-boss-chart", "guild-guide"]
+related:
+  - leveling-guide
+  - farming-resource-guide
+  - cards-guide
+  - crafting-guide
+  - world-boss-chart
+  - guild-guide
 ---
 
 # SpiritVale Daily Quests Guide — Daily & Weekly Routines

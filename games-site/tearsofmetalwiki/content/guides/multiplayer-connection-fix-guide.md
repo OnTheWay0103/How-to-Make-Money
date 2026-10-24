@@ -5,7 +5,12 @@ category: "Guides"
 version: "Early Access"
 updated: "2026-09-12"
 keywords: ["tears of metal desync fix", "tears of metal multiplayer lag", "tears of metal co-op not working", "tears of metal crossplay", "tears of metal multiplayer fix", "tears of metal game pass co-op"]
-related: ["co-op-guide", "beginner-guide", "patch-notes", "save-system-guide", "coop-join-failures-guide"]
+related:
+  - co-op-guide
+  - beginner-guide
+  - patch-notes
+  - save-system-guide
+  - coop-join-failures-guide
 ---
 
 # Tears of Metal Multiplayer & Connection Fix Guide — Desync, Lag & Crossplay

@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: '2026-08-04'
 keywords: ["shift at midnight all doppelgangers", "shift at midnight doppelganger list", "every doppelganger shift at midnight", "how to spot doppelgangers shift at midnight", "tommy delgado shift at midnight", "agnes wells shift at midnight"]
-related: ["doppelganger-guide", "story-walkthrough", "enemy-bestiary", "beginner-guide"]
+related:
+  - doppelganger-guide
+  - story-walkthrough
+  - enemy-bestiary
+  - beginner-guide
 ---
 
 ## The Complete Doppelganger List

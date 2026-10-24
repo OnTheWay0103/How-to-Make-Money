@@ -5,7 +5,10 @@ category: 'Reference'
 version: '1.0'
 updated: '2026-08-22'
 keywords: ['doloc town steam deck', 'doloc town system requirements', 'doloc town minimum specs', 'doloc town pc requirements', 'doloc town performance']
-related: ['beginner-guide', 'faq', 'tier-list']
+related:
+  - beginner-guide
+  - faq
+  - tier-list
 sources:
   - tier: "Official"
     text: "Steam Deck rated Playable (not Verified) with official minimum PC specs published — Steam Deck compatibility listing and store page"

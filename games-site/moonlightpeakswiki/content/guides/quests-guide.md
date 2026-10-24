@@ -5,7 +5,10 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-01"
 keywords: ["moonlight peaks quest guide", "moonlight peaks a bridge too far", "moonlight peaks death quest", "moonlight peaks story walkthrough"]
-related: ["beginner-guide", "mining-guide", "characters-guide"]
+related:
+  - beginner-guide
+  - mining-guide
+  - characters-guide
 sources:
   - tier: "Official"
     text: "The story thread about 'the secrets of the seven families' is per the Steam store description; individual quest details below are not published in official materials"

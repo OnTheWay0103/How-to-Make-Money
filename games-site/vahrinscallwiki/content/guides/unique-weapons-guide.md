@@ -5,7 +5,12 @@ category: 'Guides'
 version: '1.0'
 updated: '2026-08-06'
 keywords: ['vahrins call unique weapons', 'vahrins call hidden gear', 'vahrins call colosseum victor sword', 'vahrins call best weapons', 'vahrins call rare items']
-related: ['weapons-guide', 'gear-enhancement', 'puzzles-secrets-guide', 'farming-resource-guide', 'boss-guide']
+related:
+  - weapons-guide
+  - gear-enhancement
+  - puzzles-secrets-guide
+  - farming-resource-guide
+  - boss-guide
 ---
 
 # Unique Weapons & Hidden Gear Guide — Documented Named Items

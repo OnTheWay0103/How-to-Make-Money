@@ -5,7 +5,12 @@ category: "Guides"
 version: "1.0"
 updated: "2026-09-17"
 keywords: ["The Mound crafting", "The Mound crafting recipes", "The Mound weapon upgrade anvil", "The Mound gear upgrades", "The Mound tokens", "The Mound occult shop"]
-related: ["extraction-guide", "beginner-guide", "money-guide", "loadout-guide", "weapons-guide"]
+related:
+  - extraction-guide
+  - beginner-guide
+  - money-guide
+  - loadout-guide
+  - weapons-guide
 ---
 
 # Crafting Guide — Is There a Crafting System?

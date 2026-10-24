@@ -5,7 +5,11 @@ category: 'Systems'
 version: 'Early Access'
 updated: '2026-08-11'
 keywords: ['echoes of mystralia memories guide', 'echoes of mystralia memories', 'mystralia memory farming', 'echoes of mystralia memory system', 'echoes of mystralia spell crafting']
-related: ['spell-crafting-guide', 'best-spell-builds', 'beginner-guide', 'relics-guide']
+related:
+  - spell-crafting-guide
+  - best-spell-builds
+  - beginner-guide
+  - relics-guide
 sources:
   - tier: "Official"
     text: "Memories are harvested from defeated enemies and used to forge and customize spells; Early Access launched with 100+ Memories — official Steam page"

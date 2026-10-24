@@ -5,7 +5,12 @@ category: 'Builds'
 version: '1.0'
 updated: '2026-08-03'
 keywords: ['dragonsword awakening reina', 'reina guide', 'reina build', 'reina skills', 'dragonsword awakening airborne', 'dragonsword awakening best hero']
-related: ['hero-builds-guide', 'tier-list', 'combat-guide', 'team-compositions', 'hero-unlock-guide']
+related:
+  - hero-builds-guide
+  - tier-list
+  - combat-guide
+  - team-compositions
+  - hero-unlock-guide
 ---
 
 ## Reina Guide — Airborne DPS & the Royal Guard Captain

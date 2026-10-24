@@ -6,7 +6,11 @@ version: "1.0"
 updated: "2026-10-24"
 date: "2026-08-07"
 keywords: ["low-budget repairs languages", "low budget repairs language options", "low budget repairs polish", "low budget repairs english", "low budget repairs chinese support", "low budget repairs voice acting"]
-related: ["controls-guide", "faq", "price-editions-guide", "system-requirements"]
+related:
+  - controls-guide
+  - faq
+  - price-editions-guide
+  - system-requirements
 ---
 
 # Low-Budget Repairs Languages — Full List & What's Supported

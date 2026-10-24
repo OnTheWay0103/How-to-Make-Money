@@ -5,7 +5,13 @@ category: "Speedrun"
 version: "1.0"
 updated: "2026-08-21"
 keywords: ["Sephiria speedrun", "speedrun guide", "fastest route Sephiria", "speedrun tips", "how to speedrun Sephiria", "tower climb speedrun"]
-related: ["beginner-guide", "builds-guide", "weapons-guide", "chapter-guide", "artifacts-guide", "boss-guide"]
+related:
+  - beginner-guide
+  - builds-guide
+  - weapons-guide
+  - chapter-guide
+  - artifacts-guide
+  - boss-guide
 sources:
   - tier: "Community"
     text: "The Crossbow is the community's default speedrun weapon"

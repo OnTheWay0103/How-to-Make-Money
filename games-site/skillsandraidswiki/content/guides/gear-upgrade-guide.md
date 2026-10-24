@@ -5,7 +5,11 @@ category: "Guides"
 version: "Current"
 updated: "2026-08-11"
 keywords: ["Skills & Raids gear upgrade", "Skills & Raids gear guide", "Skills & Raids equipment", "Skills & Raids rarity tiers", "Skills & Raids item progression", "Skills & Raids weapons", "Skills & Raids best weapons"]
-related: ["loot-guide", "crafting-guide", "builds-guide", "extraction-guide"]
+related:
+  - loot-guide
+  - crafting-guide
+  - builds-guide
+  - extraction-guide
 ---
 
 # Skills & Raids Gear Guide — Rarity Tiers, Weapons & Progression

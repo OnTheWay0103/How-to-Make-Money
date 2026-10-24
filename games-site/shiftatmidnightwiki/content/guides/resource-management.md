@@ -5,7 +5,12 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-04"
 keywords: ["shift at midnight resource management", "shift at midnight store money", "shift at midnight stock quota", "shift at midnight personal cash", "shift at midnight supplies", "shift at midnight arsenal"]
-related: ["money-guide", "item-locations", "survival-strategies", "achievements-guide", "endless-mode-guide"]
+related:
+  - money-guide
+  - item-locations
+  - survival-strategies
+  - achievements-guide
+  - endless-mode-guide
 ---
 
 # Shift at Midnight Resource Management — Every Supply, Spent Right

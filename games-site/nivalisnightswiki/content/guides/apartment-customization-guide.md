@@ -6,7 +6,10 @@ version: "Pre-release"
 updated: "2026-08-07"
 date: "2026-08-07"
 keywords: ["nivalis nights apartment customization", "nivalis nights apartment decorating", "nivalis nights furniture", "nivalis nights buy apartment", "nivalis nights home upgrade"]
-related: ["npc-relationships-guide", "beginner-guide", "best-business-guide"]
+related:
+  - npc-relationships-guide
+  - beginner-guide
+  - best-business-guide
 sources:
   - tier: "Official"
     text: "Buying and decorating apartments across the city, including customizing homes for friends, is confirmed in official descriptions and publisher material"

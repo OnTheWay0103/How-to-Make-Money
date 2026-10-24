@@ -6,7 +6,11 @@ version: "Pre-release"
 updated: "2026-08-07"
 date: "2026-08-07"
 keywords: ["nivalis nights faq", "nivalis nights release date", "nivalis nights price", "nivalis nights multiplayer", "nivalis nights demo", "nivalis nights questions", "nivalis nights information"]
-related: ["release-date-guide", "system-requirements-guide", "beginner-guide", "best-business-guide"]
+related:
+  - release-date-guide
+  - system-requirements-guide
+  - beginner-guide
+  - best-business-guide
 sources:
   - tier: "Official"
     text: "Release date, developer (ION LANDS), publisher (505 Games), Cloudpunk connection, single-player status and the seven business types are from official announcements and the Steam store page"

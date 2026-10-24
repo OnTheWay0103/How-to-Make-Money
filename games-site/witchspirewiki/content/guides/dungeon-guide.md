@@ -5,7 +5,12 @@ category: "Guides"
 version: "0.1.4"
 updated: "2026-08-10"
 keywords: ["Witchspire dungeon guide", "Witchspire dungeons", "Nightveil Cave", "Soley Cave", "Shard Caverns", "Witchspire dungeon loot", "Witchspire dungeon bosses"]
-related: ["shuddersands-guide", "mira-isles-guide", "vyrs-region-guide", "crafting-guide", "lumi-boss-guide"]
+related:
+  - shuddersands-guide
+  - mira-isles-guide
+  - vyrs-region-guide
+  - crafting-guide
+  - lumi-boss-guide
 ---
 
 # Dungeon Guide — All Dungeons, Bosses, and Loot

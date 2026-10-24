@@ -5,7 +5,11 @@ category: 'Game Info'
 version: 'Early Access'
 updated: '2026-08-11'
 keywords: ['echoes of mystralia save file location', 'echoes of mystralia save files', 'echoes of mystralia steam cloud', 'echoes of mystralia full release save', 'echoes of mystralia backup save', 'does echoes of mystralia carry over to full release', 'echoes of mystralia save transfer full release']
-related: ['demo-save-transfer', 'ea-launch-guide', 'ea-roadmap-guide', 'faq']
+related:
+  - demo-save-transfer
+  - ea-launch-guide
+  - ea-roadmap-guide
+  - faq
 ---
 
 # Echoes of Mystralia Save Files — Steam Cloud, Backup & Full-Release Carry-Over

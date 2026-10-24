@@ -5,7 +5,12 @@ category: "FAQ"
 version: "Current"
 updated: "2026-08-11"
 keywords: ["Skills & Raids FAQ", "Skills & Raids questions", "Skills & Raids help", "Skills & Raids beginner questions", "Skills & Raids release date", "Skills & Raids achievements", "Skills & Raids events"]
-related: ["beginner-guide", "extraction-guide", "builds-guide", "character-guide", "raid-progression-guide"]
+related:
+  - beginner-guide
+  - extraction-guide
+  - builds-guide
+  - character-guide
+  - raid-progression-guide
 ---
 
 # Skills & Raids FAQ — Frequently Asked Questions

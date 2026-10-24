@@ -5,7 +5,12 @@ category: "Weapons"
 version: "1.0"
 updated: "2026-08-21"
 keywords: ["sephiria weapons", "sephiria weapon guide", "sephiria best weapon", "sephiria sword and shield", "sephiria greatsword", "sephiria dagger", "sephiria katana", "sephiria crossbow", "sephiria staff", "sephiria best starting weapon"]
-related: ["builds-guide", "beginner-guide", "artifacts-guide", "chapter-guide", "inscriptions-guide"]
+related:
+  - builds-guide
+  - beginner-guide
+  - artifacts-guide
+  - chapter-guide
+  - inscriptions-guide
 sources:
   - tier: "Official"
     text: "6 weapon types (Sword & Shield, Greatsword, Dagger, Katana, Crossbow, Staff) and 50+ upgrades per weapon — Steam store page"

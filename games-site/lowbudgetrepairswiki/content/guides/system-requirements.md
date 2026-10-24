@@ -6,7 +6,9 @@ date: "2026-08-03"
 keywords: ["low-budget repairs system requirements", "low budget repairs pc specs", "low budget repairs minimum requirements", "low budget repairs recommended specs", "low budget repairs can i run it"]
 updated: "2026-10-24"
 version: "1.0"
-related: ["faq", "painting-guide"]
+related:
+  - faq
+  - painting-guide
 sources:
   - tier: "Official"
     text: "Minimum and recommended specs mirrored from the official Steam store page (Windows 10 64-bit, 8 GB minimum RAM, RX 580 / GTX 1060 minimum GPU, 30 GB storage)"

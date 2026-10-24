@@ -5,7 +5,9 @@ category: "Game Info"
 version: "1.0"
 updated: "2026-08-01"
 keywords: ["expeditions samurai sengoku", "expeditions samurai history", "expeditions samurai sekigahara", "expeditions samurai hatamoto", "expeditions samurai samurai", "expeditions samurai warring states", "expeditions samurai japan", "expeditions samurai historical context"]
-related: ["village-management-guide", "walkthrough-act-one"]
+related:
+  - village-management-guide
+  - walkthrough-act-one
 ---
 
 # Sengoku Japan 101 — The Historical Context of Expeditions: Samurai

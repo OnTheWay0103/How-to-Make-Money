@@ -5,7 +5,11 @@ category: "Boss"
 version: "1.0.6"
 updated: "2026-08-09"
 keywords: ["beast of reincarnation corvus boss", "how to beat corvus", "corvus weakness", "beast of reincarnation chapter 7 boss", "acid burst nobudou"]
-related: ["nushi-boss-reference", "chapter-progression-guide", "combat-system-guide", "elemental-builds-guide"]
+related:
+  - nushi-boss-reference
+  - chapter-progression-guide
+  - combat-system-guide
+  - elemental-builds-guide
 ---
 
 # Corvus Boss Guide — How to Beat the Crow Nushi

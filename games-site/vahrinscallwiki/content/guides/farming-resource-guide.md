@@ -5,7 +5,11 @@ category: 'Guides'
 version: '1.0'
 updated: '2026-08-01'
 keywords: ['vahrins call farming guide', 'vahrins call gold farm', 'vahrins call resource guide', 'vahrins call materials', 'vahrins call money guide']
-related: ['alchemy-crafting-guide', 'gear-enhancement', 'zones-areas-guide', 'beginner-guide']
+related:
+  - alchemy-crafting-guide
+  - gear-enhancement
+  - zones-areas-guide
+  - beginner-guide
 ---
 
 # Farming & Resource Guide — What's Confirmed

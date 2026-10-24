@@ -5,7 +5,13 @@ category: "Builds"
 version: "1.0"
 updated: "2026-08-21"
 keywords: ["Sephiria talents", "best talents Sephiria", "talent tree", "Sephiria talents guide", "talent builds", "talent points"]
-related: ["builds-guide", "beginner-guide", "inscriptions-guide", "weapons-guide", "hard-mode-guide", "farming-guide"]
+related:
+  - builds-guide
+  - beginner-guide
+  - inscriptions-guide
+  - weapons-guide
+  - hard-mode-guide
+  - farming-guide
 sources:
   - tier: "Editorial"
     text: "Build directions and talent-spending recommendations are our recommendations"

@@ -5,7 +5,12 @@ category: "Guides"
 version: "Early Access"
 updated: "2026-09-04"
 keywords: ["Tears of Metal armored enemies", "Tears of Metal how to break armor", "Tears of Metal grey shield bar", "Tears of Metal shield break", "Tears of Metal armor breaking combo", "Tears of Metal Block Thrusts", "Tears of Metal enemies not taking damage"]
-related: ["combat-tips", "elite-enemy-guide", "boss-guide", "weapon-merge-guide", "progression-walkthrough"]
+related:
+  - combat-tips
+  - elite-enemy-guide
+  - boss-guide
+  - weapon-merge-guide
+  - progression-walkthrough
 sources:
   - tier: "Community"
     text: "Armored enemies carry a grey shield bar above their real health, elites stack two or three grey bars, and armor-breaking combos (not raw damage) strip them — documented by multiple independent guides, including Destructoid ('How to defeat armored enemies in Tears of Metal'), allthings.how ('How to Break Armored Enemy Shields'), and translated coverage at moyens.net (ES/SV) and dungen.ru — checked September 2026"

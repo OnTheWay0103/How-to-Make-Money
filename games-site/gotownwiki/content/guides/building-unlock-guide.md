@@ -5,7 +5,10 @@ category: 'Progression'
 version: '1.0'
 updated: '2026-08-01'
 keywords: ['Go-Go Town buildings', 'Go-Go Town unlock buildings', 'Go-Go Town EGO tech', 'Go-Go Town shops', 'Go-Go Town progression']
-related: ['beginner-guide', 'tourist-attraction-guide', 'money-making-guide']
+related:
+  - beginner-guide
+  - tourist-attraction-guide
+  - money-making-guide
 ---
 
 # Go-Go Town! Building Unlock Guide — All Buildings and How to Unlock Them

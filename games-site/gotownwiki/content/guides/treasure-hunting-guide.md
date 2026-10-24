@@ -5,7 +5,10 @@ category: 'Collections'
 version: '1.0'
 updated: '2026-08-01'
 keywords: ['Go-Go Town treasure hunting', 'Go-Go Town fossils', 'Go-Go Town artifacts', 'Go-Go Town hidden relics', 'Go-Go Town collections']
-related: ['tips-and-tricks', 'beginner-guide', 'building-unlock-guide']
+related:
+  - tips-and-tricks
+  - beginner-guide
+  - building-unlock-guide
 ---
 
 # Go-Go Town! Treasure Hunting Guide — Fossils, Artifacts & Hidden Relics

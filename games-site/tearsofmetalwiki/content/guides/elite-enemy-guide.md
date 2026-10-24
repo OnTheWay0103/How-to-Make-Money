@@ -5,7 +5,12 @@ category: "Guides"
 version: "Early Access"
 updated: "2026-08-11"
 keywords: ["Tears of Metal elites", "Tears of Metal elite enemies", "Tears of Metal captains", "Tears of Metal boss bodyguards", "Tears of Metal corrupted elites", "Tears of Metal elite loot"]
-related: ["threat-level-difficulty-guide", "weapon-merge-guide", "boss-guide", "corruption-guide", "combat-tips"]
+related:
+  - threat-level-difficulty-guide
+  - weapon-merge-guide
+  - boss-guide
+  - corruption-guide
+  - combat-tips
 ---
 
 # Tears of Metal Elite Enemy Guide — Captains, Boss Bodyguards & Corrupted Elites

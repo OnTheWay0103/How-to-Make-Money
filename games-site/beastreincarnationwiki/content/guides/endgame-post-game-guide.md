@@ -5,7 +5,12 @@ category: "Endgame"
 version: "1.0.6"
 updated: "2026-08-09"
 keywords: ["beast of reincarnation endgame", "new game plus beast of reincarnation", "beast of reincarnation platinum", "reincarnation difficulty", "beast of reincarnation trophies", "post game beast of reincarnation", "beast of reincarnation ng+ carry over"]
-related: ["elemental-builds-guide", "endings-guide", "chapter-progression-guide", "faq", "tier-list"]
+related:
+  - elemental-builds-guide
+  - endings-guide
+  - chapter-progression-guide
+  - faq
+  - tier-list
 ---
 
 # Endgame & Post-Game Guide — New Game+, Trophies & Farming

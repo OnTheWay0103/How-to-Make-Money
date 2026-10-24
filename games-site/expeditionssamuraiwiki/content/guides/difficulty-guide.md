@@ -5,7 +5,10 @@ category: "Beginner"
 version: "1.0"
 updated: "2026-08-01"
 keywords: ["expeditions samurai difficulty", "expeditions samurai difficulty settings", "expeditions samurai combat difficulty", "expeditions samurai resource settings", "expeditions samurai hard mode", "expeditions samurai custom difficulty"]
-related: ["beginner-guide", "combat-guide", "tips-and-tricks"]
+related:
+  - beginner-guide
+  - combat-guide
+  - tips-and-tricks
 ---
 
 # Expeditions: Samurai — Difficulty Guide

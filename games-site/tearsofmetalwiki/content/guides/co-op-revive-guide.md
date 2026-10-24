@@ -5,7 +5,13 @@ category: "Guides"
 version: "Early Access"
 updated: "2026-09-06"
 keywords: ["Tears of Metal co-op revive", "Tears of Metal revive health cost", "Tears of Metal how to revive teammate", "Tears of Metal revive changed 0.12", "Tears of Metal can't revive", "Tears of Metal downed teammate", "Tears of Metal revive no longer coins"]
-related: ["co-op-guide", "healing-guide", "survival-tips", "boss-guide", "patch-notes", "multiplayer-connection-fix-guide"]
+related:
+  - co-op-guide
+  - healing-guide
+  - survival-tips
+  - boss-guide
+  - patch-notes
+  - multiplayer-connection-fix-guide
 sources:
   - tier: "Official"
     text: "Paper Cult's v0.12.58540 patch (August 13, 2026) changed co-op revives from a coin cost to a health cost; the developer explained the old coin system 'untangled' poorly with the Charm economy because players hoarded coins for increasingly expensive revives — Steam Community announcements (steamcommunity.com/app/1913120/allnews). The follow-up v0.14.58630 patch (August 14, 2026) continued multiplayer bug fixes."

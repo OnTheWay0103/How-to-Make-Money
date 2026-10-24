@@ -5,7 +5,12 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["sephiria final boss", "sephiria chapter 6", "sephiria how to beat final boss", "sephiria ending", "sephiria final chapter guide", "sephiria last boss"]
-related: ["full-release-guide", "boss-guide", "weapons-guide", "hard-mode-guide", "endgame-guide"]
+related:
+  - full-release-guide
+  - boss-guide
+  - weapons-guide
+  - hard-mode-guide
+  - endgame-guide
 ---
 
 # Sephiria Chapter 6 & Final Boss Guide — The Ending Content (1.0)

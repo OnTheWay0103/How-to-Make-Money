@@ -5,7 +5,12 @@ category: "Guides"
 version: "Current"
 updated: "2026-08-11"
 keywords: ["Skills & Raids extraction guide", "Skills & Raids how to extract", "Skills & Raids run guide", "Skills & Raids survival tips", "Skills & Raids loot", "Skills & Raids solo play", "Skills & Raids single player", "Skills & Raids run planning"]
-related: ["beginner-guide", "builds-guide", "maps-guide", "raid-progression-guide", "loot-guide"]
+related:
+  - beginner-guide
+  - builds-guide
+  - maps-guide
+  - raid-progression-guide
+  - loot-guide
 ---
 
 # Skills & Raids Extraction Guide — How to Survive Every Run

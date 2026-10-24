@@ -5,7 +5,11 @@ category: 'Farming'
 version: '1.0'
 updated: '2026-08-22'
 keywords: ['doloc town farm layout', 'doloc town farm setup', 'doloc town how to move buildings', 'doloc town vertical farm', 'doloc town lightning rod', 'doloc town building']
-related: ['beginner-guide', 'crops-guide', 'automation-drone-guide', 'weather-guide']
+related:
+  - beginner-guide
+  - crops-guide
+  - automation-drone-guide
+  - weather-guide
 ---
 
 # How to Set Up Your Farm — Layout & Building Guide

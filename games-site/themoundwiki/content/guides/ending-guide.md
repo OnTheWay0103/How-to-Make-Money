@@ -5,7 +5,12 @@ category: "Guides"
 version: "1.0"
 updated: "2026-09-17"
 keywords: ["themound ending", "themound ending explained", "themound how does it end", "themound final mission", "themound story ending", "themound zamacona", "themound temple of yig"]
-related: ["walkthrough-guide", "contracts-guide", "enemy-bestiary", "faq-content", "game-length-guide"]
+related:
+  - walkthrough-guide
+  - contracts-guide
+  - enemy-bestiary
+  - faq-content
+  - game-length-guide
 ---
 
 # The Mound Ending Guide — What Actually Happens and Why There Is Only One

@@ -5,7 +5,11 @@ category: 'Reference'
 version: 'Early Access'
 updated: '2026-08-11'
 keywords: ['echoes of mystralia discord', 'echoes of mystralia community', 'echoes of mystralia known issues', 'echoes of mystralia bug report', 'echoes of mystralia newsletter', 'echoes of mystralia feedback', 'echoes of mystralia steam forums']
-related: ['ea-launch-guide', 'ea-roadmap-guide', 'faq', 'controller-support-guide']
+related:
+  - ea-launch-guide
+  - ea-roadmap-guide
+  - faq
+  - controller-support-guide
 ---
 
 # Echoes of Mystralia Community — Official Discord, Newsletter & Bug Reporting

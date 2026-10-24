@@ -5,7 +5,11 @@ category: "Tier List"
 version: "Current"
 updated: "2026-08-11"
 keywords: ["Skills & Raids tier list", "Skills & Raids best skills", "Skills & Raids rankings", "Skills & Raids best builds", "Skills & Raids meta"]
-related: ["builds-guide", "skills-guide", "beginner-guide", "team-compositions-guide"]
+related:
+  - builds-guide
+  - skills-guide
+  - beginner-guide
+  - team-compositions-guide
 ---
 
 # Skills & Raids Tier List — Roles & Rarity Priorities

@@ -5,7 +5,13 @@ category: "Guides"
 version: "0.1.4"
 updated: "2026-08-10"
 keywords: ["Witchspire Hearth upgrade", "Witchspire base building", "Witchspire Hearth levels", "Astral Projection", "Witchspire base location", "Witchspire how to build", "Witchspire build house", "Witchspire base defense", "Witchspire walls"]
-related: ["crafting-guide", "flight-unlock-guide", "main-quest-walkthrough", "beginner-guide", "farming-guide", "coop-multiplayer-guide"]
+related:
+  - crafting-guide
+  - flight-unlock-guide
+  - main-quest-walkthrough
+  - beginner-guide
+  - farming-guide
+  - coop-multiplayer-guide
 ---
 
 # Hearth & Base Building Guide — Upgrades, Construction, Defense & Locations

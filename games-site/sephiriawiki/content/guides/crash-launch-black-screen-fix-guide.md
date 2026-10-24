@@ -5,7 +5,12 @@ category: "Guides"
 version: "1.0"
 updated: "2026-09-12"
 keywords: ["Sephiria crash on startup", "Sephiria won't launch", "Sephiria black screen", "Sephiria crash fix", "Sephiria force d3d11", "Sephiria D3D12 folder", "Sephiria stuck on logo", "Sephiria launch options"]
-related: ["beginner-guide", "controls-settings-guide", "save-file-guide", "multiplayer-connection-fix-guide", "full-release-guide"]
+related:
+  - beginner-guide
+  - controls-settings-guide
+  - save-file-guide
+  - multiplayer-connection-fix-guide
+  - full-release-guide
 sources:
   - tier: "Official"
     text: "TEAM HORAY has patched Sephiria launch failures repeatedly: patch 0.12.3 (July 1, 2026, Steam announcement mirrored by gaminerd.com) fixed an 'instant crash from a black screen when launched in environments with limited DirectX 12 support' and a failure to run when corrupted language files could not load; the 1.0.30 update (August 20, 2026, Steam announcement / 17173 mirror) improved an issue where the game could close under certain circumstances on Steam Deck — steamcommunity.com/app/2436940"

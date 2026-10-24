@@ -5,7 +5,13 @@ category: "Mechanics"
 version: "1.0"
 updated: "2026-08-21"
 keywords: ["Sephiria inscriptions", "inscription system", "socketing guide", "destiny inscriptions", "best inscriptions", "inscription farming", "socket slots"]
-related: ["builds-guide", "weapons-guide", "artifacts-guide", "beginner-guide", "farming-guide", "talents-guide"]
+related:
+  - builds-guide
+  - weapons-guide
+  - artifacts-guide
+  - beginner-guide
+  - farming-guide
+  - talents-guide
 sources:
   - tier: "Official"
     text: "Sapphires are earned from every run, win or lose — the developer-documented permanent currency"

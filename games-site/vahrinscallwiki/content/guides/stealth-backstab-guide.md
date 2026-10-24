@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-04"
 keywords: ["vahrins call stealth guide", "vahrins call backstab", "vahrins call sneak attack", "vahrins call stealth tips", "vahrins call finishers"]
-related: ["combat-guide", "enemies-bestiary-guide", "weapons-guide", "farming-resource-guide"]
+related:
+  - combat-guide
+  - enemies-bestiary-guide
+  - weapons-guide
+  - farming-resource-guide
 ---
 
 # Stealth & Backstab Guide — How Sneak Attacks Work

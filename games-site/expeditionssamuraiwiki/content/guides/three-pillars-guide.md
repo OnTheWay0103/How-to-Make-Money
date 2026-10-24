@@ -5,7 +5,11 @@ category: "Mechanics"
 version: "1.0"
 updated: "2026-08-07"
 keywords: ["expeditions samurai three pillars", "expeditions samurai stealth diplomacy steel", "expeditions samurai pillars", "expeditions samurai stealth vs diplomacy", "expeditions samurai approach guide", "expeditions samurai when to fight"]
-related: ["stealth-guide", "diplomacy-guide", "combat-guide", "beginner-guide"]
+related:
+  - stealth-guide
+  - diplomacy-guide
+  - combat-guide
+  - beginner-guide
 ---
 
 # Expeditions: Samurai — The Three Pillars Guide (Stealth, Diplomacy & Steel)

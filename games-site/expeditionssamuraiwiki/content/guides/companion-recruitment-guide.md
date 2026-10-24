@@ -5,7 +5,10 @@ category: "Companions"
 version: "1.0"
 updated: "2026-08-07"
 keywords: ["expeditions samurai companion recruitment", "expeditions samurai how to recruit companions", "expeditions samurai where to find companions", "expeditions samurai recruitment order", "expeditions samurai antje location", "expeditions samurai johan recruit", "expeditions samurai tora hime recruit"]
-related: ["companions-guide", "party-composition-guide", "walkthrough-act-one"]
+related:
+  - companions-guide
+  - party-composition-guide
+  - walkthrough-act-one
 ---
 
 # Expeditions: Samurai — Companion Recruitment Guide (Act One)

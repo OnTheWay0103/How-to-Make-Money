@@ -5,7 +5,11 @@ category: 'Multiplayer'
 version: '1.0'
 updated: '2026-08-01'
 keywords: ['Bonehold co-op', 'Bonehold multiplayer', 'Is Bonehold multiplayer', 'Bonehold co-op 2 player', 'Bonehold online multiplayer', 'Bonehold local co-op', 'Bonehold Steam Remote Play']
-related: ['beginner-guide', 'classes-guide', 'endgame-guide', 'progression-guide']
+related:
+  - beginner-guide
+  - classes-guide
+  - endgame-guide
+  - progression-guide
 ---
 
 # Bonehold Co-Op & Multiplayer Guide — Is Bonehold Multiplayer?

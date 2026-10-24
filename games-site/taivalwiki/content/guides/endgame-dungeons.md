@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["taival endgame", "taival companion dungeons", "taival henki dungeon", "taival late game", "taival early access content", "taival endgame guide", "taival 1.0 roadmap"]
-related: ["boss-guide", "skill-trees-guide", "crafting-professions-guide", "biomes-exploration-guide"]
+related:
+  - boss-guide
+  - skill-trees-guide
+  - crafting-professions-guide
+  - biomes-exploration-guide
 ---
 
 ## Endgame & Companion Dungeons Guide

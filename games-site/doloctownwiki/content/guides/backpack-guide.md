@@ -5,7 +5,10 @@ category: 'Systems'
 version: '1.0'
 updated: '2026-08-22'
 keywords: ['doloc town backpack', 'doloc town backpack upgrade', 'doloc town inventory slots', 'doloc town hult general store', 'doloc town inventory space']
-related: ['beginner-guide', 'how-to-make-money', 'materials-guide']
+related:
+  - beginner-guide
+  - how-to-make-money
+  - materials-guide
 ---
 
 # Backpack Upgrades Guide — Slot Costs & When to Buy

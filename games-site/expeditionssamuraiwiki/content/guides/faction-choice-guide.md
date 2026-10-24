@@ -5,7 +5,11 @@ category: "Game Info"
 version: "1.0"
 updated: "2026-08-07"
 keywords: ["expeditions samurai faction", "expeditions samurai which faction", "expeditions samurai tokugawa", "expeditions samurai eastern army", "expeditions samurai western army", "expeditions samurai sekigahara choice", "expeditions samurai ishida mitsunari"]
-related: ["diplomacy-guide", "history-guide", "village-management-guide", "walkthrough-act-one"]
+related:
+  - diplomacy-guide
+  - history-guide
+  - village-management-guide
+  - walkthrough-act-one
 ---
 
 # Expeditions: Samurai — Faction Guide (Which Side to Choose in Act One)

@@ -5,7 +5,13 @@ category: "Guides"
 version: "0.1.4"
 updated: "2026-08-10"
 keywords: ["Witchspire events", "Witchspire Night Events", "Witchspire boss events", "Witchspire seasonal", "Witchspire festivals", "Witchspire seasonal tokens", "Witchspire limited-time", "Witchspire special encounters", "Witchspire event rewards"]
-related: ["shuddersands-guide", "coop-multiplayer-guide", "mira-isles-guide", "timberline-basin-guide", "lumi-boss-guide", "farming-guide"]
+related:
+  - shuddersands-guide
+  - coop-multiplayer-guide
+  - mira-isles-guide
+  - timberline-basin-guide
+  - lumi-boss-guide
+  - farming-guide
 ---
 
 # Events Guide — Night Events, Seasonal Festivals & Special Encounters

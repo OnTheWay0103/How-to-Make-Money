@@ -5,7 +5,12 @@ category: "Builds"
 version: "Early Access"
 updated: "2026-08-11"
 keywords: ["Ruadh build", "best Ruadh build", "Ruadh weapons", "Ruadh emblems", "hammer build", "Tears of Metal Ruadh Stonecrusher"]
-related: ["best-builds", "heroes-tier-list", "weapon-merge-guide", "emblem-artifact-guide", "boss-guide"]
+related:
+  - best-builds
+  - heroes-tier-list
+  - weapon-merge-guide
+  - emblem-artifact-guide
+  - boss-guide
 ---
 
 # Tears of Metal Ruadh Stonecrusher Build Guide — Best Weapons, Emblems & Strategy

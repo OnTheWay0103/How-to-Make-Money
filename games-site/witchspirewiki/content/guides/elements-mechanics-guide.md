@@ -5,7 +5,13 @@ category: "Guides"
 version: "0.1.4"
 updated: "2026-08-10"
 keywords: ["Witchspire elements", "Witchspire element system", "Witchspire game mechanics", "Witchspire element weaknesses", "Witchspire salvaging", "Witchspire familiar feeding"]
-related: ["beginner-guide", "crafting-guide", "tier-list", "vyrs-region-guide", "enemy-weakness-guide", "all-familiars-guide"]
+related:
+  - beginner-guide
+  - crafting-guide
+  - tier-list
+  - vyrs-region-guide
+  - enemy-weakness-guide
+  - all-familiars-guide
 sources:
   - tier: "Community"
     text: "The six-element system (Nature, Lux, Nox, Crystal, Ethereal, Astral), coven affinities, weather effects, and hidden mechanics are community-reported"

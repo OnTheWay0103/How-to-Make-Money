@@ -5,7 +5,12 @@ category: Guides
 version: '1.0'
 updated: '2026-08-01'
 keywords: ['minegeon endgame', 'minegeon renegades late-game', 'minegeon renegades best builds', 'minegeon renegades build guide', 'minegeon deep runs', 'minegeon renegades endgame guide']
-related: ['class-builds', 'progression-guide', 'boss-guide', 'weapons-guide', 'achievements-guide']
+related:
+  - class-builds
+  - progression-guide
+  - boss-guide
+  - weapons-guide
+  - achievements-guide
 ---
 
 ## Endgame Guide — What the Endgame Actually Is

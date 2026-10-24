@@ -5,7 +5,11 @@ category: "Boss"
 version: "1.0.6"
 updated: "2026-08-09"
 keywords: ["beast of reincarnation rangifer boss", "how to beat rangifer", "rangifer weakness", "beast of reincarnation first boss", "rangifer rematch chapter 5"]
-related: ["nushi-boss-reference", "beginner-guide", "combat-system-guide", "elemental-builds-guide"]
+related:
+  - nushi-boss-reference
+  - beginner-guide
+  - combat-system-guide
+  - elemental-builds-guide
 ---
 
 # Rangifer Boss Guide — How to Beat the Giant Stag

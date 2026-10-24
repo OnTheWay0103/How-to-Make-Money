@@ -5,7 +5,13 @@ category: "Guides"
 version: "1.0"
 updated: "2026-09-17"
 keywords: ["themound contracts", "themound missions", "ox cart themound", "themound contract rewards", "themound expedition types", "themound contract tiers", "themound legendary contract"]
-related: ["extraction-guide", "coop-strategy-guide", "beginner-guide", "money-guide", "legendary-hunts", "daily-challenges"]
+related:
+  - extraction-guide
+  - coop-strategy-guide
+  - beginner-guide
+  - money-guide
+  - legendary-hunts
+  - daily-challenges
 ---
 
 # The Mound Contracts Guide — Tiers, Mission Types and Rewards

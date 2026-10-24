@@ -5,7 +5,13 @@ category: "Guides"
 version: "1.0"
 updated: "2026-09-17"
 keywords: ["themound boss", "does the mound have bosses", "themound boss fight", "themound endgame", "themound forest awakens", "themound biggest enemies", "themound final mission"]
-related: ["legendary-hunts", "walkthrough-guide", "enemy-bestiary", "nightmare-mode", "combat-survival-guide", "contracts-guide"]
+related:
+  - legendary-hunts
+  - walkthrough-guide
+  - enemy-bestiary
+  - nightmare-mode
+  - combat-survival-guide
+  - contracts-guide
 ---
 
 # Is There Boss Content in The Mound? What the Record Shows

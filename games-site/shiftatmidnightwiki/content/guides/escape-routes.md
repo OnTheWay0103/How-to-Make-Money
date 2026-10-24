@@ -5,7 +5,12 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-04"
 keywords: ["shift at midnight escape routes", "shift at midnight bus", "shift at midnight correct bus", "shift at midnight entity escape", "shift at midnight exits", "shift at midnight co-op routes"]
-related: ["story-walkthrough", "item-locations", "survival-strategies", "endings-guide", "coop-strategy-guide"]
+related:
+  - story-walkthrough
+  - item-locations
+  - survival-strategies
+  - endings-guide
+  - coop-strategy-guide
 ---
 
 # Shift at Midnight Escape Routes — Get Out Alive, Every Night

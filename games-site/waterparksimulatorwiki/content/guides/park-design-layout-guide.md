@@ -5,7 +5,11 @@ category: "Deep Dive"
 version: "1.0"
 updated: "2026-08-08"
 keywords: ["waterpark simulator layout", "waterpark simulator park design", "waterpark simulator best layout", "waterpark simulator entrance", "waterpark simulator trash can placement", "waterpark simulator path design", "waterpark simulator park planning"]
-related: ["slide-ride-tier-list", "visitor-happiness-guide", "money-making-guide", "beginner-guide"]
+related:
+  - slide-ride-tier-list
+  - visitor-happiness-guide
+  - money-making-guide
+  - beginner-guide
 ---
 
 # Park Design & Layout Tips — Build a Park That Runs Itself

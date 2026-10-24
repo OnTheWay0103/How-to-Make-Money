@@ -6,7 +6,13 @@ date: "2026-08-03"
 keywords: ["low-budget repairs faq", "low budget repairs release date", "low budget repairs steam", "low budget repairs price", "low budget repairs multiplayer", "low budget repairs demo", "low budget repairs system requirements", "low budget repairs preload"]
 updated: "2026-10-24"
 version: "1.0"
-related: ["system-requirements", "painting-guide", "renovation-jobs-guide", "release-hub", "demo-guide", "price-editions-guide"]
+related:
+  - system-requirements
+  - painting-guide
+  - renovation-jobs-guide
+  - release-hub
+  - demo-guide
+  - price-editions-guide
 sources:
   - tier: "Official"
     text: "Release date (August 13, 2026), $19.99 USD Steam price, Steam (PC/Windows) platform, demo date (July 24, 2026), and system requirements verified against the Steam appdetails API on 2026-10-24"

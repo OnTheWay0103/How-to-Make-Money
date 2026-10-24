@@ -5,7 +5,10 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-01"
 keywords: ["moonlight peaks farming", "moonlight peaks crops", "moonlight peaks blood grapes", "moonlight peaks best crops"]
-related: ["beginner-guide", "potions-guide", "money-guide"]
+related:
+  - beginner-guide
+  - potions-guide
+  - money-guide
 sources:
   - tier: "Official"
     text: "Mystical crop farming is a core feature per the Steam store description, and the store page confirms the automatic return to your coffin at sunrise"

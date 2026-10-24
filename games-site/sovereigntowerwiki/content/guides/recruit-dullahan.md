@@ -5,7 +5,12 @@ category: 'Recruitment'
 version: '1.0'
 updated: '2026-08-25'
 keywords: ['sovereign tower how to get dullahan', 'sovereign tower dullahan', 'sovereign tower goberto death', 'sovereign tower intangible knight', 'sovereign tower best knight trade', 'sovereign tower false bank']
-related: ['knight-recruitment-guide', 'knight-stats', 'tier-list', 'rewind-guide', 'dragon-knight-guide']
+related:
+  - knight-recruitment-guide
+  - knight-stats
+  - tier-list
+  - rewind-guide
+  - dragon-knight-guide
 sources:
   - tier: "Community"
     text: "Recruitment requirement (Goberto dead) and arrival timing per Prodigygamers and Tpose Gaming"

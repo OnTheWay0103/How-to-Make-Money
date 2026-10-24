@@ -5,7 +5,10 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["relic first guardian controls", "relic first guardian settings", "relic first guardian keybinds", "relic first guardian PS5 controls", "relic first guardian PC controls", "relic first guardian best settings", "relic first guardian pc performance", "relic first guardian steam", "relic first guardian fps", "relic first guardian system requirements", "relic first guardian stutter fix", "relic first guardian pc issues"]
-related: ["beginner-guide", "combat-guide", "release-date-platforms"]
+related:
+  - beginner-guide
+  - combat-guide
+  - release-date-platforms
 ---
 
 # Controls, Settings & Performance Guide — PC & PS5 Setup

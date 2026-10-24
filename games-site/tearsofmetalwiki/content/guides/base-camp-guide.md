@@ -5,7 +5,12 @@ category: "Guides"
 version: "Early Access"
 updated: "2026-08-11"
 keywords: ["tears of metal base camp", "tears of metal village hub", "tears of metal pre-run preparation", "tears of metal loadout checklist", "tears of metal armory artifacts", "tears of metal camp guide"]
-related: ["village-upgrade-guide", "beginner-guide", "battalion-companion-guide", "emblem-artifact-guide", "save-system-guide"]
+related:
+  - village-upgrade-guide
+  - beginner-guide
+  - battalion-companion-guide
+  - emblem-artifact-guide
+  - save-system-guide
 ---
 
 # Tears of Metal Base Camp Guide — Pre-Run Preparation at the Village Hub

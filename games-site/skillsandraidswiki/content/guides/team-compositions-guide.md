@@ -5,7 +5,11 @@ category: "Guides"
 version: "Current"
 updated: "2026-08-11"
 keywords: ["Skills and Raids best team", "Skills and Raids raid best starter team", "Skills and Raids team comp", "Skills and Raids party setup", "Skills and Raids best team composition"]
-related: ["builds-guide", "beginner-guide", "character-guide", "skills-guide"]
+related:
+  - builds-guide
+  - beginner-guide
+  - character-guide
+  - skills-guide
 ---
 
 # Skills & Raids Team Compositions Guide — Building Around the Trio

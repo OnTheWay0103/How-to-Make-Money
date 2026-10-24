@@ -5,7 +5,11 @@ category: "Endgame"
 version: "1.0.6"
 updated: "2026-08-09"
 keywords: ["beast of reincarnation endings", "how many endings beast of reincarnation", "beast of reincarnation true ending", "does koo die", "beast of reincarnation epilogue"]
-related: ["endgame-post-game-guide", "chapter-progression-guide", "elemental-builds-guide", "faq"]
+related:
+  - endgame-post-game-guide
+  - chapter-progression-guide
+  - elemental-builds-guide
+  - faq
 sources:
   - tier: "Official"
     text: "The story of defeating the Beast of Reincarnation across the chapters is described on the official Steam store page"

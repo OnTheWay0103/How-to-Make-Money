@@ -5,7 +5,13 @@ category: "Guides"
 version: "EA"
 updated: "2026-09-13"
 keywords: ["spiritvale ptr", "spiritvale publictest", "spiritvale test server", "how to join spiritvale ptr", "spiritvale beta branch", "spiritvale advanced artifacts", "spiritvale test build"]
-related: ["artifact-sets-guide", "updates-patch-notes", "connection-server-guide", "trading-market-guide", "endgame-guide", "beginner-guide"]
+related:
+  - artifact-sets-guide
+  - updates-patch-notes
+  - connection-server-guide
+  - trading-market-guide
+  - endgame-guide
+  - beginner-guide
 sources:
   - tier: "Official"
     text: "Steam announcement 'We got some news!' (July 31, 2026), official SpiritVale Steam news feed (App 3767850): why the PTR was created, the four rules ('PTR is NOT LIVE SERVER progression but has a version of your characters for testing. Progression can be reset/changed. There is no connection to live servers.'), the daily update cadence, the feedback-gated go-live policy, and the join steps."

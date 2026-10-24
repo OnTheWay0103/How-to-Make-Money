@@ -5,7 +5,13 @@ category: "Weapons"
 version: "1.0"
 updated: "2026-08-21"
 keywords: ["sephiria staff build", "sephiria best staff build", "sephiria staff guide", "sephiria element build", "sephiria ice build", "sephiria fire build 1.0"]
-related: ["weapons-guide", "mystic-pot-guide", "hard-mode-guide", "chapter-6-final-boss-guide", "tablets-guide", "coop-guide"]
+related:
+  - weapons-guide
+  - mystic-pot-guide
+  - hard-mode-guide
+  - chapter-6-final-boss-guide
+  - tablets-guide
+  - coop-guide
 ---
 
 # Staff Build Guide — Element Synergy & Tablets

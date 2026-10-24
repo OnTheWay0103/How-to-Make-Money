@@ -5,7 +5,13 @@ category: 'Bosses'
 version: 'Early Access'
 updated: '2026-08-11'
 keywords: ['echoes of mystralia boss guide', 'echoes of mystralia therakan', 'echoes of mystralia guardian boss', 'echoes of mystralia enemies', 'echoes of mystralia monsters', 'mystralia boss strategy', 'echoes of mystralia enemy guide']
-related: ['ash-forest-guide', 'best-spell-builds', 'beginner-guide', 'faq', 'combat-mechanics-guide', 'farming-guide']
+related:
+  - ash-forest-guide
+  - best-spell-builds
+  - beginner-guide
+  - faq
+  - combat-mechanics-guide
+  - farming-guide
 sources:
   - tier: "Official"
     text: "Enemy layers confirmed at Early Access: Rift-spawned foes, Shadows of the Past, Elites, and Guardian boss encounters; 3 Guardian encounters across the launch regions — official Steam page and press materials"

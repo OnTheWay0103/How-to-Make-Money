@@ -5,7 +5,13 @@ category: 'Co-op'
 version: '1.0'
 updated: '2026-09-11'
 keywords: ['grain rot matchmaking', 'grain rot server browser', 'grain rot public servers', 'grain rot join randoms', 'grain rot how to play with friends', 'grain rot multiplayer', 'grain rot invite only', 'grain rot lobby']
-related: ['patch-notes-guide', 'co-op-guide', 'player-count-guide', 'full-release-guide', 'release-date-faq', 'solo-guide']
+related:
+  - patch-notes-guide
+  - co-op-guide
+  - player-count-guide
+  - full-release-guide
+  - release-date-faq
+  - solo-guide
 sources:
   - tier: "Official"
     text: "Patch 1.07 — 'Public servers are now available to join via an in-game browser', plus more host game settings under the multiplayer options tab, support for password protected servers, and friends-of-anyone-in-the-server joining for friends-only and invite-only modes — Grain Rot official Steam announcement, August 12, 2026 (store.steampowered.com/news/app/4450620)"

@@ -5,7 +5,11 @@ category: 'Spells'
 version: '1.0'
 updated: '2026-08-01'
 keywords: ['Bonehold spells', 'Bonehold spell scrolls', 'Bonehold magic guide', 'Bonehold Scorcher spells', 'Bonehold Spellblade build']
-related: ['combat-guide', 'weapons-guide', 'classes-guide', 'best-builds']
+related:
+  - combat-guide
+  - weapons-guide
+  - classes-guide
+  - best-builds
 ---
 
 # Bonehold Spells Guide — Spell Scrolls and Magic Systems

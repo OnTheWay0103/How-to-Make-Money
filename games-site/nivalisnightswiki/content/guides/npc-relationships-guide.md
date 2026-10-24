@@ -6,7 +6,10 @@ version: "Pre-release"
 updated: "2026-08-07"
 date: "2026-08-07"
 keywords: ["nivalis nights npc relationships", "nivalis nights romance", "nivalis nights characters", "nivalis nights npc guide", "nivalis nights friendship", "nivalis nights love interest", "nivalis nights gifts"]
-related: ["apartment-customization-guide", "beginner-guide", "fishing-guide"]
+related:
+  - apartment-customization-guide
+  - beginner-guide
+  - fishing-guide
 ---
 
 # NPC Relationships Guide — Key NPCs, Friends, Rivals & Romance in Nivalis Nights

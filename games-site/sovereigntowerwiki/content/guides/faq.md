@@ -5,7 +5,12 @@ category: 'FAQ'
 version: '1.0'
 updated: '2026-08-25'
 keywords: ['sovereign tower faq', 'sovereign tower release date', 'sovereign tower price', 'sovereign tower platforms', 'is sovereign tower on switch', 'sovereign tower how long']
-related: ['beginner-guide', 'price-platforms', 'game-length', 'knight-stats', 'rewind-guide']
+related:
+  - beginner-guide
+  - price-platforms
+  - game-length
+  - knight-stats
+  - rewind-guide
 sources:
   - tier: "Official"
     text: "Release, price, and platform facts per the Curve Games press release and Steam store page"

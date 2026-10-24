@@ -5,7 +5,10 @@ category: Gadgets
 version: '1.0'
 updated: '2026-08-01'
 keywords: ['minegeon renegades gadgets', 'minegeon renegades best gadgets', 'minegeon gadgets guide', 'minegeon renegades best loadout', 'minegeon renegades gadgets and ultimates', 'minegeon renegades how to unlock gadgets', 'minegeon area control', 'minegeon renegades traps']
-related: ['weapons-guide', 'class-builds', 'classes-guide']
+related:
+  - weapons-guide
+  - class-builds
+  - classes-guide
 sources:
   - tier: "Official"
     text: "Level up to unlock powerful Gadgets that grant a wide variety of upgrades; the full game includes over 150 unique gadgets — Steam store page and demo page"

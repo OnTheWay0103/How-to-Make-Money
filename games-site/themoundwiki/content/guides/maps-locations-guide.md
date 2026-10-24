@@ -5,7 +5,13 @@ category: "Guides"
 version: "1.0"
 updated: "2026-09-17"
 keywords: ["themound maps", "themound locations", "themound map guide", "themound navigation", "themound ox cart map", "themound fort logbooks", "themound medallion", "themound mainland"]
-related: ["ox-cart-guide", "extraction-guide", "enemy-bestiary", "contracts-guide", "walkthrough-guide", "beginner-guide"]
+related:
+  - ox-cart-guide
+  - extraction-guide
+  - enemy-bestiary
+  - contracts-guide
+  - walkthrough-guide
+  - beginner-guide
 ---
 
 # Maps & Navigation — What's Actually There

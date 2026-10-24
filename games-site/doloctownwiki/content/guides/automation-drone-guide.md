@@ -5,7 +5,11 @@ category: 'Endgame'
 version: '1.0'
 updated: '2026-08-22'
 keywords: ['doloc town automation', 'doloc town drone', 'doloc town best drone', 'doloc town abandoned drone', 'doloc town drone engine', 'doloc town farming automation']
-related: ['tech-tree-guide', 'ranching-guide', 'farm-layout-guide', 'beginner-guide']
+related:
+  - tech-tree-guide
+  - ranching-guide
+  - farm-layout-guide
+  - beginner-guide
 sources:
   - tier: "Official"
     text: "Farming automation added with 1.0 — official 1.0 announcements"

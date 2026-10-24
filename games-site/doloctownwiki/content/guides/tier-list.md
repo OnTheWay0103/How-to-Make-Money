@@ -5,7 +5,11 @@ category: 'Reference'
 version: '1.0'
 updated: '2026-08-22'
 keywords: ['doloc town tier list', 'doloc town best crops', 'doloc town best fishing rod', 'doloc town meta', 'doloc town rankings']
-related: ['crops-guide', 'fishing-guide', 'how-to-make-money', 'tech-tree-guide']
+related:
+  - crops-guide
+  - fishing-guide
+  - how-to-make-money
+  - tech-tree-guide
 ---
 
 # Tier List — The Honest State of Crop & Tool Rankings

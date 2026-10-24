@@ -5,7 +5,10 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-01"
 keywords: ["moonlight peaks beginner guide", "moonlight peaks first days", "moonlight peaks getting started", "moonlight peaks tips"]
-related: ["farming-guide", "quests-guide", "money-guide"]
+related:
+  - farming-guide
+  - quests-guide
+  - money-guide
 sources:
   - tier: "Official"
     text: "Vampire life sim by Little Chicken Game Company, published by XSEED Games and Marvelous; launched July 7, 2026 on Steam, Nintendo Switch, Switch 2, and Google Play Games; free demo; over 200,000 copies sold in the first weeks; 'Very Positive' on Steam (checked August 2026) — Steam store page and official press releases"

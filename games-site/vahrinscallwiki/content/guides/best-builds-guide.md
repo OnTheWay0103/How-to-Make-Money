@@ -5,7 +5,11 @@ category: 'Guides'
 version: '1.0'
 updated: '2026-08-01'
 keywords: ['vahrins call best build', 'vahrins call build guide', 'vahrins call classless build', 'vahrins call archer mage', 'vahrins call hybrid build']
-related: ['attributes-stats-guide', 'weapons-guide', 'magic-guide', 'combat-guide']
+related:
+  - attributes-stats-guide
+  - weapons-guide
+  - magic-guide
+  - combat-guide
 sources:
   - tier: "Official"
     text: "Classless system with switchable playstyles and Skill Books for full upgrades; the developers' own archetypes — 'a nimble-footed archer flinging fireballs between arrows' and 'an axe-wielding whirlwind of death' — official FAQ and developer materials"

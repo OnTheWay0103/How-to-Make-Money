@@ -5,7 +5,12 @@ category: "Guides"
 version: "Early Access"
 updated: "2026-08-11"
 keywords: ["tears of metal solo", "tears of metal solo guide", "best hero for solo tears of metal", "can you play tears of metal solo", "tears of metal solo tips", "tears of metal solo run strategy", "tears of metal single player"]
-related: ["heroes-tier-list", "threat-level-difficulty-guide", "boss-guide", "battalion-companion-guide", "progression-walkthrough"]
+related:
+  - heroes-tier-list
+  - threat-level-difficulty-guide
+  - boss-guide
+  - battalion-companion-guide
+  - progression-walkthrough
 ---
 
 # Tears of Metal Solo Guide — Best Hero, Battalion Tactics & Full Campaign Strategy

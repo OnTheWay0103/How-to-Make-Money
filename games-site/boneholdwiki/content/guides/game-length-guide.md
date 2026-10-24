@@ -5,7 +5,11 @@ category: 'Guides'
 version: '1.0'
 updated: '2026-08-08'
 keywords: ['How long is Bonehold', 'Bonehold game length', 'Bonehold playtime', 'Bonehold how long to beat', 'Bonehold run length', 'Bonehold hours', 'Bonehold replayability']
-related: ['endgame-guide', 'achievements-guide', 'progression-guide', 'review-guide']
+related:
+  - endgame-guide
+  - achievements-guide
+  - progression-guide
+  - review-guide
 ---
 
 # How Long Is Bonehold - Game Length, Run Duration, and Replayability

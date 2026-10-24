@@ -5,7 +5,13 @@ category: "Endgame"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["Sephiria endgame", "endgame content", "what to do after beating Sephiria", "Sephiria post-game", "Sephiria 1.0 endgame", "Sephiria gauntlet mode", "Sephiria hard mode", "Sephiria achievements"]
-related: ["hard-mode-guide", "full-release-guide", "boss-guide", "weapons-guide", "artifacts-guide", "chapter-6-final-boss-guide"]
+related:
+  - hard-mode-guide
+  - full-release-guide
+  - boss-guide
+  - weapons-guide
+  - artifacts-guide
+  - chapter-6-final-boss-guide
 ---
 
 # Endgame Content Guide — What to Do After Beating Sephiria

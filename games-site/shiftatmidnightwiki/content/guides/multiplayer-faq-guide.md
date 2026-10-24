@@ -5,7 +5,10 @@ category: "Guides"
 version: "1.0"
 updated: '2026-08-25'
 keywords: ["how many players can shift at midnight have", "shift at midnight crossplay", "shift at midnight 6 players", "is shift at midnight couch co op", "shift at midnight how to play with friends", "shift at midnight local co op", "shift at midnight how to invite friends", "shift at midnight max players"]
-related: ["coop-strategy-guide", "beginner-guide", "pc-performance-guide"]
+related:
+  - coop-strategy-guide
+  - beginner-guide
+  - pc-performance-guide
 sources:
   - tier: "Official"
     text: "Online co-op for up to 3 players with proximity voice chat, plus Xbox console and PC Game Pass playing together — Steam store page and official materials"

@@ -5,7 +5,11 @@ category: "Boss"
 version: "1.0.6"
 updated: "2026-08-09"
 keywords: ["beast of reincarnation kunai and kirin", "how to beat kunai and kirin", "kunai kirin boss", "beast of reincarnation twin boss", "beast of reincarnation chapter 12 boss"]
-related: ["nushi-boss-reference", "chapter-progression-guide", "combat-system-guide", "elemental-builds-guide"]
+related:
+  - nushi-boss-reference
+  - chapter-progression-guide
+  - combat-system-guide
+  - elemental-builds-guide
 ---
 
 # Kunai & Kirin Boss Guide — How to Beat the Twin Fight

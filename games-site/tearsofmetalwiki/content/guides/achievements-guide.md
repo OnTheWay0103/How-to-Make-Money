@@ -5,7 +5,11 @@ category: "Guides"
 version: "Early Access"
 updated: "2026-08-11"
 keywords: ["tears of metal achievements", "tears of metal achievement guide", "tears of metal trophies", "tears of metal steam achievements", "how to unlock tears of metal achievements", "tears of metal 100% achievements", "tears of metal rarest achievements"]
-related: ["boss-guide", "combat-tips", "progression-walkthrough", "heroes-tier-list"]
+related:
+  - boss-guide
+  - combat-tips
+  - progression-walkthrough
+  - heroes-tier-list
 ---
 
 # Tears of Metal Achievements Guide — Full List & How to Unlock Them

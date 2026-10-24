@@ -5,7 +5,12 @@ category: 'Recruitment'
 version: '1.0'
 updated: '2026-08-25'
 keywords: ['sovereign tower all knights', 'sovereign tower how to get all knights', 'sovereign tower knights', 'sovereign tower all characters', 'sovereign tower knight limit', 'sovereign tower recruit']
-related: ['recruit-brunhilda', 'recruit-chester', 'recruit-dullahan', 'wolf-rufus-guide', 'tier-list']
+related:
+  - recruit-brunhilda
+  - recruit-chester
+  - recruit-dullahan
+  - wolf-rufus-guide
+  - tier-list
 sources:
   - tier: "Community"
     text: "Recruitment routes and exclusivity per Tpose Gaming, Prodigygamers, Bonus Action and AllThings guides"

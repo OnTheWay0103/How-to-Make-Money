@@ -5,7 +5,12 @@ category: "Beginner"
 version: "1.0"
 updated: "2026-09-17"
 keywords: ["sephiria controls", "sephiria controller", "sephiria keybinds", "sephiria settings", "sephiria controller not working", "sephiria performance"]
-related: ["beginner-guide", "hard-mode-guide", "boss-guide", "faq-content", "multiplayer-connection-fix-guide"]
+related:
+  - beginner-guide
+  - hard-mode-guide
+  - boss-guide
+  - faq-content
+  - multiplayer-connection-fix-guide
 ---
 
 # Controls & Settings Guide — Keybinds, Controller Setup & Performance

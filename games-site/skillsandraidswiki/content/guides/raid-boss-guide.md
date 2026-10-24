@@ -5,7 +5,11 @@ category: "Guides"
 version: "Current"
 updated: "2026-08-11"
 keywords: ["Skills & Raids boss guide", "Skills & Raids raid encounters", "Skills & Raids endgame fights", "Skills & Raids combat mechanics", "Skills & Raids boss strategies"]
-related: ["raid-progression-guide", "team-compositions-guide", "enemies-guide", "builds-guide"]
+related:
+  - raid-progression-guide
+  - team-compositions-guide
+  - enemies-guide
+  - builds-guide
 ---
 
 # Skills & Raids Boss & Hard Encounter Guide

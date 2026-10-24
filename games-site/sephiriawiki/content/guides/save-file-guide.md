@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: "2026-09-12"
 keywords: ["sephiria save file", "sephiria save file location", "sephiria backup save", "sephiria corrupted save fix", "sephiria restore save", "sephiria cloud save", "sephiria steam cloud", "sephiria save slots"]
-related: ["faq-content", "full-release-guide", "multiplayer-connection-fix-guide", "endgame-guide"]
+related:
+  - faq-content
+  - full-release-guide
+  - multiplayer-connection-fix-guide
+  - endgame-guide
 sources:
   - tier: "Official"
     text: "Patch 1.0.24 (Aug 7, 2026) and hotfix 1.0.28 (Aug 14, 2026) addressed backup-save loading after save corruption — 17173 official mirror of the patch notes and vgspoilers' patch list"

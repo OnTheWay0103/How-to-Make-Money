@@ -5,7 +5,11 @@ category: 'Guides'
 version: '1.0'
 updated: '2026-08-01'
 keywords: ['is vahrins call co-op', 'vahrins call multiplayer', 'vahrins call coop', 'vahrins call single player', 'vahrins call online']
-related: ['beginner-guide', 'quest-walkthrough', 'boss-guide', 'endgame-content']
+related:
+  - beginner-guide
+  - quest-walkthrough
+  - boss-guide
+  - endgame-content
 sources:
   - tier: "Official"
     text: "Single-player-only status, co-op cut as 'too ambitious for our first title', and Xbox/PlayStation versions planned 'shortly after' the July 27, 2026 PC release — official FAQ"

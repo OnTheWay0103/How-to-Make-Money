@@ -5,7 +5,12 @@ category: 'Advanced'
 version: '1.0'
 updated: '2026-08-11'
 keywords: ['grain rot tips', 'grain rot tricks', 'grain rot tips and tricks', 'grain rot beginner tips', 'grain rot pro tips', 'grain rot advice']
-related: ['survival-tips', 'beginner-guide', 'stealth-sound-guide', 'extraction-guide', 'co-op-guide']
+related:
+  - survival-tips
+  - beginner-guide
+  - stealth-sound-guide
+  - extraction-guide
+  - co-op-guide
 ---
 
 # Tips & Tricks — 10 Essential Grain Rot Tips for New Players

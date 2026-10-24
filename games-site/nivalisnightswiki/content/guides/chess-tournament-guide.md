@@ -6,7 +6,11 @@ version: "Pre-release"
 updated: "2026-08-09"
 date: "2026-08-09"
 keywords: ["nivalis nights chess", "nivalis nights chess tournament", "nivalis nights chess guide", "nivalis nights minigames", "nivalis nights how to play chess", "nivalis nights chess rewards"]
-related: ["npc-relationships-guide", "city-districts-guide", "beginner-guide", "best-business-guide"]
+related:
+  - npc-relationships-guide
+  - city-districts-guide
+  - beginner-guide
+  - best-business-guide
 ---
 
 # Chess Tournament Guide — The Chess Scene in Nivalis Nights

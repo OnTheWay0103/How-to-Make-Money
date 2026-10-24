@@ -5,7 +5,11 @@ category: "Builds"
 version: "Early Access"
 updated: "2026-08-11"
 keywords: ["Wallace build", "best Wallace build", "Wallace weapons", "Wallace emblems", "longsword build", "Tears of Metal Wallace"]
-related: ["best-builds", "heroes-tier-list", "weapon-merge-guide", "emblem-artifact-guide"]
+related:
+  - best-builds
+  - heroes-tier-list
+  - weapon-merge-guide
+  - emblem-artifact-guide
 ---
 
 # Tears of Metal Wallace Build Guide — Best Weapons, Emblems & Strategy

@@ -5,7 +5,12 @@ category: "Guides"
 version: "0.1.4"
 updated: "2026-08-10"
 keywords: ["Witchspire multiplayer", "Witchspire co-op", "Witchspire invite friends", "Witchspire session hosting", "Witchspire progression sharing", "Witchspire 4 player"]
-related: ["beginner-guide", "main-quest-walkthrough", "best-coven-guide", "hearth-upgrade-guide", "coop-troubleshooting-guide"]
+related:
+  - beginner-guide
+  - main-quest-walkthrough
+  - best-coven-guide
+  - hearth-upgrade-guide
+  - coop-troubleshooting-guide
 ---
 
 # Co-op Multiplayer Guide — Playing With Friends

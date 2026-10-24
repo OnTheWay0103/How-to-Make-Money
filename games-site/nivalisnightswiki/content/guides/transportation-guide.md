@@ -6,7 +6,11 @@ version: "Pre-release"
 updated: "2026-08-09"
 date: "2026-08-09"
 keywords: ["nivalis nights transportation", "nivalis nights hova", "nivalis nights flying car", "nivalis nights taxi", "nivalis nights subway", "nivalis nights how to travel", "nivalis nights getting around"]
-related: ["city-districts-guide", "fishing-guide", "best-business-guide", "beginner-guide"]
+related:
+  - city-districts-guide
+  - fishing-guide
+  - best-business-guide
+  - beginner-guide
 ---
 
 # Transportation Guide — Getting Around Nivalis

@@ -5,7 +5,10 @@ category: "Companions"
 version: "1.0"
 updated: "2026-08-05"
 keywords: ["expeditions samurai companions", "expeditions samurai companion guide", "expeditions samurai party members", "expeditions samurai recruitment", "expeditions samurai loyalty"]
-related: ["romance-guide", "beginner-guide", "best-builds-guide"]
+related:
+  - romance-guide
+  - beginner-guide
+  - best-builds-guide
 sources:
   - tier: "Official"
     text: "The eight-companion cast and the five officially named companions (Antje, Johan, Tora-Hime, Etienne Durand, Piet Ruisch) come from the official Companions trailer and press kit"

@@ -5,7 +5,12 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["relic first guardian loot", "relic first guardian resources", "relic first guardian unique items", "relic first guardian relics collection", "relic first guardian no levels", "relic first guardian progression", "relic first guardian drop rates"]
-related: ["artifacts-guide", "upgrade-system", "weapons-guide", "runes-guide", "beginner-guide"]
+related:
+  - artifacts-guide
+  - upgrade-system
+  - weapons-guide
+  - runes-guide
+  - beginner-guide
 ---
 
 # Resources & Loot Guide — Uniques, Relics & Progressing Without Levels

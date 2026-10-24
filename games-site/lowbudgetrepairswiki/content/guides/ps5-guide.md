@@ -6,7 +6,11 @@ version: "1.0"
 updated: "2026-10-24"
 date: "2026-08-07"
 keywords: ["low-budget repairs ps5", "low budget repairs playstation", "low budget repairs console release", "low budget repairs ps5 price", "low budget repairs ps5 performance"]
-related: ["release-hub", "faq", "price-editions-guide", "system-requirements"]
+related:
+  - release-hub
+  - faq
+  - price-editions-guide
+  - system-requirements
 ---
 
 # Low-Budget Repairs PS5 Guide — Console Release, Performance & Differences

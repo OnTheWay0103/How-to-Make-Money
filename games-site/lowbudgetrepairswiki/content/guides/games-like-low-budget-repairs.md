@@ -6,7 +6,11 @@ version: "1.0"
 updated: "2026-10-24"
 date: "2026-08-07"
 keywords: ["games like low-budget repairs", "low budget repairs similar games", "low budget repairs vs house flipper", "renovation simulator games", "handyman simulator games"]
-related: ["price-editions-guide", "renovation-jobs-guide", "demo-guide", "faq"]
+related:
+  - price-editions-guide
+  - renovation-jobs-guide
+  - demo-guide
+  - faq
 ---
 
 # Games Like Low-Budget Repairs — 7 Similar Renovation & Handyman Simulators

@@ -5,7 +5,12 @@ category: "Guides"
 version: "Early Access"
 updated: "2026-09-03"
 keywords: ["Tears of Metal crash fix", "Tears of Metal won't launch", "Tears of Metal black screen on startup", "Tears of Metal crashing on startup", "Tears of Metal launch options dx11", "Tears of Metal crashing on PC", "Tears of Metal not starting"]
-related: ["beginner-guide", "multiplayer-connection-fix-guide", "steam-deck-guide", "save-system-guide", "patch-notes"]
+related:
+  - beginner-guide
+  - multiplayer-connection-fix-guide
+  - steam-deck-guide
+  - save-system-guide
+  - patch-notes
 sources:
   - tier: "Official"
     text: "Tears of Metal is in Early Access and the developer has shipped stability-focused patches, including v.0.10.57598 (July 31, 2026: 'changes for Act 1 and Act 2 that should help with general performance and stability') and v.0.14.58630 (August 14, 2026: multiplayer bug fixes); Steam Support also maintains a technical-issue help flow for the game — steamcommunity.com/app/1913120 and help.steampowered.com"

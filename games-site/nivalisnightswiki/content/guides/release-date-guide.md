@@ -6,7 +6,10 @@ version: "Pre-release"
 updated: "2026-08-07"
 date: "2026-08-07"
 keywords: ["nivalis nights release date", "nivalis nights price", "nivalis nights platforms", "nivalis nights steam", "nivalis nights epic games store", "nivalis nights pre order", "nivalis nights release"]
-related: ["system-requirements-guide", "faq", "beginner-guide"]
+related:
+  - system-requirements-guide
+  - faq
+  - beginner-guide
 sources:
   - tier: "Official"
     text: "Release date September 29, 2026 on Steam, publisher 505 Games, the rename from Nivalis to Nivalis Nights, and the planned later Epic Games Store release are from official publisher announcements and the Steam store page"

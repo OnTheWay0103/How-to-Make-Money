@@ -5,7 +5,12 @@ category: 'Beginner'
 version: '1.0'
 updated: '2026-08-22'
 keywords: ['doloc town beginner guide', 'doloc town getting started', 'doloc town tips and tricks', 'doloc town first week', 'doloc town how to start', 'doloc town new player guide']
-related: ['how-to-make-money', 'energy-guide', 'crops-guide', 'faq', 'farm-layout-guide']
+related:
+  - how-to-make-money
+  - energy-guide
+  - crops-guide
+  - faq
+  - farm-layout-guide
 sources:
   - tier: "Official"
     text: "Post-apocalyptic farming sim and platformer; 1.0 launched August 6, 2026 on PC via Steam — official announcements"

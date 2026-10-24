@@ -5,7 +5,12 @@ category: 'Beginner'
 version: '1.0'
 updated: '2026-08-25'
 keywords: ['sovereign tower beginner guide', 'sovereign tower getting started', 'sovereign tower tips', 'sovereign tower how to start', 'sovereign tower new player', 'sovereign tower first cycle']
-related: ['faq', 'core-mechanics', 'knight-stats', 'factions-guide', 'rewind-guide']
+related:
+  - faq
+  - core-mechanics
+  - knight-stats
+  - factions-guide
+  - rewind-guide
 sources:
   - tier: "Official"
     text: "Round-table management RPG; launched August 6, 2026 on PC via Steam — official press release and store page"

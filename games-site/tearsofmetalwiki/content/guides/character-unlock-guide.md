@@ -5,7 +5,12 @@ keywords: ["Tears of Metal character unlock", "Tears of Metal how to unlock hero
 category: "Heroes"
 version: "Early Access"
 updated: "2026-08-11"
-related: ["heroes-tier-list", "boss-guide", "patch-notes", "co-op-guide", "best-builds"]
+related:
+  - heroes-tier-list
+  - boss-guide
+  - patch-notes
+  - co-op-guide
+  - best-builds
 sources:
   - tier: "Official"
     text: "Wallace is the default hero; Ruadh Stonecrusher unlocks by defeating the Banshee (per the July 24, 2026 patch); Brienne unlocks through her dedicated quest chain — patch notes and official announcements"

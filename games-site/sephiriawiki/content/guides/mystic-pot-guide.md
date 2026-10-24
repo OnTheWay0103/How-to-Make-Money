@@ -5,7 +5,13 @@ category: "Endgame"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["sephiria mystic pot", "sephiria artifact reroll", "sephiria artifact upgrade", "sephiria artifacts how to get"]
-related: ["full-release-guide", "artifacts-guide", "endgame-guide", "weapons-guide", "hard-mode-guide", "tablets-guide"]
+related:
+  - full-release-guide
+  - artifacts-guide
+  - endgame-guide
+  - weapons-guide
+  - hard-mode-guide
+  - tablets-guide
 ---
 
 # Mystic Pot Guide — Artifact Re-Rolling & Rarity Upgrades

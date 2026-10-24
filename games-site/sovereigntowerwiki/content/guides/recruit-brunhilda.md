@@ -5,7 +5,12 @@ category: 'Recruitment'
 version: '1.0'
 updated: '2026-08-25'
 keywords: ['sovereign tower how to get brunhilda', 'sovereign tower brunhilda', 'sovereign tower recruit brunhilda', 'sovereign tower gavault', 'sovereign tower tarcus', 'sovereign tower brunhilda or tarcus']
-related: ['knight-recruitment-guide', 'recruit-chester', 'knight-stats', 'factions-guide', 'rewind-guide']
+related:
+  - knight-recruitment-guide
+  - recruit-chester
+  - knight-stats
+  - factions-guide
+  - rewind-guide
 sources:
   - tier: "Community"
     text: "Recruitment steps per Prodigygamers, Tpose Gaming and Bonus Action guides"

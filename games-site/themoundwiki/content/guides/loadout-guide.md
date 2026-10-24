@@ -5,7 +5,13 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-10"
 keywords: ["themound loadout", "themound best gear", "themound starting equipment", "themound weapon guide", "themound loadout tips", "themound equipment slots", "themound expedition gear", "themound survival loadout"]
-related: ["weapons-guide", "extraction-guide", "coop-strategy-guide", "contracts-guide", "beginner-guide", "sanity-guide"]
+related:
+  - weapons-guide
+  - extraction-guide
+  - coop-strategy-guide
+  - contracts-guide
+  - beginner-guide
+  - sanity-guide
 ---
 
 # Loadout Guide — Best Equipment for Every Expedition

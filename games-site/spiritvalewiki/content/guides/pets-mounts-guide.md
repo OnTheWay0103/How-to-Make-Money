@@ -5,7 +5,13 @@ category: "Guides"
 version: "EA"
 updated: "2026-09-16"
 keywords: ["SpiritVale pets", "SpiritVale mounts", "SpiritVale companions", "spiritvale mystery pet box", "spiritvale pet pickup", "spiritvale mount speed"]
-related: ["cosmetics-wardrobe-guide", "farming-resource-guide", "solo-guide", "leveling-guide", "class-leveling-guide", "daily-quests-guide"]
+related:
+  - cosmetics-wardrobe-guide
+  - farming-resource-guide
+  - solo-guide
+  - leveling-guide
+  - class-leveling-guide
+  - daily-quests-guide
 sources:
   - tier: "Official"
     text: "Steam announcement '[0.30.0] Early Access Launch' (July 15, 2026), App 3767850: a 'Cosmetics Store' block containing the sub-headings 'Weapon Cosmetics', 'Costume Sets', 'Accessories', 'Mounts & Pets', 'Emotes' and 'Exclusive / Redeem Only Cosmetics'. The 'Mounts & Pets' list names Fire Fox, Ice Fox, Banana Duck, Green Whale, 'Updated Horse & Griffin Mounts' and 'Updated Cats, Dogs, Griffin Pets'. The exclusive block lists 'Angelic Pet (Kickstarter)', 'Demonic Pet (Kickstarter)', 'Angelic Lion (Kickstarter)' and 'Demonic Dragon (Kickstarter)'."

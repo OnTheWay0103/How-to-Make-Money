@@ -5,7 +5,12 @@ category: "Guides"
 version: "EA"
 updated: "2026-08-28"
 keywords: ["spiritvale lag fix", "spiritvale disconnect", "spiritvale server down", "spiritvale jitter", "spiritvale best server", "spiritvale rollback", "spiritvale stable connection"]
-related: ["beginner-guide", "faq-content", "updates-patch-notes", "trading-market-guide", "solo-guide"]
+related:
+  - beginner-guide
+  - faq-content
+  - updates-patch-notes
+  - trading-market-guide
+  - solo-guide
 ---
 
 # SpiritVale Connection & Server Guide — Lag, Disconnects, Rollbacks & Best Server

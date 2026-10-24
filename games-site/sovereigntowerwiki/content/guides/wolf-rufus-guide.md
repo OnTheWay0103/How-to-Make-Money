@@ -5,7 +5,12 @@ category: 'Recruitment'
 version: '1.0'
 updated: '2026-08-25'
 keywords: ['sovereign tower wolf knight', 'sovereign tower how to get rufus', 'sovereign tower rufus', 'sovereign tower the wolf', 'sovereign tower werewolf', 'sovereign tower groveshire']
-related: ['knight-recruitment-guide', 'recruit-dullahan', 'knight-stats', 'romance-guide', 'dragon-knight-guide']
+related:
+  - knight-recruitment-guide
+  - recruit-dullahan
+  - knight-stats
+  - romance-guide
+  - dragon-knight-guide
 sources:
   - tier: "Community"
     text: "Recruitment and transformation steps per Prodigygamers, Tpose Gaming and Whisper of the House guides"

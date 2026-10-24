@@ -5,7 +5,11 @@ category: "Beginner"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["taival beginner guide", "taival getting started", "taival tips", "taival first steps", "taival new player guide", "taival henki basics"]
-related: ["henki-companion-guide", "best-henki-forms", "coop-multiplayer-guide", "crafting-professions-guide"]
+related:
+  - henki-companion-guide
+  - best-henki-forms
+  - coop-multiplayer-guide
+  - crafting-professions-guide
 sources:
   - tier: "Official"
     text: "Steam Early Access launch on July 14, 2026; developed by Bonobo Software, published by Level Up Gaming; the Henki shapeshifting companion and shattered Heartstone premise — Steam store page"

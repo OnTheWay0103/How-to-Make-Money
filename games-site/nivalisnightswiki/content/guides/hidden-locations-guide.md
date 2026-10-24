@@ -6,7 +6,12 @@ version: "Pre-release"
 updated: "2026-08-09"
 date: "2026-08-09"
 keywords: ["nivalis nights hidden locations", "nivalis nights secrets", "nivalis nights exploration", "nivalis nights hidden areas", "nivalis nights lower city", "nivalis nights unlock areas", "nivalis nights easter eggs"]
-related: ["city-districts-guide", "transportation-guide", "fishing-guide", "best-business-guide", "day-night-cycle-guide"]
+related:
+  - city-districts-guide
+  - transportation-guide
+  - fishing-guide
+  - best-business-guide
+  - day-night-cycle-guide
 ---
 
 # Hidden Locations & City Secrets — The Secret Side of Nivalis

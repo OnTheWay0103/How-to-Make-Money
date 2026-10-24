@@ -5,7 +5,12 @@ category: "Guides"
 version: "0.1.4"
 updated: "2026-08-10"
 keywords: ["Witchspire character creation", "Witchspire best starting class", "Witchspire best starter", "Witchspire Coven guide", "Witchspire class pick", "Witchspire beginner tips"]
-related: ["best-coven-guide", "spellblade-vs-wand-guide", "beginner-guide", "all-familiars-guide", "luminary-skill-tree-guide"]
+related:
+  - best-coven-guide
+  - spellblade-vs-wand-guide
+  - beginner-guide
+  - all-familiars-guide
+  - luminary-skill-tree-guide
 ---
 
 # Witchspire Character Creation Guide — Best Starting Class and Customization

@@ -5,7 +5,12 @@ category: "Guides"
 version: "1.1"
 updated: '2026-08-25'
 keywords: ["shift at midnight all endings", "shift at midnight true ending", "how to get true ending shift at midnight", "shift at midnight grave decision", "shift at midnight empty home ending", "shift at midnight how many endings", "shift at midnight don't call clyde"]
-related: ["endings-explained-guide", "story-walkthrough", "money-guide", "characters-guide", "achievements-guide"]
+related:
+  - endings-explained-guide
+  - story-walkthrough
+  - money-guide
+  - characters-guide
+  - achievements-guide
 sources:
   - tier: "Official"
     text: "Story Mode with 13 randomly generated shifts; the $250 pet-surgery cost and the Night 12 call decision are reflected in the game's three ending achievements — Steam store page and published ending guides"

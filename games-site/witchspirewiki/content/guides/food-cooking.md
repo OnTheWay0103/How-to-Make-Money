@@ -5,7 +5,11 @@ category: "Guides"
 version: "0.1.4"
 updated: "2026-08-10"
 keywords: ["Witchspire cooking", "Witchspire food", "Witchspire recipes", "cooking guide", "food buffs", "Witchspire meals"]
-related: ["crafting-guide", "beginner-guide", "potions-guide", "farming-guide"]
+related:
+  - crafting-guide
+  - beginner-guide
+  - potions-guide
+  - farming-guide
 ---
 
 # Food and Cooking Guide — Recipes and Buffs

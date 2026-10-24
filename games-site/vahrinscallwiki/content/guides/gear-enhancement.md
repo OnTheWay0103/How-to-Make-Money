@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-01"
 keywords: ["vahrins call gear enhancement", "vahrins call gear upgrade", "vahrins call loot", "vahrins call armor", "vahrins call equipment"]
-related: ["weapons-guide", "alchemy-crafting-guide", "farming-resource-guide", "endgame-content"]
+related:
+  - weapons-guide
+  - alchemy-crafting-guide
+  - farming-resource-guide
+  - endgame-content
 ---
 
 # Gear Enhancement — What's Confirmed

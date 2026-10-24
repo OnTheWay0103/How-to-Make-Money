@@ -5,7 +5,11 @@ category: "Guides"
 version: "Early Access"
 updated: "2026-10-23"
 keywords: ["tears of metal save", "tears of metal mid-campaign save", "can i save mid-run tears of metal", "tears of metal save recovery", "tears of metal lost progress", "tears of metal how long is a run"]
-related: ["beginner-guide", "threat-level-difficulty-guide", "patch-notes", "progression-walkthrough"]
+related:
+  - beginner-guide
+  - threat-level-difficulty-guide
+  - patch-notes
+  - progression-walkthrough
 ---
 
 # Tears of Metal Save System Guide — Mid-Campaign Saves, Save Recovery & What You Lose

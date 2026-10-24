@@ -5,7 +5,10 @@ category: "Guides"
 version: "1.0"
 updated: "2026-07-14"
 keywords: ["themound faq", "themound price", "themound crossplay", "themound deluxe edition", "themound system requirements", "themound steam"]
-related: ["beginner-guide", "controls-settings-guide", "solo-guide"]
+related:
+  - beginner-guide
+  - controls-settings-guide
+  - solo-guide
 ---
 
 # The Mound FAQ — 15 Most Common Questions Answered

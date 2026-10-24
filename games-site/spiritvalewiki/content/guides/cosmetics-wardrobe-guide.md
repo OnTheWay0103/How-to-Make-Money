@@ -5,7 +5,13 @@ category: "Guides"
 version: "EA"
 updated: "2026-09-16"
 keywords: ["spiritvale cosmetics", "spiritvale wardrobe", "spiritvale cosmetic shop", "spiritvale convert gear to cosmetic", "spiritvale is it pay to win", "spiritvale appearance change", "spiritvale mystery pet box", "spiritvale cosmetics list"]
-related: ["pets-mounts-guide", "trading-market-guide", "updates-patch-notes", "artifact-sets-guide", "beginner-guide", "faq-content"]
+related:
+  - pets-mounts-guide
+  - trading-market-guide
+  - updates-patch-notes
+  - artifact-sets-guide
+  - beginner-guide
+  - faq-content
 sources:
   - tier: "Official"
     text: "Steam announcement '[Update 0.14.0] Cosmetics Update' (March 15, 2026), official SpiritVale Steam announcement published during the public Playtest phase, before Early Access launch (it is not in the post-launch news feed for App 3767850): the wardrobe menu, 'Cosmetic items can be purchased from here, adding it permanently to your wardrobe across all characters', 'Equip conversion to cosmetic (100p)', 'World drop cosmetics like pets and mounts can be added/removed from wardrobe and traded', 'All premium cosmetics are account bound, world droppable monster pets and mounts are tradable', 'Mystery Pet Box: world drop that gives random monster pet', 'Mystery Mount Box: world drop that gives random monster mount', 'Storage Expansion +500 (500p)', boss-exclusive cosmetic drops, pets periodically collecting items, mounts granting a 40% out-of-combat movement bonus, and the note that the shop currency ('p') was bought through Ko-fi donations at that time with a move to Steam purchases planned after Early Access launch."

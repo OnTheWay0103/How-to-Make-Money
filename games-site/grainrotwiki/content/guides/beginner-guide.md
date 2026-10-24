@@ -5,7 +5,12 @@ category: 'Beginner'
 version: '1.0'
 updated: '2026-08-11'
 keywords: ['grain rot beginner guide', 'grain rot getting started', 'grain rot tips', 'grain rot how to play', 'grain rot tutorial']
-related: ['all-enemies-guide', 'co-op-guide', 'extraction-guide', 'demo-guide', 'game-mechanics-systems-guide']
+related:
+  - all-enemies-guide
+  - co-op-guide
+  - extraction-guide
+  - demo-guide
+  - game-mechanics-systems-guide
 sources:
   - tier: "Official"
     text: "Co-op extraction horror from Stockholm-based indie studio Beck & Branch Games, published by Neem Interactive; launched August 7, 2026 on Steam — Steam store page"

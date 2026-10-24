@@ -5,7 +5,12 @@ category: 'Reference'
 version: 'Early Access'
 updated: '2026-08-11'
 keywords: ['echoes of mystralia controller support', 'echoes of mystralia gamepad', 'echoes of mystralia controller steam deck', 'echoes of mystralia keyboard and mouse', 'echoes of mystralia controller not working', 'echoes of mystralia pc controller']
-related: ['system-requirements', 'ea-launch-guide', 'faq', 'combat-mechanics-guide', 'spell-crafting-guide']
+related:
+  - system-requirements
+  - ea-launch-guide
+  - faq
+  - combat-mechanics-guide
+  - spell-crafting-guide
 ---
 
 # Echoes of Mystralia Controller Support — Gamepad Setup Guide

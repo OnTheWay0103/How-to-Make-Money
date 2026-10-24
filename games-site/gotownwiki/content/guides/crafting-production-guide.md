@@ -5,7 +5,10 @@ category: 'Economy'
 version: '1.0'
 updated: '2026-08-01'
 keywords: ['Go-Go Town production', 'Go-Go Town crafting', 'Go-Go Town recipes', 'Go-Go Town supply chain', 'Go-Go Town machines']
-related: ['automation-guide', 'money-making-guide', 'best-layout-guide']
+related:
+  - automation-guide
+  - money-making-guide
+  - best-layout-guide
 ---
 
 # Go-Go Town! Production & Crafting Guide — Every Chain Explained

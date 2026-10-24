@@ -5,7 +5,10 @@ category: "Guides"
 version: "Current"
 updated: "2026-08-11"
 keywords: ["Skills & Raids system requirements", "Skills & Raids pc specs", "Skills & Raids minimum requirements", "Skills & Raids performance", "Skills & Raids steam deck"]
-related: ["release-date-guide", "beginner-guide", "extraction-guide"]
+related:
+  - release-date-guide
+  - beginner-guide
+  - extraction-guide
 ---
 
 # Skills & Raids System Requirements — PC Specs & Performance Guide

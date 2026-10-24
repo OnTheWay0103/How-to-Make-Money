@@ -6,7 +6,11 @@ version: "1.0"
 updated: "2026-10-24"
 date: "2026-08-07"
 keywords: ["low-budget repairs steam deck", "low budget repairs steam deck compatible", "low budget repairs steam deck performance", "low budget repairs proton", "low budget repairs controller"]
-related: ["system-requirements", "controls-guide", "demo-guide", "ps5-guide"]
+related:
+  - system-requirements
+  - controls-guide
+  - demo-guide
+  - ps5-guide
 ---
 
 # Low-Budget Repairs on Steam Deck — Compatibility, Performance & Settings

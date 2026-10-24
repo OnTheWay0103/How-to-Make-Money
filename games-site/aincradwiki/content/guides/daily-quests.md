@@ -5,7 +5,11 @@ category: "Quests"
 version: "1.0"
 updated: "2026-08-10"
 keywords: ["daily quests", "dailies", "col farming", "repeatable quests", "quest board", "rewards", "efficiency"]
-related: ["leveling-guide", "farming-spots", "gear-farming-guide", "progression-guide"]
+related:
+  - leveling-guide
+  - farming-spots
+  - gear-farming-guide
+  - progression-guide
 ---
 
 ## Overview

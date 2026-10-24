@@ -5,7 +5,12 @@ category: 'Game Info'
 version: 'Early Access'
 updated: '2026-08-11'
 keywords: ['echoes of mystralia sequel', 'is echoes of mystralia a sequel', 'echoes of mystralia vs mages of mystralia', 'mages of mystralia 2', 'echoes of mystralia story', 'echoes of mystralia mazarim']
-related: ['beginner-guide', 'spell-crafting-guide', 'ea-roadmap-guide', 'faq', 'memories-guide']
+related:
+  - beginner-guide
+  - spell-crafting-guide
+  - ea-roadmap-guide
+  - faq
+  - memories-guide
 ---
 
 # Echoes of Mystralia vs Mages of Mystralia — What's New in the Sequel

@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: '2026-08-01'
 keywords: ["shift at midnight survival strategies", "shift at midnight preparation", "shift at midnight stealth guide", "shift at midnight shift routine", "shift at midnight nighttime strategies"]
-related: ["beginner-guide", "entity-survival-guide", "weapons-guide", "coop-strategy-guide"]
+related:
+  - beginner-guide
+  - entity-survival-guide
+  - weapons-guide
+  - coop-strategy-guide
 ---
 
 ## Survival Strategies — Core Mechanics, Preparation, and Nighttime Tactics

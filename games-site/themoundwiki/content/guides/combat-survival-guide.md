@@ -5,7 +5,12 @@ category: "Guides"
 version: "1.0"
 updated: "2026-09-17"
 keywords: ["The Mound Omen of Cthulhu how to block", "The Mound Omen of Cthulhu combat guide", "The Mound survival tips", "The Mound combat mechanics", "The Mound how to survive", "The Mound environmental hazards", "The Mound block ability"]
-related: ["weapons-guide", "enemy-bestiary", "sanity-guide", "coop-strategy-guide", "extraction-guide"]
+related:
+  - weapons-guide
+  - enemy-bestiary
+  - sanity-guide
+  - coop-strategy-guide
+  - extraction-guide
 ---
 
 # The Mound: Omen of Cthulhu — Combat & Survival Mechanics Guide

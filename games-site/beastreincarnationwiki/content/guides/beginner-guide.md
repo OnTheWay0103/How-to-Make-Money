@@ -5,7 +5,11 @@ category: "Beginner"
 version: "1.0.6"
 updated: "2026-08-08"
 keywords: ["beast of reincarnation beginner guide", "beast of reincarnation tips", "how to parry beast of reincarnation", "beast of reincarnation getting started", "first 5 hours beast of reincarnation"]
-related: ["combat-system-guide", "skill-tree-overview", "nushi-boss-reference", "chapter-progression-guide"]
+related:
+  - combat-system-guide
+  - skill-tree-overview
+  - nushi-boss-reference
+  - chapter-progression-guide
 sources:
   - tier: "Official"
     text: "Developer (Game Freak), publisher (Fictions), the August 3-4, 2026 Steam release, the post-apocalyptic Japan 4026 setting, and the one-person-one-dog premise with Emma and Koo are from official announcements and the Steam store page"

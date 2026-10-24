@@ -6,7 +6,10 @@ version: "Pre-release"
 updated: "2026-08-07"
 date: "2026-08-07"
 keywords: ["nivalis nights beginner guide", "nivalis nights getting started", "nivalis nights first hour", "nivalis nights how to play", "nivalis nights tips", "nivalis nights noodle bar"]
-related: ["best-business-guide", "faq", "day-night-cycle-guide"]
+related:
+  - best-business-guide
+  - faq
+  - day-night-cycle-guide
 sources:
   - tier: "Official"
     text: "Developer (ION LANDS), publisher (505 Games), the September 29, 2026 Steam launch date, and the setting in the city of Nivalis from Cloudpunk are from official announcements and the Steam store page"

@@ -6,7 +6,10 @@ version: "Pre-release"
 updated: "2026-08-08"
 date: "2026-08-08"
 keywords: ["nivalis nights greenhouse", "nivalis nights farming", "nivalis nights grow ingredients", "nivalis nights greenhouse guide", "nivalis nights crops", "nivalis nights supply chain", "nivalis nights food costs"]
-related: ["best-business-guide", "day-night-cycle-guide", "fishing-guide"]
+related:
+  - best-business-guide
+  - day-night-cycle-guide
+  - fishing-guide
 ---
 
 # Greenhouse Guide — Growing Your Own Ingredients in Nivalis Nights

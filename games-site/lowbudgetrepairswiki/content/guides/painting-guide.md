@@ -6,7 +6,10 @@ date: "2026-08-03"
 keywords: ["low-budget repairs painting guide", "low budget repairs paint tips", "low budget repairs how to paint", "low budget repairs dilute paint", "low budget repairs roller or brush", "low budget repairs best paint"]
 updated: "2026-10-24"
 version: "1.0"
-related: ["tiling-guide", "renovation-jobs-guide", "faq"]
+related:
+  - tiling-guide
+  - renovation-jobs-guide
+  - faq
 sources:
   - tier: "Community"
     text: "Dilution ratios and inspector behavior are reported by demo players; the 1:5 ratio is flagged as unverified in the guide"

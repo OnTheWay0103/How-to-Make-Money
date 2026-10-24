@@ -5,7 +5,13 @@ category: 'Exploration'
 version: '1.0'
 updated: '2026-08-11'
 keywords: ['grain rot biomes', 'grain rot underground layers', 'grain rot map', 'grain rot levels', 'grain rot demo biomes', 'grain rot deep layers']
-related: ['demo-guide', 'beginner-guide', 'extraction-guide', 'all-enemies-guide', 'game-mechanics-systems-guide', 'full-release-guide']
+related:
+  - demo-guide
+  - beginner-guide
+  - extraction-guide
+  - all-enemies-guide
+  - game-mechanics-systems-guide
+  - full-release-guide
 sources:
   - tier: "Official"
     text: "Ruins are procedurally generated and shift between runs; the demo shipped 3 underground biomes, and the 1.0 launch announcement confirms 2 new biomes on top of those — Steam store page and publisher launch announcement"

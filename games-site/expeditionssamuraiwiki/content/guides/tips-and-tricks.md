@@ -5,7 +5,11 @@ category: "Advanced"
 version: "1.0"
 updated: "2026-08-01"
 keywords: ["expeditions samurai tips", "expeditions samurai tricks", "expeditions samurai advanced guide", "expeditions samurai strategies", "expeditions samurai secrets"]
-related: ["best-builds-guide", "stealth-guide", "combat-guide", "coop-multiplayer-guide"]
+related:
+  - best-builds-guide
+  - stealth-guide
+  - combat-guide
+  - coop-multiplayer-guide
 ---
 
 # Expeditions: Samurai — Tips & Tricks

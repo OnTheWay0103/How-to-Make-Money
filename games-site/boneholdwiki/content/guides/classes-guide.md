@@ -5,7 +5,11 @@ category: 'Classes'
 version: '1.0'
 updated: '2026-08-01'
 keywords: ['Bonehold classes', 'Bonehold best class', 'Bonehold Knight build', 'Bonehold Barbarian', 'Bonehold Spellblade', 'Bonehold Scorcher']
-related: ['beginner-guide', 'best-builds', 'weapons-guide', 'combat-guide']
+related:
+  - beginner-guide
+  - best-builds
+  - weapons-guide
+  - combat-guide
 sources:
   - tier: "Official"
     text: "Steam store page lists '7 unique character classes,' naming Knight, Barbarian, Scorcher, Spellblade, and more; the remaining classes are not officially named"

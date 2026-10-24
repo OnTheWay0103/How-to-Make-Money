@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["sephiria multiplayer", "sephiria co-op", "how to play sephiria co-op", "sephiria invite friends", "sephiria co-op disconnect fix", "sephiria ping", "sephiria desync"]
-related: ["coop-guide", "beginner-guide", "full-release-guide", "controls-settings-guide"]
+related:
+  - coop-guide
+  - beginner-guide
+  - full-release-guide
+  - controls-settings-guide
 ---
 
 # Sephiria Multiplayer Guide & Connection Fixes — Co-op Not Working, Ping Spikes & Desync

@@ -5,7 +5,11 @@ category: "Reference"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["grain rot controller", "grain rot gamepad", "grain rot controller support", "grain rot controller settings", "grain rot xbox controller", "grain rot ps5 controller", "grain rot dualsense", "grain rot steam deck"]
-related: ["system-requirements", "full-release-guide", "release-date-faq", "co-op-guide"]
+related:
+  - system-requirements
+  - full-release-guide
+  - release-date-faq
+  - co-op-guide
 ---
 
 # Grain Rot Controller Guide — Gamepad Support & Settings

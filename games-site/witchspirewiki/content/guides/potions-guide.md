@@ -5,7 +5,11 @@ category: "Guides"
 version: "0.1.4"
 updated: "2026-08-10"
 keywords: ["Witchspire potions", "Witchspire alchemy", "Witchspire Witchcraft Circle", "Witchspire brewing", "Witchspire potion recipes", "Witchspire nectar", "Witchspire moonleaf"]
-related: ["crafting-guide", "farming-guide", "elements-mechanics-guide", "hearth-upgrade-guide"]
+related:
+  - crafting-guide
+  - farming-guide
+  - elements-mechanics-guide
+  - hearth-upgrade-guide
 ---
 
 # Potions Guide — Brewing, Effects, and Ingredient Sourcing

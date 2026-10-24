@@ -5,7 +5,12 @@ category: 'Game Info'
 version: '1.0'
 updated: '2026-09-16'
 keywords: ['grain rot third floor', 'grain rot third floor locked', 'grain rot how to unlock third floor', 'grain rot quests stopped', 'grain rot story ending', 'grain rot where does the game end', 'is grain rot early access', 'grain rot unfinished', 'grain rot how long is the story']
-related: ['full-release-guide', 'patch-notes-guide', 'outpost-upgrade-guide', 'release-date-faq', 'endgame-survival']
+related:
+  - full-release-guide
+  - patch-notes-guide
+  - outpost-upgrade-guide
+  - release-date-faq
+  - endgame-survival
 sources:
   - tier: "Official"
     text: "Grain Rot released August 7, 2026 as version 1.0 and carries no Early Access designation — GRAIN ROT Steam store page (store.steampowered.com/app/4450620/GRAIN_ROT/), release date field reads '7 Aug, 2026' and the listed Features are Single-player, Online Co-op and Family Sharing, read 2026-09-16"

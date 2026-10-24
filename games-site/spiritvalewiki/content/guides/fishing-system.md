@@ -5,7 +5,11 @@ category: "Guides"
 version: "EA"
 updated: "2026-07-29"
 keywords: ["SpiritVale fishing guide", "SpiritVale bait types", "SpiritVale rare fish", "SpiritVale fishing locations", "SpiritVale fishing quests", "SpiritVale fishing rewards"]
-related: ["party-composition", "raid-boss-guide", "farming-resource-guide", "crafting-guide"]
+related:
+  - party-composition
+  - raid-boss-guide
+  - farming-resource-guide
+  - crafting-guide
 ---
 
 ## Fishing System Guide — SpiritVale

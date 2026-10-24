@@ -5,7 +5,10 @@ category: "Weapons"
 version: "1.0"
 updated: "2026-08-01"
 keywords: ["expeditions samurai weapons", "expeditions samurai weapons guide", "expeditions samurai katana", "expeditions samurai armor", "expeditions samurai crafting", "expeditions samurai loadout"]
-related: ["best-builds-guide", "combat-guide", "tips-and-tricks"]
+related:
+  - best-builds-guide
+  - combat-guide
+  - tips-and-tricks
 ---
 
 # Expeditions: Samurai — Weapons & Armor Guide

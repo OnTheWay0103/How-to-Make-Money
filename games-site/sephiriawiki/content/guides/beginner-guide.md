@@ -5,7 +5,11 @@ category: "Beginner"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["Sephiria beginner guide", "how to play Sephiria", "roguelite tips", "tower climbing guide", "first run Sephiria", "weapon selection beginner"]
-related: ["weapons-guide", "builds-guide", "chapter-guide", "artifacts-guide"]
+related:
+  - weapons-guide
+  - builds-guide
+  - chapter-guide
+  - artifacts-guide
 ---
 
 ## What is Sephiria?

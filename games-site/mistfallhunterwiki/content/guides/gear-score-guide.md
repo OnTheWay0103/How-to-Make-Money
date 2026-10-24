@@ -5,7 +5,12 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-10"
 keywords: ["mistfall hunter gear score", "mistfall hunter gear rarity", "mistfall hunter best gear", "mistfall hunter loot tiers", "mistfall hunter gyldenblood", "mistfall hunter item level"]
-related: ["gear-farming-guide", "loot-rarity-guide", "leveling-guide", "economy-guide", "loadout-optimizer"]
+related:
+  - gear-farming-guide
+  - loot-rarity-guide
+  - leveling-guide
+  - economy-guide
+  - loadout-optimizer
 sources:
   - tier: "Official"
     text: "The launch season 'Season of the Withering' and its Withering-afflicted zone loot bonus — official announcements"

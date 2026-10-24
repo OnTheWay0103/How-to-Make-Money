@@ -5,7 +5,12 @@ category: "Guides"
 version: "1.0"
 updated: '2026-08-25'
 keywords: ["shift at midnight characters wiki", "shift at midnight characters", "how to call sheriff in shift at midnight", "how to save clyde shift at midnight", "shift at midnight who is the dentist", "shift at midnight clyde", "shift at midnight guillermo", "how to save both clyde and pet"]
-related: ["all-doppelgangers-list", "doppelganger-guide", "endings-guide", "story-walkthrough", "dentist-guide"]
+related:
+  - all-doppelgangers-list
+  - doppelganger-guide
+  - endings-guide
+  - story-walkthrough
+  - dentist-guide
 sources:
   - tier: "Official"
     text: "Sheriff Clyde Dawson as the campaign's central supporting character and the pet companion adopted at the start (cat, dog, or goose) — Steam store page, official materials, and published guides"

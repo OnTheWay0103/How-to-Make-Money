@@ -5,7 +5,13 @@ category: "Weapons"
 version: "1.0"
 updated: "2026-08-21"
 keywords: ["sephiria crossbow build", "sephiria crossbow guide", "sephiria best hard mode weapon", "sephiria ranged build", "sephiria crossbow 1.0", "sephiria final boss weapon"]
-related: ["weapons-guide", "hard-mode-guide", "chapter-6-final-boss-guide", "mystic-pot-guide", "coop-guide", "builds-guide"]
+related:
+  - weapons-guide
+  - hard-mode-guide
+  - chapter-6-final-boss-guide
+  - mystic-pot-guide
+  - coop-guide
+  - builds-guide
 ---
 
 # Crossbow Build Guide — Sustained DPS & the Safest Hard Mode Weapon

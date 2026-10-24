@@ -5,7 +5,11 @@ category: "Exploration"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["taival fishing", "taival fishing guide", "taival fishing profession", "taival fishing spots"]
-related: ["crafting-professions-guide", "henki-companion-guide", "biomes-exploration-guide", "skill-trees-guide"]
+related:
+  - crafting-professions-guide
+  - henki-companion-guide
+  - biomes-exploration-guide
+  - skill-trees-guide
 ---
 
 # Fishing Guide: What We Know About Fishing in Taival

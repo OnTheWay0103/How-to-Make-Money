@@ -5,7 +5,11 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-27"
 keywords: ["the mound weapon durability", "the mound how to repair weapons", "the mound why do weapons break", "the mound weapons break fast", "the mound repair gear", "the mound galleon anvil"]
-related: ["weapons-guide", "loadout-guide", "crafting-recipes", "beginner-guide"]
+related:
+  - weapons-guide
+  - loadout-guide
+  - crafting-recipes
+  - beginner-guide
 ---
 
 # The Mound Weapon Durability & Repair Guide — Why Weapons Break & How to Fix Them

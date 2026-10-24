@@ -5,7 +5,11 @@ category: "Reference"
 version: "1.0.6"
 updated: "2026-08-09"
 keywords: ["beast of reincarnation builds", "shock build beast of reincarnation", "poison build", "acid build", "best build beast of reincarnation", "spirit stone builds", "thunderwave build", "endgame build beast of reincarnation"]
-related: ["spirit-stones-guide", "weapons-armor-guide", "tier-list", "skill-tree-overview"]
+related:
+  - spirit-stones-guide
+  - weapons-armor-guide
+  - tier-list
+  - skill-tree-overview
 sources:
   - tier: "Official"
     text: "Elemental statuses as a combat layer (Flame, Shock, Poison, Acid) are consistent with the elemental combat described in official store material"

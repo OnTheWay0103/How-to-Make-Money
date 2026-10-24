@@ -5,7 +5,12 @@ category: 'Money'
 version: '1.0'
 updated: '2026-08-22'
 keywords: ['doloc town how to make money', 'doloc town easy money', 'doloc town best money', 'doloc town money making', 'doloc town goldcoin', 'doloc town farming meta']
-related: ['beginner-guide', 'crops-guide', 'fishing-guide', 'cooking-recipes-guide', 'materials-guide']
+related:
+  - beginner-guide
+  - crops-guide
+  - fishing-guide
+  - cooking-recipes-guide
+  - materials-guide
 sources:
   - tier: "Official"
     text: "Core loop of crops, cooking, fishing, and processing per official description"

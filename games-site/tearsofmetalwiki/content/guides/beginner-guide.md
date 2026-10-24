@@ -5,7 +5,12 @@ keywords: ["Tears of Metal beginner guide", "Tears of Metal first run", "Tears o
 category: "Guides"
 version: "Early Access"
 updated: "2026-08-11"
-related: ["heroes-tier-list", "village-upgrade-guide", "battalion-companion-guide", "best-builds", "combat-tips"]
+related:
+  - heroes-tier-list
+  - village-upgrade-guide
+  - battalion-companion-guide
+  - best-builds
+  - combat-tips
 sources:
   - tier: "Official"
     text: "Hack-and-slash co-op roguelite from Paper Cult; entered Steam Early Access July 22, 2026; three launch heroes: Wallace (longsword), Brienne (unarmed fast attacks), and Ruadh Stonecrusher (giant hammer) — Steam store page and press coverage"

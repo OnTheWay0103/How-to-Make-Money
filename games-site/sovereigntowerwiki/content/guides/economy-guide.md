@@ -5,7 +5,12 @@ category: 'Economy'
 version: '1.0'
 updated: '2026-08-25'
 keywords: ['sovereign tower economy', 'sovereign tower money', 'sovereign tower treasury', 'sovereign tower gold', 'sovereign tower equipment', 'sovereign tower blacksmith']
-related: ['core-mechanics', 'tower-upgrades', 'factions-guide', 'knight-stats', 'beginner-guide']
+related:
+  - core-mechanics
+  - tower-upgrades
+  - factions-guide
+  - knight-stats
+  - beginner-guide
 sources:
   - tier: "Official"
     text: "Tax revenue funds equipment, upgrades and tower facilities; Treasury balancing — official press release"

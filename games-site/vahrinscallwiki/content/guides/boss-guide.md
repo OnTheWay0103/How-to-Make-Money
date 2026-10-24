@@ -5,7 +5,11 @@ category: 'Guides'
 version: '1.0'
 updated: '2026-08-01'
 keywords: ['vahrins call boss guide', 'vahrins call bosses', 'vahrins call boss fights', 'vahrins call final boss', 'vahrins call boss tips']
-related: ['combat-guide', 'quest-walkthrough', 'enemies-bestiary-guide', 'alchemy-crafting-guide']
+related:
+  - combat-guide
+  - quest-walkthrough
+  - enemies-bestiary-guide
+  - alchemy-crafting-guide
 sources:
   - tier: "Official"
     text: "'A far greater danger rose from beneath the city's streets' — official lore; blocking works as a defensive tool; traps deploy while moving and spells can trigger traps — developer materials and March 2026 update"

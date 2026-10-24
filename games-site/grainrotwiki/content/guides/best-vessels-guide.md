@@ -5,7 +5,12 @@ category: 'Builds'
 version: '1.0'
 updated: '2026-08-11'
 keywords: ['grain rot best vessels', 'grain rot constructs', 'grain rot builds', 'grain rot best build', 'grain rot vessel guide', 'grain rot unlockables', 'grain rot best loadouts', 'grain rot loadout', 'grain rot optimal build', 'grain rot meta']
-related: ['weapons-tools-guide', 'demo-guide', 'game-mechanics-systems-guide', 'co-op-guide', 'solo-guide']
+related:
+  - weapons-tools-guide
+  - demo-guide
+  - game-mechanics-systems-guide
+  - co-op-guide
+  - solo-guide
 ---
 
 # Best Vessels & Loadouts Guide — What Is Confirmed About Builds

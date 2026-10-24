@@ -5,7 +5,12 @@ category: "Guides"
 version: "EA"
 updated: "2026-08-09"
 keywords: ["SpiritVale PvP arena", "SpiritVale arena modes", "SpiritVale ranked arena", "SpiritVale arena gear", "SpiritVale arena meta", "SpiritVale Colosseum"]
-related: ["class-tier-list", "builds-guide", "party-composition", "cards-guide", "guild-guide"]
+related:
+  - class-tier-list
+  - builds-guide
+  - party-composition
+  - cards-guide
+  - guild-guide
 ---
 
 # SpiritVale PvP Arena Guide — Modes, Ranked Seasons, and Meta

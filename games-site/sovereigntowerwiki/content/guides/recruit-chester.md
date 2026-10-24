@@ -5,7 +5,12 @@ category: 'Recruitment'
 version: '1.0'
 updated: '2026-08-25'
 keywords: ['sovereign tower how to get chester', 'sovereign tower how to recruit chester', 'sovereign tower chester', 'sovereign tower milkford', 'sovereign tower geese', 'sovereign tower jester']
-related: ['knight-recruitment-guide', 'recruit-brunhilda', 'knight-stats', 'wolf-rufus-guide', 'dragon-knight-guide']
+related:
+  - knight-recruitment-guide
+  - recruit-brunhilda
+  - knight-stats
+  - wolf-rufus-guide
+  - dragon-knight-guide
 sources:
   - tier: "Community"
     text: "Recruitment steps per Prodigygamers and Tpose Gaming guides"

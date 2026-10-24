@@ -5,7 +5,13 @@ category: "Guides"
 version: "1.0"
 updated: "2026-09-03"
 keywords: ["the mound isolation", "the mound why screen turns gray", "the mound roots grab you alone", "the mound sanity lose when away from team", "the mound whispering statue", "the mound how to clear isolation", "the mound split up punishment", "the mound stay with team mechanic"]
-related: ["sanity-guide", "coop-strategy-guide", "solo-guide", "extraction-guide", "maps-locations-guide", "enemy-bestiary"]
+related:
+  - sanity-guide
+  - coop-strategy-guide
+  - solo-guide
+  - extraction-guide
+  - maps-locations-guide
+  - enemy-bestiary
 ---
 
 # The Mound Isolation Guide — Why Your Screen Turns Gray and Roots Grab You When You Leave the Group

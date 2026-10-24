@@ -5,7 +5,12 @@ category: "Guides"
 version: "0.1.4"
 updated: "2026-08-10"
 keywords: ["Witchspire weather", "Witchspire weather guide", "Witchspire rain", "Witchspire storm", "Witchspire heat wave", "Witchspire weather effects", "Witchspire environmental hazards"]
-related: ["flight-unlock-guide", "mira-isles-guide", "shuddersands-guide", "farming-guide", "hearth-upgrade-guide"]
+related:
+  - flight-unlock-guide
+  - mira-isles-guide
+  - shuddersands-guide
+  - farming-guide
+  - hearth-upgrade-guide
 ---
 
 # Witchspire Weather Guide — Weather System, Effects, and How to Prepare

@@ -5,7 +5,11 @@ category: "Guides"
 version: "EA"
 updated: "2026-08-28"
 keywords: ["SpiritVale FAQ", "SpiritVale buy to play", "SpiritVale wipe", "SpiritVale PvP", "SpiritVale level cap", "SpiritVale trading"]
-related: ["beginner-guide", "classes-guide", "class-tier-list", "cards-guide"]
+related:
+  - beginner-guide
+  - classes-guide
+  - class-tier-list
+  - cards-guide
 sources:
   - tier: "Official"
     text: "Steam Early Access since July 15, 2026; developed by Baikun Interactive — Steam store page"

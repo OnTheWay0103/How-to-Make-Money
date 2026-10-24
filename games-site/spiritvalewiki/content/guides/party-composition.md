@@ -5,7 +5,12 @@ category: "Guides"
 version: "EA"
 updated: "2026-08-09"
 keywords: ["SpiritVale party composition", "SpiritVale party building", "SpiritVale raid comps", "SpiritVale class synergy", "SpiritVale roles tank healer dps", "SpiritVale group finder"]
-related: ["solo-guide", "class-tier-list", "raid-boss-guide", "dungeon-guide", "endgame-guide"]
+related:
+  - solo-guide
+  - class-tier-list
+  - raid-boss-guide
+  - dungeon-guide
+  - endgame-guide
 ---
 
 # SpiritVale Party Composition — Teams That Actually Work

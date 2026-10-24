@@ -5,7 +5,12 @@ category: 'Beginner'
 version: '1.0'
 updated: '2026-08-11'
 keywords: ['grain rot survival', 'survival tips', 'grain rot corruption', 'grain rot durability', 'grain rot how to survive', 'grain rot tips']
-related: ['tips-and-tricks', 'beginner-guide', 'game-mechanics-systems-guide', 'extraction-guide', 'stealth-sound-guide']
+related:
+  - tips-and-tricks
+  - beginner-guide
+  - game-mechanics-systems-guide
+  - extraction-guide
+  - stealth-sound-guide
 ---
 
 # Survival Tips Guide — Vessel Durability, Corruption & the Extraction Loop

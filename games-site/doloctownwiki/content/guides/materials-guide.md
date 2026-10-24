@@ -5,7 +5,11 @@ category: 'Crafting'
 version: '1.0'
 updated: '2026-08-22'
 keywords: ['doloc town how to get coal', 'doloc town copper ore', 'doloc town iron ore', 'doloc town gold ore', 'how to get sand in doloc town', 'doloc town crafting materials']
-related: ['beginner-guide', 'tech-tree-guide', 'map-guide', 'how-to-make-money']
+related:
+  - beginner-guide
+  - tech-tree-guide
+  - map-guide
+  - how-to-make-money
 ---
 
 # How to Get Ore & Crafting Materials in Doloc Town

@@ -5,7 +5,12 @@ category: 'Mechanics'
 version: '1.0'
 updated: '2026-09-12'
 keywords: ['grain rot elevator modifiers', 'grain rot fuse', 'grain rot symbols', 'grain rot elevator symbols', 'grain rot can''t leave', 'grain rot spare fuse', 'grain rot eye symbol', 'grain rot stuck in level', 'grain rot modifier symbols']
-related: ['rot-debuff-guide', 'extraction-guide', 'game-mechanics-systems-guide', 'all-biomes-guide', 'beginner-guide']
+related:
+  - rot-debuff-guide
+  - extraction-guide
+  - game-mechanics-systems-guide
+  - all-biomes-guide
+  - beginner-guide
 sources:
   - tier: "Official"
     text: "The elevator and its modifiers are confirmed 1.0 systems — the publisher's launch announcement lists \"Elevator modifiers\" among the additions shipped with the full release, alongside the game's core loop copy: \"Ride a cursed elevator into shifting underground ruins with your crew.\" The store page's own media caption for the descent reads \"view of the RNG fuses in the elevator,\" confirming fuses are part of the elevator setup — Steam store page, GRAIN ROT (store.steampowered.com/app/4450620/GRAIN_ROT/), read 2026-09-12"

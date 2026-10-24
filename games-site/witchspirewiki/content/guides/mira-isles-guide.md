@@ -5,7 +5,13 @@ category: "Guides"
 version: "0.1.4"
 updated: "2026-08-10"
 keywords: ["Witchspire Mira Isles", "Mira Isles guide", "Witchspire R'hyrrgar's Peak", "Witchspire Soley Cave", "Witchspire Luminary Shrine", "Witchspire tropical region"]
-related: ["timberline-basin-guide", "shuddersands-guide", "luminary-skill-tree-guide", "main-quest-walkthrough", "all-familiars-guide", "flight-unlock-guide"]
+related:
+  - timberline-basin-guide
+  - shuddersands-guide
+  - luminary-skill-tree-guide
+  - main-quest-walkthrough
+  - all-familiars-guide
+  - flight-unlock-guide
 ---
 
 # Mira Isles Region Guide — Island Exploration

@@ -5,7 +5,12 @@ category: 'Builds'
 version: '1.0'
 updated: '2026-08-11'
 keywords: ['hero builds', 'character builds', 'best build', 'Theresia build', 'Lute build', 'hero guide', 'equipment setup', 'Castella build']
-related: ['tier-list', 'team-compositions', 'combat-guide', 'equipment-guide', 'hero-unlock-guide']
+related:
+  - tier-list
+  - team-compositions
+  - combat-guide
+  - equipment-guide
+  - hero-unlock-guide
 ---
 
 ## DragonSword: Awakening Hero Builds Guide

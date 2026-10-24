@@ -5,7 +5,11 @@ category: "Boss"
 version: "1.0.6"
 updated: "2026-08-09"
 keywords: ["beast of reincarnation nue malefact", "how to beat nue malefact", "nue weakness", "male purifier boss", "beast of reincarnation shidou"]
-related: ["nushi-boss-reference", "chapter-progression-guide", "elemental-builds-guide", "lacerta-boss-guide"]
+related:
+  - nushi-boss-reference
+  - chapter-progression-guide
+  - elemental-builds-guide
+  - lacerta-boss-guide
 ---
 
 # Nue Malefact Boss Guide — How to Beat Every Nue Fight

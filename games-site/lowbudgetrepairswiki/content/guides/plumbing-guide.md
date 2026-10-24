@@ -6,7 +6,13 @@ version: "1.0"
 updated: "2026-10-24"
 date: "2026-08-08"
 keywords: ["low-budget repairs plumbing", "low-budget repairs how to fix a leak", "low-budget repairs duct tape pipe", "low-budget repairs pipe repair", "low-budget repairs plumbing guide"]
-related: ["bathroom-renovation-guide", "materials-guide", "cost-cutting-tips", "renovation-jobs-guide", "inspection-guide", "tool-guide"]
+related:
+  - bathroom-renovation-guide
+  - materials-guide
+  - cost-cutting-tips
+  - renovation-jobs-guide
+  - inspection-guide
+  - tool-guide
 ---
 
 # Low-Budget Repairs Plumbing Guide — Fix Leaks & Pipes on the Cheap

@@ -5,7 +5,12 @@ category: "Guides"
 version: "Early Access"
 updated: "2026-10-23"
 keywords: ["Tears of Metal patch notes", "Tears of Metal updates", "Tears of Metal roadmap", "Tears of Metal Early Access", "Tears of Metal new heroes", "Tears of Metal Plague Doctor", "Tears of Metal mid-campaign saves", "Tears of Metal latest update", "Tears of Metal version"]
-related: ["save-system-guide", "multiplayer-connection-fix-guide", "heroes-tier-list", "co-op-revive-guide", "beginner-guide"]
+related:
+  - save-system-guide
+  - multiplayer-connection-fix-guide
+  - heroes-tier-list
+  - co-op-revive-guide
+  - beginner-guide
 sources:
   - tier: "Official"
     text: "Patch version numbers, dates and headlines — Paper Cult's Steam Community announcements (steamcommunity.com/app/1913120/allnews). The September 8, 2026 patch (\"New Patch - Big Bug Fixing Pass\", posted by WoofgangPCG; full change list and the \"Crossplay compatibility is temporarily disabled on this version\" notice) — Steam Community announcement, retrieved September 12, 2026 and re-verified against the live announcement feed September 17, 2026 (the announcement remains the newest post on the feed, dated September 8, 2026 17:05 UTC). The three-phase Early Access roadmap is Paper Cult's own developer post, reported consistently by primagames.com, ingamenews.com and gamereactor.se (checked September 11, 2026). Launch platform list (Steam + Microsoft Store, PC Game Pass day one, $24.99) — Paper Cult press release, July 22, 2026"

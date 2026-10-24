@@ -5,7 +5,11 @@ category: 'Combat'
 version: '1.0'
 updated: '2026-08-01'
 keywords: ['Bonehold combat guide', 'Bonehold advanced tactics', 'Bonehold dodge timing', 'Bonehold parry guide', 'Bonehold survival tips']
-related: ['beginner-guide', 'weapons-guide', 'boss-guide', 'tips-and-tricks']
+related:
+  - beginner-guide
+  - weapons-guide
+  - boss-guide
+  - tips-and-tricks
 sources:
   - tier: "Official"
     text: "The combat framework — hold-to-charge attacks, dodge, block, parry, traps, and chokepoint play — is consistent with the developer's store description of charged attacks and with launch coverage; no official numbers exist for invincibility frames, stamina costs, or damage values"

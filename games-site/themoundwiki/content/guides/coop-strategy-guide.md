@@ -5,7 +5,12 @@ category: "Guides"
 version: "1.0"
 updated: "2026-08-10"
 keywords: ["themound coop guide", "themound squad roles", "themound team strategy", "themound voice chat", "themound revival", "themound crossplay", "themound how to play with friends"]
-related: ["weapons-guide", "sanity-guide", "contracts-guide", "solo-guide", "beginner-guide"]
+related:
+  - weapons-guide
+  - sanity-guide
+  - contracts-guide
+  - solo-guide
+  - beginner-guide
 ---
 
 # The Mound Co-op Strategy Guide — Team Play and Communication

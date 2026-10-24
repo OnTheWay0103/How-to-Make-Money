@@ -5,7 +5,13 @@ category: "Co-op"
 version: "1.0"
 updated: "2026-08-11"
 keywords: ["Sephiria co-op guide", "4 player co-op", "multiplayer strategy", "team composition", "co-op builds", "revive system"]
-related: ["builds-guide", "boss-guide", "chapter-guide", "weapons-guide", "solo-guide", "multiplayer-connection-fix-guide"]
+related:
+  - builds-guide
+  - boss-guide
+  - chapter-guide
+  - weapons-guide
+  - solo-guide
+  - multiplayer-connection-fix-guide
 ---
 
 ## Co-op in Sephiria

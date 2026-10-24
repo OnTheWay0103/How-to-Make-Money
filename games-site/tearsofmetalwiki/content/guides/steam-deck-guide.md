@@ -5,7 +5,11 @@ category: "Guides"
 version: "Early Access"
 updated: "2026-09-11"
 keywords: ["tears of metal steam deck", "tears of metal steam deck settings", "is tears of metal on steam deck", "tears of metal deck performance", "tears of metal playable rating", "tears of metal controller", "tears of metal handheld", "tears of metal game pass deck"]
-related: ["multiplayer-connection-fix-guide", "save-system-guide", "patch-notes", "beginner-guide"]
+related:
+  - multiplayer-connection-fix-guide
+  - save-system-guide
+  - patch-notes
+  - beginner-guide
 ---
 
 # Tears of Metal on Steam Deck — Rating, Performance & Best Settings

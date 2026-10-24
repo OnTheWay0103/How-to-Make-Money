@@ -5,7 +5,11 @@ category: 'Builds'
 version: '1.0'
 updated: '2026-08-01'
 keywords: ['Bonehold builds', 'Bonehold best build', 'Bonehold Spellblade build', 'Bonehold Knight build', 'Bonehold Barbarian build', 'Bonehold synergies']
-related: ['classes-guide', 'weapons-guide', 'item-prefixes-guide', 'endgame-guide']
+related:
+  - classes-guide
+  - weapons-guide
+  - item-prefixes-guide
+  - endgame-guide
 ---
 
 # Bonehold Best Builds - Top Build Archetypes and Synergies

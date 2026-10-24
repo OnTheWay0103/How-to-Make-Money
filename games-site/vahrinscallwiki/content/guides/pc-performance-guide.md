@@ -5,7 +5,10 @@ category: 'Guides'
 version: '1.0'
 updated: '2026-08-05'
 keywords: ['vahrins call system requirements', 'vahrins call pc performance', 'vahrins call crash fix', 'vahrins call fps', 'vahrins call launch options', 'vahrins call optimization']
-related: ['beginner-guide', 'zones-areas-guide', 'endgame-content']
+related:
+  - beginner-guide
+  - zones-areas-guide
+  - endgame-content
 ---
 
 # PC Performance & Optimization Guide — Requirements, Crash Fixes & FPS Tips

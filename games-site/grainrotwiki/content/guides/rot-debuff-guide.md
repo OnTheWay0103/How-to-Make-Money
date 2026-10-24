@@ -5,7 +5,13 @@ category: 'Survival'
 version: '1.0'
 updated: '2026-08-31'
 keywords: ['grain rot rot debuff', 'how to clear grain rot', 'grain rot rot meter', 'grain rot vomiting green liquid', 'grain rot sun clear rot', 'grain rot skull symbol', 'grain rot rot stacks', 'grain rot how to get rid of rot']
-related: ['game-mechanics-systems-guide', 'survival-tips', 'extraction-guide', 'all-biomes-guide', 'all-enemies-guide', 'endgame-survival']
+related:
+  - game-mechanics-systems-guide
+  - survival-tips
+  - extraction-guide
+  - all-biomes-guide
+  - all-enemies-guide
+  - endgame-survival
 sources:
   - tier: "Official"
     text: "The Rot is the game's core hazard: it worsens with depth ('The deeper you go, the worse the Rot becomes'), corrupts vessels into the Corrupted, and warps bodies, voices, and emotes — Steam store page"

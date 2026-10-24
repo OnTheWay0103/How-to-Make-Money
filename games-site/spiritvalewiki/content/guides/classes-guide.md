@@ -5,7 +5,11 @@ category: "Guides"
 version: "EA"
 updated: "2026-07-12"
 keywords: ["SpiritVale classes", "SpiritVale base classes", "SpiritVale advanced classes", "SpiritVale job level", "SpiritVale respec Waybinder"]
-related: ["beginner-guide", "class-tier-list", "builds-guide", "leveling-guide"]
+related:
+  - beginner-guide
+  - class-tier-list
+  - builds-guide
+  - leveling-guide
 sources:
   - tier: "Official"
     text: "Seven base classes at launch (Knight, Warrior, Acolyte, Mage, Scout, Rogue, Summoner) — official announcements"

@@ -5,7 +5,13 @@ category: "Guides"
 version: "EA"
 updated: "2026-08-09"
 keywords: ["SpiritVale cards", "SpiritVale card farming", "SpiritVale card combinations", "SpiritVale card forge", "SpiritVale rare cards", "SpiritVale card system"]
-related: ["builds-guide", "boss-guide", "leveling-guide", "beginner-guide", "endgame-guide", "gear-progression"]
+related:
+  - builds-guide
+  - boss-guide
+  - leveling-guide
+  - beginner-guide
+  - endgame-guide
+  - gear-progression
 ---
 
 # SpiritVale Cards Guide — How to Farm, Slot, and Combine Cards

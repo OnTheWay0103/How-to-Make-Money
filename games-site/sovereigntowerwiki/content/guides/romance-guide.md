@@ -5,7 +5,12 @@ category: 'Romance'
 version: '1.0'
 updated: '2026-08-25'
 keywords: ['sovereign tower romance', 'sovereign tower romance options', 'sovereign tower romance guide', 'does sovereign tower have romance', 'sovereign tower relationships', 'sovereign tower marriage']
-related: ['knight-stats', 'factions-guide', 'knight-recruitment-guide', 'rewind-guide', 'faq']
+related:
+  - knight-stats
+  - factions-guide
+  - knight-recruitment-guide
+  - rewind-guide
+  - faq
 sources:
   - tier: "Official"
     text: "Forbidden medieval romance and deep friendships/romances — official feature list and press release"
