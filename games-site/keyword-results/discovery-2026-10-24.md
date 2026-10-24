@@ -77,3 +77,12 @@
 - [Steam — Country Slime / Castaway Slime (app 3640570)](https://store.steampowered.com/app/3640570/Country_Slime/)
 - [mmo13 — Sacrumagus overview](https://mmo13.ru/games/179493_sacrumagus)
 - [apicodes — Under Canopies 序盤攻略](https://apicodes.hatenablog.com/entry/Under_Canopies)
+
+---
+
+## 补记（当日追加）：Stormforge 关键词实测后下调
+
+当日补做 Google Suggest（16 前缀，110 条原始建议）后，Stormforge 的需求侧证据明显弱于侦察评分：
+仅 27 条指向本作，70% 建议来自同名 WoW 私服，且无深度系统词。报告：`keyword-results/Stormforge.md`。
+**结论修正**：Stormforge 由「下一轮优先建站」下调为「EA 后 3–7 天观察」；
+10/25 建站优先级改为 **DREADMOOR > Loftia > Stormforge**。候选池 #56 已同步。

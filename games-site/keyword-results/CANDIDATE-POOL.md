@@ -59,7 +59,7 @@
 | 53 | Echo Weaver | 时间循环 Metroidvania (Moonlight Kids) | 13 | 10/8 已上线 | ❌ 无 | 10/23 | 观望 — Game Pass 首发；内容量偏小，攻略面有限 |
 | 54 | Deep Dish Dungeon | 合作地牢生存 (Behold Studios) | 13 | 10/13 已上线 | ❌ 无 | 10/23 | 观望 — Game Pass 首发；媒体评价 mixed，需求上限有限 |
 | 55 | Fright Train | 雪国列车生存恐怖 | 13 | 9/16 已上线 | ❌ 无（中文攻略站 1 篇） | 10/23 | 观望 — RPS 好评；小众题材、内容有限 |
-| 56 | **Stormforge** | 开放世界生存建造 ARPG（Roboto Games） | **17** | 11/10 EA | ❌ 无（EN/ZH/JA 三语均未检索到；注意同名 WoW 私服 / Materia Stormforge 污染） | 10/24 | **推荐 — 建议下一轮建站**：1–8 人 co-op、24 km² 程序生成世界、5 职业/100+ 技能、魔法风暴机制；demo 35,000+ 下载、Steam「Mostly Positive」、100K+ wishlist；零组织化 wiki；EA 窗口 11/10，预售期建站最佳。⚠️ 裸词 SERP 污染重，须用 `Stormforge game` / `Stormforge survival` 锚定 |
+| 56 | **Stormforge** | 开放世界生存建造 ARPG（Roboto Games） | **17** | 11/10 EA | ❌ 无（EN/ZH/JA 三语均未检索到；注意同名 WoW 私服 / Materia Stormforge 污染） | 10/24 | **降为「EA 后观察」**：关键词报告 `keyword-results/Stormforge.md`（110 原始建议仅 27 条指向本作，70% 为 WoW 私服噪声，无任何深度系统词）。wishlist 100K+ 与零 wiki 仍成立，但品牌词导航需求未起，预售期建站证据不足；建议 EA 后 3–7 天看评测 ≥300 且 `stormforge game` 类锚定词出现再建（8–10 篇小站）。⚠️ 若建，标题 MUST 用 `Stormforge game` / `Stormforge survival` 锚定 |
 | 57 | **Draemony** | 暗黑奇幻 ARPG（Xinoqs Studios） | **16** | 11/20 EA | ❌ 无（EN/ZH/JA 三语均未检索到） | 10/24 | 推荐/观望 — 6 人 co-op、8 职业、1000+ 节点天赋树、4 幕战役、Tier 1–16 终局地图；零 wiki、系统深度足；但小团队、需求数据未公开，建议 EA 后看评测量再定 |
 | 58 | Castaway Slime | 4 人 co-op 生存 RPG（AZS，原名 Country Slime） | 13 | 10/30–11/10 测试，无发售日 | ❌ 无专属 wiki（GameFAQs 的 Castaway 是另一款游戏） | 10/24 | 观望 — 饥饿/口渴/温度/理智 + guard 战斗 + 8 技能槽；题材有趣但尚无发售日，等定档 |
 | 59 | Sacrumagus | 多人生存恐怖 + 复古 ARPG（Cannibal Capybaras/ABTEL） | 13 | 11/30 EA | ❌ 无（EN/ZH/JA 未检索到；仅俄语 mmo13 概览） | 10/24 | 观望 — 6 学院 House、co-op/PvP、单机可玩；小众，内容量待验证 |

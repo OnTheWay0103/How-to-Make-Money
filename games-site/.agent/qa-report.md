@@ -1850,5 +1850,12 @@ Green Whale / Mystery Pet Box / Mount Box / 0.31.0 赞助者设计款）并加 `
 **排期建议**：10/25 优先建 Stormforge（评分最高、窗口最长）；DREADMOOR 同日或次日；
 Loftia 排在其后。Chained Beasts 已因名字污染重、需求偏小下调为观望。
 
+**补采（10/24 当日追加）**：上表的 Stormforge 关键词为**推断**，当日已补做 Google Suggest 实测，
+报告见 `keyword-results/Stormforge.md`：110 条原始建议中仅 **27 条**指向本作，**70%** 为同名
+**WoW 私服**噪声，且没有任何深度系统词（无 boss/build/crafting/base building 问法）。
+据此把 Stormforge 从「下一轮优先建站」**下调为 EA 后 3–7 天观察**；10/25 建站优先级改为
+**DREADMOOR（已有 161 词报告、11/9 EA）> Loftia（72 词、11/3 EA）> Stormforge**。
+候选池 #56 评分与建议已同步修正。
+
 **本轮未建站的原因**：今日 5 站强制扩充 + 逾期 52 天的全量 deep QA 已占满预算；
-Stormforge 距 EA 仍有 17 天，推迟一天不损失窗口（评分 ≥15 的建站资格保留）。
+即使按原排期，Stormforge 距 EA 仍有 17 天，推迟一天不损失窗口（评分 ≥15 的建站资格保留）。
