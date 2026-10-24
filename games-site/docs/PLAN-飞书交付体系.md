@@ -189,10 +189,20 @@
 
 | Phase | 内容 | 状态 |
 |-------|------|------|
-| 1 | 建 Base + T1 + T5；`scripts/feishu-report.mjs`；coordinator 收尾钩子 | Base/T1/T5 已建，脚本待写 |
-| 2 | T2 + QA/部署脚本写状态；`pending-deploys` 退役 | 待开始 |
-| 3 | build 前 lint（5 条）接进 `deploy-wiki-site.sh`；T3 台账 | 待开始 |
+| 1 | 建 Base + T1 + T5；`scripts/feishu-report.mjs`；coordinator 收尾钩子 | ✅ 完成（2026-10-24） |
+| 2 | T2 + QA 写状态；部署日志 + 队列 | ✅ 完成（2026-10-24） |
+| 3 | 部署前 lint 接进 `deploy-wiki-site.sh`；T3 台账 | ✅ 完成（2026-10-24） |
 | 4 | D1 每日摘要 + 月度复盘；修 GA4 凭证让扩充名单按月重算 | 待开始 |
+
+### 已落地的自动化
+
+| 能力 | 入口 | 说明 |
+|------|------|------|
+| T1 每日交付 | `node scripts/feishu-report.mjs --journal --apply` | 读 `.agent/delivery-{date}.json`，按 (日期,站点) 合并；不碰人工列 |
+| T5 部署队列 | `--deploys --apply` / `--queue --site x --reason "..."` | 部署日志由 `deploy-wiki-site.sh` 自动追写 `.agent/deploy-log.jsonl` |
+| T2 QA 问题 | `--qa --apply` | 读 `.agent/qa-issues-{date}.json`，幂等键 = 站点+文章+问题原文 |
+| T3 站点台账 | `--sites --apply` | 43 站从文件系统 + git 首提交 + `.vercel/project.json` 生成 |
+| 部署前 lint | `deploy-wiki-site.sh` 第 0 步 | ERROR 阻断部署：related 内联数组 / 缺字段 / updated 非法 / related 指向不存在 / 占位符 |
 
 ---
 
@@ -207,6 +217,8 @@
 | space_id | `7496743428941103107` |
 | 表「每日交付」 | `tbltCgQw1VfMVj0T` |
 | 表「部署队列」 | `tbljqIjX9qOD8fVs` |
+| 表「QA 问题跟踪」 | `tblrHtlzD1KZhcdV` |
+| 表「站点台账」 | `tblTDpkA9odla8No` |
 
 **身份说明**：应用 `cli_aae2c52aa4b89d05` 的 bot 身份未申请 `base:*` / `wiki:*` scope
 （只有 sheets），所以当前所有 Base 操作走**同一应用的用户身份**（`--as user`，已授权账号 赵q）。

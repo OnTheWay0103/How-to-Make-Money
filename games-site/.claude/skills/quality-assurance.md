@@ -200,6 +200,33 @@ grep "name:" {site}/lib/seo-config.ts | head -1
 
 ## Phase 4: 输出 QA 报告
 
+### 4.0 结构化问题清单（MUST，供飞书跟踪）
+
+所有 🔴/🟡 项除了写进报告，还要写 `.agent/qa-issues-{YYYY-MM-DD}.json`：
+
+```json
+{
+  "date": "2026-10-24",
+  "rows": [
+    {
+      "site": "grainrotwiki",
+      "article": "patch-notes-guide",
+      "issue": "正文 1.13 与 FAQ 1.09 版本号不一致",
+      "level": "P1",
+      "status": "已部署待复验",
+      "discovered": "2026-10-24",
+      "commit": "ec76803"
+    }
+  ]
+}
+```
+
+然后 `node scripts/feishu-report.mjs --qa --apply` 写入飞书「QA 问题跟踪」表（T2）。
+
+- `issue` 是幂等键的一部分，**修完后不要改写原文**，只把 `status` 推到「关闭」并补 `verified`
+- 状态流转：`待修 → 已修待部署 → 已部署待复验 → 关闭`
+- 本机网络不可达导致的「来源无法验证」不算 P0/P1，标 `P2` + `[Unverified-Offline]` 写进 issue
+
 ### 4.1 写入 `.agent/qa-report.md`
 
 ```markdown

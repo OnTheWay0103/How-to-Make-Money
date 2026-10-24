@@ -42,6 +42,24 @@ TOKEN=$(python3 -c "import json; print(json.load(open('$AUTH_FILE'))['token'])" 
 PID=$(python3 -c "import json; print(json.load(open('$PROJECT_PATH/.vercel/project.json'))['projectId'])")
 PROJECT_NAME=$(python3 -c "import json; print(json.load(open('$PROJECT_PATH/.vercel/project.json'))['projectName'])")
 
+# 部署日志：成功后由 scripts/feishu-report.mjs --deploys 收口到飞书「部署队列」
+log_deploy() {
+  local status="$1"
+  local commit
+  commit=$(git -C "$SCRIPT_DIR" rev-parse --short HEAD 2>/dev/null || true)
+  mkdir -p "$SCRIPT_DIR/.agent"
+  printf '{"ts":"%s","site":"%s","commit":"%s","status":"%s","url":"https://%s.vercel.app"}\n' \
+    "$(date '+%Y-%m-%dT%H:%M:%S%z')" "$SITE_DIR" "$commit" "$status" "$PROJECT_NAME" \
+    >> "$SCRIPT_DIR/.agent/deploy-log.jsonl" || true
+}
+
+# 0. 部署前 lint（只查本次改动）：related 内联数组等静默失效问题在这里挡住
+echo "  0) lint 本次改动..."
+if ! node "$SCRIPT_DIR/scripts/lint-guides.mjs" "$SITE_DIR" --changed; then
+  echo "❌ lint 未通过（ERROR），已中止部署。修复后重试。"
+  exit 1
+fi
+
 echo "🚀 部署 $SITE_DIR (project=$PROJECT_NAME)"
 
 # 1. 防御性清空 rootDirectory（应为空，若被意外设置则清除；token 过期则跳过）
@@ -69,6 +87,7 @@ cd "$SCRIPT_DIR"
 if [ $DEPLOY_EXIT -ne 0 ]; then
   echo "❌ 部署失败 (exit $DEPLOY_EXIT)，输出末尾："
   tail -20 "$DEPLOY_LOG"
+  log_deploy fail
   rm -f "$DEPLOY_LOG"
   exit $DEPLOY_EXIT
 fi
@@ -81,6 +100,7 @@ NEW_URL=$(grep -o 'https://[a-z0-9-]*\.vercel\.app' "$DEPLOY_LOG" | head -1 || t
 if [[ -z "$NEW_URL" ]]; then
   echo "❌ 部署输出中未找到新 deployment URL，输出末尾："
   tail -20 "$DEPLOY_LOG"
+  log_deploy fail
   rm -f "$DEPLOY_LOG"
   exit 1
 fi
@@ -93,7 +113,9 @@ HTTP=$(curl -s -o /dev/null -w "%{http_code}" -m 15 "https://$PROJECT_NAME.verce
 echo "✅ 部署完成: https://$PROJECT_NAME.vercel.app/ (HTTP $HTTP, alias → ${ALIAS_URL:-未知})"
 if [[ -n "$ALIAS_URL" && "$ALIAS_URL" != "$NEW_URL" ]]; then
   echo "⚠️ 生产 alias 未指向本次新部署（新: $NEW_URL / alias: $ALIAS_URL）— 需人工确认"
+  log_deploy fail
   rm -f "$DEPLOY_LOG"
   exit 1
 fi
+log_deploy ok
 rm -f "$DEPLOY_LOG"

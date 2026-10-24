@@ -17,6 +17,8 @@ description: 🧠 主管 Agent — 每天定时运行，读取状态、调度子
 > **启动检查（MUST）**: 先 glob `.agent/pending-deploys-*.md`。存在则优先按清单逐站
 > `./deploy-wiki-site.sh <site>` 补部署（Vercel 免费额度耗尽时遗留），验证线上后删掉对应行；
 > 清单清空则删除文件。补部署同样计入每日 100 次部署额度，若再次超限则保留清单等次日。
+> 飞书「部署队列」表是同一信息的线上视图：入队用
+> `node scripts/feishu-report.mjs --queue --site <site> --reason "<原因>" --apply`。
 >
 > **每日限额**: MUST 每天最多新建 1 个站点（以稳为主）；扩充已有站不限量但每站每次 ≤ 5 篇。
 
@@ -141,6 +143,15 @@ description: 🧠 主管 Agent — 每天定时运行，读取状态、调度子
 2. 运行 node scripts/update-stats.mjs → 自动统计实际攻略数/GA4/Vercel/GSC
    - 脚本读取文件系统，更新 AUTO 标记区域，不会覆盖手动内容
    - 如无变更则跳过
+
+2b. **交付日志 + 飞书同步（MUST）**
+   - 写 `.agent/delivery-{YYYY-MM-DD}.json`：**每站一行**，字段
+     `site / types / guides / words / qa / url / verify`（格式见 `scripts/feishu-report.mjs` 头注释）
+   - `node scripts/feishu-report.mjs --all --apply`
+     → 写入「每日交付」表（T1），并把部署日志收口到「部署队列」表（T5）
+   - 每月或站点变化后 `node scripts/feishu-report.mjs --sites --apply` 刷新「站点台账」（T3）
+   - 同步失败**不阻断** commit，但必须在摘要里写明失败原因
+
 3. git add STATS-游戏站点统计.md（如有变更）
 4. 输出本轮摘要:
    - 本轮做了什么

@@ -1,0 +1,165 @@
+{
+  "date": "2026-10-24",
+  "rows": [
+    {
+      "site": "sephiriawiki",
+      "types": [
+        "扩充",
+        "修正",
+        "部署"
+      ],
+      "guides": [
+        "stuck-soft-lock-recovery-guide",
+        "sephiria-achievements-guide"
+      ],
+      "qa": "PASS",
+      "url": "https://sephiriawiki.vercel.app/guides/stuck-soft-lock-recovery-guide",
+      "verify": "200",
+      "words": 1481
+    },
+    {
+      "site": "themoundwiki",
+      "types": [
+        "扩充",
+        "部署"
+      ],
+      "guides": [
+        "tulu-cylinders-unlock-the-mound"
+      ],
+      "qa": "PASS",
+      "url": "https://themoundwiki.vercel.app/guides/tulu-cylinders-unlock-the-mound",
+      "verify": "200",
+      "words": 1332
+    },
+    {
+      "site": "spiritvalewiki",
+      "types": [
+        "扩充",
+        "修正",
+        "部署"
+      ],
+      "guides": [
+        "advanced-artifacts-grimoires-guide",
+        "pvp-conquest-guide"
+      ],
+      "qa": "PASS",
+      "url": "https://spiritvalewiki.vercel.app/guides/advanced-artifacts-grimoires-guide",
+      "verify": "200",
+      "words": 1442
+    },
+    {
+      "site": "tearsofmetalwiki",
+      "types": [
+        "扩充",
+        "部署"
+      ],
+      "guides": [
+        "trials-mother-stone-challenges-guide"
+      ],
+      "qa": "PASS",
+      "url": "https://tearsofmetalwiki.vercel.app/guides/trials-mother-stone-challenges-guide",
+      "verify": "200",
+      "words": 1373
+    },
+    {
+      "site": "grainrotwiki",
+      "types": [
+        "扩充",
+        "修正",
+        "部署"
+      ],
+      "guides": [
+        "legendary-gumball-constructs-guide",
+        "patch-notes-guide"
+      ],
+      "qa": "PASS",
+      "url": "https://grainrotwiki.vercel.app/guides/legendary-gumball-constructs-guide",
+      "verify": "200",
+      "words": 1481
+    },
+    {
+      "site": "aincradwiki",
+      "types": [
+        "修正",
+        "部署"
+      ],
+      "guides": [
+        "update-patch-notes"
+      ],
+      "qa": "PASS",
+      "url": "https://aincradwiki.vercel.app/guides/update-patch-notes",
+      "verify": "200",
+      "words": 0
+    },
+    {
+      "site": "witchspirewiki",
+      "types": [
+        "修正",
+        "部署"
+      ],
+      "guides": [
+        "spellblade-vs-wand-guide"
+      ],
+      "qa": "PASS",
+      "url": "https://witchspirewiki.vercel.app/guides/spellblade-vs-wand-guide",
+      "verify": "200",
+      "words": 0
+    },
+    {
+      "site": "minegeonwiki",
+      "types": [
+        "修正",
+        "部署"
+      ],
+      "guides": [
+        "minegeon-save-rest-resume-guide"
+      ],
+      "qa": "PASS",
+      "url": "https://minegeonwiki.vercel.app/guides/minegeon-save-rest-resume-guide",
+      "verify": "200",
+      "words": 0
+    },
+    {
+      "site": "nivalisnightswiki",
+      "types": [
+        "修正",
+        "部署"
+      ],
+      "guides": [
+        "greenhouse-automation-guide"
+      ],
+      "qa": "PASS",
+      "url": "https://nivalisnightswiki.vercel.app/guides/greenhouse-automation-guide",
+      "verify": "200",
+      "words": 0
+    },
+    {
+      "site": "waterparksimulatorwiki",
+      "types": [
+        "修正",
+        "部署"
+      ],
+      "guides": [
+        "shelves-multistand-staff-guide"
+      ],
+      "qa": "PASS",
+      "url": "https://waterparksimulatorwiki.vercel.app/guides/shelves-multistand-staff-guide",
+      "verify": "200",
+      "words": 0
+    },
+    {
+      "site": "silverpineswiki",
+      "types": [
+        "修正",
+        "部署"
+      ],
+      "guides": [
+        "silver-pines-camera-photo-map-guide"
+      ],
+      "qa": "PASS",
+      "url": "https://silverpineswiki.vercel.app/guides/silver-pines-camera-photo-map-guide",
+      "verify": "200",
+      "words": 0
+    }
+  ]
+}
