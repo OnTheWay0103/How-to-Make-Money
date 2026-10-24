@@ -18,22 +18,22 @@ const FAQ_ITEMS = [
   {
     question: 'When does Silver Pines release?',
     answer:
-      'October 8, 2026. That is the date on the official Steam store page (App ID 2333000), and Steam currently lists the game as coming soon. It is a full release rather than an Early Access launch — no Early Access period has been announced.',
+      'Silver Pines was released on October 8, 2026. That is the date on the official Steam store page (App ID 2333000), and Steam now lists the game as released. It is a full release rather than an Early Access launch — no Early Access period was ever announced.',
   },
   {
     question: 'How much does Silver Pines cost?',
     answer:
-      'The price had not been announced as of September 16, 2026 [Unconfirmed]. Steam’s store data contains no price for Silver Pines yet, and no pre-order or bundle pricing exists. We do not publish a guessed figure. Any site advertising a “Silver Pines cheap key” or a free download before October 8 is either guessing or unsafe.',
+      '$24.99 USD on Steam, with no discount applied as of October 24, 2026. Steam’s store data confirms the US price and marks the game as a paid release. Regional prices can differ; check your own store region. Any site advertising a “Silver Pines cheap key” or a free full-game download is either guessing or unsafe — the only free version is the official demo.',
   },
   {
     question: 'Can I play Silver Pines right now?',
     answer:
-      'Yes — through the free demo. The Silver Pines Demo (App ID 4540100) has been live on Steam since June 1, 2026 and is a standalone free download, not a pre-order bonus. It is the only way to play the game before October 8, 2026.',
+      'Yes. The full game is available to buy and download on Steam for $24.99. The free Silver Pines Demo (App ID 4540100) also remains live and is a standalone free download, not a pre-order bonus, so you can try it at no cost before buying.',
   },
   {
     question: 'How good is the Silver Pines demo?',
     answer:
-      'As of September 16, 2026 the demo holds 802 Steam user reviews at 95.9% positive, which Steam labels Overwhelmingly Positive. For a game that has not launched, that is the single strongest evidence available that the underlying design works. It is worth reading some of the negative reviews too — they are mostly about deliberate slowness rather than broken systems.',
+      'The demo is separate from the full game and its score should be read as demo data: as of September 16, 2026 it held 802 Steam user reviews at 95.9% positive, which Steam labels Overwhelmingly Positive. The released full game now has its own review summary — as of October 24, 2026, Overwhelmingly Positive from 1,735 user reviews at 97% positive. Do not treat the demo percentage as the full game’s score.',
   },
   {
     question: 'How long is the demo?',
@@ -41,24 +41,24 @@ const FAQ_ITEMS = [
       'Roughly an hour and a half for a first playthrough of the prologue slice it contains [Community-reported]. That includes the opening, the arrival in town and its tutorial beats, a quieter exploration stretch, a motel sequence with monsters, and a boss encounter that closes the demo out.',
   },
   {
-    question: 'Which platforms is Silver Pines coming to?',
+    question: 'Which platforms is Silver Pines available on?',
     answer:
       'PC via Steam and the Epic Games Store, PlayStation 5, Xbox Series X|S, Nintendo Switch and Nintendo Switch 2. The Steam build is Windows-only — Steam lists Windows as supported and macOS and Linux as unsupported. The free demo is PC-only; console players have no demo.',
   },
   {
-    question: 'Is Silver Pines coming to PS5 and Switch?',
+    question: 'Is Silver Pines on PS5 and Switch?',
     answer:
-      'Yes to both, and to Switch 2 as well. PlayStation 5, Xbox Series X|S, Nintendo Switch and Nintendo Switch 2 versions were announced alongside the PC release and share the October 8, 2026 date. Note that these console versions have not been individually re-confirmed page-by-page by this site for the launch date [Unconfirmed] — the Steam page is the only storefront we can read directly.',
+      'Yes to both, and to Switch 2 as well. PlayStation 5, Xbox Series X|S, Nintendo Switch and Nintendo Switch 2 versions were announced alongside the PC release and share the October 8, 2026 date. Note that these console versions have not been individually re-confirmed page-by-page by this site [Unconfirmed] — the Steam page is the only storefront we can read directly.',
   },
   {
     question: 'Is Silver Pines on Game Pass, PS Plus or Epic free?',
     answer:
-      'No subscription or giveaway release has been announced as of September 16, 2026 [Unconfirmed]. Silver Pines is a paid release published by Team17. The Epic Games Store version is a normal paid listing, not an Epic free-week title.',
+      'No subscription or giveaway release has been announced as of October 24, 2026 [Unconfirmed]. Silver Pines is a paid release published by Team17. The Epic Games Store version is a normal paid listing, not an Epic free-week title.',
   },
   {
     question: 'Will there be a physical copy of Silver Pines?',
     answer:
-      'None has been announced as of September 16, 2026 [Unconfirmed]. Every platform listing we could verify points to digital distribution only. “Silver Pines physical copy” is a real search query, so this is worth checking again closer to launch — but do not assume one exists.',
+      'None has been announced as of October 24, 2026 [Unconfirmed]. Every platform listing we could verify points to digital distribution only. “Silver Pines physical copy” is a real search query, so this is worth checking again — but do not assume one exists.',
   },
   {
     question: 'Does Silver Pines autosave?',
@@ -148,7 +148,7 @@ const FAQ_ITEMS = [
   {
     question: 'Is Silver Pines Steam Deck verified?',
     answer:
-      'No Steam Deck compatibility rating had been published as of September 16, 2026 [Unconfirmed]. The demo was reported as playable on Steam Deck by players, but that is Community-reported and not an official rating [Unconfirmed].',
+      'No Steam Deck compatibility rating is shown on the game’s Steam store page as of October 24, 2026 [Unconfirmed]. Players have reported the demo running on Steam Deck, but that is Community-reported and not an official rating [Unconfirmed].',
   },
   {
     question: 'What languages does Silver Pines support?',

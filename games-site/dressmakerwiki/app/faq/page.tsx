@@ -13,17 +13,17 @@ const FAQ_ITEMS = [
   {
     question: 'What is Dressmaker?',
     answer:
-      'Dressmaker is a cozy dressmaking simulation developed by Cozy Lives and published by Free Lives. You choose fabric, arrange and cut out patterns, sew the panels together, decorate the finished garment, and then dress the townsfolk — or display your own designs in your shop window and sell pre-made dresses off the rack. It launches on Steam on September 21, 2026 for Windows and macOS.',
+      'Dressmaker is a cozy dressmaking simulation developed by Cozy Lives and published by Free Lives. You choose fabric, arrange and cut out patterns, sew the panels together, decorate the finished garment, and then dress the townsfolk — or display your own designs in your shop window and sell pre-made dresses off the rack. It was released on Steam on September 21, 2026 for Windows and macOS at $14.99.',
   },
   {
-    question: 'When does Dressmaker come out?',
+    question: 'When did Dressmaker come out?',
     answer:
-      'September 21, 2026. That is the release date shown on the official Steam store page (App ID 4019220). No early-access period has been announced for Dressmaker.',
+      'September 21, 2026. That is the release date shown on the official Steam store page (App ID 4019220), and Steam now lists the game as released. No early-access period was ever announced for Dressmaker.',
   },
   {
     question: 'How much does Dressmaker cost?',
     answer:
-      'The price had not been announced as of September 12, 2026 [Unconfirmed]. Steam’s store data lists Dressmaker as a paid product rather than a free one, but no price figure has been published. This answer will be updated as soon as pricing appears on the store page.',
+      '$14.99 USD on Steam, with no discount applied as of October 24, 2026. Regional prices can differ, so check your own store region.',
   },
   {
     question: 'Is Dressmaker free?',
@@ -33,7 +33,7 @@ const FAQ_ITEMS = [
   {
     question: 'Is there a Dressmaker demo on Steam?',
     answer:
-      'No. Steam’s store data for Dressmaker (App ID 4019220) contains no demo build, and there is no separate demo app on Steam. The only publicly playable version before launch is the itch.io prototype.',
+      'No. Steam’s store data for Dressmaker (App ID 4019220) contains no demo build, and there is no separate demo app on Steam. The free-to-try option is the separate itch.io prototype, which is an earlier build.',
   },
   {
     question: 'What platforms is Dressmaker on?',
@@ -93,12 +93,12 @@ const FAQ_ITEMS = [
   {
     question: 'Does Dressmaker have Steam achievements?',
     answer:
-      'Steam lists the game as having achievements, but the achievement list had not been published as of September 12, 2026 [Unconfirmed]. We will publish an achievement guide once the list is live.',
+      'Steam lists the game as having achievements, and the achievement list is now published on the game’s Steam page. We have not reproduced the full list here; check the Steam page for the current set.',
   },
   {
     question: 'Is Dressmaker on Steam Deck?',
     answer:
-      'No Steam Deck compatibility rating had been published as of September 12, 2026 [Unconfirmed]. Dressmaker is a mouse-driven game and Steam lists a “Mouse Only Option”, so a controller-first layout is not guaranteed.',
+      'No Steam Deck compatibility rating is shown on the store page as of October 24, 2026 [Unconfirmed]. Dressmaker is a mouse-driven game and Steam lists a “Mouse Only Option”, so a controller-first layout is not guaranteed.',
   },
   {
     question: 'Do you have to satisfy customers, or can you sabotage them?',

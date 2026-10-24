@@ -52,8 +52,9 @@ export function websiteSchema(): Record<string, unknown> {
  * **publisher**. Never collapse the two — Steam reports
  * `developers: ["Wych Elm"]` and `publishers: ["Team17"]`.
  *
- * Price is intentionally omitted — the official price had not been
- * announced as of 2026-09-16 (`price_overview` is null on Steam).
+ * Price reflects Steam's `price_overview` for the US store as of
+ * 2026-10-24: $24.99 USD, no discount. The game is released
+ * (`coming_soon: false`, released 2026-10-08).
  *
  * `operatingSystem` reflects Steam's platform data, which lists
  * Windows only; the console versions are announced but are not
@@ -78,6 +79,13 @@ export function videoGameSchema(): Record<string, unknown> {
       '@type': 'Organization',
       name: 'Team17',
     },
+    offers: {
+      '@type': 'Offer',
+      price: '24.99',
+      priceCurrency: 'USD',
+      availability: 'https://schema.org/InStock',
+      url: 'https://store.steampowered.com/app/2333000/Silver_Pines/',
+    },
     datePublished: '2026-10-08',
     gamePlatform: [
       'PC',
@@ -99,7 +107,7 @@ export function videoGameSchema(): Record<string, unknown> {
  *
  * @example
  *   faqPageSchema([
- *     { question: 'Is Silver Pines out yet?', answer: 'No — it releases on October 8, 2026.' },
+ *     { question: 'When did Silver Pines come out?', answer: 'It was released on October 8, 2026.' },
  *   ])
  */
 export function faqPageSchema(

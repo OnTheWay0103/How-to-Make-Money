@@ -1,9 +1,9 @@
 ---
 title: 'Dressmaker Release Date, Price and Platforms — Everything Confirmed'
-description: 'Dressmaker launches September 21, 2026 on Steam for Windows and macOS. Release date, price status, platform support, languages and system requirements — with everything unconfirmed clearly marked.'
+description: 'Dressmaker was released on September 21, 2026 on Steam for Windows and macOS, priced at $14.99 USD. Release date, price, platform support, languages and system requirements — with everything unconfirmed clearly marked.'
 category: 'Release Info'
 version: '1.0'
-updated: '2026-09-12'
+updated: '2026-10-24'
 keywords:
   - dressmaker release date
   - dressmaker game release date
@@ -24,9 +24,9 @@ related:
   - dressmaker-beginner-guide
 ---
 
-**Dressmaker is a cozy dressmaking simulation developed by Cozy Lives and published by Free Lives. It releases on Steam on September 21, 2026 for Windows and macOS.**
+**Dressmaker is a cozy dressmaking simulation developed by Cozy Lives and published by Free Lives. It was released on Steam on September 21, 2026 for Windows and macOS at $14.99 USD.**
 
-That one sentence resolves most of what people search for. The rest of this page covers the details — what the release date actually is, why there is still no price, which platforms are and are not supported, and what the game will need to run. Everything here comes from the official Steam store page and Steam's store data for App ID **4019220**. Where a fact is not officially published, it is marked **[Unconfirmed]** instead of guessed.
+That one sentence resolves most of what people search for. The rest of this page covers the details — the release date, the price, which platforms are and are not supported, and what the game needs to run. Everything here comes from the official Steam store page and Steam's store data for App ID **4019220**, checked on **October 24, 2026**. Where a fact is not officially published, it is marked **[Unconfirmed]** instead of guessed.
 
 > ⚠️ **Careful with the name.** Steam hosts three different products with nearly identical names. This page is about **Dressmaker** (App ID 4019220) by Cozy Lives and Free Lives. It is *not* about **DressMaker** (1487080) or **DressMaker Pro** (1599300), which are VRoid/VRM avatar texturing tools. If you landed here by accident, see [Dressmaker vs DressMaker vs DressMaker Pro](/guides/dressmaker-vs-dressmaker-pro).
 
@@ -36,42 +36,41 @@ That one sentence resolves most of what people search for. The rest of this page
 
 | Field | Value |
 |-------|-------|
-| Release date | **September 21, 2026** |
+| Release date | **September 21, 2026** (released) |
 | Store | Steam (App ID 4019220) |
-| Status | Coming soon — not yet released |
-| Early access | None announced |
+| Price | **$14.99 USD** (Steam, checked 2026-10-24) |
+| Status | Released — available now |
+| Early access | None — it shipped as a full release |
 
-September 21, 2026 is the date carried on the game's official Steam store page. It is a **full release**, not an Early Access launch — no Early Access period has been announced for Dressmaker at any point.
+September 21, 2026 is the date on the game's official Steam store page, and Steam now lists the game as released rather than as coming soon. It is a **full release**, not an Early Access launch — no Early Access period was ever announced for Dressmaker.
 
-The date arrives roughly a month after the game's final marketing push. If you are reading this before September 21, the store page is the single source of truth for any change: release dates move, and the Steam page is updated first.
+The game shipped on that date. Treat the Steam store page as the single source of truth for the current price and patches rather than any article that quotes it.
 
-### What happens on release day
+### Buying it now
 
-At launch you will be able to buy the game on Steam and download it immediately. There is no pre-order period and no pre-load announced for Dressmaker as of September 12, 2026 [Unconfirmed].
+Dressmaker can be bought and downloaded immediately from Steam for **$14.99 USD**. There was no pre-order period and no pre-load. The original itch.io prototype remains a separate, name-your-price build.
 
-Use the time before launch to wishlist the game on Steam. Wishlisting does two things: it notifies you the moment the game goes live, and it is the single biggest lever a small studio has for launch-day visibility.
+As of **October 24, 2026**, Steam's store page shows **Overwhelmingly Positive**: **98% of 14,886 user reviews in the last 30 days are positive**. The English-language review subset is 12,626 reviews at 99% positive.
 
 ---
 
-## Price — Not Announced Yet
+## Price — $14.99 on Steam
 
-Here is the honest answer: **the price had not been announced as of September 12, 2026 [Unconfirmed].**
+The official Steam price is **$14.99 USD**, with no discount applied as of **October 24, 2026**. Steam's store data confirms:
 
-We are not going to invent a number. What we *can* confirm from Steam's store data:
+- Dressmaker is a **paid game**, not a free-to-play title
+- The US listing carries a `price_overview` of **$14.99** with a **0% discount**
+- No pre-order, bundle or deluxe edition pricing is listed
 
-- Dressmaker is a **paid game**, not a free-to-play title — Steam's store data explicitly marks it as not free
-- No price figure, no regional pricing and no launch discount had been published
-- No pre-order or bundle pricing exists
-
-That places Dressmaker in the normal pattern for a mid-size indie release: price appears on the store page close to launch, often in the final days. When it does, this section will be updated with the actual figure and the currency breakdown.
+Regional prices are set by Steam and can differ from the US figure; check your own store region for the local currency amount.
 
 ### The itch.io prototype is not the price
 
-A common source of confusion: the **original Dressmaker prototype on itch.io is name-your-price**, which means players have been able to pay nothing for it. That is a different build from the September 21 Steam release, and it tells you nothing about what the Steam version will cost. We walk through the difference in [Is Dressmaker Free? Steam vs the itch.io Prototype](/guides/dressmaker-free-steam-vs-itch-prototype).
+A common source of confusion: the **original Dressmaker prototype on itch.io is name-your-price**, which means players can pay nothing for it. That is a different, earlier build from the $14.99 Steam release, and its price tells you nothing about the Steam version. We walk through the difference in [Is Dressmaker Free? Steam vs the itch.io Prototype](/guides/dressmaker-free-steam-vs-itch-prototype).
 
 ### A note on bargain-hunting
 
-Because the price is unknown, any site advertising "Dressmaker cheap", "Dressmaker key" or "Dressmaker free download" before launch is either guessing or worse. Buy from Steam directly on release day; third-party key resellers are a known vector for revoked keys.
+Now that the game is out, any site advertising "Dressmaker cheap", "Dressmaker key" or "Dressmaker free download" at a suspiciously low price is either guessing or worse. Buy from Steam directly; third-party key resellers are a known vector for revoked keys.
 
 ---
 
@@ -152,16 +151,16 @@ A few observations that follow directly from these official figures:
 - **1 GB of storage is small.** Dressmaker is a 2D simulation, not a 3D open world, and the install size reflects that. You will not need to clear space for this one.
 - **8 GB of RAM is the standard floor.** If your machine runs other modern indies comfortably, it will run Dressmaker.
 - **Integrated graphics are fine.** Intel UHD 630 is an integrated GPU, so a discrete graphics card is not required on Windows.
-- **macOS requires Apple silicon.** The official macOS minimum is Apple M1. Intel Macs are not listed in the minimum specification — if you are on an Intel Mac, treat support as **[Unconfirmed]** and check the store page again closer to launch.
+- **macOS requires Apple silicon.** The official macOS minimum is Apple M1. Intel Macs are not listed in the minimum specification — if you are on an Intel Mac, treat support as **[Unconfirmed]** and check the store page.
 - **No recommended specifications have been published.** Any site listing "recommended" specs for Dressmaker is estimating, not reporting.
 
 We keep a fuller comparison of the official specs against the commonly-circulated unofficial ones on the [platform guide](/guides/dressmaker-platforms-mac-console-mobile).
 
 ---
 
-## What You Get on September 21
+## What the Released Game Includes
 
-To set expectations accurately, here is what is officially confirmed to be in the game at launch:
+To set expectations accurately, here is what is officially confirmed to be in the released game:
 
 - **The full dressmaking pipeline** — sketch, fabric selection, pattern arrangement and cutting, machine sewing, decoration, mannequin preview
 - **Five fabrics** — cotton, linen, wool, silk and velvet
@@ -172,7 +171,7 @@ To set expectations accurately, here is what is officially confirmed to be in th
 - **Reputation and coin** — the two confirmed reward tracks
 - **A cat you can pet** — confirmed, and last in the official description for a reason
 
-And here is what is **not** confirmed, despite appearing in pre-release coverage elsewhere:
+And here is what is **not** confirmed, despite appearing in earlier preview coverage elsewhere:
 
 - A town event calendar **[Unconfirmed]**
 - Named townspeople and their preference tables **[Unconfirmed]**
@@ -184,23 +183,23 @@ And here is what is **not** confirmed, despite appearing in pre-release coverage
 
 ## Frequently Asked Questions
 
-**When exactly does Dressmaker come out?**
+**When exactly did Dressmaker come out?**
 September 21, 2026, on Steam.
 
-**How much will Dressmaker cost?**
-The price had not been announced as of September 12, 2026 [Unconfirmed]. Steam confirms it is a paid game, but no figure has been published.
+**How much does Dressmaker cost?**
+$14.99 USD on Steam, with no discount as of October 24, 2026.
 
 **Is Dressmaker free?**
 No. It is a paid Steam release. The separate itch.io prototype is name-your-price.
 
 **Is Dressmaker Early Access?**
-No — no Early Access period has been announced.
+No — no Early Access period was ever announced, and it shipped as a full release.
 
 **Which platforms can I buy it on?**
 Windows and macOS via Steam. Linux, consoles and mobile are not supported and have not been announced.
 
 **Is there a demo?**
-No Steam demo exists. The only playable version before launch is the itch.io prototype.
+No Steam demo exists. The free-to-try option is the separate itch.io prototype, which is an earlier build.
 
 **Is Dressmaker multiplayer?**
 No. Single-player only.
@@ -225,4 +224,4 @@ None has been announced [Unconfirmed].
 
 ---
 
-*Sources: Steam store page and store data for App ID 4019220 (checked September 12, 2026). Price and any mechanic not listed above remain [Unconfirmed]. This is an unofficial fan resource and is not affiliated with Cozy Lives or Free Lives.*
+*Sources: Steam store page and store data for App ID 4019220 (checked October 24, 2026). Any mechanic not listed above remains [Unconfirmed]. This is an unofficial fan resource and is not affiliated with Cozy Lives or Free Lives.*

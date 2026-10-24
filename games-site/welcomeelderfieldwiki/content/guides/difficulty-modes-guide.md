@@ -1,9 +1,9 @@
 ---
 title: 'Welcome to Elderfield Cozy Mode vs Challenge Mode — Which Difficulty Should You Choose?'
-description: 'Cozy Mode vs Challenge Mode in Welcome to Elderfield — what the official description says about each, who should pick which, and how the choice changes your farming, combat, and overall pace at launch.'
+description: 'Cozy Mode vs Challenge Mode in Welcome to Elderfield — what the official description says about each, who should pick which, and how the choice changes your farming, combat, and overall pace in the released game.'
 category: 'Beginner'
 version: '1.0'
-updated: '2026-08-30'
+updated: '2026-10-24'
 keywords:
   - welcome to elderfield cozy mode
   - welcome to elderfield challenge mode
@@ -28,7 +28,7 @@ sources:
 
 # Welcome to Elderfield Cozy Mode vs Challenge Mode
 
-Welcome to Elderfield lets you **choose your difficulty** at the start. The official Steam description says you can **"play on cozy mode or test your skills and resource building with in depth turn based combat."** This guide explains the two confirmed modes and helps you pick the right one for September 10.
+Welcome to Elderfield lets you **choose your difficulty** at the start. The official Steam description says you can **"play on cozy mode or test your skills and resource building with in depth turn based combat."** This guide explains the two confirmed modes and helps you pick the right one for your first run.
 
 ## Cozy Mode
 
@@ -78,7 +78,7 @@ What that means in practice [Official + Editorial]:
 - You enjoy turn-based combat and resource management.
 - You like the "die, learn, improve" loop that coverage describes.
 
-**Still unsure?** Play the free demo first — it is your only hands-on preview before launch, and you can feel how the two modes differ in practice.
+**Still unsure?** Play the free demo first — it is a low-cost hands-on preview, and you can feel how the two modes differ in practice.
 
 ## What Happens If You Find It Too Easy/Hard?
 
@@ -86,7 +86,7 @@ Because mode-switching is [Unconfirmed], your options are:
 
 - **Restart** — the game is single-player and save-based; a fresh start is low-cost.
 - **Adjust how you play** — in Cozy Mode you can voluntarily fight more; in Challenge Mode you can flee and farm up before tackling content.
-- **Wait for launch details** — the developer may confirm difficulty options (changing modes mid-save) closer to or after launch.
+- **Check for post-launch developer details** — the developer may publish or confirm difficulty options (such as changing modes mid-save) in a patch or announcement.
 
 ## The "Hybrid" Approach
 
@@ -99,13 +99,13 @@ If you want the cozy atmosphere but enjoy a good boss fight, start **Cozy** and 
 
 ## What the Community Is Saying
 
-Because the full game is unreleased, the community's strongest signal is the **demo** — which currently holds ~96% positive across ~550 reviews. Demo players broadly describe:
+The demo remains the most accessible early signal — it currently holds ~96% positive across ~550 reviews, and post-launch reports are still accumulating. Demo players broadly describe:
 
 - The **farming loop as satisfying** with the horror twist adding tension without frustration.
-- **Combat as light in the demo slice** — the full "Old God" challenge is expected to be much harder at launch.
+- **Combat as light in the demo slice** — the full "Old God" challenge is expected to be much harder in the full game.
 - The **tone as the draw** — cozy-horror resonates with players who like Stardew-style loops but want more atmosphere.
 
-That suggests **Cozy Mode is the safest first pick for most players**, with Challenge Mode reserved for those who actively want the difficulty.
+That suggests **Cozy Mode is a reasonable first pick for most players**, with Challenge Mode reserved for those who actively want the difficulty.
 
 ## Final Recommendation
 
@@ -113,13 +113,13 @@ That suggests **Cozy Mode is the safest first pick for most players**, with Chal
 - **Life-sim veteran who wants relaxation:** Cozy Mode.
 - **Life-sim veteran who wants stakes:** Challenge Mode.
 - **Turn-based RPG fan:** Challenge Mode — but farm first, then fight.
-- **Undecided:** play the demo in both modes before September 10.
+- **Undecided:** play the demo in both modes before starting the full game.
 
 ---
 
 ## Verification
 
-- **Last checked:** 2026-08-30
-- **Game version:** pre-release (launches 9/10/2026)
+- **Last checked:** 2026-10-24
+- **Game version:** released September 10, 2026
 - **Sources checked:** Steam store page (App 3195440), Steam demo page, Steam Community discussion reports
 - **Note:** The two modes and their official framing are confirmed from the store description. Mode-switching, exact difficulty curves, and the Old God content structure are [Unconfirmed].

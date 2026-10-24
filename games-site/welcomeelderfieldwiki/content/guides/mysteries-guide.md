@@ -3,7 +3,7 @@ title: 'Welcome to Elderfield Mysteries & Investigation Guide — All 7 Demo Mys
 description: 'How mystery investigation works in Welcome to Elderfield and where to find all 7 mysteries in the demo — 5 in the mall, 1 in the sewer, 1 in Dave\'s house — based on community-verified locations.'
 category: 'Exploration'
 version: '1.0'
-updated: '2026-08-30'
+updated: '2026-10-24'
 keywords:
   - welcome to elderfield mysteries
   - welcome to elderfield mystery locations
@@ -23,7 +23,7 @@ sources:
   - tier: "Community"
     text: "Steam Community discussion reports — 7 mysteries in the demo (5 mall, 1 sewer, 1 Dave's house), event-based vs always-accessible, TV mysteries count toward the 7-mystery quest"
   - tier: "Editorial"
-    text: "Location descriptions are compiled from community reports and may change after launch"
+    text: "Location descriptions are compiled from community reports and may differ in the full release"
 ---
 
 # Welcome to Elderfield Mysteries & Investigation Guide
@@ -79,7 +79,7 @@ Beyond the collectible/quest value, mysteries are the **investigation loop** of 
 
 ## What the Full Game Will Add
 
-The demo is ~1/6 of the planned game, so the full release is expected to have **far more mysteries** across a town ~3x the demo size, with more dungeons [Unconfirmed]. Event-based mysteries and the TV/news thread will likely expand into the full story.
+The demo is ~1/6 of the game, so the full release is reported to have **far more mysteries** across a town ~3x the demo size, with more dungeons [Unconfirmed]. Event-based mysteries and the TV/news thread likely expand into the full story.
 
 ## Tips
 
@@ -115,7 +115,7 @@ This route turns all 7 mysteries into two focused excursions instead of a scatte
 
 ## Verification
 
-- **Last checked:** 2026-08-30
-- **Game version:** demo (App 3195680), pre-release
+- **Last checked:** 2026-10-24
+- **Game version:** demo (App 3195680); full game released September 10, 2026
 - **Sources checked:** Steam Community discussion reports, Steam demo page
-- **Note:** Mystery locations are community-verified from the demo and may shift at launch. The full-game mystery count is [Unconfirmed].
+- **Note:** Mystery locations are community-verified from the demo and may differ in the full release. The full-game mystery count is [Unconfirmed].

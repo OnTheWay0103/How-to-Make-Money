@@ -1,9 +1,9 @@
 ---
 title: 'Is Dressmaker Free? The Steam Release vs the itch.io Prototype'
-description: 'Dressmaker is not free — the September 21, 2026 Steam release is a paid game. The itch.io prototype is name-your-price and playable today. How the two differ, where to get each one safely, and why there is no Steam demo.'
+description: 'Dressmaker is not free — the Steam release, out since September 21, 2026, costs $14.99. The itch.io prototype is name-your-price. How the two differ, where to get each one safely, and why there is no Steam demo.'
 category: 'Release Info'
 version: '1.0'
-updated: '2026-09-12'
+updated: '2026-10-24'
 keywords:
   - is dressmaker game free
   - is dressmaker free
@@ -30,8 +30,8 @@ related:
 
 Two different things share the Dressmaker name, and conflating them is the single most common misunderstanding about this game:
 
-1. **The Steam release** — developed by **Cozy Lives**, published by **Free Lives**, launching **September 21, 2026**. This is a **paid game**. Steam's store data lists it as not free.
-2. **The original itch.io prototype** — the project's earliest public build, hosted on **itch.io** and offered on a **name-your-price** basis. It is a separate, earlier, smaller build. It is not the September 21 release.
+1. **The Steam release** — developed by **Cozy Lives**, published by **Free Lives**, released on **September 21, 2026** at **$14.99**. This is a **paid game**. Steam's store data lists it as not free.
+2. **The original itch.io prototype** — the project's earliest public build, hosted on **itch.io** and offered on a **name-your-price** basis. It is a separate, earlier, smaller build. It is not the released Steam game.
 
 So the accurate answer depends on which one you mean. This guide separates them completely.
 
@@ -41,11 +41,11 @@ So the accurate answer depends on which one you mean. This guide separates them 
 
 | | Steam release | itch.io prototype |
 |---|---|---|
-| **Cost** | Paid — price not yet announced [Unconfirmed] | Name-your-price (you can pay nothing) |
-| **Release date** | September 21, 2026 | Available now |
+| **Cost** | Paid — $14.99 USD on Steam | Name-your-price (you can pay nothing) |
+| **Release date** | September 21, 2026 (released) | Available now |
 | **Developer** | Cozy Lives | Cozy Lives (earlier project build) |
 | **Publisher** | Free Lives | Self-published on itch.io |
-| **Status** | Not yet released | Playable now |
+| **Status** | Released | Playable now |
 | **Scope** | The full game | An early prototype, smaller in scope |
 | **Purpose** | Commercial release | Testing the concept publicly |
 
@@ -57,15 +57,15 @@ The important point: **playing the prototype is not the same as playing Dressmak
 
 Steam's store data for Dressmaker (App ID **4019220**) contains **no demo build**, and there is no separate Dressmaker demo app on Steam.
 
-This surprises people, because a demo is the norm for a cozy indie release with a September launch. But the studio's answer is already sitting on itch.io: rather than cut a fresh vertical slice, the original playable prototype serves that role — and it has been publicly available for far longer than any demo would have been.
+This surprises people, because a demo is the norm for a cozy indie release. But the studio's answer is already sitting on itch.io: rather than cut a fresh vertical slice, the original playable prototype serves that role — and it has been publicly available for far longer than any demo would have been.
 
 So if you search "Dressmaker demo" hoping to find a Steam demo link, you will not find one, because it does not exist. Any page that sends you to a "Dressmaker Steam demo" is either confused or is pointing you somewhere you should not go.
 
 ---
 
-## How to Play Dressmaker Before September 21
+## How to Play the itch.io Prototype
 
-The only legitimate way to play anything Dressmaker-shaped before launch is the itch.io prototype.
+The prototype remains the free way to try the game's concept. It is not the released Steam build, and the $14.99 Steam game is now the main way to play Dressmaker.
 
 **Where:** search itch.io for "Dressmaker" — [itch.io search for Dressmaker](https://itch.io/search?q=dressmaker) — and pick the entry published by the Dressmaker team.
 
@@ -73,7 +73,7 @@ Be aware that itch.io hosts tens of thousands of projects, and the word "dressma
 
 **What it costs:** nothing required. Name-your-price means you can enter 0 and download it, or pay whatever you think it is worth. Paying is optional but is how small prototypes get funded.
 
-**What you can expect:** the core loop — choosing fabrics, cutting patterns, sewing panels, and delivering to customers — in an earlier and rougher form. Expect the interface and content to be smaller than the September 21 version.
+**What you can expect:** the core loop — choosing fabrics, cutting patterns, sewing panels, and delivering to customers — in an earlier and rougher form. Expect the interface and content to be smaller than the released Steam version.
 
 ---
 
@@ -83,7 +83,7 @@ This is a fair question, and it comes up often enough that it deserves a direct 
 
 **Download only from two places:**
 
-- **Steam** — the store page for App ID 4019220, once the game launches
+- **Steam** — the store page for App ID 4019220, where the game is now on sale for $14.99
 - **itch.io** — the official prototype page
 
 That is the entire list. Anything else — "Dressmaker free download" aggregator sites, cracked builds, torrent links, modified installers — is not the game and is not something we recommend touching. They are a known vector for unwanted software, and the fact that Dressmaker is a small, highly-wishlisted indie game makes it exactly the kind of title those sites target.
@@ -117,23 +117,23 @@ What we **cannot** tell you, because no official source has said it:
 
 - Whether every prototype fabric appears in the release [Unconfirmed]
 - Whether prototype save files carry over [Unconfirmed] — almost certainly not, but unconfirmed either way
-- Whether the prototype will stay online after September 21 [Unconfirmed]
+- Whether the prototype will stay online long term [Unconfirmed]
 
 ---
 
 ## Frequently Asked Questions
 
 **Is Dressmaker free on Steam?**
-No. Steam's store data marks Dressmaker as a paid product. The price had not been announced as of September 12, 2026 [Unconfirmed].
+No. Steam's store data marks Dressmaker as a paid product. It costs $14.99 USD as of October 24, 2026.
 
 **Is Dressmaker on Steam at all?**
-Yes — App ID 4019220, releasing September 21, 2026 for Windows and macOS.
+Yes — App ID 4019220, released September 21, 2026 for Windows and macOS.
 
 **Is there a free demo?**
 Not on Steam. The free-to-try option is the name-your-price itch.io prototype.
 
 **Is the itch.io prototype the full game?**
-No. It is an earlier, smaller build. The full game launches September 21, 2026.
+No. It is an earlier, smaller build. The full game was released on September 21, 2026.
 
 **Can I still play the prototype after launch?**
 That has not been announced [Unconfirmed]. It has been publicly available for a long time, but nothing official commits to keeping it up.
@@ -147,8 +147,8 @@ Nowhere — there is no official mobile version and no APK.
 **Does the prototype support the same platforms as the release?**
 We have not verified the prototype's platform list against an official source, so we do not state it here. The **Steam release** supports Windows and macOS only.
 
-**Should I play the prototype before launch?**
-If you are curious about the loop, yes — it is the only hands-on option, and it costs nothing to try. If you would rather meet the finished game fresh, waiting nine days costs you nothing either.
+**Should I play the prototype now that the game is out?**
+If you are curious about how the loop evolved, yes — it costs nothing to try. If you would rather meet the finished game first, the $14.99 Steam release is the complete version.
 
 ---
 
@@ -161,4 +161,4 @@ If you are curious about the loop, yes — it is the only hands-on option, and i
 
 ---
 
-*Sources: Steam store page and store data for App ID 4019220, and the publicly available itch.io prototype page, both checked September 12, 2026. Unverified details are marked [Unconfirmed]. This is an unofficial fan resource and is not affiliated with Cozy Lives or Free Lives.*
+*Sources: Steam store page and store data for App ID 4019220, checked October 24, 2026; publicly available itch.io prototype page, checked September 12, 2026. Unverified details are marked [Unconfirmed]. This is an unofficial fan resource and is not affiliated with Cozy Lives or Free Lives.*

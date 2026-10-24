@@ -3,7 +3,7 @@ title: 'Welcome to Elderfield Fishing Guide — How to Get the Fishing Rod & Cat
 description: 'How to unlock fishing in Welcome to Elderfield — the fishing rod is at the lake, reached through the sewer via the playground manhole. A community-verified route with shortcut tips and what fishing is for.'
 category: 'Farming'
 version: '1.0'
-updated: '2026-08-30'
+updated: '2026-10-24'
 keywords:
   - welcome to elderfield fishing
   - welcome to elderfield fishing rod
@@ -67,7 +67,7 @@ The exact fishing mini-game mechanics (cast timing, bite timing, reel) are **not
 - Cast into the water and wait for a bite.
 - React to the bite prompt (timing/button press).
 
-We will document the exact fishing mechanic after launch, once it is verified.
+We will document the exact fishing mechanic once it is verified in the release build.
 
 ## Why Fishing Is Worth It
 
@@ -75,7 +75,7 @@ We will document the exact fishing mechanic after launch, once it is verified.
 - **Income** — surplus fish sell for money, funding upgrades and seeds.
 - **Exploration synergy** — the lake trip also covers **2 of the 7 demo mysteries** (sewer + a lake-adjacent area) and connects to the map network.
 
-## Fishing Tips (Pre-Release)
+## Fishing Tips
 
 - **Unlock the rod early** in the demo — the lake route is short and high-value.
 - **Take the shop-manhole shortcut** to minimize fights.
@@ -106,15 +106,15 @@ Fishing has no confirmed time/season restrictions in the full game [Unconfirmed]
 - **Taking the long path** — use the shop-manhole shortcut; the house path adds a third fight.
 - **Selling all fish raw** — cook some for food and rest support; it pays off over a playthrough.
 
-## After Launch
+## Still to Document
 
-This guide will be updated with: the exact fishing mini-game, fish catalogue (species, seasons, weather/time rarity per the game's expected depth), sell prices, and the best fishing spots. All of that is [Unconfirmed] until then.
+This guide will be updated with: the exact fishing mini-game, fish catalogue (species, seasons, weather/time rarity per the game's expected depth), sell prices, and the best fishing spots. All of that is [Unconfirmed] until verified.
 
 ---
 
 ## Verification
 
-- **Last checked:** 2026-08-30
-- **Game version:** demo (App 3195680), pre-release
+- **Last checked:** 2026-10-24
+- **Game version:** demo (App 3195680); full game released September 10, 2026
 - **Sources checked:** Steam store page (App 3195440), Steam Community discussion reports (fishing rod route, shortcut)
 - **Note:** The rod location and route are community-verified. The fishing mini-game, fish catalogue, and sell prices are [Unconfirmed].

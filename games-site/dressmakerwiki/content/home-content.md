@@ -1,20 +1,22 @@
 ---
 title: "Dressmaker Wiki — Cozy Dressmaking Simulation Guide Hub"
-description: "The unofficial Dressmaker wiki for the cozy dressmaking simulation developed by Cozy Lives and published by Free Lives. Release date, price, platforms, the free itch.io prototype vs the Steam game, and beginner guides to fabric, patterns and sewing."
+description: "The unofficial Dressmaker wiki for the cozy dressmaking simulation developed by Cozy Lives and published by Free Lives. Released September 21, 2026 at $14.99 on Steam, with guides to fabric, patterns, sewing and customer orders."
 category: "Home"
 version: "1.0"
-updated: "2026-09-12"
+updated: "2026-10-24"
 keywords: ["Dressmaker", "Dressmaker game", "Dressmaker wiki", "Dressmaker guide", "Dressmaker release date", "Dressmaker Steam", "Dressmaker price", "Dressmaker platforms", "Dressmaker itch.io", "Dressmaker vs DressMaker", "cozy dressmaking game"]
 related: ["dressmaker-release-date-price-platforms", "dressmaker-free-steam-vs-itch-prototype", "dressmaker-beginner-guide", "dressmaker-platforms-mac-console-mobile", "dressmaker-vs-dressmaker-pro"]
 ---
 
 # Dressmaker Wiki — Cozy Dressmaking Simulation Guide Hub
 
-**Everything confirmed about the cozy dressmaking simulation from Cozy Lives and Free Lives — from the name-your-price itch.io prototype to the September 21, 2026 Steam launch.**
+**Everything confirmed about the cozy dressmaking simulation from Cozy Lives and Free Lives — released on Steam for Windows and macOS on September 21, 2026 at $14.99, alongside the earlier name-your-price itch.io prototype.**
 
-Dressmaker launches on **September 21, 2026** on Steam for **Windows and macOS**. It is developed by **Cozy Lives** and published by **Free Lives** — a distinction that matters, because it is one of the most commonly misreported facts about the game. The full game is a paid release; the original itch.io prototype is a separate, earlier build offered on a name-your-price basis.
+Dressmaker was released on **September 21, 2026** on Steam for **Windows and macOS**, priced at **$14.99 USD**. It is developed by **Cozy Lives** and published by **Free Lives** — a distinction that matters, because it is one of the most commonly misreported facts about the game. The full game is a paid release; the original itch.io prototype is a separate, earlier build offered on a name-your-price basis.
 
-Because the game has not launched yet, everything below is drawn from the official Steam store page, Steam's own store data, and pre-release preview coverage. Anything that is not officially documented is marked **[Unconfirmed]** rather than presented as fact.
+The game is out now. Everything below is drawn from the official Steam store page, Steam's own store data and earlier preview coverage; mechanics that no official source documents are marked **[Unconfirmed]** rather than presented as fact.
+
+As of **October 24, 2026**, Steam's store page shows **Overwhelmingly Positive**: **98% of 14,886 user reviews in the last 30 days are positive** (the English-language subset is 12,626 reviews at 99%).
 
 > **Not the app you were looking for?** Steam also hosts **DressMaker** (App ID 1487080) and **DressMaker Pro** (App ID 1599300) — two unrelated VRoid/VRM avatar texturing tools. See [Dressmaker vs DressMaker vs DressMaker Pro](/guides/dressmaker-vs-dressmaker-pro).
 
@@ -37,10 +39,10 @@ Because the game has not launched yet, everything below is drawn from the offici
 ## Featured Guides
 
 ### Release Date, Price & Platforms
-Dressmaker arrives **September 21, 2026** on Steam for Windows and macOS. The official price had not been announced as of September 12, 2026 [Unconfirmed]. [Read the full guide →](/guides/dressmaker-release-date-price-platforms)
+Dressmaker was released on **September 21, 2026** on Steam for Windows and macOS at **$14.99 USD**. [Read the full guide →](/guides/dressmaker-release-date-price-platforms)
 
 ### Is Dressmaker Free?
-No — the Steam release is a paid game. What you can play right now is the original **itch.io prototype**, which is name-your-price. The two are different builds, and this guide explains exactly how. [Steam vs itch.io →](/guides/dressmaker-free-steam-vs-itch-prototype)
+No — the Steam release is a paid game. The original **itch.io prototype** is still available on a name-your-price basis. The two are different builds, and this guide explains exactly how. [Steam vs itch.io →](/guides/dressmaker-free-steam-vs-itch-prototype)
 
 ### Beginner Guide
 Sketch the design, choose fabric, arrange and cut the pattern, sew the panels, decorate the garment, then deliver it for reputation and coin. A step-by-step walkthrough of the loop. [Beginner guide →](/guides/dressmaker-beginner-guide)
@@ -72,12 +74,13 @@ You are also running a business. A whole town of people wants custom dresses for
 | Steam App ID | 4019220 |
 | Developer | **Cozy Lives** |
 | Publisher | **Free Lives** |
-| Release date | **September 21, 2026** |
-| Platforms | Windows, macOS (no Linux) |
+| Release date | **September 21, 2026** (released) |
+| Platforms | Windows, macOS via Steam (no Linux) |
 | Genre | Casual, Simulation |
 | Players | Single-player only |
 | Languages | English, Simplified Chinese, Japanese (full audio) |
-| Price | Not announced as of 2026-09-12 [Unconfirmed] |
+| Price | **$14.99 USD** on Steam (checked 2026-10-24) |
+| Steam reviews | **Overwhelmingly Positive — 98% of 14,886 recent reviews positive** (2026-10-24) |
 | Steam demo | None |
 
 ---
@@ -101,9 +104,8 @@ You are also running a business. A whole town of people wants custom dresses for
 
 ## What Is *Not* Confirmed Yet
 
-Pre-release coverage of any unreleased game fills gaps with guesses. We do not. As of September 12, 2026 the following are **not** documented by any official source:
+Coverage written before a game is released tends to fill gaps with guesses. We do not. As of October 24, 2026 the following are **not** documented by any official source:
 
-- The price of the Steam release **[Unconfirmed]**
 - Townsperson names, personalities or preference tables **[Unconfirmed]**
 - Reputation levels, quality-score values or any other numeric progression **[Unconfirmed]**
 - Order deadlines, a town event calendar, or how time passes **[Unconfirmed]**
@@ -111,7 +113,7 @@ Pre-release coverage of any unreleased game fills gaps with guesses. We do not. 
 - Recommended (as opposed to minimum) system specifications — none published
 - Any console, mobile or Linux version — none announced
 
-If a guide anywhere tells you the exact reputation thresholds or the name of every townsperson before September 21, it is guessing.
+If a guide anywhere presents exact reputation thresholds or a complete townsperson list without citing an official source, treat it as unverified.
 
 ---
 
@@ -124,4 +126,4 @@ If a guide anywhere tells you the exact reputation thresholds or the name of eve
 
 ---
 
-*This wiki is community-maintained and reflects official information available before the September 21, 2026 launch. Content marked [Unconfirmed] will be verified and updated after release. Dressmaker Wiki is an unofficial fan resource and is not affiliated with Cozy Lives or Free Lives.*
+*This wiki is community-maintained and reflects official information available at and after the September 21, 2026 release, including material first gathered from previews and the itch.io prototype. Content marked [Unconfirmed] has no official source behind it. Dressmaker Wiki is an unofficial fan resource and is not affiliated with Cozy Lives or Free Lives.*

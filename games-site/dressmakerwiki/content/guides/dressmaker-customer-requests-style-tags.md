@@ -3,7 +3,7 @@ title: 'Dressmaker Customer Requests Guide — How to Match Style Tags to Every 
 description: 'How Dressmaker customer orders work: what the official description confirms about tastes and events, how garment style tags are reported to work, and a method for reading a brief. No customer names or preference tables are published, and this page says so.'
 category: 'Systems'
 version: '1.0'
-updated: '2026-09-12'
+updated: '2026-10-24'
 keywords:
   - dressmaker customer requests
   - dressmaker style tags
@@ -20,7 +20,7 @@ related:
   - dressmaker-beginner-guide
 ---
 
-**Dressmaker is a cozy dressmaking simulation developed by Cozy Lives and published by Free Lives, releasing on Steam on September 21, 2026 for Windows and macOS.** Customers are the reason dresses get made. Reading their requests correctly is the difference between a commission that pays well and a garment that sits in the window.
+**Dressmaker is a cozy dressmaking simulation developed by Cozy Lives and published by Free Lives, released on Steam on September 21, 2026 for Windows and macOS.** Customers are the reason dresses get made. Reading their requests correctly is the difference between a commission that pays well and a garment that sits in the window.
 
 This page covers what is officially confirmed about orders, what preview coverage has reported about style matching, and — because this is the area with the most third-party invention — where the information stops.
 
@@ -60,9 +60,9 @@ It also tells you something about the design intent: the game is comfortable wit
 
 ## Style Tags — What Previews Have Reported
 
-Pre-release coverage has described garments as being assembled from parts that carry **style characteristics**, with matching styles across parts reading as more coherent to a customer, and stacking the same style tag producing a stronger match [**preview-sourced — [Unconfirmed]** for the September 21 release].
+Preview coverage has described garments as being assembled from parts that carry **style characteristics**, with matching styles across parts reading as more coherent to a customer, and stacking the same style tag producing a stronger match [**preview-sourced — [Unconfirmed]** post-release].
 
-If that holds in the release, the practical consequence is significant: **a garment is not one style decision, it is several that have to agree.** A bodice, collar, sleeves and skirt each carry a style, and a dress that stacks the same one across all of them reads as intentional, while a dress that mixes them at random reads as incoherent.
+If that report holds for the released game, the practical consequence is significant: **a garment is not one style decision, it is several that have to agree.** A bodice, collar, sleeves and skirt each carry a style, and a dress that stacks the same one across all of them reads as intentional, while a dress that mixes them at random reads as incoherent.
 
 The parts themselves — bodice, collar, sleeves and skirt — are covered in [Sketchbook and Dress Parts](/guides/dressmaker-sketchbook-dress-parts).
 
@@ -104,7 +104,7 @@ Step 7 matters more than it looks. Commissions are guaranteed work; the shop win
 
 The two reward tracks are confirmed by name, and that is the extent of it.
 
-**No numeric reputation values, tier thresholds, coin amounts or per-commission payouts have been published [Unconfirmed].** Any guide quoting specific figures before September 21 is estimating them. If you see a number attributed to a Dressmaker customer, ask for the source — there isn't one publicly.
+**No numeric reputation values, tier thresholds, coin amounts or per-commission payouts have been published [Unconfirmed].** Any guide quoting specific figures without an official source is estimating them. If you see a number attributed to a Dressmaker customer, ask for the source — there isn't one publicly.
 
 What can be said without inventing anything: reputation and coin are both earned from customer deliveries, and the shop window is a confirmed second route to coin that does not depend on a customer's brief.
 
@@ -156,4 +156,4 @@ Not documented [Unconfirmed]. No deadlines have been announced.
 
 ---
 
-*Sources: the official Steam store description and store data for App ID 4019220, plus pre-release preview coverage, labelled inline and marked [Unconfirmed] where it describes unreleased mechanics. No customer names, preference tables or payout values are published, and none are invented here. This is an unofficial fan resource and is not affiliated with Cozy Lives or Free Lives.*
+*Sources: the official Steam store description and store data for App ID 4019220, checked October 24, 2026, plus preview coverage, labelled inline and marked [Unconfirmed] where it describes pre-launch mechanics. No customer names, preference tables or payout values are published, and none are invented here. This is an unofficial fan resource and is not affiliated with Cozy Lives or Free Lives.*

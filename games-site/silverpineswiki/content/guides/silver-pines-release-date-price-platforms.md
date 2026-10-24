@@ -1,9 +1,9 @@
 ---
 title: 'Silver Pines Release Date, Price and Platforms — Everything Confirmed'
-description: 'Silver Pines releases October 8, 2026 on PC, PS5, Xbox Series X|S, Switch and Switch 2. Release date, price status, platform support, languages and system requirements — with everything unconfirmed clearly marked.'
+description: 'Silver Pines was released on October 8, 2026 for PC via Steam, priced at $24.99 USD. Release date, price, platform support, languages and system requirements — with everything unconfirmed clearly marked.'
 category: 'Release Info'
 version: '1.0'
-updated: '2026-09-16'
+updated: '2026-10-24'
 keywords:
   - silver pines game release date
   - silver pines release date
@@ -23,9 +23,9 @@ related:
   - silver-pines-coins-vending-machines-economy
 ---
 
-**Silver Pines is a survival horror metroidvania developed by Wych Elm and published by Team17. It releases on October 8, 2026 for PC, PlayStation 5, Xbox Series X|S, Nintendo Switch and Nintendo Switch 2.**
+**Silver Pines is a survival horror metroidvania developed by Wych Elm and published by Team17. It was released on October 8, 2026 and costs $24.99 USD on Steam for PC (Windows).**
 
-That sentence answers most of what people search for. The rest of this page covers the details — what the release date actually is, why there is still no price, which platforms are and are not supported, and what the game needs to run. Everything here traces to the official Steam store page and Steam's store data for App ID **2333000**. Where a fact is not officially published, it is marked **[Unconfirmed]** instead of guessed.
+That sentence answers most of what people search for. The rest of this page covers the details — the release date, the price, which platforms are and are not supported, and what the game needs to run. Everything here traces to the official Steam store page and Steam's store data for App ID **2333000**, checked on **October 24, 2026**. Where a fact is not officially published, it is marked **[Unconfirmed]** instead of guessed.
 
 > ⚠️ **Careful with the name.** "Silver Pines" is also a mobile home park, a healthcare group, a ranch resort chain, a rehabilitation centre, and a restaurant. It is one letter away from World of Warcraft's Silverpine Forest. This page is about the **video game by Wych Elm**. If you arrived here looking for a holiday rental, you are on the wrong site.
 
@@ -35,38 +35,37 @@ That sentence answers most of what people search for. The rest of this page cove
 
 | Field | Value |
 |-------|-------|
-| Release date | **October 8, 2026** |
+| Release date | **October 8, 2026** (released) |
 | Store | Steam (App ID 2333000) |
-| Status | Coming soon — not yet released |
-| Early Access | None announced |
+| Price | **$24.99 USD** (Steam, checked 2026-10-24) |
+| Status | Released — available now |
+| Early Access | None — it shipped as a full release |
 
-October 8, 2026 is the date carried on the game's official Steam store page, and Steam still flags the game as coming soon as of **September 16, 2026** — twenty-two days out. It is a **full release**, not an Early Access launch; no Early Access period has ever been announced for Silver Pines.
+October 8, 2026 is the date on the game's official Steam store page, and Steam now lists the game as released rather than as coming soon. It is a **full release**, not an Early Access launch; no Early Access period was ever announced for Silver Pines.
 
-The date was announced in June 2026 alongside the demo, and has not moved since. If it moves again, the Steam page will be updated first — treat the store page as the single source of truth rather than any article that quotes it.
+The date was announced in June 2026 alongside the demo, and the game shipped on that date. Treat the Steam store page as the single source of truth for the current price, patches and any future re-release rather than any article that quotes it.
 
-### What happens on release day
+### Buying it now
 
-At launch you will be able to buy the game on Steam and download it immediately. There is no pre-order period and no pre-load announced for Silver Pines as of September 16, 2026 **[Unconfirmed]**.
+Silver Pines can be bought and downloaded immediately from Steam for **$24.99 USD**. There was no pre-order period and no pre-load. The free standalone demo is still a separate listing and remains the zero-cost way to try the game before buying — we cover it in the [Silver Pines demo guide](/guides/silver-pines-demo-guide).
 
-Until then, the game is available to **wishlist on Steam**, and unlike most unreleased titles there is a genuinely playable demo you can use to decide — we cover it in the [Silver Pines demo guide](/guides/silver-pines-demo-guide).
+As of **October 24, 2026**, Steam's store page shows **Overwhelmingly Positive** from **1,735 user reviews**, **97%** of them positive.
 
 ---
 
-## Price — Not Announced Yet
+## Price — $24.99 on Steam
 
-Here is the honest answer: **the price had not been announced as of September 16, 2026 [Unconfirmed].**
+The official Steam price is **$24.99 USD**, with no discount applied as of **October 24, 2026**. Steam's store data confirms:
 
-We are not going to invent a number. What we *can* confirm from Steam's store data:
+- Silver Pines is a **paid game**, not a free-to-play title
+- The US listing carries a `price_overview` of **$24.99** with a **0% discount**
+- No pre-order, bundle or deluxe edition pricing is listed
 
-- Silver Pines is a **paid game**, not a free-to-play title — Steam's store data marks it as not free
-- There is **no `price_overview` entry at all**, meaning no price figure, no regional pricing and no launch discount has been published
-- No pre-order, bundle or deluxe edition pricing exists
-
-That places Silver Pines in the normal pattern for a mid-size indie release published by a company like Team17: the price tends to appear on the store page close to launch, often in the final days. When it does, this section will carry the actual figure and the currency breakdown.
+Regional prices are set by Steam and can differ from the US figure; check your own store region for the local currency amount.
 
 ### A note on bargain-hunting
 
-Because the price is unknown, any site advertising "Silver Pines cheap", "Silver Pines key" or "Silver Pines free download" before October 8 is either guessing or worse. The free thing that genuinely exists is the **Steam demo**, and it is free from Valve directly. Buy the full game from Steam or the Epic Games Store on release day; third-party key resellers are a known vector for revoked keys.
+Now that the game is out, any site advertising "Silver Pines cheap", "Silver Pines key" or "Silver Pines free download" at a suspiciously low price is either guessing or worse. The free thing that genuinely exists is the **Steam demo**, and it is free from Valve directly. Buy the full game from Steam or the Epic Games Store; third-party key resellers are a known vector for revoked keys.
 
 ---
 
@@ -84,15 +83,15 @@ Because the price is unknown, any site advertising "Silver Pines cheap", "Silver
 
 The console lineup is notable: Silver Pines ships on **Switch and Switch 2 simultaneously**, which is unusual for an indie horror release and says something about how Team17 is positioning it. The Steam build, by contrast, is **Windows-only** — Steam's platform data lists Windows as supported and both macOS and Linux as unsupported.
 
-The only storefront we can read directly is Steam, so the console entries above rest on the joint publisher announcement rather than a per-platform store page **[console store pages individually Unconfirmed]**. If you need certainty for a specific console, check that console's store listing closer to launch.
+The only storefront we can read directly is Steam, so the console entries above rest on the joint publisher announcement rather than a per-platform store page **[console store pages individually Unconfirmed]**. If you need certainty for a specific console, check that console's store listing.
 
 ### Is Silver Pines on Game Pass?
 
-No Game Pass, PS Plus or Epic free-week release has been announced as of September 16, 2026 **[Unconfirmed]**. The Epic Games Store version is a normal paid listing. Silver Pines is a paid release from a third-party publisher, and no subscription service has been confirmed.
+No Game Pass, PS Plus or Epic free-week release has been announced as of October 24, 2026 **[Unconfirmed]**. The Epic Games Store version is a normal paid listing. Silver Pines is a paid release from a third-party publisher, and no subscription service has been confirmed.
 
 ### Will there be a physical edition?
 
-None has been announced as of September 16, 2026 **[Unconfirmed]**. "Silver Pines physical copy" is a real search query with real demand behind it, so this is worth re-checking closer to launch — but do not assume one exists, and be sceptical of any listing that appears before an official announcement.
+None has been announced as of October 24, 2026 **[Unconfirmed]**. "Silver Pines physical copy" is a real search query with real demand behind it, so this is worth re-checking — but do not assume one exists, and be sceptical of any listing that appears before an official announcement.
 
 ---
 
@@ -182,9 +181,9 @@ A few observations that follow directly from these official figures:
 
 ---
 
-## What You Get on October 8
+## What the Released Game Includes
 
-To set expectations accurately, here is what is confirmed to be in the game at launch:
+To set expectations accurately, here is what is confirmed to be in the released game:
 
 - **A survival horror resource loop** — scarce ammunition, limited inventory, medicine and upgrades that each matter (official description)
 - **A metroidvania town** — locked doors and hidden paths that open up as your tools and weapons improve (official description)
@@ -193,7 +192,7 @@ To set expectations accurately, here is what is confirmed to be in the game at l
 - **Full controller support**, Achievements, Steam Cloud and Family Sharing (Steam categories)
 - **Ten interface languages**, English full audio (Steam store data)
 
-And here is what is **not** confirmed, despite appearing in pre-release coverage elsewhere:
+And here is what is **not** confirmed, despite appearing in earlier preview coverage elsewhere:
 
 - Any **weapon name, damage value or enemy statistic** **[Unconfirmed]**
 - The **coin cost of a save** or of any vending-machine item **[Unconfirmed]**
@@ -206,20 +205,20 @@ And here is what is **not** confirmed, despite appearing in pre-release coverage
 
 ## Frequently Asked Questions
 
-**When exactly does Silver Pines come out?**
-October 8, 2026, on PC, PS5, Xbox Series X|S, Switch and Switch 2.
+**When exactly did Silver Pines come out?**
+October 8, 2026, on PC via Steam. Console versions were announced for PS5, Xbox Series X|S, Switch and Switch 2.
 
-**How much will Silver Pines cost?**
-The price had not been announced as of September 16, 2026 [Unconfirmed]. Steam confirms it is a paid game, but no figure has been published.
+**How much does Silver Pines cost?**
+$24.99 USD on Steam, with no discount as of October 24, 2026.
 
 **Is Silver Pines Early Access?**
-No — no Early Access period has been announced.
+No — no Early Access period was ever announced, and it shipped as a full release.
 
 **Can I play it now?**
-Yes, through the free Steam demo (App ID 4540100), which has been live since June 1, 2026.
+Yes. The full game is available to buy and download on Steam. The free standalone demo (App ID 4540100) also remains live.
 
 **Which platforms can I buy it on?**
-PC via Steam and the Epic Games Store, plus PS5, Xbox Series X|S, Switch and Switch 2. Steam's own build is Windows-only.
+PC via Steam and the Epic Games Store, plus the announced PS5, Xbox Series X|S, Switch and Switch 2 versions. Steam's own build is Windows-only.
 
 **Is there a physical edition?**
 None announced [Unconfirmed].
@@ -231,17 +230,17 @@ No. Single-player only.
 It is developed by **Wych Elm** and published by **Team17**.
 
 **Does it run on a Steam Deck?**
-No official Deck compatibility rating had been published as of September 16, 2026 [Unconfirmed]. Full controller support is listed.
+No official Deck compatibility rating had been published as of October 24, 2026 [Unconfirmed]. Full controller support is listed.
 
 ---
 
 ## Related Guides
 
-- [Demo Guide — What the Free Steam Demo Contains](/guides/silver-pines-demo-guide) — what you can play today
+- [Demo Guide — What the Free Steam Demo Contains](/guides/silver-pines-demo-guide) — the free trial that still exists alongside the full game
 - [Silver Pines Beginner Guide — 12 Rules Before You Start](/guides/silver-pines-beginner-guide) — the habits that keep you alive
 - [How Saving Works — Phone Booths and Save Coins](/guides/silver-pines-save-system-phone-booths) — the system that defines the game
 - [Coins and Vending Machines](/guides/silver-pines-coins-vending-machines-economy) — budgeting your change
 
 ---
 
-*Sources: Steam store page and store data for App ID 2333000 (checked September 16, 2026); Steam store data for demo App ID 4540100; Game8 developer interview; joint Wych Elm / Team17 release announcement, June 2026. Price, weapon names, coin costs, Mementos and the achievement list remain [Unconfirmed]. This is an unofficial fan resource and is not affiliated with Wych Elm or Team17.*
+*Sources: Steam store page and store data for App ID 2333000 (checked October 24, 2026); Steam store data for demo App ID 4540100; Game8 developer interview; joint Wych Elm / Team17 release announcement, June 2026. Weapon names, coin costs, Mementos and the achievement list remain [Unconfirmed]. This is an unofficial fan resource and is not affiliated with Wych Elm or Team17.*

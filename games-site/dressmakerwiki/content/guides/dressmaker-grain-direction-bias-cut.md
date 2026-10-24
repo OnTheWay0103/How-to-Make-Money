@@ -1,9 +1,9 @@
 ---
 title: 'Dressmaker Grain Direction and Bias Cut Explained — Stop Losing Quality Score'
-description: 'Grain alignment is the single biggest lever on a Dressmaker garment quality score. What the grain is, how the reported green alignment cue works, when to cut on the bias instead, and what is still unconfirmed before the September 21, 2026 release.'
+description: 'Grain alignment is the single biggest lever on a Dressmaker garment quality score. What the grain is, how the reported green alignment cue works, when to cut on the bias instead, and what is still unconfirmed in the released game.'
 category: 'Mechanics'
 version: '1.0'
-updated: '2026-09-12'
+updated: '2026-10-24'
 keywords:
   - dressmaker grain quality
   - dressmaker grain direction
@@ -20,7 +20,7 @@ related:
   - dressmaker-beginner-guide
 ---
 
-**Dressmaker is a cozy dressmaking simulation developed by Cozy Lives and published by Free Lives, releasing on Steam on September 21, 2026 for Windows and macOS.** Grain direction is the mechanic that separates it from every other cozy crafting game — and the one most likely to quietly cost you quality score on your first few garments.
+**Dressmaker is a cozy dressmaking simulation developed by Cozy Lives and published by Free Lives, released on Steam on September 21, 2026 for Windows and macOS at $14.99.** Grain direction is the mechanic that separates it from every other cozy crafting game — and the one most likely to quietly cost you quality score on your first few garments.
 
 This is the deep dive on grain, bias and quality. It is also the page the other Dressmaker guides do not have: the biggest fan resource currently folds this topic into a general "sewing mastery" article, and there is no dedicated grain page anywhere.
 
@@ -62,7 +62,7 @@ Two further reports come from the same source and are worth stating plainly beca
 
 Treat those as strong leads rather than settled fact. The prototype is an earlier build, and the release may change the indicator, the penalty, or both. What is not in doubt is the direction of the mechanic: the official description puts arrangement and alignment at the centre of the final result, which is exactly where a quality penalty would live.
 
-**If the green cue is present in the release, make it your habit:** never cut a piece while the marker is anything other than aligned, unless you are deliberately cutting on bias.
+**If the green cue is present in the released game, make it your habit:** never cut a piece while the marker is anything other than aligned, unless you are deliberately cutting on bias.
 
 ---
 
@@ -139,4 +139,4 @@ Grain alignment at the cutting table and seam straightness at the machine are th
 
 ---
 
-*Sources: the official Steam store description for App ID 4019220, plus preview coverage and itch.io prototype player reports, which are labelled inline and marked [Unconfirmed] where they describe the unreleased build. This is an unofficial fan resource and is not affiliated with Cozy Lives or Free Lives.*
+*Sources: the official Steam store description for App ID 4019220, checked October 24, 2026, plus preview coverage and itch.io prototype player reports, which are labelled inline and marked [Unconfirmed] where they describe the pre-launch build. This is an unofficial fan resource and is not affiliated with Cozy Lives or Free Lives.*

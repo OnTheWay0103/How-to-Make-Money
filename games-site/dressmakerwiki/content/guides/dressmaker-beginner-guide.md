@@ -1,9 +1,9 @@
 ---
 title: 'Dressmaker Beginner Guide — How the Dressmaking Loop Actually Works'
-description: 'A step-by-step walkthrough of the Dressmaker loop: sketchbook design, fabric choice, pattern arrangement, cutting, sewing, decoration and delivery. Built on the official store description and pre-release previews, with unverified details marked.'
+description: 'A step-by-step walkthrough of the Dressmaker loop: sketchbook design, fabric choice, pattern arrangement, cutting, sewing, decoration and delivery. Built on the official store description, previews and player reports, with unverified details marked.'
 category: 'Beginner'
 version: '1.0'
-updated: '2026-09-12'
+updated: '2026-10-24'
 keywords:
   - dressmaker game how to play
   - dressmaker game guide
@@ -21,7 +21,7 @@ related:
   - dressmaker-platforms-mac-console-mobile
 ---
 
-**Dressmaker is a cozy dressmaking simulation developed by Cozy Lives and published by Free Lives, releasing on Steam on September 21, 2026 for Windows and macOS.** You do not dress a character — you make the garment, from picking the cloth to handing the finished dress to a customer.
+**Dressmaker is a cozy dressmaking simulation developed by Cozy Lives and published by Free Lives, released on Steam on September 21, 2026 for Windows and macOS at $14.99.** You do not dress a character — you make the garment, from picking the cloth to handing the finished dress to a customer.
 
 This guide walks the full loop in the order you will actually perform it. Everything mechanical here traces back to the official Steam store description; anything that comes from previews or prototype players instead is labelled as such, and anything unverified is marked **[Unconfirmed]**.
 
@@ -65,7 +65,7 @@ Two things make this step worth taking seriously:
 - It is **cheap to iterate here**. Changing a colour or swapping a sample in the sketchbook costs you nothing. Changing your mind after cutting costs you fabric.
 - It is how you **match a customer's brief before committing**. If a customer wants a specific look, the sketchbook is where you find out whether your idea reads correctly — not after you have sewn the panels.
 
-Sketchbook work is also where style consistency is decided. Pre-release coverage has described garments as having parts — a bodice, collar, sleeves and skirt — that carry style characteristics, with matching styles reading as more coherent to a customer [preview-sourced, **[Unconfirmed]**]. If that holds in the release, planning your parts together in the sketchbook rather than one at a time will matter.
+Sketchbook work is also where style consistency is decided. Preview coverage has described garments as having parts — a bodice, collar, sleeves and skirt — that carry style characteristics, with matching styles reading as more coherent to a customer [preview-sourced, **[Unconfirmed]**]. That style-tag behaviour has not been confirmed by an official source post-release, so treat it as a working pattern rather than a documented rule; planning your parts together in the sketchbook is the safer habit either way.
 
 ---
 
@@ -83,7 +83,7 @@ Dressmaker ships with **five officially named fabrics**:
 
 The official description also says you **buy from a wide range of fabrics** and that you can **take full control over what fabric to use for each panel of your garment**. That second part is the interesting one: a dress is not one fabric decision, it is several. A structured bodice panel and a flowing skirt panel do not want the same cloth.
 
-Additional patterned fabrics — among them houndstooth, floral, plaid, damask and gingham — appear in pre-release preview coverage [**[Unconfirmed]**].
+Additional patterned fabrics — among them houndstooth, floral, plaid, damask and gingham — appear in preview coverage [**[Unconfirmed]**].
 
 > **In-game fabric statistics have not been published.** The right-hand column above describes the fibre in real dressmaking, not hidden game values. Do not treat it as a stat table.
 
@@ -101,7 +101,7 @@ Two decisions live here:
 
 **Bias cutting.** Cutting across the grain at an angle (on the bias) gives fabric a fluid, draped quality it does not otherwise have. It is a real technique and, in the game, it is a deliberate alternative rather than a mistake.
 
-**Layout efficiency.** The official description frames this as a balance: how you arrange the pieces is a choice with consequences. Prototype players have reported that the pattern marker turns **green when a piece is aligned with the grain**, and that a piece cut out of alignment has its quality capped [**community-reported from the prototype — [Unconfirmed]** for the release]. If you have played the prototype, that colour cue is likely to be your main feedback signal; the same applies to whatever the release uses in its place.
+**Layout efficiency.** The official description frames this as a balance: how you arrange the pieces is a choice with consequences. Prototype players have reported that the pattern marker turns **green when a piece is aligned with the grain**, and that a piece cut out of alignment has its quality capped [**community-reported from the prototype — [Unconfirmed]** post-release]. If you have played the prototype, that colour cue is likely to be your main feedback signal; the same applies to whatever the released game uses in its place.
 
 **A practical rule for your first garments:** prioritise alignment over saving cloth. Fabric is replaceable; a spoiled dress is not. Once you can place pieces correctly without thinking about it, start optimising the layout for less waste.
 
@@ -122,9 +122,9 @@ Two habits worth forming early:
 
 The official description is direct about this step: **"Feed your fabric through the sewing machine to stitch it together."**
 
-Sewing is the single action every order passes through, so it is where consistency pays off. Independent pre-release reviews have described the quality of the result as depending heavily on **how straight you keep your seams** [**preview-sourced — [Unconfirmed]** for the release]. The skill is not speed; it is steadiness.
+Sewing is the single action every order passes through, so it is where consistency pays off. Independent previews have described the quality of the result as depending heavily on **how straight you keep your seams** [**preview-sourced — [Unconfirmed]** post-release]. The skill is not speed; it is steadiness.
 
-Practical advice that follows from that, whatever the release's exact rules turn out to be: slow down, take the machine a panel at a time, and do not chase a perfect score on your first attempt. Speed comes from repetition, not from rushing.
+Practical advice that follows from that, whatever the game's exact rules turn out to be: slow down, take the machine a panel at a time, and do not chase a perfect score on your first attempt. Speed comes from repetition, not from rushing.
 
 ---
 
@@ -138,7 +138,7 @@ The official description lists the decoration kit:
 - **Lace trims**
 - **Other accessories** — "wherever you like with complete creative freedom"
 
-Decoration is also where the game's most frequently reported friction point lives. Prototype players have described **certain angles or positions where a decoration refuses to attach** [**community-reported from the prototype — [Unconfirmed]** for the release]. If you hit that, it is a known rough edge rather than something you are doing wrong.
+Decoration is also where the game's most frequently reported friction point lives. Prototype players have described **certain angles or positions where a decoration refuses to attach** [**community-reported from the prototype — [Unconfirmed]** post-release]. If you hit that, it is a known rough edge rather than something you are doing wrong.
 
 Decoration is where a correct dress becomes a personal one. A garment that satisfies the brief gets paid; a garment that also looks like it belongs in your window gets remembered.
 
@@ -162,7 +162,7 @@ Two confirmed ways to convert a finished dress into value:
 
 **On customers specifically:** the official description says you can *"satisfy (or sabotage!)"* the townsfolk. That is unusual for the genre and worth knowing up front — deliberately dressing someone wrong is a supported choice, not a bug.
 
-**On reputation and coin:** these are the two confirmed reward tracks. **No numeric values, reputation tiers or quality-score thresholds have been published [Unconfirmed].** Any guide quoting specific figures before September 21 is estimating.
+**On reputation and coin:** these are the two confirmed reward tracks. **No numeric values, reputation tiers or quality-score thresholds have been published [Unconfirmed].** Any guide quoting specific figures without an official source is estimating.
 
 ---
 
@@ -205,7 +205,7 @@ Steam also lists **Custom Volume Controls** and **Family Sharing**.
 
 ## What We Do Not Know Yet
 
-Dressmaker launches September 21, 2026. Until then, these remain genuinely unverified and are marked as such:
+Dressmaker was released on September 21, 2026. As of October 24, 2026, these remain genuinely unverified and are marked as such:
 
 - Numeric quality scores and how they are calculated **[Unconfirmed]**
 - Reputation levels and their rewards **[Unconfirmed]**
@@ -214,14 +214,14 @@ Dressmaker launches September 21, 2026. Until then, these remain genuinely unver
 - The full achievement list **[Unconfirmed]**
 - How much fabric each pattern consumes **[Unconfirmed]**
 
-We would rather tell you we do not know than fill the gap with something that turns out to be wrong on launch day.
+We would rather tell you we do not know than fill the gap with something that turns out to be wrong in the released game.
 
 ---
 
 ## Frequently Asked Questions
 
 **Do I need to play the itch.io prototype first?**
-No. The loop is learnable from scratch on launch day. The prototype is a useful preview if you are impatient, but it is an earlier build.
+No. The loop is learnable from scratch in the released game. The prototype is a useful look at an earlier build, but it is not required.
 
 **Is there a tutorial?**
 Not documented [Unconfirmed]. The loop is structured enough that the steps above should carry you through the opening.
@@ -249,4 +249,4 @@ No. Single-player only.
 
 ---
 
-*Sources: the official Steam store description and store data for App ID 4019220, plus pre-release preview coverage. Mechanics sourced from previews or prototype players rather than official material are labelled inline; unverified details are marked [Unconfirmed]. This is an unofficial fan resource and is not affiliated with Cozy Lives or Free Lives.*
+*Sources: the official Steam store description and store data for App ID 4019220, checked October 24, 2026, plus preview coverage and prototype player reports. Mechanics sourced from previews or prototype players rather than official material are labelled inline; unverified details are marked [Unconfirmed]. This is an unofficial fan resource and is not affiliated with Cozy Lives or Free Lives.*

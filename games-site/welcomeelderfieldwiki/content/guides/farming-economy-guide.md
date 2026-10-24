@@ -3,7 +3,7 @@ title: 'Welcome to Elderfield Farming & Resources Guide — Crops, Animals, Mini
 description: 'How the farm loop works in Welcome to Elderfield — cultivating land, harvesting crops (including teeth and eyeballs), managing otherworldly livestock, stopping tentacles, and gathering resources through mining, foraging and fishing.'
 category: 'Farming'
 version: '1.0'
-updated: '2026-08-30'
+updated: '2026-10-24'
 keywords:
   - welcome to elderfield farming
   - welcome to elderfield crops
@@ -29,7 +29,7 @@ sources:
 
 # Welcome to Elderfield Farming & Resources Guide
 
-The farm is the heart of Welcome to Elderfield. The official store description confirms: **"Build your farm, manage animals, mine and forage to build resources."** Everything else — cooking, combat prep, income, rest — feeds off what the farm and the wilds provide. Because the full game launches September 10, 2026, crop lists and exact prices are [Unconfirmed] where not in the demo.
+The farm is the heart of Welcome to Elderfield. The official store description confirms: **"Build your farm, manage animals, mine and forage to build resources."** Everything else — cooking, combat prep, income, rest — feeds off what the farm and the wilds provide. The game was released on September 10, 2026, but crop lists and exact prices remain [Unconfirmed] where they are not covered by official material or verified play.
 
 ## The Farm Loop
 
@@ -48,11 +48,11 @@ The demo shows two kinds of crops [Community]:
 - **Ordinary crops** — corn, pumpkins, and standard farm staples.
 - **Horror crops** — strange ones like **teeth and eyeballs**, which fit the game's horror-manga art style.
 
-Because crop lists and season/price data are not officially published, treat any full crop catalogue as [Unconfirmed] until launch. What matters mechanically is that crops are the farm's **income and food engine** — prioritize consistent harvests over exotic crops early on.
+Because crop lists and season/price data are not officially published, treat any full crop catalogue as [Unconfirmed] until verified. What matters mechanically is that crops are the farm's **income and food engine** — prioritize consistent harvests over exotic crops early on.
 
 ## Livestock on the Ranch
 
-The store description confirms you **manage animals** on the ranch. Demo reports indicate **otherworldly livestock** — animals that fit the town's tone rather than standard farm animals. Details (which animals, what they produce, daily care requirements) are [Unconfirmed] until verified after launch.
+The store description confirms you **manage animals** on the ranch. Demo reports indicate **otherworldly livestock** — animals that fit the town's tone rather than standard farm animals. Details (which animals, what they produce, daily care requirements) are [Unconfirmed] until verified.
 
 ## Tentacles: Your Recurring Chore
 
@@ -122,7 +122,7 @@ This keeps farming, gathering, and combat in balance instead of over-focusing on
 
 ## Verification
 
-- **Last checked:** 2026-08-30
-- **Game version:** pre-release (launches 9/10/2026)
+- **Last checked:** 2026-10-24
+- **Game version:** released September 10, 2026
 - **Sources checked:** Steam store page (App 3195440), Steam demo page, Steam Community discussion reports
 - **Note:** Farming, livestock, tentacles, mining/foraging, and fishing are confirmed systems. Crop catalogues, animal types, recipes, and prices are [Unconfirmed].

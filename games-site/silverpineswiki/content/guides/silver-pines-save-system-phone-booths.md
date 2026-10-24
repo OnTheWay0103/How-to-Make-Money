@@ -3,7 +3,7 @@ title: 'Silver Pines Save System — Phone Booths and Save Coins Explained'
 description: 'Silver Pines has no autosave. Coin-operated phone booths are the only save points, and the same coins buy supplies from vending machines. How the system works, why it exists, and how to budget for it.'
 category: 'Mechanics'
 version: '1.0'
-updated: '2026-09-16'
+updated: '2026-10-24'
 keywords:
   - silver pines save system
   - silver pines phone booth save
@@ -110,8 +110,8 @@ No. The coins are the cost, but the booth is the location. You need both.
 **"Dying sends me back to the start of the game."**
 No — you resume from your last save. The penalty is the gap between your last booth and where you died, and that gap is entirely under your control.
 
-**"The demo's save system is simplified and the full game will be different."**
-No official statement suggests that. Treat the demo's system as the system **[Unconfirmed either way]**.
+**"The demo's save system is simplified and the full game is different."**
+No official statement or post-release report suggests that. Treat the demo's system as the system **[Unconfirmed either way]**.
 
 ---
 

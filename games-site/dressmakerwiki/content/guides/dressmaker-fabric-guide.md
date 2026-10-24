@@ -3,7 +3,7 @@ title: 'Dressmaker Fabric Guide — All Fabrics and Patterns, and When to Use Th
 description: 'Every fabric confirmed for Dressmaker, what each one is like to work with, how per-panel fabric choice works, and which patterned cloths have been seen in previews. In-game fabric stats have not been published and are marked as such.'
 category: 'Crafting'
 version: '1.0'
-updated: '2026-09-12'
+updated: '2026-10-24'
 keywords:
   - dressmaker fabric guide
   - dressmaker fabrics
@@ -20,7 +20,7 @@ related:
   - dressmaker-sketchbook-dress-parts
 ---
 
-**Dressmaker is a cozy dressmaking simulation developed by Cozy Lives and published by Free Lives, releasing on Steam on September 21, 2026 for Windows and macOS.** Fabric is the first real decision you make in it, and unlike most crafting games, it is not a single decision — you choose cloth for each panel of the garment separately.
+**Dressmaker is a cozy dressmaking simulation developed by Cozy Lives and published by Free Lives, released on Steam on September 21, 2026 for Windows and macOS at $14.99.** Fabric is the first real decision you make in it, and unlike most crafting games, it is not a single decision — you choose cloth for each panel of the garment separately.
 
 This guide covers every fabric the official store description names, what each one is actually like to handle, how patterned cloth changes your layout, and — importantly — where the confirmed information stops.
 
@@ -38,7 +38,7 @@ This guide covers every fabric the official store description names, what each o
 
 That right-hand column describes the **fibre in real dressmaking**, which is what the game says it is inspired by. It is not a table of hidden game values.
 
-> **No in-game fabric statistics have been published [Unconfirmed].** Warmth ratings, durability, cost per metre, unlock order, customer fabric preferences — none of it is public as of September 12, 2026. Any guide presenting a numeric fabric stat table before launch is estimating.
+> **No in-game fabric statistics have been published [Unconfirmed].** Warmth ratings, durability, cost per metre, unlock order, customer fabric preferences — none of it is public as of October 24, 2026. Any guide presenting a numeric fabric stat table without an official source is estimating.
 
 ---
 
@@ -89,7 +89,7 @@ There is also a confirmed third option: the official description says you can *"
 
 ## Patterned Fabric — Seen in Previews
 
-Plain cloth is only part of the shop. Pre-release preview coverage has shown **patterned fabrics including houndstooth, floral, plaid, damask and gingham** [**preview-sourced — [Unconfirmed]** for the release].
+Plain cloth is only part of the shop. Preview coverage has shown **patterned fabrics including houndstooth, floral, plaid, damask and gingham** [**preview-sourced — [Unconfirmed]** post-release].
 
 Pattern matters for two reasons beyond looks:
 
@@ -126,7 +126,7 @@ The description says you **buy** fabric, so cloth is a resource with a cost. Two
 ## Frequently Asked Questions
 
 **How many fabrics are in Dressmaker?**
-Five are named officially: cotton, linen, wool, silk and velvet. The description says "a wide range of fabrics, including" those five, which reads as a non-exhaustive list — so more may exist at launch [Unconfirmed].
+Five are named officially: cotton, linen, wool, silk and velvet. The description says "a wide range of fabrics, including" those five, which reads as a non-exhaustive list — so more may exist in the released game [Unconfirmed].
 
 **Do fabrics have different stats?**
 Not published [Unconfirmed]. The game has not shown a numeric fabric stat system publicly.
@@ -151,4 +151,4 @@ Unknown [Unconfirmed]. No unlock system has been described.
 
 ---
 
-*Sources: the official Steam store description and store data for App ID 4019220, plus pre-release preview coverage. Patterned fabrics are preview-sourced and marked [Unconfirmed]. This is an unofficial fan resource and is not affiliated with Cozy Lives or Free Lives.*
+*Sources: the official Steam store description and store data for App ID 4019220, checked October 24, 2026, plus preview coverage. Patterned fabrics are preview-sourced and marked [Unconfirmed]. This is an unofficial fan resource and is not affiliated with Cozy Lives or Free Lives.*

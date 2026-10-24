@@ -3,7 +3,7 @@ title: 'Welcome to Elderfield Beginner Guide — First Steps in the Demo & Full 
 description: 'New to Welcome to Elderfield? How to start your first days in the town — the core loop (farm, mine, forage, fight, investigate), how to pick between Cozy Mode and Challenge Mode, and what you can try right now in the free demo.'
 category: 'Beginner'
 version: '1.0'
-updated: '2026-10-23'
+updated: '2026-10-24'
 keywords:
   - welcome to elderfield beginner guide
   - welcome to elderfield how to start
@@ -35,7 +35,7 @@ sources:
 
 The game pairs **Stardew Valley-style farming and life-sim** mechanics with **Lovecraftian turn-based combat**, hand-drawn horror-manga art, a dark lofi soundtrack by **Dated**, and daily mystery investigation. It is often described as "cozy horror": relaxing on the surface, unsettling underneath.
 
-It launched **September 10, 2026** on Steam (PC, Windows only, single-player). A free **demo** covering roughly **1/6** of the planned game is available now.
+It launched **September 10, 2026** on Steam (PC, Windows only, single-player). A free **demo** covering roughly **1/6** of the full game is available now.
 
 ## Before You Start
 
@@ -80,7 +80,7 @@ Turn-based **combat** is triggered by exploring: cutting grass or breaking rocks
 - **Skipping the fishing rod.** It is gated behind a small quest (sewer → lake), but fishing is one of the most reliable food and income sources in the demo.
 - **Under-preparing for the mall.** The mall is the demo's first dungeon — stock food and supplies before you go in.
 - **Treating combat as a chore to avoid.** In Challenge Mode, combat and resource management are the point. Learn the AP system in the demo.
-- **Expecting romance at launch.** The developer has said romance/marriage is planned but **not yet implemented** [Unconfirmed]. Enjoy the friendship system now; treat romance as a future feature.
+- **Skipping the relationship system.** Romance and marriage are in the release build, per the official Steam description [Official]. Friendship and romance are a real progression track, not a future feature.
 
 ## Where to Go Next
 
@@ -97,4 +97,4 @@ Turn-based **combat** is triggered by exploring: cutting grass or breaking rocks
 - **Last checked:** 2026-10-23
 - **Game version:** released (launched 9/10/2026)
 - **Sources checked:** Official Steam store page (App 3195440), Steam demo page (App 3195680), Steam Community discussion replies from developer Chris Cote, TechTimes / ScreenRant / Game8 coverage
-- **Note:** Core loop (farming, turn-based combat, two difficulty modes, rest tradeoffs) is confirmed from official descriptions and demo play. Exact mechanics, price, and romance implementation remain to be verified in the live release.
+- **Note:** Core loop (farming, turn-based combat, two difficulty modes, rest tradeoffs) is confirmed from official descriptions and demo play. Romance and marriage are confirmed by the official store page; exact mechanics, heart thresholds, and prices remain to be verified.

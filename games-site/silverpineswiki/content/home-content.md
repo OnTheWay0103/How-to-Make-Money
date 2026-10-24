@@ -1,20 +1,20 @@
 ---
 title: "Silver Pines Wiki — Survival Horror Metroidvania Guide Hub"
-description: "The unofficial Silver Pines wiki for the survival horror metroidvania developed by Wych Elm and published by Team17. Release date, price, platforms, the free Steam demo, and guides to phone-booth saving, save coins, vending machines, inventory, tape repairs and reloading."
+description: "The unofficial Silver Pines wiki for the survival horror metroidvania developed by Wych Elm and published by Team17. Released October 8, 2026 at $24.99 on Steam, with guides to phone-booth saving, save coins, vending machines, inventory, tape repairs and reloading."
 category: "Home"
 version: "1.0"
-updated: "2026-09-16"
+updated: "2026-10-24"
 keywords: ["Silver Pines game", "Silver Pines game wiki", "Silver Pines wiki", "Silver Pines guide", "Silver Pines release date", "Silver Pines Steam", "Silver Pines demo", "Silver Pines price", "Silver Pines platforms", "Silver Pines save coins", "Silver Pines phone booth save", "survival horror metroidvania"]
 related: ["silver-pines-release-date-price-platforms", "silver-pines-demo-guide", "silver-pines-save-system-phone-booths", "silver-pines-beginner-guide", "silver-pines-coins-vending-machines-economy"]
 ---
 
 # Silver Pines Wiki — Survival Horror Metroidvania Guide Hub
 
-**Everything confirmed about the survival horror metroidvania from Wych Elm and Team17 — from the free Steam demo you can play today to the October 8, 2026 release.**
+**Everything confirmed about the survival horror metroidvania from Wych Elm and Team17 — released on October 8, 2026 for PC via Steam at $24.99, with console versions also announced.**
 
-Silver Pines releases on **October 8, 2026** for **PC (Steam and Epic Games Store), PlayStation 5, Xbox Series X|S, Nintendo Switch and Nintendo Switch 2**. It is developed by **Wych Elm** and published by **Team17** — a distinction worth stating precisely, because the two are commonly collapsed into one. The Steam build is Windows-only.
+Silver Pines was released on **October 8, 2026**. The Steam version is **PC (Windows)** and costs **$24.99 USD**; console versions were announced for **PlayStation 5, Xbox Series X|S, Nintendo Switch and Nintendo Switch 2**. It is developed by **Wych Elm** and published by **Team17** — a distinction worth stating precisely, because the two are commonly collapsed into one. The Steam build is Windows-only.
 
-A **free standalone demo has been on Steam since June 1, 2026**, and it is the best reason to care about this game: as of **September 16, 2026** it holds **802 user reviews at 95.9% positive**, an Overwhelmingly Positive rating. For a game that has not launched, that is the strongest demand signal available.
+A **free standalone demo has been on Steam since June 1, 2026** and remains available: as of **September 16, 2026** it held **802 user reviews at 95.9% positive**, an Overwhelmingly Positive rating. That is demo-only data. The released full game has its own, separate Steam review summary: as of **October 24, 2026**, **1,735 user reviews at 97% positive**, also Overwhelmingly Positive.
 
 > **Naming warning.** "Silver Pines" is also the name of a mobile home park, a healthcare group, a ranch resort chain, a rehabilitation centre, and — for World of Warcraft players — it is one letter away from Silverpine Forest. This site is about the **video game by Wych Elm**, not about any of those. That is also why our page titles are anchored to `silver pines game` rather than the bare name.
 
@@ -62,14 +62,15 @@ The tone is Lynchian small-town Americana — Twin Peaks, Silent Hill and Alan W
 | Demo App ID | 4540100 (free, live since 2026-06-01) |
 | Developer | **Wych Elm** |
 | Publisher | **Team17** |
-| Release date | **October 8, 2026** |
+| Release date | **October 8, 2026** (released) |
 | Platforms | PC (Steam, Epic), PS5, Xbox Series X\|S, Switch, Switch 2 |
 | Steam platforms | Windows only — no macOS, no Linux |
 | Genre | Survival horror, metroidvania, action, adventure |
 | Players | Single-player only |
 | Languages | EN (full audio), FR, DE, ES-ES, ES-LA, JA, ZH-S, ZH-T, PT-BR, RU |
-| Price | Not announced as of 2026-09-16 **[Unconfirmed]** |
-| Demo rating | **802 reviews · 95.9% · Overwhelmingly Positive** (2026-09-16) |
+| Price | **$24.99 USD** on Steam (checked 2026-10-24) |
+| Demo rating | **802 reviews · 95.9% · Overwhelmingly Positive** (2026-09-16, demo only) |
+| Full game rating | **1,735 reviews · 97% · Overwhelmingly Positive** (2026-10-24) |
 | Content descriptor | General mature content — "blood, violence, horror themes" |
 | Steam features | Achievements, full controller support, DualShock/DualSense, Cloud, Family Sharing |
 
@@ -77,7 +78,7 @@ The tone is Lynchian small-town Americana — Twin Peaks, Silent Hill and Alan W
 
 ## Key Systems at a Glance
 
-Each line below carries its sourcing, because Silver Pines is a game you can already play and its systems are already being described in two different registers — official and player-reported.
+Each line below carries its sourcing, because Silver Pines has been playable since release and its systems are described in two different registers — official and player-reported.
 
 **Confirmed by the developer / Steam store data:**
 
@@ -105,9 +106,8 @@ Each line below carries its sourcing, because Silver Pines is a game you can alr
 
 ## What Is *Not* Confirmed Yet
 
-Pre-release coverage of any unreleased game fills gaps with guesses. We do not. As of September 16, 2026 the following are **not** documented by any official source:
+Coverage written before a game is released tends to fill gaps with guesses. We do not. As of October 24, 2026 the following are **not** documented by any official source:
 
-- The **price** of Silver Pines **[Unconfirmed]**
 - Any **weapon name, damage value or enemy statistic** **[Unconfirmed]**
 - **Coin prices** at vending machines or phone booths, or how much a save costs **[Unconfirmed]**
 - A complete **Memento list**, or what each one does **[Unconfirmed]**
@@ -116,7 +116,7 @@ Pre-release coverage of any unreleased game fills gaps with guesses. We do not. 
 - Any **physical edition**, **Game Pass / PS Plus** release, or post-launch roadmap **[Unconfirmed]**
 - **Named townspeople, locations, bosses and chapters** — no official source has published a location list **[Unconfirmed]**
 
-If a guide anywhere tells you the exact coin cost of a save, the name of every Memento, or every boss in Silver Pines before October 8, it is guessing.
+If a guide anywhere presents the exact coin cost of a save, the name of every Memento, or a complete boss list without citing an official source, treat it as unverified rather than confirmed.
 
 ---
 
@@ -141,4 +141,4 @@ These are not contradictory — they measure different things — but quoting ei
 
 ---
 
-*This wiki is community-maintained and reflects information available before the October 8, 2026 launch. Content marked [Unconfirmed] has no official source behind it; content marked Community-reported comes from demo players and preview coverage rather than the developer. Silver Pines Wiki is an unofficial fan resource and is not affiliated with Wych Elm or Team17.*
+*This wiki is community-maintained and reflects information available at and after the October 8, 2026 release, including material first gathered from the demo and pre-release coverage. Content marked [Unconfirmed] has no official source behind it; content marked Community-reported comes from players rather than the developer. Silver Pines Wiki is an unofficial fan resource and is not affiliated with Wych Elm or Team17.*

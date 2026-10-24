@@ -3,7 +3,7 @@ title: 'Welcome to Elderfield Demo Guide — What’s in the Free Vertical Slice
 description: 'What is included in the free Welcome to Elderfield demo on Steam, how to download it, how long it takes, what carries over to the full release, and what to prioritize while you play.'
 category: 'Demo'
 version: '1.0'
-updated: '2026-10-23'
+updated: '2026-10-24'
 keywords:
   - welcome to elderfield demo
   - welcome to elderfield demo content
@@ -30,9 +30,9 @@ sources:
 
 ## Is There a Demo?
 
-Yes. **Welcome to Elderfield has a free demo on Steam** (App ID **3195680**), first released on **October 7, 2024**. It is a **vertical slice** of the full game — the developer has said it covers roughly **1/6** of the planned content, so it is a real chunk of Elderfield rather than a timed teaser.
+Yes. **Welcome to Elderfield has a free demo on Steam** (App ID **3195680**), first released on **October 7, 2024**. It is a **vertical slice** of the full game — the developer has said it covers roughly **1/6** of the full game content, so it is a real chunk of Elderfield rather than a timed teaser.
 
-The demo currently holds a **~96% positive** rating across **~550 reviews** on Steam — "Overwhelmingly Positive" — which is unusually strong for a demo slice.
+The demo currently holds a **~96% positive** rating across **~550 reviews** on Steam — "Overwhelmingly Positive" — which is unusually strong for a demo slice. (Figures as displayed on the demo store page, checked October 24, 2026.)
 
 ## How to Download the Demo
 
@@ -54,7 +54,7 @@ According to the official demo listing and community reports, the demo includes:
 
 ### What Is NOT in the Demo
 
-The full game is expected to be **roughly 3x the demo's town size** with **at least two more dungeon areas** [Unconfirmed]. Systems that are confirmed as planned but not yet implemented include **romance and marriage** (developer statement) and, per coverage, **Old God alignment and calendar-based events** [Unconfirmed]. None of these are in the demo.
+The full game is reported to be **roughly 3x the demo's town size** with **at least two more dungeon areas** [Unconfirmed]. The demo predates the release, so it does not include **romance or marriage**, which are part of the full game per the official Steam description [Official]. **Old God alignment and calendar-based events** remain [Unconfirmed]. Treat the demo as a systems sample, not as the full feature set.
 
 ## How Long Is the Demo?
 
@@ -77,11 +77,11 @@ A quick demo-versus-full-game comparison so you know what the slice does and doe
 
 | Aspect | Demo | Full Game |
 |--------|------|----------------------|
-| **Price** | Free | Not announced [Unconfirmed] |
+| **Price** | Free | $17.99 USD [Official] |
 | **Town size** | One area | ~3x the demo [Unconfirmed] |
 | **Dungeons** | 1 (the mall) | At least 3 [Unconfirmed] |
 | **Mysteries** | 7 | Many more [Unconfirmed] |
-| **Romance** | Not present | Planned, not implemented [Unconfirmed] |
+| **Romance** | Not present | Romance and marriage in the release build [Official] |
 | **Save carryover** | Separate Steam app | Not confirmed [Unconfirmed] |
 
 Use this table to set expectations: the demo is a genuine sample of the systems, but the town, story, and scope are much larger in the full game.
@@ -104,7 +104,7 @@ Play it if you:
 - Want to see whether the "cozy horror" tone lands for you — the demo's art, music, and daily-loop tension are representative of the full game.
 
 Maybe skip or wait if you:
-- Prefer to experience games completely fresh at launch without spoiling the town.
+- Prefer to experience games completely fresh without spoiling the town.
 - Only buy games after verified full-release reviews (the demo is strong, but check post-launch reviews before buying).
 
 ---
@@ -114,4 +114,4 @@ Maybe skip or wait if you:
 - **Last checked:** 2026-10-23
 - **Game version:** demo (App 3195680); full game launched 9/10/2026
 - **Sources checked:** Steam demo store page, Steam Community discussions, Steam reviews, TechTimes / ScreenRant / Game8 coverage
-- **Note:** Demo contents, release date, and rating are confirmed. Save carryover, full-game scope, and romance are marked [Unconfirmed].
+- **Note:** Demo contents, release date, and rating are confirmed. Save carryover, full-game scope, and exact romance mechanics are marked [Unconfirmed]; romance and marriage themselves are confirmed by the official store page.

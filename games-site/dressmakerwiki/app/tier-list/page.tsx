@@ -1,16 +1,15 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Dressmaker Activity Priorities — Pre-Release Overview',
+  title: 'Dressmaker Activity Priorities — Post-Release Overview',
   description:
-    'Dressmaker priorities before launch — which parts of the dressmaking loop (fabric choice, pattern cutting, sewing, decoration, customer orders) deserve your attention first, plus a confirmed-vs-unconfirmed systems table and the official five-fabric reference.',
+    'Dressmaker priorities for the released game — which parts of the dressmaking loop (fabric choice, pattern cutting, sewing, decoration, customer orders) deserve your attention first, plus a confirmed-vs-unconfirmed systems table and the official five-fabric reference.',
 };
 
 // Dressmaker has no classes, characters or weapon ladder, so a numeric tier
-// list of "best X" would be fabricated. This pre-release page instead ranks
-// the ACTIVITIES inside the dressmaking loop, using only the official Steam
-// store description and Steam store data as evidence. A data-backed ranking
-// will follow the September 21, 2026 launch.
+// list of "best X" would be fabricated. This page instead ranks the ACTIVITIES
+// inside the dressmaking loop, using the official Steam store description and
+// Steam store data as evidence. The game was released on September 21, 2026.
 
 const ACTIVITY_PRIORITIES = [
   {
@@ -58,6 +57,11 @@ const ACTIVITY_PRIORITIES = [
 ];
 
 const SYSTEMS_STATUS = [
+  {
+    system: 'Released September 21, 2026 at $14.99 USD',
+    status: 'Confirmed',
+    source: 'Steam store data — coming_soon false, checked 2026-10-24',
+  },
   {
     system: 'Five fabrics (cotton, linen, wool, silk, velvet)',
     status: 'Confirmed',
@@ -189,11 +193,11 @@ export default function TierListPage() {
         Dressmaker Activity Priorities
       </h1>
       <p className="text-gray-400 mb-2">
-        Which parts of the dressmaking loop to focus on — pre-release overview
-        (September 12, 2026).
+        Which parts of the dressmaking loop to focus on — post-release overview
+        (October 24, 2026).
       </p>
       <div className="inline-flex items-center gap-1 text-xs font-medium px-2 py-0.5 rounded bg-rose-900/30 text-rose-400 border border-rose-800/50 mb-8">
-        Pre-release — data-backed ranking after the 9/21 launch
+        Post-release — official facts separated from community reports
       </div>
 
       <section className="mb-12">
@@ -234,9 +238,9 @@ export default function TierListPage() {
           Confirmed vs Unconfirmed Systems
         </h2>
         <p className="text-gray-400 text-sm mb-6">
-          Dressmaker launches September 21, 2026. This table records exactly
-          what has an official source behind it and what does not — so you can
-          tell the difference between a known system and pre-release
+          Dressmaker was released on September 21, 2026. This table records
+          exactly what has an official source behind it and what does not — so
+          you can tell the difference between a known system and community
           speculation.
         </p>
         <div className="overflow-x-auto">
@@ -327,21 +331,21 @@ export default function TierListPage() {
 
       <div className="bg-[#1a1120] border border-[#2c1b33] rounded-lg p-5">
         <h3 className="text-white font-semibold mb-2">
-          Why This Is a Pre-Release Page
+          Why This Page Ranks Activities, Not a Tier List
         </h3>
         <p className="text-gray-400 text-sm leading-relaxed">
-          Dressmaker launches September 21, 2026, so a tier list of fabrics,
-          customers or equipment would be speculation dressed up as data. This
-          page instead ranks the <em>activities</em> inside the dressmaking
-          loop using the official Steam store description and Steam store data
-          — nothing else. A data-backed ranking will follow launch. For the
-          mechanics themselves, start with the{' '}
+          Dressmaker was released on September 21, 2026, but the developer has
+          published no numeric fabric, customer or equipment rankings, so a
+          tier list of those would be speculation dressed up as data. This page
+          instead ranks the <em>activities</em> inside the dressmaking loop
+          using the official Steam store description and Steam store data —
+          nothing else. For the mechanics themselves, start with the{' '}
           <a href="/guides/dressmaker-beginner-guide" className="text-rose-400 hover:underline">
             Beginner Guide
           </a>{' '}
           and check{' '}
           <a href="/guides/dressmaker-release-date-price-platforms" className="text-rose-400 hover:underline">
-            what is actually confirmed for release
+            the released game’s confirmed facts
           </a>
           .
         </p>

@@ -55,8 +55,9 @@ export function websiteSchema(): Record<string, unknown> {
  * **publisher**. Never collapse the two — Steam reports
  * `developers: ["Cozy Lives"]` and `publishers: ["Free Lives"]`.
  *
- * Price is intentionally omitted — the official price had not been
- * announced as of 2026-09-12 (`price_overview` is null on Steam).
+ * Price reflects Steam's `price_overview` for the US store as of
+ * 2026-10-24: $14.99 USD, no discount. The game is released
+ * (`coming_soon: false`, released 2026-09-21).
  */
 export function videoGameSchema(): Record<string, unknown> {
   return {
@@ -77,8 +78,15 @@ export function videoGameSchema(): Record<string, unknown> {
       '@type': 'Organization',
       name: 'Free Lives',
     },
+    offers: {
+      '@type': 'Offer',
+      price: '14.99',
+      priceCurrency: 'USD',
+      availability: 'https://schema.org/InStock',
+      url: 'https://store.steampowered.com/app/4019220/Dressmaker/',
+    },
     datePublished: '2026-09-21',
-    platform: 'PC',
+    gamePlatform: ['PC', 'macOS'],
   };
 }
 

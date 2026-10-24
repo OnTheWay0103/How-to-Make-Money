@@ -3,7 +3,7 @@ title: 'Silver Pines Beginner Guide — 12 Rules Before You Start'
 description: 'The habits that keep Red Walker alive in Silver Pines: save early, spend coins deliberately, choose fight or flight on purpose, repair before you explore, and never open a menu with a monster in the room.'
 category: 'Beginner'
 version: '1.0'
-updated: '2026-09-16'
+updated: '2026-10-24'
 keywords:
   - silver pines beginner guide
   - silver pines tips
@@ -126,7 +126,7 @@ If you want to know what the demo contains before you spend an evening on it, th
 A few things people ask about that are not worth your attention yet:
 
 - **Weapon names, damage numbers and enemy statistics** — none have been published by any official source **[Unconfirmed]**. Do not plan around a spreadsheet that does not exist
-- **A tier list of weapons or Mementos** — the game is not out, and the vendor has published no arsenal and no Memento list **[Unconfirmed]**. Our [Survival Priorities](/tier-list) page ranks the resource habits instead, and says so
+- **A tier list of weapons or Mementos** — the developer has published no arsenal and no Memento list **[Unconfirmed]**. Our [Survival Priorities](/tier-list) page ranks the resource habits instead, and says so
 - **The best ending** — all endings are reachable on a single save file, and they reward thorough exploration rather than a specific choice (Game8 developer interview). You cannot lock yourself out by playing naturally
 
 ---

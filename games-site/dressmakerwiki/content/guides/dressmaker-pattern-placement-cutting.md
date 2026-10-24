@@ -3,7 +3,7 @@ title: 'Dressmaker Pattern Placement — How to Cut Out Fabric Without Wasting I
 description: 'How to arrange pattern pieces on cloth in Dressmaker: the trade-off between grain alignment and fabric waste, a layout order that works, and how to budget cloth for a commission. Unverified details are marked.'
 category: 'Mechanics'
 version: '1.0'
-updated: '2026-09-12'
+updated: '2026-10-24'
 keywords:
   - dressmaker pattern placement
   - dressmaker cutting fabric
@@ -20,7 +20,7 @@ related:
   - dressmaker-beginner-guide
 ---
 
-**Dressmaker is a cozy dressmaking simulation developed by Cozy Lives and published by Free Lives, releasing on Steam on September 21, 2026 for Windows and macOS.** Pattern placement is the step where a correct dress and a wasteful one are separated — and it is the step beginners rush because it looks like a formality.
+**Dressmaker is a cozy dressmaking simulation developed by Cozy Lives and published by Free Lives, released on Steam on September 21, 2026 for Windows and macOS at $14.99.** Pattern placement is the step where a correct dress and a wasteful one are separated — and it is the step beginners rush because it looks like a formality.
 
 It is not a formality. The official description treats arrangement as one of the two decisions that determine what your finished dress looks like.
 
@@ -42,7 +42,7 @@ That makes pattern placement a genuine optimisation problem with two competing g
 
 Every pattern piece carries a grain line, and it has to be placed so that line runs parallel to the cloth selvedge. Get it right and the garment hangs as designed; get it wrong and the panel twists and stretches.
 
-Prototype players report that the game shows this with a colour cue on the marker, and that misaligned pieces have their quality capped [**community-reported from the prototype — [Unconfirmed]** for the release].
+Prototype players report that the game shows this with a colour cue on the marker, and that misaligned pieces have their quality capped [**community-reported from the prototype — [Unconfirmed]** post-release].
 
 This is the goal that **cannot be traded away**. An efficient layout with an off-grain panel is a worse outcome than a wasteful layout with every panel aligned.
 
@@ -128,7 +128,7 @@ They are separate properties, and both matter. A piece can be perfectly aligned 
 Prototype players report a marker colour cue for alignment [Unconfirmed]. Whether the release surfaces a waste figure is not known.
 
 **How much fabric does one dress need?**
-Not published [Unconfirmed]. Nobody has a verified per-garment cloth cost before launch.
+Not published [Unconfirmed]. No verified per-garment cloth cost has been published.
 
 ---
 
@@ -141,4 +141,4 @@ Not published [Unconfirmed]. Nobody has a verified per-garment cloth cost before
 
 ---
 
-*Sources: the official Steam store description and store data for App ID 4019220, plus preview coverage and prototype player reports, labelled inline and marked [Unconfirmed] where they describe the unreleased build. This is an unofficial fan resource and is not affiliated with Cozy Lives or Free Lives.*
+*Sources: the official Steam store description and store data for App ID 4019220, checked October 24, 2026, plus preview coverage and prototype player reports, labelled inline and marked [Unconfirmed] where they describe the pre-launch build. This is an unofficial fan resource and is not affiliated with Cozy Lives or Free Lives.*

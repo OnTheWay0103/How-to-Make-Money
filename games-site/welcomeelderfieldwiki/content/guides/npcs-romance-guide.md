@@ -1,9 +1,9 @@
 ---
-title: 'Welcome to Elderfield NPCs & Romance Guide — Townsfolk, Friendship & Marriage Status'
-description: 'Who you meet in Welcome to Elderfield, how friendship works, and the real status of romance and marriage — planned but not yet implemented, per developer Chris Cote. What we know from the Steam description, demo, and developer statements.'
+title: 'Welcome to Elderfield NPCs & Romance Guide — Townsfolk, Friendship & Marriage'
+description: 'Who you meet in Welcome to Elderfield, how friendship works, and how romance and marriage work in the released game — based on the official Steam description and post-launch community reports.'
 category: 'Characters'
 version: '1.0'
-updated: '2026-08-30'
+updated: '2026-10-24'
 keywords:
   - welcome to elderfield npcs
   - welcome to elderfield characters
@@ -20,18 +20,20 @@ related:
   - progression-upgrades-guide
 sources:
   - tier: "Official"
-    text: "Steam store page (App 3195440) — 'full RPG life sim with relationships, customization, fishing and more'"
-  - tier: "Official (Developer Statement)"
-    text: "Developer Chris Cote in a Steam Community discussion: romance 'still needs to be implemented… planning to have some sort of romance… reach the end of the relationship tree with any character… romantic or platonic (roommates vs spouse)'"
+    text: "Steam store page (App 3195440) checked 2026-10-24 — 'befriend the odd townsfolk (or even marry one!)' and 'full RPG life sim with relationships, customization, fishing and more'"
+  - tier: "Community"
+    text: "TposeGaming romance guide, published 2026-09-12, updated 2026-09-27 — nine romanceable townsfolk, Ring of Binding proposal item, one marriage per save, developer launch-day reply on Steam forums"
+  - tier: "Community"
+    text: "Elderfield Wiki romance guide, accessed 2026-10-24 — heart events, gift preferences, and marriage achievement"
   - tier: "Community"
     text: "Demo reports naming NPCs in the town (including Hans, the giant-skull landlord) and the friendship interactions in the demo"
   - tier: "Editorial"
-    text: "Character relationship advice is editorial; NPC names beyond the demo are [Unconfirmed]"
+    text: "Character relationship advice is editorial; exact heart thresholds and the full NPC roster remain [Unconfirmed]"
 ---
 
 # Welcome to Elderfield NPCs & Romance Guide
 
-The townsfolk are half the point of Elderfield. The official Steam description confirms a **"full RPG life sim with relationships, customization, fishing and more."** But there is an important, honest caveat for a pre-launch guide: **romance and marriage are planned but not yet implemented**, per the developer. Here is exactly what we know.
+The townsfolk are half the point of Elderfield. The official Steam description confirms a **"full RPG life sim with relationships, customization, fishing and more"** and explicitly says you can **"befriend the odd townsfolk (or even marry one!)"**. Romance and marriage are therefore part of the released game, not a future feature. Here is what is confirmed, what community guides report, and what is still unclear.
 
 ## The Town's People
 
@@ -39,74 +41,80 @@ Elderfield is an isolated town full of **strange, increasingly inexplicable** re
 
 **Hans** is the standout confirmed character — the **landlord**, described as a **giant skull that outgrew its body** [Official/Community]. He is the face of Elderfield's horror-comedy balance.
 
-A full roster of named NPCs, their schedules, and their gift preferences are [Unconfirmed] — the demo only shows a slice of the town.
+A complete roster of named NPCs, their schedules, and their gift preferences is still **[Unconfirmed]** — post-launch community guides are filling this in, but the official store page does not publish a list.
 
 ## Friendship (Confirmed)
 
-Friendship/relationships are confirmed as a core system: the store page calls the game a "full RPG life sim with relationships." In the demo you can interact with townsfolk, and the developer's plan explicitly includes reaching the **end of a relationship tree with any character**. Gift-giving, heart levels, and schedule mechanics — the usual life-sim backbone — are expected but not yet documented [Unconfirmed].
+Friendship/relationships are a core system: the store page calls the game a "full RPG life sim with relationships" [Official]. In the demo you can interact with townsfolk, and the full game expands this into a relationship track with heart progression.
 
-## Romance & Marriage (Planned, Not Yet Implemented)
+Community guides for the release build document **heart levels, heart events, and gift preferences** [Community]. Treat the exact thresholds and gift tables as community-documented rather than official.
 
-This is the most important honest note for players searching "Welcome to Elderfield romance" or "how to marry":
+## Romance & Marriage (In the Release Build)
 
-> Developer **Chris Cote**, in a Steam Community discussion: romance **"still needs to be implemented"** (so anything could change), and they are **"planning to have some sort of romance."** If possible, they want options so players can reach the **end of the relationship tree with any character**, choosing whether it is **romantic or platonic (roommates vs spouse)**.
+This section replaces the pre-launch uncertainty that used to surround the feature:
 
-What this means:
+- **Romance and marriage are in the released game.** The official Steam description says you can "even marry one!" and lists relationships as a core part of the life sim [Official].
+- **Community guides for the launch build report nine romanceable townsfolk** and a proposal system using a craftable **Ring of Binding**, with one marriage per save file [Community].
+- **The developer's earlier plan for a romantic (spouse) vs platonic (roommate) outcome has not been re-confirmed for the release build** [Unconfirmed]. Do not assume a roommate path shipped just because it was discussed before launch.
+- **Community suggestions** (additional candidates, divorce, children) are not confirmed features.
 
-- **Do not expect marriage at launch on September 10** — it is explicitly not implemented yet [Unconfirmed].
-- The **design intent** is flexible: any character can be a spouse **or** a roommate, depending on your choice.
-- **Community suggestions** (wedding rings, marriage quests/bosses) are fan ideas, not confirmed features.
+Because the official store page confirms marriage but does not publish a mechanic-by-mechanic manual, the specific numbers below the headline feature come from community documentation. We mark those clearly rather than presenting them as official.
 
 ## What This Means for Your Playthrough
 
-- **Enjoy friendship now** — relationship progress and the friendship tree are the confirmed, playable part.
-- **Don't plan a marriage speed-run** — there is nothing to marry yet.
-- **Treat romance as a roadmap feature** — expect it in a post-launch update, not day one [Unconfirmed].
+- **Friendship and romance are both playable tracks** — build hearts with the townsfolk you like.
+- **Marriage is available in the release build** — you do not need to wait for a post-launch romance update.
+- **Plan your partner.** Community reports say a save supports one marriage, so treat the choice as meaningful [Community].
+- **Do not count on a roommate/platonic route** until it is officially confirmed [Unconfirmed].
 
 ## Relationship Tips (Based on What We Know)
 
 - **Talk to everyone daily** — life-sim relationships run on consistent interaction.
-- **Learn their schedules** — once the town is fully documented, daily routines will matter for gift timing.
+- **Learn their schedules** — daily routines matter for gift timing and heart events.
+- **Check gift preferences** — community guides list loved and hated gifts; a loved gift is a large friendship swing [Community].
 - **Watch the news** — the local news is a running thread in the town's mystery and likely intersects with character stories.
-- **Pick your "endgame" character early** — since the developer wants any character to be romanceable, choose someone whose personality fits your vibe.
+- **Pick your "endgame" character early** — if a save supports one marriage, decide who fits your playthrough [Community].
 
-## What to Check After Launch
+## What to Check Next
 
-- Named NPC roster and gift preferences
-- Heart/friendship level thresholds
-- Whether romance arrives day-one or in an update
-- Roommate vs spouse mechanics, once implemented
+- Exact heart thresholds and heart-event triggers
+- Full gift preference tables
+- Whether a roommate/platonic path exists
+- Any post-launch changes to the romance roster
 
-We will update this guide the moment any of these are confirmed.
+We will update this guide as official details or consistent community documentation appear.
 
 ## Frequently Asked
 
-**Can I date anyone in Elderfield?** Not yet. The developer's stated intent is that you can reach the end of a relationship tree with *any* character and choose romantic or platonic — but romance is not implemented at launch [Unconfirmed].
+**Can I date anyone in Elderfield?** Yes — romance and marriage are in the release build, per the official Steam description [Official]. Community guides report nine romanceable townsfolk [Community]; the exact roster may expand.
 
-**Is there marriage in the demo?** No. The demo focuses on systems (farming, fishing, the mall); relationship *trees* are the long-term full-game track [Unconfirmed].
+**Is there marriage in the demo?** No. The demo predates the release and focuses on farming, fishing, and the mall; romance is part of the full game [Official/Community].
 
-**Does friendship do anything in the demo?** Demo reports show you can interact with townsfolk, but the depth (gifts, heart levels) is expected rather than fully documented [Community/Editorial].
+**Does friendship do anything in the demo?** Demo reports show you can interact with townsfolk, but the deeper gift and heart systems are part of the full game [Community/Editorial].
 
 **Who is Hans?** Hans is the confirmed landlord character — a giant skull that outgrew its body [Official/Community]. He is the town's most visible personality so far.
 
-**When will romance be added?** The developer has not given a date — treat it as a post-launch update, not day-one content [Unconfirmed].
+**When will romance be added?** It is already in the release build. No separate romance update is required [Official].
 
-## How the Relationship Tree Likely Works
+**Can I have both a spouse and a roommate?** Not confirmed. The pre-launch discussion mentioned a romantic-or-platonic choice, but that split has not been re-confirmed for the release build [Unconfirmed].
 
-Based on the developer's description and life-sim genre norms, expect the relationship track to look like this [Editorial]:
+## How the Relationship System Works
+
+Based on the official description and community documentation [Official/Community]:
 
 1. **Meet and talk** — build familiarity with a character.
-2. **Gift and interact** — advance the friendship tree through repeated, character-appropriate interactions.
-3. **Reach the end of the tree** — the developer wants you to complete the relationship with any character.
-4. **Choose the outcome** — romantic (spouse) or platonic (roommate), depending on your choice.
+2. **Gift and interact** — advance the relationship through repeated, character-appropriate interactions.
+3. **Build hearts** — community guides describe heart levels and heart events.
+4. **Propose** — community guides report a craftable Ring of Binding used to propose at maximum hearts.
+5. **Marry** — the wedding is a one-per-save commitment according to community documentation.
 
-Because the developer emphasized the **choice between roommate and spouse**, Elderfield's relationships may be more flexible than a typical fixed-romance life-sim — worth planning around if that appeals to you.
+Because the exact thresholds come from player documentation, use them as a guide rather than a guarantee. The headline feature — romance and marriage — is confirmed by the official store page.
 
 ---
 
 ## Verification
 
-- **Last checked:** 2026-08-30
-- **Game version:** pre-release (launches 9/10/2026)
-- **Sources checked:** Steam store page (App 3195440), Steam Community discussion reply from developer Chris Cote, demo reports
-- **Note:** Friendship and relationships are confirmed systems. Romance/marriage is confirmed as **planned but not implemented** per the developer — marked [Unconfirmed] for launch timing. NPC rosters beyond Hans are [Unconfirmed].
+- **Last checked:** 2026-10-24
+- **Game version:** released September 10, 2026
+- **Sources checked:** Steam store page (App 3195440) appdetails API, TposeGaming romance guide (2026-09-12), Elderfield Wiki romance guide (accessed 2026-10-24), demo reports
+- **Note:** Romance and marriage are confirmed by the official Steam description. The nine-candidate roster, Ring of Binding proposal, and one-marriage-per-save rule are community-documented [Community]. The roommate/platonic split and exact heart thresholds remain [Unconfirmed].

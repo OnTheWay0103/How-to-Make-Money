@@ -3,7 +3,7 @@ title: 'Welcome to Elderfield Map & Areas Guide — Town, Farm, Ranch, Mall & Mo
 description: 'The areas of Welcome to Elderfield — the town, your farm, the ranch, the local-mall dungeon, the sewer and lake — plus what the full release is expected to add. A demo-verified overview of the map.'
 category: 'Exploration'
 version: '1.0'
-updated: '2026-08-30'
+updated: '2026-10-24'
 keywords:
   - welcome to elderfield map
   - welcome to elderfield areas
@@ -29,7 +29,7 @@ sources:
 
 # Welcome to Elderfield Map & Areas Guide
 
-Welcome to Elderfield takes place in the isolated town of Elderfield — your birthplace, with a mysterious past. The **demo** (roughly 1/6 of the planned game) shows a meaningful slice of the map. This guide covers every confirmed area and what the full release is expected to add.
+Welcome to Elderfield takes place in the isolated town of Elderfield — your birthplace, with a mysterious past. The game was released on September 10, 2026. The **demo** (roughly 1/6 of the game) shows a meaningful slice of the map; this guide covers every confirmed area and what the full release is reported to add.
 
 ## Confirmed Areas (Demo + Official)
 
@@ -78,11 +78,11 @@ The lake is where you get the **fishing rod** — the unlock that enables fishin
 
 The demo also includes **several smaller locations** — investigation spots and side areas. The 7 mysteries are spread across the mall (5), the sewer (1), and Dave's house (1) [Community].
 
-## What the Full Release Is Expected to Add
+## What the Full Release Is Reported to Add
 
-Because the demo is a vertical slice, the full map is larger. Based on official/coverage statements, expect [Unconfirmed]:
+Because the demo is a vertical slice, the full map is larger. Based on official/community reports, expect [Unconfirmed]:
 
-- **~3x the town size** — the full game's town is expected to be about three times the demo's slice.
+- **~3x the town size** — the full game's town is reported to be about three times the demo's slice.
 - **At least two more dungeon areas** beyond the mall.
 - **Full NPC schedules** — more town residents with daily routines.
 - **Old God / mystery content** — deeper investigation and story areas.
@@ -98,7 +98,7 @@ None of the above is confirmed in detail; treat it as scope expectation, not fac
 
 ## Frequently Asked
 
-**How big is the demo map?** One slice of the town, your farm, the ranch, the mall dungeon, the sewer, and the lake — roughly 1/6 of the planned game [Official].
+**How big is the demo map?** One slice of the town, your farm, the ranch, the mall dungeon, the sewer, and the lake — roughly 1/6 of the game [Official].
 
 **How do I get to the lake?** Through the sewer, via the playground manhole; the shop-manhole shortcut reaches it with only one fight versus the longer house path [Community].
 
@@ -106,19 +106,19 @@ None of the above is confirmed in detail; treat it as scope expectation, not fac
 
 **Can I leave Elderfield?** Narratively no — the game's premise is that those who arrive rarely find a reason or option to leave [Official]. There is no world map beyond the town's areas.
 
-**Are there more dungeons in the full game?** Expected — at least two more dungeon areas beyond the mall, per coverage [Unconfirmed].
+**Are there more dungeons in the full game?** Reported — at least two more dungeon areas beyond the mall, per community coverage [Unconfirmed].
 
 **Is the whole farm playable in the demo?** The farm is functional (plant, harvest, deal with tentacles), but its full expansion options are [Unconfirmed].
 
-## After Launch
+## Still to Document
 
-Once the game launches, this guide will be expanded with: a full map overview, every named location, NPC locations, dungeon guides, and area-level requirements — all verified from gameplay rather than pre-release estimates.
+This guide will be expanded with verified post-launch data: a full map overview, every named location, NPC locations, dungeon guides, and area-level requirements — all verified from gameplay rather than estimates.
 
 ---
 
 ## Verification
 
-- **Last checked:** 2026-08-30
-- **Game version:** pre-release (launches 9/10/2026)
+- **Last checked:** 2026-10-24
+- **Game version:** released September 10, 2026 (area details from the demo)
 - **Sources checked:** Steam demo page (App 3195680), Steam Community discussion reports, Steam store page (App 3195440)
 - **Note:** Town, farm, ranch, mall, sewer, and lake are confirmed demo areas. Full-game town size (~3x) and additional dungeons are [Unconfirmed].

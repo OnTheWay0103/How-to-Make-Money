@@ -3,7 +3,7 @@ title: 'Dressmaker Sewing Guide — Clean Seams and a Better Quality Score'
 description: 'How the sewing machine step works in Dressmaker, why seam straightness is reported to drive garment quality, a repeatable routine for each garment, and the accessibility settings that make steady sewing easier. Unverified details are marked.'
 category: 'Mechanics'
 version: '1.0'
-updated: '2026-09-12'
+updated: '2026-10-24'
 keywords:
   - dressmaker sewing guide
   - dressmaker sewing machine
@@ -20,7 +20,7 @@ related:
   - dressmaker-beginner-guide
 ---
 
-**Dressmaker is a cozy dressmaking simulation developed by Cozy Lives and published by Free Lives, releasing on Steam on September 21, 2026 for Windows and macOS.** Sewing is the step every single garment passes through, which makes it the highest-leverage place to build good habits — and the easiest place to lose the quality you earned at the cutting table.
+**Dressmaker is a cozy dressmaking simulation developed by Cozy Lives and published by Free Lives, released on Steam on September 21, 2026 for Windows and macOS at $14.99.** Sewing is the step every single garment passes through, which makes it the highest-leverage place to build good habits — and the easiest place to lose the quality you earned at the cutting table.
 
 This guide covers the confirmed mechanics, the reported quality driver, and a routine that turns sewing from a lottery into a process.
 
@@ -47,7 +47,7 @@ What the game does not publish is any numeric scoring for the step [Unconfirmed]
 
 ## Why Seam Straightness Is the Thing to Watch
 
-Independent pre-release coverage has described garment quality as depending heavily on **how straight you keep your seams** [**preview-sourced — [Unconfirmed]** for the September 21 release].
+Independent preview coverage has described garment quality as depending heavily on **how straight you keep your seams** [**preview-sourced — [Unconfirmed]** post-release].
 
 That is a consistent finding, and it lines up with how the rest of the game works. Dressmaker models real dressmaking rather than abstracting it, and in real dressmaking a wavy seam is a visible defect: it puckers the cloth, distorts the seam line, and cannot be pressed out.
 
@@ -118,14 +118,14 @@ The panels of one dress should look like they belong together, and that is a sew
 - **Watch where panels meet.** The join between bodice and skirt is the seam people look at first.
 - **Do not chase perfection on a first attempt.** No failure state has been described, so an imperfect dress is a dress — not a loss.
 
-**Whether thread colour, stitch length or seam type are adjustable in the release is not documented [Unconfirmed].** The official description mentions the sewing machine but does not describe its controls.
+**Whether thread colour, stitch length or seam type are adjustable in the released game is not documented [Unconfirmed].** The official description mentions the sewing machine but does not describe its controls.
 
 ---
 
 ## Frequently Asked Questions
 
 **Does Dressmaker score seam quality?**
-Quality is clearly tracked in some form, but no numbers are public [Unconfirmed]. Pre-release coverage reports straight seams as the main driver.
+Quality is clearly tracked in some form, but no numbers are public [Unconfirmed]. Preview coverage reports straight seams as the main driver.
 
 **Is there a timing minigame at the sewing machine?**
 No timed input is required — Steam lists "Playable without Timed Input" as an official feature.
@@ -140,7 +140,7 @@ Unknown [Unconfirmed]. No unpicking mechanic has been described.
 No published order exists [Unconfirmed]. Assembly order is not documented; a logical order (large structural seams first, then finishing) is the safe default.
 
 **How long does one dress take to sew?**
-Not published [Unconfirmed]. No verified playtime figures exist for the release.
+Not published [Unconfirmed]. No verified playtime figures exist for the released game.
 
 ---
 
@@ -153,4 +153,4 @@ Not published [Unconfirmed]. No verified playtime figures exist for the release.
 
 ---
 
-*Sources: the official Steam store description and store data for App ID 4019220, plus pre-release preview coverage and prototype player reports, labelled inline and marked [Unconfirmed] where they describe the unreleased build. This is an unofficial fan resource and is not affiliated with Cozy Lives or Free Lives.*
+*Sources: the official Steam store description and store data for App ID 4019220, checked October 24, 2026, plus preview coverage and prototype player reports, labelled inline and marked [Unconfirmed] where they describe the pre-launch build. This is an unofficial fan resource and is not affiliated with Cozy Lives or Free Lives.*

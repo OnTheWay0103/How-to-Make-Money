@@ -3,7 +3,7 @@ title: 'Welcome to Elderfield How Rest Works — Bath, Sleep, Curses & Monster R
 description: 'Rest in Welcome to Elderfield is a tradeoff — baths restore health but reset monster positions, and sleeping can lift curses or introduce them. How the rest system works in the demo and how to plan your nights.'
 category: 'Mechanics'
 version: '1.0'
-updated: '2026-08-30'
+updated: '2026-10-24'
 keywords:
   - welcome to elderfield rest
   - welcome to elderfield sleep
@@ -31,7 +31,7 @@ sources:
 
 In most farming games, rest is a formality — you sleep, you wake up healed. **In Elderfield, rest is a tradeoff.** The demo's rest mechanics turn the end of the day into a decision: how you recover shapes where the monsters are and whether you wake up cursed.
 
-Because the full game launches September 10, 2026, the demo's confirmed behavior is your best guide, and anything deeper is [Unconfirmed].
+The game was released on September 10, 2026; the demo's confirmed behavior remains the best-documented reference, and anything deeper is [Unconfirmed].
 
 ## The Two Rest Options
 
@@ -77,7 +77,7 @@ Because rest has consequences, the end of the day is a planning step, not an aft
 
 ## Signs You Need a Bath vs a Plain Sleep
 
-A quick pre-release decision guide [Editorial]:
+A quick decision guide [Editorial]:
 
 | Situation | Best Choice |
 |-----------|-------------|
@@ -89,7 +89,7 @@ A quick pre-release decision guide [Editorial]:
 
 The theme is: **bath when health matters more than position; sleep when status matters more than certainty.**
 
-## Curse Management (Pre-Release)
+## Curse Management (Demo-Verified)
 
 Curses are a real mechanic in the demo, but their full catalogue is unverified [Community]. General management principles:
 
@@ -97,19 +97,19 @@ Curses are a real mechanic in the demo, but their full catalogue is unverified [
 - **Clear curses before big content.** If you plan to tackle the mall or a dungeon, don't go in cursed if you can help it — sleep first and accept the risk.
 - **Track what caused it.** Knowing which actions introduced a curse helps you avoid it next time.
 
-We will document the full curse list and their exact effects after launch.
+We will document the full curse list and their exact effects as verified release-build data appears.
 
 ## What Is Still [Unconfirmed]
 
 - **Curse types and effects** — the demo shows curses exist; the full catalogue of curse effects is unverified.
-- **Rest mechanics in the full game** — whether bath/sleep remain the only options, and whether beds/inns differ, is unknown.
+- **Rest mechanics beyond the demo** — whether bath/sleep remain the only options, and whether beds/inns differ, is unknown.
 - **Other healing** — food-based healing and any other recovery methods are expected but not fully documented.
 
 ---
 
 ## Verification
 
-- **Last checked:** 2026-08-30
-- **Game version:** demo (App 3195680), pre-release
-- **Sources checked:** Steam store page (App 3195440), Steam Community discussion reports, coverage
+- **Last checked:** 2026-10-24
+- **Game version:** demo (App 3195680); full game released September 10, 2026
+- **Sources checked:** Steam store page (App 3195440), Steam Community discussion reports
 - **Note:** Bath (heals, resets monster positions) and sleep (can lift/introduce curses) are community-verified demo behaviors. Curse catalogue and full-game rest options are [Unconfirmed].

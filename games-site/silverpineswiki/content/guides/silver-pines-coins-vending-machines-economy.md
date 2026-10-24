@@ -3,7 +3,7 @@ title: 'Silver Pines Coins and Vending Machines — How the Economy Works'
 description: 'Coins in Silver Pines buy supplies from vending machines and pay for your saves. Where change comes from, what vending machines sell, how the two demands compete, and how to decide which one wins.'
 category: 'Economy'
 version: '1.0'
-updated: '2026-09-16'
+updated: '2026-10-24'
 keywords:
   - silver pines coins
   - silver pines vending machine
@@ -99,7 +99,7 @@ Because saving is a coin sink, the whole economy is downstream of the [save syst
 
 ## Is the Economy Too Tight? — What Players Actually Say
 
-The demo holds **802 reviews at 95.9% positive** as of September 16, 2026, so the overwhelming majority of players are not describing the economy as unfair. But the criticisms that do exist are worth knowing before you buy:
+The demo holds **802 reviews at 95.9% positive** as of September 16, 2026 — demo-only data, not a score for the full game. The released full game has its own, separate review summary (1,735 reviews at 97% positive as of October 24, 2026), though Steam does not break those reviews down by topic. Taken together, the overwhelming majority of players are not describing the economy as unfair. The criticisms that do exist are worth knowing before you buy:
 
 - **Pacing complaints rather than balance complaints.** The recurring theme in negative coverage is that early melee combat feels slow and heavy, and that repair and reload sequences take long enough to be dangerous
 - **Repair timing frustration.** Multiple players describe being unable to finish repairing a melee weapon before enemies reach them — a friction point that is clearly deliberate, and clearly divisive

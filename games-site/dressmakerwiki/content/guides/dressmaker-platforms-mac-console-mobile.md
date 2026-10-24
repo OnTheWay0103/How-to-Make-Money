@@ -3,7 +3,7 @@ title: 'Dressmaker on Mac, Console and Mobile — Which Platforms Are Supported'
 description: 'Dressmaker supports Windows and macOS only. No Linux, no Switch, no Switch 2, no PS5, no Xbox and no mobile version have been announced. Straight answers to every Dressmaker platform question, including APK safety.'
 category: 'Platforms'
 version: '1.0'
-updated: '2026-09-12'
+updated: '2026-10-24'
 keywords:
   - dressmaker game mac
   - dressmaker mac
@@ -30,7 +30,7 @@ related:
 
 This page answers the platform questions people actually ask about Dressmaker — *is it on Mac, is it on Switch, is it on Switch 2, is it on PS5 or Xbox, is there a mobile version* — with a direct answer for each, plus the reasoning behind it. Almost all of these answers are **no**, and the source for that is Steam's own platform data for App ID **4019220**.
 
-Dressmaker is developed by **Cozy Lives** and published by **Free Lives**, and releases on **September 21, 2026**.
+Dressmaker is developed by **Cozy Lives** and published by **Free Lives**, and was released on **September 21, 2026** at **$14.99**.
 
 ---
 
@@ -62,7 +62,7 @@ Dressmaker is a **macOS game**, and the official minimum specification is:
 | Memory | 8 GB RAM |
 | Storage | 1 GB available space |
 
-**The caveat: the official minimum names Apple M1, which is Apple silicon.** Intel Macs are not listed in the minimum specification. If you are on an Intel Mac, treat compatibility as **[Unconfirmed]** and check the Steam store page again closer to launch — minimum specs are sometimes revised, and the store page is the only place that revision will appear.
+**The caveat: the official minimum names Apple M1, which is Apple silicon.** Intel Macs are not listed in the minimum specification. If you are on an Intel Mac, treat compatibility as **[Unconfirmed]** and check the Steam store page — minimum specs are sometimes revised, and the store page is the only place that revision will appear.
 
 For comparison, the official **Windows** minimum is Windows 10 or later, an Intel Core i5 or AMD Ryzen processor, 8 GB RAM, Intel UHD 630 graphics or better, DirectX 11, and 1 GB of storage. Both platforms require 1 GB of free disk space, which is small — Dressmaker is a 2D simulation, and the install size reflects that.
 
@@ -106,12 +106,12 @@ The same applies to desktop: the only two legitimate sources for Dressmaker are 
 
 **Linux:** Steam lists Linux as **unsupported** for Dressmaker. That is a decision by the developer, not an accident of the store listing.
 
-**Steam Deck:** no Steam Deck compatibility rating had been published as of September 12, 2026 **[Unconfirmed]**. Two things are worth noting rather than guessing about:
+**Steam Deck:** no Steam Deck compatibility rating is shown on the store page as of October 24, 2026 **[Unconfirmed]**. Two things are worth noting rather than guessing about:
 
 - Deck compatibility ratings are applied by Valve and can appear at or after launch, often without an announcement
 - Dressmaker's listed **Mouse Only Option** means the game does not assume a controller, and its **Playable without Timed Input** category means it does not demand twitch reactions — which is generally good news for Deck play, though this is our reasoning, not a confirmed rating
 
-Check the store page after launch for an actual rating rather than trusting a pre-release claim.
+Check the store page for an actual rating rather than trusting a third-party claim.
 
 ---
 
@@ -153,13 +153,13 @@ No.
 No, and there is no official APK.
 
 **Is Dressmaker on Steam Deck?**
-No compatibility rating had been published as of September 12, 2026 [Unconfirmed].
+No compatibility rating is shown on the store page as of October 24, 2026 [Unconfirmed].
 
 **Will it come to consoles later?**
 Nothing has been announced. We will not speculate on a date.
 
 **How much does it cost on each platform?**
-There is one platform family — Steam — and the price had not been announced as of September 12, 2026 [Unconfirmed].
+There is one platform family — Steam — and the price is $14.99 USD as of October 24, 2026. Regional prices can differ.
 
 **What about the itch.io prototype — which platforms does it run on?**
 We have not verified the prototype's platform list against an official source, so we do not state it here. The **Steam release** is Windows and macOS.
@@ -175,4 +175,4 @@ We have not verified the prototype's platform list against an official source, s
 
 ---
 
-*Sources: Steam store page and store data for App ID 4019220, checked September 12, 2026. Unverified details are marked [Unconfirmed]. This is an unofficial fan resource and is not affiliated with Cozy Lives or Free Lives.*
+*Sources: Steam store page and store data for App ID 4019220, checked October 24, 2026. Unverified details are marked [Unconfirmed]. This is an unofficial fan resource and is not affiliated with Cozy Lives or Free Lives.*

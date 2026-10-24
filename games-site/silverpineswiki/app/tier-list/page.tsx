@@ -1,17 +1,17 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Silver Pines Survival Priorities — Pre-Release Overview',
+  title: 'Silver Pines Survival Priorities — Post-Release Overview',
   description:
-    'Silver Pines priorities before launch — which habits and resources (save coins, tape, ammunition, stamina, map notes) deserve your attention first, plus a confirmed-vs-unconfirmed systems table and a source column for every entry.',
+    'Silver Pines survival priorities for the released game — which habits and resources (save coins, tape, ammunition, stamina, map notes) deserve your attention first, plus a confirmed-vs-unconfirmed systems table and a source column for every entry.',
 };
 
 // Silver Pines has no published weapon ladder, enemy roster or upgrade tree,
 // so a numeric tier list of "best weapon / best build" would be fabricated.
-// This pre-release page instead ranks the SURVIVAL PRIORITIES inside the
-// resource loop, using the official Steam store page and Steam store data as
-// the evidence base, with community-reported mechanics labelled as such.
-// A data-backed ranking follows the October 8, 2026 launch.
+// This page instead ranks the SURVIVAL PRIORITIES inside the resource loop,
+// using the official Steam store page and Steam store data as the evidence
+// base, with community-reported mechanics labelled as such. The game was
+// released on October 8, 2026.
 
 const PRIORITIES = [
   {
@@ -71,9 +71,9 @@ const SYSTEMS_STATUS = [
     source: 'Steam store data, App ID 2333000',
   },
   {
-    system: 'Release date October 8, 2026',
+    system: 'Released October 8, 2026',
     status: 'Confirmed',
-    source: 'Steam store data — coming soon flag still set on 2026-09-16',
+    source: 'Steam store data — coming_soon false, checked 2026-10-24',
   },
   {
     system: 'PC, PS5, Xbox Series X|S, Switch, Switch 2',
@@ -102,8 +102,8 @@ const SYSTEMS_STATUS = [
   },
   {
     system: 'Steam Achievements, Steam Cloud, Family Sharing',
-    status: 'Confirmed (list unpublished)',
-    source: 'Steam store categories — achievement names [Unconfirmed]',
+    status: 'Confirmed',
+    source: 'Steam store categories and achievements data, checked 2026-10-24',
   },
   {
     system: 'Limited inventory, scarce resources',
@@ -126,9 +126,9 @@ const SYSTEMS_STATUS = [
     source: 'Steam content descriptors',
   },
   {
-    system: 'Price',
-    status: '[Unconfirmed]',
-    source: 'No price_overview on Steam as of 2026-09-16',
+    system: 'Price $24.99 USD',
+    status: 'Confirmed',
+    source: 'Steam price_overview, checked 2026-10-24 (0% discount)',
   },
   {
     system: 'No autosave; phone booths are the only save points',
@@ -176,14 +176,19 @@ const SYSTEMS_STATUS = [
     source: 'No official source has published any of these figures',
   },
   {
-    system: 'Achievement list, physical edition, Game Pass',
+    system: 'Achievement list',
+    status: 'Confirmed (published)',
+    source: 'Steam achievements data for App ID 2333000, checked 2026-10-24',
+  },
+  {
+    system: 'Physical edition, Game Pass / PS Plus',
     status: 'Not announced',
-    source: 'No announcement from Wych Elm or Team17 as of 2026-09-16',
+    source: 'No announcement from Wych Elm or Team17 as of 2026-10-24',
   },
 ];
 
-// The evidence ledger for the demo — the one hard demand signal that exists
-// before launch. Kept in a table because it is the number people cite.
+// The evidence ledger for the demo, kept separate from the full game's own
+// review summary. Kept in a table because it is the number people cite.
 const EVIDENCE = [
   {
     metric: 'Demo user reviews',
@@ -219,8 +224,8 @@ const EVIDENCE = [
   },
   {
     metric: 'Main game user reviews',
-    value: '0',
-    source: 'Steam appreviews API — the game has not launched',
+    value: '1,735 at 97% positive — Overwhelmingly Positive',
+    source: 'Steam store page for App ID 2333000 (2026-10-24)',
   },
 ];
 
@@ -231,11 +236,11 @@ export default function TierListPage() {
         Silver Pines Survival Priorities
       </h1>
       <p className="text-gray-400 mb-2">
-        What to spend your attention on — pre-release overview (September 16,
+        What to spend your attention on — post-release overview (October 24,
         2026).
       </p>
       <div className="inline-flex items-center gap-1 text-xs font-medium px-2 py-0.5 rounded bg-teal-900/30 text-teal-400 border border-teal-800/50 mb-8">
-        Pre-release — data-backed ranking after the 10/8 launch
+        Post-release — official facts separated from community reports
       </div>
 
       <section className="mb-12">
@@ -276,11 +281,11 @@ export default function TierListPage() {
           Confirmed vs Unconfirmed Systems
         </h2>
         <p className="text-gray-400 text-sm mb-6">
-          Silver Pines launches October 8, 2026, and the demo has been playable
-          since June. That means some systems are firmly documented and others
-          circulate only as player reports. This table records which is which,
-          with the source for every entry — so you can tell a confirmed
-          mechanic from pre-release folklore.
+          Silver Pines was released on October 8, 2026, and the demo has been
+          playable since June. Some systems are firmly documented and others
+          still circulate only as player reports. This table records which is
+          which, with the source for every entry — so you can tell a confirmed
+          mechanic from community folklore.
         </p>
         <div className="overflow-x-auto">
           <table className="w-full text-sm border-collapse">
@@ -331,10 +336,11 @@ export default function TierListPage() {
           The Demo Evidence Ledger
         </h2>
         <p className="text-gray-400 text-sm mb-6">
-          With the game unreleased, the demo is the only hard demand signal
-          that exists. These are the numbers behind the “worth your time”
-          judgement — separated by source, because the wishlist figures in
-          circulation use two different scopes and must not be mixed.
+          The demo remains a useful zero-cost trial, but it is not the full
+          game’s score. These are the demo figures, separated by source, and
+          kept alongside the full game’s own review summary — the wishlist
+          figures in circulation use two different scopes and must not be
+          mixed.
         </p>
         <div className="overflow-x-auto">
           <table className="w-full text-sm border-collapse">
@@ -372,23 +378,23 @@ export default function TierListPage() {
 
       <div className="bg-[#0f1c21] border border-[#1c3038] rounded-lg p-5">
         <h3 className="text-white font-semibold mb-2">
-          Why This Is a Pre-Release Page
+          Why This Page Ranks Priorities, Not Weapons
         </h3>
         <p className="text-gray-400 text-sm leading-relaxed">
-          Silver Pines launches October 8, 2026, so a tier list of weapons,
-          enemies or Mementos would be speculation dressed up as data — the
-          vendor has published no weapon names, no damage values and no
-          upgrade tree. This page instead ranks the <em>survival priorities</em>{' '}
-          inside the resource loop, using the official Steam store page and
-          Steam store data, and labels anything that comes from players rather
-          than the developer. A data-backed ranking will follow launch. For the
-          mechanics themselves, start with the{' '}
+          Silver Pines was released on October 8, 2026, but the developer has
+          still published no weapon names, no damage values and no upgrade
+          tree, so a tier list of weapons, enemies or Mementos would be
+          speculation dressed up as data. This page instead ranks the{' '}
+          <em>survival priorities</em> inside the resource loop, using the
+          official Steam store page and Steam store data, and labels anything
+          that comes from players rather than the developer. For the mechanics
+          themselves, start with the{' '}
           <a href="/guides/silver-pines-save-system-phone-booths" className="text-teal-400 hover:underline">
             save system guide
           </a>{' '}
           and check{' '}
           <a href="/guides/silver-pines-release-date-price-platforms" className="text-teal-400 hover:underline">
-            what is actually confirmed for release
+            the released game’s confirmed facts
           </a>
           .
         </p>

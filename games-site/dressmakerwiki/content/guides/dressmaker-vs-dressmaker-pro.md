@@ -3,7 +3,7 @@ title: 'Dressmaker vs DressMaker vs DressMaker Pro — Which One Are You Looking
 description: 'Three different products share almost the same name on Steam. Dressmaker (4019220) is a cozy dressmaking simulation by Cozy Lives and Free Lives. DressMaker (1487080) and DressMaker Pro (1599300) are VRoid/VRM avatar texturing tools. How to tell them apart.'
 category: 'Release Info'
 version: '1.0'
-updated: '2026-09-12'
+updated: '2026-10-24'
 keywords:
   - dressmaker game
   - dressmaker steam
@@ -37,7 +37,7 @@ This page tells you which one you want — and, more practically, how to check t
 | **Developer** | **Cozy Lives** | Suzuki Cecil | Suzuki Cecil |
 | **Publisher** | **Free Lives** | Dream Factory Co., Ltd. | Dream Factory Co., Ltd. |
 | **Released** | **September 21, 2026** | March 26, 2021 | July 15, 2021 |
-| **Price** | Not announced [Unconfirmed] | $9.99 | $54.99 |
+| **Price** | $14.99 | $9.99 | $54.99 |
 | **Platforms** | Windows, macOS | Windows | Windows |
 
 Read that table once and the confusion dissolves: **one of these is a game, and two of them are tools for a completely different job.**
@@ -46,7 +46,7 @@ Read that table once and the confusion dissolves: **one of these is a game, and 
 
 ## Which One Do You Want?
 
-**You want Dressmaker (4019220) if** you are looking for a cozy simulation about making dresses — choosing fabric, arranging and cutting patterns, sewing panels together, decorating, and dressing a town of customers. Developed by Cozy Lives, published by Free Lives, releasing September 21, 2026 on Windows and macOS.
+**You want Dressmaker (4019220) if** you are looking for a cozy simulation about making dresses — choosing fabric, arranging and cutting patterns, sewing panels together, decorating, and dressing a town of customers. Developed by Cozy Lives, published by Free Lives, released September 21, 2026 on Windows and macOS at $14.99.
 
 **You want DressMaker (1487080) or DressMaker Pro (1599300) if** you are working with **VRoid/VRM 3D avatars** and need a tool that applies one-piece textures to a model's clothing. These are authoring utilities for virtual-avatar creators, not games. They are Windows-only, published in 2021, and unrelated to Cozy Lives or Free Lives.
 
@@ -76,7 +76,7 @@ Other quick checks:
 | Genre on the page | Casual, Simulation | Casual, Animation & Modeling, Design & Illustration, Game Development |
 | Release year | 2026 | 2021 |
 | Studio named | Cozy Lives (developer), Free Lives (publisher) | Suzuki Cecil (developer), Dream Factory Co., Ltd. (publisher) |
-| Price | Not yet listed | $9.99 / $54.99 |
+| Price | $14.99 | $9.99 / $54.99 |
 | Cover art | Hand-drawn dressmaking scenes | Avatar/texture tool interface |
 
 If the page you are on shows a 2021 release date, you are on the wrong product. If it shows a $54.99 price, you are on DressMaker Pro.
@@ -132,7 +132,7 @@ The only real decision is between DressMaker and DressMaker Pro, and that is a q
 ## Frequently Asked Questions
 
 **Is DressMaker the same game as Dressmaker?**
-No. DressMaker (1487080) is a VRoid/VRM avatar texturing tool released in 2021. Dressmaker (4019220) is a cozy dressmaking simulation releasing September 21, 2026.
+No. DressMaker (1487080) is a VRoid/VRM avatar texturing tool released in 2021. Dressmaker (4019220) is a cozy dressmaking simulation released on September 21, 2026.
 
 **Why do they have the same name?**
 They do not, strictly — Dressmaker uses a lowercase "m", DressMaker capitalises the "M". That is a very thin distinction for a search engine and an even thinner one for a shopper, which is exactly why this page exists.
@@ -163,4 +163,4 @@ Yes — the original prototype of the Cozy Lives game is hosted on itch.io on a 
 
 ---
 
-*Sources: Steam store data for App IDs 4019220, 1487080 and 1599300, checked September 12, 2026. The Dressmaker price remains [Unconfirmed]. This is an unofficial fan resource and is not affiliated with Cozy Lives, Free Lives, Suzuki Cecil or Dream Factory Co., Ltd.*
+*Sources: Steam store data for App IDs 4019220, 1487080 and 1599300, checked October 24, 2026. Dressmaker's Steam price is $14.99 USD with no discount applied as of that date. This is an unofficial fan resource and is not affiliated with Cozy Lives, Free Lives, Suzuki Cecil or Dream Factory Co., Ltd.*

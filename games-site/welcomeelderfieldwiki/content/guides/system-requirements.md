@@ -3,7 +3,7 @@ title: 'Welcome to Elderfield System Requirements — Can You Run It?'
 description: 'System requirements for Welcome to Elderfield on Steam — the official full-game minimums (independently verified against the store page), plus the demo requirements and how to check your PC.'
 category: 'Info'
 version: '1.0'
-updated: '2026-08-30'
+updated: '2026-10-24'
 keywords:
   - welcome to elderfield system requirements
   - welcome to elderfield requirements
@@ -18,7 +18,9 @@ related:
   - beginner-guide
 sources:
   - tier: "Official"
-    text: "Steam store page (App 3195440) Minimum System Requirements — Windows 10 64-bit, 11th Gen Intel Core i5-11600K / AMD Ryzen 5 5600X, 8 GB RAM, NVIDIA GeForce GTX 1050 Ti / AMD Radeon RX 570, DirectX 11, 2 GB storage, 1280x768 — independently verified against the store page 2026-09-02"
+    text: "Steam store page (App 3195440) Minimum and Recommended System Requirements, checked 2026-10-24 — Windows 10 64-bit, i5-11600K / Ryzen 5 5600X, 8 GB RAM (16 GB recommended), GTX 1050 Ti / RX 570 minimum, DirectX 11, 2 GB storage, 1280x768"
+  - tier: "Official"
+    text: "Steam store page (App 3195440) categories, checked 2026-10-24 — full controller support (DualShock/DualSense) and Steam Cloud"
   - tier: "Official"
     text: "Steam demo page (App 3195680) lists lighter demo requirements (2 GB RAM era specs, DirectX 9 / OpenGL 4.1 capable GPU)"
   - tier: "Editorial"
@@ -29,7 +31,7 @@ sources:
 
 ## Official Minimum Requirements (Full Game)
 
-The Steam store page lists these **minimum** requirements for the full game (App 3195440). **Verification note:** these figures were independently verified against the Steam store page on September 2, 2026 and match verbatim. The official minimums are:
+The Steam store page lists these **minimum** requirements for the full game (App 3195440). **Verification note:** these figures were re-verified against the Steam store page on October 24, 2026. The official minimums are:
 
 | Component | Minimum |
 |-----------|---------|
@@ -42,7 +44,24 @@ The Steam store page lists these **minimum** requirements for the full game (App
 | **Sound Card** | DirectSound compatible |
 | **Additional** | 64-bit OS required; 1280x768 minimum display resolution |
 
-There is **no published "recommended" tier** as of August 30, 2026. The minimum is the only official reference point, and it is modest — the game is 2D (pixel-art style) and only needs 2 GB of disk space, so most PCs from the last several years will clear it.
+There is also a published **recommended** tier, so you have a target above the bare minimum:
+
+| Component | Recommended |
+|-----------|-------------|
+| **OS** | Windows 10 (64-bit) |
+| **Processor** | 11th Gen Intel Core i5-11600K / AMD Ryzen 5 5600X |
+| **Memory** | 16 GB RAM |
+| **Graphics** | NVIDIA GeForce GTX 1650 / AMD Radeon RX 570 (4 GB) or Radeon RX 5500 / RX 5300 |
+| **DirectX** | Version 11 |
+| **Storage** | 2 GB available space |
+| **Sound Card** | DirectSound compatible |
+| **Additional** | 64-bit OS required; 1280x768 minimum display resolution |
+
+The minimum is modest — the game is 2D (pixel-art style) and only needs 2 GB of disk space, so most PCs from the last several years will clear it. The recommended tier mainly raises RAM to 16 GB and asks for a slightly newer GPU.
+
+## Controller & Cloud Support
+
+The Steam store page lists **full controller support** (including DualShock and DualSense controllers) and **Steam Cloud** as of October 24, 2026 [Official].
 
 ## What the Free Demo Needs
 
@@ -53,7 +72,7 @@ The **demo** (App 3195680) lists noticeably lighter requirements than the full g
 - **Graphics:** DirectX 9 / OpenGL 4.1 capable GPU
 - **DirectX:** Version 9
 
-If your PC is older, the demo is a low-risk way to test compatibility before launch — though note the full game's requirements are higher (Windows 10 64-bit, 8 GB RAM).
+If your PC is older, the demo is a low-risk way to test compatibility — though note the full game's requirements are higher (Windows 10 64-bit, 8 GB RAM).
 
 ## How to Check If You Can Run It
 
@@ -100,13 +119,15 @@ If you are on an older PC, the demo is a good "it runs" check, but do not assume
 **Do I need a dedicated GPU?** The listed minimum uses a dedicated GPU (GTX 1050 Ti / RX 570), though integrated graphics from the last few generations may run the 2D game at lower settings — the demo is the best way to test.
 **Will the demo run on my old PC?** Likely — the demo's listed requirements are much lighter (2 GB RAM, DX9 GPU).
 **Do I need an SSD?** No specific SSD requirement is listed; 2 GB of storage fits on any drive [Editorial].
-**Is there a "recommended" spec?** No recommended tier is published as of August 30, 2026.
+**Is there a "recommended" spec?** Yes — 16 GB RAM and a GTX 1650 / RX 570 (4 GB) or RX 5500 / RX 5300, as listed on the Steam page [Official].
+**Does it support controllers?** Yes — Steam lists full controller support, including DualShock and DualSense [Official].
+**Does it support cloud saves?** Yes — Steam Cloud is listed on the store page [Official].
 
 ---
 
 ## Verification
 
-- **Last checked:** 2026-09-02
-- **Game version:** pre-release (launches 9/10/2026)
-- **Sources checked:** Steam store page (App 3195440) Minimum Requirements (verified 2026-09-02 — matches verbatim), Steam demo page (App 3195680) requirements
-- **Note:** The full-game minimums are **confirmed** against the Steam store page (QA deep audit, 2026-09-02). No recommended tier or benchmarks are published; performance notes are editorial.
+- **Last checked:** 2026-10-24
+- **Game version:** released September 10, 2026
+- **Sources checked:** Steam store page (App 3195440) Minimum and Recommended Requirements, controller/Steam Cloud categories; Steam demo page (App 3195680)
+- **Note:** The full-game minimum and recommended specs are **confirmed** against the Steam store page on 2026-10-24. Benchmark and performance notes remain editorial.

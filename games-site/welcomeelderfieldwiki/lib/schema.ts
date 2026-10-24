@@ -50,8 +50,8 @@ export function websiteSchema(): Record<string, unknown> {
  *
  * Describes Welcome to Elderfield as a software application / video game so
  * rich results can display the Steam link, genre, platform, etc.
- * Price is intentionally omitted — the official price had not been
- * announced as of 2026-08-30.
+ * The game was released on 2026-09-10 and is priced at $17.99 USD on Steam
+ * (verified via the Steam appdetails API on 2026-10-24).
  */
 export function videoGameSchema(): Record<string, unknown> {
   return {

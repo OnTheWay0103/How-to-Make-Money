@@ -3,16 +3,16 @@ title: "Welcome to Elderfield Wiki — Cosy Horror RPG Guide Hub"
 description: "The unofficial Welcome to Elderfield wiki for the cosy horror RPG by Chris Cote / Kwalee. Find release info, demo guides, farming, combat, mysteries, romance and beginner guides for the Lovecraftian farming life-sim."
 category: "Home"
 version: "1.0"
-updated: "2026-08-30"
+updated: "2026-10-24"
 keywords: ["Welcome to Elderfield", "Welcome to Elderfield wiki", "Welcome to Elderfield guide", "cosy horror game", "Welcome to Elderfield demo", "Welcome to Elderfield release date", "Welcome to Elderfield farming", "Welcome to Elderfield romance"]
 related: ["beginner-guide", "demo-guide", "price-platforms", "farming-economy-guide", "combat-guide", "npcs-romance-guide"]
 ---
 
 # Welcome to Elderfield Wiki — Cosy Horror RPG Guide Hub
 
-**Everything you need to know about the cosy horror RPG by Chris Cote / Kwalee — from the free demo to the September 10, 2026 launch.**
+**Everything you need to know about the cosy horror RPG by Chris Cote / Kwalee — out now on Steam, with free demo coverage and post-launch guides.**
 
-Welcome to Elderfield launches on **September 10, 2026** on Steam (PC / Windows). A free **demo** covering roughly 1/6 of the planned game is available now, holding a ~96% "Overwhelmingly Positive" rating. Because the full game has not launched yet, anything not yet officially detailed is clearly marked **[Unconfirmed]** — including the price and the romance system, which the developer has said is planned but not yet implemented.
+Welcome to Elderfield launched on **September 10, 2026** on Steam (PC / Windows) and costs **$17.99 USD** for the base game. A free **demo** covering roughly 1/6 of the game is still available, holding a ~96% "Overwhelmingly Positive" rating (demo store page, checked October 24, 2026). Romance and marriage are part of the release build — the official Steam page says you can "befriend the odd townsfolk (or even marry one!)". Anything not officially documented is clearly marked **[Unconfirmed]**.
 
 ---
 
@@ -72,7 +72,7 @@ The game blends **Stardew Valley-style farming and life-sim** gameplay with **Lo
 - **Turn-based combat** — AP-cost battles against Lovecraftian horrors, using gathered resources, strategic buffs, and diverse equipment; fleeing is always an option
 - **Two difficulty modes** — **Cozy Mode** for relaxed farming and discovery; **Challenge Mode** for those who want the Old Gods to test them
 - **Mystery investigation** — investigate the town's oddities and daily mysteries (the demo contains 7 community-verified investigation points)
-- **Relationships** — befriend the odd townsfolk; romance and marriage are planned but not yet implemented, per the developer [Unconfirmed]
+- **Relationships** — befriend the odd townsfolk; romance and marriage are in the release build, per the official Steam description [Official]. The exact romance roster and heart thresholds are [Unconfirmed]
 - **Rest as a tradeoff** — baths restore health but reset monster positions; sleeping can lift curses or introduce them
 
 ---
@@ -85,4 +85,4 @@ The game blends **Stardew Valley-style farming and life-sim** gameplay with **Lo
 
 ---
 
-*This wiki is community-maintained and reflects official information available before the September 10, 2026 launch. Content marked [Unconfirmed] will be verified and updated after release.*
+*This wiki is community-maintained and reflects official information available as of October 24, 2026. Content marked [Unconfirmed] is pending official confirmation or consistent community verification.*

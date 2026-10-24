@@ -3,7 +3,7 @@ title: 'Welcome to Elderfield Core Mechanics Explained — Farming, Combat, Rest
 description: 'How the core systems of Welcome to Elderfield fit together — the farming loop, turn-based AP combat, rest tradeoffs, probabilistic interactions, and daily mystery investigation, based on the Steam description and demo play.'
 category: 'Mechanics'
 version: '1.0'
-updated: '2026-10-23'
+updated: '2026-10-24'
 keywords:
   - welcome to elderfield mechanics
   - welcome to elderfield core systems
@@ -87,7 +87,7 @@ The town is full of oddities. Investigating **mysteries** — interaction points
 
 ## Relationships & Customization
 
-The store description confirms a **"full RPG life sim with relationships, customization, fishing and more."** You can befriend the townsfolk; **romance and marriage are planned but not yet implemented** per the developer [Unconfirmed]. Home and character customization are confirmed but their depth is undocumented.
+The store description confirms a **"full RPG life sim with relationships, customization, fishing and more."** You can befriend the townsfolk, and **romance and marriage are part of the release build** — the same official description says you can "even marry one!" [Official]. Community guides document heart progression and a proposal system [Community]. Home and character customization are confirmed, but their depth is still being documented.
 
 ## How the Systems Feed Each Other
 
@@ -115,8 +115,8 @@ These are not yet confirmed:
 
 - **Old God alignment** — a progression layer mentioned in coverage [Unconfirmed]
 - **Calendar-based events** — seasonal/festival events [Unconfirmed]
-- **Full town scope** — the full game is expected to be ~3x the demo town [Unconfirmed]
-- **Romance implementation** — planned, not yet implemented [Unconfirmed]
+- **Full town scope** — the full game is reported to be ~3x the demo town [Unconfirmed]
+- **Heart thresholds and romance roster** — community-documented, not officially published [Unconfirmed]
 
 These remain to be verified and documented in the live release.
 
@@ -127,4 +127,4 @@ These remain to be verified and documented in the live release.
 - **Last checked:** 2026-10-23
 - **Game version:** released (launched 9/10/2026)
 - **Sources checked:** Steam store page (App 3195440), Steam demo page, Steam Community discussion reports, TechTimes / ScreenRant / Game8 coverage
-- **Note:** The daily loop, farming, combat (turn-based AP), rest tradeoffs, probabilistic interactions, and mysteries are confirmed from official descriptions and demo reports. Deeper systems are marked [Unconfirmed].
+- **Note:** The daily loop, farming, combat (turn-based AP), rest tradeoffs, probabilistic interactions, mysteries, and romance/marriage are confirmed from official descriptions. Deeper systems and exact romance thresholds are marked [Unconfirmed].

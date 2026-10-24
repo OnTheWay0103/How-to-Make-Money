@@ -10,18 +10,18 @@ const FEATURED_GUIDES = [
   {
     title: 'Release Date, Price and Platforms — Everything Confirmed',
     description:
-      'Silver Pines releases October 8, 2026 on PC, PS5, Xbox Series X|S, Switch and Switch 2. The price had not been announced as of September 16, 2026 — everything that is actually confirmed, and everything that is not.',
+      'Silver Pines was released on October 8, 2026 for PC via Steam at $24.99 USD, with console versions also announced. Everything that is officially confirmed, and everything that is not.',
     slug: 'silver-pines-release-date-price-platforms',
     category: 'Release Info',
-    updated: '2026-09-16',
+    updated: '2026-10-24',
   },
   {
     title: 'Demo Guide — What the Free Steam Demo Contains',
     description:
-      'A free Silver Pines demo has been on Steam since June 1, 2026 and sits at 95.9% Overwhelmingly Positive. What the demo covers, roughly how long it runs, and what it teaches you before October 8.',
+      'A free Silver Pines demo has been on Steam since June 1, 2026; it held 802 reviews at 95.9% positive as of 2026-09-16. What the demo covers, how long it runs, and how it differs from the released full game.',
     slug: 'silver-pines-demo-guide',
     category: 'Demo',
-    updated: '2026-09-16',
+    updated: '2026-10-24',
   },
   {
     title: 'How Saving Works — Phone Booths and Save Coins',
@@ -45,22 +45,22 @@ const FAQ_ITEMS = [
   {
     question: 'What is Silver Pines?',
     answer:
-      'Silver Pines is a survival horror metroidvania developed by Wych Elm and published by Team17. You play private investigator Red Walker, who arrives in a half-abandoned American town to track down a missing musician named Eddie Velvet. It combines classic fixed-resource survival horror — scarce ammunition, a limited inventory, a save system that costs currency — with metroidvania structure: locked doors, new tools, backtracking and shortcuts. It releases on October 8, 2026.',
+      'Silver Pines is a survival horror metroidvania developed by Wych Elm and published by Team17. You play private investigator Red Walker, who arrives in a half-abandoned American town to track down a missing musician named Eddie Velvet. It combines classic fixed-resource survival horror — scarce ammunition, a limited inventory, a save system that costs currency — with metroidvania structure: locked doors, new tools, backtracking and shortcuts. It was released on October 8, 2026 and costs $24.99 on Steam.',
   },
   {
     question: 'Is Silver Pines out yet?',
     answer:
-      'No. Silver Pines releases on October 8, 2026 — that is the date on the official Steam store page (App ID 2333000), and Steam lists the game as coming soon. The release is 22 days away as of September 16, 2026.',
+      'Yes. Silver Pines was released on October 8, 2026 — that is the date on the official Steam store page (App ID 2333000), and Steam now lists the game as released. It is a full release, not an Early Access launch.',
   },
   {
     question: 'Is there a Silver Pines demo?',
     answer:
-      'Yes, and it is the best reason to be interested in the game. A free standalone Silver Pines Demo (App ID 4540100) has been on Steam since June 1, 2026. As of September 16, 2026 it holds 802 user reviews at 95.9% — an Overwhelmingly Positive rating, which is the strongest demand signal available for a game that has not launched yet.',
+      'Yes, and it remains a useful free trial alongside the full game. A free standalone Silver Pines Demo (App ID 4540100) has been on Steam since June 1, 2026. As of September 16, 2026 it held 802 user reviews at 95.9% positive — demo data, not the full game’s score. The released full game has its own summary: 1,735 reviews at 97% positive as of October 24, 2026.',
   },
   {
-    question: 'How much will Silver Pines cost?',
+    question: 'How much does Silver Pines cost?',
     answer:
-      'The price had not been announced as of September 16, 2026 [Unconfirmed]. Steam’s store data for Silver Pines contains no price information at all, which is normal for a game that is still a few weeks from launch. We will not guess at a number — this answer gets updated the moment a price appears.',
+      '$24.99 USD on Steam, with no discount applied as of October 24, 2026. Regional prices can differ, so check your own store region. The free demo remains available if you want to try before buying.',
   },
   {
     question: 'What platforms is Silver Pines on?',
@@ -70,7 +70,7 @@ const FAQ_ITEMS = [
   {
     question: 'Is Silver Pines on Game Pass?',
     answer:
-      'No Game Pass release has been announced as of September 16, 2026 [Unconfirmed]. Silver Pines is a paid release published by Team17, and no subscription service has been confirmed.',
+      'No Game Pass release has been announced as of October 24, 2026 [Unconfirmed]. Silver Pines is a paid release published by Team17, and no subscription service has been confirmed.',
   },
   {
     question: 'Is Silver Pines multiplayer or co-op?',
@@ -105,7 +105,7 @@ const FAQ_ITEMS = [
   {
     question: 'Is Silver Pines Steam Deck verified?',
     answer:
-      'Not as of September 16, 2026 [Unconfirmed] — no Steam Deck compatibility rating had been published. Note that the game has full controller support on Steam and supports DualShock and DualSense controllers, so a controller-first layout is clearly intended. Check the store page for a Deck rating closer to launch.',
+      'No Steam Deck compatibility rating is shown on the store page as of October 24, 2026 [Unconfirmed]. Note that the game has full controller support on Steam and supports DualShock and DualSense controllers, so a controller-first layout is clearly intended.',
   },
   {
     question: 'Is Silver Pines scary? How violent is it?',
@@ -125,7 +125,7 @@ const FAQ_ITEMS = [
   {
     question: 'Is this site official?',
     answer:
-      'No. Silver Pines Wiki is an unofficial fan-made resource. All trademarks and game content belong to their respective owners. Because the game has not launched yet, anything not documented by an official source is marked [Unconfirmed] rather than guessed at.',
+      'No. Silver Pines Wiki is an unofficial fan-made resource. All trademarks and game content belong to their respective owners. Anything not documented by an official source is marked [Unconfirmed] rather than guessed at.',
   },
 ];
 
@@ -145,18 +145,18 @@ export default function Home() {
           coins.
         </p>
         <p className="text-sm text-gray-600 mb-8">
-          Releasing October 8, 2026 — PC, PS5, Xbox Series X|S, Switch &amp; Switch 2. Free demo out now.
+          Out now — released October 8, 2026. PC via Steam, $24.99. PS5, Xbox Series X|S, Switch &amp; Switch 2 versions also announced. Free demo available.
         </p>
         <div className="flex items-center justify-center gap-4 flex-wrap">
           <a href={STEAM_URL} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-teal-700 hover:bg-teal-600 text-white font-semibold px-6 py-3 rounded-lg transition-colors text-sm">
-            Wishlist on Steam
+            Buy on Steam — $24.99
           </a>
           <a href={DEMO_URL} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 border border-gray-600 hover:border-teal-500 text-gray-300 hover:text-teal-400 px-6 py-3 rounded-lg transition-colors text-sm">
             Play the Free Demo
           </a>
         </div>
         <p className="text-xs text-gray-600 mt-6">
-          Demo: 802 Steam reviews · 95.9% Overwhelmingly Positive (2026-09-16)
+          Full game: 1,735 Steam reviews · 97% Overwhelmingly Positive (2026-10-24) · Demo: 802 reviews · 95.9% (2026-09-16)
         </p>
       </section>
 

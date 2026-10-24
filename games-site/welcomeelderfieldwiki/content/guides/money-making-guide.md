@@ -1,9 +1,9 @@
 ---
 title: 'Welcome to Elderfield How to Make Money — Income & Economy Guide'
-description: 'The best ways to make money in Welcome to Elderfield — crops, fishing, mining, foraging, and cooking, plus how income feeds progression. A pre-release economy overview based on confirmed systems and the demo.'
+description: 'The best ways to make money in Welcome to Elderfield — crops, fishing, mining, foraging, and cooking, plus how income feeds progression. A post-launch economy overview based on confirmed systems and the demo.'
 category: 'Economy'
 version: '1.0'
-updated: '2026-08-30'
+updated: '2026-10-24'
 keywords:
   - welcome to elderfield money
   - welcome to elderfield how to make money
@@ -28,7 +28,7 @@ sources:
 
 # Welcome to Elderfield How to Make Money
 
-Every farming life-sim has an income loop, and Elderfield's is built on the systems the developer confirms on the store page: **farm, mine, forage, fish, cook**. Exact prices are not published (the game launches September 10, 2026), so this guide ranks the *income sources* by their confirmed reliability rather than by numbers.
+Every farming life-sim has an income loop, and Elderfield's is built on the systems the developer confirms on the store page: **farm, mine, forage, fish, cook**. Exact sell prices are not published, so this guide ranks the *income sources* by their confirmed reliability rather than by numbers.
 
 ## Your Income Sources
 
@@ -83,7 +83,7 @@ For a smooth start, prioritize in this order:
 5. **Mining/Foraging** — material income with fight risk.
 6. **Mall runs** — occasional loot spikes.
 
-This is a pre-release ranking based on confirmed systems and genre norms; exact profitability will be updated after launch.
+This is a ranking based on confirmed systems and genre norms; exact profitability will be updated as verified data appears.
 
 ## What Money Is For
 
@@ -94,7 +94,7 @@ Money feeds the progression systems [Official/Editorial]:
 - **Equipment and combat items** — your turn-based combat kit (see the [Combat Guide](/guides/combat-guide)).
 - **Relationship gifts** — friendship systems typically cost money to progress.
 
-## An Early-Game Money Plan (Demo-Tested)
+## An Early-Game Money Plan (Demo-Based)
 
 A concrete, low-risk plan you can follow in the demo right now [Editorial]:
 
@@ -127,7 +127,7 @@ In a game where rest and combat consume items, a bare-metal "sell everything" st
 
 ## Verification
 
-- **Last checked:** 2026-08-30
-- **Game version:** pre-release (launches 9/10/2026)
+- **Last checked:** 2026-10-24
+- **Game version:** released September 10, 2026
 - **Sources checked:** Steam store page (App 3195440), Steam demo page, Steam Community discussion reports
-- **Note:** Income sources are confirmed systems. Exact prices, sell values, and profitability rankings are [Unconfirmed] until launch.
+- **Note:** Income sources are confirmed systems. Exact prices, sell values, and profitability rankings are [Unconfirmed].

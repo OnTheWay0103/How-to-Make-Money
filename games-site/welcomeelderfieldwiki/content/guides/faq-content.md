@@ -3,7 +3,7 @@ title: 'Welcome to Elderfield FAQ — Release, Demo, Platforms & Gameplay Answer
 description: 'Quick answers to the most-asked Welcome to Elderfield questions — release date, price, demo, platforms, difficulty modes, romance status, combat, and system requirements, with sources and [Unconfirmed] markers where needed.'
 category: 'FAQ'
 version: '1.0'
-updated: '2026-09-02'
+updated: '2026-10-24'
 keywords:
   - welcome to elderfield faq
   - welcome to elderfield questions
@@ -20,9 +20,9 @@ related:
   - npcs-romance-guide
 sources:
   - tier: "Official"
-    text: "Steam store page (App 3195440), Steam demo page (App 3195680), developer replies in Steam Community discussions"
+    text: "Steam store page (App 3195440) checked 2026-10-24 — released September 10 2026, $17.99 USD, Windows/PC, single-player, full controller support, Steam Cloud, soundtrack DLC $4.99; Steam demo page (App 3195680)"
   - tier: "Community"
-    text: "Steam Community discussion reports of demo content (fishing rod route, mystery locations)"
+    text: "Steam Community discussion reports of demo content (fishing rod route, mystery locations); post-launch romance/marriage guides (TposeGaming, 2026-09-12)"
   - tier: "Editorial"
     text: "Answers are compiled from the official sources above; anything unconfirmed is marked [Unconfirmed]"
 ---
@@ -33,21 +33,21 @@ sources:
 
 Welcome to Elderfield is a **cosy horror RPG** developed by solo developer **Chris Cote** and published by **Kwalee**. It blends farming and life-sim gameplay with Lovecraftian turn-based combat, hand-drawn horror-manga art, a dark lofi soundtrack by **Dated**, and daily mystery investigation in the isolated town of Elderfield.
 
-## When is the release date?
+## When was the release date?
 
-**September 10, 2026**, on Steam for PC. The date was confirmed via an official release-date trailer on August 5, 2026.
+Welcome to Elderfield was released on **September 10, 2026** on Steam for PC. It launched as a full release, not in Early Access, and is available now.
 
 ## How much does it cost?
 
-The official price **has not been announced** as of August 30, 2026 [Unconfirmed]. The **demo is free** on Steam. Third-party key retailers list regional ballpark estimates (~€18 / ~$21), but those are not official [Unconfirmed].
+**$17.99 USD** for the base game on Steam (checked October 24, 2026). The **demo is free**. Steam also lists a **$4.99 soundtrack DLC**; there is no Deluxe or Ultimate edition on the store page as of October 24, 2026. Regional prices follow Steam's standard regional pricing and may change during sales.
 
 ## Is there a demo?
 
-Yes — free on Steam (App ID **3195680**), first released **October 7, 2024**. It is a vertical slice of roughly **1/6** of the planned game: one town area, the farm and ranch, the first dungeon (a local mall), the sewer/lake area, and several smaller locations. It holds ~95% positive across ~600 reviews.
+Yes — free on Steam (App ID **3195680**), first released **October 7, 2024**. It is a vertical slice of roughly **1/6** of the full game: one town area, the farm and ranch, the first dungeon (a local mall), the sewer/lake area, and several smaller locations. It holds ~95% positive across ~600 reviews.
 
 ## What platforms is it on?
 
-**PC via Steam, Windows only, single-player.** No Mac, Linux, or console versions have been announced as of August 30, 2026.
+**PC via Steam, Windows only, single-player.** The store page lists **full controller support** and **Steam Cloud** as of October 24, 2026. No Mac, Linux, or console versions are listed.
 
 ## Is Welcome to Elderfield multiplayer?
 
@@ -59,7 +59,7 @@ The Steam store description confirms two modes: **Cozy Mode** (a relaxed farming
 
 ## Is there romance and marriage?
 
-Romance is **planned but not yet implemented**. Developer Chris Cote said in a Steam Community discussion that it "still needs to be implemented," with plans to let players reach the end of a relationship with any character and choose a **romantic (spouse)** or **platonic (roommate)** outcome [Unconfirmed]. Treat romance as a future feature.
+**Yes.** Romance and marriage are part of the release build. The official Steam description says you can "befriend the odd townsfolk (or even marry one!)" and lists relationships as part of the "full RPG life sim" [Official]. Community guides for the launch build document romanceable townsfolk and a proposal/marriage system [Community]. The developer's earlier plan to offer a **romantic (spouse) or platonic (roommate)** outcome has not been re-confirmed for the release build [Unconfirmed].
 
 ## What kind of combat does it have?
 
@@ -79,7 +79,7 @@ Minimum: **Windows 10 64-bit**, 11th Gen Intel Core i5-11600K or AMD Ryzen 5 560
 
 ## How long is the game?
 
-No official playtime estimate has been published [Unconfirmed]. The demo takes roughly 2–4 hours for a thorough playthrough (community reports). The full release is expected to be about 3x the demo town size with at least two more dungeon areas [Unconfirmed].
+No official playtime estimate has been published [Unconfirmed]. The demo takes roughly 2–4 hours for a thorough playthrough (community reports). The full release is reported to be about 3x the demo town size with at least two more dungeon areas [Unconfirmed].
 
 ## Who made it?
 
@@ -91,19 +91,19 @@ Yes — a community wiki exists at **welcometoelderfield.wiki.gg**, but it is st
 
 ## Why do some answers say [Unconfirmed]?
 
-The full game launches September 10, 2026, and is not yet released. Anything not confirmed by the official Steam page, the developer, or consistent community demo reports is marked **[Unconfirmed]** and will be verified after launch. We do not guess.
+The game is out now, but not every system has been documented officially. Anything not confirmed by the official Steam page, the developer, or consistent community reports is marked **[Unconfirmed]** and will be updated as verifiable information appears. We do not guess.
 
 ## Is Welcome to Elderfield in Early Access?
 
-**No.** It is a planned **full 1.0 release** on September 10, 2026, not an Early Access title [Official]. The free demo is a separate pre-release slice.
+**No.** It launched as a **full release** on September 10, 2026, not as an Early Access title [Official]. The free demo is a separate slice of the game.
 
 ## Does it support controllers?
 
-The Steam page does not list controller support as of August 30, 2026 [Unconfirmed]. The game runs on the RPG Maker engine, which commonly supports gamepad input, but that is not confirmed — check the Steam page for a controller-support tag near launch.
+**Yes.** The Steam store page lists **full controller support**, including DualShock and DualSense support, as of October 24, 2026 [Official].
 
 ## Is there cloud saves?
 
-Not confirmed. Steam Cloud support is not listed for the full game as of August 30, 2026 [Unconfirmed].
+**Yes.** The Steam store page lists **Steam Cloud** support as of October 24, 2026 [Official].
 
 ## What engine is it built on?
 
@@ -117,7 +117,7 @@ The official Steam page (App 3195440) is the developer's primary channel for ann
 
 ## Verification
 
-- **Last checked:** 2026-08-30
-- **Game version:** pre-release (launches 9/10/2026)
-- **Sources checked:** Steam store page (App 3195440), Steam demo page (App 3195680), Steam Community developer replies, Steam reviews, TechTimes / ScreenRant / Game8 coverage
-- **Note:** Facts confirmed by official sources are stated as confirmed. Price, romance implementation, game length, and full-game scope are [Unconfirmed].
+- **Last checked:** 2026-10-24
+- **Game version:** released September 10, 2026
+- **Sources checked:** Steam store page (App 3195440) appdetails API, Steam demo page (App 3195680), Steam Community reports, post-launch romance guides (TposeGaming, 2026-09-12)
+- **Note:** Release date, price ($17.99 USD), platforms, controller support and Steam Cloud are confirmed from the Steam store page. Game length, full-game scope, and the reported roommate/spouse split remain [Unconfirmed].

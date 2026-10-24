@@ -3,7 +3,7 @@ title: 'Dressmaker Sketchbook and Dress Parts Guide — Bodice, Collar, Sleeves,
 description: 'How the Dressmaker sketchbook works, what the four garment parts do, and how to plan a dress part by part before you spend a single coin on fabric. Part names come from preview coverage and are marked as such.'
 category: 'Systems'
 version: '1.0'
-updated: '2026-09-12'
+updated: '2026-10-24'
 keywords:
   - dressmaker sketchbook
   - dressmaker dress parts
@@ -20,7 +20,7 @@ related:
   - dressmaker-beginner-guide
 ---
 
-**Dressmaker is a cozy dressmaking simulation developed by Cozy Lives and published by Free Lives, releasing on Steam on September 21, 2026 for Windows and macOS.** The sketchbook is where a dress exists before it costs you anything — and it is the only step in the loop where changing your mind is free.
+**Dressmaker is a cozy dressmaking simulation developed by Cozy Lives and published by Free Lives, released on Steam on September 21, 2026 for Windows and macOS at $14.99.** The sketchbook is where a dress exists before it costs you anything — and it is the only step in the loop where changing your mind is free.
 
 This guide covers what the sketchbook officially does, how a garment breaks down into parts, and how to plan a design part by part instead of all at once.
 
@@ -64,7 +64,7 @@ The practical consequence: **do not buy fabric until the design is settled.** A 
 
 ## The Parts of a Dress
 
-Pre-release coverage has described Dressmaker garments as being built from **four parts — bodice, collar, sleeves and skirt** [**preview-sourced — [Unconfirmed]** for the September 21 release].
+Preview coverage has described Dressmaker garments as being built from **four parts — bodice, collar, sleeves and skirt** [**preview-sourced — [Unconfirmed]** post-release].
 
 Those four terms are real dressmaking vocabulary, and treating them as the game's part structure is the safest assumption available. What each one does:
 

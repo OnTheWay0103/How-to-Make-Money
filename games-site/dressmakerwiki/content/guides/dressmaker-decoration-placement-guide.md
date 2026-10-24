@@ -3,7 +3,7 @@ title: 'Dressmaker Decoration Guide — Buttons, Bows, Appliqué and Lace Placem
 description: 'Where to place buttons, bows, appliqué and lace trims in Dressmaker, how decoration interacts with customer taste, and fixes for the decoration placement problem prototype players have reported. Unverified details are marked.'
 category: 'Systems'
 version: '1.0'
-updated: '2026-09-12'
+updated: '2026-10-24'
 keywords:
   - dressmaker decoration guide
   - dressmaker buttons bows applique
@@ -20,7 +20,7 @@ related:
   - dressmaker-beginner-guide
 ---
 
-**Dressmaker is a cozy dressmaking simulation developed by Cozy Lives and published by Free Lives, releasing on Steam on September 21, 2026 for Windows and macOS.** Decoration is the last thing you do to a dress and the first thing anyone notices about it. It is also where the game's most frequently reported friction point lives — so this page covers both the creative side and the known rough edge.
+**Dressmaker is a cozy dressmaking simulation developed by Cozy Lives and published by Free Lives, released on Steam on September 21, 2026 for Windows and macOS at $14.99.** Decoration is the last thing you do to a dress and the first thing anyone notices about it. It is also where the game's most frequently reported friction point lives — so this page covers both the creative side and the known rough edge.
 
 ---
 
@@ -162,4 +162,4 @@ Match the customer's taste and the event. The official description frames custom
 
 ---
 
-*Sources: the official Steam store description and store data for App ID 4019220, plus preview coverage and itch.io prototype player reports, labelled inline and marked [Unconfirmed] where they describe the unreleased build. Placement conventions are real-world dressmaking practice, not published game rules. This is an unofficial fan resource and is not affiliated with Cozy Lives or Free Lives.*
+*Sources: the official Steam store description and store data for App ID 4019220, checked October 24, 2026, plus preview coverage and itch.io prototype player reports, labelled inline and marked [Unconfirmed] where they describe the pre-launch build. Placement conventions are real-world dressmaking practice, not published game rules. This is an unofficial fan resource and is not affiliated with Cozy Lives or Free Lives.*

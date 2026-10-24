@@ -1,9 +1,9 @@
 ---
 title: 'Silver Pines Demo Guide — What the Free Steam Demo Contains'
-description: 'A free Silver Pines demo has been on Steam since June 1, 2026 and holds 95.9% Overwhelmingly Positive across 802 reviews. What the demo covers, how long it runs, what it teaches you, and what is missing from it.'
+description: 'A free Silver Pines demo has been on Steam since June 1, 2026; as of 2026-09-16 it held 802 reviews at 95.9% positive. What the demo covers, how long it runs, what it teaches you, and how it differs from the now-released full game.'
 category: 'Demo'
 version: '1.0'
-updated: '2026-09-16'
+updated: '2026-10-24'
 keywords:
   - silver pines demo
   - silver pines demo walkthrough
@@ -23,9 +23,9 @@ related:
   - silver-pines-melee-weapons-durability-repair
 ---
 
-**There is a free, standalone Silver Pines demo on Steam — App ID 4540100 — and it has been live since June 1, 2026.** It is not a pre-order bonus and not a time-limited trial: it is a normal free download that will keep working after the full game launches on October 8, 2026.
+**There is a free, standalone Silver Pines demo on Steam — App ID 4540100 — and it has been live since June 1, 2026.** It is not a pre-order bonus and not a time-limited trial: it is a normal free download that has kept working since the full game was released on October 8, 2026.
 
-It is also the best evidence anyone has that this game is worth your attention.
+It is also the best zero-cost way to decide whether this game is worth your attention.
 
 ---
 
@@ -43,9 +43,9 @@ It is also the best evidence anyone has that this game is worth your attention.
 | Languages | English only | Steam store data |
 | Content descriptor | General mature — "violence, gore, blood, alcohol reference and bad language throughout" | Steam content descriptors |
 
-For context: a game that has not launched yet showing **802 reviews at 95.9%** on its demo is a genuinely strong signal. Reviews on a free demo are harder to accumulate than reviews on a paid game, because there is no purchase to anchor them.
+For context: the demo drew **802 reviews at 95.9%** before the full game was released, which was a genuinely strong signal at the time. Reviews on a free demo are harder to accumulate than reviews on a paid game, because there is no purchase to anchor them.
 
-⚠️ **One number you should ignore:** the main game itself has **0 reviews**, because it has not been released. Any site quoting a review score for "Silver Pines" as a whole is quoting the demo and not saying so.
+⚠️ **Keep the two review sets separate.** The 802-review / 95.9% figure is **demo data as of September 16, 2026**, not a score for the full game. The full game was released on October 8, 2026 and now has its own Steam reviews: as of **October 24, 2026** the store page shows **Overwhelmingly Positive** from **1,735 user reviews at 97% positive**. Do not apply the demo percentage to the full release.
 
 ---
 
@@ -67,7 +67,7 @@ Roughly, the demo is **about an hour and a half for a first playthrough** [Commu
 
 ## The Five Systems the Demo Teaches You
 
-This is what the demo is actually for. If you play it before October 8, these are the things it drills into you — and they are all things the store page does not explain.
+This is what the demo is actually for. Whether you play it before buying the full game or after, these are the things it drills into you — and they are all things the store page does not explain.
 
 ### 1. Saving costs you something
 
@@ -95,7 +95,7 @@ Dodging and melee swings draw on a **short stamina bar**; running does not touch
 
 The demo is a slice, and it is worth knowing what is missing before you judge the whole game on it:
 
-- **The full complement of weapons.** Demo players report a **pistol**, a **shotgun** and a **cutter** (utility knife) [Community-reported, no official weapon list exists]. The final game will presumably have more, but that is an assumption, not a confirmed fact **[Unconfirmed]**
+- **The full complement of weapons.** Demo players report a **pistol**, a **shotgun** and a **cutter** (utility knife) [Community-reported, no official weapon list exists]. The released game may include more, but no official weapon list has been published, so the full set remains **[Unconfirmed]**
 - **The complete map and the later tool gates.** The metroidvania structure only really pays off over a full game; a prologue slice can only show you the first locked doors
 - **The endings.** Multiple endings are confirmed (Game8 developer interview), but all of them are in the full game
 - **Mementos at scale.** Collectible ability buffs exist [Community-reported]; the demo shows the concept rather than the full set
@@ -136,7 +136,7 @@ Yes. App ID 4540100, free on Steam since June 1, 2026.
 Roughly 1.5 hours for a first playthrough [Community-reported].
 
 **How many reviews does the demo have?**
-802 as of September 16, 2026, at 95.9% positive — Overwhelmingly Positive.
+802 as of September 16, 2026, at 95.9% positive — Overwhelmingly Positive. That is demo-only data; the released full game has its own, separate review summary (1,735 reviews at 97% positive as of October 24, 2026).
 
 **Is there a console demo?**
 No. The demo is Windows-only.
@@ -157,11 +157,11 @@ It is a prologue slice, so it establishes the story setup. The multiple endings 
 
 ## Related Guides
 
-- [Release Date, Price and Platforms](/guides/silver-pines-release-date-price-platforms) — everything confirmed before October 8
+- [Release Date, Price and Platforms](/guides/silver-pines-release-date-price-platforms) — release date, current price and platforms
 - [Beginner Guide — 12 Rules Before You Start](/guides/silver-pines-beginner-guide) — the demo taught these; here they are written down
 - [How Saving Works — Phone Booths and Save Coins](/guides/silver-pines-save-system-phone-booths) — the mechanic the demo is really about
 - [Melee Weapons, Durability and Tape Repairs](/guides/silver-pines-melee-weapons-durability-repair) — why your cutter keeps breaking
 
 ---
 
-*Sources: Steam store data and Steam appreviews API for demo App ID 4540100, checked September 16, 2026; Steam store data for main game App ID 2333000; Game8 developer interview; demo player reports and preview coverage (labelled Community-reported throughout). Location names, puzzle specifics, weapon lists and item prices remain [Unconfirmed]. This is an unofficial fan resource and is not affiliated with Wych Elm or Team17.*
+*Sources: Steam store data and Steam appreviews API for demo App ID 4540100, checked September 16, 2026; Steam store page for main game App ID 2333000, checked October 24, 2026 (release status, price, full-game review summary); Game8 developer interview; demo player reports and preview coverage (labelled Community-reported throughout). Location names, puzzle specifics, weapon lists and item prices remain [Unconfirmed]. This is an unofficial fan resource and is not affiliated with Wych Elm or Team17.*
