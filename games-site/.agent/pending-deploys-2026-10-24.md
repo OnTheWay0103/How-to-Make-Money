@@ -3,12 +3,13 @@
 > 2026-10-24 08:30 额度重置后已补部署 6 站，并逐站内容级复验（HTTP 200 + 目标标记命中）：
 > nivalisnightswiki / waterparksimulatorwiki / silverpineswiki / aincradwiki / witchspirewiki / minegeonwiki。
 >
-> 剩余 2 站的修正将随 **2026-10-24 每日扩充** 的同一批部署一起上线（无需单独部署）。
+> 剩余 2 站的修正已随 **2026-10-24 每日扩充** 的 8 站部署批次一并上线，内容级复验 PASS。
+> 本文件待部署队列 **已清空**。
 
 | 站点 | 文件 | 修正内容 | 状态 |
 |------|------|----------|------|
-| sephiriawiki | `content/guides/sephiria-achievements-guide.md` | 1.0.33 版本号加 `[Unconfirmed]` 说明 | 待随今日扩充部署 |
-| spiritvalewiki | `content/guides/pvp-conquest-guide.md` | 0.34.1/0.34.2 细项加 `[Unconfirmed]` 说明 | 待随今日扩充部署 |
+| sephiriawiki | `content/guides/sephiria-achievements-guide.md` | 1.0.33 版本号加 `[Unconfirmed]` 说明 | ✅ 已随今日扩充部署并复验（"exact build number as" ×2） |
+| spiritvalewiki | `content/guides/pvp-conquest-guide.md` | 0.34.1/0.34.2 细项加 `[Unconfirmed]` 说明 | ✅ 已随今日扩充部署并复验（"revised in 0.34.2" ×2） |
 
 ## 已完成的补部署验证（2026-10-24）
 

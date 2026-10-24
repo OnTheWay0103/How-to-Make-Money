@@ -7,20 +7,20 @@
     {
       "site": "sephiriawiki",
       "pv": 11110,
-      "lastExpanded": "2026-10-23",
-      "lastProduced": "sephiria-achievements-guide (1,131w)"
+      "lastExpanded": "2026-10-24",
+      "lastProduced": "stuck-soft-lock-recovery-guide (1,481w)"
     },
     {
       "site": "themoundwiki",
       "pv": 4916,
-      "lastExpanded": "2026-10-23",
-      "lastProduced": "temple-of-yig-dlc-guide (1,481w)"
+      "lastExpanded": "2026-10-24",
+      "lastProduced": "tulu-cylinders-unlock-the-mound (1,332w)"
     },
     {
       "site": "spiritvalewiki",
       "pv": 4904,
-      "lastExpanded": "2026-10-23",
-      "lastProduced": "pvp-conquest-guide (1,500w)"
+      "lastExpanded": "2026-10-24",
+      "lastProduced": "advanced-artifacts-grimoires-guide (1,442w, 官方系统驱动；反馈驱动部分见 skips)"
     },
     {
       "site": "tearsofmetalwiki",
@@ -31,8 +31,8 @@
     {
       "site": "grainrotwiki",
       "pv": 1101,
-      "lastExpanded": "2026-10-23",
-      "lastProduced": "grainrot-expedition-mode-guide (1,498w)"
+      "lastExpanded": "2026-10-24",
+      "lastProduced": "legendary-gumball-constructs-guide (1,481w)"
     }
   ],
   "skips": [
@@ -150,6 +150,11 @@
       "site": "tearsofmetalwiki",
       "date": "2026-09-11",
       "reason": "SKIP（无 v0.15+/9 月补丁作事实锚点），但完成 P0 校准并追加一处新发现的 🔴 级事实修正（7 文件，已部署）。①触发复检：thegameswiki 版本史仍止于 v0.14.58630（8/14），Steam 公告最新仍 8/14，vgspoilers 无 9 月条目，9 月媒体定向检索 0 条，Reddit 仍 AUTH_REQUIRED → 无新补丁可写。②P0-1 补丁滞后：patch-notes.md 补齐 v0.11.57874.1（8/9）/ v0.12.58540（8/13）/ v0.14.58630（8/14），并扩为完整版本表 v0.8→v0.14.58630（7 行）；每行 Official（Steam 公告版本号+日期+标题）+ ≥1 独立来源（thegameswiki/vgspoilers/ingamenews）双确认；未编造任何 changelog，并明写『公开渠道无 v0.13』与 'build identifiers, not a release counter'。③P0-2 路线图：新增三阶段 EA 路线图章节，置顶 'This is a plan, not shipped content.' + 'None of Phase 2 or Phase 3 is in the live build as of September 11, 2026' + 无日期/无版本号/无 ETA；Plague Doctor 明确『无解锁条件、无机制、无技能、无日期』且非游戏内两个未解锁黑影之一，未编造 kit；三层 sources（Official/Community/Editorial）齐备。④P0-3 追加发现（超出任务枚举，如实上报）：站内 6 文件原写『Steam PC-only / there is no crossplay / Game Pass 版本未上线』= 错误。实际 7/22 EA 首发即同时上 Steam + Microsoft Store + PC Game Pass 且 Steam ↔ Microsoft Store 支持 crossplay（≥5 独立来源：Paper Cult 新闻稿 + purexbox + gameblog.fr + spaziogames + gamebrief + thegameswiki）；真正未发布的是 Xbox Series X|S 主机版（2026 稍后）。已按最小改动修正 7 文件（patch-notes / multiplayer-connection-fix-guide / steam-deck-guide / achievements-guide / app/page.tsx / app/faq/page.tsx），线上 5 页陈旧断言 grep = 0。⑤词数：patch-notes 1,994 → 3,623 词，属 hub/tracker 参考页且增量全为任务指定，QA 判非 FAIL，已记录可后续拆出 /guides/roadmap。⑥遗留待核：app/page.tsx 与 app/faq/page.tsx 对『village upgrades 是否全队共享』互相矛盾（无可靠来源裁决，未动）；base-camp-guide.md 为孤儿页（早于本轮存在）；同时在线峰值站内用 SteamCharts 6,239 而 VaporLens 记 6,258（不同追踪器口径，未改）。下次触发：官方 v0.15+ 或 9 月补丁被 ≥2 独立来源索引 → 写机制变更指南；或 ≥3 独立来源且未被 32 篇覆盖的新玩家问题。详见 keyword-results/tearsofmetalwiki-expand-9-11.md + .agent/qa-expand-tearsofmetal-9-11.md。"
+    },
+    {
+      "site": "spiritvalewiki",
+      "date": "2026-10-24",
+      "reason": "本日无满足条件的反馈驱动选题（按规则记为 SKIP，次日优先补跑）。采集面：Steam 讨论区 3 条高热串（拍卖行/背包/装备升级后批量卡死、死亡检查回档 70→35、新手无引导）全部已被 connection-server-guide / beginner-guide 覆盖；Steam 评测 API 302、Reddit 403/429，无法凑到 Profile 要求的 ≥20 条有效样本。当日实际产出 advanced-artifacts-grimoires-guide 属**官方系统清单驱动**（0.32.0 Advanced Artifacts & Grimoires 上线、站内 0 覆盖，且 artifact-sets-guide 仍写「未上线」属事实错误），不计入反馈驱动扩充，故本站仍需次日补一篇真正反馈驱动的文章。"
     }
   ],
   "runGaps": [
@@ -173,10 +178,10 @@
     }
   ],
   "lastRun": {
-    "date": "2026-10-23",
-    "produced": 43,
-    "skipped": 0,
-    "note": "全站补更：43 个站点各新增 1 篇（一次性 catch-up）；名单内 PV>1000 的 5 站已更新 lastExpanded。"
+    "date": "2026-10-24",
+    "produced": 4,
+    "skipped": 1,
+    "note": "名单内 5 站：sephiria / themound / grainrot 反馈驱动产出；spiritvale 仅官方系统驱动产出（反馈驱动记 SKIP，次日补）；tearsofmetal 以本轮最终结果为准。"
   },
   "catchUps": [
     {

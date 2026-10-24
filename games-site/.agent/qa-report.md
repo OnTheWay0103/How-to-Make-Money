@@ -1831,3 +1831,24 @@ Green Whale / Mystery Pet Box / Mount Box / 0.31.0 赞助者设计款）并加 `
 ## 现有站新词缺口
 
 `keyword-results/new-keywords-2026-10-23.md` 记录 3 个高 PV 站的 24 个缺口词，已并入下一轮扩充排期。
+
+---
+
+# 新词探索 — 2026-10-24
+
+> 完整报告：`keyword-results/discovery-2026-10-24.md`；候选池：`keyword-results/CANDIDATE-POOL.md`（#56–#60）
+> 关键词报告：`keyword-results/Loftia.md`（72 有效词）、`keyword-results/Chained-Beasts.md`（29 有效词）
+
+## Top 3 机会
+
+| # | 关键词簇 | 对应候选 | 评分 | 为什么现在写 | 窗口 |
+|---|----------|----------|------|--------------|------|
+| 1 | **stormforge release date / stormforge classes / stormforge co-op** | Stormforge | 17/20 | 100K+ wishlist、demo 35K 下载；EN/ZH/JA 三语**零组织化 wiki**；11/10 EA 前是建站黄金窗口 | 17 天 |
+| 2 | **dreadmoor release date / dreadmoor gameplay** | DREADMOOR | 17/20 | 10/23 报告 161 有效词、真零 wiki；11/9 EA，仅比 Stormforge 早一天 | 16 天 |
+| 3 | **loftia release date / is loftia free / how to join loftia beta** | Loftia | 16/20 | 72 有效词高度集中在发售/平台/价格/Beta；11/3 EA，预发布流量结构最清晰 | 10 天 |
+
+**排期建议**：10/25 优先建 Stormforge（评分最高、窗口最长）；DREADMOOR 同日或次日；
+Loftia 排在其后。Chained Beasts 已因名字污染重、需求偏小下调为观望。
+
+**本轮未建站的原因**：今日 5 站强制扩充 + 逾期 52 天的全量 deep QA 已占满预算；
+Stormforge 距 EA 仍有 17 天，推迟一天不损失窗口（评分 ≥15 的建站资格保留）。
