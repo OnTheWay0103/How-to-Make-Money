@@ -16,20 +16,20 @@
       "article": "resource-economy-guide",
       "issue": "旧文称手游符文孔不在 Steam 版，新文已证 Steam 有符文孔",
       "level": "P1",
-      "status": "待修",
+      "status": "关闭",
       "discovered": "2026-10-23",
-      "commit": null,
-      "verified": null
+      "commit": "a6b3b49",
+      "verified": "2026-10-24"
     },
     {
       "site": "themoundwiki",
       "article": "loadout-guide",
       "issue": "武器清单与首页互相矛盾：Medallion 被列为武器、缺 torch",
       "level": "P1",
-      "status": "待修",
+      "status": "关闭",
       "discovered": "2026-09-16",
-      "commit": null,
-      "verified": null
+      "commit": "ec76803",
+      "verified": "2026-10-24"
     },
     {
       "site": "themoundwiki",

@@ -192,7 +192,7 @@
 | 1 | 建 Base + T1 + T5；`scripts/feishu-report.mjs`；coordinator 收尾钩子 | ✅ 完成（2026-10-24） |
 | 2 | T2 + QA 写状态；部署日志 + 队列 | ✅ 完成（2026-10-24） |
 | 3 | 部署前 lint 接进 `deploy-wiki-site.sh`；T3 台账 | ✅ 完成（2026-10-24） |
-| 4 | D1 每日摘要 + 月度复盘；修 GA4 凭证让扩充名单按月重算 | 待开始 |
+| 4 | D1 每日摘要 + 月度复盘；修 GA4 凭证让扩充名单按月重算 | 🟡 D1 已上线（见第九节）；GA4 凭证待用户提供 |
 
 ### 已落地的自动化
 
@@ -219,6 +219,7 @@
 | 表「部署队列」 | `tbljqIjX9qOD8fVs` |
 | 表「QA 问题跟踪」 | `tblrHtlzD1KZhcdV` |
 | 表「站点台账」 | `tblTDpkA9odla8No` |
+| D1「交付日报 2026-10-24」 | https://jcn5oum2q1jh.feishu.cn/wiki/N3AOwfq6qi7NlYkw2k8cbbw3nec |
 
 **身份说明**：应用 `cli_aae2c52aa4b89d05` 的 bot 身份未申请 `base:*` / `wiki:*` scope
 （只有 sheets），所以当前所有 Base 操作走**同一应用的用户身份**（`--as user`，已授权账号 赵q）。
