@@ -110,7 +110,9 @@ echo "  新部署: $NEW_URL"
 # 3. 验证生产 alias 已指向新部署（而非只查首页 200——旧部署同样返回 200）
 sleep 5
 ALIAS_URL=$(vercel inspect "$PROJECT_NAME.vercel.app" 2>/dev/null | grep -o 'https://[a-z0-9-]*\.vercel\.app' | head -1 || true)
-HTTP=$(curl -s -o /dev/null -w "%{http_code}" -m 15 "https://$PROJECT_NAME.vercel.app/")
+# ⚠️ curl 必须兜底：set -e 下超时（exit 28）会直接中止脚本，部署其实已成功。
+#    2026-10-24 教训：aincrad / ardentwilds 因 alias 传播期 15s 超时被误报 fail 且漏写日志。
+HTTP=$(curl -s -o /dev/null -w "%{http_code}" -m 30 "https://$PROJECT_NAME.vercel.app/" || echo "000")
 echo "✅ 部署完成: https://$PROJECT_NAME.vercel.app/ (HTTP $HTTP, alias → ${ALIAS_URL:-未知})"
 if [[ -n "$ALIAS_URL" && "$ALIAS_URL" != "$NEW_URL" ]]; then
   echo "⚠️ 生产 alias 未指向本次新部署（新: $NEW_URL / alias: $ALIAS_URL）— 需人工确认"

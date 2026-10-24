@@ -1,1 +1,102 @@
-site_dir,domain,slot,format,placement_name,placement_id,status,code,notes
+站点目录,域名,广告位类型,广告格式,广告位名称,广告位ID,状态,广告代码,备注
+nivalisnightswiki,nivalisnightswiki.vercel.app,global,Social Bar,nivalis-global,,已接入,"<script data-cfasync=""false"" src=""https://bauval.org/14/5ae50bbc889b75a09700447dfc343cbe""></script>",已手工接入 layout.tsx，勿再自动注入
+nivalisnightswiki,nivalisnightswiki.vercel.app,guide,Native Banner,nivalis-native,,已接入,"<script async data-cfasync=""false"" src=""https://bauval.org/21/a5cfce17260d4208b83eeff59ec76e39""></script><div id=""container-a5cfce17260d4208b83eeff59ec76e39""></div>",已手工接入 GuideLayout.tsx 和首页，勿再自动注入
+sephiriawiki,sephiriawiki.vercel.app,global,Social Bar,sephiriawiki-global,,已上线,"<script data-cfasync=""false"" src=""https://bauval.org/14/7fe411fd2f88771a721160f40abca030""></script>",待人工：在 Adsterra 后台建站并创建广告位，粘贴代码后把状态改为 ready
+sephiriawiki,sephiriawiki.vercel.app,guide,Native Banner,sephiriawiki-guide,,已上线,"<script async=""async"" data-cfasync=""false"" src=""https://bauval.org/21/f56e98eb7da6ec53967fbae74f32994a""></script><div id=""container-f56e98eb7da6ec53967fbae74f32994a""></div>
+",待人工：在 Adsterra 后台建站并创建广告位，粘贴代码后把状态改为 ready
+waterparksimulatorwiki,waterparksimulatorwiki.vercel.app,global,Social Bar,waterparksimulatorwiki-global,,已上线,"<script data-cfasync=""false"" src=""https://bauval.org/14/2d2211e7a5c02ace58d10a8c30b1d257""></script>",待人工：在 Adsterra 后台建站并创建广告位，粘贴代码后把状态改为 ready
+waterparksimulatorwiki,waterparksimulatorwiki.vercel.app,guide,Native Banner,waterparksimulatorwiki-guide,,已上线,"<script async=""async"" data-cfasync=""false"" src=""https://bauval.org/21/f9800440962a3f957a6d19f8e6a5f2ea""></script>
+<div id=""container-f9800440962a3f957a6d19f8e6a5f2ea""></div>",待人工：在 Adsterra 后台建站并创建广告位，粘贴代码后把状态改为 ready
+shiftatmidnightwiki,shiftatmidnightwiki.vercel.app,global,Social Bar,shiftatmidnightwiki-global,,已上线,"<script data-cfasync=""false"" src=""https://bauval.org/14/b90efaf7549197fc5d15b61815bdf49b""></script>",待人工：在 Adsterra 后台建站并创建广告位，粘贴代码后把状态改为 ready
+shiftatmidnightwiki,shiftatmidnightwiki.vercel.app,guide,Native Banner,shiftatmidnightwiki-guide,,已上线,"<script async=""async"" data-cfasync=""false"" src=""https://bauval.org/21/b65f6a7ab0748041f49868e8975efb2c""></script>
+<div id=""container-b65f6a7ab0748041f49868e8975efb2c""></div>",待人工：在 Adsterra 后台建站并创建广告位，粘贴代码后把状态改为 ready
+moonlightpeakswiki,moonlightpeakswiki.vercel.app,global,Social Bar,moonlightpeakswiki-global,,已上线,"<script data-cfasync=""false"" src=""https://bauval.org/14/e59e7a213970cc9fbc536e0b2ca9e4ca""></script>",待人工：在 Adsterra 后台建站并创建广告位，粘贴代码后把状态改为 ready
+moonlightpeakswiki,moonlightpeakswiki.vercel.app,guide,Native Banner,moonlightpeakswiki-guide,,已上线,"<script async=""async"" data-cfasync=""false"" src=""https://bauval.org/21/1b9627fe4e368550501513814f222a67""></script>
+<div id=""container-1b9627fe4e368550501513814f222a67""></div>",待人工：在 Adsterra 后台建站并创建广告位，粘贴代码后把状态改为 ready
+themoundwiki,themoundwiki.vercel.app,global,Social Bar,themoundwiki-global,,已上线,"<script data-cfasync=""false"" src=""https://bauval.org/14/a0fc97d6286d91f18fa93afddd3a54ae""></script>",待人工：在 Adsterra 后台建站并创建广告位，粘贴代码后把状态改为 ready
+themoundwiki,themoundwiki.vercel.app,guide,Native Banner,themoundwiki-guide,,已上线,"<script async=""async"" data-cfasync=""false"" src=""https://bauval.org/21/1829126967766e2cc85ed1310be9801b""></script>
+<div id=""container-1829126967766e2cc85ed1310be9801b""></div>",待人工：在 Adsterra 后台建站并创建广告位，粘贴代码后把状态改为 ready
+spiritvalewiki,spiritvalewiki.vercel.app,global,Social Bar,spiritvalewiki-global,,已上线,"<script data-cfasync=""false"" src=""https://bauval.org/14/fc31126f979be7ef732a1279bbdbbec8""></script>",待人工：在 Adsterra 后台建站并创建广告位，粘贴代码后把状态改为 ready
+spiritvalewiki,spiritvalewiki.vercel.app,guide,Native Banner,spiritvalewiki-guide,,已上线,"<script async=""async"" data-cfasync=""false"" src=""https://bauval.org/21/5ff3ad3aaf9cdd87018070c5ff198c70""></script>
+<div id=""container-5ff3ad3aaf9cdd87018070c5ff198c70""></div>",待人工：在 Adsterra 后台建站并创建广告位，粘贴代码后把状态改为 ready
+tearsofmetalwiki,tearsofmetalwiki.vercel.app,global,Social Bar,tearsofmetalwiki-global,,已上线,"<script data-cfasync=""false"" src=""https://bauval.org/14/4b2800281d7c6a124c312327f9a71c4b""></script>",待人工：在 Adsterra 后台建站并创建广告位，粘贴代码后把状态改为 ready
+tearsofmetalwiki,tearsofmetalwiki.vercel.app,guide,Native Banner,tearsofmetalwiki-guide,,已上线,"<script async=""async"" data-cfasync=""false"" src=""https://bauval.org/21/14b709dc4ef5d0cda910e3a307354497""></script>
+<div id=""container-14b709dc4ef5d0cda910e3a307354497""></div>",待人工：在 Adsterra 后台建站并创建广告位，粘贴代码后把状态改为 ready
+gotownwiki,gotownwiki.vercel.app,global,Social Bar,gotownwiki-global,,已上线,"<script data-cfasync=""false"" src=""https://bauval.org/14/2308d1bfd002bc8b62ecf57d7bc1d7fb""></script>",待人工：在 Adsterra 后台建站并创建广告位，粘贴代码后把状态改为 ready
+gotownwiki,gotownwiki.vercel.app,guide,Native Banner,gotownwiki-guide,,已上线,"<script async=""async"" data-cfasync=""false"" src=""https://bauval.org/21/975362c900b2070750fb6f63b89da8f0""></script>
+<div id=""container-975362c900b2070750fb6f63b89da8f0""></div>",待人工：在 Adsterra 后台建站并创建广告位，粘贴代码后把状态改为 ready
+delveriumwiki,delveriumwiki.vercel.app,global,Social Bar,delveriumwiki-global,,已上线,"<script data-cfasync=""false"" src=""https://bauval.org/14/42f915c52592eec642d85503ef2bf26e""></script>",待人工：在 Adsterra 后台建站并创建广告位，粘贴代码后把状态改为 ready
+delveriumwiki,delveriumwiki.vercel.app,guide,Native Banner,delveriumwiki-guide,,已上线,"<script async=""async"" data-cfasync=""false"" src=""https://bauval.org/21/b320c754fac8bad96fde180da3cba43a""></script>
+<div id=""container-b320c754fac8bad96fde180da3cba43a""></div>",待人工：在 Adsterra 后台建站并创建广告位，粘贴代码后把状态改为 ready
+relicfirstguardianwiki,relicfirstguardianwiki.vercel.app,global,Social Bar,relicfirstguardianwiki-global,,已上线,"<script data-cfasync=""false"" src=""https://bauval.org/14/2fdb43be3df7a6611e576e0bd6fba0f1""></script>",待人工：在 Adsterra 后台建站并创建广告位，粘贴代码后把状态改为 ready
+relicfirstguardianwiki,relicfirstguardianwiki.vercel.app,guide,Native Banner,relicfirstguardianwiki-guide,,已上线,"<script async=""async"" data-cfasync=""false"" src=""https://bauval.org/21/63c8c11090484b88308098ac3267c01f""></script>
+<div id=""container-63c8c11090484b88308098ac3267c01f""></div>",待人工：在 Adsterra 后台建站并创建广告位，粘贴代码后把状态改为 ready
+ironnestwiki,ironnestwiki.vercel.app,global,Social Bar,ironnestwiki-global,,已上线,"<script data-cfasync=""false"" src=""https://bauval.org/14/fb93e677ff888622e49c901c67048c5c""></script>",待人工：在 Adsterra 后台建站并创建广告位，粘贴代码后把状态改为 ready
+ironnestwiki,ironnestwiki.vercel.app,guide,Native Banner,ironnestwiki-guide,,已上线,"<script async=""async"" data-cfasync=""false"" src=""https://bauval.org/21/afb80751767b9ea668b5fb664d94495b""></script>
+<div id=""container-afb80751767b9ea668b5fb664d94495b""></div>",待人工：在 Adsterra 后台建站并创建广告位，粘贴代码后把状态改为 ready
+bigwalkwiki,bigwalkwiki.vercel.app,global,Social Bar,bigwalkwiki-global,,已上线,"<script data-cfasync=""false"" src=""https://bauval.org/14/cb74e2c7cc6f9bab37830dab5d09afbe""></script>",待人工：在 Adsterra 后台建站并创建广告位，粘贴代码后把状态改为 ready
+bigwalkwiki,bigwalkwiki.vercel.app,guide,Native Banner,bigwalkwiki-guide,,已上线,"<script async=""async"" data-cfasync=""false"" src=""https://bauval.org/21/523c06d32fcdad59d29a9af26a1924e9""></script>
+<div id=""container-523c06d32fcdad59d29a9af26a1924e9""></div>",待人工：在 Adsterra 后台建站并创建广告位，粘贴代码后把状态改为 ready
+expeditionssamuraiwiki,expeditionssamuraiwiki.vercel.app,global,Social Bar,expeditionssamuraiwiki-global,,已上线,"<script data-cfasync=""false"" src=""https://bauval.org/14/4f062bcf743fcdbc9327b224ad627442""></script>",待人工：在 Adsterra 后台建站并创建广告位，粘贴代码后把状态改为 ready
+expeditionssamuraiwiki,expeditionssamuraiwiki.vercel.app,guide,Native Banner,expeditionssamuraiwiki-guide,,已上线,"<script async=""async"" data-cfasync=""false"" src=""https://bauval.org/21/4a3f5c44e91e96ce6e8875ba7361dcbf""></script>
+<div id=""container-4a3f5c44e91e96ce6e8875ba7361dcbf""></div>",待人工：在 Adsterra 后台建站并创建广告位，粘贴代码后把状态改为 ready
+aincradwiki,aincradwiki.vercel.app,global,Social Bar,aincradwiki-global,,已上线,"<script data-cfasync=""false"" src=""https://bauval.org/14/c8050fcaae32ce355ba762395cb07fee""></script>",待人工：在 Adsterra 后台建站并创建广告位，粘贴代码后把状态改为 ready
+aincradwiki,aincradwiki.vercel.app,guide,Native Banner,aincradwiki-guide,,已上线,"<script async=""async"" data-cfasync=""false"" src=""https://bauval.org/21/8ab6a57567b8b9c695afe30535ffb573""></script>
+<div id=""container-8ab6a57567b8b9c695afe30535ffb573""></div>",待人工：在 Adsterra 后台建站并创建广告位，粘贴代码后把状态改为 ready
+witchspirewiki,witchspirewiki.vercel.app,global,Social Bar,witchspirewiki-global,,已上线,"<script data-cfasync=""false"" src=""https://bauval.org/14/bb2c1837ebfcd517032cb7afa5b1b80e""></script>",待人工：在 Adsterra 后台建站并创建广告位，粘贴代码后把状态改为 ready
+witchspirewiki,witchspirewiki.vercel.app,guide,Native Banner,witchspirewiki-guide,,已上线,"<script async=""async"" data-cfasync=""false"" src=""https://bauval.org/21/f170971cce69c8cbbf6c7078ce29b802""></script>
+<div id=""container-f170971cce69c8cbbf6c7078ce29b802""></div>",待人工：在 Adsterra 后台建站并创建广告位，粘贴代码后把状态改为 ready
+dragonswordwiki,dragonswordwiki.vercel.app,global,Social Bar,dragonswordwiki-global,,已上线,"<script data-cfasync=""false"" src=""https://bauval.org/14/a8c328a541ad00f8089f6df86c043d9d""></script>",待人工：在 Adsterra 后台建站并创建广告位，粘贴代码后把状态改为 ready
+dragonswordwiki,dragonswordwiki.vercel.app,guide,Native Banner,dragonswordwiki-guide,,已上线,"<script async=""async"" data-cfasync=""false"" src=""https://bauval.org/21/12d46d9e2809ed90824f8aefbe24a224""></script>
+<div id=""container-12d46d9e2809ed90824f8aefbe24a224""></div>",待人工：在 Adsterra 后台建站并创建广告位，粘贴代码后把状态改为 ready
+grainrotwiki,grainrotwiki.vercel.app,global,Social Bar,grainrotwiki-global,,已上线,"<script data-cfasync=""false"" src=""https://bauval.org/14/065c6c95eaf607643d73a656e469e1db""></script>",待人工：在 Adsterra 后台建站并创建广告位，粘贴代码后把状态改为 ready
+grainrotwiki,grainrotwiki.vercel.app,guide,Native Banner,grainrotwiki-guide,,已上线,"<script async=""async"" data-cfasync=""false"" src=""https://bauval.org/21/6845114baa56497732282de4650fefdb""></script>
+<div id=""container-6845114baa56497732282de4650fefdb""></div>",待人工：在 Adsterra 后台建站并创建广告位，粘贴代码后把状态改为 ready
+ardentwildswiki,ardentwildswiki.vercel.app,global,Social Bar,ardentwildswiki-global,,已上线,"<script data-cfasync=""false"" src=""https://bauval.org/14/1b413e795a5e5ab214f89b23d783e397""></script>",待人工：在 Adsterra 后台建站并创建广告位，粘贴代码后把状态改为 ready
+ardentwildswiki,ardentwildswiki.vercel.app,guide,Native Banner,ardentwildswiki-guide,,已上线,"<script async=""async"" data-cfasync=""false"" src=""https://bauval.org/21/1caa90f8e5d2db4257bae03812dd4399""></script>
+<div id=""container-1caa90f8e5d2db4257bae03812dd4399""></div>",待人工：在 Adsterra 后台建站并创建广告位，粘贴代码后把状态改为 ready
+vahrinscallwiki,vahrinscallwiki.vercel.app,global,Social Bar,vahrinscallwiki-global,,已上线,"<script data-cfasync=""false"" src=""https://bauval.org/14/cfbf8104f89d95c32b506ca79e21cb23""></script>",待人工：在 Adsterra 后台建站并创建广告位，粘贴代码后把状态改为 ready
+vahrinscallwiki,vahrinscallwiki.vercel.app,guide,Native Banner,vahrinscallwiki-guide,,已上线,"<script async=""async"" data-cfasync=""false"" src=""https://bauval.org/21/6a599fae60077dfe795a6ca590f1f2e4""></script>
+<div id=""container-6a599fae60077dfe795a6ca590f1f2e4""></div>",待人工：在 Adsterra 后台建站并创建广告位，粘贴代码后把状态改为 ready
+mystraliawiki,mystraliawiki.vercel.app,global,Social Bar,mystraliawiki-global,,已上线,"<script data-cfasync=""false"" src=""https://bauval.org/14/0adc82105197d63d431d092e45608da0""></script>",待人工：在 Adsterra 后台建站并创建广告位，粘贴代码后把状态改为 ready
+mystraliawiki,mystraliawiki.vercel.app,guide,Native Banner,mystraliawiki-guide,,已上线,"<script async=""async"" data-cfasync=""false"" src=""https://bauval.org/21/71d0e9af63a414b1148c15a973d66906""></script>
+<div id=""container-71d0e9af63a414b1148c15a973d66906""></div>",待人工：在 Adsterra 后台建站并创建广告位，粘贴代码后把状态改为 ready
+lunariumwiki,lunariumwiki.vercel.app,global,Social Bar,lunariumwiki-global,,已上线,"<script data-cfasync=""false"" src=""https://bauval.org/14/97060fe0ddbe7b1602f1601ee796ba25""></script>",待人工：在 Adsterra 后台建站并创建广告位，粘贴代码后把状态改为 ready
+lunariumwiki,lunariumwiki.vercel.app,guide,Native Banner,lunariumwiki-guide,,已上线,"<script async=""async"" data-cfasync=""false"" src=""https://bauval.org/21/2cd313f16b603d14c90093fde337dbc1""></script>
+<div id=""container-2cd313f16b603d14c90093fde337dbc1""></div>",待人工：在 Adsterra 后台建站并创建广告位，粘贴代码后把状态改为 ready
+restorywiki,restorywiki.vercel.app,global,Social Bar,restorywiki-global,,已上线,"<script data-cfasync=""false"" src=""https://bauval.org/14/2d4feb682174f6e7de8769ba73934a61""></script>",待人工：在 Adsterra 后台建站并创建广告位，粘贴代码后把状态改为 ready
+restorywiki,restorywiki.vercel.app,guide,Native Banner,restorywiki-guide,,已上线,"<script async=""async"" data-cfasync=""false"" src=""https://bauval.org/21/1f31352467dbe7c70480660bb2c1c2dc""></script>
+<div id=""container-1f31352467dbe7c70480660bb2c1c2dc""></div>",待人工：在 Adsterra 后台建站并创建广告位，粘贴代码后把状态改为 ready
+boneholdwiki,boneholdwiki.vercel.app,global,Social Bar,boneholdwiki-global,,已上线,"<script data-cfasync=""false"" src=""https://bauval.org/14/ea6a9a4345e518b86baf5fffa0dc7c59""></script>",待人工：在 Adsterra 后台建站并创建广告位，粘贴代码后把状态改为 ready
+boneholdwiki,boneholdwiki.vercel.app,guide,Native Banner,boneholdwiki-guide,,已上线,"<script async=""async"" data-cfasync=""false"" src=""https://bauval.org/21/4fae720c0200d8d143adc7fbb6ca8974""></script>
+<div id=""container-4fae720c0200d8d143adc7fbb6ca8974""></div>",待人工：在 Adsterra 后台建站并创建广告位，粘贴代码后把状态改为 ready
+mistfallhunterwiki,mistfallhunterwiki.vercel.app,global,Social Bar,mistfallhunterwiki-global,,已上线,"<script data-cfasync=""false"" src=""https://bauval.org/14/fa3d1a5bbf552e36099963a02c756887""></script>",待人工：在 Adsterra 后台建站并创建广告位，粘贴代码后把状态改为 ready
+mistfallhunterwiki,mistfallhunterwiki.vercel.app,guide,Native Banner,mistfallhunterwiki-guide,,已上线,"<script async=""async"" data-cfasync=""false"" src=""https://bauval.org/21/5546350cad2e8de30ab3327f03d0410c""></script>
+<div id=""container-5546350cad2e8de30ab3327f03d0410c""></div>",待人工：在 Adsterra 后台建站并创建广告位，粘贴代码后把状态改为 ready
+taivalwiki,taivalwiki.vercel.app,global,Social Bar,taivalwiki-global,,已上线,"<script data-cfasync=""false"" src=""https://bauval.org/14/8a8d396cf057c8642a9e4d71e8f82d62""></script>",PV < 100，暂缓接入
+taivalwiki,taivalwiki.vercel.app,guide,Native Banner,taivalwiki-guide,,已上线,"<script async=""async"" data-cfasync=""false"" src=""https://bauval.org/21/e48251d4fd3e4dffbb281241dcf7bc9f""></script>
+<div id=""container-e48251d4fd3e4dffbb281241dcf7bc9f""></div>",PV < 100，暂缓接入
+phantomtowerwiki,phantomtowerwiki.vercel.app,global,Social Bar,phantomtowerwiki-global,,已上线,"<script data-cfasync=""false"" src=""https://bauval.org/14/4c9e8f33987da5eb617b59ab1bdedcbd""></script>",PV < 100，暂缓接入
+phantomtowerwiki,phantomtowerwiki.vercel.app,guide,Native Banner,phantomtowerwiki-guide,,已上线,"<script async=""async"" data-cfasync=""false"" src=""https://bauval.org/21/1e78647ab964f94d91ccad774028ddbc""></script>
+<div id=""container-1e78647ab964f94d91ccad774028ddbc""></div>",PV < 100，暂缓接入
+beastreincarnationwiki,beastreincarnationwiki.vercel.app,global,Social Bar,beastreincarnationwiki-global,,已上线,"<script data-cfasync=""false"" src=""https://bauval.org/14/584786309f27b39100a631ea8e8b9cba""></script>",PV < 100，暂缓接入
+beastreincarnationwiki,beastreincarnationwiki.vercel.app,guide,Native Banner,beastreincarnationwiki-guide,,已上线,"<script async=""async"" data-cfasync=""false"" src=""https://bauval.org/21/19451f61a182da3ae24a754cfc070c44""></script>
+<div id=""container-19451f61a182da3ae24a754cfc070c44""></div>",PV < 100，暂缓接入
+dinobladewiki,dinobladewiki.vercel.app,global,Social Bar,dinobladewiki-global,,已上线,"<script data-cfasync=""false"" src=""https://bauval.org/14/41dfe3920f008e17d968f246429e6e01""></script>",PV < 100，暂缓接入
+dinobladewiki,dinobladewiki.vercel.app,guide,Native Banner,dinobladewiki-guide,,已上线,"<script async=""async"" data-cfasync=""false"" src=""https://bauval.org/21/b767972c386c054c521f77fc34552c11""></script>
+<div id=""container-b767972c386c054c521f77fc34552c11""></div>",PV < 100，暂缓接入
+lowbudgetrepairswiki,lowbudgetrepairswiki.vercel.app,global,Social Bar,lowbudgetrepairswiki-global,,已上线,"<script data-cfasync=""false"" src=""https://bauval.org/14/1eb877791c84c96b295012ea207a96e3""></script>",PV < 100，暂缓接入
+lowbudgetrepairswiki,lowbudgetrepairswiki.vercel.app,guide,Native Banner,lowbudgetrepairswiki-guide,,已上线,"<script async=""async"" data-cfasync=""false"" src=""https://bauval.org/21/5bf23d2cedf77e009bdbe2f5793c922d""></script>
+<div id=""container-5bf23d2cedf77e009bdbe2f5793c922d""></div>",PV < 100，暂缓接入
+graphitewiki,graphitewiki.vercel.app,global,Social Bar,graphitewiki-global,,已上线,"<script data-cfasync=""false"" src=""https://bauval.org/14/c86a7183e98ce392229583976cd7509d""></script>",PV < 100，暂缓接入
+graphitewiki,graphitewiki.vercel.app,guide,Native Banner,graphitewiki-guide,,已上线,"<script async=""async"" data-cfasync=""false"" src=""https://bauval.org/21/fea3dc7058f3022ee026c43a56182f50""></script>
+<div id=""container-fea3dc7058f3022ee026c43a56182f50""></div>",PV < 100，暂缓接入
+minegeonwiki,minegeonwiki.vercel.app,global,Social Bar,minegeonwiki-global,,已上线,"<script data-cfasync=""false"" src=""https://bauval.org/14/f3f77a69aa4e5ae6b82441ef7b26a8be""></script>",PV < 100，暂缓接入
+minegeonwiki,minegeonwiki.vercel.app,guide,Native Banner,minegeonwiki-guide,,已上线,"<script async=""async"" data-cfasync=""false"" src=""https://bauval.org/21/ef770b4d251fea67cae902cd60e564d6""></script>
+<div id=""container-ef770b4d251fea67cae902cd60e564d6""></div>",PV < 100，暂缓接入
+skillsandraidswiki,skillsandraidswiki.vercel.app,global,Social Bar,skillsandraidswiki-global,,已上线,"<script data-cfasync=""false"" src=""https://bauval.org/14/952a01dcc8bb0197e0f88eac0489ceb8""></script>",PV < 100，暂缓接入
+skillsandraidswiki,skillsandraidswiki.vercel.app,guide,Native Banner,skillsandraidswiki-guide,,已上线,"<script async=""async"" data-cfasync=""false"" src=""https://bauval.org/21/f2770bddf1257ccdd3539e5ba01b0aa4""></script>
+<div id=""container-f2770bddf1257ccdd3539e5ba01b0aa4""></div>",PV < 100，暂缓接入
+dwarfdelvewiki,dwarfdelvewiki.vercel.app,global,Social Bar,dwarfdelvewiki-global,,已上线,"<script data-cfasync=""false"" src=""https://bauval.org/14/9eb830f8b27ef102c8a197da99d63296""></script>",PV < 100，暂缓接入
+dwarfdelvewiki,dwarfdelvewiki.vercel.app,guide,Native Banner,dwarfdelvewiki-guide,,已上线,"<script async=""async"" data-cfasync=""false"" src=""https://bauval.org/21/cec1bd8165f518df37aa6b28ac82da83""></script>
+<div id=""container-cec1bd8165f518df37aa6b28ac82da83""></div>",PV < 100，暂缓接入
