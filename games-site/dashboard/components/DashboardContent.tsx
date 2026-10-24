@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import type { DashboardData, SiteData } from '@/lib/analytics';
+import SiteTable from './SiteTable';
 import StatCard from './StatCard';
 import TrafficChart from './TrafficChart';
 import TopPagesTable from './TopPagesTable';
@@ -37,33 +38,6 @@ export default function DashboardContent({ data }: { data: DashboardData }) {
 
   return (
     <>
-      {/* Site selector */}
-      <nav className="flex gap-2 mb-8 flex-wrap">
-        <button
-          onClick={() => setSelected('__all__')}
-          className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
-            selected === '__all__'
-              ? 'bg-accent text-white'
-              : 'bg-bg-card text-text-secondary hover:bg-bg-card-hover'
-          }`}
-        >
-          All Sites
-        </button>
-        {sites.map((s) => (
-          <button
-            key={s.site.propertyId}
-            onClick={() => setSelected(s.site.propertyId)}
-            className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
-              selected === s.site.propertyId
-                ? 'bg-accent text-white'
-                : 'bg-bg-card text-text-secondary hover:bg-bg-card-hover'
-            }`}
-          >
-            {s.site.name}
-          </button>
-        ))}
-      </nav>
-
       {/* Stat Cards */}
       <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
         <StatCard
@@ -93,32 +67,24 @@ export default function DashboardContent({ data }: { data: DashboardData }) {
         />
       </section>
 
-      {/* Per-site cards when "All Sites" is selected */}
-      {selected === '__all__' && sites.length > 1 && (
-        <section className="mb-8 space-y-4">
-          <h2 className="text-lg font-semibold">By Site</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {sites.map((s) => (
-              <div
-                key={s.site.propertyId}
-                className="bg-bg-card rounded-xl p-4 hover:bg-bg-card-hover transition-colors"
-              >
-                <div className="font-medium mb-2">{s.site.name}</div>
-                <div className="grid grid-cols-2 gap-y-1 text-sm">
-                  <span className="text-text-secondary">PV</span>
-                  <span className="text-right tabular-nums font-mono">
-                    {s.totals.pageViews.toLocaleString()}
-                  </span>
-                  <span className="text-text-secondary">Users</span>
-                  <span className="text-right tabular-nums font-mono">
-                    {s.totals.users.toLocaleString()}
-                  </span>
-                </div>
-              </div>
-            ))}
-          </div>
-        </section>
-      )}
+      {/* Site table — 一行一站，同时作为站点选择器 */}
+      <section className="bg-bg-card rounded-xl p-4 mb-8">
+        <div className="flex items-baseline justify-between mb-1 px-2">
+          <h2 className="text-lg font-semibold">
+            {active ? active.site.name : 'All Sites'}
+          </h2>
+          <span className="text-xs text-text-secondary whitespace-nowrap">
+            {sites.length} sites · 30 days
+            <span className="hidden sm:inline"> · click a row to switch</span>
+          </span>
+        </div>
+        <SiteTable
+          sites={sites}
+          totals={totals}
+          selected={selected}
+          onSelect={setSelected}
+        />
+      </section>
 
       {/* Chart */}
       <section className="bg-bg-card rounded-xl p-6 mb-8">
