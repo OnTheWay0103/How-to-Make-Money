@@ -1,45 +1,27 @@
 # 待部署站点 — 2026-10-24
 
-> 原因：Vercel 免费额度 `api-deployments-free-per-day`（100 次/日）于 2026-10-24 00:10 用尽。
-> 本地内容与构建产物均已修正，**只差一次成功部署**。额度约 24 小时后恢复。
+> 2026-10-24 08:30 额度重置后已补部署 6 站，并逐站内容级复验（HTTP 200 + 目标标记命中）：
+> nivalisnightswiki / waterparksimulatorwiki / silverpineswiki / aincradwiki / witchspirewiki / minegeonwiki。
+>
+> 剩余 2 站的修正将随 **2026-10-24 每日扩充** 的同一批部署一起上线（无需单独部署）。
 
-| 站点 | 文件 | 修正内容 | 线上现状 |
-|------|------|----------|----------|
-| nivalisnightswiki | `content/guides/greenhouse-automation-guide.md` | Update #4 档位（gid 1846018067933485）与 10/16 小补丁（gid 1846651706681865）写入可渲染的 `sources[].text` | 仍为旧版（官方链接只在 frontmatter `url`，页面不渲染） |
-| waterparksimulatorwiki | `content/guides/shelves-multistand-staff-guide.md` | 8/28 补丁来源（gid 1842212951303274）写入可渲染的 `sources[].text` | 仍为旧版 |
-| silverpineswiki | `content/guides/silver-pines-camera-photo-map-guide.md` | 正文末尾补可点击的 Hotfix 2 官方来源行（gid 1846651706681087） | 仍为旧版 |
-| aincradwiki | `content/guides/update-patch-notes.md` | 补 1.0.6（9/28）条目并更新 Current Build；新增 related 指向 DLC 指南 | 仍为旧版 |
-| witchspirewiki | `content/guides/spellblade-vs-wand-guide.md` | 0.1.4 过时横幅 + related 改块状数组 | 仍为旧版 |
-| sephiriawiki | `content/guides/sephiria-achievements-guide.md` | 1.0.33 版本号加 `[Unconfirmed]` 说明 | 仍为旧版 |
-| spiritvalewiki | `content/guides/pvp-conquest-guide.md` | 0.34.1/0.34.2 细项加 `[Unconfirmed]` 说明 | 仍为旧版 |
-| minegeonwiki | `content/guides/minegeon-save-rest-resume-guide.md` | Patch 3 单源加复核提示 | 仍为旧版 |
+| 站点 | 文件 | 修正内容 | 状态 |
+|------|------|----------|------|
+| sephiriawiki | `content/guides/sephiria-achievements-guide.md` | 1.0.33 版本号加 `[Unconfirmed]` 说明 | 待随今日扩充部署 |
+| spiritvalewiki | `content/guides/pvp-conquest-guide.md` | 0.34.1/0.34.2 细项加 `[Unconfirmed]` 说明 | 待随今日扩充部署 |
 
-## 恢复后执行
+## 已完成的补部署验证（2026-10-24）
 
-```bash
-cd /Users/zhaoq0103/DEV/Personal/How-to-Make-Money/games-site
-./deploy-wiki-site.sh nivalisnightswiki
-./deploy-wiki-site.sh waterparksimulatorwiki
-./deploy-wiki-site.sh silverpineswiki
-./deploy-wiki-site.sh aincradwiki
-./deploy-wiki-site.sh witchspirewiki
-./deploy-wiki-site.sh sephiriawiki
-./deploy-wiki-site.sh spiritvalewiki
-./deploy-wiki-site.sh minegeonwiki
-```
-
-验证：
-
-```bash
-curl -s --resolve nivalisnightswiki.vercel.app:443:64.29.17.3 \
-  https://nivalisnightswiki.vercel.app/guides/greenhouse-automation-guide | grep -c 1846018067933485
-curl -s --resolve waterparksimulatorwiki.vercel.app:443:64.29.17.3 \
-  https://waterparksimulatorwiki.vercel.app/guides/shelves-multistand-staff-guide | grep -c 1842212951303274
-curl -s --resolve silverpineswiki.vercel.app:443:64.29.17.3 \
-  https://silverpineswiki.vercel.app/guides/silver-pines-camera-photo-map-guide | grep -c 1846651706681087
-```
+| 站点 | 验证 URL | 标记 | 结果 |
+|------|----------|------|------|
+| nivalisnightswiki | `/guides/greenhouse-automation-guide` | 1846018067933485 | HTTP 200，命中 1 |
+| waterparksimulatorwiki | `/guides/shelves-multistand-staff-guide` | 1842212951303274 | HTTP 200，命中 1 |
+| silverpineswiki | `/guides/silver-pines-camera-photo-map-guide` | 1846651706681087 | HTTP 200，命中 1 |
+| aincradwiki | `/guides/update-patch-notes` | 1.0.6 | HTTP 200，命中 3 |
+| witchspirewiki | `/guides/spellblade-vs-wand-guide` | 0.1.4 | HTTP 200，命中 3 |
+| minegeonwiki | `/guides/minegeon-save-rest-resume-guide` | Patch 3 | HTTP 200，命中 8 |
 
 ## 注意
 
 - 免费额度按 UTC 日切，重置约在北京时间 08:00。
-- 05:00 的 `auto-build-site.sh` 定时任务若在本窗口内运行，部署会因同一额度失败；内容仍会写入，次日可补部署。
+- 本机 `--resolve` 对部分 Vercel 域名会返回 HTTP 000；本次改用普通 curl（DNS 正常）完成验证。若 curl 失败，先 `dig +short @8.8.8.8 <domain>` 比对权威解析，不得直接判站点故障。

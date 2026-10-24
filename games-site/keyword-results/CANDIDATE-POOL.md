@@ -1,7 +1,7 @@
 # 候选游戏池
 
 > 侦察 Agent 发现的新游戏候选。主管 Agent 读取此文件做建站决策。
-> 最后更新: **2026-10-23**（侦察 DISCOVERY-10/23：新增 14 个候选 #42–#55；其中 9 个落在 9–10 月窗口，5 个为 11–12 月窗口补充；同步更新 Ex Sanguis / Neverway / TWD / Tiny Eden / Cosmic Fear 的发售状态。详见 `keyword-results/discovery-2026-10-23.md`）
+> 最后更新: **2026-10-24**（侦察 DISCOVERY-10/24：4 源搜索新增 5 候选 #56–#60；Stormforge 17 分、Draemony 16 分，均完成 EN/ZH/JA 三语 wiki 检查；Chained Beasts 补充上线一周后的关键词复核。详见 `keyword-results/discovery-2026-10-24.md`）
 > 位置：`keyword-results/CANDIDATE-POOL.md` — 随 git 同步，跨机器共享
 
 ## 候选清单
@@ -48,7 +48,7 @@
 | 42 | Emberville | 像素暗黑 ARPG + 种田/城镇建设 (Cygnus Cross) | 18 | 10/27 EA | ⚠️ 英文 2 套（thegameswiki / emberville-wiki.wiki） | 10/23 | 推荐 — 251 条含游戏名建议/233 条有效；联机 19、配音 28、职业 8；英文 wiki 已起，主攻其未覆盖的联机/配音/职业长尾 |
 | 43 | DREADMOOR | 末日钓鱼生存恐怖 (Dream Dock/Digital Vortex) | 17 | 11/9 EA（窗口外补充） | ❌ 无（日文仅 gamewith 新闻页） | 10/23 | 推荐 — 183 条含游戏名/161 条有效；零组织化 wiki；钓鱼/存档/装备长尾明确，11/9 前是最佳窗口 |
 | 44 | Loftia | 天空岛生活模拟 MMO (Qloud Games) | 16 | 11/3 EA（窗口外补充） | ⚠️ thegameswiki stub | 10/23 | 观望 — 9 月 demo 第 7 最热玩/第 8 趋势；wiki stub 已现；等 EA 后看内容量 |
-| 45 | Chained Beasts | 1–4 人角斗士 Roguelike (Featherweight) | 16 | 10/15 已上线 | ❌ 无 | 10/23 | 观望/推荐 — Game Pass 首发、零 wiki；上线一周，评测/内容量待复核 |
+| 45 | Chained Beasts | 1–4 人角斗士 Roguelike (Featherweight) | 16 | 10/15 已上线 | ❌ 无 | 10/23 | 观望 — 10/24 补关键词报告（`keyword-results/Chained-Beasts.md`）：64 条原始建议仅 29 条有效，`Chained Together`/`Chained Echoes`/`Chained Soldier` 分流严重；P0 仅 crossplay/local co-op 与 all characters 两组。需求偏小 + 名字污染重 → 维持观望，不优先建站 |
 | 46 | Cozy Game Restoration | 复古卡带清洁/修复模拟 (Parasol Corp) | 16 | 11/4（窗口外补充） | ❌ 无 | 10/23 | 推荐 — 400K+ wishlist、$14.99、19 语言；零 wiki；单机模拟内容深度待验证 |
 | 47 | Dimraeth | 8 人像素奇幻 ARPG (Mudtek) | 15 | 9/15 EA | ⚠️ 英文 1 套（thegameswiki） | 10/23 | 观望 — 首日 10K CCU/特别好评；英文 wiki 已起，需差异化 |
 | 48 | Valor Mortis | 第一人称魂类 (One More Level) | 15 | 10/13 已上线 | ⚠️ 英文多家（thegameswiki/metabot）+ 中文攻略 | 10/23 | 观望 — Ghostrunner 团队、高愿望单；竞争强，非零 wiki 打法 |
@@ -59,6 +59,11 @@
 | 53 | Echo Weaver | 时间循环 Metroidvania (Moonlight Kids) | 13 | 10/8 已上线 | ❌ 无 | 10/23 | 观望 — Game Pass 首发；内容量偏小，攻略面有限 |
 | 54 | Deep Dish Dungeon | 合作地牢生存 (Behold Studios) | 13 | 10/13 已上线 | ❌ 无 | 10/23 | 观望 — Game Pass 首发；媒体评价 mixed，需求上限有限 |
 | 55 | Fright Train | 雪国列车生存恐怖 | 13 | 9/16 已上线 | ❌ 无（中文攻略站 1 篇） | 10/23 | 观望 — RPS 好评；小众题材、内容有限 |
+| 56 | **Stormforge** | 开放世界生存建造 ARPG（Roboto Games） | **17** | 11/10 EA | ❌ 无（EN/ZH/JA 三语均未检索到；注意同名 WoW 私服 / Materia Stormforge 污染） | 10/24 | **推荐 — 建议下一轮建站**：1–8 人 co-op、24 km² 程序生成世界、5 职业/100+ 技能、魔法风暴机制；demo 35,000+ 下载、Steam「Mostly Positive」、100K+ wishlist；零组织化 wiki；EA 窗口 11/10，预售期建站最佳。⚠️ 裸词 SERP 污染重，须用 `Stormforge game` / `Stormforge survival` 锚定 |
+| 57 | **Draemony** | 暗黑奇幻 ARPG（Xinoqs Studios） | **16** | 11/20 EA | ❌ 无（EN/ZH/JA 三语均未检索到） | 10/24 | 推荐/观望 — 6 人 co-op、8 职业、1000+ 节点天赋树、4 幕战役、Tier 1–16 终局地图；零 wiki、系统深度足；但小团队、需求数据未公开，建议 EA 后看评测量再定 |
+| 58 | Castaway Slime | 4 人 co-op 生存 RPG（AZS，原名 Country Slime） | 13 | 10/30–11/10 测试，无发售日 | ❌ 无专属 wiki（GameFAQs 的 Castaway 是另一款游戏） | 10/24 | 观望 — 饥饿/口渴/温度/理智 + guard 战斗 + 8 技能槽；题材有趣但尚无发售日，等定档 |
+| 59 | Sacrumagus | 多人生存恐怖 + 复古 ARPG（Cannibal Capybaras/ABTEL） | 13 | 11/30 EA | ❌ 无（EN/ZH/JA 未检索到；仅俄语 mmo13 概览） | 10/24 | 观望 — 6 学院 House、co-op/PvP、单机可玩；小众，内容量待验证 |
+| 60 | Under Canopies | 非暴力森林生存建造（Novemtails/Assemble） | 12 | 10/23 EA | ❌ 无（仅 1 篇日文早期攻略博客） | 10/24 | 观望 — 钓鱼/养蜂/鸡羊/ cabin 装饰；无战斗，攻略面偏窄，低于建站阈值 |
 
 > **Wiki 列说明**：`❌ 无` = 本次已用英文（`{game} wiki fandom wiki.gg`）与中文/日文（`{game} 攻略 wiki 灰机 bilibili wikiwiki atwiki`）两组查询，**未检索到专属 wiki 页**；不等于绝对不存在。逐候选证据见 `keyword-results/discovery-2026-10-23.md` 第三节。
 
