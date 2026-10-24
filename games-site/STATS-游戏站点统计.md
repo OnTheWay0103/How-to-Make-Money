@@ -19,7 +19,7 @@
 | 8 | Sephiria | 7/21 | 42 | sephiriawiki.vercel.app | ✅ | ✅ | ✅ | 7/31 1.0 上线；8/11 AdSense Phase1 合规：48→29，5 组合并（武器/Boss/章节/Builds/物品/更新），清除虚构武器/Boss/神器目录/NG+/第七章，去 Patch 版本声明；8/26 每日扩充 +1（save-file-guide 存档备份恢复，反馈驱动，QA quick PASS）；9/1 EXPAND-010 反馈驱动扩充 +1（dagger-build-guide）；9/3 EXPAND-012 反馈驱动扩充 +1（katana-build-guide，QA quick PASS 已部署）；9/11 EXPAND-025 反馈驱动扩充 +1（patch-1-0-31-build-changes-guide，官方 1.0.31=9/10）+ 跨页版本一致性刷新 8 处，QA quick PASS ×2 已部署；10/24 反馈驱动扩充 +1（stuck-soft-lock-recovery-guide 卡关/软锁恢复，QA quick PASS 已部署复验） |
 | 9 | DinoBlade | 7/21 | 16 | dinobladewiki.vercel.app | ✅ | ✅ | ✅ | 8/3 Coordinator 扩充 +3；8/11 AdSense Phase1 合规：27→15，8 组合并，清除 The Mound 残留/虚构 Boss/机制名/联机 PvP，价格对齐 $19.99 |
 | 10 | Mystralia | 7/22 | 30 | mystraliawiki.vercel.app | ✅ | ✅ | ✅ | 8/11 EA 上线；8/11 AdSense Phase1 合规：40→29，8 组合并，虚构区域/法术/地牢/货币清理，Memories 110→100+ 校准，系统配置对齐 Steam 官方 |
-| 11 | Tears of Metal | 7/23 | 37 | tearsofmetalwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 反馈驱动 +3 新 +2 纠错（英雄名校准）；8/1 内容配比 +5（Wallace/Brienne/Ruadh 独立 Build 页、Corruption 机制、装备指南）+ 修复旧英雄/Boss 名残留；8/30 EXPAND-008 反馈驱动扩充 +1（healing-guide 治疗与回血经济，QA 有条件 PASS 已部署）；9/3 EXPAND-015 反馈驱动扩充 +1（crash-launch-fix-guide，QA quick PASS 已部署）；9/11 SKIP（无 v0.15+）+ patch-notes 扩为完整版本表 v0.8→v0.14 + 官方路线图（标注 plan not shipped）+ 🔴 平台纠错 7 文件（非 Steam PC-only，7/22 首发即 Steam+MS Store+PC Game Pass 且互通），QA PASS 已部署 |
+| 11 | Tears of Metal | 7/23 | 38 | tearsofmetalwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 反馈驱动 +3 新 +2 纠错（英雄名校准）；8/1 内容配比 +5（Wallace/Brienne/Ruadh 独立 Build 页、Corruption 机制、装备指南）+ 修复旧英雄/Boss 名残留；8/30 EXPAND-008 反馈驱动扩充 +1（healing-guide 治疗与回血经济，QA 有条件 PASS 已部署）；9/3 EXPAND-015 反馈驱动扩充 +1（crash-launch-fix-guide，QA quick PASS 已部署）；9/11 SKIP（无 v0.15+）+ patch-notes 扩为完整版本表 v0.8→v0.14 + 官方路线图（标注 plan not shipped）+ 🔴 平台纠错 7 文件（非 Steam PC-only，7/22 首发即 Steam+MS Store+PC Game Pass 且互通），QA PASS 已部署；10/24 反馈驱动扩充 +1（trials-mother-stone-challenges-guide：Trials/Mother Stone 与局内 Challenge 两系统辨析 + 联机进度规则，QA quick PASS 已部署复验） |
 | 12 | Grain Rot | 7/24 | 36 | grainrotwiki.vercel.app | ✅ | ✅ | ✅ | 8/7 游戏上线；8/3 1.0 内容更新（全量内容清单、生物群系+2、wishlist 25万→250k）；8/31 EXPAND-009 反馈驱动扩充 +1（rot-debuff-guide，QA PASS 已部署）；9/3 EXPAND-016 反馈驱动扩充 +1（multiplayer-matchmaking-guide，QA quick PASS 已部署）；9/11 EXPAND-024 反馈驱动扩充 +1（patch-notes-guide，终结 4 连 SKIP）+ 事实纠错（v1.07 确已实装 public server browser）+ 页脚/Terms IP 归属修正，QA quick PASS 已部署；10/24 反馈驱动扩充 +1（legendary-gumball-constructs-guide 传奇 gumball 与 Vibe Modulator，QA quick PASS 已部署复验）；同批 patch-notes 补齐 1.1/1.11–1.13 |
 | 13 | DragonSword | 7/25 | 23 | dragonswordwiki.vercel.app | ✅ | ✅ | ✅ | 7/22 游戏上线；8/3 Coordinator 扩充 +3（Reina/Kalsion/Cerese 角色指南） |
 | 14 | Dwarf Delve | 7/26 | 18 | dwarfdelvewiki.vercel.app | ✅ | ✅ | ✅ |  |
@@ -142,7 +142,7 @@
 | 指标 | 数值 |
 |------|:--:|
 | **总站点数** | 43 |
-| **总攻略数** | 1054 |
+| **总攻略数** | 1055 |
 | **Vercel 部署** | 43/43 ✅ |
 | **GA4 已配置** | 34/43 |
 | **GA4 真缺失** | 9（anomalypresidentwiki（空）、bombananawiki（空）、crimsonmoonwiki（空）、doloctownwiki（空）、dressmakerwiki（空）、fallentearwiki（空）、silverpineswiki（空）、sovereigntowerwiki（空）、welcomeelderfieldwiki（空）） |

@@ -1873,6 +1873,7 @@ Loftia 排在其后。Chained Beasts 已因名字污染重、需求偏小下调�
 | themoundwiki | 反馈驱动（Reddit r/TheMoundOmenofCthulhu 多串 + 官方补丁） | `tulu-cylinders-unlock-the-mound` | 1,332 | 5 | 11 | PASS | PASS（HTTP 200，3 标记命中） |
 | spiritvalewiki | **非反馈驱动**（官方 0.32.0 系统清单；反馈驱动记 SKIP） | `advanced-artifacts-grimoires-guide` | 1,449 | 2 | 10 | PASS | PASS（HTTP 200，3 标记命中） |
 | grainrotwiki | 反馈驱动（Steam 讨论 + 官方 1.11–1.13 补丁） | `legendary-gumball-constructs-guide` | 1,312 | 9 | 11 | PASS | PASS（HTTP 200，3 标记命中） |
+| tearsofmetalwiki | 反馈驱动（Steam 讨论 ×4 + 评测 ×1，开发者回帖定规则） | `trials-mother-stone-challenges-guide` | 1,373 | 7 | 10（4 Official / 5 Community / 1 Editorial） | PASS | PASS（HTTP 200，3 标记命中；sitemap 46 URL 已收录） |
 
 ## 事实核验要点
 
@@ -1891,4 +1892,9 @@ Loftia 排在其后。Chained Beasts 已因名字污染重、需求偏小下调�
 - **spiritvalewiki** — 当日无满足「≥3 独立来源 + 真缺口 + 不编造」的反馈驱动选题；Steam 评测 API
   302、Reddit 403/429，可采样本不足 Profile 要求的 20 条。已写入 `.agent/expand-daily.json` skips，
   次日优先补跑。当日产出的系统指南不计入反馈驱动。
-- **tearsofmetalwiki** — 见本节末尾补充。
+- **tearsofmetalwiki** — 采集面：`appreviews` 直连超时、公共代理只回门户页，改抓
+  `steamcommunity.com/app/1913120/reviews/` HTML（recent 10 + toprated 10，共 20 条真实英文评测）
+  与 4 条 Steam 讨论串；匿名分页 p=2..8 均回第 1 页，未达 100–300 条，已在报告中声明。
+  选题落在「Trials / Mother Stone Challenges」与局内 Challenge 事件**同名两系统**（全站 0 专页），
+  并纳入 10/20 玩家报告 + 开发者 WoofgangPCG 在帖内的 per-hero / 主机选级 / client 仅低于主机才 +1
+  规则；未确认的总层数、具体倍率均标 `[Unconfirmed]`，demo 期旧帖明确标注为旁证。

@@ -25,8 +25,8 @@
     {
       "site": "tearsofmetalwiki",
       "pv": 1837,
-      "lastExpanded": "2026-10-23",
-      "lastProduced": "tears-of-metal-experimental-branch-guide (1,473w)"
+      "lastExpanded": "2026-10-24",
+      "lastProduced": "trials-mother-stone-challenges-guide (1,373w)"
     },
     {
       "site": "grainrotwiki",
@@ -179,9 +179,9 @@
   ],
   "lastRun": {
     "date": "2026-10-24",
-    "produced": 4,
+    "produced": 5,
     "skipped": 1,
-    "note": "名单内 5 站：sephiria / themound / grainrot 反馈驱动产出；spiritvale 仅官方系统驱动产出（反馈驱动记 SKIP，次日补）；tearsofmetal 以本轮最终结果为准。"
+    "note": "名单内 5 站：sephiria / themound / grainrot / tearsofmetal 反馈驱动产出；spiritvale 仅官方系统驱动产出（反馈驱动记 SKIP，次日补）。"
   },
   "catchUps": [
     {
