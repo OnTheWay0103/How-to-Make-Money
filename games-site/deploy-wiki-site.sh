@@ -43,13 +43,14 @@ PID=$(python3 -c "import json; print(json.load(open('$PROJECT_PATH/.vercel/proje
 PROJECT_NAME=$(python3 -c "import json; print(json.load(open('$PROJECT_PATH/.vercel/project.json'))['projectName'])")
 
 # 部署日志：成功后由 scripts/feishu-report.mjs --deploys 收口到飞书「部署队列」
+# ⚠️ 参数不能叫 status：zsh 里 status 是只读变量（$? 的别名），赋值直接报错
 log_deploy() {
-  local status="$1"
+  local deploy_status="$1"
   local commit
   commit=$(git -C "$SCRIPT_DIR" rev-parse --short HEAD 2>/dev/null || true)
   mkdir -p "$SCRIPT_DIR/.agent"
   printf '{"ts":"%s","site":"%s","commit":"%s","status":"%s","url":"https://%s.vercel.app"}\n' \
-    "$(date '+%Y-%m-%dT%H:%M:%S%z')" "$SITE_DIR" "$commit" "$status" "$PROJECT_NAME" \
+    "$(date '+%Y-%m-%dT%H:%M:%S%z')" "$SITE_DIR" "$commit" "$deploy_status" "$PROJECT_NAME" \
     >> "$SCRIPT_DIR/.agent/deploy-log.jsonl" || true
 }
 
