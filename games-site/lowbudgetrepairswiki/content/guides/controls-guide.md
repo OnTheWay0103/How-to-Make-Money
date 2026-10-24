@@ -2,15 +2,15 @@
 title: "Low-Budget Repairs Controls Guide — PC, Controller & Settings"
 description: "Full Low-Budget Repairs controls: complete PC keybindings (WASD movement, E to interact, Q tool wheel, Tab job info), controller support, and settings like key rebinding, graphics options, and language choices."
 category: "Beginner"
-version: "Pre-release"
-updated: "2026-08-05"
+version: "1.0"
+updated: "2026-10-24"
 date: "2026-08-05"
 keywords: ["low-budget repairs controls", "low budget repairs keybindings", "low budget repairs controller support", "low budget repairs settings", "low budget repairs pc controls"]
 ---
 
 # Low-Budget Repairs Controls Guide — PC, Controller & Settings
 
-> Controls listed here match the July 2026 demo build and developer announcements. The release build (August 13, 2026) may adjust bindings — if anything moves, this page gets updated after launch.
+> Controls listed here match the July 2026 demo build and developer announcements. The game was released on August 13, 2026; bindings we could not verify in the release build are marked **[Unconfirmed]**.
 
 ## PC Controls (Keyboard & Mouse)
 
@@ -42,7 +42,7 @@ If you're brand new to the loop — controls, jobs, and the money system all at 
 
 ## Controller Support
 
-**Controller support is confirmed for the full release** on PC, and the game naturally ships with full controller support on **PS5 and Xbox Series X|S**. The demo's exact controller layout hasn't been published, but expect a standard first-person mapping along these lines (unconfirmed until we can verify):
+**Controller support was announced for the PC release.** The Steam store page checked on 2026-10-24 does not list controller support, so the release build's support is **[Unconfirmed]**. The PS5 / Xbox Series X|S versions were announced as controller-first, but their release status is also **[Unconfirmed]**. The demo's exact controller layout was not published, but a standard first-person mapping along these lines is expected:
 
 | Action | PS5 | Xbox |
 |--------|-----|------|
@@ -61,7 +61,7 @@ If you're a controller player, the demo is the best way to confirm the feel befo
 
 ### Key Rebinding
 
-Full key rebinding has **not been confirmed** for the release build. The demo doesn't offer comprehensive rebinding, so if remapping is essential for you, hold judgment until launch and check the settings menu first — we'll confirm as soon as the release build is out.
+Full key rebinding is **官方未公布 [Unconfirmed]** for the release build. The demo did not offer comprehensive rebinding; we have not independently verified the release build's settings menu, so check it before relying on remapping.
 
 ### Graphics Settings
 
@@ -73,7 +73,7 @@ The game's humor lives in its Polish-flavored dialogue, so language matters more
 
 ### Other Settings
 
-Expect standard options for mouse/controller sensitivity, audio volume, and FOV. Exact menus are unverified pre-release — the demo build is the best reference until August 13.
+Expect standard options for mouse/controller sensitivity, audio volume, and FOV. Exact menus are **[Unconfirmed]** in the release build — the demo build remains the best documented reference.
 
 ## Tips for Working Smoothly
 

@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   description: 'Low-Budget Repairs money-making tier list — full flat makeovers, bathroom flooding fixes, kitchen renovations, painting jobs, and more ranked by profit potential and time investment.',
 };
 
-// Ranked from demo gameplay (v0.1, August 2026). Based on payout vs. time & material cost.
+// Ranked from demo gameplay (v1.0, updated 2026-10-24). Based on payout vs. time & material cost.
 const MONEY_TIERS = [
   { tier: 'S', weapons: ['Complete Flat Makeovers'], note: 'Highest payout of any job type. Big time commitment, but the profit margin makes it the best money-maker — just keep materials cheap and hide the shortcuts.' },
   { tier: 'S', weapons: ['Bathroom Flooding Fixes'], note: 'Quick turnaround for the payout. Clients pay premium for urgent water damage, and most of the work is hidden behind tiles and pipework anyway.' },
@@ -22,7 +22,7 @@ export default function TierListPage() {
     <div className="max-w-3xl mx-auto px-4 py-12">
       <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">Money-Making Methods Tier List</h1>
       <p className="text-gray-400 mb-2">Low-Budget Repairs renovation strategies ranked by profit potential and time investment.</p>
-      <div className="inline-flex items-center gap-1 text-xs font-medium px-2 py-0.5 rounded bg-amber-900/30 text-amber-400 border border-amber-800/50 mb-8">Version 0.1 (Pre-release) — Updated Aug 3, 2026. Based on demo gameplay. Will be updated after the full release.</div>
+      <div className="inline-flex items-center gap-1 text-xs font-medium px-2 py-0.5 rounded bg-amber-900/30 text-amber-400 border border-amber-800/50 mb-8">Version 1.0 (Released Aug 13, 2026) — Updated 2026-10-24. Based on demo gameplay; release-build rankings are [Unconfirmed].</div>
 
       <section className="mb-12">
         <h2 className="text-2xl font-bold text-white mb-6">Overall Rankings</h2>
@@ -51,7 +51,7 @@ export default function TierListPage() {
           Every job in Low-Budget Repairs can be profitable if you cut enough corners — the tiers rank
           money-making methods by payout versus time and material cost. S-tier jobs pay the most for the
           effort, while C-tier jobs are best avoided once better contracts are available. This list is
-          based on the demo build (v0.1) and will be revised after the full release on August 13, 2026.
+          based on the demo build; we have not independently verified release-build balance, so these rankings remain [Unconfirmed].
         </p>
       </div>
     </div>

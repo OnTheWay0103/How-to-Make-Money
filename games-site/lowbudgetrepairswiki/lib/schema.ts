@@ -74,7 +74,7 @@ export function videoGameSchema(): Record<string, unknown> {
       '@type': 'Offer',
       price: '19.99',
       priceCurrency: 'USD',
-      availability: 'https://schema.org/PreOrder',
+      availability: 'https://schema.org/InStock',
       url: 'https://store.steampowered.com/app/3167920/LowBudget_Repairs/',
     },
     datePublished: '2026-08-13',

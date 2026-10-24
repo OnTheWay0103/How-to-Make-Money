@@ -2,8 +2,8 @@
 title: "Best Cost-Cutting Tips & Shortcuts in Low-Budget Repairs"
 description: "Every known Low-Budget Repairs cost-cutting tip and shortcut — watering down paint, mismatched tiles, duct tape plumbing, bargain-bin supplies, posters over holes, plus speed, painting, tiling, and inspection tricks — with savings and risk ratings."
 category: "Guides"
-version: "Pre-release"
-updated: "2026-08-10"
+version: "1.0"
+updated: "2026-10-24"
 date: "2026-08-10"
 keywords: ["low-budget repairs cost cutting", "low-budget repairs shortcuts", "low-budget repairs tips", "low-budget repairs watering down paint", "low-budget repairs duct tape"]
 sources:
@@ -15,9 +15,9 @@ sources:
 
 # Best Cost-Cutting Tips & Shortcuts in Low-Budget Repairs
 
-Low-Budget Repairs is a game where cutting corners is the entire point. You're paid a flat fee per job, so every zloty saved is a zloty of profit — and inspectors only catch what they can see. The game launches **August 13, 2026** on Steam; until then, the demo is your lab. Below, every known shortcut, with technique, savings, and risk.
+Low-Budget Repairs is a game where cutting corners is the entire point. You're paid a flat fee per job, so every zloty saved is a zloty of profit — and inspectors only catch what they can see. The game was released on **August 13, 2026** on Steam at **$19.99**. Below, every known shortcut, with technique, savings, and risk.
 
-> **Sourcing note (updated August 10, 2026):** the full game has not launched yet, so nothing on this page comes from the release build. Techniques marked **[Demo-verified]** were confirmed working in the **July 24 demo** or the **open playtest** that started July 30. Anything marked **[Speculative — awaiting launch confirmation]** is a community theory or launch-day question. Savings percentages are player estimates from the demo, not official figures, and the release build may change inspection behavior.
+> **Sourcing note (updated 2026-10-24):** the game was released on August 13, 2026, but we have not independently verified these techniques in the release build. Techniques marked **[Demo-verified]** were confirmed working in the **July 24 demo** or the **open playtest** that started July 30. Anything marked **[Unconfirmed]** is a community theory or an item we could not verify in the release build. Savings percentages are player estimates from the demo, not official figures, and the release build may change inspection behavior.
 
 ## The Quick Reference Table
 
@@ -88,7 +88,7 @@ Low-Budget Repairs is a game where cutting corners is the entire point. You're p
 
 **Savings**: More jobs per day.
 
-**Risk**: **Very low.** No one bills you for hallway mess — though neighbors may comment. **[Speculative — awaiting launch confirmation]** The lowest-risk shortcut in the game, and the most in-character.
+**Risk**: **Very low.** No one bills you for hallway mess — though neighbors may comment. Release-build behavior is **[Unconfirmed]**. The lowest-risk shortcut in the game, and the most in-character.
 
 ## 8. Using Wrong Tools in a Pinch
 
@@ -165,4 +165,4 @@ Each shortcut raises the chance of being noticed, and visible shortcuts stack:
 - **One visible shortcut per room**: posters, mismatched tiles, or caulk lines — pick one per room so the job stays coherent.
 - **Never stack on plumbing**: a tape fix plus visible shortcuts invites a full inspection, and plumbing failures are the most expensive redo.
 
-The golden rule: make the first thing the client sees — the entrance wall, the bathroom floor — look clean, and everything hidden can be as cheap as you like. Full release on **August 13, 2026** may change inspection behavior. **[Speculative — awaiting launch confirmation]**
+The golden rule: make the first thing the client sees — the entrance wall, the bathroom floor — look clean, and everything hidden can be as cheap as you like. The release build may change inspection behavior; that is **[Unconfirmed]**.

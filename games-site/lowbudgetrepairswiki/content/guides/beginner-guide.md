@@ -2,13 +2,13 @@
 title: "Low-Budget Repairs Beginner Guide — Getting Started Tips"
 description: "Low-Budget Repairs beginner guide. Learn the satirical 1990s Polish renovation sim's core loop — accept jobs, buy cheap supplies, cut corners, get paid — plus first jobs, controls, and profit tips."
 category: "Guides"
-version: "Pre-release"
-updated: "2026-08-03"
+version: "1.0"
+updated: "2026-10-24"
 date: "2026-08-03"
 keywords: ["low-budget repairs beginner guide", "low-budget repairs getting started", "low-budget repairs tips", "low-budget repairs how to play", "low-budget repairs first job"]
 sources:
   - tier: "Official"
-    text: "Developer (Gray2RGB) and publisher (PlayWay S.A.), the August 13, 2026 launch date, and the free demo are verified against the Steam store page and publisher announcements"
+    text: "Developer (Gray2RGB) and publisher (PlayWay S.A.), the August 13, 2026 release date, and the $19.99 price are verified against the Steam store page (checked 2026-10-24); the free demo is from publisher announcements"
   - tier: "Community"
     text: "Core-loop behavior (flat fees, surface-level inspection, duct tape plumbing) is documented from the July 2026 demo by players"
   - tier: "Editorial"
@@ -17,13 +17,13 @@ sources:
 
 # Low-Budget Repairs Beginner Guide — Getting Started Tips
 
-Welcome to **Low-Budget Repairs**, the satirical first-person renovation simulator from Gray2RGB and PlayWay S.A. You play a handyman in **1990s Poland**, running a one-man renovation "business" where the goal is never to do a good job — it's to do a job that *looks* good enough to get paid. The game launches **August 13, 2026** on Steam, so this guide is based on the demo and developer previews; we'll update it as details confirm.
+Welcome to **Low-Budget Repairs**, the satirical first-person renovation simulator from Gray2RGB and PlayWay S.A. You play a handyman in **1990s Poland**, running a one-man renovation "business" where the goal is never to do a good job — it's to do a job that *looks* good enough to get paid. The game was released on **August 13, 2026** on Steam at **$19.99**. This guide is based on the demo and developer previews; release-build details we could not verify are marked **[Unconfirmed]**.
 
 ## What Is Low-Budget Repairs?
 
 Low-Budget Repairs is a first-person renovation sim with a comedic twist. Set in a run-down 1990s Polish apartment block — panel-building hallways, cramped flats, everything painted the same shade of beige — you take renovation jobs from neighbors and local characters.
 
-The comedy comes from the game's attitude: you're not a craftsman, you're a *survivor*. Every zloty counts. Paint gets watered down, holes get covered with posters, mismatched tiles are a lifestyle choice. If you've ever played a house-flipping game and thought "I could do this cheaper," this game lets you act on that thought — consequences and all. The game already has over **1 million wishlists** on Steam.
+The comedy comes from the game's attitude: you're not a craftsman, you're a *survivor*. Every zloty counts. Paint gets watered down, holes get covered with posters, mismatched tiles are a lifestyle choice. If you've ever played a house-flipping game and thought "I could do this cheaper," this game lets you act on that thought — consequences and all. The game had over **1 million wishlists** on Steam before release.
 
 ## The Core Gameplay Loop
 
@@ -116,4 +116,4 @@ The safest beginner strategy: cheap materials, clean visible work, and no risky 
 
 Low-Budget Repairs is a game about laughing at renovation norms — a satire of both the fixing-up genre and the real-life shortcuts of 1990s Poland. Play it straight or play it as a scummy contractor who paints over mold; the game supports both.
 
-The full game launches **August 13, 2026**. The demo is free on Steam if you want to practice your corner-cutting before then.
+The full game was released on **August 13, 2026** at **$19.99** on Steam. The demo is free on Steam (if it is still available) if you want to practice your corner-cutting before buying.

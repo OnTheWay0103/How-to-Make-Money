@@ -4,7 +4,8 @@ description: "Low-Budget Repairs minimum and recommended PC specs: Windows 10, 8
 category: "Reference"
 date: "2026-08-03"
 keywords: ["low-budget repairs system requirements", "low budget repairs pc specs", "low budget repairs minimum requirements", "low budget repairs recommended specs", "low budget repairs can i run it"]
-updated: "2026-08-03"
+updated: "2026-10-24"
+version: "1.0"
 related: ["faq", "painting-guide"]
 sources:
   - tier: "Official"
@@ -15,7 +16,7 @@ sources:
 
 # Low-Budget Repairs System Requirements — Can Your PC Run It?
 
-> Specs below are the official system requirements from the Steam store page (as of August 2026). They may be adjusted slightly at release.
+> Specs below are the official system requirements from the Steam store page (as of 2026-10-24). No post-release revision was found; any change is **[Unconfirmed]**.
 
 Low-Budget Repairs is a first-person renovation simulator, so it's not a graphically demanding game — but it does simulate a lot of objects in the environment, which matters for CPU and RAM. Here are the minimum and recommended specs as listed on the official Steam store page, and what they actually mean for your machine.
 
@@ -45,7 +46,7 @@ The CPU matters more than you'd expect in Low-Budget Repairs. Renovation sims tr
 
 ### GPU — RX 580 4GB / GTX 1060 6GB (min) vs RX 5700 XT / RTX 2070 (rec)
 
-The minimum GPUs are very old at this point (both launched in 2016), which is great news: almost any gaming PC from the last several years beats them. At minimum spec you can expect a playable experience at 1080p with settings dialed down — the game's art style isn't a graphics showcase, so it holds up fine. The recommended tier comfortably handles 1080p at higher settings, with headroom for high refresh rates if you want them. Exact frame rates are unconfirmed before release.
+The minimum GPUs are very old at this point (both launched in 2016), which is great news: almost any gaming PC from the last several years beats them. At minimum spec you can expect a playable experience at 1080p with settings dialed down — the game's art style isn't a graphics showcase, so it holds up fine. The recommended tier comfortably handles 1080p at higher settings, with headroom for high refresh rates if you want them. Exact frame rates are not verified — **[Unconfirmed]**; we did not benchmark the release build.
 
 ### Storage — 30 GB
 
@@ -71,10 +72,10 @@ Probably, but check your specs first:
 4. **GPU:** GTX 1060 6GB or RX 580 4GB minimum — nearly any dedicated gaming GPU from 2018 or later passes.
 5. **Storage:** 30GB free (SSD recommended, HDD acceptable).
 
-If you're near the minimum tier, try the July 2026 demo (it may return for Steam Next Fest) before committing — a flooded bathroom is a great benchmark for how the full game will run.
+If you're near the minimum tier, try the July 2026 demo if it is still available before committing — a flooded bathroom is a good benchmark for how the game runs.
 
 ---
 
 ## What About PS5 and Xbox Series X|S?
 
-Console players don't need to worry — the game runs on the standard hardware with no install size revealed beyond the 30GB PC requirement. See the [FAQ](/guides/faq) for platform details, release date, and price.
+PlayStation 5 and Xbox Series X|S versions were announced before release, but we could not verify their release status or install size as of 2026-10-24 — **[Unconfirmed]**. The verified install is the 30GB PC requirement. See the [FAQ](/guides/faq) for platform details, release date, and price.

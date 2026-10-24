@@ -2,8 +2,8 @@
 title: "Low-Budget Repairs Plumbing Guide — Fix Leaks & Pipes on the Cheap"
 description: "Low-Budget Repairs plumbing guide. How to fix leaky pipes with duct tape, sealant, and the cheapest fittings — plus the water valve rule, the tap test, flooding risks, and which plumbing jobs pay."
 category: "Guides"
-version: "Pre-release"
-updated: "2026-08-08"
+version: "1.0"
+updated: "2026-10-24"
 date: "2026-08-08"
 keywords: ["low-budget repairs plumbing", "low-budget repairs how to fix a leak", "low-budget repairs duct tape pipe", "low-budget repairs pipe repair", "low-budget repairs plumbing guide"]
 related: ["bathroom-renovation-guide", "materials-guide", "cost-cutting-tips", "renovation-jobs-guide", "inspection-guide", "tool-guide"]
@@ -11,7 +11,7 @@ related: ["bathroom-renovation-guide", "materials-guide", "cost-cutting-tips", "
 
 # Low-Budget Repairs Plumbing Guide — Fix Leaks & Pipes on the Cheap
 
-Plumbing is the scariest job category in Low-Budget Repairs — and the most misunderstood. Players avoid it because flooding a flat is the demo's most common fail, but plumbing is also where the game's biggest savings live: the difference between a proper pipe replacement and a roll of duct tape can be **70–80% of the job's supply cost**. This guide covers every known pipe fix, the water valve rule that prevents disasters, and how the plumbing check actually works. Based on the July 2026 demo; the game launches **August 13, 2026** on Steam.
+Plumbing is the scariest job category in Low-Budget Repairs — and the most misunderstood. Players avoid it because flooding a flat is the demo's most common fail, but plumbing is also where the game's biggest savings live: the difference between a proper pipe replacement and a roll of duct tape can be **70–80% of the job's supply cost**. This guide covers every known pipe fix, the water valve rule that prevents disasters, and how the plumbing check actually works. Based on the July 2026 demo; the game was released on **August 13, 2026** on Steam at **$19.99**.
 
 ## The One Rule That Prevents 90% of Failures
 
@@ -91,4 +91,4 @@ The [upgrade-priorities guide](/guides/upgrade-priorities-guide) makes the same 
 
 - Find the valve → turn it off → find the leak → tape it (several layers) → or seal it → or replace the damaged section only → dry the damage → repaint the stains → test the tap → clean up → call the client.
 
-Done right, plumbing is the highest-margin skill in the game. The full release on **August 13, 2026** may add new pipe types, fixtures, and jobs — we'll update this guide as details confirm. Until then, the free demo's flooded bathroom is the perfect place to learn the valve rule before the real contracts show up.
+Done right, plumbing is the highest-margin skill in the game. The release build may add pipe types, fixtures, and jobs beyond the demo; we have not independently verified the full release-build list — **[Unconfirmed]**. The free demo's flooded bathroom, if it is still available, remains a good place to learn the valve rule.

@@ -2,8 +2,8 @@
 title: "Low-Budget Repairs Wallpaper Guide — Hang, Scrape & Paint Over"
 description: "Low-Budget Repairs wallpaper guide. How to remove wallpaper with a chisel, hang new wallpaper cheaply, or paint over old patterns — with the techniques that pass inspection on a budget."
 category: "Guides"
-version: "Pre-release"
-updated: "2026-08-08"
+version: "1.0"
+updated: "2026-10-24"
 date: "2026-08-08"
 keywords: ["low-budget repairs wallpaper", "low-budget repairs how to remove wallpaper", "low-budget repairs how to hang wallpaper", "low-budget repairs wallpaper guide", "low-budget repairs paint over wallpaper"]
 related: ["painting-guide", "materials-guide", "tool-guide", "renovation-jobs-guide", "bathroom-renovation-guide"]
@@ -11,7 +11,7 @@ related: ["painting-guide", "materials-guide", "tool-guide", "renovation-jobs-gu
 
 # Low-Budget Repairs Wallpaper Guide — Hang, Scrape & Paint Over
 
-If you've seen the game's trailer, you know the joke: 1990s wallpaper is everywhere, and it is awful. "Why did people in the '90s love wallpaper so much?" the developers themselves ask. In Low-Budget Repairs, wallpaper is a featured task across multiple job types — and like everything else in the game, it has three prices: the proper way, the cheap way, and the way that costs nothing at all. This guide covers all three, and when each one passes inspection. Based on the July 2026 demo; the game launches **August 13, 2026** on Steam.
+If you've seen the game's trailer, you know the joke: 1990s wallpaper is everywhere, and it is awful. "Why did people in the '90s love wallpaper so much?" the developers themselves ask. In Low-Budget Repairs, wallpaper is a featured task across multiple job types — and like everything else in the game, it has three prices: the proper way, the cheap way, and the way that costs nothing at all. This guide covers all three, and when each one passes inspection. Based on the July 2026 demo; the game was released on **August 13, 2026** on Steam at **$19.99**.
 
 ## The Three-Way Decision
 
@@ -74,4 +74,4 @@ Paint-over is the default answer, but it fails visibly on glossy and heavily tex
 
 Read the contract → check the paper (flat and matte = paint over; glossy or textured = scrape) → scrape with the chisel where needed → one diluted coat, two on strong patterns → buy paper only where the contract demands → hang it roughly straight, seams in corners → tidy → call the client.
 
-Wallpaper is the game's reminder that the cheapest fix is often the one that doesn't fix anything at all — it just covers it. The full release on **August 13, 2026** will add new wallpaper types and jobs, and we'll update this guide as they confirm. Until then, the demo's repaint contracts are the perfect place to practice deciding which walls deserve scraping and which deserve a can of cheap paint.
+Wallpaper is the game's reminder that the cheapest fix is often the one that doesn't fix anything at all — it just covers it. The release build may add wallpaper types and jobs beyond the demo; we have not independently verified them — **[Unconfirmed]**. The demo's repaint contracts remain a good place to practice deciding which walls deserve scraping and which deserve a can of cheap paint.

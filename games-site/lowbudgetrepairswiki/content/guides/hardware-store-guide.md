@@ -2,15 +2,15 @@
 title: "Hardware Store Guide — Where to Buy Supplies in Low-Budget Repairs"
 description: "Low-Budget Repairs hardware store guide. How the store works, every supply category, bargain bin strategy, knock-off vs name brands, and what to always buy cheap versus what's worth full price."
 category: "Guides"
-version: "Pre-release"
-updated: "2026-08-03"
+version: "1.0"
+updated: "2026-10-24"
 date: "2026-08-03"
 keywords: ["low-budget repairs hardware store", "low-budget repairs supplies", "low-budget repairs bargain bin", "low-budget repairs where to buy", "low-budget repairs shopping"]
 ---
 
 # Hardware Store Guide — Where to Buy Supplies in Low-Budget Repairs
 
-The hardware store is your only supply source in Low-Budget Repairs, and how you shop decides whether each job makes money. This guide covers how the store works, what's on the shelves, the bargain bin, and what deserves full price. Based on the demo; the game launches **August 13, 2026** on Steam.
+The hardware store is your only supply source in Low-Budget Repairs, and how you shop decides whether each job makes money. This guide covers how the store works, what's on the shelves, the bargain bin, and what deserves full price. Based on the demo; the game was released on **August 13, 2026** on Steam at **$19.99**.
 
 ## How the Hardware Store Works
 
@@ -85,4 +85,4 @@ Think of it as a mini logistics game: the store never has everything, and profit
 4. Let the visible surfaces dictate quality spending — one "show wall" can saves a redo.
 5. Embrace the shortages — some of the funniest and most profitable jobs come from making do with what the store actually had.
 
-The full release on **August 13, 2026** may restock the store with new items and confirmed prices — check back for updates.
+The release build may stock items and prices beyond the demo; we have not independently verified them — **[Unconfirmed]**. Check back for updates.

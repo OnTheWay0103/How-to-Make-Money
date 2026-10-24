@@ -4,13 +4,14 @@ description: "Tile floors and walls the cheap way in Low-Budget Repairs: tiling 
 category: "Guides"
 date: "2026-08-03"
 keywords: ["low-budget repairs tiling guide", "low budget repairs tile floor", "low budget repairs how to tile", "low budget repairs tile cheap", "low budget repairs grout", "low budget repairs bathroom tiles"]
-updated: "2026-08-03"
+updated: "2026-10-24"
+version: "1.0"
 related: ["painting-guide", "renovation-jobs-guide", "faq"]
 ---
 
 # Low-Budget Repairs Tiling Guide — Cheapest Methods & Shortcuts
 
-> Based on the July 2026 demo. The full game launches August 13, 2026 — some details may change in the release build.
+> Based on the July 2026 demo. The game was released on August 13, 2026 — release-build details we could not verify are marked **[Unconfirmed]**.
 
 Tiling is where Low-Budget Repairs separates the renovators from the perfectionists. Tiles are expensive, tiling is slow, and the inspector — as always — checks that the surface is **covered**, not that it's *right*. Here's how to tile a bathroom or kitchen on a budget.
 

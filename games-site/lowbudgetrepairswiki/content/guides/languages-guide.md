@@ -2,8 +2,8 @@
 title: "Low-Budget Repairs Languages — Full List & What's Supported"
 description: "Low-Budget Repairs supports 18 languages with full audio and subtitles: English, Polish, Simplified Chinese, Japanese, Korean, German, French, Spanish and more. Includes the AI-assisted translation disclosure and what each language gets."
 category: "Reference"
-version: "Pre-release"
-updated: "2026-08-07"
+version: "1.0"
+updated: "2026-10-24"
 date: "2026-08-07"
 keywords: ["low-budget repairs languages", "low budget repairs language options", "low budget repairs polish", "low budget repairs english", "low budget repairs chinese support", "low budget repairs voice acting"]
 related: ["controls-guide", "faq", "price-editions-guide", "system-requirements"]
@@ -15,7 +15,7 @@ Language support matters more in Low-Budget Repairs than in most simulation game
 
 ## Confirmed Language List (18 Languages, Full Audio + Subtitles)
 
-As listed on the official Steam page for the August 13, 2026 release:
+As listed on the official Steam page at release (verified 2026-10-24):
 
 | # | Language | Interface | Full Audio | Subtitles |
 |---|----------|:---------:|:----------:|:---------:|
@@ -38,7 +38,7 @@ As listed on the official Steam page for the August 13, 2026 release:
 | 17 | Hungarian | Yes | Yes | Yes |
 | 18 | Vietnamese | Yes | Yes | Yes |
 
-That's the full list as of August 7, 2026. Notably absent: Traditional Chinese and Hindi — but nothing prevents the publisher from adding languages post-launch, and PlayWay sims have added languages in patches before.
+That's the full list as of 2026-10-24. Notably absent: Traditional Chinese and Hindi — but nothing prevents the publisher from adding languages post-release, and PlayWay sims have added languages in patches before.
 
 ## What "Full Audio" Means
 
@@ -52,7 +52,7 @@ For transparency: the developer's Steam page disclosure states that **AI was use
 
 ## How to Change the Language
 
-Standard Steam behavior applies (exact menus will be verified at launch):
+Standard Steam behavior applies (exact menus were not independently verified in the release build — **[Unconfirmed]**):
 
 - **Before install:** Steam's game properties → Language dropdown sets the install language.
 - **In game:** the settings menu should include a language option (the demo's settings structure is documented in our [controls guide](/guides/controls-guide)).
@@ -60,7 +60,7 @@ Standard Steam behavior applies (exact menus will be verified at launch):
 
 ## Console Versions
 
-The 18-language list is from the Steam listing. The **PS5 and Xbox Series X|S** versions launch the same day (August 13, 2026 — see the [PS5 guide](/guides/ps5-guide)) and will almost certainly mirror the PC language set, but their store listings haven't confirmed it yet. If you're buying on console specifically for a less-common language, check the store page before purchase or wait for post-launch confirmation.
+The 18-language list is from the Steam listing. **PS5 and Xbox Series X|S** versions were announced for the same day (August 13, 2026 — see the [PS5 guide](/guides/ps5-guide)), but we could not verify their release status or language support as of 2026-10-24 — **[Unconfirmed]**. If you're buying on console specifically for a less-common language, check the store page before purchase.
 
 ## FAQ Summary
 

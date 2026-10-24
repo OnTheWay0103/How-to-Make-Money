@@ -2,8 +2,8 @@
 title: "Low-Budget Repairs Flooring Guide — Cheap Fixes for Every Floor"
 description: "Low-Budget Repairs flooring guide. How to tile floors without a level, patch damaged boards, cover scratches with rugs, and know exactly when the contract actually requires floor work."
 category: "Guides"
-version: "Pre-release"
-updated: "2026-08-08"
+version: "1.0"
+updated: "2026-10-24"
 date: "2026-08-08"
 keywords: ["low-budget repairs flooring", "low-budget repairs floor guide", "low-budget repairs tile floor", "low-budget repairs floor repair", "low-budget repairs how to fix floor"]
 related: ["tiling-guide", "materials-guide", "inspection-guide", "renovation-jobs-guide", "upgrade-priorities-guide"]
@@ -11,7 +11,7 @@ related: ["tiling-guide", "materials-guide", "inspection-guide", "renovation-job
 
 # Low-Budget Repairs Flooring Guide — Cheap Fixes for Every Floor
 
-Floors are where beginners overspend and undershoot in equal measure: they tile entire rooms the contract never named, and they panic about floor damage the inspector never checks. The truth is simpler than both habits — floors follow the same rule as walls, with a different set of shortcuts. This guide covers which floors actually need work, how to tile a floor cheaply, and what to do with damaged boards, scratches, and stains when tiling isn't required. Based on the July 2026 demo; the game launches **August 13, 2026** on Steam.
+Floors are where beginners overspend and undershoot in equal measure: they tile entire rooms the contract never named, and they panic about floor damage the inspector never checks. The truth is simpler than both habits — floors follow the same rule as walls, with a different set of shortcuts. This guide covers which floors actually need work, how to tile a floor cheaply, and what to do with damaged boards, scratches, and stains when tiling isn't required. Based on the July 2026 demo; the game was released on **August 13, 2026** on Steam at **$19.99**.
 
 ## Do You Actually Need to Touch the Floor?
 
@@ -79,4 +79,4 @@ The floor matters most in the **bathroom** — it's the classic inspection focus
 
 Read the contract → check which rooms name the floor → bathroom gets the tiles (bought from the bargain bin, mismatched accepted, no level, no spacers) → kitchen accepts paint or linoleum → rugs cover scratches → damaged boards get replaced one-by-one → skirting gets a refresh coat → skip everything below furniture → tidy → call the client.
 
-Floors are the game's lesson in scope discipline: the cheapest floor job is the one that does exactly what the contract names and nothing more. The full release on **August 13, 2026** will add new floor types and contracts — until then, the demo's flooded bathroom is the perfect place to practice tiling only what the client pays for.
+Floors are the game's lesson in scope discipline: the cheapest floor job is the one that does exactly what the contract names and nothing more. The release build may add floor types and contracts beyond the demo; we have not independently verified them — **[Unconfirmed]**. The demo's flooded bathroom remains a good place to practice tiling only what the client pays for.

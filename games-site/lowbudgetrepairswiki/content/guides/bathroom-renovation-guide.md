@@ -2,8 +2,8 @@
 title: "Low-Budget Repairs Bathroom Renovation Guide — Toilets, Sinks & Showers"
 description: "Renovate bathrooms on a budget in Low-Budget Repairs: the flooded bathroom work order, toilet and sink repairs, shower tiling, water damage cover-ups, and which bathroom surfaces actually get inspected."
 category: "Guides"
-version: "Pre-release"
-updated: "2026-08-10"
+version: "1.0"
+updated: "2026-10-24"
 date: "2026-08-10"
 keywords:
   - "low-budget repairs bathroom renovation"
@@ -24,7 +24,7 @@ related:
 
 The bathroom is where Low-Budget Repairs teaches you everything: it's the demo's signature job, the first contract most players ever take, and the room where the game's three biggest systems — plumbing, tiling, and painting — all collide. Learn to do it cheap here, and every later room is just a variation.
 
-> Based on the July 2026 demo. The full game launches August 13, 2026 — new fixtures and job variants are expected, and anything unconfirmed is marked **[Needs launch verification]**.
+> Based on the July 2026 demo. The full game was released on August 13, 2026. New fixtures and job variants beyond the demo are **[Unconfirmed]**, and anything unconfirmed is marked accordingly.
 
 ## The Bathroom Work Order (Learn This Once)
 
@@ -92,7 +92,7 @@ Clients check five things in the bathroom, in rough priority:
 
 ## The First Job Step by Step: The Flooded Bathroom
 
-Your first contract is almost always the flooded bathroom — the demo's signature job, and the perfect introduction to the whole game. It teaches you the full loop in about **30–60 minutes**: accept the job, shop for supplies, stop the leak, repair the damage, get inspected, get paid. Based on the July 2026 demo; the full game launches **August 13, 2026**.
+Your first contract is almost always the flooded bathroom — the demo's signature job, and the perfect introduction to the whole game. It teaches you the full loop in about **30–60 minutes**: accept the job, shop for supplies, stop the leak, repair the damage, get inspected, get paid. Based on the July 2026 demo; the full game was released on **August 13, 2026**.
 
 ### Step 0: Read the Contract and Walk the Flat
 
@@ -161,7 +161,7 @@ What happens next: full payment, a grumble with payment, or a fail (no payment, 
 
 ### Example Budget: Where the Profit Comes From
 
-A typical flooded bathroom (demo estimates — exact fees unconfirmed until launch):
+A typical flooded bathroom (demo estimates — exact release-build fees are 官方未公布 **[Unconfirmed]**):
 
 | Item | Proper approach | Low-budget approach |
 |---|---|---|
@@ -185,4 +185,4 @@ That gap — the money you didn't spend — is the entire game. Every job is thi
 
 - Valve off → fix the leak → dry everything → tile the floor (cheap pack, one corner outward) → paint the walls (thick over stains) → repair fixtures → caulk the shower seams → test every tap → dry the floor → call the client.
 
-The bathroom is the game's tutorial room, and it rewards mastery more than any other: the fees are high for the work involved, and the supply costs are near zero with the cheap routes above. For the step-by-step on your first flooded bathroom, see the walkthrough section above. Launch-day fixture options and any new bathroom job variants will be added here after **August 13, 2026**.
+The bathroom is the game's tutorial room, and it rewards mastery more than any other: the fees are high for the work involved, and the supply costs are near zero with the cheap routes above. For the step-by-step on your first flooded bathroom, see the walkthrough section above. Release-build fixture options and any new bathroom job variants beyond the demo are **[Unconfirmed]**; we have not independently verified them.

@@ -2,8 +2,8 @@
 title: "Low-Budget Repairs Inspection Guide — Contracts, Permits & Passing Checks"
 description: "How the Low-Budget Repairs inspection system works: contracts, budgets, what clients check (paint coverage, tile alignment, plumbing function, visible damage, cleanliness), pass and fail criteria, penalties, the permit question, and corner-cutting risks."
 category: "Guides"
-version: "Pre-release"
-updated: "2026-08-05"
+version: "1.0"
+updated: "2026-10-24"
 date: "2026-08-05"
 keywords: ["low-budget repairs inspection", "low budget repairs pass inspection", "low budget repairs fail job", "low budget repairs client checks", "low budget repairs corner cutting risks", "low-budget repairs permits", "low-budget repairs contracts", "low-budget repairs job budget"]
 sources:
@@ -15,7 +15,7 @@ sources:
 
 # Low-Budget Repairs Inspection Guide — How Clients Judge Your Work
 
-> Based on the July 2026 demo. The inspection system may evolve in the full release (August 13, 2026) — this page will be updated with verified release-build details after launch.
+> Based on the July 2026 demo. The game was released on August 13, 2026. Release-build changes we could not verify are marked **[Unconfirmed]**.
 
 ## How the Inspection Works
 
@@ -80,13 +80,13 @@ Every job runs through two gates: the **contract** that defines what you're allo
 
 ## Is There a Formal Permit System?
 
-As of August 2026: **no permit system has been announced, shown, or hinted at.** It's not in the demo, it's not on the official store page, and pre-launch coverage of the playtest doesn't mention one. **[Needs launch verification]**
+As of 2026-10-24: **no permit system has been announced or shown.** It is not in the demo, it is not on the official store page, and pre-release coverage of the playtest did not mention one. We did not independently audit the full release build, so this remains **[Unconfirmed]**.
 
-What the full release *might* add — clearly hypothetical:
+What a future update *might* add — clearly hypothetical:
 
 - **Building-permit quests** — a "get approval before renovating" step would fit the game's bureaucratic satire, but nothing suggests it exists.
 - **Inspector visits mid-job** — the game's comedy is about the client walking in at the end; a surprise mid-job check would be a different game.
-- **Neighborhood/board approval** — the block-of-flats setting could theoretically gate some jobs on neighbor consent. Unconfirmed and unmentioned.
+- **Neighborhood/board approval** — the block-of-flats setting could theoretically gate some jobs on neighbor consent. **[Unconfirmed]** and unmentioned.
 
 Treat the absence as the likely reality: the demo's contract-and-inspection loop is almost certainly the full system, with more jobs, flats, and difficulty — not new bureaucratic layers.
 

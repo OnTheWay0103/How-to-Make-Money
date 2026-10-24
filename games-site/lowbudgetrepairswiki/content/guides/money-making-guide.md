@@ -2,8 +2,8 @@
 title: "How to Make Money Fast in Low-Budget Repairs"
 description: "How to make money fast in Low-Budget Repairs. Master the flat-fee profit formula, the best job types, cost-cutting strategies ranked by savings, and corner-cutting tricks that pass inspection."
 category: "Guides"
-version: "Pre-release"
-updated: "2026-08-03"
+version: "1.0"
+updated: "2026-10-24"
 date: "2026-08-03"
 keywords: ["low-budget repairs money", "low-budget repairs make money fast", "low-budget repairs profit", "low-budget repairs cost cutting", "low-budget repairs how to earn money"]
 sources:
@@ -17,7 +17,7 @@ sources:
 
 In Low-Budget Repairs, you're not paid for quality — you're paid a **flat fee per job**, and everything you spend comes out of your profit. Making money fast isn't about doing more work; it's about spending less on the work you do. This guide breaks down the profit formula and ranks every known money-making strategy by how much it saves.
 
-The game launches **August 13, 2026** on Steam. Everything here is based on the demo and player reports.
+The game was released on **August 13, 2026** on Steam at **$19.99**. Everything here is based on the demo and player reports; release-build differences are **[Unconfirmed]** unless noted.
 
 ## The Core Profit Formula
 
@@ -98,4 +98,4 @@ Each cover-up carries the same risk: if the client inspects closely, you're caug
 - **Hold off on plumbing until you have a float** — one flooded flat wipes out two jobs of profit.
 - **Batch renovations in the same building** — less walking, and neighbors who see you working may offer more contracts.
 
-The long-term strategy: push per-job margins above 70% on repaint jobs, use the surplus for riskier high-fee contracts, and never buy anything at full price. Until launch on **August 13, 2026**, the demo is the best place to practice your corner-cutting.
+The long-term strategy: push per-job margins above 70% on repaint jobs, use the surplus for riskier high-fee contracts, and never buy anything at full price. Since the **August 13, 2026** release, the full game is available to practice on; we have not independently verified that every demo behavior carries over — **[Unconfirmed]**.

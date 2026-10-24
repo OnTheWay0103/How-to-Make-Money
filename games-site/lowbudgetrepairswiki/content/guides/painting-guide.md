@@ -4,7 +4,8 @@ description: "Master painting in Low-Budget Repairs: how to dilute paint, which 
 category: "Guides"
 date: "2026-08-03"
 keywords: ["low-budget repairs painting guide", "low budget repairs paint tips", "low budget repairs how to paint", "low budget repairs dilute paint", "low budget repairs roller or brush", "low budget repairs best paint"]
-updated: "2026-08-03"
+updated: "2026-10-24"
+version: "1.0"
 related: ["tiling-guide", "renovation-jobs-guide", "faq"]
 sources:
   - tier: "Community"
@@ -15,7 +16,7 @@ sources:
 
 # Low-Budget Repairs Painting Guide — Tips, Shortcuts & Best Paint
 
-> Based on the July 2026 demo. The full game launches August 13, 2026 — some details may change in the release build.
+> Based on the July 2026 demo. The game was released on August 13, 2026 — release-build details we could not verify are marked **[Unconfirmed]**.
 
 Painting is the bread-and-butter of **Low-Budget Repairs**. Almost every job in the 1990s Polish blocks asks you to cover at least one wall, and painting is where you'll learn the game's central lesson: **the inspector checks coverage, not craftsmanship.** A passable paint job needs to look finished from arm's length — nothing more.
 
@@ -53,7 +54,7 @@ Rule of thumb: if you can't see it from the doorway with the lights on, neither 
 
 ## Paint Types and Their Differences
 
-The shop sells paint in roughly three tiers (prices unconfirmed):
+The shop sells paint in roughly three tiers (in-game prices are 官方未公布 — **[Unconfirmed]**):
 
 | Paint tier | Coverage | Coats needed | Best use |
 |------------|----------|--------------|----------|

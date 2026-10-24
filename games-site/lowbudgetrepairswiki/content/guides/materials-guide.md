@@ -2,8 +2,8 @@
 title: "Low-Budget Repairs Materials Guide — What to Buy and Where to Save"
 description: "Low-Budget Repairs materials guide. Every supply type — paint, thinner, adhesives, tiles, grout, wallpaper, plumbing parts, furniture — with dilution ratios, substitution tricks, and where to save on each."
 category: "Guides"
-version: "Pre-release"
-updated: "2026-08-07"
+version: "1.0"
+updated: "2026-10-24"
 date: "2026-08-07"
 keywords: ["low-budget repairs materials", "low-budget repairs supplies", "low-budget repairs paint", "low-budget repairs what to buy", "low-budget repairs cheap materials"]
 related: ["hardware-store-guide", "tool-guide", "painting-guide", "tiling-guide"]
@@ -11,7 +11,7 @@ related: ["hardware-store-guide", "tool-guide", "painting-guide", "tiling-guide"
 
 # Low-Budget Repairs Materials Guide — What to Buy and Where to Save
 
-Tools you buy once; materials you buy for every job — and they're where beginners lose the most money. This guide covers every material category in Low-Budget Repairs: what it does, what the cheapest acceptable version is, and where a few zlotys more are actually worth it. Based on the July 2026 demo; launch is **August 13, 2026**. For how the store itself works — bargain bin, stock rotation, brands — see the [hardware store guide](/guides/hardware-store-guide).
+Tools you buy once; materials you buy for every job — and they're where beginners lose the most money. This guide covers every material category in Low-Budget Repairs: what it does, what the cheapest acceptable version is, and where a few zlotys more are actually worth it. Based on the July 2026 demo; the game was released on **August 13, 2026** at **$19.99**. For how the store itself works — bargain bin, stock rotation, brands — see the [hardware store guide](/guides/hardware-store-guide).
 
 ## Paint: Your Biggest Expense, Your Biggest Saving
 
@@ -96,4 +96,4 @@ The result is uglier than the "proper" material, but inspectors rarely look that
 | Furniture (refurbish first) | — |
 | Thinner (buy in bulk, always) | — |
 
-In practice, almost every material is a "spend cheap" item — the only exception is the show-wall paint, and even that is optional when the bin has a usable can. The complete shopping framework is in the [hardware store guide](/guides/hardware-store-guide), and the tools you pair these materials with are covered in the [tool guide](/guides/tool-guide). Launch on **August 13, 2026** may add new materials — we'll update this page as prices and products confirm.
+In practice, almost every material is a "spend cheap" item — the only exception is the show-wall paint, and even that is optional when the bin has a usable can. The complete shopping framework is in the [hardware store guide](/guides/hardware-store-guide), and the tools you pair these materials with are covered in the [tool guide](/guides/tool-guide). The release build may add materials beyond the demo; we have not independently verified release-build prices and products — **[Unconfirmed]**.

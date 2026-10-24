@@ -4,18 +4,19 @@ description: "Every renovation job type in Low-Budget Repairs: flooded bathrooms
 category: "Guides"
 date: "2026-08-03"
 keywords: ["low-budget repairs jobs", "low budget repairs job list", "low budget repairs renovation jobs", "low budget repairs flooded bathroom", "low budget repairs kitchen renovation", "low budget repairs plumbing"]
-updated: "2026-08-03"
+updated: "2026-10-24"
+version: "1.0"
 related: ["painting-guide", "tiling-guide", "faq"]
 sources:
   - tier: "Community"
     text: "The five demo job types and their shortcut strategies are documented from the July 2026 demo by players"
   - tier: "Editorial"
-    text: "Job difficulty and profit estimates are our assessment, flagged as unconfirmed until launch"
+    text: "Job difficulty and profit estimates are our editorial assessment; release-build payouts are 官方未公布 [Unconfirmed]"
 ---
 
 # All Renovation Jobs in Low-Budget Repairs — Complete List & Tips
 
-> Job list based on the July 2026 demo and official previews. The full release (August 13, 2026) will add more contracts — exact payouts are unconfirmed until launch.
+> Job list based on the July 2026 demo and official previews. The game was released on August 13, 2026; release-build payouts beyond the demo are 官方未公布 — **[Unconfirmed]**.
 
 Every contract in **Low-Budget Repairs** is a renovation job with a client, a flat, and a budget. Your job is to finish it for less than the budget and pocket the difference — the bigger the gap between what you spend and what the client pays, the bigger your profit.
 
@@ -105,7 +106,7 @@ The demo shows the start of the progression loop; the full game expands it. What
 - **Complete jobs successfully.** Failed or botched inspections set your reputation back and can cost you future work.
 - **Accept everything early.** Job availability in the demo scales with how many contracts you've done, so taking small jobs unlocks bigger ones.
 - **Mind the budget.** Finishing well under budget is how you grow — spending the client's money on premium materials doesn't earn extra reputation.
-- **More jobs at release.** The August 13 launch adds jobs beyond the demo's five core types, so expect the list above to be the base, not the ceiling.
+- **More jobs in the release build.** The August 13, 2026 release was expected to add jobs beyond the demo's five core types. We have not independently verified the full release-build list — **[Unconfirmed]** — so treat the list above as the demo base, not the ceiling.
 
 ---
 

@@ -1,35 +1,35 @@
 ---
-title: "Low-Budget Repairs Review — Early Verdict from the Demo"
-description: "Low-Budget Repairs review and buyers guide. The demo's ~90% positive reception, what the gameplay actually feels like, strengths and weaknesses, a scorecard, who should buy and who should wait — an honest pre-launch verdict before August 13."
+title: "Low-Budget Repairs Review — Demo Verdict & Post-Launch Status"
+description: "Low-Budget Repairs review and buyers guide. The demo's ~90% positive reception, what the gameplay actually feels like, strengths and weaknesses, an editorial scorecard, and the verified post-launch status: released August 13, 2026 at $19.99 on Steam."
 category: "Game Info"
-version: "Pre-release"
-updated: "2026-08-08"
+version: "1.0"
+updated: "2026-10-24"
 date: "2026-08-08"
 keywords: ["low-budget repairs review", "low-budget repairs demo review", "is low-budget repairs good", "low-budget repairs impressions", "low-budget repairs score", "is low-budget repairs worth it", "should i buy low-budget repairs"]
 related: ["demo-guide", "games-like-low-budget-repairs", "release-hub", "how-long-to-beat", "price-editions-guide"]
 sources:
   - tier: "Community"
-    text: "The demo's ~90% positive rating from ~330 ratings is attributed in the guide to GameGrin's demo roundup; 1M+ wishlist figures are store-reported as of August 2026"
+    text: "The demo's ~90% positive rating from ~330 ratings is attributed in the guide to GameGrin's demo roundup; 1M+ wishlist figures are store-reported as of August 2026; the release date, $19.99 price, and Steam review summary (Mixed, checked 2026-10-24) are verified against the Steam store page"
   - tier: "Editorial"
-    text: "The pre-launch verdict, scorecard, and who-should-buy analysis are our assessment of demo evidence"
+    text: "The scorecard and who-should-buy analysis remain our editorial assessment of demo evidence; they are not a verified full-game review score"
 ---
 
-# Low-Budget Repairs Review — Early Verdict from the Demo
+# Low-Budget Repairs Review — Demo Verdict & Post-Launch Status
 
-The honest starting point: **there are no full-game reviews of Low-Budget Repairs yet.** It launches **August 13, 2026**, and no publication has reviewed a game that isn't out. But we do have something almost as useful — a free demo that's been played by thousands of people, rated **roughly 90% positive from about 330 ratings** on Steam (as reported in GameGrin's roundup of the week's top demos, late July 2026). That's real player sentiment on the actual gameplay, not trailer hype. This review assesses what the demo proves, what's still unknown, where the game likely lands on launch day, and whether it's worth your money. We'll update this page with the full-game verdict after August 13.
+The honest starting point: **Low-Budget Repairs was released on August 13, 2026 at $19.99 USD on Steam (PC/Windows).** No Metacritic critic score was available when we checked on 2026-10-24, and we have not collected a reliable sample of review text, so this page does not invent a full-game score. What we do have is a free demo that was played by thousands of people and rated **roughly 90% positive from about 330 ratings** on Steam (as reported in GameGrin's roundup of the week's top demos, late July 2026), plus the live Steam user-review summary: **Mixed (checked 2026-10-24)**. This review assesses what the demo proves, what the release status confirms, and whether the game is worth your money — with editorial judgments clearly separated from verified facts.
 
-## The Evidence So Far (Pre-Launch)
+## The Evidence So Far
 
 | Signal | Status | What it tells you |
 |--------|--------|-------------------|
-| Steam wishlists | **1M+** | Massive anticipation — one of the biggest sim launches of 2026 |
+| Steam wishlists (pre-release) | **1M+** | Massive anticipation before the August 13, 2026 release |
 | Demo release | July 24, 2026, free | The full core loop is publicly testable — rare for the genre |
 | Demo reception | **~90% positive** (~330 ratings, late July 2026, per GameGrin's demo roundup) | Players who actually played it overwhelmingly liked it |
-| Steam curators | 29 have reviewed the store page | Real industry attention ahead of launch |
-| Price | ~$19.99 expected | Mid-tier impulse-buy range (full details in the [price & editions guide](/guides/price-editions-guide)) |
-| Review scores | None yet — game unreleased | No Metacritic/OpenCritic data until launch day |
+| Steam curators | 29 had reviewed the store page (pre-release) | Real industry attention ahead of release |
+| Price | **$19.99** (verified 2026-10-24) | Mid-tier impulse-buy range (full details in the [price & editions guide](/guides/price-editions-guide)) |
+| Review scores | Steam user reviews: **Mixed** (checked 2026-10-24); no Metacritic critic score | 2,477 Steam-purchase reviews; English summary Mixed across 654 reviews |
 
-The two numbers that matter most: **1M+ wishlists** and a **~90% positive demo rating**. Wishlists measure hype; the demo rating measures what *players who actually touched the game* think. When both are strong, the launch-day reviews usually follow — but that's a pattern, not a promise.
+The two numbers that matter most: **1M+ pre-release wishlists** and a **~90% positive demo rating**. Wishlists measured hype; the demo rating measured what *players who actually touched the game* thought. The live release signal is now the Steam user-review summary — **Mixed (checked 2026-10-24)** — which is weaker than the demo reception and is the main reason to read the caveats below.
 
 ## What the Demo Proves
 
@@ -56,7 +56,7 @@ The demo loop plays like a puzzle wrapped in a renovation sim:
 
 **3. Systems depth hidden under the slapstick.** Paint dilution ratios, inspection sight-lines, tool durability, bargain-bin economics — players are already finding depth the trailer never hinted at. The [cost-cutting tips guide](/guides/cost-cutting-tips) lists dozens of community-discovered shortcuts.
 
-**4. Strong demo-to-full-game promise.** The demo is the same game cut short, not simplified — which is exactly why the 90% positive rating is meaningful for the full release.
+**4. Strong demo-to-full-game promise.** The demo was the same game cut short, not simplified — which is why the 90% positive demo rating was meaningful evidence for the full release. The post-release Steam summary (Mixed, checked 2026-10-24) shows that promise has not translated into universal praise.
 
 **5. A polished presentation for the genre.** Full voice acting in 18 languages ([languages guide](/guides/languages-guide)), Steam Achievements, Cloud saves, and Family Sharing confirmed on the store page.
 
@@ -66,11 +66,11 @@ The demo loop plays like a puzzle wrapped in a renovation sim:
 
 **2. The joke can wear thin — or not, depending on you.** The entire game is one joke ("cheapest job that passes") played at increasing scale. If the satire lands, it lands for 10–20 hours ([how long to beat](/guides/how-long-to-beat)); if it doesn't, there's nothing underneath. The demo answers this question for you in an hour — that's what it's for.
 
-**3. The full campaign is unverified.** The demo shows 3–5 job types and a handful of flats. The full game promises the complete job list, harder contracts, and the progression loop (per pre-launch coverage, restoring the handyman's inherited house — unconfirmed) — but none of that is publicly playable until August 13. Launch-day reviews will be the first real test.
+**3. The full campaign is now playable, but not independently audited by us.** The demo shows 3–5 job types and a handful of flats. The release build is out, but we have not verified the complete job list, the harder contracts, or the progression loop (pre-release coverage mentioned restoring the handyman's inherited house — **[Unconfirmed]**). Steam user reviews are Mixed as of 2026-10-24, so content volume and difficulty curve remain open questions.
 
 **4. Performance on lower-end PCs is a genuine question mark.** The minimum spec on the Steam store page is a GTX 1060 / RX 580-class GPU with a **30GB install** ([system requirements](/guides/system-requirements)) — the demo is the free way to test your machine before you buy.
 
-**5. No full-release review score exists.** Anyone promising you a Metacritic score today is guessing. The demo rating is the best evidence available, and it's strong — but it's not the full game.
+**5. No critic review score exists.** No Metacritic critic score was available when we checked on 2026-10-24. The Steam user-review summary is **Mixed**; the demo rating remains strong evidence about the core loop, but it is not the full-game verdict.
 
 ## What You're Actually Buying (Day-One Confirmed)
 
@@ -81,9 +81,9 @@ The demo loop plays like a puzzle wrapped in a renovation sim:
 - **No Early Access** — this is a full release, not a buy-in to a work-in-progress.
 - **No multiplayer** — single-player only, by design.
 
-What's *not* confirmed: the exact price (expected ~$19.99), any launch discount, preload, and post-launch DLC plans — all covered in the [FAQ](/guides/faq).
+The price is confirmed at **$19.99** (Steam, checked 2026-10-24) with no discount at the time of writing. Still unconfirmed: preload history (**[Unconfirmed]**) and post-launch DLC plans — all covered in the [FAQ](/guides/faq).
 
-## The Scorecard (Pre-Launch, Demo-Based)
+## The Scorecard (Editorial, Demo-Based)
 
 | Category | Score | Notes |
 |---|---|---|
@@ -91,12 +91,12 @@ What's *not* confirmed: the exact price (expected ~$19.99), any launch discount,
 | Comedy / writing | 9/10 | The premise delivers; physical comedy lands |
 | Atmosphere | 8/10 | 1990s Poland is thick, specific, and nostalgic |
 | Depth / systems | 8/10 | Hidden layers under the slapstick |
-| Content volume | 6/10 | Only the demo is verifiable today |
-| Performance | 7/10 | Unconfirmed at full scale; test the demo first |
+| Content volume | 6/10 | Demo-verified; release-build content is not independently audited |
+| Performance | 7/10 | Not independently benchmarked; the demo remains the free test |
 | Replay value | 8/10 | Trying faster, cheaper runs is the draw |
-| **Overall (pre-launch)** | **8/10** | Strong demo, promising full game, verdict pending |
+| **Overall (editorial)** | **8/10** | Strong demo and core loop; live Steam reception is Mixed (checked 2026-10-24) |
 
-Scores are a pre-launch estimate from the demo and player reports — we'll revise them with the full-game verdict after August 13.
+Scores are an editorial estimate from the demo and player reports, not a verified full-game review score. The release date, price, and Steam review summary were verified on 2026-10-24.
 
 ## Who It's For
 
@@ -114,12 +114,12 @@ Consider holding off if:
 - **You want serious, realistic renovation.** The game is a comedy first — if unlevel tiles and watered-down paint offend your inner contractor, it's not for you.
 - **You need multiplayer or co-op.** There is none, on any platform.
 - **You're on a low-end PC.** Check the [system requirements](/guides/system-requirements) first — the minimum tier is GTX 1060 / RX 580-class, and the demo is a free way to test your machine.
-- **You want to see launch-day reviews.** Nothing wrong with waiting 48 hours after August 13 for the full-release review roundup. We'll be collecting post-launch impressions right here after launch.
+- **You want to see how the release build is received.** Steam user reviews are currently **Mixed (checked 2026-10-24)**, so waiting for more reviews is a reasonable choice. We have not collected a reliable sample of review text.
 
-## The Verdict (Pre-Launch)
+## The Verdict (Editorial, Demo-Based)
 
-**Low-Budget Repairs looks like one of the strongest sim launches of 2026 — on the strength of the most playable evidence a game can have: a ~90% positive demo.** The core loop is proven fun, the comedy works in motion, and the setting is unlike anything else in the genre. The open questions are all about the full campaign — content volume, difficulty curve, and whether the joke sustains — and those get answered on launch day.
+**Low-Budget Repairs looked like one of the strongest sim launches of 2026 on the strength of the most playable evidence a game can have: a ~90% positive demo.** The core loop is proven fun, the comedy works in motion, and the setting is unlike anything else in the genre. The game is now out (August 13, 2026, $19.99 on Steam), and the live Steam user-review summary is **Mixed (checked 2026-10-24)** — so the open questions about content volume, difficulty curve, and whether the joke sustains are still unresolved in the release build.
 
-**If the demo won you over, buy it** — the full game is that game, bigger. At the expected ~$19.99 (possibly lower with a launch-week discount — see the [price guide](/guides/price-editions-guide)), you're paying the same price as the original House Flipper for a campaign that's expected to run 10–20 hours with heavy replay value. **If you skipped the demo, the answer is: play the demo.** It's free, it takes 30–60 minutes for its signature flooded-bathroom job, and it answers "is this worth it" better than any review will. **If you're still unsure after the demo**, wait for launch-day reviews and the launch-week discount.
+**If the demo won you over, the full game is that game, bigger** — at **$19.99** (verified 2026-10-24; see the [price guide](/guides/price-editions-guide)), the same price as the original House Flipper, for a campaign we estimate at 10–20 hours with heavy replay value **[Unconfirmed]**. **If you skipped the demo, try it if it is still listed.** It is free, it takes 30–60 minutes for its signature flooded-bathroom job, and it answers "is this worth it" better than any review will. **If you are still unsure**, the Mixed Steam user-review summary (checked 2026-10-24) is a reason to read more before buying.
 
-**What to do on August 13:** the game unlocks at 14:00 UTC ([release hub](/guides/release-hub)); full-game reviews will follow within hours, and this page will carry the post-launch verdict right here. Until then: 8/10 from the demo, with the full-game score pending.
+**What happened on August 13:** the game unlocked at 14:00 UTC ([release hub](/guides/release-hub)) and has been on sale at $19.99 since. We have not produced a verified full-game score; the 8/10 above remains an editorial demo-based verdict, and the live Steam user-review summary is Mixed (checked 2026-10-24).

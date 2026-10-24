@@ -2,8 +2,8 @@
 title: "Low-Budget Repairs Demolition Guide — Tear Out Walls & Old Fixtures Fast"
 description: "Demolition in Low-Budget Repairs: removing tiles and wallpaper, taking out old fixtures, throwing furniture out the window, dumpster finds, debris handling, and how to demolish cheap and safe."
 category: "Guides"
-version: "Pre-release"
-updated: "2026-08-10"
+version: "1.0"
+updated: "2026-10-24"
 date: "2026-08-10"
 keywords:
   - "low-budget repairs demolition"
@@ -24,7 +24,7 @@ related:
 
 Every renovation in Low-Budget Repairs starts the same way: with a flat full of things that need to come out. Old tiles, ruined wallpaper, busted fixtures, and furniture that blocks the work — the demo's demolition loop is short, but it hides more profit than any other phase of a job. Demolition is also where the game's most famous stunts live: the furniture that goes out the window, and the dumpster that gives it back.
 
-> Based on the July 2026 demo and pre-launch coverage of the open playtest (started July 30, 2026). The full game launches August 13, 2026 — anything unverified is marked **[Needs launch verification]**.
+> Based on the July 2026 demo and pre-release coverage of the open playtest (started July 30, 2026). The game was released on August 13, 2026 — anything we could not verify in the release build is marked **[Unconfirmed]**.
 
 ## What Demolition Exists in the Demo
 
@@ -36,20 +36,20 @@ The demo's demolition is practical, not structural. You're tearing out **finishe
 - **Furniture removal** — the big, satisfying part. See the window trick below.
 - **Damage clearing** — kicked-in drywall, broken plaster, and water-ruined sections get opened up before repair.
 
-The one thing the demo does *not* confirm is **interior wall demolition** — knocking actual load-bearing or partition walls down to change a flat's layout. **[Needs launch verification]** Nothing in the demo or official coverage suggests walls come down between rooms, so plan around finishing walls, not removing them.
+The one thing the demo does *not* confirm is **interior wall demolition** — knocking actual load-bearing or partition walls down to change a flat's layout. We could not verify this in the release build — **[Unconfirmed]**. Nothing in the demo or official coverage suggests walls come down between rooms, so plan around finishing walls, not removing them.
 
 ## The Window Trick: Furniture Out, Fast
 
-Pre-launch coverage of the game is explicit: **furniture that doesn't fit through the door goes out the window** — and the throw carries real risk, because what goes down can damage what's below. This is the demo's most famous mechanic and the fastest furniture removal in the game:
+Pre-release coverage of the game is explicit: **furniture that doesn't fit through the door goes out the window** — and the throw carries real risk, because what goes down can damage what's below. This is the demo's most famous mechanic and the fastest furniture removal in the game:
 
 - **It's faster than carrying.** A sofa down the stairs is minutes of hauling; a sofa out the window is one throw. Time is money — the [money-making guide](/guides/money-making-guide) counts every hour.
 - **There's a risk below.** "Risking damage to things below" is confirmed. A busted car roof or a damaged courtyard becomes your problem, and visible damage outside the flat is damage the neighbors notice.
 - **Check what's below before you throw.** Courtyard clear and nothing parked = free removal. Something fragile below = carry the furniture down the stairs like a normal person.
-- **The window trick pairs with the inspection risk table** — the [inspection guide](/guides/inspection-guide) notes nobody inspects the courtyard. Yet. **[Speculative — awaiting launch confirmation]** — a launch build may change exactly whose window it is.
+- **The window trick pairs with the inspection risk table** — the [inspection guide](/guides/inspection-guide) notes nobody inspects the courtyard. That behavior in the release build is **[Unconfirmed]**.
 
 ## The Dumpster: Where Furniture Goes to Be Reborn
 
-The game's confirmed furniture economy has a second side: **dumpster finds.** Pre-launch coverage describes replacing old furniture with "flea-infested dumpster finds" — the game lets you pull usable furniture out of the dumpster and put it in the flat.
+The game's confirmed furniture economy has a second side: **dumpster finds.** Pre-release coverage describes replacing old furniture with "flea-infested dumpster finds" — the game lets you pull usable furniture out of the dumpster and put it in the flat.
 
 - **Check the dumpster before you buy new.** If a contract needs furniture and the dumpster has a piece that covers the requirement, that's a free item — the most profitable source in the game.
 - **Flea-infested is fine, visibly broken is not.** The inspector judges by appearance from the doorway; a cleaned-up dumpster find passes. A shattered one doesn't.
@@ -94,4 +94,4 @@ From the [tool guide](/guides/tool-guide):
 
 - Read the contract → valve off / breaker off before cutting → remove only what's named → salvage anything reusable → check the dumpster before buying → throw furniture out the window only when the courtyard is clear → haul or hallway the debris → clean up before painting and tiling.
 
-Demolition is the phase where time is money and money is salvage. Do it fast, keep what's useful, and the rest of the job starts with a head start. After the **August 13, 2026** launch, this guide will be updated with confirmed structural demolition details — if the release build lets you knock through a wall, we'll be the first to tell you how to do it cheap.
+Demolition is the phase where time is money and money is salvage. Do it fast, keep what's useful, and the rest of the job starts with a head start. The game was released on **August 13, 2026**; structural demolition details we could not verify in the release build remain **[Unconfirmed]**.

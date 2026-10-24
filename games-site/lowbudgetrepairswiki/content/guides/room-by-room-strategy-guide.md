@@ -2,8 +2,8 @@
 title: "Low-Budget Repairs Room-by-Room Strategy — Which Rooms to Tackle First"
 description: "Which rooms to renovate first in Low-Budget Repairs: ROI by room type, the demo's job order, where the inspection actually looks, and how to plan a full flat makeover for maximum profit."
 category: "Guides"
-version: "Pre-release"
-updated: "2026-08-10"
+version: "1.0"
+updated: "2026-10-24"
 date: "2026-08-10"
 keywords:
   - "low-budget repairs room strategy"
@@ -23,7 +23,7 @@ related:
 
 Every renovation job in Low-Budget Repairs is a sequence of rooms, and the order you work them decides both your profit and your sanity. The demo's job list teaches a clear progression — flooded bathroom, plumbing emergencies, living room refreshes, kitchen renovations, and the complete flat makeover — and each room type has its own cost profile. This guide ranks them by what they pay, what they cost, and what the inspection actually looks at.
 
-> Based on the July 2026 demo. The full game launches August 13, 2026 — late-game rooms and job variants are unconfirmed and marked **[Needs launch verification]**.
+> Based on the July 2026 demo. The full game was released on August 13, 2026. Late-game rooms and job variants beyond the demo are **[Unconfirmed]**.
 
 ## The Demo's Job Order Is the Difficulty Curve
 
@@ -89,7 +89,7 @@ The most profitable fact about the "extra" rooms is that they're usually **optio
 The complete flat makeover is the demo's boss job: every room, one inspection, and a fee that pays like several small jobs. The order inside the job matters more than the job itself:
 
 1. **Walk the whole flat and read the contract.** List every required surface before buying anything.
-2. **Fix all systems first.** Plumbing and (in the release build, per the playtest) electrical issues before any paint or tile — wet or live work ruins finished work.
+2. **Fix all systems first.** Plumbing and (in the release build, per the playtest — **[Unconfirmed]**) electrical issues before any paint or tile — wet or live work ruins finished work.
 3. **Work back to front.** Start in the farthest rooms (bedrooms, kitchen) and finish at the entrance. The last room you touch is the first one the client sees.
 4. **One shop trip.** Buy everything in the plan at once; return trips on a makeover are the biggest time leak in the game.
 5. **Save one shortcut per room.** The makeover is the purest test of the "one visible shortcut per room" rule from the [cost-cutting guide](/guides/cost-cutting-tips) — visible shortcuts stack into an obvious pattern.
@@ -108,4 +108,4 @@ The complete flat makeover is the demo's boss job: every room, one inspection, a
 - Fix systems before finishes, work back to front, and leave the entrance wall for last.
 - One visible shortcut per room, always.
 
-The demo's five job types are the skeleton of the full campaign — the launch build on **August 13, 2026** will add rooms, flats, and probably a couple of surprises. When they're confirmed, this page gets the updated rankings.
+The demo's five job types are the skeleton of the full campaign. The release build may add rooms, flats, and other content; we have not independently verified the full release-build job list — **[Unconfirmed]**. When we can confirm it, this page gets updated rankings.

@@ -2,8 +2,8 @@
 title: "Low-Budget Repairs Job Profit Guide — Maximize Profit on Every Job"
 description: "Maximize profit on every Low-Budget Repairs job. Per-job margin math, target margins for each contract type, when to decline a job, buy lists, and example profit breakdowns."
 category: "Guides"
-version: "Pre-release"
-updated: "2026-08-07"
+version: "1.0"
+updated: "2026-10-24"
 date: "2026-08-07"
 keywords: ["low-budget repairs job profit", "low-budget repairs most profitable jobs", "low-budget repairs profit per job", "low-budget repairs margin", "low-budget repairs which jobs to take"]
 related: ["money-making-guide", "renovation-jobs-guide", "bathroom-renovation-guide", "cost-cutting-tips"]
@@ -11,7 +11,7 @@ related: ["money-making-guide", "renovation-jobs-guide", "bathroom-renovation-gu
 
 # Low-Budget Repairs Job Profit Guide — Maximize Profit on Every Job
 
-The money-making guide covers the big picture — the profit formula and every cost-cutting strategy. This guide is the per-job playbook: **what margin to target on each contract type, what eats your profit, and when to turn a job down.** In Low-Budget Repairs you're paid a flat fee, so every job is a cost-minimization puzzle. Based on the July 2026 demo; launch is **August 13, 2026**.
+The money-making guide covers the big picture — the profit formula and every cost-cutting strategy. This guide is the per-job playbook: **what margin to target on each contract type, what eats your profit, and when to turn a job down.** In Low-Budget Repairs you're paid a flat fee, so every job is a cost-minimization puzzle. Based on the July 2026 demo; the game was released on **August 13, 2026** at **$19.99** on Steam.
 
 ## The Margin Math
 
@@ -99,8 +99,8 @@ Every store return trip is lost time, and time is the input you can't buy. Befor
 | Kitchen renovation | 400 | 180 (paint, splashback tiles, worktop refit) | 220 | 55% |
 | Plumbing emergency | 300 | 130 (fitting, cleanup, paint) | 170 | 57% |
 
-(Values are illustrative from demo pricing — exact fees unconfirmed until launch.)
+(Values are illustrative from demo pricing — exact in-game fees are 官方未公布 **[Unconfirmed]**.)
 
 ## The Long Game
 
-Margins compound. Bank the 80–90% repaint margins, use the surplus to take high-fee kitchen and makeover contracts, and let the bargain bin stock dictate which jobs are profitable on any given day. Track your own per-job margins like a real contractor — the player who knows their numbers is the one whose block of flats gets renovated by launch week. For the full strategy framework, see the [money-making guide](/guides/money-making-guide).
+Margins compound. Bank the 80–90% repaint margins, use the surplus to take high-fee kitchen and makeover contracts, and let the bargain bin stock dictate which jobs are profitable on any given day. Track your own per-job margins like a real contractor — the player who knows their numbers is the one whose block of flats gets renovated fastest. For the full strategy framework, see the [money-making guide](/guides/money-making-guide).

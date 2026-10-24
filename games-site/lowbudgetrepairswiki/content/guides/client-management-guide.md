@@ -2,8 +2,8 @@
 title: "Low-Budget Repairs Client Management — Handling Tenants, Requests & Complaints"
 description: "How to handle clients in Low-Budget Repairs. Reading tenant requests, required vs optional work, the inspection relationship, complaints and redo demands, reputation, repeat clients, and when to decline a job."
 category: "Guides"
-version: "Pre-release"
-updated: "2026-08-07"
+version: "1.0"
+updated: "2026-10-24"
 date: "2026-08-07"
 keywords: ["low-budget repairs client management", "low-budget repairs tenants", "low-budget repairs complaints", "low-budget repairs reputation", "low-budget repairs repeat clients"]
 related: ["inspection-guide", "renovation-jobs-guide", "job-profit-guide", "beginner-guide"]
@@ -11,7 +11,7 @@ related: ["inspection-guide", "renovation-jobs-guide", "job-profit-guide", "begi
 
 # Low-Budget Repairs Client Management — Handling Tenants, Requests & Complaints
 
-The clients of Low-Budget Repairs are the neighbors and local characters of a 1990s Polish apartment block — people who want their flats fixed for as little money as possible, and who are exactly as observant as they need to be. Managing them is half the game: read their requests right, pass their inspections, survive their complaints, and they become your repeat business. Based on the July 2026 demo; launch is **August 13, 2026**.
+The clients of Low-Budget Repairs are the neighbors and local characters of a 1990s Polish apartment block — people who want their flats fixed for as little money as possible, and who are exactly as observant as they need to be. Managing them is half the game: read their requests right, pass their inspections, survive their complaints, and they become your repeat business. Based on the July 2026 demo; the game was released on **August 13, 2026** at **$19.99**.
 
 ## Reading the Request: Required vs. Optional
 
@@ -74,4 +74,4 @@ The game has no dialogue system — "communication" is what you leave behind in 
 - **Don't** leave your tools and cans where the client walks.
 - **Don't** paint yourself into a corner with a second visit — clients who wait get impatient, and impatience reads as suspicion.
 
-Manage the clients right and the money follows: their complaints stay at grumble level, their fees land in your pocket, and their neighbors become your next job board. For the mechanic side of the relationship — exactly what each client checks and catches — see the [inspection guide](/guides/inspection-guide). Everything here is based on the demo; the full release on **August 13, 2026** may add new client types and requests, and we'll update this guide after launch.
+Manage the clients right and the money follows: their complaints stay at grumble level, their fees land in your pocket, and their neighbors become your next job board. For the mechanic side of the relationship — exactly what each client checks and catches — see the [inspection guide](/guides/inspection-guide). Everything here is based on the demo; the release build may add client types and requests beyond the demo, which we have not independently verified — **[Unconfirmed]**.

@@ -1,9 +1,9 @@
 ---
 title: "How Long Is Low-Budget Repairs? Length, Playtime & Completion Time"
-description: "How long to beat Low-Budget Repairs? The demo takes 30-60 minutes per job (2-4 hours total). Full campaign length is unconfirmed, but genre benchmarks and job counts suggest 10-20 hours for the main campaign."
+description: "How long to beat Low-Budget Repairs? The demo takes 30-60 minutes per job (2-4 hours total). No official campaign length has been published ([Unconfirmed]); genre benchmarks and job counts suggest 10-20 hours for the main campaign."
 category: "Game Info"
-version: "Pre-release"
-updated: "2026-08-07"
+version: "1.0"
+updated: "2026-10-24"
 date: "2026-08-07"
 keywords: ["low-budget repairs how long to beat", "low budget repairs game length", "low budget repairs playtime", "low budget repairs hours of gameplay", "low budget repairs campaign length"]
 related: ["demo-guide", "renovation-jobs-guide", "faq", "release-hub"]
@@ -11,7 +11,7 @@ related: ["demo-guide", "renovation-jobs-guide", "faq", "release-hub"]
 
 # How Long Is Low-Budget Repairs? Length, Playtime & Completion Time
 
-"How long is it?" is the question every player asks before a purchase, and for Low-Budget Repairs the honest answer is: **the full campaign length hasn't been officially announced.** The game launches on August 13, 2026, and no playtime estimate, "time to beat," or content-hour count has been published by Gray2RGB or PlayWay. What we *can* do is give you precise numbers for the demo — which is publicly measurable — and an informed estimate for the full release, clearly labeled as such.
+"How long is it?" is the question every player asks before a purchase, and for Low-Budget Repairs the honest answer is: **the full campaign length has not been officially announced.** The game was released on August 13, 2026, and we found no official playtime estimate, "time to beat," or content-hour count from Gray2RGB or PlayWay as of 2026-10-24 — **官方未公布 / [Unconfirmed]**. What we *can* do is give you precise numbers for the demo — which is publicly measurable — and an editorial estimate for the full release, clearly labeled as such.
 
 ## Confirmed: The Demo's Length
 
@@ -28,11 +28,11 @@ The demo covers roughly 3–5 starter job types on a handful of flats — a vert
 
 No official length exists yet, so here's the math that shapes expectations — all estimates, nothing more:
 
-- **Job count scales up.** The full release includes the complete job list and many more flats than the demo (see our [renovation jobs guide](/guides/renovation-jobs-guide) for the job families). If the demo's single job takes 30–60 minutes and the release multiplies the content by a factor of 10–20 across harder contracts, the arithmetic points at a **10–20 hour main campaign**.
+- **Job count scales up.** The release build includes the full job list and more flats than the demo, based on the job families documented in our [renovation jobs guide](/guides/renovation-jobs-guide). If the demo's single job takes 30–60 minutes and the release multiplies the content across harder contracts, the arithmetic points at a **10–20 hour main campaign**. The exact release-build job count is **[Unconfirmed]**.
 - **Genre benchmarks.** PlayWay-published simulators in this tier — the House Flipper family, Car Mechanic Simulator — typically land in the 10–20 hour range for a first playthrough, with DLC and repeat contracts stretching them much further. Low-Budget Repairs sits in exactly that segment.
-- **No Early Access, no padding claims.** The developers have positioned it as a complete day-one game (not Early Access — see the [FAQ](/guides/faq)), which typically means a campaign that's finished rather than truncated.
+- **No Early Access, no padding claims.** The developers positioned it as a complete release-day game (not Early Access — see the [FAQ](/guides/faq)), which typically means a campaign that's finished rather than truncated.
 
-**Bottom line: expect roughly 10–20 hours to finish the main campaign, with the realistic spread anywhere from 8 to 25+ depending on how thorough you are.** Once the game ships, real player data (including Steam playtime charts) will replace this estimate — we'll update this page after launch.
+**Bottom line: expect roughly 10–20 hours to finish the main campaign, with the realistic spread anywhere from 8 to 25+ depending on how thorough you are.** The game has shipped, but we have not collected a reliable sample of Steam playtime data, so this remains an editorial estimate **[Unconfirmed]**.
 
 ## Completionist: Why 100% Takes Longer
 
@@ -42,18 +42,18 @@ Even a 10-hour campaign has a long tail in this game, because the core fantasy i
 - **Steam Achievements** — confirmed on the Steam page. Achievements tied to the game's signature shortcuts (diluted paint, duct-taped pipes, furniture out the window) will push completionists toward replays.
 - **The comedy itself** — a second run through a flat you've already fixed plays differently when you know where every shortcut is. Replay value is a selling point, not a side effect.
 
-A realistic completionist estimate is **25–40 hours**, though that's speculative until launch.
+A realistic completionist estimate is **25–40 hours**, though that remains speculative: release-build completion data is **[Unconfirmed]**.
 
 ## What Determines Your Playtime
 
 - **How you play.** Speedrunning contracts vs. savoring the satire changes your time per job by 2–3x.
 - **How hard you chase profit.** Players who optimize every zloty will replay jobs; players who just want to see the block renovated will finish faster.
-- **Post-launch content.** PlayWay simulators have a strong history of post-launch DLC, but **nothing is announced** for Low-Budget Repairs — see the [FAQ](/guides/faq) for the current status.
+- **Post-release content.** PlayWay simulators have a strong history of post-launch DLC, but **nothing is announced** for Low-Budget Repairs as of 2026-10-24 — see the [FAQ](/guides/faq) for the current status.
 
 ## Quick Answers
 
 **How long is the Low-Budget Repairs demo?** 30–60 minutes for one job, 2–4 hours for everything in it.
 
-**How long to beat Low-Budget Repairs?** Unconfirmed; estimate 10–20 hours for the main campaign based on demo pacing and genre benchmarks.
+**How long to beat Low-Budget Repairs?** 官方未公布 [Unconfirmed]; our estimate is 10–20 hours for the main campaign based on demo pacing and genre benchmarks.
 
-**Is Low-Budget Repairs worth it for the length?** At the expected ~$19.99 price (see the [price & editions guide](/guides/price-editions-guide)), even a 10-hour campaign is solid value — and the demo lets you verify the pacing before you spend anything.
+**Is Low-Budget Repairs worth it for the length?** At the verified $19.99 price (see the [price & editions guide](/guides/price-editions-guide)), even a 10-hour campaign is solid value — and the demo, if still available, lets you verify the pacing before you spend anything.

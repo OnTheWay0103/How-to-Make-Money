@@ -2,15 +2,15 @@
 title: "Low-Budget Repairs Tool Guide — Best & Cheapest Tools"
 description: "Low-Budget Repairs tool guide. Every known tool type, cheap vs quality tradeoffs, durability and breakage, bulk buying, and a full comparison table to choose the best and cheapest tools."
 category: "Guides"
-version: "Pre-release"
-updated: "2026-08-03"
+version: "1.0"
+updated: "2026-10-24"
 date: "2026-08-03"
 keywords: ["low-budget repairs tools", "low-budget repairs tool guide", "low-budget repairs cheapest tools", "low-budget repairs best tools", "low-budget repairs tool durability"]
 ---
 
 # Low-Budget Repairs Tool Guide — Best & Cheapest Tools
 
-Your tools are the one purchase that carries over between jobs — and the one place beginners waste money. In Low-Budget Repairs, every zloty spent is profit lost: buy cheap where durability doesn't matter, invest where it does. Based on the demo; the game launches **August 13, 2026** on Steam.
+Your tools are the one purchase that carries over between jobs — and the one place beginners waste money. In Low-Budget Repairs, every zloty spent is profit lost: buy cheap where durability doesn't matter, invest where it does. Based on the demo; the game was released on **August 13, 2026** on Steam at **$19.99**.
 
 ## Every Known Tool Type
 
@@ -34,7 +34,7 @@ Every tool (per the demo) comes in at least two versions — a **cheap version**
 
 **Cheap tools** cost a fraction of quality. They work, but slower and degrading: drills overheat, rollers shed bristles, screwdrivers strip heads.
 
-**Quality tools** cost roughly 3–5x more (prices unconfirmed), work faster, break less, and inspect better — the cost spreads across many jobs.
+**Quality tools** cost roughly 3–5x more (in-game prices are 官方未公布 **[Unconfirmed]**), work faster, break less, and inspect better — the cost spreads across many jobs.
 
 **Used tools** appear in the bargain bin occasionally — cheap-tool durability at even lower cost.
 
@@ -100,8 +100,8 @@ Skip for now: level and spacers (per the [cost-cutting guide](/guides/cost-cutti
 | Drill | Quality only (skip cheap) | Highest tier | Cheap drills overheat and die | Anchors, shelves, fast quality-looking assembly |
 | Level + spacers | Cheap tier | Quality tier | N/A — rarely used | Only if you skip the [cost-cutting shortcuts](/guides/cost-cutting-tips) |
 
-Exact prices are unconfirmed — treat "cheapest" as bargain-bin or cheap tier and quality as 3–5x more.
+Exact in-game prices are 官方未公布 — **[Unconfirmed]**. Treat "cheapest" as bargain-bin or cheap tier and quality as 3–5x more.
 
 ## Final Tool Advice
 
-The tool meta is simple: **spend once on a quality drill, buy everything else cheap, and let the bargain bin decide the rest.** A ruined job from a dead drill is a bigger loss than the drill's price; quality on a twice-used scraper is pure waste. The **August 13, 2026** release may add new tools and prices — we'll update the table.
+The tool meta is simple: **spend once on a quality drill, buy everything else cheap, and let the bargain bin decide the rest.** A ruined job from a dead drill is a bigger loss than the drill's price; quality on a twice-used scraper is pure waste. The release build may include tools and prices beyond the demo; we have not independently verified them — **[Unconfirmed]**.

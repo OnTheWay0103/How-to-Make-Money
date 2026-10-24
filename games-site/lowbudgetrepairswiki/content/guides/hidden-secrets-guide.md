@@ -2,8 +2,8 @@
 title: "Low-Budget Repairs Hidden Features & Secrets — Easter Eggs & Secret Shortcuts"
 description: "Every hidden feature and secret in Low-Budget Repairs: the furniture window throw, dumpster finds, cat door cuts, insulation foam window fix, breaker blackout, and every confirmed demo secret."
 category: "Guides"
-version: "Pre-release"
-updated: "2026-08-10"
+version: "1.0"
+updated: "2026-10-24"
 date: "2026-08-10"
 keywords:
   - "low-budget repairs secrets"
@@ -23,11 +23,11 @@ related:
 
 Low-Budget Repairs is a game about cheating the system, so it's no surprise the game cheats too. Under its 1990s-block surface sit a handful of confirmed stunts, shortcuts, and secret routes that most players will miss on a first run — from furniture flying out of sixth-floor windows to a breaker panel that can black out the whole neighborhood.
 
-> **Sourcing note:** this guide separates facts from guesses. Items marked **[Confirmed]** come from the July 2026 demo, the open playtest (started July 30, 2026), or official pre-launch coverage of the game. Items marked **[Needs launch verification]** are community theories or mechanics we can't confirm in any build. The full game launches **August 13, 2026**.
+> **Sourcing note:** this guide separates facts from guesses. Items marked **[Confirmed]** come from the July 2026 demo, the open playtest (started July 30, 2026), or official pre-release coverage of the game. Items marked **[Unconfirmed]** are community theories or mechanics we could not confirm in any build we checked. The game was released on **August 13, 2026**.
 
 ## The Confirmed Stunts
 
-These are the game's most famous secrets — each one confirmed in pre-launch coverage or the demo itself.
+These are the game's most famous secrets — each one confirmed in pre-release coverage or the demo itself.
 
 ### 1. The Furniture Window Throw
 
@@ -45,11 +45,11 @@ These are the game's most famous secrets — each one confirmed in pre-launch co
 
 ### 3. The Cat Door Cut
 
-**[Confirmed]** — You can cut the bottom of a door so a cat can get through. It's a tiny, easy-to-miss repair option that pre-launch coverage singled out — and it's exactly the kind of small job the game hides in plain sight.
+**[Confirmed]** — You can cut the bottom of a door so a cat can get through. It's a tiny, easy-to-miss repair option that pre-release coverage singled out — and it's exactly the kind of small job the game hides in plain sight.
 
 ### 4. The Insulation Foam Window Fix
 
-**[Confirmed]** — A window can be held in place with insulation foam. It's the window version of duct-taping a pipe: functional, cheap, and deeply on-brand. Whether it holds through a storm is a launch-day question.
+**[Confirmed]** — A window can be held in place with insulation foam. It's the window version of duct-taping a pipe: functional, cheap, and deeply on-brand. Whether it holds through a storm in the release build is **[Unconfirmed]**.
 
 ### 5. The Breaker Blackout
 
@@ -70,12 +70,12 @@ Full coverage of every one of these lives in the [cost-cutting guide](/guides/co
 
 ## Unconfirmed Secrets to Watch For
 
-These are the theories floating around the community — worth trying at launch, but **[Needs launch verification]** until someone confirms them in the release build:
+These are the theories floating around the community — worth trying in the release build, but **[Unconfirmed]** until someone confirms them:
 
-- **Renovating your own flat properly** — pre-launch coverage says players can renovate their own apartment with professional care. Whether doing so unlocks anything (jobs, achievements, discounts) is unknown.
+- **Renovating your own flat properly** — pre-release coverage says players can renovate their own apartment with professional care. Whether doing so unlocks anything (jobs, achievements, discounts) is **[Unconfirmed]**.
 - **Neighbor reactions** — leaving trash in the hallway may trigger comments, and failing inspections may cut off job offers. Both are demo-informed, both unquantified.
-- **Hidden tools in the bargain bin** — the bin rotates and occasionally stocks used tools; whether launch adds rare finds is unconfirmed.
-- **Achievement secrets** — our [achievements guide](/guides/achievements-guide) predicts the stunts above will be achievements, but nothing is confirmed until launch.
+- **Hidden tools in the bargain bin** — the bin rotates and occasionally stocks used tools; whether the release build adds rare finds is **[Unconfirmed]**.
+- **Achievement secrets** — our [achievements guide](/guides/achievements-guide) predicts the stunts above may be achievements, but the official achievement list is **[Unconfirmed]**.
 
 ## How to Hunt Secrets Without Ruining a Save
 
@@ -84,7 +84,7 @@ Secret-hunting in this game has a real cost: stunts like the blackout and the wi
 - **Keep a "chaos save."** One save where consequences don't matter — do every stunt there first.
 - **Try the cheap version first.** Tape, foam, and paint tricks are low-risk experiments you can test on any job.
 - **Read the contract twice.** Some "secrets" are just required work you almost missed — the cat door cut and the foam window are great examples of jobs that look optional but pay.
-- **Check the community after launch.** The [FAQ](/guides/faq) and this page will track confirmed secrets as players find them.
+- **Check the community.** The [FAQ](/guides/faq) and this page track confirmed secrets as players find them.
 
 ## The Hidden Features Cheat Sheet
 
@@ -94,4 +94,4 @@ Secret-hunting in this game has a real cost: stunts like the blackout and the wi
 - Breaker blackout — the loudest secret in the game.
 - Paint, tape, posters, and substitution — the quiet secrets that pay every job.
 
-The release build on **August 13, 2026** will settle which theories are real. Until then, everything [Confirmed] above is yours to practice in the demo — and everything else is worth a try on launch day.
+The release build shipped on **August 13, 2026**; we have not independently verified which of these theories are real, so they remain **[Unconfirmed]**. Everything [Confirmed] above is yours to practice in the demo, and everything else is worth a try in the release build.

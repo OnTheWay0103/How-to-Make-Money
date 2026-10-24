@@ -1,9 +1,9 @@
 ---
 title: "Low-Budget Repairs on Steam Deck — Compatibility, Performance & Settings"
-description: "Can you play Low-Budget Repairs on Steam Deck? Compatibility status (unrated as of Aug 2026), performance expectations on Steam Deck hardware, controller and Proton considerations, and the best settings for 800p play."
+description: "Can you play Low-Budget Repairs on Steam Deck? Compatibility status (unrated as of 2026-10-24), performance expectations on Steam Deck hardware, controller and Proton considerations, and the best settings for 800p play."
 category: "Game Info"
-version: "Pre-release"
-updated: "2026-08-07"
+version: "1.0"
+updated: "2026-10-24"
 date: "2026-08-07"
 keywords: ["low-budget repairs steam deck", "low budget repairs steam deck compatible", "low budget repairs steam deck performance", "low budget repairs proton", "low budget repairs controller"]
 related: ["system-requirements", "controls-guide", "demo-guide", "ps5-guide"]
@@ -11,16 +11,16 @@ related: ["system-requirements", "controls-guide", "demo-guide", "ps5-guide"]
 
 # Low-Budget Repairs on Steam Deck — Compatibility, Performance & Settings
 
-Low-Budget Repairs launches on Steam on **August 13, 2026**, and if you're planning to fix up 1990s Polish flats from the couch, the Steam Deck is probably on your mind. Here's the honest status: **as of August 7, 2026, Low-Budget Repairs has no official Steam Deck compatibility rating.** It hasn't been marked Verified, Playable, or Unsupported — and the Steam page doesn't list controller support either. That doesn't mean it won't run well; it means nobody at Valve has certified it yet. This guide collects what's confirmed, what the hardware math suggests, and how to test it yourself for free.
+Low-Budget Repairs was released on Steam on **August 13, 2026** at **$19.99**, and if you're planning to fix up 1990s Polish flats from the couch, the Steam Deck is probably on your mind. Here's the honest status: **as of 2026-10-24, we could not verify an official Steam Deck compatibility rating.** We found no Verified, Playable, or Unsupported badge, and the Steam page does not list controller support. That doesn't mean it runs badly; it means we could not confirm a Valve certification. This guide collects what's confirmed, what the hardware math suggests, and how to test it yourself with the free demo if it is still available.
 
 ## Steam Deck Compatibility Status (Confirmed Facts)
 
 Let's start with exactly what is and isn't on the official record:
 
-- **No Deck compatibility rating** — no "Verified," "Playable," or "Unsupported" badge on the Steam page as of August 7, 2026.
-- **No controller support listing** — the Steam page doesn't mention gamepads. That said, our [controls guide](/guides/controls-guide) notes controller support is planned for the full PC release, and the PS5 / Xbox Series X|S versions are built around controllers from day one — so a gamepad-friendly input scheme clearly exists in the codebase.
-- **Windows 10 64-bit only** — the listed OS requirement is Windows. There's no native Linux or macOS build announced, so on Deck the game would run through Proton (Steam's Windows-compatibility layer). How well that works is unknown until people test it.
-- **No community reports yet** — the game isn't out, so there's no ProtonDB crowd-sourced verdict to lean on. After launch, community reports will be the definitive answer.
+- **No verified Deck compatibility rating** — we found no "Verified," "Playable," or "Unsupported" badge on the Steam page as of 2026-10-24.
+- **No controller support listing** — the Steam page does not mention gamepads. Controller support was announced for the PC release, but the store listing checked on 2026-10-24 does not confirm it — **[Unconfirmed]**. The PS5 / Xbox Series X|S versions were announced as controller-first, but their release status is also **[Unconfirmed]**.
+- **Windows 10 64-bit only** — the listed OS requirement is Windows. There's no native Linux or macOS build announced, so on Deck the game runs through Proton (Steam's Windows-compatibility layer). How well that works for your setup is **[Unconfirmed]**.
+- **No community sample we could verify** — the game was released on August 13, 2026, but we did not collect a reliable ProtonDB sample as of 2026-10-24. Community reports remain the best place to look.
 
 ## What the Hardware Math Says (Estimate, Clearly Labeled)
 
@@ -38,14 +38,14 @@ Three features confirmed on the Steam page are genuinely good news for Deck play
 - **Steam Achievements** — confirmed, and the game's cost-cutting exploits (watering down paint, duct-taping pipes) should make for fun achievement-hunting on the go.
 - **Family Sharing** — confirmed, so one copy covers your household.
 
-## How to Test It Before Buying (Free)
+## How to Test It for Free
 
-You don't need to wait for launch to get a read on Deck performance:
+You don't need to guess — test the demo if it is still available:
 
 1. **Download the free demo** — available since July 24, 2026 on Steam (see our [demo guide](/guides/demo-guide)). Install it on your Deck, switch to Desktop Mode's Steam if needed, and force Proton if it doesn't launch.
 2. **Play the flooded bathroom job** — it's the game's signature contract and a solid benchmark: lots of simulated water, paint, and physics.
 3. **Watch the frame counter** — if the demo holds a steady rate on your Deck at 800p, the full game (same engine, more content) will be in the same ballpark.
-4. **Check community reports after launch** — ProtonDB and the Steam Deck subreddit will have hands-on verdicts within hours of the August 13 release. We'll update this guide with verified results as they come in.
+4. **Check community reports** — ProtonDB and the Steam Deck subreddit have had hands-on verdicts since the August 13 release. We have not verified a sample, so treat them as community data.
 
 ## If It Needs Tinkering
 
@@ -62,9 +62,9 @@ If you own a console as well as a Deck, the trade-off is simple:
 
 | Aspect | Steam Deck | PS5 / Xbox Series X|S |
 |--------|-----------|------------------------|
-| Compatibility | Unrated — untested until launch | Native, runs on standard hardware |
+| Compatibility | Unrated — no verified compatibility rating | Console release **[Unconfirmed]**; PC build is native Windows |
 | Try before buy | Free demo playable | No confirmed demo |
 | Portability | Yes — that's the point | No |
 | Performance | Unconfirmed (see above) | Unconfirmed modes, but hardware headroom is ample |
 
-The [PS5 guide](/guides/ps5-guide) covers the console side in detail. If portability is your priority, the Deck's free demo is the cheapest way to de-risk the purchase before August 13 — and if the demo runs well, you've answered 90% of the question.
+The [PS5 guide](/guides/ps5-guide) covers the console side in detail. If portability is your priority, the Deck's free demo is the cheapest way to de-risk a $19.99 purchase — and if the demo runs well, you've answered most of the question.

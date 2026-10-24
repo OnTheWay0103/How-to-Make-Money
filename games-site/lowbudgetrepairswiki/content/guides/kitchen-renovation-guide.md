@@ -2,8 +2,8 @@
 title: "Low-Budget Repairs Kitchen Renovation Guide — Cabinets, Countertops & Appliances"
 description: "Renovate kitchens on a budget in Low-Budget Repairs: painting cabinets instead of replacing them, resurfacing countertops, tiling only the splashback, appliance swaps, and where kitchen budgets really go."
 category: "Guides"
-version: "Pre-release"
-updated: "2026-08-10"
+version: "1.0"
+updated: "2026-10-24"
 date: "2026-08-10"
 keywords:
   - "low-budget repairs kitchen renovation"
@@ -24,7 +24,7 @@ related:
 
 The kitchen is where Low-Budget Repairs stops being a tutorial. It's the game's first multi-system room — paint, tile, woodwork, and plumbing all in one contract — and the demo shows that its budgets are noticeably more generous than the bathroom's. That generosity is the trap: **a bigger budget isn't permission to spend it.** Kitchens profit exactly like every other room: finish the visible work cheaply and pocket the difference.
 
-> Based on the July 2026 demo, where the kitchen renovation job appears as a full contract type. The full game launches August 13, 2026 — anything unconfirmed is marked **[Needs launch verification]**.
+> Based on the July 2026 demo, where the kitchen renovation job appears as a full contract type. The game was released on August 13, 2026 — anything we could not verify in the release build is marked **[Unconfirmed]**.
 
 ## What a Kitchen Job Actually Involves (Demo-Confirmed)
 
@@ -70,7 +70,7 @@ The demo's kitchen jobs "sometimes" include appliance swaps, and the same cost-c
 - **Refurbish what's already there** when the contract allows — a cleaned, polished appliance reads as new, exactly like painted furniture.
 - **Swap only what the contract names.** The client pays a flat fee; every appliance you replace is bought from your own profit.
 - **Never buy the premium appliance tier.** Function (does it work) and appearance (does it look clean) are what get inspected. The brand badge isn't checked.
-- **[Needs launch verification]** — the exact appliance types, brands, and price tiers in the release build are unconfirmed.
+- **[Unconfirmed]** — the exact appliance types, brands, and price tiers in the release build could not be verified.
 
 ## Kitchen Plumbing: The Sink Is the Danger Zone
 
@@ -101,4 +101,4 @@ Kitchens are the second home of the plumbing check — and the demo's flooded ba
 
 - Read the contract → fix the plumbing → paint the cabinets → tile only the splashback → resurface the worktop → swap only named appliances → test the taps → tidy → call the client.
 
-Kitchens pay more because they're bigger and more complex — but complexity is a cost you control, not a fee you deserve. The demo's kitchen contract is the perfect training ground; the release build's new job variants and prices will be added to this guide after **August 13, 2026**.
+Kitchens pay more because they're bigger and more complex — but complexity is a cost you control, not a fee you deserve. The demo's kitchen contract is a good training ground; release-build job variants and prices beyond the demo could not be verified — **[Unconfirmed]**.

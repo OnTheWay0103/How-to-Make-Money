@@ -2,8 +2,8 @@
 title: "Low-Budget Repairs Furniture Assembly Guide — Flat-Pack & Fast Fixes"
 description: "Low-Budget Repairs furniture assembly guide. How to assemble flat-pack furniture fast, refurbish instead of replace, glue broken drawers, and get rid of old furniture — profit tips for every contract."
 category: "Guides"
-version: "Pre-release"
-updated: "2026-08-08"
+version: "1.0"
+updated: "2026-10-24"
 date: "2026-08-08"
 keywords: ["low-budget repairs furniture assembly", "low-budget repairs how to assemble furniture", "low-budget repairs flat pack", "low-budget repairs furniture", "low-budget repairs how to get rid of furniture"]
 related: ["materials-guide", "tool-guide", "renovation-jobs-guide", "money-making-guide", "hardware-store-guide"]
@@ -11,7 +11,7 @@ related: ["materials-guide", "tool-guide", "renovation-jobs-guide", "money-makin
 
 # Low-Budget Repairs Furniture Assembly Guide — Flat-Pack & Fast Fixes
 
-Furniture is the most expensive category in Low-Budget Repairs — a new wardrobe can cost more than every can of paint in the job combined — which makes it the category with the most profit hiding in it. Clients want furniture "replaced," "refurbished," or "assembled," and how you read those words decides your margin. This guide covers flat-pack assembly, the refurbish-versus-replace trick, glue fixes, and the single most famous shortcut in the game: the window. Based on the July 2026 demo; the game launches **August 13, 2026** on Steam.
+Furniture is the most expensive category in Low-Budget Repairs — a new wardrobe can cost more than every can of paint in the job combined — which makes it the category with the most profit hiding in it. Clients want furniture "replaced," "refurbished," or "assembled," and how you read those words decides your margin. This guide covers flat-pack assembly, the refurbish-versus-replace trick, glue fixes, and the single most famous shortcut in the game: the window. Based on the July 2026 demo; the game was released on **August 13, 2026** on Steam at **$19.99**.
 
 ## Reading the Contract: Replace vs. Refurbish vs. Assemble
 
@@ -80,4 +80,4 @@ The rule: **furniture you don't need to keep is never carried down stairs.** Tim
 
 Read the contract → walk the flat (what's already here?) → refurbish if allowed → buy flat-pack only when required → assemble on the floor with the screwdriver set → paint or polish to "new" → window for everything else → tidy → call the client.
 
-Furniture is where the game rewards reading comprehension and laziness in equal measure. The full release on **August 13, 2026** will add more furniture types and contracts — until then, the demo's flat-pack jobs are the perfect practice ground for the most expensive category in the game.
+Furniture is where the game rewards reading comprehension and laziness in equal measure. The release build may add more furniture types and contracts; we have not independently verified them — **[Unconfirmed]**. The demo's flat-pack jobs remain a useful practice ground for the most expensive category in the game.

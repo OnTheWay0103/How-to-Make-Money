@@ -2,8 +2,8 @@
 title: "Low-Budget Repairs Upgrade Priorities — What to Fix First"
 description: "What to fix first in Low-Budget Repairs. The golden order of operations for every renovation — leaks and function before damage before cosmetics — plus room priorities, what inspectors see first, and tool upgrade priorities."
 category: "Guides"
-version: "Pre-release"
-updated: "2026-08-07"
+version: "1.0"
+updated: "2026-10-24"
 date: "2026-08-07"
 keywords: ["low-budget repairs upgrade priorities", "low-budget repairs what to fix first", "low-budget repairs order of operations", "low-budget repairs room priority", "low-budget repairs what matters most"]
 related: ["inspection-guide", "renovation-jobs-guide", "tool-guide", "bathroom-renovation-guide"]
@@ -11,7 +11,7 @@ related: ["inspection-guide", "renovation-jobs-guide", "tool-guide", "bathroom-r
 
 # Low-Budget Repairs Upgrade Priorities — What to Fix First
 
-Every renovation job in Low-Budget Repairs is a list of things to fix, but the list hides an order: **function before damage, damage before cosmetics, visible before hidden.** Do the work in the wrong order and you repaint a wall, then flood it again — profit spent twice. This guide lays out the order of operations that keeps every job cheap and passing. Based on the July 2026 demo; the full game launches **August 13, 2026**.
+Every renovation job in Low-Budget Repairs is a list of things to fix, but the list hides an order: **function before damage, damage before cosmetics, visible before hidden.** Do the work in the wrong order and you repaint a wall, then flood it again — profit spent twice. This guide lays out the order of operations that keeps every job cheap and passing. Based on the July 2026 demo; the full game was released on **August 13, 2026** at **$19.99** on Steam.
 
 ## The Golden Order of Operations
 
@@ -70,7 +70,7 @@ Your upgrades aren't just the flat — your own kit matters, and it has its own 
 
 ## Early Progression Priorities
 
-Before the launch on **August 13, 2026**, use the demo to lock in the sequence:
+Since the **August 13, 2026** release, use the release build (or the demo if it is still available) to lock in the sequence:
 
 1. **Repaint jobs first** — near-zero risk, 80%+ margins, builds your float. ([job profit guide](/guides/job-profit-guide))
 2. **Furniture assembly** — clean, fast money that funds your drill.
