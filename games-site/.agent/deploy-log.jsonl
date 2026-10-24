@@ -30,3 +30,5 @@
 {"ts":"2026-10-24T22:57:33+0800","site":"dwarfdelvewiki","commit":"369c552","status":"ok","url":"https://dwarfdelvewiki.vercel.app"}
 {"ts":"2026-10-24T23:05:00+0800","site":"aincradwiki","commit":"369c552","status":"ok","url":"https://aincradwiki.vercel.app","recheck":"alias/curl 传播期超时，人工复验 200 且广告代码已上线"}
 {"ts":"2026-10-24T23:05:00+0800","site":"ardentwildswiki","commit":"369c552","status":"ok","url":"https://ardentwildswiki.vercel.app","recheck":"alias/curl 传播期超时，人工复验 200 且广告代码已上线"}
+{"ts":"2026-10-24T23:26:42+0800","site":"cozygamerestorationwiki","commit":"ecf423d","status":"ok","url":"https://cozygamerestorationwiki.vercel.app"}
+{"ts":"2026-10-24T23:27:34+0800","site":"dreadmoorwiki","commit":"ecf423d","status":"ok","url":"https://dreadmoorwiki.vercel.app"}

@@ -273,4 +273,16 @@ export const SITES: SiteConfig[] = [
     gaId: 'G-BDETT6CRYJ',
     createdAt: '2026-08-25',
   },
+  {
+    name: 'Cozy Game Restoration Wiki',
+    propertyId: '560553821',
+    gaId: 'G-YHTL4KQ97P',
+    createdAt: '2026-10-24',
+  },
+  {
+    name: 'DREADMOOR Wiki',
+    propertyId: '560663534',
+    gaId: 'G-264X3F7FYX',
+    createdAt: '2026-10-24',
+  },
 ];

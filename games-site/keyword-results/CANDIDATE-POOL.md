@@ -46,10 +46,10 @@
 | 40 | Nimbit Frontier | 怪物养成生活模拟 (Megasploot) | 18 | 8/17 EA | ❌ 无 | 8/10 | 观望 — 20.5K wishlist 偏弱；EA 1.5 年；首周 >300 评测可升级 |
 | 41 | Tiny Monster Haven | Idle 怪物收集+农场 (Digging Dino) | 17 | 8/11 | ❌ 无 | 8/10 | 观望 — 50 怪物+回合战斗+迷你战役；idle 品类浅、wishlist 无数据 |
 | 42 | Emberville | 像素暗黑 ARPG + 种田/城镇建设 (Cygnus Cross) | 18 | 10/27 EA | ⚠️ 英文 2 套（thegameswiki / emberville-wiki.wiki） | 10/23 | 推荐 — 251 条含游戏名建议/233 条有效；联机 19、配音 28、职业 8；英文 wiki 已起，主攻其未覆盖的联机/配音/职业长尾 |
-| 43 | DREADMOOR | 末日钓鱼生存恐怖 (Dream Dock/Digital Vortex) | 17 | 11/9 EA（窗口外补充） | ❌ 无（日文仅 gamewith 新闻页） | 10/23 | 推荐 — 183 条含游戏名/161 条有效；零组织化 wiki；钓鱼/存档/装备长尾明确，11/9 前是最佳窗口 |
+| 43 | DREADMOOR | 末日钓鱼生存恐怖 (Dream Dock/Digital Vortex) | 17 | 11/9 EA（窗口外补充） | ❌ 无（日文仅 gamewith 新闻页） | 10/23 | ✅ 已建站（10/24）→ dreadmoorwiki，9 guides，12,490 词，11/9 EA；183 条含游戏名/161 条有效；零组织化 wiki；钓鱼/存档/装备长尾明确，11/9 前是最佳窗口 |
 | 44 | Loftia | 天空岛生活模拟 MMO (Qloud Games) | 16 | 11/3 EA（窗口外补充） | ⚠️ thegameswiki stub | 10/23 | 观望 — 9 月 demo 第 7 最热玩/第 8 趋势；wiki stub 已现；等 EA 后看内容量 |
 | 45 | Chained Beasts | 1–4 人角斗士 Roguelike (Featherweight) | 16 | 10/15 已上线 | ❌ 无 | 10/23 | 观望 — 10/24 补关键词报告（`keyword-results/Chained-Beasts.md`）：64 条原始建议仅 29 条有效，`Chained Together`/`Chained Echoes`/`Chained Soldier` 分流严重；P0 仅 crossplay/local co-op 与 all characters 两组。需求偏小 + 名字污染重 → 维持观望，不优先建站 |
-| 46 | Cozy Game Restoration | 复古卡带清洁/修复模拟 (Parasol Corp) | 16 | 11/4（窗口外补充） | ❌ 无 | 10/23 | 推荐 — 400K+ wishlist、$14.99、19 语言；零 wiki；单机模拟内容深度待验证 |
+| 46 | Cozy Game Restoration | 复古卡带清洁/修复模拟 (Parasol Corp) | 16 | 11/4（窗口外补充） | ❌ 无 | 10/23 | ✅ 已建站（10/24）→ cozygamerestorationwiki，9 guides，12,327 词，11/4 发售；400K+ wishlist、$14.99、19 语言；零 wiki；单机模拟内容深度待验证 |
 | 47 | Dimraeth | 8 人像素奇幻 ARPG (Mudtek) | 15 | 9/15 EA | ⚠️ 英文 1 套（thegameswiki） | 10/23 | 观望 — 首日 10K CCU/特别好评；英文 wiki 已起，需差异化 |
 | 48 | Valor Mortis | 第一人称魂类 (One More Level) | 15 | 10/13 已上线 | ⚠️ 英文多家（thegameswiki/metabot）+ 中文攻略 | 10/23 | 观望 — Ghostrunner 团队、高愿望单；竞争强，非零 wiki 打法 |
 | 49 | over the hill | 越野驾驶 (Funselektor/Streika) | 15 | 10/14 已上线 | ❌ 无 | 10/23 | 观望 — 1M+ wishlist；玩法/内容偏轻，攻略面窄 |

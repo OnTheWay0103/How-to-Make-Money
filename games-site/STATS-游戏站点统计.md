@@ -1,6 +1,6 @@
 # 游戏攻略站 — 站点统计
 
-> 最后更新：2026-10-23 | 43 站 · 1050 篇攻略（10/23 全站补更：43 站各 +1 篇）
+> 最后更新：2026-10-24 | 45 站 · 1073 篇攻略（10/24 新增 DREADMOOR / Cozy Game Restoration，各 9 篇）
 
 ---
 
@@ -52,6 +52,8 @@
 | 41 | Anomaly President | 9/6 | 17 | anomalypresidentwiki.vercel.app | ✅ | ✅ | ✅ | 9/6 BUILD-007，9/3 门禁开（19/20），Phew Phew Games EA roguelike（Roguelike 动作+竞选管理双循环），EA 满月评测 ~1,300（92% Very Positive）、英日中零 wiki，9/6 首部署 QA PASS（16 guides）；GA4 ⏳ 待人工配置；GSC 验证文件已核实到位（9/16 更正此前「缺失待补」的错误记录） |
 | 42 | 🆕 dressmakerwiki | ❓ | 13 | dressmakerwiki.vercel.app | ✅ | ✅ | ✅ | ⚠️ 新站点，需手动补全信息 |
 | 43 | Silver Pines | 9/16 | 11 | silverpineswiki.vercel.app | ✅ | ✅ | ✅ | 9/16 BUILD-009（门禁 17/20 开），Wych Elm/Team17 恐怖 Metroidvania，10/8 发售（**预售期建站，早于发售 22 天**）；~83–112K wishlist；英中日零 wiki；**裸词污染已独立复现**（裸词探针 10 条建议仅 3 条指向本作，锚词 `silver pines game` 下 10/10 命中）；10 篇 P0 共 15,129 词，QA PASS（0 🔴 / 5 🟡 / 3 🟢），线上 23/23 路由 200；⚠️ 门禁的「12 条已验证机制」有 **5 条本轮无法复核**（gun locker code / herbs / camera photo map / hip pouch / stiletto）→ 已降级为不写或标注，**未当事实写出**；⚠️ 20 条机制种子 **17 条零建议** → 机制页定位为发售后抢位，非当前流量来源；价格/通关时长/区域名/武器清单/伤害值全站 [Unconfirmed]（123 处）；GA4 ⏳ 待人工配置（`googleAnalyticsId=''` 空串，**无 G-XXX 假回退值**）；GSC 文件已就位待提交；Phase 2（P1 攻略）未做 |
+| 44 | Cozy Game Restoration | 10/24 | 9 | cozygamerestorationwiki.vercel.app | ✅ | ✅ | ✅ | 10/24 BUILD-010（16/20 开），Parasol Corp 单人开发复古卡带清洁/修复模拟，11/4 发售 $14.99，400K+ wishlist、Next Fest demo 17.1 万下载，19 语言，Windows/macOS/Steam Deck，无计时器无失败；英日中零 wiki；9 篇 12,327 词，QA 复核 PASS（删「八件工具」「toothpaste」两处未证实细节）；GA4 G-YHTL4KQ97P；GSC 验证文件就位待提交 |
+| 45 | DREADMOOR | 10/24 | 9 | dreadmoorwiki.vercel.app | ✅ | ✅ | ✅ | 10/24 BUILD-011（17/20），Dream Dock/Digital Vortex 末日钓鱼生存恐怖，11/9 EA $19.99，~400K wishlist（厂商口径），单人 PC only，12 语言；demo 10/6 上线；竞品 whisperofthehouse demo hub，内容走差异化；9 篇 12,490 词，QA 复核 PASS（wishlist 数字已标注非独立审计）；GA4 G-264X3F7FYX；GSC 验证文件就位待提交 |
 <!-- AUTO-END:overview-table -->
 
 ---
@@ -141,11 +143,11 @@
 <!-- AUTO-START:summary -->
 | 指标 | 数值 |
 |------|:--:|
-| **总站点数** | 43 |
-| **总攻略数** | 1055 |
-| **Vercel 部署** | 43/43 ✅ |
-| **GA4 已配置** | 43/43 |
-| **GSC 文件部署** | 43/43 ✅（账户级令牌，所有站共用同一文件） |
+| **总站点数** | 45 |
+| **总攻略数** | 1073 |
+| **Vercel 部署** | 45/45 ✅ |
+| **GA4 已配置** | 45/45 |
+| **GSC 文件部署** | 45/45 ✅（账户级令牌，所有站共用同一文件） |
 <!-- AUTO-END:summary -->
 
 | **Dashboard 注册** | 39/41（anomalypresidentwiki 本次已加入，PENDING；⚠️ doloctownwiki/sovereigntowerwiki 未注册 dashboard——预存在缺口，待主 Agent 补）；PENDING 待 GA4 Property 后补 propertyId：bombananawiki/crimsonmoonwiki/welcomeelderfieldwiki/fallentearwiki/anomalypresidentwiki |
@@ -232,4 +234,6 @@
 🔜 9/16  Fallen Tear: The Ascension 1.0（8/31 建站，17 篇，18/20，Winter Crew/CMD，零 wiki，20 区域/33 Boss）
 🔜 9/22  Delverium EA（8/2 建站，8/7 +5 = 14 攻略）
 🔜 9/29  Nivalis Nights（8/7 建站，13 攻略）
+🆕 10/24 Cozy Game Restoration（11/4 发售，9 篇，Parasol Corp，400K+ wishlist，19 语言，英日中零 wiki）
+🆕 10/24 DREADMOOR（11/9 EA，9 篇，Dream Dock/Digital Vortex，~400K wishlist，单人 PC only，竞品仅 demo hub）
 ```

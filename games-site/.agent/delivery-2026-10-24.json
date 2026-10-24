@@ -160,6 +160,50 @@
       "url": "https://silverpineswiki.vercel.app/guides/silver-pines-camera-photo-map-guide",
       "verify": "200",
       "words": 0
+    },
+    {
+      "site": "dreadmoorwiki",
+      "types": [
+        "新建站",
+        "部署"
+      ],
+      "guides": [
+        "beginner-guide",
+        "fishing-guide",
+        "fish-species-guide",
+        "boat-upgrades-guide",
+        "combat-guide",
+        "survival-guide",
+        "regions-guide",
+        "early-access-roadmap",
+        "faq"
+      ],
+      "qa": "PASS",
+      "url": "https://dreadmoorwiki.vercel.app/",
+      "verify": "200",
+      "words": 12490
+    },
+    {
+      "site": "cozygamerestorationwiki",
+      "types": [
+        "新建站",
+        "部署"
+      ],
+      "guides": [
+        "beginner-guide",
+        "cleaning-guide",
+        "repair-guide",
+        "cartridge-battery-guide",
+        "platforms-guide",
+        "quests-guide",
+        "collection-room-guide",
+        "demo-vs-full-game",
+        "faq"
+      ],
+      "qa": "PASS",
+      "url": "https://cozygamerestorationwiki.vercel.app/",
+      "verify": "200",
+      "words": 12327
     }
   ]
 }
