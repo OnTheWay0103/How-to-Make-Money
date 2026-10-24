@@ -220,12 +220,51 @@ async function fetchSiteData(site: SiteConfig): Promise<SiteData> {
 // Public API — aggregate across all sites
 // ---------------------------------------------------------------------------
 
-export async function fetchDashboardData(): Promise<DashboardData> {
-  const activeSites = SITES.filter(
-    (s) => s.propertyId && s.propertyId !== 'REPLACE_WITH_PROPERTY_ID',
-  );
+// 43 个 Property × 3 类报告 × 2 个时间窗 = 258 次 GA4 调用。
+// 全并发会撞 Data API 的并发/配额限制，分批跑；结果缓存 10 分钟，
+// 避免每次刷新页面都重新打满一遍。
+const CONCURRENCY = 6;
+const CACHE_TTL_MS = 10 * 60 * 1000;
 
-  const sites = await Promise.all(activeSites.map(fetchSiteData));
+async function mapLimit<T, R>(
+  items: T[],
+  limit: number,
+  fn: (item: T) => Promise<R>,
+): Promise<R[]> {
+  const results = new Array<R>(items.length);
+  let next = 0;
+  const workers = Array.from({ length: Math.min(limit, items.length) }, async () => {
+    for (let i = next++; i < items.length; i = next++) {
+      results[i] = await fn(items[i]);
+    }
+  });
+  await Promise.all(workers);
+  return results;
+}
+
+let _cache: { at: number; data: DashboardData } | null = null;
+let _inflight: Promise<DashboardData> | null = null;
+
+export async function fetchDashboardData(): Promise<DashboardData> {
+  if (_cache && Date.now() - _cache.at < CACHE_TTL_MS) return _cache.data;
+  if (_inflight) return _inflight;
+
+  _inflight = loadDashboardData()
+    .then((data) => {
+      _cache = { at: Date.now(), data };
+      return data;
+    })
+    .finally(() => {
+      _inflight = null;
+    });
+
+  return _inflight;
+}
+
+async function loadDashboardData(): Promise<DashboardData> {
+  const activeSites = SITES.filter((s) => /^\d+$/.test(s.propertyId));
+
+  const sites = await mapLimit(activeSites, CONCURRENCY, fetchSiteData);
 
   // Aggregate totals
   const totals = {
@@ -235,10 +274,14 @@ export async function fetchDashboardData(): Promise<DashboardData> {
     avgEngagement: 0,
   };
 
-  if (sites.length > 0) {
-    totals.avgEngagement = Math.round(
-      sites.reduce((sum, s) => sum + s.totals.avgEngagement, 0) / sites.length,
+  // 按会话语义加权，否则小站与头部站权重相同，汇总值会失真
+  const totalSessions = sites.reduce((sum, s) => sum + s.totals.sessions, 0);
+  if (totalSessions > 0) {
+    const weighted = sites.reduce(
+      (sum, s) => sum + s.totals.avgEngagement * s.totals.sessions,
+      0,
     );
+    totals.avgEngagement = Math.round(weighted / totalSessions);
   }
 
   return { sites, totals };
