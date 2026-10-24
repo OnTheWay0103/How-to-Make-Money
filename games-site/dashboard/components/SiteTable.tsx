@@ -9,6 +9,13 @@ interface Props {
   onSelect: (propertyId: string) => void;
 }
 
+function ageDays(iso?: string): number | null {
+  if (!iso) return null;
+  const then = Date.parse(`${iso}T00:00:00Z`);
+  if (Number.isNaN(then)) return null;
+  return Math.max(0, Math.floor((Date.now() - then) / 86_400_000));
+}
+
 export default function SiteTable({ sites, totals, selected, onSelect }: Props) {
   // 按 PV 排序，头部站排在最前；同 PV 时保持注册表顺序
   const rows = [...sites].sort((a, b) => b.totals.pageViews - a.totals.pageViews);
@@ -20,6 +27,7 @@ export default function SiteTable({ sites, totals, selected, onSelect }: Props) 
           <tr className="text-text-secondary text-left">
             <th className="py-2 pl-2 pr-1 font-medium w-8">#</th>
             <th className="py-2 px-2 font-medium">Site</th>
+            <th className="py-2 px-2 font-medium w-32 hidden md:table-cell">建站</th>
             <th className="py-2 px-2 font-medium text-right w-20">PV</th>
             <th className="py-2 px-2 font-medium text-right w-20 hidden sm:table-cell">
               Users
@@ -45,6 +53,7 @@ export default function SiteTable({ sites, totals, selected, onSelect }: Props) 
                 {rows.length}
               </span>
             </td>
+            <td className="py-1.5 px-2 hidden md:table-cell" />
             <td className="py-1.5 px-2 text-right tabular-nums font-mono">
               {totals.pageViews.toLocaleString()}
             </td>
@@ -72,6 +81,21 @@ export default function SiteTable({ sites, totals, selected, onSelect }: Props) 
                   title={s.site.name}
                 >
                   {s.site.name}
+                </td>
+                <td className="py-1.5 px-2 hidden md:table-cell whitespace-nowrap">
+                  {s.site.createdAt ? (
+                    <span
+                      className="text-xs text-text-secondary tabular-nums"
+                      title={`建站 ${s.site.createdAt}，已运行 ${ageDays(s.site.createdAt)} 天`}
+                    >
+                      {s.site.createdAt}
+                      <span className="ml-1.5 text-text-secondary/60">
+                        {ageDays(s.site.createdAt)}d
+                      </span>
+                    </span>
+                  ) : (
+                    <span className="text-xs text-text-secondary">—</span>
+                  )}
                 </td>
                 <td className="py-1.5 px-2 text-right tabular-nums font-mono">
                   {s.totals.pageViews.toLocaleString()}
