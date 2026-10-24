@@ -3,7 +3,7 @@ title: "SpiritVale Artifact Sets Guide — Which Set to Wear and Where Each One 
 description: "SpiritVale artifacts are four-piece sets — Rune, Jewel, Scroll and Relic — and the set bonus only fires when you wear all four. The best set for melee, magic, ranged and summoner builds, and where each core set drops."
 category: "Guides"
 version: "EA"
-updated: "2026-09-12"
+updated: "2026-10-24"
 keywords: ["spiritvale artifacts", "spiritvale artifact sets", "best artifacts spiritvale", "spiritvale steelheart set", "spiritvale arcanum set", "spiritvale stormquiver set", "spiritvale pioneer set", "spiritvale rune jewel scroll relic"]
 related: ["cards-guide", "gear-progression", "crafting-guide", "beginner-guide", "summoner-guide", "necromancer-build-guide"]
 sources:
@@ -119,7 +119,7 @@ Arcane Origin (Mage), Far Sight (Scout), Holy Vow (Acolyte), Honored Oath (Knigh
 
 These behave differently. The database describes them as material for **grimoires**, and the playtest patch notes for the Echoing Spire update spell out the trade: you hand in a full artifact set for a Grimoire, with **base-class Grimoires coming from Box of Origin sets** and advanced-class ones from Box of Mastery sets. Boxes of Origins themselves drop from monsters (the database records Ruby Gazer at 1%). Their numbers are larger too — around **+2% per enhancement** and a set bonus of **All Stats +3** instead of +1.
 
-Grimoires are their own class-locked equip slot — three at a time, each granting a unique passive. The official 0.31.0 Dark Fortress notes add that **Grimoires are now character bound** (the old "convert Grimoires into cosmetics" route is closed). "**Advanced Artifacts and Grimoires**" were named as in-development work in the developer's August 2, 2026 update, and the September 10, 2026 announcement confirms they are now included in the **PTR / publictest build** — they are not in the live build yet (see the [PTR Test Server Guide](/guides/ptr-test-server-guide)). So do not vendor a Box of Origins — but none of these sets' unlock conditions is officially documented. **[Unconfirmed]**
+Grimoires are their own class-locked equip slot — three at a time, each granting a unique passive. The official 0.31.0 Dark Fortress notes add that **Grimoires are now character bound** (the old "convert Grimoires into cosmetics" route is closed). **Advanced Artifacts and Advanced Grimoires shipped in the 0.32.0 update on September 21, 2026**: advanced artifacts are a separate 32-piece, 8-set tier, and advanced grimoires are account bound and crafted with a matching set plus Masterwork Cores and a Corrupted Core. We cover that tier in the [Advanced Artifacts & Grimoires Guide](/guides/advanced-artifacts-grimoires-guide). So do not vendor a Box of Origins — but none of these base sets' unlock conditions is officially documented. **[Unconfirmed]**
 
 ---
 
