@@ -19,7 +19,7 @@ sources:
 
 # Grain Rot Patch Notes & Update History — What Changed in 1.01–1.09 and What's Coming Next
 
-Grain Rot has shipped **nine patches since its August 7, 2026 launch** — and the two that matter most to how you actually play (a public server browser and a batch of new buildables) landed *after* most reviews and guides were written. This page is the full, dated update history taken from the developer's own Steam announcements, plus the official roadmap for what is still coming.
+Grain Rot has shipped **more than a dozen patches since its August 7, 2026 launch**, including the 1.1 content update on September 24 and Patches 1.11–1.13 through September 30. The two that matter most to how you actually play — a public server browser and a batch of new buildables — landed *after* most reviews and guides were written. This page is the dated update history taken from the developer's own Steam announcements, plus the official roadmap for what is still coming.
 
 > **Update (October 23, 2026):** this page stops at **Patch 1.09**. Update **1.1** landed on **September 24, 2026** with **Expedition Mode**, the **Rainbow Ward** biome and colour-pattern cosmetics, followed by **Patches 1.11 (September 28), 1.12 (September 29) and 1.13 (September 30)**. The mode and its patch changes are covered in the [Grain Rot Expedition Mode Guide](/guides/grainrot-expedition-mode-guide). The 1.01–1.09 body below is left as the historical record.
 
@@ -32,7 +32,7 @@ Grain Rot has shipped **nine patches since its August 7, 2026 launch** — and t
 | Question | Answer |
 |----------|--------|
 | What is the current Grain Rot version? | **1.13**, released **September 30, 2026** (the 1.1 content update shipped September 24; see the [Expedition Mode Guide](/guides/grainrot-expedition-mode-guide)) |
-| When was the last update? | 1.09 on August 28 — no 1.10 or September patch has shipped as of September 11, 2026 |
+| When was the last update? | 1.13 on September 30, 2026 — the 1.1 content update shipped September 24, followed by 1.11, 1.12 and 1.13 |
 | Does Grain Rot have a server browser? | **Yes** — Patch 1.07 (August 12) added public servers you join through an in-game browser |
 | What is the next big update? | The **Deep Layers Update** — one new biome and several new enemies, planned by the developer for September 2026 |
 | How often does it update? | Fastest right after launch (seven patches in the first six days), then settling into larger content drops |
