@@ -204,19 +204,24 @@ function buildRows(rows, date) {
   });
 }
 
+// 「QA 结论」是单选，只有 PASS/黄/FAIL 三个选项。写不存在的选项会被飞书
+// 判成 not_found（800030005，2026-10-24 排查了半天）。未验就不写，留空即未验。
+const QA_OPTIONS = new Set(['PASS', '黄', 'FAIL']);
+
 function toCell(row) {
-  return {
+  const cell = {
     '站点': row.site,
     '日期': `${row.date} 00:00:00`,
     '类型': row.types,
     '文章数': row.guides.length,
     '文章': row.guides.join(', '),
     '字数': row.words,
-    'QA 结论': row.qa,
     '线上 URL': row.url || null,
     '验证': row.verify,
     'commit': row.commit || null,
   };
+  if (QA_OPTIONS.has(row.qa)) cell['QA 结论'] = row.qa;
+  return cell;
 }
 
 function upsertDelivery(rows, date) {
@@ -228,7 +233,9 @@ function upsertDelivery(rows, date) {
   for (const row of rows) {
     const old = bySite.get(row.site);
     if (!old) {
-      creates.push(toCell(row));
+      // 部署日志来的行只有 site/types/...，日期必须在这里补；
+      // 否则 toCell 会写出 "undefined 00:00:00"（2026-10-24 踩过）
+      creates.push(toCell({ ...row, date }));
       continue;
     }
     const f = old.fields || {};
