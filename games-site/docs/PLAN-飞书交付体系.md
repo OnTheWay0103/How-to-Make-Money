@@ -189,10 +189,31 @@
 
 | Phase | 内容 | 状态 |
 |-------|------|------|
-| 1 | 建 Base + T1 + T5；`scripts/feishu-report.mjs`；coordinator 收尾钩子 | 进行中 |
+| 1 | 建 Base + T1 + T5；`scripts/feishu-report.mjs`；coordinator 收尾钩子 | Base/T1/T5 已建，脚本待写 |
 | 2 | T2 + QA/部署脚本写状态；`pending-deploys` 退役 | 待开始 |
 | 3 | build 前 lint（5 条）接进 `deploy-wiki-site.sh`；T3 台账 | 待开始 |
 | 4 | D1 每日摘要 + 月度复盘；修 GA4 凭证让扩充名单按月重算 | 待开始 |
+
+---
+
+## 九、已建资源（2026-10-24）
+
+| 资源 | 值 |
+|------|-----|
+| Base 名称 | 游戏站交付看板 |
+| Base URL | https://jcn5oum2q1jh.feishu.cn/base/Zl7cb6Bz9ajsPdsQRbRci1QZnkg |
+| wiki 节点 URL | https://jcn5oum2q1jh.feishu.cn/wiki/XXImw9VzyiJsMnkDwj8cgv8inSe |
+| base_token | `Zl7cb6Bz9ajsPdsQRbRci1QZnkg` |
+| space_id | `7496743428941103107` |
+| 表「每日交付」 | `tbltCgQw1VfMVj0T` |
+| 表「部署队列」 | `tbljqIjX9qOD8fVs` |
+
+**身份说明**：应用 `cli_aae2c52aa4b89d05` 的 bot 身份未申请 `base:*` / `wiki:*` scope
+（只有 sheets），所以当前所有 Base 操作走**同一应用的用户身份**（`--as user`，已授权账号 赵q）。
+等开发者后台补上 bot scope 后，脚本只需把 `--as user` 改为 `--as bot`，其余不动。
+
+2026-10-24 已回填 11 条种子记录（当日 5 站扩充 + 6 站修正，逐条 `curl` 验证 200），
+用于确认「一站一行」的字段粒度是否合适。
 
 ---
 
