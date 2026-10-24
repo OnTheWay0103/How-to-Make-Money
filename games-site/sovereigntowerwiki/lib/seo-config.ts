@@ -47,7 +47,7 @@ export const SITE_CONFIG = {
   /* ─── Third‑party integration IDs (fill in when available) ─── */
 
   /** Google Analytics 4 measurement ID — deferred to main Agent setup. */
-  googleAnalyticsId: '',
+  googleAnalyticsId: 'G-BDETT6CRYJ',
 
   /** Google AdSense publisher ID (e.g. ca-pub-XXXXXXXXXXXXXXXX). */
   googleAdsenseId: 'ca-pub-7211682665758448',

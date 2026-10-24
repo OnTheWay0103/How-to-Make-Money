@@ -184,45 +184,49 @@ export const SITES: SiteConfig[] = [
   },
   {
     name: 'Crimson Moon Wiki',
-    propertyId: 'PENDING',
-    gaId: 'G-PLACEHOLDER',
+    propertyId: '560644715',
+    gaId: 'G-2MXQE542D4',
   },
   {
     name: 'Welcome to Elderfield Wiki',
-    propertyId: 'PENDING',
-    gaId: 'G-PLACEHOLDER',
+    propertyId: '560568171',
+    gaId: 'G-GZTL467FJW',
   },
   {
     name: 'Fallen Tear: The Ascension Wiki',
-    propertyId: 'PENDING',
-    gaId: 'G-PLACEHOLDER',
+    propertyId: '560586314',
+    gaId: 'G-Z3RZ4S5KPH',
   },
   {
     name: 'BOMBANANA! Wiki',
-    propertyId: 'PENDING',
-    gaId: 'G-PLACEHOLDER',
+    propertyId: '560599766',
+    gaId: 'G-J5TCLQ5DY6',
   },
   {
     name: 'Anomaly President Wiki',
-    propertyId: 'PENDING',
-    gaId: '',
+    propertyId: '560566538',
+    gaId: 'G-WHHJ5Y6BR8',
   },
   {
     name: 'Dressmaker Wiki',
-    propertyId: 'PENDING',
-    gaId: '',
+    propertyId: '560567228',
+    gaId: 'G-PYE3YT7GK7',
   },
   {
-    // BUILD-009 — deployed 2026-09-16, pre-release (Steam launch 2026-10-08).
-    // No GA4 property exists yet, so `gaId` is deliberately an empty string:
-    // SITE_CONFIG.googleAnalyticsId is '' and components/GoogleAnalytics.tsx
-    // returns null when it is falsy, so no gtag script is emitted at all.
-    // MANUAL CONFIG REQUIRED: create the GA4 property, then fill in both
-    // `propertyId` (numeric) and `gaId` (G-XXXXXXXXXX), and set
-    // silverpineswiki/lib/seo-config.ts → SITE_CONFIG.googleAnalyticsId.
-    // Do NOT insert a placeholder value — that was the §5.1 hardcoded-fallback bug.
+    // BUILD-009 — deployed 2026-09-16, Steam launch 2026-10-08.
+    // GA4 property created 2026-10-24; site config injected the same day.
     name: 'Silver Pines Wiki',
-    propertyId: 'PENDING',
-    gaId: '',
+    propertyId: '560583600',
+    gaId: 'G-YGYXR5Q3KX',
+  },
+  {
+    name: 'Doloc Town Wiki',
+    propertyId: '560560698',
+    gaId: 'G-P43XZEPSCG',
+  },
+  {
+    name: 'Sovereign Tower Wiki',
+    propertyId: '560600698',
+    gaId: 'G-BDETT6CRYJ',
   },
 ];

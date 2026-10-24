@@ -43,15 +43,15 @@
 | 32 | ReStory | 8/08 | 18 | restorywiki.vercel.app | ✅ | ✅ | ✅ | 8/8 auto-build，22/20，8/6 上线，Mandragora/tinyBuild，700K wishlist，98% 好评；8/9 Coordinator 扩充 +10（Cleaning、Soldering、Reprogramming、Valuable Devices、Shop Management、Easter Eggs、Characters、Walkthrough、Game Length、Known Issues）；GA4 ✅ |
 | 33 | Beast of Reincarnation | 8/08 | 25 | beastreincarnationwiki.vercel.app | ✅ | ✅ | ✅ | 8/8 auto-build，21/20，8/4 发售，Game Freak 首款原IP，718K wishlist；8/9 Coordinator 扩充 +12（6 Boss 攻略 + 武器防具 + Bloom Arts + Ch.1-2 Walkthrough + Endings + NG+）；GA4 ✅ |
 | 34 | Waterpark Simulator | 8/08 | 17 | waterparksimulatorwiki.vercel.app | ✅ | ✅ | ✅ | 8/8 auto-build，17/20，7/31 1.0 上线，CayPlay（50M YouTuber），1M+ 下载，96% 好评；GA4 ✅ |
-| 35 | DOLOC TOWN | 8/22 | 21 | doloctownwiki.vercel.app | ✅ | ❌ | ✅ | 8/22 BUILD-001，22/20，后末日温馨农场模拟 (RedSaw Games/Logoi Games)，8/6 1.0 发售，95% 好评 2.4K 评测，零 wiki；QA PASS；8/25 deep QA 补 GSC 文件；GA4 ⏳ 待人工配置 |
-| 36 | Sovereign Tower | 8/25 | 19 | sovereigntowerwiki.vercel.app | ✅ | ❌ | ✅ | 8/25 BUILD-002，18/20，圆桌管理模拟 RPG (WILD WITS/Curve Games)，8/6 发售，~1,640 评测 91% Very Positive，$19.99，首周 50K 销量（Curve 官方），英中日零 wiki；8/25 QA quick PASS 已部署；GA4 ⏳ 待人工配置 |
-| 37 | Crimson Moon | 8/28 | 17 | crimsonmoonwiki.vercel.app | ✅ | ❌ | ✅ | 8/28 BUILD-003，18/20，9/1 发售（ProbablyMonsters 魂系动作 RPG，PC/PS5/Xbox，$19.99/$29.99 Deluxe），~365K wishlist 榜#130，英中日韩零 wiki；裸词同名污染→SEO 主攻专属长尾（Gildenarch/Dead Gods/incursions）；16 guides，QA 有条件 PASS；GA4 ⏳ 待人工配置 |
-| 38 | Welcome to Elderfield | 8/30 | 18 | welcomeelderfieldwiki.vercel.app | ✅ | ❌ | ✅ | 8/30 BUILD-004，20/20，9/10 发售（Chris Cote/Kwalee cosy horror RPG，单人开发），~85.1K wishlist + 6.2K 关注，demo（App 3195680）96% 好评 ~550 评测，双难度 Cozy/Challenge，最低配置 [Unconfirmed] 待人工核验；wiki.gg 官方 wiki 早期占位（非零 wiki，主打 demo 实测 + 预发售诚实标注）；17 guides，QA 有条件 PASS（R1 配置人工核验已登记、R2 顺手修、已重部署）；GA4 ⏳ 待人工配置 |
-| 39 | Fallen Tear: The Ascension | 9/16 | 18 | fallentearwiki.vercel.app | ✅ | ❌ | ✅ | 8/31 BUILD-005，18/20，9/16 1.0 发售（Winter Crew Studios/CMD Studios，手绘 2D Metroidvania），EA 2026-03 $19.99、1.0 $24.99（前 14 天 -10%），20 区域 / 33 Boss（11 主+22 支）/ 21 Fated Bonds、主线 35-40h 全收集 80h、Temple of Oras 枢纽；零 wiki（预发售，仅 Game8 发售文 + Fextralife 2022 新闻稿）；17 guides，QA PASS（6 🟡 中 4 项已修复，home-content 孤儿文件记录在案）；GA4 ⏳ 待人工配置 |
-| 40 | BOMBANANA! | 9/2 | 11 | bombananawiki.vercel.app | ✅ | ❌ | ✅ | 9/1 BUILD-006，19/20，9/2 发售（Lefto Studio/TARK，3人 Co-op 拆弹派对），demo 97% Overwhelmingly Positive（5,000+ 评测）、600 万试玩、峰值 CCU 4 万、1M+ wishlist，零 wiki；10 guides（入门/三角角色/模块/手册/发售FAQ），QA 待审核；GA4 ⏳ 待人工配置 |
-| 41 | Anomaly President | 9/6 | 17 | anomalypresidentwiki.vercel.app | ✅ | ❌ | ✅ | 9/6 BUILD-007，9/3 门禁开（19/20），Phew Phew Games EA roguelike（Roguelike 动作+竞选管理双循环），EA 满月评测 ~1,300（92% Very Positive）、英日中零 wiki，9/6 首部署 QA PASS（16 guides）；GA4 ⏳ 待人工配置；GSC 验证文件已核实到位（9/16 更正此前「缺失待补」的错误记录） |
-| 42 | 🆕 dressmakerwiki | ❓ | 13 | dressmakerwiki.vercel.app | ✅ | ❌ | ✅ | ⚠️ 新站点，需手动补全信息 |
-| 43 | Silver Pines | 9/16 | 11 | silverpineswiki.vercel.app | ✅ | ❌ | ✅ | 9/16 BUILD-009（门禁 17/20 开），Wych Elm/Team17 恐怖 Metroidvania，10/8 发售（**预售期建站，早于发售 22 天**）；~83–112K wishlist；英中日零 wiki；**裸词污染已独立复现**（裸词探针 10 条建议仅 3 条指向本作，锚词 `silver pines game` 下 10/10 命中）；10 篇 P0 共 15,129 词，QA PASS（0 🔴 / 5 🟡 / 3 🟢），线上 23/23 路由 200；⚠️ 门禁的「12 条已验证机制」有 **5 条本轮无法复核**（gun locker code / herbs / camera photo map / hip pouch / stiletto）→ 已降级为不写或标注，**未当事实写出**；⚠️ 20 条机制种子 **17 条零建议** → 机制页定位为发售后抢位，非当前流量来源；价格/通关时长/区域名/武器清单/伤害值全站 [Unconfirmed]（123 处）；GA4 ⏳ 待人工配置（`googleAnalyticsId=''` 空串，**无 G-XXX 假回退值**）；GSC 文件已就位待提交；Phase 2（P1 攻略）未做 |
+| 35 | DOLOC TOWN | 8/22 | 21 | doloctownwiki.vercel.app | ✅ | ✅ | ✅ | 8/22 BUILD-001，22/20，后末日温馨农场模拟 (RedSaw Games/Logoi Games)，8/6 1.0 发售，95% 好评 2.4K 评测，零 wiki；QA PASS；8/25 deep QA 补 GSC 文件；GA4 ⏳ 待人工配置 |
+| 36 | Sovereign Tower | 8/25 | 19 | sovereigntowerwiki.vercel.app | ✅ | ✅ | ✅ | 8/25 BUILD-002，18/20，圆桌管理模拟 RPG (WILD WITS/Curve Games)，8/6 发售，~1,640 评测 91% Very Positive，$19.99，首周 50K 销量（Curve 官方），英中日零 wiki；8/25 QA quick PASS 已部署；GA4 ⏳ 待人工配置 |
+| 37 | Crimson Moon | 8/28 | 17 | crimsonmoonwiki.vercel.app | ✅ | ✅ | ✅ | 8/28 BUILD-003，18/20，9/1 发售（ProbablyMonsters 魂系动作 RPG，PC/PS5/Xbox，$19.99/$29.99 Deluxe），~365K wishlist 榜#130，英中日韩零 wiki；裸词同名污染→SEO 主攻专属长尾（Gildenarch/Dead Gods/incursions）；16 guides，QA 有条件 PASS；GA4 ⏳ 待人工配置 |
+| 38 | Welcome to Elderfield | 8/30 | 18 | welcomeelderfieldwiki.vercel.app | ✅ | ✅ | ✅ | 8/30 BUILD-004，20/20，9/10 发售（Chris Cote/Kwalee cosy horror RPG，单人开发），~85.1K wishlist + 6.2K 关注，demo（App 3195680）96% 好评 ~550 评测，双难度 Cozy/Challenge，最低配置 [Unconfirmed] 待人工核验；wiki.gg 官方 wiki 早期占位（非零 wiki，主打 demo 实测 + 预发售诚实标注）；17 guides，QA 有条件 PASS（R1 配置人工核验已登记、R2 顺手修、已重部署）；GA4 ⏳ 待人工配置 |
+| 39 | Fallen Tear: The Ascension | 9/16 | 18 | fallentearwiki.vercel.app | ✅ | ✅ | ✅ | 8/31 BUILD-005，18/20，9/16 1.0 发售（Winter Crew Studios/CMD Studios，手绘 2D Metroidvania），EA 2026-03 $19.99、1.0 $24.99（前 14 天 -10%），20 区域 / 33 Boss（11 主+22 支）/ 21 Fated Bonds、主线 35-40h 全收集 80h、Temple of Oras 枢纽；零 wiki（预发售，仅 Game8 发售文 + Fextralife 2022 新闻稿）；17 guides，QA PASS（6 🟡 中 4 项已修复，home-content 孤儿文件记录在案）；GA4 ⏳ 待人工配置 |
+| 40 | BOMBANANA! | 9/2 | 11 | bombananawiki.vercel.app | ✅ | ✅ | ✅ | 9/1 BUILD-006，19/20，9/2 发售（Lefto Studio/TARK，3人 Co-op 拆弹派对），demo 97% Overwhelmingly Positive（5,000+ 评测）、600 万试玩、峰值 CCU 4 万、1M+ wishlist，零 wiki；10 guides（入门/三角角色/模块/手册/发售FAQ），QA 待审核；GA4 ⏳ 待人工配置 |
+| 41 | Anomaly President | 9/6 | 17 | anomalypresidentwiki.vercel.app | ✅ | ✅ | ✅ | 9/6 BUILD-007，9/3 门禁开（19/20），Phew Phew Games EA roguelike（Roguelike 动作+竞选管理双循环），EA 满月评测 ~1,300（92% Very Positive）、英日中零 wiki，9/6 首部署 QA PASS（16 guides）；GA4 ⏳ 待人工配置；GSC 验证文件已核实到位（9/16 更正此前「缺失待补」的错误记录） |
+| 42 | 🆕 dressmakerwiki | ❓ | 13 | dressmakerwiki.vercel.app | ✅ | ✅ | ✅ | ⚠️ 新站点，需手动补全信息 |
+| 43 | Silver Pines | 9/16 | 11 | silverpineswiki.vercel.app | ✅ | ✅ | ✅ | 9/16 BUILD-009（门禁 17/20 开），Wych Elm/Team17 恐怖 Metroidvania，10/8 发售（**预售期建站，早于发售 22 天**）；~83–112K wishlist；英中日零 wiki；**裸词污染已独立复现**（裸词探针 10 条建议仅 3 条指向本作，锚词 `silver pines game` 下 10/10 命中）；10 篇 P0 共 15,129 词，QA PASS（0 🔴 / 5 🟡 / 3 🟢），线上 23/23 路由 200；⚠️ 门禁的「12 条已验证机制」有 **5 条本轮无法复核**（gun locker code / herbs / camera photo map / hip pouch / stiletto）→ 已降级为不写或标注，**未当事实写出**；⚠️ 20 条机制种子 **17 条零建议** → 机制页定位为发售后抢位，非当前流量来源；价格/通关时长/区域名/武器清单/伤害值全站 [Unconfirmed]（123 处）；GA4 ⏳ 待人工配置（`googleAnalyticsId=''` 空串，**无 G-XXX 假回退值**）；GSC 文件已就位待提交；Phase 2（P1 攻略）未做 |
 <!-- AUTO-END:overview-table -->
 
 ---
@@ -95,13 +95,13 @@
 | 32 | ReStory | 8/08 | ✅ | ✅ WebSearch | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | 33 | Beast of Reincarnation | 8/08 | ✅ | ✅ WebSearch | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | 34 | Waterpark Simulator | 8/08 | ✅ | ✅ WebSearch | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| 35 | DOLOC TOWN | 8/22 | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ |
-| 36 | Sovereign Tower | 8/25 | ✅ | ✅ 报告 | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ |
-| 37 | Crimson Moon | 8/28 | ✅ | ✅ 报告 | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ |
+| 35 | DOLOC TOWN | 8/22 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 36 | Sovereign Tower | 8/25 | ✅ | ✅ 报告 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 37 | Crimson Moon | 8/28 | ✅ | ✅ 报告 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | 38 | Welcome to Elderfield | 8/30 | ✅ | ✅ 报告 | ✅ | ❓ | ✅ | ❓ | ✅ | ✅ |
 | 39 | Fallen Tear: The Ascension | 9/16 | ✅ | ✅ 报告 | ✅ | ❓ | ✅ | ❓ | ✅ | ✅ |
-| 40 | BOMBANANA! | 9/2 | ✅ | ✅ 报告 | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ |
-| 41 | Anomaly President | 9/6 | ✅ | ✅ 报告 | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ |
+| 40 | BOMBANANA! | 9/2 | ✅ | ✅ 报告 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 41 | Anomaly President | 9/6 | ✅ | ✅ 报告 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 <!-- AUTO-END:sop-table -->
 
 
@@ -144,8 +144,7 @@
 | **总站点数** | 43 |
 | **总攻略数** | 1055 |
 | **Vercel 部署** | 43/43 ✅ |
-| **GA4 已配置** | 34/43 |
-| **GA4 真缺失** | 9（anomalypresidentwiki（空）、bombananawiki（空）、crimsonmoonwiki（空）、doloctownwiki（空）、dressmakerwiki（空）、fallentearwiki（空）、silverpineswiki（空）、sovereigntowerwiki（空）、welcomeelderfieldwiki（空）） |
+| **GA4 已配置** | 43/43 |
 | **GSC 文件部署** | 43/43 ✅（账户级令牌，所有站共用同一文件） |
 <!-- AUTO-END:summary -->
 
