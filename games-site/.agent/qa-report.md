@@ -1859,3 +1859,36 @@ Loftia 排在其后。Chained Beasts 已因名字污染重、需求偏小下调�
 
 **本轮未建站的原因**：今日 5 站强制扩充 + 逾期 52 天的全量 deep QA 已占满预算；
 即使按原排期，Stormforge 距 EA 仍有 17 天，推迟一天不损失窗口（评分 ≥15 的建站资格保留）。
+
+---
+
+# 每日扩充 QA — 2026-10-24（PV>1000 重点站）
+
+> 模式：quick（每站产出后立即执行）→ build → 部署 → `scripts/verify-guide-live.sh` 线上内容级复验
+> 名单：`.agent/expand-daily.json`（sephiria / themound / spiritvale / tearsofmetal / grainrot）
+
+| 站点 | 选题来源 | 产出 | 词数（去表格） | `[Unconfirmed]` | sources | QA | 线上复验 |
+|------|----------|------|:---:|:---:|:---:|:--:|:--:|
+| sephiriawiki | 反馈驱动（Steam 讨论 + 官方 Known Issues 交叉） | `stuck-soft-lock-recovery-guide` | 1,142 | 2 | 9（5 Official / 3 Community / 1 Editorial） | PASS | PASS（HTTP 200，Talk to Rylie ×5） |
+| themoundwiki | 反馈驱动（Reddit r/TheMoundOmenofCthulhu 多串 + 官方补丁） | `tulu-cylinders-unlock-the-mound` | 1,332 | 5 | 11 | PASS | PASS（HTTP 200，3 标记命中） |
+| spiritvalewiki | **非反馈驱动**（官方 0.32.0 系统清单；反馈驱动记 SKIP） | `advanced-artifacts-grimoires-guide` | 1,449 | 2 | 10 | PASS | PASS（HTTP 200，3 标记命中） |
+| grainrotwiki | 反馈驱动（Steam 讨论 + 官方 1.11–1.13 补丁） | `legendary-gumball-constructs-guide` | 1,312 | 9 | 11 | PASS | PASS（HTTP 200，3 标记命中） |
+
+## 事实核验要点
+
+- **themound**：Tulu 圆筒的 5 个契约、随机刷新点、音效/绿光提示、满板导致契约不出现 —— 均有多条
+  Reddit 独立串（7/18–8/29）与官方 1.05/1.06 补丁交叉；「圆筒是 unlock 条件」本身无官方文案，
+  正文已用反向证据与社区一致做法表述，未把推测写成机制。
+- **spiritvale**：0.32.0 Advanced Artifacts & Grimoires 的系统名、Box of Mastery、Masterwork Cores
+  均有官方来源；同时修正了 `artifact-sets-guide` 中「高级神器尚未上线」的过期断言。
+- **grainrot**：传奇 gumball 与 Vibe Modulator 的「三个同名 gumball」歧义在文首拆分；未确认的
+  掉落/保底写明 `[Unconfirmed]`。同日把 `patch-notes-guide` 补到 1.13，消除「当前版本」自相矛盾。
+- **sephiria**：卡关路径（第 6 章 Rylie 消失、Library 战后房、任务未保存、联机进度不同步）分别对应
+  官方 1.0.23 / 1.0.24 / 1.0.28–1.0.33 修复记录，修复不了的部分给上报所需信息，未编造 GM 命令。
+
+## SKIP 记录
+
+- **spiritvalewiki** — 当日无满足「≥3 独立来源 + 真缺口 + 不编造」的反馈驱动选题；Steam 评测 API
+  302、Reddit 403/429，可采样本不足 Profile 要求的 20 条。已写入 `.agent/expand-daily.json` skips，
+  次日优先补跑。当日产出的系统指南不计入反馈驱动。
+- **tearsofmetalwiki** — 见本节末尾补充。
