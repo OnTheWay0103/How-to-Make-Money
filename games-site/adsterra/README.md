@@ -130,3 +130,19 @@ node scripts/adsterra-stats.mjs --json       # 机器可读
 | `nivalisnightswiki` | 手工接入（2026-10-23） | 硬编码在 layout + AdsterraNativeBanner，未走 `placements.csv` |
 
 > 后续新站统一走 `placements.csv`，不要再手工硬编码。
+
+## 七、上线验收（必做）
+
+「HTML 里有广告代码」≠「广告会出来」。每次接完广告至少验两条路径：
+
+1. **直接打开攻略页**（服务端渲染首屏）
+2. **从首页点击进入攻略页**（客户端路由切换）
+
+原因（2026-10-25 踩坑）：`dangerouslySetInnerHTML` 插入的 `<script>` **不会执行**。
+首屏由浏览器 HTML 解析器执行，站内路由切换后 React 用 innerHTML 塞进去的脚本被静默忽略，
+表现为「首页点进去没有广告，直接刷新攻略页又有」。`components/AdsterraSlot.tsx` 已改为把
+脚本标签从渲染内容里剥掉、在 `useEffect` 里用 `createElement` 补注入，两种路径都会执行。
+
+验收做法：用 Chrome 无头 + CDP 打开首页，`click()` 一个 `/guides/` 链接，等 10 秒后检查
+`document.querySelectorAll('[id^="container-"]')` 的 `innerHTML.length` 是否 > 0。
+本机 DNS 会污染 `*.vercel.app`，必要时用 `dig @1.1.1.1 +short <域名>` 拿真 IP。
