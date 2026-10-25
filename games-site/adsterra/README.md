@@ -26,40 +26,32 @@ ADSTERRA_API_KEY=你的token
    - `guide` 槽位：一般用 **Native Banner**，代码是 `<script>` + `<div id="container-...">`
 3. 复制后台给出的代码，粘贴到 `adsterra/placements.csv`
 
-## 三、代码表格式（placements.csv）
+## 三、代码表格式（多维表格 / placements.csv）
 
-| 列 | 说明 |
+**唯一数据源：飞书多维表格「游戏站交付看板 → 广告位管理」（`tblPlFjSok72tnA1`）**
+
+| 字段 | 说明 |
 |---|---|
-| `site_dir` | 站点目录名，如 `witchspirewiki` |
-| `domain` | 域名，仅用于核对 |
-| `slot` | `global`（全站，layout body 末尾）或 `guide`（攻略页正文后） |
-| `format` | 广告格式，如 `Social Bar` / `Native Banner` / `Popunder` |
-| `placement_name` | Adsterra 后台的广告位名称 |
-| `placement_id` | Adsterra 广告位 ID（可选，便于对账） |
-| `status` | `pending`（待处理）、`ready`（可注入）、`已接入`（手工接入，脚本会跳过）、`已上线`（已部署） |
-| `code` | **Adsterra 后台复制的完整代码**（可含换行；CSV 中用双引号包裹，内部双引号写成 `""`） |
-| `notes` | 备注 |
+| `站点目录` | 站点目录名，如 `witchspirewiki` |
+| `域名` | 域名，仅用于核对 |
+| `广告位类型` | `global`（全站，layout body 末尾）或 `guide`（攻略页正文后） |
+| `广告格式` | 广告格式，`Social Bar` / `Native Banner` / `Popunder` / `Display Banner` |
+| `广告位名称` | Adsterra 后台的广告位名称（也是同步主键） |
+| `广告位ID` | Adsterra 广告位 ID（可选，便于对账） |
+| `状态` | `pending`（待处理）、`ready`（可注入）、`已接入`（手工接入，脚本会跳过）、`已上线`（已部署） |
+| `广告代码` | **Adsterra 后台复制的完整代码**（整段粘在一格里，可带换行） |
+| `备注` | 备注 |
+| `同步状态` | `未同步` / `已同步`，由脚本回写，人工不用填 |
 
 - 同一站点可以有多行（一个 `global` + 一个 `guide`）。
-- 用 Google Sheets 维护也可以，导出为 CSV 后覆盖 `adsterra/placements.csv`。
 - 不要填 `dashboard` 或其他非站点目录。
+- 离线/测试时可用本地 CSV（`adsterra/placements.csv`，表头支持中英文），用 `--csv` 显式指定。
 
-### 飞书在线表格（推荐，多人共用）
+### 旧版飞书在线表格（仅迁移用）
 
 在线表：<https://jcn5oum2q1jh.feishu.cn/wiki/Nbeqw9Dqmivo2jkWPYKc56Fwn7e>
 
-- 由 `lark-cli`（已安装并绑定应用 `cli_aae2c52aa4b89d05`）以 bot 身份读取，无需登录、token 长期有效。
-- 表头支持中英文，推荐第一行：
-
-```
-站点目录,域名,广告位类型,广告格式,广告位名称,广告位ID,状态,广告代码,备注
-```
-
-- `广告位类型` = `global` / `guide`，`状态` = `ready` / `pending`。
-- `广告代码` 整段粘在一格里（可以带换行）。
-- 多人同时编辑同一张表即可，脚本每次运行都会读最新内容。
-
-> 应用需要 `sheets:spreadsheet:read`（已开通）。若还要脚本回写「同步状态」，需再开 `sheets:spreadsheet:write_only`。
+已全量导入多维表格，**日常不再从这里读**。`--feishu <url>` 参数仍保留，只在需要对比旧数据时用。
 
 ## 四、自动注入
 
@@ -77,14 +69,23 @@ node scripts/adsterra-sync.mjs --apply --build
 node scripts/adsterra-sync.mjs --apply --build --deploy
 ```
 
-直接读飞书在线表（不需要导出 CSV）：
+默认直接读多维表格「广告位管理」，无需任何参数。其他来源：
 
 ```bash
-node scripts/adsterra-sync.mjs --feishu 'https://jcn5oum2q1jh.feishu.cn/wiki/Nbeqw9Dqmivo2jkWPYKc56Fwn7e'
-node scripts/adsterra-sync.mjs --feishu '<URL>' --apply --build --deploy
+node scripts/adsterra-sync.mjs --csv adsterra/placements.csv          # 离线 CSV
+node scripts/adsterra-sync.mjs --base <token> --table <id|name>       # 其他多维表格
+node scripts/adsterra-sync.mjs --feishu '<旧在线表URL>'                # 旧在线表（对比用）
+node scripts/adsterra-sync.mjs --no-writeback                         # 不回写状态
 ```
 
-其他选项：`--csv <path>` 指定本地表格（默认 `adsterra/placements.csv`），`--feishu-sheet <name>` 指定子表名（默认第一张可见子表），`--site <dir>` 只处理一个站，`--print` 打印改动后的文件内容。
+**回写**（读多维表格时生效）：
+
+- `--apply` 注入成功 → 对应记录 `同步状态` = `已同步`
+- `--apply --build --deploy` 部署成功 → 对应记录 `状态` = `已上线`
+
+回写失败只告警、不影响已写入的站点代码。
+
+其他选项：`--site <dir>` 只处理一个站，`--print` 打印改动后的文件内容。
 
 脚本行为：
 
@@ -133,26 +134,16 @@ node scripts/adsterra-stats.mjs --json       # 机器可读
 
 > 后续新站统一走 `placements.csv`，不要再手工硬编码。
 
-### 飞书多维表格镜像（2026-10-25）
+### 飞书多维表格（数据源，2026-10-25 起）
 
-`站点日常工作表`（wiki `Nbeqw9Dqmivo2jkWPYKc56Fwn7e`）里的 **ADsMgr** 子表已全量导入
 `游戏站交付看板`（base `Zl7cb6Bz9ajsPdsQRbRci1QZnkg`）的 **广告位管理** 表
-（`tblPlFjSok72tnA1`，72 条，字段：广告位名称 / 站点目录 / 域名 / 广告位类型 / 广告格式 /
-广告位ID / 状态 / 广告代码 / 备注 / 同步状态）。
+（`tblPlFjSok72tnA1`，72 条）是**唯一数据源**：`adsterra-sync.mjs` 默认直接读它，
+注入/部署成功后回写 `同步状态` / `状态`。
 
-- **当前数据源仍是 ADsMgr 子表**（`adsterra-sync.mjs` 直接读它）
-- 多维表格这份是镜像，便于和其他表（站点台账 / 全流程清单 / 待决策）一起看
-- 两边同时编辑会分叉；要改广告位请在 ADsMgr 改，再重新同步镜像
-
-重新同步镜像（以 `广告位名称` 为主键 upsert，幂等）：
-
-```bash
-node scripts/bitable-sync-ads.mjs                 # 预览差异（dry-run）
-node scripts/bitable-sync-ads.mjs --apply         # 写入
-node scripts/bitable-sync-ads.mjs --apply --prune # 同时删掉在线表里已不存在的行
-```
-
-> 2026-10-25 首次导入后 dry-run 校验：在线表 72 行 / 多维表格 72 条，新增 0、更新 0、删除 0。
+- 要改广告位（换代码、加站、改状态）→ **在多维表格里改**，然后重跑脚本
+- 旧在线表 `站点日常工作表`（wiki `Nbeqw9Dqmivo2jkWPYKc56Fwn7e`）的 ADsMgr 子表已归档为迁移来源，不再维护
+- 一次性迁移脚本 `scripts/bitable-sync-ads.mjs` 仍保留（在线表 → 多维表格 upsert）。
+  ⚠️ 它会把在线表的旧值覆盖回多维表格，**多维表格成为数据源后不要再随手 `--apply`**
 
 ## 七、上线验收（必做）
 

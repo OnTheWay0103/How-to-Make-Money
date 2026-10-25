@@ -1,9 +1,12 @@
 #!/usr/bin/env node
 /**
- * 把飞书在线表 ADsMgr 的广告位数据同步到多维表格的「广告位管理」表。
+ * 一次性迁移工具：把飞书在线表 ADsMgr 的广告位数据同步到多维表格的「广告位管理」表。
  *
  *   飞书在线表：站点日常工作表 → ADsMgr（wiki Nbeqw9Dqmivo2jkWPYKc56Fwn7e）
  *   多维表格：  游戏站交付看板 → 广告位管理（tblPlFjSok72tnA1）
+ *
+ * ⚠️ 2026-10-25 起，多维表格才是唯一数据源（adsterra-sync.mjs 直接读它、回写同步状态）。
+ *    在线表已归档。再跑 --apply 会把旧值覆盖回多维表格，除非确实要做反向迁移，否则别跑。
  *
  * 用法：
  *   node scripts/bitable-sync-ads.mjs              # 预览差异（默认 dry-run）
@@ -203,6 +206,8 @@ if (!APPLY) {
   console.log('dry-run：加 --apply 写入。');
   process.exit(0);
 }
+
+console.warn('⚠️ 多维表格已是数据源，本次写入会用在线表的内容覆盖对应字段。');
 
 if (toCreate.length > 0) {
   for (let i = 0; i < toCreate.length; i += 200) {

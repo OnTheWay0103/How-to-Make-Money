@@ -1,7 +1,12 @@
 #!/usr/bin/env node
 /**
- * adsterra-sync.mjs — read adsterra/placements.csv and inject Adsterra snippets
- * into the matching wiki sites.
+ * adsterra-sync.mjs — read Adsterra placements and inject the snippets into the
+ * matching wiki sites.
+ *
+ * Data source (first match wins):
+ *   default          飞书多维表格「广告位管理」（唯一数据源）
+ *   --csv <path>     local placements.csv (offline / testing)
+ *   --feishu <url>   legacy 在线表 sheet (one-off migration only)
  *
  * Usage:
  *   node scripts/adsterra-sync.mjs                     # dry-run report
@@ -12,13 +17,20 @@
  *
  * Options:
  *   --root <dir>      read sites from <dir> instead of the repo root (testing)
- *   --csv <path>      read placements from <path> instead of adsterra/placements.csv
- *   --feishu <url>    read placements straight from a Feishu sheet (needs lark-cli)
+ *   --base <token>    Bitable base token (default: 游戏站交付看板)
+ *   --table <id|name> Bitable table (default: tblPlFjSok72tnA1 广告位管理)
+ *   --csv <path>      read placements from <path> instead of the Bitable
+ *   --feishu <url>    read placements from a legacy Feishu sheet (needs lark-cli)
  *   --feishu-sheet <name>  sub-sheet name (default: first visible sheet)
  *   --site <name>     only process one site directory
+ *   --no-writeback    do not update 同步状态 / 状态 in the Bitable
  *
- * CSV columns:
- *   site_dir,domain,slot,format,placement_name,placement_id,status,code,notes
+ * Write-back (Bitable source only):
+ *   --apply    注入成功 → 同步状态 = 已同步
+ *   --deploy   部署成功 → 状态 = 已上线
+ *
+ * Columns (Bitable field names, CSV headers may use the English names):
+ *   站点目录,域名,广告位类型,广告格式,广告位名称,广告位ID,状态,广告代码,备注
  *
  * slot:
  *   global -> app/layout.tsx, before </body>
@@ -41,12 +53,18 @@ const APPLY = flag('--apply');
 const PRINT = flag('--print');
 const BUILD = flag('--build');
 const DEPLOY = flag('--deploy');
+const WRITEBACK = !flag('--no-writeback');
 const SITES_ROOT = path.resolve(opt('--root', REPO));
 const ONLY_SITE = opt('--site', null);
 const FEISHU_URL = opt('--feishu', null);
 const FEISHU_SHEET = opt('--feishu-sheet', null);
+const CSV_ARG = opt('--csv', null);
 
-const CSV_PATH = path.resolve(opt('--csv', path.join(REPO, 'adsterra', 'placements.csv')));
+/** 游戏站交付看板 → 广告位管理（唯一数据源）。 */
+const BASE_TOKEN = opt('--base', 'Zl7cb6Bz9ajsPdsQRbRci1QZnkg');
+const TABLE = opt('--table', 'tblPlFjSok72tnA1');
+
+const CSV_PATH = path.resolve(CSV_ARG ?? path.join(REPO, 'adsterra', 'placements.csv'));
 const TEMPLATE_PATH = path.join(REPO, 'adsterra', 'templates', 'AdsterraSlot.tsx');
 
 /* ─── CSV parser (RFC 4180, multiline cells supported) ────────────── */
@@ -203,6 +221,99 @@ function loadFromFeishu(url, sheetName) {
   return csv.replace(/^\[row=\d+\] ?/gm, '');
 }
 
+/* ─── Bitable source (via lark-cli) — default, the single source of truth ── */
+
+/** Bitable cell values: select → array, text → string|null, link → object[]. */
+function cellText(value) {
+  if (Array.isArray(value)) {
+    return value
+      .map((v) => (v && typeof v === 'object' ? v.text ?? v.name ?? '' : String(v ?? '')))
+      .join(', ');
+  }
+  if (value && typeof value === 'object') return value.text ?? value.name ?? JSON.stringify(value);
+  return value == null ? '' : String(value);
+}
+
+function loadFromBitable(baseToken, table) {
+  const rows = [];
+  let cols = null;
+  let offset = 0;
+
+  for (;;) {
+    const data = lark([
+      'base',
+      '+record-list',
+      '--base-token',
+      baseToken,
+      '--table-id',
+      table,
+      '--format',
+      'json',
+      '--limit',
+      '200',
+      '--offset',
+      String(offset),
+    ]);
+    const fields = data.fields ?? [];
+    cols ??= fields.map(canonicalHeader);
+
+    data.data.forEach((cells, i) => {
+      const row = {};
+      fields.forEach((field, c) => (row[cols[c]] = cellText(cells[c]).trim()));
+      // 记录 ID 用于回写同步状态；CSV / 在线表来源没有这个字段。
+      row.__record = data.record_id_list?.[i];
+      row.__line = rows.length + 2;
+      rows.push(row);
+    });
+
+    if (!data.has_more || data.data.length === 0) break;
+    offset += data.data.length;
+  }
+
+  if (!cols || rows.length === 0) {
+    throw new Error(
+      `多维表格 ${table} 是空的，或读不到记录（表头应含：站点目录,域名,广告位类型,广告格式,广告位名称,广告位ID,状态,广告代码,备注）`,
+    );
+  }
+  for (const col of ['site_dir', 'slot', 'status', 'code']) {
+    if (!cols.includes(col)) {
+      throw new Error(`多维表格缺少字段：${col}\n当前字段：${cols.join(', ')}`);
+    }
+  }
+  return rows;
+}
+
+/* ─── Write-back to the Bitable ───────────────────────────────────── */
+
+/** Mark injected placements 已同步 (and, after deploy, 已上线). */
+function writeBack(records, patch, label) {
+  const list = [...records].filter((r) => r.__record);
+  if (!WRITEBACK || list.length === 0) return;
+
+  for (let i = 0; i < list.length; i += 200) {
+    const chunk = Object.fromEntries(
+      list.slice(i, i + 200).map((r) => [r.__record, patch]),
+    );
+    try {
+      lark([
+        'base',
+        '+record-batch-update',
+        '--base-token',
+        BASE_TOKEN,
+        '--table-id',
+        TABLE,
+        '--json',
+        JSON.stringify({ update_records: chunk }),
+      ]);
+    } catch (err) {
+      // 回写失败不影响已经写入站点的代码，只提示人工补一下。
+      console.warn(`回写多维表格失败（代码已写入，不影响构建）：${err.message}`);
+      return;
+    }
+  }
+  console.log(`回写多维表格：${list.length} 条 → ${label}`);
+}
+
 /* ─── Patch helpers ───────────────────────────────────────────────── */
 
 const IMPORT_SLOT = "import AdsterraSlot from '@/components/AdsterraSlot';";
@@ -330,16 +441,27 @@ function zonesSource(zones) {
 /* ─── Main ────────────────────────────────────────────────────────── */
 
 let rows;
+let SOURCE;
 try {
-  rows = FEISHU_URL
-    ? rowsFromCsv(loadFromFeishu(FEISHU_URL, FEISHU_SHEET))
-    : loadRows();
+  if (FEISHU_URL) {
+    SOURCE = '飞书在线表（旧）';
+    rows = rowsFromCsv(loadFromFeishu(FEISHU_URL, FEISHU_SHEET));
+  } else if (CSV_ARG) {
+    SOURCE = path.relative(REPO, CSV_PATH);
+    rows = loadRows();
+  } else {
+    SOURCE = `多维表格 ${TABLE}`;
+    rows = loadFromBitable(BASE_TOKEN, TABLE);
+  }
 } catch (err) {
   console.error(`读取广告位表格失败：${err.message}`);
   process.exit(1);
 }
+console.log(`数据源：${SOURCE}（${rows.length} 行）\n`);
+
 const bySite = new Map();
 const skipped = [];
+const siteRows = new Map(); // site_dir -> rows feeding this site's injection
 
 /**
  * Statuses that mean "already integrated by hand — never auto-inject".
@@ -365,6 +487,8 @@ for (const row of rows) {
     domain: row.domain,
     format: row.format,
   });
+  if (!siteRows.has(row.site_dir)) siteRows.set(row.site_dir, []);
+  siteRows.get(row.site_dir).push(row);
 }
 
 if (skipped.length > 0) {
@@ -500,6 +624,17 @@ if (!APPLY) {
   process.exit(failures.length > 0 ? 1 : 0);
 }
 
+// 注入成功 → 多维表格回写同步状态
+if (changes.length > 0) {
+  writeBack(
+    changes.flatMap((siteDir) => siteRows.get(siteDir) ?? []),
+    { 同步状态: '已同步' },
+    '同步状态 = 已同步',
+  );
+}
+
+const deployed = [];
+
 if (BUILD || DEPLOY) {
   for (const siteDir of changes) {
     const sitePath = path.join(SITES_ROOT, siteDir);
@@ -523,9 +658,22 @@ if (BUILD || DEPLOY) {
         cwd: REPO,
         stdio: 'inherit',
       });
-      if (deploy.status !== 0) failures.push(`${siteDir}: deploy failed`);
+      if (deploy.status !== 0) {
+        failures.push(`${siteDir}: deploy failed`);
+        continue;
+      }
+      deployed.push(siteDir);
     }
   }
+}
+
+// 部署成功 → 多维表格回写状态
+if (deployed.length > 0) {
+  writeBack(
+    deployed.flatMap((siteDir) => siteRows.get(siteDir) ?? []),
+    { 状态: '已上线' },
+    '状态 = 已上线',
+  );
 }
 
 if (failures.length > 0) {
