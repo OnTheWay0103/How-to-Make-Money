@@ -60,6 +60,21 @@ How-to / Guide-Beginner / Co-op-Multiplayer / Info-发售平台 / Other
 MUST 每个有效词标注页型 1–5（对应 `docs/STRATEGY-生命周期与止损.md` 3.1）
 MUST NOT 用「篇数」给内容建议（口径是页型 + 词数）
 
+## 页面矩阵规则（2026-10-25 起）
+
+规则全文见 `docs/STRATEGY-内容生产.md` 第二节；这里是执行要点。
+
+MUST 建站前产出 `keyword-results/{slug}-matrix.md`，表头固定：
+`页面名（slug） | 目标搜索词 | 搜索意图 | 页型 | 优先级 | 素材源（≥2） | 目标词数`
+MUST 一个搜索意图一行；同义词/单复数合并到搜索量最大的那个词，MUST NOT 拆成多页
+MUST 分组满足 MECE：分类不互相包含（`Guides` 与 `Beginner Guides` 不能并列）、
+  同分类无同义重复、禁 `gameplay`/`general`/`tips` 这类大空类
+MUST `Other` 类 ≤ 20% 有效词；超出则重新归类或删除
+MUST P0 词（首批 5–8 个）与站内首批页面 1:1；P1 词 D+30 覆盖率 ≥ 70%
+MUST 每行素材源 ≥2 且 ≥1 官方；素材内容写进 `{slug}-sources.md`，矩阵只写来源名/链接
+MUST NOT 为「看起来完整」加没人搜的页面；页型是候选池，无对应词就空着
+MUST 矩阵按增量更新（扩词轮新增词追加行），MUST NOT 覆盖历史决策
+
 ## 频率规则
 
 MUST 验证轮：每候选 1 次，建站决策当天

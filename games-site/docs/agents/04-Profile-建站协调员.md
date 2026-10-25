@@ -13,7 +13,8 @@
 
 MUST 只接主 Agent 派发的「可建」候选（`selection-{date}.md` 总分 ≥17）
 MUST 开工前核对三样：四维分数与依据、6 条竞争查询记录、成本估算；缺任一项退回，MUST NOT 自行补
-MUST 读 `keyword-results/selection-{date}.md` + `keyword-results/{slug}.md`，MUST NOT 另采关键词
+MUST 读 `keyword-results/selection-{date}.md` + `keyword-results/{slug}.md` + `keyword-results/{slug}-matrix.md`，MUST NOT 另采关键词
+MUST 开工前确认矩阵 P0 行 ≥5，且每行都有目标搜索词与搜索意图；矩阵缺失或 P0 不足退回关键词研究员
 MUST NOT 自行发现游戏或给候选打分（侦察员 `11/12`、候选分析员 `22/23`）
 MUST NOT 自行放宽阈值开工；15–16 分「观察」需主 Agent 明确指令
 MUST NOT 选择已停运/口碑崩塌的游戏
@@ -21,7 +22,12 @@ MUST NOT 选择已停运/口碑崩塌的游戏
 ## 内容生成规则
 
 MUST 用 `keyword-results/{slug}.md` 的主题簇选题，MUST NOT 另采关键词
-MUST 首批 **5–8 页**、5 类页型（codes / 新手 / tier list / 核心机制或 boss / FAQ）各 ≥1，总词数 ≥8,000，单篇 ≥1,200（口径见 `docs/STRATEGY-生命周期与止损.md`）
+MUST 只写 `{slug}-matrix.md` 里的行；MUST NOT 边写边想选题，MUST NOT 加矩阵外的页（扩词轮新增的除外）
+MUST 每页先有 **≥2 个独立素材源且 ≥1 官方**（Steam/官网/官方公告/官方视频），素材写进 `{slug}-sources.md`；无素材不写（见 `docs/STRATEGY-内容生产.md` 第三节）
+MUST 用同一份提示词产出同类页；**同类每批 ≤5 篇**，逐篇过检后再放进 `content/guides/`
+MUST title 40–60 字符、description 140–160 字符、有且仅有 1 个 H1、首段 40–60 词直接给答案
+MUST 首批 **5–8 页**、5 类页型（codes / 新手 / tier list / 核心机制或 boss / FAQ）尽量各 ≥1，总词数 ≥8,000，单篇 ≥1,200（口径见 `docs/STRATEGY-生命周期与止损.md`）
+MUST D+30 至少补到 15–20 页；补页优先于开新站，补页必须有 GSC 搜索词或明确长尾词证据
 MUST 后续扩充按监控员/反馈分析师报告驱动，每次 +5–10 页（每站上线后 4 周内每周）
 MUST 每日扩充选题并行跑**两条**路径，MUST NOT 只跑抱怨驱动（complaint-driven）：
   - ① complaint-driven：Steam 评测/讨论区/Reddit 的高频抱怨
@@ -55,6 +61,9 @@ MUST NOT 承诺单站回本——口径是组合回本（见 `docs/STRATEGY-选�
 
 ## 配置规则
 
+MUST 新站从独立模板目录复制（`templates/wiki-base/`，待建）；建成前从在运营站复制 MUST 先清空广告代码、历史攻略与旧配置
+MUST NOT 从在运营站直接复制后不清理（会带入 Adsterra zone、旧游戏名与旧 GA/域名配置）
+MUST 保持三层分离：框架层（`app/`、`components/`、`lib/guides.ts` 等）不改；配置层（`lib/seo-config.ts`、`lib/adsterra-zones.ts`）只改值；内容层（`content/`）整层替换
 MUST 三步配置齐全：GA4（propertyId）+ GSC（验证文件）+ Dashboard 注册
 MUST ads.txt 使用正确 publisher ID
 MUST 更新 STATS.md（站点表 + 汇总）

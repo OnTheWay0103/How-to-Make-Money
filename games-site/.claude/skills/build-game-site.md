@@ -241,9 +241,14 @@ AI 自主决定：
 
 ### 建站（并行）
 
+> **内容生产前置（2026-10-25 起，MUST）**：开工前必须已有
+> `keyword-results/{slug}-matrix.md`（词 → 页 → 意图 → 素材源 → 优先级，P0 ≥5 行）
+> 与 `keyword-results/{slug}-sources.md`（每页 ≥2 源且 ≥1 官方）。
+> 缺任一项 → 停止建站，退回关键词研究员补齐。规则见 `docs/STRATEGY-内容生产.md`。
+
 ```
-Agent A: 写 {N} 篇攻略（按内容优先级排序）
-Agent B: 项目初始化 + 配置（见下方文件清单）
+Agent A: 写 {N} 篇攻略（只写矩阵 P0/P1 行；同类每批 ≤5 篇，逐篇过检）
+Agent B: 项目初始化 + 配置（从模板目录复制，见下方文件清单）
 Agent C: 页面内容（首页/FAQ/TierList）+ 残留清理
 ```
 
@@ -363,6 +368,43 @@ pnpm build          # 必须成功，exit code 0
 1. 读取错误信息
 2. 自动修复（最多 3 次）
 3. 3 次仍失败 → 停止，报告用户具体错误
+
+**静态检查（build 通过后仍必须跑，规则见 `docs/STRATEGY-内容生产.md` 5.4）**：
+
+> 只检查**新增或本次修改**的页面（`git status` 里的 `content/guides/*.md`）。
+> 存量页不追溯：实测 1,078 篇里 91.7% 的 description 超过 160 字符，全量返工无收益。
+
+```bash
+node - <<'EOF'
+const {execSync}=require('child_process'),fs=require('fs');
+let out='';
+try{out=execSync('git status --porcelain content/guides',{encoding:'utf8'})}
+catch(e){console.error('✗ 读不到 git 状态，静态检查未执行');process.exit(1)}
+// 路径按仓库根给（monorepo 下含 games-site/<site>/ 前缀），统一截到 content/guides/
+const list=out.split('\n').map(l=>l.slice(3).trim())
+  .filter(f=>f.endsWith('.md'))
+  .map(f=>f.slice(f.lastIndexOf('content/guides/')));
+const files=[...new Set(list)];
+if(!files.length){console.log('✓ 本批无 content/guides 改动，跳过静态检查');process.exit(0)}
+const bad=[];
+for(const f of files){
+  if(!fs.existsSync(f))continue;                     // 已删除的页面不检查
+  const t=fs.readFileSync(f,'utf8');
+  const fm=k=>(t.match(new RegExp('^'+k+':\\s*["\']?(.+?)["\']?\\s*$','m'))||[])[1]||'';
+  const title=fm('title'),desc=fm('description');
+  if(title.length<40||title.length>60) bad.push(`${f}: title ${title.length} 字符（要 40–60）`);
+  if(desc.length<140||desc.length>160) bad.push(`${f}: description ${desc.length} 字符（要 140–160）`);
+  const h1=(t.match(/^# /gm)||[]).length;
+  if(h1!==1) bad.push(`${f}: H1 数量 ${h1}（要 1）`);
+  if(/^related:\s*\[/m.test(t)) bad.push(`${f}: related 用了内联数组（必须块状）`);
+}
+if(bad.length){console.error('✗ 静态检查未通过：\n'+bad.map(x=>'  - '+x).join('\n'));process.exit(1)}
+console.log(`✓ 静态检查通过（${files.length} 个改动页：title/description 长度、H1、related 格式）`);
+EOF
+```
+
+> 存量页不追溯；`git status` 为空时跳过（不算通过也不算失败）。
+> **检查 exit 1 不得部署。**
 
 ### 部署 + 收尾（强制步骤，不可跳过）
 

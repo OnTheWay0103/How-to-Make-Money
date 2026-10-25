@@ -56,7 +56,7 @@
    2026-10-24 修的 12 篇里 4 篇是版本漂移（Aincrad 1.0.6、Witchspire 0.3.2、Sephiria 1.0.33、
    SpiritVale 0.34.2），另有 grainrot 正文 1.13 / FAQ 1.09 自相矛盾。根因是没有基准值。→ T3。
 4. **校验靠自觉，没有闸门** — `related` 内联数组导致 587 篇「相关攻略」静默不渲染。
-   可自动拦截：related 必须块状、`updated` 必须 ISO、正文 800–1600 字、sources ≥2 且≥1 条 Official、
+   可自动拦截：related 必须块状、`updated` 必须 ISO、正文 ≥1,200 词（FAQ 可 800）、sources ≥2 且≥1 条 Official、
    内链 slug 必须存在。
 5. **部署验证与配额无账本** — `pending-deploys-*.md` 是应急产物；100 次/天额度没有计数。→ T5。
 6. **数据断供** — `ga4-pv-rank.mjs` 缺 `client_email`，扩充名单还是 2026-09-02 的 PV 快照。
