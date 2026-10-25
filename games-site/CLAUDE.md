@@ -59,7 +59,7 @@ Agent 之间不直接对话，通过**文件契约**交接：
 - **页面矩阵**：一个搜索意图 = 一个内页；每站先出 `keyword-results/{slug}-matrix.md`（词 → 页 → 意图 → 素材源 → 优先级），MECE 分组、禁止 `gameplay`/`general` 这类大空类；页型是候选池不是必建清单
 - **素材**：每页 ≥2 个独立来源且 ≥1 官方（Steam/官网/官方公告/官方视频），写进 `keyword-results/{slug}-sources.md`（URL + 抓取日期）；AI 只做过滤整理，搜索建议与竞对正文不算事实来源
 - **写作**：title 40–60 字符、description 140–160、有且仅有 1 个 H1、首段 40–60 词直答、正文 ≥1,200 词；同类页每批 ≤5 篇，**批量前先做透单页**
-- **建站模板**：三层分离（框架 `app/`+`components/` / 配置 `lib/` / 内容 `content/`）；新站从独立模板目录复制（`templates/wiki-base/`，待建）；建成前从在运营站复制 MUST 清空广告代码与历史内容
+- **建站模板**：三层分离（框架 `app/`+`components/` / 配置 `lib/` / 内容 `content/`）；新站 MUST 用 `node scripts/new-site.mjs` 从 `templates/wiki-base/` 生成（2026-10-26 建成），MUST NOT 从在运营站复制
 - **节奏**：**每天 ≥ 5 个新站**（≈ 每月 150 站）；每站上线后 4 周内每周 +5–10 页
 - **台账**：站点台账**按月分表**，表名 = `站点台账` + 年月（`站点台账2026-10`、`站点台账2026-11`…）。新月份先 `node scripts/roll-month-ledger.mjs --month YYYY-MM --apply`；脚本默认只认当月表，缺表直接报错
 - **检查点**：D+30 看索引（GSC 收录 ≥ 50%）、D+60 看进词、D+90 看排名点击；**D+90 前不做止损判断**

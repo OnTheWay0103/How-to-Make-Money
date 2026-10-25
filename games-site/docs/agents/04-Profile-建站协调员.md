@@ -61,7 +61,7 @@ MUST NOT 承诺单站回本——口径是组合回本（见 `docs/STRATEGY-选�
 
 ## 配置规则
 
-MUST 新站从独立模板目录复制（`templates/wiki-base/`，待建）；建成前从在运营站复制 MUST 先清空广告代码、历史攻略与旧配置
+MUST 用 `node scripts/new-site.mjs` 从 `templates/wiki-base/` 生成新站；MUST NOT 从在运营站复制（会带入广告代码、历史攻略与旧配置）
 MUST NOT 从在运营站直接复制后不清理（会带入 Adsterra zone、旧游戏名与旧 GA/域名配置）
 MUST 保持三层分离：框架层（`app/`、`components/`、`lib/guides.ts` 等）不改；配置层（`lib/seo-config.ts`、`lib/adsterra-zones.ts`）只改值；内容层（`content/`）整层替换
 MUST 三步配置齐全：GA4（propertyId）+ GSC（验证文件）+ Dashboard 注册

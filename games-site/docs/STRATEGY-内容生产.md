@@ -229,9 +229,16 @@
 
 ### 5.2 模板来源（节点 31）
 
-- 现状：从在运营站（如 `nivalisnightswiki`）复制 → 会带入历史内容、广告代码、旧配置
-- 目标：**独立模板目录** `templates/wiki-base/`（只含框架层 + 空配置占位 + 1 篇示例内容）
-- 新站 MUST 从模板目录复制，MUST NOT 从在运营站复制
+- 现状：`templates/wiki-base/` **已建成**（2026-10-26），一条命令生成新站
+- 生成：`node scripts/new-site.mjs --slug <slug> --name "<官方写法>" --developer … --publisher … --release-date YYYY-MM-DD [--steam-id …]`
+  - 目录名 = `<slug>wiki`；默认域名 `<slug>wiki.vercel.app`
+  - 脚本替换 `{{SITE_NAME}}` / `{{GAME_NAME}}` / `{{DOMAIN}}` / `{{DEVELOPER}}` / `{{PUBLISHER}}` /
+    `{{STEAM_URL}}` / `{{RELEASE_DATE}}` / `{{SITE_DESCRIPTION}}` / `{{GENRE_LINE}}`；
+    只要还有 `{{UPPER_SNAKE}}` 残留就以退出码 1 结束
+- 新站 MUST 从模板生成，MUST NOT 从在运营站复制；手抄运营站会把历史内容、广告代码、旧 GA 一起带过来
+- 模板刻意留空：`content/guides/`（只有 `.gitkeep`）、`app/faq` 与 `app/tier-list` 的问答/榜单数组、
+  `lib/adsterra-zones.ts`、`lib/seo-config.ts` 的 GA/AdSense ID —— 这四处 MUST 有可核验来源后再填
+- 首页「Start Here」直接读 `content/guides/*.md` 取最近 6 篇，新增页面不用改首页
 - 模板 V2 的设计参考池：**5–10 个 DR≈0 且排名靠前的新站**，
   只提炼结构/导航/排版/配色；MUST NOT 抄文字与数据（抄结构不抄内容）
 - 模板差异化仍暂缓：当前只维护一套模板，V2 在流水线跑顺后再做

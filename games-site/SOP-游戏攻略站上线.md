@@ -404,42 +404,37 @@ updated: '2026-06-30'
 
 ### 2.1 基于模板创建新站点
 
-> **模板来源（2026-10-25 起）**：新站 MUST 从独立模板目录 `templates/wiki-base/` 复制（待建）；
-> 建成前可临时复制在运营站，但 MUST 先清空 `content/guides/*`、`content/home-content.md`、
-> `lib/adsterra-zones.ts` 与旧 GA/域名配置，MUST NOT 带着上家的广告代码与内容开工。
-> 模板按三层分离：框架层（`app/`、`components/`、`lib/guides.ts` 等）不改；
+> **模板来源（2026-10-26 起）**：新站 MUST 用 `node scripts/new-site.mjs` 从 `templates/wiki-base/` 生成；
+> MUST NOT 从在运营站复制（会带入历史内容、广告代码与旧 GA/域名配置）。
+> 模板已按三层分离：框架层（`app/`、`components/`、`lib/guides.ts` 等）不改；
 > 配置层（`lib/seo-config.ts`、`lib/adsterra-zones.ts`）只改值；内容层（`content/`）整层替换。
 
 ```bash
-# 1. 复制模板项目
-cp -r witchspirewiki/ new-site-name/
+# 1. 一条命令生成：复制模板、替换全部占位符、改包名、写 README
+node scripts/new-site.mjs \
+  --slug witchspire --name "Witchspire" \
+  --developer "Studio X" --publisher "Studio X" \
+  --release-date 2026-10-01 --steam-id 1234567
+# → 产出 witchspirewiki/，默认域名 witchspirewiki.vercel.app（--domain 可覆盖）
 
-# 2. 进入新项目
-cd new-site-name/
-
-# 3. 安装依赖
-npm install
-
-# 4. 清理旧内容
-rm -rf content/guides/*.md   # 删除旧的攻略文章
-rm -rf .vercel/              # 删除旧的 Vercel 关联
+# 2. 安装依赖（pnpm，MUST NOT 用 npm）
+cd witchspirewiki && pnpm install
 ```
 
-### 2.2 必须修改的配置文件
+脚本结束时会打印 8 条人工待办；若有 `{{UPPER_SNAKE}}` 占位符残留，脚本以退出码 1 结束，MUST 清掉再上线。
 
-按以下顺序修改，**一个都不能漏**：
+### 2.2 生成后仍需人工处理
 
-| # | 文件 | 修改内容 |
+| # | 文件 | 处理内容 |
 |---|------|----------|
-| 1 | `lib/seo-config.ts` | `name`、`description`、`url`、`ogImage`、`googleAnalyticsId` |
-| 2 | `lib/metadata.ts` | `keywords` 数组（改成新游戏的词）；**JSDoc 注释**中的模板站点名 |
-| 3 | `lib/schema.ts` | `websiteSchema()` 中的站点名称和描述；**`videoGameSchema()` 中的游戏信息**；**JSDoc/注释**中的模板游戏名 |
-| 4 | `app/sitemap.ts` | 静态路由列表（如路由结构有变化）；`SITE_CONFIG.url` 引用正确 |
-| 5 | `app/robots.ts` | 一般不需要改，确认 sitemap URL 正确 |
+| 1 | `public/icon.png` | 换成新游戏图标（`lib/seo-config.ts` 的 `ogImage` 指向它） |
+| 2 | `lib/seo-config.ts` | 建好 GA4 property 后填 `googleAnalyticsId`；并把 dashboard 服务账号加为该 property 的读取者 |
+| 3 | `public/google*.html` | GSC 验证文件 |
+| 4 | `app/faq/page.tsx` | `FAQ_ITEMS` —— 每条答案要有来源 |
+| 5 | `app/tier-list/page.tsx` | `PRIORITY_TIERS` 或换页型 —— 游戏没有层级系统时不要硬写 |
 | 6 | `vercel.json` | `regions` 按目标用户选地区 |
-| 7 | `package.json` | `name` 字段 |
-| 8 | `content/home-content.md` | **全文替换**为新游戏内容（见 ⚠️ 2.5 节） |
-| 9 | `.env.local` | `NEXT_PUBLIC_GA_MEASUREMENT_ID`（见第四章） |
+
+`name` / `updated` / `description` 等配置与占位符由脚本处理；`content/guides/` 的页面按页面矩阵写，不复制别站。
 
 ### 2.3 创建内容
 
