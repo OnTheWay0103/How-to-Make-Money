@@ -33,6 +33,9 @@ const APPLY = process.argv.includes('--apply');
 const MONTH = opt('--month', monthName());
 const FROM = opt('--from', null);
 
+/** 还没有月度表时，用这张老表当模板（2026-10 那份记录）。 */
+const LEGACY_FALLBACK = '站点台账';
+
 function opt(flag, fallback) {
   const i = process.argv.indexOf(flag);
   return i !== -1 && process.argv[i + 1] ? process.argv[i + 1] : fallback;
@@ -100,9 +103,12 @@ if (FROM) {
     process.exit(1);
   }
 } else {
-  source = months[months.length - 1];
+  // 优先拿最近的月度表；还没有月度表时用老的「站点台账」（2026-10 那份）
+  source =
+    months[months.length - 1] ??
+    tables.find((t) => t.name === LEGACY_FALLBACK);
   if (!source) {
-    console.error('没有可用的月度表作模板。先手动建一张（表名 YYYY-MM）再重跑。');
+    console.error(`没有可用的模板表（既无月度表，也无「${LEGACY_FALLBACK}」）。`);
     process.exit(1);
   }
 }

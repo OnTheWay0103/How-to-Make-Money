@@ -2,17 +2,21 @@
 /**
  * 站点台账的月度表约定。
  *
- * 2026-10-25 起，站点台账按**月**分表，表名就是年月（`2026-10`、`2026-11`…）。
+ * 2026-10-25 起，站点台账按**月**分表，表名就是年月（`2026-11`、`2026-12`…）。
  * 每月一张全量快照（所有站点 + 当月 PV/环比/分级），便于按月对比。
  * 建新月份的表：`node scripts/roll-month-ledger.mjs --month 2026-11`
  *
- * 历史：2026-10 之前只有一张 `站点台账`，2026-10-25 改名为 `2026-10`，数据未动。
+ * 历史：`站点台账`（tblTDpkA9odla8No）**名字和数据都保留不动**，它就是 2026-10
+ * 那一份记录；从 2026-11 起才另建 `YYYY-MM` 表。
  */
 
 import { execFileSync } from 'node:child_process';
 
 export const BASE_TOKEN = 'Zl7cb6Bz9ajsPdsQRbRci1QZnkg';
 export const MONTH_RE = /^\d{4}-\d{2}$/;
+
+/** 老台账表：没有月度表的月份映射到它（目前只有 2026-10）。 */
+export const LEGACY_MONTH_TABLES = { '2026-10': '站点台账' };
 
 /** 台账字段定义（建月度表时用；顺序即列顺序，首个字段是主字段）。 */
 export const LEDGER_FIELDS = [
@@ -87,6 +91,13 @@ export function resolveLedgerTable({ base = BASE_TOKEN, table, month, cwd } = {}
   const hit = tables.find((t) => t.name === name);
   if (hit) return hit;
 
+  // 2026-10 及以前的记录在老的「站点台账」表里，表名不改
+  const legacy = LEGACY_MONTH_TABLES[name];
+  if (legacy) {
+    const old = tables.find((t) => t.name === legacy);
+    if (old) return old;
+  }
+
   const months = tables
     .filter((t) => MONTH_RE.test(t.name))
     .map((t) => t.name)
@@ -94,7 +105,7 @@ export function resolveLedgerTable({ base = BASE_TOKEN, table, month, cwd } = {}
   throw new Error(
     `没有「${name}」这张月度台账表。\n` +
       `先建本月表：node scripts/roll-month-ledger.mjs --month ${name}\n` +
-      `现有月度表：${months.length ? months.join('、') : '（无）'}`,
+      `现有月度表：${months.length ? months.join('、') : `（无，2026-10 在「${LEGACY_MONTH_TABLES['2026-10']}」）`}`,
   );
 }
 

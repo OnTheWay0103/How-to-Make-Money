@@ -1,10 +1,10 @@
 # 站点生命周期报告
 
-生成时间：2026-10-25 08:38 UTC
-数据源：`dashboard-pied-six-31.vercel.app/api/traffic`（近 30 天 GA4）+ 台账「2026-10」（上线日）
+生成时间：2026-10-25 08:49 UTC
+数据源：`dashboard-pied-six-31.vercel.app/api/traffic`（近 30 天 GA4）+ 台账「站点台账」（上线日）
 规则：`docs/STRATEGY-生命周期与止损.md`
 
-总计 **45** 站，PV(30d) 合计 **14,104**。
+总计 **45** 站，PV(30d) 合计 **14,106**。
 
 | 分级 | 站点数 | 含义 |
 |---|---:|---|
@@ -21,12 +21,12 @@
 | nivalisnightswiki | 2026-08-06 | 79 | 2396 | +1817% | 加码 | PV 2396 ≥ 300 |
 | sephiriawiki | 2026-07-19 | 97 | 1231 | -66% | 加码 | PV 1231 ≥ 300 |
 | waterparksimulatorwiki | 2026-08-07 | 78 | 1206 | -42% | 加码 | PV 1206 ≥ 300 |
-| shiftatmidnightwiki | 2026-07-28 | 88 | 1108 | -38% | 加码 | PV 1108 ≥ 300 |
+| shiftatmidnightwiki | 2026-07-28 | 88 | 1109 | -38% | 加码 | PV 1109 ≥ 300 |
 | themoundwiki | 2026-07-10 | 106 | 795 | -36% | 加码 | PV 795 ≥ 300 |
 | spiritvalewiki | 2026-07-11 | 105 | 792 | -36% | 加码 | PV 792 ≥ 300 |
 | moonlightpeakswiki | 2026-07-30 | 86 | 785 | -41% | 加码 | PV 785 ≥ 300 |
 | tearsofmetalwiki | 2026-07-22 | 94 | 705 | -41% | 加码 | PV 705 ≥ 300 |
-| gotownwiki | 2026-07-31 | 85 | 568 | -1% | 加码 | PV 568 ≥ 300 |
+| gotownwiki | 2026-07-31 | 85 | 569 | -1% | 加码 | PV 569 ≥ 300 |
 | delveriumwiki | 2026-08-01 | 84 | 452 | +89% | 加码 | PV 452 ≥ 300 |
 | relicfirstguardianwiki | 2026-07-27 | 89 | 411 | -25% | 加码 | PV 411 ≥ 300 |
 | expeditionssamuraiwiki | 2026-07-31 | 85 | 322 | +6% | 加码 | PV 322 ≥ 300 |
@@ -79,12 +79,12 @@
 - **nivalisnightswiki** — PV 2396，环比 +1817%
 - **sephiriawiki** — PV 1231，环比 -66%
 - **waterparksimulatorwiki** — PV 1206，环比 -42%
-- **shiftatmidnightwiki** — PV 1108，环比 -38%
+- **shiftatmidnightwiki** — PV 1109，环比 -38%
 - **themoundwiki** — PV 795，环比 -36%
 - **spiritvalewiki** — PV 792，环比 -36%
 - **moonlightpeakswiki** — PV 785，环比 -41%
 - **tearsofmetalwiki** — PV 705，环比 -41%
-- **gotownwiki** — PV 568，环比 -1%
+- **gotownwiki** — PV 569，环比 -1%
 - **delveriumwiki** — PV 452，环比 +89%
 - **relicfirstguardianwiki** — PV 411，环比 -25%
 - **expeditionssamuraiwiki** — PV 322，环比 +6%
