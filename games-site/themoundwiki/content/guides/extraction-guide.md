@@ -11,6 +11,7 @@ related:
   - beginner-guide
   - solo-guide
   - maps-locations-guide
+  - lost-survivors-rescue-guide
 ---
 
 # The Mound Extraction Guide — How to Get Out Alive

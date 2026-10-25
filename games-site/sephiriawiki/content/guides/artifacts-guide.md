@@ -12,6 +12,7 @@ related:
   - farming-guide
   - endgame-guide
   - full-release-guide
+  - stats-explained-guide
 sources:
   - tier: "Community"
     text: "Specific artifact unlock conditions (e.g., Golden Maple Leaf after clearing Chapter 2) and the ~60% soft cap reports for crit rate and dodge i-frames"

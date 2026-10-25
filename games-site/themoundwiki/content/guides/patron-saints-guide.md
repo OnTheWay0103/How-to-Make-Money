@@ -11,6 +11,7 @@ related:
   - trophy-achievement-guide
   - loadout-guide
   - updates-patch-notes
+  - lost-survivors-rescue-guide
 ---
 
 # The Mound Patron Saints — How to Unlock Every Blessing and Which One to Equip

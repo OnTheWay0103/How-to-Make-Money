@@ -12,6 +12,7 @@ related:
   - endgame-guide
   - weapons-guide
   - staff-build-guide
+  - stats-explained-guide
 ---
 
 # Tablets Guide — Inventory Grid Power & Best Tablet Combos

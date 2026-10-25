@@ -12,6 +12,7 @@ related:
   - weapons-guide
   - perks-guide
   - loadout-guide
+  - lost-survivors-rescue-guide
 ---
 
 ## Characters Overview

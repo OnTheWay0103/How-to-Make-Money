@@ -12,6 +12,7 @@ related:
   - weapons-guide
   - hard-mode-guide
   - farming-guide
+  - stats-explained-guide
 sources:
   - tier: "Editorial"
     text: "Build directions and talent-spending recommendations are our recommendations"
