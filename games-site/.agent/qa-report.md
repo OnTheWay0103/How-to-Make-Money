@@ -1898,3 +1898,11 @@ Loftia 排在其后。Chained Beasts 已因名字污染重、需求偏小下调�
   选题落在「Trials / Mother Stone Challenges」与局内 Challenge 事件**同名两系统**（全站 0 专页），
   并纳入 10/20 玩家报告 + 开发者 WoofgangPCG 在帖内的 per-hero / 主机选级 / client 仅低于主机才 +1
   规则；未确认的总层数、具体倍率均标 `[Unconfirmed]`，demo 期旧帖明确标注为旁证。
+
+## 新关键词机会（2026-10-26 补记，10-25 轮遗留）
+
+- **Hela: of Mice & Magic**（12/1 1.0）— `node scripts/harvest-keywords.mjs` 采到 42 个有效词，
+  但**攻略型占比 0%**（31 条 FAQ/发售平台、11 条待定，codes/boss/tier 全为 0 条）→ 触发「发售日陷阱」，
+  需求封顶 3 分，不构成建站依据；建议发售 1–2 周后再采一轮。
+- **UnderMire**（11/13）— 219 条去重建议里仅 2 条有效（99% 是 `UnderMine` 同名噪声）→ 判「搜索需求低」。
+- 结论：预售期游戏挖不出攻略型词，发现轮 MUST 以「已发售 ≤30 天 + 有评测量」为主战场。

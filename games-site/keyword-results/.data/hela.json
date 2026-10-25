@@ -1,6 +1,6 @@
 {
   "slug": "hela",
-  "game": "Hela: of Mice & Magic",
+  "game": "Hela of Mice and Magic",
   "runs": [
     {
       "at": "2026-10-25T23:43:03.970Z",
@@ -15,6 +15,20 @@
       "noiseRate": 0.5714,
       "anchorRate": 0.4286,
       "newKeywords": 42
+    },
+    {
+      "at": "2026-10-25T23:48:59.823Z",
+      "locale": "en",
+      "requests": 22,
+      "failures": 0,
+      "raw": 129,
+      "dedup": 119,
+      "valid": 36,
+      "variants": 2,
+      "noise": 83,
+      "noiseRate": 0.6975,
+      "anchorRate": 0.3025,
+      "newKeywords": 7
     }
   ],
   "keywords": {
@@ -134,7 +148,7 @@
       "category": "Other",
       "pageType": "待定",
       "sources": [
-        "google_suggest:品牌+game"
+        "google_suggest:裸词"
       ],
       "firstSeen": "2026-10-25",
       "lastSeen": "2026-10-25",
@@ -215,7 +229,6 @@
       "category": "Info/发售平台",
       "pageType": "5 FAQ",
       "sources": [
-        "google_suggest:探针:ps5",
         "google_suggest:裸词"
       ],
       "firstSeen": "2026-10-25",
@@ -288,7 +301,6 @@
       "category": "Info/发售平台",
       "pageType": "5 FAQ",
       "sources": [
-        "google_suggest:后缀:release date",
         "google_suggest:裸词"
       ],
       "firstSeen": "2026-10-25",
@@ -445,12 +457,83 @@
       "firstSeen": "2026-10-25",
       "lastSeen": "2026-10-25",
       "variantOf": "hela of mice and magic release date xbox"
+    },
+    "hela of mice and magic cross platform": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:crossplay"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "hela of mice and magic crossplay": {
+      "category": "Co-op/Multiplayer",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "hela of mice and magic date": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:release date"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "hela of mice and magic date de sortie": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:release date"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "hela of mice and magic gameplay": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "hela of mice and magic switch": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "hela of mice and magic switch 1": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
     }
   },
   "aliases": [
     "hela of mice and magic",
-    "鼠鼠奇旅"
+    "鼠鼠奇旅",
+    "Hela: of Mice & Magic"
   ],
   "locale": "en",
-  "updatedAt": "2026-10-25T23:43:03.970Z"
+  "updatedAt": "2026-10-25T23:48:59.823Z"
 }
