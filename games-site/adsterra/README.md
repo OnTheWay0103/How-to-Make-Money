@@ -133,6 +133,27 @@ node scripts/adsterra-stats.mjs --json       # 机器可读
 
 > 后续新站统一走 `placements.csv`，不要再手工硬编码。
 
+### 飞书多维表格镜像（2026-10-25）
+
+`站点日常工作表`（wiki `Nbeqw9Dqmivo2jkWPYKc56Fwn7e`）里的 **ADsMgr** 子表已全量导入
+`游戏站交付看板`（base `Zl7cb6Bz9ajsPdsQRbRci1QZnkg`）的 **广告位管理** 表
+（`tblPlFjSok72tnA1`，72 条，字段：广告位名称 / 站点目录 / 域名 / 广告位类型 / 广告格式 /
+广告位ID / 状态 / 广告代码 / 备注 / 同步状态）。
+
+- **当前数据源仍是 ADsMgr 子表**（`adsterra-sync.mjs` 直接读它）
+- 多维表格这份是镜像，便于和其他表（站点台账 / 全流程清单 / 待决策）一起看
+- 两边同时编辑会分叉；要改广告位请在 ADsMgr 改，再重新同步镜像
+
+重新同步镜像（以 `广告位名称` 为主键 upsert，幂等）：
+
+```bash
+node scripts/bitable-sync-ads.mjs                 # 预览差异（dry-run）
+node scripts/bitable-sync-ads.mjs --apply         # 写入
+node scripts/bitable-sync-ads.mjs --apply --prune # 同时删掉在线表里已不存在的行
+```
+
+> 2026-10-25 首次导入后 dry-run 校验：在线表 72 行 / 多维表格 72 条，新增 0、更新 0、删除 0。
+
 ## 七、上线验收（必做）
 
 「HTML 里有广告代码」≠「广告会出来」。每次接完广告至少验两条路径：
