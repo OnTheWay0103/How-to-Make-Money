@@ -221,7 +221,7 @@ QA Agent 在 Build Agent 完成后由 Coordinator 调度，以"第二双眼睛"�
 1. 读取关键词报告 → 确定内容优先级
 2. 复制模板 → 项目初始化 → 12 文件配置
 3. 写 {N} 篇攻略
-4. 创建 AdSense 合规页面
+4. 创建信任页面（privacy/terms/about/contact — Adsterra/SEO 需要；不注入 `ca-pub`）
 5. Gate 检查 (build + deploy + cleanup)
 6. pnpm install → pnpm build
 7. Vercel 部署

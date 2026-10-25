@@ -277,12 +277,13 @@ Agent C: 页面内容（首页/FAQ/TierList）+ 残留清理
 | 10 | `app/faq/page.tsx` | FAQ 专用页 |
 | 11 | `app/tier-list/page.tsx` | Tier List 专用页 |
 | 12 | `app/robots.ts` | robots.txt（指向 sitemap） |
-| 12a | `app/privacy/page.tsx` | ⚠️ AdSense 必需 — 隐私政策 |
-| 12b | `app/terms/page.tsx` | ⚠️ AdSense 必需 — 服务条款 |
-| 12c | `app/about/page.tsx` | ⚠️ AdSense 必需 — 关于我们 |
-| 12d | `app/contact/page.tsx` | ⚠️ AdSense 必需 — 联系方式 |
+| 12a | `app/privacy/page.tsx` | ⚠️ 必需 — 隐私政策（Adsterra/SEO） |
+| 12b | `app/terms/page.tsx` | ⚠️ 必需 — 服务条款 |
+| 12c | `app/about/page.tsx` | ⚠️ 必需 — 关于我们 |
+| 12d | `app/contact/page.tsx` | ⚠️ 必需 — 联系方式 |
 
-**AdSense 合规页面**（⭐ 新增 — 没有这 4 页 = AdSense 必拒）：
+**信任页面**（没有这 4 页不部署 — Adsterra 审核与 SEO 都需要；AdSense 申请 2026-10-25 起暂缓，
+因此页面里 MUST NOT 写「已被 AdSense 审核」之类声明，广告声明只提 Adsterra）：
 - 从任意已部署站点复制 `app/privacy/`, `app/terms/`, `app/about/`, `app/contact/`
 - 用 sed 替换站点名、游戏名、域名、发行商
 - 联系邮箱统一使用 `zhaoq8278@gmail.com`
@@ -408,7 +409,8 @@ Step 7: 输出用户待办清单
   - [ ] GSC 提交 sitemap（Vercel 部署后自动生效）
   - [ ] 更新 Dashboard GA4 Property ID
   - [ ] 确认 STATS-游戏站点统计.md 已更新
-  - [ ] 确认 AdSense 合规页面（privacy/terms/about/contact）已部署且邮箱为 zhaoq8278@gmail.com
+  - [ ] 确认信任页面（privacy/terms/about/contact）已部署且邮箱为 zhaoq8278@gmail.com
+  - [ ] 确认站点代码中没有 `ca-pub`（AdSense 2026-10-25 起暂缓，新站不注入）
 ```
 
 **Commit Message 规则**：

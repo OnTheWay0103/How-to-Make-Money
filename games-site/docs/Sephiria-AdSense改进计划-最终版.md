@@ -1,5 +1,8 @@
 # Sephiria Wiki — AdSense 提交前改进计划（最终版）
 
+> ⏸️ **2026-10-25 起暂缓**：AdSense 申请暂停，只走 Adsterra（见 `docs/STRATEGY-域名与部署.md` 第六节）。
+> 本计划保留作历史参考，**不作为待办执行**。
+
 > 2026-08-12 | 基于 ChatGPT 逐篇审查 + 我们自己的 Phase 1 审计 | 29 篇 · PV #1 (6,696/30d)
 
 ---

@@ -75,4 +75,4 @@ MUST 对 `vercel deploy` 的瞬时 `Not authorized` 自动重试 1 次（教训�
 ## 恢复规则
 
 当前状态：▶️ 已恢复（2026-08-22 起，BUILD-001 新 Agent 管线；每日一站节奏由主 Agent 调度）
-MUST 由主 Agent 明确恢复指令后才会重新运行；AdSense 合规红线（不编造/诚实标注/事实与 Steam 一致）永久有效
+MUST 由主 Agent 明确恢复指令后才会重新运行；内容真实性红线（不编造/诚实标注/事实与 Steam 一致）永久有效，与是否申请 AdSense 无关

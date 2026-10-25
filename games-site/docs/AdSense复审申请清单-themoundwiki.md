@@ -1,5 +1,8 @@
 # 单站 AdSense 复审申请清单 — themoundwiki
 
+> ⏸️ **2026-10-25 起暂缓**：AdSense 申请暂停，只走 Adsterra（见 `docs/STRATEGY-域名与部署.md` 第六节）。
+> 本清单保留作历史参考，**不作为待办执行**；内容真实性与信任页要求仍然有效。
+
 > 创建：2026-09-09 | 适用：`themoundwiki.vercel.app`（主攻站）
 > 背景：2026-08-10 被拒，理由「低价值内容（Low Value Content）」
 > 依据：`docs/AdSense合规分析与改进方案.md`、`docs/themoundwiki-去模板化改造方案.md`、生财有术圈内复盘（国器 / 丿晓风 / 袁锐钦 / 王马扎）

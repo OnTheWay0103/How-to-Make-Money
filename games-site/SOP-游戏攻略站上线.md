@@ -33,7 +33,7 @@
 |------|------|------|
 | GitHub | 代码托管 + Vercel 自动部署 | 免费 |
 | Vercel | 网站托管与部署 | 关联 GitHub，免费额度足够起步 |
-| Google (Gmail) | GA4 + GSC + AdSense | 同一个账号管理所有 Google 服务 |
+| Google (Gmail) | GA4 + GSC | 同一个账号管理所有 Google 服务（AdSense 2026-10-25 起暂缓） |
 | Google Analytics | 流量分析 | 免费 |
 | Google Search Console | SEO 收录 | 必做，否则 Google 不收录 |
 
@@ -333,14 +333,18 @@ Agent 会自动调用 Google Suggest API，去噪、分类、保存到 `keyword-
 
 ### 1.4 定域名
 
+> **当前决策（2026-10-25）**：统一用 `{projectname}.vercel.app` 子域，**不买自有域名**。
+> 理由与风险见 `docs/STRATEGY-域名与部署.md` 第二节；2026-11-25 复盘。
+> 下文的自有域名建议只在决策改为「买域名」后启用。
+
 ```
 决策流程：
 选定目标游戏 → 确定域名 → 检查域名可用性
 ```
 
 **域名建议**：
-- 优先：`{gamename}wiki.com` / `{gamename}guide.com`
-- 备选：Vercel 免费域名 `{projectname}.vercel.app`（起步够用，后续再绑自定义域名）
+- 当前：Vercel 免费域名 `{projectname}.vercel.app`（全部现存站都是这个）
+- 将来若要自有域名：优先 `{gamename}wiki.com` / `{gamename}guide.com`，且**只给通过 D+30 索引检查的站买**
 - 避免：与官方商标冲突太直接的域名（如 `{gamename}.com`）
 - 小技巧：域名里嵌关键词自带 SEO 权重（如 `farevergame.wiki` 自带 `farever game wiki` 搜索匹配）
 
