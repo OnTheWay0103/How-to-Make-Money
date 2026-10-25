@@ -11,6 +11,7 @@ related:
   - demo-guide
   - game-mechanics-systems-guide
   - best-vessels-guide
+  - how-to-repair-weapons-guide
 ---
 
 # Crafting & Resources Guide — Recipes, Loot, Gold & Materials in Grain Rot

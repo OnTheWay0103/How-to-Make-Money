@@ -11,6 +11,7 @@ related:
   - game-mechanics-systems-guide
   - co-op-guide
   - extraction-guide
+  - how-to-repair-weapons-guide
 ---
 
 # Outpost Guide — Base Building, Progression & What to Upgrade First

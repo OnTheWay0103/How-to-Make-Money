@@ -32,3 +32,7 @@
 {"ts":"2026-10-24T23:05:00+0800","site":"ardentwildswiki","commit":"369c552","status":"ok","url":"https://ardentwildswiki.vercel.app","recheck":"alias/curl 传播期超时，人工复验 200 且广告代码已上线"}
 {"ts":"2026-10-24T23:26:42+0800","site":"cozygamerestorationwiki","commit":"ecf423d","status":"ok","url":"https://cozygamerestorationwiki.vercel.app"}
 {"ts":"2026-10-24T23:27:34+0800","site":"dreadmoorwiki","commit":"ecf423d","status":"ok","url":"https://dreadmoorwiki.vercel.app"}
+{"ts":"2026-10-25T08:42:58+0800","site":"sephiriawiki","commit":"cd45e30","status":"fail","url":"https://sephiriawiki.vercel.app"}
+{"ts":"2026-10-25T08:44:53+0800","site":"themoundwiki","commit":"cd45e30","status":"ok","url":"https://themoundwiki.vercel.app"}
+{"ts":"2026-10-25T08:45:04+0800","site":"sephiriawiki","commit":"cd45e30","status":"ok","url":"https://sephiriawiki.vercel.app"}
+{"ts":"2026-10-25T08:45:09+0800","site":"grainrotwiki","commit":"cd45e30","status":"ok","url":"https://grainrotwiki.vercel.app"}

@@ -10,6 +10,7 @@ related:
   - crafting-resources-guide
   - demo-guide
   - stealth-sound-guide
+  - how-to-repair-weapons-guide
 sources:
   - tier: "Official"
     text: "The demo includes 20+ unlockable constructs — weapons, tools, and utilities; 'tactical carpentry' and the Grinder are official features — official demo announcement and Steam store page"
