@@ -46,6 +46,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
+import { listTables, monthName } from './lib/month-ledger.mjs';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const BASE_TOKEN = process.env.FEISHU_BASE_TOKEN || 'Zl7cb6Bz9ajsPdsQRbRci1QZnkg';
@@ -53,8 +54,27 @@ const TABLES = {
   delivery: process.env.FEISHU_DELIVERY_TABLE || 'tbltCgQw1VfMVj0T',
   deployQueue: process.env.FEISHU_DEPLOY_TABLE || 'tbljqIjX9qOD8fVs',
   qa: process.env.FEISHU_QA_TABLE || 'tblrHtlzD1KZhcdV',
-  sites: process.env.FEISHU_SITES_TABLE || 'tblTDpkA9odla8No',
+  // 站点台账按月份表（表名 = 年月），延迟解析见 sitesTableId()
+  sites: process.env.FEISHU_SITES_TABLE || null,
 };
+
+/**
+ * 当月站点台账表 ID。台账 2026-10-25 起按月分表，新月份的站要写进当月表，
+ * 不能在代码里钉死某个月的 table id。
+ */
+function sitesTableId() {
+  if (TABLES.sites) return TABLES.sites;
+  const month = monthName();
+  const hit = listTables(BASE_TOKEN, ROOT).find((t) => t.name === month);
+  if (!hit) {
+    throw new Error(
+      `没有「${month}」这张月度台账表。先跑 ` +
+        `node scripts/roll-month-ledger.mjs --month ${month} --apply`,
+    );
+  }
+  TABLES.sites = hit.id;
+  return hit.id;
+}
 const AS = process.env.FEISHU_AS || 'user';
 
 const argv = process.argv.slice(2);
@@ -433,7 +453,8 @@ function adSlots(site) {
 }
 
 function syncSites() {
-  const existing = listRecords(TABLES.sites);
+  const tableId = sitesTableId();
+  const existing = listRecords(tableId);
   const bySite = new Map(existing.map((r) => [String(r.fields?.['站点'] || ''), r]));
   const creates = [];
   const updates = {};
@@ -458,13 +479,13 @@ function syncSites() {
     return;
   }
   if (creates.length) {
-    lark(['base', '+record-batch-create', ...baseArgs(), '--table-id', TABLES.sites,
+    lark(['base', '+record-batch-create', ...baseArgs(), '--table-id', tableId,
       '--json', JSON.stringify({ create_records: creates })]);
   }
   const ids = Object.keys(updates);
   for (let i = 0; i < ids.length; i += 200) {
     const chunk = Object.fromEntries(ids.slice(i, i + 200).map((id) => [id, updates[id]]));
-    lark(['base', '+record-batch-update', ...baseArgs(), '--table-id', TABLES.sites,
+    lark(['base', '+record-batch-update', ...baseArgs(), '--table-id', tableId,
       '--json', JSON.stringify({ update_records: chunk })]);
   }
 }

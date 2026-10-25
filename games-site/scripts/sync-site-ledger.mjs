@@ -1,13 +1,16 @@
 #!/usr/bin/env node
 /**
- * 把 30 天 PV 和环比写进飞书多维表格「游戏站交付看板 → 站点台账」。
+ * 把 30 天 PV 和环比写进飞书多维表格的**当月站点台账表**。
  *
  *   数据来源：dashboard `/api/traffic`（GA4 聚合，见 scripts/lib/dashboard-traffic.mjs）
- *   目标表：  base Zl7cb6Bz9ajsPdsQRbRci1QZnkg / table tblTDpkA9odla8No
+ *   目标表：  游戏站交付看板 → 月度台账表（表名 = 年月，如 `2026-10`）
+ *   新月份的表：node scripts/roll-month-ledger.mjs --month 2026-11 --apply
  *
  * 用法：
- *   node scripts/sync-site-ledger.mjs              # 预览差异（默认 dry-run）
- *   node scripts/sync-site-ledger.mjs --apply      # 写入
+ *   node scripts/sync-site-ledger.mjs                      # 预览差异（默认 dry-run）
+ *   node scripts/sync-site-ledger.mjs --apply              # 写入当月表
+ *   node scripts/sync-site-ledger.mjs --month 2026-10      # 指定月份
+ *   node scripts/sync-site-ledger.mjs --table tblXXXX      # 指定表
  *
  * 以「站点」目录名为主键匹配记录。只写 `PV(30d)` 和 `PV 环比(%)` 两个字段，
  * 不动人工维护的字段（上线日、攻略数、备注……）。重复运行是幂等的。
@@ -16,12 +19,14 @@
 import { execFileSync } from 'node:child_process';
 import path from 'node:path';
 import { fetchTraffic, trafficByDir } from './lib/dashboard-traffic.mjs';
+import { resolveLedgerTable } from './lib/month-ledger.mjs';
 
 const REPO = path.resolve(import.meta.dirname, '..');
 
 const APPLY = process.argv.includes('--apply');
 const BASE_TOKEN = opt('--base', 'Zl7cb6Bz9ajsPdsQRbRci1QZnkg');
-const TABLE_ID = opt('--table', 'tblTDpkA9odla8No');
+const TABLE_ARG = opt('--table', null);
+const MONTH = opt('--month', null);
 
 const FIELD_PV = 'PV(30d)';
 const FIELD_CHANGE = 'PV 环比(%)';
@@ -44,7 +49,7 @@ function lark(args) {
   return parsed.data;
 }
 
-function listRecords() {
+function listRecords(tableId) {
   const rows = [];
   let offset = 0;
   for (;;) {
@@ -54,7 +59,7 @@ function listRecords() {
       '--base-token',
       BASE_TOKEN,
       '--table-id',
-      TABLE_ID,
+      tableId,
       '--format',
       'json',
       '--limit',
@@ -87,6 +92,15 @@ const num = (v) => (typeof v === 'number' ? v : v == null || v === '' ? null : N
 
 /* ─── main ────────────────────────────────────────────────────────── */
 
+const ledger = resolveLedgerTable({
+  base: BASE_TOKEN,
+  table: TABLE_ARG,
+  month: MONTH,
+  cwd: REPO,
+});
+const TABLE_ID = ledger.id;
+console.log(`台账表：${ledger.name}（${TABLE_ID}，${ledger.records_count ?? '?'} 行）`);
+
 const traffic = fetchTraffic();
 const { byDir, unmatched } = trafficByDir(traffic);
 console.log(
@@ -96,7 +110,7 @@ if (unmatched.length > 0) {
   console.warn('⚠️ 这些站在 traffic 接口里找不到对应 GA ID：', unmatched.map((u) => u.dir).join(', '));
 }
 
-const records = listRecords();
+const records = listRecords(TABLE_ID);
 console.log(`站点台账：${records.length} 条`);
 
 const updates = {};

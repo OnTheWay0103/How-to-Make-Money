@@ -1,10 +1,10 @@
 # 站点生命周期报告
 
-生成时间：2026-10-25 08:21 UTC
-数据源：`dashboard-pied-six-31.vercel.app/api/traffic`（近 30 天 GA4）+ 站点台账（上线日）
+生成时间：2026-10-25 08:38 UTC
+数据源：`dashboard-pied-six-31.vercel.app/api/traffic`（近 30 天 GA4）+ 台账「2026-10」（上线日）
 规则：`docs/STRATEGY-生命周期与止损.md`
 
-总计 **45** 站，PV(30d) 合计 **14,098**。
+总计 **45** 站，PV(30d) 合计 **14,104**。
 
 | 分级 | 站点数 | 含义 |
 |---|---:|---|
@@ -18,18 +18,18 @@
 
 | 站点 | 上线日 | 天数 | PV(30d) | 环比 | 分级 | 依据 |
 |---|---|---:|---:|---:|---|---|
-| nivalisnightswiki | 2026-08-06 | 79 | 2393 | +1814% | 加码 | PV 2393 ≥ 300 |
+| nivalisnightswiki | 2026-08-06 | 79 | 2396 | +1817% | 加码 | PV 2396 ≥ 300 |
 | sephiriawiki | 2026-07-19 | 97 | 1231 | -66% | 加码 | PV 1231 ≥ 300 |
 | waterparksimulatorwiki | 2026-08-07 | 78 | 1206 | -42% | 加码 | PV 1206 ≥ 300 |
 | shiftatmidnightwiki | 2026-07-28 | 88 | 1108 | -38% | 加码 | PV 1108 ≥ 300 |
 | themoundwiki | 2026-07-10 | 106 | 795 | -36% | 加码 | PV 795 ≥ 300 |
 | spiritvalewiki | 2026-07-11 | 105 | 792 | -36% | 加码 | PV 792 ≥ 300 |
 | moonlightpeakswiki | 2026-07-30 | 86 | 785 | -41% | 加码 | PV 785 ≥ 300 |
-| tearsofmetalwiki | 2026-07-22 | 94 | 704 | -42% | 加码 | PV 704 ≥ 300 |
+| tearsofmetalwiki | 2026-07-22 | 94 | 705 | -41% | 加码 | PV 705 ≥ 300 |
 | gotownwiki | 2026-07-31 | 85 | 568 | -1% | 加码 | PV 568 ≥ 300 |
 | delveriumwiki | 2026-08-01 | 84 | 452 | +89% | 加码 | PV 452 ≥ 300 |
 | relicfirstguardianwiki | 2026-07-27 | 89 | 411 | -25% | 加码 | PV 411 ≥ 300 |
-| expeditionssamuraiwiki | 2026-07-31 | 85 | 320 | +5% | 加码 | PV 320 ≥ 300 |
+| expeditionssamuraiwiki | 2026-07-31 | 85 | 322 | +6% | 加码 | PV 322 ≥ 300 |
 | ironnestwiki | 2026-08-05 | 80 | 316 | +84% | 加码 | PV 316 ≥ 300 |
 | restorywiki | 2026-08-07 | 78 | 149 | +107% | 加码 | PV 149 ≥ 100 且环比 +107% |
 | aincradwiki | 2026-07-06 | 110 | 297 | +45% | 维持 | PV 297 在 50–299 |
@@ -76,17 +76,17 @@
 
 ## 加码名单
 
-- **nivalisnightswiki** — PV 2393，环比 +1814%
+- **nivalisnightswiki** — PV 2396，环比 +1817%
 - **sephiriawiki** — PV 1231，环比 -66%
 - **waterparksimulatorwiki** — PV 1206，环比 -42%
 - **shiftatmidnightwiki** — PV 1108，环比 -38%
 - **themoundwiki** — PV 795，环比 -36%
 - **spiritvalewiki** — PV 792，环比 -36%
 - **moonlightpeakswiki** — PV 785，环比 -41%
-- **tearsofmetalwiki** — PV 704，环比 -42%
+- **tearsofmetalwiki** — PV 705，环比 -41%
 - **gotownwiki** — PV 568，环比 -1%
 - **delveriumwiki** — PV 452，环比 +89%
 - **relicfirstguardianwiki** — PV 411，环比 -25%
-- **expeditionssamuraiwiki** — PV 320，环比 +5%
+- **expeditionssamuraiwiki** — PV 322，环比 +6%
 - **ironnestwiki** — PV 316，环比 +84%
 - **restorywiki** — PV 149，环比 +107%

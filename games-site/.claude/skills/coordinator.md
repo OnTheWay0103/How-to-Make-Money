@@ -150,6 +150,8 @@ description: 🧠 主管 Agent — 每天定时运行，读取状态、调度子
    - `node scripts/feishu-report.mjs --all --apply`
      → 写入「每日交付」表（T1），并把部署日志收口到「部署队列」表（T5）
    - 每月或站点变化后 `node scripts/feishu-report.mjs --sites --apply` 刷新「站点台账」（T3）
+     台账 2026-10-25 起**按月分表**（表名 = 年月），脚本自动写当月表；当月表不存在时先跑
+     `node scripts/roll-month-ledger.mjs --month YYYY-MM --apply`
    - 同步失败**不阻断** commit，但必须在摘要里写明失败原因
 
 3. git add STATS-游戏站点统计.md（如有变更）

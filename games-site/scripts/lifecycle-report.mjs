@@ -3,13 +3,15 @@
  * 站点生命周期分级：A 加码 / B 维持 / C 观察中 / D 不再维护。
  *
  *   规则文档：docs/STRATEGY-生命周期与止损.md
- *   数据来源：dashboard `/api/traffic`（30 天 GA4）+ 多维表格「站点台账」（上线日）
+ *   数据来源：dashboard `/api/traffic`（30 天 GA4）+ 当月站点台账（表名 = 年月）
  *   输出：    .agent/lifecycle-report.md
  *   可选：    --apply 把分级写回台账的「生命周期状态」字段
  *
  * 用法：
  *   node scripts/lifecycle-report.mjs            # 只生成报告
  *   node scripts/lifecycle-report.mjs --apply    # 报告 + 回写分级
+ *   node scripts/lifecycle-report.mjs --month 2026-10
+ *   node scripts/lifecycle-report.mjs --table tblXXXX
  *
  * 分级口径（2026-10-25 定）：
  *   A 加码     PV(30d) ≥ 300，或 PV ≥ 100 且环比 ≥ +50%
@@ -25,12 +27,14 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { fetchTraffic, trafficByDir } from './lib/dashboard-traffic.mjs';
+import { resolveLedgerTable } from './lib/month-ledger.mjs';
 
 const REPO = path.resolve(import.meta.dirname, '..');
 
 const APPLY = process.argv.includes('--apply');
 const BASE_TOKEN = opt('--base', 'Zl7cb6Bz9ajsPdsQRbRci1QZnkg');
-const TABLE_ID = opt('--table', 'tblTDpkA9odla8No');
+const TABLE_ARG = opt('--table', null);
+const MONTH = opt('--month', null);
 const OUT = path.join(REPO, '.agent', 'lifecycle-report.md');
 
 const GRADES = ['加码', '维持', '观察中', '不再维护'];
@@ -54,7 +58,7 @@ function lark(args) {
   return parsed.data;
 }
 
-function listLedger() {
+function listLedger(tableId) {
   const rows = [];
   let offset = 0;
   for (;;) {
@@ -64,7 +68,7 @@ function listLedger() {
       '--base-token',
       BASE_TOKEN,
       '--table-id',
-      TABLE_ID,
+      tableId,
       '--format',
       'json',
       '--limit',
@@ -119,9 +123,17 @@ function classify({ pv, change, launch }) {
 
 /* ─── main ────────────────────────────────────────────────────────── */
 
+const ledgerTable = resolveLedgerTable({
+  base: BASE_TOKEN,
+  table: TABLE_ARG,
+  month: MONTH,
+  cwd: REPO,
+});
+const TABLE_ID = ledgerTable.id;
+
 const traffic = fetchTraffic();
 const { byDir } = trafficByDir(traffic);
-const ledger = listLedger();
+const ledger = listLedger(TABLE_ID);
 
 const rows = [];
 for (const [dir, t] of byDir) {
@@ -161,7 +173,7 @@ const md = [];
 md.push('# 站点生命周期报告');
 md.push('');
 md.push(`生成时间：${today.toISOString().slice(0, 16).replace('T', ' ')} UTC`);
-md.push(`数据源：\`${traffic.host}/api/traffic\`（近 30 天 GA4）+ 站点台账（上线日）`);
+md.push(`数据源：\`${traffic.host}/api/traffic\`（近 30 天 GA4）+ 台账「${ledgerTable.name}」（上线日）`);
 md.push(`规则：\`docs/STRATEGY-生命周期与止损.md\``);
 md.push('');
 md.push(
