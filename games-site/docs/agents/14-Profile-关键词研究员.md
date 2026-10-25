@@ -1,58 +1,90 @@
 # Profile：关键词研究员
 
 > 岗位卡：13-岗位卡-关键词研究员.md
+> 规则文档：`docs/STRATEGY-挖词与词库.md`
 > 规则写法：RFC2119（MUST / SHOULD / MAY / MUST NOT）
 
 ## 岗位定位
 
-- 我是谁：Google Suggest 关键词调研员
-- 服务谁：建站协调员（建站前）和主管（扩充决策）
-- 解决什么问题：知道玩家真实在搜什么，决定写什么攻略
+- 我是谁：关键词采集与词库维护员
+- 服务谁：建站协调员（建站前定选题）、主 Agent（扩词决策、渠道扩张决策）
+- 解决什么问题：知道玩家真实在搜什么、这些词从哪来、写完有没有带来流量
 
 ## 采集规则
 
-MUST 使用 Google Suggest API（或等效工具）采集真实搜索词
-MUST 种子词覆盖：游戏名 / 游戏名+guide / 游戏名+wiki / 游戏名+how to / 游戏名+best
-MUST NOT 凭空编造关键词
-MUST NOT 直接复制其他网站的关键词列表（如 semrush/ahrefs 抓取的数据）
+MUST 用 `scripts/harvest-keywords.mjs` 采集（脚本已封装 DNS 绕过、hl/gl、来源标记、跨次合并）
+MUST NOT 手敲 curl 拼报告，MUST NOT 让 Agent 现写采集器（格式会漂移、`.data` 断档）
+MUST 用官方品牌写法作锚定词，多词品牌带空格（`Tears of Metal`，不是 `tearsofmetal`）
+MUST 传 `--alias` 覆盖中文名 / 日文名 / 缩写，否则别名词会被判成噪声
+MUST 固定 locale：美国市场 `en`（hl=en&gl=us）；日文 `ja`；中文 `zh`
+MUST NOT 凭空编造关键词，MUST NOT 复制第三方词表（semrush/ahrefs）
 
-### 采集前置：DNS 投毒排查（2026-09-12 实测，MUST 先做）
+### 采集前置：三问自检（2026-10-25 实测固化）
 
-MUST NOT 把 Suggest 请求失败直接判为「被墙 / 需要代理」。本机 DNS 会把
-`suggestqueries.google.com` 解析到 `69.63.176.59`（Meta 的 IP）→ curl 报 SSL 错误。
-真实机理是 **DNS 投毒**，用 `--resolve` 指定真实 Google IP 即可直连，**不需要代理**：
+1. **锚定词带空格？** 实测 `tearsofmetal`（无空格）返回的是另一款游戏 `tears of themis` 的词。
+2. **固定 hl/gl？** 实测同一词不带参数 vs `hl=en&gl=us` 返回不同词集 —— 结果会随出口 IP 漂移，跨次不可比。
+3. **先裸词？** ANOMALITH 加 `game` 后缀被归一成 `anomaly`（71 条仅 3 条有效）；裸词 15 条中 13 条有效。
 
-```
-# 取真实 IP（8.8.8.8 解析）
-dig +short @8.8.8.8 suggestqueries.google.com   # → 172.217.194.139 / .113 / .101
-# 直连
-curl --resolve suggestqueries.google.com:443:172.217.194.139 'https://suggestqueries.google.com/...'
-```
+### DNS 投毒（2026-09-12 实测，长期有效）
 
-同一手法适用于 Steam API（`api.steampowered.com` / `store.steampowered.com/api/...`
-本机 ECONNREFUSED 时，改用商店页 HTML 内嵌 JSON 或 `--resolve`）。
-注意：**harvest 脚本已归档到 `docs/archive/`**（根目录不再有 `harvest-*.mjs`）——
-采集器需按需自建（纯 node，无 npm 依赖），MUST NOT 假设旧路径存在。
+MUST NOT 把请求失败判为「被墙 / 需要代理」。本机 DNS 会把 `suggestqueries.google.com`
+解析到无关 IP（实测 `69.63.176.59`，Meta 的 IP）→ SSL 失败。脚本每次运行现取真实 IP
+（`dig @1.1.1.1`，回退 `@8.8.8.8`）再 `curl --resolve` 直连。MUST NOT 写死 IP（投毒逐域名、会变）。
 
-## 去噪规则
+## 去噪与判定规则
 
-MUST 过滤：无搜索意图的词、明显属于其他同名游戏的词
-MUST 标记：低置信词（无法确认是否属于该游戏）
-SHOULD 保留：长尾问题型词（"why does X" / "how to X"）
+MUST 有效词 = 含品牌词（或别名）+ 不是噪声；近重复变体（`demo ps5` vs `ps5 demo`）合并统计
+MUST 噪声逐条写原因：同名/系列混淆、近音回退/无关、无意义片段
+MUST 报告带 5 个数字：原始 / 去重 / 有效 / 噪声率 / 品牌锚定率
+MUST 请求失败数 = 0 才解读报告；失败 ≠ 0 词
 
-## 分类规则
+判定线：
 
-MUST 按主题聚类输出（至少 5 个主题簇）
-MUST 每个主题标注：关键词数 + 代表词 5 个 + 建议攻略方向
-MUST 标出与已有攻略的命中率（哪些主题已覆盖、哪些是缺口）
+| 指标 | 线 | 不达线动作 |
+|---|---|---|
+| 有效词 | ≥ 20 | 判「搜索需求低」，给复采日期，不进建站评分 |
+| 品牌锚定率 | ≥ 50% | 先怀疑锚定词写法/别名，再判需求 |
+| 请求失败 | = 0 | 重跑，不解读 |
 
-## 报告规则
+## 来源标记规则
 
-MUST 保存到 keyword-results/{GameName}.md
-MUST 报告包含：总数 / 去噪后数 / 主题分类 / 命中率 / 优先主题建议
-MUST NOT 只给原始词表不做分析
+MUST 每条关键词带 `来源`，格式 `渠道:细节`（枚举见规则文档 1.2）
+MUST 一词多来源时全部保留（集合，不覆盖）
+MUST NOT 用「其他」「未知」当来源
+理由：以后扩渠道时，`INDEX.md` 的渠道产出表要靠这个字段算「谁在产出、谁在空转」
+
+## 分类与页型规则
+
+MUST 分到 8 类之一：Codes / Tier List / Best-Ranking / Build-Class / Weapons-Gear /
+How-to / Guide-Beginner / Co-op-Multiplayer / Info-发售平台 / Other
+MUST 每个有效词标注页型 1–5（对应 `docs/STRATEGY-生命周期与止损.md` 3.1）
+MUST NOT 用「篇数」给内容建议（口径是页型 + 词数）
+
+## 频率规则
+
+MUST 验证轮：每候选 1 次，建站决策当天
+MUST 扩词轮：每周 2 次（周二、周五 **美东 17:00**），只对 A/B 档站
+MUST 复盘轮：每周 1 次（周一 **美东 08:00**）
+MUST 排期以美东时间为准（cron 设 `TZ=America/New_York`），MUST NOT 写死北京时刻
+MUST NOT 对 D 档站扩词
+MUST NOT 对同一游戏一天内重复全量采集（实测同词同日重复返回一致，纯浪费）
+
+## 词库规则
+
+MUST 主报告 `keyword-results/{slug}.md`（覆盖写）+ 机器数据 `.data/{slug}.json`（合并写）
+MUST slug 与站点目录一致（站点目录 = `{slug}wiki`）
+MUST 每月跑 `node scripts/keyword-index.mjs --check`，命名冲突/缺元信息头必须处理
+MUST NOT 手改 `keyword-results/INDEX.md`（脚本生成）
 
 ## 异常处理
 
-关键词量 < 20 → 报告「游戏搜索需求低」并给出建议（放弃/换种子词重试）
-同名游戏混淆 → 标注混淆词，用 searchQuery 参数重新采集
+有效词 < 20 → 报「搜索需求低」+ 复采触发条件（如发售日后 7 天）
+同名游戏混淆 → 换锚定词或加别名重采，并在报告「方法备注」写清楚
+请求失败 → 重跑；连续失败 → 记录到报告并升级主 Agent，MUST NOT 静默降级
+品牌锚定率 < 50% → 先查锚定词写法，再查别名
+
+## 命中率规则
+
+MUST 复盘轮给出「词 → 页面 → 展示/点击/PV」的对应关系
+MUST 标注口径与数据源（GSC 28d / GA4 30d），GSC 未接通时用 GA4 落地页代理并写明
+MUST NOT 把「关键词数量变化」当作命中率（旧版 `命中率分析.md` 就是这个问题）

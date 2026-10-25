@@ -59,6 +59,10 @@ Agent 之间不直接对话，通过**文件契约**交接：
 - **止损**：D 档 = 30 天 PV < 50 且上线 ≥ 90 天且环比 < +30% → **停止投入 + 台账标记 `不再维护`**；MUST NOT 删站、下架、改代码
 - **模板**：当前只用一套 wiki 模板，**模板差异化暂不做**，等整条建站流程理通顺后再增加
 - **数据来源**：流量一律取 `dashboard /api/traffic`，MUST NOT 编造或估算；取不到时报"不可判定"，不许当 0
+- **挖词**：MUST 用 `node scripts/harvest-keywords.mjs --game "官方写法" --slug ... --genre ... --write`；锚定词带空格、固定 `hl=en&gl=us`、先裸词（三条实测教训见 `docs/STRATEGY-挖词与词库.md` 3.1）
+- **每条词 MUST 带来源**（`渠道:细节`，如 `google_suggest:后缀:codes`）；**有效词 ≥20** 才进建站评分，否则判「搜索需求低」
+- **采集节奏**（按**美东时间** America/New_York 排期）：发现轮每天 2 次（08:00 / 17:00）、扩词轮每周 2 次（周二/周五 17:00，只对 A/B 档）、复盘轮每周 1 次（周一 08:00）；cron MUST 设 `TZ=America/New_York`，MUST NOT 写死北京时刻。全部轮次 MUST 避开 DeepSeek 高峰期（工作日 09:00–12:00、14:00–18:00 北京时间），走半价
+- **词库索引**：`keyword-results/INDEX.md` 由 `node scripts/keyword-index.mjs` 生成，MUST NOT 手改
 
 ## 站点矩阵
 
@@ -101,14 +105,12 @@ games-site/
   keyword-results/               # 关键词调研数据
 ```
 
-> ⚠️ **harvest 脚本已归档**（`e95cfe1`，7/31）。根目录不再有 `harvest-keywords.mjs` /
-> `harvest-light.mjs` / `harvest-curl.sh` —— 全部移入 `docs/archive/`，采集改走
-> `.claude/skills/harvest-keywords.md`（Agent 驱动）。**别再按旧路径找脚本**（9/12 有 Agent
-> 因此白写了一个采集器）。
->
-> 采集前必读（2026-09-12 实测）：本机 DNS 会把 `suggestqueries.google.com` 污染到
-> `69.63.176.59`（Meta IP）导致 SSL 失败 —— **这不是"被墙"，是 DNS 投毒**，
-> 用 `--resolve` 指定真实 IP 即可直连，不需要代理。
+> ⚠️ **旧 harvest 脚本已归档**（`e95cfe1`，7/31）：`harvest-curl.sh` / `harvest-light.mjs` /
+> `harvest-keywords-browser.mjs` 在 `docs/archive/`，别再按那些路径找。
+> **现行采集器是 `scripts/harvest-keywords.mjs`**（2026-10-25 重建，脚本驱动，见
+> `docs/STRATEGY-挖词与词库.md`）。采集前必读：本机 DNS 会把 `suggestqueries.google.com`
+> 污染到 `69.63.176.59`（Meta IP）导致 SSL 失败 —— **这不是"被墙"，是 DNS 投毒**；
+> 脚本每次现取真实 IP + `--resolve` 直连，不需要代理。
 
 ## 核心文档
 
@@ -116,6 +118,7 @@ games-site/
 |------|------|
 | `SOP-游戏攻略站上线.md` | **最重要** — 新站上线全流程 |
 | `docs/STRATEGY-生命周期与止损.md` | **战略基线** — 内容口径、D+30/60/90 检查点、A/B/C/D 分级与止损 |
+| `docs/STRATEGY-挖词与词库.md` | **挖词规范** — 五层渠道、来源标记、采集频率与排期、三问自检、去噪判定、词库命名、GSC 接入 |
 | `SOP-AI-Agent开发.md` | Agent 开发方法论与成熟度模型 |
 | `STATS-游戏站点统计.md` | 站点状态跟踪（每次建站后更新） |
 | `RESEARCH-游戏分类与方法论.md` | 游戏分类体系与运营方法论 |
@@ -123,7 +126,15 @@ games-site/
 
 ## 关键词工作流
 
-采集 → 存储到 `keyword-results/` → 对比命中率 → 决定是否新增攻略
+```
+发现轮（每天美东 08:00 / 17:00）→ 侦察员 → CANDIDATE-POOL.md + discovery-{date}.md
+验证轮（建站决策当天）→ 研究员 → scripts/harvest-keywords.mjs --write → keyword-results/{slug}.md
+扩词轮（周二/周五美东 17:00，仅 A/B 档）→ 研究员 → {slug}-expand-{date}.md
+复盘轮（周一美东 08:00）→ 研究员 → keyword-results/命中率分析.md（词 → 页面 → PV）
+每月 → node scripts/keyword-index.mjs --check → INDEX.md
+```
+
+详细规则见 `docs/STRATEGY-挖词与词库.md`；岗位卡 `docs/agents/11`–`14`。
 
 ## SOP 上线流程（新站）
 

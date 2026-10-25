@@ -1,0 +1,1738 @@
+{
+  "slug": "tearsofmetal",
+  "game": "Tears of Metal",
+  "runs": [
+    {
+      "at": "2026-10-25T10:10:29.672Z",
+      "locale": "en",
+      "requests": 24,
+      "failures": 0,
+      "raw": 262,
+      "dedup": 189,
+      "valid": 164,
+      "variants": 6,
+      "noise": 25,
+      "noiseRate": 0.1323,
+      "anchorRate": 0.8677,
+      "newKeywords": 164
+    },
+    {
+      "at": "2026-10-25T10:11:06.015Z",
+      "locale": "en",
+      "requests": 24,
+      "failures": 0,
+      "raw": 262,
+      "dedup": 189,
+      "valid": 164,
+      "variants": 6,
+      "noise": 25,
+      "noiseRate": 0.1323,
+      "anchorRate": 0.8677,
+      "newKeywords": 0
+    },
+    {
+      "at": "2026-10-25T10:11:43.772Z",
+      "locale": "en",
+      "requests": 21,
+      "failures": 0,
+      "raw": 220,
+      "dedup": 189,
+      "valid": 164,
+      "variants": 6,
+      "noise": 25,
+      "noiseRate": 0.1323,
+      "anchorRate": 0.8677,
+      "newKeywords": 0
+    },
+    {
+      "at": "2026-10-25T10:12:47.919Z",
+      "locale": "en",
+      "requests": 21,
+      "failures": 0,
+      "raw": 220,
+      "dedup": 189,
+      "valid": 164,
+      "variants": 6,
+      "noise": 25,
+      "noiseRate": 0.1323,
+      "anchorRate": 0.8677,
+      "newKeywords": 0
+    }
+  ],
+  "keywords": {
+    "does tears of metal have multiplayer": {
+      "category": "Co-op/Multiplayer",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:multiplayer"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:classes",
+        "google_suggest:后缀:wiki"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal 1.0 release date": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:release date"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal act 2 boss": {
+      "category": "Other",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:boss"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal act 3 boss": {
+      "category": "Other",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:boss"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal all bosses": {
+      "category": "Other",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:boss"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal all characters": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:characters",
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal all characters unlock": {
+      "category": "How-to",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:characters"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal all classes": {
+      "category": "Build/Class",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:classes"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal all items": {
+      "category": "Weapons/Gear",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:items"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal all skills": {
+      "category": "Build/Class",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:探针:skills"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal artist": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:classes",
+        "google_suggest:后缀:wiki"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal banshee boss": {
+      "category": "Other",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:boss"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal best brienne build": {
+      "category": "Best/Ranking",
+      "pageType": "3 Tier List",
+      "sources": [
+        "google_suggest:后缀:best build"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal best character reddit": {
+      "category": "Best/Ranking",
+      "pageType": "3 Tier List",
+      "sources": [
+        "google_suggest:后缀:reddit"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal best characters": {
+      "category": "Best/Ranking",
+      "pageType": "3 Tier List",
+      "sources": [
+        "google_suggest:后缀:characters"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal best class": {
+      "category": "Best/Ranking",
+      "pageType": "3 Tier List",
+      "sources": [
+        "google_suggest:后缀:classes"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal best price": {
+      "category": "Best/Ranking",
+      "pageType": "3 Tier List",
+      "sources": [
+        "google_suggest:后缀:price"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal best skills": {
+      "category": "Best/Ranking",
+      "pageType": "3 Tier List",
+      "sources": [
+        "google_suggest:探针:skills"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal best wallace build": {
+      "category": "Best/Ranking",
+      "pageType": "3 Tier List",
+      "sources": [
+        "google_suggest:后缀:best build"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal boss guide": {
+      "category": "Guide/Beginner",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:boss"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal bosses": {
+      "category": "Other",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:boss"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal builds tier list": {
+      "category": "Tier List",
+      "pageType": "3 Tier List",
+      "sources": [
+        "google_suggest:后缀:tier list"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal character builds": {
+      "category": "Build/Class",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:characters"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal character creation": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:characters"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal character customization": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:characters"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal character guide": {
+      "category": "Guide/Beginner",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:characters"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal character list": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:characters"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal character unlock guide": {
+      "category": "How-to",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:characters"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal characters": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal characters tier list": {
+      "category": "Tier List",
+      "pageType": "3 Tier List",
+      "sources": [
+        "google_suggest:后缀:characters"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal characters unlock": {
+      "category": "How-to",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:characters"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal characters wiki": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:characters",
+        "google_suggest:后缀:wiki"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal clan tier list": {
+      "category": "Tier List",
+      "pageType": "3 Tier List",
+      "sources": [
+        "google_suggest:后缀:tier list"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal co op demo": {
+      "category": "Co-op/Multiplayer",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:demo"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal code": {
+      "category": "Codes",
+      "pageType": "1 Codes",
+      "sources": [
+        "google_suggest:后缀:codes"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal coming to ps5": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:ps5"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal companions": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal companions tier list": {
+      "category": "Tier List",
+      "pageType": "3 Tier List",
+      "sources": [
+        "google_suggest:后缀:tier list"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal console": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:items"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal console release date": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:release date"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal coop reddit": {
+      "category": "Co-op/Multiplayer",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:reddit"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal crossplay": {
+      "category": "Co-op/Multiplayer",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal crossplay ps5": {
+      "category": "Co-op/Multiplayer",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:ps5"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal date": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:release date"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal date de sortie": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:release date"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal demo length": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:demo"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal demo multiplayer": {
+      "category": "Co-op/Multiplayer",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:demo"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal demo progress": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:demo"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal demo reddit": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:demo",
+        "google_suggest:后缀:reddit"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal demo review": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:demo"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal demo steam": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:demo"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal demo xbox": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:demo"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal demo русификатор": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:demo"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal emblem tier list": {
+      "category": "Tier List",
+      "pageType": "3 Tier List",
+      "sources": [
+        "google_suggest:后缀:tier list"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal female characters": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:characters"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal final boss": {
+      "category": "Other",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:boss"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal final boss music": {
+      "category": "Other",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:boss"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal first boss": {
+      "category": "Other",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:boss"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal full release date": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:release date"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal game": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:classes",
+        "google_suggest:后缀:items",
+        "google_suggest:后缀:map",
+        "google_suggest:探针:skills",
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal game characters": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal game console": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:探针:ps5"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal game engine": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal game key": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal game length": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal game pass xbox": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal game preview": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal game price": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:price"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal game ps5": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:品牌+game",
+        "google_suggest:探针:ps5"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal game reddit": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:reddit"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal game release date": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:release date",
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal game review": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal game steam": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal game time": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal game wiki": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal gamepass": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal gamepass release date": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:release date"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal gameplay": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:map",
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal gameplay trailer": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal hero tier list": {
+      "category": "Tier List",
+      "pageType": "3 Tier List",
+      "sources": [
+        "google_suggest:后缀:tier list"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal heroes wiki": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:wiki"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal how many bosses": {
+      "category": "How-to",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:boss"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal how to beat final boss": {
+      "category": "How-to",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:boss"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal how to play multiplayer": {
+      "category": "Co-op/Multiplayer",
+      "pageType": "2 Beginner",
+      "sources": [
+        "google_suggest:后缀:multiplayer"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal how to unlock characters": {
+      "category": "How-to",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal how to unlock characters reddit": {
+      "category": "How-to",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:reddit"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal items list": {
+      "category": "Weapons/Gear",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:items"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal map guide": {
+      "category": "Guide/Beginner",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:map"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal map icons": {
+      "category": "Other",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:map"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal map icons meaning": {
+      "category": "Other",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:map"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal map legend": {
+      "category": "Other",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:map"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal map symbols": {
+      "category": "Other",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:map"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal multiplayer bug": {
+      "category": "Co-op/Multiplayer",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:multiplayer"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal multiplayer demo": {
+      "category": "Co-op/Multiplayer",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:multiplayer"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": "tears of metal demo multiplayer"
+    },
+    "tears of metal multiplayer desync": {
+      "category": "Co-op/Multiplayer",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:multiplayer"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal multiplayer issues": {
+      "category": "Co-op/Multiplayer",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:multiplayer"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal multiplayer lag": {
+      "category": "Co-op/Multiplayer",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:multiplayer"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal multiplayer not working": {
+      "category": "Co-op/Multiplayer",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:multiplayer"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal multiplayer progression": {
+      "category": "Co-op/Multiplayer",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:multiplayer"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal multiplayer scaling": {
+      "category": "Co-op/Multiplayer",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:multiplayer"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal new characters": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:characters"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal new update": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:update"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal next update": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:update"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal ost": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:wiki"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal patch": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:update"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal patch notes": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:update"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal platforms": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:map",
+        "google_suggest:后缀:price",
+        "google_suggest:后缀:update",
+        "google_suggest:探针:skills"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal playable characters": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:characters"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal playstation": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:探针:ps5"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal price": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:codes",
+        "google_suggest:后缀:items",
+        "google_suggest:后缀:tier list",
+        "google_suggest:后缀:update"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal price history": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:price"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal price steam": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:price"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal ps4": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:探针:ps5"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal ps5": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:map",
+        "google_suggest:后缀:price",
+        "google_suggest:后缀:update",
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal ps5 reddit": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:reddit",
+        "google_suggest:探针:ps5"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal ps5 release": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:ps5"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal ps5 release date": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:ps5"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal reddit": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:wiki",
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal reddit review": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:reddit"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal release": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:price",
+        "google_suggest:后缀:update",
+        "google_suggest:后缀:wiki"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal release date": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:update",
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal release date ps5": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:release date"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": "tears of metal ps5 release date"
+    },
+    "tears of metal release date reddit": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:reddit",
+        "google_suggest:后缀:release date"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal release date time": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:release date"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal release date xbox": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:release date"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal release date xbox series x": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:release date"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal release price": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:price"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal review": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal road map": {
+      "category": "Other",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:map"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal roadmap": {
+      "category": "Info/发售平台",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal ruadh best build": {
+      "category": "Best/Ranking",
+      "pageType": "3 Tier List",
+      "sources": [
+        "google_suggest:后缀:best build"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal second boss": {
+      "category": "Other",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:boss"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal solo reddit": {
+      "category": "Co-op/Multiplayer",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:reddit"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal steam": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal steam charts": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal steam code": {
+      "category": "Codes",
+      "pageType": "1 Codes",
+      "sources": [
+        "google_suggest:后缀:codes",
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal steam deck": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal steam deck performance": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal steam deck reddit": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:reddit",
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal steam deck settings": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal steam key": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal steam price": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": "tears of metal price steam"
+    },
+    "tears of metal steam review": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal steamdb": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal studio": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:classes"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal switch": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:items",
+        "google_suggest:探针:skills"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal switch release date": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:release date"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal tem para ps5": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:ps5"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal tier list characters": {
+      "category": "Tier List",
+      "pageType": "3 Tier List",
+      "sources": [
+        "google_suggest:后缀:tier list"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": "tears of metal characters tier list"
+    },
+    "tears of metal tips reddit": {
+      "category": "Guide/Beginner",
+      "pageType": "2 Beginner",
+      "sources": [
+        "google_suggest:后缀:reddit"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal update today": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:update"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal upgrade": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:update"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal weapon tier list": {
+      "category": "Tier List",
+      "pageType": "3 Tier List",
+      "sources": [
+        "google_suggest:后缀:tier list"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal wiki": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal xbox": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal xbox console release date": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:release date"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal xbox price": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:price"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal xbox reddit": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:reddit"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal xbox release date": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": "tears of metal release date xbox"
+    },
+    "tears of metal xbox update": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:update"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "tears of metal.game.wiki": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:wiki"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": "tears of metal game wiki"
+    },
+    "tears of metals": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:items",
+        "google_suggest:后缀:price"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "will tears of metal be on ps5": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:ps5"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    }
+  },
+  "aliases": [],
+  "locale": "en",
+  "updatedAt": "2026-10-25T10:12:47.919Z"
+}

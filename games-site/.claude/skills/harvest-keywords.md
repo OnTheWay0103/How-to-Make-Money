@@ -1,132 +1,62 @@
 ---
 name: harvest-keywords
-description: 独立的关键词收割 Agent — 对指定游戏运行 Google Suggest 关键词调研，输出去噪分类报告
+description: 关键词采集 — 对指定游戏运行 Google Suggest 采集（脚本驱动），输出去噪分类 + 来源标记的关键词报告
 arguments:
   - name: gameName
-    description: 游戏名（如 "Dark Frontier"）
+    description: 游戏名，MUST 用官方写法（多词品牌带空格，如 "Tears of Metal"）
     required: true
-  - name: searchQuery
-    description: Google 搜索查询词（如 "dark frontier game"），用于区分同名游戏
+  - name: genre
+    description: 品类，决定后缀种子：rpg / survival / coop / sim / roguelite
     required: false
 ---
 
-# Harvest Keywords — 关键词收割 Agent
+# Harvest Keywords — 关键词采集
 
-> 独立 Agent，可被主管 Agent 或人工调用。
-
----
-
-## 输入
-
-| 参数 | 必填 | 说明 |
-|------|:--:|------|
-| `gameName` | ✅ | 目标游戏名 |
-| `searchQuery` | ❌ | 搜索词，默认 = gameName |
+> 规则：`docs/STRATEGY-挖词与词库.md`（第三节采集执行、第四节去噪、第五节沉淀）
+> 岗位：关键词研究员（`docs/agents/13` + `14`）
+> **采集器是脚本，不是手敲 curl**：`scripts/harvest-keywords.mjs`
 
 ---
 
-## 执行流程
+## 执行
 
-### Step 1: 搜索前缀轮询
-
-用以下 10 种前缀 + 搜索词调用 Google Suggest API：
-
-```
-PREFIXES = ["", "how to ", "best ", "guide ", "weapons ", "beginner ", "build ", "solo ", "co op ", "tier list "]
-```
-
-**API 端点**（无需 API Key）：
-```
-https://suggestqueries.google.com/complete/search?client=chrome&q={prefix}{query}
+```bash
+node scripts/harvest-keywords.mjs \
+  --game "{gameName}" \
+  --slug "{小写去空格}" \
+  --genre "{genre}" \
+  --write
 ```
 
-每次请求间隔 ≥ 4 秒避免限速。需代理访问（中国大陆）。
+可选项：
 
-### Step 2: 去噪
+| 参数 | 用途 |
+|---|---|
+| `--alias "アノマリス"` | 别名（中文名/日文名/缩写）。不传会把别名词误判成噪声 |
+| `--locale ja` | 日文市场（`hl=ja&gl=jp`）；默认 `en`（`hl=en&gl=us`） |
+| `--bare-only` | 只采裸词，快速判需求（约 1 次请求） |
+| `--seeds "a,b,c"` | 覆盖品类种子 |
+| `--json path.json` | 额外输出本次 JSON（调试用） |
 
-从结果中剔除以下类型：
-- 明显属于其他游戏的词（如 "spirit island solo" 不属于 SpiritVale）
-- 纯品牌/新闻搜索（如 "mistfall hunter review ign"）
-- 无搜索意图的词（如拼写错误、无意义词组）
-
-保留：
-- How-to 类（"how to X"）
-- Best/排行类（"best X"）
-- 攻略类（"X guide"）
-- 装备/武器类
-- 新手向（"beginner X"）
-- Build/配装类
-- 联机/合作类
-- Tier List 类
-
-### Step 3: 分类
-
-按搜索意图分类统计：
-
-| 分类 | 示例 |
-|------|------|
-| How-to | how to beat X, how to get X |
-| Best/Ranking | best build, best weapon |
-| Guide | beginner guide, X guide |
-| Weapons/Gear | best sword, X weapon list |
-| Build | tank build, dps build |
-| Co-op/Multiplayer | how to play with friends |
-| Tier List | X tier list |
-| Info | release date, price, platforms |
-
-### Step 4: 产出内容优先级
-
-根据关键词数量和类型，推荐内容优先级：
-
-```
-关键词 > 100 → 15 篇攻略
-关键词 50-100 → 10 篇攻略
-关键词 < 50 → 8 篇攻略
-同时标注 Top 5 最高优先级主题
-```
+脚本已内置：DNS 投毒取证 + `--resolve`、固定 `hl/gl`、锚定批次去重、失败计数、来源标记、
+近重复变体识别、`.data/{slug}.json` 跨次合并。
 
 ---
 
-## 输出格式
+## 完成标准
 
-保存到 `keyword-results/{GameName}.md`：
-
-```markdown
-# {GameName} — Google Suggest 关键词
-
-> 采集日期: {date} | 总词数: {N} | 噪声率: {X}%
-
-## 有效关键词
-
-### How-to 类 ({count})
-- keyword 1
-- keyword 2
-
-### Best/Ranking 类 ({count})
-- ...
-
-（所有分类）
-
-## 内容优先级建议
-
-1. {最高优先级主题}（{N} 个相关搜索词）
-2. {次高优先级主题}
-...
-
-## 噪声词（已剔除）
-- keyword (原因)
-```
+1. 报告头部 5 个数字齐全：原始 / 去重 / 有效 / 噪声率 / 品牌锚定率。
+2. **请求失败数 = 0**。有失败就重跑，MUST NOT 把失败当 0 词。
+3. 有效词 **≥20** 才能进入建站评分；不足则报「搜索需求低」并给复采日期。
+4. 每条有效词带 **来源** 和 **页型**。
+5. 噪声词逐条写原因（同名混淆 / 近音回退 / 无意义片段）。
 
 ---
 
-## 调用示例
+## MUST NOT
 
-主管 Agent 调用：
-```
-Invoke harvest-keywords skill with gameName="Dark Frontier" searchQuery="dark frontier game"
-```
-
-人工调用：
-```
-/harvest-keywords "Dark Frontier"
-```
+- MUST NOT 用无空格的品牌串作锚定词（`tearsofmetal` 会返回另一款游戏的词）。
+- MUST NOT 省略 `--write` 后手工拼报告（格式会漂移，`.data` 断档）。
+- MUST NOT 写「需代理访问」——本机是 DNS 投毒，脚本已用 `--resolve` 绕开。
+- MUST NOT 用「关键词 >100 → 15 篇攻略」这类按篇数的口径；内容量口径是**页型 + 词数**。
+- MUST NOT 把别名当噪声；先加 `--alias` 再重跑。
