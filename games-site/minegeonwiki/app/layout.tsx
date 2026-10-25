@@ -41,6 +41,17 @@ export default function RootLayout({
         <GoogleAnalytics />
         <Header />
         <main className="flex-1">{children}</main>
+        {/* ADSTERRA:HOME:START */}
+        <div className="max-w-3xl mx-auto px-4 pb-12">
+          {ADSTERRA_ZONES.guide.map((zone) => (
+            <AdsterraSlot
+              key={`home-${zone.name}`}
+              variant="home"
+              html={zone.html}
+            />
+          ))}
+        </div>
+        {/* ADSTERRA:HOME:END */}
         <Footer />
         {/* ADSTERRA:GLOBAL:START */}
         {ADSTERRA_ZONES.global.map((zone) => (

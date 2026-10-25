@@ -14,14 +14,18 @@
  *    which runs on every mount.
  * 2. The snippet's non-script markup (the `container-…` div) is still rendered
  *    on the server so it exists before the effect fires.
+ *
+ * `variant="home"` reuses the guide zone on the landing page only; it renders
+ * nothing on other routes so the banner is never shown twice.
  */
 
 import { useEffect, useRef } from 'react';
+import { usePathname } from 'next/navigation';
 
 interface AdsterraSlotProps {
   html: string;
   /** global: invisible body-level script. inline: labelled in-page slot. */
-  variant?: 'global' | 'inline' | 'guide';
+  variant?: 'global' | 'inline' | 'guide' | 'home';
   className?: string;
 }
 
@@ -58,9 +62,11 @@ export default function AdsterraSlot({
 }: AdsterraSlotProps) {
   const hostRef = useRef<HTMLDivElement>(null);
   const injected = useRef(false);
+  const pathname = usePathname();
+  const active = Boolean(html) && (variant !== 'home' || pathname === '/');
 
   useEffect(() => {
-    if (injected.current || !html) return;
+    if (!active || injected.current) return;
     injected.current = true;
 
     const { scripts } = splitSnippet(html);
@@ -82,9 +88,9 @@ export default function AdsterraSlot({
     return () => {
       nodes.forEach((el) => el.remove());
     };
-  }, [html]);
+  }, [active, html]);
 
-  if (!html) return null;
+  if (!active) return null;
 
   const { markup } = splitSnippet(html);
 
