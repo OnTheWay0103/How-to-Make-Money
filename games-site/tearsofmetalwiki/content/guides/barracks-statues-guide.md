@@ -12,6 +12,7 @@ related:
   - charms-guide
   - healing-guide
   - patch-notes
+  - aodh-the-vigil-unlock-guide
 sources:
   - tier: "Official"
     text: "The Barracks has numbered Companion upgrade tiers, and their prerequisites were relaxed — Paper Cult, \"New Patch - Big Bug Fixing Pass\", September 8, 2026: \"The Companion x3 Barracks upgrade now only requires Companion x2, rather than also requiring an upgrade from the previous row.\" The same patch refers to \"an Archer Ally Command\" and a \"Companion\" that must appear in the Codex. (store.steampowered.com/news/app/1913120)"
@@ -107,7 +108,7 @@ The August 13, 2026 patch (v0.12.58540) added a Companion by name, and the devel
 
 > *"Aodh, the Vigil, an old scholar hauling a book heavier than the armor of most men. Once he's convinced to march with you, he keeps watch when a fight breaks out. The first blows never quite land the way the enemy intends!"*
 
-That is an official description of a **damage-mitigation opening**, not a stat block: the first enemy blows in a fight are blunted. Paper Cult has not published his unlock condition, so treat community unlock routes as unverified *[Unconfirmed]*. The September 8 fix *"Fixed a Companion not appearing correctly in the Codex"* is also worth knowing — if a Companion you unlocked looked missing from your collection, that was a real bug.
+That is an official description of a **damage-mitigation opening**, not a stat block: the first enemy blows in a fight are blunted. Paper Cult has not published his unlock condition; the community-reported route is laid out with its evidence in the [Aodh the Vigil Unlock Guide](/guides/aodh-the-vigil-unlock-guide) *[Unconfirmed]*. The September 8 fix *"Fixed a Companion not appearing correctly in the Codex"* is also worth knowing — if a Companion you unlocked looked missing from your collection, that was a real bug.
 
 ---
 

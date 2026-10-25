@@ -12,6 +12,7 @@ related:
   - progression-walkthrough
   - heroes-tier-list
   - co-op-guide
+  - aodh-the-vigil-unlock-guide
 sources:
   - tier: "Official"
     text: "Your army is a Scottish battalion that gains permanent skills between campaigns — Paper Cult's Steam store page for Tears of Metal (app 1913120, checked September 16, 2026): \"Fight solo or up to 4-player co-op to reclaim your island alongside your Scottish battalion.\" and \"IMPROVE YOUR SOLDIERS — Your soldiers gain permanent skills between campaigns. Recruit, upgrade and fight alongside them as they become essential assets in your upcoming battles.\""
@@ -113,7 +114,7 @@ On August 7, 2026 the developers teased an addition, and on August 13, 2026 it s
 
 > *"Aodh, the Vigil, an old scholar hauling a book heavier than the armor of most men. Once he's convinced to march with you, he keeps watch when a fight breaks out. The first blows never quite land the way the enemy intends!"*
 
-That is an official description of a **damage-mitigation opening** — the first enemy blows in a fight are blunted — not a stat block. Paper Cult has not published his unlock condition, so treat any specific unlock route you read as unverified *[Unconfirmed]*.
+That is an official description of a **damage-mitigation opening** — the first enemy blows in a fight are blunted — not a stat block. Paper Cult has not published his unlock condition. The player-reported route (Brienne Ironleg, Act 2, Blackrock Vestiges) is collected and labelled separately in the [Aodh the Vigil Unlock Guide](/guides/aodh-the-vigil-unlock-guide); it is community evidence, not a developer statement *[Unconfirmed]*.
 
 The patch notes for that build list him as the game's **first named companion**, which is the single most important fact for anyone hunting a companion list: the roster started small and has been growing. The September 8, 2026 patch reinforces how early this system still is — it fixed a Companion *"not appearing correctly in the Codex"* and relaxed the Barracks Companion tier prerequisite, both of which are changes you make to a system that is still filling out.
 

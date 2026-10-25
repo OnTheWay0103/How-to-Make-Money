@@ -10,6 +10,7 @@ related:
   - class-tier-list
   - advanced-classes-guide
   - builds-guide
+  - multistrike-vs-auto-attack-chain-guide
 ---
 
 ## Gunslinger Overview

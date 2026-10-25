@@ -10,6 +10,7 @@ related:
   - classes-guide
   - crafting-guide
   - trading-market-guide
+  - multistrike-vs-auto-attack-chain-guide
 sources:
   - tier: "Community"
     text: "Weapon scaling details, gear score values, and per-class best-in-slot lists are community-reported EA snapshots"

@@ -11,6 +11,7 @@ related:
   - patch-notes
   - co-op-guide
   - best-builds
+  - aodh-the-vigil-unlock-guide
 sources:
   - tier: "Official"
     text: "Wallace is the default hero; Ruadh Stonecrusher unlocks by defeating the Banshee (per the July 24, 2026 patch); Brienne unlocks through her dedicated quest chain — patch notes and official announcements"
