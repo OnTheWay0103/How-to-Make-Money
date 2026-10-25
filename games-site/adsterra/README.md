@@ -91,6 +91,8 @@ node scripts/adsterra-sync.mjs --feishu '<URL>' --apply --build --deploy
 - 在每个站点生成 `lib/adsterra-zones.ts`（自动生成，勿手改）
 - 在每个站点生成 `components/AdsterraSlot.tsx`
 - 在 `app/layout.tsx` 用 `ADSTERRA:GLOBAL` 标记块注入全站脚本
+- 在 `app/layout.tsx` 用 `ADSTERRA:HOME` 标记块注入**首页广告**：复用 `guide` 广告位，组件按
+  `pathname === '/'` 才渲染，其他路由返回 null（2026-10-25 起，首页不再只有 Social Bar）
 - 在 `components/GuideLayout.tsx` 用 `ADSTERRA:GUIDE` 标记块注入攻略页广告位
 - 重复运行是幂等的（按标记块替换，不会重复插入）
 - 某行从 `ready` 改回 `pending` 后重跑，对应广告位和 import 会被移除

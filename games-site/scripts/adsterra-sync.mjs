@@ -219,9 +219,26 @@ const SLOT_MARKERS = {
     end: '{/* ADSTERRA:GUIDE:END */}',
     anchor: '{/* Verification */}',
   },
+  home: {
+    start: '{/* ADSTERRA:HOME:START */}',
+    end: '{/* ADSTERRA:HOME:END */}',
+    anchor: '<Footer />',
+  },
 };
 
 function blockFor(slot, indent) {
+  // 首页复用 guide 广告位：layout 里按 pathname === '/' 才渲染，其他路由返回 null。
+  if (slot === 'home') {
+    return [
+      `${indent}{/* ADSTERRA:HOME:START */}`,
+      `${indent}<div className="max-w-3xl mx-auto px-4 pb-12">`,
+      `${indent}  {ADSTERRA_ZONES.guide.map((zone) => (`,
+      `${indent}    <AdsterraSlot key={\`home-\${zone.name}\`} variant="home" html={zone.html} />`,
+      `${indent}  ))}`,
+      `${indent}</div>`,
+      `${indent}{/* ADSTERRA:HOME:END */}`,
+    ].join('\n');
+  }
   const variant = slot === 'global' ? ' variant="global"' : '';
   return [
     `${indent}${SLOT_MARKERS[slot].start}`,
@@ -397,18 +414,25 @@ for (const [siteDir, zones] of bySite) {
   // 2) generated slot component
   files.push({ file: slotFile, next: template });
 
-  // 3) layout.tsx — global slot only
+  // 3) layout.tsx — global slot + 首页复用 guide 位
   let layout = fs.readFileSync(layoutFile, 'utf8');
   let nextLayout = applySlotBlock(layout, 'global', zones.global.length > 0);
   if (nextLayout === null) {
     failures.push(`${siteDir}: layout.tsx 找不到 </body>`);
     continue;
   }
-  nextLayout = syncImports(
+  const nextWithHome = applySlotBlock(
     nextLayout,
-    zones.global.length > 0,
-    zones.global.length > 0,
+    'home',
+    zones.guide.length > 0,
   );
+  if (nextWithHome === null) {
+    failures.push(`${siteDir}: layout.tsx 找不到 <Footer />`);
+    continue;
+  }
+  nextLayout = nextWithHome;
+  const layoutNeedsAds = zones.global.length > 0 || zones.guide.length > 0;
+  nextLayout = syncImports(nextLayout, layoutNeedsAds, layoutNeedsAds);
   files.push({ file: layoutFile, next: nextLayout });
 
   // 4) GuideLayout.tsx — guide slot only
