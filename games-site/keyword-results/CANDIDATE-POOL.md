@@ -1,7 +1,8 @@
 # 候选游戏池
 
 > 侦察 Agent 发现的新游戏候选。主管 Agent 读取此文件做建站决策。
-> 最后更新: **2026-10-24**（侦察 DISCOVERY-10/24：4 源搜索新增 5 候选 #56–#60；Stormforge 17 分、Draemony 16 分，均完成 EN/ZH/JA 三语 wiki 检查；Chained Beasts 补充上线一周后的关键词复核。详见 `keyword-results/discovery-2026-10-24.md`）
+> 最后更新: **2026-10-25**（侦察 DISCOVERY-10/25：4 主源 + 3 佐证源搜索新增 7 候选 #61–#67；Hela 16 分、UnderMire 15 分，均完成 EN/ZH/JA 三语 wiki 检查；本轮不建站。详见 `keyword-results/discovery-2026-10-25.md`）
+> 上一轮: 2026-10-24（侦察 DISCOVERY-10/24：4 源搜索新增 5 候选 #56–#60；Chained Beasts 补充关键词复核。详见 `keyword-results/discovery-2026-10-24.md`）
 > 位置：`keyword-results/CANDIDATE-POOL.md` — 随 git 同步，跨机器共享
 
 ## 候选清单
@@ -64,6 +65,13 @@
 | 58 | Castaway Slime | 4 人 co-op 生存 RPG（AZS，原名 Country Slime） | 13 | 10/30–11/10 测试，无发售日 | ❌ 无专属 wiki（GameFAQs 的 Castaway 是另一款游戏） | 10/24 | 观望 — 饥饿/口渴/温度/理智 + guard 战斗 + 8 技能槽；题材有趣但尚无发售日，等定档 |
 | 59 | Sacrumagus | 多人生存恐怖 + 复古 ARPG（Cannibal Capybaras/ABTEL） | 13 | 11/30 EA | ❌ 无（EN/ZH/JA 未检索到；仅俄语 mmo13 概览） | 10/24 | 观望 — 6 学院 House、co-op/PvP、单机可玩；小众，内容量待验证 |
 | 60 | Under Canopies | 非暴力森林生存建造（Novemtails/Assemble） | 12 | 10/23 EA | ❌ 无（仅 1 篇日文早期攻略博客） | 10/24 | 观望 — 钓鱼/养蜂/鸡羊/ cabin 装饰；无战斗，攻略面偏窄，低于建站阈值 |
+| 61 | **Hela: of Mice & Magic**（鼠鼠奇旅） | 3D 开放世界合作冒险（无战斗，1–4 人；Windup/Knights Peak） | **16** | 12/1 1.0 | ❌ 无（EN/ZH/JA；仅 PCGamingWiki 技术页 + 1 篇中文玩法文） | 10/25 | **推荐（需主管决策）** — 全球愿望单 #46（GaugeDB 10/24，无具体数）、Xbox Game Pass 首日、demo 已上；三语零组织化 wiki；但无战斗、系统深度中等 → 建议 8–10 篇（发售/平台/蛙包/酿药/灰影/联机/解谜），标题锚定 `Hela of Mice and Magic` |
+| 62 | **UnderMire** | 手绘第一人称 Co-op Roguelite 恐怖（1–4 人；Table Knight） | **15** | 11/13 1.0 | ❌ 无（EN/ZH/JA；UnderMine 同名污染） | 10/25 | **推荐/观望（需主管决策）** — 36.3K wishlist（第三方模型估算，#1737）、开发商称 10 月破 30K；SMUSH 合成/恐惧值/4 角色；零 wiki，但 demo 未进 Next Fest Top20、`UnderMine` 同名分流严重 → 若建 8 篇，锚定 `UnderMire co-op` |
+| 63 | **Escape from Playtime** | 2–8 人 Co-op 提取恐怖（Poppy Playtime 宇宙；Mob Entertainment） | **14** | 10/21 EA | ❌ 无专属（EN/ZH/JA；games.gg/17173/gamersky 攻略已铺） | 10/25 | 观望 — 4 天 1,378 评测 65% Mixed；IP 需求强、8 角色/道具/敌人可写，但攻略站已密集、口碑 mixed，非零 wiki 打法 |
+| 64 | **ZED ZONE / 隔离区** | 俯视角丧尸生存建造（1–4 人联机 1.0；Leven Liu/INDIECN） | **14** | 11/6 1.0（中文媒体；Steam 页仍显示 2023 EA，[待确认]） | ⚠️ EN Fandom 已有；ZH B站/3DM/百度百科/贴吧；JA 仅个人攻略站 | 10/25 | 观望 — 300K wishlist（中文媒体）、1.0 加 4 人联机/灾变纪元；但 EN Fandom 与中文攻略成熟，英日搜索需求弱，不适合零 wiki 打法 |
+| 65 | **Mycopunk** | 4 人 Co-op 真菌 FPS Looter（Pigeons at Play/Devolver） | **13** | 10/20 1.0 | ⚠️ EN Fandom 已有（mycopunk.fandom）；ZH B站视频；JA 个人攻略站 | 10/25 | 观望 — 1.0 后英评 3,231 条 91%、近期 81%（338）；5 职业/改枪/隐藏武器可写，但 Fandom 已存在、1.0 窗口已过 5 天 |
+| 66 | **Fearwoods**（恐惧林地） | 3 人 Co-op 生存恐怖（Fearwoods/GrabTheGames） | **13** | 11/26 EA | ❌ 无（EN/ZH/JA；仅 PCGamingWiki 技术 stub） | 10/25 | 观望 — wishlist ~12.3K（Raijin 10/22）至 ~18.4K（第三方中文页）[待确认]；三语零 wiki，但 EA 仅 1 图/5 谜题、日期多次变动，内容量待验证 |
+| 67 | **Blood Covenant** | 1–4 人 Co-op 恐怖清洁 Job Sim（DelaJea Press） | **13** | Steam 页 2027-01-05；媒体仍写 11/1–2 [待确认] | ❌ 无（EN/ZH/JA） | 10/25 | 观望 — 三语零 wiki、11 语言、demo 已出；但无公开 wishlist、发售日冲突（疑延期），窗口不明，等官方定档 |
 
 > **Wiki 列说明**：`❌ 无` = 本次已用英文（`{game} wiki fandom wiki.gg`）与中文/日文（`{game} 攻略 wiki 灰机 bilibili wikiwiki atwiki`）两组查询，**未检索到专属 wiki 页**；不等于绝对不存在。逐候选证据见 `keyword-results/discovery-2026-10-23.md` 第三节。
 
