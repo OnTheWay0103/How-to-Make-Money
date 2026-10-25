@@ -3,7 +3,7 @@
  * 把 30 天 PV 和环比写进飞书多维表格的**当月站点台账表**。
  *
  *   数据来源：dashboard `/api/traffic`（GA4 聚合，见 scripts/lib/dashboard-traffic.mjs）
- *   目标表：  游戏站交付看板 → 月度台账表（表名 = 年月，如 `2026-10`）
+ *   目标表：  游戏站交付看板 → 月度台账表（表名 = `站点台账` + 年月，如 `站点台账2026-10`）
  *   新月份的表：node scripts/roll-month-ledger.mjs --month 2026-11 --apply
  *
  * 用法：

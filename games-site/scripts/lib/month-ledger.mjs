@@ -2,12 +2,10 @@
 /**
  * 站点台账的月度表约定。
  *
- * 2026-10-25 起，站点台账按**月**分表，表名就是年月（`2026-11`、`2026-12`…）。
+ * 2026-10-25 起，站点台账按**月**分表，表名 = `站点台账` + 年月：
+ * `站点台账2026-10`、`站点台账2026-11`……
  * 每月一张全量快照（所有站点 + 当月 PV/环比/分级），便于按月对比。
  * 建新月份的表：`node scripts/roll-month-ledger.mjs --month 2026-11`
- *
- * 历史：`站点台账`（tblTDpkA9odla8No）**名字和数据都保留不动**，它就是 2026-10
- * 那一份记录；从 2026-11 起才另建 `YYYY-MM` 表。
  */
 
 import { execFileSync } from 'node:child_process';
@@ -15,8 +13,23 @@ import { execFileSync } from 'node:child_process';
 export const BASE_TOKEN = 'Zl7cb6Bz9ajsPdsQRbRci1QZnkg';
 export const MONTH_RE = /^\d{4}-\d{2}$/;
 
-/** 老台账表：没有月度表的月份映射到它（目前只有 2026-10）。 */
-export const LEGACY_MONTH_TABLES = { '2026-10': '站点台账' };
+/** 月度表名前缀。 */
+export const LEDGER_PREFIX = '站点台账';
+
+/** 月度表名：`站点台账2026-11`。 */
+export const ledgerTableName = (month) => `${LEDGER_PREFIX}${month}`;
+
+/** 月度表名 → 月份；不是月度表返回 null。 */
+export function monthOfTable(name) {
+  if (!name.startsWith(LEDGER_PREFIX)) return null;
+  const rest = name.slice(LEDGER_PREFIX.length);
+  return MONTH_RE.test(rest) ? rest : null;
+}
+
+/** 历史表名兼容（改名前后都可能遇到）。 */
+export const LEGACY_MONTH_TABLES = {
+  '2026-10': ['站点台账', '站点台账 2026-10'],
+};
 
 /** 台账字段定义（建月度表时用；顺序即列顺序，首个字段是主字段）。 */
 export const LEDGER_FIELDS = [
@@ -87,25 +100,25 @@ export function resolveLedgerTable({ base = BASE_TOKEN, table, month, cwd } = {}
     return hit;
   }
 
-  const name = month ?? monthName();
+  const name = ledgerTableName(month ?? monthName());
   const hit = tables.find((t) => t.name === name);
   if (hit) return hit;
 
-  // 2026-10 及以前的记录在老的「站点台账」表里，表名不改
-  const legacy = LEGACY_MONTH_TABLES[name];
-  if (legacy) {
-    const old = tables.find((t) => t.name === legacy);
-    if (old) return old;
+  // 历史表名（改名过渡期）
+  const m = month ?? monthName();
+  for (const old of LEGACY_MONTH_TABLES[m] ?? []) {
+    const legacy = tables.find((t) => t.name === old);
+    if (legacy) return legacy;
   }
 
   const months = tables
-    .filter((t) => MONTH_RE.test(t.name))
-    .map((t) => t.name)
+    .map((t) => monthOfTable(t.name))
+    .filter(Boolean)
     .sort();
   throw new Error(
     `没有「${name}」这张月度台账表。\n` +
-      `先建本月表：node scripts/roll-month-ledger.mjs --month ${name}\n` +
-      `现有月度表：${months.length ? months.join('、') : `（无，2026-10 在「${LEGACY_MONTH_TABLES['2026-10']}」）`}`,
+      `先建本月表：node scripts/roll-month-ledger.mjs --month ${m}\n` +
+      `现有月度表：${months.length ? months.map(ledgerTableName).join('、') : '（无）'}`,
   );
 }
 

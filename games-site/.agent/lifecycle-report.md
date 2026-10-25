@@ -1,10 +1,10 @@
 # 站点生命周期报告
 
-生成时间：2026-10-25 08:49 UTC
-数据源：`dashboard-pied-six-31.vercel.app/api/traffic`（近 30 天 GA4）+ 台账「站点台账」（上线日）
+生成时间：2026-10-25 09:03 UTC
+数据源：`dashboard-pied-six-31.vercel.app/api/traffic`（近 30 天 GA4）+ 台账「站点台账2026-10」（上线日）
 规则：`docs/STRATEGY-生命周期与止损.md`
 
-总计 **45** 站，PV(30d) 合计 **14,106**。
+总计 **45** 站，PV(30d) 合计 **14,108**。
 
 | 分级 | 站点数 | 含义 |
 |---|---:|---|
@@ -24,7 +24,7 @@
 | shiftatmidnightwiki | 2026-07-28 | 88 | 1109 | -38% | 加码 | PV 1109 ≥ 300 |
 | themoundwiki | 2026-07-10 | 106 | 795 | -36% | 加码 | PV 795 ≥ 300 |
 | spiritvalewiki | 2026-07-11 | 105 | 792 | -36% | 加码 | PV 792 ≥ 300 |
-| moonlightpeakswiki | 2026-07-30 | 86 | 785 | -41% | 加码 | PV 785 ≥ 300 |
+| moonlightpeakswiki | 2026-07-30 | 86 | 787 | -41% | 加码 | PV 787 ≥ 300 |
 | tearsofmetalwiki | 2026-07-22 | 94 | 705 | -41% | 加码 | PV 705 ≥ 300 |
 | gotownwiki | 2026-07-31 | 85 | 569 | -1% | 加码 | PV 569 ≥ 300 |
 | delveriumwiki | 2026-08-01 | 84 | 452 | +89% | 加码 | PV 452 ≥ 300 |
@@ -82,7 +82,7 @@
 - **shiftatmidnightwiki** — PV 1109，环比 -38%
 - **themoundwiki** — PV 795，环比 -36%
 - **spiritvalewiki** — PV 792，环比 -36%
-- **moonlightpeakswiki** — PV 785，环比 -41%
+- **moonlightpeakswiki** — PV 787，环比 -41%
 - **tearsofmetalwiki** — PV 705，环比 -41%
 - **gotownwiki** — PV 569，环比 -1%
 - **delveriumwiki** — PV 452，环比 +89%

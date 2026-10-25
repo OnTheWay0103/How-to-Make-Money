@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * 建下个月的站点台账表（表名 = 年月，如 `2026-11`）。
+ * 建下个月的站点台账表（表名 = `站点台账` + 年月，如 `站点台账2026-11`）。
  *
  * 做法：以最近的月度表为模板，复制表结构 + 全部站点行；
  * `PV(30d)` / `PV 环比(%)` 不复制（由 sync-site-ledger.mjs 重新算），
@@ -23,8 +23,10 @@ import {
   MONTH_RE,
   cellScalar,
   lark,
+  ledgerTableName,
   listTables,
   monthName,
+  monthOfTable,
 } from './lib/month-ledger.mjs';
 
 const REPO = path.resolve(import.meta.dirname, '..');
@@ -85,15 +87,16 @@ if (!MONTH_RE.test(MONTH)) {
   process.exit(1);
 }
 
+const TARGET = ledgerTableName(MONTH);
 const tables = listTables(BASE_TOKEN, REPO);
-if (tables.some((t) => t.name === MONTH)) {
-  console.error(`「${MONTH}」已存在（${tables.find((t) => t.name === MONTH).id}），不覆盖。`);
+if (tables.some((t) => t.name === TARGET)) {
+  console.error(`「${TARGET}」已存在（${tables.find((t) => t.name === TARGET).id}），不覆盖。`);
   process.exit(1);
 }
 
 const months = tables
-  .filter((t) => MONTH_RE.test(t.name))
-  .sort((a, b) => a.name.localeCompare(b.name));
+  .filter((t) => monthOfTable(t.name))
+  .sort((a, b) => monthOfTable(a.name).localeCompare(monthOfTable(b.name)));
 
 let source;
 if (FROM) {
@@ -115,7 +118,7 @@ if (FROM) {
 
 const rows = readRecords(source.id);
 
-console.log(`新表：${MONTH}`);
+console.log(`新表：${TARGET}`);
 console.log(`模板：${source.name}（${source.id}，${rows.length} 行）`);
 console.log(`不带过来的字段：${MONTHLY_FIELDS.join('、')}（由 sync-site-ledger.mjs 重算）`);
 console.log(`字段：${LEDGER_FIELDS.map((f) => f.name).join(' / ')}`);
@@ -134,7 +137,7 @@ const created = lark(
     '--base-token',
     BASE_TOKEN,
     '--name',
-    MONTH,
+    TARGET,
     '--fields',
     JSON.stringify(LEDGER_FIELDS),
   ],
@@ -143,7 +146,7 @@ const created = lark(
 
 const tableId = created.table_id ?? created.table?.table_id ?? created.id;
 if (!tableId) throw new Error(`建表返回里没有 table_id：${JSON.stringify(created)}`);
-console.log(`已建表：${MONTH}（${tableId}）`);
+console.log(`已建表：${TARGET}（${tableId}）`);
 
 for (let i = 0; i < rows.length; i += 200) {
   lark(
@@ -161,4 +164,4 @@ for (let i = 0; i < rows.length; i += 200) {
   );
 }
 
-console.log(`完成：${rows.length} 行已复制到「${MONTH}」，PV/环比留空待重算。`);
+console.log(`完成：${rows.length} 行已复制到「${TARGET}」，PV/环比留空待重算。`);

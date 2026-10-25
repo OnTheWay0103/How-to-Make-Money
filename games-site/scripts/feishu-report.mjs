@@ -46,7 +46,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
-import { listTables, monthName } from './lib/month-ledger.mjs';
+import { resolveLedgerTable } from './lib/month-ledger.mjs';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const BASE_TOKEN = process.env.FEISHU_BASE_TOKEN || 'Zl7cb6Bz9ajsPdsQRbRci1QZnkg';
@@ -64,16 +64,9 @@ const TABLES = {
  */
 function sitesTableId() {
   if (TABLES.sites) return TABLES.sites;
-  const month = monthName();
-  const hit = listTables(BASE_TOKEN, ROOT).find((t) => t.name === month);
-  if (!hit) {
-    throw new Error(
-      `没有「${month}」这张月度台账表。先跑 ` +
-        `node scripts/roll-month-ledger.mjs --month ${month} --apply`,
-    );
-  }
-  TABLES.sites = hit.id;
-  return hit.id;
+  const t = resolveLedgerTable({ base: BASE_TOKEN, cwd: ROOT });
+  TABLES.sites = t.id;
+  return t.id;
 }
 const AS = process.env.FEISHU_AS || 'user';
 

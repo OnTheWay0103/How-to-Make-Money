@@ -3,7 +3,7 @@
  * 站点生命周期分级：A 加码 / B 维持 / C 观察中 / D 不再维护。
  *
  *   规则文档：docs/STRATEGY-生命周期与止损.md
- *   数据来源：dashboard `/api/traffic`（30 天 GA4）+ 当月站点台账（表名 = 年月）
+ *   数据来源：dashboard `/api/traffic`（30 天 GA4）+ 当月站点台账（表名 = `站点台账` + 年月）
  *   输出：    .agent/lifecycle-report.md
  *   可选：    --apply 把分级写回台账的「生命周期状态」字段
  *
