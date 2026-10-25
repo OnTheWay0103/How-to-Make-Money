@@ -1,6 +1,6 @@
 ---
-title: "Aodh the Vigil in Tears of Metal — How Players Actually Unlock the Third Companion"
-description: "Aodh the Vigil was added in the August 13, 2026 patch, but Paper Cult never published his unlock route. This guide separates what the developers confirmed from the community route players report works: who to run, which act, which area, and why the event keeps failing to appear."
+title: "Tears of Metal: How to Unlock Aodh the Vigil"
+description: "Aodh the Vigil shipped in the August 13, 2026 patch with no official unlock guide. This is the community route that works, and why the event fails to appear."
 category: "Mechanics"
 version: "Early Access"
 updated: "2026-10-25"

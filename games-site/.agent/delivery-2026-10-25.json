@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-25",
+  "note": "补录：10-25 自动跑在 08:58 提前退出，收尾同步未执行；本文件于 10-26 按 git 提交与部署日志回填",
+  "rows": [
+    {
+      "site": "sephiriawiki",
+      "types": ["扩充", "部署"],
+      "guides": ["stats-explained-guide"],
+      "qa": "PASS",
+      "url": "https://sephiriawiki.vercel.app/guides/stats-explained-guide",
+      "verify": "200",
+      "words": 2378
+    },
+    {
+      "site": "themoundwiki",
+      "types": ["扩充", "部署"],
+      "guides": ["lost-survivors-rescue-guide"],
+      "qa": "PASS",
+      "url": "https://themoundwiki.vercel.app/guides/lost-survivors-rescue-guide",
+      "verify": "200",
+      "words": 2088
+    },
+    {
+      "site": "grainrotwiki",
+      "types": ["扩充", "部署"],
+      "guides": ["how-to-repair-weapons-guide"],
+      "qa": "PASS",
+      "url": "https://grainrotwiki.vercel.app/guides/how-to-repair-weapons-guide",
+      "verify": "200",
+      "words": 2036
+    },
+    {
+      "site": "spiritvalewiki",
+      "types": ["扩充", "部署", "修正"],
+      "guides": ["multistrike-vs-auto-attack-chain-guide"],
+      "qa": "PASS",
+      "url": "https://spiritvalewiki.vercel.app/guides/multistrike-vs-auto-attack-chain-guide",
+      "verify": "200",
+      "words": 2044
+    },
+    {
+      "site": "tearsofmetalwiki",
+      "types": ["扩充", "部署", "修正"],
+      "guides": ["aodh-the-vigil-unlock-guide"],
+      "qa": "PASS",
+      "url": "https://tearsofmetalwiki.vercel.app/guides/aodh-the-vigil-unlock-guide",
+      "verify": "200",
+      "words": 1917
+    }
+  ]
+}

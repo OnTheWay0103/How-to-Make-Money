@@ -1,10 +1,10 @@
 # 词库索引
 
-> 生成时间：2026-10-25 13:09 UTC
+> 生成时间：2026-10-25 23:47 UTC
 > 生成脚本：`node scripts/keyword-index.mjs` —— 不要手改本文件
 > 规则：`docs/STRATEGY-挖词与词库.md`
 
-共 **58** 份游戏词库（新格式 1，旧格式 57），已建站 **31** 站。
+共 **60** 份游戏词库（新格式 3，旧格式 57），已建站 **31** 站。
 
 > 新格式以 `slug == 站点目录名去掉 wiki` 精确匹配；旧格式只能按文件名猜，「未建站」可能有漏配。
 
@@ -15,7 +15,7 @@
 
 | 渠道 | 贡献词数 | 独占词数 |
 |---|---:|---:|
-| google_suggest | 164 | 164 |
+| google_suggest | 208 | 208 |
 
 ## 采集锚定产出
 
@@ -23,32 +23,35 @@
 
 | 锚定批次 | 贡献词数 | 独占词数 |
 |---|---:|---:|
+| 裸词 | 31 | 21 |
+| 后缀:release date | 24 | 19 |
+| 品牌+game | 23 | 19 |
+| 探针:ps5 | 17 | 12 |
 | 后缀:characters | 15 | 13 |
-| 裸词 | 15 | 10 |
-| 品牌+game | 15 | 12 |
-| 后缀:release date | 14 | 12 |
+| 后缀:reddit | 14 | 9 |
+| 后缀:price | 13 | 8 |
 | 后缀:boss | 12 | 12 |
-| 后缀:reddit | 12 | 8 |
 | 后缀:update | 12 | 7 |
-| 探针:ps5 | 11 | 9 |
-| 后缀:multiplayer | 10 | 10 |
-| 后缀:price | 10 | 6 |
+| 探针:steam | 11 | 8 |
+| 后缀:multiplayer | 11 | 11 |
+| 后缀:demo | 10 | 9 |
+| 后缀:wiki | 10 | 5 |
 | 后缀:map | 10 | 6 |
-| 探针:steam | 10 | 8 |
-| 后缀:demo | 9 | 8 |
-| 后缀:wiki | 8 | 3 |
 | 后缀:tier list | 8 | 7 |
 | 后缀:items | 7 | 3 |
 | 后缀:classes | 6 | 3 |
 | 探针:skills | 5 | 2 |
 | 后缀:best build | 3 | 3 |
 | 后缀:codes | 3 | 1 |
+| 后缀:crossplay | 2 | 1 |
 
 ## 按游戏
 
 | 游戏 | slug | 有效词 | 最后采集 | 来源 | 页型覆盖 | 站点 | 格式 |
 |---|---|---:|---|---|---|---|---|
+| Hela: of Mice & Magic | hela | 42 | 2026-10-25 | google_suggest:50（裸词 15、后缀:release date 10、品牌+game 7） | 5 FAQ / 待定 | 未建站 | new |
 | Tears of Metal | tearsofmetal | 164 | 2026-10-25 | google_suggest:195（后缀:characters 15、裸词 15、品牌+game 15） | 1 Codes / 2 Beginner / 3 Tier List / 4 核心机制/Boss / 5 FAQ / 待定 | tearsofmetalwiki | new |
+| UnderMire | undermire | 2 | 2026-10-25 | google_suggest:2（裸词 1、品牌+game 1） | 待定 | 未建站 | new |
 | ANOMALITH | ANOMALITH | 28 | 2026-10-25 | — | — | 未建站 | legacy-meta |
 | Draemony | Draemony | 0 | 2026-10-25 | — | — | 未建站 | legacy-meta |
 | Chained Beasts | Chained-Beasts | 29 | 2026-10-24 | — | — | 未建站 | legacy-meta |

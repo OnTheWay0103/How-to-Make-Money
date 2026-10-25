@@ -1,6 +1,6 @@
 ---
-title: "Multistrike vs Auto Attack Chain in SpiritVale — Why Extra Hits Don't Multiply Your Damage"
-description: "Multistrike and Auto Attack Chain are two different hit-count stats in SpiritVale. One adds hits to the same attack, the other sends basic attacks at nearby enemies. Here is what each one rolls on, which skills actually scale with Multistrike, and which builds should skip it."
+title: "Multistrike vs Auto Attack Chain in SpiritVale Explained"
+description: "Multistrike adds hits to one attack; Auto Attack Chain sends basics at nearby enemies. What each stat rolls on, which skills scale with it, and when to skip it."
 category: "Guides"
 version: "EA"
 updated: "2026-10-25"

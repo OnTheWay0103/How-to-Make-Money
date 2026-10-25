@@ -1,0 +1,456 @@
+{
+  "slug": "hela",
+  "game": "Hela: of Mice & Magic",
+  "runs": [
+    {
+      "at": "2026-10-25T23:43:03.970Z",
+      "locale": "en",
+      "requests": 22,
+      "failures": 0,
+      "raw": 131,
+      "dedup": 98,
+      "valid": 42,
+      "variants": 2,
+      "noise": 56,
+      "noiseRate": 0.5714,
+      "anchorRate": 0.4286,
+      "newKeywords": 42
+    }
+  ],
+  "keywords": {
+    "games like hela of mice and magic": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "hela of mice & magic": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "hela of mice & magic cross platform": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:crossplay"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "hela of mice & magic crossplay": {
+      "category": "Co-op/Multiplayer",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:crossplay",
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "hela of mice & magic date": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:release date"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "hela of mice & magic date de sortie": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:release date"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "hela of mice & magic gameplay": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "hela of mice & magic price": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:price"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "hela of mice & magic steam": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:steam",
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "hela of mice & magic switch": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "hela of mice and magic demo": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:demo"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "hela of mice and magic game": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "hela of mice and magic game pass": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "hela of mice and magic game release date": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:release date",
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "hela of mice and magic multiplayer": {
+      "category": "Co-op/Multiplayer",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:multiplayer"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "hela of mice and magic nintendo switch": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "hela of mice and magic platforms": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "hela of mice and magic price": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "hela of mice and magic ps4 release date": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:release date"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "hela of mice and magic ps5": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:ps5",
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "hela of mice and magic ps5 preis": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:ps5"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "hela of mice and magic ps5 price": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:price",
+        "google_suggest:探针:ps5"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "hela of mice and magic ps5 release": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:ps5"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "hela of mice and magic ps5 release date": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:ps5",
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "hela of mice and magic ps5 split screen": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:ps5"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "hela of mice and magic reddit": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:reddit"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "hela of mice and magic release date": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:release date",
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "hela of mice and magic release date ps5": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:release date"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": "hela of mice and magic ps5 release date"
+    },
+    "hela of mice and magic release date reddit": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:reddit",
+        "google_suggest:后缀:release date"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "hela of mice and magic release date switch": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:release date"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "hela of mice and magic release date xbox": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:release date"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "hela of mice and magic review": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "hela of mice and magic switch 2": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "hela of mice and magic switch 2 release date": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:release date"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "hela of mice and magic trailer": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "hela of mice and magic video game": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "hela of mice and magic wiki": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:wiki"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "hela of mice and magic wikipedia": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:wiki"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "hela of mice and magic xbox": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "hela of mice and magic xbox game pass": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "hela of mice and magic xbox price": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:price"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": null
+    },
+    "hela of mice and magic xbox release date": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "variantOf": "hela of mice and magic release date xbox"
+    }
+  },
+  "aliases": [
+    "hela of mice and magic",
+    "鼠鼠奇旅"
+  ],
+  "locale": "en",
+  "updatedAt": "2026-10-25T23:43:03.970Z"
+}
