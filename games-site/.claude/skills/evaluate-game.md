@@ -1,50 +1,32 @@
 ---
 name: evaluate-game
-description: 快速评估一个游戏是否值得建攻略站。只做 Phase 1 评估 + Phase 2 关键词收割，不做后续建站。
+description: 已作废（2026-10-25）。选品评估拆为「候选分析员」+「关键词研究员」两个岗位，改用本文件的转调说明。
 arguments:
   - name: gameName
     description: 目标游戏名称
     required: true
 ---
 
-# Evaluate Game — 快速选品评估
+# Evaluate Game — ⚠️ 已作废（2026-10-25）
 
-只执行 SOP 的 Phase 1（评估）和 Phase 2（关键词收割），输出评估报告，不建站。
+原 skill 把「wiki 检查 + 四维评分 + 关键词收割」揉在一个动作里，与现行分工冲突：
+发现者不打分、分析员不采词。**不要再按本文件执行评估。**
 
-## Step 1: Wiki 覆盖检查
+## 现在的做法
 
-```
-WebSearch "{gameName} wiki"
-WebSearch "{gameName} guide beginner tips"
-```
+| 原步骤 | 现在由谁做 | 规则 |
+|---|---|---|
+| Step 1 Wiki 覆盖检查 | 候选分析员 | 6 条固定 SERP 查询，`docs/STRATEGY-选词与评分.md` 第三节 |
+| Step 2 四维评分 | 候选分析员 | 需求 / 竞争 / 内容扩展 / 生命周期，同文档第二节 |
+| Step 3 关键词收割 | 关键词研究员 | `docs/agents/13` / `14`，产出 `keyword-results/{slug}.md` |
+| Step 4 评估报告 | 候选分析员 | `keyword-results/selection-{YYYY-MM-DD}.md` |
 
-## Step 2: 四维评分
+## 执行方式
 
-按 build-game-site 的 Phase 1 标准打分。
+若只想评估一个游戏：
 
-## Step 3: 关键词收割
+1. 确认它已在 `keyword-results/CANDIDATE-POOL.md`，状态 `待分析`（没有就先按 `discover-games` 入池）。
+2. 按 `docs/agents/23-Profile-候选分析员.md` 执行分析轮。
+3. 没有关键词报告的，先把状态改 `需采集`，等关键词研究员跑验证轮。
 
-如果评分 ≥ 12/20，自动执行关键词收割（同 build-game-site Phase 2）。
-
-## Step 4: 输出评估报告
-
-```
-## {gameName} 评估报告
-
-### 四维评分
-| 维度 | 评分 |
-|------|------|
-| 搜索需求 | X/5 |
-| 生命周期 | X/5 |
-| 内容扩展 | X/5 |
-| 竞争结构 | X/5 |
-| **总分** | **X/20** |
-
-### 关键词样本（Top 15）
-（列出 15 个真实搜索词）
-
-### 建议
-（建站 / 观望 / 放弃，附理由）
-```
-
-保存到 `keyword-results/{GameName}-evaluation.md`。
+MUST NOT 用本文件旧的 12 分门槛或 Top 15 词样本作为建站依据。

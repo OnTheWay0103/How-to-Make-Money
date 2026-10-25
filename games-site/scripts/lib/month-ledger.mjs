@@ -55,6 +55,9 @@ export const LEDGER_FIELDS = [
   { name: '玩家上限', type: 'number' },
   { name: 'PV(30d)', type: 'number' },
   { name: 'PV 环比(%)', type: 'number' },
+  { name: '建站成本(元)', type: 'number' },
+  { name: '实际人工小时', type: 'number' },
+  { name: '预估回本PV', type: 'number' },
   {
     name: '生命周期状态',
     type: 'select',

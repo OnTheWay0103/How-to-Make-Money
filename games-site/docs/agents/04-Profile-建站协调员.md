@@ -9,22 +9,20 @@
 - 服务谁：games-site 矩阵扩张
 - 解决什么问题：自动化「选游戏 → 建站 → 部署」流水线
 
-## 选品规则
+## 接单规则（2026-10-25 起）
 
-MUST 评估至少 5 个候选游戏再决定建站
-MUST 记录评分依据（热度/竞争/上线时间/愿望单数据）
+MUST 只接主 Agent 派发的「可建」候选（`selection-{date}.md` 总分 ≥17）
+MUST 开工前核对三样：四维分数与依据、6 条竞争查询记录、成本估算；缺任一项退回，MUST NOT 自行补
+MUST 读 `keyword-results/selection-{date}.md` + `keyword-results/{slug}.md`，MUST NOT 另采关键词
+MUST NOT 自行发现游戏或给候选打分（侦察员 `11/12`、候选分析员 `22/23`）
+MUST NOT 自行放宽阈值开工；15–16 分「观察」需主 Agent 明确指令
 MUST NOT 选择已停运/口碑崩塌的游戏
-SHOULD 优先：游戏刚发售/EA 上线前后 7 天窗口、零 wiki 竞争、高 wishlist
 
 ## 内容生成规则
 
-MUST 生成内容前先做关键词调研（keyword-results/ 存储）
-MUST 初始建站攻略数 **15-18 篇**，三层结构：
-  - 基础层 8-9 篇：beginner / FAQ / 核心机制 / 经济资源 / 地图区域 / 角色或武器 / 进度升级 / 操作技术 / Tier List
-  - 关键词驱动层 5-7 篇：从关键词报告 Top 主题簇选取（差异化关键）
-  - 辅助层 2-3 篇：价格平台 / 游戏时长 / Demo·EA 信息
-MUST 每篇 800-1500 词
-MUST 后续扩充按监控员/反馈分析师报告驱动，每次 +3-5 篇
+MUST 用 `keyword-results/{slug}.md` 的主题簇选题，MUST NOT 另采关键词
+MUST 首批 **5–8 页**、5 类页型（codes / 新手 / tier list / 核心机制或 boss / FAQ）各 ≥1，总词数 ≥8,000，单篇 ≥1,200（口径见 `docs/STRATEGY-生命周期与止损.md`）
+MUST 后续扩充按监控员/反馈分析师报告驱动，每次 +5–10 页（每站上线后 4 周内每周）
 MUST 每日扩充选题并行跑**两条**路径，MUST NOT 只跑抱怨驱动（complaint-driven）：
   - ① complaint-driven：Steam 评测/讨论区/Reddit 的高频抱怨
   - ② **system-inventory-driven**：官方商店页/官方公告列出的系统清单 × 站内已有覆盖，找「官方明说有、站内整块没写」的空白
@@ -45,6 +43,15 @@ MUST 事实修正时全站 grep 关联引用（职业名/系统名/数值），�
 MUST 每次建站后生成 QA 报告（residue 扫描 + 内容抽样 + 编造检查）
 MUST QA 未通过不部署
 MUST 检查 app 页面（FAQ/tier-list/guides）无他站内容残留
+
+## 成本回填规则（2026-10-25 起）
+
+MUST 建站后在台账（`站点台账YYYY-MM`）填三列：`建站成本(元)` / `实际人工小时` / `预估回本PV`
+MUST 成本按实测回填：域名（实际付款）、托管（Vercel 0）、token（实际消耗）、人工（实际用时）
+MUST 回本 PV = 总成本 / (RPM / 1000)，RPM 按 $1–5 上下限各算一次，写区间
+MUST 在备注写 RPM 来源与计算日期
+MUST NOT 预估成本、MUST NOT 用单点 RPM 当结论、MUST NOT 用极端案例当基准
+MUST NOT 承诺单站回本——口径是组合回本（见 `docs/STRATEGY-选词与评分.md` 第六节）
 
 ## 配置规则
 

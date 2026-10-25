@@ -90,16 +90,18 @@ description: 🧠 主管 Agent — 每天定时运行，读取状态、调度子
 决策: 候选池为空 → 需要发现新游戏
 行动: Invoke discover-games skill
      → 搜索 Steam / Reddit / Google Trends
-     → 评分筛选 → 保存到 keyword-results/CANDIDATE-POOL.md
-     → 返回候选清单
+     → 硬筛 + 证据链接 → 保存到 keyword-results/CANDIDATE-POOL.md（状态 待分析）
+     → 不评分、不查 wiki
+  然后: Invoke 候选分析员（docs/agents/22/23）
+     → 硬门槛 → 6 条 SERP → 四维评分 → selection-{date}.md
 ```
 
-**分支 B — 有高分候选 (≥ 15 分)**
+**分支 B — 有高分候选 (≥ 17 分)**
 
-自动触发建站流水线，不需人工确认。
+自动触发建站流水线，不需人工确认（15–16 分需用户确认）。
 
 ```
-决策: 最高分候选 ≥ 15 → 自动建站
+决策: 最高分候选 ≥ 17 且 selection-{date}.md 依据齐全 → 自动建站
 行动:
   1. Invoke harvest-keywords skill with gameName={name}
      → 获取关键词报告
@@ -127,12 +129,12 @@ description: 🧠 主管 Agent — 每天定时运行，读取状态、调度子
      → 审核新增内容
 ```
 
-**分支 D — 候选池低分 (< 15)**
+**分支 D — 候选池低分 (< 17)**
 
-不行动。低分候选不应该浪费资源。
+不行动。低分候选不应该浪费资源（12–14 留池观察，<12 放弃）。
 
 ```
-决策: 最高分候选 < 15 → 等待更好的游戏
+决策: 最高分候选 < 17 → 等待更好的游戏
 行动: 输出 "当前无高分候选，跳过"
 ```
 
