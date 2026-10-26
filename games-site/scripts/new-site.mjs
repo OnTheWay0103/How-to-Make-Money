@@ -146,13 +146,11 @@ console.log(`✓ 已生成 ${targetName}/  （域名 https://${domain}）`);
 
 const TODO = [
   `public/icon.png 仍是模板图 —— 换成 ${args.name} 的图标`,
-  'lib/seo-config.ts: 建 GA4 property 后填 googleAnalyticsId，并把 dashboard 服务账号加为读取者',
-  'GSC: 建 property、放验证文件到 public/、提交 sitemap',
+  'GA4 / GSC / Adsterra：在飞书「站点台账(人工)」对应行填 ID 与代码（每天 20:00 自动回填+部署）',
   'content/guides/: 按页面矩阵写 5–8 页（每页 ≥1,200 词、≥2 个来源且 ≥1 官方）',
   'app/faq/page.tsx 与 app/tier-list/page.tsx 的数组仍是空的 —— 有来源后再填',
-  '飞书「广告位管理」建两位 → node scripts/adsterra-sync.mjs 注入 lib/adsterra-zones.ts',
   'Vercel 建项目（rootDirectory 留空）→ scripts/deploy-wiki-site.sh <site>',
-  'dashboard 注册 + 站点台账登记',
+  'dashboard 注册（站点台账(自动化) 由 scripts/feishu-report.mjs --sites 写）',
 ];
 console.log('\n下一步（人工，按 SOP）:');
 TODO.forEach((t, i) => console.log(`  ${i + 1}. ${t}`));

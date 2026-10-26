@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.games-site.sync-ledger-manual</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/zsh</string>
+        <string>/Users/zhaoq0103/DEV/Personal/How-to-Make-Money/games-site/sync-ledger-manual.sh</string>
+    </array>
+
+    <!--
+      每天 20:00（本机北京时间）读飞书「站点台账(人工)YYYY-MM」，
+      把人工填好的 GA4 / 广告位代码回填进站点，只部署有改动的站。
+
+      为什么是 20:00：
+      - 用户指定「每天下午北京时间 8 点钟」= 20:00
+      - 与 auto-build-site（21:00 / 04:00，美东上午/下午两轮）错开 1 小时，
+        避免两个任务同时跑部署抢 Vercel 额度（免费版 ~100 次/日）
+      - launchd 的 StartCalendarInterval 只认本机时区，不能按 job 设 TZ，
+        本机就是北京时间，所以 20:00 直接写死
+
+      变更记录：
+      - 2026-10-26: 新建。配合「站点台账」拆成 (自动化)/(人工) 两张表
+    -->
+
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>20</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
+
+    <!-- 日志 -->
+    <key>StandardOutPath</key>
+    <string>/Users/zhaoq0103/Library/Logs/ledger-sync/stdout.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/zhaoq0103/Library/Logs/ledger-sync/stderr.log</string>
+
+    <!-- 环境变量 -->
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>HOME</key>
+        <string>/Users/zhaoq0103</string>
+        <key>PATH</key>
+        <string>/Users/zhaoq0103/.nvm/versions/node/v24.4.0/bin:/Users/zhaoq0103/.local/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+        <key>LANG</key>
+        <string>en_US.UTF-8</string>
+    </dict>
+
+    <key>RunAtLoad</key>
+    <false/>
+</dict>
+</plist>

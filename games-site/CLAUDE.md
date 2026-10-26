@@ -41,7 +41,7 @@ Agent 之间不直接对话，通过**文件契约**交接：
 | QA → 主 Agent | QA 报告 | `.agent/qa-report.md` | 主 Agent 按 PASS/FAIL 决策 |
 | 合规审计员 → 主 Agent | 审计报告 | 工作区修改 + 报告 | 主 Agent 验收证据链 |
 | 监控员 → 主 Agent | 监控报告 | `.agent/monitor-report.md` | 主 Agent 决策扩充 |
-| 生命周期管理员 → 主 Agent | 分级报告 + 台账分级 | `.agent/lifecycle-report.md` + 站点台账 | 主 Agent 决策加码/止损 |
+| 生命周期管理员 → 主 Agent | 分级报告 + 台账分级 | `.agent/lifecycle-report.md` + 站点台账(自动化) | 主 Agent 决策加码/止损 |
 | 反馈分析师 → 主 Agent | 反馈报告 | `keyword-results/{game}-feedback.md` | 主 Agent 决策补缺口 |
 
 核心接力（唯一 Agent↔Agent 前后交接）：**建站协调员 → QA 审核员**（PASS/FAIL 分流）。
@@ -61,7 +61,8 @@ Agent 之间不直接对话，通过**文件契约**交接：
 - **写作**：title 40–60 字符、description 140–160、有且仅有 1 个 H1、首段 40–60 词直答、正文 ≥1,200 词；同类页每批 ≤5 篇，**批量前先做透单页**
 - **建站模板**：三层分离（框架 `app/`+`components/` / 配置 `lib/` / 内容 `content/`）；新站 MUST 用 `node scripts/new-site.mjs` 从 `templates/wiki-base/` 生成（2026-10-26 建成），MUST NOT 从在运营站复制
 - **节奏**：**每天 ≥ 5 个新站**（≈ 每月 150 站）；每站上线后 4 周内每周 +5–10 页
-- **台账**：站点台账**按月分表**，表名 = `站点台账` + 年月（`站点台账2026-10`、`站点台账2026-11`…）。新月份先 `node scripts/roll-month-ledger.mjs --month YYYY-MM --apply`；脚本默认只认当月表，缺表直接报错
+- **台账**：每月**两张表**（2026-10-26 起）—— `站点台账(自动化)YYYY-MM`（脚本写：PV/环比/分级/攻略数）+ `站点台账(人工)YYYY-MM`（人写：GA4 ID / GSC 状态 / 三个广告位代码，填了=人工做完了）。新月份 `node scripts/roll-month-ledger.mjs --month YYYY-MM --apply` 一次建两张；脚本按 `站点台账(自动化)|(人工)YYYY-MM` 解析表名，缺表报错
+- **人工回填**：人工表的值由 `sync-ledger-manual.mjs` 每天 **20:00**（launchd `com.games-site.sync-ledger-manual`）回填进站点并部署，**只部署有改动的站**、单次上限 10 站。GSC 列纯提醒、`广告位3-todo-code` 占位，程序都不写
 - **检查点**：D+30 看索引（GSC 收录 ≥ 50%）、D+60 看进词、D+90 看排名点击；**D+90 前不做止损判断**
 - **止损**：D 档 = 30 天 PV < 50 且上线 ≥ 90 天且环比 < +30% → **停止投入 + 台账标记 `不再维护`**；MUST NOT 删站、下架、改代码
 - **模板**：当前只用一套 wiki 模板，**模板差异化暂不做**，等整条建站流程理通顺后再增加
@@ -81,7 +82,7 @@ Agent 之间不直接对话，通过**文件契约**交接：
 - **变现**：**AdSense 暂缓（2026-10-25）**，只走 Adsterra；新站不注入 `ca-pub`，存量站代码不动（见 `docs/STRATEGY-域名与部署.md` 第六节）
 - **域名**：当前维持 `*.vercel.app` 子域（2026-11-25 复盘）；风险 = URL 绑定托管账号，换账号即换 URL；将来迁移 MUST 先 301
 - **托管**：当前 Vercel Hobby 单账号；Hobby 条款禁止商业用途、多账号分摊属规避限制，风险记在节点 18 备注；2026-11-25 复盘 Pro / Cloudflare
-- **广告位**：每站 Adsterra `global`（Social Bar）+ `guide`（Native Banner）两个位；代码进飞书「广告位管理」表，由 `adsterra-sync.mjs` 注入，MUST NOT 手改站点代码
+- **广告位**：每站 Adsterra `global`（Social Bar）+ `guide`（Native Banner）两个位；代码先填飞书「站点台账(人工)」两列 → 20:00 回填脚本写「广告位管理」→ `adsterra-sync.mjs` 注入，MUST NOT 手改「广告位管理」或站点代码
 - **GA4**：暂维持人工建 property；每站 MUST 把 Dashboard 服务账号加为该 property 的读取者，否则看板无数据
 
 ## 站点矩阵

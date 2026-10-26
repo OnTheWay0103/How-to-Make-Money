@@ -14,7 +14,7 @@
 MUST 只从 `scripts/lib/dashboard-traffic.mjs`（即 dashboard `/api/traffic`）取流量
 MUST 用 30 天窗口 PV + 前一 30 天环比（接口已算好，MUST NOT 自己估）
 MUST 上线日以台账「上线日」为准；台账为空时用 dashboard 的 git 首次提交日，并在报告中以 `*` 标注
-MUST 用**当月台账表**（表名 = `站点台账` + 年月，如 `站点台账2026-10`）；当月表不存在时先跑 `roll-month-ledger.mjs`，MUST NOT 退回去写上月表
+MUST 用**当月台账表**（表名 = `站点台账(自动化)` + 年月，如 `站点台账(自动化)2026-10`）；当月表不存在时先跑 `roll-month-ledger.mjs`，MUST NOT 退回去写上月表
 MUST NOT 编造、估算、手填 PV
 MUST NOT 把"取不到数据"当成 0 流量——那是 `不可判定`，不是 D 档
 

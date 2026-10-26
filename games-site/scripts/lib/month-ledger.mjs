@@ -2,10 +2,14 @@
 /**
  * 站点台账的月度表约定。
  *
- * 2026-10-25 起，站点台账按**月**分表，表名 = `站点台账` + 年月：
- * `站点台账2026-10`、`站点台账2026-11`……
- * 每月一张全量快照（所有站点 + 当月 PV/环比/分级），便于按月对比。
- * 建新月份的表：`node scripts/roll-month-ledger.mjs --month 2026-11`
+ * 2026-10-25 起按**月**分表；2026-10-26 起每月**两张表**，表名都以 `站点台账` 开头 + 年月：
+ *
+ * - `站点台账(自动化)2026-10` — 脚本写：PV/环比/分级/攻略数/广告位上线数（LEDGER_FIELDS）
+ * - `站点台账(人工)2026-10`  — 人写、脚本读：GA4 / GSC / 三个广告位代码（MANUAL_FIELDS）
+ *
+ * 人工表填了值 = 人工处理完了，`sync-ledger-manual.mjs` 每天 20:00 把值回填进站点并部署。
+ * 旧名 `站点台账2026-10` 一律按自动化表处理（改名过渡期兼容）。
+ * 建新月份的两张表：`node scripts/roll-month-ledger.mjs --month 2026-11`
  */
 
 import { execFileSync } from 'node:child_process';
@@ -14,16 +18,28 @@ export const BASE_TOKEN = 'Zl7cb6Bz9ajsPdsQRbRci1QZnkg';
 export const MONTH_RE = /^\d{4}-\d{2}$/;
 
 /** 月度表名前缀。 */
-export const LEDGER_PREFIX = '站点台账';
+export const LEDGER_PREFIX = '站点台账(自动化)';
+export const MANUAL_PREFIX = '站点台账(人工)';
 
-/** 月度表名：`站点台账2026-11`。 */
+/** 月度表名：`站点台账(自动化)2026-11`。 */
 export const ledgerTableName = (month) => `${LEDGER_PREFIX}${month}`;
 
-/** 月度表名 → 月份；不是月度表返回 null。 */
+/** 人工表名：`站点台账(人工)2026-11`。 */
+export const manualTableName = (month) => `${MANUAL_PREFIX}${month}`;
+
+/**
+ * 台账表名 → `{ month, kind }`，不是台账表返回 null。
+ * kind：`auto`（脚本写）/ `manual`（人写脚本读）；旧名 `站点台账2026-10` 算 auto。
+ */
+export function parseLedgerTableName(name) {
+  const m = /^站点台账(?:[（(](自动化|人工)[）)])?(\d{4}-\d{2})$/.exec(name ?? '');
+  if (!m) return null;
+  return { month: m[2], kind: m[1] === '人工' ? 'manual' : 'auto' };
+}
+
+/** 台账表名 → 月份；不是台账表返回 null。 */
 export function monthOfTable(name) {
-  if (!name.startsWith(LEDGER_PREFIX)) return null;
-  const rest = name.slice(LEDGER_PREFIX.length);
-  return MONTH_RE.test(rest) ? rest : null;
+  return parseLedgerTableName(name)?.month ?? null;
 }
 
 /** 历史表名兼容（改名前后都可能遇到）。 */
@@ -68,6 +84,28 @@ export const LEDGER_FIELDS = [
 /** 月度指标：建新表时不从旧表带过来，由脚本重新计算。 */
 export const MONTHLY_FIELDS = ['PV(30d)', 'PV 环比(%)'];
 
+/**
+ * 人工表字段（人填 = 人工事项已完成，脚本读走回填站点）。
+ * 顺序即列顺序，首个字段是主字段。
+ * `广告位3-todo-code` 目前只占位：脚本只读不写，留给第三个广告位（待定）。
+ */
+export const MANUAL_FIELDS = [
+  { name: '站点', type: 'text' },
+  { name: '域名', type: 'text' },
+  { name: 'GA4-measurementID', type: 'text' },
+  { name: 'GA4-propertyID', type: 'text' },
+  { name: 'GSC', type: 'text' },
+  { name: '广告位1-SocialBar-code', type: 'text' },
+  { name: '广告位2-NativeBanner-code', type: 'text' },
+  { name: '广告位3-todo-code', type: 'text' },
+];
+
+/** 脚本回填的三个广告位 → 广告位管理表里的广告位类型。 */
+export const MANUAL_AD_SLOTS = [
+  { field: '广告位1-SocialBar-code', slot: 'global', format: 'Social Bar' },
+  { field: '广告位2-NativeBanner-code', slot: 'guide', format: 'Native Banner' },
+];
+
 export function lark(args, { cwd } = {}) {
   const out = execFileSync('lark-cli', args, {
     cwd,
@@ -90,7 +128,7 @@ export function monthName(date = new Date()) {
 }
 
 /**
- * 定位某个月的台账表。
+ * 定位某个月的**自动化**台账表。
  * - 传 `table`：按 ID 或表名精确匹配
  * - 传 `month`：按月表名匹配，缺表直接报错并给出建表命令
  */
@@ -103,26 +141,60 @@ export function resolveLedgerTable({ base = BASE_TOKEN, table, month, cwd } = {}
     return hit;
   }
 
-  const name = ledgerTableName(month ?? monthName());
+  const m = month ?? monthName();
+  const name = ledgerTableName(m);
   const hit = tables.find((t) => t.name === name);
   if (hit) return hit;
 
   // 历史表名（改名过渡期）
-  const m = month ?? monthName();
   for (const old of LEGACY_MONTH_TABLES[m] ?? []) {
     const legacy = tables.find((t) => t.name === old);
     if (legacy) return legacy;
   }
 
   const months = tables
-    .map((t) => monthOfTable(t.name))
-    .filter(Boolean)
+    .map((t) => parseLedgerTableName(t.name))
+    .filter((p) => p?.kind === 'auto')
+    .map((p) => p.month)
     .sort();
   throw new Error(
     `没有「${name}」这张月度台账表。\n` +
       `先建本月表：node scripts/roll-month-ledger.mjs --month ${m}\n` +
       `现有月度表：${months.length ? months.map(ledgerTableName).join('、') : '（无）'}`,
   );
+}
+
+/**
+ * 定位**人工**台账表。
+ * - 当月表不存在时回退到最近一张人工表（不中断每日回填），并在返回对象上标 `fallback: true`
+ * - 一张都没有时直接报错
+ */
+export function resolveManualLedgerTable({ base = BASE_TOKEN, table, month, cwd } = {}) {
+  const tables = listTables(base, cwd);
+
+  if (table) {
+    const hit = tables.find((t) => t.id === table || t.name === table);
+    if (!hit) throw new Error(`找不到人工台账表：${table}`);
+    return hit;
+  }
+
+  const m = month ?? monthName();
+  const name = manualTableName(m);
+  const hit = tables.find((t) => t.name === name);
+  if (hit) return hit;
+
+  const manual = tables
+    .filter((t) => parseLedgerTableName(t.name)?.kind === 'manual')
+    .sort((a, b) => parseLedgerTableName(a.name).month.localeCompare(parseLedgerTableName(b.name)));
+
+  if (manual.length === 0) {
+    throw new Error(
+      `没有人工台账表「${name}」。\n` +
+        `先建表：node scripts/roll-month-ledger.mjs --month ${m} --apply`,
+    );
+  }
+
+  return { ...manual[manual.length - 1], fallback: true };
 }
 
 /** 把单元格值统一成能写回 batch-create 的标量。 */

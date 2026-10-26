@@ -110,23 +110,27 @@ MUST NOT 设置 `rootDirectory`（CLI 直传模式下会导致路径叠加，见
 
 ## 四、GA4（节点 19）
 
-### 4.1 当前流程（人工）
+### 4.1 当前流程（人工 + 每日回填）
 
 1. GA 后台建 Property + Web Stream，URL 填部署后的域名
 2. 记下 `G-XXXXXXXXXX`（Measurement ID）和纯数字 Property ID
-3. 写入 `.agent/ga4-ids.json`，执行：
-   ```bash
-   node scripts/set-ga4-ids.mjs .agent/ga4-ids.json
-   ```
-   脚本会改站点 `lib/seo-config.ts` 并维护 `dashboard/lib/sites.ts`
+3. **把两个 ID 填进飞书「站点台账(人工)YYYY-MM」对应行的
+   `GA4-measurementID` / `GA4-propertyID` 两列**（2026-10-26 起的主路径）
+   —— 每天 20:00 的 `sync-ledger-manual.mjs` 会自动写进站点与 Dashboard
 4. **GA 管理 → 媒体资源访问权限 → 把 Dashboard 服务账号加为读取者**
    （不加 = GA4 有数据但 Dashboard 永远读不到）
+
+手动兜底（当天就要生效、或台账写不进去时）：
+把 ID 写进 `.agent/ga4-ids.json` 后执行
+`node scripts/set-ga4-ids.mjs .agent/ga4-ids.json`；脚本做的是同一件事
+（改站点 `lib/seo-config.ts` + 维护 `dashboard/lib/sites.ts`）。
 
 ### 4.2 已知限制与风险
 
 - GA4 单账号上限 **2,000 个 Property**（官方结构限制）；按 150 站/月约 13 个月需要第二个 GA 账号
 - 手动建 property 是 5 站/天节奏下最容易漏的一步；漏了 Dashboard 就缺站
 - 查不到 / 没建好时写 `[待确认]`，MUST NOT 编造 GA ID
+  （`[待确认]` 行会被回填脚本跳过，Dashboard 的空值过滤也不会把它当数字）
 
 ### 4.3 自动化（暂缓，不实施）
 
@@ -149,8 +153,11 @@ MUST NOT 设置 `rootDirectory`（CLI 直传模式下会导致路径叠加，见
 | `global` | Social Bar | `app/layout.tsx`，`</body>` 前 | 全站曝光 |
 | `guide` | Native Banner | `components/GuideLayout.tsx`，Verification 注释前 | 攻略页正文位 |
 
-- 数据源：飞书多维表格「广告位管理」（`tblPlFjSok72tnA1`），**唯一来源**
-- 注入：`node scripts/adsterra-sync.mjs --apply --build [--deploy]`
+- 数据源：飞书多维表格「站点台账(人工)YYYY-MM」的 `广告位1-SocialBar-code` /
+  `广告位2-NativeBanner-code` 两列，**唯一事实来源**
+- 回填链：台账(人工) → `sync-ledger-manual.mjs`（每天 20:00）→ 写「广告位管理」
+  （`tblPlFjSok72tnA1`，注入清单）→ `adsterra-sync.mjs --apply --deploy` → 站点代码
+- 「广告位管理」从 2026-10-26 起降级为**派生表**（注入清单 + 同步状态），不再是人工填写的入口
 - 现状：36 站 / 72 个位已接
 
 ### 5.2 手工部分与产能
@@ -159,14 +166,22 @@ Adsterra Publisher API 是**只读**的（`api3.adsterratools.com/publisher`）�
 建 zone 只能在后台手工完成：
 
 - 5 站/天 × 2 个位 = 10 个 zone/天
+- 建好 zone 后把代码粘进「站点台账(人工)」对应列，剩下的交给 20:00 的回填脚本
 - 当前接受这个手工量；若成为瓶颈，优先考虑「新站只开 1 个 Social Bar，D+30 再加 Native」
 
 ### 5.3 MUST 规则
 
-MUST 广告代码先进飞书表，再由 `adsterra-sync.mjs` 注入
-MUST NOT 直接手改站点里的广告代码（否则表与代码不一致，下次同步会覆盖）
+MUST 广告代码先进「站点台账(人工)」对应列，再由 `sync-ledger-manual.mjs` 回填
+MUST NOT 手改「广告位管理」表里的代码（它由台账派生，改了会被下次回填覆盖）
+MUST NOT 直接手改站点里的广告代码（同上，且下次注入会覆盖）
 MUST 部署后验证 HTTP 200 且页面含广告脚本
 MUST NOT 在无流量站上堆多个广告位（影响体验与审核，收益接近 0）
+
+### 5.4 广告位3（占位）
+
+`广告位3-todo-code` 列已建但**脚本不处理**，只读不写：将来加第三个位（Popunder /
+Display Banner）时，补一行 `MANUAL_AD_SLOTS` 即可启用。填了值会在每日报告里被列出来，
+提醒「这个位还没接」。
 
 ---
 
@@ -228,3 +243,51 @@ MUST NOT 在无流量站上堆多个广告位（影响体验与审核，收益�
 
 > ⚠️ `docs/STRATEGY-选词与评分.md` 里的 RPM $1–5 是通用第三方基准。
 > 只走 Adsterra 后，**用 30 天真实数据替换**，MUST NOT 继续拿通用区间当结论。
+
+---
+
+## 八、站点台账：两张表 + 每日回填（2026-10-26 起）
+
+### 8.1 为什么拆
+
+原来的「站点台账2026-10」混着两类东西：脚本算出来的指标（PV、环比、分级、攻略数）
+和只有人能做的事（GA4 ID、GSC 提交、Adsterra 广告代码）。混在一张表里，
+程序没法判断「哪些是人工还没做」，人也分不清「哪些格子不该自己填」。
+
+拆成两张，一张一对作者：
+
+| 表 | 表名 | 谁写 | 内容 |
+|---|---|---|---|
+| 自动化 | `站点台账(自动化)YYYY-MM` | 脚本 | PV(30d)、PV 环比、攻略数、广告位上线数、生命周期状态、建站成本… |
+| 人工 | `站点台账(人工)YYYY-MM` | 人 | GA4 ID、GSC 状态、三个广告位代码 |
+
+**填上 = 人工做完了**。这是人工表唯一的心智模型，不需要额外的状态字段。
+
+### 8.2 人工表的列
+
+| 列 | 含义 | 程序动作 |
+|---|---|---|
+| 站点 | 站点目录名（主键，与仓库目录一致） | 定位站点 |
+| 域名 | `https://{site}.vercel.app/` | 写进「广告位管理」的域名列 |
+| GA4-measurementID | `G-XXXXXXXXXX` | 回填 `lib/seo-config.ts` |
+| GA4-propertyID | 纯数字 | 回填 `dashboard/lib/sites.ts` |
+| GSC | 填「是/已完成」= 已在 GSC 添加 property 并提交 sitemap | **只读**：空着就在每日报告里继续提醒 |
+| 广告位1-SocialBar-code | global 位代码 | 回填「广告位管理」→ 注入 `app/layout.tsx` |
+| 广告位2-NativeBanner-code | guide 位代码 | 回填「广告位管理」→ 注入 `GuideLayout.tsx` |
+| 广告位3-todo-code | 第三个位占位 | **只读**：填了只提示，不处理 |
+
+### 8.3 每日 20:00 回填
+
+- 调度：launchd `com.games-site.sync-ledger-manual`（本机 20:00，与 21:00/04:00 的
+  auto-build 错开一小时，避免抢 Vercel 每日部署额度）
+- 脚本：`node scripts/sync-ledger-manual.mjs --apply`（默认 dry-run，只出计划）
+- 只处理**有变化**的站：值已和站点代码一致的行完全不动，也就不部署
+- 单次部署上限 `--max-deploy`（默认 10 站），超出的顺延到次日，不会一次性刷爆额度
+- 落日志：`.agent/ledger-sync-log.jsonl`（每次一行：计划/部署/失败/顺延/GSC 未填）
+
+### 8.4 MUST
+
+MUST 人工值只填台账(人工)表，MUST NOT 同时手改站点代码和表（会互相覆盖）
+MUST 每月滚动时用 `node scripts/roll-month-ledger.mjs --month YYYY-MM --apply` 一次建两张表
+MUST NOT 手改表名（脚本按 `站点台账(自动化)|(人工)YYYY-MM` 解析；旧名 `站点台账2026-10` 只做兼容）
+MUST NOT 把 `[待确认]` 当值用：回填脚本会跳过，Dashboard 也读不出来

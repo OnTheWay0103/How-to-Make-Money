@@ -218,7 +218,7 @@
 | 表「每日交付」 | `tbltCgQw1VfMVj0T` |
 | 表「部署队列」 | `tbljqIjX9qOD8fVs` |
 | 表「QA 问题跟踪」 | `tblrHtlzD1KZhcdV` |
-| 表「站点台账2026-10」 | `tblTDpkA9odla8No`（2026-10 的记录；之后每月另建 `站点台账YYYY-MM`） |
+| 表「站点台账(自动化)2026-10」 | `tblTDpkA9odla8No`（2026-10 的记录；之后每月另建 `站点台账(自动化)YYYY-MM`）。2026-10-26 起另有「站点台账(人工)YYYY-MM」 |
 | D1「交付日报 2026-10-24」 | https://jcn5oum2q1jh.feishu.cn/wiki/N3AOwfq6qi7NlYkw2k8cbbw3nec |
 
 **身份说明**：应用 `cli_aae2c52aa4b89d05` 的 bot 身份未申请 `base:*` / `wiki:*` scope
