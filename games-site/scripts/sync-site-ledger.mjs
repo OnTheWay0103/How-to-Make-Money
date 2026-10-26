@@ -12,14 +12,14 @@
  *   node scripts/sync-site-ledger.mjs --month 2026-10      # 指定月份
  *   node scripts/sync-site-ledger.mjs --table tblXXXX      # 指定表
  *
- * 以「站点」目录名为主键匹配记录。只写 `PV(30d)` 和 `PV 环比(%)` 两个字段，
+ * 以台账「站点」列（裸域名）反推出的站点目录名为主键匹配记录。只写 `PV(30d)` 和 `PV 环比(%)` 两个字段，
  * 不动人工维护的字段（上线日、攻略数、备注……）。重复运行是幂等的。
  */
 
 import { execFileSync } from 'node:child_process';
 import path from 'node:path';
 import { fetchTraffic, trafficByDir } from './lib/dashboard-traffic.mjs';
-import { resolveLedgerTable } from './lib/month-ledger.mjs';
+import { resolveLedgerTable, siteDirOf } from './lib/month-ledger.mjs';
 
 const REPO = path.resolve(import.meta.dirname, '..');
 
@@ -118,7 +118,7 @@ const notInLedger = [];
 const unchanged = [];
 
 for (const [dir, t] of byDir) {
-  const rec = records.find((r) => r.site === dir);
+  const rec = records.find((r) => siteDirOf(r.site) === dir);
   if (!rec) {
     notInLedger.push(dir);
     continue;
@@ -132,7 +132,7 @@ for (const [dir, t] of byDir) {
   else updates[rec.recordId] = { ...patch, __site: dir };
 }
 
-const missingPv = records.filter((r) => !byDir.has(r.site)).map((r) => r.site);
+const missingPv = records.filter((r) => !byDir.has(siteDirOf(r.site))).map((r) => r.site);
 
 const changed = Object.entries(updates);
 console.log(

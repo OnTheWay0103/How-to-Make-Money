@@ -27,7 +27,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { fetchTraffic, trafficByDir } from './lib/dashboard-traffic.mjs';
-import { resolveLedgerTable } from './lib/month-ledger.mjs';
+import { resolveLedgerTable, siteDirOf } from './lib/month-ledger.mjs';
 
 const REPO = path.resolve(import.meta.dirname, '..');
 
@@ -137,7 +137,7 @@ const ledger = listLedger(TABLE_ID);
 
 const rows = [];
 for (const [dir, t] of byDir) {
-  const rec = ledger.find((r) => r.site === dir);
+  const rec = ledger.find((r) => siteDirOf(r.site) === dir);
   const launchFrom = rec?.launchAt ? '台账' : t.createdAt ? 'git 首提交' : null;
   const launch = dayOf(rec?.launchAt ?? t.createdAt);
   const { grade, reason } = classify({ pv: t.pv, change: t.change, launch });
@@ -158,7 +158,7 @@ for (const [dir, t] of byDir) {
   });
 }
 
-const unledgered = [...byDir.keys()].filter((dir) => !ledger.some((r) => r.site === dir));
+const unledgered = [...byDir.keys()].filter((dir) => !ledger.some((r) => siteDirOf(r.site) === dir));
 
 const order = { 加码: 0, 维持: 1, 观察中: 2, [UNDECIDABLE]: 3, 不再维护: 4 };
 rows.sort((a, b) => (order[a.grade] ?? 9) - (order[b.grade] ?? 9) || b.pv - a.pv);

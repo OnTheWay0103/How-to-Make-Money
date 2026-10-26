@@ -46,7 +46,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
-import { resolveLedgerTable } from './lib/month-ledger.mjs';
+import { resolveLedgerTable, siteDirOf } from './lib/month-ledger.mjs';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const BASE_TOKEN = process.env.FEISHU_BASE_TOKEN || 'Zl7cb6Bz9ajsPdsQRbRci1QZnkg';
@@ -424,13 +424,17 @@ function guideCount(site) {
   return fs.readdirSync(path.join(ROOT, site, 'content', 'guides')).filter((f) => f.endsWith('.md')).length;
 }
 
-function siteDomain(site) {
+/**
+ * 站点目录 → 裸域名（台账「站点」列的口径，2026-10-26 起不再单列域名）。
+ * `.vercel/project.json` 更权威（Vercel 项目名可能和目录名不同），没有就回退目录名。
+ */
+function siteHost(site) {
   const p = path.join(ROOT, site, '.vercel', 'project.json');
+  let projectName = site;
   try {
-    const j = JSON.parse(fs.readFileSync(p, 'utf8'));
-    if (j.projectName) return `https://${j.projectName}.vercel.app`;
-  } catch { /* fall through */ }
-  return `https://${site}.vercel.app`;
+    projectName = JSON.parse(fs.readFileSync(p, 'utf8')).projectName || site;
+  } catch { /* 没 link 过就用目录名 */ }
+  return `${projectName}.vercel.app`;
 }
 
 function firstCommitDate(site) {
@@ -452,14 +456,14 @@ function adSlots(site) {
 function syncSites() {
   const tableId = sitesTableId();
   const existing = listRecords(tableId);
-  const bySite = new Map(existing.map((r) => [String(r.fields?.['站点'] || ''), r]));
+  // 台账「站点」列写的是裸域名，匹配前统一按域名口径归一（老行写目录名也认）
+  const bySite = new Map(existing.map((r) => [siteDirOf(String(r.fields?.['站点'] || '')), r]));
   const creates = [];
   const updates = {};
 
   for (const site of siteDirs()) {
     const row = {
-      '站点': site,
-      '域名': siteDomain(site),
+      '站点': siteHost(site),
       '上线日': firstCommitDate(site) ? `${firstCommitDate(site)} 00:00:00` : null,
       '攻略数': guideCount(site),
       '广告位上线数': adSlots(site),
@@ -471,7 +475,7 @@ function syncSites() {
 
   console.log(`\n【T3 站点台账】共 ${creates.length + Object.keys(updates).length} 站 — 新增 ${creates.length} / 更新 ${Object.keys(updates).length}`);
   if (DRY) {
-    for (const c of creates.slice(0, 5)) console.log(`  + ${c['站点']} ${c['攻略数']} 篇 ${c['域名']}`);
+    for (const c of creates.slice(0, 5)) console.log(`  + ${c['站点']} ${c['攻略数']} 篇`);
     if (creates.length > 5) console.log(`  ... 其余 ${creates.length - 5} 站`);
     return;
   }

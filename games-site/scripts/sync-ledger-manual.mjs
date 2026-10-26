@@ -41,8 +41,11 @@ import {
   MANUAL_AD_SLOTS,
   cellScalar,
   lark,
+  ledgerHost,
+  ledgerHostOfDir,
   resolveLedgerTable,
   resolveManualLedgerTable,
+  siteDirOf,
 } from './lib/month-ledger.mjs';
 
 const REPO = path.resolve(import.meta.dirname, '..');
@@ -124,12 +127,38 @@ function currentGa(site) {
   return m ? m[1] : '';
 }
 
-/** 域名统一成裸主机名（广告位管理表的口径）。 */
-function hostOf(domain) {
-  return (domain || '')
-    .trim()
-    .replace(/^https?:\/\//, '')
-    .replace(/\/+$/, '');
+/** 仓库里真实存在的站点目录（有 lib/seo-config.ts 才算）。 */
+function localSiteDirs() {
+  return fs
+    .readdirSync(REPO, { withFileTypes: true })
+    .filter((d) => d.isDirectory() && d.name.endsWith('wiki'))
+    .map((d) => d.name)
+    .filter((s) => fs.existsSync(path.join(REPO, s, 'lib', 'seo-config.ts')));
+}
+
+const KNOWN_DIRS = new Set(localSiteDirs());
+
+/**
+ * 台账「站点」列 → 站点目录名。
+ * 列里写的是裸域名（`witchspirewiki.vercel.app`），老行写目录名，两种都认；
+ * 目录必须真实存在，否则返回目录名让后续「本地不存在」的检查去报出来。
+ */
+const dirOfRow = (value) => siteDirOf(value, KNOWN_DIRS);
+
+/** `--site` 既可以写目录名，也可以写台账里的裸域名，统一成目录名再比。 */
+const ONLY_DIR = ONLY_SITE ? siteDirOf(ONLY_SITE, KNOWN_DIRS) : null;
+
+/** 站点目录 → 裸域名（`.vercel/project.json` 优先，回退 `{dir}.vercel.app`）。 */
+function hostOfDir(site) {
+  try {
+    const j = JSON.parse(
+      fs.readFileSync(path.join(REPO, site, '.vercel', 'project.json'), 'utf8'),
+    );
+    if (j.projectName) return ledgerHostOfDir(j.projectName);
+  } catch {
+    /* 没 link 过就用目录名 */
+  }
+  return ledgerHostOfDir(site);
 }
 
 /**
@@ -145,8 +174,8 @@ function hostOf(domain) {
  * `gaOf` 可注入，dry-run 用来模拟「回填后」的 GA 值。
  */
 function autoStatusOf(row, adsMap, failedSites, gaOf = currentGa) {
-  const site = (row['站点'] || '').trim();
-  if (!site || !fs.existsSync(path.join(REPO, site, 'lib', 'seo-config.ts'))) return '';
+  const site = dirOfRow(row['站点']);
+  if (!site || !KNOWN_DIRS.has(site)) return '';
 
   const gaId = (row['GA4-measurementID'] || '').trim();
   const propId = (row['GA4-propertyID'] || '').trim();
@@ -180,9 +209,9 @@ function syncLaunchDates() {
   if (!launchDates.size) return 0;
   const updates = {};
   for (const row of rows) {
-    const site = (row['站点'] || '').trim();
+    const site = dirOfRow(row['站点']);
     if (!site) continue;
-    if (ONLY_SITE && site !== ONLY_SITE) continue;
+    if (ONLY_SITE && site !== ONLY_DIR) continue;
     const want = launchDates.get(site);
     if (!want) continue;
     if ((row['上线日'] || '').trim() === want) continue;
@@ -239,9 +268,9 @@ function syncStatuses({ deployedSites = [], failedNow = [], carryFailures = true
   const updates = {};
   const counts = { done: 0, pending: 0, partial: 0, failed: 0 };
   for (const row of rows) {
-    const site = (row['站点'] || '').trim();
+    const site = dirOfRow(row['站点']);
     if (!site) continue;
-    if (ONLY_SITE && site !== ONLY_SITE) continue;
+    if (ONLY_SITE && site !== ONLY_DIR) continue;
     const desired = autoStatusOf(row, fresh, stillFailed);
     if (desired === (row['自动化状态'] || '').trim()) continue;
     updates[row.__record] = { 自动化状态: desired };
@@ -313,7 +342,7 @@ try {
   const auto = resolveLedgerTable({ month: MONTH, cwd: REPO });
   autoName = auto.name;
   for (const r of readTable(auto.id)) {
-    const site = (r['站点'] || '').trim();
+    const site = dirOfRow(r['站点']);
     const d = (r['上线日'] || '').trim();
     if (site && d) launchDates.set(site, d);
   }
@@ -333,9 +362,9 @@ const unknownSites = [];
 const badValues = [];
 
 for (const row of rows) {
-  const site = (row['站点'] || '').trim();
+  const site = dirOfRow(row['站点']);
   if (!site) continue;
-  if (ONLY_SITE && site !== ONLY_SITE) continue;
+  if (ONLY_SITE && site !== ONLY_DIR) continue;
   if (!fs.existsSync(path.join(REPO, site, 'lib', 'seo-config.ts'))) {
     unknownSites.push(site);
     continue;
@@ -358,7 +387,10 @@ for (const row of rows) {
   }
 
   // 广告位 1 / 2
-  const domain = hostOf(row['域名']);
+  // 域名不再是单独一列：`站点` 列本身就是裸域名（2026-10-26 起）。
+  // 老行里写的是目录名（没有点）时，按站点的 vercel 项目名补一个。
+  const rawHost = ledgerHost(row['站点']);
+  const domain = rawHost.includes('.') ? rawHost : hostOfDir(site);
   for (const { field, slot, format } of MANUAL_AD_SLOTS) {
     const code = (row[field] || '').trim();
     if (!code) continue;
@@ -377,13 +409,9 @@ for (const row of rows) {
 
 /* ─── 3. 计划汇总 ─────────────────────────────────────────────────── */
 
-// 本地有新站但人工表还没行 → 自动补一行（只填站点/域名，等人工填其余列）
-const knownSites = new Set(rows.map((r) => (r['站点'] || '').trim()).filter(Boolean));
-const localSites = fs
-  .readdirSync(REPO, { withFileTypes: true })
-  .filter((d) => d.isDirectory() && d.name.endsWith('wiki'))
-  .map((d) => d.name)
-  .filter((s) => fs.existsSync(path.join(REPO, s, 'lib', 'seo-config.ts')));
+// 本地有新站但人工表还没行 → 自动补一行（只填站点=裸域名，等人工填其余列）
+const knownSites = new Set(rows.map((r) => dirOfRow(r['站点'])).filter(Boolean));
+const localSites = localSiteDirs();
 const newRows = localSites.filter((s) => !knownSites.has(s)).sort();
 
 const sitesChanged = [
@@ -417,8 +445,8 @@ if (badValues.length) {
 
 if (launchDates.size) {
   const stale = rows.filter((r) => {
-    const site = (r['站点'] || '').trim();
-    if (!site || (ONLY_SITE && site !== ONLY_SITE)) return false;
+    const site = dirOfRow(r['站点']);
+    if (!site || (ONLY_SITE && site !== ONLY_DIR)) return false;
     const want = launchDates.get(site);
     return want && (r['上线日'] || '').trim() !== want;
   }).length;
@@ -479,8 +507,8 @@ if (!APPLY) {
   const previewStillFailed = new Set([...forceDeploy].filter((s) => !planned.has(s)));
   const preview = { done: 0, pending: 0, partial: 0, failed: 0, changed: 0 };
   for (const row of rows) {
-    const site = (row['站点'] || '').trim();
-    if (!site || (ONLY_SITE && site !== ONLY_SITE)) continue;
+    const site = dirOfRow(row['站点']);
+    if (!site || (ONLY_SITE && site !== ONLY_DIR)) continue;
     const desired = autoStatusOf(row, simAds, previewStillFailed, gaOf);
     if (desired === (row['自动化状态'] || '').trim()) continue;
     preview.changed++;
@@ -503,7 +531,7 @@ if (!APPLY) {
   process.exit(0);
 }
 
-/** 本地新站 → 人工表补一行（只填站点/域名，其余列等人工）。 */
+/** 本地新站 → 人工表补一行（只填站点=裸域名，其余列等人工）。 */
 function addNewRows() {
   if (!newRows.length) return;
   log(`\n▶ 人工表补登记 ${newRows.length} 站：${newRows.join(', ')}`);
@@ -518,8 +546,7 @@ function addNewRows() {
       '--json',
       JSON.stringify({
         create_records: newRows.map((s) => ({
-          站点: s,
-          域名: `https://${s}.vercel.app/`,
+          站点: hostOfDir(s),
           ...(launchDates.get(s) ? { 上线日: launchDates.get(s) } : {}),
         })),
       }),

@@ -5,7 +5,7 @@
  * 自动化表：以最近的自动化表为模板，复制表结构 + 全部站点行；
  *   `PV(30d)` / `PV 环比(%)` 不复制（由 sync-site-ledger.mjs 重新算）。
  * 人工表：以最近的人工表为模板整行复制（GA4/GSC/广告位代码都保留，等于沿用上月状态）。
- *   一张人工表都没有时，按自动化表的站点列表建空行（只填 站点 / 域名）。
+ *   一张人工表都没有时，按自动化表的站点列表建空行（只填 站点=裸域名）。
  *
  * 用法：
  *   node scripts/roll-month-ledger.mjs                 # 预览（默认本月）
@@ -138,7 +138,7 @@ const manualSource = manualExists
       .pop();
 const manualRows = manualSource
   ? readRecords(manualSource.id)
-  : rows.map((r) => ({ 站点: r.站点, 域名: r.域名 }));
+  : rows.map((r) => ({ 站点: r.站点 }));
 
 console.log(`新表：${TARGET}`);
 console.log(`模板：${source.name}（${source.id}，${rows.length} 行）`);

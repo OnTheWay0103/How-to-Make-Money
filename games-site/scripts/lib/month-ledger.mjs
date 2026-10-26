@@ -9,6 +9,10 @@
  *
  * 人工表填了值 = 人工处理完了，`sync-ledger-manual.mjs` 每天 20:00 把值回填进站点并部署。
  * 旧名 `站点台账2026-10` 一律按自动化表处理（改名过渡期兼容）。
+ *
+ * **「站点」列写裸域名**（2026-10-26 起，如 `witchspirewiki.vercel.app`），
+ * 原来的 `域名` 列两表都已删除。需要目录名的地方统一用 `siteDirOf()` 反推。
+ *
  * 建新月份的两张表：`node scripts/roll-month-ledger.mjs --month 2026-11`
  */
 
@@ -47,11 +51,14 @@ export const LEGACY_MONTH_TABLES = {
   '2026-10': ['站点台账', '站点台账 2026-10'],
 };
 
-/** 台账字段定义（建月度表时用；顺序即列顺序，首个字段是主字段）。 */
+/**
+ * 台账字段定义（建月度表时用；顺序即列顺序，首个字段是主字段）。
+ * 2026-10-26 起 `站点` 列直接写**裸域名**（`witchspirewiki.vercel.app`），
+ * 原来的 `域名` 列已删——两列内容重复，人看着费劲。目录名由 `siteDirOf()` 反推。
+ */
 export const LEDGER_FIELDS = [
   { name: '站点', type: 'text' },
   { name: '上线日', type: 'datetime' },
-  { name: '域名', type: 'text' },
   { name: '最后 QA', type: 'datetime' },
   { name: '广告位上线数', type: 'number' },
   { name: '版本确认日', type: 'datetime' },
@@ -87,13 +94,13 @@ export const MONTHLY_FIELDS = ['PV(30d)', 'PV 环比(%)'];
 /**
  * 人工表字段（人填 = 人工事项已完成，脚本读走回填站点）。
  * 顺序即列顺序，首个字段是主字段。
+ * `站点` 写**裸域名**（见 siteDirOf），`域名` 列已删（同一件事写两遍没意义）。
  * `广告位3-todo-code` 目前只占位：脚本只读不写，留给第三个广告位（待定）。
  * `上线日` 由脚本从自动化表同步（用来判断某行是「新站还没填」还是「老站漏了」）。
  * `自动化状态` 是脚本**回写**的列，人工不填（取值见 AUTO_STATUS）。
  */
 export const MANUAL_FIELDS = [
   { name: '站点', type: 'text' },
-  { name: '域名', type: 'text' },
   { name: '上线日', type: 'datetime' },
   { name: 'GA4-measurementID', type: 'text' },
   { name: 'GA4-propertyID', type: 'text' },
@@ -232,4 +239,36 @@ export function cellScalar(value) {
   if (Array.isArray(value)) return value.length === 0 ? null : cellScalar(value[0]);
   if (value && typeof value === 'object') return unwrapLinks(value.text ?? value.name ?? null);
   return unwrapLinks(value ?? null);
+}
+
+/**
+ * 台账「站点」列的口径：**裸域名**，不带 `https://`、不带结尾斜杠。
+ * `https://witchspirewiki.vercel.app/` → `witchspirewiki.vercel.app`
+ * 老行里写的是目录名时也能通过（没有点，原样留着）。
+ */
+export function ledgerHost(value) {
+  return String(unwrapLinks(value) ?? '')
+    .trim()
+    .replace(/^https?:\/\//i, '')
+    .replace(/\/+$/, '')
+    .toLowerCase();
+}
+
+/** 站点目录 → 台账「站点」列的值（`witchspirewiki` → `witchspirewiki.vercel.app`）。 */
+export function ledgerHostOfDir(site) {
+  return `${String(site).trim().toLowerCase()}.vercel.app`;
+}
+
+/**
+ * 台账「站点」列 → 仓库站点目录名。
+ * `witchspirewiki.vercel.app` → `witchspirewiki`；已经是目录名的原样返回。
+ * 传 `knownDirs`（仓库里真实存在的目录名集合）只用来识别「老行写的是目录名」；
+ * 换成自有域名后这里反推不出目录，调用方会把它当「本地不存在的站点」报出来，
+ * 那时需要在调用处补 host → 目录的映射，别硬猜。
+ */
+export function siteDirOf(value, knownDirs = null) {
+  const host = ledgerHost(value);
+  if (!host) return '';
+  if (knownDirs?.has(host)) return host; // 老口径：列里写的就是目录名
+  return host.replace(/\.vercel\.app$/, '');
 }

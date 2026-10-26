@@ -24,7 +24,7 @@
 
 - 45 个 wiki 站全部使用 `{project}.vercel.app`
 - 站点 canonical 写在 `<site>/lib/seo-config.ts` 的 `SITE_CONFIG.url`
-- 台账「域名」列记录的就是 `*.vercel.app`
+- 台账「站点」列写的就是这个域名（裸域名，不带 `https://` 与结尾斜杠，如 `witchspirewiki.vercel.app`）
 
 **决策：维持子域，暂不买自有域名。**
 
@@ -268,8 +268,7 @@ Display Banner）时，补一行 `MANUAL_AD_SLOTS` 即可启用。填了值会�
 
 | 列 | 含义 | 程序动作 |
 |---|---|---|
-| 站点 | 站点目录名（主键，与仓库目录一致） | 定位站点 |
-| 域名 | `https://{site}.vercel.app/` | 写进「广告位管理」的域名列 |
+| 站点 | **裸域名**（`witchspirewiki.vercel.app`，不带 `https://`、不带结尾斜杠）= 主键 | 脚本用 `siteDirOf()` 反推目录名定位站点；域名也直接从这里取，不再单列 |
 | 上线日 | 从 `站点台账(自动化)` 同步来的上线日期 | **程序同步**：每轮比对，空着或对不上就写回；用来区分「新站还没来得及填」和「老站漏了」 |
 | GA4-measurementID | `G-XXXXXXXXXX` | 回填 `lib/seo-config.ts` |
 | GA4-propertyID | 纯数字 | 回填 `dashboard/lib/sites.ts` |
@@ -278,6 +277,9 @@ Display Banner）时，补一行 `MANUAL_AD_SLOTS` 即可启用。填了值会�
 | 广告位2-NativeBanner-code | guide 位代码 | 回填「广告位管理」→ 注入 `GuideLayout.tsx` |
 | 广告位3-todo-code | 第三个位占位 | **只读**：填了只提示，不处理 |
 | 自动化状态 | **程序回写**：`已完成` / `待回填` / `待补填` / `失败`；空 = 这行还没填任何自动化项 | 每轮回填后按站点真实状态重算，只改变化的格子 |
+
+> 2026-10-26：「站点」列改成写**裸域名**，原「域名」列已从两张表删除——两列内容本来就一样，
+> 人看表时多一列反而累。程序按 `x.vercel.app → x` 反推目录名，所以表里不用再出现目录名。
 
 `自动化状态` 的口径是**这一行做完没有**，不是「填了的东西落地没有」——
 `已完成` 要求 GA4（两个 ID）+ 广告位1 + 广告位2 **全填且全上线**，
@@ -313,4 +315,5 @@ MUST 人工值只填台账(人工)表，MUST NOT 同时手改站点代码和表�
 MUST 每月滚动时用 `node scripts/roll-month-ledger.mjs --month YYYY-MM --apply` 一次建两张表
 MUST NOT 手改表名（脚本按 `站点台账(自动化)|(人工)YYYY-MM` 解析；旧名 `站点台账2026-10` 只做兼容）
 MUST NOT 手改 `上线日` / `自动化状态` 两列（程序每轮按自动化表与站点真实状态重算，手改会被覆盖）
+MUST `站点` 列保持**裸域名**写法（`x.vercel.app`）；MUST NOT 改回目录名或加 `https://`——脚本靠它反推目录
 MUST NOT 把 `[待确认]` 当值用：回填脚本会跳过，Dashboard 也读不出来
