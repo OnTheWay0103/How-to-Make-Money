@@ -1,4 +1,6 @@
 import VersionBadge from './VersionBadge';
+import AdsterraSlot from '@/components/AdsterraSlot';
+import { ADSTERRA_ZONES } from '@/lib/adsterra-zones';
 
 interface GuideLayoutProps {
   frontmatter: {
@@ -50,6 +52,11 @@ export default function GuideLayout({ frontmatter, children }: GuideLayoutProps)
         {children}
       </div>
 
+      {/* ADSTERRA:GUIDE:START */}
+      {ADSTERRA_ZONES.guide.map((zone) => (
+        <AdsterraSlot key={zone.name} html={zone.html} />
+      ))}
+      {/* ADSTERRA:GUIDE:END */}
       {/* Verification */}
       <footer className="mt-12 pt-6 border-t border-[#2a2a5e]">
         <div className="bg-[#1a1a3e]/50 border border-[#2a2a5e] rounded-lg p-4">
