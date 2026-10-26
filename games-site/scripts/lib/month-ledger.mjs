@@ -89,8 +89,7 @@ export const MONTHLY_FIELDS = ['PV(30d)', 'PV 环比(%)'];
  * 顺序即列顺序，首个字段是主字段。
  * `广告位3-todo-code` 目前只占位：脚本只读不写，留给第三个广告位（待定）。
  * `上线日` 由脚本从自动化表同步（用来判断某行是「新站还没填」还是「老站漏了」）。
- * `自动化状态` 是脚本**回写**的列，人工不填：
- *   已完成 = 本行填了的自动化项都已落到站点；待回填 = 填了但还没落地；失败 = 上次回填/部署失败。
+ * `自动化状态` 是脚本**回写**的列，人工不填（取值见 AUTO_STATUS）。
  */
 export const MANUAL_FIELDS = [
   { name: '站点', type: 'text' },
@@ -105,10 +104,18 @@ export const MANUAL_FIELDS = [
   { name: '自动化状态', type: 'text' },
 ];
 
-/** 「自动化状态」列的取值。 */
+/**
+ * 「自动化状态」列的取值。判定口径：**这一行的自动化项是不是全填了、也全落地了**。
+ *   空     = 一个都还没填（人工还没开始）
+ *   待补填 = 只填了一部分（还差 GA4 或某个广告位）→ 人工继续填
+ *   待回填 = 全填了，但程序还没落到站点（值有误 / 等下一轮 / 部署没成功）
+ *   已完成 = 全填了，且都已落到站点并上线
+ *   失败   = 回填或部署失败，下一轮强制重部署
+ */
 export const AUTO_STATUS = {
   done: '已完成',
   pending: '待回填',
+  partial: '待补填',
   failed: '失败',
 };
 
@@ -212,9 +219,17 @@ export function resolveManualLedgerTable({ base = BASE_TOKEN, table, month, cwd 
   return { ...manual[manual.length - 1], fallback: true };
 }
 
+/**
+ * 飞书把「文本里的 URL」当富文本链接返回，`+record-list` 给的是 markdown 形态
+ * `[https://x](https://x)`。直接拿去写站点会把 `src="[https://…](https://…)"` 写坏，
+ * 所以统一拆成纯文本再往下走。
+ */
+export const unwrapLinks = (s) =>
+  typeof s === 'string' ? s.replace(/\[([^\]]*)\]\((https?:\/\/[^)\s]+)\)/g, '$1') : s;
+
 /** 把单元格值统一成能写回 batch-create 的标量。 */
 export function cellScalar(value) {
   if (Array.isArray(value)) return value.length === 0 ? null : cellScalar(value[0]);
-  if (value && typeof value === 'object') return value.text ?? value.name ?? null;
-  return value ?? null;
+  if (value && typeof value === 'object') return unwrapLinks(value.text ?? value.name ?? null);
+  return unwrapLinks(value ?? null);
 }

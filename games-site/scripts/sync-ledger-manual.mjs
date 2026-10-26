@@ -11,7 +11,7 @@
  *   广告位2-NativeBanner-code               → 写「广告位管理」guide 行 → 注入 GuideLayout.tsx
  *   GSC                                     只读：填了=人工已做，空着=每日报告里继续提醒
  *   广告位3-todo-code                       占位：脚本只读不写，填了会在报告里列出来
- *   自动化状态                              脚本回写：已完成 / 待回填 / 失败（人工据此判断进度）
+ *   自动化状态                              脚本回写：已完成 / 待回填 / 待补填 / 失败（人工据此判断进度）
  *
  * 只处理**有变化**的站：值已和站点代码一致的行完全不动，也就不部署。
  * 上一轮标了「失败」的站即使文件已一致，本轮也会强制重新部署一次。
@@ -23,6 +23,10 @@
  *   node scripts/sync-ledger-manual.mjs --site sephiriawiki --apply
  *   node scripts/sync-ledger-manual.mjs --table tblnXK0TUhXQhr4A --apply
  *   node scripts/sync-ledger-manual.mjs --max-deploy 5      # 单次最多部署几个站（默认 10）
+ *   node scripts/sync-ledger-manual.mjs --status-only        # 只刷「自动化状态」列，不部署
+ *
+ * 「自动化状态」是跑的那一刻算的：刚填完还没跑，列里可能仍是上一轮的「已完成」。
+ * 想立刻知道程序认不认这些值，用 `--status-only`。
  *
  * 退出码：0 全部成功；1 有站失败（其余照常处理）；2 找不到人工表/参数错误。
  */
@@ -55,6 +59,7 @@ const opt = (f, d = null) => {
 };
 
 const APPLY = has('--apply');
+const STATUS_ONLY = has('--status-only');
 const DEPLOY = !has('--no-deploy');
 const ONLY_SITE = opt('--site');
 const TABLE = opt('--table');
@@ -129,8 +134,13 @@ function hostOf(domain) {
 
 /**
  * 算一行该标什么「自动化状态」。
- * 只看**已经填了**的自动化项：填了且已落到站点 = 已完成。
- * 一个自动化项都没填 → 空（人工那边还没做，没什么可标的）。
+ *
+ * 口径是**这一行做完了没有**，不是「填了的东西落地了没有」：
+ *   一个自动化项都没填 → 空
+ *   只填了一部分       → 待补填（人工还要继续填 GA4 / 广告位）
+ *   全填了但没全落地   → 待回填
+ *   全填了且全落地     → 已完成
+ * 必须全填才可能「已完成」，否则「只填了 GA」的行会被误标成做完（2026-10-26 踩过）。
  * 已上线 / 已接入 都算落地：已接入 是人工手工接的，adsterra-sync 本来就会跳过它。
  * `gaOf` 可注入，dry-run 用来模拟「回填后」的 GA 值。
  */
@@ -141,13 +151,16 @@ function autoStatusOf(row, adsMap, failedSites, gaOf = currentGa) {
   const gaId = (row['GA4-measurementID'] || '').trim();
   const propId = (row['GA4-propertyID'] || '').trim();
   const gaFilled = GA_RE.test(gaId) && PROP_RE.test(propId);
-  const adFilled = MANUAL_AD_SLOTS.filter((s) => (row[s.field] || '').trim());
-  if (!gaFilled && adFilled.length === 0) return '';
+  const filledSlots = MANUAL_AD_SLOTS.filter((s) => (row[s.field] || '').trim());
+  const filledCount = (gaFilled ? 1 : 0) + filledSlots.length;
+  const needed = 1 + MANUAL_AD_SLOTS.length;
+  if (filledCount === 0) return '';
 
   if (failedSites.has(site)) return AUTO_STATUS.failed;
+  if (filledCount < needed) return AUTO_STATUS.partial;
 
-  const gaOk = !gaFilled || gaOf(site) === gaId;
-  const adsOk = adFilled.every(({ field, slot }) => {
+  const gaOk = gaOf(site) === gaId;
+  const adsOk = filledSlots.every(({ field, slot }) => {
     const ex = adsMap.get(adKey(site, slot));
     if (!ex) return false;
     if ((ex['广告代码'] || '').trim() !== (row[field] || '').trim()) return false;
@@ -199,8 +212,10 @@ function syncLaunchDates() {
  * 回填完 → 重读「广告位管理」（内存里的 adIndex 是跑之前的，状态还是旧的），
  * 逐行算「自动化状态」，只写变化的格子。
  * 没部署就不写：文件没上线，标「已完成」是假的。
+ * `carryFailures=false`：按站点真实状态重算，不继承上一轮的「失败」标记
+ *   （--status-only 用；否则手工修好之后状态永远洗不掉）。
  */
-function syncStatuses({ deployedSites = [], failedNow = [] } = {}) {
+function syncStatuses({ deployedSites = [], failedNow = [], carryFailures = true } = {}) {
   if (!DEPLOY) {
     log('\n自动化状态：--no-deploy 不回写（没部署，标了也不准）');
     statusSummary = { skipped: true };
@@ -218,11 +233,11 @@ function syncStatuses({ deployedSites = [], failedNow = [] } = {}) {
   // 上次标了失败、这次也没成功部署的，继续算失败（别把没上线的站标成已完成）
   const stillFailed = new Set([
     ...failedNow,
-    ...[...forceDeploy].filter((s) => !deployedSet.has(s)),
+    ...(carryFailures ? [...forceDeploy].filter((s) => !deployedSet.has(s)) : []),
   ]);
 
   const updates = {};
-  const counts = { done: 0, pending: 0, failed: 0 };
+  const counts = { done: 0, pending: 0, partial: 0, failed: 0 };
   for (const row of rows) {
     const site = (row['站点'] || '').trim();
     if (!site) continue;
@@ -232,6 +247,7 @@ function syncStatuses({ deployedSites = [], failedNow = [] } = {}) {
     updates[row.__record] = { 自动化状态: desired };
     if (desired === AUTO_STATUS.done) counts.done++;
     else if (desired === AUTO_STATUS.pending) counts.pending++;
+    else if (desired === AUTO_STATUS.partial) counts.partial++;
     else if (desired === AUTO_STATUS.failed) counts.failed++;
   }
 
@@ -256,7 +272,7 @@ function syncStatuses({ deployedSites = [], failedNow = [] } = {}) {
     { cwd: REPO },
   );
   log(
-    `\n▶ 自动化状态：更新 ${updated} 行（已完成 ${counts.done} / 待回填 ${counts.pending} / 失败 ${counts.failed}）`,
+    `\n▶ 自动化状态：更新 ${updated} 行（已完成 ${counts.done} / 待回填 ${counts.pending} / 待补填 ${counts.partial} / 失败 ${counts.failed}）`,
   );
   return statusSummary;
 }
@@ -441,6 +457,17 @@ const gaSelected = Object.fromEntries(
 const adSelected = adPlan.filter((a) => selected.has(a.site));
 const adSites = [...new Set(adSelected.map((a) => a.site))];
 
+/* ─── 手工触发：只刷「自动化状态」，不改站点、不部署 ─────────────── */
+
+if (STATUS_ONLY) {
+  // 按站点真实状态重算，不继承上一轮的「失败」标记（否则手动修好之后状态永远洗不掉）
+  const r = syncStatuses({ deployedSites: [], failedNow: [], carryFailures: false });
+  log(
+    `\n--status-only：只刷状态（已完成 ${r.done ?? 0} / 待回填 ${r.pending ?? 0} / 待补填 ${r.partial ?? 0} / 失败 ${r.failed ?? 0}），站点与部署都没动`,
+  );
+  process.exit(0);
+}
+
 if (!APPLY) {
   // 预览：按「本次计划顺利落地上线」估算，回填完真实状态会再刷一次
   const planned = new Set([...selected, ...forceSelected]);
@@ -450,7 +477,7 @@ if (!APPLY) {
   }
   const gaOf = (s) => (gaSelected[s] ? gaSelected[s].gaId : currentGa(s));
   const previewStillFailed = new Set([...forceDeploy].filter((s) => !planned.has(s)));
-  const preview = { done: 0, pending: 0, failed: 0, changed: 0 };
+  const preview = { done: 0, pending: 0, partial: 0, failed: 0, changed: 0 };
   for (const row of rows) {
     const site = (row['站点'] || '').trim();
     if (!site || (ONLY_SITE && site !== ONLY_SITE)) continue;
@@ -459,11 +486,12 @@ if (!APPLY) {
     preview.changed++;
     if (desired === AUTO_STATUS.done) preview.done++;
     else if (desired === AUTO_STATUS.pending) preview.pending++;
+    else if (desired === AUTO_STATUS.partial) preview.partial++;
     else if (desired === AUTO_STATUS.failed) preview.failed++;
   }
   if (DEPLOY) {
     log(
-      `\n自动化状态预览：会更新 ${preview.changed} 行（已完成 ${preview.done} / 待回填 ${preview.pending} / 失败 ${preview.failed}）——按部署全部成功估算`,
+      `\n自动化状态预览：会更新 ${preview.changed} 行（已完成 ${preview.done} / 待回填 ${preview.pending} / 待补填 ${preview.partial} / 失败 ${preview.failed}）——按部署全部成功估算`,
     );
   } else {
     log('\n自动化状态：--no-deploy 不回写');
@@ -635,7 +663,7 @@ if (forceDeferred.length) log(`重部署顺延：${forceDeferred.join(', ')}`);
 if (gscPending.length) log(`GSC 未填：${gscPending.join(', ')}`);
 if (statusSummary && !statusSummary.skipped) {
   log(
-    `自动化状态：更新 ${statusSummary.updated} 行（已完成 ${statusSummary.done} / 待回填 ${statusSummary.pending} / 失败 ${statusSummary.failed}）`,
+    `自动化状态：更新 ${statusSummary.updated} 行（已完成 ${statusSummary.done} / 待回填 ${statusSummary.pending} / 待补填 ${statusSummary.partial} / 失败 ${statusSummary.failed}）`,
   );
 }
 
@@ -694,7 +722,7 @@ function commitAndLog(deployedSites, failedSites = []) {
       `改 GA4：${Object.keys(gaSelected).length} 站`,
       `改广告位：${adSites.length} 站`,
       `部署：${deployedSites.join(', ') || '无'}`,
-      `自动化状态：已完成 ${statusSummary?.done ?? 0} / 待回填 ${statusSummary?.pending ?? 0} / 失败 ${statusSummary?.failed ?? 0}`,
+      `自动化状态：已完成 ${statusSummary?.done ?? 0} / 待回填 ${statusSummary?.pending ?? 0} / 待补填 ${statusSummary?.partial ?? 0} / 失败 ${statusSummary?.failed ?? 0}`,
       '',
       'Co-Authored-By: Claude Code <noreply@anthropic.com>',
     ].join('\n'),

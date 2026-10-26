@@ -29,6 +29,11 @@
  *   --apply    注入成功 → 同步状态 = 已同步
  *   --deploy   部署成功 → 状态 = 已上线
  *
+ * --deploy 不跑本地 build（wiki 站日常不留 node_modules，构建在 Vercel 上做）；
+ * 要本地先构建过一遍门禁，显式加 --build。
+ * --deploy 还会补部署「已注入但未上线」的站（同步状态=已同步 且 状态≠已上线），
+ * 这样上一轮注入成功、部署失败不会因为「代码没变化」而永远卡住。
+ *
  * Columns (Bitable field names, CSV headers may use the English names):
  *   站点目录,域名,广告位类型,广告格式,广告位名称,广告位ID,状态,广告代码,备注
  *
@@ -125,6 +130,7 @@ const HEADER_ALIASES = {
   placement_name: ['placement_name', 'placement name', '广告位名称', '名称'],
   placement_id: ['placement_id', 'placement id', '广告位id', '广告位编号', 'id'],
   status: ['status', '状态'],
+  sync_status: ['sync_status', '同步状态'],
   code: ['code', '广告代码', '广告代码（完整）', '代码'],
   notes: ['notes', '备注'],
 };
@@ -225,13 +231,17 @@ function loadFromFeishu(url, sheetName) {
 
 /** Bitable cell values: select → array, text → string|null, link → object[]. */
 function cellText(value) {
+  // 飞书把文本里的 URL 当富文本链接返回 `[https://x](https://x)`；不拆开会把 src 写坏。
+  const unlink = (s) =>
+    typeof s === 'string' ? s.replace(/\[([^\]]*)\]\((https?:\/\/[^)\s]+)\)/g, '$1') : s;
   if (Array.isArray(value)) {
     return value
       .map((v) => (v && typeof v === 'object' ? v.text ?? v.name ?? '' : String(v ?? '')))
+      .map(unlink)
       .join(', ');
   }
-  if (value && typeof value === 'object') return value.text ?? value.name ?? JSON.stringify(value);
-  return value == null ? '' : String(value);
+  if (value && typeof value === 'object') return unlink(value.text ?? value.name ?? JSON.stringify(value));
+  return value == null ? '' : unlink(String(value));
 }
 
 function loadFromBitable(baseToken, table) {
@@ -518,6 +528,28 @@ const template = fs.readFileSync(TEMPLATE_PATH, 'utf8');
 const changes = [];
 const failures = [];
 
+/**
+ * 补部署名单：代码**已经注入**（同步状态 = 已同步）但**还没上线**（状态 ≠ 已上线）的站。
+ * 上一轮注入成功、部署失败就卡在这个状态；再跑一次不能因为「代码没变化」就永远不部署。
+ */
+const pendingDeploy = [];
+if (DEPLOY) {
+  for (const [siteDir, siteRowList] of siteRows) {
+    if (ONLY_SITE && siteDir !== ONLY_SITE) continue;
+    if (!fs.existsSync(path.join(SITES_ROOT, siteDir, 'app', 'layout.tsx'))) continue;
+    const live = siteRowList.filter(
+      (r) => (r.code || '').trim() && !MANUAL_STATUSES.has((r.status || '').trim()),
+    );
+    if (!live.length) continue;
+    const allSynced = live.every((r) => (r.sync_status || '').trim() === '已同步');
+    const allOnline = live.every((r) => (r.status || '').trim() === '已上线');
+    if (allSynced && !allOnline) pendingDeploy.push(siteDir);
+  }
+  if (pendingDeploy.length) {
+    console.log(`补部署（已注入但未上线）：${pendingDeploy.join(', ')}`);
+  }
+}
+
 for (const [siteDir, zones] of bySite) {
   const sitePath = path.join(SITES_ROOT, siteDir);
   if (!fs.existsSync(path.join(sitePath, 'app', 'layout.tsx'))) {
@@ -636,24 +668,29 @@ if (changes.length > 0) {
 const deployed = [];
 
 if (BUILD || DEPLOY) {
-  for (const siteDir of changes) {
+  const targets = [...new Set([...changes, ...pendingDeploy])];
+  for (const siteDir of targets) {
     const sitePath = path.join(SITES_ROOT, siteDir);
-    console.log(`\n▶ ${siteDir}: pnpm install && pnpm build`);
-    const install = spawnSync('pnpm', ['install', '--prefer-offline'], {
-      cwd: sitePath,
-      stdio: 'inherit',
-    });
-    if (install.status !== 0) {
-      failures.push(`${siteDir}: pnpm install failed`);
-      continue;
-    }
-    const build = spawnSync('pnpm', ['build'], { cwd: sitePath, stdio: 'inherit' });
-    if (build.status !== 0) {
-      failures.push(`${siteDir}: build failed`);
-      continue;
+    // 本地 build 是可选门禁（默认不跑）：wiki 站日常不留 node_modules，
+    // 真正的构建在 Vercel 上做，deploy-wiki-site.sh 也会先跑 lint。
+    if (BUILD) {
+      console.log(`\n▶ ${siteDir}: pnpm install && pnpm build`);
+      const install = spawnSync('pnpm', ['install', '--prefer-offline'], {
+        cwd: sitePath,
+        stdio: 'inherit',
+      });
+      if (install.status !== 0) {
+        failures.push(`${siteDir}: pnpm install failed`);
+        continue;
+      }
+      const build = spawnSync('pnpm', ['build'], { cwd: sitePath, stdio: 'inherit' });
+      if (build.status !== 0) {
+        failures.push(`${siteDir}: build failed`);
+        continue;
+      }
     }
     if (DEPLOY) {
-      console.log(`▶ ${siteDir}: deploy`);
+      console.log(`\n▶ ${siteDir}: deploy`);
       const deploy = spawnSync('./deploy-wiki-site.sh', [siteDir], {
         cwd: REPO,
         stdio: 'inherit',
