@@ -1906,3 +1906,29 @@ Loftia 排在其后。Chained Beasts 已因名字污染重、需求偏小下调�
   需求封顶 3 分，不构成建站依据；建议发售 1–2 周后再采一轮。
 - **UnderMire**（11/13）— 219 条去重建议里仅 2 条有效（99% 是 `UnderMine` 同名噪声）→ 判「搜索需求低」。
 - 结论：预售期游戏挖不出攻略型词，发现轮 MUST 以「已发售 ≤30 天 + 有评测量」为主战场。
+
+---
+
+# 新关键词机会 — 2026-10-26（当日探索轮汇总）
+
+> 来源：`keyword-results/discovery-2026-10-26.md`（6 源扫描）+ `keyword-results/selection-2026-10-26.md`（7 候选四维评分）
+> 说明：本轮无候选达 ≥17 明确读法，**下列词是「若开建」的优先落点**，不是已建站的内容计划。
+
+**Top 3 值得下一步写的关键词**
+
+1. **`neon abyss 2 all bosses` / `neon abyss 2 boss list`**（Boss/Characters 簇 12 词，含 `bosses in order`、`eris boss`、`final boss`）
+   — 全站最厚的一簇搜索意图。CapyDB 这类数据库覆盖 items/weapons/agents/hatchmon/faiths，**不覆盖 Boss 打法和顺序**，
+   是真正的攻略缺口；若 Neon Abyss 2 获确认建站，这是首发第一页。
+
+2. **`neon abyss 2 character tier list` / `neon abyss 2 best character`**（Tier List 簇 3 词 + `character unlock` / `secret characters`）
+   — 强比较意图、可长期更新；与 Boss 页分属不同搜索意图，不构成自噬。`secret characters` 还带隐藏内容解锁需求。
+
+3. **`neon abyss 2 local co op` / `neon abyss 2 multiplayer not working`**（Co-op 簇 8 词，页型仍为「待定」）
+   — 8 个词里一半在问「有没有本地/同屏合作」，另一半在问「联机坏了怎么办」；
+   前者是 FAQ，后者是排障页，二者可合成一个「联机完全指南」，也与站点现有 FAQ 页互补。
+
+**次选（不建议优先）**：Hellraiser: Revival 的 `codes` 簇（9 词、锚定率 76.8%）搜索意图明确，
+但血腥/性主题对 Adsterra 合规有风险，即使建站也应后置。
+
+**结论**：本轮关键词工作的产出是「一个卡线候选 + 三组可用词簇」，**没有可直接开工的 ≥17 分站点**；
+需用户对 Neon Abyss 2 的 16–17 分做出确认，或等复采后攻略型占比自然 ≥40%。
