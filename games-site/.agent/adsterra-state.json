@@ -438,5 +438,25 @@
       "hash": "7499a1a7c90e",
       "deployedAt": "2026-10-25T04:20:33.000Z"
     }
+  },
+  "anomalypresidentwiki": {
+    "global": {
+      "hash": "e470baa8be35",
+      "deployedAt": "2026-10-26T14:00:30.650Z"
+    },
+    "guide": {
+      "hash": "3168121dc929",
+      "deployedAt": "2026-10-26T14:00:30.650Z"
+    }
+  },
+  "nivalisnightswiki": {
+    "global": {
+      "hash": "eec1b7b6a1e1",
+      "deployedAt": "2026-10-26T14:01:04.876Z"
+    },
+    "guide": {
+      "hash": "2150678a8df3",
+      "deployedAt": "2026-10-26T14:01:04.876Z"
+    }
   }
 }
