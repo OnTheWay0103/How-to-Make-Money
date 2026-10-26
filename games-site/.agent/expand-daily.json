@@ -2,37 +2,31 @@
   "description": "每日内容扩充跟踪（docs/每日内容扩充计划.md）— 所有 PV>1000 的重点站每站每天 1 篇，无轮换",
   "mechanism": "daily-per-site",
   "ruleUpdated": "2026-09-02",
-  "pvSnapshotDate": "2026-09-02",
+  "pvSnapshotDate": "2026-10-26",
   "sites": [
     {
+      "site": "nivalisnightswiki",
+      "pv": 2400,
+      "lastExpanded": "2026-10-26",
+      "lastProduced": "manager-restock-guide (1,474w)"
+    },
+    {
       "site": "sephiriawiki",
-      "pv": 11110,
-      "lastExpanded": "2026-10-24",
-      "lastProduced": "stuck-soft-lock-recovery-guide (1,481w)"
+      "pv": 1242,
+      "lastExpanded": "2026-10-26",
+      "lastProduced": "wishing-fountain-capacity-guide (1,491w)"
     },
     {
-      "site": "themoundwiki",
-      "pv": 4916,
-      "lastExpanded": "2026-10-24",
-      "lastProduced": "tulu-cylinders-unlock-the-mound (1,332w)"
+      "site": "waterparksimulatorwiki",
+      "pv": 1196,
+      "lastExpanded": "2026-10-26",
+      "lastProduced": "stuck-guests-fix-guide (1,373w)"
     },
     {
-      "site": "spiritvalewiki",
-      "pv": 4904,
-      "lastExpanded": "2026-10-24",
-      "lastProduced": "advanced-artifacts-grimoires-guide (1,442w, 官方系统驱动；反馈驱动部分见 skips)"
-    },
-    {
-      "site": "tearsofmetalwiki",
-      "pv": 1837,
-      "lastExpanded": "2026-10-24",
-      "lastProduced": "trials-mother-stone-challenges-guide (1,373w)"
-    },
-    {
-      "site": "grainrotwiki",
-      "pv": 1101,
-      "lastExpanded": "2026-10-24",
-      "lastProduced": "legendary-gumball-constructs-guide (1,481w)"
+      "site": "shiftatmidnightwiki",
+      "pv": 1099,
+      "lastExpanded": "2026-10-26",
+      "lastProduced": "shop-rating-cleaning-guide (1,421w)"
     }
   ],
   "skips": [
@@ -155,6 +149,11 @@
       "site": "spiritvalewiki",
       "date": "2026-10-24",
       "reason": "本日无满足条件的反馈驱动选题（按规则记为 SKIP，次日优先补跑）。采集面：Steam 讨论区 3 条高热串（拍卖行/背包/装备升级后批量卡死、死亡检查回档 70→35、新手无引导）全部已被 connection-server-guide / beginner-guide 覆盖；Steam 评测 API 302、Reddit 403/429，无法凑到 Profile 要求的 ≥20 条有效样本。当日实际产出 advanced-artifacts-grimoires-guide 属**官方系统清单驱动**（0.32.0 Advanced Artifacts & Grimoires 上线、站内 0 覆盖，且 artifact-sets-guide 仍写「未上线」属事实错误），不计入反馈驱动扩充，故本站仍需次日补一篇真正反馈驱动的文章。"
+    },
+    {
+      "site": "themoundwiki",
+      "date": "2026-10-26",
+      "reason": "新页 SKIP（宁缺毋滥）：可达面只有 Steam 官方公告 API 40 条全文；store/steamcommunity TCP 不可达、Reddit 403、eddrit 被 Anubis 拦、addictinggames 403，拿不到逐条可点的玩家原帖，不满足 ≥3 独立玩家来源。抱怨面（性能/背包/语音/牛车/倒地腐化）已被 performance-fps-fix / inventory-management / voice-chat-fix / ox-cart / coop-strategy 整块覆盖；系统清单唯一空白（珠宝盒/The Rosary/Tsath pearls）官方仅一句话，数量/坐标/刷新/效果全无来源，写 800 词必有六成是「不知道」→ 不硬写。当日改做 P0 校准：updates-patch-notes 补 Patch 1.06（2026-10-05，逐字锚定官方原文）并补 3 条 Official sources。"
     }
   ],
   "runGaps": [
@@ -178,10 +177,10 @@
     }
   ],
   "lastRun": {
-    "date": "2026-10-24",
-    "produced": 5,
+    "date": "2026-10-26",
+    "produced": 7,
     "skipped": 1,
-    "note": "名单内 5 站：sephiria / themound / grainrot / tearsofmetal 反馈驱动产出；spiritvale 仅官方系统驱动产出（反馈驱动记 SKIP，次日补）。"
+    "note": "按 30 天 PV 复核重排名单：原 5 站全部执行，其中 sephiria/spiritvale/tearsofmetal/grainrot 各 +1 篇；themound 新页 SKIP、改做 1.06 校准。新过线 nivalis(2400)/waterpark(1196)/shiftatmidnight(1099) 各 +1 篇。全部 QA quick PASS（themound/sephiria 各 2 条非阻断警告）。"
   },
   "catchUps": [
     {
@@ -190,6 +189,36 @@
       "sites": 43,
       "articles": 43,
       "reason": "定时任务 2026-09-17 后因 API 余额不足（402）停跑；2026-10-23 恢复调度并执行一次全站补更。"
+    }
+  ],
+  "pvSource": "dashboard /api/traffic，窗口 2026-09-26 → 2026-10-26（30 天 pageViews）",
+  "watchlist": [
+    {
+      "site": "themoundwiki",
+      "pv": 818,
+      "lastExpanded": "2026-10-24",
+      "note": "2026-10-26 复核跌破 1000 移出每日名单；当日新页 SKIP（无 ≥3 独立玩家来源选题），改做 1.06 补丁校准"
+    },
+    {
+      "site": "spiritvalewiki",
+      "pv": 810,
+      "lastExpanded": "2026-10-26",
+      "lastProduced": "empty-maps-missing-monsters-guide (1,500w)",
+      "note": "已产出后跌破 1000，下次复核过线自动回归"
+    },
+    {
+      "site": "tearsofmetalwiki",
+      "pv": 704,
+      "lastExpanded": "2026-10-26",
+      "lastProduced": "seraphic-blade-unlock-guide (1,474w)",
+      "note": "已产出后跌破 1000，下次复核过线自动回归"
+    },
+    {
+      "site": "grainrotwiki",
+      "pv": 246,
+      "lastExpanded": "2026-10-26",
+      "lastProduced": "save-files-and-coop-progress-guide (1,500w)",
+      "note": "已产出后跌破 1000，下次复核过线自动回归"
     }
   ]
 }

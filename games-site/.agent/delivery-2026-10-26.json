@@ -1,10 +1,13 @@
 {
   "date": "2026-10-26",
-  "note": "Neon Abyss 2 新建站：四维评分 16（观察档），按用户决定「只改这一批 不改规则」作为例外建站，评分规则未改",
+  "note": "合并记录：neonabyss2wiki 行由并发定时运行写入（四维 16 分，属 15–16 需用户确认档，确认未核验）；其余 7 行为主 Agent 手动运行的每日扩充交付。",
   "rows": [
     {
       "site": "neonabyss2wiki",
-      "types": ["新建站", "部署"],
+      "types": [
+        "新建站",
+        "部署"
+      ],
       "guides": [
         "neon-abyss-2-local-co-op",
         "neon-abyss-2-boss-list",
@@ -17,6 +20,104 @@
       "url": "https://neonabyss2wiki.vercel.app/",
       "verify": "200",
       "words": 9026
+    },
+    {
+      "site": "sephiriawiki",
+      "types": [
+        "扩充",
+        "部署"
+      ],
+      "guides": [
+        "wishing-fountain-capacity-guide"
+      ],
+      "qa": "PASS",
+      "url": "https://sephiriawiki.vercel.app/guides/wishing-fountain-capacity-guide",
+      "verify": "200",
+      "words": 1491
+    },
+    {
+      "site": "spiritvalewiki",
+      "types": [
+        "扩充",
+        "部署"
+      ],
+      "guides": [
+        "empty-maps-missing-monsters-guide"
+      ],
+      "qa": "PASS",
+      "url": "https://spiritvalewiki.vercel.app/guides/empty-maps-missing-monsters-guide",
+      "verify": "200",
+      "words": 1500
+    },
+    {
+      "site": "tearsofmetalwiki",
+      "types": [
+        "扩充",
+        "部署"
+      ],
+      "guides": [
+        "seraphic-blade-unlock-guide"
+      ],
+      "qa": "PASS",
+      "url": "https://tearsofmetalwiki.vercel.app/guides/seraphic-blade-unlock-guide",
+      "verify": "200",
+      "words": 1474
+    },
+    {
+      "site": "grainrotwiki",
+      "types": [
+        "扩充",
+        "部署"
+      ],
+      "guides": [
+        "save-files-and-coop-progress-guide"
+      ],
+      "qa": "PASS",
+      "url": "https://grainrotwiki.vercel.app/guides/save-files-and-coop-progress-guide",
+      "verify": "200",
+      "words": 1500
+    },
+    {
+      "site": "nivalisnightswiki",
+      "types": [
+        "扩充",
+        "部署"
+      ],
+      "guides": [
+        "manager-restock-guide"
+      ],
+      "qa": "PASS-WITH-WARN",
+      "url": "https://nivalisnightswiki.vercel.app/guides/manager-restock-guide",
+      "verify": "200",
+      "words": 1474
+    },
+    {
+      "site": "waterparksimulatorwiki",
+      "types": [
+        "扩充",
+        "部署"
+      ],
+      "guides": [
+        "stuck-guests-fix-guide"
+      ],
+      "qa": "PASS-WITH-WARN",
+      "url": "https://waterparksimulatorwiki.vercel.app/guides/stuck-guests-fix-guide",
+      "verify": "200",
+      "words": 1373
+    },
+    {
+      "site": "shiftatmidnightwiki",
+      "types": [
+        "扩充",
+        "部署"
+      ],
+      "guides": [
+        "shop-rating-cleaning-guide"
+      ],
+      "qa": "PASS",
+      "url": "https://shiftatmidnightwiki.vercel.app/guides/shop-rating-cleaning-guide",
+      "verify": "200",
+      "words": 1421
     }
   ]
 }

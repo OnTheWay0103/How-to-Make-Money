@@ -2051,6 +2051,108 @@
       "qa": "Automated self-check: 800-1500 body words, frontmatter complete, related targets exist, no CJK/placeholders, live HTTP 200. Report: keyword-results/silverpineswiki-expand-10-23.md",
       "issues": [],
       "lessons": ""
+    },
+    {
+      "game": "Sephiria",
+      "date": "2026-10-26",
+      "genre": "existing site",
+      "template": "sephiriawiki existing (no template change)",
+      "mode": "expand-feedback",
+      "guidesAdded": 1,
+      "guides": 44,
+      "deployed": true,
+      "pipeline": "EXPAND-10/26 → wishing-fountain-capacity-guide → QA quick → pnpm build → deploy-wiki-site.sh → verify-guide-live PASS",
+      "qa": "QA quick PASS. Wishing Fountain 容量与开局神器（反馈+系统双路径，12 源 7 官方）. Report: .agent/qa-expand-sephiriawiki-2026-10-26.md",
+      "issues": [],
+      "lessons": ""
+    },
+    {
+      "game": "SpiritVale",
+      "date": "2026-10-26",
+      "genre": "existing site",
+      "template": "spiritvalewiki existing (no template change)",
+      "mode": "expand-feedback",
+      "guidesAdded": 1,
+      "guides": 49,
+      "deployed": true,
+      "pipeline": "EXPAND-10/26 → empty-maps-missing-monsters-guide → QA quick → pnpm build → deploy-wiki-site.sh → verify-guide-live PASS",
+      "qa": "QA quick PASS. 空图/怪物刷新/争夺营地排查（5 条社区来源，补 10-24 SKIP）. Report: .agent/qa-expand-spiritvalewiki-2026-10-26.md",
+      "issues": [],
+      "lessons": ""
+    },
+    {
+      "game": "Tears of Metal",
+      "date": "2026-10-26",
+      "genre": "existing site",
+      "template": "tearsofmetalwiki existing (no template change)",
+      "mode": "expand-feedback",
+      "guidesAdded": 1,
+      "guides": 40,
+      "deployed": true,
+      "pipeline": "EXPAND-10/26 → seraphic-blade-unlock-guide → QA quick → pnpm build → deploy-wiki-site.sh → verify-guide-live PASS",
+      "qa": "QA quick PASS. Seraphic Blade 三段解锁（官方 9/8 补丁 + 4 社区源）. Report: .agent/qa-expand-tearsofmetalwiki-2026-10-26.md",
+      "issues": [],
+      "lessons": ""
+    },
+    {
+      "game": "Grain Rot",
+      "date": "2026-10-26",
+      "genre": "existing site",
+      "template": "grainrotwiki existing (no template change)",
+      "mode": "expand-feedback",
+      "guidesAdded": 1,
+      "guides": 38,
+      "deployed": true,
+      "pipeline": "EXPAND-10/26 → save-files-and-coop-progress-guide → QA quick → pnpm build → deploy-wiki-site.sh → verify-guide-live PASS",
+      "qa": "QA quick PASS. 存档与联机进度持久化（官方系统清单驱动）. Report: .agent/qa-expand-grainrotwiki-2026-10-26.md",
+      "issues": [],
+      "lessons": ""
+    },
+    {
+      "game": "Nivalis Nights",
+      "date": "2026-10-26",
+      "genre": "existing site",
+      "template": "nivalisnightswiki existing (no template change)",
+      "mode": "expand-feedback",
+      "guidesAdded": 1,
+      "guides": 19,
+      "deployed": true,
+      "pipeline": "EXPAND-10/26 → manager-restock-guide → QA quick → pnpm build → deploy-wiki-site.sh → verify-guide-live PASS",
+      "qa": "QA quick PASS-WITH-WARN. Manager 补货/腐烂/预算（新过线重点站）. Report: .agent/qa-expand-nivalisnightswiki-2026-10-26.md",
+      "issues": [
+        "来源页本机不可直连，部分证据依据搜索索引摘要，已在 sources 标注"
+      ],
+      "lessons": ""
+    },
+    {
+      "game": "Waterpark Simulator",
+      "date": "2026-10-26",
+      "genre": "existing site",
+      "template": "waterparksimulatorwiki existing (no template change)",
+      "mode": "expand-feedback",
+      "guidesAdded": 1,
+      "guides": 18,
+      "deployed": true,
+      "pipeline": "EXPAND-10/26 → stuck-guests-fix-guide → QA quick → pnpm build → deploy-wiki-site.sh → verify-guide-live PASS",
+      "qa": "QA quick PASS-WITH-WARN. 游客/员工卡住修复（新过线重点站）. Report: .agent/qa-expand-waterparksimulatorwiki-2026-10-26.md",
+      "issues": [
+        "来源页本机不可直连，部分证据依据搜索索引摘要，已在 sources 标注"
+      ],
+      "lessons": ""
+    },
+    {
+      "game": "Shift At Midnight",
+      "date": "2026-10-26",
+      "genre": "existing site",
+      "template": "shiftatmidnightwiki existing (no template change)",
+      "mode": "expand-feedback",
+      "guidesAdded": 1,
+      "guides": 33,
+      "deployed": true,
+      "pipeline": "EXPAND-10/26 → shop-rating-cleaning-guide → QA quick → pnpm build → deploy-wiki-site.sh → verify-guide-live PASS",
+      "qa": "QA quick PASS. 商店评分与清洁装饰（新过线重点站）. Report: .agent/qa-expand-shiftatmidnightwiki-2026-10-26.md",
+      "issues": [],
+      "lessons": ""
     }
   ],
   "knownIssues": [

@@ -1932,3 +1932,37 @@ Loftia 排在其后。Chained Beasts 已因名字污染重、需求偏小下调�
 
 **结论**：本轮关键词工作的产出是「一个卡线候选 + 三组可用词簇」，**没有可直接开工的 ≥17 分站点**；
 需用户对 Neon Abyss 2 的 16–17 分做出确认，或等复采后攻略型占比自然 ≥40%。
+
+---
+
+# 每日扩充 QA — 2026-10-26（PV>1000 重点站，主 Agent 手动运行）
+
+> 模式：quick（每站产出后立即执行）→ build → deploy → `scripts/verify-guide-live.sh` 线上内容级复验
+> 名单来源：`.agent/expand-daily.json` 原名单 5 站 + 按 30 天 PV 复核新过线 3 站
+> （dashboard `/api/traffic` 2026-09-26→2026-10-26：nivalis 2,400 / sephiria 1,242 / waterpark 1,196 / shiftatmidnight 1,099）
+
+| 站点 | 选题来源 | 产出 | 词数 | 来源（O/C/E） | QA | 线上复验 |
+|------|----------|------|:---:|:---:|:--:|:--:|
+| sephiriawiki | 反馈+系统双路径 | `wishing-fountain-capacity-guide` | 1,491 | 7/3/2 | PASS（2 警告） | PASS（HTTP 200） |
+| themoundwiki | — | **SKIP 新页**；改做 `updates-patch-notes` 补 1.06 | 1,776（校准例外） | 3 Official 新增 | PASS（2 警告） | PASS（HTTP 200） |
+| spiritvalewiki | 反馈驱动（5 社区源） | `empty-maps-missing-monsters-guide` | 1,500 | 1/5/1 | PASS | PASS（HTTP 200） |
+| tearsofmetalwiki | 系统缺口 + 讨论区 | `seraphic-blade-unlock-guide` | 1,474 | 1/4/1 | PASS | PASS（HTTP 200） |
+| grainrotwiki | 官方系统清单 | `save-files-and-coop-progress-guide` | 1,500 | 3/2/1 | PASS | PASS（HTTP 200） |
+| nivalisnightswiki | 反馈驱动（manager 超买/腐烂） | `manager-restock-guide` | 1,474 | 3/4/1 | PASS-WITH-WARN | PASS（HTTP 200，sitemap 27 URL） |
+| waterparksimulatorwiki | 官方补丁 + 讨论区 | `stuck-guests-fix-guide` | 1,373 | 2/4/1 | PASS-WITH-WARN | PASS（HTTP 200，sitemap 26 URL） |
+| shiftatmidnightwiki | 反馈+官方系统 | `shop-rating-cleaning-guide` | 1,421 | 2/3/4 | PASS（1 P2） | PASS（HTTP 200） |
+
+## 本日遗留（非阻断）
+
+1. **themound SKIP 成立**：可达面只有官方公告 API；Steam 评测/讨论区 TCP 不可达、Reddit 403、eddrit 被拦。
+   抱怨面已被 5 篇既有页覆盖；系统空白（珠宝盒/Rosary/Tsath pearls）无来源，写必编造。已记入 `expand-daily.json` skips。
+2. **themound 「39 official announcements」表述陈旧**（现 40 条），散落约 15 文件 61 处 → 需下一轮批量校准。
+3. **sephiria 旧页术语冲突**：`artifacts-guide` / `inscriptions-guide` 写「Artifact Slot +1」，官方无此说法；
+   新页已解释，旧页未动 → 下一轮统一。
+4. **跨站模板问题（P1）**：`GuideLayout.tsx` 渲染 frontmatter 标题为 `<h1>`，正文 markdown 又有一个 `#`，
+   线上每页实测 **2 个 H1**（`curl | grep -o "<h1" | wc -l` = 2），与「有且仅有 1 个 H1」冲突。
+   新建的 neonabyss2wiki 已采用「正文不写 H1」写法；存量 45 站需批量决策（改模板 demote h1→h2，或删正文 H1），本轮未动。
+5. **并发运行冲突（重要）**：本次手动运行期间，08:30 的定时 `claude -p` 同时运行并
+   ① 覆盖了 `.agent/qa-report.md`（已恢复并另存 `.agent/qa-neonabyss2-2026-10-26.md`）；
+   ② 建站并部署 `neonabyss2wiki`（四维 16 分，属 15–16 需用户确认档），commit 4c13518 声称「用户决定」，
+   但本会话无任何用户输入记录，**该确认无法核验**。详见本轮主管报告「待人工处理」。
