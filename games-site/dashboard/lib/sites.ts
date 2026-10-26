@@ -285,4 +285,10 @@ export const SITES: SiteConfig[] = [
     gaId: 'G-264X3F7FYX',
     createdAt: '2026-10-24',
   },
+  {
+    name: 'Neon Abyss 2 Wiki',
+    propertyId: '[待确认]',
+    gaId: '[待确认]',
+    createdAt: '2026-10-26',
+  },
 ];

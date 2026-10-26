@@ -117,6 +117,33 @@ const pages = fs
     };
   });
 
+/* ─── 读路由页（app/<dir>/page.tsx）─────────────────────── */
+// 矩阵里的 FAQ 行落在 app/faq/page.tsx 这类路由页，而不是 content/guides。
+// 只把「自带问答数组（FAQ_ITEMS 非空）」的路由页算作落地页，避免把
+// /about、/privacy 这类信任页当成内容页。
+const appDir = path.join(siteDir, 'app');
+const routePages = [];
+for (const entry of fs.existsSync(appDir) ? fs.readdirSync(appDir, { withFileTypes: true }) : []) {
+  if (!entry.isDirectory()) continue;
+  const file = path.join(appDir, entry.name, 'page.tsx');
+  if (!fs.existsSync(file)) continue;
+  const raw = fs.readFileSync(file, 'utf8');
+  const items = raw.match(/FAQ_ITEMS[^=]*=\s*\[([\s\S]*?)\n\];/);
+  if (!items || !items[1].trim()) continue;
+  const qa = [...items[1].matchAll(/question:\s*['"]([^'"]+)['"][\s\S]*?answer:\s*['"]([^'"]+)['"]/g)]
+    .map((m) => `${m[1]} ${m[2]}`)
+    .join(' ');
+  const get = (k) => (raw.match(new RegExp(`${k}:\\s*\\n?\\s*['"]([^'"]+)['"]`)) || [])[1] || '';
+  const hay = [entry.name, get('title'), get('description'), qa].join(' ').toLowerCase();
+  routePages.push({
+    slug: entry.name,
+    route: `/app/${entry.name}/page.tsx`,
+    haystack: hay,
+    tokens: new Set(tokensOf(hay)),
+  });
+}
+for (const p of routePages) pages.push(p);
+
 /* ─── 匹配 ──────────────────────────────────────────────── */
 
 const used = new Set();

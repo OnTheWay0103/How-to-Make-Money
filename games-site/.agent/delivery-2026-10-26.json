@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-26",
+  "note": "Neon Abyss 2 新建站：四维评分 16（观察档），按用户决定「只改这一批 不改规则」作为例外建站，评分规则未改",
+  "rows": [
+    {
+      "site": "neonabyss2wiki",
+      "types": ["新建站", "部署"],
+      "guides": [
+        "neon-abyss-2-local-co-op",
+        "neon-abyss-2-boss-list",
+        "neon-abyss-2-beginner-guide",
+        "neon-abyss-2-weapon-tier-list",
+        "neon-abyss-2-1-0-update",
+        "neon-abyss-2-codes"
+      ],
+      "qa": "PASS",
+      "url": "https://neonabyss2wiki.vercel.app/",
+      "verify": "200",
+      "words": 9026
+    }
+  ]
+}
