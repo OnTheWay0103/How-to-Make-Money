@@ -88,6 +88,8 @@ export const MONTHLY_FIELDS = ['PV(30d)', 'PV 环比(%)'];
  * 人工表字段（人填 = 人工事项已完成，脚本读走回填站点）。
  * 顺序即列顺序，首个字段是主字段。
  * `广告位3-todo-code` 目前只占位：脚本只读不写，留给第三个广告位（待定）。
+ * `自动化状态` 是脚本**回写**的列（唯一由脚本写的列）：
+ *   已完成 = 本行填了的自动化项都已落到站点；待回填 = 填了但还没落地；失败 = 上次回填/部署失败。
  */
 export const MANUAL_FIELDS = [
   { name: '站点', type: 'text' },
@@ -98,7 +100,18 @@ export const MANUAL_FIELDS = [
   { name: '广告位1-SocialBar-code', type: 'text' },
   { name: '广告位2-NativeBanner-code', type: 'text' },
   { name: '广告位3-todo-code', type: 'text' },
+  { name: '自动化状态', type: 'text' },
 ];
+
+/** 「自动化状态」列的取值。 */
+export const AUTO_STATUS = {
+  done: '已完成',
+  pending: '待回填',
+  failed: '失败',
+};
+
+/** 人工表里由脚本**算出来**的列：跨月建表时不复制（新月份由下一轮回填重新算）。 */
+export const MANUAL_DERIVED_FIELDS = ['自动化状态'];
 
 /** 脚本回填的三个广告位 → 广告位管理表里的广告位类型。 */
 export const MANUAL_AD_SLOTS = [

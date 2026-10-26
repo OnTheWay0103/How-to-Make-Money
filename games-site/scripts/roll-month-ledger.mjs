@@ -20,6 +20,7 @@ import path from 'node:path';
 import {
   BASE_TOKEN,
   LEDGER_FIELDS,
+  MANUAL_DERIVED_FIELDS,
   MANUAL_FIELDS,
   MONTHLY_FIELDS,
   MONTH_RE,
@@ -72,6 +73,7 @@ function readRecords(tableId) {
       const row = {};
       cols.forEach((name, i) => {
         if (MONTHLY_FIELDS.includes(name)) return;
+        if (MANUAL_DERIVED_FIELDS.includes(name)) return; // 新月份由回填脚本重新算
         const v = cellScalar(cells[i]);
         if (v !== null && v !== '') row[name] = v;
       });
