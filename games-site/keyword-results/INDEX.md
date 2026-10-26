@@ -1,10 +1,10 @@
 # 词库索引
 
-> 生成时间：2026-10-26 00:07 UTC
+> 生成时间：2026-10-26 00:42 UTC
 > 生成脚本：`node scripts/keyword-index.mjs` —— 不要手改本文件
 > 规则：`docs/STRATEGY-挖词与词库.md`
 
-共 **68** 份游戏词库（新格式 10，旧格式 58），已建站 **31** 站。
+共 **70** 份游戏词库（新格式 10，旧格式 60），已建站 **32** 站。
 
 > 新格式以 `slug == 站点目录名去掉 wiki` 精确匹配；旧格式只能按文件名猜，「未建站」可能有漏配。
 
@@ -56,7 +56,7 @@
 | Every Day We Fight | everydaywefight | 15 | 2026-10-26 | google_suggest:27（裸词 7、探针:steam 6、后缀:wiki 5） | 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
 | Hellraiser Revival | hellraiserrevival | 119 | 2026-10-26 | google_suggest:131（裸词 15、后缀:demo 15、品牌+game 15） | 1 Codes / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
 | Invokyr | invokyr | 33 | 2026-10-26 | google_suggest:36（后缀:demo 12、裸词 8、探针:steam 5） | 1 Codes / 5 FAQ / 待定 | 未建站 | new |
-| Neon Abyss 2 | neonabyss2 | 68 | 2026-10-26 | google_suggest:86（裸词 14、品牌+game 8、后缀:multiplayer 8） | 1 Codes / 2 Beginner / 3 Tier List / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
+| Neon Abyss 2 | neonabyss2 | 68 | 2026-10-26 | google_suggest:86（裸词 14、品牌+game 8、后缀:multiplayer 8） | 1 Codes / 2 Beginner / 3 Tier List / 4 核心机制/Boss / 5 FAQ / 待定 | neonabyss2wiki | new |
 | Order of the Sinking Star | orderofthesinkingstar | 88 | 2026-10-26 | google_suggest:95（品牌+game 15、裸词 15、后缀:demo 15） | 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
 | TUNG | tung | 178 | 2026-10-26 | google_suggest:184（后缀:characters 15、后缀:price 15、探针:steam 15） | 1 Codes / 2 Beginner / 3 Tier List / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
 | Hela of Mice and Magic | hela | 49 | 2026-10-25 | google_suggest:55（裸词 19、后缀:release date 11、品牌+game 7） | 5 FAQ / 待定 | 未建站 | new |
@@ -113,6 +113,8 @@
 | Witchspire | Witchspire-feedback | 0 | — | — | — | 未建站 | legacy |
 | Witchspire | Witchspire | 97 | — | — | — | witchspirewiki | legacy |
 | — | lowbudgetrepairswiki-postlaunch-fix | 0 | — | — | — | 未建站 | legacy |
+| Neon Abyss 2 | neonabyss2-matrix | 0 | — | — | — | 未建站 | legacy |
+| Neon Abyss 2 | neonabyss2-sources | 0 | — | — | — | 未建站 | legacy |
 | 新词缺口扫描 | new-keywords-2026-10-23 | 0 | — | — | — | 未建站 | legacy |
 | 候选分析 | selection-2026-10-26 | 0 | — | — | — | 未建站 | legacy |
 | Silver Pines / Dressmaker | silverpines-dressmaker-postlaunch-fix | 0 | — | — | — | 未建站 | legacy |
@@ -123,7 +125,7 @@
 
 ## 待处理
 
-**软问题**（旧格式，逐步随复采替换，不阻塞）：41 份
+**软问题**（旧格式，逐步随复采替换，不阻塞）：43 份
 
 - 无采集元信息头（无法自动统计）：Ardent-Wilds.md
 - 无采集元信息头（无法自动统计）：DinoBlade.md
@@ -145,4 +147,4 @@
 - 无采集元信息头（无法自动统计）：Moonlight-Peaks.md
 - 无采集元信息头（无法自动统计）：Nivalis-Nights.md
 - 无采集元信息头（无法自动统计）：ReStory.md
-- … 其余 21 份
+- … 其余 23 份
