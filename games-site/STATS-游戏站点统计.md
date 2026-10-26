@@ -1,6 +1,6 @@
 # 游戏攻略站 — 站点统计
 
-> 最后更新：2026-10-24 | 45 站 · 1073 篇攻略（10/24 新增 DREADMOOR / Cozy Game Restoration，各 9 篇）
+> 最后更新：2026-10-26 | 48 站 · 1110 篇攻略（10/26 新增 REKA / GONE Fishing，各 7 篇；同日建 Neon Abyss 2）
 
 ---
 
@@ -54,7 +54,9 @@
 | 43 | Silver Pines | 9/16 | 11 | silverpineswiki.vercel.app | ✅ | ✅ | ✅ | 9/16 BUILD-009（门禁 17/20 开），Wych Elm/Team17 恐怖 Metroidvania，10/8 发售（**预售期建站，早于发售 22 天**）；~83–112K wishlist；英中日零 wiki；**裸词污染已独立复现**（裸词探针 10 条建议仅 3 条指向本作，锚词 `silver pines game` 下 10/10 命中）；10 篇 P0 共 15,129 词，QA PASS（0 🔴 / 5 🟡 / 3 🟢），线上 23/23 路由 200；⚠️ 门禁的「12 条已验证机制」有 **5 条本轮无法复核**（gun locker code / herbs / camera photo map / hip pouch / stiletto）→ 已降级为不写或标注，**未当事实写出**；⚠️ 20 条机制种子 **17 条零建议** → 机制页定位为发售后抢位，非当前流量来源；价格/通关时长/区域名/武器清单/伤害值全站 [Unconfirmed]（123 处）；GA4 ⏳ 待人工配置（`googleAnalyticsId=''` 空串，**无 G-XXX 假回退值**）；GSC 文件已就位待提交；Phase 2（P1 攻略）未做 |
 | 44 | Cozy Game Restoration | 10/24 | 9 | cozygamerestorationwiki.vercel.app | ✅ | ✅ | ✅ | 10/24 BUILD-010（16/20 开），Parasol Corp 单人开发复古卡带清洁/修复模拟，11/4 发售 $14.99，400K+ wishlist、Next Fest demo 17.1 万下载，19 语言，Windows/macOS/Steam Deck，无计时器无失败；英日中零 wiki；9 篇 12,327 词，QA 复核 PASS（删「八件工具」「toothpaste」两处未证实细节）；GA4 G-YHTL4KQ97P；GSC 验证文件就位待提交 |
 | 45 | DREADMOOR | 10/24 | 9 | dreadmoorwiki.vercel.app | ✅ | ✅ | ✅ | 10/24 BUILD-011（17/20），Dream Dock/Digital Vortex 末日钓鱼生存恐怖，11/9 EA $19.99，~400K wishlist（厂商口径），单人 PC only，12 语言；demo 10/6 上线；竞品 whisperofthehouse demo hub，内容走差异化；9 篇 12,490 词，QA 复核 PASS（wishlist 数字已标注非独立审计）；GA4 G-264X3F7FYX；GSC 验证文件就位待提交 |
-| 46 | 🆕 neonabyss2wiki | ❓ | 11 | neonabyss2wiki.vercel.app | ✅ | ❌ | ✅ | ⚠️ 新站点，需手动补全信息 |
+| 46 | 🆕 neonabyss2wiki | ❓ | 11 | neonabyss2wiki.vercel.app | ✅ | ✅ | ✅ | ⚠️ 新站点，需手动补全信息 |
+| 47 | GONE Fishing | 10/26 | 7 | gonefishingwiki.vercel.app | ✅ | ❌ | ❌ | 10/26 BUILD-R3（17/20），ABCT…→**Steam 实测开发/发行 GONE Studios**，1–8 人合作恐怖钓鱼，EA 2025-06-16 → 1.0 2026-10-20，近 30 天 220 条 84%、峰值 CCU 1,631；7 篇 9,950 词，P0 覆盖 100%；刻意绕开厚 Fandom（不做鱼种/鱼饵表）；GA4/GSC 待人工 |
+| 48 | REKA | 10/26 | 7 | rekawiki.vercel.app | ✅ | ❌ | ❌ | 10/26 BUILD-R3（17/20 保守口径），Emberstorm/Fireshine，女巫生活模拟，EA 2024-09-12 → 1.0 2026-10-26 当日加简中，近 30 天 113 条 92%；7 篇 9,290 词；`REKA` 单字撞名 → 标题锚定 `REKA game`；`/tier-list` 空壳待决策；GA4/GSC 待人工 |
 <!-- AUTO-END:overview-table -->
 
 ---
@@ -144,12 +146,12 @@
 <!-- AUTO-START:summary -->
 | 指标 | 数值 |
 |------|:--:|
-| **总站点数** | 46 |
-| **总攻略数** | 1096 |
-| **Vercel 部署** | 46/46 ✅ |
-| **GA4 已配置** | 45/46 |
-| **GA4 真缺失** | 1（neonabyss2wiki（空）） |
-| **GSC 文件部署** | 46/46 ✅（账户级令牌，所有站共用同一文件） |
+| **总站点数** | 48 |
+| **总攻略数** | 1110 |
+| **Vercel 部署** | 48/48 ✅ |
+| **GA4 已配置** | 46/48 |
+| **GA4 真缺失** | 2（gonefishingwiki（空）、rekawiki（空）） |
+| **GSC 文件部署** | 46/48 ❌（账户级令牌，所有站共用同一文件） |
 <!-- AUTO-END:summary -->
 
 | **Dashboard 注册** | 39/41（anomalypresidentwiki 本次已加入，PENDING；⚠️ doloctownwiki/sovereigntowerwiki 未注册 dashboard——预存在缺口，待主 Agent 补）；PENDING 待 GA4 Property 后补 propertyId：bombananawiki/crimsonmoonwiki/welcomeelderfieldwiki/fallentearwiki/anomalypresidentwiki |
