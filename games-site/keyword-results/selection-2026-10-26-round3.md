@@ -628,7 +628,7 @@
 | 项 | 值 | 来源 |
 |---|---|---|
 | Steam app | 3645890 | [商店页](https://store.steampowered.com/app/3645890/) |
-| 开发 / 发行 | ABCT Productions（自研自發） | [SourceForge](https://sourceforge.net/app/gone-fishing/) |
+| 开发 / 发行 | GONE Studios（自研自发） | Steam AppDetails 3645890，2026-10-26 复核（原记 ABCT Productions 有误，SourceForge 旧条目不可靠） |
 | 类型 | 1–8 人合作恐怖钓鱼：白天钓鱼献祭湖怪，夜里被猎 | 同上 |
 | 发售 | EA 2025-06-16 → **1.0 2026-10-20** | 上游 + [RAWG](https://rawg.io/games/gone-fishing-3) |
 | 评测 / 好评 | 近 30 天 **220 条 84%**（一手）；总量 **3.1–3.8k / 90–91%**（三方，动态） | 上游 + 本次快照 |
