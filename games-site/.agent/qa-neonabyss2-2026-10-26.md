@@ -70,3 +70,47 @@
 
 - 下游：主 Agent（部署 → Dashboard 注册 → GA4 → GSC → 飞书回填）。
 - 证据链：本报告 + `pnpm build` 输出 + `lint-guides` 输出 + `keyword-coverage --check` 输出 + 部署后线上验证（含 `/guides/<slug>` 200 与标题核对）。
+
+---
+
+# 补充 QA — P1/P2 批次（2026-10-26 晚）
+
+## 一、本轮新增页面（5 篇）
+
+| 页面 | 词数 | 表格 | title/desc 字符 | 结论 |
+|---|--:|--:|---|---|
+| neon-abyss-2-agents | 1,418 | 8 | 54 / 159 | PASS |
+| neon-abyss-2-faith-and-hatchmon | 1,446 | 7 | 49 / 156 | PASS |
+| neon-abyss-2-storm-breach | 1,250 | 5 | 45 / 152 | PASS |
+| neon-abyss-2-wonder-room | 1,218 | 2 | 48 / 153 | PASS |
+| neon-abyss-2-achievements | 1,235 | 7 | 51 / 160 | PASS |
+
+站点合计：11 篇 / 15,291 词（P0 5 篇 + P1 3 篇 + P2 2 篇 + FAQ 路由页）。
+
+## 二、门禁证据
+
+- `node scripts/lint-guides.mjs --site neonabyss2wiki` → 11 篇全部通过 ✅（0 ERROR / 0 WARN）
+- `node scripts/keyword-coverage.mjs --slug neonabyss2 --check` → **P0 7/7 = 100%**、P1 3/3 = 100%、P2 2/4 = 50%
+- `pnpm build` → 24/24 静态页生成成功；`/guides/*.html` 11 个页面逐个校验 **h1 = 1**
+- 部署后线上验证（`--resolve` 直连）：agents / faith-and-hatchmon / storm-breach / wonder-room / achievements **全部 200**，`<title>` 与 frontmatter 一致，`sitemap.xml` **19 条 URL**
+
+## 三、编造检查（新增页逐条回溯）
+
+| 页面 | 关键断言 | 来源 | 判定 |
+|---|---|---|---|
+| agents | 官方点名 R-7 / Cassie / Mira / Tino；Tino 复制 Wonder Jar 扣血；R-7 复活与护盾；成就 10→3 | 06-14 Wonder Flow / 10-08 1.0 / 10-19 周报 | ✅ 原文；未给 Cassie / Mira 编能力，未造解锁条件，未排「最强角色」 |
+| agents | 「至少 10 个 Agent」 | 10-19 周报成就「10 个不同 Agent」反证 | ✅ 推理标注为推理 |
+| faith | Faith 三用途（商店 / 招募 / 赌）、Artisanism 徽章出词缀、Glass Dice 词缀池、Faith 清理、多人 Faith 机 | Steam 商店页 / 1.0 / 10-19 周报 / 6.26 | ✅ 原文引用；「不掉档 = 要花掉」写为推断 |
+| storm-breach | Storm Breach 出 beta、无地牢探索、1-4 人；Storm Raid 为 beta 名「强推断但未确认」 | 1.0 / 06-14 / 6.26 / 06-05 / 10-19 | ✅ 改名未当事实，标 `[Unconfirmed]` |
+| wonder-room | Great Wonder Block 进商店与 Athena 房（概率）、Wonder Pocket 可携带、可触发额外战斗 | 1.0 公告 | ✅ 原文；未编概率、未编额外战斗触发条件 |
+| achievements | 32 个成就、10 个官方命名、全平台、自动补发、10→3 | Steam appdetails / 1.0 / 10-19 周报 | ✅ 只列 10 个名字，**刻意不给 22 个待解成就编条件**，并说明原因 |
+
+## 四、站内互链
+
+新页 ↔ 老页双向补齐：`related` 采用块状数组（沿用 2026-10 记事：内联数组会被静默忽略），6 篇老稿各追加 1–2 个新页，新页各回链 5 篇。
+
+## 五、待跟进（剩余）
+
+1. `acid-token` / `eris` 两词仍无任何官方来源 → **不建页**（矩阵已标 `[Unconfirmed]`），等官方或高可信来源出现再评估。
+2. CapyDB（`capydb.com`）2026-10-26 仍 530 / Cloudflare 1016 → Agent 完整名单、道具表暂无法补齐；恢复后可作为**社区来源**补充（不作为唯一事实源）。
+3. 本轮未做 P2 的 `keyword-coverage` 误判清理（脚本按 FAQ 正文命中把 achievements 记作已建）；本次 achievements 页已真实建站，误判自然消失。

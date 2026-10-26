@@ -11,6 +11,8 @@ related:
   - neon-abyss-2-beginner-guide
   - neon-abyss-2-local-co-op
   - neon-abyss-2-codes
+  - neon-abyss-2-storm-breach
+  - neon-abyss-2-achievements
 sources:
   - tier: "Official"
     text: "Steam announcement 'Neon Abyss 2 - Available Now in 1.0' (2026-10-08) — seven highlights, six set reworks, key experience improvements and the full bug-fix list"

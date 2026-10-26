@@ -11,6 +11,8 @@ related:
   - neon-abyss-2-local-co-op
   - neon-abyss-2-1-0-update
   - neon-abyss-2-codes
+  - neon-abyss-2-agents
+  - neon-abyss-2-faith-and-hatchmon
 sources:
   - tier: "Official"
     text: "Steam store listing (appid 2235200) — run structure, Faith System, Hatchmon, item stacking, combat styles, fetched 2026-10-26"

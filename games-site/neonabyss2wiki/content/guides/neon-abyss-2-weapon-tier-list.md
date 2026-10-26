@@ -11,6 +11,8 @@ related:
   - neon-abyss-2-1-0-update
   - neon-abyss-2-local-co-op
   - neon-abyss-2-codes
+  - neon-abyss-2-wonder-room
+  - neon-abyss-2-faith-and-hatchmon
 sources:
   - tier: "Official"
     text: "Steam announcement 'Neon Abyss 2 - Available Now in 1.0' (2026-10-08) — full text of the six set reworks: Sky Heist, Alloy Resolve, Lovely Legion, Carnival Frenzy, Tao Unfolds, Arcane Echo"

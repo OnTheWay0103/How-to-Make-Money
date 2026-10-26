@@ -54,7 +54,7 @@
 | 43 | Silver Pines | 9/16 | 11 | silverpineswiki.vercel.app | ✅ | ✅ | ✅ | 9/16 BUILD-009（门禁 17/20 开），Wych Elm/Team17 恐怖 Metroidvania，10/8 发售（**预售期建站，早于发售 22 天**）；~83–112K wishlist；英中日零 wiki；**裸词污染已独立复现**（裸词探针 10 条建议仅 3 条指向本作，锚词 `silver pines game` 下 10/10 命中）；10 篇 P0 共 15,129 词，QA PASS（0 🔴 / 5 🟡 / 3 🟢），线上 23/23 路由 200；⚠️ 门禁的「12 条已验证机制」有 **5 条本轮无法复核**（gun locker code / herbs / camera photo map / hip pouch / stiletto）→ 已降级为不写或标注，**未当事实写出**；⚠️ 20 条机制种子 **17 条零建议** → 机制页定位为发售后抢位，非当前流量来源；价格/通关时长/区域名/武器清单/伤害值全站 [Unconfirmed]（123 处）；GA4 ⏳ 待人工配置（`googleAnalyticsId=''` 空串，**无 G-XXX 假回退值**）；GSC 文件已就位待提交；Phase 2（P1 攻略）未做 |
 | 44 | Cozy Game Restoration | 10/24 | 9 | cozygamerestorationwiki.vercel.app | ✅ | ✅ | ✅ | 10/24 BUILD-010（16/20 开），Parasol Corp 单人开发复古卡带清洁/修复模拟，11/4 发售 $14.99，400K+ wishlist、Next Fest demo 17.1 万下载，19 语言，Windows/macOS/Steam Deck，无计时器无失败；英日中零 wiki；9 篇 12,327 词，QA 复核 PASS（删「八件工具」「toothpaste」两处未证实细节）；GA4 G-YHTL4KQ97P；GSC 验证文件就位待提交 |
 | 45 | DREADMOOR | 10/24 | 9 | dreadmoorwiki.vercel.app | ✅ | ✅ | ✅ | 10/24 BUILD-011（17/20），Dream Dock/Digital Vortex 末日钓鱼生存恐怖，11/9 EA $19.99，~400K wishlist（厂商口径），单人 PC only，12 语言；demo 10/6 上线；竞品 whisperofthehouse demo hub，内容走差异化；9 篇 12,490 词，QA 复核 PASS（wishlist 数字已标注非独立审计）；GA4 G-264X3F7FYX；GSC 验证文件就位待提交 |
-| 46 | 🆕 neonabyss2wiki | ❓ | 6 | neonabyss2wiki.vercel.app | ✅ | ❌ | ✅ | ⚠️ 新站点，需手动补全信息 |
+| 46 | 🆕 neonabyss2wiki | ❓ | 11 | neonabyss2wiki.vercel.app | ✅ | ❌ | ✅ | ⚠️ 新站点，需手动补全信息 |
 <!-- AUTO-END:overview-table -->
 
 ---
@@ -145,7 +145,7 @@
 | 指标 | 数值 |
 |------|:--:|
 | **总站点数** | 46 |
-| **总攻略数** | 1091 |
+| **总攻略数** | 1096 |
 | **Vercel 部署** | 46/46 ✅ |
 | **GA4 已配置** | 45/46 |
 | **GA4 真缺失** | 1（neonabyss2wiki（空）） |

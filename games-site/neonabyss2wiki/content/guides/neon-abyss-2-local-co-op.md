@@ -11,6 +11,7 @@ related:
   - neon-abyss-2-boss-list
   - neon-abyss-2-weapon-tier-list
   - neon-abyss-2-codes
+  - neon-abyss-2-storm-breach
 sources:
   - tier: "Official"
     text: "Steam store listing for Neon Abyss 2 (appid 2235200), categories and about_the_game, fetched 2026-10-26 — 'Online Co-op' is the only multiplayer category; no Shared/Split Screen or Remote Play Together entry"

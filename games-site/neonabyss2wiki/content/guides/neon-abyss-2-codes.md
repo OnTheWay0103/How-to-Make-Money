@@ -11,6 +11,7 @@ related:
   - neon-abyss-2-boss-list
   - neon-abyss-2-weapon-tier-list
   - neon-abyss-2-local-co-op
+  - neon-abyss-2-achievements
 sources:
   - tier: "Official"
     text: "Steam event feed for appid 2235200 — all 10 announcements from 2026-03-05 to 2026-10-19, read in full on 2026-10-26; none contains a redeem, promo, or activation code"
@@ -146,6 +147,9 @@ Only if you bought during Early Access. After 1.0, Archenemy Returns is a paid D
 
 **Can I get the beta cosmetics now?**
 No. The beta co-op event ended June 14, 2026.
+
+**Do codes work in co-op if one player has them?**
+There is nothing to share. A code would have to be redeemed per account even if one existed, and no redemption system is documented in the game, on the store page, or in any official post.
 
 
 ## 7. Next

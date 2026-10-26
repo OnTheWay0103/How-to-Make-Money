@@ -31,15 +31,15 @@
 | neon-abyss-2-1-0-update | neon abyss 2 patch notes | 1.0 加了什么、10-16 周报修了什么、Beta 分支怎么切 | boss-or-mechanic | P0 | S2 1.0 公告（七项重点 + 套装 + QoL + 修复）；S3 10-16 周报；S7 Archenemy Returns DLC 状态；S10 Beta 分支切换方法 | 1,450 |
 | neon-abyss-2-codes | neon abyss 2 cheat codes | 有没有兑换码；搜「cheat codes」的人真正想要的是什么（官方内置开关 / Beta 分支 / DLC） | codes | P0 | S1 Steam 商店页（无兑换入口相关项）；S2/S3/S4/S6/S7/S8/S9/S10 全部官方公告（逐条核对无 code）；S6 Infinite Energy 设置；S7 DLC 赠送规则 | 1,250 |
 | faq | neon abyss 2 release date | 发售日、价格、平台、人数、Game Pass、Steam Deck、语言、DLC、存档（落在路由页 `app/faq/page.tsx`，非 content 文件） | faq | P0 | S1 Steam 商店页 API（Oct 7, 2026 / $19.99 / 12 语言 / 32 成就 / Windows only）；S2 1.0 公告（10 月 8 日主机同步）；S13 发售日公告 | 1,200 |
-| neon-abyss-2-agents | neon abyss 2 characters | Agent 名单、解锁、个人档案、随机选人、10→3 通关成就 | boss-or-mechanic | P1 | S1；S2（随机选人 + 个人档案）；S4（Tino）；S3（成就 10→3）；CapyDB agents 表（2026-10-26 访问失败，待恢复） | 1,400 |
-| neon-abyss-2-faith-and-hatchmon | neon abyss 2 faith system | Faith 三用途、Artisanism 重做、Hatchmon 孵化 / 进化 / 招募 | boss-or-mechanic | P1 | S1 Steam 商店页（Faith System 原文）；S2（Artisanism + badges）；S3（Faith 机多人同时使用修复） | 1,400 |
-| neon-abyss-2-storm-breach | neon abyss 2 storm breach | 新模式怎么进、和 Classic 的区别、适合谁 | boss-or-mechanic | P1 | S2（Storm Breach 出 beta）；S4（Storm Raid beta 描述）；S9 6.26（Continue Game 模式串台修复） | 1,300 |
-| neon-abyss-2-wonder-room | neon abyss 2 wonder room | Wonder Block / Wonder Pocket / 商店概率 | boss-or-mechanic | P2 | S2（Great Wonder Block 进商店与 Athena 房、Wonder Pocket 修复） | 1,200 |
-| neon-abyss-2-achievements | neon abyss 2 achievements | 32 个成就里能核实的部分、10→3 改动 | boss-or-mechanic | P2 | S1（成就数 32）；S2（成就全平台上线）；S3（10→3） | 1,200 |
+| neon-abyss-2-agents | neon abyss 2 characters | Agent 名单、解锁、个人档案、随机选人、10→3 通关成就 | boss-or-mechanic | P1 ✅ | S1；S2（随机选人 + 个人档案）；S4（Tino / R-7 / Cassie / Mira）；S3（成就 10→3、R-7 复活修复） | 1,400 |
+| neon-abyss-2-faith-and-hatchmon | neon abyss 2 faith system | Faith 三用途、Artisanism 重做、Hatchmon 孵化 / 进化 / 招募 | boss-or-mechanic | P1 ✅ | S1 Steam 商店页（Faith System 原文）；S2（Artisanism + badges）；S3（Glass Dice 徽章池、Faith 机并发修复）；S9 6.26（Faith 覆盖与清理） | 1,400 |
+| neon-abyss-2-storm-breach | neon abyss 2 storm breach | 新模式怎么进、和 Classic 的区别、适合谁 | boss-or-mechanic | P1 ✅ | S2（Storm Breach 出 beta）；S4（Storm Raid beta 描述）；S9 6.26（Continue Game 模式串台修复）；S3（关卡选择确认按钮） | 1,300 |
+| neon-abyss-2-wonder-room | neon abyss 2 wonder room | Wonder Block / Wonder Pocket / 商店概率 | boss-or-mechanic | P2 ✅ | S2（Great Wonder Block 进商店与 Athena 房、Wonder Pocket 修复、额外战斗）；S3（商店重随修复）；S4（Tino 复制 Wonder Jar） | 1,200 |
+| neon-abyss-2-achievements | neon abyss 2 achievements | 32 个成就里能核实的部分、10→3 改动 | boss-or-mechanic | P2 ✅ | S1（成就数 32 + 10 个官方命名）；S2（成就全平台上线、自动补发）；S3（10→3） | 1,200 |
 | neon-abyss-2-acid-token | neon abyss 2 acid token | 该词无任何官方来源，**待核实后再建** | faq | P2 | `[Unconfirmed]` — 官方公告与 Steam 商店页均未出现 acid token | — |
 | neon-abyss-2-eris | neon abyss 2 eris boss | Eris 是否为 Boss 未核实；暂不建页 | boss-or-mechanic | P2 | `[Unconfirmed]` — 官方公告未出现 Eris | — |
 
-## 三、首批执行（P0，7 个落地页）
+## 三、首批执行（P0，7 个落地页 —— 2026-10-26 已全部落地）
 
 1. `neon-abyss-2-local-co-op`
 2. `neon-abyss-2-boss-list`
@@ -63,11 +63,14 @@
 | neon abyss 2 cheat codes | neon-abyss-2-codes | ✅ |
 | neon abyss 2 release date / ps5 / switch / xbox / game pass / steam deck / price history / review / steam charts / console | faq | ✅（未核实项按 `[Unconfirmed]` 处理） |
 
-> 未覆盖词：`neon abyss 2 characters` 系列 6 词进 P1（缺可核验名单，CapyDB 2026-10-26 访问失败）；
+> ✅ 2026-10-26 补建后：P0 7/7、P1 3/3 已落地；P2 落地 2/4。
+> `neon abyss 2 characters` 由 Agents 页覆盖（官方只命名 R-7 / Cassie / Mira / Tino，全名单未公开 → 页面按「已确认 / 未确认」分栏，不编能力表）。
 > `neon abyss 2 multiplayer not working` 并入 local-co-op 的排错节。
+> acid-token 与 eris 两词无任何官方来源，按矩阵原判断**不建页**（`[Unconfirmed]`）。
 
 ## 五、更新记录
 
 | 日期 | 变更 |
 |---|---|
 | 2026-10-26 | 首版：68 词入库后建矩阵，P0 7 页 |
+| 2026-10-26 | 补建 P1 3 页（agents / faith-and-hatchmon / storm-breach）+ P2 2 页（wonder-room / achievements），站点 11 篇 / 15,291 词；acid-token、eris 无源不建 |

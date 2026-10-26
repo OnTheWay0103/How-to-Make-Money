@@ -11,6 +11,8 @@ related:
   - neon-abyss-2-1-0-update
   - neon-abyss-2-local-co-op
   - neon-abyss-2-codes
+  - neon-abyss-2-agents
+  - neon-abyss-2-storm-breach
 sources:
   - tier: "Official"
     text: "Steam announcement 'Neon Abyss 2 - Available Now in 1.0' (2026-10-08) — Theia: Goddess of Vanity as a new Titan, fishing-room hidden boss, Dark Zeus 30-minute active-playtime check, Apollo final-phase fix"

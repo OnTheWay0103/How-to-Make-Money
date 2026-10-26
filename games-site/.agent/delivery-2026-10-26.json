@@ -6,6 +6,7 @@
       "site": "neonabyss2wiki",
       "types": [
         "新建站",
+        "扩充",
         "部署"
       ],
       "guides": [
@@ -14,12 +15,17 @@
         "neon-abyss-2-beginner-guide",
         "neon-abyss-2-weapon-tier-list",
         "neon-abyss-2-1-0-update",
-        "neon-abyss-2-codes"
+        "neon-abyss-2-codes",
+        "neon-abyss-2-agents",
+        "neon-abyss-2-faith-and-hatchmon",
+        "neon-abyss-2-storm-breach",
+        "neon-abyss-2-wonder-room",
+        "neon-abyss-2-achievements"
       ],
       "qa": "PASS",
       "url": "https://neonabyss2wiki.vercel.app/",
       "verify": "200",
-      "words": 9026
+      "words": 15291
     },
     {
       "site": "sephiriawiki",

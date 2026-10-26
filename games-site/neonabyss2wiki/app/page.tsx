@@ -80,7 +80,7 @@ export default function Home() {
           Neon Abyss 2 <span className="text-cyan-400">Wiki</span>
         </h1>
         <p className="text-lg text-gray-400 max-w-2xl mx-auto mb-2">
-          Unofficial Neon Abyss 2 wiki — boss list and unlock conditions, online co-op setup, 1.0 patch notes, build rankings, beginner tips, codes and FAQs, each page dated and sourced.
+          Unofficial Neon Abyss 2 wiki — boss list and unlock conditions, online co-op setup, Agents, Faith and Hatchmon, Storm Breach, 1.0 patch notes, build rankings, achievements, beginner tips, codes and FAQs, each page dated and sourced.
         </p>
         <p className="text-sm text-gray-600 mb-8">
           Updated as patches land · Every page lists its sources

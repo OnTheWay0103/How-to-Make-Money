@@ -1,6 +1,6 @@
 # 词库索引
 
-> 生成时间：2026-10-26 00:48 UTC
+> 生成时间：2026-10-26 00:54 UTC
 > 生成脚本：`node scripts/keyword-index.mjs` —— 不要手改本文件
 > 规则：`docs/STRATEGY-挖词与词库.md`
 
