@@ -1969,6 +1969,22 @@ Loftia 排在其后。Chained Beasts 已因名字污染重、需求偏小下调�
 
 ---
 
+# QA Quick — 2026-10-26 晚轮（21:00）P2 事实校准
+
+> 触发：本日遗留 #2（themound 公告数陈旧）、#3（sephiria 神器术语冲突）
+> 模式：quick（只审本轮改动文件）；详细证据见 `.agent/qa-p2-fixes-2026-10-26.md`
+
+| 站点 | 改动 | 核验方式 | 结果 |
+|------|------|----------|------|
+| themoundwiki | 25 个文件：39→40 官方公告、36→37 开发者帖、「through Patch 1.05」→1.06 | `ISteamNews GetNewsForApp/v2`（appid 2569760，独立复算 40 条 = 37 dev + 2 RPS + 1 SteamDB；最新 1.06 gid 1845383656393418） | PASS，残留「39」= 0 |
+| sephiriawiki | 3 篇：`Artifact Slot +1` → Wishing Fountain capacity（base 4，Willpower +5），补官方 0.10.0 来源 | Steam 公告 appid 2436940 gid 1819386365106847（2025-12-24）核对原文 | PASS，残留 4 处均为有意保留的对照解释 |
+
+- 构建：两站 `next build` 成功；部署：各 1 次，`verify-guide-live.sh` 线上内容级复验 PASS（HTTP 200）。
+- 交付台账：`delivery-2026-10-26.json` 已追加 themoundwiki 行（types 含「修正」，words 1776），飞书已合并。
+- 附带修复：`scripts/feishu-report.mjs` 同日重试成功不再登记 T5 失败（本日 spiritvalewiki 07:44、themoundwiki 21:08 两次瞬时失败均已在 2 分钟内重试成功）。
+
+---
+
 # 新关键词机会 — 2026-10-26 晚轮（21:00 launchd 第二轮）
 
 > 来源：`keyword-results/discovery-2026-10-26-round2-b.md`（7 源扫描，11 候选）
