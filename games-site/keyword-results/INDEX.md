@@ -1,10 +1,10 @@
 # 词库索引
 
-> 生成时间：2026-10-26 13:03 UTC
+> 生成时间：2026-10-26 13:08 UTC
 > 生成脚本：`node scripts/keyword-index.mjs` —— 不要手改本文件
 > 规则：`docs/STRATEGY-挖词与词库.md`
 
-共 **70** 份游戏词库（新格式 10，旧格式 60），已建站 **32** 站。
+共 **74** 份游戏词库（新格式 14，旧格式 60），已建站 **32** 站。
 
 > 新格式以 `slug == 站点目录名去掉 wiki` 精确匹配；旧格式只能按文件名猜，「未建站」可能有漏配。
 
@@ -15,7 +15,7 @@
 
 | 渠道 | 贡献词数 | 独占词数 |
 |---|---:|---:|
-| google_suggest | 728 | 728 |
+| google_suggest | 1016 | 1016 |
 
 ## 采集锚定产出
 
@@ -23,42 +23,47 @@
 
 | 锚定批次 | 贡献词数 | 独占词数 |
 |---|---:|---:|
-| 裸词 | 111 | 92 |
-| 品牌+game | 84 | 72 |
-| 后缀:release date | 73 | 66 |
-| 探针:steam | 66 | 56 |
-| 后缀:demo | 63 | 54 |
-| 探针:ps5 | 48 | 42 |
-| 后缀:reddit | 48 | 36 |
-| 后缀:price | 47 | 33 |
+| 裸词 | 170 | 144 |
+| 品牌+game | 118 | 95 |
+| 后缀:release date | 99 | 81 |
+| 探针:steam | 90 | 75 |
+| 后缀:demo | 77 | 64 |
+| 探针:ps5 | 70 | 57 |
+| 后缀:reddit | 68 | 52 |
+| 后缀:price | 59 | 38 |
+| 后缀:wiki | 55 | 42 |
+| 后缀:guide | 46 | 28 |
+| 后缀:multiplayer | 43 | 33 |
+| 后缀:boss | 41 | 39 |
 | 后缀:characters | 38 | 34 |
-| 后缀:wiki | 35 | 25 |
-| 后缀:boss | 34 | 32 |
-| 后缀:multiplayer | 31 | 25 |
-| 后缀:guide | 28 | 15 |
-| 后缀:update | 26 | 18 |
+| 后缀:update | 38 | 22 |
+| 后缀:map | 24 | 19 |
+| 后缀:codes | 21 | 16 |
+| 探针:skills | 19 | 12 |
 | 后缀:tips | 19 | 14 |
-| 后缀:codes | 16 | 13 |
+| 后缀:co op | 15 | 11 |
 | 后缀:tier list | 15 | 12 |
-| 后缀:map | 10 | 6 |
-| 后缀:co op | 9 | 6 |
+| 后缀:best weapons | 10 | 8 |
+| 后缀:resources | 9 | 7 |
 | 后缀:items | 7 | 3 |
 | 后缀:classes | 6 | 3 |
-| 探针:skills | 5 | 2 |
-| 后缀:crossplay | 3 | 2 |
-| 后缀:best build | 3 | 3 |
+| 后缀:crossplay | 5 | 2 |
 
 ## 按游戏
 
 | 游戏 | slug | 有效词 | 最后采集 | 来源 | 页型覆盖 | 站点 | 格式 |
 |---|---|---:|---|---|---|---|---|
 | Dungeon Inn | dungeoninn | 12 | 2026-10-26 | google_suggest:14（裸词 11、探针:steam 2、后缀:guide 1） | 5 FAQ / 待定 | 未建站 | new |
+| Escape from Playtime | escapefromplaytime | 34 | 2026-10-26 | google_suggest:51（裸词 15、后缀:release date 7、品牌+game 7） | 1 Codes / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
 | Every Day We Fight | everydaywefight | 15 | 2026-10-26 | google_suggest:27（裸词 7、探针:steam 6、后缀:wiki 5） | 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
 | Hellraiser Revival | hellraiserrevival | 119 | 2026-10-26 | google_suggest:131（裸词 15、后缀:demo 15、品牌+game 15） | 1 Codes / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
 | Invokyr | invokyr | 33 | 2026-10-26 | google_suggest:36（后缀:demo 12、裸词 8、探针:steam 5） | 1 Codes / 5 FAQ / 待定 | 未建站 | new |
+| Moon Sweepers | moonsweepers | 24 | 2026-10-26 | google_suggest:39（裸词 15、品牌+game 8、探针:steam 3） | 2 Beginner / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
 | Neon Abyss 2 | neonabyss2 | 68 | 2026-10-26 | google_suggest:86（裸词 14、品牌+game 8、后缀:multiplayer 8） | 1 Codes / 2 Beginner / 3 Tier List / 4 核心机制/Boss / 5 FAQ / 待定 | neonabyss2wiki | new |
 | Order of the Sinking Star | orderofthesinkingstar | 88 | 2026-10-26 | google_suggest:95（品牌+game 15、裸词 15、后缀:demo 15） | 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
+| Permafrost | permafrost | 173 | 2026-10-26 | google_suggest:187（后缀:wiki 15、探针:ps5 15、后缀:release date 15） | 3 Tier List / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
 | TUNG | tung | 178 | 2026-10-26 | google_suggest:184（后缀:characters 15、后缀:price 15、探针:steam 15） | 1 Codes / 2 Beginner / 3 Tier List / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
+| ZED ZONE | zedzone | 57 | 2026-10-26 | google_suggest:77（裸词 15、后缀:best weapons 5、探针:skills 5） | 1 Codes / 2 Beginner / 3 Tier List / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
 | Hela of Mice and Magic | hela | 49 | 2026-10-25 | google_suggest:55（裸词 19、后缀:release date 11、品牌+game 7） | 5 FAQ / 待定 | 未建站 | new |
 | Tears of Metal | tearsofmetal | 164 | 2026-10-25 | google_suggest:195（后缀:characters 15、裸词 15、品牌+game 15） | 1 Codes / 2 Beginner / 3 Tier List / 4 核心机制/Boss / 5 FAQ / 待定 | tearsofmetalwiki | new |
 | UnderMire | undermire | 2 | 2026-10-25 | google_suggest:2（裸词 1、品牌+game 1） | 待定 | 未建站 | new |

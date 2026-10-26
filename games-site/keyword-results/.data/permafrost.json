@@ -1,0 +1,1769 @@
+{
+  "slug": "permafrost",
+  "game": "Permafrost",
+  "runs": [
+    {
+      "at": "2026-10-26T13:07:32.104Z",
+      "locale": "en",
+      "requests": 22,
+      "failures": 0,
+      "raw": 189,
+      "dedup": 175,
+      "valid": 173,
+      "variants": 4,
+      "noise": 2,
+      "noiseRate": 0.0114,
+      "anchorRate": 0.9886,
+      "newKeywords": 173
+    }
+  ],
+  "keywords": {
+    "beneath the permafrost steam": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "best permafrost build": {
+      "category": "Best/Ranking",
+      "pageType": "3 Tier List",
+      "sources": [
+        "google_suggest:后缀:best weapons"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "blood permafrost steam": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "calamity wiki permafrost": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:wiki"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "coin permafrost boss": {
+      "category": "Boss/Characters",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:boss"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "does permafrost have viruses": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:探针:ps5"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "dragn's permafrost wiki": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:wiki"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "how long does permafrost last": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:release date",
+        "google_suggest:后缀:update",
+        "google_suggest:探针:ps5"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "how long has permafrost been frozen": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:release date"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "is permafrost bad": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:demo",
+        "google_suggest:探针:ps5"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "is permafrost dangerous": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:demo",
+        "google_suggest:后缀:multiplayer",
+        "google_suggest:探针:ps5"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "is the permafrost melting": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:demo"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "minecraft permafrost reddit": {
+      "category": "Weapons/Gear",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:reddit"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "montbell permafrost reddit": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:reddit"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "p99 wiki permafrost": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:wiki"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost 2024 movie": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:release date"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost 5": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:update",
+        "google_suggest:探针:ps5"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost a guide to frozen ground in transition": {
+      "category": "Guide/Beginner",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:guide"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost alastair reynolds reddit": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:reddit"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost alcohol": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost blade": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:best weapons"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost bo3": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:boss"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost bolts leveling guide": {
+      "category": "Guide/Beginner",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:guide"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost bolts reddit": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:reddit"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost bolts skills": {
+      "category": "Build/Class",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:探针:skills"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost boss calamity": {
+      "category": "Boss/Characters",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:boss"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost boss fight": {
+      "category": "Boss/Characters",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:boss"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost boss terraria": {
+      "category": "Boss/Characters",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:boss"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost co op game": {
+      "category": "Co-op/Multiplayer",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:co op"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost cod": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:co op"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost company": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:co op"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost concoction": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:co op",
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost concoction reddit": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:reddit"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost console release date": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:release date"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost cookie": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:co op"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost cool": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:co op"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost coolers": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost cost": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:price"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost dc wiki": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:wiki"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost debuff": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:boss"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost decay": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:demo"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost decomposition": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:demo"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost definition": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost degradation": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:demo"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost degradation meaning": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:demo"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost demo download": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:demo"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost destiny 2": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost destruction": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:demo"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost diseases reddit": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:reddit"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost examples": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:探针:skills"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost fisch wiki": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:wiki"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost game": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:multiplayer",
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost game console": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost game crossplay": {
+      "category": "Co-op/Multiplayer",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost game demo": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:demo"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost game engine": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost game multiplayer": {
+      "category": "Co-op/Multiplayer",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:multiplayer"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost game platforms": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost game price": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:price",
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost game ps4": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:探针:ps5"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost game ps4 release date": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:release date"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost game ps5": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost game ps5 release date": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost game pvp": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost game reddit": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost game release date": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:release date",
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost game release date reddit": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:release date"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost game review": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost game steam": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost game trailer": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost game wiki": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:wiki"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost game xbox": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost gameplay": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:multiplayer",
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost god roll": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost god roll reddit": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:reddit"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost greatsword": {
+      "category": "Weapons/Gear",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:best weapons"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost grotto": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:guide"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost jeu ps5": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:ps5"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost jeu steam": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost jogo ps5": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:ps5"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost jogo steam": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost juego ps5": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:ps5"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost juego steam": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost keep": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost leveling guide": {
+      "category": "Guide/Beginner",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:guide"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost liquor": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost lvl 10": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:boss"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost map": {
+      "category": "Other",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost map alaska": {
+      "category": "Other",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:map"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost map canada": {
+      "category": "Other",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:map"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost map eq": {
+      "category": "Other",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:map"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost map eq legends": {
+      "category": "Other",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:map"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost map north america": {
+      "category": "Other",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:map"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost map ontario": {
+      "category": "Other",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:map"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost map russia": {
+      "category": "Other",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:map"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost map siberia": {
+      "category": "Other",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:map"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost map world": {
+      "category": "Other",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:map"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost map yukon": {
+      "category": "Other",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:map"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost melting": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost melting reddit": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:reddit"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost minecraft server": {
+      "category": "Weapons/Gear",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:multiplayer"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost minecraft wiki": {
+      "category": "Weapons/Gear",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:wiki"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost modpack reddit": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:reddit"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost mountain free demon": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:demo"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost movie": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost movie 2024 wikipedia": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:wiki"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost movie parents guide": {
+      "category": "Guide/Beginner",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:guide"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost movie reddit": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:reddit"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost movie release date": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:release date"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost movie wikipedia": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:wiki"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost movie wikipedia explained": {
+      "category": "Guide/Beginner",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:wiki"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost pack": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:探针:ps5"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost parents guide": {
+      "category": "Guide/Beginner",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:guide"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost pc game release date": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:release date"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost pickaxe price": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:price"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost plains 4": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:guide"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost plains best team": {
+      "category": "Best/Ranking",
+      "pageType": "3 Tier List",
+      "sources": [
+        "google_suggest:后缀:best weapons"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost plains build": {
+      "category": "Build/Class",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:best weapons"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost plains guide": {
+      "category": "Guide/Beginner",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:guide"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost plains tutorial": {
+      "category": "Guide/Beginner",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:guide"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost price rivals": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:price"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost prize": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:price"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost promotions": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:price"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost ps5 game": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:ps5"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": "permafrost game ps5"
+    },
+    "permafrost ps5 price": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:ps5"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost ps5 release": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:ps5"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost ps5 release date": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:ps5"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost refiner": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:resources"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost release": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:release date",
+        "google_suggest:后缀:update"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost release date": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:update"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost release date pc": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:release date"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost release date ps5": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:release date"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": "permafrost ps5 release date"
+    },
+    "permafrost requirements": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:resources"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost research": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:resources"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost research center": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:resources"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost restoration": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:resources"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost rework": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:update"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost rivals reddit": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:reddit"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost skill": {
+      "category": "Build/Class",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:探针:skills"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost skill diablo 4": {
+      "category": "Build/Class",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:探针:skills"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost skill god of war": {
+      "category": "Build/Class",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:探针:skills"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost skin": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:探针:skills"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost sols rng wiki": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:wiki"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost spiel ps5": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:ps5"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost steam charts": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost steam db": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost steam deck": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost steam game": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": "permafrost game steam"
+    },
+    "permafrost steam key": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost steam price": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:price",
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost steam release": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost steam release date": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:release date",
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost strain": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost strain reddit": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:reddit"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost superpower wiki": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:wiki"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost survival game": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:multiplayer"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost talent": {
+      "category": "Build/Class",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:探针:skills"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost thawing": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost villains wiki": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:wiki"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost virus reddit": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:reddit"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost wiki rivals": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:wiki"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost wikipedia english": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:wiki"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "permafrost xbox release date": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:release date"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "poe 2 permafrost reddit": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:reddit"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "pohx permafrost guide": {
+      "category": "Guide/Beginner",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:guide"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "reddit permafrost game": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:reddit"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": "permafrost game reddit"
+    },
+    "release of methane from permafrost": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:release date"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "types of permafrost": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:multiplayer"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "voin permafrost guide": {
+      "category": "Guide/Beginner",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:guide"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "voin permafrost update": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:update"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "what is happening to permafrost": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:update"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "what is permafrost": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:demo"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "what is permafrost and why is it important": {
+      "category": "How-to",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:探针:skills"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    }
+  },
+  "aliases": [],
+  "locale": "en",
+  "updatedAt": "2026-10-26T13:07:32.104Z"
+}

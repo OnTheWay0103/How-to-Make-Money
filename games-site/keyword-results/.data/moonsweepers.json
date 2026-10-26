@@ -1,0 +1,280 @@
+{
+  "slug": "moonsweepers",
+  "game": "Moon Sweepers",
+  "runs": [
+    {
+      "at": "2026-10-26T13:07:25.477Z",
+      "locale": "en",
+      "requests": 22,
+      "failures": 0,
+      "raw": 98,
+      "dedup": 68,
+      "valid": 24,
+      "variants": 0,
+      "noise": 44,
+      "noiseRate": 0.6471,
+      "anchorRate": 0.3529,
+      "newKeywords": 24
+    }
+  ],
+  "keywords": {
+    "moon sweepers": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:beginner guide",
+        "google_suggest:后缀:best class",
+        "google_suggest:后缀:crossplay",
+        "google_suggest:后缀:demo",
+        "google_suggest:后缀:guide",
+        "google_suggest:后缀:mods",
+        "google_suggest:后缀:price",
+        "google_suggest:后缀:reddit",
+        "google_suggest:后缀:release date",
+        "google_suggest:后缀:update",
+        "google_suggest:后缀:wiki",
+        "google_suggest:探针:ps5",
+        "google_suggest:探针:skills",
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "moon sweepers cheats": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "moon sweepers game": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "moon sweepers game for iphone": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "moon sweepers game mobile": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "moon sweepers game ps5": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:品牌+game",
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "moon sweepers game steam": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "moon sweepers game switch": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "moon sweepers game where to play": {
+      "category": "How-to",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "moon sweepers game xbox": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:品牌+game",
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "moon sweepers gameplay": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "moon sweepers guide": {
+      "category": "Guide/Beginner",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "moon sweepers mods": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "moon sweepers packager": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "moon sweepers price": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "moon sweepers ps5": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "moon sweepers steam": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "moon sweepers steam deck": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "moon sweepers steam key": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "moon sweepers switch": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "moon sweepers tips": {
+      "category": "Guide/Beginner",
+      "pageType": "2 Beginner",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "moon sweepers trainer": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "moon sweepers wiki": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "moon sweepers xbox": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    }
+  },
+  "aliases": [],
+  "locale": "en",
+  "updatedAt": "2026-10-26T13:07:25.477Z"
+}
