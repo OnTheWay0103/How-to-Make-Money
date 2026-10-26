@@ -51,7 +51,7 @@ The longsword is Wallace's signature, and the **Weapon Merge system** is how you
 
 **Merging rule of thumb:** pick your primary longsword by Act 2 and merge every duplicate into it — Reinforced+3 requires 8 base copies, so specialization pays (see the [Weapon Merge Guide](/guides/weapon-merge-guide) for the full merge math).
 
-> **Honest note:** specific named longswords are not yet publicly documented. Until patch notes confirm unique weapons, treat "best longsword" as the highest merged tier you can sustain.
+> **Named weapon note:** Wallace's hidden fourth longsword, the Seraphic Blade, is documented in the [Seraphic Blade unlock guide](/guides/seraphic-blade-unlock-guide) (three-piece route). The unlock behaviour is confirmed by the September 8 patch notes, while the piece locations and damage figures come from community sources — treat the numbers as `[Unconfirmed]`. For every other longsword, keep treating "best longsword" as the highest merged tier you can sustain.
 
 ---
 
