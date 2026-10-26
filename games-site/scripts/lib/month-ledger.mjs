@@ -88,12 +88,14 @@ export const MONTHLY_FIELDS = ['PV(30d)', 'PV 环比(%)'];
  * 人工表字段（人填 = 人工事项已完成，脚本读走回填站点）。
  * 顺序即列顺序，首个字段是主字段。
  * `广告位3-todo-code` 目前只占位：脚本只读不写，留给第三个广告位（待定）。
- * `自动化状态` 是脚本**回写**的列（唯一由脚本写的列）：
+ * `上线日` 由脚本从自动化表同步（用来判断某行是「新站还没填」还是「老站漏了」）。
+ * `自动化状态` 是脚本**回写**的列，人工不填：
  *   已完成 = 本行填了的自动化项都已落到站点；待回填 = 填了但还没落地；失败 = 上次回填/部署失败。
  */
 export const MANUAL_FIELDS = [
   { name: '站点', type: 'text' },
   { name: '域名', type: 'text' },
+  { name: '上线日', type: 'datetime' },
   { name: 'GA4-measurementID', type: 'text' },
   { name: 'GA4-propertyID', type: 'text' },
   { name: 'GSC', type: 'text' },

@@ -37,6 +37,7 @@ import {
   MANUAL_AD_SLOTS,
   cellScalar,
   lark,
+  resolveLedgerTable,
   resolveManualLedgerTable,
 } from './lib/month-ledger.mjs';
 
@@ -158,6 +159,41 @@ function autoStatusOf(row, adsMap, failedSites, gaOf = currentGa) {
 
 /** 上一次 syncStatuses 的结果（写进日志行）。 */
 let statusSummary = null;
+/** 上一次 syncLaunchDates 写了多少行。 */
+let launchSynced = 0;
+
+/** 把自动化表的「上线日」抄进人工表（空着或对不上才写）。返回更新的行数。 */
+function syncLaunchDates() {
+  if (!launchDates.size) return 0;
+  const updates = {};
+  for (const row of rows) {
+    const site = (row['站点'] || '').trim();
+    if (!site) continue;
+    if (ONLY_SITE && site !== ONLY_SITE) continue;
+    const want = launchDates.get(site);
+    if (!want) continue;
+    if ((row['上线日'] || '').trim() === want) continue;
+    updates[row.__record] = { 上线日: want };
+  }
+  const n = Object.keys(updates).length;
+  launchSynced = n;
+  if (!n) return 0;
+  lark(
+    [
+      'base',
+      '+record-batch-update',
+      '--base-token',
+      BASE_TOKEN,
+      '--table-id',
+      manual.id,
+      '--json',
+      JSON.stringify({ update_records: updates }),
+    ],
+    { cwd: REPO },
+  );
+  log(`\n▶ 上线日：同步 ${n} 行（来源 ${autoName}）`);
+  return n;
+}
 
 /**
  * 回填完 → 重读「广告位管理」（内存里的 adIndex 是跑之前的，状态还是旧的），
@@ -250,6 +286,25 @@ for (const r of adsRows) {
 
 log(`人工表：${manual.name}（${manual.id}，${rows.length} 行）`);
 log(`广告位管理：${adsRows.length} 行\n`);
+
+/**
+ * 上线日：从自动化表抄进人工表。
+ * 有了这个日期才能看出某行空着是「新站还没来得及填」还是「老站漏了」。
+ */
+const launchDates = new Map();
+let autoName = '';
+try {
+  const auto = resolveLedgerTable({ month: MONTH, cwd: REPO });
+  autoName = auto.name;
+  for (const r of readTable(auto.id)) {
+    const site = (r['站点'] || '').trim();
+    const d = (r['上线日'] || '').trim();
+    if (site && d) launchDates.set(site, d);
+  }
+  log(`自动化表：${auto.name}（上线日 ${launchDates.size} 条）`);
+} catch (err) {
+  warn(`⚠️ 读不到自动化表，本次跳过「上线日」同步：${err.message.split('\n')[0]}`);
+}
 
 /* ─── 2. 逐行算出「哪些站需要改什么」 ─────────────────────────────── */
 
@@ -344,6 +399,16 @@ if (badValues.length) {
   badValues.forEach((b) => warn(`  - ${b}`));
 }
 
+if (launchDates.size) {
+  const stale = rows.filter((r) => {
+    const site = (r['站点'] || '').trim();
+    if (!site || (ONLY_SITE && site !== ONLY_SITE)) return false;
+    const want = launchDates.get(site);
+    return want && (r['上线日'] || '').trim() !== want;
+  }).length;
+  log(`\n上线日待同步：${stale} 行${stale ? `（来源 ${autoName}）` : ''}`);
+}
+
 const deferred = sitesChanged.slice(deployBudget);
 if (deferred.length) {
   warn(
@@ -427,6 +492,7 @@ function addNewRows() {
         create_records: newRows.map((s) => ({
           站点: s,
           域名: `https://${s}.vercel.app/`,
+          ...(launchDates.get(s) ? { 上线日: launchDates.get(s) } : {}),
         })),
       }),
     ],
@@ -436,6 +502,7 @@ function addNewRows() {
 
 if (selected.size === 0 && forceSelected.length === 0) {
   addNewRows();
+  syncLaunchDates();
   // 就算没有待回填项也要刷一次状态：首次跑会把「已完成 / 待回填」标出来
   syncStatuses();
   commitAndLog([], []);
@@ -443,6 +510,7 @@ if (selected.size === 0 && forceSelected.length === 0) {
 }
 
 addNewRows();
+syncLaunchDates();
 
 /* ─── 4. 回填 GA4 ─────────────────────────────────────────────────── */
 
@@ -581,6 +649,7 @@ function commitAndLog(deployedSites, failedSites = []) {
     manualTable: { name: manual.name, id: manual.id, fallback: !!manual.fallback },
     planned: sitesChanged,
     redeploy: forceSelected,
+    launchDateSynced: launchSynced,
     deployed: deployedSites,
     failed: failedSites,
     deferred,
