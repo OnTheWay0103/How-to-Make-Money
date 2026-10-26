@@ -61,6 +61,15 @@ if ! node "$SCRIPT_DIR/scripts/lint-guides.mjs" "$SITE_DIR" --changed; then
   exit 1
 fi
 
+# 0b. 模板残留门禁：{{PLACEHOLDER}} 与别的游戏的硬编码值（如模板自带的发行商）
+#     2026-10-26 教训：new-site.mjs 只查 {{UPPER_SNAKE}}，查不到模板里写死的发行商，
+#     导致两站带着别家发行商名上线，被 QA 抓出来。
+echo "  0b) 模板残留检查..."
+if ! node "$SCRIPT_DIR/scripts/check-site-residue.mjs" "$SITE_DIR"; then
+  echo "❌ 有模板残留，已中止部署。按上面文件:行号改掉后重试。"
+  exit 1
+fi
+
 echo "🚀 部署 $SITE_DIR (project=$PROJECT_NAME)"
 
 # 1. 防御性清空 rootDirectory（应为空，若被意外设置则清除；token 过期则跳过）

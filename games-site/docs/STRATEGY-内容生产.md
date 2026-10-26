@@ -264,7 +264,7 @@ MUST 全部通过才允许部署：
    - 每页**有且仅有 1 个 H1**，H2/H3 不跳级
    - 除首页外页面 canonical 指向自身
    - sitemap 条目数 = 实际页面数
-3. 残留扫描：他站游戏名 / 域名 / Hugo shortcode / 模板文案 **0 命中**
+3. 残留扫描（脚本化）：`node scripts/check-site-residue.mjs <site>` exit 0 —— 查 `{{UPPER_SNAKE}}` 未替换占位符 + 模板源站硬编码身份（如发行商 `Digital Vortex Entertainment`）；他站游戏名 / 域名 / Hugo shortcode / 模板文案 **0 命中**（2026-10-26 起已并入 `deploy-wiki-site.sh` 第 0b 步，阻断式）
 4. 抽查 PC 与手机宽度（375px）无空白、错位、横向溢出
 5. `content/guides/*.md` frontmatter 的 `related` 为块状数组、`sources` ≥1 Official
 

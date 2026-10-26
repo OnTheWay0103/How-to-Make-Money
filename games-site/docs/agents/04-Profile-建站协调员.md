@@ -62,6 +62,8 @@ MUST NOT 承诺单站回本——口径是组合回本（见 `docs/STRATEGY-选�
 ## 配置规则
 
 MUST 用 `node scripts/new-site.mjs` 从 `templates/wiki-base/` 生成新站；MUST NOT 从在运营站复制（会带入广告代码、历史攻略与旧配置）
+MUST 生成后跑 `node scripts/check-site-residue.mjs <site>`（已并入 `deploy-wiki-site.sh` 第 0b 步，有残留直接阻断部署）：它查 `{{UPPER_SNAKE}}` 未替换占位符，以及模板源站的硬编码身份（如发行商 `Digital Vortex Entertainment`）（教训：2026-10-26 rekawiki / gonefishingwiki 的 `app/terms/page.tsx` 把模板源站的发行商当正文写死——不是 `{{PUBLISHER}}` token，`new-site.mjs` 的占位符检查查不到——两站带着别家发行商名上线，QA 抓出；模板已改为 `{{DEVELOPER}} / {{PUBLISHER}}`）
+MUST NOT 认为"占位符检查通过 = 身份正确"：token 只能替换**存在**的占位符，替换不了**没写成 token** 的硬编码值；developer / publisher / release date MUST 逐个对照 Steam 页面核验
 MUST NOT 从在运营站直接复制后不清理（会带入 Adsterra zone、旧游戏名与旧 GA/域名配置）
 MUST 保持三层分离：框架层（`app/`、`components/`、`lib/guides.ts` 等）不改；配置层（`lib/seo-config.ts`、`lib/adsterra-zones.ts`）只改值；内容层（`content/`）整层替换
 MUST 三步配置齐全：GA4（propertyId）+ GSC（验证文件）+ Dashboard 注册
@@ -74,6 +76,7 @@ MUST 引用某个静态资源前确认该文件真实存在（教训：`lib/seo-
 ## 部署规则
 
 MUST 构建零错误才部署
+MUST 部署前通过 `deploy-wiki-site.sh` 的第 0 步（guide lint）与第 0b 步（模板残留），两步都是阻断式；MUST NOT 为了赶部署跳过或改脚本注释掉
 MUST 部署后 curl 验证线上可访问（HTTP 200），且**新增/修改的静态资源逐个验证**（如 `/icon.png`）
 MUST NOT 设置 rootDirectory（CLI 部署模式，见部署教训）
 MUST 用 `vercel inspect` 确认生产 alias 指向本次新部署，MUST NOT 只查首页 200（旧部署同样返回 200）
