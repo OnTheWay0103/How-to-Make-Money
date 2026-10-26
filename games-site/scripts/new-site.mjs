@@ -150,7 +150,7 @@ const TODO = [
   'content/guides/: 按页面矩阵写 5–8 页（每页 ≥1,200 词、≥2 个来源且 ≥1 官方）',
   'app/faq/page.tsx 与 app/tier-list/page.tsx 的数组仍是空的 —— 有来源后再填',
   'Vercel 建项目（rootDirectory 留空）→ scripts/deploy-wiki-site.sh <site>',
-  'dashboard 注册（站点台账(自动化) 由 scripts/feishu-report.mjs --sites 写）',
+  'dashboard 注册：把 GA4-measurementID / GA4-propertyID 填进飞书「站点台账(人工)」（20:00 自动写入 lib/seo-config.ts + dashboard/lib/sites.ts 并部署），或 node scripts/set-ga4-ids.mjs <json>；检查 node scripts/check-dashboard-registry.mjs --site <site>',
 ];
 console.log('\n下一步（人工，按 SOP）:');
 TODO.forEach((t, i) => console.log(`  ${i + 1}. ${t}`));

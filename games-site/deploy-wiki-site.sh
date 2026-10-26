@@ -121,4 +121,12 @@ if [[ -n "$ALIAS_URL" && "$ALIAS_URL" != "$NEW_URL" ]]; then
   exit 1
 fi
 log_deploy ok
+
+# 4. dashboard 注册检查（只告警，不影响部署结果）
+#    没注册 = 看板看不到这个站的 PV（2026-10-26 加：新站漏挂 dashboard 的根因是这一步没人做）
+if ! node "$SCRIPT_DIR/scripts/check-dashboard-registry.mjs" --site "$SITE_DIR"; then
+  echo "⚠️ $SITE_DIR 未进 dashboard 统计：在飞书「站点台账(人工)」填 GA4-measurementID / GA4-propertyID 两列"
+  echo "   （每天 20:00 的 sync-ledger-manual 会写入 lib/seo-config.ts + dashboard/lib/sites.ts 并自动部署），"
+  echo "   或手工：node scripts/set-ga4-ids.mjs <json>"
+fi
 rm -f "$DEPLOY_LOG"

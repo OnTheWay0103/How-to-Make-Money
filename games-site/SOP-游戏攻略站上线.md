@@ -798,7 +798,8 @@ curl -s "https://your-site.vercel.app/robots.txt"
 
 - [ ] 新站点已添加到 `dashboard/lib/sites.ts`（`propertyId` 是**纯数字**，不是 G- 格式）
 - [ ] GA4 Property ID 已填入（数字格式）
-- [ ] Dashboard 已重新部署（⚠️ 见 8.4 部署注意事项）
+- [ ] Dashboard 已重新部署（Git 集成：push 到 main 即构建；⚠️ 见 8.4）
+- [ ] `node scripts/check-dashboard-registry.mjs --site <site>` 输出 ✓
 - [ ] Dashboard 打开后新站点在站点选择器中显示
 - [ ] **`STATS-游戏站点统计.md` 已更新**（GA4 ID、创建/加入日期、备注、汇总数字）
 - [ ] 新站点即使显示零数据也能正常渲染（不会因 API 失败而隐藏）
@@ -849,16 +850,35 @@ export const SITES: SiteConfig[] = [
 
 **Step 3：部署 Dashboard**
 
+Dashboard 已接 **Git 集成**（GitHub `OnTheWay0103/How-to-Make-Money`，production branch `main`，
+Root Directory = `games-site/dashboard`）。所以**部署 = push 到 main**，不要用 CLI：
+
 ```bash
-cd dashboard
-rm -rf .next .vercel
-npm run build
-npx vercel --prod --yes --token <TOKEN>
+git push origin main      # 推上去后 Vercel 自动构建并上生产
 ```
+
+> ⚠️ 不要在 `dashboard/` 里执行 `vercel --prod`：CLI 会把 CWD 再叠到 Root Directory 上。
+> 历史上用「临时清空 rootDirectory → CLI 部署 → 恢复」绕过，2026-10-26 发现正是这套操作
+> 让 rootDirectory 停在 `null`，之后每次 push 都在仓库根构建失败（`[BUILD_UTILS_SPAWN_254]`），
+> 线上看板卡在 45 站。现已改为纯 Git 部署，`rootDirectory` 恒为 `games-site/dashboard`。
 
 **Step 4：验证**
 
+```bash
+IP=$(dig @1.1.1.1 +short dashboard-pied-six-31.vercel.app A | head -1)
+curl -s --resolve dashboard-pied-six-31.vercel.app:443:$IP \
+  https://dashboard-pied-six-31.vercel.app/api/traffic | node -e '...'   # 站点数应与 dashboard/lib/sites.ts 条数一致
+```
+
 打开 Dashboard URL，确认新站点出现在站点选择器中。新站可能显示零数据——这是正常的，GA4 需要时间积累数据。
+
+> 本地 DNS 会污染 `*.vercel.app`，必须 `dig @1.1.1.1` + `curl --resolve` 复验。
+
+**注册入口（推荐）**：把 GA4 两个 ID 填进飞书「站点台账(人工)」的 `GA4-measurementID` /
+`GA4-propertyID` 两列，每天 20:00 的 `sync-ledger-manual.mjs` 会同时写 `<site>/lib/seo-config.ts`
+与 `dashboard/lib/sites.ts` 并部署。手工方式：`node scripts/set-ga4-ids.mjs <json>`。
+每次部署站点时 `deploy-wiki-site.sh` 会用 `node scripts/check-dashboard-registry.mjs --site <site>`
+检查一次，没注册会告警。
 
 ### 8.3 常见问题
 
@@ -877,35 +897,31 @@ npx vercel --prod --yes --token <TOKEN>
 
 ### 8.4 Dashboard 部署注意事项
 
-Dashboard 项目在 Vercel 的 Root Directory 应设为 `games-site/dashboard`（相对仓库根）。
+**唯一正确状态**：Vercel 项目 `dashboard` 与 GitHub 仓库 Git 集成，production branch `main`，
+**Root Directory = `games-site/dashboard`**，部署只走 push。
 
-**CLI 部署时的路径叠加问题**：
+- ✅ 改完 `dashboard/lib/sites.ts` → `git push` → Vercel 自动构建
+- ❌ 在 `dashboard/` 里跑 `vercel --prod`（CWD + Root Directory 叠加，路径错误）
+- ❌ 把 rootDirectory 改成 `null` 或空（会在仓库根构建，`npm install` 直接 254）
 
-如果从 `dashboard/` 目录内执行 `vercel --prod`，Vercel 会把当前目录 + Root Directory 叠加，导致路径错误。
-
-**标准部署流程**：
+**排查「push 了但看板没更新」**：
 
 ```bash
-TOKEN="<vercel-token>"
-PID="<dashboard-project-id>"
-
-# 1. 清空 rootDirectory（以当前目录为准）
-curl -s -X PATCH -H "Authorization: Bearer $TOKEN" \
-  -H "Content-Type: application/json" \
-  -d '{"rootDirectory":null}' \
-  "https://api.vercel.com/v9/projects/$PID" > /dev/null
-
-# 2. 从 dashboard 目录内部署
-cd dashboard
-rm -rf .vercel
-npx vercel --prod --yes --token "$TOKEN"
-
-# 3. 恢复 rootDirectory（供 Git 自动部署使用）
-curl -s -X PATCH -H "Authorization: Bearer $TOKEN" \
-  -H "Content-Type: application/json" \
-  -d '{"rootDirectory":"games-site/dashboard"}' \
-  "https://api.vercel.com/v9/projects/$PID" > /dev/null
+TOKEN=$(node -e 'const p=process.env.HOME+"/Library/Application Support/com.vercel.cli/auth.json";console.log(JSON.parse(require("fs").readFileSync(p,"utf8")).token)')
+curl -s -H "Authorization: Bearer $TOKEN" \
+  "https://api.vercel.com/v9/projects/dashboard?teamId=team_Mwrd2QP7hPgKN6pawiY5tOCm" \
+  | node -e 'let d="";process.stdin.on("data",c=>d+=c).on("end",()=>{const j=JSON.parse(d);console.log(j.rootDirectory, j.link&&j.link.productionBranch)})'
 ```
+
+输出应为 `games-site/dashboard main`。再 `vercel ls dashboard` 看最近部署是否 `● Error`；
+`vercel inspect <dpl> --logs` 里出现 `npm error path /vercel/path0/package.json` 就是 rootDirectory 被清空了。
+
+> 2026-10-26 复盘：该问题导致每次 push 都产生一次失败构建、线上看板停在 45 站（缺 Neon Abyss 2 Wiki）。
+> 修复方式 = REST PATCH 回 `games-site/dashboard` 并触发一次 Git 部署，验证 `/api/traffic` 返回 46 站。
+
+**wiki 站不接 Git 集成**：站点用 `deploy-wiki-site.sh` CLI 直传，`rootDirectory` 必须为空。
+如果某站被误接 Git（push 后出现 `● Error` 部署），用
+`DELETE /v9/projects/<name>/link` 断开即可（2026-10-26 已断开 `witchspirewiki`）。
 
 ### 8.5 代码要点
 
@@ -1052,10 +1068,11 @@ cp ../../witchspirewiki/public/google12f8715471cef7b7.html public/
 
 **根因**：改了代码（`seo-config.ts`）和站点，但没有：
 1. 更新 `dashboard/lib/sites.ts`
-2. 重新部署 Dashboard
+2. 推上去让 Dashboard 重新构建（Git 集成，push 即部署）
 3. 更新 `STATS-游戏站点统计.md`
 
 **预防**：见 7.8 节完整检查清单。这三件事必须**同一次上线**完成。
+自查：`node scripts/check-dashboard-registry.mjs --site <site>` + 线上 `/api/traffic` 站数比对。
 
 ### 9.10 ⚠️ 站点根本没部署
 
@@ -1211,11 +1228,13 @@ curl -sI "https://{site}.vercel.app" | head -1
 
 ### C.4 运维层面：Dashboard 部署的路径陷阱
 
-**症状**：从 `dashboard/` 目录执行 `vercel --prod` 报路径错误
+**症状**：push 了 `dashboard/lib/sites.ts`，线上看板站数不变；`vercel ls dashboard` 里每次 push 都是 `● Error`。
 
-**根因**：Dashboard 的 Vercel 项目 Root Directory 设为 `games-site/dashboard`（相对于 git 根），CLI 从 `dashboard/` 执行时会把 CWD + Root Directory 叠加。
+**根因**：dashboard 是 Git 集成项目（production branch `main`），构建目录由 Root Directory 决定。
+Root Directory 被曾用的「清空 → CLI 部署 → 恢复」手法停在 `null` 时，Vercel 从仓库根构建，
+`npm install` 找不到 `package.json`，报 `[BUILD_UTILS_SPAWN_254]`，生产环境永远停在旧版本。
 
-**标准操作**：见 9.3 节的三步法（清空 → 部署 → 恢复）。
+**标准操作**：Root Directory 恒为 `games-site/dashboard`，部署只 push，不用 CLI。见 8.4 节。
 
 ### C.5 运维层面：上线后必须同步更新的 3 个地方
 
@@ -1227,6 +1246,10 @@ curl -sI "https://{site}.vercel.app" | head -1
 
 只改 1+2 忘改 3 → 统计文档过时
 只改 1 忘改 2+3 → Dashboard 看不到新站
+
+> 2026-10-26 起 1+2 可以只做一次：把两个 GA4 ID 填进飞书「站点台账(人工)」，
+> `sync-ledger-manual.mjs` 会自动写两处并部署。检查命令：
+> `node scripts/check-dashboard-registry.mjs --site <site>`。
 
 ### C.6 战略层面：游戏发售时间决定搜索流量
 

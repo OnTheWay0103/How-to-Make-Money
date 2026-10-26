@@ -37,6 +37,26 @@ const reallyMissing = names.filter(
   (n) => !dashNames.includes(n) && !dashNames.some((d) => norm(d) === norm(n)),
 );
 
+// --site <site-dir>：只查一个站，未注册则退出码 1（deploy-wiki-site.sh 用来告警）
+const siteIdx = process.argv.indexOf('--site');
+const only = siteIdx > -1 ? process.argv[siteIdx + 1] : null;
+if (only) {
+  if (!cfg[only]) {
+    console.log(`✗ ${only} 不是站点目录（缺 lib/seo-config.ts）`);
+    process.exit(2);
+  }
+  if (!cfg[only].ga) {
+    console.log(`✗ ${only} 还没填 GA4 measurement ID（lib/seo-config.ts）→ dashboard 无法统计`);
+    process.exit(1);
+  }
+  if (!dashGa.has(cfg[only].ga)) {
+    console.log(`✗ ${only} (${cfg[only].ga}) 不在 dashboard/lib/sites.ts → 看板不会显示`);
+    process.exit(1);
+  }
+  console.log(`✓ ${only} 已在 dashboard 注册`);
+  process.exit(0);
+}
+
 console.log('站点目录:', dirs.length, '| dashboard 条目:', dash.length);
 console.log('站点 GA 不在 dashboard:', notInDash.length ? notInDash : '无');
 console.log('dashboard GA 无对应站点:', orphan.length ? orphan : '无');
