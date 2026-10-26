@@ -1,0 +1,175 @@
+{
+  "slug": "cucinastellata",
+  "game": "Cucina Stellata",
+  "runs": [
+    {
+      "at": "2026-10-26T14:21:27.379Z",
+      "locale": "en",
+      "requests": 18,
+      "failures": 0,
+      "raw": 99,
+      "dedup": 51,
+      "valid": 15,
+      "variants": 0,
+      "noise": 36,
+      "noiseRate": 0.7059,
+      "anchorRate": 0.2941,
+      "newKeywords": 15
+    }
+  ],
+  "keywords": {
+    "cucina stellata ✦ starred cuisine": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "cucina stellata a casa": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "cucina stellata game": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "cucina stellata gioco": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "cucina stellata in inglese": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "cucina stellata itch": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "cucina stellata itch io": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "cucina stellata keys": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "cucina stellata milano": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "cucina stellata napoli": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "cucina stellata ricette": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "cucina stellata roma": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "cucina stellata steam": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "cucina stellata torino": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "cucina stellata videogioco": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    }
+  },
+  "aliases": [],
+  "locale": "en",
+  "updatedAt": "2026-10-26T14:21:27.379Z"
+}

@@ -1,0 +1,188 @@
+{
+  "slug": "japaneseramensimulator",
+  "game": "Japanese Ramen Simulator",
+  "runs": [
+    {
+      "at": "2026-10-26T14:19:39.996Z",
+      "locale": "en",
+      "requests": 22,
+      "failures": 0,
+      "raw": 129,
+      "dedup": 80,
+      "valid": 16,
+      "variants": 0,
+      "noise": 64,
+      "noiseRate": 0.8,
+      "anchorRate": 0.2,
+      "newKeywords": 16
+    }
+  ],
+  "keywords": {
+    "japanese ramen simulator delayed": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "japanese ramen simulator demo": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "japanese ramen simulator discord": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "japanese ramen simulator download": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "japanese ramen simulator early access": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "japanese ramen simulator game": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "japanese ramen simulator game download": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "japanese ramen simulator price": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "japanese ramen simulator ps5": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "japanese ramen simulator reddit": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "japanese ramen simulator release date": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "japanese ramen simulator review": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "japanese ramen simulator steam": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "japanese ramen simulator steam price": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:price",
+        "google_suggest:探针:steam",
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "japanese ramen simulator steamdb": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:steam",
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "japanese ramen simulator xbox": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    }
+  },
+  "aliases": [],
+  "locale": "en",
+  "updatedAt": "2026-10-26T14:19:39.996Z"
+}

@@ -1,0 +1,359 @@
+{
+  "slug": "paperhead",
+  "game": "PAPERHEAD",
+  "runs": [
+    {
+      "at": "2026-10-26T14:20:27.372Z",
+      "locale": "en",
+      "requests": 16,
+      "failures": 0,
+      "raw": 83,
+      "dedup": 58,
+      "valid": 31,
+      "variants": 0,
+      "noise": 27,
+      "noiseRate": 0.4655,
+      "anchorRate": 0.5345,
+      "newKeywords": 31
+    }
+  ],
+  "keywords": {
+    "paperhead all characters": {
+      "category": "Boss/Characters",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:探针:characters"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "paperhead assistant": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:achievements",
+        "google_suggest:后缀:weapons",
+        "google_suggest:探针:skills"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "paperhead demo": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "paperhead ep 0": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "paperhead ep 0 characters": {
+      "category": "Boss/Characters",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:探针:characters"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "paperhead ep 0 gameplay": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "paperhead ep 0 steam": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "paperhead ep 1 release date": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:release date"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "paperhead epo": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "paperhead epo steam": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "paperhead full game": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "paperhead game": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "paperhead game engine": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "paperhead game release date": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "paperhead game wiki": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "paperhead gameplay": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:walkthrough",
+        "google_suggest:品牌+game",
+        "google_suggest:探针:ps5"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "paperhead lore": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "paperhead movie": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:release date",
+        "google_suggest:探针:characters"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "paperhead price": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "paperhead ps4": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:探针:ps5"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "paperhead ps5": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:release date",
+        "google_suggest:后缀:secrets",
+        "google_suggest:探针:steam",
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "paperhead reddit": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "paperhead release date": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:boss",
+        "google_suggest:后缀:codes",
+        "google_suggest:后缀:endings",
+        "google_suggest:后缀:secrets",
+        "google_suggest:探针:reddit",
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "paperhead release date ps5": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:release date",
+        "google_suggest:探针:ps5"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "paperhead steam": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "paperhead te4m": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:探针:skills",
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "paperhead trailer": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:release date",
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "paperhead video game": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:release date",
+        "google_suggest:品牌+game",
+        "google_suggest:探针:ps5",
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "paperhead walkthrough": {
+      "category": "Guide/Beginner",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:achievements",
+        "google_suggest:后缀:boss",
+        "google_suggest:后缀:codes",
+        "google_suggest:后缀:endings",
+        "google_suggest:后缀:secrets",
+        "google_suggest:探针:skills"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "paperhead wiki": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    },
+    "paperhead xbox": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "variantOf": null
+    }
+  },
+  "aliases": [],
+  "locale": "en",
+  "updatedAt": "2026-10-26T14:20:27.372Z"
+}

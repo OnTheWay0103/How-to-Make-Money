@@ -1,10 +1,10 @@
 # 词库索引
 
-> 生成时间：2026-10-26 13:20 UTC
+> 生成时间：2026-10-26 14:27 UTC
 > 生成脚本：`node scripts/keyword-index.mjs` —— 不要手改本文件
 > 规则：`docs/STRATEGY-挖词与词库.md`
 
-共 **75** 份游戏词库（新格式 15，旧格式 60），已建站 **32** 站。
+共 **83** 份游戏词库（新格式 23，旧格式 60），已建站 **32** 站。
 
 > 新格式以 `slug == 站点目录名去掉 wiki` 精确匹配；旧格式只能按文件名猜，「未建站」可能有漏配。
 
@@ -15,7 +15,7 @@
 
 | 渠道 | 贡献词数 | 独占词数 |
 |---|---:|---:|
-| google_suggest | 1119 | 1119 |
+| google_suggest | 1784 | 1784 |
 
 ## 采集锚定产出
 
@@ -23,46 +23,54 @@
 
 | 锚定批次 | 贡献词数 | 独占词数 |
 |---|---:|---:|
-| 裸词 | 185 | 157 |
-| 品牌+game | 133 | 109 |
-| 后缀:release date | 104 | 86 |
-| 探针:steam | 104 | 88 |
-| 后缀:demo | 77 | 64 |
-| 后缀:reddit | 73 | 55 |
-| 探针:ps5 | 72 | 58 |
-| 后缀:price | 62 | 40 |
-| 后缀:wiki | 56 | 43 |
-| 后缀:guide | 53 | 34 |
-| 后缀:multiplayer | 45 | 35 |
-| 后缀:update | 44 | 28 |
-| 后缀:boss | 41 | 39 |
-| 后缀:characters | 38 | 34 |
-| 后缀:map | 24 | 19 |
-| 后缀:tips | 22 | 16 |
-| 后缀:codes | 21 | 16 |
-| 探针:skills | 19 | 12 |
-| 后缀:how to | 15 | 14 |
-| 后缀:co op | 15 | 11 |
-| 后缀:tier list | 15 | 12 |
-| 后缀:best weapons | 10 | 8 |
-| 探针:characters | 9 | 8 |
-| 后缀:resources | 9 | 7 |
-| 后缀:money | 8 | 7 |
+| 裸词 | 296 | 243 |
+| 品牌+game | 209 | 164 |
+| 探针:steam | 176 | 146 |
+| 后缀:release date | 165 | 130 |
+| 探针:ps5 | 122 | 89 |
+| 后缀:reddit | 118 | 89 |
+| 后缀:demo | 116 | 97 |
+| 后缀:price | 103 | 68 |
+| 后缀:guide | 92 | 61 |
+| 后缀:update | 83 | 61 |
+| 后缀:wiki | 82 | 63 |
+| 后缀:boss | 67 | 56 |
+| 后缀:multiplayer | 60 | 43 |
+| 探针:skills | 44 | 28 |
+| 后缀:characters | 43 | 39 |
+| 探针:characters | 38 | 31 |
+| 后缀:how to | 30 | 29 |
+| 后缀:map | 30 | 20 |
+| 后缀:codes | 29 | 17 |
+| 后缀:tips | 26 | 19 |
+| 后缀:tier list | 25 | 19 |
+| 后缀:co op | 21 | 12 |
+| 后缀:mods | 20 | 17 |
+| 后缀:money | 15 | 14 |
+| 后缀:best weapons | 15 | 8 |
 
 ## 按游戏
 
 | 游戏 | slug | 有效词 | 最后采集 | 来源 | 页型覆盖 | 站点 | 格式 |
 |---|---|---:|---|---|---|---|---|
 | Nivalis Nights | Nivalis-Nights | 103 | 2026-10-26 | google_suggest:109（裸词 15、品牌+game 15、后缀:how to 15） | 2 Beginner / 4 核心机制/Boss / 5 FAQ / 待定 | nivalisnightswiki | new |
+| Cucina Stellata | cucinastellata | 15 | 2026-10-26 | google_suggest:15（裸词 15） | 5 FAQ / 待定 | 未建站 | new |
 | Dungeon Inn | dungeoninn | 12 | 2026-10-26 | google_suggest:14（裸词 11、探针:steam 2、后缀:guide 1） | 5 FAQ / 待定 | 未建站 | new |
 | Escape from Playtime | escapefromplaytime | 34 | 2026-10-26 | google_suggest:51（裸词 15、后缀:release date 7、品牌+game 7） | 1 Codes / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
 | Every Day We Fight | everydaywefight | 15 | 2026-10-26 | google_suggest:27（裸词 7、探针:steam 6、后缀:wiki 5） | 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
+| GONE Fishing | gonefishing | 171 | 2026-10-26 | google_suggest:187（裸词 15、探针:characters 15、品牌+game 15） | 2 Beginner / 3 Tier List / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
 | Hellraiser Revival | hellraiserrevival | 119 | 2026-10-26 | google_suggest:131（裸词 15、后缀:demo 15、品牌+game 15） | 1 Codes / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
 | Invokyr | invokyr | 33 | 2026-10-26 | google_suggest:36（后缀:demo 12、裸词 8、探针:steam 5） | 1 Codes / 5 FAQ / 待定 | 未建站 | new |
+| Japanese Ramen Simulator | japaneseramensimulator | 16 | 2026-10-26 | google_suggest:19（裸词 15、探针:steam 2、品牌+game 1） | 5 FAQ / 待定 | 未建站 | new |
 | Moon Sweepers | moonsweepers | 24 | 2026-10-26 | google_suggest:39（裸词 15、品牌+game 8、探针:steam 3） | 2 Beginner / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
 | Neon Abyss 2 | neonabyss2 | 68 | 2026-10-26 | google_suggest:86（裸词 14、品牌+game 8、后缀:multiplayer 8） | 1 Codes / 2 Beginner / 3 Tier List / 4 核心机制/Boss / 5 FAQ / 待定 | neonabyss2wiki | new |
 | Order of the Sinking Star | orderofthesinkingstar | 88 | 2026-10-26 | google_suggest:95（品牌+game 15、裸词 15、后缀:demo 15） | 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
+| PAPERHEAD | paperhead | 31 | 2026-10-26 | google_suggest:55（裸词 14、品牌+game 7、后缀:release date 6） | 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
 | Permafrost | permafrost | 173 | 2026-10-26 | google_suggest:187（后缀:wiki 15、探针:ps5 15、后缀:release date 15） | 3 Tier List / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
+| Ratatan | ratatan | 144 | 2026-10-26 | google_suggest:163（后缀:reddit 15、探针:ps5 15、裸词 15） | 1 Codes / 2 Beginner / 3 Tier List / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
+| REKA | reka | 158 | 2026-10-26 | google_suggest:165（后缀:price 15、品牌+game 15、探针:steam 15） | 2 Beginner / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
+| Stygian: Outer Gods | stygianoutergods | 42 | 2026-10-26 | google_suggest:140（裸词 15、后缀:release date 10、品牌+game 9） | 1 Codes / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
+| Tape to Tape | tapetotape | 88 | 2026-10-26 | google_suggest:94（裸词 15、品牌+game 15、探针:steam 13） | 1 Codes / 2 Beginner / 3 Tier List / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
 | TUNG | tung | 178 | 2026-10-26 | google_suggest:184（后缀:characters 15、后缀:price 15、探针:steam 15） | 1 Codes / 2 Beginner / 3 Tier List / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
 | ZED ZONE | zedzone | 57 | 2026-10-26 | google_suggest:77（裸词 15、后缀:best weapons 5、探针:skills 5） | 1 Codes / 2 Beginner / 3 Tier List / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
 | Hela of Mice and Magic | hela | 49 | 2026-10-25 | google_suggest:55（裸词 19、后缀:release date 11、品牌+game 7） | 5 FAQ / 待定 | 未建站 | new |
