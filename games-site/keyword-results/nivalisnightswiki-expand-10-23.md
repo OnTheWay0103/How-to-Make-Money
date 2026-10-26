@@ -39,3 +39,24 @@
 
 - 升级价格、每作物 XP、控制台设置是否全温室共享等官方未公布项，正文均标 `[Unconfirmed]`。
 - 未执行 git commit（按要求）。
+
+---
+
+## 下一批候选页（2026-10-26 晚轮 Suggest 复采，未开写）
+
+> 依据：`keyword-results/Nivalis-Nights.md`（202 原始 / 103 有效 / 锚定 57.2%，How-to 17 + Guide/Beginner 11 + Boss/Characters 4 + Co-op 2 = 34 条攻略型，占 33%）
+> 与现有 19 篇 slug 逐一比对后的真空缺口，按优先级：
+
+1. **食物、烹饪与腐坏库存**（`food-cooking-spoilage-guide`）
+   覆盖词：`how to cook` / `how to get rid of rotten food` / `how to drop dead rat` / `how to eat at restaurant`。
+   现状：全站无烹饪页，`recipe` 仅在 `manager-restock-guide` 与 `greenhouse-automation-guide` 各出现 1 次作旁证；
+   与 `manager-restock-guide`（补货/预算）和 `greenhouse-guide`（种植）意图不同。
+2. **配方解锁**（`recipe-unlock-guide`，素材不足则并入上页 H2）
+   覆盖词：`how to unlock recipes` / `unlock recipes`。现有页面只把「配方」当补货的输入项，没有解锁链。
+3. **船只与离岸点位**（`boats-and-offshore-locations-guide`，或并入 `hidden-locations-guide` 作 H2）
+   覆盖词：`how to get to oil rig` / `how to board boat` / `how to refuel boat` / `how to get to the docks`。
+   现状：`oil rig` 在全站 19 篇中命中 **0 次**；`transportation-guide` 只讲城内交通。
+
+写作口径：Nivalis 已于 2026-09-29 发售，优先用官方 Update 公告（#5/#6 及以后）与商店页可核验机制；
+按键、数值、刷新点无官方来源的标 `[Unconfirmed]`，不得为凑词数编造。
+
