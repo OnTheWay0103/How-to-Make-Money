@@ -178,13 +178,15 @@ function brandMatchers(game, aliases) {
   const list = [game, ...aliases].map((n) => tokens(n)).filter((t) => t.length > 0);
   return (kw) => {
     const t = tokens(kw);
-    const flat = t.join('');
     return list.some((b) => {
+      // 1) 品牌词按 token 连续出现（"neon abyss 2"）
       for (let i = 0; i + b.length <= t.length; i += 1) {
         if (b.every((x, j) => t[i + j] === x)) return true;
       }
-      // 允许品牌词被连写（tearsofmetal）
-      return flat.includes(b.join(''));
+      // 2) 品牌被连写成一个 token（"tearsofmetal"）—— MUST 整 token 相等。
+      // MUST NOT 用 substring：`tung` 会命中 tungsten / tung oil / tung tung sahur，
+      // 把锚定率虚抬到 87.8%（2026-10-26 实测）。
+      return t.includes(b.join(''));
     });
   };
 }
@@ -194,6 +196,9 @@ const isBrand = brandMatchers(GAME, ALIASES);
 const CATEGORIES = [
   ['Tier List', /tier list|\btier\b|meta\b/],
   ['Best/Ranking', /\bbest\b|\btop\b|ranking|strongest/],
+  // Boss / 角色 / 敌人清单是攻略型需求，之前落进 Other 被当成非攻略词，
+  // 把 Neon Abyss 2 的攻略型占比从 41% 压到 25%（2026-10-26 实测）。
+  ['Boss/Characters', /\bboss|bosses|character|characters|enemy|enemies|companions?\b/],
   ['Codes', /code|codes|redeem/],
   ['Co-op/Multiplayer', /co op|coop|multi player|multiplayer|with friends|crossplay|solo|dedicated server/],
   ['Build/Class', /\bbuild|class|classes|skill|skills|loadout|spec\b|talent/],
@@ -214,7 +219,7 @@ function pageTypeOf(kw) {
   if (/tier list|\btier\b|\bbest\b|meta\b/.test(kw)) return '3 Tier List';
   if (/beginner|getting started|tips|how to play/.test(kw)) return '2 Beginner';
   if (/release|price|platform|multiplayer|crossplay|demo|early access|ps5|xbox|switch|steam|game pass|review|size|requirements/.test(kw)) return '5 FAQ';
-  if (/how to|boss|guide|walkthrough|unlock|location|map|craft|build/.test(kw)) return '4 核心机制/Boss';
+  if (/how to|boss|guide|walkthrough|unlock|location|map|craft|build|character|characters|enemy|enemies/.test(kw)) return '4 核心机制/Boss';
   return '待定';
 }
 
@@ -291,7 +296,10 @@ for (const w of brandWords) (byCategory[w.category] ??= []).push(w);
 /* ─── 输出 ─────────────────────────────────────────────────────────── */
 
 const now = new Date();
-const stamp = now.toISOString().slice(0, 10);
+// 本地日期（美东/北京时间都按机器本地算），不用 toISOString 的 UTC 日期，
+// 否则凌晨采集会写成前一天（2026-10-26 07:55 CST 实测写成 10-25）。
+const pad2 = (n) => String(n).padStart(2, '0');
+const stamp = `${now.getFullYear()}-${pad2(now.getMonth() + 1)}-${pad2(now.getDate())}`;
 const summary = {
   slug: SLUG,
   game: GAME,
@@ -354,7 +362,7 @@ function renderMarkdown(data) {
   lines.push('');
   lines.push('> 「来源」= 这个词由哪一轮锚定采到；同一词可能来自多轮，全部列出。');
   lines.push('');
-  const order = ['Codes', 'Tier List', 'Best/Ranking', 'Build/Class', 'Weapons/Gear', 'How-to', 'Guide/Beginner', 'Co-op/Multiplayer', 'Info/发售平台', 'Other'];
+  const order = ['Codes', 'Tier List', 'Best/Ranking', 'Boss/Characters', 'Build/Class', 'Weapons/Gear', 'How-to', 'Guide/Beginner', 'Co-op/Multiplayer', 'Info/发售平台', 'Other'];
   for (const cat of order) {
     const list = byCategory[cat];
     if (!list || list.length === 0) continue;

@@ -1,10 +1,10 @@
 # 词库索引
 
-> 生成时间：2026-10-25 23:47 UTC
+> 生成时间：2026-10-26 00:07 UTC
 > 生成脚本：`node scripts/keyword-index.mjs` —— 不要手改本文件
 > 规则：`docs/STRATEGY-挖词与词库.md`
 
-共 **60** 份游戏词库（新格式 3，旧格式 57），已建站 **31** 站。
+共 **68** 份游戏词库（新格式 10，旧格式 58），已建站 **31** 站。
 
 > 新格式以 `slug == 站点目录名去掉 wiki` 精确匹配；旧格式只能按文件名猜，「未建站」可能有漏配。
 
@@ -15,7 +15,7 @@
 
 | 渠道 | 贡献词数 | 独占词数 |
 |---|---:|---:|
-| google_suggest | 208 | 208 |
+| google_suggest | 728 | 728 |
 
 ## 采集锚定产出
 
@@ -23,33 +23,43 @@
 
 | 锚定批次 | 贡献词数 | 独占词数 |
 |---|---:|---:|
-| 裸词 | 31 | 21 |
-| 后缀:release date | 24 | 19 |
-| 品牌+game | 23 | 19 |
-| 探针:ps5 | 17 | 12 |
-| 后缀:characters | 15 | 13 |
-| 后缀:reddit | 14 | 9 |
-| 后缀:price | 13 | 8 |
-| 后缀:boss | 12 | 12 |
-| 后缀:update | 12 | 7 |
-| 探针:steam | 11 | 8 |
-| 后缀:multiplayer | 11 | 11 |
-| 后缀:demo | 10 | 9 |
-| 后缀:wiki | 10 | 5 |
+| 裸词 | 111 | 92 |
+| 品牌+game | 84 | 72 |
+| 后缀:release date | 73 | 66 |
+| 探针:steam | 66 | 56 |
+| 后缀:demo | 63 | 54 |
+| 探针:ps5 | 48 | 42 |
+| 后缀:reddit | 48 | 36 |
+| 后缀:price | 47 | 33 |
+| 后缀:characters | 38 | 34 |
+| 后缀:wiki | 35 | 25 |
+| 后缀:boss | 34 | 32 |
+| 后缀:multiplayer | 31 | 25 |
+| 后缀:guide | 28 | 15 |
+| 后缀:update | 26 | 18 |
+| 后缀:tips | 19 | 14 |
+| 后缀:codes | 16 | 13 |
+| 后缀:tier list | 15 | 12 |
 | 后缀:map | 10 | 6 |
-| 后缀:tier list | 8 | 7 |
+| 后缀:co op | 9 | 6 |
 | 后缀:items | 7 | 3 |
 | 后缀:classes | 6 | 3 |
 | 探针:skills | 5 | 2 |
+| 后缀:crossplay | 3 | 2 |
 | 后缀:best build | 3 | 3 |
-| 后缀:codes | 3 | 1 |
-| 后缀:crossplay | 2 | 1 |
 
 ## 按游戏
 
 | 游戏 | slug | 有效词 | 最后采集 | 来源 | 页型覆盖 | 站点 | 格式 |
 |---|---|---:|---|---|---|---|---|
-| Hela: of Mice & Magic | hela | 42 | 2026-10-25 | google_suggest:50（裸词 15、后缀:release date 10、品牌+game 7） | 5 FAQ / 待定 | 未建站 | new |
+| Dungeon Inn | dungeoninn | 12 | 2026-10-26 | google_suggest:14（裸词 11、探针:steam 2、后缀:guide 1） | 5 FAQ / 待定 | 未建站 | new |
+| Every Day We Fight | everydaywefight | 15 | 2026-10-26 | google_suggest:27（裸词 7、探针:steam 6、后缀:wiki 5） | 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
+| Hellraiser Revival | hellraiserrevival | 119 | 2026-10-26 | google_suggest:131（裸词 15、后缀:demo 15、品牌+game 15） | 1 Codes / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
+| Invokyr | invokyr | 33 | 2026-10-26 | google_suggest:36（后缀:demo 12、裸词 8、探针:steam 5） | 1 Codes / 5 FAQ / 待定 | 未建站 | new |
+| Neon Abyss 2 | neonabyss2 | 68 | 2026-10-26 | google_suggest:86（裸词 14、品牌+game 8、后缀:multiplayer 8） | 1 Codes / 2 Beginner / 3 Tier List / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
+| Order of the Sinking Star | orderofthesinkingstar | 88 | 2026-10-26 | google_suggest:95（品牌+game 15、裸词 15、后缀:demo 15） | 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
+| TUNG | tung | 178 | 2026-10-26 | google_suggest:184（后缀:characters 15、后缀:price 15、探针:steam 15） | 1 Codes / 2 Beginner / 3 Tier List / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
+| Hela of Mice and Magic | hela | 49 | 2026-10-25 | google_suggest:55（裸词 19、后缀:release date 11、品牌+game 7） | 5 FAQ / 待定 | 未建站 | new |
 | Tears of Metal | tearsofmetal | 164 | 2026-10-25 | google_suggest:195（后缀:characters 15、裸词 15、品牌+game 15） | 1 Codes / 2 Beginner / 3 Tier List / 4 核心机制/Boss / 5 FAQ / 待定 | tearsofmetalwiki | new |
 | UnderMire | undermire | 2 | 2026-10-25 | google_suggest:2（裸词 1、品牌+game 1） | 待定 | 未建站 | new |
 | ANOMALITH | ANOMALITH | 28 | 2026-10-25 | — | — | 未建站 | legacy-meta |
@@ -104,6 +114,7 @@
 | Witchspire | Witchspire | 97 | — | — | — | witchspirewiki | legacy |
 | — | lowbudgetrepairswiki-postlaunch-fix | 0 | — | — | — | 未建站 | legacy |
 | 新词缺口扫描 | new-keywords-2026-10-23 | 0 | — | — | — | 未建站 | legacy |
+| 候选分析 | selection-2026-10-26 | 0 | — | — | — | 未建站 | legacy |
 | Silver Pines / Dressmaker | silverpines-dressmaker-postlaunch-fix | 0 | — | — | — | 未建站 | legacy |
 | SILVER PINES 建站记录 | silverpineswiki-build-9-16 | 0 | — | — | — | 未建站 | legacy |
 | The Relic: First Guardian | the-relic-first-guardian | 0 | — | — | — | 未建站 | legacy |
@@ -112,7 +123,7 @@
 
 ## 待处理
 
-**软问题**（旧格式，逐步随复采替换，不阻塞）：40 份
+**软问题**（旧格式，逐步随复采替换，不阻塞）：41 份
 
 - 无采集元信息头（无法自动统计）：Ardent-Wilds.md
 - 无采集元信息头（无法自动统计）：DinoBlade.md
@@ -134,4 +145,4 @@
 - 无采集元信息头（无法自动统计）：Moonlight-Peaks.md
 - 无采集元信息头（无法自动统计）：Nivalis-Nights.md
 - 无采集元信息头（无法自动统计）：ReStory.md
-- … 其余 20 份
+- … 其余 21 份

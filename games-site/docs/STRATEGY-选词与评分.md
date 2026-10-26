@@ -50,10 +50,16 @@ Loftia 16→14、Draemony 16→13），说明**评分者与发现者分开是必
 | 2 | 20–24 | 刚过判定线 |
 | 0 | < 20 | **门禁淘汰**，不进评分（规则见 `docs/STRATEGY-挖词与词库.md` 4.2） |
 
-**攻略型词** = Codes / Tier List / Best-Ranking / Build-Class / Weapons-Gear / How-to /
+**攻略型词** = Codes / Tier List / Best-Ranking / **Boss-Characters** / Build-Class / Weapons-Gear / How-to /
 Guide-Beginner / Co-op-Multiplayer。
 **非攻略型词** = Info/发售平台 + Other。
 `攻略型占比 = 攻略型词数 / 有效词数`。
+
+> ⚠️ **口径缺口（2026-10-26 发现，待校准）**：上表按「有效词数」分桶，但没定义
+> **有效词 ≥60 且攻略型占比 30–50%** 这一区间该给几分。实例：Neon Abyss 2（68 词、39.7%）
+> 严格读法退到 3 分、连续阈值读法是 4 分，直接影响「17 分可建」的结论。
+> 2027-01 复盘时与 30% 线一起校准；在缺口补上之前，遇到该区间 MUST 在评分依据里
+> 同时写出「取 3 = 总分 X，取 4 = 总分 Y」，由主 Agent 决策并留档。
 
 **三个修正（MUST 执行，写在评分依据里）**：
 

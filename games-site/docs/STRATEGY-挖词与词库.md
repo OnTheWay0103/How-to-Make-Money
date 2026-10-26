@@ -178,10 +178,18 @@ node scripts/harvest-keywords.mjs --game "ANOMALITH" --alias "アノマリス" -
 | 品牌锚定率 | ≥ 50% | 先怀疑锚定词写法/别名，再判需求 |
 | 请求失败 | **= 0** | 有失败就当报告不完整，重跑，不解读 |
 
-### 4.3 分类（固定 8 类 + 噪声）
+**品牌匹配规则（2026-10-26 修正）**：一条建议算「命中品牌」只有两种情形——
+① 品牌词按 token 连续出现（`neon abyss 2 characters`）；② 整条建议里有一个 token 与品牌**完全相等**（`tearsofmetal`）。
+MUST NOT 用子串匹配：`tung` 会命中 `tungsten` / `tung oil` / `tung tung sahur`，把锚定率虚抬到 87.8%。
+单词品牌若本身是通用词（TUNG / Dream / Rise），锚定率再高也**不可信**，按「品牌撞名」放弃。
 
-有效词 8 类：Codes / Tier List / Best-Ranking / Build-Class / Weapons-Gear / How-to /
-Guide-Beginner / Co-op-Multiplayer / Info-发售平台 / Other。
+### 4.3 分类（固定 9 类 + 噪声）
+
+有效词 9 类：Codes / Tier List / Best-Ranking / **Boss-Characters** / Build-Class / Weapons-Gear /
+How-to / Guide-Beginner / Co-op-Multiplayer / Info-发售平台 / Other。
+
+> `Boss-Characters` 是 2026-10-26 新增：`boss` / `characters` 之前落进 `Other`，被当成非攻略词，
+> 把 Neon Abyss 2 的攻略型占比从 39.7% 压到 25%（`selection-2026-10-26.md` §4.3）。
 
 噪声 3 类（每条噪声词 MUST 写原因）：
 

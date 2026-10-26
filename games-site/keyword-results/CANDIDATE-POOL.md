@@ -4,8 +4,8 @@
 > **2026-10-25 起改为 13 列**：`需求 / 竞争 / 内容 / 生命周期` 各 0–5，`总分` 20 分制（旧行的总分是旧口径 4 维，分维留 `—` 不回溯）。
 > 新增候选由侦察员只填 `# / 游戏 / 类型 / 上线日 / 发现日 / 证据`，结论写 `待分析`；证据链放 `keyword-results/selection-{date}.md`。
 > 结论列取值：`待分析` / `需采集` / `可建` / `观察` / `低优先` / `放弃` / `已建站`。历史行为自由文本（观望 / 降级 / 不建站…），不回溯改写。
-> 最后更新: **2026-10-25**（表格改为 13 列；侦察 DISCOVERY-10/25：4 主源 + 3 佐证源搜索新增 7 候选 #61–#67；Hela 16 分、UnderMire 15 分，均完成 EN/ZH/JA 三语 wiki 检查；本轮不建站。详见 `keyword-results/discovery-2026-10-25.md`）
-> 上一轮: 2026-10-24（侦察 DISCOVERY-10/24：4 源搜索新增 5 候选 #56–#60；Chained Beasts 补充关键词复核。详见 `keyword-results/discovery-2026-10-24.md`）
+> 最后更新: **2026-10-26**（侦察 DISCOVERY-10/26：口径改为「已发售 ≤30 天 + 评测数 ≥300」，6 个来源（S1–S6）扫描，新增 7 候选 #68–#74；全部完成 EN/ZH/JA 六条查询 wiki 检查；本轮不评分、不建站。详见 `keyword-results/discovery-2026-10-26.md`）
+> 上一轮: 2026-10-25（侦察 DISCOVERY-10/25：4 主源 + 3 佐证源搜索新增 7 候选 #61–#67；Hela 16 分、UnderMire 15 分，均完成 EN/ZH/JA 三语 wiki 检查；本轮不建站。详见 `keyword-results/discovery-2026-10-25.md`）
 > 位置：`keyword-results/CANDIDATE-POOL.md` — 随 git 同步，跨机器共享
 
 ## 候选清单
@@ -75,6 +75,13 @@
 | 65 | **Mycopunk** | 4 人 Co-op 真菌 FPS Looter（Pigeons at Play/Devolver） | — | — | — | — | **13** | 10/20 1.0 | ⚠️ EN Fandom 已有（mycopunk.fandom）；ZH B站视频；JA 个人攻略站 | 10/25 | 观望 — 1.0 后英评 3,231 条 91%、近期 81%（338）；5 职业/改枪/隐藏武器可写，但 Fandom 已存在、1.0 窗口已过 5 天 | — |
 | 66 | **Fearwoods**（恐惧林地） | 3 人 Co-op 生存恐怖（Fearwoods/GrabTheGames） | — | — | — | — | **13** | 11/26 EA | ❌ 无（EN/ZH/JA；仅 PCGamingWiki 技术 stub） | 10/25 | 观望 — wishlist ~12.3K（Raijin 10/22）至 ~18.4K（第三方中文页）[待确认]；三语零 wiki，但 EA 仅 1 图/5 谜题、日期多次变动，内容量待验证 | — |
 | 67 | **Blood Covenant** | 1–4 人 Co-op 恐怖清洁 Job Sim（DelaJea Press） | — | — | — | — | **13** | Steam 页 2027-01-05；媒体仍写 11/1–2 [待确认] | ❌ 无（EN/ZH/JA） | 10/25 | 观望 — 三语零 wiki、11 语言、demo 已出；但无公开 wishlist、发售日冲突（疑延期），窗口不明，等官方定档 | — |
+| 68 | **Invokyr**（勇敢者之试炼） | 1–6 人 Co-op 生存恐怖 / 诅咒桌游（Ludogram/Shochiku） | 2 | 3 | 2 | 4 | 11 | 10/8 EA | ❌ 无专属 wiki（EN/ZH/JA 六查；ninewiki/ggguides/kosgames 三处薄页；无 codes） | 10/26 | ❌ 放弃 — 品牌词命中 invoker（Dota/PoE），锚定率 20.5%；33 个有效词 79% 是 demo/发售类，攻略型 9.1%。见 selection-2026-10-26 §4 | https://store.steampowered.com/app/3883570/ ；936 评测 94%（steamcozy 快照，另有 629 条口径）；约 14.2 万份 / 峰值 8,212 CCU（Video Game Insights）；demo 70 万+ 下载；详见 discovery-2026-10-26.md §3.1 |
+| 69 | **Order of the Sinking Star**（沉星之序） | 解谜冒险 1,000+ 谜题（Thekla/Jonathan Blow） | 2 | 5 | 2 | 5 | 14 | 10/8–10/9 | ❌ 无专属 wiki（无 Fandom/wiki.gg；GameRant 多页走查 hub 已铺，另有 Polygon/Hardcore Gamer/Into Indie Games） | 10/26 | ⏸️ 观察 — 88 词但攻略型 11.4%（发售日陷阱封顶 2）；竞争 P=0 但 GameRant 多页 hub 已铺；谜题答案无来源不可写，内容扩展 2。见 selection-2026-10-26 §4 | https://store.steampowered.com/app/499170/ ；2,551–2,989 评测 97%、峰值 4,634 CCU、Metacritic 83（VaporLens/媒体快照）；详见 discovery-2026-10-26.md §3.2 |
+| 70 | **Clive Barker's Hellraiser: Revival** | 第一人称生存恐怖动作（Saber Interactive） | 3 | 5 | 3 | 4 | 15 | 10/8 | ❌ 无专属 wiki（Wikipedia 有条目；GameRant 15+ 篇、TheGamer/GamesRadar/VGTimes 密集；含血腥/性主题） | 10/26 | ⏸️ 观察 — 119 词、锚定率 76.8%，攻略型 16%（codes 9 条为主）；大站高密度覆盖 + 血腥/性主题合规风险。见 selection-2026-10-26 §4 | https://store.steampowered.com/app/1551980/ ；约 6,858–7,500 评测 93.5%、~3,000 CCU、Metacritic 69–75（10/17 快照）；详见 discovery-2026-10-26.md §3.3 |
+| 71 | **TUNG** | 第一人称短篇恐怖（免费，Niche Games） | — | — | — | — | — | 10/6 1.0（EA 8/11） | ❌ 无专属 wiki（仅 guidexon 1 篇走查；同名 Roblox/手游污染极重；无 codes） | 10/26 | ❌ 放弃 — 品牌词 tung 是通用词（tungsten / tung oil / tung tung sahur），严格 token 匹配后仍 75% 不可信；内容约 2 小时、免费游戏变现弱 | https://store.steampowered.com/app/4341400/ ；2,583–3,200 评测 88%、约 15 万独立玩家；内容约 2 小时（4 阀门/4 球棒零件/3 炸药）；详见 discovery-2026-10-26.md §3.4 |
+| 72 | **Neon Abyss 2**（霓虹深渊2） | Roguelite 横版射击 / 4 人联机（Veewo/Kepler） | 3 | 4 | 4 | 5 | 16 | 10/7–10/8 1.0 | ⚠️ 无 Fandom/wiki.gg，但 CapyDB 数据库已起；TheGamer 多篇 + 中文 9game/ali213/游戏狂密集 | 10/26 | ⚠️ 卡线 16–17 — 68 词、攻略型 39.7%（差 0.3pt 到 40% 档）；CapyDB 厚站 P=1；需求取 3 则 16、取 4 则 17，待口径决策。见 selection-2026-10-26 §4.1 | https://store.steampowered.com/app/2235200/ ；约 1,954 评测 69%（近 30 天 74%）、Metacritic PS5 81；详见 discovery-2026-10-26.md §3.5 |
+| 73 | **Every Day We Fight**（永不落败） | 回合制战术 Roguelite（Signal Space Lab/Hooded Horse） | — | — | — | — | — | 10/22 1.0（EA 2025-07-10） | ⚠️ 官方 Hooded Horse wiki 薄（Beginner's Guide/Items/Thorns）；无中文 wiki；日文仅 GameWith 1 篇 | 10/26 | ❌ 门禁淘汰 — 有效词 15 < 20（需求门禁） | https://store.steampowered.com/app/1546080/ ；427–428 评测 72–74%；1.0 加 70% 枪/52 枪件/Forever War；详见 discovery-2026-10-26.md §3.6 |
+| 74 | **Dungeon Inn**（莎拉的黑店） | 回合制经营策略 / 双公会（Cat Society/Spiral Up） | — | — | — | — | — | 10/23 1.0（EA 2024-11-14） | ❌ 无专属 wiki（Game8 + gamebrief 指南 hub + Cool3c/ali213 攻略集；日文空白） | 10/26 | ❌ 门禁淘汰 — 有效词 12 < 20（需求门禁） | https://store.steampowered.com/app/2552310/ ；629–675 评测 93%、均时长 4.4h；近期 CCU 0–3（stmstat 快照，[待确认]）；详见 discovery-2026-10-26.md §3.7 |
 
 > **Wiki 列说明**：`❌ 无` = 本次已用英文（`{game} wiki fandom wiki.gg`）与中文/日文（`{game} 攻略 wiki 灰机 bilibili wikiwiki atwiki`）两组查询，**未检索到专属 wiki 页**；不等于绝对不存在。逐候选证据见 `keyword-results/discovery-2026-10-23.md` 第三节。
 
