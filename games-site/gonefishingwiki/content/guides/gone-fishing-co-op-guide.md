@@ -24,7 +24,7 @@ sources:
     text: "The four-role split and lobby-size table are our recommendations, not developer guidance"
 ---
 
-GONE Fishing supports one to eight players in online co-op, and the game does not assign roles for you. A lobby where everyone fishes will hit the quota and then lose someone at dusk, because nobody cooked, nobody scouted and nobody called the blue flame. This guide sets out the four jobs that actually need doing, what the game shares between players, and how to run a first group night without a wipe.
+GONE Fishing supports **one to eight players** in online co-op, and the game does not assign roles for you. A lobby where everyone fishes hits the quota and then loses someone at dusk, because nobody cooked, scouted or called the blue flame. This guide covers the four jobs and how to run a first group night without a wipe.
 
 ## What Co-op Actually Changes
 

@@ -24,7 +24,7 @@ sources:
     text: "The hunt plan and the expectation-setting are our judgment, not developer guidance"
 ---
 
-Legendary fish are the reason the bait system exists. GONE Fishing has more than a hundred catchable species, and a handful of them sit behind a score threshold rather than a location. The community's best-known example is Nessie, listed in the store material as Lochness. This guide separates what the developer confirms about big-fish odds from what players report, then turns it into a hunt you can actually run.
+Legendary fish are the reason the bait system exists. GONE Fishing has **more than a hundred** catchable species, and a handful sit behind a **score threshold** rather than a location — Nessie is the community's best-known example, listed in the store material as Lochness. This guide separates what the developer confirms from what players report.
 
 ## What "Legendary" Means Here
 

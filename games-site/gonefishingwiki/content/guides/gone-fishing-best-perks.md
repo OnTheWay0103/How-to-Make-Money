@@ -22,7 +22,7 @@ sources:
     text: "The tier order is our judgment based on role value and confidence in the effect, not a datamined power ranking"
 ---
 
-GONE Fishing has nine perks, and you can bring two. That is the whole decision, and it is harder than it sounds because the game does not explain what most of them do. Perks unlock by surviving seven consecutive days; after that, each player picks up to two before a run. This tier list ranks what we could verify, says plainly what we could not, and gives separate picks for solo and co-op.
+GONE Fishing has **nine perks**, and you can bring **two**. They unlock by surviving seven consecutive days, and each player picks up to two before a run. That is the decision, and it is hard because the game explains almost none of them. This tier list ranks what we could verify and gives separate picks for solo and co-op.
 
 ## How Perks Work
 

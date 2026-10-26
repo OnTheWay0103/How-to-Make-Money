@@ -24,7 +24,7 @@ sources:
     text: "The two-trip day plan and the deliberate-miss risk assessment are our judgment, not developer guidance"
 ---
 
-In GONE Fishing the sacrifice quota is the day's win condition. Each morning the lake wants a certain amount of fish; you catch them, carry them to the altar, and drop them in. When the altar flame turns blue, the lake is satisfied and you can sleep safely. If night arrives first, the lake hunts you instead. Everything else in the game is a way to meet that quota faster.
+In GONE Fishing the **sacrifice quota** is the day's win condition. Each morning the lake wants a certain amount of fish; you catch them, carry them to the altar, and drop them in. When the altar flame turns **blue**, the lake is satisfied and you can sleep safely. If night arrives first, it hunts you instead.
 
 ## What the Quota Actually Is
 

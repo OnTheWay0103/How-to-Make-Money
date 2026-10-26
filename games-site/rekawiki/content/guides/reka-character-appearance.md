@@ -20,7 +20,7 @@ sources:
     text: "2UpSkill, 'REKA Game Guide: 10 Essential Beginner Tips' — the large mirror in the misty transition area is the last chance to change appearance before it locks"
 ---
 
-You change appearance in REKA with a **mirror**. There are two: a large mirror in the misty transition area right after character creation, which is your last free change, and a **magic mirror** you find in an abandoned building after the Trial of the Forest Spirit, take home, and place with the build menu. There is no appearance option in a settings menu.
+You change appearance in REKA with a **mirror**, and there are two. A large mirror in the misty transition area right after character creation is your last free change; a **magic mirror** from an abandoned building after the Trial of the Forest Spirit can be taken home and placed with the build menu. Settings has no appearance option.
 
 ## The mirror you should not walk past
 

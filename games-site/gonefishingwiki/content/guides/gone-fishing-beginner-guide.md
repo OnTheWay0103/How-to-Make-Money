@@ -23,7 +23,7 @@ sources:
     text: "The day plan, role split and mistake list are our reading of those sources, not developer statements"
 ---
 
-GONE Fishing is a 1–8 player survival horror game where the day job is fishing and the night job is not being eaten. You catch fish, carry them to the altar, and feed a lake entity its daily quota. Miss the quota and the lake feeds on you instead. This guide covers the first week: what to do each day, in what order, and which habits cost runs.
+GONE Fishing is a 1–8 player survival horror game: the day job is fishing, the night job not being eaten. Catch fish, carry them to the altar, and feed a lake entity its daily quota; miss it and the lake feeds on you instead. This guide covers the first week: the daily order and the habits that cost runs.
 
 ## The Loop You Are Actually Learning
 
@@ -86,12 +86,12 @@ Cooking is the cheapest value multiplier in the game and the one beginners skip.
 |---|---|---|
 | Sell raw fish | Base value | None |
 | Sacrifice raw fish | Base quota progress | None |
-| Cook, then sell | +33% value | About 60 seconds per fish |
-| Cook, then sacrifice | +33% quota progress | About 60 seconds per fish |
+| Cook, then sell | Higher value (multiplier disputed — see below) | About 60 seconds per fish |
+| Cook, then sacrifice | Higher quota progress (multiplier disputed) | About 60 seconds per fish |
 
 The trade-off is time and attention. Cook while someone else fishes, or cook the fish you know you will not need for the quota. A four-player lobby should almost never sacrifice raw fish.
 
-The official FAQ adds a second multiplier: cooking and gambling bonuses multiply rather than add. A 50-point fish becomes 75 after cooking, and a 10x gamble on that is 750, not 550.
+**How big is the cooking bonus?** The official FAQ's worked example takes a 50-point fish to 75 after cooking, which implies **+50%**; community guides and patch videos consistently report **+33%**. We could not confirm which figure applies to which fish or whether the bonus changed in 1.0, so treat the direction as certain and the exact multiplier as `[Unconfirmed]`. The FAQ's other claim is solid: cooking and gambling bonuses multiply rather than add — a 50-point fish cooked to 75 and then gambled at 10x is 750, not 550.
 
 ## The First Three Upgrades, in Order
 

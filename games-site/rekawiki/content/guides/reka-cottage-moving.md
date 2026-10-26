@@ -20,7 +20,7 @@ sources:
     text: "Rutab, Leshy trial walkthrough — quest turn-ins happen back in town, supporting the advice to finish regional business before crossing"
 ---
 
-Your cottage in REKA does two different things that players often merge into one: it can **walk to a new spot inside the current region**, and you can **recall yourself back to it** with a talisman. Neither is a free teleport network. Both are limited to the map you are on, and crossing into a new region is a one-way trip by design.
+Your cottage in REKA does two things players often merge into one: it can **walk to a new spot inside the current region**, and you can **recall yourself back to it** with a talisman. Neither is a free teleport network; both are limited to the map you are on, and crossing into a new region is one-way by design.
 
 ## The two movement systems
 

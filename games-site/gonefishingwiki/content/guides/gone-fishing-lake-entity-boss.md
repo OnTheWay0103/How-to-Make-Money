@@ -26,7 +26,7 @@ sources:
     text: "The survival plan, role split and mistake list are our recommendations, not developer guidance"
 ---
 
-The final boss is the end of GONE Fishing's progression, not a side event. It arrived with the 1.0 release, it is the fight the Lake Entity has been threatening since day one, and beating it unlocks the MOBY rod plus Jeremy Wade difficulty. This guide covers what the encounter asks of a lobby, what the 1.0 hotfixes changed, and how to survive the parts that kill groups.
+The final boss is the end of GONE Fishing's progression, not a side event. It arrived with the **1.0 release**, it is the fight the Lake Entity has been threatening since day one, and beating it unlocks the **MOBY rod** plus **Jeremy Wade difficulty**. This guide covers what the encounter asks of a lobby.
 
 ## What the Endgame Actually Is
 

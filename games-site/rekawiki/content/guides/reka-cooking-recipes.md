@@ -24,7 +24,7 @@ sources:
     text: "Critical Hits, 'Reka — Como cozinhar' — central oven, fuel compartment, recipe journal tab, town merchant stock"
 ---
 
-Cooking in REKA is a three-slot puzzle: put exactly three ingredients into the oven, fuel it with wood, and a valid combination becomes a dish. The oven sits in the centre of your cottage and unlocks once the starting house is restored. This page lists every recipe we could verify across two independent recipe tables, plus what each dish sells for.
+Cooking in REKA is a three-slot puzzle: three ingredients into the oven, fuel it with wood, and a valid combination becomes a dish. The oven sits in the centre of your cottage and unlocks once the starting house is restored. This page lists every recipe we could verify across two independent recipe tables, plus what each dish sells for.
 
 ## How the oven actually works
 

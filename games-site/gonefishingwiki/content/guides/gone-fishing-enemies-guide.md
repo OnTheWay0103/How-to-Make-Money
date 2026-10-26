@@ -24,7 +24,7 @@ sources:
     text: "The night rules and priority order are our recommendations, not developer guidance"
 ---
 
-Night in GONE Fishing is a different game. During the day the threats are time and distance; after dark they are creatures that hear you, see you, and in one case cannot be killed at all. The store page divides them into territorial beasts, stalking nightmares and ambushing predators, then adds the Lake Entity as a fightable endgame threat. This guide covers what the community has documented about each, how to tell them apart, and the rules that keep a group alive.
+Night in GONE Fishing is a different game: by day the threats are time and distance, after dark they are creatures that hear you, see you, and one you cannot kill. The store page groups them as territorial beasts, stalking nightmares and ambushing predators, plus the Lake Entity as a fightable endgame threat. This guide covers each type.
 
 ## First, the Official Framing
 
