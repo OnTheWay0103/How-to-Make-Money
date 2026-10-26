@@ -68,7 +68,7 @@ Agent 之间不直接对话，通过**文件契约**交接：
 - **数据来源**：流量一律取 `dashboard /api/traffic`，MUST NOT 编造或估算；取不到时报"不可判定"，不许当 0
 - **挖词**：MUST 用 `node scripts/harvest-keywords.mjs --game "官方写法" --slug ... --genre ... --write`；锚定词带空格、固定 `hl=en&gl=us`、先裸词（三条实测教训见 `docs/STRATEGY-挖词与词库.md` 3.1）
 - **每条词 MUST 带来源**（`渠道:细节`，如 `google_suggest:后缀:codes`）；**有效词 ≥20** 才进建站评分，否则判「搜索需求低」
-- **采集节奏**（按**美东时间** America/New_York 排期）：发现轮每天 2 次（08:00 / 17:00）、扩词轮每周 2 次（周二/周五 17:00，只对 A/B 档）、复盘轮每周 1 次（周一 08:00）；cron MUST 设 `TZ=America/New_York`，MUST NOT 写死北京时刻。全部轮次 MUST 避开 DeepSeek 高峰期（工作日 09:00–12:00、14:00–18:00 北京时间），走半价
+- **采集节奏**（按**美东时间** America/New_York 排期）：发现轮每天 2 次（美东上午 08:00–09:00、下午 15:00–16:00，实际 launchd 固定本机 21:00 / 次日 04:00，换算依据见 `auto-build-site.plist` 注释）；扩词轮（周二/周五）与复盘轮（周一）当前含在发现轮全流程内、未单独排期；全部轮次 MUST 避开 DeepSeek 高峰期（工作日 09:00–12:00、14:00–18:00 北京时间），走半价。排期口径 MUST 先按美东窗口换算成固定本机时刻，并在 plist 注释里写清换算依据（launchd 无法按 job 设 `TZ`），MUST NOT 只看本机时刻随手排
 - **词库索引**：`keyword-results/INDEX.md` 由 `node scripts/keyword-index.mjs` 生成，MUST NOT 手改
 - **选词**：四维 = **需求 / 竞争 / 内容扩展 / 生命周期**（各 0–5，总分 20）；「变现」移入成本模型、「可行性」并入内容扩展。≥17 可建 / 15–16 观察 / 12–14 低优先 / <12 放弃
 - **需求**：有效词 ≥20 是门禁；**攻略型词占比 <30% → 需求封顶 3 分**（发售日陷阱）；需求信号只有单一来源 → 封顶 3 分（双源规则）
@@ -76,7 +76,7 @@ Agent 之间不直接对话，通过**文件契约**交接：
 - **竞争检查**：固定 6 条查询（EN wiki/guide/codes + ZH 攻略/wiki + JA 攻略），逐条记前 10 域名与 URL，MUST NOT 只跑一条就写「零 wiki」
 - **内容扩展**：可写独立页 ≥20 才够 4 分；「可写」必须有可核验来源，搜索建议不算
 - **成本**：台账加 `建站成本(元)` / `实际人工小时` / `预估回本PV`；回本 PV = 成本 ÷ (RPM/1000)，RPM 用 **$1–5/千次**（第三方基准，标来源与日期）；口径是**组合回本**，不是单站回本
-- **分析轮**：**美东 17:30**（cron `TZ=America/New_York`），`待分析` ≥5 触发；产出 `keyword-results/selection-{date}.md`
+- **分析轮**：**美东下午轮（15:00–16:00）内执行**，`待分析` ≥5 触发；产出 `keyword-results/selection-{date}.md`
 - **选词完整规则**见 `docs/STRATEGY-选词与评分.md`；岗位是候选分析员（`docs/agents/22` / `23`）
 - **变现**：**AdSense 暂缓（2026-10-25）**，只走 Adsterra；新站不注入 `ca-pub`，存量站代码不动（见 `docs/STRATEGY-域名与部署.md` 第六节）
 - **域名**：当前维持 `*.vercel.app` 子域（2026-11-25 复盘）；风险 = URL 绑定托管账号，换账号即换 URL；将来迁移 MUST 先 301
@@ -151,10 +151,10 @@ games-site/
 ## 关键词工作流
 
 ```
-发现轮（每天美东 08:00 / 17:00）→ 侦察员 → CANDIDATE-POOL.md + discovery-{date}.md
+发现轮（每天美东上午 08:00–09:00 + 下午 15:00–16:00）→ 侦察员 → CANDIDATE-POOL.md + discovery-{date}.md
 验证轮（建站决策当天）→ 研究员 → scripts/harvest-keywords.mjs --write → keyword-results/{slug}.md
-扩词轮（周二/周五美东 17:00，仅 A/B 档）→ 研究员 → {slug}-expand-{date}.md
-复盘轮（周一美东 08:00）→ 研究员 → keyword-results/命中率分析.md（词 → 页面 → PV）
+扩词轮（周二/周五下午轮内，仅 A/B 档）→ 研究员 → {slug}-expand-{date}.md
+复盘轮（周一上午轮内）→ 研究员 → keyword-results/命中率分析.md（词 → 页面 → PV）
 每月 → node scripts/keyword-index.mjs --check → INDEX.md
 ```
 
