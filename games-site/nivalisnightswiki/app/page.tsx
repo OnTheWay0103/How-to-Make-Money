@@ -2,7 +2,6 @@ import Link from 'next/link';
 import { faqPageSchema, videoGameSchema } from '@/lib/schema';
 import JsonLd from '@/components/JsonLd';
 import GuideCard from '@/components/GuideCard';
-import AdsterraNativeBanner from '@/components/AdsterraNativeBanner';
 
 const FEATURED_GUIDES = [
   { title: 'Beginner Guide — Getting Started', description: 'New to Nivalis Nights? Learn the core loop — inherit the noodle bar, run your first service, hire staff, and survive your first week in the city of Nivalis.', slug: 'beginner-guide', category: 'Beginner', updated: '2026-08-07' },
@@ -53,10 +52,6 @@ export default function Home() {
         <div className="text-center mt-8">
           <Link href="/guides" className="text-cyan-400 hover:text-cyan-300 text-sm font-medium transition-colors">View All Guides →</Link>
         </div>
-      </section>
-
-      <section className="max-w-6xl mx-auto px-4">
-        <AdsterraNativeBanner className="max-w-3xl mx-auto" />
       </section>
 
       <section className="max-w-3xl mx-auto px-4 py-16 border-t border-[#1a1a3e]">

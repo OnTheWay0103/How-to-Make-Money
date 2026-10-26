@@ -217,7 +217,7 @@ async function main() {
     '',
     '## 对账提示',
     '',
-    '- 只有 `adsterra/placements.csv` 里 `status=ready` 的广告位才会被注入站点。',
+    '- 只有 `<site>/lib/adsterra-zones.ts` 里配了代码的位才会上线（代码来自飞书「站点台账(人工)」两列）。',
     '- 域名有曝光但报表为 0，先确认该站是否已部署含广告代码的版本。',
     '',
   );

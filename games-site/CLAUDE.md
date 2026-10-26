@@ -82,7 +82,7 @@ Agent 之间不直接对话，通过**文件契约**交接：
 - **变现**：**AdSense 暂缓（2026-10-25）**，只走 Adsterra；新站不注入 `ca-pub`，存量站代码不动（见 `docs/STRATEGY-域名与部署.md` 第六节）
 - **域名**：当前维持 `*.vercel.app` 子域（2026-11-25 复盘）；风险 = URL 绑定托管账号，换账号即换 URL；将来迁移 MUST 先 301
 - **托管**：当前 Vercel Hobby 单账号；Hobby 条款禁止商业用途、多账号分摊属规避限制，风险记在节点 18 备注；2026-11-25 复盘 Pro / Cloudflare
-- **广告位**：每站 Adsterra `global`（Social Bar）+ `guide`（Native Banner）两个位；代码先填飞书「站点台账(人工)」两列 → 20:00 回填脚本写「广告位管理」→ `adsterra-sync.mjs` 注入，MUST NOT 手改「广告位管理」或站点代码
+- **广告位**：每站 Adsterra `global`（Social Bar）+ `guide`（Native Banner）两个位；**唯一入口是飞书「站点台账(人工)」两列** → 20:00 回填脚本调 `adsterra-sync.mjs` 写 `<site>/lib/adsterra-zones.ts` 并部署，上线状态记 `.agent/adsterra-state.json`；「广告位管理」表已删（2026-10-26），MUST NOT 手改 zones 文件或站点广告代码
 - **GA4**：暂维持人工建 property；每站 MUST 把 Dashboard 服务账号加为该 property 的读取者，否则看板无数据
 
 ## 站点矩阵

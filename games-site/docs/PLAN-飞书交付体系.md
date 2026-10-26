@@ -20,7 +20,7 @@
 | G | 合规审计 | AdSense / 事实核查触发 | 合规 01/02 | 修改 + 报告 | 工作区 + `.agent/` | 断言清理 |
 | H | 汇总入库 | 每日收尾 | 主 Agent 07/08 | 日报 | 只在 `~/Library/Logs/auto-build-site/*.log` + `qa-report.md` 尾部 | `update-stats.mjs` + pre-commit hook |
 | I | 部署 | build PASS 后 | 建站/主 Agent | Vercel 线上 | `deploy-wiki-site.sh` | HTTP 200 + 标记命中（手工） |
-| J | 广告 | 人填 code → 脚本 | 人 + `adsterra-sync.mjs` | 广告位注入 | `adsterra/placements.csv` ← 飞书 Sheets | 构建 + 线上 |
+| J | 广告 | 人填 code → 脚本 | 人 + `adsterra-sync.mjs` | 广告位注入 | `站点台账(人工)` 两列 → `<site>/lib/adsterra-zones.ts` | 构建 + 线上 |
 | K | 监控/反馈 | 每周 / 7 天 | 监控 15/16、反馈 17/18 | 报告 | `.agent/monitor-report.md`、`{game}-feedback.md` | 主 Agent 决策 |
 
 **核心矛盾**：每天有 8–12 个交付，但散落在四个互不可见的地方——仓库文件、`.agent/` 里 60 份日期报告、
@@ -41,7 +41,7 @@
 | 关键词报告 | `keyword-results/{Game}.md` | 每游戏 1 | 是 | 上云只放链接 |
 | 站点统计 | `STATS-游戏站点统计.md` | 43 行 | 是 | 上云，T3 站点台账 |
 | 部署待办 | `.agent/pending-deploys-*.md` | 临时文件 | 是 | 上云，T5，文件退役 |
-| 广告位 | 飞书 Sheets + CSV | 已闭环 | 是 | **保持现状** |
+| 广告位 | 飞书「站点台账(人工)」两列 | 已闭环 | 是 | **保持现状**（「广告位管理」表 2026-10-26 已删） |
 | PV / 排名 | dashboard（43/43 GA4 已覆盖）+ 9/02 快照 | 月级 | 是 | 凭证已就绪，待接月度复盘 |
 
 ---
@@ -175,7 +175,7 @@
 
 ### 保留现状
 
-广告位表继续用 Sheets（`scripts/adsterra-sync.mjs` 已能读，不折腾）。
+广告位无非就是「站点台账(人工)」的两列代码（2026-10-26 起），不另设表。
 
 ### 明确不进飞书
 

@@ -1,5 +1,6 @@
 import VersionBadge from './VersionBadge';
-import AdsterraNativeBanner from './AdsterraNativeBanner';
+import AdsterraSlot from '@/components/AdsterraSlot';
+import { ADSTERRA_ZONES } from '@/lib/adsterra-zones';
 
 interface EvidenceSource {
   tier: string;
@@ -63,8 +64,11 @@ export default function GuideLayout({ frontmatter, children }: GuideLayoutProps)
         {children}
       </div>
 
-      {/* Ad slot */}
-      <AdsterraNativeBanner />
+      {/* ADSTERRA:GUIDE:START */}
+      {ADSTERRA_ZONES.guide.map((zone) => (
+        <AdsterraSlot key={zone.name} html={zone.html} />
+      ))}
+      {/* ADSTERRA:GUIDE:END */}
 
       {/* Verification */}
       <footer className="mt-12 pt-6 border-t border-[#2a2a5e]">

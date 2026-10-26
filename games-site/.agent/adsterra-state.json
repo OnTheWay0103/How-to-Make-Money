@@ -1,0 +1,442 @@
+{
+  "aincradwiki": {
+    "global": {
+      "hash": "d3e9f3baed38",
+      "deployedAt": "2026-10-25T04:03:30.000Z"
+    },
+    "guide": {
+      "hash": "8f72ddf18e2a",
+      "deployedAt": "2026-10-25T04:03:30.000Z"
+    }
+  },
+  "ardentwildswiki": {
+    "global": {
+      "hash": "e378128c2438",
+      "deployedAt": "2026-10-25T04:04:00.000Z"
+    },
+    "guide": {
+      "hash": "427d5e409604",
+      "deployedAt": "2026-10-25T04:04:00.000Z"
+    }
+  },
+  "beastreincarnationwiki": {
+    "global": {
+      "hash": "db142a34b713",
+      "deployedAt": "2026-10-25T04:04:31.000Z"
+    },
+    "guide": {
+      "hash": "f89d94e4701d",
+      "deployedAt": "2026-10-25T04:04:31.000Z"
+    }
+  },
+  "bigwalkwiki": {
+    "global": {
+      "hash": "f8c8c8117888",
+      "deployedAt": "2026-10-25T04:05:01.000Z"
+    },
+    "guide": {
+      "hash": "ba79cbbd0665",
+      "deployedAt": "2026-10-25T04:05:01.000Z"
+    }
+  },
+  "bombananawiki": {
+    "global": {
+      "hash": "8040d3282a3c",
+      "deployedAt": "2026-10-26T13:24:14.000Z"
+    },
+    "guide": {
+      "hash": "d761ce8a3169",
+      "deployedAt": "2026-10-26T13:24:14.000Z"
+    }
+  },
+  "boneholdwiki": {
+    "global": {
+      "hash": "9ef216818323",
+      "deployedAt": "2026-10-25T04:05:30.000Z"
+    },
+    "guide": {
+      "hash": "5f68a69cf8d8",
+      "deployedAt": "2026-10-25T04:05:30.000Z"
+    }
+  },
+  "cozygamerestorationwiki": {
+    "global": {
+      "hash": "92e1ef220dc4",
+      "deployedAt": "2026-10-25T04:05:59.000Z"
+    },
+    "guide": {
+      "hash": "eb1abd7e4891",
+      "deployedAt": "2026-10-25T04:05:59.000Z"
+    }
+  },
+  "crimsonmoonwiki": {
+    "global": {
+      "hash": "c52030d8877f",
+      "deployedAt": "2026-10-26T13:24:53.000Z"
+    },
+    "guide": {
+      "hash": "97de07ae85e3",
+      "deployedAt": "2026-10-26T13:24:53.000Z"
+    }
+  },
+  "delveriumwiki": {
+    "global": {
+      "hash": "1ac88a6100ad",
+      "deployedAt": "2026-10-25T04:06:28.000Z"
+    },
+    "guide": {
+      "hash": "0ab1737e92a6",
+      "deployedAt": "2026-10-25T04:06:28.000Z"
+    }
+  },
+  "dinobladewiki": {
+    "global": {
+      "hash": "03f066d02d51",
+      "deployedAt": "2026-10-25T04:07:01.000Z"
+    },
+    "guide": {
+      "hash": "0d1418465043",
+      "deployedAt": "2026-10-25T04:07:01.000Z"
+    }
+  },
+  "doloctownwiki": {
+    "global": {
+      "hash": "6846a4210ce7",
+      "deployedAt": "2026-10-26T13:25:30.000Z"
+    },
+    "guide": {
+      "hash": "ad2162bc5e1d",
+      "deployedAt": "2026-10-26T13:25:30.000Z"
+    }
+  },
+  "dragonswordwiki": {
+    "global": {
+      "hash": "df7562d45f54",
+      "deployedAt": "2026-10-25T04:07:30.000Z"
+    },
+    "guide": {
+      "hash": "db69ec7aa345",
+      "deployedAt": "2026-10-25T04:07:30.000Z"
+    }
+  },
+  "dreadmoorwiki": {
+    "global": {
+      "hash": "936cd94607b3",
+      "deployedAt": "2026-10-25T04:08:06.000Z"
+    },
+    "guide": {
+      "hash": "02a548e269ff",
+      "deployedAt": "2026-10-25T04:08:06.000Z"
+    }
+  },
+  "dressmakerwiki": {
+    "global": {
+      "hash": "990b14f095b8",
+      "deployedAt": "2026-10-26T13:26:08.000Z"
+    },
+    "guide": {
+      "hash": "70d62cde69e0",
+      "deployedAt": "2026-10-26T13:26:08.000Z"
+    }
+  },
+  "dwarfdelvewiki": {
+    "global": {
+      "hash": "d39de8718bf9",
+      "deployedAt": "2026-10-25T04:08:35.000Z"
+    },
+    "guide": {
+      "hash": "ccab4b2b1dc6",
+      "deployedAt": "2026-10-25T04:08:35.000Z"
+    }
+  },
+  "expeditionssamuraiwiki": {
+    "global": {
+      "hash": "ebfab3b6009e",
+      "deployedAt": "2026-10-25T04:09:03.000Z"
+    },
+    "guide": {
+      "hash": "65f183772328",
+      "deployedAt": "2026-10-25T04:09:03.000Z"
+    }
+  },
+  "fallentearwiki": {
+    "global": {
+      "hash": "5a7282a480b2",
+      "deployedAt": "2026-10-26T13:26:57.000Z"
+    },
+    "guide": {
+      "hash": "5057a2f3be9d",
+      "deployedAt": "2026-10-26T13:26:57.000Z"
+    }
+  },
+  "gotownwiki": {
+    "global": {
+      "hash": "39f533c3c8a0",
+      "deployedAt": "2026-10-25T04:09:33.000Z"
+    },
+    "guide": {
+      "hash": "c253f9308fc3",
+      "deployedAt": "2026-10-25T04:09:33.000Z"
+    }
+  },
+  "grainrotwiki": {
+    "global": {
+      "hash": "f6f7daef461c",
+      "deployedAt": "2026-10-26T00:41:53.000Z"
+    },
+    "guide": {
+      "hash": "a8dd79d79424",
+      "deployedAt": "2026-10-26T00:41:53.000Z"
+    }
+  },
+  "graphitewiki": {
+    "global": {
+      "hash": "a6f717ed06fe",
+      "deployedAt": "2026-10-25T04:10:33.000Z"
+    },
+    "guide": {
+      "hash": "092e2e9b5ba6",
+      "deployedAt": "2026-10-25T04:10:33.000Z"
+    }
+  },
+  "ironnestwiki": {
+    "global": {
+      "hash": "d68eaf6c9291",
+      "deployedAt": "2026-10-25T04:11:03.000Z"
+    },
+    "guide": {
+      "hash": "05abafbccd57",
+      "deployedAt": "2026-10-25T04:11:03.000Z"
+    }
+  },
+  "lowbudgetrepairswiki": {
+    "global": {
+      "hash": "c4d5e39225a0",
+      "deployedAt": "2026-10-25T04:11:37.000Z"
+    },
+    "guide": {
+      "hash": "ca26b8f836ef",
+      "deployedAt": "2026-10-25T04:11:37.000Z"
+    }
+  },
+  "lunariumwiki": {
+    "global": {
+      "hash": "1e0785a4b711",
+      "deployedAt": "2026-10-25T04:12:06.000Z"
+    },
+    "guide": {
+      "hash": "d1edcac6a110",
+      "deployedAt": "2026-10-25T04:12:06.000Z"
+    }
+  },
+  "minegeonwiki": {
+    "global": {
+      "hash": "a0d99a0c2fd5",
+      "deployedAt": "2026-10-25T04:12:34.000Z"
+    },
+    "guide": {
+      "hash": "a4c60edbf7dc",
+      "deployedAt": "2026-10-25T04:12:34.000Z"
+    }
+  },
+  "mistfallhunterwiki": {
+    "global": {
+      "hash": "bb1b2e8d40f8",
+      "deployedAt": "2026-10-25T04:13:03.000Z"
+    },
+    "guide": {
+      "hash": "29453f3505ad",
+      "deployedAt": "2026-10-25T04:13:03.000Z"
+    }
+  },
+  "moonlightpeakswiki": {
+    "global": {
+      "hash": "13ddcf3c9ab4",
+      "deployedAt": "2026-10-25T04:13:32.000Z"
+    },
+    "guide": {
+      "hash": "d799b75a6dd5",
+      "deployedAt": "2026-10-25T04:13:32.000Z"
+    }
+  },
+  "mystraliawiki": {
+    "global": {
+      "hash": "255eac8d0728",
+      "deployedAt": "2026-10-25T04:14:01.000Z"
+    },
+    "guide": {
+      "hash": "e39523c668d1",
+      "deployedAt": "2026-10-25T04:14:01.000Z"
+    }
+  },
+  "neonabyss2wiki": {
+    "global": {
+      "hash": "d2f9f8dc2174",
+      "deployedAt": "2026-10-26T13:29:10.000Z"
+    },
+    "guide": {
+      "hash": "660a4fca03e4",
+      "deployedAt": "2026-10-26T13:29:10.000Z"
+    }
+  },
+  "phantomtowerwiki": {
+    "global": {
+      "hash": "01ca2406ce06",
+      "deployedAt": "2026-10-25T04:14:30.000Z"
+    },
+    "guide": {
+      "hash": "eb676257fe64",
+      "deployedAt": "2026-10-25T04:14:30.000Z"
+    }
+  },
+  "relicfirstguardianwiki": {
+    "global": {
+      "hash": "23de20c5baf4",
+      "deployedAt": "2026-10-25T04:02:08.000Z"
+    },
+    "guide": {
+      "hash": "ff27afab22c6",
+      "deployedAt": "2026-10-25T04:02:08.000Z"
+    }
+  },
+  "restorywiki": {
+    "global": {
+      "hash": "9679522762d0",
+      "deployedAt": "2026-10-25T04:15:00.000Z"
+    },
+    "guide": {
+      "hash": "97fe5614ddcb",
+      "deployedAt": "2026-10-25T04:15:00.000Z"
+    }
+  },
+  "sephiriawiki": {
+    "global": {
+      "hash": "c56acc9ec59c",
+      "deployedAt": "2026-10-26T13:10:01.000Z"
+    },
+    "guide": {
+      "hash": "790fe665e4fc",
+      "deployedAt": "2026-10-26T13:10:01.000Z"
+    }
+  },
+  "shiftatmidnightwiki": {
+    "global": {
+      "hash": "f33bed474084",
+      "deployedAt": "2026-10-26T00:38:29.000Z"
+    },
+    "guide": {
+      "hash": "f690f0265f40",
+      "deployedAt": "2026-10-26T00:38:29.000Z"
+    }
+  },
+  "silverpineswiki": {
+    "global": {
+      "hash": "fc3407e2a635",
+      "deployedAt": "2026-10-26T13:27:28.000Z"
+    },
+    "guide": {
+      "hash": "13e79ce3e03b",
+      "deployedAt": "2026-10-26T13:27:28.000Z"
+    }
+  },
+  "skillsandraidswiki": {
+    "global": {
+      "hash": "4cceb8428b07",
+      "deployedAt": "2026-10-25T04:16:39.000Z"
+    },
+    "guide": {
+      "hash": "579a6baa25b7",
+      "deployedAt": "2026-10-25T04:16:39.000Z"
+    }
+  },
+  "sovereigntowerwiki": {
+    "global": {
+      "hash": "4c001053f143",
+      "deployedAt": "2026-10-26T13:27:59.000Z"
+    },
+    "guide": {
+      "hash": "4d73b1c97089",
+      "deployedAt": "2026-10-26T13:27:59.000Z"
+    }
+  },
+  "spiritvalewiki": {
+    "global": {
+      "hash": "49e7e021d3d3",
+      "deployedAt": "2026-10-26T00:39:41.000Z"
+    },
+    "guide": {
+      "hash": "e272d090ee0f",
+      "deployedAt": "2026-10-26T00:39:41.000Z"
+    }
+  },
+  "taivalwiki": {
+    "global": {
+      "hash": "e16ac470d7cd",
+      "deployedAt": "2026-10-25T04:17:43.000Z"
+    },
+    "guide": {
+      "hash": "e6ed09254ac0",
+      "deployedAt": "2026-10-25T04:17:43.000Z"
+    }
+  },
+  "tearsofmetalwiki": {
+    "global": {
+      "hash": "c8379ea77676",
+      "deployedAt": "2026-10-26T00:42:04.000Z"
+    },
+    "guide": {
+      "hash": "5c9804ac513b",
+      "deployedAt": "2026-10-26T00:42:04.000Z"
+    }
+  },
+  "themoundwiki": {
+    "global": {
+      "hash": "2a5777e4b2ce",
+      "deployedAt": "2026-10-26T13:09:17.000Z"
+    },
+    "guide": {
+      "hash": "72348e46f8da",
+      "deployedAt": "2026-10-26T13:09:17.000Z"
+    }
+  },
+  "vahrinscallwiki": {
+    "global": {
+      "hash": "4c69ce4840db",
+      "deployedAt": "2026-10-25T04:19:23.000Z"
+    },
+    "guide": {
+      "hash": "5ac8807f958d",
+      "deployedAt": "2026-10-25T04:19:23.000Z"
+    }
+  },
+  "waterparksimulatorwiki": {
+    "global": {
+      "hash": "98c55c834bca",
+      "deployedAt": "2026-10-26T00:43:13.000Z"
+    },
+    "guide": {
+      "hash": "22be586dccdd",
+      "deployedAt": "2026-10-26T00:43:13.000Z"
+    }
+  },
+  "welcomeelderfieldwiki": {
+    "global": {
+      "hash": "b5a4d07d0a6c",
+      "deployedAt": "2026-10-26T13:28:35.000Z"
+    },
+    "guide": {
+      "hash": "7a3799a60bde",
+      "deployedAt": "2026-10-26T13:28:35.000Z"
+    }
+  },
+  "witchspirewiki": {
+    "global": {
+      "hash": "c57bd7ab9335",
+      "deployedAt": "2026-10-25T04:20:33.000Z"
+    },
+    "guide": {
+      "hash": "7499a1a7c90e",
+      "deployedAt": "2026-10-25T04:20:33.000Z"
+    }
+  }
+}

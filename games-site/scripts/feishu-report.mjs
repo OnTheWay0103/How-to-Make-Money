@@ -47,6 +47,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { resolveLedgerTable, siteDirOf } from './lib/month-ledger.mjs';
+import { parseZones, readZonesSource } from './lib/adsterra-placement.mjs';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const BASE_TOKEN = process.env.FEISHU_BASE_TOKEN || 'Zl7cb6Bz9ajsPdsQRbRci1QZnkg';
@@ -445,12 +446,10 @@ function firstCommitDate(site) {
   } catch { return ''; }
 }
 
+/** 广告位上线数 = `<site>/lib/adsterra-zones.ts` 里配了几个位的代码（0–2）。 */
 function adSlots(site) {
-  const p = path.join(ROOT, 'adsterra', 'placements.csv');
-  if (!fs.existsSync(p)) return 0;
-  return fs.readFileSync(p, 'utf8').split('\n')
-    .slice(1)
-    .filter((l) => l.split(',')[0]?.trim() === site).length;
+  const zones = parseZones(readZonesSource(ROOT, site));
+  return ['global', 'guide'].filter((slot) => (zones[slot] ?? []).length > 0).length;
 }
 
 function syncSites() {

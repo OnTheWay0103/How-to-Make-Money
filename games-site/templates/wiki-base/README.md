@@ -29,7 +29,7 @@ node scripts/new-site.mjs \
 | `content/guides/` | 只放 `.gitkeep` | 按页面矩阵写 5–8 页，每页 ≥1,200 词、≥2 个来源（≥1 官方） |
 | `app/faq/page.tsx` 的 `FAQ_ITEMS` | 答案必须来自可核验来源，不能编 | 采完词、读完商店页与官方公告后填 4–10 条 |
 | `app/tier-list/page.tsx` 的 `PRIORITY_TIERS` | 同上；游戏没有层级系统时这页应该换页型 | 有可引用的数值或明确判断依据后填 |
-| `lib/adsterra-zones.ts` | 广告位由 `scripts/adsterra-sync.mjs` 从飞书注入 | 站上线、在飞书「广告位管理」建好两位之后 |
+| `lib/adsterra-zones.ts` | 广告位由 `scripts/adsterra-sync.mjs` 从飞书「站点台账(人工)」两列注入 | 站上线、Adsterra 后台建好两位、把代码填进人工台账之后 |
 
 `lib/seo-config.ts` 里 `googleAnalyticsId` 与 `googleAdsenseId` 也是空的：GA4 建好 property 后填
 measurement ID，并把 dashboard 服务账号加为该 property 的读取者；AdSense 全项目暂缓，保持空。

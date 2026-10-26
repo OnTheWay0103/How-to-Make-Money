@@ -24,34 +24,31 @@ ADSTERRA_API_KEY=你的token
 2. 在该站点下创建广告位（placement）：
    - `global` 槽位：一般用 **Social Bar** 或 **Popunder**，代码是单个 `<script>`
    - `guide` 槽位：一般用 **Native Banner**，代码是 `<script>` + `<div id="container-...">`
-3. 复制后台给出的代码，粘贴到 `adsterra/placements.csv`
+3. 复制后台给出的代码，粘进飞书「站点台账(人工)YYYY-MM」对应行的
+   `广告位1-SocialBar-code` / `广告位2-NativeBanner-code` 两列（整段粘一格，可带换行）
 
-## 三、代码表格式（多维表格 / placements.csv）
+> 2026-10-26 起**只有这一个入口**：原来的「广告位管理」多维表格已删除，
+> 台账既是人工填写处，也是脚本的唯一数据源。
 
-**唯一数据源：飞书多维表格「游戏站交付看板 → 广告位管理」（`tblPlFjSok72tnA1`）**
+## 三、数据源格式
 
-| 字段 | 说明 |
+台账「站点」列写**裸域名**（`witchspirewiki.vercel.app`），脚本用 `siteDirOf()` 反推站点目录。
+
+| 列 | 说明 |
 |---|---|
-| `站点目录` | 站点目录名，如 `witchspirewiki` |
-| `域名` | 域名，仅用于核对 |
-| `广告位类型` | `global`（全站，layout body 末尾）或 `guide`（攻略页正文后） |
-| `广告格式` | 广告格式，`Social Bar` / `Native Banner` / `Popunder` / `Display Banner` |
-| `广告位名称` | Adsterra 后台的广告位名称（也是同步主键） |
-| `广告位ID` | Adsterra 广告位 ID（可选，便于对账） |
-| `状态` | `pending`（待处理）、`ready`（可注入）、`已接入`（手工接入，脚本会跳过）、`已上线`（已部署） |
-| `广告代码` | **Adsterra 后台复制的完整代码**（整段粘在一格里，可带换行） |
-| `备注` | 备注 |
-| `同步状态` | `未同步` / `已同步`，由脚本回写，人工不用填 |
+| `站点` | 裸域名，主键 |
+| `广告位1-SocialBar-code` | 注入 `global` 位（`app/layout.tsx`，`</body>` 前） |
+| `广告位2-NativeBanner-code` | 注入 `guide` 位（`components/GuideLayout.tsx`，Verification 前） |
+| `广告位3-todo-code` | 占位，脚本**只读不处理** |
 
-- 同一站点可以有多行（一个 `global` + 一个 `guide`）。
-- 不要填 `dashboard` 或其他非站点目录。
-- 离线/测试时可用本地 CSV（`adsterra/placements.csv`，表头支持中英文），用 `--csv` 显式指定。
+- 一列空着 = **不动**该位已有的代码（空着不代表下线，避免误删线上广告）
+- 一个位只放一份代码：填新的会整体替换旧的
+- 离线/测试时可用本地 CSV（`adsterra/placements.csv`，表头支持中英文），用 `--csv` 显式指定
 
-### 旧版飞书在线表格（仅迁移用）
+### 旧数据源（仅迁移/对比用）
 
-在线表：<https://jcn5oum2q1jh.feishu.cn/wiki/Nbeqw9Dqmivo2jkWPYKc56Fwn7e>
-
-已全量导入多维表格，**日常不再从这里读**。`--feishu <url>` 参数仍保留，只在需要对比旧数据时用。
+- 「广告位管理」多维表格（`tblPlFjSok72tnA1`）**2026-10-26 已删除**
+- 旧在线表 `站点日常工作表` 的 ADsMgr 子表：`--feishu <url>` 仍可读，只在对比旧数据时用
 
 ## 四、自动注入
 
@@ -65,27 +62,27 @@ node scripts/adsterra-sync.mjs --apply
 # 3) 写入 + 逐站构建
 node scripts/adsterra-sync.mjs --apply --build
 
-# 4) 写入 + 构建 + 部署（调用 deploy-wiki-site.sh）
-node scripts/adsterra-sync.mjs --apply --build --deploy
+# 4) 写入 + 部署（调用 deploy-wiki-site.sh）
+node scripts/adsterra-sync.mjs --apply --deploy
 ```
 
-默认直接读多维表格「广告位管理」，无需任何参数。其他来源：
+默认直接读当月「站点台账(人工)」，无需任何参数。其他选项：
 
 ```bash
-node scripts/adsterra-sync.mjs --csv adsterra/placements.csv          # 离线 CSV
-node scripts/adsterra-sync.mjs --base <token> --table <id|name>       # 其他多维表格
-node scripts/adsterra-sync.mjs --feishu '<旧在线表URL>'                # 旧在线表（对比用）
-node scripts/adsterra-sync.mjs --no-writeback                         # 不回写状态
+node scripts/adsterra-sync.mjs --site witchspirewiki      # 只处理一个站
+node scripts/adsterra-sync.mjs --month 2026-10            # 指定月份人工台账
+node scripts/adsterra-sync.mjs --csv adsterra/placements.csv   # 离线 CSV
+node scripts/adsterra-sync.mjs --print                    # 打印改动后的文件
+node scripts/adsterra-sync.mjs --seed-state [--apply]     # 从部署日志重建上线记录
 ```
 
-**回写**（读多维表格时生效）：
+**上线状态（不写云表）**：
 
-- `--apply` 注入成功 → 对应记录 `同步状态` = `已同步`
-- `--apply --build --deploy` 部署成功 → 对应记录 `状态` = `已上线`
-
-回写失败只告警、不影响已写入的站点代码。
-
-其他选项：`--site <dir>` 只处理一个站，`--print` 打印改动后的文件内容。
+- `--apply` 注入成功 → `<site>/lib/adsterra-zones.ts` 就是事实，不用记
+- `--apply --deploy` 部署成功 → 记进 `.agent/adsterra-state.json`（代码 hash + 部署时间）
+- 代码换了 hash 就对不上，自动变成「待部署」；`--deploy` 会顺带补部署「已注入但没记着上线」的站
+- `--seed-state`：state 是 2026-10-26 新引入的，用它从 `.agent/deploy-log.jsonl` 的 commit
+  精确回看线上那一版，给历史部署补记录（只补没有记录的站）
 
 脚本行为：
 
@@ -96,9 +93,7 @@ node scripts/adsterra-sync.mjs --no-writeback                         # 不回�
   `pathname === '/'` 才渲染，其他路由返回 null（2026-10-25 起，首页不再只有 Social Bar）
 - 在 `components/GuideLayout.tsx` 用 `ADSTERRA:GUIDE` 标记块注入攻略页广告位
 - 重复运行是幂等的（按标记块替换，不会重复插入）
-- 某行从 `ready` 改回 `pending` 后重跑，对应广告位和 import 会被移除
-- **注入条件：`广告代码` 非空，且状态不是 `已接入`**（`pending` 也可以，人工粘完代码即可）
-- 没有代码的行、以及 `已接入` 的行会被跳过并汇总报告
+- 某位在台账里清空后重跑**不会移除**已有广告位（防误删）；要下线得手工改站点或明确要求
 
 > 2026-10-23 已验证：在 witchspirewiki 注入测试代码后 `pnpm build` 通过，
 > 构建出的 HTML 中 `<script>` 与 `container-*` 顺序正确，验证后已回退。
@@ -128,22 +123,11 @@ node scripts/adsterra-stats.mjs --json       # 机器可读
 
 ## 六、已接入状态
 
-| 站点 | 接入方式 | 备注 |
-|---|---|---|
-| `nivalisnightswiki` | 手工接入（2026-10-23） | 硬编码在 layout + AdsterraNativeBanner，未走 `placements.csv` |
+46 个站全部走同一套模板（`lib/adsterra-zones.ts` + `AdsterraSlot` + 标记块），
+每个站 `global` / `guide` 两位，代码以飞书「站点台账(人工)」为准。
 
-> 后续新站统一走 `placements.csv`，不要再手工硬编码。
-
-### 飞书多维表格（数据源，2026-10-25 起）
-
-`游戏站交付看板`（base `Zl7cb6Bz9ajsPdsQRbRci1QZnkg`）的 **广告位管理** 表
-（`tblPlFjSok72tnA1`，72 条）是**唯一数据源**：`adsterra-sync.mjs` 默认直接读它，
-注入/部署成功后回写 `同步状态` / `状态`。
-
-- 要改广告位（换代码、加站、改状态）→ **在多维表格里改**，然后重跑脚本
-- 旧在线表 `站点日常工作表`（wiki `Nbeqw9Dqmivo2jkWPYKc56Fwn7e`）的 ADsMgr 子表已归档为迁移来源，不再维护
-- 一次性迁移脚本 `scripts/bitable-sync-ads.mjs` 仍保留（在线表 → 多维表格 upsert）。
-  ⚠️ 它会把在线表的旧值覆盖回多维表格，**多维表格成为数据源后不要再随手 `--apply`**
+> 2026-10-26：`nivalisnightswiki` 原来硬编码在 `layout.tsx` + `AdsterraNativeBanner`，
+> 已迁到模板（旧组件删除），全站不再有例外。
 
 ## 七、上线验收（必做）
 

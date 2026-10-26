@@ -9,6 +9,8 @@ import JsonLd from '@/components/JsonLd';
 import GoogleAnalytics from '@/components/GoogleAnalytics';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import AdsterraSlot from '@/components/AdsterraSlot';
+import { ADSTERRA_ZONES } from '@/lib/adsterra-zones';
 
 const geistSans = GeistSans;
 
@@ -44,12 +46,19 @@ export default function RootLayout({
         <GoogleAnalytics />
         <Header />
         <main className="flex-1">{children}</main>
+        {/* ADSTERRA:HOME:START */}
+        <div className="max-w-3xl mx-auto px-4 pb-12">
+          {ADSTERRA_ZONES.guide.map((zone) => (
+            <AdsterraSlot key={`home-${zone.name}`} variant="home" html={zone.html} />
+          ))}
+        </div>
+        {/* ADSTERRA:HOME:END */}
         <Footer />
-        {/* Adsterra — site-wide script (popunder/social bar) */}
-        <script
-          data-cfasync="false"
-          src="https://bauval.org/14/5ae50bbc889b75a09700447dfc343cbe"
-        />
+        {/* ADSTERRA:GLOBAL:START */}
+        {ADSTERRA_ZONES.global.map((zone) => (
+          <AdsterraSlot key={zone.name} variant="global" html={zone.html} />
+        ))}
+        {/* ADSTERRA:GLOBAL:END */}
       </body>
     </html>
   );

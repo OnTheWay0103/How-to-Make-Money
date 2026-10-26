@@ -154,11 +154,12 @@ MUST NOT 设置 `rootDirectory`（CLI 直传模式下会导致路径叠加，见
 | `guide` | Native Banner | `components/GuideLayout.tsx`，Verification 注释前 | 攻略页正文位 |
 
 - 数据源：飞书多维表格「站点台账(人工)YYYY-MM」的 `广告位1-SocialBar-code` /
-  `广告位2-NativeBanner-code` 两列，**唯一事实来源**
-- 回填链：台账(人工) → `sync-ledger-manual.mjs`（每天 20:00）→ 写「广告位管理」
-  （`tblPlFjSok72tnA1`，注入清单）→ `adsterra-sync.mjs --apply --deploy` → 站点代码
-- 「广告位管理」从 2026-10-26 起降级为**派生表**（注入清单 + 同步状态），不再是人工填写的入口
-- 现状：36 站 / 72 个位已接
+  `广告位2-NativeBanner-code` 两列，**唯一事实来源**（2026-10-26 起）
+- 回填链：台账(人工) → `sync-ledger-manual.mjs`（每天 20:00）→ `adsterra-sync.mjs --apply --deploy`
+  → `<site>/lib/adsterra-zones.ts` → 站点代码
+- 「广告位管理」多维表格（`tblPlFjSok72tnA1`）**2026-10-26 已删除**：它只是把台账的代码抄一遍
+  再维护第二套状态机。现在「改没改」看 zones 文件、「上线没」看 `.agent/adsterra-state.json`
+- 现状：46 站 / 92 个位已接
 
 ### 5.2 手工部分与产能
 
@@ -171,9 +172,9 @@ Adsterra Publisher API 是**只读**的（`api3.adsterratools.com/publisher`）�
 
 ### 5.3 MUST 规则
 
-MUST 广告代码先进「站点台账(人工)」对应列，再由 `sync-ledger-manual.mjs` 回填
-MUST NOT 手改「广告位管理」表里的代码（它由台账派生，改了会被下次回填覆盖）
-MUST NOT 直接手改站点里的广告代码（同上，且下次注入会覆盖）
+MUST 广告代码只填「站点台账(人工)」对应列，由脚本注入站点
+MUST NOT 直接手改站点里的广告代码或 `lib/adsterra-zones.ts`（下次注入会覆盖）
+MUST NOT 重建「广告位管理」一类的派生表（台账 + zones 文件 + state 文件已够，多一张表就是多一套状态）
 MUST 部署后验证 HTTP 200 且页面含广告脚本
 MUST NOT 在无流量站上堆多个广告位（影响体验与审核，收益接近 0）
 
@@ -273,8 +274,8 @@ Display Banner）时，补一行 `MANUAL_AD_SLOTS` 即可启用。填了值会�
 | GA4-measurementID | `G-XXXXXXXXXX` | 回填 `lib/seo-config.ts` |
 | GA4-propertyID | 纯数字 | 回填 `dashboard/lib/sites.ts` |
 | GSC | 填「是/已完成」= 已在 GSC 添加 property 并提交 sitemap | **只读**：空着就在每日报告里继续提醒 |
-| 广告位1-SocialBar-code | global 位代码 | 回填「广告位管理」→ 注入 `app/layout.tsx` |
-| 广告位2-NativeBanner-code | guide 位代码 | 回填「广告位管理」→ 注入 `GuideLayout.tsx` |
+| 广告位1-SocialBar-code | global 位代码 | 注入 `<site>/lib/adsterra-zones.ts` → `app/layout.tsx` |
+| 广告位2-NativeBanner-code | guide 位代码 | 注入 `<site>/lib/adsterra-zones.ts` → `GuideLayout.tsx` |
 | 广告位3-todo-code | 第三个位占位 | **只读**：填了只提示，不处理 |
 | 自动化状态 | **程序回写**：`已完成` / `待回填` / `待补填` / `失败`；空 = 这行还没填任何自动化项 | 每轮回填后按站点真实状态重算，只改变化的格子 |
 
@@ -303,7 +304,9 @@ Display Banner）时，补一行 `MANUAL_AD_SLOTS` 即可启用。填了值会�
 - 脚本：`node scripts/sync-ledger-manual.mjs --apply`（默认 dry-run，只出计划）
 - 只处理**有变化**的站：值已和站点代码一致的行完全不动，也就不部署
 - 每轮先把自动化表的 `上线日` 同步进人工表（新站补行时也一并带上），再回填 GA / 广告位
-- 部署完**重读**「广告位管理」再回写 `自动化状态`（不能拿跑之前的内存状态算，那时还没上线）
+- 部署完**按站点真实文件**重算 `自动化状态`：注入看 `lib/adsterra-zones.ts`、上线看
+  `.agent/adsterra-state.json`（不能拿跑之前的内存状态算，那时还没上线）
+- 代码已对、只差部署的站（新建站注入过但没上线 / 上一轮部署失败）本轮会**补部署**，同样占部署额度
 - 上一轮标 `失败` 的站，即使文件已和台账一致，本轮也**强制重新部署一次**（否则值永远落不了地）
 - `--no-deploy` 时不回写 `自动化状态`（没上线就标「已完成」是假的）
 - 单次部署上限 `--max-deploy`（默认 10 站），超出的顺延到次日，不会一次性刷爆额度

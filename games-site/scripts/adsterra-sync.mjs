@@ -4,7 +4,7 @@
  * matching wiki sites.
  *
  * Data source (first match wins):
- *   default          飞书多维表格「广告位管理」（唯一数据源）
+ *   default          飞书「站点台账(人工)YYYY-MM」的广告位代码两列（唯一数据源）
  *   --csv <path>     local placements.csv (offline / testing)
  *   --feishu <url>   legacy 在线表 sheet (one-off migration only)
  *
@@ -17,25 +17,24 @@
  *
  * Options:
  *   --root <dir>      read sites from <dir> instead of the repo root (testing)
- *   --base <token>    Bitable base token (default: 游戏站交付看板)
- *   --table <id|name> Bitable table (default: tblPlFjSok72tnA1 广告位管理)
- *   --csv <path>      read placements from <path> instead of the Bitable
+ *   --table <id|name> 人工台账表（默认当月；跨月/回填时才需要指）
+ *   --month <YYYY-MM> 指定月份的人工台账
+ *   --csv <path>      read placements from <path> instead of the ledger
  *   --feishu <url>    read placements from a legacy Feishu sheet (needs lark-cli)
  *   --feishu-sheet <name>  sub-sheet name (default: first visible sheet)
  *   --site <name>     only process one site directory
- *   --no-writeback    do not update 同步状态 / 状态 in the Bitable
  *
- * Write-back (Bitable source only):
- *   --apply    注入成功 → 同步状态 = 已同步
- *   --deploy   部署成功 → 状态 = 已上线
+ * 状态不再回写云表（「广告位管理」表 2026-10-26 已删）：
+ *   --apply   注入成功 → zones 文件就是事实，不用记
+ *   --deploy  部署成功 → 记进 .agent/adsterra-state.json（代码 hash + 时间）
  *
  * --deploy 不跑本地 build（wiki 站日常不留 node_modules，构建在 Vercel 上做）；
  * 要本地先构建过一遍门禁，显式加 --build。
- * --deploy 还会补部署「已注入但未上线」的站（同步状态=已同步 且 状态≠已上线），
+ * --deploy 还会补部署「已注入但没上线」的站（zones 文件已对、state 里没有记录），
  * 这样上一轮注入成功、部署失败不会因为「代码没变化」而永远卡住。
  *
- * Columns (Bitable field names, CSV headers may use the English names):
- *   站点目录,域名,广告位类型,广告格式,广告位名称,广告位ID,状态,广告代码,备注
+ * Columns (ledger field names / CSV headers may use the English names):
+ *   站点,广告位1-SocialBar-code,广告位2-NativeBanner-code
  *
  * slot:
  *   global -> app/layout.tsx, before </body>
@@ -45,6 +44,17 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { spawnSync, execFileSync } from 'child_process';
+import {
+  mergeZones,
+  markLive,
+  parseZones,
+  readState,
+  readZonesSource,
+  rowsFromManualLedger,
+  seedLiveFromDeployLog,
+  slotLive,
+  zonesSource,
+} from './lib/adsterra-placement.mjs';
 
 const REPO = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const args = process.argv.slice(2);
@@ -58,19 +68,31 @@ const APPLY = flag('--apply');
 const PRINT = flag('--print');
 const BUILD = flag('--build');
 const DEPLOY = flag('--deploy');
-const WRITEBACK = !flag('--no-writeback');
 const SITES_ROOT = path.resolve(opt('--root', REPO));
 const ONLY_SITE = opt('--site', null);
 const FEISHU_URL = opt('--feishu', null);
 const FEISHU_SHEET = opt('--feishu-sheet', null);
 const CSV_ARG = opt('--csv', null);
 
-/** 游戏站交付看板 → 广告位管理（唯一数据源）。 */
-const BASE_TOKEN = opt('--base', 'Zl7cb6Bz9ajsPdsQRbRci1QZnkg');
-const TABLE = opt('--table', 'tblPlFjSok72tnA1');
+/** 人工台账（默认当月）。 */
+const LEDGER_TABLE = opt('--table', null);
+const LEDGER_MONTH = opt('--month', null);
 
 const CSV_PATH = path.resolve(CSV_ARG ?? path.join(REPO, 'adsterra', 'placements.csv'));
 const TEMPLATE_PATH = path.join(REPO, 'adsterra', 'templates', 'AdsterraSlot.tsx');
+
+/* ─── --seed-state：从部署日志重建上线记录（一次性维护命令） ──────── */
+
+if (flag('--seed-state')) {
+  const { seeded, skipped } = seedLiveFromDeployLog(SITES_ROOT, { apply: APPLY });
+  console.log(`可补记上线：${seeded.length} 站${seeded.length ? ` — ${seeded.join(', ')}` : ''}`);
+  if (skipped.length) {
+    console.log(`\n跳过 ${skipped.length} 站：`);
+    skipped.forEach((s) => console.log(`  - ${s}`));
+  }
+  console.log(APPLY ? '\n已写入 .agent/adsterra-state.json' : '\ndry-run：加 --apply 写入 state');
+  process.exit(0);
+}
 
 /* ─── CSV parser (RFC 4180, multiline cells supported) ────────────── */
 
@@ -227,103 +249,6 @@ function loadFromFeishu(url, sheetName) {
   return csv.replace(/^\[row=\d+\] ?/gm, '');
 }
 
-/* ─── Bitable source (via lark-cli) — default, the single source of truth ── */
-
-/** Bitable cell values: select → array, text → string|null, link → object[]. */
-function cellText(value) {
-  // 飞书把文本里的 URL 当富文本链接返回 `[https://x](https://x)`；不拆开会把 src 写坏。
-  const unlink = (s) =>
-    typeof s === 'string' ? s.replace(/\[([^\]]*)\]\((https?:\/\/[^)\s]+)\)/g, '$1') : s;
-  if (Array.isArray(value)) {
-    return value
-      .map((v) => (v && typeof v === 'object' ? v.text ?? v.name ?? '' : String(v ?? '')))
-      .map(unlink)
-      .join(', ');
-  }
-  if (value && typeof value === 'object') return unlink(value.text ?? value.name ?? JSON.stringify(value));
-  return value == null ? '' : unlink(String(value));
-}
-
-function loadFromBitable(baseToken, table) {
-  const rows = [];
-  let cols = null;
-  let offset = 0;
-
-  for (;;) {
-    const data = lark([
-      'base',
-      '+record-list',
-      '--base-token',
-      baseToken,
-      '--table-id',
-      table,
-      '--format',
-      'json',
-      '--limit',
-      '200',
-      '--offset',
-      String(offset),
-    ]);
-    const fields = data.fields ?? [];
-    cols ??= fields.map(canonicalHeader);
-
-    data.data.forEach((cells, i) => {
-      const row = {};
-      fields.forEach((field, c) => (row[cols[c]] = cellText(cells[c]).trim()));
-      // 记录 ID 用于回写同步状态；CSV / 在线表来源没有这个字段。
-      row.__record = data.record_id_list?.[i];
-      row.__line = rows.length + 2;
-      rows.push(row);
-    });
-
-    if (!data.has_more || data.data.length === 0) break;
-    offset += data.data.length;
-  }
-
-  if (!cols || rows.length === 0) {
-    throw new Error(
-      `多维表格 ${table} 是空的，或读不到记录（表头应含：站点目录,域名,广告位类型,广告格式,广告位名称,广告位ID,状态,广告代码,备注）`,
-    );
-  }
-  for (const col of ['site_dir', 'slot', 'status', 'code']) {
-    if (!cols.includes(col)) {
-      throw new Error(`多维表格缺少字段：${col}\n当前字段：${cols.join(', ')}`);
-    }
-  }
-  return rows;
-}
-
-/* ─── Write-back to the Bitable ───────────────────────────────────── */
-
-/** Mark injected placements 已同步 (and, after deploy, 已上线). */
-function writeBack(records, patch, label) {
-  const list = [...records].filter((r) => r.__record);
-  if (!WRITEBACK || list.length === 0) return;
-
-  for (let i = 0; i < list.length; i += 200) {
-    const chunk = Object.fromEntries(
-      list.slice(i, i + 200).map((r) => [r.__record, patch]),
-    );
-    try {
-      lark([
-        'base',
-        '+record-batch-update',
-        '--base-token',
-        BASE_TOKEN,
-        '--table-id',
-        TABLE,
-        '--json',
-        JSON.stringify({ update_records: chunk }),
-      ]);
-    } catch (err) {
-      // 回写失败不影响已经写入站点的代码，只提示人工补一下。
-      console.warn(`回写多维表格失败（代码已写入，不影响构建）：${err.message}`);
-      return;
-    }
-  }
-  console.log(`回写多维表格：${list.length} 条 → ${label}`);
-}
-
 /* ─── Patch helpers ───────────────────────────────────────────────── */
 
 const IMPORT_SLOT = "import AdsterraSlot from '@/components/AdsterraSlot';";
@@ -429,25 +354,6 @@ function syncImports(src, needsSlot, needsZones) {
   return out;
 }
 
-/* ─── Generated files ─────────────────────────────────────────────── */
-
-function zonesSource(zones) {
-  const fmt = (list) =>
-    list.length === 0
-      ? '[]'
-      : `[\n${list
-          .map(
-            (z) =>
-              `    { name: ${JSON.stringify(z.name)}, html: ${JSON.stringify(
-                z.code,
-              )} },`,
-          )
-          .join('\n')}\n  ]`;
-  return `// AUTO-GENERATED by scripts/adsterra-sync.mjs — do not edit by hand.\nexport const ADSTERRA_ZONES = {\n  global: ${fmt(
-    zones.global,
-  )},\n  guide: ${fmt(zones.guide)},\n} as const;\n`;
-}
-
 /* ─── Main ────────────────────────────────────────────────────────── */
 
 let rows;
@@ -460,23 +366,28 @@ try {
     SOURCE = path.relative(REPO, CSV_PATH);
     rows = loadRows();
   } else {
-    SOURCE = `多维表格 ${TABLE}`;
-    rows = loadFromBitable(BASE_TOKEN, TABLE);
+    const { ledger, rows: ledgerRows } = rowsFromManualLedger({
+      repo: REPO,
+      table: LEDGER_TABLE,
+      month: LEDGER_MONTH,
+      onlySite: ONLY_SITE,
+    });
+    SOURCE = `站点台账(人工) ${ledger.name}`;
+    rows = ledgerRows;
   }
 } catch (err) {
-  console.error(`读取广告位表格失败：${err.message}`);
+  console.error(`读取广告位来源失败：${err.message}`);
   process.exit(1);
 }
 console.log(`数据源：${SOURCE}（${rows.length} 行）\n`);
 
-const bySite = new Map();
+/** site_dir → { global?: code, guide?: code }（台账里填了的栏位）。 */
+const codesBySite = new Map();
 const skipped = [];
-const siteRows = new Map(); // site_dir -> rows feeding this site's injection
 
 /**
  * Statuses that mean "already integrated by hand — never auto-inject".
- * Everything else with a non-empty code is treated as injectable, so a
- * human can paste the code and leave the status at pending.
+ * Only legacy CSV / 在线表 sources carry them; 台账来源没有状态列。
  */
 const MANUAL_STATUSES = new Set(['已接入', '已手工接入', 'manual']);
 
@@ -490,28 +401,12 @@ for (const row of rows) {
     throw new Error(`line ${row.__line}: unknown slot "${row.slot}" (use global|guide)`);
   }
   if (ONLY_SITE && row.site_dir !== ONLY_SITE) continue;
-  if (!bySite.has(row.site_dir)) bySite.set(row.site_dir, { global: [], guide: [] });
-  bySite.get(row.site_dir)[row.slot].push({
-    name: row.placement_name || `placement-${row.placement_id || row.__line}`,
-    code: row.code,
-    domain: row.domain,
-    format: row.format,
-  });
-  if (!siteRows.has(row.site_dir)) siteRows.set(row.site_dir, []);
-  siteRows.get(row.site_dir).push(row);
+  if (!codesBySite.has(row.site_dir)) codesBySite.set(row.site_dir, {});
+  codesBySite.get(row.site_dir)[row.slot] = row.code;
 }
 
 if (skipped.length > 0) {
-  const byStatus = skipped.reduce((acc, row) => {
-    const key = row.status || '(空)';
-    acc[key] = (acc[key] || 0) + 1;
-    return acc;
-  }, {});
-  console.log(
-    `跳过 ${skipped.length} 行（没有代码，或标记为已手工接入）：${Object.entries(byStatus)
-      .map(([k, v]) => `${k || '(空)'} × ${v}`)
-      .join('，')}`,
-  );
+  console.log(`跳过 ${skipped.length} 行（没有代码，或标记为已手工接入）`);
   for (const row of skipped.slice(0, 10)) {
     console.log(`  - ${row.site_dir} / ${row.slot} / ${row.status || 'no-status'}`);
   }
@@ -519,8 +414,8 @@ if (skipped.length > 0) {
   console.log('');
 }
 
-if (bySite.size === 0) {
-  console.log('没有可注入的行（广告代码为空，或标记为已手工接入）。');
+if (codesBySite.size === 0) {
+  console.log('台账里没有填广告位代码，无需注入。');
   process.exit(0);
 }
 
@@ -528,34 +423,41 @@ const template = fs.readFileSync(TEMPLATE_PATH, 'utf8');
 const changes = [];
 const failures = [];
 
+/** 每个站应有的 zones（台账填了的栏位覆盖，其余保留现状）。 */
+const zonesOf = (siteDir) =>
+  mergeZones(parseZones(readZonesSource(SITES_ROOT, siteDir)), codesBySite.get(siteDir), siteDir);
+
 /**
- * 补部署名单：代码**已经注入**（同步状态 = 已同步）但**还没上线**（状态 ≠ 已上线）的站。
+ * 补部署名单：zones 文件**已经和台账一致**（= 已注入）但本地没记着部署成功。
  * 上一轮注入成功、部署失败就卡在这个状态；再跑一次不能因为「代码没变化」就永远不部署。
  */
 const pendingDeploy = [];
 if (DEPLOY) {
-  for (const [siteDir, siteRowList] of siteRows) {
+  const state = readState(REPO);
+  for (const [siteDir, codes] of codesBySite) {
     if (ONLY_SITE && siteDir !== ONLY_SITE) continue;
     if (!fs.existsSync(path.join(SITES_ROOT, siteDir, 'app', 'layout.tsx'))) continue;
-    const live = siteRowList.filter(
-      (r) => (r.code || '').trim() && !MANUAL_STATUSES.has((r.status || '').trim()),
+    const zones = zonesOf(siteDir);
+    const want = zonesSource(zones);
+    const have = readZonesSource(SITES_ROOT, siteDir);
+    if (have !== want) continue; // 还没注入 → 走下面的注入流程
+    const allLive = Object.keys(codes).every((slot) =>
+      slotLive(SITES_ROOT, siteDir, slot, codes[slot], { zones, state }).live,
     );
-    if (!live.length) continue;
-    const allSynced = live.every((r) => (r.sync_status || '').trim() === '已同步');
-    const allOnline = live.every((r) => (r.status || '').trim() === '已上线');
-    if (allSynced && !allOnline) pendingDeploy.push(siteDir);
+    if (!allLive) pendingDeploy.push(siteDir);
   }
   if (pendingDeploy.length) {
-    console.log(`补部署（已注入但未上线）：${pendingDeploy.join(', ')}`);
+    console.log(`补部署（已注入但没记着上线）：${pendingDeploy.join(', ')}`);
   }
 }
 
-for (const [siteDir, zones] of bySite) {
+for (const siteDir of codesBySite.keys()) {
   const sitePath = path.join(SITES_ROOT, siteDir);
   if (!fs.existsSync(path.join(sitePath, 'app', 'layout.tsx'))) {
     failures.push(`${siteDir}: 目录不存在或不是 Next.js 站点`);
     continue;
   }
+  const zones = zonesOf(siteDir);
 
   const files = [];
   const zonesFile = path.join(sitePath, 'lib', 'adsterra-zones.ts');
@@ -656,13 +558,10 @@ if (!APPLY) {
   process.exit(failures.length > 0 ? 1 : 0);
 }
 
-// 注入成功 → 多维表格回写同步状态
-if (changes.length > 0) {
-  writeBack(
-    changes.flatMap((siteDir) => siteRows.get(siteDir) ?? []),
-    { 同步状态: '已同步' },
-    '同步状态 = 已同步',
-  );
+/** 部署成功 → 记进 .agent/adsterra-state.json（按代码 hash，代码一换就失效）。 */
+function recordLive(siteDir) {
+  if (!fs.existsSync(path.join(SITES_ROOT, siteDir, 'app', 'layout.tsx'))) return;
+  markLive(REPO, siteDir, parseZones(readZonesSource(SITES_ROOT, siteDir)));
 }
 
 const deployed = [];
@@ -700,17 +599,9 @@ if (BUILD || DEPLOY) {
         continue;
       }
       deployed.push(siteDir);
+      recordLive(siteDir);
     }
   }
-}
-
-// 部署成功 → 多维表格回写状态
-if (deployed.length > 0) {
-  writeBack(
-    deployed.flatMap((siteDir) => siteRows.get(siteDir) ?? []),
-    { 状态: '已上线' },
-    '状态 = 已上线',
-  );
 }
 
 if (failures.length > 0) {

@@ -129,7 +129,7 @@ export const AUTO_STATUS = {
 /** 人工表里由脚本**算出来**的列：跨月建表时不复制（新月份由下一轮回填重新算）。 */
 export const MANUAL_DERIVED_FIELDS = ['自动化状态'];
 
-/** 脚本回填的三个广告位 → 广告位管理表里的广告位类型。 */
+/** 脚本回填的两个广告位 → 站点 `lib/adsterra-zones.ts` 里的广告位类型。 */
 export const MANUAL_AD_SLOTS = [
   { field: '广告位1-SocialBar-code', slot: 'global', format: 'Social Bar' },
   { field: '广告位2-NativeBanner-code', slot: 'guide', format: 'Native Banner' },
