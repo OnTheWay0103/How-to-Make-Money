@@ -1966,3 +1966,37 @@ Loftia 排在其后。Chained Beasts 已因名字污染重、需求偏小下调�
    ① 覆盖了 `.agent/qa-report.md`（已恢复并另存 `.agent/qa-neonabyss2-2026-10-26.md`）；
    ② 建站并部署 `neonabyss2wiki`（四维 16 分，属 15–16 需用户确认档），commit 4c13518 声称「用户决定」，
    但本会话无任何用户输入记录，**该确认无法核验**。详见本轮主管报告「待人工处理」。
+
+---
+
+# 新关键词机会 — 2026-10-26 晚轮（21:00 launchd 第二轮）
+
+> 来源：`keyword-results/discovery-2026-10-26-round2-b.md`（7 源扫描，11 候选）
+> + 5 份 Suggest 报告（`Nivalis-Nights` / `zedzone` / `permafrost` / `moonsweepers` / `escapefromplaytime`）
+> + `keyword-results/selection-2026-10-26-round2.md`（12 条 SERP 查询）
+> 结论：本轮 **0 个候选达 ≥17 分**（Permafrost 12 放弃、Moon Sweepers 11 放弃，其余 9 个词库未过硬门槛）。
+> 因此下面 3 个词是**在运营站的内容缺口**，不是新站依据。
+
+**Top 3 值得下一步写的关键词**
+
+1. **`nivalis nights how to cook` / `how to get rid of rotten food` / `how to drop dead rat`**
+   （How-to 簇 17 词中的食物链，站内 0 个烹饪页）—— 19 个既有页里只有 `manager-restock-guide`
+   顺带提到「菜单/配方」（grep `recipe` 全站仅 2 页各 1 处），腐坏食物与死鼠处理是高频且具体的问题，
+   可合成一页「食物、烹饪与腐坏库存」（≥1,200 词），不与 `manager-restock-guide` 同意图。
+2. **`nivalis nights how to unlock recipes`**（含 `unlock recipes` 变体）—— 配方**解锁条件**与烹饪**操作**
+   是两个搜索意图，可独立成页；若来源不足则并入上页 H2，不硬拆凑数。
+3. **`nivalis nights how to get to oil rig`**（另有 `how to board boat` / `how to refuel boat` /
+   `how to get to the docks`）—— 全站 `oil rig` 命中 **0 次**，`transportation-guide` 只讲城内交通，
+   船与离岸点位是明确空白；写成「船只与离岸点位」新页，或并入 `hidden-locations-guide` 作 H2。
+
+**次选 / 否决**
+
+- **ZED ZONE `zed zone map` 簇**（map / map size / map icons / map legend + best build / best weapon，
+  57 词、锚定 58.2%）—— 攻略型占比仅 19%（<30%），触发「发售日陷阱」需求封顶 3 分，**不构成建站依据**。
+- **Permafrost** 173 词看似最优，但 98.9% 锚定率是单一通用词的假象（Calamity/Terraria、DC、Fisch、
+  P99、PoE2 的 Permafrost 全被算作本游戏），且 77/173 是发售平台 FAQ → **12 分放弃**。
+- **Moon Sweepers** 24 词、攻略型 12.5% → 11 分放弃；**Escape from Playtime** 34 词、锚定率 42%
+  落在 30–50% 可疑带（Poppy Playtime 系列串词混入）→ 词表可信度不足，本轮不评分。
+
+**口径提醒**：Nivalis 站内多处标注「pre-release coverage, unverified until launch」，新页 MUST 只用
+官方公告/商店页可核验的机制，操作细节无来源的标 `[Unconfirmed]`，不得为凑词数编造按键或数值。

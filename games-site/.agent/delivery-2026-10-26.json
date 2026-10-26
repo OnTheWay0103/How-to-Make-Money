@@ -139,7 +139,8 @@
       "qa": "PASS",
       "url": "https://themoundwiki.vercel.app/guides/updates-patch-notes",
       "verify": "200",
-      "note": "21:00 轮 P2 校准（上午为新页 SKIP + 1.06 校准）：官方公告 39→40（含 36→37 developer posts、Patch 1.05→1.06 表述），25 文件 85 处，ISteamNews appid 2569760 实测 40 条；线上复验 PASS（\"40 official announcements\" ×3）"
+      "note": "21:00 轮 P2 校准（上午为新页 SKIP + 1.06 校准）：官方公告 39→40（含 36→37 developer posts、Patch 1.05→1.06 表述），25 文件 85 处，ISteamNews appid 2569760 实测 40 条；线上复验 PASS（\"40 official announcements\" ×3）",
+      "words": 1776
     }
   ]
 }

@@ -300,8 +300,12 @@ function processDeploys(file, date) {
     return;
   }
   const ok = log.filter((e) => e.status === 'ok');
-  const fail = log.filter((e) => e.status !== 'ok');
-  console.log(`\n【部署日志】${date} — 成功 ${ok.length} / 失败 ${fail.length}`);
+  // 同一站当天重试成功时，前面的 fail 属瞬时失败，不应登记成 T5 失败
+  const lastBySite = new Map();
+  for (const e of log) lastBySite.set(e.site, e);
+  const fail = [...lastBySite.values()].filter((e) => e.status !== 'ok');
+  const retried = log.filter((e) => e.status !== 'ok').length - fail.length;
+  console.log(`\n【部署日志】${date} — 成功 ${ok.length} / 失败 ${fail.length}${retried > 0 ? `（另有 ${retried} 次瞬时失败已重试成功）` : ''}`);
 
   // 成功的部署：合并进 T1 的「部署」类型
   if (ok.length) {
