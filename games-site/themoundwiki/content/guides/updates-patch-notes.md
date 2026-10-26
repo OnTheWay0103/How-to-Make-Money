@@ -3,17 +3,33 @@ title: "The Mound Update Log and Patch Notes — Version History and Changes"
 description: "Update history and patch notes for The Mound: Omen of Cthulhu. Tracking confirmed updates, balance changes, and bug fixes. Information sourced from official channels and community verification."
 category: "Guides"
 version: "1.0"
-updated: "2026-09-11"
+updated: "2026-10-26"
 keywords: ["themound patch notes", "themound update history", "themound version log", "themound changelog", "themound latest update"]
 related:
   - faq-content
   - game-length-guide
   - controls-settings-guide
+sources:
+  - tier: "Official"
+    title: "Patch 1.06 — Optimizations & hot fixes."
+    url: "https://store.steampowered.com/news/app/2569760/view/1845383656393418"
+    date: "2026-10-05"
+    text: "The version 1.06 section is taken verbatim from this announcement: 'We've been working on improving the overall experience in The Mound: Omen of Cthulhu, with a particular focus on performance and some issues affecting player inventories'; 'Improved memory performance'; 'Fixed an issue causing the mushroom from the Ghost inventory to disappear'; and the developer's thanks to reporters — 'A big thank you to everyone who took the time to report the inventory issue. The videos, reproduction steps, and detailed reports shared by the community were extremely helpful in identifying and fixing the problem.' The announcement lists no weapon, enemy, contract or economy changes"
+  - tier: "Official"
+    title: "Patch 1.05 — Voice Chat Rework & Other Hotfixes"
+    url: "https://store.steampowered.com/news/app/2569760/view/1843481262689270"
+    date: "2026-09-09"
+    text: "Source for the 1.05 section: the voice chat rework and the developer's own description of the reports ('voice chat sounding robotic or not working at all'), the recommendation to use in-game voice because 'some sanity effects use voice', the TSR/XeSS profile setting fix and the Mound level orb damage fix"
+  - tier: "Official"
+    title: "Patch 1.04 — Content Update"
+    url: "https://store.steampowered.com/news/app/2569760/view/1842212951310330"
+    date: "2026-08-31"
+    text: "Source for the 1.04 section: 3 new enemies in the forest depths, hidden jewel boxes on the mainland that unlock a new Occult Item (The Rosary) from the shop, Command Wheel 2.0, automatic lobby join codes with optional encrypted passwords, and the melee combat adjustments"
 ---
 
 # Update Log and Patch Notes — Version History and Changes
 
-> Last verified: September 11, 2026
+> Last verified: October 26, 2026
 
 This page tracks confirmed updates for **The Mound: Omen of Cthulhu**. We only include information that can be verified against official developer announcements or consistent community reports.
 
@@ -22,6 +38,18 @@ This page tracks confirmed updates for **The Mound: Omen of Cthulhu**. We only i
 ---
 
 ## Confirmed Updates
+
+### Version 1.06 — Optimizations & Hot Fixes
+
+**Released:** October 5, 2026
+
+*"Patch 1.06 — Optimizations & hot fixes."* is a two-line hotfix, and the developer frames it as "improving the overall experience in The Mound: Omen of Cthulhu, with a particular focus on performance and some issues affecting player inventories."
+
+- **Memory performance** — the single optimisation line reads: **improved memory performance**.
+- **Ghost inventory fix** — "fixed an issue causing the mushroom from the Ghost inventory to disappear."
+- **Community credit.** The developers thank reporters directly: "A big thank you to everyone who took the time to report the inventory issue. The videos, reproduction steps, and detailed reports shared by the community were extremely helpful in identifying and fixing the problem."
+
+No weapon, enemy, contract or economy values changed in this version. If your inventory still misbehaves on 1.06, see [Inventory Management](/guides/inventory-management-guide); the wider slot problems are older than this patch.
 
 ### Version 1.05 — Voice Chat Rework & Other Hotfixes
 
@@ -154,6 +182,7 @@ For the most current roadmap, check the official developer channels on Steam.
 
 | Version | Released | Type |
 |---------|------|------|
+| 1.06 | October 5, 2026 | Optimizations & Hot Fixes |
 | 1.05 | September 9, 2026 | Voice Chat Rework & Other Hotfixes |
 | 1.04 | August 31, 2026 | Content Update |
 | 1.03 | August 13, 2026 | Quality of Life Hotfixes |
@@ -165,10 +194,10 @@ For the most current roadmap, check the official developer channels on Steam.
 
 ## Verification
 
-**Last checked:** September 11, 2026
-**Sources checked:** the official Steam Community announcements for *The Mound: Omen of Cthulhu* via the [Steam news hub (app 2569760)](https://store.steampowered.com/news/app/2569760) — "Patch 1.01 — Post Launch Hotfixes, Balancing Pass + Crossplay Friend Finder" (July 21, 2026), "Patch 1.02 — Block Ability & Hotfixes" (July 29, 2026), "Patch 1.03 — Quality of Life Hotfixes" (August 13, 2026), "Patch 1.04 — Content Update" (August 31, 2026) and "Patch 1.05 — Voice Chat Rework & Other Hotfixes" (September 9, 2026) — plus the Steam store page and internal cross-references (Motion Sickness & Camera Fix, Multiplayer Connection Fix, Progress Loss & Save Recovery, Performance & FPS Fix guides).
+**Last checked:** October 26, 2026
+**Sources checked:** the official Steam Community announcements for *The Mound: Omen of Cthulhu* via the [Steam news hub (app 2569760)](https://store.steampowered.com/news/app/2569760) — "Patch 1.01 — Post Launch Hotfixes, Balancing Pass + Crossplay Friend Finder" (July 21, 2026), "Patch 1.02 — Block Ability & Hotfixes" (July 29, 2026), "Patch 1.03 — Quality of Life Hotfixes" (August 13, 2026), "Patch 1.04 — Content Update" (August 31, 2026), "Patch 1.05 — Voice Chat Rework & Other Hotfixes" (September 9, 2026) and "Patch 1.06 — Optimizations & hot fixes." (October 5, 2026) — plus the Steam store page and internal cross-references (Motion Sickness & Camera Fix, Multiplayer Connection Fix, Progress Loss & Save Recovery, Performance & FPS Fix guides).
 
-**Date note:** release dates above are the publication dates carried by the official Steam announcements themselves, which are the primary record for this game's patch history. Every entry in this page's `Confirmed Updates` section was re-read against those announcements on September 11, 2026; entries that could not be matched to an official announcement were removed rather than kept as approximations.
+**Date note:** release dates above are the publication dates carried by the official Steam announcements themselves, which are the primary record for this game's patch history. Every entry in this page's `Confirmed Updates` section was re-read against those announcements on October 26, 2026 (the 1.06 section was added that day from the announcement text itself); entries that could not be matched to an official announcement were removed rather than kept as approximations.
 
 **Note:** This page is updated as confirmed information becomes available. Some details from earlier versions of this page have been removed pending verification. If you have official patch notes or confirmed information, please [contact us](/contact).
 
