@@ -39,16 +39,50 @@ const ALLOW = {
   dreadmoorwiki: [/Digital\s+Vortex/i],
 };
 
-// 从 lib/seo-config.ts 读站点自己的 name / developer / publisher
+// 从 lib/seo-config.ts 读站点自己的 name / developer / publisher；
+// 老站没有这两个字段时退回 lib/schema.ts 里的 publisher.name / author.name
 function ownIdentity(dir) {
+  const out = {};
   const p = path.join(dir, 'lib', 'seo-config.ts');
-  if (!fs.existsSync(p)) return {};
-  const text = fs.readFileSync(p, 'utf8');
-  const pick = (key) => {
-    const m = text.match(new RegExp(`${key}\\s*:\\s*['"\`]([^'"\`]+)['"\`]`));
-    return m ? m[1] : '';
-  };
-  return { name: pick('name'), developer: pick('developer'), publisher: pick('publisher') };
+  if (fs.existsSync(p)) {
+    const text = fs.readFileSync(p, 'utf8');
+    const pick = (key) => {
+      const m = text.match(new RegExp(`\\b${key}\\s*:\\s*['"\`]([^'"\`]+)['"\`]`));
+      return m ? m[1] : '';
+    };
+    out.name = pick('name');
+    out.developer = pick('developer');
+    out.publisher = pick('publisher');
+  }
+  const s = path.join(dir, 'lib', 'schema.ts');
+  if (fs.existsSync(s) && (!out.developer || !out.publisher)) {
+    const text = fs.readFileSync(s, 'utf8');
+    // schema 里 publisher / author 是对象，取其中的 name
+    const block = (key) => {
+      const m = text.match(new RegExp(`\\b${key}\\s*:\\s*\\{[\\s\\S]{0,200}?name\\s*:\\s*['"\`]([^'"\`]+)['"\`]`));
+      return m ? m[1] : '';
+    };
+    out.publisher = out.publisher || block('publisher');
+    out.developer = out.developer || block('author');
+  }
+  return out;
+}
+
+// developer === publisher（自研自发）时，模板并列式会写成 "X / X"、"X, X"、
+// "developed by X and published by X"（2026-10-26 GONE Fishing 教训）。
+// 只认站点自己的公司名，避免把 "House Flipper, House Flipper 2" 这类列表误报。
+function duplicateIdentityHits(text, own) {
+  const names = [...new Set([own.developer, own.publisher].filter(Boolean))];
+  const hits = [];
+  if (!names.length) return hits;
+  if (names.length > 1) return hits; // 开发/发行不是同一家，不会出现 "X / X"
+  const name = names[0];
+  const escaped = name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const re = new RegExp(`${escaped}\\s*(?:\\/|,|or|and published by)\\s*${escaped}`);
+  text.split('\n').forEach((line, i) => {
+    if (re.test(line)) hits.push({ line: i + 1, text: line.trim().slice(0, 100) });
+  });
+  return hits;
 }
 
 const TEXT_EXT = new Set(['.ts', '.tsx', '.js', '.mjs', '.md', '.json', '.css', '.html', '.txt']);
@@ -83,6 +117,14 @@ function scanSite(site) {
           if (d.re.test(line)) {
             findings.push({ file: `${site}/${rel}:${i + 1}`, level: 'ERROR', msg: `${d.why} → ${line.trim().slice(0, 100)}` });
           }
+        });
+      }
+
+      for (const hit of duplicateIdentityHits(text, own)) {
+        findings.push({
+          file: `${site}/${rel}:${hit.line}`,
+          level: 'ERROR',
+          msg: `同一公司名并列重复（developer === publisher 时未折叠）→ ${hit.text}`,
         });
       }
     }

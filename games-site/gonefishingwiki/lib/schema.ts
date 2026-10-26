@@ -52,7 +52,7 @@ export function videoGameSchema(): Record<string, unknown> {
     '@type': 'VideoGame',
     name: 'GONE Fishing',
     description:
-      'Unofficial wiki and guide hub for GONE Fishing, developed by GONE Studios and published by GONE Studios.',
+      'Unofficial wiki and guide hub for GONE Fishing, developed and published by GONE Studios.',
     url: 'https://store.steampowered.com/app/3645890/',
     applicationCategory: 'Game',
     operatingSystem: 'Windows',

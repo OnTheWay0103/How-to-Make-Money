@@ -1,6 +1,6 @@
 # GONE Fishing Wiki
 
-Unofficial wiki and guide hub for **GONE Fishing**, developed by GONE Studios and published by GONE Studios.
+Unofficial wiki and guide hub for **GONE Fishing**, developed and published by GONE Studios.
 
 - Live site: https://gonefishingwiki.vercel.app
 - Steam: https://store.steampowered.com/app/3645890/
@@ -32,5 +32,5 @@ See `docs/STRATEGY-内容生产.md` for the page matrix and writing spec.
 
 ## Notes
 
-Unofficial fan project, not affiliated with GONE Studios or GONE Studios.
+Unofficial fan project, not affiliated with GONE Studios.
 Unconfirmed mechanics are labelled in the guides rather than presented as fact.

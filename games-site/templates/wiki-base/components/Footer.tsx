@@ -21,7 +21,7 @@ export default function Footer() {
         <div className="flex flex-col items-center gap-4">
           {/* Copyright */}
           <p className="text-sm text-gray-500 text-center">
-            &copy; 2026 {{SITE_NAME}}. Unofficial fan wiki. {{GAME_NAME}} is a trademark of {{DEVELOPER}} / {{PUBLISHER}}.
+            &copy; 2026 {{SITE_NAME}}. Unofficial fan wiki. {{GAME_NAME}} is a trademark of {{RIGHTS_HOLDERS}}.
           </p>
 
           {/* Nav Links */}

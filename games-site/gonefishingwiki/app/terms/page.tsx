@@ -20,8 +20,7 @@ export default function TermsPage() {
       <h2>2. Description of Service</h2>
       <p>
         GONE Fishing Wiki is an unofficial fan-made guide and wiki website for the video game &quot;GONE Fishing.&quot; We provide game
-        guides, tips, strategies, and related information. We are not affiliated with, endorsed by, or connected to GONE Studios or
-        GONE Studios.
+        guides, tips, strategies, and related information. We are not affiliated with, endorsed by, or connected to GONE Studios.
       </p>
 
       <h2>3. Intellectual Property</h2>

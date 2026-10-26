@@ -64,6 +64,7 @@ MUST NOT 承诺单站回本——口径是组合回本（见 `docs/STRATEGY-选�
 MUST 用 `node scripts/new-site.mjs` 从 `templates/wiki-base/` 生成新站；MUST NOT 从在运营站复制（会带入广告代码、历史攻略与旧配置）
 MUST 生成后跑 `node scripts/check-site-residue.mjs <site>`（已并入 `deploy-wiki-site.sh` 第 0b 步，有残留直接阻断部署）：它查 `{{UPPER_SNAKE}}` 未替换占位符，以及模板源站的硬编码身份（如发行商 `Digital Vortex Entertainment`）（教训：2026-10-26 rekawiki / gonefishingwiki 的 `app/terms/page.tsx` 把模板源站的发行商当正文写死——不是 `{{PUBLISHER}}` token，`new-site.mjs` 的占位符检查查不到——两站带着别家发行商名上线，QA 抓出；模板已改为 `{{DEVELOPER}} / {{PUBLISHER}}`）
 MUST NOT 认为"占位符检查通过 = 身份正确"：token 只能替换**存在**的占位符，替换不了**没写成 token** 的硬编码值；developer / publisher / release date MUST 逐个对照 Steam 页面核验
+MUST 用 `new-site.mjs` 的 `{{RIGHTS_HOLDERS}}`（同公司时折叠成一家）与 `{{DEV_PUB_PHRASE}}`（`developed and published by X` / `developed by X and published by Y`）写开发/发行并列，MUST NOT 手写 `{{DEVELOPER}} / {{PUBLISHER}}` 这类并列式（教训：自研自发的 GONE Fishing 因此在本站 about / footer / schema / terms 四处写成 "GONE Studios / GONE Studios"；`check-site-residue.mjs` 已按站点自己的公司名查这种重复）
 MUST NOT 从在运营站直接复制后不清理（会带入 Adsterra zone、旧游戏名与旧 GA/域名配置）
 MUST 保持三层分离：框架层（`app/`、`components/`、`lib/guides.ts` 等）不改；配置层（`lib/seo-config.ts`、`lib/adsterra-zones.ts`）只改值；内容层（`content/`）整层替换
 MUST 三步配置齐全：GA4（propertyId）+ GSC（验证文件）+ Dashboard 注册

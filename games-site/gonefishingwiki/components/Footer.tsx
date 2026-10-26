@@ -21,7 +21,7 @@ export default function Footer() {
         <div className="flex flex-col items-center gap-4">
           {/* Copyright */}
           <p className="text-sm text-gray-500 text-center">
-            &copy; 2026 GONE Fishing Wiki. Unofficial fan wiki. GONE Fishing is a trademark of GONE Studios / GONE Studios.
+            &copy; 2026 GONE Fishing Wiki. Unofficial fan wiki. GONE Fishing is a trademark of GONE Studios.
           </p>
 
           {/* Nav Links */}

@@ -52,7 +52,7 @@ export function videoGameSchema(): Record<string, unknown> {
     '@type': 'VideoGame',
     name: '{{GAME_NAME}}',
     description:
-      'Unofficial wiki and guide hub for {{GAME_NAME}}, developed by {{DEVELOPER}} and published by {{PUBLISHER}}.',
+      'Unofficial wiki and guide hub for {{GAME_NAME}}, {{DEV_PUB_PHRASE}}.',
     url: '{{STEAM_URL}}',
     applicationCategory: 'Game',
     operatingSystem: 'Windows',

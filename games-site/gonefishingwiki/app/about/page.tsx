@@ -13,8 +13,8 @@ export default function AboutPage() {
 
       <h2>Who We Are</h2>
       <p>
-        GONE Fishing Wiki is an <strong>unofficial fan-made resource</strong> for <em>GONE Fishing</em>, developed by
-        <strong>GONE Studios</strong> and published by <strong>GONE Studios</strong>.
+        GONE Fishing Wiki is an <strong>unofficial fan-made resource</strong> for <em>GONE Fishing</em>, developed and published by
+        <strong>GONE Studios</strong>.
       </p>
       <p>
         We organize what is actually known about the game — systems, progression, bosses, items, and patch changes — and we separate
@@ -53,7 +53,7 @@ export default function AboutPage() {
 
       <h2>Disclaimer</h2>
       <p>
-        <strong>GONE Fishing Wiki is not affiliated with, endorsed by, or connected to GONE Studios, GONE Studios, or any
+        <strong>GONE Fishing Wiki is not affiliated with, endorsed by, or connected to GONE Studios, or any
         of their subsidiaries or affiliates.</strong> All game-related trademarks, images, and content belong to their respective
         owners. This site is an independent fan project.
       </p>

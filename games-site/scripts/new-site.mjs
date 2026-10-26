@@ -76,6 +76,12 @@ if (!args.description) {
   }
 }
 
+const sameDevPub = args.developer === args.publisher;
+const rightsHolders = sameDevPub ? args.developer : `${args.developer} / ${args.publisher}`;
+const devPubPhrase = sameDevPub
+  ? `developed and published by ${args.developer}`
+  : `developed by ${args.developer} and published by ${args.publisher}`;
+
 const TOKENS = {
   '{{SITE_NAME}}': `${args.name} Wiki`,
   '{{GAME_NAME}}': args.name,
@@ -86,6 +92,10 @@ const TOKENS = {
   '{{RELEASE_DATE}}': args['release-date'],
   '{{SITE_DESCRIPTION}}': description,
   '{{GENRE_LINE}}': genreLine,
+  // 自研自发的游戏（developer === publisher）直接写 "A / A"、"developed by A and published by A" 会露怯，
+  // 这两个 token 按同一家公司折叠（2026-10-26 GONE Fishing 教训：模板并列式把 GONE Studios 重复成两次）。
+  '{{RIGHTS_HOLDERS}}': rightsHolders,
+  '{{DEV_PUB_PHRASE}}': devPubPhrase,
 };
 
 if (!fs.existsSync(TEMPLATE)) fail(`模板目录不存在: ${TEMPLATE}`);
@@ -139,7 +149,7 @@ fs.writeFileSync(pkgPath, `${JSON.stringify(pkg, null, 2)}\n`);
 // README 换成站点自己的，模板 README 讲的是「怎么用模板」。
 fs.writeFileSync(
   path.join(target, 'README.md'),
-  `# ${args.name} Wiki\n\nUnofficial wiki and guide hub for **${args.name}**, developed by ${args.developer} and published by ${args.publisher}.\n\n- Live site: https://${domain}\n- Steam: ${steamUrl}\n- Release date: ${args['release-date']}\n\n## Development\n\n\`\`\`bash\npnpm install\npnpm dev\n\`\`\`\n\nBuild:\n\n\`\`\`bash\npnpm build\n\`\`\`\n\n## Content\n\nGuides live in \`content/guides/*.md\` with YAML frontmatter. \`related\` must be a block YAML list,\nand each guide needs at least two \`sources\`, including one with \`tier: "Official"\`.\nSee \`docs/STRATEGY-内容生产.md\` for the page matrix and writing spec.\n\n## Configuration\n\n- Site metadata: \`lib/seo-config.ts\` (GA4 id empty until the property exists)\n- Ad slots: \`lib/adsterra-zones.ts\` — injected by \`scripts/adsterra-sync.mjs\`, never edited by hand\n\n## Notes\n\nUnofficial fan project, not affiliated with ${args.developer} or ${args.publisher}.\nUnconfirmed mechanics are labelled in the guides rather than presented as fact.\n`,
+  `# ${args.name} Wiki\n\nUnofficial wiki and guide hub for **${args.name}**, ${devPubPhrase}.\n\n- Live site: https://${domain}\n- Steam: ${steamUrl}\n- Release date: ${args['release-date']}\n\n## Development\n\n\`\`\`bash\npnpm install\npnpm dev\n\`\`\`\n\nBuild:\n\n\`\`\`bash\npnpm build\n\`\`\`\n\n## Content\n\nGuides live in \`content/guides/*.md\` with YAML frontmatter. \`related\` must be a block YAML list,\nand each guide needs at least two \`sources\`, including one with \`tier: "Official"\`.\nSee \`docs/STRATEGY-内容生产.md\` for the page matrix and writing spec.\n\n## Configuration\n\n- Site metadata: \`lib/seo-config.ts\` (GA4 id empty until the property exists)\n- Ad slots: \`lib/adsterra-zones.ts\` — injected by \`scripts/adsterra-sync.mjs\`, never edited by hand\n\n## Notes\n\nUnofficial fan project, not affiliated with ${rightsHolders}.\nUnconfirmed mechanics are labelled in the guides rather than presented as fact.\n`,
 );
 
 console.log(`✓ 已生成 ${targetName}/  （域名 https://${domain}）`);
