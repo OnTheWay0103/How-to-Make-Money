@@ -1,10 +1,10 @@
 # 词库索引
 
-> 生成时间：2026-10-26 13:08 UTC
+> 生成时间：2026-10-26 13:14 UTC
 > 生成脚本：`node scripts/keyword-index.mjs` —— 不要手改本文件
 > 规则：`docs/STRATEGY-挖词与词库.md`
 
-共 **74** 份游戏词库（新格式 14，旧格式 60），已建站 **32** 站。
+共 **75** 份游戏词库（新格式 15，旧格式 60），已建站 **32** 站。
 
 > 新格式以 `slug == 站点目录名去掉 wiki` 精确匹配；旧格式只能按文件名猜，「未建站」可能有漏配。
 
@@ -15,7 +15,7 @@
 
 | 渠道 | 贡献词数 | 独占词数 |
 |---|---:|---:|
-| google_suggest | 1016 | 1016 |
+| google_suggest | 1119 | 1119 |
 
 ## 采集锚定产出
 
@@ -23,36 +23,37 @@
 
 | 锚定批次 | 贡献词数 | 独占词数 |
 |---|---:|---:|
-| 裸词 | 170 | 144 |
-| 品牌+game | 118 | 95 |
-| 后缀:release date | 99 | 81 |
-| 探针:steam | 90 | 75 |
+| 裸词 | 185 | 157 |
+| 品牌+game | 133 | 109 |
+| 后缀:release date | 104 | 86 |
+| 探针:steam | 104 | 88 |
 | 后缀:demo | 77 | 64 |
-| 探针:ps5 | 70 | 57 |
-| 后缀:reddit | 68 | 52 |
-| 后缀:price | 59 | 38 |
-| 后缀:wiki | 55 | 42 |
-| 后缀:guide | 46 | 28 |
-| 后缀:multiplayer | 43 | 33 |
+| 后缀:reddit | 73 | 55 |
+| 探针:ps5 | 72 | 58 |
+| 后缀:price | 62 | 40 |
+| 后缀:wiki | 56 | 43 |
+| 后缀:guide | 53 | 34 |
+| 后缀:multiplayer | 45 | 35 |
+| 后缀:update | 44 | 28 |
 | 后缀:boss | 41 | 39 |
 | 后缀:characters | 38 | 34 |
-| 后缀:update | 38 | 22 |
 | 后缀:map | 24 | 19 |
+| 后缀:tips | 22 | 16 |
 | 后缀:codes | 21 | 16 |
 | 探针:skills | 19 | 12 |
-| 后缀:tips | 19 | 14 |
+| 后缀:how to | 15 | 14 |
 | 后缀:co op | 15 | 11 |
 | 后缀:tier list | 15 | 12 |
 | 后缀:best weapons | 10 | 8 |
+| 探针:characters | 9 | 8 |
 | 后缀:resources | 9 | 7 |
-| 后缀:items | 7 | 3 |
-| 后缀:classes | 6 | 3 |
-| 后缀:crossplay | 5 | 2 |
+| 后缀:money | 8 | 7 |
 
 ## 按游戏
 
 | 游戏 | slug | 有效词 | 最后采集 | 来源 | 页型覆盖 | 站点 | 格式 |
 |---|---|---:|---|---|---|---|---|
+| Nivalis Nights | Nivalis-Nights | 103 | 2026-10-26 | google_suggest:109（裸词 15、品牌+game 15、后缀:how to 15） | 2 Beginner / 4 核心机制/Boss / 5 FAQ / 待定 | nivalisnightswiki | new |
 | Dungeon Inn | dungeoninn | 12 | 2026-10-26 | google_suggest:14（裸词 11、探针:steam 2、后缀:guide 1） | 5 FAQ / 待定 | 未建站 | new |
 | Escape from Playtime | escapefromplaytime | 34 | 2026-10-26 | google_suggest:51（裸词 15、后缀:release date 7、品牌+game 7） | 1 Codes / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
 | Every Day We Fight | everydaywefight | 15 | 2026-10-26 | google_suggest:27（裸词 7、探针:steam 6、后缀:wiki 5） | 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
@@ -102,7 +103,6 @@
 | Mistfall Hunter | Mistfall Hunter | 108 | — | — | — | mistfallhunterwiki | legacy |
 | Mistfall Hunter | Mistfall-Hunter-feedback | 0 | — | — | — | 未建站 | legacy |
 | Moonlight Peaks | Moonlight-Peaks | 0 | — | — | — | moonlightpeakswiki | legacy |
-| Nivalis Nights | Nivalis-Nights | 0 | — | — | — | nivalisnightswiki | legacy |
 | ReStory: Chill Electronics Repairs | ReStory | 0 | — | — | — | restorywiki | legacy |
 | Sephiria | Sephiria-feedback | 0 | — | — | — | 未建站 | legacy |
 | Sephiria | Sephiria | 79 | — | — | — | sephiriawiki | legacy |
@@ -121,6 +121,7 @@
 | Neon Abyss 2 | neonabyss2-matrix | 0 | — | — | — | 未建站 | legacy |
 | Neon Abyss 2 | neonabyss2-sources | 0 | — | — | — | 未建站 | legacy |
 | 新词缺口扫描 | new-keywords-2026-10-23 | 0 | — | — | — | 未建站 | legacy |
+| 候选分析 | selection-2026-10-26-round2 | 0 | — | — | — | 未建站 | legacy |
 | 候选分析 | selection-2026-10-26 | 0 | — | — | — | 未建站 | legacy |
 | Silver Pines / Dressmaker | silverpines-dressmaker-postlaunch-fix | 0 | — | — | — | 未建站 | legacy |
 | SILVER PINES 建站记录 | silverpineswiki-build-9-16 | 0 | — | — | — | 未建站 | legacy |
@@ -150,6 +151,6 @@
 - 无采集元信息头（无法自动统计）：Mistfall Hunter.md
 - 无采集元信息头（无法自动统计）：Mistfall-Hunter-feedback.md
 - 无采集元信息头（无法自动统计）：Moonlight-Peaks.md
-- 无采集元信息头（无法自动统计）：Nivalis-Nights.md
 - 无采集元信息头（无法自动统计）：ReStory.md
+- 无采集元信息头（无法自动统计）：Sephiria-feedback.md
 - … 其余 23 份
