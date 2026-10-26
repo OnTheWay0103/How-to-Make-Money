@@ -704,16 +704,21 @@ curl -s "https://your-site.vercel.app/robots.txt"
 
 ### 6.2 验证所有权（推荐：HTML 文件上传）
 
-1. 在验证方式中选择 **「HTML 文件上传」**
-2. 下载 GSC 提供的验证文件（如 `google12f8715471cef7b7.html`）
-3. 将文件放入项目的 `public/` 目录
-4. 重新部署：`vercel --prod --yes`
-5. 确认文件可访问：
+> **模板已内置这个文件**：`templates/wiki-base/public/google12f8715471cef7b7.html`（全站复用同一个，46 个在运营站内容一致，2026-10-27 核实）。从模板生成的新站天然带它，**不需要再去 GSC 下载一份**。
+> 2026-10-27 教训：rekawiki / gonefishingwiki 建站时模板 `public/` 里只有 `icon.png`，两站上线后无法「直接通过验证」，只能人工补 —— 现在模板已内置，`deploy-wiki-site.sh` 第 0c 步也会告警。
+
+1. 构建前确认 `public/` 里有验证文件：
    ```bash
-   curl -sI "https://your-site.vercel.app/google12f8715471cef7b7.html"
-   # 应返回 HTTP/2 200
+   ls <site>/public/google*.html   # 没有就从任一在运营站复制
    ```
-6. 回到 GSC 点击 **「验证」**
+2. GSC 里选 **「HTML 文件上传」**；若 GSC 给出的文件名与本项目已有的不同（新账号/新资源偶尔会），用 GSC 给的那个文件名放进去，验证通过后再留档
+3. 部署：`./deploy-wiki-site.sh <site>`
+4. 确认文件可访问：
+   ```bash
+   curl -s -o /dev/null -w '%{http_code}\n' "https://your-site.vercel.app/google12f8715471cef7b7.html"
+   # 应返回 200
+   ```
+5. 回到 GSC 点击 **「验证」**
 
 **备选方式**：如果站点已配置 GA4 且同一 Google 账号，可直接用 Google Analytics 验证。
 

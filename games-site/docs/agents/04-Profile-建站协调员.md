@@ -68,6 +68,7 @@ MUST 用 `new-site.mjs` 的 `{{RIGHTS_HOLDERS}}`（同公司时折叠成一家�
 MUST NOT 从在运营站直接复制后不清理（会带入 Adsterra zone、旧游戏名与旧 GA/域名配置）
 MUST 保持三层分离：框架层（`app/`、`components/`、`lib/guides.ts` 等）不改；配置层（`lib/seo-config.ts`、`lib/adsterra-zones.ts`）只改值；内容层（`content/`）整层替换
 MUST 三步配置齐全：GA4（propertyId）+ GSC（验证文件）+ Dashboard 注册
+MUST 确认 `public/google*.html` GSC 验证文件在站内（模板 `templates/wiki-base/public/` 已内置，全站复用同一份；`deploy-wiki-site.sh` 第 0c 步缺文件会告警），部署后 curl 该路径必须 200 —— 缺了 GSC 只能走 DNS/TXT，`*.vercel.app` 子域做不了（教训：2026-10-26 建 rekawiki / gonefishingwiki 时模板 `public/` 只有 `icon.png`，两站上线后无法「直接通过验证」）
 MUST ads.txt 使用正确 publisher ID
 MUST 更新 STATS.md（站点表 + 汇总）
 MUST 新增 `public/` 下任何资源后用 `git add -f` 强制暂存，并用 `git status` 确认已跟踪（教训：9/9 AdSense 整改新增 41 个 `public/icon.png` 被全局 gitignore 静默排除——`~/.gitignore_global` 含 `Public/` 规则，macOS 大小写不敏感故匹配 `public/`；不 `-f` 则资源不进版本库）

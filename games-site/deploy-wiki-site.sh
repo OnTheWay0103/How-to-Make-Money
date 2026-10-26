@@ -70,6 +70,13 @@ if ! node "$SCRIPT_DIR/scripts/check-site-residue.mjs" "$SITE_DIR"; then
   exit 1
 fi
 
+# 0c. GSC 验证文件：public/google*.html 必须在，否则 GSC 只能走 DNS/TXT，vercel.app 子域做不了
+#     2026-10-27 教训：rekawiki / gonefishingwiki 两站漏了这个文件（模板 public/ 里没有），
+#     上线后无法「直接通过验证」，只能人工补。现在模板已内置，这里只防误删。
+if ! ls "$SCRIPT_DIR/$SITE_DIR/public/"google*.html >/dev/null 2>&1; then
+  echo "⚠️ $SITE_DIR/public/ 缺 GSC 验证文件 google*.html —— 从任一在运营站复制（全站同名 1 个文件）"
+fi
+
 echo "🚀 部署 $SITE_DIR (project=$PROJECT_NAME)"
 
 # 1. 防御性清空 rootDirectory（应为空，若被意外设置则清除；token 过期则跳过）
