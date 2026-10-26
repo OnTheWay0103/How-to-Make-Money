@@ -2,12 +2,12 @@
  * Dynamic sitemap generation (Next.js App Router).
  *
  * Produces a `/sitemap.xml` that includes:
- * - All static pages (/guides, /faq, /tier-list, …)
+ * - All static pages (/guides, /faq, /about, …)
  * - Every dynamic guide page discovered from `content/guides/*.md`
  *
  * Priority tiers:
  *   - 1.0 — Homepage
- *   - 0.8 — Hub / listing pages (/guides, /faq, /tier-list)
+ *   - 0.8 — Hub / listing pages (/guides, /faq)
  *   - 0.6 — Individual guide pages
  *
  * @see https://nextjs.org/docs/app/api-reference/file-conventions/metadata/sitemap
@@ -29,7 +29,6 @@ const STATIC_ROUTES: StaticRoute[] = [
   { path: '', priority: 1.0 }, // Homepage
   { path: '/guides', priority: 0.8 },
   { path: '/faq', priority: 0.8 },
-  { path: '/tier-list', priority: 0.8 },
   { path: '/about', priority: 0.5 },
   { path: '/privacy', priority: 0.3 },
   { path: '/terms', priority: 0.3 },
