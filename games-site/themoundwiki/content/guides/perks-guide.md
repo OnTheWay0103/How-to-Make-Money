@@ -118,7 +118,7 @@ was invented, and the evidence against it is unusually clean:
 
 | Claim in the old page | Evidence |
 |-----------------------|----------|
-| A perk system at all | `perk` = **0 hits** in all 39 official Steam announcements for app ID `2569760`, **0 hits** on the Steam store page |
+| A perk system at all | `perk` = **0 hits** in all 40 official Steam announcements for app ID `2569760`, **0 hits** on the Steam store page |
 | "Total perks available at launch: 25" | No official source states any number of perks |
 | 25 named perks (Tough Hide, Iron Skin… Iron Stomach, Second Wind, Restful Sleep, Numbed Mind, Unyielding, Blade Master, Marksman, Critical Eye, Adrenaline Rush, Executioner, Bulwark, Cat's Paws, Shadow Dweller, Slippery, Ghost, Pack Mule, Scavenger, Field Medic, Artisan, Quick Exit, Strange Mind, Whisperer, Unsettling Aura, Eldritch Sight) | **Not one** of these names appears in any announcement, the store page, or the review corpus |
 | Perk categories with counts (Survival 6 / Combat 6 / Stealth 4 / Utility 5 / Eldritch 4) | Invented |
@@ -139,7 +139,7 @@ came to exist.
 
 ### Method
 
-- **Official corpus:** Steam `ISteamNews` for app ID `2569760`, all **39** items (36 developer
+- **Official corpus:** Steam `ISteamNews` for app ID `2569760`, all **40** items (37 developer
   announcements, 2 press feeds, 1 SteamDB feed), full text.
 - **App-ID check:** The Mound's store presence is app `2569760` plus four separately-listed
   add-ons (`4630450`, `4630440`, `4630460`, `4925780`). Each add-on was queried for its own news

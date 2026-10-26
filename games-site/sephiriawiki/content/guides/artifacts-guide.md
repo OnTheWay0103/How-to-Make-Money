@@ -3,7 +3,7 @@ title: "Artifacts Guide — The ~300 Per-Run Items & How to Use Them"
 description: "Everything about artifacts in Sephiria — the ~300 per-run passive items at 1.0. How the grid inventory works, artifact rarity, tablets that empower them, the Mystic Pot conversion rules, and how to farm artifact unlocks."
 category: "Artifacts"
 version: "1.0"
-updated: "2026-08-21"
+updated: "2026-10-26"
 keywords: ["Sephiria artifacts", "artifacts guide", "Sephiria artifact catalog", "best artifacts", "how to get artifacts", "Sephiria artifact farming", "Sephiria artifact grid", "Sephiria mystic pot"]
 related:
   - tablets-guide
@@ -14,6 +14,11 @@ related:
   - full-release-guide
   - stats-explained-guide
 sources:
+  - tier: "Official"
+    title: "Sephiria 0.10.0 Update — 'Chapter 4' (Wish Fountain capacity rebalance)"
+    url: "https://store.steampowered.com/news/app/2436940/view/1819386365106847"
+    date: "2025-12-24"
+    text: "Basis for the Wishing Fountain capacity figures on this page: 'Wish Fountain: Base capacity increased from 3 to 4, and the maximum capacity obtainable through the talent \"Willpower\" has been reduced from 6 to 5.'"
   - tier: "Community"
     text: "Specific artifact unlock conditions (e.g., Golden Maple Leaf after clearing Chapter 2) and the ~60% soft cap reports for crit rate and dodge i-frames"
   - tier: "Editorial"
@@ -47,9 +52,9 @@ For the full grid mechanics, placement strategy, and best tablet combinations, s
 
 **Soft caps:** crit rate and dodge i-frames are community-reported to cap around 60% — stacking beyond that gives diminishing returns. Diversify instead.
 
-### Permanent Artifact Slots
+### Permanent Artifact Capacity
 
-Some permanent progression adds artifact capacity: Destiny Inscriptions include an **Artifact Slot +1** unlock (a second permanent artifact slot), and a **Side Bag** (added in 1.0) expands your inventory space.
+Pre-run artifact capacity comes from the **Wishing Fountain**: the official 0.10.0 notes give a base capacity of **4**, and the **Willpower** talent raises it (the same patch caps Willpower's contribution at **+5**). Official posts never use the phrase "Artifact Slot +1" for this; guides that promise a "second permanent artifact slot" are describing fountain capacity. A **Side Bag** (added in 1.0) expands inventory space, which is separate from artifact capacity.
 
 ## Notable Artifacts
 
@@ -59,7 +64,7 @@ A few artifacts are well-documented by the community (unlocked permanently throu
 |------|------|------|
 | **Golden Maple Leaf** | +15% XP — faster leveling during runs | Clear Chapter 2 |
 | **Astral Compass** | Reveals secret rooms on the map | Find 10 secret rooms |
-| **Vault Key** | +1 artifact slot during runs | Clear Gauntlet Mode |
+| **Vault Key** | Wishing Fountain capacity +1 during runs **[Unconfirmed]** | Clear Gauntlet Mode |
 | **Mini Ballista** | Summons a ballista that fights alongside you | Achievement-based unlock |
 
 **The general rule:** artifacts that match your build's element or damage type outperform generic stat sticks. Pick the weapon whose element matches the artifacts and tablets you find, not the other way around.

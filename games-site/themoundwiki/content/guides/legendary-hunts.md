@@ -21,7 +21,7 @@ related:
 > None of it exists. See [Why this page was rewritten](#why-this-page-was-rewritten).
 
 **There is no Legendary Hunt system in The Mound: Omen of Cthulhu.** The phrase `legendary hunt`
-returns **0 hits** across all 39 official Steam announcements and **0 hits** across the 576-review
+returns **0 hits** across all 40 official Steam announcements and **0 hits** across the 576-review
 corpus. There are no named hunt targets, no lairs, no despawn timer, no hunt lockout and no exclusive
 drop table.
 
@@ -153,7 +153,7 @@ Every line below maps to a documented mechanic, not to an invented hunt.
 
 | Removed claim | Evidence |
 |---------------|----------|
-| A "Legendary Hunts" system | `legendary hunt` = **0 hits** in the 39 announcements and **0 hits** in the 576 reviews |
+| A "Legendary Hunts" system | `legendary hunt` = **0 hits** in the 40 announcements and **0 hits** in the 576 reviews |
 | "Legendary" as a named hunt tier | The only announcement use of `legendary` is figurative — *"we saw some absolutely legendary moments of survival, panic, and accidental squad betrayals"*. The real usage is the player-reported contract tier |
 | The Drowned Baron, The Pale King, The Crawling King, The Gilded Widow as hunt targets | **0/0 each**. Their lairs — Shallow Graves, The Hollow Woods, The Deep Warrens, Mansion of Fools — are also **0/0** |
 | Loot: Baron's Seal, Drowned Idol, Pale Crown, Veil Shard, King's Mandible, Chitin Plate, Widow's Thread, Gold Silk | **0/0 each**. "Gold Silk sells for 2,000+ Gyldenblood" — `Gyldenblood` is **0/0** and is not a currency in this game |
@@ -172,8 +172,8 @@ Two habits made the old page survive review, and both are worth naming:
 
 ### Method
 
-- **Official corpus:** Steam `ISteamNews` for app ID `2569760`, all **39** items, full text.
-  Reproduced with case-insensitive regex over the 39 news blocks: `legendary hunt` = **0**;
+- **Official corpus:** Steam `ISteamNews` for app ID `2569760`, all **40** items, full text.
+  Reproduced with case-insensitive regex over the 40 news blocks: `legendary hunt` = **0**;
   `legendary` = **1** (figurative, quoted above); `hunt` = **6**, all of which are "treasure hunters",
   "Fortune Hunters Characters Pack", "wakes up to hunt you", "hunt down the rest of the squad",
   "does not hunt - it punishes proximity" and "The monsters hunt differently" — none is a system;

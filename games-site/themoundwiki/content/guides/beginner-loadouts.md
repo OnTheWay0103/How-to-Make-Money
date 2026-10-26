@@ -14,7 +14,7 @@ related:
 
 # The Mound Beginner Loadouts — Survive Your First Expeditions
 
-> **Rewritten September 17, 2026.** This page used to teach a **weight system** — "exceeding 70% weight capacity cuts movement speed by 15%", a 90% no-sprint threshold, and loadouts rated "~45% weight". **There is no weight system.** `weight` returns **0 hits** in all 39 official announcements, **0** on the store page and **0** across 576 reviews; the game constrains you with inventory **slots**, not kilograms. Those numbers have been deleted, not replaced with different invented ones.
+> **Rewritten September 17, 2026.** This page used to teach a **weight system** — "exceeding 70% weight capacity cuts movement speed by 15%", a 90% no-sprint threshold, and loadouts rated "~45% weight". **There is no weight system.** `weight` returns **0 hits** in all 40 official announcements, **0** on the store page and **0** across 576 reviews; the game constrains you with inventory **slots**, not kilograms. Those numbers have been deleted, not replaced with different invented ones.
 
 Your loadout is the difference between extracting with loot and feeding the forest. The Mound gives you a limited set of equipment and consumable slots and no weight meter at all — so on a beginner budget, the discipline that matters is *what you are willing to leave behind*. This guide covers three proven starter loadouts, the slot rules you must respect, and what to spend tokens on first.
 
@@ -102,7 +102,7 @@ Tokens buy permanent things. There are only three sinks worth naming, and no rar
 2. **Occult-shop support items** — the Medallion (*"uncover hidden treasures"*), the Mask of Nyarlathotep (disguise), the Crucifix (reads enemy stress), the Rosary (patch 1.04).
 3. **Saints** — *"Saints are now equipped for a smaller cost at the ox wagon before an expedition"* (and cheaper again after patch 1.02).
 
-**There is no perk tree to invest in, no blueprint shelf, and no weapon rarity ladder.** `perk` returns **0 hits** in all 39 official announcements; `rarity` returns **0** in both corpora. Anything a guide tells you to buy "for permanent power" beyond the three lines above is describing a different game. See the [Perks & Progression Guide](/guides/perks-guide) for the full correction.
+**There is no perk tree to invest in, no blueprint shelf, and no weapon rarity ladder.** `perk` returns **0 hits** in all 40 official announcements; `rarity` returns **0** in both corpora. Anything a guide tells you to buy "for permanent power" beyond the three lines above is describing a different game. See the [Perks & Progression Guide](/guides/perks-guide) for the full correction.
 
 ---
 

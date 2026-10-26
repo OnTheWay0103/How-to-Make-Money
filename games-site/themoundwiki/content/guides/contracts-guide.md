@@ -16,7 +16,7 @@ related:
 
 # The Mound Contracts Guide — Tiers, Mission Types and Rewards
 
-> **Rewritten September 17, 2026.** This page previously organised contracts into six invented categories (Salvage / Hunt / Reconnaissance / Rescue / Story / Legendary Hunt) with per-difficulty reward tables, a **Reputation** currency and its 50–300 point payouts, and a **Gold Doubloons** reward scale. `Reputation` returns **0 hits** in all 39 official announcements and all 576 Steam reviews. `Doubloon` returns **0 hits** in both. The reward currency is **Tokens** — the developer says so in patch 1.02. The invented categories have been replaced with the mission types players actually describe.
+> **Rewritten September 17, 2026.** This page previously organised contracts into six invented categories (Salvage / Hunt / Reconnaissance / Rescue / Story / Legendary Hunt) with per-difficulty reward tables, a **Reputation** currency and its 50–300 point payouts, and a **Gold Doubloons** reward scale. `Reputation` returns **0 hits** in all 40 official announcements and all 576 Steam reviews. `Doubloon` returns **0 hits** in both. The reward currency is **Tokens** — the developer says so in patch 1.02. The invented categories have been replaced with the mission types players actually describe.
 
 Contracts are the backbone of every expedition in **The Mound: Omen of Cthulhu**. You pick one at the Galleon before you set out, and it decides your objective, your gear, and what the jungle does to you.
 
@@ -190,7 +190,7 @@ Given how thin the documented surface is, this is deliberately framed as heurist
 
 ### Method
 
-1. `/tmp/mound_news.txt` — complete Steam news for appid `2569760`, split on `^===== ` → **39 blocks**. The four add-on appids (`4630450`, `4630440`, `4630460`, `4925780`) each have **0 news items**; no separate demo or playtest appid exists.
+1. `/tmp/mound_news.txt` — complete Steam news for appid `2569760`, split on `^===== ` → **40 blocks**. The four add-on appids (`4630450`, `4630440`, `4630460`, `4925780`) each have **0 news items**; no separate demo or playtest appid exists.
 2. `/tmp/mrev/reviews.txt` — **576 unique reviews**, split on `^=== `.
 
 Query form: case-insensitive regex, hit count plus ±120 characters of context, every hit read in context before being accepted. Two context traps caught here: `host` looks like it supports the difficulty-scaling claim but every official use is about lobby hosting or DLC entitlement; and `tier` in reviews is overwhelmingly the phrase *"top-tier"* used as praise (*"The hallucinations are top-tier"*), not a contract tier. Only patch 1.02's *"tokens given for contract tiers"* is real evidence that tiers exist.

@@ -99,7 +99,7 @@ These updates are **free** (except for optional cosmetic DLC packs) and are expe
 The Mound offers several systems that encourage repeated playthroughs:
 
 - **Contract variety:** A small set of objective types — *"retrieve a logbook, reclaim a fort, or retrieve a steel canister, over and over"* — with randomised spawns and loot placement.
-- **Level rewards:** Levelling grants a small number of permanent rewards. `[Unconfirmed — `rank` returns **0 hits** in all 39 official announcements; third-party guides describe an XP Rank Rewards ladder granting an extra knife, extra inventory slots, a weapon grip bonus and a Ring of Isolation Resistance, but none of those names appears in the official corpus or the 576-review corpus. This wiki does not present them as fact.]`
+- **Level rewards:** Levelling grants a small number of permanent rewards. `[Unconfirmed — `rank` returns **0 hits** in all 40 official announcements; third-party guides describe an XP Rank Rewards ladder granting an extra knife, extra inventory slots, a weapon grip bonus and a Ring of Isolation Resistance, but none of those names appears in the official corpus or the 576-review corpus. This wiki does not present them as fact.]`
 - **Logbook collection:** Recovering a fort's logbook unlocks it as a *"new starting point for future expeditions"* (official store page), and hand-drawn art pieces accompany the narrations.
 - **Harder contracts:** *"The further you venture, the greater the dangers you will face"* — and staying longer is your choice, since patch 1.01 removed the mandatory end-of-mission cap.
 - **Team composition:** The contract's shared arsenal allocation changes every run — *"Will you entrust the only arquebus to the marksman with the steadiest hand?"*

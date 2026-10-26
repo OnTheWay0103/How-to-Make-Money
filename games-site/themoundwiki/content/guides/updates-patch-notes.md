@@ -148,11 +148,11 @@ The launch version introduced the core game systems:
 | Maps | Multiple expedition zones |
 | Contract types | Treasure retrieval, logbook retrieval, fort reclamation, portal contracts (player-reported) |
 | Enemy types | Multiple variants including Y'm-bhi |
-| Boss encounters | **None.** `boss` appears 0 times in all 39 official announcements, and players complain about the absence |
+| Boss encounters | **None.** `boss` appears 0 times in all 40 official announcements, and players complain about the absence |
 | Weapons | Melee, ranged, and tools |
-| Perks | **None.** `perk` appears 0 times in all 39 official announcements and 0 times on the store page |
+| Perks | **None.** `perk` appears 0 times in all 40 official announcements and 0 times on the store page |
 
-> **Note:** This table was previously padded with a Perk System, a Crafting System and several boss encounters. None of them exist — each was checked against all 39 official announcements and the store page and returned **0 hits**. A blanket disclaimer is not a source: an unsourced claim does not become acceptable because a footnote admits it is unverified. See the [Crafting Guide](/guides/crafting-recipes), the [Perks & Progression Guide](/guides/perks-guide) and the [Difficulty Guide](/guides/nightmare-mode) for the corrected versions.
+> **Note:** This table was previously padded with a Perk System, a Crafting System and several boss encounters. None of them exist — each was checked against all 40 official announcements and the store page and returned **0 hits**. A blanket disclaimer is not a source: an unsourced claim does not become acceptable because a footnote admits it is unverified. See the [Crafting Guide](/guides/crafting-recipes), the [Perks & Progression Guide](/guides/perks-guide) and the [Difficulty Guide](/guides/nightmare-mode) for the corrected versions.
 
 ---
 

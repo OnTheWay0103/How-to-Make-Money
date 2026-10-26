@@ -15,7 +15,7 @@ related:
 
 # The Mound Ending Guide — What Actually Happens and Why There Is Only One
 
-> **Rewritten September 17, 2026.** The previous version of this page described three endings ("The Escape", "The Containment", "The Revelation"), gated behind **8,000** and **12,000 Faction Reputation**, unlocked by defeating the **High Priest of Cthulhu**, with New Game+ bonuses, a **Corrupted Key**, a **Legendary Amulet**, 12 numbered Lore Page locations and per-ending achievement values. **None of it exists.** "Reputation" returns 0 hits in all 39 official announcements and all 576 Steam reviews. "High Priest" returns 0 hits in both. There is no ending-selection system in this game. This page now says so, and explains what is actually there.
+> **Rewritten September 17, 2026.** The previous version of this page described three endings ("The Escape", "The Containment", "The Revelation"), gated behind **8,000** and **12,000 Faction Reputation**, unlocked by defeating the **High Priest of Cthulhu**, with New Game+ bonuses, a **Corrupted Key**, a **Legendary Amulet**, 12 numbered Lore Page locations and per-ending achievement values. **None of it exists.** "Reputation" returns 0 hits in all 40 official announcements and all 576 Steam reviews. "High Priest" returns 0 hits in both. There is no ending-selection system in this game. This page now says so, and explains what is actually there.
 
 This is a shorter guide than the one it replaces, because the truth is shorter than the fiction. What follows is everything that can be sourced about how **The Mound: Omen of Cthulhu** ends — and a clear account of why the honest answer is "there is one ending, and players have opinions about it".
 
@@ -25,8 +25,8 @@ This is a shorter guide than the one it replaces, because the truth is shorter t
 
 | Question | Honest answer | Basis |
 |----------|---------------|-------|
-| How many endings are there? | **One.** No source describes an ending-selection system. | Zero hits for "ending" choices, "Reputation" thresholds or branch flags across 39 announcements. |
-| Is there a final boss? | **No boss is named or referred to in any official material.** "boss" returns **0 hits in all 39 announcements**. | See the reverse-evidence note below — players *ask* for bosses, which means there were none to fight. |
+| How many endings are there? | **One.** No source describes an ending-selection system. | Zero hits for "ending" choices, "Reputation" thresholds or branch flags across 40 announcements. |
+| Is there a final boss? | **No boss is named or referred to in any official material.** "boss" returns **0 hits in all 40 announcements**. | See the reverse-evidence note below — players *ask* for bosses, which means there were none to fight. |
 | Can I unlock a "true ending"? | No. There is no true ending, no secret ending and no post-credits unlock documented anywhere. | — |
 | Does New Game+ exist? | **No.** `New Game+` returns 0 hits in both corpora. | — |
 | Is the ending influenced by Reputation? | **No such system exists.** | `Reputation` = 0 news hits, 0 review hits. |
@@ -36,7 +36,7 @@ This is a shorter guide than the one it replaces, because the truth is shorter t
 
 ## What the developer has actually said about the ending
 
-There is exactly **one** official statement about the ending in the entire 39-post announcement corpus, and it is a patch note. From the "What's new since the demo?" update:
+There is exactly **one** official statement about the ending in the entire 40-post announcement corpus, and it is a patch note. From the "What's new since the demo?" update:
 
 > *"Prologue ending cinematic extended with additional narration."*
 
@@ -91,7 +91,7 @@ This matters more than usual here, because the ending is the single most-discuss
 
 ### The reverse-evidence point, stated carefully
 
-`boss` returns **0 hits in all 39 official announcements**. The review corpus uses the word, and the uses split into two kinds — which is why this page will not tell you either "there are bosses" or "there are definitely no bosses":
+`boss` returns **0 hits in all 40 official announcements**. The review corpus uses the word, and the uses split into two kinds — which is why this page will not tell you either "there are bosses" or "there are definitely no bosses":
 
 | Kind of use | Example | What it proves |
 |-------------|---------|----------------|
@@ -128,7 +128,7 @@ Real place-and-object names from the same page that **do** survive, because they
 
 Counts above come from two corpora, reproduced this session:
 
-1. `/tmp/mound_news.txt` — the complete Steam news feed for appid `2569760`, split on `^===== ` → **39 blocks**. The four add-on appids (`4630450`, `4630440`, `4630460`, `4925780`) each have **0 news items**, and no separate demo/playtest appid exists, so this is the full official surface.
+1. `/tmp/mound_news.txt` — the complete Steam news feed for appid `2569760`, split on `^===== ` → **40 blocks**. The four add-on appids (`4630450`, `4630440`, `4630460`, `4925780`) each have **0 news items**, and no separate demo/playtest appid exists, so this is the full official surface.
 2. `/tmp/mrev/reviews.txt` — **576 unique reviews**, split on `^=== `.
 
 Query form: case-insensitive regex, hit count plus ±120 characters of context, **every hit read in context**. One correction the context-reading produced: in this corpus `Priest` looks like an enemy class, but its only news hit is a mocap credit (*"Cédric Lalanne as The Priest"*) and its review hits are the player character who drives the ox cart. It was never a boss or an enemy, and it is not an ending gate.
@@ -153,10 +153,10 @@ There is no choice to agonise over, so the practical advice is short:
 A: There is no true ending. There is one ending.
 
 **Q: I read that I need 12,000 Reputation for the secret ending.**
-A: That page was fabricated. `Reputation` returns 0 hits in 39 official announcements and 0 in 576 reviews. There is no reputation system and no ending gate.
+A: That page was fabricated. `Reputation` returns 0 hits in 40 official announcements and 0 in 576 reviews. There is no reputation system and no ending gate.
 
 **Q: Who is the final boss?**
-A: No boss is named or referenced in any official material. `boss` = 0 hits in all 39 announcements. Players requesting *"a boss fight or something more"* are the strongest evidence that none exists.
+A: No boss is named or referenced in any official material. `boss` = 0 hits in all 40 announcements. Players requesting *"a boss fight or something more"* are the strongest evidence that none exists.
 
 **Q: Does the game have New Game+?**
 A: No. `New Game+` = 0 news hits, 0 review hits.

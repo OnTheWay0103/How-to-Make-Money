@@ -113,7 +113,7 @@ per-character**. What the official record actually documents:
 
 ### What the game does *not* have
 
-> **No perk system.** `perk` appears **0 times** in all 39 official Steam announcements and **0
+> **No perk system.** `perk` appears **0 times** in all 40 official Steam announcements and **0
 > times** on the store page. In the review corpus the word appears only in **requests** — *"I
 > believe small perks to the characters would be a good addition"*, *"A more meaningful
 > progression system, such as permanent perks … could add a lot of replayability"*. A player

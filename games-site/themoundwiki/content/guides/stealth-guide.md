@@ -115,7 +115,7 @@ What the sources do **not** support, and what has been removed from this page: a
 | **Mask of Nyarlathotep** | Documented infiltration tool. See below. | Official: *"allows its wearer to move among the Y'm-bhi unnoticed."* |
 | **Oil Lamp / Torch / Lantern** | Light you control. The Lamp is rain-proof; the torch flickers. | Official: *"Unlike the torch, it won't flicker or die under the rain."* |
 
-> **Removed:** "Whisper Charm" and "Flare". Both return **0 hits** across all 39 announcements and all 576 reviews. If you have seen them on other pages of this wiki, they are not real items.
+> **Removed:** "Whisper Charm" and "Flare". Both return **0 hits** across all 40 announcements and all 576 reviews. If you have seen them on other pages of this wiki, they are not real items.
 
 ### The shared arsenal — plan it before you leave
 

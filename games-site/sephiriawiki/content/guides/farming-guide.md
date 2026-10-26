@@ -3,7 +3,7 @@ title: "Farming Guide — Best Ways to Farm Sapphires, Gold & Inscription Shards
 description: "Sephiria farming guide: efficient sapphire farming methods, gold farming routes, how to farm inscription shards, and how to unlock Destiny Inscriptions faster for permanent meta-progression."
 category: "Beginner"
 version: "1.0"
-updated: "2026-08-21"
+updated: "2026-10-26"
 keywords: ["sephiria farming", "sephiria sapphire farming", "sephiria gold farming", "sephiria inscription shards", "sephiria how to farm", "sephiria meta progression", "sephiria destiny inscriptions", "sephiria resource guide"]
 related:
   - beginner-guide
@@ -56,7 +56,7 @@ Sapphires are the **permanent meta-currency**. You earn them from **every run �
 | 1 | **Home Repair** | Unlocks the Talent tree — the gateway to other meta-progression |
 | 2 | **Extra Potion Slot** | +1 consumable slot is a massive survivability increase |
 | 3 | **Starting Weapon Choice** | Pick your weapon at run start instead of a random roll |
-| 4 | **Artifact Slot +1** | A second permanent artifact slot — build-defining |
+| 4 | **Wishing Fountain capacity** | More pre-run artifact budget (base 4, plus Willpower) — build-defining. Older guides call this "Artifact Slot +1" **[Unconfirmed]** |
 | 5 | **Shop Discount** | Cheaper shop purchases every run |
 | 6 | **Bonus Gold Start** | Extra gold on run start helps early shop purchases |
 
@@ -117,7 +117,7 @@ Some artifacts are **permanently unlocked through specific milestones** — they
 |------|------|------|
 | **Golden Maple Leaf** | Clear Chapter 2 | +15% XP — faster leveling during farms |
 | **Astral Compass** | Find 10 secret rooms | Reveals secret rooms on map — essential for shard farming |
-| **Vault Key** | Clear Gauntlet Mode | +1 artifact slot — more build options during farms |
+| **Vault Key** | Clear Gauntlet Mode | Wishing Fountain capacity +1 **[Unconfirmed]** — more build options during farms |
 
 ---
 

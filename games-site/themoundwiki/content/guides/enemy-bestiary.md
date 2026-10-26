@@ -25,7 +25,7 @@ This page is built from two corpora and nothing else. Where a creature is real, 
 
 ## Why this page was rewritten
 
-Every name below was claimed as a fact by an earlier version of this page. Each was searched across the complete official announcement corpus for appid `2569760` (39 posts) and the full 576-review Steam corpus. All returned zero hits in both.
+Every name below was claimed as a fact by an earlier version of this page. Each was searched across the complete official announcement corpus for appid `2569760` (40 posts) and the full 576-review Steam corpus. All returned zero hits in both.
 
 | Removed claim | Query | News hits | Review hits | Why it was removed |
 |---------------|-------|-----------|-------------|--------------------|
@@ -50,7 +50,7 @@ Every name below was claimed as a fact by an earlier version of this page. Each 
 
 Reproduce every count on this page yourself:
 
-1. **Announcement corpus** — `/tmp/mound_news.txt`, the complete Steam news feed for appid `2569760`. Split on the block marker `^===== ` → **39 blocks**. Verified separately that the four add-on appids (`4630450`, `4630440`, `4630460`, `4925780`) each have **0 news items** and that no separate demo or playtest appid exists, so this is the whole official surface.
+1. **Announcement corpus** — `/tmp/mound_news.txt`, the complete Steam news feed for appid `2569760`. Split on the block marker `^===== ` → **40 blocks**. Verified separately that the four add-on appids (`4630450`, `4630440`, `4630460`, `4925780`) each have **0 news items** and that no separate demo or playtest appid exists, so this is the whole official surface.
 2. **Review corpus** — `/tmp/mrev/reviews.txt`, **576 unique reviews**, split on `^=== `.
 3. **The query form** — a case-insensitive regex over both corpora, printing the hit count plus ±120 characters of context. **Every hit was read in context before being accepted as support.** This matters: raw substring counts lie badly in this game's corpus. Three traps found and corrected during this rewrite:
    - `Migo` returns **14 review hits** — all of them are the Spanish/Portuguese word **`amigo`**. With a word boundary (`\bMigo\b`) the count is **0**. The creature is spelled **Mi-Go** (1 news hit) or **Migo** (1 news hit, the patch note itself).
@@ -121,7 +121,7 @@ The developer's own Captain's Notes summary: *"Silence is survival. If you hear 
 
 ## Class 3: Other creatures the developer names
 
-These are the only other creature names that appear in the 39 official announcements. Note how thin the evidence is for each — that thinness is the honest picture of what has been published.
+These are the only other creature names that appear in the 40 official announcements. Note how thin the evidence is for each — that thinness is the honest picture of what has been published.
 
 | Creature | Official evidence | What it means in play |
 |----------|-------------------|----------------------|
@@ -149,7 +149,7 @@ Two practical rules follow, and they are worth more than any stat table:
 
 ## Class 4: Creature names reported by third-party guides only
 
-Everything in this table returns **0 hits in both corpora** — 39 announcements and 576 reviews. These names come from independent editorial guide sites (gamerguides, nerdschalk, allthings.how, noobfeed, gamewatcher, intoindiegames). **They are reported by third-party guides, not by the developer.** Some are plausible; two of them (*Prowler*, *Haunter*) appear in a single Steam review by a player describing difficulty, which is weak and lone corroboration. Do not treat any row here as confirmed.
+Everything in this table returns **0 hits in both corpora** — 40 announcements and 576 reviews. These names come from independent editorial guide sites (gamerguides, nerdschalk, allthings.how, noobfeed, gamewatcher, intoindiegames). **They are reported by third-party guides, not by the developer.** Some are plausible; two of them (*Prowler*, *Haunter*) appear in a single Steam review by a player describing difficulty, which is weak and lone corroboration. Do not treat any row here as confirmed.
 
 | Reported name | Reported name | Reported name |
 |---------------|---------------|---------------|

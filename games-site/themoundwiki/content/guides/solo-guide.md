@@ -23,7 +23,7 @@ Solo is supported in **The Mound: Omen of Cthulhu** — but "supported" is doing
 
 ## The bot companion — what is actually documented
 
-There is exactly **one** official statement about single-player companions in all 39 announcements, from the "What's new since the demo?" update:
+There is exactly **one** official statement about single-player companions in all 40 announcements, from the "What's new since the demo?" update:
 
 > *"**Single Player:** New gestures to command your bot companion to switch between silent weapons and a rifle - more effective but noisier."*
 
@@ -129,7 +129,7 @@ Solo, the "shared arsenal" is simply **your arsenal** — which sounds like an a
 | 3 | **A light source** (Oil Lamp preferred — it is rain-proof; torches flicker) | Dark zones and Sanity. |
 | 4 | **A Rifle / Matchlock**, if the bot can carry one | The patch note explicitly frames the rifle mode as *"more effective but noisier"* — useful, but it costs you quiet. |
 
-> **Not in the game:** "Prayer Beads", "Healing Salves" and "Purified Water". All three return **0 hits** in 39 announcements and 576 reviews. The healing item players actually name is **bandages** — and one 50-upvote review's central complaint is that the bandages live in the ox cart while you are bleeding somewhere else. Keep the cart near you, or carry what you need.
+> **Not in the game:** "Prayer Beads", "Healing Salves" and "Purified Water". All three return **0 hits** in 40 announcements and 576 reviews. The healing item players actually name is **bandages** — and one 50-upvote review's central complaint is that the bandages live in the ox cart while you are bleeding somewhere else. Keep the cart near you, or carry what you need.
 
 ---
 
@@ -149,7 +149,7 @@ The previous version of this page advised: *"No one to confirm hallucinations �
 
 | Query | News hits | Review hits |
 |-------|-----------|-------------|
-| `despawn` | **0** (39 announcements) | **1** (576 reviews) |
+| `despawn` | **0** (40 announcements) | **1** (576 reviews) |
 | `close your eyes`, `blink`, `eyes closed` | **0** | **1** — and that hit is the idiom *"in the blink of an eye"*, unrelated |
 
 The single `despawn` review hit is a **bug report** about enemies *"glitch[ing] out or despawn"* during network problems — the opposite of a reliable mechanic. There is no documented way to dismiss a hallucination.
@@ -218,7 +218,7 @@ Your run ends when you decide, or when you die. Solo, decide early.
 
 ### Method
 
-1. `/tmp/mound_news.txt` — complete Steam news for appid `2569760`, split on `^===== ` → **39 blocks**. The four add-on appids (`4630450`, `4630440`, `4630460`, `4925780`) each have **0 news items**; no separate demo or playtest appid exists.
+1. `/tmp/mound_news.txt` — complete Steam news for appid `2569760`, split on `^===== ` → **40 blocks**. The four add-on appids (`4630450`, `4630440`, `4630460`, `4925780`) each have **0 news items**; no separate demo or playtest appid exists.
 2. `/tmp/mrev/reviews.txt` — **576 unique reviews**, split on `^=== `.
 
 Query form: case-insensitive regex, hit count plus ±120 characters of context, **every hit read in context**. The context pass is what caught the two traps on this page: `despawn`'s single review hit is a networking bug report rather than a mechanic, and `companion`'s single official hit says *"your bot companion"* — singular — which contradicts the "1–3 companions" claim the page used to make.

@@ -1,6 +1,6 @@
 ---
 title: "The Mound Daily Challenges — Is There a Daily System?"
-description: "The Mound: Omen of Cthulhu has no daily challenges, no streak bonuses, no leaderboards and no Personal Rank. What the contract board actually offers, verified against all 39 official announcements."
+description: "The Mound: Omen of Cthulhu has no daily challenges, no streak bonuses, no leaderboards and no Personal Rank. What the contract board actually offers, verified against all 40 official announcements."
 category: "Guides"
 version: "1.0"
 updated: "2026-09-17"
@@ -21,7 +21,7 @@ related:
 
 **No.** The Mound: Omen of Cthulhu has no daily challenges, no weekly rotation, no streak bonus, no
 leaderboard, no seasonal currency and no Personal Rank. `daily challenge` returns **0 hits** across all
-39 official Steam announcements and **0** across the 576-review corpus, and no third-party guide
+40 official Steam announcements and **0** across the 576-review corpus, and no third-party guide
 describes such a system either.
 
 What the game has is a **contract board**, and contracts are the whole of the repeatable content. That is
@@ -116,19 +116,19 @@ The old page described a live-service progression layer that does not exist:
 
 | Old claim | Evidence |
 |-----------|----------|
-| Daily challenges / daily contracts refreshing at 00:00 UTC | `daily challenge` = **0 hits** in all 39 official announcements and **0** across 576 reviews |
+| Daily challenges / daily contracts refreshing at 00:00 UTC | `daily challenge` = **0 hits** in all 40 official announcements and **0** across 576 reviews |
 | 5 Easy / 3 Medium / 1 Hard per day, "x1.0 / x1.5 / x2.5" risk modifiers | No official source publishes per-tier daily limits or multipliers |
 | Contract Streaks, weekly rotation, "Silver Ore Week", monthly leaderboard, seasonal currency | None appear in any corpus. `seasonal` and `leaderboard` = 0 hits in both |
-| A **Personal Rank** that contracts progress | `rank` = **0 hits** in all 39 announcements. (Third-party guides do describe a separate XP **Rank Rewards** ladder — see the note below.) |
+| A **Personal Rank** that contracts progress | `rank` = **0 hits** in all 40 announcements. (Third-party guides do describe a separate XP **Rank Rewards** ladder — see the note below.) |
 | Ten named objective types (Salvage Run, Elimination, Boss Hunt, Ritual Disruption, Storm Survival, Full Clear, No-Damage Run…) | Matches the game's actual objective set almost not at all. The real set is treasure retrieval, logbook retrieval, fort reclamation and portal contracts |
-| "Boss Hunt — defeat a specific boss" | `boss` = **0 hits** in all 39 announcements, and players complain there are none |
+| "Boss Hunt — defeat a specific boss" | `boss` = **0 hits** in all 40 announcements, and players complain there are none |
 | Crafting consumables and ammunition from contract materials | There is no crafting system — see the [Crafting Guide](/guides/crafting-recipes) |
 | Buying blueprints from a Quartermaster | No Quartermaster and no blueprint system appears anywhere in the record |
 | Storm Essence, storm gear, Artifact Fragment, Scrap Metal as named currencies/materials | All **0 hits** in both corpora |
 
 ### Method
 
-- **Official corpus:** Steam `ISteamNews` for app ID `2569760`, all **39** items, full text —
+- **Official corpus:** Steam `ISteamNews` for app ID `2569760`, all **40** items, full text —
   `daily challenge` 0, `streak` 0, `leaderboard` 0, `seasonal` 0, `rank` 0.
 - **App-ID check:** `2569760` plus four add-on apps (`4630450`, `4630440`, `4630460`, `4925780`), each
   queried for its own news feed and returning **0 items** — no second announcement stream exists.

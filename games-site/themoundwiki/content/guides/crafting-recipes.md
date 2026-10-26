@@ -1,6 +1,6 @@
 ---
 title: "The Mound Crafting Guide — Is There a Crafting System?"
-description: "The Mound: Omen of Cthulhu has no crafting system and no recipes. What gear progression actually is — contract gear, the Weapon Upgrade Anvil, tokens and the occult shop — verified against all 39 official announcements."
+description: "The Mound: Omen of Cthulhu has no crafting system and no recipes. What gear progression actually is — contract gear, the Weapon Upgrade Anvil, tokens and the occult shop — verified against all 40 official announcements."
 category: "Guides"
 version: "1.0"
 updated: "2026-09-17"
@@ -110,7 +110,7 @@ The old page described a crafting system that does not exist. Every element was 
 | Old claim | Evidence |
 |-----------|----------|
 | A "Galleon Crafting Station" on the lower deck with Tools / Consumables / Ammunition categories | No official source describes a crafting station of any kind |
-| Material types: Scrap Materials, Rare Components, Artifact Fragments | **0 hits** in all 39 official announcements and **0** on the store page |
+| Material types: Scrap Materials, Rare Components, Artifact Fragments | **0 hits** in all 40 official announcements and **0** on the store page |
 | Five crafting tiers gated on "Personal Rank" (Rank 1-5, 6-10, 11-15, 16-20, 21+) | The game has no documented Personal Rank |
 | Medallion upgrade recipes (Extended Range / Enhanced Signal / Duration Boost) | Invented |
 | Consumable recipes with material lists — 5 Medicinal Herbs + 2 Clean Water, Dreamweed, Moonstone Dust, Adrenal Gland, Alchemical Base | **Medicinal Herbs 0, Dreamweed 0, Moonstone Dust 0, Adrenal Gland 0, Alchemical Base 0** |
@@ -131,7 +131,7 @@ Two structural traps are worth naming, because they are how a page like this sur
 
 ### Method
 
-- **Official corpus:** Steam `ISteamNews` for app ID `2569760`, all **39** items, full text — `craft` (as a system) 0, `recipe` 0, `crafting station` 0.
+- **Official corpus:** Steam `ISteamNews` for app ID `2569760`, all **40** items, full text — `craft` (as a system) 0, `recipe` 0, `crafting station` 0.
 - **App-ID check:** `2569760` plus four add-on apps (`4630450`, `4630440`, `4630460`, `4925780`), each queried for its own news feed and returning **0 items** — no second announcement stream exists.
 - **Store page:** `appdetails` for `2569760`, English.
 - **Community corpus:** Steam `appreviews` with `json=1`; `crafting` as a standalone word = **0 hits**; `recipe` = **0 hits**.

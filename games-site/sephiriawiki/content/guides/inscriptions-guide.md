@@ -3,7 +3,7 @@ title: "Inscriptions Guide — Permanent Socketed Progression"
 description: "Complete guide to Sephiria's Inscription system. How Destiny Inscriptions work, socket slots and Inscription Shards, what to unlock first, and how inscriptions complement Talents and artifacts."
 category: "Mechanics"
 version: "1.0"
-updated: "2026-08-21"
+updated: "2026-10-26"
 keywords: ["Sephiria inscriptions", "inscription system", "socketing guide", "destiny inscriptions", "best inscriptions", "inscription farming", "socket slots"]
 related:
   - builds-guide
@@ -47,7 +47,7 @@ The recommended unlock order for Destiny Inscriptions:
 | 1 | **Home Repair** | Unlocks the Talent tree — the gateway to other meta-progression |
 | 2 | **Extra Potion Slot** | +1 consumable slot is a massive survivability increase |
 | 3 | **Starting Weapon Choice** | Pick your weapon at run start instead of a random roll |
-| 4 | **Artifact Slot +1** | A second permanent artifact slot — build-defining |
+| 4 | **Wishing Fountain capacity** | More pre-run artifact budget (base 4, plus Willpower) — build-defining. Older guides call this "Artifact Slot +1" **[Unconfirmed]** |
 | 5 | **Shop Discount** | Cheaper shop purchases every run |
 | 6 | **Bonus Gold Start** | Extra gold at run start helps early shop purchases |
 

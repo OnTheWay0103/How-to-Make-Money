@@ -1,6 +1,6 @@
 ---
 title: "The Mound Difficulty Guide — Is There a Nightmare Mode?"
-description: "The Mound: Omen of Cthulhu has no Nightmare Mode and no modifier pool. What difficulty actually looks like — contract tiers, the Forest Awakens escalation, and squad scaling — verified against all 39 official announcements."
+description: "The Mound: Omen of Cthulhu has no Nightmare Mode and no modifier pool. What difficulty actually looks like — contract tiers, the Forest Awakens escalation, and squad scaling — verified against all 40 official announcements."
 category: "Guides"
 version: "1.0"
 updated: "2026-09-17"
@@ -102,9 +102,9 @@ The old page described a full difficulty mode. Every element was invented:
 
 | Old claim | Evidence |
 |-----------|----------|
-| A "Nightmare Mode" unlocked after completing every contract tier | `nightmare` = **1 hit** in all 39 official announcements, and it is figurative — *"they're all leading to a new nightmare"* |
+| A "Nightmare Mode" unlocked after completing every contract tier | `nightmare` = **1 hit** in all 40 official announcements, and it is figurative — *"they're all leading to a new nightmare"* |
 | Unlock requirements: "Galleon Rank 4", "10 Hard daily challenges", "Legendary contract" | No official source mentions a Galleon Rank, Hard daily challenges, or a Legendary contract tier |
-| Seven modifiers — Thicker Dark, Bloodthirst, Hollow Veil, Ravenous, Mourning Bells, Twin Shadows, Weight of the Mound | `modifier` = **0 hits** in all 39 announcements and **0** on the store page. Not one of these names appears anywhere |
+| Seven modifiers — Thicker Dark, Bloodthirst, Hollow Veil, Ravenous, Mourning Bells, Twin Shadows, Weight of the Mound | `modifier` = **0 hits** in all 40 announcements and **0** on the store page. Not one of these names appears anywhere |
 | Precise modifier effects (40% faster Sanity drain, 3s enemy heal-on-hit, 50% perfect fakes, 30% weaker healing, 15% carry reduction) | No official source publishes any of these numbers |
 | A rewards table (Nightmare sigils, weekly exclusive cosmetics, 1.5× Gyldenblood) | Invented |
 | "Dangerous modifier combos" | Built on the invented modifiers |
@@ -117,7 +117,7 @@ tension."* A request is a gap signal, not evidence the feature exists.
 
 ### Method
 
-- **Official corpus:** Steam `ISteamNews` for app ID `2569760`, all **39** items, full text.
+- **Official corpus:** Steam `ISteamNews` for app ID `2569760`, all **40** items, full text.
 - **App-ID check:** `2569760` plus four add-on apps (`4630450`, `4630440`, `4630460`, `4925780`), each queried for its own news feed and returning **0 items** — no second announcement stream exists.
 - **Store page:** `appdetails` for `2569760`, English — `nightmare` 0, `modifier` 0.
 - **Community corpus:** Steam `appreviews` with `json=1`, independent review IDs retained.

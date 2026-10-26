@@ -128,7 +128,7 @@ accompany logbook narrations on the rowboat map"*, and the demo update added *"g
 discovered across the mainland"* so you *"piece together more of what The Mound doesn't want you to
 know."*
 
-**There is no Reputation system.** `reputation` returns 0 hits in the 39 official announcements and 0
+**There is no Reputation system.** `reputation` returns 0 hits in the 40 official announcements and 0
 in the 576 reviews. Nothing is gated behind a score.
 
 ---
@@ -190,7 +190,7 @@ as about 15 minutes. The bulk of your time is the middle, not the end.
 
 | Removed claim | Evidence |
 |---------------|----------|
-| A three-phase story (Phase 1 / 2 / 3) gated on Reputation | `reputation` = **0 hits** in the 39 announcements and **0** in the 576 reviews. The only announcement uses of "phase" are *"during this testing phase"* and *"the current phase of The Mound"* — neither is a story act |
+| A three-phase story (Phase 1 / 2 / 3) gated on Reputation | `reputation` = **0 hits** in the 40 announcements and **0** in the 576 reviews. The only announcement uses of "phase" are *"during this testing phase"* and *"the current phase of The Mound"* — neither is a story act |
 | "Reputation unlocks new islands and story stages" | Invented. Location unlocks come from fort logbooks |
 | Chapter 1 "The Lost Patrol" tutorial on the "Isle of Voices" | `Isle of Voices` = **0/0**. There is a prologue, and it is not on a named island |
 | Chapter 3 "Whispers in the Deep" and boss **The Lurker Below** | Contract name **0/0**; boss **0/0**. Its stats ("~1,200 HP", "50% ballistic reduction", "Phase 2 at 50%: summons 4 Leech Swarms") were invented — *"Leech Swarm"* is **0/0** |
@@ -205,8 +205,8 @@ as about 15 minutes. The bulk of your time is the middle, not the end.
 
 ### Method
 
-- **Official corpus:** Steam `ISteamNews` for app ID `2569760`, all **39** items, full text.
-  Reproduced with case-insensitive regex over the 39 news blocks: `reputation` = **0**;
+- **Official corpus:** Steam `ISteamNews` for app ID `2569760`, all **40** items, full text.
+  Reproduced with case-insensitive regex over the 40 news blocks: `reputation` = **0**;
   `Isle of Voices` = **0**; `High Priest` = **0**; `Lurker Below` = **0**; `Endless Expedition` = **0**;
   `Corrupted Key` = **0**; `New Game` = **0**; `endings` = **0**; `phase` = **2**, both non-story
   (*"during this testing phase"*, *"the current phase of The Mound"*).

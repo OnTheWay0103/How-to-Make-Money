@@ -25,7 +25,7 @@ This is the shortest guide on the wiki, and that is the point. An honest page ab
 
 | Question | Answer | Evidence |
 |----------|--------|----------|
-| Has the developer published an achievement list? | **No.** Not in any of the 39 official announcements. | `achievement` appears in 3 of 39 posts, none of which lists trophies. |
+| Has the developer published an achievement list? | **No.** Not in any of the 40 official announcements. | `achievement` appears in 3 of 40 posts, none of which lists trophies. |
 | Do achievements exist in the game? | **Yes.** | Patch 1.03: *"Fixed spear and headshot achievements that were not unlocking under certain scenarios."* |
 | How many are there? | **Unknown.** No source states a number. | Any page quoting "28" (or any figure) is guessing. |
 | Is there a Platinum? | **Unknown.** No source mentions tiers. | `Platinum` = 0 hits in both corpora. |
@@ -96,7 +96,7 @@ Since no published list exists, get yours from the platform rather than from a g
 
 ### Method
 
-1. `/tmp/mound_news.txt` — complete Steam news for appid `2569760`, split on `^===== ` → **39 blocks**. The four add-on appids each have **0 news items**; no separate demo or playtest appid exists.
+1. `/tmp/mound_news.txt` — complete Steam news for appid `2569760`, split on `^===== ` → **40 blocks**. The four add-on appids each have **0 news items**; no separate demo or playtest appid exists.
 2. `/tmp/mrev/reviews.txt` — **576 unique reviews**, split on `^=== `.
 
 Query form: case-insensitive regex, hit count plus ±120 characters of context, every hit read before being accepted. Total yield for the entire achievement subject across both corpora: **3 announcement references** (quoted in full above) and **1 reviewer remark**. That is the complete evidence base — which is exactly why this page no longer prints a list.

@@ -191,7 +191,7 @@ The **Mask of Nyarlathotep** is a powerful tool that allows you to blend in with
 4. **Silent squads.** The only defense against personal hallucinations is team confirmation — a quiet team dies to ghosts of its own making.
 5. **Failing to rest on the Galleon.** Starting at 60% Sanity is starting already in danger.
 
-**There is no difficulty setting to adjust for.** This section used to describe "Nightmare Mode" increasing drain rates and shrinking hallucination windows. No such mode exists — `nightmare` appears once in all 39 official announcements and it is figurative (*"they're all leading to a new nightmare"*), and `modifier` appears zero times. The levers that really raise the pressure are the contract you accept and how long you stay on the mainland once the forest wakes up. See the [Difficulty Guide](/guides/nightmare-mode) for the full correction.
+**There is no difficulty setting to adjust for.** This section used to describe "Nightmare Mode" increasing drain rates and shrinking hallucination windows. No such mode exists — `nightmare` appears once in all 40 official announcements and it is figurative (*"they're all leading to a new nightmare"*), and `modifier` appears zero times. The levers that really raise the pressure are the contract you accept and how long you stay on the mainland once the forest wakes up. See the [Difficulty Guide](/guides/nightmare-mode) for the full correction.
 
 ---
 

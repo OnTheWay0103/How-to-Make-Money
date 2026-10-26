@@ -1,6 +1,6 @@
 ---
 title: "The Mound Money Guide — Coins, Tokens and the Occult Shop"
-description: "How money actually works in The Mound: Omen of Cthulhu — coins, tokens and the occult shop, verified against all 39 official announcements. What you can and cannot buy, why gear never carries over, and the honest farming loop."
+description: "How money actually works in The Mound: Omen of Cthulhu — coins, tokens and the occult shop, verified against all 40 official announcements. What you can and cannot buy, why gear never carries over, and the honest farming loop."
 category: "Guides"
 version: "1.0"
 updated: "2026-09-17"
@@ -15,7 +15,7 @@ related:
 
 # The Mound Money Guide — How to Earn Gyldenblood and Upgrade Tokens Fast
 
-> **Rewritten September 17, 2026.** This page used to describe three currencies — *Gyldenblood*, *Upgrade Tokens* and *Reputation* — and a farming table built on Nightmare contracts, Legendary Hunts and Endless Expeditions. **Gyldenblood** and **Reputation** do not exist: each returns **0 hits** in all 39 official announcements and **0** in the 576-review corpus. Nightmare contracts, Legendary Hunts and Endless Expeditions do not exist either. See [Why this page was rewritten](#why-this-page-was-rewritten).
+> **Rewritten September 17, 2026.** This page used to describe three currencies — *Gyldenblood*, *Upgrade Tokens* and *Reputation* — and a farming table built on Nightmare contracts, Legendary Hunts and Endless Expeditions. **Gyldenblood** and **Reputation** do not exist: each returns **0 hits** in all 40 official announcements and **0** in the 576-review corpus. Nightmare contracts, Legendary Hunts and Endless Expeditions do not exist either. See [Why this page was rewritten](#why-this-page-was-rewritten).
 
 Every expedition in **The Mound: Omen of Cthulhu** is an investment: you sail out with gear and return with loot — or you do not return at all. The players who climb fastest are not the ones who loot the most; they are the ones who understand what each currency buys and what is worth carrying back.
 
@@ -38,7 +38,7 @@ So: **coins** you spend inside a run or on gear, **Experience** on your level, a
 
 **The critical distinction:** Tokens are only paid when you *extract with* the loot. Die on the mainland and that run's haul converts to nothing. That difference is the entire economy of the game — and the reason wipes feel so expensive.
 
-> **Two fabricated currencies were removed from this page.** *Gyldenblood* and *Reputation* were both presented here as fact: **0 hits** in all 39 official Steam announcements, **0** on the store page, **0** across 576 reviews. There is no reputation gate on maps, and loot is not valued in a currency called Gyldenblood.
+> **Two fabricated currencies were removed from this page.** *Gyldenblood* and *Reputation* were both presented here as fact: **0 hits** in all 40 official Steam announcements, **0** on the store page, **0** across 576 reviews. There is no reputation gate on maps, and loot is not valued in a currency called Gyldenblood.
 
 ---
 
@@ -89,7 +89,7 @@ Player-reported sellables worth watching for: relics and forbidden relics (the d
 
 Not weight, and not a materials system — **slots**.
 
-- There is **no weight system**: `weight` returns 0 hits across all 39 official announcements and 0 on the store page. What limits you is inventory slots.
+- There is **no weight system**: `weight` returns 0 hits across all 40 official announcements and 0 on the store page. What limits you is inventory slots.
 - *"Additional inventory slots are gradually unlocked as you level"*, and permanent unlocks are otherwise scarce — one player describes *"no permanent unlocks aside from skins and a couple of inventory slots."*
 - The **Ox Wagon** is your overflow: most missions include it and it takes items you would otherwise carry. Players also warn that *"there is really no point in sending the cart back"* — it spikes enemy spawns.
 
@@ -127,8 +127,8 @@ The previous version described an economy that does not exist:
 
 | Old claim | Evidence |
 |-----------|----------|
-| **Gyldenblood** as a currency | **0 hits** in all 39 official announcements · **0** on the store page · **0** across 576 reviews |
-| **Reputation** as a story-gating currency (2,000 / 6,000 / 12,000 thresholds) | **0 hits** in all 39 announcements · **0** across 576 reviews |
+| **Gyldenblood** as a currency | **0 hits** in all 40 official announcements · **0** on the store page · **0** across 576 reviews |
+| **Reputation** as a story-gating currency (2,000 / 6,000 / 12,000 thresholds) | **0 hits** in all 40 announcements · **0** across 576 reviews |
 | Boss kills paying "The Lurker Below: 800 Reputation; High Priest: 3,000" | Neither boss exists; `boss` = **0 hits** in the announcements, and players complain there are none |
 | A daily challenge board | `daily challenge` = **0 hits** in both corpora |
 | Nightmare contracts paying 1.5x | `nightmare` = 1 hit in the announcements and it is figurative; `modifier` = **0** |
@@ -139,7 +139,7 @@ The previous version described an economy that does not exist:
 
 ### Method
 
-- **Official corpus:** Steam `ISteamNews` for app ID `2569760`, all **39** items, full text.
+- **Official corpus:** Steam `ISteamNews` for app ID `2569760`, all **40** items, full text.
 - **App-ID check:** `2569760` plus four add-on apps (`4630450`, `4630440`, `4630460`, `4925780`), each queried for its own news feed and returning **0 items** — no second announcement stream exists.
 - **Store page:** `appdetails` for `2569760`, English.
 - **Community corpus:** Steam `appreviews` with `json=1` — 576 unique reviews retained with IDs, dates and upvote counts.

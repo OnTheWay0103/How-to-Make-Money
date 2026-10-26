@@ -172,7 +172,7 @@ The Oil Lamp is not a damage weapon — it is light, fire crowd-control, and the
 
 **Tactics:** use light to break up a Y'm-bhi approach — *"Light can briefly blind Y'm-bhi in darkness - unless they carry light of their own."* For the ones already carrying lamps, keep your distance instead: throwing your lamp at a creature that is about to set itself on fire does not improve your position. Essential for teams without a dedicated light-bearer.
 
-> **Removed from this section:** *"one throw within 2m kills an entire Leech Swarm"* and *"Fire barriers stop enemy pursuit for 4–5 seconds."* `Leech Swarm` returns **0 hits** in all 39 announcements and all 576 reviews, and no source publishes a fire-duration figure.
+> **Removed from this section:** *"one throw within 2m kills an entire Leech Swarm"* and *"Fire barriers stop enemy pursuit for 4–5 seconds."* `Leech Swarm` returns **0 hits** in all 40 announcements and all 576 reviews, and no source publishes a fire-duration figure.
 
 ---
 
@@ -276,7 +276,7 @@ Only creatures the developer names by name are listed here. For everything else,
 | **Tue Tue** | Any ranged weapon | *"Kill it. A ranged weapon can bring it down before the cloud fully closes in."* But *"the Tue Tue screams again when it dies."* |
 | **Huemul** | Silent option preferred | Officially named, and its behaviour was patched — but the developer has published nothing else about it. Do not assume it is dangerous. |
 
-> **What was removed from this table:** "Y'm-bhi Sentry", "Y'm-bhi Berserker", "Y'm-bhi Priest", "Ghost Bat", "Wraith", "Giant Centipede", "The Lurker Below" and "High Priest of Cthulhu" — along with the *"50% ballistic resistance"* figures attached to the last two. All of those names return **0 hits** in the 39 official announcements and the 576-review corpus. The boss rows described enemies that do not appear anywhere, and the Crossbow's "Purifier" endgame upgrade was a drop from one of them. None of it was real.
+> **What was removed from this table:** "Y'm-bhi Sentry", "Y'm-bhi Berserker", "Y'm-bhi Priest", "Ghost Bat", "Wraith", "Giant Centipede", "The Lurker Below" and "High Priest of Cthulhu" — along with the *"50% ballistic resistance"* figures attached to the last two. All of those names return **0 hits** in the 40 official announcements and the 576-review corpus. The boss rows described enemies that do not appear anywhere, and the Crossbow's "Purifier" endgame upgrade was a drop from one of them. None of it was real.
 
 ---
 

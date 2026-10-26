@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "note": "合并记录：neonabyss2wiki 行由并发定时运行写入（四维 16 分，属 15–16 需用户确认档，确认未核验）；其余 7 行为主 Agent 手动运行的每日扩充交付。",
+  "note": "合并记录：neonabyss2wiki 行由并发定时运行写入（四维 16 分，属 15–16 需用户确认档，确认未核验）；其余 7 行为主 Agent 手动运行的每日扩充交付。 | 2026-10-26 21:00 轮追加：两站 P2 事实校准（themound 公告总数 / sephiria 神器容量口径），QA 报告 .agent/qa-p2-fixes-2026-10-26.md",
   "rows": [
     {
       "site": "neonabyss2wiki",
@@ -31,7 +31,8 @@
       "site": "sephiriawiki",
       "types": [
         "扩充",
-        "部署"
+        "部署",
+        "修正"
       ],
       "guides": [
         "wishing-fountain-capacity-guide"
@@ -39,7 +40,8 @@
       "qa": "PASS",
       "url": "https://sephiriawiki.vercel.app/guides/wishing-fountain-capacity-guide",
       "verify": "200",
-      "words": 1491
+      "words": 1491,
+      "note": "21:00 轮 P2 校准：artifacts/inscriptions/farming 三页「Artifact Slot +1」改官方口径 Wishing Fountain capacity（base 4 + Willpower），Vault Key 的 +1 保留并标 [Unconfirmed]，补 1 条 Official 来源；线上复验 PASS（\"Wishing Fountain\" ×3）"
     },
     {
       "site": "spiritvalewiki",
@@ -124,6 +126,20 @@
       "url": "https://shiftatmidnightwiki.vercel.app/guides/shop-rating-cleaning-guide",
       "verify": "200",
       "words": 1421
+    },
+    {
+      "site": "themoundwiki",
+      "types": [
+        "修正",
+        "部署"
+      ],
+      "guides": [
+        "updates-patch-notes"
+      ],
+      "qa": "PASS",
+      "url": "https://themoundwiki.vercel.app/guides/updates-patch-notes",
+      "verify": "200",
+      "note": "21:00 轮 P2 校准（上午为新页 SKIP + 1.06 校准）：官方公告 39→40（含 36→37 developer posts、Patch 1.05→1.06 表述），25 文件 85 处，ISteamNews appid 2569760 实测 40 条；线上复验 PASS（\"40 official announcements\" ×3）"
     }
   ]
 }

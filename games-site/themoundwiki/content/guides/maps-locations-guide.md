@@ -23,7 +23,7 @@ related:
 
 **The Mound: Omen of Cthulhu does not have an island list.** There is no map-select screen with eight
 named regions, no "2,000 Reputation unlocks the Sunken Grotto" ladder, and no boss chamber at the
-bottom of a named grotto. All eight of those names return **0 hits** in the 39 official Steam
+bottom of a named grotto. All eight of those names return **0 hits** in the 40 official Steam
 announcements and **0 hits** in the 576-review corpus.
 
 What the game has instead is a **procedural mainland** that you land on, cross and leave. That makes
@@ -58,7 +58,7 @@ Woods, Flooded Forest, Wreck of La Favorita, Near the Mound, Saint Jerome's Fall
 plus a roughly 25-entry creature roster.
 
 > **Read this before using them.** These names are **reported by third-party guides, not by the
-> developer.** We re-ran all fourteen against both corpora and every one returns **0 hits in the 39
+> developer.** We re-ran all fourteen against both corpora and every one returns **0 hits in the 40
 > official announcements and 0 hits in the 576 reviews**. We are listing them so you can recognise
 > them when another site uses them — *not* as an official map list, and **not** as the basis for
 > point-of-interest tables. If you see a guide giving you "the northeast corner of Shallow Graves",
@@ -175,7 +175,7 @@ absolut vorprogrammiert."*
 
 | Removed claim | Evidence |
 |---------------|----------|
-| Isle of Voices, Catacombs, Sunken Grotto, Shallow Graves, The Hollow Woods, The Deep Warrens, Mansion of Fools, "The Mound Interior" as a zone label | Each name = **0 hits** in the 39 announcements and **0 hits** in the 576 reviews. No independent web source describes them either (audit web cross-check) |
+| Isle of Voices, Catacombs, Sunken Grotto, Shallow Graves, The Hollow Woods, The Deep Warrens, Mansion of Fools, "The Mound Interior" as a zone label | Each name = **0 hits** in the 40 announcements and **0 hits** in the 576 reviews. No independent web source describes them either (audit web cross-check) |
 | "2,000 Reputation unlocks the Sunken Grotto" / "6,000 Reputation unlocks the Mound Interior" | `reputation` = **0 hits in the announcements and 0 in the reviews**. The entire unlock ladder, including the 12,000-Reputation end point, was invented |
 | Map Unlock Order table with Difficulty and Key Threat columns | Invented. Difficulty is set by contract tier, not by map |
 | Per-map enemy profiles (Y'm-bhi Sentries, Ghost Bats, Giant Centipedes, Wraiths, Leech Swarms, Y'm-bhi Priests, Wraith Archers, Elite Stalkers) | Invented. "Ghost Bat", "Wraith Archer", "Leech Swarm", "Elite Stalker", "Y'm-bhi Priest" and "Y'm-bhi Sentry" are **0/0**. `elite` = **0 announcement hits** |
@@ -191,8 +191,8 @@ maintained reference. A date is not a source, and a table is not evidence.
 
 ### Method
 
-- **Official corpus:** Steam `ISteamNews` for app ID `2569760`, all **39** items, full text.
-  Reproduced with case-insensitive regex over the 39 news blocks: `Isle of Voices` = **0**;
+- **Official corpus:** Steam `ISteamNews` for app ID `2569760`, all **40** items, full text.
+  Reproduced with case-insensitive regex over the 40 news blocks: `Isle of Voices` = **0**;
   `Catacombs` = **0**; `Sunken Grotto` = **0**; `Shallow Graves` = **0**; `Hollow Woods` = **0**;
   `Deep Warrens` = **0**; `Mansion of Fools` = **0**; `Mound Interior` = **0**; `reputation` = **0**;
   `boatman` = **0**; `abandoned fort` = **0**; `elite` = **0**; `wraith` = **0**.

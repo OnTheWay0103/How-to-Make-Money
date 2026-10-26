@@ -18,7 +18,7 @@ related:
 
 You pick up a pistol. It lands in slot 3, you want it in slot 1, and there is nothing to click. In most games that takes one drag. In *The Mound: Omen of Cthulhu* it was, for the first weeks after launch, not possible — and the developers said so themselves. This guide covers the **container**, not the contents: which weapons to carry is a [separate decision](/guides/loadout-guide).
 
-> **Sourcing.** We paged the full English Steam review pool for app `2569760` via Steam's reviews API (`json=1`) — Steam reports **2,680 English reviews** (1,873 positive / 807 negative, **30.1% negative**), de-duplicated to 2,679 — plus **all 39 official Steam announcements**. **136 reviews** mention inventory, hotbar or item-slot handling. Official quotes are verbatim.
+> **Sourcing.** We paged the full English Steam review pool for app `2569760` via Steam's reviews API (`json=1`) — Steam reports **2,680 English reviews** (1,873 positive / 807 negative, **30.1% negative**), de-duplicated to 2,679 — plus **all 40 official Steam announcements**. **136 reviews** mention inventory, hotbar or item-slot handling. Official quotes are verbatim.
 
 ---
 
@@ -81,12 +81,12 @@ Take the practical half: **when a run starts, verify what you are actually holdi
 
 ## What Has Not Been Fixed
 
-Two things are absent from all 39 announcements:
+Two things are absent from all 40 announcements:
 
 - **No general reorder.** Reordering stays tied to the wagon (PC) and the hotbar (controller). No standalone inventory screen is announced.
 - **No capacity upgrade.** No backpack, pouch or slot expansion has ever been announced, despite repeated requests in July.
 
-If inventory space is your bottleneck, the answers available are loadout discipline and the wagon — a [slot-budgeting question](/guides/loadout-guide), not an inventory-management one. (Note: the game has no weight system. `weight`, as a mechanic, returns **0 hits** across all 39 official announcements and **0** on the store page — what constrains you is slots.)
+If inventory space is your bottleneck, the answers available are loadout discipline and the wagon — a [slot-budgeting question](/guides/loadout-guide), not an inventory-management one. (Note: the game has no weight system. `weight`, as a mechanic, returns **0 hits** across all 40 official announcements and **0** on the store page — what constrains you is slots.)
 
 ## Practical Inventory Workflow
 

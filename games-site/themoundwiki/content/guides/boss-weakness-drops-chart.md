@@ -1,6 +1,6 @@
 ---
 title: "The Mound — Is There Boss Content? What the Record Shows"
-description: "The Mound: Omen of Cthulhu has no boss tier. The six named bosses this page used to list do not exist — 'boss' appears 0 times in all 39 official announcements. What the game actually escalates with: the Forest Awakens, contract tiers, and the late-game horrors, verified against the corpora."
+description: "The Mound: Omen of Cthulhu has no boss tier. The six named bosses this page used to list do not exist — 'boss' appears 0 times in all 40 official announcements. What the game actually escalates with: the Forest Awakens, contract tiers, and the late-game horrors, verified against the corpora."
 category: "Guides"
 version: "1.0"
 updated: "2026-09-17"
@@ -22,7 +22,7 @@ related:
 
 **No. The Mound: Omen of Cthulhu has no boss tier.** There is no boss arena, no boss health bar, no
 boss loot table and no named boss enemy anywhere in the game's official record. The word `boss` does
-not appear once in all **39** official Steam announcements for app ID `2569760` — not in the launch
+not appear once in all **40** official Steam announcements for app ID `2569760` — not in the launch
 post, not in any of the five patch notes, not in the creature-profile posts, not in the store-page
 copy carried in the news feed.
 
@@ -142,8 +142,8 @@ whether the reviewer means a *mechanic* or just *a big enemy*.
 
 | Removed claim | Evidence |
 |---------------|----------|
-| "All 6 Bosses" — the page's entire premise | `boss` = **0 hits** in all 39 official announcements (`\bboss`, word-boundary, case-insensitive) |
-| The Lurker Below / Drowned Baron / Pale King / Crawling King / Gilded Widow / High Priest of Cthulhu | Each name **0 hits** in the 39 announcements and **0 hits** in the 576 reviews |
+| "All 6 Bosses" — the page's entire premise | `boss` = **0 hits** in all 40 official announcements (`\bboss`, word-boundary, case-insensitive) |
+| The Lurker Below / Drowned Baron / Pale King / Crawling King / Gilded Widow / High Priest of Cthulhu | Each name **0 hits** in the 40 announcements and **0 hits** in the 576 reviews |
 | Lairs: Isle of Voices, Catacombs, Sunken Grotto, Shallow Graves, The Hollow Woods, The Deep Warrens, Mansion of Fools, "The Mound Interior" | Each **0/0**. They were invented for the boss chart and recycled into the maps guide |
 | Drop items (Baron's Seal, Drowned Idol, Pale Crown, Veil Shard, King's Mandible, Chitin Plate, Widow's Thread, Gold Silk, Grotto Key, Stone Tablet, Obsidian Seal, The Purifier, Mask of Dagon) | **0/0 each** |
 | "800 Reputation" / "3,000 Reputation" boss rewards | `reputation` = **0 hits in the announcements and 0 in the reviews**. There is no Reputation system |
@@ -156,8 +156,8 @@ table the appearance of a dated, maintained reference. A date is not a source.
 
 ### Method
 
-- **Official corpus:** Steam `ISteamNews` for app ID `2569760`, all **39** items, full text.
-  Reproduced for this page with a case-insensitive, word-boundary regex over the 39 news blocks:
+- **Official corpus:** Steam `ISteamNews` for app ID `2569760`, all **40** items, full text.
+  Reproduced for this page with a case-insensitive, word-boundary regex over the 40 news blocks:
   `\bboss` = **0**; `reputation` = **0**; `Isle of Voices` = **0**; `Sunken Grotto` = **0**;
   `Shallow Graves` = **0**; `Hollow Woods` = **0**; `Deep Warrens` = **0**; `Mansion of Fools` = **0**;
   `Lurker Below` = **0**; `Drowned Baron` = **0**; `Pale King` = **0**; `Crawling King` = **0**;

@@ -88,7 +88,7 @@ co-op action game has them. They are not in this one, and the evidence is unusua
   defining limitation, and post-1.02 reviews still ask for one: *"it could use something else
   like maybe a side dodge or something"*, *"some movement additions like a roll or dodge would
   be much appreciated and needed"*.
-- **No parry.** The word "parry" appears exactly once in 39 official announcements, and it
+- **No parry.** The word "parry" appears exactly once in 40 official announcements, and it
   describes **enemy** behaviour, not yours: *"They can parry melee attacks, sometimes disarming
   players."* The only player-side uses of the word in the wider corpus are requests or
   confirmations of absence — e.g. *"There is no traditional block, dodge, or parry system."*
@@ -369,14 +369,14 @@ The single most important reframe: **dying costs you the run, not the account.**
 ## Corrections (September 17, 2026)
 
 This page was audited against every official Steam announcement for *The Mound: Omen of Cthulhu*
-(39 items on app ID `2569760` — 36 developer announcements, 2 press items, 1 SteamDB feed), the
+(40 items on app ID `2569760` — 37 developer announcements, 2 press items, 1 SteamDB feed), the
 Steam store page text, and a full-text pass over the public Steam review corpus. The following
 material was **removed** because no official or community source supports it:
 
 | Removed claim | Evidence |
 |---------------|----------|
-| A player **parry**: ~200 ms timing window, 20 Sanity damage, double-damage follow-up, 2s stagger | `parry` appears **once** in 39 announcements — and it describes **enemies**: *"They can parry melee attacks, sometimes disarming players."* The only player-side uses in the review corpus are statements that it does not exist, or requests to add it |
-| A **dodge roll** with ~300 ms / ~200 ms i-frames, and "no i-frames in deep water" | `dodge` and `i-frame`: **0 hits** across all 39 announcements and the store page. Reviews either state *"There is no dodge, no parry, no mercy"* or ask for one to be added |
+| A player **parry**: ~200 ms timing window, 20 Sanity damage, double-damage follow-up, 2s stagger | `parry` appears **once** in 40 announcements — and it describes **enemies**: *"They can parry melee attacks, sometimes disarming players."* The only player-side uses in the review corpus are statements that it does not exist, or requests to add it |
+| A **dodge roll** with ~300 ms / ~200 ms i-frames, and "no i-frames in deep water" | `dodge` and `i-frame`: **0 hits** across all 40 announcements and the store page. Reviews either state *"There is no dodge, no parry, no mercy"* or ask for one to be added |
 | A **Stamina cost table** (Light 10% / Heavy 30% / Block 15% / Parry 25% / Dodge 20% / Sprint 5%) | No official source publishes any Stamina cost. Stamina itself is real — patch 1.01 says *"Slightly buffed stamina and run speed when tired"* — but every number in that table was invented |
 | A **block damage-reduction table** (Machete 60% / Matchlock 50% / Crossbow 40% / Oil Lamp 30%) and a "1s guard stance you must time" | No official source gives reduction values. The 1.02 notes give only the key bind, and the 1.03 notes add only *"a minor stun to enemies when they are blocked"* |
 | **3× enemy spawns** after the Forest Awakens, and an exact "30–35 minute" trigger | No official figure. Player timings are inconsistent; the page now reports a labelled range instead |

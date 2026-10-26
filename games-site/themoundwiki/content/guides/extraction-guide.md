@@ -235,7 +235,7 @@ Before you even think about extracting, set yourself up for success:
 
 **Official**
 - [Steam store page — app 2569760](https://store.steampowered.com/app/2569760/) — confirms the expedition loop (sign a contract, choose an area, recover fort logbooks) but does **not** describe an extraction beacon, extraction zones, a compass tool or an extraction timer.
-- [Steam announcements for app 2569760](https://store.steampowered.com/news/app/2569760) — all 39 posts through Patch 1.05 were read for this guide. None mentions a compass, a flare, a beacon, extraction-point types or an extraction countdown.
+- [Steam announcements for app 2569760](https://store.steampowered.com/news/app/2569760) — all 40 posts through Patch 1.06 were read for this guide. None mentions a compass, a flare, a beacon, extraction-point types or an extraction countdown.
 
 **Editorial**
 - [Into Indie Games — Beginner Tips & Tricks](https://intoindiegames.com/walkthrough-hub/the-mound-omen-of-cthulu-beginner-tips-tricks/) — the Boatman, the wagon's paint streak, leaving early with partial loot.
