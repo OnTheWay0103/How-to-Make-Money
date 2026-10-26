@@ -2016,3 +2016,329 @@ Loftia 排在其后。Chained Beasts 已因名字污染重、需求偏小下调�
 
 **口径提醒**：Nivalis 站内多处标注「pre-release coverage, unverified until launch」，新页 MUST 只用
 官方公告/商店页可核验的机制，操作细节无来源的标 `[Unconfirmed]`，不得为凑词数编造按键或数值。
+
+---
+
+# QA Report — 2026-10-26（QA-R3-BUILD — rekawiki + gonefishingwiki）
+
+> 追加在既有历史报告之后，**未删除/未修改任何既有内容**。
+> 依据：`docs/agents/05-岗位卡-QA审核员.md`、`docs/agents/06-Profile-QA审核员.md`、`docs/STRATEGY-内容生产.md`。
+> 输入：`keyword-results/selection-2026-10-26-round3.md` §三/§五、`reka-matrix.md`、`gonefishing-matrix.md`、`*-sources.md`、两份建站自查报告。
+> 模式：quick（建站日 + 本轮新增内容）。只报告，不修复、不改站点、不部署。
+
+## 执行摘要
+
+| 站点 | 篇数/词数（QA 实测） | P0 覆盖 | 线上 200 率 | 结论 |
+|---|---|---|---|---|
+| `rekawiki` | 7 篇 / **9,799 词**，单篇 1,237–1,602 | 7/7 = 100% | 13/13 预期路由 200（`/tier-list` 已按 30f1f16 主动下架 → 404） | **PASS**（0 🔴 / 4 🟡） |
+| `gonefishingwiki` | 7 篇 / **10,177 词**，单篇 1,237–1,633 | 8/8 = 100% | 14/14 = 100% | **PASS**（0 🔴 / 4 🟡） |
+
+**一句话结论**：两站均无编造内容、无跨站游戏名/域名污染、来源与写作规格达标、线上可用；未发现 🔴 阻断项。遗留 🟡 集中在**模板 Terms 页残留他站发行商名**（影响 3 站 + 未来新站）与**首段略超 60 词**。
+
+**词数口径**：QA 用 node 脚本自行统计（去 frontmatter / 代码块 / URL / markdown 符号 / 表格分隔行，保留表格单元格文本），与 `lint-guides.mjs` 口径不同，故数值略高于建站自报（REKA 9,290 → 9,799；GONE 9,950 → 10,177），两套口径都满足「总词数 ≥8,000、单篇 ≥1,200」。
+
+**与自查报告的差异（须记录）**：
+1. REKA 自查称 `/tier-list` 线上 200 且渲染 “The ranking is being built.”；QA 实测时该路由已在 **commit `30f1f16`（fix(reka): 下架空壳 /tier-list 页）** 被删除并重新部署，线上为 **404**，sitemap/Header 入口同步移除。自查报告该条已过期，不是缺陷。
+2. GONE 自查的开发/发行写 **GONE Studios**，分析报告 §5.1 写 **ABCT Productions**。QA 以 Steam AppDetails 为准判定：**GONE Studios 正确**（详见 GONE 第 3 项）。
+
+---
+
+# 一、rekawiki（REKA）— PASS
+
+- 线上：https://rekawiki.vercel.app
+- 目录：`rekawiki/`；7 篇攻略 + 模板静态页
+- 游戏：Steam app 1737870；1.0 发售 2026-10-26
+
+## 1. Residue 扫描 — ❌ 有残留（仅 Terms 页，模板级）
+
+| 扫描项 | 结果 | 证据 |
+|---|---|---|
+| Hugo shortcode / `{{…}}` / 模板占位符 | ✅ 0 命中 | 扫 `content/ app/ components/ lib/` |
+| 他站游戏名（Witchspire / Aincrad / Mistfall / SpiritVale / Neon Abyss / The Mound / DREADMOOR 等） | ✅ 0 命中 | 同上 |
+| 他站域名（`witchspirewiki.vercel.app` 等） | ✅ 0 命中；`vercel.app` 仅本站 `rekawiki.vercel.app`（privacy/terms/seo-config） | `rekawiki/lib/seo-config.ts:11` |
+| 旧 Adsterra / AdSense 注入 | ✅ 无注入 | `lib/adsterra-zones.ts` 两 zone 空数组；`lib/seo-config.ts:19` `googleAdsenseId: ''`，layout 条件渲染不输出脚本 |
+| **错误商标/他站发行商名** | ❌ **`Digital Vortex Entertainment`**（DREADMOOR 的发行商）出现在 Terms | `rekawiki/app/terms/page.tsx:29-30`：`(Emberstorm Entertainment / Digital Vortex Entertainment)`；根因 `templates/wiki-base/app/terms/page.tsx:29-30` 硬编码 |
+| 中文渲染内容 / `[待确认]` | ✅ 0；不确定项用 `[Unconfirmed]` | 7 篇正文 CJK=0 |
+| 中文代码注释（不渲染） | 🟢 2 处 | `rekawiki/lib/seo-config.ts:18`、`rekawiki/lib/adsterra-zones.ts:2`；仅注释，不进 HTML |
+
+> 影响面（共享模板规则）：`templates/wiki-base` 的 Terms 页把 `{{DEVELOPER}} / Digital Vortex Entertainment` 写死。当前命中 **3 站**：`rekawiki`、`gonefishingwiki`、`neonabyss2wiki`（`dreadmoorwiki` 属合法使用）。**建议主 Agent 优先修模板 + 3 站**，属非阻断 🟡。
+
+## 2. 内容抽样 — ✅ 无编造（7/7 全读）
+
+抽样比例 100%（Profile 要求 ≥30% 且最少 3 篇）：`beginner / cooking-recipes / how-to-get-flour / leshy-trial / cottage-moving / character-appearance / reka-faq` 全部逐行读过。
+
+- **具名实体**：Barzlin、Leshy、Luthi、Big Larch、Witch's Talisman、Kopnik、Trial of the Chicken、Faithful Crows、Mortar and Pestle —— 均能追到 `reka-sources.md` 的 Upcomer / Rutab / 2UpSkill / Critical Hits 条目；无「官方从无提及 + 社区 0 命中」的具名角色/系统。
+- **精确数值**：24 道配方、售价 6–12 coins、松果 20 / 投掷约 10 次、3 名伐木工、1 水果粥 + 3 普通粥、4 稻草人 —— 均来自两张独立配方表（NineWiki + Cozy Gaming Panda）或 Upcomer/Rutab 双源；页面脚注按 Official/Community/Editorial 分级。
+- **不确定项**：全文 `[Unconfirmed]` 共 31 处（FAQ 9、外观 5、面粉 5、烹饪 3、新手 3、小屋 3、Leshy 0），未把美区美元价、主机版、Steam Deck、联机 mod、蛋的稳定来源、磨粉写成事实。
+- **冲突处理**：`oven`/`stove`、第三件恩惠（破陷阱 vs 救动物）、松果数量随种子变化 —— 均以「两说并列/范围表述」呈现，未强行裁定。
+- **批量痕迹**：7 篇结构各异（步骤表 / 配方表 / FAQ / 排查清单），未见「同句式换名词」。
+
+## 3. 事实核验（对 Steam / 官方 / 媒体）
+
+| 断言 | 站点值 | 核验结果 | 来源 |
+|---|---|---|---|
+| 1.0 发售日 | 2026-10-26 | ✅ 与 Steam + 4Gamer/Famitsu 一致 | 搜索 + `reka-sources.md` A1/A2 |
+| Early Access 起始 | 2024-09-12 | ✅ | Steam |
+| 开发 / 发行 | Emberstorm Entertainment / Fireshine Games、Shochiku | ✅ | Steam + Famitsu |
+| 价格 | 国区 ¥76 → ¥49.40（-35%），Deluxe ¥91.80→¥63.18 | ✅ 算术自洽（-35% / -31%）；美区标 `[Unconfirmed]` | Steam CNY 区 |
+| 语言 | 9 种（含简中） | ✅ | Steam |
+| 平台 / 联机 | PC Windows / 单人 | ✅ 商店无 co-op 标签 | Steam |
+| 配置 | 最低 16 GB RAM、GTX 1060 6GB、10 GB | ✅ | Steam |
+| 评测数 / 好评率 | **未发布**（正确留空） | ✅ 无未核实评分断言 | — |
+
+## 4. 内容量 — ✅ 达标
+
+页型 + 词数表（QA 自数）：
+
+| 页 / 页型 | 词数 | H2 数 | 问题式 H2 | 表格 | 首段词数 |
+|---|---|---|---|---|---|
+| reka-beginner-guide / beginner | 1,602 | 11 | 有 | 有 | 54 |
+| reka-cooking-recipes / codes（顶替） | 1,439 | 8 | 有 | 有 | 61 |
+| reka-how-to-get-flour / boss-or-mechanic | 1,293 | 8 | 有 | 有 | 58 |
+| reka-leshy-trial / boss-or-mechanic | 1,507 | 10 | 有 | 有 | 60 |
+| reka-cottage-moving / boss-or-mechanic | 1,428 | 10 | 有 | 有 | 63 |
+| reka-character-appearance / boss-or-mechanic | 1,237 | 10 | 有 | 有 | 63 |
+| reka-faq / faq | 1,293 | 14 | 有 | 有 | 56 |
+| **合计** | **9,799** | — | — | — | — |
+
+- 页数 7（5–8 ✅）、总词数 9,799（≥8,000 ✅）、单篇最低 1,237（≥1,200 ✅）。
+- 页型：beginner 1、codes（recipes 顶替）1、boss-or-mechanic 4、faq 1 = **4/5**；`tier-list` 因本作无层级系统未建，符合「页型是候选池不是必建清单」。
+
+## 5. 矩阵覆盖 — ✅ P0 100%
+
+- `keyword-coverage.mjs --slug reka`：P0 7/7 = **100%**；P1 2/4 = 50%（D+30 才要求 ≥70%，建站当日不适用）；P2 1/3。
+- 未落地 P1/P2 行（`black-salt`、`house-ideas`、`eggs`、`pancakes`）保留在矩阵，未删行。
+- **矩阵外的页**：脚本报 `faq`，实为模板静态 `/faq`（本站通用页），非为矩阵外意图新造；无「为完整性建页」的 FAIL 项。
+- 说明：`reka-matrix.md` 已明确 `tier-list` 不建、`codes` 由 recipes 顶替。
+
+## 6. 来源核对 — ✅ 每页 ≥2 源且 ≥1 官方
+
+| 页 | 来源数 | Official | 独立非官方 | 备注 |
+|---|---|---|---|---|
+| beginner | 3 | 1 | 2 | ✅ |
+| cooking | 5 | 1 | 4 | 两张独立配方表交叉 |
+| flour | 3 | 1 | 2 | Critical Hits + Rutab |
+| leshy | 4 | 1 | 3 | Upcomer + Rutab + 2UpSkill |
+| cottage | 3 | 1 | 2 | 2UpSkill + Rutab |
+| appearance | 3 | 1 | 2 | Critical Hits + 2UpSkill |
+| faq | 2 | 1 | 1 | Steam + Famitsu |
+
+- 无来源数字均标 `[Unconfirmed]`；**无 `[待确认]`、正文无 CJK**。
+- 🟡 提示：配方售价/数量为社区/媒体源（非官方），页面以「verified set」+ 来源脚注呈现，未逐行标 `[Unconfirmed]`。按 Profile「≥2 独立来源可保留」可 PASS，但建议后续补一行「数值为社区整理」的口径说明。
+
+## 7. 写作规格 — ✅（首段 🟡）
+
+| 项 | 结果 |
+|---|---|
+| title 40–60 字符 | ✅ 51–55 |
+| description 140–160 字符 | ✅ 140–149 |
+| 有且仅有 1 个 H1 | ✅ 正文 H1=0，GuideLayout 渲染 1；线上抽验 1 |
+| H2 不跳级 | ✅ 无 H3 先于 H2 |
+| 首段 40–60 词 | 🟡 54/61/58/60/63/63/56 —— `cooking`(61)、`cottage`(63)、`character-appearance`(63) 略超 |
+
+## 8. 线上复验 — ✅
+
+方法：`dig @1.1.1.1 +short rekawiki.vercel.app` → `216.198.79.195`，`curl --resolve rekawiki.vercel.app:443:216.198.79.195`。
+
+| URL | 码 |
+|---|---|
+| `/` | 200 |
+| `/guides/reka-beginner-guide` | 200 |
+| `/guides/reka-character-appearance` | 200 |
+| `/guides/reka-cooking-recipes` | 200 |
+| `/guides/reka-cottage-moving` | 200 |
+| `/guides/reka-faq` | 200 |
+| `/guides/reka-how-to-get-flour` | 200 |
+| `/guides/reka-leshy-trial` | 200 |
+| `/faq` | 200 |
+| `/guides` | 200 |
+| `/sitemap.xml` | 200（13 条，已不含 `/tier-list`） |
+| `/robots.txt` | 200 |
+| `/icon.png` | 200 |
+| `/tier-list` | **404**（30f1f16 主动下架，sitemap/导航已移除，预期内） |
+
+内容级复验：`/guides/reka-cooking-recipes` 线上 HTML 含 “Black Salt”；`/faq` 线上 `<h1>` 计数 = 1。
+
+## 9. 额外关注
+
+- **空壳页 `/tier-list`**：已由 commit `30f1f16` 删除路由 + 导航 + sitemap，线上 404。**无需再决策**；若日后要覆盖 `reka tier list` 意图，建议以 **P3** 重建为「进度优先级」页（须有可辩护依据）。当前状态 = 🟢 已闭环。
+- **图标**：`rekawiki/public/icon.png` sha1 `9efef4b8…` ≠ 模板 `c71554f6…`，已差异化；线上 `/icon.png` 200。
+
+## REKA 结论清单
+
+**🔴 阻断：0**
+
+**🟡 记录项（4）**
+1. `rekawiki/app/terms/page.tsx:29-30` 残留他站发行商 `Digital Vortex Entertainment`（模板根因 `templates/wiki-base/app/terms/page.tsx:29-30`，影响 3 站 + 未来新站）。
+2. 首段 >60 词：`reka-cottage-moving.md`(63)、`reka-character-appearance.md`(63)、`reka-cooking-recipes.md`(61)（SHOULD 级）。
+3. `/faq`（静态）与 `/guides/reka-faq` 都回答 release/price/multiplayer → 潜在关键词自食（建议静态页做站点导航向、攻略页做长尾深答，或互相 canonical/内链区分）。
+4. 配方表售价/数量为社区源，建议补「社区整理」口径句（非阻断）。
+
+**🟢 通过项**：无编造；无跨站游戏名/域名污染；来源齐全；词数/页型达标；线上全通；图标已差异化；无 AdSense 注入。
+
+---
+
+# 二、gonefishingwiki（GONE Fishing）— PASS
+
+- 线上：https://gonefishingwiki.vercel.app
+- 目录：`gonefishingwiki/`；7 篇攻略 + 静态 `/faq` + `/tier-list`
+- 游戏：Steam app 3645890；1.0 发售 2026-10-20
+
+## 1. Residue 扫描 — ❌ 有残留（仅 Terms 页，模板级）
+
+| 扫描项 | 结果 | 证据 |
+|---|---|---|
+| Hugo shortcode / `{{…}}` / TODO / FIXME / lorem | ✅ 0 命中 | 扫 `content/ app/ components/ lib/` |
+| 他站游戏名（REKA / Witchspire / Aincrad / Mistfall / SpiritVale / Neon Abyss / The Mound 等） | ✅ 0 命中 | 同上 |
+| 他站域名 | ✅ 0；`vercel.app` 仅本站 `gonefishingwiki.vercel.app` | `lib/seo-config.ts:11` |
+| 旧 Adsterra / AdSense 注入 | ✅ 无注入 | zones 空数组；`googleAdsenseId: ''` |
+| **错误商标/他站发行商名** | ❌ **`Digital Vortex Entertainment`** 出现在 Terms；另有 `not affiliated with GONE Studios or GONE Studios` 重复 | `gonefishingwiki/app/terms/page.tsx:29-30`、`:23-24`；根因同模板 |
+| 中文渲染内容 / `[待确认]` | ✅ 0 | 7 篇正文 CJK=0 |
+| 中文代码注释（不渲染） | 🟢 2 处 | `lib/seo-config.ts:18`、`lib/adsterra-zones.ts:2` |
+
+> 同一模板缺陷，非本站独有；见 REKA 第 1 项影响面。
+
+## 2. 内容抽样 — ✅ 无编造（7/7 全读）
+
+抽样比例 100%：`beginner / sacrifice-quota / co-op / enemies / best-perks / lake-entity-boss / legendary-fish`。
+
+- **社区向实体**（Giant、Shy One、Big Fish Man、Anaconda、Shark、Giant Spider、Nessie）：均明确标社区 + `[Unconfirmed]`，未写成确定事实；`enemies-guide` 表头直接写“treat every entry as `[Unconfirmed]` until the developer documents it”。
+- **Perk**：只排 4/9（Sticky Hook / Fish Whisperer / Midas Touch / Tackle Box），其余 5 个明确写“not ranked because we could not verify their current names or effects”（`gone-fishing-best-perks.md:74-78`）。属**反编造正确处置**，非编造。
+- **官方数值**：Big Grill/Fish Value +50%、bait 60+、Troll 86、depth 2500/4500、Day-40 基准、Jeremy Wade +20%、Hardcore 规则 —— 与 `gonefishing.gg/faq` 逐条一致（QA 用 WebFetch 复核）。
+- **不确定项**：全文 `[Unconfirmed]` 共 22 处；配额随人数缩放、Rhizo 需 MOBY、Nessie 重量区间等均标未证实。
+- **批量痕迹**：7 篇结构分别为阶段表 / 配额路线 / 岗位分工 / 敌人逐项 / 档位表 / 分阶段 Boss / 杠杆清单，未见同句式灌水。
+
+## 3. 事实核验（对 Steam / 官方）
+
+| 断言 | 站点值 | 核验结果 |
+|---|---|---|
+| 1.0 发售日 | 2026-10-20 | ✅ Steam + 4Gamer/game-news 一致 |
+| Early Access 起始 | 2025-06-16 | ✅ |
+| **开发 / 发行** | **GONE Studios / GONE Studios** | ✅ **Steam AppDetails 现列开发者与发行商均为 GONE Studios**；ABCT Productions 仅见于 Metacritic / Razer / 4Gamer / 3DM 等第三方镜像（疑似早期/关联标签）。**结论：GONE Studios 对，分析报告 §5.1 的 ABCT Productions 过时/错误。** |
+| 价格 | ¥32.99 CNY → -33% ¥22.10 | ✅ 与美区 $9.99 → -33% $6.69 同步；算术自洽 |
+| 联机 / 平台 | 1–8 人 Online Co-op + 单人 / Windows only | ✅ |
+| 语言 | 14 种，仅英语全语音 | ✅ |
+| 成就 | **未在站内发布**（自查称 53，已主动不写） | ✅ 无未核实断言 |
+| 评测数 / 好评率 | **未发布** | ✅ 无编造评分 |
+
+## 4. 内容量 — ✅ 达标
+
+| 页 / 页型 | 词数 | H2 数 | 问题式 H2 | 表格 | 首段词数 |
+|---|---|---|---|---|---|
+| gone-fishing-beginner-guide / beginner | 1,633 | 11 | 有 | 有 | 68 |
+| gone-fishing-sacrifice-quota / boss-or-mechanic（codes 顶替） | 1,454 | 9 | 有 | 有 | 70 |
+| gone-fishing-co-op-guide / beginner | 1,390 | 9 | 有 | 有 | 73 |
+| gone-fishing-enemies-guide / boss-or-mechanic | 1,524 | 11 | 有 | 有 | 82 |
+| gone-fishing-best-perks / tier-list | 1,237 | 7 | 有 | 有 | 73 |
+| gone-fishing-lake-entity-boss / boss-or-mechanic | 1,555 | 8 | 有 | 有 | 68 |
+| gone-fishing-legendary-fish / boss-or-mechanic | 1,384 | 9 | 有 | 有 | 69 |
+| **合计** | **10,177** | — | — | — | — |
+
+- 页数 7（+2 静态页）、总词数 10,177（≥8,000 ✅）、单篇最低 1,237（≥1,200 ✅）。
+- 页型：beginner 2、boss-or-mechanic 4、tier-list 1（+静态 `/tier-list`）、faq 1；`codes` 由配额页顶替 = **5/5 覆盖**。
+
+## 5. 矩阵覆盖 — ✅ P0 100%（脚本有 1 处假阴性，已人工复核）
+
+- `keyword-coverage.mjs --slug gonefishing` 报：P0 8/8 中「已落地 7、缺 `guides/gone-fishing-legendary-fish`」，并把同页列为「矩阵外」。**人工复核：该文件确实存在**（`gonefishingwiki/content/guides/gone-fishing-legendary-fish.md`，1,384 词），线上 200，矩阵行 `guides/gone-fishing-legendary-fish` 已落地 → 脚本按目标词/前缀匹配漏判。**P0 实为 8/8 = 100%**。
+- P1：矩阵 3 行（`/tier-list`、`maps-guide`、`bait-guide`），实建 `/tier-list` 1 行 = 33%（D+30 才要求 ≥70%，建站当日不适用）。
+- 矩阵外的页：无（静态 `/faq` 已在矩阵 P0 内）。
+- 说明：矩阵刻意不设鱼种表/鱼饵表以差异化 Fandom，`legendary-fish` 走「杠杆 + 猎法」而非物种表，符合矩阵意图。
+
+## 6. 来源核对 — ✅ 每页 ≥2 源且 ≥1 官方
+
+| 页 | 来源数 | Official | 备注 |
+|---|---|---|---|
+| beginner | 4 | 2 | Steam + 官方 FAQ |
+| sacrifice-quota | 5 | 2 | 官方 FAQ + 社区 + Fandom |
+| co-op | 5 | 2 | Steam + 1.0 公告 |
+| enemies | 5 | 3 | 商店页 + 两份热修 |
+| best-perks | 4 | 1 | 官方 FAQ + Fandom + Steam 讨论 |
+| lake-entity-boss | 6 | 4 | 商店 + 1.0 公告 + 两份热修 |
+| legendary-fish | 5 | 2 | 商店 + 官方 FAQ |
+
+- 无来源数字均标 `[Unconfirmed]`；**无 `[待确认]`、正文无 CJK**。
+- 来源可达性说明已写在 `gonefishing-sources.md`（Fandom/Steam 社区本机 DNS 污染，经索引摘要读取），未隐藏。
+
+## 7. 写作规格 — ✅（首段 🟡）
+
+| 项 | 结果 |
+|---|---|
+| title 40–60 字符 | ✅ 45–54 |
+| description 140–160 字符 | ✅ 145–160 |
+| 有且仅有 1 个 H1 | ✅ 正文 H1=0 + GuideLayout 1；线上抽验 1 |
+| H2 不跳级 | ✅ |
+| 首段 40–60 词 | 🟡 **68–82 词，7/7 均超**（beginner 68 / quota 70 / co-op 73 / enemies 82 / perks 73 / boss 68 / legendary 69） |
+
+## 8. 线上复验 — ✅ 100%
+
+方法：`dig @1.1.1.1 +short gonefishingwiki.vercel.app` → `64.29.17.131`，`curl --resolve gonefishingwiki.vercel.app:443:64.29.17.131`。
+
+| URL | 码 |
+|---|---|
+| `/` | 200 |
+| `/guides/gone-fishing-beginner-guide` | 200 |
+| `/guides/gone-fishing-best-perks` | 200 |
+| `/guides/gone-fishing-co-op-guide` | 200 |
+| `/guides/gone-fishing-enemies-guide` | 200 |
+| `/guides/gone-fishing-lake-entity-boss` | 200 |
+| `/guides/gone-fishing-legendary-fish` | 200 |
+| `/guides/gone-fishing-sacrifice-quota` | 200 |
+| `/faq` | 200 |
+| `/tier-list` | 200（有实内容：Big Grill/Upgrade Priority） |
+| `/guides` | 200 |
+| `/sitemap.xml` | 200（14 条，含 `/tier-list`） |
+| `/robots.txt` | 200 |
+| `/icon.png` | 200 |
+
+内容级复验：`/tier-list` 线上含 “Big Grill” ×10 与 “Upgrade Priority”；`/faq` 线上 `<h1>` 计数 = 1。
+
+## 9. 额外关注
+
+- **5/9 Perk 未排级**：`gone-fishing-best-perks.md:74-78` 明写“无法核实另外 5 个当前名称/效果，不凭记忆列出”。这是**反编造正确处置**，非缺陷；但页 title 仍是 “Best Perks Tier List”，覆盖度只有 4/9。建议 **P3**：等有可核验的 1.0 Perk 列表后补齐，或把 title 改为「已验证 Perk 排行」以对齐内容。
+- **数值内部不一致（🟡）**：`gone-fishing-beginner-guide.md` 表格与正文写烹饪 **+33%**（`:89-92`），但紧接着 `:94` 用官方 FAQ 例子“A 50-point fish becomes 75 after cooking”（50→75 = **+50%**）。官方 FAQ 该例子确实是 +50%，community guide 是 +33%，页面把两个口径拼在一起未说明。建议改为「烹饪约 +33%（官方 FAQ 示例按 +50% 计）」或直接引用 FAQ 原例并标注口径。
+- **图标**：`gonefishingwiki/public/icon.png` sha1 `8a115ae1…` ≠ 模板 `c71554f6…`，已差异化；线上 200。
+
+## GONE 结论清单
+
+**🔴 阻断：0**
+
+**🟡 记录项（4）**
+1. `gonefishingwiki/app/terms/page.tsx:29-30` 残留 `Digital Vortex Entertainment`；`:23-24` 出现 `GONE Studios or GONE Studios` 重复（模板代入同值所致）。模板根因同 REKA。
+2. 烹饪加成口径不一致：`gone-fishing-beginner-guide.md:89-94` 正文 +33% 与示例 +50% 并存。
+3. 首段 68–82 词，7/7 超 60（SHOULD 级；摘要/精选片段抓手偏弱）。
+4. `gone-fishing-best-perks.md` 仅覆盖 4/9 Perk，title 仍称 Tier List（反编造正确，覆盖度待补）。
+
+**🟢 通过项**：无编造；无跨站污染（除 Terms 模板项）；开发/发行判定正确；来源齐全；词数/页型达标；线上 14/14 = 100%；图标已差异化；无 AdSense 注入。
+
+---
+
+# 三、主 Agent 待决策项
+
+| # | 事项 | 站点 | 级别 | 建议 |
+|---|---|---|---|---|
+| 1 | **模板 Terms 页残留 `Digital Vortex Entertainment`** | `templates/wiki-base` + rekawiki / gonefishingwiki / neonabyss2wiki | 🟡（模板级，建议优先） | 修模板 `templates/wiki-base/app/terms/page.tsx:29-30`，把 `{{DEVELOPER}} / Digital Vortex Entertainment` 改为 `{{DEVELOPER}} / {{PUBLISHER}}` 或按站配；同步修 3 站。否则未来每个新站都会带他站发行商名 |
+| 2 | GONE 烹饪 +33% vs +50% 口径 | gonefishingwiki | 🟡 | 统一表述：正文用 +33%（community）或官方 FAQ 示例 +50%，并注明口径，避免同页自相矛盾 |
+| 3 | 两站首段普遍偏长（REKA 3 篇 61–63，GONE 7/7 68–82） | 两站 | 🟡/P3 | 下一轮把首段压到 40–60 词并直答，利于摘要/精选片段 |
+| 4 | REKA `/faq` 与 `/guides/reka-faq` 同意图 | rekawiki | 🟡/P3 | 静态页偏「站点导航/购买速答」，攻略页偏长尾；补内链与差异化 H1，或后续合并 |
+| 5 | GONE 5/9 Perk 未排级 | gonefishingwiki | P3 | 等可核验 1.0 Perk 列表再补；先在 title/导语说明「仅收录已验证」，避免用户预期落差 |
+| 6 | REKA `/tier-list` 空壳页 | rekawiki | 🟢 已闭环 | commit `30f1f16` 已下架（线上 404、sitemap/导航已移除），无需再决策；若要覆盖 `reka tier list` 意图，P3 重建「优先级」页 |
+| 7 | 人工运维项（两站均未做） | 两站 | 🟡 人工 | GA4 property 未建、`googleAnalyticsId: ''`；GSC 未验证/未提交 sitemap；Dashboard 未注册；Adsterra 两位未注入（须走飞书台账 + 20:00 回填）。均属建站单明确排除项，交付主 Agent/人工 |
+| 8 | 分析报告 §5.1 开发/发行错误 | `selection-2026-10-26-round3.md:631` | 🟢 文档 | 把 `ABCT Productions` 更正为 `GONE Studios`（Steam AppDetails 2026-10-26），避免后续复用错误基准 |
+
+---
+
+## 已执行的核验命令（可复现）
+
+```
+node scripts/lint-guides.mjs rekawiki        # 7 篇全部通过
+node scripts/lint-guides.mjs gonefishingwiki # 7 篇全部通过
+node scripts/keyword-coverage.mjs --slug reka        # P0 7/7 100%
+node scripts/keyword-coverage.mjs --slug gonefishing # P0 报 7/8，人工复核实为 8/8（legendary-fish 假阴性）
+dig @1.1.1.1 +short rekawiki.vercel.app        # 216.198.79.195
+dig @1.1.1.1 +short gonefishingwiki.vercel.app # 64.29.17.131
+curl --resolve <host>:443:<ip> -o /dev/null -w '%{http_code}' https://<host><path>  # 见表
+WebFetch https://gonefishing.gg/faq            # 官方 FAQ 数值逐条比对
+WebSearch "GONE Fishing ... GONE Studios ABCT Productions" / "REKA ... release date price"
+```
+
+> 本报告只做审核记录，未修改任何站点文件、未部署、未改规则文档。线上状态均为 2026-10-26 实测；`/tier-list` 的 404 为主动下架结果，非不可达。
