@@ -2342,3 +2342,18 @@ WebSearch "GONE Fishing ... GONE Studios ABCT Productions" / "REKA ... release d
 ```
 
 > 本报告只做审核记录，未修改任何站点文件、未部署、未改规则文档。线上状态均为 2026-10-26 实测；`/tier-list` 的 404 为主动下架结果，非不可达。
+
+---
+
+# 四、主 Agent 处置记录（2026-10-26 夜）
+
+| QA 项 | 处置 | 证据 |
+|---|---|---|
+| R3-1 模板 Terms 残留 Digital Vortex | 模板改成 `{{DEVELOPER}} / {{PUBLISHER}}`；新增 `scripts/check-site-residue.mjs` 并入 `deploy-wiki-site.sh` 第 0b 步（阻断式）；两站 terms 同步修 | commit `790ebd3`；线上 `/terms` 的 "Digital Vortex" 命中 0 |
+| R3-1b 自研自发写成 "X / X" | new-site.mjs 新增 `{{RIGHTS_HOLDERS}}` / `{{DEV_PUB_PHRASE}}` 折叠；gonefishingwiki about/footer/schema/terms 四处修正；顺带修 waterparksimulatorwiki terms 的 "(CayPlay / CayPlay)" | commit `3cce2ee`；线上 /about 与 JSON-LD 均为 "developed and published by GONE Studios" |
+| R3-2 烹饪 +33% vs +50% | 改为「方向确定、倍率 [Unconfirmed]」，并列官方 FAQ 的 +50% 与社区的 +33% | commit `e2bf67d`；线上正文已含该段 |
+| R3-3 首段超长 | 14 篇全部压到 54–60 词（REKA 7 篇、GONE 7 篇），事实零丢失 | commit `e2bf67d`；`.agent/qa-build-r3-lead-fix.md`；源文件实测词数表 |
+| R3-8 ABCT Productions | 更正为 GONE Studios（Steam AppDetails 3645890） | commit `975391a` |
+| 线上复验 | 两站各 16/16 路由 200（首页/guides/faq/about/privacy/terms/sitemap/robots/icon + 7 篇攻略） | 2026-10-26 深夜实测（dig @1.1.1.1 + curl --resolve） |
+
+**仍开放（P3 / 人工）**：GONE Perk 仅覆盖 4/9（等可核验 1.0 列表）；REKA `/faq` 与 `/guides/reka-faq` 同意图需差异化或合并；两站 GA4 property / GSC 验证 / Adsterra 两位（人工表两行已建，填完 20:00 自动回填部署）。
