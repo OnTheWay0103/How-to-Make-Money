@@ -31,6 +31,10 @@ description: 🧠 主管 Agent — 每天定时运行，读取状态、调度子
   │
   ├─【最高优先级】每日内容扩充（docs/每日内容扩充计划.md）:
   │     STEP 0: 跑 `node scripts/check-uncommitted-content.mjs`，非 0 先把已部署未提交的先提交
+  │     STEP 0b: 跑 `zsh scripts/deploy-pending.sh` 消化 .agent/pending-deploys.md
+  │            （大改动如 46 站 title 修订受 100 次/日部署额度限制，必须跨日铺；
+  │             脚本按「100 − 今日已用 − 预留 15」自算上限，失败立即中止；
+  │             清单空或没余量时直接 exit 0，每轮都可以无脑跑；MUST NOT 手工挑站）
   │     名单 = `node scripts/expansion-targets.mjs --json` 的 eligible[]（唯一事实源：
   │            现取 dashboard /api/traffic 的 30 天 PV + 台账生命周期状态，
   │            条件 = PV30 > 1000 且 状态 ≠ 不再维护）
