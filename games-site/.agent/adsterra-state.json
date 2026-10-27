@@ -468,5 +468,15 @@
       "hash": "c096094ab858",
       "deployedAt": "2026-10-27T12:00:51.634Z"
     }
+  },
+  "gonefishingwiki": {
+    "global": {
+      "hash": "de589200073d",
+      "deployedAt": "2026-10-27T12:29:59.727Z"
+    },
+    "guide": {
+      "hash": "e5ccba984f12",
+      "deployedAt": "2026-10-27T12:29:59.727Z"
+    }
   }
 }
