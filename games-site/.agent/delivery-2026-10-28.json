@@ -1,6 +1,6 @@
 {
   "date": "2026-10-28",
-  "note": "每日扩充 4 站全部交付（名单 = expansion-targets.mjs --json 的 eligible[]，PV30 全部 >1000）；另有侦察/采词/选词分析三轮，无新建站（最高分 #77 Probably Stolen 16 分 < 17）。QA deep 上次 2026-10-24，未过期。";
+  "note": "每日扩充 4 站全部交付（名单 = expansion-targets.mjs --json 的 eligible[]，PV30 全部 >1000）；另有侦察/采词/选词分析三轮，无新建站（最高分 #77 Probably Stolen 16 分 < 17）。QA deep 上次 2026-10-24，未过期。",
   "rows": [
     {
       "site": "nivalisnightswiki",
