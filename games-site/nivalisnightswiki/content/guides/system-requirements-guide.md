@@ -54,7 +54,7 @@ Before you open your noodle bar, make sure your PC can run the city. Here are th
 ## Reading the Specs
 
 ### GPU — The Real Requirement
-The minimum asks for a **dedicated GPU with 6 GB VRAM**; recommended is **8 GB VRAM** (GTX 2070 or newer as a reference point). Nivalis Nights is a dense, rain-soaked city with dynamic lighting — the GPU is the component that will actually determine your experience.
+The minimum asks for a **dedicated GPU with 6 GB VRAM**; recommended is **8 GB VRAM** (GTX 2070 or newer as a reference point). Nivalis Nights is a dense, rain-soaked city with dynamic lighting — the GPU sets your ceiling in open streets and night scenes. One correction worth knowing before you buy a card: in crowded districts the frame cost is CPU-side, so a stronger GPU alone does not fix crowd FPS (see the [performance guide](/guides/performance-fps-guide) for the measurements).
 
 - **6 GB VRAM:** GTX 1660 Super/Ti, RTX 3050, RX 5600 XT-class — minimum settings territory
 - **8 GB VRAM:** RTX 2070/3060/4060, RX 6600 XT-class — the recommended baseline

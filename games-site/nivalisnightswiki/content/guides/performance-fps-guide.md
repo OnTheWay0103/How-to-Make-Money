@@ -22,6 +22,11 @@ related:
   - "day-night-cycle-guide"
 sources:
   - tier: "Official"
+    title: "May 2026 Development Update: Optimization"
+    url: "https://store.steampowered.com/news/app/1488490/view/699891910775408472"
+    date: "2026-05-30"
+    text: "Steam announcement 'May 2026 Development Update: Optimization' (2026-05-30): the city is voxel-built but not on a traditional voxel engine, so polygon counts are high and the team leans on multiple LOD levels; light probes were overhauled city-wide for memory; a 'Ghost system' separates simulated characters from visuals in three tiers — out-of-district NPCs have visuals, animations and physics stripped away and only their schedules are simulated, in-district out-of-sight NPCs keep visuals loaded but skip per-frame animation updates, and only visible NPCs are fully materialised and simulated; district transitions caused hitches because materialising a ghost loads models, animations and scripts, so 'Object Pooling' keeps a pre-loaded pool of character templates, trading slightly more memory for frame-rate stability."
+  - tier: "Official"
     title: "Nivalis Nights - Update #1"
     url: "https://store.steampowered.com/news/app/1488490/view/699903325897752826"
     date: "2026-10-01"
@@ -87,7 +92,7 @@ Resolution scaling confirms the same thing. On a Ryzen 9 9950X3D with an RTX 409
 
 Two consequences follow: a better graphics card will not rescue crowded streets, and even a Ryzen 9 9950X3D with an RTX 5090 dipped to **35 fps at 1440p** in some areas, so a CPU upgrade is not guaranteed either.
 
-The game already uses a "ghost" system that strips out-of-district NPCs and skips per-frame animation for NPCs out of sight. The crowd in front of you is fully simulated, and that is what costs.
+The game already uses a "ghost" system that strips out-of-district NPCs and skips per-frame animation for NPCs out of sight — Paper Cult's May 2026 development update describes it as three tiers (out-of-district: visuals, animations and physics stripped, schedules simulated in the background; in-district but out of sight: visuals loaded but per-frame animation updates skipped; visible: fully simulated). [Official] The crowd in front of you is fully simulated, and that is what costs.
 
 ## Diagnose your bottleneck before changing settings
 

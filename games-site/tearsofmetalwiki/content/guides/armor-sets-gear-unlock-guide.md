@@ -62,7 +62,7 @@ Tears of Metal tracks gear **per hero**, not per account — Paper Cult's launch
 |---|---|---|
 | Gear-challenge quest inside a run | One armor piece; the tier depends on the act | Player-reported only [Community] |
 | Upgraded hero shops | More stock available to buy | Official, but not armor-specific [Official] |
-| Weapon quests and Dragonstones | Weapons, not armor | Player-reported [Community] |
+| Weapon quests and Dragonstones | Weapons, Charm chests and statue discounts — no verified armor use | Player-reported [Community] |
 | Trials / Mother Stone ladder | Charms and Threat reduction, not armor | Official reward list [Official] |
 
 The gear quest is the one people mean when they ask how to unlock armor, and it is the one the game explains least.
@@ -152,7 +152,7 @@ Because the tier is set by the act, not by what you are missing. If you already 
 Yes, on completion. The piece is awarded to one of the heroes in the lobby, but the unlock is applied to every player. [Community]
 
 **Do Dragonstones give armor?**
-No. Dragonstones are tied to weapon routes; the armor path is the challenge quest. [Community]
+No source shows them doing it. Dragonstones are a shared currency spent on weapon routes, Charm chests and statue discounts; no official post or community thread describes buying armor with them, so the armor path stays the challenge quest. [Community] One related loose end: an achievement description mentions an item called "dragonstones" that could not be verified in current builds — see the [achievements guide](/guides/achievements-guide) for that caveat. [Unconfirmed]
 
 **Is the armor system different on the experimental branch?**
 The branch changes what Challenges can reward — healing, currency and passive Emblems — and adds a Cartographer item for unlocking new Challenge Rewards. [Official] No branch note mentions armor itself, so do not expect the gear quest to behave differently there. [Editorial]
