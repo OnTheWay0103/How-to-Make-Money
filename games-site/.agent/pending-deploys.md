@@ -32,3 +32,4 @@
 - waterparksimulatorwiki  # 2026-10-27 FAQ title
 - welcomeelderfieldwiki  # 2026-10-27 FAQ title
 - witchspirewiki  # 2026-10-27 FAQ title
+- gonefishingwiki  # 2026-10-27 GONE 天赋页：9 个天赋名 + 7 个官方效果
