@@ -66,6 +66,7 @@ Agent 之间不直接对话，通过**文件契约**交接：
 - **检查点**：D+30 看索引（GSC 收录 ≥ 50%）、D+60 看进词、D+90 看排名点击；**D+90 前不做止损判断**
 - **止损**：D 档 = 30 天 PV < 50 且上线 ≥ 90 天且环比 < +30% → **停止投入 + 台账标记 `不再维护`**；`不再维护` 的站 **MUST NOT 再扩词**。扩词名单**只认** `node scripts/expansion-targets.mjs --json` 的 `eligible[]`（现取 dashboard 流量 + 台账状态，条件 `PV30 > 1000 且 状态 ≠ 不再维护`），MUST NOT 用文档里的旧 PV 表或 `.agent/expand-daily.json` 的 `sites[]` 当名单（2026-10-27 教训：那轮扩了 PV30=808/695 的两站，漏了名单内两站）；写稿前 `--verify <site>` 必须 exit 0；MUST NOT 删站、下架、改代码
 - **模板**：当前只用一套 wiki 模板，**模板差异化暂不做**，等整条建站流程理通顺后再增加
+- **外链**：D+30 起，**每个合适站点每周 1 条**（合适 = PV30 ≥ 50 且上线 ≥ 30 天且状态 ≠ `不再维护`，当前 30 站）；实际可发 = **已开通平台数 × 3**（单平台单账号每周 ≤3 篇，当前只有 dev.to = 3 篇/周）；名单只认 `node scripts/backlink-queue.mjs --write` 生成的 `.agent/backlink-queue.md`（MUST NOT 凭记忆挑站），每篇 2–3 条链接只打 1 个站并指向 top 内页，发完 MUST `node scripts/link-check.mjs --write` 实测 rel；完整口径见 `docs/STRATEGY-外链建设.md`，SOP 见 `SOP-游戏攻略站上线.md` 7.9
 - **数据来源**：流量一律取 `dashboard /api/traffic`，MUST NOT 编造或估算；取不到时报"不可判定"，不许当 0
 - **挖词**：MUST 用 `node scripts/harvest-keywords.mjs --game "官方写法" --slug ... --genre ... --write`；锚定词带空格、固定 `hl=en&gl=us`、先裸词（三条实测教训见 `docs/STRATEGY-挖词与词库.md` 3.1）
 - **每条词 MUST 带来源**（`渠道:细节`，如 `google_suggest:后缀:codes`）；**有效词 ≥20** 才进建站评分，否则判「搜索需求低」
