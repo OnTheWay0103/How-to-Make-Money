@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-28",
+  "note": "每日扩充 4 站全部交付（名单 = expansion-targets.mjs --json 的 eligible[]，PV30 全部 >1000）；另有侦察/采词/选词分析三轮，无新建站（最高分 #77 Probably Stolen 16 分 < 17）。QA deep 上次 2026-10-24，未过期。";
+  "rows": [
+    {
+      "site": "nivalisnightswiki",
+      "types": ["扩充", "部署"],
+      "guides": ["cooking-recipes-rotten-food-guide"],
+      "qa": "PASS",
+      "url": "https://nivalisnightswiki.vercel.app/guides/cooking-recipes-rotten-food-guide",
+      "verify": "200",
+      "words": 1447
+    },
+    {
+      "site": "sephiriawiki",
+      "types": ["扩充", "部署"],
+      "guides": ["inventory-side-bag-guide"],
+      "qa": "PASS",
+      "url": "https://sephiriawiki.vercel.app/guides/inventory-side-bag-guide",
+      "verify": "200",
+      "words": 1294
+    },
+    {
+      "site": "waterparksimulatorwiki",
+      "types": ["扩充", "部署"],
+      "guides": ["chlorine-dirty-pool-water-guide"],
+      "qa": "PASS",
+      "url": "https://waterparksimulatorwiki.vercel.app/guides/chlorine-dirty-pool-water-guide",
+      "verify": "200",
+      "words": 1489
+    },
+    {
+      "site": "shiftatmidnightwiki",
+      "types": ["扩充", "部署"],
+      "guides": ["voice-chat-mic-setup-guide"],
+      "qa": "PASS",
+      "url": "https://shiftatmidnightwiki.vercel.app/guides/voice-chat-mic-setup-guide",
+      "verify": "200",
+      "words": 1372
+    }
+  ]
+}
