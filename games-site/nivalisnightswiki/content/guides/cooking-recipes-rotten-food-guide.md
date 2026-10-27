@@ -144,7 +144,7 @@ The Cleaner role is what actually clears it — "Cleanup storage" is a staff tas
 
 A short loop that keeps spoilage down without micromanagement:
 
-1. **Trim the menu before you expand it.** Two to five dishes is the range players report turning venues around; every extra recipe is another ingredient you must keep in stock at the right freshness.
+1. **Trim the menu before you expand it.** A short menu is the most repeated piece of player advice for venues that keep losing money — every extra recipe is another ingredient you must keep in stock and keep fresh.
 2. **Match the restock target to volume.** Lean on slow venues, Extra on rush-heavy ones — the [Manager & Restock Guide](/guides/manager-restock-guide) breaks down the four targets.
 3. **Check the menu for red recipes** once per in-game morning. Missing ingredient or missing processor, both are flagged.
 4. **Move fast-spoiling stock to refrigerated space**, and leave the normal shelves for dry goods.
