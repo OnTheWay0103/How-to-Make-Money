@@ -7,10 +7,10 @@ targetUrl: https://waterparksimulatorwiki.vercel.app/guides/hidden-content-easte
 anchorBrand: Waterpark Simulator Wiki
 anchorLongtail: where the hidden content in Waterpark Simulator is
 angle: orphan-pages
-status: draft
-devtoId:
-devtoUrl:
-publishedAt:
+status: published
+devtoId: 4931076
+devtoUrl: https://dev.to/zhaoq0103/the-page-nobody-links-to-finding-orphan-pages-in-a-small-content-site-8ka
+publishedAt: 2026-10-27T23:30:27.534Z
 ---
 
 Every "SEO checklist" article tells you to build internal links. Almost none tell you how to find out that you failed.
