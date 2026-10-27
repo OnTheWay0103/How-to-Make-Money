@@ -4,7 +4,7 @@ import JsonLd from '@/components/JsonLd';
 import FAQ from '@/components/FAQ';
 
 export const metadata: Metadata = {
-  title: 'FAQ',
+  title: 'Moonlight Peaks FAQ: Quick Answers on Release Date and Price',
   description: 'Frequently asked questions about Moonlight Peaks — release date, price, platforms, romance, marriage, potions, demo, and more.',
 };
 

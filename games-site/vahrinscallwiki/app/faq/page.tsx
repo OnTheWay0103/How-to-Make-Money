@@ -4,7 +4,7 @@ import JsonLd from '@/components/JsonLd';
 import FAQ from '@/components/FAQ';
 
 export const metadata: Metadata = {
-  title: 'FAQ',
+  title: "Vahrin's Call FAQ: Quick Answers on Release Date and Price",
   description:
     "Frequently asked questions about Vahrin's Call — pricing, platforms, classless system, builds, progression, and more.",
 };

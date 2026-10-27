@@ -4,7 +4,7 @@ import JsonLd from '@/components/JsonLd';
 import FAQ from '@/components/FAQ';
 
 export const metadata: Metadata = {
-  title: 'FAQ',
+  title: 'The Relic: First Guardian FAQ: Quick Answers for New Players',
   description: 'Frequently asked questions about The Relic: First Guardian — release date, price, weapons, runes, bosses, game length, demo, platforms, and more.',
 };
 

@@ -4,7 +4,7 @@ import JsonLd from '@/components/JsonLd';
 import FAQ from '@/components/FAQ';
 
 export const metadata: Metadata = {
-  title: 'FAQ',
+  title: 'Low-Budget Repairs FAQ: Quick Answers on Price and Platforms',
   description: 'Frequently asked questions about Low-Budget Repairs — release date, price, platforms, system requirements, demo, game length, DLC, and more.',
 };
 

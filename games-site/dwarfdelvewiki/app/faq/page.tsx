@@ -4,7 +4,7 @@ import JsonLd from '@/components/JsonLd';
 import FAQ from '@/components/FAQ';
 
 export const metadata: Metadata = {
-  title: 'FAQ',
+  title: 'Dwarf Delve FAQ: Quick Answers on Release, Price & Platforms',
   description:
     'Frequently asked questions about Dwarf Delve — release date, demo, price, platforms, gameplay, progression, and more.',
 };

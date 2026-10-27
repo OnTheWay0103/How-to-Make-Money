@@ -4,7 +4,7 @@ import JsonLd from '@/components/JsonLd';
 import FAQ from '@/components/FAQ';
 
 export const metadata: Metadata = {
-  title: 'Silver Pines FAQ — Release Date, Price, Platforms, Demo and Saving',
+  title: 'Silver Pines FAQ — Release Date, Price, Platforms',
   description:
     'Frequently asked questions about Silver Pines, the survival horror metroidvania by Wych Elm and Team17 — release date, price, platforms, the free demo, the phone-booth save system, save coins, inventory and difficulty.',
 };

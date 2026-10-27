@@ -4,7 +4,7 @@ import JsonLd from '@/components/JsonLd';
 import FAQ from '@/components/FAQ';
 
 export const metadata: Metadata = {
-  title: 'FAQ',
+  title: 'MineGeon FAQ: Quick Answers on Release, Price & Platforms',
   description: 'Frequently asked questions about MineGeon: Renegades — release date, platforms, price, co-op, classes, game length, and more.',
 };
 

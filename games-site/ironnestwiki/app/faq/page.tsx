@@ -4,7 +4,7 @@ import JsonLd from '@/components/JsonLd';
 import FAQ from '@/components/FAQ';
 
 export const metadata: Metadata = {
-  title: 'FAQ',
+  title: 'Iron Nest FAQ: Quick Answers on Release, Price & Platforms',
   description: 'Frequently asked questions about IRON NEST: Heavy Turret Simulator — release date, price, platforms, shell types, the tactical map, counter-battery fire, game length, and more.',
 };
 

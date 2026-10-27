@@ -4,7 +4,7 @@ import JsonLd from '@/components/JsonLd';
 import FAQ from '@/components/FAQ';
 
 export const metadata: Metadata = {
-  title: 'FAQ',
+  title: 'DragonSword FAQ: Quick Answers on Release, Price & Platforms',
   description: 'Frequently asked questions about DragonSword: Awakening — price, heroes, combat, co-op, familiars, platforms, and more.',
 };
 

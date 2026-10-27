@@ -4,7 +4,7 @@ import JsonLd from '@/components/JsonLd';
 import FAQ from '@/components/FAQ';
 
 export const metadata: Metadata = {
-  title: 'FAQ',
+  title: 'ReStory FAQ: Quick Answers on Price and Platforms',
   description: 'Frequently asked questions about ReStory: Chill Electronics Repairs — price, platforms, license system, devices, game length, achievements, endings and more.',
 };
 

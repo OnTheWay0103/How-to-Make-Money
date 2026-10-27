@@ -4,7 +4,7 @@ import JsonLd from '@/components/JsonLd';
 import FAQ from '@/components/FAQ';
 
 export const metadata: Metadata = {
-  title: 'FAQ',
+  title: 'Taival FAQ: Quick Answers on Release Date and Price',
   description: 'Frequently asked questions about Taival — release date, price, co-op, Henki companion, Early Access, system requirements, and more.',
 };
 

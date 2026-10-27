@@ -4,7 +4,7 @@ import JsonLd from '@/components/JsonLd';
 import FAQ from '@/components/FAQ';
 
 export const metadata: Metadata = {
-  title: 'FAQ',
+  title: 'Sovereign Tower FAQ: Quick Answers on Release Date and Price',
   description:
     'Frequently asked questions about Sovereign Tower — release date, price, platforms, knights, romance, factions, system requirements, and more.',
 };

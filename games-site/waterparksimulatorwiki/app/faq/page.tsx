@@ -4,7 +4,7 @@ import JsonLd from '@/components/JsonLd';
 import FAQ from '@/components/FAQ';
 
 export const metadata: Metadata = {
-  title: 'FAQ',
+  title: 'Waterpark Simulator FAQ: Quick Answers on the Release Date',
   description: 'Frequently asked questions about Waterpark Simulator — release date, price, platforms, multiplayer, system requirements, research points, and more.',
 };
 

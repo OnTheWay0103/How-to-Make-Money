@@ -4,7 +4,7 @@ import JsonLd from '@/components/JsonLd';
 import FAQ from '@/components/FAQ';
 
 export const metadata: Metadata = {
-  title: 'FAQ',
+  title: 'Fallen Tear: The Ascension — Frequently Asked Questions',
   description: 'Frequently asked questions about Fallen Tear: The Ascension by Winter Crew Studios / CMD Studios — release date, price, Fated Bonds, bosses, endings, game length, and more.',
 };
 

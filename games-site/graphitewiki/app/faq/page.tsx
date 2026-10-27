@@ -4,7 +4,7 @@ import JsonLd from '@/components/JsonLd';
 import FAQ from '@/components/FAQ';
 
 export const metadata: Metadata = {
-  title: 'FAQ',
+  title: 'Graphite FAQ: Quick Answers on the Release Date',
   description: 'Frequently asked questions about Graphite — heroes, Break system, timeline combat, artifacts, Tarot deck, campaign, and more.',
 };
 

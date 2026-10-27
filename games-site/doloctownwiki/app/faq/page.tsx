@@ -4,7 +4,7 @@ import JsonLd from '@/components/JsonLd';
 import FAQ from '@/components/FAQ';
 
 export const metadata: Metadata = {
-  title: 'FAQ',
+  title: 'Doloc Town FAQ: Quick Answers on Release, Price & Platforms',
   description:
     'Frequently asked questions about Doloc Town — release date, platforms, price, save system, crops, fishing, drones, and more.',
 };

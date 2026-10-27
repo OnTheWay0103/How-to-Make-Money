@@ -4,7 +4,7 @@ import JsonLd from '@/components/JsonLd';
 import FAQ from '@/components/FAQ';
 
 export const metadata: Metadata = {
-  title: 'FAQ',
+  title: 'Tears of Metal FAQ: Quick Answers on Release Date and Price',
   description: 'Frequently asked questions about Tears of Metal — Early Access, price, co-op, solo play, progression, heroes, emblems, and more.',
 };
 

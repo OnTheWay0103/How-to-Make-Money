@@ -4,7 +4,7 @@ import JsonLd from '@/components/JsonLd';
 import FAQ from '@/components/FAQ';
 
 export const metadata: Metadata = {
-  title: 'FAQ',
+  title: 'Welcome to Elderfield FAQ: Quick Answers on the Release Date',
   description: 'Frequently asked questions about Welcome to Elderfield by Chris Cote / Kwalee — release date, price, demo, platforms, difficulty modes, romance, and more.',};
 
 const FAQ_ITEMS = [

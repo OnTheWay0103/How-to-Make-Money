@@ -4,7 +4,7 @@ import JsonLd from '@/components/JsonLd';
 import FAQ from '@/components/FAQ';
 
 export const metadata: Metadata = {
-  title: 'FAQ',
+  title: 'DREADMOOR FAQ: Quick Answers on Release, Price & Platforms',
   description:
     'DREADMOOR FAQ — release date, price, platforms, single-player status, demo vs Early Access, system requirements, languages, and combat.',
 };

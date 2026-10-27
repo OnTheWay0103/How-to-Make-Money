@@ -4,7 +4,7 @@ import JsonLd from '@/components/JsonLd';
 import FAQ from '@/components/FAQ';
 
 export const metadata: Metadata = {
-  title: 'FAQ',
+  title: 'Ardent Wilds FAQ: Quick Answers on the Release Date',
   description: 'Frequently asked questions about Ardent Wilds — release date, demo, crafting, base building, skill tree, co-op multiplayer, system requirements, modding, and more.',
 };
 

@@ -4,7 +4,7 @@ import JsonLd from '@/components/JsonLd';
 import FAQ from '@/components/FAQ';
 
 export const metadata: Metadata = {
-  title: 'FAQ',
+  title: 'Beast of Reincarnation FAQ: Quick Answers for New Players',
   description: 'Frequently asked questions about Beast of Reincarnation — release date, price, platforms, combat, Koo, game length, difficulty, and more.',
 };
 

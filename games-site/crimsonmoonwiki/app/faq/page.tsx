@@ -4,7 +4,7 @@ import JsonLd from '@/components/JsonLd';
 import FAQ from '@/components/FAQ';
 
 export const metadata: Metadata = {
-  title: 'FAQ',
+  title: 'Crimson Moon FAQ: Quick Answers on Release Date and Price',
   description: 'Frequently asked questions about Crimson Moon by ProbablyMonsters — release date, price, co-op, solo, crossplay, game length, and more.',
 };
 

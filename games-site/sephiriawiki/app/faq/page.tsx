@@ -4,7 +4,7 @@ import JsonLd from '@/components/JsonLd';
 import FAQ from '@/components/FAQ';
 
 export const metadata: Metadata = {
-  title: 'FAQ',
+  title: 'Sephiria FAQ: Quick Answers on Release Date and Price',
   description: 'Frequently asked questions about Sephiria — release date, price, co-op, solo, crossplay, game length, demo, artifacts, inscriptions, and more.',
 };
 

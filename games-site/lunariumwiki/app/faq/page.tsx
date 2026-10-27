@@ -4,7 +4,7 @@ import JsonLd from '@/components/JsonLd';
 import FAQ from '@/components/FAQ';
 
 export const metadata: Metadata = {
-  title: 'FAQ',
+  title: 'Lunarium FAQ: Quick Answers on Release, Price & Platforms',
   description: 'Frequently asked questions about Lunarium — release date, price, platforms, gameplay mechanics, endings, multiplayer, and more. Honest, verified answers.',
 };
 

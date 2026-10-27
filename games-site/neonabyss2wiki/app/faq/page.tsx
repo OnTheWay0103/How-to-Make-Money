@@ -4,7 +4,7 @@ import JsonLd from '@/components/JsonLd';
 import FAQ from '@/components/FAQ';
 
 export const metadata: Metadata = {
-  title: 'FAQ',
+  title: 'Neon Abyss 2 FAQ: Quick Answers on Release Date and Price',
   description:
     'Neon Abyss 2 FAQ — release date, price, platforms, multiplayer support, achievements, languages, and the questions that come up before buying.',
 };

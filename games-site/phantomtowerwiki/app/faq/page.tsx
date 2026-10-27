@@ -4,7 +4,7 @@ import JsonLd from '@/components/JsonLd';
 import FAQ from '@/components/FAQ';
 
 export const metadata: Metadata = {
-  title: 'FAQ',
+  title: 'Phantom Tower FAQ: Quick Answers on Release Date and Price',
   description: 'Frequently asked questions about Phantom Tower — release date, price, classes, elements, gameplay, roguelike mechanics, demo, system requirements, and more.',
 };
 

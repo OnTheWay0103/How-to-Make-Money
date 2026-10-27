@@ -4,7 +4,7 @@ import JsonLd from '@/components/JsonLd';
 import FAQ from '@/components/FAQ';
 
 export const metadata: Metadata = {
-  title: 'FAQ',
+  title: 'Expeditions: Samurai FAQ: Quick Answers on the Release Date',
   description: 'Frequently asked questions about Expeditions: Samurai — release date, Early Access content, co-op, romance, stealth, village management, and more.',
 };
 

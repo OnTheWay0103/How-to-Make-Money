@@ -4,7 +4,7 @@ import JsonLd from '@/components/JsonLd';
 import FAQ from '@/components/FAQ';
 
 export const metadata: Metadata = {
-  title: 'FAQ',
+  title: 'Skills & Raids FAQ: Quick Answers on Release Date and Price',
   description: 'Frequently asked questions about Skills & Raids — release date, price, characters, extraction, combat, rarity tiers, and more.',
 };
 

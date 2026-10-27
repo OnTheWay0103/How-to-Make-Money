@@ -4,7 +4,7 @@ import JsonLd from '@/components/JsonLd';
 import FAQ from '@/components/FAQ';
 
 export const metadata: Metadata = {
-  title: 'FAQ',
+  title: 'SpiritVale FAQ: Quick Answers on the Release Date',
   description: 'Frequently asked questions about SpiritVale — pricing, classes, level caps, respecs, PvP, cards, trading, and more.',
 };
 

@@ -4,7 +4,7 @@ import JsonLd from '@/components/JsonLd';
 import FAQ from '@/components/FAQ';
 
 export const metadata: Metadata = {
-  title: 'FAQ',
+  title: 'Echoes of Aincrad FAQ: Quick Answers on the Release Date',
   description: 'Frequently asked questions about Echoes of Aincrad — release date, weapons, gameplay, Cardinal Rank, demo save transfer, and more.',
 };
 

@@ -4,7 +4,7 @@ import JsonLd from '@/components/JsonLd';
 import FAQ from '@/components/FAQ';
 
 export const metadata: Metadata = {
-  title: 'FAQ',
+  title: 'Anomaly President FAQ: Quick Answers on Price and Platforms',
   description: 'Frequently asked questions about Anomaly President by Phew Phew Games — Early Access status, price, platforms, the day/night loop, Fluffies, campaign bus, Anomaly Powers, demo, Steam Deck, and more.',
 };
 

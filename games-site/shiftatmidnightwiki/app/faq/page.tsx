@@ -4,7 +4,7 @@ import JsonLd from '@/components/JsonLd';
 import FAQ from '@/components/FAQ';
 
 export const metadata: Metadata = {
-  title: 'FAQ',
+  title: 'Shift At Midnight FAQ: Quick Answers on Price and Platforms',
   description: 'Frequently asked questions about Shift At Midnight — release date, price, co-op, solo, doppelganger detection, Game Pass, endings, system requirements, and more.',
 };
 

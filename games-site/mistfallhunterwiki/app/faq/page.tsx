@@ -4,7 +4,7 @@ import JsonLd from '@/components/JsonLd';
 import FAQ from '@/components/FAQ';
 
 export const metadata: Metadata = {
-  title: 'FAQ',
+  title: 'Mistfall Hunter FAQ: Quick Answers on the Release Date',
   description:
     'Frequently asked questions about Mistfall Hunter — release date, classes, platforms, solo play, extraction mechanics, and more.',
 };

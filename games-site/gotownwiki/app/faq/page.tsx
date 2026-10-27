@@ -4,7 +4,7 @@ import JsonLd from '@/components/JsonLd';
 import FAQ from '@/components/FAQ';
 
 export const metadata: Metadata = {
-  title: 'FAQ',
+  title: 'Go-Go Town! FAQ: Quick Answers on Release, Price & Platforms',
   description: 'Frequently asked questions about Go-Go Town! — release date, price, co-op, automation, tourists, EGO, Creative Mode, and more.',
 };
 

@@ -4,7 +4,7 @@ import JsonLd from '@/components/JsonLd';
 import FAQ from '@/components/FAQ';
 
 export const metadata: Metadata = {
-  title: 'FAQ',
+  title: 'The Mound FAQ: Quick Answers on Release Date and Price',
   description: 'Frequently asked questions about The Mound: Omen of Cthulhu — release date, price, co-op, solo, crossplay, game length, demo, and more.',
 };
 

@@ -4,7 +4,7 @@ import JsonLd from '@/components/JsonLd';
 import FAQ from '@/components/FAQ';
 
 export const metadata: Metadata = {
-  title: 'FAQ',
+  title: 'Delverium FAQ: Quick Answers on Release, Price & Platforms',
   description: 'Frequently asked questions about Delverium — release date, price, co-op, split-screen, demo, platforms, game length, and more.',
 };
 

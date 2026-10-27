@@ -4,7 +4,7 @@ import JsonLd from '@/components/JsonLd';
 import FAQ from '@/components/FAQ';
 
 export const metadata: Metadata = {
-  title: 'FAQ',
+  title: 'Nivalis Nights FAQ: Quick Answers on Release Date and Price',
   description: 'Frequently asked questions about Nivalis Nights — release date, price, platforms, system requirements, business mechanics, fishing, romance, and more.',
 };
 

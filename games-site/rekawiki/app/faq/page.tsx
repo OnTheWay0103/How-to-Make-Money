@@ -4,7 +4,7 @@ import JsonLd from '@/components/JsonLd';
 import FAQ from '@/components/FAQ';
 
 export const metadata: Metadata = {
-  title: 'FAQ',
+  title: 'REKA FAQ: Quick Answers on Release, Price & Platforms',
   description:
     'REKA FAQ — release date, price, platforms, multiplayer support, and the questions that come up before buying.',
 };

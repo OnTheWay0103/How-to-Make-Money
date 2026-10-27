@@ -4,7 +4,7 @@ import JsonLd from '@/components/JsonLd';
 import FAQ from '@/components/FAQ';
 
 export const metadata: Metadata = {
-  title: 'FAQ',
+  title: 'Echoes of Mystralia FAQ: Quick Answers on the Release Date',
   description:
     'Frequently asked questions about Echoes of Mystralia — release date, platforms, spell crafting, gameplay, progression, and more.',
 };

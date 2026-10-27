@@ -4,7 +4,7 @@ import JsonLd from '@/components/JsonLd';
 import FAQ from '@/components/FAQ';
 
 export const metadata: Metadata = {
-  title: 'FAQ',
+  title: 'BOMBANANA! FAQ: Quick Answers on Release, Price & Platforms',
   description: 'Frequently asked questions about BOMBANANA! by Lefto Studio / TARK — release date, price, roles, modules, solo play, mobile, Mac, system requirements, demo, and more.',
 };
 

@@ -4,7 +4,7 @@ import JsonLd from '@/components/JsonLd';
 import FAQ from '@/components/FAQ';
 
 export const metadata: Metadata = {
-  title: 'FAQ',
+  title: 'Cozy Game Restoration FAQ: Quick Answers on the Release Date',
   description: 'Frequently asked questions about Cozy Game Restoration — release date, price, platforms, languages, timers, Steam Deck, demo scope, crossovers and what the full game includes.',
 };
 

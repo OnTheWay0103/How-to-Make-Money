@@ -4,7 +4,7 @@ import JsonLd from '@/components/JsonLd';
 import FAQ from '@/components/FAQ';
 
 export const metadata: Metadata = {
-  title: 'FAQ',
+  title: 'Big Walk FAQ: Quick Answers on Release, Price & Platforms',
   description: 'Frequently asked questions about Big Walk — release date, price, platforms, crossplay, co-op player count, tools, game length, combat, and more.',
 };
 
