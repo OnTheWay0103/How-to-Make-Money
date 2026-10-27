@@ -63,6 +63,9 @@
 | 游戏论坛 Profile 的 website 字段（phpBB 系） | 注册 + 填 profile，不发言 | 低 | 待实测；注意注册门槛与验证码 |
 | GitHub 仓库（README 里挂站；对应 fanshifu 提到的「定期更新仓库让 Google 认出是活站」） | 每个游戏一个轻量仓库或一个矩阵仓库 | 低 | 可选，nofollow 但品牌信号强 |
 
+> 2026-10-27 实测：A 类里 **telegra.ph / rentry.co 本机不可达**；dev.to / velog.io / IndieDB /
+> gamedev.net 可达但需账号。可达性明细见 `.agent/link-building-p0.md` 第二节。
+
 ### B 类：社区与问答（价值高、风险高，只人工/半自动）
 
 | 来源 | 怎么用 | 红线 |
@@ -106,6 +109,19 @@
 - `status` ∈ `submitted / live / dead / rejected`；
 - 每 30 天复查一次，`dead` 的比例写进月度复盘；
 - 锚文本分布：品牌词 ≥60%、长尾描述 30%、精确匹配 ≤10%（避免过度优化）。
+
+### P0 实测结果（2026-10-27，详见 `.agent/link-building-p0.md`）
+
+已选 5 个起跑站（4 个 `eligible[]` + PV 最高的第 5 站）、排好锚文本、写好复查脚本
+`scripts/link-check.mjs`，并实测了 13 个候选平台。**但一条外链也没发出**，两个硬阻塞：
+
+1. **免登录平台全被网络挡住**：telegra.ph、rentry.co、itch.io、quora、medium、gamefaqs、
+   steamcommunity 本机 TCP 不通（UDP 53 被投毒且境外 TCP 被阻断，`--doh-url` 也救不回）；
+2. **能连上的都要账号**：dev.to / velog.io / gamejolt.com / IndieDB / gamedev.net 均需
+   GitHub 或 Kakao 登录（dev.to 还要 API key）。注册要邮箱验证 + 验证码，MUST NOT 由程序代注册。
+
+**所以 P0 的前置条件是「一个可用出口 + 一个平台账号」，不是「再写点脚本」。**
+在这两样到位之前，本阶段进度就该停在 0 条，`MUST NOT` 用「已写方案」冒充「已发外链」。
 
 ## 六、验收标准
 
