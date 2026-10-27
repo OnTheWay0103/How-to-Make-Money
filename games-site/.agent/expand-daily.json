@@ -1,30 +1,34 @@
 {
-  "description": "每日内容扩充跟踪（docs/每日内容扩充计划.md）— 所有 PV>1000 的重点站每站每天 1 篇，无轮换",
+  "description": "每日内容扩充跟踪（docs/每日内容扩充计划.md）—— 名单由 scripts/expansion-targets.mjs --apply 生成，MUST NOT 手改 sites 数组",
   "mechanism": "daily-per-site",
   "ruleUpdated": "2026-09-02",
-  "pvSnapshotDate": "2026-10-26",
+  "pvSnapshotDate": "2026-10-27",
   "sites": [
     {
       "site": "nivalisnightswiki",
-      "pv": 2413,
+      "pv": 2416,
+      "lifeStatus": "加码",
       "lastExpanded": "2026-10-27",
       "lastProduced": "performance-fps-guide (1,489w)"
     },
     {
       "site": "sephiriawiki",
-      "pv": 1201,
+      "pv": 1206,
+      "lifeStatus": "加码",
       "lastExpanded": "2026-10-26",
       "lastProduced": "wishing-fountain-capacity-guide (1,491w)"
     },
     {
       "site": "waterparksimulatorwiki",
-      "pv": 1201,
+      "pv": 1166,
+      "lifeStatus": "加码",
       "lastExpanded": "2026-10-27",
       "lastProduced": "mafia-loan-guide (1,362w)"
     },
     {
       "site": "shiftatmidnightwiki",
-      "pv": 1133,
+      "pv": 1103,
+      "lifeStatus": "加码",
       "lastExpanded": "2026-10-26",
       "lastProduced": "shop-rating-cleaning-guide (1,421w)"
     }
@@ -191,31 +195,31 @@
       "reason": "定时任务 2026-09-17 后因 API 余额不足（402）停跑；2026-10-23 恢复调度并执行一次全站补更。"
     }
   ],
-  "pvSource": "dashboard /api/traffic，窗口 2026-09-26 → 2026-10-26（30 天 pageViews）",
+  "pvSource": "dashboard /api/traffic，窗口 最近 30 天（GA4 30daysAgo → today）",
   "watchlist": [
     {
       "site": "themoundwiki",
-      "pv": 805,
+      "pv": 810,
       "lastExpanded": "2026-10-24",
       "note": "2026-10-26 复核跌破 1000 移出每日名单；当日新页 SKIP（无 ≥3 独立玩家来源选题），改做 1.06 补丁校准"
     },
     {
       "site": "spiritvalewiki",
-      "pv": 802,
+      "pv": 808,
       "lastExpanded": "2026-10-27",
       "lastProduced": "party-exp-and-loot-sharing-guide (1,335w)",
       "note": "已产出后跌破 1000，下次复核过线自动回归"
     },
     {
       "site": "tearsofmetalwiki",
-      "pv": 712,
+      "pv": 695,
       "lastExpanded": "2026-10-27",
       "lastProduced": "armor-sets-gear-unlock-guide (1,396w)",
       "note": "已产出后跌破 1000，下次复核过线自动回归"
     },
     {
       "site": "grainrotwiki",
-      "pv": 246,
+      "pv": 224,
       "lastExpanded": "2026-10-26",
       "lastProduced": "save-files-and-coop-progress-guide (1,500w)",
       "note": "已产出后跌破 1000，下次复核过线自动回归"
@@ -228,8 +232,16 @@
       "produced": 4,
       "skipped": 0,
       "note": "实产 4 篇：nivalisnightswiki / spiritvalewiki / tearsofmetalwiki / waterparksimulatorwiki 各 +1。**两处偏差如实记录**：①spiritvale(802) 与 tearsofmetal(712) 的 30 天 PV 已跌破 1000，按 docs/每日内容扩充计划.md 属 watchlist，不在当日名单内；本轮仍扩了这两站，未扩名单内的 sephiriawiki / shiftatmidnightwiki。②本轮部署后未 commit（扩词稿散在工作区），2026-10-27 已由主 Agent 补提交。另外本轮新建的 `scripts/expansion-targets.mjs`（台账过滤 `不再维护`）在 04:00 时尚未存在，故未生效；下一轮起由 auto-build-site.sh 提示词的显式指令保证执行。",
-      "eligible": ["nivalisnightswiki", "sephiriawiki", "waterparksimulatorwiki", "shiftatmidnightwiki"],
-      "retired": ["minegeonwiki", "skillsandraidswiki"]
+      "eligible": [
+        "nivalisnightswiki",
+        "sephiriawiki",
+        "waterparksimulatorwiki",
+        "shiftatmidnightwiki"
+      ],
+      "retired": [
+        "minegeonwiki",
+        "skillsandraidswiki"
+      ]
     },
     {
       "date": "2026-10-26",
@@ -239,5 +251,5 @@
       "note": "每日扩充当日 08:38–08:53 已完成：nivalis/sephiria/waterpark/shiftatmidnight 各 +1 篇；spiritvale/tearsofmetal/grainrot 各 +1 篇；themound 新页 SKIP + updates-patch-notes 补 1.06 校准。8 站全部 QA 完成、部署并线上 200（.agent/delivery-2026-10-26.json）。本轮按「每站每天 1 篇」不重复产出，改做第二轮发现 + P2 校准。PV 复核：dashboard /api/traffic（2026-09-26→2026-10-26）PV>1000 = nivalis 2413 / sephiria 1201 / waterpark 1201 / shiftatmidnight 1133；提示词里列的 themound(805)/spiritvale(802)/tearsofmetal(712)/grainrot(246) 已跌破 1000，但当日均已产出或记录 SKIP。"
     }
   ],
-  "pvCheckedAt": "2026-10-27T09:30+0800"
+  "pvCheckedAt": "2026-10-27T04:53:11.070Z"
 }

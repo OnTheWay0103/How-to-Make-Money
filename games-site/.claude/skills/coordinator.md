@@ -30,15 +30,24 @@ description: 🧠 主管 Agent — 每天定时运行，读取状态、调度子
 读取 Dashboard PV + 统计文档 + 候选池 + expand-daily.json
   │
   ├─【最高优先级】每日内容扩充（docs/每日内容扩充计划.md）:
-  │     读 .agent/expand-daily.json → 名单 = 所有 PV>1000 的重点站
-  │     → 每 1-2 站一个子 Agent 并行，逐站:
+  │     STEP 0: 跑 `node scripts/check-uncommitted-content.mjs`，非 0 先把已部署未提交的先提交
+  │     名单 = `node scripts/expansion-targets.mjs --json` 的 eligible[]（唯一事实源：
+  │            现取 dashboard /api/traffic 的 30 天 PV + 台账生命周期状态，
+  │            条件 = PV30 > 1000 且 状态 ≠ 不再维护）
+  │            MUST NOT 用 expand-daily.json 的 sites[] 或任何文档里的旧 PV 表当名单
+  │     脚本 exit 2（取不到流量/台账）→ 报「不可判定」并整轮跳过，MUST NOT 退回旧名单
+  │     → 每 1-2 站一个子 Agent 并行，逐站先 `--verify <site>` 必须 exit 0：
   │       调度 反馈Agent(quick) 采集该站游戏的真实玩家问题
   │       → 选 1 个高频+具体+未被覆盖的问题
   │       → 调度 建站Agent(expand, 1 篇/站, 问题导向)
   │       → 调度 QA Agent(quick) 审核
-  │       → 部署该站 + 更新 expand-daily.json
-  │     → 名单内每站每天各 1 篇（当前 5 站 = 每天 5 篇）
+  │       → 部署该站 + commit + 更新 expand-daily.json
+  │     → 名单内每站每天各 1 篇
   │     └─ 某站素材不足 → 记录跳过原因，次日优先补该站
+  │
+  │  教训（2026-10-27）：那轮扩了 PV30=808 的 spiritvale 和 PV30=695 的 tearsofmetal，
+  │  却漏了名单内的 sephiria / shiftatmidnight —— 名单来源过期比「多写一篇」更贵；
+  │  同轮 4 篇稿部署后没提交，在工作区躺了一天。
   │
   ├─ 候选池空? → 调度 侦察Agent 搜索新游戏
   │

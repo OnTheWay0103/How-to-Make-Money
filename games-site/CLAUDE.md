@@ -64,7 +64,7 @@ Agent 之间不直接对话，通过**文件契约**交接：
 - **台账**：每月**两张表**（2026-10-26 起）—— `站点台账(自动化)YYYY-MM`（脚本写：PV/环比/分级/攻略数）+ `站点台账(人工)YYYY-MM`（人写：GA4 ID / GSC 状态 / 三个广告位代码，填了=人工做完了）。两张表的 `站点` 列都写**裸域名**（`witchspirewiki.vercel.app`，不带 `https://` 与结尾斜杠），已无 `域名` 列；脚本用 `siteDirOf()` 反推目录名。新月份 `node scripts/roll-month-ledger.mjs --month YYYY-MM --apply` 一次建两张；脚本按 `站点台账(自动化)|(人工)YYYY-MM` 解析表名，缺表报错
 - **人工回填**：人工表的值由 `sync-ledger-manual.mjs` 每天 **20:00**（launchd `com.games-site.sync-ledger-manual`）回填进站点并部署，**只部署有改动的站**、单次上限 10 站。GSC 列纯提醒、`广告位3-todo-code` 占位，程序都不写。另有两列由程序写：`上线日`（每轮从自动化表同步，用来看某行空着是新站还是漏填）、`自动化状态`（`已完成`=GA4+两个广告位全填且全上线 / `待补填`=只填了一部分 / `待回填`=填全了但没落地 / `失败`=下轮强制重部署 / 空=还没填）
 - **检查点**：D+30 看索引（GSC 收录 ≥ 50%）、D+60 看进词、D+90 看排名点击；**D+90 前不做止损判断**
-- **止损**：D 档 = 30 天 PV < 50 且上线 ≥ 90 天且环比 < +30% → **停止投入 + 台账标记 `不再维护`**；`不再维护` 的站 **MUST NOT 再扩词**（扩词轮开工前跑 `node scripts/expansion-targets.mjs` 取可扩清单）；MUST NOT 删站、下架、改代码
+- **止损**：D 档 = 30 天 PV < 50 且上线 ≥ 90 天且环比 < +30% → **停止投入 + 台账标记 `不再维护`**；`不再维护` 的站 **MUST NOT 再扩词**。扩词名单**只认** `node scripts/expansion-targets.mjs --json` 的 `eligible[]`（现取 dashboard 流量 + 台账状态，条件 `PV30 > 1000 且 状态 ≠ 不再维护`），MUST NOT 用文档里的旧 PV 表或 `.agent/expand-daily.json` 的 `sites[]` 当名单（2026-10-27 教训：那轮扩了 PV30=808/695 的两站，漏了名单内两站）；写稿前 `--verify <site>` 必须 exit 0；MUST NOT 删站、下架、改代码
 - **模板**：当前只用一套 wiki 模板，**模板差异化暂不做**，等整条建站流程理通顺后再增加
 - **数据来源**：流量一律取 `dashboard /api/traffic`，MUST NOT 编造或估算；取不到时报"不可判定"，不许当 0
 - **挖词**：MUST 用 `node scripts/harvest-keywords.mjs --game "官方写法" --slug ... --genre ... --write`；锚定词带空格、固定 `hl=en&gl=us`、先裸词（三条实测教训见 `docs/STRATEGY-挖词与词库.md` 3.1）
