@@ -7,7 +7,11 @@ import React from 'react';
  * ordered/unordered lists.
  */
 function parseMarkdown(md: string): string {
-  let html = md;
+  // 标题行（`# Title`）不在这里渲染：页面模板（GuideLayout / 首页）已经用
+  // frontmatter.title 渲染了唯一的 <h1>，再渲染一次就是重复 H1（2026-10-27 修：
+  // 48 站每篇攻略线上都是 2 个 <h1>，与「有且仅有 1 个 H1」的规范冲突）。
+  // 只去掉**首个**标题行，正文里其它 `#` 行降级为 h2，文案一个字都不丢。
+  let html = md.replace(/^\s*#\s+.*(?:\r?\n|$)/, '');
 
   // Code blocks (fenced)
   html = html.replace(/```(\w*)\n([\s\S]*?)```/g, (_match, lang, code) => {
@@ -51,7 +55,7 @@ function parseMarkdown(md: string): string {
   });
   html = html.replace(/^# (.+)$/gm, (_match: string, text: string) => {
     const id = text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
-    return `<h1 id="${id}">${text}</h1>`;
+    return `<h2 id="${id}">${text}</h2>`;
   });
 
   // Horizontal rules

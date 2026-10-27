@@ -156,6 +156,12 @@ for (const file of files) {
   if (sources.length && !hasOfficial) add('WARN', file, 'sources-tier', 'sources 里没有 Official 级来源');
   if (!sources.length && updated === TODAY) add('WARN', file, 'sources', '今天的稿件没有 sources');
 
+  // H1：每篇必须有且仅有 1 个 markdown 级 H1（页面模板渲染 frontmatter.title 作为页面 H1，
+  // 正文的第一个 `#` 行会被渲染器丢掉；多写一个就会变成正文里的第二层标题，语义混乱）
+  const h1Count = (body.match(/^# .+$/gm) || []).length;
+  if (h1Count === 0) add('WARN', file, 'h1', '正文没有 markdown H1（首行应为 `# 标题`）');
+  if (h1Count > 1) add('ERROR', file, 'h1', `正文有 ${h1Count} 个 markdown H1，只允许 1 个`);
+
   // 字数：只对今天的稿子严格，老稿只提示
   const words = countWords(body);
   if (updated === TODAY && (words < 800 || words > 1600)) {
