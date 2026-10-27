@@ -3,8 +3,9 @@
 > 对应 `docs/STRATEGY-外链建设.md` 第五节的 P0：**建台账 + 5 个 A/B 档站各 3 条手工提交**，
 > 验证「提交 → 实测 rel → 30 天存活」这条链路。
 >
-> **结论先说：P0 的「准备 + 实测」这半做完了，「提交」这半没做成，被两件事挡住（见第三节）。
-> 目前台账是 0 条 —— 不是漏做，是确实一条也发不出去。**
+> **结论先说：P0 的「准备 + 实测」这半做完了；「提交」这半最初被两件事挡住（见第三节），
+> 当天晚间已打通其中一条通路 —— dev.to，发出首篇文章并实测到 2 条 dofollow 外链（第四节）。
+> 其余平台仍然卡在原处。**
 
 ---
 
@@ -37,7 +38,7 @@
 |---|---|---|---|---|
 | velog.io | 开发者博客（A 类） | ✅ 200 | 是（GitHub / Kakao 登录） | 可用，卡在账号 |
 | gamejolt.com | 游戏社区（B 类） | ✅ 200 | 是 | 可用，卡在账号 |
-| dev.to | 开发者博客（A 类） | ✅ 200 | 是（GitHub 登录 + API key） | 可用，卡在账号 |
+| dev.to | 开发者博客（A 类） | ✅ 200 | 是（已配 API key） | **已打通**（2026-10-27，见第四节） |
 | indiedb.com | 游戏数据库（A 类） | ⚠️ 403（Cloudflare 拦 curl） | 是 | 浏览器可打开，脚本进不去 |
 | gamedev.net | 开发者论坛（A 类） | ⚠️ 403（同上） | 是 | 同上 |
 | telegra.ph | 笔记平台（A 类） | ❌ TCP 不通（`31.13.96.193` 为投毒 IP，DoH 也取不到真 IP） | 否 | 网络不可达 |
@@ -100,11 +101,32 @@
   ```json
   {"date":"2026-10-27","site":"nivalisnightswiki","targetUrl":"https://nivalisnightswiki.vercel.app/guides/beginner-guide","sourceUrl":"https://dev.to/xxx","sourceType":"A/dev.to","rel":"dofollow","anchor":"Nivalis Nights Wiki","status":"live","recheckAt":"2026-11-26","lastSeenOk":"2026-10-27"}
   ```
-  台账现在**还不存在** —— 按设计，它是第一条链接落地的同时建立的，不预先建空文件冒充「已开工」。
+  台账已建立（2026-10-27 首条落地），现有 2 条，`status=live` / `rel=dofollow`。
 
-## 七、本次没有做的事（明确下来，避免以后误以为做过）
+## 七、状态更新：dev.to 通路已打通（2026-10-27 晚）
 
-- ❌ 没有注册任何平台账号；
-- ❌ 没有发出任何一条外链（0 条）；
-- ❌ 没有买任何目录/客座文章；
-- ✅ 做了：选站、排锚文本、13 个平台的真实可达性实测、rel 复查脚本。
+用户注册 dev.to 账号（`zhaoq0103`）并把 API key 写到 `~/.config/devto/api-key`（600，不入库）后：
+
+| 步骤 | 结果 |
+|---|---|
+| `GET /api/users/me` | ✅ 200，账号 `zhaoq0103` |
+| 创建草稿（`published:false`） | ✅ 201，id 4928661 |
+| 发布（PUT `published:true`） | ✅ 200，`published_at` 2026-10-27T13:37:22Z |
+| 线上实测 rel | ✅ **2/2 dofollow**（`rel="noopener noreferrer"`，无 nofollow/ugc/sponsored） |
+
+文章：<https://dev.to/zhaoq0103/running-48-nextjs-sites-from-one-laptop-what-the-tooling-actually-costs-3mkf>
+（4 分钟读完；内容是我们自己的工程细节，不是软文；文末 2 条链接 = 品牌锚 + 长尾锚，均指向 nivalisnightswiki）
+
+**实测结论**：dev.to 目前正文外链确实是 dofollow —— 与生财帖子里的说法一致，但现在是我们自己的数据。
+
+### 仍然没做的
+
+- ❌ velog.io / gamejolt / IndieDB / gamedev.net 仍未提交（都要账号，目前只有 dev.to）
+- ❌ 没有买任何目录/客座文章
+- ✅ 已做：选站、锚文本、13 平台可达性实测、rel 复查脚本、**首篇发布 + 2 条 dofollow 实测**
+
+### 下一步（沿用同一套流程）
+
+1. 每篇 dev.to 文章只带 2–3 条链接、锚文本按 6:3:1 分布，不在一篇里堆同一个站；
+2. 下一篇换成 sephiria / waterpark / shiftatmidnight 的题（避免同一站连发被看出是站群）；
+3. 30 天后 `node scripts/link-check.mjs --due` 复查，`live/submitted ≥ 60%` 才算这条通路可用。

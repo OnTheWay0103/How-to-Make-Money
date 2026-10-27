@@ -123,6 +123,15 @@
 **所以 P0 的前置条件是「一个可用出口 + 一个平台账号」，不是「再写点脚本」。**
 在这两样到位之前，本阶段进度就该停在 0 条，`MUST NOT` 用「已写方案」冒充「已发外链」。
 
+**更新（2026-10-27 晚）**：dev.to 已打通 —— 首篇文章发布，
+
+<https://dev.to/zhaoq0103/running-48-nextjs-sites-from-one-laptop-what-the-tooling-actually-costs-3mkf>
+
+正文 2 条链接线上实测 **dofollow**（`rel="noopener noreferrer"`），已记入
+`.agent/link-building-log.jsonl`（`status=live`，`recheckAt=2026-11-26`）。
+**dev.to 是目前唯一可用的 A 类通路**；velog / gamejolt / IndieDB / gamedev.net 仍缺账号。
+API key 位置 `~/.config/devto/api-key`（600，MUST NOT 入库）。
+
 ## 六、验收标准
 
 第一版上线后第一个月，用以下四条判断「这条链路是否值得继续投」：

@@ -52,23 +52,35 @@ function realIp(host) {
   }
 }
 
-/** 取页面 HTML；返回 { code, html }。code = 'DNS_FAIL' | 'TIMEOUT' | 数字 */
+/**
+ * 取页面 HTML；返回 { code, html }。code = 'DNS_FAIL' | 'TIMEOUT' | 数字
+ * 必须带浏览器 UA：dev.to 这类站点对空 UA / curl 默认 UA 会直接掐连接（返回 000），
+ * 那不是"链接挂了"，是反爬 —— 误判会把好链接记成死链。
+ */
+const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36';
+
 function fetchPage(url) {
   let u;
   try { u = new URL(url); } catch { return { code: 'BAD_URL', html: '' }; }
-  const ip = realIp(u.hostname);
-  if (!ip) return { code: 'DNS_FAIL', html: '' };
-  try {
-    const html = execFileSync(
-      'curl',
-      ['-sL', '-m', '25', '--resolve', `${u.hostname}:443:${ip}`, '-w', '\n%{http_code}', url],
-      { encoding: 'utf8', timeout: 30000, maxBuffer: 8 * 1024 * 1024 },
-    );
-    const idx = html.lastIndexOf('\n');
-    return { code: Number(html.slice(idx + 1)) || 0, html: html.slice(0, idx) };
-  } catch {
-    return { code: 'TIMEOUT', html: '' };
+  // 本机到境外站点是间歇性断流（同一 URL 前一次 200、后一次 000），单次失败不代表链接挂了。
+  // 取不到就重试一次，两次都取不到才报错。
+  for (let attempt = 1; attempt <= 2; attempt++) {
+    const ip = realIp(u.hostname);
+    if (!ip) return { code: 'DNS_FAIL', html: '' };
+    try {
+      const html = execFileSync(
+        'curl',
+        ['-sL', '-m', '25', '-A', UA, '--resolve', `${u.hostname}:443:${ip}`, '-w', '\n%{http_code}', url],
+        { encoding: 'utf8', timeout: 30000, maxBuffer: 8 * 1024 * 1024 },
+      );
+      const idx = html.lastIndexOf('\n');
+      const code = Number(html.slice(idx + 1)) || 0;
+      if (code) return { code, html: html.slice(0, idx) };
+    } catch {
+      /* 落到下一次重试 */
+    }
   }
+  return { code: 'TIMEOUT', html: '' };
 }
 
 /** 找出所有指向 targetUrl（忽略协议/结尾斜杠/大小写）的 <a>，返回 rel 集合 */
