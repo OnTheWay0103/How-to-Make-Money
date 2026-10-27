@@ -94,6 +94,22 @@ try {
   manualRows = new Map(); // 人工表读不到只影响「上线日」精度，标 * 回退 GA 建 property 日
 }
 
+/** 该站是否真有这一页（`/guides/x` → `<site>/content/guides/x.md`） */
+function guideExists(dir, page) {
+  const slug = page.replace(/^\/guides\//, '');
+  return fs.existsSync(path.join(ROOT, dir, 'content', 'guides', `${slug}.md`));
+}
+
+/** 兜底：该站按文件名排序的第一篇攻略 */
+function firstGuide(dir) {
+  try {
+    const files = fs.readdirSync(path.join(ROOT, dir, 'content', 'guides')).filter((f) => f.endsWith('.md')).sort();
+    return files.length ? `/guides/${files[0].replace(/\.md$/, '')}` : null;
+  } catch {
+    return null;
+  }
+}
+
 /** 台账里该站的「上次发文 / 存活条数」，来源是外链台账而不是本 md 的历史（md 可随时重生成） */
 function linkStats(site) {
   if (!fs.existsSync(LINK_LOG)) return { lastDate: null, live: 0 };
@@ -147,11 +163,16 @@ for (const [dir, t] of byDir) {
     continue;
   }
 
-  // 目标页：优先取流量 top 里的 /guides/xxx 单页（外链该推没排上的内页，不是首页）
+  // 目标页：优先取流量 top 里的 /guides/xxx 单页（外链该推没排上的内页，不是首页）,
+  // 但**必须落在本仓库内容里**：看板曾把两站映射到同一个 GA property（top 页完全相同），
+  // 直接信 topPages 会推出 404 页面。
   const raw = traffic.sites.find((s) => s.site.gaId === t.gaId) ?? {};
   const pages = (raw.topPages ?? []).map((p) => p.path ?? p.pagePath).filter(Boolean);
-  const target = pages.find((p) => /^\/guides\/[^/]+$/.test(p))
-    ?? pages.find((p) => /^\/[a-z0-9-]+$/.test(p))
+  const target = pages.map((p) => p.match(/^\/guides\/([^/]+)$/)).filter(Boolean)
+    .map((m) => `/guides/${m[1]}`)
+    .find((p) => guideExists(dir, p))
+    ?? (guideExists(dir, '/guides/beginner-guide') ? '/guides/beginner-guide' : null)
+    ?? firstGuide(dir)
     ?? '/';
 
   const stats = linkStats(dir);

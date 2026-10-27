@@ -12,7 +12,7 @@ node scripts/backlink-queue.mjs --write   # 每周一刷新（也用于发完一
 node scripts/link-check.mjs --write       # 发完立刻实测 rel，结果回写外链台账
 ```
 
-**取数**：2026-10-27T13:49:51.074Z 抓 `dashboard /api/traffic`（GA4 30 天窗口）。当前名额 **30** 站。
+**取数**：2026-10-27T14:08:47.740Z 抓 `dashboard /api/traffic`（GA4 30 天窗口）。当前名额 **30** 站。
 **排除**：18 站（PV < 50 / 未满 30 天 / 不再维护 / 上线日不明）。
 
 | # | 站点目录 | PV30 | 上线日 | 首选目标页 | 上次发文 | 存活条数 | 状态 |
@@ -22,13 +22,13 @@ node scripts/link-check.mjs --write       # 发完立刻实测 rel，结果回�
 | 3 | sephiriawiki | 1133 | 2026-07-20 | /guides/builds-guide | — | 0 | 待排 |
 | 4 | shiftatmidnightwiki | 1111 | 2026-07-29 | /guides/story-walkthrough | — | 0 | 待排 |
 | 5 | themoundwiki | 800 | 2026-07-11 | /guides/enemy-bestiary | — | 0 | 待排 |
-| 6 | spiritvalewiki | 797 | 2026-07-12 | /guides/enemy-bestiary | — | 0 | 待排 |
-| 7 | moonlightpeakswiki | 783 | 2026-07-31 | /guides/money-guide | — | 0 | 待排 |
+| 6 | spiritvalewiki | 797 | 2026-07-12 | /guides/weapons-guide | — | 0 | 待排 |
+| 7 | moonlightpeakswiki | 784 | 2026-07-31 | /guides/money-guide | — | 0 | 待排 |
 | 8 | tearsofmetalwiki | 696 | 2026-07-23 | /guides/heroes-tier-list | — | 0 | 待排 |
 | 9 | gotownwiki | 587 | 2026-08-01 | /guides/best-layout-guide | — | 0 | 待排 |
 | 10 | relicfirstguardianwiki | 381 | 2026-07-28 | /guides/weapons-guide | — | 0 | 待排 |
 | 11 | delveriumwiki | 337 | 2026-08-02 | /guides/boss-guide | — | 0 | 待排 |
-| 12 | aincradwiki | 336 | 2026-07-07 | /guides/hearth-upgrade-guide | — | 0 | 待排 |
+| 12 | aincradwiki | 336 | 2026-07-07 | /guides/beginner-guide | — | 0 | 待排 |
 | 13 | expeditionssamuraiwiki | 336 | 2026-08-01 | /guides/best-builds-guide | — | 0 | 待排 |
 | 14 | witchspirewiki | 335 | 2026-06-30 | /guides/hearth-upgrade-guide | — | 0 | 待排 |
 | 15 | ironnestwiki | 331 | 2026-08-06 | /guides/beginner-guide | — | 0 | 待排 |

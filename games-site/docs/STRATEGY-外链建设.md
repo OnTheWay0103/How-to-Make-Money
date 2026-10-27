@@ -169,6 +169,12 @@ PV < 50 的 18 站不进队列）。这 30 站上线于 2026-06-30 – 2026-08-0
 - 发完立刻 `node scripts/link-check.mjs --write`，rel 以实测为准，不认平台宣传；
 - 每站累计到 **3 条存活**才从队列里标 `达标`（与第三节「每站 ≥3 条可验证存活」一致）。
 
+**草稿池（2026-10-27 已备齐）**：30 篇草稿写在 `.agent/backlink-drafts/`，
+一篇对一个站，标题/角度/锚文本各不相同（不是同一篇改标题 —— 那是本文第四节点名的
+PBN footprint），合计约 1.44 万词；索引在 `.agent/backlink-drafts/INDEX.md`。
+发布用 `node scripts/devto-publish.mjs --site <site> --publish`，脚本会自己拦住第 4 篇/周。
+**写完不等于发完**：草稿不会自动变成外链，`MUST NOT` 把「已备稿」记成「已发布」。
+
 **队列怎么消费**：`.agent/backlink-queue.md` 按「上次发文」升序取，空白的排最前，
 同批次内 PV 高者优先。发完只需做两步 —— 在外链台账 `.agent/link-building-log.jsonl` 追加一行、
 再跑一次 `node scripts/backlink-queue.mjs --write`；`上次发文` / `存活条数` / `状态` 都是脚本
