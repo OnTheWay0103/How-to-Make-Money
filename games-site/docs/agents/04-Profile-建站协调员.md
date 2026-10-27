@@ -75,6 +75,9 @@ MUST 新增 `public/` 下任何资源后用 `git add -f` 强制暂存，并用 `
 MUST 归档证据/报告用 `.md` 而非 `.txt`（教训：`~/.gitignore_global` 含 `*.txt` 规则，9/9 验证证据 `.txt` 被静默排除，改 `.md` 后可见）
 MUST 引用某个静态资源前确认该文件真实存在（教训：`lib/seo-config.ts` 长期引用 `/icon.png` 而文件从未创建，og:image 全站 404 多轮审计未发现）
 
+MUST 在模板层修一次缺陷后把补丁同步到**全部在运营站**，并把版本核对写成可复跑的检查（教训：2026-10-27 发现 `components/ReactMarkdown.tsx` 把正文首行 `# 标题` 又渲染成第二个 `<h1>`，48 站每篇攻略线上都是 2 个 H1；源码侧检查全绿——frontmatter 与正文各只有 1 处标题——因为缺陷只在**渲染结果**里。修完后用 `grep -q` 逐站核对 48/48 都已同步，再逐站重部署并线上 `grep -o '<h1' | wc -l` 复验）
+MUST NOT 把「源码里符合规范」当成「线上符合规范」：H1 数量、canonical、sitemap 条目数这类指标 MUST 部署后对线上页面复验
+
 ## 部署规则
 
 MUST 构建零错误才部署

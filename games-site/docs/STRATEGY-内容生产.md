@@ -262,6 +262,13 @@ MUST 全部通过才允许部署：
 2. 静态检查（脚本化，缺脚本时人工核对并留证据）：
    - 每页 title 40–60 字符、description 140–160 字符
    - 每页**有且仅有 1 个 H1**，H2/H3 不跳级
+     - 口径澄清（2026-10-27）：页面 H1 由模板用 `frontmatter.title` 渲染；正文首行的
+       markdown `# 标题` 会被 `components/ReactMarkdown.tsx` 剥掉，正文里其余 `#` 行降级为 h2。
+       历史缺陷：修复前 48 站每篇攻略线上都有 2 个 `<h1>`，而所有检查只看了源码（frontmatter
+       + 正文各一处，看着各 1 个）——**门禁看不见渲染结果，就必须看线上**。判定方法：
+       `curl -s <guide-url> | grep -o '<h1' | wc -l` 必须等于 1
+     - `node scripts/lint-guides.mjs` 已加 markdown 级规则（正文 0 个 `#` → WARN，>1 个 → ERROR），
+       随 `deploy-wiki-site.sh` 第 0 步阻断
    - 除首页外页面 canonical 指向自身
    - sitemap 条目数 = 实际页面数
 3. 残留扫描（脚本化）：`node scripts/check-site-residue.mjs <site>` exit 0 —— 查 `{{UPPER_SNAKE}}` 未替换占位符 + 模板源站硬编码身份（如发行商 `Digital Vortex Entertainment`）；他站游戏名 / 域名 / Hugo shortcode / 模板文案 **0 命中**（2026-10-26 起已并入 `deploy-wiki-site.sh` 第 0b 步，阻断式）
