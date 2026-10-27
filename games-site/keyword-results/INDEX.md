@@ -1,10 +1,10 @@
 # 词库索引
 
-> 生成时间：2026-10-26 14:27 UTC
+> 生成时间：2026-10-27 23:51 UTC
 > 生成脚本：`node scripts/keyword-index.mjs` —— 不要手改本文件
 > 规则：`docs/STRATEGY-挖词与词库.md`
 
-共 **83** 份游戏词库（新格式 23，旧格式 60），已建站 **32** 站。
+共 **90** 份游戏词库（新格式 25，旧格式 65），已建站 **34** 站。
 
 > 新格式以 `slug == 站点目录名去掉 wiki` 精确匹配；旧格式只能按文件名猜，「未建站」可能有漏配。
 
@@ -15,7 +15,7 @@
 
 | 渠道 | 贡献词数 | 独占词数 |
 |---|---:|---:|
-| google_suggest | 1784 | 1784 |
+| google_suggest | 1873 | 1873 |
 
 ## 采集锚定产出
 
@@ -23,42 +23,44 @@
 
 | 锚定批次 | 贡献词数 | 独占词数 |
 |---|---:|---:|
-| 裸词 | 296 | 243 |
-| 品牌+game | 209 | 164 |
-| 探针:steam | 176 | 146 |
-| 后缀:release date | 165 | 130 |
-| 探针:ps5 | 122 | 89 |
-| 后缀:reddit | 118 | 89 |
-| 后缀:demo | 116 | 97 |
-| 后缀:price | 103 | 68 |
-| 后缀:guide | 92 | 61 |
-| 后缀:update | 83 | 61 |
-| 后缀:wiki | 82 | 63 |
+| 裸词 | 318 | 258 |
+| 品牌+game | 227 | 173 |
+| 探针:steam | 188 | 155 |
+| 后缀:release date | 173 | 134 |
+| 探针:ps5 | 124 | 90 |
+| 后缀:reddit | 122 | 91 |
+| 后缀:demo | 120 | 100 |
+| 后缀:price | 106 | 69 |
+| 后缀:guide | 102 | 69 |
+| 后缀:wiki | 87 | 66 |
+| 后缀:update | 86 | 63 |
 | 后缀:boss | 67 | 56 |
-| 后缀:multiplayer | 60 | 43 |
-| 探针:skills | 44 | 28 |
+| 后缀:multiplayer | 61 | 43 |
+| 探针:skills | 45 | 29 |
 | 后缀:characters | 43 | 39 |
-| 探针:characters | 38 | 31 |
-| 后缀:how to | 30 | 29 |
+| 探针:characters | 40 | 32 |
+| 后缀:how to | 40 | 37 |
+| 后缀:tips | 30 | 21 |
+| 后缀:codes | 30 | 18 |
 | 后缀:map | 30 | 20 |
-| 后缀:codes | 29 | 17 |
-| 后缀:tips | 26 | 19 |
 | 后缀:tier list | 25 | 19 |
+| 后缀:mods | 23 | 19 |
 | 后缀:co op | 21 | 12 |
-| 后缀:mods | 20 | 17 |
-| 后缀:money | 15 | 14 |
-| 后缀:best weapons | 15 | 8 |
+| 后缀:money | 17 | 14 |
+| 后缀:beginner guide | 15 | 5 |
 
 ## 按游戏
 
 | 游戏 | slug | 有效词 | 最后采集 | 来源 | 页型覆盖 | 站点 | 格式 |
 |---|---|---:|---|---|---|---|---|
+| Probably Stolen | probablystolen | 75 | 2026-10-28 | google_suggest:104（裸词 15、品牌+game 15、后缀:guide 10） | 2 Beginner / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
+| S.O.N.A.R. | sonar | 14 | 2026-10-28 | google_suggest:15（裸词 7、品牌+game 3、探针:steam 2） | 1 Codes / 5 FAQ / 待定 | 未建站 | new |
 | Nivalis Nights | Nivalis-Nights | 103 | 2026-10-26 | google_suggest:109（裸词 15、品牌+game 15、后缀:how to 15） | 2 Beginner / 4 核心机制/Boss / 5 FAQ / 待定 | nivalisnightswiki | new |
 | Cucina Stellata | cucinastellata | 15 | 2026-10-26 | google_suggest:15（裸词 15） | 5 FAQ / 待定 | 未建站 | new |
 | Dungeon Inn | dungeoninn | 12 | 2026-10-26 | google_suggest:14（裸词 11、探针:steam 2、后缀:guide 1） | 5 FAQ / 待定 | 未建站 | new |
 | Escape from Playtime | escapefromplaytime | 34 | 2026-10-26 | google_suggest:51（裸词 15、后缀:release date 7、品牌+game 7） | 1 Codes / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
 | Every Day We Fight | everydaywefight | 15 | 2026-10-26 | google_suggest:27（裸词 7、探针:steam 6、后缀:wiki 5） | 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
-| GONE Fishing | gonefishing | 171 | 2026-10-26 | google_suggest:187（裸词 15、探针:characters 15、品牌+game 15） | 2 Beginner / 3 Tier List / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
+| GONE Fishing | gonefishing | 171 | 2026-10-26 | google_suggest:187（裸词 15、探针:characters 15、品牌+game 15） | 2 Beginner / 3 Tier List / 4 核心机制/Boss / 5 FAQ / 待定 | gonefishingwiki | new |
 | Hellraiser Revival | hellraiserrevival | 119 | 2026-10-26 | google_suggest:131（裸词 15、后缀:demo 15、品牌+game 15） | 1 Codes / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
 | Invokyr | invokyr | 33 | 2026-10-26 | google_suggest:36（后缀:demo 12、裸词 8、探针:steam 5） | 1 Codes / 5 FAQ / 待定 | 未建站 | new |
 | Japanese Ramen Simulator | japaneseramensimulator | 16 | 2026-10-26 | google_suggest:19（裸词 15、探针:steam 2、品牌+game 1） | 5 FAQ / 待定 | 未建站 | new |
@@ -68,7 +70,7 @@
 | PAPERHEAD | paperhead | 31 | 2026-10-26 | google_suggest:55（裸词 14、品牌+game 7、后缀:release date 6） | 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
 | Permafrost | permafrost | 173 | 2026-10-26 | google_suggest:187（后缀:wiki 15、探针:ps5 15、后缀:release date 15） | 3 Tier List / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
 | Ratatan | ratatan | 144 | 2026-10-26 | google_suggest:163（后缀:reddit 15、探针:ps5 15、裸词 15） | 1 Codes / 2 Beginner / 3 Tier List / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
-| REKA | reka | 158 | 2026-10-26 | google_suggest:165（后缀:price 15、品牌+game 15、探针:steam 15） | 2 Beginner / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
+| REKA | reka | 158 | 2026-10-26 | google_suggest:165（后缀:price 15、品牌+game 15、探针:steam 15） | 2 Beginner / 4 核心机制/Boss / 5 FAQ / 待定 | rekawiki | new |
 | Stygian: Outer Gods | stygianoutergods | 42 | 2026-10-26 | google_suggest:140（裸词 15、后缀:release date 10、品牌+game 9） | 1 Codes / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
 | Tape to Tape | tapetotape | 88 | 2026-10-26 | google_suggest:94（裸词 15、品牌+game 15、探针:steam 13） | 1 Codes / 2 Beginner / 3 Tier List / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
 | TUNG | tung | 178 | 2026-10-26 | google_suggest:184（后缀:characters 15、后缀:price 15、探针:steam 15） | 1 Codes / 2 Beginner / 3 Tier List / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
@@ -125,11 +127,16 @@
 | Welcome to Elderfield | Welcome-to-Elderfield | 0 | — | — | — | 未建站 | legacy |
 | Witchspire | Witchspire-feedback | 0 | — | — | — | 未建站 | legacy |
 | Witchspire | Witchspire | 97 | — | — | — | witchspirewiki | legacy |
+| GONE Fishing | gonefishing-matrix | 0 | — | — | — | 未建站 | legacy |
+| GONE Fishing | gonefishing-sources | 0 | — | — | — | 未建站 | legacy |
 | — | lowbudgetrepairswiki-postlaunch-fix | 0 | — | — | — | 未建站 | legacy |
 | Neon Abyss 2 | neonabyss2-matrix | 0 | — | — | — | 未建站 | legacy |
 | Neon Abyss 2 | neonabyss2-sources | 0 | — | — | — | 未建站 | legacy |
 | 新词缺口扫描 | new-keywords-2026-10-23 | 0 | — | — | — | 未建站 | legacy |
+| REKA | reka-matrix | 0 | — | — | — | 未建站 | legacy |
+| REKA | reka-sources | 0 | — | — | — | 未建站 | legacy |
 | 候选分析 | selection-2026-10-26-round2 | 0 | — | — | — | 未建站 | legacy |
+| 候选分析 | selection-2026-10-26-round3 | 0 | — | — | — | 未建站 | legacy |
 | 候选分析 | selection-2026-10-26 | 0 | — | — | — | 未建站 | legacy |
 | Silver Pines / Dressmaker | silverpines-dressmaker-postlaunch-fix | 0 | — | — | — | 未建站 | legacy |
 | SILVER PINES 建站记录 | silverpineswiki-build-9-16 | 0 | — | — | — | 未建站 | legacy |
@@ -139,7 +146,7 @@
 
 ## 待处理
 
-**软问题**（旧格式，逐步随复采替换，不阻塞）：43 份
+**软问题**（旧格式，逐步随复采替换，不阻塞）：48 份
 
 - 无采集元信息头（无法自动统计）：Ardent-Wilds.md
 - 无采集元信息头（无法自动统计）：DinoBlade.md
@@ -161,4 +168,4 @@
 - 无采集元信息头（无法自动统计）：Moonlight-Peaks.md
 - 无采集元信息头（无法自动统计）：ReStory.md
 - 无采集元信息头（无法自动统计）：Sephiria-feedback.md
-- … 其余 23 份
+- … 其余 28 份

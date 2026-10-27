@@ -1,0 +1,184 @@
+{
+  "slug": "sonar",
+  "game": "S.O.N.A.R.",
+  "runs": [
+    {
+      "at": "2026-10-27T23:48:33.142Z",
+      "locale": "en",
+      "requests": 22,
+      "failures": 0,
+      "raw": 43,
+      "dedup": 39,
+      "valid": 14,
+      "variants": 0,
+      "noise": 25,
+      "noiseRate": 0.641,
+      "anchorRate": 0.359,
+      "newKeywords": 14
+    },
+    {
+      "at": "2026-10-27T23:50:26.082Z",
+      "locale": "en",
+      "requests": 22,
+      "failures": 0,
+      "raw": 43,
+      "dedup": 39,
+      "valid": 14,
+      "variants": 0,
+      "noise": 25,
+      "noiseRate": 0.641,
+      "anchorRate": 0.359,
+      "newKeywords": 0
+    }
+  ],
+  "keywords": {
+    "@sonar_game codes": {
+      "category": "Codes",
+      "pageType": "1 Codes",
+      "sources": [
+        "google_suggest:后缀:codes"
+      ],
+      "firstSeen": "2026-10-28",
+      "lastSeen": "2026-10-28",
+      "variantOf": null
+    },
+    "difference between sonar and steam room": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-28",
+      "lastSeen": "2026-10-28",
+      "variantOf": null
+    },
+    "is sonar free": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-28",
+      "lastSeen": "2026-10-28",
+      "variantOf": null
+    },
+    "s o n a r": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:price"
+      ],
+      "firstSeen": "2026-10-28",
+      "lastSeen": "2026-10-28",
+      "variantOf": null
+    },
+    "s.o.n.a.r ゲーム": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-28",
+      "lastSeen": "2026-10-28",
+      "variantOf": null
+    },
+    "s.o.n.a.r. - submarine operators": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-28",
+      "lastSeen": "2026-10-28",
+      "variantOf": null
+    },
+    "s.o.n.a.r. - 潜水艦クルー、準備不足": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-28",
+      "lastSeen": "2026-10-28",
+      "variantOf": null
+    },
+    "s.o.n.a.r. game": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-28",
+      "lastSeen": "2026-10-28",
+      "variantOf": null
+    },
+    "s.o.n.a.r. game ps5": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:品牌+game",
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-28",
+      "lastSeen": "2026-10-28",
+      "variantOf": null
+    },
+    "s.o.n.a.r. playtest": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-28",
+      "lastSeen": "2026-10-28",
+      "variantOf": null
+    },
+    "s.o.n.a.r. steam": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-28",
+      "lastSeen": "2026-10-28",
+      "variantOf": null
+    },
+    "skill sonar": {
+      "category": "Build/Class",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:探针:skills"
+      ],
+      "firstSeen": "2026-10-28",
+      "lastSeen": "2026-10-28",
+      "variantOf": null
+    },
+    "sonar benefits": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-28",
+      "lastSeen": "2026-10-28",
+      "variantOf": null
+    },
+    "sonar rules": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-28",
+      "lastSeen": "2026-10-28",
+      "variantOf": null
+    }
+  },
+  "aliases": [
+    "SONAR",
+    "Submarine Operators Not Actually Ready",
+    "潜水艦クルー、準備不足"
+  ],
+  "locale": "en",
+  "updatedAt": "2026-10-27T23:50:26.082Z"
+}
