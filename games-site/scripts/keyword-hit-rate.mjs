@@ -219,9 +219,47 @@ for (const r of rows) {
 L.push('');
 L.push('## 补页 / 改页任务（下一轮复盘轮的执行输入）');
 L.push('');
-L.push('1. **标题与首段重写候选**：上表中 `零命中` 占比 > 70% 且 PV > 300 的站，优先改现有页的 title/description，而不是继续加新页。');
-L.push('2. **内链补强**：top 页里 PV 最高的 3 个页面，应作为「枢纽页」，在同期新增攻略里主动链过去。');
-L.push('3. **待接通**：GSC query 级数据接通后，本报告应换成「词 → 展示/点击 → 落地页」三列，届时才谈得上真正的词命中率。');
+L.push('### 本轮具体三条');
+L.push('');
+// 1) 枢纽页：PV 最高的 3 个站里 PV 最高的攻略页 —— 新稿应主动链过去
+const hubs = rows
+  .filter((r) => r.topGuidePages.length)
+  .slice(0, 3)
+  .map((r) => ({ dir: r.dir, top: [...r.topGuidePages].sort((a, b) => b.views - a.views)[0] }));
+hubs.forEach((h, i) => {
+  L.push(`${i + 1}. **枢纽页**：\`${h.dir}\` 的 \`${h.top.path}\`（${h.top.views} PV）。这一站的同期新稿必须在正文里链到它。`);
+});
+L.push('');
+
+// 2) 改标题候选：零命中占比 > 70% 且 PV > 300 的站里，挑标题最短的那篇（标题信息量最可疑）
+const weak = rows
+  .filter((r) => r.guideCount >= 5 && r.pv > 300 && r.hitCount / r.guideCount < 0.3)
+  .flatMap((r) => r.zeroHitGuides.filter((g) => g.title).map((g) => ({ dir: r.dir, pv: r.pv, ...g })))
+  .sort((a, b) => a.title.length - b.title.length)
+  .slice(0, 3);
+L.push('### 改 title / 首段的三个候选');
+L.push('');
+L.push('> 选法：站点 PV > 300 且进 top10 的攻略占比 < 30%，从中挑 frontmatter.title 最短的 3 篇 ——');
+L.push('> 标题短通常意味着没写清「回答哪个具体问题」，是改页而不是加页的第一批。');
+L.push('');
+if (!weak.length) {
+  L.push('- 本轮没有满足条件的站（可能流量整体仍低）——不强行产任务，等下一轮。');
+} else {
+  weak.forEach((w, i) => {
+    L.push(`${i + 1}. \`${w.dir}/content/guides/${w.slug}.md\` — 「${w.title}」（${w.title.length} 字符，该站 PV ${(w.pv ?? 0).toLocaleString('en-US')}）`);
+  });
+}
+L.push('');
+
+// 3) 数据缺口：看板里没有数据的站，先补 GA4 再谈命中率
+L.push('### 数据缺口（先修这个，否则这几站永远「不可判定」）');
+L.push('');
+if (missingDirs.length) {
+  L.push(`- ${missingDirs.map((m) => `\`${m.dir}\`（${m.guides} 篇）`).join('、')}：看板无数据，`);
+  L.push('  多半是 GA4 property 未建或没把 Dashboard 服务账号加成读取者。补上后重跑本脚本即可纳入。');
+} else {
+  L.push('- 无：所有有攻略的站都在看板里。');
+}
 L.push('');
 L.push('---');
 L.push('');
