@@ -7,8 +7,8 @@
     {
       "site": "nivalisnightswiki",
       "pv": 2413,
-      "lastExpanded": "2026-10-26",
-      "lastProduced": "manager-restock-guide (1,474w)"
+      "lastExpanded": "2026-10-27",
+      "lastProduced": "performance-fps-guide (1,489w)"
     },
     {
       "site": "sephiriawiki",
@@ -19,8 +19,8 @@
     {
       "site": "waterparksimulatorwiki",
       "pv": 1201,
-      "lastExpanded": "2026-10-26",
-      "lastProduced": "stuck-guests-fix-guide (1,373w)"
+      "lastExpanded": "2026-10-27",
+      "lastProduced": "mafia-loan-guide (1,362w)"
     },
     {
       "site": "shiftatmidnightwiki",
@@ -202,15 +202,15 @@
     {
       "site": "spiritvalewiki",
       "pv": 802,
-      "lastExpanded": "2026-10-26",
-      "lastProduced": "empty-maps-missing-monsters-guide (1,500w)",
+      "lastExpanded": "2026-10-27",
+      "lastProduced": "party-exp-and-loot-sharing-guide (1,335w)",
       "note": "已产出后跌破 1000，下次复核过线自动回归"
     },
     {
       "site": "tearsofmetalwiki",
       "pv": 712,
-      "lastExpanded": "2026-10-26",
-      "lastProduced": "seraphic-blade-unlock-guide (1,474w)",
+      "lastExpanded": "2026-10-27",
+      "lastProduced": "armor-sets-gear-unlock-guide (1,396w)",
       "note": "已产出后跌破 1000，下次复核过线自动回归"
     },
     {
@@ -223,6 +223,15 @@
   ],
   "runLog": [
     {
+      "date": "2026-10-27",
+      "round": "04:00 CST（launchd com.games-site.auto-build-site）",
+      "produced": 4,
+      "skipped": 0,
+      "note": "实产 4 篇：nivalisnightswiki / spiritvalewiki / tearsofmetalwiki / waterparksimulatorwiki 各 +1。**两处偏差如实记录**：①spiritvale(802) 与 tearsofmetal(712) 的 30 天 PV 已跌破 1000，按 docs/每日内容扩充计划.md 属 watchlist，不在当日名单内；本轮仍扩了这两站，未扩名单内的 sephiriawiki / shiftatmidnightwiki。②本轮部署后未 commit（扩词稿散在工作区），2026-10-27 已由主 Agent 补提交。另外本轮新建的 `scripts/expansion-targets.mjs`（台账过滤 `不再维护`）在 04:00 时尚未存在，故未生效；下一轮起由 auto-build-site.sh 提示词的显式指令保证执行。",
+      "eligible": ["nivalisnightswiki", "sephiriawiki", "waterparksimulatorwiki", "shiftatmidnightwiki"],
+      "retired": ["minegeonwiki", "skillsandraidswiki"]
+    },
+    {
       "date": "2026-10-26",
       "round": "21:00 CST（launchd com.games-site.auto-build-site）",
       "produced": 0,
@@ -230,5 +239,5 @@
       "note": "每日扩充当日 08:38–08:53 已完成：nivalis/sephiria/waterpark/shiftatmidnight 各 +1 篇；spiritvale/tearsofmetal/grainrot 各 +1 篇；themound 新页 SKIP + updates-patch-notes 补 1.06 校准。8 站全部 QA 完成、部署并线上 200（.agent/delivery-2026-10-26.json）。本轮按「每站每天 1 篇」不重复产出，改做第二轮发现 + P2 校准。PV 复核：dashboard /api/traffic（2026-09-26→2026-10-26）PV>1000 = nivalis 2413 / sephiria 1201 / waterpark 1201 / shiftatmidnight 1133；提示词里列的 themound(805)/spiritvale(802)/tearsofmetal(712)/grainrot(246) 已跌破 1000，但当日均已产出或记录 SKIP。"
     }
   ],
-  "pvCheckedAt": "2026-10-26T21:05+0800"
+  "pvCheckedAt": "2026-10-27T09:30+0800"
 }

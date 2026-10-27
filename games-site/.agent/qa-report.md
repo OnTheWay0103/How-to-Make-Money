@@ -2357,3 +2357,194 @@ WebSearch "GONE Fishing ... GONE Studios ABCT Productions" / "REKA ... release d
 | 线上复验 | 两站各 16/16 路由 200（首页/guides/faq/about/privacy/terms/sitemap/robots/icon + 7 篇攻略） | 2026-10-26 深夜实测（dig @1.1.1.1 + curl --resolve） |
 
 **仍开放（P3 / 人工）**：GONE Perk 仅覆盖 4/9（等可核验 1.0 列表）；REKA `/faq` 与 `/guides/reka-faq` 同意图需差异化或合并；两站 GA4 property / GSC 验证 / Adsterra 两位（人工表两行已建，填完 20:00 自动回填部署）。
+
+---
+
+# EXPAND-2026-10-27 审核
+
+> 审核对象：04:00 自动扩词轮产出、**已部署但未入库**的 4 篇新攻略（只审这 4 篇）
+> 模式：quick（`docs/agents/05-岗位卡-QA审核员.md` + `06-Profile-QA审核员.md`）
+> 审核时间：2026-10-27；机械项（lint / title / description / 词数 / 首段 / sources 条数 / 中文）由主 Agent 已跑，本轮不重复
+
+## 执行摘要
+
+- **结果：0 🔴 / 7 🟡 / 1 篇 ✅ PASS、3 篇 ⚠️ 有条件 PASS**
+- 4 篇全部**无编造**：所有抽检的数值、名称、机制、版本号均能在「官方公告全量语料」或「frontmatter 所引第三方页面」中逐字/逐数命中
+- 无跨站残留（仅两篇 frontmatter 的 Editorial 来源自引本站 URL，属自指非污染）
+- 线上 4/4 = 200，正文与本地文件逐字一致；4 篇均在 `/guides` 索引与 `sitemap.xml` 中
+- **唯一系统性发现**：渲染后每篇攻略页有 **2 个 `<h1>`**（模板层，48 站同款），lint 不覆盖此项 → 主 Agent 的「H1×1 通过」只在 Markdown 层成立
+
+| 站点 | 文件 | 结论 | 🔴 | 🟡 |
+|---|---|---|---|---|
+| nivalisnightswiki | `content/guides/performance-fps-guide.md` | ⚠️ 有条件 PASS | 0 | 3 |
+| spiritvalewiki | `content/guides/party-exp-and-loot-sharing-guide.md` | ✅ PASS | 0 | 0 |
+| tearsofmetalwiki | `content/guides/armor-sets-gear-unlock-guide.md` | ⚠️ 有条件 PASS | 0 | 2 |
+| waterparksimulatorwiki | `content/guides/mafia-loan-guide.md` | ⚠️ 有条件 PASS | 0 | 1 |
+| （模板层） | `*/components/GuideLayout.tsx` + `ReactMarkdown.tsx` | 🟡 记录 | 0 | 1（48 站） |
+
+---
+
+## 一、核验语料与检索面（可复现）
+
+| 游戏 | Steam appid | 官方公告语料 | 拉取方式 |
+|---|---|---|---|
+| Nivalis Nights | 1488490 | **30 篇全量**（含 Update #1–#6、Small Patch 2026-10-16、May 2026 Optimization 长文） | `ISteamNews/GetNewsForApp` `maxlength=0` |
+| SpiritVale | 3767850 | **39 篇全量**（含 0.34.0 / 0.32.0 / 0.34.1 / 0.34.2） | 同上 |
+| Tears of Metal | 1913120 | **40 篇全量**（含 2026-10-21 Experimental、2026-09-24、2026-07-22 Launch） | 同上 |
+| Waterpark Simulator | 3293260 | **40 篇全量**（含 1.0 / 1.0.43 / 1.0.48 / 1.0.50 / 1.0.119） | 同上 |
+
+- `store.steampowered.com` 本机直连超时（非 vercel 污染），改走 `api.steampowered.com` 与 `store.steampowered.com/api/appdetails` + `--resolve`。
+- SpiritVale Playtest app **3918510 拉取失败**（API 无返回）；但本次涉及的 party 断言全部在**主 app 3767850 的 0.34.0 公告**中逐字命中，不影响结论。
+- 第三方页面用 WebFetch 逐条回读：`gaming-st.com`（Nivalis 数值）、`steamdeckhq.com`（Deck 评分）、`tposegaming.com` / `whisperofthehouse.com` / `thegameswatch.com` / `waterparksimulatorgame.wiki`（Mafia）、`spiritvale-wiki.wiki`（5 人上限表）。
+- 检索式示例（ToM 具名套装）：`grep -iE 'Commanding|Warmonger|Duelist'` 于 40 篇全量 → **0 命中**。
+
+---
+
+## 二、编造检测（每篇 ≥3 条原子断言）
+
+### 2.1 nivalisnightswiki / `performance-fps-guide.md`
+
+| # | 断言（行） | 声明来源 | 核对结果 |
+|---|---|---|---|
+| 1 | Update #4 新增 Crowd Density / Hybrid CPU Optimization / Pooling / Thunder Intensity / Brightness（:113-118） | Official Update #4 | ✅ 逐字命中："Crowd Density: reduce how many background characters appear"、"Hybrid CPU Optimization: …12th gen Core and newer, including Core Ultra"、"Pooling: can now be turned off" |
+| 2 | Update #5「每小时卡顿减轻，背景 NPC 分几秒到离场」+ 后期存档小 50%（:102, :144） | Official Update #5 | ✅ 命中："Reduced frame stuttering at the start of each in-game hour (background NPCs now appear and leave over a few seconds instead of all at once)"、"a 50% reduction has been observed for late-game saves" |
+| 3 | Update 6 修跨区内存泄漏 + 船灯与 Lighting Details 冲突（:145, :53） | Official Update 6 | ✅ 命中："Fixed memory leaks… Lighting, reflections and leftover objects…"、"Fixed a conflict between boat lights and the lighting details option" |
+| 4 | 主线程 18.6%（≈6 ms）等 worker；103.1→29.8 fps，9.7→33.6 ms，IK 8.5/0.6、skinning 7.1/0.2（:84） | Gaming St | ✅ 回读原文命中："18.6%（1フレームあたり約6ms）"、"29.8fps/103.1fps"、"33.6ms/9.7ms"、"8.5ms→0.6ms"、"7.1ms→0.2ms" |
+| 5 | Nivalis Unofficial Patch：动画更新距离「约 40% 更近」、需 BepInEx 6 (IL2CPP)（:170） | Gaming St | ✅ 回读原文命中："既定で40%手前に寄せる"、"BepInEx 6（IL2CPP版）"（原文另注「未测过 fps 收益」，页面也照写了这一点） |
+| 6 | Steam Deck HQ 2/5、性能 1/5、19–22 W、67–70 °C、约 2 小时（:153） | Steam Deck HQ | ✅ 回读命中：2/5、1/5、19W-22W、67C-70C、~2 hours |
+| 7 | 「游戏已有 ghost 系统，剥离区外 NPC / 视线外跳过逐帧动画」（:90） | 无（未列入 sources） | ⚠️ 内容为真（May 2026 Optimization 官方长文："Ghost system…separates simulated characters from their visual representations"），但 **frontmatter 未收录该公告** → 🟡 溯源缺口 |
+| 8 | 「ION LANDS 说发售时会逐步扩大支持硬件」（:157） | Official | ✅ 命中："won't have full support at launch… widen the range of supported hardware over time" |
+
+**结论**：无编造。🟡 2 项见第七节（另 1 项为站内矛盾）。
+
+### 2.2 spiritvalewiki / `party-exp-and-loot-sharing-guide.md`
+
+| # | 断言（行） | 声明来源 | 核对结果 |
+|---|---|---|---|
+| 1 | 0.34.0 两类设置原文（:45, :53-58） | Official 0.34.0 | ✅ 逐字命中："Fixed a lot of issues with it, how it works / was meant to work"；Each Take「No bonus」「Each person gets exp and gold based on damage dealt to the monster」；Even Share「+20% exp per party member, +10% gold and drops per party member」「Exp and gold shared evenly… across the whole map」 |
+| 2 | 「公告没有说明人数上限 / 百分比是否叠加 / Each Take 掉落归属」（:58, :20） | — | ✅ 核对 0.34.0 全文（2,872 字符）：三项确实均未出现，属于**正确的「未写」判断** |
+| 3 | 0.32.0：怪物高于角色每级 +2% EXP，上限 +30%（:91） | Official 0.32.0 | ✅ 逐字命中 |
+| 4 | 地图等级倍率 3.00/2.40/1.90/1.40/1.00，S=Dark Fortress/Dark Manor（:97） | Official 0.32.0 | ✅ 命中代码块 `S ×3.00 / A ×2.40 / B ×1.90 / C ×1.40 / D ×1.00` 与 S/A/B/C 名单 |
+| 5 | 第三方表 5 人上限、+10→+50%、掉落 +5→+20%、30 级档 ~10%（:83） | Community 第三方 | ✅ 回读 `spiritvale-wiki.wiki` 原页：5 members、+10/+25/+40/+50、+5/10/15/20、100/75/50/10%，Updated 7/19/2026 —— 与页面转述完全一致，且页面判为 `[Unconfirmed]` **判断正确** |
+| 6 | 12 人队伍、同等级不攻击者仍高 58%（:75） | Community Steam 讨论 | ⚠️ steamcommunity.com 本机不可达，无法回读；但 frontmatter 已注明「日期为抓取日、原帖日期不可见」，且正文仅作历史叙述 → 可接受 |
+
+**结论**：无编造，`[Unconfirmed]` 用了 4 处且位置恰当（人数上限 / 叠加外推 / 掉落品类 / 队伍等级差惩罚）。**唯一观察项（不计 🟡）**：:62-71 的「4 人 +80%」示例是在「假设百分比相加」下的算术，正文已自证"assuming the percentages add… That is arithmetic on the official wording, not a measured test"，处置合规，但表格本身易被单独引用，建议后续在表下补一句 `[Unconfirmed]`。
+
+### 2.3 tearsofmetalwiki / `armor-sets-gear-unlock-guide.md`
+
+| # | 断言（行） | 声明来源 | 核对结果 |
+|---|---|---|---|
+| 1 | Challenges 定义 + 「可奖励 healing/currency/passive Emblems」+ Cartographer（:72） | Official 2026-10-21 | ✅ 逐字命中："Challenges are optional multi-wave objectives you encounter during fights"、"New Challenge Rewards: Challenges can now reward healing, currency and passive Emblems"、"New Cartographer Item in Village: You can unlock new Challenge Rewards" |
+| 2 | 三名英雄、专属 gear（:59） | Official 2026-07-22 | ✅ 逐字命中："Three playable Heroes, with unique gear, synergies and playstyles." |
+| 3 | 商店可升级 + 「unlocking stuff was kind of a grind and too slow」+「much more frequently than before」（:121） | Official 2026-09-24 | ✅ 两段逐字命中 |
+| 4 | **Commanding / Warmonger / Duelist 三档 + Act 1/2/3 映射**（:53, :84-92） | Community 单帖 | ⚠️ 官方 40 篇全量 **0 命中**（检索式见第一节），**仅 1 个社区帖**支撑 → 按 Profile「官方 0 + 社区仅 1 源 → 标 `[Unconfirmed]`」应加标；现仅标 `[Community]` → 🟡 |
+| 5 | Dragonstones 走武器线、不给护甲（:65, :155） | Community | ⚠️ 部分成立：官方语料中 Dragonstone 确实用于买武器（"Wallace's Flamberge sword now cost 3 Dragonstones"），**但也用于 Charm 宝箱与雕像折扣**；且本站 `achievements-guide.md:149,317` 明写 "dragonstones … could not verify in current builds" → 🟡 表述过窄 + 站内口径不一 |
+| 6 | 「10 runs with every char」、Ruadh Trial 8 仍缺件（:131） | Community 帖 | ✅ 已在正文标 [Community]，并注明「player estimates, not published figures」 |
+| 7 | 护甲是否影响属性（:94, :144） | — | ✅ 正确标 `[Unconfirmed]`，未写成确定事实 |
+
+**结论**：无编造（既没有虚构角色也没有虚构数值）；🟡 2 项为「单一社区源未降级」与「Dragonstone 口径窄」。
+
+### 2.4 waterparksimulatorwiki / `mafia-loan-guide.md`
+
+| # | 断言（行） | 声明来源 | 核对结果 |
+|---|---|---|---|
+| 1 | 1.0.43：Mafia 被攻击会反击、波次时间更随机（:115-116, :144） | Official 1.0.43 | ✅ 逐字命中："Mafia now can fight back when attacked during their event."、"Mafia wave times are more random…" |
+| 2 | 1.0.48 新增无障碍选项，可关掉 Staff Quitting 与 NPC retaliation（:131, :145） | Official 1.0.48 | ✅ 逐字命中："New accessibility option to disable Staff Quitting and NPC retaliation"（日期 2026-08-07 ✅） |
+| 3 | 1.0.50：存档退出不再错过 Mafia（:116, :146） | Official 1.0.50 | ✅ 逐字命中："Mafia is no longer missable if the player saves and quits on the day they should reappear"（2026-08-11 ✅） |
+| 4 | 借 1,250 还 12,500（10x）；借 30,000 还 100,000（~3.3x）；750 → 第 7 天；约 5 人；"nobody refuses me twice, you will regret it"；"loyal business partners"；"certain businessmen"；「pride does not pay bills」；有玩家拒绝三次仍被再找（:72-93, :105, :135, :168） | Community TposeGaming | ✅ 逐条回读原文，**全部逐字命中**（含 day 3 最早出现之说） |
+| 5 | 750 / 5,000 / 15,000 报价、公式未确认、约 5 人、Rusty Lounger、Out of Order（:74, :87-91, :113） | Community Whisper of the House | ✅ 命中："started with $750"、"$5,000 and $15,000"、"The exact repayment formula is not something I have confirmed"、"roughly five Mafia crew members"、"Rusty Lounger"、"Out of Order" |
+| 6 | 保安是否减伤不确定（:129） | Community TheGamesWatch | ✅ 命中："It's not clear if hiring security will help" |
+| 7 | 1.0（2026-07-31）加入 Mafia 任务线、保安、吉祥物、夜班、**multiple save slots**（:143） | Official 1.0 | ⚠️ 前三项 ✅（"Security"、"Mascots"、"Night mode"、"Mafia - An optional Questline…dubious loans"）；**"multiple save slots" 在 1.0 公告中查无**——公告里的 "Up to 5 slots can be saved" 属于**角色外观预设**，非存档槽 → 🟡 |
+| 8 | 商店页原文 "Short on funds? Need a loan? The Mafia can help you out…. For a price."（:68） | Official 商店页 | ✅ 用 appdetails 正文命中该句；`release_date = 31 Jul, 2026` ✅ |
+
+**结论**：无编造，第三方数字全部可回溯；🟡 1 项为补丁表里一处与官方公告不符的短语。
+
+---
+
+## 三、`[Unconfirmed]` 使用核查
+
+| 站点 | 使用情况 | 判定 |
+|---|---|---|
+| nivalisnightswiki | 未使用 | ✅ 合理：所有精确数值均有具体来源；编辑建议段已由 Editorial 来源自述 |
+| spiritvalewiki | 4 处（人数上限 / >5 人外推 / 掉落品类 / 队伍等级差惩罚） | ✅ 恰当，且把第三方 5 人表明确判为不可信 |
+| tearsofmetalwiki | 4 处（套装件数 / 是否必出 / 分支奖励表 / 属性影响） | ⚠️ 漏标一处：Act→套装映射（单社区源） |
+| waterparksimulatorwiki | 2 处（还款公式 / 保安减伤） | ✅ 恰当 |
+
+**反向核查（把社区东西写成确定事实）**：4 篇均未发生。最接近的是 ToM 的 Act 映射表，见 🟡-4。
+
+---
+
+## 四、跨站残留扫描
+
+| 检查项 | 结果 |
+|---|---|
+| Hugo shortcode / `{{ }}` / TODO / 占位 / 中文 | ✅ 4 篇 0 命中 |
+| 他站游戏名（Witchspire / Mistfall / Aincrad / The Mound / Reka / GONE Fishing / Neon Abyss / Crimson Moon） | ✅ 0 命中 |
+| 他站域名 | ✅ 仅 2 处**自指**：`performance-fps-guide.md:71` 与 `mafia-loan-guide.md:59` 的 Editorial 来源写的是本站 URL（声明「这是我们的编辑建议」），非污染 |
+| 开发/发行商归属 | ✅ Nivalis=ION LANDS（官方语料 4 命中）、ToM=Paper Cult（2 命中）、Waterpark=CayPlay（商店页） |
+| 他游戏专有名词混入 | ✅ 无；出现的 ION LANDS / Paper Cult / CayPlay / The Stacks / Wallace / Ruadh 均属本作 |
+
+---
+
+## 五、站内一致性
+
+| 站点 | 检查 | 结果 |
+|---|---|---|
+| nivalisnightswiki | 新页「CPU 是瓶颈」（:78）vs `system-requirements-guide.md:57`「**GPU** is the component that will actually determine your experience」 | ⚠️ 🟡 直接矛盾。新页有实测支撑（分辨率降 20 倍只多 40% 帧），老页是发售前推断。建议老页补一句「人群场景为 CPU 瓶颈，见性能指南」 |
+| nivalisnightswiki | 补丁时间线 vs `manager-restock-guide.md:89-92` | ✅ Update #1/#3/#4/#6 的口径一致，无冲突 |
+| spiritvalewiki | 全站 party bonus 表述（`class-leveling-guide.md:160-161`、`endgame-guide.md:74`、`leveling-guide.md:95`） | ✅ 老页只说「2 人小 / 4+ 人大」，未复述第三方 5 人上限，不构成矛盾；新页第 49 行自述「including our own older pages」属实 |
+| tearsofmetalwiki | Dragonstone：新页 :65/:155 vs `achievements-guide.md:149,317`（未验证） | ⚠️ 🟡 口径不一（见 2.3-5） |
+| tearsofmetalwiki | Commanding/Warmonger/Duelist | ✅ 站内无第二处提法，无自相矛盾 |
+| waterparksimulatorwiki | 全站 Mafia/loan 其他页 | ✅ 除新页外 0 命中，无冲突 |
+| 4 篇共同 | `related` 目标存在性 | ✅ 全部存在且主题相关：nivalis（system-requirements / faq / beginner / city-districts / day-night-cycle）；spiritvale（party-composition / leveling / class-leveling / empty-maps / farming-resource / solo）；tearsofmetal（equipment / trials-mother-stone / progression-walkthrough / village-upgrade / seraphic-blade / achievements）；waterpark（money-making / visitor-problems / staff-management / endgame） |
+
+---
+
+## 六、线上复验（本机 DNS 污染 vercel.app → `dig @1.1.1.1` + `curl --resolve`）
+
+| 站点 / URL | 解析 IP | HTTP | 正文比对（抽样段） | /guides 索引 | sitemap.xml |
+|---|---|---|---|---|---|
+| `nivalisnightswiki.vercel.app/guides/performance-fps-guide` | 64.29.17.195 / 216.198.79.195 | **200**（74,337 B） | ✅ "The main thread spent 18.6% of the frame — about 6 ms…" 逐字一致 | ✅ 命中 | ✅ 命中 |
+| `spiritvalewiki.vercel.app/guides/party-exp-and-loot-sharing-guide` | 64.29.17.131 / 216.198.79.131 | **200**（68,893 B） | ✅ 首段 "Even Share pays +20% EXP and +10% gold…" 逐字一致 | ✅ | ✅ |
+| `tearsofmetalwiki.vercel.app/guides/armor-sets-gear-unlock-guide` | 64.29.17.67 / 216.198.79.67 | **200**（68,053 B） | ✅ 首段 "New armor in Tears of Metal does not drop from bosses…" 逐字一致 | ✅ | ✅ |
+| `waterparksimulatorwiki.vercel.app/guides/mafia-loan-guide` | 64.29.17.131 / 216.198.79.131 | **200**（68,609 B） | ✅ 首段 "The Mafia in Waterpark Simulator hands you cash now…" 逐字一致 | ✅ | ✅ |
+
+**产物级发现（不影响入库，但需登记）**：4 篇（以及抽查的存量页 `beginner-guide`）渲染后 DOM 内均含 **2 个 `<h1>`**：
+- `components/GuideLayout.tsx:38` 渲染 frontmatter 标题为 `<h1>`
+- `components/ReactMarkdown.tsx:54` 又把 Markdown 的 `# ` 渲染成 `<h1>`
+
+`grep -l "<h1" */components/GuideLayout.tsx` = **48 个站**，`templates/wiki-base` 也是同款（`:38`）。`scripts/lint-guides.mjs` **没有任何 H1 检查**（仅第 128 行查 title/description/category/updated、160 行查词数），所以「H1×1 通过」只在 Markdown 源文件层成立，产物层不成立。
+
+---
+
+## 七、🟡 记录项汇总（7）
+
+| # | 站点 | 位置 | 问题 | 建议 |
+|---|---|---|---|---|
+| 1 | nivalisnightswiki | `performance-fps-guide.md:157` | 「25% 评 Perfect/Playable」省略了**样本仅 4 票**（0% Perfect / 25% Playable / 75% Bad）这一限定，读者会高估代表性 | 补「（4 票样本）」或改为「早期投票样本极小，仅供参考」 |
+| 2 | nivalisnightswiki | `performance-fps-guide.md:90` | 「ghost 系统」为真，但依据是 **May 2026 Development Update: Optimization**，该公告未进 `sources` | 把该公告加进 sources（顺带可支撑 Object Pooling 的背景） |
+| 3 | nivalisnightswiki | `system-requirements-guide.md:57` | 「GPU 决定体验」与新页「人群场景 CPU 瓶颈」直接矛盾 | 老页加一句交叉引用，不改结论 |
+| 4 | tearsofmetalwiki | `armor-sets-gear-unlock-guide.md:84-92`（另 :53） | Act→Commanding/Warmonger/Duelist 映射官方 0 命中、**仅 1 个社区帖**，按 Profile 应标 `[Unconfirmed]`，现只标 `[Community]` | 表头加 `[Unconfirmed]`，或在拿到第 2 个独立社区源后保留现写法 |
+| 5 | tearsofmetalwiki | `armor-sets-gear-unlock-guide.md:65, :155` | 「Dragonstones → 武器，不给护甲」把通用货币说窄了（官方语料中亦用于 Charm 宝箱、雕像折扣）；且与 `achievements-guide.md:149,317`「dragonstones 未能验证」口径不一 | 改为「Dragonstones 主要用于武器与 Charm/雕像，官方未见护甲用途」 |
+| 6 | waterparksimulatorwiki | `mafia-loan-guide.md:143` | 1.0 补丁行写「multiple save slots」，官方 1.0 公告查无；公告里的 "Up to 5 slots can be saved" 指**角色外观预设** | 删掉该短语，或改为「角色外观 5 个预设槽」 |
+| 7 | **模板层（48 站）** | `*/components/GuideLayout.tsx:38` + `ReactMarkdown.tsx:54`（含 `templates/wiki-base`） | 每篇攻略页渲染出 **2 个 `<h1>`**；lint 不覆盖，历次 QA 未发现 | 二选一：GuideLayout 标题降为 `<h2>`／按 `body` 是否自带 H1 决定是否渲染；同步给 `scripts/lint-guides.mjs` 加产物级 H1 断言 |
+
+---
+
+## 八、结论清单
+
+| 站点 | 结论 | 理由 |
+|---|---|---|
+| nivalisnightswiki / `performance-fps-guide.md` | ⚠️ **有条件 PASS** | 8 条抽检断言全部可回溯（官方 6 条 + Gaming St/Steam Deck HQ 逐字核对）；🟡 3 项均为溯源/口径/站内引用问题，不涉及虚构 |
+| spiritvalewiki / `party-exp-and-loot-sharing-guide.md` | ✅ **PASS** | 官方 0.34.0 / 0.32.0 逐字命中；对「公告未说」的判定准确；第三方 5 人表判 `[Unconfirmed]` 正确；无残留、无站内矛盾；线上一致 |
+| tearsofmetalwiki / `armor-sets-gear-unlock-guide.md` | ⚠️ **有条件 PASS** | 官方 3 条逐字命中，无虚构数值；核心 Act→套装映射单社区源未降级为 `[Unconfirmed]`，Dragonstone 表述偏窄 |
+| waterparksimulatorwiki / `mafia-loan-guide.md` | ⚠️ **有条件 PASS** | 8 条抽检里 7 条逐字命中（含 4 个社区页的引语与数字）；仅补丁表「multiple save slots」与官方 1.0 公告不符 |
+
+**🔴 阻断：0**
+
+**是否建议直接入库：建议入库**（4 篇内容层无编造、线上已一致）。三个 ⚠️ 都可在同一批数据修正里处理，不需要回炉重写：
+- 必改（低成本、1 行级）：🟡-6 删「multiple save slots」；🟡-1 补「4 票样本」；🟡-4 表头加 `[Unconfirmed]`。
+- 可随后：🟡-2 补 sources；🟡-3 / 🟡-5 站内口径对齐。
+- 🟡-7 属模板层，建议单独一轮修 `GuideLayout` + 给 lint 加产物级 H1 断言（48 站 + 模板，影响面大于本次 4 篇）。
+
+> 本轮只做审核，**未修改任何站点文件、未部署、未 commit、未改规则文档**。

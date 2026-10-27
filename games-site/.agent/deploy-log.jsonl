@@ -121,3 +121,7 @@
 {"ts":"2026-10-27T07:45:45+0800","site":"rekawiki","commit":"5d053fe","status":"fail","url":"https://rekawiki.vercel.app"}
 {"ts":"2026-10-27T07:46:12+0800","site":"rekawiki","commit":"5d053fe","status":"ok","url":"https://rekawiki.vercel.app"}
 {"ts":"2026-10-27T07:46:51+0800","site":"gonefishingwiki","commit":"5d053fe","status":"ok","url":"https://gonefishingwiki.vercel.app"}
+{"ts":"2026-10-27T09:10:52+0800","site":"nivalisnightswiki","commit":"7af5252","status":"ok","url":"https://nivalisnightswiki.vercel.app"}
+{"ts":"2026-10-27T09:11:45+0800","site":"tearsofmetalwiki","commit":"7af5252","status":"ok","url":"https://tearsofmetalwiki.vercel.app"}
+{"ts":"2026-10-27T09:12:28+0800","site":"waterparksimulatorwiki","commit":"7af5252","status":"ok","url":"https://waterparksimulatorwiki.vercel.app"}
+{"ts":"2026-10-27T09:13:07+0800","site":"spiritvalewiki","commit":"7af5252","status":"ok","url":"https://spiritvalewiki.vercel.app"}
