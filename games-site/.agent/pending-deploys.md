@@ -4,24 +4,6 @@
 > 成功的行从本文件删掉。存在的理由：Vercel 免费版 100 次部署/日（UTC 日切 = 北京 08:00），
 > 大范围改动（如 48 站 title 修订）必须跨日铺。
 
-- aincradwiki  # 2026-10-27 FAQ title
-- anomalypresidentwiki  # 2026-10-27 FAQ title
-- ardentwildswiki  # 2026-10-27 FAQ title
-- beastreincarnationwiki  # 2026-10-27 FAQ title
-- bigwalkwiki  # 2026-10-27 FAQ title
-- bombananawiki  # 2026-10-27 FAQ title
-- boneholdwiki  # 2026-10-27 FAQ title
-- cozygamerestorationwiki  # 2026-10-27 FAQ title
-- crimsonmoonwiki  # 2026-10-27 FAQ title
-- delveriumwiki  # 2026-10-27 FAQ title
-- dinobladewiki  # 2026-10-27 FAQ title
-- doloctownwiki  # 2026-10-27 FAQ title
-- dragonswordwiki  # 2026-10-27 FAQ title
-- dreadmoorwiki  # 2026-10-27 FAQ title
-- dwarfdelvewiki  # 2026-10-27 FAQ title
-- expeditionssamuraiwiki  # 2026-10-27 FAQ title
-- fallentearwiki  # 2026-10-27 FAQ title
-- gotownwiki  # 2026-10-27 FAQ title
 - grainrotwiki  # 2026-10-27 FAQ title
 - graphitewiki  # 2026-10-27 FAQ title
 - ironnestwiki  # 2026-10-27 FAQ title

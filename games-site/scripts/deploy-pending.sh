@@ -94,11 +94,22 @@ while IFS= read -r line; do
   fi
 
   echo "🚀 [$((DONE + 1))/$LIMIT] $site"
-  if ! "$SCRIPT_DIR/deploy-wiki-site.sh" "$site"; then
+  OUT=$(mktemp)
+  if ! "$SCRIPT_DIR/deploy-wiki-site.sh" "$site" 2>&1 | tee "$OUT"; then
+    # 额度用尽不是缺陷：本机 deploy-log 只记 deploy-wiki-site.sh 发起的部署，
+    # Vercel 后台 / git 集成 / 别处的部署也算额度，所以日志数会低于真实用量。
+    if grep -q "api-deployments-free-per-day" "$OUT"; then
+      echo ""
+      echo "⏸  Vercel 今日部署额度已用尽（100/日，UTC 日切 = 北京 08:00）—— 清单原样保留，下一轮再铺"
+      rm -f "$OUT"
+      exit 0
+    fi
     echo "❌ $site 部署失败 —— 中止本轮，剩余留到下一轮"
     FAILED="$site"
+    rm -f "$OUT"
     break
   fi
+  rm -f "$OUT"
 
   # 成功：从清单里删掉这一行（原地重写，保留表头与备注）
   tmp=$(mktemp)

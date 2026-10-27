@@ -30,6 +30,8 @@ for site in "${sites[@]}"; do
   fi
   title=$(curl -s -m 30 --resolve "$host:443:$ip" "https://$host/faq" \
     | grep -o '<title>[^<]*</title>' | head -1 | sed -e 's/<[^>]*>//g')
+  # HTML 实体先还原再量长度：&amp; 是 5 个字符，实际只占 1 个
+  title=$(printf '%s' "$title" | sed -e 's/&amp;/\&/g' -e 's/&#x27;/'"'"'/g' -e 's/&#39;/'"'"'/g' -e 's/&quot;/"/g')
   if [[ -z "$title" ]]; then
     echo "❌ $site  取不到 /faq 的 <title>"
     fail=$((fail+1)); failed+=("$site"); continue
