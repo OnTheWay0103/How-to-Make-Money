@@ -291,4 +291,14 @@ export const SITES: SiteConfig[] = [
     gaId: 'G-0JXZXK4RTC',
     createdAt: '2026-10-26',
   },
+  {
+    name: 'GONE Fishing Horror Game Wiki',
+    propertyId: '560896833',
+    gaId: 'G-0W6Q6W9N60',
+  },
+  {
+    name: 'REKA Game Wiki',
+    propertyId: '560923329',
+    gaId: 'G-Q9SSN3Y6W7',
+  },
 ];

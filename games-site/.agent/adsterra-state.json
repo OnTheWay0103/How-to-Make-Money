@@ -458,5 +458,15 @@
       "hash": "2150678a8df3",
       "deployedAt": "2026-10-26T14:01:04.876Z"
     }
+  },
+  "rekawiki": {
+    "global": {
+      "hash": "ed31b15001f3",
+      "deployedAt": "2026-10-27T12:00:51.634Z"
+    },
+    "guide": {
+      "hash": "c096094ab858",
+      "deployedAt": "2026-10-27T12:00:51.634Z"
+    }
   }
 }
