@@ -57,8 +57,8 @@
 | 46 | 🆕 neonabyss2wiki | ❓ | 11 | neonabyss2wiki.vercel.app | ✅ | ✅ | ✅ | ⚠️ 新站点，需手动补全信息 |
 | 47 | GONE Fishing | 10/26 | 7 | gonefishingwiki.vercel.app | ✅ | ✅ | ✅ | 10/26 BUILD-R3（17/20），ABCT…→**Steam 实测开发/发行 GONE Studios**，1–8 人合作恐怖钓鱼，EA 2025-06-16 → 1.0 2026-10-20，近 30 天 220 条 84%、峰值 CCU 1,631；7 篇 9,950 词，P0 覆盖 100%；刻意绕开厚 Fandom（不做鱼种/鱼饵表）；GA4/GSC 待人工 |
 | 48 | REKA | 10/26 | 7 | rekawiki.vercel.app | ✅ | ✅ | ✅ | 10/26 BUILD-R3（17/20 保守口径），Emberstorm/Fireshine，女巫生活模拟，EA 2024-09-12 → 1.0 2026-10-26 当日加简中，近 30 天 113 条 92%；7 篇 9,290 词；`REKA` 单字撞名 → 标题锚定 `REKA game`；`/tier-list` 空壳待决策；GA4/GSC 待人工 |
-| 49 | 🆕 blinddescentwiki | ❓ | 8 | blinddescentwiki.vercel.app | ✅ | ❌ | ✅ | ⚠️ 新站点，需手动补全信息 |
-| 50 | 🆕 probablystolenwiki | ❓ | 6 | probablystolenwiki.vercel.app | ✅ | ❌ | ✅ | ⚠️ 新站点，需手动补全信息 |
+| 49 | 🆕 blinddescentwiki | ❓ | 8 | blinddescentwiki.vercel.app | ✅ | ✅ | ✅ | ⚠️ 新站点，需手动补全信息 |
+| 50 | 🆕 probablystolenwiki | ❓ | 6 | probablystolenwiki.vercel.app | ✅ | ✅ | ✅ | ⚠️ 新站点，需手动补全信息 |
 <!-- AUTO-END:overview-table -->
 
 ---
@@ -151,8 +151,7 @@
 | **总站点数** | 50 |
 | **总攻略数** | 1132 |
 | **Vercel 部署** | 50/50 ✅ |
-| **GA4 已配置** | 48/50 |
-| **GA4 真缺失** | 2（blinddescentwiki（空）、probablystolenwiki（空）） |
+| **GA4 已配置** | 50/50 |
 | **GSC 文件部署** | 50/50 ✅（账户级令牌，所有站共用同一文件） |
 <!-- AUTO-END:summary -->
 
