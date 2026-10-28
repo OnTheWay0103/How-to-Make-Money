@@ -2,32 +2,32 @@
   "description": "每日内容扩充跟踪（docs/每日内容扩充计划.md）—— 名单由 scripts/expansion-targets.mjs --apply 生成，MUST NOT 手改 sites 数组",
   "mechanism": "daily-per-site",
   "ruleUpdated": "2026-09-02",
-  "pvSnapshotDate": "2026-10-27",
+  "pvSnapshotDate": "2026-10-28",
   "sites": [
     {
       "site": "nivalisnightswiki",
-      "pv": 2433,
+      "pv": 2448,
       "lifeStatus": "加码",
       "lastExpanded": "2026-10-28",
       "lastProduced": "cooking-recipes-rotten-food-guide (1,447w)"
     },
     {
-      "site": "sephiriawiki",
-      "pv": 1148,
-      "lifeStatus": "加码",
-      "lastExpanded": "2026-10-28",
-      "lastProduced": "inventory-side-bag-guide (1,294w)"
-    },
-    {
       "site": "waterparksimulatorwiki",
-      "pv": 1144,
+      "pv": 1158,
       "lifeStatus": "加码",
       "lastExpanded": "2026-10-28",
       "lastProduced": "chlorine-dirty-pool-water-guide (1,489w)"
     },
     {
+      "site": "sephiriawiki",
+      "pv": 1153,
+      "lifeStatus": "加码",
+      "lastExpanded": "2026-10-28",
+      "lastProduced": "inventory-side-bag-guide (1,294w)"
+    },
+    {
       "site": "shiftatmidnightwiki",
-      "pv": 1067,
+      "pv": 1082,
       "lifeStatus": "加码",
       "lastExpanded": "2026-10-28",
       "lastProduced": "voice-chat-mic-setup-guide (1,372w)"
@@ -199,27 +199,27 @@
   "watchlist": [
     {
       "site": "themoundwiki",
-      "pv": 804,
+      "pv": 811,
       "lastExpanded": "2026-10-24",
       "note": "2026-10-26 复核跌破 1000 移出每日名单；当日新页 SKIP（无 ≥3 独立玩家来源选题），改做 1.06 补丁校准"
     },
     {
       "site": "spiritvalewiki",
-      "pv": 801,
+      "pv": 808,
       "lastExpanded": "2026-10-27",
       "lastProduced": "party-exp-and-loot-sharing-guide (1,335w)",
       "note": "已产出后跌破 1000，下次复核过线自动回归"
     },
     {
       "site": "tearsofmetalwiki",
-      "pv": 692,
+      "pv": 695,
       "lastExpanded": "2026-10-27",
       "lastProduced": "armor-sets-gear-unlock-guide (1,396w)",
       "note": "已产出后跌破 1000，下次复核过线自动回归"
     },
     {
       "site": "grainrotwiki",
-      "pv": 215,
+      "pv": 216,
       "lastExpanded": "2026-10-26",
       "lastProduced": "save-files-and-coop-progress-guide (1,500w)",
       "note": "已产出后跌破 1000，下次复核过线自动回归"
@@ -251,6 +251,6 @@
       "note": "每日扩充当日 08:38–08:53 已完成：nivalis/sephiria/waterpark/shiftatmidnight 各 +1 篇；spiritvale/tearsofmetal/grainrot 各 +1 篇；themound 新页 SKIP + updates-patch-notes 补 1.06 校准。8 站全部 QA 完成、部署并线上 200（.agent/delivery-2026-10-26.json）。本轮按「每站每天 1 篇」不重复产出，改做第二轮发现 + P2 校准。PV 复核：dashboard /api/traffic（2026-09-26→2026-10-26）PV>1000 = nivalis 2413 / sephiria 1201 / waterpark 1201 / shiftatmidnight 1133；提示词里列的 themound(805)/spiritvale(802)/tearsofmetal(712)/grainrot(246) 已跌破 1000，但当日均已产出或记录 SKIP。"
     }
   ],
-  "pvCheckedAt": "2026-10-27T23:57:53.741Z",
+  "pvCheckedAt": "2026-10-28T05:35:43.052Z",
   "roundNote": "2026-10-28 轮：4 站各 1 篇全部交付（无 SKIP）；nivalis 2433 / sephiria 1148 / waterpark 1144 / shiftatmidnight 1067 PV30"
 }
