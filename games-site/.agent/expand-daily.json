@@ -181,10 +181,10 @@
     }
   ],
   "lastRun": {
-    "date": "2026-10-26",
-    "produced": 7,
-    "skipped": 1,
-    "note": "按 30 天 PV 复核重排名单：原 5 站全部执行，其中 sephiria/spiritvale/tearsofmetal/grainrot 各 +1 篇；themound 新页 SKIP、改做 1.06 校准。新过线 nivalis(2400)/waterpark(1196)/shiftatmidnight(1099) 各 +1 篇。全部 QA quick PASS（themound/sephiria 各 2 条非阻断警告）。"
+    "date": "2026-10-28",
+    "produced": 4,
+    "skipped": 0,
+    "note": "eligible[] 4 站各 1 篇全部交付（08:30 轮完成）：nivalis 2453 / waterpark 1168 / shiftatmidnight 1092 / sephiria 1075。全部 QA quick PASS、线上 200。晚间补跑轮按「每站每天 1 篇」不重复产出。当日另有新建 2 站 blinddescentwiki（8 页）与 probablystolenwiki（6 篇）。"
   },
   "catchUps": [
     {
@@ -226,6 +226,19 @@
     }
   ],
   "runLog": [
+    {
+      "date": "2026-10-28",
+      "round": "21:00 CST 晚间补跑（08:30 launchd 轮当日已完成产出）",
+      "produced": 0,
+      "skipped": 0,
+      "note": "**本轮产出 0 篇，属规则要求的正常结果，非运行缺口**：eligible[] 的 4 站（nivalis 2453 / waterpark 1168 / shiftatmidnight 1092 / sephiria 1075）`lastExpanded` 均已是 2026-10-28，当日各 1 篇已完成（4 篇线上 200、QA quick PASS），按「名单内每站每天各 1 篇」不重复产出。名单与 PV 现取自 `expansion-targets.mjs --json`（fetchedAt 2026-10-28T13:01:53Z），未用任何旧表。当日另一批产出为新建 2 站：blinddescentwiki（8 页 11,305 词）、probablystolenwiki（6 篇 8,824 词）。本轮实际动作（均为补记/复核，未改站点内容）：①把 4 站分站 QA 合并进 `.agent/qa-report.md`（此前只在 `.agent/qa-{site}-2026-10-28.md`）；②修正 `STATS-游戏站点统计.md` 头行（48 站/1118 篇 → 50 站/1132 篇，「无新建站」→ 新建 2 站）；③复核 probablystolen QA 报告的 🟠1–3 / 🟡11 / 导航名不一致共 5 条已在该站收尾后消解，**MUST NOT 再按旧报告修改**。附带发现：`expansion-targets.mjs` 的 `dig` 有 15s 超时，本机 DNS 抖动时会偶发 ETIMEDOUT 并 exit 2（本轮首次调用即失败、重跑成功），按规则该类失败应报「不可判定」而非退回旧名单。",
+      "eligible": [
+        "nivalisnightswiki",
+        "waterparksimulatorwiki",
+        "shiftatmidnightwiki",
+        "sephiriawiki"
+      ]
+    },
     {
       "date": "2026-10-27",
       "round": "04:00 CST（launchd com.games-site.auto-build-site）",

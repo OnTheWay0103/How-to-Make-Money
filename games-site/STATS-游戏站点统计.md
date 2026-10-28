@@ -1,6 +1,6 @@
 # 游戏攻略站 — 站点统计
 
-> 最后更新：2026-10-28 | 48 站 · 1118 篇攻略（10/28 扩词轮 +4：Nivalis Nights / Sephiria / Waterpark Simulator / Shift At Midnight 各 1 篇；当天新候选分诊 13 个、采词 2 个，无新建站）
+> 最后更新：2026-10-28 | 50 站 · 1132 篇攻略（10/28 新建 2 站：blinddescentwiki 8 页 11,305 词、probablystolenwiki 6 篇 8,824 词；扩词轮 +4：Nivalis Nights / Sephiria / Waterpark Simulator / Shift At Midnight 各 1 篇；当天新候选分诊 13 个、R4 采词 2 个、R5 采词 10 个）
 
 ---
 

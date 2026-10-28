@@ -2755,3 +2755,57 @@ WebSearch "GONE Fishing ... GONE Studios ABCT Productions" / "REKA ... release d
 3. 清掉首页 "boss pages" 卡片文案。
 
 **未修复 🟡**：FAQ 的 "first-person"、首页 "nine other regions"、beginner 的「fixed vs percentage cost」、starting 的「2x3 唯一量度」全称判断、buy-out 的「rent 用词最多」论断、FAQ demo 时态、渲染 title 模板后缀、sources.md 头部「不建站」旧结论 —— 均属定性/文档/模板层，按职责留给内容合规或主 Agent 决定。
+
+### 主管复核（2026-10-28 晚轮）：本报告 🟠1–3 与 🟡11 已在当前树中消解
+
+上面这份 QA-QUICK 是针对 probablystolenwiki 的**中途快照**，建站收尾后已变化。逐条实测当前工作区：
+
+| 原编号 | 原判定 | 当前实测 |
+|---|---|---|
+| 🟠1 | `app/page.tsx` / `app/guides/page.tsx` / `app/about/page.tsx` 残留 "codes / tier lists / boss strategies" | `grep` 三个文件 **0 命中**（about 仅剩两处合法正文 "boss" 字样，非模板残留） |
+| 🟠2 | `/tier-list` 为空页却被索引（`PRIORITY_TIERS = []`） | **不成立**：现有 4 档 S/A/B/C 完整内容，每档带官方依据与 `[Unconfirmed]` 标注 |
+| 🟠3 | 首页卡片 "Stuck on a boss…" 文案 | `app/page.tsx` **0 命中** |
+| 🟡11 | `keyword-results/probablystolen-sources.md` 头部仍写「本轮不建站」 | **已改**：头部有「本轮结论（2026-10-28 18:40 已更新）」段，说明 A2b 补抓后翻转为建站 |
+
+另：🟡2 指出的「导航名 Upgrade Priority 与页面 title 不一致」亦不成立 —— 现有 `app/tier-list/page.tsx` 的 metadata.title 正是 `Upgrade Priority: What to Buy First`，与 `components/Header.tsx` 的 `Upgrade Priority` 一致。
+
+**结论：以上 5 条无需修，MUST NOT 按旧报告再"修"一遍。** 仍成立的仅 🟡4/5/6/7/8/9/10/12（定性断言、区域计数、渲染 title 模板后缀等），其中 🟡10 属全 49 站模板层，留单独一轮。
+
+---
+
+# QA-QUICK 2026-10-28 — 扩词轮 4 站（各 1 篇，主管合并登记）
+
+> 由主管在本轮汇总追加。分站原始报告：`.agent/qa-{nivalisnightswiki,sephiriawiki,shiftatmidnightwiki,waterparksimulatorwiki}-2026-10-28.md`
+> （4 站各自独立执行，此前只在分站文件里，本文件只登记了 2 个新建站，故补登）。
+> 依据：`.claude/skills/quality-assurance.md`、`docs/STRATEGY-内容生产.md` 四节。
+
+## 合并结论
+
+| 站点 | 新页 | 词数 | 结果 | 阻断 | 记录项 |
+|---|---|--:|:--:|:--:|---|
+| nivalisnightswiki | cooking-recipes-rotten-food-guide | 1,447 | ✅ PASS | 0 | 1（`updated-future` 时区假警报） |
+| sephiriawiki | inventory-side-bag-guide | 1,294 | ✅ PASS | 0 | `updated-future` 假警报 + **13 条存量 WARN**（h1 / sources-tier），本轮不追溯 |
+| shiftatmidnightwiki | voice-chat-mic-setup-guide | 1,372 | ✅ PASS | 0 | `updated-future` 假警报 |
+| waterparksimulatorwiki | chlorine-dirty-pool-water-guide | 1,489 | ✅ PASS | 0 | `updated-future` 假警报 |
+
+## 共性结论
+
+- **虚构检测**：4 篇专名均可回落到官方补丁说明 / Steam 商店页 / 官方 post；社区数值一律标 `[Community]`、官方未公布数值标 `[Unconfirmed]` 并单列「What is not confirmed」小节。
+- **模板残留**：4 站 `check-site-residue.mjs` 均无残留；新页无他站游戏名（shiftatmidnight 与 waterparksimulator 互不提及）。
+- **抢词**：4 篇各独占一个站内既有页未覆盖的意图（烹饪腐坏 / Side Bag 槽位 / 语音设备排查 / 池水加氯）；related 用块状数组、slug 均存在。
+- **静态规格**：shiftatmidnight（title 57 / desc 155 / 首段 53 / 正文 1,372）与 waterparksimulator（58 / 158 / 59 / 1,489）均在全站口径内；`<h1>` 源码与线上渲染均为 1。
+- **基建**：4 站 `pnpm install && pnpm build` exit 0，新页进静态路由与 sitemap，线上 `curl --resolve` HTTP 200。
+- **`updated-future` 为时区假警报**：lint 按 UTC 取「今天」，本机 CST 清晨尚未跨 UTC 日界；非内容问题，不修。
+- **未阻断项**：sephiriawiki `app/layout.tsx` 存量 `ca-pub-7211682665758448`，按「AdSense 暂缓、存量站代码不动」未改，登记备查。
+
+## 线上复验（主管本轮实测，`dig @1.1.1.1` + `curl --resolve`）
+
+| URL | 状态 |
+|---|:--:|
+| nivalisnightswiki.vercel.app/guides/cooking-recipes-rotten-food-guide | 200 |
+| sephiriawiki.vercel.app/guides/inventory-side-bag-guide | 200 |
+| shiftatmidnightwiki.vercel.app/guides/voice-chat-mic-setup-guide | 200 |
+| waterparksimulatorwiki.vercel.app/guides/chlorine-dirty-pool-water-guide | 200 |
+| probablystolenwiki.vercel.app/tier-list | 200 |
+
+**本轮 QA 合计：4 站 4 篇，0 阻断，全部 PASS。**
