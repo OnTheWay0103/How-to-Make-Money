@@ -2566,3 +2566,67 @@ WebSearch "GONE Fishing ... GONE Studios ABCT Productions" / "REKA ... release d
 3. **Shift At Midnight —— 「Does it have codes?」答疑页**（5 词，站内唯一成组缺口）：官方从未公布兑换码系统，只能写「没有 codes / 别信假码」的答疑页，MUST NOT 编造码；写之前先确认官方渠道口径未变。
 
 不做：Frostrail（13 分低优先，`P=2.0` 且攻略型 9.7%）、HANDS OVER / Never Be Alone（需求 2 边界，按严格口径否决）、One Way Tickets / Annihilated / Malignus（品牌不可检索或有效词不足）。完整依据见 `keyword-results/selection-2026-10-28.md` 第五节与 `.agent/selection-*-2026-10-28.md`。
+
+
+---
+
+# QA-QUICK 2026-10-28 — blinddescentwiki（新建站，8 页）
+
+> 阶段：建站协调员交付后主管直跑（quick）。审核对象：`blinddescentwiki/` 8 篇攻略 + 5 个静态页。
+> 素材底稿：`keyword-results/blinddescent-sources.md`（A 官方 ×4 / B 社区 ×1 / C 第三方 ×2，均 2026-10-28 抓取）。
+
+## 一、机械门禁（全部通过）
+
+| 项 | 结果 |
+|---|---|
+| `lint-guides.mjs blinddescentwiki` | 8 篇全部通过 ✅ |
+| `check-site-residue.mjs blinddescentwiki` | 无模板残留 ✅ |
+| 他站游戏名（16 个站名全表扫描） | 0 命中 ✅ |
+| 未替换占位符 `{{ }}` / 中文正文 / 占位文案 | 0 命中（`app/page.tsx:12` 的 `TODO(per site)` 是模板注释，不进产物）✅ |
+| 每页词数 | 1,291–1,586，合计 **11,305 词**（≥8,000 达标）✅ |
+| title / description | 43–52 / 150–160 ✅ |
+| H1 | 源文件 8/8 = 1 个；**线上 DOM 8/8 = 1 个** ✅（`ReactMarkdown` 已把正文 `#` 渲染为 `<h2>`，2026-10-24 报的「48 站 2 个 H1」在全仓代码里已不存在） |
+| `related` | 8 篇全部块级数组；目标页 100% 存在 ✅ |
+| 内链 | `/guides/*` 内链 0 断链 ✅ |
+
+## 二、事实核验（抽样 12 条，逐条回溯到 sources）
+
+| # | 断言 | 来源 | 判定 |
+|---|---|---|---|
+| 1 | 4 人 co-op、单人亦可玩 | A1 Steam appdetails（max 4） | ✅ 逐字 |
+| 2 | 跨平台联机 Steam / GOG / EGS | A4 官方新闻稿（"crossplay between Steam, GOG and EGS"） | ✅ 逐字 |
+| 3 | shared quests / shared world / separate inventory and mutations | A4 | ✅ 逐字 |
+| 4 | EA 2026-12-02，约一年 | A1 + C（zero1gaming "approximately one year"） | ✅ |
+| 5 | EA 只含 "part of the planned story" | C（zero1gaming） | ✅ 逐字 |
+| 6 | 最低配置 Win11 / i3 / 16 GB / 40 GB | A1 | ✅ 表格逐项对齐 |
+| 7 | 危害三类（地下风暴 / 有毒气体 / 攻击性生物） | A1 特性段 | ✅ |
+| 8 | 基地会因忽视被藤蔓/真菌侵占 | A1（"quick to react to neglect"） | ✅ 逐字 |
+| 9 | 2071 年、火星、10 miles 深、Marsborn Mining Company、Pathfinder | A2/A3 官方站与 FAQ | ✅ |
+| 10 | 变异能力 telekinesis / wall running | A2/A4 | ✅ |
+| 11 | 早期物品 axe / club / fire pit / lean-to / water container | B（gamer.org 试玩评测） | ⚠️ 🟡 社区单源（页面已按 B 标注，未升格为官方） |
+| 12 | 平台：PC 首发 Steam/GOG/Epic，PS5 / Xbox 随正式版 | A4 + C | ✅ |
+
+## 三、发现问题与处置
+
+| # | 级别 | 问题 | 处置 |
+|---|---|---|---|
+| 1 | 🟠 **已修** | `blind-descent-beginner-guide.md:130` 与 `blind-descent-platforms-system-requirements.md:46` 写「EA 剧情 10–15 小时 / 试玩几小时」，但 `blinddescent-sources.md` 与 zero1gaming 原文**均无任何时长数据** → 属无源断言 | 已改写为「官方未公布时长，按开放结局的生存循环规划」，重新 build + 部署，线上复核 `10 to 15 hours` = 0 命中、新文案已命中 ✅ |
+| 2 | 🟡 记录项 | `/tier-list` 这个 URL 承载的是「Upgrade Priority（解锁优先级）」页；title 与正文一致且自述「不是数据挖掘排行」，但 URL 与内容意图不完全对齐 | 不阻塞；下轮若该站跑起来，考虑 301 到 `/upgrade-priority` 或把该页并进 beginner |
+| 3 | 🟡 记录项 | 价格、Steam Deck 评级、引擎（官方 FAQ UE4 vs 第三方 UE5）、PS5/Xbox 具体日期、变异全表、基地衰减时长、demo 是否联机 → 站内均已标 `[Unconfirmed]`（各页 1–9 处），无编造 | 发售日（2026-12-02）后统一复核升级 |
+| 4 | 🟡 记录项 | 温度 / 氧气系统**无任何来源**，站内未写 —— 正确；若后续社区出现一手实测，再补 | 无需动作 |
+
+## 四、线上复验（`dig` 取 IP + `curl --resolve`，绕过本机 vercel.app DNS 污染）
+
+| 检查 | 结果 |
+|---|---|
+| `/`、`/guides`、2 篇抽查攻略、`/sitemap.xml` | 全部 **200** |
+| `<h1>` 计数（首页 + 2 篇攻略） | 1 / 1 / 1 ✅ |
+| sitemap | 16 条 = 8 静态 + 8 攻略 ✅ |
+| `/guides` 索引 | 8 条链接 ✅ |
+| 部署 | `vercel deploy --prod` 成功，alias → `blinddescentwiki.vercel.app` |
+
+## 五、结论
+
+**PASS（含 1 项已修 🟠）** —— 8 页 / 11,305 词，机械门禁全过，12 条抽检中 11 条逐字可回溯、1 条为已标注的社区单源；唯一的无源数值（10–15 小时）已在部署前删除并复验线上。
+
+**缺口（需人工）**：GA4 property 未创建 → `lib/seo-config.ts` 留空、dashboard 未注册；已在飞书「站点台账(人工)2026-10」补登记行（站点裸域名），`自动化状态` 留空=待填。
