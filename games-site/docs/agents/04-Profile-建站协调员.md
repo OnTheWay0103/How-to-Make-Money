@@ -11,12 +11,12 @@
 
 ## 接单规则（2026-10-25 起）
 
-MUST 只接主 Agent 派发的「可建」候选（`selection-{date}.md` 总分 ≥17）
+MUST 只接主 Agent 派发的「可建」候选（`selection-{date}.md`：已过硬否决 `需求>2 且 竞争>1`，总分 ≥14）
 MUST 开工前核对三样：四维分数与依据、6 条竞争查询记录、成本估算；缺任一项退回，MUST NOT 自行补
 MUST 读 `keyword-results/selection-{date}.md` + `keyword-results/{slug}.md` + `keyword-results/{slug}-matrix.md`，MUST NOT 另采关键词
 MUST 开工前确认矩阵 P0 行 ≥5，且每行都有目标搜索词与搜索意图；矩阵缺失或 P0 不足退回关键词研究员
 MUST NOT 自行发现游戏或给候选打分（侦察员 `11/12`、候选分析员 `22/23`）
-MUST NOT 自行放宽阈值开工；15–16 分「观察」需主 Agent 明确指令
+MUST NOT 自行放宽阈值开工；总分 12–13 的例外放行需主 Agent 明确指令 + 用户确认
 MUST NOT 选择已停运/口碑崩塌的游戏
 
 ## 内容生成规则
