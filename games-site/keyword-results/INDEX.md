@@ -1,10 +1,10 @@
 # 词库索引
 
-> 生成时间：2026-10-28 05:32 UTC
+> 生成时间：2026-10-28 05:39 UTC
 > 生成脚本：`node scripts/keyword-index.mjs` —— 不要手改本文件
 > 规则：`docs/STRATEGY-挖词与词库.md`
 
-共 **104** 份游戏词库（新格式 38，旧格式 66），已建站 **36** 站。
+共 **106** 份游戏词库（新格式 41，旧格式 65），已建站 **37** 站。
 
 > 新格式以 `slug == 站点目录名去掉 wiki` 精确匹配；旧格式只能按文件名猜，「未建站」可能有漏配。
 
@@ -15,7 +15,7 @@
 
 | 渠道 | 贡献词数 | 独占词数 |
 |---|---:|---:|
-| google_suggest | 2864 | 2864 |
+| google_suggest | 3323 | 3323 |
 
 ## 采集锚定产出
 
@@ -23,38 +23,38 @@
 
 | 锚定批次 | 贡献词数 | 独占词数 |
 |---|---:|---:|
-| 裸词 | 483 | 402 |
-| 品牌+game | 356 | 270 |
-| 探针:steam | 257 | 204 |
-| 后缀:release date | 247 | 183 |
-| 后缀:reddit | 192 | 139 |
-| 探针:ps5 | 191 | 135 |
-| 后缀:demo | 183 | 150 |
-| 后缀:price | 166 | 107 |
-| 后缀:guide | 160 | 110 |
-| 后缀:wiki | 136 | 98 |
-| 后缀:update | 127 | 95 |
-| 后缀:multiplayer | 109 | 76 |
-| 后缀:boss | 84 | 73 |
+| 裸词 | 526 | 441 |
+| 品牌+game | 395 | 301 |
+| 探针:steam | 297 | 241 |
+| 后缀:release date | 273 | 207 |
+| 后缀:reddit | 218 | 156 |
+| 探针:ps5 | 211 | 153 |
+| 后缀:demo | 211 | 176 |
+| 后缀:guide | 197 | 142 |
+| 后缀:price | 188 | 127 |
+| 后缀:wiki | 160 | 120 |
+| 后缀:update | 151 | 119 |
+| 后缀:multiplayer | 121 | 87 |
+| 后缀:boss | 108 | 95 |
+| 探针:skills | 86 | 57 |
 | 探针:characters | 73 | 56 |
-| 探针:skills | 61 | 35 |
+| 后缀:characters | 67 | 59 |
+| 后缀:tips | 66 | 48 |
 | 后缀:how to | 55 | 52 |
-| 后缀:characters | 51 | 43 |
-| 后缀:tips | 49 | 31 |
+| 后缀:co op | 48 | 33 |
+| 后缀:tier list | 48 | 36 |
 | 后缀:mods | 46 | 41 |
 | 后缀:map | 44 | 24 |
+| 后缀:codes | 40 | 26 |
 | 后缀:unlock | 39 | 31 |
-| 后缀:codes | 37 | 23 |
-| 后缀:money | 35 | 28 |
-| 后缀:tier list | 32 | 22 |
-| 后缀:co op | 31 | 16 |
+| 后缀:best build | 38 | 35 |
 
 ## 按游戏
 
 | 游戏 | slug | 有效词 | 最后采集 | 来源 | 页型覆盖 | 站点 | 格式 |
 |---|---|---:|---|---|---|---|---|
 | Annihilated | annihilated | 28 | 2026-10-28 | google_suggest:33（裸词 14、品牌+game 6、探针:steam 5） | 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
-| Blind Descent | blinddescent | 83 | 2026-10-28 | google_suggest:131（裸词 15、品牌+game 15、后缀:demo 14） | 2 Beginner / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
+| Blind Descent | blinddescent | 83 | 2026-10-28 | google_suggest:131（裸词 15、品牌+game 15、后缀:demo 14） | 2 Beginner / 4 核心机制/Boss / 5 FAQ / 待定 | blinddescentwiki | new |
 | Dumpster Gang | dumpstergang | 39 | 2026-10-28 | google_suggest:55（裸词 15、品牌+game 15、探针:steam 6） | 5 FAQ / 待定 | 未建站 | new |
 | ELbab | elbab | 1 | 2026-10-28 | google_suggest:1（品牌+game 1） | 待定 | 未建站 | new |
 | Frostrail | frostrail | 31 | 2026-10-28 | google_suggest:41（裸词 15、品牌+game 11、后缀:release date 4） | 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
@@ -66,7 +66,10 @@
 | Sephiria | sephiria | 156 | 2026-10-28 | google_suggest:169（后缀:best build 15、后缀:reddit 15、后缀:items 15） | 2 Beginner / 3 Tier List / 4 核心机制/Boss / 5 FAQ / 待定 | sephiriawiki | new |
 | Shift At Midnight | shiftatmidnight | 212 | 2026-10-28 | google_suggest:219（后缀:wiki 15、后缀:guide 15、裸词 15） | 1 Codes / 2 Beginner / 4 核心机制/Boss / 5 FAQ / 待定 | shiftatmidnightwiki | new |
 | S.O.N.A.R. | sonar | 14 | 2026-10-28 | google_suggest:15（裸词 7、品牌+game 3、探针:steam 2） | 1 Codes / 5 FAQ / 待定 | 未建站 | new |
+| SpiritVale | spiritvale | 142 | 2026-10-28 | google_suggest:150（后缀:reddit 14、后缀:guide 14、探针:skills 14） | 1 Codes / 2 Beginner / 3 Tier List / 4 核心机制/Boss / 5 FAQ / 待定 | spiritvalewiki | new |
+| The Mound | themound | 214 | 2026-10-28 | google_suggest:226（后缀:release date 15、后缀:characters 15、裸词 15） | 2 Beginner / 3 Tier List / 4 核心机制/Boss / 5 FAQ / 待定 | themoundwiki | new |
 | Waterpark Simulator | waterparksimulator | 232 | 2026-10-28 | google_suggest:253（后缀:guide 15、后缀:unlock 15、裸词 15） | 1 Codes / 2 Beginner / 3 Tier List / 4 核心机制/Boss / 5 FAQ / 待定 | waterparksimulatorwiki | new |
+| Witchspire | witchspire | 103 | 2026-10-28 | google_suggest:110（裸词 15、探针:steam 14、品牌+game 14） | 1 Codes / 2 Beginner / 3 Tier List / 4 核心机制/Boss / 5 FAQ / 待定 | witchspirewiki | new |
 | Worst Class Ever | worstclassever | 7 | 2026-10-28 | google_suggest:11（裸词 4、品牌+game 3、探针:characters 2） | 5 FAQ / 待定 | 未建站 | new |
 | Sephiria | Sephiria | 156 | 2026-10-28 | — | — | sephiriawiki | legacy-meta |
 | Nivalis Nights | Nivalis-Nights | 103 | 2026-10-26 | google_suggest:109（裸词 15、品牌+game 15、后缀:how to 15） | 2 Beginner / 4 核心机制/Boss / 5 FAQ / 待定 | nivalisnightswiki | new |
@@ -131,14 +134,13 @@
 | Silver Pines | Silver-Pines | 0 | — | — | — | silverpineswiki | legacy |
 | Skills & Raids | Skills-and-Raids | 20 | — | — | — | skillsandraidswiki | legacy |
 | SpiritVale | SpiritVale-feedback | 0 | — | — | — | 未建站 | legacy |
-| SpiritVale | SpiritVale | 113 | — | — | — | spiritvalewiki | legacy |
 | Tears of Metal 玩家反馈分析 | Tears-of-Metal-feedback | 0 | — | — | — | 未建站 | legacy |
 | The Mound Omen of Cthulhu | The Mound Omen of Cthulhu | 77 | — | — | — | 未建站 | legacy |
 | The Mound: Omen of Cthulhu | The-Mound-feedback | 0 | — | — | — | 未建站 | legacy |
-| The Mound | The-Mound | 51 | — | — | — | themoundwiki | legacy |
 | Welcome to Elderfield | Welcome-to-Elderfield | 0 | — | — | — | 未建站 | legacy |
 | Witchspire | Witchspire-feedback | 0 | — | — | — | 未建站 | legacy |
-| Witchspire | Witchspire | 97 | — | — | — | witchspirewiki | legacy |
+| Blind Descent | blinddescent-matrix | 0 | — | — | — | 未建站 | legacy |
+| Blind Descent | blinddescent-sources | 0 | — | — | — | 未建站 | legacy |
 | GONE Fishing | gonefishing-matrix | 0 | — | — | — | 未建站 | legacy |
 | GONE Fishing | gonefishing-sources | 0 | — | — | — | 未建站 | legacy |
 | — | lowbudgetrepairswiki-postlaunch-fix | 0 | — | — | — | 未建站 | legacy |
@@ -160,7 +162,7 @@
 
 ## 待处理
 
-**软问题**（旧格式，逐步随复采替换，不阻塞）：49 份
+**软问题**（旧格式，逐步随复采替换，不阻塞）：48 份
 
 - 无采集元信息头（无法自动统计）：Ardent-Wilds.md
 - 无采集元信息头（无法自动统计）：DinoBlade.md
@@ -182,4 +184,4 @@
 - 无采集元信息头（无法自动统计）：Moonlight-Peaks.md
 - 无采集元信息头（无法自动统计）：ReStory.md
 - 无采集元信息头（无法自动统计）：Sephiria-feedback.md
-- … 其余 29 份
+- … 其余 28 份

@@ -406,8 +406,41 @@ function loadStore() {
   return JSON.parse(fs.readFileSync(p, 'utf8'));
 }
 
+/**
+ * 旧命名的主报告（如 `SpiritVale.md`）与新 slug（`spiritvale.md`）同名不同字时，
+ * `keyword-index.mjs --check` 会判「命名冲突：主报告有 2 份」——2026-10-28 采
+ * Shift At Midnight 时真的撞上了，只能人工 `git mv` 收尾。这里在写入前自动把
+ * 旧文件挪进 docs/archive，让「重采老词库」不再需要手工抢险。
+ */
+function archiveLegacyMainReport() {
+  const norm = (s) => s.toLowerCase().replace(/[^a-z0-9]/g, '');
+  const target = `${SLUG}.md`;
+  const hits = fs
+    .readdirSync(OUT_DIR)
+    .filter((f) => f.endsWith('.md') && f !== target)
+    .filter((f) => !/-expand-|feedback/i.test(f))
+    .filter((f) => norm(f.replace(/\.md$/, '').replace(/wiki$/, '')) === norm(SLUG));
+  for (const f of hits) {
+    const d = new Date(fs.statSync(path.join(OUT_DIR, f)).mtimeMs);
+    const stampDay = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+    const dir = path.join(REPO, 'docs', 'archive');
+    fs.mkdirSync(dir, { recursive: true });
+    const dest = path.join(dir, `keyword-results-${f.replace(/\.md$/, '')}-${stampDay}.md`);
+    try {
+      execFileSync('git', ['mv', path.join('keyword-results', f), path.relative(REPO, dest)], {
+        cwd: REPO,
+        stdio: 'pipe',
+      });
+    } catch {
+      fs.renameSync(path.join(OUT_DIR, f), dest);
+    }
+    console.log(`归档旧命名报告：keyword-results/${f} → ${path.relative(REPO, dest)}`);
+  }
+}
+
 if (WRITE) {
   fs.mkdirSync(DATA_DIR, { recursive: true });
+  archiveLegacyMainReport();
   const store = loadStore();
   const prev = store.keywords ?? {};
   const merged = { ...prev };
