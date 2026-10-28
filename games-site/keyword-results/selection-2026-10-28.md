@@ -309,3 +309,58 @@
 | 两家 wiki 的精确最后更新日（PSG 首页显示 09-17，sitemap 无 lastmod） | 厚/薄判定 → `P` 1.5–2.0 | 标 `[待确认]`；两种都在 15–17 分区间 |
 | 13 个新候选全部无词库 | 不能评分 | 已按硬门槛分诊，3 个转 `需采集` |
 | 所有候选 Google Trends 28 天 | — | 一律 `[待确认]`，未估算 |
+
+---
+
+## 五、2026-10-28 下午轮 R5 —— 10 个 `需采集` 候选的采词与四维评分
+
+> 触发：上午轮结束后 `CANDIDATE-POOL.md` 仍有 10 个 `需采集`（#79–#85、#94、#100、#101），是漏斗最大漏点。
+> 词库：`scripts/harvest-keywords.mjs` 逐个采集（21 次请求/个，10/10 成功、失败 0，2026-10-28）。
+> 分析：4 个候选分析员并行（每人 2 个），完整报告见 `.agent/selection-{slug}-2026-10-28.md`。
+> 规则：`docs/STRATEGY-选词与评分.md` §2.6（先硬否决 `需求≤2`/`竞争≤1`，再过 ≥14）。
+
+### 5.1 门禁淘汰（复核有效词 < 20，不评分）
+
+| # | 候选 | 脚本「有效词」 | 分析员复核 | 主因 | 复采条件 |
+|---|------|:--:|:--:|---|---|
+| 80 | Annihilated | 28 | **9** | `annihilated` 是通用动词，crossword/meaning/svu 等撞名；Q2 前 7 条无一相关 | D+7=11-17，锚定 `Annihilated Death Kumiai` |
+| 81 | Malignus | 37 | **5** | 13 条是万智牌卡牌词，`malignus combos` 前 10 全是 EDHREC/Commander Spellbook | EA D+7=11-19，锚定 `Malignus Mossbomb`/`Malignus dungeon` |
+| 94 | One Way Tickets | 28 | **0** | 全部是机票行业义（`to {城市}`/比价/购票策略），真实品牌锚定 0% | 改用中文名「再再启程」+ `One Way Tickets game`；但英文站结构性抢不到量 |
+| 100 | ELbab | 1 | — | 4 字母名被词典/人名/其他游戏吞没（噪声 99.4%） | 无（品牌不可检索） |
+| 101 | Worst Class Ever | 7 | — | 通用口语，Next Fest 热度未转成品牌搜索（锚定率 24.1%） | 发售后锚定 `Worst Class Ever game` 复采 |
+
+### 5.2 过门禁的 5 个候选（四维 20 分制）
+
+| # | 候选 | 需求 | 竞争 | 内容 | 生命 | 总分 | 判定 |
+|---|------|:--:|:--:|:--:|:--:|:--:|---|
+| 79 | HANDS OVER | 2 | 5 | 3 | 5 | **15** | ❌ 放弃（需求 2 否决；取 3 则 16，边界留主管） |
+| 82 | **Blind Descent** | 3 | 3 | 4 | 5 | **15** | ✅ **可建** |
+| 83 | Dumpster Gang | 2 | 3 | 2 | 4 | **11** | ❌ 放弃 |
+| 84 | Never Be Alone | 2 | 2 | 5 | 5 | **14** | ❌ 放弃（需求 2 否决；取 3 则 15，边界留主管） |
+| 85 | Frostrail | 3 | 2 | 4 | 4 | **13** | ⏸️ 低优先（不满足 12–13 例外） |
+
+共性：5 个候选的攻略型词占比全部 <30%（3.7%/25%/7.7%/0%/9.7%），需求普遍靠「发售日/平台/价格」撑起 —— 再加一道发售日陷阱的现实样本。
+
+### 5.3 主管复核更正（Blind Descent 竞争 4 → 3）
+
+分析员按 6 条 SERP 判 `P=1.0`（只看到 `blinddescent.wiki` 且未进前 10）。主管按 #84/#85 暴露的同一漏洞做了域名实测（`dig @1.1.1.1` + `curl --resolve`，2026-10-28）：
+
+| 域名 | 状态 | 规模 | 最后更新 | 判定 |
+|---|---|---|---|---|
+| `blinddescent.wiki`（301→www） | 200 | **216 URL / 4 语言 / 5+ 类**（release/multiplayer/platforms/playtest/guide） | 2026-10-19 | **厚** |
+| `blind-descent.wiki` | 200 | **35 URL / 6 类** | 2026-10-17 | **厚** |
+| `blinddescent.wiki.gg` | 403（Cloudflare「Blocked」） | 无内容可读 | — | 不计 |
+| `blinddescentgame.wiki` / `blinddescentguide.{com,wiki}` | 无 DNS | — | — | 不存在 |
+
+→ `T=2`、`P=2.0` → **竞争 3 分**（表 (1,2] 档），总分 16 → **15**，仍 ≥14 可建。候选人池与本节结论均按 15 记账。
+
+### 5.4 方法论修正（MUST 进 `23-Profile`）
+
+未发售游戏的攻略站建立速度快于搜索引擎收录：本轮 #82/#84/#85 的 SERP 都显示 `P=0`，域名实测分别是 `2.0 / 2.0 / 2.0`。只跑 6 条 SERP 会系统性低估竞争。
+→ 竞争检查 MUST 在 6 条查询后补一步：对 `{slug}.wiki`、`{slug}game.wiki`、`{slug}guide.com`、`{slug}guide.wiki`、`{slug}.com` 做 `dig` + 直取首页/`sitemap.xml`，数站内页与 `lastmod`；实测存在的专门站 MUST 计入 `P`。
+
+### 5.5 本轮结论
+
+- **可建 = 1**：#82 Blind Descent（15 分，需求 3 / 竞争 3 / 内容 4 / 生命周期 5）。
+- 其余：门禁淘汰 5、硬否决 2、低优先 1、边界决策项 2（HANDS OVER / Never Be Alone，均按严格口径放弃）。
+- 差异化红线（交建站协调员）：两家厚站已铺 release/multiplayer/platform/playtest，**只做数值/路线/机制深度**；`title` MUST 带 `survival game`/`co-op` 限定词，避开 2020 年 ML 论文与小说同名 SERP。

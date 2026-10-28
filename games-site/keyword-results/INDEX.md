@@ -1,10 +1,10 @@
 # 词库索引
 
-> 生成时间：2026-10-27 23:51 UTC
+> 生成时间：2026-10-28 05:32 UTC
 > 生成脚本：`node scripts/keyword-index.mjs` —— 不要手改本文件
 > 规则：`docs/STRATEGY-挖词与词库.md`
 
-共 **90** 份游戏词库（新格式 25，旧格式 65），已建站 **34** 站。
+共 **104** 份游戏词库（新格式 38，旧格式 66），已建站 **36** 站。
 
 > 新格式以 `slug == 站点目录名去掉 wiki` 精确匹配；旧格式只能按文件名猜，「未建站」可能有漏配。
 
@@ -15,7 +15,7 @@
 
 | 渠道 | 贡献词数 | 独占词数 |
 |---|---:|---:|
-| google_suggest | 1873 | 1873 |
+| google_suggest | 2864 | 2864 |
 
 ## 采集锚定产出
 
@@ -23,38 +23,52 @@
 
 | 锚定批次 | 贡献词数 | 独占词数 |
 |---|---:|---:|
-| 裸词 | 318 | 258 |
-| 品牌+game | 227 | 173 |
-| 探针:steam | 188 | 155 |
-| 后缀:release date | 173 | 134 |
-| 探针:ps5 | 124 | 90 |
-| 后缀:reddit | 122 | 91 |
-| 后缀:demo | 120 | 100 |
-| 后缀:price | 106 | 69 |
-| 后缀:guide | 102 | 69 |
-| 后缀:wiki | 87 | 66 |
-| 后缀:update | 86 | 63 |
-| 后缀:boss | 67 | 56 |
-| 后缀:multiplayer | 61 | 43 |
-| 探针:skills | 45 | 29 |
-| 后缀:characters | 43 | 39 |
-| 探针:characters | 40 | 32 |
-| 后缀:how to | 40 | 37 |
-| 后缀:tips | 30 | 21 |
-| 后缀:codes | 30 | 18 |
-| 后缀:map | 30 | 20 |
-| 后缀:tier list | 25 | 19 |
-| 后缀:mods | 23 | 19 |
-| 后缀:co op | 21 | 12 |
-| 后缀:money | 17 | 14 |
-| 后缀:beginner guide | 15 | 5 |
+| 裸词 | 483 | 402 |
+| 品牌+game | 356 | 270 |
+| 探针:steam | 257 | 204 |
+| 后缀:release date | 247 | 183 |
+| 后缀:reddit | 192 | 139 |
+| 探针:ps5 | 191 | 135 |
+| 后缀:demo | 183 | 150 |
+| 后缀:price | 166 | 107 |
+| 后缀:guide | 160 | 110 |
+| 后缀:wiki | 136 | 98 |
+| 后缀:update | 127 | 95 |
+| 后缀:multiplayer | 109 | 76 |
+| 后缀:boss | 84 | 73 |
+| 探针:characters | 73 | 56 |
+| 探针:skills | 61 | 35 |
+| 后缀:how to | 55 | 52 |
+| 后缀:characters | 51 | 43 |
+| 后缀:tips | 49 | 31 |
+| 后缀:mods | 46 | 41 |
+| 后缀:map | 44 | 24 |
+| 后缀:unlock | 39 | 31 |
+| 后缀:codes | 37 | 23 |
+| 后缀:money | 35 | 28 |
+| 后缀:tier list | 32 | 22 |
+| 后缀:co op | 31 | 16 |
 
 ## 按游戏
 
 | 游戏 | slug | 有效词 | 最后采集 | 来源 | 页型覆盖 | 站点 | 格式 |
 |---|---|---:|---|---|---|---|---|
+| Annihilated | annihilated | 28 | 2026-10-28 | google_suggest:33（裸词 14、品牌+game 6、探针:steam 5） | 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
+| Blind Descent | blinddescent | 83 | 2026-10-28 | google_suggest:131（裸词 15、品牌+game 15、后缀:demo 14） | 2 Beginner / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
+| Dumpster Gang | dumpstergang | 39 | 2026-10-28 | google_suggest:55（裸词 15、品牌+game 15、探针:steam 6） | 5 FAQ / 待定 | 未建站 | new |
+| ELbab | elbab | 1 | 2026-10-28 | google_suggest:1（品牌+game 1） | 待定 | 未建站 | new |
+| Frostrail | frostrail | 31 | 2026-10-28 | google_suggest:41（裸词 15、品牌+game 11、后缀:release date 4） | 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
+| HANDS OVER | handsover | 48 | 2026-10-28 | google_suggest:55（裸词 15、品牌+game 15、探针:ps5 6） | 5 FAQ / 待定 | 未建站 | new |
+| Malignus | malignus | 37 | 2026-10-28 | google_suggest:79（裸词 12、后缀:update 5、后缀:guide 5） | 3 Tier List / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
+| Never Be Alone | neverbealone | 89 | 2026-10-28 | google_suggest:110（裸词 15、品牌+game 15、后缀:release date 11） | 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
+| One Way Tickets | onewaytickets | 28 | 2026-10-28 | google_suggest:37（裸词 15、后缀:reddit 8、后缀:release date 3） | 待定 | 未建站 | new |
 | Probably Stolen | probablystolen | 75 | 2026-10-28 | google_suggest:104（裸词 15、品牌+game 15、后缀:guide 10） | 2 Beginner / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
+| Sephiria | sephiria | 156 | 2026-10-28 | google_suggest:169（后缀:best build 15、后缀:reddit 15、后缀:items 15） | 2 Beginner / 3 Tier List / 4 核心机制/Boss / 5 FAQ / 待定 | sephiriawiki | new |
+| Shift At Midnight | shiftatmidnight | 212 | 2026-10-28 | google_suggest:219（后缀:wiki 15、后缀:guide 15、裸词 15） | 1 Codes / 2 Beginner / 4 核心机制/Boss / 5 FAQ / 待定 | shiftatmidnightwiki | new |
 | S.O.N.A.R. | sonar | 14 | 2026-10-28 | google_suggest:15（裸词 7、品牌+game 3、探针:steam 2） | 1 Codes / 5 FAQ / 待定 | 未建站 | new |
+| Waterpark Simulator | waterparksimulator | 232 | 2026-10-28 | google_suggest:253（后缀:guide 15、后缀:unlock 15、裸词 15） | 1 Codes / 2 Beginner / 3 Tier List / 4 核心机制/Boss / 5 FAQ / 待定 | waterparksimulatorwiki | new |
+| Worst Class Ever | worstclassever | 7 | 2026-10-28 | google_suggest:11（裸词 4、品牌+game 3、探针:characters 2） | 5 FAQ / 待定 | 未建站 | new |
+| Sephiria | Sephiria | 156 | 2026-10-28 | — | — | sephiriawiki | legacy-meta |
 | Nivalis Nights | Nivalis-Nights | 103 | 2026-10-26 | google_suggest:109（裸词 15、品牌+game 15、后缀:how to 15） | 2 Beginner / 4 核心机制/Boss / 5 FAQ / 待定 | nivalisnightswiki | new |
 | Cucina Stellata | cucinastellata | 15 | 2026-10-26 | google_suggest:15（裸词 15） | 5 FAQ / 待定 | 未建站 | new |
 | Dungeon Inn | dungeoninn | 12 | 2026-10-26 | google_suggest:14（裸词 11、探针:steam 2、后缀:guide 1） | 5 FAQ / 待定 | 未建站 | new |
@@ -90,7 +104,6 @@
 | Crimson Moon | Crimson-Moon | 0 | 2026-08-28 | — | — | crimsonmoonwiki | legacy-meta |
 | Bonehold | Bonehold | 0 | 2026-08-25 | — | — | boneholdwiki | legacy-meta |
 | Phantom Tower | Phantom-Tower | 0 | 2026-08-25 | — | — | phantomtowerwiki | legacy-meta |
-| Shift At Midnight | Shift-At-Midnight | 0 | 2026-08-25 | — | — | shiftatmidnightwiki | legacy-meta |
 | Sovereign Tower | Sovereign-Tower | 0 | 2026-08-25 | — | — | sovereigntowerwiki | legacy-meta |
 | Low-Budget Repairs | Low-Budget-Repairs | 0 | 2026-08-03 | — | — | lowbudgetrepairswiki | legacy-meta |
 | Delverium | Delverium | 0 | 2026-08-02 | — | — | delveriumwiki | legacy-meta |
@@ -115,7 +128,6 @@
 | Moonlight Peaks | Moonlight-Peaks | 0 | — | — | — | moonlightpeakswiki | legacy |
 | ReStory: Chill Electronics Repairs | ReStory | 0 | — | — | — | restorywiki | legacy |
 | Sephiria | Sephiria-feedback | 0 | — | — | — | 未建站 | legacy |
-| Sephiria | Sephiria | 79 | — | — | — | sephiriawiki | legacy |
 | Silver Pines | Silver-Pines | 0 | — | — | — | silverpineswiki | legacy |
 | Skills & Raids | Skills-and-Raids | 20 | — | — | — | skillsandraidswiki | legacy |
 | SpiritVale | SpiritVale-feedback | 0 | — | — | — | 未建站 | legacy |
@@ -133,11 +145,13 @@
 | Neon Abyss 2 | neonabyss2-matrix | 0 | — | — | — | 未建站 | legacy |
 | Neon Abyss 2 | neonabyss2-sources | 0 | — | — | — | 未建站 | legacy |
 | 新词缺口扫描 | new-keywords-2026-10-23 | 0 | — | — | — | 未建站 | legacy |
+| Probably Stolen | probablystolen-sources | 0 | — | — | — | 未建站 | legacy |
 | REKA | reka-matrix | 0 | — | — | — | 未建站 | legacy |
 | REKA | reka-sources | 0 | — | — | — | 未建站 | legacy |
 | 候选分析 | selection-2026-10-26-round2 | 0 | — | — | — | 未建站 | legacy |
 | 候选分析 | selection-2026-10-26-round3 | 0 | — | — | — | 未建站 | legacy |
 | 候选分析 | selection-2026-10-26 | 0 | — | — | — | 未建站 | legacy |
+| 候选分析 | selection-2026-10-28 | 0 | — | — | — | 未建站 | legacy |
 | Silver Pines / Dressmaker | silverpines-dressmaker-postlaunch-fix | 0 | — | — | — | 未建站 | legacy |
 | SILVER PINES 建站记录 | silverpineswiki-build-9-16 | 0 | — | — | — | 未建站 | legacy |
 | The Relic: First Guardian | the-relic-first-guardian | 0 | — | — | — | 未建站 | legacy |
@@ -146,7 +160,7 @@
 
 ## 待处理
 
-**软问题**（旧格式，逐步随复采替换，不阻塞）：48 份
+**软问题**（旧格式，逐步随复采替换，不阻塞）：49 份
 
 - 无采集元信息头（无法自动统计）：Ardent-Wilds.md
 - 无采集元信息头（无法自动统计）：DinoBlade.md
@@ -168,4 +182,4 @@
 - 无采集元信息头（无法自动统计）：Moonlight-Peaks.md
 - 无采集元信息头（无法自动统计）：ReStory.md
 - 无采集元信息头（无法自动统计）：Sephiria-feedback.md
-- … 其余 28 份
+- … 其余 29 份

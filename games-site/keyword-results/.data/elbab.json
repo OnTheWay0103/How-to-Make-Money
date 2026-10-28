@@ -1,0 +1,35 @@
+{
+  "slug": "elbab",
+  "game": "ELbab",
+  "runs": [
+    {
+      "at": "2026-10-28T05:18:51.677Z",
+      "locale": "en",
+      "requests": 21,
+      "failures": 0,
+      "raw": 163,
+      "dedup": 157,
+      "valid": 1,
+      "variants": 0,
+      "noise": 156,
+      "noiseRate": 0.9936,
+      "anchorRate": 0.0064,
+      "newKeywords": 1
+    }
+  ],
+  "keywords": {
+    "elbab gameplay": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-28",
+      "lastSeen": "2026-10-28",
+      "variantOf": null
+    }
+  },
+  "aliases": [],
+  "locale": "en",
+  "updatedAt": "2026-10-28T05:18:51.677Z"
+}
