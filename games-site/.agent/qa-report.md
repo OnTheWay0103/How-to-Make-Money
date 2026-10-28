@@ -2556,3 +2556,13 @@ WebSearch "GONE Fishing ... GONE Studios ABCT Productions" / "REKA ... release d
 > 由候选分析员 ANALYSIS-2026-10-28 追加，供下一轮选稿参考（不改动本文件以上内容）。
 
 接下来最值得写的 3 个页面方向：**① #77 Probably Stolen「房租/买断经济 + 水商/酿酒产线利润」深度页** —— 词库 75 个有效词（复核无撞名，独立意图 67）、机制/物品型 29 词、攻略型 26/75=34.7%（>30% 未触发售日陷阱），但 6 条固定查询显示两家英文专属 wiki 已在发售前铺满新手/鉴定页（`P=2.0`，竞争 2，probably-stolen.wiki 11 页 + probablystolengame.wiki ~79 页），唯一空位是利润/路线数值；**② #94 One Way Tickets「载具与升级路线」** —— 已发售 6 天、1,487 条 86%，是 13 个新候选里唯一满足「已发售 + 评测 ≥300 + 好评 ≥85%」的，词库待采（`P` 待测，采词优先级 #1）；**③ #101 Worst Class Ever「8 人阵营/角色反制」** —— Next Fest 独立玩家第 1、峰值 27,684、demo 60 万+，11-09 发售窗口仅 12 天，词库待采（采词优先级 #2，须先用攻略型占比验证是否超休闲）。排序逻辑：① 有词库可立即动工但竞争最重；②③ 需求信号更强、窗口更近，但必须先采词再判 `P`。完整依据见 `keyword-results/selection-2026-10-28.md`。
+
+### R5 采词后更新（2026-10-28 下午轮，主管追加）
+
+> 上面那段是**采词前**的判断。R5 把 10 个 `需采集` 候选全部采完并跑了四维评分，结论已变：**②#94 One Way Tickets 复核仅 0 个有效词、③#101 Worst Class Ever 仅 7 个**，两个都因「有效词 <20」在门禁处出局；①#77 Probably Stolen 因未解锁仍暂缓。以采完的数据为准，后续最值得写的 3 个方向改为：
+
+1. **Blind Descent —— co-op / multiplayer 页群**（本轮已建站，首批 8 页需覆盖）：68 个复核有效词里 co-op 类 17 条，是唯一成组的攻略型面（`co-op` / `crossplay` / `local co-op` / `how to invite friends` / `demo multiplayer`）；两家厚站（`blinddescent.wiki`、`blind-descent.wiki`）已铺 release/platform/playtest 泛信息页，差异化只能靠**具体步骤**。补页优先级：4 人联机怎么开 → 跨平台限制 → demo 联机能玩多久。
+2. **Sephiria —— 独立 `tier list` 页**（6 词，站内目前无对应页）：re-harvest 156 有效词里 Tier List 6 条成组，是站内唯一成组缺口；但只有 Suggest 单源，动笔前 MUST 先补 ≥2 个独立来源，否则宁缺毋滥。
+3. **Shift At Midnight —— 「Does it have codes?」答疑页**（5 词，站内唯一成组缺口）：官方从未公布兑换码系统，只能写「没有 codes / 别信假码」的答疑页，MUST NOT 编造码；写之前先确认官方渠道口径未变。
+
+不做：Frostrail（13 分低优先，`P=2.0` 且攻略型 9.7%）、HANDS OVER / Never Be Alone（需求 2 边界，按严格口径否决）、One Way Tickets / Annihilated / Malignus（品牌不可检索或有效词不足）。完整依据见 `keyword-results/selection-2026-10-28.md` 第五节与 `.agent/selection-*-2026-10-28.md`。
