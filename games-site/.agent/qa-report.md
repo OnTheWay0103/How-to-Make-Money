@@ -2630,3 +2630,128 @@ WebSearch "GONE Fishing ... GONE Studios ABCT Productions" / "REKA ... release d
 **PASS（含 1 项已修 🟠）** —— 8 页 / 11,305 词，机械门禁全过，12 条抽检中 11 条逐字可回溯、1 条为已标注的社区单源；唯一的无源数值（10–15 小时）已在部署前删除并复验线上。
 
 **缺口（需人工）**：GA4 property 未创建 → `lib/seo-config.ts` 留空、dashboard 未注册；已在飞书「站点台账(人工)2026-10」补登记行（站点裸域名），`自动化状态` 留空=待填。
+
+---
+
+# QA-QUICK 2026-10-28 — probablystolenwiki（新建站，6 篇 + FAQ）
+
+> 阶段：建站协调员交付后主管直跑（quick）。审核对象：`probablystolenwiki/content/guides/` 6 篇 + `app/faq/page.tsx`（16 条）+ `app/page.tsx`（首页 FAQ 实为 **5** 条，任务书写 4 条）。
+> 事实基准：`keyword-results/probablystolen-sources.md`（A1–A13；其中 **A2b** 为 2026-10-28 18:40 补抓的 Steam 商店页 `About This Game` 全文，专门用于许可证/地下市场/房租/产线文案；B 级 5 条仅定性、C 级竞对 6 条严禁引用）。
+> 矩阵：`keyword-results/probablystolen-matrix.md`（P0 ×5 / P1 ×2）。
+
+## 一、机械门禁
+
+| 项 | 结果 |
+|---|---|
+| `node scripts/lint-guides.mjs probablystolenwiki` | **6 篇全部通过 ✅**（exit 0） |
+| `node scripts/check-site-residue.mjs probablystolenwiki` | **无模板残留 ✅**（exit 0；但脚本查的是占位符/他站域名，**语义型模板残留未覆盖**，见缺陷 🟠-1/2/3） |
+| 竞对域名（probably-stolen.wiki / probablystolengame.wiki / gamewikistation / tposegaming / thegamesedge / gamebrief） | **0 命中 ✅** |
+| 「已可玩 / 已有评测 / 已有玩家数」类断言 | **0 命中 ✅**（"100,000 playtest players before launch" 为官方 A9 且明确限定 before launch） |
+| 用 approximately / estimated / around 绕开 `[Unconfirmed]` | **0 命中 ✅**（唯一 "estimated" 是 faq 页注释里的 "rather than estimated"，不进产物） |
+| 矩阵覆盖 | P0 **5/5 = 100%**、P1 **2/2 = 100%**、矩阵外正文页 **0** ✅（`/tier-list` 空页属模板层，非正文矩阵页） |
+| 页型覆盖 | Beginner ×2（#2 #3）/ 核心机制 ×4（#4 #5 #6 #7）/ FAQ ×1（#1）；Codes 与 Tier list 为矩阵已判定的「本作不适用」，不计缺口 ✅ |
+| 总词数 / 单篇下限 | 合计 **8,824 词**（≥8,000）；单篇 **1,429–1,501**（≥1,200）✅ |
+| title / description | 48–53 / 149–160 ✅（frontmatter 口径） |
+| H1 | 6/6 = **1 个** ✅；H2→H3 无跳级 ✅ |
+| 表格数 | 3–4 个/页（≥2）✅ |
+| `related` | 6/6 **块状数组**；目标页 **100% 存在** ✅ |
+| 内链 | `/guides/*` **10/10 可达**，0 断链 ✅ |
+| 首段 40–60 词直答 | 6/6 通过（51–59 词）✅ |
+| 跨页重复（≥8 词同句） | **0 条**，无批量换名词痕迹 ✅ |
+
+### 页型 + 词数表
+
+| 页 | 页型 | 正文词数 | H2 | FAQ 问句 | 表格 | title | desc | 首段词 |
+|---|---|---|---|---|---|---|---|---|
+| probably-stolen-beginner-guide | Beginner | 1,429 | 9 | 4（H3） | 4 | 53 | 149 | 56 |
+| probably-stolen-starting-scenarios-guide | Beginner | 1,449 | 10 | 5（H3） | 4 | 51 | 154 | 55 |
+| probably-stolen-water-business-guide | 核心机制 | 1,493 | 10 | 6（加粗） | 3 | 49 | 158 | 57 |
+| probably-stolen-aquafarmer-guide | 核心机制 | 1,462 | 10 | 6（加粗） | 4 | 52 | 155 | 57 |
+| probably-stolen-black-market-reputation-guide | 核心机制 | 1,501 | 7 | 5（H3） | 4 | 52 | 160 | 59 |
+| probably-stolen-buy-out-shop-guide | 核心机制 | 1,490 | 9 | 5（H3） | 4 | 48 | 154 | 51 |
+
+> 正文词数已剔除 frontmatter（`wc -w` 含 frontmatter 时会显示 1,815–1,948，不作为口径）。
+
+## 二、事实核验（抽样 36 条，逐条回溯到 sources 编号）
+
+| # | 页 | 断言（摘录） | 来源 | 判定 |
+|---|---|---|---|---|
+| 1 | beginner | "Earn enough to buy out your shop before rising rent forces your hand." | A2 short_description | ✅ 逐字 |
+| 2 | beginner | Game Ending「purchase and own the store」+ THE STATS 四项（most profitable sale / days survived / total worth / perks） | A4 | ✅ 逐字 |
+| 3 | beginner | Toolbox 由 Dr. Jackson "after day 14" 出售 | A6 | ✅ 逐字 |
+| 4 | beginner | Premium Spring Water 带 Water tag，non-Upper Level 与 tourists 不接受 | A6 | ✅ 逐字 |
+| 5 | beginner | Vending Machines "sell goods overnight after your close shop" | A4 | ✅ 逐字 |
+| 6 | beginner | Black Market -40 声望仍保留 janitorial service，费用翻倍 | A7 | ✅ 逐字 |
+| 7 | beginner | Model Citizen 20%→50%；Intimidating 25%→33% 且 3→2 点；Addiction 5%→8%；库存窗口 10→25；锭 +20/+20；废料修理 50% | A6 | ✅ 逐字 |
+| 8 | beginner | 房租与 station's cut 是「a fixed cost and a percentage cost」 | A12 仅「rent / station's cut rise over time」 | ⚠️ 推断（无逐字） |
+| 9 | starting | 1.0 九个开局（Apprentice…Aquafarmer） | A4 + A5 | ✅ 逐字 |
+| 10 | starting | "After picking a starting scenario, you can choose between 4 difficulty options." | A4 | ✅ 逐字 |
+| 11 | starting | Rat Wrangler 「previously secret」现已可见 | A8 | ✅ 逐字 |
+| 12 | starting | 官方原文 "Can you grow a healthy 2x3 rat?" | A4 | ✅ 逐字 |
+| 13 | starting | Aquafarmer 起始：水循环系统 + tilapia + 鱼食 | A10 | ✅ 逐字 |
+| 14 | starting | Organ Trader / Junker / Street Food Vendor 为 post-launch | A4 | ✅ 逐字 |
+| 15 | starting | "2x3 is the only measurement attached to any scenario in any official text" | 无对应条 | ⚠️ 无源（全称判断） |
+| 16 | water | "Water Merchant: Test, purify, re-label or don't. Liability is yours." | A5 | ✅ 逐字 |
+| 17 | water | Water Merchant 是 9-14 公开 demo 的新开局 | A9 | ✅ 逐字 |
+| 18 | water | "Water trading guide can now be bought from Dr. Jackson" | A7 | ✅ 逐字 |
+| 19 | water | 倒酒入液体容器生成 Wine Extract，并改变液体颜色 | A6 | ✅ 逐字 |
+| 20 | water | 展示柜藏禁品触发检查、通过后不再给 Security 声望 | A8 | ✅ 逐字 |
+| 21 | aquafarmer | "Each has its own habitat requirements… manage the tank's water quality, filtration, and energy cell" | A10 | ✅ 逐字 |
+| 22 | aquafarmer | tilapia 多品种 → eels / sturgeons「more valuable」 | A10 | ✅ 逐字 |
+| 23 | aquafarmer | roe → eggs → fry → mature fish | A10 | ✅ 逐字 |
+| 24 | aquafarmer | 刀取肉；Surgery Tools 对 sturgeon 取 caviar | A10 | ✅ 逐字 |
+| 25 | aquafarmer | 库存同时打开窗口上限 10→25 | A6 | ✅ 逐字 |
+| 26 | black-market | "Unlock advanced licenses to access the underground market" | A2b GAME FEATURES | ✅ 逐字 |
+| 27 | black-market | "Some trades need heavy machinery and permits, others just a good hiding spot and a straight face." | A2b | ✅ 逐字 |
+| 28 | black-market | "Reputation buys access and protection, but it also paints a target on your back" | A2b | ✅ 逐字 |
+| 29 | black-market | 清关检查不再授予 Security 声望（48.3.12） | A8 | ✅ 逐字 |
+| 30 | black-market | Thief 库存随 Black Market 声望缩放 | A6 | ✅ 逐字 |
+| 31 | black-market | security fisher / revolutionary / fallen elite 三类顾客 | A2b | ✅ 逐字 |
+| 32 | black-market | "every bargain comes with a trade-off" + "Adjusted how bargaining affects customer budgets" | A2b + A6 | ✅ 逐字 |
+| 33 | buy-out | Game Ending 完整引文（purchase and own the store + THE STATS） | A4 | ✅ 逐字 |
+| 34 | buy-out | "Rent increases over time, regardless of how well your week went." | A2b | ✅ 逐字 |
+| 35 | buy-out | 落后 → 失去吸引力 → 客流减少 → 收入下降 → 缺口扩大 | A2b | ✅ 逐字 |
+| 36 | buy-out | "Every product line has its own profit curve and its own way of ruining you."；香烟目检 / 水需检测过滤 / 稀有品需估价 | A2b | ✅ 逐字 |
+| 37 | buy-out | Augmented 结局在非 Hard Mode 不再结束游戏 | A7 | ✅ 逐字 |
+| 38 | buy-out | "The store page gives rent more words than any other mechanic" | 无对应条 | ⚠️ 无源（编辑性论断） |
+| 39 | FAQ | US$19.99 / -10% / EU€19.99 / UK£16.99 / CN¥55 / JP¥1,999 / CA / AU 等 | A3 | ✅ 逐字 |
+| 40 | FAQ | 8 语言 = English, German, French, Spanish-Spain, Polish, Russian, Simplified Chinese, Japanese | A1 | ✅ 逐字 |
+| 41 | FAQ | 21 Steam Achievements；Workshop + modding API + mod 本地化 | A4 | ✅ 逐字 |
+| 42 | FAQ | 最低配置 Win10 x64 / i3 / 8 GB / GTX 650 Ti / DX10 / 1 GB | A1 | ✅ 逐字 |
+| 43 | FAQ | 500,000 wishlists；100,000 playtest players | A5 + A9 | ✅ 逐字 |
+| 44 | FAQ | Bei Ning Pan 单人起家，后加入 4 名美术 + 3 名音频 | A11 | ✅ 逐字 |
+| 45 | FAQ | 9 开局 + 4 难度；3 个 post-launch 开局 | A4 + A5 | ✅ 逐字 |
+| 46 | FAQ | "first-person cyberpunk shopkeeping simulator"（正文 + 配置答案各 1 处） | 无对应条（A2/A2b 无 first-person） | ⚠️ 无源 |
+| 47 | 首页 FAQ | "Regional pricing is listed for the EU, UK, China, Japan and nine other regions." | A3 实为 17 个区域，除 US 与已点名 4 个外尚有 **12** 个 | ❌ 数字不符 |
+
+**命中率：36 条抽检中 31 条逐字/等价可回溯（86.1%）；4 条无逐字依据（均为定性推断或全称判断，非数值编造）；1 条区域计数与 A3 不符。**
+
+## 三、缺陷清单
+
+| # | 级别 | 位置 | 问题 | 是否已修 |
+|---|---|---|---|---|
+| 1 | 🟠 | `app/page.tsx:82`、`app/guides/page.tsx:10`、`app/about/page.tsx:28-29` | 文案仍写 "codes / tier lists / boss strategies / Bosses and challenges" —— 本站**没有** codes、tier list、boss 页（矩阵已判 Codes 与 Tier list 不适用）。属模板语义残留，会误导读者与搜索引擎。 | ❌ 未修（权限仅限 FAQ 数据） |
+| 2 | 🟠 | `app/tier-list/page.tsx`、`app/sitemap.ts:32`、`components/Header.tsx:9` | `/tier-list` 以 priority 0.8 进 sitemap 并被导航为 "Upgrade Priority"，但 `PRIORITY_TIERS = []`，线上只渲染 "The ranking is being built." —— **空页被索引**；且导航名与页面 title（Tier List）不一致。 | ❌ 未修（超出本次审核对象/权限） |
+| 3 | 🟠 | `app/page.tsx:48-49` | 首页卡片 "Stuck on a boss or a system? Mechanic and boss pages…" —— 站内无 boss 页。 | ❌ 未修（非 FAQ 数据） |
+| 4 | 🟡 | `app/faq/page.tsx:66,86` | "first-person" 描述在 A1/A2/A2b 中均无依据（商店 short_description 未写视角）。 | ❌ 未修（事实性内容，按规则不改写） |
+| 5 | 🟡 | `app/page.tsx:23` | "nine other regions" 与 A3 的 17 区域不符（除 US 与 EU/UK/CN/JP 外应为 12 个）。 | ❌ 未修（数字属事实内容） |
+| 6 | 🟡 | `content/guides/probably-stolen-beginner-guide.md:67` | 把 rent / station's cut 解释为「a fixed cost and a percentage cost」，A12 只有定性"两者随时间上涨"，无固定/百分比之分。 | ❌ 未修 |
+| 7 | 🟡 | `content/guides/probably-stolen-starting-scenarios-guide.md:65` | "The '2x3' is the only measurement attached to any scenario in any official text" 为全称判断，无可核验来源。 | ❌ 未修 |
+| 8 | 🟡 | `content/guides/probably-stolen-buy-out-shop-guide.md:43` | "The store page gives rent more words than any other mechanic" 为编辑性论断，无来源。 | ❌ 未修 |
+| 9 | 🟡 | `app/faq/page.tsx:41` | "There was."（过去时）与同段 "once 1.0 releases the demo will no longer be available"（将来时）在解锁前抓取的语境下自相矛盾；解锁后部署则前半句才成立。 | ❌ 未修（时间语义，需按部署时点定稿） |
+| 10 | 🟡 | 模板层（`app/layout.tsx` title template） | 根布局用 `%s · Probably Stolen Wiki`，渲染后 `<title>` 约 70–75 字符（frontmatter 48–53 合规）。属全站/全 49 站点模板问题，非本批独有。 | ❌ 未修（建议单独一轮统一处理） |
+| 11 | 🟡 | `keyword-results/probablystolen-sources.md:10-12` | 文件顶部结论仍写「可写 2 页 < 首批 5 页下限 → **本轮不建站**，故未生成 `probablystolenwiki/`」，与已建 6 页的事实矛盾（A2b 补抓后未回改头部）。 | ❌ 未修（文档，非站点文件） |
+| 12 | 🟡 | 记录项 | 首页 FAQ 实为 5 条（任务书写 4 条）；water / aquafarmer 的 FAQ 用加粗问句、其余 4 篇用 H3，结构不统一（不影响内容与收录）。 | — 仅记录 |
+
+> 本轮**未修改任何站点文件**（6 篇正文与 FAQ 均无机械性缺陷可修：title/description/H1/表格/related/内链全部合规）；**未部署、未 commit、未改规则文档**。
+
+## 四、结论
+
+**PASS（6 篇正文 + FAQ 内容层）** —— 6 页 / 8,824 词，机械门禁全过；36 条事实抽检 31 条逐字可回溯（86.1%），**0 条编造数字、0 条 C 级竞对引用、0 条「已可玩/已有评测/已有玩家数」红线命中的内容**；所有未公布数值均标 `[Unconfirmed]`（各页 9–17 处）。
+
+**部署前建议由主 Agent 处理的 🟠（不阻断正文事实，但属站级质量问题）**：
+1. 清掉首页/`/guides`/`/about` 的 "codes / tier lists / boss strategies / bosses" 模板残留；
+2. 处置空 `/tier-list` 页（补真实 Priority 内容，或从 sitemap + 导航移除）；
+3. 清掉首页 "boss pages" 卡片文案。
+
+**未修复 🟡**：FAQ 的 "first-person"、首页 "nine other regions"、beginner 的「fixed vs percentage cost」、starting 的「2x3 唯一量度」全称判断、buy-out 的「rent 用词最多」论断、FAQ demo 时态、渲染 title 模板后缀、sources.md 头部「不建站」旧结论 —— 均属定性/文档/模板层，按职责留给内容合规或主 Agent 决定。

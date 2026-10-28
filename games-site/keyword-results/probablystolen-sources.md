@@ -7,9 +7,12 @@
 > **本文件用途**：建站素材底稿 + 本轮「不建站」判定的证据留档，**不是成品页，也不是可直接发布的正文**。
 > 下一轮建站（解锁后）从这里起步，不用重采官方源。
 >
-> **本轮结论**：按现行双源规则（每页 ≥2 独立来源、≥1 官方，见 `docs/STRATEGY-内容生产.md` 第三节），
-> 6 页里只有 FAQ 与「治安/地下市场/派系」2 页达标；房租/产线/熔炉/开局曲线/鉴定四步这 5 个**数值型**页面
-> 均无可引用的官方数值，唯一带数字的来源是竞对 wiki 且其自述未确认。故**未生成 `probablystolenwiki/`**。
+> **本轮结论（2026-10-28 18:40 已更新）**：原始判断是「6 页里只有 FAQ 与治安/派系 2 页达标 → 不建站」。
+> 当天 18:40 复抓商店页后补入 **A2b（About This Game 全文）**，发现官方原本就有「许可证→地下市场」「派系专属交易」
+> 「房租递增后果」「每条产线各有利润曲线」等整段机制文案，**机制型页面因此可写**：
+> 以 6 页（FAQ + 新手 / 9 开局 / 水生意 / Aquafarmer / 黑市声望 / 买断通关）建站，
+> `probablystolenwiki/` 于 2026-10-28 生成并部署。**数值型页面仍不写**（房租数值、买断价、利润表、熔炉配方与纯度、
+> 鉴定阈值、各开局收入曲线）——这些官方从未公布，唯一带数字的是竞对 wiki，按 C 级不可引用。
 >
 > **官方名**：`Probably Stolen - Cyberpunk Shopkeeper Sim`；Steam app **4348910**；
 > 开发 **Questing Goose Studio**，发行 **tinyBuild**；平台 **仅 Windows**；**单人**。
@@ -47,6 +50,35 @@
 - 抓取日期：**2026-10-28**
 - 关键内容：购买区显示 `Coming soon`；页面内嵌 JSON `bHasAnyReviews: false`；`short_description` 原文：
   > "Probably Stolen is a cyberpunk shopkeeping simulator set in a dystopian space station. Craft, trade, and smuggle goods of questionable origin, navigate faction loyalties, and stop rampant AI by killing those it controls. Earn enough to buy out your shop before rising rent forces your hand."
+
+### A2b. Steam 商店页 `About This Game` 全文（2026-10-28 18:40 复抓，补 A2 遗漏）
+
+> **为什么补**：2026-10-28 建站写作时发现，A2 原先只摘了 `short_description`，而商店页正文里还有整段**官方一手**文案，
+> 是「许可证 → 地下市场」「派系专属交易」「房租递增后果」「每条产线各有利润曲线」的唯一官方依据。
+> 不补这段，站内这些句子会被 QA 判「无源」（首轮 QA 已实际报出该风险）。
+> 抓取方式：`dig @1.1.1.1 +short store.steampowered.com` → `104.83.198.104`，再 `curl --resolve`（裸 curl 会超时：
+> 本机 DNS 污染，同 `suggestqueries.google.com` / `vercel.app` 现象）。
+
+- URL：`https://store.steampowered.com/app/4348910/?cc=us&l=english`
+- 抓取日期：**2026-10-28**（HTML 163,097 bytes；页面显示 `All Reviews: No user reviews`、`Release Date: Oct 28, 2026`）
+- 关键原文（按段摘录，逐字）：
+
+  > "You're a former scavenger who secured a storefront thanks to a generous loan and questionable timing. Now rent is rising, factions are watching, and most of your best margins live in legal gray zones."
+
+  > "Today's customer could be a security fisher for evidence, a revolutionary seeking leverage, or a fallen elite testing your usefulness. Every sale is a gamble. Approve it, refuse it, report it, or look away; someone is always taking notes. Reputation buys access and protection, but it also paints a target on your back."
+
+  > "Start as a gunsmith, chemist, water merchant, fence, farmer, or from absolute rock bottom. Every product line has its own profit curve and its own way of ruining you, weapons bring inspections, chemicals bring addiction, water brings liability, contraband brings raids. Some trades need heavy machinery and permits, others just a good hiding spot and a straight face."
+
+  > "Every item you stock carries its own risks. Cigarette packs need visual inspection before resale. Water must be tested and filtered. Weapons require permits and modifications. Profitable chemicals rely on closely guarded recipes. Rare items need proper appraisal to avoid overpaying. You can cut the product's quality, relabel counterfeit products as genuine, or fence discounted, stolen goods if you believe Security won't reach you. But beware, there's always the mob justice."
+
+  > "Rent increases over time, regardless of how well your week went. If you fall behind, the consequences are practical. Your store loses attractiveness, fewer customers walk in, revenue drops, and the gap widens. Recovering from that slide often means taking on riskier deals just to stabilize your cash flow."
+
+  > "A sentient AI chip went rogue and took its hosts with it. Augs look like everyone else ... until they don't. Stay alert, pick up on the signs. Every faction agrees on the policy, and you have the gun to enforce it."
+
+- GAME FEATURES 原文清单（逐条）：
+  > Run your store in a dystopian station／Balance supply and demand by attracting the right customers／Authenticate rare goods and sell them for a profit／Haggle for the best deals, but remember that every bargain comes with a trade-off／Master additional jobs: water merchant, hydroponic farmer, organ dealer, and more／Manage machines and production chains to craft valuable artifacts／Unlock advanced licenses to access the underground market／Navigate cutthroat politics and build connections with the right factions to get the exclusive deals／Profit from the arrogant elite by selling them counterfeit goods／Exploit (or help) the less fortunate／Manage and expand your inventory／Hide stolen goods and contraband from the authorities (or bribe your way out if you get caught)
+
+- 使用限制：以上均为**机制定性**，仍**没有**房租数值、买断价、利润数字、配方与阈值 → 这些位置继续写 `[Unconfirmed]`。
 
 ### A3. 官方公告：Global Release Times and Pricing（发布 2026-10-26，抓取 2026-10-28）
 
@@ -272,7 +304,8 @@
 | 治安/地下交易所/派系声望因果 | ✅ | ✅（B 级定性） | **可写** | A4/A5/A6/A7/A8 覆盖许可证→地下市场、派系专属交易、藏匿/贿赂、-40 声望、窃贼库存随黑市声望、检查通过不再给治安声望 |
 | FAQ（发售/价格/平台/语言/联机/成就/Mod） | ✅ | ✅（B 级定性） | **可写** | A1/A2/A3/A4 覆盖 $19.99、-10%、14:00 CET、仅 Windows、单人、8 语言、21 成就、Workshop、4 难度 |
 
-> 结论：可写 2 页 < 首批 5 页下限 → **本轮不建站**，等解锁后补数。
+> 结论（2026-10-28 18:40 更新）：数值型 5 页仍**不写**（官方无数）；机制型可写页在补入 **A2b** 后从 2 页扩到 6 页
+> （FAQ / 新手 / 9 开局 / 水生意 / Aquafarmer / 黑市声望 / 买断通关），已满足首批 5–8 页下限 → **已建站**。
 
 ---
 
