@@ -301,4 +301,14 @@ export const SITES: SiteConfig[] = [
     propertyId: '560923329',
     gaId: 'G-Q9SSN3Y6W7',
   },
+  {
+    name: 'Blind Descent Wiki',
+    propertyId: '561115302',
+    gaId: 'G-F0H65047R1',
+  },
+  {
+    name: 'Probably Stolen Wiki',
+    propertyId: '561119337',
+    gaId: 'G-PPHEP0XC8R',
+  },
 ];

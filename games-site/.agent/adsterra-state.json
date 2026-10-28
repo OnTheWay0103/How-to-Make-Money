@@ -478,5 +478,25 @@
       "hash": "e5ccba984f12",
       "deployedAt": "2026-10-27T12:29:59.727Z"
     }
+  },
+  "blinddescentwiki": {
+    "global": {
+      "hash": "d6d37eb82662",
+      "deployedAt": "2026-10-28T13:42:52.865Z"
+    },
+    "guide": {
+      "hash": "6df3b00b4f42",
+      "deployedAt": "2026-10-28T13:42:52.865Z"
+    }
+  },
+  "probablystolenwiki": {
+    "global": {
+      "hash": "19d89bb55f24",
+      "deployedAt": "2026-10-28T13:43:30.357Z"
+    },
+    "guide": {
+      "hash": "1e64275ed861",
+      "deployedAt": "2026-10-28T13:43:30.357Z"
+    }
   }
 }
