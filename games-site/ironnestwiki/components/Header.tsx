@@ -19,6 +19,15 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 shrink-0">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/icon.png"
+              alt=""
+              width={32}
+              height={32}
+              aria-hidden="true"
+              className="h-8 w-8 shrink-0 rounded-md object-cover"
+            />
             <span className="text-2xl font-bold text-amber-400 tracking-tight">
               Iron Nest Wiki
             </span>
