@@ -1,10 +1,10 @@
 # 词库索引
 
-> 生成时间：2026-10-29 13:04 UTC
+> 生成时间：2026-10-29 13:51 UTC
 > 生成脚本：`node scripts/keyword-index.mjs` —— 不要手改本文件
 > 规则：`docs/STRATEGY-挖词与词库.md`
 
-共 **107** 份游戏词库（新格式 41，旧格式 66），已建站 **38** 站。
+共 **127** 份游戏词库（新格式 58，旧格式 69），已建站 **39** 站。
 
 > 新格式以 `slug == 站点目录名去掉 wiki` 精确匹配；旧格式只能按文件名猜，「未建站」可能有漏配。
 
@@ -15,7 +15,7 @@
 
 | 渠道 | 贡献词数 | 独占词数 |
 |---|---:|---:|
-| google_suggest | 3323 | 3323 |
+| google_suggest | 3896 | 3896 |
 
 ## 采集锚定产出
 
@@ -23,36 +23,51 @@
 
 | 锚定批次 | 贡献词数 | 独占词数 |
 |---|---:|---:|
-| 裸词 | 526 | 441 |
-| 品牌+game | 395 | 301 |
-| 探针:steam | 297 | 241 |
-| 后缀:release date | 273 | 207 |
-| 后缀:reddit | 218 | 156 |
-| 探针:ps5 | 211 | 153 |
-| 后缀:demo | 211 | 176 |
-| 后缀:guide | 197 | 142 |
-| 后缀:price | 188 | 127 |
-| 后缀:wiki | 160 | 120 |
-| 后缀:update | 151 | 119 |
-| 后缀:multiplayer | 121 | 87 |
-| 后缀:boss | 108 | 95 |
-| 探针:skills | 86 | 57 |
-| 探针:characters | 73 | 56 |
-| 后缀:characters | 67 | 59 |
-| 后缀:tips | 66 | 48 |
-| 后缀:how to | 55 | 52 |
-| 后缀:co op | 48 | 33 |
-| 后缀:tier list | 48 | 36 |
-| 后缀:mods | 46 | 41 |
-| 后缀:map | 44 | 24 |
-| 后缀:codes | 40 | 26 |
-| 后缀:unlock | 39 | 31 |
+| 裸词 | 678 | 576 |
+| 品牌+game | 478 | 363 |
+| 探针:steam | 349 | 277 |
+| 后缀:release date | 327 | 240 |
+| 后缀:demo | 271 | 220 |
+| 后缀:reddit | 250 | 174 |
+| 探针:ps5 | 243 | 174 |
+| 后缀:guide | 223 | 158 |
+| 后缀:price | 210 | 141 |
+| 后缀:wiki | 193 | 145 |
+| 后缀:update | 168 | 132 |
+| 后缀:multiplayer | 137 | 99 |
+| 后缀:boss | 120 | 104 |
+| 探针:skills | 96 | 64 |
+| 探针:characters | 91 | 72 |
+| 后缀:characters | 75 | 64 |
+| 后缀:tips | 67 | 48 |
+| 后缀:codes | 57 | 40 |
+| 后缀:how to | 56 | 52 |
+| 后缀:mods | 56 | 50 |
+| 后缀:co op | 51 | 34 |
+| 后缀:tier list | 51 | 37 |
+| 后缀:map | 45 | 24 |
+| 后缀:unlock | 43 | 33 |
 | 后缀:best build | 38 | 35 |
 
 ## 按游戏
 
 | 游戏 | slug | 有效词 | 最后采集 | 来源 | 页型覆盖 | 站点 | 格式 |
 |---|---|---:|---|---|---|---|---|
+| Coal Duty | coalduty | 9 | 2026-10-29 | google_suggest:9（裸词 8、探针:steam 1） | 5 FAQ / 待定 | 未建站 | new |
+| Demon Bluff | demonbluff | 67 | 2026-10-29 | google_suggest:91（裸词 15、品牌+game 15、后缀:wiki 9） | 3 Tier List / 5 FAQ | demonbluffwiki | new |
+| Emery Hearts | emeryhearts | 7 | 2026-10-29 | google_suggest:8（裸词 6、后缀:demo 1、探针:steam 1） | 5 FAQ / 待定 | 未建站 | new |
+| Everlast: Undying Tale | everlastundyingtale | 10 | 2026-10-29 | google_suggest:16（裸词 10、后缀:classes 1、品牌+game 1） | 5 FAQ / 待定 | 未建站 | new |
+| FailRooms | failrooms | 15 | 2026-10-29 | google_suggest:15（裸词 13、品牌+game 1、后缀:multiplayer 1） | 5 FAQ / 待定 | 未建站 | new |
+| Gear Up Einstein! | gearupeinstein | 2 | 2026-10-29 | google_suggest:4（裸词 2、后缀:wiki 1、探针:steam 1） | 5 FAQ / 待定 | 未建站 | new |
+| Midwest 90: Rapid City | midwest90rapidcity | 2 | 2026-10-29 | google_suggest:23（后缀:release date 2、裸词 2、后缀:beginner guide 1） | 5 FAQ / 待定 | 未建站 | new |
+| No Such Place | nosuchplace | 38 | 2026-10-29 | google_suggest:53（裸词 15、品牌+game 12、后缀:demo 4） | 1 Codes / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
+| O2GETHER | o2gether | 12 | 2026-10-29 | google_suggest:12（裸词 12） | 待定 | 未建站 | new |
+| SHARDS | shards | 213 | 2026-10-29 | google_suggest:214（后缀:reddit 15、探针:characters 15、裸词 15） | 1 Codes / 2 Beginner / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
+| Slumber Realm | slumberrealm | 3 | 2026-10-29 | google_suggest:7（裸词 2、后缀:items 1、后缀:tier list 1） | 5 FAQ / 待定 | 未建站 | new |
+| The Crimson Hunt | thecrimsonhunt | 21 | 2026-10-29 | google_suggest:35（裸词 12、品牌+game 8、后缀:codes 3） | 1 Codes / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
+| Trees Hate You | treeshateyou | 95 | 2026-10-29 | google_suggest:115（后缀:demo 15、裸词 15、品牌+game 15） | 2 Beginner / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
+| We Were Here Tomorrow | wewereheretomorrow | 68 | 2026-10-29 | google_suggest:80（品牌+game 15、裸词 15、后缀:demo 15） | 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
+| Witch the Showdown | witchtheshowdown | 11 | 2026-10-29 | google_suggest:19（裸词 10、后缀:demo 2、后缀:release date 2） | 5 FAQ / 待定 | 未建站 | new |
 | Annihilated | annihilated | 28 | 2026-10-28 | google_suggest:33（裸词 14、品牌+game 6、探针:steam 5） | 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
 | Blind Descent | blinddescent | 83 | 2026-10-28 | google_suggest:131（裸词 15、品牌+game 15、后缀:demo 14） | 2 Beginner / 4 核心机制/Boss / 5 FAQ / 待定 | blinddescentwiki | new |
 | Dumpster Gang | dumpstergang | 39 | 2026-10-28 | google_suggest:55（裸词 15、品牌+game 15、探针:steam 6） | 5 FAQ / 待定 | 未建站 | new |
@@ -111,6 +126,8 @@
 | Low-Budget Repairs | Low-Budget-Repairs | 0 | 2026-08-03 | — | — | lowbudgetrepairswiki | legacy-meta |
 | Delverium | Delverium | 0 | 2026-08-02 | — | — | delveriumwiki | legacy-meta |
 | Pass the Fear | Pass-the-Fear | 0 | 2026-08-01 | — | — | 未建站 | legacy-meta |
+| Gendo The Gatherer | gendothegatherer | 0 | — | — | — | 未建站 | new |
+| Project Nekrios | projectnekrios | 0 | — | — | — | 未建站 | new |
 | Ardent Wilds | Ardent-Wilds | 23 | — | — | — | ardentwildswiki | legacy |
 | DinoBlade | DinoBlade | 70 | — | — | — | dinobladewiki | legacy |
 | DragonSword: Awakening | DragonSword-Awakening | 0 | — | — | — | 未建站 | legacy |
@@ -141,6 +158,8 @@
 | Witchspire | Witchspire-feedback | 0 | — | — | — | 未建站 | legacy |
 | Blind Descent | blinddescent-matrix | 0 | — | — | — | 未建站 | legacy |
 | Blind Descent | blinddescent-sources | 0 | — | — | — | 未建站 | legacy |
+| Demon Bluff | demonbluff-matrix | 0 | — | — | — | 未建站 | legacy |
+| Demon Bluff | demonbluff-sources | 0 | — | — | — | 未建站 | legacy |
 | GONE Fishing | gonefishing-matrix | 0 | — | — | — | 未建站 | legacy |
 | GONE Fishing | gonefishing-sources | 0 | — | — | — | 未建站 | legacy |
 | — | lowbudgetrepairswiki-postlaunch-fix | 0 | — | — | — | 未建站 | legacy |
@@ -155,6 +174,7 @@
 | 候选分析 | selection-2026-10-26-round3 | 0 | — | — | — | 未建站 | legacy |
 | 候选分析 | selection-2026-10-26 | 0 | — | — | — | 未建站 | legacy |
 | 候选分析 | selection-2026-10-28 | 0 | — | — | — | 未建站 | legacy |
+| 选词评分 | selection-2026-10-29 | 0 | — | — | — | 未建站 | legacy |
 | Silver Pines / Dressmaker | silverpines-dressmaker-postlaunch-fix | 0 | — | — | — | 未建站 | legacy |
 | SILVER PINES 建站记录 | silverpineswiki-build-9-16 | 0 | — | — | — | 未建站 | legacy |
 | The Relic: First Guardian | the-relic-first-guardian | 0 | — | — | — | 未建站 | legacy |
@@ -163,7 +183,7 @@
 
 ## 待处理
 
-**软问题**（旧格式，逐步随复采替换，不阻塞）：49 份
+**软问题**（旧格式，逐步随复采替换，不阻塞）：52 份
 
 - 无采集元信息头（无法自动统计）：Ardent-Wilds.md
 - 无采集元信息头（无法自动统计）：DinoBlade.md
@@ -185,4 +205,4 @@
 - 无采集元信息头（无法自动统计）：Moonlight-Peaks.md
 - 无采集元信息头（无法自动统计）：ReStory.md
 - 无采集元信息头（无法自动统计）：Sephiria-feedback.md
-- … 其余 29 份
+- … 其余 32 份

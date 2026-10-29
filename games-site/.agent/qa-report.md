@@ -2834,3 +2834,37 @@ WebSearch "GONE Fishing ... GONE Studios ABCT Productions" / "REKA ... release d
 - `+30/40% … for 10 seconds after completing Reload` 逐字来自 1.0.31 公告，✅
 
 **判定：2 篇 PASS（quick）。** 唯一建议项：sephiria 那篇引用了竞对 `sephiriawiki.com` 作 Community 来源（已改写标注），如要严控可只留官方条目。
+
+---
+
+# QA-QUICK 2026-10-29 — 新建站 demonbluffwiki（6 篇，9,354 词）
+
+> 依据：`keyword-results/selection-2026-10-29.md` §三 #120（14 分，可建）
+> 详版：`.agent/qa-demonbluffwiki-2026-10-29.md`
+
+| 项 | 结果 |
+|---|---|
+| `pnpm build` | ✅ 19 静态页 |
+| `lint-guides` | ✅ 0 ERROR / 2 WARN（两篇参考型长页超建议上限） |
+| `check-site-residue` | ✅ 无残留 |
+| 单篇词数 | 1,222 / 1,421 / 1,472 / 1,661 / 1,768 / 1,810，合计 **9,354** |
+| title / description | 45–54 / 147–159，全部合规 |
+| 来源 | 每页 ≥2 独立来源且 ≥1 官方（Steam 商店 API / 官方新闻 / 新闻稿） |
+| 线上 | 10 条路径全 200，H1 恰好 1 个，canonical 自指，来源块正常渲染 |
+
+**修掉的 3 处事实错误（初稿全部来自误读 `playtests: []`）**：demo 实际存在（app 3803820，2026-05-27 免费，40+ villager 卡 / 9 Relic）；语言 12 已上架、13 为计划（Turkish 只在 demo 页）；macOS 有「不兼容 10.15 Catalina 及以上」官方声明。另有 5 处冲突按来源标注（Endless A4/A5、Start Order 补丁前移、Drunk −2 vs −3、Yamii Games vs UmiArt、模式数）。
+
+**配置缺口（人工待办，非内容缺陷）**：
+1. `check-ad-slots.mjs demonbluffwiki` **exit 1** — Adsterra 两位为空，站点目前无广告；
+2. `check-dashboard-registry.mjs --site demonbluffwiki` — GA4 未填，**不进 dashboard 统计**。
+两者都靠飞书「站点台账(人工)」补 `demonbluffwiki` 一行（GA4 ID + 两个 zone 代码），20:00 回填脚本自动写配置并部署。
+
+**判定：内容 PASS；广告/GA4 两项待人工补填。**
+
+## 新关键词机会（供下一轮选题）
+
+本轮 67 个有效词 + 建站期间发现的内容缺口，最值得下笔的前 3 个：
+
+1. **`demon bluff demo how many ascensions`** —— 本轮最强信号。建站时我自己就误判「没有 demo」，实测 demo 是独立 app 且已上线五个月；这个词背后是「demo 里到底能玩到第几级」的真实困惑，现有对手（wiki.gg）不写攻略型内容，我们有官方补丁口径（A4→A5 变更）可写。
+2. **`demon bluff relics` / `demon bluff relic list`** —— 官方定义 + 9 个 demo relic（Grave Flame、Severed Horn 等）可核验，而 wiki.gg 只有 8 个 relic 页且名字冲突（Severed Horn vs Severed Braid）。这是一页「9 个遗物怎么改规则」的空白，且能直接挂到 `ability-order` 的内链。
+3. **`demon bluff baker` / `dreamer` / `witness` 单角色页** —— 采词里已出现具名角色查询（baker / dreamer / witness / rambler / lycanthrope），我们目前只有一页合并列表。优先做 Judge / Medium / Slayer 三个「判定型」角色（tier-list 的 S 档）比做全部 44 个更划算，且每个都有 wiki.gg Ability 段可作来源。
