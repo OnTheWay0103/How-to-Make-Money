@@ -6,3 +6,7 @@
 
 # 品牌资源由 scripts/apply-brand-and-page-ad.mjs 从根目录 Weixin_2026-09-24.jpg 现场生成，不入库
 /.agent/brand-assets/
+
+# Python bytecode (scripts/generate-site-icons.py 本地运行产物)
+__pycache__/
+*.pyc

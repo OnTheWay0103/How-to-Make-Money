@@ -16,7 +16,7 @@
 | 5 | SpiritVale | 7/12 | 50 | spiritvalewiki.vercel.app | ✅ | ✅ | ✅ | 8/1 内容配比规则 +1 世界 Boss 速查表（Echoing Spire）；8/28 EXPAND-007 反馈驱动扩充 +1（echoing-spire-endgame-guide 终点爬塔）+ P0 事实校准（免费→$14.99 买断、拍卖行 8/4 回归、职业名 Scout→Gunslinger/Weaver），QA 有条件 PASS 已部署；8/30 R1 P0 职业名旧体系批量修正完成（19 文件：Sniper 虚构职业全清、Gunslinger=Scout 进阶、Weaver=特殊进阶，QA PASS 已部署）；9/9 EXPAND-023 反馈驱动扩充 +1（account-ban-appeal-guide 封禁原因与申诉，结束 5 连 SKIP，QA quick PASS 已部署）；9/11 SKIP（0.31.0 仍单源）+ 线上 🔴 /guides/tier-list 404 修复，QA PASS 已部署；10/24 扩充 +1（advanced-artifacts-grimoires-guide 高级神器/Grimoires，官方系统驱动；当日反馈源均被现有页覆盖，反馈驱动缺口记 SKIP 待补，QA quick PASS 已部署复验） |
 | 6 | Skills & Raids | 7/15 | 19 | skillsandraidswiki.vercel.app | ✅ | ✅ | ✅ | 7/27 游戏上线 |
 | 7 | MineGeon | 7/20 | 28 | minegeonwiki.vercel.app | ✅ | ✅ | ✅ | 7/28 游戏上线；8/3 Coordinator 扩充 +2（Walkthrough、Review） |
-| 8 | Sephiria | 7/21 | 45 | sephiriawiki.vercel.app | ✅ | ✅ | ✅ | 7/31 1.0 上线；8/11 AdSense Phase1 合规：48→29，5 组合并（武器/Boss/章节/Builds/物品/更新），清除虚构武器/Boss/神器目录/NG+/第七章，去 Patch 版本声明；8/26 每日扩充 +1（save-file-guide 存档备份恢复，反馈驱动，QA quick PASS）；9/1 EXPAND-010 反馈驱动扩充 +1（dagger-build-guide）；9/3 EXPAND-012 反馈驱动扩充 +1（katana-build-guide，QA quick PASS 已部署）；9/11 EXPAND-025 反馈驱动扩充 +1（patch-1-0-31-build-changes-guide，官方 1.0.31=9/10）+ 跨页版本一致性刷新 8 处，QA quick PASS ×2 已部署；10/24 反馈驱动扩充 +1（stuck-soft-lock-recovery-guide 卡关/软锁恢复，QA quick PASS 已部署复验） |
+| 8 | Sephiria | 7/21 | 46 | sephiriawiki.vercel.app | ✅ | ✅ | ✅ | 7/31 1.0 上线；8/11 AdSense Phase1 合规：48→29，5 组合并（武器/Boss/章节/Builds/物品/更新），清除虚构武器/Boss/神器目录/NG+/第七章，去 Patch 版本声明；8/26 每日扩充 +1（save-file-guide 存档备份恢复，反馈驱动，QA quick PASS）；9/1 EXPAND-010 反馈驱动扩充 +1（dagger-build-guide）；9/3 EXPAND-012 反馈驱动扩充 +1（katana-build-guide，QA quick PASS 已部署）；9/11 EXPAND-025 反馈驱动扩充 +1（patch-1-0-31-build-changes-guide，官方 1.0.31=9/10）+ 跨页版本一致性刷新 8 处，QA quick PASS ×2 已部署；10/24 反馈驱动扩充 +1（stuck-soft-lock-recovery-guide 卡关/软锁恢复，QA quick PASS 已部署复验） |
 | 9 | DinoBlade | 7/21 | 16 | dinobladewiki.vercel.app | ✅ | ✅ | ✅ | 8/3 Coordinator 扩充 +3；8/11 AdSense Phase1 合规：27→15，8 组合并，清除 The Mound 残留/虚构 Boss/机制名/联机 PvP，价格对齐 $19.99 |
 | 10 | Mystralia | 7/22 | 30 | mystraliawiki.vercel.app | ✅ | ✅ | ✅ | 8/11 EA 上线；8/11 AdSense Phase1 合规：40→29，8 组合并，虚构区域/法术/地牢/货币清理，Memories 110→100+ 校准，系统配置对齐 Steam 官方 |
 | 11 | Tears of Metal | 7/23 | 41 | tearsofmetalwiki.vercel.app | ✅ | ✅ | ✅ | 8/1 反馈驱动 +3 新 +2 纠错（英雄名校准）；8/1 内容配比 +5（Wallace/Brienne/Ruadh 独立 Build 页、Corruption 机制、装备指南）+ 修复旧英雄/Boss 名残留；8/30 EXPAND-008 反馈驱动扩充 +1（healing-guide 治疗与回血经济，QA 有条件 PASS 已部署）；9/3 EXPAND-015 反馈驱动扩充 +1（crash-launch-fix-guide，QA quick PASS 已部署）；9/11 SKIP（无 v0.15+）+ patch-notes 扩为完整版本表 v0.8→v0.14 + 官方路线图（标注 plan not shipped）+ 🔴 平台纠错 7 文件（非 Steam PC-only，7/22 首发即 Steam+MS Store+PC Game Pass 且互通），QA PASS 已部署；10/24 反馈驱动扩充 +1（trials-mother-stone-challenges-guide：Trials/Mother Stone 与局内 Challenge 两系统辨析 + 联机进度规则，QA quick PASS 已部署复验） |
@@ -28,7 +28,7 @@
 | 17 | Vahrin's Call | 7/28 | 25 | vahrinscallwiki.vercel.app | ✅ | ✅ | ✅ | 7/27 游戏上线；8/4 +2（Stealth+Backstab、Parrying）；8/5 +2（PC Performance、Lore & Story）；8/6 +3（Skill Book Hunting、NPCs & Characters、Unique Weapons），GSC 待验证 |
 | 18 | The Relic | 7/28 | 32 | relicfirstguardianwiki.vercel.app | ✅ | ✅ | ✅ | 7/31 已上线；8/5 Coordinator 扩充 +2（Enemy Types、Status Effects），GSC 待验证 |
 | 19 | Graphite | 7/29 | 17 | graphitewiki.vercel.app | ✅ | ✅ | ✅ | 7/27 游戏上线，GSC 待验证 |
-| 20 | Shift At Midnight | 7/29 | 34 | shiftatmidnightwiki.vercel.app | ✅ | ✅ | ✅ | 7/22 游戏上线；8/4 +2（All Doppelgangers、Special Monsters）；8/5 +2（PC Performance、Patch Notes）；8/25 关键词驱动扩充 +3（结局解析/角色图鉴/联机 FAQ）+ 站级编造元数据修复（Fiddlesticks→Bun Muen/Kwalee、$9.99、3 结局），QA FAIL→修复→重部署验证 |
+| 20 | Shift At Midnight | 7/29 | 35 | shiftatmidnightwiki.vercel.app | ✅ | ✅ | ✅ | 7/22 游戏上线；8/4 +2（All Doppelgangers、Special Monsters）；8/5 +2（PC Performance、Patch Notes）；8/25 关键词驱动扩充 +3（结局解析/角色图鉴/联机 FAQ）+ 站级编造元数据修复（Fiddlesticks→Bun Muen/Kwalee、$9.99、3 结局），QA FAIL→修复→重部署验证 |
 | 21 | Moonlight Peaks | 7/31 | 17 | moonlightpeakswiki.vercel.app | ✅ | ✅ | ✅ | 7/7 游戏上线，20万销量，GSC 待验证 |
 | 22 | Bonehold | 7/30 | 24 | boneholdwiki.vercel.app | ✅ | ✅ | ✅ | 8/6 +3（System Requirements、Review Guide、Similar Games），GSC 待验证 |
 | 23 | Phantom Tower | 7/30 | 21 | phantomtowerwiki.vercel.app | ✅ | ✅ | ✅ | 8/25 关键词驱动扩充 +3（平台购买/道具图鉴/评测社区）+ best-builds 扩充，QA quick PASS 已重部署 |
@@ -39,10 +39,10 @@
 | 28 | Low-Budget Repairs | 8/03 | 37 | lowbudgetrepairswiki.vercel.app | ✅ | ✅ | ✅ | 8/3 Coordinator auto-build，21/20，8/13 上线，1M+ wishlist，零 wiki 竞争；8/7 +13；8/10 Coordinator +8（Electrical Work、Bathroom、Kitchen、Demolition、Achievements、Permits、Room Strategy、Hidden Secrets）+ QA fix 预发布来源标记；GA4 ✅ |
 | 29 | Big Walk | 8/04 | 17 | bigwalkwiki.vercel.app | ✅ | ✅ | ✅ | 上线当日建站 — 21/25，House House/Panic，8/4 发售，799K wishlist，零 wiki 竞争；GA4 ✅ |
 | 30 | Iron Nest | 8/06 | 22 | ironnestwiki.vercel.app | ✅ | ✅ | ✅ | 8/6 Coordinator auto-build，18/25，843K wishlist，柴油朋克重炮模拟；8/9 Coordinator 扩充 +11（Crew Stations、Enemy Types、Story Walkthrough、Achievements、Advanced Ballistics、Multiplayer、Tips、Map Terrain、Requisition Farming、Lore、Glossary）；GA4 ✅ |
-| 31 | Nivalis Nights | 8/07 | 21 | nivalisnightswiki.vercel.app | ✅ | ✅ | ✅ | 8/7 Coordinator auto-build，22/25，9/29 上线，932K wishlist，ION LANDS/505；GA4 ✅ |
+| 31 | Nivalis Nights | 8/07 | 22 | nivalisnightswiki.vercel.app | ✅ | ✅ | ✅ | 8/7 Coordinator auto-build，22/25，9/29 上线，932K wishlist，ION LANDS/505；GA4 ✅ |
 | 32 | ReStory | 8/08 | 18 | restorywiki.vercel.app | ✅ | ✅ | ✅ | 8/8 auto-build，22/20，8/6 上线，Mandragora/tinyBuild，700K wishlist，98% 好评；8/9 Coordinator 扩充 +10（Cleaning、Soldering、Reprogramming、Valuable Devices、Shop Management、Easter Eggs、Characters、Walkthrough、Game Length、Known Issues）；GA4 ✅ |
 | 33 | Beast of Reincarnation | 8/08 | 25 | beastreincarnationwiki.vercel.app | ✅ | ✅ | ✅ | 8/8 auto-build，21/20，8/4 发售，Game Freak 首款原IP，718K wishlist；8/9 Coordinator 扩充 +12（6 Boss 攻略 + 武器防具 + Bloom Arts + Ch.1-2 Walkthrough + Endings + NG+）；GA4 ✅ |
-| 34 | Waterpark Simulator | 8/08 | 20 | waterparksimulatorwiki.vercel.app | ✅ | ✅ | ✅ | 8/8 auto-build，17/20，7/31 1.0 上线，CayPlay（50M YouTuber），1M+ 下载，96% 好评；GA4 ✅ |
+| 34 | Waterpark Simulator | 8/08 | 21 | waterparksimulatorwiki.vercel.app | ✅ | ✅ | ✅ | 8/8 auto-build，17/20，7/31 1.0 上线，CayPlay（50M YouTuber），1M+ 下载，96% 好评；GA4 ✅ |
 | 35 | DOLOC TOWN | 8/22 | 21 | doloctownwiki.vercel.app | ✅ | ✅ | ✅ | 8/22 BUILD-001，22/20，后末日温馨农场模拟 (RedSaw Games/Logoi Games)，8/6 1.0 发售，95% 好评 2.4K 评测，零 wiki；QA PASS；8/25 deep QA 补 GSC 文件；GA4 ⏳ 待人工配置 |
 | 36 | Sovereign Tower | 8/25 | 19 | sovereigntowerwiki.vercel.app | ✅ | ✅ | ✅ | 8/25 BUILD-002，18/20，圆桌管理模拟 RPG (WILD WITS/Curve Games)，8/6 发售，~1,640 评测 91% Very Positive，$19.99，首周 50K 销量（Curve 官方），英中日零 wiki；8/25 QA quick PASS 已部署；GA4 ⏳ 待人工配置 |
 | 37 | Crimson Moon | 8/28 | 17 | crimsonmoonwiki.vercel.app | ✅ | ✅ | ✅ | 8/28 BUILD-003，18/20，9/1 发售（ProbablyMonsters 魂系动作 RPG，PC/PS5/Xbox，$19.99/$29.99 Deluxe），~365K wishlist 榜#130，英中日韩零 wiki；裸词同名污染→SEO 主攻专属长尾（Gildenarch/Dead Gods/incursions）；16 guides，QA 有条件 PASS；GA4 ⏳ 待人工配置 |
@@ -149,7 +149,7 @@
 | 指标 | 数值 |
 |------|:--:|
 | **总站点数** | 50 |
-| **总攻略数** | 1132 |
+| **总攻略数** | 1136 |
 | **Vercel 部署** | 50/50 ✅ |
 | **GA4 已配置** | 50/50 |
 | **GSC 文件部署** | 50/50 ✅（账户级令牌，所有站共用同一文件） |
