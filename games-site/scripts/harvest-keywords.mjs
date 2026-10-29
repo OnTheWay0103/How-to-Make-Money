@@ -412,14 +412,25 @@ function loadStore() {
  * Shift At Midnight 时真的撞上了，只能人工 `git mv` 收尾。这里在写入前自动把
  * 旧文件挪进 docs/archive，让「重采老词库」不再需要手工抢险。
  */
+// 归一化后仍与 slug 不等的旧报告名，必须显式列出（归一化救不了真实别名）。
+// 2026-10-30 实例：`Go-Go-Town.md` 归一成 `gogotown` ≠ slug `gotown`，归档静默失败，
+// 旧报告与新报告并存，而 `keyword-index.mjs --check` 也查不出——只能人工 git mv。
+const LEGACY_SLUG_ALIASES = {
+  gotown: ['gogotown'],
+};
+
 function archiveLegacyMainReport() {
   const norm = (s) => s.toLowerCase().replace(/[^a-z0-9]/g, '');
   const target = `${SLUG}.md`;
+  const aliases = new Set([
+    norm(SLUG),
+    ...(LEGACY_SLUG_ALIASES[SLUG] ?? []).map(norm),
+  ]);
   const hits = fs
     .readdirSync(OUT_DIR)
     .filter((f) => f.endsWith('.md') && f !== target)
     .filter((f) => !/-expand-|feedback/i.test(f))
-    .filter((f) => norm(f.replace(/\.md$/, '').replace(/wiki$/, '')) === norm(SLUG));
+    .filter((f) => aliases.has(norm(f.replace(/\.md$/, '').replace(/wiki$/, ''))));
   for (const f of hits) {
     const d = new Date(fs.statSync(path.join(OUT_DIR, f)).mtimeMs);
     const stampDay = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
