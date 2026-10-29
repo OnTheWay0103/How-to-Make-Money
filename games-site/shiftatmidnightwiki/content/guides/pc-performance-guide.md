@@ -123,7 +123,7 @@ If you can't join friends' lobbies or get connection timeouts:
 
 Crashes during the **Night Transition** have been reported to corrupt saves. Back up your progress periodically:
 
-- **Windows**: `C:\Users\[YourName]\AppData\Local\ShiftAtMidnight\Saved\SaveGames`
+- **Windows**: `C:\Users\[YourName]\AppData\LocalLow\Kwalee\ShiftAtMidnight` (Unity stores saves under `LocalLow`, not `Local`; see the [save system & cloud guide](/guides/save-system-and-cloud-guide))
 - Copy the folder to a backup location after each session, especially before Shift 10+ (the game's most crash-prone transition)
 
 ---
@@ -139,6 +139,6 @@ Crashes during the **Night Transition** have been reported to corrupt saves. Bac
 | Stutter when customers enter | NVMe SSD + close background apps |
 | Can't join friends' lobbies | Disable IPv6, enable UPnP, same platform/version |
 | Black screen entering Shift 10 | Update the game, then verify game files if it persists |
-| Corrupted save after crash | Back up `AppData\Local\ShiftAtMidnight\Saved\SaveGames` |
+| Corrupted save after crash | Back up `AppData\LocalLow\Kwalee\ShiftAtMidnight` |
 
 The good news: the developers shipped updates quickly after launch, and most launch-week crash reports no longer reproduce on current versions. See the [Patch Notes & Update History](/guides/patch-notes-history) for what's officially confirmed about updates and beta branches. And if the game itself is what you're struggling with rather than the PC, start with the [Beginner Guide](/guides/beginner-guide).

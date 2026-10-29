@@ -28,8 +28,8 @@ Shift At Midnight released on July 22, 2026 on Steam and Xbox Game Pass. Develop
 | [Endings Guide](/guides/endings-guide) | Story unlocks | Advanced |
 | [Weapon Tier List](/tier-list) | Weapon rankings | Starter |
 | [Weapons Guide](/guides/weapons-guide) | Loadout planning | Starter |
-| [Tools & Traps Guide](/guides/tools-traps-guide) | Equipment setup | Intermediate |
-| [NET Database Guide](/guides/net-database-guide) | Investigation tool | Intermediate |
+| [Advanced Tactics Guide](/guides/advanced-tactics) | Pro night-shift strategies | Advanced |
+| [All Doppelgangers List](/guides/all-doppelgangers-list) | NET Database checks | Intermediate |
 | [FAQ](/faq) | Quick answers | All |
 
 ---
