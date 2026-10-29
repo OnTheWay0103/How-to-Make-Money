@@ -102,4 +102,23 @@
 
 ## §7 部署结果
 
-<!-- 部署完成后回填 -->
+**41/41 成功**，`.agent/deploy-log.jsonl` 本批次全部 `ok`（当天另有 1 条 `fail` 是 04:00
+定时轮留下的 sephiriawiki，历史记录，非本批次）。耗时约 46 分钟（18:38–19:24）。
+
+线上复验：
+
+| 检查 | 结果 |
+|---|---|
+| `check-ad-slots.mjs --live` 41 站 | **41 通过 / 0 失败** |
+| 全页型抽查 aincradwiki | `/`=1 `/faq`=1 `/guides`=1 `/tier-list`=1 `/about`=1 `/contact`=1 `/privacy`=1 `/terms`=1 |
+| 全页型抽查 themoundwiki | 同上，8 个页面各 1 |
+| 攻略页不叠 | `/guides/<slug>` 恰好 1 个 `container-` |
+| Logo 线上 | `/icon.png` HTTP 200，93,346 字节（与生成文件 md5 一致）；页面含 `src="/icon.png"` |
+| 未部署的 9 站 | `crimsonmoonwiki` / `anomalypresidentwiki` 的 `/faq` 仍为 0 个容器（线上仍是旧版，符合预期） |
+
+## §8 遗留
+
+- 9 个 PV30=0 的站线上仍为旧版；它们将来任何原因重建时会自动带上本次改动，无需单独处理
+- `AdsterraSlot` 的 `variant="home"` 分支已无调用方，保留未删（仍是有意义的 API，删它要动 51 个文件且会再触发一轮全量部署）
+- 视觉服务当天不可用，logo 未经人眼确认；如需裁切/去边，改 `apply-brand-and-page-ad.mjs` 的 `magick` 参数重跑即可
+- 飞书两张台账无对应列，本次改动不涉及台账数据
