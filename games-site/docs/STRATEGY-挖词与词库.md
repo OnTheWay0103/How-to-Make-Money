@@ -185,7 +185,10 @@ node scripts/harvest-keywords.mjs --game "ANOMALITH" --alias "アノマリス" -
 **品牌匹配规则（2026-10-26 修正）**：一条建议算「命中品牌」只有两种情形——
 ① 品牌词按 token 连续出现（`neon abyss 2 characters`）；② 整条建议里有一个 token 与品牌**完全相等**（`tearsofmetal`）。
 MUST NOT 用子串匹配：`tung` 会命中 `tungsten` / `tung oil` / `tung tung sahur`，把锚定率虚抬到 87.8%。
-单词品牌若本身是通用词（TUNG / Dream / Rise），锚定率再高也**不可信**，按「品牌撞名」放弃。
+单词品牌若本身是通用词（TUNG / Dream / Rise / SHARDS），锚定率再高也**不可信**，按「品牌撞名」放弃。
+这类候选 MUST 人工抽查前 50 条：2026-10-29 SHARDS 脚本报锚定率 86.2%、有效词 213，逐条核后**本作 0 条**
+（全是 DBD `iridescent shards`、Kirby `crystal shards`、Warframe `archon shards`、Silksong `mask shards`），
+213 这个数字 MUST NOT 被引用为需求证据。
 
 ### 4.3 分类（固定 9 类 + 噪声）
 
