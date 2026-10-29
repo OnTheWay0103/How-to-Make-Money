@@ -279,6 +279,12 @@ MUST 全部通过才允许部署：
    `/privacy` `/terms` 却一条可见广告都没有——**配置全绿 ≠ 页面有广告**）
 5. 抽查 PC 与手机宽度（375px）无空白、错位、横向溢出
 6. `content/guides/*.md` frontmatter 的 `related` 为块状数组、`sources` ≥1 Official
+7. SEO 合规（2026-10-29 起）：部署前 `node scripts/seo-check.mjs --site <site>` exit 0
+   （已并入 `deploy-wiki-site.sh` 第 0d 步，阻断式）；
+   **部署后 `--live` 再跑一次，exit 0 才交 QA**（新站另加 `--strict`）。
+   规则全文 `.claude/skills/seo-game-site.md`；ERROR 内容层（frontmatter、图片 alt）由建站自己修、
+   结构与组件层写 `.agent/seo-fix-<site>.md` 交主 Agent；WARN 中 **canonical 与 title/description
+   长度两项按 2026-10-29 决定暂不处理**，只记录、不改存量页。MUST NOT 靠删页面或加 noindex 过关
 
 > 构建通过只证明「能跑」，不证明「内容对」；内容对由 QA 判（`docs/agents/05/06`）。
 

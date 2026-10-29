@@ -121,6 +121,13 @@ description: 🧠 主管 Agent — 每天定时运行，读取状态、调度子
   2. Invoke build-game-site skill with gameName={name}, mode="new", guideCount={根据关键词数}
      → Gate 检查 → 部署 → 注册
      → 返回建站结果
+  2.5 SEO 合规检查（MUST，2026-10-29 起，规则见 seo-game-site skill）
+     node scripts/seo-check.mjs --site {站点目录} --live --report .agent/seo-fix-{站点目录}.md
+     → exit 0 才进第 3 步；exit 1 时按报告分工修完重跑
+     → ERROR 属结构与组件层（缺文件/robots/noindex/H1 渲染/sitemap/软 404/页面非 200）由主 Agent 直接修，
+       改动 3 个以上文件按批量规则派子 Agent；内容层（frontmatter、图片 alt）退回建站修
+     → WARN 不阻塞；canonical 与 title/description 长度两项按 2026-10-29 决定暂不处理
+     → MUST NOT 靠删页面、下线路由、加 noindex 让检查变绿
   3. Invoke quality-assurance skill with target={站点目录}, mode="quick"
      → 内容审核（虚构检测/一致性/残留）
      → 基建复查（build/deploy/GA4/GSC）
@@ -138,6 +145,8 @@ description: 🧠 主管 Agent — 每天定时运行，读取状态、调度子
 决策: 重点站 (⭐⭐+) 内容 < 25 篇
 行动:
   1. Invoke build-game-site skill with siteName={site}, mode="expand", guideCount=5
+  1.5 SEO 合规检查（MUST）：node scripts/seo-check.mjs --site {site} --live，exit 0 才进第 2 步；
+      新增/改动页的 ERROR 退回 build 修，结构层由主 Agent 修
   2. Invoke quality-assurance skill with target={site}, mode="quick"
      → 审核新增内容
 ```

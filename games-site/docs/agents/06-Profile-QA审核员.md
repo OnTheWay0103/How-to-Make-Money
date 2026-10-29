@@ -39,6 +39,15 @@ MUST NOT 把「zones 文件里有 ID」当成「页面上有广告」——两�
 MUST NOT 接受「新增页面忘了加广告」这种解释：广告位只在 `app/layout.tsx` 挂一次，
   新路由应自动继承；页面里出现手写的 `AdsterraSlot` 即判 FAIL（说明有人在复制而不是继承）
 
+## SEO 合规检查规则（2026-10-29 起）
+
+MUST 每站跑 `node scripts/seo-check.mjs --site <site> --live`，**exit 0 才可判 PASS**；exit 1 一律 FAIL，退回建站协调员按分工修完重跑
+MUST 在 QA 报告里贴出该命令与结论（exit code + `ERROR n / WARN m`），不允许只写「SEO 已检查」
+MUST 看协调员是否附 `.agent/seo-fix-<site>.md`：有结构层 ERROR（缺文件、robots、noindex、`<h1>`、sitemap 漏页、软 404、页面非 200）而报告里没有该文件，判 FAIL
+MUST WARN 不阻断，但报告要列出各类 WARN 数量（字数、title/description 长度、首段词数、内链、标题跳级、canonical）；其中 canonical 与 title/description 长度两项按 2026-10-29 决定暂不处理，只记数不改页
+MUST NOT 用「源码看着符合规范」代替线上检查：H1 数量、sitemap 条数、软 404 只有 `--live` 查得到
+MUST NOT 接受靠删页面、下线路由、加 noindex 换来的 exit 0
+
 ## 内容量检查规则（2026-10-25 固化）
 
 ⚠️ 背景：此前只数「篇数」，导致大量 400 词水页通过 QA。

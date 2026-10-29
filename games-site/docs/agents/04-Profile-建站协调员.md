@@ -92,6 +92,17 @@ MUST 并发部署（≥2 站同时）时以**内容级验证**判定成败（首
 MUST NOT 在 shell 脚本里写 `VAR=$(... | grep ... | head -1)` 而不加 `|| true`（教训：9/11 复现并定位 9/9 误报的**真正机理**——`set -euo pipefail` 下 grep 无匹配退出 1，且 `head` 提前关闭管道使 grep 收 SIGPIPE(141)，两者都经 pipefail 传播为非零 → **errexit 在脚本自身的错误处理之前静默退出**，告警不打印、成功被误报为失败；9/11 实测 8 个成功部署全被误报 FAIL。已在 `deploy-wiki-site.sh` L77/L88 补 `|| true` 修复）
 MUST 对 `vercel deploy` 的瞬时 `Not authorized` 自动重试 1 次（教训：9/11 并发部署时 CLI 会话 token 刷新被抢占，首次部署报 Not authorized，立即重试即成功）
 
+## SEO 合规检查规则（2026-10-29 起）
+
+规则全文见 `.claude/skills/seo-game-site.md`，第七节是脚本用法与严重度分工；检查器 `scripts/seo-check.mjs` 已覆盖全部 ERROR 项。
+
+MUST 每次 build 或 expand 后跑 `node scripts/seo-check.mjs --site <site> --live`，exit 0 才交 QA
+MUST ERROR 属**内容层**（frontmatter 缺 title / description、两页 title 或 description 重复、正文图片 `![](...)` 无 alt）时自己改 `content/guides/*.md` 的 frontmatter / 正文，改完重跑直到 exit 0
+MUST ERROR 属**结构与组件层**（缺必需文件、robots Disallow `/`、noindex、`<h1>` 渲染、sitemap 漏页、软 404、页面非 200）时用 `node scripts/seo-check.mjs --site <site> --live --report .agent/seo-fix-<site>.md` 生成报告（自带修复方向列）交主 Agent；MUST NOT 自己动框架层
+WARN 记录不阻塞（字数、title 40–60 / description 140–160 字符、首段词数、内链 <3、标题跳级、canonical）；其中 **canonical 与 title/description 长度两项按 2026-10-29 决定暂不处理**，MUST NOT 写成待办，MUST NOT 为凑字符改存量页 TDH
+MUST NOT 靠删页面、下线路由、把内容挪进 JS、加 noindex 来「通过」检查
+MUST NOT 手改 `.agent/seo-fix-*.md` 当检查结果
+
 ## 恢复规则
 
 当前状态：▶️ 已恢复（2026-08-22 起，BUILD-001 新 Agent 管线；每日一站节奏由主 Agent 调度）

@@ -77,6 +77,17 @@ if ! ls "$SCRIPT_DIR/$SITE_DIR/public/"google*.html >/dev/null 2>&1; then
   echo "⚠️ $SITE_DIR/public/ 缺 GSC 验证文件 google*.html —— 从任一在运营站复制（全站同名 1 个文件）"
 fi
 
+# 0d. SEO 合规门禁（本地层，2026-10-29 起）：缺必需文件 / robots 挡站 / noindex /
+#     渲染器产出 <h1> / sitemap 漏读 content / 缺或重复 title·description / 图片无 alt
+#     在这里挡住。线上层（真实 404、线上 H1 数、sitemap 条数）部署后另跑 --live，
+#     规则见 .claude/skills/seo-game-site.md；WARN 不阻断（canonical 与
+#     title/description 长度两项 2026-10-29 决定暂不处理）。
+echo "  0d) SEO 合规检查（本地）..."
+if ! node "$SCRIPT_DIR/scripts/seo-check.mjs" --site "$SITE_DIR"; then
+  echo "❌ SEO 合规检查未通过（ERROR），已中止部署。按上面代码修完重试。"
+  exit 1
+fi
+
 echo "🚀 部署 $SITE_DIR (project=$PROJECT_NAME)"
 
 # 1. 防御性清空 rootDirectory（应为空，若被意外设置则清除；token 过期则跳过）

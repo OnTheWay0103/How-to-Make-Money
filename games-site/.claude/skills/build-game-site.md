@@ -406,6 +406,26 @@ EOF
 > 存量页不追溯；`git status` 为空时跳过（不算通过也不算失败）。
 > **检查 exit 1 不得部署。**
 
+### SEO 合规 Gate（2026-10-29 起，部署后强制）
+
+规则见 `.claude/skills/seo-game-site.md`（四层定位 + 站点级 S1–S15 + 页面级 P1–P22），
+执行靠 `scripts/seo-check.mjs`。**部署完 MUST 跑，exit 0 才把站点交给 QA Agent。**
+
+```bash
+# 提交前（本地结构 + frontmatter + 正文）
+node scripts/seo-check.mjs --site {site}
+# 部署后（另抓线上 HTML：状态码、H1 数、title/description、图片 alt、sitemap、robots、软 404）
+node scripts/seo-check.mjs --site {site} --live --report .agent/seo-fix-{site}.md
+```
+
+- **ERROR = 必须修**（缺文件、robots 挡站、noindex、`<h1>` 不唯一或渲染器产出 `<h1>`、
+  缺 title/description、站内 title/description 重复、图片无 alt、软 404、sitemap 漏页、页面非 200）。
+  内容层（frontmatter / 正文图片 alt）由建站自己修，修完重跑；
+  结构与组件层写进 `.agent/seo-fix-{site}.md` 交主 Agent。
+- **WARN 不阻塞**：字数、title 40–60 / description 140–160 字符、首段词数、内链数、canonical。
+  其中 **canonical 与长度两项按 2026-10-29 决定暂不处理**，MUST NOT 顺手改。
+- MUST NOT 靠删页面、下线路由、加 `noindex`、把正文挪进 JS 来让检查变绿。
+
 ### 部署 + 收尾（强制步骤，不可跳过）
 
 > ⚠️ **以下每一步都必须执行，且上一步成功后才能进入下一步。**

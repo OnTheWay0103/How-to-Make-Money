@@ -525,6 +525,33 @@ export const SITE_CONFIG = {
 
 **常见错误**：`seo-config.ts` 中的 `url` 与部署域名不一致 → sitemap 中的 URL Google 抓不到 → GSC 报"无法抓取"。
 
+### 3.3 SEO 合规机器检查（2026-10-29 起）
+
+建站/上线后 MUST 跑：
+
+```bash
+node scripts/seo-check.mjs --site <site> --live
+```
+
+**exit 0 才交 QA**。规则全文见 `.claude/skills/seo-game-site.md` 第七节（脚本用法与严重度分工）。
+
+**严重度**：
+
+| 级别 | 包含 | 处理 |
+|------|------|------|
+| **ERROR**（退出码 1） | 缺必需文件（`app/layout.tsx` / `app/sitemap.ts` / `app/robots.ts` / `lib/seo-config.ts` / `lib/schema.ts` / `components/GuideLayout.tsx`）；robots 里 Disallow `/`；全站出现 noindex；`<h1>` 数量不为 1，或 `components/ReactMarkdown.tsx` 会产出 `<h1>`；frontmatter 缺 title / description；title 或 description 站内重复；正文图片 `![](...)` 无 alt；未知路径不是真 404；`/sitemap.xml` 或 `/robots.txt` 非 200、sitemap 条数少于攻略篇数；任何页面非 200；线上 `<img>` 缺 alt | 必须修，修完重跑 |
+| **WARN**（不阻塞） | 字数（<1200，FAQ <800）、title 40–60 / description 140–160 字符、首段词数、站内内链 <3、标题跳级、canonical | 记录不改；其中 canonical 与 title/description 长度两项按 2026-10-29 决定**暂不处理** |
+
+**谁修**：
+
+1. **建站协调员**跑检查。ERROR 属**内容层**（缺 title/description、两页 title 或 description 重复、图片无 alt）→ 自己改 `content/guides/*.md` 的 frontmatter / 正文，改完重跑。
+2. ERROR 属**结构与组件层**（缺文件、robots Disallow、noindex、`<h1>` 渲染、sitemap 漏页、软 404、页面非 200）→ 用 `--report .agent/seo-fix-<site>.md` 生成报告（脚本自带修复方向列）交**主 Agent**；主 Agent 直接修，改动 3 个以上文件时按项目批量规则派子 Agent。
+3. **QA 审核员**复核：`node scripts/seo-check.mjs --site <site> --live` 必须 exit 0 才能判 PASS，报告里贴出该命令与结论。
+
+新站上线闸另用 `--strict`（WARN 也计为失败）；存量站只用默认模式，WARN 不阻塞。
+
+MUST NOT 靠删页面、下线路由、把内容挪进 JS、加 noindex 来「通过」检查；MUST NOT 手改 `.agent/seo-fix-*.md` 当结果。
+
 ---
 
 ## 四、Google Analytics 配置
@@ -1318,7 +1345,7 @@ Root Directory 被曾用的「清空 → CLI 部署 → 恢复」手法停在 `n
 
 ### C.9 上线验证一句话清单
 
-每次新站上线，跑这 6 条命令验证：
+每次新站上线，跑这 7 条命令验证：
 
 ```bash
 SITE="your-site.vercel.app"
@@ -1343,10 +1370,14 @@ grep -r "Witchspire" --include="*.ts" --include="*.tsx" --include="*.md" . | gre
 node scripts/check-ad-slots.mjs --live <site-dir>
 # 必须 exit 0：/faq /guides /tier-list /about /contact /privacy /terms 各 1 个
 # id="container-…"，攻略页恰好 1 个（2 个 = PageAdBanner 与 GuideLayout 叠了）
+
+# 7. SEO 合规（见 3.3 节）
+node scripts/seo-check.mjs --site <site-dir> --live
+# exit 0 才算过；ERROR 必改，WARN 记录不改
 ```
 
 ---
 
-> **最后更新**：2026-10-29（C.9 加第 6 条广告位覆盖检查）  
+> **最后更新**：2026-10-29（C.9 加第 7 条 SEO 合规检查 + 三、3.3 节 SEO 合规机器检查）  
 > **基于实战**：Witchspire / Mistfall Hunter / Aincrad / The Mound / SpiritVale / Skills & Raids 六个站点  
 > **维护**：每上线一个新站点，回来更新本文档中遇到的新的坑。

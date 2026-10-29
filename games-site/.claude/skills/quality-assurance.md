@@ -180,7 +180,23 @@ curl -sI "https://$DOMAIN/ads.txt" | head -1      # → HTTP/2 200
 curl -s "$DOMAIN/sitemap.xml" | grep -c "<url>"   # URL 数量 > 0
 ```
 
-### 3.3 配置检查
+### 3.3 SEO 合规（MUST，2026-10-29 起）
+
+规则见 `.claude/skills/seo-game-site.md`；判定一律以脚本为准，不靠肉眼。
+
+```bash
+node scripts/seo-check.mjs --site {site} --live --json
+# 必须 exit 0（= ERROR 0 条）；FAIL 判 🔴 阻断，不许放行
+```
+
+- 报告里 MUST 贴出这条命令与结论（`ERROR n / WARN n`），并列出每条 ERROR 的代码与位置。
+- WARN 不阻断，但 MUST 在报告里写明总数；**canonical 与 title/description 长度两项按
+  2026-10-29 决定暂不处理**，不要当成缺陷往上报。
+- 结构层 ERROR（缺文件 / robots / noindex / `<h1>` 渲染 / sitemap 漏页 / 软 404 / 页面非 200）
+  交 Coordinator；内容层（frontmatter、图片 alt）交建站 Agent。
+- MUST NOT 为了让检查变绿而删页面、下线路由、加 `noindex`、把正文挪进 JS。
+
+### 3.4 配置检查
 
 ```bash
 # GA4 ID 非空且非占位符
