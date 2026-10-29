@@ -116,6 +116,11 @@ log ""
 # 不设硬超时；长跑中断丢工作的风险由 coordinator 分批 commit 兜底。日志见 LOG_DIR。
 cd "$PROJECT_DIR"
 
+# 子 Agent 等待上限：默认 10 分钟。超过上限 CLI 会直接停掉仍在跑的子 Agent
+# 并以 exit 0 结束 —— 2026-10-29 04:00 轮就是这样丢掉 nivalis/waterpark 两站、
+# 且把中断记成成功的。设为 0 = 无限等待，子 Agent 跑完为止。
+export CLAUDE_CODE_PRINT_BG_WAIT_CEILING_MS=0
+
 # 使用临时文件捕获 exit code，避免 PIPESTATUS 在 pipefail 下未定义
 TMP_OUT=$(mktemp)
 trap "rm -f $TMP_OUT" EXIT
@@ -130,6 +135,24 @@ set -e  # 恢复 errexit
 
 # 输出到日志
 cat "$TMP_OUT" | tee -a "$LOG_FILE"
+
+log ""
+log "========== 收尾门禁 =========="
+
+# 已部署但未提交 = 线上内容不在 git，属缺陷（coordinator prompt 的 STEP 0 同一条规则）。
+# 退出码 0 不代表本轮干净 —— 2026-10-27 与 2026-10-29 两轮都是这样静默留下的。
+set +e
+node scripts/check-uncommitted-content.mjs >> "$LOG_FILE" 2>&1
+GATE_CODE=$?
+set -e
+if [ "$GATE_CODE" -ne 0 ]; then
+    log "❌ 有已部署但未提交的内容（check-uncommitted-content exit $GATE_CODE），本轮判失败"
+    if [ "$EXIT_CODE" -eq 0 ]; then
+        EXIT_CODE=1
+    fi
+else
+    log "✅ 工作区干净：线上内容与 git 一致"
+fi
 
 log ""
 log "========== 执行完成 =========="
