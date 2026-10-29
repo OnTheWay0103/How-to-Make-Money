@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-30",
+  "note": "每日扩充 4 站全部交付（名单 = expansion-targets.mjs --json 的 eligible[]，PV30 全部 >1000，逐站 --verify exit 0）；侦察轮 17 新候选（#124–#140）+ 分析轮 selection-2026-10-30.md（2 个 14 分压线可建、1 个 13 分低优先、16 个放弃）+ 采词轮 20/20；QA deep 补做（上次全量 2026-09-10，逾期 50 天），全站 ERROR 0。另新建 1 站 zombieassaultresurgencewiki（#130 Zombie Assault: Resurgence 14 分）。",
+  "rows": [
+    {
+      "site": "nivalisnightswiki",
+      "types": ["扩充", "部署"],
+      "guides": ["fill-venue-inventory-stuck-guide"],
+      "qa": "PASS",
+      "url": "https://nivalisnightswiki.vercel.app/guides/fill-venue-inventory-stuck-guide",
+      "verify": "200",
+      "words": 1404,
+      "note": "来源：官方 Update #1 / #7"
+    },
+    {
+      "site": "waterparksimulatorwiki",
+      "types": ["扩充", "部署"],
+      "guides": ["lag-low-fps-performance-guide"],
+      "qa": "PASS",
+      "url": "https://waterparksimulatorwiki.vercel.app/guides/lag-low-fps-performance-guide",
+      "verify": "200",
+      "words": 1496
+    },
+    {
+      "site": "shiftatmidnightwiki",
+      "types": ["扩充", "部署"],
+      "guides": ["save-system-and-cloud-guide"],
+      "qa": "PASS",
+      "url": "https://shiftatmidnightwiki.vercel.app/guides/save-system-and-cloud-guide",
+      "verify": "200",
+      "words": 1313,
+      "note": "来源：官方 2026-08-20 云存档公告；顺带修正 pc-performance-guide 存档路径为 LocalLow\\Kwalee"
+    },
+    {
+      "site": "sephiriawiki",
+      "types": ["扩充", "部署"],
+      "guides": ["mods-workshop-guide"],
+      "qa": "PASS",
+      "url": "https://sephiriawiki.vercel.app/guides/mods-workshop-guide",
+      "verify": "200",
+      "words": 1287,
+      "note": "来源：1.1.0 Beta Steam Workshop 支持"
+    }
+  ]
+}

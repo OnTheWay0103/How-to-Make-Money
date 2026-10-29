@@ -2868,3 +2868,15 @@ WebSearch "GONE Fishing ... GONE Studios ABCT Productions" / "REKA ... release d
 1. **`demon bluff demo how many ascensions`** —— 本轮最强信号。建站时我自己就误判「没有 demo」，实测 demo 是独立 app 且已上线五个月；这个词背后是「demo 里到底能玩到第几级」的真实困惑，现有对手（wiki.gg）不写攻略型内容，我们有官方补丁口径（A4→A5 变更）可写。
 2. **`demon bluff relics` / `demon bluff relic list`** —— 官方定义 + 9 个 demo relic（Grave Flame、Severed Horn 等）可核验，而 wiki.gg 只有 8 个 relic 页且名字冲突（Severed Horn vs Severed Braid）。这是一页「9 个遗物怎么改规则」的空白，且能直接挂到 `ability-order` 的内链。
 3. **`demon bluff baker` / `dreamer` / `witness` 单角色页** —— 采词里已出现具名角色查询（baker / dreamer / witness / rambler / lycanthrope），我们目前只有一页合并列表。优先做 Judge / Medium / Slayer 三个「判定型」角色（tier-list 的 S 档）比做全部 44 个更划算，且每个都有 wiki.gg Ability 段可作来源。
+
+---
+
+## 新关键词机会（2026-10-30 轮）
+
+本轮采词 20/20 完成（17 个新候选 + 3 个老库重采：`themound` 214 有效词、`gotown` 184、`moonlightpeaks` 262），按「有真实检索、我们无对应落地页、有可核验来源」三条筛，最值得下笔的前 3 个：
+
+1. **`moonlight peaks best farm layout` / `optimal farm layout` / `best greenhouse layout` / `best barn layout`**（`best layout` 后缀成组，连 `farm layout` 裸词共 10 条）。现有 `farming-guide`（14.3K）讲的是「怎么种」，没有一页讲「田怎么排」——作物行距、温室与谷仓的摆放顺序、浇水动线。布局类意图在 Stardew 系游戏里是稳定长尾，且可从官方种植机制推出来，不需要抄第三方数值。
+2. **`go go town demo` 集群**（11 条：`demo coop` / `demo multiplayer` / `demo length` / `demo switch` / `switch 2 demo` / `demo vs full game`）。`faq-guide` 里只有零散一句，而 demo 是独立可下载版本（有单独商店页可核验），「demo 能玩多久 / 能不能联机 / 存档能不能带进正式版」正是这类被试玩吸引来的玩家第一个问题，做成一页可直接承接试玩流量。
+3. **`moonlight peaks museum invites` / `how to donate to museum` / `unlock museum`**（3–4 条）。不新建页，而是给现有 `museum-guide`（12.1K）补一节「邀请函获取 + 捐赠判定 + 解锁条件」——该页目前讲藏品清单，缺流程；补节的成本远低于新页，且能顺带把这三条词收进来。
+
+**留档不建议做**：`the mound tier list`（3 词）低于建页线（≥6 词）先挂；`moonlight peaks mods` 虽有 14 条但需先核实官方是否支持 Workshop，无官方来源不写。

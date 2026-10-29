@@ -6,28 +6,28 @@
   "sites": [
     {
       "site": "nivalisnightswiki",
-      "pv": 2451,
+      "pv": 2401,
       "lifeStatus": "加码",
       "lastExpanded": "2026-10-29",
       "lastProduced": "get-home-after-curfew-guide (1,593w)"
     },
     {
       "site": "waterparksimulatorwiki",
-      "pv": 1106,
+      "pv": 1061,
       "lifeStatus": "加码",
       "lastExpanded": "2026-10-29",
       "lastProduced": "achievements-guide (1,380w)"
     },
     {
       "site": "shiftatmidnightwiki",
-      "pv": 1083,
+      "pv": 1014,
       "lifeStatus": "加码",
       "lastExpanded": "2026-10-29",
       "lastProduced": "rakes-guide (1,608w)"
     },
     {
       "site": "sephiriawiki",
-      "pv": 1003,
+      "pv": 1007,
       "lifeStatus": "加码",
       "lastExpanded": "2026-10-29",
       "lastProduced": "artifact-evolution-guide (1,643w)"
@@ -199,7 +199,7 @@
   "watchlist": [
     {
       "site": "themoundwiki",
-      "pv": 798,
+      "pv": 800,
       "lastExpanded": "2026-10-24",
       "note": "2026-10-26 复核跌破 1000 移出每日名单；当日新页 SKIP（无 ≥3 独立玩家来源选题），改做 1.06 补丁校准"
     },
@@ -212,14 +212,14 @@
     },
     {
       "site": "tearsofmetalwiki",
-      "pv": 660,
+      "pv": 620,
       "lastExpanded": "2026-10-27",
       "lastProduced": "armor-sets-gear-unlock-guide (1,396w)",
       "note": "已产出后跌破 1000，下次复核过线自动回归"
     },
     {
       "site": "grainrotwiki",
-      "pv": 213,
+      "pv": 203,
       "lastExpanded": "2026-10-26",
       "lastProduced": "save-files-and-coop-progress-guide (1,500w)",
       "note": "已产出后跌破 1000，下次复核过线自动回归"
@@ -277,6 +277,6 @@
       "note": "每日扩充当日 08:38–08:53 已完成：nivalis/sephiria/waterpark/shiftatmidnight 各 +1 篇；spiritvale/tearsofmetal/grainrot 各 +1 篇；themound 新页 SKIP + updates-patch-notes 补 1.06 校准。8 站全部 QA 完成、部署并线上 200（.agent/delivery-2026-10-26.json）。本轮按「每站每天 1 篇」不重复产出，改做第二轮发现 + P2 校准。PV 复核：dashboard /api/traffic（2026-09-26→2026-10-26）PV>1000 = nivalis 2413 / sephiria 1201 / waterpark 1201 / shiftatmidnight 1133；提示词里列的 themound(805)/spiritvale(802)/tearsofmetal(712)/grainrot(246) 已跌破 1000，但当日均已产出或记录 SKIP。"
     }
   ],
-  "pvCheckedAt": "2026-10-29T13:19:28.296Z",
+  "pvCheckedAt": "2026-10-29T20:56:20.308Z",
   "roundNote": "2026-10-29 04:00 轮中断（2/4 站交付，未 commit 由主 Agent 补齐）；同日 09:00 完成补记。"
 }
