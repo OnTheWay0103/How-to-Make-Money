@@ -272,8 +272,13 @@ MUST 全部通过才允许部署：
    - 除首页外页面 canonical 指向自身
    - sitemap 条目数 = 实际页面数
 3. 残留扫描（脚本化）：`node scripts/check-site-residue.mjs <site>` exit 0 —— 查 `{{UPPER_SNAKE}}` 未替换占位符 + 模板源站硬编码身份（如发行商 `Digital Vortex Entertainment`）；他站游戏名 / 域名 / Hugo shortcode / 模板文案 **0 命中**（2026-10-26 起已并入 `deploy-wiki-site.sh` 第 0b 步，阻断式）
-4. 抽查 PC 与手机宽度（375px）无空白、错位、横向溢出
-5. `content/guides/*.md` frontmatter 的 `related` 为块状数组、`sources` ≥1 Official
+4. 广告位覆盖：`node scripts/check-ad-slots.mjs <site>` **exit 0** —— 查的是渲染层不是配置层：
+   `app/layout.tsx` 挂 `global` 位与 `<PageAdBanner />`、`PageAdBanner` 渲染 `guide` 位且排除
+   `/guides/*`、`GuideLayout` 仍内联 `guide`。上线后再跑 `--live` 复验线上 HTML
+   （2026-10-29 教训：50 站两个 zone 配置齐全，`/guides` `/faq` `/tier-list` `/about` `/contact`
+   `/privacy` `/terms` 却一条可见广告都没有——**配置全绿 ≠ 页面有广告**）
+5. 抽查 PC 与手机宽度（375px）无空白、错位、横向溢出
+6. `content/guides/*.md` frontmatter 的 `related` 为块状数组、`sources` ≥1 Official
 
 > 构建通过只证明「能跑」，不证明「内容对」；内容对由 QA 判（`docs/agents/05/06`）。
 

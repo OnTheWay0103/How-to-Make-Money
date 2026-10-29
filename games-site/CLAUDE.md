@@ -85,6 +85,7 @@ Agent 之间不直接对话，通过**文件契约**交接：
 - **域名**：当前维持 `*.vercel.app` 子域（2026-11-25 复盘）；风险 = URL 绑定托管账号，换账号即换 URL；将来迁移 MUST 先 301
 - **托管**：当前 Vercel Hobby 单账号；Hobby 条款禁止商业用途、多账号分摊属规避限制，风险记在节点 18 备注；2026-11-25 复盘 Pro / Cloudflare
 - **广告位**：每站 Adsterra `global`（Social Bar）+ `guide`（Native Banner）两个位；**唯一入口是飞书「站点台账(人工)」两列** → 20:00 回填脚本调 `adsterra-sync.mjs` 写 `<site>/lib/adsterra-zones.ts` 并部署，上线状态记 `.agent/adsterra-state.json`；「广告位管理」表已删（2026-10-26），MUST NOT 手改 zones 文件或站点广告代码
+- **广告位必须挂在每个页面**（2026-10-29 用户要求）：`global` 由 `app/layout.tsx` 全站渲染，`guide` 由 `components/PageAdBanner.tsx` 在 layout 层渲染并按路径排除 `/guides/*`（`GuideLayout` 已内联同一 zone，否则一页两条）；MUST NOT 把 banner 写进单个页面或首页专属块 —— 写进页面就一定会漏，而漏了配置侧查不出来（当时 50 站两个位齐全，`/guides` `/faq` `/tier-list` `/about` `/contact` `/privacy` `/terms` 却完全没有可见广告）。**新增页面/新站 MUST 自动继承**：广告位只在 layout 挂一次，MUST NOT 在新页面手工复制 `AdsterraSlot`。校验用 `node scripts/check-ad-slots.mjs [--live]`，exit 0 才算通过（`--live` 另抓线上 HTML 数 `container-`）
 - **GA4**：暂维持人工建 property；每站 MUST 把 Dashboard 服务账号加为该 property 的读取者，否则看板无数据
 
 ## 站点矩阵

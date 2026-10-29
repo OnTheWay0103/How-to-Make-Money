@@ -70,6 +70,9 @@ MUST 保持三层分离：框架层（`app/`、`components/`、`lib/guides.ts` �
 MUST 三步配置齐全：GA4（propertyId）+ GSC（验证文件）+ Dashboard 注册
 MUST 确认 `public/google*.html` GSC 验证文件在站内（模板 `templates/wiki-base/public/` 已内置，全站复用同一份；`deploy-wiki-site.sh` 第 0c 步缺文件会告警），部署后 curl 该路径必须 200 —— 缺了 GSC 只能走 DNS/TXT，`*.vercel.app` 子域做不了（教训：2026-10-26 建 rekawiki / gonefishingwiki 时模板 `public/` 只有 `icon.png`，两站上线后无法「直接通过验证」）
 MUST ads.txt 使用正确 publisher ID
+MUST 保证广告位挂在**每一个页面**，MUST NOT 只挂在攻略页：`global`（Social Bar）由 `app/layout.tsx` 全站渲染；`guide`（Native Banner）由 `components/PageAdBanner.tsx` 在 **layout 层**渲染，并按路径排除 `/guides/*`（`GuideLayout` 已内联同一 zone，不排除会一页两条）。MUST NOT 把 banner 写进单个页面或首页专属块 —— 教训 2026-10-29：50 站两个位配置齐全，但 `/guides` `/faq` `/tier-list` `/about` `/contact` `/privacy` `/terms` 线上完全没有可见广告，用户先发现；源码检查、residue 检查、配置检查全部查不到，因为缺陷只在**渲染层**
+MUST 让新页面**自动**继承广告位：广告位只在 layout 挂一次，新增路由不需要任何动作；MUST NOT 在新页面里手工复制 `AdsterraSlot`（复制就会漏，漏了没人发现）
+MUST 新增/改动页面后跑 `node scripts/check-ad-slots.mjs`，exit 0 才算通过；上线后跑 `node scripts/check-ad-slots.mjs --live <site>` 复验线上每个页面都有 `container-` 容器，攻略页只 1 条
 MUST 更新 STATS.md（站点表 + 汇总）
 MUST 新增 `public/` 下任何资源后用 `git add -f` 强制暂存，并用 `git status` 确认已跟踪（教训：9/9 AdSense 整改新增 41 个 `public/icon.png` 被全局 gitignore 静默排除——`~/.gitignore_global` 含 `Public/` 规则，macOS 大小写不敏感故匹配 `public/`；不 `-f` 则资源不进版本库）
 MUST 归档证据/报告用 `.md` 而非 `.txt`（教训：`~/.gitignore_global` 含 `*.txt` 规则，9/9 验证证据 `.txt` 被静默排除，改 `.md` 后可见）

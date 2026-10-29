@@ -1318,7 +1318,7 @@ Root Directory 被曾用的「清空 → CLI 部署 → 恢复」手法停在 `n
 
 ### C.9 上线验证一句话清单
 
-每次新站上线，跑这 5 条命令验证：
+每次新站上线，跑这 6 条命令验证：
 
 ```bash
 SITE="your-site.vercel.app"
@@ -1338,10 +1338,15 @@ curl -sI "https://$SITE/google12f8715471cef7b7.html"  # 必须 200
 # 5. 无模板残留
 grep -r "Witchspire" --include="*.ts" --include="*.tsx" --include="*.md" . | grep -v node_modules | grep -v .next
 # 预期输出：空
+
+# 6. 广告位覆盖到每一个页面（不是只查 zones 配置）
+node scripts/check-ad-slots.mjs --live <site-dir>
+# 必须 exit 0：/faq /guides /tier-list /about /contact /privacy /terms 各 1 个
+# id="container-…"，攻略页恰好 1 个（2 个 = PageAdBanner 与 GuideLayout 叠了）
 ```
 
 ---
 
-> **最后更新**：2026-10-27（新增 7.9 外链排期）  
+> **最后更新**：2026-10-29（C.9 加第 6 条广告位覆盖检查）  
 > **基于实战**：Witchspire / Mistfall Hunter / Aincrad / The Mound / SpiritVale / Skills & Raids 六个站点  
 > **维护**：每上线一个新站点，回来更新本文档中遇到的新的坑。

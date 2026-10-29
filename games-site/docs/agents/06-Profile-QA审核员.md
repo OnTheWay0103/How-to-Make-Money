@@ -23,6 +23,22 @@ MUST 检查编造痕迹：虚构 Boss/武器/角色名、无法验证的精确�
 MUST 用 Steam 官方信息做交叉验证基准
 SHOULD 使用 WebSearch/WebFetch 验证可疑数据
 
+## 广告位覆盖检查规则（2026-10-29 起）
+
+⚠️ 背景：2026-10-29 用户发现 `global`（Social Bar）+ `guide`（Native Banner）两个位虽然
+50 站配置齐全，但**可见的 Native Banner 只在 `/` 和 `/guides/<slug>` 渲染**——
+`/guides`、`/faq`、`/tier-list`、`/about`、`/contact`、`/privacy`、`/terms` 线上一条广告都没有。
+源码检查、residue 扫描、配置检查全部绿，因为缺陷只在**渲染层**。所以这条 MUST 落到
+渲染结果上，不能只看 `lib/adsterra-zones.ts` 有没有 ID。
+
+MUST 每站跑 `node scripts/check-ad-slots.mjs <site>`，exit 0 才可判 PASS
+MUST 上线后再跑 `node scripts/check-ad-slots.mjs --live <site>`，逐站核对线上 HTML：
+  非攻略页（`/faq`、`/guides`、`/tier-list`、`/about`、`/contact`、`/privacy`、`/terms`）各 ≥1 个 `id="container-`
+  攻略页 `/guides/<slug>` **恰好 1 个**（2 个 = `PageAdBanner` 与 `GuideLayout` 叠了）
+MUST NOT 把「zones 文件里有 ID」当成「页面上有广告」——两者是两件事
+MUST NOT 接受「新增页面忘了加广告」这种解释：广告位只在 `app/layout.tsx` 挂一次，
+  新路由应自动继承；页面里出现手写的 `AdsterraSlot` 即判 FAIL（说明有人在复制而不是继承）
+
 ## 内容量检查规则（2026-10-25 固化）
 
 ⚠️ 背景：此前只数「篇数」，导致大量 400 词水页通过 QA。
