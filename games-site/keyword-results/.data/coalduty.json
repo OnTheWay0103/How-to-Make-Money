@@ -1,0 +1,115 @@
+{
+  "slug": "coalduty",
+  "game": "Coal Duty",
+  "runs": [
+    {
+      "at": "2026-10-29T13:23:38.655Z",
+      "locale": "en",
+      "requests": 22,
+      "failures": 0,
+      "raw": 41,
+      "dedup": 41,
+      "valid": 9,
+      "variants": 0,
+      "noise": 32,
+      "noiseRate": 0.7805,
+      "anchorRate": 0.2195,
+      "newKeywords": 9
+    }
+  ],
+  "keywords": {
+    "coal duty boundary post": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "coal duty game": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "coal duty marker": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "coal duty posts": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "coal duty price": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "coal duty steam": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "coal duty steamdb": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "coal duty xbox": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "coking coal duty": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    }
+  },
+  "aliases": [],
+  "locale": "en",
+  "updatedAt": "2026-10-29T13:23:38.655Z"
+}

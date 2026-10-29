@@ -1,0 +1,96 @@
+{
+  "slug": "emeryhearts",
+  "game": "Emery Hearts",
+  "runs": [
+    {
+      "at": "2026-10-29T13:31:57.201Z",
+      "locale": "en",
+      "requests": 21,
+      "failures": 0,
+      "raw": 48,
+      "dedup": 40,
+      "valid": 7,
+      "variants": 0,
+      "noise": 33,
+      "noiseRate": 0.825,
+      "anchorRate": 0.175,
+      "newKeywords": 7
+    }
+  ],
+  "keywords": {
+    "emery hearts": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:demo",
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "emery hearts demo": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "emery hearts game": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "emery hearts ps5": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "emery hearts release date": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "emery hearts steam": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "emery hearts switch": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    }
+  },
+  "aliases": [],
+  "locale": "en",
+  "updatedAt": "2026-10-29T13:31:57.201Z"
+}

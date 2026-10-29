@@ -1,0 +1,143 @@
+{
+  "slug": "witchtheshowdown",
+  "game": "Witch the Showdown",
+  "runs": [
+    {
+      "at": "2026-10-29T13:31:01.326Z",
+      "locale": "en",
+      "requests": 21,
+      "failures": 0,
+      "raw": 39,
+      "dedup": 27,
+      "valid": 11,
+      "variants": 0,
+      "noise": 16,
+      "noiseRate": 0.5926,
+      "anchorRate": 0.4074,
+      "newKeywords": 11
+    }
+  ],
+  "keywords": {
+    "witch the showdown": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:demo",
+        "google_suggest:后缀:release date",
+        "google_suggest:品牌+game",
+        "google_suggest:探针:ps5",
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "witch the showdown demo": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "witch the showdown game": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:demo",
+        "google_suggest:后缀:release date",
+        "google_suggest:探针:ps5",
+        "google_suggest:探针:steam",
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "witch the showdown ps5": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "witch the showdown release date": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "witch the showdown steam": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "witch the showdown switch": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "witch the showdown xbox": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "witch the showdown 体験版": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "witch the showdown 東京ゲームダンジョン10": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "witch the showdown 発売日": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    }
+  },
+  "aliases": [],
+  "locale": "en",
+  "updatedAt": "2026-10-29T13:31:01.326Z"
+}

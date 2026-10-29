@@ -1,0 +1,66 @@
+{
+  "slug": "midwest90rapidcity",
+  "game": "Midwest 90: Rapid City",
+  "runs": [
+    {
+      "at": "2026-10-29T13:25:38.705Z",
+      "locale": "en",
+      "requests": 22,
+      "failures": 0,
+      "raw": 110,
+      "dedup": 27,
+      "valid": 2,
+      "variants": 0,
+      "noise": 25,
+      "noiseRate": 0.9259,
+      "anchorRate": 0.0741,
+      "newKeywords": 2
+    }
+  ],
+  "keywords": {
+    "midwest 90 rapid city": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:beginner guide",
+        "google_suggest:后缀:best layout",
+        "google_suggest:后缀:demo",
+        "google_suggest:后缀:guide",
+        "google_suggest:后缀:how to",
+        "google_suggest:后缀:mods",
+        "google_suggest:后缀:money",
+        "google_suggest:后缀:multiplayer",
+        "google_suggest:后缀:reddit",
+        "google_suggest:后缀:release date",
+        "google_suggest:后缀:tier list",
+        "google_suggest:后缀:tips",
+        "google_suggest:后缀:unlock",
+        "google_suggest:后缀:update",
+        "google_suggest:后缀:wiki",
+        "google_suggest:品牌+game",
+        "google_suggest:探针:characters",
+        "google_suggest:探针:ps5",
+        "google_suggest:探针:skills",
+        "google_suggest:探针:steam",
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "midwest 90 rapid city release date": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:release date",
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    }
+  },
+  "aliases": [],
+  "locale": "en",
+  "updatedAt": "2026-10-29T13:25:38.705Z"
+}

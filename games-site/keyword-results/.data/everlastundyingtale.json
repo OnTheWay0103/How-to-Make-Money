@@ -1,0 +1,131 @@
+{
+  "slug": "everlastundyingtale",
+  "game": "Everlast: Undying Tale",
+  "runs": [
+    {
+      "at": "2026-10-29T13:27:31.341Z",
+      "locale": "en",
+      "requests": 21,
+      "failures": 0,
+      "raw": 117,
+      "dedup": 80,
+      "valid": 10,
+      "variants": 0,
+      "noise": 70,
+      "noiseRate": 0.875,
+      "anchorRate": 0.125,
+      "newKeywords": 10
+    }
+  ],
+  "keywords": {
+    "everlast undying tale": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "everlast undying tale classes": {
+      "category": "Build/Class",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:classes",
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "everlast undying tale console": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "everlast undying tale discord": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "everlast undying tale gameplay": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game",
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "everlast undying tale ps5": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:ps5",
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "everlast undying tale reddit": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:reddit",
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "everlast undying tale release date": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:release date",
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "everlast undying tale review": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "everlast undying tale steam": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:steam",
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    }
+  },
+  "aliases": [],
+  "locale": "en",
+  "updatedAt": "2026-10-29T13:27:31.341Z"
+}

@@ -1,10 +1,10 @@
 # 词库索引
 
-> 生成时间：2026-10-28 05:39 UTC
+> 生成时间：2026-10-29 13:04 UTC
 > 生成脚本：`node scripts/keyword-index.mjs` —— 不要手改本文件
 > 规则：`docs/STRATEGY-挖词与词库.md`
 
-共 **106** 份游戏词库（新格式 41，旧格式 65），已建站 **37** 站。
+共 **107** 份游戏词库（新格式 41，旧格式 66），已建站 **38** 站。
 
 > 新格式以 `slug == 站点目录名去掉 wiki` 精确匹配；旧格式只能按文件名猜，「未建站」可能有漏配。
 
@@ -62,7 +62,7 @@
 | Malignus | malignus | 37 | 2026-10-28 | google_suggest:79（裸词 12、后缀:update 5、后缀:guide 5） | 3 Tier List / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
 | Never Be Alone | neverbealone | 89 | 2026-10-28 | google_suggest:110（裸词 15、品牌+game 15、后缀:release date 11） | 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
 | One Way Tickets | onewaytickets | 28 | 2026-10-28 | google_suggest:37（裸词 15、后缀:reddit 8、后缀:release date 3） | 待定 | 未建站 | new |
-| Probably Stolen | probablystolen | 75 | 2026-10-28 | google_suggest:104（裸词 15、品牌+game 15、后缀:guide 10） | 2 Beginner / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
+| Probably Stolen | probablystolen | 75 | 2026-10-28 | google_suggest:104（裸词 15、品牌+game 15、后缀:guide 10） | 2 Beginner / 4 核心机制/Boss / 5 FAQ / 待定 | probablystolenwiki | new |
 | Sephiria | sephiria | 156 | 2026-10-28 | google_suggest:169（后缀:best build 15、后缀:reddit 15、后缀:items 15） | 2 Beginner / 3 Tier List / 4 核心机制/Boss / 5 FAQ / 待定 | sephiriawiki | new |
 | Shift At Midnight | shiftatmidnight | 212 | 2026-10-28 | google_suggest:219（后缀:wiki 15、后缀:guide 15、裸词 15） | 1 Codes / 2 Beginner / 4 核心机制/Boss / 5 FAQ / 待定 | shiftatmidnightwiki | new |
 | S.O.N.A.R. | sonar | 14 | 2026-10-28 | google_suggest:15（裸词 7、品牌+game 3、探针:steam 2） | 1 Codes / 5 FAQ / 待定 | 未建站 | new |
@@ -147,6 +147,7 @@
 | Neon Abyss 2 | neonabyss2-matrix | 0 | — | — | — | 未建站 | legacy |
 | Neon Abyss 2 | neonabyss2-sources | 0 | — | — | — | 未建站 | legacy |
 | 新词缺口扫描 | new-keywords-2026-10-23 | 0 | — | — | — | 未建站 | legacy |
+| Probably Stolen | probablystolen-matrix | 0 | — | — | — | 未建站 | legacy |
 | Probably Stolen | probablystolen-sources | 0 | — | — | — | 未建站 | legacy |
 | REKA | reka-matrix | 0 | — | — | — | 未建站 | legacy |
 | REKA | reka-sources | 0 | — | — | — | 未建站 | legacy |
@@ -162,7 +163,7 @@
 
 ## 待处理
 
-**软问题**（旧格式，逐步随复采替换，不阻塞）：48 份
+**软问题**（旧格式，逐步随复采替换，不阻塞）：49 份
 
 - 无采集元信息头（无法自动统计）：Ardent-Wilds.md
 - 无采集元信息头（无法自动统计）：DinoBlade.md
@@ -184,4 +185,4 @@
 - 无采集元信息头（无法自动统计）：Moonlight-Peaks.md
 - 无采集元信息头（无法自动统计）：ReStory.md
 - 无采集元信息头（无法自动统计）：Sephiria-feedback.md
-- … 其余 28 份
+- … 其余 29 份

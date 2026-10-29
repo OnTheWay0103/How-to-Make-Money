@@ -1,0 +1,2156 @@
+{
+  "slug": "shards",
+  "game": "SHARDS",
+  "runs": [
+    {
+      "at": "2026-10-29T13:26:34.429Z",
+      "locale": "en",
+      "requests": 22,
+      "failures": 0,
+      "raw": 248,
+      "dedup": 247,
+      "valid": 213,
+      "variants": 1,
+      "noise": 34,
+      "noiseRate": 0.1377,
+      "anchorRate": 0.8623,
+      "newKeywords": 213
+    }
+  ],
+  "keywords": {
+    "ancient shards reddit": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:reddit"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "archon shards guide": {
+      "category": "Guide/Beginner",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:guide"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "archon shards release date": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:release date"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "archon shards wiki": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:wiki"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "aura shards reddit": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:reddit"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "bladestone shards demon souls": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:demo"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "blessing shards solo hunters": {
+      "category": "Co-op/Multiplayer",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:solo"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "bloodstained boss shards": {
+      "category": "Boss/Characters",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:boss"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "bone shards guide osrs": {
+      "category": "Guide/Beginner",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:guide"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "characters shards of earth": {
+      "category": "Boss/Characters",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:探针:characters"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "chris shards wikipedia": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:wiki"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "codes for null shards": {
+      "category": "Codes",
+      "pageType": "1 Codes",
+      "sources": [
+        "google_suggest:后缀:codes"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "crystal shards bosses": {
+      "category": "Boss/Characters",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:boss"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "crystal shards characters": {
+      "category": "Boss/Characters",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:探针:characters"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "crystal shards multiplayer": {
+      "category": "Co-op/Multiplayer",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:multiplayer"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "crystal shards release date": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:release date"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "crystal shards update osrs": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:update"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "cyberpunk solo shards": {
+      "category": "Co-op/Multiplayer",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:solo"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "cyberware capacity shards mods": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:mods"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "cyberware capacity shards update 2.3": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:update"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "demon shards": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:demo"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "demon shards dark souls": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:demo"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "demon shards ds1": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:demo"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "demon shards hypixel skyblock": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:demo"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "demon shards minecraft": {
+      "category": "Weapons/Gear",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:demo"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "demon shards skyblock": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:demo"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "demonic shards osrs": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:demo"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "demonic shards sailor piece": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:demo"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "demonite shards": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:demo"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "demonite shards sailor piece": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:demo"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "evo shards codes": {
+      "category": "Codes",
+      "pageType": "1 Codes",
+      "sources": [
+        "google_suggest:后缀:codes"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "fortnite shards update": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:update"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "frosthaven shards solo scenario": {
+      "category": "Co-op/Multiplayer",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:solo"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "game shards of solitude": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "game shards valorant": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "gameglass shards": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "gameglass shards for star citizen": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "gameglass shards list": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "gameology shards of creation": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "gameplay shards of solitude": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "greystone shards demon souls": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:demo"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "grimdark shards reddit": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:reddit"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "hardstone shards demon souls": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:demo"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "how to get shards in the games": {
+      "category": "How-to",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:how to play with friends"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "how to use skill shards cyberpunk": {
+      "category": "Build/Class",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:探针:skills"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "hypixel skyblock shards price": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:price"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "iri shards codes": {
+      "category": "Codes",
+      "pageType": "1 Codes",
+      "sources": [
+        "google_suggest:后缀:codes"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "iri shards codes dbd": {
+      "category": "Codes",
+      "pageType": "1 Codes",
+      "sources": [
+        "google_suggest:后缀:codes"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "iridescent shards codes": {
+      "category": "Codes",
+      "pageType": "1 Codes",
+      "sources": [
+        "google_suggest:后缀:codes"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "iridescent shards codes 2026": {
+      "category": "Codes",
+      "pageType": "1 Codes",
+      "sources": [
+        "google_suggest:后缀:codes"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "iridescent shards codes dbd": {
+      "category": "Codes",
+      "pageType": "1 Codes",
+      "sources": [
+        "google_suggest:后缀:codes"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "iridescent shards codes dead by daylight": {
+      "category": "Codes",
+      "pageType": "1 Codes",
+      "sources": [
+        "google_suggest:后缀:codes"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "kirby crystal shards boss theme": {
+      "category": "Boss/Characters",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:boss"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "kirby crystal shards bosses": {
+      "category": "Boss/Characters",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:boss"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "kirby crystal shards mods": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:mods"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "kirby crystal shards multiplayer": {
+      "category": "Co-op/Multiplayer",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:multiplayer"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "kirby crystal shards multiplayer switch": {
+      "category": "Co-op/Multiplayer",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:multiplayer"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "lust shards characters": {
+      "category": "Boss/Characters",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:探针:characters"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "lust shards characters wiki": {
+      "category": "Boss/Characters",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:探针:characters"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "lust shards wiki": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:wiki"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "maplestory boss shards": {
+      "category": "Boss/Characters",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:boss"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "mask shards guide silksong": {
+      "category": "Guide/Beginner",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:guide"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "mask shards wiki": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:wiki"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "nexus mods shards of solitude": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:mods"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "pokemon shards codes": {
+      "category": "Codes",
+      "pageType": "1 Codes",
+      "sources": [
+        "google_suggest:后缀:codes"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "pokemon shards wiki": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:wiki"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "reddit shards of earth": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:reddit"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "reddit shards of honor": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:reddit"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "reddit shards of infinity": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:reddit"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "reddit shards of order": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:reddit"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "reddit shards tv": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:reddit"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "reva shards guide": {
+      "category": "Guide/Beginner",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:guide"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "sacred shards codes": {
+      "category": "Codes",
+      "pageType": "1 Codes",
+      "sources": [
+        "google_suggest:后缀:codes"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "scorpion shards characters": {
+      "category": "Boss/Characters",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:探针:characters"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "scribblenauts shards guide": {
+      "category": "Guide/Beginner",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:guide"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards air date": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:release date"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards aotr update 4": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:update"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards book": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards cast": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards characters based on": {
+      "category": "Boss/Characters",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:探针:characters"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards codes dbd": {
+      "category": "Codes",
+      "pageType": "1 Codes",
+      "sources": [
+        "google_suggest:后缀:codes"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards com": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:crossplay"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards crossword": {
+      "category": "Weapons/Gear",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:crossplay"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards crypto": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:crossplay"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards crystal osrs": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:crossplay"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards demon souls": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:demo"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards episode guide": {
+      "category": "Guide/Beginner",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:guide"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards episodes": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards familia": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:how to play with friends"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards finale release date": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:release date"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards for": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:update",
+        "google_suggest:探针:ps5"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards game ideas": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards game online": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards game online free": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards game steam": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards game unblocked": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards games discord": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards gay characters": {
+      "category": "Boss/Characters",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:探针:characters"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards guide": {
+      "category": "Guide/Beginner",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:探针:skills"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards guide fc mobile": {
+      "category": "Guide/Beginner",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:guide"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards guide hypixel": {
+      "category": "Guide/Beginner",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:guide"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards guide hypixel skyblock": {
+      "category": "Guide/Beginner",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:guide"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards guide skyblock": {
+      "category": "Guide/Beginner",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:guide"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards guide to being hot and rich": {
+      "category": "Guide/Beginner",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:guide"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards hulu": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards in the games": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:探针:ps5"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards infinity solo": {
+      "category": "Co-op/Multiplayer",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:solo"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards main characters": {
+      "category": "Boss/Characters",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:探针:characters"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards meaning": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards menu cyberpunk ps5": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:ps5"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards menu ps5": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:ps5"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards midnight suns": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:探针:ps5"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards mmo": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:multiplayer"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards mobile game": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:multiplayer"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards new world": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:update"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards of art": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards of britannia skills": {
+      "category": "Build/Class",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:探针:skills"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards of creation solo": {
+      "category": "Co-op/Multiplayer",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:solo"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards of darkness ps5": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:ps5"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards of darkness skills": {
+      "category": "Build/Class",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:探针:skills"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards of earth": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards of infinity how to play": {
+      "category": "How-to",
+      "pageType": "2 Beginner",
+      "sources": [
+        "google_suggest:后缀:how to play with friends"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards of infinity multiplayer": {
+      "category": "Co-op/Multiplayer",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:multiplayer"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards of infinity solo mode": {
+      "category": "Co-op/Multiplayer",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:solo"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards of infinity solo reddit": {
+      "category": "Co-op/Multiplayer",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:solo"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards of infinity solo review": {
+      "category": "Co-op/Multiplayer",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:solo"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards of infinity solo rules": {
+      "category": "Co-op/Multiplayer",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:solo"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards of narsil": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards of order": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards of order bosses": {
+      "category": "Boss/Characters",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:boss"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards of order characters": {
+      "category": "Boss/Characters",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:探针:characters"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards of order mods": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:mods"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards of order multiplayer": {
+      "category": "Co-op/Multiplayer",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:multiplayer"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards of order ps5": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:ps5"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards of order skills": {
+      "category": "Build/Class",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:探针:skills"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards of solitude characters": {
+      "category": "Boss/Characters",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:探针:characters"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards of solitude mods": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:mods"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards of solitude ps5": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:ps5"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards of solitude update": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:update"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards of solitude update secret room": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:update"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards online": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:multiplayer"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards parents guide": {
+      "category": "Guide/Beginner",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:guide"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards pieces": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:探针:ps5"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards price fc mobile": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:price"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards price prediction": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:price"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards price skyblock": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:price"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards release date episodes": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:release date"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards release date time": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:release date"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards release date uk": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:release date"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards review": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards season 2": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards season finale": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards show": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards show characters": {
+      "category": "Boss/Characters",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:探针:characters"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards show reddit": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:reddit"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards show release date": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:release date"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards steam": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:crossplay"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards steam game": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": "shards game steam"
+    },
+    "shards stream or skip": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards streaming": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards streaming netflix": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards trailer": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards tv show": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards wiki hypixel": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:wiki"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards wiki hypixel skyblock": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:wiki"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards wiki skyblock": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:wiki"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards wiki tv": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:wiki"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "shards wikipedia": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:wiki"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "silksong infinite shards mods": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:mods"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "silksong shards mods": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:mods"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "silksong shards reddit": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:reddit"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "sky shards wiki": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:wiki"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "solo shards of orr": {
+      "category": "Co-op/Multiplayer",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:solo"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "soul shards mods": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:mods"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "steam shards of infinity": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "steam shards of order": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "steam shards of solitude": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "steam shards of the banished": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "steam shards of the realm": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "steamdb shards of order": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "stone shards mods": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:mods"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "stone shards steam": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "styx shards steam": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "the shards characters age": {
+      "category": "Boss/Characters",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:探针:characters"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "the shards characters book": {
+      "category": "Boss/Characters",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:探针:characters"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "the shards characters cast": {
+      "category": "Boss/Characters",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:探针:characters"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "the shards characters in real life": {
+      "category": "Boss/Characters",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:探针:characters"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "the shards reddit book": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:reddit"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "the shards reddit discussion": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:reddit"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "the shards reddit episode 1": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:reddit"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "the shards reddit review": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:reddit"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "the shards release date australia": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:release date"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "the shards release date book": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:release date"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "the shards release date canada": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:release date"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "the shards release date disney plus": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:release date"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "the shards release date episode 3": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:release date"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "the shards release date schedule": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:release date"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "throne of shards steam": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "upgrade shards": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:update"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "valheim boss shards": {
+      "category": "Boss/Characters",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:boss"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "warframe shards guide": {
+      "category": "Guide/Beginner",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:guide"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "what are skill shards in cyberpunk": {
+      "category": "Build/Class",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:探针:skills"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "where are the 3 shards in genshin impact": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:update"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "where are the shards in genshin impact": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:update"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "wiki shards of dalaya": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:wiki"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "wiki shards of earth": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:wiki"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "world shards steam": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "zen shards codes": {
+      "category": "Codes",
+      "pageType": "1 Codes",
+      "sources": [
+        "google_suggest:后缀:codes"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "zen shards guide": {
+      "category": "Guide/Beginner",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:guide"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "zen shards reddit": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:reddit"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "zen shards skills": {
+      "category": "Build/Class",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:探针:skills"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "zen shards steam": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "zen shards wiki": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:wiki"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    }
+  },
+  "aliases": [],
+  "locale": "en",
+  "updatedAt": "2026-10-29T13:26:34.429Z"
+}

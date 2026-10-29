@@ -1,0 +1,47 @@
+{
+  "slug": "gearupeinstein",
+  "game": "Gear Up Einstein!",
+  "runs": [
+    {
+      "at": "2026-10-29T13:24:37.221Z",
+      "locale": "en",
+      "requests": 21,
+      "failures": 0,
+      "raw": 93,
+      "dedup": 73,
+      "valid": 2,
+      "variants": 0,
+      "noise": 71,
+      "noiseRate": 0.9726,
+      "anchorRate": 0.0274,
+      "newKeywords": 2
+    }
+  ],
+  "keywords": {
+    "gear up einstein": {
+      "category": "Weapons/Gear",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:wiki",
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "steam gear up einstein": {
+      "category": "Weapons/Gear",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:steam",
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    }
+  },
+  "aliases": [],
+  "locale": "en",
+  "updatedAt": "2026-10-29T13:24:37.221Z"
+}

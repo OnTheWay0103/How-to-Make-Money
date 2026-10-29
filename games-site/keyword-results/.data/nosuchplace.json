@@ -1,0 +1,420 @@
+{
+  "slug": "nosuchplace",
+  "game": "No Such Place",
+  "runs": [
+    {
+      "at": "2026-10-29T13:29:35.677Z",
+      "locale": "en",
+      "requests": 22,
+      "failures": 0,
+      "raw": 107,
+      "dedup": 89,
+      "valid": 38,
+      "variants": 0,
+      "noise": 51,
+      "noiseRate": 0.573,
+      "anchorRate": 0.427,
+      "newKeywords": 38
+    }
+  ],
+  "keywords": {
+    "bosse de nage no such place lyrics": {
+      "category": "Boss/Characters",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:boss"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "games like no such place": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "how long is no such place demo": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:demo"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "no such place accordion": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "no such place as away": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:guide",
+        "google_suggest:后缀:reddit",
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "no such place as far away": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:price",
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "no such place as wyoming": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:wiki"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "no such place bosse de nage": {
+      "category": "Boss/Characters",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:boss"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "no such place code": {
+      "category": "Codes",
+      "pageType": "1 Codes",
+      "sources": [
+        "google_suggest:后缀:codes"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "no such place controller support": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "no such place demo": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "no such place demo multiplayer": {
+      "category": "Co-op/Multiplayer",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:demo",
+        "google_suggest:后缀:multiplayer"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "no such place demo trainer": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:demo"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "no such place discord": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "no such place game": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "no such place game accordion": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "no such place game download": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "no such place game engine": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "no such place game free download": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "no such place game how to sell items": {
+      "category": "Weapons/Gear",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "no such place game map": {
+      "category": "Other",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "no such place game reddit": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:reddit",
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "no such place game release date": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:release date",
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "no such place game wiki": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:wiki",
+        "google_suggest:品牌+game",
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "no such place gameplay": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "no such place how to sell items": {
+      "category": "Weapons/Gear",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "no such place like home": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:boss",
+        "google_suggest:后缀:demo",
+        "google_suggest:后缀:guide",
+        "google_suggest:后缀:price",
+        "google_suggest:后缀:reddit",
+        "google_suggest:后缀:release date",
+        "google_suggest:后缀:wiki",
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "no such place map": {
+      "category": "Other",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "no such place multiplayer": {
+      "category": "Co-op/Multiplayer",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "no such place phase shift": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "no such place reddit": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "no such place release date": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "no such place steam": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "no such place steam deck": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "no such place steamdb": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "no such place upgrade research table": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:update"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "no such place video game": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "no such place wiki": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    }
+  },
+  "aliases": [],
+  "locale": "en",
+  "updatedAt": "2026-10-29T13:29:35.677Z"
+}

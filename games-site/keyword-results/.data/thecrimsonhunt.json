@@ -1,0 +1,249 @@
+{
+  "slug": "thecrimsonhunt",
+  "game": "The Crimson Hunt",
+  "runs": [
+    {
+      "at": "2026-10-29T13:30:44.715Z",
+      "locale": "en",
+      "requests": 22,
+      "failures": 0,
+      "raw": 80,
+      "dedup": 44,
+      "valid": 21,
+      "variants": 0,
+      "noise": 23,
+      "noiseRate": 0.5227,
+      "anchorRate": 0.4773,
+      "newKeywords": 21
+    }
+  ],
+  "keywords": {
+    "the crimson hunt": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:co op",
+        "google_suggest:后缀:codes",
+        "google_suggest:后缀:demo",
+        "google_suggest:后缀:guide",
+        "google_suggest:后缀:multiplayer",
+        "google_suggest:后缀:price",
+        "google_suggest:后缀:reddit",
+        "google_suggest:后缀:release date",
+        "google_suggest:后缀:resources",
+        "google_suggest:品牌+game",
+        "google_suggest:探针:ps5",
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "the crimson hunt cheats": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:codes"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "the crimson hunt co op": {
+      "category": "Co-op/Multiplayer",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "the crimson hunt full game": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "the crimson hunt full gameplay": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "the crimson hunt game": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "the crimson hunt game ps5": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:品牌+game",
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "the crimson hunt game review": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "the crimson hunt gameplay": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game",
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "the crimson hunt gear puzzle": {
+      "category": "Weapons/Gear",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "the crimson hunt pc game": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "the crimson hunt pc gameplay": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "the crimson hunt price": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "the crimson hunt ps4": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "the crimson hunt puzzle": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "the crimson hunt release date": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "the crimson hunt review": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "the crimson hunt safe code": {
+      "category": "Codes",
+      "pageType": "1 Codes",
+      "sources": [
+        "google_suggest:后缀:codes",
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "the crimson hunt steam": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "the crimson hunt steamdb": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "the crimson hunt walkthrough": {
+      "category": "Guide/Beginner",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:guide"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    }
+  },
+  "aliases": [],
+  "locale": "en",
+  "updatedAt": "2026-10-29T13:30:44.715Z"
+}

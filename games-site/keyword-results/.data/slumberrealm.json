@@ -1,0 +1,59 @@
+{
+  "slug": "slumberrealm",
+  "game": "Slumber Realm",
+  "runs": [
+    {
+      "at": "2026-10-29T13:23:43.910Z",
+      "locale": "en",
+      "requests": 21,
+      "failures": 0,
+      "raw": 34,
+      "dedup": 26,
+      "valid": 3,
+      "variants": 0,
+      "noise": 23,
+      "noiseRate": 0.8846,
+      "anchorRate": 0.1154,
+      "newKeywords": 3
+    }
+  ],
+  "keywords": {
+    "slumber realm": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:items",
+        "google_suggest:后缀:tier list",
+        "google_suggest:品牌+game",
+        "google_suggest:探针:skills",
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "slumber realm game": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    },
+    "slumber realm steam": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-29",
+      "lastSeen": "2026-10-29",
+      "variantOf": null
+    }
+  },
+  "aliases": [],
+  "locale": "en",
+  "updatedAt": "2026-10-29T13:23:43.910Z"
+}
