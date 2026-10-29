@@ -1,0 +1,239 @@
+{
+  "slug": "hoosegowprisonsurvival",
+  "game": "Hoosegow: Prison Survival",
+  "runs": [
+    {
+      "at": "2026-10-29T20:37:27.539Z",
+      "locale": "en",
+      "requests": 22,
+      "failures": 0,
+      "raw": 99,
+      "dedup": 15,
+      "valid": 13,
+      "variants": 1,
+      "noise": 2,
+      "noiseRate": 0.1333,
+      "anchorRate": 0.8667,
+      "newKeywords": 13
+    }
+  ],
+  "keywords": {
+    "hoosegow ► prison survival": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-30",
+      "lastSeen": "2026-10-30",
+      "variantOf": null
+    },
+    "hoosegow prison survival": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:base building",
+        "google_suggest:后缀:best weapons",
+        "google_suggest:后缀:boss",
+        "google_suggest:后缀:co op",
+        "google_suggest:后缀:codes",
+        "google_suggest:后缀:demo",
+        "google_suggest:后缀:guide",
+        "google_suggest:后缀:map",
+        "google_suggest:后缀:multiplayer",
+        "google_suggest:后缀:price",
+        "google_suggest:后缀:release date",
+        "google_suggest:后缀:resources",
+        "google_suggest:后缀:update",
+        "google_suggest:探针:characters",
+        "google_suggest:探针:ps5",
+        "google_suggest:探针:skills",
+        "google_suggest:探针:steam",
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-30",
+      "lastSeen": "2026-10-30",
+      "variantOf": "hoosegow ► prison survival"
+    },
+    "hoosegow prison survival dating": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-30",
+      "lastSeen": "2026-10-30",
+      "variantOf": null
+    },
+    "hoosegow prison survival guide": {
+      "category": "Guide/Beginner",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:base building",
+        "google_suggest:后缀:best weapons",
+        "google_suggest:后缀:boss",
+        "google_suggest:后缀:co op",
+        "google_suggest:后缀:codes",
+        "google_suggest:后缀:demo",
+        "google_suggest:后缀:guide",
+        "google_suggest:后缀:map",
+        "google_suggest:后缀:multiplayer",
+        "google_suggest:后缀:price",
+        "google_suggest:后缀:release date",
+        "google_suggest:后缀:resources",
+        "google_suggest:后缀:update",
+        "google_suggest:探针:characters",
+        "google_suggest:探针:ps5",
+        "google_suggest:探针:skills",
+        "google_suggest:探针:steam",
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-30",
+      "lastSeen": "2026-10-30",
+      "variantOf": null
+    },
+    "hoosegow prison survival nurse": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:base building",
+        "google_suggest:后缀:best weapons",
+        "google_suggest:后缀:boss",
+        "google_suggest:后缀:co op",
+        "google_suggest:后缀:codes",
+        "google_suggest:后缀:demo",
+        "google_suggest:后缀:guide",
+        "google_suggest:后缀:map",
+        "google_suggest:后缀:multiplayer",
+        "google_suggest:后缀:price",
+        "google_suggest:后缀:release date",
+        "google_suggest:后缀:resources",
+        "google_suggest:后缀:update",
+        "google_suggest:探针:characters",
+        "google_suggest:探针:ps5",
+        "google_suggest:探针:skills",
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-30",
+      "lastSeen": "2026-10-30",
+      "variantOf": null
+    },
+    "hoosegow prison survival pc": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-30",
+      "lastSeen": "2026-10-30",
+      "variantOf": null
+    },
+    "hoosegow prison survival steam": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:探针:steam",
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-30",
+      "lastSeen": "2026-10-30",
+      "variantOf": null
+    },
+    "hoosegow prison survival walkthrough": {
+      "category": "Guide/Beginner",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:base building",
+        "google_suggest:后缀:best weapons",
+        "google_suggest:后缀:boss",
+        "google_suggest:后缀:co op",
+        "google_suggest:后缀:codes",
+        "google_suggest:后缀:demo",
+        "google_suggest:后缀:guide",
+        "google_suggest:后缀:map",
+        "google_suggest:后缀:multiplayer",
+        "google_suggest:后缀:price",
+        "google_suggest:后缀:release date",
+        "google_suggest:后缀:resources",
+        "google_suggest:后缀:update",
+        "google_suggest:探针:characters",
+        "google_suggest:探针:ps5",
+        "google_suggest:探针:skills",
+        "google_suggest:探针:steam",
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-30",
+      "lastSeen": "2026-10-30",
+      "variantOf": null
+    },
+    "hoosegow prison survival wiki": {
+      "category": "Info/发售平台",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:base building",
+        "google_suggest:后缀:best weapons",
+        "google_suggest:后缀:boss",
+        "google_suggest:后缀:co op",
+        "google_suggest:后缀:codes",
+        "google_suggest:后缀:demo",
+        "google_suggest:后缀:guide",
+        "google_suggest:后缀:map",
+        "google_suggest:后缀:multiplayer",
+        "google_suggest:后缀:price",
+        "google_suggest:后缀:release date",
+        "google_suggest:后缀:resources",
+        "google_suggest:后缀:update",
+        "google_suggest:探针:characters",
+        "google_suggest:探针:ps5",
+        "google_suggest:探针:skills",
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-30",
+      "lastSeen": "2026-10-30",
+      "variantOf": null
+    },
+    "hoosegow prison survival играть онлайн": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-30",
+      "lastSeen": "2026-10-30",
+      "variantOf": null
+    },
+    "hoosegow prison survival на пк": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-30",
+      "lastSeen": "2026-10-30",
+      "variantOf": null
+    },
+    "hoosegow prison survival онлайн": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-30",
+      "lastSeen": "2026-10-30",
+      "variantOf": null
+    },
+    "скачать игру hoosegow prison survival": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-30",
+      "lastSeen": "2026-10-30",
+      "variantOf": null
+    }
+  },
+  "aliases": [],
+  "locale": "en",
+  "updatedAt": "2026-10-29T20:37:27.539Z"
+}

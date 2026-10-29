@@ -1,0 +1,36 @@
+{
+  "slug": "phantasmahotel",
+  "game": "Phantasma Hotel",
+  "runs": [
+    {
+      "at": "2026-10-29T20:35:00.710Z",
+      "locale": "en",
+      "requests": 21,
+      "failures": 0,
+      "raw": 16,
+      "dedup": 12,
+      "valid": 1,
+      "variants": 0,
+      "noise": 11,
+      "noiseRate": 0.9167,
+      "anchorRate": 0.0833,
+      "newKeywords": 1
+    }
+  ],
+  "keywords": {
+    "phantasma hotel": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:secrets",
+        "google_suggest:后缀:update"
+      ],
+      "firstSeen": "2026-10-30",
+      "lastSeen": "2026-10-30",
+      "variantOf": null
+    }
+  },
+  "aliases": [],
+  "locale": "en",
+  "updatedAt": "2026-10-29T20:35:00.710Z"
+}

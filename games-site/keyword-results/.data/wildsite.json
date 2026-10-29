@@ -1,0 +1,65 @@
+{
+  "slug": "wildsite",
+  "game": "Wildsite",
+  "runs": [
+    {
+      "at": "2026-10-29T20:33:14.468Z",
+      "locale": "en",
+      "requests": 22,
+      "failures": 0,
+      "raw": 121,
+      "dedup": 120,
+      "valid": 4,
+      "variants": 0,
+      "noise": 116,
+      "noiseRate": 0.9667,
+      "anchorRate": 0.0333,
+      "newKeywords": 4
+    }
+  ],
+  "keywords": {
+    "humo wildsite": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-30",
+      "lastSeen": "2026-10-30",
+      "variantOf": null
+    },
+    "wildsite ecological services": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-30",
+      "lastSeen": "2026-10-30",
+      "variantOf": null
+    },
+    "wildsite game": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-30",
+      "lastSeen": "2026-10-30",
+      "variantOf": null
+    },
+    "wildsite steam": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-30",
+      "lastSeen": "2026-10-30",
+      "variantOf": null
+    }
+  },
+  "aliases": [],
+  "locale": "en",
+  "updatedAt": "2026-10-29T20:33:14.468Z"
+}

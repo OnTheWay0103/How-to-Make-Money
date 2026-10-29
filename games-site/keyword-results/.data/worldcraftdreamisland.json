@@ -1,0 +1,73 @@
+{
+  "slug": "worldcraftdreamisland",
+  "game": "World Craft Dream Island",
+  "runs": [
+    {
+      "at": "2026-10-29T20:34:50.250Z",
+      "locale": "en",
+      "requests": 22,
+      "failures": 0,
+      "raw": 22,
+      "dedup": 6,
+      "valid": 4,
+      "variants": 0,
+      "noise": 2,
+      "noiseRate": 0.3333,
+      "anchorRate": 0.6667,
+      "newKeywords": 4
+    }
+  ],
+  "keywords": {
+    "is world craft dream island free": {
+      "category": "Weapons/Gear",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:price",
+        "google_suggest:后缀:release date"
+      ],
+      "firstSeen": "2026-10-30",
+      "lastSeen": "2026-10-30",
+      "variantOf": null
+    },
+    "world craft dream island": {
+      "category": "Weapons/Gear",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:money",
+        "google_suggest:后缀:price",
+        "google_suggest:后缀:release date",
+        "google_suggest:探针:skills"
+      ],
+      "firstSeen": "2026-10-30",
+      "lastSeen": "2026-10-30",
+      "variantOf": null
+    },
+    "world craft dream island download": {
+      "category": "Weapons/Gear",
+      "pageType": "4 核心机制/Boss",
+      "sources": [
+        "google_suggest:后缀:money",
+        "google_suggest:后缀:price",
+        "google_suggest:后缀:release date",
+        "google_suggest:探针:skills",
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-30",
+      "lastSeen": "2026-10-30",
+      "variantOf": null
+    },
+    "world craft dream island parent review": {
+      "category": "Weapons/Gear",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:money"
+      ],
+      "firstSeen": "2026-10-30",
+      "lastSeen": "2026-10-30",
+      "variantOf": null
+    }
+  },
+  "aliases": [],
+  "locale": "en",
+  "updatedAt": "2026-10-29T20:34:50.250Z"
+}

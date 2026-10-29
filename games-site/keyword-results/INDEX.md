@@ -1,10 +1,10 @@
 # 词库索引
 
-> 生成时间：2026-10-29 13:51 UTC
+> 生成时间：2026-10-29 20:41 UTC
 > 生成脚本：`node scripts/keyword-index.mjs` —— 不要手改本文件
 > 规则：`docs/STRATEGY-挖词与词库.md`
 
-共 **127** 份游戏词库（新格式 58，旧格式 69），已建站 **39** 站。
+共 **147** 份游戏词库（新格式 77，旧格式 70），已建站 **40** 站。
 
 > 新格式以 `slug == 站点目录名去掉 wiki` 精确匹配；旧格式只能按文件名猜，「未建站」可能有漏配。
 
@@ -15,7 +15,7 @@
 
 | 渠道 | 贡献词数 | 独占词数 |
 |---|---:|---:|
-| google_suggest | 3896 | 3896 |
+| google_suggest | 4812 | 4812 |
 
 ## 采集锚定产出
 
@@ -23,36 +23,54 @@
 
 | 锚定批次 | 贡献词数 | 独占词数 |
 |---|---:|---:|
-| 裸词 | 678 | 576 |
-| 品牌+game | 478 | 363 |
-| 探针:steam | 349 | 277 |
-| 后缀:release date | 327 | 240 |
-| 后缀:demo | 271 | 220 |
-| 后缀:reddit | 250 | 174 |
-| 探针:ps5 | 243 | 174 |
-| 后缀:guide | 223 | 158 |
-| 后缀:price | 210 | 141 |
-| 后缀:wiki | 193 | 145 |
-| 后缀:update | 168 | 132 |
-| 后缀:multiplayer | 137 | 99 |
-| 后缀:boss | 120 | 104 |
-| 探针:skills | 96 | 64 |
-| 探针:characters | 91 | 72 |
-| 后缀:characters | 75 | 64 |
-| 后缀:tips | 67 | 48 |
-| 后缀:codes | 57 | 40 |
-| 后缀:how to | 56 | 52 |
-| 后缀:mods | 56 | 50 |
-| 后缀:co op | 51 | 34 |
-| 后缀:tier list | 51 | 37 |
-| 后缀:map | 45 | 24 |
-| 后缀:unlock | 43 | 33 |
-| 后缀:best build | 38 | 35 |
+| 裸词 | 866 | 723 |
+| 品牌+game | 563 | 427 |
+| 探针:steam | 421 | 324 |
+| 后缀:release date | 391 | 276 |
+| 后缀:demo | 338 | 267 |
+| 后缀:reddit | 310 | 214 |
+| 探针:ps5 | 299 | 211 |
+| 后缀:price | 277 | 184 |
+| 后缀:guide | 275 | 196 |
+| 后缀:wiki | 235 | 174 |
+| 后缀:update | 218 | 173 |
+| 后缀:multiplayer | 187 | 132 |
+| 探针:characters | 137 | 106 |
+| 后缀:boss | 134 | 110 |
+| 探针:skills | 124 | 75 |
+| 后缀:tips | 89 | 63 |
+| 后缀:how to | 83 | 79 |
+| 后缀:characters | 82 | 64 |
+| 后缀:mods | 77 | 68 |
+| 后缀:codes | 76 | 48 |
+| 后缀:map | 68 | 39 |
+| 后缀:unlock | 66 | 52 |
+| 后缀:co op | 60 | 35 |
+| 后缀:money | 55 | 44 |
+| 后缀:tier list | 55 | 40 |
 
 ## 按游戏
 
 | 游戏 | slug | 有效词 | 最后采集 | 来源 | 页型覆盖 | 站点 | 格式 |
 |---|---|---:|---|---|---|---|---|
+| Curse of Resthaven | curseofresthaven | 9 | 2026-10-30 | google_suggest:9（裸词 9） | 5 FAQ / 待定 | 未建站 | new |
+| Dead Party | deadparty | 22 | 2026-10-30 | google_suggest:28（裸词 13、探针:characters 4、后缀:guide 3） | 5 FAQ / 待定 | 未建站 | new |
+| DUSTBLOOM | dustbloom | 7 | 2026-10-30 | google_suggest:49（裸词 6、后缀:base building 3、后缀:beginner guide 3） | 待定 | 未建站 | new |
+| Fantasy World Manager | fantasyworldmanager | 18 | 2026-10-30 | google_suggest:21（裸词 15、品牌+game 3、后缀:demo 1） | 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
+| Go-Go Town! | gotown | 184 | 2026-10-30 | google_suggest:215（后缀:reddit 15、后缀:release date 15、品牌+game 15） | 1 Codes / 2 Beginner / 3 Tier List / 4 核心机制/Boss / 5 FAQ / 待定 | gotownwiki | new |
+| Hoosegow: Prison Survival | hoosegowprisonsurvival | 13 | 2026-10-30 | google_suggest:97（裸词 11、探针:steam 6、后缀:base building 5） | 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
+| Hubble Bubble | hubblebubble | 56 | 2026-10-30 | google_suggest:67（裸词 14、后缀:price 9、品牌+game 8） | 5 FAQ / 待定 | 未建站 | new |
+| Moonlight Peaks | moonlightpeaks | 262 | 2026-10-30 | google_suggest:271（后缀:tips 15、后缀:reddit 15、裸词 15） | 1 Codes / 2 Beginner / 3 Tier List / 4 核心机制/Boss / 5 FAQ / 待定 | moonlightpeakswiki | new |
+| Nothing Unusual | nothingunusual | 20 | 2026-10-30 | google_suggest:32（裸词 15、品牌+game 4、后缀:reddit 4） | 待定 | 未建站 | new |
+| Phantasma Hotel | phantasmahotel | 1 | 2026-10-30 | google_suggest:2（后缀:secrets 1、后缀:update 1） | 待定 | 未建站 | new |
+| Rat Game | ratgame | 58 | 2026-10-30 | google_suggest:67（裸词 13、探针:ps5 8、品牌+game 8） | 1 Codes / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
+| Terrible Lizards | terriblelizards | 56 | 2026-10-30 | google_suggest:87（裸词 15、品牌+game 15、后缀:release date 12） | 1 Codes / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
+| The Mound: Omen of Cthulhu | themound | 362 | 2026-10-30 | google_suggest:393（品牌+game 30、探针:ps5 30、后缀:update 28） | 1 Codes / 2 Beginner / 3 Tier List / 4 核心机制/Boss / 5 FAQ / 待定 | themoundwiki | new |
+| Vampy's Big Day | vampysbigday | 14 | 2026-10-30 | google_suggest:14（裸词 14） | 5 FAQ / 待定 | 未建站 | new |
+| Wildsite | wildsite | 4 | 2026-10-30 | google_suggest:4（裸词 4） | 5 FAQ / 待定 | 未建站 | new |
+| World Craft Dream Island | worldcraftdreamisland | 4 | 2026-10-30 | google_suggest:12（后缀:price 3、后缀:release date 3、后缀:money 3） | 4 核心机制/Boss / 5 FAQ | 未建站 | new |
+| The Zibbo Show | zibboshow | 6 | 2026-10-30 | google_suggest:6（裸词 6） | 5 FAQ / 待定 | 未建站 | new |
+| Zombie Assault: Resurgence | zombieassaultresurgence | 34 | 2026-10-30 | google_suggest:44（裸词 15、后缀:demo 6、后缀:release date 4） | 2 Beginner / 3 Tier List / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
 | Coal Duty | coalduty | 9 | 2026-10-29 | google_suggest:9（裸词 8、探针:steam 1） | 5 FAQ / 待定 | 未建站 | new |
 | Demon Bluff | demonbluff | 67 | 2026-10-29 | google_suggest:91（裸词 15、品牌+game 15、后缀:wiki 9） | 3 Tier List / 5 FAQ | demonbluffwiki | new |
 | Emery Hearts | emeryhearts | 7 | 2026-10-29 | google_suggest:8（裸词 6、后缀:demo 1、探针:steam 1） | 5 FAQ / 待定 | 未建站 | new |
@@ -82,7 +100,6 @@
 | Shift At Midnight | shiftatmidnight | 212 | 2026-10-28 | google_suggest:219（后缀:wiki 15、后缀:guide 15、裸词 15） | 1 Codes / 2 Beginner / 4 核心机制/Boss / 5 FAQ / 待定 | shiftatmidnightwiki | new |
 | S.O.N.A.R. | sonar | 14 | 2026-10-28 | google_suggest:15（裸词 7、品牌+game 3、探针:steam 2） | 1 Codes / 5 FAQ / 待定 | 未建站 | new |
 | SpiritVale | spiritvale | 142 | 2026-10-28 | google_suggest:150（后缀:reddit 14、后缀:guide 14、探针:skills 14） | 1 Codes / 2 Beginner / 3 Tier List / 4 核心机制/Boss / 5 FAQ / 待定 | spiritvalewiki | new |
-| The Mound | themound | 214 | 2026-10-28 | google_suggest:226（后缀:release date 15、后缀:characters 15、裸词 15） | 2 Beginner / 3 Tier List / 4 核心机制/Boss / 5 FAQ / 待定 | themoundwiki | new |
 | Waterpark Simulator | waterparksimulator | 232 | 2026-10-28 | google_suggest:253（后缀:guide 15、后缀:unlock 15、裸词 15） | 1 Codes / 2 Beginner / 3 Tier List / 4 核心机制/Boss / 5 FAQ / 待定 | waterparksimulatorwiki | new |
 | Witchspire | witchspire | 103 | 2026-10-28 | google_suggest:110（裸词 15、探针:steam 14、品牌+game 14） | 1 Codes / 2 Beginner / 3 Tier List / 4 核心机制/Boss / 5 FAQ / 待定 | witchspirewiki | new |
 | Worst Class Ever | worstclassever | 7 | 2026-10-28 | google_suggest:11（裸词 4、品牌+game 3、探针:characters 2） | 5 FAQ / 待定 | 未建站 | new |
@@ -126,7 +143,9 @@
 | Low-Budget Repairs | Low-Budget-Repairs | 0 | 2026-08-03 | — | — | lowbudgetrepairswiki | legacy-meta |
 | Delverium | Delverium | 0 | 2026-08-02 | — | — | delveriumwiki | legacy-meta |
 | Pass the Fear | Pass-the-Fear | 0 | 2026-08-01 | — | — | 未建站 | legacy-meta |
+| Abandoned Below | abandonedbelow | 0 | — | — | — | 未建站 | new |
 | Gendo The Gatherer | gendothegatherer | 0 | — | — | — | 未建站 | new |
+| Orcthal | orcthal | 0 | — | — | — | 未建站 | new |
 | Project Nekrios | projectnekrios | 0 | — | — | — | 未建站 | new |
 | Ardent Wilds | Ardent-Wilds | 23 | — | — | — | ardentwildswiki | legacy |
 | DinoBlade | DinoBlade | 70 | — | — | — | dinobladewiki | legacy |
@@ -145,7 +164,6 @@
 | MineGeon: Renegades | MineGeon-Renegades | 70 | — | — | — | 未建站 | legacy |
 | Mistfall Hunter | Mistfall Hunter | 108 | — | — | — | mistfallhunterwiki | legacy |
 | Mistfall Hunter | Mistfall-Hunter-feedback | 0 | — | — | — | 未建站 | legacy |
-| Moonlight Peaks | Moonlight-Peaks | 0 | — | — | — | moonlightpeakswiki | legacy |
 | ReStory: Chill Electronics Repairs | ReStory | 0 | — | — | — | restorywiki | legacy |
 | Sephiria | Sephiria-feedback | 0 | — | — | — | 未建站 | legacy |
 | Silver Pines | Silver-Pines | 0 | — | — | — | silverpineswiki | legacy |
@@ -166,6 +184,7 @@
 | Neon Abyss 2 | neonabyss2-matrix | 0 | — | — | — | 未建站 | legacy |
 | Neon Abyss 2 | neonabyss2-sources | 0 | — | — | — | 未建站 | legacy |
 | 新词缺口扫描 | new-keywords-2026-10-23 | 0 | — | — | — | 未建站 | legacy |
+| Nivalis Nights | nivalisnights-sources | 0 | — | — | — | 未建站 | legacy |
 | Probably Stolen | probablystolen-matrix | 0 | — | — | — | 未建站 | legacy |
 | Probably Stolen | probablystolen-sources | 0 | — | — | — | 未建站 | legacy |
 | REKA | reka-matrix | 0 | — | — | — | 未建站 | legacy |
@@ -179,11 +198,12 @@
 | SILVER PINES 建站记录 | silverpineswiki-build-9-16 | 0 | — | — | — | 未建站 | legacy |
 | The Relic: First Guardian | the-relic-first-guardian | 0 | — | — | — | 未建站 | legacy |
 | Vahrin's Call | vahrins-call | 0 | — | — | — | vahrinscallwiki | legacy |
+| Waterpark Simulator | waterparksimulator-sources | 0 | — | — | — | 未建站 | legacy |
 | Welcome to Elderfield | welcomeelderfield-postlaunch-fix | 0 | — | — | — | 未建站 | legacy |
 
 ## 待处理
 
-**软问题**（旧格式，逐步随复采替换，不阻塞）：52 份
+**软问题**（旧格式，逐步随复采替换，不阻塞）：53 份
 
 - 无采集元信息头（无法自动统计）：Ardent-Wilds.md
 - 无采集元信息头（无法自动统计）：DinoBlade.md
@@ -202,7 +222,7 @@
 - 无采集元信息头（无法自动统计）：MineGeon-Renegades.md
 - 无采集元信息头（无法自动统计）：Mistfall Hunter.md
 - 无采集元信息头（无法自动统计）：Mistfall-Hunter-feedback.md
-- 无采集元信息头（无法自动统计）：Moonlight-Peaks.md
 - 无采集元信息头（无法自动统计）：ReStory.md
 - 无采集元信息头（无法自动统计）：Sephiria-feedback.md
-- … 其余 32 份
+- 无采集元信息头（无法自动统计）：Silver-Pines.md
+- … 其余 33 份
