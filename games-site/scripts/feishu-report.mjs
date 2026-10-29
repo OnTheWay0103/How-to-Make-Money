@@ -222,7 +222,19 @@ function buildRows(rows, date) {
 // 判成 not_found（800030005，2026-10-24 排查了半天）。未验就不写，留空即未验。
 const QA_OPTIONS = new Set(['PASS', '黄', 'FAIL']);
 
+// 「类型」同理是多选，写不存在的选项同样是 not_found（800030005），但报错信息
+// 只说 not_found，不说是哪个选项 —— 2026-10-30 用「新建」（实际选项是「新建站」）
+// 又踩了一次，batch-create 整批失败且日志里看不出原因。这里提前拦，报错直接点名。
+const TYPE_OPTIONS = new Set(['新建站', '扩充', '修正', '部署', '侦察']);
+
 function toCell(row) {
+  const bad = (row.types || []).filter((t) => !TYPE_OPTIONS.has(t));
+  if (bad.length) {
+    throw new Error(
+      `类型「${bad.join('、')}」不是飞书「类型」字段的选项（可用：${[...TYPE_OPTIONS].join('/')}）。` +
+      `改 .agent/delivery-<date>.json 的 types，别改表结构。`,
+    );
+  }
   const cell = {
     '站点': row.site,
     '日期': `${row.date} 00:00:00`,

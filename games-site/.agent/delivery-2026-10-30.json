@@ -3,6 +3,23 @@
   "note": "每日扩充 4 站全部交付（名单 = expansion-targets.mjs --json 的 eligible[]，PV30 全部 >1000，逐站 --verify exit 0）；侦察轮 17 新候选（#124–#140）+ 分析轮 selection-2026-10-30.md（2 个 14 分压线可建、1 个 13 分低优先、16 个放弃）+ 采词轮 20/20；QA deep 补做（上次全量 2026-09-10，逾期 50 天），全站 ERROR 0。另新建 1 站 zombieassaultresurgencewiki（#130 Zombie Assault: Resurgence 14 分）。",
   "rows": [
     {
+      "site": "zombieassaultresurgencewiki",
+      "types": ["新建站", "部署"],
+      "guides": [
+        "assault-class-guide",
+        "heavy-class-guide",
+        "medic-class-guide",
+        "best-weapons-tier-list",
+        "all-weapons-guide",
+        "weapon-mods-and-upgrading"
+      ],
+      "qa": "PASS",
+      "url": "https://zombieassaultresurgencewiki.vercel.app",
+      "verify": "200",
+      "words": 8713,
+      "note": "新站首发 6 页 + 8 静态页，19 路由全 SSG；seo-check --live exit 0（WARN 11 全为已决定不处理的 canonical/长度项）；check-ad-slots --live exit 1 —— 两个 Adsterra zone 尚无 ID，属人工流程待填；GA4/GSC 待人工"
+    },
+    {
       "site": "nivalisnightswiki",
       "types": ["扩充", "部署"],
       "guides": ["fill-venue-inventory-stuck-guide"],

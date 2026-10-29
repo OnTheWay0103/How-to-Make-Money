@@ -1,10 +1,10 @@
 # 词库索引
 
-> 生成时间：2026-10-29 20:45 UTC
+> 生成时间：2026-10-29 20:57 UTC
 > 生成脚本：`node scripts/keyword-index.mjs` —— 不要手改本文件
 > 规则：`docs/STRATEGY-挖词与词库.md`
 
-共 **146** 份游戏词库（新格式 77，旧格式 69），已建站 **40** 站。
+共 **147** 份游戏词库（新格式 77，旧格式 70），已建站 **41** 站。
 
 > 新格式以 `slug == 站点目录名去掉 wiki` 精确匹配；旧格式只能按文件名猜，「未建站」可能有漏配。
 
@@ -69,7 +69,7 @@
 | Wildsite | wildsite | 4 | 2026-10-30 | google_suggest:4（裸词 4） | 5 FAQ / 待定 | 未建站 | new |
 | World Craft Dream Island | worldcraftdreamisland | 4 | 2026-10-30 | google_suggest:12（后缀:price 3、后缀:release date 3、后缀:money 3） | 4 核心机制/Boss / 5 FAQ | 未建站 | new |
 | The Zibbo Show | zibboshow | 6 | 2026-10-30 | google_suggest:6（裸词 6） | 5 FAQ / 待定 | 未建站 | new |
-| Zombie Assault: Resurgence | zombieassaultresurgence | 34 | 2026-10-30 | google_suggest:44（裸词 15、后缀:demo 6、后缀:release date 4） | 2 Beginner / 3 Tier List / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
+| Zombie Assault: Resurgence | zombieassaultresurgence | 34 | 2026-10-30 | google_suggest:44（裸词 15、后缀:demo 6、后缀:release date 4） | 2 Beginner / 3 Tier List / 4 核心机制/Boss / 5 FAQ / 待定 | zombieassaultresurgencewiki | new |
 | Coal Duty | coalduty | 9 | 2026-10-29 | google_suggest:9（裸词 8、探针:steam 1） | 5 FAQ / 待定 | 未建站 | new |
 | Demon Bluff | demonbluff | 67 | 2026-10-29 | google_suggest:91（裸词 15、品牌+game 15、后缀:wiki 9） | 3 Tier List / 5 FAQ | demonbluffwiki | new |
 | Emery Hearts | emeryhearts | 7 | 2026-10-29 | google_suggest:8（裸词 6、后缀:demo 1、探针:steam 1） | 5 FAQ / 待定 | 未建站 | new |
@@ -193,6 +193,7 @@
 | 候选分析 | selection-2026-10-26 | 0 | — | — | — | 未建站 | legacy |
 | 候选分析 | selection-2026-10-28 | 0 | — | — | — | 未建站 | legacy |
 | 选词评分 | selection-2026-10-29 | 0 | — | — | — | 未建站 | legacy |
+| 选词评分 | selection-2026-10-30 | 0 | — | — | — | 未建站 | legacy |
 | Silver Pines / Dressmaker | silverpines-dressmaker-postlaunch-fix | 0 | — | — | — | 未建站 | legacy |
 | SILVER PINES 建站记录 | silverpineswiki-build-9-16 | 0 | — | — | — | 未建站 | legacy |
 | The Relic: First Guardian | the-relic-first-guardian | 0 | — | — | — | 未建站 | legacy |
@@ -202,7 +203,7 @@
 
 ## 待处理
 
-**软问题**（旧格式，逐步随复采替换，不阻塞）：52 份
+**软问题**（旧格式，逐步随复采替换，不阻塞）：53 份
 
 - 无采集元信息头（无法自动统计）：Ardent-Wilds.md
 - 无采集元信息头（无法自动统计）：DinoBlade.md
@@ -224,4 +225,4 @@
 - 无采集元信息头（无法自动统计）：Sephiria-feedback.md
 - 无采集元信息头（无法自动统计）：Silver-Pines.md
 - 无采集元信息头（无法自动统计）：Skills-and-Raids.md
-- … 其余 32 份
+- … 其余 33 份
