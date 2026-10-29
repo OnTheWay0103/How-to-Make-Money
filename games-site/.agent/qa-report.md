@@ -2880,3 +2880,44 @@ WebSearch "GONE Fishing ... GONE Studios ABCT Productions" / "REKA ... release d
 3. **`moonlight peaks museum invites` / `how to donate to museum` / `unlock museum`**（3–4 条）。不新建页，而是给现有 `museum-guide`（12.1K）补一节「邀请函获取 + 捐赠判定 + 解锁条件」——该页目前讲藏品清单，缺流程；补节的成本远低于新页，且能顺带把这三条词收进来。
 
 **留档不建议做**：`the mound tier list`（3 词）低于建页线（≥6 词）先挂；`moonlight peaks mods` 虽有 14 条但需先核实官方是否支持 Workshop，无官方来源不写。
+
+---
+
+# QA Report — 2026-10-30（扩充 4 站 + 全站 deep）
+
+## 执行摘要
+
+- **模式**：quick × 4（本轮 4 个扩充站）+ **deep**（上次全量审计 2026-09-10，逾期 50 天，按 skill 规则必须补）
+- **结果**：4 站全部 **PASS**（0 🔴）；全站 deep 扫描 **ERROR 0**
+- **线上复验**：4 篇新页逐条 `curl --resolve` 实测 **HTTP 200 / H1 恰好 1 个**（nivalisnightswiki、waterparksimulatorwiki、shiftatmidnightwiki、sephiriawiki）
+
+## 一、本轮扩充站（明细见 `.agent/qa-expand-*-2026-10-30.md`）
+
+| 站点 | 新页 | 词数 | QA | seo-check --live | check-ad-slots --live |
+|---|---|---:|---|---|---|
+| nivalisnightswiki | fill-venue-inventory-stuck-guide | 1,404 | PASS | exit 0 | exit 0 |
+| waterparksimulatorwiki | lag-low-fps-performance-guide | 1,496 | PASS | exit 0 | exit 0 |
+| shiftatmidnightwiki | save-system-and-cloud-guide | 1,313 | PASS | exit 0 | exit 0 |
+| sephiriawiki | mods-workshop-guide | 1,287 | PASS | exit 0 | exit 0 |
+
+## 二、全站 deep（明细见 `.agent/qa-deep-2026-10-30.md`）
+
+| 检查 | 结果 |
+|---|---|
+| 模板残留（51 站） | ✅ 干净 |
+| `seo-check --all` | ✅ ERROR 0 / WARN 2,964（DESC-LEN 989、WORDS 757、TITLE-LEN 659、INTERNAL 306、LEAD-LEN 198、CANONICAL-STATIC 51 等，均不阻塞） |
+| `check-ad-slots`（渲染层） | ⚠️ 50 通过 / 1 失败（demonbluffwiki 两个 zone 皆空） |
+| dashboard 注册 | ⚠️ 站点 51 / dashboard 50，缺 demonbluffwiki |
+| D+30 投入闸 | ✅ 11 站已 <50 PV，天然被扩词/外链阈值排除，本轮无需新增动作 |
+
+WARN 中 canonical 与 title/description 长度两项按 2026-10-29 决定 **继续记录不处理**；`P-WORDS` 757 条是最大内容债，随扩词消化。
+
+## 三、人工待办（Agent 无法代填）
+
+1. `demonbluffwiki`：飞书「站点台账(人工)」补 GA4 measurementId/propertyId + 两个 Adsterra zone 代码，20:00 回填脚本自动写入并部署。
+2. `zombieassaultresurgencewiki`（今日新建）：同上，另需建 GA4 property 并把 Dashboard 服务账号加为读取者、提交 GSC。
+
+## 四、本轮顺手修的存量缺陷
+
+- `shiftatmidnightwiki/content/guides/pc-performance-guide.md` 存档路径 `AppData\Local\ShiftAtMidnight\Saved\SaveGames` → `AppData\LocalLow\Kwalee\ShiftAtMidnight`（Unity LocalLow 惯例 + 3 个独立社区源）。**这是会直接导致玩家备份错目录的事实错误**。
+- 留档：`content/home-content.md` 在 41 个站存在但 `app/page.tsx` 不读取（模板孤儿文件，非线上缺陷），待统一处理。
