@@ -418,6 +418,8 @@ node scripts/new-site.mjs \
   --developer "Studio X" --publisher "Studio X" \
   --release-date 2026-10-01 --steam-id 1234567
 # → 产出 witchspirewiki/，默认域名 witchspirewiki.vercel.app（--domain 可覆盖）
+# → 买断制、没有兑换码的游戏加 --no-codes：清掉模板 4 处 codes 文案，别建 codes 页
+#   （模板 hero / about / guides description / metadata keywords 默认都写了 codes）
 
 # 2. 安装依赖（pnpm，MUST NOT 用 npm）
 cd witchspirewiki && pnpm install

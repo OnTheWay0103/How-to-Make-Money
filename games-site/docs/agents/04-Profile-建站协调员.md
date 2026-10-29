@@ -27,6 +27,7 @@ MUST 每页先有 **≥2 个独立素材源且 ≥1 官方**（Steam/官网/官�
 MUST 用同一份提示词产出同类页；**同类每批 ≤5 篇**，逐篇过检后再放进 `content/guides/`
 MUST title 40–60 字符、description 140–160 字符、有且仅有 1 个 H1、首段 40–60 词直接给答案
 MUST 首批 **5–8 页**、5 类页型（codes / 新手 / tier list / 核心机制或 boss / FAQ）尽量各 ≥1，总词数 ≥8,000，单篇 ≥1,200（口径见 `docs/STRATEGY-生命周期与止损.md`）
+MUST 建站前先判断本作**有没有兑换码**（买断制单机通常没有）：没有时 MUST 用 `scripts/new-site.mjs ... --no-codes` 生成，并 MUST NOT 建 codes 页——模板里有 4 处 codes 文案（首页 hero / about / `/guides` description / metadata keywords），`check-site-residue` 查不出这种语义残留，只能靠生成时清（教训：2026-10-30 Zombie Assault 站人工逐处改）
 MUST D+30 至少补到 15–20 页；补页优先于开新站，补页必须有 GSC 搜索词或明确长尾词证据
 MUST 后续扩充按监控员/反馈分析师报告驱动，每次 +5–10 页（每站上线后 4 周内每周）
 MUST 每日扩充选题并行跑**两条**路径，MUST NOT 只跑抱怨驱动（complaint-driven）：

@@ -7,7 +7,7 @@
  *     --developer "Studio X" --publisher "Studio X" \
  *     --release-date 2026-10-01 \
  *     [--steam-id 1234567] [--domain witchspirewiki.vercel.app] \
- *     [--description "..."] [--genre-line "..."] \
+ *     [--description "..."] [--genre-line "..."] [--no-codes] \
  *     [--dir witchspirewiki] [--force] [--dry-run]
  *
  * 只做「复制 + 替换占位符 + 改包名」。内容、GA4、GSC、部署、台账仍按
@@ -30,7 +30,7 @@ function parseArgs(argv) {
     const key = argv[i];
     if (!key.startsWith('--')) throw new Error(`无法识别的参数: ${key}`);
     const name = key.slice(2);
-    if (name === 'force' || name === 'dry-run') {
+    if (name === 'force' || name === 'dry-run' || name === 'no-codes') {
       args[name] = true;
       continue;
     }
@@ -62,13 +62,19 @@ const domain = args.domain || `${slug}wiki.vercel.app`;
 const steamUrl = args['steam-id']
   ? `https://store.steampowered.com/app/${args['steam-id']}/`
   : `https://${domain}`;
+// 买断制、无兑换码的游戏用 --no-codes：模板里 4 处 codes 文案（首页/关于/guides
+// description/metadata keyword）会原样留在新站上，而这些站的玩家搜不到 codes，
+// 写着只是骗点击 —— 2026-10-30 建 Zombie Assault 站时靠人工逐处改才发现。
+const hasCodes = !args['no-codes'];
+const topicsPhrase = hasCodes
+  ? 'codes, beginner guides, tier lists, boss strategies, and FAQs'
+  : 'beginner guides, tier lists, boss strategies, and FAQs';
 const genreLine =
   args['genre-line'] ||
-  'codes, beginner guides, tier lists, boss strategies, and FAQs, written from official sources and labelled where a claim is only community-reported';
+  `${topicsPhrase}, written from official sources and labelled where a claim is only community-reported`;
 const description =
   args.description ||
-  `Unofficial ${args.name} wiki and guide hub — codes, beginner guides, tier lists, boss strategies, and FAQs for ${args.name}, updated as patches land.`;
-
+  `Unofficial ${args.name} wiki and guide hub — ${topicsPhrase} for ${args.name}, updated as patches land.`;
 if (!args.description) {
   const len = description.length;
   if (len < 140 || len > 160) {
@@ -140,6 +146,30 @@ function walk(dir) {
 
 walk(target);
 
+// --no-codes：清掉模板里 4 处 codes 文案。模式对不上就报警（说明模板改了、这里没跟上），
+// 不能让「没清干净」静默通过。
+if (!hasCodes) {
+  const strips = [
+    ['app/about/page.tsx', '<strong>Reference:</strong> codes, item lists,', '<strong>Reference:</strong> item lists,'],
+    ['app/guides/page.tsx', 'guide collection — codes, beginner guides', 'guide collection — beginner guides'],
+    ['lib/metadata.ts', /\n\s*'[^'\n]* codes',(?=\n)/, ''],
+  ];
+  for (const [rel, from, to] of strips) {
+    const file = path.join(target, rel);
+    if (!fs.existsSync(file)) {
+      console.warn(`⚠ --no-codes：${rel} 不存在，跳过（模板结构已变，检查脚本）`);
+      continue;
+    }
+    const src = fs.readFileSync(file, 'utf8');
+    const next = src.replace(from, to);
+    if (next === src) {
+      console.warn(`⚠ --no-codes：${rel} 里没找到要清掉的 codes 文案（模板变了，检查脚本）`);
+      continue;
+    }
+    fs.writeFileSync(file, next);
+  }
+}
+
 // 包名不能用占位符（npm 名只允许小写与 URL 安全字符），单独改。
 const pkgPath = path.join(target, 'package.json');
 const pkg = JSON.parse(fs.readFileSync(pkgPath, 'utf8'));
@@ -156,6 +186,7 @@ console.log(`✓ 已生成 ${targetName}/  （域名 https://${domain}）`);
 
 const TODO = [
   `public/icon.png 仍是模板图 —— 换成 ${args.name} 的图标`,
+  ...(hasCodes ? [] : ['本站按 --no-codes 建：已清掉 4 处 codes 文案，别再把 codes 页/关键词加回来（买断制无兑换码）']),
   'GA4 / GSC / Adsterra：在飞书「站点台账(人工)」对应行填 ID 与代码（每天 20:00 自动回填+部署）',
   'content/guides/: 按页面矩阵写 5–8 页（每页 ≥1,200 词、≥2 个来源且 ≥1 官方）',
   'app/faq/page.tsx 与 app/tier-list/page.tsx 的数组仍是空的 —— 有来源后再填',

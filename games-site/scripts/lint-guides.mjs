@@ -112,7 +112,11 @@ function countWords(body) {
 const findings = [];
 const add = (level, file, rule, msg) => findings.push({ level, file, rule, msg });
 
-const TODAY = new Date().toISOString().slice(0, 10);
+// 「今天」取 UTC 与本机日期的较大者：本机是 CST，UTC 会在 00:00–08:00 CST 还停在昨天，
+// 这期间写的稿子 updated 写成今天会被误判成「updated 在未来」（2026-10-30 建站 6 篇全中）。
+const _now = new Date();
+const _localDate = new Date(_now.getTime() - _now.getTimezoneOffset() * 60000).toISOString().slice(0, 10);
+const TODAY = [_now.toISOString().slice(0, 10), _localDate].sort().pop();
 
 for (const file of files) {
   const slug = file.replace(/\.md$/, '');
