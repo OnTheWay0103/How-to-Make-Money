@@ -22,15 +22,15 @@
       "site": "sephiriawiki",
       "pv": 1153,
       "lifeStatus": "加码",
-      "lastExpanded": "2026-10-28",
-      "lastProduced": "inventory-side-bag-guide (1,294w)"
+      "lastExpanded": "2026-10-29",
+      "lastProduced": "artifact-evolution-guide (1,643w)"
     },
     {
       "site": "shiftatmidnightwiki",
       "pv": 1082,
       "lifeStatus": "加码",
-      "lastExpanded": "2026-10-28",
-      "lastProduced": "voice-chat-mic-setup-guide (1,372w)"
+      "lastExpanded": "2026-10-29",
+      "lastProduced": "rakes-guide (1,608w)"
     }
   ],
   "skips": [
@@ -181,10 +181,10 @@
     }
   ],
   "lastRun": {
-    "date": "2026-10-28",
-    "produced": 4,
+    "date": "2026-10-29",
+    "produced": 2,
     "skipped": 0,
-    "note": "eligible[] 4 站各 1 篇全部交付（08:30 轮完成）：nivalis 2453 / waterpark 1168 / shiftatmidnight 1092 / sephiria 1075。全部 QA quick PASS、线上 200。晚间补跑轮按「每站每天 1 篇」不重复产出。当日另有新建 2 站 blinddescentwiki（8 页）与 probablystolenwiki（6 篇）。"
+    "note": "**本轮被中断，只交付 2/4 站**：04:00 launchd 轮启动 3 个子 Agent + 2 个 shell 探测，04:10 起陆续部署（sephiria artifact-evolution-guide、shiftatmidnight rakes-guide 均线上 200），04:12:44 被 Claude Code 的 10 分钟后台任务等待上限（CLAUDE_CODE_PRINT_BG_WAIT_CEILING_MS 默认值）截断并停止子 Agent，nivalis / waterpark 两站未产出。**该轮未跑 QA quick、未 commit、未写本文件**，退出码仍是 0 并被 wrapper 记为「✅ Agent 执行成功」——属假成功。两篇稿件由主 Agent 于 2026-10-29 09:0x 补跑 lint/残留检查（0 ERROR / 无残留、sources 逐条可回溯、数字断言抽查通过）后补提交。"
   },
   "catchUps": [
     {
@@ -227,6 +227,19 @@
   ],
   "runLog": [
     {
+      "date": "2026-10-29",
+      "round": "04:00 CST（launchd com.games-site.auto-build-site）",
+      "produced": 2,
+      "skipped": 2,
+      "note": "中断轮。产 sephiria artifact-evolution-guide（1,643w）、shiftatmidnight rakes-guide（1,608w），两篇线上 200、H1 正确；nivalisnightswiki / waterparksimulatorwiki 未启动到产出即被子 Agent 等待上限杀掉。**两个缺陷**：①部署后未 commit（线上内容不在 git，违反 STEP 0 规则；与 2026-10-27 04:00 轮同一个失败模式，已复发）；②wrapper 只看 claude 退出码，中断仍报「✅ 执行成功」。修复建议见 .agent/run-audit-2026-10-29.md。",
+      "eligible": [
+        "nivalisnightswiki",
+        "waterparksimulatorwiki",
+        "shiftatmidnightwiki",
+        "sephiriawiki"
+      ]
+    },
+    {
       "date": "2026-10-28",
       "round": "21:00 CST 晚间补跑（08:30 launchd 轮当日已完成产出）",
       "produced": 0,
@@ -265,5 +278,5 @@
     }
   ],
   "pvCheckedAt": "2026-10-28T05:35:43.052Z",
-  "roundNote": "2026-10-28 轮：4 站各 1 篇全部交付（无 SKIP）；nivalis 2433 / sephiria 1148 / waterpark 1144 / shiftatmidnight 1067 PV30"
+  "roundNote": "2026-10-29 04:00 轮中断（2/4 站交付，未 commit 由主 Agent 补齐）；同日 09:00 完成补记。"
 }

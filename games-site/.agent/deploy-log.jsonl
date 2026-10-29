@@ -252,3 +252,5 @@
 {"ts":"2026-10-28T18:32:00+0800","site":"probablystolenwiki","commit":"72cf19b","status":"ok","url":"https://probablystolenwiki.vercel.app"}
 {"ts":"2026-10-28T21:42:52+0800","site":"blinddescentwiki","commit":"b2095a2","status":"ok","url":"https://blinddescentwiki.vercel.app"}
 {"ts":"2026-10-28T21:43:30+0800","site":"probablystolenwiki","commit":"b2095a2","status":"ok","url":"https://probablystolenwiki.vercel.app"}
+{"ts":"2026-10-29T04:10:15+0800","site":"sephiriawiki","commit":"6e43586","status":"fail","url":"https://sephiriawiki.vercel.app"}
+{"ts":"2026-10-29T04:12:07+0800","site":"shiftatmidnightwiki","commit":"6e43586","status":"ok","url":"https://shiftatmidnightwiki.vercel.app"}

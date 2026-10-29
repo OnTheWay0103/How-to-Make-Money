@@ -2809,3 +2809,28 @@ WebSearch "GONE Fishing ... GONE Studios ABCT Productions" / "REKA ... release d
 | probablystolenwiki.vercel.app/tier-list | 200 |
 
 **本轮 QA 合计：4 站 4 篇，0 阻断，全部 PASS。**
+
+---
+
+# QA-QUICK 2026-10-29 — 04:00 中断轮遗留的 2 篇（主 Agent 补跑）
+
+> 背景：2026-10-29 04:00 定时轮交付 2 篇后被子 Agent 等待上限截断，未跑 QA、未 commit。本篇为主 Agent 09:0x 补的 quick。
+> 审核对象：`sephiriawiki/content/guides/artifact-evolution-guide.md`、`shiftatmidnightwiki/content/guides/rakes-guide.md`
+
+| 项 | sephiria | shiftatmidnight |
+|---|---|---|
+| `lint-guides` | ✅ 0 ERROR | ✅ 0 ERROR |
+| `check-site-residue` | ✅ 无残留 | ✅ 无残留 |
+| 正文词数 | 1,643 | 1,608 |
+| title / description | 52 / 160 | 54 / 155 |
+| sources 条数（Official） | 5（3） | 6（2） |
+| `related` 块状数组 | ✅ | ✅ |
+| 线上 | 200，H1 = Sephiria Artifact Evolution Guide: All Five Triggers | 200，H1 = Shift At Midnight Rakes: How to Stop the Forest Threat |
+
+**事实抽查（数字断言）**：
+
+- `0.05/0.15/0.25 seconds`（Master's Tsuba 1.0.31 旧值）与 `40/70/120%`（1.0.33 新值）逐字对应 Steam 公告，✅
+- `1.4x / 1.7x / 2.2x` 明确标注为 Community wiki（sephiriawiki.com）的换算读法，未冒充官方，✅
+- `+30/40% … for 10 seconds after completing Reload` 逐字来自 1.0.31 公告，✅
+
+**判定：2 篇 PASS（quick）。** 唯一建议项：sephiria 那篇引用了竞对 `sephiriawiki.com` 作 Community 来源（已改写标注），如要严控可只留官方条目。
