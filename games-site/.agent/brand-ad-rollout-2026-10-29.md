@@ -95,8 +95,12 @@
 - **不部署 9 站**（PV30 = 0，代码已改但线上仍是旧版）：
   `welcomeelderfieldwiki`、`sovereigntowerwiki`、`silverpineswiki`、`fallentearwiki`、
   `dressmakerwiki`、`doloctownwiki`、`crimsonmoonwiki`、`bombananawiki`、`anomalypresidentwiki`
-- 这 9 站 MUST NOT 写进 `.agent/pending-deploys.md`（那会被每轮 `deploy-pending.sh` 自动铺掉，
-  与「只铺有流量的站」相悖）；将来它们任一原因需要部署时，构建会自动带上本次改动
+- 这 9 站当时未写进 `.agent/pending-deploys.md`（那会被每轮 `deploy-pending.sh` 自动铺掉，
+  与「只铺有流量的站」相悖）
+
+> **2026-10-30 补记**：用户要求「其余的网站部署上去」，这 9 站已于 10-30 08:05–08:09
+> 全部部署到 `c1e3618`，线上复验 `check-ad-slots.mjs --live` **9/9 通过**。
+> 至此 52 站全部带广告位 + logo 改动上线，不再有遗留站。
 
 部署结果见 §7（部署完成后回填）。
 
@@ -118,7 +122,7 @@
 
 ## §8 遗留
 
-- 9 个 PV30=0 的站线上仍为旧版；它们将来任何原因重建时会自动带上本次改动，无需单独处理
+- ~~9 个 PV30=0 的站线上仍为旧版~~ → **2026-10-30 已全部部署**，复验 9/9 通过（见 §6 补记）
 - `AdsterraSlot` 的 `variant="home"` 分支已无调用方，保留未删（仍是有意义的 API，删它要动 51 个文件且会再触发一轮全量部署）
 - 视觉服务当天不可用，logo 未经人眼确认；如需裁切/去边，改 `apply-brand-and-page-ad.mjs` 的 `magick` 参数重跑即可
 - 飞书两张台账无对应列，本次改动不涉及台账数据
