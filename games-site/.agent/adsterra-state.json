@@ -518,5 +518,15 @@
       "hash": "bd2959938859",
       "deployedAt": "2026-10-30T01:22:07.709Z"
     }
+  },
+  "deadlydaysroadtripwiki": {
+    "global": {
+      "hash": "56cbec34a62c",
+      "deployedAt": "2026-10-30T23:45:31.482Z"
+    },
+    "guide": {
+      "hash": "6f4636667359",
+      "deployedAt": "2026-10-30T23:45:31.482Z"
+    }
   }
 }
