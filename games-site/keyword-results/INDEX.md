@@ -1,10 +1,10 @@
 # 词库索引
 
-> 生成时间：2026-10-29 20:57 UTC
+> 生成时间：2026-10-30 20:34 UTC
 > 生成脚本：`node scripts/keyword-index.mjs` —— 不要手改本文件
 > 规则：`docs/STRATEGY-挖词与词库.md`
 
-共 **147** 份游戏词库（新格式 77，旧格式 70），已建站 **41** 站。
+共 **172** 份游戏词库（新格式 99，旧格式 73），已建站 **41** 站。
 
 > 新格式以 `slug == 站点目录名去掉 wiki` 精确匹配；旧格式只能按文件名猜，「未建站」可能有漏配。
 
@@ -15,7 +15,7 @@
 
 | 渠道 | 贡献词数 | 独占词数 |
 |---|---:|---:|
-| google_suggest | 4664 | 4664 |
+| google_suggest | 5579 | 5579 |
 
 ## 采集锚定产出
 
@@ -23,36 +23,53 @@
 
 | 锚定批次 | 贡献词数 | 独占词数 |
 |---|---:|---:|
-| 裸词 | 859 | 725 |
-| 品牌+game | 548 | 415 |
-| 探针:steam | 410 | 315 |
-| 后缀:release date | 384 | 271 |
-| 后缀:demo | 327 | 258 |
-| 后缀:reddit | 299 | 208 |
-| 探针:ps5 | 284 | 198 |
-| 后缀:price | 266 | 174 |
-| 后缀:guide | 262 | 185 |
-| 后缀:wiki | 232 | 173 |
-| 后缀:update | 205 | 161 |
-| 后缀:multiplayer | 182 | 128 |
-| 后缀:boss | 131 | 107 |
-| 探针:characters | 122 | 94 |
-| 探针:skills | 122 | 74 |
-| 后缀:tips | 89 | 63 |
-| 后缀:how to | 83 | 79 |
-| 后缀:characters | 82 | 64 |
-| 后缀:mods | 77 | 68 |
-| 后缀:codes | 71 | 44 |
-| 后缀:unlock | 66 | 52 |
-| 后缀:co op | 59 | 34 |
-| 后缀:money | 55 | 44 |
-| 后缀:tier list | 55 | 40 |
-| 后缀:map | 53 | 24 |
+| 裸词 | 1031 | 856 |
+| 品牌+game | 662 | 499 |
+| 探针:steam | 476 | 354 |
+| 后缀:release date | 446 | 311 |
+| 后缀:demo | 399 | 308 |
+| 后缀:reddit | 345 | 242 |
+| 探针:ps5 | 327 | 225 |
+| 后缀:guide | 315 | 224 |
+| 后缀:wiki | 308 | 221 |
+| 后缀:price | 304 | 196 |
+| 后缀:update | 251 | 195 |
+| 后缀:multiplayer | 231 | 156 |
+| 探针:skills | 161 | 96 |
+| 后缀:boss | 156 | 125 |
+| 探针:characters | 154 | 124 |
+| 后缀:characters | 106 | 76 |
+| 后缀:codes | 99 | 65 |
+| 后缀:how to | 92 | 85 |
+| 后缀:mods | 91 | 81 |
+| 后缀:tips | 90 | 63 |
+| 后缀:unlock | 83 | 66 |
+| 后缀:beginner guide | 76 | 28 |
+| 后缀:map | 71 | 34 |
+| 后缀:co op | 71 | 41 |
+| 后缀:tier list | 61 | 42 |
 
 ## 按游戏
 
 | 游戏 | slug | 有效词 | 最后采集 | 来源 | 页型覆盖 | 站点 | 格式 |
 |---|---|---:|---|---|---|---|---|
+| ABYSS | abyss | 283 | 2026-10-31 | google_suggest:283（探针:skills 15、探针:characters 15、后缀:codes 15） | 1 Codes / 2 Beginner / 3 Tier List / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
+| Airport Contraband | airportcontraband | 38 | 2026-10-31 | google_suggest:67（裸词 14、品牌+game 13、后缀:demo 7） | 5 FAQ / 待定 | 未建站 | new |
+| Apocalyptica | apocalyptica | 51 | 2026-10-31 | google_suggest:51（裸词 12、后缀:release date 11、品牌+game 8） | 1 Codes / 3 Tier List / 5 FAQ / 待定 | 未建站 | new |
+| Casualties: Unknown | casualtiesunknown | 165 | 2026-10-31 | google_suggest:206（裸词 15、探针:characters 15、后缀:guide 15） | 1 Codes / 2 Beginner / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
+| County of Fortune | countyoffortune | 26 | 2026-10-31 | google_suggest:27（裸词 14、品牌+game 4、后缀:how to 4） | 2 Beginner / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
+| Deadly Days: Roadtrip | deadlydaysroadtrip | 114 | 2026-10-31 | google_suggest:132（裸词 15、后缀:characters 15、后缀:unlock 15） | 1 Codes / 2 Beginner / 3 Tier List / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
+| Divine Frequency | divinefrequency | 42 | 2026-10-31 | google_suggest:67（裸词 15、品牌+game 12、后缀:multiplayer 5） | 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
+| GRAVHOUNDS | gravhounds | 1 | 2026-10-31 | google_suggest:1（品牌+game 1） | 5 FAQ | 未建站 | new |
+| Grimhold | grimhold | 18 | 2026-10-31 | google_suggest:43（裸词 12、品牌+game 5、后缀:meta 4） | 5 FAQ / 待定 | 未建站 | new |
+| Into the Crypt | intothecrypt | 12 | 2026-10-31 | google_suggest:15（裸词 6、探针:skills 3、后缀:release date 2） | 5 FAQ / 待定 | 未建站 | new |
+| Mayday: The Survival Island | maydaythesurvivalisland | 8 | 2026-10-31 | google_suggest:34（裸词 8、品牌+game 2、后缀:demo 2） | 5 FAQ / 待定 | 未建站 | new |
+| Nomad Drive | nomaddrive | 62 | 2026-10-31 | google_suggest:91（后缀:demo 15、品牌+game 15、裸词 14） | 1 Codes / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
+| Project Exodus | projectexodus | 25 | 2026-10-31 | google_suggest:36（裸词 14、后缀:guide 8、后缀:wiki 6） | 4 核心机制/Boss / 待定 | 未建站 | new |
+| Ramen Shop Simulator | ramenshopsimulator | 14 | 2026-10-31 | google_suggest:34（裸词 12、品牌+game 3、后缀:beginner guide 1） | 5 FAQ / 待定 | 未建站 | new |
+| Rise of the Merchants | riseofthemerchants | 3 | 2026-10-31 | google_suggest:3（裸词 3） | 5 FAQ / 待定 | 未建站 | new |
+| The Last Legion | thelastlegion | 52 | 2026-10-31 | google_suggest:82（裸词 15、后缀:wiki 6、品牌+game 6） | 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
+| Zotenhold | zotenhold | 1 | 2026-10-31 | google_suggest:16（后缀:beginner guide 1、后缀:characters 1、后缀:demo 1） | 待定 | 未建站 | new |
 | Curse of Resthaven | curseofresthaven | 9 | 2026-10-30 | google_suggest:9（裸词 9） | 5 FAQ / 待定 | 未建站 | new |
 | Dead Party | deadparty | 22 | 2026-10-30 | google_suggest:28（裸词 13、探针:characters 4、后缀:guide 3） | 5 FAQ / 待定 | 未建站 | new |
 | DUSTBLOOM | dustbloom | 7 | 2026-10-30 | google_suggest:49（裸词 6、后缀:base building 3、后缀:beginner guide 3） | 待定 | 未建站 | new |
@@ -144,9 +161,14 @@
 | Delverium | Delverium | 0 | 2026-08-02 | — | — | delveriumwiki | legacy-meta |
 | Pass the Fear | Pass-the-Fear | 0 | 2026-08-01 | — | — | 未建站 | legacy-meta |
 | Abandoned Below | abandonedbelow | 0 | — | — | — | 未建站 | new |
+| ALTEREDBLOOD+ [AB+] | alteredblood | 0 | — | — | — | 未建站 | new |
+| Cinderwake | cinderwake | 0 | — | — | — | 未建站 | new |
 | Gendo The Gatherer | gendothegatherer | 0 | — | — | — | 未建站 | new |
+| Geoplanetical | geoplanetical | 0 | — | — | — | 未建站 | new |
+| Grinner's Diner | grinnersdiner | 0 | — | — | — | 未建站 | new |
 | Orcthal | orcthal | 0 | — | — | — | 未建站 | new |
 | Project Nekrios | projectnekrios | 0 | — | — | — | 未建站 | new |
+| Tiles of Grimmwoods | tilesofgrimmwoods | 0 | — | — | — | 未建站 | new |
 | Ardent Wilds | Ardent-Wilds | 23 | — | — | — | ardentwildswiki | legacy |
 | DinoBlade | DinoBlade | 70 | — | — | — | dinobladewiki | legacy |
 | DragonSword: Awakening | DragonSword-Awakening | 0 | — | — | — | 未建站 | legacy |
@@ -179,6 +201,7 @@
 | Demon Bluff | demonbluff-sources | 0 | — | — | — | 未建站 | legacy |
 | GONE Fishing | gonefishing-matrix | 0 | — | — | — | 未建站 | legacy |
 | GONE Fishing | gonefishing-sources | 0 | — | — | — | 未建站 | legacy |
+| 关键词采集报告 | harvest-2026-10-31 | 0 | — | — | — | 未建站 | legacy |
 | — | lowbudgetrepairswiki-postlaunch-fix | 0 | — | — | — | 未建站 | legacy |
 | Neon Abyss 2 | neonabyss2-matrix | 0 | — | — | — | 未建站 | legacy |
 | Neon Abyss 2 | neonabyss2-sources | 0 | — | — | — | 未建站 | legacy |
@@ -200,10 +223,12 @@
 | Vahrin's Call | vahrins-call | 0 | — | — | — | vahrinscallwiki | legacy |
 | Waterpark Simulator | waterparksimulator-sources | 0 | — | — | — | 未建站 | legacy |
 | Welcome to Elderfield | welcomeelderfield-postlaunch-fix | 0 | — | — | — | 未建站 | legacy |
+| Zombie Assault: Resurgence | zombieassaultresurgence-matrix | 0 | — | — | — | 未建站 | legacy |
+| Zombie Assault: Resurgence | zombieassaultresurgence-sources | 0 | — | — | — | 未建站 | legacy |
 
 ## 待处理
 
-**软问题**（旧格式，逐步随复采替换，不阻塞）：53 份
+**软问题**（旧格式，逐步随复采替换，不阻塞）：56 份
 
 - 无采集元信息头（无法自动统计）：Ardent-Wilds.md
 - 无采集元信息头（无法自动统计）：DinoBlade.md
@@ -225,4 +250,4 @@
 - 无采集元信息头（无法自动统计）：Sephiria-feedback.md
 - 无采集元信息头（无法自动统计）：Silver-Pines.md
 - 无采集元信息头（无法自动统计）：Skills-and-Raids.md
-- … 其余 33 份
+- … 其余 36 份
