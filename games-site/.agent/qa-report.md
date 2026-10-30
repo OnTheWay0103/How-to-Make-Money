@@ -2929,3 +2929,34 @@ WARN 中 canonical 与 title/description 长度两项按 2026-10-29 决定 **继
 > 由候选分析员 ANALYSIS-2026-10-30 追加，供下一轮选稿参考（不改动本文件以上内容）。依据 `keyword-results/selection-2026-10-30.md`、`keyword-results/zombieassaultresurgence.md`、`keyword-results/terriblelizards.md`。
 
 接下来最值得写的 3 个页面方向：**① Zombie Assault: Resurgence「co-op / multiplayer 联机」页群** —— 词库里 `multiplayer` 后缀成组（`zombie assault resurgence multiplayer`、`... demo multiplayer`、`... multiplayer not working` 共 11 条 Suggest），而今日新建的 6 页（三职业 / 全武器 / 武器 tier / 改装）**一篇联机页都没有**，商店页一手事实是 4 人跨平台 co-op + Friend's Pass，素材现成、缺口明确，是本站当前性价比最高的一页；**② Zombie Assault: Resurgence「Boss 与三种行动模式」** —— `boss` 后缀 6 条，商店页确认 Eradication / Surge / Cache Recovery 三模式 + 4 个故事任务，站内 0 覆盖，可与 ① 共用同一批 Steam 讨论区来源；**③ Terrible Lizards「章节密码 / 解谜」页**（#124，已预留用户手工建站，Agent 不自建）—— `Terrible Lizards codes` 是唯一有成组答案的词（员工区 9216、地下室 1903，grindnstrat / intoindiegames / 9to5gaming 三家一致），且 `terrible-lizards.wiki`（176 loc / 4 语言，10-15 更新）已铺 walkthrough 但**密码页是可逐条核验的硬信息**，用户首批 6 页应含此页；`codes` 只做「章节密码」不做兑换码（买断无兑换码，SERP 已证零生态）。排序逻辑：①② 同站同源、可一次采集写两篇且站内零覆盖；③ 竞争压力最小（`P=1.0`）但归属人工建站，Agent 只备料不动手。完整评分依据见 `keyword-results/selection-2026-10-30.md` 第三节。
+
+---
+
+## 本轮扩充 — 2026-10-31（QA quick × 3）
+
+> 名单严格取自 `node scripts/expansion-targets.mjs --json` 的 `eligible[]`（PV30 > 1000 且状态 ≠ 不再维护），逐站 `--verify` 均 exit 0。明细见 `.agent/expand-{site}-2026-10-31.md`。
+
+| 站点 | 新页 | 词数 | QA | seo-check --live | check-ad-slots | 线上 |
+|---|---|---:|---|---|---|---|
+| nivalisnightswiki | no-customers-venue-empty-guide | 1,550 | PASS | exit 0 | exit 0 | 200 / H1=1 |
+| waterparksimulatorwiki | guest-limit-park-capacity-guide | 1,384 | PASS | exit 0 | exit 0 | 200 / H1=1 |
+| shiftatmidnightwiki | controller-support-steam-deck-guide | 1,516 | PASS | exit 0 | exit 0 | 200 / H1=1 |
+
+**选题依据**：三篇均来自真实玩家反馈缺口——Nivalis「场地无客流」、Waterpark「客容量上限（主机 70 / PC 100）」、Shift「手柄与 Steam Deck 支持」；来源文件里逐条保留 URL 与抓取日期（每篇 Official ≥1，独立来源 ≥2）。
+
+**顺手修正的预存在事实错误（shiftatmidnightwiki）**：
+
+1. `faq-content.md` 原称「PC (Steam) 与 Xbox 可跨平台联机」→ 改为 **Microsoft 池 / Steam 池分离**（Xbox ↔ PC Game Pass 互通；Steam 仅与 Steam 互通，无 Steam↔Xbox）。与 `multiplayer-faq-guide` 口径统一。
+2. `patch-notes-history.md` 原称 6 人房「未被官方确认」→ 官方 Steam 公告 **2026-07-23「6 PLAYER LOBBIES + FIXES」** 已确认（`store.steampowered.com/news/app/3722330/view/1839041357027013`）；保留「商店页仍写 1–3 人为设计平衡」的说明。
+
+**新站体检（STEP -1）**：最近 3 天 4 个新站（blinddescent / demonbluff / probablystolen / zombieassaultresurgence）线上 200、H1=1、sitemap 覆盖、GA4/两广告位/看板/GSC/SEO 全齐；`check-ad-slots` 与 `check-dashboard-registry` 逐站 exit 0。昨日 QA 报的 demonbluff 广告位缺口已由人工补齐。
+
+**未处理（按 2026-10-29 决定）**：canonical 与 title/description 长度 WARN 继续记录不处理；三站 WARN 均为存量内容债，本轮新页无新增 WARN。
+
+---
+
+## 新词机会 — 2026-10-31
+
+> 由候选分析员 ANALYSIS-2026-10-31 追加，供下一轮选稿参考。依据 `keyword-results/selection-2026-10-31.md`、`keyword-results/deadlydaysroadtrip.md`、`keyword-results/casualtiesunknown.md`。
+
+本轮 22 个新候选里只有 2 个过线，且都是「建站级」而非「补页级」机会：**① Deadly Days: Roadtrip（#141，18 分）** —— 114 有效词、攻略型 60%，`tier list` / `best build` / `weapon tier list` / `boss` / `beginner guide` 五类词各有 7–15 条 Suggest，是全部候选里唯一页型齐备的一个；`deadlydaysroadtrip.wiki` 实测 45 页×4 语言但 6 条 SERP 完全不可见，P=1.5。**② Casualties: Unknown（#158，15 分）** —— 161 有效词、攻略型 35–42%，`boss` / `map` / `wiki characters` / `best weapons` 成组，且官方社区 wiki `scavprototype.wiki.gg` 已有 563 页，建站必须只做其未覆盖的数值/路线/机制深度。**③ Deadly Days: Roadtrip codes** —— `codes` / `secret codes` / `unlock codes` 三组 Suggest 已出现，但买断制是否有兑换码必须先官方核实；若无可写来源就只做「章节密码/作弊码」并在页内如实说明，MUST NOT 编造兑换码。排序逻辑：#141 与 #158 都将在下一轮进入建站流水线（#141 今日已按每日 1 站上限启动，#158 顺延），codes 页作为 #141 首发页型的候选之一先备料。完整证据见 `keyword-results/selection-2026-10-31.md`。
