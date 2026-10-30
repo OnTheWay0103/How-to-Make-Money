@@ -2921,3 +2921,11 @@ WARN 中 canonical 与 title/description 长度两项按 2026-10-29 决定 **继
 
 - `shiftatmidnightwiki/content/guides/pc-performance-guide.md` 存档路径 `AppData\Local\ShiftAtMidnight\Saved\SaveGames` → `AppData\LocalLow\Kwalee\ShiftAtMidnight`（Unity LocalLow 惯例 + 3 个独立社区源）。**这是会直接导致玩家备份错目录的事实错误**。
 - 留档：`content/home-content.md` 在 41 个站存在但 `app/page.tsx` 不读取（模板孤儿文件，非线上缺陷），待统一处理。
+
+---
+
+## 新词机会 — 2026-10-30
+
+> 由候选分析员 ANALYSIS-2026-10-30 追加，供下一轮选稿参考（不改动本文件以上内容）。依据 `keyword-results/selection-2026-10-30.md`、`keyword-results/zombieassaultresurgence.md`、`keyword-results/terriblelizards.md`。
+
+接下来最值得写的 3 个页面方向：**① Zombie Assault: Resurgence「co-op / multiplayer 联机」页群** —— 词库里 `multiplayer` 后缀成组（`zombie assault resurgence multiplayer`、`... demo multiplayer`、`... multiplayer not working` 共 11 条 Suggest），而今日新建的 6 页（三职业 / 全武器 / 武器 tier / 改装）**一篇联机页都没有**，商店页一手事实是 4 人跨平台 co-op + Friend's Pass，素材现成、缺口明确，是本站当前性价比最高的一页；**② Zombie Assault: Resurgence「Boss 与三种行动模式」** —— `boss` 后缀 6 条，商店页确认 Eradication / Surge / Cache Recovery 三模式 + 4 个故事任务，站内 0 覆盖，可与 ① 共用同一批 Steam 讨论区来源；**③ Terrible Lizards「章节密码 / 解谜」页**（#124，已预留用户手工建站，Agent 不自建）—— `Terrible Lizards codes` 是唯一有成组答案的词（员工区 9216、地下室 1903，grindnstrat / intoindiegames / 9to5gaming 三家一致），且 `terrible-lizards.wiki`（176 loc / 4 语言，10-15 更新）已铺 walkthrough 但**密码页是可逐条核验的硬信息**，用户首批 6 页应含此页；`codes` 只做「章节密码」不做兑换码（买断无兑换码，SERP 已证零生态）。排序逻辑：①② 同站同源、可一次采集写两篇且站内零覆盖；③ 竞争压力最小（`P=1.0`）但归属人工建站，Agent 只备料不动手。完整评分依据见 `keyword-results/selection-2026-10-30.md` 第三节。
