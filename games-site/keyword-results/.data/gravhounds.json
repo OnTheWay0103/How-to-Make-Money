@@ -1,0 +1,35 @@
+{
+  "slug": "gravhounds",
+  "game": "GRAVHOUNDS",
+  "runs": [
+    {
+      "at": "2026-10-30T20:30:06.706Z",
+      "locale": "en",
+      "requests": 22,
+      "failures": 0,
+      "raw": 135,
+      "dedup": 119,
+      "valid": 1,
+      "variants": 0,
+      "noise": 118,
+      "noiseRate": 0.9916,
+      "anchorRate": 0.0084,
+      "newKeywords": 1
+    }
+  ],
+  "keywords": {
+    "gravhounds game preview": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-31",
+      "lastSeen": "2026-10-31",
+      "variantOf": null
+    }
+  },
+  "aliases": [],
+  "locale": "en",
+  "updatedAt": "2026-10-30T20:30:06.706Z"
+}

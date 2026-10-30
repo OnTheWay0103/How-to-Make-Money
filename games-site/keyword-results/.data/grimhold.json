@@ -1,0 +1,230 @@
+{
+  "slug": "grimhold",
+  "game": "Grimhold",
+  "runs": [
+    {
+      "at": "2026-10-30T20:28:24.659Z",
+      "locale": "en",
+      "requests": 21,
+      "failures": 0,
+      "raw": 92,
+      "dedup": 66,
+      "valid": 18,
+      "variants": 0,
+      "noise": 48,
+      "noiseRate": 0.7273,
+      "anchorRate": 0.2727,
+      "newKeywords": 18
+    }
+  ],
+  "keywords": {
+    "grimhold": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:meta",
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-31",
+      "lastSeen": "2026-10-31",
+      "variantOf": null
+    },
+    "grimhold band": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-31",
+      "lastSeen": "2026-10-31",
+      "variantOf": null
+    },
+    "grimhold book": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:boss",
+        "google_suggest:后缀:characters",
+        "google_suggest:后缀:secrets",
+        "google_suggest:品牌+game",
+        "google_suggest:探针:ps5",
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-31",
+      "lastSeen": "2026-10-31",
+      "variantOf": null
+    },
+    "grimhold definition": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:demo",
+        "google_suggest:后缀:meta",
+        "google_suggest:后缀:wiki",
+        "google_suggest:品牌+game",
+        "google_suggest:探针:skills"
+      ],
+      "firstSeen": "2026-10-31",
+      "lastSeen": "2026-10-31",
+      "variantOf": null
+    },
+    "grimhold dnd": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:demo",
+        "google_suggest:探针:skills"
+      ],
+      "firstSeen": "2026-10-31",
+      "lastSeen": "2026-10-31",
+      "variantOf": null
+    },
+    "grimhold exile": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:demo",
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-31",
+      "lastSeen": "2026-10-31",
+      "variantOf": null
+    },
+    "grimhold exile release date": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:后缀:update"
+      ],
+      "firstSeen": "2026-10-31",
+      "lastSeen": "2026-10-31",
+      "variantOf": null
+    },
+    "grimhold fortress": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-31",
+      "lastSeen": "2026-10-31",
+      "variantOf": null
+    },
+    "grimhold game": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-31",
+      "lastSeen": "2026-10-31",
+      "variantOf": null
+    },
+    "grimhold harry potter": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-31",
+      "lastSeen": "2026-10-31",
+      "variantOf": null
+    },
+    "grimhold keep": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:items",
+        "google_suggest:后缀:secrets",
+        "google_suggest:探针:skills"
+      ],
+      "firstSeen": "2026-10-31",
+      "lastSeen": "2026-10-31",
+      "variantOf": null
+    },
+    "grimhold marvel": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:characters",
+        "google_suggest:后缀:meta",
+        "google_suggest:后缀:update",
+        "google_suggest:后缀:wiki",
+        "google_suggest:品牌+game"
+      ],
+      "firstSeen": "2026-10-31",
+      "lastSeen": "2026-10-31",
+      "variantOf": null
+    },
+    "grimhold meaning": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:characters",
+        "google_suggest:后缀:demo",
+        "google_suggest:后缀:items",
+        "google_suggest:后缀:meta",
+        "google_suggest:后缀:wiki",
+        "google_suggest:品牌+game",
+        "google_suggest:探针:skills",
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-31",
+      "lastSeen": "2026-10-31",
+      "variantOf": null
+    },
+    "grimhold miniatures": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-31",
+      "lastSeen": "2026-10-31",
+      "variantOf": null
+    },
+    "grimhold movie": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-31",
+      "lastSeen": "2026-10-31",
+      "variantOf": null
+    },
+    "grimhold sorcerer's apprentice": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-31",
+      "lastSeen": "2026-10-31",
+      "variantOf": null
+    },
+    "grimhold steam": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-31",
+      "lastSeen": "2026-10-31",
+      "variantOf": null
+    },
+    "grimhold warhammer": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-31",
+      "lastSeen": "2026-10-31",
+      "variantOf": null
+    }
+  },
+  "aliases": [],
+  "locale": "en",
+  "updatedAt": "2026-10-30T20:28:24.659Z"
+}

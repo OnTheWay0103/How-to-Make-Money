@@ -1,0 +1,24 @@
+{
+  "slug": "geoplanetical",
+  "game": "Geoplanetical",
+  "runs": [
+    {
+      "at": "2026-10-30T20:27:36.148Z",
+      "locale": "en",
+      "requests": 22,
+      "failures": 0,
+      "raw": 231,
+      "dedup": 203,
+      "valid": 0,
+      "variants": 0,
+      "noise": 203,
+      "noiseRate": 1,
+      "anchorRate": 0,
+      "newKeywords": 0
+    }
+  ],
+  "keywords": {},
+  "aliases": [],
+  "locale": "en",
+  "updatedAt": "2026-10-30T20:27:36.148Z"
+}

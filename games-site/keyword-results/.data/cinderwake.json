@@ -1,0 +1,24 @@
+{
+  "slug": "cinderwake",
+  "game": "Cinderwake",
+  "runs": [
+    {
+      "at": "2026-10-30T20:25:54.346Z",
+      "locale": "en",
+      "requests": 21,
+      "failures": 0,
+      "raw": 146,
+      "dedup": 138,
+      "valid": 0,
+      "variants": 0,
+      "noise": 138,
+      "noiseRate": 1,
+      "anchorRate": 0,
+      "newKeywords": 0
+    }
+  ],
+  "keywords": {},
+  "aliases": [],
+  "locale": "en",
+  "updatedAt": "2026-10-30T20:25:54.346Z"
+}

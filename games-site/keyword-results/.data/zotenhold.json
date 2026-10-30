@@ -1,0 +1,50 @@
+{
+  "slug": "zotenhold",
+  "game": "Zotenhold",
+  "runs": [
+    {
+      "at": "2026-10-30T20:25:54.345Z",
+      "locale": "en",
+      "requests": 21,
+      "failures": 0,
+      "raw": 103,
+      "dedup": 84,
+      "valid": 1,
+      "variants": 0,
+      "noise": 83,
+      "noiseRate": 0.9881,
+      "anchorRate": 0.0119,
+      "newKeywords": 1
+    }
+  ],
+  "keywords": {
+    "zotenhold": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:后缀:beginner guide",
+        "google_suggest:后缀:characters",
+        "google_suggest:后缀:demo",
+        "google_suggest:后缀:guide",
+        "google_suggest:后缀:meta",
+        "google_suggest:后缀:price",
+        "google_suggest:后缀:reddit",
+        "google_suggest:后缀:release date",
+        "google_suggest:后缀:secrets",
+        "google_suggest:后缀:unlock",
+        "google_suggest:后缀:update",
+        "google_suggest:后缀:wiki",
+        "google_suggest:品牌+game",
+        "google_suggest:探针:ps5",
+        "google_suggest:探针:skills",
+        "google_suggest:探针:steam"
+      ],
+      "firstSeen": "2026-10-31",
+      "lastSeen": "2026-10-31",
+      "variantOf": null
+    }
+  },
+  "aliases": [],
+  "locale": "en",
+  "updatedAt": "2026-10-30T20:25:54.345Z"
+}

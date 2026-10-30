@@ -1,0 +1,24 @@
+{
+  "slug": "tilesofgrimmwoods",
+  "game": "Tiles of Grimmwoods",
+  "runs": [
+    {
+      "at": "2026-10-30T20:30:04.500Z",
+      "locale": "en",
+      "requests": 21,
+      "failures": 0,
+      "raw": 90,
+      "dedup": 70,
+      "valid": 0,
+      "variants": 0,
+      "noise": 70,
+      "noiseRate": 1,
+      "anchorRate": 0,
+      "newKeywords": 0
+    }
+  ],
+  "keywords": {},
+  "aliases": [],
+  "locale": "en",
+  "updatedAt": "2026-10-30T20:30:04.500Z"
+}

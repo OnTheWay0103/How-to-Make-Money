@@ -1,0 +1,55 @@
+{
+  "slug": "riseofthemerchants",
+  "game": "Rise of the Merchants",
+  "runs": [
+    {
+      "at": "2026-10-30T20:27:36.146Z",
+      "locale": "en",
+      "requests": 22,
+      "failures": 0,
+      "raw": 44,
+      "dedup": 24,
+      "valid": 3,
+      "variants": 0,
+      "noise": 21,
+      "noiseRate": 0.875,
+      "anchorRate": 0.125,
+      "newKeywords": 3
+    }
+  ],
+  "keywords": {
+    "rise of the merchants game": {
+      "category": "Other",
+      "pageType": "待定",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-31",
+      "lastSeen": "2026-10-31",
+      "variantOf": null
+    },
+    "rise of the merchants release date": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-31",
+      "lastSeen": "2026-10-31",
+      "variantOf": null
+    },
+    "rise of the merchants steam": {
+      "category": "Info/发售平台",
+      "pageType": "5 FAQ",
+      "sources": [
+        "google_suggest:裸词"
+      ],
+      "firstSeen": "2026-10-31",
+      "lastSeen": "2026-10-31",
+      "variantOf": null
+    }
+  },
+  "aliases": [],
+  "locale": "en",
+  "updatedAt": "2026-10-30T20:27:36.146Z"
+}
