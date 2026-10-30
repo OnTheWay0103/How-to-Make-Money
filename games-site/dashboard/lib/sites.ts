@@ -311,4 +311,14 @@ export const SITES: SiteConfig[] = [
     propertyId: '561119337',
     gaId: 'G-PPHEP0XC8R',
   },
+  {
+    name: 'Demon Bluff Wiki',
+    propertyId: '561621270',
+    gaId: 'G-P13TN2YD87',
+  },
+  {
+    name: 'Zombie Assault: Resurgence Wiki',
+    propertyId: '561612480',
+    gaId: 'G-ZNWSBHDZ9S',
+  },
 ];

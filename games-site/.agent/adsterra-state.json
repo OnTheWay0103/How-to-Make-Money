@@ -498,5 +498,25 @@
       "hash": "1e64275ed861",
       "deployedAt": "2026-10-28T13:43:30.357Z"
     }
+  },
+  "demonbluffwiki": {
+    "global": {
+      "hash": "1c7c12fc23a1",
+      "deployedAt": "2026-10-30T01:21:40.702Z"
+    },
+    "guide": {
+      "hash": "f155b3f4e7b7",
+      "deployedAt": "2026-10-30T01:21:40.702Z"
+    }
+  },
+  "zombieassaultresurgencewiki": {
+    "global": {
+      "hash": "16f054085724",
+      "deployedAt": "2026-10-30T01:22:07.709Z"
+    },
+    "guide": {
+      "hash": "bd2959938859",
+      "deployedAt": "2026-10-30T01:22:07.709Z"
+    }
   }
 }
