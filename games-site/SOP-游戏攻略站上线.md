@@ -805,6 +805,31 @@ node scripts/check-new-sites.mjs --site <site>
 - **MUST NOT** 编造 GA4 ID 或广告代码，MUST NOT 手改 `lib/seo-config.ts` / `lib/adsterra-zones.ts`；唯一入口是飞书「站点台账(人工)」。
 - **只需这一条命令**，不要每天全站扫。
 
+### 7.0b 上线 D+2～D+3：Trends 复检（2026-10-30 起）
+
+上线满 2–3 天做一次 Trends 复检。刚上线的游戏当天往往没有数据，评分阶段记成「未见」的，隔两天常能取到。
+
+**查什么**：`{游戏名} codes` + `{游戏名} wiki`，地区 US、窗口 28 天，外加一个基准词（基准词表见 `docs/STRATEGY-选词与评分.md` §2.5.1）。
+
+**怎么判**：
+
+- 还在涨或高位平稳 → 正常按计划扩词
+- 明显在跌 → **只降扩词优先级，不触发止损**。止损仍按 `docs/STRATEGY-生命周期与止损.md` 的 D+90 规则，两者不冲突
+- 取不到（`Not enough data` / 词太新）→ 记「未见 + 原因」，下轮再查，不据此判定
+
+**记在哪**：`keyword-results/{slug}-trends.md`（append-only，每个已建站的游戏一份），一行一次记录：
+
+| 日期 | 查询词 | 方向 | 形状 | 判定 |
+|------|--------|------|------|------|
+| YYYY-MM-DD | {游戏名} codes | 涨 / 平 / 跌 / 未见 | 稳 / 尖峰 / 未见 | 正常扩词 / 降优先级 / 下轮再查 |
+
+**MUST NOT**：
+
+- MUST NOT 用 Trends 单条曲线替代止损判断 —— 止损线只有一条，在 `docs/STRATEGY-生命周期与止损.md`
+- MUST NOT 编造「Not enough data」之外的曲线；没数据就写「未见」
+
+**谁做**：建站协调员（`docs/agents/03` / `04`）执行、主 Agent 验收；候选分析员只管评分阶段的记录（见 `docs/agents/23`）。
+
 ### 7.1 文件完整性检查（⭐ 新增 — 最易遗漏）
 
 - [ ] `vercel.json` 存在且内容正确
@@ -1404,6 +1429,6 @@ node scripts/seo-check.mjs --site <site-dir> --live
 
 ---
 
-> **最后更新**：2026-10-30（七、新增 7.0「上线后每天查新站」：`node scripts/check-new-sites.mjs`）；2026-10-29（C.9 加第 7 条 SEO 合规检查 + 三、3.3 节 SEO 合规机器检查）  
+> **最后更新**：2026-10-30（七、新增 7.0b「上线 D+2～D+3 Trends 复检」；七、新增 7.0「上线后每天查新站」：`node scripts/check-new-sites.mjs`）；2026-10-29（C.9 加第 7 条 SEO 合规检查 + 三、3.3 节 SEO 合规机器检查）  
 > **基于实战**：Witchspire / Mistfall Hunter / Aincrad / The Mound / SpiritVale / Skills & Raids 六个站点  
 > **维护**：每上线一个新站点，回来更新本文档中遇到的新的坑。
