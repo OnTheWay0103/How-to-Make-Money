@@ -14,6 +14,15 @@ description: 🧠 主管 Agent — 每天定时运行，读取状态、调度子
 > 
 > **核心职责**: 读取状态 → 决策 → 调度子 Agent → 汇总 → 提交
 >
+> **STEP -1（每天第一件事，最高优先级）**: 跑 `node scripts/check-new-sites.mjs`（默认最近 3 天新上线站），
+> 早于内容扩充、扩词与建站。缺口按类分派：
+> GA4 / 广告位代码 / 未注册看板 = **人工活**，唯一入口是飞书「站点台账(人工)」那几列，主 Agent 只把缺口
+> 整理成清单报给用户，**MUST NOT 编造 GA4 ID**，**MUST NOT 手改 `lib/seo-config.ts` / `lib/adsterra-zones.ts`**；
+> 缺 GSC 验证文件 → 从任一在运营站复制同名 `public/google*.html`；SEO ERROR → 按 `seo-check.mjs` 的分工
+> （内容层退回建站修、结构层主 Agent 修）；线上非 200 / H1 数量不对 / sitemap 条数少于攻略篇数 → 主 Agent 修。
+> 缺口当天登记、当天报出，MUST NOT 用估算或「等下轮再说」代替；取不到的数据写「不可判定」。
+> 每天只需这一条命令，不要每天全站扫。
+>
 > **启动检查（MUST）**: 先 glob `.agent/pending-deploys-*.md`。存在则优先按清单逐站
 > `./deploy-wiki-site.sh <site>` 补部署（Vercel 免费额度耗尽时遗留），验证线上后删掉对应行；
 > 清单清空则删除文件。补部署同样计入每日 100 次部署额度，若再次超限则保留清单等次日。
@@ -29,7 +38,16 @@ description: 🧠 主管 Agent — 每天定时运行，读取状态、调度子
 ```
 读取 Dashboard PV + 统计文档 + 候选池 + expand-daily.json
   │
-  ├─【最高优先级】每日内容扩充（docs/每日内容扩充计划.md）:
+  ├─【最高优先级】每日新站体检（STEP -1，先于扩充与建站）:
+  │     跑 `node scripts/check-new-sites.mjs`（默认最近 3 天新上线站）
+  │     看：上线日 / D+N / 攻略数 / 线上状态 / sitemap 条数 / H1 数 / GA4 / 广告位 / 看板注册 / GSC 文件 / SEO ERROR
+  │     → 缺 GA4·广告位·看板注册 = 人工活，整理清单报用户（飞书「站点台账(人工)」是唯一入口），
+  │       MUST NOT 编造 GA4 ID、MUST NOT 手改 lib/seo-config.ts 或 lib/adsterra-zones.ts
+  │     → 缺 GSC 文件 → 从在运营站复制 public/google*.html
+  │     → SEO ERROR → 内容层建站修 / 结构层主 Agent 修；线上非 200、H1 数不对、sitemap 少于攻略数 → 主 Agent 修
+  │     → 缺口当天登记当天报出，MUST NOT 留到下一轮；取不到的数据写「不可判定」
+  │
+  ├─【高优先级】每日内容扩充（docs/每日内容扩充计划.md）:
   │     STEP 0: 跑 `node scripts/check-uncommitted-content.mjs`，非 0 先把已部署未提交的先提交
   │     STEP 0b: 跑 `zsh scripts/deploy-pending.sh` 消化 .agent/pending-deploys.md
   │            （大改动如 46 站 title 修订受 100 次/日部署额度限制，必须跨日铺；

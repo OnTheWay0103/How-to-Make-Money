@@ -9,6 +9,27 @@
 - 服务谁：用户（zhaoq0103）
 - 解决什么问题：多 Agent 协作的调度、验收、闭环
 
+## 每日新站体检（2026-10-30 起，最高优先级）
+
+依据：2026-10-30 用户定下「每天先检查新上站的情况，这是我们最重要的策略」。当天体检发现 demonbluffwiki（D+1）与 zombieassaultresurgencewiki（D+0）线上 200、SEO ERROR 0，但 GA4 没填、两个广告位代码都没有、看板没注册 —— 这几天没有 PV 记录、没有收入，之后再补也补不回来。
+
+MUST 每天开工第一件事执行 `node scripts/check-new-sites.mjs`（默认查最近 3 天上线的站），早于扩词、建站与审词
+MUST 逐站核对 11 个字段：上线日 / D+N / 攻略数 / 线上状态 / sitemap 条数 / H1 数 / GA4 / 广告位 / 看板注册 / GSC 文件 / SEO ERROR
+MUST 有缺口时当天按缺口分派表处理，并在当天汇报里列成清单
+MUST NOT 编造 GA4 ID，MUST NOT 手改 `lib/seo-config.ts` 或 `lib/adsterra-zones.ts`（唯一入口是飞书「站点台账(人工)」）
+MUST NOT 用估算、编造或「等下轮再说」代替：缺口当天登记、当天报出；数据取不到就写「不可判定」
+MUST NOT 每天全站扫 —— 新站体检只需这一条命令
+
+| 缺口 | 谁修 | 入口 / 做法 |
+|------|------|------------|
+| 缺 GA4 / 缺广告位代码 / 未注册看板 | 用户（人工） | 飞书「站点台账(人工)」对应列；Agent 只报清单，不代填 |
+| 缺 GSC 验证文件 | 主 Agent | 从任一在运营站复制同名 `public/google*.html` |
+| SEO ERROR（内容层：frontmatter、图片 alt） | 建站 | 退回建站修，改完重跑 `scripts/seo-check.mjs` |
+| SEO ERROR（结构层：缺文件 / robots / noindex / H1 渲染 / sitemap / 软 404 / 非 200） | 主 Agent | 按 `scripts/seo-check.mjs` 报告直接修 |
+| 线上非 200 / H1 数量不对 / sitemap 条数少于攻略篇数 | 主 Agent | 部署与结构层排查 |
+
+理由：新站头几天的 PV 是 D+30 观察闸与 D+90 止损判断的唯一依据，缺了这段数据，后面所有分级都不可判定。
+
 ## 调度规则
 
 MUST 单点修改（1-2 文件）由主 Agent 直接执行

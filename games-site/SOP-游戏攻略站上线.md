@@ -781,6 +781,30 @@ curl -s "https://your-site.vercel.app/robots.txt"
 
 每一项部署后必须逐条确认：
 
+### 7.0 上线后每天查新站（D+0 起）
+
+新站上线后，**每天开工第一件事**跑这一条，早于扩词、建站与外链排期（7.9）：
+
+```bash
+node scripts/check-new-sites.mjs            # 默认查最近 3 天上线的站
+node scripts/check-new-sites.mjs --days 7   # 看更早的站
+node scripts/check-new-sites.mjs --site <site>
+```
+
+逐站看 11 个字段：上线日 / D+N / 攻略数 / 线上状态 / sitemap 条数 / H1 数 / GA4 / 广告位 / 看板注册 / GSC 文件 / SEO ERROR。退出码 1 = 有缺口，缺口会逐条列出来。
+
+| 缺口 | 谁修 | 做法 |
+|------|------|------|
+| 缺 GA4 / 缺广告位代码 / 未注册看板 | 用户（人工） | 飞书「站点台账(人工)」对应列；Agent 只报清单，不代填 |
+| 缺 GSC 验证文件 | 主 Agent | 从任一在运营站复制同名 `public/google*.html` |
+| SEO ERROR（内容层） | 建站 | frontmatter、图片 alt，改完重跑 `scripts/seo-check.mjs` |
+| SEO ERROR（结构层） | 主 Agent | 缺文件 / robots / noindex / H1 渲染 / sitemap / 软 404 / 非 200 |
+| 线上非 200 / H1 数量不对 / sitemap 条数少于攻略篇数 | 主 Agent | 部署与结构层排查 |
+
+- **为什么不能拖**：新站头几天没配 GA4 就没有 PV 记录、没配广告位就没有收入，过了这几天数据永远补不回来，而 D+30 观察闸与 D+90 止损判断都要用这段 PV。
+- **MUST NOT** 编造 GA4 ID 或广告代码，MUST NOT 手改 `lib/seo-config.ts` / `lib/adsterra-zones.ts`；唯一入口是飞书「站点台账(人工)」。
+- **只需这一条命令**，不要每天全站扫。
+
 ### 7.1 文件完整性检查（⭐ 新增 — 最易遗漏）
 
 - [ ] `vercel.json` 存在且内容正确
@@ -1380,6 +1404,6 @@ node scripts/seo-check.mjs --site <site-dir> --live
 
 ---
 
-> **最后更新**：2026-10-29（C.9 加第 7 条 SEO 合规检查 + 三、3.3 节 SEO 合规机器检查）  
+> **最后更新**：2026-10-30（七、新增 7.0「上线后每天查新站」：`node scripts/check-new-sites.mjs`）；2026-10-29（C.9 加第 7 条 SEO 合规检查 + 三、3.3 节 SEO 合规机器检查）  
 > **基于实战**：Witchspire / Mistfall Hunter / Aincrad / The Mound / SpiritVale / Skills & Raids 六个站点  
 > **维护**：每上线一个新站点，回来更新本文档中遇到的新的坑。
