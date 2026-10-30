@@ -2960,3 +2960,28 @@ WARN 中 canonical 与 title/description 长度两项按 2026-10-29 决定 **继
 > 由候选分析员 ANALYSIS-2026-10-31 追加，供下一轮选稿参考。依据 `keyword-results/selection-2026-10-31.md`、`keyword-results/deadlydaysroadtrip.md`、`keyword-results/casualtiesunknown.md`。
 
 本轮 22 个新候选里只有 2 个过线，且都是「建站级」而非「补页级」机会：**① Deadly Days: Roadtrip（#141，18 分）** —— 114 有效词、攻略型 60%，`tier list` / `best build` / `weapon tier list` / `boss` / `beginner guide` 五类词各有 7–15 条 Suggest，是全部候选里唯一页型齐备的一个；`deadlydaysroadtrip.wiki` 实测 45 页×4 语言但 6 条 SERP 完全不可见，P=1.5。**② Casualties: Unknown（#158，15 分）** —— 161 有效词、攻略型 35–42%，`boss` / `map` / `wiki characters` / `best weapons` 成组，且官方社区 wiki `scavprototype.wiki.gg` 已有 563 页，建站必须只做其未覆盖的数值/路线/机制深度。**③ Deadly Days: Roadtrip codes** —— `codes` / `secret codes` / `unlock codes` 三组 Suggest 已出现，但买断制是否有兑换码必须先官方核实；若无可写来源就只做「章节密码/作弊码」并在页内如实说明，MUST NOT 编造兑换码。排序逻辑：#141 与 #158 都将在下一轮进入建站流水线（#141 今日已按每日 1 站上限启动，#158 顺延），codes 页作为 #141 首发页型的候选之一先备料。完整证据见 `keyword-results/selection-2026-10-31.md`。
+
+---
+
+## 新建站 QA — 2026-10-31（#141 Deadly Days: Roadtrip）
+
+> 候选 #141（18/20：需求 5 / 竞争 3 / 内容扩展 5 / 生命周期 5），按 2026-10-28 规则过线（无硬否决）。明细见 `.agent/build-2026-10-31-deadlydaysroadtrip.md`，独立复核见本节。
+
+| 项 | 结果 | 证据 |
+|---|---|---|
+| 模板 | PASS | `new-site.mjs` 从 `templates/wiki-base/` 生成，未复制在运营站 |
+| 内容 | PASS | 7 guide + `/faq`；逐篇 body 1,278–1,599 词（`awk` 实测），全部 ≥1,200 |
+| 构建 | PASS | `pnpm build` exit 0，20 静态页 |
+| SEO 线上 | PASS | `seo-check.mjs --site deadlydaysroadtripwiki --live` exit 0，ERROR 0 / WARN 13 |
+| 线上可达 | PASS | 抽查 `/`、`/guides/beginner-guide`、`/guides/character-tier-list`、`/guides/bosses-guide`、`/faq` 全 200 且 H1=1；sitemap 15 条；假路径 404 |
+| 广告结构 | PASS（结构） | `app/layout.tsx` 挂 `ADSTERRA_ZONES.global` + `<PageAdBanner />`；guide 位在 layout 层按 `/guides/*` 排除，未在单页复制 `AdsterraSlot` |
+| 广告 ID | **缺（人工）** | `check-ad-slots.mjs` 报 global/guide 两个 zone 无 ID；飞书人工表两列为空，不得伪造 |
+| 看板 | **缺（人工）** | `check-dashboard-registry.mjs --site` 报 GA4 measurement ID 为空；`dashboard/lib/sites.ts` 暂无条目 |
+| GSC | PASS | `public/google12f8715471cef7b7.html` 与在运营站同名文件已就位 |
+| 人工表登记 | PASS | `sync-ledger-manual.mjs --apply` 补登记 1 行（只填站点，其余列空着 = 缺口可见） |
+| `/ads.txt` | 不适用 | 该文件为 AdSense publisher 声明；AdSense 自 2026-10-25 暂缓、新站不注入 `ca-pub`，故不补 |
+
+**人工待办（唯一入口 = 飞书「站点台账(人工)2026-10」的 deadlydaysroadtripwiki 行）**：① 建 GA4 property，把 Dashboard 服务账号加为读取者，填 `GA4-measurementID` / `GA4-propertyID`；② 填 `广告位1-SocialBar-code` / `广告位2-NativeBanner-code`。填完等 20:00 回填脚本落地，再跑 `check-ad-slots` + `check-dashboard-registry` 复验。
+
+**WARN（不处理，按 2026-10-29 决定）**：canonical 静态页缺口、`/guides` description 134 字符、部分页站内链接 2 条。均为存量口径，不阻断上线。
+

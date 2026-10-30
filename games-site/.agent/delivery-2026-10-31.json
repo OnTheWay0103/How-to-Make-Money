@@ -1,7 +1,17 @@
 {
   "date": "2026-10-31",
-  "note": "每日扩充 3 站全部交付（名单 = expansion-targets.mjs --json 的 eligible[]，PV30 全部 >1000，逐站 --verify exit 0）。同日顺手修正 shiftatmidnightwiki 两处预存在事实冲突：6 人房已由官方 2026-07-23 公告确认；联机口径统一为 Microsoft 池 / Steam 池分离。STEP -1 新站体检 4 站全无缺口。",
+  "note": "每日扩充 3 站全部交付（名单 = expansion-targets.mjs --json 的 eligible[]，PV30 全部 >1000，逐站 --verify exit 0）。同日新建 #141 Deadly Days: Roadtrip（18 分，每日 1 站名额；#158 顺延 2026-11-01）。顺手修正 shiftatmidnightwiki 两处预存在事实冲突：6 人房已由官方 2026-07-23 公告确认；联机口径统一为 Microsoft 池 / Steam 池分离。STEP -1 新站体检 4 站全无缺口。新站 GA4 / 两个 Adsterra 位为人工缺口，已补登记到飞书「站点台账(人工)」等填。",
   "rows": [
+    {
+      "site": "deadlydaysroadtripwiki",
+      "types": ["新建站", "部署"],
+      "guides": ["beginner-guide", "character-tier-list", "weapon-tier-list", "backpack-and-loot-guide", "bosses-guide", "unlock-all-characters", "meta-progression-guide"],
+      "qa": "PASS",
+      "url": "https://deadlydaysroadtripwiki.vercel.app/",
+      "verify": "200",
+      "words": 9657,
+      "note": "候选 #141（18/20，需求 5/竞争 3/内容 5/生命周期 5）；模板 new-site.mjs 生成，7 guide + /faq 共 9,657 词；19 URL 200 / H1=1 / sitemap 15 / 假路径 404；SEO ERROR 0；GSC 文件已就位。人工缺口：GA4 property + measurement/property ID、两个 Adsterra zone 代码（已补登记飞书人工表），AdSense 暂缓故不补 ads.txt。"
+    },
     {
       "site": "nivalisnightswiki",
       "types": ["扩充", "部署"],
