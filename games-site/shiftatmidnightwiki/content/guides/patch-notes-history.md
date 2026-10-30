@@ -3,7 +3,7 @@ title: "Shift At Midnight Patch Notes & Update History: What's Confirmed (July 2
 description: "Shift At Midnight update history — the network-issues-patch beta branch for lobby fixes, the Endless Mode beta, and the Q4 2026 free update roadmap. What's officially confirmed and how to opt into beta branches."
 category: "Guides"
 version: "1.0"
-updated: '2026-08-11'
+updated: '2026-10-31'
 keywords: ["shift at midnight patch notes", "shift at midnight update", "shift at midnight network issues patch", "shift at midnight beta branch", "shift at midnight roadmap", "shift at midnight new update 2026", "shift at midnight endless mode beta"]
 related:
   - faq-content
@@ -13,6 +13,9 @@ related:
 sources:
   - tier: "Official"
     text: "Launch July 22, 2026 by Bun Muen / Kwalee on Steam and Game Pass; the network-issues beta branch (access code 'networkissues'); Endless Mode beta; Q4 2026 free update roadmap — official announcements and Steam"
+    url: "https://store.steampowered.com/news/app/3722330/view/1839041357027013"
+    date: "2026-07-23"
+    title: "6 PLAYER LOBBIES + FIXES"
   - tier: "Community"
     text: "Lobby connection reports and the beta-branch opt-in procedure are community-documented; the developer has not published a detailed day-by-day changelog"
   - tier: "Editorial"
@@ -64,13 +67,14 @@ The developer has also teased Endless Mode improvements including exclusive cust
 
 ---
 
-## What Has NOT Been Confirmed
+## What Is Confirmed vs. Still Unclear
 
-Some community posts and third-party guides describe specific patch details that have **no official confirmation** — including a supposed "6-player lobby" expansion and exact balance changes. Treat those with skepticism:
+The **6-player lobby** question is settled: the official Steam announcement **"6 PLAYER LOBBIES + FIXES" (July 23, 2026)** is a day-one patch that raises the lobby cap. Note that the Steam store page still describes the intended experience as **1-3 player co-op**, so 6-player sessions are officially possible but outside the balanced setup.
 
-- The Steam store page describes the game as **1-3 player co-op**; claims that lobby size was expanded beyond that are not officially confirmed.
+Other details remain unconfirmed:
+
 - Exact stat changes (health, damage, audio) are not disclosed by the developer; any guide citing precise numbers for a specific patch is speculating.
-- "Full update history" lists with dated entries beyond the launch branch and roadmap have no official source.
+- There is no single consolidated, day-by-day changelog. Official announcements are posted on the Steam news hub; third-party "full update history" lists that go beyond those announcements have no official source.
 
 If a guide on this site describes a mechanic, it reflects what the community consistently documents — not a specific patch version.
 

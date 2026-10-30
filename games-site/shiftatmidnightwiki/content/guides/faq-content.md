@@ -3,7 +3,7 @@ title: "Shift At Midnight FAQ: Common Questions Answered"
 description: "Frequently asked questions about Shift At Midnight. Price, platforms, co-op, solo play, endings, Endless Mode, crossplay, system requirements, Xbox Game Pass, and more."
 category: "Guides"
 version: "1.0"
-updated: '2026-08-01'
+updated: '2026-10-31'
 keywords: ["shift at midnight FAQ", "shift at midnight price", "shift at midnight crossplay", "shift at midnight game pass", "shift at midnight steam", "shift at midnight system requirements"]
 related:
   - beginner-guide
@@ -50,7 +50,7 @@ The **True Ending** is confirmed: bank **$250+ in personal cash** for the pet's 
 
 ### Does Shift At Midnight have crossplay?
 
-**Yes.** The game supports **cross-platform play between PC (Steam) and Xbox** — you can play with friends regardless of platform.
+**Partially — crossplay is split into two separate pools.** Xbox Series X|S and PC Game Pass / Microsoft Store players share one pool and can play together. Steam players can only match with other Steam players — there is **no Steam-to-Xbox crossplay**. See the [Multiplayer FAQ](/guides/multiplayer-faq-guide) for the full pool breakdown and invite troubleshooting.
 
 ---
 

@@ -1,4 +1,4 @@
-# SEO 修复清单 — 2026-10-29
+# SEO 修复清单 — 2026-10-30
 
 站点：shiftatmidnightwiki　模式：本地 + 线上
 ERROR 0 / WARN 97
@@ -75,10 +75,10 @@ ERROR 0 / WARN 97
 | P-DESC-LEN | shiftatmidnightwiki/content/guides/norbert-the-gnome-guide.md | description 194 字符（口径 140–160） |
 | P-TITLE-LEN | shiftatmidnightwiki/content/guides/patch-notes-history.md | title 76 字符（口径 40–60） |
 | P-DESC-LEN | shiftatmidnightwiki/content/guides/patch-notes-history.md | description 211 字符（口径 140–160） |
-| P-WORDS | shiftatmidnightwiki/content/guides/patch-notes-history.md | 599 词，低于项目口径 1200 |
+| P-WORDS | shiftatmidnightwiki/content/guides/patch-notes-history.md | 614 词，低于项目口径 1200 |
 | P-TITLE-LEN | shiftatmidnightwiki/content/guides/pc-performance-guide.md | title 80 字符（口径 40–60） |
 | P-DESC-LEN | shiftatmidnightwiki/content/guides/pc-performance-guide.md | description 189 字符（口径 140–160） |
-| P-WORDS | shiftatmidnightwiki/content/guides/pc-performance-guide.md | 1053 词，低于项目口径 1200 |
+| P-WORDS | shiftatmidnightwiki/content/guides/pc-performance-guide.md | 1066 词，低于项目口径 1200 |
 | P-TITLE-LEN | shiftatmidnightwiki/content/guides/resource-management.md | title 81 字符（口径 40–60） |
 | P-DESC-LEN | shiftatmidnightwiki/content/guides/resource-management.md | description 183 字符（口径 140–160） |
 | P-WORDS | shiftatmidnightwiki/content/guides/resource-management.md | 774 词，低于项目口径 1200 |

@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-31",
+  "note": "每日扩充 3 站全部交付（名单 = expansion-targets.mjs --json 的 eligible[]，PV30 全部 >1000，逐站 --verify exit 0）。同日顺手修正 shiftatmidnightwiki 两处预存在事实冲突：6 人房已由官方 2026-07-23 公告确认；联机口径统一为 Microsoft 池 / Steam 池分离。STEP -1 新站体检 4 站全无缺口。",
+  "rows": [
+    {
+      "site": "nivalisnightswiki",
+      "types": ["扩充", "部署"],
+      "guides": ["no-customers-venue-empty-guide"],
+      "qa": "PASS",
+      "url": "https://nivalisnightswiki.vercel.app/guides/no-customers-venue-empty-guide",
+      "verify": "200",
+      "words": 1550,
+      "note": "反馈：Steam 评测 2 条 + The Guide Hall；来源 12 条（Official 5）；seo-check --live exit 0；check-ad-slots exit 0"
+    },
+    {
+      "site": "waterparksimulatorwiki",
+      "types": ["扩充", "部署"],
+      "guides": ["guest-limit-park-capacity-guide"],
+      "qa": "PASS",
+      "url": "https://waterparksimulatorwiki.vercel.app/guides/guest-limit-park-capacity-guide",
+      "verify": "200",
+      "words": 1384,
+      "note": "反馈：Reddit 6 帖 + Steam 评测汇总；来源 13 条（Official 5）；seo-check exit 0；check-ad-slots exit 0"
+    },
+    {
+      "site": "shiftatmidnightwiki",
+      "types": ["扩充", "修正", "部署"],
+      "guides": ["controller-support-steam-deck-guide", "faq-content", "patch-notes-history"],
+      "qa": "PASS",
+      "url": "https://shiftatmidnightwiki.vercel.app/guides/controller-support-steam-deck-guide",
+      "verify": "200",
+      "words": 1516,
+      "note": "新页 7 组来源；另修正 faq-content 跨平台口径（Steam 与 Xbox 不互通）与 patch-notes-history 6 人房表述（官方 2026-07-23「6 PLAYER LOBBIES + FIXES」）；seo-check exit 0；check-ad-slots exit 0"
+    }
+  ]
+}

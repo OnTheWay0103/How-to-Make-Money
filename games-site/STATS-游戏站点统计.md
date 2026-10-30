@@ -28,7 +28,7 @@
 | 17 | Vahrin's Call | 7/28 | 25 | vahrinscallwiki.vercel.app | ✅ | ✅ | ✅ | 7/27 游戏上线；8/4 +2（Stealth+Backstab、Parrying）；8/5 +2（PC Performance、Lore & Story）；8/6 +3（Skill Book Hunting、NPCs & Characters、Unique Weapons），GSC 待验证 |
 | 18 | The Relic | 7/28 | 32 | relicfirstguardianwiki.vercel.app | ✅ | ✅ | ✅ | 7/31 已上线；8/5 Coordinator 扩充 +2（Enemy Types、Status Effects），GSC 待验证 |
 | 19 | Graphite | 7/29 | 17 | graphitewiki.vercel.app | ✅ | ✅ | ✅ | 7/27 游戏上线，GSC 待验证 |
-| 20 | Shift At Midnight | 7/29 | 36 | shiftatmidnightwiki.vercel.app | ✅ | ✅ | ✅ | 7/22 游戏上线；8/4 +2（All Doppelgangers、Special Monsters）；8/5 +2（PC Performance、Patch Notes）；8/25 关键词驱动扩充 +3（结局解析/角色图鉴/联机 FAQ）+ 站级编造元数据修复（Fiddlesticks→Bun Muen/Kwalee、$9.99、3 结局），QA FAIL→修复→重部署验证 |
+| 20 | Shift At Midnight | 7/29 | 37 | shiftatmidnightwiki.vercel.app | ✅ | ✅ | ✅ | 7/22 游戏上线；8/4 +2（All Doppelgangers、Special Monsters）；8/5 +2（PC Performance、Patch Notes）；8/25 关键词驱动扩充 +3（结局解析/角色图鉴/联机 FAQ）+ 站级编造元数据修复（Fiddlesticks→Bun Muen/Kwalee、$9.99、3 结局），QA FAIL→修复→重部署验证 |
 | 21 | Moonlight Peaks | 7/31 | 17 | moonlightpeakswiki.vercel.app | ✅ | ✅ | ✅ | 7/7 游戏上线，20万销量，GSC 待验证 |
 | 22 | Bonehold | 7/30 | 24 | boneholdwiki.vercel.app | ✅ | ✅ | ✅ | 8/6 +3（System Requirements、Review Guide、Similar Games），GSC 待验证 |
 | 23 | Phantom Tower | 7/30 | 21 | phantomtowerwiki.vercel.app | ✅ | ✅ | ✅ | 8/25 关键词驱动扩充 +3（平台购买/道具图鉴/评测社区）+ best-builds 扩充，QA quick PASS 已重部署 |
@@ -39,10 +39,10 @@
 | 28 | Low-Budget Repairs | 8/03 | 37 | lowbudgetrepairswiki.vercel.app | ✅ | ✅ | ✅ | 8/3 Coordinator auto-build，21/20，8/13 上线，1M+ wishlist，零 wiki 竞争；8/7 +13；8/10 Coordinator +8（Electrical Work、Bathroom、Kitchen、Demolition、Achievements、Permits、Room Strategy、Hidden Secrets）+ QA fix 预发布来源标记；GA4 ✅ |
 | 29 | Big Walk | 8/04 | 17 | bigwalkwiki.vercel.app | ✅ | ✅ | ✅ | 上线当日建站 — 21/25，House House/Panic，8/4 发售，799K wishlist，零 wiki 竞争；GA4 ✅ |
 | 30 | Iron Nest | 8/06 | 22 | ironnestwiki.vercel.app | ✅ | ✅ | ✅ | 8/6 Coordinator auto-build，18/25，843K wishlist，柴油朋克重炮模拟；8/9 Coordinator 扩充 +11（Crew Stations、Enemy Types、Story Walkthrough、Achievements、Advanced Ballistics、Multiplayer、Tips、Map Terrain、Requisition Farming、Lore、Glossary）；GA4 ✅ |
-| 31 | Nivalis Nights | 8/07 | 23 | nivalisnightswiki.vercel.app | ✅ | ✅ | ✅ | 8/7 Coordinator auto-build，22/25，9/29 上线，932K wishlist，ION LANDS/505；GA4 ✅ |
+| 31 | Nivalis Nights | 8/07 | 24 | nivalisnightswiki.vercel.app | ✅ | ✅ | ✅ | 8/7 Coordinator auto-build，22/25，9/29 上线，932K wishlist，ION LANDS/505；GA4 ✅ |
 | 32 | ReStory | 8/08 | 18 | restorywiki.vercel.app | ✅ | ✅ | ✅ | 8/8 auto-build，22/20，8/6 上线，Mandragora/tinyBuild，700K wishlist，98% 好评；8/9 Coordinator 扩充 +10（Cleaning、Soldering、Reprogramming、Valuable Devices、Shop Management、Easter Eggs、Characters、Walkthrough、Game Length、Known Issues）；GA4 ✅ |
 | 33 | Beast of Reincarnation | 8/08 | 25 | beastreincarnationwiki.vercel.app | ✅ | ✅ | ✅ | 8/8 auto-build，21/20，8/4 发售，Game Freak 首款原IP，718K wishlist；8/9 Coordinator 扩充 +12（6 Boss 攻略 + 武器防具 + Bloom Arts + Ch.1-2 Walkthrough + Endings + NG+）；GA4 ✅ |
-| 34 | Waterpark Simulator | 8/08 | 22 | waterparksimulatorwiki.vercel.app | ✅ | ✅ | ✅ | 8/8 auto-build，17/20，7/31 1.0 上线，CayPlay（50M YouTuber），1M+ 下载，96% 好评；GA4 ✅ |
+| 34 | Waterpark Simulator | 8/08 | 23 | waterparksimulatorwiki.vercel.app | ✅ | ✅ | ✅ | 8/8 auto-build，17/20，7/31 1.0 上线，CayPlay（50M YouTuber），1M+ 下载，96% 好评；GA4 ✅ |
 | 35 | DOLOC TOWN | 8/22 | 21 | doloctownwiki.vercel.app | ✅ | ✅ | ✅ | 8/22 BUILD-001，22/20，后末日温馨农场模拟 (RedSaw Games/Logoi Games)，8/6 1.0 发售，95% 好评 2.4K 评测，零 wiki；QA PASS；8/25 deep QA 补 GSC 文件；GA4 ⏳ 待人工配置 |
 | 36 | Sovereign Tower | 8/25 | 19 | sovereigntowerwiki.vercel.app | ✅ | ✅ | ✅ | 8/25 BUILD-002，18/20，圆桌管理模拟 RPG (WILD WITS/Curve Games)，8/6 发售，~1,640 评测 91% Very Positive，$19.99，首周 50K 销量（Curve 官方），英中日零 wiki；8/25 QA quick PASS 已部署；GA4 ⏳ 待人工配置 |
 | 37 | Crimson Moon | 8/28 | 17 | crimsonmoonwiki.vercel.app | ✅ | ✅ | ✅ | 8/28 BUILD-003，18/20，9/1 发售（ProbablyMonsters 魂系动作 RPG，PC/PS5/Xbox，$19.99/$29.99 Deluxe），~365K wishlist 榜#130，英中日韩零 wiki；裸词同名污染→SEO 主攻专属长尾（Gildenarch/Dead Gods/incursions）；16 guides，QA 有条件 PASS；GA4 ⏳ 待人工配置 |
@@ -151,7 +151,7 @@
 | 指标 | 数值 |
 |------|:--:|
 | **总站点数** | 52 |
-| **总攻略数** | 1152 |
+| **总攻略数** | 1155 |
 | **Vercel 部署** | 52/52 ✅ |
 | **GA4 已配置** | 52/52 |
 | **GSC 文件部署** | 52/52 ✅（账户级令牌，所有站共用同一文件） |
