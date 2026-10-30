@@ -10,7 +10,7 @@
 |---:|---|---|---|---|---:|---|
 | 1 | nivalisnightswiki | Running 48 Next.js sites from one laptop: what the tooling actually costs | fleet-tooling | `nivalisnightswiki.vercel.app/guides/beginner-guide` | 844 | [已发](https://dev.to/zhaoq0103/running-48-nextjs-sites-from-one-laptop-what-the-tooling-actually-costs-3mkf) |
 | 2 | waterparksimulatorwiki | The page nobody links to: finding orphan pages in a small content site | orphan-pages | `waterparksimulatorwiki.vercel.app/guides/hidden-content-easter-eggs-guide` | 709 | [已发](https://dev.to/zhaoq0103/the-page-nobody-links-to-finding-orphan-pages-in-a-small-content-site-8ka) |
-| 3 | sephiriawiki | Writing content that survives patch notes: version stamps for static sites | content-versioning | `sephiriawiki.vercel.app/guides/builds-guide` | 602 | 待发 |
+| 3 | sephiriawiki | Writing content that survives patch notes: version stamps for static sites | content-versioning | `sephiriawiki.vercel.app/guides/builds-guide` | 602 | [已发](https://dev.to/zhaoq0103/writing-content-that-survives-patch-notes-version-stamps-for-static-sites-5g7) |
 | 4 | shiftatmidnightwiki | A 4,000-word walkthrough people can actually navigate | long-form-structure | `shiftatmidnightwiki.vercel.app/guides/story-walkthrough` | 593 | 待发 |
 | 5 | themoundwiki | Tables in Markdown don't scale: a small data layer for content sites | tabular-content | `themoundwiki.vercel.app/guides/enemy-bestiary` | 501 | 待发 |
 | 6 | spiritvalewiki | Two sites, identical analytics: debugging a duplicated GA4 property mapping | analytics-debugging | `spiritvalewiki.vercel.app/guides/weapons-guide` | 604 | 待发 |

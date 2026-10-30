@@ -12,41 +12,41 @@ node scripts/backlink-queue.mjs --write   # 每周一刷新（也用于发完一
 node scripts/link-check.mjs --write       # 发完立刻实测 rel，结果回写外链台账
 ```
 
-**取数**：2026-10-27T23:32:19.754Z 抓 `dashboard /api/traffic`（GA4 30 天窗口）。当前名额 **30** 站。
-**排除**：18 站（PV < 50 / 未满 30 天 / 不再维护 / 上线日不明）。
+**取数**：2026-10-30T23:46:54.676Z 抓 `dashboard /api/traffic`（GA4 30 天窗口）。当前名额 **30** 站。
+**排除**：23 站（PV < 50 / 未满 30 天 / 不再维护 / 上线日不明）。
 
 | # | 站点目录 | PV30 | 上线日 | 首选目标页 | 上次发文 | 存活条数 | 状态 |
 |---:|---|---:|---|---|---|---:|---|
-| 1 | nivalisnightswiki | 2433 | 2026-08-07 | /guides/beginner-guide | 2026-10-27 | 2 | 进行中 |
-| 2 | sephiriawiki | 1148 | 2026-07-20 | /guides/builds-guide | — | 0 | 待排 |
-| 3 | waterparksimulatorwiki | 1144 | 2026-08-08 | /guides/hidden-content-easter-eggs-guide | 2026-10-28 | 2 | 进行中 |
-| 4 | shiftatmidnightwiki | 1067 | 2026-07-29 | /guides/story-walkthrough | — | 0 | 待排 |
-| 5 | themoundwiki | 804 | 2026-07-11 | /guides/enemy-bestiary | — | 0 | 待排 |
-| 6 | spiritvalewiki | 801 | 2026-07-12 | /guides/weapons-guide | — | 0 | 待排 |
-| 7 | moonlightpeakswiki | 773 | 2026-07-31 | /guides/money-guide | — | 0 | 待排 |
-| 8 | tearsofmetalwiki | 690 | 2026-07-23 | /guides/heroes-tier-list | — | 0 | 待排 |
-| 9 | gotownwiki | 561 | 2026-08-01 | /guides/best-layout-guide | — | 0 | 待排 |
-| 10 | relicfirstguardianwiki | 369 | 2026-07-28 | /guides/weapons-guide | — | 0 | 待排 |
-| 11 | aincradwiki | 340 | 2026-07-07 | /guides/beginner-guide | — | 0 | 待排 |
-| 12 | witchspirewiki | 339 | 2026-06-30 | /guides/hearth-upgrade-guide | — | 0 | 待排 |
-| 13 | ironnestwiki | 325 | 2026-08-06 | /guides/beginner-guide | — | 0 | 待排 |
-| 14 | expeditionssamuraiwiki | 310 | 2026-08-01 | /guides/best-builds-guide | — | 0 | 待排 |
-| 15 | delveriumwiki | 296 | 2026-08-02 | /guides/boss-guide | — | 0 | 待排 |
-| 16 | bigwalkwiki | 280 | 2026-08-04 | /guides/controls-guide | — | 0 | 待排 |
-| 17 | vahrinscallwiki | 271 | 2026-07-28 | /guides/weapons-guide | — | 0 | 待排 |
-| 18 | dragonswordwiki | 264 | 2026-07-24 | /guides/hero-builds-guide | — | 0 | 待排 |
-| 19 | grainrotwiki | 215 | 2026-07-24 | /guides/outpost-upgrade-guide | — | 0 | 待排 |
-| 20 | ardentwildswiki | 175 | 2026-07-31 | /guides/beginner-guide | — | 0 | 待排 |
-| 21 | lunariumwiki | 149 | 2026-07-26 | /guides/equipment-guide | — | 0 | 待排 |
-| 22 | restorywiki | 149 | 2026-08-08 | /guides/walkthrough-guide | — | 0 | 待排 |
-| 23 | mystraliawiki | 138 | 2026-07-22 | /guides/best-spell-builds | — | 0 | 待排 |
-| 24 | boneholdwiki | 126 | 2026-07-30 | /guides/beginner-guide | — | 0 | 待排 |
-| 25 | mistfallhunterwiki | 119 | 2026-07-04 | /guides/combat-mechanics-guide | — | 0 | 待排 |
-| 26 | taivalwiki | 90 | 2026-07-27 | /guides/beginner-guide | — | 0 | 待排 |
-| 27 | phantomtowerwiki | 76 | 2026-07-30 | /guides/best-builds | — | 0 | 待排 |
-| 28 | dinobladewiki | 68 | 2026-07-20 | /guides/soul-arts-guide | — | 0 | 待排 |
-| 29 | beastreincarnationwiki | 64 | 2026-08-08 | /guides/secrets-collectibles-guide | — | 0 | 待排 |
-| 30 | lowbudgetrepairswiki | 56 | 2026-08-03 | /guides/hidden-secrets-guide | — | 0 | 待排 |
+| 1 | nivalisnightswiki | 1830 | 2026-08-07 | /guides/best-business-guide | 2026-10-27 | 2 | 进行中 |
+| 2 | waterparksimulatorwiki | 1061 | 2026-08-08 | /guides/hidden-content-easter-eggs-guide | 2026-10-28 | 2 | 进行中 |
+| 3 | shiftatmidnightwiki | 1030 | 2026-07-29 | /guides/story-walkthrough | — | 0 | 待排 |
+| 4 | sephiriawiki | 939 | 2026-07-20 | /guides/builds-guide | 2026-10-31 | 2 | 进行中 |
+| 5 | themoundwiki | 800 | 2026-07-11 | /guides/enemy-bestiary | — | 0 | 待排 |
+| 6 | spiritvalewiki | 797 | 2026-07-12 | /guides/weapons-guide | — | 0 | 待排 |
+| 7 | moonlightpeakswiki | 759 | 2026-07-31 | /guides/money-guide | — | 0 | 待排 |
+| 8 | tearsofmetalwiki | 599 | 2026-07-23 | /guides/best-builds | — | 0 | 待排 |
+| 9 | gotownwiki | 539 | 2026-08-01 | /guides/best-layout-guide | — | 0 | 待排 |
+| 10 | aincradwiki | 345 | 2026-07-07 | /guides/beginner-guide | — | 0 | 待排 |
+| 11 | witchspirewiki | 342 | 2026-06-30 | /guides/hearth-upgrade-guide | — | 0 | 待排 |
+| 12 | relicfirstguardianwiki | 338 | 2026-07-28 | /guides/weapons-guide | — | 0 | 待排 |
+| 13 | ironnestwiki | 322 | 2026-08-06 | /guides/beginner-guide | — | 0 | 待排 |
+| 14 | expeditionssamuraiwiki | 311 | 2026-08-01 | /guides/best-builds-guide | — | 0 | 待排 |
+| 15 | vahrinscallwiki | 277 | 2026-07-28 | /guides/weapons-guide | — | 0 | 待排 |
+| 16 | dragonswordwiki | 269 | 2026-07-24 | /guides/hero-builds-guide | — | 0 | 待排 |
+| 17 | bigwalkwiki | 246 | 2026-08-04 | /guides/controls-guide | — | 0 | 待排 |
+| 18 | delveriumwiki | 232 | 2026-08-02 | /guides/boss-guide | — | 0 | 待排 |
+| 19 | grainrotwiki | 210 | 2026-07-24 | /guides/outpost-upgrade-guide | — | 0 | 待排 |
+| 20 | ardentwildswiki | 154 | 2026-07-31 | /guides/crafting-guide | — | 0 | 待排 |
+| 21 | restorywiki | 150 | 2026-08-08 | /guides/walkthrough-guide | — | 0 | 待排 |
+| 22 | lunariumwiki | 144 | 2026-07-26 | /guides/equipment-guide | — | 0 | 待排 |
+| 23 | mystraliawiki | 132 | 2026-07-22 | /guides/best-spell-builds | — | 0 | 待排 |
+| 24 | mistfallhunterwiki | 120 | 2026-07-04 | /guides/combat-mechanics-guide | — | 0 | 待排 |
+| 25 | boneholdwiki | 115 | 2026-07-30 | /guides/beginner-guide | — | 0 | 待排 |
+| 26 | taivalwiki | 89 | 2026-07-27 | /guides/beginner-guide | — | 0 | 待排 |
+| 27 | beastreincarnationwiki | 63 | 2026-08-08 | /guides/secrets-collectibles-guide | — | 0 | 待排 |
+| 28 | lowbudgetrepairswiki | 56 | 2026-08-03 | /guides/hidden-secrets-guide | — | 0 | 待排 |
+| 29 | dinobladewiki | 55 | 2026-07-20 | /guides/soul-arts-guide | — | 0 | 待排 |
+| 30 | phantomtowerwiki | 55 | 2026-07-30 | /guides/items-catalog-guide | — | 0 | 待排 |
 
 > `上线日` 带 `*` = 台账该列空着，回退成 GA property 创建日（近似值，不是真实上线日）。
 > `存活条数` 只数外链台账里 `status=live` 且 rel 不是 nofollow/ugc/sponsored 的条目。

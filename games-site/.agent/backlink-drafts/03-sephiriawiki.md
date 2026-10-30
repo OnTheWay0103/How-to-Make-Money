@@ -7,10 +7,10 @@ targetUrl: https://sephiriawiki.vercel.app/guides/builds-guide
 anchorBrand: Sephiria Wiki
 anchorLongtail: Sephiria build and artifact notes
 angle: content-versioning
-status: draft
-devtoId:
-devtoUrl:
-publishedAt:
+status: published
+devtoId: 4949937
+devtoUrl: https://dev.to/zhaoq0103/writing-content-that-survives-patch-notes-version-stamps-for-static-sites-5g7
+publishedAt: 2026-10-30T23:46:23.543Z
 ---
 
 A game guide has a property no ordinary article has: it can become wrong without anyone editing it.
