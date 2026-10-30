@@ -321,4 +321,9 @@ export const SITES: SiteConfig[] = [
     propertyId: '561612480',
     gaId: 'G-ZNWSBHDZ9S',
   },
+  {
+    name: 'Deadly Days: Roadtrip Wiki',
+    propertyId: '561697826',
+    gaId: 'G-B2ENQMW2F6',
+  },
 ];
