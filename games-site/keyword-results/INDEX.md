@@ -1,10 +1,10 @@
 # 词库索引
 
-> 生成时间：2026-10-30 20:34 UTC
+> 生成时间：2026-10-31 02:59 UTC
 > 生成脚本：`node scripts/keyword-index.mjs` —— 不要手改本文件
 > 规则：`docs/STRATEGY-挖词与词库.md`
 
-共 **172** 份游戏词库（新格式 99，旧格式 73），已建站 **41** 站。
+共 **175** 份游戏词库（新格式 99，旧格式 76），已建站 **42** 站。
 
 > 新格式以 `slug == 站点目录名去掉 wiki` 精确匹配；旧格式只能按文件名猜，「未建站」可能有漏配。
 
@@ -58,7 +58,7 @@
 | Apocalyptica | apocalyptica | 51 | 2026-10-31 | google_suggest:51（裸词 12、后缀:release date 11、品牌+game 8） | 1 Codes / 3 Tier List / 5 FAQ / 待定 | 未建站 | new |
 | Casualties: Unknown | casualtiesunknown | 165 | 2026-10-31 | google_suggest:206（裸词 15、探针:characters 15、后缀:guide 15） | 1 Codes / 2 Beginner / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
 | County of Fortune | countyoffortune | 26 | 2026-10-31 | google_suggest:27（裸词 14、品牌+game 4、后缀:how to 4） | 2 Beginner / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
-| Deadly Days: Roadtrip | deadlydaysroadtrip | 114 | 2026-10-31 | google_suggest:132（裸词 15、后缀:characters 15、后缀:unlock 15） | 1 Codes / 2 Beginner / 3 Tier List / 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
+| Deadly Days: Roadtrip | deadlydaysroadtrip | 114 | 2026-10-31 | google_suggest:132（裸词 15、后缀:characters 15、后缀:unlock 15） | 1 Codes / 2 Beginner / 3 Tier List / 4 核心机制/Boss / 5 FAQ / 待定 | deadlydaysroadtripwiki | new |
 | Divine Frequency | divinefrequency | 42 | 2026-10-31 | google_suggest:67（裸词 15、品牌+game 12、后缀:multiplayer 5） | 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
 | GRAVHOUNDS | gravhounds | 1 | 2026-10-31 | google_suggest:1（品牌+game 1） | 5 FAQ | 未建站 | new |
 | Grimhold | grimhold | 18 | 2026-10-31 | google_suggest:43（裸词 12、品牌+game 5、后缀:meta 4） | 5 FAQ / 待定 | 未建站 | new |
@@ -70,6 +70,7 @@
 | Rise of the Merchants | riseofthemerchants | 3 | 2026-10-31 | google_suggest:3（裸词 3） | 5 FAQ / 待定 | 未建站 | new |
 | The Last Legion | thelastlegion | 52 | 2026-10-31 | google_suggest:82（裸词 15、后缀:wiki 6、品牌+game 6） | 4 核心机制/Boss / 5 FAQ / 待定 | 未建站 | new |
 | Zotenhold | zotenhold | 1 | 2026-10-31 | google_suggest:16（后缀:beginner guide 1、后缀:characters 1、后缀:demo 1） | 待定 | 未建站 | new |
+| Deadly Days: Roadtrip | deadlydaysroadtrip-sources | 0 | 2026-10-31 | — | — | 未建站 | legacy-meta |
 | Curse of Resthaven | curseofresthaven | 9 | 2026-10-30 | google_suggest:9（裸词 9） | 5 FAQ / 待定 | 未建站 | new |
 | Dead Party | deadparty | 22 | 2026-10-30 | google_suggest:28（裸词 13、探针:characters 4、后缀:guide 3） | 5 FAQ / 待定 | 未建站 | new |
 | DUSTBLOOM | dustbloom | 7 | 2026-10-30 | google_suggest:49（裸词 6、后缀:base building 3、后缀:beginner guide 3） | 待定 | 未建站 | new |
@@ -197,6 +198,7 @@
 | Witchspire | Witchspire-feedback | 0 | — | — | — | 未建站 | legacy |
 | Blind Descent | blinddescent-matrix | 0 | — | — | — | 未建站 | legacy |
 | Blind Descent | blinddescent-sources | 0 | — | — | — | 未建站 | legacy |
+| Deadly Days: Roadtrip | deadlydaysroadtrip-matrix | 0 | — | — | — | 未建站 | legacy |
 | Demon Bluff | demonbluff-matrix | 0 | — | — | — | 未建站 | legacy |
 | Demon Bluff | demonbluff-sources | 0 | — | — | — | 未建站 | legacy |
 | GONE Fishing | gonefishing-matrix | 0 | — | — | — | 未建站 | legacy |
@@ -217,6 +219,7 @@
 | 候选分析 | selection-2026-10-28 | 0 | — | — | — | 未建站 | legacy |
 | 选词评分 | selection-2026-10-29 | 0 | — | — | — | 未建站 | legacy |
 | 选词评分 | selection-2026-10-30 | 0 | — | — | — | 未建站 | legacy |
+| 选词评分 | selection-2026-10-31 | 0 | — | — | — | 未建站 | legacy |
 | Silver Pines / Dressmaker | silverpines-dressmaker-postlaunch-fix | 0 | — | — | — | 未建站 | legacy |
 | SILVER PINES 建站记录 | silverpineswiki-build-9-16 | 0 | — | — | — | 未建站 | legacy |
 | The Relic: First Guardian | the-relic-first-guardian | 0 | — | — | — | 未建站 | legacy |
@@ -228,7 +231,7 @@
 
 ## 待处理
 
-**软问题**（旧格式，逐步随复采替换，不阻塞）：56 份
+**软问题**（旧格式，逐步随复采替换，不阻塞）：58 份
 
 - 无采集元信息头（无法自动统计）：Ardent-Wilds.md
 - 无采集元信息头（无法自动统计）：DinoBlade.md
@@ -250,4 +253,4 @@
 - 无采集元信息头（无法自动统计）：Sephiria-feedback.md
 - 无采集元信息头（无法自动统计）：Silver-Pines.md
 - 无采集元信息头（无法自动统计）：Skills-and-Raids.md
-- … 其余 36 份
+- … 其余 38 份
