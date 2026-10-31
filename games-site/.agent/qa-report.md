@@ -2983,5 +2983,27 @@ WARN 中 canonical 与 title/description 长度两项按 2026-10-29 决定 **继
 
 **人工待办（唯一入口 = 飞书「站点台账(人工)2026-10」的 deadlydaysroadtripwiki 行）**：① 建 GA4 property，把 Dashboard 服务账号加为读取者，填 `GA4-measurementID` / `GA4-propertyID`；② 填 `广告位1-SocialBar-code` / `广告位2-NativeBanner-code`。填完等 20:00 回填脚本落地，再跑 `check-ad-slots` + `check-dashboard-registry` 复验。
 
-**WARN（不处理，按 2026-10-29 决定）**：canonical 静态页缺口、`/guides` description 134 字符、部分页站内链接 2 条。均为存量口径，不阻断上线。
+**WARN（不处理，按 2026-10-29 决定）**：canonical 静态页缺口、`/guides` description 134 字符、部分站内链接 2 条。均为存量口径，不阻断上线。
+
+---
+
+## 第二轮复验 — 2026-10-31 21:00（无新增内容）
+
+> 本轮是 10-31 的第二个每日轮次。开工检查全部通过，且当日必做项已在 04:22 轮完成（扩充 3 站 + 侦察 22 候选 + 22/22 采词 + 分析轮 + 新建 #141），按「每站每天 1 篇 / 每天最多 1 新站」规则本轮不重复产出，只做落地复验。
+
+| 检查 | 结果 | 证据 |
+|---|---|---|
+| STEP -1 新站体检 | ✅ 5 站无缺口 | `check-new-sites.mjs`：blinddescent / deadlydaysroadtrip / demonbluff / probablystolen / zombieassaultresurgence，线上 200、H1=1、sitemap 覆盖、GA4/两广告位/看板/GSC/SEO 全齐 |
+| STEP 0 已部署未提交 | ✅ exit 0 | `check-uncommitted-content.mjs` |
+| STEP 0b 部署队列 | ✅ 清单为空 | `deploy-pending.sh`，额度已用 0/100 |
+| 扩充名单 | ✅ 3 站已扩 | `expansion-targets --json` eligible = nivalis 1841 / waterpark 1069 / shiftatmidnight 1056，三站 `--verify` exit 0，`lastExpanded=2026-10-31`，今日不重复 |
+| 今日新页线上 | ✅ 4/4 → 200 | no-customers-venue-empty / guest-limit-park-capacity / controller-support-steam-deck / deadlydays beginner-guide |
+| #141 广告位（20:00 人工回填后） | ✅ exit 0 | `check-ad-slots.mjs deadlydaysroadtripwiki --live`：两 zone 已上线 |
+| #141 看板注册 | ✅ 已注册 | `check-dashboard-registry.mjs --site deadlydaysroadtripwiki` |
+| 关键词报告新鲜度 | ✅ 无需重采 | 三个在扩站的报告 10-24–10-28 提交，均 <30 天；池内无 `需采集`、无 `待分析`（#141–#162 已全部分析完） |
+| 外链周额度 | ⏸️ 已用满 | dev.to 本周 3 篇（10-27 / 10-28 / 10-31），下周一 11-02 再排 |
+
+**当日人工待办**：无。deadlydaysroadtripwiki 的 GA4 + 两广告位已由飞书人工表填写，20:00 回填脚本已部署落地并复验通过。
+
+**下一轮**：#158 Casualties: Unknown（15 分，可建）按每日 1 站上限顺延至 2026-11-01。
 

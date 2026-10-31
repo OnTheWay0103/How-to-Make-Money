@@ -61,7 +61,7 @@
 | 50 | 🆕 probablystolenwiki | 10/28 | 6 | probablystolenwiki.vercel.app | ✅ | ✅ | ✅ | ⚠️ 新站点，需手动补全信息 |
 | 51 | 🆕 demonbluffwiki | ❓ | 6 | demonbluffwiki.vercel.app | ✅ | ✅ | ✅ | ⚠️ 新站点，需手动补全信息 |
 | 52 | Zombie Assault: Resurgence | 10/30 | 6 | zombieassaultresurgencewiki.vercel.app | ✅ | ✅ | ✅ | 10/30 BUILD（#130，14/20 压线，需求封顶 3），Ninja Kiwi 丧尸合作射击 RPG，**10/28 发售当日 +2 天**，$11.99，单机/4 人 co-op；Steam 170 条 68% Mixed（D+2）；竞争者 `saszombieassault.wiki.gg`（厚）+ `zombieassaultresurgence.wiki`（16 页×3 语言）；6 篇 8,713 词（3 职业构筑 + 武器 tier list + 武器全表 + 改装升级），未建 codes 页（买断无兑换码）；seo-check --live exit 0；**Adsterra 两位 + GA4 + GSC 待人工** |
-| 53 | 🆕 deadlydaysroadtripwiki | ❓ | 7 | deadlydaysroadtripwiki.vercel.app | ✅ | ❌ | ✅ | ⚠️ 新站点，需手动补全信息 |
+| 53 | 🆕 deadlydaysroadtripwiki | ❓ | 7 | deadlydaysroadtripwiki.vercel.app | ✅ | ✅ | ✅ | ⚠️ 新站点，需手动补全信息 |
 <!-- AUTO-END:overview-table -->
 
 ---
@@ -154,8 +154,7 @@
 | **总站点数** | 53 |
 | **总攻略数** | 1162 |
 | **Vercel 部署** | 53/53 ✅ |
-| **GA4 已配置** | 52/53 |
-| **GA4 真缺失** | 1（deadlydaysroadtripwiki（空）） |
+| **GA4 已配置** | 53/53 |
 | **GSC 文件部署** | 53/53 ✅（账户级令牌，所有站共用同一文件） |
 <!-- AUTO-END:summary -->
 
